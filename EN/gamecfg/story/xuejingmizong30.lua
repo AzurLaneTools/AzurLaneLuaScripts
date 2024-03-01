@@ -28,15 +28,15 @@ return {
 			},
 			sequence = {
 				{
-					"鸢尾教国首都",
+					"Iris Orthodoxy - Holy Capital",
 					1
 				},
 				{
-					"北方联合大使馆",
+					"Northern Parliament Embassy",
 					2
 				},
 				{
-					"事件结束后的某一日",
+					"After the battle's conclusion",
 					3
 				}
 			}
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "感谢你的到来，指挥官同志。",
+			say = "Thank you for coming all this way, Commander.",
 			bgm = "story-antarctica-serious",
 			flashout = {
 				black = true,
@@ -82,7 +82,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "听说{namecode:529:苏维埃同盟}有重要的事要跟我说？",
+			say = "Soyuz told me you had something important for me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错，是关于安塔迪卡冰层下的那座设施的。",
+			say = "That, I do. It's about the Ring of the Wise – our Antarctic bunker.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "此前在战斗时{namecode:530:同盟}同志所提供的情报虽然是真实的，但并不是完整的。",
+			say = "You were given information on it during the battle. We had, however, omitted a few details.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,82 +129,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这一次，她托我向你转交那份设施的完整资料。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "……完整资料。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "也就是说那座设施，除了科考站和末日地堡之外，还隐藏着其他秘密？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 702010,
-			side = 2,
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "没错。它的真实功能……与地磁场有关。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 702010,
-			side = 2,
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "详细资料都在此处，你可以尽情查阅。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 702010,
-			side = 2,
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "不过，请不要将资料带走，并不要对除了我、{namecode:530:同盟}同志之外的第三人提起。",
+			say = "Soyuz asked me to provide you with the complete records.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +145,19 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……这件事在北方联合内部也没什么人知道？",
+			say = "You mean there's even more to it?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_603",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "I knew that was no mere doomsday bunker, but even what I knew wasn't the full story?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +170,41 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是的。",
+			say = "Indeed, it's not. Its true duty has to do with... geomagnetic fields.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 702010,
+			side = 2,
+			bgName = "star_level_bg_603",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "The details are all in here. I suggest you read it for yourself.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 702010,
+			side = 2,
+			bgName = "star_level_bg_603",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "You cannot bring these documents with you, however. Also, please don't speak a word of this to anyone but me or Soyuz.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +220,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我明白了。",
+			say = "So this is some of the most classified stuff the Northern Parliament has.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +233,36 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "感谢你的理解与配合，指挥官同志。",
+			say = "It is.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_603",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Understood. I'll give it a read.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 702010,
+			side = 2,
+			bgName = "star_level_bg_603",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Please do. And thank you, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1

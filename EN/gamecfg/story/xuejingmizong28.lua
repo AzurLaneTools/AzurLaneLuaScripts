@@ -28,15 +28,15 @@ return {
 			},
 			sequence = {
 				{
-					"鸢尾教国首都",
+					"Iris Orthodoxy - Holy Capital",
 					1
 				},
 				{
-					"碧蓝航线临时办公楼",
+					"Azur Lane Provisional Base",
 					2
 				},
 				{
-					"翌日清晨",
+					"After the battle's conclusion",
 					3
 				}
 			}
@@ -46,7 +46,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
-			say = "此前的预感果然是正确的，今夜——无人入眠。",
+			say = "It would be another sleepless night, just as I had been fearing.",
 			bgm = "story-commander-up",
 			flashout = {
 				black = true,
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
-			say = "胜利的喜悦还未消失，敌情报告就如雪片般纷飞而至。",
+			say = "Amidst victory celebrations, reports of Siren attacks started blowing in like a snowstorm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
-			say = "SA海域、银地洋、帕克菲克洋都出现了塞壬舰队大量调动的报告。",
+			say = "Large Siren fleets had been sighted nearly everywhere, from the South Atlantic to the Antarctic and its surrounding ocean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
-			say = "所有情报都显示，塞壬正在将周边海域的力量向安塔迪卡洋中集中。",
+			say = "They were all converging upon a single point in the Southern Ocean.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
-			say = "看来在水星纪念·META被击败的同时，被困的观察者也似乎终于恢复了自由。",
+			say = "It seemed like repelling Pamiat' Merkuria META gave Observer the breathing room to launch a counterattack.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
-			say = "迪洛伊军团虽然依旧强盛，不过想来观察者是不会放过它们的。",
+			say = "To make matters worse, the Gazers were still lurking somewhere beneath the snow. We would have to take care of them before moving on to the Sirens.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
-			say = "自然，我也不认为塞壬会在混战中对我们刻意手下留情。",
+			say = "However, I could not let the shipgirls remain in Antarctica. If they did, the fighting would surely get chaotic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
-			say = "因此，我已经向舰队下达了全面撤退的命令。",
+			say = "For that reason, I ordered the immediate withdrawal of all forces present on the continent.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
-			say = "联合舰队将在一同撤离至安全海域后，再各自分散返回。",
+			say = "I instructed the Combined Azur Lane fleet to move to safe waters, then spread out and return to their faction's area of control.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
-			say = "这些部署也终于完成后，我再次联系了海伦娜·META——",
+			say = "Now, having done all this, it was time to contact the girl who'd helped me so much during this operation...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "映入眼帘的，依旧是一片璀璨的星河。",
+			say = "I closed my eyes and allowed the cognitive influence into my mind. A galaxy full of stars spread out before me.",
 			bgm = "theme-starsea-core",
 			typewriter = {
 				speed = 0.05,
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "早，你来问问题啦？",
+			say = "Hey. Here to ask me something?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "什么都瞒不过你。",
+			say = "Yeah. About the crystals. While they do exhibit some resonance with riggings, the amount is just not enough to be practical.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以，你一开始就知道所谓“性能独特的矿物”根本不存在？",
+			say = "They're worthless as a cure for hull damage, and we can never hope to get more of them than the bunker managed to produce.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "是哦。",
+			say = "Mhm. They were just bait Observer used to lure you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那{namecode:529:苏维埃同盟}在触碰矿物样本后产生的改变究竟是怎么回事？",
+			say = "Be that as it may, the crystals DID restructure Soyuz's rigging. Why is that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "观察者解除了由它自己设下的某些锁，仅此而已。",
+			say = "I think that was just another trick on Observer's part. Seeing is believing, and she made you believe by removing what was inhibiting Soyuz. It was the quickest way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,7 +294,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那水星纪念·META在战斗中产生的突然变化呢。",
+			say = "I see. So it was something different to the \"resculpting\" that Pamiat' spoke of.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "她称之为「重塑」的这一现象，究竟是什么？",
+			say = "Is there anything you can tell me about that, actually?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "你有想过一个问题么，为什么META化会在增强战斗力的同时改变人的性格？",
+			say = "\"Resculpting\" is... Well, it's a special stage of METAmorphosis, fraught with danger and instability. I don't want to tell you too much.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "这些“信息”的源头是哪里？想明白这个问题，她所产生的变化也就不难理解了。",
+			say = "But, to give you a hint – by now, you've met several girls whose METAmorphosis changed them somehow.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "所谓「重塑」……只是META化的一个特殊阶段而已，危险且不稳定，你不需要了解太多。",
+			say = "Why do you think they changed? Where do the energy and data that turned them into what they are come from?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,7 +371,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……在水星纪念·META释放出黑色冲击的时候，我在指挥中心内也遭到了波及。",
+			say = "Data from the \"prime\" branch, huh... When I was attacked by that black mist, it sent me into another Wisdom Cube information space.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "之后，我进入了一篇白色的空间，见到了一个自称是水星纪念的概念集合之人。",
+			say = "This time, it led me to a girl who claimed to be the \"culmination of the concept of Pamiat' Merkuria.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……而且还听到了风铃的声音。",
+			say = "We talked about some things, but got interrupted by the sound of wind chimes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这已经不是我第一次进入那片空间，也不是第一次听到风铃声了。",
+			say = "I've heard those chimes and visited information spaces multiple times now, yet I still know next to nothing about either.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你知道这些都是什么么？",
+			say = "I don't reckon you have all the answers, but maybe you can tell me a thing or two?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "嗯——当时我并没有被波及到，所以不清楚你具体见到了什么样的景色呢。",
+			say = "I can't, since I don't know what things you truly saw in there.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "有机会的话，我们一起去看看吧~",
+			say = "If we ever get the chance, though, I'd like to see it with you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "反正太阳活动正在加剧，这种事不会是最后一次。",
+			say = "The sun's activity is on the rise, so I know this won't be our last meeting.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,7 +484,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "太阳……萨拉托加好像也提到了太阳。",
+			say = "What was that about the sun? What does that have to do with anything?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "太阳活动加剧意味着什么？",
+			say = "Unless... it's not the sun itself that's important, but rather the concept of the sun...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "从概念上来说代表着「薄弱」，「薄弱」有利于引发「交汇」。",
+			say = "Correct. Conceptually, it represents weakening, and weakening facilitates coalescence.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -527,25 +527,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "是危险也是机会，我现在只能对你说这么多。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#FFC960",
-			actor = 9702010,
-			say = "这件事你别再追问，也别去打听更多，等时机到了我会向你和盘托出的。",
+			say = "It comes with some danger, but also with opportunities.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -563,7 +545,25 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "现在你还是着眼于眼前的问题吧。",
+			say = "Sorry for being so vague on the details. I'll tell you everything in due time.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_port_chongdong",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFC960",
+			actor = 9702010,
+			say = "...I have to ask – are you really not worried about that Pamiat'?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -581,7 +581,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "还记得水星纪念·META最后的警告么？那可不是什么无聊的狠话。",
+			say = "She told you herself. She'll attack again whenever she sees the chance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -597,7 +597,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你是指……海洛芬特很快会卷土重来？",
+			say = "When the Arbiters strike, we'll be ready for them. We'll be ready for that girl, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -611,7 +611,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "如果海潮还未褪去，何谈重来？",
+			say = "I sure hope so. Your branch is currently under constant threat.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -629,7 +629,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "水星纪念·META提到了三个目的，你大概只挫败了其中一个而已。",
+			say = "You stopped her from accomplishing her first objective. She still has two more.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -647,7 +647,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "剩下两个她有何打算，你想过么？",
+			say = "Be on your guard, Commander.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -665,7 +665,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702010,
-			say = "小心身边，这场事件还远未结束哦——",
+			say = "The battle isn't over yet.",
 			painting = {
 				alpha = 0.3,
 				time = 1

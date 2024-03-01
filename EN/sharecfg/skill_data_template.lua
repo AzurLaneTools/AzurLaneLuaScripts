@@ -105497,7 +105497,7 @@ One of the following two effects apply based on what type of weapon this ship ha
 		id = 29681,
 		type = 1,
 		max_level = 1,
-		desc = "Activates EX Barrage - Kirov I every 12 times the Main /Guns are fired.",
+		desc = "Activates EX Barrage - Kirov I every 12 times the Main Guns are fired.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -105511,7 +105511,7 @@ One of the following two effects apply based on what type of weapon this ship ha
 		id = 29682,
 		type = 1,
 		max_level = 1,
-		desc = "Activates EX Barrage - Kirov II every 8 times the Main /Guns are fired.",
+		desc = "Activates EX Barrage - Kirov II every 8 times the Main Guns are fired.",
 		system_transform = {},
 		world_death_mark = {
 			1

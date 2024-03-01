@@ -28,15 +28,15 @@ return {
 			},
 			sequence = {
 				{
-					"银底洋",
+					"Somewhere in the Southern Ocean",
 					1
 				},
 				{
-					"某处",
+					"Unknown location",
 					2
 				},
 				{
-					"事件结束后的某一日",
+					"One day after the battle",
 					3
 				}
 			}
@@ -50,7 +50,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "啧……有点意思，没想到审判庭还隐藏着这种程度的力量。",
+			say = "Tsk... Damn Tribunal and their secret weapons...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "营救马可波罗的事，只能等后面再说了……",
+			say = "Guess rescuing Marco Polo is on the back burner.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "眼下——还是继续削弱这里的实验机关好了。",
+			say = "New priority – weakening the low-level program presence in this area!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "净化者的主机……应该就在这附近才对。",
+			say = "Purifier's mainframe should be somewhere around here...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "让我瞧瞧♪~让我看看♪~净化者的主机在~哪里呢♪~",
+			say = "Come out, come out, wherever you are! Mama's got business with...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -154,9 +154,9 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			actorShadow = true,
-			actorName = "飞龙？",
+			actorName = "Hiryuu?",
 			nameColor = "#FF9B93",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "……这是什么？",
+			say = "...What the heck is this?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,7 +188,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "棋子……？",
+			say = "A Pawn?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "为什么在这里会有一个孤零零的棋子。",
+			say = "What's a Pawn doing out here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "净化者就算再倾尽全力去支援安塔迪卡。",
+			say = "And why is nobody ELSE here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "留下来防御自己主机的也不至于就只有一个棋子吧……",
+			say = "There's no way she left the defense of her mainframe to a single Pawn, right? She wouldn't send ALL her units to Antarctica!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,9 +257,9 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			actorShadow = true,
-			actorName = "飞龙？",
+			actorName = "Hiryuu?",
 			nameColor = "#FF9B93",
-			say = "…………",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "打一下好了……",
+			say = "Whatever, let's deal with you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -342,7 +342,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "欸~轻松搞定——哇啊啊啊！",
+			say = "I've got places to– Whoa?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,7 +357,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -411,7 +411,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "敌、敌袭？！",
+			say = "A-an attack?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "而且还是这种威力……什么人？！",
+			say = "Shit, that was powerful! Who did that?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,9 +445,9 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "苍龙·META",
+			actorName = "Souryuu META",
 			side = 2,
-			say = "……………………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "这……这又是什么东西？",
+			say = "Y-you... What are you?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "从哪儿冒出来的……？",
+			say = "Where'd you come from?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,7 +501,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "情报里从来没提到过啊……？",
+			say = "Nobody said I'd be dealing with YOU!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,7 +519,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "…………实验场β，好可怕！",
+			say = "G-god, test site beta is a frightening place!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -545,7 +545,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,

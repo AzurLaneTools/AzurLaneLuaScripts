@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_camelot_4",
 			hidePaintObj = true,
-			say = "？？？·？？？",
+			say = "Somewhere, in an unknown location...",
 			bgm = "qe-ova-15",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "《安塔迪卡战役报告书》——怨仇。",
+			say = "A report from Implacable. Concerning the battle in the Antarctic, eh...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "刚才贝法专门跑一趟来给你送的就是这份报告书……？",
+			say = "Is what you brought Belfast in for earlier?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "哟，还真是弄出来件有趣的事啊？",
+			say = "This is quite an interesting thing indeed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼，终于回过神来了。",
+			say = "Heh. Another day, another splendid job.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样才多少有点本王心中指挥官应该有的样子。",
+			say = "This is why I'm always saying what a good servant I have!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我已经嘱咐贝法，回去之后全力配合指挥官的任何行动了。",
+			say = "I've already told Bel to give her full assistance to the Commander in any and all upcoming matters.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "然后呢？",
+			say = "Now what, then?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……什么然后？",
+			say = "What do you mean, \"now what\"?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "欸————",
+			say = "...Hmmmm.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你这面露难色的模样算怎么回事……！",
+			say = "What? Wipe off that smug grin and explain!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "本王只是在想——你还要在我这里赖多久？",
+			say = "We're just wondering how long you're going to stay here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "虽然最开始确实是我请你过来的……",
+			say = "We did invite you, but not to stay permanently.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "但是你「D小姐」也见了，问题也问过了……",
+			say = "You've met Ms. D and you've asked your questions. What else is there for you to do here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9705040,
-			say = "唉……原本还以为那个小女仆是来接你回去的呢。",
+			say = "In fact, we thought that little maid was coming to pick you up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼~来都来了，本王自然要待到满意为止。",
+			say = "Hmph! I'm the queen! I'll stay until I'm content to leave!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们的下一次「狩猎」，带本王一起去如何？",
+			say = "And since I'm here, why don't you bring me along on the next of your \"hunts\"?",
 			painting = {
 				alpha = 0.3,
 				time = 1

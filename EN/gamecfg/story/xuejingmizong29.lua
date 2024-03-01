@@ -28,7 +28,7 @@ return {
 			},
 			sequence = {
 				{
-					"鸢尾教国境内",
+					"Iris Orthodoxy",
 					1
 				},
 				{
@@ -36,7 +36,7 @@ return {
 					2
 				},
 				{
-					"事件结束后的某一日",
+					"After the battle's conclusion",
 					3
 				}
 			}
@@ -50,7 +50,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "哼哼哼♪~",
+			say = "Heeheehee♪",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "我说过，战斗还远未结束哦~",
+			say = "I TOLD them the battle was far from over!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "根据感应，人应该就被藏在这座建筑地下的迷宫里。",
+			say = "Okay, the target should be under this building. Inside a dungeon...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "……要找起来，恐怕要费一番功夫呢。",
+			say = "Ugh. Dungeons. This is gonna be a pain to look through.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,9 +136,9 @@ return {
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "克莱蒙梭",
+			actorName = "Clemenceau",
 			nameColor = "#A9F548FF",
-			say = "这位美丽的女士，擅自闯入他人住宅，可是重罪哦。",
+			say = "Well, well. A trespasser? Did no one teach you to ask for permission?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "我记得你是——审判庭的克莱蒙梭主教？",
+			say = "Oh. It's you, Clemenceau.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "看来你已经猜到我会来这里了呢。",
+			say = "So you knew I'd be here. Interesting.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "目的不难猜，但猜对方式就比较难了。",
+			say = "It wasn't hard to figure out you'd come here. Though I am puzzled by HOW you did it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "你果然没那么容易被消灭掉。",
+			say = "Getting rid of you won't be that easy after all.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "事先做了充足的准备真是一个正确的决定。",
+			say = "Oh, well. At least this is a good chance to test how well-prepared we are.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702070,
-			say = "嗯？这股气息是……",
+			say = "Well-prepared for– Wait, is that...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9703020,
-			say = "呵呵，意外么？不速之客小姐。",
+			say = "Heehee. An uninvited guest.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702040,
-			say = "既然这么想当客人，就在这里让我们好好招待一下吧~！",
+			say = "Already made yourself at home, huh? Get ready for the reception party!",
 			painting = {
 				alpha = 0.3,
 				time = 1

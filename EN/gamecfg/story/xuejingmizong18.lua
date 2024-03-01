@@ -5,12 +5,12 @@ return {
 	scripts = {
 		{
 			side = 2,
-			actorName = "水星纪念·META",
+			actorName = "Pamiat' Merkuria META",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "呵呵，你快要猜出一个我的行动目标了呢~",
+			say = "Oh yeah? Then you've probably figured out what my first goal is.",
 			bgm = "theme-merkuriameta",
 			painting = {
 				alpha = 0.3,
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
-			say = "冰原之中的对峙仍在进行着。",
+			say = "The confrontation in the world of snow continued on.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
-			say = "见{namecode:529:苏维埃同盟}有所察觉后，黑衣少女干脆大方地承认了自己的行动目标。",
+			say = "Realizing that Soyuz had figured out her goal, the so-called Pamiat' graciously revealed her true aims.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,12 +62,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "水星纪念·META",
+			actorName = "Pamiat' Merkuria META",
 			bgName = "bg_xuejing_cg9",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "既然如此，那就————",
+			say = "In that case...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_cg10",
 			hidePaintObj = true,
-			say = "冰层崩裂，巨大的机械伴随着轰鸣声出现在咫尺之间。",
+			say = "In an instant, the ice cracked, and an enormous machine rose up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,12 +123,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			bgName = "bg_xuejing_cg10",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……迪洛伊。",
+			say = "A Gazer... The false gods...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,12 +140,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			bgName = "bg_xuejing_cg10",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "果然……你的目的是「陆上神国」么。",
+			say = "You're trying to superimpose... the Divine Vestige onto our world?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,12 +157,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "水星纪念·META",
+			actorName = "Pamiat' Merkuria META",
 			bgName = "bg_xuejing_cg10",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "不叫这个名字哦。",
+			say = "That's not what it's called, silly.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,12 +174,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "水星纪念·META",
+			actorName = "Pamiat' Merkuria META",
 			bgName = "bg_xuejing_cg10",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "“乐园”……“永恒乐土”……“乌托邦”，我倒是想了几个名字，不过都不是很满意。",
+			say = "Paradise, Elysium... Utopia. I've tried coming up with a lot of names, but none of them hit right.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,113 +191,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "水星纪念·META",
+			actorName = "Pamiat' Merkuria META",
 			bgName = "bg_xuejing_cg10",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "你觉得叫什么比较好？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_xuejing_cg10",
-			hidePaintObj = true,
-			say = "时而愤怒，时而欢笑。黑衣少女的情绪阴晴不定，令{namecode:529:苏维埃同盟}难以捉摸。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_xuejing_cg10",
-			hidePaintObj = true,
-			say = "不过{namecode:530:同盟}隐隐有一种感觉，少女心口不一，她所说的并不是她真正想做的事。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_xuejing_cg10",
-			hidePaintObj = true,
-			say = "而且——绝对不能按照她的节奏来走。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "{namecode:529:苏维埃同盟}",
-			bgName = "bg_xuejing_cg10",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……我觉得，你还是放弃比较好。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "{namecode:529:苏维埃同盟}",
-			bgName = "bg_xuejing_cg10",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "不论叫什么名字，都不能改变其本质。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "水星纪念·META",
-			bgName = "bg_xuejing_cg10",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#FFC960",
-			say = "欸~真是无趣……看来愉快的聊天时间要结束了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "水星纪念·META",
-			bgName = "bg_xuejing_cg10",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#FFC960",
-			say = "果然到最后，我们还是要用武力来做结语呢。",
+			say = "What kind of name do you prefer?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +211,29 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_cg10",
 			hidePaintObj = true,
-			say = "伴随着少女的宣告，这场对峙似乎终于迎来了尾声。",
+			say = "Sometimes wrathful, other times playful, Pamiat' was as mercurial as her name suggested.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_xuejing_cg10",
+			hidePaintObj = true,
+			say = "But at the same time, Soyuz knew that neither her words nor demeanor were genuine.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_xuejing_cg10",
+			hidePaintObj = true,
+			say = "More than that, she knew that she couldn't keep letting Pamiat' string her along.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,12 +241,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "水星纪念·META",
+			actorName = "Sovetsky Soyuz",
 			bgName = "bg_xuejing_cg10",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
-			say = "那么——我要去稍微准备一下，就先行离席了。",
+			nameColor = "#A9F548FF",
+			say = "...There's no need for that, \"Pamiat'\".",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,12 +258,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "水星纪念·META",
+			actorName = "Sovetsky Soyuz",
 			bgName = "bg_xuejing_cg10",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#FFC960",
-			say = "先让它们好好陪你们玩一玩好了——",
+			nameColor = "#A9F548FF",
+			say = "You can change its name, but you cannot change its nature.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,12 +275,91 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "水星纪念·META",
+			actorName = "Pamiat' Merkuria META",
 			bgName = "bg_xuejing_cg10",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "加油哦~拜拜~",
+			say = "Booooring. I suppose you're tired of chatting with me, huh?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Pamiat' Merkuria META",
+			bgName = "bg_xuejing_cg10",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFC960",
+			say = "That's too bad. If words won't work, then I guess I'll have to default to force.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_xuejing_cg10",
+			hidePaintObj = true,
+			say = "With those words, their conversation drew to a close.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Pamiat' Merkuria META",
+			bgName = "bg_xuejing_cg10",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFC960",
+			say = "Now then, I'll need a moment to get ready!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Pamiat' Merkuria META",
+			bgName = "bg_xuejing_cg10",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFC960",
+			say = "In the meantime... Feel free to play with my little friends~",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Pamiat' Merkuria META",
+			bgName = "bg_xuejing_cg10",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFC960",
+			say = "Good luck~ and goodbye!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "长桌、黑发少女与咫尺之遥的迪洛伊一同消失了。",
+			say = "The table, Pamiat' Merkuria, and the previously encroaching Gazer all dispersed at once.",
 			bgm = "theme-antarctica",
 			typewriter = {
 				speed = 0.05,
@@ -403,7 +403,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "不远处，同伴们的动作与之前别无二致。",
+			say = "Soyuz was back in the mountains of Antarctica with her comrades.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "看来在席间发生的事，对于她们而言不过是转瞬之间。",
+			say = "It seemed that the argument had all happened in the space of an instant.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "我们立刻返回科考站，然后立即撤离没错吧？",
+			say = "Pamiat's gone. I must assume she's finished chatting.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,7 +446,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "……{namecode:530:同盟}同志？",
+			say = "So, you were saying? We should get back to the research station and contact the others?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -463,7 +463,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……嗯，没错。",
+			say = "...Right.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "同时向铁血和所有阵营发出消息，警告它们威胁的存在，并建议它们立刻撤离。",
+			say = "Inform Iron Blood, the Eagle Union, and all other forces near Antarctica and surrounding waters that enemy forces have infiltrated and to retreat at once.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "明白……不过，具体要警告它们什么威胁？",
+			say = "Understood. Should we... elaborate on who these enemy forces are?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "看着未经历过幻境之事的同伴们疑惑的面庞，{namecode:529:苏维埃同盟}也冷静了一些。",
+			say = "Poltava and the others' slight confusion reminded Soyuz of what Pamiat' had said – that she'd only invited her. She breathed a sigh of relief.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "……迪洛伊，安塔迪卡将会遭遇迪洛伊的袭击。",
+			say = "...Tell them that an army of Gazers is on its way to attack Antarctica, please.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -546,7 +546,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "……迪、迪洛伊？！那不是之前在陆间海……",
+			say = "Gazers?! You mean the ones that attacked the World Expo–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -571,7 +571,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -622,7 +622,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "巨响从四面八方同时出现，伴随着飞溅的冰块，巨大的机甲缓缓出现在众人视野中。",
+			say = "With an all-encompassing boom, Gazers erupted from the ice, sending veritable hail flying forth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,7 +636,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701110,
-			say = "真的是……迪洛伊。",
+			say = "Gazers really did come!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -654,7 +654,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "数量有好多……提前隐藏在冰层之下了么？！",
+			say = "And a hell of a lot of 'em... Those things were hiding under the ice?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -672,7 +672,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "……来得好快。",
+			say = "Not necessarily, knowing the possibility of a superimposition... But this is surely too soon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -689,7 +689,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看来没时间详细说明了，立刻开始撤离！",
+			say = "Poltava, send an abbreviated message: everyone, and I mean everyone, prepare to retreat.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -701,11 +701,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "众人",
+			actorName = "Everyone",
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "遵命！",
+			say = "Yes, ma'am!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

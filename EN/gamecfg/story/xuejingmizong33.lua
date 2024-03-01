@@ -28,15 +28,15 @@ return {
 			},
 			sequence = {
 				{
-					"重樱本岛",
+					"Sakura Islands",
 					1
 				},
 				{
-					"三笠宅邸前",
+					"Mikasa's Residence",
 					2
 				},
 				{
-					"事件结束后的某一日",
+					"After the battle's conclusion",
 					3
 				}
 			}
@@ -48,7 +48,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……这次真是出差了好久好久……",
+			say = "God, I'm sooo tired... Feels like I haven't come home in forever.",
 			bgm = "xinnong-3",
 			flashout = {
 				black = true,
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过我终于——回家了！",
+			say = "But now I am! And it feels good to be back in the Empire!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也不知道{namecode:74:长门}大人急召我回来是为了什么事……",
+			say = "I'm curious why Lady Nagato would summon me here on such short notice...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过正好，我这边也有好多好多发现要报告呢！",
+			say = "Then again, I've got a lot of things to report, anyway.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_0",
 			hidePaintObj = true,
-			say = "咚咚咚——（敲门声）",
+			say = "*knock knock*",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,24 +145,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "姐姐、{namecode:74:长门}大人、大前辈，我回来啦~",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 307060,
-			side = 2,
-			bgName = "bg_unnamearea_0",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……",
+			say = "Shoukaku! Great Veteran! Lady Nagato! I'm here!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +162,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……欸，没人？",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +179,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……大前辈的宅邸是这里没错啊。",
+			say = "...Hello? Anybody home?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,36 +196,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "临时有事都出门了么……？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "通讯器",
-			bgName = "bg_unnamearea_0",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "嘟——嘟——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 307060,
-			side = 2,
-			bgName = "bg_unnamearea_0",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……咦？通讯是通畅的，但是无人接听……?",
+			say = "...I didn't get the wrong place, did I?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +213,53 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……这、这究竟是怎么回事？",
+			say = "Where IS everybody?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Communicator",
+			bgName = "bg_unnamearea_0",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "BEEP BEEP!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 307060,
+			side = 2,
+			bgName = "bg_unnamearea_0",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "The call is connecting... but nobody's answering.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 307060,
+			side = 2,
+			bgName = "bg_unnamearea_0",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "What the heck is going on?",
 			painting = {
 				alpha = 0.3,
 				time = 1

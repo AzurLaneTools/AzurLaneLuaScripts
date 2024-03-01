@@ -9,7 +9,7 @@ return {
 			bgName = "bg_xuejing_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "轰————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -77,7 +77,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_3",
 			hidePaintObj = true,
-			say = "伴随着爆鸣声，目标的又一门炮塔被摧毁了。",
+			say = "With a loud explosion, another Gazer toppled over.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_3",
 			hidePaintObj = true,
-			say = "战斗开始仅不到半小时，局面就呈现了一边倒的架势。",
+			say = "Thirty minutes had elapsed since the battle began. Already, the shipgirls had gained an overwhelming advantage.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 701110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好弱啊……",
+			say = "This Pamiat' is just a weak imitation!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -118,7 +118,7 @@ return {
 			actor = 701110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "居然完全被我们的火力压制了……",
+			say = "She doesn't stand a chance against our firepower!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			actor = 701120,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这不是说明我们很强么~",
+			say = "That's 'cuz we've got, like, a million people whalin' on her! It helps that we've got the Commander and ME, of course!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			actor = 701110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但……她可是要引发「陆上神国」降临的人，不应该这么弱吧。",
+			say = "But isn't she a little TOO weak? You'd think the head honcho would put up more of a fight!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你想想之前在陆间海那一次……",
+			say = "Compared to that World Expo hag on her flyin' throne, yeah, I guess she's kind of a pushover.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			actor = 701110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呃……那一次我记得是被审判庭的秘密武器一发秒杀？",
+			say = "I think the Tribunal deployed a superweapon to deal with her in that case.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			actor = 701110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……欸，好像确实是这样……",
+			say = "In this case, though... it almost doesn't feel right with how easily she's going down...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "（没那么简单……炮弹能命中是因为她根本没有好好躲。）",
+			say = "(It IS odd. Beyond using Gazers as meat shields, she is making no attempt to avoid incoming fire.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			actor = 705020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（这种不要命的打法，喀琅施塔得的报告中曾经有提到过……）",
+			say = "(Rationally speaking, she's only digging her own grave... Yet, I remember one of Kronshtadt's reports described a fighting style just like this.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			actor = 705020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（那个不畏惧损伤，凭借自身受损来侵蚀他人心智的疯子……）",
+			say = "(One \"Bon Homme Richard\" similarly wasn't afraid of damage, and used it to erode the minds of her attackers...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "（该不会这次也是……）",
+			say = "(No... Could she be doing the same?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,40 +284,7 @@ return {
 			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你为什么要为了过去的执念拼命到这一步？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_xuejing_3",
-			actor = 705020,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "我们要做的不是回首过去封闭自己，而是应该迈向未来。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 705020,
-			side = 2,
-			bgName = "bg_xuejing_3",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "不论你的过去发生了什么，至少你活了下来。",
+			say = "Pamiat', why are you fighting so hard for your obsession with the past?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,7 +301,7 @@ return {
 			actor = 705020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然活了下来，你就应该背负逝者的期望，延续她们的战斗。",
+			say = "I can understand looking back on the past and basking in nostalgia. What I cannot understand is trying to replace the future with the past.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +317,7 @@ return {
 			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "可你现在在做什么？",
+			say = "You've suffered a lot, fought hellish battles, but at the very least, you survived.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +334,40 @@ return {
 			actor = 705020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "践踏他人的同时，也是在践踏自己曾经所珍视的一切。",
+			say = "As a survivor, you should bear the hopes of your fallen comrades. You should live on, and fight for the good of all of us.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 705020,
+			side = 2,
+			bgName = "bg_xuejing_3",
+			nameColor = "#A9F548FF",
+			dir = 1,
+			say = "Look what you're doing now. Do you think they'd be proud of you?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_xuejing_3",
+			actor = 705020,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "You are trampling on not just everything they fought for, but everything YOU fought for as well.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -384,7 +384,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "哈哈哈哈，执念？你觉得，驱使我做出这一切的是因为执念？",
+			say = "Hahahaha! \"Obsession\"? Do I look like someone driven by an obsession?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "将我变成这样的，就是你口中的逝者的期望与理想啊！",
+			say = "No! I'm doing this because it's what my fallen comrades would have wanted!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,7 +418,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "呵呵……呵呵呵……",
+			say = "Haha... Ahahaha...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "啊哈哈哈哈哈——",
+			say = "AHAHAHAHAHAHAH!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -459,7 +459,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_xuejing_3",
-			say = "这股笑声似乎有着某种穿透力，在众人的通讯器中传播着。",
+			say = "Pamiat's terrifying laughter rang through everyone's communicators. It sounded wrong, like someone was laughing THROUGH her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			actor = 701110,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这……这是怎么回事，笑声就像在耳边响起一样。",
+			say = "Oh, gosh! Do you hear that?! It's like her laughter's coming from inside my head!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -506,7 +506,7 @@ return {
 			actor = 701120,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我感觉有点冷……周围温度是不是变低了。",
+			say = "Is it just me, or is it gettin' cold as hell all of a sudden?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			actor = 705080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:530:同盟}同志，敌人的伤势似乎正在恢复。",
+			say = "Condensation is forming on my chains... Soyuz, I think she's healing herself!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,7 +540,7 @@ return {
 			actor = 705020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不行，不能给她恢复的时间！",
+			say = "Not on my watch, she isn't!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,7 +554,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_xuejing_3",
-			say = "轰————————！",
+			say = "KABOOOM!",
 			soundeffect = "event:/battle/boom2",
 			typewriter = {
 				speed = 0.05,
@@ -604,7 +604,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_xuejing_3",
-			say = "{namecode:529:苏维埃同盟}对着远方狂笑着的少女回应了一轮炮击。",
+			say = "Soyuz fired a volley at the girl possessed by some evil spirit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,7 +614,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_xuejing_3",
-			say = "可这一次，炮弹被冰冻在半空，然后径直落入水中。",
+			say = "The shells flew through the air, but stopped short of their target, plunging into the sea like rocks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,7 +624,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_xuejing_3",
-			say = "随后，以炮弹落下的位置为中心，海面开始了极速冰冻。",
+			say = "A pulse of sheer cold radiated outward from Pamiat', freezing everything in its path at an unbelievable rate.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,7 +634,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_xuejing_3",
-			say = "众人一时间被困在冰层中，无法行动。",
+			say = "The sea froze faster than the shipgirls could react. One by one, they were frozen in place.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,7 +646,7 @@ return {
 			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……果然，你是故意让我们将你打至重伤的。",
+			say = "...So this was your plan all along.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -663,7 +663,7 @@ return {
 			actor = 705020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……为的就是这一刻？",
+			say = "You knowingly walked into our trap and allowed us to attack you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -680,7 +680,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "……呵呵，只有这样，我才能触碰到那一丝「本质」……",
+			say = "Ahaha... A small sacrifice to make, to be able to finally come into contact with the font of essence.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "了解了本质，我才能寻找到真正的……过去。",
+			say = "By plucking the fruit from the prime branch, I have at last found... the true past!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -714,7 +714,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "呵呵……以前我所了解的前进阵线，只限于祂给我的一小点资料而已。",
+			say = "Look at this – the Revolutionary Front! All I ever knew about it was what little that one person told me.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -730,7 +730,7 @@ return {
 			bgName = "bg_xuejing_3",
 			nameColor = "#C3ABFF",
 			dir = 1,
-			say = "可是如今……这一切就仿佛如同我亲身经历一般。",
+			say = "And now... it's like I was actually there myself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -747,7 +747,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "呵呵……我在碎片中看到了……原来是这样。",
+			say = "Ahahaha... I see it in the fragments... Very, very interesting.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -764,7 +764,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "那座深入冰层下的设施，不光是末日地堡这么简单吧。",
+			say = "Wouldn't you know it – your Ring of Whatever isn't just a doomsday bunker.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -781,7 +781,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "你们在按照回收到的前进阵线资料复原某个装置。",
+			say = "It's also where you store that device based on data you recovered from the RF.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -798,7 +798,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "这才是你选择在安塔迪卡修建那座设施的真正理由，对不对？",
+			say = "If it wasn't for that, you wouldn't have built a bunker all the way out here. Isn't that right, Soyuz?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -814,7 +814,7 @@ return {
 			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "…………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -831,7 +831,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "啊哈哈哈哈……真是太讽刺了。",
+			say = "Ahahaha! Oh, what a laugh!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -858,7 +858,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "你说我的行动是因为执念？可是在我看来，你们的行动才是因为执念。",
+			say = "And you called ME driven by obsession! You should have a good look in the mirror!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -875,7 +875,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "「曙光计划」就是最大的执念！",
+			say = "Project Dawn is the biggest obsession of them all!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -892,7 +892,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "被你们认为是希望之光的那份计划……只是一条将自己带向死亡的地狱特快而已。",
+			say = "You think it's your ray of hope? You couldn't be more wrong. It's an express ticket to your downfall.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -909,7 +909,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "光是靠近就会变得不幸。",
+			say = "Just being close to it brings misfortune.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -926,7 +926,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "你知道与这份计划有关的人，最后落得了个什么下场么？",
+			say = "Do you know what happened to the people involved in this project? I can tell you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -953,7 +953,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "不知道没关系，我来告诉你。",
+			say = "Don't answer. I'll tell you either way.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -969,7 +969,7 @@ return {
 			bgName = "bg_xuejing_3",
 			nameColor = "#C3ABFF",
 			dir = 1,
-			say = "计划的提出者早在验证实验装置时与舰队一同失踪，从此下落不明。",
+			say = "The project planner went out with a fleet to test a new experimental device. Then... Poof! None of them were ever seen again!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -986,7 +986,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "从此之后，计划被搁置，并逐渐变成了另一个计划的附属品。",
+			say = "Then the project was suspended and became an accessory to a separate project.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1003,7 +1003,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "直到被启动的那一天……我们所有的舰队，连同我们最后的海军上将一起全部牺牲，一个不留。",
+			say = "And when that project started, our entire fleet, as well as our last admiral, were all sacrificed! Not a single survivor!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1030,7 +1030,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "……战斗，直至光芒消散为止。",
+			say = "\"Fight until the last light has faded.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1047,7 +1047,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "他们选择了死亡，将生的机会留给了别人。",
+			say = "That's what they all said. They all fought to their deaths and let someone else have their chance to live!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1064,7 +1064,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "这就是曙光计划，这就是曙光的传承。",
+			say = "This is what Project Dawn is! This is the obsession that's been passed down!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1081,7 +1081,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "现在你们拿到了曙光计划，难道你们也想这么做？",
+			say = "It's sacrificing yourself and dumping everything on those who survive!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1097,7 +1097,7 @@ return {
 			bgName = "bg_xuejing_3",
 			nameColor = "#C3ABFF",
 			dir = 1,
-			say = "……自顾自的牺牲，然后让生者背负着你们活下去。",
+			say = "Now it's yours. Do you want to do the same as them?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1114,7 +1114,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "看看安蒂克丝，再看看余烬……她们都被逝者的愿望所推动，在命运的洪流中挣扎着。",
+			say = "The same as Antiochus, the same as the Ashes – carrying the hopes and dreams of the fallen and suffering for all eternity!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1131,7 +1131,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "如今，她们都变成了什么样子？",
+			say = "You've already seen what that turned them into.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1157,7 +1157,7 @@ return {
 			bgName = "bg_xuejing_3",
 			nameColor = "#C3ABFF",
 			dir = 1,
-			say = "这种只会通向悲剧的循环……该停止了。",
+			say = "This endless cycle only creates more tragedy... and must be put to an end.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1174,7 +1174,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "既然有逃避的路，为什么就不能干脆地逃避呢？",
+			say = "If you were given a way out, why would you NOT take it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1191,7 +1191,7 @@ return {
 			actor = 705020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……你所谓的逃避，不过是被另一批人，另一批塞壬所掌控命运而已。",
+			say = "You may have chosen a way out. At least, so you may believe...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1207,7 +1207,7 @@ return {
 			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你也来自塞壬的实验场，被塞壬所支配时，想必也曾奋起反抗过。",
+			say = "But looking at you now, it's clear you haven't been set free.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1224,7 +1224,7 @@ return {
 			actor = 705020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在却甘心屈服于塞壬，不好笑么？",
+			say = "All you've done is escape the fate of being controlled by one Siren in favor of another one. You're still being controlled.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1241,7 +1241,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "安蒂克丝之间亦有不同。",
+			say = "Ahahaha! No, Soyuz, you're wrong! Antiochus are not all the same.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1257,7 +1257,7 @@ return {
 			bgName = "bg_xuejing_3",
 			nameColor = "#C3ABFF",
 			dir = 1,
-			say = "就像我们不应该简单用“人类就是”这样的句子来为身边的人下定义一样，对于身边的安蒂克丝也应该分类而看。",
+			say = "Look at humanity itself. They're not a monolith, and neither are Antiochus.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1274,7 +1274,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "那些愚蠢又死板的实验机关确实要被肃清，可是仲裁机关不一样。",
+			say = "You've got low-level programs, blindly following orders, and then you've got the Arbiters.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1291,7 +1291,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "她们很有趣……尤其是祂，更加的有趣。",
+			say = "Killing that first group is easy. The second one, though? They're as unkillable as unkillable gets. Especially... her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1307,7 +1307,7 @@ return {
 			bgName = "bg_xuejing_3",
 			nameColor = "#C3ABFF",
 			dir = 1,
-			say = "我与祂并不是主从关系，而是合作关系。",
+			say = "One thing you should know about me is that I'm nobody's lackey. We're cooperating as equals.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1324,7 +1324,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "我们相互认可，同时我们一同寻找答案。",
+			say = "We're partners who see each other eye to eye, searching for the answer together!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1341,7 +1341,7 @@ return {
 			actor = 705020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“逃避”，这就是你们得出的答案么？",
+			say = "Is \"escapism\" the best answer you could come up with?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1358,7 +1358,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "也好过主动迈向未知这种愚蠢又找死的行为。",
+			say = "Call it whatever you want, but it sure beats a pointless suicide pact!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1375,7 +1375,7 @@ return {
 			actor = 705020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "勇于迈向未知，向前探索，这是人类可贵的精神，是人类得以生存进化至今的原因。",
+			say = "That isn't what we're choosing. We aren't trying to end our own lives or follow the path to destruction.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1391,40 +1391,7 @@ return {
 			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "既不是愚蠢，也不是自寻短见。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "bg_xuejing_3",
-			actor = 705020,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "诚然，探索不会总是成功的。可是就算失败了，这份教训也可以转化为后世成功的基石。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 705020,
-			side = 2,
-			bgName = "bg_xuejing_3",
-			nameColor = "#A9F548FF",
-			dir = 1,
-			say = "就像制定曙光计划的人虽然最终失败了，但是计划依然流传到我们手中一样。",
+			say = "We are searching the unknown, carving a path to the future. That is the indomitable human spirit – which has brought us to this very point.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1441,7 +1408,23 @@ return {
 			actor = 705020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们将会完善这份计划，改善其中的设计缺陷。",
+			say = "We may stumble along the way, we may get caught in a storm, but every hardship and challenge humanity faces becomes a lesson for its development.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 705020,
+			side = 2,
+			bgName = "bg_xuejing_3",
+			nameColor = "#A9F548FF",
+			dir = 1,
+			say = "Perhaps Project Dawn did fail in the past. If so, that is a failure we can learn from.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1458,7 +1441,24 @@ return {
 			actor = 705020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就算我们最终也失败了，还会有后人跨过我们的尸骸继续前进。",
+			say = "We will fix its faults and try again with care so as to not repeat the same mistake.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "bg_xuejing_3",
+			actor = 705020,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Even if we perish in the process, we must believe that, someday, someone will come and succeed where we failed.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1475,7 +1475,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "还在说这些……",
+			say = "You're still on about this...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1492,7 +1492,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "螺旋不会永无止境地持续下去。",
+			say = "Fate, the future, the cycle – those will all end one day.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1509,7 +1509,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "你们的未来是既定的，而且我已经替你们看过了。",
+			say = "Your fate has already been decided for you. I've seen it myself.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1526,7 +1526,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "在那个未来，不存在任何一丝的美好。",
+			say = "There is nothing, NOTHING good in that future you can't stop gushing about!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1543,7 +1543,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "美好，只存在于过去！",
+			say = "The good days are all in the past!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1570,7 +1570,7 @@ return {
 			actor = 705020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们的未来，将由我们的双手来开拓！",
+			say = "You're wrong! Nobody decides our future for us!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1586,7 +1586,7 @@ return {
 			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你没有资格裁定我们的未来！",
+			say = "The future is ours to choose, not yours!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1605,7 +1605,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_port_chongdong",
-			say = "与此同时，在审判庭大楼的加密频道之中。",
+			say = "I pressed the button to call the girls, to cut off that ear-piercing laughter, but then...",
 			bgm = "story-darkplan",
 			typewriter = {
 				speed = 0.05,
@@ -1634,7 +1634,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			nameColor = "#A9F548FF",
-			say = "……海伦娜。",
+			say = "...Helena. So you heard it, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1645,7 +1645,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			nameColor = "#A9F548FF",
-			say = "她刚才所说的关于曙光计划的内容……是真的么？",
+			say = "Then I might as well ask you. Is what she said about Project Dawn true?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1658,7 +1658,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "……那只是她所看到的记忆，只是一种现实。",
+			say = "Yes and no. It is how she remembers it... It is reality, but only one reality.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1674,7 +1674,7 @@ return {
 			bgName = "bg_port_chongdong",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "但现实未必等于真实。",
+			say = "Reality and truth are not always one and the same.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1691,7 +1691,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "只有深信不疑的现实，才会变成真实……我现在只能说这么多。",
+			say = "What I can say is this – reality can only become truth if enough faith goes into it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1706,7 +1706,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			nameColor = "#A9F548FF",
-			say = "“只有深信不疑的现实，才会变成真实”……",
+			say = "\"Reality can only become truth... if enough faith goes into it.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1719,7 +1719,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "好啦，现在是想这些谜语的时候么？",
+			say = "Let's not worry too much about the philosophical stuff right now. There's still a battle going on.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1736,7 +1736,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "快回去专心指挥战斗，现在还没到大局已定的时候呢。",
+			say = "I've protected you against Pamiat's cognitive influence. You won't be affected by her voice.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1751,7 +1751,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			nameColor = "#A9F548FF",
-			say = "关于这件事……现在战场上出现了十分棘手的情况。",
+			say = "Thank you. Next thing to deal with, then, is that ocean-freezing power of hers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1762,7 +1762,7 @@ return {
 			side = 2,
 			bgName = "bg_port_chongdong",
 			nameColor = "#A9F548FF",
-			say = "你曾经利用托瓦的力量改变过战场的自然环境对吧？",
+			say = "From what I can tell, it's not an Arbiter or META ability. It's simply a bluff, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1774,7 +1774,7 @@ return {
 			bgName = "bg_port_chongdong",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "我知道你想说什么哦。",
+			say = "Yes. She certainly could use the Tower's power to freeze the sea in an instant...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1791,7 +1791,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "不过——首先，我调用的是“塔”的力量。",
+			say = "But this freeze is only surface-level.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1808,7 +1808,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "其次，现在你看到的只是一个戏法，海面上的冰其实只有薄薄一层。",
+			say = "It's a trick meant to fool you. Nothing to be afraid of.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1825,7 +1825,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "她并没有变得如你想象中那么强，只是在虚张声势而已。",
+			say = "She isn't as strong as everyone thinks she is.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1842,7 +1842,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "这种情况凭借你所集结的力量处理起来绰绰有余。",
+			say = "The forces you have right now are more than enough to win against her.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1859,7 +1859,7 @@ return {
 			actor = 9702010,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "无需迟疑，继续战斗吧，指挥官~",
+			say = "It's time to get back in the fight. Good luck.",
 			painting = {
 				alpha = 0.3,
 				time = 1

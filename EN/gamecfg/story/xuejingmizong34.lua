@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "百慕大海域·某处",
+			say = "Somewhere, in the Bermuda Sea...",
 			bgm = "theme-shallowoftheworld",
 			typewriter = {
 				speed = 0.05,
@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702060,
-			say = "——这样，就算是平安抵达了。",
+			say = "...This is the place.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702060,
-			say = "还真是费了一番功夫。",
+			say = "It sure wasn't easy getting here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "不知道仲裁机关到底在搞些什么，怎么在外围设了那么严密的防护……",
+			say = "Why did the damn Arbiters set up such strong defenses at the outskirts of this branch?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "看上去这个世界还没出问题……",
+			say = "No problems have sprung up in this test site from what I can tell...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702060,
-			say = "难道“那家伙”已经被仲裁机关消灭了？",
+			say = "You don't think the Arbiters already beat her, do you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702060,
-			say = "如果是这样的话倒是省事了。",
+			say = "Because if so, that saves us a lot of trouble...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702060,
-			say = "不过……尚未开始行动的可能性也存在。",
+			say = "Nah, there's still the chance she hasn't made a move yet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702060,
-			say = "还是先收集情报，观察一阵再说……",
+			say = "For the time being, let's gather what intel we can then wait and see.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "嗯……？此处的是巨熊而不是双头鹰啊……",
+			say = "...Huh? What's that? That's a bear instead of the Imperiya's two-headed eagle.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702060,
-			say = "要不要去看看呢……",
+			say = "Wouldn't hurt to check it out...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702060,
-			say = "……还是算了。",
+			say = "...Actually, forget it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702060,
-			say = "对吧，伙伴们……",
+			say = "Well, ladies...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702060,
-			say = "……太阳已到了活跃期。",
+			say = "The sun's activity has flared up.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			dir = 1,
 			nameColor = "#FFC960",
 			actor = 9702060,
-			say = "……早点办完事早点离开吧。",
+			say = "We'd better wrap things up here quickly then get out.",
 			painting = {
 				alpha = 0.3,
 				time = 1

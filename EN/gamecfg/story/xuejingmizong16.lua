@@ -28,15 +28,15 @@ return {
 			},
 			sequence = {
 				{
-					"安塔迪卡大陆",
+					"Antarctica",
 					1
 				},
 				{
-					"融雪区·「智者之环」入口",
+					"Snowmelt Area - Bunker Entrance",
 					2
 				},
 				{
-					"此刻",
+					"Back to the present",
 					3
 				}
 			}
@@ -50,7 +50,7 @@ return {
 			actor = 701110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……我们成功回到地面了。",
+			say = "Phew... We made it back to the surface...",
 			flashout = {
 				black = true,
 				dur = 0.5,
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701110,
-			say = "没想到从地下往上走的时候倒是有这种直达通道呢。",
+			say = "I'm surprised by how quick that was. The emergency exit took us straight here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,7 +103,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "毕竟是紧急逃生通道，如果再曲曲折折的话，就没法起到应有的作用了。",
+			say = "That's what emergency exists are for. Time is of the essence during emergencies.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 701120,
-			say = "那我们为什么不在一开始就使用紧急逃生通道下去呢！",
+			say = "We shoulda just taken this route in the first place.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "……因为这条通道只能从内部启用，不然就无法保证安全了。",
+			say = "We couldn't. You can only get the route open from the inside for obvious security reasons.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此……那我们接下来该怎么做，立刻返回科考站么？",
+			say = "Whatever. So what do we do now? Head back to Tallinn?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,9 +182,9 @@ return {
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			nameColor = "#A9F548FF",
-			say = "嗯，接下来——",
+			say = "Yes. Then we'll–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,8 +232,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "{namecode:529:苏维埃同盟}",
-			say = "咳……",
+			actorName = "Sovetsky Soyuz",
+			say = "Agh!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（刚刚又是……幻觉？）",
+			say = "(Here it comes again...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705080,
-			say = "{namecode:530:同盟}同志？！",
+			say = "Soyuz? What's wrong?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没事，我没事……总之，现在情况紧急。",
+			say = "Nothing, I'm okay. Let's take it one thing at a time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "我们立刻返回科考站，即刻——",
+			say = "First, we should get back to the research station. After that–",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,12 +339,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xuejing_cg8",
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			dir = 1,
 			bgm = "theme-merkuriameta",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——撤离……",
+			say = "–we'll contact the... others...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,9 +377,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "Pamiat' Merkuria",
 			nameColor = "#A9F548FF",
-			say = "来尝尝这道菜吧——松露馅填榛鸡。",
+			say = "Ahahah. How do you like the chicken with truffles?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,12 +391,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "水星纪念",
+			actorName = "Pamiat' Merkuria",
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也算是我在历次宴会中很喜欢的一道菜哦。",
+			say = "It's among my favorites, and I've had many of the Imperiya's finest banquet dishes.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,9 +412,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			nameColor = "#A9F548FF",
-			say = "（……松露馅填榛鸡？）",
+			say = "Where... am I...?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
-			say = "{namecode:529:苏维埃同盟}发现自己此刻，正坐在长桌的一端",
+			say = "Soyuz suddenly found herself sitting at the end of a long table lined for a banquet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
-			say = "面前是美味佳肴。香气迎面而来，混合着宫殿的烛光，令人目眩。",
+			say = "To her front, an assortment of various luxurious dishes. To her sides, palace ornamentation that shone in the candlelight.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,9 +452,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			nameColor = "#A9F548FF",
-			say = "（这里是一场在宫殿之中举行的……宴会？）",
+			say = "(A banquet... in an Imperiya-era palace?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -466,12 +466,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（……我应该是在撤离的路上……为什么会在这里……）",
+			say = "(I shouldn't be here... I should be with them, evacuating immediately...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,9 +487,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			nameColor = "#A9F548FF",
-			say = "（嗯……撤离？从哪里撤离？）",
+			say = "(But... how? Where is the way out?)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,12 +501,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（脑海中仿佛有雾气正在弥漫……）",
+			say = "(From the Ring of the Wise... take the submarine and go north...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -522,9 +522,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			nameColor = "#A9F548FF",
-			say = "（不行……什么想不起来了……）",
+			say = "(Now I get it... The art gallery. It has been whispering to me...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,9 +540,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "Pamiat' Merkuria",
 			nameColor = "#A9F548FF",
-			say = "嗯？怎么你一直在看，这道菜不合胃口么？",
+			say = "Hm? What's the matter? You don't like it?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,12 +554,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "水星纪念",
+			actorName = "Pamiat' Merkuria",
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样的话，试试这道清炖甲鱼汤如何？美味可口，鲜而不腻哦~",
+			say = "Alright, then try this turtle soup. I'm sure it'll hit the spot and clear your mind!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,9 +575,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			nameColor = "#A9F548FF",
-			say = "……这样么。那我就不客气了……",
+			say = "I see... I'll help myself, then.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
-			say = "思考片刻后，{namecode:529:苏维埃同盟}决定顺应幻境的发展，看看接下来会发生什么。",
+			say = "Thoughts rushed through Soyuz's head. She picked up a spoon, felt it in her hand, and looked at the soup.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
-			say = "因此，她拿起勺子，将一口汤送入了嘴中。",
+			say = "She took a small spoonful and let it rest in her mouth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -611,12 +611,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（……汤，是有味道的。）",
+			say = "(I can taste it.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -632,9 +632,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			nameColor = "#A9F548FF",
-			say = "（这里不是单纯的幻觉……亦或是……连感知也被迷惑了呢。）",
+			say = "(This is no mere hallucination... Or perhaps, this space exists at a level far beyond the sensory realm to begin with...)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -650,9 +650,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "Pamiat' Merkuria",
 			nameColor = "#A9F548FF",
-			say = "哼哼，看你的表情，对这份汤还算满意？",
+			say = "Heehee. You must like it, judging from the look on your face.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -664,12 +664,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……确实是一份美味的汤。",
+			say = "...I do. It tastes very good.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -685,9 +685,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			nameColor = "#A9F548FF",
-			say = "水星纪念，这里是哪里，这场宴会又是什么？",
+			say = "Pamiat' – if that's who you are – what is this place? Why is there a banquet?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -703,9 +703,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "Pamiat' Merkuria",
 			nameColor = "#A9F548FF",
-			say = "这里是我的城堡哦~宴会的话，当然是欢迎你的宴会呀~",
+			say = "In order – this is my palace, and why the heck not? You're my guest, and I'm being a good host.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -717,12 +717,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "水星纪念",
+			actorName = "Pamiat' Merkuria",
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么样，这里的环境还不错吧？",
+			say = "Whaddya think? Pretty nice place, right?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -734,12 +734,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯、我……还没见过这样的……宴会。",
+			say = "I've... never been treated to something like this before.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -751,12 +751,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "水星纪念",
+			actorName = "Pamiat' Merkuria",
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，除了永不落幕的宴会之外，这座城堡还可以做到很多神奇的事哦。",
+			say = "Right? And there's so much more to do here than just enjoying the endless banquet!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -772,9 +772,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "Pamiat' Merkuria",
 			nameColor = "#A9F548FF",
-			say = "比如于花海漫步，于冰原狩猎、亦或是于海滨驰骋~",
+			say = "You can walk among flowers, hunt on the ice fields, and play on the beach, just to name a few.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -786,12 +786,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "水星纪念",
+			actorName = "Pamiat' Merkuria",
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么样，想不想留在这里？",
+			say = "Don't you want to stay here?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -806,7 +806,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
-			say = "水星纪念的话仿佛催动着脑海中雾气的扩散。",
+			say = "The thoughts in Soyuz's head were starting to feel clearer and clearer.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -817,7 +817,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
-			say = "恍惚间，{namecode:529:苏维埃同盟}产生了一个念头，此处才是现实，而那遥远的冰原，只是一场幻梦。",
+			say = "Delusions crept up on her. That this was reality. That the snowscape she was just in was the real hallucination.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -825,30 +825,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:529:苏维埃同盟}",
-			bgName = "bg_xuejing_cg8",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……留在这里，也好。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
+			actorName = "Sovetsky Soyuz",
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
 			nameColor = "#A9F548FF",
-			say = "但是……其他同伴呢？",
+			say = "I could... see myself staying here...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -864,63 +846,13 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "Sovetsky Soyuz",
 			nameColor = "#A9F548FF",
-			say = "如果你愿意的话，可以让她们一起来，一同生活在这座永恒的乐园之中哦。",
+			say = "But... what about the others?",
 			painting = {
 				alpha = 0.3,
 				time = 1
 			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "{namecode:529:苏维埃同盟}",
-			bgName = "bg_xuejing_cg8",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "永恒的乐园……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_xuejing_cg8",
-			hidePaintObj = true,
-			say = "这个词如同天籁，如此令人安心，令人陶醉。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_xuejing_cg8",
-			hidePaintObj = true,
-			say = "恍惚间，{namecode:529:苏维埃同盟}看到了一个世界。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_xuejing_cg8",
-			hidePaintObj = true,
-			say = "一个鲜花美酒不断，不分阵营的人欢聚一堂的世界。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -932,9 +864,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Pamiat' Merkuria",
 			nameColor = "#A9F548FF",
-			say = "如此令人松懈，想要沉沦其中……",
+			say = "I can bring them here if you want me to. Then you can all enjoy the eternal Paradise together.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -946,12 +878,80 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也因此……如此值得警惕。",
+			say = "Eternal... Paradise...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_xuejing_cg8",
+			hidePaintObj = true,
+			say = "Paradise. Heaven. Elysium. The word was like a calming whisper from Mother Nature.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_xuejing_cg8",
+			hidePaintObj = true,
+			say = "Another world superimposed itself upon Soyuz's vision.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_xuejing_cg8",
+			hidePaintObj = true,
+			say = "A world where everyone danced hand-in-hand. A world where flowers bloomed and vodka flowed freely.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_xuejing_cg8",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "Sovetsky Soyuz",
+			nameColor = "#A9F548FF",
+			say = "A world that will drown me if I let my guard down...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "Sovetsky Soyuz",
+			bgName = "bg_xuejing_cg8",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "Which is why... I need to snap out of it.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -967,9 +967,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "Pamiat' Merkuria",
 			nameColor = "#A9F548FF",
-			say = "……值得警惕？",
+			say = "Snap out of what?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -985,9 +985,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			nameColor = "#A9F548FF",
-			say = "因为……这样的乐园，此刻并不存在于世间。",
+			say = "This. A world this perfect doesn't exist – not yet.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1003,9 +1003,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			nameColor = "#A9F548FF",
-			say = "它的存在只会令人选择逃避，逃避现实，逃避危险……逃避自己为之奋斗的一切。",
+			say = "This place is pure escapism. Its only purpose is to make people give up and stop dreaming of better things.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1017,12 +1017,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……因此值得警惕。",
+			say = "Those who buy into it have no commitment to fight for humanity, and they certainly are no comrades of mine.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1037,7 +1037,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
-			say = "雾气，在此刻产生了裂痕。",
+			say = "Pamiat's world seemed to tremble. A crack spread across her utopia.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1071,9 +1071,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "Pamiat' Merkuria",
 			nameColor = "#A9F548FF",
-			say = "可是，你所为之奋斗的，不就是这样一个如乐园般的世界么？",
+			say = "But isn't this exactly the kind of world you're fighting for?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1089,9 +1089,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "Pamiat' Merkuria",
 			nameColor = "#A9F548FF",
-			say = "就算不是现实又有什么关系？选择逃避又有什么关系？",
+			say = "Who cares if it's real or not! It doesn't matter if it's escapism!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1103,12 +1103,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "水星纪念",
+			actorName = "Pamiat' Merkuria",
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "至少你还有你所珍视的人可以在这里远离纷争与痛苦，快乐地活下去不是么？",
+			say = "You can save the people you care about, Soyuz! Take them away from the fighting and the suffering and let them live in happiness forever!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1124,9 +1124,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			nameColor = "#A9F548FF",
-			say = "……你是想让我背叛自己的理想和使命，沉浸在虚假的快乐中荒废余生么。",
+			say = "Who do you take me for? Someone who'd give up on her ideals and her duty to wallow in a fantasy?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1142,9 +1142,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "Pamiat' Merkuria",
 			nameColor = "#A9F548FF",
-			say = "何来背叛？我只是让你直接抵达了终点而已！",
+			say = "No! It's not giving up on anything! It's just taking a shortcut to your destination!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1165,9 +1165,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "Pamiat' Merkuria",
 			nameColor = "#A9F548FF",
-			say = "你们的理想与使命，难道不是为了创造这样的世界么？",
+			say = "Don't you see it?! Your dream, your duty, is to create a world like this!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1183,9 +1183,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			nameColor = "#A9F548FF",
-			say = "……看来你什么都不懂啊。",
+			say = "All I see is a person who doesn't understand anything.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1201,9 +1201,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "Pamiat' Merkuria",
 			nameColor = "#A9F548FF",
-			say = "……是，我是不懂，我从来就没懂过。",
+			say = "No, I guess I don't! Because YOU don't make any sense to me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1229,9 +1229,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "Pamiat' Merkuria",
 			nameColor = "#A9F548FF",
-			say = "……你们一个个总是念叨着这些，然后自顾自的去牺牲……",
+			say = "I once knew people who talked big. About dreams, ideals, and missions. They all sacrificed themselves.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1247,9 +1247,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "Pamiat' Merkuria",
 			nameColor = "#A9F548FF",
-			say = "可是这样的牺牲又换来了些什么呢？",
+			say = "And you know what they got in return? NOTHING!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1265,9 +1265,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			nameColor = "#A9F548FF",
-			say = "纵使牺牲不会立刻改变什么，但是，总归还是让世界向着美好的未来靠近了一小步。",
+			say = "Even if self-sacrifice for your ideals doesn't result in immediate change, it will invariably lead to a brighter future.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1283,9 +1283,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			nameColor = "#A9F548FF",
-			say = "况且，总要有人去牺牲，不是么？",
+			say = "You will never reach that future if nobody makes difficult choices.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1301,9 +1301,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "Pamiat' Merkuria",
 			nameColor = "#A9F548FF",
-			say = "那也不需要一定是你们吧！",
+			say = "But who says you and your comrades have to be the sacrifice?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1319,9 +1319,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "Pamiat' Merkuria",
 			nameColor = "#A9F548FF",
-			say = "……为什么，不管在什么时代你们总是这样。",
+			say = "...I don't understand you. You're always the same, no matter the era.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1337,9 +1337,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "Pamiat' Merkuria",
 			nameColor = "#A9F548FF",
-			say = "……只为自己，让自己和自己所在意的人都能活下去到底有什么不好。",
+			say = "There's nothing wrong in living for your own sake, in wanting a future where you and only those you care about survive...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1355,9 +1355,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			nameColor = "#A9F548FF",
-			say = "……你不是我所认识的水星纪念，对么？",
+			say = "Isn't it time you showed who you really are, \"Pamiat' Merkuria\"?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1373,9 +1373,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "Pamiat' Merkuria",
 			nameColor = "#A9F548FF",
-			say = "…………",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1391,9 +1391,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "Pamiat' Merkuria",
 			nameColor = "#A9F548FF",
-			say = "欸~果然还是瞒不住么。",
+			say = "Aww, you still saw through me so easily.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1409,9 +1409,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "Sovetsky Soyuz",
 			nameColor = "#A9F548FF",
-			say = "……你究竟是谁？",
+			say = "Show me. What is your true identity?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1427,9 +1427,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "Pamiat' Merkuria",
 			nameColor = "#A9F548FF",
-			say = "呵呵，你不是已经猜到了么？",
+			say = "Ahahaha! Come on. You already know...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1447,7 +1447,7 @@ return {
 			dir = 1,
 			blackBg = true,
 			nameColor = "#FFC960",
-			say = "……关于我的真面目~",
+			say = "...Who's under the mask.",
 			painting = {
 				alpha = 0.3,
 				time = 1

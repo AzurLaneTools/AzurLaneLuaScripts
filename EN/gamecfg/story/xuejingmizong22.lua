@@ -28,15 +28,15 @@ return {
 			},
 			sequence = {
 				{
-					"审判庭总部大楼",
+					"Tribunal Headquarters",
 					1
 				},
 				{
-					"战役指挥中心",
+					"Temporary Command Center",
 					2
 				},
 				{
-					"一段时间后",
+					"Sometime later",
 					3
 				}
 			}
@@ -46,7 +46,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "在海伦娜·META的再次协助下，水星纪念·META在安塔迪卡设下的干扰彻底沦为了摆设。",
+			say = "Thanks to the hard work of Helena META as well as the shipgirls on-site, the jamming in Antarctica had been reduced to all but a non-issue.",
 			bgm = "story-finalbattle-unity",
 			flashout = {
 				black = true,
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "稳定又安全的通讯频道被重新建立起来。",
+			say = "The command system was now getting everyone's positions, compositions, and statuses. Stable strategic communication had become possible.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "随着命令一条条发出，安塔迪卡洋中各支力量逐渐形成了一个整体——联合舰队再次出现了。",
+			say = "All faction fleets reorganized, creating a single, unified fleet under my command – the Azur Lane fleet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "甚至萨拉托加还调来了一支隶属于帕克菲克洋战区的白鹰舰队。",
+			say = "Reinforcements came in, too. Not just the ones Bismarck had prepared, but backup from the Eagle Union as well.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,19 +108,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "她们“恰好”在邻近海域执行任务。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "恰好啊……这算是她事先为自己准备的预备队么。",
+			say = "The excuse given for the latter's presence was that, \"They just so happened to be in the Southern Ocean.\" Yeah, right...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +120,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不愧是萨拉托加，连企业的羊毛都能薅到……",
+			say = "Sara – or should I say, Miss Saratoga – really brought her entire fan club.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +132,19 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "咳……",
+			say = "She even got Enterprise's friends to come all the way out here...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Ahem. Anyway...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "此刻，各大阵营的科考站撤离计划正在同步进行。",
+			say = "Let's start with reviewing the evac from Antarctica.",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -176,7 +176,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "白鹰站和皇家站相对来说远离战场，目前人员已经全部在护送下乘船离开。",
+			say = "The Eagle Union's and Royal Navy's bases are far from the action and their staff have already withdrawn.",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -196,7 +196,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "铁血正在按照之前的计划前往北方联合的科考站，之后会集中进行撤离。",
+			say = "Königsberg is headed for the NP's research station right now. She'll evacuate after linking up with Soyuz's group.",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "各科考站的配属舰队将全程护航，在撤离行动完成前不参加作战行动。",
+			say = "The fleets attached to each station will escort their members to safety. They won't partake in the operation until the evacuation is complete.",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -239,7 +239,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "根据各处发来的侦察报告，此刻的安塔迪卡并未出现如上次一般的，能够引导海洛芬特“降临”的“神之茧”。",
+			say = "On the Divine Vestige front, there have been no sightings of the cocoon that brought forth the Arbiter last time.",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -261,7 +261,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "迪洛伊军团虽然在尽全力散布白色物质，但其扩散缓慢，与上次不可同日而语。",
+			say = "The Gazers have been spreading the Divine Vestige, but only at a glacial pace compared to the time of the World Expo.",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -283,7 +283,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "这些都印证了我最开始的判断。",
+			say = "So far, my theory has been correct.",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -305,7 +305,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "或许水星纪念·META并没有如马可波罗一般制定了完整的改造计划，只是在随心所欲地胡搅蛮缠而已……",
+			say = "Pamiat' Merkuria META didn't plan ahead like Marco Polo did. She's apparently just been winging it.",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "这样的话，只需要将其消灭，应该就能直接结束这场危机。",
+			say = "She is the key to all this. If we can neutralize her, it should end the crisis right there and then.",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -349,7 +349,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "或者至少也能保证，事情不会变得更加糟糕。",
+			say = "As long as we stop the superimposition, we can take our time neutralizing the Gazers and drones.",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -371,7 +371,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "幸运的是，水星纪念·META对于{namecode:529:苏维埃同盟}的舰队一直保持着极高的关注度。",
+			say = "Luckily for us, it seems Soyuz has a big fan in Pamiat'. She's been pursuing them this whole time.",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -394,7 +394,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "因而完全放弃了对周围状况的感知。",
+			say = "All while ignoring how I've been rapidly redeploying our forces.",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -417,7 +417,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "这样，就给了我们将其引入指定区域内进行歼灭的选项。",
+			say = "All we need to do is lure her into an ambush and we can wipe out her and her Gazer army in one fell swoop.",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -441,7 +441,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "此刻，{namecode:529:苏维埃同盟}一行人正在从“融雪区”向着预定作战区域撤离。",
+			say = "Soyuz's team is on the case, moving from the snowmelt area and toward the ambush point.",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -466,7 +466,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "白鹰将会提供空中支援以期让撤退行为更加顺利。",
+			say = "With the Union's air support on our side, everything should go according to plan.",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -491,7 +491,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "如果能激起水星纪念·META的胜负心，让她主动跳入陷阱就更好了。",
+			say = "Hell, the trap should be even more effective if we can push Pamiat's buttons and get her to run into our ambush completely blind.",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -517,7 +517,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "听{namecode:529:苏维埃同盟}说，她的情绪并不稳定。",
+			say = "According to Soyuz, the girl is pretty emotionally unstable. It shouldn't take much to agitate her.",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -543,7 +543,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "与此同时，由{namecode:462:布伦希尔德}带领的，包含{namecode:521:兴登堡}、{namecode:519:菲利克斯}两艘计划舰在内的铁血先遣舰队已经抵达了伏击区。",
+			say = "Alright. Forces lying in ambush... Iron Blood has Brünhilde, Hindenburg, and Felix Schultz, to name a few.",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -570,7 +570,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "萨拉托加的舰队主力则正从此方向赶来。",
+			say = "On the Union side, Saratoga's fleet is also en route to the ambush site.",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -597,7 +597,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "其中包括战列舰华盛顿、北卡罗来纳、科罗拉多、马里兰、西弗吉尼亚，航空母舰萨拉托加、突击者、独立。",
+			say = "They've got battleships Washington, North Carolina, and the Colorado sisters. For carriers, they're bringing Saratoga herself of course, Ranger, and Independence.",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -624,7 +624,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "以及数十艘巡洋舰与驱逐舰……",
+			say = "Add to that a few dozen cruisers and destroyers.",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -651,7 +651,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "除此之外，怨仇带领的皇家安塔迪卡舰队、{namecode:453:海因里希亲王}带领的铁血的增援舰队……",
+			say = "Over in the Southern Ocean, there's the Royal Navy's Southern Ocean fleet led by Implacable, as well as an Iron Blood support fleet with Prinz Heinrich among the ranks.",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -677,7 +677,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "以及萨拉托加的预备舰队——由邦克山带领的帕克菲克洋舰队的一部分将会陆续从该方向赶来。",
+			say = "Finally, there's the Union backup fleet that \"just happened to be there\"...",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -704,7 +704,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			blackBg = true,
-			say = "这里，就是决战的地方——",
+			say = "All in all, we have a really good shot at victory.",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -731,7 +731,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_2",
 			hidePaintObj = true,
-			say = "安塔迪卡大陆·冰原",
+			say = "Antarctica - Ice Fields",
 			bgm = "theme-sovietunion",
 			typewriter = {
 				speed = 0.05,
@@ -763,7 +763,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107039,
-			say = "能听到么，{namecode:529:苏维埃同盟}，现在你们情况如何？",
+			say = "Soyuz, do you read me? What's your status?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -781,7 +781,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "受损在可控范围内，预计会准时抵达目标区域。",
+			say = "Damages are within estimates. We will reach the destination momentarily.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -799,7 +799,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107039,
-			say = "空中支援已经在路上了，一定要坚持住哦！",
+			say = "The air support is almost there! Just hang in a little longer!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -817,7 +817,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "感谢你的支援，只是……常规的舰载机空袭对于迪洛伊所造成的杀伤恐怕十分有限。",
+			say = "I appreciate the support, it's just... aircraft will only deal quite limited damage to the Gazers.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -835,7 +835,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107039,
-			say = "哼哼~谁说赶来支援的只有舰载机啦？",
+			say = "Who's saying I've only brought aircraft?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -853,7 +853,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107039,
-			say = "我这次专门准备了些好东西呢，敬请期待哦~！",
+			say = "I've got a whole arsenal of stuff ready! You'll see later!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -871,7 +871,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 404050,
-			say = "{namecode:530:同盟}女士，我也已带领舰队做好了接应准备，只等诸位到来了。",
+			say = "Soyuz, our fleet is in position. All there is to do now is wait for the target to come.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -889,7 +889,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403090,
-			say = "增援舰队正在全速——赶来！",
+			say = "And the reinforcements are coming in at full speed!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -908,7 +908,7 @@ return {
 			actor = 403090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咻咻咻~咻咻咻~",
+			say = "C'mon, Eisen! Faster, boy!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -926,7 +926,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107170,
-			say = "……帕克菲克洋战区所属，邦克山，正在带领舰队全速而来。",
+			say = "...I'm Bunker Hill. Eagle Union Southern Ocean fleet. En route at max speed to objective.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -944,7 +944,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 207070,
-			say = "皇家安塔迪卡舰队也将在三小时内抵达作战海域，很荣幸能与诸位并肩作战。",
+			say = "Same with the Royal Navy's Southern Ocean fleet. We'll arrive in three hours. It's an honour to be fighting alongside you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -962,7 +962,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 101480,
-			say = "这里是{namecode:525:英格拉罕}，白鹰和皇家的撤离行动已经基本完成，我即将前往战场支援诸位的作战行动。",
+			say = "This is Ingraham. We're done evacuating all the Union and Royal Navy forces. The escort fleets will now join you in battle.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -980,7 +980,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 703010,
-			say = "北方联合和铁血的撤离仍在进行中，我会尽快完成。",
+			say = "NP's and IB's evacs aren't finished yet. I'm working on it as fast as I can.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -998,7 +998,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "明白，诸位都辛苦了。",
+			say = "Thank you all for the status reports.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1016,7 +1016,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "让我们各尽其职，决战之地见。",
+			say = "We'll continue to our destination and report back when we've arrived.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1033,7 +1033,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……真没想到，指挥官人坐在欧罗巴还能调动的起这么多力量啊。",
+			say = "Sheesh. The Commander is leading everyone flawlessly, despite being across the world.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1067,7 +1067,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错，现状的展开也早已超出了我的设想……",
+			say = "Yes. And under circumstances not even I could have predicted...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1085,7 +1085,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "可，这才是我们看好的指挥官同志，不是么？",
+			say = "But... that's what makes Comrade Commander so reliable, don't you think?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1103,7 +1103,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 705020,
-			say = "……将水星纪念·META引导到指定区域予以歼灭的计划，就包在我们身上吧。",
+			say = "I shall be the bait for Pamiat'. Everyone else, please follow the orders you've been given.",
 			painting = {
 				alpha = 0.3,
 				time = 1

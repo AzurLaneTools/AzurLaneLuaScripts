@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
-			say = "在整理好思绪后，我拨通了萨拉托加的私人频道。",
+			say = "After organizing my thoughts for a bit, I sent Saratoga an encrypted call.",
 			bgm = "story-commander-up",
 			typewriter = {
 				speed = 0.05,
@@ -34,11 +34,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "Communicator",
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "滴——滴——滴————",
+			say = "BEEP BEEP!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107039,
-			say = "……这里是萨拉托加。",
+			say = "...Yes? Saratoga speaking!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -68,7 +68,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "是我。",
+			say = "Hey. Are you okay?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107039,
-			say = "……咦？欸！啊…指、指挥官……你现在打来，是有事情么？",
+			say = "Huh?! W-wait, Commander?! How'd you...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,127 +100,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107039,
-			say = "很、很不巧哦？萨、萨拉妹妹现在很忙——",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_545",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "在忙“冰天使”行动么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_545",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107039,
-			say = "欸……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_545",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107039,
-			say = "……我还以为保密工作做得很好呢，果然还是瞒不过你。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_545",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107039,
-			say = "你是怎么知道的？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_545",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107039,
-			say = "而且……你还解决了笼罩安塔迪卡的干扰将通讯打了过来……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_545",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107039,
-			say = "……算了，当我没问。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_545",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107039,
-			say = "你既然能做到这些，对于现在安塔迪卡的局势应该也十分清楚了吧。",
+			say = "Um, I'm actually kind of busy right now, so...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +116,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……迪洛伊突然出现，你们已经陷入苦战中了。",
+			say = "We need to talk about Frozen Angel.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +130,97 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107039,
-			say = "…………",
+			say = "Oh...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_545",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107039,
+			say = "I had a feeling you'd find out sooner or later. Sorry for keeping you in the dark...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_545",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107039,
+			say = "I should've known the truth would get out after such a large fleet was mobilized.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_545",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107039,
+			say = "How did you get through the jamming all across the Southern Ocean?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_545",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107039,
+			say = "Actually, no, never mind.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_545",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107039,
+			say = "You have your ways. You probably already know what's going on here...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,19 +236,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "以你的情报源，你应该十分清楚我们所拥有的“心智魔方”的真正来源。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_545",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "同时，你也应该十分清楚塞壬在背地里究竟能够操纵些什么，又是通过何种手段做到的。",
+			say = "I also know your fleet is fighting the Gazers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +250,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107039,
-			say = "……你连这些也查到了啊。",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +266,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……所以，为什么你要这么做。",
+			say = "You've got your hands full, I know, but this is important.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,43 +278,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所谓能够与舰装形成共鸣的矿物，明显就是陷阱，以你的聪明才智难道真的看不出来？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_545",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "还有之前在星海，你授意星座所进行的一系列无视安全规章的激进测试也是一样。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_545",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "这些将自己与同伴置于险境之中的决策……实在不像我所认识的萨拉托加会做出来的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_545",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "……为什么，你要这么做？",
+			say = "You must know by now that the crystals are part of a Siren plot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,169 +292,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107039,
-			say = "……至少，你现在人在欧罗巴。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_545",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107039,
-			say = "……在一个远离星海也远离安塔迪卡的安全位置上，不是么？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_545",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107039,
-			say = "是的，你说的没错，在来安塔迪卡之前，我就知道这一次一定会遇到危险。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_545",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107039,
-			say = "所以我竭尽全力，动用关系集结了一支战役级的舰队用于“冰天使”行动。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_545",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107039,
-			say = "……陷阱么，当然一目了然，心智魔方并不是由特殊矿物制作的。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_545",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107039,
-			say = "可是就算矿物是假的，能让一般矿物产生出如此神奇特性的技术呢？这项技术是真实存在的。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_545",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107039,
-			say = "治好姐姐……这个对我们来说天大的难题…………",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_545",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107039,
-			say = "对于塞壬，还有那些隐藏于幕后的人来说，或许只是举手之劳吧？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_545",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107039,
-			say = "既然它们以此为诱饵，那为什么不试试呢……？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_545",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107039,
-			say = "反正情况也不会变的更糟了……",
+			say = "Y-yeah...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -548,7 +308,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……萨拉托加，列克星敦不光是你的姐姐。",
+			say = "Then why are you still doing this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +320,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "早在军事学院学习时，她就作为老师为我授课。",
+			say = "If you KNOW that the crystals are bait, why are you still walking into their trap?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +332,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "在我作为碧蓝航线的指挥官前往白鹰赴任的时候，她也一直陪在我的身边。",
+			say = "Then there's how you handled Constellation's experiment in the Sea of Stars. It's like you haven't been yourself for a while now.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +344,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "她也是我的战友，我所在意的人……不论遇到何种困难，我都一定会救她的。",
+			say = "You never meant to put anyone in danger, I know that, but why are you trying to bear responsibility for everything?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +356,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我的承诺从未动摇过，你难道不相信么？",
+			say = "Something has clearly happened. I want you to tell me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +370,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107039,
-			say = "……我当然是相信的。",
+			say = "Commander, you're still in Europa, aren't you?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -628,7 +388,151 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107039,
-			say = "只是……已经没有时间了。",
+			say = "That's good... That means you're in a safe place.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_545",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107039,
+			say = "Listen... I know there's a chance that Frozen Angel is an empty hope. I know that, of course.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_545",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107039,
+			say = "I knew all along that Wisdom Cubes and those crystals were completely different.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_545",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107039,
+			say = "But, even if they don't work like Cubes do, maybe – just maybe – they have the power to fix her hull.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_545",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107039,
+			say = "Lex has been debilitated ever since that battle, and we've still not found any way to cure her.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_545",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107039,
+			say = "And while we don't know any cure, maybe the Sirens or whoever controls them does.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_545",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107039,
+			say = "You have to understand... I'm desperate, Commander. I need something that can save her.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_545",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107039,
+			say = "So desperate I was willing to walk into a trap all on my own... But people came with me, and I couldn't just tell them it was a trap...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_545",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107039,
+			say = "And now they're all here, and it's my fault... Because I didn't have the courage to tell them...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +548,55 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "列克星敦现在的病情很稳定，相信我，我一定能及时找到治疗方案的。",
+			say = "Listen to me. You're not the only one to whom Lex is important.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_545",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "She taught me so much when I was studying at the academy, and she was always there during my stint in the Eagle Union.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_545",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "She isn't just a shipgirl under my command. She's a friend and a person close to my heart.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_545",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "We made a promise, you and I. To save Lexington, whatever it took. I would never go back on that promise.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_545",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "So trust me when I say this – you can't carry this burden all by yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +610,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107039,
-			say = "可是太阳……不，没什么。",
+			say = "......",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -676,61 +628,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107039,
-			say = "……欸，事已至此，我承认，迪洛伊军团的出现确实在我的计划之外。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_545",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107039,
-			say = "就安塔迪卡战区现在的局势而言，已经超出了“冰天使”行动舰队的应对极限。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_545",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107039,
-			say = "指挥官，之前课上姐姐讲过的《安塔迪卡条约》的内容你还记得么？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_545",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 107039,
-			say = "远程指挥也是指挥，或许用得上那个规则吧？",
+			say = "But... It's too late now...",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -746,7 +644,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "感谢你的信任。",
+			say = "Lexington's condition is stable. We WILL find a way to cure her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,7 +658,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107039,
-			say = "所以说——我一直都很相信你呀！",
+			say = "But the sun, it's... N-never mind.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -778,7 +676,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107039,
-			say = "好啦~我现在正式将“冰天使”行动的指挥权转交给你。",
+			say = "Ahem! Commander, I really, reeeally need your help!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -796,7 +694,109 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107039,
-			say = "这一次，按照你的想法放手去做吧，指挥官~",
+			say = "It'd be one thing if we were fighting mass-produced Sirens, but a swarm of Gazers this big is too much for our fleet to deal with!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_545",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107039,
+			say = "Remember your lesson on the Antarctic Treaty? It lets you command not just us shipgirls...",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_545",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107039,
+			say = "But also all the defensive weaponry that exists around Antarctica!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_545",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "...Thanks for trusting me, Sara.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_545",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107039,
+			say = "Of course. I've always trusted you!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_545",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107039,
+			say = "Okay, I'm handing control of our fleet over to you now!",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_545",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 107039,
+			say = "Do your thing and lead us to victory!",
 			painting = {
 				alpha = 0.3,
 				time = 1

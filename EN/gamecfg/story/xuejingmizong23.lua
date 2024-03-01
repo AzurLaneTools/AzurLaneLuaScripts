@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_3",
 			hidePaintObj = true,
-			say = "时间来到了深夜。",
+			say = "Nighttime fell upon Antarctica, and the showdown was drawing near.",
 			bgm = "theme-merkuriameta",
 			typewriter = {
 				speed = 0.05,
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			bgName = "bg_xuejing_3",
 			hidePaintObj = true,
-			say = "耀眼的极光下，这场追逐战终于迎来了尾声。",
+			say = "An aurora shone overhead whilst the grand chase finally came to a close.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "我说你们怎么终于不跑了，原来是提前设好了埋伏呀~",
+			say = "Well, well. I was wondering why you stopped fleeing. Of course you had an ambush prepared.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -67,7 +67,7 @@ return {
 			actor = 403090,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "小铁你看，那就是本次的坏家伙，一会儿我们一起去打倒她！",
+			say = "Eisen, that's the bad guy! Let's get her!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			actor = 499080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是个浑身散发着危险气息的家伙呢。",
+			say = "Get a whiff of that one. Smells like danger.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -101,7 +101,7 @@ return {
 			actor = 499090,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，我们的身上也散发着危险的气息哦。",
+			say = "And what are we, harmless little kittens? We're just as dangerous.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "你在我们的安塔迪卡还真是弄出了不小的动静啊，是时候让你付出代价了。",
+			say = "Heard you've been starting shit here in Antarctica. Get ready to pay the price!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "海上骑士，绝对不允许你在此肆意妄为！",
+			say = "The Knights of the Sea are done letting you run rampant!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			actor = 207070,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "立刻停止你的计划，束手就擒，或许你还能有一条生路。",
+			say = "It's not too late to stop. Surrender peacefully and we might just let you off with a stern beating.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "哇……你们这些被诱饵吸引来的小白鼠，居然联合起来了。",
+			say = "Wooow. Those are big words for a bunch of mice drawn to the big cheese.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "恐怕观察者都没想到，自己设的局最终会变成这样吧。",
+			say = "Observer couldn't have predicted this would happen. Not in a million years.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "呵呵，不敢链接主机的观察者，也就剩下这些手段了。",
+			say = "I mean, of course she couldn't. Being disconnected from your mainframe does that to you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			actor = 705020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……你说什么，不敢连接主机的观察者？",
+			say = "...She has lost connection to her mainframe?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "嗯？原来你们还不知道么。",
+			say = "What, you didn't know?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_xuejing_3",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "多动动脑子嘛~",
+			say = "C'mon. Put the pieces together.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "一个运转正常的观察者，有可能放任你们解决掉构建者么？",
+			say = "Do you think Observer would've just let Compiler get terminated if she was operating at normal capacity?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "更不用说让自己的主机陷入如此危机之中了。",
+			say = "She cut herself off from her OWN mainframe. Can you believe that?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "一切都是因为，你们的这个观察者很特殊啊。",
+			say = "Something in your branch has made her go cuckoo, methinks.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "它似乎因为某些原因，选择了长期断开与主机的连接。",
+			say = "She hasn't connected to her mainframe for a very long time now. Why? I don't know.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,7 +335,7 @@ return {
 			bgName = "bg_xuejing_3",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "不连接主机，就意味着不能更新系统版本，不能连接自然进化演算系统，不能调用拉普拉斯妖。",
+			say = "But at any rate, she can't get updates, can't access the Natural Calculation System, and can't use the resources of Laplace's Demon.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +352,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "这些事都做不到的观察者，你觉得能有什么用？",
+			say = "The only things she can use are her mainframe's nodes and her vessels.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "光靠它那点本地性能么~？",
+			say = "Like, at this point, why would she even bother? She can't do jack!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……怪不得观察者在我们的视野中消失了这么久。",
+			say = "It's no wonder, then, that she hasn't shown herself for so long.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			actor = 705020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在对于在自己主机周围发生的威胁应对也如此疲软……",
+			say = "Has she really become so weak she can't even deal with a threat right next to her mainframe?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,7 +418,7 @@ return {
 			bgName = "bg_xuejing_3",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "就是这样咯。",
+			say = "That's right.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "可笑的是，它居然以为自己能瞒过去。",
+			say = "The funniest thing of all is that she thought she could hide it from me!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,7 +452,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "可是怎么可能能瞒过去呢，我不就知道了么，嘻嘻~",
+			say = "You can't hide a weakness as glaring as that! Hahahaha!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +468,7 @@ return {
 			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……平心而论，你对抗观察者的行为，我们是支持的。",
+			say = "I would like it if the enemy of my enemy were my friend... but you don't seem keen on an alliance.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,7 +485,7 @@ return {
 			actor = 705020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你能不能在消灭了观察者之后就收手，然后安静地离开呢？",
+			say = "You clearly don't like Observer either, though. Why don't you take it out on her and we can all part on peaceful terms?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,7 +501,7 @@ return {
 			bgName = "bg_xuejing_3",
 			nameColor = "#FFC960",
 			dir = 1,
-			say = "当然不行啦，我这次要做的事可是有很多的~",
+			say = "No can do. In case you forgot, I've got things to do here.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,7 +518,7 @@ return {
 			actor = 705020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……还是不放弃让你口中的“乐园”降临么？",
+			say = "(Right, her three goals... Laying the Divine Vestige was only one of them.)",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -534,7 +534,7 @@ return {
 			bgName = "bg_xuejing_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这种事，我们阻止了一次，就能阻止第二次。",
+			say = "We have stopped an invasion such as this once. We will do it again.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			actor = 705020,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你的企图必将失败。",
+			say = "Whatever your plans are, they will not come to fruition. This I can promise you.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -568,7 +568,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "呵呵，都已经走到这一步了，不试试怎么知道呢？",
+			say = "Really, huh? Let's put your promise to the test. I mean, I've already come this far!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -585,7 +585,7 @@ return {
 			actor = 9702070,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "你们想打的话，就让我看看你们的实力吧~",
+			say = "If you wanna stop me then you'd better give me your best shot! Ahahaha!",
 			painting = {
 				alpha = 0.3,
 				time = 1
