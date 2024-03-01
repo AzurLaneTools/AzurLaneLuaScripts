@@ -50,12 +50,6 @@ function slot0.handleNotification(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.SKIN_SHOPPIGN_DONE or slot2 == GAME.SKIN_COUPON_SHOPPING_DONE then
-		if slot3.awards and #slot3.awards > 0 then
-			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
-				items = slot3.awards
-			})
-		end
-
 		if pg.shop_template[slot3.id] and slot4.genre == ShopArgs.SkinShop then
 			slot0:addSubLayers(Context.New({
 				mediator = NewSkinMediator,

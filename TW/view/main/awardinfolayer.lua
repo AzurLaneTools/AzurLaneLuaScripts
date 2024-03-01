@@ -265,7 +265,17 @@ function slot0.displayAwards(slot0)
 
 				setLocalPosition(slot8, Vector3.zero)
 				setLocalScale(slot8, Vector3.zero)
-				updateDrop(slot0:findTF("item_tpl/bg", slot8), slot7)
+
+				slot9 = slot0:findTF("item_tpl/bg", slot8)
+
+				updateDrop(slot9, slot7)
+				setActive(slot9:Find("name"), false)
+				setActive(slot9:Find("name_mask"), true)
+
+				slot10 = slot9:Find("name_mask/name")
+				slot10 = slot10:GetComponent("ScrollText")
+
+				slot10:SetText(slot7.cfg.name)
 				slot0:managedTween(LeanTween.delayedCall, function ()
 					slot0 = uv0
 					slot0 = slot0:managedTween(LeanTween.value, nil, go(uv1), 0, 1, 0.3)
