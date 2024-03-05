@@ -418,26 +418,26 @@ pg.emoji_template = {
 	},
 	{
 		achieve = 1,
-		item_desc = "Sticker: STAHP (Can be found in the Default section of chat stickers.)",
-		item_name = "Sticker: STAHP",
+		item_desc = "Sticker: Woah! (Can be found in the Default section of chat stickers.)",
+		item_name = "Sticker: Woah!",
 		id = 33,
 		index = 73,
 		icon = "",
 		pic = "33",
-		desc = "<color=#92fc63>STAHP</color>",
+		desc = "<color=#92fc63>[Woah!]</color>",
 		type = {
 			1
 		}
 	},
 	{
 		achieve = 1,
-		item_desc = "Sticker: Woah! (Can be found in the Default section of chat stickers.)",
-		item_name = "Sticker: Woah!",
+		item_desc = "Sticker: STAHP (Can be found in the Default section of chat stickers.)",
+		item_name = "Sticker: STAHP",
 		id = 34,
 		index = 74,
 		icon = "",
 		pic = "34",
-		desc = "<color=#92fc63>Woah!</color>",
+		desc = "<color=#92fc63>[STAHP]</color>",
 		type = {
 			1
 		}
