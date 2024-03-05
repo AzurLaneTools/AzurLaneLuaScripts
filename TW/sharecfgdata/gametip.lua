@@ -22822,6 +22822,46 @@ _G.pg.base.gametip.battle_text_common_1 = {
 	tip = "敵人正在準備某種強大的攻擊，請<color=#f1f102>集中火力將其打斷</color>！"
 }
 
+_G.pg.base.gametip.battle_text_yingxiv4_1 = {
+	tip = "戰爭騎士似乎在向<color=#f1f102>左前方</color>向蓄勢"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_2 = {
+	tip = "戰爭騎士似乎在向<color=#f1f102>正前方</color>向蓄勢"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_3 = {
+	tip = "戰爭騎士似乎在向<color=#f1f102>右前方</color>向蓄勢"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_4 = {
+	tip = "戰爭騎士似乎受了某種<color=#f1f102>反噬</color>"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_5 = {
+	tip = "戰爭騎士變得更<color=#f1f102>狂熱</color>了起來"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_6 = {
+	tip = "戰爭騎士正在全神貫注地積蓄力量，<color=#f1f102>阻止它</color>"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_7 = {
+	tip = "戰爭騎士正保持警惕，暫時<color=#f1f102>不要輕舉妄動</color>"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_8 = {
+	tip = "戰爭騎士開始用特殊裝置<color=#f1f102>鎖定</color>我方主力艦隊"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_9 = {
+	tip = "引導對方的<color=#f1f102>主炮攻擊</color>破壞這些裝置"
+}
+
+_G.pg.base.gametip.battle_text_yingxiv4_10 = {
+	tip = "戰爭騎士陷入了<color=#f1f102>癱瘓狀態</color>，艦隊可以隨意開火"
+}
+
 _G.pg.base.gametip.series_enemy_mood = {
 	tip = "心情不足"
 }
@@ -23546,11 +23586,11 @@ _G.pg.base.gametip.notice_label_send = {
 }
 
 _G.pg.base.gametip.notice_label_room = {
-	tip = "接收消息"
+	tip = "聊天室房間"
 }
 
 _G.pg.base.gametip.notice_label_recv = {
-	tip = "聊天室房間"
+	tip = "接收消息"
 }
 
 _G.pg.base.gametip.notice_label_tip = {

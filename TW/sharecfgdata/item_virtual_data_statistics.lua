@@ -157144,8 +157144,8 @@ _G.pg.base.item_virtual_data_statistics[59393] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[59394] = {
-	display = "用于头像框活动兑换，活动结束后将会消失",
-	name = "训练点数",
+	display = "用於頭像框活動兌換，活動結束後將會消失",
+	name = "巡遊點數",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
@@ -157216,8 +157216,8 @@ _G.pg.base.item_virtual_data_statistics[59396] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[59397] = {
-	display = "用于头像框活动兑换，活动结束后将会消失",
-	name = "训练点数",
+	display = "用於頭像框活動兌換，活動結束後將會消失",
+	name = "巡遊點數",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
@@ -157240,8 +157240,8 @@ _G.pg.base.item_virtual_data_statistics[59397] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[59398] = {
-	display = "用于「复兴的赞美诗」复刻活动兑换，活动结束后将会消失",
-	name = "复兴之证",
+	display = "用於「復興的讚美詩」復刻活動兌換，活動結束後將會消失",
+	name = "復興之證",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
