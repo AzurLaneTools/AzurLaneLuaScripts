@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg14",
 			hidePaintObj = true,
-			say = "旋转木马缓缓启动，我抓准时机，坐上了TB旁边的木马。",
+			say = "회전목마에서 TB의 옆자리에 있는 목마에 앉았다.",
 			bgm = "qe-ova-10",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_project_tb_cg14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB，看这边。",
+			say = "――TB, 여기야~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,12 +46,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg14",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？",
+			say = "……네?",
 			voice = "event:/educate/tb/educate-tb-story-32-1",
 			painting = {
 				alpha = 0.3,
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg14",
 			hidePaintObj = true,
-			say = "拍下了TB乘坐旋转木马的模样。",
+			say = "회전목마를 타고 있는 TB의 모습을 사진에 담았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,12 +75,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg14",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要拍照，可以提前说。",
+			say = "……사진을 찍을 거면 미리 말씀해 주세요.",
 			voice = "event:/educate/tb/educate-tb-story-32-2",
 			painting = {
 				alpha = 0.3,
@@ -93,12 +93,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg14",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过……算了，没什么。",
+			say = "그렇지만…… 으음, 아무것도 아니에요.",
 			voice = "event:/educate/tb/educate-tb-story-32-3",
 			painting = {
 				alpha = 0.3,
@@ -111,12 +111,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg14",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样也很好。",
+			say = "……뭐, 마음대로 찍으셔도 상관없어요.",
 			voice = "event:/educate/tb/educate-tb-story-32-4",
 			painting = {
 				alpha = 0.3,
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg14",
 			hidePaintObj = true,
-			say = "之后的TB没有再说什么，只是让我陪着她又坐了几次旋转木马。",
+			say = "그 후 TB는 아무말도 하지 않고 조금 더 회전목마를 즐겼다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg14",
 			hidePaintObj = true,
-			say = "就这样和TB度过了一段难忘的时光。",
+			say = "TB와 잊지 못할 시간을 보냈다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

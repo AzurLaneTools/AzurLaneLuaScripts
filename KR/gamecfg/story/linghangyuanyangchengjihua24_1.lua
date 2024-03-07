@@ -10,9 +10,9 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "qe-ova-12",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			hidePaintObj = true,
-			say = "为了更有圣诞氛围一些，我特意准备了这条裙子呢。",
+			say = "크리스마스 느낌을 더 내보려고 특별히 이 의상도 준비했어요~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -41,12 +41,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg18",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "一日限定的圣诞老人——TB，现在为您送上礼物哦。",
+			say = "오늘 하루는 TB가 산타클로스! 선물도 준비했답니다.",
 			voice = "event:/educate/tb/educate-tb-story-31-5",
 			painting = {
 				alpha = 0.3,
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg18",
 			hidePaintObj = true,
-			say = "她将捧在怀中的礼盒递到我的眼前。",
+			say = "TB는 손에 든 선물 상자를 내게 내밀었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,12 +70,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg18",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "感谢您一直以来的照顾。",
+			say = "늘 신세만 지고 있으니…",
 			voice = "event:/educate/tb/educate-tb-story-31-6",
 			painting = {
 				alpha = 0.3,
@@ -88,12 +88,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg18",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然并不是什么贵重的物品……但这也是我的一片心意。",
+			say = "대단한 건 아니지만…… TB가 드리는 감사의 마음이에요.",
 			voice = "event:/educate/tb/educate-tb-story-31-7",
 			painting = {
 				alpha = 0.3,
@@ -106,12 +106,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg18",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "请收下这个吧。",
+			say = "부디 받아주시길.",
 			voice = "event:/educate/tb/educate-tb-story-31-8",
 			painting = {
 				alpha = 0.3,
@@ -124,12 +124,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg18",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "圣诞快乐。",
+			say = "메리 크리스마스.",
 			voice = "event:/educate/tb/educate-tb-story-31-9",
 			painting = {
 				alpha = 0.3,
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg18",
 			hidePaintObj = true,
-			say = "在那之后，和TB一起度过了温馨的圣诞节。",
+			say = "TB와 따뜻한 크리스마스를 보냈다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

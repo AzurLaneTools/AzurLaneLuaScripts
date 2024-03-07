@@ -10,9 +10,9 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "qe-ova-9",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			hidePaintObj = true,
-			say = "快看，是枫叶！",
+			say = "저기 봐요! 단풍잎이에요!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
-			say = "她捡起温泉池水中的一片落叶，遮住了自己的一只眼睛。",
+			say = "TB는 물에 뜬 낙엽을 집어 한쪽 눈을 가리고는 내쪽을 돌아봤다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你这是打算……？",
+			say = "――그건……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,12 +64,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，这种时候不是应该说那种台词嘛——",
+			say = "헤헷, 이럴 때는 역시 이런 대사죠!",
 			voice = "event:/educate/tb/educate-tb-story-33-12",
 			painting = {
 				alpha = 0.3,
@@ -82,12 +82,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“寄宿在吾右眼中的禁忌之力啊，以这枚贤者之血铸就的红叶将汝封印……！”",
+			say = "\"내 오른쪽 눈에 깃든 금기의 힘이여… 이 현자의 피로 만든 단풍에 잠들라……!\"",
 			voice = "event:/educate/tb/educate-tb-story-33-13",
 			painting = {
 				alpha = 0.3,
@@ -100,12 +100,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么样？超cool的对吧？！是我从漫画书上学到的哦！",
+			say = "어때요? 완전 멋있죠? 만화에서 배웠어요~",
 			voice = "event:/educate/tb/educate-tb-story-33-14",
 			painting = {
 				alpha = 0.3,
@@ -122,7 +122,7 @@ return {
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不……这只是普通的中二病吧。",
+			say = "――아니, 그건 그냥 중2병이잖아……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,12 +130,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是的，你这样会变成无趣的大人哦。",
+			say = "에이, 매사에 그런 식으로 굴면 재미없는 어른이 되고만다구요.",
 			voice = "event:/educate/tb/educate-tb-story-33-15",
 			painting = {
 				alpha = 0.3,
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好吧……那，看我这招！",
+			say = "――흐음… 그럼 그 금기의 힘에 맞서 싸우는 수밖에…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,12 +160,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呀——！",
+			say = "으앗~!",
 			voice = "event:/educate/tb/educate-tb-story-33-16",
 			painting = {
 				alpha = 0.3,

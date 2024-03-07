@@ -5251,7 +5251,7 @@ pg.base.ship_skin_template_9 = {
 	},
 	[302041] = {
 		ship_group = 30204,
-		name = "한가한 봄날",
+		name = "한가로운 봄날",
 		hand_id = 14,
 		bgm = "",
 		l2d_drag_rate = "",

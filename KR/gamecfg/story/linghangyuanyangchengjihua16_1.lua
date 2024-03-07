@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
-			say = "烟花适时地在空中绽放，而穿着浴衣的TB此刻微微侧过身。",
+			say = "불꽃이 밤하늘을 한가득 수놓았고, 유카타 차림의 TB는 살짝 내쪽을 돌아보았다.",
 			bgm = "qe-ova-1",
 			typewriter = {
 				speed = 0.05,
@@ -34,12 +34,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我很开心。",
+			say = "TB… 지금 굉장히 기뻐요.",
 			voice = "event:/educate/tb/educate-tb-story-2-8",
 			painting = {
 				alpha = 0.3,
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
-			say = "——她的脸上出现了明确可以被称之为微笑的表情。",
+			say = "그녀의 얼굴에는 확실히, '미소'라고 부를 수 있는 표정이 떠올랐다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,12 +63,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "今天做了那么多有趣的事情，还看到了烟花，我很开心。",
+			say = "오늘은 재밌는 것도 많이 하고, 불꽃놀이도 감상했죠. 너무 기뻐요.",
 			voice = "event:/educate/tb/educate-tb-story-2-9",
 			painting = {
 				alpha = 0.3,
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
-			say = "虽然听起来并不符合她的年纪该有的表达……",
+			say = "보통 이 나이라면 더 들떠서 말하기 마련이지만……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
-			say = "但能像这样拥有自己的情绪，或许就意味着这项计划成功了一部分。",
+			say = "그래도 이렇게 자신만의 '감정'을 가지게 된 것은 이 프로젝트가 부분적으로나마 성공했다는 의미겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,12 +103,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果每天都是烟火大会就好了。",
+			say = "매일 축제날이었으면 좋겠어요.",
 			voice = "event:/educate/tb/educate-tb-story-2-10",
 			painting = {
 				alpha = 0.3,
@@ -121,12 +121,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样就可以不用上学了。",
+			say = "그러면 학교에 가지 않아도 될 텐데… 말이죠.",
 			voice = "event:/educate/tb/educate-tb-story-2-11",
 			painting = {
 				alpha = 0.3,
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
-			say = "听着她重新变得幼稚起来的言语，我忍不住笑了。",
+			say = "이제야 들려주는 아이다운 감상에 나도 모르게 미소가 지어졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB，不想上学就不能成为“好孩子”了哦。",
+			say = "――TB, 학교에 안 가면 '착한 아이'는 될 수 없다고.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,12 +162,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦。",
+			say = "그렇죠……",
 			voice = "event:/educate/tb/educate-tb-story-2-12",
 			painting = {
 				alpha = 0.3,
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
-			say = "听起来有点失落啊……",
+			say = "실망한 건가…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,12 +191,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那，我们以后还能再来烟火大会吗？",
+			say = "그럼, 다음에 또 불꽃놀이가 열리면 또 와도 될까요?",
 			voice = "event:/educate/tb/educate-tb-story-2-13",
 			painting = {
 				alpha = 0.3,
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "当然。",
+			say = "――물론이지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,12 +221,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "拉勾。",
+			say = "자, 손가락 걸어요.",
 			voice = "event:/educate/tb/educate-tb-story-2-14",
 			painting = {
 				alpha = 0.3,
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
-			say = "我们约定在下一个夏日，再一起来看烟火大会。",
+			say = "TB와 다음 여름에도 불꽃놀이를 보러 오자고 약속했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,9 +10,9 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "story-richang-relax",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			hidePaintObj = true,
-			say = "……你好慢。",
+			say = "……늦어요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -45,7 +45,7 @@ return {
 			bgName = "bg_project_tb_cg23",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "抱歉抱歉，等很久了吗？",
+			say = "――미안, 오래 기다렸지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_project_tb_cg23",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "因为觉得你的毕业舞会，无论如何也不能怠慢，我就多检查了几遍着装……",
+			say = "――TB의 졸업 파티니까 아무렇게나 올 수는 없어서, 몇 번이나 차림새를 확인하다가 늦어졌어…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,12 +65,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg23",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……没关系，我也没有等很久。",
+			say = "……괜찮아요, 그렇게 오래 기다리진 않았으니까.",
 			voice = "event:/educate/tb/educate-tb-story-32-16",
 			painting = {
 				alpha = 0.3,
@@ -83,12 +83,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg23",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那个……这身打扮，我不太习惯。",
+			say = "그나저나… 이 옷… 익숙하지 않네요.",
 			voice = "event:/educate/tb/educate-tb-story-32-17",
 			painting = {
 				alpha = 0.3,
@@ -101,12 +101,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg23",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "最好还是……不要一直盯着我看。",
+			say = "가급적이면… 너무 쳐다보지 않으셨으면 해요.",
 			voice = "event:/educate/tb/educate-tb-story-32-18",
 			painting = {
 				alpha = 0.3,
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_project_tb_cg23",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "为什么？",
+			say = "――그건 왜?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,12 +131,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg23",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总觉得不太适合我……有些难为情。",
+			say = "……뭐랄까, 저랑은 어울리지 않는 것 같아서 부끄러워요.",
 			voice = "event:/educate/tb/educate-tb-story-32-19",
 			painting = {
 				alpha = 0.3,
@@ -153,7 +153,7 @@ return {
 			bgName = "bg_project_tb_cg23",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "明明很漂亮，也很合适。",
+			say = "――예뻐서 TB랑 굉장히 잘 어울려.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,12 +161,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg23",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……很漂亮吗？",
+			say = "……정말요?",
 			voice = "event:/educate/tb/educate-tb-story-32-20",
 			painting = {
 				alpha = 0.3,
@@ -179,12 +179,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg23",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……那就好。",
+			say = "……그럼, 됐어요.",
 			voice = "event:/educate/tb/educate-tb-story-32-21",
 			painting = {
 				alpha = 0.3,
@@ -200,7 +200,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg23",
 			hidePaintObj = true,
-			say = "大厅中的音乐适时响起，我弯腰向TB发出共舞邀请。",
+			say = "회장에 울려 퍼지는 음악에 맞춰, TB를 댄스에 초청하며 가볍게 인사를 건넸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_project_tb_cg23",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-32-laugh1",
 			nameColor = "#A9F548FF",
@@ -247,7 +247,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg23",
 			hidePaintObj = true,
-			say = "少女将手轻轻搭在我的掌心。",
+			say = "소녀는 내 손바닥에 살짝 자신의 손을 얹었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "bg_project_tb_cg23",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "恭喜毕业，TB。",
+			say = "――TB, 졸업 축하해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

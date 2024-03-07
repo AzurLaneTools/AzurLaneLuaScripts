@@ -10,9 +10,9 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "qe-ova-10",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			hidePaintObj = true,
-			say = "这样……就是可爱吗？",
+			say = "이러면…… 귀여워?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -45,7 +45,7 @@ return {
 			bgName = "bg_project_tb_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "当然。",
+			say = "――그래, 당연하지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg8",
 			hidePaintObj = true,
-			say = "TB看着镜子，似乎很喜欢这件连衣裙。",
+			say = "거울을 유심히 들여다보는 TB. 아무래도 원피스가 꽤 마음에 드는 모양이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_project_tb_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB……好像长高了啊。",
+			say = "――TB, 조금 키가 큰 것 같은데?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,12 +76,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "长高？嗯……TB，会长得更高。",
+			say = "키가 컸다고? 응…… TB, 쑥쑥 자랄 거야.",
 			voice = "event:/educate/tb/educate-tb-story-1-16",
 			painting = {
 				alpha = 0.3,
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg8",
 			hidePaintObj = true,
-			say = "虽然在回应着我的话语，但TB的双眼却一刻都没有离开过全身镜。",
+			say = "대답하면서도 TB의 눈은 거울에서 벗어나질 못했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg8",
 			hidePaintObj = true,
-			say = "就算TB还没有出现明显的情绪表达……现在也还挺好懂的。",
+			say = "TB는 아직 명확한 감정 표현은 보이지 않지만…… 의외로 알기 쉬운 성격일지도 모른다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg8",
 			hidePaintObj = true,
-			say = "不知道开放日的那天，TB会在台上表演什么样的节目呢？真让人期待啊。",
+			say = "앞으로 어떤 모습을 보여줄지 기대가 되는군.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

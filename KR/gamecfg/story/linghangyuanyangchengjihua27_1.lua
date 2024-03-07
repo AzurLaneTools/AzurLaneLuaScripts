@@ -10,9 +10,9 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "qe-ova-12",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			hidePaintObj = true,
-			say = "欸、欸……？！",
+			say = "허, 헉……?!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -41,12 +41,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg21",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "浴巾……滑下来了……",
+			say = "수건이…… 벗겨진 것 같아요……",
 			voice = "event:/educate/tb/educate-tb-story-31-11",
 			painting = {
 				alpha = 0.3,
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg21",
 			hidePaintObj = true,
-			say = "不知是否是因为旁边注入的泉水让她身上的浴巾松动。",
+			say = "옆의 물구멍에서 흘러 들어오는 물 때문에 TB의 수건이 느슨해져서 그런지……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg21",
 			hidePaintObj = true,
-			say = "原本对她而言就有些紧绷的浴巾此刻毫无征兆地散开滑落。",
+			say = "일부러 조금 단단히 묶어둔 수건이 갑자기 풀려서 벗겨져 버렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg21",
 			hidePaintObj = true,
-			say = "虽然她在第一时间就抓住了滑落的浴巾进行了遮挡，但还是——",
+			say = "바로 수건을 집어 몸을 가렸지만, 그래도……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,12 +92,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg21",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "请、请您不要看……！",
+			say = "보, 보시면 안 돼요……!",
 			voice = "event:/educate/tb/educate-tb-story-31-12",
 			painting = {
 				alpha = 0.3,
@@ -110,12 +110,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg21",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总觉得，有些难为情……",
+			say = "으으, 너무 부끄러워요……",
 			voice = "event:/educate/tb/educate-tb-story-31-13",
 			painting = {
 				alpha = 0.3,
@@ -132,7 +132,7 @@ return {
 			bgName = "bg_project_tb_cg21",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "咳……总觉得有点太热了，我先出去等你。",
+			say = "――으, 으흠… 갑자기 열이 오르는 것 같네. 먼저 나갈게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,12 +140,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg21",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯、嗯……",
+			say = "아, 네……",
 			voice = "event:/educate/tb/educate-tb-story-31-14",
 			painting = {
 				alpha = 0.3,

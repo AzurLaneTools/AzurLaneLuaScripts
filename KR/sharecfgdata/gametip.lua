@@ -25655,11 +25655,11 @@ _G.pg.base.gametip.child_unlock_bag = {
 }
 
 _G.pg.base.gametip.child_shop_empty_tip = {
-	tip = "-本商店商品已经全部售罄-"
+	tip = "- 판매 중인 아이템이 없습니다 -"
 }
 
 _G.pg.base.gametip.child_bag_empty_tip = {
-	tip = "-暂未获得任何道具-"
+	tip = "-소지품이 없습니다-"
 }
 
 _G.pg.base.gametip.levelscene_deploy_submarine = {

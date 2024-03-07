@@ -50,7 +50,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
-			say = "之前和TB详细阐述这个计划的时候就已经确认……",
+			say = "TB에게 상세 계획을 설명하며 한 차례 그녀의 양해를 얻었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
-			say = "在这个虚拟小镇中的TB只会保留最基础的认知，原本TB的记忆和功能都会暂时停用。",
+			say = "이 공간에서 TB는 가장 기초적인 인식 기능 이외에는 일시 차단되어, 외부 기억 영역에는 접근할 수 없게 된다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
-			say = "而这么做的理由，则是为了能够切实体验到——“成长”的过程。",
+			say = "TB가 '성장' 과정을 확실하게 체험할 수 있도록 열심히 해보자고 각오를 다졌건만…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
-			say = "但真的当小小的TB出现在我眼前的时候，我还是觉得有些惊奇。",
+			say = "말 그대로 '작은' TB가 눈앞에 나타나 나도 모르게 깜짝 놀라고 말았다.。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
-			say = "不过，这种惊奇的感觉很快被心中浮现的责任感替代。",
+			say = "…그런 놀라움은 곧 책임감으로 대체되었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
-			say = "没错，既然已经答应了TB，就一定要帮她解决她的烦恼。",
+			say = "그래, TB와 약속한 이상 그녀의 고민을 해결하기 위해 최선을 다해야지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "欢迎回家，TB。",
+			say = "――어서 와, TB.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

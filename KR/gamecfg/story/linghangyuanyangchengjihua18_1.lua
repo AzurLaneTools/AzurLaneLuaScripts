@@ -10,9 +10,9 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "qe-ova-1",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			hidePaintObj = true,
-			say = "嗯……",
+			say = "음……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -41,12 +41,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg13",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "完全……不知道从哪开始复习。",
+			say = "어디서부터 복슥해야 할지 전혀 모르겠어요.",
 			voice = "event:/educate/tb/educate-tb-story-2-18",
 			painting = {
 				alpha = 0.3,
@@ -59,12 +59,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg13",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明明看过了很多书，可还是一转眼的功夫就忘记。",
+			say = "책을 많이 읽었는데도 금방 잊어버려요.",
 			voice = "event:/educate/tb/educate-tb-story-2-19",
 			painting = {
 				alpha = 0.3,
@@ -77,12 +77,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg13",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "老师说我偏科很厉害，几门功课的成绩差距太大了。",
+			say = "너무 좋아하는 과목만 공부한다는 소리를 들었어요. 성적 차이가 많이 난다고…",
 			voice = "event:/educate/tb/educate-tb-story-2-20",
 			painting = {
 				alpha = 0.3,
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg13",
 			hidePaintObj = true,
-			say = "看着她桌上摆着的试卷上的分数，我忍不住笑了。",
+			say = "책상 위 시험지의 점수를 보고 나도 모르게 웃음이 나왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,12 +106,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg13",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这有什么好笑的……",
+			say = "웃으실 것까지는 없잖아요……",
 			voice = "event:/educate/tb/educate-tb-story-2-21",
 			painting = {
 				alpha = 0.3,
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg13",
 			hidePaintObj = true,
-			say = "她嘟囔着。",
+			say = "TB는 토라지고 말았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_project_tb_cg13",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "就是觉得TB居然会偏科这件事很不可思议。",
+			say = "――TB가 좋아하는 과목만 편식하다니 믿어지지가 않아서.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,19 +150,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg13",
 			hidePaintObj = true,
-			say = "毕竟之前几乎无所不能的领航员小姐……现在变成了考试成绩不及格的小学生。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_project_tb_cg13",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "不过刚刚笑出声是我不对，我要向你道歉。",
+			say = "설마 뭐든 다 잘 하던 네비게이터 TB가 시험에서 낙제점을 받는 학생이 될 줄이야…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +162,19 @@ return {
 			bgName = "bg_project_tb_cg13",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "接下来，我们一起复习功课吧。",
+			say = "――미안, 미안. 나도 모르게 웃어버렸네.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_project_tb_cg13",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "――그럼 같이 복습할까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

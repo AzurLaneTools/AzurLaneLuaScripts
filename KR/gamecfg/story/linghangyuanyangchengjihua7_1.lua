@@ -10,9 +10,9 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			bgm = "qe-ova-12",
-			actorName = "领航员-TB",
+			actorName = "TB",
 			hidePaintObj = true,
-			say = "啊——",
+			say = "아~~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -44,7 +44,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
-			say = "她用餐叉将西蓝花送到我的嘴边。",
+			say = "TB는 포크로 브로콜리를 찍어 내 입으로 가지고 왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……？",
+			say = "――……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,12 +64,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘴巴……张开。",
+			say = "자, 아… 해야지.",
 			voice = "event:/educate/tb/educate-tb-story-1-2",
 			painting = {
 				alpha = 0.3,
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
-			say = "虽然没有多余的表情，但依然能看出她很高兴。",
+			say = "따로 표정으로 드러내진 않았지만, 그녀는 무척이나 즐거워 보였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
-			say = "或许……模仿这种喂食行为本身，也能让TB理解到一些她想要的东西？",
+			say = "어쩌면…… 이렇게 '먹이'를 주는 행위 자체가 TB에게 있어서는 무언가를 이해하는 단서가 될지도 모른다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,12 +104,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊——",
+			say = "아~~",
 			voice = "event:/educate/tb/educate-tb-story-1-3",
 			painting = {
 				alpha = 0.3,
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
-			say = "似乎是看我迟迟没有动作，她再一次发出声音示意我。",
+			say = "좀처럼 반응을 보이지 않는 나를 보고 그녀는 다시 목소리를 높여 다음 행동에 나서도록 재촉했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "啊——",
+			say = "――아~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
-			say = "我故作夸张地将食物吃掉。",
+			say = "크게 입을 벌려서 브로콜리를 입에 넣었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
