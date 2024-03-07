@@ -1,159 +1,159 @@
 pg = pg or {}
 pg.activity_event_question = {
-	[43] = {
-		answer_right = "중순양함",
-		answer_false1 = "경순양함",
-		question = "CA는 해군 통용 항선 분류 부호 중 ( )을 가리키는 데 사용된다.",
+	[57] = {
+		answer_right = "급상승 폭격",
+		answer_false1 = "스킵 폭격",
+		question = "폭격기의 폭격 방법이 아닌 것은?",
 		type = 1,
-		id = 43,
-		answer_false3 = "순양전함",
+		id = 57,
+		answer_false3 = "수평 폭격",
 		wrong_time = 30,
-		answer_false2 = "대형순양함"
+		answer_false2 = "급강하 폭격"
 	},
-	[44] = {
-		answer_right = "대미지 컨트롤",
-		answer_false1 = "긴급 수리",
-		question = "함선이 자신의 체력을 유지하거나 회복하기 위해, 피해를 예방, 제한, 감소하는 대책과 행동은 일반적으로 ( )이라고 불린다.",
+	[58] = {
+		answer_right = "<size=26>목표와의 거리 표시</size>",
+		answer_false1 = "<size=26>장전 시간 표시</size>",
+		question = "전함의 거리 시계의 역할에 해당하는 것은?",
 		type = 1,
-		id = 44,
-		answer_false3 = "손상 처리",
+		id = 58,
+		answer_false3 = "<size=26>식사 시간 표시</size>",
 		wrong_time = 30,
-		answer_false2 = "파손 처리"
+		answer_false2 = "<size=26>현재 시각 표시</size>"
 	},
-	[45] = {
-		answer_right = "305mm",
-		answer_false1 = "203mm",
-		question = "함선이 장비했던 역사상 가장 큰 함포의 구경은 ( )이다.",
+	[59] = {
+		answer_right = "아거스",
+		answer_false1 = "랭글리",
+		question = "세계 최초로 일자평면형 비행 갑판을 갖춘 항공모함은?",
 		type = 1,
-		id = 45,
-		answer_false3 = "105mm",
+		id = 59,
+		answer_false3 = "보그",
 		wrong_time = 30,
-		answer_false2 = "152mm"
+		answer_false2 = "젠하이"
 	},
-	[46] = {
-		answer_right = "열역학",
-		answer_false1 = "전자식",
-		question = "93식 산소 어뢰는 동력 타입에 따라 분류 시 ( ) 어뢰에 속한다.",
+	[60] = {
+		answer_right = "He-178",
+		answer_false1 = "Me-262",
+		question = "세계 최초의 제트기는?",
 		type = 1,
-		id = 46,
-		answer_false3 = "특수 동력",
+		id = 60,
+		answer_false3 = "MiG-9",
 		wrong_time = 30,
-		answer_false2 = "에어로졸"
+		answer_false2 = "F9F"
 	},
-	[47] = {
-		answer_right = "엔진 오더 텔레그래프(EOT)",
-		answer_false1 = "쉽 벨",
-		question = "함선의 함교와 기관실 사이에 함선의 전진 후퇴 지령을 발·수신하는 조종 설비는 ( )이다.",
+	[61] = {
+		answer_right = "24",
+		answer_false1 = "28",
+		question = "에식스급 항공모함 중 완성된 총 함선 수는?",
 		type = 1,
-		id = 47,
-		answer_false3 = "무선 전신 통신",
+		id = 61,
+		answer_false3 = "25",
 		wrong_time = 30,
-		answer_false2 = "보이스 튜브"
+		answer_false2 = "17"
 	},
-	[48] = {
-		answer_right = "1922년",
-		answer_false1 = "1919년",
-		question = "순수 항공모함으로 건조된 첫 항공모함의 준공연도는 ( )이다.",
+	[62] = {
+		answer_right = "<size=26>곤돌라</size>",
+		answer_false1 = "<size=26>패러글라이더</size>",
+		question = "해상에서 군함 간 인원 이동 시에 사용되는 기재는?",
 		type = 1,
-		id = 48,
-		answer_false3 = "1920년",
+		id = 62,
+		answer_false3 = "어뢰발사관",
 		wrong_time = 30,
-		answer_false2 = "1924년"
+		answer_false2 = "<size=26>폭탄 이음매</size>"
 	},
-	[49] = {
-		answer_right = "수중탄 효과",
-		answer_false1 = "수리탄 효과",
-		question = "포탄이 물에 들어간 뒤 수평 방향으로 일정 거리를 전진해 함선의 아래 장갑대에 명중하는 현상은 ( )라고 일컫는다.",
+	[63] = {
+		answer_right = "<size=26>아이스크림</size>",
+		answer_false1 = "<size=26>단호박 수프</size>",
+		question = "단좌형 함재기를 타고 공중에서 만든 요리는?",
 		type = 1,
-		id = 49,
-		answer_false3 = "잠수탄 효과",
+		id = 63,
+		answer_false3 = "애플파이",
 		wrong_time = 30,
-		answer_false2 = "스플래시 효과"
+		answer_false2 = "스테이크"
 	},
-	[50] = {
-		answer_right = "102000",
-		answer_false1 = "40000",
-		question = "숙소 식량 저장량의 최대 상한은 ( )이다.",
+	[64] = {
+		answer_right = "9",
+		answer_false1 = "7",
+		question = "대형 작전에서 정찰 명령으로 소모되는 최대 행동력은?",
 		type = 2,
-		id = 50,
-		answer_false3 = "80000",
+		id = 64,
+		answer_false3 = "10",
 		wrong_time = 30,
-		answer_false2 = "무제한"
+		answer_false2 = "8"
 	},
-	[51] = {
-		answer_right = "구축함",
-		answer_false1 = "잠수함",
-		question = "( )은 한계돌파 MAX 달성 시, 3가지 버프 효과 중 랜덤으로 1가지를 얻을 수 있다.",
+	[65] = {
+		answer_right = "5000",
+		answer_false1 = "4000",
+		question = "이벤트를 제외하고 매월 획득 가능한 특장 원형의 최대 수량은?",
 		type = 2,
-		id = 51,
-		answer_false3 = "주력함대",
+		id = 65,
+		answer_false3 = "2000",
 		wrong_time = 30,
-		answer_false2 = "공작함"
+		answer_false2 = "3000"
 	},
-	[52] = {
-		answer_right = "중형 장갑",
-		answer_false1 = "중장갑",
-		question = "반철갑탄은 ( )의 적을 공격 시 대미지가 가장 높다.",
+	[66] = {
+		answer_right = "윤형진",
+		answer_false1 = "복종진",
+		question = "해역 추격 시, 함대의 대공을 향상시키는 진형은?",
 		type = 2,
-		id = 52,
-		answer_false3 = "세이렌 함대",
+		id = 66,
+		answer_false3 = "제형진",
 		wrong_time = 30,
-		answer_false2 = "경장갑"
+		answer_false2 = "단종진"
 	},
-	[53] = {
-		answer_right = "37",
-		answer_false1 = "35",
-		question = "대형 작전에서 매주 최대 ( )개의 모항 임무를 접수할 수 있다.",
+	[67] = {
+		answer_right = "전사의 마음가짐",
+		answer_false1 = "빛나는 마이크",
+		question = "워스파이트의 개조 재료 아이템의 이름은?",
 		type = 2,
-		id = 53,
-		answer_false3 = "39",
+		id = 67,
+		answer_false3 = "여왕의 명령",
 		wrong_time = 30,
-		answer_false2 = "42"
+		answer_false2 = "<size=26>고기 냄새 향수</size>"
 	},
-	[54] = {
-		answer_right = "쿨타임 단축",
-		answer_false1 = "범위 확대",
-		question = "「특수 장비 효과-특수 참격」 레벨업 시 어떤 버프 효과가 추가되는가?",
+	[68] = {
+		answer_right = "특수 장비 휴대",
+		answer_false1 = "<size=26>레어도 상승</size>",
+		question = "다음 행동 중 출격 시 연료 소모에 영향을 주지 않는 것은?",
 		type = 2,
-		id = 54,
-		answer_false3 = "탄막 무효화 강화",
+		id = 68,
+		answer_false3 = "<size=26>한계돌파 실시</size>",
 		wrong_time = 30,
-		answer_false2 = "대미지 상승"
+		answer_false2 = "<size=26>함선 레벨 상승</size>"
 	},
-	[55] = {
-		answer_right = "1400",
-		answer_false1 = "200",
-		question = "META 연구실에서 보유할 수 있는 [파일 비콘 데이터] 상한은 ( )이다.",
+	[69] = {
+		answer_right = "TB",
+		answer_false1 = "TA",
+		question = "대형 작전의 네비게이터 캐릭터 이름은?",
 		type = 2,
-		id = 55,
-		answer_false3 = "700",
+		id = 69,
+		answer_false3 = "TD",
 		wrong_time = 30,
-		answer_false2 = "100"
+		answer_false2 = "TC"
 	},
-	[56] = {
-		answer_right = "스테이지 진도 100%",
-		answer_false1 = "3성 수집 완료",
-		question = "일부 스테이지의 [연료 소모 상한] 기능을 해제하는 조건은 ( )이다.",
+	[70] = {
+		answer_right = "<size=26>전투 시 항공 지원</size>",
+		answer_false1 = "<size=26>색적치 상승</size>",
+		question = "메인 해역 기능인 \"지원 함대\"의 효과에 해당하는 것은?",
 		type = 2,
-		id = 56,
-		answer_false3 = "모든 적 처치",
+		id = 70,
+		answer_false3 = "내구 상승",
 		wrong_time = 30,
-		answer_false2 = "안전 해역 달성"
+		answer_false2 = "<size=26>제공치 상승</size>"
 	},
 	all = {
-		43,
-		44,
-		45,
-		46,
-		47,
-		48,
-		49,
-		50,
-		51,
-		52,
-		53,
-		54,
-		55,
-		56
+		57,
+		58,
+		59,
+		60,
+		61,
+		62,
+		63,
+		64,
+		65,
+		66,
+		67,
+		68,
+		69,
+		70
 	}
 }

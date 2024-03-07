@@ -37,7 +37,7 @@ function slot0.SetCallBack(slot0, slot1)
 end
 
 function slot0.GetItem(slot0, slot1)
-	return getProxy(BagProxy):getItemById(slot1) or Item.New({
+	return getProxy(BagProxy):getItemById(slot1) or Drop.New({
 		count = 0,
 		type = DROP_TYPE_ITEM,
 		id = slot1

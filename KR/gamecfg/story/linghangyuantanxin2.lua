@@ -137,7 +137,7 @@ return {
 			actor = 1006,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "$1이 만드는 거라면 뭐든지 좋아…",
+			say = "{tb}이 만드는 거라면 뭐든지 좋아…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

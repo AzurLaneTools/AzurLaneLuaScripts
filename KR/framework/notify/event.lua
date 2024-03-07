@@ -121,9 +121,9 @@ function slot17(slot0, slot1)
 
 			if slot5.blocked_handlers[slot9] == 0 then
 				if slot1.accumulator then
-					slot1.accumulator(slot9(slot1.event_name, uv0(slot1.args, 1, slot1.args.len)))
+					slot1.accumulator(slot9(slot1.event_name, unpackEx(slot1.args)))
 				else
-					slot9(slot1.event_name, uv0(slot1.args, 1, slot1.args.len))
+					slot9(slot1.event_name, unpackEx(slot1.args))
 				end
 			end
 		end
@@ -183,10 +183,7 @@ function slot8.emit(slot0, slot1, ...)
 	uv1(slot0, {
 		event_name = slot1,
 		nodes = slot2,
-		args = {
-			len = select("#", ...),
-			...
-		}
+		args = packEx(...)
 	})
 	uv2(slot1, slot3)
 end
@@ -199,10 +196,7 @@ function slot8.emit_with_accumulator(slot0, slot1, slot2, ...)
 		event_name = slot1,
 		nodes = slot3,
 		accumulator = slot2,
-		args = {
-			len = select("#", ...),
-			...
-		}
+		args = packEx(...)
 	})
 	uv2(slot1, slot4)
 end

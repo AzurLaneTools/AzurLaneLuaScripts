@@ -133,10 +133,7 @@ end
 function slot0.CallbackInvoke(slot0, slot1, ...)
 	slot0._funcQueue[#slot0._funcQueue + 1] = {
 		func = slot1,
-		params = {
-			len = select("#", ...),
-			...
-		}
+		params = packEx(...)
 	}
 
 	slot0:HandleFuncQueue()

@@ -2,7 +2,7 @@ pg = pg or {}
 pg.child_target_set = {
 	{
 		target_progress = 5,
-		name = "快乐玩耍",
+		name = "건강 난만",
 		condition = "",
 		icon = "tb_target_pic_1_1",
 		recommend_attr = 0,
@@ -34,7 +34,7 @@ pg.child_target_set = {
 	},
 	{
 		target_progress = 5,
-		name = "教育启蒙",
+		name = "교육 계몽",
 		condition = "",
 		icon = "tb_target_pic_1_2",
 		recommend_attr = 0,
@@ -66,7 +66,7 @@ pg.child_target_set = {
 	},
 	{
 		target_progress = 5,
-		name = "举止优雅",
+		name = "행동 우아",
 		condition = "",
 		icon = "tb_target_pic_1_4",
 		recommend_attr = 0,
@@ -98,7 +98,7 @@ pg.child_target_set = {
 	},
 	{
 		target_progress = 5,
-		name = "感知世界",
+		name = "세계 탐색",
 		condition = "",
 		icon = "tb_target_pic_1_3",
 		recommend_attr = 0,
@@ -130,7 +130,7 @@ pg.child_target_set = {
 	},
 	[11] = {
 		target_progress = 5,
-		name = "精力充沛",
+		name = "정력 넘침",
 		condition = "",
 		icon = "tb_target_pic_2_1",
 		recommend_attr = 101,
@@ -165,7 +165,7 @@ pg.child_target_set = {
 	},
 	[12] = {
 		target_progress = 5,
-		name = "聪颖过人",
+		name = "총명 예지",
 		condition = "",
 		icon = "tb_target_pic_2_2",
 		recommend_attr = 102,
@@ -200,7 +200,7 @@ pg.child_target_set = {
 	},
 	[13] = {
 		target_progress = 5,
-		name = "举止大方",
+		name = "예의 양호",
 		condition = "",
 		icon = "tb_target_pic_2_3",
 		recommend_attr = 103,
@@ -235,7 +235,7 @@ pg.child_target_set = {
 	},
 	[14] = {
 		target_progress = 5,
-		name = "细致入微",
+		name = "알뜰살뜰",
 		condition = "",
 		icon = "tb_target_pic_2_4",
 		recommend_attr = 104,
@@ -270,7 +270,7 @@ pg.child_target_set = {
 	},
 	[21] = {
 		target_progress = 8,
-		name = "身姿矫健",
+		name = "질실 강건",
 		condition = "",
 		icon = "tb_target_pic_3_1",
 		recommend_attr = 101,
@@ -300,7 +300,7 @@ pg.child_target_set = {
 	},
 	[22] = {
 		target_progress = 8,
-		name = "才思敏捷",
+		name = "재기 발랄",
 		condition = "",
 		icon = "tb_target_pic_3_2",
 		recommend_attr = 102,
@@ -330,7 +330,7 @@ pg.child_target_set = {
 	},
 	[23] = {
 		target_progress = 8,
-		name = "气质非凡",
+		name = "유려 우아",
 		condition = "",
 		icon = "tb_target_pic_3_3",
 		recommend_attr = 103,
@@ -360,7 +360,7 @@ pg.child_target_set = {
 	},
 	[24] = {
 		target_progress = 8,
-		name = "敏感细腻",
+		name = "예민 섬세",
 		condition = "",
 		icon = "tb_target_pic_3_4",
 		recommend_attr = 104,
@@ -390,7 +390,7 @@ pg.child_target_set = {
 	},
 	[31] = {
 		target_progress = 10,
-		name = "灵巧机敏",
+		name = "영리 기민",
 		icon = "tb_target_pic_4_1_32",
 		recommend_attr = 101,
 		pic = "tb_target_desc_4_1",
@@ -429,7 +429,7 @@ pg.child_target_set = {
 	},
 	[32] = {
 		target_progress = 11,
-		name = "创意无限",
+		name = "창의 무한",
 		icon = "tb_target_pic_4_2_32",
 		recommend_attr = 102,
 		pic = "tb_target_desc_4_2",
@@ -469,7 +469,7 @@ pg.child_target_set = {
 	},
 	[33] = {
 		target_progress = 11,
-		name = "注重细节",
+		name = "섬세 주밀",
 		icon = "tb_target_pic_4_3_32",
 		recommend_attr = 104,
 		pic = "tb_target_desc_4_3",
@@ -509,7 +509,7 @@ pg.child_target_set = {
 	},
 	[34] = {
 		target_progress = 11,
-		name = "行动力强",
+		name = "과감 관철",
 		icon = "tb_target_pic_4_4_32",
 		recommend_attr = 102,
 		pic = "tb_target_desc_4_4",
@@ -549,7 +549,7 @@ pg.child_target_set = {
 	},
 	[35] = {
 		target_progress = 11,
-		name = "乐感十足",
+		name = "음률 정통",
 		icon = "tb_target_pic_4_5_32",
 		recommend_attr = 104,
 		pic = "tb_target_desc_4_5",
@@ -589,7 +589,7 @@ pg.child_target_set = {
 	},
 	[36] = {
 		target_progress = 11,
-		name = "魅力非凡",
+		name = "매력 만점",
 		icon = "tb_target_pic_4_6_32",
 		recommend_attr = 103,
 		pic = "tb_target_desc_4_6",

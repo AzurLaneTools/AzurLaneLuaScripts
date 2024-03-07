@@ -5251,7 +5251,7 @@ pg.child_site_option = {
 	},
 	[1606] = {
 		replace = 0,
-		name = "观看足球比赛",
+		name = "축구 시합",
 		id = 1606,
 		type = 2,
 		label = "",

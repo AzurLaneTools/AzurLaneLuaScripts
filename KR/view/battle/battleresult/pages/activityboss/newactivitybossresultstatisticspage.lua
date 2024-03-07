@@ -67,10 +67,10 @@ end
 function slot0.UpdateTicket(slot0, slot1)
 	slot2 = slot0:GetTicketItemID(slot0.contextData.actId)
 
-	setImageSprite(slot1:Find("playAgain/ticket/icon"), GetSpriteFromAtlas(getDropIcon({
+	setImageSprite(slot1:Find("playAgain/ticket/icon"), GetSpriteFromAtlas(Drop.New({
 		type = DROP_TYPE_RESOURCE,
 		id = slot2
-	}), ""))
+	}):getIcon(), ""))
 
 	slot6 = getProxy(PlayerProxy):getRawData():getResource(slot2) > 0
 

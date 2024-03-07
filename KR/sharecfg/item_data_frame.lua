@@ -423,6 +423,15 @@ pg.item_data_frame = {
 		desc = "\"현실을 덮는 성궁, 세상을 재현하는 인과. 금기를 뛰어넘은 그 순간, 세상에 영원한 진실이 새겨지리라\"――",
 		scene = {}
 	},
+	[329] = {
+		time_limit_type = 0,
+		name = "얼음 왕국의 별",
+		gain_by = "",
+		id = 329,
+		time_second = 0,
+		desc = "이벤트에서 획득 가능",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "전당 기념: 엔터프라이즈",
@@ -651,6 +660,7 @@ pg.item_data_frame = {
 		326,
 		327,
 		328,
+		329,
 		401,
 		402,
 		413,

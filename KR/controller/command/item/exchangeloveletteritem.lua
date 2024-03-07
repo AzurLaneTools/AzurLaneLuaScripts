@@ -18,19 +18,11 @@ function slot0.execute(slot0, slot1)
 			uv1:updateActivity(uv0)
 
 			for slot4, slot5 in ipairs(slot0.award_list) do
-				slot6 = nil
-
-				if slot5.type == DROP_TYPE_LOVE_LETTER then
-					slot6 = Item.New({
-						count = 1,
-						type = DROP_TYPE_ITEM,
-						id = slot5.id,
-						extra = slot5.count or slot5.number
-					})
-				else
-					assert(false)
-				end
-
+				slot6 = Drop.New({
+					type = slot5.type,
+					id = slot5.id,
+					count = slot5.number
+				}):getSubClass()
 				slot7 = getProxy(BagProxy)
 
 				slot7:removeExtraData(slot6.id, slot6.extra)

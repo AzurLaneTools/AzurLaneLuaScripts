@@ -23,19 +23,18 @@ function slot0.execute(slot0, slot1)
 		num = slot4
 	}, 15007, function (slot0)
 		if slot0.result == 0 then
-			slot1 = {}
-
 			uv0:removeItemById(uv1, uv2 * uv3)
 
-			slot2 = Item.New({
+			slot1 = Drop.New({
 				type = DROP_TYPE_ITEM,
 				id = uv4,
 				count = uv2
 			})
 
-			table.insert(slot1, slot2)
-			uv5:sendNotification(GAME.ADD_ITEM, slot2)
-			uv5:sendNotification(GAME.USE_ITEM_DONE, slot1)
+			uv5:sendNotification(GAME.ADD_ITEM, slot1)
+			uv5:sendNotification(GAME.USE_ITEM_DONE, {
+				slot1
+			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
 		end

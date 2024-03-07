@@ -17,7 +17,7 @@ return {
 			actor = 1301,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "$1! 단도직입적으로 물을게요! 초콜릿 드시고 싶으세요?",
+			say = "{tb}! 단도직입적으로 물을게요! 초콜릿 드시고 싶으세요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

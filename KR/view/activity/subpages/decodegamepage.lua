@@ -21,8 +21,7 @@ end
 function slot0.OnFirstFlush(slot0)
 	uv0.super.OnFirstFlush(slot0)
 
-	slot1 = slot0.activity
-	uv1 = slot1:getConfig("config_client").decodeGameId
+	uv1 = slot0.activity:getConfig("config_client").decodeGameId
 
 	onButton(slot0, slot0.start, function ()
 		pg.m02:sendNotification(GAME.REQUEST_MINI_GAME, {
@@ -34,7 +33,7 @@ function slot0.OnFirstFlush(slot0)
 	end, SFX_PANEL)
 	GetImageSpriteFromAtlasAsync("equips/" .. Equipment.New({
 		id = DecodeGameConst.AWARD[2]
-	}).config.icon, "", slot0.itemIcon)
+	}):getConfig("icon"), "", slot0.itemIcon)
 end
 
 function slot0.GetProgressColor(slot0)

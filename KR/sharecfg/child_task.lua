@@ -2,7 +2,7 @@ pg = pg or {}
 pg.child_task = {
 	[101] = {
 		arg = 1,
-		name = "等待领航员-TB回家",
+		name = "TB를 맞이하자",
 		type_2 = 7,
 		group = 1,
 		type_1 = 3,
@@ -31,7 +31,7 @@ pg.child_task = {
 	},
 	[102] = {
 		arg = 1,
-		name = "设定成长目标",
+		name = "육성 목표를 설정하자",
 		type_2 = 6,
 		group = 1,
 		type_1 = 3,
@@ -60,7 +60,7 @@ pg.child_task = {
 	},
 	[103] = {
 		arg = 1,
-		name = "完成-行程计划-1次",
+		name = "예정을 1개 진행하자",
 		type_2 = 10,
 		group = 1,
 		type_1 = 3,
@@ -89,7 +89,7 @@ pg.child_task = {
 	},
 	[104] = {
 		arg = 1,
-		name = "完成-行程计划-1次",
+		name = "예정을 2개 진행하자",
 		type_2 = 10,
 		group = 1,
 		type_1 = 3,
@@ -118,7 +118,7 @@ pg.child_task = {
 	},
 	[105] = {
 		arg = 2,
-		name = "完成-行程计划-2次",
+		name = "예정을 3개 진행하자",
 		type_2 = 10,
 		group = 1,
 		type_1 = 3,
@@ -147,7 +147,7 @@ pg.child_task = {
 	},
 	[201] = {
 		arg = 1,
-		name = "送领航员-TB入学",
+		name = "TB와 함께 학교에 가자",
 		type_2 = 7,
 		group = 1,
 		type_1 = 3,
@@ -176,7 +176,7 @@ pg.child_task = {
 	},
 	[202] = {
 		arg = 1,
-		name = "完成一次行程计划",
+		name = "TB의 예정 1회 편성",
 		type_2 = 10,
 		group = 1,
 		type_1 = 3,
@@ -205,7 +205,7 @@ pg.child_task = {
 	},
 	[203] = {
 		arg = 1,
-		name = "出行-游乐场",
+		name = "외출로 유원지로 이동",
 		type_2 = 3,
 		group = 1,
 		type_1 = 3,
@@ -239,7 +239,7 @@ pg.child_task = {
 	},
 	[204] = {
 		arg = 1,
-		name = "出行-美食坊-打工",
+		name = "외출로 맛집 거리로 이동해서 \"아르바이트\" 실시",
 		type_2 = 3,
 		group = 1,
 		type_1 = 3,
@@ -272,7 +272,7 @@ pg.child_task = {
 	},
 	[205] = {
 		arg = 2,
-		name = "完成-行程计划-2次",
+		name = "예정 2회 진행",
 		type_2 = 10,
 		group = 1,
 		type_1 = 3,
@@ -301,7 +301,7 @@ pg.child_task = {
 	},
 	[206] = {
 		arg = 1,
-		name = "出行-度假庄园-随便逛逛",
+		name = "외출로 리조트로 이동해서 \"적당히 돌아다닌다\" 선택",
 		type_2 = 3,
 		group = 1,
 		type_1 = 3,
@@ -334,7 +334,7 @@ pg.child_task = {
 	},
 	[207] = {
 		arg = 1,
-		name = "任意商店购买商品-1个",
+		name = "아이템 1개 구매",
 		type_2 = 4,
 		group = 1,
 		type_1 = 3,
@@ -363,7 +363,7 @@ pg.child_task = {
 	},
 	[208] = {
 		arg = 2,
-		name = "完成-行程安排-2次",
+		name = "예정을 2개 진행하자",
 		type_2 = 10,
 		group = 1,
 		type_1 = 3,
@@ -392,7 +392,7 @@ pg.child_task = {
 	},
 	[209] = {
 		arg = 1,
-		name = "出行-学院-校图书馆",
+		name = "외출로 학교로 이동해서 \"도서관\" 선택",
 		type_2 = 3,
 		group = 1,
 		type_1 = 3,
@@ -425,7 +425,7 @@ pg.child_task = {
 	},
 	[210] = {
 		arg = 2,
-		name = "完成-行程安排-2次",
+		name = "예정을 2개 진행하자",
 		type_2 = 10,
 		group = 1,
 		type_1 = 3,
@@ -454,7 +454,7 @@ pg.child_task = {
 	},
 	[211] = {
 		arg = 1,
-		name = "出行-体育馆-体育锻炼",
+		name = "외출로 운동장으로 이동해서 \"트레이닝\" 실시",
 		type_2 = 3,
 		group = 1,
 		type_1 = 3,
@@ -487,7 +487,7 @@ pg.child_task = {
 	},
 	[212] = {
 		arg = 1,
-		name = "完成-行程安排-1次",
+		name = "예정을 1개 진행하자",
 		type_2 = 10,
 		group = 1,
 		type_1 = 3,
@@ -516,7 +516,7 @@ pg.child_task = {
 	},
 	[213] = {
 		arg = 1,
-		name = "完成第一次系统升级",
+		name = "육성 단계 추가 진행",
 		type_2 = 7,
 		group = 1,
 		type_1 = 3,
@@ -545,7 +545,7 @@ pg.child_task = {
 	},
 	[214] = {
 		arg = 1,
-		name = "完成-行程安排-1次",
+		name = "예정을 1개 진행하자",
 		type_2 = 10,
 		group = 1,
 		type_1 = 3,
@@ -574,7 +574,7 @@ pg.child_task = {
 	},
 	[215] = {
 		arg = 1,
-		name = "出行-美食坊-随便逛逛",
+		name = "외출로 맛집 거리로 이동해서 \"적당히 돌아다닌다\" 선택",
 		type_2 = 3,
 		group = 1,
 		type_1 = 3,
@@ -607,7 +607,7 @@ pg.child_task = {
 	},
 	[216] = {
 		arg = 2,
-		name = "完成-行程安排-2次",
+		name = "예정을 2개 진행하자",
 		type_2 = 10,
 		group = 1,
 		type_1 = 3,
@@ -636,7 +636,7 @@ pg.child_task = {
 	},
 	[217] = {
 		arg = 1,
-		name = "出行-海滨公园-随便逛逛",
+		name = "외출로 해변의 공원으로 이동해서 \"적당히 돌아다닌다\" 선택",
 		type_2 = 3,
 		group = 1,
 		type_1 = 3,
@@ -669,7 +669,7 @@ pg.child_task = {
 	},
 	[218] = {
 		arg = 2,
-		name = "任意商店购买商品-2个",
+		name = "아이템 2개 구매",
 		type_2 = 4,
 		group = 1,
 		type_1 = 3,
@@ -698,7 +698,7 @@ pg.child_task = {
 	},
 	[219] = {
 		arg = 3,
-		name = "完成-行程安排-3次",
+		name = "이번 주 예정 3회 편성",
 		type_2 = 10,
 		group = 1,
 		type_1 = 3,
@@ -727,7 +727,7 @@ pg.child_task = {
 	},
 	[220] = {
 		arg = 1,
-		name = "出行-美食坊-打工",
+		name = "외출로 맛집 거리로 이동해서 \"아르바이트\" 실시",
 		type_2 = 3,
 		group = 1,
 		type_1 = 3,
@@ -760,7 +760,7 @@ pg.child_task = {
 	},
 	[221] = {
 		arg = 1,
-		name = "出行-度假庄园-写生",
+		name = "외출로 리조트로 이동해서 \"스케치한다\" 선택",
 		type_2 = 3,
 		group = 1,
 		type_1 = 3,
@@ -793,7 +793,7 @@ pg.child_task = {
 	},
 	[222] = {
 		arg = 3,
-		name = "完成-行程安排-3次",
+		name = "이번 주 예정 3회 편성",
 		type_2 = 10,
 		group = 1,
 		type_1 = 3,
@@ -822,7 +822,7 @@ pg.child_task = {
 	},
 	[223] = {
 		arg = 1,
-		name = "出行-度假庄园-随便逛逛",
+		name = "외출로 리조트로 이동해서 \"적당히 돌아다닌다\" 선택",
 		type_2 = 3,
 		group = 1,
 		type_1 = 3,
@@ -855,7 +855,7 @@ pg.child_task = {
 	},
 	[224] = {
 		arg = 3,
-		name = "任意商店购买商品-3个",
+		name = "예정 3회 진행",
 		type_2 = 4,
 		group = 1,
 		type_1 = 3,
@@ -884,7 +884,7 @@ pg.child_task = {
 	},
 	[225] = {
 		arg = 3,
-		name = "完成-行程计划-3次",
+		name = "예정 3회 진행",
 		type_2 = 10,
 		group = 1,
 		type_1 = 3,
@@ -913,7 +913,7 @@ pg.child_task = {
 	},
 	[226] = {
 		arg = 1,
-		name = "出行--美食坊-随便逛逛",
+		name = "외출로 맛집 거리로 이동해서 \"적당히 돌아다닌다\" 선택",
 		type_2 = 3,
 		group = 1,
 		type_1 = 3,
@@ -946,7 +946,7 @@ pg.child_task = {
 	},
 	[227] = {
 		arg = 1,
-		name = "完成-行程安排-1次",
+		name = "예정을 1개 진행하자",
 		type_2 = 10,
 		group = 1,
 		type_1 = 3,
@@ -975,7 +975,7 @@ pg.child_task = {
 	},
 	[228] = {
 		arg = 3,
-		name = "任意商店购买商品-3个",
+		name = "아이템 3개 구매",
 		type_2 = 4,
 		group = 1,
 		type_1 = 3,
@@ -1004,7 +1004,7 @@ pg.child_task = {
 	},
 	[229] = {
 		arg = 1,
-		name = "出行-庄园-去露营一次",
+		name = "외출로 리조트로 이동해서 \"캠프하러 GO!\" 선택",
 		type_2 = 3,
 		group = 1,
 		type_1 = 3,
@@ -1037,7 +1037,7 @@ pg.child_task = {
 	},
 	[230] = {
 		arg = 3,
-		name = "完成-行程安排-3次",
+		name = "이번 주 예정 3회 편성",
 		type_2 = 10,
 		group = 1,
 		type_1 = 3,
@@ -1066,7 +1066,7 @@ pg.child_task = {
 	},
 	[231] = {
 		arg = 1,
-		name = "出行-体育馆-体育锻炼",
+		name = "외출로 운동장으로 이동해서 \"트레이닝\" 실시",
 		type_2 = 3,
 		group = 1,
 		type_1 = 3,
@@ -1099,7 +1099,7 @@ pg.child_task = {
 	},
 	[232] = {
 		arg = 2,
-		name = "出行-游乐场-2次",
+		name = "외출로 유원지로 2회 이동",
 		type_2 = 3,
 		group = 1,
 		type_1 = 3,
@@ -1133,7 +1133,7 @@ pg.child_task = {
 	},
 	[233] = {
 		arg = 1,
-		name = "出行-美食坊-随便逛逛",
+		name = "외출로 맛집 거리로 이동해서 \"적당히 돌아다닌다\" 선택",
 		type_2 = 3,
 		group = 1,
 		type_1 = 3,
@@ -1166,7 +1166,7 @@ pg.child_task = {
 	},
 	[234] = {
 		arg = 1,
-		name = "完成-行程安排-1次",
+		name = "예정을 1개 진행하자",
 		type_2 = 10,
 		group = 1,
 		type_1 = 3,
@@ -1195,7 +1195,7 @@ pg.child_task = {
 	},
 	[235] = {
 		arg = 1,
-		name = "完成第二次系统升级",
+		name = "육성 단계 진행",
 		type_2 = 7,
 		group = 1,
 		type_1 = 3,
@@ -1224,7 +1224,7 @@ pg.child_task = {
 	},
 	[236] = {
 		arg = 1,
-		name = "出行-美食坊-打工",
+		name = "외출로 맛집 거리로 이동해서 \"아르바이트\" 실시",
 		type_2 = 3,
 		group = 1,
 		type_1 = 3,
@@ -1257,7 +1257,7 @@ pg.child_task = {
 	},
 	[237] = {
 		arg = 3,
-		name = "任意商店购买商品-3个",
+		name = "아이템 3개 구매",
 		type_2 = 4,
 		group = 1,
 		type_1 = 3,
@@ -1286,7 +1286,7 @@ pg.child_task = {
 	},
 	[238] = {
 		arg = 1,
-		name = "完成-行程安排-1次",
+		name = "예정을 1개 진행하자",
 		type_2 = 10,
 		group = 1,
 		type_1 = 3,
@@ -1315,7 +1315,7 @@ pg.child_task = {
 	},
 	[239] = {
 		arg = 1,
-		name = "出行-度假庄园-随便逛逛",
+		name = "외출로 리조트로 이동해서 \"적당히 돌아다닌다\" 선택",
 		type_2 = 3,
 		group = 1,
 		type_1 = 3,
@@ -1348,7 +1348,7 @@ pg.child_task = {
 	},
 	[240] = {
 		arg = 4,
-		name = "完成-行程安排-4次",
+		name = "이번 주 예정 4회 편성",
 		type_2 = 10,
 		group = 1,
 		type_1 = 3,
@@ -1377,7 +1377,7 @@ pg.child_task = {
 	},
 	[241] = {
 		arg = 1,
-		name = "出行-游乐场",
+		name = "외출로 유원지로 이동",
 		type_2 = 3,
 		group = 1,
 		type_1 = 3,
@@ -1411,7 +1411,7 @@ pg.child_task = {
 	},
 	[242] = {
 		arg = 1,
-		name = "出行-商业街-随便逛逛",
+		name = "외출로 상점가로 이동해서 \"적당히 돌아다닌다\" 선택",
 		type_2 = 3,
 		group = 1,
 		type_1 = 3,
@@ -1444,7 +1444,7 @@ pg.child_task = {
 	},
 	[243] = {
 		arg = 4,
-		name = "完成-行程安排-4次",
+		name = "이번 주 예정 4회 편성",
 		type_2 = 10,
 		group = 1,
 		type_1 = 3,
@@ -1473,7 +1473,7 @@ pg.child_task = {
 	},
 	[244] = {
 		arg = 1,
-		name = "出行-海滨公园-随便逛逛",
+		name = "외출로 해변의 공원으로 이동해서 \"적당히 돌아다닌다\" 선택",
 		type_2 = 3,
 		group = 1,
 		type_1 = 3,
@@ -1506,7 +1506,7 @@ pg.child_task = {
 	},
 	[245] = {
 		arg = 2,
-		name = "任意商店购买商品-2个",
+		name = "아이템 2개 구매",
 		type_2 = 4,
 		group = 1,
 		type_1 = 3,
@@ -1535,7 +1535,7 @@ pg.child_task = {
 	},
 	[246] = {
 		arg = 2,
-		name = "完成-行程安排-2次",
+		name = "예정을 2개 진행하자",
 		type_2 = 10,
 		group = 1,
 		type_1 = 3,
@@ -1564,7 +1564,7 @@ pg.child_task = {
 	},
 	[247] = {
 		arg = 1,
-		name = "出行-度假庄园-写生",
+		name = "외출로 해변의 공원으로 이동해서 \"적당히 돌아다닌다\" 선택",
 		type_2 = 3,
 		group = 1,
 		type_1 = 3,
@@ -1597,7 +1597,7 @@ pg.child_task = {
 	},
 	[248] = {
 		arg = 2,
-		name = "完成-行程安排-2次",
+		name = "예정을 2개 진행하자",
 		type_2 = 10,
 		group = 1,
 		type_1 = 3,
@@ -1626,7 +1626,7 @@ pg.child_task = {
 	},
 	[249] = {
 		arg = 3,
-		name = "任意商店购买商品-3个",
+		name = "아이템 3개 구매",
 		type_2 = 4,
 		group = 1,
 		type_1 = 3,
@@ -1655,7 +1655,7 @@ pg.child_task = {
 	},
 	[250] = {
 		arg = 4,
-		name = "完成-行程安排-4次",
+		name = "이번 주 예정 4회 편성",
 		type_2 = 10,
 		group = 1,
 		type_1 = 3,
@@ -1684,7 +1684,7 @@ pg.child_task = {
 	},
 	[251] = {
 		arg = 1,
-		name = "出行-美食坊-随便逛逛",
+		name = "외출로 맛집 거리로 이동해서 \"적당히 돌아다닌다\" 선택",
 		type_2 = 3,
 		group = 1,
 		type_1 = 3,
@@ -1717,7 +1717,7 @@ pg.child_task = {
 	},
 	[252] = {
 		arg = 3,
-		name = "任意商店购买商品-3个",
+		name = "아이템 3개 구매",
 		type_2 = 4,
 		group = 1,
 		type_1 = 3,
@@ -1746,7 +1746,7 @@ pg.child_task = {
 	},
 	[253] = {
 		arg = 4,
-		name = "完成-行程安排-4次",
+		name = "이번 주 예정 4회 편성",
 		type_2 = 10,
 		group = 1,
 		type_1 = 3,
@@ -1775,7 +1775,7 @@ pg.child_task = {
 	},
 	[254] = {
 		arg = 1,
-		name = "出行-度假庄园-随便逛逛",
+		name = "외출로 리조트로 이동해서 \"적당히 돌아다닌다\" 선택",
 		type_2 = 3,
 		group = 1,
 		type_1 = 3,
@@ -1808,7 +1808,7 @@ pg.child_task = {
 	},
 	[255] = {
 		arg = 1,
-		name = "完成-行程安排-1次",
+		name = "이번 주 예정 1회 편성",
 		type_2 = 10,
 		group = 1,
 		type_1 = 3,
@@ -1837,7 +1837,7 @@ pg.child_task = {
 	},
 	[256] = {
 		arg = 1,
-		name = "出行-商业街-随便逛逛",
+		name = "외출로 상점가로 이동해서 \"적당히 돌아다닌다\" 선택",
 		type_2 = 3,
 		group = 1,
 		type_1 = 3,
@@ -1870,7 +1870,7 @@ pg.child_task = {
 	},
 	[257] = {
 		arg = 3,
-		name = "完成-行程安排-3次",
+		name = "예정 3회 진행",
 		type_2 = 10,
 		group = 1,
 		type_1 = 3,
@@ -1899,7 +1899,7 @@ pg.child_task = {
 	},
 	[258] = {
 		arg = 3,
-		name = "任意商店购买商品-3个",
+		name = "아이템 3개 구매",
 		type_2 = 4,
 		group = 1,
 		type_1 = 3,
@@ -1928,7 +1928,7 @@ pg.child_task = {
 	},
 	[259] = {
 		arg = 1,
-		name = "出行-美食坊-打工",
+		name = "외출로 맛집 거리로 이동해서 \"아르바이트\" 실시",
 		type_2 = 3,
 		group = 1,
 		type_1 = 3,
@@ -1961,7 +1961,7 @@ pg.child_task = {
 	},
 	[260] = {
 		arg = 4,
-		name = "完成-行程安排-4次",
+		name = "이번 주 예정 4회 편성",
 		type_2 = 10,
 		group = 1,
 		type_1 = 3,
@@ -1990,7 +1990,7 @@ pg.child_task = {
 	},
 	[261] = {
 		arg = 1,
-		name = "出行-度假庄园-随便逛逛",
+		name = "외출로 리조트로 이동해서 \"적당히 돌아다닌다\" 선택",
 		type_2 = 3,
 		group = 1,
 		type_1 = 3,
@@ -2023,7 +2023,7 @@ pg.child_task = {
 	},
 	[262] = {
 		arg = 2,
-		name = "完成-行程安排-2次",
+		name = "이번 주 예정 2회 편성",
 		type_2 = 10,
 		group = 1,
 		type_1 = 3,
@@ -2052,7 +2052,7 @@ pg.child_task = {
 	},
 	[263] = {
 		arg = 1,
-		name = "进行重置",
+		name = "임의의 엔딩에 도달",
 		type_2 = 7,
 		group = 1,
 		type_1 = 3,
@@ -2081,7 +2081,7 @@ pg.child_task = {
 	},
 	[1001] = {
 		arg = 30,
-		name = "体能达到30点",
+		name = "체력 30 달성",
 		type_2 = 2,
 		group = 2,
 		type_1 = 2,
@@ -2110,7 +2110,7 @@ pg.child_task = {
 	},
 	[1002] = {
 		arg = 60,
-		name = "体能达到60点",
+		name = "체력 60 달성",
 		type_2 = 2,
 		group = 3,
 		type_1 = 2,
@@ -2139,7 +2139,7 @@ pg.child_task = {
 	},
 	[1003] = {
 		arg = 15,
-		name = "智慧达到15点",
+		name = "지식 15 달성",
 		type_2 = 2,
 		group = 6,
 		type_1 = 2,
@@ -2168,7 +2168,7 @@ pg.child_task = {
 	},
 	[1004] = {
 		arg = 15,
-		name = "气质达到15点",
+		name = "매력 15 달성",
 		type_2 = 2,
 		group = 7,
 		type_1 = 2,
@@ -2197,7 +2197,7 @@ pg.child_task = {
 	},
 	[1005] = {
 		arg = 15,
-		name = "感知达到15点",
+		name = "감수성 15 달성",
 		type_2 = 2,
 		group = 8,
 		type_1 = 2,
@@ -2226,7 +2226,7 @@ pg.child_task = {
 	},
 	[1006] = {
 		arg = 5,
-		name = "完成-行程-锻炼-5次",
+		name = "이번 주 예정에서 \"운동\" 5회 실시",
 		type_2 = 1,
 		group = 4,
 		type_1 = 2,
@@ -2255,7 +2255,7 @@ pg.child_task = {
 	},
 	[1007] = {
 		arg = 1,
-		name = "完成-行程-做家务-1次",
+		name = "이번 주 예정에서 \"가사 도우미\" 1회 실시",
 		type_2 = 1,
 		group = 5,
 		type_1 = 2,
@@ -2284,7 +2284,7 @@ pg.child_task = {
 	},
 	[1011] = {
 		arg = 30,
-		name = "智慧达到30点",
+		name = "지식 30 달성",
 		type_2 = 2,
 		group = 2,
 		type_1 = 2,
@@ -2313,7 +2313,7 @@ pg.child_task = {
 	},
 	[1012] = {
 		arg = 60,
-		name = "智慧达到60点",
+		name = "지식 60 달성",
 		type_2 = 2,
 		group = 3,
 		type_1 = 2,
@@ -2342,7 +2342,7 @@ pg.child_task = {
 	},
 	[1013] = {
 		arg = 15,
-		name = "体能达到15点",
+		name = "체력 15 달성",
 		type_2 = 2,
 		group = 6,
 		type_1 = 2,
@@ -2371,7 +2371,7 @@ pg.child_task = {
 	},
 	[1014] = {
 		arg = 15,
-		name = "气质达到15点",
+		name = "매력 15 달성",
 		type_2 = 2,
 		group = 7,
 		type_1 = 2,
@@ -2400,7 +2400,7 @@ pg.child_task = {
 	},
 	[1015] = {
 		arg = 15,
-		name = "感知达到15点",
+		name = "감수성 15 달성",
 		type_2 = 2,
 		group = 8,
 		type_1 = 2,
@@ -2429,7 +2429,7 @@ pg.child_task = {
 	},
 	[1016] = {
 		arg = 5,
-		name = "完成-行程-读故事-5次",
+		name = "이번 주 예정에서 \"책 읽어주기\" 5회 실시",
 		type_2 = 1,
 		group = 4,
 		type_1 = 2,
@@ -2458,7 +2458,7 @@ pg.child_task = {
 	},
 	[1017] = {
 		arg = 1,
-		name = "完成-行程-宅家睡觉-1次",
+		name = "이번 주 예정에서 \"집에서 쉼\" 1회 실시",
 		type_2 = 1,
 		group = 5,
 		type_1 = 2,
@@ -2487,7 +2487,7 @@ pg.child_task = {
 	},
 	[1021] = {
 		arg = 30,
-		name = "气质达到30点",
+		name = "매력 30 달성",
 		type_2 = 2,
 		group = 2,
 		type_1 = 2,
@@ -2516,7 +2516,7 @@ pg.child_task = {
 	},
 	[1022] = {
 		arg = 60,
-		name = "气质达到60点",
+		name = "매력 60 달성",
 		type_2 = 2,
 		group = 3,
 		type_1 = 2,
@@ -2545,7 +2545,7 @@ pg.child_task = {
 	},
 	[1023] = {
 		arg = 15,
-		name = "体能达到15点",
+		name = "체력 15 달성",
 		type_2 = 2,
 		group = 6,
 		type_1 = 2,
@@ -2574,7 +2574,7 @@ pg.child_task = {
 	},
 	[1024] = {
 		arg = 15,
-		name = "智慧达到15点",
+		name = "지식 15 달성",
 		type_2 = 2,
 		group = 7,
 		type_1 = 2,
@@ -2603,7 +2603,7 @@ pg.child_task = {
 	},
 	[1025] = {
 		arg = 15,
-		name = "感知达到15点",
+		name = "감수성 15 달성",
 		type_2 = 2,
 		group = 8,
 		type_1 = 2,
@@ -2632,7 +2632,7 @@ pg.child_task = {
 	},
 	[1026] = {
 		arg = 5,
-		name = "完成-行程-洗漱-5次",
+		name = "이번 주 예정에서 \"세수\" 5회 실시",
 		type_2 = 1,
 		group = 4,
 		type_1 = 2,
@@ -2661,7 +2661,7 @@ pg.child_task = {
 	},
 	[1027] = {
 		arg = 1,
-		name = "完成-行程-宅家睡觉-1次",
+		name = "이번 주 예정에서 \"집에서 쉼\" 1회 실시",
 		type_2 = 1,
 		group = 5,
 		type_1 = 2,
@@ -2690,7 +2690,7 @@ pg.child_task = {
 	},
 	[1031] = {
 		arg = 30,
-		name = "感知达到30点",
+		name = "감수성 30 달성",
 		type_2 = 2,
 		group = 2,
 		type_1 = 2,
@@ -2719,7 +2719,7 @@ pg.child_task = {
 	},
 	[1032] = {
 		arg = 60,
-		name = "感知达到60点",
+		name = "감수성 60 달성",
 		type_2 = 2,
 		group = 3,
 		type_1 = 2,
@@ -2748,7 +2748,7 @@ pg.child_task = {
 	},
 	[1033] = {
 		arg = 15,
-		name = "体能达到15点",
+		name = "체력 15 달성",
 		type_2 = 2,
 		group = 6,
 		type_1 = 2,
@@ -2777,7 +2777,7 @@ pg.child_task = {
 	},
 	[1034] = {
 		arg = 15,
-		name = "智慧达到15点",
+		name = "지식 15 달성",
 		type_2 = 2,
 		group = 7,
 		type_1 = 2,
@@ -2806,7 +2806,7 @@ pg.child_task = {
 	},
 	[1035] = {
 		arg = 15,
-		name = "气质达到15点",
+		name = "매력 15 달성",
 		type_2 = 2,
 		group = 8,
 		type_1 = 2,
@@ -2835,7 +2835,7 @@ pg.child_task = {
 	},
 	[1036] = {
 		arg = 5,
-		name = "完成-行程-搭积木-5次",
+		name = "이번 주 예정에서 \"블록쌓기\" 5회 실시",
 		type_2 = 1,
 		group = 4,
 		type_1 = 2,
@@ -2864,7 +2864,7 @@ pg.child_task = {
 	},
 	[1037] = {
 		arg = 1,
-		name = "完成-行程-做家务-1次",
+		name = "이번 주 예정에서 \"가사 도우미\" 1회 실시",
 		type_2 = 1,
 		group = 5,
 		type_1 = 2,
@@ -2893,7 +2893,7 @@ pg.child_task = {
 	},
 	[2001] = {
 		arg = 200,
-		name = "体能达到200点",
+		name = "체력 200 달성",
 		type_2 = 2,
 		group = 2,
 		type_1 = 2,
@@ -2922,7 +2922,7 @@ pg.child_task = {
 	},
 	[2002] = {
 		arg = 400,
-		name = "体能达到400点",
+		name = "체력 400 달성",
 		type_2 = 2,
 		group = 3,
 		type_1 = 2,
@@ -2951,7 +2951,7 @@ pg.child_task = {
 	},
 	[2003] = {
 		arg = 150,
-		name = "智慧达到150点",
+		name = "지식 150 달성",
 		type_2 = 2,
 		group = 6,
 		type_1 = 2,
@@ -2980,7 +2980,7 @@ pg.child_task = {
 	},
 	[2004] = {
 		arg = 150,
-		name = "气质达到150点",
+		name = "매력 150 달성",
 		type_2 = 2,
 		group = 7,
 		type_1 = 2,
@@ -3009,7 +3009,7 @@ pg.child_task = {
 	},
 	[2005] = {
 		arg = 150,
-		name = "感知达到150点",
+		name = "감수성 150 달성",
 		type_2 = 2,
 		group = 8,
 		type_1 = 2,
@@ -3038,7 +3038,7 @@ pg.child_task = {
 	},
 	[2006] = {
 		arg = 10,
-		name = "完成-行程-初级体能-10次",
+		name = "이번 주 예정에서 \"초급 체력\" 10회 실시",
 		type_2 = 1,
 		group = 4,
 		type_1 = 2,
@@ -3067,7 +3067,7 @@ pg.child_task = {
 	},
 	[2007] = {
 		arg = 5,
-		name = "完成-行程-中级体能-5次",
+		name = "이번 주 예정에서 \"중급 체력\" 5회 실시",
 		type_2 = 1,
 		group = 5,
 		type_1 = 2,
@@ -3096,7 +3096,7 @@ pg.child_task = {
 	},
 	[2011] = {
 		arg = 200,
-		name = "智慧达到200点",
+		name = "지식 200 달성",
 		type_2 = 2,
 		group = 2,
 		type_1 = 2,
@@ -3125,7 +3125,7 @@ pg.child_task = {
 	},
 	[2012] = {
 		arg = 400,
-		name = "智慧达到400点",
+		name = "지식 400 달성",
 		type_2 = 2,
 		group = 3,
 		type_1 = 2,
@@ -3154,7 +3154,7 @@ pg.child_task = {
 	},
 	[2013] = {
 		arg = 150,
-		name = "体能达到150点",
+		name = "체력 150 달성",
 		type_2 = 2,
 		group = 6,
 		type_1 = 2,
@@ -3183,7 +3183,7 @@ pg.child_task = {
 	},
 	[2014] = {
 		arg = 150,
-		name = "气质达到150点",
+		name = "매력 150 달성",
 		type_2 = 2,
 		group = 7,
 		type_1 = 2,
@@ -3212,7 +3212,7 @@ pg.child_task = {
 	},
 	[2015] = {
 		arg = 150,
-		name = "感知达到150点",
+		name = "감수성 150 달성",
 		type_2 = 2,
 		group = 8,
 		type_1 = 2,
@@ -3241,7 +3241,7 @@ pg.child_task = {
 	},
 	[2016] = {
 		arg = 10,
-		name = "完成-行程-初级研修-10次",
+		name = "이번 주 예정에서 \"초급 공부\" 10회 실시",
 		type_2 = 1,
 		group = 4,
 		type_1 = 2,
@@ -3270,7 +3270,7 @@ pg.child_task = {
 	},
 	[2017] = {
 		arg = 5,
-		name = "完成-行程-中级研修-5次",
+		name = "이번 주 예정에서 \"중급 공부\" 5회 실시",
 		type_2 = 1,
 		group = 5,
 		type_1 = 2,
@@ -3299,7 +3299,7 @@ pg.child_task = {
 	},
 	[2021] = {
 		arg = 200,
-		name = "感知达到200点",
+		name = "감수성 200 달성",
 		type_2 = 2,
 		group = 2,
 		type_1 = 2,
@@ -3328,7 +3328,7 @@ pg.child_task = {
 	},
 	[2022] = {
 		arg = 400,
-		name = "感知达到400点",
+		name = "감수성 400 달성",
 		type_2 = 2,
 		group = 3,
 		type_1 = 2,
@@ -3357,7 +3357,7 @@ pg.child_task = {
 	},
 	[2023] = {
 		arg = 150,
-		name = "体能达到150点",
+		name = "체력 150 달성",
 		type_2 = 2,
 		group = 6,
 		type_1 = 2,
@@ -3386,7 +3386,7 @@ pg.child_task = {
 	},
 	[2024] = {
 		arg = 150,
-		name = "智慧达到150点",
+		name = "지식 150 달성",
 		type_2 = 2,
 		group = 7,
 		type_1 = 2,
@@ -3415,7 +3415,7 @@ pg.child_task = {
 	},
 	[2025] = {
 		arg = 150,
-		name = "气质达到150点",
+		name = "매력 150 달성",
 		type_2 = 2,
 		group = 8,
 		type_1 = 2,
@@ -3444,7 +3444,7 @@ pg.child_task = {
 	},
 	[2026] = {
 		arg = 10,
-		name = "完成-行程-初级手工-10次",
+		name = "이번 주 예정에서 \"초급 수공예\" 10회 실시",
 		type_2 = 1,
 		group = 4,
 		type_1 = 2,
@@ -3473,7 +3473,7 @@ pg.child_task = {
 	},
 	[2027] = {
 		arg = 5,
-		name = "完成-行程-中级手工-5次",
+		name = "이번 주 예정에서 \"중급 수공예\" 5회 실시",
 		type_2 = 1,
 		group = 5,
 		type_1 = 2,
@@ -3502,7 +3502,7 @@ pg.child_task = {
 	},
 	[2031] = {
 		arg = 200,
-		name = "气质达到200点",
+		name = "매력 200 달성",
 		type_2 = 2,
 		group = 2,
 		type_1 = 2,
@@ -3531,7 +3531,7 @@ pg.child_task = {
 	},
 	[2032] = {
 		arg = 400,
-		name = "气质达到400点",
+		name = "매력 400 달성",
 		type_2 = 2,
 		group = 3,
 		type_1 = 2,
@@ -3560,7 +3560,7 @@ pg.child_task = {
 	},
 	[2033] = {
 		arg = 150,
-		name = "体能达到150点",
+		name = "체력 150 달성",
 		type_2 = 2,
 		group = 6,
 		type_1 = 2,
@@ -3589,7 +3589,7 @@ pg.child_task = {
 	},
 	[2034] = {
 		arg = 150,
-		name = "智慧达到150点",
+		name = "지식 150 달성",
 		type_2 = 2,
 		group = 7,
 		type_1 = 2,
@@ -3618,7 +3618,7 @@ pg.child_task = {
 	},
 	[2035] = {
 		arg = 150,
-		name = "感知达到150点",
+		name = "감수성 150 달성",
 		type_2 = 2,
 		group = 8,
 		type_1 = 2,
@@ -3647,7 +3647,7 @@ pg.child_task = {
 	},
 	[2036] = {
 		arg = 10,
-		name = "完成-行程-初级声乐-10次",
+		name = "이번 주 예정에서 \"초급 음악\" 10회 실시",
 		type_2 = 1,
 		group = 4,
 		type_1 = 2,
@@ -3676,7 +3676,7 @@ pg.child_task = {
 	},
 	[2037] = {
 		arg = 5,
-		name = "完成-行程-中级声乐-5次",
+		name = "이번 주 예정에서 \"중급 음악\" 5회 실시",
 		type_2 = 1,
 		group = 5,
 		type_1 = 2,
@@ -3705,7 +3705,7 @@ pg.child_task = {
 	},
 	[3001] = {
 		arg = 900,
-		name = "体能达到900点",
+		name = "체력 900 달성",
 		type_2 = 2,
 		group = 3,
 		type_1 = 2,
@@ -3734,7 +3734,7 @@ pg.child_task = {
 	},
 	[3002] = {
 		arg = 500,
-		name = "智慧达到500点",
+		name = "지식 500 달성",
 		type_2 = 2,
 		group = 10,
 		type_1 = 2,
@@ -3763,7 +3763,7 @@ pg.child_task = {
 	},
 	[3003] = {
 		arg = 500,
-		name = "感知达到500点",
+		name = "감수성 500 달성",
 		type_2 = 2,
 		group = 11,
 		type_1 = 2,
@@ -3792,7 +3792,7 @@ pg.child_task = {
 	},
 	[3004] = {
 		arg = 500,
-		name = "气质达到500点",
+		name = "매력 500 달성",
 		type_2 = 2,
 		group = 12,
 		type_1 = 2,
@@ -3821,7 +3821,7 @@ pg.child_task = {
 	},
 	[3005] = {
 		arg = 1600,
-		name = "体能达到1600点",
+		name = "체력 1,600 달성",
 		type_2 = 2,
 		group = 4,
 		type_1 = 2,
@@ -3850,7 +3850,7 @@ pg.child_task = {
 	},
 	[3006] = {
 		arg = 5,
-		name = "完成-行程-中级体能-5次",
+		name = "이번 주 예정에서 \"중급 체력\" 5회 실시",
 		type_2 = 1,
 		group = 5,
 		type_1 = 2,
@@ -3879,7 +3879,7 @@ pg.child_task = {
 	},
 	[3007] = {
 		arg = 1,
-		name = "完成-行程-高级体能-1次",
+		name = "이번 주 예정에서 \"상급 체력\" 1회 실시",
 		type_2 = 1,
 		group = 6,
 		type_1 = 2,
@@ -3908,7 +3908,7 @@ pg.child_task = {
 	},
 	[3008] = {
 		arg = 4,
-		name = "出行--体育馆-任意行动4次",
+		name = "외출로 운동장으로 이동해서 임의 행동 4회 실시",
 		type_2 = 3,
 		group = 7,
 		type_1 = 2,
@@ -3951,7 +3951,7 @@ pg.child_task = {
 	},
 	[3009] = {
 		arg = 20,
-		name = "运动或实践达到20点",
+		name = "운동이나 손재주 20 달성",
 		type_2 = 2,
 		group = 8,
 		type_1 = 2,
@@ -3983,7 +3983,7 @@ pg.child_task = {
 	},
 	[3010] = {
 		arg = 800,
-		name = "智慧、感知或气质达到800点",
+		name = "지식이나 감수성, 또는 매력 800 달성",
 		type_2 = 2,
 		group = 9,
 		type_1 = 2,
@@ -4016,7 +4016,7 @@ pg.child_task = {
 	},
 	[3011] = {
 		arg = 900,
-		name = "智慧达到900点",
+		name = "지식 900 달성",
 		type_2 = 2,
 		group = 3,
 		type_1 = 2,
@@ -4045,7 +4045,7 @@ pg.child_task = {
 	},
 	[3012] = {
 		arg = 500,
-		name = "体能达到500点",
+		name = "체력 500 달성",
 		type_2 = 2,
 		group = 10,
 		type_1 = 2,
@@ -4074,7 +4074,7 @@ pg.child_task = {
 	},
 	[3013] = {
 		arg = 500,
-		name = "感知达到500点",
+		name = "감수성 500 달성",
 		type_2 = 2,
 		group = 11,
 		type_1 = 2,
@@ -4103,7 +4103,7 @@ pg.child_task = {
 	},
 	[3014] = {
 		arg = 500,
-		name = "气质达到500点",
+		name = "감수성 500 달성",
 		type_2 = 2,
 		group = 12,
 		type_1 = 2,
@@ -4132,7 +4132,7 @@ pg.child_task = {
 	},
 	[3015] = {
 		arg = 1600,
-		name = "智慧达到1600点",
+		name = "지식 1,600 달성",
 		type_2 = 2,
 		group = 4,
 		type_1 = 2,
@@ -4161,7 +4161,7 @@ pg.child_task = {
 	},
 	[3016] = {
 		arg = 5,
-		name = "完成-行程-中级研修-5次",
+		name = "이번 주 예정에서 \"중급 공부\" 5회 실시",
 		type_2 = 1,
 		group = 5,
 		type_1 = 2,
@@ -4190,7 +4190,7 @@ pg.child_task = {
 	},
 	[3017] = {
 		arg = 1,
-		name = "完成-行程-高级研修-1次",
+		name = "이번 주 예정에서 \"상급 공부\" 1회 실시",
 		type_2 = 1,
 		group = 6,
 		type_1 = 2,
@@ -4219,7 +4219,7 @@ pg.child_task = {
 	},
 	[3018] = {
 		arg = 4,
-		name = "出行-学院-任意行动-4次",
+		name = "외출로 학교로 이동해서 임의 행동 4회 실시",
 		type_2 = 3,
 		group = 7,
 		type_1 = 2,
@@ -4276,7 +4276,7 @@ pg.child_task = {
 	},
 	[3019] = {
 		arg = 20,
-		name = "实践或想象达到20点",
+		name = "손재주나 상상력 20 달성",
 		type_2 = 2,
 		group = 8,
 		type_1 = 2,
@@ -4308,7 +4308,7 @@ pg.child_task = {
 	},
 	[3020] = {
 		arg = 800,
-		name = "体能、感知或气质达到800点",
+		name = "체력이나 감수성, 또는 매력 800 달성",
 		type_2 = 2,
 		group = 9,
 		type_1 = 2,
@@ -4341,7 +4341,7 @@ pg.child_task = {
 	},
 	[3021] = {
 		arg = 900,
-		name = "气质达到900点",
+		name = "매력 900 달성",
 		type_2 = 2,
 		group = 3,
 		type_1 = 2,
@@ -4370,7 +4370,7 @@ pg.child_task = {
 	},
 	[3022] = {
 		arg = 500,
-		name = "体能达到500点",
+		name = "체력 500 달성",
 		type_2 = 2,
 		group = 10,
 		type_1 = 2,
@@ -4399,7 +4399,7 @@ pg.child_task = {
 	},
 	[3023] = {
 		arg = 500,
-		name = "智慧达到500点",
+		name = "지식 500 달성",
 		type_2 = 2,
 		group = 11,
 		type_1 = 2,
@@ -4428,7 +4428,7 @@ pg.child_task = {
 	},
 	[3024] = {
 		arg = 500,
-		name = "感知达到500点",
+		name = "감수성 500 달성",
 		type_2 = 2,
 		group = 12,
 		type_1 = 2,
@@ -4457,7 +4457,7 @@ pg.child_task = {
 	},
 	[3025] = {
 		arg = 1600,
-		name = "气质达到1600点",
+		name = "매력 1,600 달성",
 		type_2 = 2,
 		group = 4,
 		type_1 = 2,
@@ -4486,7 +4486,7 @@ pg.child_task = {
 	},
 	[3026] = {
 		arg = 5,
-		name = "完成-行程-中级声乐-5次",
+		name = "이번 주 예정에서 \"중급 음악\" 5회 실시",
 		type_2 = 1,
 		group = 5,
 		type_1 = 2,
@@ -4515,7 +4515,7 @@ pg.child_task = {
 	},
 	[3027] = {
 		arg = 1,
-		name = "完成-行程-高级声乐-1次",
+		name = "이번 주 예정에서 \"상급 음악\" 1회 실시",
 		type_2 = 1,
 		group = 6,
 		type_1 = 2,
@@ -4544,7 +4544,7 @@ pg.child_task = {
 	},
 	[3028] = {
 		arg = 4,
-		name = "出行-海滨公园-任意行动4次",
+		name = "외출로 해변의 공원으로 이동해서 임의 행동 4회 실시",
 		type_2 = 3,
 		group = 7,
 		type_1 = 2,
@@ -4600,7 +4600,7 @@ pg.child_task = {
 	},
 	[3029] = {
 		arg = 20,
-		name = "表现或乐理达到20点",
+		name = "표현력이나 음악 20 달성",
 		type_2 = 2,
 		group = 8,
 		type_1 = 2,
@@ -4632,7 +4632,7 @@ pg.child_task = {
 	},
 	[3030] = {
 		arg = 800,
-		name = "智慧、体能或感知达到800点",
+		name = "지식이나 감수성, 또는 체력 800 달성",
 		type_2 = 2,
 		group = 9,
 		type_1 = 2,
@@ -4665,7 +4665,7 @@ pg.child_task = {
 	},
 	[3031] = {
 		arg = 900,
-		name = "感知达到900点",
+		name = "감수성 900 달성",
 		type_2 = 2,
 		group = 3,
 		type_1 = 2,
@@ -4694,7 +4694,7 @@ pg.child_task = {
 	},
 	[3032] = {
 		arg = 500,
-		name = "体能达到500点",
+		name = "체력 500 달성",
 		type_2 = 2,
 		group = 10,
 		type_1 = 2,
@@ -4723,7 +4723,7 @@ pg.child_task = {
 	},
 	[3033] = {
 		arg = 500,
-		name = "智慧达到500点",
+		name = "지식 500 달성",
 		type_2 = 2,
 		group = 11,
 		type_1 = 2,
@@ -4752,7 +4752,7 @@ pg.child_task = {
 	},
 	[3034] = {
 		arg = 500,
-		name = "气质达到500点",
+		name = "매력 500 달성",
 		type_2 = 2,
 		group = 12,
 		type_1 = 2,
@@ -4781,7 +4781,7 @@ pg.child_task = {
 	},
 	[3035] = {
 		arg = 1600,
-		name = "感知达到1600点",
+		name = "감수성 1,600 달성",
 		type_2 = 2,
 		group = 4,
 		type_1 = 2,
@@ -4810,7 +4810,7 @@ pg.child_task = {
 	},
 	[3036] = {
 		arg = 5,
-		name = "完成-行程-中级手工-5次",
+		name = "이번 주 예정에서 \"중급 수공예\" 5회 실시",
 		type_2 = 1,
 		group = 5,
 		type_1 = 2,
@@ -4839,7 +4839,7 @@ pg.child_task = {
 	},
 	[3037] = {
 		arg = 1,
-		name = "完成-行程-高级手工-1次",
+		name = "이번 주 예정에서 \"상급 수공예\" 1회 실시",
 		type_2 = 1,
 		group = 6,
 		type_1 = 2,
@@ -4868,7 +4868,7 @@ pg.child_task = {
 	},
 	[3038] = {
 		arg = 4,
-		name = "出行-度假庄园-任意行动4次",
+		name = "외출로 리조트로 이동해서 임의 행동 4회 실시",
 		type_2 = 3,
 		group = 7,
 		type_1 = 2,
@@ -4914,7 +4914,7 @@ pg.child_task = {
 	},
 	[3039] = {
 		arg = 20,
-		name = "细心、想象或乐理达到20点",
+		name = "섬세함이나 상상력, 또는 음악 20 달성",
 		type_2 = 2,
 		group = 8,
 		type_1 = 2,
@@ -4947,7 +4947,7 @@ pg.child_task = {
 	},
 	[3040] = {
 		arg = 800,
-		name = "智慧、体能或气质达到800点",
+		name = "지식이나 매력, 또는 체력 800 달성",
 		type_2 = 2,
 		group = 9,
 		type_1 = 2,
@@ -4980,7 +4980,7 @@ pg.child_task = {
 	},
 	[4001] = {
 		arg = 100,
-		name = "运动达到100点",
+		name = "운동 100 달성",
 		type_2 = 2,
 		group = 1,
 		type_1 = 2,
@@ -5009,7 +5009,7 @@ pg.child_task = {
 	},
 	[4002] = {
 		arg = 160,
-		name = "运动达到160点",
+		name = "운동 160 달성",
 		type_2 = 2,
 		group = 2,
 		type_1 = 2,
@@ -5038,7 +5038,7 @@ pg.child_task = {
 	},
 	[4003] = {
 		arg = 240,
-		name = "运动达到240点",
+		name = "운동 240 달성",
 		type_2 = 2,
 		group = 3,
 		type_1 = 2,
@@ -5067,7 +5067,7 @@ pg.child_task = {
 	},
 	[4004] = {
 		arg = 1600,
-		name = "智慧达到1600点",
+		name = "지식 1,600 달성",
 		type_2 = 2,
 		group = 4,
 		type_1 = 2,
@@ -5096,7 +5096,7 @@ pg.child_task = {
 	},
 	[4005] = {
 		arg = 2500,
-		name = "体能达到2500点",
+		name = "체력 2,500 달성",
 		type_2 = 2,
 		group = 5,
 		type_1 = 2,
@@ -5125,7 +5125,7 @@ pg.child_task = {
 	},
 	[4006] = {
 		arg = 4000,
-		name = "体能达到4000点",
+		name = "체력 4,000 달성",
 		type_2 = 2,
 		group = 6,
 		type_1 = 2,
@@ -5154,7 +5154,7 @@ pg.child_task = {
 	},
 	[4007] = {
 		arg = 10,
-		name = "完成-行程-高级体能-10次",
+		name = "이번 주 예정에서 \"상급 체력\" 10회 실시",
 		type_2 = 1,
 		group = 7,
 		type_1 = 2,
@@ -5183,7 +5183,7 @@ pg.child_task = {
 	},
 	[4008] = {
 		arg = 10,
-		name = "完成-行程-高级运动-10次",
+		name = "이번 주 예정에서 \"상급 운동\" 10회 실시",
 		type_2 = 1,
 		group = 8,
 		type_1 = 2,
@@ -5212,7 +5212,7 @@ pg.child_task = {
 	},
 	[4009] = {
 		arg = 10,
-		name = "完成-行程-高级运动指导-10次",
+		name = "이번 주 예정에서 \"인스트럭터Ⅲ\" 1회 실시",
 		type_2 = 1,
 		group = 9,
 		type_1 = 2,
@@ -5241,7 +5241,7 @@ pg.child_task = {
 	},
 	[4010] = {
 		arg = 4,
-		name = "出行-体育馆-任意行动4次",
+		name = "외출로 운동장으로 이동해서 임의 행동 4회 실시",
 		type_2 = 3,
 		group = 10,
 		type_1 = 2,
@@ -5284,7 +5284,7 @@ pg.child_task = {
 	},
 	[4011] = {
 		arg = 1,
-		name = "参加运动大赛获得第1名",
+		name = "대운동회에서 1회 수상",
 		type_2 = 8,
 		group = 11,
 		type_1 = 2,
@@ -5313,7 +5313,7 @@ pg.child_task = {
 	},
 	[4012] = {
 		arg = 1,
-		name = "观看体育比赛1次",
+		name = "시합 1회 관전",
 		type_2 = 3,
 		group = 12,
 		type_1 = 2,
@@ -5347,7 +5347,7 @@ pg.child_task = {
 	},
 	[4021] = {
 		arg = 100,
-		name = "想象达到100点",
+		name = "상상력 100 달성",
 		type_2 = 2,
 		group = 1,
 		type_1 = 2,
@@ -5376,7 +5376,7 @@ pg.child_task = {
 	},
 	[4022] = {
 		arg = 160,
-		name = "想象达到160点",
+		name = "상상력 160 달성",
 		type_2 = 2,
 		group = 2,
 		type_1 = 2,
@@ -5405,7 +5405,7 @@ pg.child_task = {
 	},
 	[4023] = {
 		arg = 240,
-		name = "想象达到240点",
+		name = "상상력 240 달성",
 		type_2 = 2,
 		group = 3,
 		type_1 = 2,
@@ -5434,7 +5434,7 @@ pg.child_task = {
 	},
 	[4024] = {
 		arg = 2000,
-		name = "感知达到2000点",
+		name = "감수성 2,000 달성",
 		type_2 = 2,
 		group = 4,
 		type_1 = 2,
@@ -5463,7 +5463,7 @@ pg.child_task = {
 	},
 	[4025] = {
 		arg = 2000,
-		name = "智慧达到2000点",
+		name = "지식 2,000 달성",
 		type_2 = 2,
 		group = 5,
 		type_1 = 2,
@@ -5492,7 +5492,7 @@ pg.child_task = {
 	},
 	[4026] = {
 		arg = 3000,
-		name = "感知达到3000点",
+		name = "감수성 3,000 달성",
 		type_2 = 2,
 		group = 6,
 		type_1 = 2,
@@ -5521,7 +5521,7 @@ pg.child_task = {
 	},
 	[4027] = {
 		arg = 3000,
-		name = "智慧达到3000点",
+		name = "지식 3,000 달성",
 		type_2 = 2,
 		group = 7,
 		type_1 = 2,
@@ -5550,7 +5550,7 @@ pg.child_task = {
 	},
 	[4028] = {
 		arg = 10,
-		name = "完成-行程-高级美术-10次",
+		name = "이번 주 예정에서 \"상급 미술\" 10회 실시",
 		type_2 = 1,
 		group = 8,
 		type_1 = 2,
@@ -5579,7 +5579,7 @@ pg.child_task = {
 	},
 	[4029] = {
 		arg = 10,
-		name = "完成-行程-高级写生-10次",
+		name = "이번 주 예정에서 \"상급 예술\" 10회 실시",
 		type_2 = 1,
 		group = 9,
 		type_1 = 2,
@@ -5608,7 +5608,7 @@ pg.child_task = {
 	},
 	[4030] = {
 		arg = 10,
-		name = "完成-行程-高级绘画-10次",
+		name = "이번 주 예정에서 \"길거리 예술가Ⅲ\" 10회 실시",
 		type_2 = 1,
 		group = 10,
 		type_1 = 2,
@@ -5637,7 +5637,7 @@ pg.child_task = {
 	},
 	[4031] = {
 		arg = 4,
-		name = "出行-度假庄园-任意行动4次",
+		name = "외출로 리조트로 이동해서 임의 행동 4회 실시",
 		type_2 = 3,
 		group = 11,
 		type_1 = 2,
@@ -5683,7 +5683,7 @@ pg.child_task = {
 	},
 	[4032] = {
 		arg = 1,
-		name = "参加绘画大奖赛获得第1名",
+		name = "그림 콘테스트에서 1회 수상",
 		type_2 = 8,
 		group = 12,
 		type_1 = 2,
@@ -5712,7 +5712,7 @@ pg.child_task = {
 	},
 	[4033] = {
 		arg = 1,
-		name = "参加限时绘画指导1次",
+		name = "미술실 그림 강좌 수강",
 		type_2 = 3,
 		group = 13,
 		type_1 = 2,
@@ -5745,7 +5745,7 @@ pg.child_task = {
 	},
 	[4041] = {
 		arg = 100,
-		name = "细心达到100点",
+		name = "섬세함 100 달성",
 		type_2 = 2,
 		group = 1,
 		type_1 = 2,
@@ -5774,7 +5774,7 @@ pg.child_task = {
 	},
 	[4042] = {
 		arg = 160,
-		name = "细心达到160点",
+		name = "섬세함 160 달성",
 		type_2 = 2,
 		group = 2,
 		type_1 = 2,
@@ -5803,7 +5803,7 @@ pg.child_task = {
 	},
 	[4043] = {
 		arg = 240,
-		name = "细心达到240点",
+		name = "섬세함 240 달성",
 		type_2 = 2,
 		group = 3,
 		type_1 = 2,
@@ -5832,7 +5832,7 @@ pg.child_task = {
 	},
 	[4044] = {
 		arg = 1600,
-		name = "体能达到1600点",
+		name = "체력 1,600 달성",
 		type_2 = 2,
 		group = 4,
 		type_1 = 2,
@@ -5861,7 +5861,7 @@ pg.child_task = {
 	},
 	[4045] = {
 		arg = 1600,
-		name = "智慧达到1600点",
+		name = "지식 1,600 달성",
 		type_2 = 2,
 		group = 5,
 		type_1 = 2,
@@ -5890,7 +5890,7 @@ pg.child_task = {
 	},
 	[4046] = {
 		arg = 2000,
-		name = "感知达到2000点",
+		name = "감수성 2,000 달성",
 		type_2 = 2,
 		group = 6,
 		type_1 = 2,
@@ -5919,7 +5919,7 @@ pg.child_task = {
 	},
 	[4047] = {
 		arg = 3000,
-		name = "感知达到3000点",
+		name = "감수성 3,000 달성",
 		type_2 = 2,
 		group = 7,
 		type_1 = 2,
@@ -5948,7 +5948,7 @@ pg.child_task = {
 	},
 	[4048] = {
 		arg = 10,
-		name = "完成-行程-高级手工-10次",
+		name = "이번 주 예정에서 \"상급 수공예\" 10회 실시",
 		type_2 = 1,
 		group = 8,
 		type_1 = 2,
@@ -5977,7 +5977,7 @@ pg.child_task = {
 	},
 	[4049] = {
 		arg = 10,
-		name = "完成-行程-高级烹饪-10次",
+		name = "이번 주 예정에서 \"상급 요리\" 10회 실시",
 		type_2 = 1,
 		group = 9,
 		type_1 = 2,
@@ -6006,7 +6006,7 @@ pg.child_task = {
 	},
 	[4050] = {
 		arg = 10,
-		name = "完成-行程-高级书店店员-10次",
+		name = "이번 주 예정에서 \"서점 점원Ⅲ\" 10회 실시",
 		type_2 = 1,
 		group = 10,
 		type_1 = 2,
@@ -6035,7 +6035,7 @@ pg.child_task = {
 	},
 	[4051] = {
 		arg = 4,
-		name = "出行-美食坊-任意行动4次",
+		name = "외출로 맛집 거리로 이동해서 임의 행동 4회 실시",
 		type_2 = 3,
 		group = 11,
 		type_1 = 2,
@@ -6081,7 +6081,7 @@ pg.child_task = {
 	},
 	[4052] = {
 		arg = 1,
-		name = "参加文学大奖赛获得第1名",
+		name = "공모 문학상 1회 수상",
 		type_2 = 8,
 		group = 12,
 		type_1 = 2,
@@ -6110,7 +6110,7 @@ pg.child_task = {
 	},
 	[4053] = {
 		arg = 1,
-		name = "参加试吃活动1次",
+		name = "맛집 거리 페스티벌 참가",
 		type_2 = 3,
 		group = 13,
 		type_1 = 2,
@@ -6144,7 +6144,7 @@ pg.child_task = {
 	},
 	[4061] = {
 		arg = 100,
-		name = "实践达到100点",
+		name = "손재주 100 달성",
 		type_2 = 2,
 		group = 1,
 		type_1 = 2,
@@ -6173,7 +6173,7 @@ pg.child_task = {
 	},
 	[4062] = {
 		arg = 160,
-		name = "实践达到160点",
+		name = "손재주 160 달성",
 		type_2 = 2,
 		group = 2,
 		type_1 = 2,
@@ -6202,7 +6202,7 @@ pg.child_task = {
 	},
 	[4063] = {
 		arg = 240,
-		name = "实践达到240点",
+		name = "손재주 240 달성",
 		type_2 = 2,
 		group = 3,
 		type_1 = 2,
@@ -6231,7 +6231,7 @@ pg.child_task = {
 	},
 	[4064] = {
 		arg = 1600,
-		name = "气质达到1600点",
+		name = "매력 1,600 달성",
 		type_2 = 2,
 		group = 4,
 		type_1 = 2,
@@ -6260,7 +6260,7 @@ pg.child_task = {
 	},
 	[4065] = {
 		arg = 1600,
-		name = "感知达到1600点",
+		name = "감수성 1,600 달성",
 		type_2 = 2,
 		group = 5,
 		type_1 = 2,
@@ -6289,7 +6289,7 @@ pg.child_task = {
 	},
 	[4066] = {
 		arg = 2500,
-		name = "智慧达到2500点",
+		name = "지식 2,500 달성",
 		type_2 = 2,
 		group = 6,
 		type_1 = 2,
@@ -6318,7 +6318,7 @@ pg.child_task = {
 	},
 	[4067] = {
 		arg = 4000,
-		name = "智慧达到4000点",
+		name = "지식 4,000 달성",
 		type_2 = 2,
 		group = 7,
 		type_1 = 2,
@@ -6347,7 +6347,7 @@ pg.child_task = {
 	},
 	[4068] = {
 		arg = 10,
-		name = "完成-行程-高级研修-10次",
+		name = "이번 주 예정에서 \"상급 공부\" 10회 실시",
 		type_2 = 1,
 		group = 8,
 		type_1 = 2,
@@ -6376,7 +6376,7 @@ pg.child_task = {
 	},
 	[4069] = {
 		arg = 10,
-		name = "完成-行程-高级园艺-10次",
+		name = "이번 주 예정에서 \"상급 원예\" 10회 실시",
 		type_2 = 1,
 		group = 9,
 		type_1 = 2,
@@ -6405,7 +6405,7 @@ pg.child_task = {
 	},
 	[4070] = {
 		arg = 10,
-		name = "完成-行程-高级庄园助手-10次",
+		name = "이번 주 예정에서 \"농장 도우미Ⅲ\" 1회 실시",
 		type_2 = 1,
 		group = 10,
 		type_1 = 2,
@@ -6434,7 +6434,7 @@ pg.child_task = {
 	},
 	[4071] = {
 		arg = 4,
-		name = "出行-学院-任意行动4次",
+		name = "외출로 학교로 이동해서 임의 행동 4회 실시",
 		type_2 = 3,
 		group = 11,
 		type_1 = 2,
@@ -6491,7 +6491,7 @@ pg.child_task = {
 	},
 	[4072] = {
 		arg = 1,
-		name = "参加钓鱼达人赛获得第1名",
+		name = "낚시 대회에서 1회 수상",
 		type_2 = 8,
 		group = 12,
 		type_1 = 2,
@@ -6520,7 +6520,7 @@ pg.child_task = {
 	},
 	[4073] = {
 		arg = 1,
-		name = "出行-商业街-影像工作室-日常生活的照片-1次",
+		name = "촬영 스튜디오에서 일상 사진을 1회 촬영",
 		type_2 = 3,
 		group = 13,
 		type_1 = 2,
@@ -6552,7 +6552,7 @@ pg.child_task = {
 	},
 	[4081] = {
 		arg = 100,
-		name = "乐理达到100点",
+		name = "음악 100 달성",
 		type_2 = 2,
 		group = 1,
 		type_1 = 2,
@@ -6581,7 +6581,7 @@ pg.child_task = {
 	},
 	[4082] = {
 		arg = 160,
-		name = "乐理达到160点",
+		name = "음악 160 달성",
 		type_2 = 2,
 		group = 2,
 		type_1 = 2,
@@ -6610,7 +6610,7 @@ pg.child_task = {
 	},
 	[4083] = {
 		arg = 240,
-		name = "乐理达到240点",
+		name = "음악 240 달성",
 		type_2 = 2,
 		group = 3,
 		type_1 = 2,
@@ -6639,7 +6639,7 @@ pg.child_task = {
 	},
 	[4084] = {
 		arg = 2000,
-		name = "气质达到2000点",
+		name = "매력 2,000 달성",
 		type_2 = 2,
 		group = 4,
 		type_1 = 2,
@@ -6668,7 +6668,7 @@ pg.child_task = {
 	},
 	[4085] = {
 		arg = 2500,
-		name = "感知达到2500点",
+		name = "감수성 2,500 달성",
 		type_2 = 2,
 		group = 5,
 		type_1 = 2,
@@ -6697,7 +6697,7 @@ pg.child_task = {
 	},
 	[4086] = {
 		arg = 3000,
-		name = "气质达到3000点",
+		name = "매력 3,000 달성",
 		type_2 = 2,
 		group = 6,
 		type_1 = 2,
@@ -6726,7 +6726,7 @@ pg.child_task = {
 	},
 	[4087] = {
 		arg = 4000,
-		name = "感知达到4000点",
+		name = "감수성 4,000 달성",
 		type_2 = 2,
 		group = 7,
 		type_1 = 2,
@@ -6755,7 +6755,7 @@ pg.child_task = {
 	},
 	[4088] = {
 		arg = 10,
-		name = "完成-行程-高级声乐-10次",
+		name = "이번 주 예정에서 \"상급 음악\" 10회 실시",
 		type_2 = 1,
 		group = 8,
 		type_1 = 2,
@@ -6784,7 +6784,7 @@ pg.child_task = {
 	},
 	[4089] = {
 		arg = 10,
-		name = "完成-行程-高级演奏-10次",
+		name = "이번 주 예정에서 \"상급 연주\" 10회 실시",
 		type_2 = 1,
 		group = 9,
 		type_1 = 2,
@@ -6813,7 +6813,7 @@ pg.child_task = {
 	},
 	[4090] = {
 		arg = 10,
-		name = "完成-行程-高级歌手活动-10次",
+		name = "이번 주 예정에서 \"가수Ⅲ\" 10회 실시",
 		type_2 = 1,
 		group = 10,
 		type_1 = 2,
@@ -6842,7 +6842,7 @@ pg.child_task = {
 	},
 	[4091] = {
 		arg = 4,
-		name = "出行-学院-任意行动4次",
+		name = "외출로 학교로 이동해서 임의 행동 4회 실시",
 		type_2 = 3,
 		group = 11,
 		type_1 = 2,
@@ -6899,7 +6899,7 @@ pg.child_task = {
 	},
 	[4092] = {
 		arg = 1,
-		name = "参加歌者之声大奖赛获得第1名",
+		name = "노래자랑에서 1회 수상",
 		type_2 = 8,
 		group = 12,
 		type_1 = 2,
@@ -6928,7 +6928,7 @@ pg.child_task = {
 	},
 	[4093] = {
 		arg = 1,
-		name = "出行-学院-声乐教室限时指导-1次",
+		name = "음악실 노래 강좌 수강",
 		type_2 = 3,
 		group = 13,
 		type_1 = 2,
@@ -6961,7 +6961,7 @@ pg.child_task = {
 	},
 	[4101] = {
 		arg = 100,
-		name = "表现达到100点",
+		name = "표현력 100 달성",
 		type_2 = 2,
 		group = 1,
 		type_1 = 2,
@@ -6990,7 +6990,7 @@ pg.child_task = {
 	},
 	[4102] = {
 		arg = 160,
-		name = "表现达到160点",
+		name = "표현력 160 달성",
 		type_2 = 2,
 		group = 2,
 		type_1 = 2,
@@ -7019,7 +7019,7 @@ pg.child_task = {
 	},
 	[4103] = {
 		arg = 240,
-		name = "表现达到240点",
+		name = "표현력 240 달성",
 		type_2 = 2,
 		group = 3,
 		type_1 = 2,
@@ -7048,7 +7048,7 @@ pg.child_task = {
 	},
 	[4104] = {
 		arg = 1600,
-		name = "体能达到1600点",
+		name = "체력 1,600 달성",
 		type_2 = 2,
 		group = 4,
 		type_1 = 2,
@@ -7077,7 +7077,7 @@ pg.child_task = {
 	},
 	[4105] = {
 		arg = 1600,
-		name = "感知达到1600点",
+		name = "감수성 1,600 달성",
 		type_2 = 2,
 		group = 5,
 		type_1 = 2,
@@ -7106,7 +7106,7 @@ pg.child_task = {
 	},
 	[4106] = {
 		arg = 2000,
-		name = "气质达到2000点",
+		name = "매력 2,000 달성",
 		type_2 = 2,
 		group = 6,
 		type_1 = 2,
@@ -7135,7 +7135,7 @@ pg.child_task = {
 	},
 	[4107] = {
 		arg = 3000,
-		name = "气质达到3000点",
+		name = "매력 3,000 달성",
 		type_2 = 2,
 		group = 7,
 		type_1 = 2,
@@ -7164,7 +7164,7 @@ pg.child_task = {
 	},
 	[4108] = {
 		arg = 10,
-		name = "完成-行程-高级声乐-10次",
+		name = "이번 주 예정에서 \"상급 음악\" 10회 실시",
 		type_2 = 1,
 		group = 8,
 		type_1 = 2,
@@ -7193,7 +7193,7 @@ pg.child_task = {
 	},
 	[4109] = {
 		arg = 10,
-		name = "完成-行程-高级戏剧-10次",
+		name = "이번 주 예정에서 \"상급 연극\" 10회 실시",
 		type_2 = 1,
 		group = 9,
 		type_1 = 2,
@@ -7222,7 +7222,7 @@ pg.child_task = {
 	},
 	[4110] = {
 		arg = 10,
-		name = "完成-行程-高级舞台表演-10次",
+		name = "이번 주 예정에서 \"극장 배우Ⅲ\" 10회 실시",
 		type_2 = 1,
 		group = 10,
 		type_1 = 2,
@@ -7251,7 +7251,7 @@ pg.child_task = {
 	},
 	[4111] = {
 		arg = 4,
-		name = "出行-海滨公园-任意行动4次",
+		name = "외출로 해변의 공원으로 이동해서 임의 행동 4회 실시",
 		type_2 = 3,
 		group = 11,
 		type_1 = 2,
@@ -7307,7 +7307,7 @@ pg.child_task = {
 	},
 	[4112] = {
 		arg = 1,
-		name = "参加明日之星获得第1名",
+		name = "내일의 스타상 1회 수상",
 		type_2 = 8,
 		group = 12,
 		type_1 = 2,
@@ -7336,7 +7336,7 @@ pg.child_task = {
 	},
 	[4113] = {
 		arg = 1,
-		name = "出行-商业街-影像工作室-更突显自己的照片-1次",
+		name = "촬영 스튜디오에서 TB의 사진을 1회 촬영",
 		type_2 = 3,
 		group = 13,
 		type_1 = 2,
@@ -7368,7 +7368,7 @@ pg.child_task = {
 	},
 	[10000] = {
 		arg = 1,
-		name = "想完成任意行程",
+		name = "임의 예정 수행",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -7397,7 +7397,7 @@ pg.child_task = {
 	},
 	[10001] = {
 		arg = 1,
-		name = "想完成任意行程",
+		name = "임의 예정 수행",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -7426,7 +7426,7 @@ pg.child_task = {
 	},
 	[10002] = {
 		arg = 1,
-		name = "想完成任意行程",
+		name = "임의 예정 수행",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -7455,7 +7455,7 @@ pg.child_task = {
 	},
 	[10003] = {
 		arg = 1,
-		name = "想完成任意行程",
+		name = "임의 예정 수행",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -7484,7 +7484,7 @@ pg.child_task = {
 	},
 	[10004] = {
 		arg = 1,
-		name = "想完成任意行程",
+		name = "임의 예정 수행",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -7513,7 +7513,7 @@ pg.child_task = {
 	},
 	[10011] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -7556,7 +7556,7 @@ pg.child_task = {
 	},
 	[10012] = {
 		arg = 1,
-		name = "想去美食坊活动",
+		name = "외출해서 \"맛집 거리\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -7589,7 +7589,7 @@ pg.child_task = {
 	},
 	[10013] = {
 		arg = 1,
-		name = "想去游乐场活动",
+		name = "외출해서 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -7623,7 +7623,7 @@ pg.child_task = {
 	},
 	[10014] = {
 		arg = 1,
-		name = "想完成行程-初级研修/初级体能",
+		name = "예정의 \"초급 공부\"나 \"초급 체력\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -7655,7 +7655,7 @@ pg.child_task = {
 	},
 	[10015] = {
 		arg = 1,
-		name = "想完成行程-初级手工/初级声乐",
+		name = "예정의 \"초급 수공예\"나 \"초급 음악\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -7687,7 +7687,7 @@ pg.child_task = {
 	},
 	[10016] = {
 		arg = 1,
-		name = "想完成行程-初级美术/初级形体",
+		name = "예정의 \"초급 미술\"나 \"초급 무용\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -7719,7 +7719,7 @@ pg.child_task = {
 	},
 	[10017] = {
 		arg = 1,
-		name = "想完成行程-初级表演/初级书法",
+		name = "예정의 \"초급 연기\"나 \"초급 서예\"를 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -7751,7 +7751,7 @@ pg.child_task = {
 	},
 	[10021] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -7794,7 +7794,7 @@ pg.child_task = {
 	},
 	[10022] = {
 		arg = 1,
-		name = "想去美食坊活动",
+		name = "외출해서 \"맛집 거리\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -7837,7 +7837,7 @@ pg.child_task = {
 	},
 	[10023] = {
 		arg = 1,
-		name = "想去游乐场活动",
+		name = "외출해서 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -7871,7 +7871,7 @@ pg.child_task = {
 	},
 	[10024] = {
 		arg = 1,
-		name = "想完成行程-初级研修/初级体能",
+		name = "예정의 \"초급 공부\"나 \"초급 체력\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -7903,7 +7903,7 @@ pg.child_task = {
 	},
 	[10025] = {
 		arg = 1,
-		name = "想完成行程-初级手工/初级声乐",
+		name = "예정의 \"초급 수공예\"나 \"초급 음악\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -7935,7 +7935,7 @@ pg.child_task = {
 	},
 	[10026] = {
 		arg = 1,
-		name = "想完成行程-初级美术/初级形体",
+		name = "예정의 \"초급 미술\"나 \"초급 무용\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -7967,7 +7967,7 @@ pg.child_task = {
 	},
 	[10027] = {
 		arg = 1,
-		name = "想完成行程-初级表演/初级书法",
+		name = "예정의 \"초급 연기\"나 \"초급 서예\"를 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -7999,7 +7999,7 @@ pg.child_task = {
 	},
 	[10031] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -8042,7 +8042,7 @@ pg.child_task = {
 	},
 	[10032] = {
 		arg = 1,
-		name = "想去美食坊活动",
+		name = "외출해서 \"맛집 거리\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -8085,7 +8085,7 @@ pg.child_task = {
 	},
 	[10033] = {
 		arg = 1,
-		name = "想去游乐场活动",
+		name = "외출해서 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -8118,7 +8118,7 @@ pg.child_task = {
 	},
 	[10034] = {
 		arg = 1,
-		name = "想完成行程-初级研修/初级体能",
+		name = "예정의 \"초급 공부\"나 \"초급 체력\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -8150,7 +8150,7 @@ pg.child_task = {
 	},
 	[10035] = {
 		arg = 1,
-		name = "想完成行程-初级手工/初级声乐",
+		name = "예정의 \"초급 수공예\"나 \"초급 음악\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -8182,7 +8182,7 @@ pg.child_task = {
 	},
 	[10036] = {
 		arg = 1,
-		name = "想完成行程-初级美术/初级形体",
+		name = "예정의 \"초급 미술\"나 \"초급 무용\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -8214,7 +8214,7 @@ pg.child_task = {
 	},
 	[10037] = {
 		arg = 1,
-		name = "想完成行程-初级表演/初级书法",
+		name = "예정의 \"초급 연기\"나 \"초급 서예\"를 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -8246,7 +8246,7 @@ pg.child_task = {
 	},
 	[10038] = {
 		arg = 1,
-		name = "想去度假庄园活动",
+		name = "외출해서 \"리조트\"에 가고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -8291,7 +8291,7 @@ pg.child_task = {
 	},
 	[10041] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -8334,7 +8334,7 @@ pg.child_task = {
 	},
 	[10042] = {
 		arg = 1,
-		name = "想去美食坊活动",
+		name = "외출해서 \"맛집 거리\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -8377,7 +8377,7 @@ pg.child_task = {
 	},
 	[10043] = {
 		arg = 1,
-		name = "想去游乐场活动",
+		name = "외출해서 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -8410,7 +8410,7 @@ pg.child_task = {
 	},
 	[10044] = {
 		arg = 1,
-		name = "想完成行程-初级研修/初级体能",
+		name = "예정의 \"초급 공부\"나 \"초급 체력\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -8442,7 +8442,7 @@ pg.child_task = {
 	},
 	[10045] = {
 		arg = 1,
-		name = "想完成行程-初级手工/初级声乐",
+		name = "예정의 \"초급 수공예\"나 \"초급 음악\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -8474,7 +8474,7 @@ pg.child_task = {
 	},
 	[10046] = {
 		arg = 1,
-		name = "想完成行程-初级美术/初级形体",
+		name = "예정의 \"초급 미술\"나 \"초급 무용\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -8506,7 +8506,7 @@ pg.child_task = {
 	},
 	[10047] = {
 		arg = 1,
-		name = "想完成行程-初级表演/初级书法",
+		name = "예정의 \"초급 연기\"나 \"초급 서예\"를 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -8538,7 +8538,7 @@ pg.child_task = {
 	},
 	[10048] = {
 		arg = 1,
-		name = "想去度假庄园活动",
+		name = "외출해서 \"리조트\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -8583,7 +8583,7 @@ pg.child_task = {
 	},
 	[10051] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -8626,7 +8626,7 @@ pg.child_task = {
 	},
 	[10052] = {
 		arg = 1,
-		name = "想去美食坊活动",
+		name = "외출해서 \"맛집 거리\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -8669,7 +8669,7 @@ pg.child_task = {
 	},
 	[10053] = {
 		arg = 1,
-		name = "想去游乐场活动",
+		name = "외출해서 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -8702,7 +8702,7 @@ pg.child_task = {
 	},
 	[10054] = {
 		arg = 1,
-		name = "想完成行程-初级研修/初级体能",
+		name = "예정의 \"초급 공부\"나 \"초급 체력\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -8734,7 +8734,7 @@ pg.child_task = {
 	},
 	[10055] = {
 		arg = 1,
-		name = "想完成行程-初级手工/初级声乐",
+		name = "예정의 \"초급 수공예\"나 \"초급 음악\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -8766,7 +8766,7 @@ pg.child_task = {
 	},
 	[10056] = {
 		arg = 1,
-		name = "想完成行程-初级美术/初级形体",
+		name = "예정의 \"초급 미술\"나 \"초급 무용\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -8798,7 +8798,7 @@ pg.child_task = {
 	},
 	[10057] = {
 		arg = 1,
-		name = "想完成行程-初级表演/初级书法",
+		name = "예정의 \"초급 연기\"나 \"초급 서예\"를 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -8830,7 +8830,7 @@ pg.child_task = {
 	},
 	[10058] = {
 		arg = 1,
-		name = "想去度假庄园活动",
+		name = "외출해서 \"리조트\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -8875,7 +8875,7 @@ pg.child_task = {
 	},
 	[10059] = {
 		arg = 1,
-		name = "想去学院活动",
+		name = "외출해서 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -8932,7 +8932,7 @@ pg.child_task = {
 	},
 	[10061] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -8975,7 +8975,7 @@ pg.child_task = {
 	},
 	[10062] = {
 		arg = 1,
-		name = "想去美食坊活动",
+		name = "외출해서 \"맛집 거리\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -9018,7 +9018,7 @@ pg.child_task = {
 	},
 	[10063] = {
 		arg = 1,
-		name = "想去游乐场活动",
+		name = "외출해서 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -9051,7 +9051,7 @@ pg.child_task = {
 	},
 	[10064] = {
 		arg = 1,
-		name = "想完成行程-初级研修/初级体能",
+		name = "예정의 \"초급 공부\"나 \"초급 체력\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -9083,7 +9083,7 @@ pg.child_task = {
 	},
 	[10065] = {
 		arg = 1,
-		name = "想完成行程-初级手工/初级声乐",
+		name = "예정의 \"초급 수공예\"나 \"초급 음악\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -9115,7 +9115,7 @@ pg.child_task = {
 	},
 	[10066] = {
 		arg = 1,
-		name = "想完成行程-初级美术/初级形体",
+		name = "예정의 \"초급 미술\"나 \"초급 무용\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -9147,7 +9147,7 @@ pg.child_task = {
 	},
 	[10067] = {
 		arg = 1,
-		name = "想完成行程-初级表演/初级书法",
+		name = "예정의 \"초급 연기\"나 \"초급 서예\"를 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -9179,7 +9179,7 @@ pg.child_task = {
 	},
 	[10068] = {
 		arg = 1,
-		name = "想去度假庄园活动",
+		name = "외출해서 \"리조트\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -9224,7 +9224,7 @@ pg.child_task = {
 	},
 	[10069] = {
 		arg = 1,
-		name = "想去学院活动",
+		name = "외출해서 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -9281,7 +9281,7 @@ pg.child_task = {
 	},
 	[10071] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -9324,7 +9324,7 @@ pg.child_task = {
 	},
 	[10072] = {
 		arg = 1,
-		name = "想去美食坊活动",
+		name = "외출해서 \"맛집 거리\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -9367,7 +9367,7 @@ pg.child_task = {
 	},
 	[10073] = {
 		arg = 1,
-		name = "想去游乐场活动",
+		name = "외출해서 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -9400,7 +9400,7 @@ pg.child_task = {
 	},
 	[10074] = {
 		arg = 1,
-		name = "想完成行程-初级研修/初级体能",
+		name = "예정의 \"초급 공부\"나 \"초급 체력\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -9432,7 +9432,7 @@ pg.child_task = {
 	},
 	[10075] = {
 		arg = 1,
-		name = "想完成行程-初级手工/初级声乐",
+		name = "예정의 \"초급 수공예\"나 \"초급 음악\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -9464,7 +9464,7 @@ pg.child_task = {
 	},
 	[10076] = {
 		arg = 1,
-		name = "想完成行程-初级美术/初级形体",
+		name = "예정의 \"초급 미술\"나 \"초급 무용\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -9496,7 +9496,7 @@ pg.child_task = {
 	},
 	[10077] = {
 		arg = 1,
-		name = "想完成行程-初级表演/初级书法",
+		name = "예정의 \"초급 연기\"나 \"초급 서예\"를 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -9528,7 +9528,7 @@ pg.child_task = {
 	},
 	[10078] = {
 		arg = 1,
-		name = "想去度假庄园活动",
+		name = "외출해서 \"리조트\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -9573,7 +9573,7 @@ pg.child_task = {
 	},
 	[10079] = {
 		arg = 1,
-		name = "想去学院活动",
+		name = "외출해서 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -9630,7 +9630,7 @@ pg.child_task = {
 	},
 	[10080] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -9673,7 +9673,7 @@ pg.child_task = {
 	},
 	[10081] = {
 		arg = 1,
-		name = "想去美食坊活动",
+		name = "외출해서 \"맛집 거리\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -9716,7 +9716,7 @@ pg.child_task = {
 	},
 	[10082] = {
 		arg = 1,
-		name = "想去游乐场活动",
+		name = "외출해서 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -9749,7 +9749,7 @@ pg.child_task = {
 	},
 	[10083] = {
 		arg = 1,
-		name = "想完成行程-初级研修/初级体能",
+		name = "예정의 \"초급 공부\"나 \"초급 체력\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -9781,7 +9781,7 @@ pg.child_task = {
 	},
 	[10084] = {
 		arg = 1,
-		name = "想完成行程-初级手工/初级声乐",
+		name = "예정의 \"초급 수공예\"나 \"초급 음악\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -9813,7 +9813,7 @@ pg.child_task = {
 	},
 	[10085] = {
 		arg = 1,
-		name = "想完成行程-初级美术/初级形体",
+		name = "예정의 \"초급 미술\"나 \"초급 무용\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -9845,7 +9845,7 @@ pg.child_task = {
 	},
 	[10086] = {
 		arg = 1,
-		name = "想完成行程-初级表演/初级书法",
+		name = "예정의 \"초급 연기\"나 \"초급 서예\"를 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -9877,7 +9877,7 @@ pg.child_task = {
 	},
 	[10087] = {
 		arg = 1,
-		name = "想去度假庄园活动",
+		name = "외출해서 \"리조트\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -9922,7 +9922,7 @@ pg.child_task = {
 	},
 	[10088] = {
 		arg = 1,
-		name = "想去学院活动",
+		name = "외출해서 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -9979,7 +9979,7 @@ pg.child_task = {
 	},
 	[10089] = {
 		arg = 1,
-		name = "想去体育馆活动",
+		name = "외출해서 \"운동장\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -10022,7 +10022,7 @@ pg.child_task = {
 	},
 	[10090] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -10065,7 +10065,7 @@ pg.child_task = {
 	},
 	[10091] = {
 		arg = 1,
-		name = "想去美食坊活动",
+		name = "외출해서 \"맛집 거리\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -10108,7 +10108,7 @@ pg.child_task = {
 	},
 	[10092] = {
 		arg = 1,
-		name = "想去游乐场活动",
+		name = "외출해서 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -10141,7 +10141,7 @@ pg.child_task = {
 	},
 	[10093] = {
 		arg = 1,
-		name = "想完成行程-初级研修/初级体能",
+		name = "예정의 \"초급 공부\"나 \"초급 체력\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -10173,7 +10173,7 @@ pg.child_task = {
 	},
 	[10094] = {
 		arg = 1,
-		name = "想完成行程-初级手工/初级声乐",
+		name = "예정의 \"초급 수공예\"나 \"초급 음악\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -10205,7 +10205,7 @@ pg.child_task = {
 	},
 	[10095] = {
 		arg = 1,
-		name = "想完成行程-初级美术/初级形体",
+		name = "예정의 \"초급 미술\"나 \"초급 무용\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -10237,7 +10237,7 @@ pg.child_task = {
 	},
 	[10096] = {
 		arg = 1,
-		name = "想完成行程-初级表演/初级书法",
+		name = "예정의 \"초급 연기\"나 \"초급 서예\"를 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -10269,7 +10269,7 @@ pg.child_task = {
 	},
 	[10097] = {
 		arg = 1,
-		name = "想去度假庄园活动",
+		name = "외출해서 \"리조트\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -10314,7 +10314,7 @@ pg.child_task = {
 	},
 	[10098] = {
 		arg = 1,
-		name = "想去学院活动",
+		name = "외출해서 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -10371,7 +10371,7 @@ pg.child_task = {
 	},
 	[10099] = {
 		arg = 1,
-		name = "想去体育馆活动",
+		name = "외출해서 \"운동장\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -10414,7 +10414,7 @@ pg.child_task = {
 	},
 	[10111] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -10457,7 +10457,7 @@ pg.child_task = {
 	},
 	[10112] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -10503,7 +10503,7 @@ pg.child_task = {
 	},
 	[10113] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -10575,7 +10575,7 @@ pg.child_task = {
 	},
 	[10114] = {
 		arg = 1,
-		name = "想完成任意初级课程",
+		name = "초급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -10613,7 +10613,7 @@ pg.child_task = {
 	},
 	[10115] = {
 		arg = 1,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "예정의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -10646,7 +10646,7 @@ pg.child_task = {
 	},
 	[10116] = {
 		arg = 1,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "예정의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -10679,7 +10679,7 @@ pg.child_task = {
 	},
 	[10117] = {
 		arg = 1,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "예정의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -10712,7 +10712,7 @@ pg.child_task = {
 	},
 	[10118] = {
 		arg = 1,
-		name = "想完成任意初级社会活动",
+		name = "사회 공부Ⅰ을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -10752,7 +10752,7 @@ pg.child_task = {
 	},
 	[10119] = {
 		arg = 1,
-		name = "想去体育馆/商业街活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -10825,7 +10825,7 @@ pg.child_task = {
 	},
 	[10121] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -10868,7 +10868,7 @@ pg.child_task = {
 	},
 	[10122] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -10914,7 +10914,7 @@ pg.child_task = {
 	},
 	[10123] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -10986,7 +10986,7 @@ pg.child_task = {
 	},
 	[10124] = {
 		arg = 1,
-		name = "想完成任意初级课程",
+		name = "초급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -11024,7 +11024,7 @@ pg.child_task = {
 	},
 	[10125] = {
 		arg = 1,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "예정의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -11057,7 +11057,7 @@ pg.child_task = {
 	},
 	[10126] = {
 		arg = 1,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "예정의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -11090,7 +11090,7 @@ pg.child_task = {
 	},
 	[10127] = {
 		arg = 1,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "예정의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -11123,7 +11123,7 @@ pg.child_task = {
 	},
 	[10128] = {
 		arg = 1,
-		name = "想完成任意初级社会活动",
+		name = "사회 공부Ⅰ을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -11163,7 +11163,7 @@ pg.child_task = {
 	},
 	[10129] = {
 		arg = 1,
-		name = "想去体育馆/商业街活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -11236,7 +11236,7 @@ pg.child_task = {
 	},
 	[10131] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -11279,7 +11279,7 @@ pg.child_task = {
 	},
 	[10132] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -11325,7 +11325,7 @@ pg.child_task = {
 	},
 	[10133] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -11397,7 +11397,7 @@ pg.child_task = {
 	},
 	[10134] = {
 		arg = 1,
-		name = "想完成任意初级课程",
+		name = "초급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -11435,7 +11435,7 @@ pg.child_task = {
 	},
 	[10135] = {
 		arg = 1,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "예정의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -11468,7 +11468,7 @@ pg.child_task = {
 	},
 	[10136] = {
 		arg = 1,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "예정의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -11501,7 +11501,7 @@ pg.child_task = {
 	},
 	[10137] = {
 		arg = 1,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "예정의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -11534,7 +11534,7 @@ pg.child_task = {
 	},
 	[10138] = {
 		arg = 1,
-		name = "想完成任意初级社会活动",
+		name = "사회 공부Ⅰ을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -11574,7 +11574,7 @@ pg.child_task = {
 	},
 	[10139] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -11673,7 +11673,7 @@ pg.child_task = {
 	},
 	[10141] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -11716,7 +11716,7 @@ pg.child_task = {
 	},
 	[10142] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -11762,7 +11762,7 @@ pg.child_task = {
 	},
 	[10143] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -11834,7 +11834,7 @@ pg.child_task = {
 	},
 	[10144] = {
 		arg = 1,
-		name = "想完成任意初级课程",
+		name = "초급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -11872,7 +11872,7 @@ pg.child_task = {
 	},
 	[10145] = {
 		arg = 1,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "예정의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -11905,7 +11905,7 @@ pg.child_task = {
 	},
 	[10146] = {
 		arg = 1,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "예정의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -11938,7 +11938,7 @@ pg.child_task = {
 	},
 	[10147] = {
 		arg = 1,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "예정의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -11971,7 +11971,7 @@ pg.child_task = {
 	},
 	[10148] = {
 		arg = 1,
-		name = "想完成任意初级社会活动",
+		name = "사회 공부Ⅰ을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -12011,7 +12011,7 @@ pg.child_task = {
 	},
 	[10149] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -12110,7 +12110,7 @@ pg.child_task = {
 	},
 	[10151] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -12153,7 +12153,7 @@ pg.child_task = {
 	},
 	[10152] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -12199,7 +12199,7 @@ pg.child_task = {
 	},
 	[10153] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -12271,7 +12271,7 @@ pg.child_task = {
 	},
 	[10154] = {
 		arg = 1,
-		name = "想完成任意初级课程",
+		name = "초급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -12309,7 +12309,7 @@ pg.child_task = {
 	},
 	[10155] = {
 		arg = 1,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "예정의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -12342,7 +12342,7 @@ pg.child_task = {
 	},
 	[10156] = {
 		arg = 1,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "예정의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -12375,7 +12375,7 @@ pg.child_task = {
 	},
 	[10157] = {
 		arg = 1,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "예정의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -12408,7 +12408,7 @@ pg.child_task = {
 	},
 	[10158] = {
 		arg = 1,
-		name = "想完成任意初级社会活动",
+		name = "사회 공부Ⅰ을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -12448,7 +12448,7 @@ pg.child_task = {
 	},
 	[10159] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -12547,7 +12547,7 @@ pg.child_task = {
 	},
 	[10161] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -12590,7 +12590,7 @@ pg.child_task = {
 	},
 	[10162] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -12636,7 +12636,7 @@ pg.child_task = {
 	},
 	[10163] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -12708,7 +12708,7 @@ pg.child_task = {
 	},
 	[10164] = {
 		arg = 1,
-		name = "想完成任意初级课程",
+		name = "초급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -12746,7 +12746,7 @@ pg.child_task = {
 	},
 	[10165] = {
 		arg = 1,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "예정의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -12779,7 +12779,7 @@ pg.child_task = {
 	},
 	[10166] = {
 		arg = 1,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "예정의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -12812,7 +12812,7 @@ pg.child_task = {
 	},
 	[10167] = {
 		arg = 1,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "예정의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -12845,7 +12845,7 @@ pg.child_task = {
 	},
 	[10168] = {
 		arg = 1,
-		name = "想完成任意初级社会活动",
+		name = "사회 공부Ⅰ을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -12885,7 +12885,7 @@ pg.child_task = {
 	},
 	[10169] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -12984,7 +12984,7 @@ pg.child_task = {
 	},
 	[10171] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -13027,7 +13027,7 @@ pg.child_task = {
 	},
 	[10172] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -13073,7 +13073,7 @@ pg.child_task = {
 	},
 	[10173] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -13145,7 +13145,7 @@ pg.child_task = {
 	},
 	[10174] = {
 		arg = 1,
-		name = "想完成任意初级课程",
+		name = "초급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -13183,7 +13183,7 @@ pg.child_task = {
 	},
 	[10175] = {
 		arg = 1,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "예정의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -13216,7 +13216,7 @@ pg.child_task = {
 	},
 	[10176] = {
 		arg = 1,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "예정의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -13249,7 +13249,7 @@ pg.child_task = {
 	},
 	[10177] = {
 		arg = 1,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "예정의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -13282,7 +13282,7 @@ pg.child_task = {
 	},
 	[10178] = {
 		arg = 1,
-		name = "想完成任意初级社会活动",
+		name = "사회 공부Ⅰ을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -13322,7 +13322,7 @@ pg.child_task = {
 	},
 	[10179] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -13421,7 +13421,7 @@ pg.child_task = {
 	},
 	[10181] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -13464,7 +13464,7 @@ pg.child_task = {
 	},
 	[10182] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -13510,7 +13510,7 @@ pg.child_task = {
 	},
 	[10183] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -13582,7 +13582,7 @@ pg.child_task = {
 	},
 	[10184] = {
 		arg = 1,
-		name = "想完成任意初级课程",
+		name = "초급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -13620,7 +13620,7 @@ pg.child_task = {
 	},
 	[10185] = {
 		arg = 1,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "예정의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -13653,7 +13653,7 @@ pg.child_task = {
 	},
 	[10186] = {
 		arg = 1,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "예정의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -13686,7 +13686,7 @@ pg.child_task = {
 	},
 	[10187] = {
 		arg = 1,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "예정의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -13719,7 +13719,7 @@ pg.child_task = {
 	},
 	[10188] = {
 		arg = 1,
-		name = "想完成任意初级社会活动",
+		name = "사회 공부Ⅰ을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -13759,7 +13759,7 @@ pg.child_task = {
 	},
 	[10189] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -13858,7 +13858,7 @@ pg.child_task = {
 	},
 	[10191] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -13901,7 +13901,7 @@ pg.child_task = {
 	},
 	[10192] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -13947,7 +13947,7 @@ pg.child_task = {
 	},
 	[10193] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -14019,7 +14019,7 @@ pg.child_task = {
 	},
 	[10194] = {
 		arg = 1,
-		name = "想完成任意初级课程",
+		name = "초급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -14057,7 +14057,7 @@ pg.child_task = {
 	},
 	[10195] = {
 		arg = 1,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "예정의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -14090,7 +14090,7 @@ pg.child_task = {
 	},
 	[10196] = {
 		arg = 1,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "예정의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -14123,7 +14123,7 @@ pg.child_task = {
 	},
 	[10197] = {
 		arg = 1,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "예정의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -14156,7 +14156,7 @@ pg.child_task = {
 	},
 	[10198] = {
 		arg = 1,
-		name = "想完成任意初级社会活动",
+		name = "사회 공부Ⅰ을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -14196,7 +14196,7 @@ pg.child_task = {
 	},
 	[10199] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -14295,7 +14295,7 @@ pg.child_task = {
 	},
 	[10221] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -14338,7 +14338,7 @@ pg.child_task = {
 	},
 	[10222] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -14384,7 +14384,7 @@ pg.child_task = {
 	},
 	[10223] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -14456,7 +14456,7 @@ pg.child_task = {
 	},
 	[10224] = {
 		arg = 1,
-		name = "想完成任意初级课程",
+		name = "초급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -14494,7 +14494,7 @@ pg.child_task = {
 	},
 	[10225] = {
 		arg = 1,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "예정의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -14527,7 +14527,7 @@ pg.child_task = {
 	},
 	[10226] = {
 		arg = 1,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "예정의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -14560,7 +14560,7 @@ pg.child_task = {
 	},
 	[10227] = {
 		arg = 1,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "예정의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -14593,7 +14593,7 @@ pg.child_task = {
 	},
 	[10228] = {
 		arg = 1,
-		name = "想完成任意初级社会活动",
+		name = "사회 공부Ⅰ을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -14633,7 +14633,7 @@ pg.child_task = {
 	},
 	[10229] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -14732,7 +14732,7 @@ pg.child_task = {
 	},
 	[10231] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -14775,7 +14775,7 @@ pg.child_task = {
 	},
 	[10232] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -14821,7 +14821,7 @@ pg.child_task = {
 	},
 	[10233] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -14893,7 +14893,7 @@ pg.child_task = {
 	},
 	[10234] = {
 		arg = 1,
-		name = "想完成任意初级课程",
+		name = "초급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -14931,7 +14931,7 @@ pg.child_task = {
 	},
 	[10235] = {
 		arg = 1,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "예정의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -14964,7 +14964,7 @@ pg.child_task = {
 	},
 	[10236] = {
 		arg = 1,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "예정의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -14997,7 +14997,7 @@ pg.child_task = {
 	},
 	[10237] = {
 		arg = 1,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "예정의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -15030,7 +15030,7 @@ pg.child_task = {
 	},
 	[10238] = {
 		arg = 1,
-		name = "想完成任意初级社会活动",
+		name = "사회 공부Ⅰ을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -15070,7 +15070,7 @@ pg.child_task = {
 	},
 	[10239] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -15169,7 +15169,7 @@ pg.child_task = {
 	},
 	[10241] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -15212,7 +15212,7 @@ pg.child_task = {
 	},
 	[10242] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -15258,7 +15258,7 @@ pg.child_task = {
 	},
 	[10243] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -15330,7 +15330,7 @@ pg.child_task = {
 	},
 	[10244] = {
 		arg = 1,
-		name = "想完成任意初级课程",
+		name = "초급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -15368,7 +15368,7 @@ pg.child_task = {
 	},
 	[10245] = {
 		arg = 1,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "예정의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -15401,7 +15401,7 @@ pg.child_task = {
 	},
 	[10246] = {
 		arg = 1,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "예정의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -15434,7 +15434,7 @@ pg.child_task = {
 	},
 	[10247] = {
 		arg = 1,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "예정의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -15467,7 +15467,7 @@ pg.child_task = {
 	},
 	[10248] = {
 		arg = 1,
-		name = "想完成任意初级社会活动",
+		name = "사회 공부Ⅰ을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -15507,7 +15507,7 @@ pg.child_task = {
 	},
 	[10249] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -15606,7 +15606,7 @@ pg.child_task = {
 	},
 	[10251] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -15649,7 +15649,7 @@ pg.child_task = {
 	},
 	[10252] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -15695,7 +15695,7 @@ pg.child_task = {
 	},
 	[10253] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -15767,7 +15767,7 @@ pg.child_task = {
 	},
 	[10254] = {
 		arg = 1,
-		name = "想完成任意初级课程",
+		name = "초급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -15805,7 +15805,7 @@ pg.child_task = {
 	},
 	[10255] = {
 		arg = 1,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "예정의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -15838,7 +15838,7 @@ pg.child_task = {
 	},
 	[10256] = {
 		arg = 1,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "예정의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -15871,7 +15871,7 @@ pg.child_task = {
 	},
 	[10257] = {
 		arg = 1,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "예정의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -15904,7 +15904,7 @@ pg.child_task = {
 	},
 	[10258] = {
 		arg = 1,
-		name = "想完成任意初级社会活动",
+		name = "사회 공부Ⅰ을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -15944,7 +15944,7 @@ pg.child_task = {
 	},
 	[10259] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -16043,7 +16043,7 @@ pg.child_task = {
 	},
 	[10261] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -16086,7 +16086,7 @@ pg.child_task = {
 	},
 	[10262] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -16132,7 +16132,7 @@ pg.child_task = {
 	},
 	[10263] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -16204,7 +16204,7 @@ pg.child_task = {
 	},
 	[10264] = {
 		arg = 1,
-		name = "想完成任意初级课程",
+		name = "초급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -16242,7 +16242,7 @@ pg.child_task = {
 	},
 	[10265] = {
 		arg = 1,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "예정의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -16275,7 +16275,7 @@ pg.child_task = {
 	},
 	[10266] = {
 		arg = 1,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "예정의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -16308,7 +16308,7 @@ pg.child_task = {
 	},
 	[10267] = {
 		arg = 1,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "예정의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -16341,7 +16341,7 @@ pg.child_task = {
 	},
 	[10268] = {
 		arg = 1,
-		name = "想完成任意初级社会活动",
+		name = "사회 공부Ⅰ을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -16381,7 +16381,7 @@ pg.child_task = {
 	},
 	[10269] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -16480,7 +16480,7 @@ pg.child_task = {
 	},
 	[10271] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -16523,7 +16523,7 @@ pg.child_task = {
 	},
 	[10272] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -16569,7 +16569,7 @@ pg.child_task = {
 	},
 	[10273] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -16641,7 +16641,7 @@ pg.child_task = {
 	},
 	[10274] = {
 		arg = 1,
-		name = "想完成任意初级课程",
+		name = "초급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -16679,7 +16679,7 @@ pg.child_task = {
 	},
 	[10275] = {
 		arg = 1,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "예정의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -16712,7 +16712,7 @@ pg.child_task = {
 	},
 	[10276] = {
 		arg = 1,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "예정의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -16745,7 +16745,7 @@ pg.child_task = {
 	},
 	[10277] = {
 		arg = 1,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "예정의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -16778,7 +16778,7 @@ pg.child_task = {
 	},
 	[10278] = {
 		arg = 1,
-		name = "想完成任意初级社会活动",
+		name = "사회 공부Ⅰ을 해보고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -16818,7 +16818,7 @@ pg.child_task = {
 	},
 	[10279] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -16917,7 +16917,7 @@ pg.child_task = {
 	},
 	[10281] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -16960,7 +16960,7 @@ pg.child_task = {
 	},
 	[10282] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -17006,7 +17006,7 @@ pg.child_task = {
 	},
 	[10283] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -17078,7 +17078,7 @@ pg.child_task = {
 	},
 	[10284] = {
 		arg = 1,
-		name = "想完成任意初级课程",
+		name = "초급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -17116,7 +17116,7 @@ pg.child_task = {
 	},
 	[10285] = {
 		arg = 1,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "예정의 \"초급 요리\"나 \"초급 원예\", \"초급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -17149,7 +17149,7 @@ pg.child_task = {
 	},
 	[10286] = {
 		arg = 1,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "예정의 \"초급 예술\"이나 \"초급 다도\", \"초급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -17182,7 +17182,7 @@ pg.child_task = {
 	},
 	[10287] = {
 		arg = 1,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "예정의 \"초급 연주\"나 \"초급 보습\", \"초급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -17215,7 +17215,7 @@ pg.child_task = {
 	},
 	[10288] = {
 		arg = 1,
-		name = "想完成任意初级社会活动",
+		name = "사회 공부Ⅰ을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -17255,7 +17255,7 @@ pg.child_task = {
 	},
 	[10289] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -17354,7 +17354,7 @@ pg.child_task = {
 	},
 	[10291] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -17397,7 +17397,7 @@ pg.child_task = {
 	},
 	[10292] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -17443,7 +17443,7 @@ pg.child_task = {
 	},
 	[10293] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -17515,7 +17515,7 @@ pg.child_task = {
 	},
 	[10294] = {
 		arg = 1,
-		name = "想完成任意中级课程",
+		name = "중급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -17553,7 +17553,7 @@ pg.child_task = {
 	},
 	[10295] = {
 		arg = 1,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "예정의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -17586,7 +17586,7 @@ pg.child_task = {
 	},
 	[10296] = {
 		arg = 1,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "예정의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -17619,7 +17619,7 @@ pg.child_task = {
 	},
 	[10297] = {
 		arg = 1,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "예정의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -17652,7 +17652,7 @@ pg.child_task = {
 	},
 	[10298] = {
 		arg = 1,
-		name = "想完成任意中级社会活动",
+		name = "사회 공부Ⅱ를 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -17692,7 +17692,7 @@ pg.child_task = {
 	},
 	[10299] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -17791,7 +17791,7 @@ pg.child_task = {
 	},
 	[10301] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -17834,7 +17834,7 @@ pg.child_task = {
 	},
 	[10302] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -17880,7 +17880,7 @@ pg.child_task = {
 	},
 	[10303] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -17952,7 +17952,7 @@ pg.child_task = {
 	},
 	[10304] = {
 		arg = 1,
-		name = "想完成任意中级课程",
+		name = "중급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -17990,7 +17990,7 @@ pg.child_task = {
 	},
 	[10305] = {
 		arg = 1,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "예정의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -18023,7 +18023,7 @@ pg.child_task = {
 	},
 	[10306] = {
 		arg = 1,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "예정의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -18056,7 +18056,7 @@ pg.child_task = {
 	},
 	[10307] = {
 		arg = 1,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "예정의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -18089,7 +18089,7 @@ pg.child_task = {
 	},
 	[10308] = {
 		arg = 1,
-		name = "想完成任意中级社会活动",
+		name = "사회 공부Ⅱ를 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -18129,7 +18129,7 @@ pg.child_task = {
 	},
 	[10309] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -18228,7 +18228,7 @@ pg.child_task = {
 	},
 	[10311] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -18271,7 +18271,7 @@ pg.child_task = {
 	},
 	[10312] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -18317,7 +18317,7 @@ pg.child_task = {
 	},
 	[10313] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -18389,7 +18389,7 @@ pg.child_task = {
 	},
 	[10314] = {
 		arg = 1,
-		name = "想完成任意中级课程",
+		name = "중급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -18427,7 +18427,7 @@ pg.child_task = {
 	},
 	[10315] = {
 		arg = 1,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "예정의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -18460,7 +18460,7 @@ pg.child_task = {
 	},
 	[10316] = {
 		arg = 1,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "예정의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -18493,7 +18493,7 @@ pg.child_task = {
 	},
 	[10317] = {
 		arg = 1,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "예정의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -18526,7 +18526,7 @@ pg.child_task = {
 	},
 	[10318] = {
 		arg = 1,
-		name = "想完成任意中级社会活动",
+		name = "사회 공부Ⅱ를 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -18566,7 +18566,7 @@ pg.child_task = {
 	},
 	[10319] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -18665,7 +18665,7 @@ pg.child_task = {
 	},
 	[10321] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -18708,7 +18708,7 @@ pg.child_task = {
 	},
 	[10322] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -18754,7 +18754,7 @@ pg.child_task = {
 	},
 	[10323] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -18826,7 +18826,7 @@ pg.child_task = {
 	},
 	[10324] = {
 		arg = 1,
-		name = "想完成任意中级课程",
+		name = "중급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -18864,7 +18864,7 @@ pg.child_task = {
 	},
 	[10325] = {
 		arg = 1,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "예정의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -18897,7 +18897,7 @@ pg.child_task = {
 	},
 	[10326] = {
 		arg = 1,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "예정의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -18930,7 +18930,7 @@ pg.child_task = {
 	},
 	[10327] = {
 		arg = 1,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "예정의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -18963,7 +18963,7 @@ pg.child_task = {
 	},
 	[10328] = {
 		arg = 1,
-		name = "想完成任意中级社会活动",
+		name = "사회 공부Ⅱ를 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -19003,7 +19003,7 @@ pg.child_task = {
 	},
 	[10329] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -19102,7 +19102,7 @@ pg.child_task = {
 	},
 	[10331] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -19145,7 +19145,7 @@ pg.child_task = {
 	},
 	[10332] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -19191,7 +19191,7 @@ pg.child_task = {
 	},
 	[10333] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -19263,7 +19263,7 @@ pg.child_task = {
 	},
 	[10334] = {
 		arg = 1,
-		name = "想完成任意中级课程",
+		name = "중급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -19301,7 +19301,7 @@ pg.child_task = {
 	},
 	[10335] = {
 		arg = 1,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "예정의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -19334,7 +19334,7 @@ pg.child_task = {
 	},
 	[10336] = {
 		arg = 1,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "예정의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -19367,7 +19367,7 @@ pg.child_task = {
 	},
 	[10337] = {
 		arg = 1,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "예정의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -19400,7 +19400,7 @@ pg.child_task = {
 	},
 	[10338] = {
 		arg = 1,
-		name = "想完成任意中级社会活动",
+		name = "사회 공부Ⅱ를 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -19440,7 +19440,7 @@ pg.child_task = {
 	},
 	[10339] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -19539,7 +19539,7 @@ pg.child_task = {
 	},
 	[10341] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -19582,7 +19582,7 @@ pg.child_task = {
 	},
 	[10342] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -19628,7 +19628,7 @@ pg.child_task = {
 	},
 	[10343] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -19700,7 +19700,7 @@ pg.child_task = {
 	},
 	[10344] = {
 		arg = 1,
-		name = "想完成任意中级课程",
+		name = "중급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -19738,7 +19738,7 @@ pg.child_task = {
 	},
 	[10345] = {
 		arg = 1,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "예정의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -19771,7 +19771,7 @@ pg.child_task = {
 	},
 	[10346] = {
 		arg = 1,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "예정의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -19804,7 +19804,7 @@ pg.child_task = {
 	},
 	[10347] = {
 		arg = 1,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "예정의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -19837,7 +19837,7 @@ pg.child_task = {
 	},
 	[10348] = {
 		arg = 1,
-		name = "想完成任意中级社会活动",
+		name = "사회 공부Ⅱ를 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -19877,7 +19877,7 @@ pg.child_task = {
 	},
 	[10349] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -19976,7 +19976,7 @@ pg.child_task = {
 	},
 	[10351] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -20019,7 +20019,7 @@ pg.child_task = {
 	},
 	[10352] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -20065,7 +20065,7 @@ pg.child_task = {
 	},
 	[10353] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -20137,7 +20137,7 @@ pg.child_task = {
 	},
 	[10354] = {
 		arg = 1,
-		name = "想完成任意中级课程",
+		name = "중급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -20175,7 +20175,7 @@ pg.child_task = {
 	},
 	[10355] = {
 		arg = 1,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "예정의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -20208,7 +20208,7 @@ pg.child_task = {
 	},
 	[10356] = {
 		arg = 1,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "예정의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -20241,7 +20241,7 @@ pg.child_task = {
 	},
 	[10357] = {
 		arg = 1,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "예정의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -20274,7 +20274,7 @@ pg.child_task = {
 	},
 	[10358] = {
 		arg = 1,
-		name = "想完成任意中级社会活动",
+		name = "사회 공부Ⅱ를 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -20314,7 +20314,7 @@ pg.child_task = {
 	},
 	[10359] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -20413,7 +20413,7 @@ pg.child_task = {
 	},
 	[10361] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -20456,7 +20456,7 @@ pg.child_task = {
 	},
 	[10362] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -20502,7 +20502,7 @@ pg.child_task = {
 	},
 	[10363] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -20574,7 +20574,7 @@ pg.child_task = {
 	},
 	[10364] = {
 		arg = 1,
-		name = "想完成任意中级课程",
+		name = "중급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -20612,7 +20612,7 @@ pg.child_task = {
 	},
 	[10365] = {
 		arg = 1,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "예정의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -20645,7 +20645,7 @@ pg.child_task = {
 	},
 	[10366] = {
 		arg = 1,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "예정의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -20678,7 +20678,7 @@ pg.child_task = {
 	},
 	[10367] = {
 		arg = 1,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "예정의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -20711,7 +20711,7 @@ pg.child_task = {
 	},
 	[10368] = {
 		arg = 1,
-		name = "想完成任意中级社会活动",
+		name = "사회 공부Ⅱ를 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -20751,7 +20751,7 @@ pg.child_task = {
 	},
 	[10369] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -20850,7 +20850,7 @@ pg.child_task = {
 	},
 	[10371] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -20893,7 +20893,7 @@ pg.child_task = {
 	},
 	[10372] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -20939,7 +20939,7 @@ pg.child_task = {
 	},
 	[10373] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -21011,7 +21011,7 @@ pg.child_task = {
 	},
 	[10374] = {
 		arg = 1,
-		name = "想完成任意中级课程",
+		name = "중급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -21049,7 +21049,7 @@ pg.child_task = {
 	},
 	[10375] = {
 		arg = 1,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "예정의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -21082,7 +21082,7 @@ pg.child_task = {
 	},
 	[10376] = {
 		arg = 1,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "예정의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -21115,7 +21115,7 @@ pg.child_task = {
 	},
 	[10377] = {
 		arg = 1,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "예정의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -21148,7 +21148,7 @@ pg.child_task = {
 	},
 	[10378] = {
 		arg = 1,
-		name = "想完成任意中级社会活动",
+		name = "사회 공부Ⅱ를 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -21188,7 +21188,7 @@ pg.child_task = {
 	},
 	[10379] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -21287,7 +21287,7 @@ pg.child_task = {
 	},
 	[10381] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -21330,7 +21330,7 @@ pg.child_task = {
 	},
 	[10382] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -21376,7 +21376,7 @@ pg.child_task = {
 	},
 	[10383] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -21448,7 +21448,7 @@ pg.child_task = {
 	},
 	[10384] = {
 		arg = 1,
-		name = "想完成任意中级课程",
+		name = "중급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -21486,7 +21486,7 @@ pg.child_task = {
 	},
 	[10385] = {
 		arg = 1,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "예정의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -21519,7 +21519,7 @@ pg.child_task = {
 	},
 	[10386] = {
 		arg = 1,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "예정의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -21552,7 +21552,7 @@ pg.child_task = {
 	},
 	[10387] = {
 		arg = 1,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "예정의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -21585,7 +21585,7 @@ pg.child_task = {
 	},
 	[10388] = {
 		arg = 1,
-		name = "想完成任意中级社会活动",
+		name = "사회 공부Ⅱ를 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -21625,7 +21625,7 @@ pg.child_task = {
 	},
 	[10389] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -21724,7 +21724,7 @@ pg.child_task = {
 	},
 	[10391] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -21767,7 +21767,7 @@ pg.child_task = {
 	},
 	[10392] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -21813,7 +21813,7 @@ pg.child_task = {
 	},
 	[10393] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -21885,7 +21885,7 @@ pg.child_task = {
 	},
 	[10394] = {
 		arg = 1,
-		name = "想完成任意中级课程",
+		name = "중급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -21923,7 +21923,7 @@ pg.child_task = {
 	},
 	[10395] = {
 		arg = 1,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "예정의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -21956,7 +21956,7 @@ pg.child_task = {
 	},
 	[10396] = {
 		arg = 1,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "예정의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -21989,7 +21989,7 @@ pg.child_task = {
 	},
 	[10397] = {
 		arg = 1,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "예정의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -22022,7 +22022,7 @@ pg.child_task = {
 	},
 	[10398] = {
 		arg = 1,
-		name = "想完成任意中级社会活动",
+		name = "사회 공부Ⅱ를 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -22062,7 +22062,7 @@ pg.child_task = {
 	},
 	[10399] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -22161,7 +22161,7 @@ pg.child_task = {
 	},
 	[10401] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -22204,7 +22204,7 @@ pg.child_task = {
 	},
 	[10402] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -22250,7 +22250,7 @@ pg.child_task = {
 	},
 	[10403] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -22322,7 +22322,7 @@ pg.child_task = {
 	},
 	[10404] = {
 		arg = 1,
-		name = "想完成任意中级课程",
+		name = "중급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -22360,7 +22360,7 @@ pg.child_task = {
 	},
 	[10405] = {
 		arg = 1,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "예정의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -22393,7 +22393,7 @@ pg.child_task = {
 	},
 	[10406] = {
 		arg = 1,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "예정의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -22426,7 +22426,7 @@ pg.child_task = {
 	},
 	[10407] = {
 		arg = 1,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "예정의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -22459,7 +22459,7 @@ pg.child_task = {
 	},
 	[10408] = {
 		arg = 1,
-		name = "想完成任意中级社会活动",
+		name = "사회 공부Ⅱ를 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -22499,7 +22499,7 @@ pg.child_task = {
 	},
 	[10409] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -22598,7 +22598,7 @@ pg.child_task = {
 	},
 	[10411] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -22641,7 +22641,7 @@ pg.child_task = {
 	},
 	[10412] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -22687,7 +22687,7 @@ pg.child_task = {
 	},
 	[10413] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -22759,7 +22759,7 @@ pg.child_task = {
 	},
 	[10414] = {
 		arg = 1,
-		name = "想完成任意中级课程",
+		name = "중급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -22797,7 +22797,7 @@ pg.child_task = {
 	},
 	[10415] = {
 		arg = 1,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "예정의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -22830,7 +22830,7 @@ pg.child_task = {
 	},
 	[10416] = {
 		arg = 1,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "예정의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -22863,7 +22863,7 @@ pg.child_task = {
 	},
 	[10417] = {
 		arg = 1,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "예정의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -22896,7 +22896,7 @@ pg.child_task = {
 	},
 	[10418] = {
 		arg = 1,
-		name = "想完成任意中级社会活动",
+		name = "사회 공부Ⅱ를 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -22936,7 +22936,7 @@ pg.child_task = {
 	},
 	[10419] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -23035,7 +23035,7 @@ pg.child_task = {
 	},
 	[10421] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -23078,7 +23078,7 @@ pg.child_task = {
 	},
 	[10422] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -23124,7 +23124,7 @@ pg.child_task = {
 	},
 	[10423] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -23196,7 +23196,7 @@ pg.child_task = {
 	},
 	[10424] = {
 		arg = 1,
-		name = "想完成任意中级课程",
+		name = "중급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -23234,7 +23234,7 @@ pg.child_task = {
 	},
 	[10425] = {
 		arg = 1,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "예정의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -23267,7 +23267,7 @@ pg.child_task = {
 	},
 	[10426] = {
 		arg = 1,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "예정의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -23300,7 +23300,7 @@ pg.child_task = {
 	},
 	[10427] = {
 		arg = 1,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "예정의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -23333,7 +23333,7 @@ pg.child_task = {
 	},
 	[10428] = {
 		arg = 1,
-		name = "想完成任意中级社会活动",
+		name = "사회 공부Ⅱ를 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -23373,7 +23373,7 @@ pg.child_task = {
 	},
 	[10429] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -23472,7 +23472,7 @@ pg.child_task = {
 	},
 	[10431] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -23515,7 +23515,7 @@ pg.child_task = {
 	},
 	[10432] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -23561,7 +23561,7 @@ pg.child_task = {
 	},
 	[10433] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -23633,7 +23633,7 @@ pg.child_task = {
 	},
 	[10434] = {
 		arg = 1,
-		name = "想完成任意中级课程",
+		name = "중급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -23671,7 +23671,7 @@ pg.child_task = {
 	},
 	[10435] = {
 		arg = 1,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "예정의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -23704,7 +23704,7 @@ pg.child_task = {
 	},
 	[10436] = {
 		arg = 1,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "예정의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -23737,7 +23737,7 @@ pg.child_task = {
 	},
 	[10437] = {
 		arg = 1,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "예정의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -23770,7 +23770,7 @@ pg.child_task = {
 	},
 	[10438] = {
 		arg = 1,
-		name = "想完成任意中级社会活动",
+		name = "사회 공부Ⅱ를 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -23810,7 +23810,7 @@ pg.child_task = {
 	},
 	[10439] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -23909,7 +23909,7 @@ pg.child_task = {
 	},
 	[10441] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -23952,7 +23952,7 @@ pg.child_task = {
 	},
 	[10442] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -23998,7 +23998,7 @@ pg.child_task = {
 	},
 	[10443] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -24070,7 +24070,7 @@ pg.child_task = {
 	},
 	[10444] = {
 		arg = 1,
-		name = "想完成任意中级课程",
+		name = "중급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -24108,7 +24108,7 @@ pg.child_task = {
 	},
 	[10445] = {
 		arg = 1,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "예정의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -24141,7 +24141,7 @@ pg.child_task = {
 	},
 	[10446] = {
 		arg = 1,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "예정의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -24174,7 +24174,7 @@ pg.child_task = {
 	},
 	[10447] = {
 		arg = 1,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "예정의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -24207,7 +24207,7 @@ pg.child_task = {
 	},
 	[10448] = {
 		arg = 1,
-		name = "想完成任意中级社会活动",
+		name = "사회 공부Ⅱ를 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -24247,7 +24247,7 @@ pg.child_task = {
 	},
 	[10449] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -24346,7 +24346,7 @@ pg.child_task = {
 	},
 	[10451] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -24389,7 +24389,7 @@ pg.child_task = {
 	},
 	[10452] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -24435,7 +24435,7 @@ pg.child_task = {
 	},
 	[10453] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -24507,7 +24507,7 @@ pg.child_task = {
 	},
 	[10454] = {
 		arg = 1,
-		name = "想完成任意中级课程",
+		name = "중급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -24545,7 +24545,7 @@ pg.child_task = {
 	},
 	[10455] = {
 		arg = 1,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "예정의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -24578,7 +24578,7 @@ pg.child_task = {
 	},
 	[10456] = {
 		arg = 1,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "예정의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -24611,7 +24611,7 @@ pg.child_task = {
 	},
 	[10457] = {
 		arg = 1,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "예정의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -24644,7 +24644,7 @@ pg.child_task = {
 	},
 	[10458] = {
 		arg = 1,
-		name = "想完成任意中级社会活动",
+		name = "사회 공부Ⅱ를 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -24684,7 +24684,7 @@ pg.child_task = {
 	},
 	[10459] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -24783,7 +24783,7 @@ pg.child_task = {
 	},
 	[10461] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -24826,7 +24826,7 @@ pg.child_task = {
 	},
 	[10462] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -24872,7 +24872,7 @@ pg.child_task = {
 	},
 	[10463] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -24944,7 +24944,7 @@ pg.child_task = {
 	},
 	[10464] = {
 		arg = 1,
-		name = "想完成任意中级课程",
+		name = "중급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -24982,7 +24982,7 @@ pg.child_task = {
 	},
 	[10465] = {
 		arg = 1,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "예정의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -25015,7 +25015,7 @@ pg.child_task = {
 	},
 	[10466] = {
 		arg = 1,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "예정의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -25048,7 +25048,7 @@ pg.child_task = {
 	},
 	[10467] = {
 		arg = 1,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "예정의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -25081,7 +25081,7 @@ pg.child_task = {
 	},
 	[10468] = {
 		arg = 1,
-		name = "想完成任意中级社会活动",
+		name = "사회 공부Ⅱ를 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -25121,7 +25121,7 @@ pg.child_task = {
 	},
 	[10469] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -25220,7 +25220,7 @@ pg.child_task = {
 	},
 	[10471] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -25263,7 +25263,7 @@ pg.child_task = {
 	},
 	[10472] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -25309,7 +25309,7 @@ pg.child_task = {
 	},
 	[10473] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -25381,7 +25381,7 @@ pg.child_task = {
 	},
 	[10474] = {
 		arg = 1,
-		name = "想完成任意中级课程",
+		name = "중급 수업을 수강하고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -25419,7 +25419,7 @@ pg.child_task = {
 	},
 	[10475] = {
 		arg = 1,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "예정의 \"중급 요리\"나 \"중급 원예\", \"중급 운동\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -25452,7 +25452,7 @@ pg.child_task = {
 	},
 	[10476] = {
 		arg = 1,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "예정의 \"중급 예술\"이나 \"중급 다도\", \"중급 연극\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -25485,7 +25485,7 @@ pg.child_task = {
 	},
 	[10477] = {
 		arg = 1,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "예정의 \"중급 연주\"나 \"중급 보습\", \"중급 뮤지컬\"을 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -25518,7 +25518,7 @@ pg.child_task = {
 	},
 	[10478] = {
 		arg = 1,
-		name = "想完成任意中级社会活动",
+		name = "사회 공부Ⅱ를 해보고 싶어…",
 		type_2 = 1,
 		group = 0,
 		type_1 = 1,
@@ -25558,7 +25558,7 @@ pg.child_task = {
 	},
 	[10479] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -25657,7 +25657,7 @@ pg.child_task = {
 	},
 	[10481] = {
 		arg = 1,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "외출해서 \"맛집 거리\"의 \"패밀리 레스토랑\"에서 맛있는 걸 \"주문\"하고 싶어…",
 		type_2 = 4,
 		group = 0,
 		type_1 = 1,
@@ -25700,7 +25700,7 @@ pg.child_task = {
 	},
 	[10482] = {
 		arg = 1,
-		name = "想去美食坊/游乐场活动",
+		name = "외출해서 \"맛집 거리\"나 \"유원지\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -25746,7 +25746,7 @@ pg.child_task = {
 	},
 	[10483] = {
 		arg = 1,
-		name = "想去度假庄园活动/学院活动",
+		name = "외출해서 \"리조트\"나 \"학교\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,
@@ -25818,7 +25818,7 @@ pg.child_task = {
 	},
 	[10484] = {
 		arg = 1,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "외출해서 \"운동장\"이나 \"상점가\", \"해변의 공원\"에 가고 싶어…",
 		type_2 = 3,
 		group = 0,
 		type_1 = 1,

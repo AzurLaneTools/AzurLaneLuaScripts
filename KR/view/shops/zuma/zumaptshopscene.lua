@@ -92,10 +92,10 @@ function slot0.getGoodVOByIndex(slot0, slot1)
 end
 
 function slot0.updatePTPanel(slot0)
-	setText(slot0.ptInfoCountText, GetOwnedDropCount({
+	setText(slot0.ptInfoCountText, Drop.New({
 		type = 1,
 		id = slot0.ptID
-	}))
+	}):getOwnedCount())
 end
 
 function slot0.updateGoodPanel(slot0)
@@ -105,28 +105,28 @@ end
 function slot0.updateTpl(slot0, slot1, slot2)
 	slot6 = slot0:findTF("BuyCount", slot2)
 	slot7 = slot0.goodVOListForShow[slot1]
-	slot8 = {
+	slot8 = Drop.New({
 		type = slot7:getConfig("commodity_type"),
 		id = slot7:getConfig("commodity_id"),
 		count = slot7:getConfig("num")
-	}
+	})
 
 	updateDrop(slot0:findTF("Item", slot2), slot8)
-	setScrollText(slot0:findTF("Name/Name", slot2), updateDropCfg(slot8).name)
+	setScrollText(slot0:findTF("Name/Name", slot2), slot8:getName())
 	setText(slot0:findTF("PTCount", slot2), slot7:getConfig("resource_num"))
 
 	if slot7:getConfig("num_limit") == 0 then
 		setText(slot6, i18n("common_no_limit"))
 	else
-		setText(slot6, math.max(slot7:GetPurchasableCnt(), 0) .. "/" .. slot11)
+		setText(slot6, math.max(slot7:GetPurchasableCnt(), 0) .. "/" .. slot10)
 	end
 
-	slot12 = slot0:findTF("Mask", slot2)
-	slot15 = slot11 > 0 and slot7:GetPurchasableCnt() <= 0
+	slot11 = slot0:findTF("Mask", slot2)
+	slot14 = slot10 > 0 and slot7:GetPurchasableCnt() <= 0
 
-	setActive(slot12, slot15)
-	setActive(slot0:findTF("SellOut", slot12), slot15)
-	setActive(slot0:findTF("Lock", slot12), false)
+	setActive(slot11, slot14)
+	setActive(slot0:findTF("SellOut", slot11), slot14)
+	setActive(slot0:findTF("Lock", slot11), false)
 end
 
 function slot0.updateTplByGoodID(slot0, slot1)

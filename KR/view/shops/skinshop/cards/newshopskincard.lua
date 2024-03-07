@@ -112,10 +112,10 @@ function slot0.Update(slot0, slot1, slot2, slot3)
 	slot8 = false
 
 	if slot0.commodity.type == Goods.TYPE_SKIN then
-		LoadSpriteAsync(getDropIcon({
+		LoadSpriteAsync(Drop.New({
 			type = DROP_TYPE_RESOURCE,
 			id = slot1:getConfig("resource_type")
-		}), function (slot0)
+		}):getIcon(), function (slot0)
 			if IsNil(uv0._priceIcon) then
 				return
 			end

@@ -349,7 +349,7 @@ end
 function slot0.setAttachment(slot0, slot1, slot2, slot3)
 	setActive(slot1:Find("mask"), slot3)
 	updateDrop(slot1, {
-		type = slot2.dropType,
+		type = slot2.type,
 		id = slot2.id,
 		count = slot2.count
 	})

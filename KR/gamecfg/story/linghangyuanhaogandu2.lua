@@ -325,7 +325,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "$1도 TB도…… 마음이 가득 차.",
+			say = "도 TB도…… 마음이 가득 차.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "$1만 곁에 있으면…… 무리하지 않아……",
+			say = "만 곁에 있으면…… 무리하지 않아……",
 			painting = {
 				alpha = 0.3,
 				time = 1

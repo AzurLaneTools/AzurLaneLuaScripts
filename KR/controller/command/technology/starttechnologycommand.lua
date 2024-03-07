@@ -28,11 +28,7 @@ function slot0.execute(slot0, slot1)
 	}, 63002, function (slot0)
 		if slot0.result == 0 then
 			for slot5, slot6 in ipairs(uv0:getConfig("consume")) do
-				uv1:sendNotification(GAME.CONSUME_ITEM, Item.New({
-					type = slot6[1],
-					id = slot6[2],
-					count = slot6[3]
-				}))
+				uv1:sendNotification(GAME.CONSUME_ITEM, Drop.Create(slot6))
 			end
 
 			uv0:start(slot0.time)

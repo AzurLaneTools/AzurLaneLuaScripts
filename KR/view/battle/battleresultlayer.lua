@@ -378,11 +378,11 @@ function slot0.showRewardInfo(slot0)
 			end):getData1() >= 1500 then
 				slot4 = slot4 - 1500
 				slot0 = _.filter(slot0, function (slot0)
-					return slot0.dropType ~= DROP_TYPE_RESOURCE or slot0.id ~= uv0
+					return slot0.type ~= DROP_TYPE_RESOURCE or slot0.id ~= uv0
 				end)
 
 				if _.detect(slot0, function (slot0)
-					return slot0.dropType == DROP_TYPE_RESOURCE and slot0.id == uv0
+					return slot0.type == DROP_TYPE_RESOURCE and slot0.id == uv0
 				end) and slot4 < slot5.count then
 					slot5.count = slot5.count - slot4
 

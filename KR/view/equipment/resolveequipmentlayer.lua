@@ -59,7 +59,7 @@ function slot0.didEnter(slot0)
 		slot0 = {}
 
 		if underscore.any(uv0.selectedIds, function (slot0)
-			return uv0.equipmentVOByIds[slot0[1]].config.rarity >= 4 or slot1.level > 1
+			return uv0.equipmentVOByIds[slot0[1]]:getConfig("rarity") >= 4 or slot1:getConfig("level") > 1
 		end) then
 			table.insert(slot0, function (slot0)
 				slot1 = uv0.equipDestroyConfirmWindow
@@ -136,7 +136,7 @@ function slot0.selectedLowRarityEquipment(slot0)
 	slot0.selectedIds = {}
 
 	for slot4, slot5 in ipairs(slot0.equipmentVOs) do
-		if slot5.config.level <= 1 and slot5.config.rarity < 4 then
+		if slot5:getConfig("level") <= 1 and slot5:getConfig("rarity") < 4 then
 			slot0:selectEquip(slot5, slot5.count)
 		end
 	end
@@ -165,8 +165,8 @@ function slot0.displayDestroyBonus(slot0)
 	slot2 = 0
 
 	for slot6, slot7 in ipairs(slot0.selectedIds) do
-		if pg.equip_data_template[slot7[1]] then
-			slot9 = slot8.destory_item or {}
+		if Equipment.CanInBag(slot7[1]) then
+			slot9 = Equipment.getConfigData(slot7[1]).destory_item or {}
 			slot2 = slot2 + (slot8.destory_gold or 0) * slot7[2]
 
 			for slot14, slot15 in ipairs(slot9) do
@@ -223,7 +223,7 @@ function slot0.displayDestroyBonus(slot0)
 
 		updateDrop(slot7, slot8)
 
-		slot11, slot12 = contentWrap(slot8.cfg.name, 10, 2)
+		slot11, slot12 = contentWrap(slot8:getConfig("name"), 10, 2)
 
 		if slot11 then
 			slot12 = slot12 .. "..."
@@ -232,10 +232,10 @@ function slot0.displayDestroyBonus(slot0)
 		setText(slot7:Find("name"), slot12)
 		onButton(slot0, slot7, function ()
 			if uv0.type == DROP_TYPE_RESOURCE or uv0.type == DROP_TYPE_ITEM then
-				uv1:emit(uv2.ON_ITEM, uv0.cfg.id)
+				uv1:emit(uv2.ON_ITEM, uv0:getConfig("id"))
 			elseif uv0.type == DROP_TYPE_EQUIP then
 				uv1:emit(uv2.ON_EQUIPMENT, {
-					equipmentId = uv0.cfg.id,
+					equipmentId = uv0:getConfig("id"),
 					type = EquipmentInfoMediator.TYPE_DISPLAY
 				})
 			end
@@ -262,13 +262,14 @@ function slot0.initEquipments(slot0)
 end
 
 function slot0.filterEquipments(slot0)
-	table.sort(slot0.equipmentVOs, function (slot0, slot1)
-		if slot0.config.rarity == slot1.config.rarity then
-			return slot0.id < slot1.id
-		else
-			return slot1.config.rarity < slot0.config.rarity
+	table.sort(slot0.equipmentVOs, CompareFuncs({
+		function (slot0)
+			return -slot0:getConfig("rarity")
+		end,
+		function (slot0)
+			return slot0.id
 		end
-	end)
+	}))
 	slot0.viewRect:SetTotalCount(#slot0.equipmentVOs, -1)
 end
 
@@ -385,8 +386,8 @@ function slot0.checkDestroyGold(slot0, slot1, slot2)
 	for slot8, slot9 in pairs(slot0.selectedIds) do
 		slot10 = slot9[2]
 
-		if pg.equip_data_template[slot9[1]] then
-			slot3 = slot3 + (slot11.destory_gold or 0) * slot10
+		if Equipment.CanInBag(slot9[1]) then
+			slot3 = slot3 + (Equipment.getConfigData(slot9[1]).destory_gold or 0) * slot10
 		end
 
 		if slot1 and slot9[1] == slot1.configId then
@@ -395,7 +396,7 @@ function slot0.checkDestroyGold(slot0, slot1, slot2)
 	end
 
 	if not slot4 and slot1 and slot2 > 0 then
-		slot3 = slot3 + (pg.equip_data_template[slot1.configId].destory_gold or 0) * slot2
+		slot3 = slot3 + (slot1:getConfig("destory_gold") or 0) * slot2
 	end
 
 	if slot0.player:GoldMax(slot3) then

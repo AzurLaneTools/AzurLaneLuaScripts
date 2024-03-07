@@ -95,11 +95,11 @@ end
 
 function slot0.GetDropInfo(slot0)
 	underscore.each(slot0:GetResult(), function (slot0)
-		table.insert(uv0, {
+		table.insert(uv0, Drop.New({
 			type = slot0[1],
 			id = slot0[2],
 			number = slot0[3]
-		})
+		}))
 	end)
 
 	return {}

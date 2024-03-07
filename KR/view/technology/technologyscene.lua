@@ -897,17 +897,14 @@ function slot0.updateInfoVersionPickUp(slot0, slot1, slot2)
 end
 
 function slot0.updateItem(slot0, slot1, slot2, slot3)
-	slot4 = nil
-
-	updateDrop(slot1, Item.New({
-		type = slot3[1],
-		id = slot3[2]
+	updateDrop(slot1, setmetatable({
+		count = 0
+	}, {
+		__index = Drop.Create(slot3)
 	}))
 
 	if not IsNil(slot0:findTF("icon_bg/count", slot1)) then
-		slot6 = nil
-
-		setColorCount(slot5, (slot3[1] ~= DROP_TYPE_RESOURCE or slot0.player:getResById(slot3[2])) and getProxy(BagProxy):getItemCountById(slot4.id), slot3[3])
+		setColorCount(slot5, slot4:getOwnedCount(), slot4.count)
 	end
 
 	onButton(slot0, slot1, function ()

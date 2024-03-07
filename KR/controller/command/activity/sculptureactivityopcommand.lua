@@ -45,33 +45,22 @@ function slot0.execute(slot0, slot1)
 		kvargs1 = {}
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
-			slot1 = {}
+			slot1 = PlayerConst.addTranDrop(slot0.award_list)
 
-			for slot5, slot6 in ipairs(slot0.award_list) do
-				slot7 = Item.New({
-					type = slot6.type,
-					id = slot6.id,
-					count = slot6.number
-				})
+			if uv0 == SculptureActivity.STATE_UNLOCK then
+				slot2, slot3 = uv1:_GetComsume(uv2)
+				slot4 = uv3:getVitemNumber(slot2)
 
-				table.insert(slot1, slot7)
-				uv0:sendNotification(GAME.ADD_ITEM, slot7)
+				uv3:addVitemNumber(slot2, 0 - slot3)
+				getProxy(ActivityProxy):updateActivity(uv3)
 			end
 
-			if uv1 == SculptureActivity.STATE_UNLOCK then
-				slot2, slot3 = uv2:_GetComsume(uv3)
-				slot4 = uv4:getVitemNumber(slot2)
-
-				uv4:addVitemNumber(slot2, 0 - slot3)
-				getProxy(ActivityProxy):updateActivity(uv4)
-			end
-
-			uv2:UpdateState(uv3, uv1)
-			getProxy(ActivityProxy):updateActivity(uv2)
-			uv0:sendNotification(GAME.SCULPTURE_ACT_OP_DONE, {
-				state = uv1,
-				activity = uv2,
-				id = uv3,
+			uv1:UpdateState(uv2, uv0)
+			getProxy(ActivityProxy):updateActivity(uv1)
+			uv4:sendNotification(GAME.SCULPTURE_ACT_OP_DONE, {
+				state = uv0,
+				activity = uv1,
+				id = uv2,
 				awards = slot1
 			})
 		else

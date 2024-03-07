@@ -25165,67 +25165,67 @@ _G.pg.base.gametip.racing_minigame_help = {
 }
 
 _G.pg.base.gametip.child_msg_title_detail = {
-	tip = "详情"
+	tip = "상세 내용"
 }
 
 _G.pg.base.gametip.child_msg_title_tip = {
-	tip = "提示"
+	tip = "tips"
 }
 
 _G.pg.base.gametip.child_msg_owned = {
-	tip = "已拥有：$1"
+	tip = "소지 중: $1"
 }
 
 _G.pg.base.gametip.child_polaroid_get_tip = {
-	tip = "已收录，可于「瞬间」中查看"
+	tip = "수록된 콘텐츠는 '순간'에서 확인하실 수 있습니다."
 }
 
 _G.pg.base.gametip.child_close_tip = {
-	tip = "点 击 空 白 处 关 闭"
+	tip = "화면을 탭하여 돌아가기"
 }
 
 _G.pg.base.gametip.word_month = {
-	tip = "月"
+	tip = "월"
 }
 
 _G.pg.base.gametip.word_which_month = {
-	tip = "第$1月"
+	tip = "$1개월차"
 }
 
 _G.pg.base.gametip.word_which_week = {
-	tip = "第$1周"
+	tip = "$1주차"
 }
 
 _G.pg.base.gametip.word_in_one_week = {
-	tip = "一周内"
+	tip = "이번 주 중"
 }
 
 _G.pg.base.gametip.word_week_title = {
-	tip = "星期"
+	tip = "요일:"
 }
 
 _G.pg.base.gametip.word_harbour = {
-	tip = "港区"
+	tip = "모항"
 }
 
 _G.pg.base.gametip.child_btn_target = {
-	tip = "目标"
+	tip = "목표"
 }
 
 _G.pg.base.gametip.child_btn_collect = {
-	tip = "回忆"
+	tip = "추억"
 }
 
 _G.pg.base.gametip.child_btn_mind = {
-	tip = "心事"
+	tip = "생각"
 }
 
 _G.pg.base.gametip.child_btn_bag = {
-	tip = "背包"
+	tip = "소지품"
 }
 
 _G.pg.base.gametip.child_btn_news = {
-	tip = "本月资讯快报"
+	tip = "이번 달의 뉴스"
 }
 
 _G.pg.base.gametip.child_main_help = {
@@ -25279,323 +25279,323 @@ _G.pg.base.gametip.child_main_help = {
 }
 
 _G.pg.base.gametip.child_archive_name = {
-	tip = "姓名"
+	tip = "이름"
 }
 
 _G.pg.base.gametip.child_news_import_title = {
-	tip = "重要活动"
+	tip = "중요 이벤트"
 }
 
 _G.pg.base.gametip.child_news_other_title = {
-	tip = "其它活动"
+	tip = "일반 이벤트"
 }
 
 _G.pg.base.gametip.child_favor_progress = {
-	tip = "当前进度：$1"
+	tip = "현재 진척도: $1"
 }
 
 _G.pg.base.gametip.child_favor_lock1 = {
-	tip = "好感度达到$1级"
+	tip = "호감도 $1"
 }
 
 _G.pg.base.gametip.child_favor_lock2 = {
-	tip = "仅$1解锁"
+	tip = "$1로 오픈"
 }
 
 _G.pg.base.gametip.child_target_lock_tip = {
-	tip = "当前阶段目标已设定，不可修改"
+	tip = "현재 단계의 육성 목표는 이미 설정이 완료되었습니다."
 }
 
 _G.pg.base.gametip.child_target_progress = {
-	tip = "完成度："
+	tip = "완성도:"
 }
 
 _G.pg.base.gametip.child_target_finish_tip = {
-	tip = "本阶段目标已达成~"
+	tip = "현재 단계의 육성 목표를 달성했습니다."
 }
 
 _G.pg.base.gametip.child_target_time_title = {
-	tip = "剩余完成时间："
+	tip = "남은 시간:"
 }
 
 _G.pg.base.gametip.child_target_title1 = {
-	tip = "主线目标"
+	tip = "주요 목표"
 }
 
 _G.pg.base.gametip.child_target_title2 = {
-	tip = "成长目标"
+	tip = "육성 목표"
 }
 
 _G.pg.base.gametip.child_item_type0 = {
-	tip = "全部"
+	tip = "전부"
 }
 
 _G.pg.base.gametip.child_item_type1 = {
-	tip = "书籍"
+	tip = "서적"
 }
 
 _G.pg.base.gametip.child_item_type2 = {
-	tip = "乐器"
+	tip = "악기"
 }
 
 _G.pg.base.gametip.child_item_type3 = {
-	tip = "工具"
+	tip = "도구"
 }
 
 _G.pg.base.gametip.child_item_type4 = {
-	tip = "杂物"
+	tip = "기타"
 }
 
 _G.pg.base.gametip.child_mind_empty_tip = {
-	tip = "-当前暂无任何心事"
+	tip = "-当前暂无任何心事-"
 }
 
 _G.pg.base.gametip.child_mind_finish_title = {
-	tip = "已达成"
+	tip = "달성 완료"
 }
 
 _G.pg.base.gametip.child_mind_processing_title = {
-	tip = "进行中"
+	tip = "진행 중"
 }
 
 _G.pg.base.gametip.child_mind_time_title = {
-	tip = "剩余时间："
+	tip = "남은 시간:"
 }
 
 _G.pg.base.gametip.child_collect_lock = {
-	tip = "-待解锁-"
+	tip = "-미오픈-"
 }
 
 _G.pg.base.gametip.child_nature_title = {
-	tip = "个性："
+	tip = "성격:"
 }
 
 _G.pg.base.gametip.child_btn_review = {
-	tip = "剧情回顾"
+	tip = "개요"
 }
 
 _G.pg.base.gametip.child_schedule_empty_tip = {
-	tip = "点击左侧行程表添加行程"
+	tip = "화면 좌측의 아이콘을 탭하여 스케줄을 추가하세요!"
 }
 
 _G.pg.base.gametip.child_schedule_event_tip = {
-	tip = "此处已经被安排好重要活动啦~"
+	tip = "이미 스케줄이 설정되어 있습니다."
 }
 
 _G.pg.base.gametip.child_schedule_sure_tip = {
-	tip = "存在未安排的行程，领航员将会休息，是否确认进入下一周？"
+	tip = "모든 스케줄 슬롯이 설정되어 있습니다. 미설정된 스케줄 슬롯은 \"자유 행동\"으로 채워집니다. 스케줄을 실행하시겠습니까?"
 }
 
 _G.pg.base.gametip.child_schedule_sure_tip2 = {
-	tip = "存在未消耗完的行动力，是否确认进入下一周？"
+	tip = "아직 사용하지 않은 행동력이 있습니다. 다음 주로 진행하시겠습니까?"
 }
 
 _G.pg.base.gametip.child_plan_check_tip1 = {
-	tip = "行程格不足，请按顺序预留足够的行程格"
+	tip = "스케줄 슬롯이 부족합니다. 스케줄 슬롯을 비운 후 다시 시도하시기 바랍니다."
 }
 
 _G.pg.base.gametip.child_plan_check_tip2 = {
-	tip = "行程不满足前置属性"
+	tip = "능력치가 조건을 충족하고 있지 않습니다. 스케줄을 추가할 수 없습니다."
 }
 
 _G.pg.base.gametip.child_plan_check_tip3 = {
-	tip = "行程不满足历史行程数量"
+	tip = "전 단계의 스케줄 실행 횟수가 부족합니다. 스케줄을 추가할 수 없습니다."
 }
 
 _G.pg.base.gametip.child_plan_check_tip4 = {
-	tip = "行程所需金钱不足"
+	tip = "소지금이 부족합니다. 스케줄을 추가할 수 없습니다."
 }
 
 _G.pg.base.gametip.child_plan_check_tip5 = {
-	tip = "行程所需心情不足"
+	tip = "TB의 컨디션이 좋지 않습니다. 스케줄을 추가할 수 없습니다."
 }
 
 _G.pg.base.gametip.child_plan_event = {
-	tip = "重要活动"
+	tip = "중요 이벤트"
 }
 
 _G.pg.base.gametip.child_btn_home = {
-	tip = "回家"
+	tip = "귀가"
 }
 
 _G.pg.base.gametip.child_option_limit = {
-	tip = "限时"
+	tip = "한정"
 }
 
 _G.pg.base.gametip.child_shop_tip1 = {
-	tip = "※此商店商品每$1周刷新"
+	tip = "※ 해당 아이템은 $1주마다 입하됩니다."
 }
 
 _G.pg.base.gametip.child_shop_tip2 = {
-	tip = "※此商店商品只可购买一次"
+	tip = "※ 해당 아이템은 1회만 구매할 수 있습니다."
 }
 
 _G.pg.base.gametip.child_filter_title = {
-	tip = "筛选"
+	tip = "필터링"
 }
 
 _G.pg.base.gametip.child_filter_type1 = {
-	tip = "行程类型"
+	tip = "예정 종류"
 }
 
 _G.pg.base.gametip.child_filter_type2 = {
-	tip = "获得类型"
+	tip = "보상 종류"
 }
 
 _G.pg.base.gametip.child_filter_type3 = {
-	tip = "消耗类型"
+	tip = "소비 종류"
 }
 
 _G.pg.base.gametip.child_plan_type1 = {
-	tip = "学校课程"
+	tip = "학교 수업"
 }
 
 _G.pg.base.gametip.child_plan_type2 = {
-	tip = "兴趣活动"
+	tip = "취미 활동"
 }
 
 _G.pg.base.gametip.child_plan_type3 = {
-	tip = "社会活动"
+	tip = "사회 공부"
 }
 
 _G.pg.base.gametip.child_plan_type4 = {
-	tip = "自由活动"
+	tip = "자유 행동"
 }
 
 _G.pg.base.gametip.child_filter_award_res = {
-	tip = "资源"
+	tip = "TB"
 }
 
 _G.pg.base.gametip.child_filter_award_nature = {
-	tip = "个性"
+	tip = "개성"
 }
 
 _G.pg.base.gametip.child_filter_award_attr1 = {
-	tip = "属性"
+	tip = "속성"
 }
 
 _G.pg.base.gametip.child_filter_award_attr2 = {
-	tip = "能力"
+	tip = "능력"
 }
 
 _G.pg.base.gametip.child_mood_desc1 = {
-	tip = "当前心情阶段：郁郁寡欢  <color=#72bc42>收益减少40%%</color>"
+	tip = "현재 기분 단계: 낙담<color=#72bc42>버프 40% 감소</color>"
 }
 
 _G.pg.base.gametip.child_mood_desc2 = {
-	tip = "当前心情阶段：心情不佳  <color=#72bc42>收益减少20%%</color>"
+	tip = "현재 기분 단계: 우울<color=#72bc42>버프 20% 감소</color>"
 }
 
 _G.pg.base.gametip.child_mood_desc3 = {
-	tip = "当前心情阶段：心平气和  <color=#72bc42>没有额外效果</color>"
+	tip = "현재 기분 단계: 보통<color=#72bc42>추가 버프 없음</color>"
 }
 
 _G.pg.base.gametip.child_mood_desc4 = {
-	tip = "当前心情阶段：心花怒放  <color=#72bc42>收益增加40%%</color>"
+	tip = "현재 기분 단계: 좋음<color=#72bc42>버프 40% 증가</color>"
 }
 
 _G.pg.base.gametip.child_mood_desc5 = {
-	tip = "当前心情阶段：心花怒放  <color=#72bc42>收益增加40%%</color>"
+	tip = "현재 기분 단계: 좋음<color=#72bc42>버프 40% 증가</color>"
 }
 
 _G.pg.base.gametip.child_stage_desc1 = {
-	tip = "认知阶段"
+	tip = "육성 단계Ⅰ"
 }
 
 _G.pg.base.gametip.child_stage_desc2 = {
-	tip = "成长阶段"
+	tip = "육성 단계Ⅱ"
 }
 
 _G.pg.base.gametip.child_stage_desc3 = {
-	tip = "发展阶段"
+	tip = "육성 단계Ⅲ"
 }
 
 _G.pg.base.gametip.child_default_callname = {
-	tip = "指挥官"
+	tip = "지휘관"
 }
 
 _G.pg.base.gametip.flagship_display_mode_1 = {
-	tip = "不显示特殊秘书舰"
+	tip = "특수 비서함 비표시"
 }
 
 _G.pg.base.gametip.flagship_display_mode_2 = {
-	tip = "仅显示特殊秘书舰"
+	tip = "특수 비서함만 표시"
 }
 
 _G.pg.base.gametip.flagship_display_mode_3 = {
-	tip = "均显示"
+	tip = "모두 표시"
 }
 
 _G.pg.base.gametip.flagship_educate_slot_lock_tip = {
-	tip = "完成<color=#39bfff>「养成计划」</color>主线剧情-新生活(上)后即可解锁特殊秘书舰"
+	tip = "<color=#39bfff>\"TB 육성\"</color> 스토리 \"새로운 생활\" 오픈 후에 기능이 개방됩니다."
 }
 
 _G.pg.base.gametip.child_story_name = {
-	tip = "指挥官"
+	tip = "지휘관"
 }
 
 _G.pg.base.gametip.secretary_special_name = {
-	tip = "领航员-TB"
+	tip = "TB"
 }
 
 _G.pg.base.gametip.secretary_special_lock_tip = {
-	tip = "当前外形模块未满足开放条件"
+	tip = "아직 오픈되지 않았습니다."
 }
 
 _G.pg.base.gametip.secretary_special_title_age = {
-	tip = "更换外形模块"
+	tip = "모듈 변경"
 }
 
 _G.pg.base.gametip.secretary_special_title_physiognomy = {
-	tip = "更换外形模块"
+	tip = "모듈 변경"
 }
 
 _G.pg.base.gametip.child_plan_skip = {
-	tip = "跳过行程动画"
+	tip = "연출 화면 스킵"
 }
 
 _G.pg.base.gametip.child_attr_name1 = {
-	tip = "属性"
+	tip = "속성"
 }
 
 _G.pg.base.gametip.child_attr_name2 = {
-	tip = "能力"
+	tip = "능력"
 }
 
 _G.pg.base.gametip.child_task_system_type2 = {
-	tip = "成长"
+	tip = "육성"
 }
 
 _G.pg.base.gametip.child_task_system_type3 = {
-	tip = "主线"
+	tip = "주요"
 }
 
 _G.pg.base.gametip.child_plan_perform_title = {
-	tip = "行程安排"
+	tip = "예정 짜기"
 }
 
 _G.pg.base.gametip.child_date_text1 = {
-	tip = "居家阶段"
+	tip = "재택 육성"
 }
 
 _G.pg.base.gametip.child_date_text2 = {
-	tip = "学前准备"
+	tip = "입학 준비"
 }
 
 _G.pg.base.gametip.child_date_text3 = {
-	tip = "系统升级"
+	tip = "단계 상승"
 }
 
 _G.pg.base.gametip.child_date_text4 = {
-	tip = "数据准备"
+	tip = "업데이트 준비"
 }
 
 _G.pg.base.gametip.child_upgrade_sure_tip = {
-	tip = "系统升级后，当前的成长目标将会刷新，未使用的行动力也不会保存。是否确认进行系统升级？"
+	tip = "다음 육성 단계로 진행하면 성장 목표가 초기화되며, 아직 사용하지 않은 행동력은 그대로 소멸됩니다. 다음 육성 단계로 진행하시겠습니까?"
 }
 
 _G.pg.base.gametip.child_school_sure_tip = {
-	tip = "入学后，当前的成长目标将会刷新，未使用的行动力也不会保存。是否确认入学？"
+	tip = "입학하면 성장 목표가 초기화되며, 아직 사용하지 않은 행동력은 그대로 소멸됩니다. 다음 육성 단계로 진행하시겠습니까?"
 }
 
 _G.pg.base.gametip.child_extraAttr_sure_tip = {
@@ -25603,55 +25603,55 @@ _G.pg.base.gametip.child_extraAttr_sure_tip = {
 }
 
 _G.pg.base.gametip.child_reset_sure_tip = {
-	tip = "重置后将从认知阶段重新开始收集数据，已获得的回忆仍可查看。是否重置？"
+	tip = "TB 육성을 재시작하면 육성 단계Ⅰ부터 다시 육성할 수 있습니다. 육성을 재시작하시겠습니까?"
 }
 
 _G.pg.base.gametip.child_end_sure_tip = {
-	tip = "是否进行结局判定"
+	tip = "엔딩으로 진행하시겠습니까?"
 }
 
 _G.pg.base.gametip.child_buff_name = {
-	tip = "状态"
+	tip = "상태"
 }
 
 _G.pg.base.gametip.child_unlock_tip = {
-	tip = "解锁"
+	tip = "오픈"
 }
 
 _G.pg.base.gametip.child_unlock_out = {
-	tip = "出行"
+	tip = "외출"
 }
 
 _G.pg.base.gametip.child_unlock_memory = {
-	tip = "回忆"
+	tip = "추억"
 }
 
 _G.pg.base.gametip.child_unlock_polaroid = {
-	tip = "瞬间"
+	tip = "소중한 순간"
 }
 
 _G.pg.base.gametip.child_unlock_ending = {
-	tip = "结局"
+	tip = "엔딩"
 }
 
 _G.pg.base.gametip.child_unlock_intimacy = {
-	tip = "好感度"
+	tip = "호감도"
 }
 
 _G.pg.base.gametip.child_unlock_buff = {
-	tip = "状态"
+	tip = "상태"
 }
 
 _G.pg.base.gametip.child_unlock_attr2 = {
-	tip = "个性"
+	tip = "개성"
 }
 
 _G.pg.base.gametip.child_unlock_attr3 = {
-	tip = "能力"
+	tip = "능력"
 }
 
 _G.pg.base.gametip.child_unlock_bag = {
-	tip = "背包"
+	tip = "소지품"
 }
 
 _G.pg.base.gametip.child_shop_empty_tip = {
@@ -26969,10 +26969,10 @@ _G.pg.base.gametip.commander_skill_ui_confirm = {
 
 _G.pg.base.gametip.commander_formation_prefab_fleet = {
 	tip = [[
-当
-前
-编
-队]]
+현
+재
+진
+영]]
 }
 
 _G.pg.base.gametip.rect_ship_card_tpl_add = {
@@ -27061,85 +27061,89 @@ _G.pg.base.gametip.help_chunjie2024 = {
 }
 
 _G.pg.base.gametip.child_random_polaroid_drop = {
-	tip = "瞬间"
+	tip = "무작위 보상"
 }
 
 _G.pg.base.gametip.child_random_ops_drop = {
-	tip = "随机奖励"
+	tip = "소중한 순간"
 }
 
 _G.pg.base.gametip.child_refresh_sure_tip = {
-	tip = "是否重新开始养成计划？"
+	tip = "육성을 재시작하시겠습니까?"
 }
 
 _G.pg.base.gametip.child_target_set_sure_tip = {
-	tip = "是否确认设定该成长目标？将以<color=#72bc42>$1</color>作为主要养成内容\n确认后本阶段内成长目标将不可修改"
+	tip = "육성 목표를 확정하시겠습니까? \n다음 육성 단계까지 변경할 수 없습니다."
 }
 
 _G.pg.base.gametip.child_polaroid_lock_tip = {
-	tip = "通关不同结局后可查看"
+	tip = "육성 단계 오픈 또는 TB의 개성 오픈으로 확인 가능"
 }
 
 _G.pg.base.gametip.child_task_finish_all = {
-	tip = "当前阶段成长目标已完成"
+	tip = "현재 단계의 육성 목표를 달성했습니다."
 }
 
 _G.pg.base.gametip.child_unlock_new_secretary = {
-	tip = "领航员-TB新外形模块已解锁，现可于特殊秘书舰界面进行更换"
+	tip = "새로운 스킨 모듈이 오픈되었습니다. '특수 비서함' 화면에서 설정을 변경할 수 있습니다."
 }
 
 _G.pg.base.gametip.child_no_resource = {
-	tip = "资源不够啦"
+	tip = "자원이 부족합니다!"
 }
 
 _G.pg.base.gametip.child_target_set_empty = {
-	tip = "尚未设定目标"
+	tip = "육성 목표가 설정되어 있지 않습니다."
 }
 
 _G.pg.base.gametip.child_target_set_skip = {
-	tip = "点击跳转至<color=#39BFFF>目标设定</color>"
+	tip = "탭하여 <color=#39BFFF>육성 목표</color> 설정"
 }
 
 _G.pg.base.gametip.child_news_import_empty = {
-	tip = "本月暂无重要活动"
+	tip = "이번 달에는 중요 이벤트가 없습니다."
 }
 
 _G.pg.base.gametip.child_news_other_empty = {
-	tip = "本月暂无其他活动"
+	tip = "이번 달에는 이벤트가 없습니다."
 }
 
 _G.pg.base.gametip.word_week_day1 = {
-	tip = "星期一"
+	tip = "월요일"
 }
 
 _G.pg.base.gametip.word_week_day2 = {
-	tip = "星期二"
+	tip = "화요일"
 }
 
 _G.pg.base.gametip.word_week_day3 = {
-	tip = "星期三"
+	tip = "수요일"
 }
 
 _G.pg.base.gametip.word_week_day4 = {
-	tip = "星期四"
+	tip = "목요일"
 }
 
 _G.pg.base.gametip.word_week_day5 = {
-	tip = "星期五"
+	tip = "금요일"
 }
 
 _G.pg.base.gametip.word_week_day6 = {
-	tip = "星期六"
+	tip = "토요일"
 }
 
 _G.pg.base.gametip.word_week_day7 = {
-	tip = "星期天"
+	tip = "일요일"
 }
 
 _G.pg.base.gametip.child_shop_price_title = {
-	tip = "合计："
+	tip = "합계:"
 }
 
 _G.pg.base.gametip.child_callname_tip = {
-	tip = "请输入..."
+	tip = "이름을 입력하세요."
+}
+
+_G.pg.base.gametip.child_plan_no_cost = {
+	tip = "- 소비 없음 -"
 }

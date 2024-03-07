@@ -22,7 +22,8 @@ pg.activity_task_permanent = setmetatable({
 		6017,
 		6018,
 		6019,
-		6020
+		6020,
+		6021
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -525,6 +526,32 @@ pg.base.activity_task_permanent = {
 			35255,
 			35256,
 			35257
+		}
+	},
+	[6021] = {
+		gametip = "나가라의 스킨 획득!",
+		banner_route = "permanent_changliang",
+		gametip_extra = "7일 만에 획득 가능",
+		over_pt = 0,
+		task_extra = "",
+		id = 6021,
+		activity_name = "한가로운 봄날",
+		over_task_id = "",
+		eliminate_task_id = {
+			35258,
+			35259,
+			35260,
+			35261,
+			35262,
+			35263,
+			35264,
+			35265,
+			35266,
+			35267,
+			35268,
+			35269,
+			35270,
+			35271
 		}
 	}
 }

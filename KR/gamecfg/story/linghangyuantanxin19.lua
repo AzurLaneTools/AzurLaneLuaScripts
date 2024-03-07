@@ -16,7 +16,7 @@ return {
 			actor = 1101,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그러고 보니 $1의 초콜릿 취향을 아직 모르네요…",
+			say = "그러고 보니 {tb}의 초콜릿 취향을 아직 모르네요…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			actor = 1101,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "음… 요즘 초콜릿을 좀 만들어 보고 싶어서, 기왕 만들 거면 $1의 취향에 맞는 초콜릿을 만들려구요.",
+			say = "음… 요즘 초콜릿을 좀 만들어 보고 싶어서, 기왕 만들 거면 {tb}의 취향에 맞는 초콜릿을 만들려구요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

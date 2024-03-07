@@ -170,7 +170,7 @@ function slot0.updateTpl(slot0, slot1, slot2)
 		slot12 = "0"
 	end
 
-	updateDrop(slot3, Item.New({
+	updateDrop(slot3, Drop.New({
 		id = slot10,
 		type = DROP_TYPE_ITEM,
 		count = slot12
@@ -236,7 +236,7 @@ function slot0.updateAfterUse(slot0)
 end
 
 function slot0.getBookItem(slot0, slot1)
-	return slot0.bagProxy:getItemById(slot1) or Item.New({
+	return slot0.bagProxy:getItemById(slot1) or Drop.New({
 		count = 0,
 		type = DROP_TYPE_ITEM,
 		id = slot1

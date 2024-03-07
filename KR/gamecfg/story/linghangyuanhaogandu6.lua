@@ -153,7 +153,7 @@ return {
 			actor = 1200,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……그럼 가끔은 제가 $1의 바람을 들어드릴 수 있게 해주세요.",
+			say = "……그럼 가끔은 제가 의 바람을 들어드릴 수 있게 해주세요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			actor = 1200,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……어쨌든 $1의 바람은 한 번만 더 자기 전에 이야기를 들려주고 싶다는 거… 맞죠?",
+			say = "……어쨌든 의 바람은 한 번만 더 자기 전에 이야기를 들려주고 싶다는 거… 맞죠?",
 			painting = {
 				alpha = 0.3,
 				time = 1

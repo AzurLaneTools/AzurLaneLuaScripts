@@ -60,7 +60,7 @@ return {
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "아뇨. $1, TB… 좀 변한 것 같지 않아요?",
+			say = "아뇨. {tb}, TB… 좀 변한 것 같지 않아요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

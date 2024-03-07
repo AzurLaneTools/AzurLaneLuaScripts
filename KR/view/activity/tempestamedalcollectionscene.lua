@@ -64,13 +64,8 @@ function slot0.updateTaskLayers(slot0)
 		if slot6 == #slot2 then
 			setActive(slot8:Find("got"), slot7:isReceive())
 
-			slot10, slot11, slot12 = unpack(slot7:getConfig("award_display")[1])
+			slot9 = Drop.Create(slot7:getConfig("award_display")[1])
 
-			updateDropCfg({
-				count = slot12,
-				id = slot11,
-				type = slot10
-			})
 			onButton(slot0, slot8, function ()
 				uv0:emit(BaseUI.ON_DROP, uv1)
 			end, SFX_PANEL)

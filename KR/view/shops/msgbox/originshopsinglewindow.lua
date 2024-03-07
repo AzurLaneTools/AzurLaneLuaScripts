@@ -63,8 +63,8 @@ function slot0.InitWindow(slot0, slot1, slot2)
 		SetActive(slot5:Find("locked"), not slot6)
 	end
 
-	slot0.descTF.text = slot3.desc or slot3.cfg.desc
-	slot0.nameTF.text = slot3.cfg.name
+	slot0.descTF.text = slot3.desc or slot3:getConfig("desc")
+	slot0.nameTF.text = slot3:getConfig("name")
 end
 
 function slot0.Close(slot0)

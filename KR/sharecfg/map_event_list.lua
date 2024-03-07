@@ -4679,6 +4679,66 @@ pg.map_event_list = {
 			"helpbg/battle_xinzexi"
 		}
 	},
+	[2100364] = {
+		help_open = 0,
+		chapter_id = 2100364,
+		event_list = {
+			436,
+			437
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
+	[2100365] = {
+		help_open = 0,
+		chapter_id = 2100365,
+		event_list = {
+			436,
+			437
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
+	[2100366] = {
+		help_open = 0,
+		chapter_id = 2100366,
+		event_list = {
+			436,
+			437
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
+	[2100374] = {
+		help_open = 0,
+		chapter_id = 2100374,
+		event_list = {
+			436,
+			437
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
+	[2100375] = {
+		help_open = 0,
+		chapter_id = 2100375,
+		event_list = {
+			436,
+			437
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
+	[2100376] = {
+		help_open = 0,
+		chapter_id = 2100376,
+		event_list = {
+			436,
+			437
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
 	[2200071] = {
 		help_open = 1,
 		chapter_id = 2200071,
@@ -5063,6 +5123,12 @@ pg.map_event_list = {
 		2100354,
 		2100355,
 		2100356,
+		2100364,
+		2100365,
+		2100366,
+		2100374,
+		2100375,
+		2100376,
 		2200071,
 		2200072,
 		2200073,

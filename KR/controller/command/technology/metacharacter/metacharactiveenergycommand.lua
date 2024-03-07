@@ -64,10 +64,10 @@ function slot0.execute(slot0, slot1)
 			getProxy(PlayerProxy):updatePlayer(uv4)
 
 			for slot7, slot8 in pairs(uv6) do
-				uv1:sendNotification(GAME.CONSUME_ITEM, Item.New({
-					count = slot8.count,
+				uv1:sendNotification(GAME.CONSUME_ITEM, Drop.New({
+					type = DROP_TYPE_ITEM,
 					id = slot8.itemId,
-					type = DROP_TYPE_ITEM
+					count = slot8.count
 				}))
 			end
 

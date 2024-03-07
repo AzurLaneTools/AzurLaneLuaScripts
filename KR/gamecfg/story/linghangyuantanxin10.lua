@@ -17,7 +17,7 @@ return {
 			actor = 1100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "$1, 지금 잠깐 시간 괜찮으세요? 바쁘지 않으시면 부활동 고르는 걸 좀 도와주셨으면 해서요…",
+			say = "{tb}, 지금 잠깐 시간 괜찮으세요? 바쁘지 않으시면 부활동 고르는 걸 좀 도와주셨으면 해서요…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

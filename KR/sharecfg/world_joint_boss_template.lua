@@ -486,7 +486,7 @@ pg.world_joint_boss_template = {
 				{
 					2024,
 					3,
-					21
+					28
 				},
 				{
 					23,

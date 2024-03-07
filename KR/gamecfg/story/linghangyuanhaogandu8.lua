@@ -227,7 +227,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "아, 만약 $1의 바람이 그거라면 못 들어줄 것도 없지만요~",
+			say = "아, 만약 의 바람이 그거라면 못 들어줄 것도 없지만요~",
 			painting = {
 				alpha = 0.3,
 				time = 1

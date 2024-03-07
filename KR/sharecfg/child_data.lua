@@ -2,7 +2,7 @@ pg = pg or {}
 pg.child_data = {
 	{
 		attr_2_add = 5,
-		name = "领航员-TB",
+		name = "TB",
 		id = 1,
 		favor_level = 7,
 		default_target = 99,

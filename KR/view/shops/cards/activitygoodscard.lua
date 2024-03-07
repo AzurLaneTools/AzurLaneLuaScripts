@@ -76,11 +76,11 @@ function slot0.update(slot0, slot1, slot2, slot3, slot4)
 		end
 	end
 
-	updateDrop(slot0.itemTF, {
+	updateDrop(slot0.itemTF, Drop.New({
 		type = slot1:getConfig("commodity_type"),
 		id = slot1:getConfig("commodity_id"),
 		count = slot1:getConfig("num")
-	})
+	}))
 	setActive(slot0.limitTimeSellTF, false)
 
 	if slot5 then
@@ -94,22 +94,22 @@ function slot0.update(slot0, slot1, slot2, slot3, slot4)
 			removeOnButton(slot0.mask)
 			onButton(slot0, slot0.mask, function ()
 				if uv0 then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("tip_build_ticket_exchange_expired", getDropName(uv1)))
+					pg.TipsMgr.GetInstance():ShowTips(i18n("tip_build_ticket_exchange_expired", uv1:getName()))
 				end
 			end, SFX_PANEL)
 		end
 	end
 
-	GetSpriteFromAtlasAsync(getDropIcon({
+	GetSpriteFromAtlasAsync(Drop.New({
 		type = slot1:getConfig("resource_category"),
 		id = slot1:getConfig("resource_type")
-	}), "", function (slot0)
+	}):getIcon(), "", function (slot0)
 		uv0.resIconTF.sprite = slot0
 	end)
 
 	slot0.countTF.text = slot1:getConfig("resource_num")
 
-	if string.match(getDropName(slot7) or "??", "(%d+)") then
+	if string.match(slot7:getName() or "??", "(%d+)") then
 		setText(slot0.nameTxt, shortenString(slot8, 5))
 	else
 		setText(slot0.nameTxt, shortenString(slot8, 6))
@@ -153,26 +153,26 @@ function slot0.StaticUpdate(slot0, slot1, slot2, slot3)
 	setActive(slot4:Find("mask"), not slot14)
 	setActive(slot4:Find("mask/tag/sellout_tag"), not slot14)
 
-	slot16 = {
+	slot16 = Drop.New({
 		type = slot1:getConfig("commodity_type"),
 		id = slot1:getConfig("commodity_id"),
 		count = slot1:getConfig("num")
-	}
+	})
 
 	updateDrop(findTF(slot4, "item"), slot16)
 
 	findTF(slot4, "item/consume/contain/Text"):GetComponent(typeof(Text)).text = slot1:getConfig("resource_num")
 
-	if string.match(slot16.cfg.name or "??", "(%d+)") then
+	if string.match(slot16:getConfig("name") or "??", "(%d+)") then
 		setText(slot6, shortenString(slot17, 5))
 	else
 		setText(slot6, shortenString(slot17, 6))
 	end
 
-	slot7.sprite = GetSpriteFromAtlas(getDropIcon({
+	slot7.sprite = GetSpriteFromAtlas(Drop.New({
 		type = slot1:getConfig("resource_category"),
 		id = slot1:getConfig("resource_type")
-	}), "")
+	}):getIcon(), "")
 
 	if slot1:getConfig("num_limit") == 0 then
 		slot12.text = i18n("common_no_limit")

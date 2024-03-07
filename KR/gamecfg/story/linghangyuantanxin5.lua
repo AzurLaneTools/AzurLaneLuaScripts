@@ -16,7 +16,7 @@ return {
 			actor = 1010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "$1… 정말 안 돼요?",
+			say = "{tb}… 정말 안 돼요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			actor = 1010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "$1은 아이가 받은 세뱃돈이나 용돈을 '잠시 맡아둔다'며 빼앗고, 그것을 무심코 사용해 버리는 부류의 어른인가요?",
+			say = "{tb}은 아이가 받은 세뱃돈이나 용돈을 '잠시 맡아둔다'며 빼앗고, 그것을 무심코 사용해 버리는 부류의 어른인가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

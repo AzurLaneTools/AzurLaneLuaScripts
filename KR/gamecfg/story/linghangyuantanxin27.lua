@@ -17,7 +17,7 @@ return {
 			actor = 1009,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "$1, 이거 마셔보고 싶어요…",
+			say = "{tb}, 이거 마셔보고 싶어요…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

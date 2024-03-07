@@ -132,11 +132,10 @@ function slot0.UpdateLessons(slot0, slot1, slot2)
 end
 
 function slot0.UpdateLesson(slot0, slot1, slot2, slot3, slot4)
-	updateItem(slot1, {
-		type = DROP_TYPE_ITEM,
+	updateItem(slot1, Item.New({
 		id = slot2.id,
 		count = slot2.count
-	})
+	}))
 	setText(slot1:Find("icon_bg/count"), slot2.count)
 
 	slot5 = Item.getConfigData(slot2.id)

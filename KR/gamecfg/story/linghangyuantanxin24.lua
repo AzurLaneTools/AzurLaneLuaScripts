@@ -17,7 +17,7 @@ return {
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "$1, 마법이 실제로 있다고 믿어요?",
+			say = "{tb}, 마법이 실제로 있다고 믿어요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

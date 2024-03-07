@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			actorName = "TB",
 			side = 2,
-			say = "$1이 읽어주는 거… 좋아…",
+			say = "{tb}이 읽어주는 거… 좋아…",
 			tbActor = true,
 			typewriter = {
 				speed = 0.05,

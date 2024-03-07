@@ -141,7 +141,7 @@ function slot0.handleNotification(slot0, slot1)
 	elseif slot2 == GAME.EDUCATE_RESET_DONE or slot2 == GAME.EDUCATE_REFRESH_DONE then
 		slot0.viewComponent:emit(EducateBaseUI.EDUCATE_CHANGE_SCENE, SCENE.EDUCATE)
 	elseif slot2 == GAME.EDUCATE_EXECUTE_PLANS_DONE then
-		slot0:playPlansPerform((EducateConst.FORCE_SKIP_PLAN_PERFORM or not getProxy(EducateProxy):IsFirstGame()) and slot3.isSkip, slot3)
+		slot0:playPlansPerform(slot3.isSkip, slot3)
 	elseif slot2 == GAME.EDUCATE_SUBMIT_TASK_DONE then
 		slot0.viewComponent:updateTargetPanel()
 		slot0.viewComponent:updateMindTip()
@@ -168,9 +168,7 @@ function slot0.handleNotification(slot0, slot1)
 end
 
 function slot0.playPlansPerform(slot0, slot1, slot2)
-	slot3 = {}
-
-	table.insert(slot3, function (slot0)
+	table.insert({}, function (slot0)
 		uv0:addSubLayers(Context.New({
 			viewComponent = EducateCalendarLayer,
 			mediator = EducateCalendarMediator,
@@ -179,19 +177,23 @@ function slot0.playPlansPerform(slot0, slot1, slot2)
 			}
 		}))
 	end)
-	table.insert(slot3, function (slot0)
-		uv0:addSubLayers(Context.New({
-			viewComponent = EducateSchedulePerformLayer,
-			mediator = EducateSchedulePerformMediator,
-			data = {
-				gridData = uv1.gridData,
-				plan_results = uv1.plan_results,
-				events = uv1.events,
-				skip = uv2,
-				onExit = slot0
-			}
-		}))
-	end)
+
+	if not EducateConst.FORCE_SKIP_PLAN_PERFORM then
+		table.insert(slot3, function (slot0)
+			uv0:addSubLayers(Context.New({
+				viewComponent = EducateSchedulePerformLayer,
+				mediator = EducateSchedulePerformMediator,
+				data = {
+					gridData = uv1.gridData,
+					plan_results = uv1.plan_results,
+					events = uv1.events,
+					skip = uv2,
+					onExit = slot0
+				}
+			}))
+		end)
+	end
+
 	table.insert(slot3, function (slot0)
 		uv0:addSubLayers(Context.New({
 			viewComponent = EducateScheduleResultLayer,

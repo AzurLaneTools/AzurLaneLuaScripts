@@ -17,7 +17,7 @@ return {
 			actor = 1010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "$1, 옷을 세탁해서 말려 뒀어요.",
+			say = "{tb}, 옷을 세탁해서 말려 뒀어요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

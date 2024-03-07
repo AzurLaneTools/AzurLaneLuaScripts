@@ -22805,7 +22805,7 @@ pg.activity_shop_template = {
 		resource_type = 9,
 		id = 11014,
 		resource_num = 120,
-		order = 7
+		order = 8
 	},
 	[11015] = {
 		limit_args = "",
@@ -22870,7 +22870,7 @@ pg.activity_shop_template = {
 		resource_type = 9,
 		id = 11019,
 		resource_num = 30,
-		order = 13
+		order = 14
 	},
 	[11020] = {
 		limit_args = "",
@@ -22883,7 +22883,7 @@ pg.activity_shop_template = {
 		resource_type = 9,
 		id = 11020,
 		resource_num = 120,
-		order = 6
+		order = 7
 	},
 	[11021] = {
 		limit_args = "",
@@ -22922,7 +22922,7 @@ pg.activity_shop_template = {
 		resource_type = 59010,
 		id = 11023,
 		resource_num = 2000,
-		order = 0
+		order = 6
 	},
 	[11024] = {
 		limit_args = "",

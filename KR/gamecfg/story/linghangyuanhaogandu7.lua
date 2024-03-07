@@ -79,7 +79,7 @@ return {
 			actor = 1100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "아, 딱히 심각한 건 아니에요. 그냥… $1의 바람은 무언지 알고 싶어져서요.",
+			say = "아, 딱히 심각한 건 아니에요. 그냥… 의 바람은 무언지 알고 싶어져서요.",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			actor = 1100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "$1의 바람은 제가 이뤄드리고 싶어요……!",
+			say = "의 바람은 제가 이뤄드리고 싶어요……!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			actor = 1100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "제대로 들으셨어요……! $1의 바람을 알려주지 않으면, 지금 당장 집에서 나가겠어요!",
+			say = "제대로 들으셨어요……! 의 바람을 알려주지 않으면, 지금 당장 집에서 나가겠어요!",
 			painting = {
 				alpha = 0.3,
 				time = 1

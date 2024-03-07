@@ -74,10 +74,10 @@ function slot0.update(slot0, slot1)
 	end
 
 	if slot0.goodsVO.type == Goods.TYPE_SKIN then
-		slot0._priceIcon.sprite = LoadSprite(getDropIcon({
+		slot0._priceIcon.sprite = LoadSprite(Drop.New({
 			type = DROP_TYPE_RESOURCE,
 			id = slot1:getConfig("resource_type")
-		}))
+		}):getIcon())
 		slot0._priceTxt.text, slot9 = slot1:GetPrice()
 		slot0._opriceTxt.text = slot1:getConfig("resource_num")
 

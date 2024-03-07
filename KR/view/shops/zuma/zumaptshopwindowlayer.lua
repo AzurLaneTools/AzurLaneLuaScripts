@@ -29,20 +29,20 @@ function slot0.initData(slot0)
 	slot0.actShopVO = slot0.contextData.actShopVO
 	slot0.goodVO = slot0.contextData.goodVO
 	slot0.perCost = slot0.goodVO:getConfig("resource_num")
-	slot0.maxBuyCount = math.floor(GetOwnedDropCount({
+	slot0.maxBuyCount = math.floor(Drop.New({
 		type = slot0.goodVO:getConfig("resource_category"),
 		id = slot0.goodVO:getConfig("resource_type")
-	}) / slot0.perCost)
+	}):getOwnedCount() / slot0.perCost)
 
 	if slot0.goodVO:getConfig("num_limit") ~= 0 then
 		slot0.maxBuyCount = math.min(slot0.maxBuyCount, math.max(slot0.goodVO:GetPurchasableCnt(), 0))
 	end
 
 	slot0.curBuyCount = 1
-	slot0.costItemInfo = {
+	slot0.costItemInfo = Drop.New({
 		type = slot0.goodVO:getConfig("resource_category"),
 		id = slot0.goodVO:getConfig("resource_type")
-	}
+	})
 end
 
 function slot0.findUI(slot0)
@@ -78,7 +78,7 @@ function slot0.addListener(slot0)
 	onButton(slot0, slot0.cancelBtn, slot1, SFX_CANCEL)
 	onButton(slot0, slot0.confirmBtn, function ()
 		if uv0.maxBuyCount < uv0.curBuyCount then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("islandshop_tips4", getDropName(uv0.costItemInfo)))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("islandshop_tips4", uv0.costItemInfo:getName()))
 
 			return
 		end
@@ -102,15 +102,15 @@ end
 
 function slot0.updateGoodInfoPanel(slot0)
 	slot1 = slot0.goodVO
-	slot2 = {
+	slot2 = Drop.New({
 		type = slot1:getConfig("commodity_type"),
 		id = slot1:getConfig("commodity_id"),
 		count = slot1:getConfig("num")
-	}
+	})
 
 	updateDrop(slot0.itemTF, slot2)
 
-	slot3, slot4 = GetOwnedDropCount(slot2)
+	slot3, slot4 = slot2:getOwnedCount()
 
 	setActive(slot0.countTF, slot4)
 
@@ -118,8 +118,8 @@ function slot0.updateGoodInfoPanel(slot0)
 		setText(slot0.countText, slot3)
 	end
 
-	setText(slot0.nameText, slot2.cfg.name)
-	setText(slot0.descText, string.gsub(slot2.desc or slot2.cfg.desc, "<[^>]+>", ""))
+	setText(slot0.nameText, slot2:getConfig("name"))
+	setText(slot0.descText, string.gsub(slot2.desc or slot2:getConfig("desc"), "<[^>]+>", ""))
 end
 
 function slot0.updateBuyPanelWithNum(slot0, slot1)

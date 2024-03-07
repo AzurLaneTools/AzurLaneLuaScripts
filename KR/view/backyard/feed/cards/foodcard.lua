@@ -25,11 +25,10 @@ function slot0.Update(slot0, slot1, slot2)
 
 	slot0._go.name = "food_" .. slot1
 
-	updateItem(slot0._tf, {
-		type = DROP_TYPE_ITEM,
+	updateItem(slot0._tf, Item.New({
 		id = slot1,
 		cnt = slot2
-	})
+	}))
 end
 
 function slot0.UpdateCnt(slot0, slot1)

@@ -143907,6 +143907,120 @@ _G.pg.base.equip_data_statistics[91273] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[91280] = {
+	type = 10,
+	name = "십자 브로치",
+	speciality = "<[NA]>",
+	tech = 0,
+	value_2 = 0,
+	ammo = 10,
+	descrip = "클레망소가 달고 다니는 브로치. 항간에는 그녀 본인을 강림시키는 것만큼 효과가 있다고 한다.",
+	nationality = 10,
+	rarity = 4,
+	id = 91280,
+	value_3 = 0,
+	attribute_1 = "durability",
+	icon = "51280",
+	value_1 = "140",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60520
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"FFNF",
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[91281] = {
+	id = 91281,
+	value_1 = "161",
+	base = 91280,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[91282] = {
+	id = 91282,
+	value_1 = "182",
+	base = 91280,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[91283] = {
+	id = 91283,
+	value_1 = "203",
+	base = 91280,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[91284] = {
+	id = 91284,
+	value_1 = "224",
+	base = 91280,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[91285] = {
+	id = 91285,
+	value_1 = "245",
+	base = 91280,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[91286] = {
+	id = 91286,
+	value_1 = "266",
+	base = 91280,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[91287] = {
+	id = 91287,
+	value_1 = "287",
+	base = 91280,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[91288] = {
+	id = 91288,
+	value_1 = "308",
+	base = 91280,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[91289] = {
+	id = 91289,
+	value_1 = "329",
+	base = 91280,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[91290] = {
+	id = 91290,
+	value_1 = "350",
+	base = 91280,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[91291] = {
+	id = 91291,
+	anti_siren = 100,
+	value_1 = "371",
+	base = 91280,
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[95000] = {
 	tech = 1,
 	name = "381mm 3연장포 Model1934",

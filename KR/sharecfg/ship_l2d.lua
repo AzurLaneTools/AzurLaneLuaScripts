@@ -1743,7 +1743,7 @@ pg.ship_l2d = {
 		id = 3070751,
 		range_abs = 1,
 		ship_skin_id = 307075,
-		revert_smooth = 0,
+		revert_smooth = 100,
 		range = {
 			0,
 			1
@@ -1776,7 +1776,7 @@ pg.ship_l2d = {
 		id = 3070752,
 		range_abs = 1,
 		ship_skin_id = 307075,
-		revert_smooth = 0,
+		revert_smooth = 100,
 		range = {
 			0,
 			1
@@ -1823,7 +1823,7 @@ pg.ship_l2d = {
 		id = 3070753,
 		range_abs = 1,
 		ship_skin_id = 307075,
-		revert_smooth = 0,
+		revert_smooth = 100,
 		range = {
 			0,
 			1
@@ -1856,7 +1856,7 @@ pg.ship_l2d = {
 		id = 3070754,
 		range_abs = 1,
 		ship_skin_id = 307075,
-		revert_smooth = 0,
+		revert_smooth = 100,
 		range = {
 			0,
 			1
@@ -1895,7 +1895,7 @@ pg.ship_l2d = {
 		id = 3070755,
 		range_abs = 1,
 		ship_skin_id = 307075,
-		revert_smooth = 0,
+		revert_smooth = 100,
 		range = {
 			0,
 			1
@@ -1933,7 +1933,7 @@ pg.ship_l2d = {
 		id = 3070756,
 		range_abs = 1,
 		ship_skin_id = 307075,
-		revert_smooth = 0,
+		revert_smooth = 100,
 		range = {
 			0,
 			1
@@ -1978,7 +1978,7 @@ pg.ship_l2d = {
 		id = 3070757,
 		range_abs = 1,
 		ship_skin_id = 307075,
-		revert_smooth = 0,
+		revert_smooth = 100,
 		range = {
 			0,
 			1
@@ -2026,7 +2026,7 @@ pg.ship_l2d = {
 		id = 3070758,
 		range_abs = 1,
 		ship_skin_id = 307075,
-		revert_smooth = 0,
+		revert_smooth = 100,
 		range = {
 			0,
 			45
@@ -2060,7 +2060,7 @@ pg.ship_l2d = {
 		id = 3070759,
 		range_abs = 1,
 		ship_skin_id = 307075,
-		revert_smooth = 0,
+		revert_smooth = 100,
 		range = {
 			0,
 			30
@@ -2094,7 +2094,7 @@ pg.ship_l2d = {
 		id = 4021011,
 		range_abs = 0,
 		ship_skin_id = 499052,
-		revert_smooth = 0,
+		revert_smooth = 100,
 		range = {
 			-30,
 			10
@@ -2128,7 +2128,7 @@ pg.ship_l2d = {
 		id = 4021012,
 		range_abs = 0,
 		ship_skin_id = 499052,
-		revert_smooth = 0,
+		revert_smooth = 100,
 		range = {
 			-10,
 			30
@@ -2196,7 +2196,7 @@ pg.ship_l2d = {
 		id = 1990312,
 		range_abs = 0,
 		ship_skin_id = 199031,
-		revert_smooth = 0,
+		revert_smooth = 500,
 		range = {
 			0,
 			10
@@ -2211,14 +2211,14 @@ pg.ship_l2d = {
 		parts_data = "",
 		relation_parameter = "",
 		draw_able_name = "TouchDrag3",
-		offset_x = 15,
+		offset_x = 0,
 		mode = 1,
 		start_value = 0,
 		gyro = 0,
 		gyro_x = 0,
 		react_pos_y = 0,
 		offset_y = 0,
-		revert = 1,
+		revert = -1,
 		ignore_action = 0,
 		react_pos_x = 0,
 		parameter = "touch_drag3",
@@ -2268,7 +2268,7 @@ pg.ship_l2d = {
 		id = 1051721,
 		range_abs = 0,
 		ship_skin_id = 105172,
-		revert_smooth = 0,
+		revert_smooth = 50,
 		range = {
 			0,
 			1
@@ -2307,7 +2307,7 @@ pg.ship_l2d = {
 		id = 1051722,
 		range_abs = 0,
 		ship_skin_id = 105172,
-		revert_smooth = 0,
+		revert_smooth = 200,
 		range = {
 			0,
 			1
@@ -2328,7 +2328,7 @@ pg.ship_l2d = {
 		parts_data = "",
 		relation_parameter = "",
 		draw_able_name = "TouchDrag3",
-		offset_x = 200,
+		offset_x = 0,
 		mode = 1,
 		start_value = 0,
 		gyro = 0,
@@ -2389,7 +2389,7 @@ pg.ship_l2d = {
 		id = 1051724,
 		range_abs = 0,
 		ship_skin_id = 105172,
-		revert_smooth = 0,
+		revert_smooth = 100,
 		range = {
 			0,
 			1
@@ -2438,7 +2438,7 @@ pg.ship_l2d = {
 		parts_data = "",
 		relation_parameter = "",
 		draw_able_name = "TouchDrag6",
-		offset_x = 125,
+		offset_x = 0,
 		mode = 1,
 		start_value = 0,
 		gyro = 0,
@@ -2456,7 +2456,7 @@ pg.ship_l2d = {
 		id = 1051726,
 		range_abs = 0,
 		ship_skin_id = 105172,
-		revert_smooth = 0,
+		revert_smooth = 100,
 		range = {
 			0,
 			1
@@ -2481,7 +2481,7 @@ pg.ship_l2d = {
 		parts_data = "",
 		relation_parameter = "",
 		draw_able_name = "TouchDrag7",
-		offset_x = 200,
+		offset_x = 0,
 		mode = 1,
 		start_value = 0,
 		gyro = 0,
@@ -2499,7 +2499,7 @@ pg.ship_l2d = {
 		id = 1051727,
 		range_abs = 0,
 		ship_skin_id = 105172,
-		revert_smooth = 0,
+		revert_smooth = 100,
 		range = {
 			0,
 			1
@@ -2539,7 +2539,7 @@ pg.ship_l2d = {
 		id = 1051728,
 		range_abs = 0,
 		ship_skin_id = 105172,
-		revert_smooth = 0,
+		revert_smooth = 150,
 		range = {
 			-10,
 			10
@@ -2615,7 +2615,7 @@ pg.ship_l2d = {
 		id = 3040522,
 		range_abs = 1,
 		ship_skin_id = 304052,
-		revert_smooth = 0,
+		revert_smooth = 100,
 		range = {
 			0,
 			1
@@ -2649,7 +2649,7 @@ pg.ship_l2d = {
 		id = 3040523,
 		range_abs = 0,
 		ship_skin_id = 304052,
-		revert_smooth = 0,
+		revert_smooth = 200,
 		range = {
 			-15,
 			15
@@ -2683,7 +2683,7 @@ pg.ship_l2d = {
 		id = 3040524,
 		range_abs = 0,
 		ship_skin_id = 304052,
-		revert_smooth = 0,
+		revert_smooth = 200,
 		range = {
 			-15,
 			15
@@ -2920,7 +2920,7 @@ pg.ship_l2d = {
 		id = 1370603,
 		range_abs = 1,
 		ship_skin_id = 137060,
-		revert_smooth = 0,
+		revert_smooth = 150,
 		range = {
 			0,
 			1
@@ -3092,7 +3092,7 @@ pg.ship_l2d = {
 		parts_data = "",
 		relation_parameter = "",
 		draw_able_name = "TouchDrag1",
-		offset_x = 15,
+		offset_x = 0,
 		mode = 1,
 		start_value = 0,
 		gyro = 0,
@@ -3131,7 +3131,7 @@ pg.ship_l2d = {
 		parts_data = "",
 		relation_parameter = "",
 		draw_able_name = "TouchDrag2",
-		offset_x = 15,
+		offset_x = 0,
 		mode = 1,
 		start_value = 0,
 		gyro = 0,
@@ -3238,7 +3238,7 @@ pg.ship_l2d = {
 		ignore_react = 1,
 		action_trigger_active = "",
 		gyro_y = 0,
-		limit_time = 0,
+		limit_time = 1,
 		drag_direct = 1,
 		parts_data = "",
 		relation_parameter = "",
@@ -3267,6 +3267,7 @@ pg.ship_l2d = {
 			1
 		},
 		action_trigger = {
+			circle = true,
 			target = 1,
 			type = 2
 		}
@@ -4386,7 +4387,7 @@ pg.ship_l2d = {
 		id = 30319104,
 		range_abs = 1,
 		ship_skin_id = 303191,
-		revert_smooth = 0,
+		revert_smooth = 100,
 		range = {
 			0,
 			1
@@ -4424,7 +4425,7 @@ pg.ship_l2d = {
 		id = 30319105,
 		range_abs = 1,
 		ship_skin_id = 303191,
-		revert_smooth = 0,
+		revert_smooth = 100,
 		range = {
 			0,
 			1
@@ -4472,7 +4473,7 @@ pg.ship_l2d = {
 		id = 30319106,
 		range_abs = 1,
 		ship_skin_id = 303191,
-		revert_smooth = 0,
+		revert_smooth = 100,
 		range = {
 			0,
 			1
@@ -4776,7 +4777,7 @@ pg.ship_l2d = {
 		id = 30319113,
 		range_abs = 1,
 		ship_skin_id = 303191,
-		revert_smooth = 0,
+		revert_smooth = 100,
 		range = {
 			0,
 			1
@@ -4913,7 +4914,7 @@ pg.ship_l2d = {
 		id = 30708303,
 		range_abs = 1,
 		ship_skin_id = 307083,
-		revert_smooth = 0,
+		revert_smooth = 100,
 		range = {
 			0,
 			0.8
@@ -5982,7 +5983,7 @@ pg.ship_l2d = {
 		id = 40503201,
 		range_abs = 1,
 		ship_skin_id = 405032,
-		revert_smooth = 0,
+		revert_smooth = 50,
 		range = {
 			0,
 			1
@@ -6016,7 +6017,7 @@ pg.ship_l2d = {
 		id = 40503202,
 		range_abs = 1,
 		ship_skin_id = 405032,
-		revert_smooth = 0,
+		revert_smooth = 50,
 		range = {
 			0,
 			1
@@ -6308,7 +6309,7 @@ pg.ship_l2d = {
 		id = 96000313,
 		range_abs = 1,
 		ship_skin_id = 9600031,
-		revert_smooth = 0,
+		revert_smooth = 100,
 		range = {
 			0,
 			1
@@ -6579,7 +6580,7 @@ pg.ship_l2d = {
 		id = 96000321,
 		range_abs = 1,
 		ship_skin_id = 9600031,
-		revert_smooth = 0,
+		revert_smooth = 100,
 		range = {
 			0,
 			1
@@ -16328,7 +16329,7 @@ pg.ship_l2d = {
 		id = 20607228,
 		range_abs = 0,
 		ship_skin_id = 206072,
-		revert_smooth = 0,
+		revert_smooth = 100,
 		range = {
 			-10,
 			10

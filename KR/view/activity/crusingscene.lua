@@ -159,10 +159,10 @@ function slot0.didEnter(slot0)
 		setParent(slot6.rtLine, slot0.scrollMap:Find("bg"), true)
 	end
 
-	GetComponent(slot0.textTip, "RichText"):AddSprite("pt", GetSpriteFromAtlas(getDropIcon({
+	GetComponent(slot0.textTip, "RichText"):AddSprite("pt", GetSpriteFromAtlas(Drop.New({
 		type = DROP_TYPE_RESOURCE,
 		id = slot0.ptId
-	}), ""))
+	}):getIcon(), ""))
 	setText(slot0.textTip, i18n(slot0.activity:getConfig("config_client").tips[1]))
 
 	slot2 = slot0.activity.stopTime - pg.TimeMgr.GetInstance():GetServerTime()
@@ -201,10 +201,10 @@ function slot0.didEnter(slot0)
 	end
 
 	slot0:updateMapStatus()
-	LoadImageSpriteAtlasAsync(getDropIcon({
+	LoadImageSpriteAtlasAsync(Drop.New({
 		type = DROP_TYPE_RESOURCE,
 		id = slot0.ptId
-	}), "", slot0.sliderPt:Find("Text/icon"), true)
+	}):getIcon(), "", slot0.sliderPt:Find("Text/icon"), true)
 	slot0:updateMapWay()
 end
 
@@ -484,36 +484,28 @@ function slot0.openBuyPanel(slot0)
 	}, Goods.TYPE_CHARGE)
 	slot3 = slot2:getConfig("tag")
 	slot4 = underscore.map(slot2:getConfig("extra_service_item"), function (slot0)
-		return {
-			type = slot0[1],
-			id = slot0[2],
-			count = slot0[3]
-		}
+		return Drop.Create(slot0)
 	end)
 	slot5 = nil
 	slot6 = slot2:getConfig("sub_display")
 	slot7 = slot6[1]
 	slot8 = pg.battlepass_event_pt[slot7].pt
-	slot5 = {
+	slot5 = Drop.New({
 		type = DROP_TYPE_RESOURCE,
 		id = pg.battlepass_event_pt[slot7].pt,
 		count = slot6[2]
-	}
+	})
 	slot4 = PlayerConst.MergePassItemDrop(underscore.map(pg.battlepass_event_pt[slot7].drop_client_pay, function (slot0)
-		return {
-			type = slot0[1],
-			id = slot0[2],
-			count = slot0[3]
-		}
+		return Drop.Create(slot0)
 	end))
 	slot10 = nil
 
 	if slot2:getConfig("gem") + slot2:getConfig("extra_gem") > 0 then
-		table.insert(slot4, {
-			id = 4,
-			type = 1,
+		table.insert(slot4, Drop.New({
+			type = DROP_TYPE_RESOURCE,
+			id = PlayerConst.ResDiamond,
 			count = slot9
-		})
+		}))
 	end
 
 	slot0:emit(CrusingMediator.EVENT_GO_CHARGE, {

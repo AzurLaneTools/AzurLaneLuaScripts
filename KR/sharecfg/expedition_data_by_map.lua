@@ -428,6 +428,10 @@ pg.expedition_data_by_map = setmetatable({
 		2100342,
 		2100351,
 		2100352,
+		2100361,
+		2100362,
+		2100371,
+		2100372,
 		2200000,
 		2200010,
 		2200020,
@@ -19787,6 +19791,182 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		animtor = 1,
 		bind_map = 2100342,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100361] = {
+		map = 2100361,
+		name = "새벽녘에 비치는 빙화·상편|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bgm-cccp2",
+		enter_story = "POXIAOBINGHUA1",
+		ani_name = "Map_1400001",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1400001",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100371,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100362] = {
+		map = 2100362,
+		name = "새벽녘에 비치는 빙화·하편| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "deepblue-image",
+		enter_story = "POXIAOBINGHUA15",
+		ani_name = "Map_1400002",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1400002",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100372,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100371] = {
+		map = 2100371,
+		name = "새벽녘에 비치는 빙화·상편|| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "bgm-cccp2",
+		enter_story = "POXIAOBINGHUA1",
+		ani_name = "Map_1400003",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1400003",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100361,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100372] = {
+		map = 2100372,
+		name = "새벽녘에 비치는 빙화·하편| ||CHAPTER EX||E.X.",
+		level_limit = 1,
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		bgm = "deepblue-image",
+		enter_story = "POXIAOBINGHUA15",
+		ani_name = "Map_1400004",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1400004",
+		destory_icon_suffix = "blue",
+		animtor = 1,
+		bind_map = 2100362,
 		clouds_pos = {
 			{
 				332,

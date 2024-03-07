@@ -137,7 +137,7 @@ function slot0.getAircraftCount(slot0)
 	slot3 = {}
 
 	for slot7 = 1, 3 do
-		if table.contains(EquipType.AirDomainEquip, pg.equip_data_statistics[slot0:getEquip(slot7) and slot0:getEquip(slot7).configId or slot2[slot7]].type) then
+		if table.contains(EquipType.AirDomainEquip, Equipment.getConfigData(slot0:getEquip(slot7) and slot0:getEquip(slot7).configId or slot2[slot7]).type) then
 			slot3[slot9] = defaultValue(slot3[slot9], 0) + slot1[slot7]
 		end
 	end
@@ -514,7 +514,7 @@ function slot0.getActiveEquipments(slot0)
 	for slot5 = #Clone(slot0.equipments), 1, -1 do
 		if slot1[slot5] then
 			for slot10 = 1, slot5 - 1 do
-				if slot1[slot10] and slot6.config.equip_limit ~= 0 and slot11.config.equip_limit == slot6.config.equip_limit then
+				if slot1[slot10] and slot6:getConfig("equip_limit") ~= 0 and slot11:getConfig("equip_limit") == slot6:getConfig("equip_limit") then
 					slot1[slot5] = false
 				end
 			end
@@ -1220,7 +1220,7 @@ function slot0.getEquipmentSkillEffects(slot0)
 	for slot6, slot7 in ipairs(slot0:getActiveEquipments()) do
 		slot8 = nil
 
-		if slot7 and slot7.config.skill_id[1] then
+		if slot7 and slot7:getConfig("skill_id")[1] then
 			slot8 = require("GameCfg.buff.buff_" .. slot9)
 		end
 
@@ -1587,7 +1587,7 @@ function slot0.getShipAmmo(slot0)
 	end
 
 	for slot6, slot7 in ipairs(slot0:getActiveEquipments()) do
-		if slot7 and slot7.config.equip_parameters.ammo then
+		if slot7 and slot7:getConfig("equip_parameters").ammo then
 			slot1 = slot1 + slot8
 		end
 	end
@@ -1605,7 +1605,7 @@ function slot0.getHuntingLv(slot0)
 	end
 
 	for slot6, slot7 in ipairs(slot0:getActiveEquipments()) do
-		if slot7 and slot7.config.equip_parameters.hunting_lv then
+		if slot7 and slot7:getConfig("equip_parameters").hunting_lv then
 			slot1 = slot1 + slot8
 		end
 	end
@@ -1659,7 +1659,7 @@ function slot0.IsBenefitSkillActive(slot0, slot1)
 		slot3 = slot1.limit
 
 		for slot8, slot9 in ipairs(slot0:getAllEquipments()) do
-			if slot9 and table.contains(slot3, slot9.config.id) then
+			if slot9 and table.contains(slot3, slot9:getConfig("id")) then
 				slot2 = true
 
 				break
@@ -1715,7 +1715,7 @@ function slot0.GetEquipmentSkills(slot0)
 	slot1 = {}
 
 	for slot6, slot7 in ipairs(slot0:getActiveEquipments()) do
-		if slot7 and slot7.config.skill_id[1] then
+		if slot7 and slot7:getConfig("skill_id")[1] then
 			slot1[slot8] = {
 				level = 1,
 				id = slot8
@@ -1778,9 +1778,10 @@ function slot0.SetPreferenceTag(slot0, slot1)
 end
 
 function slot0.calReturnRes(slot0)
-	slot2 = pg.ship_data_by_type[slot0:getShipType()].distory_resource_oil_ratio
+	slot1 = pg.ship_data_by_type[slot0:getShipType()]
+	slot3 = slot1.distory_resource_oil_ratio
 
-	return pg.ship_data_by_type[slot0:getShipType()].distory_resource_gold_ratio, 0, pg.ship_data_by_star[slot0:getConfig("rarity")].destory_item
+	return slot1.distory_resource_gold_ratio, 0, pg.ship_data_by_star[slot0:getConfig("rarity")].destory_item
 end
 
 function slot0.getRarity(slot0)
@@ -1814,7 +1815,7 @@ function slot0.canEquipAtPos(slot0, slot1, slot2)
 	end
 
 	for slot8, slot9 in ipairs(slot0.equipments) do
-		if slot9 and slot8 ~= slot2 and slot9.config.equip_limit ~= 0 and slot1.config.equip_limit == slot9.config.equip_limit then
+		if slot9 and slot8 ~= slot2 and slot9:getConfig("equip_limit") ~= 0 and slot1:getConfig("equip_limit") == slot9:getConfig("equip_limit") then
 			return false, i18n("ship_equip_same_group_equipment")
 		end
 	end
@@ -1827,11 +1828,11 @@ function slot0.isForbiddenAtPos(slot0, slot1, slot2)
 
 	assert(slot3, "can not find ship in ship_data_templtae: " .. slot0.configId)
 
-	if not table.contains(slot3["equip_" .. slot2], slot1.config.type) then
+	if not table.contains(slot3["equip_" .. slot2], slot1:getConfig("type")) then
 		return true, i18n("common_limit_equip")
 	end
 
-	if table.contains(pg.equip_data_template[slot1.configId].ship_type_forbidden, slot0:getShipType()) then
+	if table.contains(slot1:getConfig("ship_type_forbidden"), slot0:getShipType()) then
 		return true, i18n("common_limit_equip")
 	end
 
@@ -2199,7 +2200,7 @@ function slot0.getAircraftReloadCD(slot0)
 	slot4 = 0
 
 	for slot8 = 1, 3 do
-		slot11 = pg.equip_data_statistics[slot0:getEquip(slot8) and slot9.configId or slot2[slot8]].type
+		slot11 = Equipment.getConfigData(slot0:getEquip(slot8) and slot9.configId or slot2[slot8]).type
 
 		if underscore.any(EquipType.AirEquipTypes, function (slot0)
 			return uv0 == slot0

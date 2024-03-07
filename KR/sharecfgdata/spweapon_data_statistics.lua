@@ -17959,3 +17959,305 @@ _G.pg.base.spweapon_data_statistics[12850] = {
 		}
 	}
 }
+
+_G.pg.base.spweapon_data_statistics[12860] = {
+	tech = 0,
+	name = "다바오",
+	value_2_random = 5,
+	type = 2,
+	value_1_random = 10,
+	value_1 = 6,
+	effect_id_display = 901010,
+	level = 1,
+	descrip = "특수 장비 코어로 제작한 전용 특제 특수 장비 ",
+	uncraftable = 0,
+	next = 12861,
+	upgrade_id = 101,
+	value_2 = 20,
+	icon = "12860",
+	effect_id = 901010,
+	attribute_2 = "cannon",
+	id = 12860,
+	rarity = 4,
+	unique = 50202,
+	important = 2,
+	prev = 0,
+	attribute_1 = "hit",
+	usability = {
+		2
+	},
+	skill_upgrade = {
+		{
+			0,
+			1010480
+		}
+	},
+	label = {}
+}
+
+_G.pg.base.spweapon_data_statistics[12861] = {
+	prev = 12860,
+	base = 12860,
+	next = 12862,
+	upgrade_id = 102,
+	id = 12861,
+	value_2 = 21,
+	value_1 = 7,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[12862] = {
+	prev = 12861,
+	base = 12860,
+	next = 12863,
+	upgrade_id = 103,
+	id = 12862,
+	value_2 = 22,
+	value_1 = 8,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[12863] = {
+	prev = 12862,
+	base = 12860,
+	next = 12864,
+	upgrade_id = 104,
+	id = 12863,
+	value_2 = 23,
+	value_1 = 8,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[12864] = {
+	prev = 12863,
+	base = 12860,
+	next = 12865,
+	upgrade_id = 105,
+	id = 12864,
+	value_2 = 24,
+	value_1 = 9,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[12865] = {
+	prev = 12864,
+	base = 12860,
+	next = 12866,
+	upgrade_id = 106,
+	id = 12865,
+	value_2 = 25,
+	value_1 = 9,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[12866] = {
+	prev = 12865,
+	base = 12860,
+	next = 12867,
+	upgrade_id = 107,
+	id = 12866,
+	value_2 = 26,
+	value_1 = 10,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[12867] = {
+	prev = 12866,
+	base = 12860,
+	next = 12868,
+	upgrade_id = 108,
+	id = 12867,
+	value_2 = 27,
+	value_1 = 10,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[12868] = {
+	prev = 12867,
+	base = 12860,
+	next = 12869,
+	upgrade_id = 109,
+	id = 12868,
+	value_2 = 28,
+	value_1 = 11,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[12869] = {
+	prev = 12868,
+	base = 12860,
+	next = 12870,
+	upgrade_id = 110,
+	id = 12869,
+	value_2 = 29,
+	value_1 = 11,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[12870] = {
+	base = 12860,
+	prev = 12869,
+	next = 0,
+	upgrade_id = 111,
+	id = 12870,
+	value_2 = 30,
+	value_1 = 12,
+	level = 11,
+	skill_upgrade = {
+		{
+			10480,
+			1010480
+		}
+	}
+}
+
+_G.pg.base.spweapon_data_statistics[12880] = {
+	tech = 0,
+	name = "얼바오",
+	value_2_random = 5,
+	type = 2,
+	value_1_random = 10,
+	value_1 = 6,
+	effect_id_display = 901010,
+	level = 1,
+	descrip = "특수 장비 코어로 제작한 전용 특제 특수 장비 ",
+	uncraftable = 0,
+	next = 12881,
+	upgrade_id = 101,
+	value_2 = 20,
+	icon = "12880",
+	effect_id = 901010,
+	attribute_2 = "cannon",
+	id = 12880,
+	rarity = 4,
+	unique = 50203,
+	important = 2,
+	prev = 0,
+	attribute_1 = "hit",
+	usability = {
+		2
+	},
+	skill_upgrade = {
+		{
+			0,
+			1010490
+		}
+	},
+	label = {}
+}
+
+_G.pg.base.spweapon_data_statistics[12881] = {
+	prev = 12880,
+	base = 12880,
+	next = 12882,
+	upgrade_id = 102,
+	id = 12881,
+	value_2 = 21,
+	value_1 = 7,
+	level = 2
+}
+
+_G.pg.base.spweapon_data_statistics[12882] = {
+	prev = 12881,
+	base = 12880,
+	next = 12883,
+	upgrade_id = 103,
+	id = 12882,
+	value_2 = 22,
+	value_1 = 8,
+	level = 3
+}
+
+_G.pg.base.spweapon_data_statistics[12883] = {
+	prev = 12882,
+	base = 12880,
+	next = 12884,
+	upgrade_id = 104,
+	id = 12883,
+	value_2 = 23,
+	value_1 = 8,
+	level = 4
+}
+
+_G.pg.base.spweapon_data_statistics[12884] = {
+	prev = 12883,
+	base = 12880,
+	next = 12885,
+	upgrade_id = 105,
+	id = 12884,
+	value_2 = 24,
+	value_1 = 9,
+	level = 5
+}
+
+_G.pg.base.spweapon_data_statistics[12885] = {
+	prev = 12884,
+	base = 12880,
+	next = 12886,
+	upgrade_id = 106,
+	id = 12885,
+	value_2 = 25,
+	value_1 = 9,
+	level = 6
+}
+
+_G.pg.base.spweapon_data_statistics[12886] = {
+	prev = 12885,
+	base = 12880,
+	next = 12887,
+	upgrade_id = 107,
+	id = 12886,
+	value_2 = 26,
+	value_1 = 10,
+	level = 7
+}
+
+_G.pg.base.spweapon_data_statistics[12887] = {
+	prev = 12886,
+	base = 12880,
+	next = 12888,
+	upgrade_id = 108,
+	id = 12887,
+	value_2 = 27,
+	value_1 = 10,
+	level = 8
+}
+
+_G.pg.base.spweapon_data_statistics[12888] = {
+	prev = 12887,
+	base = 12880,
+	next = 12889,
+	upgrade_id = 109,
+	id = 12888,
+	value_2 = 28,
+	value_1 = 11,
+	level = 9
+}
+
+_G.pg.base.spweapon_data_statistics[12889] = {
+	prev = 12888,
+	base = 12880,
+	next = 12890,
+	upgrade_id = 110,
+	id = 12889,
+	value_2 = 29,
+	value_1 = 11,
+	level = 10
+}
+
+_G.pg.base.spweapon_data_statistics[12890] = {
+	base = 12880,
+	prev = 12889,
+	next = 0,
+	upgrade_id = 111,
+	id = 12890,
+	value_2 = 30,
+	value_1 = 12,
+	level = 11,
+	skill_upgrade = {
+		{
+			10490,
+			1010490
+		}
+	}
+}

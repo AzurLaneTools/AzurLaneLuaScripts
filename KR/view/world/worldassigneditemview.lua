@@ -119,7 +119,7 @@ function slot0.update(slot0, slot1)
 					uv0.selectedItem = uv2
 				end
 			end, SFX_PANEL)
-			setScrollText(slot2:Find("name_bg/Text"), uv0.displayDrops[slot1].cfg.name)
+			setScrollText(slot2:Find("name_bg/Text"), uv0.displayDrops[slot1]:getConfig("name"))
 
 			uv0.selectedItem = uv0.selectedItem or slot2
 		end

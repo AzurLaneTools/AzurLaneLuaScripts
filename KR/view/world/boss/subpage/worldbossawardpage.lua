@@ -36,7 +36,7 @@ function slot0.UpdateAwards(slot0)
 		}
 
 		updateDrop(slot1:Find("equipment/bg"), slot3)
-		slot1:Find("mask/name"):GetComponent("ScrollText"):SetText(slot3.cfg.name)
+		slot1:Find("mask/name"):GetComponent("ScrollText"):SetText(slot3:getConfig("name"))
 		onButton(uv1, slot1, function ()
 			uv0:emit(BaseUI.ON_DROP, uv1)
 		end, SFX_PANEL)

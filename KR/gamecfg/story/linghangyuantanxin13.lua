@@ -16,7 +16,7 @@ return {
 			actor = 1100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "저기… $1, TB가 학교에 가 있는 동안에는 집에서 뭘 하고 계세요?",
+			say = "저기… {tb}, TB가 학교에 가 있는 동안에는 집에서 뭘 하고 계세요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

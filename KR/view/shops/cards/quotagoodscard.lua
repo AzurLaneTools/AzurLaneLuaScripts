@@ -32,25 +32,25 @@ function slot0.update(slot0, slot1, slot2, slot3, slot4)
 
 	slot6 = slot1:getConfig("commodity_type")
 
-	updateDrop(slot0.itemTF, {
+	updateDrop(slot0.itemTF, Drop.New({
 		type = slot6,
 		id = slot1:getConfig("commodity_id"),
 		count = slot1:getConfig("num")
-	})
+	}))
 
 	slot9 = ""
 	slot0.countTF.text = slot1:getConfig("resource_num")
 
-	if string.match(slot6 == DROP_TYPE_SKIN and (pg.ship_skin_template[slot7].name or "??") or slot8.cfg.name or "??", "(%d+)") then
+	if string.match(slot6 == DROP_TYPE_SKIN and (pg.ship_skin_template[slot7].name or "??") or slot8:getConfig("name") or "??", "(%d+)") then
 		setText(slot0.nameTxt, shortenString(slot9, 5))
 	else
 		setText(slot0.nameTxt, shortenString(slot9, 6))
 	end
 
-	slot0.resIconTF.sprite = GetSpriteFromAtlas(getDropIcon({
+	slot0.resIconTF.sprite = GetSpriteFromAtlas(Drop.New({
 		type = slot1:getConfig("resource_category"),
 		id = slot1:getConfig("resource_type")
-	}), "")
+	}):getIcon(), "")
 	slot11 = slot1:GetLimitGoodCount()
 	slot0.limitCountTF.text = slot11 - slot1:GetPurchasableCnt() .. "/" .. slot11
 end

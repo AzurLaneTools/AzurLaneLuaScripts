@@ -205,7 +205,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "굉장히…… $1 느낌이 나……",
+			say = "굉장히……느낌이 나……",
 			painting = {
 				alpha = 0.3,
 				time = 1

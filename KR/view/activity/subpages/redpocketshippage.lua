@@ -35,32 +35,26 @@ function slot0.OnFirstFlush(slot0)
 		uv0:emit(ActivityMediator.GO_SUBMARINE_RUN, uv1:getConfig("config_client").stage_ids[math.min(uv0.progess + 1, uv0.maxday)])
 	end, SFX_PANEL)
 
-	slot2 = slot1:getConfig("config_client")[2]
-	slot3 = {
-		type = slot2[1],
-		id = slot2[2],
-		count = slot2[3]
-	}
-	slot3.cfg = pg.equip_data_statistics[slot3.id]
+	slot2 = Drop.Create(slot1:getConfig("config_client")[2])
 
 	onButton(slot0, slot0.mainAward, function ()
 		uv0:emit(BaseUI.ON_DROP, uv1)
 	end, SFX_PANEL)
 
-	slot4 = slot1:getConfig("config_client")[1]
-	slot5 = {
-		type = slot4[1],
-		id = slot4[2],
-		count = slot4[3]
+	slot3 = slot1:getConfig("config_client")[1]
+	slot4 = {
+		type = slot3[1],
+		id = slot3[2],
+		count = slot3[3]
 	}
 
 	onButton(slot0, slot0.itemIcon, function ()
 		uv0:emit(BaseUI.ON_DROP, uv1)
 	end, SFX_PANEL)
 
-	slot6 = slot0.uilist
+	slot5 = slot0.uilist
 
-	slot6:make(function (slot0, slot1, slot2)
+	slot5:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			if LeanTween.isTweening(slot2) then
 				LeanTween.cancel(slot2)

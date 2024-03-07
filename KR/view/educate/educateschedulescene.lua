@@ -160,7 +160,7 @@ function slot0.findUI(slot0)
 	slot0.skipToggleCom = slot0.skipToggle:GetComponent(typeof(Toggle))
 
 	triggerToggle(slot0.skipToggle, PlayerPrefs.GetInt(EducateConst.SKIP_PLANS_ANIM_KEY .. "_" .. slot0.playerID) == 1)
-	setActive(slot0.skipToggle, not slot0.educateProxy:IsFirstGame() or EducateConst.FORCE_SKIP_PLAN_PERFORM)
+	setActive(slot0.skipToggle, true)
 	setText(slot0:findTF("Text", slot0.skipToggle), i18n("child_plan_skip"))
 
 	slot0.selectPanelTF = slot0:findTF("select_panel", slot0.leftPanelTF)
@@ -187,10 +187,6 @@ function slot0.findUI(slot0)
 	slot0.majorUIList = UIItemList.New(slot0:findTF("major", slot0.rightContentTF), slot0:findTF("major/tpl", slot0.rightContentTF))
 	slot0.minorUIList = UIItemList.New(slot0:findTF("minor", slot0.rightContentTF), slot0:findTF("minor/tpl", slot0.rightContentTF))
 	slot0.nextBtn = slot0:findTF("next_btn", slot0.rightPanelTF)
-	slot0.recommendBtn = slot0:findTF("recommend_btn", slot0.rightPanelTF)
-
-	setActive(slot0.recommendBtn, false)
-
 	slot0.topPanel = EducateTopPanel.New(slot0:findTF("top_right", slot0.topTF), slot0.event)
 
 	slot0.topPanel:Load()
@@ -264,9 +260,6 @@ function slot0.addListener(slot0)
 		seriesAsync(slot0, function ()
 			uv0:executePlans(uv0.skipToggleCom.isOn)
 		end)
-	end, SFX_PANEL)
-	onButton(slot0, slot0.recommendBtn, function ()
-		uv0:DoRecommend()
 	end, SFX_PANEL)
 	onToggle(slot0, slot0.skipToggle, function (slot0)
 		PlayerPrefs.SetInt(EducateConst.SKIP_PLANS_ANIM_KEY .. "_" .. uv0.playerID, slot0 and 1 or 0)
@@ -419,6 +412,9 @@ function slot0._updateGrid(slot0, slot1, slot2)
 
 	if not slot2:IsLock() then
 		setActive(slot0:findTF("empty", slot1), slot2:IsEmpty())
+
+		slot1:GetComponent(typeof(Image)).enabled = not slot2:IsEmpty()
+
 		setActive(slot0:findTF("plan", slot1), not slot2:IsEmpty())
 
 		if slot2:IsPlan() or slot2:IsPlanOccupy() then
