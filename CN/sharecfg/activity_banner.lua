@@ -12,8 +12,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					2,
-					29
+					3,
+					14
 				},
 				{
 					0,
@@ -25,7 +25,7 @@ pg.activity_banner = {
 				{
 					2024,
 					3,
-					13
+					20
 				},
 				{
 					23,
@@ -36,7 +36,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5221",
+		param = "5233",
 		id = 2,
 		pic = "temp7",
 		type = 3,
@@ -44,8 +44,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					2,
-					29
+					3,
+					14
 				},
 				{
 					0,
@@ -57,7 +57,7 @@ pg.activity_banner = {
 				{
 					2024,
 					3,
-					14
+					21
 				},
 				{
 					23,
@@ -82,8 +82,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					2,
-					29
+					3,
+					14
 				},
 				{
 					0,
@@ -95,7 +95,7 @@ pg.activity_banner = {
 				{
 					2024,
 					3,
-					14
+					21
 				},
 				{
 					23,
@@ -119,8 +119,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					2,
-					29
+					3,
+					14
 				},
 				{
 					0,
@@ -132,7 +132,7 @@ pg.activity_banner = {
 				{
 					2024,
 					3,
-					13
+					20
 				},
 				{
 					23,
@@ -144,35 +144,10 @@ pg.activity_banner = {
 	},
 	{
 		param = "5224",
-		id = 5,
-		pic = "temp2",
+		time = "stop",
 		type = 3,
-		time = {
-			{
-				{
-					2024,
-					2,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					3,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 5,
+		pic = "temp2"
 	},
 	{
 		id = 6,
@@ -185,8 +160,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					2,
-					29
+					3,
+					14
 				},
 				{
 					0,
@@ -198,7 +173,7 @@ pg.activity_banner = {
 				{
 					2024,
 					3,
-					13
+					20
 				},
 				{
 					23,
@@ -213,17 +188,14 @@ pg.activity_banner = {
 		pic = "temp8",
 		type = 2,
 		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
+			"metacharacter"
 		},
 		time = {
 			{
 				{
 					2024,
-					2,
-					29
+					3,
+					14
 				},
 				{
 					0,
@@ -235,7 +207,7 @@ pg.activity_banner = {
 				{
 					2024,
 					3,
-					13
+					28
 				},
 				{
 					23,
@@ -298,8 +270,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					3,
-					20
+					5,
+					22
 				},
 				{
 					23,
@@ -318,8 +290,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					2,
-					29
+					3,
+					14
 				},
 				{
 					0,
@@ -331,7 +303,7 @@ pg.activity_banner = {
 				{
 					2024,
 					3,
-					13
+					20
 				},
 				{
 					23,
@@ -364,8 +336,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					2,
-					29
+					3,
+					14
 				},
 				{
 					0,
@@ -377,7 +349,7 @@ pg.activity_banner = {
 				{
 					2024,
 					3,
-					13
+					20
 				},
 				{
 					23,

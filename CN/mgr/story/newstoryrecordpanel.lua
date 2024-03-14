@@ -56,7 +56,7 @@ function slot0.Init(slot0, slot1)
 	slot0.contentSizeFitter = slot0._tf:Find("content"):GetComponent(typeof(ContentSizeFitter))
 
 	onButton(nil, slot0.closeBtn, function ()
-		triggerButton(pg.NewStoryMgr.GetInstance().recordBtn)
+		uv0:Hide()
 	end, SFX_PANEL)
 	slot0.pageAniEvent:SetEndEvent(function ()
 		uv0:OnHide()

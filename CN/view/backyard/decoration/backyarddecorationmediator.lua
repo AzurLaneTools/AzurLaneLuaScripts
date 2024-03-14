@@ -198,9 +198,27 @@ function slot0.GetCanPutFurnitureForTheme(slot0, slot1, slot2)
 		slot7 = true
 	end
 
+	slot6 = slot0:FilterOwnCount(slot6)
+
 	table.sort(slot6, BackyardThemeFurniture._LoadWeight)
 
 	return slot6, slot7
+end
+
+function slot0.FilterOwnCount(slot0, slot1)
+	slot2 = {}
+	slot3 = {}
+	slot4 = getProxy(DormProxy):getRawData()
+
+	for slot8, slot9 in ipairs(slot1) do
+		slot3[slot9.configId] = (slot3[slot9.configId] or 0) + 1
+
+		if slot3[slot9.configId] <= slot4:GetOwnFurnitureCount(slot9.configId) then
+			table.insert(slot2, slot9)
+		end
+	end
+
+	return slot2
 end
 
 function slot0.GetAllFloorFurnitures(slot0, slot1)

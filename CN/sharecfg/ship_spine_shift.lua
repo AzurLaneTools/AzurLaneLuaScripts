@@ -399,5 +399,19 @@ pg.ship_spine_shift = {
 			6.4,
 			-30
 		}
+	},
+	huanchang = {
+		spine = "huanchang",
+		mainui_shift = {
+			10,
+			0
+		}
+	},
+	huanchang_2 = {
+		spine = "huanchang_2",
+		mainui_shift = {
+			10,
+			0
+		}
 	}
 }

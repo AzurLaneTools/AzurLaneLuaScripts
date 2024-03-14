@@ -33,4 +33,6 @@ function slot7.UpdateHP(slot0, slot1, slot2, slot3, slot4)
 			slot10:UpdatePrecastArmor(slot5)
 		end
 	end
+
+	return slot5
 end

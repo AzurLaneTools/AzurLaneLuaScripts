@@ -168,6 +168,7 @@ pg.furniture_data_template = setmetatable({
 			268,
 			269,
 			271,
+			272,
 			100001,
 			100002,
 			100003,
@@ -5468,6 +5469,7 @@ pg.furniture_data_template = setmetatable({
 			265,
 			267,
 			269,
+			272,
 			100001,
 			100002,
 			100003,
@@ -8903,7 +8905,8 @@ pg.furniture_data_template = setmetatable({
 			308305
 		},
 		[15] = {
-			251
+			251,
+			272
 		},
 		[13] = {
 			100015,
@@ -9555,6 +9558,7 @@ pg.furniture_data_template = setmetatable({
 		268,
 		269,
 		271,
+		272,
 		100001,
 		100002,
 		100003,
@@ -20578,6 +20582,57 @@ pg.base.furniture_data_template = {
 			{
 				"maozi4xunzhang",
 				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[272] = {
+		spine_extra = "",
+		describe = "300万关注！感谢各位指挥官们的陪伴与厚爱！",
+		gain_by = "",
+		type = 15,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "bili300wicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "300W·纪念的啾啾发电机",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 272,
+		can_rotate = 1,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bili300w",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
 			}
 		},
 		interAction_group = {}

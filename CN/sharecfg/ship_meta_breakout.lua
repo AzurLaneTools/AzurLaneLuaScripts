@@ -82,6 +82,10 @@ pg.ship_meta_breakout = setmetatable({
 		9705042,
 		9705043,
 		9705044,
+		9705051,
+		9705052,
+		9705053,
+		9705054,
 		9706011,
 		9706012,
 		9706013,
@@ -1411,6 +1415,73 @@ pg.base.ship_meta_breakout = {
 		id = 9705044,
 		item1 = 21019,
 		pre_id = 9705043,
+		weapon_ids = {}
+	},
+	[9705051] = {
+		breakout_view = "习得技能【构造之理·罗德尼】/主炮底座+1/主炮效率提高5%",
+		gold = 1000,
+		breakout_id = 9705052,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9705051,
+		item1 = 21031,
+		pre_id = 0,
+		weapon_ids = {
+			24200,
+			24200
+		}
+	},
+	[9705052] = {
+		breakout_view = "副炮底座+2/主炮效率提高10%",
+		gold = 3000,
+		breakout_id = 9705053,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9705052,
+		item1 = 21031,
+		pre_id = 9705051,
+		weapon_ids = {
+			22100,
+			22100,
+			22100
+		}
+	},
+	[9705053] = {
+		breakout_view = "【构造之理·罗德尼】升级/主炮底座+1/主炮效率提高15%",
+		gold = 10000,
+		breakout_id = 9705054,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9705053,
+		item1 = 21031,
+		pre_id = 9705052,
+		weapon_ids = {
+			24200,
+			24200,
+			24200
+		}
+	},
+	[9705054] = {
+		breakout_view = "无",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9705054,
+		item1 = 21031,
+		pre_id = 9705053,
 		weapon_ids = {}
 	},
 	[9706011] = {

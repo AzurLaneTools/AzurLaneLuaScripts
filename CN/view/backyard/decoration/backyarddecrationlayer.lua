@@ -76,7 +76,7 @@ function slot0.init(slot0)
 end
 
 function slot0.didEnter(slot0)
-	slot0.orderMode = BackYardDecorationFilterPanel.ORDER_MODE_ASC
+	slot0.orderMode = BackYardDecorationFilterPanel.ORDER_MODE_DASC
 
 	onToggle(slot0, slot0.orderBtn, function (slot0)
 		uv0.orderMode = slot0 and BackYardDecorationFilterPanel.ORDER_MODE_ASC or BackYardDecorationFilterPanel.ORDER_MODE_DASC

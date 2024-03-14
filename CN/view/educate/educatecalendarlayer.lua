@@ -7,6 +7,9 @@ end
 function slot0.init(slot0)
 	slot0.calendarTF = slot0:findTF("anim_root/calendar")
 	slot0.monthTF = slot0:findTF("month", slot0.calendarTF)
+
+	setText(slot0:findTF("Text", slot0.monthTF), i18n("word_month"))
+
 	slot0.weekTF = slot0:findTF("week/week", slot0.calendarTF)
 	slot1 = getProxy(EducateProxy)
 	slot0.curTime = slot1:GetCurTime()

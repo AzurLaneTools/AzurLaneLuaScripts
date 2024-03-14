@@ -32,7 +32,7 @@ return {
 					waveIndex = 100,
 					preWaves = {},
 					triggerParams = {
-						timeout = 220.5
+						timeout = 0.5
 					}
 				},
 				{
@@ -40,7 +40,7 @@ return {
 					waveIndex = 202,
 					preWaves = {},
 					triggerParams = {
-						timeout = 218
+						timeout = 18
 					}
 				},
 				{
@@ -48,7 +48,7 @@ return {
 					waveIndex = 203,
 					preWaves = {},
 					triggerParams = {
-						timeout = 233
+						timeout = 33
 					}
 				},
 				{
@@ -56,28 +56,7 @@ return {
 					waveIndex = 204,
 					preWaves = {},
 					triggerParams = {
-						timeout = 244
-					}
-				},
-				{
-					triggerType = 0,
-					key = true,
-					waveIndex = 3101,
-					conditionType = 1,
-					preWaves = {},
-					triggerParam = {},
-					spawn = {
-						{
-							monsterTemplateID = 293001,
-							moveCast = true,
-							delay = 0,
-							score = 0,
-							corrdinate = {
-								-5,
-								0,
-								55
-							}
-						}
+						timeout = 44
 					}
 				},
 				{

@@ -95,7 +95,7 @@ function slot0.HandleDamage(slot0, slot1, slot2, slot3, slot4)
 	}
 
 	slot1:GetWeapon():WeaponStatistics(slot11, slot15, slot14)
-	slot2:UpdateHP(slot11 * -1, {
+	slot0:DamageStatistics(slot7.id, slot2:GetAttrByName("id"), -slot2:UpdateHP(slot11 * -1, {
 		isHeal = false,
 		isMiss = slot14,
 		isCri = slot15,
@@ -103,38 +103,37 @@ function slot0.HandleDamage(slot0, slot1, slot2, slot3, slot4)
 		font = slot13,
 		cldPos = slot1:GetPosition(),
 		srcID = slot7.battleUID
-	})
-	slot0:DamageStatistics(slot7.id, slot2:GetAttrByName("id"), slot11)
+	}))
 
 	if not slot14 and slot1:GetWeaponTempData().type ~= uv2.EquipmentType.ANTI_AIR then
 		slot1:BuffTrigger(ys.Battle.BattleConst.BuffEffectType.ON_BULLET_HIT, slot19)
 
-		if slot1:GetHost() and slot22:IsAlive() and slot22:GetUnitType() ~= ys.Battle.BattleConst.UnitType.AIRFIGHTER_UNIT then
-			if table.contains(uv2.AircraftUnitType, slot22:GetUnitType()) then
-				slot22 = slot22:GetMotherUnit()
+		if slot1:GetHost() and slot23:IsAlive() and slot23:GetUnitType() ~= ys.Battle.BattleConst.UnitType.AIRFIGHTER_UNIT then
+			if table.contains(uv2.AircraftUnitType, slot23:GetUnitType()) then
+				slot23 = slot23:GetMotherUnit()
 			end
 
-			slot23 = slot22:GetIFF()
+			slot24 = slot23:GetIFF()
 
-			for slot27, slot28 in pairs(slot0._unitList) do
-				if slot28:GetIFF() == slot23 and slot28 ~= slot22 then
-					slot28:TriggerBuff(ys.Battle.BattleConst.BuffEffectType.ON_TEAMMATE_BULLET_HIT, slot19)
+			for slot28, slot29 in pairs(slot0._unitList) do
+				if slot29:GetIFF() == slot24 and slot29 ~= slot23 then
+					slot29:TriggerBuff(ys.Battle.BattleConst.BuffEffectType.ON_TEAMMATE_BULLET_HIT, slot19)
 				end
 			end
 		end
 	end
 
-	slot23 = true
+	slot24 = true
 
-	if slot2:GetUnitType() ~= uv2.UnitType.AIRCRAFT_UNIT and slot22 ~= uv2.UnitType.AIRFIGHTER_UNIT and slot22 ~= uv2.UnitType.FUNNEL_UNIT and slot22 ~= uv2.UnitType.UAV_UNIT then
-		slot23 = false
+	if slot2:GetUnitType() ~= uv2.UnitType.AIRCRAFT_UNIT and slot23 ~= uv2.UnitType.AIRFIGHTER_UNIT and slot23 ~= uv2.UnitType.FUNNEL_UNIT and slot23 ~= uv2.UnitType.UAV_UNIT then
+		slot24 = false
 	end
 
 	if slot2:IsAlive() then
-		if not slot23 then
-			for slot27, slot28 in ipairs(slot1:GetAttachBuff()) do
-				if slot28.hit_ignore or not slot14 then
-					uv4.HandleBuffPlacer(slot28, slot1, slot2)
+		if not slot24 then
+			for slot28, slot29 in ipairs(slot1:GetAttachBuff()) do
+				if slot29.hit_ignore or not slot14 then
+					uv4.HandleBuffPlacer(slot29, slot1, slot2)
 				end
 			end
 		end
@@ -147,7 +146,7 @@ function slot0.HandleDamage(slot0, slot1, slot2, slot3, slot4)
 			unit = slot2,
 			killer = slot1
 		})
-		slot0:obituary(slot2, slot23, slot1)
+		slot0:obituary(slot2, slot24, slot1)
 		slot0:KillCountStatistics(slot7.id, slot2:GetAttrByName("id"))
 	end
 
@@ -164,32 +163,30 @@ end
 
 function slot0.HandleDirectDamage(slot0, slot1, slot2, slot3, slot4)
 	slot6 = slot1:GetAttrByName("id")
-
-	slot1:UpdateHP(slot2 * -1, {
+	slot7 = slot1:UpdateHP(slot2 * -1, {
 		isMiss = false,
 		isCri = false,
 		isHeal = false,
 		damageReason = slot4
 	})
-
-	slot7 = slot1:IsAlive()
+	slot8 = slot1:IsAlive()
 
 	if slot3 then
-		slot0:DamageStatistics(slot3:GetAttrByName("id"), slot6, slot2)
+		slot0:DamageStatistics(slot3:GetAttrByName("id"), slot6, -slot7)
 
-		if not slot7 then
-			slot0:KillCountStatistics(slot8, slot6)
+		if not slot8 then
+			slot0:KillCountStatistics(slot9, slot6)
 		end
 	end
 
-	if not slot7 then
-		slot9 = true
+	if not slot8 then
+		slot10 = true
 
-		if slot1:GetUnitType() ~= uv0.UnitType.AIRCRAFT_UNIT and slot8 ~= uv0.UnitType.AIRFIGHTER_UNIT and slot8 ~= uv0.UnitType.FUNNEL_UNIT and slot8 ~= uv0.UnitType.UAV_UNIT then
-			slot9 = false
+		if slot1:GetUnitType() ~= uv0.UnitType.AIRCRAFT_UNIT and slot9 ~= uv0.UnitType.AIRFIGHTER_UNIT and slot9 ~= uv0.UnitType.FUNNEL_UNIT and slot9 ~= uv0.UnitType.UAV_UNIT then
+			slot10 = false
 		end
 
-		slot0:obituary(slot1, slot9, slot3)
+		slot0:obituary(slot1, slot10, slot3)
 	end
 end
 
@@ -367,7 +364,7 @@ function slot0.HandleWallDamage(slot0, slot1, slot2)
 
 	slot5, slot6, slot7 = slot0._calculateDamage(slot1, slot2)
 
-	slot2:UpdateHP(slot5 * -1, {
+	slot0:DamageStatistics(slot4, slot2:GetAttrByName("id"), -slot2:UpdateHP(slot5 * -1, {
 		isHeal = false,
 		isMiss = slot6.isMiss,
 		isCri = slot6.isCri,
@@ -375,8 +372,7 @@ function slot0.HandleWallDamage(slot0, slot1, slot2)
 		font = slot7,
 		cldPos = slot1:GetPosition(),
 		srcID = slot4
-	})
-	slot0:DamageStatistics(slot4, slot2:GetAttrByName("id"), slot5)
+	}))
 
 	if slot2:IsAlive() then
 		if not slot8 then

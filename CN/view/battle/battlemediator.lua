@@ -787,8 +787,6 @@ function slot0.GenBattleData(slot0)
 					level = 1,
 					id = slot20
 				})
-
-				slot1.WorldBossSupportDays = slot19
 			end
 		end
 	elseif slot2 == SYSTEM_HP_SHARE_ACT_BOSS or slot2 == SYSTEM_ACT_BOSS or slot2 == SYSTEM_ACT_BOSS_SP or slot2 == SYSTEM_BOSS_EXPERIMENT then

@@ -113,58 +113,77 @@ end
 slot3, slot4 = nil
 
 function slot0.MergePassItemDrop(slot0)
-	uv0 = uv0 or {
-		[DROP_TYPE_SKIN] = 1,
-		[DROP_TYPE_SHIP] = 9
-	}
-	uv1 = uv1 or {
-		[DROP_TYPE_RESOURCE .. "_" .. 14] = 2,
-		[DROP_TYPE_RESOURCE .. "_" .. 1] = 8,
-		[DROP_TYPE_RESOURCE .. "_" .. 2] = 8,
-		[DROP_TYPE_ITEM .. "_" .. 20001] = 3,
-		[DROP_TYPE_ITEM .. "_" .. 42036] = 4,
-		[DROP_TYPE_ITEM .. "_" .. 42030] = 5,
-		[DROP_TYPE_ITEM .. "_" .. 54007] = 5,
-		[DROP_TYPE_ITEM .. "_" .. 16502] = 6,
-		[DROP_TYPE_ITEM .. "_" .. 16004] = 7,
-		[DROP_TYPE_ITEM .. "_" .. 16014] = 7,
-		[DROP_TYPE_ITEM .. "_" .. 16024] = 7,
-		[DROP_TYPE_ITEM .. "_" .. 50006] = 10,
-		[DROP_TYPE_ITEM .. "_" .. 17004] = 11,
-		[DROP_TYPE_ITEM .. "_" .. 17014] = 11,
-		[DROP_TYPE_ITEM .. "_" .. 17024] = 11,
-		[DROP_TYPE_ITEM .. "_" .. 17034] = 11,
-		[DROP_TYPE_ITEM .. "_" .. 17044] = 11,
-		[DROP_TYPE_ITEM .. "_" .. 21101] = 12,
-		[DROP_TYPE_ITEM .. "_" .. 21111] = 12,
-		[DROP_TYPE_ITEM .. "_" .. 21121] = 12,
-		[DROP_TYPE_ITEM .. "_" .. 21131] = 12,
-		[DROP_TYPE_ITEM .. "_" .. 30015] = 13,
-		[DROP_TYPE_ITEM .. "_" .. 30025] = 13,
-		[DROP_TYPE_ITEM .. "_" .. 30035] = 13,
-		[DROP_TYPE_ITEM .. "_" .. 30045] = 13,
-		[DROP_TYPE_ITEM .. "_" .. 20013] = 14,
-		[DROP_TYPE_ITEM .. "_" .. 15008] = 15,
-		[DROP_TYPE_ITEM .. "_" .. 17003] = 16,
-		[DROP_TYPE_ITEM .. "_" .. 17013] = 16,
-		[DROP_TYPE_ITEM .. "_" .. 17023] = 16,
-		[DROP_TYPE_ITEM .. "_" .. 17033] = 16,
-		[DROP_TYPE_ITEM .. "_" .. 17043] = 16,
-		[DROP_TYPE_ITEM .. "_" .. 15001] = 17
-	}
-	uv2.PassItemOrder = uv2.PassItemOrder or setmetatable(uv1, {
-		__index = function (slot0, slot1)
-			slot2, slot3 = unpack(string.split(slot1, "_"))
+	if not uv0 then
+		uv1 = {
+			[DROP_TYPE_SKIN] = 1,
+			[DROP_TYPE_SHIP] = 9
+		}
+		uv0 = {}
+		slot4 = {
+			[20001.0] = 3,
+			[21101.0] = 12,
+			[16502.0] = 6,
+			[50006.0] = 10,
+			[16004.0] = 7,
+			[16024.0] = 7,
+			[17023.0] = 16,
+			[17024.0] = 11,
+			[30035.0] = 13,
+			[15008.0] = 15,
+			[42036.0] = 4,
+			[30025.0] = 13,
+			[21131.0] = 12,
+			[21121.0] = 12,
+			[17013.0] = 16,
+			[42030.0] = 5,
+			[20013.0] = 14,
+			[17044.0] = 11,
+			[17004.0] = 11,
+			[17014.0] = 11,
+			[30015.0] = 13,
+			[16014.0] = 7,
+			[17003.0] = 16,
+			[21111.0] = 12,
+			[17043.0] = 16,
+			[17034.0] = 11,
+			[54007.0] = 5,
+			[30045.0] = 13,
+			[15001.0] = 17,
+			[17033.0] = 16
+		}
 
-			if uv0[slot2] then
-				return uv0[slot2]
-			elseif slot2 == DROP_TYPE_ITEM and Item.getConfigData(slot3).type == 13 then
-				return 9
-			else
-				return 100
+		for slot4, slot5 in pairs({
+			[DROP_TYPE_RESOURCE] = {
+				8,
+				8,
+				[14.0] = 2
+			},
+			[DROP_TYPE_ITEM] = slot4
+		}) do
+			for slot9, slot10 in pairs(slot5) do
+				uv0[string.format("%d_%d", slot4, slot9)] = slot10
 			end
 		end
-	})
+
+		uv2.PassItemOrder = setmetatable(uv0, {
+			__index = function (slot0, slot1)
+				slot2, slot3 = unpack(underscore.map(string.split(slot1, "_"), function (slot0)
+					return tonumber(slot0)
+				end))
+
+				if uv0[slot2] then
+					slot0[slot1] = uv0[slot2]
+				elseif slot2 == DROP_TYPE_ITEM and Item.getConfigData(slot3).type == 13 then
+					slot0[slot1] = 9
+				else
+					slot0[slot1] = 100
+				end
+
+				return slot0[slot1]
+			end
+		})
+	end
+
 	slot1 = uv2.MergeSameDrops(slot0)
 
 	table.sort(slot1, CompareFuncs({

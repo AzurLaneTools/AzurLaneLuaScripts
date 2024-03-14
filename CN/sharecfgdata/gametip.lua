@@ -4104,7 +4104,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信标·META功能说明
 
-1. <color=#92fc63>2023.12.7-2024.3.14</color>期间限时开放「基洛夫·META」的挑战，在此期间指挥官可挑战「基洛夫·META」累计其同步值获取<color=#92fc63>「基洛夫·META」角色</color>及其他丰厚奖励
+1. <color=#92fc63>2024.3.14-2024.6.13</color>期间限时开放「罗德尼·META」的挑战，在此期间指挥官可挑战「罗德尼·META」累计其同步值获取<color=#92fc63>「罗德尼·META」角色</color>及其他丰厚奖励
 <color=#ff5c5c>注意：同步值将于时间结束后消失</color>
 
 2.「信标数据」获取与解析
@@ -4125,7 +4125,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 ·同一个信标最多能允许累计30位指挥官进行挑战
 
 5.战斗说明
-·挑战信标基洛夫·META暂不可使用指挥喵与潜艇
+·挑战信标罗德尼·META暂不可使用指挥喵与潜艇
 ·战斗结算时不会获得经验值，不会影响舰船心情值
 ·战斗中不可中途退出，如果出现网络波动导致掉线的情况：
 ①挑战自己解析的信标时将会消耗40点石油(非第一次挑战)，且不会计算已造成的伤害
@@ -4133,8 +4133,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>请在参与作战时保持网络环境畅通</color>
 
 6.火力支援
-随着信标基洛夫·META挑战的进行，从第31天开始，即2024.1.7~2024.3.14期间，舰队挑战「基洛夫·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标基洛夫·META开放的日期增加，火力支援提供的伤害也会增加。
-※此支援只会在指挥官自己发现的信标基洛夫·META战斗中出现，每次挑战均会触发。]]
+随着信标罗德尼·META挑战的进行，从第31天开始，即2024.4.14~2024.6.13期间，舰队挑战「罗德尼·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标罗德尼·META开放的日期增加，火力支援提供的伤害也会增加。
+※此支援只会在指挥官自己发现的信标罗德尼·META战斗中出现，每次挑战均会触发。]]
 		}
 	}
 }
@@ -17701,9 +17701,9 @@ _G.pg.base.gametip.meta_help = {
 		{
 			info = [[
 1.<color=#92fc63>资讯同步</color>
-·<color=#92fc63>2023.12.7-2024.3.14</color>期间限时开放「基洛夫·META」的「资讯同步」，通过「信标基洛夫·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「基洛夫·META」角色</color>
+·<color=#92fc63>2024.3.14-2024.6.13</color>期间限时开放「罗德尼·META」的「资讯同步」，通过「信标罗德尼·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「罗德尼·META」角色</color>
 ·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励
-·注意：<color=#ff5c5c>「基洛夫·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
+·注意：<color=#ff5c5c>「罗德尼·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
 
 2.<color=#92fc63>能量激活</color>
 ·META角色达到指定等级后可以使用对应的角色结晶进行激活。激活后可以提升角色星级
@@ -23989,6 +23989,18 @@ _G.pg.base.gametip.battle_text_tongmeng_1 = {
 	tip = "2F 2A 77 68 61 74 20 68 61 70 70 65 6E 64 2A 2F"
 }
 
+_G.pg.base.gametip.battle_text_luodeni_1 = {
+	tip = "随着「罗德尼」减少，罗德尼·META获得了向<color=#f1f102>强化</color>。"
+}
+
+_G.pg.base.gametip.battle_text_luodeni_2 = {
+	tip = "<color=#ffc038>归一于和谐，刹那即永恒，在此见证「我们」的终结——</color>"
+}
+
+_G.pg.base.gametip.battle_text_luodeni_3 = {
+	tip = "尚有「罗德尼」留存，无法释放<color=#ffc038>「我们」的终结</color>。"
+}
+
 _G.pg.base.gametip.series_enemy_mood = {
 	tip = "心情不足"
 }
@@ -24750,11 +24762,11 @@ _G.pg.base.gametip.notice_label_send = {
 }
 
 _G.pg.base.gametip.notice_label_room = {
-	tip = "接收消息"
+	tip = "聊天室房间"
 }
 
 _G.pg.base.gametip.notice_label_recv = {
-	tip = "聊天室房间"
+	tip = "接收消息"
 }
 
 _G.pg.base.gametip.notice_label_tip = {

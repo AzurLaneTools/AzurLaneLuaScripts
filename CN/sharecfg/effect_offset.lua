@@ -1265,6 +1265,17 @@ pg.effect_offset = {
 			-1.2
 		}
 	},
+	heiluodeni_shadow = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		offset = {
+			0.1,
+			2.5,
+			-1.2
+		}
+	},
 	robot_yglh = {
 		mirror = false,
 		y_scale = false,

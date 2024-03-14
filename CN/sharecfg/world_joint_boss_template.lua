@@ -264,7 +264,7 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
+		state = "always",
 		name = "亚利桑那·META",
 		painting = "yalisangna",
 		boss_level_id = 121,
@@ -401,12 +401,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
+		state = "stop",
 		name = "基洛夫·META",
 		painting = "jiluofu",
 		boss_level_id = 181,
 		id = 13,
 		meta_id = 970206,
+		item_id = 100000,
 		description = {
 			{
 				"机械支援协议",
@@ -417,32 +418,6 @@ pg.world_joint_boss_template = {
 				"联合战斗框架",
 				1,
 				"每台战斗机械存活时，都能为基洛夫·META提供一定的炮击、雷击、命中加成。每消灭一台战斗机械，都会使基洛夫·META自身<color=#92fc63>防御力永久下降</color>。"
-			}
-		},
-		state = {
-			{
-				{
-					2023,
-					12,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					3,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		p_offset = {
@@ -458,6 +433,69 @@ pg.world_joint_boss_template = {
 			0.8
 		}
 	},
+	{
+		item_id = 100000,
+		name = "罗德尼·META",
+		painting = "luodeni",
+		boss_level_id = 196,
+		id = 14,
+		meta_id = 970505,
+		description = {
+			{
+				"维度跨越",
+				1,
+				"当1.5秒内我方连续进行过两次跨射/空袭时，罗德尼·META会进入维度跨越状态，使其在接下来的<color=#92fc63>4秒内航速提高，无法被选中并规避一切伤害</color>。"
+			},
+			{
+				"「我」的投影",
+				3,
+				"战斗开始后，战场上将会出现七个「罗德尼」的投影。\n投影不具备任何攻击手段，同时只会受到固定1伤害。<color=#92fc63>每个被消灭的投影都会使得罗德尼·META得到强化，提升其伤害与减伤能力</color>。\n战斗剩余时间不足10秒时，所有「罗德尼」的投影将会消失。"
+			},
+			{
+				"「我们」的终结",
+				2,
+				"当场上的「罗德尼」被全部消灭后，罗德尼·META将进入维度跨越状态，并在维度跨越状态结束后<color=#92fc63>释放终结一击</color>，结束战斗。"
+			}
+		},
+		state = {
+			{
+				{
+					2024,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			36.7,
+			679.8,
+			1,
+			1
+		},
+		p_offset_other = {
+			632,
+			679.8,
+			1,
+			1
+		}
+	},
 	all = {
 		1,
 		2,
@@ -471,6 +509,7 @@ pg.world_joint_boss_template = {
 		10,
 		11,
 		12,
-		13
+		13,
+		14
 	}
 }
