@@ -1293,7 +1293,18 @@ function temp()
 		},
 		["德"] = {
 			["尼"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		},
 		["恩"] = {
