@@ -278,6 +278,7 @@ pg.memory_group = setmetatable({
 		593,
 		594,
 		595,
+		596,
 		1000,
 		1001,
 		1002
@@ -5985,6 +5986,23 @@ pg.base.memory_group = {
 			3355,
 			3356,
 			3357
+		}
+	},
+	[596] = {
+		id = 596,
+		subtype = 0,
+		icon = "title_chara_shenghaxintuo",
+		type = 3,
+		link_event = 0,
+		title = "疲労回復の秘訣とは⁉",
+		memories = {
+			3421,
+			3422,
+			3423,
+			3424,
+			3425,
+			3426,
+			3427
 		}
 	},
 	[1000] = {

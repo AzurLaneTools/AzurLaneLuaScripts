@@ -36905,6 +36905,318 @@ _G.pg.base.task_data_template[5977] = {
 	}
 }
 
+_G.pg.base.task_data_template[5981] = {
+	name = "秘書艦は優秀？",
+	guild_coin_award = 0,
+	award = 5981,
+	type = 5,
+	desc = "魚雷天ぷらを3個準備する（消費）",
+	count_inherit = 0,
+	sub_type = 1000,
+	target_id_2 = "",
+	story_icon = "shenghaxintuo",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "50003",
+	next_task = "5982",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "SHENGHAXINTUO1",
+	id = 5981,
+	target_num = 3,
+	activity_client_config = "",
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+_G.pg.base.task_data_template[5982] = {
+	name = "秘訣は美食？",
+	guild_coin_award = 0,
+	award = 5982,
+	type = 5,
+	desc = "任意の艦を10回強化する",
+	count_inherit = 0,
+	sub_type = 34,
+	target_id_2 = "",
+	story_icon = "shenghaxintuo",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "SHENGHAXINTUO2",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "5983",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 5982,
+	target_num = 10,
+	activity_client_config = "",
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5983] = {
+	name = "夜通し作戦♡",
+	guild_coin_award = 0,
+	award = 5983,
+	type = 5,
+	desc = "サン・ジャシントを含めた艦隊で出撃し、20回勝利する",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "shenghaxintuo",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "SHENGHAXINTUO3",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "5984",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "10730",
+	scene = "",
+	id = 5983,
+	target_num = 20,
+	activity_client_config = "",
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5984] = {
+	name = "眠る姫を起こす方法",
+	guild_coin_award = 0,
+	award = 5984,
+	type = 5,
+	desc = "燃料を500消費する",
+	count_inherit = 0,
+	sub_type = 121,
+	target_id_2 = "",
+	story_icon = "shenghaxintuo",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "SHENGHAXINTUO4",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "5985",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 5984,
+	target_num = 500,
+	activity_client_config = "",
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5985] = {
+	name = "秘訣は休暇？",
+	guild_coin_award = 0,
+	award = 5985,
+	type = 5,
+	desc = "サン・ジャシントの親密度が100に到達",
+	count_inherit = 0,
+	sub_type = 1012,
+	target_id_2 = "",
+	story_icon = "shenghaxintuo",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "SHENGHAXINTUO5",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "5986",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "10730",
+	scene = "",
+	id = 5985,
+	target_num = 10000,
+	activity_client_config = "",
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16002,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5986] = {
+	name = "秘訣はデート？",
+	guild_coin_award = 0,
+	award = 5986,
+	type = 5,
+	desc = "サン・ジャシントを3回限界突破する",
+	count_inherit = 0,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "shenghaxintuo",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "SHENGHAXINTUO6",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "5987",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "10730",
+	scene = "",
+	id = 5986,
+	target_num = 5,
+	activity_client_config = "",
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18032,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[5987] = {
+	name = "秘訣は指揮官？",
+	guild_coin_award = 0,
+	award = 5987,
+	type = 5,
+	desc = "サン・ジャシントのレベルが100に到達",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "shenghaxintuo",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "SHENGHAXINTUO7",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "10730",
+	scene = "",
+	id = 5987,
+	target_num = 100,
+	activity_client_config = "",
+	added_tip = 1,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18032,
+			2
+		}
+	}
+}
+
 _G.pg.base.task_data_template[6001] = {
 	name = "困難・近海演習",
 	guild_coin_award = 0,
@@ -83751,6 +84063,765 @@ _G.pg.base.task_data_template[19823] = {
 			1,
 			395,
 			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19824] = {
+	name = "『虚像构筑之塔复刻』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 901679,
+	type = 6,
+	desc = "ゲームにログインせよ！",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19824,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			398,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19825] = {
+	name = "『虚像构筑之塔复刻』日常建造",
+	guild_coin_award = 0,
+	award = 901680,
+	type = 36,
+	desc = "3回建造する",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19825,
+	target_num = 3,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59533,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19826] = {
+	name = "『虚像构筑之塔复刻』日常出击",
+	guild_coin_award = 0,
+	award = 901681,
+	type = 36,
+	desc = "艦隊を出撃させ、15回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19826,
+	target_num = 15,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59533,
+			300
+		},
+		{
+			2,
+			59535,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19827] = {
+	name = "『虚像构筑之塔复刻』日常困难本",
+	guild_coin_award = 0,
+	award = 901682,
+	type = 36,
+	desc = "通常海域ハードを1回クリアする",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "10101",
+	scene = "",
+	id = 19827,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59533,
+			100
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19828] = {
+	name = "『虚像构筑之塔复刻』日常活动关卡",
+	guild_coin_award = 0,
+	award = 901683,
+	type = 36,
+	desc = "任意のイベントステージを1回クリア",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19828,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1630001,
+		1630002,
+		1630003,
+		1630004,
+		1630041,
+		1630051
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59533,
+			300
+		},
+		{
+			2,
+			54005,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5233
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19829] = {
+	name = "『虚像构筑之塔复刻』通关SP1",
+	guild_coin_award = 0,
+	award = 901684,
+	type = 6,
+	desc = "SP1を1回クリアする",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19829,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1630001
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			59535,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59533,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5233
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19830] = {
+	name = "『虚像构筑之塔复刻』通关SP2",
+	guild_coin_award = 0,
+	award = 901685,
+	type = 6,
+	desc = "SP2を1回クリアする",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19830,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1630002
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			59535,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59533,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5233
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19831] = {
+	name = "『虚像构筑之塔复刻』通关SP3",
+	guild_coin_award = 0,
+	award = 901686,
+	type = 6,
+	desc = "SP3を1回クリアする",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19831,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1630003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			59535,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59533,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5233
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19832] = {
+	name = "『虚像构筑之塔复刻』通关SP4",
+	guild_coin_award = 0,
+	award = 901687,
+	type = 6,
+	desc = "SP4を1回クリアする",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19832,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1630004
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			59535,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59533,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5233
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19833] = {
+	name = "『虚像构筑之塔复刻』通关ESP",
+	guild_coin_award = 0,
+	award = 901688,
+	type = 6,
+	desc = "ESPを1回クリアする",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19833,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1630041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			59535,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5233
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19834] = {
+	name = "『虚像构筑之塔复刻』SP1三星",
+	guild_coin_award = 0,
+	award = 901689,
+	type = 6,
+	desc = "SP1の作戦目標（星3つ）をすべて達成せよ！",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1630001",
+	next_task = "19835",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19834,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1630001,
+			chapterId = 1630001
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19835] = {
+	name = "『虚像构筑之塔复刻』SP2三星",
+	guild_coin_award = 0,
+	award = 901690,
+	type = 6,
+	desc = "SP2の作戦目標（星3つ）をすべて達成せよ！",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1630002",
+	next_task = "19836",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19835,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1630001,
+			chapterId = 1630002
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19836] = {
+	name = "『虚像构筑之塔复刻』SP3三星",
+	guild_coin_award = 0,
+	award = 901691,
+	type = 6,
+	desc = "SP3の作戦目標（星3つ）をすべて達成せよ！",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1630003",
+	next_task = "19837",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19836,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18033,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1630001,
+			chapterId = 1630003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19837] = {
+	name = "『虚像构筑之塔复刻』SP4三星",
+	guild_coin_award = 0,
+	award = 901692,
+	type = 6,
+	desc = "SP4の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1630004",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19837,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1630001,
+			chapterId = 1630004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19838] = {
+	name = "『虚像构筑之塔复刻』通关EX",
+	guild_coin_award = 0,
+	award = 901693,
+	type = 6,
+	desc = "EXステージをクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1630051",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19838,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1630003,
+			chapterId = 1630051
 		}
 	}
 }

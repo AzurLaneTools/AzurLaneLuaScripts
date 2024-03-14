@@ -4755,6 +4755,56 @@ _G.pg.base.equip_data_statistics[479] = {
 	}
 }
 
+_G.pg.base.equip_data_statistics[486] = {
+	tech = 1,
+	name = "投影「罗德尼」短距近防",
+	speciality = "<[LOCK]>",
+	type = 1,
+	rarity = 1,
+	ammo = 1,
+	damage = "15 x 2",
+	nationality = 4,
+	descrip = "默认装备",
+	id = 486,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		2
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		486
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {
+		"HMS",
+		"CL",
+		"MG",
+		"AP"
+	}
+}
+
 _G.pg.base.equip_data_statistics[500] = {
 	type = 10,
 	name = "ビーバーズエムブレム",

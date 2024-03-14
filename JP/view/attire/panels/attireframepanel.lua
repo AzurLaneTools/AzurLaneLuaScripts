@@ -140,11 +140,9 @@ end
 function slot0.Update(slot0, slot1, slot2)
 	slot0.playerVO = slot2
 	slot0.rawAttireVOs = slot1
-	slot0.displayVOs, ownedCnt = slot0:GetDisplayVOs()
+	slot0.displayVOs, slot0.totalCount.text = slot0:GetDisplayVOs()
 
 	slot0:Filter()
-
-	slot0.totalCount.text = ownedCnt
 end
 
 function slot0.GetDisplayVOs(slot0)
@@ -201,7 +199,7 @@ function slot0.Filter(slot0)
 		})
 	end
 
-	slot0.scolrect:SetTotalCount(#slot0.displayVOs, -1)
+	slot0.scolrect:SetTotalCount(#slot0.displayVOs, 0)
 end
 
 function slot0.UpdateDesc(slot0, slot1)

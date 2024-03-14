@@ -11043,8 +11043,8 @@ pg.base.ship_skin_template_7 = {
 		bound_bone = {
 			cannon = {
 				{
-					-0.058,
-					0.761,
+					0.817,
+					0.421,
 					0
 				}
 			},
@@ -11057,8 +11057,8 @@ pg.base.ship_skin_template_7 = {
 			},
 			torpedo = {
 				{
-					0.472,
-					0.337,
+					0,
+					0,
 					0
 				}
 			},
@@ -11067,17 +11067,12 @@ pg.base.ship_skin_template_7 = {
 					0.5,
 					0.8,
 					0
-				},
-				{
-					-0.5,
-					0.8,
-					0
 				}
 			},
 			plane = {
 				{
-					-0.5,
-					0.5,
+					0,
+					0,
 					0
 				}
 			}
@@ -11648,8 +11643,8 @@ pg.base.ship_skin_template_7 = {
 			},
 			torpedo = {
 				{
-					0.472,
-					0.337,
+					0,
+					0,
 					0
 				}
 			},

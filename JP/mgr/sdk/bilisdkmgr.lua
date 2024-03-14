@@ -244,7 +244,11 @@ return {
 	BindCPU = function ()
 	end,
 	DeleteAccount = function ()
-		uv0:DeleteAccount()
+		if LuaHelper.GetCHPackageType() == PACKAGE_TYPE_UNION then
+			uv0:DeleteAccountForUO(getProxy(PlayerProxy):getRawData() and slot4:GetName() or "", getProxy(ServerProxy):getRawData()[getProxy(UserProxy):getRawData() and slot1.server or 0] and slot2.name or "", slot4 and tostring(slot4.level) or "0", pg.TimeMgr.GetInstance():STimeDescS(slot4 and slot4:GetRegisterTime() or 0, "%Y/%m/%d"))
+		else
+			uv0:DeleteAccount()
+		end
 	end,
 	OnAndoridBackPress = function ()
 		if LuaHelper.GetCHPackageType() == PACKAGE_TYPE_BILI or slot0 == PACKAGE_TYPE_SHAJOY then
@@ -314,5 +318,8 @@ return {
 	end,
 	Survey = function (slot0)
 		uv0:OpenWeb(slot0)
+	end,
+	IsHuaweiPackage = function ()
+		return uv0:isHuawei()
 	end
 }

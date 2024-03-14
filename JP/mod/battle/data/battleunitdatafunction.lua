@@ -548,9 +548,17 @@ function slot33.GetSpecificEnemyList(slot0, slot1)
 	return slot5
 end
 
+function slot33.GetMetaBossTemplate(slot0)
+	return uv0[slot0]
+end
+
+function slot33.GetMetaBossLevelTemplate(slot0, slot1)
+	return uv1[uv0.GetMetaBossTemplate(slot0).boss_level_id + slot1 - 1]
+end
+
 function slot33.GetSpecificWorldJointEnemyList(slot0, slot1, slot2)
 	return {
-		pg.world_boss_level[uv0[slot1].boss_level_id + slot2 - 1].enemy_id
+		uv0.GetMetaBossLevelTemplate(slot1, slot2).enemy_id
 	}
 end
 

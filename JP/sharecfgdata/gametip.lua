@@ -4468,8 +4468,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
 	tip = {
 		{
 			info = [[
-<color=#92fc63>2023.12.7-2024.3.14</color>
-META戦・キーロフ(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。
+<color=#92fc63>2024.3.14-2024.6.13</color>
+META戦・ロドニー(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。
 （※<color=#ff5c5c>解析Pt並びに解析Pt累計獲得数報酬は開催期間終了後にリセットされます</color>）
 
 ■META戦について
@@ -17812,7 +17812,7 @@ _G.pg.base.gametip.meta_help = {
 ・解析Ptを一定数貯めると、「META艦船」を入手できます。
 ・「META」艦船が入手済みの状態では、艦船の操作画面で「情報解析」で解析Pt関連の情報を確認することが出来ます。
 
-※<color=#92fc63>2023.12.7-2024.3.14</color>キーロフ(META) META戦開放期間は「キーロフ・META」の解析Ptを入手できます。
+※<color=#92fc63>2024.3.14-2024.6.13</color>ロドニー(META) META戦開放期間は「ロドニー・META」の解析Ptを入手できます。
  解析Ptおよび解析Pt累計入手数報酬は開催期間終了後にリセットされます。
 
 ■「META」艦船の艤装強化について
@@ -24196,6 +24196,18 @@ _G.pg.base.gametip.battle_text_tongmeng_1 = {
 	tip = "2F 2A 77 68 61 74 20 68 61 70 70 65 6E 64 2A 2F"
 }
 
+_G.pg.base.gametip.battle_text_luodeni_1 = {
+	tip = "「ロドニー」の数が減り、「ロドニー(META)」が<color=#f1f102>強化</color>された"
+}
+
+_G.pg.base.gametip.battle_text_luodeni_2 = {
+	tip = "<color=#ffc038>一つになる調和、永遠に等しき刹那、来たる「終焉」を見届けよう——</color>"
+}
+
+_G.pg.base.gametip.battle_text_luodeni_3 = {
+	tip = "「ロドニー」がいる限り、<color=#ffc038>「ロドニー」の終焉</color>は使用できない"
+}
+
 _G.pg.base.gametip.series_enemy_mood = {
 	tip = "戦意低下"
 }
@@ -25015,11 +25027,11 @@ _G.pg.base.gametip.notice_label_send = {
 }
 
 _G.pg.base.gametip.notice_label_room = {
-	tip = "受信"
+	tip = "ルーム"
 }
 
 _G.pg.base.gametip.notice_label_recv = {
-	tip = "ルーム"
+	tip = "受信"
 }
 
 _G.pg.base.gametip.notice_label_tip = {

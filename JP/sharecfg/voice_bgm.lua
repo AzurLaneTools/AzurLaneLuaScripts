@@ -163,10 +163,10 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "theme-merkuriameta",
+		default_bgm = "story-italy",
 		special_bgm = "",
 		time = "",
-		bgm = "theme-merkuriameta"
+		bgm = "story-italy"
 	},
 	SkinShopScene = {
 		default_bgm = "main",
@@ -1360,5 +1360,23 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "story-nonightcity"
+	},
+	YidaliSPMainPage = {
+		default_bgm = "battle-boss-italy",
+		special_bgm = "",
+		time = "",
+		bgm = "battle-boss-italy"
+	},
+	YidaliSPPTPage = {
+		default_bgm = "theme-arbitrator-tower",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-arbitrator-tower"
+	},
+	YidaliSPV2LoginPage = {
+		default_bgm = "story-italy",
+		special_bgm = "",
+		time = "",
+		bgm = "story-italy"
 	}
 }

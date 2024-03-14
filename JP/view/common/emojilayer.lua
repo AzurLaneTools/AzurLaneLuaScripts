@@ -175,15 +175,18 @@ function slot0.filter(slot0, slot1)
 
 		slot0:clearItem(slot11)
 
-		slot13 = UIItemList.New(slot11, slot11:Find("face"))
+		slot13 = GetComponent(slot11, typeof(GridLayoutGroup))
+		slot14 = UIItemList.New(slot11, slot11:Find("face"))
 
-		slot13:make(function (slot0, slot1, slot2)
+		slot14:make(function (slot0, slot1, slot2)
 			slot3 = uv0[slot1 + 1]
 
 			if slot0 == UIItemList.EventUpdate then
 				PoolMgr.GetInstance():GetPrefab("emoji/" .. slot3.pic, slot3.pic, true, function (slot0)
 					if not IsNil(uv0) then
 						slot0.name = uv1.pic
+						tf(slot0).sizeDelta = Vector2(uv2.cellSize.x, uv2.cellSize.y)
+						tf(slot0).anchoredPosition = Vector2.zero
 
 						if slot0:GetComponent("Animator") then
 							slot1.enabled = false
@@ -195,22 +198,22 @@ function slot0.filter(slot0, slot1)
 
 						setParent(slot0, uv0, false)
 
-						if table.contains(uv2, uv1.id) then
-							cloneTplTo(uv3.newTag, uv0, "newtag")
-							uv3.emojiProxy:removeNewEmojiID(uv1.id)
+						if table.contains(uv3, uv1.id) then
+							cloneTplTo(uv4.newTag, uv0, "newtag")
+							uv4.emojiProxy:removeNewEmojiID(uv1.id)
 						end
 					else
 						PoolMgr.GetInstance():ReturnPrefab("emoji/" .. uv1.pic, uv1.pic, slot0)
 					end
 				end)
-				onButton(uv2, slot2, function ()
+				onButton(uv3, slot2, function ()
 					getProxy(ChatProxy):addUsedEmoji(uv0.id)
 					uv1.contextData.callback(uv0.id)
 					triggerButton(uv1._tf)
 				end, SFX_PANEL)
 			end
 		end)
-		slot13:align(#_.slice(slot2, slot10 * uv0.PageEmojiNums + 1, uv0.PageEmojiNums))
+		slot14:align(#_.slice(slot2, slot10 * uv0.PageEmojiNums + 1, uv0.PageEmojiNums))
 	end
 end
 

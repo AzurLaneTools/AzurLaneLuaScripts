@@ -28,8 +28,14 @@ function slot4.SetArgs(slot0, slot1, slot2)
 	slot0._cloakExpose = slot0._tempData.arg_list.cloakExpose or 0
 	slot0._exposeGroup = slot0._tempData.arg_list._exposeGroup or slot2:GetID()
 	slot0._level = slot0._level or 0
+	slot0._metaDot = slot0._tempData.arg_list.metaDot
+	slot4 = 0
 
-	slot2:SetOrbDuration(uv0.CaclulateDOTDuration(slot0._tempData, slot0._orb, slot1))
+	if not slot0._metaDot then
+		slot4 = uv0.CaclulateDOTDuration(slot0._tempData, slot0._orb, slot1)
+	end
+
+	slot2:SetOrbDuration(slot4)
 
 	if slot0._tempData.arg_list.WorldBossDotDamage then
 		slot0._igniteDMG = (uv1.Battle.BattleDataProxy.GetInstance():GetInitData()[slot0._tempData.arg_list.WorldBossDotDamage.useGlobalAttr] or pg.bfConsts.NUM0) * (slot5.paramA or pg.bfConsts.NUM1)
@@ -51,14 +57,11 @@ end
 
 function slot4.onUpdate(slot0, slot1, slot2, slot3)
 	if slot0._nextEffectTime <= slot3.timeStamp then
-		slot5 = slot0:CalcNumber(slot1, slot2)
-
-		slot1:UpdateHP(-slot5, {
+		uv0.Battle.BattleDataProxy.GetInstance():DamageStatistics(nil, slot1:GetAttrByName("id"), -slot1:UpdateHP(-slot0:CalcNumber(slot1, slot2), {
 			isMiss = false,
 			isCri = false,
 			isHeal = false
-		})
-		uv0.Battle.BattleDataProxy.GetInstance():DamageStatistics(nil, slot1:GetAttrByName("id"), slot5)
+		}))
 
 		if slot1:IsAlive() then
 			slot0._nextEffectTime = slot0._nextEffectTime + slot0._time
@@ -67,26 +70,29 @@ function slot4.onUpdate(slot0, slot1, slot2, slot3)
 end
 
 function slot4.onRemove(slot0, slot1, slot2)
-	slot3 = slot0:CalcNumber(slot1, slot2)
-
-	slot1:UpdateHP(-slot3, {
+	uv0.Battle.BattleDataProxy.GetInstance():DamageStatistics(nil, slot1:GetAttrByName("id"), -slot1:UpdateHP(-slot0:CalcNumber(slot1, slot2), {
 		isMiss = false,
 		isCri = false,
 		isHeal = false
-	})
-	uv0.Battle.BattleDataProxy.GetInstance():DamageStatistics(nil, slot1:GetAttrByName("id"), slot3)
+	}))
 end
 
 function slot4.CalcNumber(slot0, slot1, slot2)
-	slot3 = uv0.CaclulateDOTDamageEnhanceRate(slot0._tempData, slot0._orb, slot1)
-	slot4, slot5 = slot1:GetHP()
-	slot6 = slot4 * slot0._currentHPRatio + slot5 * slot0._maxHPRatio + slot0._number + slot0._igniteDMG
+	if slot0._metaDot then
+		slot4 = uv0.Battle.BattleDataProxy.GetInstance():GetInitData()
 
-	if slot0._randExtraRange > 0 then
-		slot6 = slot6 + math.random(0, slot0._randExtraRange)
+		return uv1.CaclulateMetaDotaDamage(slot4.bossConfigId, slot4.bossLevel)
+	else
+		slot3 = uv1.CaclulateDOTDamageEnhanceRate(slot0._tempData, slot0._orb, slot1)
+		slot4, slot5 = slot1:GetHP()
+		slot6 = slot4 * slot0._currentHPRatio + slot5 * slot0._maxHPRatio + slot0._number + slot0._igniteDMG
+
+		if slot0._randExtraRange > 0 then
+			slot6 = slot6 + math.random(0, slot0._randExtraRange)
+		end
+
+		return math.max(0, math.floor(math.min(slot4 - slot5 * slot0._minRestHPRatio, slot6 * (1 + slot3) * slot2._stack * uv2.GetCurrent(slot1, "repressReduce"))))
 	end
-
-	return math.max(0, math.floor(math.min(slot4 - slot5 * slot0._minRestHPRatio, slot6 * (1 + slot3) * slot2._stack * uv1.GetCurrent(slot1, "repressReduce"))))
 end
 
 function slot4.SetOrb(slot0, slot1, slot2, slot3)

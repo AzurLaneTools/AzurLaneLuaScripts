@@ -436,10 +436,8 @@ function slot0.didEnter(slot0)
 	end)
 
 	function slot1()
-		if pg.SdkMgr.GetInstance():GetLoginType() == LoginType.PLATFORM then
+		if pg.SdkMgr.GetInstance():GetLoginType() == LoginType.PLATFORM or slot0 == LoginType.PLATFORM_TENCENT then
 			pg.SdkMgr.GetInstance():LoginSdk()
-		elseif slot0 == LoginType.PLATFORM_TENCENT then
-			uv0:switchToTencentLogin()
 		elseif slot0 == LoginType.PLATFORM_INNER then
 			uv0:switchToLogin()
 		end

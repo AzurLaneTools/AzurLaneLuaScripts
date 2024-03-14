@@ -1275,6 +1275,16 @@ pg.player_resource = {
 		name = "tongmeng_pt",
 		itemid = 59532
 	},
+	[397] = {
+		id = 397,
+		name = "yidalisp_pt2",
+		itemid = 59533
+	},
+	[398] = {
+		id = 398,
+		name = "skinTicket67",
+		itemid = 59534
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1489,6 +1499,11 @@ pg.player_resource = {
 		id = 3014,
 		name = "synchronize_jiluofu",
 		itemid = 21913
+	},
+	[3015] = {
+		id = 3015,
+		name = "synchronize_luodeni",
+		itemid = 21914
 	},
 	[3106] = {
 		id = 3106,
@@ -2386,6 +2401,12 @@ pg.player_resource = {
 		tongmeng_pt = {
 			396
 		},
+		yidalisp_pt2 = {
+			397
+		},
+		skinTicket67 = {
+			398
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -2514,6 +2535,9 @@ pg.player_resource = {
 		},
 		synchronize_jiluofu = {
 			3014
+		},
+		synchronize_luodeni = {
+			3015
 		},
 		twhongran_pt = {
 			3106
@@ -2850,6 +2874,8 @@ pg.player_resource = {
 		394,
 		395,
 		396,
+		397,
+		398,
 		950,
 		951,
 		952,
@@ -2893,6 +2919,7 @@ pg.player_resource = {
 		3012,
 		3013,
 		3014,
+		3015,
 		3106,
 		3137,
 		4001,

@@ -683,21 +683,19 @@ function slot0.IsNeedSupport()
 		return
 	end
 
-	return true, math.min(slot0, slot1[2])
+	return true
 end
 
 function slot0.GetSupportValue()
-	slot0, slot1 = WorldBossProxy.IsNeedSupport()
-
-	if not slot0 then
+	if not WorldBossProxy.IsNeedSupport() then
 		return
 	end
 
-	slot2 = pg.gameset.world_metaboss_supportattack.description
+	slot1 = pg.gameset.world_metaboss_supportattack.description
 
-	assert(slot2[3], "Missing WorldBoss SupportAttack Buff")
+	assert(slot1[6], "Missing WorldBoss SupportAttack Buff")
 
-	return true, slot1, slot2[3]
+	return true, 0, slot1[6]
 end
 
 return slot0

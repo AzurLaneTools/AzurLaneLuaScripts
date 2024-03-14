@@ -517,6 +517,11 @@ function slot0.InitSwitch()
 				getProxy(BagProxy):addItemById(slot0.id, slot0.count, slot0.extra)
 			end
 		end,
+		[DROP_TYPE_LOVE_LETTER] = function (slot0)
+			slot1 = slot0:getSubClass()
+
+			getProxy(BagProxy):addItemById(slot1.id, slot1.count, slot1.extra)
+		end,
 		[DROP_TYPE_EQUIP] = function (slot0)
 			getProxy(EquipmentProxy):addEquipmentById(slot0.id, slot0.count)
 		end,
@@ -889,9 +894,7 @@ function slot0.InitSwitch()
 			setText(slot2, slot0:getConfig("item_desc"))
 		end,
 		[DROP_TYPE_LOVE_LETTER] = function (slot0, slot1, slot2)
-			desc = string.gsub(slot0:getConfig("display"), "$1", ShipGroup.getDefaultShipNameByGroupID(slot0.count))
-
-			setText(slot2, SwitchSpecialChar(desc, true))
+			setText(slot2, SwitchSpecialChar(string.gsub(slot0:getConfig("display"), "$1", ShipGroup.getDefaultShipNameByGroupID(slot0.count)), true))
 		end,
 		[DROP_TYPE_META_PT] = function (slot0, slot1, slot2)
 			setText(slot2, slot0:getConfig("display"))

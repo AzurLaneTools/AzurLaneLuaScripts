@@ -157404,6 +157404,78 @@ _G.pg.base.item_virtual_data_statistics[59532] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_virtual_data_statistics[59533] = {
+	display = "「幻像の塔·発見編」報酬交換用アイテム。イベント終了後に削除される。",
+	name = "幻像Pt",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/tower_pt",
+	id = 59533,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[59534] = {
+	display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2024.3.20メンテナンスまで）で削除されます",
+	name = "試着貸出チケット（2024.3.20まで）",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59534,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[59535] = {
+	display = "イベント「幻像の塔·発見編」で入手できる期間限定建造チケット。イベント終了後に削除されます",
+	name = "建造支援チケット",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 5241,
+	virtual_type = 22,
+	is_world = 0,
+	icon = "Props/buildTicket",
+	id = 59535,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_virtual_data_statistics[59601] = {
 	display = "三笠大先輩の蒐集品の一つ。駆逐艦「江風」のモデル",
 	name = "江風モデル",
@@ -174447,8 +174519,8 @@ _G.pg.base.item_virtual_data_statistics[200062] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200063] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -174497,8 +174569,8 @@ _G.pg.base.item_virtual_data_statistics[200063] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200064] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -174547,8 +174619,8 @@ _G.pg.base.item_virtual_data_statistics[200064] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200065] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -174597,8 +174669,8 @@ _G.pg.base.item_virtual_data_statistics[200065] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200066] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -174647,8 +174719,8 @@ _G.pg.base.item_virtual_data_statistics[200066] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200067] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -174697,8 +174769,8 @@ _G.pg.base.item_virtual_data_statistics[200067] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200068] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -174747,8 +174819,8 @@ _G.pg.base.item_virtual_data_statistics[200068] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200069] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -174797,8 +174869,8 @@ _G.pg.base.item_virtual_data_statistics[200069] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200070] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -174847,8 +174919,8 @@ _G.pg.base.item_virtual_data_statistics[200070] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200071] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -174897,8 +174969,8 @@ _G.pg.base.item_virtual_data_statistics[200071] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200072] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -174947,8 +175019,8 @@ _G.pg.base.item_virtual_data_statistics[200072] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200073] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -174997,8 +175069,8 @@ _G.pg.base.item_virtual_data_statistics[200073] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200074] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -175047,8 +175119,8 @@ _G.pg.base.item_virtual_data_statistics[200074] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200075] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -175097,8 +175169,8 @@ _G.pg.base.item_virtual_data_statistics[200075] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200076] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -175147,8 +175219,8 @@ _G.pg.base.item_virtual_data_statistics[200076] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200077] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -175197,8 +175269,8 @@ _G.pg.base.item_virtual_data_statistics[200077] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200078] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -175247,8 +175319,8 @@ _G.pg.base.item_virtual_data_statistics[200078] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200079] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -175297,8 +175369,8 @@ _G.pg.base.item_virtual_data_statistics[200079] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200080] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -175347,8 +175419,8 @@ _G.pg.base.item_virtual_data_statistics[200080] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200081] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -175397,8 +175469,8 @@ _G.pg.base.item_virtual_data_statistics[200081] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200082] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -175442,8 +175514,8 @@ _G.pg.base.item_virtual_data_statistics[200082] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200083] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -175487,8 +175559,8 @@ _G.pg.base.item_virtual_data_statistics[200083] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200084] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -175532,8 +175604,8 @@ _G.pg.base.item_virtual_data_statistics[200084] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200085] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -175577,8 +175649,8 @@ _G.pg.base.item_virtual_data_statistics[200085] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200086] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -175622,8 +175694,8 @@ _G.pg.base.item_virtual_data_statistics[200086] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200087] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -175672,8 +175744,8 @@ _G.pg.base.item_virtual_data_statistics[200087] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200088] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "一定の確率で下記の設計図を入手できます",
+	name = "ランダム設計図",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -175717,8 +175789,8 @@ _G.pg.base.item_virtual_data_statistics[200088] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200089] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "一定の確率で下記のキャラを入手できます",
+	name = "ランダムキャラ",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -175857,8 +175929,8 @@ _G.pg.base.item_virtual_data_statistics[200089] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200090] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "一定の確率で下記のキャラを入手できます",
+	name = "ランダムキャラ",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -175992,8 +176064,8 @@ _G.pg.base.item_virtual_data_statistics[200090] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200091] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "一定の確率で下記のキャラを入手できます",
+	name = "ランダムキャラ",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -176127,8 +176199,8 @@ _G.pg.base.item_virtual_data_statistics[200091] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200092] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "一定の確率で下記のキャラを入手できます",
+	name = "ランダムキャラ",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -176262,8 +176334,8 @@ _G.pg.base.item_virtual_data_statistics[200092] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200093] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "一定の確率で下記のキャラを入手できます",
+	name = "ランダムキャラ",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -176397,8 +176469,8 @@ _G.pg.base.item_virtual_data_statistics[200093] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200094] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "一定の確率で下記のキャラを入手できます",
+	name = "ランダムキャラ",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -176532,8 +176604,8 @@ _G.pg.base.item_virtual_data_statistics[200094] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200095] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "一定の確率で下記のキャラを入手できます",
+	name = "ランダムキャラ",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -176672,8 +176744,8 @@ _G.pg.base.item_virtual_data_statistics[200095] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200096] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "一定の確率で下記のキャラを入手できます",
+	name = "ランダムキャラ",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -176807,8 +176879,8 @@ _G.pg.base.item_virtual_data_statistics[200096] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200097] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "一定の確率で下記のキャラを入手できます",
+	name = "ランダムキャラ",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -176942,8 +177014,8 @@ _G.pg.base.item_virtual_data_statistics[200097] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200098] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "一定の確率で下記のキャラを入手できます",
+	name = "ランダムキャラ",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -177077,8 +177149,8 @@ _G.pg.base.item_virtual_data_statistics[200098] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200099] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "一定の確率で下記のキャラを入手できます",
+	name = "ランダムキャラ",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -177212,8 +177284,8 @@ _G.pg.base.item_virtual_data_statistics[200099] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200100] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "一定の確率で下記のキャラを入手できます",
+	name = "ランダムキャラ",
 	combination_display = "",
 	type = 99,
 	index = "",
@@ -177347,8 +177419,8 @@ _G.pg.base.item_virtual_data_statistics[200100] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[200101] = {
-	display = "当前关卡有几率获得以下角色",
-	name = "未知角色",
+	display = "一定の確率で下記のキャラを入手できます",
+	name = "ランダムキャラ",
 	combination_display = "",
 	type = 99,
 	index = "",
