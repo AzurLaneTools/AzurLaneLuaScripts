@@ -1662,7 +1662,7 @@ _G.pg.base.item_virtual_data_statistics[52062] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[52071] = {
-	display = "有几率获得以下蓝图",
+	display = "有機率獲得以下藍圖",
 	name = "未知蓝图",
 	max_num = 0,
 	type = 99,
@@ -1712,8 +1712,8 @@ _G.pg.base.item_virtual_data_statistics[52071] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[52072] = {
-	display = "有几率获得以下设计图",
-	name = "未知限定装备设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知限定装备設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,

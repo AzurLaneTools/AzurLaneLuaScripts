@@ -331,7 +331,7 @@ pg.world_joint_boss_template = {
 	},
 	{
 		item_id = 100000,
-		name = "阿尔及利亚·META",
+		name = "阿爾及利亞·META",
 		painting = "aerjiliya",
 		boss_level_id = 151,
 		id = 11,

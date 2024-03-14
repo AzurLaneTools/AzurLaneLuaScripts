@@ -16022,136 +16022,136 @@ pg.base.activity_ins_language = {
 		value = "你要是覺得我辛苦了，想獎勵我，那就下次帶我做點更有趣的事！"
 	},
 	ins_362 = {
-		value = ""
+		value = "特別調製的紅茶，指揮官一定會喜歡的吧？"
 	},
 	ins_discuss_362_1 = {
-		value = ""
+		value = "怨仇小姐準備的茶，總是飽含創意和衝擊力呢~"
 	},
 	ins_reply_362_1_1 = {
-		value = ""
+		value = "千篇一律的生活總是需要點不一樣的調劑，對吧？"
 	},
 	ins_discuss_362_2 = {
-		value = ""
+		value = "怨仇小姐，泡茶這種事還是交給專業的人就好……"
 	},
 	ins_reply_362_2_1 = {
-		value = ""
+		value = "哎？ 這次我其實還滿有信心的呢……"
 	},
 	ins_discuss_362_3 = {
-		value = ""
+		value = "這……難道是什麼新型沖劑？"
 	},
 	ins_reply_362_3_1 = {
-		value = ""
+		value = "唔……姑且應該是對身體有好處的……？"
 	},
 	ins_op_362_1_1 = {
-		value = ""
+		value = "可、可以一試！"
 	},
 	op_reply_362_1_1 = {
-		value = ""
+		value = "期待指揮官的評價哦，呵呵~"
 	},
 	ins_363 = {
-		value = ""
+		value = "主人日常物品的歸類管理，是優秀女僕必備的技能。"
 	},
 	ins_discuss_363_1 = {
-		value = ""
+		value = "斯庫拉果然很可靠呢，掏耳朵的小工具也辛苦妳保管了~"
 	},
 	ins_reply_363_1_1 = {
-		value = ""
+		value = "一點舉手之勞而已，不用客氣~"
 	},
 	ins_discuss_363_2 = {
-		value = ""
+		value = "有斯庫拉在，就不怕弄丟東西了。"
 	},
 	ins_reply_363_2_1 = {
-		value = ""
+		value = "只要平常管理得當，就不怕弄丟東西了哦。"
 	},
 	ins_discuss_363_3 = {
-		value = ""
+		value = "欸？ 原來我的皇冠在那啊，之前還以為弄丟了，換了個新的……"
 	},
 	ins_reply_363_3_1 = {
-		value = ""
+		value = "整理的時候偶然發現的，還是要注意保管好隨身物品哦，英勇大人。"
 	},
 	ins_op_363_1_1 = {
-		value = ""
+		value = "收拾整理辛苦了！"
 	},
 	op_reply_363_1_1 = {
-		value = ""
+		value = "只是做好分內的事情而已，其他的地方，也需要斯庫拉幫指揮官管理嗎？"
 	},
 	ins_364 = {
-		value = ""
+		value = "呼……趕在門禁之前回來了。"
 	},
 	ins_discuss_364_1 = {
-		value = ""
+		value = "門禁……？"
 	},
 	ins_reply_364_1_1 = {
-		value = ""
+		value = "嗯……算是給自己的一點要求，「要在規定時間之前歸巢」？"
 	},
 	ins_reply_364_1_2 = {
-		value = ""
+		value = "……。簡直像落湯的小雞"
 	},
 	ins_discuss_364_2 = {
-		value = ""
+		value = "今天回來得比平常晚呢，發生了什麼事嗎？"
 	},
 	ins_reply_364_2_1 = {
-		value = ""
+		value = "散步看到了美麗的夜景，差點就忘了時間……"
 	},
 	ins_op_364_1_1 = {
-		value = ""
+		value = "過了門禁會怎樣？"
 	},
 	op_reply_364_1_1 = {
-		value = ""
+		value = "太晚的話，隔天早上起床就……"
 	},
 	ins_365 = {
-		value = ""
+		value = "為什麼倒楣的總是我……"
 	},
 	ins_discuss_365_1 = {
-		value = ""
+		value = "沒事吧！？這就帶妳去醫務室！"
 	},
 	ins_reply_365_1_1 = {
-		value = ""
+		value = "已經沒事了，女灶神和傑維斯她們已經幫忙看過了……"
 	},
 	ins_discuss_365_2 = {
-		value = ""
+		value = "啊，對不起！ 那個球好像是我打出去的……"
 	},
 	ins_reply_365_2_1 = {
-		value = ""
+		value = "沒想到球會飛那麼遠……真的非常抱歉！"
 	},
 	ins_reply_365_2_2 = {
-		value = ""
+		value = "沒事的，我已經習慣這種展開了……"
 	},
 	ins_discuss_365_3 = {
-		value = ""
+		value = "可以試試來神社祈福哦？對驅除霉運很有效果的！"
 	},
 	ins_reply_365_3_1 = {
-		value = ""
+		value = "真的嗎？ 下次我試試吧。"
 	},
 	ins_op_365_1_1 = {
-		value = ""
+		value = "不要緊吧？我幫妳看看？"
 	},
 	op_reply_365_1_1 = {
-		value = ""
+		value = "啊，不用麻煩指揮官的！><"
 	},
 	ins_366 = {
-		value = ""
+		value = "發現指揮室的寶箱！ 裡面會有什麼有趣的東西呢~"
 	},
 	ins_discuss_366_1 = {
-		value = ""
+		value = "怎麼能亂動指揮官的東西！"
 	},
 	ins_reply_366_1_1 = {
-		value = ""
+		value = "哎呀~我沒拿走也沒打開，只是看看嘛，妳不好奇裡面裝的是什麼嘛~？"
 	},
 	ins_reply_366_1_2 = {
-		value = ""
+		value = "我，我對這種才沒有興趣！"
 	},
 	ins_discuss_366_2 = {
-		value = ""
+		value = "所以？打開了嗎？ 裡面有沒有什麼指揮官不可告人的秘密呀~？"
 	},
 	ins_reply_366_2_1 = {
-		value = ""
+		value = "可惜英雄沒有「開鎖」這樣的技能呢~"
 	},
 	ins_op_366_1_1 = {
-		value = ""
+		value = "怎麼翻出來的……"
 	},
 	op_reply_366_1_1 = {
-		value = ""
+		value = "憑藉著勇者對寶箱的嗅覺~"
 	},
 	ins_367 = {
 		value = "趁冬天結束前，堆一個雪人。"
