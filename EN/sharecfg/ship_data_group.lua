@@ -2050,6 +2050,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[970207] = {
 			30030
+		},
+		[970505] = {
+			30031
 		}
 	},
 	all = {
@@ -2735,7 +2738,8 @@ pg.ship_data_group = setmetatable({
 		30027,
 		30028,
 		30029,
-		30030
+		30030,
+		30031
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -31309,6 +31313,41 @@ pg.base.ship_data_group = {
 				"Event: Snowrealm Peregrination",
 				{
 					""
+				},
+				0
+			}
+		}
+	},
+	[30031] = {
+		type = 5,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 97,
+		trans_skin = 0,
+		handbook_type = 3,
+		index_id = 30031,
+		code = 30031,
+		group_type = 970505,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"META Lab - Coordinate Analysis",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9705051
+					}
 				},
 				0
 			}

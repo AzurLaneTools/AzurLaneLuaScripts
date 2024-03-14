@@ -32,6 +32,12 @@ function slot0.execute(slot0, slot1)
 		end
 	end
 
+	if #slot4 <= 0 then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("common_error"))
+
+		return
+	end
+
 	slot9 = pg.ConnectionMgr.GetInstance()
 
 	slot9:Send(11011, {

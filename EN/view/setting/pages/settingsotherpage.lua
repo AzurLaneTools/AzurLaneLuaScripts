@@ -57,11 +57,11 @@ function slot0.GetPanels(slot0)
 	if PLATFORM_CODE == PLATFORM_CH then
 		table.insert(slot1, SettingsAgreementPanle)
 
-		if LuaHelper.GetCHPackageType() == 1 then
-			if CSharpVersion >= 50 and not LOCK_SDK_SERVIVE then
-				table.insert(slot1, SettingsServicePanle)
-			end
+		if LuaHelper.GetCHPackageType() == 1 and CSharpVersion >= 50 and not LOCK_SDK_SERVIVE then
+			table.insert(slot1, SettingsServicePanle)
+		end
 
+		if slot2 == 1 or slot2 == 3 and pg.SdkMgr.GetInstance():IsHuaweiPackage() then
 			table.insert(slot1, SettingsAccountCHPanle)
 		end
 	end

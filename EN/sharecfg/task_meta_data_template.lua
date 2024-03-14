@@ -217,6 +217,11 @@ pg.task_meta_data_template = setmetatable({
 		100163,
 		100164,
 		100165,
+		100171,
+		100172,
+		100173,
+		100174,
+		100175,
 		200001,
 		200002,
 		200003,
@@ -280,7 +285,11 @@ pg.task_meta_data_template = setmetatable({
 		200161,
 		200162,
 		200163,
-		200164
+		200164,
+		200171,
+		200172,
+		200173,
+		200174
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2005,6 +2014,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100171] = {
+		target_id_2 = "970505",
+		sub_type = 180,
+		desc = "Win 1 battle with Rodney META in your fleet.",
+		id = 100171,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100172] = {
+		target_id_2 = "970505",
+		sub_type = 180,
+		desc = "Defeat a Lv. 30+ fleet with Rodney META in your fleet.",
+		id = 100172,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100173] = {
+		target_id_2 = "970505",
+		sub_type = 180,
+		desc = "Defeat a Lv. 55+ fleet with Rodney META in your fleet.",
+		id = 100173,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100174] = {
+		target_id_2 = "970505",
+		sub_type = 180,
+		desc = "Defeat a Lv. 80+ fleet with Rodney META in your fleet.",
+		id = 100174,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100175] = {
+		target_id_2 = "970505",
+		sub_type = 180,
+		desc = "Defeat a Lv. 100+ fleet with Rodney META in your fleet.",
+		id = 100175,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -2514,6 +2563,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Pamiat' Merkuria META in your fleet.",
 		id = 200164,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200171] = {
+		target_id_2 = "970505",
+		sub_type = 302,
+		desc = "Win 1 Operation Siren battle with Rodney META in your fleet.",
+		id = 200171,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200172] = {
+		target_id_2 = "970505",
+		sub_type = 302,
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Rodney META in your fleet.",
+		id = 200172,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200173] = {
+		target_id_2 = "970505",
+		sub_type = 302,
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Rodney META in your fleet.",
+		id = 200173,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200174] = {
+		target_id_2 = "970505",
+		sub_type = 302,
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Rodney META in your fleet.",
+		id = 200174,
 		target_num = 1,
 		target_id = "100"
 	}

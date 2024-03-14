@@ -8046,6 +8046,17 @@ pg.painting_filte_map = {
 			"painting/luodeni_4"
 		}
 	},
+	luodeni_alter = {
+		key = "luodeni_alter",
+		res_list = {
+			"painting/luodeni_alter_tex",
+			"painting/luodeni_alter_rw_tex",
+			"painting/luodeni_alter_n_tex",
+			"painting/luodeni_alter_n",
+			"painting/luodeni_alter_bj_tex",
+			"painting/luodeni_alter"
+		}
+	},
 	luodeni_h = {
 		key = "luodeni_h",
 		res_list = {
@@ -16784,6 +16795,7 @@ pg.painting_filte_map = {
 		"luodeni",
 		"luodeni_2",
 		"luodeni_4",
+		"luodeni_alter",
 		"luodeni_h",
 		"luoen",
 		"luoen_2",

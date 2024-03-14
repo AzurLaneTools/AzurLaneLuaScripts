@@ -426,8 +426,8 @@ pg.base.ship_skin_template_8 = {
 			},
 			torpedo = {
 				{
-					0.472,
-					0.337,
+					0,
+					0,
 					0
 				}
 			},

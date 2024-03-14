@@ -1054,12 +1054,18 @@ return {
 			}
 		},
 		{
-			actor = 705020,
+			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
+			dir = 1,
 			nameColor = "#A9F548FF",
+			actor = 705020,
 			say = "Nothing will happen if we just sit here. Let's think of a way to escape.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

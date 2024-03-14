@@ -2749,6 +2749,9 @@ pg.skill_data_display = setmetatable({
 		801122,
 		801123,
 		801124,
+		801136,
+		801137,
+		801152,
 		902201,
 		1010140,
 		1010143,
@@ -2860,6 +2863,8 @@ pg.skill_data_display = setmetatable({
 		200779,
 		200782,
 		200785,
+		200791,
+		200792,
 		1011540,
 		1011541,
 		1090010,
@@ -13936,6 +13941,18 @@ pg.base.skill_data_display = {
 		id = 801124,
 		name = "Flickering Light - Pamiat' Merkuria II +"
 	},
+	[801136] = {
+		id = 801136,
+		name = "My Phantoms"
+	},
+	[801137] = {
+		id = 801137,
+		name = "My Phantoms"
+	},
+	[801152] = {
+		id = 801152,
+		name = "Demise's Arrival"
+	},
 	[902201] = {
 		id = 902201,
 		name = "Fantastic Loop"
@@ -14379,6 +14396,14 @@ pg.base.skill_data_display = {
 	[200785] = {
 		id = 200785,
 		name = "Experimental Bomber Support"
+	},
+	[200791] = {
+		id = 200791,
+		name = "Rodney's Demise"
+	},
+	[200792] = {
+		id = 200792,
+		name = "Dimensional Transcendence"
 	},
 	[1011540] = {
 		id = 1011540,

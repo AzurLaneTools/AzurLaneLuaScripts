@@ -264,12 +264,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
+		state = "always",
 		name = "Arizona META",
 		painting = "yalisangna",
 		boss_level_id = 121,
 		id = 9,
 		meta_id = 970503,
+		item_id = 100000,
 		description = {
 			{
 				"Contagious Lament",
@@ -280,32 +281,6 @@ pg.world_joint_boss_template = {
 				"Sea of Black Tears",
 				1,
 				"When an enemy ship's max HP falls below 50.0%, she begins recovering HP for the rest of the battle.\nWhen an enemy ship's max HP falls below 20.0%, <color=#92fc63>all her HP recovery will instead be dealt as DMG.</color>"
-			}
-		},
-		state = {
-			{
-				{
-					2022,
-					12,
-					8
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					3,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		p_offset = {
@@ -426,12 +401,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
+		state = "stop",
 		name = "Kirov META",
 		painting = "jiluofu",
 		boss_level_id = 181,
 		id = 13,
 		meta_id = 970206,
+		item_id = 100000,
 		description = {
 			{
 				"Mechanized Support",
@@ -442,32 +418,6 @@ pg.world_joint_boss_template = {
 				"Live and Die by Teamwork",
 				1,
 				"Increases Kirov META's FP, TRP, and ACC for each active support unit. When a support unit is destroyed: <color=#92fc63>decreases Kirov META's defense until the battle ends</color>."
-			}
-		},
-		state = {
-			{
-				{
-					2023,
-					12,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					3,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		p_offset = {
@@ -483,6 +433,69 @@ pg.world_joint_boss_template = {
 			0.8
 		}
 	},
+	{
+		item_id = 100000,
+		name = "Rodney META",
+		painting = "luodeni",
+		boss_level_id = 196,
+		id = 14,
+		meta_id = 970505,
+		description = {
+			{
+				"Dimensional Transcendence",
+				1,
+				"When your fleet fires a main gun salvo or launches an airstrike consecutively within 1.5 seconds of each other, Rodney META enters the Dimensional Transcendence state, <color=#92fc63>increasing her SPD and making her untargetable and immune to DMG for 4s</color>."
+			},
+			{
+				"My Phantoms",
+				3,
+				"When the battle starts: summons 7 phantoms of Rodney. \nThe phantoms do not attack and their DMG taken is set to 1. <color=#92fc63>When a phantom is eliminated, Rodney META's DMG dealt increases and her DMG taken decreases.</color> \nWhen the battle is at 10s remaining: all phantoms are eliminated."
+			},
+			{
+				"Rodney's Demise",
+				2,
+				"When all Rodney phantoms are eliminated, Rodney META enters the Dimensional Transcendence state; when this state ends, Rodney META<color=#92fc63>fires the final shot,</color> ending the battle."
+			}
+		},
+		state = {
+			{
+				{
+					2024,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			36.7,
+			679.8,
+			1,
+			1
+		},
+		p_offset_other = {
+			632,
+			679.8,
+			1,
+			1
+		}
+	},
 	all = {
 		1,
 		2,
@@ -496,6 +509,7 @@ pg.world_joint_boss_template = {
 		10,
 		11,
 		12,
-		13
+		13,
+		14
 	}
 }

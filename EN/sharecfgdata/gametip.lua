@@ -4473,9 +4473,9 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 - META Showdown Overview -
 
-From <color=#92fc63>12/7/23 to 3/13/24</color>, challenge Kirov META
+From <color=#92fc63>3/14/24 to 6/12/24</color>, challenge Rodney META
 to earn Sync Points. Sync Points can be used
-to obtain the limited character, <color=#92fc63>Kirov META</color> as well
+to obtain the limited character, <color=#92fc63>Rodney META</color> as well
 as other great rewards.
 <color=#ff5c5c>Note: Sync Points will expire after the event period ends.</color>
 
@@ -24110,6 +24110,18 @@ _G.pg.base.gametip.battle_text_haidao_2 = {
 
 _G.pg.base.gametip.battle_text_tongmeng_1 = {
 	tip = "2F 2A 77 68 61 74 20 68 61 70 70 65 6E 64 2A 2F"
+}
+
+_G.pg.base.gametip.battle_text_luodeni_1 = {
+	tip = "As the number of phantoms decreases, <color=#f1f102>Rodney META grows stronger.</color>"
+}
+
+_G.pg.base.gametip.battle_text_luodeni_2 = {
+	tip = "<color=#ffc038>Harmony is restored; an instant becomes an eternity; the Demise is coming; let us witness it.</color>"
+}
+
+_G.pg.base.gametip.battle_text_luodeni_3 = {
+	tip = "Rodney META <color=#ffc038>cannot use the skill Rodney's Demise</color> while she still has phantoms."
 }
 
 _G.pg.base.gametip.series_enemy_mood = {

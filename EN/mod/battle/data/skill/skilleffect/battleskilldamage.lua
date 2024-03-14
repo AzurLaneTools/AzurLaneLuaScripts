@@ -12,14 +12,12 @@ end
 
 function slot0.Battle.BattleSkillDamage.DoDataEffect(slot0, slot1, slot2)
 	slot4, slot5 = slot2:GetHP()
-	slot6 = math.floor(slot5 * slot0._rate) + slot0._number
 
-	slot2:UpdateHP(-slot6, {
+	uv0.Battle.BattleDataProxy.GetInstance():DamageStatistics(slot1:GetAttrByName("id"), slot2:GetAttrByName("id"), -slot2:UpdateHP(-(math.floor(slot5 * slot0._rate) + slot0._number), {
 		isMiss = false,
 		isCri = false,
 		isHeal = false
-	})
-	uv0.Battle.BattleDataProxy.GetInstance():DamageStatistics(slot1:GetAttrByName("id"), slot2:GetAttrByName("id"), slot6)
+	}))
 
 	if not slot2:IsAlive() then
 		uv0.Battle.BattleAttr.Spirit(slot2)

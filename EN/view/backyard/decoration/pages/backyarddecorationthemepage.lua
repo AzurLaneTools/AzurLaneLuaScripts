@@ -45,7 +45,7 @@ function slot0.InitList(slot0)
 	slot0:SortDisplays()
 end
 
-function slot1(slot0, slot1, slot2)
+function slot1(slot0, slot1)
 	if (slot0.isEmpty and 1 or 0) == (slot1.isEmpty and 1 or 0) then
 		if (slot0:IsSystem() and 1 or 0) == (slot1:IsSystem() and 1 or 0) then
 			if slot0.order == slot1.order then
@@ -54,16 +54,36 @@ function slot1(slot0, slot1, slot2)
 				return slot1.order < slot0.order
 			end
 		else
-			return slot5 < slot6
+			return slot4 < slot5
 		end
 	else
-		return slot4 < slot3
+		return slot3 < slot2
+	end
+end
+
+function slot2(slot0, slot1)
+	if (slot0.isEmpty and 1 or 0) == (slot1.isEmpty and 1 or 0) then
+		if (slot0:IsSystem() and 1 or 0) == (slot1:IsSystem() and 1 or 0) then
+			if slot0.order == slot1.order then
+				return slot0.id < slot1.id
+			else
+				return slot0.order < slot1.order
+			end
+		else
+			return slot5 < slot4
+		end
+	else
+		return slot3 < slot2
 	end
 end
 
 function slot0.SortDisplays(slot0)
 	table.sort(slot0.displays, function (slot0, slot1)
-		return uv0(slot0, slot1, uv1.orderMode)
+		if uv0.orderMode == BackYardDecorationFilterPanel.ORDER_MODE_ASC then
+			return uv1(slot0, slot1)
+		else
+			return uv2(slot0, slot1)
+		end
 	end)
 	slot0:SetTotalCount()
 end

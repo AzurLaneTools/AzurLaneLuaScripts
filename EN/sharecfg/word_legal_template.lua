@@ -6580,7 +6580,18 @@ function temp()
 				n = {
 					e = {
 						y = {
-							this = true
+							this = true,
+							[" "] = {
+								M = {
+									E = {
+										T = {
+											A = {
+												this = true
+											}
+										}
+									}
+								}
+							}
 						}
 					}
 				}
