@@ -4384,12 +4384,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40583,
-				196
-			},
-			{
-				40590,
-				198
+				4718,
+				304
 			}
 		}
 	},
@@ -4398,12 +4394,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40583,
-				196
-			},
-			{
-				40590,
-				198
+				4718,
+				304
 			}
 		}
 	},
@@ -4412,12 +4404,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40583,
-				196
-			},
-			{
-				40590,
-				198
+				4718,
+				304
 			}
 		}
 	},
@@ -4426,12 +4414,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40584,
-				196
-			},
-			{
-				40590,
-				198
+				4719,
+				304
 			}
 		}
 	},
@@ -4440,12 +4424,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40584,
-				196
-			},
-			{
-				40590,
-				198
+				4719,
+				304
 			}
 		}
 	},
@@ -4454,96 +4434,68 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40584,
-				196
-			},
-			{
-				40590,
-				198
+				4719,
+				304
 			}
 		}
 	},
 	[1512013] = {
 		id = 1512013,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40583,
-				196
-			},
-			{
-				40590,
-				198
+				4718,
+				304
 			}
 		}
 	},
 	[1512113] = {
 		id = 1512113,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40583,
-				196
-			},
-			{
-				40590,
-				198
+				4718,
+				304
 			}
 		}
 	},
 	[1512213] = {
 		id = 1512213,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40583,
-				196
-			},
-			{
-				40590,
-				198
+				4718,
+				304
 			}
 		}
 	},
 	[1513013] = {
 		id = 1513013,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40584,
-				196
-			},
-			{
-				40590,
-				198
+				4719,
+				304
 			}
 		}
 	},
 	[1513113] = {
 		id = 1513113,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40584,
-				196
-			},
-			{
-				40590,
-				198
+				4719,
+				304
 			}
 		}
 	},
 	[1513213] = {
 		id = 1513213,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40584,
-				196
-			},
-			{
-				40590,
-				198
+				4719,
+				304
 			}
 		}
 	},
@@ -4552,12 +4504,8 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				40584,
-				196
-			},
-			{
-				40590,
-				198
+				4719,
+				304
 			}
 		}
 	},

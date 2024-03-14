@@ -1769,6 +1769,21 @@ pg.ship_data_group = setmetatable({
 		[89903] = {
 			20027
 		},
+		[19904] = {
+			20028
+		},
+		[39906] = {
+			20029
+		},
+		[49908] = {
+			20030
+		},
+		[49909] = {
+			20031
+		},
+		[99902] = {
+			20032
+		},
 		[970701] = {
 			30001
 		},
@@ -1831,6 +1846,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[971201] = {
 			30022
+		},
+		[970302] = {
+			30023
 		},
 		[970103] = {
 			30024
@@ -2429,6 +2447,11 @@ pg.ship_data_group = setmetatable({
 		20025,
 		20026,
 		20027,
+		20028,
+		20029,
+		20030,
+		20031,
+		20032,
 		30001,
 		30002,
 		30003,
@@ -2450,6 +2473,7 @@ pg.ship_data_group = setmetatable({
 		30019,
 		30020,
 		30022,
+		30023,
 		30024,
 		30026
 	}
@@ -23427,6 +23451,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"軍需商店兌換",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -23736,6 +23770,16 @@ pg.base.ship_data_group = {
 				"限時活動：穹頂下的聖詠曲",
 				{
 					""
+				},
+				0
+			},
+			{
+				"軍需商店兌換",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -26197,6 +26241,181 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[20028] = {
+		type = 10,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 1,
+		trans_skin = 0,
+		handbook_type = 2,
+		index_id = 20028,
+		code = 20028,
+		group_type = 19904,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"S",
+			"E",
+			"A",
+			"D",
+			"B",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"科研開發",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 19904
+					}
+				},
+				0
+			}
+		}
+	},
+	[20029] = {
+		type = 2,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 3,
+		trans_skin = 0,
+		handbook_type = 2,
+		index_id = 20029,
+		code = 20029,
+		group_type = 39906,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"A",
+			"E",
+			"C",
+			"A",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"科研開發",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 39906
+					}
+				},
+				0
+			}
+		}
+	},
+	[20030] = {
+		type = 1,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 4,
+		trans_skin = 0,
+		handbook_type = 2,
+		index_id = 20030,
+		code = 20030,
+		group_type = 49908,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"B",
+			"D",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"科研開發",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 49908
+					}
+				},
+				0
+			}
+		}
+	},
+	[20031] = {
+		type = 3,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 4,
+		trans_skin = 0,
+		handbook_type = 2,
+		index_id = 20031,
+		code = 20031,
+		group_type = 49909,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"B",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"科研開發",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 49909
+					}
+				},
+				0
+			}
+		}
+	},
+	[20032] = {
+		type = 5,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 9,
+		trans_skin = 0,
+		handbook_type = 2,
+		index_id = 20032,
+		code = 20032,
+		group_type = 99902,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"D",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"科研開發",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 99902
+					}
+				},
+				0
+			}
+		}
+	},
 	[30001] = {
 		type = 7,
 		redirect_id = 101,
@@ -26926,6 +27145,41 @@ pg.base.ship_data_group = {
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9712011
+					}
+				},
+				0
+			}
+		}
+	},
+	[30023] = {
+		type = 3,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 97,
+		trans_skin = 0,
+		handbook_type = 3,
+		index_id = 30023,
+		code = 30023,
+		group_type = 970302,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：META研究室-資訊同步",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9703021
 					}
 				},
 				0

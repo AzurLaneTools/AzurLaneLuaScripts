@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"于阳光照耀之外\n\n<size=45>二　不被人注意的角落</size>",
+					"於陽光照耀之外\n\n<size=45>二　不被人注意的角落</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "翌日早晨，阳光已经铺满了道路，太阳已经升得很高了。",
+			say = "翌日早晨，陽光已經鋪滿了道路，太陽已經升得很高了。",
 			bgmDelay = 2,
 			bgm = "story-richang-2",
 			flashout = {
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "带着疲惫抵达指挥室的时候，已经过了上班的时间了。",
+			say = "帶著疲憊抵達指揮室的時候，已經過了上班的時間了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "好在扫视一圈之后发现，指挥室里似乎并没有人。",
+			say = "好在掃視一圈之後發現，指揮室裡似乎沒有人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "呼……先工作一会吧。今天要处理的事情也依然不少呢。",
+			say = "呼……先工作一會兒吧。今天要處理的事情也依然不少呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "面前处理完的文件已经堆成了一座小山，换来的是腰酸背痛……",
+			say = "面前處理完的文件已經堆成了一座小山，換來的是腰酸背痛……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "终于熬到了休息时间……不过没见到托里拆利，她去哪了呢？",
+			say = "終於撐到休息時間了……不過沒見到托里切利，她去哪裡了呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			actorName = "？？？",
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
-			say = "差不多忙完了吗，指挥官……？",
+			say = "差不多忙完了嗎，指揮官……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "……！被突然的问候吓了一跳。转过头一看，是正静静地待在角落里的托里拆利。",
+			say = "……！被突然的問候嚇了一跳。轉過頭一看，是正靜靜地待在角落的托里切利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "难道她一直都在？……因为躲在阴影里，完全没注意到她？",
+			say = "難道她一直都在？……因為躲在陰影裡，完全沒注意到她？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "猜对了，我一直都在……我喜欢一个人待在安静阴暗的角落里，会感到很自在。",
+			say = "猜對了，我一直都在……我喜歡一個人待在安靜陰暗的角落裡，會感到很自在。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "再就是……看指挥官工作挺投入的，所以没舍得打扰你……唔呼呼~",
+			say = "再來就是……看指揮官工作很投入，所以捨不得打擾你……唔呼呼~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "……看她的表情，不会单纯是想摸一会鱼，所以没有叫我吧？",
+			say = "……看她的表情，不會單純是想摸魚一陣子，所以沒有叫我吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "……不说话就是默认了，对吧？",
+			say = "……不說話就是默認了，對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "……先不提这个，指挥官要是累了的话，就来陪我一起休息一会吧。",
+			say = "……先不提這個，指揮官要是累了的話，就來陪我一起休息一下吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "不要岔开话题……而且，托里拆利不是说过自己比较喜欢独处么？",
+			say = "不要岔開話題……而且，托里切利不是說過自己比較喜歡獨處嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "按理说是这样，一个人待着会更舒服……",
+			say = "照理說是這樣，一個人待著會比較舒服……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "但是很奇怪，和指挥官在一起的时候，不太会感受到那种被窥探的讨厌感觉……",
+			say = "但是很奇怪，和指揮官在一起的時候，不太會感受到那種被窺探的討厭感覺……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "更何况指挥官又勤劳又会照顾人……这么说起来，和指挥官这样一直待着感觉也不错呢~",
+			say = "更何況指揮官又勤奮又會照顧人……這麼說起來，和指揮官這樣一直待著感覺也不錯呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "作、作为补偿，我来帮指挥官舒缓一下疲劳好了。",
+			say = "作、作為補償，我來幫指揮官舒緩一下疲勞好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "从、从书上看的按摩手法……应该会有效。",
+			say = "從、從書上看的按摩手法……應該會有效。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "享受着托里拆利的按摩……不，用享受这个词或许有些言过其实，只能说是……一种比较新奇的体验吧。",
+			say = "享受著托里切利的按摩……不，用享受這個詞或許有些言過其實，只能說是……一種比較新奇的體驗吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "能感觉得出来她似乎有在努力尝试，但是在手法和力度上还相当粗糙。",
+			say = "能感覺得出來她似乎有在努力嘗試，但是在手法和力度上還相當粗糙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "咦，怎么会？明明是按照理论上最佳的力度来做的，应该会相当舒适才对……",
+			say = "咦，怎麼會？明明是按照理論上最佳的力道來做的，應該會相當舒適才對……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,7 +434,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "难道是理论出错了吗？",
+			say = "難道是理論出錯了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "我想应该不会……只是像按摩这样的事情，如果不亲自上手积累一些手头经验的话，恐怕没办法把书本的知识为己所用吧。",
+			say = "我想應該不會……只是像按摩這樣的事情，如果不親自上手累積一些手頭經驗的話，恐怕沒辦法把書本的知識為己所用吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "原来如此原来如此……那就把这一条意见也编辑进我的理论里面好了。",
+			say = "原來如此原來如此……那就把這一條意見也編輯進我的理論裡面好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "……那个，按摩只是作为你辛勤工作的回报而已，没有别的意思……",
+			say = "……那個，按摩只是作為你辛勤工作的回報而已，沒有別的意思……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			actor = 608010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "托里拆利还是喜欢一个人待着的……嗯。",
+			say = "托里切利還是喜歡一個人待著的……嗯。",
 			painting = {
 				alpha = 0.3,
 				time = 1

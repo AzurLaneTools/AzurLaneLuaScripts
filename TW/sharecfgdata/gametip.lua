@@ -4090,7 +4090,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信標·META功能說明
 
-1. <color=#92fc63>2023.12.14~2024.3.14</color>期間限時開放「伊莉莎白女王·META」的挑戰，在此期間指揮官可挑戰「伊莉莎白女王·META」累計其同步值獲取<color=#92fc63>「伊莉莎白女王·META」角色</color>及其他豐厚獎勵
+1. <color=#92fc63>2024.3.14~2024.6.6</color>期間限時開放「阿爾及利亞·META」的挑戰，在此期間指揮官可挑戰「阿爾及利亞·META」累計其同步值獲取<color=#92fc63>「阿爾及利亞·META」角色</color>及其他豐厚獎勵
 <color=#ff5c5c>注意：同步值將於時間結束後消失</color>
 
 2.「信標數據」獲取與解析
@@ -4119,7 +4119,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>請在參與作戰時保持網路環境順暢</color>
 
 6.火力支援
-隨著信標·META挑戰的進行，從第31天開始，即2024.1.15~2024.3.14期間，艦隊挑戰「伊莉莎白女王·META」時將會獲得一次額外火力支援。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標·META開放的日期增加，火力支援提供的傷害也會增加。
+隨著信標·META挑戰的進行，從第31天開始，即2024.4.15~2024.6.6期間，艦隊挑戰「阿爾及利亞·META」時將會獲得一次額外火力支援。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標·META開放的日期增加，火力支援提供的傷害也會增加。
 ※此支援只會在指揮官自己發現的信標·META戰鬥中出現，每次挑戰均會觸發。]]
 		}
 	}
@@ -9694,15 +9694,15 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "怨仇、斯庫拉、皇家橡樹、百眼巨人 建造機率UP！"
+	tip = "維托里奧·維內托、天鷹、西南風、西北風、尼科洛索·達·雷科 建造機率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "布雷默頓 建造追加！"
+	tip = "黎胥留、阿爾及利亞 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "追風、神速 建造追加！"
+	tip = "可怖、聖女貞德、馬耶.布雷澤、沃克蘭、塔爾圖 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
@@ -11274,6 +11274,66 @@ _G.pg.base.gametip.blueprint_simulation_confirm_89903 = {
 使用裝備：<color=#92fc63>
 試作型四聯裝330mm主炮Mle1931（超巡用）
 138.6mm單裝炮Mle1929
+雙聯40mm博福斯對空機炮
+</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_19904 = {
+	tip = [[
+<size=28>
+是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，
+<color=#ff5c5c>實際性能以獲得艦船為準</color>）
+使用裝備：<color=#92fc63>
+ 試作型三聯裝406mm主炮Mk6改
+F8F熊貓
+雙聯裝127mm高平兩用炮Mk12(定時引信)
+</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_39906 = {
+	tip = [[
+<size=28>
+是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，
+<color=#ff5c5c>實際性能以獲得艦船為準</color>）
+使用裝備：<color=#92fc63>
+ 試作型三聯裝150mm五式高平兩用炮
+四聯裝610mm魚雷
+100mm連裝高炮
+</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_49908 = {
+	tip = [[
+<size=28>
+是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，
+<color=#ff5c5c>實際性能以獲得艦船為準</color>）
+使用裝備：<color=#92fc63>
+ 試作型雙聯裝TbtsKC42T式150mm主炮
+四聯裝533mm磁性魚雷
+試作型55mm Gerät 58防空炮
+</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_49909 = {
+	tip = [[
+<size=28>
+是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，
+<color=#ff5c5c>實際性能以獲得艦船為準</color>）
+使用裝備：<color=#92fc63>
+ 試作型三聯裝203mmSKC主炮改
+四聯裝533mm磁性魚雷
+試作型三聯裝203mmSKC主炮改
+</color></size>]]
+}
+
+_G.pg.base.gametip.blueprint_simulation_confirm_99902 = {
+	tip = [[
+<size=28>
+是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，
+<color=#ff5c5c>實際性能以獲得艦船為準</color>）
+使用裝備：<color=#92fc63>
+ 試作型三聯裝380mm主炮Mle1935
+三聯裝152mm主炮Mle1930
 雙聯40mm博福斯對空機炮
 </color></size>]]
 }
@@ -21274,7 +21334,7 @@ _G.pg.base.gametip.avatar_upgrad_3 = {
 }
 
 _G.pg.base.gametip.avatar_task_ship_1 = {
-	tip = "獲得艦船「$1」"
+	tip = "船塢中擁有艦船「$1」"
 }
 
 _G.pg.base.gametip.avatar_task_ship_2 = {

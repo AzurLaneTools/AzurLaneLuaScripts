@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"于阳光照耀之外\n\n<size=45>六　意料之外的关怀</size>",
+					"於陽光照耀之外\n\n<size=45>六　意料之外的關懷</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "几日过去——",
+			say = "幾日過去——",
 			bgmDelay = 2,
 			bgm = "story-richang-8",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "工作的情况渐渐好起来了，托里拆利也渐渐适应了秘书舰的职责。",
+			say = "工作的情況漸漸好起來了，托里切利也漸漸適應了秘書艦的職責。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "像是资料整理这样的工作，她已经能做得挺熟练了。",
+			say = "像是資料整理這樣的工作，她已經能做得很熟練了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "虽然偶尔还是会感觉和她的脑回路有些对不上电波，但总体来说，她已经算得上是能独当一面的秘书舰了。",
+			say = "雖然偶爾還是會感覺和她的腦迴路有些對不上電波，但總體來說，她已經算得上是能獨當一面的秘書艦了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "没错，就像这样多夸夸我也没关系~",
+			say = "沒錯，就像這樣多誇誇我也沒關係~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,18 +97,18 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "托里拆利把头凑了过来，看起来是想要夸奖的样子。",
+			say = "托里切利把頭湊了過來，看起來是想要誇獎的樣子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "摸摸她的头",
+					content = "摸摸她的頭",
 					flag = 1
 				},
 				{
-					content = "揉乱她的头发",
+					content = "揉亂她的頭髮",
 					flag = 2
 				}
 			}
@@ -122,7 +122,7 @@ return {
 			actor = 608010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……再多摸一会……呼呼呼……",
+			say = "嗯……再多摸一下……呼呼呼……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			optionFlag = 1,
-			say = "托里拆利难得地露出了害羞的表情。",
+			say = "托里切利難得地露出了害羞的表情。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			actor = 608010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "已、已经够乱了……不要再揉了……",
+			say = "已、已經夠亂了……不要再揉了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "不过说起来，之前工作不太顺利，很大程度上也是出于她的原因……",
+			say = "不過說起來，之前工作不太順利，很大程度也是因為她的原因……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "那、那种事情就翻篇过去，忘掉它吧！",
+			say = "那、那種事情就翻篇過去，忘掉它吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "咳……换个话题好了。指挥官，看看这个！",
+			say = "咳……換個話題好了。指揮官，看看這個！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "托里拆利递过来一个大大的礼物盒。",
+			say = "托里切利遞過來一個大大的禮物盒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,14 +252,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "有些意外，没想到在这种时候会收到她的礼物……真是意料之外的关怀。",
+			say = "有些意外，沒想到在這種時候會收到她的禮物……真是意料之外的關懷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "打开礼物箱",
+					content = "打開禮物箱",
 					flag = 1
 				}
 			}
@@ -268,7 +268,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "里面是一个精巧的仪器，似乎可以把文件放到上面的样子？",
+			say = "裡面是一個精巧的儀器，似乎可以把文件放到上面的樣子？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "是送给指挥官的！我、我想，指挥官现在最需要的东西应该是协助工作的东西吧？",
+			say = "是送給指揮官的！我、我想，指揮官現在最需要的東西應該是協助工作的東西吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "我找达芬奇做了一个可以根据文件标签自动把文件进行分类的小工作台。",
+			say = "我找達文西做了一個可以根據文件標籤自動把文件進行分類的小工作台。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "这样的话，指挥官要处理文件就会快上许多了吧？也可以省出来更多时间陪我了，呼呼呼~",
+			say = "這樣的話，指揮官要處理文件就會快上許多了吧？也可以省出來更多時間陪我了，呼呼呼~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "看起来确实是个挺有用的工具，但是……之前文件分类和资料整理不是她的工作吗？",
+			say = "看起來確實是個挺有用的工具，但是……之前文件分類和資料整理不是她的工作嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "对~所以我也可以闲下来啦。哈，摸鱼真好~想去寂静的角落一个人待着~",
+			say = "對~所以我也可以閒下來囉。哈，摸魚真好~想去寂靜的角落一個人待著~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,7 +360,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "………………所以我要做的工作量其实完全没有减少啊。",
+			say = "………………所以我要做的工作量其實完全沒有減少啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "唉。这里还是夸奖一下她吧——",
+			say = "唉。這裡還是誇獎一下她吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

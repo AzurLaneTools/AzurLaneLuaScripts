@@ -36,4 +36,24 @@ function slot0.Build1Action4Desc(slot0)
 	return slot0 .. ""
 end
 
+slot1 = 1
+slot2 = 1
+slot3 = 2
+
+function slot0.StoryStart(slot0)
+	pg.m02:sendNotification(GAME.NEW_TRACK, {
+		type = uv0,
+		eventId = uv1,
+		para1 = tostring(slot0)
+	})
+end
+
+function slot0.StorySkip(slot0)
+	pg.m02:sendNotification(GAME.NEW_TRACK, {
+		type = uv0,
+		eventId = uv1,
+		para1 = tostring(slot0)
+	})
+end
+
 return slot0

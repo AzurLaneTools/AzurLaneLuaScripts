@@ -82,6 +82,10 @@ pg.ship_meta_breakout = setmetatable({
 		9705042,
 		9705043,
 		9705044,
+		9705051,
+		9705052,
+		9705053,
+		9705054,
 		9706011,
 		9706012,
 		9706013,
@@ -1413,6 +1417,73 @@ pg.base.ship_meta_breakout = {
 		pre_id = 9705043,
 		weapon_ids = {}
 	},
+	[9705051] = {
+		breakout_view = "习得技能【构造之理·罗德尼】/主炮底座+1/主炮效率提高5%",
+		gold = 1000,
+		breakout_id = 9705052,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9705051,
+		item1 = 21031,
+		pre_id = 0,
+		weapon_ids = {
+			24200,
+			24200
+		}
+	},
+	[9705052] = {
+		breakout_view = "副炮底座+2/主炮效率提高10%",
+		gold = 3000,
+		breakout_id = 9705053,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9705052,
+		item1 = 21031,
+		pre_id = 9705051,
+		weapon_ids = {
+			22100,
+			22100,
+			22100
+		}
+	},
+	[9705053] = {
+		breakout_view = "【构造之理·罗德尼】升级/主炮底座+1/主炮效率提高15%",
+		gold = 10000,
+		breakout_id = 9705054,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9705053,
+		item1 = 21031,
+		pre_id = 9705052,
+		weapon_ids = {
+			24200,
+			24200,
+			24200
+		}
+	},
+	[9705054] = {
+		breakout_view = "无",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9705054,
+		item1 = 21031,
+		pre_id = 9705053,
+		weapon_ids = {}
+	},
 	[9706011] = {
 		breakout_view = "習得技能【破敵之炬·{namecode:220}】/所有魚雷機+1/艦載機效率提高3%",
 		gold = 500,
@@ -1949,7 +2020,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9703021] = {
-		breakout_view = "习得技能【逐光之焰·阿尔及利亚】/主炮效率提高5%",
+		breakout_view = "習得技能【逐光之焰·阿爾及利亞】/主炮效率提高5%",
 		gold = 1000,
 		breakout_id = 9703022,
 		repair = 0,
@@ -1965,7 +2036,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9703022] = {
-		breakout_view = "鱼雷底座+1/鱼雷预装填+1/鱼雷效率提高10%",
+		breakout_view = "魚雷底座+1/魚雷預裝+1/魚雷效率提升10%",
 		gold = 3000,
 		breakout_id = 9703023,
 		repair = 0,
@@ -1982,7 +2053,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9703023] = {
-		breakout_view = "【逐光之焰·阿尔及利亚】升级/鱼雷效率提高15%",
+		breakout_view = "【逐光之焰·阿爾及利亞】升級/魚雷效率提高15%",
 		gold = 10000,
 		breakout_id = 9703024,
 		repair = 0,
@@ -1998,7 +2069,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9703024] = {
-		breakout_view = "无",
+		breakout_view = "無",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,

@@ -157264,8 +157264,8 @@ _G.pg.base.item_virtual_data_statistics[59398] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[59399] = {
-	display = "用于「限时体验商店」兑换角色限时换装",
-	name = "换装体验券",
+	display = "用於「限時體驗商店」兌換角色限時換裝",
+	name = "換裝體驗券",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
@@ -157288,8 +157288,8 @@ _G.pg.base.item_virtual_data_statistics[59399] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[59400] = {
-	display = "于「复兴的赞美诗」活动限时复刻中获取，可以免费进行一次期间限定建造（活动结束后消失）",
-	name = "单次建造券",
+	display = "於「復興的讚美詩」活動限時復刻中獲取，可以免費進行一次期間限定建造（活動結束後消失）",
+	name = "單次建造券",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -159319,6 +159319,54 @@ _G.pg.base.item_virtual_data_statistics[59532] = {
 	is_world = 0,
 	icon = "Props/tongmeng_pt",
 	id = 59532,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[59533] = {
+	display = "用于「虚像构筑之塔」复刻活动兑换，活动结束后将会消失",
+	name = "虚像PT",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/tower_pt",
+	id = 59533,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[59534] = {
+	display = "用于「限时体验商店」兑换角色限时换装",
+	name = "换装体验券",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59534,
 	order = 0,
 	display_icon = {},
 	price = {},

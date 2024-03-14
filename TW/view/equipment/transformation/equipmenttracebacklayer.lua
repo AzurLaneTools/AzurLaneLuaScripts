@@ -136,7 +136,7 @@ function slot0.UpdateSort(slot0)
 			return slot4 < slot5
 		end
 
-		return (slot0.source.template.config[slot2] - slot1.source.template.config[slot2] ~= 0 and slot8 or slot0.source.template.id - slot1.source.template.id) * slot3 > 0
+		return (slot0.source.template:getConfigTable()[slot2] - slot1.source.template:getConfigTable()[slot2] ~= 0 and slot8 or slot0.source.template.id - slot1.source.template.id) * slot3 > 0
 	end)
 	setText(slot0.orderText, i18n(uv1[slot0.contextData.sortOrder]))
 	slot0.loader:GetSprite("ui/equipmenttracebackui_atlas", uv2[slot0.contextData.sortType], slot0.sortImg)

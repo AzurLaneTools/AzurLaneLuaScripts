@@ -222,6 +222,7 @@ pg.memory_group = setmetatable({
 		581,
 		582,
 		583,
+		584,
 		587
 	}
 }, confHX)
@@ -4707,6 +4708,23 @@ pg.base.memory_group = {
 			2565,
 			2566,
 			2567
+		}
+	},
+	[584] = {
+		id = 584,
+		subtype = 0,
+		icon = "title_chara_tuolichaili",
+		type = 3,
+		link_event = 0,
+		title = "於陽光照耀之外",
+		memories = {
+			2601,
+			2602,
+			2603,
+			2604,
+			2605,
+			2606,
+			2607
 		}
 	},
 	[587] = {

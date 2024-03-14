@@ -221,12 +221,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
+		state = "stop",
 		name = "聲望·META",
 		painting = "shengwang",
 		boss_level_id = 106,
 		id = 8,
 		meta_id = 970404,
+		item_id = 100000,
 		description = {
 			{
 				"流星火雨",
@@ -249,32 +250,6 @@ pg.world_joint_boss_template = {
 				"戰鬥中將會出現巨型熔岩形狀球體，觸碰敵方主力造成巨額傷害，並完全解除航母的隱蔽狀態。"
 			}
 		},
-		state = {
-			{
-				{
-					2023,
-					6,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					9,
-					21
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		p_offset = {
 			-49.8,
 			589.5,
@@ -289,12 +264,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
+		state = "stop",
 		name = "亞利桑那·META",
 		painting = "yalisangna",
 		boss_level_id = 121,
 		id = 9,
 		meta_id = 970503,
+		item_id = 100000,
 		description = {
 			{
 				"擴散的哀傷",
@@ -307,32 +283,6 @@ pg.world_joint_boss_template = {
 				"任意敵方單位耐久 低於50%時，其會受到額外的恢復效果。\n任意敵方單位耐久低於20%時，其受到的<color=#92fc63>所有恢復效果將被反轉為傷害。</color> "
 			}
 		},
-		state = {
-			{
-				{
-					2023,
-					9,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					12,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		p_offset = {
 			-49.8,
 			589.5,
@@ -347,12 +297,13 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		item_id = 100000,
+		state = "stop",
 		name = "伊莉莎白女王·META",
 		painting = "yilishabainvwang",
 		boss_level_id = 136,
 		id = 10,
 		meta_id = 970504,
+		item_id = 100000,
 		description = {
 			{
 				"「伊莉莎白」象限展開",
@@ -363,32 +314,6 @@ pg.world_joint_boss_template = {
 				"META親和力",
 				2,
 				"本身對非META角色造成的傷害提高，同時受到來自META角色的更多傷害。"
-			}
-		},
-		state = {
-			{
-				{
-					2023,
-					12,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					3,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		p_offset = {
@@ -404,6 +329,64 @@ pg.world_joint_boss_template = {
 			0.9
 		}
 	},
+	{
+		item_id = 100000,
+		name = "阿尔及利亚·META",
+		painting = "aerjiliya",
+		boss_level_id = 151,
+		id = 11,
+		meta_id = 970302,
+		description = {
+			{
+				"墮天之柱",
+				3,
+				"戰鬥開始時召喚四根「墮天之柱」，並使得自身受到的傷害降低30%。 \n當任意墮天之柱受到攻擊時，自身會<color=#92fc63>代替其承受25%的傷害</color>。 \n墮天之柱的血量極高。 "
+			},
+			{
+				"滌罪之焰",
+				1,
+				"自身在戰鬥中的部分攻擊會令被命中單位受到名為滌罪之焰的<color=#92fc63>特殊點燃效果</color>影響，該點燃單次持續時間較短，但固定傷害較高。 \n同時，固定每隔9秒本身便會對<color=#92fc63>目前耐久值最低的敵方單位</color>施加滌罪之焰，目標選擇無視後排隱匿。 "
+			}
+		},
+		state = {
+			{
+				{
+					2024,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			-7,
+			685,
+			0.9,
+			0.9
+		},
+		p_offset_other = {
+			659,
+			684.2,
+			0.9,
+			0.9
+		}
+	},
 	all = {
 		1,
 		2,
@@ -414,6 +397,7 @@ pg.world_joint_boss_template = {
 		7,
 		8,
 		9,
-		10
+		10,
+		11
 	}
 }

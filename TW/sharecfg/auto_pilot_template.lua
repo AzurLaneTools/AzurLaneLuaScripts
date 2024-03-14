@@ -10079,11 +10079,12 @@ pg.auto_pilot_template = {
 				to = 1,
 				type = 3,
 				param = {
-					Z1 = 35,
-					Z2 = 75,
-					X2 = -5,
-					moveCount = 300,
+					Z1 = 24,
+					Z2 = 80,
 					duration = -1,
+					X2 = 0,
+					moveCount = 300,
+					valve = 1,
 					X1 = -20,
 					stopCount = 0
 				}

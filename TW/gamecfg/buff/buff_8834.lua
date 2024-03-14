@@ -15,13 +15,10 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				randExtraRange = 70,
-				dotType = 10,
 				time = 0.16,
-				number = -6835,
-				WorldBossDotDamage = {
-					paramA = 300,
-					useGlobalAttr = "WorldBossSupportDays"
+				metaDot = true,
+				tagOnly = {
+					"BOSS"
 				}
 			}
 		}

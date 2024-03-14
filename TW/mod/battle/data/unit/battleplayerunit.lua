@@ -446,14 +446,14 @@ function slot7.LeaderSetting(slot0)
 end
 
 function slot7.UpdateHP(slot0, slot1, slot2, slot3, slot4)
-	uv0.super.UpdateHP(slot0, slot1, slot2, slot3, slot4)
+	slot5 = uv0.super.UpdateHP(slot0, slot1, slot2, slot3, slot4)
 
 	if slot0._warningValue and slot0._currentHP < slot0._warningValue and not isHeal then
 		slot0._warningValue = nil
-		slot6 = "hp_warning"
+		slot7 = "hp_warning"
 
-		slot0:DispatchVoice(slot6)
-		slot0:DispatchChat(uv1.GetWords(slot0:GetSkinID(), slot6, slot0:GetIntimacy()), 2.5, slot6)
+		slot0:DispatchVoice(slot7)
+		slot0:DispatchChat(uv1.GetWords(slot0:GetSkinID(), slot7, slot0:GetIntimacy()), 2.5, slot7)
 	end
 
 	if slot0._mainUnitWarningValue and slot0._currentHP < slot0._mainUnitWarningValue and slot0._currentHP > 0 and not isHeal then
@@ -461,6 +461,8 @@ function slot7.UpdateHP(slot0, slot1, slot2, slot3, slot4)
 
 		pg.TipsMgr.GetInstance():ShowTips(i18n("battle_main_emergent", slot0:GetShipName()))
 	end
+
+	return slot5
 end
 
 function slot7.SetMainFleetUnit(slot0)

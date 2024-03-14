@@ -447,7 +447,18 @@ function temp()
 			["及"] = {
 				["利"] = {
 					["亞"] = {
-						this = true
+						this = true,
+						["·"] = {
+							M = {
+								E = {
+									T = {
+										A = {
+											this = true
+										}
+									}
+								}
+							}
+						}
 					}
 				}
 			},
@@ -1761,6 +1772,21 @@ function temp()
 			["克"] = {
 				["斯"] = {
 					this = true
+				}
+			}
+		},
+		["利"] = {
+			["克"] = {
+				["斯"] = {
+					["·"] = {
+						["舒"] = {
+							["爾"] = {
+								["茨"] = {
+									this = true
+								}
+							}
+						}
+					}
 				}
 			}
 		}
@@ -6486,6 +6512,46 @@ function temp()
 	uv0["怨"] = {
 		["仇"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["奇"] = {
+		["爾"] = {
+			["沙"] = {
+				["治"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["興"] = {
+		["登"] = {
+			["堡"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["法"] = {
+		["蘭"] = {
+			["德"] = {
+				["斯"] = {
+					this = true
+				}
+			}
 		}
 	}
 end

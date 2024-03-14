@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"于阳光照耀之外\n\n<size=45>四　蘑菇料理宴？</size>",
+					"於陽光照耀之外\n\n<size=45>四　蘑菇料理宴？</size>",
 					1
 				}
 			}
@@ -61,7 +61,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "已经超出我能承受的运动量了……感觉人都要散架了……",
+			say = "已經超出我能承受的運動量了……感覺人都要散架了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "和托里拆利一起逛了水族馆，也去天文台看了星星。",
+			say = "和托里切利一起逛了水族館，也去天文台看了星星。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "明明只是走了不远的路，不过看起来她已经累得不行了……是运动太少了么?",
+			say = "明明只是走了不遠的路，不過看起來她已經累得不行了……是運動太少了嗎?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "研究人员是不需要运动的……",
+			say = "研究人員是不需要運動的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "……承认了呢。",
+			say = "……承認了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_main_twilight",
-			say = "要不委托撒丁宿舍区帮托里拆利制定个室内运动计划————",
+			say = "要不要委託薩丁宿舍區幫托里切利制定室內運動計畫————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "天色向晚。逛了一大圈之后，和托里拆利来到餐厅吃晚餐。",
+			say = "天色向晚。逛了一大圈後，和托里切利來到餐廳吃晚餐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "呼……终于能休息一会了，哈……刚才又饿又累，完全没办法思考了……",
+			say = "呼……終於能休息一下了，哈……剛才又餓又累，完全沒辦法思考了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "可算是活过来了……",
+			say = "總算活過來了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "嗯……点餐这种事情就交给我来吧。指挥官应该不介意吧？",
+			say = "嗯……點餐這種事就交給我來吧。指揮官應該不介意吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "倒是不介意，但是……有种不好的预感。",
+			say = "倒是不介意，但是……有種不好的預感。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "希望不要吃到一些奇奇怪怪的东西……不过能存在于菜单上的菜品，应该也不至于太奇怪吧。",
+			say = "希望不要吃到一些奇怪的東西……不過能存在於菜單上的菜色，應該也不至於太奇怪吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "这个，这个，还有……这个（小声）",
+			say = "這個，這個，還有……這個（小聲）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "托里拆利已经点好了单。接过来一看——盐焗蘑菇串，奶油蘑菇浓汤，蘑菇蛋糕……",
+			say = "托里切利已經點了單。接過來一看——鹽焗蘑菇串，奶油蘑菇濃湯，蘑菇蛋糕……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "翻来覆去看了一遍，全部都是各种方式制作的蘑菇……",
+			say = "翻來覆去看了一遍，全部都是各種方式製作的蘑菇……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "看起来她真的很喜欢蘑菇呢……",
+			say = "看起來她真的很喜歡蘑菇呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "蘑菇……和我很像。喜欢阴暗的角落，讨厌阳光，而且……很好吃。",
+			say = "蘑菇……跟我很像。喜歡陰暗的角落，討厭陽光，而且……很好吃。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608010,
-			say = "而且总是静静地生长，很适合作为观察对象……能从中学到很多东西。",
+			say = "而且總是靜靜地生長，很適合當作觀察對象……能從中學到很多。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,18 +354,18 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_160",
-			say = "要不要帮她做一些菜品的补充呢？",
+			say = "要不要幫她做一些菜色的補充呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "点一份肉类",
+					content = "點一份肉類",
 					flag = 1
 				},
 				{
-					content = "再点一份蘑菇",
+					content = "再點一份蘑菇",
 					flag = 2
 				}
 			}
@@ -379,7 +379,7 @@ return {
 			actor = 608010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然烤肉的味道也不错……但是指挥官，来尝试一下蘑菇吧！",
+			say = "雖然烤肉的味道也不錯……但是指揮官，來試試蘑菇吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			actor = 608010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只要尝试一次，就绝对忘不掉它的味道了！唔呼呼……",
+			say = "只要嘗試一次，就絕對忘不掉它的味道了！唔呼呼……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_160",
 			optionFlag = 1,
-			say = "被她说得……简直好像蘑菇是什么危险的东西一样……",
+			say = "被她說得……簡直好像蘑菇是什麼危險的東西一樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			actor = 608010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇哦~原来指挥官也喜欢蘑菇……我们在口味上很合得来呢，呼呼呼~",
+			say = "哇~原來指揮官也喜歡蘑菇……我們在口味上很合得來呢，呼呼呼~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_160",
 			optionFlag = 2,
-			say = "也不能说喜欢，只是感觉保持菜色统一整齐会好一些……",
+			say = "也不能說喜歡，只是覺得保持菜色統一整齊會好一點……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_160",
 			blackBg = true,
-			say = "……在托里拆利不断推销蘑菇的过程中，和她度过了一场有些特别的晚宴。",
+			say = "……在托里切利不斷推銷蘑菇的過程中，和她度過了一場有些特別的晚餐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -497,8 +497,7 @@ end
 function slot0.UpdateBuildPoolExchange(slot0, slot1)
 	slot2, slot3, slot4 = nil
 
-	if slot1:IsActivity() then
-		slot6 = pg.ship_data_create_exchange[slot1:GetActivityId()] or {}
+	if slot1:IsActivity() and pg.ship_data_create_exchange[slot1:GetActivityId()] then
 		slot2 = slot6.exchange_request
 		slot3 = slot6.exchange_available_times
 		slot4 = slot6.exchange_ship_id[1]

@@ -9,26 +9,20 @@ function slot0.OnInit(slot0)
 
 	setActive(slot0.samllTF, true)
 
-	slot1 = slot0.samllTF
-	slot0.pos1 = slot1:Find("commander1")
-	slot1 = slot0.samllTF
-	slot0.pos2 = slot1:Find("commander2")
-	slot1 = slot0.samllTF
-	slot0.smallSalvageMask = slot1:Find("salvage_mask")
-	slot2 = slot0.smallSalvageMask
+	slot0.pos1 = slot0.samllTF:Find("commander1")
+	slot0.pos2 = slot0.samllTF:Find("commander2")
+	slot0.smallSalvageMask = slot0.samllTF:Find("salvage_mask")
 
-	setText(slot2:Find("text_bg/Text"), i18n("world_catsearch_help_4"))
+	setText(slot0.smallSalvageMask:Find("text_bg/Text"), i18n("world_catsearch_help_4"))
 
 	slot0.descPanel = slot0:findTF("desc")
 
 	setActive(slot0.descPanel, false)
 
 	slot0.descFrameTF = slot0:findTF("desc/frame")
-	slot1 = slot0.descFrameTF
-	slot0.descSalvageMask = slot1:Find("salvage_mask")
-	slot2 = slot0.descSalvageMask
+	slot0.descSalvageMask = slot0.descFrameTF:Find("salvage_mask")
 
-	setText(slot2:Find("text_bg/Text"), i18n("world_catsearch_help_5"))
+	setText(slot0.descSalvageMask:Find("text_bg/Text"), i18n("world_catsearch_help_5"))
 
 	slot0.descPos1 = slot0:findTF("commander1/frame/info", slot0.descFrameTF)
 	slot0.descPos2 = slot0:findTF("commander2/frame/info", slot0.descFrameTF)
@@ -51,6 +45,8 @@ function slot0.OnInit(slot0)
 	onButton(slot0, slot0.descPanel, function ()
 		uv0:closeDescPanel()
 	end, SFX_PANEL)
+	setText(slot0:findTF("desc/frame/atttr_panel/abilitys/title/Text"), i18n("commander_subtile_ablity"))
+	setText(slot0:findTF("desc/frame/atttr_panel/talents/title/Text"), i18n("commander_subtile_talent"))
 end
 
 function slot0.Update(slot0, slot1)
