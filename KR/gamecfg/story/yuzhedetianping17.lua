@@ -786,12 +786,12 @@ return {
 			}
 		},
 		{
-			bgName = "storymap_huanlujianhai1",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "해협 요새에도 드로이드가 나타났지만, 그곳의 방어 전력은 충분한 상태였다.",
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -805,11 +805,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "그래서 현재의 기동 전력을 보강하는 차원에서 워스파이트에게 부탁해 주력 함대를 이끌고 이쪽으로 합류해달라고 청했다.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -823,12 +823,12 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "다만 몰타 섬쪽에서는 적의 공세가 격렬했고, 수비에 나선 동료들 대부분이 포위당한 상태였다.",
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -843,11 +843,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "이런 점을 고려해 오이겐에게는 메탈 블러드 함대로 별동대를 꾸려 증원에 나서도록 했다.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -862,11 +862,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "적을 토벌하고 섬의 안전을 확보한 후에 다시 이쪽으로 돌아올 예정이다.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -881,12 +881,12 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "비시아 성좌, 그리고 아이리스 리브레의 툴롱 함대에는 클레망소로부터 정박지를 방어하라는 요청이 내려진 모양이다.",
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -902,11 +902,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "서로 교환한 정보에 따르면, 그쪽 비시아 성좌 함대도 심판정의 목적이 무엇인지는 전혀 모르는 상태인듯 하다.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -922,11 +922,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "……클레망소의 움직임을 감시하라는 의미도 겸해서, 장 바르 일행은 그대로 대기시켰다.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -942,11 +942,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "그리고 다음으로는 사르데냐 엠파이어인데……",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -962,11 +962,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "마르코 폴로가 비상사태 대응 방안을 운운하며, 사르데냐 엠파이어의 각 거점에 있는 함선을 자신의 지휘 밑으로 들어오라고 부르고 있는 모양이다.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -982,11 +982,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "그렇지만 베네토가 아직 건재한 점을 이유로 이 부름에 응하는 함선은 없었고, 총괄함 베네토는 함선들을 자신 쪽으로 합류시키는 데 성공했다.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1002,12 +1002,12 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "타란토에 있는 아퀼라 쪽 함대는 주변 적을 격퇴한 후, 정비와 전력 재편성을 실시하고 있는 중이다.",
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1024,12 +1024,12 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "리토리오, 토리첼리는 물의 도시에서 상층부 관련 조사를 실시하고 있다가, 드로이드 출몰 후 바로 피난했다.",
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1047,11 +1047,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "그 후 대피 시설에서 고립 상태에 빠졌지만, 본인의 말에 따르면 '다른 방법으로 탈출할 수 있으니, 걱정할 필요는 전혀 없다'는 듯하다.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1069,11 +1069,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "솔직히 걱정은 되지만, 구조를 제안한 베네토가 그 말을 듣고 안심한 걸 보면, 두 사람의 안위는 믿어도 될 것 같다.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1091,12 +1091,12 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "그리고 로마 쪽은 사르데냐 엠파이어로 습격해 온 적을 무사히 물리친 모양이다.",
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1115,11 +1115,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "적을 토벌한 후에 이쪽으로 합류하겠다는 말과 함께 중요한 정보를 하나 전달해주었다.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1138,11 +1138,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "'마르코 폴로가 거대한 비행 옥좌를 타고 무슨 의식을 거행하고 있다'고.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1161,12 +1161,12 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			say = "마지막으로는 오아시스 항구에 있는 고리치아 일행인데, 그쪽과의 연락은 완전히 끊긴 상태다.",
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1186,11 +1186,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "폐막식 전에 모래폭풍이 출몰한 것으로 미루어 보면 단순히 날씨 때문일 수도 있지만, 혹시 모를 상황에 대비해 타란토에서 정찰기를 보냈다.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1210,11 +1210,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "……행사장의 동료둘, 그리고 지중해 전역에 퍼져 있는 사르데냐 엠파이어, 아이리스 리브레와 비시아 성좌, 로열 네이비 함대.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1234,11 +1234,11 @@ return {
 			}
 		},
 		{
-			bgName = "bg_underheaven_3",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "'드로이드'의 힘은 강력하고, 소형 적의 수까지 합치면 우리의 수십배 이상에 달하지만… 그래도 우리에게 승산은 있다.",
 			canMarkNode = {
 				"huanlujianhai1",
@@ -1258,11 +1258,11 @@ return {
 			}
 		},
 		{
-			bgName = "storymap_huanlujianhai1_99",
+			side = 2,
 			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			side = 2,
+			blackBg = true,
 			say = "자, 다음 한 수는――",
 			canMarkNode = {
 				"huanlujianhai1",

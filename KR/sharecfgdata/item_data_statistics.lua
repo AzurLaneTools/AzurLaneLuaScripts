@@ -14240,6 +14240,36 @@ _G.pg.base.item_data_statistics[21029] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[21030] = {
+	open_directly = 0,
+	name = "결정: 파먀티 메르쿠리야·META",
+	display = "파먀티 메르쿠리야·META의 능력을 상승시키는 아이템. META 연구실의 한계돌파에서 사용 가능",
+	type = 4,
+	display_effect = "",
+	id = 21030,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "Props/21030",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "결정화 내열강",
@@ -22904,6 +22934,130 @@ _G.pg.base.item_data_statistics[30352] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30353] = {
+	open_directly = 1,
+	name = "장비 스킨 상자(괴도 도시)",
+	display = "무작위로 장비 스킨 획득 가능",
+	type = 11,
+	display_effect = "",
+	id = 30353,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/appearanceboxzuiedushi",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30353",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			910,
+			1
+		},
+		{
+			9,
+			911,
+			1
+		},
+		{
+			9,
+			912,
+			1
+		},
+		{
+			9,
+			913,
+			1
+		},
+		{
+			9,
+			914,
+			1
+		},
+		{
+			9,
+			915,
+			1
+		},
+		{
+			9,
+			916,
+			1
+		},
+		{
+			9,
+			917,
+			1
+		},
+		{
+			9,
+			918,
+			1
+		},
+		{
+			9,
+			919,
+			1
+		},
+		{
+			9,
+			920,
+			1
+		},
+		{
+			9,
+			921,
+			1
+		},
+		{
+			9,
+			922,
+			1
+		},
+		{
+			9,
+			923,
+			1
+		},
+		{
+			9,
+			924,
+			1
+		},
+		{
+			9,
+			925,
+			1
+		},
+		{
+			9,
+			926,
+			1
+		},
+		{
+			9,
+			927,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "장비스킨 상자(월드 투어)",
@@ -31222,6 +31376,218 @@ _G.pg.base.item_data_statistics[30536] = {
 		{
 			9,
 			457,
+			1
+		}
+	}
+}
+
+_G.pg.base.item_data_statistics[30537] = {
+	open_directly = 0,
+	name = "선택 장비 스킨 상자(괴도 도시)",
+	display = "사용하면 장비 스킨(괴도 도시) 중 하나를 선택해서 획득할 수 있습니다.",
+	type = 13,
+	display_effect = "",
+	id = 30537,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	link_id = 0,
+	icon = "Props/appearanceboxzuiedushizixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			910,
+			1
+		},
+		{
+			9,
+			911,
+			1
+		},
+		{
+			9,
+			912,
+			1
+		},
+		{
+			9,
+			913,
+			1
+		},
+		{
+			9,
+			914,
+			1
+		},
+		{
+			9,
+			915,
+			1
+		},
+		{
+			9,
+			916,
+			1
+		},
+		{
+			9,
+			917,
+			1
+		},
+		{
+			9,
+			918,
+			1
+		},
+		{
+			9,
+			919,
+			1
+		},
+		{
+			9,
+			920,
+			1
+		},
+		{
+			9,
+			921,
+			1
+		},
+		{
+			9,
+			922,
+			1
+		},
+		{
+			9,
+			923,
+			1
+		},
+		{
+			9,
+			924,
+			1
+		},
+		{
+			9,
+			925,
+			1
+		},
+		{
+			9,
+			926,
+			1
+		},
+		{
+			9,
+			927,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			910,
+			1
+		},
+		{
+			9,
+			911,
+			1
+		},
+		{
+			9,
+			912,
+			1
+		},
+		{
+			9,
+			913,
+			1
+		},
+		{
+			9,
+			914,
+			1
+		},
+		{
+			9,
+			915,
+			1
+		},
+		{
+			9,
+			916,
+			1
+		},
+		{
+			9,
+			917,
+			1
+		},
+		{
+			9,
+			918,
+			1
+		},
+		{
+			9,
+			919,
+			1
+		},
+		{
+			9,
+			920,
+			1
+		},
+		{
+			9,
+			921,
+			1
+		},
+		{
+			9,
+			922,
+			1
+		},
+		{
+			9,
+			923,
+			1
+		},
+		{
+			9,
+			924,
+			1
+		},
+		{
+			9,
+			925,
+			1
+		},
+		{
+			9,
+			926,
+			1
+		},
+		{
+			9,
+			927,
 			1
 		}
 	}
@@ -75410,6 +75776,36 @@ _G.pg.base.item_data_statistics[59848] = {
 	usage = "usage_undefined",
 	link_id = 0,
 	icon = "Props/barbecue_badge",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[59849] = {
+	open_directly = 0,
+	name = "6주년 기념 코인",
+	display = "6주년 출석 이벤트 획득——돛을 올리고 파도를 헤쳐나간지 6년째! 계속해서 푸른 바다를 향하여 전진!",
+	type = 1,
+	display_effect = "",
+	id = 59849,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "props/liuzhounian",
 	order = 0,
 	rarity = 3,
 	max_num = 0,

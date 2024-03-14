@@ -104,7 +104,7 @@ function slot0.updateTpl(slot0, slot1, slot2)
 		removeOnButton(slot1)
 	end
 
-	setImageSprite(slot8, slot0.faceSpriteList[slot2 % 10])
+	setImageSprite(slot8, slot0.faceSpriteList[(slot2 - 1) % 10 + 1])
 end
 
 function slot0.updateTplList(slot0)

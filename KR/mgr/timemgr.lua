@@ -279,6 +279,10 @@ function slot1.parseTimeFromConfig(slot0, slot1)
 	})
 end
 
+function slot1.DescDateFromConfig(slot0, slot1, slot2)
+	return string.format(slot2 or "%d.%02d.%02d", slot1[1][1], slot1[1][2], slot1[1][3])
+end
+
 function slot1.DescCDTime(slot0, slot1)
 	slot1 = slot1 % 3600
 

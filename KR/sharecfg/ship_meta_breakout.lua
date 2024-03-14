@@ -42,6 +42,10 @@ pg.ship_meta_breakout = setmetatable({
 		9702062,
 		9702063,
 		9702064,
+		9702071,
+		9702072,
+		9702073,
+		9702074,
 		9703011,
 		9703012,
 		9703013,
@@ -750,6 +754,69 @@ pg.base.ship_meta_breakout = {
 		id = 9702064,
 		item1 = 21028,
 		pre_id = 9702063,
+		weapon_ids = {}
+	},
+	[9702071] = {
+		breakout_view = "[일렁이는 불꽃 - 파먀티 메르쿠리야] 습득 / 주포 보정 +5%",
+		gold = 1000,
+		breakout_id = 9702072,
+		repair = 0,
+		item2 = 21030,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9702071,
+		item1 = 21030,
+		pre_id = 0,
+		weapon_ids = {
+			170411
+		}
+	},
+	[9702072] = {
+		breakout_view = "주포 포좌 +1 / 주포 보정 +10%",
+		gold = 3000,
+		breakout_id = 9702073,
+		repair = 0,
+		item2 = 21030,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9702072,
+		item1 = 21030,
+		pre_id = 9702071,
+		weapon_ids = {
+			7200,
+			7200
+		}
+	},
+	[9702073] = {
+		breakout_view = "[일렁이는 불꽃 - 파먀티 메르쿠리야] 강화 / 주포 보정 +15%",
+		gold = 10000,
+		breakout_id = 9702074,
+		repair = 0,
+		item2 = 21030,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9702073,
+		item1 = 21030,
+		pre_id = 9702072,
+		weapon_ids = {
+			170412
+		}
+	},
+	[9702074] = {
+		breakout_view = "없음",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21030,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9702074,
+		item1 = 21030,
+		pre_id = 9702073,
 		weapon_ids = {}
 	},
 	[9703011] = {

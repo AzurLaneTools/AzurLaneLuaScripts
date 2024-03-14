@@ -212,6 +212,11 @@ pg.task_meta_data_template = setmetatable({
 		100153,
 		100154,
 		100155,
+		100161,
+		100162,
+		100163,
+		100164,
+		100165,
 		200001,
 		200002,
 		200003,
@@ -271,7 +276,11 @@ pg.task_meta_data_template = setmetatable({
 		200151,
 		200152,
 		200153,
-		200154
+		200154,
+		200161,
+		200162,
+		200163,
+		200164
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1956,6 +1965,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100161] = {
+		target_id_2 = "970207",
+		sub_type = 180,
+		desc = "파먀티 메르쿠리야·META를 편성한 함대로 전투에서 1회 승리",
+		id = 100161,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100162] = {
+		target_id_2 = "970207",
+		sub_type = 180,
+		desc = "파먀티 메르쿠리야·META를 편성한 함대로 전투에서 Lv30 이상의 적 함대 격파",
+		id = 100162,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100163] = {
+		target_id_2 = "970207",
+		sub_type = 180,
+		desc = "파먀티 메르쿠리야·META를 편성한 함대로 전투에서 Lv55 이상의 적 함대 격파",
+		id = 100163,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100164] = {
+		target_id_2 = "970207",
+		sub_type = 180,
+		desc = "파먀티 메르쿠리야·META를 편성한 함대로 전투에서 Lv80 이상의 적 함대 격파",
+		id = 100164,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100165] = {
+		target_id_2 = "970207",
+		sub_type = 180,
+		desc = "파먀티 메르쿠리야·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파",
+		id = 100165,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -2433,6 +2482,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "대형 작전에서 킴벌리·METAA를 사용해 100 이상 레벨의 적 1회 격파",
 		id = 200154,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200161] = {
+		target_id_2 = "970207",
+		sub_type = 302,
+		desc = "대형작전에서 파먀티 메르쿠리야·META를 포함한 함대로 1회 승리",
+		id = 200161,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200162] = {
+		target_id_2 = "970207",
+		sub_type = 302,
+		desc = "대형작전에서 파먀티 메르쿠리야·META를 포함한 함대로 Lv70 이상의 적 격파",
+		id = 200162,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200163] = {
+		target_id_2 = "970207",
+		sub_type = 302,
+		desc = "대형작전에서 파먀티 메르쿠리야·META를 포함한 함대로 Lv90 이상의 적 격파",
+		id = 200163,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200164] = {
+		target_id_2 = "970207",
+		sub_type = 302,
+		desc = "대형작전에서 파먀티 메르쿠리야·META를 포함한 함대로 Lv100 이상의 적 격파",
+		id = 200164,
 		target_num = 1,
 		target_id = "100"
 	}

@@ -170,7 +170,7 @@ function slot0.getConfig(slot0, slot1)
 
 		assert(slot2, "chapter_template_loop not exist: " .. slot0.id)
 
-		if slot2[slot1] ~= nil then
+		if slot2[slot1] ~= nil and slot2[slot1] ~= "&&" then
 			return slot2[slot1]
 		end
 
@@ -179,9 +179,7 @@ function slot0.getConfig(slot0, slot1)
 		end
 	end
 
-	assert(slot0:getConfigTable() ~= nil, "Config missed, type -" .. slot0.__cname .. " configId: " .. tostring(slot0.configId))
-
-	return slot2[slot1]
+	return uv0.super.getConfig(slot0, slot1)
 end
 
 function slot0.existLoop(slot0)

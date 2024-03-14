@@ -31,7 +31,7 @@ pg.activity_const = {
 		act_id = 270
 	},
 	ACTIVITY_PRAY_POOL = {
-		act_id = 5010
+		act_id = 21000
 	},
 	DAY7_LOGIN_ACTIVITY_ID = {
 		act_id = 3
@@ -52,7 +52,7 @@ pg.activity_const = {
 		act_id = 31
 	},
 	MIRROR_ACTIVITY_ID = {
-		act_id = 0
+		act_id = 21000
 	},
 	XIAOTIANE_ACTIVITY_ID = {
 		act_id = 20025
@@ -808,7 +808,7 @@ pg.activity_const = {
 		act_id = 20872
 	},
 	RETUREN_AWARD_1 = {
-		act_id = 20994
+		act_id = 20999
 	},
 	CATCH_TREASURE_ID = {
 		act_id = 20849

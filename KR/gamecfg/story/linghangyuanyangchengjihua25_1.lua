@@ -100,7 +100,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg19",
 			hidePaintObj = true,
 			dir = 1,

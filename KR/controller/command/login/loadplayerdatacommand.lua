@@ -72,8 +72,15 @@ function slot0.execute(slot0, slot1)
 		pg.TimeMgr.GetInstance():SetServerTime(slot0.timestamp, slot0.monday_0oclock_timestamp)
 
 		slot2 = getProxy(PlayerProxy):getRawData()
+		slot3, slot4 = getProxy(ActivityProxy):isSurveyOpen()
 
-		if uv0 then
+		if slot3 then
+			uv0:sendNotification(GAME.GET_SURVEY_STATE, {
+				surveyID = slot4
+			})
+		end
+
+		if uv1 then
 			pg.PushNotificationMgr.GetInstance():Reset()
 			pg.SdkMgr.GetInstance():CreateRole(slot2.id, slot2.name, slot2.level, slot2.registerTime, slot2:getTotalGem())
 		end
@@ -81,34 +88,26 @@ function slot0.execute(slot0, slot1)
 		pg.SeriesGuideMgr.GetInstance():setPlayer(slot2)
 		WorldGuider.GetInstance():Init()
 
-		slot4 = getProxy(UserProxy):getData()
-		slot5 = getProxy(ServerProxy)
-		slot6 = slot5:getLastServer(slot4.uid)
+		slot6 = getProxy(UserProxy):getData()
+		slot7 = getProxy(ServerProxy)
+		slot8 = slot7:getLastServer(slot6.uid)
 
-		pg.SdkMgr.GetInstance():EnterServer(tostring(slot6.id), slot6.name, slot2.id, slot2.name, slot2.registerTime, slot2.level, slot2:getTotalGem())
-		slot5:recordLoginedServer(slot4.uid, slot6.id)
+		pg.SdkMgr.GetInstance():EnterServer(tostring(slot8.id), slot8.name, slot2.id, slot2.name, slot2.registerTime, slot2.level, slot2:getTotalGem())
+		slot7:recordLoginedServer(slot6.uid, slot8.id)
 		getProxy(MetaCharacterProxy):requestMetaTacticsInfo(nil, true)
-		uv1:sendNotification(GAME.REQUEST_META_PT_DATA, {
+		uv0:sendNotification(GAME.REQUEST_META_PT_DATA, {
 			isAll = true
 		})
-		uv1:sendNotification(GAME.GET_SEASON_INFO)
-		uv1:sendNotification(GAME.GET_GUILD_INFO)
-		uv1:sendNotification(GAME.GET_PUBLIC_GUILD_USER_DATA, {})
-		uv1:sendNotification(GAME.REQUEST_MINI_GAME, {
+		uv0:sendNotification(GAME.GET_SEASON_INFO)
+		uv0:sendNotification(GAME.GET_GUILD_INFO)
+		uv0:sendNotification(GAME.GET_PUBLIC_GUILD_USER_DATA, {})
+		uv0:sendNotification(GAME.REQUEST_MINI_GAME, {
 			type = MiniGameRequestCommand.REQUEST_HUB_DATA
 		})
 		LimitChallengeConst.RequestInfo()
 
-		slot7, slot8 = getProxy(ActivityProxy):isSurveyOpen()
-
-		if slot7 then
-			uv1:sendNotification(GAME.GET_SURVEY_STATE, {
-				surveyID = slot8
-			})
-		end
-
 		if not LOCK_EDUCATE_SYSTEM then
-			uv1:sendNotification(GAME.EDUCATE_REQUEST)
+			uv0:sendNotification(GAME.EDUCATE_REQUEST)
 		end
 
 		pg.SdkMgr.GetInstance():BindCPU()
@@ -120,7 +119,7 @@ function slot0.execute(slot0, slot1)
 		getProxy(PlayerProxy):setInited(true)
 
 		if MainCheckShipNumSequence.New():Check(slot0.ship_count) then
-			uv1:sendNotification(GAME.LOAD_PLAYER_DATA_DONE)
+			uv0:sendNotification(GAME.LOAD_PLAYER_DATA_DONE)
 		end
 	end, nil, 60)
 end

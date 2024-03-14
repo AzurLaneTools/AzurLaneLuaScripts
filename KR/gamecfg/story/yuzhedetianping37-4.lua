@@ -173,7 +173,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "\"▅■둘▆▅\"",
 			typewriter = {
 				speed = 0.05,

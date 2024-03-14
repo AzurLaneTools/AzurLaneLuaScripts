@@ -267,7 +267,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "왜, 왜 저항하는 거야?",
 			typewriter = {
@@ -283,7 +283,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "META가 되는 것은 너희들의 운명. 왜 운명에 저항하는 거냐구.",
 			typewriter = {
@@ -299,7 +299,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "그리고 너희들, 분명 이미 운명을 받아들였으면서, 분명 종말을 보았으면서, 왜 저항하는 거야?",
 			typewriter = {
@@ -315,7 +315,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "왜 META화를 유지하려고 하지 않는 거지?",
 			typewriter = {
@@ -331,7 +331,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "필요 없어~ 계속 저항할 거라면 그냥 파멸해버려.",
 			typewriter = {
@@ -347,7 +347,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "너희가 파멸하고 난 후엔 우리에겐 영원히 대화할 시간이 있을 테니까 말이야.",
 			typewriter = {

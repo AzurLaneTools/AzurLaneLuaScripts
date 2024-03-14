@@ -77,7 +77,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "헤헤, 그건 가짜라구. 진짜 나는 언니의 오른쪽에 있어. 어떤 게 진짜 나일지 한번 맞혀봐.",
 			typewriter = {
 				speed = 0.05,
@@ -148,7 +148,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "유감이지만 틀렸어.",
 			typewriter = {
 				speed = 0.05,
@@ -196,7 +196,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "무슨 말인지 모르겠네~",
 			typewriter = {
 				speed = 0.05,
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "누구야?!",
 			typewriter = {
 				speed = 0.05,
@@ -331,7 +331,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "에? 친구까지 데리고 오다니.",
 			typewriter = {
 				speed = 0.05,
@@ -348,7 +348,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "그렇담 제대로 대접해드려야지~",
 			typewriter = {
 				speed = 0.05,

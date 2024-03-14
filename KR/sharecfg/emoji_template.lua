@@ -418,12 +418,12 @@ pg.emoji_template = {
 	},
 	{
 		achieve = 0,
-		item_desc = "",
-		item_name = "",
+		item_desc = "채팅 이모티콘: 걍악, 이모티콘 선택의 「기본」선택치 중 해당 이모티콘을 선택 및 보낼 수 있습니다.",
+		item_name = "채팅 이모티콘: 걍악 ",
 		id = 33,
-		index = 999,
+		index = 73,
 		icon = "",
-		pic = "30",
+		pic = "33",
 		desc = "<color=#92fc63>[밥!]</color>",
 		type = {
 			1
@@ -431,52 +431,13 @@ pg.emoji_template = {
 	},
 	{
 		achieve = 0,
-		item_desc = "",
-		item_name = "",
+		item_desc = "채팅 이모티콘: 그만 해, 이모티콘 선택의 「기본」선택치 중 해당 이모티콘을 선택 및 보낼 수 있습니다.",
+		item_name = "채팅 이모티콘: 그만 해",
 		id = 34,
-		index = 998,
-		icon = "",
-		pic = "33",
-		desc = "<color=#92fc63>[간식시간]</color>",
-		type = {
-			1
-		}
-	},
-	{
-		achieve = 0,
-		item_desc = "",
-		item_name = "",
-		id = 35,
-		index = 997,
-		icon = "",
-		pic = "31",
-		desc = "<color=#92fc63>[뭐라카노]</color>",
-		type = {
-			1
-		}
-	},
-	{
-		achieve = 0,
-		item_desc = "",
-		item_name = "",
-		id = 36,
-		index = 996,
-		icon = "",
-		pic = "32",
-		desc = "<color=#92fc63>[바로 그거야]</color>",
-		type = {
-			1
-		}
-	},
-	{
-		achieve = 0,
-		item_desc = "",
-		item_name = "",
-		id = 37,
-		index = 995,
+		index = 74,
 		icon = "",
 		pic = "34",
-		desc = "<color=#92fc63>[그러췌]</color>",
+		desc = "<color=#92fc63>[간식시간]</color>",
 		type = {
 			1
 		}
@@ -2132,6 +2093,71 @@ pg.emoji_template = {
 			2
 		}
 	},
+	[901] = {
+		achieve = 0,
+		item_desc = "",
+		item_name = "",
+		id = 901,
+		index = 999,
+		icon = "",
+		pic = "101",
+		desc = "<color=#92fc63>[밥!]</color>",
+		type = {
+			1
+		}
+	},
+	[902] = {
+		achieve = 0,
+		item_desc = "",
+		item_name = "",
+		id = 902,
+		index = 998,
+		icon = "",
+		pic = "102",
+		desc = "<color=#92fc63>[간식시간]</color>",
+		type = {
+			1
+		}
+	},
+	[903] = {
+		achieve = 0,
+		item_desc = "",
+		item_name = "",
+		id = 903,
+		index = 997,
+		icon = "",
+		pic = "103",
+		desc = "<color=#92fc63>[뭐라카노]</color>",
+		type = {
+			1
+		}
+	},
+	[904] = {
+		achieve = 0,
+		item_desc = "",
+		item_name = "",
+		id = 904,
+		index = 996,
+		icon = "",
+		pic = "104",
+		desc = "<color=#92fc63>[바로 그거야]</color>",
+		type = {
+			1
+		}
+	},
+	[905] = {
+		achieve = 0,
+		item_desc = "",
+		item_name = "",
+		id = 905,
+		index = 995,
+		icon = "",
+		pic = "105",
+		desc = "<color=#92fc63>[그러췌]</color>",
+		type = {
+			1
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2167,9 +2193,6 @@ pg.emoji_template = {
 		32,
 		33,
 		34,
-		35,
-		36,
-		37,
 		41,
 		42,
 		43,
@@ -2296,6 +2319,11 @@ pg.emoji_template = {
 		372,
 		373,
 		374,
-		375
+		375,
+		901,
+		902,
+		903,
+		904,
+		905
 	}
 }

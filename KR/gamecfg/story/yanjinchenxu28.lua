@@ -146,7 +146,7 @@ return {
 		},
 		{
 			actor = 205010,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_firedust_5",
 			actorShadow = true,
 			dialogueBgAlpha = 0.6,
@@ -188,7 +188,7 @@ return {
 			bgName = "bg_firedust_5",
 			dialogueBgAlpha = 0.6,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			actor = 205010,
 			actorName = "█ █ █ █ █",
 			say = "▅▁▂▋▄▊■▆▎▅▁▂▋▄▊■▆▎▇▆▅■",

@@ -194,6 +194,7 @@ pg.furniture_data_template = setmetatable({
 			100056,
 			100057,
 			100058,
+			100059,
 			200001,
 			200002,
 			200003,
@@ -3010,6 +3011,34 @@ pg.furniture_data_template = setmetatable({
 			307112,
 			307113,
 			307114
+		},
+		[108] = {
+			308001,
+			308002,
+			308101,
+			308102,
+			308103,
+			308104,
+			308105,
+			308106,
+			308107,
+			308108,
+			308109,
+			308110,
+			308111,
+			308112,
+			308113,
+			308114,
+			308115,
+			308116,
+			308117,
+			308118,
+			308119,
+			308301,
+			308302,
+			308303,
+			308304,
+			308305
 		}
 	},
 	get_id_list_by_tag = {
@@ -4811,7 +4840,25 @@ pg.furniture_data_template = setmetatable({
 			307111,
 			307112,
 			307113,
-			307114
+			307114,
+			308101,
+			308102,
+			308103,
+			308104,
+			308105,
+			308106,
+			308107,
+			308108,
+			308109,
+			308110,
+			308111,
+			308112,
+			308113,
+			308114,
+			308115,
+			308116,
+			308117,
+			308118
 		},
 		{
 			1108,
@@ -5054,7 +5101,6 @@ pg.furniture_data_template = setmetatable({
 			265,
 			267,
 			269,
-			271,
 			100002,
 			100003,
 			100004,
@@ -5112,6 +5158,7 @@ pg.furniture_data_template = setmetatable({
 			100056,
 			100057,
 			100058,
+			100059,
 			54104,
 			54105
 		},
@@ -5163,7 +5210,8 @@ pg.furniture_data_template = setmetatable({
 			259,
 			264,
 			266,
-			268
+			268,
+			271
 		},
 		[7] = {
 			213,
@@ -5344,7 +5392,9 @@ pg.furniture_data_template = setmetatable({
 			306114,
 			306115,
 			307103,
-			307109
+			307109,
+			308119,
+			308305
 		},
 		[4] = {
 			1001,
@@ -5438,7 +5488,8 @@ pg.furniture_data_template = setmetatable({
 			304001,
 			305001,
 			306001,
-			307001
+			307001,
+			308001
 		},
 		[3] = {
 			1002,
@@ -5533,7 +5584,8 @@ pg.furniture_data_template = setmetatable({
 			304002,
 			305002,
 			306002,
-			307002
+			307002,
+			308002
 		},
 		[5] = {
 			1301,
@@ -5850,7 +5902,11 @@ pg.furniture_data_template = setmetatable({
 			304306,
 			304307,
 			305305,
-			305306
+			305306,
+			308301,
+			308302,
+			308303,
+			308304
 		}
 	},
 	get_id_list_by_type = {
@@ -5947,7 +6003,8 @@ pg.furniture_data_template = setmetatable({
 			304002,
 			305002,
 			306002,
-			307002
+			307002,
+			308002
 		},
 		[7] = {
 			1,
@@ -6109,7 +6166,8 @@ pg.furniture_data_template = setmetatable({
 			100055,
 			100056,
 			100057,
-			100058
+			100058,
+			100059
 		},
 		[2] = {
 			120,
@@ -7906,7 +7964,25 @@ pg.furniture_data_template = setmetatable({
 			307111,
 			307112,
 			307113,
-			307114
+			307114,
+			308101,
+			308102,
+			308103,
+			308105,
+			308106,
+			308107,
+			308108,
+			308109,
+			308110,
+			308111,
+			308112,
+			308113,
+			308114,
+			308115,
+			308116,
+			308117,
+			308118,
+			308119
 		},
 		[11] = {
 			131,
@@ -8066,7 +8142,8 @@ pg.furniture_data_template = setmetatable({
 			304001,
 			305001,
 			306001,
-			307001
+			307001,
+			308001
 		},
 		[5] = {
 			1101,
@@ -8206,7 +8283,8 @@ pg.furniture_data_template = setmetatable({
 			304118,
 			305108,
 			305111,
-			305119
+			305119,
+			308104
 		},
 		[3] = {
 			1108,
@@ -8678,7 +8756,12 @@ pg.furniture_data_template = setmetatable({
 			305302,
 			305303,
 			305304,
-			305305
+			305305,
+			308301,
+			308302,
+			308303,
+			308304,
+			308305
 		},
 		[8] = {
 			17121
@@ -8902,6 +8985,7 @@ pg.furniture_data_template = setmetatable({
 		100056,
 		100057,
 		100058,
+		100059,
 		200001,
 		200002,
 		200003,
@@ -11531,7 +11615,33 @@ pg.furniture_data_template = setmetatable({
 		307111,
 		307112,
 		307113,
-		307114
+		307114,
+		308001,
+		308002,
+		308101,
+		308102,
+		308103,
+		308104,
+		308105,
+		308106,
+		308107,
+		308108,
+		308109,
+		308110,
+		308111,
+		308112,
+		308113,
+		308114,
+		308115,
+		308116,
+		308117,
+		308118,
+		308119,
+		308301,
+		308302,
+		308303,
+		308304,
+		308305
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -15777,7 +15887,7 @@ pg.base.furniture_data_template = {
 	[203] = {
 		spine_extra = "",
 		describe = "\"목표는! Top Idole!\"——「바다에 울려퍼지는 아이돌 노래」 이벤트 기념",
-		gain_by = "바다에 울려퍼지는 아이돌 노래",
+		gain_by = "바다에 울려퍼지는 \n아이돌 노래",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
@@ -17212,7 +17322,7 @@ pg.base.furniture_data_template = {
 	[245] = {
 		spine_extra = "",
 		describe = "무인도 유적 속에 묻혀 있는 황금 나침반은 풀리지 않은 수수께끼를 품고 있는 것 같다? - '바닷바람과 여름날의 무인도' 이벤트 기념",
-		gain_by = "바닷바람과 여름날의 무인도",
+		gain_by = "바닷바람과 여름날의 \n무인도",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
@@ -17793,7 +17903,7 @@ pg.base.furniture_data_template = {
 	},
 	[267] = {
 		rarity = 4,
-		describe = "一池温泉，四种体验~",
+		describe = "풍운 아카시 성의 경치가 그려진 두루마리. 펼치면 웅장?한 경치를 감상할 수 있다. \n――\"창섬인법첩\" 이벤트 참가 보상.",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -17801,7 +17911,7 @@ pg.base.furniture_data_template = {
 		belong = 1,
 		is_get_time_note = 0,
 		count = 1,
-		name = "缤纷温泉池",
+		name = "풍운성 그림 두루마리",
 		is_3d_obj = 0,
 		advice = 0,
 		themeId = 0,
@@ -18116,8 +18226,8 @@ pg.base.furniture_data_template = {
 	},
 	[271] = {
 		spine_extra = "",
-		describe = "",
-		gain_by = "",
+		describe = "어느새 나타난 예술품 부스, 소개글: 과거를 직시하고 미래를 향해. —— 「설경미종」 이벤트 기념장",
+		gain_by = "雪境迷踪",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
@@ -18127,13 +18237,13 @@ pg.base.furniture_data_template = {
 		themeId = 0,
 		is_3d_obj = 0,
 		count = 1,
-		tag = 6,
+		tag = 8,
 		icon = "maozi4xunzhangicon",
 		deblocking = 1,
 		level = 1,
 		advice = 0,
 		effect = "",
-		name = "毛子大佬章4",
+		name = "과거로부터의 인사",
 		comfortable = 0,
 		spine_action_replace = "",
 		picture = "",
@@ -22277,6 +22387,56 @@ pg.base.furniture_data_template = {
 					nil,
 					nil,
 					"houzhai_aixin"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[100059] = {
+		spine_extra = "",
+		describe = "화려한 꽃밭을 소환할 수 있는 성장, 오랜된 역사를 가지고 있는 것 같습니다.",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "huahaifazhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "무성한 꽃의 성장",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100059,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huahaifazhang",
+				"normal",
+				{
+					"action",
+					true,
+					nil,
+					nil,
+					"houzhai_huaban"
 				}
 			}
 		},
@@ -137511,6 +137671,1161 @@ pg.base.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[308001] = {
+		spine_extra = "",
+		describe = "미스터리한 괴도의 세계에 오신 것을 환영합니다!",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "미스터리 플로어",
+		effect = "",
+		advice = 0,
+		icon = "dibanqpicon",
+		spine_action_replace = "",
+		picture = "qp/dibanqp",
+		comfortable = 4,
+		canputon = 0,
+		id = 308001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308002] = {
+		spine_extra = "",
+		describe = "미스터리한 괴도의 세계에 오신 것을 환영합니다!",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "미스터리 월",
+		effect = "",
+		advice = 0,
+		icon = "qiangbiqpicon",
+		spine_action_replace = "",
+		picture = "qp/qiangbiqp",
+		comfortable = 4,
+		canputon = 0,
+		id = 308002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308101] = {
+		spine_extra = "",
+		describe = "괴도의 트릭을 같이 생각해 보자.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 108,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "canzhuoqpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "괴도 트릭 테이블",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "qp/canzhuoqp",
+		canputon = 0,
+		id = 308101,
+		can_rotate = 0,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-44.9,
+					102.8
+				},
+				{
+					1,
+					1
+				},
+				"qp/canzhuoqp_using"
+			},
+			{
+				"sit",
+				{
+					-152,
+					39
+				},
+				{
+					1,
+					1
+				},
+				"qp/canzhuoqp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308102] = {
+		spine_extra = "",
+		describe = "야간 외출은 금지다쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "diaosu1qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "보안요원 쥬쥬",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "qp/diaosu1qp",
+		canputon = 0,
+		id = 308102,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308103] = {
+		spine_extra = "",
+		describe = "조심해라! 괴도는 어디에서든 들어올 수 있다!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "diaosu2qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "반역 괴도 쥬쥬S",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "qp/diaosu2qp",
+		canputon = 0,
+		id = 308103,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308104] = {
+		spine_extra = "",
+		describe = "이제 막 시작된 오늘 밤 쇼에 박수를!",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "ditanqpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "시계 유리 바닥",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "qp/ditanqp",
+		canputon = 0,
+		id = 308104,
+		can_rotate = 0,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308105] = {
+		spine_extra = "",
+		describe = "뽑은 건…… 붉은 다이아!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 108,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "fangkuaiyizi1qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "다이아 체어 1",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/fangkuaiyizi1qp",
+		canputon = 0,
+		id = 308105,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-24.3,
+					-1.6
+				},
+				{
+					-1,
+					1
+				},
+				"qp/fangkuaiyizi1qp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308106] = {
+		spine_extra = "",
+		describe = "뽑은 건…… 붉은 다이아!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "fangkuaiyizi2qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "다이아 체어 2",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/fangkuaiyizi2qp",
+		canputon = 0,
+		id = 308106,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308107] = {
+		spine_extra = "",
+		describe = "유용한 정보가 가득 모인 미스터리한 책장",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "guiziqpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "괴도의 미스터리 책장",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "qp/guiziqp",
+		canputon = 0,
+		id = 308107,
+		can_rotate = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308108] = {
+		spine_extra = "",
+		describe = "뽑은 건…… 검은 스페이드.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 108,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "heitaoyizi1qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "스페이드 체어 1",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/heitaoyizi1qp",
+		canputon = 0,
+		id = 308108,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-24.3,
+					-1.6
+				},
+				{
+					-1,
+					1
+				},
+				"qp/heitaoyizi1qp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308109] = {
+		spine_extra = "",
+		describe = "뽑은 건…… 검은 스페이드.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "heitaoyizi2qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "스페이드 체어 2",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/heitaoyizi2qp",
+		canputon = 0,
+		id = 308109,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308110] = {
+		spine_extra = "",
+		describe = "뽑은 건…… 붉은 하트.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 108,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "hongxinyizi1qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "하트 체어 1",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/hongxinyizi1qp",
+		canputon = 0,
+		id = 308110,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-24.3,
+					-1.6
+				},
+				{
+					-1,
+					1
+				},
+				"qp/hongxinyizi1qp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308111] = {
+		spine_extra = "",
+		describe = "뽑은 건…… 붉은 하트.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "hongxinyizi2qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "하트 체어 2",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/hongxinyizi2qp",
+		canputon = 0,
+		id = 308111,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308112] = {
+		spine_extra = "",
+		describe = "뽑은 건…… 검은 클로버.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 108,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "meihuayizi1qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "클로버 체어 1",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/meihuayizi1qp",
+		canputon = 0,
+		id = 308112,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-24.3,
+					-1.6
+				},
+				{
+					-1,
+					1
+				},
+				"qp/meihuayizi1qp_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308113] = {
+		spine_extra = "",
+		describe = "뽑은 건…… 검은 클로버.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "meihuayizi2qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "클로버 체어 2",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/meihuayizi2qp",
+		canputon = 0,
+		id = 308113,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308114] = {
+		spine_extra = "",
+		describe = "하얀 퀸은 기다리고 있다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "qizi1qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "화이트 퀸",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/qizi1qp",
+		canputon = 0,
+		id = 308114,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308115] = {
+		spine_extra = "",
+		describe = "검은 킹은 우두커니 서 있다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "qizi2qpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "블랙 킹",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "qp/qizi2qp",
+		canputon = 0,
+		id = 308115,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308116] = {
+		spine_extra = "",
+		describe = "부드러운 소파에서 예고장을 구상하자!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 108,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shafaqpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "부드러운 괴도 소파",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "qp/shafaqp",
+		canputon = 0,
+		id = 308116,
+		can_rotate = 0,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					32.8,
+					-17
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308117] = {
+		spine_extra = "",
+		describe = "보물을 손에 넣은 후에는 우아한 휴식 타임!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "찻잔 욕조",
+		themeId = 108,
+		icon = "yugangqpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 308117,
+		can_rotate = 0,
+		size = {
+			6,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yugangqpB",
+				"normal"
+			},
+			{
+				"yugangqpT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					-3,
+					139
+				},
+				{
+					274.31,
+					254
+				},
+				"qp/yugangqp_mask"
+			},
+			{
+				5.3,
+				-133
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[308118] = {
+		spine_extra = "",
+		describe = "오늘 계획은…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 108,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "dianshiqpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "TV 더미",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 308118,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"dianshiqp",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[308119] = {
+		spine_extra = "",
+		describe = "괴도의 모토는 우아함…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "우아한 괴도 피아노",
+		themeId = 108,
+		icon = "gangqinqpicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 308119,
+		can_rotate = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"gangqinqp",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit2",
+						0,
+						"sit"
+					}
+				},
+				{
+					nil,
+					nil,
+					{
+						"sit1",
+						"sit"
+					},
+					"sit"
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[308301] = {
+		spine_extra = "",
+		describe = "신비로운 거울이여! 현실과 환상을 반전시켜라!",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "jingzi1qpicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "반전 거울 1",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "qp/jingzi1qp",
+		canputon = 0,
+		id = 308301,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308302] = {
+		spine_extra = "",
+		describe = "신비로운 거울이여! 현실과 환상을 반전시켜라!",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "jingzi2qpicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "반전 거울 2",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "qp/jingzi2qp",
+		canputon = 0,
+		id = 308302,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308303] = {
+		spine_extra = "",
+		describe = "고결하고 우아한 예고장, 준비 OK.",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "qiangshi1qpicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "우아하고 밝은 장식",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "qp/qiangshi1qp",
+		canputon = 0,
+		id = 308303,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308304] = {
+		spine_extra = "",
+		describe = "수수하지만 고급스러운 예고장, 준비 OK.",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 108,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "qiangshi2qpicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "수수하고 어두운 장식",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "qp/qiangshi2qp",
+		canputon = 0,
+		id = 308304,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[308305] = {
+		spine_extra = "",
+		describe = "시간을 알려 주는 장치에 숨겨진 비밀은…",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 2,
+		themeId = 108,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 7,
+		icon = "zhongqpicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "괴도 벽시계",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 308305,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhongqp",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
 		},
 		interAction_group = {}
 	}

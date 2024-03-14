@@ -8,7 +8,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
-			say = "她走近玻璃，抬着头看向里面游弋的海洋生物们。",
+			say = "TB는 수조의 유리벽으로 다가가 고개를 들고 안을 헤엄치고 있는 해양 생물들을 흥미진진하게 바라보았다.",
 			bgm = "qe-ova-1",
 			typewriter = {
 				speed = 0.05,
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你喜欢这些吗？",
+			say = "――마음에 들어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,12 +46,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……很温暖。",
+			say = "응. …왠지 따뜻해.",
 			voice = "event:/educate/tb/educate-tb-story-1-8",
 			painting = {
 				alpha = 0.3,
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这在某种层面上应该算是答非所问吧……不过她还小，顺着她的思路问下去比较好。）",
+			say = "(내가 예상한 대답은 아니군…… 뭐, TB는 아직 어리니까 어린이의 눈높이에 맞춰서 다시 질문을 해보자.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "温暖？是说这些鱼儿吗？",
+			say = "――따뜻해? 여기 물고기들이?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,12 +88,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不……是蓝色的水。",
+			say = "아니…… 파란 물이.",
 			voice = "event:/educate/tb/educate-tb-story-1-9",
 			painting = {
 				alpha = 0.3,
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "蓝色的水？啊……",
+			say = "――파란 물? 아…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
-			say = "原来是在说大海。",
+			say = "바다를 말하는 것 같다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
-			say = "即便是虚拟世界中的海水，也会让她产生亲切感吗？",
+			say = "가상세계의 바다라도 그녀에게는 친밀감이 느껴지는 모양이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这个是——“海水”。",
+			say = "――이건 '바닷물'이라고 해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB如果喜欢的话，等你再长大一点，我们就去海边玩吧。",
+			say = "――TB가 마음에 들면, 조금 더 자란 다음에 같이 바다로 놀러갈까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,12 +164,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "领航员-TB",
+			actorName = "TB",
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……",
+			say = "응……",
 			voice = "event:/educate/tb/educate-tb-story-1-10",
 			painting = {
 				alpha = 0.3,
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
-			say = "她有些茫然地回应着我。",
+			say = "TB는 조금 망설이며 내쪽으로 돌아섰다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
-			say = "也是……以她现在所具备的认知能力，要理解这些可能还是有些困难。",
+			say = "무리도 아니지. 그녀의 현재 인식 능력으로 이것들을 다 이해하는 건 아직 어려울지도 모른다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "要不要去那边看看？还有很大很大的鱼。",
+			say = "――저쪽으로 가볼까? 더 큰 물고기가 있어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			side = 2,
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
-			say = "她点了点头。",
+			say = "TB는 고개를 끄덕였다.。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

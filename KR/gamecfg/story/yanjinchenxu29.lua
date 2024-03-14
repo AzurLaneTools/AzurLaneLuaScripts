@@ -130,7 +130,7 @@ return {
 			dir = 1,
 			actorName = "█ █ █ █ █",
 			actor = 499020,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			say = "▇▆▅■▎▃▌█▆▎▇█▎■▄▆▋▂▁▅▎▌█▊▇▊▇",
 			painting = {
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			actorName = "█ █ █ █ █",
 			actor = 499020,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			say = "▅▁▂▋▄▊■▆▎▅▁▂▋▄▊■▆▎▇▆▅■",
 			painting = {
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			actorName = "█ █ █ █ █",
 			actor = 499020,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			say = "█▎■조심▋▂▁▅▎▌해▇▊▇",
 			painting = {
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			actorName = "█ █ █ █ █",
 			actor = 499020,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			say = "█▆▎가█▎█",
 			painting = {
@@ -267,7 +267,7 @@ return {
 			dir = 1,
 			actorName = "█ █ █ █ █",
 			actor = 499020,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			say = "█▎█▎날▅█▎█▎▌찾아▅▎▌█",
 			painting = {
@@ -306,7 +306,7 @@ return {
 			dir = 1,
 			actorName = "█ █ █ █ █",
 			actor = 499020,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			say = "█▊▇▊▇▅▁▂▋▄▊▌█▌",
 			painting = {

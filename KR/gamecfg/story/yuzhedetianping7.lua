@@ -453,11 +453,11 @@ return {
 			}
 		},
 		{
-			bgName = "storymap_bolanhuichang",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "에식스",
 			hidePaintObj = true,
@@ -486,13 +486,13 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
 			side = 2,
+			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
+			blackBg = true,
 			actorName = "에식스",
-			nameColor = "#A9F548FF",
 			say = "지금은 전력을 지하 대피소에 집중시켜 둔 상태라, 현재로선 안전합니다.",
 			canMarkNode = {
 				"bolanhuichang",
@@ -510,11 +510,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "에식스",
 			hidePaintObj = true,
@@ -536,13 +536,13 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
 			side = 2,
+			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
+			blackBg = true,
 			actorName = "에식스",
-			nameColor = "#A9F548FF",
 			say = "또한 행사장 내부에는 그 거대한 적… '드로이드'라고 임시로 명명했습니다만, 어쨌든 지금은 10대 정도가 있는 듯합니다.",
 			canMarkNode = {
 				"bolanhuichang",
@@ -561,13 +561,13 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
 			side = 2,
+			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
+			blackBg = true,
 			actorName = "에식스",
-			nameColor = "#A9F548FF",
 			say = "함재기 공격이 별 효과가 없다는 점 외에 새로운 정보는 아직 없는 상태입니다.",
 			canMarkNode = {
 				"bolanhuichang",
@@ -586,11 +586,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "에식스",
 			hidePaintObj = true,
@@ -613,11 +613,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "에식스",
 			hidePaintObj = true,
@@ -641,13 +641,13 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
 			side = 2,
+			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
+			blackBg = true,
 			actorName = "에식스",
-			nameColor = "#A9F548FF",
 			say = "다음으로는 사르데냐 엠파이어와 사쿠라 엠파이어, 이스트 글림, 노스 유니온, 메탈 블러드, 비시아 성좌에 대해서입니다.",
 			canMarkNode = {
 				"bolanhuichang",
@@ -668,11 +668,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "에식스",
 			hidePaintObj = true,
@@ -697,11 +697,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "에식스",
 			hidePaintObj = true,
@@ -727,13 +727,13 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
 			side = 2,
+			nameColor = "#A9F548FF",
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			dir = 1,
+			blackBg = true,
 			actorName = "에식스",
-			nameColor = "#A9F548FF",
 			say = "이스트 글림은…… 음, 현재 행사장에 이스트 글림의 함선이 없어서 그런지 파빌리온도 아직 크게 별 손상을 입지 않은 상황입니다.",
 			canMarkNode = {
 				"bolanhuichang",
@@ -756,11 +756,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "에식스",
 			hidePaintObj = true,
@@ -788,11 +788,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "에식스",
 			hidePaintObj = true,
@@ -821,11 +821,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_503",
+			nameColor = "#A9F548FF",
 			side = 2,
 			dialogueBgAlpha = 0.6,
-			nameColor = "#A9F548FF",
 			dir = 1,
+			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			actorName = "에식스",
 			hidePaintObj = true,

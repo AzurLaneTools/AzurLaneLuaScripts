@@ -438,7 +438,7 @@ return {
 		},
 		{
 			actor = 900322,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
@@ -565,7 +565,7 @@ return {
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "맞아요, 저예요~",
 			typewriter = {
 				speed = 0.05,
@@ -614,7 +614,7 @@ return {
 			bgName = "bg_story_nepu2",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "속상해라~ 언니, 이런 식으로 절 반겨주시는 거예요?",
 			typewriter = {
 				speed = 0.05,
@@ -649,7 +649,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "내가 물어볼 말인 것 같은데요. 왜 여기에 있는 거예요?",
 			typewriter = {
 				speed = 0.05,

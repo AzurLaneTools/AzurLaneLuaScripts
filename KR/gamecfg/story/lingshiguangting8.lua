@@ -524,7 +524,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "이곳에 남아 나랑 놀아줘, 언니.",
 			typewriter = {
 				speed = 0.05,
@@ -643,7 +643,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "이 얼마나 뛰어난 힘인가… 만약 당신이 META가 된다면 얼마나 훌륭한 걸작이 될지….",
 			typewriter = {
 				speed = 0.05,
@@ -660,7 +660,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "헤헤헤… 헤헤헤헤헤… 계속 쏴도 된다구?",
 			typewriter = {
 				speed = 0.05,
@@ -677,7 +677,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "당신의 분노와 울부짖음을 날 향해 마음껏 쏟아내.",
 			typewriter = {
 				speed = 0.05,
@@ -762,7 +762,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "정확도가 너무 떨어지잖아~ 봐준 거야, 아니면 실전 경험이 전혀 없는 거야?",
 			typewriter = {
 				speed = 0.05,
@@ -796,7 +796,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "어쩔 수 없네, 그렇담 내가 기초 지식을 가르쳐 줄게.",
 			typewriter = {
 				speed = 0.05,
@@ -813,7 +813,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "여기는 내 머리, 여긴 내 심장이야. 이 두 곳을 겨냥해서 쏘면 효과가 더 좋을걸?",
 			typewriter = {
 				speed = 0.05,
@@ -884,7 +884,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "헤헤~ 좀 나아졌네.",
 			typewriter = {
 				speed = 0.05,
@@ -902,7 +902,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "그럼 이제 내 차례야-서로 죽을 때까지 싸워보자구, 언니~",
 			typewriter = {
 				speed = 0.05,

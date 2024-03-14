@@ -130,7 +130,7 @@ pg.child_target_set = {
 	},
 	[11] = {
 		target_progress = 5,
-		name = "정력 넘침",
+		name = "체력 넘침",
 		condition = "",
 		icon = "tb_target_pic_2_1",
 		recommend_attr = 101,
@@ -629,7 +629,7 @@ pg.child_target_set = {
 	},
 	[41] = {
 		target_progress = 10,
-		name = "灵巧机敏",
+		name = "영리 기민",
 		icon = "tb_target_pic_4_1_33",
 		recommend_attr = 101,
 		pic = "tb_target_desc_4_1",
@@ -668,7 +668,7 @@ pg.child_target_set = {
 	},
 	[42] = {
 		target_progress = 11,
-		name = "创意无限",
+		name = "창의 무한",
 		icon = "tb_target_pic_4_2_33",
 		recommend_attr = 102,
 		pic = "tb_target_desc_4_2",
@@ -708,7 +708,7 @@ pg.child_target_set = {
 	},
 	[43] = {
 		target_progress = 11,
-		name = "注重细节",
+		name = "섬세 주밀",
 		icon = "tb_target_pic_4_3_33",
 		recommend_attr = 104,
 		pic = "tb_target_desc_4_3",
@@ -748,7 +748,7 @@ pg.child_target_set = {
 	},
 	[44] = {
 		target_progress = 11,
-		name = "行动力强",
+		name = "과감 관철",
 		icon = "tb_target_pic_4_4_33",
 		recommend_attr = 102,
 		pic = "tb_target_desc_4_4",
@@ -788,7 +788,7 @@ pg.child_target_set = {
 	},
 	[45] = {
 		target_progress = 11,
-		name = "乐感十足",
+		name = "음률 정통",
 		icon = "tb_target_pic_4_5_33",
 		recommend_attr = 104,
 		pic = "tb_target_desc_4_5",
@@ -828,7 +828,7 @@ pg.child_target_set = {
 	},
 	[46] = {
 		target_progress = 11,
-		name = "魅力非凡",
+		name = "매력 만점",
 		icon = "tb_target_pic_4_6_33",
 		recommend_attr = 103,
 		pic = "tb_target_desc_4_6",
@@ -868,7 +868,7 @@ pg.child_target_set = {
 	},
 	[51] = {
 		target_progress = 10,
-		name = "灵巧机敏",
+		name = "영리 기민",
 		icon = "tb_target_pic_4_1_31",
 		recommend_attr = 101,
 		pic = "tb_target_desc_4_1",
@@ -907,7 +907,7 @@ pg.child_target_set = {
 	},
 	[52] = {
 		target_progress = 11,
-		name = "创意无限",
+		name = "창의 무한",
 		icon = "tb_target_pic_4_2_31",
 		recommend_attr = 102,
 		pic = "tb_target_desc_4_2",
@@ -947,7 +947,7 @@ pg.child_target_set = {
 	},
 	[53] = {
 		target_progress = 11,
-		name = "注重细节",
+		name = "섬세 주밀",
 		icon = "tb_target_pic_4_3_31",
 		recommend_attr = 104,
 		pic = "tb_target_desc_4_3",
@@ -987,7 +987,7 @@ pg.child_target_set = {
 	},
 	[54] = {
 		target_progress = 11,
-		name = "行动力强",
+		name = "과감 관철",
 		icon = "tb_target_pic_4_4_31",
 		recommend_attr = 102,
 		pic = "tb_target_desc_4_4",
@@ -1027,7 +1027,7 @@ pg.child_target_set = {
 	},
 	[55] = {
 		target_progress = 11,
-		name = "乐感十足",
+		name = "음률 정통",
 		icon = "tb_target_pic_4_5_31",
 		recommend_attr = 104,
 		pic = "tb_target_desc_4_5",
@@ -1067,7 +1067,7 @@ pg.child_target_set = {
 	},
 	[56] = {
 		target_progress = 11,
-		name = "魅力非凡",
+		name = "매력 만점",
 		icon = "tb_target_pic_4_6_31",
 		recommend_attr = 103,
 		pic = "tb_target_desc_4_6",

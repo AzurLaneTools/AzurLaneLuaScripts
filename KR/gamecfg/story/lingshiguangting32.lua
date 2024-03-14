@@ -595,7 +595,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "정말 재미있는 장치네, 라플라스의 도깨비 설계도에 따라 개조한 건가?",
 			typewriter = {
@@ -793,7 +793,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "에~ 날 돌려보내긴 쉽지 않을걸. 왜냐면 그 누구도 날 막을 수 없거든.",
 			typewriter = {
@@ -809,7 +809,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "인간도 안되고, 함선도 안돼. 안티엑스도 당연히 안되지~",
 			typewriter = {
@@ -825,7 +825,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "그리고 너희들이 또 재밌는 동료를 데리고 온 것 같아서 말이지, 거기 두 사람, 혹시 META야?",
 			typewriter = {
@@ -857,7 +857,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "어… 모르겠는데. 아마 어디선가 나를 만난 적이 있나 보군.",
 			typewriter = {
@@ -873,7 +873,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "내 말 좀 들어봐, 내 말 좀. 어서 그 안에서 저 성가신 기계를 없애줘!",
 			typewriter = {
@@ -889,7 +889,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "그러면 내가 들어가서 모두를 우리의 동료로 만들 수 있다구!",
 			typewriter = {
@@ -955,7 +955,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "어랏? 뭘 기다리고 있는 거야? 왜 움직이지 않고 있어?",
 			typewriter = {
@@ -1005,7 +1005,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "하? 말도 안 돼! 됐어. 믿을만하지 않다는 건 알고 있었으니까.",
 			typewriter = {
@@ -1021,7 +1021,7 @@ return {
 			actor = 900322,
 			side = 2,
 			bgName = "bg_camelot_13",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "이 기계의 에너지를 다 소모시키면 들어갈 수 있겠지? 어차피 난 시간이 많으니까 말이야~",
 			typewriter = {

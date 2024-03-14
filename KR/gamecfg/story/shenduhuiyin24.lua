@@ -121,7 +121,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "어라? 이상하네. 방금 제 이름을 똑똑히 부르지 않았나요?",
 			typewriter = {
 				speed = 0.05,
@@ -138,7 +138,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "저는 본험 리차드입니다.",
 			typewriter = {
 				speed = 0.05,
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "흐음...?",
 			typewriter = {
 				speed = 0.05,
@@ -327,7 +327,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "당신이 만난 게 바로 진짜 제 모습이죠.",
 			typewriter = {
 				speed = 0.05,
@@ -344,7 +344,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "언니, 당신 눈에는 제가 어떻게 보이나요?",
 			typewriter = {
 				speed = 0.05,
@@ -425,7 +425,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "어라? 언니, 사진 안 꺼내요?",
 			typewriter = {
 				speed = 0.05,
@@ -524,7 +524,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "언니, 무슨 생각 해요?",
 			effects = {
 				{
@@ -583,7 +583,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "왜냐면 지금 그쪽에서 훈련을 진행하고 있으니까요.",
 			typewriter = {
 				speed = 0.05,
@@ -618,7 +618,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "의미가 있나요? 여기서 가장 볼만한 건 대치 훈련 현장 아닌가요?",
 			typewriter = {
 				speed = 0.05,
@@ -635,7 +635,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "가장 멋진 부분인 만큼 어딜 가나 놓칠 수 없죠.",
 			typewriter = {
 				speed = 0.05,
@@ -652,7 +652,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "보세요, 바로 여기서 멋진 일이 곧 상연될 거예요.",
 			typewriter = {
 				speed = 0.05,
@@ -718,7 +718,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "아직은 안 돼요. 조금만 더, 조금만 더 기다리면 돼요~",
 			typewriter = {
 				speed = 0.05,
@@ -962,7 +962,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "시간이 다 됐어요————",
 			typewriter = {
 				speed = 0.05,
@@ -979,7 +979,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "하……하하…………꺄하하하하………………꺄하하하하하!",
 			dialogShake = {
 				speed = 0.08,
@@ -1001,7 +1001,7 @@ return {
 			bgName = "bg_xiangting_3",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "시작됐어요. 모든 것이 다시 시작됩니다!",
 			typewriter = {
 				speed = 0.05,
@@ -1070,7 +1070,7 @@ return {
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "맞아요~ 정말 좋은 위치죠~",
 			typewriter = {
 				speed = 0.05,

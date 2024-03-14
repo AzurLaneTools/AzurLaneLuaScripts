@@ -194,6 +194,7 @@ function slot0.InitSwitch()
 		end,
 		[DROP_TYPE_EMOJI] = function (slot0)
 			slot1 = pg.emoji_template[slot0.id]
+			slot0.name = slot1.item_name
 			slot0.desc = slot1.item_desc
 
 			return slot1
@@ -334,6 +335,9 @@ function slot0.InitSwitch()
 				id = slot0.id,
 				extra = slot0.count
 			})
+		end,
+		[DROP_TYPE_WORLD_ITEM] = function (slot0)
+			return WorldItem.New(slot0)
 		end
 	}
 
@@ -754,6 +758,7 @@ function slot0.InitSwitch()
 		end,
 		[DROP_TYPE_EMOJI] = function (slot0)
 			getProxy(EmojiProxy):addNewEmojiID(slot0.id)
+			pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_EMOJI, slot0:getConfigTable())
 		end,
 		[DROP_TYPE_WORLD_COLLECTION] = function (slot0)
 			nowWorld():GetCollectionProxy():Unlock(slot0.id)
@@ -818,6 +823,8 @@ function slot0.InitSwitch()
 
 			if slot0:getConfig("type") == Item.LOVE_LETTER_TYPE then
 				slot3 = string.gsub(slot3, "$1", ShipGroup.getDefaultShipNameByGroupID(slot0.extra))
+			elseif slot0:getConfig("combination_display") ~= nil and slot0:getConfig("combination_display") and #slot4 > 0 then
+				slot3 = Item.StaticCombinationDisplay(slot4)
 			end
 
 			setText(slot2, SwitchSpecialChar(slot3, true))
@@ -836,7 +843,7 @@ function slot0.InitSwitch()
 			setText(slot2, slot6 or i18n("ship_drop_desc_default"))
 		end,
 		[DROP_TYPE_EQUIP] = function (slot0, slot1, slot2)
-			setText(slot1, slot2.name or slot0:getConfig("name") or "")
+			setText(slot2, slot1.name or slot0:getConfig("name") or "")
 		end,
 		[DROP_TYPE_STRATEGY] = function (slot0, slot1, slot2)
 			slot3 = slot0:getConfig("desc")

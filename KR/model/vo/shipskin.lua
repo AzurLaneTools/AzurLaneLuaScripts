@@ -298,4 +298,40 @@ function slot0.CanUseShareSkinForShip(slot0, slot1)
 	return slot2 and slot4
 end
 
+function slot0.ExistReward(slot0)
+	return pg.ship_skin_reward[slot0.configId] ~= nil and #slot1.reward > 0
+end
+
+function slot0.GetRewardList(slot0)
+	if not slot0:ExistReward() then
+		return {}
+	end
+
+	slot2 = {}
+
+	for slot6, slot7 in pairs(pg.ship_skin_reward[slot0.configId].reward) do
+		table.insert(slot2, {
+			type = slot7[1],
+			id = slot7[2],
+			count = slot7[3]
+		})
+	end
+
+	return slot2
+end
+
+function slot0.GetRewardListDesc(slot0)
+	if #slot0:GetRewardList() <= 0 then
+		return ""
+	end
+
+	return getDropInfo(_.map(slot1, function (slot0)
+		return {
+			slot0.type,
+			slot0.id,
+			slot0.count
+		}
+	end))
+end
+
 return slot0

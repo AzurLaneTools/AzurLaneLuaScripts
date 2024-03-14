@@ -1,5 +1,134 @@
 pg = pg or {}
 pg.enemy_data_statistics_314 = {
+	[16501303] = {
+		cannon = 180,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		base = 90740,
+		dodge = 14,
+		durability_growth = 0,
+		antiaircraft = 360,
+		speed = 30,
+		reload_growth = 0,
+		dodge_growth = 156,
+		luck = 8,
+		battle_unit_type = 95,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		antiaircraft_growth = 0,
+		torpedo = 120,
+		durability = 31500,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		hit_growth = 210,
+		armor = 0,
+		id = 16501303,
+		fog_fx = "",
+		antisub = 0,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {}
+	},
+	[16502001] = {
+		cannon = 7,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 560,
+		battle_unit_type = 25,
+		air = 0,
+		base = 90743,
+		dodge = 0,
+		durability_growth = 10000,
+		antiaircraft = 60,
+		speed = 15,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck = 0,
+		antisub = 0,
+		hit = 10,
+		antisub_growth = 0,
+		air_growth = 0,
+		antiaircraft_growth = 1000,
+		torpedo = 33,
+		durability = 300,
+		armor_growth = 0,
+		torpedo_growth = 3250,
+		luck_growth = 0,
+		hit_growth = 144,
+		armor = 0,
+		fog_fx = "",
+		id = 16502001,
+		specific_fx_scale = {
+			yuanchou_gongjian = 0.04
+		},
+		appear_fx = {
+			"appearsmall",
+			"yuanchou_gongjian"
+		},
+		equipment_list = {
+			1100072,
+			1100182,
+			1100492
+		}
+	},
+	[16502002] = {
+		cannon = 16,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 880,
+		battle_unit_type = 30,
+		air = 0,
+		base = 90744,
+		dodge = 0,
+		durability_growth = 19200,
+		antiaircraft = 120,
+		speed = 15,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck = 0,
+		antisub = 0,
+		hit = 10,
+		antisub_growth = 0,
+		air_growth = 0,
+		antiaircraft_growth = 2250,
+		torpedo = 26,
+		durability = 510,
+		armor_growth = 0,
+		torpedo_growth = 2250,
+		luck_growth = 0,
+		hit_growth = 144,
+		armor = 0,
+		fog_fx = "",
+		id = 16502002,
+		specific_fx_scale = {
+			yuanchou_gongjian = 0.04
+		},
+		appear_fx = {
+			"appearsmall",
+			"yuanchou_gongjian"
+		},
+		equipment_list = {
+			1100337,
+			1100272,
+			1100492
+		}
+	},
 	[16502003] = {
 		cannon = 18,
 		reload = 150,
@@ -911,152 +1040,6 @@ pg.enemy_data_statistics_314 = {
 			1101097,
 			1101102,
 			1101107
-		}
-	},
-	[16502104] = {
-		cannon = 78,
-		name = "조프르 통제 무장-「Annihilate」",
-		type = 5,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		fog_fx = "",
-		dodge = 11,
-		speed = 14,
-		luck = 0,
-		antisub = 0,
-		reload_growth = 0,
-		dodge_growth = 136,
-		antiaircraft_growth = 4680,
-		reload = 150,
-		hit = 25,
-		antisub_growth = 0,
-		air_growth = 0,
-		cannon_growth = 3400,
-		base = 90648,
-		icon_type = 5,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 106,
-		hit_growth = 280,
-		armor = 0,
-		durability = 6630,
-		torpedo = 0,
-		id = 16502104,
-		durability_growth = 65600,
-		luck_growth = 0,
-		battle_unit_type = 65,
-		specific_fx_scale = {
-			yuanchou_gongjian = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_gongjian"
-		},
-		equipment_list = {
-			1100032,
-			1100552,
-			1100917,
-			1100737
-		},
-		buff_list = {
-			{
-				ID = 50510,
-				LV = 3
-			}
-		}
-	},
-	[16502105] = {
-		cannon = 36,
-		name = "조프르 통제 무장-「Moderate」",
-		type = 7,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 86,
-		fog_fx = "",
-		dodge = 9,
-		speed = 16,
-		luck = 0,
-		antisub = 0,
-		reload_growth = 0,
-		dodge_growth = 96,
-		antiaircraft_growth = 5280,
-		reload = 150,
-		hit = 25,
-		antisub_growth = 0,
-		air_growth = 4127,
-		cannon_growth = 0,
-		base = 90648,
-		icon_type = 7,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 134,
-		hit_growth = 280,
-		armor = 0,
-		durability = 5780,
-		torpedo = 0,
-		id = 16502105,
-		durability_growth = 58880,
-		luck_growth = 0,
-		battle_unit_type = 70,
-		specific_fx_scale = {
-			yuanchou_gongjian = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_gongjian"
-		},
-		equipment_list = {
-			1100022,
-			1100172,
-			1100927,
-			1100937
-		}
-	},
-	[16502111] = {
-		cannon = 22,
-		name = "르 마르스 통제 무장-「Wander」",
-		type = 1,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		fog_fx = "",
-		dodge = 22,
-		speed = 36,
-		luck = 0,
-		antisub = 0,
-		reload_growth = 0,
-		dodge_growth = 360,
-		antiaircraft_growth = 3000,
-		reload = 150,
-		hit = 25,
-		antisub_growth = 0,
-		air_growth = 0,
-		cannon_growth = 626,
-		base = 90279,
-		icon_type = 1,
-		armor_growth = 0,
-		torpedo_growth = 5200,
-		antiaircraft = 72,
-		hit_growth = 280,
-		armor = 0,
-		durability = 3060,
-		torpedo = 94,
-		id = 16502111,
-		durability_growth = 21600,
-		luck_growth = 0,
-		battle_unit_type = 50,
-		specific_fx_scale = {
-			yuanchou_kandao = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_kandao"
-		},
-		equipment_list = {
-			1100022,
-			1100397,
-			1100507
 		}
 	}
 }

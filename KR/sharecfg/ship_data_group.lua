@@ -1523,6 +1523,12 @@ pg.ship_data_group = setmetatable({
 		[70110] = {
 			535
 		},
+		[70111] = {
+			626
+		},
+		[70112] = {
+			627
+		},
 		[70201] = {
 			262
 		},
@@ -1553,6 +1559,9 @@ pg.ship_data_group = setmetatable({
 		[70501] = {
 			437
 		},
+		[70502] = {
+			438
+		},
 		[70504] = {
 			440
 		},
@@ -1564,6 +1573,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[70507] = {
 			587
+		},
+		[70508] = {
+			628
 		},
 		[70701] = {
 			538
@@ -2053,6 +2065,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[970104] = {
 			30029
+		},
+		[970207] = {
+			30030
 		}
 	},
 	all = {
@@ -2563,6 +2578,8 @@ pg.ship_data_group = setmetatable({
 		433,
 		475,
 		535,
+		626,
+		627,
 		262,
 		434,
 		498,
@@ -2573,10 +2590,12 @@ pg.ship_data_group = setmetatable({
 		496,
 		586,
 		437,
+		438,
 		440,
 		441,
 		536,
 		587,
+		628,
 		538,
 		539,
 		348,
@@ -2739,7 +2758,8 @@ pg.ship_data_group = setmetatable({
 		30026,
 		30027,
 		30028,
-		30029
+		30029,
+		30030
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -24726,6 +24746,70 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[626] = {
+		type = 1,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 7,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 508,
+		code = 626,
+		group_type = 70111,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 雪境迷踪",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[627] = {
+		type = 1,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 7,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 504,
+		code = 627,
+		group_type = 70112,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 雪境迷踪",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[262] = {
 		type = 2,
 		redirect_id = 101,
@@ -25138,6 +25222,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[438] = {
+		type = 5,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 7,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 519,
+		code = 438,
+		group_type = 70502,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"C",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 雪境迷踪",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[440] = {
 		type = 5,
 		redirect_id = 101,
@@ -25288,6 +25404,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[628] = {
+		type = 5,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 7,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 523,
+		code = 628,
+		group_type = 70508,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 雪境迷踪",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[538] = {
 		type = 7,
 		redirect_id = 101,
@@ -25295,7 +25443,7 @@ pg.base.ship_data_group = {
 		nationality = 7,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 523,
+		index_id = 524,
 		code = 538,
 		group_type = 70701,
 		trans_type = 0,
@@ -25327,7 +25475,7 @@ pg.base.ship_data_group = {
 		nationality = 7,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 524,
+		index_id = 525,
 		code = 539,
 		group_type = 71801,
 		trans_type = 0,
@@ -25359,7 +25507,7 @@ pg.base.ship_data_group = {
 		nationality = 8,
 		trans_skin = 801029,
 		handbook_type = 0,
-		index_id = 525,
+		index_id = 526,
 		code = 348,
 		group_type = 80102,
 		trans_type = 1,
@@ -25411,7 +25559,7 @@ pg.base.ship_data_group = {
 		nationality = 8,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 526,
+		index_id = 527,
 		code = 359,
 		group_type = 80103,
 		trans_type = 0,
@@ -25446,7 +25594,7 @@ pg.base.ship_data_group = {
 		nationality = 8,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 527,
+		index_id = 528,
 		code = 395,
 		group_type = 80104,
 		trans_type = 0,
@@ -25488,7 +25636,7 @@ pg.base.ship_data_group = {
 		nationality = 8,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 528,
+		index_id = 529,
 		code = 347,
 		group_type = 80101,
 		trans_type = 0,
@@ -25540,7 +25688,7 @@ pg.base.ship_data_group = {
 		nationality = 8,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 529,
+		index_id = 530,
 		code = 522,
 		group_type = 80107,
 		trans_type = 0,
@@ -25583,7 +25731,7 @@ pg.base.ship_data_group = {
 		nationality = 8,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 530,
+		index_id = 531,
 		code = 523,
 		group_type = 80108,
 		trans_type = 0,
@@ -25626,7 +25774,7 @@ pg.base.ship_data_group = {
 		nationality = 8,
 		trans_skin = 802019,
 		handbook_type = 0,
-		index_id = 531,
+		index_id = 532,
 		code = 349,
 		group_type = 80201,
 		trans_type = 2,
@@ -25667,7 +25815,7 @@ pg.base.ship_data_group = {
 		nationality = 8,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 532,
+		index_id = 533,
 		code = 454,
 		group_type = 80202,
 		trans_type = 0,
@@ -25710,7 +25858,7 @@ pg.base.ship_data_group = {
 		nationality = 8,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 533,
+		index_id = 534,
 		code = 603,
 		group_type = 80203,
 		trans_type = 0,
@@ -25742,7 +25890,7 @@ pg.base.ship_data_group = {
 		nationality = 8,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 534,
+		index_id = 535,
 		code = 600,
 		group_type = 80301,
 		trans_type = 0,
@@ -25774,7 +25922,7 @@ pg.base.ship_data_group = {
 		nationality = 8,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 535,
+		index_id = 536,
 		code = 453,
 		group_type = 80501,
 		trans_type = 0,
@@ -25817,7 +25965,7 @@ pg.base.ship_data_group = {
 		nationality = 8,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 536,
+		index_id = 537,
 		code = 602,
 		group_type = 80502,
 		trans_type = 0,
@@ -25849,7 +25997,7 @@ pg.base.ship_data_group = {
 		nationality = 8,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 537,
+		index_id = 538,
 		code = 458,
 		group_type = 80701,
 		trans_type = 0,
@@ -25891,7 +26039,7 @@ pg.base.ship_data_group = {
 		nationality = 8,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 538,
+		index_id = 539,
 		code = 599,
 		group_type = 80702,
 		trans_type = 0,
@@ -25923,7 +26071,7 @@ pg.base.ship_data_group = {
 		nationality = 8,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 539,
+		index_id = 540,
 		code = 350,
 		group_type = 80801,
 		trans_type = 0,
@@ -25966,7 +26114,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 901019,
 		handbook_type = 0,
-		index_id = 540,
+		index_id = 541,
 		code = 351,
 		group_type = 90101,
 		trans_type = 1,
@@ -26018,7 +26166,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 541,
+		index_id = 542,
 		code = 452,
 		group_type = 90102,
 		trans_type = 0,
@@ -26061,7 +26209,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 542,
+		index_id = 543,
 		code = 457,
 		group_type = 90103,
 		trans_type = 0,
@@ -26104,7 +26252,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 543,
+		index_id = 544,
 		code = 601,
 		group_type = 90104,
 		trans_type = 0,
@@ -26136,7 +26284,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 544,
+		index_id = 545,
 		code = 394,
 		group_type = 90111,
 		trans_type = 0,
@@ -26190,7 +26338,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 545,
+		index_id = 546,
 		code = 556,
 		group_type = 90113,
 		trans_type = 0,
@@ -26222,7 +26370,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 546,
+		index_id = 547,
 		code = 481,
 		group_type = 90112,
 		trans_type = 0,
@@ -26266,7 +26414,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 547,
+		index_id = 548,
 		code = 456,
 		group_type = 90201,
 		trans_type = 0,
@@ -26308,7 +26456,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 548,
+		index_id = 549,
 		code = 598,
 		group_type = 90202,
 		trans_type = 0,
@@ -26340,7 +26488,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 549,
+		index_id = 550,
 		code = 524,
 		group_type = 90301,
 		trans_type = 0,
@@ -26372,7 +26520,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 550,
+		index_id = 551,
 		code = 455,
 		group_type = 90302,
 		trans_type = 0,
@@ -26415,7 +26563,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 551,
+		index_id = 552,
 		code = 352,
 		group_type = 90401,
 		trans_type = 0,
@@ -26458,7 +26606,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 552,
+		index_id = 553,
 		code = 353,
 		group_type = 90501,
 		trans_type = 0,
@@ -26501,7 +26649,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 553,
+		index_id = 554,
 		code = 604,
 		group_type = 90502,
 		trans_type = 0,
@@ -26533,7 +26681,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 554,
+		index_id = 555,
 		code = 418,
 		group_type = 90503,
 		trans_type = 0,
@@ -26578,7 +26726,7 @@ pg.base.ship_data_group = {
 		nationality = 9,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 555,
+		index_id = 556,
 		code = 555,
 		group_type = 90701,
 		trans_type = 0,
@@ -26610,7 +26758,7 @@ pg.base.ship_data_group = {
 		nationality = 96,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 556,
+		index_id = 557,
 		code = 571,
 		group_type = 960001,
 		trans_type = 0,
@@ -26642,7 +26790,7 @@ pg.base.ship_data_group = {
 		nationality = 96,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 557,
+		index_id = 558,
 		code = 613,
 		group_type = 960002,
 		trans_type = 0,
@@ -26674,7 +26822,7 @@ pg.base.ship_data_group = {
 		nationality = 96,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 558,
+		index_id = 559,
 		code = 610,
 		group_type = 960003,
 		trans_type = 0,
@@ -26706,7 +26854,7 @@ pg.base.ship_data_group = {
 		nationality = 96,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 559,
+		index_id = 560,
 		code = 611,
 		group_type = 960004,
 		trans_type = 0,
@@ -26738,7 +26886,7 @@ pg.base.ship_data_group = {
 		nationality = 96,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 560,
+		index_id = 561,
 		code = 614,
 		group_type = 960005,
 		trans_type = 0,
@@ -26770,7 +26918,7 @@ pg.base.ship_data_group = {
 		nationality = 96,
 		trans_skin = 0,
 		handbook_type = 0,
-		index_id = 561,
+		index_id = 562,
 		code = 612,
 		group_type = 960006,
 		trans_type = 0,
@@ -30942,6 +31090,38 @@ pg.base.ship_data_group = {
 					{
 						autoOpenShipConfigID = 9701041
 					}
+				},
+				0
+			}
+		}
+	},
+	[30030] = {
+		type = 2,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 97,
+		trans_skin = 0,
+		handbook_type = 3,
+		index_id = 30030,
+		code = 30030,
+		group_type = 970207,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"D",
+			"E",
+			"C",
+			"C",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 雪境迷踪",
+				{
+					""
 				},
 				0
 			}

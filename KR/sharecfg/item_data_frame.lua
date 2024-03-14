@@ -63,6 +63,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>5년 동안 모항에서 분투해 온 지휘관들에게 바칩니다.</color>\n5주년 한정 이벤트에 참여하여 획득",
 		scene = {}
 	},
+	[108] = {
+		time_limit_type = 0,
+		name = "6주년 기념",
+		gain_by = "",
+		id = 108,
+		time_second = 0,
+		desc = "<color=#ffffff>6년 동안 모항에서 분투해 온 지휘관들에게 바칩니다.</color>\n6주년 한정 이벤트에 참여하여 획득",
+		scene = {}
+	},
 	[201] = {
 		time_limit_type = 0,
 		name = "한계 챌린저 ",
@@ -426,7 +435,7 @@ pg.item_data_frame = {
 	[329] = {
 		time_limit_type = 0,
 		name = "얼음 왕국의 별",
-		gain_by = "",
+		gain_by = "雪境迷踪",
 		id = 329,
 		time_second = 0,
 		desc = "이벤트에서 획득 가능",
@@ -612,6 +621,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>결정 속에서 반짝이는 물병자리의 빛, 한계에 도전하는 지휘관에게 바칩니다!</color>\n\"한계 도전\"에 참여하여 획득 (24.03.01-24.03.31）",
 		scene = {}
 	},
+	[10010] = {
+		time_limit_type = 0,
+		name = "한계 챌린지·물고기자리",
+		gain_by = "",
+		id = 10010,
+		time_second = 0,
+		desc = "<size=24><color=#ffffff>\"물고기자리\" 한계 챌린지 스테이지 클리어 기념. 자신의 한계에 도전하는 용맹스러운 지휘관에게 바치는 선물.</color> \"한계 챌린지\"에서 획득 가능(24.04.01 ~ 24.04.30).</size>",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -620,6 +638,7 @@ pg.item_data_frame = {
 		104,
 		105,
 		107,
+		108,
 		201,
 		202,
 		203,
@@ -680,6 +699,7 @@ pg.item_data_frame = {
 		10006,
 		10007,
 		10008,
-		10009
+		10009,
+		10010
 	}
 }

@@ -1,6 +1,15 @@
 pg = pg or {}
 pg.constellation_challenge_month = {
-	[2] = {
+	{
+		id = 1,
+		constellation_icon = "Capricorn",
+		stage = {
+			10022,
+			10023,
+			10024
+		}
+	},
+	{
 		id = 2,
 		constellation_icon = "Capricorn",
 		stage = {
@@ -9,7 +18,7 @@ pg.constellation_challenge_month = {
 			10024
 		}
 	},
-	[3] = {
+	{
 		id = 3,
 		constellation_icon = "Aquarius",
 		stage = {
@@ -73,6 +82,7 @@ pg.constellation_challenge_month = {
 		}
 	},
 	all = {
+		1,
 		2,
 		3,
 		7,

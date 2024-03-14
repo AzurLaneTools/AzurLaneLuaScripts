@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_link_button = {
 	{
-		param = "ac",
+		param = "0",
 		name = "event_all",
 		type = 3,
 		text_pic = "text_event_all",
@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5191
+			5221
 		}
 	},
 	{
@@ -81,13 +81,15 @@ pg.activity_link_button = {
 	[40] = {
 		param = "0",
 		name = "event_escort",
-		time = "stop",
-		text_pic = "text_event_escort",
 		type = 0,
-		pic = "event_escort",
+		text_pic = "text_event_escort",
 		id = 40,
 		group_id = 6,
-		order = 1
+		pic = "event_escort",
+		order = 1,
+		time = {
+			"default"
+		}
 	},
 	[60] = {
 		param = "0",
@@ -106,23 +108,29 @@ pg.activity_link_button = {
 	[70] = {
 		param = "0",
 		name = "event_aprilFool",
-		time = "stop",
-		text_pic = "text_event_aprilFool",
 		type = 0,
-		pic = "event_aprilFool",
+		text_pic = "text_event_aprilFool",
 		id = 70,
 		group_id = 8,
-		order = 1
+		pic = "event_aprilFool",
+		order = 1,
+		time = {
+			"default",
+			4733
+		}
 	},
 	[80] = {
 		type = 2,
 		name = "event_Atelier",
-		time = "stop",
 		text_pic = "text_event_Atelier",
 		id = 80,
 		group_id = 9,
 		pic = "event_Atelier",
 		order = 1,
+		time = {
+			"default",
+			4581
+		},
 		param = {
 			"ATELIER_COMPOSITE"
 		}
@@ -143,12 +151,15 @@ pg.activity_link_button = {
 	[100] = {
 		type = 2,
 		name = "event_medal",
-		time = "stop",
 		text_pic = "text_event_medal",
 		id = 100,
 		group_id = 10,
 		pic = "event_medal",
 		order = 1,
+		time = {
+			"default",
+			5093
+		},
 		param = {
 			"SENRANKAGURA_MEDAL"
 		}
@@ -156,12 +167,15 @@ pg.activity_link_button = {
 	[101] = {
 		type = 2,
 		name = "event_senran",
-		time = "stop",
 		text_pic = "text_event_senran",
 		id = 101,
 		group_id = 100,
 		pic = "event_senran",
 		order = 1,
+		time = {
+			"default",
+			5099
+		},
 		param = {
 			"SENRANKAGURA_TRAIN"
 		}

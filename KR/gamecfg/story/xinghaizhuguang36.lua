@@ -114,7 +114,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "...안티엑스, 이렇게 좋은 물건을 내놓는 건 오랜만이네. ",
 			bgm = "theme-richard",
 			typewriter = {
@@ -144,7 +144,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "날 위한 특별한 환영 선물인가?",
 			typewriter = {
 				speed = 0.05,
@@ -168,7 +168,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "흐음... 조금 더 대화를 나누면서 그동안의 회포를 풀고 싶었는데.",
 			typewriter = {
 				speed = 0.05,
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "혹시 빛나는 좌표 봤어?  ",
 			typewriter = {
 				speed = 0.05,
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "정말이지 향수를 불러일으키는 물건이야.",
 			typewriter = {
 				speed = 0.05,
@@ -204,7 +204,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "난 벌써 선물을 좀 보냈는데, 넌?",
 			typewriter = {
 				speed = 0.05,
@@ -240,7 +240,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "흐음~ 그러고보니 아직 너와 싸워본적이 없는 것 같네. 너무 자신만만한 거 아니야?",
 			typewriter = {
 				speed = 0.05,
@@ -252,7 +252,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "내가 한번 맞춰볼까? 네 계획은 장기전으로 끌고가서 날 쓰러트릴 생각이야. ",
 			typewriter = {
 				speed = 0.05,
@@ -276,7 +276,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "흐흥~ 작은 비밀 하나 알려줄게.",
 			typewriter = {
 				speed = 0.05,
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			nameColor = "#DFDFDF",
+			nameColor = "#BDBDBD",
 			say = "난 사실 의외로 인내심이 강하거든.",
 			typewriter = {
 				speed = 0.05,

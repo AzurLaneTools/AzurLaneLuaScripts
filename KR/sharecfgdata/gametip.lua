@@ -9873,7 +9873,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "기간 한정 건조를 총 200회 실시하면, \"괌\" 100% 획득 가능! (최대 4척까지)"
+	tip = "기간 한정 건조를 총 200회 실시하면, \"소비에츠키 소유즈\" 100% 획득 가능! (최대 4척까지)"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -11857,7 +11857,7 @@ _G.pg.base.gametip.returner_help = {
 '컴백 미션'이란, 지휘관의 로그인 상태에 따라 '현역 지휘관', '컴백·신입 지휘관'으로 분류되어, 각각 다른 보상을 획득할 수 있는 이벤트입니다. 
 ■ '현역 지휘관', '컴백·신입 지휘관'에 대해
 다음 조건을 만족한 지휘관은 '현역 지휘관'으로 분류되어, '현역 지휘관' 전용 목표를 달성함으로써 보상을 획득할 수 있습니다. 
-· 2023년 9월 15일~ 9월 28일 23:59까지 한 번이라도 로그인한 적이 있고, 상기 조건을 만족하지 못한 경우에는 '컴백·신입 지휘관'으로 분류되어, 전용 임무를 클리어함으로써 보상을 획득할 수 있습니다. 
+· 2024년 2월 29일~ 4월 3일 23:59까지 한 번이라도 로그인한 적이 있고, 상기 조건을 만족하지 못한 경우에는 '컴백·신입 지휘관'으로 분류되어, 전용 임무를 클리어함으로써 보상을 획득할 수 있습니다. 
 자신이 '현역 지휘관', '컴백·신입 지휘관' 중 어디에 속하는지 판단이 어려운 경우에는 컴백 미션 배너에 표시된 내용을 확인하시기 바랍니다. 
 ■ 현역 지휘관의 목표에 대해
 현역 지휘관은 최대 2명의 친구를 '컴백 미션'에 참가시킬 수 있으며, 친구가 전용 임무를 클리어하면 자신에게 '컴백 Pt'가 가산됩니다. 
@@ -11911,7 +11911,7 @@ _G.pg.base.gametip.pray_build_help = {
 			info = [[
 2. 동일 건조에서 출현하는 함선 중 두 종류를 골라
 '픽업 상태(출현율 UP 상태)'로 만들 수 있습니다.
-<color=#FF5C5C>(※ 2023년 7월 27일까지 상시 건조한 함선만
+<color=#FF5C5C>(※ 2024년 1월 18일까지 상시 건조한 함선만
 출현합니다.)</color>]]
 		},
 		{
@@ -23478,6 +23478,14 @@ _G.pg.base.gametip.battle_text_common_1 = {
 	tip = "적이 큰 기술을 펼치려고 한다! <color=#f1f102>화력을 집중해서 차지를 저지하라</color>!"
 }
 
+_G.pg.base.gametip.battle_text_common_2 = {
+	tip = "경고: <color=#ffc038>전투 데이터 이상</color>을 탐지했습니다. 아군의 <color=#f1f102>특정 장비 및 스킬 효과가 무효화됩니다! </color>"
+}
+
+_G.pg.base.gametip.battle_text_common_3 = {
+	tip = "<color=#f1f102>적이 가하는 피해량이 대폭 상승하고, 받는 피해량이 시간이 경과함에 따라 상승한다</color>."
+}
+
 _G.pg.base.gametip.battle_text_yingxiv4_1 = {
 	tip = "전쟁의 기사가 왼쪽으로 돌진합니다!"
 }
@@ -23568,6 +23576,10 @@ _G.pg.base.gametip.battle_text_yunxian_2 = {
 
 _G.pg.base.gametip.battle_text_yunxian_3 = {
 	tip = "어두운 안개의 '핵'을 격파했다! 함선을 모방한 그림자도 무너지기 시작했다."
+}
+
+_G.pg.base.gametip.battle_text_tongmeng_1 = {
+	tip = "2F 2A 77 68 61 74 20 68 61 70 70 65 6E 64 2A 2F"
 }
 
 _G.pg.base.gametip.series_enemy_mood = {
@@ -25347,7 +25359,7 @@ _G.pg.base.gametip.child_item_type4 = {
 }
 
 _G.pg.base.gametip.child_mind_empty_tip = {
-	tip = "-当前暂无任何心事-"
+	tip = "-특별히 생각하는 바는 없습니다-"
 }
 
 _G.pg.base.gametip.child_mind_finish_title = {
@@ -27146,4 +27158,24 @@ _G.pg.base.gametip.child_callname_tip = {
 
 _G.pg.base.gametip.child_plan_no_cost = {
 	tip = "- 소비 없음 -"
+}
+
+_G.pg.base.gametip.word_emoji_unlock = {
+	tip = "스탬프 오픈!"
+}
+
+_G.pg.base.gametip.word_get_emoji = {
+	tip = "「$1」"
+}
+
+_G.pg.base.gametip.word_show_extra_reward_at_fudai_dialog = {
+	tip = "(<color=#92fc63>특전 $1</color>)"
+}
+
+_G.pg.base.gametip.skin_shop_buy_confirm = {
+	tip = "<color=$1>다이아×$2</color>개를 소비하여 <color=#92fc63FF>$3</color>을(를) 구매하시겠습니까?"
+}
+
+_G.pg.base.gametip.activity_victory = {
+	tip = "함대를 출격시켜 승리함"
 }

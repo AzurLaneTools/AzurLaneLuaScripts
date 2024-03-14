@@ -499,7 +499,7 @@ return {
 		{
 			actor = 699010,
 			actorShadow = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			actorName = "마르코 폴로？",
 			blackBg = true,
@@ -513,7 +513,7 @@ return {
 		{
 			actor = 699010,
 			actorShadow = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			actorName = "마르코 폴로？",
 			blackBg = true,
@@ -527,7 +527,7 @@ return {
 		{
 			actor = 699010,
 			actorShadow = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			actorName = "마르코 폴로？",
 			blackBg = true,
@@ -541,7 +541,7 @@ return {
 		{
 			actor = 699010,
 			actorShadow = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			actorName = "마르코 폴로？",
 			blackBg = true,
@@ -555,7 +555,7 @@ return {
 		{
 			actor = 699010,
 			actorShadow = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			actorName = "마르코 폴로？",
 			blackBg = true,
@@ -569,7 +569,7 @@ return {
 		{
 			actor = 699010,
 			actorShadow = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			actorName = "마르코 폴로？",
 			blackBg = true,
@@ -583,7 +583,7 @@ return {
 		{
 			actor = 699010,
 			actorShadow = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			actorName = "마르코 폴로？",
 			blackBg = true,
@@ -597,7 +597,7 @@ return {
 		{
 			actor = 699010,
 			actorShadow = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			actorName = "마르코 폴로？",
 			blackBg = true,
@@ -611,7 +611,7 @@ return {
 		{
 			actor = 699010,
 			actorShadow = true,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			actorName = "마르코 폴로？",
 			blackBg = true,
@@ -936,7 +936,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "마르코 폴로？",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "또, 아이리스……",
 			typewriter = {
 				speed = 0.05,
@@ -950,7 +950,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "마르코 폴로？",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "신앙을 통일해야 하는데, 왜 자꾸 방해하는 거야……",
 			typewriter = {
 				speed = 0.05,
@@ -964,7 +964,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "마르코 폴로？",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "이단자들……",
 			typewriter = {
 				speed = 0.05,
@@ -978,7 +978,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "마르코 폴로？",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "■■■이야말로 정통성 있는 신앙이라고…...",
 			typewriter = {
 				speed = 0.05,

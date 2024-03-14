@@ -210,7 +210,7 @@ return {
 			actorName = "█ █ █ █",
 			side = 2,
 			bgName = "bg_story_bsmlevel",
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			dir = 1,
 			say = "▊▇ ▊▇ ▊▇ ▊▇ ▊▇ ▊▇ ▊▎▇ ▊▇ ▊ ▊▇ ▊ ▊▇ ▊▊▊ ▊▇ ▊▇ ▊▇",
 			soundeffect = "event:/battle/boom2",

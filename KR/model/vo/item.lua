@@ -134,8 +134,8 @@ function slot0.getConfig(slot0, slot1)
 	return uv0.super.getConfig(slot0, slot1)
 end
 
-function slot0.CombinationDisplay(slot0, slot1)
-	return i18n("skin_gift_desc", table.concat(_.map(slot1, function (slot0)
+function slot0.StaticCombinationDisplay(slot0)
+	return i18n("skin_gift_desc", table.concat(_.map(slot0, function (slot0)
 		slot1 = string.format("%0.1f", slot0[2] / 100)
 		slot3 = ""
 
@@ -147,8 +147,19 @@ function slot0.CombinationDisplay(slot0, slot1)
 			slot3 = "（<color=#92fc63>" .. i18n("luckybag_skin_isani") .. "</color>）"
 		end
 
-		return "\n（<color=#92fc63>" .. slot1 .. "%%</color>）" .. slot2.shipName .. i18n("random_skin_list_item_desc_label") .. slot2.skinName .. slot3
+		slot4 = i18n("random_skin_list_item_desc_label")
+		slot5 = ""
+
+		if slot2:ExistReward() then
+			slot5 = i18n("word_show_extra_reward_at_fudai_dialog", slot2:GetRewardListDesc())
+		end
+
+		return "\n（<color=#92fc63>" .. slot1 .. "%%</color>）" .. slot2.shipName .. slot4 .. slot2.skinName .. slot3 .. slot5
 	end), ";"))
+end
+
+function slot0.CombinationDisplay(slot0, slot1)
+	return uv0.StaticCombinationDisplay(slot1)
 end
 
 function slot0.InTimeLimitSkinAssigned(slot0)

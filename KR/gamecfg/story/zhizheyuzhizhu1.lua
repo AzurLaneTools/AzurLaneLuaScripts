@@ -362,7 +362,7 @@ return {
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 499020,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "■▄▆▋▂▁▅▎▆■▄▆▋▂▁",
 			painting = {
 				alpha = 0.3,
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 499020,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "▅▁▂▋울▊■▆▎▅리▋▄▊▎▇히▅■",
 			painting = {
 				alpha = 0.3,
@@ -436,7 +436,7 @@ return {
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 499020,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "▅▁▂▋울▊■▆▎▅■▆리▋",
 			painting = {
 				alpha = 0.3,
@@ -455,7 +455,7 @@ return {
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 499020,
-			nameColor = "#696969",
+			nameColor = "#BDBDBD",
 			say = "▄▊▎▇히▅■█각█▎하▅■█",
 			painting = {
 				alpha = 0.3,

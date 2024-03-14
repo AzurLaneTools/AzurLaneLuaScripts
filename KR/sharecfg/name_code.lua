@@ -2660,6 +2660,20 @@ pg.name_code = {
 		code = "샌디에이고·改",
 		nation = 0
 	},
+	[529] = {
+		name = "소비에츠키",
+		type = 1,
+		id = 529,
+		code = "소비에츠키",
+		nation = 0
+	},
+	[530] = {
+		name = "소유즈",
+		type = 1,
+		id = 530,
+		code = "소유즈",
+		nation = 0
+	},
 	[10000] = {
 		name = "제로센 52형",
 		type = 2,

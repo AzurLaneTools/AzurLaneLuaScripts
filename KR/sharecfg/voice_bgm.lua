@@ -94,13 +94,13 @@ pg.voice_bgm = {
 		default_bgm = "login",
 		special_bgm = "",
 		time = "",
-		bgm = "main-chunjie4-1"
+		bgm = "login"
 	},
 	NewMainScene = {
 		default_bgm = "main",
 		special_bgm = "",
 		time = "",
-		bgm = "main-chunjie"
+		bgm = "main"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -163,10 +163,10 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "story-midgard",
+		default_bgm = "theme-merkuriameta",
 		special_bgm = "",
 		time = "",
-		bgm = "story-midgard"
+		bgm = "theme-merkuriameta"
 	},
 	SkinShopScene = {
 		default_bgm = "main",
@@ -1223,12 +1223,6 @@ pg.voice_bgm = {
 		time = "",
 		bgm = "bsm-4"
 	},
-	NavalAcademyScene = {
-		default_bgm = "story-china",
-		special_bgm = "",
-		time = "",
-		bgm = "story-china"
-	},
 	FeiyunLoginPage = {
 		default_bgm = "main-chunjie3",
 		special_bgm = "",
@@ -1348,5 +1342,23 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "story-richang-sooth"
+	},
+	MaoxiV4MainPage = {
+		default_bgm = "theme-antarctica",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-antarctica"
+	},
+	MaoxiV4PtPage = {
+		default_bgm = "story-antarctica-serious",
+		special_bgm = "",
+		time = "",
+		bgm = "story-antarctica-serious"
+	},
+	SleeplessCityPage = {
+		default_bgm = "story-nonightcity",
+		special_bgm = "",
+		time = "",
+		bgm = "story-nonightcity"
 	}
 }
