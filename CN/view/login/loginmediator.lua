@@ -72,8 +72,10 @@ function slot0.loginProcessHandler(slot0)
 
 		slot0 = nil
 
-		if uv2 == LoginType.PLATFORM or uv2 == LoginType.PLATFORM_TENCENT then
+		if uv2 == LoginType.PLATFORM then
 			uv0.viewComponent:switchToServer()
+		elseif uv2 == LoginType.PLATFORM_TENCENT then
+			uv0.viewComponent:switchToTencentLogin()
 		elseif uv2 == LoginType.PLATFORM_INNER then
 			uv0.viewComponent:switchToLogin()
 			uv0.viewComponent:setLastLogin(getProxy(UserProxy):getLastLoginUser())
@@ -123,8 +125,10 @@ function slot0.loginProcessHandler(slot0)
 			uv0.viewComponent:setAutoLogin()
 		end
 
-		if uv2 == LoginType.PLATFORM or uv2 == LoginType.PLATFORM_TENCENT then
+		if uv2 == LoginType.PLATFORM then
 			pg.SdkMgr.GetInstance():LoginSdk()
+		elseif uv2 == LoginType.PLATFORM_TENCENT then
+			pg.SdkMgr.GetInstance():TryLoginSdk()
 		elseif uv2 == LoginType.PLATFORM_INNER then
 			-- Nothing
 		end
@@ -274,7 +278,7 @@ function slot0.handleNotification(slot0, slot1)
 			hideNo = true,
 			content = errorTip("login_loginMediator_serverLoginFail", slot3),
 			onYes = function ()
-				if pg.SdkMgr.GetInstance():GetLoginType() == LoginType.PLATFORM or slot0 == LoginType.PLATFORM_TENCENT then
+				if pg.SdkMgr.GetInstance():GetLoginType() == LoginType.PLATFORM or LoginType.PLATFORM_TENCENT then
 					uv0.viewComponent:switchToServer()
 				elseif slot0 == LoginType.PLATFORM_AIRIJP or slot0 == LoginType.PLATFORM_AIRIUS then
 					uv0.viewComponent:switchToAiriLogin()
