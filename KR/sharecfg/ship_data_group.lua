@@ -24770,7 +24770,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 雪境迷踪",
+				"한정 이벤트: 태양의 조짐",
 				{
 					""
 				},
@@ -24802,7 +24802,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 雪境迷踪",
+				"한정 이벤트: 태양의 조짐",
 				{
 					""
 				},
@@ -25246,7 +25246,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 雪境迷踪",
+				"한정 이벤트: 태양의 조짐",
 				{
 					""
 				},
@@ -25428,7 +25428,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 雪境迷踪",
+				"한정 이벤트: 태양의 조짐",
 				{
 					""
 				},
@@ -31119,7 +31119,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 雪境迷踪",
+				"한정 이벤트: 태양의 조짐",
 				{
 					""
 				},

@@ -201,6 +201,8 @@ pg.furniture_data_template = setmetatable({
 			200004,
 			200005,
 			200006,
+			200007,
+			200008,
 			200009,
 			12002,
 			12101,
@@ -5223,6 +5225,8 @@ pg.furniture_data_template = setmetatable({
 			200004,
 			200005,
 			200006,
+			200007,
+			200008,
 			200009,
 			13101,
 			13126,
@@ -6191,6 +6195,8 @@ pg.furniture_data_template = setmetatable({
 			200004,
 			200005,
 			200006,
+			200007,
+			200008,
 			200009,
 			1102,
 			1103,
@@ -8992,6 +8998,8 @@ pg.furniture_data_template = setmetatable({
 		200004,
 		200005,
 		200006,
+		200007,
+		200008,
 		200009,
 		1001,
 		1002,
@@ -22928,6 +22936,174 @@ pg.base.furniture_data_template = {
 				"sit",
 				{
 					307074
+				},
+				"furniture",
+				0,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[200007] = {
+		spine_extra = "",
+		describe = "지휘관님, 제발 다이호의 손을 잡고… 다시는 놓지 마세요.♥",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "서역 전당(다이호)",
+		themeId = 0,
+		icon = "fur_dafeng_hicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		picture = "",
+		canputon = 0,
+		id = 200007,
+		can_rotate = 0,
+		size = {
+			6,
+			12
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fur_dafeng_hB",
+				"normal"
+			},
+			{
+				"fur_dafeng_hT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"dance",
+				{
+					307078
+				},
+				"furniture",
+				0,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[200008] = {
+		spine_extra = "",
+		describe = "Honey♡귀엽고 예쁜 뉴저지에 다시 반했어?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "서역 전당(뉴저지)",
+		themeId = 0,
+		icon = "fur_xinzexi_hicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		picture = "",
+		canputon = 0,
+		id = 200008,
+		can_rotate = 0,
+		size = {
+			6,
+			12
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fur_xinzexi_hB",
+				"normal"
+			},
+			{
+				"fur_xinzexi_hT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_action_replace = {
+			{
+				"dance",
+				{
+					105178
 				},
 				"furniture",
 				0,

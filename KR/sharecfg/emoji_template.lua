@@ -137,7 +137,7 @@ pg.emoji_template = {
 		id = 11,
 		index = 51,
 		icon = "",
-		pic = "35",
+		pic = "903",
 		desc = "<color=#92fc63>[샌디빔!]</color>",
 		type = {
 			1
@@ -150,7 +150,7 @@ pg.emoji_template = {
 		id = 12,
 		index = 52,
 		icon = "",
-		pic = "36",
+		pic = "904",
 		desc = "<color=#92fc63>[아소봉~]</color>",
 		type = {
 			1
@@ -384,7 +384,7 @@ pg.emoji_template = {
 		id = 30,
 		index = 70,
 		icon = "",
-		pic = "37",
+		pic = "905",
 		desc = "<color=#92fc63>[어떡하지]</color>",
 		type = {
 			1
@@ -417,9 +417,9 @@ pg.emoji_template = {
 		}
 	},
 	{
-		achieve = 0,
-		item_desc = "채팅 이모티콘: 걍악, 이모티콘 선택의 「기본」선택치 중 해당 이모티콘을 선택 및 보낼 수 있습니다.",
-		item_name = "채팅 이모티콘: 걍악 ",
+		achieve = 1,
+		item_desc = "채팅 이모티콘: 걍악, 이모티콘 선택의 「디폴트」선택치 중 해당 이모티콘을 선택 및 보낼 수 있습니다.",
+		item_name = "채팅 이모티콘: 걍악",
 		id = 33,
 		index = 73,
 		icon = "",
@@ -430,8 +430,8 @@ pg.emoji_template = {
 		}
 	},
 	{
-		achieve = 0,
-		item_desc = "채팅 이모티콘: 그만 해, 이모티콘 선택의 「기본」선택치 중 해당 이모티콘을 선택 및 보낼 수 있습니다.",
+		achieve = 1,
+		item_desc = "채팅 이모티콘: 그만 해, 이모티콘 선택의 「디폴트」선택치 중 해당 이모티콘을 선택 및 보낼 수 있습니다.",
 		item_name = "채팅 이모티콘: 그만 해",
 		id = 34,
 		index = 74,
@@ -2100,7 +2100,7 @@ pg.emoji_template = {
 		id = 901,
 		index = 999,
 		icon = "",
-		pic = "101",
+		pic = "901",
 		desc = "<color=#92fc63>[밥!]</color>",
 		type = {
 			1
@@ -2113,7 +2113,7 @@ pg.emoji_template = {
 		id = 902,
 		index = 998,
 		icon = "",
-		pic = "102",
+		pic = "902",
 		desc = "<color=#92fc63>[간식시간]</color>",
 		type = {
 			1
@@ -2126,7 +2126,7 @@ pg.emoji_template = {
 		id = 903,
 		index = 997,
 		icon = "",
-		pic = "103",
+		pic = "903",
 		desc = "<color=#92fc63>[뭐라카노]</color>",
 		type = {
 			1
@@ -2139,7 +2139,7 @@ pg.emoji_template = {
 		id = 904,
 		index = 996,
 		icon = "",
-		pic = "104",
+		pic = "904",
 		desc = "<color=#92fc63>[바로 그거야]</color>",
 		type = {
 			1
@@ -2152,7 +2152,7 @@ pg.emoji_template = {
 		id = 905,
 		index = 995,
 		icon = "",
-		pic = "105",
+		pic = "905",
 		desc = "<color=#92fc63>[그러췌]</color>",
 		type = {
 			1
