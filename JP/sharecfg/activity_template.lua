@@ -6296,7 +6296,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 5081,
-		is_show = 49,
+		is_show = 41,
 		config_data = {
 			70526,
 			70527,
@@ -9119,7 +9119,7 @@ pg.activity_template = {
 		type = 69,
 		login_pop = 0,
 		config_id = 25,
-		is_show = 37,
+		is_show = 36,
 		config_data = {},
 		time = {
 			"timer",
@@ -9163,7 +9163,7 @@ pg.activity_template = {
 		type = 87,
 		login_pop = 0,
 		config_id = 16,
-		is_show = 39,
+		is_show = 38,
 		id = 5211,
 		config_data = {},
 		time = {
@@ -9205,7 +9205,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 38,
+		is_show = 37,
 		config_data = {
 			{
 				19787,
@@ -9376,7 +9376,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 5224,
-		is_show = 40,
+		is_show = 39,
 		id = 5224,
 		config_data = {},
 		page_info = {
@@ -9510,7 +9510,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 5229,
-		is_show = 41,
+		is_show = 40,
 		id = 5229,
 		config_data = {},
 		time = {
