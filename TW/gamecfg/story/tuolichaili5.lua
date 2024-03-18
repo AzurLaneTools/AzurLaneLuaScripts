@@ -491,7 +491,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 608020,
-			say = "沒錯！不過我也有點搞不懂指揮官究竟喜歡什麼……",
+			say = "我想，具體送什麼東西這點應該由現在擔任秘書艦的你自己來決定會更好點吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
