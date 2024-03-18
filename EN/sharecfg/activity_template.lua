@@ -12319,6 +12319,66 @@ pg.activity_template = {
 			ui_name = "YidaliSPV2LoginPage"
 		}
 	},
+	[5243] = {
+		mark = 20240314,
+		id = 5243,
+		title_res_tag = "z46skin",
+		type = 3,
+		login_pop = 0,
+		config_id = 55,
+		is_show = 40,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					3,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "Z46SkinPage",
+			ui_name = "Z46SkinPage"
+		},
+		config_client = {
+			story = {
+				{
+					"YINYOUZHEZHISHI1"
+				},
+				{
+					"YINYOUZHEZHISHI2"
+				},
+				{
+					"YINYOUZHEZHISHI3"
+				},
+				{
+					"YINYOUZHEZHISHI4"
+				},
+				{
+					"YINYOUZHEZHISHI5"
+				}
+			}
+		}
+	},
 	[7011] = {
 		mark = 20230525,
 		id = 7011,
@@ -36463,6 +36523,7 @@ pg.activity_template = {
 		5240,
 		5241,
 		5242,
+		5243,
 		7011,
 		7012,
 		7013,

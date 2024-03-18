@@ -133,10 +133,10 @@ function slot0.updateSkinView(slot0, slot1, slot2, slot3)
 		onButton(slot0, slot11, function ()
 			uv0:emit(EquipmentSkinMediator.ON_PREVIEW, uv1)
 		end, SFX_PANEL)
-		updateDrop(slot0:findTF("info/equip", slot1), {
+		updateDrop(slot0:findTF("info/equip", slot1), Drop.New({
 			type = DROP_TYPE_EQUIPMENT_SKIN,
 			id = slot2
-		})
+		}))
 
 		if slot0:findTF("info/head", slot1) then
 			setActive(slot12, slot3)
