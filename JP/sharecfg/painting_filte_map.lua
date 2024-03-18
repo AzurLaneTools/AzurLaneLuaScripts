@@ -15415,6 +15415,16 @@ pg.painting_filte_map = {
 			"painting/z46_6"
 		}
 	},
+	z46_7 = {
+		key = "z46_7",
+		res_list = {
+			"painting/z46_7_tex",
+			"painting/z46_7_rw_tex",
+			"painting/z46_7_n_tex",
+			"painting/z46_7_n",
+			"painting/z46_7"
+		}
+	},
 	zaoshen = {
 		key = "zaoshen",
 		res_list = {

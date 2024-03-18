@@ -2870,6 +2870,11 @@ pg.memory_template = setmetatable({
 		3425,
 		3426,
 		3427,
+		3431,
+		3432,
+		3433,
+		3434,
+		3435,
 		10000,
 		10001,
 		10002,
@@ -34583,6 +34588,61 @@ pg.base.memory_template = {
 		story = "SHENGHAXINTUO7",
 		id = 3427,
 		icon = "memory_shenghaxintuo",
+		is_open = 0
+	},
+	[3431] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "最初の詩",
+		condition = "「バードの詩」DAY1解放",
+		story = "YINYOUZHEZHISHI1",
+		id = 3431,
+		icon = "memory_yinyouzhezhishi",
+		is_open = 0
+	},
+	[3432] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "希望の詩",
+		condition = "「バードの詩」DAY2解放",
+		story = "YINYOUZHEZHISHI2",
+		id = 3432,
+		icon = "memory_yinyouzhezhishi",
+		is_open = 0
+	},
+	[3433] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "流転の詩",
+		condition = "「バードの詩」DAY3解放",
+		story = "YINYOUZHEZHISHI3",
+		id = 3433,
+		icon = "memory_yinyouzhezhishi",
+		is_open = 0
+	},
+	[3434] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "塔の詩",
+		condition = "「バードの詩」DAY4解放",
+		story = "YINYOUZHEZHISHI4",
+		id = 3434,
+		icon = "memory_yinyouzhezhishi",
+		is_open = 0
+	},
+	[3435] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "今の詩",
+		condition = "「バードの詩」DAY5解放",
+		story = "YINYOUZHEZHISHI5",
+		id = 3435,
+		icon = "memory_yinyouzhezhishi",
 		is_open = 0
 	},
 	[10000] = {
