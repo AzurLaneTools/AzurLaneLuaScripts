@@ -2899,6 +2899,11 @@ pg.memory_template = setmetatable({
 		3425,
 		3426,
 		3427,
+		3431,
+		3432,
+		3433,
+		3434,
+		3435,
 		10011,
 		10012,
 		10013,
@@ -34907,6 +34912,61 @@ pg.base.memory_template = {
 		story = "SHENGHAXINTUO7",
 		id = 3427,
 		icon = "memory_shenghaxintuo",
+		is_open = 0
+	},
+	[3431] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "序幕之篇",
+		condition = "解锁「吟游者之诗」DAY1",
+		story = "YINYOUZHEZHISHI1",
+		id = 3431,
+		icon = "memory_yinyouzhezhishi",
+		is_open = 0
+	},
+	[3432] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "希望之篇",
+		condition = "解锁「吟游者之诗」DAY2",
+		story = "YINYOUZHEZHISHI2",
+		id = 3432,
+		icon = "memory_yinyouzhezhishi",
+		is_open = 0
+	},
+	[3433] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "轮替之篇",
+		condition = "解锁「吟游者之诗」DAY3",
+		story = "YINYOUZHEZHISHI3",
+		id = 3433,
+		icon = "memory_yinyouzhezhishi",
+		is_open = 0
+	},
+	[3434] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "高塔之篇",
+		condition = "解锁「吟游者之诗」DAY4",
+		story = "YINYOUZHEZHISHI4",
+		id = 3434,
+		icon = "memory_yinyouzhezhishi",
+		is_open = 0
+	},
+	[3435] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "今日之章",
+		condition = "解锁「吟游者之诗」DAY5",
+		story = "YINYOUZHEZHISHI5",
+		id = 3435,
+		icon = "memory_yinyouzhezhishi",
 		is_open = 0
 	},
 	[10011] = {
