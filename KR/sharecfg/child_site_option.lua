@@ -5300,7 +5300,7 @@ pg.child_site_option = {
 	},
 	[1607] = {
 		replace = 0,
-		name = "观看足球比赛",
+		name = "축구 시합 관람",
 		id = 1607,
 		type = 2,
 		label = "",
@@ -5349,7 +5349,7 @@ pg.child_site_option = {
 	},
 	[1608] = {
 		replace = 0,
-		name = "观看足球比赛",
+		name = "축구 시합 관람",
 		id = 1608,
 		type = 2,
 		label = "",
@@ -5398,7 +5398,7 @@ pg.child_site_option = {
 	},
 	[1609] = {
 		replace = 0,
-		name = "观看足球比赛",
+		name = "축구 시합 관람",
 		id = 1609,
 		type = 2,
 		label = "",
