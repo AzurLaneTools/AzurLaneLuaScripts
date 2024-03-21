@@ -1208,26 +1208,27 @@ function slot0.updateStageFleet(slot0)
 
 				setSlider(slot9, 0, 10000, slot4)
 				setActive(findTF(slot2, "repairmask"), slot12)
+				setActive(findTF(slot2, "repairmask/broken"), slot4 == 0)
 				onButton(uv1, slot2:Find("repairmask"), function ()
 					uv0:emit(LevelUIConst.DISPLAY_REPAIR_WINDOW, uv1)
 				end, SFX_PANEL)
 
-				slot13 = findTF(slot2, "repairmask/icon").gameObject
+				slot14 = findTF(slot2, "repairmask/icon").gameObject
 
 				if not slot12 then
-					LeanTween.cancel(slot13)
-					setImageAlpha(slot13, 1)
+					LeanTween.cancel(slot14)
+					setImageAlpha(slot14, 1)
 				end
 
-				if slot12 and not LeanTween.isTweening(slot13) then
-					LeanTween.alpha(rtf(slot13), 0, 2):setLoopPingPong()
+				if slot12 and not LeanTween.isTweening(slot14) then
+					LeanTween.alpha(rtf(slot14), 0, 2):setLoopPingPong()
 				end
 
-				slot14 = GetOrAddComponent(slot2, "UILongPressTrigger").onLongPressed
+				slot15 = GetOrAddComponent(slot2, "UILongPressTrigger").onLongPressed
 
-				pg.DelegateInfo.Add(uv1, slot14)
-				slot14:RemoveAllListeners()
-				slot14:AddListener(function ()
+				pg.DelegateInfo.Add(uv1, slot15)
+				slot15:RemoveAllListeners()
+				slot15:AddListener(function ()
 					uv0:emit(LevelMediator2.ON_STAGE_SHIPINFO, {
 						shipId = uv1.id,
 						shipVOs = uv2

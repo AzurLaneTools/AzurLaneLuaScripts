@@ -459,7 +459,8 @@ pg.expedition_data_by_map = setmetatable({
 		2200070,
 		2200080,
 		2200090,
-		2200100
+		2200100,
+		2200110
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -21224,6 +21225,50 @@ pg.base.expedition_data_by_map = {
 		bg = "Map_1330001",
 		destory_icon_suffix = "blue",
 		animtor = 1,
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2200110] = {
+		map = 2200110,
+		name = "划破海空之翼|| ||CHAPTER SP||S.P.",
+		level_limit = 1,
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		bgm = "level",
+		enter_story = "",
+		ani_name = "",
+		guide_id = "",
+		ani_controller = "",
+		cloud_suffix = "",
+		uifx = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1360001",
+		destory_icon_suffix = "blue",
+		animtor = 0,
 		bind_map = 0,
 		clouds_pos = {
 			{

@@ -10148,7 +10148,7 @@ _G.pg.base.gametip.buildship_light_tip = {
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "忒修斯、华甲 等角色建造追加！"
+	tip = "普林斯顿 建造追加！"
 }
 
 _G.pg.base.gametip.Normalbuild_URexchange_help = {

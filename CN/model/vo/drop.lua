@@ -608,7 +608,7 @@ function slot0.InitSwitch()
 						slot1.data1 = slot1.data1 + uv0.count
 
 						slot0:updateActivity(slot1)
-						self:sendNotification(GAME.ACTIVITY_BE_UPDATED, {
+						pg.m02:sendNotification(GAME.ACTIVITY_BE_UPDATED, {
 							activity = slot1
 						})
 					end
