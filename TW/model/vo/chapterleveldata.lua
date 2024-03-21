@@ -923,10 +923,6 @@ function slot0.buildBattleBuffList(slot0, slot1)
 	return slot2
 end
 
-function slot0.updateShipHp(slot0, slot1, slot2)
-	slot0.fleet:updateShipHp(slot1, slot2)
-end
-
 function slot0.updateFleetShipHp(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot0.fleets) do
 		slot7:updateShipHp(slot1, slot2)
@@ -934,12 +930,6 @@ function slot0.updateFleetShipHp(slot0, slot1, slot2)
 		if slot7.id ~= slot0.fleet.id then
 			slot7:clearShipHpChange()
 		end
-	end
-end
-
-function slot0.DealDMG2Fleets(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.fleets) do
-		slot6:DealDMG2Ships(slot1)
 	end
 end
 
@@ -1671,6 +1661,8 @@ function slot0.writeBack(slot0, slot1, slot2)
 	for slot8, slot9 in pairs(slot0.fleet.ships) do
 		slot4(slot9)
 	end
+
+	slot3:ResortShips()
 
 	if not slot2.skipAmmo then
 		slot3.restAmmo = math.max(slot3.restAmmo - 1, 0)

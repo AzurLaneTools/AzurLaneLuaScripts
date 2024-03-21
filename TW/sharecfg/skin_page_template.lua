@@ -126,6 +126,12 @@ pg.skin_page_template = {
 		res = "wenquanshiguang",
 		english_name = "Hot Springs "
 	},
+	[23] = {
+		id = 23,
+		name = "辦公時光",
+		res = "bangongshiguang",
+		english_name = "On the Job"
+	},
 	[9997] = {
 		id = 9997,
 		name = "改造",
@@ -166,6 +172,7 @@ pg.skin_page_template = {
 		20,
 		21,
 		22,
+		23,
 		9997,
 		9998,
 		9999

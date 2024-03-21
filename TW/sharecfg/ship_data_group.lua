@@ -1370,6 +1370,9 @@ pg.ship_data_group = setmetatable({
 		[60108] = {
 			562
 		},
+		[60110] = {
+			596
+		},
 		[60107] = {
 			541
 		},
@@ -1394,6 +1397,9 @@ pg.ship_data_group = setmetatable({
 		[60305] = {
 			560
 		},
+		[60306] = {
+			597
+		},
 		[60501] = {
 			500
 		},
@@ -1408,6 +1414,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[60506] = {
 			412
+		},
+		[60507] = {
+			595
 		},
 		[60701] = {
 			502
@@ -1855,6 +1864,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[970603] = {
 			30026
+		},
+		[971301] = {
+			30027
 		}
 	},
 	all = {
@@ -2314,6 +2326,7 @@ pg.ship_data_group = setmetatable({
 		505,
 		490,
 		562,
+		596,
 		541,
 		501,
 		559,
@@ -2322,11 +2335,13 @@ pg.ship_data_group = setmetatable({
 		413,
 		489,
 		560,
+		597,
 		500,
 		410,
 		561,
 		411,
 		412,
+		595,
 		502,
 		540,
 		503,
@@ -2475,7 +2490,8 @@ pg.ship_data_group = setmetatable({
 		30022,
 		30023,
 		30024,
-		30026
+		30026,
+		30027
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -21691,6 +21707,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[596] = {
+		type = 1,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 6,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 480,
+		code = 596,
+		group_type = 60110,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"A",
+			"C",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：綠洲往事",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[541] = {
 		type = 1,
 		redirect_id = 101,
@@ -21947,6 +21995,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[597] = {
+		type = 3,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 6,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 489,
+		code = 597,
+		group_type = 60306,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：綠洲往事",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[500] = {
 		type = 5,
 		redirect_id = 101,
@@ -22100,6 +22180,38 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：神聖的悲喜劇",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[595] = {
+		type = 5,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 6,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 495,
+		code = 595,
+		group_type = 60507,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"D",
+			"D",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：綠洲往事",
 				{
 					""
 				},
@@ -27250,6 +27362,41 @@ pg.base.ship_data_group = {
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9706031
+					}
+				},
+				0
+			}
+		}
+	},
+	[30027] = {
+		type = 13,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 97,
+		trans_skin = 0,
+		handbook_type = 3,
+		index_id = 30027,
+		code = 30027,
+		group_type = 971301,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"E",
+			"D",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：世界巡遊",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9706011
 					}
 				},
 				0

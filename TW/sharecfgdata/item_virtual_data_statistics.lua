@@ -157984,8 +157984,8 @@ _G.pg.base.item_virtual_data_statistics[59462] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[59463] = {
-	display = "参与「绿洲往事」获得的点数，累计一定程度可以领取报酬",
-	name = "绿洲之星",
+	display = "參與「綠洲往事」獲得的點數，累計一定程度可以領取報酬",
+	name = "綠洲之星",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
@@ -158008,8 +158008,8 @@ _G.pg.base.item_virtual_data_statistics[59463] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[59464] = {
-	display = "参与「绿洲往事」EX关的必要道具，也可以用来增加普通关额外奖励次数",
-	name = "特别挑战券",
+	display = "參與「綠洲往事」EX關的必要道具，也可以用來增加普通關額外獎勵次數",
+	name = "特別挑戰券",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
@@ -158032,8 +158032,8 @@ _G.pg.base.item_virtual_data_statistics[59464] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[59465] = {
-	display = "用于「限时体验商店」兑换角色限时换装",
-	name = "换装体验券",
+	display = "用於「限時體驗商店」兌換角色限時換裝",
+	name = "換裝體驗券",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
@@ -158777,7 +158777,7 @@ _G.pg.base.item_virtual_data_statistics[59509] = {
 
 _G.pg.base.item_virtual_data_statistics[59510] = {
 	display = "参与「世界巡游」(2023.12.1~2024.1.31)获得的点数，累计一定程度可以领取奖励，活动结束后将会消失",
-	name = "巡游点数",
+	name = "巡遊點數",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -158801,7 +158801,7 @@ _G.pg.base.item_virtual_data_statistics[59510] = {
 
 _G.pg.base.item_virtual_data_statistics[59511] = {
 	display = "不该被看到",
-	name = "通行证十四期对应虚拟道具",
+	name = "通行證十四期對應虛擬道具",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,
@@ -158810,7 +158810,7 @@ _G.pg.base.item_virtual_data_statistics[59511] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 7014,
+	link_id = 45913,
 	virtual_type = 21,
 	is_world = 0,
 	icon = "props/summer_stamp",

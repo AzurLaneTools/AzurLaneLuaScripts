@@ -4045,6 +4045,39 @@ pg.activity_ins_language = setmetatable({
 		"ins_reply_369_3_1",
 		"ins_op_369_1_1",
 		"op_reply_369_1_1",
+		"ins_380",
+		"ins_discuss_380_1",
+		"ins_reply_380_1_1",
+		"ins_reply_380_1_2",
+		"ins_discuss_380_2",
+		"ins_reply_380_2_1",
+		"ins_discuss_380_3",
+		"ins_reply_380_3_1",
+		"ins_op_380_1_1",
+		"op_reply_380_1_1",
+		"ins_381",
+		"ins_discuss_381_1",
+		"ins_reply_381_1_1",
+		"ins_reply_381_1_2",
+		"ins_reply_381_1_3",
+		"ins_discuss_381_2",
+		"ins_reply_381_2_1",
+		"ins_discuss_381_3",
+		"ins_reply_381_3_1",
+		"ins_op_381_1_1",
+		"op_reply_381_1_1",
+		"ins_op_381_1_2",
+		"op_reply_381_1_2",
+		"ins_382",
+		"ins_discuss_382_1",
+		"ins_reply_382_1_1",
+		"ins_discuss_382_2",
+		"ins_reply_382_2_1",
+		"ins_discuss_382_3",
+		"ins_reply_382_3_1",
+		"ins_reply_382_3_2",
+		"ins_op_382_1_1",
+		"op_reply_382_1_1",
 		"ins_418",
 		"ins_discuss_418_1",
 		"ins_reply_418_1_1",
@@ -16254,6 +16287,105 @@ pg.base.activity_ins_language = {
 	},
 	op_reply_369_1_1 = {
 		value = "指揮官同志，你這小看人的說法是怎麼回事！我當然好得很！"
+	},
+	ins_380 = {
+		value = ""
+	},
+	ins_discuss_380_1 = {
+		value = ""
+	},
+	ins_reply_380_1_1 = {
+		value = ""
+	},
+	ins_reply_380_1_2 = {
+		value = ""
+	},
+	ins_discuss_380_2 = {
+		value = ""
+	},
+	ins_reply_380_2_1 = {
+		value = ""
+	},
+	ins_discuss_380_3 = {
+		value = ""
+	},
+	ins_reply_380_3_1 = {
+		value = ""
+	},
+	ins_op_380_1_1 = {
+		value = ""
+	},
+	op_reply_380_1_1 = {
+		value = ""
+	},
+	ins_381 = {
+		value = ""
+	},
+	ins_discuss_381_1 = {
+		value = ""
+	},
+	ins_reply_381_1_1 = {
+		value = ""
+	},
+	ins_reply_381_1_2 = {
+		value = ""
+	},
+	ins_reply_381_1_3 = {
+		value = ""
+	},
+	ins_discuss_381_2 = {
+		value = ""
+	},
+	ins_reply_381_2_1 = {
+		value = ""
+	},
+	ins_discuss_381_3 = {
+		value = ""
+	},
+	ins_reply_381_3_1 = {
+		value = ""
+	},
+	ins_op_381_1_1 = {
+		value = ""
+	},
+	op_reply_381_1_1 = {
+		value = ""
+	},
+	ins_op_381_1_2 = {
+		value = ""
+	},
+	op_reply_381_1_2 = {
+		value = ""
+	},
+	ins_382 = {
+		value = ""
+	},
+	ins_discuss_382_1 = {
+		value = ""
+	},
+	ins_reply_382_1_1 = {
+		value = ""
+	},
+	ins_discuss_382_2 = {
+		value = ""
+	},
+	ins_reply_382_2_1 = {
+		value = ""
+	},
+	ins_discuss_382_3 = {
+		value = ""
+	},
+	ins_reply_382_3_1 = {
+		value = ""
+	},
+	ins_reply_382_3_2 = {
+		value = ""
+	},
+	ins_op_382_1_1 = {
+		value = ""
+	},
+	op_reply_382_1_1 = {
+		value = ""
 	},
 	ins_418 = {
 		value = "鏘鏘——！諸位快看，我得到了新忍具哦！"

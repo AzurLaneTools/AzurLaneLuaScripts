@@ -160,6 +160,7 @@ pg.furniture_data_template = setmetatable({
 			100030,
 			100031,
 			100032,
+			100033,
 			100055,
 			200001,
 			200002,
@@ -4590,6 +4591,7 @@ pg.furniture_data_template = setmetatable({
 			100030,
 			100031,
 			100032,
+			100033,
 			100055,
 			54104,
 			54105
@@ -5468,6 +5470,7 @@ pg.furniture_data_template = setmetatable({
 			100028,
 			100029,
 			100031,
+			100033,
 			100055
 		},
 		[2] = {
@@ -7970,6 +7973,7 @@ pg.furniture_data_template = setmetatable({
 		100030,
 		100031,
 		100032,
+		100033,
 		100055,
 		200001,
 		200002,
@@ -18683,6 +18687,90 @@ pg.base.furniture_data_template = {
 			{
 				"kaoyuCharControl"
 			}
+		},
+		interAction_group = {}
+	},
+	[100033] = {
+		spine_extra = "",
+		describe = "飄…飄起來了？ ！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "失重體驗裝置",
+		themeId = 0,
+		icon = "shizhongjiicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100033,
+		can_rotate = 0,
+		size = {
+			10,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shizhongjiB",
+				"normal"
+			},
+			{
+				"shizhongjiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					7.6,
+					36.48
+				},
+				{
+					100,
+					92
+				},
+				"chuanmo/shizhongji_mask"
+			},
+			{
+				-0.8,
+				-33.4
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"绿洲往事\n\n<size=45>盐海漫溯</size>",
+					"綠洲往事\n\n<size=45>鹽海漫溯</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			side = 2,
 			bgName = "bg_alexandria_3",
 			hidePaintObj = true,
-			say = "绿洲·休息室，一段时间后————",
+			say = "綠洲·休息室，一段時間後————",
 			bgmDelay = 2,
 			bgm = "story-italy",
 			flashout = {
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "……哎，要是那座超大型城堡是真实存在的就好了。",
+			say = "……哎，要是那座超大型城堡是真實存在的就好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "可惜只是海市蜃楼形成的幻影……",
+			say = "可惜只是海市蜃樓形成的幻影……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "明明就在触手可及的距离，结果阿蒂利奥一靠近，就消失不见了！",
+			say = "明明就在觸手可及的距離，結果阿蒂利奧一靠近，就消失不見了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "实在太令人伤心了！",
+			say = "實在太令人傷心了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "确实很遗憾呢……不过能看到这么奇幻的风景，也算不虚此行了。",
+			say = "確實很遺憾呢……不過能看到這麼奇幻的風景，也算不虛此行了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "嗯！总之，大概就是这样一个故事~",
+			say = "嗯！總之，大概就是這樣一個故事~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "……虽然过程真的很有趣，不过结果上来说，只能算是无功而返了。",
+			say = "……雖然過程真的很有趣，不過結果上來說，只能算是無功而返了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "呼……说了这么多感觉都口渴了，我喝口茶，两位姐姐有什么要问么！",
+			say = "呼……說了這麼多感覺都口渴了，我喝口茶，兩位姊姊有什麼想問嗎！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "……你们执行任务的地方是在盐海？",
+			say = "……妳們執行任務的地方是在鹽海？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "虽然离得不远，但那里姑且还算是碧蓝航线的控制区吧？",
+			say = "雖然離得不遠，但那裡姑且還算是碧藍航線的控制區吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "没错~不过马可波罗大人给我们了一些设备，据说是从铁血要来的。",
+			say = "沒錯~不過馬可波羅大人給了我們一些設備，據說是從鐵血要來的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "让我们避开了碧蓝航线的探查，隐秘的潜入了目的地！",
+			say = "讓我們避開了碧藍航線的探查，隱密的潛入了目的地！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "不过从盐海回来之后就惨了……！",
+			say = "不過從鹽海回來之後就慘了……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "事后维护和清洁花了好大功夫呢……",
+			say = "事後維護清潔花了好大功夫呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,7 +360,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "的确，盐海的盐度高到了对机械构造十分有害的地步。",
+			say = "的確，鹽海的鹽度高到了對機械構造十分有害的地步。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "不过最后总算是全部好好保养完成了~",
+			say = "不過最後總算是全部好好保養完成了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "再之后我就调动到这里来驻防，后面的事你们都知道了。",
+			say = "再之後我就調動到這裡來駐防，後面的事妳們都知道了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "盐海……要是除去种种不便，那里确实还算一个有趣的地方。",
+			say = "鹽海……要是除去種種不便，那裡確實還算一個有趣的地方。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -432,7 +432,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "不过，你们那次的任务是搜索“文物”吧？",
+			say = "不過，妳們那次的任務是搜尋「文物」吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "最后一无所得的回去，马可波罗阁下什么都没说么？",
+			say = "最後一無所得的回去，馬可波羅閣下什麼都沒說嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +468,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "呜……在回去之前，我满脑子想的都是任务失败了，回去肯定好不了。",
+			say = "嗚……在回去之前，我滿腦子想的都是任務失敗了，回去一定沒好事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -496,7 +496,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "结果！回去之后，马可波罗大人看完报告什么都重话都没说！",
+			say = "結果！回去之後，馬可波羅大人看完報告什麼重話都沒說！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -534,7 +534,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "就说我们一路上辛苦了，快去保养维护吧，就结束了！",
+			say = "就說我們一路上辛苦了，快去保養與維護吧，就結束了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -552,7 +552,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "好大度……咦，等等……直接向马可波罗阁下汇报？",
+			say = "好大度……咦，等等……直接向馬可波羅閣下報告？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -590,7 +590,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "不是维内托大人或者利托里奥大人么？",
+			say = "不是維內托大人或利托里奧大人嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -608,7 +608,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "不是哦。那次行动好像是得到了元老院的授权，由马可波罗大人全权负责的。",
+			say = "不是哦。那次行動好像是得到了元老院的授權，由馬可波羅大人全權負責的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,7 +626,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "就连行动资金也都是元老院承担的！",
+			say = "連行動資金也都是元老院承擔的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "……又是利用军舰运输古董，又是兴师动众去海外寻找文物。",
+			say = "……又是利用軍艦運送古董，又是興師動眾到海外尋找文物。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -662,7 +662,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "……元老院对于马可波罗阁下的想法拨款也太大方了。",
+			say = "……元老院對於馬可波羅閣下的想法撥款也太大方了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -680,7 +680,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "哇哦……戈里齐亚姐姐的表情突然变得好严肃！",
+			say = "哇哦……哥里加姐姐的表情突然變得好嚴肅！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -718,7 +718,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "哼哼，那你是没见过她之前看到博览会总花费时候的表情。",
+			say = "哼哼，那妳是沒看過她之前看到博覽會總花費時候的表情。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -736,7 +736,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "那才叫一个严肃呢——",
+			say = "那才叫一個嚴肅呢——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -754,7 +754,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "安德烈亚！不是说好不提那个事了么……！",
+			say = "安德烈亞！不是說好不提那個事了嗎……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -798,7 +798,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "我怎么知道开一次博览会，账单后面会有那么多零啊……",
+			say = "我怎麼知道開一次博覽會，帳單後面會有那麼多零啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -822,7 +822,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "真是的——要是能给我们的预算也能这么大方就好了！",
+			say = "真是的——要是撥給我們的預算也能這麼大方就好了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -840,7 +840,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "是啊，要是给我们也能那么大方就好了……",
+			say = "是啊，要是給我們也能那麼大方就好了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -858,7 +858,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "你看看周围，煤油灯，收音机，报纸……",
+			say = "妳看看周圍，煤油燈，收音機，報紙……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -876,7 +876,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "这绿洲确实除了绿就……噗，话题是不是绕回一开始了？",
+			say = "這綠洲確實除了綠就……噗，話題話題是不是繞回一開始了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -912,7 +912,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "外面的沙尘暴，完全没有消散的征兆呢。",
+			say = "外面的沙塵暴，完全沒有消散的徵兆呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -930,7 +930,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "毕竟是特大沙尘暴嘛。",
+			say = "畢竟是特大沙塵暴嘛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -948,7 +948,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "通讯器也还没恢复……",
+			say = "通訊器也還沒恢復……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -966,7 +966,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "故事环节看来就到这里了，接下来做什么？",
+			say = "故事環節看來就到這裡了，接下來要做什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -984,7 +984,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "接下来的话……唱歌吧？",
+			say = "接下來的話……唱歌吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1002,7 +1002,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "就从戈里齐亚先开始。",
+			say = "就從哥里加先開始。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1020,7 +1020,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 603060,
-			say = "咦？等等……这么突然？",
+			say = "咦？等等……這麼突然？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1058,7 +1058,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "阿蒂利奥想听么？",
+			say = "阿蒂利奧想聽嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1076,7 +1076,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601100,
-			say = "想~！阿蒂利奥想听戈里齐亚姐姐唱歌！",
+			say = "想~！阿蒂利奧想聽哥里加姐姐唱歌！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1120,7 +1120,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "你看~",
+			say = "妳看~",
 			painting = {
 				alpha = 0.3,
 				time = 1

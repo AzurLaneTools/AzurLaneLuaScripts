@@ -2083,7 +2083,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9713011] = {
-		breakout_view = "习得技能【逐光之焰·黑暗界】/副炮底座+1/主炮效率提高5%",
+		breakout_view = "習得技能【逐光之焰·黑暗界】/副炮底座+1/主炮效率提高5%",
 		gold = 500,
 		breakout_id = 9713012,
 		repair = 0,
@@ -2100,7 +2100,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9713012] = {
-		breakout_view = "主炮底座+1/主炮效率提高10%",
+		breakout_view = "主炮底座+1/主炮效率提升10%",
 		gold = 1500,
 		breakout_id = 9713013,
 		repair = 0,
@@ -2117,7 +2117,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9713013] = {
-		breakout_view = "【逐光之焰·黑暗界】升级/副炮底座+1/主炮效率提高15%",
+		breakout_view = "【逐光之焰·黑暗界】升級/副炮底座+1/主炮效率提高15%",
 		gold = 2500,
 		breakout_id = 9713014,
 		repair = 0,
@@ -2135,7 +2135,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9713014] = {
-		breakout_view = "无",
+		breakout_view = "無",
 		gold = 0,
 		breakout_id = 0,
 		repair = 0,

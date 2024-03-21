@@ -879,11 +879,12 @@ pg.activity_event_worldboss = {
 	{
 		group_num = 1,
 		damage_resource = 2014,
-		ex_expedition = 1689004,
+		time = "stop",
 		ticket = 2015,
 		submarine_num = 1,
-		id = 9,
+		ex_expedition = 1689004,
 		extrachallenge_id = 0,
+		id = 9,
 		boss_id = {
 			8
 		},
@@ -911,32 +912,6 @@ pg.activity_event_worldboss = {
 			500,
 			0,
 			0
-		},
-		time = {
-			{
-				{
-					2023,
-					10,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2023,
-					11,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		formula = {
 			10,
@@ -1110,12 +1085,11 @@ pg.activity_event_worldboss = {
 	{
 		group_num = 1,
 		damage_resource = 2018,
-		time = "stop",
+		ex_expedition = 1729004,
 		ticket = 2019,
 		submarine_num = 1,
-		ex_expedition = 1729004,
-		extrachallenge_id = 1,
 		id = 11,
+		extrachallenge_id = 1,
 		boss_id = {
 			10
 		},
@@ -1143,6 +1117,32 @@ pg.activity_event_worldboss = {
 			500,
 			0,
 			0
+		},
+		time = {
+			{
+				{
+					2024,
+					3,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					3
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		},
 		formula = {
 			10,

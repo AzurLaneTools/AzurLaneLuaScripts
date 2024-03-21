@@ -1264,5 +1264,17 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "main-chunjie2"
+	},
+	MonopolyPtPage = {
+		default_bgm = "story-richang-2",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-2"
+	},
+	MonopolyPtUI = {
+		default_bgm = "story-richang-3",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-3"
 	}
 }

@@ -137,6 +137,8 @@ pg.memory_group = setmetatable({
 		246,
 		247,
 		248,
+		249,
+		250,
 		251,
 		259,
 		266,
@@ -3215,6 +3217,34 @@ pg.base.memory_group = {
 		title = "翩若飛仙",
 		memories = {
 			2781
+		}
+	},
+	[249] = {
+		id = 249,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 4915,
+		title = "綠洲往事",
+		memories = {
+			2791,
+			2792,
+			2793,
+			2794,
+			2795
+		}
+	},
+	[250] = {
+		id = 250,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 4919,
+		title = "白領與美夢",
+		memories = {
+			2801,
+			2802,
+			2803
 		}
 	},
 	[251] = {

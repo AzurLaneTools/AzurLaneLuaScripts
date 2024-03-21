@@ -45,7 +45,8 @@ function slot0.DataToLayout(slot0, slot1)
 		return {
 			type = uv2,
 			names = slot2,
-			column = slot1[3] or 2
+			column = slot1[3] or 2,
+			evenColumnColor = slot1[4] or "#c2c2c2"
 		}
 	elseif slot1[1] == uv3 then
 		return {

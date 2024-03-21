@@ -10097,6 +10097,45 @@ pg.activity_ins_template = {
 			3406
 		}
 	},
+	[380] = {
+		ship_group = 60306,
+		name = "Gorizia",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "geliqiya",
+		id = 380,
+		group_id = 380,
+		order = 32,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[381] = {
+		ship_group = 60110,
+		name = "Attilio",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "adiliao",
+		id = 381,
+		group_id = 381,
+		order = 32,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[382] = {
+		ship_group = 60507,
+		name = "Andrea",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "andelieyaduoliya",
+		id = 382,
+		group_id = 382,
+		order = 32,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	[418] = {
 		ship_group = 1100001,
 		name = "Asuka",
@@ -10657,6 +10696,9 @@ pg.activity_ins_template = {
 		367,
 		368,
 		369,
+		380,
+		381,
+		382,
 		418,
 		419,
 		420,

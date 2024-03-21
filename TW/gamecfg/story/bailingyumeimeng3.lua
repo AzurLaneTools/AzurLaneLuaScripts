@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"白领与美梦\n\n<size=45>碧海之梦</size>",
+					"白領與美夢\n\n<size=45>碧海之夢</size>",
 					1
 				}
 			}
@@ -21,11 +21,11 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"<size=51>「这里是在梦的世界中发生的故事。」</size>",
+					"「這裡是在夢的世界中發生的故事。」",
 					2.5
 				},
 				{
-					"<size=51>「内容纯属虚构，与港区一切真实人物、事件、团体、组织均无关联。」</size>",
+					"「內容純屬虛構，與港區一切真實人物、事件、團體、組織均無關聯。」",
 					5
 				},
 				{
@@ -41,7 +41,7 @@ return {
 			hidePaintObj = true,
 			bgm = "theme-schoolfuture",
 			bgmDelay = 1,
-			say = "碧蓝航线科技有限公司·公司总部大楼",
+			say = "碧藍航線科技有限公司·公司總部大樓",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "拔锚！海盗航母埃塞克斯出航——！",
+			say = "拔錨！海盜航母埃塞克斯出航－！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "右满舵！右满舵！随后全速前进！",
+			say = "右滿舵！右滿舵！隨後全速前進！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原本应该空无一人的办公室里，有一位“海盗”正驾驶着她的“战船”横冲直撞。",
+			say = "原本應該空無一人的辦公室裡，有一位「海盜」正駕駛她的「戰船」橫衝直撞。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,7 +123,7 @@ return {
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦？前方发现指挥官！马力全开，准备接舷战！",
+			say = "咦？前方發現指揮官！馬力全開，準備接舷戰！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "先把她的“战船”控制住吧……",
+			say = "先把她的「戰船」控制住吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "什、什么！指挥官居然召唤了邪恶的海怪！我的战船！",
+			say = "什、什麼！指揮官居然召喚了邪惡的海怪！我的戰船！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不！你不能这么做！可恶，我要继续加大马力！咕嘟咕嘟——",
+			say = "不！你不能這麼做！可惡，我要繼續加大馬力！咕嘟咕嘟——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊！我的动力！快还给我！",
+			say = "啊！我的動力！快還給我！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			},
 			options = {
 				{
-					content = "你这是怎么了……",
+					content = "妳這是怎麼了……",
 					flag = 1
 				}
 			}
@@ -258,7 +258,7 @@ return {
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎……我不想上班……我想当海盗……我要自由自在！",
+			say = "哎……我不想上班……我想當海盜……我要自由自在！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，你不懂！我跟你说，你不懂这种感觉！",
+			say = "指揮官，你不懂！我跟你說，你不懂這種感覺！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "身前是难以逾越的前辈，身后是一个比一个能干的后辈……",
+			say = "身前是難以逾越的前輩，身後是一個比一個能幹的後輩……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我卷不动了！埃塞克斯卷不动了！",
+			say = "我卷不動了！艾塞克斯卷不動了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +352,7 @@ return {
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "碧海！扬帆！起航！啊哈哈哈哈哈！",
+			say = "碧海！揚帆！起航！啊哈哈哈哈哈！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在的埃塞克斯，和下午完美高效完成任务的白领美人判若二者。",
+			say = "現在的艾塞克斯，和下午完美有效率完成任務的白領美人判若二者。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说点什么安慰她吧——",
+			say = "說點什麼安慰她吧——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,7 +416,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "我陪你一起当海盗！",
+					content = "我陪妳一起當海盜！",
 					flag = 2
 				}
 			}
@@ -431,7 +431,7 @@ return {
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "放假？哦对，放假！",
+			say = "放假？喔對，放假！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然后呢？放完假继续回来做一成不变的工作？我不干了，我不干了！",
+			say = "然後呢？放完假繼續回來做一成不變的工作？我不幹了，我不幹了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -471,7 +471,7 @@ return {
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对，对的，就是这样！",
+			say = "對，對的，就是這樣！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我来当船长，你来当副手，我们一起征服大海！",
+			say = "我來當船長，你來當副手，我們一起征服大海！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -546,7 +546,7 @@ return {
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好困……好困……我，我不行了……",
+			say = "好睏……好睏……我，我不行了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -565,7 +565,7 @@ return {
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "埃塞克斯船长，不行了……",
+			say = "艾塞克斯船長，不行了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -584,7 +584,7 @@ return {
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……呼……指挥官……不要走……",
+			say = "呼……呼……指揮官……不要走……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -603,7 +603,7 @@ return {
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "毫无征兆地，埃塞克斯就这么把头埋在了我的怀里。",
+			say = "毫無預警地，艾塞克斯就這麼把頭埋在了我的懷裡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -622,7 +622,7 @@ return {
 			actor = 107095,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "希望她明天醒来时，不会想起今天发生的事吧……",
+			say = "希望她明天醒來時，不會想起今天發生的事吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1
