@@ -3842,15 +3842,41 @@ pg.activity_template = {
 	},
 	[4713] = {
 		mark = 20240314,
+		config_client = "",
 		title_res_tag = "YidaliV2_frame",
-		time = "stop",
 		type = 87,
 		login_pop = 0,
 		config_id = 8,
 		is_show = 28,
-		config_client = "",
 		id = 4713,
 		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		page_info = {
 			class_name = "YidaliV2FrameRePage",
 			ui_name = "YidaliV2FrameRePage"
@@ -3973,14 +3999,40 @@ pg.activity_template = {
 	},
 	[4720] = {
 		mark = 20240314,
+		id = 4720,
 		title_res_tag = "YidaliV2_Pt",
-		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 4720,
 		is_show = 29,
-		id = 4720,
 		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		page_info = {
 			class_name = "YidaliV2PtPage",
 			ui_name = "YidaliV2PtPage"
@@ -3991,13 +4043,12 @@ pg.activity_template = {
 	},
 	[4721] = {
 		mark = 20240314,
-		time = "stop",
+		title_res_tag = "",
 		page_info = "",
 		type = 14,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
-		title_res_tag = "",
 		id = 4721,
 		config_data = {
 			2016,
@@ -4021,6 +4072,33 @@ pg.activity_template = {
 			2034,
 			2035,
 			2036
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					3,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		},
 		config_client = {
 			"commonbg/bg_pt_fuxingdezanmeishi",

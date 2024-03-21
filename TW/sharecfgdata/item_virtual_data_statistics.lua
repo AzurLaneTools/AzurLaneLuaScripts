@@ -141211,8 +141211,8 @@ _G.pg.base.item_virtual_data_statistics[58878] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58879] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -141261,8 +141261,8 @@ _G.pg.base.item_virtual_data_statistics[58879] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58880] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,
@@ -141311,8 +141311,8 @@ _G.pg.base.item_virtual_data_statistics[58880] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[58881] = {
-	display = "有几率获得以下设计图",
-	name = "未知设计图",
+	display = "有機率獲得以下設計圖",
+	name = "未知設計圖",
 	max_num = 0,
 	type = 99,
 	time_limit = 0,

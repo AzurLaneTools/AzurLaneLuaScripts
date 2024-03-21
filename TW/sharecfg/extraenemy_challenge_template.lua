@@ -124,7 +124,7 @@ pg.extraenemy_challenge_template = {
 			},
 			{
 				2,
-				42040,
+				42050,
 				1
 			},
 			{
@@ -144,7 +144,7 @@ pg.extraenemy_challenge_template = {
 			},
 			{
 				2,
-				42040,
+				42050,
 				1
 			},
 			{
@@ -164,7 +164,7 @@ pg.extraenemy_challenge_template = {
 			},
 			{
 				2,
-				42040,
+				42050,
 				1
 			},
 			{
@@ -184,7 +184,7 @@ pg.extraenemy_challenge_template = {
 			},
 			{
 				2,
-				42046,
+				42056,
 				1
 			},
 			{
@@ -194,7 +194,7 @@ pg.extraenemy_challenge_template = {
 			},
 			{
 				2,
-				42046,
+				42056,
 				1
 			},
 			{
