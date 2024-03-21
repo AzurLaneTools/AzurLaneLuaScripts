@@ -10193,7 +10193,7 @@ _G.pg.base.gametip.buildship_light_tip = {
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「シーシュース」「華甲」などが常設実装！"
+	tip = "「プリンストン」常設実装！"
 }
 
 _G.pg.base.gametip.Normalbuild_URexchange_help = {

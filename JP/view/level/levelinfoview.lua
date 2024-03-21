@@ -403,10 +403,19 @@ function slot0.getChapterAwards(slot0)
 		end
 	end
 
-	slot5 = {}
-	slot6 = {}
+	slot4 = {
+		slot1:getConfig("boss_expedition_id"),
+		slot1:getConfig("ai_expedition_list")
+	}
 
-	function slot7(slot0)
+	if slot1:getPlayType() == ChapterConst.TypeMultiStageBoss then
+		table.insert(slot4, pg.chapter_model_multistageboss[slot1.id].boss_expedition_id)
+	end
+
+	slot6 = {}
+	slot7 = {}
+
+	function slot8(slot0)
 		for slot4, slot5 in ipairs(uv0) do
 			if slot5 == slot0 then
 				return false
@@ -416,33 +425,30 @@ function slot0.getChapterAwards(slot0)
 		return true
 	end
 
-	for slot11, slot12 in ipairs(_.flatten({
-		slot1:getConfig("boss_expedition_id"),
-		slot1:getConfig("ai_expedition_list")
-	})) do
-		if checkExist(pg.expedition_activity_template[slot12], {
+	for slot12, slot13 in ipairs(_.flatten(slot4)) do
+		if checkExist(pg.expedition_activity_template[slot13], {
 			"pt_drop_display"
-		}) and type(slot13) == "table" then
-			for slot17, slot18 in ipairs(slot13) do
-				if slot7(slot18[2]) then
-					table.insert(slot5, slot18[2])
+		}) and type(slot14) == "table" then
+			for slot18, slot19 in ipairs(slot14) do
+				if slot8(slot19[2]) then
+					table.insert(slot6, slot19[2])
 
-					slot6[slot18[2]] = {}
+					slot7[slot19[2]] = {}
 				end
 
-				slot6[slot18[2]][slot18[1]] = true
+				slot7[slot19[2]][slot19[1]] = true
 			end
 		end
 	end
 
-	slot8 = getProxy(ActivityProxy)
+	slot9 = getProxy(ActivityProxy)
 
-	for slot12 = #slot5, 1, -1 do
-		for slot16, slot17 in pairs(slot6[slot5[slot12]]) do
-			if slot8:getActivityById(slot16) and not slot18:isEnd() then
+	for slot13 = #slot6, 1, -1 do
+		for slot17, slot18 in pairs(slot7[slot6[slot13]]) do
+			if slot9:getActivityById(slot17) and not slot19:isEnd() then
 				table.insert(slot2, 1, {
 					2,
-					id2ItemId(slot5[slot12])
+					id2ItemId(slot6[slot13])
 				})
 
 				break

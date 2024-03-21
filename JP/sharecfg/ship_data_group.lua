@@ -8717,6 +8717,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},

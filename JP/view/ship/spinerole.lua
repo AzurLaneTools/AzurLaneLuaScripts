@@ -283,6 +283,12 @@ function slot0.CreateInterface(slot0)
 	return slot0._modelClick, slot0._modelPress, slot0._dragDelegate
 end
 
+function slot0.resumeRole(slot0)
+	if slot0._modleAnim and slot0._modleAnim:GetAnimationState() then
+		slot0._modleAnim:Resume()
+	end
+end
+
 function slot0.GetInterface(slot0)
 	return slot0._modelClick, slot0._modelPress, slot0._dragDelegate
 end

@@ -95,7 +95,7 @@ function slot0.doShipUpdate(slot0)
 
 	if #slot0.data.ship_update > 0 then
 		_.each(slot1.ship_update, function (slot0)
-			uv0:updateShipHp(slot0.id, slot0.hp_rant)
+			uv0:updateFleetShipHp(slot0.id, slot0.hp_rant)
 
 			uv1 = bit.bor(uv1, ChapterConst.DirtyStrategy)
 		end)
