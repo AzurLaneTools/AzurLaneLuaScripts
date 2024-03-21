@@ -20862,8 +20862,8 @@ _G.pg.base.item_data_statistics[30345] = {
 
 _G.pg.base.item_data_statistics[30346] = {
 	open_directly = 1,
-	name = "外观装备箱(办公时光)",
-	display = "可以获得一件随机的办公时光风格外观装备",
+	name = "外觀裝備箱(辦公時光)",
+	display = "可以獲得一件隨機的辦公時光風格外觀裝備",
 	type = 11,
 	display_effect = "",
 	id = 30346,
