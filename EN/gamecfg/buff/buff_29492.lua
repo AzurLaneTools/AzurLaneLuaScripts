@@ -30,9 +30,36 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				target = "TargetSelf",
+				maxTargetNumber = 0,
 				skill_id = 29492,
-				countType = 29490
+				target = "TargetSelf",
+				countType = 29490,
+				check_target = {
+					"TargetSelf",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"DidoSP"
+				}
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onBattleBuffCount"
+			},
+			arg_list = {
+				minTargetNumber = 1,
+				skill_id = 29493,
+				target = "TargetSelf",
+				countType = 29490,
+				check_target = {
+					"TargetSelf",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"DidoSP"
+				}
 			}
 		}
 	}

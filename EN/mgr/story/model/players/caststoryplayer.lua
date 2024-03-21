@@ -88,11 +88,11 @@ function slot0.InitLayoutForType3(slot0, slot1, slot2)
 				slot3.alignment = slot5 and TextAnchor.MiddleRight or TextAnchor.MiddleLeft
 
 				if slot5 then
-					slot4 = "#c2c2c2"
+					slot4 = uv1.evenColumnColor
 				end
 			end
 
-			slot3.text = setColorStr(uv1[slot1 + 1], slot4)
+			slot3.text = setColorStr(uv2[slot1 + 1], slot4)
 		end
 	end)
 	slot9:align(#slot2.names)

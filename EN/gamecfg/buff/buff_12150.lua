@@ -56,12 +56,13 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onStartGame"
+				"onUpdate"
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				target = "TargetSelf",
+				quota = 1,
 				skill_id = 12170,
+				target = "TargetSelf",
 				check_target = {
 					"TargetShipTag"
 				},

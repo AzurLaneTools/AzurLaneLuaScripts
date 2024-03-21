@@ -2139,6 +2139,7 @@ pg.skill_data_display = setmetatable({
 		29482,
 		29491,
 		29492,
+		29493,
 		29501,
 		29502,
 		29511,
@@ -2922,6 +2923,13 @@ pg.skill_data_display = setmetatable({
 		1011941,
 		1011942,
 		1012160,
+		1011370,
+		1011371,
+		1005080,
+		1005081,
+		1005082,
+		1005083,
+		1012940,
 		1090020,
 		1090042,
 		1090043,
@@ -2948,7 +2956,10 @@ pg.skill_data_display = setmetatable({
 		1090220,
 		1090221,
 		1090230,
-		1090231
+		1090231,
+		1090240,
+		1090242,
+		1090243
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -11501,6 +11512,10 @@ pg.base.skill_data_display = {
 		id = 29492,
 		name = "All Out Assault Ⅱ"
 	},
+	[29493] = {
+		id = 29493,
+		name = "All Out Assault Ⅱ"
+	},
 	[29501] = {
 		id = 29501,
 		name = "All Out Assault Ⅰ"
@@ -14633,6 +14648,34 @@ pg.base.skill_data_display = {
 		id = 1012160,
 		name = "The Glory of the Never-Setting Sun+"
 	},
+	[1011370] = {
+		id = 1011370,
+		name = "Fatal Perforation+"
+	},
+	[1011371] = {
+		id = 1011371,
+		name = "Fatal Perforation+"
+	},
+	[1005080] = {
+		id = 1005080,
+		name = "Chevalier's Sabre+"
+	},
+	[1005081] = {
+		id = 1005081,
+		name = "Chevalier's Sabre+"
+	},
+	[1005082] = {
+		id = 1005082,
+		name = "Chevalier's Sabre+"
+	},
+	[1005083] = {
+		id = 1005083,
+		name = "Chevalier's Sabre+"
+	},
+	[1012940] = {
+		id = 1012940,
+		name = "For The Queen +"
+	},
 	[1090020] = {
 		id = 1090020,
 		name = "Full Firepower - Karlsruhe"
@@ -14740,5 +14783,17 @@ pg.base.skill_data_display = {
 	[1090231] = {
 		id = 1090231,
 		name = "Piercing Shells - Z18"
+	},
+	[1090240] = {
+		id = 1090240,
+		name = "Torpedo Squadron - Sendai"
+	},
+	[1090242] = {
+		id = 1090242,
+		name = "Torpedo Squadron - Sendai"
+	},
+	[1090243] = {
+		id = 1090243,
+		name = "Torpedo Squadron - Sendai"
 	}
 }

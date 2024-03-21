@@ -2150,6 +2150,10 @@ pg.skill_data_template = setmetatable({
 		1012160,
 		1010480,
 		1010490,
+		1011370,
+		1010750,
+		1012940,
+		1005080,
 		1090010,
 		1090020,
 		1090030,
@@ -2172,7 +2176,8 @@ pg.skill_data_template = setmetatable({
 		1090200,
 		1090210,
 		1090220,
-		1090230
+		1090230,
+		1090240
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -138744,6 +138749,504 @@ When this ship's Main or Secondary Gun hits an enemy: $1 chance to increase this
 			}
 		}
 	},
+	[1011370] = {
+		desc_get = "",
+		name = "Fatal Perforation+",
+		id = 1011370,
+		type = 1,
+		max_level = 10,
+		desc = "Increases this boat's TRP and ACC by $2. 8s after entering the battle: fires a torpedo barrage that can pierce through enemies once (barrage DMG and pattern are based on the skill's level; enemies penetrated by the torpedoes still suffer DMG). When this boat retreats from the battle: fires a $1 special barrage (DMG is based on the skill's level and this boat's TRP stat).",
+		system_transform = {
+			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.8%"
+				},
+				{
+					"5.3%",
+					"+0.8%"
+				},
+				{
+					"6.1%",
+					"+0.9%"
+				},
+				{
+					"7.0%",
+					"+0.8%"
+				},
+				{
+					"7.8%",
+					"+0.8%"
+				},
+				{
+					"8.6%",
+					"+0.9%"
+				},
+				{
+					"9.5%",
+					"+0.8%"
+				},
+				{
+					"10.3%",
+					"+0.8%"
+				},
+				{
+					"11.1%",
+					"+0.9%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	},
+	[1010750] = {
+		desc_get = "",
+		name = "The Nick+",
+		id = 1010750,
+		type = 2,
+		max_level = 10,
+		desc = "When this ship fires her Main Guns: 5.0% chance to increase this ship's EVA and DMG dealt by $1 and decrease her aircraft DMG taken by $1 for 8s; additionally, decreases the SPD of a random enemy by $2 for 8s.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"16.0%",
+				"40.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"16.0%",
+					"+2.4%"
+				},
+				{
+					"18.4%",
+					"+2.4%"
+				},
+				{
+					"20.8%",
+					"+3.2%"
+				},
+				{
+					"24.0%",
+					"+2.4%"
+				},
+				{
+					"26.4%",
+					"+2.4%"
+				},
+				{
+					"28.8%",
+					"+3.2%"
+				},
+				{
+					"32.0%",
+					"+2.4%"
+				},
+				{
+					"34.4%",
+					"+2.4%"
+				},
+				{
+					"36.8%",
+					"+3.2%"
+				},
+				{
+					"40.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[1012940] = {
+		desc_get = "",
+		name = "For the Queen+",
+		id = 1012940,
+		type = 3,
+		max_level = 10,
+		desc = "When the battle starts, for each Royal Navy ship in your fleet: increases this ship's FP, AA, and RLD by $1 (can be stacked up to 2 times; when the max stack is reached: improves this ship's All Out Assault skill). When sortied with Queen Elizabeth: increases Queen Elizabeth's FP, ACC, RLD, and EVA by $2 and increases her and this ship's Main Gun Crit Rate by $3.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"2.5%",
+				"7.0%"
+			},
+			{
+				"5.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.6%"
+				},
+				{
+					"6.6%",
+					"+1.6%"
+				},
+				{
+					"8.2%",
+					"+1.8%"
+				},
+				{
+					"10.0%",
+					"+1.6%"
+				},
+				{
+					"11.6%",
+					"+1.6%"
+				},
+				{
+					"13.2%",
+					"+1.8%"
+				},
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.8%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[1005080] = {
+		desc_get = "",
+		name = "Chevalier's Sabre+",
+		id = 1005080,
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's TRP by $1 and, every 15s: fires a $2 special barrage (DMG is based on the skill's level). If your Vanguard consists of only Iris Libre and/or Vichya Dominion ships, every 20s: 75.0% chance to increase your fleet's DMG dealt by $3 for 10s (does not stack with the same effect).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"5.0%",
+				"25.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+2.2%"
+				},
+				{
+					"7.2%",
+					"+2.2%"
+				},
+				{
+					"9.4%",
+					"+2.2%"
+				},
+				{
+					"11.6%",
+					"+2.2%"
+				},
+				{
+					"13.8%",
+					"+2.2%"
+				},
+				{
+					"16.0%",
+					"+2.2%"
+				},
+				{
+					"18.2%",
+					"+2.2%"
+				},
+				{
+					"20.4%",
+					"+2.2%"
+				},
+				{
+					"22.6%",
+					"+2.4%"
+				},
+				{
+					"25.0%"
+				}
+			}
+		}
+	},
 	[1090010] = {
 		desc_get = "",
 		name = "Fleet Carrier - Glorious",
@@ -141533,6 +142036,157 @@ When this ship's Main or Secondary Gun hits an enemy: $1 chance to increase this
 				},
 				{
 					"Lv.10"
+				}
+			}
+		}
+	},
+	[1090240] = {
+		desc_get = "",
+		name = "Torpedo Squadron - Sendai",
+		id = 1090240,
+		type = 3,
+		max_level = 10,
+		desc = "During battle, every 5 times this ship takes DMG: decreases this ship's DMG taken by $2 until the battle ends (can be stacked up to 2 times). Once per battle, when this ship's HP falls below 35.0% as a result of DMG taken: restores $3 of this ship's max HP. While this ship is afloat: increases your DDs' and CLs' TRP and RLD by $1.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"3.0%",
+				"15.0%"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"3.0%",
+					"+0.8%"
+				},
+				{
+					"3.8%",
+					"+0.8%"
+				},
+				{
+					"4.6%",
+					"+1.0%"
+				},
+				{
+					"5.6%",
+					"+1.2%"
+				},
+				{
+					"6.8%",
+					"+1.2%"
+				},
+				{
+					"8.0%",
+					"+1.5%"
+				},
+				{
+					"9.5%",
+					"+1.5%"
+				},
+				{
+					"11.0%",
+					"+2.0%"
+				},
+				{
+					"13.0%",
+					"+2.0%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
 				}
 			}
 		}

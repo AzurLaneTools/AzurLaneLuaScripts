@@ -163,10 +163,10 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "story-italy",
+		default_bgm = "story-richang-5",
 		special_bgm = "",
 		time = "",
-		bgm = "story-italy"
+		bgm = "story-richang-5"
 	},
 	SkinShopScene = {
 		default_bgm = "main",
@@ -1378,5 +1378,17 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "story-italy"
+	},
+	MonopolyPtPage = {
+		default_bgm = "story-richang-2",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-2"
+	},
+	MonopolyPtScene = {
+		default_bgm = "story-richang-3",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-3"
 	}
 }

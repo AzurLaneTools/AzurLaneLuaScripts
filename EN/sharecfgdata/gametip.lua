@@ -10300,7 +10300,7 @@ _G.pg.base.gametip.buildship_light_tip = {
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "Theseus, Hwah Jah and others added to standard build pool!"
+	tip = "Princeton added to standard build pool!"
 }
 
 _G.pg.base.gametip.Normalbuild_URexchange_help = {

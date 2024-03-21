@@ -12379,6 +12379,322 @@ pg.activity_template = {
 			}
 		}
 	},
+	[5244] = {
+		mark = 20240321,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 5244,
+		config_data = {
+			10170,
+			10171,
+			10172,
+			10173,
+			10174
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					3,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					3,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5245] = {
+		mark = 20240321,
+		title_res_tag = "",
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 5245,
+		config_data = {
+			2461,
+			2462,
+			2463,
+			2464,
+			2465,
+			2466,
+			2467,
+			2468,
+			2469,
+			2470
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					3,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_yongzhe",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			painting = "mingshi_live2d",
+			pt_id = 399,
+			enter = {
+				"shop1",
+				"Welcome, nya!",
+				"login"
+			},
+			purchase = {
+				"shop3",
+				"Thanks for your patronyage!",
+				"main_3"
+			}
+		}
+	},
+	[5246] = {
+		mark = 20240321,
+		title_res_tag = "",
+		page_info = "",
+		type = 70,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 5246,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					3,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5247] = {
+		mark = 20240321,
+		id = 5247,
+		title_res_tag = "MonopolyEp_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 5247,
+		is_show = 49,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					3,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MonopolyPtPage",
+			ui_name = "MonopolyPtPage"
+		},
+		config_client = {
+			story = {
+				{
+					0,
+					"YONGZHEDELVTU1"
+				},
+				{
+					5,
+					"YONGZHEDELVTU2"
+				},
+				{
+					10,
+					"YONGZHEDELVTU3"
+				},
+				{
+					15,
+					"YONGZHEDELVTU4"
+				}
+			},
+			battle = {
+				{
+					20,
+					"51003"
+				}
+			}
+		}
+	},
+	[5248] = {
+		mark = 20240321,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 5248,
+		config_data = {
+			19839,
+			19840,
+			19841,
+			19842,
+			19843,
+			19844,
+			19845,
+			19846,
+			19847,
+			19848,
+			19849,
+			19850,
+			19851,
+			19852,
+			19853,
+			19854
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					3,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5249] = {
+		mark = 20240321,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 21,
+		is_show = 0,
+		config_client = "",
+		id = 5249,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					3,
+					21
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[7011] = {
 		mark = 20230525,
 		id = 7011,
@@ -36524,6 +36840,12 @@ pg.activity_template = {
 		5241,
 		5242,
 		5243,
+		5244,
+		5245,
+		5246,
+		5247,
+		5248,
+		5249,
 		7011,
 		7012,
 		7013,
