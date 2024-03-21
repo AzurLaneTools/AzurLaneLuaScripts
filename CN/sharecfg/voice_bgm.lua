@@ -1385,7 +1385,7 @@ pg.voice_bgm = {
 		time = "",
 		bgm = "story-richang-2"
 	},
-	MonopolyPtUI = {
+	MonopolyPtScene = {
 		default_bgm = "story-richang-3",
 		special_bgm = "",
 		time = "",
