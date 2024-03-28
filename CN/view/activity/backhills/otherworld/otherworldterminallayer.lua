@@ -27,9 +27,15 @@ function slot0.findUI(slot0)
 	setText(slot0:findTF(uv0.PAGE_GUARDIAN .. "/Text", slot0.togglesTF), i18n("terminal_guardian_title"))
 
 	slot1 = slot0:findTF("pages", slot0.windowTF)
-	slot0.personalPage = TerminalPersonalPage.New(slot1, slot0, {
-		upgrade = slot0.contextData.upgrade
-	})
+
+	if getProxy(ActivityProxy):getActivityById(ActivityConst.OTHER_WORLD_TERMINAL_EVENT_ID) and not slot2:isEnd() then
+		slot0.personalPage = TerminalPersonalPage.New(slot1, slot0, {
+			upgrade = slot0.contextData.upgrade
+		})
+	else
+		slot0.personalPage = nil
+	end
+
 	slot0.adventurePage = TerminalAdventurePage.New(slot1, slot0)
 	slot0.guardianPage = TerminalGuardianPage.New(slot1, slot0)
 	slot0.pages = {
@@ -61,6 +67,12 @@ function slot0.addListener(slot0)
 					return
 				end
 
+				if slot1 == uv2.PAGE_PERSONAL and not uv1.personalPage then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
+					return
+				end
+
 				uv1.curPageIdx = slot1
 
 				uv1:SwitchPage()
@@ -70,7 +82,11 @@ function slot0.addListener(slot0)
 end
 
 function slot0.didEnter(slot0)
-	triggerToggle(slot0:findTF(tostring(slot0.contextData.page or uv0), slot0.togglesTF), true)
+	if (slot0.contextData.page or uv0) == uv1.PAGE_PERSONAL and not slot0.personalPage then
+		slot1 = uv1.PAGE_ADVENTURE
+	end
+
+	triggerToggle(slot0:findTF(tostring(slot1), slot0.togglesTF), true)
 	slot0:UpdateAdventureTip()
 end
 

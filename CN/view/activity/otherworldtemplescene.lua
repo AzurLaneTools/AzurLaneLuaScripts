@@ -192,6 +192,15 @@ function slot0.updateUI(slot0)
 	setText(findTF(slot0._tf, "ad/pt/img/text"), slot2)
 	setActive(findTF(slot0._tf, "ad/btnPay"), slot3 > 0)
 	setActive(findTF(slot0._tf, "ad/btnComplete"), slot3 <= 0)
+
+	slot0.grayComponent = GetComponent(findTF(slot0._tf, "ad/btnComplete/img/bg"), typeof("UIGrayScale"))
+	slot0.grayComponent.enabled = false
+
+	onNextTick(function ()
+		if uv0.grayComponent then
+			uv0.grayComponent.enabled = true
+		end
+	end)
 end
 
 function slot0.getResCount(slot0)

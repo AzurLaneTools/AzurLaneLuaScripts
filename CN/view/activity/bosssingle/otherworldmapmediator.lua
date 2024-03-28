@@ -10,13 +10,15 @@ function slot0.register(slot0)
 		})
 	end)
 
-	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_EVENT_SINGLE) then
-		return
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_EVENT_SINGLE) and not slot2:isEnd() then
+		slot0.viewComponent:SetEventAct(slot2)
+	else
+		slot0.viewComponent:SetEventAct(nil)
 	end
 
-	slot0.viewComponent:SetEventAct(slot2)
-
 	if not slot1:getActivityByType(ActivityConst.ACTIVITY_TYPE_LOTTERY) then
+		assert(nil, "not exist lottery act")
+
 		return
 	end
 

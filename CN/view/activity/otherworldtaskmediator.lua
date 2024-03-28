@@ -31,9 +31,16 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.TASK_GO, function (slot0, slot1)
 		uv0.viewComponent:closeView()
-		uv0:sendNotification(GAME.TASK_GO, {
-			taskVO = slot1.taskVO
-		})
+
+		if slot1.taskVO:getConfig("scene")[1] == SCENE.OTHERWORLD_MAP then
+			pg.SceneAnimMgr.GetInstance():OtherWorldCoverGoScene(SCENE.OTHERWORLD_MAP, {
+				mode = slot2[2].mode
+			})
+		else
+			uv0:sendNotification(GAME.TASK_GO, {
+				taskVO = slot1.taskVO
+			})
+		end
 	end)
 	slot0:bind(uv0.SHOW_DETAIL, function (slot0, slot1)
 		uv0:addSubLayers(Context.New({

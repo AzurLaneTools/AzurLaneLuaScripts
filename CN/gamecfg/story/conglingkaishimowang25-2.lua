@@ -94,7 +94,7 @@ return {
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "传说级魔法师",
 			dir = 1,
-			actorName = "{namecode:6:绫波}",
+			actorName = "拉菲",
 			hidePaintObj = true,
 			say = "拉菲的爆裂魔法，现在还秒不掉它……请继续削弱它。",
 			painting = {
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "勇者",
 			dir = 1,
-			actorName = "努比亚人",
+			actorName = "抚顺",
 			hidePaintObj = true,
 			say = "勇者抚顺也来帮忙啦——勇者斩击！",
 			painting = {

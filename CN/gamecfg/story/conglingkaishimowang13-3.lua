@@ -77,7 +77,7 @@ return {
 			bgName = "star_level_bg_545",
 			factiontag = "巨龙领主",
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FF9B93",
 			actorName = "{namecode:450}",
 			say = "可、可恶！",
 			painting = {
@@ -95,7 +95,7 @@ return {
 			bgName = "star_level_bg_545",
 			factiontag = "巨龙领主",
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FF9B93",
 			actorName = "{namecode:450}",
 			say = "不要以为你们这就算赢了！",
 			painting = {
@@ -113,7 +113,7 @@ return {
 			bgName = "star_level_bg_545",
 			factiontag = "巨龙领主",
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FF9B93",
 			actorName = "{namecode:450}",
 			say = "你们给我等着！",
 			painting = {
@@ -141,7 +141,7 @@ return {
 			bgName = "star_level_bg_545",
 			factiontag = "巨龙领主",
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FF9B93",
 			actorName = "{namecode:450}",
 			say = "我一定会回来……哇啊啊啊、呜呜呜飞慢一点啦——！",
 			painting = {

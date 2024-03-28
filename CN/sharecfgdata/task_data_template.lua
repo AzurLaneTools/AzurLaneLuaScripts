@@ -84471,15 +84471,14 @@ _G.pg.base.task_data_template[19856] = {
 	ryza_type = 0,
 	quick_finish = 0,
 	level = 1,
-	story_id = "",
-	priority_type = 1,
 	ryza_icon = "",
+	priority_type = 1,
 	fix_task = 0,
+	target_id = "1799001",
 	next_task = "0",
 	auto_commit = 0,
 	story_icon_shift = "",
-	target_id = "1799001",
-	scene = "",
+	story_id = "",
 	id = 19856,
 	target_num = 1,
 	activity_client_config = "",
@@ -84501,6 +84500,12 @@ _G.pg.base.task_data_template[19856] = {
 			59542,
 			600
 		}
+	},
+	scene = {
+		"OTHERWORLD_MAP",
+		{
+			mode = 2
+		}
 	}
 }
 
@@ -84521,15 +84526,14 @@ _G.pg.base.task_data_template[19857] = {
 	ryza_type = 0,
 	quick_finish = 0,
 	level = 1,
-	story_id = "",
-	priority_type = 1,
 	ryza_icon = "",
+	priority_type = 1,
 	fix_task = 0,
+	target_id = "1799002",
 	next_task = "0",
 	auto_commit = 0,
 	story_icon_shift = "",
-	target_id = "1799002",
-	scene = "",
+	story_id = "",
 	id = 19857,
 	target_num = 1,
 	activity_client_config = "",
@@ -84551,6 +84555,12 @@ _G.pg.base.task_data_template[19857] = {
 			59542,
 			900
 		}
+	},
+	scene = {
+		"OTHERWORLD_MAP",
+		{
+			mode = 2
+		}
 	}
 }
 
@@ -84571,15 +84581,14 @@ _G.pg.base.task_data_template[19858] = {
 	ryza_type = 0,
 	quick_finish = 0,
 	level = 1,
-	story_id = "",
-	priority_type = 1,
 	ryza_icon = "",
+	priority_type = 1,
 	fix_task = 0,
+	target_id = "1799003",
 	next_task = "0",
 	auto_commit = 0,
 	story_icon_shift = "",
-	target_id = "1799003",
-	scene = "",
+	story_id = "",
 	id = 19858,
 	target_num = 1,
 	activity_client_config = "",
@@ -84601,6 +84610,12 @@ _G.pg.base.task_data_template[19858] = {
 			59542,
 			1200
 		}
+	},
+	scene = {
+		"OTHERWORLD_MAP",
+		{
+			mode = 2
+		}
 	}
 }
 
@@ -84621,15 +84636,14 @@ _G.pg.base.task_data_template[19859] = {
 	ryza_type = 0,
 	quick_finish = 0,
 	level = 1,
-	story_id = "",
-	priority_type = 1,
 	ryza_icon = "",
+	priority_type = 1,
 	fix_task = 0,
+	target_id = "1799004",
 	next_task = "0",
 	auto_commit = 0,
 	story_icon_shift = "",
-	target_id = "1799004",
-	scene = "",
+	story_id = "",
 	id = 19859,
 	target_num = 1,
 	activity_client_config = "",
@@ -84651,6 +84665,12 @@ _G.pg.base.task_data_template[19859] = {
 			59542,
 			1800
 		}
+	},
+	scene = {
+		"OTHERWORLD_MAP",
+		{
+			mode = 2
+		}
 	}
 }
 
@@ -84671,15 +84691,14 @@ _G.pg.base.task_data_template[19860] = {
 	ryza_type = 0,
 	quick_finish = 0,
 	level = 1,
-	story_id = "",
-	priority_type = 1,
 	ryza_icon = "",
+	priority_type = 1,
 	fix_task = 0,
+	target_id = "1799005",
 	next_task = "0",
 	auto_commit = 0,
 	story_icon_shift = "",
-	target_id = "1799005",
-	scene = "",
+	story_id = "",
 	id = 19860,
 	target_num = 1,
 	activity_client_config = "",
@@ -84701,6 +84720,12 @@ _G.pg.base.task_data_template[19860] = {
 			59542,
 			7500
 		}
+	},
+	scene = {
+		"OTHERWORLD_MAP",
+		{
+			mode = 2
+		}
 	}
 }
 
@@ -84721,14 +84746,13 @@ _G.pg.base.task_data_template[19861] = {
 	ryza_type = 0,
 	quick_finish = 0,
 	level = 1,
-	story_id = "",
-	priority_type = 1,
 	ryza_icon = "",
+	priority_type = 1,
 	fix_task = 0,
 	next_task = "0",
 	auto_commit = 0,
 	story_icon_shift = "",
-	scene = "",
+	story_id = "",
 	id = 19861,
 	target_num = 20,
 	activity_client_config = "",
@@ -84746,6 +84770,12 @@ _G.pg.base.task_data_template[19861] = {
 			2,
 			59542,
 			600
+		}
+	},
+	scene = {
+		"OTHERWORLD_MAP",
+		{
+			mode = 2
 		}
 	}
 }
@@ -84767,14 +84797,13 @@ _G.pg.base.task_data_template[19862] = {
 	ryza_type = 0,
 	quick_finish = 0,
 	level = 1,
-	story_id = "",
-	priority_type = 1,
 	ryza_icon = "",
+	priority_type = 1,
 	fix_task = 0,
 	next_task = "0",
 	auto_commit = 0,
 	story_icon_shift = "",
-	scene = "",
+	story_id = "",
 	id = 19862,
 	target_num = 50,
 	activity_client_config = "",
@@ -84792,6 +84821,12 @@ _G.pg.base.task_data_template[19862] = {
 			2,
 			59542,
 			600
+		}
+	},
+	scene = {
+		"OTHERWORLD_MAP",
+		{
+			mode = 2
 		}
 	}
 }
@@ -84813,14 +84848,13 @@ _G.pg.base.task_data_template[19863] = {
 	ryza_type = 0,
 	quick_finish = 0,
 	level = 1,
-	story_id = "",
-	priority_type = 1,
 	ryza_icon = "",
+	priority_type = 1,
 	fix_task = 0,
 	next_task = "0",
 	auto_commit = 0,
 	story_icon_shift = "",
-	scene = "",
+	story_id = "",
 	id = 19863,
 	target_num = 80,
 	activity_client_config = "",
@@ -84838,6 +84872,12 @@ _G.pg.base.task_data_template[19863] = {
 			2,
 			59542,
 			600
+		}
+	},
+	scene = {
+		"OTHERWORLD_MAP",
+		{
+			mode = 2
 		}
 	}
 }
@@ -84859,14 +84899,13 @@ _G.pg.base.task_data_template[19864] = {
 	ryza_type = 0,
 	quick_finish = 0,
 	level = 1,
-	story_id = "",
-	priority_type = 1,
 	ryza_icon = "",
+	priority_type = 1,
 	fix_task = 0,
 	next_task = "0",
 	auto_commit = 0,
 	story_icon_shift = "",
-	scene = "",
+	story_id = "",
 	id = 19864,
 	target_num = 9,
 	activity_client_config = "",
@@ -84894,6 +84933,12 @@ _G.pg.base.task_data_template[19864] = {
 			59542,
 			600
 		}
+	},
+	scene = {
+		"OTHERWORLD_MAP",
+		{
+			mode = 2
+		}
 	}
 }
 
@@ -84914,14 +84959,13 @@ _G.pg.base.task_data_template[19865] = {
 	ryza_type = 0,
 	quick_finish = 0,
 	level = 1,
-	story_id = "",
-	priority_type = 1,
 	ryza_icon = "",
+	priority_type = 1,
 	fix_task = 0,
 	next_task = "0",
 	auto_commit = 0,
 	story_icon_shift = "",
-	scene = "",
+	story_id = "",
 	id = 19865,
 	target_num = 15,
 	activity_client_config = "",
@@ -84949,6 +84993,12 @@ _G.pg.base.task_data_template[19865] = {
 			59542,
 			600
 		}
+	},
+	scene = {
+		"OTHERWORLD_MAP",
+		{
+			mode = 2
+		}
 	}
 }
 
@@ -84969,14 +85019,13 @@ _G.pg.base.task_data_template[19866] = {
 	ryza_type = 0,
 	quick_finish = 0,
 	level = 1,
-	story_id = "",
-	priority_type = 1,
 	ryza_icon = "",
+	priority_type = 1,
 	fix_task = 0,
 	next_task = "0",
 	auto_commit = 0,
 	story_icon_shift = "",
-	scene = "",
+	story_id = "",
 	id = 19866,
 	target_num = 21,
 	activity_client_config = "",
@@ -85004,6 +85053,12 @@ _G.pg.base.task_data_template[19866] = {
 			59542,
 			600
 		}
+	},
+	scene = {
+		"OTHERWORLD_MAP",
+		{
+			mode = 2
+		}
 	}
 }
 
@@ -85024,15 +85079,14 @@ _G.pg.base.task_data_template[19867] = {
 	ryza_type = 0,
 	quick_finish = 0,
 	level = 1,
-	story_id = "",
-	priority_type = 1,
 	ryza_icon = "",
+	priority_type = 1,
 	fix_task = 0,
+	target_id = "1025",
 	next_task = "0",
 	auto_commit = 0,
 	story_icon_shift = "",
-	target_id = "1025",
-	scene = "",
+	story_id = "",
 	id = 19867,
 	target_num = 1,
 	activity_client_config = "",
@@ -85053,6 +85107,12 @@ _G.pg.base.task_data_template[19867] = {
 			3,
 			150280,
 			1
+		}
+	},
+	scene = {
+		"OTHERWORLD_MAP",
+		{
+			mode = 1
 		}
 	}
 }
@@ -85278,7 +85338,7 @@ _G.pg.base.task_data_template[19886] = {
 	story_icon_shift = "",
 	scene = "",
 	id = 19886,
-	target_num = 999999,
+	target_num = 9999999,
 	activity_client_config = "",
 	added_tip = 0,
 	target_id = {
@@ -85351,8 +85411,8 @@ _G.pg.base.task_data_template[19887] = {
 _G.pg.base.task_data_template[19888] = {
 	name = "『异世界』日常通关",
 	guild_coin_award = 0,
-	award = 901820,
-	type = 6,
+	award = 901877,
+	type = 36,
 	desc = "在「作战模式」中的取得15次胜利",
 	count_inherit = 0,
 	sub_type = 20,
@@ -85365,14 +85425,13 @@ _G.pg.base.task_data_template[19888] = {
 	ryza_type = 0,
 	quick_finish = 0,
 	level = 1,
-	story_id = "",
-	priority_type = 3,
 	ryza_icon = "",
+	priority_type = 3,
 	fix_task = 0,
 	next_task = "0",
 	auto_commit = 0,
 	story_icon_shift = "",
-	scene = "",
+	story_id = "",
 	id = 19888,
 	target_num = 15,
 	activity_client_config = "",
@@ -85395,6 +85454,12 @@ _G.pg.base.task_data_template[19888] = {
 			2,
 			59543,
 			100
+		}
+	},
+	scene = {
+		"OTHERWORLD_MAP",
+		{
+			mode = 2
 		}
 	}
 }
@@ -85461,14 +85526,13 @@ _G.pg.base.task_data_template[19890] = {
 	ryza_type = 0,
 	quick_finish = 0,
 	level = 1,
-	story_id = "",
-	priority_type = 3,
 	ryza_icon = "",
+	priority_type = 3,
 	fix_task = 0,
 	next_task = "0",
 	auto_commit = 0,
 	story_icon_shift = "",
-	scene = "",
+	story_id = "",
 	id = 19890,
 	target_num = 5,
 	activity_client_config = "",
@@ -85486,6 +85550,12 @@ _G.pg.base.task_data_template[19890] = {
 			2,
 			59542,
 			200
+		}
+	},
+	scene = {
+		"OTHERWORLD_MAP",
+		{
+			mode = 2
 		}
 	}
 }

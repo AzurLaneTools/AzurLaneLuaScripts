@@ -64,6 +64,12 @@ function slot0.didEnter(slot0)
 		})
 	end, SFX_CANCEL)
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "maoxianzgonghui", function ()
+		if not getProxy(ActivityProxy):getActivityById(ActivityConst.OTHER_WORLD_TASK_ID) or slot0:isEnd() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
+			return
+		end
+
 		uv0:emit(OtherworldBackHilllMediator.GO_SUBLAYER, Context.New({
 			mediator = OtherWorldTaskMediator,
 			viewComponent = OtherWorldTaskLayer

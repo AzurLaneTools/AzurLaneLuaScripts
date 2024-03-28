@@ -12,11 +12,11 @@ return {
 	desc_get = "",
 	name = "",
 	init_effect = "jinengchufared",
-	time = 0,
+	time = 1,
 	color = "yellow",
 	picture = "",
 	desc = "",
-	stack = 1,
+	stack = 3,
 	id = 17790,
 	icon = 17790,
 	last_effect = "",
@@ -24,22 +24,12 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onAttach"
+				"onAttach",
+				"onStack"
 			},
 			arg_list = {
 				skill_id = 17792,
 				target = "TargetSelf"
-			}
-		},
-		{
-			type = "BattleBuffCleanse",
-			trigger = {
-				"onAttach"
-			},
-			arg_list = {
-				buff_id_list = {
-					17794
-				}
 			}
 		}
 	}
