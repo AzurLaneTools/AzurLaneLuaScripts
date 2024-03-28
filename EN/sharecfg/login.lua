@@ -1388,13 +1388,38 @@ pg.login = {
 	},
 	[48] = {
 		id = 48,
+		op_play = 1,
 		login_static = "login",
-		op_play = 0,
-		op_time = "",
 		login_cri = "",
 		bgm = "",
 		date = {
 			"timer",
+			{
+				{
+					2024,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		op_time = {
 			{
 				{
 					2024,

@@ -1,4 +1,5 @@
 slot0 = class("TerminalPersonalPage", import("view.base.BaseSubView"))
+slot1 = "otherworld_personal_name"
 slot0.BIND_EVENT_ACT_ID = ActivityConst.OTHER_WORLD_TERMINAL_EVENT_ID
 slot0.config = pg.roll_attr
 slot0.NAME_ID = 1001
@@ -6,7 +7,7 @@ slot0.LV_ID = 1002
 slot0.JOB_ID = 1003
 slot0.GUARDIAN_ID = 1004
 
-function slot1(slot0)
+function slot2(slot0)
 	slot1 = {}
 
 	for slot5 = slot0[1], slot0[2] do
@@ -18,11 +19,11 @@ function slot1(slot0)
 	return slot1
 end
 
-slot0.PROPERTY_IDS = slot1({
+slot0.PROPERTY_IDS = slot2({
 	2001,
 	2006
 })
-slot0.ABILITY_IDS = slot1({
+slot0.ABILITY_IDS = slot2({
 	3000,
 	3193
 })
@@ -90,6 +91,9 @@ function slot0.OnLoaded(slot0)
 	slot0.effectTF = slot0:findTF("effect")
 
 	setActive(slot0.effectTF, false)
+
+	slot0.playerId = getProxy(PlayerProxy):getRawData().id
+	slot0.showName = getProxy(PlayerProxy):getRawData().name
 end
 
 function slot0.OnInit(slot0)
@@ -104,6 +108,11 @@ function slot0.OnInit(slot0)
 			"login_newPlayerScene_invalideName"
 		}) then
 			uv0:SetDefaultName()
+		else
+			uv0.showName = getInputText(uv0.nameInput)
+
+			setInputText(uv0.nameInput, uv0.showName)
+			uv0:SetLocalName(uv0.showName)
 		end
 	end)
 	onButton(slot0, slot0.randomBtn, function ()
@@ -112,6 +121,8 @@ function slot0.OnInit(slot0)
 		setActive(uv0.randomBtn, false)
 		setActive(uv0.randomGreyBtn, false)
 		uv0:managedTween(LeanTween.delayedCall, function ()
+			OtherworldMapScene.personalRandomData = {}
+
 			uv0:UpdateView(true)
 			setActive(uv0.effectTF, false)
 			setActive(uv0.randomBtn, uv0.unlockRandom)
@@ -127,7 +138,14 @@ function slot0.OnInit(slot0)
 	setActive(slot0.randomBtn, slot0.unlockRandom)
 	setActive(slot0.randomGreyBtn, not slot0.unlockRandom)
 	setActive(slot0:findTF("infos/name/box/edit", slot0.infoTF), slot0.unlockRandom)
-	slot0:UpdateView(slot0.unlockRandom)
+
+	if slot0.unlockRandom and slot0:GetLocalName() ~= "" then
+		slot0.showName = slot0:GetLocalName()
+	end
+
+	slot0.nameInput:GetComponent(typeof(InputField)).interactable = slot0.unlockRandom
+
+	slot0:UpdateView()
 end
 
 function slot0.UpdateView(slot0, slot1)
@@ -154,7 +172,7 @@ function slot0.UpdateView(slot0, slot1)
 end
 
 function slot0.SetDefaultName(slot0)
-	setInputText(slot0.nameInput, getProxy(PlayerProxy):getData().name)
+	setInputText(slot0.nameInput, slot0.showName)
 end
 
 function slot0.UpdateInfo(slot0, slot1)
@@ -175,6 +193,12 @@ function slot0.UpdateInfo(slot0, slot1)
 	setText(slot0.lvTitle, slot6 .. "：")
 	setText(slot0.lvValue, slot7)
 	setSlider(slot0.lvSlider, 0, 1, tonumber(slot7) / uv0.config[uv0.LV_ID].random_value[2])
+
+	if slot1 then
+		OtherworldMapScene.personalRandomData[uv0.JOB_ID] = slot3
+		OtherworldMapScene.personalRandomData[uv0.GUARDIAN_ID] = slot5
+		OtherworldMapScene.personalRandomData[uv0.LV_ID] = slot7
+	end
 end
 
 function slot0.UpdateProperty(slot0, slot1)
@@ -187,6 +211,10 @@ function slot0.UpdateProperty(slot0, slot1)
 
 		setText(slot0:findTF("name", slot8), slot9)
 		setText(slot0:findTF("value/Text", slot8), slot10)
+
+		if slot1 then
+			OtherworldMapScene.personalRandomData[slot7] = slot10
+		end
 	end
 
 	for slot6 = 1, slot0.propertyContent.childCount - 1 do
@@ -201,15 +229,21 @@ function slot0.UpdateAbility(slot0, slot1)
 
 	if slot1 then
 		slot2 = slot0:GetRandomAbilityIds()
+	elseif OtherworldMapScene.personalRandomData then
+		for slot6, slot7 in pairs(OtherworldMapScene.personalRandomData) do
+			if table.contains(uv0.ABILITY_IDS, slot6) then
+				table.insert(slot2, slot6)
+			end
+		end
 	else
 		for slot6, slot7 in pairs(slot0.showCfg) do
 			if table.contains(uv0.ABILITY_IDS, slot6) then
 				table.insert(slot2, slot6)
 			end
 		end
-
-		table.sort(slot2)
 	end
+
+	table.sort(slot2)
 
 	for slot6, slot7 in ipairs(slot2) do
 		slot8 = slot0.abilityContent.childCount < slot6 and cloneTplTo(slot0.abilityTpl, slot0.abilityContent) or slot0.abilityContent:GetChild(slot6 - 1)
@@ -218,6 +252,10 @@ function slot0.UpdateAbility(slot0, slot1)
 
 		setText(slot0:findTF("name", slot8), slot9)
 		setText(slot0:findTF("value/Text", slot8), slot10)
+
+		if slot1 then
+			OtherworldMapScene.personalRandomData[slot7] = slot10
+		end
 	end
 
 	for slot6 = 1, slot0.abilityContent.childCount do
@@ -238,8 +276,12 @@ function slot0.GetRollAttrInfoById(slot0, slot1, slot2)
 		else
 			slot3 = slot4[math.random(#slot4)]
 		end
-	elseif not slot0.showCfg[slot1] then
-		slot3 = uv0.config[slot1].default_value
+	else
+		slot3 = slot0.showCfg[slot1] or uv0.config[slot1].default_value
+
+		if OtherworldMapScene.personalRandomData then
+			slot3 = OtherworldMapScene.personalRandomData[slot1]
+		end
 	end
 
 	return uv0.config[slot1].name, tostring(slot3)
@@ -281,6 +323,7 @@ function slot0.PlayUpgradeAnims(slot0)
 			uv0:PlayAbilityAnim(slot0)
 		end
 	}, function ()
+		uv0.contextData.upgrade = nil
 	end)
 end
 
@@ -443,6 +486,23 @@ function slot0.PlayAbilityAnim(slot0, slot1)
 	else
 		slot1()
 	end
+end
+
+function slot0.GetLocalName(slot0)
+	if not slot0.unlockRandom then
+		return ""
+	end
+
+	return PlayerPrefs.GetString(uv0 .. slot0.playerId)
+end
+
+function slot0.SetLocalName(slot0, slot1)
+	if not slot0.unlockRandom then
+		return
+	end
+
+	PlayerPrefs.SetString(uv0 .. slot0.playerId, slot1)
+	PlayerPrefs.Save()
 end
 
 function slot0.OnDestroy(slot0)
