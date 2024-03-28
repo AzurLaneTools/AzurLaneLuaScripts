@@ -73,7 +73,11 @@ function slot0.startDrag(slot0)
 		slot0.mouseInputDown = Input.mousePosition
 		slot0.mouseInputDownTime = Time.time
 		slot0.triggerActionTime = 0
-		slot0.actionListIndex = 1
+
+		if slot0.actionTrigger.type == Live2D.DRAG_DOWN_ACTION then
+			slot0.actionListIndex = 1
+		end
+
 		slot0.parameterSmoothTime = slot0.smooth
 	end
 end
@@ -170,8 +174,6 @@ function slot0.onEventCallback(slot0, slot1, slot2, slot3)
 		slot6 = false
 		slot7, slot8, slot9 = nil
 
-		print("check apply")
-
 		if slot0.actionTrigger.action then
 			slot5 = slot0:fillterAction(slot0.actionTrigger.action)
 			slot4 = slot0.actionTriggerActive
@@ -200,9 +202,13 @@ function slot0.onEventCallback(slot0, slot1, slot2, slot3)
 			if slot0.actionListIndex == #slot0.actionTrigger.action_list then
 				slot0:triggerAction()
 				slot0:stopDrag()
+
+				slot0.actionListIndex = 1
 			else
 				slot0.actionListIndex = slot0.actionListIndex + 1
 			end
+
+			print("id = " .. slot0.id .. " action list index = " .. slot0.actionListIndex)
 		elseif not slot0.actionTrigger.action then
 			slot5 = slot0:fillterAction(slot0.actionTrigger.action)
 			slot4 = slot0.actionTriggerActive
@@ -239,7 +245,7 @@ function slot0.onEventCallback(slot0, slot1, slot2, slot3)
 
 		slot2 = {
 			function ()
-				uv0:applyFinish()
+				uv0:actionApplyFinish()
 			end,
 			id = slot0.id,
 			action = slot5,
@@ -282,7 +288,7 @@ function slot0.getParameToTargetFlag(slot0)
 	return false
 end
 
-function slot0.applyFinish(slot0)
+function slot0.actionApplyFinish(slot0)
 end
 
 function slot0.stepParameter(slot0)
@@ -305,23 +311,23 @@ function slot0.updateParameterUpdateFlag(slot0)
 			if not slot0.l2dIsPlaying then
 				slot0._parameterUpdateFlag = true
 
-				slot0:changeParameComAdd(true)
+				slot0:changeParameComAble(true)
 			elseif not table.contains(slot0.actionTrigger.remove_com_list, slot0.l2dPlayActionName) then
 				slot0._parameterUpdateFlag = true
 
-				slot0:changeParameComAdd(true)
+				slot0:changeParameComAble(true)
 			end
 		elseif slot0._parameterUpdateFlag == true and slot0.l2dIsPlaying and table.contains(slot0.actionTrigger.remove_com_list, slot0.l2dPlayActionName) then
 			slot0._parameterUpdateFlag = false
 
-			slot0:changeParameComAdd(false)
+			slot0:changeParameComAble(false)
 		end
 	else
 		slot0._parameterUpdateFlag = false
 	end
 end
 
-function slot0.changeParameComAdd(slot0, slot1)
+function slot0.changeParameComAble(slot0, slot1)
 	if slot0.parameterComAdd == slot1 then
 		return
 	end
@@ -448,31 +454,34 @@ function slot0.updateParameterValue(slot0)
 	end
 end
 
-slot0.relation_type_drag_x = 101
-slot0.relation_type_drag_y = 102
-
 function slot0.updateRelationValue(slot0)
 	for slot4, slot5 in ipairs(slot0._relationParameterList) do
-		slot8, slot9 = nil
+		slot6 = slot5.data
+		slot8 = slot6.relation_value
+		slot9, slot10 = nil
 
-		if slot5.data.type == Live2dDrag.relation_type_drag_x then
-			slot8 = slot0.offsetDragX or slot5.start or slot0.startValue or 0
-			slot9 = true
-		elseif slot7 == Live2dDrag.relation_type_drag_y then
-			slot8 = slot0.offsetDragY or slot5.start or slot0.startValue or 0
-			slot9 = true
+		if slot6.type == Live2D.relation_type_drag_x then
+			slot9 = slot0.offsetDragX or slot5.start or slot0.startValue or 0
+			slot10 = true
+		elseif slot7 == Live2D.relation_type_drag_y then
+			slot9 = slot0.offsetDragY or slot5.start or slot0.startValue or 0
+			slot10 = true
+		elseif slot7 == Live2D.relation_type_action_index then
+			slot9 = slot8[slot0.actionListIndex] or 0
+			slot10 = true
 		else
-			slot8 = slot0.parameterTargetValue
-			slot9 = false
+			slot9 = slot0.parameterTargetValue
+			slot10 = false
 		end
 
-		slot5.value, slot5.parameterSmooth = Mathf.SmoothDamp(slot5.value or slot0.startValue, slot0:fixRelationParameter(slot8, slot6), slot5.parameterSmooth or 0, 0.1)
-		slot5.enable = slot9
+		slot5.value, slot5.parameterSmooth = Mathf.SmoothDamp(slot5.value or slot0.startValue, slot0:fixRelationParameter(slot9, slot6), slot5.parameterSmooth or 0, 0.1)
+		slot5.enable = slot10
+		slot5.comId = slot0.id
 	end
 end
 
 function slot0.fixRelationParameter(slot0, slot1, slot2)
-	return slot0:fixParameterTargetValue(slot1, slot2.range or slot0.range, slot2.rangeAbs or slot0.rangeAbs, slot2.dragDirect or slot0.dragDirect)
+	return slot0:fixParameterTargetValue(slot1, slot2.range or slot0.range, slot2.rangeAbs and slot2.rangeAbs == 1 or slot0.rangeAbs, slot2.dragDirect and slot2.dragDirect or slot0.dragDirect)
 end
 
 function slot0.fixParameterTargetValue(slot0, slot1, slot2, slot3, slot4)
@@ -591,37 +600,8 @@ function slot0.updateTrigger(slot0)
 			end
 		end
 	elseif slot1 == Live2D.DRAG_CLICK_ACTION then
-		if slot0.firstActive then
-			slot0:onEventCallback(Live2D.EVENT_ACTION_ABLE, {
-				ableFlag = true
-			})
-		elseif slot0.firstStop then
-			slot6 = slot0.mouseInputUpTime - slot0.mouseInputDownTime < 0.5
-
-			if math.abs(slot0.mouseInputUp.x - slot0.mouseInputDown.x) < 30 and math.abs(slot0.mouseInputUp.y - slot0.mouseInputDown.y) < 30 and slot6 and not slot0.l2dIsPlaying then
-				slot0.clickTriggerTime = 0.01
-				slot0.clickApplyFlag = true
-			else
-				slot0:onEventCallback(Live2D.EVENT_ACTION_ABLE, {
-					ableFlag = false
-				})
-			end
-		elseif slot0.clickTriggerTime and slot0.clickTriggerTime > 0 then
-			slot0.clickTriggerTime = slot0.clickTriggerTime - Time.deltaTime
-
-			if slot0.clickTriggerTime <= 0 then
-				slot0.clickTriggerTime = nil
-
-				slot0:onEventCallback(Live2D.EVENT_ACTION_ABLE, {
-					ableFlag = false
-				})
-
-				if slot0.clickApplyFlag then
-					slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY)
-
-					slot0.clickApplyFlag = false
-				end
-			end
+		if slot0:checkClickAction() then
+			slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY)
 		end
 	elseif slot1 == Live2D.DRAG_DOWN_ACTION then
 		if slot0._active then
@@ -667,16 +647,23 @@ function slot0.updateTrigger(slot0)
 				slot0.triggerActionTime = slot0.triggerActionTime + 0
 			end
 		end
-	elseif slot1 == Live2D.DRAG_RELATION_IDLE and slot0.actionTrigger.const_fit then
-		for slot8 = 1, #slot0.actionTrigger.const_fit do
-			if slot0.l2dIdleIndex == slot0.actionTrigger.const_fit[slot8].idle and not slot0.l2dIsPlaying then
-				slot0:setTargetValue(slot9.target)
+	elseif slot1 == Live2D.DRAG_RELATION_IDLE then
+		if slot0.actionTrigger.const_fit then
+			for slot8 = 1, #slot0.actionTrigger.const_fit do
+				if slot0.l2dIdleIndex == slot0.actionTrigger.const_fit[slot8].idle and not slot0.l2dIsPlaying then
+					slot0:setTargetValue(slot9.target)
+				end
 			end
 		end
+	elseif slot1 == Live2D.DRAG_CLICK_MANY and slot0:checkClickAction() then
+		print("id = " .. slot0.id .. "被按下了")
+		slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY)
 	end
 end
 
 function slot0.triggerAction(slot0)
+	print("set limit time = " .. slot0.limitTime)
+
 	slot0.nextTriggerTime = slot0.limitTime
 
 	slot0:setTriggerActionFlag(true)
@@ -709,6 +696,10 @@ function slot0.updateStateData(slot0, slot1)
 		slot0:setTargetValue(slot0.startValue)
 	end
 
+	if slot1.isPlaying and slot0.actionTrigger.reset_index_action and slot1.actionName and table.contains(slot0.actionTrigger.reset_index_action, slot1.actionName) then
+		slot0.actionListIndex = 1
+	end
+
 	slot0.l2dIdleIndex = slot1.idleIndex
 	slot0.l2dIsPlaying = slot1.isPlaying
 	slot0.l2dIgnoreReact = slot1.ignoreReact
@@ -719,9 +710,50 @@ function slot0.updateStateData(slot0, slot1)
 	end
 end
 
+function slot0.checkClickAction(slot0)
+	if slot0.firstActive then
+		slot0:onEventCallback(Live2D.EVENT_ACTION_ABLE, {
+			ableFlag = true
+		})
+	elseif slot0.firstStop then
+		slot2 = slot0.mouseInputUpTime - slot0.mouseInputDownTime < 0.5
+
+		if math.abs(slot0.mouseInputUp.x - slot0.mouseInputDown.x) < 30 and math.abs(slot0.mouseInputUp.y - slot0.mouseInputDown.y) < 30 and slot2 and not slot0.l2dIsPlaying then
+			slot0.clickTriggerTime = 0.01
+			slot0.clickApplyFlag = true
+		else
+			slot0:onEventCallback(Live2D.EVENT_ACTION_ABLE, {
+				ableFlag = false
+			})
+		end
+	elseif slot0.clickTriggerTime and slot0.clickTriggerTime > 0 then
+		slot0.clickTriggerTime = slot0.clickTriggerTime - Time.deltaTime
+
+		if slot0.clickTriggerTime <= 0 then
+			slot0.clickTriggerTime = nil
+
+			slot0:onEventCallback(Live2D.EVENT_ACTION_ABLE, {
+				ableFlag = false
+			})
+
+			if slot0.clickApplyFlag then
+				slot0.clickApplyFlag = false
+
+				return true
+			end
+		end
+	end
+
+	return false
+end
+
 function slot0.saveData(slot0)
 	if slot0.revert == -1 then
 		Live2dConst.SaveDragData(slot0.id, slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id, slot0.parameterTargetValue)
+	end
+
+	if slot0.actionTrigger.type == Live2D.DRAG_CLICK_MANY then
+		Live2dConst.SetDragActionIndex(slot0.id, slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id, slot0.actionListIndex)
 	end
 end
 
@@ -729,6 +761,10 @@ function slot0.loadData(slot0)
 	if slot0.revert == -1 and Live2dConst.GetDragData(slot0.id, slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id) then
 		slot0:setParameterValue(slot1)
 		slot0:setTargetValue(slot1)
+	end
+
+	if slot0.actionTrigger.type == Live2D.DRAG_CLICK_MANY then
+		slot0.actionListIndex = Live2dConst.GetDragActionIndex(slot0.id, slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id) or 1
 	end
 end
 

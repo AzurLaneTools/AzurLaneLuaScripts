@@ -239,7 +239,7 @@ function slot0.didEnter(slot0)
 		groupName = LayerWeightConst.GROUP_COMBAT
 	})
 
-	if slot0.contextData.system ~= SYSTEM_BOSS_RUSH and slot0.contextData.system ~= SYSTEM_BOSS_RUSH_EX and slot0.contextData.system ~= SYSTEM_ACT_BOSS then
+	if slot0.contextData.system ~= SYSTEM_BOSS_RUSH and slot0.contextData.system ~= SYSTEM_BOSS_RUSH_EX and slot0.contextData.system ~= SYSTEM_ACT_BOSS and slot0.contextData.system ~= SYSTEM_BOSS_SINGLE then
 		ys.Battle.BattleCameraUtil.GetInstance().ActiveMainCemera(false)
 	end
 
@@ -425,8 +425,12 @@ function slot0.showRewardInfo(slot0)
 
 					slot8:writeDrops(slot3)
 				end
-			elseif uv0.contextData.system == SYSTEM_ACT_BOSS and getProxy(ContextProxy):getCurrentContext():getContextByMediator(ContinuousOperationMediator) then
-				getProxy(ChapterProxy):AddActBossRewards(slot3)
+			elseif uv0.contextData.system == SYSTEM_ACT_BOSS then
+				if getProxy(ContextProxy):getCurrentContext():getContextByMediator(ContinuousOperationMediator) then
+					getProxy(ChapterProxy):AddActBossRewards(slot3)
+				end
+			elseif uv0.contextData.system == SYSTEM_BOSS_SINGLE and getProxy(ContextProxy):getCurrentContext():getContextByMediator(BossSingleContinuousOperationMediator) then
+				getProxy(ChapterProxy):AddBossSingleRewards(slot3)
 			end
 
 			slot8 = uv0

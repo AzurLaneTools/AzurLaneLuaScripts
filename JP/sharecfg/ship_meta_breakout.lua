@@ -18,6 +18,10 @@ pg.ship_meta_breakout = setmetatable({
 		9701042,
 		9701043,
 		9701044,
+		9701051,
+		9701052,
+		9701053,
+		9701054,
 		9702011,
 		9702012,
 		9702013,
@@ -380,6 +384,69 @@ pg.base.ship_meta_breakout = {
 		id = 9701044,
 		item1 = 21029,
 		pre_id = 9701043,
+		weapon_ids = {}
+	},
+	[9701051] = {
+		breakout_view = "【焔追の灰-ヴァンパイア】習得/魚雷補正+5%",
+		gold = 500,
+		breakout_id = 9701052,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 10,
+		item2_num = 0,
+		id = 9701051,
+		item1 = 21032,
+		pre_id = 0,
+		weapon_ids = {
+			80221
+		}
+	},
+	[9701052] = {
+		breakout_view = "魚雷装填数+1/開始時魚雷+1/主砲補正+10%",
+		gold = 1500,
+		breakout_id = 9701053,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 1,
+		level = 30,
+		item2_num = 0,
+		id = 9701052,
+		item1 = 21032,
+		pre_id = 9701051,
+		weapon_ids = {
+			105,
+			105
+		}
+	},
+	[9701053] = {
+		breakout_view = "【焔追の灰-ヴァンパイア】強化/武器補正+5%",
+		gold = 2500,
+		breakout_id = 9701054,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 2,
+		level = 70,
+		item2_num = 0,
+		id = 9701053,
+		item1 = 21032,
+		pre_id = 9701052,
+		weapon_ids = {
+			80222
+		}
+	},
+	[9701054] = {
+		breakout_view = "なし",
+		gold = 0,
+		breakout_id = 0,
+		repair = 0,
+		item2 = 21001,
+		item1_num = 0,
+		level = 0,
+		item2_num = 0,
+		id = 9701054,
+		item1 = 21032,
+		pre_id = 9701053,
 		weapon_ids = {}
 	},
 	[9702011] = {

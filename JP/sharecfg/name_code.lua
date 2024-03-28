@@ -2674,6 +2674,13 @@ pg.name_code = {
 		code = "ソユーズ",
 		nation = 0
 	},
+	[531] = {
+		name = "フリードリヒ・カール",
+		type = 1,
+		id = 531,
+		code = "フリードリヒ・カール",
+		nation = 0
+	},
 	[10000] = {
 		name = "零戦五二型",
 		type = 2,

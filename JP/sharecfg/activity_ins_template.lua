@@ -11829,6 +11829,42 @@ pg.activity_ins_template = {
 			4305
 		}
 	},
+	[457] = {
+		ship_group = 20137,
+		name = "Nubian",
+		sculpture = "nubiyaren",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 457,
+		id = 457,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[458] = {
+		ship_group = 20234,
+		name = "Liverpool",
+		sculpture = "liwupu",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 458,
+		id = 458,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[459] = {
+		ship_group = 20313,
+		name = "Devonshire",
+		sculpture = "dewenjun",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 459,
+		id = 459,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -12276,6 +12312,9 @@ pg.activity_ins_template = {
 		452,
 		453,
 		454,
-		455
+		455,
+		457,
+		458,
+		459
 	}
 }

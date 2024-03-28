@@ -354,6 +354,8 @@ function slot0.addActivityFleet(slot0, slot1, slot2)
 			slot15.fleetType = table.contains(slot8(), slot14.id) and FleetType.Submarine or FleetType.Normal
 		elseif slot9.type == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 then
 			slot15.fleetType = Fleet.SUBMARINE_FLEET_ID <= slot14.id and FleetType.Submarine or FleetType.Normal
+		elseif slot9.type == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE then
+			slot15.fleetType = Fleet.SUBMARINE_FLEET_ID <= slot14.id and FleetType.Submarine or FleetType.Normal
 		else
 			slot15.fleetType = Fleet.isSubmarineFleet({
 				id = slot14.id
@@ -385,6 +387,9 @@ function slot0.addActivityFleet(slot0, slot1, slot2)
 		slot10 = 0
 		slot11 = 0
 	elseif slot9.type == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
+		slot10 = 0
+		slot11 = 0
+	elseif slot9.type == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE then
 		slot10 = 0
 		slot11 = 0
 	end

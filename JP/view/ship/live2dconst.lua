@@ -32,6 +32,22 @@ function slot0.GetDragSaveName(slot0, slot1, slot2)
 	return "l2d_drag_" .. tostring(slot0) .. "_" .. tostring(slot1) .. "_" .. tostring(slot2) .. "_target"
 end
 
+function slot0.SetDragActionIndex(slot0, slot1, slot2, slot3)
+	PlayerPrefs.SetInt(uv0.GetDragActionIndexName(slot0, slot1, slot2), slot3)
+end
+
+function slot0.GetDragActionIndex(slot0, slot1, slot2)
+	if not PlayerPrefs.GetInt(uv0.GetDragActionIndexName(slot0, slot1, slot2)) or slot4 <= 0 then
+		slot4 = 1
+	end
+
+	return slot4
+end
+
+function slot0.GetDragActionIndexName(slot0, slot1, slot2)
+	return "l2d_drag_" .. tostring(slot0) .. "_" .. tostring(slot1) .. "_" .. tostring(slot2) .. "_action_index"
+end
+
 function slot0.ClearLive2dSave(slot0, slot1)
 	if not slot0 or not slot1 then
 		warning("skinId 或 shipId 不能为空")
@@ -55,6 +71,7 @@ function slot0.ClearLive2dSave(slot0, slot1)
 		for slot6, slot7 in ipairs(slot2) do
 			if pg.ship_l2d[slot7] then
 				Live2dConst.SaveDragData(slot7, slot0, slot1, pg.ship_l2d[slot7].start_value or 0)
+				Live2dConst.SetDragActionIndex(slot7, slot0, slot1, 1)
 			else
 				warning(tostring(slot7) .. "不存在，不清理该dragid")
 			end

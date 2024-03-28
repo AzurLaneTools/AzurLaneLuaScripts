@@ -26,6 +26,7 @@ function slot3.Ctor(slot0, slot1)
 	slot0._ammoTypeRequire = slot2.ammoType
 	slot0._ammoIndexRequire = slot2.ammoIndex
 	slot0._bulletTagRequire = slot2.bulletTag
+	slot0._victimTagRequire = slot2.victimTag
 	slot0._buffStateIDRequire = slot2.buff_state_id
 	slot0._cloakRequire = slot2.cloak_state
 	slot0._fleetAttrRequire = slot2.fleetAttr
@@ -140,6 +141,14 @@ end
 
 function slot3.onBulletHit(slot0, slot1, slot2, slot3)
 	if not slot0:equipIndexRequire(slot3.equipIndex) then
+		return
+	end
+
+	if not slot0:bulletTagRequire(slot3.bulletTag) then
+		return
+	end
+
+	if not slot0:victimRequire(slot3.target, slot1) then
 		return
 	end
 
@@ -358,10 +367,8 @@ function slot3.onFoeDying(slot0, slot1, slot2, slot3)
 		if slot0:killerRequire(slot0._tempData.arg_list.killer, slot3.killer, slot1) then
 			slot0:onTrigger(slot1, slot2)
 		end
-	elseif slot0._tempData.arg_list.victimTag then
-		if slot0:victimRequire(slot0._tempData.arg_list.victimTag, slot3.unit, slot1) then
-			slot0:onTrigger(slot1, slot2)
-		end
+	elseif slot0:victimRequire(slot3.unit, slot1) then
+		slot0:onTrigger(slot1, slot2)
 	else
 		slot0:onTrigger(slot1, slot2)
 	end
@@ -412,8 +419,10 @@ function slot3.killerRequire(slot0, slot1, slot2, slot3)
 	return false
 end
 
-function slot3.victimRequire(slot0, slot1, slot2, slot3)
-	if slot2:ContainsLabelTag(slot1) then
+function slot3.victimRequire(slot0, slot1, slot2)
+	if not slot0._victimTagRequire then
+		return true
+	elseif slot1:ContainsLabelTag(slot0._victimTagRequire) then
 		return true
 	else
 		return false

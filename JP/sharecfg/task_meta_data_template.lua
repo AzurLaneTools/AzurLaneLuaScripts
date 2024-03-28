@@ -222,6 +222,11 @@ pg.task_meta_data_template = setmetatable({
 		100173,
 		100174,
 		100175,
+		100181,
+		100182,
+		100183,
+		100184,
+		100185,
 		200001,
 		200002,
 		200003,
@@ -289,7 +294,11 @@ pg.task_meta_data_template = setmetatable({
 		200171,
 		200172,
 		200173,
-		200174
+		200174,
+		200181,
+		200182,
+		200183,
+		200184
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2054,6 +2063,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100181] = {
+		target_id_2 = "970105",
+		sub_type = 180,
+		desc = "ヴァンパイア(META)を編成した艦隊で1回戦闘を勝利する",
+		id = 100181,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100182] = {
+		target_id_2 = "970105",
+		sub_type = 180,
+		desc = "ヴァンパイア(META)を編成した艦隊でLv30+の敵艦隊を撃破する",
+		id = 100182,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100183] = {
+		target_id_2 = "970105",
+		sub_type = 180,
+		desc = "ヴァンパイア(META)を編成した艦隊でLv55+の敵艦隊を撃破する",
+		id = 100183,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100184] = {
+		target_id_2 = "970105",
+		sub_type = 180,
+		desc = "ヴァンパイア(META)を編成した艦隊でLv80+の敵艦隊を撃破する",
+		id = 100184,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100185] = {
+		target_id_2 = "970105",
+		sub_type = 180,
+		desc = "ヴァンパイア(META)を編成した艦隊でLv100+の敵艦隊を撃破する",
+		id = 100185,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -2595,6 +2644,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "セイレーン作戦でロドニー(META)を含めた艦隊でLv100+の敵を撃破",
 		id = 200174,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200181] = {
+		target_id_2 = "970105",
+		sub_type = 302,
+		desc = "セイレーン作戦でヴァンパイア(META)を含めた艦隊で1回勝利する",
+		id = 200181,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200182] = {
+		target_id_2 = "970105",
+		sub_type = 302,
+		desc = "セイレーン作戦でヴァンパイア(META)を含めた艦隊でLv70+の敵を撃破",
+		id = 200182,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200183] = {
+		target_id_2 = "970105",
+		sub_type = 302,
+		desc = "セイレーン作戦でヴァンパイア(META)を含めた艦隊でLv90+の敵を撃破",
+		id = 200183,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200184] = {
+		target_id_2 = "970105",
+		sub_type = 302,
+		desc = "セイレーン作戦でヴァンパイア(META)を含めた艦隊でLv100+の敵を撃破",
+		id = 200184,
 		target_num = 1,
 		target_id = "100"
 	}

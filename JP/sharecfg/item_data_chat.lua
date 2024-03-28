@@ -168,6 +168,14 @@ pg.item_data_chat = {
 		desc = "<size=28><color=#ffffff>己の限界に挑む勇気のある指揮官に贈る</color><color=#A7A7AAFF>「限界挑戦」で入手可能（24.03.01-24.03.31）</color></size>",
 		scene = {}
 	},
+	[10011] = {
+		time_limit_type = 0,
+		name = "限界挑戦・ひつじ座",
+		id = 10011,
+		time_second = 0,
+		desc = "<size=28><color=#ffffff>己の限界に挑む勇気のある指揮官に贈る</color><color=#A7A7AAFF>「限界挑戦」で入手可能（24.04.01-24.04.30）</color></size>",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -189,6 +197,7 @@ pg.item_data_chat = {
 		10007,
 		10008,
 		10009,
-		10010
+		10010,
+		10011
 	}
 }

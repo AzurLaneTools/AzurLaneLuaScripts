@@ -21426,6 +21426,72 @@ _G.pg.base.gametip.cruise_task_help_2402 = {
 	}
 }
 
+_G.pg.base.gametip.battlepass_main_tip_2404 = {
+	tip = "<size=23> 2024.4.1-2024.5.31キャンペーン期間中、シーズン任務報酬で<color=#854747>「キンバリー(META)」</color>などを入手可能！</size>"
+}
+
+_G.pg.base.gametip.battlepass_main_help_2404 = {
+	tip = {
+		{
+			info = [[
+■キャンペーン開催期間
+ 2024.4.1（月）0:00～2024.5.31（金）23:59
+
+■概要
+「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。
+また、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。
+通常報酬からは艦船「ヴァンパイア(META)」、SP報酬からは駆逐艦「電」の限定着せ替え「華道メイド電」を入手できます。
+
+■遊び方
+・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。
+　①週次開放任務
+　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ
+　②全期間任務
+　最初から全開放される任務。全1グループ
+・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。
+　さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。
+・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。
+　①通常報酬
+　「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります
+　②SP報酬
+　「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手入手できます。
+・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。
+
+■Tips
+・プレイスタイル
+　シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくりしながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。
+
+・クルーズパス
+　ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。
+
+・任務のスキップ（オススメしません）
+　「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。
+　ダイヤを消費しますので、オススメしません厖
+　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cruise_task_help_2404 = {
+	tip = {
+		{
+			info = [[
+■シーズン任務について
+・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。
+　①週次開放任務
+　キャンペーン開始時とキャンペーン期間中7日間経過する毎に開放される任務。全8グループ
+　②全期間任務
+　最初から全開放される任務。全1グループ
+
+・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。
+
+・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。
+　ダイヤを消費しますので、オススメしません……
+　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。]]
+		}
+	}
+}
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "リセット"
 }
@@ -27923,4 +27989,408 @@ _G.pg.base.gametip.skin_shop_buy_confirm = {
 
 _G.pg.base.gametip.activity_victory = {
 	tip = "艦隊を出撃させ、勝利を収める"
+}
+
+_G.pg.base.gametip.other_world_temple_toggle_1 = {
+	tip = "力の像"
+}
+
+_G.pg.base.gametip.other_world_temple_toggle_2 = {
+	tip = "豊穣の像"
+}
+
+_G.pg.base.gametip.other_world_temple_toggle_3 = {
+	tip = "知恵の像"
+}
+
+_G.pg.base.gametip.other_world_temple_char = {
+	tip = "加護一覧"
+}
+
+_G.pg.base.gametip.other_world_temple_award = {
+	tip = "報酬確認"
+}
+
+_G.pg.base.gametip.other_world_temple_got = {
+	tip = "受取済"
+}
+
+_G.pg.base.gametip.other_world_temple_progress = {
+	tip = "$1に$2/$3回捧げると開放可能"
+}
+
+_G.pg.base.gametip.other_world_temple_char_title = {
+	tip = "加護一覧"
+}
+
+_G.pg.base.gametip.other_world_temple_award_last = {
+	tip = "残り$1/$2"
+}
+
+_G.pg.base.gametip.other_world_temple_award_title_1 = {
+	tip = "力の像の恵み"
+}
+
+_G.pg.base.gametip.other_world_temple_award_title_2 = {
+	tip = "豊穣の像の恵み"
+}
+
+_G.pg.base.gametip.other_world_temple_award_title_3 = {
+	tip = "知恵の像の恵み"
+}
+
+_G.pg.base.gametip.other_world_temple_lottery_all = {
+	tip = "すべての報酬が入手済みです"
+}
+
+_G.pg.base.gametip.other_world_temple_award_desc = {
+	tip = "饅頭の像に「王国金貨」を捧げて祈りをすると、報酬と加護を入手可能"
+}
+
+_G.pg.base.gametip.other_world_temple_pay = {
+	tip = "祈り$1回"
+}
+
+_G.pg.base.gametip.other_world_task_type_daily = {
+	tip = "デイリー"
+}
+
+_G.pg.base.gametip.other_world_task_type_main = {
+	tip = "メイン"
+}
+
+_G.pg.base.gametip.other_world_task_type_repeat = {
+	tip = "制限なし"
+}
+
+_G.pg.base.gametip.other_world_task_title = {
+	tip = "依頼掲示板"
+}
+
+_G.pg.base.gametip.other_world_task_get_all = {
+	tip = "一括受取"
+}
+
+_G.pg.base.gametip.other_world_task_go = {
+	tip = "確認"
+}
+
+_G.pg.base.gametip.other_world_task_got = {
+	tip = "受取済"
+}
+
+_G.pg.base.gametip.other_world_task_get = {
+	tip = "受取"
+}
+
+_G.pg.base.gametip.other_world_task_tag_main = {
+	tip = "メイン"
+}
+
+_G.pg.base.gametip.other_world_task_tag_daily = {
+	tip = "デイリー"
+}
+
+_G.pg.base.gametip.other_world_task_tag_all = {
+	tip = "すべて"
+}
+
+_G.pg.base.gametip.terminal_personal_title = {
+	tip = "指揮官情報"
+}
+
+_G.pg.base.gametip.terminal_adventure_title = {
+	tip = "冒険データ"
+}
+
+_G.pg.base.gametip.terminal_guardian_title = {
+	tip = "加護"
+}
+
+_G.pg.base.gametip.personal_info_title = {
+	tip = "基礎情報"
+}
+
+_G.pg.base.gametip.personal_property_title = {
+	tip = "ステータス"
+}
+
+_G.pg.base.gametip.personal_ability_title = {
+	tip = "スキル"
+}
+
+_G.pg.base.gametip.adventure_award_title = {
+	tip = "冒険レベル報酬"
+}
+
+_G.pg.base.gametip.adventure_progress_title = {
+	tip = "次のレベルまで："
+}
+
+_G.pg.base.gametip.adventure_lv_title = {
+	tip = "冒険レベル："
+}
+
+_G.pg.base.gametip.adventure_record_title = {
+	tip = "冒険記録"
+}
+
+_G.pg.base.gametip.adventure_record_grade_title = {
+	tip = "冒険者ランク："
+}
+
+_G.pg.base.gametip.adventure_award_end_tip = {
+	tip = "※4.17（水） 24時まで受取可能"
+}
+
+_G.pg.base.gametip.guardian_select_title = {
+	tip = "加護選択"
+}
+
+_G.pg.base.gametip.guardian_sure_btn = {
+	tip = "装備"
+}
+
+_G.pg.base.gametip.guardian_cancel_btn = {
+	tip = "解除"
+}
+
+_G.pg.base.gametip.guardian_active_tip = {
+	tip = "適用中"
+}
+
+_G.pg.base.gametip.personal_random = {
+	tip = "ランダム生成"
+}
+
+_G.pg.base.gametip.adventure_get_all = {
+	tip = "一括受取"
+}
+
+_G.pg.base.gametip.Announcements_Event_Notice = {
+	tip = "イベント"
+}
+
+_G.pg.base.gametip.Announcements_System_Notice = {
+	tip = "更新"
+}
+
+_G.pg.base.gametip.Announcements_News = {
+	tip = "最新情報"
+}
+
+_G.pg.base.gametip.Announcements_Donotshow = {
+	tip = "今日はこれ以上表示しない"
+}
+
+_G.pg.base.gametip.adventure_unlock_tip = {
+	tip = "<color=#92fc63>前の難易度のステージをクリアすること</color>で開放可能"
+}
+
+_G.pg.base.gametip.personal_random_tip = {
+	tip = "<color=#92fc63>ストーリーを読むと</color>開放可能"
+}
+
+_G.pg.base.gametip.guardian_sure_limit_tip = {
+	tip = "これ以上加護を装備できません"
+}
+
+_G.pg.base.gametip.other_world_temple_tip = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help3",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help4",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help5",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help1",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.otherworld_map_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help3",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help4",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help5",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.otherworld_backhill_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help3",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help4",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help5",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.otherworld_terminal_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help4",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help5",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help3",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
 }

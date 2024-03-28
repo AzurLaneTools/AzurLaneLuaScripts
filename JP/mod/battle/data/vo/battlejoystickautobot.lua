@@ -5,7 +5,7 @@ slot1 = slot0.Battle.BattleJoyStickAutoBot
 slot1.__name = "BattleJoyStickAutoBot"
 slot1.COUNTER_MAIN = "CounterMainRandomStrategy"
 slot1.RANDOM = "RandomStrategy"
-slot1.AUTO_PILOT = "RandomStrategy"
+slot1.AUTO_PILOT = "AutoPilotStrategy"
 
 function slot1.Ctor(slot0, slot1, slot2)
 	slot0._dataProxy = slot1

@@ -20,14 +20,14 @@ end
 function slot0.GetUnlock(slot0)
 	slot1 = getProxy(IslandProxy)
 	slot2 = slot0:getConfig("open_need")
-	slot3 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2):GetTotalBuildingLevel()
-	slot4 = {}
+	slot4 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2) and slot3:GetTotalBuildingLevel() or 0
+	slot5 = {}
 
-	for slot8, slot9 in ipairs(getProxy(ActivityTaskProxy):getFinishTasks()) do
-		slot4[slot9:GetConfigID()] = true
+	for slot9, slot10 in ipairs(getProxy(ActivityTaskProxy):getFinishTasks()) do
+		slot5[slot10:GetConfigID()] = true
 	end
 
-	return slot2[1] <= slot3 and underscore.all(slot2[2], function (slot0)
+	return slot2[1] <= slot4 and underscore.all(slot2[2], function (slot0)
 		return uv0:GetNode(slot0):IsCompleted()
 	end) and underscore.all(slot0:getConfig("open_task"), function (slot0)
 		return uv0[slot0]

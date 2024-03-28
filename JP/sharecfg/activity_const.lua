@@ -1001,5 +1001,23 @@ pg.activity_const = {
 	},
 	ACTIVITY_HUAZHONGSHIJIE = {
 		act_id = 4667
+	},
+	OTHER_WORLD_TASK_ID = {
+		act_id = 5261
+	},
+	OTHER_WORLD_TERMINAL_EVENT_ID = {
+		act_id = 5265
+	},
+	OTHER_WORLD_TERMINAL_LOTTERY_ID = {
+		act_id = 5264
+	},
+	OTHER_WORLD_TERMINAL_TASK_ID = {
+		act_id = 5269
+	},
+	OTHER_WORLD_TERMINAL_PT_ID = {
+		act_id = 5270
+	},
+	OTHER_WORLD_TERMINAL_BATTLE_ID = {
+		act_id = 5260
 	}
 }

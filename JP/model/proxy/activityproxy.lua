@@ -44,6 +44,10 @@ function slot0.register(slot0)
 					table.insert(uv0.buffActs, slot6.id)
 				elseif slot7 == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
 					uv0:InitActtivityFleet(slot6, slot5)
+				elseif slot7 == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE then
+					uv0:InitActtivityFleet(slot6, slot5)
+				elseif slot7 == ActivityConst.ACTIVITY_TYPE_EVENT_SINGLE then
+					uv0:CheckDailyEventRequest(slot6)
 				end
 
 				uv0.data[slot5.id] = slot6
@@ -710,7 +714,8 @@ function slot0.getEnterReadyActivity(slot0)
 		[ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2] = function (slot0)
 			return not slot0:checkBattleTimeInBossAct()
 		end,
-		[ActivityConst.ACTIVITY_TYPE_BOSSRUSH] = false
+		[ActivityConst.ACTIVITY_TYPE_BOSSRUSH] = false,
+		[ActivityConst.ACTIVITY_TYPE_BOSSSINGLE] = false
 	})) do
 		slot3[slot8] = 0
 	end
@@ -894,6 +899,14 @@ function slot0.GetActBossLinkPTActID(slot0, slot1)
 
 		return slot1:getDataConfig("link_id") == uv0
 	end) and slot2.id
+end
+
+function slot0.CheckDailyEventRequest(slot0, slot1)
+	if slot1:CheckDailyEventRequest() then
+		slot0:sendNotification(GAME.SINGLE_EVENT_REFRESH, {
+			actId = slot1.id
+		})
+	end
 end
 
 return slot0
