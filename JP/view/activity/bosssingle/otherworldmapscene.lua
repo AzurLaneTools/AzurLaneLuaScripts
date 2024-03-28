@@ -180,6 +180,19 @@ function slot0.didEnter(slot0)
 		end,
 		function (slot0)
 			pg.SystemGuideMgr.GetInstance():PlayByGuideId("NG0044", nil, slot0)
+		end,
+		function (slot0)
+			if uv0.contextData.openTerminal then
+				uv0:OpenTerminal({
+					page = uv0.contextData.terminalPage,
+					onExit = slot0
+				})
+
+				uv0.contextData.openTerminal = nil
+				uv0.contextData.terminalPage = nil
+			else
+				slot0()
+			end
 		end
 	}, function ()
 		if uv0.eventAct and uv0.contextData.eventTriggerId then

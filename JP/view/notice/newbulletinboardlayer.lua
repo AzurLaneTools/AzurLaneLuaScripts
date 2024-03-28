@@ -154,7 +154,8 @@ function slot0.initNotices(slot0, slot1)
 				end
 
 				uv0.currentMainTab = uv1
-				uv0.defaultSubTab = nil
+				uv0.defaultSubTab = uv0.tempSubTab
+				uv0.tempSubTab = nil
 
 				uv0:setNotices(uv0._noticeDic[uv1])
 			end
@@ -168,6 +169,8 @@ function slot0.initNotices(slot0, slot1)
 	end
 
 	if slot0.defaultMainTab then
+		slot0.tempSubTab = slot0.defaultSubTab
+
 		triggerToggle(slot0._mainTabContainer:GetChild(slot0.defaultMainTab - 1), true)
 	end
 end
@@ -299,6 +302,11 @@ function slot0.setNoticeDetail(slot0, slot1)
 				uv1:emit(NewBulletinBoardMediator.GO_SCENE, SCENE.SKINSHOP)
 			elseif uv0.link == "shop" then
 				uv1:emit(NewBulletinBoardMediator.GO_SCENE, SCENE.SHOP)
+			elseif uv0.link == "dewenjun" then
+				uv1:emit(NewBulletinBoardMediator.GO_SCENE, SCENE.OTHERWORLD_MAP, {
+					openTerminal = true,
+					terminalPage = OtherworldTerminalLayer.PAGE_ADVENTURE
+				})
 			else
 				Application.OpenURL(uv0.link)
 				uv1:emit(NewBulletinBoardMediator.TRACK_OPEN_URL, uv0.track)
