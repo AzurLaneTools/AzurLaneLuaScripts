@@ -478,6 +478,8 @@ function slot0.execute(slot0, slot1)
 	slot0.facade:registerCommand(GAME.EDUCATE_RESET, EducateResetCommand)
 	slot0.facade:registerCommand(GAME.EDUCATE_REFRESH, EducateRefreshCommand)
 	slot0.facade:registerCommand(GAME.CHANGE_EDUCATE, ChangeEducateCharacterCommand)
+	slot0.facade:registerCommand(GAME.SINGLE_EVENT_TRIGGER, SingleEventTriggerCommand)
+	slot0.facade:registerCommand(GAME.SINGLE_EVENT_REFRESH, SingleEventRefreshCommand)
 end
 
 return slot0

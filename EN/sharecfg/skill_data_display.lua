@@ -180,6 +180,9 @@ pg.skill_data_display = setmetatable({
 		60270,
 		60334,
 		60335,
+		60541,
+		60543,
+		60545,
 		7000,
 		7500,
 		8521,
@@ -1608,6 +1611,19 @@ pg.skill_data_display = setmetatable({
 		17670,
 		17680,
 		17681,
+		17690,
+		17691,
+		17694,
+		17700,
+		17730,
+		17740,
+		17741,
+		17769,
+		17790,
+		17791,
+		17792,
+		17800,
+		17801,
 		18010,
 		18040,
 		18041,
@@ -2569,6 +2585,12 @@ pg.skill_data_display = setmetatable({
 		600151,
 		600152,
 		600153,
+		600163,
+		600164,
+		600165,
+		600170,
+		600171,
+		600172,
 		800010,
 		800020,
 		800021,
@@ -2753,6 +2775,8 @@ pg.skill_data_display = setmetatable({
 		801136,
 		801137,
 		801152,
+		801191,
+		801192,
 		902201,
 		1010140,
 		1010143,
@@ -2866,6 +2890,39 @@ pg.skill_data_display = setmetatable({
 		200785,
 		200791,
 		200792,
+		200830,
+		200831,
+		200832,
+		200833,
+		200835,
+		200836,
+		200837,
+		200838,
+		200839,
+		200840,
+		200841,
+		200843,
+		200845,
+		200847,
+		200848,
+		200849,
+		200854,
+		200856,
+		200858,
+		200866,
+		200868,
+		200876,
+		200880,
+		200888,
+		200892,
+		295002,
+		295003,
+		295004,
+		295005,
+		295006,
+		295007,
+		295008,
+		295009,
 		1011540,
 		1011541,
 		1090010,
@@ -3675,6 +3732,18 @@ pg.base.skill_data_display = {
 	[60335] = {
 		id = 60335,
 		name = "Work Mode"
+	},
+	[60541] = {
+		id = 60541,
+		name = "Blessing of Light and Justice?"
+	},
+	[60543] = {
+		id = 60543,
+		name = "Blessing of Unity and Toughness?"
+	},
+	[60545] = {
+		id = 60545,
+		name = "Blessing of Desserts and Tea Parties?"
 	},
 	[7000] = {
 		id = 7000,
@@ -9388,6 +9457,58 @@ pg.base.skill_data_display = {
 		id = 17681,
 		name = "Undeniable Rip-Roaring Spirit"
 	},
+	[17690] = {
+		id = 17690,
+		name = "Service Mode"
+	},
+	[17691] = {
+		id = 17691,
+		name = "Service Mode"
+	},
+	[17694] = {
+		id = 17694,
+		name = "Service Mode"
+	},
+	[17700] = {
+		id = 17700,
+		name = "Slayer Mode"
+	},
+	[17730] = {
+		id = 17730,
+		name = "It's Cleaning Time!"
+	},
+	[17740] = {
+		id = 17740,
+		name = "Every Last Speck!"
+	},
+	[17741] = {
+		id = 17741,
+		name = "Every Last Speck!"
+	},
+	[17769] = {
+		id = 17769,
+		name = "Harmony"
+	},
+	[17790] = {
+		id = 17790,
+		name = "Suppressive Fire Order"
+	},
+	[17791] = {
+		id = 17791,
+		name = "Suppressive Fire Order"
+	},
+	[17792] = {
+		id = 17792,
+		name = "Suppressive Fire Order"
+	},
+	[17800] = {
+		id = 17800,
+		name = "Fit to Serve!"
+	},
+	[17801] = {
+		id = 17801,
+		name = "Fit to Serve!"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -13232,6 +13353,30 @@ pg.base.skill_data_display = {
 		id = 600153,
 		name = "Sentinels of Gardiane - DoY"
 	},
+	[600163] = {
+		id = 600163,
+		name = "I Am Unsinkable"
+	},
+	[600164] = {
+		id = 600164,
+		name = "I Am Unsinkable"
+	},
+	[600165] = {
+		id = 600165,
+		name = "I Am Unsinkable"
+	},
+	[600170] = {
+		id = 600170,
+		name = "Multiple Lifelines"
+	},
+	[600171] = {
+		id = 600171,
+		name = "Multiple Lifelines"
+	},
+	[600172] = {
+		id = 600172,
+		name = "Multiple Lifelines"
+	},
 	[800010] = {
 		id = 800010,
 		name = "Shadowflame Torch"
@@ -13968,6 +14113,14 @@ pg.base.skill_data_display = {
 		id = 801152,
 		name = "Demise's Arrival"
 	},
+	[801191] = {
+		id = 801191,
+		name = "Ashen Might - Vampire"
+	},
+	[801192] = {
+		id = 801192,
+		name = "Ashen Might - Vampire"
+	},
 	[902201] = {
 		id = 902201,
 		name = "Fantastic Loop"
@@ -14419,6 +14572,138 @@ pg.base.skill_data_display = {
 	[200792] = {
 		id = 200792,
 		name = "Dimensional Transcendence"
+	},
+	[200830] = {
+		id = 200830,
+		name = "Hero's Cross Slash"
+	},
+	[200831] = {
+		id = 200831,
+		name = "Holy Light"
+	},
+	[200832] = {
+		id = 200832,
+		name = "Yuni's Aid"
+	},
+	[200833] = {
+		id = 200833,
+		name = "Eat This!"
+	},
+	[200835] = {
+		id = 200835,
+		name = "Meteor Fall"
+	},
+	[200836] = {
+		id = 200836,
+		name = "Ice Breath"
+	},
+	[200837] = {
+		id = 200837,
+		name = "Explosion"
+	},
+	[200838] = {
+		id = 200838,
+		name = "Blazing Slash"
+	},
+	[200839] = {
+		id = 200839,
+		name = "Spear of Judgment"
+	},
+	[200840] = {
+		id = 200840,
+		name = "Royal Saber"
+	},
+	[200841] = {
+		id = 200841,
+		name = "Saint's Prayer"
+	},
+	[200843] = {
+		id = 200843,
+		name = "Blessed Light"
+	},
+	[200845] = {
+		id = 200845,
+		name = "Fire of Judgment"
+	},
+	[200847] = {
+		id = 200847,
+		name = "Another's Blade - Hero's Sword"
+	},
+	[200848] = {
+		id = 200848,
+		name = "Another's Blade - Holy Sword"
+	},
+	[200849] = {
+		id = 200849,
+		name = "Explosion"
+	},
+	[200854] = {
+		id = 200854,
+		name = "Blessing of Light and Justice"
+	},
+	[200856] = {
+		id = 200856,
+		name = "Blessing of Steel and Dragons"
+	},
+	[200858] = {
+		id = 200858,
+		name = "Blessing of Fire and Purity"
+	},
+	[200866] = {
+		id = 200866,
+		name = "Blessing of Unity and Toughness"
+	},
+	[200868] = {
+		id = 200868,
+		name = "Blessing of Peace and Protection"
+	},
+	[200876] = {
+		id = 200876,
+		name = "The Might of Revivals and Baths"
+	},
+	[200880] = {
+		id = 200880,
+		name = "Blessing of War"
+	},
+	[200888] = {
+		id = 200888,
+		name = "Blessing of Joy"
+	},
+	[200892] = {
+		id = 200892,
+		name = "Brave Charge"
+	},
+	[295002] = {
+		id = 295002,
+		name = "Blessing of Pioneering and Adventure"
+	},
+	[295003] = {
+		id = 295003,
+		name = "Blessing of Beginnings and Ends"
+	},
+	[295004] = {
+		id = 295004,
+		name = "Blessing of Darkness and Conspiracy"
+	},
+	[295005] = {
+		id = 295005,
+		name = "Blessing of Order and Rules"
+	},
+	[295006] = {
+		id = 295006,
+		name = "Blessing of Luck and Riches"
+	},
+	[295007] = {
+		id = 295007,
+		name = "Blessing of Desserts and Tea Parties"
+	},
+	[295008] = {
+		id = 295008,
+		name = "Blessing of Revivals and Baths"
+	},
+	[295009] = {
+		id = 295009,
+		name = "Blessing of Wisdom"
 	},
 	[1011540] = {
 		id = 1011540,

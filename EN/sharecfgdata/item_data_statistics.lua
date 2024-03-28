@@ -14043,6 +14043,36 @@ _G.pg.base.item_data_statistics[21031] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[21032] = {
+	open_directly = 0,
+	name = "META Crystal – Vampire META",
+	display = "An item that increases the potential of Vampire META. Used in the META Lab during Somatic Activation.",
+	type = 4,
+	display_effect = "",
+	id = 21032,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "Props/21032",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "Crystallized Heat-Resistant Steel",
@@ -22777,6 +22807,130 @@ _G.pg.base.item_data_statistics[30353] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30354] = {
+	open_directly = 1,
+	name = "Gear Skin Box (RPG Adventure)",
+	display = "Contains a random gear skin.",
+	type = 11,
+	display_effect = "",
+	id = 30354,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/appearanceboxyishijiemaoxian",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30354",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			930,
+			1
+		},
+		{
+			9,
+			931,
+			1
+		},
+		{
+			9,
+			932,
+			1
+		},
+		{
+			9,
+			933,
+			1
+		},
+		{
+			9,
+			934,
+			1
+		},
+		{
+			9,
+			935,
+			1
+		},
+		{
+			9,
+			936,
+			1
+		},
+		{
+			9,
+			937,
+			1
+		},
+		{
+			9,
+			938,
+			1
+		},
+		{
+			9,
+			939,
+			1
+		},
+		{
+			9,
+			940,
+			1
+		},
+		{
+			9,
+			941,
+			1
+		},
+		{
+			9,
+			942,
+			1
+		},
+		{
+			9,
+			943,
+			1
+		},
+		{
+			9,
+			944,
+			1
+		},
+		{
+			9,
+			945,
+			1
+		},
+		{
+			9,
+			946,
+			1
+		},
+		{
+			9,
+			947,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "Random Gear Skin Box",
@@ -23701,6 +23855,113 @@ _G.pg.base.item_data_statistics[30418] = {
 		{
 			9,
 			2064,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30419] = {
+	open_directly = 1,
+	name = "Fire Dragon Plane",
+	display = "Lets you choose one of the following gear skins: Fire Dragon Plane (Torpedo), Fire Dragon Plane (Fighter), Fire Dragon Plane (Bomber).",
+	type = 11,
+	display_effect = "",
+	id = 30419,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Equips/96731",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30419",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2068,
+			1
+		},
+		{
+			9,
+			2069,
+			1
+		},
+		{
+			9,
+			2070,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30420] = {
+	open_directly = 1,
+	name = "Random Gear Skin Box",
+	display = "Contains 1 random Cruise Mission gear skin.",
+	type = 11,
+	display_effect = "",
+	id = 30420,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30420",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2065,
+			1
+		},
+		{
+			9,
+			2066,
+			1
+		},
+		{
+			9,
+			2067,
+			1
+		},
+		{
+			9,
+			2068,
+			1
+		},
+		{
+			9,
+			2069,
+			1
+		},
+		{
+			9,
+			2070,
 			1
 		}
 	},
@@ -31469,6 +31730,218 @@ _G.pg.base.item_data_statistics[30537] = {
 		{
 			9,
 			927,
+			1
+		}
+	}
+}
+
+_G.pg.base.item_data_statistics[30538] = {
+	open_directly = 0,
+	name = "Selection Gear Skin Box (RPG Adventure)",
+	display = "Can be opened to receive 1 RPG Adventure gear skin of your choosing.",
+	type = 13,
+	display_effect = "",
+	id = 30538,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	link_id = 0,
+	icon = "Props/appearanceboxyishijiemaoxianzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			930,
+			1
+		},
+		{
+			9,
+			931,
+			1
+		},
+		{
+			9,
+			932,
+			1
+		},
+		{
+			9,
+			933,
+			1
+		},
+		{
+			9,
+			934,
+			1
+		},
+		{
+			9,
+			935,
+			1
+		},
+		{
+			9,
+			936,
+			1
+		},
+		{
+			9,
+			937,
+			1
+		},
+		{
+			9,
+			938,
+			1
+		},
+		{
+			9,
+			939,
+			1
+		},
+		{
+			9,
+			940,
+			1
+		},
+		{
+			9,
+			941,
+			1
+		},
+		{
+			9,
+			942,
+			1
+		},
+		{
+			9,
+			943,
+			1
+		},
+		{
+			9,
+			944,
+			1
+		},
+		{
+			9,
+			945,
+			1
+		},
+		{
+			9,
+			946,
+			1
+		},
+		{
+			9,
+			947,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			930,
+			1
+		},
+		{
+			9,
+			931,
+			1
+		},
+		{
+			9,
+			932,
+			1
+		},
+		{
+			9,
+			933,
+			1
+		},
+		{
+			9,
+			934,
+			1
+		},
+		{
+			9,
+			935,
+			1
+		},
+		{
+			9,
+			936,
+			1
+		},
+		{
+			9,
+			937,
+			1
+		},
+		{
+			9,
+			938,
+			1
+		},
+		{
+			9,
+			939,
+			1
+		},
+		{
+			9,
+			940,
+			1
+		},
+		{
+			9,
+			941,
+			1
+		},
+		{
+			9,
+			942,
+			1
+		},
+		{
+			9,
+			943,
+			1
+		},
+		{
+			9,
+			944,
+			1
+		},
+		{
+			9,
+			945,
+			1
+		},
+		{
+			9,
+			946,
+			1
+		},
+		{
+			9,
+			947,
 			1
 		}
 	}
@@ -87058,6 +87531,72 @@ _G.pg.base.item_data_statistics[81400] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[81401] = {
+	open_directly = 1,
+	name = "Adventurer's Lucky Chest",
+	display = "Contains 1x random skin, 2x Special General Blueprints - Series 6, 2024x Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
+	type = 17,
+	display_effect = "",
+	id = 81401,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/fudai85",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998501",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86401,
+			1
+		},
+		{
+			1,
+			14,
+			2024
+		},
+		{
+			2,
+			42056,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[99958] = {
 	open_directly = 0,
 	name = "5th Anniversary Invitation",
@@ -87563,6 +88102,456 @@ _G.pg.base.item_data_statistics[99995] = {
 	target_id = 0,
 	display_icon = {},
 	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100011] = {
+	open_directly = 0,
+	name = "Goddess of Light and Justice",
+	display = "Blessing of Goddess of Light and Justice",
+	type = 1,
+	display_effect = "",
+	id = 100011,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/lisailiu",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100012] = {
+	open_directly = 0,
+	name = "Goddess of Fire and Purity",
+	display = "Blessing of Goddess of Fire and Purity",
+	type = 1,
+	display_effect = "",
+	id = 100012,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/chicheng",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100013] = {
+	open_directly = 0,
+	name = "Goddess of Darkness and Conspiracy",
+	display = "Blessing of Goddess of Darkness and Conspiracy",
+	type = 1,
+	display_effect = "",
+	id = 100013,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/kelaimengsuo",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100014] = {
+	open_directly = 0,
+	name = "Goddess of Steel and Dragons",
+	display = "Blessing of Goddess of Steel and Dragons",
+	type = 1,
+	display_effect = "",
+	id = 100014,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/bisimaiZ",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100015] = {
+	open_directly = 0,
+	name = "Goddess of Revivals and Baths",
+	display = "Blessing of Goddess of Revivals and Baths",
+	type = 1,
+	display_effect = "",
+	id = 100015,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/weineituo",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100016] = {
+	open_directly = 0,
+	name = "Goddess of Pioneering and Adventure",
+	display = "Blessing of Goddess of Pioneering and Adventure",
+	type = 1,
+	display_effect = "",
+	id = 100016,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/huangjiacaifu",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100017] = {
+	open_directly = 0,
+	name = "Goddess of Order and Rules",
+	display = "Blessing of Goddess of Order and Rules",
+	type = 1,
+	display_effect = "",
+	id = 100017,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/tbniang1",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100018] = {
+	open_directly = 0,
+	name = "Goddess of Unity and Toughness",
+	display = "Blessing of Goddess of Unity and Toughness",
+	type = 1,
+	display_effect = "",
+	id = 100018,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/suweiaitongmengnew",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100019] = {
+	open_directly = 0,
+	name = "Goddess of Luck and Riches",
+	display = "Blessing of Goddess of Luck and Riches",
+	type = 1,
+	display_effect = "",
+	id = 100019,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/mingshi",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100020] = {
+	open_directly = 0,
+	name = "Goddess of Desserts and Tea Parties",
+	display = "Blessing of Goddess of Desserts and Tea Parties",
+	type = 1,
+	display_effect = "",
+	id = 100020,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/yilishabai",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100021] = {
+	open_directly = 0,
+	name = "Goddess of Peace and Protection",
+	display = "Blessing of Goddess of Peace and Protection",
+	type = 1,
+	display_effect = "",
+	id = 100021,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/yixian",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100022] = {
+	open_directly = 0,
+	name = "Goddess of Beginnings and Ends",
+	display = "Blessing of Goddess of Beginnings and Ends",
+	type = 1,
+	display_effect = "",
+	id = 100022,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/salatuojia",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100023] = {
+	open_directly = 0,
+	name = "Goddess of War",
+	display = "Blessing of Goddess of War",
+	type = 1,
+	display_effect = "",
+	id = 100023,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/qiye_dark",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100024] = {
+	open_directly = 0,
+	name = "Goddess of Wisdom",
+	display = "Blessing of Goddess of Wisdom",
+	type = 1,
+	display_effect = "",
+	id = 100024,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/hailunna_alter",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100025] = {
+	open_directly = 0,
+	name = "Goddess of Joy",
+	display = "Blessing of Goddess of Joy",
+	type = 1,
+	display_effect = "",
+	id = 100025,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/unknown2",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
 	index = {},
 	shiptrans_id = {},
 	combination_display = {}

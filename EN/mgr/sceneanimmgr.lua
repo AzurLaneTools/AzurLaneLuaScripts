@@ -32,6 +32,7 @@ function slot0.SixthAnniversaryJPCoverGoScene(slot0, slot1)
 		slot1 = slot0.transform
 
 		setParent(slot1, uv0.container, false)
+		setActive(slot1, true)
 
 		slot2 = slot1:Find("houshanyunwu"):GetComponent(typeof(SpineAnimUI))
 
@@ -41,9 +42,38 @@ function slot0.SixthAnniversaryJPCoverGoScene(slot0, slot1)
 
 				uv2.playing = nil
 
+				setActive(uv3, false)
 				setActive(uv2._tf, false)
 			elseif slot0 == "action" then
-				pg.m02:sendNotification(GAME.GO_SCENE, uv3)
+				pg.m02:sendNotification(GAME.GO_SCENE, uv4)
+			end
+		end)
+		slot2:SetAction("action", 0)
+	end)
+end
+
+function slot0.OtherWorldCoverGoScene(slot0, slot1, slot2)
+	slot0.playing = true
+
+	setActive(slot0._tf, true)
+	PoolMgr.GetInstance():GetUI("OtherworldCoverUI", true, function (slot0)
+		slot1 = slot0.transform
+
+		setParent(slot1, uv0.container, false)
+		setActive(slot1, true)
+
+		slot2 = slot1:Find("yuncaizhuanchang"):GetComponent(typeof(SpineAnimUI))
+
+		slot2:SetActionCallBack(function (slot0)
+			if slot0 == "finish" then
+				PoolMgr.GetInstance():ReturnUI(uv0, uv1)
+
+				uv2.playing = nil
+
+				setActive(uv3, false)
+				setActive(uv2._tf, false)
+			elseif slot0 == "action" then
+				pg.m02:sendNotification(GAME.GO_SCENE, uv4, uv5)
 			end
 		end)
 		slot2:SetAction("action", 0)

@@ -64,6 +64,7 @@ pg.pay_data_display = setmetatable({
 		1012,
 		1013,
 		1014,
+		1015,
 		2001,
 		2002,
 		2003,
@@ -132,7 +133,8 @@ pg.pay_data_display = setmetatable({
 		143,
 		144,
 		145,
-		146
+		146,
+		147
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -6034,6 +6036,81 @@ pg.base.pay_data_display = {
 		},
 		sub_display = {
 			7015,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1015] = {
+		subject = "Fair Winds Cruise Pass",
+		limit_group = 0,
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
+		type = 0,
+		limit_arg = 1,
+		name = "Fair Winds Cruise Pass (2024.4)",
+		name_display = "Fair Winds Cruise Pass",
+		type_order = 4,
+		extra_gem = 0,
+		id = 1015,
+		money = 999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.passport18",
+		first_pay_double = 0,
+		extra_service = 4,
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		airijp_id = "com.yostaren.azurlane.passport18",
+		extra_service_item = {
+			{
+				1,
+				4016,
+				1500
+			},
+			{
+				8,
+				59541,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4016,
+				1500
+			}
+		},
+		sub_display = {
+			7016,
 			1500
 		},
 		ignorePlatform = {},
@@ -12594,6 +12671,119 @@ pg.base.pay_data_display = {
 			{
 				2,
 				81400,
+				1
+			}
+		}
+	},
+	[147] = {
+		subject = "Adventurer's Lucky Chest",
+		limit_group = 0,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		limit_arg = 1,
+		name = "Adventurer's Lucky Chest",
+		name_display = "Adventurer's Lucky Chest",
+		type_order = 2,
+		extra_gem = 0,
+		id = 147,
+		money = 2999,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "fudai85",
+		skin_inquire_relation = 86401,
+		id_str = "com.yostaren.azurlane.luckybag29",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		airijp_id = "com.yostaren.azurlane.luckybag29",
+		extra_service_item = {
+			{
+				2,
+				86401,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					3,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86401,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81401,
 				1
 			}
 		}

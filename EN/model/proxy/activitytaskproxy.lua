@@ -92,7 +92,9 @@ function slot0.removeActList(slot0, slot1, slot2)
 			if slot0.actTasks[slot11].actId == slot1 then
 				for slot16 = #slot0.actTasks[slot11].tasks, 1, -1 do
 					if slot12[slot16].id == slot7.id then
-						slot12[slot16]:updateProgress(0)
+						if not slot12[slot16]:isRepeated() then
+							slot12[slot16]:updateProgress(0)
+						end
 
 						if not slot12[slot16]:isCircle() then
 							table.remove(slot12, slot16)

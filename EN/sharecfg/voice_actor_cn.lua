@@ -1571,5 +1571,17 @@ pg.voice_actor_CN = {
 	[400] = {
 		code = 400,
 		actor_name = "Marika"
+	},
+	[402] = {
+		code = 402,
+		actor_name = "Emiri Iwai"
+	},
+	[403] = {
+		code = 403,
+		actor_name = "Mizuki Mano"
+	},
+	[404] = {
+		code = 404,
+		actor_name = "Kaoru Sakura"
 	}
 }

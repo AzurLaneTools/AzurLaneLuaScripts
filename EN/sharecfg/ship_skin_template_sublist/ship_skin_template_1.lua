@@ -11461,5 +11461,281 @@ pg.base.ship_skin_template_1 = {
 				0.7
 			}
 		}
+	},
+	[101511] = {
+		ship_group = 10151,
+		name = "Sleepy on a Busy Day",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70937,
+		painting = "lafeiII_3",
+		illustrator = -1,
+		shop_type_id = 16,
+		lip_smoothing = 0,
+		bg = "145",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 101511,
+		voice_actor_2 = -1,
+		prefab = "lafeiII_3",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Laffey's helping out around the pop-up shop... Commander, sit wherever you want... Any open seat is probably fine.",
+		voice_actor = 35,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			0,
+			70,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.674,
+					0.853,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.623,
+					0.879,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.147,
+					0.069,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.615,
+					0.955,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.023,
+							2.486,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		ship_l2d_id = {
+			10151101,
+			10151102,
+			10151103,
+			10151104,
+			10151105,
+			10151106,
+			10151107,
+			10151108,
+			10151109,
+			10151110,
+			10151111,
+			10151112,
+			10151113,
+			10151114,
+			10151115,
+			10151116,
+			10151117,
+			10151118,
+			10151119,
+			10151120,
+			10151121,
+			10151122
+		}
+	},
+	[102010] = {
+		ship_group = 10201,
+		name = "Omaha",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "aomaha",
+		illustrator = 6,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 102010,
+		voice_actor_2 = -1,
+		prefab = "aomaha",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Omaha-class light cruiser – Omaha, Hull Number CL-4!",
+		voice_actor = 62,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.317,
+					0.665,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.016,
+					0.582,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.59,
+					1.125,
+					0
+				},
+				{
+					0.429,
+					0.906,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.559,
+							0.397,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.42,
+							0.51,
+							0
+						}
+					}
+				}
+			}
+		}
 	}
 }

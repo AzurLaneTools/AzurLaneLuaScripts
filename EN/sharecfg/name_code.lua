@@ -2674,6 +2674,13 @@ pg.name_code = {
 		code = "Soyuz",
 		nation = 0
 	},
+	[531] = {
+		name = "Friedrich Carl",
+		type = 1,
+		id = 531,
+		code = "Friedrich Carl",
+		nation = 0
+	},
 	[10000] = {
 		name = "Type 0 Fighter Model 52",
 		type = 2,

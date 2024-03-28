@@ -4313,6 +4313,41 @@ pg.backyard_theme_template = {
 			308304
 		}
 	},
+	[109] = {
+		Cfg_1 = 5,
+		name = "Sorcerer's Magic Cabin",
+		hot = 1,
+		is_view = 1,
+		id = 109,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "Come inside the cabin deep in the woods, where hexes and magic fill every nook and cranny!",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "mwthemeicon",
+		deblocking = 1,
+		order = 110,
+		ids = {
+			309001,
+			309002,
+			309101,
+			309102,
+			309103,
+			309104,
+			309105,
+			309106,
+			309107,
+			309108,
+			309109,
+			309110,
+			309111,
+			309112,
+			309114,
+			309301,
+			309302
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4409,6 +4444,7 @@ pg.backyard_theme_template = {
 		105,
 		106,
 		107,
-		108
+		108,
+		109
 	}
 }

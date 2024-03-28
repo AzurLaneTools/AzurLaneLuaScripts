@@ -630,6 +630,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Commemorates your triumph over the Incarnation of Pisces. Presented to Commanders who demonstrated the courage to challenge their limits.</color> \n<color=#A7A7AAFF>Obtained from [Extreme Challenge] during the 3/1/24 - 3/31/24 Season.</color>",
 		scene = {}
 	},
+	[10011] = {
+		time_limit_type = 0,
+		name = "Extreme Challenge - Aries",
+		gain_by = "",
+		id = 10011,
+		time_second = 0,
+		desc = "<color=#ffffff>Commemorates your triumph over the Incarnation of Aries. Presented to Commanders who demonstrated the courage to challenge their limits.</color> \n<color=#A7A7AAFF>Obtained from [Extreme Challenge] during the 4/1/24 - 4/30/24 Season.</color>",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -700,6 +709,7 @@ pg.item_data_frame = {
 		10007,
 		10008,
 		10009,
-		10010
+		10010,
+		10011
 	}
 }

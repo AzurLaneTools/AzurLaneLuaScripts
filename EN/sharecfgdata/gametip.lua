@@ -21203,6 +21203,66 @@ Any purchased Cruise Mission Vouchers will remain even after the campaign season
 	}
 }
 
+_G.pg.base.gametip.battlepass_main_tip_2404 = {
+	tip = "Complete Cruise Missions between 4/1/2024 00:00 – 5/31/2024 23:59 to receive <color=#854747>Vampire META</color> and other rewards!"
+}
+
+_G.pg.base.gametip.battlepass_main_help_2404 = {
+	tip = {
+		{
+			info = [[
+Cruise Missions Seasonal Campaign
+4/1/2024 00:00 – 5/31/2024 23:59
+
+- Overview -
+"Cruise Missions" is a seasonal campaign where you can complete special missions, collect Progress Pts., and obtain great rewards for reaching certain Progress milestones.
+Additionally, you can unlock an additional set of "Fair Winds Cruise" rewards by purchasing the "Fair Winds Cruise Pass" item from Akashi's shop.
+Vampire META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfits for Inazuma, "Maid's Flower Offering"
+
+- How to Play -
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+· If you purchase a Fair Winds Cruise Pass, you will automatically receive 15 levels worth of progress (1500 Progress Pts).
+· You can receive rewards for reaching certain Progress milestones. There are two types of rewards:
+a) Cruise Rewards - Rewards that can be obtained based on the total number of accumulated Progress Pts. There are a total of 100 levels.
+b) Fair Winds Rewards - An additional set of rewards that will be unlocked when you purchase a Fair Winds Cruise Pass. As with the regular Cruise Rewards, there are a total of 100 levels, and they can be collected alongside Cruise Rewards at the same Progress level.
+· When the campaign season ends, your Progress Pts will be reset.
+
+- Tips - 
+· Play at your own pace
+Cruise Missions have a total of 100 Progress levels, and are not meant to be cleared in one session. We recommend that you complete them at your own pace.
+
+· Fair Winds Cruise Pass
+If. you purchase a Fair Winds Cruise Pass from Akashi's shop, you will automatically earn 1500 Progress Pts and unlock access to valuable rewards. Furthermore, there is an exclusive outfit available only through the Fair Winds rewards, so please plan accordingly.
+
+· Skipping Missions (not recommended)
+You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cruise_task_help_2404 = {
+	tip = {
+		{
+			info = [[
+- Regarding Cruise Missions - 
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+
+· You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "Reset"
 }
@@ -27830,4 +27890,412 @@ _G.pg.base.gametip.skin_shop_buy_confirm = {
 
 _G.pg.base.gametip.activity_victory = {
 	tip = "Sortie and secure victory."
+}
+
+_G.pg.base.gametip.other_world_temple_toggle_1 = {
+	tip = "Statue of Power"
+}
+
+_G.pg.base.gametip.other_world_temple_toggle_2 = {
+	tip = "Statue of Wisdom"
+}
+
+_G.pg.base.gametip.other_world_temple_toggle_3 = {
+	tip = "Statue of Harvest"
+}
+
+_G.pg.base.gametip.other_world_temple_char = {
+	tip = "Blessings"
+}
+
+_G.pg.base.gametip.other_world_temple_award = {
+	tip = "Claim Rewards"
+}
+
+_G.pg.base.gametip.other_world_temple_got = {
+	tip = "Claimed"
+}
+
+_G.pg.base.gametip.other_world_temple_progress = {
+	tip = "Unlocks after praying $2/$3 times to the $1."
+}
+
+_G.pg.base.gametip.other_world_temple_char_title = {
+	tip = "Blessings"
+}
+
+_G.pg.base.gametip.other_world_temple_award_last = {
+	tip = "$1/$2 Remaining"
+}
+
+_G.pg.base.gametip.other_world_temple_award_title_1 = {
+	tip = "Statue of Power's Blessing"
+}
+
+_G.pg.base.gametip.other_world_temple_award_title_2 = {
+	tip = "Statue of Wisdom's Blessing"
+}
+
+_G.pg.base.gametip.other_world_temple_award_title_3 = {
+	tip = "Statue of Harvest's Blessing"
+}
+
+_G.pg.base.gametip.other_world_temple_lottery_all = {
+	tip = "You have obtained all rewards"
+}
+
+_G.pg.base.gametip.other_world_temple_award_desc = {
+	tip = "Give Royal Coins the manjuu statue to receive rewards and a blessing."
+}
+
+_G.pg.base.gametip.temple_consume_not_enough = {
+	tip = "Insufficient resources"
+}
+
+_G.pg.base.gametip.other_world_temple_pay = {
+	tip = "Pray $1 Time(s)"
+}
+
+_G.pg.base.gametip.other_world_task_type_daily = {
+	tip = "Daily"
+}
+
+_G.pg.base.gametip.other_world_task_type_main = {
+	tip = "Main"
+}
+
+_G.pg.base.gametip.other_world_task_type_repeat = {
+	tip = "Repeat Mission"
+}
+
+_G.pg.base.gametip.other_world_task_title = {
+	tip = "Requests Board"
+}
+
+_G.pg.base.gametip.other_world_task_get_all = {
+	tip = "Claim All"
+}
+
+_G.pg.base.gametip.other_world_task_go = {
+	tip = "Confirm"
+}
+
+_G.pg.base.gametip.other_world_task_got = {
+	tip = "Claimed"
+}
+
+_G.pg.base.gametip.other_world_task_get = {
+	tip = "Claim"
+}
+
+_G.pg.base.gametip.other_world_task_tag_main = {
+	tip = "Main"
+}
+
+_G.pg.base.gametip.other_world_task_tag_daily = {
+	tip = "Daily"
+}
+
+_G.pg.base.gametip.other_world_task_tag_all = {
+	tip = "All"
+}
+
+_G.pg.base.gametip.terminal_personal_title = {
+	tip = "Commander Info"
+}
+
+_G.pg.base.gametip.terminal_adventure_title = {
+	tip = "Adventure Data"
+}
+
+_G.pg.base.gametip.terminal_guardian_title = {
+	tip = "Blessings"
+}
+
+_G.pg.base.gametip.personal_info_title = {
+	tip = "Basic Info"
+}
+
+_G.pg.base.gametip.personal_property_title = {
+	tip = "Stats"
+}
+
+_G.pg.base.gametip.personal_ability_title = {
+	tip = "Skills"
+}
+
+_G.pg.base.gametip.adventure_award_title = {
+	tip = "Adventurer Level Reward"
+}
+
+_G.pg.base.gametip.adventure_progress_title = {
+	tip = "Next level in:"
+}
+
+_G.pg.base.gametip.adventure_lv_title = {
+	tip = "Adventurer Level:"
+}
+
+_G.pg.base.gametip.adventure_record_title = {
+	tip = "Adventure Log"
+}
+
+_G.pg.base.gametip.adventure_record_grade_title = {
+	tip = "Adventurer Rank:"
+}
+
+_G.pg.base.gametip.adventure_award_end_tip = {
+	tip = "*Claimable until 4/17 23:59:59 (UTC-7)"
+}
+
+_G.pg.base.gametip.guardian_select_title = {
+	tip = "Choose Blessing"
+}
+
+_G.pg.base.gametip.guardian_sure_btn = {
+	tip = "Gear"
+}
+
+_G.pg.base.gametip.guardian_cancel_btn = {
+	tip = "Unlock"
+}
+
+_G.pg.base.gametip.guardian_active_tip = {
+	tip = "In Use"
+}
+
+_G.pg.base.gametip.personal_random = {
+	tip = "Generate Random"
+}
+
+_G.pg.base.gametip.adventure_get_all = {
+	tip = "Claim All"
+}
+
+_G.pg.base.gametip.Announcements_Event_Notice = {
+	tip = "Event"
+}
+
+_G.pg.base.gametip.Announcements_System_Notice = {
+	tip = "System"
+}
+
+_G.pg.base.gametip.Announcements_News = {
+	tip = "News"
+}
+
+_G.pg.base.gametip.Announcements_Donotshow = {
+	tip = "Don't show again today"
+}
+
+_G.pg.base.gametip.adventure_unlock_tip = {
+	tip = "Unlocks after <color=#92fc63>completing the stage on the previous difficulty</color>."
+}
+
+_G.pg.base.gametip.personal_random_tip = {
+	tip = "Unlocks after <color=#92fc63>reading the story</color>."
+}
+
+_G.pg.base.gametip.guardian_sure_limit_tip = {
+	tip = "You cannot equip any more blessings."
+}
+
+_G.pg.base.gametip.other_world_temple_tip = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help3",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help4",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help5",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help1",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.otherworld_map_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help3",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help4",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help5",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.otherworld_backhill_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help3",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help4",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help5",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.otherworld_terminal_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help4",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help5",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help3",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
 }

@@ -870,6 +870,93 @@ pg.expedition_constellation_challenge_template = {
 			}
 		}
 	},
+	[10031] = {
+		painting = "xuefeng",
+		button_style = 7,
+		information_icon = "xuefeng_constellation",
+		id = 10031,
+		dungeon_id = 5133,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"I Am Unsinkable",
+				"Every 20s: Yukikaze fires a special barrage at the nearest enemy. 15s after the battle starts, and every 20s after that: the next <color=#92fc63>40</color> hits on Yukikaze have their DMG dealt set to 1."
+			},
+			{
+				"Multiple Lifelines",
+				"20s after the battle starts, and every 40s after that: summons 3 lifebuoys that last for 20s. Every 0.3s, the lifebuoys heal Yukikaze and themselves for 100.0% of their max HP. When a lifebuoy is destroyed or vanishes, Yukikaze's DMG dealt increases by <color=#92fc63>1.0%</color> until the battle ends."
+			}
+		},
+		award_display = {
+			{
+				14,
+				211,
+				1
+			}
+		}
+	},
+	[10032] = {
+		painting = "xuefeng",
+		button_style = 7,
+		information_icon = "xuefeng_constellation",
+		id = 10032,
+		dungeon_id = 5132,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"I Am Unsinkable",
+				"Every 20s: Yukikaze fires a special barrage at the nearest enemy. 15s after the battle starts, and every 20s after that: the next <color=#92fc63>70</color> hits on Yukikaze have their DMG dealt set to 1."
+			},
+			{
+				"Multiple Lifelines",
+				"20s after the battle starts, and every 40s after that: summons 3 lifebuoys that last for 20s. Every 0.3s, the lifebuoys heal Yukikaze and themselves for 100.0% of their max HP. When a lifebuoy is destroyed or vanishes, Yukikaze's DMG dealt increases by <color=#92fc63>2.0%</color> until the battle ends."
+			}
+		},
+		award_display = {
+			{
+				15,
+				10011,
+				1
+			}
+		}
+	},
+	[10033] = {
+		painting = "xuefeng",
+		button_style = 7,
+		information_icon = "xuefeng_constellation",
+		id = 10033,
+		dungeon_id = 5131,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"I Am Unsinkable",
+				"Every 20s: Yukikaze fires a special barrage at the nearest enemy. 15s after the battle starts, and every 20s after that: the next <color=#92fc63>100</color> hits on Yukikaze have their DMG dealt set to 1."
+			},
+			{
+				"Multiple Lifelines",
+				"20s after the battle starts, and every 40s after that: summons 3 lifebuoys that last for 20s. Every 0.3s, the lifebuoys heal Yukikaze and themselves for 100.0% of their max HP. When a lifebuoy is destroyed or vanishes, Yukikaze's DMG dealt increases by <color=#92fc63>3.0%</color> until the battle ends."
+			}
+		},
+		award_display = {
+			{
+				14,
+				10011,
+				1
+			}
+		}
+	},
 	all = {
 		10001,
 		10002,
@@ -900,6 +987,9 @@ pg.expedition_constellation_challenge_template = {
 		10027,
 		10028,
 		10029,
-		10030
+		10030,
+		10031,
+		10032,
+		10033
 	}
 }

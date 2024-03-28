@@ -49,6 +49,7 @@ slot0.ON_OPEN_ACT_BOSS_BATTLE = "LevelMediator2:ON_OPEN_ACT_BOSS_BATTLE"
 slot0.ON_BOSSRUSH_MAP = "LevelMediator2:ON_BOSSRUSH_MAP"
 slot0.SHOW_ATELIER_BUFF = "LevelMediator2:SHOW_ATELIER_BUFF"
 slot0.ON_SPITEM_CHANGED = "LevelMediator2:ON_SPITEM_CHANGED"
+slot0.ON_BOSSSINGLE_MAP = "LevelMediator2:ON_BOSSSINGLE_MAP"
 
 function slot0.register(slot0)
 	slot0:bind(uv0.GET_CHAPTER_DROP_SHIP_LIST, function (slot0, slot1, slot2)
@@ -352,6 +353,9 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.ON_BOSSRUSH_MAP, function ()
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.BOSSRUSH_MAIN)
+	end)
+	slot0:bind(uv0.ON_BOSSSINGLE_MAP, function (slot0, slot1)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.OTHERWORLD_MAP, slot1)
 	end)
 	slot0:bind(uv0.GO_ACT_SHOP, function ()
 		slot0 = pg.gameset.activity_res_id.key_value

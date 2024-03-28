@@ -135,6 +135,7 @@ pg.furniture_data_template = setmetatable({
 			268,
 			269,
 			271,
+			273,
 			100002,
 			100003,
 			100004,
@@ -180,6 +181,7 @@ pg.furniture_data_template = setmetatable({
 			100047,
 			100048,
 			100049,
+			100050,
 			200001,
 			200002,
 			200003,
@@ -3058,6 +3060,26 @@ pg.furniture_data_template = setmetatable({
 			308303,
 			308304,
 			308305
+		},
+		[109] = {
+			309001,
+			309002,
+			309101,
+			309102,
+			309103,
+			309104,
+			309105,
+			309106,
+			309107,
+			309108,
+			309109,
+			309110,
+			309111,
+			309112,
+			309113,
+			309114,
+			309301,
+			309302
 		}
 	},
 	get_id_list_by_tag = {
@@ -4888,7 +4910,20 @@ pg.furniture_data_template = setmetatable({
 			308115,
 			308116,
 			308117,
-			308118
+			308118,
+			309101,
+			309102,
+			309103,
+			309104,
+			309105,
+			309106,
+			309107,
+			309108,
+			309109,
+			309110,
+			309111,
+			309112,
+			309114
 		},
 		{
 			1108,
@@ -5181,6 +5216,7 @@ pg.furniture_data_template = setmetatable({
 			100047,
 			100048,
 			100049,
+			100050,
 			31101,
 			54104,
 			54105
@@ -5233,7 +5269,8 @@ pg.furniture_data_template = setmetatable({
 			264,
 			266,
 			268,
-			271
+			271,
+			273
 		},
 		[7] = {
 			211,
@@ -5421,7 +5458,8 @@ pg.furniture_data_template = setmetatable({
 			307103,
 			307109,
 			308119,
-			308305
+			308305,
+			309113
 		},
 		[4] = {
 			1001,
@@ -5517,7 +5555,8 @@ pg.furniture_data_template = setmetatable({
 			305001,
 			306001,
 			307001,
-			308001
+			308001,
+			309001
 		},
 		[3] = {
 			1002,
@@ -5614,7 +5653,8 @@ pg.furniture_data_template = setmetatable({
 			305002,
 			306002,
 			307002,
-			308002
+			308002,
+			309002
 		},
 		[5] = {
 			1301,
@@ -5940,7 +5980,9 @@ pg.furniture_data_template = setmetatable({
 			308301,
 			308302,
 			308303,
-			308304
+			308304,
+			309301,
+			309302
 		}
 	},
 	get_id_list_by_type = {
@@ -6039,7 +6081,8 @@ pg.furniture_data_template = setmetatable({
 			305002,
 			306002,
 			307002,
-			308002
+			308002,
+			309002
 		},
 		[7] = {
 			1,
@@ -6153,6 +6196,7 @@ pg.furniture_data_template = setmetatable({
 			268,
 			269,
 			271,
+			273,
 			100002,
 			100004,
 			100005,
@@ -6185,7 +6229,8 @@ pg.furniture_data_template = setmetatable({
 			100044,
 			100045,
 			100047,
-			100049
+			100049,
+			100050
 		},
 		[2] = {
 			120,
@@ -8015,7 +8060,20 @@ pg.furniture_data_template = setmetatable({
 			308116,
 			308117,
 			308118,
-			308119
+			308119,
+			309101,
+			309102,
+			309103,
+			309104,
+			309106,
+			309107,
+			309108,
+			309109,
+			309110,
+			309111,
+			309112,
+			309113,
+			309114
 		},
 		[11] = {
 			131,
@@ -8177,7 +8235,8 @@ pg.furniture_data_template = setmetatable({
 			305001,
 			306001,
 			307001,
-			308001
+			308001,
+			309001
 		},
 		[5] = {
 			1101,
@@ -8321,7 +8380,8 @@ pg.furniture_data_template = setmetatable({
 			305108,
 			305111,
 			305119,
-			308104
+			308104,
+			309105
 		},
 		[3] = {
 			1108,
@@ -8810,7 +8870,9 @@ pg.furniture_data_template = setmetatable({
 			308302,
 			308303,
 			308304,
-			308305
+			308305,
+			309301,
+			309302
 		},
 		[8] = {
 			17121
@@ -8975,6 +9037,7 @@ pg.furniture_data_template = setmetatable({
 		268,
 		269,
 		271,
+		273,
 		100002,
 		100003,
 		100004,
@@ -9020,6 +9083,7 @@ pg.furniture_data_template = setmetatable({
 		100047,
 		100048,
 		100049,
+		100050,
 		200001,
 		200002,
 		200003,
@@ -11705,7 +11769,25 @@ pg.furniture_data_template = setmetatable({
 		308302,
 		308303,
 		308304,
-		308305
+		308305,
+		309001,
+		309002,
+		309101,
+		309102,
+		309103,
+		309104,
+		309105,
+		309106,
+		309107,
+		309108,
+		309109,
+		309110,
+		309111,
+		309112,
+		309113,
+		309114,
+		309301,
+		309302
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -18118,6 +18200,49 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		},
 		interAction_group = {}
 	},
+	[273] = {
+		effect = "",
+		name = "End of Adventure Trophy",
+		gain_by = "From Zero to Hero",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Now you can have the Demon King's castle in your own home! ...Does any adventurer out there even want a trophy like this?\nObtained from the \"From Zero to Hero\" event.",
+		tag = 8,
+		icon = "maoxianxunzhangicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 273,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"maoxianxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		effect = "",
 		name = "Air Pump of Friendship",
@@ -21307,6 +21432,80 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 				},
 				{
 					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[100050] = {
+		effect = "",
+		name = "Shield Generator (Showcase Mode)",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Flawless protection or your money back! (Assuming the claimant survived.)",
+		themeId = 0,
+		icon = "pingzhanglichangicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 100050,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"pingzhanglichangB",
+				"normal"
+			},
+			{
+				"pingzhanglichangT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
 				}
 			},
 			{},
@@ -138979,6 +139178,845 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 					false
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[309001] = {
+		icon = "dibanmwicon",
+		name = "Magic Cabin Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 109,
+		picture = "mw/dibanmw",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "It's not partially unfloored, it's an open layout!",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 309001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309002] = {
+		icon = "qiangbimwicon",
+		name = "Magic Cabin Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 109,
+		picture = "mw/qiangbimw",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		describe = "The windows and balcony come free of charge.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 309002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309101] = {
+		effect = "",
+		name = "Magic Furnace",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 109,
+		is_get_time_note = 0,
+		picture = "mw/bilumw",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It burns with a cozy flame. So soothing, it makes even mandrakes quiet down!",
+		tag = 1,
+		icon = "bilumwicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 309101,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309102] = {
+		effect = "",
+		name = "Deep Woods Bed",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mw/chuangmw",
+		is_get_time_note = 0,
+		themeId = 109,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A truly comfortable bed. One night in it is sure to recover all your HP.",
+		tag = 1,
+		icon = "chuangmwicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 309102,
+		can_rotate = 0,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-12.5,
+					36.9
+				},
+				{
+					-1,
+					1
+				},
+				"mw/chuangmw_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309103] = {
+		effect = "",
+		name = "Cozy Hanging Chair",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It's like being in a rocking crib again. Puts you right to sleep... as if by magic.",
+		themeId = 109,
+		icon = "diaoyimwicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 309103,
+		can_rotate = 0,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"diaoyimw",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[309104] = {
+		effect = "",
+		name = "Vine Lantern",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 109,
+		is_get_time_note = 0,
+		picture = "mw/didengmw",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "A magic lantern that goes on the floor. Uses mana as a fuel source.",
+		tag = 1,
+		icon = "didengmwicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 309104,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309105] = {
+		effect = "",
+		name = "Floral Carpet",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 109,
+		is_get_time_note = 0,
+		picture = "mw/ditanmw",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A bunch of vines and ivies treated with magic. Won't sting your feet... probably.",
+		tag = 1,
+		icon = "ditanmwicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 309105,
+		can_rotate = 0,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309106] = {
+		effect = "",
+		name = "Flower & Ivy Lamp",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 109,
+		is_get_time_note = 0,
+		picture = "mw/huadengmw",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Creeper vines that have been enchanted with an illumination spell. Works great as a floor lamp when you don't have electricity.",
+		tag = 1,
+		icon = "huadengmwicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 309106,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309107] = {
+		effect = "",
+		name = "Cozy Hanging Chair",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It's like being in a rocking crib again. Puts you right to sleep... as if by magic.",
+		themeId = 109,
+		icon = "huajiamwicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 309107,
+		can_rotate = 0,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huajiamw",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[309108] = {
+		effect = "",
+		name = "Glowing Plant",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 109,
+		is_get_time_note = 0,
+		picture = "mw/huamw",
+		count = 3,
+		is_3d_obj = 0,
+		describe = "A plant that glows with a faint light. Useful as a nightlight.",
+		tag = 1,
+		icon = "huamwicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 309108,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309109] = {
+		effect = "",
+		name = "Alchemist's Shelf",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 109,
+		is_get_time_note = 0,
+		picture = "mw/jiazimw",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "What to make, what to make... Maybe a healing potion? A confusion potion?",
+		tag = 1,
+		icon = "jiazimwicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 309109,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309110] = {
+		effect = "",
+		name = "Forbidden Grimoire",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 109,
+		is_get_time_note = 0,
+		picture = "mw/mofashumw",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It's filled with secrets nobody ought to know. Dare you open it?",
+		tag = 1,
+		icon = "mofashumwicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 309110,
+		can_rotate = 0,
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309111] = {
+		effect = "",
+		name = "Magic Manjuu Couch",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mw/shafamw",
+		is_get_time_note = 0,
+		themeId = 109,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A couch designed after a sorcer manjuu. Soft!",
+		tag = 1,
+		icon = "shafamwicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 309111,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					32.8,
+					-17
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309112] = {
+		effect = "",
+		name = "Pharmaceutics Bookshelf",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 109,
+		is_get_time_note = 0,
+		picture = "mw/shuguimw",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It has books on everything from making healing tonics to confusion potions.",
+		tag = 1,
+		icon = "shuguimwicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 309112,
+		can_rotate = 0,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309113] = {
+		effect = "",
+		name = "Teleportation Circle",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Where does it take you? To a faraway castle, or perhaps to a room full of treasure?",
+		themeId = 109,
+		icon = "chuansongtaimwicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 309113,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chuansongtaimwB",
+				"normal"
+			},
+			{
+				"chuansongtaimwT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					},
+					{
+						"walk"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[309114] = {
+		effect = "",
+		name = "Potion Cauldron",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A bathtub with an oddly-colored liquid floating inside. Who knows, maybe it's good for your skin?",
+		themeId = 109,
+		icon = "yugangmwicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 309114,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yugangmwB",
+				"normal"
+			},
+			{
+				"yugangmwT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					-3,
+					70.5
+				},
+				{
+					274.31,
+					254
+				},
+				"mw/yugangmw_mask"
+			},
+			{
+				5.3,
+				-151
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[309301] = {
+		effect = "",
+		name = "Stump Clock",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 109,
+		is_get_time_note = 0,
+		picture = "mw/zhongmw",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Look at the time! I'm stumped!",
+		tag = 5,
+		icon = "zhongmwicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 309301,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309302] = {
+		effect = "",
+		name = "Pillar Perch",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 109,
+		is_get_time_note = 0,
+		picture = "mw/zhuzimw",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "The smell of flowers and the chirping of birds provide a soothing backdrop.",
+		tag = 5,
+		icon = "zhuzimwicon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 309302,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	}

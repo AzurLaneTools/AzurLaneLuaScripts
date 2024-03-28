@@ -338,7 +338,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "PT",
-		key_value = 397
+		key_value = 401
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1923,7 +1923,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 398
+		key_value = 400
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -3607,6 +3607,13 @@ pg.gameset = {
 				50006,
 				50009
 			}
+		}
+	},
+	boss_single_daily = {
+		key_value = 0,
+		description = {
+			5261,
+			3
 		}
 	}
 }

@@ -253,7 +253,10 @@ pg.ship_skin_words_extra = setmetatable({
 		705020,
 		701110,
 		705080,
-		701120
+		701120,
+		201370,
+		202340,
+		203130
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -17601,6 +17604,225 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"When we're apart, I feel like I have to push myself endlessly to prove my strength, to prove my value... \"Like pulling back a bow's string too hard\"? Yeah, something like that... I really don't know how I'd manage if you weren't here."
+			}
+		}
+	},
+	[201370] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		win_mvp = "",
+		profile = "",
+		mission = "",
+		battle = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 201370,
+		detail = "",
+		login = {
+			{
+				1100,
+				"Morning, Commander! I'm ready to \"serve\" you now! What should we start with?"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back, Commander! Heehee, what'll it be? Ear-cleaning? A lap pillow? Or maybe... you just want a nice and simple hug? Heehee!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Heheh... Hehehehe... ♪"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"How'd you like me to serve you, Commander? I'll do anything you want, heehee. I've mastered all the in things with maids these days!|Heheh! Dido and a few others taught me all the basics of being a modern maid! What do you say – wanna try my special services package?|Ding-dong! It's cleaning time! Heh, if there's one thing I haven't forgotten, it's this! Now put on a mask and let's get your office looking sparkling clean!|Commander, how'd you feel if I wore a slightly shorter skirt? ...Huh? You like the way it is now? Really?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Huh? I mean... What'll it be first? Dinner? A bath? Or maybe... H-hey, why won't you let me finish?!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Mmh♡ I'll let you have your way with me."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Fooound you♡ Hooah! How's that? Did that hug cheer you up? If you need more, I can... What? It's fine to just act like myself? Wow. I really can't wrap my head around your tastes..."
+			}
+		}
+	},
+	[202340] = {
+		mail = "",
+		feeling3 = "",
+		feeling4 = "",
+		main = "",
+		expedition = "",
+		upgrade = "",
+		feeling1 = "",
+		unlock = "",
+		feeling2 = "",
+		profile = "",
+		skill = "",
+		hp_warning = "",
+		id = 202340,
+		lose = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Master, remember to keep that smile on your lips! No long faces!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Woohoo! Master! Oh, we can't take a selfie while I'm hugging you? Ahahah, right... One sec. There. We good now?"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Oh! Welcome back, Master! Brought any loot? Heheh, this calls for a self– I mean, a picture of you and your spoils!"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"I've gotta impress my Master!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Master? Heeheehee♡"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Don't you worry, Master, I've been polishing up my maid skills! If I just put in enough effort, I'll one day be an honest-to-god proper maid!|Hmm... A dish made by combining eel and lobscouse... Oh! Master! Don't you wanna try a new dish of mine? ...Huh? Why are you backing off?|No matter what bad things happen to you, you just need to smile for your luck to turn around! Yup! Whether you're facing a strong enemy or dreadful maid training, your luck will improve! So, Master, smile!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"(Psst, Master, there anything you wanna do? And I mean anything. Accompanying her master is a maid's duty, after all!)"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"You've got new missions! Get them all done and I'll treat you to twice the food today! ...You can't eat that much? Fair enough..."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Oooi! Wake up, Master! You've got new mission rewards! (Oops, maybe I yelled too much...) N-no, I didn't say anything!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"I mean... This is pretty sudden... But that's not to say I hate it!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I'm a maid, and yet it feels like all I ever do is burden you... So, I've got to pay you back for being such a kind and benevolent Master! We should go on a bunch more dates! And take a lot more selfies together... and make so many more memories together!"
+			}
+		}
+	},
+	[203130] = {
+		feeling4 = "",
+		feeling3 = "",
+		feeling1 = "",
+		profile = "",
+		expedition = "",
+		win_mvp = "",
+		battle = "",
+		unlock = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		main = "",
+		upgrade = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 203130,
+		detail = "",
+		login = {
+			{
+				1100,
+				"There you are, my dear little one! The world is now on course toward the love-filled future that we dream of."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back, dear little one♥ No matter how far you go, I know you'll always come back."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Heehee, it's quite fun being on the receiving end of this."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Heehee, your love is just as strong as mine at this point. Yet it's still not enough. Together, we're going to cultivate an even bigger, stronger love♥|Every second I spend with you gives me new inspiration about love. Do you want to hear a snippet?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Do you want to create a passionate musical number?"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"If you're tired, I'm sure nobody will mind if you take a break before you handle your missions."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Your rewards are right this way. \"Aww, no donuts? So sad~... You'll really buy me some? Hooray♡\""
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Heehee, your appetite for love really is bottomless, little one."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Even though we're already a couple, my love for you just keeps growing. No-no, you don't need to do anything. You can just relax and slowly bask in all the love I have for you, little one♥"
 			}
 		}
 	}

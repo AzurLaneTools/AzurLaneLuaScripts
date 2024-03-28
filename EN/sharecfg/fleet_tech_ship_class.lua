@@ -748,7 +748,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 39,
 		t_level = 5,
 		ships = {
-			20132
+			20132,
+			20137
 		}
 	},
 	[20113] = {
@@ -887,7 +888,8 @@ pg.fleet_tech_ship_class = {
 		t_level = 7,
 		ships = {
 			20209,
-			20210
+			20210,
+			20234
 		}
 	},
 	[20211] = {
@@ -922,7 +924,8 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			20301,
 			20302,
-			20309
+			20309,
+			20313
 		}
 	},
 	[20302] = {
@@ -2140,7 +2143,8 @@ pg.fleet_tech_ship_class = {
 		t_level = 5,
 		ships = {
 			40309,
-			40310
+			40310,
+			40314
 		}
 	},
 	[40305] = {
@@ -3378,6 +3382,17 @@ pg.fleet_tech_ship_class = {
 			970104
 		}
 	},
+	[970105] = {
+		shiptype = 1,
+		name = "Vampire META",
+		nation = 97,
+		id = 970105,
+		t_level_1 = 1,
+		t_level = 3,
+		ships = {
+			970105
+		}
+	},
 	[970201] = {
 		shiptype = 2,
 		name = "Helena META",
@@ -3957,6 +3972,7 @@ pg.fleet_tech_ship_class = {
 		970102,
 		970103,
 		970104,
+		970105,
 		970201,
 		970202,
 		970203,

@@ -268,10 +268,37 @@ function slot0.mainHandler(slot0, slot1)
 		end, math.random(2, 5), 1):Start()
 	end
 
-	getProxy(NavalAcademyProxy):resetUsedDailyFinishCnt()
-	getProxy(AvatarFrameProxy):clearTimeOut()
+	slot34 = getProxy(NavalAcademyProxy)
+
+	slot34:resetUsedDailyFinishCnt()
+
+	slot34 = getProxy(AvatarFrameProxy)
+
+	slot34:clearTimeOut()
 	slot0:sendNotification(GAME.ZERO_HOUR_OP_DONE)
-	MainRequestActDataSequence.New():RequestRandomDailyTask()
+
+	slot34 = MainRequestActDataSequence.New()
+
+	slot34:RequestRandomDailyTask()
+	(function ()
+		if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSSINGLE) and not slot0:isEnd() then
+			return
+		end
+
+		table.Foreach(slot0:GetDailyCounts(), function (slot0, slot1)
+			uv0[slot0] = 0
+		end)
+		getProxy(ActivityProxy):updateActivity(slot0)
+	end)()
+	(function ()
+		if not uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_EVENT_SINGLE) and not slot0:isEnd() then
+			return
+		end
+
+		uv1:sendNotification(GAME.SINGLE_EVENT_REFRESH, {
+			actId = slot0.id
+		})
+	end)()
 end
 
 return slot0

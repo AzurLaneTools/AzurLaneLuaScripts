@@ -116,8 +116,8 @@ function slot0.register(slot0)
 	end)
 	slot0:bind(uv0.OPEN_NOTICE, function (slot0)
 		uv0:addSubLayers(Context.New({
-			mediator = BulletinBoardMediator,
-			viewComponent = BulletinBoardLayer
+			mediator = NewBulletinBoardMediator,
+			viewComponent = NewBulletinBoardLayer
 		}))
 	end)
 	slot0:bind(uv0.OPEN_COMMISION, function (slot0)
