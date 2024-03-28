@@ -27897,11 +27897,11 @@ _G.pg.base.gametip.other_world_temple_toggle_1 = {
 }
 
 _G.pg.base.gametip.other_world_temple_toggle_2 = {
-	tip = "Statue of Wisdom"
+	tip = "Statue of Harvest"
 }
 
 _G.pg.base.gametip.other_world_temple_toggle_3 = {
-	tip = "Statue of Harvest"
+	tip = "Statue of Wisdom"
 }
 
 _G.pg.base.gametip.other_world_temple_char = {
@@ -27933,11 +27933,11 @@ _G.pg.base.gametip.other_world_temple_award_title_1 = {
 }
 
 _G.pg.base.gametip.other_world_temple_award_title_2 = {
-	tip = "Statue of Wisdom's Blessing"
+	tip = "Statue of Harvest's Blessing"
 }
 
 _G.pg.base.gametip.other_world_temple_award_title_3 = {
-	tip = "Statue of Harvest's Blessing"
+	tip = "Statue of Wisdom's Blessing"
 }
 
 _G.pg.base.gametip.other_world_temple_lottery_all = {

@@ -208,7 +208,7 @@ function slot0.updateFleet(slot0, slot1, slot2)
 	end
 
 	if slot3 and slot4 then
-		setText(slot6, Fleet.DEFAULT_NAME_BOSS_ACT[slot4.id] or "")
+		setText(slot6, Fleet.DEFAULT_NAME_BOSS_SINGLE_ACT[slot4.id] or "")
 
 		if slot1 == FleetType.Submarine then
 			slot0:updateShips(slot9, slot4.subShips, slot4.id, TeamType.Submarine)

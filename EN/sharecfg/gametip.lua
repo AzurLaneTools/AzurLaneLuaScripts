@@ -24893,12 +24893,12 @@ cs.gametip = {
 	},
 	other_world_temple_toggle_2 = {
 		947031,
-		107,
+		108,
 		true
 	},
 	other_world_temple_toggle_3 = {
-		947138,
-		108,
+		947139,
+		107,
 		true
 	},
 	other_world_temple_char = {
@@ -24938,12 +24938,12 @@ cs.gametip = {
 	},
 	other_world_temple_award_title_2 = {
 		948004,
-		123,
+		124,
 		true
 	},
 	other_world_temple_award_title_3 = {
-		948127,
-		124,
+		948128,
+		123,
 		true
 	},
 	other_world_temple_lottery_all = {
