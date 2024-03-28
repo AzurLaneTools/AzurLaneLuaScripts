@@ -252,22 +252,14 @@ function slot0.updateAwardInfo(slot0, slot1, slot2)
 	end
 
 	setText(slot1:Find("Text"), slot2.id)
-	updateDrop(slot1:Find("award"), {
-		type = slot2.award[1],
-		id = slot2.award[2],
-		count = slot2.award[3]
-	})
+	updateDrop(slot1:Find("award"), Drop.Create(slot2.award))
 	setActive(slot1:Find("award/get"), slot3 and not slot0.awardDic[slot2.pt])
 	setActive(slot1:Find("award/got"), slot0.awardDic[slot2.pt])
 	setActive(slot1:Find("award/mask"), slot0.awardDic[slot2.pt])
 	onButton(slot0, slot1:Find("award"), function ()
 		uv0:emit(uv1.ON_DROP, uv2)
 	end, SFX_CONFIRM)
-	updateDrop(slot1:Find("award_pay"), {
-		type = slot2.award_pay[1],
-		id = slot2.award_pay[2],
-		count = slot2.award_pay[3]
-	})
+	updateDrop(slot1:Find("award_pay"), Drop.Create(slot2.award_pay))
 	setActive(slot1:Find("award_pay/lock"), not slot0.isPay)
 	setActive(slot1:Find("award_pay/get"), slot0.isPay and slot3 and not slot0.awardPayDic[slot2.pt])
 	setActive(slot1:Find("award_pay/got"), slot0.awardPayDic[slot2.pt])

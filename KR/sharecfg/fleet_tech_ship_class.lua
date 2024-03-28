@@ -3565,6 +3565,17 @@ pg.fleet_tech_ship_class = {
 			970504
 		}
 	},
+	[970505] = {
+		shiptype = 5,
+		name = "로드니·META",
+		nation = 97,
+		id = 970505,
+		t_level_1 = 5,
+		t_level = 2,
+		ships = {
+			970505
+		}
+	},
 	[970601] = {
 		shiptype = 6,
 		name = "히요·META",
@@ -3963,6 +3974,7 @@ pg.fleet_tech_ship_class = {
 		970502,
 		970503,
 		970504,
+		970505,
 		970601,
 		970602,
 		970603,

@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "어디서부터 복슥해야 할지 전혀 모르겠어요.",
+			say = "어디서부터 복습해야 할지 전혀 모르겠어요.",
 			voice = "event:/educate/tb/educate-tb-story-2-18",
 			painting = {
 				alpha = 0.3,

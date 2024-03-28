@@ -180,6 +180,7 @@ pg.memory_group = setmetatable({
 		277,
 		278,
 		279,
+		280,
 		501,
 		502,
 		503,
@@ -273,6 +274,7 @@ pg.memory_group = setmetatable({
 		593,
 		594,
 		595,
+		596,
 		1000,
 		1001,
 		1002
@@ -4295,6 +4297,21 @@ pg.base.memory_group = {
 			3418
 		}
 	},
+	[280] = {
+		id = 280,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 5243,
+		title = "음유자의 시",
+		memories = {
+			3431,
+			3432,
+			3433,
+			3434,
+			3435
+		}
+	},
 	[501] = {
 		id = 501,
 		subtype = 0,
@@ -5887,6 +5904,23 @@ pg.base.memory_group = {
 			3355,
 			3356,
 			3357
+		}
+	},
+	[596] = {
+		id = 596,
+		subtype = 0,
+		icon = "title_chara_shenghaxintuo",
+		type = 3,
+		link_event = 0,
+		title = "피로 회복의 비결은?!",
+		memories = {
+			3421,
+			3422,
+			3423,
+			3424,
+			3425,
+			3426,
+			3427
 		}
 	},
 	[1000] = {

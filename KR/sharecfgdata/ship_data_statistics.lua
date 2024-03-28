@@ -113140,7 +113140,8 @@ _G.pg.base.ship_data_statistics[205041] = {
 	},
 	tag_list = {
 		"Nelson-Class",
-		"Big Seven"
+		"Big Seven",
+		"luodeni"
 	}
 }
 
@@ -113266,7 +113267,8 @@ _G.pg.base.ship_data_statistics[205042] = {
 	},
 	tag_list = {
 		"Nelson-Class",
-		"Big Seven"
+		"Big Seven",
+		"luodeni"
 	}
 }
 
@@ -113392,7 +113394,8 @@ _G.pg.base.ship_data_statistics[205043] = {
 	},
 	tag_list = {
 		"Nelson-Class",
-		"Big Seven"
+		"Big Seven",
+		"luodeni"
 	}
 }
 
@@ -113518,7 +113521,8 @@ _G.pg.base.ship_data_statistics[205044] = {
 	},
 	tag_list = {
 		"Nelson-Class",
-		"Big Seven"
+		"Big Seven",
+		"luodeni"
 	}
 }
 
@@ -357474,6 +357478,518 @@ _G.pg.base.ship_data_statistics[9705044] = {
 	tag_list = {
 		"QE",
 		"QEMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9705051] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "로드니·META",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 9705050,
+	english_name = "Rodney.META",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 9705051,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1320,
+		82,
+		0,
+		42,
+		0,
+		57,
+		0,
+		17,
+		4,
+		23,
+		81,
+		0
+	},
+	attrs_growth = {
+		24619,
+		955,
+		0,
+		574,
+		0,
+		395,
+		0,
+		278,
+		188,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Nelson-Class",
+		"Big Seven",
+		"luodeni",
+		"RodneyMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9705052] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "로드니·META",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 9705050,
+	english_name = "Rodney.META",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 9705052,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1642,
+		102,
+		0,
+		52,
+		0,
+		57,
+		0,
+		17,
+		4,
+		23,
+		81,
+		0
+	},
+	attrs_growth = {
+		24619,
+		955,
+		0,
+		574,
+		0,
+		395,
+		0,
+		278,
+		188,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Nelson-Class",
+		"Big Seven",
+		"luodeni",
+		"RodneyMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9705053] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "로드니·META",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 9705050,
+	english_name = "Rodney.META",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 9705053,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2286,
+		143,
+		0,
+		73,
+		0,
+		57,
+		0,
+		17,
+		4,
+		23,
+		81,
+		0
+	},
+	attrs_growth = {
+		24619,
+		955,
+		0,
+		574,
+		0,
+		395,
+		0,
+		278,
+		188,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Nelson-Class",
+		"Big Seven",
+		"luodeni",
+		"RodneyMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9705054] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "로드니·META",
+	type = 5,
+	oxy_cost = 0,
+	skin_id = 9705050,
+	english_name = "Rodney.META",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 9705054,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		3252,
+		203,
+		0,
+		104,
+		0,
+		57,
+		0,
+		17,
+		4,
+		23,
+		81,
+		0
+	},
+	attrs_growth = {
+		24619,
+		955,
+		0,
+		574,
+		0,
+		395,
+		0,
+		278,
+		188,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Nelson-Class",
+		"Big Seven",
+		"luodeni",
+		"RodneyMETA"
 	}
 }
 

@@ -176,6 +176,8 @@ function slot6.UpdateHP(slot0, slot1, slot2)
 	if slot0._currentHP <= 0 and slot0:IsAlive() then
 		slot0:onDead()
 	end
+
+	return slot1
 end
 
 function slot6.onDead(slot0)

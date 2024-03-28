@@ -4305,7 +4305,18 @@ function temp()
 	uv0["로"] = {
 		["드"] = {
 			["니"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		},
 		["열"] = {

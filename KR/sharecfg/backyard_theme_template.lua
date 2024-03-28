@@ -3239,7 +3239,7 @@ pg.backyard_theme_template = {
 	[87] = {
 		Cfg_1 = 5,
 		name = "쥬쥬 캠퍼스",
-		hot = 0,
+		hot = 1,
 		is_view = 1,
 		id = 87,
 		comfortable = 0,
@@ -3250,7 +3250,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "sc3themeicon",
 		deblocking = 1,
-		order = 88,
+		order = 108,
 		ids = {
 			87001,
 			87002,

@@ -481,6 +481,7 @@ end
 
 function slot0.RegistSkipBtn(slot0)
 	function slot1()
+		uv0:TrackingSkip()
 		uv0.storyScript:SkipAll()
 		uv0.currPlayer:NextOneImmediately()
 	end
@@ -552,16 +553,12 @@ function slot0.RegistAutoBtn(slot0)
 end
 
 function slot0.RegistRecordBtn(slot0)
-	slot1 = false
-
 	onButton(slot0, slot0.recordBtn, function ()
 		if uv0.storyScript:GetAutoPlayFlag() then
 			return
 		end
 
-		uv1 = not uv1
-
-		uv0.recordPanel[uv1 and "Show" or "Hide"](uv0.recordPanel, uv0.recorder)
+		uv0.recordPanel.Show(uv0.recordPanel, uv0.recorder)
 	end, SFX_PANEL)
 end
 
@@ -610,6 +607,7 @@ function slot0.OnStart(slot0)
 
 	slot0.state = uv0
 
+	slot0:TrackingStart()
 	pg.m02:sendNotification(GAME.STORY_BEGIN, slot0.storyScript:GetName())
 
 	slot4 = {
@@ -634,6 +632,28 @@ function slot0.OnStart(slot0)
 	slot0:RegistSkipBtn()
 	slot0:RegistAutoBtn()
 	slot0:RegistRecordBtn()
+end
+
+function slot0.TrackingStart(slot0)
+	slot0.trackFlag = false
+
+	if not slot0.storyScript then
+		return
+	end
+
+	if not slot0:GetPlayedFlag(slot0:StoryName2StoryId(slot0.storyScript:GetName())) then
+		TrackConst.StoryStart(slot1)
+
+		slot0.trackFlag = true
+	end
+end
+
+function slot0.TrackingSkip(slot0)
+	if not slot0.trackFlag or not slot0.storyScript then
+		return
+	end
+
+	TrackConst.StorySkip(slot0:StoryName2StoryId(slot0.storyScript:GetName()))
 end
 
 function slot0.UpdateAutoBtn(slot0)

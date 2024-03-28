@@ -1054,12 +1054,18 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_505",
 			hidePaintObj = true,
+			dir = 1,
 			nameColor = "#A9F548FF",
+			actor = 705020,
 			say = "――여기서 계속 이러고 있어봤자 아무 소용 없겠지. 어서 탈출할 방법을 생각하자.",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

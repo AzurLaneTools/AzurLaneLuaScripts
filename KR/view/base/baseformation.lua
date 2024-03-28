@@ -318,6 +318,7 @@ function slot0.SetCharacterPos(slot0, slot1, slot2, slot3)
 	LeanTween.moveY(rtf(slot6), 0, 0.5):setDelay(0.5)
 	SetActive(slot7:Find("shadow"), true)
 	slot5:SetAction("stand")
+	slot5:resumeRole()
 end
 
 function slot0.ResetGrid(slot0, slot1, slot2)

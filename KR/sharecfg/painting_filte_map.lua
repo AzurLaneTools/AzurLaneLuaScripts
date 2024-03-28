@@ -8122,6 +8122,17 @@ pg.painting_filte_map = {
 			"painting/luodeni_4"
 		}
 	},
+	luodeni_alter = {
+		key = "luodeni_alter",
+		res_list = {
+			"painting/luodeni_alter_tex",
+			"painting/luodeni_alter_rw_tex",
+			"painting/luodeni_alter_n_tex",
+			"painting/luodeni_alter_n",
+			"painting/luodeni_alter_bj_tex",
+			"painting/luodeni_alter"
+		}
+	},
 	luodeni_h = {
 		key = "luodeni_h",
 		res_list = {
@@ -15499,6 +15510,16 @@ pg.painting_filte_map = {
 			"painting/z46_6_n_tex",
 			"painting/z46_6_n",
 			"painting/z46_6"
+		}
+	},
+	z46_7 = {
+		key = "z46_7",
+		res_list = {
+			"painting/z46_7_tex",
+			"painting/z46_7_rw_tex",
+			"painting/z46_7_n_tex",
+			"painting/z46_7_n",
+			"painting/z46_7"
 		}
 	},
 	zaoshen = {

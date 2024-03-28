@@ -334,7 +334,11 @@ function slot0.CaclulateAirAssistReloadMax(slot0)
 end
 
 function slot0.CaclulateDOTPlace(slot0, slot1, slot2, slot3)
-	slot5 = uv0.DOT_CONFIG[slot1.arg_list.dotType]
+	if slot1.arg_list.tagOnly and not slot3:ContainsLabelTag(slot4.tagOnly) then
+		return false
+	end
+
+	slot5 = uv0.DOT_CONFIG[slot4.dotType]
 
 	return uv2.IsHappen(slot0 * (uv1.NUM1 + (slot2 and slot2:GetAttrByName(slot5.hit) or uv1.NUM0)) * (uv1.NUM1 - (slot3 and slot3:GetAttrByName(slot5.resist) or uv1.NUM0)))
 end
@@ -349,6 +353,36 @@ function slot0.CaclulateDOTDamageEnhanceRate(slot0, slot1, slot2)
 	slot4 = uv0.DOT_CONFIG[slot0.arg_list.dotType]
 
 	return ((slot1 and slot1:GetAttrByName(slot4.enhance) or uv1.NUM0) - (slot2 and slot2:GetAttrByName(slot4.reduce) or uv1.NUM0)) * uv1.PERCENT2
+end
+
+function slot0.CaclulateMetaDotaDamage(slot0, slot1)
+	if type(ys.Battle.BattleDataFunction.GetMetaBossTemplate(slot0).state) == "string" then
+		return 0
+	end
+
+	slot3 = slot2.state
+	slot4 = os.time({
+		year = slot3[1][1][1],
+		month = slot3[1][1][2],
+		day = slot3[1][1][3],
+		hour = slot3[1][2][1],
+		minute = slot3[1][2][2],
+		second = slot3[1][2][3]
+	})
+	slot9 = pg.gameset.world_metaboss_supportattack.description
+	slot10 = slot9[1]
+	slot11 = math.floor(os.difftime(os.time({
+		year = slot3[2][1][1],
+		month = slot3[2][1][2],
+		day = slot3[2][1][3],
+		hour = slot3[2][2][1],
+		minute = slot3[2][2][2],
+		second = slot3[2][2][3]
+	}), slot4) / 86400) - slot9[2]
+	slot13 = slot9[4]
+	slot17 = math.floor(ys.Battle.BattleDataFunction.GetMetaBossLevelTemplate(slot0, slot1).hp * slot9[3] / slot9[5] / (1 + 0.5 * slot13) / (slot11 - slot10) * math.min(math.floor(os.difftime(pg.TimeMgr.GetInstance():GetServerTime(), slot4) / 86400) - slot10 + 1, slot11 - slot10))
+
+	return slot17 + math.random(math.floor(slot13 * slot17))
 end
 
 function slot0.CalculateMaxAimBiasRange(slot0)

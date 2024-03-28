@@ -8551,6 +8551,230 @@ _G.pg.base.shop_template[60473] = {
 	}
 }
 
+_G.pg.base.shop_template[60474] = {
+	time_second = 0,
+	resource_type = 14,
+	genre = "gift_package",
+	type = 2,
+	desc = "880钻石购买限时建造补给(虚像构筑之塔复刻版本)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60474,
+	resource_num = 880,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40138
+	},
+	time = {
+		{
+			{
+				2024,
+				3,
+				28
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				4,
+				4
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[60475] = {
+	time_second = 0,
+	resource_type = 14,
+	genre = "gift_package",
+	type = 2,
+	desc = "120钻石购买限时攻略补给(虚像构筑之塔复刻版本)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60475,
+	resource_num = 120,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			5
+		}
+	},
+	effect_args = {
+		40117
+	},
+	time = {
+		{
+			{
+				2024,
+				3,
+				28
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				4,
+				4
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[60476] = {
+	time_second = 0,
+	resource_type = 14,
+	genre = "gift_package",
+	type = 2,
+	desc = "500钻石购买家具币礼包(虚像构筑之塔复刻版本)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60476,
+	resource_num = 500,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40106
+	},
+	time = {
+		{
+			{
+				2024,
+				3,
+				28
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				4,
+				4
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[60477] = {
+	time_second = 0,
+	resource_type = 14,
+	genre = "gift_package",
+	type = 2,
+	desc = "300钻石购买心智单元礼包(虚像构筑之塔复刻版本)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60477,
+	resource_num = 300,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40119
+	},
+	time = {
+		{
+			{
+				2024,
+				3,
+				28
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				4,
+				4
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
 _G.pg.base.shop_template[61001] = {
 	time_second = 0,
 	resource_type = 14,
@@ -32164,7 +32388,7 @@ _G.pg.base.shop_template[70676] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 99,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -32193,7 +32417,7 @@ _G.pg.base.shop_template[70676] = {
 			{
 				2024,
 				4,
-				3
+				4
 			},
 			{
 				23,
@@ -32215,7 +32439,7 @@ _G.pg.base.shop_template[70677] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 99,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -32244,7 +32468,7 @@ _G.pg.base.shop_template[70677] = {
 			{
 				2024,
 				4,
-				3
+				4
 			},
 			{
 				23,
@@ -32266,7 +32490,7 @@ _G.pg.base.shop_template[70678] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 99,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -32295,7 +32519,7 @@ _G.pg.base.shop_template[70678] = {
 			{
 				2024,
 				4,
-				3
+				4
 			},
 			{
 				23,
@@ -32317,7 +32541,7 @@ _G.pg.base.shop_template[70679] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 99,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -32346,7 +32570,7 @@ _G.pg.base.shop_template[70679] = {
 			{
 				2024,
 				4,
-				3
+				4
 			},
 			{
 				23,
@@ -32368,7 +32592,7 @@ _G.pg.base.shop_template[70680] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 99,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -32397,7 +32621,7 @@ _G.pg.base.shop_template[70680] = {
 			{
 				2024,
 				4,
-				3
+				4
 			},
 			{
 				23,
@@ -32419,7 +32643,7 @@ _G.pg.base.shop_template[70681] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 99,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -32448,7 +32672,7 @@ _G.pg.base.shop_template[70681] = {
 			{
 				2024,
 				4,
-				3
+				4
 			},
 			{
 				23,
@@ -32470,7 +32694,7 @@ _G.pg.base.shop_template[70682] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 99,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -32499,7 +32723,7 @@ _G.pg.base.shop_template[70682] = {
 			{
 				2024,
 				4,
-				3
+				4
 			},
 			{
 				23,
@@ -50185,7 +50409,7 @@ _G.pg.base.shop_template[90129] = {
 
 _G.pg.base.shop_template[90132] = {
 	time_second = 172800,
-	resource_type = 244,
+	resource_type = 398,
 	genre = "skin_shop_timelimit",
 	type = 6,
 	desc = "220324限时皮肤体验：庞培·马格诺校服",
@@ -50209,9 +50433,9 @@ _G.pg.base.shop_template[90132] = {
 	time = {
 		{
 			{
-				2022,
+				2024,
 				3,
-				31
+				28
 			},
 			{
 				0,
@@ -50221,9 +50445,9 @@ _G.pg.base.shop_template[90132] = {
 		},
 		{
 			{
-				2022,
+				2024,
 				4,
-				13
+				4
 			},
 			{
 				23,
@@ -50236,7 +50460,7 @@ _G.pg.base.shop_template[90132] = {
 
 _G.pg.base.shop_template[90133] = {
 	time_second = 172800,
-	resource_type = 244,
+	resource_type = 398,
 	genre = "skin_shop_timelimit",
 	type = 6,
 	desc = "220324限时皮肤体验：帝国校服",
@@ -50260,9 +50484,9 @@ _G.pg.base.shop_template[90133] = {
 	time = {
 		{
 			{
-				2022,
+				2024,
 				3,
-				31
+				28
 			},
 			{
 				0,
@@ -50272,9 +50496,9 @@ _G.pg.base.shop_template[90133] = {
 		},
 		{
 			{
-				2022,
+				2024,
 				4,
-				13
+				4
 			},
 			{
 				23,
@@ -50287,7 +50511,7 @@ _G.pg.base.shop_template[90133] = {
 
 _G.pg.base.shop_template[90134] = {
 	time_second = 172800,
-	resource_type = 244,
+	resource_type = 398,
 	genre = "skin_shop_timelimit",
 	type = 6,
 	desc = "220324限时皮肤体验：的里雅斯特校服",
@@ -50311,9 +50535,9 @@ _G.pg.base.shop_template[90134] = {
 	time = {
 		{
 			{
-				2022,
+				2024,
 				3,
-				31
+				28
 			},
 			{
 				0,
@@ -50323,9 +50547,9 @@ _G.pg.base.shop_template[90134] = {
 		},
 		{
 			{
-				2022,
+				2024,
 				4,
-				13
+				4
 			},
 			{
 				23,

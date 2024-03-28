@@ -150,11 +150,11 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 			slot6:updatePlayer(slot9)
 		end
 
-		if slot8.exchange_count > 0 then
-			getProxy(buildShipProxy):changeRegularExchangeCount(slot1.arg1 * slot8.exchange_count)
-		end
-
 		slot9 = getProxy(BuildShipProxy)
+
+		if slot8.exchange_count > 0 then
+			slot9:changeRegularExchangeCount(slot1.arg1 * slot8.exchange_count)
+		end
 
 		for slot13, slot14 in ipairs(slot2.build) do
 			slot9:addBuildShip(BuildShip.New(slot14))

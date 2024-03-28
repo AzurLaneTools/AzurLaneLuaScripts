@@ -424,7 +424,7 @@ pg.emoji_template = {
 		index = 73,
 		icon = "",
 		pic = "33",
-		desc = "<color=#92fc63>[밥!]</color>",
+		desc = "<color=#92fc63>[걍악]</color>",
 		type = {
 			1
 		}
@@ -437,7 +437,7 @@ pg.emoji_template = {
 		index = 74,
 		icon = "",
 		pic = "34",
-		desc = "<color=#92fc63>[간식시간]</color>",
+		desc = "<color=#92fc63>[그만 해]</color>",
 		type = {
 			1
 		}
@@ -2100,7 +2100,7 @@ pg.emoji_template = {
 		id = 901,
 		index = 999,
 		icon = "",
-		pic = "901",
+		pic = "30",
 		desc = "<color=#92fc63>[밥!]</color>",
 		type = {
 			1
@@ -2113,7 +2113,7 @@ pg.emoji_template = {
 		id = 902,
 		index = 998,
 		icon = "",
-		pic = "902",
+		pic = "901",
 		desc = "<color=#92fc63>[간식시간]</color>",
 		type = {
 			1
@@ -2126,7 +2126,7 @@ pg.emoji_template = {
 		id = 903,
 		index = 997,
 		icon = "",
-		pic = "903",
+		pic = "31",
 		desc = "<color=#92fc63>[뭐라카노]</color>",
 		type = {
 			1
@@ -2139,7 +2139,7 @@ pg.emoji_template = {
 		id = 904,
 		index = 996,
 		icon = "",
-		pic = "904",
+		pic = "32",
 		desc = "<color=#92fc63>[바로 그거야]</color>",
 		type = {
 			1
@@ -2152,7 +2152,7 @@ pg.emoji_template = {
 		id = 905,
 		index = 995,
 		icon = "",
-		pic = "905",
+		pic = "902",
 		desc = "<color=#92fc63>[그러췌]</color>",
 		type = {
 			1

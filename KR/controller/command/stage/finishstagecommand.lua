@@ -41,7 +41,7 @@ function slot0.GeneralPackage(slot0, slot1)
 				ship_id = slot14,
 				hp_rest = slot15,
 				damage_cause = slot16,
-				damage_caused = math.floor(slot13.damage),
+				damage_caused = math.max(0, math.floor(slot13.damage)),
 				max_damage_once = slot18,
 				ship_gear_score = math.floor(slot13.gearScore)
 			})

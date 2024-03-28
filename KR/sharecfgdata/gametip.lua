@@ -23582,6 +23582,18 @@ _G.pg.base.gametip.battle_text_tongmeng_1 = {
 	tip = "2F 2A 77 68 61 74 20 68 61 70 70 65 6E 64 2A 2F"
 }
 
+_G.pg.base.gametip.battle_text_luodeni_1 = {
+	tip = "로드니의 수가 감소하고, \"로드니·META\"가 <color=#f1f102>강화</color>되었다."
+}
+
+_G.pg.base.gametip.battle_text_luodeni_2 = {
+	tip = "<color=#ffc038>하나 되는 조화, 영원과도 같은 찰나, 다가올 \"종말\"을 지켜보라.——</color>"
+}
+
+_G.pg.base.gametip.battle_text_luodeni_3 = {
+	tip = "로드니가 있는 경우, <color=#ffc038>\"로드니\"의 종말</color>은 사용할 수 없다."
+}
+
 _G.pg.base.gametip.series_enemy_mood = {
 	tip = "감정 부족"
 }
