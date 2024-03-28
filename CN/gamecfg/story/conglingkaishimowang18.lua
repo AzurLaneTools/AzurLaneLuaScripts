@@ -290,7 +290,7 @@ return {
 			bgm = "theme-clemenceau",
 			actor = 205072,
 			nameColor = "#FEF15E",
-			say = "余乃{namecode:457:约克}公爵，王都吸血鬼家族的族长。",
+			say = "余乃约克公爵，王都吸血鬼家族的族长。",
 			painting = {
 				alpha = 0.3,
 				time = 1

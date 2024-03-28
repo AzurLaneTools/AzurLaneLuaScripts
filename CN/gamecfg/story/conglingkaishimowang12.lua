@@ -7,7 +7,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_506",
-			say = "弗里德村（Frieden）村——意为宁静之村。",
+			say = "弗里德（Frieden）村——意为宁静之村。",
 			bgm = "xinnong-3",
 			typewriter = {
 				speed = 0.05,

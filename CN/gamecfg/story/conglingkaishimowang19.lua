@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			actor = 408024,
 			nameColor = "#FF9B93",
-			say = "你们和{namecode:457:约克}公爵族长是什么关系……",
+			say = "你们和约克公爵族长是什么关系……",
 			painting = {
 				alpha = 0.3,
 				time = 1
