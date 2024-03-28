@@ -81,6 +81,7 @@ pg.pay_data_display = setmetatable({
 		1012,
 		1013,
 		1014,
+		1015,
 		2001,
 		2002,
 		2003,
@@ -7825,6 +7826,81 @@ pg.base.pay_data_display = {
 		},
 		sub_display = {
 			7015,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1015] = {
+		subject = "特许巡游凭证",
+		limit_group = 0,
+		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		type = 0,
+		limit_arg = 1,
+		name = "特许巡游凭证(2024.4)",
+		name_display = "特许巡游凭证",
+		type_order = 4,
+		extra_gem = 0,
+		id = 1015,
+		money = 68,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.battlepass17",
+		first_pay_double = 0,
+		extra_service = 4,
+		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·柏限定换装和其他奖励",
+		airijp_id = "com.yostarjp.azurlane.seasonpass16",
+		extra_service_item = {
+			{
+				1,
+				4016,
+				1500
+			},
+			{
+				8,
+				59541,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4016,
+				1500
+			}
+		},
+		sub_display = {
+			7016,
 			1500
 		},
 		ignorePlatform = {},

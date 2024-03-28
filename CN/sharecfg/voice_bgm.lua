@@ -1390,5 +1390,11 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "story-richang-3"
+	},
+	OtherWorldMainPage = {
+		default_bgm = "story-mmorpg",
+		special_bgm = "",
+		time = "",
+		bgm = "story-mmorpg"
 	}
 }

@@ -42,6 +42,10 @@ function slot1.onBulletHit(slot0, slot1, slot2, slot3)
 		return
 	end
 
+	if not slot0:victimRequire(slot3.target, slot1) then
+		return
+	end
+
 	slot4 = slot1:GetAttrByName("healingRate")
 	slot5 = slot3.target
 

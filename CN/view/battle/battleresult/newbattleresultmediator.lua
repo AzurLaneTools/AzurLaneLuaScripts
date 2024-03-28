@@ -69,7 +69,8 @@ function slot0.listNotificationInterests(slot0)
 		GAME.BEGIN_STAGE_DONE,
 		NewBattleResultMediator.SET_SKIP_FLAG,
 		ContinuousOperationMediator.CONTINUE_OPERATION,
-		GAME.ACT_BOSS_EXCHANGE_TICKET_DONE
+		GAME.ACT_BOSS_EXCHANGE_TICKET_DONE,
+		BossSingleContinuousOperationMediator.CONTINUE_OPERATION
 	}
 end
 
@@ -84,6 +85,8 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.contextData.autoSkipFlag = slot3
 	elseif slot2 == GAME.ACT_BOSS_EXCHANGE_TICKET_DONE then
 		slot0.viewComponent:emit(uv0.REENTER_STAGE)
+	elseif slot2 == BossSingleContinuousOperationMediator.CONTINUE_OPERATION then
+		slot0.contextData.continuousBattleTimes = slot0.contextData.continuousBattleTimes - 1
 	end
 end
 

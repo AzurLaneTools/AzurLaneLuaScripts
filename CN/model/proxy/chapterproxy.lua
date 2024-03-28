@@ -1281,6 +1281,18 @@ function slot0.PopActBossRewards(slot0)
 	return slot0.actBossItems or {}
 end
 
+function slot0.AddBossSingleRewards(slot0, slot1)
+	slot0.bossSingleItems = slot0.bossSingleItems or {}
+
+	table.insertto(slot0.bossSingleItems, slot1)
+end
+
+function slot0.PopBossSingleRewards(slot0)
+	slot0.bossSingleItems = nil
+
+	return slot0.bossSingleItems or {}
+end
+
 function slot0.WriteBackOnExitBattleResult(slot0)
 	if slot0:getActiveChapter() then
 		if slot1:existOni() then

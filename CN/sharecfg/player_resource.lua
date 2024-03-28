@@ -1290,6 +1290,21 @@ pg.player_resource = {
 		name = "yongzhe_pt2",
 		itemid = 59536
 	},
+	[400] = {
+		id = 400,
+		name = "skinTicket68",
+		itemid = 59539
+	},
+	[401] = {
+		id = 401,
+		name = "yishijie_jinbi",
+		itemid = 59542
+	},
+	[402] = {
+		id = 402,
+		name = "yishijie_exp",
+		itemid = 59543
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1594,6 +1609,11 @@ pg.player_resource = {
 		id = 4015,
 		name = "Battlepass_15",
 		itemid = 59525
+	},
+	[4016] = {
+		id = 4016,
+		name = "Battlepass_16",
+		itemid = 59540
 	},
 	[4186] = {
 		id = 4186,
@@ -2415,6 +2435,15 @@ pg.player_resource = {
 		yongzhe_pt2 = {
 			399
 		},
+		skinTicket68 = {
+			400
+		},
+		yishijie_jinbi = {
+			401
+		},
+		yishijie_exp = {
+			402
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -2597,6 +2626,9 @@ pg.player_resource = {
 		},
 		Battlepass_15 = {
 			4015
+		},
+		Battlepass_16 = {
+			4016
 		},
 		skin_rerun_pt1 = {
 			4186
@@ -2885,6 +2917,9 @@ pg.player_resource = {
 		397,
 		398,
 		399,
+		400,
+		401,
+		402,
 		950,
 		951,
 		952,
@@ -2946,6 +2981,7 @@ pg.player_resource = {
 		4013,
 		4014,
 		4015,
+		4016,
 		4186,
 		4276,
 		4599,

@@ -1,7 +1,7 @@
 slot0 = class("NewBattleResultDataExtender")
 
 function slot0.NeedCloseCamera(slot0)
-	return slot0 ~= SYSTEM_BOSS_RUSH and slot0 ~= SYSTEM_BOSS_RUSH_EX and slot0 ~= SYSTEM_ACT_BOSS and slot0 ~= SYSTEM_WORLD_BOSS
+	return slot0 ~= SYSTEM_BOSS_RUSH and slot0 ~= SYSTEM_BOSS_RUSH_EX and slot0 ~= SYSTEM_ACT_BOSS and slot0 ~= SYSTEM_WORLD_BOSS and slot0 ~= SYSTEM_BOSS_SINGLE
 end
 
 function slot0.NeedVibrate(slot0)
@@ -29,7 +29,7 @@ end
 function slot0.GetExpBuffs(slot0)
 	slot1 = nil
 
-	if slot0 == SYSTEM_SCENARIO or slot0 == SYSTEM_ROUTINE or slot0 == SYSTEM_ACT_BOSS or slot0 == SYSTEM_HP_SHARE_ACT_BOSS or slot0 == SYSTEM_SUB_ROUTINE or slot0 == SYSTEM_WORLD then
+	if slot0 == SYSTEM_SCENARIO or slot0 == SYSTEM_ROUTINE or slot0 == SYSTEM_ACT_BOSS or slot0 == SYSTEM_HP_SHARE_ACT_BOSS or slot0 == SYSTEM_SUB_ROUTINE or slot0 == SYSTEM_WORLD or slot0 == SYSTEM_BOSS_SINGLE then
 		slot1 = _.detect(BuffHelper.GetBuffsByActivityType(ActivityConst.ACTIVITY_TYPE_BUFF), function (slot0)
 			return slot0:getConfig("benefit_type") == "rookie_battle_exp"
 		end)
@@ -41,7 +41,7 @@ end
 function slot0.GetShipBuffs(slot0)
 	slot1 = nil
 
-	if slot0 == SYSTEM_SCENARIO or slot0 == SYSTEM_ROUTINE or slot0 == SYSTEM_ACT_BOSS or slot0 == SYSTEM_HP_SHARE_ACT_BOSS or slot0 == SYSTEM_SUB_ROUTINE or slot0 == SYSTEM_WORLD then
+	if slot0 == SYSTEM_SCENARIO or slot0 == SYSTEM_ROUTINE or slot0 == SYSTEM_ACT_BOSS or slot0 == SYSTEM_HP_SHARE_ACT_BOSS or slot0 == SYSTEM_SUB_ROUTINE or slot0 == SYSTEM_WORLD or slot0 == SYSTEM_BOSS_SINGLE then
 		slot1 = getProxy(ActivityProxy):getBuffShipList()
 	end
 
@@ -159,7 +159,7 @@ function slot0.GetNewMainShips(slot0)
 		slot2 = uv1()
 	elseif slot1 == SYSTEM_WORLD_BOSS then
 		slot2 = uv2(slot0)
-	elseif slot1 == SYSTEM_HP_SHARE_ACT_BOSS or slot1 == SYSTEM_ACT_BOSS or slot1 == SYSTEM_ACT_BOSS_SP or slot1 == SYSTEM_BOSS_EXPERIMENT then
+	elseif slot1 == SYSTEM_HP_SHARE_ACT_BOSS or slot1 == SYSTEM_ACT_BOSS or slot1 == SYSTEM_ACT_BOSS_SP or slot1 == SYSTEM_BOSS_EXPERIMENT or slot1 == SYSTEM_BOSS_SINGLE then
 		slot2 = uv3(slot0)
 	elseif slot1 == SYSTEM_GUILD then
 		slot2 = uv4()

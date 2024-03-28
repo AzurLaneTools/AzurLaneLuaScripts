@@ -25,7 +25,9 @@ function slot0.GetType2Class()
 		[ActivityConst.ACTIVITY_TYPE_TASK_RYZA] = ActivityTaskActivity,
 		[ActivityConst.ACTIVITY_TYPE_PUZZLA] = PuzzleActivity,
 		[ActivityConst.ACTIVITY_TYPE_SKIN_COUPON] = SkinCouponActivity,
-		[ActivityConst.ACTIVITY_TYPE_MANUAL_SIGN] = ManualSignActivity
+		[ActivityConst.ACTIVITY_TYPE_MANUAL_SIGN] = ManualSignActivity,
+		[ActivityConst.ACTIVITY_TYPE_BOSSSINGLE] = BossSingleActivity,
+		[ActivityConst.ACTIVITY_TYPE_EVENT_SINGLE] = SingleEventActivity
 	}
 
 	return uv0

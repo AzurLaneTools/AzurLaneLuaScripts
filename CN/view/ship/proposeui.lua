@@ -76,11 +76,11 @@ function slot0.init(slot0)
 	setText(slot0.exchangePanel:Find("window/msg_panel/content"):Find("text"), i18n("word_propose_cost_tip2"))
 
 	for slot6, slot7 in ipairs(pg.gameset.vow_prop_conversion.description) do
-		updateDrop(slot1:Find("icon_" .. slot6), {
+		updateDrop(slot1:Find("icon_" .. slot6), Drop.New({
 			count = 1,
 			type = DROP_TYPE_ITEM,
 			id = slot7
-		})
+		}))
 		onButton(slot0, slot1:Find("icon_" .. slot6), function ()
 			uv0:emit(BaseUI.ON_DROP, uv1)
 		end, SFX_PANEL)
@@ -405,6 +405,12 @@ function slot0.onBackPressed(slot0)
 end
 
 function slot0.willExit(slot0)
+	if slot0._currentVoice then
+		slot0._currentVoice:PlaybackStop()
+	end
+
+	slot0._currentVoice = nil
+
 	pg.BgmMgr.GetInstance():ContinuePlay()
 
 	if not IsNil(slot0.actorPainting) then

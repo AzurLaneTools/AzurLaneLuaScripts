@@ -27,9 +27,18 @@ pg.constellation_challenge_month = {
 			10030
 		}
 	},
+	{
+		id = 4,
+		constellation_icon = "Aries",
+		stage = {
+			10031,
+			10032,
+			10033
+		}
+	},
 	[6] = {
 		id = 6,
-		constellation_icon = "Aries",
+		constellation_icon = "Gemini",
 		stage = {
 			10001,
 			10002,
@@ -94,6 +103,7 @@ pg.constellation_challenge_month = {
 		1,
 		2,
 		3,
+		4,
 		6,
 		7,
 		8,

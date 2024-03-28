@@ -870,6 +870,93 @@ pg.expedition_constellation_challenge_template = {
 			}
 		}
 	},
+	[10031] = {
+		painting = "xuefeng",
+		button_style = 7,
+		information_icon = "xuefeng_constellation",
+		id = 10031,
+		dungeon_id = 5133,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"不沉之力 ",
+				"白羊座化身每20秒对最近的敌方单位发射一轮弹幕；战斗开始后15秒及之后每20秒将自身受到的伤害降至1，受到<color=#92fc63>40</color>次伤害后解除"
+			},
+			{
+				"生命之球",
+				"战斗开始后20秒及之后每40秒白羊座化身召唤3个持续20秒的生命之球，生命之球每0.3秒为包含白羊座化身在内的全场己方单位提供等效于自身最大耐久值100%的治疗效果；生命之球消失或被击破后白羊座化身自身造成的伤害提高<color=#92fc63>1%</color>"
+			}
+		},
+		award_display = {
+			{
+				14,
+				211,
+				1
+			}
+		}
+	},
+	[10032] = {
+		painting = "xuefeng",
+		button_style = 7,
+		information_icon = "xuefeng_constellation",
+		id = 10032,
+		dungeon_id = 5132,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"不沉之力 ",
+				"白羊座化身每20秒对最近的敌方单位发射一轮弹幕；战斗开始后15秒及之后每20秒将自身受到的伤害降至1，受到<color=#92fc63>70</color>次伤害后解除"
+			},
+			{
+				"生命之球",
+				"战斗开始后20秒及之后每40秒白羊座化身召唤3个持续20秒的生命之球，生命之球每0.3秒为包含白羊座化身在内的全场己方单位提供等效于自身最大耐久值100%的治疗效果；生命之球消失或被击破后白羊座化身自身造成的伤害提高<color=#92fc63>2%</color>"
+			}
+		},
+		award_display = {
+			{
+				15,
+				10011,
+				1
+			}
+		}
+	},
+	[10033] = {
+		painting = "xuefeng",
+		button_style = 7,
+		information_icon = "xuefeng_constellation",
+		id = 10033,
+		dungeon_id = 5131,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"不沉之力 ",
+				"白羊座化身每20秒对最近的敌方单位发射一轮弹幕；战斗开始后15秒及之后每20秒将自身受到的伤害降至1，受到<color=#92fc63>100</color>次伤害后解除"
+			},
+			{
+				"生命之球",
+				"战斗开始后20秒及之后每40秒白羊座化身召唤3个持续20秒的生命之球，生命之球每0.3秒为包含白羊座化身在内的全场己方单位提供等效于自身最大耐久值100%的治疗效果；生命之球消失或被击破后白羊座化身自身造成的伤害提高<color=#92fc63>3%</color>"
+			}
+		},
+		award_display = {
+			{
+				14,
+				10011,
+				1
+			}
+		}
+	},
 	all = {
 		10001,
 		10002,
@@ -900,6 +987,9 @@ pg.expedition_constellation_challenge_template = {
 		10027,
 		10028,
 		10029,
-		10030
+		10030,
+		10031,
+		10032,
+		10033
 	}
 }

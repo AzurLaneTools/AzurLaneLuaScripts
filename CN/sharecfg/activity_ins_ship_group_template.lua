@@ -2405,6 +2405,21 @@ pg.activity_ins_ship_group_template = {
 		name = "Svirepy",
 		sculpture = "xiongmeng"
 	},
+	[20137] = {
+		ship_group = 20137,
+		name = "Nubian",
+		sculpture = "nubiyaren"
+	},
+	[20234] = {
+		ship_group = 20234,
+		name = "Liverpool",
+		sculpture = "liwupu"
+	},
+	[20313] = {
+		ship_group = 20313,
+		name = "Devonshire",
+		sculpture = "dewenjun"
+	},
 	all = {
 		30701,
 		30702,
@@ -2886,6 +2901,9 @@ pg.activity_ins_ship_group_template = {
 		10116,
 		70111,
 		70509,
-		70112
+		70112,
+		20137,
+		20234,
+		20313
 	}
 }

@@ -169,6 +169,7 @@ pg.furniture_data_template = setmetatable({
 			269,
 			271,
 			272,
+			273,
 			100001,
 			100002,
 			100003,
@@ -228,6 +229,7 @@ pg.furniture_data_template = setmetatable({
 			100057,
 			100058,
 			100059,
+			100060,
 			200001,
 			200002,
 			200003,
@@ -3244,6 +3246,26 @@ pg.furniture_data_template = setmetatable({
 			308303,
 			308304,
 			308305
+		},
+		[109] = {
+			309001,
+			309002,
+			309101,
+			309102,
+			309103,
+			309104,
+			309105,
+			309106,
+			309107,
+			309108,
+			309109,
+			309110,
+			309111,
+			309112,
+			309113,
+			309114,
+			309301,
+			309302
 		}
 	},
 	get_id_list_by_tag = {
@@ -5158,7 +5180,20 @@ pg.furniture_data_template = setmetatable({
 			308115,
 			308116,
 			308117,
-			308118
+			308118,
+			309101,
+			309102,
+			309103,
+			309104,
+			309105,
+			309106,
+			309107,
+			309108,
+			309109,
+			309110,
+			309111,
+			309112,
+			309114
 		},
 		{
 			1108,
@@ -5529,6 +5564,7 @@ pg.furniture_data_template = setmetatable({
 			100057,
 			100058,
 			100059,
+			100060,
 			31101,
 			54101,
 			54102,
@@ -5584,7 +5620,8 @@ pg.furniture_data_template = setmetatable({
 			264,
 			266,
 			268,
-			271
+			271,
+			273
 		},
 		[7] = {
 			213,
@@ -5770,7 +5807,8 @@ pg.furniture_data_template = setmetatable({
 			307103,
 			307109,
 			308119,
-			308305
+			308305,
+			309113
 		},
 		[4] = {
 			1001,
@@ -5869,7 +5907,8 @@ pg.furniture_data_template = setmetatable({
 			305001,
 			306001,
 			307001,
-			308001
+			308001,
+			309001
 		},
 		[3] = {
 			1002,
@@ -5968,7 +6007,8 @@ pg.furniture_data_template = setmetatable({
 			305002,
 			306002,
 			307002,
-			308002
+			308002,
+			309002
 		},
 		[5] = {
 			1301,
@@ -6308,7 +6348,9 @@ pg.furniture_data_template = setmetatable({
 			308301,
 			308302,
 			308303,
-			308304
+			308304,
+			309301,
+			309302
 		}
 	},
 	get_id_list_by_type = {
@@ -6409,7 +6451,8 @@ pg.furniture_data_template = setmetatable({
 			305002,
 			306002,
 			307002,
-			308002
+			308002,
+			309002
 		},
 		[7] = {
 			1,
@@ -6552,6 +6595,7 @@ pg.furniture_data_template = setmetatable({
 			268,
 			269,
 			271,
+			273,
 			100001,
 			100002,
 			100004,
@@ -6617,6 +6661,7 @@ pg.furniture_data_template = setmetatable({
 			238,
 			240,
 			242,
+			100060,
 			200001,
 			200002,
 			200003,
@@ -8507,7 +8552,20 @@ pg.furniture_data_template = setmetatable({
 			308116,
 			308117,
 			308118,
-			308119
+			308119,
+			309101,
+			309102,
+			309103,
+			309104,
+			309106,
+			309107,
+			309108,
+			309109,
+			309110,
+			309111,
+			309112,
+			309113,
+			309114
 		},
 		[11] = {
 			131,
@@ -8902,7 +8960,9 @@ pg.furniture_data_template = setmetatable({
 			308302,
 			308303,
 			308304,
-			308305
+			308305,
+			309301,
+			309302
 		},
 		[15] = {
 			251,
@@ -9017,7 +9077,8 @@ pg.furniture_data_template = setmetatable({
 			305001,
 			306001,
 			307001,
-			308001
+			308001,
+			309001
 		},
 		[5] = {
 			1101,
@@ -9164,7 +9225,8 @@ pg.furniture_data_template = setmetatable({
 			305108,
 			305111,
 			305119,
-			308104
+			308104,
+			309105
 		},
 		[3] = {
 			1108,
@@ -9559,6 +9621,7 @@ pg.furniture_data_template = setmetatable({
 		269,
 		271,
 		272,
+		273,
 		100001,
 		100002,
 		100003,
@@ -9618,6 +9681,7 @@ pg.furniture_data_template = setmetatable({
 		100057,
 		100058,
 		100059,
+		100060,
 		200001,
 		200002,
 		200003,
@@ -12437,7 +12501,25 @@ pg.furniture_data_template = setmetatable({
 		308302,
 		308303,
 		308304,
-		308305
+		308305,
+		309001,
+		309002,
+		309101,
+		309102,
+		309103,
+		309104,
+		309105,
+		309106,
+		309107,
+		309108,
+		309109,
+		309110,
+		309111,
+		309112,
+		309113,
+		309114,
+		309301,
+		309302
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -20637,6 +20719,49 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[273] = {
+		spine_extra = "",
+		describe = "“可以放入家中的魔王城！”……真的会有勇者喜欢这样的通关纪念么？ \n——「从零开始的魔王讨伐之旅」活动纪念",
+		gain_by = "从零开始的魔王讨伐之旅",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 8,
+		icon = "maoxianxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "冒险通关纪念",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 273,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"maoxianxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100001] = {
 		belong = 1,
 		describe = "本ID禁用",
@@ -24894,6 +25019,43 @@ pg.base.furniture_data_template = {
 					"houzhai_huaban"
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[100060] = {
+		spine_extra = "",
+		describe = "锵锵！天才机械师联合，达·芬奇1号与灵敏1号闪亮登场！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 0,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "juuswanouicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "毛绒绒天才军团！",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/juuswanou",
+		canputon = 0,
+		id = 100060,
+		can_rotate = 0,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -148542,6 +148704,845 @@ pg.base.furniture_data_template = {
 					false
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[309001] = {
+		spine_extra = "",
+		describe = "欢迎踏入充满奇幻与魔法的森林小屋！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 109,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "森林小屋墙纸",
+		effect = "",
+		advice = 0,
+		icon = "dibanmwicon",
+		spine_action_replace = "",
+		picture = "mw/dibanmw",
+		comfortable = 4,
+		canputon = 0,
+		id = 309001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309002] = {
+		spine_extra = "",
+		describe = "欢迎踏入充满奇幻与魔法的森林小屋！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 109,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "森林小屋地板",
+		effect = "",
+		advice = 0,
+		icon = "qiangbimwicon",
+		spine_action_replace = "",
+		picture = "mw/qiangbimw",
+		comfortable = 4,
+		canputon = 0,
+		id = 309002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309101] = {
+		spine_extra = "",
+		describe = "壁炉的温暖，就连曼德拉草也能停止尖叫哦。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 109,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "bilumwicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "魔药壁炉",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "mw/bilumw",
+		canputon = 0,
+		id = 309101,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309102] = {
+		spine_extra = "",
+		describe = "非常柔软的床铺，睡上一觉能让HP全恢复哦！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 109,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "chuangmwicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "幽林绿茵软床",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "mw/chuangmw",
+		canputon = 0,
+		id = 309102,
+		can_rotate = 0,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-12.5,
+					36.9
+				},
+				{
+					-1,
+					1
+				},
+				"mw/chuangmw_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309103] = {
+		spine_extra = "",
+		describe = "随着吊椅摇摆的话，马上就能睡着吧？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "悠哉绿茵吊椅",
+		themeId = 109,
+		icon = "diaoyimwicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 309103,
+		can_rotate = 0,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"diaoyimw",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[309104] = {
+		spine_extra = "",
+		describe = "以魔法驱动的地灯，散发着静谧的光芒。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 109,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "didengmwicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "藤蔓地灯",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "mw/didengmw",
+		canputon = 0,
+		id = 309104,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309105] = {
+		spine_extra = "",
+		describe = "用魔法处理过的藤蔓，绝对不会扎到脚（大概）！",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 109,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "ditanmwicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "花巢地毯",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "mw/ditanmw",
+		canputon = 0,
+		id = 309105,
+		can_rotate = 0,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309106] = {
+		spine_extra = "",
+		describe = "施加了照明魔法的花蔓，意外地适合作为落地灯呢。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 109,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "huadengmwicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "花蔓萤灯",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "mw/huadengmw",
+		canputon = 0,
+		id = 309106,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309107] = {
+		spine_extra = "",
+		describe = "画笔好像自己会动……太方便了？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "悠哉绿茵画架",
+		themeId = 109,
+		icon = "huajiamwicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 309107,
+		can_rotate = 0,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huajiamw",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[309108] = {
+		spine_extra = "",
+		describe = "发出淡淡的光芒，足以当作夜灯使用。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 109,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "huamwicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "荧光草",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "mw/huamw",
+		canputon = 0,
+		id = 309108,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309109] = {
+		spine_extra = "",
+		describe = "嗯……今天要炼制点什么呢，治疗药剂？混乱魔药？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 109,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jiazimwicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "炼金储物架",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "mw/jiazimw",
+		canputon = 0,
+		id = 309109,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309110] = {
+		spine_extra = "",
+		describe = "记载了许多禁忌的魔法与知识……",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 109,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "mofashumwicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "禁忌法书",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "mw/mofashumw",
+		canputon = 0,
+		id = 309110,
+		can_rotate = 0,
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309111] = {
+		spine_extra = "",
+		describe = "魔法啾造型的沙发，软绵绵得很舒服呢。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 109,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shafamwicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "魔法啾沙发",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "mw/shafamw",
+		canputon = 0,
+		id = 309111,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					32.8,
+					-17
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309112] = {
+		spine_extra = "",
+		describe = "会不会藏着什么珍惜的手稿呢？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 109,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shuguimwicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "药典书柜",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "mw/shuguimw",
+		canputon = 0,
+		id = 309112,
+		can_rotate = 0,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309113] = {
+		spine_extra = "",
+		describe = "传送点的另一面……可能隐藏着宝物？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "魔法传送阵",
+		themeId = 109,
+		icon = "chuansongtaimwicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 309113,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chuansongtaimwB",
+				"normal"
+			},
+			{
+				"chuansongtaimwT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					},
+					{
+						"walk"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[309114] = {
+		spine_extra = "",
+		describe = "加入了颜色微妙的入浴剂，应该能让皮肤更好吧……？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "魔药浴缸",
+		themeId = 109,
+		icon = "yugangmwicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 309114,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yugangmwB",
+				"normal"
+			},
+			{
+				"yugangmwT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					-3,
+					70.5
+				},
+				{
+					274.31,
+					254
+				},
+				"mw/yugangmw_mask"
+			},
+			{
+				5.3,
+				-151
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[309301] = {
+		spine_extra = "",
+		describe = "以木桩切片制作的魔法钟，非常环保。",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 109,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "zhongmwicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "绿茵木钟",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "mw/zhongmw",
+		canputon = 0,
+		id = 309301,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309302] = {
+		spine_extra = "",
+		describe = "用花的清香和鸟儿的鸣叫来抚慰精神吧。",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 109,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 5,
+		icon = "zhuzimwicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "小憩花柱",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "mw/zhuzimw",
+		canputon = 0,
+		id = 309302,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	}

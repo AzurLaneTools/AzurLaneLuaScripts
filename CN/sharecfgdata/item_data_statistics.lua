@@ -14398,6 +14398,36 @@ _G.pg.base.item_data_statistics[21031] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[21032] = {
+	open_directly = 0,
+	name = "结晶：吸血鬼·META",
+	display = "吸血鬼·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	type = 4,
+	display_effect = "",
+	id = 21032,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "Props/21032",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "结晶化热强钢",
@@ -23288,6 +23318,130 @@ _G.pg.base.item_data_statistics[30353] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30354] = {
+	open_directly = 1,
+	name = "外观装备箱(异世界冒险)",
+	display = "可以获得一件随机的异世界冒险风格外观装备",
+	type = 11,
+	display_effect = "",
+	id = 30354,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/appearanceboxyishijiemaoxian",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30354",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			930,
+			1
+		},
+		{
+			9,
+			931,
+			1
+		},
+		{
+			9,
+			932,
+			1
+		},
+		{
+			9,
+			933,
+			1
+		},
+		{
+			9,
+			934,
+			1
+		},
+		{
+			9,
+			935,
+			1
+		},
+		{
+			9,
+			936,
+			1
+		},
+		{
+			9,
+			937,
+			1
+		},
+		{
+			9,
+			938,
+			1
+		},
+		{
+			9,
+			939,
+			1
+		},
+		{
+			9,
+			940,
+			1
+		},
+		{
+			9,
+			941,
+			1
+		},
+		{
+			9,
+			942,
+			1
+		},
+		{
+			9,
+			943,
+			1
+		},
+		{
+			9,
+			944,
+			1
+		},
+		{
+			9,
+			945,
+			1
+		},
+		{
+			9,
+			946,
+			1
+		},
+		{
+			9,
+			947,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "外观装备箱(世界巡游)",
@@ -24212,6 +24366,113 @@ _G.pg.base.item_data_statistics[30418] = {
 		{
 			9,
 			2064,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30419] = {
+	open_directly = 1,
+	name = "火焰巨龙飞机",
+	display = "可以获得火焰巨龙飞机(鱼雷)、火焰巨龙飞机(战斗)、火焰巨龙飞机(轰炸)外观装备各一件",
+	type = 11,
+	display_effect = "",
+	id = 30419,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Equips/96731",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30419",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2068,
+			1
+		},
+		{
+			9,
+			2069,
+			1
+		},
+		{
+			9,
+			2070,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30420] = {
+	open_directly = 1,
+	name = "外观装备箱(世界巡游)",
+	display = "可以随机获得一件本次世界巡游限定外观装备",
+	type = 11,
+	display_effect = "",
+	id = 30420,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30420",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2065,
+			1
+		},
+		{
+			9,
+			2066,
+			1
+		},
+		{
+			9,
+			2067,
+			1
+		},
+		{
+			9,
+			2068,
+			1
+		},
+		{
+			9,
+			2069,
+			1
+		},
+		{
+			9,
+			2070,
 			1
 		}
 	},
@@ -31980,6 +32241,218 @@ _G.pg.base.item_data_statistics[30537] = {
 		{
 			9,
 			927,
+			1
+		}
+	}
+}
+
+_G.pg.base.item_data_statistics[30538] = {
+	open_directly = 0,
+	name = "定向外观装备箱(异世界冒险)",
+	display = "使用后可从「异世界冒险」主题外观装备中任意选择一种获得1个",
+	type = 13,
+	display_effect = "",
+	id = 30538,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	link_id = 0,
+	icon = "Props/appearanceboxyishijiemaoxianzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			930,
+			1
+		},
+		{
+			9,
+			931,
+			1
+		},
+		{
+			9,
+			932,
+			1
+		},
+		{
+			9,
+			933,
+			1
+		},
+		{
+			9,
+			934,
+			1
+		},
+		{
+			9,
+			935,
+			1
+		},
+		{
+			9,
+			936,
+			1
+		},
+		{
+			9,
+			937,
+			1
+		},
+		{
+			9,
+			938,
+			1
+		},
+		{
+			9,
+			939,
+			1
+		},
+		{
+			9,
+			940,
+			1
+		},
+		{
+			9,
+			941,
+			1
+		},
+		{
+			9,
+			942,
+			1
+		},
+		{
+			9,
+			943,
+			1
+		},
+		{
+			9,
+			944,
+			1
+		},
+		{
+			9,
+			945,
+			1
+		},
+		{
+			9,
+			946,
+			1
+		},
+		{
+			9,
+			947,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			930,
+			1
+		},
+		{
+			9,
+			931,
+			1
+		},
+		{
+			9,
+			932,
+			1
+		},
+		{
+			9,
+			933,
+			1
+		},
+		{
+			9,
+			934,
+			1
+		},
+		{
+			9,
+			935,
+			1
+		},
+		{
+			9,
+			936,
+			1
+		},
+		{
+			9,
+			937,
+			1
+		},
+		{
+			9,
+			938,
+			1
+		},
+		{
+			9,
+			939,
+			1
+		},
+		{
+			9,
+			940,
+			1
+		},
+		{
+			9,
+			941,
+			1
+		},
+		{
+			9,
+			942,
+			1
+		},
+		{
+			9,
+			943,
+			1
+		},
+		{
+			9,
+			944,
+			1
+		},
+		{
+			9,
+			945,
+			1
+		},
+		{
+			9,
+			946,
+			1
+		},
+		{
+			9,
+			947,
 			1
 		}
 	}
@@ -96357,6 +96830,456 @@ _G.pg.base.item_data_statistics[99995] = {
 	target_id = 0,
 	display_icon = {},
 	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100011] = {
+	open_directly = 0,
+	name = "光明与正义之神",
+	display = "光明与正义之神的守护之力",
+	type = 1,
+	display_effect = "",
+	id = 100011,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/lisailiu",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100012] = {
+	open_directly = 0,
+	name = "火焰与净化之神",
+	display = "火焰与净化之神的守护之力",
+	type = 1,
+	display_effect = "",
+	id = 100012,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/chicheng",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100013] = {
+	open_directly = 0,
+	name = "黑暗与诡计之神",
+	display = "黑暗与诡计之神的守护之力",
+	type = 1,
+	display_effect = "",
+	id = 100013,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/kelaimengsuo",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100014] = {
+	open_directly = 0,
+	name = "钢铁与巨龙之神",
+	display = "钢铁与巨龙之神的守护之力",
+	type = 1,
+	display_effect = "",
+	id = 100014,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/bisimaiZ",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100015] = {
+	open_directly = 0,
+	name = "复兴与浴室之神",
+	display = "复兴与浴室之神的守护之力",
+	type = 1,
+	display_effect = "",
+	id = 100015,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/weineituo",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100016] = {
+	open_directly = 0,
+	name = "开拓与冒险之神",
+	display = "开拓与冒险之神的守护之力",
+	type = 1,
+	display_effect = "",
+	id = 100016,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/huangjiacaifu",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100017] = {
+	open_directly = 0,
+	name = "秩序与规则之神",
+	display = "秩序与规则之神的守护之力",
+	type = 1,
+	display_effect = "",
+	id = 100017,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/tbniang1",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100018] = {
+	open_directly = 0,
+	name = "坚韧与团结之神",
+	display = "坚韧与团结之神的守护之力",
+	type = 1,
+	display_effect = "",
+	id = 100018,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/suweiaitongmengnew",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100019] = {
+	open_directly = 0,
+	name = "幸运与财富之神",
+	display = "幸运与财富之神的守护之力",
+	type = 1,
+	display_effect = "",
+	id = 100019,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/mingshi",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100020] = {
+	open_directly = 0,
+	name = "茶会与点心之神",
+	display = "茶会与点心之神的守护之力",
+	type = 1,
+	display_effect = "",
+	id = 100020,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/yilishabai",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100021] = {
+	open_directly = 0,
+	name = "平安与守护之神",
+	display = "平安与守护之神的守护之力",
+	type = 1,
+	display_effect = "",
+	id = 100021,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/yixian",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100022] = {
+	open_directly = 0,
+	name = "起始与终焉之神",
+	display = "起始与终焉之神的守护之力",
+	type = 1,
+	display_effect = "",
+	id = 100022,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/salatuojia",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100023] = {
+	open_directly = 0,
+	name = "战争之神",
+	display = "战争之神的守护之力",
+	type = 1,
+	display_effect = "",
+	id = 100023,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/qiye_dark",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100024] = {
+	open_directly = 0,
+	name = "智慧之神",
+	display = "智慧之神的守护之力",
+	type = 1,
+	display_effect = "",
+	id = 100024,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/hailunna_alter",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100025] = {
+	open_directly = 0,
+	name = "欢愉之神",
+	display = "欢愉之神的守护之力",
+	type = 1,
+	display_effect = "",
+	id = 100025,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/unknown2",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
 	index = {},
 	shiptrans_id = {},
 	combination_display = {}

@@ -18565,7 +18565,7 @@ _G.pg.base.spweapon_data_statistics[12930] = {
 
 _G.pg.base.spweapon_data_statistics[12940] = {
 	tech = 0,
-	name = "严禁丢弃 ",
+	name = "严禁丢弃",
 	value_2_random = 5,
 	type = 2,
 	value_1_random = 10,

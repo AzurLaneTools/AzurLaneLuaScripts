@@ -193,6 +193,15 @@ pg.painting_filte_map = {
 			"painting/aerhangeersike_2"
 		}
 	},
+	aerhangeersike_3 = {
+		key = "aerhangeersike_3",
+		res_list = {
+			"painting/aerhangeersike_3_tex",
+			"painting/aerhangeersike_3_n_tex",
+			"painting/aerhangeersike_3_n",
+			"painting/aerhangeersike_3"
+		}
+	},
 	aerjiliya = {
 		key = "aerjiliya",
 		res_list = {
@@ -2268,6 +2277,20 @@ pg.painting_filte_map = {
 			"painting/bulvxieer_2"
 		}
 	},
+	bulvxieer_3 = {
+		key = "bulvxieer_3",
+		res_list = {
+			"painting/bulvxieer_3_tex",
+			"painting/bulvxieer_3_rw_tex",
+			"painting/bulvxieer_3_rw_hx_tex",
+			"painting/bulvxieer_3_n_tex",
+			"painting/bulvxieer_3_n_hx",
+			"painting/bulvxieer_3_n",
+			"painting/bulvxieer_3_hx",
+			"painting/bulvxieer_3_bj_tex",
+			"painting/bulvxieer_3"
+		}
+	},
 	bunao = {
 		key = "bunao",
 		res_list = {
@@ -3262,6 +3285,23 @@ pg.painting_filte_map = {
 			"painting/devil"
 		}
 	},
+	dewenjun = {
+		key = "dewenjun",
+		res_list = {
+			"painting/dewenjun_tex",
+			"painting/dewenjun_rw_tex",
+			"painting/dewenjun_n_tex",
+			"painting/dewenjun_n",
+			"painting/dewenjun"
+		}
+	},
+	dewenjun_2 = {
+		key = "dewenjun_2",
+		res_list = {
+			"painting/dewenjun_2_tex",
+			"painting/dewenjun_2"
+		}
+	},
 	deyizhi = {
 		key = "deyizhi",
 		res_list = {
@@ -3325,6 +3365,15 @@ pg.painting_filte_map = {
 			"painting/dian_4_n_tex",
 			"painting/dian_4_n",
 			"painting/dian_4"
+		}
+	},
+	dian_5 = {
+		key = "dian_5",
+		res_list = {
+			"painting/dian_5_tex",
+			"painting/dian_5_n_tex",
+			"painting/dian_5_n",
+			"painting/dian_5"
 		}
 	},
 	diguo = {
@@ -3402,6 +3451,15 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/dujiaoshou_tex",
 			"painting/dujiaoshou"
+		}
+	},
+	dujiaoshou_10 = {
+		key = "dujiaoshou_10",
+		res_list = {
+			"painting/dujiaoshou_10_tex",
+			"painting/dujiaoshou_10_n_tex",
+			"painting/dujiaoshou_10_n",
+			"painting/dujiaoshou_10"
 		}
 	},
 	dujiaoshou_2 = {
@@ -3809,6 +3867,28 @@ pg.painting_filte_map = {
 			"painting/feiteliedadi_h_hx_tex",
 			"painting/feiteliedadi_h_hx",
 			"painting/feiteliedadi_h"
+		}
+	},
+	feiteliekaer = {
+		key = "feiteliekaer",
+		res_list = {
+			"painting/feiteliekaer_tex",
+			"painting/feiteliekaer_rw_tex",
+			"painting/feiteliekaer_rw_hx_tex",
+			"painting/feiteliekaer_n_hx",
+			"painting/feiteliekaer_n",
+			"painting/feiteliekaer_hx",
+			"painting/feiteliekaer_bj_tex",
+			"painting/feiteliekaer"
+		}
+	},
+	feiteliekaer_2 = {
+		key = "feiteliekaer_2",
+		res_list = {
+			"painting/feiteliekaer_2_tex",
+			"painting/feiteliekaer_2_n_tex",
+			"painting/feiteliekaer_2_n",
+			"painting/feiteliekaer_2"
 		}
 	},
 	feiying = {
@@ -8108,6 +8188,26 @@ pg.painting_filte_map = {
 			"painting/lituoliao_5"
 		}
 	},
+	liwupu = {
+		key = "liwupu",
+		res_list = {
+			"painting/liwupu_tex",
+			"painting/liwupu_rw_tex",
+			"painting/liwupu_n_tex",
+			"painting/liwupu_n",
+			"painting/liwupu"
+		}
+	},
+	liwupu_2 = {
+		key = "liwupu_2",
+		res_list = {
+			"painting/liwupu_2_tex",
+			"painting/liwupu_2_rw_tex",
+			"painting/liwupu_2_n_tex",
+			"painting/liwupu_2_n",
+			"painting/liwupu_2"
+		}
+	},
 	longfeng = {
 		key = "longfeng",
 		res_list = {
@@ -9625,6 +9725,30 @@ pg.painting_filte_map = {
 			"painting/niulunbao_2_n_tex",
 			"painting/niulunbao_2_n",
 			"painting/niulunbao_2"
+		}
+	},
+	nubiyaren = {
+		key = "nubiyaren",
+		res_list = {
+			"painting/nubiyaren_tex",
+			"painting/nubiyaren_rw_tex",
+			"painting/nubiyaren_n_tex",
+			"painting/nubiyaren_n",
+			"painting/nubiyaren_bj_tex",
+			"painting/nubiyaren"
+		}
+	},
+	nubiyaren_2 = {
+		key = "nubiyaren_2",
+		res_list = {
+			"painting/nubiyaren_2_tex",
+			"painting/nubiyaren_2_n_tex",
+			"painting/nubiyaren_2_n_hx_tex",
+			"painting/nubiyaren_2_n_hx",
+			"painting/nubiyaren_2_n",
+			"painting/nubiyaren_2_hx_tex",
+			"painting/nubiyaren_2_hx",
+			"painting/nubiyaren_2"
 		}
 	},
 	nuofuke = {
@@ -14415,6 +14539,16 @@ pg.painting_filte_map = {
 			"painting/xixuegui_6"
 		}
 	},
+	xixuegui_alter = {
+		key = "xixuegui_alter",
+		res_list = {
+			"painting/xixuegui_alter_tex",
+			"painting/xixuegui_alter_rw_tex",
+			"painting/xixuegui_alter_n_tex",
+			"painting/xixuegui_alter_n",
+			"painting/xixuegui_alter"
+		}
+	},
 	xixuegui_h = {
 		key = "xixuegui_h",
 		res_list = {
@@ -14604,6 +14738,20 @@ pg.painting_filte_map = {
 			"painting/yade_2_n_tex",
 			"painting/yade_2_n",
 			"painting/yade_2"
+		}
+	},
+	yade_3 = {
+		key = "yade_3",
+		res_list = {
+			"painting/yade_3_tex",
+			"painting/yade_3_rw_tex",
+			"painting/yade_3_rw_hx_tex",
+			"painting/yade_3_n_tex",
+			"painting/yade_3_n_hx_tex",
+			"painting/yade_3_n_hx",
+			"painting/yade_3_n",
+			"painting/yade_3_hx",
+			"painting/yade_3"
 		}
 	},
 	yalisangna = {

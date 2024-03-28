@@ -200,6 +200,9 @@ slot2 = {
 	NOTICEINFO_TITLE_IMAGE_FIELD = slot0.FieldDescriptor(),
 	NOTICEINFO_TIME_DESC_FIELD = slot0.FieldDescriptor(),
 	NOTICEINFO_CONTENT_FIELD = slot0.FieldDescriptor(),
+	NOTICEINFO_TAG_TYPE_FIELD = slot0.FieldDescriptor(),
+	NOTICEINFO_ICON_FIELD = slot0.FieldDescriptor(),
+	NOTICEINFO_TRACK_FIELD = slot0.FieldDescriptor(),
 	CARDINFO_TYPE_FIELD = slot0.FieldDescriptor(),
 	CARDINFO_LEFT_DATE_FIELD = slot0.FieldDescriptor(),
 	RESOURCE_TYPE_FIELD = slot0.FieldDescriptor(),
@@ -2918,6 +2921,33 @@ slot2.NOTICEINFO_CONTENT_FIELD.has_default_value = false
 slot2.NOTICEINFO_CONTENT_FIELD.default_value = ""
 slot2.NOTICEINFO_CONTENT_FIELD.type = 9
 slot2.NOTICEINFO_CONTENT_FIELD.cpp_type = 9
+slot2.NOTICEINFO_TAG_TYPE_FIELD.name = "tag_type"
+slot2.NOTICEINFO_TAG_TYPE_FIELD.full_name = "p11.noticeinfo.tag_type"
+slot2.NOTICEINFO_TAG_TYPE_FIELD.number = 8
+slot2.NOTICEINFO_TAG_TYPE_FIELD.index = 7
+slot2.NOTICEINFO_TAG_TYPE_FIELD.label = 2
+slot2.NOTICEINFO_TAG_TYPE_FIELD.has_default_value = false
+slot2.NOTICEINFO_TAG_TYPE_FIELD.default_value = 0
+slot2.NOTICEINFO_TAG_TYPE_FIELD.type = 13
+slot2.NOTICEINFO_TAG_TYPE_FIELD.cpp_type = 3
+slot2.NOTICEINFO_ICON_FIELD.name = "icon"
+slot2.NOTICEINFO_ICON_FIELD.full_name = "p11.noticeinfo.icon"
+slot2.NOTICEINFO_ICON_FIELD.number = 9
+slot2.NOTICEINFO_ICON_FIELD.index = 8
+slot2.NOTICEINFO_ICON_FIELD.label = 2
+slot2.NOTICEINFO_ICON_FIELD.has_default_value = false
+slot2.NOTICEINFO_ICON_FIELD.default_value = 0
+slot2.NOTICEINFO_ICON_FIELD.type = 13
+slot2.NOTICEINFO_ICON_FIELD.cpp_type = 3
+slot2.NOTICEINFO_TRACK_FIELD.name = "track"
+slot2.NOTICEINFO_TRACK_FIELD.full_name = "p11.noticeinfo.track"
+slot2.NOTICEINFO_TRACK_FIELD.number = 10
+slot2.NOTICEINFO_TRACK_FIELD.index = 9
+slot2.NOTICEINFO_TRACK_FIELD.label = 2
+slot2.NOTICEINFO_TRACK_FIELD.has_default_value = false
+slot2.NOTICEINFO_TRACK_FIELD.default_value = ""
+slot2.NOTICEINFO_TRACK_FIELD.type = 9
+slot2.NOTICEINFO_TRACK_FIELD.cpp_type = 9
 NOTICEINFO.name = "noticeinfo"
 NOTICEINFO.full_name = "p11.noticeinfo"
 NOTICEINFO.nested_types = {}
@@ -2929,7 +2959,10 @@ NOTICEINFO.fields = {
 	slot2.NOTICEINFO_TITLE_FIELD,
 	slot2.NOTICEINFO_TITLE_IMAGE_FIELD,
 	slot2.NOTICEINFO_TIME_DESC_FIELD,
-	slot2.NOTICEINFO_CONTENT_FIELD
+	slot2.NOTICEINFO_CONTENT_FIELD,
+	slot2.NOTICEINFO_TAG_TYPE_FIELD,
+	slot2.NOTICEINFO_ICON_FIELD,
+	slot2.NOTICEINFO_TRACK_FIELD
 }
 NOTICEINFO.is_extendable = false
 NOTICEINFO.extensions = {}

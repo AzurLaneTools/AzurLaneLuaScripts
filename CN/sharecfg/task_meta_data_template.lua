@@ -222,6 +222,11 @@ pg.task_meta_data_template = setmetatable({
 		100173,
 		100174,
 		100175,
+		100181,
+		100182,
+		100183,
+		100184,
+		100185,
 		200001,
 		200002,
 		200003,
@@ -289,7 +294,11 @@ pg.task_meta_data_template = setmetatable({
 		200171,
 		200172,
 		200173,
-		200174
+		200174,
+		200181,
+		200182,
+		200183,
+		200184
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2054,6 +2063,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		target_id = "100"
 	},
+	[100181] = {
+		target_id_2 = "970105",
+		sub_type = 180,
+		desc = "使用吸血鬼·META获得1次胜利",
+		id = 100181,
+		target_num = 1,
+		target_id = "0"
+	},
+	[100182] = {
+		target_id_2 = "970105",
+		sub_type = 180,
+		desc = "使用吸血鬼·META击破等级＞30的敌方1次",
+		id = 100182,
+		target_num = 1,
+		target_id = "30"
+	},
+	[100183] = {
+		target_id_2 = "970105",
+		sub_type = 180,
+		desc = "使用吸血鬼·META击破等级＞55的敌方1次",
+		id = 100183,
+		target_num = 1,
+		target_id = "55"
+	},
+	[100184] = {
+		target_id_2 = "970105",
+		sub_type = 180,
+		desc = "使用吸血鬼·META击破等级＞80的敌方1次",
+		id = 100184,
+		target_num = 1,
+		target_id = "80"
+	},
+	[100185] = {
+		target_id_2 = "970105",
+		sub_type = 180,
+		desc = "使用吸血鬼·META击破等级＞100的敌方1次",
+		id = 100185,
+		target_num = 1,
+		target_id = "100"
+	},
 	[200001] = {
 		target_id_2 = "970101",
 		sub_type = 302,
@@ -2595,6 +2644,38 @@ pg.base.task_meta_data_template = {
 		sub_type = 302,
 		desc = "大型作战内使用罗德尼·META击破等级＞100的敌方1次",
 		id = 200174,
+		target_num = 1,
+		target_id = "100"
+	},
+	[200181] = {
+		target_id_2 = "970105",
+		sub_type = 302,
+		desc = "大型作战内使用吸血鬼·META获得1次胜利",
+		id = 200181,
+		target_num = 1,
+		target_id = "0"
+	},
+	[200182] = {
+		target_id_2 = "970105",
+		sub_type = 302,
+		desc = "大型作战内使用吸血鬼·META击破等级＞70的敌方1次",
+		id = 200182,
+		target_num = 1,
+		target_id = "70"
+	},
+	[200183] = {
+		target_id_2 = "970105",
+		sub_type = 302,
+		desc = "大型作战内使用吸血鬼·META击破等级＞90的敌方1次",
+		id = 200183,
+		target_num = 1,
+		target_id = "90"
+	},
+	[200184] = {
+		target_id_2 = "970105",
+		sub_type = 302,
+		desc = "大型作战内使用吸血鬼·META击破等级＞100的敌方1次",
+		id = 200184,
 		target_num = 1,
 		target_id = "100"
 	}

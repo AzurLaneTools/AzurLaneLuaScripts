@@ -21313,6 +21313,83 @@ _G.pg.base.gametip.cruise_task_help_2402 = {
 	}
 }
 
+_G.pg.base.gametip.battlepass_main_tip_2404 = {
+	tip = "2024/4/1-2024/5/31期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「吸血鬼·META」</color>在内的丰富奖励"
+}
+
+_G.pg.base.gametip.battlepass_main_help_2404 = {
+	tip = {
+		{
+			info = [[
+世界巡游(2024.4.1-2024.5.31)
+
+·<color=#92fc63>开放时间</color>
+    2024.4.1 0点 ~ 2024.5.31 23:59:59
+
+·<color=#92fc63>巡游进度说明</color>
+（1）活动期间，指挥官通过完成巡游任务，可获取「巡游点数」。
+（2）巡游任务随时间开放解锁。
+（3）每获取100点「巡游点数」即可增加1巡游进度
+（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达100。
+
+·<color=#92fc63>奖励规则</color>
+巡游进度奖励分为两种：
+（1）基础巡游奖励：包含<color=#ff5c5c>「吸血鬼·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·六期</color>等奖励；
+    当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
+（2）特许巡游奖励：包含<color=#ff5c5c>柏换装「蔷薇紫的芳香</color>」、<color=#ff5c5c>钻石</color>等奖励；
+    购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
+    注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。
+
+·<color=#92fc63>「特许巡游凭证」说明</color>
+（1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。
+（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即5.31 22:59:59停止)，请指挥官注意购买时间。
+
+·<color=#92fc63>任务说明</color>
+巡游任务分为两种：
+（1）每周任务 
+    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务
+（2）S.P.任务
+    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成大部分巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的完成券数量固定，与当前任务进度无关
+（4）「巡游任务快速完成券」不会随本期活动结束而消失
+
+·<color=#ff5c5c>特别提示</color>
+（1）在本期世界巡游活动结束后，所有巡游任务将会无法继续完成，所有巡游奖励将会无法继续领取，请各位指挥官务必注意活动结束时间，提前领取奖励。
+（2）巡游进度、[特许巡游凭证]仅对本期世界巡游活动生效]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cruise_task_help_2404 = {
+	tip = {
+		{
+			info = [[
+巡游任务说明
+
+·<color=#92fc63>开放时间</color>
+    2024.4.31 0点 ~ 2024.5.31 23:59:59
+
+·<color=#92fc63>巡游任务分为两种</color>
+（1）每周任务
+    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务。
+（2）S.P.任务
+    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成每周巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的「巡游任务快速完成券」数量和其提供的「巡游点数」相关，与当前任务进度无关
+（4）「巡游任务快速完成券」<color=#92fc63>不会随本期活动结束而消失</color>]]
+		}
+	}
+}
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "全部重置"
 }
@@ -23990,7 +24067,7 @@ _G.pg.base.gametip.battle_text_tongmeng_1 = {
 }
 
 _G.pg.base.gametip.battle_text_luodeni_1 = {
-	tip = "随着「罗德尼」减少，罗德尼·META获得了向<color=#f1f102>强化</color>。"
+	tip = "随着「罗德尼」减少，罗德尼·META获得了<color=#f1f102>强化</color>。"
 }
 
 _G.pg.base.gametip.battle_text_luodeni_2 = {
@@ -27564,4 +27641,412 @@ _G.pg.base.gametip.skin_shop_buy_confirm = {
 
 _G.pg.base.gametip.activity_victory = {
 	tip = "舰队出征，累计获得胜利"
+}
+
+_G.pg.base.gametip.other_world_temple_toggle_1 = {
+	tip = "力量神像"
+}
+
+_G.pg.base.gametip.other_world_temple_toggle_2 = {
+	tip = "丰饶神像"
+}
+
+_G.pg.base.gametip.other_world_temple_toggle_3 = {
+	tip = "智慧神像"
+}
+
+_G.pg.base.gametip.other_world_temple_char = {
+	tip = "守护神总览"
+}
+
+_G.pg.base.gametip.other_world_temple_award = {
+	tip = "查看奖励"
+}
+
+_G.pg.base.gametip.other_world_temple_got = {
+	tip = "已获得"
+}
+
+_G.pg.base.gametip.other_world_temple_progress = {
+	tip = "向$1供奉$2/$3次后生效"
+}
+
+_G.pg.base.gametip.other_world_temple_char_title = {
+	tip = "守护神总览"
+}
+
+_G.pg.base.gametip.other_world_temple_award_last = {
+	tip = "剩余$1/$2"
+}
+
+_G.pg.base.gametip.other_world_temple_award_title_1 = {
+	tip = "力量之神的恩泽"
+}
+
+_G.pg.base.gametip.other_world_temple_award_title_2 = {
+	tip = "丰饶之神的恩泽"
+}
+
+_G.pg.base.gametip.other_world_temple_award_title_3 = {
+	tip = "智慧之神的恩泽"
+}
+
+_G.pg.base.gametip.other_world_temple_lottery_all = {
+	tip = "已获得所有奖励"
+}
+
+_G.pg.base.gametip.other_world_temple_award_desc = {
+	tip = "※活动期间向啾啾三神像献上贡品，可以获得丰富奖励与守护神的加护。"
+}
+
+_G.pg.base.gametip.temple_consume_not_enough = {
+	tip = "资源不足"
+}
+
+_G.pg.base.gametip.other_world_temple_pay = {
+	tip = "祈求$1次"
+}
+
+_G.pg.base.gametip.other_world_task_type_daily = {
+	tip = "每日任务"
+}
+
+_G.pg.base.gametip.other_world_task_type_main = {
+	tip = "主线任务"
+}
+
+_G.pg.base.gametip.other_world_task_type_repeat = {
+	tip = "重复任务"
+}
+
+_G.pg.base.gametip.other_world_task_title = {
+	tip = "冒险委托板"
+}
+
+_G.pg.base.gametip.other_world_task_get_all = {
+	tip = "全部领取"
+}
+
+_G.pg.base.gametip.other_world_task_go = {
+	tip = "前往"
+}
+
+_G.pg.base.gametip.other_world_task_got = {
+	tip = "已领取"
+}
+
+_G.pg.base.gametip.other_world_task_get = {
+	tip = "领取"
+}
+
+_G.pg.base.gametip.other_world_task_tag_main = {
+	tip = "主线"
+}
+
+_G.pg.base.gametip.other_world_task_tag_daily = {
+	tip = "每日"
+}
+
+_G.pg.base.gametip.other_world_task_tag_all = {
+	tip = "全部"
+}
+
+_G.pg.base.gametip.terminal_personal_title = {
+	tip = "个人信息"
+}
+
+_G.pg.base.gametip.terminal_adventure_title = {
+	tip = "冒险数据"
+}
+
+_G.pg.base.gametip.terminal_guardian_title = {
+	tip = "守护神"
+}
+
+_G.pg.base.gametip.personal_info_title = {
+	tip = "基础信息"
+}
+
+_G.pg.base.gametip.personal_property_title = {
+	tip = "属性"
+}
+
+_G.pg.base.gametip.personal_ability_title = {
+	tip = "技能"
+}
+
+_G.pg.base.gametip.adventure_award_title = {
+	tip = "冒险等级奖励"
+}
+
+_G.pg.base.gametip.adventure_progress_title = {
+	tip = "距离下次升级："
+}
+
+_G.pg.base.gametip.adventure_lv_title = {
+	tip = "冒险等级："
+}
+
+_G.pg.base.gametip.adventure_record_title = {
+	tip = "冒险记录"
+}
+
+_G.pg.base.gametip.adventure_record_grade_title = {
+	tip = "冒险者评级："
+}
+
+_G.pg.base.gametip.adventure_award_end_tip = {
+	tip = "※领取时间截止至4.17 24时"
+}
+
+_G.pg.base.gametip.guardian_select_title = {
+	tip = "守护神选择"
+}
+
+_G.pg.base.gametip.guardian_sure_btn = {
+	tip = "装备"
+}
+
+_G.pg.base.gametip.guardian_cancel_btn = {
+	tip = "卸下"
+}
+
+_G.pg.base.gametip.guardian_active_tip = {
+	tip = "生效中"
+}
+
+_G.pg.base.gametip.personal_random = {
+	tip = "随机生成"
+}
+
+_G.pg.base.gametip.adventure_get_all = {
+	tip = "全部领取"
+}
+
+_G.pg.base.gametip.Announcements_Event_Notice = {
+	tip = "活动公告"
+}
+
+_G.pg.base.gametip.Announcements_System_Notice = {
+	tip = "系统公告"
+}
+
+_G.pg.base.gametip.Announcements_News = {
+	tip = "资讯速览"
+}
+
+_G.pg.base.gametip.Announcements_Donotshow = {
+	tip = "今日不再显示"
+}
+
+_G.pg.base.gametip.adventure_unlock_tip = {
+	tip = "目标关卡尚未解锁，请通关<color=#92fc63>前置关卡</color>"
+}
+
+_G.pg.base.gametip.personal_random_tip = {
+	tip = "完成<color=#92fc63>剧情模式</color>后解锁"
+}
+
+_G.pg.base.gametip.guardian_sure_limit_tip = {
+	tip = "守护神装备数量已达上限"
+}
+
+_G.pg.base.gametip.other_world_temple_tip = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help3",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help4",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help5",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help1",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.otherworld_map_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help3",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help4",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help5",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.otherworld_backhill_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help3",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help4",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help5",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.otherworld_terminal_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help4",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help5",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help3",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
 }

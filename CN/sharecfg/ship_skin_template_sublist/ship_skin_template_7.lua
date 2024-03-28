@@ -7762,6 +7762,127 @@ pg.base.ship_skin_template_7 = {
 			}
 		}
 	},
+	[236031] = {
+		ship_group = 20603,
+		name = "纯白守护天使",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 11,
+		shop_id = 70990,
+		painting = "dujiaoshou_10",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 24,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "177",
+		spine_use_live2d = 0,
+		spine_action_offset = "",
+		skin_type = 4,
+		id = 236031,
+		voice_actor_2 = -1,
+		prefab = "dujiaoshou_10",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "请，请不要靠近我！好，好险……哥、哥哥！得救了……请、请帮帮独角兽……！",
+		voice_actor = 8,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.27,
+					1.44,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.3,
+					1.31,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.26,
+					1.26,
+					0
+				}
+			},
+			plane = {
+				{
+					1.445,
+					1.699,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.39,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301010] = {
 		ship_group = 30101,
 		name = "{namecode:2}",
@@ -11889,35 +12010,35 @@ pg.base.ship_skin_template_7 = {
 			}
 		}
 	},
-	[301130] = {
-		ship_group = 30113,
-		name = "{namecode:15}",
+	[301124] = {
+		ship_group = 30112,
+		name = "蔷薇紫的芳香",
 		hand_id = 14,
 		bgm = "",
 		l2d_drag_rate = "",
 		illustrator2 = -1,
 		bg_sp = "",
 		l2d_ignore_drag = 0,
-		group_index = 0,
+		group_index = 4,
 		shop_id = 0,
-		painting = "bailu",
-		illustrator = 10,
+		painting = "dian_5",
+		illustrator = 2,
 		l2d_voice_calibrate = "",
-		shop_type_id = 0,
+		shop_type_id = 17,
 		lip_smoothing = 0,
 		l2d_animations = "",
-		bg = "",
+		bg = "172",
 		spine_use_live2d = 0,
 		spine_action_offset = false,
-		skin_type = -1,
-		id = 301130,
+		skin_type = 4,
+		id = 301124,
 		voice_actor_2 = -1,
-		prefab = "bailu",
+		prefab = "dian_5",
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "{namecode:15}级驱逐舰一番舰—{namecode:15}",
-		voice_actor = 25,
+		desc = "一、二……唔，插好了，指挥官。嗯……今天的{namecode:14}，是指挥官的贴身女仆，尽管插花之外的工作还不熟练，但{namecode:14}可以做到一直留在这里陪你哦。",
+		voice_actor = 70,
 		spine_offset = "",
 		gyro = 0,
 		rarity_bg = "",
@@ -11927,7 +12048,9 @@ pg.base.ship_skin_template_7 = {
 		live2d_offset_profile = "",
 		show_skin = "stand",
 		ship_l2d_id = "",
-		tag = {},
+		tag = {
+			2
+		},
 		live2d_offset = {
 			0,
 			0,
@@ -11958,68 +12081,43 @@ pg.base.ship_skin_template_7 = {
 		bound_bone = {
 			cannon = {
 				{
-					-0.058,
-					0.761,
+					1.068,
+					0.888,
 					0
 				}
 			},
 			vicegun = {
 				{
-					0.5,
-					0.8,
+					1.117,
+					0.91,
 					0
 				}
 			},
 			torpedo = {
 				{
-					0.472,
-					0.337,
+					0.001,
+					0.007,
 					0
 				}
 			},
 			antiaircraft = {
 				{
-					0.5,
-					0.8,
-					0
-				},
-				{
-					-0.5,
-					0.8,
-					0
-				}
-			},
-			plane = {
-				{
-					-0.5,
-					0.5,
+					1.089,
+					0.874,
 					0
 				}
 			}
 		},
 		smoke = {
 			{
-				70,
+				50,
 				{
 					{
 						"smoke",
 						{
-							-0.5,
-							0.55,
+							-0.497,
+							2.54,
 							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.3,
-							0.87,
-							-0.4
 						}
 					}
 				}

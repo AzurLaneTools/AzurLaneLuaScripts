@@ -10091,6 +10091,146 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70253] = {
+		id = 70253,
+		name = "2024异世界冒险 德文郡第一波移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 0,
+				param = {
+					duration = 2
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 3,
+				param = {
+					Z1 = 35,
+					Z2 = 75,
+					X2 = -5,
+					moveCount = 300,
+					duration = 3,
+					X1 = -20,
+					stopCount = 0
+				}
+			}
+		}
+	},
+	[70254] = {
+		id = 70254,
+		name = "2024异世界冒险 巨炎龙 飞出屏幕外",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 1,
+				param = {
+					x = 50,
+					z = 50
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = 0.5
+				}
+			}
+		}
+	},
+	[70255] = {
+		id = 70255,
+		name = "2024异世界冒险 巨炎龙 返回屏幕并开始随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -5,
+					z = 50
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = 0.5
+				}
+			}
+		}
+	},
+	[70256] = {
+		id = 70256,
+		name = "2024异世界冒险 小独角兽 移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 5,
+				param = {
+					Z1 = 20,
+					Z2 = -20,
+					X2 = 10,
+					moveCount = 240,
+					duration = -1,
+					X1 = 0,
+					stopCount = 60
+				}
+			}
+		}
+	},
+	[70257] = {
+		id = 70257,
+		name = "2024异世界冒险 净化者顶在前面",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 5,
+				param = {
+					Z1 = 20,
+					Z2 = -20,
+					X2 = 5,
+					moveCount = 240,
+					duration = -1,
+					X1 = -5,
+					stopCount = 60
+				}
+			}
+		}
+	},
+	[70258] = {
+		id = 70258,
+		name = "2024异世界冒险 革律翁 移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					Z1 = 32,
+					Z2 = 72,
+					X2 = -55,
+					moveCount = 240,
+					duration = -1,
+					X1 = -65,
+					stopCount = 60
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",
@@ -11117,6 +11257,22 @@ pg.auto_pilot_template = {
 				type = 2,
 				param = {
 					x = -500,
+					z = 0
+				}
+			}
+		}
+	},
+	[80001] = {
+		id = 80001,
+		name = "自爆船AI-反向",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 2,
+				param = {
+					x = 500,
 					z = 0
 				}
 			}
@@ -13292,7 +13448,7 @@ pg.auto_pilot_template = {
 		}
 	},
 	[200004] = {
-		id = 200000,
+		id = 200004,
 		name = "回到中点",
 		default = 1,
 		list = {
@@ -13308,7 +13464,7 @@ pg.auto_pilot_template = {
 		}
 	},
 	[200005] = {
-		id = 200003,
+		id = 200005,
 		name = "转圈小范围 顺时针",
 		default = 1,
 		list = {
