@@ -139,7 +139,7 @@ function slot0.CheckEntranceByIdx(slot0, slot1)
 	end
 
 	if not slot2:InTime() then
-		return false, i18n("challenge_end_tip")
+		return false, i18n("common_activity_end")
 	end
 
 	if not slot0:IsUnlockByEnemyId(slot2.id) then

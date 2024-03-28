@@ -5,7 +5,7 @@ pg.guardian_template = {
 		guardian_painting = "lisailiu",
 		type = 1,
 		buff = 200852,
-		guardian_gain_desc = "力の像に$1/60回祈りを捧げる",
+		guardian_gain_desc = "力の像に$1/10回祈りを捧げる",
 		guardian_desc = "戦闘中、一定時間経過毎に支援弾幕を展開する",
 		id = 1,
 		guardian_name = "光と正義の神",
@@ -26,10 +26,10 @@ pg.guardian_template = {
 		guardian_painting = "chicheng",
 		type = 1,
 		buff = 200857,
-		guardian_gain_desc = "力の像に$1/60回祈りを捧げる",
-		guardian_desc = "鋼鉄の巨竜を召喚し戦闘に参加させる",
+		guardian_gain_desc = "力の像に$1/30回祈りを捧げる",
+		guardian_desc = "戦闘開始時、すべての敵は特殊炎上効果が付与される",
 		id = 2,
-		guardian_name = "鋼鉄と巨竜の神",
+		guardian_name = "炎と浄化の神",
 		guardian_gain = {
 			17,
 			30
@@ -47,10 +47,10 @@ pg.guardian_template = {
 		guardian_painting = "kelaimengsuo",
 		type = 1,
 		buff = 200863,
-		guardian_gain_desc = "力の像に$1/60回祈りを捧げる",
-		guardian_desc = "戦闘開始時、すべての敵は特殊炎上効果が付与される",
+		guardian_gain_desc = "力の像に$1/70回祈りを捧げる",
+		guardian_desc = "味方艦船が与えるダメージが15％アップするが、5秒毎に上限の0.5%分の耐久を失う",
 		id = 3,
-		guardian_name = "炎と浄化の神",
+		guardian_name = "闇と陰謀の神",
 		guardian_gain = {
 			17,
 			70
@@ -68,10 +68,10 @@ pg.guardian_template = {
 		guardian_painting = "bisimaiZ",
 		type = 1,
 		buff = 200855,
-		guardian_gain_desc = "力の像に$1/60回祈りを捧げる",
-		guardian_desc = "戦闘開始60秒間味方の与えるダメージが30%アップ、60秒後味方の与えるダメージが30％ダウン",
+		guardian_gain_desc = "力の像に$1/120回祈りを捧げる",
+		guardian_desc = "鋼鉄の巨竜を召喚し戦闘に参加させる",
 		id = 4,
-		guardian_name = "開拓と冒険の神",
+		guardian_name = "鋼鉄と巨竜の神",
 		guardian_gain = {
 			17,
 			120
@@ -89,10 +89,10 @@ pg.guardian_template = {
 		guardian_painting = "mingshi",
 		type = 1,
 		buff = 200871,
-		guardian_gain_desc = "知恵の像に$1/60回祈りを捧げる",
-		guardian_desc = "味方艦船の装甲タイプを重装甲に変更する",
+		guardian_gain_desc = "豊穣の像に$1/10回祈りを捧げる",
+		guardian_desc = "戦闘中、味方艦船の速力が10％アップし、運が66アップ",
 		id = 5,
-		guardian_name = "始まりと終わりの神",
+		guardian_name = "幸運と富の神",
 		guardian_gain = {
 			18,
 			10
@@ -110,10 +110,10 @@ pg.guardian_template = {
 		guardian_painting = "yilishabai",
 		type = 1,
 		buff = 200872,
-		guardian_gain_desc = "知恵の像に$1/60回祈りを捧げる",
-		guardian_desc = "味方艦船が与えるダメージが20％アップするが、2秒毎に耐久を50失う",
+		guardian_gain_desc = "豊穣の像に$1/30回祈りを捧げる",
+		guardian_desc = "戦闘中、10秒毎に味方全体の耐久がそれぞれの耐久上限の1%回復する",
 		id = 6,
-		guardian_name = "闇と陰謀の神",
+		guardian_name = "お茶会とお菓子の神",
 		guardian_gain = {
 			18,
 			30
@@ -131,10 +131,10 @@ pg.guardian_template = {
 		guardian_painting = "yixian",
 		type = 1,
 		buff = 200868,
-		guardian_gain_desc = "知恵の像に$1/60回祈りを捧げる",
-		guardian_desc = "オート戦闘時の味方の移動アルゴリズムが変化する",
+		guardian_gain_desc = "豊穣の像に$1/70回祈りを捧げる",
+		guardian_desc = "味方旗艦が受けるダメージが40％ダウンするが、ほかの味方のダメージの20％分を肩代わりする",
 		id = 7,
-		guardian_name = "秩序と規則の神",
+		guardian_name = "平安と守護の神",
 		guardian_gain = {
 			18,
 			70
@@ -152,10 +152,10 @@ pg.guardian_template = {
 		guardian_painting = "salatuojia",
 		type = 1,
 		buff = 200862,
-		guardian_gain_desc = "知恵の像に$1/60回祈りを捧げる",
-		guardian_desc = "味方艦隊の艦船の陣営数が多いほど、味方艦船のステータスがアップする",
+		guardian_gain_desc = "豊穣の像に$1/120回祈りを捧げる",
+		guardian_desc = "味方艦船の装甲タイプを重装甲に変更する",
 		id = 8,
-		guardian_name = "団結と強靭の神",
+		guardian_name = "始まりと終わりの神",
 		guardian_gain = {
 			18,
 			120
@@ -173,10 +173,10 @@ pg.guardian_template = {
 		guardian_painting = "weineituo",
 		type = 1,
 		buff = 200873,
-		guardian_gain_desc = "豊穣の像に$1/60回祈りを捧げる",
-		guardian_desc = "味方旗艦が受けるダメージが50％ダウンするが、ほかの味方のダメージを肩代わりする",
+		guardian_gain_desc = "知恵の像に$1/10回祈りを捧げる",
+		guardian_desc = "20秒毎に味方艦船一人を対象に、8秒間与えるダメージが30%アップさせる",
 		id = 9,
-		guardian_name = "平安と守護の神",
+		guardian_name = "復興と風呂の神",
 		guardian_gain = {
 			19,
 			10
@@ -194,10 +194,10 @@ pg.guardian_template = {
 		guardian_painting = "huangjiacaifu",
 		type = 1,
 		buff = 200860,
-		guardian_gain_desc = "豊穣の像に$1/60回祈りを捧げる",
-		guardian_desc = "戦闘中、味方艦船の速力が20％アップし、運が66アップ",
+		guardian_gain_desc = "知恵の像に$1/30回祈りを捧げる",
+		guardian_desc = "戦闘開始60秒間味方の与えるダメージが15%アップ、60秒後味方の与えるダメージが10％ダウン",
 		id = 10,
-		guardian_name = "幸運と富の神",
+		guardian_name = "開拓と冒険の神",
 		guardian_gain = {
 			19,
 			30
@@ -215,10 +215,10 @@ pg.guardian_template = {
 		guardian_painting = "tbniang",
 		type = 1,
 		buff = 200864,
-		guardian_gain_desc = "豊穣の像に$1/60回祈りを捧げる",
-		guardian_desc = "戦闘中、10秒毎に味方全体の耐久が200回復する",
+		guardian_gain_desc = "知恵の像に$1/70回祈りを捧げる",
+		guardian_desc = "オート戦闘時の味方の移動アルゴリズムが変化する",
 		id = 11,
-		guardian_name = "お茶会とお菓子の神",
+		guardian_name = "秩序と規則の神",
 		guardian_gain = {
 			19,
 			70
@@ -236,10 +236,10 @@ pg.guardian_template = {
 		guardian_painting = "suweiaitongmengnew",
 		type = 1,
 		buff = 200865,
-		guardian_gain_desc = "豊穣の像に$1/60回祈りを捧げる",
-		guardian_desc = "12秒毎に味方艦船一人を対象に、8秒間与えるダメージが200%アップさせる",
+		guardian_gain_desc = "知恵の像に$1/120回祈りを捧げる",
+		guardian_desc = "味方艦隊の艦船の陣営数が多いほど、味方艦船のステータスがアップする",
 		id = 12,
-		guardian_name = "復興と風呂の神",
+		guardian_name = "団結と強靭の神",
 		guardian_gain = {
 			19,
 			120

@@ -849,4 +849,6 @@ function slot0.IsShowTip()
 	end)()
 end
 
+slot0.personalRandomData = nil
+
 return slot0

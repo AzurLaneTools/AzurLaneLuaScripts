@@ -26,6 +26,12 @@ return {
 				0,
 				75
 			},
+			stageBuff = {
+				{
+					id = 295010,
+					level = 1
+				}
+			},
 			waves = {
 				{
 					triggerType = 1,
