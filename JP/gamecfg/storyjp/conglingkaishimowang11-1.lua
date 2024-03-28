@@ -460,7 +460,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――みんな戦闘準備を！こっちも加勢する！",
 			typewriter = {

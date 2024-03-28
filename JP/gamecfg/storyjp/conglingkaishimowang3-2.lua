@@ -185,7 +185,7 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			say = "――だよね。それにしてもまさか勝てるとは思ってなかったけど…",
 			typewriter = {
 				speed = 0.05,
@@ -196,7 +196,7 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			say = "――みんなも多分初期ステータスでしょ？",
 			typewriter = {
 				speed = 0.05,
@@ -275,7 +275,7 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			say = "――なるほど。つまりチートか？",
 			typewriter = {
 				speed = 0.05,
@@ -330,7 +330,7 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			say = "――まだ開発中なのかな？",
 			typewriter = {
 				speed = 0.05,
@@ -410,7 +410,7 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			say = "――それは一理ある。たしかにゲームは新鮮さが大事だ",
 			typewriter = {
 				speed = 0.05,
@@ -438,7 +438,7 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			say = "――じゃあ、冒険ゲームの定石通りに、まず近くの村で情報収集でもどう？",
 			typewriter = {
 				speed = 0.05,

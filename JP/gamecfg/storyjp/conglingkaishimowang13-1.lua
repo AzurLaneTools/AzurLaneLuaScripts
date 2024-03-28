@@ -922,7 +922,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――フフフ、いくら手勢が多くても、将が自惚れていては下しやすい",
 			typewriter = {
@@ -934,7 +934,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――機を見て射落とすのだ",
 			typewriter = {

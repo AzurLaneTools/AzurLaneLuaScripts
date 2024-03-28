@@ -24533,216 +24533,221 @@ cs.gametip = {
 	},
 	other_world_temple_lottery_all = {
 		1023351,
-		134,
+		112,
 		true
 	},
 	other_world_temple_award_desc = {
-		1023485,
+		1023463,
 		190,
 		true
 	},
+	temple_consume_not_enough = {
+		1023653,
+		135,
+		true
+	},
 	other_world_temple_pay = {
-		1023675,
+		1023788,
 		97,
 		true
 	},
 	other_world_task_type_daily = {
-		1023772,
+		1023885,
 		103,
 		true
 	},
 	other_world_task_type_main = {
-		1023875,
+		1023988,
 		99,
 		true
 	},
 	other_world_task_type_repeat = {
-		1023974,
+		1024087,
 		104,
 		true
 	},
 	other_world_task_title = {
-		1024078,
+		1024191,
 		101,
 		true
 	},
 	other_world_task_get_all = {
-		1024179,
+		1024292,
 		100,
 		true
 	},
 	other_world_task_go = {
-		1024279,
+		1024392,
 		89,
 		true
 	},
 	other_world_task_got = {
-		1024368,
+		1024481,
 		93,
 		true
 	},
 	other_world_task_get = {
-		1024461,
+		1024574,
 		90,
 		true
 	},
 	other_world_task_tag_main = {
-		1024551,
+		1024664,
 		98,
 		true
 	},
 	other_world_task_tag_daily = {
-		1024649,
+		1024762,
 		102,
 		true
 	},
 	other_world_task_tag_all = {
-		1024751,
+		1024864,
 		97,
 		true
 	},
 	terminal_personal_title = {
-		1024848,
+		1024961,
 		102,
 		true
 	},
 	terminal_adventure_title = {
-		1024950,
+		1025063,
 		103,
 		true
 	},
 	terminal_guardian_title = {
-		1025053,
+		1025166,
 		93,
 		true
 	},
 	personal_info_title = {
-		1025146,
+		1025259,
 		95,
 		true
 	},
 	personal_property_title = {
-		1025241,
+		1025354,
 		102,
 		true
 	},
 	personal_ability_title = {
-		1025343,
+		1025456,
 		95,
 		true
 	},
 	adventure_award_title = {
-		1025438,
+		1025551,
 		106,
 		true
 	},
 	adventure_progress_title = {
-		1025544,
+		1025657,
 		112,
 		true
 	},
 	adventure_lv_title = {
-		1025656,
+		1025769,
 		100,
 		true
 	},
 	adventure_record_title = {
-		1025756,
+		1025869,
 		98,
 		true
 	},
 	adventure_record_grade_title = {
-		1025854,
+		1025967,
 		113,
 		true
 	},
 	adventure_award_end_tip = {
-		1025967,
+		1026080,
 		127,
 		true
 	},
 	guardian_select_title = {
-		1026094,
+		1026207,
 		97,
 		true
 	},
 	guardian_sure_btn = {
-		1026191,
+		1026304,
 		87,
 		true
 	},
 	guardian_cancel_btn = {
-		1026278,
+		1026391,
 		89,
 		true
 	},
 	guardian_active_tip = {
-		1026367,
+		1026480,
 		92,
 		true
 	},
 	personal_random = {
-		1026459,
+		1026572,
 		97,
 		true
 	},
 	adventure_get_all = {
-		1026556,
+		1026669,
 		93,
 		true
 	},
 	Announcements_Event_Notice = {
-		1026649,
+		1026762,
 		102,
 		true
 	},
 	Announcements_System_Notice = {
-		1026751,
+		1026864,
 		97,
 		true
 	},
 	Announcements_News = {
-		1026848,
+		1026961,
 		94,
 		true
 	},
 	Announcements_Donotshow = {
-		1026942,
+		1027055,
 		123,
 		true
 	},
 	adventure_unlock_tip = {
-		1027065,
+		1027178,
 		177,
 		true
 	},
 	personal_random_tip = {
-		1027242,
+		1027355,
 		146,
 		true
 	},
 	guardian_sure_limit_tip = {
-		1027388,
+		1027501,
 		130,
 		true
 	},
 	other_world_temple_tip = {
-		1027518,
+		1027631,
 		533,
 		true
 	},
 	otherworld_map_help = {
-		1028051,
+		1028164,
 		530,
 		true
 	},
 	otherworld_backhill_help = {
-		1028581,
+		1028694,
 		535,
 		true
 	},
 	otherworld_terminal_help = {
-		1029116,
+		1029229,
 		535,
 		true
 	}

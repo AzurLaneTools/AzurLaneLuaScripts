@@ -183,7 +183,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――「情報分析」でもレベルと魔法攻撃力がすごく高く表示されているな",
 			typewriter = {
@@ -267,7 +267,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――気づかれたし、一度話してみるか？",
 			typewriter = {
@@ -428,7 +428,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "（なんだか変な気がする……）",
 			typewriter = {
@@ -440,7 +440,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "（おっと、「情報分析」スキルに何か反応があるな。もしかしたら使用タイミングを知らせてくれてる…？）",
 			typewriter = {
@@ -449,7 +449,7 @@ return {
 			},
 			options = {
 				{
-					content = "ラフィーに「情報分析」スキルを使ってみた。",
+					content = "ラフィーに「情報分析」スキルを使ってみる",
 					flag = 1
 				}
 			}
@@ -582,7 +582,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――どうやら呪いを解かないとパーティーに入れられなさそうだ…",
 			typewriter = {
@@ -616,7 +616,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "魔王は千年前に討伐されていたのに、呪いは今も続いている",
+			say = "魔王は千年前に討伐されているのに、呪いは今も続いている",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -686,7 +686,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――もちろん。でもどうやら一筋縄にはいかなそうだな…情報を集めないと",
 			typewriter = {
@@ -702,7 +702,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指揮官！ラフィーの眠ってるマットの隣に皿が置かれてるぞ！もしかして誰かが定期的にご飯を届けてくれてるんじゃないか？",
+			say = "指揮官！ラフィーの眠ってるマットの隣に皿が置かれてるよ！もしかして誰かが定期的にご飯を届けてくれてるんじゃない？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -891,7 +891,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			say = "――そこで近くに住んでいる薬師を頼ってみたらどうか、ってことか",

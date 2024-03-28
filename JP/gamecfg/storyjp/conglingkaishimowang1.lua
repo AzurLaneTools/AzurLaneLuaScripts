@@ -1670,23 +1670,6 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
-			}
-		},
-		{
-			actor = 312012,
-			side = 2,
-			bgName = "star_level_bg_177",
-			factiontag = "幸運と富の神",
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "こほん。旅立つ冒険者よ、異世界で楽しい旅が送れることを祈ろう",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
 			},
 			action = {
 				{

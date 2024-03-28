@@ -95,7 +95,7 @@ return {
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "...これは...魔王しか使えない、究極の呪い…！",
+			say = "…これは…魔王しか使えない、究極の呪い…！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "まずいよ...この呪い...今の私でも解呪できそうにない…",
+			say = "まずいよ…この呪い…今の私でも解呪できそうにない…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "うぅ…お兄ちゃん...ユニコーン...もうだめ...",
+			say = "うぅ…お兄ちゃん…ユニコーン…もうだめ…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "ポーションが……ポーションすら持てなくなる…...",
+			say = "ポーションが……ポーションすら持てなくなる……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "くっ….私は勇者...こんな所で倒れるわけには…",
+			say = "くっ…私は勇者…こんな所で倒れるわけには…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――「無力な指揮官」？",
 			typewriter = {
@@ -331,7 +331,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――魔王なら冒険者のステータスぐらいは見極められるだろう？",
 			typewriter = {
@@ -386,7 +386,7 @@ return {
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = "main1",
-			say = "...あ、ありえませんわ",
+			say = "…あ、ありえませんわ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――ようやく気づいたか",
 			typewriter = {
@@ -468,7 +468,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――そうだ。たとえここでお前とタイマンを張っても勝てるさ",
 			typewriter = {

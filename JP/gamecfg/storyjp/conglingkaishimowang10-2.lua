@@ -398,7 +398,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "（アルハンゲリスクが言い淀んでいたのは、この展開を知っていたからか…）",
 			typewriter = {

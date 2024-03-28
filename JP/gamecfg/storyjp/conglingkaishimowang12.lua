@@ -45,7 +45,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――……建物は半分燃え落ちている…",
 			typewriter = {
@@ -57,7 +57,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――魔物も村人も見当たらない……おかしい",
 			typewriter = {
@@ -319,7 +319,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――いや、まだクエストは終わっていない",
 			typewriter = {
@@ -350,7 +350,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――ヴァンガード、見張りの西長城の戍衛官と言ったな",
 			typewriter = {
@@ -362,7 +362,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――確か長城には先日の戦いで大穴ができたと聞いたが…",
 			typewriter = {
@@ -392,7 +392,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――それは重要じゃない。長城の指揮官として部隊を連れて防衛エリアから離れていていいのか？",
 			typewriter = {
@@ -404,7 +404,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――例の大穴の防御はどうなっている？",
 			typewriter = {
@@ -416,7 +416,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_506",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――魔王軍はそこに狙いをつけているんじゃないか？",
 			typewriter = {

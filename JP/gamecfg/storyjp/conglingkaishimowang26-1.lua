@@ -366,7 +366,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――王宮でそのまま襲ってきてたら、ここまでたどり着けなかっただろう",
 			typewriter = {

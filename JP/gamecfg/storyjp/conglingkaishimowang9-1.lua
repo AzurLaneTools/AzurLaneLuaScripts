@@ -494,7 +494,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "ー知恵の魔女の弟子に…？良い提案かも？",
 			typewriter = {
@@ -591,7 +591,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "ー…ひゃ、百年も？",
 			typewriter = {
@@ -624,7 +624,7 @@ return {
 			factiontag = "知恵の魔女",
 			dir = 1,
 			nameColor = "#FEF15E",
-			say = "冗談じゃないよ！知恵の魔女の弟子だから修行が百年単位なのも当然でしょ？",
+			say = "冗談じゃないわよ！知恵の魔女の弟子だから修行が百年単位なのも当然でしょ？",
 			painting = {
 				alpha = 0.3,
 				time = 1

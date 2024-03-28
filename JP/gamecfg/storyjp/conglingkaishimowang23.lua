@@ -243,7 +243,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――そうだな...テンペスタ海賊団がもう去ったことを知らないようだ",
 			typewriter = {
@@ -255,7 +255,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――確かに絶好のチャンスだが…",
 			typewriter = {
@@ -267,7 +267,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――今の混乱に乗じて、補給拠点を奪取せよ！",
 			typewriter = {
@@ -358,7 +358,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――まさかここも放棄された…？",
 			typewriter = {
@@ -809,7 +809,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――少なくとも、魔王討伐中に邪魔されることはないだろう",
 			typewriter = {
@@ -840,7 +840,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――今度彼女に会ったときは……",
 			typewriter = {

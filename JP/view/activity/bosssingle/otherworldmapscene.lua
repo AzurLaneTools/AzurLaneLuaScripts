@@ -45,10 +45,16 @@ function slot0.init(slot0)
 	slot0.mapContent = slot0:findTF("content", slot0.mapTF)
 	slot0.storiesTF = slot0:findTF("stories", slot0.mapContent)
 	slot0.storyTpl = slot0:findTF("story_node", slot0.storiesTF)
+
+	setActive(slot0.storyTpl, false)
+
 	slot0.strongholdsTF = slot0:findTF("strongholds", slot0.mapContent)
 	slot0.locationsTF = slot0:findTF("locations", slot0.mapContent)
 	slot0.uiTF = slot0:findTF("ui")
 	slot0.focusTF = slot0:findTF("focus", slot0.uiTF)
+
+	setActive(slot0:findTF("tpl", slot0.focusTF), false)
+
 	slot0.topUI = slot0:findTF("top", slot0.uiTF)
 	slot0.ptIconTF = slot0:findTF("res_panel/icon", slot0.topUI)
 	slot0.ptValueTF = slot0:findTF("res_panel/Text", slot0.topUI)
@@ -93,6 +99,12 @@ function slot0.didEnter(slot0)
 		end)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.storyBtn, function ()
+		if not uv0.eventAct then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
+			return
+		end
+
 		uv0:PlaySwithAnim(function ()
 			uv0:ShowStoryMode()
 		end)
@@ -135,14 +147,16 @@ function slot0.didEnter(slot0)
 		end
 	end
 
-	if slot0.eventAct:getConfig("config_client").open_story and slot4 ~= "" and not pg.NewStoryMgr.GetInstance():IsPlayed(slot4) or not pg.NewStoryMgr.GetInstance():IsPlayed("NG0044") then
+	if slot0.eventAct and slot0.eventAct:getConfig("config_client").open_story and slot4 ~= "" and not pg.NewStoryMgr.GetInstance():IsPlayed(slot4) or not pg.NewStoryMgr.GetInstance():IsPlayed("NG0044") then
 		slot0.contextData.mode = uv0.MODE_BATTLE
 	end
 
 	if slot0.contextData.mode == uv0.MODE_BATTLE then
 		slot0:ShowBattleMode()
-	else
+	elseif slot0.eventAct then
 		slot0:ShowStoryMode()
+	else
+		slot0:ShowBattleMode()
 	end
 
 	slot0:UpdateView()
@@ -158,7 +172,7 @@ function slot0.didEnter(slot0)
 			slot0()
 		end,
 		function (slot0)
-			if uv0.eventAct:getConfig("config_client").open_story and slot1 ~= "" then
+			if uv0.eventAct and uv0.eventAct:getConfig("config_client").open_story and slot1 ~= "" then
 				pg.NewStoryMgr.GetInstance():Play(slot1, slot0)
 			else
 				slot0()
@@ -168,7 +182,7 @@ function slot0.didEnter(slot0)
 			pg.SystemGuideMgr.GetInstance():PlayByGuideId("NG0044", nil, slot0)
 		end
 	}, function ()
-		if uv0.contextData.eventTriggerId then
+		if uv0.eventAct and uv0.contextData.eventTriggerId then
 			slot0 = uv0
 
 			slot0:managedTween(LeanTween.delayedCall, function ()
@@ -240,12 +254,10 @@ function slot0.InitStoryNodes(slot0)
 	slot1 = slot0.nodeItemList
 
 	slot1:make(function (slot0, slot1, slot2)
-		if slot0 == UIItemList.EventInit then
-			slot2:GetComponent(typeof(Animation)):Play("story_node_in")
-		elseif slot0 == UIItemList.EventUpdate then
-			slot2:GetComponent(typeof(Animation)):Stop()
-
+		if slot0 == UIItemList.EventUpdate then
 			slot2.name = uv0.eventAct:GetEventById(uv0.eventIds[slot1 + 1]).id
+
+			slot2:GetComponent(typeof(Animation)):Stop()
 
 			if not uv0.playInAnimId or uv0.playInAnimId ~= slot5.id then
 				setLocalScale(slot2, Vector3.one)
@@ -486,6 +498,13 @@ function slot0.TriggerEvent(slot0, slot1, slot2)
 end
 
 function slot0.UpdateToggleTip(slot0)
+	if not slot0.eventAct then
+		setActive(slot0:findTF("new", slot0.storyBtn), false)
+		setActive(slot0:findTF("new", slot0.battleBtn), false)
+
+		return
+	end
+
 	slot1 = slot0.eventAct
 	slot1 = slot1:GetAllEventIds()
 
@@ -498,6 +517,10 @@ function slot0.UpdateToggleTip(slot0)
 end
 
 function slot0.UpdateMapArea(slot0)
+	if not slot0.eventAct then
+		return
+	end
+
 	slot1 = slot0.contextData.mode == uv0.MODE_STORY
 	slot2 = slot0.eventAct:GetUnlockMapAreas()
 
@@ -556,13 +579,13 @@ function slot0.UpdateEntrances(slot0)
 		end
 
 		if slot8 == BossSingleEnemyData.TYPE.SP then
-			setActive(slot0:findTF("count", slot9), slot7)
+			setActive(slot0:findTF("count", slot9), slot7 and slot6:InTime())
 
 			slot11, slot12 = slot1:GetCounts(slot6.id)
 
 			setText(slot0:findTF("count/Text", slot9), i18n("levelScene_chapter_count_tip") .. slot11 .. "/" .. slot12)
 
-			slot13 = slot7 and slot11 > 0
+			slot13 = slot7 and slot11 > 0 and slot6:InTime()
 
 			setActive(slot0:findTF("name/tip", slot9), slot13)
 			setActive(slot0:findTF("tip", slot0.rightArrow), slot13 and slot0.contextData.mode == uv0.MODE_BATTLE)
@@ -579,6 +602,10 @@ function slot0.OpenTerminal(slot0, slot1)
 end
 
 function slot0.UpdateEvents(slot0, slot1)
+	if not slot0.eventAct then
+		return
+	end
+
 	slot2 = slot0.contextData.mode == uv0.MODE_STORY and SingleEvent.MODE_TYPE.STORY or SingleEvent.MODE_TYPE.BATTLE
 	slot0.eventIds = underscore.select(slot0.eventAct:GetAllEventIds(), function (slot0)
 		return uv0.eventAct:GetEventById(slot0) and uv0.eventAct:CheckTrigger(slot1.id) and slot1:GetMode() == uv1
@@ -643,7 +670,6 @@ function slot0.UpdateEvents(slot0, slot1)
 		if slot5 then
 			table.insert(slot3, function (slot0)
 				slot1 = uv0.nodeItemList.container:Find(tostring(uv0.eventIds[1]))
-				slot2 = slot1:GetComponent(typeof(Animation))
 
 				slot1:GetComponent(typeof(DftAniEvent)):SetEndEvent(function ()
 					uv0()
@@ -651,16 +677,28 @@ function slot0.UpdateEvents(slot0, slot1)
 
 					uv2.playInAnimId = nil
 				end)
-				slot2:Stop()
 
 				GetOrAddComponent(slot1, typeof(CanvasGroup)).alpha = 0
 
-				slot2:Play("story_node_in")
+				slot1:GetComponent(typeof(Animation)):Play("story_node_in")
 			end)
 		end
 	else
 		table.insert(slot3, function (slot0)
 			uv0.nodeItemList:align(#uv0.eventIds)
+
+			if not uv0.first then
+				eachChild(uv0.nodeItemList.container, function (slot0)
+					if isActive(slot0) then
+						onNextTick(function ()
+							uv0:GetComponent(typeof(Animation)):Play("story_node_in")
+						end)
+					end
+				end)
+
+				uv0.first = true
+			end
+
 			uv0.floatItemList:align(#uv0.eventIds)
 			uv0:UpdateToggleTip()
 			slot0()
@@ -698,7 +736,7 @@ function slot0.ShowBattleMode(slot0)
 
 	slot1 = slot0.contextData.bossActivity
 
-	if not slot1:IsUnlockByEnemyId(slot1:GetEnemyDataByType(BossSingleEnemyData.TYPE.SP).id) then
+	if not slot1:IsUnlockByEnemyId(slot1:GetEnemyDataByType(BossSingleEnemyData.TYPE.SP).id) or not slot2:InTime() then
 		slot0.isShowSpTip = false
 	else
 		slot4, slot5 = slot1:GetCounts(slot2.id)
@@ -772,6 +810,7 @@ function slot0.UpdateView(slot0)
 	slot0:UpdateEvents()
 	slot0:UpdateMapArea()
 	slot0:UpdateTerminalTip()
+	slot0:UpdateToggleTip()
 end
 
 function slot0.willExit(slot0)
@@ -787,7 +826,7 @@ function slot0.IsShowTip()
 			return false
 		end
 
-		if not slot0:IsUnlockByEnemyId(slot0:GetEnemyDataByType(BossSingleEnemyData.TYPE.SP).id) then
+		if not slot0:IsUnlockByEnemyId(slot0:GetEnemyDataByType(BossSingleEnemyData.TYPE.SP).id) or not slot1:InTime() then
 			return false
 		end
 

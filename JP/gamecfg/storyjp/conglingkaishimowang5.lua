@@ -316,7 +316,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "（神殿、商業エリア、職人エリア、冒険者ギルド……）",
 			typewriter = {
@@ -328,7 +328,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "（この王都だけでも相当長く探索できるな……）",
 			typewriter = {
@@ -525,7 +525,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			say = "――じゃあまずは王様に謁見しに行こう。頼めるか？",
@@ -944,7 +944,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_502",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――この子が……魔王……",
 			typewriter = {
@@ -956,7 +956,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_502",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "（ここで「情報分析」を使って魔王の特殊能力が分かれば、今度出会ったときに有利に戦えるのかな……）",
 			typewriter = {
@@ -1263,7 +1263,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_502",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――みんな怪我もなさそうで本当によかった。王さまも衛兵に守られて無事のようだな",
 			typewriter = {

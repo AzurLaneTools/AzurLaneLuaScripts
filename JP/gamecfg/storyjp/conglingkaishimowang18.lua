@@ -52,7 +52,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_500",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――うん、なんとなくだけどね",
 			typewriter = {
@@ -64,7 +64,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_500",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――王都が陥落した時に臨時徴募された海賊たちは、未払いの報酬への執念からここを守る亡霊の軍団と化した",
 			typewriter = {
@@ -76,7 +76,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_500",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――でも図らずも彼女たちの存在で王宮の廃墟が数百年も平和が保たれている",
 			typewriter = {
@@ -88,7 +88,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_500",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――そしてこっちはちょうど「王宮」を目指している……",
 			typewriter = {
@@ -100,7 +100,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_500",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――こんなに都合のいい展開、流石にすべて偶然とは考えにくい",
 			typewriter = {
@@ -112,7 +112,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_500",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――む。この世界にさまよう亡霊も寿命の一種だと思えば…ヴァンパイアハンターの件となにか繋がりが出てきそうだな",
 			typewriter = {
@@ -720,7 +720,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_500",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――遅れてやってきた真実もまた真実だ",
 			typewriter = {
@@ -979,7 +979,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "ーふむ…「投擲」は唯一の戦闘スキルだから流石に捨てられないな",
 			typewriter = {
@@ -991,7 +991,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "ー「走行」…そういえばここまで一度も使ってないな…",
 			typewriter = {
@@ -1003,7 +1003,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "ーそもそも別に「走行」がなかったら走れない、ってことはないんじゃないか？",
 			typewriter = {

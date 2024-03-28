@@ -165,7 +165,7 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			say = "――ユニコーンとリヴァプール、MPの管理に気をつけて、消費の少ない持続回復呪文から使うように！",
 			typewriter = {
 				speed = 0.05,
@@ -176,7 +176,7 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			say = "――ヌビアン、魔物の群れに全体攻撃の爆裂魔法薬だ！",
 			typewriter = {
 				speed = 0.05,
@@ -187,7 +187,7 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			say = "――シェフィールドとザイドリッツは孤立した魔物を遠距離火力で一体ずつ倒してほしい！",
 			typewriter = {
 				speed = 0.05,
@@ -198,7 +198,7 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			say = "――ジャンヌ・ダルクは回復魔法陣に残り、近づいてきた敵の処理を！",
 			typewriter = {
 				speed = 0.05,
@@ -209,7 +209,7 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			say = "――撫順、陣形だ！一人だけで突出するな！",
 			typewriter = {
 				speed = 0.05,
@@ -281,7 +281,7 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			say = "――引っかかったな",
 			typewriter = {
 				speed = 0.05,
@@ -309,7 +309,7 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			say = "――あえて目立つように指示を飛ばした甲斐があったな",
 			typewriter = {
 				speed = 0.05,
@@ -352,7 +352,7 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			optionFlag = 3,
 			say = "――時よ、止まれ！",
 			typewriter = {

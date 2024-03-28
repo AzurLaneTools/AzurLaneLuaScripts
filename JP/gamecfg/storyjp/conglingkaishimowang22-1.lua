@@ -156,7 +156,7 @@ return {
 			factiontag = "ドラゴンロード",
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "見張りの長城では油断をしたことを認めよ！",
+			say = "見張りの長城では油断をしたことを認めよう！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "ならば「海潮」を鳴らそう",
 			typewriter = {

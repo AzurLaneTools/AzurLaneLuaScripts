@@ -22927,7 +22927,7 @@ pg.base.furniture_data_template = {
 	},
 	[100059] = {
 		spine_extra = "",
-		describe = "可以召唤出繁盛花田的圣杖，似乎拥有悠久的历史。",
+		describe = "名付けて「母港の花壇に花を生えさせる魔法（フラワーイング）」ってね！",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -22944,7 +22944,7 @@ pg.base.furniture_data_template = {
 		level = 1,
 		advice = 0,
 		effect = "",
-		name = "繁花圣杖",
+		name = "繁花の杖",
 		comfortable = 0,
 		spine_action_replace = "",
 		picture = "",

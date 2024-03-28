@@ -137,7 +137,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――…誤解？",
 			typewriter = {
@@ -648,7 +648,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――なるほど…幽霊海賊たちはずっとこの地に囚われていたから、通貨が新しくなったことを知らないんだ…",
 			typewriter = {
@@ -660,7 +660,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――ここを通るには、やっぱり彼女たちが知っている旧王国の金貨が必要か…",
 			typewriter = {
@@ -672,7 +672,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――旧王国時代に使われていた金貨と言えば…ちょうど一枚持っていたな",
 			typewriter = {
@@ -726,7 +726,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――分かっている。これは我々の誠意を表す、ただの内金だ",
 			typewriter = {
@@ -738,7 +738,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――それに免じて一度だけ通してもらえない？王宮での用が済んだら残りも払うから",
 			typewriter = {

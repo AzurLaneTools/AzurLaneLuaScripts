@@ -235,7 +235,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_158",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――王道、か…まぁここまで来たんだし、とりあえず話でも聞いてみよう",
 			typewriter = {
@@ -423,7 +423,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_158",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――…試すって、自分が？",
 			typewriter = {
@@ -435,7 +435,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_158",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――別に呪いなどかかってないが…？",
 			typewriter = {
@@ -578,7 +578,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_158",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――…は？",
 			typewriter = {
@@ -753,7 +753,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_158",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――…効果さっき言ってた効果と随分違うけど？",
 			typewriter = {
@@ -803,7 +803,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_158",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――…究極の解決策？",
 			typewriter = {
@@ -1102,7 +1102,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_158",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――まさか……",
 			typewriter = {
@@ -1207,7 +1207,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_158",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――おつかい任務はやっぱり避けられないかぁ……",
 			typewriter = {

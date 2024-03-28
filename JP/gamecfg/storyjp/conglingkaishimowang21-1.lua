@@ -547,7 +547,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "（折りたたんだ空間に隠された罠…例の吸血鬼メイドが消える前に使いそびれたんだろう）",
 			typewriter = {
@@ -559,7 +559,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "（このあとの戦いで役に立つかも）",
 			typewriter = {
@@ -571,7 +571,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――さあ、みんな位置に付け！戦闘準備だ",
 			typewriter = {

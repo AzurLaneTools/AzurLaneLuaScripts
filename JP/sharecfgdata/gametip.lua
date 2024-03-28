@@ -28040,11 +28040,15 @@ _G.pg.base.gametip.other_world_temple_award_title_3 = {
 }
 
 _G.pg.base.gametip.other_world_temple_lottery_all = {
-	tip = "すべての報酬が入手済みです"
+	tip = "報酬コンプ済"
 }
 
 _G.pg.base.gametip.other_world_temple_award_desc = {
 	tip = "饅頭の像に「王国金貨」を捧げて祈りをすると、報酬と加護を入手可能"
+}
+
+_G.pg.base.gametip.temple_consume_not_enough = {
+	tip = "必要なアイテムが不足しています"
 }
 
 _G.pg.base.gametip.other_world_temple_pay = {

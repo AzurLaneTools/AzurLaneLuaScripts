@@ -128,7 +128,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――もう情報にある「枯れの森」に入ったのかな？",
 			typewriter = {
@@ -234,7 +234,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			say = "――もちろん",
@@ -499,7 +499,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――逆に言うと、もし拠点を破壊できれば…",
 			typewriter = {
@@ -511,7 +511,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――一度浄化した土地は荒れ地に戻らない？",
 			typewriter = {
@@ -813,7 +813,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――陣形変更、戦闘準備を！",
 			typewriter = {

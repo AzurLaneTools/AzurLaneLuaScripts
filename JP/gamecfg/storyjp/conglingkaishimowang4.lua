@@ -205,7 +205,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_155",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――…………",
 			typewriter = {
@@ -271,7 +271,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_155",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――確かに。落とし物探し、田んぼを守ってモンスター退治、家の掃除とかのサブクエストはないのか？",
 			typewriter = {

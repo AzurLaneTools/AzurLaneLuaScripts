@@ -193,7 +193,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "（アルハンゲリスクが放ったのは魔物じゃなく、セイレーン…）",
 			typewriter = {
@@ -205,7 +205,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "（しかも戦闘中に上級の呪いスキルを使ってきた…）",
 			typewriter = {
@@ -217,7 +217,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "ー知恵の魔女、さっきの魔物と呪いスキルは一体どういうつもりだ？",
 			typewriter = {
@@ -417,7 +417,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "（「ただその後は…」…アルハンゲリスクはまだ大事な情報を持っているようだが…）",
 			typewriter = {

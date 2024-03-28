@@ -76,7 +76,7 @@ return {
 			factiontag = "伝説の格闘家",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "绫波",
+			actorName = "綾波",
 			hidePaintObj = true,
 			say = "装甲が厚い……ダイナミックキック・二連撃―――！",
 			painting = {
@@ -94,7 +94,7 @@ return {
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "伝説の大魔法使い",
 			dir = 1,
-			actorName = "绫波",
+			actorName = "ラフィー",
 			hidePaintObj = true,
 			say = "ラフィーの爆裂魔法、まだ一発で倒せないから……もうちょっと弱らせて……",
 			painting = {
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_mmorpg_cg3",
 			factiontag = "勇者",
 			dir = 1,
-			actorName = "ヌビアン",
+			actorName = "撫順",
 			hidePaintObj = true,
 			say = "勇者撫順も手伝うよ！――勇者スラッシュ！",
 			painting = {
@@ -345,7 +345,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_mmorpg_cg3",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――ダメだ。ジャンヌがいなければプリーストたちの守りが手薄になる",
 			typewriter = {
@@ -374,7 +374,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_mmorpg_cg3",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――おそらく向こうもそう考えているだろう。全く小賢しいやつだ",
 			typewriter = {
@@ -386,7 +386,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_mmorpg_cg3",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――しかし、相手は一つ誤算があったようだ",
 			typewriter = {
@@ -416,7 +416,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_mmorpg_cg3",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――ああ、この戦局を変える存在が、もう一人いることを見落としている",
 			typewriter = {
@@ -451,7 +451,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_mmorpg_cg3",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "（王都の商業エリアから見張りの要塞の倉庫、そしてここまで入手した宝の数々……）",
 			typewriter = {
@@ -463,7 +463,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_mmorpg_cg3",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "（その中から密かに投擲用の爆発アイテムをずっと集めてきたからな）",
 			typewriter = {
@@ -475,7 +475,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_mmorpg_cg3",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "（いくぞメガフレイムドラゴン。アイテムの貯蔵は十分だ！――）",
 			typewriter = {
@@ -638,7 +638,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――戦闘に直接参加してなくても、さすがに身の安全を守る術ぐらいを確保しないとな",
 			typewriter = {
@@ -650,7 +650,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――そういえば綾波たちのパーティーに回復役っていないの？昔の冒険は大変じゃなかった？",
 			typewriter = {
@@ -830,7 +830,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――ドラゴンの棲家の攻略も完了したし、そろそろこっちも休憩するか……",
 			typewriter = {
@@ -860,7 +860,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――大切なこと？",
 			typewriter = {

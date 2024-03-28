@@ -1396,5 +1396,35 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "story-mmorpg"
+	},
+	OtherworldTerminalLayer = {
+		default_bgm = "story-mmorpg",
+		special_bgm = "",
+		time = "",
+		bgm = "story-mmorpg"
+	},
+	OtherworldBackHillScene = {
+		default_bgm = "Story-musicanniversary-gorgeous",
+		special_bgm = "",
+		time = "",
+		bgm = "Story-musicanniversary-gorgeous"
+	},
+	OtherWorldTempleScene = {
+		default_bgm = "Theme-SeaAndSun-soft",
+		special_bgm = "",
+		time = "",
+		bgm = "Theme-SeaAndSun-soft"
+	},
+	OtherWorldTaskLayer = {
+		default_bgm = "story-mmorpg",
+		special_bgm = "",
+		time = "",
+		bgm = "story-mmorpg"
+	},
+	OtherworldMapScene = {
+		default_bgm = "story-mmorpg",
+		special_bgm = "",
+		time = "",
+		bgm = "story-mmorpg"
 	}
 }

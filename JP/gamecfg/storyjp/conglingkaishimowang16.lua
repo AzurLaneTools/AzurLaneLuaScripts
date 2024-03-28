@@ -270,7 +270,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――ヴァンパイアハンターの拠点は…遺跡の中？",
 			typewriter = {
@@ -340,7 +340,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――旧王城の城壁跡…か？",
 			typewriter = {
@@ -1032,7 +1032,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "（加護と呪い……）",
 			typewriter = {
@@ -1044,7 +1044,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "（ザイドリッツたちは神々の加護によって寿命が延び、大魔法使いのラフィーは呪いによって寿命が延びた）",
 			typewriter = {
@@ -1056,7 +1056,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "（不死の魔物だって、見方を変えれば寿命を延ばされたと言えなくもない）",
 			typewriter = {
@@ -1068,7 +1068,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "（ふむ。もしこれらの現象が裏で繋がっているなら、旧王都での出来事は思ったよりも複雑かも……）",
 			typewriter = {
@@ -1080,7 +1080,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――旧王城の正確な位置はまだ覚えている？",
 			typewriter = {
@@ -1147,7 +1147,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――さっきシェフィールドから、拠点を守る「永夜の闇」という吸血鬼の術式のこと聞いた",
 			typewriter = {
@@ -1159,7 +1159,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――もし王城の廃墟がかつて吸血鬼の本拠地で、それも極めて短い期間で滅びたなら",
 			typewriter = {
@@ -1171,7 +1171,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――秘術を解く方法も処分されていなく、廃墟の中に埋もれているかもしれない",
 			typewriter = {
@@ -1183,7 +1183,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_163",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――それを見つけることができれば、拠点の結界を破れて、魔王に跪いた吸血鬼たちを倒せる",
 			typewriter = {

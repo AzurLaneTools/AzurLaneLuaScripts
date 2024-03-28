@@ -648,7 +648,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――……今日アンデッド軍団の将軍との戦闘で手に入れた「金貨」…",
 			typewriter = {
@@ -660,7 +660,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――情報分析スキルによると、これは旧王国時代に鋳造された金貨のようだ",
 			typewriter = {
@@ -672,7 +672,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――こんな金貨をなぜアンデッド軍団の将軍が持っていたのか",
 			typewriter = {
@@ -684,7 +684,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――旧王国……アンデッド軍団……そして魔王の間には、何らかの関連性があるかも",
 			typewriter = {
@@ -696,7 +696,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――……手がかりが少なすぎてまだ結論は出せないが",
 			typewriter = {
@@ -708,7 +708,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――ゲームの世界観もなかなか興味深いな",
 			typewriter = {
@@ -842,7 +842,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "（呪い耐性SSSを手に入れたし、この程度なら問題ないだろ）",
 			typewriter = {
@@ -854,7 +854,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――も、もちろん……",
 			typewriter = {
@@ -880,7 +880,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――うぅ……これは……",
 			bgm = "story-richang-9",
@@ -910,7 +910,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――気を失っていたか…",
 			typewriter = {
@@ -999,7 +999,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――ユニコーンが面倒を見てくれたのか？ありがとう",
 			typewriter = {
@@ -1030,7 +1030,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――大丈夫だ。問題ない",
 			typewriter = {
@@ -1042,7 +1042,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――毒耐性がちゃんと役に立ったな……",
 			typewriter = {
@@ -1072,7 +1072,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――そうだな。勇者パーティーなのに魔王討伐ではなく、聖女とプリースト、天使がいる宴会で壊滅したら…",
 			typewriter = {
@@ -1084,7 +1084,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――とんだ笑い草だ",
 			typewriter = {
@@ -1407,7 +1407,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――……特別な報酬？",
 			typewriter = {

@@ -110,7 +110,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――敵の数は圧倒的に多く、これに正面から戦うとなると……",
 			typewriter = {
@@ -122,7 +122,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――しょうがない。消費アイテムはケチらずに使わないと",
 			typewriter = {
@@ -134,7 +134,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			say = "――伝説の英雄たちを呼び出す時だ",
 			typewriter = {
