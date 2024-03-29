@@ -253,7 +253,7 @@ function slot0.InitStrongholds(slot0, slot1, slot2)
 			slot0, slot1 = uv0.contextData.bossActivity:CheckEntranceByIdx(uv1)
 
 			if slot0 then
-				uv0:ShowNormalFleet(uv1, true)
+				uv0:ShowNormalFleet(uv1)
 			else
 				pg.TipsMgr.GetInstance():ShowTips(slot1)
 			end

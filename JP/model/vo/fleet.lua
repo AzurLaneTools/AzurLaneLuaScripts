@@ -42,6 +42,18 @@ slot0.DEFAULT_NAME_BOSS_ACT = {
 	[14] = i18n("ship_formationUI_fleetName_extra_ss"),
 	[15] = i18n("ship_formationUI_fleetName_sp_ss")
 }
+slot0.DEFAULT_NAME_BOSS_SINGLE_ACT = {
+	i18n("ship_formationUI_fleetName_easy"),
+	i18n("ship_formationUI_fleetName_normal"),
+	i18n("ship_formationUI_fleetName_hard"),
+	i18n("ship_formationUI_fleetName_sp"),
+	i18n("ship_formationUI_fleetName_extra"),
+	[11] = i18n("ship_formationUI_fleetName_easy_ss"),
+	[12] = i18n("ship_formationUI_fleetName_normal_ss"),
+	[13] = i18n("ship_formationUI_fleetName_hard_ss"),
+	[14] = i18n("ship_formationUI_fleetName_sp_ss"),
+	[15] = i18n("ship_formationUI_fleetName_extra_ss")
+}
 slot0.REGULAR_FLEET_ID = 1
 slot0.REGULAR_FLEET_NUMS = 6
 slot0.SUBMARINE_FLEET_ID = 11
