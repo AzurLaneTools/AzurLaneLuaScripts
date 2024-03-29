@@ -601,6 +601,24 @@ return {
 			}
 		},
 		{
+			actor = 501020,
+			side = 2,
+			bgName = "star_level_bg_176",
+			factiontag = "勇者",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "勇者抚顺展现实力的地方呢……？",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
@@ -608,7 +626,7 @@ return {
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "勇者抚顺展现实力的地方呢……？",
+			say = "唔……我认为勇者大人展现实力的地方，自然是在打倒魔物拔除据点的时候啦？",
 			painting = {
 				alpha = 0.3,
 				time = 1

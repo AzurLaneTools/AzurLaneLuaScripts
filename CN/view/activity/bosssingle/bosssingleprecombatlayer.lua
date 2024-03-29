@@ -535,7 +535,7 @@ function slot0.displayFleetInfo(slot0)
 	uv0.tweenNumText(slot0._vanguardGS, math.floor(slot0._currentFleetVO:GetGearScoreSum(TeamType.Vanguard)))
 	uv0.tweenNumText(slot0._mainGS, math.floor(slot0._currentFleetVO:GetGearScoreSum(TeamType.Main)))
 	uv0.tweenNumText(slot0._subGS, math.floor(slot0._currentFleetVO:GetGearScoreSum(TeamType.Submarine)))
-	setText(slot0._fleetNameText, uv0.defaultFleetName(slot0._currentFleetVO))
+	setText(slot0._fleetNameText, Fleet.DEFAULT_NAME_BOSS_SINGLE_ACT[slot0._currentFleetVO.id])
 	setText(slot0._fleetNumText, slot0._currentFleetVO.id)
 
 	slot9 = slot0.contextData.stageId
@@ -577,8 +577,6 @@ function slot0.displayFleetInfo(slot0)
 			})
 		end)
 	end
-
-	setText(slot0._fleetNameText, Fleet.DEFAULT_NAME_BOSS_ACT[slot0._currentFleetVO.id])
 end
 
 function slot0.SetFleetStepper(slot0)

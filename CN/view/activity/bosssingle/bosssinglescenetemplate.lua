@@ -32,7 +32,7 @@ function slot0.didEnter(slot0)
 	end
 end
 
-function slot0.ShowNormalFleet(slot0, slot1, slot2)
+function slot0.ShowNormalFleet(slot0, slot1)
 	if not slot0.contextData.actFleets[slot1] then
 		slot0.contextData.actFleets[slot1] = slot0:CreateNewFleet(slot1)
 	end
@@ -41,36 +41,23 @@ function slot0.ShowNormalFleet(slot0, slot1, slot2)
 		slot0.contextData.actFleets[slot1 + 10] = slot0:CreateNewFleet(slot1 + 10)
 	end
 
-	slot3 = slot0.contextData.actFleets[slot1]
+	slot2 = slot0.contextData.actFleets[slot1]
+	slot3 = slot0:GetFleetEditPanel()
 
-	if slot2 and #slot3.ships <= 0 then
-		for slot7 = #slot0.contextData.stageIDs, 1, -1 do
-			slot8 = slot0.contextData.actFleets[slot7]
-
-			if slot7 ~= slot1 and slot8 and slot8:isLegalToFight() == true then
-				slot3:updateShips(slot8.ships)
-
-				break
-			end
-		end
-	end
-
-	slot4 = slot0:GetFleetEditPanel()
-
-	slot4.buffer:SetSettings(1, 1, false, slot0.contextData.bossActivity:GetEnemyDataByFleetIdx(slot1):GetPropertyLimitation())
-	slot4.buffer:SetFleets({
+	slot3.buffer:SetSettings(1, 1, false, slot0.contextData.bossActivity:GetEnemyDataByFleetIdx(slot1):GetPropertyLimitation())
+	slot3.buffer:SetFleets({
 		slot0.contextData.actFleets[slot1],
 		slot0.contextData.actFleets[slot1 + 10]
 	})
 
-	slot7 = slot0.contextData.stageIDs[slot1]
+	slot6 = slot0.contextData.stageIDs[slot1]
 
-	slot4.buffer:SetOilLimit(slot0.contextData.useOilLimit[slot1])
+	slot3.buffer:SetOilLimit(slot0.contextData.useOilLimit[slot1])
 
 	slot0.contextData.editFleet = slot1
 
-	slot4.buffer:UpdateView()
-	slot4.buffer:Show()
+	slot3.buffer:UpdateView()
+	slot3.buffer:Show()
 end
 
 function slot0.commitEdit(slot0)

@@ -180,6 +180,19 @@ function slot0.didEnter(slot0)
 		end,
 		function (slot0)
 			pg.SystemGuideMgr.GetInstance():PlayByGuideId("NG0044", nil, slot0)
+		end,
+		function (slot0)
+			if uv0.contextData.openTerminal then
+				uv0:OpenTerminal({
+					page = uv0.contextData.terminalPage,
+					onExit = slot0
+				})
+
+				uv0.contextData.openTerminal = nil
+				uv0.contextData.terminalPage = nil
+			else
+				slot0()
+			end
 		end
 	}, function ()
 		if uv0.eventAct and uv0.contextData.eventTriggerId then
@@ -240,7 +253,7 @@ function slot0.InitStrongholds(slot0, slot1, slot2)
 			slot0, slot1 = uv0.contextData.bossActivity:CheckEntranceByIdx(uv1)
 
 			if slot0 then
-				uv0:ShowNormalFleet(uv1, true)
+				uv0:ShowNormalFleet(uv1)
 			else
 				pg.TipsMgr.GetInstance():ShowTips(slot1)
 			end
@@ -835,5 +848,7 @@ function slot0.IsShowTip()
 		return slot3 > 0
 	end)()
 end
+
+slot0.personalRandomData = nil
 
 return slot0

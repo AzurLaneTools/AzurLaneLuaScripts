@@ -34954,11 +34954,11 @@ pg.equip_skin_template = {
 		desc = "永续型魔法护盾，安心、省心、舒心。",
 		ship_config_id = 100011,
 		derivate_boom = "",
-		orbit_ui = "yishijie_xingguanghudun",
+		orbit_ui = "shebei_xingguanghudunui",
 		miss_sfx = "",
 		orbit_combat_anima_change = "",
 		icon = "96742",
-		orbit_ui_back = 1,
+		orbit_ui_back = 0,
 		mirror = 0,
 		rarity = 4,
 		derivate_bullet = "",
@@ -34977,8 +34977,8 @@ pg.equip_skin_template = {
 		orbit_combat_bound = {
 			"face",
 			{
-				-0.23,
-				-1.5,
+				-0.13,
+				0.47,
 				-0.91
 			}
 		},
@@ -34986,7 +34986,7 @@ pg.equip_skin_template = {
 			"face",
 			{
 				0,
-				82
+				46
 			}
 		},
 		orbit_hidden_action = {

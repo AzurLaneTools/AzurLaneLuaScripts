@@ -36,6 +36,22 @@ end
 function slot0.bindEvent(slot0)
 	slot1 = slot0.contextData.system
 
+	function slot2()
+		slot0 = 0
+
+		for slot4, slot5 in ipairs(uv0.contextData.fleets) do
+			slot6 = slot5:GetCostSum().oil
+
+			if uv0.contextData.costLimit[slot4 == 1 and 1 or 2] > 0 then
+				slot6 = math.min(slot6, slot8)
+			end
+
+			slot0 = slot0 + slot6
+		end
+
+		return slot0
+	end
+
 	slot0:bind(uv0.ON_ABORT_EDIT, function (slot0)
 	end)
 	slot0:bind(uv0.ON_AUTO, function (slot0, slot1)
@@ -64,6 +80,12 @@ function slot0.bindEvent(slot0)
 		uv0:commitEdit(slot1)
 	end)
 	slot0:bind(uv0.ON_START, function (slot0, slot1, slot2)
+		if getProxy(PlayerProxy):getRawData().oil < uv0() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("stage_beginStage_error_noResource"))
+
+			return
+		end
+
 		seriesAsync({
 			function (slot0)
 				if pg.battle_cost_template[uv0].enter_energy_cost == 0 then
@@ -101,23 +123,6 @@ function slot0.bindEvent(slot0)
 			end
 		})
 	end)
-
-	function slot2()
-		slot0 = 0
-
-		for slot4, slot5 in ipairs(uv0.contextData.fleets) do
-			slot6 = slot5:GetCostSum().oil
-
-			if uv0.contextData.costLimit[slot4 == 1 and 1 or 2] > 0 then
-				slot6 = math.min(slot6, slot8)
-			end
-
-			slot0 = slot0 + slot6
-		end
-
-		return slot0
-	end
-
 	slot0:bind(uv0.SHOW_CONTINUOUS_OPERATION_WINDOW, function (slot0, slot1)
 		uv0:addSubLayers(Context.New({
 			mediator = BossSingleContinuousOperationWindowMediator,

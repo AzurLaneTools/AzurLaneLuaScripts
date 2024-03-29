@@ -512,7 +512,7 @@ function slot8.GetDamageRatio(slot0)
 end
 
 function slot8.GetSubmarineBaseLine(slot0)
-	return slot0._subAttackBaseLine, slot0._subRetreatBaseLine
+	return slot0._fixedSubRefLine or slot0._subAttackBaseLine, slot0._subRetreatBaseLine
 end
 
 function slot8.GetFleetSonar(slot0)
@@ -1011,7 +1011,7 @@ function slot8.AddSubMarine(slot0, slot1)
 
 	slot2 = slot1:GetTemplate()
 
-	uv0.Battle.BattleUnitPhaseSwitcher.New(slot1):SetTemplateData(uv1.GeneratePlayerSubmarinPhase(slot0._subAttackBaseLine, slot0._subRetreatBaseLine, slot1:GetAttrByName("raidDist"), function ()
+	uv0.Battle.BattleUnitPhaseSwitcher.New(slot1):SetTemplateData(uv1.GeneratePlayerSubmarinPhase(slot0._fixedSubRefLine or slot0._subAttackBaseLine, slot0._subRetreatBaseLine, slot1:GetAttrByName("raidDist"), function ()
 		return uv0:GetRaidDuration()
 	end, slot1:GetAttrByName("oxyAtkDuration")))
 
@@ -1171,6 +1171,10 @@ function slot8.UnleashSubmarineSpecial(slot0)
 
 	slot0._submarineSpecialVO:Cast()
 	slot0._manualSubUnit:TriggerBuff(uv0.BuffEffectType.ON_SUBMARINE_FREE_SPECIAL)
+end
+
+function slot8.FixSubRefLine(slot0, slot1)
+	slot0._fixedSubRefLine = slot1
 end
 
 function slot8.AppendIndieSonar(slot0, slot1, slot2)
