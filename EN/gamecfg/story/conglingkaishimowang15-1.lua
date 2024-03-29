@@ -601,6 +601,24 @@ return {
 			}
 		},
 		{
+			actor = 501020,
+			side = 2,
+			bgName = "star_level_bg_176",
+			factiontag = "The Hero",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "When will it be MY time to shine?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
@@ -608,7 +626,7 @@ return {
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "When will it be MY time to shine?",
+			say = "Umm... I suppose your glorious duty is to slay the monsters and capture the bases.",
 			painting = {
 				alpha = 0.3,
 				time = 1
