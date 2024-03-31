@@ -146,6 +146,14 @@ function slot0.CheckEntranceByIdx(slot0, slot1)
 		return false, i18n("adventure_unlock_tip")
 	end
 
+	return true
+end
+
+function slot0.CheckCntByIdx(slot0, slot1)
+	if not slot0:GetEnemyDataByFleetIdx(slot1) then
+		return false, "not exist enemy data, index: " .. slot1
+	end
+
 	if slot0:IsCountLimit(slot2.id) and slot0:GetCounts(slot2.id) <= 0 then
 		return false, i18n("sp_no_quota")
 	end

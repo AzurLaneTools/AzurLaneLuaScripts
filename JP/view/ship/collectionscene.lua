@@ -74,6 +74,7 @@ slot0.ShipIndexData = {
 		}
 	}
 }
+slot0.SHIPCOLLECTION_INDEX = 1
 slot0.MANGA_INDEX = 4
 slot0.GALLERY_INDEX = 5
 slot0.MUSIC_INDEX = 6
@@ -258,8 +259,16 @@ function slot0.didEnter(slot0)
 			onToggle(slot0, slot6, function (slot0)
 				if slot0 then
 					if uv0.contextData.toggle ~= uv1 then
-						if uv0.contextData.toggle == 1 and uv0.contextData.cardToggle == 1 then
-							uv0.contextData.cardScrollValue = uv0.cardList.value
+						if uv0.contextData.toggle == uv2.SHIPCOLLECTION_INDEX then
+							setActive(uv0.helpBtn, false)
+
+							if uv0.bulinTip then
+								uv0.bulinTip.buffer:Hide()
+							end
+
+							if uv0.contextData.cardToggle == 1 then
+								uv0.contextData.cardScrollValue = uv0.cardList.value
+							end
 						end
 
 						uv0.contextData.toggle = uv1
@@ -270,11 +279,19 @@ function slot0.didEnter(slot0)
 						end
 					end
 
-					setActive(uv0.helpBtn, uv1 == 1)
+					if uv1 == uv2.SHIPCOLLECTION_INDEX then
+						setActive(uv0.helpBtn, true)
 
-					if uv1 == 1 and not getProxy(SettingsProxy):IsShowCollectionHelp() then
-						triggerButton(uv0.helpBtn)
-						slot1:SetCollectionHelpFlag(true)
+						if not getProxy(SettingsProxy):IsShowCollectionHelp() then
+							triggerButton(uv0.helpBtn)
+							slot1:SetCollectionHelpFlag(true)
+						end
+
+						if uv0.bulinTip then
+							uv0.bulinTip.buffer:Show()
+						else
+							uv0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(uv0, uv0:findTF("main"))
+						end
 					end
 
 					if uv1 ~= uv2.MUSIC_INDEX then
@@ -862,6 +879,12 @@ function slot0.memoryFilter(slot0)
 end
 
 function slot0.willExit(slot0)
+	if slot0.bulinTip then
+		slot0.bulinTip:Destroy()
+
+		slot0.bulinTip = nil
+	end
+
 	if slot0.tweens then
 		cancelTweens(slot0.tweens)
 	end

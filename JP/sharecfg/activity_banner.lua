@@ -37,10 +37,35 @@ pg.activity_banner = {
 	},
 	{
 		param = "5267",
-		time = "stop",
-		type = 3,
 		id = 2,
-		pic = "temp2"
+		pic = "temp2",
+		type = 3,
+		time = {
+			{
+				{
+					2024,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	{
 		param = "5260",

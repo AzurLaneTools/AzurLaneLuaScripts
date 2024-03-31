@@ -1,6 +1,113 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_3 = {
+	[103131] = {
+		ship_group = 10313,
+		name = "ワイルドステューデント",
+		hand_id = 16,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70113,
+		painting = "mingniabolisi_2",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "103",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 103131,
+		voice_actor_2 = -1,
+		prefab = "mingniabolisi_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "教科書と鉛筆、それと消しゴム…学生って教室で授業に参加するだけじゃないよな……指揮官、野外実習をもうちょっと入れてくれー！",
+		voice_actor = 153,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.95,
+					0.91,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.91,
+					0.94,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.17,
+					0.04,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.33,
+							0.14
+						}
+					}
+				}
+			}
+		}
+	},
 	[103132] = {
 		ship_group = 10313,
 		name = "エクストリームゲームX",
@@ -11700,116 +11807,6 @@ pg.base.ship_skin_template_3 = {
 						}
 					}
 				}
-			}
-		}
-	},
-	[107095] = {
-		ship_group = 10709,
-		name = "クロスボーン・エキストラ",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "1102",
-		l2d_ignore_drag = 0,
-		group_index = 5,
-		shop_id = 70862,
-		painting = "aisaikesi_7",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 23,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "169",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 107095,
-		voice_actor_2 = -1,
-		prefab = "aisaikesi_7",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "「錨をあげよ！海賊空母エセックスの船出だー！この世の全ての場所へといざゆかん！」…ひくっ…えへへ、いいですよね海賊って～………",
-		voice_actor = 149,
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2,
-			6
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.048,
-					1.32,
-					0
-				}
-			},
-			plane = {
-				{
-					1.368,
-					0.472,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.761,
-							1.98,
-							0
-						}
-					}
-				}
-			}
-		},
-		spine_offset = {
-			{
-				57,
-				-630,
-				0
-			},
-			{
-				0.45
 			}
 		}
 	}

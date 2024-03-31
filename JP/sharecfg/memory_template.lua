@@ -2903,6 +2903,9 @@ pg.memory_template = setmetatable({
 		3466,
 		3467,
 		3468,
+		3471,
+		3472,
+		3473,
 		10000,
 		10001,
 		10002,
@@ -34979,6 +34982,39 @@ pg.base.memory_template = {
 		story = "CONGLINGKAISHIMOWANG28",
 		id = 3468,
 		icon = "memory_conglingkaishimowang",
+		is_open = 0
+	},
+	[3471] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "すやすやゴールデン",
+		condition = "「蘇る黄金」イベントスタート",
+		story = "JUEXINGDEHUANGJIN1",
+		id = 3471,
+		icon = "memory_juexingdehuangjin",
+		is_open = 0
+	},
+	[3472] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "お目覚めゴールデン",
+		condition = "ヒントをすべて集める",
+		story = "JUEXINGDEHUANGJIN2",
+		id = 3472,
+		icon = "memory_juexingdehuangjin",
+		is_open = 0
+	},
+	[3473] = {
+		type = 2,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "ぴかぴかゴールデン",
+		condition = "特殊戦闘を開始する",
+		story = "1360005",
+		id = 3473,
+		icon = "memory_juexingdehuangjin",
 		is_open = 0
 	},
 	[10000] = {

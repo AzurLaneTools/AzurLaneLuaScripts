@@ -1,6 +1,116 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_4 = {
+	[107095] = {
+		ship_group = 10709,
+		name = "クロスボーン・エキストラ",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "1102",
+		l2d_ignore_drag = 0,
+		group_index = 5,
+		shop_id = 70862,
+		painting = "aisaikesi_7",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 23,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "169",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 107095,
+		voice_actor_2 = -1,
+		prefab = "aisaikesi_7",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "「錨をあげよ！海賊空母エセックスの船出だー！この世の全ての場所へといざゆかん！」…ひくっ…えへへ、いいですよね海賊って～………",
+		voice_actor = 149,
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2,
+			6
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.048,
+					1.32,
+					0
+				}
+			},
+			plane = {
+				{
+					1.368,
+					0.472,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.761,
+							1.98,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				57,
+				-630,
+				0
+			},
+			{
+				0.45
+			}
+		}
+	},
 	[107096] = {
 		ship_group = 10709,
 		name = "コース88の風",
@@ -11321,131 +11431,6 @@ pg.base.ship_skin_template_4 = {
 							-0.549,
 							2.179,
 							-0.4
-						}
-					}
-				}
-			}
-		}
-	},
-	[201230] = {
-		ship_group = 20123,
-		name = "ヴァンパイア",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "xixuegui",
-		illustrator = 10,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 201230,
-		voice_actor_2 = -1,
-		prefab = "xixuegui",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "初代V級駆逐艦・ヴァンパイア（D68）",
-		voice_actor = 89,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.49,
-					0.43,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.49,
-					0.43,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.41,
-					0.19,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.49,
-					0.43,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.41,
-							0.79,
-							-0.35
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.59,
-							2.36,
-							-0.18
 						}
 					}
 				}

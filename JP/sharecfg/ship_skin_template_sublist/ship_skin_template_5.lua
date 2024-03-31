@@ -1,6 +1,131 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_5 = {
+	[201230] = {
+		ship_group = 20123,
+		name = "ヴァンパイア",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "xixuegui",
+		illustrator = 10,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 201230,
+		voice_actor_2 = -1,
+		prefab = "xixuegui",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "初代V級駆逐艦・ヴァンパイア（D68）",
+		voice_actor = 89,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.49,
+					0.43,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.49,
+					0.43,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.41,
+					0.19,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.49,
+					0.43,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							0.79,
+							-0.35
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.59,
+							2.36,
+							-0.18
+						}
+					}
+				}
+			}
+		}
+	},
 	[201231] = {
 		ship_group = 20123,
 		name = "春の風",
@@ -12146,120 +12271,6 @@ pg.base.ship_skin_template_5 = {
 			main_2 = 0.2,
 			touch = 1.86,
 			main_3 = 0.5
-		}
-	},
-	[202273] = {
-		ship_group = 20227,
-		name = "午後喫茶「メイドの優雅」",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "1101",
-		l2d_ignore_drag = 0,
-		group_index = 3,
-		shop_id = 70555,
-		painting = "hemin_4",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 7,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "146",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 202273,
-		voice_actor_2 = -1,
-		prefab = "hemin_4",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "指揮官様、アフタヌーンティーでもいかがですか？ふふ、メイドの仕事以外の嗜みの一つでもございます。はい♪",
-		voice_actor = 242,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.151,
-					1.175,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.156,
-					1.189,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.001,
-					0.001,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.149,
-					1.236,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.64,
-							2.45,
-							0
-						}
-					}
-				}
-			}
 		}
 	}
 }

@@ -1,5 +1,88 @@
 pg = pg or {}
 pg.enemy_data_statistics_309 = {
+	[16502012] = {
+		cannon = 16,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 880,
+		battle_unit_type = 30,
+		air = 0,
+		base = 90744,
+		dodge = 0,
+		durability_growth = 19200,
+		antiaircraft = 120,
+		speed = 15,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck = 0,
+		antisub = 0,
+		hit = 10,
+		antisub_growth = 0,
+		air_growth = 0,
+		antiaircraft_growth = 2250,
+		torpedo = 26,
+		durability = 510,
+		armor_growth = 0,
+		torpedo_growth = 2250,
+		luck_growth = 0,
+		hit_growth = 144,
+		armor = 0,
+		fog_fx = "",
+		id = 16502012,
+		specific_fx_scale = {
+			yuanchou_kandao = 0.04
+		},
+		appear_fx = {
+			"appearsmall",
+			"yuanchou_kandao"
+		},
+		equipment_list = {
+			1100337,
+			1100272,
+			1100492
+		}
+	},
+	[16502013] = {
+		cannon = 18,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 1800,
+		battle_unit_type = 35,
+		air = 0,
+		base = 90745,
+		dodge = 0,
+		durability_growth = 35200,
+		antiaircraft = 95,
+		speed = 12,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck = 0,
+		antisub = 0,
+		hit = 10,
+		antisub_growth = 0,
+		air_growth = 0,
+		antiaircraft_growth = 1400,
+		torpedo = 17,
+		durability = 1190,
+		armor_growth = 0,
+		torpedo_growth = 1250,
+		luck_growth = 0,
+		hit_growth = 144,
+		armor = 0,
+		fog_fx = "",
+		id = 16502013,
+		specific_fx_scale = {
+			yuanchou_kandao = 0.04
+		},
+		appear_fx = {
+			"appearsmall",
+			"yuanchou_kandao"
+		},
+		equipment_list = {
+			1100552,
+			1100587
+		}
+	},
 	[16502014] = {
 		cannon = 43,
 		reload = 150,
@@ -1018,106 +1101,6 @@ pg.enemy_data_statistics_309 = {
 			1100107,
 			1100192,
 			1100477
-		}
-	},
-	[16502123] = {
-		cannon = 54,
-		name = "エミール・ベルタン駒式統御武装「Blast」",
-		type = 3,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		fog_fx = "",
-		dodge = 11,
-		speed = 18,
-		luck = 0,
-		antisub = 0,
-		reload_growth = 0,
-		dodge_growth = 136,
-		antiaircraft_growth = 3380,
-		reload = 150,
-		hit = 25,
-		antisub_growth = 0,
-		air_growth = 0,
-		cannon_growth = 1500,
-		base = 90742,
-		icon_type = 3,
-		armor_growth = 0,
-		torpedo_growth = 2800,
-		antiaircraft = 88,
-		hit_growth = 280,
-		armor = 0,
-		durability = 4420,
-		torpedo = 58,
-		id = 16502123,
-		durability_growth = 41600,
-		luck_growth = 0,
-		battle_unit_type = 60,
-		specific_fx_scale = {
-			yuanchou_tianping = 0.04
-		},
-		appear_fx = {
-			"appearsmall",
-			"yuanchou_tianping"
-		},
-		equipment_list = {
-			1101092,
-			1101097,
-			1101102,
-			1101107
-		}
-	},
-	[16502124] = {
-		cannon = 78,
-		name = "エミール・ベルタン駒式統御武装「Annihilate」",
-		type = 5,
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		fog_fx = "",
-		dodge = 11,
-		speed = 14,
-		luck = 0,
-		antisub = 0,
-		reload_growth = 0,
-		dodge_growth = 136,
-		antiaircraft_growth = 4680,
-		reload = 150,
-		hit = 25,
-		antisub_growth = 0,
-		air_growth = 0,
-		cannon_growth = 3400,
-		base = 90742,
-		icon_type = 5,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		antiaircraft = 106,
-		hit_growth = 280,
-		armor = 0,
-		durability = 6630,
-		torpedo = 0,
-		id = 16502124,
-		durability_growth = 65600,
-		luck_growth = 0,
-		battle_unit_type = 65,
-		specific_fx_scale = {
-			yuanchou_tianping = 0.04
-		},
-		appear_fx = {
-			"appearsmall",
-			"yuanchou_tianping"
-		},
-		equipment_list = {
-			1100032,
-			1100552,
-			1100917,
-			1100737
-		},
-		buff_list = {
-			{
-				ID = 50510,
-				LV = 3
-			}
 		}
 	}
 }

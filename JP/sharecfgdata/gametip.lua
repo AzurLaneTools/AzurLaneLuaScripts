@@ -24503,7 +24503,11 @@ _G.pg.base.gametip.caibulin_help = {
 }
 
 _G.pg.base.gametip.caibulin_tip11 = {
-	tip = "ヒントをすべて集めて特殊ステージを開放可能！"
+	tip = "「図鑑」でヒントを見つけられるプリン！"
+}
+
+_G.pg.base.gametip.caibulin_lock_tip = {
+	tip = "ヒントをすべて集めると限定ステージを可能！"
 }
 
 _G.pg.base.gametip.gametip_xiaoqiye = {
