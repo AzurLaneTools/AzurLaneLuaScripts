@@ -488,7 +488,7 @@ function slot0.readyToAchieve(slot0)
 				return true
 			end
 
-			if slot0.id == ActivityConst.APRILFOOL_DISCOVERY_RE and slot0.data1 < 2 then
+			if slot5 and #slot5.auto_finish_args > 0 and slot0.data1 == 1 then
 				return true
 			end
 

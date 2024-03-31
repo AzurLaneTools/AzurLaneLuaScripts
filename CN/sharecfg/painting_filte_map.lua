@@ -7197,6 +7197,15 @@ pg.painting_filte_map = {
 			"painting/kin"
 		}
 	},
+	kin_2 = {
+		key = "kin_2",
+		res_list = {
+			"painting/kin_2_tex",
+			"painting/kin_2_rw_tex",
+			"painting/kin_2_bj_tex",
+			"painting/kin_2"
+		}
+	},
 	kongbu = {
 		key = "kongbu",
 		res_list = {

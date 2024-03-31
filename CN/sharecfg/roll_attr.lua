@@ -288,7 +288,7 @@ pg.roll_attr = {
 	[2002] = {
 		ID = 2002,
 		name = "魔法值",
-		default_value = "9",
+		default_value = "50",
 		random_value = {
 			1,
 			999999
@@ -297,7 +297,7 @@ pg.roll_attr = {
 	[2003] = {
 		ID = 2003,
 		name = "攻击力",
-		default_value = "50",
+		default_value = "11",
 		random_value = {
 			0,
 			9999
@@ -306,7 +306,7 @@ pg.roll_attr = {
 	[2004] = {
 		ID = 2004,
 		name = "防御力",
-		default_value = "12",
+		default_value = "9",
 		random_value = {
 			0,
 			9999
@@ -315,7 +315,7 @@ pg.roll_attr = {
 	[2005] = {
 		ID = 2005,
 		name = "速度",
-		default_value = "11",
+		default_value = "12",
 		random_value = {
 			1,
 			999

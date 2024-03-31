@@ -1,5 +1,105 @@
 pg = pg or {}
 pg.enemy_data_statistics_306 = {
+	[16306002] = {
+		cannon = 750,
+		name = "古代遗迹守护者POWERMAX型-第二形态",
+		hit_growth = 210,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		speed = 25,
+		dodge = 0,
+		antisub = 0,
+		cannon_growth = 0,
+		fog_fx = "",
+		reload_growth = 0,
+		dodge_growth = 198,
+		luck = 0,
+		reload = 150,
+		hit = 9999,
+		antisub_growth = 0,
+		air_growth = 0,
+		torpedo = 500,
+		base = 90717,
+		durability = 700000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		durability_growth = 0,
+		antiaircraft = 600,
+		id = 16306002,
+		battle_unit_type = 95,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {}
+	},
+	[16306003] = {
+		cannon = 750,
+		type = 1,
+		fog_fx = "",
+		speed_growth = 0,
+		pilot_ai_template_id = 20006,
+		air = 0,
+		speed = 25,
+		dodge = 0,
+		id = 16306003,
+		cannon_growth = 0,
+		air_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		icon = "sairenboss11",
+		star = 2,
+		hit = 9999,
+		antisub_growth = 0,
+		rarity = 2,
+		reload = 150,
+		base = 90634,
+		durability = 12000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		antiaircraft = 500,
+		antiaircraft_growth = 0,
+		armor = 0,
+		luck = 0,
+		torpedo = 0,
+		antisub = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		bound_bone = {
+			cannon = {
+				{
+					0,
+					6,
+					0
+				}
+			}
+		},
+		appear_fx = {
+			"appearsmall"
+		},
+		hp_bar = {
+			200,
+			3.5
+		},
+		equipment_list = {
+			3036010,
+			3036011
+		}
+	},
 	[16400001] = {
 		cannon = 5,
 		reload = 150,
@@ -1088,81 +1188,6 @@ pg.enemy_data_statistics_306 = {
 				ID = 50500,
 				LV = 1
 			}
-		}
-	},
-	[16401001] = {
-		cannon = 5,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 300,
-		rarity = 2,
-		air = 0,
-		torpedo = 27,
-		dodge = 0,
-		durability_growth = 4000,
-		antiaircraft = 25,
-		luck = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		hit_growth = 144,
-		star = 2,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 25,
-		base = 90719,
-		durability = 105,
-		armor_growth = 0,
-		torpedo_growth = 3000,
-		luck_growth = 0,
-		speed = 15,
-		armor = 0,
-		id = 16401001,
-		antiaircraft_growth = 800,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			1006001,
-			1006006,
-			1006011
-		}
-	},
-	[16401002] = {
-		cannon = 10,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 800,
-		rarity = 2,
-		air = 0,
-		torpedo = 22,
-		dodge = 0,
-		durability_growth = 5920,
-		antiaircraft = 45,
-		luck = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		hit_growth = 144,
-		star = 2,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 30,
-		base = 90720,
-		durability = 180,
-		armor_growth = 0,
-		torpedo_growth = 2000,
-		luck_growth = 0,
-		speed = 15,
-		armor = 0,
-		id = 16401002,
-		antiaircraft_growth = 1600,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			1006016,
-			1006021,
-			1006031,
-			1006011
 		}
 	}
 }

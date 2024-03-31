@@ -44,7 +44,7 @@ function slot0.ShowNormalFleet(slot0, slot1)
 	slot2 = slot0.contextData.actFleets[slot1]
 	slot3 = slot0:GetFleetEditPanel()
 
-	slot3.buffer:SetSettings(1, 1, false, slot0.contextData.bossActivity:GetEnemyDataByFleetIdx(slot1):GetPropertyLimitation())
+	slot3.buffer:SetSettings(1, 1, false, slot0.contextData.bossActivity:GetEnemyDataByFleetIdx(slot1):GetPropertyLimitation(), slot1)
 	slot3.buffer:SetFleets({
 		slot0.contextData.actFleets[slot1],
 		slot0.contextData.actFleets[slot1 + 10]
