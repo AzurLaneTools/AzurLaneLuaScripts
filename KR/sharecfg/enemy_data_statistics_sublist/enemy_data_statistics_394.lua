@@ -1,5 +1,77 @@
 pg = pg or {}
 pg.enemy_data_statistics_394 = {
+	[295024] = {
+		cannon = 179,
+		name = "아크 로열·META(Tier.9)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 397,
+		hit_growth = 0,
+		dodge = 13,
+		base = 90521,
+		durability_growth = 0,
+		antiaircraft = 306,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 14,
+		hit = 70,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 390000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295024,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
+	[295025] = {
+		cannon = 190,
+		name = "아크 로열·META(Tier.10)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 410,
+		hit_growth = 0,
+		dodge = 14,
+		base = 90521,
+		durability_growth = 0,
+		antiaircraft = 321,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 15,
+		hit = 75,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 480000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295025,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
 	[295026] = {
 		cannon = 202,
 		name = "아크 로열·META(Tier.11)",
@@ -821,78 +893,6 @@ pg.enemy_data_statistics_394 = {
 		armor = 0,
 		antisub = 0,
 		id = 295048,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			}
-		}
-	},
-	[295049] = {
-		cannon = 125,
-		name = "소류·META(Tier.4)",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 330,
-		hit_growth = 0,
-		dodge = 14,
-		base = 90536,
-		durability_growth = 0,
-		antiaircraft = 232,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 10,
-		hit = 45,
-		antisub_growth = 0,
-		air_growth = 0,
-		fog_fx = "",
-		torpedo = 0,
-		durability = 70000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		id = 295049,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			}
-		}
-	},
-	[295050] = {
-		cannon = 135,
-		name = "소류·META(Tier.5)",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 344,
-		hit_growth = 0,
-		dodge = 15,
-		base = 90536,
-		durability_growth = 0,
-		antiaircraft = 246,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 10,
-		hit = 50,
-		antisub_growth = 0,
-		air_growth = 0,
-		fog_fx = "",
-		torpedo = 0,
-		durability = 110000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		id = 295050,
 		buff_list = {
 			{
 				ID = 8830,

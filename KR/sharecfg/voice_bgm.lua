@@ -163,10 +163,10 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "story-italy",
+		default_bgm = "story-richang-5",
 		special_bgm = "",
 		time = "",
-		bgm = "story-italy"
+		bgm = "story-richang-5"
 	},
 	SkinShopScene = {
 		default_bgm = "main",
@@ -1378,5 +1378,59 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "story-italy"
+	},
+	MonopolyPtPage = {
+		default_bgm = "story-richang-2",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-2"
+	},
+	MonopolyPtScene = {
+		default_bgm = "story-richang-3",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-3"
+	},
+	OtherWorldMainPage = {
+		default_bgm = "story-mmorpg",
+		special_bgm = "",
+		time = "",
+		bgm = "story-mmorpg"
+	},
+	OtherworldTerminalLayer = {
+		default_bgm = "story-mmorpg",
+		special_bgm = "",
+		time = "",
+		bgm = "story-mmorpg"
+	},
+	OtherworldBackHillScene = {
+		default_bgm = "Story-musicanniversary-gorgeous",
+		special_bgm = "",
+		time = "",
+		bgm = "Story-musicanniversary-gorgeous"
+	},
+	OtherWorldTempleScene = {
+		default_bgm = "Theme-SeaAndSun-soft",
+		special_bgm = "",
+		time = "",
+		bgm = "Theme-SeaAndSun-soft"
+	},
+	OtherWorldTaskLayer = {
+		default_bgm = "story-mmorpg",
+		special_bgm = "",
+		time = "",
+		bgm = "story-mmorpg"
+	},
+	OtherworldMapScene = {
+		default_bgm = "story-mmorpg",
+		special_bgm = "",
+		time = "",
+		bgm = "story-mmorpg"
+	},
+	AprilFoolDiscovery2024Page = {
+		default_bgm = "story-battle-16bit-SFC",
+		special_bgm = "",
+		time = "",
+		bgm = "story-battle-16bit-SFC"
 	}
 }

@@ -1,5 +1,87 @@
 pg = pg or {}
 pg.enemy_data_statistics_398 = {
+	[295124] = {
+		cannon = 188,
+		name = "애리조나·META(Tier.4)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 14,
+		base = 90718,
+		durability_growth = 0,
+		antiaircraft = 196,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 20,
+		luck = 15,
+		hit = 50,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 0,
+		durability = 76000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295124,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 2
+			}
+		}
+	},
+	[295125] = {
+		cannon = 203,
+		name = "애리조나·META(Tier.5)",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 0,
+		hit_growth = 0,
+		dodge = 15,
+		base = 90718,
+		durability_growth = 0,
+		antiaircraft = 207,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 20,
+		luck = 15,
+		hit = 55,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 0,
+		durability = 120000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 295125,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 2
+			}
+		}
+	},
 	[295126] = {
 		cannon = 217,
 		name = "애리조나·META(Tier.6)",
@@ -980,96 +1062,6 @@ pg.enemy_data_statistics_398 = {
 		antisub = 0,
 		fog_fx = "",
 		id = 295148,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50510,
-				LV = 5
-			},
-			{
-				ID = 200380,
-				LV = 1
-			}
-		}
-	},
-	[295149] = {
-		cannon = 387,
-		name = "퀸 엘리자베스·META(Tier.14)",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 71,
-		base = 90748,
-		durability_growth = 0,
-		antiaircraft = 354,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 24,
-		hit = 100,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 0,
-		durability = 1340000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295149,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50510,
-				LV = 5
-			},
-			{
-				ID = 200380,
-				LV = 1
-			}
-		}
-	},
-	[295150] = {
-		cannon = 407,
-		name = "퀸 엘리자베스·META(Tier.15)",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 0,
-		hit_growth = 0,
-		dodge = 75,
-		base = 90748,
-		durability_growth = 0,
-		antiaircraft = 372,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 30,
-		luck = 25,
-		hit = 110,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 0,
-		durability = 1600000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 295150,
 		buff_list = {
 			{
 				ID = 8830,

@@ -1,6 +1,130 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_8 = {
+	[301149] = {
+		ship_group = 30114,
+		name = "유다치·改",
+		hand_id = 14,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 9,
+		illustrator = 10,
+		painting = "xili_g",
+		l2d_voice_calibrate = "",
+		shop_type_id = 9997,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 2,
+		id = 301149,
+		voice_actor_2 = -1,
+		prefab = "xili_g",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "앗!? 지휘관, 너 키가 작아진 거 아니야? 왜 평소보다 작아 보이지...? 유다치가 큰 거라고!? 정말? 개조가 원래 이런 거였어!?",
+		voice_actor = 17,
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.03,
+					1.06,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.05,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.99,
+					1.24,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.55,
+							2.42,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				-78,
+				-529,
+				0
+			},
+			{
+				0.8
+			}
+		},
+		special_effects = {
+			"lihui_xiligai",
+			{
+				-146,
+				35,
+				0
+			},
+			{
+				1
+			}
+		}
+	},
 	[301150] = {
 		ship_group = 30115,
 		name = "시구레",
@@ -11705,118 +11829,6 @@ pg.base.ship_skin_template_8 = {
 						{
 							-0.38,
 							2.29,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301650] = {
-		ship_group = 30165,
-		name = "미치시오",
-		hand_id = 14,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "manchao",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 301650,
-		voice_actor_2 = -1,
-		prefab = "manchao",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "벚꽃아, 벚꽃아. 랄라라라~ 아, 당신은… 안녕하세요, 지휘관님. 처음뵙겠습니다. 저는 {namecode:147}, 앞으로도 잘 부탁드려요.",
-		voice_actor = 139,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.02,
-					1.03,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.02,
-					1.03,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.08,
-					0.06,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.02,
-					1.03,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.22,
-							2.39,
 							0
 						}
 					}

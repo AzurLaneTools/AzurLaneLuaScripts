@@ -36,16 +36,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5233",
+		param = "5267",
 		id = 2,
-		pic = "temp7",
+		pic = "temp5",
 		type = 3,
 		time = {
 			{
 				{
 					2024,
-					3,
-					28
+					4,
+					1
 				},
 				{
 					0,
@@ -57,7 +57,7 @@ pg.activity_banner = {
 				{
 					2024,
 					4,
-					4
+					7
 				},
 				{
 					23,
@@ -106,15 +106,10 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "5233",
 		id = 4,
-		pic = "temp5",
-		type = 2,
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		},
+		pic = "temp7",
+		type = 3,
 		time = {
 			{
 				{
@@ -377,12 +372,12 @@ pg.activity_banner = {
 		[2] = {
 			1,
 			3,
-			4,
 			6,
 			7
 		},
 		[3] = {
 			2,
+			4,
 			5,
 			8
 		},

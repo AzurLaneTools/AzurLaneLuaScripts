@@ -610,32 +610,32 @@ pg.base.box_data_template = {
 		name = "보물 상자",
 		type = 1,
 		effect_arg = 1,
-		icon = "event7",
-		effect_id = 99312
+		icon = "event8",
+		effect_id = 901878
 	},
 	[10130] = {
 		id = 10130,
 		name = "보물 상자",
 		type = 1,
 		effect_arg = 1,
-		icon = "event7",
-		effect_id = 99314
+		icon = "event8",
+		effect_id = 901880
 	},
 	[10131] = {
 		id = 10131,
 		name = "보물 상자",
 		type = 1,
 		effect_arg = 1,
-		icon = "event7",
-		effect_id = 99316
+		icon = "event8",
+		effect_id = 901882
 	},
 	[10132] = {
 		id = 10132,
 		name = "보물 상자",
 		type = 1,
 		effect_arg = 1,
-		icon = "event7",
-		effect_id = 99318
+		icon = "event8",
+		effect_id = 901884
 	},
 	[20001] = {
 		id = 20001,

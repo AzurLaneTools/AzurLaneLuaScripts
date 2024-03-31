@@ -1,5 +1,100 @@
 pg = pg or {}
 pg.enemy_data_statistics_316 = {
+	[16502201] = {
+		cannon = 80,
+		name = "조프르 통제 무장-「Guard」",
+		type = 2,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		fog_fx = "",
+		dodge = 14,
+		speed = 20,
+		luck = 15,
+		antisub = 0,
+		reload_growth = 0,
+		dodge_growth = 198,
+		antiaircraft_growth = 3600,
+		reload = 150,
+		hit = 16,
+		antisub_growth = 0,
+		air_growth = 0,
+		cannon_growth = 1600,
+		base = 90648,
+		icon_type = 2,
+		armor_growth = 0,
+		torpedo_growth = 2000,
+		antiaircraft = 200,
+		hit_growth = 210,
+		armor = 0,
+		durability = 9220,
+		torpedo = 125,
+		id = 16502201,
+		durability_growth = 193600,
+		luck_growth = 0,
+		battle_unit_type = 90,
+		specific_fx_scale = {
+			yuanchou_gongjian = 0.04
+		},
+		appear_fx = {
+			"appearQ",
+			"yuanchou_gongjian"
+		},
+		equipment_list = {
+			1101072,
+			1101077,
+			1101082,
+			1101087,
+			769002
+		}
+	},
+	[16502202] = {
+		cannon = 82,
+		name = "조프르 통제 무장-「Blast」",
+		type = 3,
+		speed_growth = 0,
+		pilot_ai_template_id = 10001,
+		air = 0,
+		fog_fx = "",
+		dodge = 12,
+		speed = 20,
+		luck = 15,
+		antisub = 0,
+		reload_growth = 0,
+		dodge_growth = 170,
+		antiaircraft_growth = 3200,
+		reload = 150,
+		hit = 16,
+		antisub_growth = 0,
+		air_growth = 0,
+		cannon_growth = 1600,
+		base = 90648,
+		icon_type = 3,
+		armor_growth = 0,
+		torpedo_growth = 1500,
+		antiaircraft = 155,
+		hit_growth = 210,
+		armor = 0,
+		durability = 11030,
+		torpedo = 75,
+		id = 16502202,
+		durability_growth = 228800,
+		luck_growth = 0,
+		battle_unit_type = 90,
+		specific_fx_scale = {
+			yuanchou_gongjian = 0.04
+		},
+		appear_fx = {
+			"appearQ",
+			"yuanchou_gongjian"
+		},
+		equipment_list = {
+			1101092,
+			1101097,
+			1101102,
+			1101107
+		}
+	},
 	[16502203] = {
 		cannon = 82,
 		name = "르 마르스 통제 무장-「Blast」",
@@ -1073,97 +1168,5 @@ pg.enemy_data_statistics_316 = {
 				LV = 4
 			}
 		}
-	},
-	[16503205] = {
-		cannon = 130,
-		reload = 150,
-		speed_growth = 0,
-		cannon_growth = 0,
-		battle_unit_type = 90,
-		air = 206,
-		base = 90252,
-		dodge = 11,
-		durability_growth = 308000,
-		antiaircraft = 251,
-		speed = 20,
-		reload_growth = 0,
-		dodge_growth = 156,
-		luck = 18,
-		antisub = 0,
-		hit = 20,
-		antisub_growth = 0,
-		air_growth = 3500,
-		antiaircraft_growth = 3200,
-		torpedo = 0,
-		durability = 17020,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 210,
-		armor = 0,
-		fog_fx = "",
-		id = 16503205,
-		specific_fx_scale = {
-			yuanchou_kandao = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_kandao"
-		},
-		equipment_list = {
-			1000803,
-			1000808,
-			1000818,
-			1000823
-		}
-	},
-	[16503206] = {
-		cannon = 125,
-		hit_growth = 210,
-		bubble_fx = "",
-		speed_growth = 0,
-		pilot_ai_template_id = 10001,
-		air = 0,
-		speed = 20,
-		dodge = 11,
-		id = 16503206,
-		cannon_growth = 1700,
-		fog_fx = "",
-		reload_growth = 0,
-		dodge_growth = 156,
-		luck = 18,
-		reload = 150,
-		hit = 20,
-		antisub_growth = 0,
-		air_growth = 0,
-		torpedo = 105,
-		base = 90250,
-		durability = 14670,
-		armor_growth = 0,
-		torpedo_growth = 1500,
-		luck_growth = 0,
-		battle_unit_type = 90,
-		armor = 0,
-		durability_growth = 249600,
-		antiaircraft = 205,
-		antisub = 0,
-		antiaircraft_growth = 3200,
-		specific_fx_scale = {
-			yuanchou_kandao = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_kandao"
-		},
-		equipment_list = {
-			1000743,
-			1000748,
-			1000753,
-			1000758,
-			1000763,
-			1000768,
-			1000773
-		},
-		buff_list = {}
 	}
 }

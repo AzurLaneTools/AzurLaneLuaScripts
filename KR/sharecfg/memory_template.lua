@@ -2856,6 +2856,9 @@ pg.memory_template = setmetatable({
 		3433,
 		3434,
 		3435,
+		3471,
+		3472,
+		3473,
 		10000,
 		10001,
 		10002,
@@ -34404,6 +34407,39 @@ pg.base.memory_template = {
 		story = "YINYOUZHEZHISHI5",
 		id = 3435,
 		icon = "memory_yinyouzhezhishi",
+		is_open = 0
+	},
+	[3471] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "잠자는 황금",
+		condition = "이벤트 「각성의 황금」 시작",
+		story = "JUEXINGDEHUANGJIN1",
+		id = 3471,
+		icon = "memory_juexingdehuangjin",
+		is_open = 0
+	},
+	[3472] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "각성하는 황금",
+		condition = "모든 비밀 번호 수집 완료 시",
+		story = "JUEXINGDEHUANGJIN2",
+		id = 3472,
+		icon = "memory_juexingdehuangjin",
+		is_open = 0
+	},
+	[3473] = {
+		type = 2,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "반짝이는 황금",
+		condition = "특수 전투 진입",
+		story = "1360005",
+		id = 3473,
+		icon = "memory_juexingdehuangjin",
 		is_open = 0
 	},
 	[10000] = {

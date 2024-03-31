@@ -1,6 +1,119 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_11 = {
+	[307011] = {
+		ship_group = 30701,
+		name = "낙원의 피안화",
+		hand_id = 2,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70003,
+		painting = "Chicheng_2",
+		illustrator = 8,
+		l2d_voice_calibrate = "",
+		shop_type_id = 6,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "106",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 307011,
+		voice_actor_2 = -1,
+		prefab = "Chicheng_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "「심연을 엿볼 때, 심연 또한 이쪽을 엿보고 있어」 ──지휘관님, 아카기를 바라보실 때, 이 말을 잊지 않도록 하세요~",
+		voice_actor = 44,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.78,
+					0.68,
+					0
+				}
+			},
+			plane = {
+				{
+					1.78,
+					0.68,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							0.478,
+							0.432,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.384,
+							0.853,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[307012] = {
 		ship_group = 30701,
 		name = "매화와 꽃 ",
@@ -8134,7 +8247,7 @@ pg.base.ship_skin_template_11 = {
 		painting = "lingbo_15",
 		illustrator = -1,
 		l2d_voice_calibrate = "",
-		shop_type_id = 9999,
+		shop_type_id = 24,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bg = "158",
@@ -11412,120 +11525,6 @@ pg.base.ship_skin_template_11 = {
 						{
 							-0.58,
 							2.14,
-							-1.05
-						}
-					}
-				}
-			}
-		}
-	},
-	[401251] = {
-		ship_group = 40125,
-		name = "한여름의 바닷바람",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 1,
-		shop_id = 70081,
-		painting = "Z25_2",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 6,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "106",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 401251,
-		voice_actor_2 = -1,
-		prefab = "Z25_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "바닷가에 왔다고 방심하시면 안되죠! 지휘관님, 스트레칭은 충분히 하셨나요?",
-		voice_actor = 3,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.22,
-					0.87,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.25,
-					0.83,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.12,
-					0.1,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.31,
-					0.87,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.28,
 							-1.05
 						}
 					}

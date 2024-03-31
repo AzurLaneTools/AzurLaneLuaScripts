@@ -337952,6 +337952,363 @@ _G.pg.base.ship_data_statistics[900405] = {
 	tag_list = {}
 }
 
+_G.pg.base.ship_data_statistics[900424] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "시제형 부린 MK II 기갑 1호",
+	type = 18,
+	oxy_cost = 0,
+	skin_id = 900424,
+	english_name = "Iron Bulin",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 98,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 900424,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	attrs_growth = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		630071,
+		630073,
+		841050
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		1,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+_G.pg.base.ship_data_statistics[900425] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "시제형 부린 MK II 기갑 2호",
+	type = 18,
+	oxy_cost = 0,
+	skin_id = 900424,
+	english_name = "Iron Bulin",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 98,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 2,
+	huntingrange_level = 0,
+	id = 900425,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	attrs_growth = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		630071,
+		630073,
+		841050
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		1,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+_G.pg.base.ship_data_statistics[900426] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "시제형 부린 MK II 기갑 3호",
+	type = 18,
+	oxy_cost = 0,
+	skin_id = 900424,
+	english_name = "Iron Bulin",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	nationality = 98,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 900426,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	attrs_growth = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		630071,
+		630073,
+		841050
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		1,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
 _G.pg.base.ship_data_statistics[900801] = {
 	raid_distance = 0,
 	oxy_max = 0,

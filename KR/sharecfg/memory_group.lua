@@ -181,6 +181,7 @@ pg.memory_group = setmetatable({
 		278,
 		279,
 		280,
+		282,
 		501,
 		502,
 		503,
@@ -4310,6 +4311,19 @@ pg.base.memory_group = {
 			3433,
 			3434,
 			3435
+		}
+	},
+	[282] = {
+		id = 282,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 5267,
+		title = "각성의 황금",
+		memories = {
+			3471,
+			3472,
+			3473
 		}
 	},
 	[501] = {

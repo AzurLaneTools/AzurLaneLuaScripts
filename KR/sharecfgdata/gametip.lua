@@ -23800,6 +23800,10 @@ _G.pg.base.gametip.caibulin_tip11 = {
 	tip = "신기의 단서 수집 완료 시 특별 스테이지가 해제됩니다~"
 }
 
+_G.pg.base.gametip.caibulin_lock_tip = {
+	tip = "단서 수집 완료 후 특별 스테이지 해제 가능"
+}
+
 _G.pg.base.gametip.gametip_xiaoqiye = {
 	tip = {
 		{

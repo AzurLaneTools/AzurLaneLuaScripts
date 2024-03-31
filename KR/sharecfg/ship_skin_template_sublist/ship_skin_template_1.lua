@@ -342,6 +342,124 @@ pg.base.ship_skin_template_1 = {
 			}
 		}
 	},
+	[100011] = {
+		ship_group = 10001,
+		name = "시제형 첨단 장비(촬영용)",
+		hand_id = 5,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 0,
+		painting = "kin_2",
+		illustrator = 1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 9999,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "176",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 100011,
+		voice_actor_2 = -1,
+		prefab = "kin_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "푸링~! 함대의 구세주, 하늘을 꿰뚫는 드릴을 손에 쥐고 씩씩하게 출격이야, 푸링! 헤헷, 내 최신 작업 폼을 보니 두근거리지, 푸링?!",
+		voice_actor = 72,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.831,
+					0.477,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							0.266,
+							0.329,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.436,
+							2.45,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
 	[100020] = {
 		ship_group = 10002,
 		name = "특장형 부린 MKIII",
@@ -11611,129 +11729,6 @@ pg.base.ship_skin_template_1 = {
 			10151120,
 			10151121,
 			10151122
-		}
-	},
-	[102010] = {
-		ship_group = 10201,
-		name = "오마하",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "aomaha",
-		illustrator = 6,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 102010,
-		voice_actor_2 = -1,
-		prefab = "aomaha",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "오마하급 경순양함·오마하 (CL-4)",
-		voice_actor = 62,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.317,
-					0.665,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.016,
-					0.582,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.59,
-					1.125,
-					0
-				},
-				{
-					0.429,
-					0.906,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.559,
-							0.397,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.42,
-							0.51,
-							0
-						}
-					}
-				}
-			}
 		}
 	}
 }

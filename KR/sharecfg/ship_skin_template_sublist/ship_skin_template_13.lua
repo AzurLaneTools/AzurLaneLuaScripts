@@ -1,6 +1,137 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_13 = {
+	[406012] = {
+		ship_group = 40601,
+		name = "흑요에 빛나는 블랙 다이아",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "1102",
+		l2d_ignore_drag = 0,
+		group_index = 2,
+		shop_id = 70553,
+		painting = "weixi_2",
+		illustrator = -1,
+		shop_type_id = 7,
+		lip_smoothing = 0,
+		bg = "146",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 406012,
+		voice_actor_2 = -1,
+		prefab = "weixi_2",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "오래 기다리게 해서 미안. 하지만, 여자는 옷 입고 화장하는데에 네 생각보다 훨씬 더 많은 시간을 써야한다고. 그럼, 한 명의 신사로서 날 부축해서 이 계단을 내려가 주겠어, 지휘관?",
+		voice_actor = 259,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			-20,
+			-30,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.22,
+					1.2,
+					0
+				}
+			},
+			plane = {
+				{
+					1.32,
+					1.26,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.52,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			login = 17.8,
+			propose = 0.5,
+			main_1 = 0.5,
+			mail = 0.5,
+			expedition = 0.5,
+			mission_complete = 0.5,
+			mission = 0.5,
+			touch2 = 0.5,
+			main_2 = 0.5,
+			touch = 0.5,
+			main_3 = 0.5
+		},
+		l2d_se = {
+			login = {
+				"yinxiao",
+				0.01
+			}
+		}
+	},
 	[406013] = {
 		ship_group = 40601,
 		name = "아름다운 파도의 낙원",
@@ -4849,7 +4980,7 @@ pg.base.ship_skin_template_13 = {
 		painting = "z23_10",
 		illustrator = -1,
 		l2d_voice_calibrate = "",
-		shop_type_id = 9999,
+		shop_type_id = 24,
 		lip_smoothing = 0,
 		l2d_animations = "",
 		bg = "158",
@@ -11375,120 +11506,6 @@ pg.base.ship_skin_template_13 = {
 						{
 							-0.29,
 							2.41,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[502091] = {
-		ship_group = 50209,
-		name = "화등과 밤놀이",
-		hand_id = 9,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 1,
-		shop_id = 70965,
-		painting = "jian_2",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 3,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "152",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 502091,
-		voice_actor_2 = -1,
-		prefab = "jian_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "지휘관님께 새해 인사드립니다. ……제 모습이요? 후후, 늘 바쁘신 지휘관님이 명절에 시간을 내서 오셨으니, 지안도 전력을 다해야죠. 자, 고민은 모두 잊고 이 현란한 밤을 함께 즐겨요♪",
-		voice_actor = 395,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.991,
-					1.293,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.97,
-					1.295,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.521,
-					2.542,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.356,
-							2.542,
 							0
 						}
 					}

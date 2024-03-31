@@ -1,6 +1,120 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_16 = {
+	[901132] = {
+		ship_group = 90113,
+		name = "따끈따끈 일일 점원",
+		hand_id = 5,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 2,
+		shop_id = 70815,
+		painting = "buqu_3",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 3,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "165",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 901132,
+		voice_actor_2 = -1,
+		prefab = "buqu_3",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "으흠… 이 정도 거리면 도보로 이동하는 게 가장 빨리 도착할 것 같군. …눈이 온다고? 흥, 비에도 바람에도 지지 않는 명예로운 호교 기사에게 겨우 눈 따위는 아무런 문제가 안 돼! 다녀오마!",
+		voice_actor = 325,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.91,
+					1.41,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.91,
+					1.35,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.054,
+					0.027,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.75,
+					1.39,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.499,
+							2.186,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[902010] = {
 		ship_group = 90201,
 		name = "라 갈리소니에르 ",
@@ -11971,111 +12085,6 @@ pg.base.ship_skin_template_16 = {
 							0.53,
 							0.47,
 							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900187] = {
-		ship_group = 900187,
-		name = "몬트필리어 ",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "mengbiliai",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 900187,
-		voice_actor_2 = -1,
-		prefab = "mengbiliai",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "클리블랜드급 경순양함 몬트필리어 (CL-57) ",
-		voice_actor = 131,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.18,
-					1.24,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.14,
-					0.13,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.11,
-					1.2,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.45,
-							2.39,
-							-0.15
 						}
 					}
 				}

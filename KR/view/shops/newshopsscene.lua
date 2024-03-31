@@ -195,7 +195,7 @@ function slot0.didEnter(slot0)
 	slot0:InitEntrances()
 	slot0:BlurView()
 
-	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0, 5, slot0.pageContainer, Vector2.New(-35, -90))
+	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0, slot0.pageContainer, Vector2.New(-35, -90))
 end
 
 function slot0.InitEntrances(slot0)

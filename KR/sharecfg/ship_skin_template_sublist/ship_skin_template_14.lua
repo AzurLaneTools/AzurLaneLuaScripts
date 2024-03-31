@@ -1,6 +1,120 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_14 = {
+	[502091] = {
+		ship_group = 50209,
+		name = "화등과 밤놀이",
+		hand_id = 9,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70965,
+		painting = "jian_2",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 3,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "152",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 502091,
+		voice_actor_2 = -1,
+		prefab = "jian_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "지휘관님께 새해 인사드립니다. ……제 모습이요? 후후, 늘 바쁘신 지휘관님이 명절에 시간을 내서 오셨으니, 지안도 전력을 다해야죠. 자, 고민은 모두 잊고 이 현란한 밤을 함께 즐겨요♪",
+		voice_actor = 395,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.991,
+					1.293,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.97,
+					1.295,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.521,
+					2.542,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.356,
+							2.542,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[504010] = {
 		ship_group = 50401,
 		name = "환창",
@@ -11905,120 +12019,6 @@ pg.base.ship_skin_template_14 = {
 						{
 							-0.38,
 							2.196,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[702021] = {
-		ship_group = 70202,
-		name = "감옥과 유혹",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 1,
-		shop_id = 70326,
-		painting = "shuixingjinian_2",
-		illustrator = 1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 12,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "130",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 702021,
-		voice_actor_2 = -1,
-		prefab = "shuixingjinian_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "윽… 이 연습이 뭐라고! 이런 연습이 있다는 건 들어본 적도 없어! 이봐! 얼른 풀란 말이야!",
-		voice_actor = 219,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.038,
-					1.026,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.074,
-					0.969,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.003,
-					0.013,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.152,
-					0.95,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.38,
-							2.225,
 							0
 						}
 					}

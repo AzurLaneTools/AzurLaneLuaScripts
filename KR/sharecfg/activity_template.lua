@@ -20481,6 +20481,93 @@ pg.activity_template = {
 			}
 		}
 	},
+	[5266] = {
+		mark = 20240328,
+		title_res_tag = "",
+		page_info = "",
+		type = 23,
+		login_pop = 0,
+		config_id = 5267,
+		is_show = 0,
+		config_client = "",
+		id = 5266,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5267] = {
+		mark = 20240328,
+		id = 5267,
+		title_res_tag = "2024aprilfool",
+		type = 21,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 50,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AprilFoolDiscovery2024Page",
+			ui_name = "AprilFoolDiscovery2024Page"
+		},
+		config_client = {
+			{},
+			"JUEXINGDEHUANGJIN1",
+			comStory = "JUEXINGDEHUANGJIN2",
+			subView = "AprilFoolKinBurinSubView",
+			lastChapter = 1360005
+		}
+	},
 	[7004] = {
 		mark = 20220324,
 		id = 7004,
@@ -29144,6 +29231,8 @@ pg.activity_template = {
 		5241,
 		5242,
 		5243,
+		5266,
+		5267,
 		7004,
 		7005,
 		7006,

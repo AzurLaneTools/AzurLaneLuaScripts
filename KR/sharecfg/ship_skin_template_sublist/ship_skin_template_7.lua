@@ -1,6 +1,144 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_7 = {
+	[206035] = {
+		ship_group = 20603,
+		name = "천사의 MY NIGHT",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 5,
+		shop_id = 70437,
+		painting = "dujiaoshou_6",
+		illustrator = 1,
+		shop_type_id = 11,
+		lip_smoothing = 0,
+		bg = "120",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 206035,
+		voice_actor_2 = -1,
+		prefab = "dujiaoshou_6",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "유니콘… \"아이돌\"이 됐어… 잘 할 수 있을지는 모르겠지만… 유니콘, 힘 낼게!",
+		voice_actor = 8,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			1,
+			4
+		},
+		live2d_offset = {
+			50,
+			15,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.37,
+					1.176,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.313,
+					1.221,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.006,
+					0.001,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.286,
+					1.199,
+					0
+				}
+			},
+			plane = {
+				{
+					1.199,
+					1.145,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.472,
+							2.435,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			mission_complete = 0.7,
+			headtouch = 3
+		}
+	},
 	[206036] = {
 		ship_group = 20603,
 		name = "시원한 독서 시간",
@@ -11804,130 +11942,6 @@ pg.base.ship_skin_template_7 = {
 						}
 					}
 				}
-			}
-		}
-	},
-	[301149] = {
-		ship_group = 30114,
-		name = "유다치·改",
-		hand_id = 14,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 9,
-		illustrator = 10,
-		painting = "xili_g",
-		l2d_voice_calibrate = "",
-		shop_type_id = 9997,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 2,
-		id = 301149,
-		voice_actor_2 = -1,
-		prefab = "xili_g",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		desc = "앗!? 지휘관, 너 키가 작아진 거 아니야? 왜 평소보다 작아 보이지...? 유다치가 큰 거라고!? 정말? 개조가 원래 이런 거였어!?",
-		voice_actor = 17,
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.03,
-					1.06,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.05,
-					0.1,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.99,
-					1.24,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.55,
-							2.42,
-							0
-						}
-					}
-				}
-			}
-		},
-		spine_offset = {
-			{
-				-78,
-				-529,
-				0
-			},
-			{
-				0.8
-			}
-		},
-		special_effects = {
-			"lihui_xiligai",
-			{
-				-146,
-				35,
-				0
-			},
-			{
-				1
 			}
 		}
 	}
