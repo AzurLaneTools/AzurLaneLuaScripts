@@ -2273,6 +2273,9 @@ pg.memory_template = setmetatable({
 		3216,
 		3217,
 		3218,
+		3471,
+		3472,
+		3473,
 		10011,
 		10012,
 		10013,
@@ -27294,6 +27297,39 @@ pg.base.memory_template = {
 		story = "RENQIXINZEXI",
 		id = 3218,
 		icon = "memory_renqixinzexi",
+		is_open = 0
+	},
+	[3471] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "沉睡的黃金",
+		condition = "開始活動「覺醒的黃金」",
+		story = "JUEXINGDEHUANGJIN1",
+		id = 3471,
+		icon = "memory_juexingdehuangjin",
+		is_open = 0
+	},
+	[3472] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "黃金覺醒",
+		condition = "收集完全部密碼時",
+		story = "JUEXINGDEHUANGJIN2",
+		id = 3472,
+		icon = "memory_juexingdehuangjin",
+		is_open = 0
+	},
+	[3473] = {
+		type = 2,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "黃金的威光",
+		condition = "進入特殊戰鬥",
+		story = "1360005",
+		id = 3473,
+		icon = "memory_juexingdehuangjin",
 		is_open = 0
 	},
 	[10011] = {

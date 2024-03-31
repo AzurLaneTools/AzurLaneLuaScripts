@@ -23121,7 +23121,11 @@ _G.pg.base.gametip.caibulin_help = {
 }
 
 _G.pg.base.gametip.caibulin_tip11 = {
-	tip = "神器線索收集完成即可解鎖特別關卡~"
+	tip = "圖鑑……很可疑，是一個適合藏匿線索的好地方Burin！"
+}
+
+_G.pg.base.gametip.caibulin_lock_tip = {
+	tip = "線索收集完成即可解鎖特別關卡~"
 }
 
 _G.pg.base.gametip.gametip_xiaoqiye = {

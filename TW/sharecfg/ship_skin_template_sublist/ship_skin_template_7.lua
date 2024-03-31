@@ -1,6 +1,121 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_7 = {
+	[205072] = {
+		ship_group = 20507,
+		name = "永夜的卡羅拉",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = 19,
+		id = 205072,
+		l2d_ignore_drag = 0,
+		group_index = 2,
+		shop_id = 70143,
+		painting = "yuekegongjue_3",
+		illustrator = 14,
+		l2d_voice_calibrate = "",
+		shop_type_id = 7,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "107",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "yuekegongjue_3",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "這甘甜的氣息…果然是汝啊，呵呵，興之所至，便換上了這身禮服，汝、有何感想？呼呼…雙眼倒是十分誠實呢",
+		voice_actor = 79,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.16,
+					1.34,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.23,
+					1.3,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.19,
+					0.13,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.17,
+					1.3,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.26,
+							0.53
+						}
+					}
+				}
+			}
+		}
+	},
 	[205073] = {
 		ship_group = 20507,
 		name = "盛譽的光榮方程",
@@ -10937,121 +11052,6 @@ pg.base.ship_skin_template_7 = {
 						{
 							-0.49,
 							2.55,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301057] = {
-		ship_group = 30105,
-		name = "冷靜偶像·迷惑中",
-		hand_id = 14,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		id = 301057,
-		l2d_ignore_drag = 0,
-		group_index = 7,
-		shop_id = 70263,
-		painting = "lingbo_7",
-		illustrator = 2,
-		l2d_voice_calibrate = "",
-		shop_type_id = 11,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "120",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		prefab = "lingbo_7",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "偶像，{namecode:6}，出道？唔，因為標槍她們也出道了，所以，我也要一起……指揮官，偶像平時，都做些什麼呢？",
-		voice_actor = 32,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.152,
-					1.049,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.119,
-					1.069,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.007,
-					-0.01,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.127,
-					1.026,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.63,
-							2.53,
 							0
 						}
 					}

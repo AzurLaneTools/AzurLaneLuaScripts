@@ -1265,16 +1265,10 @@ pg.voice_bgm = {
 		time = "",
 		bgm = "main-chunjie2"
 	},
-	MonopolyPtPage = {
-		default_bgm = "story-richang-2",
+	AprilFoolDiscovery2024Page = {
+		default_bgm = "story-battle-16bit-SFC",
 		special_bgm = "",
 		time = "",
-		bgm = "story-richang-2"
-	},
-	MonopolyPtUI = {
-		default_bgm = "story-richang-3",
-		special_bgm = "",
-		time = "",
-		bgm = "story-richang-3"
+		bgm = "story-battle-16bit-SFC"
 	}
 }

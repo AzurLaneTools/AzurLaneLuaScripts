@@ -109,13 +109,16 @@ pg.activity_link_button = {
 	[70] = {
 		param = "0",
 		name = "event_aprilFool",
-		time = "stop",
-		text_pic = "text_event_aprilFool",
 		type = 0,
-		pic = "event_aprilFool",
+		text_pic = "text_event_aprilFool",
 		id = 70,
 		group_id = 8,
-		order = 1
+		pic = "event_aprilFool",
+		order = 1,
+		time = {
+			"default",
+			5267
+		}
 	},
 	[80] = {
 		type = 2,
@@ -182,6 +185,17 @@ pg.activity_link_button = {
 			"SENRANKAGURA_TRAIN"
 		}
 	},
+	[102] = {
+		param = "0",
+		name = "event_boss_single",
+		time = "stop",
+		text_pic = "text_event_anotherWorld",
+		type = 0,
+		pic = "event_map",
+		id = 102,
+		group_id = 4,
+		order = 1
+	},
 	get_id_list_by_name = {
 		event_all = {
 			1,
@@ -218,6 +232,9 @@ pg.activity_link_button = {
 		},
 		event_senran = {
 			101
+		},
+		event_boss_single = {
+			102
 		}
 	},
 	all = {
@@ -234,6 +251,7 @@ pg.activity_link_button = {
 		1000,
 		90,
 		100,
-		101
+		101,
+		102
 	}
 }
