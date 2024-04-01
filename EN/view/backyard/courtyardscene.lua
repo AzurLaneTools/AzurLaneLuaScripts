@@ -45,7 +45,7 @@ function slot0.didEnter(slot0)
 	slot0:SetUpCourtYard()
 	slot0:FlushMainView()
 
-	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0, 3)
+	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0)
 end
 
 function slot0.OnCourtYardLoaded(slot0)

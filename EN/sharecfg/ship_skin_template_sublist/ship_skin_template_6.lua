@@ -1,6 +1,118 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_6 = {
+	[202260] = {
+		ship_group = 20226,
+		name = "Glasgow",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "gelasige",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 202260,
+		voice_actor_2 = -1,
+		prefab = "gelasige",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Southampton-class light cruiser - Glasgow (C-21)",
+		voice_actor = 129,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.163,
+					1.195,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.176,
+					1.263,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.001,
+					0.001,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.149,
+					1.335,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.39,
+							2.376,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[202261] = {
 		ship_group = 20226,
 		name = "A Maid in Class",
@@ -12067,127 +12179,6 @@ pg.base.ship_skin_template_6 = {
 						{
 							0.52,
 							2.59,
-							-0.55
-						}
-					}
-				}
-			}
-		}
-	},
-	[206022] = {
-		ship_group = 20602,
-		name = "Cerulean Enthrallment",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 2,
-		shop_id = 70907,
-		painting = "baiyanjuren_3",
-		illustrator = 1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 7,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "146",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 206022,
-		voice_actor_2 = -1,
-		prefab = "baiyanjuren_3",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "\"Gaze upon this glorious dress. Admire its brilliance, tremble, and...\" If you don't mind, would you please take Argus' hand?",
-		voice_actor = 350,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.62,
-					1.17,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.62,
-					1.17,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.001,
-					0.006,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.59,
-					1.71,
-					0
-				}
-			},
-			plane = {
-				{
-					1.59,
-					1.71,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.723,
-							2.347,
 							-0.55
 						}
 					}

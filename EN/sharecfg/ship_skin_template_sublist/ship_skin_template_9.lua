@@ -1,6 +1,111 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_9 = {
+	[301630] = {
+		ship_group = 30163,
+		name = "Asashio",
+		hand_id = 14,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "zhaochao",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 301630,
+		voice_actor_2 = -1,
+		prefab = "zhaochao",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Asashio-class destroyer number one – Asashio.",
+		voice_actor = 134,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.645,
+					1.263,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.168,
+					0.053,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.565,
+					1.254,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.522,
+							2.374,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301631] = {
 		ship_group = 30163,
 		name = "The Transfer Student Underneath the Dancing Petals",
@@ -12068,118 +12173,6 @@ pg.base.ship_skin_template_9 = {
 							-0.572,
 							2.29,
 							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[303090] = {
-		ship_group = 30309,
-		name = "Ashigara",
-		hand_id = 14,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "zubing",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 303090,
-		voice_actor_2 = -1,
-		prefab = "zubing",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Myoukou-class heavy cruiser number three - Ashigara",
-		voice_actor = 138,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.21,
-					0.93,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.13,
-					0.98,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.161,
-					0.189,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.23,
-					0.95,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.47,
-							-0.34
 						}
 					}
 				}

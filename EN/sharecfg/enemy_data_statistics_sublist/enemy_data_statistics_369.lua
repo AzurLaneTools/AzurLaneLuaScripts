@@ -1,5 +1,99 @@
 pg = pg or {}
 pg.enemy_data_statistics_369 = {
+	[900014] = {
+		cannon = 150,
+		name = "Prinz Eugen",
+		speed_growth = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		hit_growth = 0,
+		dodge = 0,
+		base = 90213,
+		durability_growth = 0,
+		antiaircraft = 200,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 35,
+		luck = 0,
+		hit = 9999,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 100,
+		durability = 160000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		air = 0,
+		id = 900014,
+		fog_fx = "",
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		}
+	},
+	[900015] = {
+		cannon = 160,
+		name = "Ark Royal",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 300,
+		hit_growth = 0,
+		dodge = 0,
+		base = 90319,
+		durability_growth = 0,
+		antiaircraft = 240,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 35,
+		luck = 0,
+		hit = 9999,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		torpedo = 0,
+		durability = 170000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 900015,
+		bound_bone = {
+			cannon = {
+				{
+					-0.37,
+					0.97,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.53,
+					0.39,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.37,
+					0.97,
+					0
+				}
+			}
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		}
+	},
 	[900016] = {
 		cannon = 160,
 		name = "Akagi",
@@ -1652,214 +1746,6 @@ pg.enemy_data_statistics_369 = {
 			{
 				ID = 50500,
 				LV = 4
-			}
-		}
-	},
-	[900039] = {
-		cannon = 100,
-		antiaircraft_growth = 0,
-		fog_fx = "",
-		speed_growth = 0,
-		rarity = 5,
-		air = 0,
-		speed = 30,
-		dodge = 100,
-		luck = 0,
-		id = 900039,
-		cannon_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		reload = 150,
-		star = 6,
-		hit = 150,
-		antisub_growth = 0,
-		air_growth = 0,
-		torpedo = 100,
-		base = 90303,
-		durability = 2500000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 0,
-		armor = 0,
-		durability_growth = 0,
-		antiaircraft = 320,
-		antisub = 0,
-		battle_unit_type = 90,
-		bound_bone = {
-			cannon = {
-				{
-					1.28,
-					1.19,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.28,
-					1.19,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.29,
-					0.09,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.28,
-					1.19,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.74,
-							0.86,
-							-0.18
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							0.03,
-							2.66,
-							-1.22
-						}
-					}
-				}
-			}
-		},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		buff_list = {
-			{
-				ID = 50500,
-				LV = 3
-			}
-		}
-	},
-	[900040] = {
-		cannon = 150,
-		antiaircraft_growth = 0,
-		fog_fx = "",
-		speed_growth = 0,
-		rarity = 5,
-		air = 0,
-		speed = 30,
-		dodge = 100,
-		luck = 0,
-		id = 900040,
-		cannon_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		reload = 150,
-		star = 6,
-		hit = 150,
-		antisub_growth = 0,
-		air_growth = 0,
-		torpedo = 0,
-		base = 90302,
-		durability = 5030000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		hit_growth = 0,
-		armor = 0,
-		durability_growth = 0,
-		antiaircraft = 400,
-		antisub = 0,
-		battle_unit_type = 90,
-		bound_bone = {
-			cannon = {
-				{
-					1.28,
-					1.19,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.28,
-					1.19,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.29,
-					0.09,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.28,
-					1.19,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.74,
-							0.86,
-							-0.18
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							0.03,
-							2.66,
-							-1.22
-						}
-					}
-				}
-			}
-		},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		buff_list = {
-			{
-				ID = 50500,
-				LV = 5
-			},
-			{
-				ID = 600040,
-				LV = 3
-			},
-			{
-				ID = 600043,
-				LV = 3
 			}
 		}
 	}

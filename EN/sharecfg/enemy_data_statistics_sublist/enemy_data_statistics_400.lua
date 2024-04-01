@@ -1,5 +1,77 @@
 pg = pg or {}
 pg.enemy_data_statistics_400 = {
+	[295051] = {
+		cannon = 145,
+		name = "Souryuu META",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 358,
+		hit_growth = 0,
+		dodge = 16,
+		base = 90536,
+		durability_growth = 0,
+		antiaircraft = 260,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 11,
+		hit = 55,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 150000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295051,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
+	[295052] = {
+		cannon = 155,
+		name = "Souryuu META",
+		reload = 150,
+		cannon_growth = 0,
+		speed_growth = 0,
+		air = 372,
+		hit_growth = 0,
+		dodge = 17,
+		base = 90536,
+		durability_growth = 0,
+		antiaircraft = 274,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 30,
+		luck = 12,
+		hit = 60,
+		antisub_growth = 0,
+		air_growth = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability = 230000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		antisub = 0,
+		id = 295052,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
 	[295053] = {
 		cannon = 165,
 		name = "Souryuu META",

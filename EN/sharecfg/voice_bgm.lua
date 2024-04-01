@@ -1426,5 +1426,11 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "story-mmorpg"
+	},
+	AprilFoolDiscovery2024Page = {
+		default_bgm = "story-battle-16bit-SFC",
+		special_bgm = "",
+		time = "",
+		bgm = "story-battle-16bit-SFC"
 	}
 }

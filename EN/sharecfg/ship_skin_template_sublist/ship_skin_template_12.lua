@@ -1,6 +1,118 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_12 = {
+	[401235] = {
+		ship_group = 40123,
+		name = "Café Trainee @New Base",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 5,
+		shop_id = 0,
+		painting = "z23_8",
+		illustrator = 1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 9999,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 4,
+		id = 401235,
+		voice_actor_2 = -1,
+		prefab = "z23_8",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Hi, welcome! How may I serve y– It's you, Commander?! Err, well, I'm working as a trainee at this Sakura Empire-style café, you see... What do you think of this outfit?",
+		voice_actor = 3,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.14,
+					1.176,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.163,
+					1.133,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.008,
+					0.016,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.189,
+					1.146,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.473,
+							2.485,
+							-0.38
+						}
+					}
+				}
+			}
+		}
+	},
 	[401236] = {
 		ship_group = 40123,
 		name = "Serious Idol @Acting Manager?!",
@@ -12225,138 +12337,6 @@ pg.base.ship_skin_template_12 = {
 					}
 				}
 			}
-		}
-	},
-	[405021] = {
-		ship_group = 40502,
-		name = "Snow-Melting Summer",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 1,
-		shop_id = 70078,
-		painting = "tierbici_2",
-		illustrator = 8,
-		shop_type_id = 6,
-		lip_smoothing = 0,
-		bg = "106",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 405021,
-		voice_actor_2 = -1,
-		prefab = "tierbici_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Summer... In the past, it was always just a hot and stifling season... But now...? Doesn't my outfit tell the whole story? Let's get going, there's bound to be a lot of people on the beach.",
-		voice_actor = 36,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			1,
-			2
-		},
-		live2d_offset = {
-			-27.7,
-			-97.3,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.415,
-					0.767,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.367,
-					0.726,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.262,
-					-0.143,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.404,
-					0.824,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							2.09,
-							-1.22
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_special",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			propose = 2.5,
-			touch2 = 5.9
 		}
 	}
 }

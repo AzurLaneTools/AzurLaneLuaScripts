@@ -1,5 +1,81 @@
 pg = pg or {}
 pg.enemy_data_statistics_368 = {
+	[16599524] = {
+		cannon = 1600,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 75027,
+		air = 0,
+		battle_unit_type = 30,
+		dodge = 200,
+		base = 90906,
+		durability_growth = 0,
+		antiaircraft = 300,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 15,
+		luck = 0,
+		hit = 1000,
+		antisub_growth = 0,
+		air_growth = 0,
+		antiaircraft_growth = 0,
+		torpedo = 1600,
+		durability = 2500,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor = 0,
+		antisub = 0,
+		fog_fx = "",
+		id = 16599524,
+		equipment_list = {
+			3139109
+		}
+	},
+	[16599525] = {
+		cannon = 900,
+		reload = 150,
+		speed_growth = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20005,
+		air = 0,
+		battle_unit_type = 25,
+		dodge = 200,
+		base = 90899,
+		durability_growth = 0,
+		antiaircraft = 120,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed = 15,
+		luck = 0,
+		hit = 800,
+		antisub_growth = 0,
+		air_growth = 0,
+		antiaircraft_growth = 0,
+		torpedo = 1080,
+		durability = 6000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor = 0,
+		id = 16599525,
+		fog_fx = "",
+		antisub = 0,
+		equipment_list = {
+			3139005,
+			3139010,
+			3139015
+		},
+		buff_list = {
+			{
+				ID = 200821,
+				LV = 1
+			}
+		}
+	},
 	[16599526] = {
 		cannon = 1080,
 		reload = 150,
@@ -1155,100 +1231,6 @@ pg.enemy_data_statistics_368 = {
 				ID = 50500,
 				LV = 4
 			}
-		}
-	},
-	[900014] = {
-		cannon = 150,
-		name = "Prinz Eugen",
-		speed_growth = 0,
-		cannon_growth = 0,
-		pilot_ai_template_id = 20006,
-		reload = 150,
-		hit_growth = 0,
-		dodge = 0,
-		base = 90213,
-		durability_growth = 0,
-		antiaircraft = 200,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 35,
-		luck = 0,
-		hit = 9999,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 100,
-		durability = 160000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		air = 0,
-		id = 900014,
-		fog_fx = "",
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		}
-	},
-	[900015] = {
-		cannon = 160,
-		name = "Ark Royal",
-		reload = 150,
-		cannon_growth = 0,
-		speed_growth = 0,
-		air = 300,
-		hit_growth = 0,
-		dodge = 0,
-		base = 90319,
-		durability_growth = 0,
-		antiaircraft = 240,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed = 35,
-		luck = 0,
-		hit = 9999,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		torpedo = 0,
-		durability = 170000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		armor = 0,
-		antisub = 0,
-		fog_fx = "",
-		id = 900015,
-		bound_bone = {
-			cannon = {
-				{
-					-0.37,
-					0.97,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.53,
-					0.39,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.37,
-					0.97,
-					0
-				}
-			}
-		},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
 		}
 	}
 }

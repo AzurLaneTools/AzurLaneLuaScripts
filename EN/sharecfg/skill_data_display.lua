@@ -2923,6 +2923,7 @@ pg.skill_data_display = setmetatable({
 		295007,
 		295008,
 		295009,
+		200897,
 		1011540,
 		1011541,
 		1090010,
@@ -14704,6 +14705,10 @@ pg.base.skill_data_display = {
 	[295009] = {
 		id = 295009,
 		name = "Blessing of Wisdom"
+	},
+	[200897] = {
+		id = 200897,
+		name = "Iron Claw Sweep"
 	},
 	[1011540] = {
 		id = 1011540,

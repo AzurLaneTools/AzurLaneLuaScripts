@@ -1,6 +1,120 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_4 = {
+	[107092] = {
+		ship_group = 10709,
+		name = "Craft Fairytail",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "1102",
+		l2d_ignore_drag = 0,
+		group_index = 2,
+		shop_id = 70419,
+		painting = "aisaikesi_4",
+		illustrator = 8,
+		l2d_voice_calibrate = "",
+		shop_type_id = 7,
+		lip_smoothing = 0,
+		bg = "135",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 107092,
+		voice_actor_2 = -1,
+		prefab = "aisaikesi_4",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Commander?! Ah, um, no, I'm not drunk! ...I, uh, just had a bit too much to drink... just a bit! Please don't tell the others though!",
+		voice_actor = 149,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			1,
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.716,
+					1.151,
+					0
+				}
+			},
+			plane = {
+				{
+					1.784,
+					1.168,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.37,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		}
+	},
 	[107093] = {
 		ship_group = 10709,
 		name = "Brush and Ink",
@@ -11140,111 +11254,6 @@ pg.base.ship_skin_template_4 = {
 				{
 					1.188,
 					0.988,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.5,
-							2.34,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201218] = {
-		ship_group = 20121,
-		name = "Blissful Purity",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 8,
-		shop_id = 0,
-		painting = "biaoqiang_h",
-		illustrator = 1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 9998,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 1,
-		id = 201218,
-		voice_actor_2 = -1,
-		prefab = "biaoqiang_h",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Today, I must be the happiest girl in the world! Hehe~",
-		voice_actor = 23,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.34,
-					0.75,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.18,
-					0.1,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.237,
-					0.99,
 					0
 				}
 			}

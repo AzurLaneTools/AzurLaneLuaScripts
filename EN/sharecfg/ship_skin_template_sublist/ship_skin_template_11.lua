@@ -1,6 +1,106 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_11 = {
+	[306061] = {
+		ship_group = 30606,
+		name = "Slacking Samurai",
+		hand_id = 14,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70124,
+		painting = "longxiang_2",
+		illustrator = 24,
+		l2d_voice_calibrate = "",
+		shop_type_id = 20,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "109",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 306061,
+		voice_actor_2 = -1,
+		prefab = "longxiang_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "*yawn*... Finally, a good night's rest... Now, to pick up where I left off on that RPG... M-m-m-milord, why are you here?! I wasn't slacking off or anything, I w-w-was just... Ughh....",
+		voice_actor = 163,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.241,
+					1.062,
+					0
+				}
+			},
+			plane = {
+				{
+					1.194,
+					1.109,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.205,
+							2.353,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[306062] = {
 		ship_group = 30606,
 		name = "Dragon Hunter: Ryuujou's Rise",
@@ -11345,118 +11445,6 @@ pg.base.ship_skin_template_11 = {
 				{
 					1.005,
 					0.804,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.473,
-							2.485,
-							-0.38
-						}
-					}
-				}
-			}
-		}
-	},
-	[401235] = {
-		ship_group = 40123,
-		name = "Café Trainee @New Base",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 5,
-		shop_id = 0,
-		painting = "z23_8",
-		illustrator = 1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 9999,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 4,
-		id = 401235,
-		voice_actor_2 = -1,
-		prefab = "z23_8",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Hi, welcome! How may I serve y– It's you, Commander?! Err, well, I'm working as a trainee at this Sakura Empire-style café, you see... What do you think of this outfit?",
-		voice_actor = 3,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.14,
-					1.176,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.163,
-					1.133,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.008,
-					0.016,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.189,
-					1.146,
 					0
 				}
 			}

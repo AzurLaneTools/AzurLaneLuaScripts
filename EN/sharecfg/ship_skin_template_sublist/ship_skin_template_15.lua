@@ -1,6 +1,120 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_15 = {
+	[701081] = {
+		ship_group = 70108,
+		name = "Morning's Beckoning",
+		hand_id = 5,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70510,
+		painting = "hongliang_2",
+		illustrator = 1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 20,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "109",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 701081,
+		voice_actor_2 = -1,
+		prefab = "hongliang_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Comrade! The morning is already here! Look how high the sun is in the sky!! C'mon, a wonderful day is calling to us~!!",
+		voice_actor = 265,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.005,
+					1.002,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1,
+					1.01,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.001,
+					0.994,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.468,
+							2.4,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[701090] = {
 		ship_group = 70109,
 		name = "Soobrazitelny",
@@ -11910,118 +12024,6 @@ pg.base.ship_skin_template_15 = {
 		special_effects = "",
 		desc = "Retro~ fit~ com~ plete! The new and improved Le Mars is at your service~!",
 		voice_actor = 124,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.18,
-					1.16,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.12,
-					1.06,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.2,
-					0.09,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.17,
-					0.93,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.26,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[901020] = {
-		ship_group = 90102,
-		name = "Tartu",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "taertu",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 901020,
-		voice_actor_2 = -1,
-		prefab = "taertu",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Vauquelin-class destroyer – Tartu.",
-		voice_actor = 234,
 		spine_offset = "",
 		gyro = 0,
 		rarity_bg = "",

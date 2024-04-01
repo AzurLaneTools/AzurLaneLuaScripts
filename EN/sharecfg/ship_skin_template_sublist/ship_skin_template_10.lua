@@ -1,6 +1,118 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_10 = {
+	[303090] = {
+		ship_group = 30309,
+		name = "Ashigara",
+		hand_id = 14,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "zubing",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 303090,
+		voice_actor_2 = -1,
+		prefab = "zubing",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "Myoukou-class heavy cruiser number three - Ashigara",
+		voice_actor = 138,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.21,
+					0.93,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.13,
+					0.98,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.161,
+					0.189,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.23,
+					0.95,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.47,
+							-0.34
+						}
+					}
+				}
+			}
+		}
+	},
 	[303091] = {
 		ship_group = 30309,
 		name = "Brief Intermission",
@@ -11861,106 +11973,6 @@ pg.base.ship_skin_template_10 = {
 						{
 							-0.52,
 							2.27,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[306061] = {
-		ship_group = 30606,
-		name = "Slacking Samurai",
-		hand_id = 14,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 1,
-		shop_id = 70124,
-		painting = "longxiang_2",
-		illustrator = 24,
-		l2d_voice_calibrate = "",
-		shop_type_id = 20,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "109",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 306061,
-		voice_actor_2 = -1,
-		prefab = "longxiang_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "*yawn*... Finally, a good night's rest... Now, to pick up where I left off on that RPG... M-m-m-milord, why are you here?! I wasn't slacking off or anything, I w-w-was just... Ughh....",
-		voice_actor = 163,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.241,
-					1.062,
-					0
-				}
-			},
-			plane = {
-				{
-					1.194,
-					1.109,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.205,
-							2.353,
 							0
 						}
 					}

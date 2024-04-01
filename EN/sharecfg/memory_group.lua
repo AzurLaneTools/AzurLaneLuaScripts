@@ -179,6 +179,7 @@ pg.memory_group = setmetatable({
 		279,
 		280,
 		281,
+		282,
 		501,
 		502,
 		503,
@@ -4267,6 +4268,19 @@ pg.base.memory_group = {
 			3466,
 			3467,
 			3468
+		}
+	},
+	[282] = {
+		id = 282,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 5267,
+		title = "Rebirth of Gold",
+		memories = {
+			3471,
+			3472,
+			3473
 		}
 	},
 	[501] = {

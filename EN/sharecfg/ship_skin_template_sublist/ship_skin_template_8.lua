@@ -1,6 +1,120 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_8 = {
+	[301123] = {
+		ship_group = 30112,
+		name = "Dusk's Lightning",
+		hand_id = 14,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "1102",
+		l2d_ignore_drag = 0,
+		group_index = 3,
+		shop_id = 70432,
+		painting = "dian_4",
+		illustrator = 2,
+		l2d_voice_calibrate = "",
+		shop_type_id = 7,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "135",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 301123,
+		voice_actor_2 = -1,
+		prefab = "dian_4",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "I'm the fairy of lightning that illuminates the stars in the night sky... So that's what we're going with, huh. Commander, will you accompany me to the party?",
+		voice_actor = 70,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.068,
+					0.888,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.117,
+					0.91,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.001,
+					0.007,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.089,
+					0.874,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.497,
+							2.54,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301124] = {
 		ship_group = 30112,
 		name = "Maid's Flower Offering",
@@ -11781,111 +11895,6 @@ pg.base.ship_skin_template_8 = {
 						{
 							-0.22,
 							2.39,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301630] = {
-		ship_group = 30163,
-		name = "Asashio",
-		hand_id = 14,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "zhaochao",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 301630,
-		voice_actor_2 = -1,
-		prefab = "zhaochao",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "Asashio-class destroyer number one – Asashio.",
-		voice_actor = 134,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.645,
-					1.263,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.168,
-					0.053,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.565,
-					1.254,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.522,
-							2.374,
 							0
 						}
 					}

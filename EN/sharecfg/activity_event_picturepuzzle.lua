@@ -46,13 +46,21 @@ pg.activity_event_picturepuzzle = {
 				1
 			}
 		},
-		auto_finish_args = {}
+		auto_finish_args = {},
+		pickup_views = {
+			"StoreHouseScene",
+			"DockyardScene",
+			"CourtYardScene",
+			"NavalAcademyScene",
+			"NewShopsScene"
+		}
 	},
 	[758] = {
-		id = 758,
+		define = 0,
 		chapter = 0,
 		cd = 0,
-		define = 0,
+		id = 758,
+		pickup_views = "",
 		pickup_picturepuzzle = {},
 		drop_picturepuzzle = {
 			70053,
@@ -73,10 +81,11 @@ pg.activity_event_picturepuzzle = {
 		auto_finish_args = {}
 	},
 	[783] = {
-		id = 783,
+		define = 0,
 		chapter = 0,
 		cd = 0,
-		define = 0,
+		id = 783,
+		pickup_views = "",
 		pickup_picturepuzzle = {},
 		drop_picturepuzzle = {
 			70077,
@@ -147,13 +156,21 @@ pg.activity_event_picturepuzzle = {
 		auto_finish_args = {
 			1,
 			100001
+		},
+		pickup_views = {
+			"StoreHouseScene",
+			"DockyardScene",
+			"CourtYardScene",
+			"NavalAcademyScene",
+			"NewShopsScene"
 		}
 	},
 	[959] = {
-		id = 959,
+		define = 1,
 		chapter = 0,
 		cd = 0,
-		define = 1,
+		id = 959,
+		pickup_views = "",
 		pickup_picturepuzzle = {},
 		drop_picturepuzzle = {
 			60140,
@@ -171,10 +188,11 @@ pg.activity_event_picturepuzzle = {
 		auto_finish_args = {}
 	},
 	[4058] = {
-		id = 4058,
+		define = 0,
 		chapter = 0,
 		cd = 0,
-		define = 0,
+		id = 4058,
+		pickup_views = "",
 		pickup_picturepuzzle = {},
 		drop_picturepuzzle = {
 			70079,
@@ -197,10 +215,11 @@ pg.activity_event_picturepuzzle = {
 		auto_finish_args = {}
 	},
 	[4178] = {
-		id = 4178,
+		define = 0,
 		chapter = 0,
 		cd = 0,
-		define = 0,
+		id = 4178,
+		pickup_views = "",
 		pickup_picturepuzzle = {},
 		drop_picturepuzzle = {
 			70093,
@@ -221,10 +240,11 @@ pg.activity_event_picturepuzzle = {
 		auto_finish_args = {}
 	},
 	[4669] = {
-		id = 4669,
+		define = 0,
 		chapter = 0,
 		cd = 0,
-		define = 0,
+		id = 4669,
+		pickup_views = "",
 		pickup_picturepuzzle = {},
 		drop_picturepuzzle = {
 			70119,
@@ -291,13 +311,22 @@ pg.activity_event_picturepuzzle = {
 				1
 			}
 		},
-		auto_finish_args = {}
+		auto_finish_args = {},
+		pickup_views = {
+			"StoreHouseScene",
+			"DockyardScene",
+			"CourtYardScene",
+			"NavalAcademyScene",
+			"NewShopsScene",
+			"BuildShipScene"
+		}
 	},
 	[4779] = {
-		id = 4779,
+		define = 0,
 		chapter = 0,
 		cd = 0,
-		define = 0,
+		id = 4779,
+		pickup_views = "",
 		pickup_picturepuzzle = {},
 		drop_picturepuzzle = {
 			70138,
@@ -324,10 +353,11 @@ pg.activity_event_picturepuzzle = {
 		auto_finish_args = {}
 	},
 	[4889] = {
-		id = 4889,
+		define = 1,
 		chapter = 0,
 		cd = 0,
-		define = 1,
+		id = 4889,
+		pickup_views = "",
 		pickup_picturepuzzle = {},
 		drop_picturepuzzle = {
 			60401,
@@ -348,10 +378,11 @@ pg.activity_event_picturepuzzle = {
 		auto_finish_args = {}
 	},
 	[4935] = {
-		id = 4935,
+		define = 0,
 		chapter = 0,
 		cd = 0,
-		define = 0,
+		id = 4935,
+		pickup_views = "",
 		pickup_picturepuzzle = {},
 		drop_picturepuzzle = {
 			70146,
@@ -372,10 +403,11 @@ pg.activity_event_picturepuzzle = {
 		auto_finish_args = {}
 	},
 	[5093] = {
-		id = 5093,
+		define = 0,
 		chapter = 0,
 		cd = 0,
-		define = 0,
+		id = 5093,
+		pickup_views = "",
 		pickup_picturepuzzle = {},
 		drop_picturepuzzle = {
 			70158,
@@ -390,11 +422,81 @@ pg.activity_event_picturepuzzle = {
 		awards = {},
 		auto_finish_args = {}
 	},
+	[5267] = {
+		id = 5267,
+		chapter = 1360005,
+		cd = 600,
+		define = 0,
+		pickup_picturepuzzle = {
+			60472,
+			60474,
+			60476,
+			60478,
+			60479,
+			60480,
+			60481
+		},
+		drop_picturepuzzle = {
+			60471,
+			60473,
+			60475,
+			60477
+		},
+		story = {},
+		awards = {
+			{
+				8,
+				60472,
+				1
+			},
+			{
+				8,
+				60474,
+				1
+			},
+			{
+				8,
+				60476,
+				1
+			},
+			{
+				8,
+				60478,
+				1
+			},
+			{
+				8,
+				60479,
+				1
+			},
+			{
+				8,
+				60480,
+				1
+			},
+			{
+				8,
+				60481,
+				1
+			}
+		},
+		auto_finish_args = {},
+		pickup_views = {
+			"StoreHouseScene",
+			"DockyardScene",
+			"CourtYardScene",
+			"NavalAcademyScene",
+			"NewShopsScene",
+			"BuildShipScene",
+			"CollectionScene"
+		}
+	},
 	[30378] = {
-		id = 30378,
+		define = 0,
 		chapter = 1360001,
 		cd = 1200,
-		define = 0,
+		id = 30378,
+		pickup_views = "",
 		pickup_picturepuzzle = {
 			60031,
 			60033,
@@ -439,10 +541,11 @@ pg.activity_event_picturepuzzle = {
 		auto_finish_args = {}
 	},
 	[30751] = {
-		id = 30751,
+		define = 0,
 		chapter = 0,
 		cd = 0,
-		define = 0,
+		id = 30751,
+		pickup_views = "",
 		pickup_picturepuzzle = {},
 		drop_picturepuzzle = {
 			70053,
@@ -463,10 +566,11 @@ pg.activity_event_picturepuzzle = {
 		auto_finish_args = {}
 	},
 	[30774] = {
-		id = 30774,
+		define = 0,
 		chapter = 0,
 		cd = 0,
-		define = 0,
+		id = 30774,
+		pickup_views = "",
 		pickup_picturepuzzle = {},
 		drop_picturepuzzle = {
 			70077,
@@ -502,6 +606,7 @@ pg.activity_event_picturepuzzle = {
 		4889,
 		4935,
 		5093,
+		5267,
 		30378,
 		30751,
 		30774

@@ -24415,6 +24415,10 @@ _G.pg.base.gametip.caibulin_tip11 = {
 	tip = "Collect all the clues to unlock a secret stage!"
 }
 
+_G.pg.base.gametip.caibulin_lock_tip = {
+	tip = "Collect all Clues to unlock special stage!"
+}
+
 _G.pg.base.gametip.gametip_xiaoqiye = {
 	tip = {
 		{

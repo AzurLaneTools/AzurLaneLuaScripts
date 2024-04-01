@@ -2836,6 +2836,9 @@ pg.memory_template = setmetatable({
 		3466,
 		3467,
 		3468,
+		3471,
+		3472,
+		3473,
 		10011,
 		10012,
 		10013,
@@ -34151,6 +34154,39 @@ pg.base.memory_template = {
 		story = "CONGLINGKAISHIMOWANG28",
 		id = 3468,
 		icon = "memory_conglingkaishimowang",
+		is_open = 0
+	},
+	[3471] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "Golden Slumber",
+		condition = "Start \"Golden Awakening\".",
+		story = "JUEXINGDEHUANGJIN1",
+		id = 3471,
+		icon = "memory_juexingdehuangjin",
+		is_open = 0
+	},
+	[3472] = {
+		type = 1,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "Golden Awakening",
+		condition = "Collect all Clues.",
+		story = "JUEXINGDEHUANGJIN2",
+		id = 3472,
+		icon = "memory_juexingdehuangjin",
+		is_open = 0
+	},
+	[3473] = {
+		type = 2,
+		subtitle = "",
+		mask = "bg/bg_memory",
+		title = "Golden Glow",
+		condition = "Enter special battle.",
+		story = "1360005",
+		id = 3473,
+		icon = "memory_juexingdehuangjin",
 		is_open = 0
 	},
 	[10011] = {
