@@ -1414,12 +1414,13 @@ pg.activity_template = {
 	},
 	[4574] = {
 		mark = 20240321,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 43,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4574,
 		config_data = {
 			{
@@ -1435,45 +1436,19 @@ pg.activity_template = {
 				98461
 			}
 		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					3,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			ui = "ColoringMingUI"
 		}
 	},
 	[4575] = {
 		mark = 20240321,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4575,
 		config_data = {
@@ -1486,33 +1461,6 @@ pg.activity_template = {
 			18066,
 			18067,
 			18068
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					3,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4595] = {
@@ -5906,12 +5854,13 @@ pg.activity_template = {
 	},
 	[4917] = {
 		mark = 20240321,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4917,
 		config_data = {
@@ -5922,33 +5871,6 @@ pg.activity_template = {
 			18960,
 			18961,
 			18962
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					3,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4918] = {
@@ -6065,45 +5987,19 @@ pg.activity_template = {
 	},
 	[4921] = {
 		mark = 20240321,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 60,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4921,
 		config_data = {
 			380,
 			381,
 			382
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					3,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4922] = {
@@ -6135,7 +6031,7 @@ pg.activity_template = {
 				{
 					2024,
 					4,
-					3
+					10
 				},
 				{
 					23,

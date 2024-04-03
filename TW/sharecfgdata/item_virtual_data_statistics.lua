@@ -157528,8 +157528,8 @@ _G.pg.base.item_virtual_data_statistics[59409] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[59410] = {
-	display = "用于「杰诺瓦的焰火」复刻活动累计奖励，活动结束后将会消失",
-	name = "鸢尾之刃",
+	display = "用於「杰諾瓦的焰火」復刻活動累計獎勵，活動結束後將會消失",
+	name = "鳶尾之刃",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
