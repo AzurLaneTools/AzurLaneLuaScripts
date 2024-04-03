@@ -34152,7 +34152,7 @@ pg.equip_skin_template = {
 		orbit_ui = "",
 		miss_sfx = "",
 		orbit_combat_anima_change = "",
-		icon = "96731",
+		icon = "96713",
 		orbit_combat = "",
 		orbit_hidden_action = "",
 		mirror = 0,
@@ -34223,6 +34223,235 @@ pg.equip_skin_template = {
 		orbit_hidden_action = {
 			"sleep",
 			"wash"
+		}
+	},
+	[2065] = {
+		hit_sfx = "",
+		bullet_name = "zidan_gaoliangfaqiu",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		name = "秘术法球子弹",
+		themeid = 105,
+		desc = "轻盈的秘术法球，可以一直飘荡到远方！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		miss_sfx = "",
+		orbit_combat_anima_change = "",
+		icon = "96714",
+		orbit_combat = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_ui_back = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		id = 2065,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[2066] = {
+		hit_sfx = "",
+		bullet_name = "yulei_bingmozhua",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		name = "冰霜魔爪鱼雷",
+		themeid = 105,
+		desc = "将目标与大海一同冰封吧！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		miss_sfx = "",
+		orbit_combat_anima_change = "",
+		icon = "96715",
+		orbit_combat = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_ui_back = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "yulei_bingmozhua_hit",
+		id = 2066,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[2067] = {
+		hit_sfx = "",
+		bullet_name = "",
+		name = "永续型魔法盾（设备）",
+		type = 1,
+		preview_hit_distance = 0,
+		themeid = 105,
+		orbit_combat = "yishijie_xingguanghudun",
+		desc = "永续型魔法护盾，安心、省心、舒心。",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "shebei_xingguanghudunui",
+		miss_sfx = "",
+		orbit_combat_anima_change = "",
+		icon = "96742",
+		orbit_ui_back = 0,
+		mirror = 0,
+		rarity = 4,
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		id = 2067,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.13,
+				0.47,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				0,
+				46
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
+	[2068] = {
+		hit_sfx = "",
+		bullet_name = "feiji_juyanlong",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		name = "火焰巨龙飞机(鱼雷)",
+		themeid = 105,
+		desc = "“吼——”让火焰净化一切！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_ui = "",
+		miss_sfx = "",
+		orbit_combat_anima_change = "",
+		icon = "96731",
+		orbit_combat = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_ui_back = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		id = 2068,
+		derivate_torpedo = "yulei_bingmozhua",
+		ship_skin_id = 0,
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[2069] = {
+		hit_sfx = "",
+		bullet_name = "feiji_juyanlong1",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		name = "火焰巨龙飞机(战斗)",
+		themeid = 105,
+		desc = "“吼——”让火焰净化一切！",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_yunshi",
+		orbit_ui = "",
+		miss_sfx = "",
+		orbit_combat_anima_change = "",
+		icon = "96731",
+		orbit_combat = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_ui_back = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		id = 2069,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[2070] = {
+		hit_sfx = "",
+		bullet_name = "feiji_juyanlong2",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		name = "火焰巨龙飞机(轰炸)",
+		themeid = 105,
+		desc = "“吼——”让火焰净化一切！",
+		ship_config_id = 100011,
+		derivate_boom = "paodan_yunshi",
+		orbit_ui = "",
+		miss_sfx = "",
+		orbit_combat_anima_change = "",
+		icon = "96731",
+		orbit_combat = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_ui_back = 0,
+		orbit_combat_bound = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		id = 2070,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
 		}
 	},
 	all = {
@@ -35171,6 +35400,12 @@ pg.equip_skin_template = {
 		2061,
 		2062,
 		2063,
-		2064
+		2064,
+		2065,
+		2066,
+		2067,
+		2068,
+		2069,
+		2070
 	}
 }

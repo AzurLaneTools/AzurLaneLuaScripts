@@ -36471,7 +36471,7 @@ _G.pg.base.shop_template[70759] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 98,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -36487,8 +36487,8 @@ _G.pg.base.shop_template[70759] = {
 		{
 			{
 				2024,
-				3,
-				14
+				4,
+				3
 			},
 			{
 				0,
@@ -36500,7 +36500,7 @@ _G.pg.base.shop_template[70759] = {
 			{
 				2024,
 				4,
-				3
+				24
 			},
 			{
 				23,
@@ -36522,7 +36522,7 @@ _G.pg.base.shop_template[70760] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 98,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -36538,8 +36538,8 @@ _G.pg.base.shop_template[70760] = {
 		{
 			{
 				2024,
-				3,
-				14
+				4,
+				3
 			},
 			{
 				0,
@@ -36551,7 +36551,7 @@ _G.pg.base.shop_template[70760] = {
 			{
 				2024,
 				4,
-				3
+				24
 			},
 			{
 				23,
@@ -36573,7 +36573,7 @@ _G.pg.base.shop_template[70761] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 98,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -36589,8 +36589,8 @@ _G.pg.base.shop_template[70761] = {
 		{
 			{
 				2024,
-				3,
-				14
+				4,
+				3
 			},
 			{
 				0,
@@ -36602,7 +36602,7 @@ _G.pg.base.shop_template[70761] = {
 			{
 				2024,
 				4,
-				3
+				24
 			},
 			{
 				23,
@@ -36624,7 +36624,7 @@ _G.pg.base.shop_template[70762] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 98,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -36640,8 +36640,8 @@ _G.pg.base.shop_template[70762] = {
 		{
 			{
 				2024,
-				3,
-				14
+				4,
+				3
 			},
 			{
 				0,
@@ -36653,7 +36653,7 @@ _G.pg.base.shop_template[70762] = {
 			{
 				2024,
 				4,
-				3
+				24
 			},
 			{
 				23,

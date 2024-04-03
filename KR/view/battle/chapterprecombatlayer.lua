@@ -183,7 +183,7 @@ end
 function slot0.Register(slot0)
 	slot1 = slot0._formationLogic
 
-	slot1:AddHeroInfoModify(function (slot0, slot1)
+	slot1:AddHeroInfoModify(function (slot0, slot1, slot2)
 		setAnchoredPosition(slot0, {
 			x = 0,
 			y = 0
@@ -191,50 +191,52 @@ function slot0.Register(slot0)
 		SetActive(slot0, true)
 
 		slot0.name = "info"
-		slot3 = findTF(findTF(slot0, "info"), "stars")
-		slot5 = findTF(slot2, "energy")
+		slot4 = findTF(findTF(slot0, "info"), "stars")
+		slot6 = findTF(slot3, "energy")
 
 		if slot1:getEnergy() <= Ship.ENERGY_MID then
-			slot6, slot7 = slot1:getEnergyPrint()
+			slot7, slot8 = slot1:getEnergyPrint()
 
-			if not GetSpriteFromAtlas("energy", slot6) then
+			if not GetSpriteFromAtlas("energy", slot7) then
 				warning("找不到疲劳")
 			end
 
-			setImageSprite(slot5, slot8)
+			setImageSprite(slot6, slot9)
 		end
 
-		setActive(slot5, slot4)
+		setActive(slot6, slot5)
 
-		for slot10 = 1, slot1:getStar() do
-			cloneTplTo(uv0._starTpl, slot3)
+		for slot11 = 1, slot1:getStar() do
+			cloneTplTo(uv0._starTpl, slot4)
 		end
 
 		if not GetSpriteFromAtlas("shiptype", shipType2print(slot1:getShipType())) then
 			warning("找不到船形, shipConfigId: " .. slot1.configId)
 		end
 
-		setImageSprite(findTF(slot2, "type"), slot7, true)
-		setText(findTF(slot2, "frame/lv_contain/lv"), slot1.level)
+		setImageSprite(findTF(slot3, "type"), slot8, true)
+		setText(findTF(slot3, "frame/lv_contain/lv"), slot1.level)
 
-		slot8 = findTF(slot2, "blood")
-		slot10 = findTF(slot8, "fillarea/red")
+		slot9 = findTF(slot3, "blood")
+		slot11 = findTF(slot9, "fillarea/red")
 
-		setActive(findTF(slot8, "fillarea/green"), ChapterConst.HpGreen <= slot1.hpRant)
-		setActive(slot10, slot1.hpRant < ChapterConst.HpGreen)
+		setActive(findTF(slot9, "fillarea/green"), ChapterConst.HpGreen <= slot1.hpRant)
+		setActive(slot11, slot1.hpRant < ChapterConst.HpGreen)
 
-		(ChapterConst.HpGreen <= slot1.hpRant and slot9 or slot10):GetComponent("Image").fillAmount = slot1.hpRant * 0.0001
+		(ChapterConst.HpGreen <= slot1.hpRant and slot10 or slot11):GetComponent("Image").fillAmount = slot1.hpRant * 0.0001
 
-		setActive(slot2:Find("expbuff"), getProxy(ActivityProxy):getBuffShipList()[slot1:getGroupId()] ~= nil)
+		slot2:SetVisible(slot1.hpRant > 0)
+		SetActive(slot0, slot1.hpRant > 0)
+		setActive(slot3:Find("expbuff"), getProxy(ActivityProxy):getBuffShipList()[slot1:getGroupId()] ~= nil)
 
-		if slot13 then
-			slot17 = tostring(slot13 / 100)
+		if slot14 then
+			slot18 = tostring(slot14 / 100)
 
-			if slot13 % 100 > 0 then
-				slot17 = slot17 .. "." .. tostring(slot16)
+			if slot14 % 100 > 0 then
+				slot18 = slot18 .. "." .. tostring(slot17)
 			end
 
-			setText(slot14:Find("text"), string.format("EXP +%s%%", slot17))
+			setText(slot15:Find("text"), string.format("EXP +%s%%", slot18))
 		end
 	end)
 
@@ -254,6 +256,22 @@ function slot0.Register(slot0)
 
 	slot1:AddCheckRemove(function (slot0, slot1)
 		slot0()
+	end)
+
+	slot1 = slot0._formationLogic
+
+	slot1:AddCheckSwitch(function (slot0, slot1, slot2, slot3, slot4)
+		if slot3.ships[slot3:getTeamByName(slot4)[slot2]].hpRant == 0 then
+			return
+		end
+
+		slot0()
+	end)
+
+	slot1 = slot0._formationLogic
+
+	slot1:AddCheckBeginDrag(function (slot0, slot1, slot2)
+		return slot0.hpRant > 0
 	end)
 end
 
@@ -406,6 +424,8 @@ function slot0.updateBattleFleetView(slot0)
 				setActive(slot10, slot7 < ChapterConst.HpGreen)
 
 				(ChapterConst.HpGreen <= slot7 and slot9 or slot10):GetComponent("Image").fillAmount = slot7 * 0.0001
+
+				setActive(findTF(slot6, "broken"), slot7 == 0)
 			end
 		end
 	end

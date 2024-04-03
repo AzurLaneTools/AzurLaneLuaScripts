@@ -208,13 +208,24 @@ end
 function slot0.FilterOwnCount(slot0, slot1)
 	slot2 = {}
 	slot3 = {}
-	slot4 = getProxy(DormProxy):getRawData()
+	slot4 = {}
+	slot5 = getProxy(DormProxy):getRawData()
 
-	for slot8, slot9 in ipairs(slot1) do
-		slot3[slot9.configId] = (slot3[slot9.configId] or 0) + 1
+	for slot9, slot10 in ipairs(slot1) do
+		slot3[slot10.configId] = (slot3[slot10.configId] or 0) + 1
 
-		if slot3[slot9.configId] <= slot4:GetOwnFurnitureCount(slot9.configId) then
-			table.insert(slot2, slot9)
+		if slot3[slot10.configId] <= slot5:GetOwnFurnitureCount(slot10.configId) then
+			table.insert(slot2, slot10)
+		else
+			table.insert(slot4, slot10.id)
+		end
+	end
+
+	for slot9, slot10 in ipairs(slot4) do
+		for slot14, slot15 in ipairs(slot2) do
+			if slot15.parent == slot10 then
+				slot15.parent = 0
+			end
 		end
 	end
 

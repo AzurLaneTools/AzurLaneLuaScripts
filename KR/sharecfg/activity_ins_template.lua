@@ -9835,32 +9835,6 @@ pg.activity_ins_template = {
 			3438
 		}
 	},
-	{
-		ship_group = 40199,
-		name = "禁止使用",
-		sculpture = "禁止使用",
-		message_persist = "ins_373",
-		picture_persist = "https://blcdn.imtxwy.com/pic/20230525_nTU6FWBPdBRbAJrz_aerwensilaiben.png",
-		group_id = 373,
-		id = 373,
-		is_active = 0,
-		time_persist = {
-			{
-				2023,
-				6,
-				11
-			},
-			{
-				10,
-				36,
-				0
-			}
-		},
-		npc_discuss_persist = {
-			3443,
-			3445
-		}
-	},
 	[375] = {
 		ship_group = 20603,
 		name = "UnicornI72",
@@ -12202,7 +12176,6 @@ pg.activity_ins_template = {
 		370,
 		371,
 		372,
-		373,
 		375,
 		376,
 		377,

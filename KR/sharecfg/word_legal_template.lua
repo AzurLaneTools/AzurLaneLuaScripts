@@ -3962,6 +3962,20 @@ end
 temp()
 
 function temp()
+	uv0["努"] = {
+		["比"] = {
+			["亚"] = {
+				["人"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["셰"] = {
 		["필"] = {
 			["드"] = {
@@ -4113,6 +4127,18 @@ end
 temp()
 
 function temp()
+	uv0["利"] = {
+		["物"] = {
+			["浦"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
 	uv0["런"] = {
 		["던"] = {
 			this = true,
@@ -4196,6 +4222,18 @@ function temp()
 	uv0["엑"] = {
 		["세"] = {
 			["터"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["德"] = {
+		["文"] = {
+			["郡"] = {
 				this = true
 			}
 		}
@@ -4366,6 +4404,16 @@ function temp()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["安"] = {
+		["森"] = {
+			this = true
 		}
 	}
 end
@@ -5204,6 +5252,24 @@ function temp()
 		},
 		this = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["腓"] = {
+		["特"] = {
+			["烈"] = {
+				["·"] = {
+					["卡"] = {
+						["尔"] = {
+							this = true
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -6068,6 +6134,28 @@ function temp()
 						["갤"] = {
 							["리"] = {
 								this = true
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["吸"] = {
+		["血"] = {
+			["鬼"] = {
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
 							}
 						}
 					}

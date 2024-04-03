@@ -14300,6 +14300,36 @@ _G.pg.base.item_data_statistics[21031] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[21032] = {
+	open_directly = 0,
+	name = "结晶：吸血鬼·META",
+	display = "吸血鬼·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	type = 4,
+	display_effect = "",
+	id = 21032,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "Props/21032",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "결정화 내열강",
@@ -24042,6 +24072,113 @@ _G.pg.base.item_data_statistics[30418] = {
 		{
 			9,
 			2064,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30419] = {
+	open_directly = 1,
+	name = "火焰巨龙飞机",
+	display = "可以获得火焰巨龙飞机(鱼雷)、火焰巨龙飞机(战斗)、火焰巨龙飞机(轰炸)外观装备各一件",
+	type = 11,
+	display_effect = "",
+	id = 30419,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Equips/96731",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30419",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2068,
+			1
+		},
+		{
+			9,
+			2069,
+			1
+		},
+		{
+			9,
+			2070,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30420] = {
+	open_directly = 1,
+	name = "장비스킨 상자(월드 투어)",
+	display = "이번 월드 투어 한정 장비 스킨 랜덤 획득 가능",
+	type = 11,
+	display_effect = "",
+	id = 30420,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30420",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2065,
+			1
+		},
+		{
+			9,
+			2066,
+			1
+		},
+		{
+			9,
+			2067,
+			1
+		},
+		{
+			9,
+			2068,
+			1
+		},
+		{
+			9,
+			2069,
+			1
+		},
+		{
+			9,
+			2070,
 			1
 		}
 	},

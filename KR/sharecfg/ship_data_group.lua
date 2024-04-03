@@ -2071,6 +2071,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[970505] = {
 			30031
+		},
+		[970105] = {
+			30032
 		}
 	},
 	all = {
@@ -2763,7 +2766,8 @@ pg.ship_data_group = setmetatable({
 		30028,
 		30029,
 		30030,
-		30031
+		30031,
+		30032
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -31160,6 +31164,41 @@ pg.base.ship_data_group = {
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9705051
+					}
+				},
+				0
+			}
+		}
+	},
+	[30032] = {
+		type = 1,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 97,
+		trans_skin = 0,
+		handbook_type = 3,
+		index_id = 30032,
+		code = 30032,
+		group_type = 970105,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"B",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 世界巡游",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9701051
 					}
 				},
 				0

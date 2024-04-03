@@ -1,6 +1,106 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_13 = {
+	[406011] = {
+		ship_group = 40601,
+		name = "금빛 어둠의 향연",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "1102",
+		l2d_ignore_drag = 0,
+		group_index = 1,
+		shop_id = 70471,
+		painting = "weixi_3",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 2,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "136",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 406011,
+		voice_actor_2 = -1,
+		prefab = "weixi_3",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "오래 기다렸어, 지휘관. 자매함들이 추천해줘서 사쿠라 엠파이어의 \"기모노\"를 입어봤는데, 입는 법이 좀 까다로워서... 아예 이렇게 걸치고만 있어도, 별로 문제 없겠지, 아마?",
+		voice_actor = 259,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.624,
+					1.001,
+					0
+				}
+			},
+			plane = {
+				{
+					1.602,
+					0.994,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.364,
+							2.486,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[406012] = {
 		ship_group = 40601,
 		name = "흑요에 빛나는 블랙 다이아",
@@ -11394,118 +11494,6 @@ pg.base.ship_skin_template_13 = {
 						{
 							-0.478,
 							2.481,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[502090] = {
-		ship_group = 50209,
-		name = "지안",
-		hand_id = 9,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "jian",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 502090,
-		voice_actor_2 = -1,
-		prefab = "jian",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "CNT 조선소 1800톤급 소형 방호 순양함—지안",
-		voice_actor = 395,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.34,
-					0.92,
-					0
-				}
-			},
-			vicegun = {
-				{
-					2.35,
-					0.87,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.98,
-					1.79,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.29,
-							2.41,
 							0
 						}
 					}

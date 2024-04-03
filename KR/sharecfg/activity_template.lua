@@ -19370,40 +19370,14 @@ pg.activity_template = {
 	},
 	[5210] = {
 		mark = 20240222,
-		id = 5210,
 		title_res_tag = "Georgia_catchup",
+		time = "stop",
 		type = 69,
 		login_pop = 0,
 		config_id = 25,
 		is_show = 36,
+		id = 5210,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					3,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "ChkalovTecCatchupPage",
 			ui_name = "ChkalovTecCatchupPage"
@@ -19414,41 +19388,15 @@ pg.activity_template = {
 	},
 	[5211] = {
 		mark = 20240222,
-		config_client = "",
 		title_res_tag = "activity",
+		time = "stop",
 		type = 87,
 		login_pop = 0,
 		config_id = 16,
 		is_show = 38,
+		config_client = "",
 		id = 5211,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					3,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "MaoxiV4FramePage",
 			ui_name = "MaoxiV4FramePage"
@@ -19456,12 +19404,13 @@ pg.activity_template = {
 	},
 	[5212] = {
 		mark = 20240222,
-		id = 5212,
 		title_res_tag = "xiangshanerxing",
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
 		is_show = 37,
+		id = 5212,
 		config_data = {
 			{
 				19787,
@@ -19490,33 +19439,6 @@ pg.activity_template = {
 			{
 				19799,
 				19800
-			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					3,
-					7
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		page_info = {
@@ -19761,41 +19683,15 @@ pg.activity_template = {
 	},
 	[5229] = {
 		mark = 20240229,
-		config_client = "",
 		title_res_tag = "maoxiv4_pt",
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 5229,
 		is_show = 40,
+		config_client = "",
 		id = 5229,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					3,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "MaoxiV4PtPage",
 			ui_name = "MaoxiV4PtPage"
@@ -19803,12 +19699,13 @@ pg.activity_template = {
 	},
 	[5230] = {
 		mark = 20240229,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 14,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 5230,
 		config_data = {
 			2410,
@@ -19838,33 +19735,6 @@ pg.activity_template = {
 			2434,
 			2435,
 			2436
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					3,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			"commonbg/bg_pt_suweiaitongmeng",
@@ -20481,6 +20351,322 @@ pg.activity_template = {
 			}
 		}
 	},
+	[5244] = {
+		mark = 20240321,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 5244,
+		config_data = {
+			10170,
+			10171,
+			10172,
+			10173,
+			10174
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					4,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5245] = {
+		mark = 20240321,
+		title_res_tag = "",
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 5245,
+		config_data = {
+			2461,
+			2462,
+			2463,
+			2464,
+			2465,
+			2466,
+			2467,
+			2468,
+			2469,
+			2470
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					4,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_yongzhe",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			painting = "mingshi_live2d",
+			pt_id = 399,
+			enter = {
+				"shop1",
+				"어서 와냥",
+				"login"
+			},
+			purchase = {
+				"shop3",
+				"고맙다냥~！",
+				"main_3"
+			}
+		}
+	},
+	[5246] = {
+		mark = 20240321,
+		title_res_tag = "",
+		page_info = "",
+		type = 70,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 5246,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					4,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5247] = {
+		mark = 20240321,
+		id = 5247,
+		title_res_tag = "MonopolyEp_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 5247,
+		is_show = 50,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					4,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MonopolyPtPage",
+			ui_name = "MonopolyPtPage"
+		},
+		config_client = {
+			story = {
+				{
+					0,
+					"YONGZHEDELVTU1"
+				},
+				{
+					5,
+					"YONGZHEDELVTU2"
+				},
+				{
+					10,
+					"YONGZHEDELVTU3"
+				},
+				{
+					15,
+					"YONGZHEDELVTU4"
+				}
+			},
+			battle = {
+				{
+					20,
+					"51003"
+				}
+			}
+		}
+	},
+	[5248] = {
+		mark = 20240321,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 5248,
+		config_data = {
+			19839,
+			19840,
+			19841,
+			19842,
+			19843,
+			19844,
+			19845,
+			19846,
+			19847,
+			19848,
+			19849,
+			19850,
+			19851,
+			19852,
+			19853,
+			19854
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					4,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5249] = {
+		mark = 20240321,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 21,
+		is_show = 0,
+		config_client = "",
+		id = 5249,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					4,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[5266] = {
 		mark = 20240328,
 		title_res_tag = "",
@@ -20527,7 +20713,7 @@ pg.activity_template = {
 		type = 21,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 50,
+		is_show = 49,
 		config_data = {},
 		time = {
 			"timer",
@@ -21503,6 +21689,88 @@ pg.activity_template = {
 				{
 					9,
 					2064,
+					1
+				}
+			}
+		}
+	},
+	[7016] = {
+		mark = 20240328,
+		id = 7016,
+		title_res_tag = "CrusingDisplayAct",
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 14,
+		config_data = {
+			151,
+			152,
+			153,
+			154,
+			155,
+			156,
+			157,
+			158,
+			159
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					4,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CrusingDisplayActPage",
+			ui_name = "CrusingDisplayActPage16"
+		},
+		config_client = {
+			map_name = "map_202404",
+			spine_name = "chess_dian",
+			tips = {
+				"battlepass_main_tip_2404",
+				"battlepass_main_help_2404",
+				"cruise_task_help_2404"
+			},
+			equip_skin = {
+				{
+					9,
+					2065,
+					1
+				},
+				{
+					9,
+					2066,
+					1
+				},
+				{
+					9,
+					2067,
+					1
+				},
+				{
+					9,
+					2068,
 					1
 				}
 			}
@@ -29231,6 +29499,12 @@ pg.activity_template = {
 		5241,
 		5242,
 		5243,
+		5244,
+		5245,
+		5246,
+		5247,
+		5248,
+		5249,
 		5266,
 		5267,
 		7004,
@@ -29245,6 +29519,7 @@ pg.activity_template = {
 		7013,
 		7014,
 		7015,
+		7016,
 		7102,
 		8009,
 		8010,

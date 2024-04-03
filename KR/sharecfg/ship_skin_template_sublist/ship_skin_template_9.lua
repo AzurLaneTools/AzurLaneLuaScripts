@@ -1,6 +1,113 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_9 = {
+	[301644] = {
+		ship_group = 30164,
+		name = "점심의 초대",
+		hand_id = 14,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 4,
+		shop_id = 70682,
+		painting = "dachao_5",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 4,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "147",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 301644,
+		voice_actor_2 = -1,
+		prefab = "dachao_5",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "오전 수업 드디어 끝났데이~ 지휘관, 점심 같이 묵을래? 하하, 도시락에 뭐가 들었는지 신경 쓰이나? 기대해도 좋데이~",
+		voice_actor = 135,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.18,
+					0.88,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.001,
+					0.002,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.18,
+					1.04,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.38,
+							2.29,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301650] = {
 		ship_group = 30165,
 		name = "미치시오",
@@ -12145,120 +12252,6 @@ pg.base.ship_skin_template_9 = {
 							-0.56,
 							1.72,
 							-1.31
-						}
-					}
-				}
-			}
-		}
-	},
-	[303113] = {
-		ship_group = 30311,
-		name = "봄의 수련",
-		hand_id = 9,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 3,
-		shop_id = 70042,
-		painting = "gaoxiong_3",
-		illustrator = 21,
-		l2d_voice_calibrate = "",
-		shop_type_id = 3,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "102",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 303113,
-		voice_actor_2 = -1,
-		prefab = "gaoxiong_3",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "습자도 일종의 수행이라 들어, 이렇게 이스트 글림 아이들을 도와주고 있지만……지휘관 나리도 같이하겠나?",
-		voice_actor = 8,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.6,
-					0.45,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.6,
-					0.53,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.16,
-					-0.29,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.59,
-					0.43,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.5,
-							2.46,
-							0
 						}
 					}
 				}

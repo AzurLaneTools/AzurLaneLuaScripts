@@ -77,6 +77,7 @@ pg.pay_data_display = setmetatable({
 		1012,
 		1013,
 		1014,
+		1015,
 		2001,
 		2002,
 		2003,
@@ -7409,6 +7410,81 @@ pg.base.pay_data_display = {
 		},
 		sub_display = {
 			7015,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1015] = {
+		subject = "특허 투어 패스",
+		limit_group = 0,
+		descrip_extra = "*임무를 통해 대응 투어 진도 달성 후 획득 가능",
+		type = 0,
+		limit_arg = 1,
+		name = "특허 투어 패스(2024.4.8-2024.6.7)",
+		name_display = "특허 투어 패스(2024.4.8-2024.6.7)",
+		type_order = 4,
+		extra_gem = 0,
+		id = 1015,
+		money = 12000,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "battlepass_1",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift88",
+		first_pay_double = 0,
+		extra_service = 4,
+		descrip = "1500 투어 PT 획득, 특허 투어 보상 해제 가능: 보클랭 한정 스킨 및 기타 보상",
+		airijp_id = "com.yostarjp.azurlane.seasonpass16",
+		extra_service_item = {
+			{
+				1,
+				4016,
+				1500
+			},
+			{
+				8,
+				59541,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					4,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4016,
+				1500
+			}
+		},
+		sub_display = {
+			7016,
 			1500
 		},
 		ignorePlatform = {},

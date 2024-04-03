@@ -1700,7 +1700,7 @@ pg.re_map_template = {
 		activity_type = 1,
 		id = 31,
 		bg = "temp_talin",
-		order = 30,
+		order = 31,
 		config_data = {
 			2100361,
 			2100362,
@@ -1764,6 +1764,35 @@ pg.re_map_template = {
 			}
 		}
 	},
+	[32] = {
+		memory_group = 190,
+		name = "날카로운 해상의 날개 상시 복각",
+		activity_type = 2,
+		id = 32,
+		bg = "temp_pulinsidun",
+		order = 32,
+		config_data = {
+			2200111,
+			2200112,
+			2200113
+		},
+		chapter_progress = {
+			33,
+			66,
+			100
+		},
+		drop_gain = {},
+		drop_display_sp = {},
+		drop_display = {
+			{
+				{
+					2,
+					11023
+				},
+				"SP3"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1794,6 +1823,7 @@ pg.re_map_template = {
 		28,
 		29,
 		30,
-		31
+		31,
+		32
 	}
 }

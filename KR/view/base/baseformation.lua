@@ -55,6 +55,10 @@ function slot0.AddEndDrag(slot0, slot1)
 	slot0._endDrag = slot1
 end
 
+function slot0.AddCheckBeginDrag(slot0, slot1)
+	slot0._checkBeginDrag = slot1
+end
+
 function slot0.AddShiftOnly(slot0, slot1)
 	slot0._shiftOnly = slot1
 end
@@ -65,6 +69,10 @@ end
 
 function slot0.AddCheckRemove(slot0, slot1)
 	slot0._checkRemove = slot1
+end
+
+function slot0.AddCheckSwitch(slot0, slot1)
+	slot0._checkSwitch = slot1
 end
 
 function slot0.AddSwitchToDisplayMode(slot0, slot1)
@@ -159,16 +167,20 @@ function slot0.LoadAllCharacter(slot0)
 				return
 			end
 
-			uv0._modelDrag = uv1.modelRoot
-			uv0._currentDragDelegate = uv2
+			if uv0._checkBeginDrag and not uv0._checkBeginDrag(uv1, uv2, uv0._currentFleetVO) then
+				return
+			end
 
-			LeanTween.cancel(uv1.modelRoot)
-			uv3:SetAsLastSibling()
-			uv0:SwitchToShiftMode(uv3, uv4)
-			uv1:SetAction("tuozhuai")
+			uv0._modelDrag = uv3.modelRoot
+			uv0._currentDragDelegate = uv4
+
+			LeanTween.cancel(uv3.modelRoot)
+			uv5:SetAsLastSibling()
+			uv0:SwitchToShiftMode(uv5, uv2)
+			uv3:SetAction("tuozhuai")
 
 			if uv0._beginDrag then
-				uv0._beginDrag(uv3)
+				uv0._beginDrag(uv5)
 			end
 
 			pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_HOME_DRAG)
@@ -392,7 +404,18 @@ function slot0.SwitchToShiftMode(slot0, slot1, slot2)
 			slot14:AddPointEnterFunc(function ()
 				for slot3, slot4 in ipairs(uv0) do
 					if slot4.heroInfoTF == uv1 then
-						uv2:Shift(uv2._shiftIndex, slot3, uv3)
+						seriesAsync({
+							function (slot0)
+								if not uv0._checkSwitch then
+									return slot0()
+								end
+
+								uv0._checkSwitch(slot0, uv0._shiftIndex, uv1, uv0._currentFleetVO, uv2)
+							end,
+							function (slot0)
+								uv0:Shift(uv0._shiftIndex, uv1, uv2)
+							end
+						})
 
 						break
 					end

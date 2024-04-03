@@ -106,7 +106,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5233",
+		param = "5246",
 		id = 4,
 		pic = "temp7",
 		type = 3,
@@ -138,16 +138,18 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5243",
 		id = 5,
 		pic = "temp2",
-		type = 3,
+		type = 2,
+		param = {
+			"scene dailylevel"
+		},
 		time = {
 			{
 				{
 					2024,
-					3,
-					28
+					4,
+					3
 				},
 				{
 					0,
@@ -159,7 +161,7 @@ pg.activity_banner = {
 				{
 					2024,
 					4,
-					7
+					10
 				},
 				{
 					23,
@@ -174,14 +176,14 @@ pg.activity_banner = {
 		pic = "temp9",
 		type = 2,
 		param = {
-			"scene court yard"
+			"spweapon storehouse"
 		},
 		time = {
 			{
 				{
 					2024,
-					3,
-					28
+					4,
+					3
 				},
 				{
 					0,
@@ -193,7 +195,7 @@ pg.activity_banner = {
 				{
 					2024,
 					4,
-					4
+					11
 				},
 				{
 					23,
@@ -227,7 +229,7 @@ pg.activity_banner = {
 				{
 					2024,
 					4,
-					18
+					11
 				},
 				{
 					23,
@@ -278,8 +280,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					3,
-					28
+					4,
+					3
 				},
 				{
 					0,
@@ -291,7 +293,7 @@ pg.activity_banner = {
 				{
 					2024,
 					4,
-					4
+					24
 				},
 				{
 					23,
@@ -372,13 +374,13 @@ pg.activity_banner = {
 		[2] = {
 			1,
 			3,
+			5,
 			6,
 			7
 		},
 		[3] = {
 			2,
 			4,
-			5,
 			8
 		},
 		[9] = {

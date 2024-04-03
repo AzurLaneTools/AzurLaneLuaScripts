@@ -16,7 +16,7 @@ function slot0.execute(slot0, slot1)
 	}, 15011, function (slot0)
 		if slot0.result == 0 then
 			uv0:removeItemById(uv1[1], 1)
-			bayProxy:addItemById(uv1[2], 1)
+			uv0:addItemById(uv1[2], 1)
 			uv2:sendNotification(GAME.PROPOSE_EXCHANGE_RING_DONE, {
 				items = {
 					Drop.New({

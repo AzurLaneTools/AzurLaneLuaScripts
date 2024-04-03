@@ -349178,6 +349178,510 @@ _G.pg.base.ship_data_statistics[9701044] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[9701051] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "吸血鬼·META",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 9701050,
+	english_name = "Vampire.META",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9701051,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		279,
+		16,
+		72,
+		31,
+		0,
+		75,
+		0,
+		47,
+		53,
+		41,
+		42,
+		51
+	},
+	attrs_growth = {
+		4514,
+		206,
+		913,
+		424,
+		0,
+		519,
+		0,
+		643,
+		721,
+		0,
+		0,
+		677
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		1.35,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Old V-Class",
+		"VampireMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9701052] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "吸血鬼·META",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 9701050,
+	english_name = "Vampire.META",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9701052,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		347,
+		20,
+		90,
+		39,
+		0,
+		75,
+		0,
+		47,
+		53,
+		41,
+		42,
+		64
+	},
+	attrs_growth = {
+		4514,
+		206,
+		913,
+		424,
+		0,
+		519,
+		0,
+		643,
+		721,
+		0,
+		0,
+		677
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		1.4,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Old V-Class",
+		"VampireMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9701053] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "吸血鬼·META",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 9701050,
+	english_name = "Vampire.META",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9701053,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		483,
+		28,
+		125,
+		54,
+		0,
+		75,
+		0,
+		47,
+		53,
+		41,
+		42,
+		89
+	},
+	attrs_growth = {
+		4514,
+		206,
+		913,
+		424,
+		0,
+		519,
+		0,
+		643,
+		721,
+		0,
+		0,
+		677
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.4,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Old V-Class",
+		"VampireMETA"
+	}
+}
+
+_G.pg.base.ship_data_statistics[9701054] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "吸血鬼·META",
+	type = 1,
+	oxy_cost = 0,
+	skin_id = 9701050,
+	english_name = "Vampire.META",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	nationality = 97,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 1,
+	huntingrange_level = 0,
+	id = 9701054,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		687,
+		40,
+		179,
+		77,
+		0,
+		75,
+		0,
+		47,
+		53,
+		41,
+		42,
+		127
+	},
+	attrs_growth = {
+		4514,
+		206,
+		913,
+		424,
+		0,
+		519,
+		0,
+		643,
+		721,
+		0,
+		0,
+		677
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.45,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Old V-Class",
+		"VampireMETA"
+	}
+}
+
 _G.pg.base.ship_data_statistics[9702011] = {
 	raid_distance = 0,
 	oxy_max = 0,
