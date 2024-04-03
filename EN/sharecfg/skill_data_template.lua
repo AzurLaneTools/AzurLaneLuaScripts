@@ -89653,7 +89653,7 @@ Increases this ship's DMG dealt by 2.0% and increases the radar scan's activatio
 		id = 17740,
 		type = 3,
 		max_level = 10,
-		desc = "Increases this ship's FP and TRP by $1. 15s after the battle starts: $2 chance to increase a random enemy's DMG taken by $3 (prioritizes humanoid enemies) and performs a sonar scan, revealing enemy SSs; both these effects last 8s. If these two effects do not activate: instead decreases this ship's DMG taken by $3 for 8s.",
+		desc = "Increases this ship's FP and TRP by $1. Every 15s: $2 chance to increase a random enemy's DMG taken from this ship by $3 (prioritizes humanoid enemies) and performs a sonar scan, revealing enemy SSs; both these effects last 8s. If these two effects do not activate: instead decreases this ship's DMG taken by $3 for 8s.",
 		system_transform = {},
 		world_death_mark = {
 			1

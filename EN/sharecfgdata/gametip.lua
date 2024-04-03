@@ -24412,7 +24412,7 @@ Note: Clues can only be unlocked this way once every 10 minutes.
 }
 
 _G.pg.base.gametip.caibulin_tip11 = {
-	tip = "Collect all the clues to unlock a secret stage!"
+	tip = "The archives? How suspicious... Sounds like a great place for clues to be hidden, bulin!"
 }
 
 _G.pg.base.gametip.caibulin_lock_tip = {
