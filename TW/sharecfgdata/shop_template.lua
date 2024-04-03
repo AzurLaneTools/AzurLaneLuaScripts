@@ -4063,6 +4063,57 @@ _G.pg.base.shop_template[31962] = {
 	}
 }
 
+_G.pg.base.shop_template[31963] = {
+	time_second = 0,
+	resource_type = 1,
+	genre = "shopping_street",
+	type = 2,
+	desc = "7000物资兑换1个啾啾学园庆典外观装备箱",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 31963,
+	resource_num = 7000,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		30338
+	},
+	time = {
+		{
+			{
+				2024,
+				4,
+				3
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				4,
+				17
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
 _G.pg.base.shop_template[31964] = {
 	time_second = 0,
 	resource_type = 1,
@@ -15337,6 +15388,62 @@ _G.pg.base.shop_template[60389] = {
 	}
 }
 
+_G.pg.base.shop_template[60396] = {
+	time_second = 0,
+	resource_type = 14,
+	genre = "gift_package",
+	type = 2,
+	desc = "120钻石购买限时攻略补给(福煦SP复刻)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 60396,
+	resource_num = 120,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40117
+	},
+	time = {
+		{
+			{
+				2023,
+				8,
+				24
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				9,
+				6
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
 _G.pg.base.shop_template[60409] = {
 	time_second = 0,
 	resource_type = 14,
@@ -16062,6 +16169,373 @@ _G.pg.base.shop_template[60445] = {
 				59
 			}
 		}
+	}
+}
+
+_G.pg.base.shop_template[60501] = {
+	time_second = 0,
+	resource_type = 14,
+	genre = "gift_package",
+	type = 2,
+	desc = "免費伴手禮I",
+	group_limit = 1,
+	group_buy_count = 1,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 1,
+	order = 0,
+	time = "stop",
+	group = 0,
+	num = 1,
+	discount = 100,
+	group_type = 1,
+	id = 60501,
+	resource_num = 0,
+	discount_time = "stop",
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40131
+	}
+}
+
+_G.pg.base.shop_template[60502] = {
+	time_second = 0,
+	resource_type = 14,
+	genre = "gift_package",
+	type = 2,
+	desc = "免費伴手禮II",
+	group_limit = 1,
+	group_buy_count = 1,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 1,
+	order = 0,
+	time = "stop",
+	group = 0,
+	num = 1,
+	discount = 100,
+	group_type = 1,
+	id = 60502,
+	resource_num = 0,
+	discount_time = {
+		{
+			{
+				2023,
+				12,
+				15
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				12,
+				21
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40132
+	}
+}
+
+_G.pg.base.shop_template[60503] = {
+	time_second = 0,
+	resource_type = 14,
+	genre = "gift_package",
+	type = 2,
+	desc = "免費伴手禮III",
+	group_limit = 1,
+	group_buy_count = 1,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 1,
+	order = 0,
+	time = "stop",
+	group = 0,
+	num = 1,
+	discount = 100,
+	group_type = 1,
+	id = 60503,
+	resource_num = 0,
+	discount_time = {
+		{
+			{
+				2023,
+				12,
+				16
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				12,
+				21
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40133
+	}
+}
+
+_G.pg.base.shop_template[60504] = {
+	time_second = 0,
+	resource_type = 14,
+	genre = "gift_package",
+	type = 2,
+	desc = "免費伴手禮IV",
+	group_limit = 1,
+	group_buy_count = 1,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 1,
+	order = 0,
+	time = "stop",
+	group = 0,
+	num = 1,
+	discount = 100,
+	group_type = 1,
+	id = 60504,
+	resource_num = 0,
+	discount_time = {
+		{
+			{
+				2023,
+				12,
+				17
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				12,
+				21
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40134
+	}
+}
+
+_G.pg.base.shop_template[60505] = {
+	time_second = 0,
+	resource_type = 14,
+	genre = "gift_package",
+	type = 2,
+	desc = "免費伴手禮V",
+	group_limit = 1,
+	group_buy_count = 1,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 1,
+	order = 0,
+	time = "stop",
+	group = 0,
+	num = 1,
+	discount = 100,
+	group_type = 1,
+	id = 60505,
+	resource_num = 0,
+	discount_time = {
+		{
+			{
+				2023,
+				12,
+				18
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				12,
+				21
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40135
+	}
+}
+
+_G.pg.base.shop_template[60506] = {
+	time_second = 0,
+	resource_type = 14,
+	genre = "gift_package",
+	type = 2,
+	desc = "免費伴手禮VI",
+	group_limit = 1,
+	group_buy_count = 1,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 1,
+	order = 0,
+	time = "stop",
+	group = 0,
+	num = 1,
+	discount = 100,
+	group_type = 1,
+	id = 60506,
+	resource_num = 0,
+	discount_time = {
+		{
+			{
+				2023,
+				12,
+				19
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				12,
+				21
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40136
+	}
+}
+
+_G.pg.base.shop_template[60507] = {
+	time_second = 0,
+	resource_type = 14,
+	genre = "gift_package",
+	type = 2,
+	desc = "免費伴手禮VII",
+	group_limit = 1,
+	group_buy_count = 1,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 1,
+	order = 0,
+	time = "stop",
+	group = 0,
+	num = 1,
+	discount = 100,
+	group_type = 1,
+	id = 60507,
+	resource_num = 0,
+	discount_time = {
+		{
+			{
+				2023,
+				12,
+				20
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2023,
+				12,
+				21
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40137
 	}
 }
 
@@ -20476,7 +20950,7 @@ _G.pg.base.shop_template[70090] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -20491,9 +20965,9 @@ _G.pg.base.shop_template[70090] = {
 	time = {
 		{
 			{
-				2023,
-				10,
-				26
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -20503,9 +20977,9 @@ _G.pg.base.shop_template[70090] = {
 		},
 		{
 			{
-				2023,
-				11,
-				8
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -20527,7 +21001,7 @@ _G.pg.base.shop_template[70091] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -20542,9 +21016,9 @@ _G.pg.base.shop_template[70091] = {
 	time = {
 		{
 			{
-				2023,
-				10,
-				26
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -20554,9 +21028,9 @@ _G.pg.base.shop_template[70091] = {
 		},
 		{
 			{
-				2023,
-				11,
-				8
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -20578,7 +21052,7 @@ _G.pg.base.shop_template[70092] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -20593,9 +21067,9 @@ _G.pg.base.shop_template[70092] = {
 	time = {
 		{
 			{
-				2023,
-				10,
-				26
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -20605,9 +21079,9 @@ _G.pg.base.shop_template[70092] = {
 		},
 		{
 			{
-				2023,
-				11,
-				8
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -23244,7 +23718,7 @@ _G.pg.base.shop_template[70171] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -23259,9 +23733,9 @@ _G.pg.base.shop_template[70171] = {
 	time = {
 		{
 			{
-				2023,
-				10,
-				26
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -23271,9 +23745,9 @@ _G.pg.base.shop_template[70171] = {
 		},
 		{
 			{
-				2023,
-				11,
-				8
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -28556,7 +29030,7 @@ _G.pg.base.shop_template[70316] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -28571,9 +29045,9 @@ _G.pg.base.shop_template[70316] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -28583,9 +29057,9 @@ _G.pg.base.shop_template[70316] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -28607,7 +29081,7 @@ _G.pg.base.shop_template[70317] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -28622,9 +29096,9 @@ _G.pg.base.shop_template[70317] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -28634,9 +29108,9 @@ _G.pg.base.shop_template[70317] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -28710,7 +29184,7 @@ _G.pg.base.shop_template[70320] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -28725,9 +29199,9 @@ _G.pg.base.shop_template[70320] = {
 	time = {
 		{
 			{
-				2023,
-				11,
-				23
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -28737,9 +29211,9 @@ _G.pg.base.shop_template[70320] = {
 		},
 		{
 			{
-				2023,
-				11,
-				29
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -28761,7 +29235,7 @@ _G.pg.base.shop_template[70321] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -28776,9 +29250,9 @@ _G.pg.base.shop_template[70321] = {
 	time = {
 		{
 			{
-				2023,
-				11,
-				23
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -28788,9 +29262,9 @@ _G.pg.base.shop_template[70321] = {
 		},
 		{
 			{
-				2023,
-				11,
-				29
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -28812,7 +29286,7 @@ _G.pg.base.shop_template[70322] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -28827,9 +29301,9 @@ _G.pg.base.shop_template[70322] = {
 	time = {
 		{
 			{
-				2023,
-				11,
-				23
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -28839,9 +29313,9 @@ _G.pg.base.shop_template[70322] = {
 		},
 		{
 			{
-				2023,
-				11,
-				29
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -28863,7 +29337,7 @@ _G.pg.base.shop_template[70323] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -28878,9 +29352,9 @@ _G.pg.base.shop_template[70323] = {
 	time = {
 		{
 			{
-				2023,
-				11,
-				23
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -28890,9 +29364,9 @@ _G.pg.base.shop_template[70323] = {
 		},
 		{
 			{
-				2023,
-				11,
-				29
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -28914,7 +29388,7 @@ _G.pg.base.shop_template[70324] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -28929,9 +29403,9 @@ _G.pg.base.shop_template[70324] = {
 	time = {
 		{
 			{
-				2023,
-				11,
-				23
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -28941,9 +29415,9 @@ _G.pg.base.shop_template[70324] = {
 		},
 		{
 			{
-				2023,
-				11,
-				29
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -28965,7 +29439,7 @@ _G.pg.base.shop_template[70325] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -28980,9 +29454,9 @@ _G.pg.base.shop_template[70325] = {
 	time = {
 		{
 			{
-				2023,
-				11,
-				23
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -28992,9 +29466,9 @@ _G.pg.base.shop_template[70325] = {
 		},
 		{
 			{
-				2023,
-				11,
-				29
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -29016,7 +29490,7 @@ _G.pg.base.shop_template[70326] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -29031,9 +29505,9 @@ _G.pg.base.shop_template[70326] = {
 	time = {
 		{
 			{
-				2023,
-				11,
-				23
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -29043,9 +29517,9 @@ _G.pg.base.shop_template[70326] = {
 		},
 		{
 			{
-				2023,
-				11,
-				29
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -29067,7 +29541,7 @@ _G.pg.base.shop_template[70327] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -29082,9 +29556,9 @@ _G.pg.base.shop_template[70327] = {
 	time = {
 		{
 			{
-				2023,
-				11,
-				23
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -29094,9 +29568,9 @@ _G.pg.base.shop_template[70327] = {
 		},
 		{
 			{
-				2023,
-				11,
-				29
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -29818,7 +30292,7 @@ _G.pg.base.shop_template[70360] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -29833,9 +30307,9 @@ _G.pg.base.shop_template[70360] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -29845,9 +30319,9 @@ _G.pg.base.shop_template[70360] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -30440,7 +30914,7 @@ _G.pg.base.shop_template[70382] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -30455,9 +30929,9 @@ _G.pg.base.shop_template[70382] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -30467,9 +30941,9 @@ _G.pg.base.shop_template[70382] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -30826,7 +31300,7 @@ _G.pg.base.shop_template[70393] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -30841,9 +31315,9 @@ _G.pg.base.shop_template[70393] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -30853,9 +31327,9 @@ _G.pg.base.shop_template[70393] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -30877,7 +31351,7 @@ _G.pg.base.shop_template[70394] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -30892,9 +31366,9 @@ _G.pg.base.shop_template[70394] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -30904,9 +31378,9 @@ _G.pg.base.shop_template[70394] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -30928,7 +31402,7 @@ _G.pg.base.shop_template[70395] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -30943,9 +31417,9 @@ _G.pg.base.shop_template[70395] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -30955,9 +31429,9 @@ _G.pg.base.shop_template[70395] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -30979,7 +31453,7 @@ _G.pg.base.shop_template[70396] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -30994,9 +31468,9 @@ _G.pg.base.shop_template[70396] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -31006,9 +31480,9 @@ _G.pg.base.shop_template[70396] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -31030,7 +31504,7 @@ _G.pg.base.shop_template[70397] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -31045,9 +31519,9 @@ _G.pg.base.shop_template[70397] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -31057,9 +31531,9 @@ _G.pg.base.shop_template[70397] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -31081,7 +31555,7 @@ _G.pg.base.shop_template[70398] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -31096,9 +31570,9 @@ _G.pg.base.shop_template[70398] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -31108,9 +31582,9 @@ _G.pg.base.shop_template[70398] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -31132,7 +31606,7 @@ _G.pg.base.shop_template[70399] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -31147,9 +31621,9 @@ _G.pg.base.shop_template[70399] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -31159,9 +31633,9 @@ _G.pg.base.shop_template[70399] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -31464,7 +31938,7 @@ _G.pg.base.shop_template[70406] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -31479,9 +31953,9 @@ _G.pg.base.shop_template[70406] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -31491,9 +31965,9 @@ _G.pg.base.shop_template[70406] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -31515,7 +31989,7 @@ _G.pg.base.shop_template[70407] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -31530,9 +32004,9 @@ _G.pg.base.shop_template[70407] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -31542,9 +32016,9 @@ _G.pg.base.shop_template[70407] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -31566,7 +32040,7 @@ _G.pg.base.shop_template[70408] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -31581,9 +32055,9 @@ _G.pg.base.shop_template[70408] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -31593,9 +32067,9 @@ _G.pg.base.shop_template[70408] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -31617,7 +32091,7 @@ _G.pg.base.shop_template[70409] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -31632,9 +32106,9 @@ _G.pg.base.shop_template[70409] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -31644,9 +32118,9 @@ _G.pg.base.shop_template[70409] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -31668,7 +32142,7 @@ _G.pg.base.shop_template[70410] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -31683,9 +32157,9 @@ _G.pg.base.shop_template[70410] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -31695,9 +32169,9 @@ _G.pg.base.shop_template[70410] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -31719,7 +32193,7 @@ _G.pg.base.shop_template[70411] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -31734,9 +32208,9 @@ _G.pg.base.shop_template[70411] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -31746,9 +32220,9 @@ _G.pg.base.shop_template[70411] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -31770,7 +32244,7 @@ _G.pg.base.shop_template[70412] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -31785,9 +32259,9 @@ _G.pg.base.shop_template[70412] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -31797,9 +32271,9 @@ _G.pg.base.shop_template[70412] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -31821,7 +32295,7 @@ _G.pg.base.shop_template[70413] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -31836,9 +32310,9 @@ _G.pg.base.shop_template[70413] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -31848,9 +32322,9 @@ _G.pg.base.shop_template[70413] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -31872,7 +32346,7 @@ _G.pg.base.shop_template[70414] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -31887,9 +32361,9 @@ _G.pg.base.shop_template[70414] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -31899,9 +32373,9 @@ _G.pg.base.shop_template[70414] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -31923,7 +32397,7 @@ _G.pg.base.shop_template[70415] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -31938,9 +32412,9 @@ _G.pg.base.shop_template[70415] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -31950,9 +32424,9 @@ _G.pg.base.shop_template[70415] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -31974,7 +32448,7 @@ _G.pg.base.shop_template[70416] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -31989,9 +32463,9 @@ _G.pg.base.shop_template[70416] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -32001,9 +32475,9 @@ _G.pg.base.shop_template[70416] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -35345,7 +35819,7 @@ _G.pg.base.shop_template[70518] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -35360,9 +35834,9 @@ _G.pg.base.shop_template[70518] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -35372,9 +35846,9 @@ _G.pg.base.shop_template[70518] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -35422,7 +35896,7 @@ _G.pg.base.shop_template[70520] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -35437,9 +35911,9 @@ _G.pg.base.shop_template[70520] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -35449,9 +35923,9 @@ _G.pg.base.shop_template[70520] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -35551,7 +36025,7 @@ _G.pg.base.shop_template[70524] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -35566,9 +36040,9 @@ _G.pg.base.shop_template[70524] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -35578,9 +36052,9 @@ _G.pg.base.shop_template[70524] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -38032,7 +38506,7 @@ _G.pg.base.shop_template[70582] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -38048,8 +38522,8 @@ _G.pg.base.shop_template[70582] = {
 		{
 			{
 				2024,
-				2,
-				1
+				4,
+				3
 			},
 			{
 				0,
@@ -38060,8 +38534,8 @@ _G.pg.base.shop_template[70582] = {
 		{
 			{
 				2024,
-				2,
-				5
+				4,
+				17
 			},
 			{
 				23,
@@ -38083,7 +38557,7 @@ _G.pg.base.shop_template[70583] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -38099,8 +38573,8 @@ _G.pg.base.shop_template[70583] = {
 		{
 			{
 				2024,
-				2,
-				1
+				4,
+				3
 			},
 			{
 				0,
@@ -38111,8 +38585,8 @@ _G.pg.base.shop_template[70583] = {
 		{
 			{
 				2024,
-				2,
-				5
+				4,
+				17
 			},
 			{
 				23,
@@ -38134,7 +38608,7 @@ _G.pg.base.shop_template[70584] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -38150,8 +38624,8 @@ _G.pg.base.shop_template[70584] = {
 		{
 			{
 				2024,
-				2,
-				1
+				4,
+				3
 			},
 			{
 				0,
@@ -38162,8 +38636,8 @@ _G.pg.base.shop_template[70584] = {
 		{
 			{
 				2024,
-				2,
-				5
+				4,
+				17
 			},
 			{
 				23,
@@ -38185,7 +38659,7 @@ _G.pg.base.shop_template[70585] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -38201,8 +38675,8 @@ _G.pg.base.shop_template[70585] = {
 		{
 			{
 				2024,
-				2,
-				1
+				4,
+				3
 			},
 			{
 				0,
@@ -38213,8 +38687,8 @@ _G.pg.base.shop_template[70585] = {
 		{
 			{
 				2024,
-				2,
-				5
+				4,
+				17
 			},
 			{
 				23,
@@ -38236,7 +38710,7 @@ _G.pg.base.shop_template[70586] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -38252,8 +38726,8 @@ _G.pg.base.shop_template[70586] = {
 		{
 			{
 				2024,
-				2,
-				1
+				4,
+				3
 			},
 			{
 				0,
@@ -38264,8 +38738,8 @@ _G.pg.base.shop_template[70586] = {
 		{
 			{
 				2024,
-				2,
-				5
+				4,
+				17
 			},
 			{
 				23,
@@ -38287,7 +38761,7 @@ _G.pg.base.shop_template[70587] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -38303,8 +38777,8 @@ _G.pg.base.shop_template[70587] = {
 		{
 			{
 				2024,
-				2,
-				1
+				4,
+				3
 			},
 			{
 				0,
@@ -38315,8 +38789,8 @@ _G.pg.base.shop_template[70587] = {
 		{
 			{
 				2024,
-				2,
-				5
+				4,
+				17
 			},
 			{
 				23,
@@ -39463,7 +39937,7 @@ _G.pg.base.shop_template[70613] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 1,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -39478,9 +39952,9 @@ _G.pg.base.shop_template[70613] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -39490,9 +39964,9 @@ _G.pg.base.shop_template[70613] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -42167,7 +42641,7 @@ _G.pg.base.shop_template[70667] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -42182,9 +42656,9 @@ _G.pg.base.shop_template[70667] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -42194,9 +42668,9 @@ _G.pg.base.shop_template[70667] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -42218,7 +42692,7 @@ _G.pg.base.shop_template[70668] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -42233,9 +42707,9 @@ _G.pg.base.shop_template[70668] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -42245,9 +42719,9 @@ _G.pg.base.shop_template[70668] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -42269,7 +42743,7 @@ _G.pg.base.shop_template[70669] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -42284,9 +42758,9 @@ _G.pg.base.shop_template[70669] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -42296,9 +42770,9 @@ _G.pg.base.shop_template[70669] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -42320,7 +42794,7 @@ _G.pg.base.shop_template[70670] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -42335,9 +42809,9 @@ _G.pg.base.shop_template[70670] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -42347,9 +42821,9 @@ _G.pg.base.shop_template[70670] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -42371,7 +42845,7 @@ _G.pg.base.shop_template[70671] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -42386,9 +42860,9 @@ _G.pg.base.shop_template[70671] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -42398,9 +42872,9 @@ _G.pg.base.shop_template[70671] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -42422,7 +42896,7 @@ _G.pg.base.shop_template[70672] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -42437,9 +42911,9 @@ _G.pg.base.shop_template[70672] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -42449,9 +42923,9 @@ _G.pg.base.shop_template[70672] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -42473,7 +42947,7 @@ _G.pg.base.shop_template[70673] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -42488,9 +42962,9 @@ _G.pg.base.shop_template[70673] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -42500,9 +42974,9 @@ _G.pg.base.shop_template[70673] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -42524,7 +42998,7 @@ _G.pg.base.shop_template[70674] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -42539,9 +43013,9 @@ _G.pg.base.shop_template[70674] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -42551,9 +43025,9 @@ _G.pg.base.shop_template[70674] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -42575,7 +43049,7 @@ _G.pg.base.shop_template[70675] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -42590,9 +43064,9 @@ _G.pg.base.shop_template[70675] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -42602,9 +43076,9 @@ _G.pg.base.shop_template[70675] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -42626,7 +43100,7 @@ _G.pg.base.shop_template[70676] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -42641,9 +43115,9 @@ _G.pg.base.shop_template[70676] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -42653,9 +43127,9 @@ _G.pg.base.shop_template[70676] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -42677,7 +43151,7 @@ _G.pg.base.shop_template[70677] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -42692,9 +43166,9 @@ _G.pg.base.shop_template[70677] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -42704,9 +43178,9 @@ _G.pg.base.shop_template[70677] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -42728,7 +43202,7 @@ _G.pg.base.shop_template[70678] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -42743,9 +43217,9 @@ _G.pg.base.shop_template[70678] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -42755,9 +43229,9 @@ _G.pg.base.shop_template[70678] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -42983,7 +43457,7 @@ _G.pg.base.shop_template[70683] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -42998,9 +43472,9 @@ _G.pg.base.shop_template[70683] = {
 	time = {
 		{
 			{
-				2023,
-				6,
-				29
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -43010,9 +43484,9 @@ _G.pg.base.shop_template[70683] = {
 		},
 		{
 			{
-				2023,
-				7,
-				12
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -43034,7 +43508,7 @@ _G.pg.base.shop_template[70684] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -43049,9 +43523,9 @@ _G.pg.base.shop_template[70684] = {
 	time = {
 		{
 			{
-				2023,
-				6,
-				29
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -43061,9 +43535,9 @@ _G.pg.base.shop_template[70684] = {
 		},
 		{
 			{
-				2023,
-				7,
-				12
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -43085,7 +43559,7 @@ _G.pg.base.shop_template[70685] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -43100,9 +43574,9 @@ _G.pg.base.shop_template[70685] = {
 	time = {
 		{
 			{
-				2023,
-				6,
-				29
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -43112,9 +43586,9 @@ _G.pg.base.shop_template[70685] = {
 		},
 		{
 			{
-				2023,
-				7,
-				12
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -43136,7 +43610,7 @@ _G.pg.base.shop_template[70686] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -43151,9 +43625,9 @@ _G.pg.base.shop_template[70686] = {
 	time = {
 		{
 			{
-				2023,
-				6,
-				29
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -43163,9 +43637,9 @@ _G.pg.base.shop_template[70686] = {
 		},
 		{
 			{
-				2023,
-				7,
-				12
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -43187,7 +43661,7 @@ _G.pg.base.shop_template[70687] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -43202,9 +43676,9 @@ _G.pg.base.shop_template[70687] = {
 	time = {
 		{
 			{
-				2023,
-				6,
-				29
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -43214,9 +43688,9 @@ _G.pg.base.shop_template[70687] = {
 		},
 		{
 			{
-				2023,
-				7,
-				12
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -43238,7 +43712,7 @@ _G.pg.base.shop_template[70688] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -43253,9 +43727,9 @@ _G.pg.base.shop_template[70688] = {
 	time = {
 		{
 			{
-				2023,
-				6,
-				29
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -43265,9 +43739,9 @@ _G.pg.base.shop_template[70688] = {
 		},
 		{
 			{
-				2023,
-				7,
-				12
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -43289,7 +43763,7 @@ _G.pg.base.shop_template[70689] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -43304,9 +43778,9 @@ _G.pg.base.shop_template[70689] = {
 	time = {
 		{
 			{
-				2023,
-				6,
-				29
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -43316,9 +43790,9 @@ _G.pg.base.shop_template[70689] = {
 		},
 		{
 			{
-				2023,
-				7,
-				12
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -43340,7 +43814,7 @@ _G.pg.base.shop_template[70690] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -43355,9 +43829,9 @@ _G.pg.base.shop_template[70690] = {
 	time = {
 		{
 			{
-				2023,
-				6,
-				29
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -43367,9 +43841,9 @@ _G.pg.base.shop_template[70690] = {
 		},
 		{
 			{
-				2023,
-				7,
-				12
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -43391,7 +43865,7 @@ _G.pg.base.shop_template[70691] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -43406,9 +43880,9 @@ _G.pg.base.shop_template[70691] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -43418,9 +43892,9 @@ _G.pg.base.shop_template[70691] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -43442,7 +43916,7 @@ _G.pg.base.shop_template[70692] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -43457,9 +43931,9 @@ _G.pg.base.shop_template[70692] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -43469,9 +43943,9 @@ _G.pg.base.shop_template[70692] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -43493,7 +43967,7 @@ _G.pg.base.shop_template[70693] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -43508,9 +43982,9 @@ _G.pg.base.shop_template[70693] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -43520,9 +43994,9 @@ _G.pg.base.shop_template[70693] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -43952,7 +44426,7 @@ _G.pg.base.shop_template[70702] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -43967,9 +44441,9 @@ _G.pg.base.shop_template[70702] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -43979,9 +44453,9 @@ _G.pg.base.shop_template[70702] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -44003,7 +44477,7 @@ _G.pg.base.shop_template[70703] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -44018,9 +44492,9 @@ _G.pg.base.shop_template[70703] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -44030,9 +44504,9 @@ _G.pg.base.shop_template[70703] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -44054,7 +44528,7 @@ _G.pg.base.shop_template[70704] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -44069,9 +44543,9 @@ _G.pg.base.shop_template[70704] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -44081,9 +44555,9 @@ _G.pg.base.shop_template[70704] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -44105,7 +44579,7 @@ _G.pg.base.shop_template[70705] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -44120,9 +44594,9 @@ _G.pg.base.shop_template[70705] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -44132,9 +44606,9 @@ _G.pg.base.shop_template[70705] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -44156,7 +44630,7 @@ _G.pg.base.shop_template[70706] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -44171,9 +44645,9 @@ _G.pg.base.shop_template[70706] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -44183,9 +44657,9 @@ _G.pg.base.shop_template[70706] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -44207,7 +44681,7 @@ _G.pg.base.shop_template[70707] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -44222,9 +44696,9 @@ _G.pg.base.shop_template[70707] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -44234,9 +44708,9 @@ _G.pg.base.shop_template[70707] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -44258,7 +44732,7 @@ _G.pg.base.shop_template[70708] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -44273,9 +44747,9 @@ _G.pg.base.shop_template[70708] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -44285,9 +44759,9 @@ _G.pg.base.shop_template[70708] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -44309,7 +44783,7 @@ _G.pg.base.shop_template[70709] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -44324,9 +44798,9 @@ _G.pg.base.shop_template[70709] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -44336,9 +44810,9 @@ _G.pg.base.shop_template[70709] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -44360,7 +44834,7 @@ _G.pg.base.shop_template[70710] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -44375,9 +44849,9 @@ _G.pg.base.shop_template[70710] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -44387,9 +44861,9 @@ _G.pg.base.shop_template[70710] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -44411,7 +44885,7 @@ _G.pg.base.shop_template[70711] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -44426,9 +44900,9 @@ _G.pg.base.shop_template[70711] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -44438,9 +44912,9 @@ _G.pg.base.shop_template[70711] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -44462,7 +44936,7 @@ _G.pg.base.shop_template[70712] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -44477,9 +44951,9 @@ _G.pg.base.shop_template[70712] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -44489,9 +44963,9 @@ _G.pg.base.shop_template[70712] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -44513,7 +44987,7 @@ _G.pg.base.shop_template[70713] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -44528,9 +45002,9 @@ _G.pg.base.shop_template[70713] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -44540,9 +45014,9 @@ _G.pg.base.shop_template[70713] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -44564,7 +45038,7 @@ _G.pg.base.shop_template[70714] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -44579,9 +45053,9 @@ _G.pg.base.shop_template[70714] = {
 	time = {
 		{
 			{
-				2023,
-				7,
-				27
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -44591,9 +45065,9 @@ _G.pg.base.shop_template[70714] = {
 		},
 		{
 			{
-				2023,
-				8,
-				2
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -44666,7 +45140,7 @@ _G.pg.base.shop_template[70716] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -44681,9 +45155,9 @@ _G.pg.base.shop_template[70716] = {
 	time = {
 		{
 			{
-				2023,
-				11,
-				9
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -44693,9 +45167,9 @@ _G.pg.base.shop_template[70716] = {
 		},
 		{
 			{
-				2023,
-				11,
-				22
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -44717,7 +45191,7 @@ _G.pg.base.shop_template[70717] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -44732,9 +45206,9 @@ _G.pg.base.shop_template[70717] = {
 	time = {
 		{
 			{
-				2023,
-				11,
-				9
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -44744,9 +45218,9 @@ _G.pg.base.shop_template[70717] = {
 		},
 		{
 			{
-				2023,
-				11,
-				22
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -44768,7 +45242,7 @@ _G.pg.base.shop_template[70718] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -44783,9 +45257,9 @@ _G.pg.base.shop_template[70718] = {
 	time = {
 		{
 			{
-				2023,
-				11,
-				9
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -44795,9 +45269,9 @@ _G.pg.base.shop_template[70718] = {
 		},
 		{
 			{
-				2023,
-				11,
-				22
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -44819,7 +45293,7 @@ _G.pg.base.shop_template[70719] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -44834,9 +45308,9 @@ _G.pg.base.shop_template[70719] = {
 	time = {
 		{
 			{
-				2023,
-				11,
-				9
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -44846,9 +45320,9 @@ _G.pg.base.shop_template[70719] = {
 		},
 		{
 			{
-				2023,
-				11,
-				22
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -44870,7 +45344,7 @@ _G.pg.base.shop_template[70720] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -44885,9 +45359,9 @@ _G.pg.base.shop_template[70720] = {
 	time = {
 		{
 			{
-				2023,
-				11,
-				9
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -44897,9 +45371,9 @@ _G.pg.base.shop_template[70720] = {
 		},
 		{
 			{
-				2023,
-				11,
-				22
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -44921,7 +45395,7 @@ _G.pg.base.shop_template[70721] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -44936,9 +45410,9 @@ _G.pg.base.shop_template[70721] = {
 	time = {
 		{
 			{
-				2023,
-				11,
-				9
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -44948,9 +45422,9 @@ _G.pg.base.shop_template[70721] = {
 		},
 		{
 			{
-				2023,
-				11,
-				22
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -44972,7 +45446,7 @@ _G.pg.base.shop_template[70722] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -44987,9 +45461,9 @@ _G.pg.base.shop_template[70722] = {
 	time = {
 		{
 			{
-				2023,
-				11,
-				9
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -44999,9 +45473,9 @@ _G.pg.base.shop_template[70722] = {
 		},
 		{
 			{
-				2023,
-				11,
-				22
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -45023,7 +45497,7 @@ _G.pg.base.shop_template[70723] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -45038,9 +45512,9 @@ _G.pg.base.shop_template[70723] = {
 	time = {
 		{
 			{
-				2023,
-				11,
-				9
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -45050,9 +45524,9 @@ _G.pg.base.shop_template[70723] = {
 		},
 		{
 			{
-				2023,
-				11,
-				22
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -45074,7 +45548,7 @@ _G.pg.base.shop_template[70724] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -45089,9 +45563,9 @@ _G.pg.base.shop_template[70724] = {
 	time = {
 		{
 			{
-				2023,
-				11,
-				9
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -45101,9 +45575,9 @@ _G.pg.base.shop_template[70724] = {
 		},
 		{
 			{
-				2023,
-				11,
-				22
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -45125,7 +45599,7 @@ _G.pg.base.shop_template[70725] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -45140,9 +45614,9 @@ _G.pg.base.shop_template[70725] = {
 	time = {
 		{
 			{
-				2023,
-				7,
-				13
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -45152,9 +45626,9 @@ _G.pg.base.shop_template[70725] = {
 		},
 		{
 			{
-				2023,
-				7,
-				26
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -45176,7 +45650,7 @@ _G.pg.base.shop_template[70726] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -45191,9 +45665,9 @@ _G.pg.base.shop_template[70726] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -45203,9 +45677,9 @@ _G.pg.base.shop_template[70726] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -45227,7 +45701,7 @@ _G.pg.base.shop_template[70727] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -45242,9 +45716,9 @@ _G.pg.base.shop_template[70727] = {
 	time = {
 		{
 			{
-				2023,
-				7,
-				13
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -45254,9 +45728,9 @@ _G.pg.base.shop_template[70727] = {
 		},
 		{
 			{
-				2023,
-				7,
-				26
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -45278,7 +45752,7 @@ _G.pg.base.shop_template[70728] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -45293,9 +45767,9 @@ _G.pg.base.shop_template[70728] = {
 	time = {
 		{
 			{
-				2023,
-				7,
-				13
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -45305,9 +45779,9 @@ _G.pg.base.shop_template[70728] = {
 		},
 		{
 			{
-				2023,
-				7,
-				26
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -45329,7 +45803,7 @@ _G.pg.base.shop_template[70729] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -45344,9 +45818,9 @@ _G.pg.base.shop_template[70729] = {
 	time = {
 		{
 			{
-				2023,
-				7,
-				13
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -45356,9 +45830,9 @@ _G.pg.base.shop_template[70729] = {
 		},
 		{
 			{
-				2023,
-				7,
-				26
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -45380,7 +45854,7 @@ _G.pg.base.shop_template[70730] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -45395,9 +45869,9 @@ _G.pg.base.shop_template[70730] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -45407,9 +45881,9 @@ _G.pg.base.shop_template[70730] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -45431,7 +45905,7 @@ _G.pg.base.shop_template[70731] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -45446,9 +45920,9 @@ _G.pg.base.shop_template[70731] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -45458,9 +45932,9 @@ _G.pg.base.shop_template[70731] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -45482,7 +45956,7 @@ _G.pg.base.shop_template[70732] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -45497,9 +45971,9 @@ _G.pg.base.shop_template[70732] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -45509,9 +45983,9 @@ _G.pg.base.shop_template[70732] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -45533,7 +46007,7 @@ _G.pg.base.shop_template[70733] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -45548,9 +46022,9 @@ _G.pg.base.shop_template[70733] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -45560,9 +46034,9 @@ _G.pg.base.shop_template[70733] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -45584,7 +46058,7 @@ _G.pg.base.shop_template[70734] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -45599,9 +46073,9 @@ _G.pg.base.shop_template[70734] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				14
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -45611,9 +46085,9 @@ _G.pg.base.shop_template[70734] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -47063,7 +47537,7 @@ _G.pg.base.shop_template[70763] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -47078,9 +47552,9 @@ _G.pg.base.shop_template[70763] = {
 	time = {
 		{
 			{
-				2023,
-				10,
-				19
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -47090,9 +47564,9 @@ _G.pg.base.shop_template[70763] = {
 		},
 		{
 			{
-				2023,
-				11,
-				1
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -47114,7 +47588,7 @@ _G.pg.base.shop_template[70764] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -47129,9 +47603,9 @@ _G.pg.base.shop_template[70764] = {
 	time = {
 		{
 			{
-				2023,
-				10,
-				19
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -47141,9 +47615,9 @@ _G.pg.base.shop_template[70764] = {
 		},
 		{
 			{
-				2023,
-				11,
-				1
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -47165,7 +47639,7 @@ _G.pg.base.shop_template[70765] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -47180,9 +47654,9 @@ _G.pg.base.shop_template[70765] = {
 	time = {
 		{
 			{
-				2023,
-				10,
-				19
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -47192,9 +47666,9 @@ _G.pg.base.shop_template[70765] = {
 		},
 		{
 			{
-				2023,
-				11,
-				1
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -47216,7 +47690,7 @@ _G.pg.base.shop_template[70766] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -47231,9 +47705,9 @@ _G.pg.base.shop_template[70766] = {
 	time = {
 		{
 			{
-				2023,
-				10,
-				19
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -47243,9 +47717,9 @@ _G.pg.base.shop_template[70766] = {
 		},
 		{
 			{
-				2023,
-				11,
-				1
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -47267,7 +47741,7 @@ _G.pg.base.shop_template[70767] = {
 	tag = 1,
 	limit_args2 = "",
 	type_order = 0,
-	order = 100,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -47282,9 +47756,9 @@ _G.pg.base.shop_template[70767] = {
 	time = {
 		{
 			{
-				2023,
-				10,
-				19
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -47294,9 +47768,9 @@ _G.pg.base.shop_template[70767] = {
 		},
 		{
 			{
-				2023,
-				11,
-				1
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -49817,7 +50291,7 @@ _G.pg.base.shop_template[70831] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -49832,9 +50306,9 @@ _G.pg.base.shop_template[70831] = {
 	time = {
 		{
 			{
-				2023,
-				8,
-				24
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -49844,9 +50318,9 @@ _G.pg.base.shop_template[70831] = {
 		},
 		{
 			{
-				2023,
-				9,
-				6
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -49868,7 +50342,7 @@ _G.pg.base.shop_template[70832] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -49883,9 +50357,9 @@ _G.pg.base.shop_template[70832] = {
 	time = {
 		{
 			{
-				2023,
-				8,
-				24
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -49895,9 +50369,9 @@ _G.pg.base.shop_template[70832] = {
 		},
 		{
 			{
-				2023,
-				9,
-				6
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -49919,7 +50393,7 @@ _G.pg.base.shop_template[70833] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -49934,9 +50408,9 @@ _G.pg.base.shop_template[70833] = {
 	time = {
 		{
 			{
-				2023,
-				8,
-				24
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -49946,9 +50420,9 @@ _G.pg.base.shop_template[70833] = {
 		},
 		{
 			{
-				2023,
-				9,
-				6
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -49970,7 +50444,7 @@ _G.pg.base.shop_template[70834] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -49985,9 +50459,9 @@ _G.pg.base.shop_template[70834] = {
 	time = {
 		{
 			{
-				2023,
-				8,
-				24
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -49997,9 +50471,9 @@ _G.pg.base.shop_template[70834] = {
 		},
 		{
 			{
-				2023,
-				9,
-				6
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -50021,7 +50495,7 @@ _G.pg.base.shop_template[70835] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -50036,9 +50510,9 @@ _G.pg.base.shop_template[70835] = {
 	time = {
 		{
 			{
-				2023,
-				8,
-				24
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -50048,9 +50522,9 @@ _G.pg.base.shop_template[70835] = {
 		},
 		{
 			{
-				2023,
-				9,
-				6
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -50072,7 +50546,7 @@ _G.pg.base.shop_template[70836] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -50087,9 +50561,9 @@ _G.pg.base.shop_template[70836] = {
 	time = {
 		{
 			{
-				2023,
-				8,
-				24
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -50099,9 +50573,9 @@ _G.pg.base.shop_template[70836] = {
 		},
 		{
 			{
-				2023,
-				9,
-				6
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -50123,7 +50597,7 @@ _G.pg.base.shop_template[70837] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -50138,9 +50612,9 @@ _G.pg.base.shop_template[70837] = {
 	time = {
 		{
 			{
-				2023,
-				8,
-				24
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -50150,9 +50624,9 @@ _G.pg.base.shop_template[70837] = {
 		},
 		{
 			{
-				2023,
-				9,
-				6
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -51041,7 +51515,7 @@ _G.pg.base.shop_template[70861] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -51092,7 +51566,7 @@ _G.pg.base.shop_template[70862] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -51143,7 +51617,7 @@ _G.pg.base.shop_template[70863] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -51194,7 +51668,7 @@ _G.pg.base.shop_template[70864] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -51245,7 +51719,7 @@ _G.pg.base.shop_template[70865] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -51296,7 +51770,7 @@ _G.pg.base.shop_template[70866] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -51347,7 +51821,7 @@ _G.pg.base.shop_template[70867] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -51398,7 +51872,7 @@ _G.pg.base.shop_template[70868] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -51449,7 +51923,7 @@ _G.pg.base.shop_template[70869] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -51500,7 +51974,7 @@ _G.pg.base.shop_template[70870] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -51551,7 +52025,7 @@ _G.pg.base.shop_template[70871] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -51602,7 +52076,7 @@ _G.pg.base.shop_template[70872] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -51653,7 +52127,7 @@ _G.pg.base.shop_template[70873] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -51704,7 +52178,7 @@ _G.pg.base.shop_template[70874] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -51755,7 +52229,7 @@ _G.pg.base.shop_template[70899] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -51806,7 +52280,7 @@ _G.pg.base.shop_template[70900] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -51857,7 +52331,7 @@ _G.pg.base.shop_template[70908] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -51908,7 +52382,7 @@ _G.pg.base.shop_template[70909] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -51959,7 +52433,7 @@ _G.pg.base.shop_template[70910] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -51974,9 +52448,9 @@ _G.pg.base.shop_template[70910] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				21
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -51986,9 +52460,9 @@ _G.pg.base.shop_template[70910] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -52010,7 +52484,7 @@ _G.pg.base.shop_template[70912] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -52061,7 +52535,7 @@ _G.pg.base.shop_template[70913] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 2,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -52076,9 +52550,9 @@ _G.pg.base.shop_template[70913] = {
 	time = {
 		{
 			{
-				2023,
-				9,
-				28
+				2024,
+				4,
+				3
 			},
 			{
 				0,
@@ -52088,9 +52562,9 @@ _G.pg.base.shop_template[70913] = {
 		},
 		{
 			{
-				2023,
-				10,
-				11
+				2024,
+				4,
+				17
 			},
 			{
 				23,
@@ -52112,7 +52586,7 @@ _G.pg.base.shop_template[70914] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -52163,7 +52637,7 @@ _G.pg.base.shop_template[70915] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 10,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -52214,7 +52688,7 @@ _G.pg.base.shop_template[70928] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -52265,7 +52739,7 @@ _G.pg.base.shop_template[70929] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -52316,7 +52790,7 @@ _G.pg.base.shop_template[70930] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -52367,7 +52841,7 @@ _G.pg.base.shop_template[70931] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -52418,7 +52892,7 @@ _G.pg.base.shop_template[70932] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -52469,7 +52943,7 @@ _G.pg.base.shop_template[70933] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -52520,7 +52994,7 @@ _G.pg.base.shop_template[70934] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -52571,7 +53045,7 @@ _G.pg.base.shop_template[70935] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -52622,7 +53096,7 @@ _G.pg.base.shop_template[70971] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -52673,7 +53147,7 @@ _G.pg.base.shop_template[70972] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -52724,7 +53198,7 @@ _G.pg.base.shop_template[70977] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -52775,7 +53249,7 @@ _G.pg.base.shop_template[70978] = {
 	tag = 2,
 	limit_args2 = "",
 	type_order = 0,
-	order = 1,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -70220,6 +70694,230 @@ _G.pg.base.shop_template[200246] = {
 				2024,
 				4,
 				2
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[200247] = {
+	time_second = 0,
+	resource_type = 14,
+	genre = "gift_package",
+	type = 2,
+	desc = "500钻石购买家具币礼包（福煦SP复刻）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 200247,
+	resource_num = 500,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40106
+	},
+	time = {
+		{
+			{
+				2024,
+				4,
+				3
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				4,
+				17
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[200248] = {
+	time_second = 0,
+	resource_type = 14,
+	genre = "gift_package",
+	type = 2,
+	desc = "980钻石购买限时建造补给（福煦SP复刻）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 200248,
+	resource_num = 980,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40118
+	},
+	time = {
+		{
+			{
+				2024,
+				4,
+				3
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				4,
+				17
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[200249] = {
+	time_second = 0,
+	resource_type = 14,
+	genre = "gift_package",
+	type = 2,
+	desc = "120钻石购买限时攻略补给（福煦SP复刻）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 200249,
+	resource_num = 120,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			5
+		}
+	},
+	effect_args = {
+		40117
+	},
+	time = {
+		{
+			{
+				2024,
+				4,
+				3
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				4,
+				17
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+_G.pg.base.shop_template[200250] = {
+	time_second = 0,
+	resource_type = 14,
+	genre = "gift_package",
+	type = 2,
+	desc = "300钻石购买心智单元礼包（福煦SP复刻）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	type_order = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 200250,
+	resource_num = 300,
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40119
+	},
+	time = {
+		{
+			{
+				2024,
+				4,
+				3
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				4,
+				17
 			},
 			{
 				23,

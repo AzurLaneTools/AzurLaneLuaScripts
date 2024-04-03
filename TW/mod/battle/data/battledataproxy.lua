@@ -91,6 +91,12 @@ function slot9.TirggerBattleStartBuffs(slot0)
 				end
 			end
 
+			if slot0._currentStageData.stageBuff then
+				for slot23, slot24 in ipairs(slot0._currentStageData.stageBuff) do
+					slot19:AddBuff(uv0.Battle.BattleBuffUnit.New(slot24.id, slot24.level))
+				end
+			end
+
 			slot19:TriggerBuff(uv1.BuffEffectType.ON_START_GAME)
 
 			if slot19 == slot12 then

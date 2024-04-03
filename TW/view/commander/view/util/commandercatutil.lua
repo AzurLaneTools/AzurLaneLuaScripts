@@ -131,6 +131,23 @@ function slot8(slot0, slot1)
 	end
 end
 
+function slot9(slot0, slot1)
+	slot2 = getProxy(FleetProxy)
+
+	assert(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSSINGLE) and not slot3:isEnd())
+
+	for slot8, slot9 in pairs(slot2:getActivityFleets()[slot3.id]) do
+		slot10 = slot9:isSubmarineFleet()
+		slot11 = slot9.id % 10
+
+		for slot15, slot16 in pairs(slot9:getCommanders()) do
+			slot1[slot16.id].sub = slot10
+			slot1[slot16.id].fleetId = slot11
+			slot1[slot16.id].inFleet = true
+		end
+	end
+end
+
 function slot0.GetCommanderList(slot0)
 	slot2 = getProxy(CommanderProxy):getData()
 
@@ -150,6 +167,8 @@ function slot0.GetCommanderList(slot0)
 		uv6(slot0, slot2)
 	elseif CommanderCatScene.FLEET_TYPE_LIMIT_CHALLENGE == slot0.fleetType then
 		uv7(slot0, slot2)
+	elseif CommanderCatScene.FLEET_TYPE_BOSSSINGLE == slot0.fleetType then
+		uv8(slot0, slot2)
 	end
 
 	if getProxy(ChapterProxy):getActiveChapter() then

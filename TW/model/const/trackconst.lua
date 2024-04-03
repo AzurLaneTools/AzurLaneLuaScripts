@@ -41,6 +41,10 @@ slot2 = 1
 slot3 = 2
 
 function slot0.StoryStart(slot0)
+	if not slot0 then
+		return
+	end
+
 	pg.m02:sendNotification(GAME.NEW_TRACK, {
 		type = uv0,
 		eventId = uv1,
@@ -49,10 +53,29 @@ function slot0.StoryStart(slot0)
 end
 
 function slot0.StorySkip(slot0)
+	if not slot0 then
+		return
+	end
+
 	pg.m02:sendNotification(GAME.NEW_TRACK, {
 		type = uv0,
 		eventId = uv1,
 		para1 = tostring(slot0)
+	})
+end
+
+slot0.TRACK_NEW_BULLETIN_OPEN_URL = 2
+slot0.EVENT_NEW_BULLETIN_OPEN_URL = 1
+
+function slot0.Track(slot0, slot1, ...)
+	slot2, slot3, slot4 = ...
+
+	pg.m02:sendNotification(GAME.NEW_TRACK, {
+		type = slot0,
+		eventId = slot1,
+		para1 = slot2,
+		para2 = slot3,
+		para3 = slot4
 	})
 end
 

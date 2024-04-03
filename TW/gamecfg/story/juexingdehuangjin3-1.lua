@@ -307,8 +307,8 @@ return {
 			say = "衝擊吧，試作型超級鑽頭MKII！\n咆哮吧，巨龍機甲·鐵爪！！",
 			subActors = {
 				{
+					expression = 0,
 					actor = 100011,
-					expression = 1,
 					pos = {
 						x = 1125
 					}

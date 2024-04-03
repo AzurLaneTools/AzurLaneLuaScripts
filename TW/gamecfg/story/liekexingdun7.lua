@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"献给碧海之歌\n\n<size=45>七　献给碧海的诗歌</size>",
+					"獻給碧海之歌\n\n<size=45>七 獻給碧海的詩歌</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "自从那日的相处后，列克星敦似乎就一直在准备着什么。",
+			say = "自從那日的相處後，列星頓似乎就一直在準備著什麼。",
 			bgmDelay = 2,
 			bgm = "azumaster-ins",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task",
-			say = "就这样，终于到了与萨拉托加“约定”好的演出日——",
+			say = "就這樣，終於到了與薩拉托加「約定」好的演出日——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_120",
-			say = "港区·Live现场",
+			say = "港區·Live現場",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_120",
-			say = "明明是作为观众而来，列克星敦的兴致却格外高涨。",
+			say = "明明是作為觀眾而來，列星頓的興致卻格外高漲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "指挥官，应援棒给你~",
+			say = "指揮官，應援棒給你~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			},
 			options = {
 				{
-					content = "你看起来心情不错。",
+					content = "妳看起來心情不錯。",
 					flag = 1
 				}
 			},
@@ -130,7 +130,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "因为到该揭开“礼物盒子”的时候了~",
+			say = "因為到該揭開「禮物盒子」的時候了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "指挥官，今天我们也为你准备了一个……小小的惊喜哦~",
+			say = "指揮官，今天我們也為你準備了一個…小小的驚喜哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "啊，萨拉她登台了，我也要准备一下了。",
+			say = "啊，薩拉她登台了，我也要準備一下了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			side = 2,
 			dir = 1,
 			stopbgm = true,
-			say = "接下来轮到萨拉托加组合啦——！什么？为什么是组合？哼哼，猜猜看啊~我的搭档在哪里？",
+			say = "接下來輪到薩拉托加組合囉——！什麼？為什麼是組合？哼哼，猜猜看啊~我的搭檔在哪裡？",
 			bgm = "theme",
 			painting = {
 				alpha = 0.3,
@@ -223,7 +223,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "诶？大家猜不到嘛~哎呀，真是没办法呢——",
+			say = "誒？大家猜不到嘛~哎呀，真是沒辦法呢——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呼呼，那就让我来亲自揭晓答案吧~",
+			say = "呼呼，那就讓我來親自揭曉答案吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_120",
-			say = "伴随着萨拉托加的响指声，舞台上的聚光灯整齐地指向了已经起身的列克星敦。",
+			say = "伴隨著薩拉托加的響指聲，舞台上的聚光燈整齊地指向了已經起身的列星頓。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "今日的Live，将由特别的列克星敦-萨拉托加组合为大家呈现~",
+			say = "今日的Live，將由特別的列星頓-薩拉托加組合為大家呈現~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,11 +286,11 @@ return {
 			},
 			options = {
 				{
-					content = "祝你好运。",
+					content = "祝妳好運。",
 					flag = 1
 				},
 				{
-					content = "原来如此。",
+					content = "原來如此。",
 					flag = 2
 				}
 			}
@@ -302,7 +302,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
-			say = "当然，会把最棒的Live献给指挥官的~",
+			say = "當然，會把最棒的Live獻給指揮官的~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
-			say = "看来我们的小惊喜惊讶到你了~",
+			say = "看來我們的小驚喜驚訝到你了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,7 +335,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这可是最沉浸式的观赏体验哦，指挥官。",
+			say = "這可是最沉浸式的觀賞體驗哦，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,7 +351,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "那么，我出发了♪",
+			say = "那麼，我出發了♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_120",
-			say = "列克星敦挥手的那一刻，欢呼声几乎响彻云霄。",
+			say = "列星頓揮手的那一刻，歡呼聲幾乎響徹雲霄。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_120",
-			say = "实力派偶像组合的影响力，真是不可小觑。",
+			say = "實力派偶像組合的影響力，真是不可小覷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "答案揭晓~今日的惊喜是，列克星敦姐姐的回归演出，大家有没有惊讶到呀~？",
+			say = "答案揭曉~今日的驚喜是，列星頓姊姊的回歸演出，大家有沒有驚訝到呀~？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "感谢大家的热情，萨拉，让我们的演唱继续吧♪",
+			say = "感謝大家的熱情，薩拉，讓我們的演唱繼續吧♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			bgName = "star_level_bg_120",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "愿我们的热情与真挚，响彻碧海！",
+			say = "願我們的熱情與真摯，響徹碧海！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_120",
-			say = "列克星敦踏上了那闪耀的舞台。",
+			say = "列星頓踏上了那閃耀的舞台。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_120",
-			say = "又或者说，那舞台正因为她而闪耀——",
+			say = "又或者說，那舞台正因為她而閃耀——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

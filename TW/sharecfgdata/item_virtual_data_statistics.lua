@@ -159170,7 +159170,7 @@ _G.pg.base.item_virtual_data_statistics[59526] = {
 	replace_item = 0,
 	drop_gold_max = 0,
 	drop_oil_max = 0,
-	link_id = 7014,
+	link_id = 7015,
 	virtual_type = 21,
 	is_world = 0,
 	icon = "props/summer_stamp",
@@ -172748,6 +172748,101 @@ _G.pg.base.item_virtual_data_statistics[86007] = {
 		{
 			431233,
 			990
+		}
+	}
+}
+
+_G.pg.base.item_virtual_data_statistics[86008] = {
+	display = [[
+從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) 
+包含的換裝和機率如下：
+（<color=#92fc63>13.0%</color>）羅恩換裝 蒼翠的安眠曲<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>15.0%</color>）豪換裝 奢華之夜宴；
+（<color=#92fc63>15.0%</color>）鐵必制換裝 獨秀的冰華；
+（<color=#92fc63>15.0%</color>）華盛頓換裝 微笑嘉年華；
+（<color=#92fc63>14.0%</color>）波夕換裝 翠玉的海人魚；
+（<color=#92fc63>14.0%</color>）{namecode:103}換裝 水墨麗色；
+（<color=#92fc63>14.0%</color>）威嚴換裝 別樣的品茶時光；
+ ]],
+	name = "隨機心動換裝",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 86008,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			702042,
+			670
+		},
+		{
+			405032,
+			680
+		},
+		{
+			301292,
+			670
+		},
+		{
+			105121,
+			670
+		},
+		{
+			307083,
+			670
+		},
+		{
+			402071,
+			670
+		},
+		{
+			808012,
+			650
+		},
+		{
+			404041,
+			670
+		},
+		{
+			319011,
+			650
+		},
+		{
+			202272,
+			670
+		},
+		{
+			499012,
+			670
+		},
+		{
+			703021,
+			670
+		},
+		{
+			701025,
+			650
+		},
+		{
+			201351,
+			670
+		},
+		{
+			102263,
+			670
 		}
 	}
 }

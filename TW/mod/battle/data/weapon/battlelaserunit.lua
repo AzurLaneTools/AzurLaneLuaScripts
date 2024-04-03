@@ -151,7 +151,7 @@ function slot4.createBeam(slot0, slot1)
 	if slot0._aimPos == nil then
 		slot1:SetAimAngle(0)
 	elseif slot4.offset_prioritise then
-		slot1:SetAimPosition(slot0._aimPos, slot12)
+		slot1:SetAimPosition(slot0._aimPos, slot12, slot11)
 	else
 		slot14 = nil
 

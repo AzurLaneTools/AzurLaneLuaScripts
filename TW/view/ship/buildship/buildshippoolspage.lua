@@ -369,10 +369,12 @@ function slot0.SwitchPool(slot0, slot1)
 	slot6 = slot1:getConfigTable()
 	slot7, slot8 = nil
 	slot7 = (not slot1:IsActivity() or slot2:getBuildActivityCfgByID(slot6.id)) and slot2:getNoneActBuildActivityCfgByID(slot6.id)
+	slot9 = LoadSprite
+	slot9 = slot7 and slot7.buildship_tip
 
-	slot0.tipSTxt:SetText(slot7 and slot7.buildship_tip or i18n("buildship_" .. slot4 .. "_tip"))
+	slot0.tipSTxt:SetText(slot9 and HXSet.hxLan(slot9) or i18n("buildship_" .. slot4 .. "_tip"))
 
-	slot0:findTF("gallery/bg"):GetComponent(typeof(Image)).sprite = LoadSprite(slot7 and slot7.bg or "loadingbg/bg_" .. slot6.icon)
+	slot0:findTF("gallery/bg"):GetComponent(typeof(Image)).sprite = slot9(slot7 and slot7.bg or "loadingbg/bg_" .. slot6.icon)
 
 	setText(slot0:findTF("gallery/item_bg/item/Text"), slot6.number_1)
 	setText(slot0:findTF("gallery/item_bg/gold/Text"), slot6.use_gold)

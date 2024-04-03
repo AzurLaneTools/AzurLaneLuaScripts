@@ -587,6 +587,8 @@ function slot0.MoveAllNode(slot0, slot1, slot2, slot3)
 		end)
 	end
 
+	slot0.moveTargets = slot2
+
 	parallelAsync(slot4, function ()
 		uv0:ClearMoveNodes(uv1)
 	end)
@@ -619,18 +621,18 @@ function slot13(slot0, slot1, slot2, slot3)
 	slot5:SetParent(slot0.movePanel)
 
 	slot4.transform.localScale = Vector3.zero
-	slot5 = GetOrAddComponent(slot4, typeof(Image))
+	slot5 = GetOrAddComponent(slot4, typeof(RectTransform))
+	slot6 = GetOrAddComponent(slot4, typeof(Image))
 
 	LoadSpriteAsync(slot1, function (slot0)
 		uv0.sprite = slot0
 
 		uv0:SetNativeSize()
 
-		slot1 = uv1.movePanel:GetChild(0)
-		slot1.localScale = Vector3.one
-		slot1.localPosition = uv2
+		uv1.localScale = Vector3.one
+		uv1.localPosition = uv2
 
-		uv3(slot1.gameObject)
+		uv3(uv1.gameObject)
 	end)
 end
 
@@ -653,13 +655,18 @@ function slot0.ClearMoveNodes(slot0, slot1)
 		return
 	end
 
-	for slot5 = slot0.movePanel.childCount, 1, -1 do
-		if slot0.movePanel:GetChild(0):GetComponent(typeof(SpineAnimUI)) ~= nil then
+	slot2 = ipairs
+	slot3 = slot0.moveTargets or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		if slot6:GetComponent(typeof(SpineAnimUI)) ~= nil then
 			PoolMgr.GetInstance():ReturnSpineChar(slot6.name, slot6.gameObject)
 		else
 			Object.Destroy(slot6.gameObject)
 		end
 	end
+
+	slot0.moveTargets = {}
 end
 
 function slot0.FadeOutStory(slot0, slot1, slot2)

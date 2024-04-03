@@ -108,7 +108,7 @@ pg.recommend_shop = {
 		}
 	},
 	{
-		shop_id = 4034,
+		shop_id = 4037,
 		shop_type = 1,
 		id = 5,
 		pic = "",
@@ -117,8 +117,8 @@ pg.recommend_shop = {
 			{
 				{
 					2024,
-					2,
-					6
+					4,
+					3
 				},
 				{
 					0,
@@ -129,8 +129,8 @@ pg.recommend_shop = {
 			{
 				{
 					2024,
-					2,
-					21
+					4,
+					17
 				},
 				{
 					22,
@@ -141,7 +141,7 @@ pg.recommend_shop = {
 		}
 	},
 	{
-		shop_id = 4035,
+		shop_id = 4038,
 		shop_type = 1,
 		id = 6,
 		pic = "",
@@ -150,8 +150,8 @@ pg.recommend_shop = {
 			{
 				{
 					2024,
-					2,
-					6
+					4,
+					3
 				},
 				{
 					0,
@@ -162,8 +162,8 @@ pg.recommend_shop = {
 			{
 				{
 					2024,
-					2,
-					21
+					4,
+					17
 				},
 				{
 					22,
@@ -174,7 +174,7 @@ pg.recommend_shop = {
 		}
 	},
 	{
-		shop_id = 4036,
+		shop_id = 4039,
 		shop_type = 1,
 		id = 7,
 		pic = "",
@@ -183,8 +183,8 @@ pg.recommend_shop = {
 			{
 				{
 					2024,
-					2,
-					6
+					4,
+					3
 				},
 				{
 					0,
@@ -195,8 +195,8 @@ pg.recommend_shop = {
 			{
 				{
 					2024,
-					2,
-					21
+					4,
+					17
 				},
 				{
 					22,

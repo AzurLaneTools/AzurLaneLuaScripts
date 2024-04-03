@@ -67404,9 +67404,10 @@ _G.pg.base.aircraft_template[160411] = {
 
 _G.pg.base.aircraft_template[160412] = {
 	id = 160412,
+	name = "大黄蜂II技能鱼雷机Lv1",
+	base = 160411,
 	max_hp = 47,
 	hp_growth = 1826,
-	base = 160411,
 	weapon_ID = {
 		160422
 	}

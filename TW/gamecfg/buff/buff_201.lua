@@ -19,6 +19,25 @@ return {
 				attr = "damageRatioBullet",
 				number = 0.1
 			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "danyaochongzu"
+			}
+		},
+		{
+			type = "BattleBuffCleanse",
+			trigger = {
+				"onRemove"
+			},
+			arg_list = {
+				buff_id = 17793
+			}
 		}
 	}
 }

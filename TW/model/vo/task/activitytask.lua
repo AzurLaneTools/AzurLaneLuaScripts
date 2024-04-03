@@ -133,7 +133,19 @@ function slot0.changeNew(slot0)
 end
 
 function slot0.isCircle(slot0)
-	if slot0.actType == ActivityConst.ACTIVITY_TYPE_TASK_RYZA and slot0.type == 16 and slot0.subType == 1006 then
+	if slot0.actType == ActivityConst.ACTIVITY_TYPE_TASK_RYZA then
+		if slot0.type == 16 and slot0.subType == 1006 then
+			return true
+		elseif slot0:isRepeated() then
+			return true
+		end
+	end
+
+	return false
+end
+
+function slot0.isRepeated(slot0)
+	if slot0.type == 16 and slot0.subType == 20 then
 		return true
 	end
 

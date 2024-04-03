@@ -97,23 +97,29 @@ function slot0.TriggerPersonalTask(slot0, slot1)
 		return
 	end
 
-	if getProxy(TaskProxy):GetFlagShipInterActionTaskList() and #slot3 > 0 then
-		for slot7, slot8 in ipairs(slot3) do
-			pg.m02:sendNotification(GAME.UPDATE_TASK_PROGRESS, {
-				taskId = slot8.id
-			})
-		end
-	end
+	slot0:TriggerInterActionTask()
 
-	for slot7, slot8 in ipairs(pg.task_data_trigger.all) do
-		if pg.task_data_trigger[slot8].group_id == slot1 then
-			if not slot2:getFinishTaskById(slot9.task_id) then
-				slot0:CheckStoryDownload(slot10, function ()
+	slot2 = getProxy(TaskProxy)
+
+	for slot6, slot7 in ipairs(pg.task_data_trigger.all) do
+		if pg.task_data_trigger[slot7].group_id == slot1 then
+			if not slot2:getFinishTaskById(slot8.task_id) then
+				slot0:CheckStoryDownload(slot9, function ()
 					pg.m02:sendNotification(GAME.TRIGGER_TASK, uv0)
 				end)
 
 				break
 			end
+		end
+	end
+end
+
+function slot0.TriggerInterActionTask(slot0)
+	if getProxy(TaskProxy):GetFlagShipInterActionTaskList() and #slot2 > 0 then
+		for slot6, slot7 in ipairs(slot2) do
+			pg.m02:sendNotification(GAME.UPDATE_TASK_PROGRESS, {
+				taskId = slot7.id
+			})
 		end
 	end
 end

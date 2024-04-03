@@ -50,7 +50,7 @@ function slot0.execute(slot0, slot1)
 		cmd = slot2.cmd,
 		arg1 = slot2.arg1,
 		arg2 = slot2.arg2,
-		arg_list = {},
+		arg_list = slot2.arg_list or {},
 		kvargs1 = slot2.kvargs1
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
@@ -254,6 +254,10 @@ function slot0.updateActivityData(slot0, slot1, slot2, slot3, slot4)
 			slot3:updateData(slot8.id, slot2.number)
 		elseif slot1.cmd == 2 then
 			slot3.data1 = slot1.arg1
+		elseif slot1.cmd == 3 then
+			slot3.data2_list = _.map(slot1.arg_list, function (slot0)
+				return slot0
+			end)
 		end
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_CARD_PAIRS or slot5 == ActivityConst.ACTIVITY_TYPE_LINK_LINK then
 		if slot1.cmd == 1 then

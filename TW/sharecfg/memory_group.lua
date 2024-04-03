@@ -141,6 +141,7 @@ pg.memory_group = setmetatable({
 		250,
 		251,
 		259,
+		265,
 		266,
 		267,
 		268,
@@ -226,6 +227,7 @@ pg.memory_group = setmetatable({
 		582,
 		583,
 		584,
+		585,
 		587
 	}
 }, confHX)
@@ -3290,6 +3292,19 @@ pg.base.memory_group = {
 			3022
 		}
 	},
+	[265] = {
+		id = 265,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 5082,
+		title = "今日主推商品是…？",
+		memories = {
+			3141,
+			3142,
+			3143
+		}
+	},
 	[266] = {
 		id = 266,
 		subtype = 2,
@@ -4769,6 +4784,23 @@ pg.base.memory_group = {
 			2605,
 			2606,
 			2607
+		}
+	},
+	[585] = {
+		id = 585,
+		subtype = 0,
+		icon = "title_chara_liekexingdun",
+		type = 3,
+		link_event = 0,
+		title = "獻給碧海之歌",
+		memories = {
+			2651,
+			2652,
+			2653,
+			2654,
+			2655,
+			2656,
+			2657
 		}
 	},
 	[587] = {

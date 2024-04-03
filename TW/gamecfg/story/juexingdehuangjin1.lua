@@ -489,7 +489,7 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			actorName = "金（Golden）之神",
+			actorName = "黃金（Golden）之神",
 			bgm = "login_0401",
 			actor = 202110,
 			nameColor = "#FEF15E",
@@ -551,7 +551,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			actor = 202110,
-			actorName = "金（Golden）之神",
+			actorName = "黃金(Golden)之神",
 			nameColor = "#FEF15E",
 			say = "沒錯，我就是黃金（Golden）之神。",
 			typewriter = {
@@ -565,7 +565,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			actor = 202110,
-			actorName = "金（Golden）之神",
+			actorName = "黃金(Golden)之神",
 			nameColor = "#FEF15E",
 			say = "回想起來吧，妳所擁有的力量。",
 			typewriter = {
@@ -579,7 +579,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			actor = 202110,
-			actorName = "金（Golden）之神",
+			actorName = "黃金(Golden)之神",
 			nameColor = "#FEF15E",
 			say = "那是黃金（Golden）的力量。",
 			typewriter = {
@@ -593,7 +593,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			actor = 202110,
-			actorName = "金（Golden）之神",
+			actorName = "黃金（Golden）之神",
 			nameColor = "#FEF15E",
 			say = "來自黃金（Golden）時代，黃金（Golden）家族的力量。",
 			typewriter = {

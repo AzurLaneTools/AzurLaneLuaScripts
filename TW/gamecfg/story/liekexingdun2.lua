@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"献给碧海之歌\n\n<size=45>二　下午茶的烦恼相谈</size>",
+					"獻給碧海之歌\n\n<size=45>二 下午茶的煩惱相談</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "指挥室，阳台——",
+			say = "指揮室，陽台——",
 			bgmDelay = 2,
 			bgm = "story-richang-1",
 			flashout = {
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "虽然阳伞与桌椅早就准备完毕，但今天的一切多少还是有些与众不同。",
+			say = "雖然陽傘與桌椅早就準備完畢，但今天的一切多多少少還是有些與眾不同。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "谢谢。",
+			say = "謝謝。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "茶的香气让人放松……指挥官的茶艺真不错呢。",
+			say = "茶的香氣讓人放鬆……指揮官的茶藝真不錯呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "总该有放松的时候。列克星敦，有想过当妹妹是什么样的感觉么？",
+			say = "總要有放鬆的時候。列星頓，有想過當妹妹是什麼樣的感覺嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "指挥官，是萨拉托加和您说了什么吗？",
+			say = "指揮官，是薩拉托加和您說了什麼嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,11 +114,11 @@ return {
 			},
 			options = {
 				{
-					content = "你觉得呢，Sis.列克星敦？",
+					content = "妳覺得呢，Sis.列星頓？",
 					flag = 1
 				},
 				{
-					content = "你还真是关心她啊，Sis.列克星敦~",
+					content = "妳還真是關心她啊，Sis.列星頓~",
 					flag = 2
 				}
 			}
@@ -157,7 +157,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
-			say = "只是下意识的……欸？！",
+			say = "只是下意識的……欸？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "列、列克星敦妹妹？这、唔……",
+			say = "列、列星頓妹妹？這、唔……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "指挥官，您不会是和萨拉一样在恶作剧吧……？",
+			say = "指揮官，您不會是跟薩拉一樣在惡作劇吧……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "所以，想被这么叫么？",
+			say = "所以，想被這麼叫嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "呃……太奇怪了，还是算了吧……",
+			say = "呃……太奇怪了，還是算了吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不过也是呢，既然如此，偶尔不做大家的大姐姐也可以……",
+			say = "不過也是呢，既然如此，偶爾不做大家的大姊姊也可以……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "指挥官，我有一件很苦恼的事情，可以和您说么？",
+			say = "指揮官，我有一件很苦惱的事情，可以跟你說嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			},
 			options = {
 				{
-					content = "点头。",
+					content = "點頭。",
 					flag = 1
 				}
 			}
@@ -295,7 +295,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "……唔，我最近遇到了一些舞台上的问题。问题的根源，我称之为“Live统计学”……",
+			say = "……唔，我最近遇到了一些舞台上的問題。問題的根源，我稱之為「Live統計學」……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "简单来说，就是依靠统计数字和数学计算，就能得出观众最期待什么，最喜爱什么。",
+			say = "簡單來說，就是依靠統計數字和數學計算，就能得出觀眾最期待什麼，最喜愛什麼。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "只要遵循数学公式，就能举办一场能成为绝对焦点的演出。",
+			say = "只要遵循數學公式，就能舉辦一場能成為絕對焦點的演出。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,7 +343,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "明明演出举办的更加成功了，结果萨拉抱怨说，Live好像变得无聊了。",
+			say = "明明演出舉辦的更加成功了，結果薩拉抱怨說，Live好像變得無聊了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,7 +359,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "归根结底，是我擅自将Live的大家想传达的真情实感量化了，这样的演出是没有灵魂的。",
+			say = "歸根究底，是我擅自將Live的大家想傳達的真情實感量化了，這樣的演出是沒有靈魂的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "大家用心准备演出时付出的努力还有拼搏，就没有意义了……我好像起了个坏头，指挥官。",
+			say = "大家用心準備演出時付出的努力還有汗水，就沒有意義了……我好像做了個壞事，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "——还真是独特而奇妙的忧愁，带着列克星敦特有的哲学与诗意。",
+			say = "——還真是獨特而奇妙的憂愁，帶著列星頓特有的哲學與詩意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,14 +399,14 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "不过，哲学大师虽然难找，懂统计学的——倒还真有这么一个。",
+			say = "不過，哲學大師雖然難找，懂統計學的——還真的有這麼一個人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "讲述解决方法。",
+					content = "講述解決方法。",
 					flag = 1
 				}
 			}
@@ -417,7 +417,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这样就能解决问题么？……欸？如果解决不了，整个下午都会一直帮我解决问题？",
+			say = "這樣就能解決問題嗎？……欸？如果解決不了，整個下午都會一直幫我解決問題？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "指挥官，真是让人安心呢……",
+			say = "指揮官，真是讓人安心呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1

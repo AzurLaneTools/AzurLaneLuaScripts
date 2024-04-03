@@ -233,7 +233,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明明就没有那么多工作，更何况还有{namecode:450}陪在您的身边~跟{namecode:450}约会嘛！",
+			say = "明明就沒有那麼多工作，更何況還有布呂歇爾陪在您的身邊~跟布呂歇爾約會嘛！",
 			painting = {
 				alpha = 0.3,
 				time = 1

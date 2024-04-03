@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"献给碧海之歌\n\n<size=45>一　今日的恶作剧是……</size>",
+					"獻給碧海之歌\n\n<size=45>一 今日的惡作劇是……</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgmDelay = 2,
-			say = "——（敲门声）",
+			say = "——（敲門聲）",
 			soundeffect = "event:/ui/knockdoor2",
 			flashout = {
 				black = true,
@@ -54,7 +54,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，姐姐来了！所以就是这样这样那样那样！",
+			say = "啊，姐姐來了！所以就是這樣這樣那樣那樣！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -71,7 +71,7 @@ return {
 			actor = 107030,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "萨拉妹妹的小请求，就拜托啦！",
+			say = "薩拉妹妹的小請求，拜託！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -85,7 +85,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "萨拉托加的声音消失在了窗口。",
+			say = "薩拉托加的聲音消失在了窗戶。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "说起来，萨拉托加刚刚好像说过，她在门口设置了——",
+			say = "說起來，薩拉托加剛剛好像說過，她在門口設計了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "指挥官，我刚刚好像听见萨拉托加在——哇啊！",
+			say = "指揮官，我剛剛好像聽見薩拉托加在——哇啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "哎呀……这下可以肯定萨拉她来过了。",
+			say = "哎呀……這下可以肯定薩拉她來過了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "看来这就是“热情的欢迎”了，还真是有萨拉托加的风格。",
+			say = "看來這就是「熱情的歡迎」了，還真是有薩拉托加的風格。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "本该用来庆祝的彩色丝带从门框上倾泻而下，让列克星敦变得如圣诞树一般“缤纷多彩”。",
+			say = "本該用來慶祝的彩色絲帶從門框上傾瀉而下，讓列星頓變得如聖誕樹一般「繽紛多彩」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,11 +174,11 @@ return {
 			},
 			options = {
 				{
-					content = "过去帮忙。",
+					content = "過去幫忙。",
 					flag = 1
 				},
 				{
-					content = "拿来吹风机。",
+					content = "拿來吹風機。",
 					flag = 2
 				}
 			}
@@ -190,7 +190,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
-			say = "谢谢，我自己就行。",
+			say = "謝謝，我自己來就好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 1,
-			say = "欸？要、要我这样站好就行？好吧……",
+			say = "欸？要、要我這樣站好就好？好吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			optionFlag = 2,
-			say = "谢谢，帮大忙了。连这些都在办公桌下面备好了，您也辛苦了。",
+			say = "謝謝，幫大忙了。連這些都在辦公桌底下準備好了，您也辛苦了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_story_task_2",
-			say = "在一阵清理后，总算将列克星敦从彩带的小山中摘了出来。",
+			say = "在一陣清理後，總算將列星頓從彩帶的小山中摘了出來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "萨拉总喜欢做这样的事呢，精力也太旺盛了……",
+			say = "薩拉總喜歡做這樣的事呢，精力也太旺盛了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "这么多的彩带，之后要打扫一下才行。抱歉啦，指挥官，萨拉托加她又给你添麻烦了。",
+			say = "這麼多的彩帶，之後要打掃一下才行。抱歉啦，指揮官，薩拉托加她又給你添麻煩了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "不是这样？欸？这其实是专门针对我的恶作剧？",
+			say = "不是這樣？欸？這其實是專門針對我的惡作劇？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "萨拉说我心事很重的样子，所以在担心我……唔，这还真是出乎意料呢。",
+			say = "薩拉說我心事很重的樣子，所以在擔心我……唔，這還真是出乎意料。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			},
 			options = {
 				{
-					content = "邀请列克星敦来参加今天的下午茶。",
+					content = "邀請列星頓來參加今天的下午茶。",
 					flag = 1
 				}
 			}
@@ -336,7 +336,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "没关系的，是萨拉她想太多啦，我完全没问题。",
+			say = "沒關係的，是薩拉她想太多啦，我完全沒問題。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +352,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "——欸？您坚持？嗯，的确呢，我还从没见过指挥官的茶艺。",
+			say = "——欸？您堅持？嗯，的確呢，我還沒見過指揮官的茶藝。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "好吧~那就按指挥官说的办吧~",
+			say = "好吧~那就照指揮官說的辦吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1

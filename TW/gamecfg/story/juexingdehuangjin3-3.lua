@@ -63,7 +63,7 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "伴隨著伴隨著鐵爪惡魔的話語，鋼鐵巨龍再次完全恢復了損傷。的話語，鋼鐵巨龍再次完全恢復了損傷。",
+			say = "伴隨著鐵爪惡魔的話語，鋼鐵巨龍再次完全恢復了損傷。",
 			hidePaintObj = true,
 			typewriter = {
 				speed = 0.05,

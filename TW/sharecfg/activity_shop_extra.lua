@@ -2977,7 +2977,7 @@ pg.activity_shop_extra = {
 		end_by_maintenance = 0,
 		commodity_type = 7,
 		id = 117,
-		order = 10,
+		order = 800,
 		time = {
 			{
 				{

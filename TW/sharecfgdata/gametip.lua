@@ -24245,6 +24245,10 @@ _G.pg.base.gametip.luckybag_skin_islive2d = {
 	tip = "Live 2d"
 }
 
+_G.pg.base.gametip.SkinMagazinePage2_tip = {
+	tip = "點擊簽到"
+}
+
 _G.pg.base.gametip.racing_cost = {
 	tip = "累計\n消耗"
 }
@@ -24717,6 +24721,38 @@ _G.pg.base.gametip.skin_purchase_confirm = {
 	tip = "是否消耗<color=#92fc63>$1*1</color>購買折扣價\n<icon name=gem w=0.6 h=0.6/><color=#FFDE38FF>$2</color>的$3造型"
 }
 
+_G.pg.base.gametip.blackfriday_pack_lock = {
+	tip = "禮包將於$1解鎖購買"
+}
+
+_G.pg.base.gametip.skin_exchange_title = {
+	tip = "可兌換換裝"
+}
+
+_G.pg.base.gametip.blackfriday_pack_select_skinall = {
+	tip = "促銷換裝兌換券僅能兌換指定清單中的換裝。 若目前已全部擁有，兌換券將轉為抵扣券！"
+}
+
+_G.pg.base.gametip.skin_discount_desc = {
+	tip = "是否消耗$1*1 購買折後價 $2 的 $3"
+}
+
+_G.pg.base.gametip.skin_exchange_timelimit = {
+	tip = "以下道具的可兌換清單將於$1維護後變更，請即時前往倉庫使用"
+}
+
+_G.pg.base.gametip.blackfriday_pack_purchased = {
+	tip = "已購買"
+}
+
+_G.pg.base.gametip.commander_unsel_lock_flag_tip = {
+	tip = "目前未勾選詢問鎖定選項，指揮喵訓練完成時將不會詢問是否鎖定指揮喵"
+}
+
+_G.pg.base.gametip.skin_discount_timelimit = {
+	tip = "道具$1將於$2維護後到期，請即時前往換裝商店使用"
+}
+
 _G.pg.base.gametip.shan_luan_task_progress_tip = {
 	tip = "已達成: $1"
 }
@@ -25127,6 +25163,22 @@ _G.pg.base.gametip.live2d_reset_desc = {
 	tip = "Live2D狀態已重置"
 }
 
+_G.pg.base.gametip.skin_exchange_usetip = {
+	tip = "購買的禮包內包含限時道具$1，前往倉庫使用"
+}
+
+_G.pg.base.gametip.blackfriday_pack_select_skinall_dialog = {
+	tip = "您目前已擁有該自選券中所含的全部換裝\n是否將<color=#92fc63>$1</color>轉換為<color=#92fc63>$2</color>？"
+}
+
+_G.pg.base.gametip.not_use_ticket_to_buy_skin = {
+	tip = "不使用換裝抵扣券"
+}
+
+_G.pg.base.gametip.skin_purchase_over_price = {
+	tip = "是否消耗<color=#92fc63>$1*1</color>購買折扣價\n<icon name=gem w=0.6 h=0.6/><color=#FFDE38FF>$2</color>的<color=#92fc63>$3</color>造型\n（超過換裝售價的部分不退還）"
+}
+
 _G.pg.base.gametip.help_chunjie2024 = {
 	tip = {
 		{
@@ -25147,4 +25199,20 @@ _G.pg.base.gametip.help_chunjie2024 = {
 
 _G.pg.base.gametip.skin_shop_buy_confirm = {
 	tip = "是否使用<color=$1>$2鑽石</color>購買<color=#92fc63FF>$3</color>"
+}
+
+_G.pg.base.gametip.Announcements_Event_Notice = {
+	tip = "活動公告"
+}
+
+_G.pg.base.gametip.Announcements_System_Notice = {
+	tip = "系統公告"
+}
+
+_G.pg.base.gametip.Announcements_News = {
+	tip = "資訊速覽"
+}
+
+_G.pg.base.gametip.Announcements_Donotshow = {
+	tip = "今日不再顯示"
 }
