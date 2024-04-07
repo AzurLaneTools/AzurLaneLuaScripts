@@ -9925,7 +9925,7 @@ pg.base.ship_skin_template_18 = {
 	},
 	[9701050] = {
 		ship_group = 970105,
-		name = "吸血鬼·META",
+		name = "뱀파이어·META",
 		hand_id = 13,
 		bgm = "",
 		l2d_drag_rate = "",
@@ -9950,7 +9950,7 @@ pg.base.ship_skin_template_18 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "暗夜的使者，可爱又迷人的吸血鬼前来拜会汝了~嘻嘻，汝有着不错的味道哦，不愧是人家的梦中之人呢——",
+		desc = "어두운 밤의 사자, 귀여운 뱀파이어가 그대를 찾아왔어. 에헤헤, 향긋한 냄새♪ 역시 뱀파이어의 꿈에 나온 사람 다워♡",
 		voice_actor = 89,
 		spine_offset = "",
 		gyro = 0,

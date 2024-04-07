@@ -14302,8 +14302,8 @@ _G.pg.base.item_data_statistics[21031] = {
 
 _G.pg.base.item_data_statistics[21032] = {
 	open_directly = 0,
-	name = "结晶：吸血鬼·META",
-	display = "吸血鬼·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	name = "결정: 뱀파이어·META",
+	display = "뱀파이어·META의 능력을 상승시키는 아이템. META 연구실의 한계돌파에서 사용 가능",
 	type = 4,
 	display_effect = "",
 	id = 21032,
@@ -24083,8 +24083,8 @@ _G.pg.base.item_data_statistics[30418] = {
 
 _G.pg.base.item_data_statistics[30419] = {
 	open_directly = 1,
-	name = "火焰巨龙飞机",
-	display = "可以获得火焰巨龙飞机(鱼雷)、火焰巨龙飞机(战斗)、火焰巨龙飞机(轰炸)外观装备各一件",
+	name = "플레임 드래곤 함재기",
+	display = "플레임 드래곤 함재기(공격), 플레임 드래곤 함재기(전투), 플레임 드래곤 함재기(폭격)를 1개씩 획득할 수 있습니다.",
 	type = 11,
 	display_effect = "",
 	id = 30419,

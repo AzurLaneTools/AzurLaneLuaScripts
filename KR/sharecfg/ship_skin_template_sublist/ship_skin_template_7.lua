@@ -11152,7 +11152,7 @@ pg.base.ship_skin_template_7 = {
 	},
 	[301124] = {
 		ship_group = 30112,
-		name = "蔷薇紫的芳香",
+		name = "바이올렛 장미의 향기",
 		hand_id = 14,
 		bgm = "",
 		l2d_drag_rate = "",
@@ -11177,7 +11177,7 @@ pg.base.ship_skin_template_7 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		special_effects = "",
-		desc = "一、二……唔，插好了，指挥官。嗯……今天的{namecode:14}，是指挥官的贴身女仆，尽管插花之外的工作还不熟练，但{namecode:14}可以做到一直留在这里陪你哦。",
+		desc = "하나, 둘…… 네. 지휘관 씨, 이제 괜찮아요. 네. ……오늘 이나즈마는 지휘관 씨의 메이드예요. 꽃꽂이 말고는 익숙하지 않지만, 계속 계속 곁에 있어드릴 수 있어요.",
 		voice_actor = 70,
 		spine_offset = "",
 		gyro = 0,

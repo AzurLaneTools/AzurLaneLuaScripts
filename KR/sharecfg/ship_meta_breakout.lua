@@ -387,7 +387,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9701051] = {
-		breakout_view = "习得技能【逐光之焰·吸血鬼】I/鱼雷效率提高5%",
+		breakout_view = "[염추의 재 - 뱀파이어] 습득 / 어뢰 보정 +5%",
 		gold = 500,
 		breakout_id = 9701052,
 		repair = 0,
@@ -420,7 +420,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701053] = {
-		breakout_view = "【逐光之焰·吸血鬼】升级/全武器效率提高5%",
+		breakout_view = "[염추의 재 - 뱀파이어] 강화 / 무기 보정 +5%",
 		gold = 2500,
 		breakout_id = 9701054,
 		repair = 0,
