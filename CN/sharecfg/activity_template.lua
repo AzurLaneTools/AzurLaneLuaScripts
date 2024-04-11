@@ -10125,45 +10125,19 @@ pg.activity_template = {
 	},
 	[5260] = {
 		mark = 20240328,
-		id = 5260,
 		title_res_tag = "yishijie_pt",
+		time = "stop",
 		type = 111,
 		login_pop = 0,
 		config_id = 5264,
 		is_show = 0,
+		id = 5260,
 		config_data = {
 			1001,
 			1002,
 			1003,
 			1004,
 			1005
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					3,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "OtherWorldMainPage",
@@ -10314,6 +10288,7 @@ pg.activity_template = {
 			}
 		},
 		config_client = {
+			scene = "OTHERWORLD_BACKHILL",
 			red_tip_time = {
 				2024,
 				4,

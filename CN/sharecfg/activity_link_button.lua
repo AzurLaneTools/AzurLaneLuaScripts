@@ -59,7 +59,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5260
+			5264
 		},
 		param = {
 			"OTHERWORLD_BACKHILL"
