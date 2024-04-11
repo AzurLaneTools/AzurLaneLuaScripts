@@ -2674,6 +2674,13 @@ pg.name_code = {
 		code = "소유즈",
 		nation = 0
 	},
+	[531] = {
+		name = "프리드리히 카를",
+		type = 1,
+		id = 531,
+		code = "프리드리히 카를",
+		nation = 0
+	},
 	[10000] = {
 		name = "제로센 52형",
 		type = 2,

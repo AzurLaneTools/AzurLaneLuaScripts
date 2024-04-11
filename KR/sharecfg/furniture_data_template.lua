@@ -137,6 +137,7 @@ pg.furniture_data_template = setmetatable({
 			268,
 			269,
 			271,
+			273,
 			100002,
 			100003,
 			100004,
@@ -195,6 +196,7 @@ pg.furniture_data_template = setmetatable({
 			100057,
 			100058,
 			100059,
+			100060,
 			200001,
 			200002,
 			200003,
@@ -3041,6 +3043,26 @@ pg.furniture_data_template = setmetatable({
 			308303,
 			308304,
 			308305
+		},
+		[109] = {
+			309001,
+			309002,
+			309101,
+			309102,
+			309103,
+			309104,
+			309105,
+			309106,
+			309107,
+			309108,
+			309109,
+			309110,
+			309111,
+			309112,
+			309113,
+			309114,
+			309301,
+			309302
 		}
 	},
 	get_id_list_by_tag = {
@@ -4860,7 +4882,20 @@ pg.furniture_data_template = setmetatable({
 			308115,
 			308116,
 			308117,
-			308118
+			308118,
+			309101,
+			309102,
+			309103,
+			309104,
+			309105,
+			309106,
+			309107,
+			309108,
+			309109,
+			309110,
+			309111,
+			309112,
+			309114
 		},
 		{
 			1108,
@@ -5161,6 +5196,7 @@ pg.furniture_data_template = setmetatable({
 			100057,
 			100058,
 			100059,
+			100060,
 			54104,
 			54105
 		},
@@ -5213,7 +5249,8 @@ pg.furniture_data_template = setmetatable({
 			264,
 			266,
 			268,
-			271
+			271,
+			273
 		},
 		[7] = {
 			213,
@@ -5398,7 +5435,8 @@ pg.furniture_data_template = setmetatable({
 			307103,
 			307109,
 			308119,
-			308305
+			308305,
+			309113
 		},
 		[4] = {
 			1001,
@@ -5493,7 +5531,8 @@ pg.furniture_data_template = setmetatable({
 			305001,
 			306001,
 			307001,
-			308001
+			308001,
+			309001
 		},
 		[3] = {
 			1002,
@@ -5589,7 +5628,8 @@ pg.furniture_data_template = setmetatable({
 			305002,
 			306002,
 			307002,
-			308002
+			308002,
+			309002
 		},
 		[5] = {
 			1301,
@@ -5910,7 +5950,9 @@ pg.furniture_data_template = setmetatable({
 			308301,
 			308302,
 			308303,
-			308304
+			308304,
+			309301,
+			309302
 		}
 	},
 	get_id_list_by_type = {
@@ -6008,7 +6050,8 @@ pg.furniture_data_template = setmetatable({
 			305002,
 			306002,
 			307002,
-			308002
+			308002,
+			309002
 		},
 		[7] = {
 			1,
@@ -6126,6 +6169,7 @@ pg.furniture_data_template = setmetatable({
 			268,
 			269,
 			271,
+			273,
 			100002,
 			100004,
 			100005,
@@ -6189,6 +6233,7 @@ pg.furniture_data_template = setmetatable({
 			213,
 			240,
 			242,
+			100060,
 			200001,
 			200002,
 			200003,
@@ -7988,7 +8033,20 @@ pg.furniture_data_template = setmetatable({
 			308116,
 			308117,
 			308118,
-			308119
+			308119,
+			309101,
+			309102,
+			309103,
+			309104,
+			309106,
+			309107,
+			309108,
+			309109,
+			309110,
+			309111,
+			309112,
+			309113,
+			309114
 		},
 		[11] = {
 			131,
@@ -8149,7 +8207,8 @@ pg.furniture_data_template = setmetatable({
 			305001,
 			306001,
 			307001,
-			308001
+			308001,
+			309001
 		},
 		[5] = {
 			1101,
@@ -8290,7 +8349,8 @@ pg.furniture_data_template = setmetatable({
 			305108,
 			305111,
 			305119,
-			308104
+			308104,
+			309105
 		},
 		[3] = {
 			1108,
@@ -8767,7 +8827,9 @@ pg.furniture_data_template = setmetatable({
 			308302,
 			308303,
 			308304,
-			308305
+			308305,
+			309301,
+			309302
 		},
 		[8] = {
 			17121
@@ -8934,6 +8996,7 @@ pg.furniture_data_template = setmetatable({
 		268,
 		269,
 		271,
+		273,
 		100002,
 		100003,
 		100004,
@@ -8992,6 +9055,7 @@ pg.furniture_data_template = setmetatable({
 		100057,
 		100058,
 		100059,
+		100060,
 		200001,
 		200002,
 		200003,
@@ -11649,7 +11713,25 @@ pg.furniture_data_template = setmetatable({
 		308302,
 		308303,
 		308304,
-		308305
+		308305,
+		309001,
+		309002,
+		309101,
+		309102,
+		309103,
+		309104,
+		309105,
+		309106,
+		309107,
+		309108,
+		309109,
+		309110,
+		309111,
+		309112,
+		309113,
+		309114,
+		309301,
+		309302
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -18275,6 +18357,49 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[273] = {
+		spine_extra = "",
+		describe = "\"집에 장식할 수 있는 마왕성! \" ……이런 기념 아이템을 원하는 용사가 정말 있기는 할까?\n――\"제로부터 시작하는 마왕 토벌\" 이벤트 참가 보상.",
+		gain_by = "제로부터 시작하는 마왕 토벌",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 8,
+		icon = "maoxianxunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "모험 클리어 기념",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 273,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"maoxianxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "높이~ 더 높이 띄우자~ 에엣?! 너무 높아 너무 높이 갔어!! (QㅁQ);;;",
@@ -22447,6 +22572,43 @@ pg.base.furniture_data_template = {
 					"houzhai_huaban"
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[100060] = {
+		spine_extra = "",
+		describe = "짜잔! 천재 정비사 연합,  다 빈치 1호와 소브라지텔니 1호 등장!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 0,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "juuswanouicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "뽀송뽀송한 천재군단!",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/juuswanou",
+		canputon = 0,
+		id = 100060,
+		can_rotate = 0,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -139002,6 +139164,845 @@ pg.base.furniture_data_template = {
 					false
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[309001] = {
+		spine_extra = "",
+		describe = "판타지와 마법이 가득한 숲의 오두막에 오신 것을 환영합니다!",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 109,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "숲 오두막 바닥",
+		effect = "",
+		advice = 0,
+		icon = "dibanmwicon",
+		spine_action_replace = "",
+		picture = "mw/dibanmw",
+		comfortable = 4,
+		canputon = 0,
+		id = 309001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309002] = {
+		spine_extra = "",
+		describe = "판타지와 마법이 가득한 숲의 오두막에 오신 것을 환영합니다!",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 109,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "숲 오두막 벽",
+		effect = "",
+		advice = 0,
+		icon = "qiangbimwicon",
+		spine_action_replace = "",
+		picture = "mw/qiangbimw",
+		comfortable = 4,
+		canputon = 0,
+		id = 309002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309101] = {
+		spine_extra = "",
+		describe = "아늑한 불꽃이 타오르고 있다. 벽난로가 자아내는 훈훈하고 따뜻한 분위기는 만드라고라조차도 비명을 멈추게 만든다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 109,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "bilumwicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "마법의 벽난로",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "mw/bilumw",
+		canputon = 0,
+		id = 309101,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309102] = {
+		spine_extra = "",
+		describe = "부드러운 감촉이 아주 만점인 침대. 하룻밤 자면 HP를 최대치까지 회복할 수 있다!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 109,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "chuangmwicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "깊은 숲 속의 침대",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "mw/chuangmw",
+		canputon = 0,
+		id = 309102,
+		can_rotate = 0,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-12.5,
+					36.9
+				},
+				{
+					-1,
+					1
+				},
+				"mw/chuangmw_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309103] = {
+		spine_extra = "",
+		describe = "행잉 체어에 흔들흔들 몸을 싣고 있으면, 바로 잠이 쏟아질 것이다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "흔들흔들 행잉 체어",
+		themeId = 109,
+		icon = "diaoyimwicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 309103,
+		can_rotate = 0,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"diaoyimw",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[309104] = {
+		spine_extra = "",
+		describe = "바닥에 두는 마법 조명. 은은한 빛을 발하고 있다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 109,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "didengmwicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "덩굴 조명",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "mw/didengmw",
+		canputon = 0,
+		id = 309104,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309105] = {
+		spine_extra = "",
+		describe = "마법으로 가공한 덩굴과 담쟁이 식물. 발에 찔리지는 않을… 것이다, 아마.",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 109,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "ditanmwicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "꽃 덩굴 카펫",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "mw/ditanmw",
+		canputon = 0,
+		id = 309105,
+		can_rotate = 0,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309106] = {
+		spine_extra = "",
+		describe = "조명 마법이 부여된 덩굴 식물. 플로어 램프로 쓰면 좋다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 109,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "huadengmwicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "꽃 모양 덩굴 램프",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "mw/huadengmw",
+		canputon = 0,
+		id = 309106,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309107] = {
+		spine_extra = "",
+		describe = "붓이 자동으로 움직이는 이젤. 원하는 건 모두 그림으로 그려준다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "녹색 이젤",
+		themeId = 109,
+		icon = "huajiamwicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 309107,
+		can_rotate = 0,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huajiamw",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[309108] = {
+		spine_extra = "",
+		describe = "은은한 형광빛을 뿜어내는 식물. 밤에 조명으로 쓰면 편리하다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 109,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "huamwicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "형광초",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "mw/huamw",
+		canputon = 0,
+		id = 309108,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309109] = {
+		spine_extra = "",
+		describe = "음… 오늘은 뭘 조합해 볼까? 회복 포션? 아니면 혼란 포션?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 109,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "jiazimwicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "알케미스트",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "mw/jiazimw",
+		canputon = 0,
+		id = 309109,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309110] = {
+		spine_extra = "",
+		describe = "금기의 마법과 지식이 잔뜩 기록되어 있다…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 109,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "mofashumwicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "금기의 마도서",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "mw/mofashumw",
+		canputon = 0,
+		id = 309110,
+		can_rotate = 0,
+		size = {
+			6,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309111] = {
+		spine_extra = "",
+		describe = "마법 만쥬를 모티브로 만든 소파. 푹신푹신하고 편안하다!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 109,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shafamwicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "마법 만쥬 소파",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "mw/shafamw",
+		canputon = 0,
+		id = 309111,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					32.8,
+					-17
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309112] = {
+		spine_extra = "",
+		describe = "귀중한 서적이 숨어 있을지도 모른다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 109,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shuguimwicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "약학 서적 책장",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "mw/shuguimw",
+		canputon = 0,
+		id = 309112,
+		can_rotate = 0,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309113] = {
+		spine_extra = "",
+		describe = "전송된 곳에… 어쩌면 보물이 숨겨져 있을지도…?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "전송 마법진",
+		themeId = 109,
+		icon = "chuansongtaimwicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 309113,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chuansongtaimwB",
+				"normal"
+			},
+			{
+				"chuansongtaimwT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					},
+					{
+						"walk"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[309114] = {
+		spine_extra = "",
+		describe = "미묘한 색깔의 입욕제를 넣은 욕조. 스킨 케어 효과가 있을… 지도 모른다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "마법약 욕조",
+		themeId = 109,
+		icon = "yugangmwicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 309114,
+		can_rotate = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yugangmwB",
+				"normal"
+			},
+			{
+				"yugangmwT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					-3,
+					70.5
+				},
+				{
+					274.31,
+					254
+				},
+				"mw/yugangmw_mask"
+			},
+			{
+				5.3,
+				-151
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[309301] = {
+		spine_extra = "",
+		describe = "그루터기로 만든 마법 시계. 환경 친화적!",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 109,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "zhongmwicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "그루터기 시계",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "mw/zhongmw",
+		canputon = 0,
+		id = 309301,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[309302] = {
+		spine_extra = "",
+		describe = "꽃향기와 작은 새의 지저귐으로 마음을 치유하자.",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 109,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 5,
+		icon = "zhuzimwicon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "휴식의 기둥 장식",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "mw/zhuzimw",
+		canputon = 0,
+		id = 309302,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	}

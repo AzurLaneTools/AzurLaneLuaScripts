@@ -30,6 +30,8 @@ function slot0.Execute(slot0)
 		end
 	elseif slot2 == SYSTEM_LIMIT_CHALLENGE then
 		slot0:ExitLimitChallengeSystem(slot1)
+	elseif slot2 == SYSTEM_BOSS_SINGLE then
+		slot0:ExitBossSingleSystem(slot1)
 	else
 		slot0:ExitCommonSystem(slot1)
 	end
@@ -182,6 +184,20 @@ function slot0.ExitLimitChallengeSystem(slot0, slot1)
 	pg.m02:sendNotification(GAME.GO_BACK)
 end
 
+function slot0.ExitBossSingleSystem(slot0, slot1)
+	slot3, slot4 = getProxy(ContextProxy):getContextByMediator(BossSinglePreCombatMediator)
+
+	if slot3 then
+		slot4:removeChild(slot3)
+	end
+
+	if getProxy(ContextProxy):getCurrentContext():getContextByMediator(BossSingleContinuousOperationMediator) then
+		slot0:CheckBossSingleSystem(slot1)
+	else
+		pg.m02:sendNotification(GAME.GO_BACK)
+	end
+end
+
 function slot0.ExitCommonSystem(slot0, slot1)
 	if getProxy(ContextProxy):getContextByMediator(LevelMediator2) and slot3:getContextByMediator(PreCombatMediator) then
 		slot3:removeChild(slot4)
@@ -262,7 +278,24 @@ function slot3(slot0, slot1)
 	}))
 end
 
-function slot4()
+function slot4(slot0, slot1)
+	LoadContextCommand.LoadLayerOnTopContext(Context.New({
+		mediator = BossSingleTotalRewardPanelMediator,
+		viewComponent = BossSingleTotalRewardPanel,
+		data = {
+			onClose = function ()
+				pg.m02:sendNotification(GAME.GO_BACK)
+			end,
+			stopReason = slot1,
+			rewards = getProxy(ChapterProxy):PopBossSingleRewards(),
+			isAutoFight = getProxy(ContextProxy):getCurrentContext():getContextByMediator(BossSingleContinuousOperationMediator) and slot2.data.autoFlag or nil,
+			continuousBattleTimes = slot0.continuousBattleTimes,
+			totalBattleTimes = slot0.totalBattleTimes
+		}
+	}))
+end
+
+function slot5()
 	if pg.GuildMsgBoxMgr.GetInstance():GetShouldShowBattleTip() and getProxy(GuildProxy):getRawData() and slot1:getWeeklyTask() and slot2.id ~= 0 then
 		slot0:SubmitTask(function (slot0, slot1)
 			if slot1 then
@@ -370,7 +403,76 @@ function slot0.CheckBossRushSystem(slot0, slot1)
 	return slot11
 end
 
-function slot5(slot0, slot1)
+function slot6(slot0)
+	(function (slot0, slot1)
+		slot2 = slot0:GetCostSum().oil
+
+		if slot1 > 0 then
+			slot2 = math.min(slot2, slot1)
+		end
+
+		uv0 = uv0 + slot2
+	end)(getProxy(FleetProxy):getActivityFleets()[slot0.actId][slot0.mainFleetId], getProxy(ActivityProxy):getActivityById(slot0.actId):GetEnemyDataByStageId(slot0.stageId):GetOilLimit()[1] or 0)
+	slot7(slot5[slot0.mainFleetId + 10], slot3[2] or 0)
+
+	return 0
+end
+
+function slot0.CheckBossSingleSystem(slot0, slot1)
+	pg.m02:sendNotification(BossSingleContinuousOperationMediator.CONTINUE_OPERATION)
+
+	if getProxy(PlayerProxy):getRawData().oil < uv0(slot1) then
+		uv1(slot1, i18n("multiple_sorties_stop_reason1"))
+
+		return
+	end
+
+	if getProxy(PlayerProxy):getRawData():getMaxShipBag() <= getProxy(BayProxy):getShipCount() then
+		uv1(slot1, i18n("multiple_sorties_stop_reason3"))
+
+		return
+	end
+
+	slot2 = getProxy(FleetProxy)
+
+	if #_.map(_.values(slot2:getActivityFleets()[slot1.actId][slot1.mainFleetId].ships), function (slot0)
+		if getProxy(BayProxy):getShipById(slot0) and slot1.energy == Ship.ENERGY_LOW then
+			return slot1
+		end
+	end) > 0 then
+		uv1(slot1, i18n("multiple_sorties_stop_reason2", Fleet.DEFAULT_NAME_BOSS_ACT[slot1.mainFleetId], table.concat(_.map(slot5, function (slot0)
+			return "「" .. slot0:getConfig("name") .. "」"
+		end), "")))
+
+		return
+	end
+
+	if slot1.statistics._battleScore <= ys.Battle.BattleConst.BattleScore.C then
+		uv1(slot1, i18n("multiple_sorties_stop_reason4"))
+
+		return
+	end
+
+	uv2()
+
+	slot6 = getProxy(ContextProxy)
+
+	if getProxy(ContextProxy):getCurrentContext():getContextByMediator(BossSingleContinuousOperationMediator) and not slot7.data.autoFlag then
+		uv1(slot1)
+
+		return
+	end
+
+	if slot1.continuousBattleTimes < 1 then
+		uv1(slot1)
+
+		return
+	end
+
+	pg.m02:sendNotification(NewBattleResultMediator.ON_COMPLETE_BATTLE_RESULT)
+end
+
+function slot7(slot0, slot1)
 	slot2 = getProxy(ActivityProxy):getActivityById(slot0)
 	slot6 = getProxy(PlayerProxy):getRawData():getResource(pg.activity_event_worldboss[slot2:getConfig("config_id")].ticket)
 
@@ -381,7 +483,7 @@ function slot5(slot0, slot1)
 	return false
 end
 
-function slot6(slot0)
+function slot8(slot0)
 	pg.m02:sendNotification(GAME.BEGIN_STAGE, {
 		stageId = slot0.stageId,
 		mainFleetId = slot0.mainFleetId,
@@ -396,7 +498,8 @@ end
 function slot0.listNotificationInterests(slot0)
 	return {
 		GAME.BOSSRUSH_SETTLE_DONE,
-		ContinuousOperationMediator.ON_REENTER
+		ContinuousOperationMediator.ON_REENTER,
+		BossSingleContinuousOperationMediator.ON_REENTER
 	}
 end
 
@@ -419,6 +522,14 @@ function slot0.handleNotification(slot0, slot1)
 		else
 			uv2(slot0.contextData)
 		end
+	elseif slot2 == BossSingleContinuousOperationMediator.ON_REENTER then
+		if not slot3.autoFlag then
+			uv3(slot0.contextData)
+
+			return
+		end
+
+		uv2(slot0.contextData)
 	end
 end
 

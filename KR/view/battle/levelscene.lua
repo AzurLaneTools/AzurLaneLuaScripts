@@ -549,6 +549,11 @@ function slot0.didEnter(slot0)
 			end,
 			[ActivityConst.ACTIVITY_TYPE_BOSSRUSH] = function ()
 				uv0:emit(LevelMediator2.ON_BOSSRUSH_MAP)
+			end,
+			[ActivityConst.ACTIVITY_TYPE_BOSSSINGLE] = function ()
+				uv0:emit(LevelMediator2.ON_BOSSSINGLE_MAP, {
+					mode = OtherworldMapScene.MODE_BATTLE
+				})
 			end
 		})
 	end, SFX_PANEL)

@@ -8,7 +8,7 @@ return {
 	stack = 1,
 	id = 200811,
 	icon = 200811,
-	last_effect = "heiluodeni_shadow",
+	last_effect = "",
 	effect_list = {
 		{
 			type = "BattleBuffAddBuff",
@@ -42,23 +42,13 @@ return {
 			}
 		},
 		{
-			type = "BattleBuffSetBattleUnitType",
+			type = "BattleBuffAddBuff",
 			trigger = {
-				"onAttach",
-				"onRemove"
+				"onAttach"
 			},
 			arg_list = {
-				value = -100
-			}
-		},
-		{
-			type = "BattleBuffFixDamage",
-			trigger = {
-				"onBeforeTakeDamage"
-			},
-			arg_list = {
-				target = "TargetSelf",
-				value = 0
+				buff_id = 200819,
+				target = "TargetSelf"
 			}
 		},
 		{

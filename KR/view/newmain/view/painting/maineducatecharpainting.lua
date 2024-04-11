@@ -100,6 +100,11 @@ function slot0.DisplayTellTimeWord(slot0, slot1)
 end
 
 function slot0.TriggerPersonalTask(slot0)
+	if slot0.isFoldState then
+		return
+	end
+
+	slot0:TriggerInterActionTask()
 end
 
 function slot0.OnLongPress(slot0)

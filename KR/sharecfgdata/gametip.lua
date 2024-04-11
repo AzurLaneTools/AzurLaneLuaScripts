@@ -6560,7 +6560,7 @@ _G.pg.base.gametip.help_battle_auto = {
 	tip = {
 		{
 			line = true,
-			info = "                                         자율전투 시 이렇게 될 때도......",
+			info = "자율전투 시 이렇게 될 때도......",
 			icon = {
 				path = "",
 				atlas = "helpbg/zilv",
@@ -6599,7 +6599,7 @@ _G.pg.base.gametip.help_oil_buy_limit = {
 	tip = {
 		{
 			line = true,
-			info = "                                    더 이상 구입할 수 없습니다.",
+			info = "더 이상 구입할 수 없습니다.",
 			icon = {
 				path = "",
 				atlas = "helpbg/nooil",
@@ -27260,4 +27260,412 @@ _G.pg.base.gametip.skin_shop_buy_confirm = {
 
 _G.pg.base.gametip.activity_victory = {
 	tip = "함대를 출격시켜 승리함"
+}
+
+_G.pg.base.gametip.other_world_temple_toggle_1 = {
+	tip = "힘의 신상"
+}
+
+_G.pg.base.gametip.other_world_temple_toggle_2 = {
+	tip = "풍요의 신상"
+}
+
+_G.pg.base.gametip.other_world_temple_toggle_3 = {
+	tip = "지혜의 인상"
+}
+
+_G.pg.base.gametip.other_world_temple_char = {
+	tip = "수호신 총람"
+}
+
+_G.pg.base.gametip.other_world_temple_award = {
+	tip = "보상 확인"
+}
+
+_G.pg.base.gametip.other_world_temple_got = {
+	tip = "수령함"
+}
+
+_G.pg.base.gametip.other_world_temple_progress = {
+	tip = "$1한테 $2/$3회 바친 후 개방 가능"
+}
+
+_G.pg.base.gametip.other_world_temple_char_title = {
+	tip = "수호신 총람"
+}
+
+_G.pg.base.gametip.other_world_temple_award_last = {
+	tip = "$1/$2 남음"
+}
+
+_G.pg.base.gametip.other_world_temple_award_title_1 = {
+	tip = "힘의 신상의 은택"
+}
+
+_G.pg.base.gametip.other_world_temple_award_title_2 = {
+	tip = "풍요의 신상의 은택"
+}
+
+_G.pg.base.gametip.other_world_temple_award_title_3 = {
+	tip = "지혜의 인상의 은택"
+}
+
+_G.pg.base.gametip.other_world_temple_lottery_all = {
+	tip = "모든 보상 획득함"
+}
+
+_G.pg.base.gametip.other_world_temple_award_desc = {
+	tip = "※이벤트 기간 동안 쥬쥬의 심신상에 공물을 바치면 푸짐한 보상과 수호신의 가호를 받을 수 있습니다."
+}
+
+_G.pg.base.gametip.temple_consume_not_enough = {
+	tip = "자원 부족"
+}
+
+_G.pg.base.gametip.other_world_temple_pay = {
+	tip = "$1회 기원"
+}
+
+_G.pg.base.gametip.other_world_task_type_daily = {
+	tip = "일일 임무"
+}
+
+_G.pg.base.gametip.other_world_task_type_main = {
+	tip = "메인 임무"
+}
+
+_G.pg.base.gametip.other_world_task_type_repeat = {
+	tip = "중복 임무"
+}
+
+_G.pg.base.gametip.other_world_task_title = {
+	tip = "모험 의뢰판"
+}
+
+_G.pg.base.gametip.other_world_task_get_all = {
+	tip = "전부 수령"
+}
+
+_G.pg.base.gametip.other_world_task_go = {
+	tip = "이동"
+}
+
+_G.pg.base.gametip.other_world_task_got = {
+	tip = "수령함"
+}
+
+_G.pg.base.gametip.other_world_task_get = {
+	tip = "수령"
+}
+
+_G.pg.base.gametip.other_world_task_tag_main = {
+	tip = "메인 임무"
+}
+
+_G.pg.base.gametip.other_world_task_tag_daily = {
+	tip = "일일"
+}
+
+_G.pg.base.gametip.other_world_task_tag_all = {
+	tip = "전부"
+}
+
+_G.pg.base.gametip.terminal_personal_title = {
+	tip = "개인 정보"
+}
+
+_G.pg.base.gametip.terminal_adventure_title = {
+	tip = "모험 데이터"
+}
+
+_G.pg.base.gametip.terminal_guardian_title = {
+	tip = "수호신"
+}
+
+_G.pg.base.gametip.personal_info_title = {
+	tip = "기본 정보"
+}
+
+_G.pg.base.gametip.personal_property_title = {
+	tip = "속성"
+}
+
+_G.pg.base.gametip.personal_ability_title = {
+	tip = "스킬"
+}
+
+_G.pg.base.gametip.adventure_award_title = {
+	tip = "모험 레벨 보상"
+}
+
+_G.pg.base.gametip.adventure_progress_title = {
+	tip = "다음 업그레이드 까지:"
+}
+
+_G.pg.base.gametip.adventure_lv_title = {
+	tip = "모험 레벨:"
+}
+
+_G.pg.base.gametip.adventure_record_title = {
+	tip = "모험 기록:"
+}
+
+_G.pg.base.gametip.adventure_record_grade_title = {
+	tip = "모험자 평가:"
+}
+
+_G.pg.base.gametip.adventure_award_end_tip = {
+	tip = "※5.1(수) 24시까지 수령 가능"
+}
+
+_G.pg.base.gametip.guardian_select_title = {
+	tip = "수호신 선택"
+}
+
+_G.pg.base.gametip.guardian_sure_btn = {
+	tip = "장비"
+}
+
+_G.pg.base.gametip.guardian_cancel_btn = {
+	tip = "해제"
+}
+
+_G.pg.base.gametip.guardian_active_tip = {
+	tip = "적용 중"
+}
+
+_G.pg.base.gametip.personal_random = {
+	tip = "랜덤 생성"
+}
+
+_G.pg.base.gametip.adventure_get_all = {
+	tip = "전부 수령"
+}
+
+_G.pg.base.gametip.Announcements_Event_Notice = {
+	tip = "이벤트 공지"
+}
+
+_G.pg.base.gametip.Announcements_System_Notice = {
+	tip = "시스템 공지"
+}
+
+_G.pg.base.gametip.Announcements_News = {
+	tip = "최신 정보"
+}
+
+_G.pg.base.gametip.Announcements_Donotshow = {
+	tip = "금일 더 이상 표시하지 않음"
+}
+
+_G.pg.base.gametip.adventure_unlock_tip = {
+	tip = "<color=#92fc63>이전 난이도의 스테이지 클리어 후 </color> 개방 가능"
+}
+
+_G.pg.base.gametip.personal_random_tip = {
+	tip = "<color=#92fc63>스토리 모드</color> 완성 후 해제"
+}
+
+_G.pg.base.gametip.guardian_sure_limit_tip = {
+	tip = "수호신 장비 수량 상한 도잘"
+}
+
+_G.pg.base.gametip.other_world_temple_tip = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help3",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help4",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help5",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help1",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.otherworld_map_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help3",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help4",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help5",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.otherworld_backhill_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help3",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help4",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help5",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.otherworld_terminal_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help4",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help5",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/otherworld_help3",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
 }

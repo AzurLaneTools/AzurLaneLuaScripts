@@ -1,4 +1,5 @@
 slot0 = class("AvatarFrameAwardCommand", pm.SimpleCommand)
+slot1 = nil
 
 function slot0.execute(slot0, slot1)
 	slot2 = slot1:getBody() or {}

@@ -195,7 +195,7 @@ function slot0.Preload(slot0)
 				uv0.addCommanderBuffRes(slot18)
 				uv0.addChapterBuffRes(slot17)
 			end
-		elseif slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS or slot0.contextData.system == SYSTEM_ACT_BOSS or slot0.contextData.system == SYSTEM_ACT_BOSS_SP or slot0.contextData.system == SYSTEM_BOSS_EXPERIMENT then
+		elseif slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS or slot0.contextData.system == SYSTEM_ACT_BOSS or slot0.contextData.system == SYSTEM_ACT_BOSS_SP or slot0.contextData.system == SYSTEM_BOSS_EXPERIMENT or slot0.contextData.system == SYSTEM_BOSS_SINGLE then
 			if getProxy(FleetProxy):getActivityFleets()[slot0.contextData.actId][slot0.contextData.mainFleetId] then
 				for slot12, slot13 in ipairs(slot7.ships) do
 					table.insert(slot3, slot2:getShipById(slot13))
@@ -220,6 +220,10 @@ function slot0.Preload(slot0)
 						configId = slot0
 					}):GetBuffID()
 				end))
+			end
+
+			if slot0.contextData.system == SYSTEM_BOSS_SINGLE then
+				uv0.addChapterBuffRes(getProxy(ActivityProxy):getActivityById(slot0.contextData.actId):GetBuffIdsByStageId(slot0.contextData.stageId))
 			end
 		elseif slot0.contextData.system == SYSTEM_BOSS_RUSH or slot0.contextData.system == SYSTEM_BOSS_RUSH_EX then
 			slot6 = getProxy(ActivityProxy):getActivityById(slot0.contextData.actId):GetSeriesData()

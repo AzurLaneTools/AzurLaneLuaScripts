@@ -239035,6 +239035,436 @@ _G.pg.base.aircraft_template[3125134] = {
 	}
 }
 
+_G.pg.base.aircraft_template[3139080] = {
+	id = 3139080,
+	name = "【2024异世界冒险】魔法啾莱姆 轰炸机 Lv1",
+	base = 1001066,
+	model_ID = "feiji_jiulaimu",
+	icon = "feiji_jiulaimu",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3139090
+	}
+}
+
+_G.pg.base.aircraft_template[3139081] = {
+	id = 3139081,
+	name = "【2024异世界冒险】魔法啾莱姆 轰炸机 Lv2",
+	base = 1001067,
+	model_ID = "feiji_jiulaimu",
+	icon = "feiji_jiulaimu",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3139091
+	}
+}
+
+_G.pg.base.aircraft_template[3139082] = {
+	id = 3139082,
+	name = "【2024异世界冒险】魔法啾莱姆 轰炸机 Lv3",
+	base = 1001068,
+	model_ID = "feiji_jiulaimu",
+	icon = "feiji_jiulaimu",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3139092
+	}
+}
+
+_G.pg.base.aircraft_template[3139083] = {
+	id = 3139083,
+	name = "【2024异世界冒险】魔法啾莱姆 轰炸机 Lv4",
+	base = 1001069,
+	model_ID = "feiji_jiulaimu",
+	icon = "feiji_jiulaimu",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3139093
+	}
+}
+
+_G.pg.base.aircraft_template[3139084] = {
+	id = 3139084,
+	name = "【2024异世界冒险】魔法啾莱姆 轰炸机 Lv5",
+	base = 1001070,
+	model_ID = "feiji_jiulaimu",
+	icon = "feiji_jiulaimu",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3139094
+	}
+}
+
+_G.pg.base.aircraft_template[3139085] = {
+	id = 3139085,
+	name = "【2024异世界冒险】魔法啾莱姆 战斗机 Lv1",
+	base = 1001071,
+	model_ID = "feiji_jiulaimu",
+	icon = "feiji_jiulaimu",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3139095,
+		1100750
+	}
+}
+
+_G.pg.base.aircraft_template[3139086] = {
+	id = 3139086,
+	name = "【2024异世界冒险】魔法啾莱姆 战斗机 Lv2",
+	base = 1001072,
+	model_ID = "feiji_jiulaimu",
+	icon = "feiji_jiulaimu",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3139096,
+		1100751
+	}
+}
+
+_G.pg.base.aircraft_template[3139087] = {
+	id = 3139087,
+	name = "【2024异世界冒险】魔法啾莱姆 战斗机 Lv3",
+	base = 1001073,
+	model_ID = "feiji_jiulaimu",
+	icon = "feiji_jiulaimu",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3139097,
+		1100752
+	}
+}
+
+_G.pg.base.aircraft_template[3139088] = {
+	id = 3139088,
+	name = "【2024异世界冒险】魔法啾莱姆 战斗机 Lv4",
+	base = 1001074,
+	model_ID = "feiji_jiulaimu",
+	icon = "feiji_jiulaimu",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3139098,
+		1100753
+	}
+}
+
+_G.pg.base.aircraft_template[3139089] = {
+	id = 3139089,
+	name = "【2024异世界冒险】魔法啾莱姆 战斗机 Lv5",
+	base = 1001075,
+	model_ID = "feiji_jiulaimu",
+	icon = "feiji_jiulaimu",
+	spawn_brownian = 1,
+	weapon_ID = {
+		3139099,
+		1100754
+	}
+}
+
+_G.pg.base.aircraft_template[3139204] = {
+	attack_power = 2,
+	name = "【2024异世界冒险P1】BOSS 亚德（异世界） 幽灵法师飞机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "feiji_youlingfashi",
+	ACC_growth = 0,
+	crash_DMG = 86,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3139204,
+	icon = "feiji_youlingfashi",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 2660,
+	speed = 30,
+	max_hp = 110,
+	scale = 0.75,
+	weapon_ID = {
+		3139205
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3139703] = {
+	attack_power = 2,
+	name = "【2024异世界冒险 剧情】利物浦 小天使飞机",
+	type = 3,
+	accuracy = 23,
+	model_ID = "feiji_shenshengtianshi",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3139703,
+	icon = "feiji_shenshengtianshi",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1680,
+	speed = 60,
+	max_hp = 80,
+	scale = 1,
+	weapon_ID = {
+		3139704,
+		3139705
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3139706] = {
+	attack_power = 2,
+	name = "【2024异世界冒险 剧情】独角兽 独角兽飞机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "feiji_feitiandujiaoshou",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	id = 3139706,
+	icon = "feiji_feitiandujiaoshou",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 0,
+	hp_growth = 1680,
+	speed = 60,
+	max_hp = 80,
+	scale = 1,
+	weapon_ID = {
+		3139707
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+_G.pg.base.aircraft_template[3139724] = {
+	attack_power = 2,
+	name = "【2024异世界冒险 剧情】霞飞 隐形飞机",
+	type = 1,
+	accuracy = 23,
+	model_ID = "xiafei_yingxing",
+	ACC_growth = 0,
+	crash_DMG = 148,
+	dodge = 0.315,
+	funnel_behavior = "",
+	nationality = 6,
+	id = 3139724,
+	icon = "liefeng",
+	spawn_brownian = 1,
+	AP_growth = 2000,
+	dodge_limit = 9,
+	hp_growth = 1404,
+	speed = 60,
+	max_hp = 99999,
+	scale = 1,
+	weapon_ID = {
+		3139725
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.27,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
 if rawget(uv0[slot1], "base") ~= nil then
 	rawset(slot2, "base", nil)
 	setmetatable(slot2, {

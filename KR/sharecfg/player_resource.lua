@@ -1290,6 +1290,21 @@ pg.player_resource = {
 		name = "yongzhe_pt2",
 		itemid = 59536
 	},
+	[400] = {
+		id = 400,
+		name = "skinTicket68",
+		itemid = 59539
+	},
+	[401] = {
+		id = 401,
+		name = "yishijie_jinbi",
+		itemid = 59542
+	},
+	[402] = {
+		id = 402,
+		name = "yishijie_exp",
+		itemid = 59543
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -2420,6 +2435,15 @@ pg.player_resource = {
 		yongzhe_pt2 = {
 			399
 		},
+		skinTicket68 = {
+			400
+		},
+		yishijie_jinbi = {
+			401
+		},
+		yishijie_exp = {
+			402
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -2893,6 +2917,9 @@ pg.player_resource = {
 		397,
 		398,
 		399,
+		400,
+		401,
+		402,
 		950,
 		951,
 		952,

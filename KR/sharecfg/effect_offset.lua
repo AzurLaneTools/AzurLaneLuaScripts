@@ -1870,6 +1870,17 @@ pg.effect_offset = {
 			3.25
 		}
 	},
+	enemy_youyijiulaimu = {
+		mirror = false,
+		y_scale = false,
+		container_index = 3,
+		top_cover_offset = false,
+		offset = {
+			0,
+			-2,
+			4
+		}
+	},
 	feiyun_xiangyun = {
 		mirror = false,
 		y_scale = false,
@@ -1879,6 +1890,17 @@ pg.effect_offset = {
 			0,
 			1.2,
 			0
+		}
+	},
+	enemy_dujiaoshou = {
+		mirror = false,
+		y_scale = false,
+		container_index = 3,
+		top_cover_offset = false,
+		offset = {
+			0.2,
+			-2,
+			2.4
 		}
 	}
 }

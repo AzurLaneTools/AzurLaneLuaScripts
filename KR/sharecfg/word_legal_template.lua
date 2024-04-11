@@ -1743,6 +1743,11 @@ function temp()
 				this = true
 			}
 		},
+		["버"] = {
+			["풀"] = {
+				this = true
+			}
+		},
 		["나"] = {
 			["운"] = {
 				this = true,
@@ -3490,6 +3495,11 @@ function temp()
 				["리"] = {
 					["히"] = {
 						[" "] = {
+							["카"] = {
+								["를"] = {
+									this = true
+								}
+							},
 							["데"] = {
 								["어"] = {
 									[" "] = {
@@ -3546,6 +3556,11 @@ function temp()
 	uv0["데"] = {
 		["이"] = {
 			["스"] = {
+				this = true
+			}
+		},
+		["본"] = {
+			["셔"] = {
 				this = true
 			}
 		}
@@ -3787,7 +3802,18 @@ function temp()
 		["파"] = {
 			["이"] = {
 				["어"] = {
-					this = true
+					this = true,
+					["·"] = {
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		}
@@ -3962,12 +3988,10 @@ end
 temp()
 
 function temp()
-	uv0["努"] = {
-		["比"] = {
-			["亚"] = {
-				["人"] = {
-					this = true
-				}
+	uv0["누"] = {
+		["비"] = {
+			["안"] = {
+				this = true
 			}
 		}
 	}
@@ -4127,18 +4151,6 @@ end
 temp()
 
 function temp()
-	uv0["利"] = {
-		["物"] = {
-			["浦"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["런"] = {
 		["던"] = {
 			this = true,
@@ -4222,18 +4234,6 @@ function temp()
 	uv0["엑"] = {
 		["세"] = {
 			["터"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["德"] = {
-		["文"] = {
-			["郡"] = {
 				this = true
 			}
 		}
@@ -5259,24 +5259,6 @@ end
 temp()
 
 function temp()
-	uv0["腓"] = {
-		["特"] = {
-			["烈"] = {
-				["·"] = {
-					["卡"] = {
-						["尔"] = {
-							this = true
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
 	uv0["샤"] = {
 		["른"] = {
 			["호"] = {
@@ -6134,28 +6116,6 @@ function temp()
 						["갤"] = {
 							["리"] = {
 								this = true
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-function temp()
-	uv0["吸"] = {
-		["血"] = {
-			["鬼"] = {
-				["·"] = {
-					M = {
-						E = {
-							T = {
-								A = {
-									this = true
-								}
 							}
 						}
 					}

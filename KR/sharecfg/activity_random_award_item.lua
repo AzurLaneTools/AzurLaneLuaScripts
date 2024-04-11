@@ -1068,6 +1068,210 @@ pg.activity_random_award_item = {
 		commodity_id = 18023,
 		num = 3
 	},
+	[200001] = {
+		id = 200001,
+		resource_category = 2,
+		commodity_id = 17001,
+		num = 10
+	},
+	[200002] = {
+		id = 200002,
+		resource_category = 2,
+		commodity_id = 17002,
+		num = 5
+	},
+	[200003] = {
+		id = 200003,
+		resource_category = 2,
+		commodity_id = 17003,
+		num = 3
+	},
+	[200004] = {
+		id = 200004,
+		resource_category = 2,
+		commodity_id = 17011,
+		num = 10
+	},
+	[200005] = {
+		id = 200005,
+		resource_category = 2,
+		commodity_id = 17012,
+		num = 5
+	},
+	[200006] = {
+		id = 200006,
+		resource_category = 2,
+		commodity_id = 17013,
+		num = 3
+	},
+	[200007] = {
+		id = 200007,
+		resource_category = 2,
+		commodity_id = 17021,
+		num = 10
+	},
+	[200008] = {
+		id = 200008,
+		resource_category = 2,
+		commodity_id = 17022,
+		num = 5
+	},
+	[200009] = {
+		id = 200009,
+		resource_category = 2,
+		commodity_id = 17023,
+		num = 3
+	},
+	[200010] = {
+		id = 200010,
+		resource_category = 2,
+		commodity_id = 17031,
+		num = 10
+	},
+	[200011] = {
+		id = 200011,
+		resource_category = 2,
+		commodity_id = 17032,
+		num = 5
+	},
+	[200012] = {
+		id = 200012,
+		resource_category = 2,
+		commodity_id = 17033,
+		num = 3
+	},
+	[200013] = {
+		id = 200013,
+		resource_category = 2,
+		commodity_id = 17041,
+		num = 10
+	},
+	[200014] = {
+		id = 200014,
+		resource_category = 2,
+		commodity_id = 17042,
+		num = 5
+	},
+	[200015] = {
+		id = 200015,
+		resource_category = 2,
+		commodity_id = 17043,
+		num = 3
+	},
+	[200016] = {
+		id = 200016,
+		resource_category = 2,
+		commodity_id = 16002,
+		num = 1
+	},
+	[200017] = {
+		id = 200017,
+		resource_category = 2,
+		commodity_id = 16003,
+		num = 1
+	},
+	[200018] = {
+		id = 200018,
+		resource_category = 2,
+		commodity_id = 16003,
+		num = 2
+	},
+	[200019] = {
+		id = 200019,
+		resource_category = 2,
+		commodity_id = 16004,
+		num = 1
+	},
+	[200020] = {
+		id = 200020,
+		resource_category = 2,
+		commodity_id = 16012,
+		num = 1
+	},
+	[200021] = {
+		id = 200021,
+		resource_category = 2,
+		commodity_id = 16013,
+		num = 1
+	},
+	[200022] = {
+		id = 200022,
+		resource_category = 2,
+		commodity_id = 16013,
+		num = 2
+	},
+	[200023] = {
+		id = 200023,
+		resource_category = 2,
+		commodity_id = 16014,
+		num = 1
+	},
+	[200024] = {
+		id = 200024,
+		resource_category = 2,
+		commodity_id = 16022,
+		num = 1
+	},
+	[200025] = {
+		id = 200025,
+		resource_category = 2,
+		commodity_id = 16023,
+		num = 1
+	},
+	[200026] = {
+		id = 200026,
+		resource_category = 2,
+		commodity_id = 16023,
+		num = 2
+	},
+	[200027] = {
+		id = 200027,
+		resource_category = 2,
+		commodity_id = 16024,
+		num = 1
+	},
+	[200028] = {
+		id = 200028,
+		resource_category = 2,
+		commodity_id = 16032,
+		num = 1
+	},
+	[200029] = {
+		id = 200029,
+		resource_category = 2,
+		commodity_id = 16033,
+		num = 1
+	},
+	[200030] = {
+		id = 200030,
+		resource_category = 2,
+		commodity_id = 30354,
+		num = 1
+	},
+	[200031] = {
+		id = 200031,
+		resource_category = 2,
+		commodity_id = 15016,
+		num = 1
+	},
+	[200032] = {
+		id = 200032,
+		resource_category = 2,
+		commodity_id = 15008,
+		num = 50
+	},
+	[200033] = {
+		id = 200033,
+		resource_category = 2,
+		commodity_id = 15014,
+		num = 1
+	},
+	[200034] = {
+		id = 200034,
+		resource_category = 2,
+		commodity_id = 15008,
+		num = 100
+	},
 	all = {
 		1,
 		2,
@@ -1246,6 +1450,40 @@ pg.activity_random_award_item = {
 		100027,
 		100028,
 		100029,
-		100030
+		100030,
+		200001,
+		200002,
+		200003,
+		200004,
+		200005,
+		200006,
+		200007,
+		200008,
+		200009,
+		200010,
+		200011,
+		200012,
+		200013,
+		200014,
+		200015,
+		200016,
+		200017,
+		200018,
+		200019,
+		200020,
+		200021,
+		200022,
+		200023,
+		200024,
+		200025,
+		200026,
+		200027,
+		200028,
+		200029,
+		200030,
+		200031,
+		200032,
+		200033,
+		200034
 	}
 }

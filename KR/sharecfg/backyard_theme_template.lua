@@ -3250,7 +3250,7 @@ pg.backyard_theme_template = {
 		new = 0,
 		icon = "sc3themeicon",
 		deblocking = 1,
-		order = 108,
+		order = 88,
 		ids = {
 			87001,
 			87002,
@@ -4170,6 +4170,41 @@ pg.backyard_theme_template = {
 			308304
 		}
 	},
+	[109] = {
+		Cfg_1 = 5,
+		name = "마법사의 숲 오두막",
+		hot = 1,
+		is_view = 1,
+		id = 109,
+		comfortable = 0,
+		Cfg_2 = 8,
+		desc = "판타지와 마법이 가득한 숲의 오두막에 오신 것을 환영합니다!",
+		discount_time = "",
+		discount = 0,
+		new = 1,
+		icon = "mwthemeicon",
+		deblocking = 1,
+		order = 110,
+		ids = {
+			309001,
+			309002,
+			309101,
+			309102,
+			309103,
+			309104,
+			309105,
+			309106,
+			309107,
+			309108,
+			309109,
+			309110,
+			309111,
+			309112,
+			309114,
+			309301,
+			309302
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4264,6 +4299,7 @@ pg.backyard_theme_template = {
 		105,
 		106,
 		107,
-		108
+		108,
+		109
 	}
 }

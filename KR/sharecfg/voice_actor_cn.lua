@@ -1567,5 +1567,17 @@ pg.voice_actor_CN = {
 	[400] = {
 		code = 400,
 		actor_name = "Marika"
+	},
+	[402] = {
+		code = 402,
+		actor_name = "이와이 에미리"
+	},
+	[403] = {
+		code = 403,
+		actor_name = "마노 미즈키"
+	},
+	[404] = {
+		code = 404,
+		actor_name = "사쿠라 카오루"
 	}
 }

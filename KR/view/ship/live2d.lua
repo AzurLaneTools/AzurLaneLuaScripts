@@ -11,10 +11,14 @@ slot0.DRAG_CLICK_ACTION = 2
 slot0.DRAG_DOWN_ACTION = 3
 slot0.DRAG_RELATION_XY = 4
 slot0.DRAG_RELATION_IDLE = 5
+slot0.DRAG_CLICK_MANY = 6
 slot0.EVENT_ACTION_APPLY = "event action apply"
 slot0.EVENT_ACTION_ABLE = "event action able"
 slot0.EVENT_ADD_PARAMETER_COM = "event add parameter com "
 slot0.EVENT_REMOVE_PARAMETER_COM = "event remove parameter com "
+slot0.relation_type_drag_x = 101
+slot0.relation_type_drag_y = 102
+slot0.relation_type_action_index = 103
 slot5 = {
 	CubismParameterBlendMode.Override,
 	CubismParameterBlendMode.Additive,
@@ -85,6 +89,10 @@ function slot7(slot0)
 end
 
 function slot8(slot0, slot1)
+	if not slot1 or slot1 == "" then
+		return false
+	end
+
 	if slot0.enablePlayActions and #slot0.enablePlayActions > 0 and not table.contains(slot0.enablePlayActions, slot1) then
 		warning(tostring(slot1) .. "不在白名单中,不播放该动作")
 
@@ -261,7 +269,7 @@ function slot13(slot0)
 				for slot14, slot15 in ipairs(slot6.relation_parameter.list) do
 					if slot0.liveCom:GetCubismParameter(slot15.name) then
 						slot8:addRelationComData(slot16, slot15)
-						slot0.liveCom:AddParameterValue(slot15.name, slot15.start or slot8.startValue or 0, uv2[slot6.mode])
+						slot0.liveCom:AddParameterValue(slot15.name, slot15.start or slot8.startValue or 0, uv2[slot15.mode or slot6.mode])
 					end
 				end
 			end

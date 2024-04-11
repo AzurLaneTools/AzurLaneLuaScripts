@@ -5454,10 +5454,6 @@ pg.expedition_activity_template = {
 			{
 				5233,
 				397
-			},
-			{
-				5248,
-				399
 			}
 		}
 	},
@@ -5468,10 +5464,6 @@ pg.expedition_activity_template = {
 			{
 				5233,
 				397
-			},
-			{
-				5248,
-				399
 			}
 		}
 	},
@@ -5482,10 +5474,6 @@ pg.expedition_activity_template = {
 			{
 				5233,
 				397
-			},
-			{
-				5248,
-				399
 			}
 		}
 	},
@@ -5496,10 +5484,6 @@ pg.expedition_activity_template = {
 			{
 				5233,
 				397
-			},
-			{
-				5248,
-				399
 			}
 		}
 	},
@@ -5510,10 +5494,6 @@ pg.expedition_activity_template = {
 			{
 				5233,
 				397
-			},
-			{
-				5248,
-				399
 			}
 		}
 	},

@@ -23148,6 +23148,130 @@ _G.pg.base.item_data_statistics[30353] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30354] = {
+	open_directly = 1,
+	name = "장비 스킨 상자(이세계 모험)",
+	display = "무작위로 장비 스킨 획득 가능",
+	type = 11,
+	display_effect = "",
+	id = 30354,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/appearanceboxyishijiemaoxian",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30354",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			930,
+			1
+		},
+		{
+			9,
+			931,
+			1
+		},
+		{
+			9,
+			932,
+			1
+		},
+		{
+			9,
+			933,
+			1
+		},
+		{
+			9,
+			934,
+			1
+		},
+		{
+			9,
+			935,
+			1
+		},
+		{
+			9,
+			936,
+			1
+		},
+		{
+			9,
+			937,
+			1
+		},
+		{
+			9,
+			938,
+			1
+		},
+		{
+			9,
+			939,
+			1
+		},
+		{
+			9,
+			940,
+			1
+		},
+		{
+			9,
+			941,
+			1
+		},
+		{
+			9,
+			942,
+			1
+		},
+		{
+			9,
+			943,
+			1
+		},
+		{
+			9,
+			944,
+			1
+		},
+		{
+			9,
+			945,
+			1
+		},
+		{
+			9,
+			946,
+			1
+		},
+		{
+			9,
+			947,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "장비스킨 상자(월드 투어)",
@@ -31785,6 +31909,218 @@ _G.pg.base.item_data_statistics[30537] = {
 		{
 			9,
 			927,
+			1
+		}
+	}
+}
+
+_G.pg.base.item_data_statistics[30538] = {
+	open_directly = 0,
+	name = "선택 장비 스킨 상자(이세계 모험)",
+	display = "사용하면 장비 스킨(이세계 모험) 중 하나를 선택해서 획득할 수 있습니다.",
+	type = 13,
+	display_effect = "",
+	id = 30538,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	link_id = 0,
+	icon = "Props/appearanceboxyishijiemaoxianzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			930,
+			1
+		},
+		{
+			9,
+			931,
+			1
+		},
+		{
+			9,
+			932,
+			1
+		},
+		{
+			9,
+			933,
+			1
+		},
+		{
+			9,
+			934,
+			1
+		},
+		{
+			9,
+			935,
+			1
+		},
+		{
+			9,
+			936,
+			1
+		},
+		{
+			9,
+			937,
+			1
+		},
+		{
+			9,
+			938,
+			1
+		},
+		{
+			9,
+			939,
+			1
+		},
+		{
+			9,
+			940,
+			1
+		},
+		{
+			9,
+			941,
+			1
+		},
+		{
+			9,
+			942,
+			1
+		},
+		{
+			9,
+			943,
+			1
+		},
+		{
+			9,
+			944,
+			1
+		},
+		{
+			9,
+			945,
+			1
+		},
+		{
+			9,
+			946,
+			1
+		},
+		{
+			9,
+			947,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			930,
+			1
+		},
+		{
+			9,
+			931,
+			1
+		},
+		{
+			9,
+			932,
+			1
+		},
+		{
+			9,
+			933,
+			1
+		},
+		{
+			9,
+			934,
+			1
+		},
+		{
+			9,
+			935,
+			1
+		},
+		{
+			9,
+			936,
+			1
+		},
+		{
+			9,
+			937,
+			1
+		},
+		{
+			9,
+			938,
+			1
+		},
+		{
+			9,
+			939,
+			1
+		},
+		{
+			9,
+			940,
+			1
+		},
+		{
+			9,
+			941,
+			1
+		},
+		{
+			9,
+			942,
+			1
+		},
+		{
+			9,
+			943,
+			1
+		},
+		{
+			9,
+			944,
+			1
+		},
+		{
+			9,
+			945,
+			1
+		},
+		{
+			9,
+			946,
+			1
+		},
+		{
+			9,
+			947,
 			1
 		}
 	}
@@ -83954,6 +84290,456 @@ _G.pg.base.item_data_statistics[99953] = {
 	target_id = 0,
 	display_icon = {},
 	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100011] = {
+	open_directly = 0,
+	name = "빛과 정의의 신",
+	display = "빛과 정의의 신의 가호",
+	type = 1,
+	display_effect = "",
+	id = 100011,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/lisailiu",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100012] = {
+	open_directly = 0,
+	name = "불꽃과 정화의 신",
+	display = "불꽃과 정화의 신의 가호",
+	type = 1,
+	display_effect = "",
+	id = 100012,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/chicheng",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100013] = {
+	open_directly = 0,
+	name = "어둠과 음모의 신",
+	display = "어둠과 음모의 신의 가호",
+	type = 1,
+	display_effect = "",
+	id = 100013,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/kelaimengsuo",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100014] = {
+	open_directly = 0,
+	name = "강철과 거룡의 신",
+	display = "강철과 거룡의 신의 가호",
+	type = 1,
+	display_effect = "",
+	id = 100014,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/bisimaiZ",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100015] = {
+	open_directly = 0,
+	name = "부흥과 목욕의 신",
+	display = "부흥과 목욕의 신의 가호",
+	type = 1,
+	display_effect = "",
+	id = 100015,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/weineituo",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100016] = {
+	open_directly = 0,
+	name = "개척과 모험의 신",
+	display = "개척과 모험의 신의 가호",
+	type = 1,
+	display_effect = "",
+	id = 100016,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/huangjiacaifu",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100017] = {
+	open_directly = 0,
+	name = "질서와 규칙의 신",
+	display = "질서와 규칙의 신의 가호",
+	type = 1,
+	display_effect = "",
+	id = 100017,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/tbniang1",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100018] = {
+	open_directly = 0,
+	name = "단결과 강인의 신",
+	display = "단결과 강인의 신의 가호",
+	type = 1,
+	display_effect = "",
+	id = 100018,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/suweiaitongmengnew",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100019] = {
+	open_directly = 0,
+	name = "행운과 부의 신",
+	display = "행운과 부의 신의 가호",
+	type = 1,
+	display_effect = "",
+	id = 100019,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/mingshi",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100020] = {
+	open_directly = 0,
+	name = "다과회와 디저트의 신",
+	display = "다과회와 디저트의 신의 가호",
+	type = 1,
+	display_effect = "",
+	id = 100020,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/yilishabai",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100021] = {
+	open_directly = 0,
+	name = "평화와 수호의 신",
+	display = "평화와 수호의 신의 가호",
+	type = 1,
+	display_effect = "",
+	id = 100021,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/yixian",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100022] = {
+	open_directly = 0,
+	name = "시작과 끝의 신",
+	display = "시작과 끝의 신의 가호",
+	type = 1,
+	display_effect = "",
+	id = 100022,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/salatuojia",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100023] = {
+	open_directly = 0,
+	name = "전쟁의 신",
+	display = "전쟁의 신의 가호",
+	type = 1,
+	display_effect = "",
+	id = 100023,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/qiye_dark",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100024] = {
+	open_directly = 0,
+	name = "지혜의 신",
+	display = "지혜의 신의 가호",
+	type = 1,
+	display_effect = "",
+	id = 100024,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/hailunna_alter",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[100025] = {
+	open_directly = 0,
+	name = "기쁨의 신",
+	display = "기쁨의 신의 가호",
+	type = 1,
+	display_effect = "",
+	id = 100025,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "SquareIcon/unknown2",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
 	index = {},
 	shiptrans_id = {},
 	combination_display = {}
