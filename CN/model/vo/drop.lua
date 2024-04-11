@@ -56,6 +56,14 @@ function slot0.getIcon(slot0)
 	return slot0:getConfig("icon")
 end
 
+function slot0.getCount(slot0)
+	if slot0.type == DROP_TYPE_OPERATION or slot0.type == DROP_TYPE_LOVE_LETTER then
+		return 1
+	else
+		return slot0.count
+	end
+end
+
 function slot0.getOwnedCount(slot0)
 	return switch(slot0.type, uv0.CountCase, uv0.CountDefault, slot0)
 end

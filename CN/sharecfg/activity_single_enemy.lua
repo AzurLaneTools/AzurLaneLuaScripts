@@ -3,37 +3,12 @@ pg.activity_single_enemy = {
 	[1001] = {
 		guardian_limit = 0,
 		pre_chapter = 0,
-		expedition_id = 1799001,
+		time = "stop",
 		type = 1,
 		id = 1001,
 		activity_type = 1,
+		expedition_id = 1799001,
 		count = 0,
-		time = {
-			{
-				{
-					2024,
-					3,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		use_oil_limit = {
 			0,
 			0
@@ -44,37 +19,12 @@ pg.activity_single_enemy = {
 	[1002] = {
 		guardian_limit = 0,
 		pre_chapter = 1001,
-		expedition_id = 1799002,
+		time = "stop",
 		type = 2,
 		id = 1002,
 		activity_type = 1,
+		expedition_id = 1799002,
 		count = 0,
-		time = {
-			{
-				{
-					2024,
-					3,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		use_oil_limit = {
 			0,
 			0
@@ -85,37 +35,12 @@ pg.activity_single_enemy = {
 	[1003] = {
 		guardian_limit = 0,
 		pre_chapter = 1002,
-		expedition_id = 1799003,
+		time = "stop",
 		type = 3,
 		id = 1003,
 		activity_type = 1,
+		expedition_id = 1799003,
 		count = 0,
-		time = {
-			{
-				{
-					2024,
-					3,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		use_oil_limit = {
 			25,
 			15
@@ -126,37 +51,12 @@ pg.activity_single_enemy = {
 	[1004] = {
 		guardian_limit = 0,
 		pre_chapter = 1003,
-		expedition_id = 1799004,
+		time = "stop",
 		type = 4,
 		id = 1004,
 		activity_type = 1,
+		expedition_id = 1799004,
 		count = 1,
-		time = {
-			{
-				{
-					2024,
-					3,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		use_oil_limit = {
 			0,
 			0
@@ -173,37 +73,12 @@ pg.activity_single_enemy = {
 	[1005] = {
 		guardian_limit = 1,
 		pre_chapter = 1003,
-		expedition_id = 1799005,
+		time = "stop",
 		type = 5,
 		id = 1005,
 		activity_type = 1,
+		expedition_id = 1799005,
 		count = 0,
-		time = {
-			{
-				{
-					2024,
-					3,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		use_oil_limit = {
 			40,
 			16

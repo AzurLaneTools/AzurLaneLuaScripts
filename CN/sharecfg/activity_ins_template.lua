@@ -11807,37 +11807,79 @@ pg.activity_ins_template = {
 		ship_group = 20137,
 		name = "Nubian",
 		sculpture = "nubiyaren",
-		message_persist = "",
-		picture_persist = "",
+		message_persist = "ins_457",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/20240328_e2MgWVjpk5zamCzy_nubiyaren.png",
 		group_id = 457,
 		id = 457,
-		is_active = 1,
-		time_persist = {},
-		npc_discuss_persist = {}
+		is_active = 0,
+		time_persist = {
+			{
+				2024,
+				3,
+				28
+			},
+			{
+				12,
+				25,
+				21
+			}
+		},
+		npc_discuss_persist = {
+			4326,
+			4331
+		}
 	},
 	[458] = {
 		ship_group = 20234,
 		name = "Liverpool",
 		sculpture = "liwupu",
-		message_persist = "",
-		picture_persist = "",
+		message_persist = "ins_458",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/20240328_i76DWf4KsFuMi4Lg_liwupu.png",
 		group_id = 458,
 		id = 458,
-		is_active = 1,
-		time_persist = {},
-		npc_discuss_persist = {}
+		is_active = 0,
+		time_persist = {
+			{
+				2024,
+				3,
+				29
+			},
+			{
+				16,
+				18,
+				15
+			}
+		},
+		npc_discuss_persist = {
+			4341,
+			4345
+		}
 	},
 	[459] = {
 		ship_group = 20313,
 		name = "Devonshire",
 		sculpture = "dewenjun",
-		message_persist = "",
-		picture_persist = "",
+		message_persist = "ins_459",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/20240328_MDyIjQ160YhBfVJX_dewenjun.png",
 		group_id = 459,
 		id = 459,
-		is_active = 1,
-		time_persist = {},
-		npc_discuss_persist = {}
+		is_active = 0,
+		time_persist = {
+			{
+				2024,
+				3,
+				30
+			},
+			{
+				11,
+				36,
+				23
+			}
+		},
+		npc_discuss_persist = {
+			4355,
+			4359
+		}
 	},
 	all = {
 		1,

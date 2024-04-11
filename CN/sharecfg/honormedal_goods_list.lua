@@ -12,7 +12,7 @@ pg.honormedal_goods_list = {
 		id = 1,
 		is_ship = 0,
 		goods_rarity = 1,
-		order = 30,
+		order = 31,
 		goods = {
 			17001,
 			17011,
@@ -33,7 +33,7 @@ pg.honormedal_goods_list = {
 		id = 2,
 		is_ship = 0,
 		goods_rarity = 2,
-		order = 29,
+		order = 30,
 		goods = {
 			17002
 		}
@@ -50,7 +50,7 @@ pg.honormedal_goods_list = {
 		id = 3,
 		is_ship = 0,
 		goods_rarity = 2,
-		order = 25,
+		order = 26,
 		goods = {
 			17012
 		}
@@ -67,7 +67,7 @@ pg.honormedal_goods_list = {
 		id = 4,
 		is_ship = 0,
 		goods_rarity = 2,
-		order = 26,
+		order = 27,
 		goods = {
 			17022
 		}
@@ -84,7 +84,7 @@ pg.honormedal_goods_list = {
 		id = 5,
 		is_ship = 0,
 		goods_rarity = 2,
-		order = 27,
+		order = 28,
 		goods = {
 			17032
 		}
@@ -101,7 +101,7 @@ pg.honormedal_goods_list = {
 		id = 6,
 		is_ship = 0,
 		goods_rarity = 2,
-		order = 28,
+		order = 29,
 		goods = {
 			17042
 		}
@@ -118,7 +118,7 @@ pg.honormedal_goods_list = {
 		id = 7,
 		is_ship = 0,
 		goods_rarity = 2,
-		order = 24,
+		order = 25,
 		goods = {
 			17002,
 			17012,
@@ -139,7 +139,7 @@ pg.honormedal_goods_list = {
 		id = 8,
 		is_ship = 0,
 		goods_rarity = 3,
-		order = 23,
+		order = 24,
 		goods = {
 			17003
 		}
@@ -156,7 +156,7 @@ pg.honormedal_goods_list = {
 		id = 9,
 		is_ship = 0,
 		goods_rarity = 3,
-		order = 19,
+		order = 20,
 		goods = {
 			17013
 		}
@@ -173,7 +173,7 @@ pg.honormedal_goods_list = {
 		id = 10,
 		is_ship = 0,
 		goods_rarity = 3,
-		order = 20,
+		order = 21,
 		goods = {
 			17023
 		}
@@ -190,7 +190,7 @@ pg.honormedal_goods_list = {
 		id = 11,
 		is_ship = 0,
 		goods_rarity = 3,
-		order = 21,
+		order = 22,
 		goods = {
 			17033
 		}
@@ -207,7 +207,7 @@ pg.honormedal_goods_list = {
 		id = 12,
 		is_ship = 0,
 		goods_rarity = 3,
-		order = 22,
+		order = 23,
 		goods = {
 			17043
 		}
@@ -224,7 +224,7 @@ pg.honormedal_goods_list = {
 		id = 13,
 		is_ship = 0,
 		goods_rarity = 3,
-		order = 18,
+		order = 19,
 		goods = {
 			17003,
 			17013,
@@ -245,7 +245,7 @@ pg.honormedal_goods_list = {
 		id = 14,
 		is_ship = 0,
 		goods_rarity = 2,
-		order = 16,
+		order = 17,
 		goods = {
 			18001,
 			18011,
@@ -265,7 +265,7 @@ pg.honormedal_goods_list = {
 		id = 15,
 		is_ship = 0,
 		goods_rarity = 3,
-		order = 15,
+		order = 16,
 		goods = {
 			18002,
 			18012,
@@ -285,7 +285,7 @@ pg.honormedal_goods_list = {
 		id = 16,
 		is_ship = 0,
 		goods_rarity = 4,
-		order = 14,
+		order = 15,
 		goods = {
 			18003,
 			18013,
@@ -305,7 +305,7 @@ pg.honormedal_goods_list = {
 		id = 17,
 		is_ship = 0,
 		goods_rarity = 3,
-		order = 11,
+		order = 12,
 		goods = {
 			16002
 		}
@@ -322,7 +322,7 @@ pg.honormedal_goods_list = {
 		id = 18,
 		is_ship = 0,
 		goods_rarity = 3,
-		order = 12,
+		order = 13,
 		goods = {
 			16012
 		}
@@ -339,7 +339,7 @@ pg.honormedal_goods_list = {
 		id = 19,
 		is_ship = 0,
 		goods_rarity = 3,
-		order = 13,
+		order = 14,
 		goods = {
 			16022
 		}
@@ -356,7 +356,7 @@ pg.honormedal_goods_list = {
 		id = 20,
 		is_ship = 0,
 		goods_rarity = 4,
-		order = 8,
+		order = 9,
 		goods = {
 			16003
 		}
@@ -373,7 +373,7 @@ pg.honormedal_goods_list = {
 		id = 21,
 		is_ship = 0,
 		goods_rarity = 4,
-		order = 9,
+		order = 10,
 		goods = {
 			16013
 		}
@@ -390,7 +390,7 @@ pg.honormedal_goods_list = {
 		id = 22,
 		is_ship = 0,
 		goods_rarity = 4,
-		order = 10,
+		order = 11,
 		goods = {
 			16023
 		}
@@ -407,7 +407,7 @@ pg.honormedal_goods_list = {
 		id = 23,
 		is_ship = 0,
 		goods_rarity = 4,
-		order = 5,
+		order = 6,
 		goods = {
 			42030
 		}
@@ -424,7 +424,7 @@ pg.honormedal_goods_list = {
 		id = 24,
 		is_ship = 0,
 		goods_rarity = 5,
-		order = 4,
+		order = 5,
 		goods = {
 			42036
 		}
@@ -441,7 +441,7 @@ pg.honormedal_goods_list = {
 		id = 25,
 		is_ship = 0,
 		goods_rarity = 3,
-		order = 7,
+		order = 8,
 		goods = {
 			50005
 		}
@@ -458,7 +458,7 @@ pg.honormedal_goods_list = {
 		id = 26,
 		is_ship = 0,
 		goods_rarity = 3,
-		order = 6,
+		order = 7,
 		goods = {
 			50006
 		}
@@ -721,7 +721,7 @@ pg.honormedal_goods_list = {
 		id = 41,
 		is_ship = 0,
 		goods_rarity = 2,
-		order = 31,
+		order = 32,
 		goods = {
 			30205
 		}
@@ -738,7 +738,7 @@ pg.honormedal_goods_list = {
 		id = 42,
 		is_ship = 0,
 		goods_rarity = 4,
-		order = 5,
+		order = 6,
 		goods = {
 			42040
 		}
@@ -755,7 +755,7 @@ pg.honormedal_goods_list = {
 		id = 43,
 		is_ship = 0,
 		goods_rarity = 5,
-		order = 4,
+		order = 5,
 		goods = {
 			42046
 		}
@@ -806,7 +806,7 @@ pg.honormedal_goods_list = {
 		id = 46,
 		is_ship = 0,
 		goods_rarity = 4,
-		order = 5,
+		order = 6,
 		goods = {
 			42050
 		}
@@ -823,9 +823,26 @@ pg.honormedal_goods_list = {
 		id = 47,
 		is_ship = 0,
 		goods_rarity = 5,
-		order = 4,
+		order = 5,
 		goods = {
 			42056
+		}
+	},
+	[48] = {
+		price = 6,
+		goods_purchase_limit = 10,
+		goods_icon = "Props/specialarmor_prt",
+		type = 2,
+		group = 10033,
+		num = 100,
+		goods_name = "特装原型",
+		goods_type = 1,
+		id = 48,
+		is_ship = 0,
+		goods_rarity = 5,
+		order = 4,
+		goods = {
+			59010
 		}
 	},
 	all = {
@@ -873,6 +890,7 @@ pg.honormedal_goods_list = {
 		44,
 		45,
 		46,
-		47
+		47,
+		48
 	}
 }

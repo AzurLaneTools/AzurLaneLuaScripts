@@ -1555,8 +1555,9 @@ pg.login = {
 	},
 	[48] = {
 		id = 48,
-		op_play = 1,
 		login_static = "login",
+		op_play = 0,
+		op_time = "",
 		login_cri = "",
 		bgm = "",
 		date = {
@@ -1585,38 +1586,13 @@ pg.login = {
 					59
 				}
 			}
-		},
-		op_time = {
-			{
-				{
-					2024,
-					3,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[49] = {
 		id = 49,
-		op_play = 1,
 		login_static = "login_0401",
+		op_play = 0,
+		op_time = "",
 		login_cri = "",
 		bgm = "votefes-start",
 		date = {
@@ -1645,38 +1621,13 @@ pg.login = {
 					59
 				}
 			}
-		},
-		op_time = {
-			{
-				{
-					2024,
-					3,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[52] = {
 		id = 52,
-		op_play = 1,
 		login_static = "login",
+		op_play = 0,
+		op_time = "",
 		login_cri = "",
 		bgm = "",
 		date = {
@@ -1686,32 +1637,6 @@ pg.login = {
 					2024,
 					4,
 					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		op_time = {
-			{
-				{
-					2024,
-					3,
-					28
 				},
 				{
 					0,

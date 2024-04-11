@@ -20007,135 +20007,135 @@ pg.base.activity_ins_language = {
 		value = "坦白从宽，抗拒从严。怪盗，快来自首吧。"
 	},
 	ins_457 = {
-		value = ""
+		value = "……现代的女仆都是这样吗？！"
 	},
 	ins_discuss_457_1 = {
-		value = ""
+		value = "嗯…？那本书难道是……"
 	},
 	ins_reply_457_1_1 = {
-		value = ""
+		value = "……研究方向是不是有点奇怪？"
 	},
 	ins_reply_457_1_2 = {
-		value = ""
+		value = "嗯哼，有人是喜欢这样的呢。"
 	},
 	ins_reply_457_1_3 = {
-		value = ""
+		value = "努比亚人，你现在、立刻、马上来我这里一趟。"
 	},
 	ins_reply_457_1_4 = {
-		value = ""
+		value = "是、是！"
 	},
 	ins_discuss_457_2 = {
-		value = ""
+		value = "等等，这本杂志我好像有点眼熟。"
 	},
 	ins_reply_457_2_1 = {
-		value = ""
+		value = "《女仆的一百九十九种〇〇〇》，我也有一本哦。"
 	},
 	ins_reply_457_2_2 = {
-		value = ""
+		value = "不得了。"
 	},
 	ins_reply_457_2_3 = {
-		value = ""
+		value = "了不得。"
 	},
 	ins_reply_457_2_4 = {
-		value = ""
+		value = "欸……啊？！"
 	},
 	ins_op_457_1_1 = {
-		value = ""
+		value = "……这本书是什么？"
 	},
 	op_reply_457_1_1 = {
-		value = ""
+		value = "现代女仆的修行书……大概！"
 	},
 	ins_op_457_1_2 = {
-		value = ""
+		value = "这本书是好书！"
 	},
 	op_reply_457_1_2 = {
-		value = ""
+		value = "真的么？！那我会仔细钻研的！"
 	},
 	ins_458 = {
-		value = ""
+		value = "新鲜出炉的美味与新鲜出炉的Smile！"
 	},
 	ins_discuss_458_1 = {
-		value = ""
+		value = "这是……河豚白子刺身配昆布汁么？"
 	},
 	ins_reply_458_1_1 = {
-		value = ""
+		value = "是美味的鳗鱼冻哦！"
 	},
 	ins_reply_458_1_2 = {
-		value = ""
+		value = "鳗鱼……原来还可以这么做啊。"
 	},
 	ins_reply_458_1_3 = {
-		value = ""
+		value = "皇家美食，很神奇吧。"
 	},
 	ins_discuss_458_2 = {
-		value = ""
+		value = "利物浦小姐的厨艺真好，我也要加油了！"
 	},
 	ins_reply_458_2_1 = {
-		value = ""
+		value = "我也要加油了。"
 	},
 	ins_reply_458_2_2 = {
-		value = ""
+		value = "柴郡也要学~柴郡也要学~"
 	},
 	ins_reply_458_2_3 = {
-		value = ""
+		value = "好哦，下次我来教大家做这道菜！"
 	},
 	ins_reply_458_2_4 = {
-		value = ""
+		value = "呵呵……指挥官有福了。"
 	},
 	ins_op_458_1_1 = {
-		value = ""
+		value = "强力的视觉冲击力……"
 	},
 	op_reply_458_1_1 = {
-		value = ""
+		value = "嘿嘿！我正好也有新想法呢！"
 	},
 	ins_op_458_1_2 = {
-		value = ""
+		value = "鳗鱼就是正义！"
 	},
 	op_reply_458_1_2 = {
-		value = ""
+		value = "没错，鳗鱼就是正义~！"
 	},
 	ins_459 = {
-		value = ""
+		value = "有虫子溜进来了，该怎么办才好呢……"
 	},
 	ins_discuss_459_1 = {
-		value = ""
+		value = "我现在要点名一个除虫高手来看看。@ShiningS"
 	},
 	ins_reply_459_1_1 = {
-		value = ""
+		value = ".44还是.50?"
 	},
 	ins_reply_459_1_2 = {
-		value = ""
+		value = "不……我需要的并不是这种服务。"
 	},
 	ins_reply_459_1_3 = {
-		value = ""
+		value = "除虫，就选{namecode:98}牌除虫剂，虫子杀杀杀！"
 	},
 	ins_discuss_459_2 = {
-		value = ""
+		value = "当你看到了一只，就表明……"
 	},
 	ins_reply_459_2_1 = {
-		value = ""
+		value = "不……请不要再说了。"
 	},
 	ins_reply_459_2_2 = {
-		value = ""
+		value = "看来有必要在港区进行一次灭虫行动了呢。"
 	},
 	ins_reply_459_2_3 = {
-		value = ""
+		value = "灭虫行动？我加入。"
 	},
 	ins_reply_459_2_4 = {
-		value = ""
+		value = "呵呵，也算我一个。"
 	},
 	ins_reply_459_2_5 = {
-		value = ""
+		value = "除虫，就选{namecode:98}牌除虫剂，虫子杀杀杀！"
 	},
 	ins_op_459_1_1 = {
-		value = ""
+		value = "别怕，我来帮你！"
 	},
 	op_reply_459_1_1 = {
-		value = ""
+		value = "娇弱模式——ON，地面已经失守……人家在床上等您。"
 	},
 	ins_op_459_1_2 = {
-		value = ""
+		value = "现在是什么模式？"
 	},
 	op_reply_459_1_2 = {
-		value = ""
+		value = "是无力应对害虫入侵的娇弱模式。"
 	}
 }

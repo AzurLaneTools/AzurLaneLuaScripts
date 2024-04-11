@@ -85560,6 +85560,2631 @@ _G.pg.base.task_data_template[19890] = {
 	}
 }
 
+_G.pg.base.task_data_template[19900] = {
+	name = "『喀琅施塔得复刻』-日常建造",
+	guild_coin_award = 0,
+	award = 901918,
+	type = 36,
+	desc = "建造舰船3次。",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19900,
+	target_num = 3,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59544,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19901] = {
+	name = "『喀琅施塔得复刻』-日常出击",
+	guild_coin_award = 0,
+	award = 901919,
+	type = 36,
+	desc = "舰队出征，获得15次胜利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19901,
+	target_num = 15,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59544,
+			300
+		},
+		{
+			2,
+			59546,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19902] = {
+	name = "『喀琅施塔得复刻』-日常困难本",
+	guild_coin_award = 0,
+	award = 901920,
+	type = 36,
+	desc = "通关1次任意困难关卡 ",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "10101",
+	scene = "",
+	id = 19902,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59544,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19903] = {
+	name = "『喀琅施塔得复刻』-日常活动关卡",
+	guild_coin_award = 0,
+	award = 901921,
+	type = 36,
+	desc = "通过1次任意活动关卡 ",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19903,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1620001,
+		1620002,
+		1620003,
+		1620004,
+		1620005,
+		1620006,
+		1620021,
+		1620022,
+		1620023,
+		1620024,
+		1620025,
+		1620026,
+		1620041,
+		1620051
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59544,
+			300
+		},
+		{
+			2,
+			54006,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5288
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19904] = {
+	name = "『喀琅施塔得复刻』通关A1/C1",
+	guild_coin_award = 0,
+	award = 901922,
+	type = 6,
+	desc = "击败A1或C1旗舰1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19904,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1620001,
+		1620021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			59546,
+			1
+		},
+		{
+			2,
+			59544,
+			200
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5287
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19905] = {
+	name = "『喀琅施塔得复刻』通关A2/C2",
+	guild_coin_award = 0,
+	award = 901923,
+	type = 6,
+	desc = "击败A2或C2旗舰1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19905,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1620002,
+		1620022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			59546,
+			1
+		},
+		{
+			2,
+			59544,
+			400
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5287
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19906] = {
+	name = "『喀琅施塔得复刻』通关A3/C3",
+	guild_coin_award = 0,
+	award = 901924,
+	type = 6,
+	desc = "击败A3或C3旗舰1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19906,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1620003,
+		1620023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			59546,
+			2
+		},
+		{
+			2,
+			59544,
+			600
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5287
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19907] = {
+	name = "『喀琅施塔得复刻』通关B1/D1",
+	guild_coin_award = 0,
+	award = 901925,
+	type = 6,
+	desc = "击败B1或D1旗舰1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19907,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1620004,
+		1620024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			59546,
+			1
+		},
+		{
+			2,
+			59544,
+			400
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5288
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19908] = {
+	name = "『喀琅施塔得复刻』通关B2/D2",
+	guild_coin_award = 0,
+	award = 901926,
+	type = 6,
+	desc = "击败B2或D2旗舰1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19908,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1620005,
+		1620025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			59546,
+			1
+		},
+		{
+			2,
+			59544,
+			600
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5288
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19909] = {
+	name = "『喀琅施塔得复刻』通关B3/D3",
+	guild_coin_award = 0,
+	award = 901927,
+	type = 6,
+	desc = "击败B3或D3旗舰1次",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 10,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19909,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1620006,
+		1620026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			59546,
+			2
+		},
+		{
+			2,
+			59544,
+			800
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5288
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19910] = {
+	name = "『喀琅施塔得复刻』通关SP",
+	guild_coin_award = 0,
+	award = 901928,
+	type = 6,
+	desc = "通关SP",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1620041",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19910,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			59546,
+			3
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1620025,
+			chapterId = 1620041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19911] = {
+	name = "『喀琅施塔得复刻』通关D3",
+	guild_coin_award = 0,
+	award = 901929,
+	type = 6,
+	desc = "通关D3<color=#92fc63>（勋章无法重复获得）</color>",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1620026",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19911,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			5,
+			221,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1620012,
+			chapterId = 1620026
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19912] = {
+	name = "『喀琅施塔得复刻』通关EX",
+	guild_coin_award = 0,
+	award = 901930,
+	type = 6,
+	desc = "通关EX关卡",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1620051",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19912,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1620026,
+			chapterId = 1620051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19913] = {
+	name = "『喀琅施塔得复刻』A1/C1的3星",
+	guild_coin_award = 0,
+	award = 901931,
+	type = 6,
+	desc = "完成A1或C1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "19914",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19913,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1620001,
+		1620021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5287
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19914] = {
+	name = "『喀琅施塔得复刻』A2/C2的3星",
+	guild_coin_award = 0,
+	award = 901932,
+	type = 6,
+	desc = "完成A2或C2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "19915",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19914,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1620002,
+		1620022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5287
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19915] = {
+	name = "『喀琅施塔得复刻』A3/C3的3星",
+	guild_coin_award = 0,
+	award = 901933,
+	type = 6,
+	desc = "完成A3或C3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "19916",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19915,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1620003,
+		1620023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18013,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5287
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19916] = {
+	name = "『喀琅施塔得复刻』B1/D1的3星",
+	guild_coin_award = 0,
+	award = 901934,
+	type = 6,
+	desc = "完成B1或D1的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "19917",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19916,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1620004,
+		1620024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5288
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19917] = {
+	name = "『喀琅施塔得复刻』B2/D2的3星",
+	guild_coin_award = 0,
+	award = 901935,
+	type = 6,
+	desc = "完成B2或D2的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "19918",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19917,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1620005,
+		1620025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5288
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19918] = {
+	name = "『喀琅施塔得复刻』B3/D3的3星",
+	guild_coin_award = 0,
+	award = 901936,
+	type = 6,
+	desc = "完成B3或D3的3星收集",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19918,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1620006,
+		1620026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18013,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5288
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19919] = {
+	name = "『喀琅施塔得复刻』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 901937,
+	type = 6,
+	desc = "登录游戏",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19919,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			405,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19920] = {
+	name = "『2023人气投票』武器外观1",
+	guild_coin_award = 0,
+	award = 901938,
+	type = 14,
+	desc = "登录游戏",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19920,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			9,
+			3001,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19921] = {
+	name = "『2023人气投票』武器外观2",
+	guild_coin_award = 0,
+	award = 901939,
+	type = 14,
+	desc = "登录游戏",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19921,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			9,
+			3007,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19922] = {
+	name = "『2023人气投票』武器外观3",
+	guild_coin_award = 0,
+	award = 901940,
+	type = 14,
+	desc = "登录游戏",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19922,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			9,
+			3009,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19923] = {
+	name = "小柴郡复刻npc临时加入",
+	guild_coin_award = 0,
+	award = 901941,
+	type = 6,
+	desc = "不该看到",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19923,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			203101,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19924] = {
+	name = "小柴郡复刻通常任务1",
+	guild_coin_award = 0,
+	award = 901949,
+	type = 26,
+	desc = "舰队出征，获得20次胜利",
+	count_inherit = 19925,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "19925",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19924,
+	target_num = 20,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19925] = {
+	name = "小柴郡复刻通常任务2",
+	guild_coin_award = 0,
+	award = 901950,
+	type = 26,
+	desc = "舰队出征，获得40次胜利",
+	count_inherit = 19926,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "19926",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19925,
+	target_num = 40,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19926] = {
+	name = "小柴郡复刻通常任务3",
+	guild_coin_award = 0,
+	award = 901951,
+	type = 26,
+	desc = "舰队出征，获得60次胜利",
+	count_inherit = 19927,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "19927",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19926,
+	target_num = 60,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19927] = {
+	name = "小柴郡复刻通常任务4",
+	guild_coin_award = 0,
+	award = 901952,
+	type = 26,
+	desc = "舰队出征，获得80次胜利",
+	count_inherit = 19928,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "19928",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19927,
+	target_num = 80,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19928] = {
+	name = "小柴郡复刻通常任务5",
+	guild_coin_award = 0,
+	award = 901953,
+	type = 26,
+	desc = "舰队出征，获得100次胜利",
+	count_inherit = 19929,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "19929",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19928,
+	target_num = 100,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19929] = {
+	name = "小柴郡复刻通常任务6",
+	guild_coin_award = 0,
+	award = 901954,
+	type = 26,
+	desc = "舰队出征，获得120次胜利",
+	count_inherit = 19930,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "19930",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19929,
+	target_num = 120,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19930] = {
+	name = "小柴郡复刻通常任务7",
+	guild_coin_award = 0,
+	award = 901955,
+	type = 26,
+	desc = "舰队出征，获得140次胜利",
+	count_inherit = 19931,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "19931",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19930,
+	target_num = 140,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19931] = {
+	name = "小柴郡复刻通常任务8",
+	guild_coin_award = 0,
+	award = 901956,
+	type = 26,
+	desc = "舰队出征，获得160次胜利",
+	count_inherit = 19932,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "19932",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19931,
+	target_num = 160,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19932] = {
+	name = "小柴郡复刻通常任务9",
+	guild_coin_award = 0,
+	award = 901957,
+	type = 26,
+	desc = "舰队出征，获得180次胜利",
+	count_inherit = 19933,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "19933",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19932,
+	target_num = 180,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19933] = {
+	name = "小柴郡复刻通常任务10",
+	guild_coin_award = 0,
+	award = 901958,
+	type = 26,
+	desc = "舰队出征，获得200次胜利",
+	count_inherit = 19934,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "19934",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19933,
+	target_num = 200,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19934] = {
+	name = "小柴郡复刻通常任务11",
+	guild_coin_award = 0,
+	award = 901959,
+	type = 26,
+	desc = "舰队出征，获得240次胜利",
+	count_inherit = 19935,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "19935",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19934,
+	target_num = 240,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19935] = {
+	name = "小柴郡复刻通常任务12",
+	guild_coin_award = 0,
+	award = 901960,
+	type = 26,
+	desc = "舰队出征，获得280次胜利",
+	count_inherit = 19936,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "19936",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19935,
+	target_num = 280,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19936] = {
+	name = "小柴郡复刻通常任务13",
+	guild_coin_award = 0,
+	award = 901961,
+	type = 26,
+	desc = "舰队出征，获得320次胜利",
+	count_inherit = 19937,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "19937",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19936,
+	target_num = 320,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19937] = {
+	name = "小柴郡复刻通常任务14",
+	guild_coin_award = 0,
+	award = 901962,
+	type = 26,
+	desc = "舰队出征，获得360次胜利",
+	count_inherit = 19938,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "19938",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19937,
+	target_num = 360,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19938] = {
+	name = "小柴郡复刻通常任务15",
+	guild_coin_award = 0,
+	award = 901963,
+	type = 26,
+	desc = "舰队出征，获得400次胜利",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19938,
+	target_num = 400,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19939] = {
+	name = "小柴郡复刻通常任务16",
+	guild_coin_award = 0,
+	award = 901964,
+	type = 26,
+	desc = "小柴郡上阵出击，获得20次胜利",
+	count_inherit = 19940,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "20310",
+	next_task = "19940",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19939,
+	target_num = 20,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19940] = {
+	name = "小柴郡复刻通常任务17",
+	guild_coin_award = 0,
+	award = 901965,
+	type = 26,
+	desc = "小柴郡上阵出击，获得40次胜利",
+	count_inherit = 19941,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "20310",
+	next_task = "19941",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19940,
+	target_num = 40,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19941] = {
+	name = "小柴郡复刻通常任务18",
+	guild_coin_award = 0,
+	award = 901966,
+	type = 26,
+	desc = "小柴郡上阵出击，获得60次胜利",
+	count_inherit = 19942,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "20310",
+	next_task = "19942",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19941,
+	target_num = 60,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19942] = {
+	name = "小柴郡复刻通常任务19",
+	guild_coin_award = 0,
+	award = 901967,
+	type = 26,
+	desc = "小柴郡上阵出击，获得80次胜利",
+	count_inherit = 19943,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "20310",
+	next_task = "19943",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19942,
+	target_num = 80,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19943] = {
+	name = "小柴郡复刻通常任务20",
+	guild_coin_award = 0,
+	award = 901968,
+	type = 26,
+	desc = "小柴郡上阵出击，获得100次胜利",
+	count_inherit = 0,
+	sub_type = 18,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "20310",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19943,
+	target_num = 100,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			600
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19944] = {
+	name = "小柴郡复刻通常任务21",
+	guild_coin_award = 0,
+	award = 901969,
+	type = 26,
+	desc = "小柴郡等级达到10",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "20310",
+	next_task = "19945",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19944,
+	target_num = 10,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19945] = {
+	name = "小柴郡复刻通常任务22",
+	guild_coin_award = 0,
+	award = 901970,
+	type = 26,
+	desc = "小柴郡等级达到20",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "20310",
+	next_task = "19946",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19945,
+	target_num = 20,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19946] = {
+	name = "小柴郡复刻通常任务23",
+	guild_coin_award = 0,
+	award = 901971,
+	type = 26,
+	desc = "小柴郡等级达到30",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "20310",
+	next_task = "19947",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19946,
+	target_num = 30,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19947] = {
+	name = "小柴郡复刻通常任务24",
+	guild_coin_award = 0,
+	award = 901972,
+	type = 26,
+	desc = "小柴郡等级达到40",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "20310",
+	next_task = "19948",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19947,
+	target_num = 40,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19948] = {
+	name = "小柴郡复刻通常任务25",
+	guild_coin_award = 0,
+	award = 901973,
+	type = 26,
+	desc = "小柴郡等级达到50",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "20310",
+	next_task = "19949",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19948,
+	target_num = 50,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			600
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19949] = {
+	name = "小柴郡复刻通常任务26",
+	guild_coin_award = 0,
+	award = 901974,
+	type = 26,
+	desc = "小柴郡等级达到70",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "20310",
+	next_task = "19950",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19949,
+	target_num = 70,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			1000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19950] = {
+	name = "小柴郡复刻通常任务27",
+	guild_coin_award = 0,
+	award = 901975,
+	type = 26,
+	desc = "小柴郡等级达到90",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "20310",
+	next_task = "19951",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19950,
+	target_num = 90,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			1000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19951] = {
+	name = "小柴郡复刻通常任务28",
+	guild_coin_award = 0,
+	award = 901976,
+	type = 26,
+	desc = "小柴郡等级达到100",
+	count_inherit = 0,
+	sub_type = 1013,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "20310",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19951,
+	target_num = 100,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			1000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19952] = {
+	name = "小柴郡复刻通常任务29",
+	guild_coin_award = 0,
+	award = 901977,
+	type = 26,
+	desc = "小柴郡突破到3星",
+	count_inherit = 0,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "20310",
+	next_task = "19953",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19952,
+	target_num = 3,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			1000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19953] = {
+	name = "小柴郡复刻通常任务30",
+	guild_coin_award = 0,
+	award = 901978,
+	type = 26,
+	desc = "小柴郡突破到4星",
+	count_inherit = 0,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "20310",
+	next_task = "19954",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19953,
+	target_num = 4,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			1500
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19954] = {
+	name = "小柴郡复刻通常任务31",
+	guild_coin_award = 0,
+	award = 901979,
+	type = 26,
+	desc = "小柴郡突破到5星",
+	count_inherit = 0,
+	sub_type = 33,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "20310",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19954,
+	target_num = 5,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			2000
+		}
+	},
+	scene = {
+		"DOCKYARD",
+		{
+			mode = "overview"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19955] = {
+	name = "小柴郡复刻每日任务1",
+	guild_coin_award = 0,
+	award = 901980,
+	type = 36,
+	desc = "舰队出征，获得15次胜利。",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19955,
+	target_num = 15,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19956] = {
+	name = "小柴郡复刻每日任务2",
+	guild_coin_award = 0,
+	award = 901981,
+	type = 36,
+	desc = "通关3次任意困难关卡",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "10101",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19956,
+	target_num = 3,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			317,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
 _G.pg.base.task_data_template[31017] = {
 	name = "殿堂奖励第一名",
 	guild_coin_award = 0,

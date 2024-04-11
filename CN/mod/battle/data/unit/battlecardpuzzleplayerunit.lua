@@ -52,7 +52,7 @@ function slot9.UpdateHP(slot0, slot1, slot2)
 		slot1 = -slot14.damage
 
 		if uv1.IsInvincible(slot0) then
-			return
+			return 0
 		end
 	else
 		slot14 = {
@@ -97,6 +97,8 @@ function slot9.UpdateHP(slot0, slot1, slot2)
 			unit = slot0
 		})
 	end
+
+	return slot1
 end
 
 function slot9.UpdateHPAction(slot0, slot1)
