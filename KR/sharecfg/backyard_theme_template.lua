@@ -4172,7 +4172,7 @@ pg.backyard_theme_template = {
 	},
 	[109] = {
 		Cfg_1 = 5,
-		name = "마법사의 숲 오두막",
+		name = "숲속 오두막",
 		hot = 1,
 		is_view = 1,
 		id = 109,

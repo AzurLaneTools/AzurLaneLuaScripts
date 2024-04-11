@@ -256,7 +256,7 @@ pg.roll_attr = {
 	},
 	[1004] = {
 		ID = 1004,
-		name = "가호",
+		name = "수호신",
 		default_value = "행운과 부의 신",
 		random_value = {
 			"시작과 끝의 신",

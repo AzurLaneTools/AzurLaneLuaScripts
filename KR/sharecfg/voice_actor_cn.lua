@@ -1570,14 +1570,14 @@ pg.voice_actor_CN = {
 	},
 	[402] = {
 		code = 402,
-		actor_name = "이와이 에미리"
+		actor_name = "Emiri Iwai"
 	},
 	[403] = {
 		code = 403,
-		actor_name = "마노 미즈키"
+		actor_name = "Mizuki Mano"
 	},
 	[404] = {
 		code = 404,
-		actor_name = "사쿠라 카오루"
+		actor_name = "Kaoru Sakura"
 	}
 }
