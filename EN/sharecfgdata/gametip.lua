@@ -10288,7 +10288,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Get Sovetsky Soyuz guaranteed with every 200 event builds (can be done up to 4 times)!"
+	tip = "Get Kronshtadt guaranteed with every 200 event builds (can be done up to 4 times)!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -21251,7 +21251,7 @@ _G.pg.base.gametip.cruise_task_help_2404 = {
 			info = [[
 - Regarding Cruise Missions - 
 · Two types of missions will be released at the same time at the start of the campaign season:
-a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+a) Weekly Missions - Missions unlocked at midnight on every Monday during the campaign season, for a total of 8 batches.
 b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
 
 · All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
@@ -22182,7 +22182,7 @@ _G.pg.base.gametip.littleChaijun_npc = {
 			info = "· If Little Cheshire has not been formally recruited by the end of the event, she will leave the Port."
 		},
 		{
-			info = "· Rewards for reaching certain amounts of Trust will unlock in phases, one phase per day up to June 2nd."
+			info = "· Rewards for reaching certain amounts of Trust will unlock in phases, one phase per day up to April 17th."
 		},
 		{
 			info = "· Little Cheshire cannot participate in Operation Siren or META Showdowns until she has been formally recruited."
@@ -28302,4 +28302,20 @@ _G.pg.base.gametip.otherworld_terminal_help = {
 			y = 1024
 		}
 	}
+}
+
+_G.pg.base.gametip.vote_2023_reward_word_1 = {
+	tip = "––\"41 73 20 77 65 20 61 6C 6C 20 73 61 79 2E\"\n__\"54 68 65 74 6F 77 65 72 65 78 69 73 74 73 66 6F 72 65 76 65 72 2E\""
+}
+
+_G.pg.base.gametip.vote_2023_reward_word_2 = {
+	tip = "So this is the choice you've made? Even knowing how cruel this world is, you still proclaim that life will persevere... I see you've made ample preparations for this lengthy debate, Commander. Excellent. Next time, I will be sure to look upon you through \"their\" eyes."
+}
+
+_G.pg.base.gametip.vote_2023_reward_word_3 = {
+	tip = "Is this trophy... for me...? Thank you. But, the greatest award I could hope to receive, is to be able to stay with you forever. So, um... I'd like you to have this bell! As long as you carry it with you, it'll basically be like having me at your side at all times!"
+}
+
+_G.pg.base.gametip.voting_page_reward = {
+	tip = "Claim"
 }

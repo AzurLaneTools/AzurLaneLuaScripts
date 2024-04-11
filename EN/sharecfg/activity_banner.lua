@@ -2,20 +2,18 @@ pg = pg or {}
 pg.activity_banner = {
 	{
 		id = 1,
-		pic = "temp1",
+		pic = "temp3",
 		type = 2,
 		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
+			"scene skinshop",
+			{}
 		},
 		time = {
 			{
 				{
 					2024,
-					3,
-					28
+					4,
+					11
 				},
 				{
 					0,
@@ -27,7 +25,7 @@ pg.activity_banner = {
 				{
 					2024,
 					4,
-					10
+					17
 				},
 				{
 					23,
@@ -38,16 +36,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5260",
+		param = "5287",
 		id = 2,
-		pic = "temp2",
+		pic = "temp7",
 		type = 3,
 		time = {
 			{
 				{
 					2024,
-					3,
-					28
+					4,
+					11
 				},
 				{
 					0,
@@ -71,73 +69,6 @@ pg.activity_banner = {
 	},
 	{
 		id = 3,
-		pic = "temp3",
-		type = 2,
-		param = {
-			"scene skinshop",
-			{}
-		},
-		time = {
-			{
-				{
-					2024,
-					3,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "5267",
-		id = 4,
-		pic = "temp8",
-		type = 3,
-		time = {
-			{
-				{
-					2024,
-					4,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 5,
 		pic = "temp4",
 		type = 2,
 		param = {
@@ -151,8 +82,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					3,
-					28
+					4,
+					11
 				},
 				{
 					0,
@@ -164,7 +95,71 @@ pg.activity_banner = {
 				{
 					2024,
 					4,
-					10
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "5297",
+		id = 4,
+		pic = "temp2",
+		type = 3,
+		time = {
+			{
+				{
+					2024,
+					4,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "5282",
+		id = 5,
+		pic = "temp6",
+		type = 3,
+		time = {
+			{
+				{
+					2024,
+					4,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					17
 				},
 				{
 					23,
@@ -179,17 +174,17 @@ pg.activity_banner = {
 		pic = "temp5",
 		type = 2,
 		param = {
-			"scene shop",
+			"scene charge",
 			{
-				warp = "shopstreet"
+				wrap = 2
 			}
 		},
 		time = {
 			{
 				{
 					2024,
-					3,
-					28
+					4,
+					11
 				},
 				{
 					0,
@@ -201,41 +196,7 @@ pg.activity_banner = {
 				{
 					2024,
 					4,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		id = 7,
-		pic = "temp6",
-		type = 2,
-		param = {
-			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2024,
-					3,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					10
+					17
 				},
 				{
 					23,
@@ -247,44 +208,30 @@ pg.activity_banner = {
 	},
 	{
 		param = "7016",
-		id = 8,
-		pic = "temp9",
+		time = "stop",
 		type = 3,
-		time = {
-			{
-				{
-					2024,
-					4,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
+		id = 7,
+		pic = "temp9"
+	},
+	{
+		id = 8,
+		pic = "temp8",
+		time = "stop",
+		type = 2,
+		param = {
+			"scene court yard"
 		}
 	},
 	{
 		id = 9,
-		pic = "temp9",
+		pic = "temp1",
 		time = "stop",
 		type = 2,
 		param = {
-			"scene skinshop",
-			{}
+			"scene shop",
+			{
+				warp = "shopstreet"
+			}
 		}
 	},
 	[90] = {
@@ -296,8 +243,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					3,
-					28
+					4,
+					11
 				},
 				{
 					0,
@@ -309,7 +256,7 @@ pg.activity_banner = {
 				{
 					2024,
 					4,
-					10
+					17
 				},
 				{
 					23,
@@ -342,8 +289,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					3,
-					28
+					4,
+					11
 				},
 				{
 					0,
@@ -355,7 +302,7 @@ pg.activity_banner = {
 				{
 					2024,
 					4,
-					10
+					17
 				},
 				{
 					23,
@@ -390,15 +337,15 @@ pg.activity_banner = {
 		[2] = {
 			1,
 			3,
-			5,
 			6,
-			7,
+			8,
 			9
 		},
 		[3] = {
 			2,
 			4,
-			8
+			5,
+			7
 		},
 		[9] = {
 			90,

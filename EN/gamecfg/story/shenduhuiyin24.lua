@@ -918,7 +918,7 @@ return {
 			dir = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			say = "Kronstadt's main gun roared to life before she even finished her command.",
+			say = "Kronshtadt's main gun roared to life before she even finished her command.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

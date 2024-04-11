@@ -1067,8 +1067,13 @@ pg.player_resource = {
 	},
 	[317] = {
 		id = 317,
-		name = "xiaoougen_youhao_pt2",
-		itemid = 59412
+		name = "xiaochaijun_pt2",
+		itemid = 59548
+	},
+	[318] = {
+		id = 318,
+		name = "xiaochaijun_youhao_pt2",
+		itemid = 59549
 	},
 	[350] = {
 		id = 350,
@@ -1304,6 +1309,21 @@ pg.player_resource = {
 		id = 402,
 		name = "yishijie_exp",
 		itemid = 59543
+	},
+	[403] = {
+		id = 403,
+		name = "maoxiv3_pt2",
+		itemid = 59544
+	},
+	[404] = {
+		id = 404,
+		name = "maoxiv3_frame_pt2",
+		itemid = 59545
+	},
+	[405] = {
+		id = 405,
+		name = "skinTicket69",
+		itemid = 59547
 	},
 	[950] = {
 		id = 950,
@@ -2300,8 +2320,11 @@ pg.player_resource = {
 		skinTicket48 = {
 			316
 		},
-		xiaoougen_youhao_pt2 = {
+		xiaochaijun_pt2 = {
 			317
+		},
+		xiaochaijun_youhao_pt2 = {
+			318
 		},
 		liuzhounianhaidao_pt = {
 			350
@@ -2443,6 +2466,15 @@ pg.player_resource = {
 		},
 		yishijie_exp = {
 			402
+		},
+		maoxiv3_pt2 = {
+			403
+		},
+		maoxiv3_frame_pt2 = {
+			404
+		},
+		skinTicket69 = {
+			405
 		},
 		yisegefuke_pt1 = {
 			950
@@ -2873,6 +2905,7 @@ pg.player_resource = {
 		315,
 		316,
 		317,
+		318,
 		350,
 		351,
 		352,
@@ -2920,6 +2953,9 @@ pg.player_resource = {
 		400,
 		401,
 		402,
+		403,
+		404,
+		405,
 		950,
 		951,
 		952,

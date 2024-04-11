@@ -1265,7 +1265,7 @@ function updateDrop(slot0, slot1, slot2)
 		2
 	})
 	slot1:UpdateDropTpl(slot0, slot2)
-	setIconCount(slot0, slot2.count or slot1.count)
+	setIconCount(slot0, slot2.count or slot1:getCount())
 end
 
 function updateBuff(slot0, slot1, slot2)

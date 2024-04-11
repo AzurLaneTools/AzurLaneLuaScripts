@@ -292,7 +292,7 @@ function slot0.readyToAchieve(slot0)
 			slot2 = ActivityPtData.New(slot0):CanGetAward()
 			slot3 = true
 
-			if slot0:getConfig("config_client") and slot0:getConfig("config_client").task_act_id and slot4 ~= 0 and pg.activity_template[slot4] and pg.activity_template[slot4].config_data and #slot6 > 0 then
+			if slot0:getConfig("config_client") and slot0:getConfig("config_client").task_act_id and slot4 ~= 0 and pg.activity_template[slot4] and _.flatten(pg.activity_template[slot4].config_data) and #slot6 > 0 then
 				slot7 = getProxy(TaskProxy)
 
 				for slot11 = 1, #slot6 do
