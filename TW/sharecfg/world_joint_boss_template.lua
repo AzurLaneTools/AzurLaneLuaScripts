@@ -125,7 +125,7 @@ pg.world_joint_boss_template = {
 		}
 	},
 	{
-		state = "stop",
+		state = "always",
 		name = "格奈森瑙·META",
 		painting = "genaisennao",
 		boss_level_id = 61,

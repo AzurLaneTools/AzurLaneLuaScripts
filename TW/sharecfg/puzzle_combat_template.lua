@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.puzzle_combat_template = {
 	[100] = {
-		description = "该测试中，可以学习「信息对抗模拟测试」战斗的基本指令操作与界面功能",
-		name = "训练教学",
+		description = "此測試中，可以學習「資訊對抗模擬測試」戰鬥的基本指令操作與介面功能",
+		name = "訓練教學",
 		move_recovery = 0.8,
 		dungeon_id = 300991,
 		main_id = 905014,
@@ -18,8 +18,8 @@ pg.puzzle_combat_template = {
 		relic = {}
 	},
 	[103] = {
-		description = "该测试中，移动指令充能速度会降低\n尽可能的躲开敌方攻击，击败敌方单位吧",
-		name = "机动训练",
+		description = "此測試中，移動指令充能速度會降低\n盡可能的躲開敵方攻擊，擊敗敵方單位吧",
+		name = "機動訓練",
 		move_recovery = 0.5,
 		dungeon_id = 300996,
 		main_id = 905014,
@@ -38,8 +38,8 @@ pg.puzzle_combat_template = {
 		relic = {}
 	},
 	[104] = {
-		description = "该测试中，需要尽可能的阻止敌方自爆船的冲锋\n坚持40秒，即可完成测试",
-		name = "海域突进·改",
+		description = "此測試中，需要盡可能的阻止敵方自爆船的衝鋒\n堅持60秒，即可完成測試",
+		name = "海域突進·改",
 		move_recovery = 0.8,
 		dungeon_id = 300994,
 		main_id = 905014,
@@ -59,8 +59,8 @@ pg.puzzle_combat_template = {
 		relic = {}
 	},
 	[105] = {
-		description = "该测试中，敌方会交替进入防御反击模式，每轮防御反击模式持续10秒\n防御反击模式：该敌方受到的伤害降低100%，受到攻击时会触发反击攻击",
-		name = "精准攻击",
+		description = "此測試中，敵方會交替進入防禦反擊模式，每輪防禦反擊模式持續10秒\n防禦反擊模式：該敵方受到的傷害降低100%，受到攻擊時會觸發反擊攻擊",
+		name = "精準攻擊",
 		move_recovery = 0.8,
 		dungeon_id = 300997,
 		main_id = 905014,
@@ -78,8 +78,8 @@ pg.puzzle_combat_template = {
 		relic = {}
 	},
 	[106] = {
-		description = "该测试中将出现特殊机械装置，其被攻击一定次数会切换自身状态\n机械装置计时10秒后会自毁，并根据当前状态对所有单位提供增益",
-		name = "强敌试炼",
+		description = "此測試中將出現特殊機械裝置，其被攻擊一定次數會切換自身狀態\n機械裝置計時10秒後會自毀，並根據當前狀態對所有單位提供增益",
+		name = "強敵試煉",
 		move_recovery = 0.8,
 		dungeon_id = 300995,
 		main_id = 905014,

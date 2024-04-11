@@ -8585,6 +8585,46 @@ _G.pg.base.gametip.card_pairs_tips = {
 	tip = "再次進行遊戲也無法獲得任務道具了喲，是否開啟新的一輪遊戲？"
 }
 
+_G.pg.base.gametip["card_battle_card details_deck"] = {
+	tip = "待抽取指令"
+}
+
+_G.pg.base.gametip["card_battle_card details_hand"] = {
+	tip = "當 前 指 令"
+}
+
+_G.pg.base.gametip["card_battle_card details"] = {
+	tip = "C A R D D E T A I L S"
+}
+
+_G.pg.base.gametip["card_battle_card details_switchto_deck"] = {
+	tip = "查看待抽取指令"
+}
+
+_G.pg.base.gametip["card_battle_card details_switchto_hand"] = {
+	tip = "查看目前指令"
+}
+
+_G.pg.base.gametip.card_battle_card_empty_en = {
+	tip = "- LIST IS EMPTY -"
+}
+
+_G.pg.base.gametip.card_battle_card_empty_ch = {
+	tip = "暫 無 待 抽 取 指 令"
+}
+
+_G.pg.base.gametip.card_puzzel_goal_ch = {
+	tip = "關卡目標"
+}
+
+_G.pg.base.gametip.card_puzzel_goal_en = {
+	tip = "TARGET"
+}
+
+_G.pg.base.gametip.card_puzzle_deck = {
+	tip = "指令集"
+}
+
 _G.pg.base.gametip.upgrade_to_next_maxlevel_failed = {
 	tip = "已達到最大等級上限，\n無法進行認知覺醒"
 }

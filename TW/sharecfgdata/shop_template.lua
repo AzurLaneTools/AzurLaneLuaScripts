@@ -6009,6 +6009,58 @@ _G.pg.base.shop_template[43034] = {
 	}
 }
 
+_G.pg.base.shop_template[43041] = {
+	time_second = 0,
+	resource_type = 3,
+	genre = "arena_shop",
+	type = 4,
+	desc = "20000功勋兑换U37",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	type_order = 0,
+	order = 3,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 43041,
+	resource_num = 20000,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		408101
+	}
+}
+
+_G.pg.base.shop_template[43042] = {
+	time_second = 0,
+	resource_type = 3,
+	genre = "arena_shop",
+	type = 4,
+	desc = "8000功勋兑换Z24",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	type_order = 0,
+	order = 4,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	group_type = 0,
+	id = 43042,
+	resource_num = 8000,
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		401241
+	}
+}
+
 _G.pg.base.shop_template[50002] = {
 	time_second = 0,
 	resource_type = 14,
@@ -16184,7 +16236,6 @@ _G.pg.base.shop_template[60501] = {
 	limit_args2 = "",
 	type_order = 1,
 	order = 0,
-	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 100,
@@ -16200,6 +16251,32 @@ _G.pg.base.shop_template[60501] = {
 	},
 	effect_args = {
 		40131
+	},
+	time = {
+		{
+			{
+				2024,
+				4,
+				11
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				4,
+				17
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
 	}
 }
 
@@ -16215,7 +16292,6 @@ _G.pg.base.shop_template[60502] = {
 	limit_args2 = "",
 	type_order = 1,
 	order = 0,
-	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 100,
@@ -16256,6 +16332,32 @@ _G.pg.base.shop_template[60502] = {
 	},
 	effect_args = {
 		40132
+	},
+	time = {
+		{
+			{
+				2024,
+				4,
+				12
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				4,
+				17
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
 	}
 }
 
@@ -16271,7 +16373,6 @@ _G.pg.base.shop_template[60503] = {
 	limit_args2 = "",
 	type_order = 1,
 	order = 0,
-	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 100,
@@ -16312,6 +16413,32 @@ _G.pg.base.shop_template[60503] = {
 	},
 	effect_args = {
 		40133
+	},
+	time = {
+		{
+			{
+				2024,
+				4,
+				13
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				4,
+				17
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
 	}
 }
 
@@ -16327,7 +16454,6 @@ _G.pg.base.shop_template[60504] = {
 	limit_args2 = "",
 	type_order = 1,
 	order = 0,
-	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 100,
@@ -16368,6 +16494,32 @@ _G.pg.base.shop_template[60504] = {
 	},
 	effect_args = {
 		40134
+	},
+	time = {
+		{
+			{
+				2024,
+				4,
+				14
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				4,
+				17
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
 	}
 }
 
@@ -16383,7 +16535,6 @@ _G.pg.base.shop_template[60505] = {
 	limit_args2 = "",
 	type_order = 1,
 	order = 0,
-	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 100,
@@ -16424,6 +16575,32 @@ _G.pg.base.shop_template[60505] = {
 	},
 	effect_args = {
 		40135
+	},
+	time = {
+		{
+			{
+				2024,
+				4,
+				15
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				4,
+				17
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
 	}
 }
 
@@ -16439,7 +16616,6 @@ _G.pg.base.shop_template[60506] = {
 	limit_args2 = "",
 	type_order = 1,
 	order = 0,
-	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 100,
@@ -16480,6 +16656,32 @@ _G.pg.base.shop_template[60506] = {
 	},
 	effect_args = {
 		40136
+	},
+	time = {
+		{
+			{
+				2024,
+				4,
+				16
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				4,
+				17
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
 	}
 }
 
@@ -16495,7 +16697,6 @@ _G.pg.base.shop_template[60507] = {
 	limit_args2 = "",
 	type_order = 1,
 	order = 0,
-	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 100,
@@ -16536,6 +16737,32 @@ _G.pg.base.shop_template[60507] = {
 	},
 	effect_args = {
 		40137
+	},
+	time = {
+		{
+			{
+				2024,
+				4,
+				17
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				4,
+				17
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
 	}
 }
 

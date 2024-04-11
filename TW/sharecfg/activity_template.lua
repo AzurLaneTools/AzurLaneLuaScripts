@@ -5230,6 +5230,62 @@ pg.activity_template = {
 			ui_name = "AnniversarySixInvitationPage"
 		}
 	},
+	[4887] = {
+		mark = 20240411,
+		config_client = "",
+		title_res_tag = "card_puzzle",
+		type = 102,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 50,
+		id = 4887,
+		config_data = {
+			{
+				100,
+				103,
+				104,
+				105,
+				106
+			},
+			{
+				{
+					5,
+					900262
+				}
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					4,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CardPuzzlePage",
+			ui_name = "CardPuzzlePage"
+		}
+	},
 	[4888] = {
 		mark = 20230608,
 		title_res_tag = "dunhuang",
@@ -6201,6 +6257,77 @@ pg.activity_template = {
 		page_info = {
 			class_name = "JamaicaSkinRePage",
 			ui_name = "JamaicaSkinRePage"
+		}
+	},
+	[4971] = {
+		mark = 20240411,
+		config_client = "",
+		title_res_tag = "bulvxieersp_skin",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 99,
+		id = 4971,
+		config_data = {
+			{
+				19157,
+				19158
+			},
+			{
+				19159,
+				19160
+			},
+			{
+				19161,
+				19162
+			},
+			{
+				19163,
+				19164
+			},
+			{
+				19165,
+				19166
+			},
+			{
+				19167,
+				19168
+			},
+			{
+				19169,
+				19170
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					4,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "BulvxieerSPSkinPage",
+			ui_name = "BulvxieerSPSkinPage"
 		}
 	},
 	[4972] = {
@@ -41230,15 +41357,41 @@ pg.activity_template = {
 		}
 	},
 	[41377] = {
-		mark = 20240403,
+		mark = 20240411,
+		id = 41377,
 		title_res_tag = "blackfriday",
-		time = "stop",
 		type = 108,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 40,
-		id = 41377,
+		is_show = 98,
 		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					4,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
 		page_info = {
 			class_name = "BlackFridayGiftPageInCH",
 			ui_name = "BlackFridayGiftPageInCH"
@@ -43964,6 +44117,7 @@ pg.activity_template = {
 		4871,
 		4872,
 		4874,
+		4887,
 		4888,
 		4889,
 		4892,
@@ -44000,6 +44154,7 @@ pg.activity_template = {
 		4945,
 		4946,
 		4947,
+		4971,
 		4972,
 		5017,
 		5080,

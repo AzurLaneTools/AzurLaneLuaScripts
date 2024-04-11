@@ -24,7 +24,7 @@ pg.puzzle_card_template = {
 	},
 	[999970] = {
 		cost = 2,
-		name = "鱼雷攻击",
+		name = "魚雷攻擊",
 		action = "",
 		rarity = 1,
 		cooldown = 0.5,
@@ -33,7 +33,7 @@ pg.puzzle_card_template = {
 		card_type = 1,
 		id = 999970,
 		icon = 510031,
-		discript = "先锋舰 向前方发射一枚磁性鱼雷",
+		discript = "先鋒艦 向前方發射一枚磁性魚雷",
 		label = {
 			102,
 			301
@@ -46,7 +46,7 @@ pg.puzzle_card_template = {
 	},
 	[999971] = {
 		cost = 7,
-		name = "强袭雷击",
+		name = "強襲雷擊",
 		action = "",
 		rarity = 3,
 		cooldown = 0.5,
@@ -55,7 +55,7 @@ pg.puzzle_card_template = {
 		card_type = 1,
 		id = 999971,
 		icon = 512040,
-		discript = "先锋舰 发射强力磁性鱼雷弹幕",
+		discript = "先鋒艦 發射強力磁性魚雷彈幕",
 		label = {
 			102
 		},
@@ -67,7 +67,7 @@ pg.puzzle_card_template = {
 	},
 	[999972] = {
 		cost = 8,
-		name = "火力覆盖",
+		name = "火力覆蓋",
 		action = "",
 		rarity = 1,
 		cooldown = 0.5,
@@ -76,7 +76,7 @@ pg.puzzle_card_template = {
 		card_type = 1,
 		id = 999972,
 		icon = 541050,
-		discript = "主力舰 发射大范围的炮击支援",
+		discript = "主力艦 發射大範圍的炮擊支援",
 		label = {
 			100
 		},
@@ -88,7 +88,7 @@ pg.puzzle_card_template = {
 	},
 	[999973] = {
 		cost = 5,
-		name = "自动速射",
+		name = "自動速射",
 		action = "",
 		rarity = 1,
 		cooldown = 0.5,
@@ -97,7 +97,7 @@ pg.puzzle_card_template = {
 		card_type = 3,
 		id = 999973,
 		icon = 510010,
-		discript = "先锋舰 每4秒对距离最近的敌人 发射一轮炮击弹幕",
+		discript = "先鋒艦 每4秒對距離最近的敵人 發射一輪炮擊彈幕",
 		label = {
 			306
 		},
@@ -109,7 +109,7 @@ pg.puzzle_card_template = {
 	},
 	[999974] = {
 		cost = 7,
-		name = "自动鱼雷",
+		name = "自動魚雷",
 		action = "",
 		rarity = 1,
 		cooldown = 0.5,
@@ -118,7 +118,7 @@ pg.puzzle_card_template = {
 		card_type = 3,
 		id = 999974,
 		icon = 510030,
-		discript = "先锋舰 每8秒对距离最近的敌人 发射一轮鱼雷攻击",
+		discript = "先鋒艦 每8秒對距離最近的敵人 發射一輪魚雷攻擊",
 		label = {
 			306
 		},
@@ -130,7 +130,7 @@ pg.puzzle_card_template = {
 	},
 	[999975] = {
 		cost = 10,
-		name = "自动跨射",
+		name = "自動跨射",
 		action = "",
 		rarity = 1,
 		cooldown = 0.5,
@@ -139,7 +139,7 @@ pg.puzzle_card_template = {
 		card_type = 3,
 		id = 999975,
 		icon = 510020,
-		discript = "主力舰 每10秒对优先级最高的敌人 发射一轮跨射攻击 ",
+		discript = "主力艦 每10秒對優先順序最高的敵人 發射一輪跨射攻擊",
 		label = {
 			100,
 			306
@@ -152,7 +152,7 @@ pg.puzzle_card_template = {
 	},
 	[999977] = {
 		cost = 8,
-		name = "强力跨射",
+		name = "強力跨射",
 		action = "",
 		rarity = 1,
 		cooldown = 0.5,
@@ -161,7 +161,7 @@ pg.puzzle_card_template = {
 		card_type = 1,
 		id = 999977,
 		icon = 511010,
-		discript = "主力舰 对优先级最高的敌人 发射一轮强力的跨射攻击",
+		discript = "主力艦 對優先級最高的敵人 發射一輪強力的跨射攻擊",
 		label = {
 			100,
 			301
@@ -174,7 +174,7 @@ pg.puzzle_card_template = {
 	},
 	[999978] = {
 		cost = 5,
-		name = "强力射击",
+		name = "強力射擊",
 		action = "",
 		rarity = 1,
 		cooldown = 0.5,
@@ -183,7 +183,7 @@ pg.puzzle_card_template = {
 		card_type = 1,
 		id = 999978,
 		icon = 531100,
-		discript = "先锋舰 对距离最近的敌人 发射一轮强力的炮击弹幕",
+		discript = "先鋒艦 對距離最近的敵人 發射一輪強力的炮擊彈幕",
 		label = {
 			301
 		},
@@ -204,7 +204,7 @@ pg.puzzle_card_template = {
 		card_type = 1,
 		id = 999979,
 		icon = 541050,
-		discript = "主力舰 对优先级最高的敌人 发射一轮跨射攻击",
+		discript = "主力艦 對優先級最高的敵人 發射一輪跨射攻擊",
 		label = {
 			100
 		},
@@ -216,7 +216,7 @@ pg.puzzle_card_template = {
 	},
 	[999984] = {
 		cost = 3,
-		name = "维修指令",
+		name = "維修指示",
 		action = "",
 		rarity = 1,
 		cooldown = 0.5,
@@ -225,7 +225,7 @@ pg.puzzle_card_template = {
 		card_type = 2,
 		id = 999984,
 		icon = 511060,
-		discript = "恢复我方10%的耐久",
+		discript = "恢復我方10%的耐久",
 		label = {
 			301
 		},
@@ -237,7 +237,7 @@ pg.puzzle_card_template = {
 	},
 	[999985] = {
 		cost = 5,
-		name = "应急维修指令",
+		name = "緊急維修指令",
 		action = "",
 		rarity = 1,
 		cooldown = 0.5,
@@ -246,7 +246,7 @@ pg.puzzle_card_template = {
 		card_type = 2,
 		id = 999985,
 		icon = 510050,
-		discript = "恢复我方30%的耐久",
+		discript = "恢復我方30%的耐久",
 		label = {},
 		condition = {},
 		effect = {
@@ -265,7 +265,7 @@ pg.puzzle_card_template = {
 		card_type = 1,
 		id = 999989,
 		icon = 541050,
-		discript = "主力舰 对优先级最高的敌人 进行一轮跨射，被命中的敌人15秒内受到的伤害提高20%，不可叠加",
+		discript = "主力艦 對優先級最高的敵人 進行一輪跨射打擊，並使被命中的敵人在接下來的15秒內受到的傷害提高20%，不可疊加",
 		label = {
 			100,
 			301
@@ -278,7 +278,7 @@ pg.puzzle_card_template = {
 	},
 	[999990] = {
 		cost = 2,
-		name = "基础射击",
+		name = "基礎射擊",
 		action = "",
 		rarity = 1,
 		cooldown = 0.5,
@@ -287,7 +287,7 @@ pg.puzzle_card_template = {
 		card_type = 1,
 		id = 999990,
 		icon = 531080,
-		discript = "先锋舰 对距离最近的敌人 发射一轮弹幕",
+		discript = "先鋒艦 對距離最近的敵人 發射一輪彈幕",
 		label = {
 			301
 		},
@@ -299,7 +299,7 @@ pg.puzzle_card_template = {
 	},
 	[999991] = {
 		cost = 6,
-		name = "强力护盾",
+		name = "強力護盾",
 		action = "",
 		rarity = 1,
 		cooldown = 0.5,
@@ -308,7 +308,7 @@ pg.puzzle_card_template = {
 		card_type = 2,
 		id = 999991,
 		icon = 541010,
-		discript = "先锋舰 获得护盾，在6秒内抵挡所有伤害",
+		discript = "先鋒艦 獲得護盾，在6秒內抵擋所有傷害",
 		label = {
 			301
 		},
@@ -320,7 +320,7 @@ pg.puzzle_card_template = {
 	},
 	[999992] = {
 		cost = 8,
-		name = "全炮门齐射",
+		name = "全炮門齊射",
 		action = "",
 		rarity = 1,
 		cooldown = 0.5,
@@ -329,7 +329,7 @@ pg.puzzle_card_template = {
 		card_type = 1,
 		id = 999992,
 		icon = 511010,
-		discript = "主力舰 对优先级最高的敌人 发射一轮强力的跨射弹幕",
+		discript = "主力艦 對優先級最高的敵人 發射一輪強力的跨射彈幕",
 		label = {
 			100,
 			301

@@ -704,6 +704,25 @@ function temp()
 					}
 				}
 			}
+		},
+		i = {
+			n = {
+				d = {
+					e = {
+						n = {
+							b = {
+								u = {
+									r = {
+										g = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -727,6 +746,25 @@ function temp()
 					}
 				}
 			}
+		},
+		i = {
+			n = {
+				d = {
+					e = {
+						n = {
+							b = {
+								u = {
+									r = {
+										g = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -743,6 +781,23 @@ function temp()
 					}
 				}
 			}
+		},
+		e = {
+			a = {
+				r = {
+					s = {
+						a = {
+							r = {
+								g = {
+									e = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -756,6 +811,26 @@ function temp()
 				s = {
 					k = {
 						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0.F = {
+		l = {
+			a = {
+				n = {
+					d = {
+						r = {
+							e = {
+								this = true
+							}
+						}
 					}
 				}
 			}
