@@ -23561,7 +23561,7 @@ _G.pg.base.gametip.package_view_4 = {
 }
 
 _G.pg.base.gametip.probabilityskinshop_tip = {
-	tip = "如果改換裝已擁有，則會轉化為等價的鑽石"
+	tip = "如果該換裝已擁有，則會轉化為等價的鑽石"
 }
 
 _G.pg.base.gametip.skin_gift_desc = {
