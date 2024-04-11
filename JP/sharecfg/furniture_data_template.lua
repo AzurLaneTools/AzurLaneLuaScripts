@@ -132,6 +132,7 @@ pg.furniture_data_template = setmetatable({
 			245,
 			248,
 			251,
+			254,
 			256,
 			257,
 			259,
@@ -5156,6 +5157,7 @@ pg.furniture_data_template = setmetatable({
 			242,
 			244,
 			251,
+			254,
 			260,
 			261,
 			262,
@@ -6195,6 +6197,7 @@ pg.furniture_data_template = setmetatable({
 			243,
 			245,
 			248,
+			254,
 			256,
 			257,
 			259,
@@ -9035,6 +9038,7 @@ pg.furniture_data_template = setmetatable({
 		245,
 		248,
 		251,
+		254,
 		256,
 		257,
 		259,
@@ -18102,6 +18106,43 @@ pg.base.furniture_data_template = {
 					true
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[254] = {
+		spine_extra = "",
+		describe = "「なんだかやる気が出ませんわ……指揮官、掃除道具はここに置いときましたわよ…」",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 0,
+		is_get_time_note = 0,
+		themeId = 0,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "qingjietaozuicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ケダルイメイドサマの掃除道具",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/qingjietaozu",
+		canputon = 0,
+		id = 254,
+		can_rotate = 0,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},

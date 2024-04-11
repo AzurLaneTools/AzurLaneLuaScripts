@@ -163,10 +163,10 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "story-richang-5",
+		default_bgm = "battle-deepecho",
 		special_bgm = "",
 		time = "",
-		bgm = "story-richang-5"
+		bgm = "battle-deepecho"
 	},
 	SkinShopScene = {
 		default_bgm = "main",
@@ -1432,5 +1432,41 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "story-battle-16bit-SFC"
+	},
+	MaoxiV3MainPage = {
+		default_bgm = "battle-deepecho",
+		special_bgm = "",
+		time = "",
+		bgm = "battle-deepecho"
+	},
+	MaoxiV3PtPage = {
+		default_bgm = "battle-deepecho",
+		special_bgm = "",
+		time = "",
+		bgm = "battle-deepecho"
+	},
+	LoginSignRe1Page = {
+		default_bgm = "battle-boss-deepecho",
+		special_bgm = "",
+		time = "",
+		bgm = "battle-boss-deepecho"
+	},
+	MaoxiV3FrameLightPage = {
+		default_bgm = "bgm-cccp2",
+		special_bgm = "",
+		time = "",
+		bgm = "bgm-cccp2"
+	},
+	VotingResulitAwardPage = {
+		default_bgm = "votefes-up",
+		special_bgm = "",
+		time = "",
+		bgm = "votefes-up"
+	},
+	LittleChaijunRePage = {
+		default_bgm = "bar-soft",
+		special_bgm = "",
+		time = "",
+		bgm = "bar-soft"
 	}
 }

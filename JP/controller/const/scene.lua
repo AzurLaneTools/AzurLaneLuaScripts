@@ -1065,6 +1065,15 @@ slot1 = {
 	end,
 	EducateMediator = function (slot0, slot1)
 		EducateHelper.ReqEducateDataCheck(slot1)
+	end,
+	CourtYardMediator = function (slot0, slot1)
+		if not pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "BackYardMediator") then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("word_systemClose"))
+
+			return
+		end
+
+		slot1()
 	end
 }
 

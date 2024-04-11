@@ -57,7 +57,7 @@ function slot0.LoadSpine(slot0, slot1, slot2, slot3, slot4)
 		uv0.spineRole:SetLocalScale(Vector3(0.4 * uv1, 0.4 * uv1, 1))
 		uv0:SetAction(uv0:GetAction())
 		existCall(uv2)
-	end)
+	end, nil, slot0.spineRole.ORBIT_KEY_SLG)
 end
 
 function slot0.UnloadSpine(slot0)

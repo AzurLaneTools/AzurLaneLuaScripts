@@ -228,7 +228,7 @@ pg.furniture_shop_template = {
 	[200004] = {
 		not_for_sale = 0,
 		gem_price = 100,
-		new = 1,
+		new = 0,
 		dorm_icon_price = 0,
 		id = 200004,
 		discount = 0,
@@ -236,9 +236,9 @@ pg.furniture_shop_template = {
 		time = {
 			{
 				{
-					2023,
-					9,
-					14
+					2024,
+					4,
+					11
 				},
 				{
 					0,
@@ -248,9 +248,9 @@ pg.furniture_shop_template = {
 			},
 			{
 				{
-					2023,
-					10,
-					4
+					2024,
+					4,
+					17
 				},
 				{
 					23,

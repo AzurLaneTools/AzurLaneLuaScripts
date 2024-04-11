@@ -177,27 +177,28 @@ end
 
 function slot0.UpdateInfo(slot0, slot1)
 	slot0:SetDefaultName()
+	setText(slot0.nameTitle, slot0:GetRollAttrInfoById(uv0.NAME_ID, slot1) .. "：")
 
-	slot2, slot3 = slot0:GetRollAttrInfoById(uv0.JOB_ID, slot1)
+	slot3, slot4 = slot0:GetRollAttrInfoById(uv0.JOB_ID, slot1)
 
-	setText(slot0.jobTitle, slot2 .. "：")
-	setText(slot0.jobValue, slot3)
+	setText(slot0.jobTitle, slot3 .. "：")
+	setText(slot0.jobValue, slot4)
 
-	slot4, slot5 = slot0:GetRollAttrInfoById(uv0.GUARDIAN_ID, slot1)
+	slot5, slot6 = slot0:GetRollAttrInfoById(uv0.GUARDIAN_ID, slot1)
 
-	setText(slot0.guardianTitle, slot4 .. "：")
-	setText(slot0.guardianValue, slot5)
+	setText(slot0.guardianTitle, slot5 .. "：")
+	setText(slot0.guardianValue, slot6)
 
-	slot6, slot7 = slot0:GetRollAttrInfoById(uv0.LV_ID, slot1)
+	slot7, slot8 = slot0:GetRollAttrInfoById(uv0.LV_ID, slot1)
 
-	setText(slot0.lvTitle, slot6 .. "：")
-	setText(slot0.lvValue, slot7)
-	setSlider(slot0.lvSlider, 0, 1, tonumber(slot7) / uv0.config[uv0.LV_ID].random_value[2])
+	setText(slot0.lvTitle, slot7 .. "：")
+	setText(slot0.lvValue, slot8)
+	setSlider(slot0.lvSlider, 0, 1, tonumber(slot8) / uv0.config[uv0.LV_ID].random_value[2])
 
 	if slot1 then
-		OtherworldMapScene.personalRandomData[uv0.JOB_ID] = slot3
-		OtherworldMapScene.personalRandomData[uv0.GUARDIAN_ID] = slot5
-		OtherworldMapScene.personalRandomData[uv0.LV_ID] = slot7
+		OtherworldMapScene.personalRandomData[uv0.JOB_ID] = slot4
+		OtherworldMapScene.personalRandomData[uv0.GUARDIAN_ID] = slot6
+		OtherworldMapScene.personalRandomData[uv0.LV_ID] = slot8
 	end
 end
 

@@ -20007,135 +20007,135 @@ pg.base.activity_ins_language = {
 		value = "――抵抗すれば重罪、自首するなら刑も軽くなる。怪盗め、早く出頭するがいい"
 	},
 	ins_457 = {
-		value = ""
+		value = "……イマドキのメイドってこんな感じなの！？"
 	},
 	ins_discuss_457_1 = {
-		value = ""
+		value = "ん…？あの本ってもしかして……"
 	},
 	ins_reply_457_1_1 = {
-		value = ""
+		value = "研究の方向性が変な方向に行ってませんか…？"
 	},
 	ins_reply_457_1_2 = {
-		value = ""
+		value = "ふふふ。こういうのが好きな「誰かさん」がいますからね"
 	},
 	ins_reply_457_1_3 = {
-		value = ""
+		value = "ヌビアン。その本を置いて今すぐに来てください"
 	},
 	ins_reply_457_1_4 = {
-		value = ""
+		value = "はいっ！メイド長！"
 	},
 	ins_discuss_457_2 = {
-		value = ""
+		value = "この雑誌どこかで見たような…"
 	},
 	ins_reply_457_2_1 = {
-		value = ""
+		value = "あ。『メイドの♡♥◯●199手』、熊野も持ってるよ"
 	},
 	ins_reply_457_2_2 = {
-		value = ""
+		value = "なるほどね！これが「やばい」ということね！"
 	},
 	ins_reply_457_2_3 = {
-		value = ""
+		value = "実際「やばい」ですね"
 	},
 	ins_reply_457_2_4 = {
-		value = ""
+		value = "え。……はい？！"
 	},
 	ins_op_457_1_1 = {
-		value = ""
+		value = "……どんな本だ…？"
 	},
 	op_reply_457_1_1 = {
-		value = ""
+		value = "イマドキのメイドの手引書？…たぶん"
 	},
 	ins_op_457_1_2 = {
-		value = ""
+		value = "これは…いい本だ……！"
 	},
 	op_reply_457_1_2 = {
-		value = ""
+		value = "本当か？あ、あとでちゃんと読み直す！"
 	},
 	ins_458 = {
-		value = ""
+		value = "新鮮な美味しさに、フレッシュスマイル！"
 	},
 	ins_discuss_458_1 = {
-		value = ""
+		value = "これは…フグの白子の刺身に…昆布出汁を入れたものですか？"
 	},
 	ins_reply_458_1_1 = {
-		value = ""
+		value = "美味しいうなぎゼリーだよ！"
 	},
 	ins_reply_458_1_2 = {
-		value = ""
+		value = "うなぎでそんな調理法があるのですね…"
 	},
 	ins_reply_458_1_3 = {
-		value = ""
+		value = "ロイヤルグルメ、スゴいでしょ？"
 	},
 	ins_discuss_458_2 = {
-		value = ""
+		value = "リヴァプールって料理上手ね！私も頑張らないと！"
 	},
 	ins_reply_458_2_1 = {
-		value = ""
+		value = "シリアスも頑張りませんと"
 	},
 	ins_reply_458_2_2 = {
-		value = ""
+		value = "チェシャーにも教えて教えて～♪"
 	},
 	ins_reply_458_2_3 = {
-		value = ""
+		value = "はぁい！今度は皆に作り方を教えるよ！"
 	},
 	ins_reply_458_2_4 = {
-		value = ""
+		value = "これは楽しみですね♪指揮官殿♪"
 	},
 	ins_op_458_1_1 = {
-		value = ""
+		value = "見た目が衝撃的だ…"
 	},
 	op_reply_458_1_1 = {
-		value = ""
+		value = "あはは、新しい創作料理だからね！"
 	},
 	ins_op_458_1_2 = {
-		value = ""
+		value = "うなぎは正義だ！"
 	},
 	op_reply_458_1_2 = {
-		value = ""
+		value = "そう！うなぎは正義だよ♪"
 	},
 	ins_459 = {
-		value = ""
+		value = "ムシが入ってきちゃった…どうしよう…＞＜"
 	},
 	ins_discuss_459_1 = {
-		value = ""
+		value = "ムシに強いメイドを呼んでくるね。@ShiningS"
 	},
 	ins_reply_459_1_1 = {
-		value = ""
+		value = "44と50、どっちの口径がご所望ですか？"
 	},
 	ins_reply_459_1_2 = {
-		value = ""
+		value = "いいえ。…別にそういうのは大丈夫ですが…"
 	},
 	ins_reply_459_1_3 = {
-		value = ""
+		value = "ムシに困ったら明石謹製ムシ除けスプレーにゃ！ワンプッシュで全滅にゃ！"
 	},
 	ins_discuss_459_2 = {
-		value = ""
+		value = "1匹見かけたら、部屋にはもっと……"
 	},
 	ins_reply_459_2_1 = {
-		value = ""
+		value = "これ以上言わないでくださいませ"
 	},
 	ins_reply_459_2_2 = {
-		value = ""
+		value = "母港のムシ対策キャンペーンをやったほうがいいですね"
 	},
 	ins_reply_459_2_3 = {
-		value = ""
+		value = "ムシ対策？大鳳も参加しますわ～"
 	},
 	ins_reply_459_2_4 = {
-		value = ""
+		value = "ふふふ、赤城も参加させてくださいませ♥"
 	},
 	ins_reply_459_2_5 = {
-		value = ""
+		value = "ムシに困ったら明石謹製ムシ除けスプレーにゃ！ワンプッシュで全滅にゃ！"
 	},
 	ins_op_459_1_1 = {
-		value = ""
+		value = "今助けるね"
 	},
 	op_reply_459_1_1 = {
-		value = ""
+		value = "オドオドモード、ON。もう床は踏めないよぉ……ベッドの上にいるから早く助けてぇ…"
 	},
 	ins_op_459_1_2 = {
-		value = ""
+		value = "今はどういうモード…？"
 	},
 	op_reply_459_1_2 = {
-		value = ""
+		value = "ムシの侵攻に困ってしまうオドオドモードでした"
 	}
 }
