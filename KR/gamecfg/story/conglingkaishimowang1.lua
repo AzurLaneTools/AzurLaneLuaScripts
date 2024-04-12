@@ -284,7 +284,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
-			say = "企划委员会成员……抚顺、{namecode:6:绫波}、{namecode:13:雷}、{namecode:14:电}、长岛、{namecode:531}、水星纪念、布里斯托尔、皇家财富号……",
+			say = "――기획 위원회 구성원은… 푸슌, 아야나미, 이카즈치, 이나즈마, 롱 아일랜드, 프리드리히 카를, 파먀티, 브리스톨, 로열 포춘…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
