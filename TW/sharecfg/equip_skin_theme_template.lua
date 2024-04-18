@@ -1049,7 +1049,10 @@ pg.equip_skin_theme_template = {
 		id = 199,
 		name = "其他",
 		ids = {
-			398
+			398,
+			3001,
+			3007,
+			3008
 		}
 	},
 	all = {

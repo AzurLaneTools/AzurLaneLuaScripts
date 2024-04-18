@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9704040,
-			say = "清理的很順利。不過……這些敵人雖然弱，但數量龐大。",
+			say = "清理得很順利。不過……這些敵人雖然弱，但數量龐大。",
 			painting = {
 				alpha = 0.3,
 				time = 1
