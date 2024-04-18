@@ -378,6 +378,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「以女王陛下之名，願祝福之光照耀世間——」</color>\n「湮燼塵埃」活動獲取",
 		scene = {}
 	},
+	[326] = {
+		time_limit_type = 0,
+		name = "無冕聖冠",
+		gain_by = "",
+		id = 326,
+		time_second = 0,
+		desc = "通過後續活動獲得",
+		scene = {}
+	},
 	[401] = {
 		time_limit_type = 0,
 		name = "殿堂紀念：企業",
@@ -529,6 +538,7 @@ pg.item_data_frame = {
 		322,
 		323,
 		324,
+		326,
 		401,
 		402,
 		414,

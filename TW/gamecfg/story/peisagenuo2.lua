@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"与你一起的风景\n\n<size=45>二　不错的风景</size>",
+					"與你一起的風景\n\n<size=45>二 不錯的風景</size>",
 					1
 				}
 			}
@@ -26,7 +26,7 @@ return {
 			actor = 601090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我们今天的工作已经完成了吗？",
+			say = "指揮官，我們今天的工作已經完成了嗎？",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "佩萨格诺将目光瞥向了一旁的望远镜。",
+			say = "佩薩格諾將目光瞥向了一旁的望遠鏡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			},
 			options = {
 				{
-					content = "请自便。",
+					content = "請自便。",
 					flag = 1
 				},
 				{
@@ -148,7 +148,7 @@ return {
 			actor = 601090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "太好了！谢谢你，指挥官。正好指挥官也来体验一下吧。",
+			say = "太好了！謝謝你，指揮官。 正好指揮官也來體驗一下吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			actor = 601090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎，怎么指挥官也盯着望远镜？",
+			say = "怎，怎麼指揮官也盯著望遠鏡？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			actor = 601090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官也对远方的景色感兴趣吗？太好了，我这就开始准备！",
+			say = "指揮官也對遠方的景色有興趣嗎？太好了，我這就開始準備！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "佩萨格诺热情高涨地架起了望远镜，我们开始用单筒望远镜欣赏远处的景色。",
+			say = "佩薩格諾熱情高漲地架起瞭望遠鏡，我們開始用單筒望遠鏡欣賞遠處的景色。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "难得指挥官愿意体验单筒望远镜，先等我将自动对焦的功能开启，我平常自己使用的时候都是手动对焦的——",
+			say = "難得指揮官願意體驗單筒望遠鏡，先等我將自動對焦的功能開啟，我平常自己使用的時候都是手動對焦的——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "好了，请指挥官慢慢欣赏吧。",
+			say = "好了，請指揮官慢慢欣賞。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			side = 2,
 			bgName = "bg_main_day",
 			hidePaintObj = true,
-			say = "将眼睛凑到镜头前，远方的景色瞬间映入眼帘。",
+			say = "將眼睛湊到鏡頭前，遠方的景色瞬間映入眼簾。",
 			effects = {
 				{
 					active = true,
@@ -282,7 +282,7 @@ return {
 			side = 2,
 			bgName = "bg_main_day",
 			hidePaintObj = true,
-			say = "蓝天、白云、繁忙的港口，与……一个鬼鬼祟祟的身影——阿尔弗雷多·奥里亚尼。",
+			say = "藍天、白雲、繁忙的港口，與……一個鬼鬼祟祟的身影——阿爾弗雷多·奧里亞尼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,20 +293,7 @@ return {
 			side = 2,
 			bgName = "bg_main_day",
 			hidePaintObj = true,
-			say = "她正躲在草丛里准备……偷拍散步的伊丽莎白？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			hideOther = true,
-			side = 2,
-			bgName = "bg_main_day",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
-			say = "怎么样，从指挥室就能看到港口吧？",
+			say = "她正躲在草叢裡準備……偷拍散步的伊莉莎白？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,19 +305,8 @@ return {
 			bgName = "bg_main_day",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
-			say = "指挥官感受到轻柔的海风了么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_main_day",
-			hidePaintObj = true,
-			say = "阿尔弗雷多的偷拍行为被发现了，发现她的人正是天狼星。",
+			actorName = "埃曼努埃爾·佩薩格諾",
+			say = "怎麼樣，從指揮室就能看到港口吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,8 +318,8 @@ return {
 			bgName = "bg_main_day",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
-			say = "指挥室的视野比较开阔，自从担任秘书舰后，我就一直想这么试试了。",
+			actorName = "埃曼努埃爾·佩薩格諾",
+			say = "指揮官感受到輕柔的海風了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,18 +330,7 @@ return {
 			side = 2,
 			bgName = "bg_main_day",
 			hidePaintObj = true,
-			say = "阿尔弗雷多正试图逃跑，不过退路遭到了谢菲尔德的封锁，形势危急！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_main_day",
-			hidePaintObj = true,
-			say = "看来阿尔弗雷多想搞个大新闻的计划泡汤了……",
+			say = "阿爾弗雷多的偷拍行為被發現了，發現她的人正是天狼星。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,8 +342,30 @@ return {
 			bgName = "bg_main_day",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
-			say = "指挥官？怎么不说话了？",
+			actorName = "埃曼努埃爾·佩薩格諾",
+			say = "指揮室的視野比較開闊，自從擔任秘書艦後，我就一直想這麼試試了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_main_day",
+			hidePaintObj = true,
+			say = "阿爾弗雷多正試圖逃跑，不過退路遭到了謝菲爾德的封鎖，情況危急！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_main_day",
+			hidePaintObj = true,
+			say = "看來阿爾弗雷多想搞個大新聞的計畫泡湯了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,8 +377,21 @@ return {
 			bgName = "bg_main_day",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "埃曼努埃尔·佩萨格诺",
-			say = "已经被望远镜中的风景迷住了么？",
+			actorName = "埃曼努埃爾·佩薩格諾",
+			say = "指揮官？怎麼不說話了？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			hideOther = true,
+			side = 2,
+			bgName = "bg_main_day",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			actorName = "埃曼努埃爾·佩薩格諾",
+			say = "已經被望遠鏡中的風景迷住了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			side = 2,
 			bgName = "bg_main_day",
 			hidePaintObj = true,
-			say = "嗯，某种意义上，确实是被独特的“风景”迷住了。",
+			say = "嗯，某種意義上，確實是被獨特的「風景」迷住了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			side = 2,
 			bgName = "bg_main_day",
 			hidePaintObj = true,
-			say = "有些遗憾地抬起头来，将观察窗口还给了佩萨格诺。",
+			say = "有些遺憾地抬起頭來，將觀察窗口還給了佩薩格諾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "佩萨格诺看到其中的“景色”，皱起了眉头。",
+			say = "佩薩格諾看到其中的“景色”，皺起了眉頭。",
 			effects = {
 				{
 					active = false,
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "那个是……阿尔弗雷多？正在被女仆队押送中？",
+			say = "那個是……阿爾弗雷多？正在被女僕隊押送中？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "……还对我伸出大拇指比了个耶……？",
+			say = "……還對我伸出大拇指比了個耶……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "……把我也当成偷拍的人了么！",
+			say = "……把我也當成偷拍的人了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "…………指挥官，你刚刚看到的原来是这样的景色么！",
+			say = "…………指揮官，你剛剛看到的原來是這樣的景色！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -569,7 +569,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "接下来的画面还是由我来调整吧。",
+			say = "接下來的畫面還是由我來調整吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -584,7 +584,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "佩萨格诺重新调整了望远镜的方向，静静地欣赏了起来。",
+			say = "佩薩格諾重新調整瞭望遠鏡的方向，靜靜地欣賞了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "嗯……就是这样的景色……真美啊。",
+			say = "嗯……就是這樣的景色……真美啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -613,14 +613,14 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "佩萨格诺已经完全沉浸在了风景之中，身体随着镜头微微摆动，脸上也绽放出灿烂的笑容。",
+			say = "佩薩格諾已經完全沉浸在了風景之中，身體隨著鏡頭微微擺動，臉上也綻放出燦爛的笑容。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "不如一起过去吧？",
+					content = "不如一起過去吧？",
 					flag = 1
 				}
 			}
@@ -632,7 +632,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真的吗？那就马上出发吧。",
+			say = "真的嗎？那就馬上出發吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -647,7 +647,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "看来在镜头之外，也出现了美丽的风景呢——",
+			say = "看來在鏡頭之外，也出現了美麗的風景呢——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

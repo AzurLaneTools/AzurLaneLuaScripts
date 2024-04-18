@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"与你一起的风景\n\n<size=45>一　望远镜少女</size>",
+					"與你一起的風景\n\n<size=45>一 望遠鏡少女</size>",
 					1
 				}
 			}
@@ -26,7 +26,7 @@ return {
 			actor = 601090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "埃曼努埃尔·佩萨格诺，前来报道。",
+			say = "埃曼努埃爾·佩薩格諾，前來報道。",
 			flashout = {
 				black = true,
 				dur = 1,
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "背着巨大单筒望远镜的少女出现在了办公室的门口。",
+			say = "背著巨大單筒望遠鏡的少女出現在了辦公室的門口。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "她便是从今天开始担任秘书舰的佩萨格诺。",
+			say = "她便是從今天開始擔任秘書艦的佩薩格諾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "指挥官早上好，我可以进来吗？",
+			say = "指揮官早上好，我可以進來嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "当然，请进。",
+			say = "當然，請進。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "佩萨格诺才刚抬起右脚，便径直僵在了半空中。",
+			say = "佩薩格諾才剛抬起右腳，便徑直僵在了半空中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "好悬……望远镜差点撞到门框上了。",
+			say = "好險……望遠鏡差點撞到門框了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "啊，这个！失礼了……",
+			say = "啊，這個！失禮了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "佩萨格诺略带狼狈的迅速退了出去，再进来的时候，她将单筒望远镜抱在怀里。",
+			say = "佩薩格諾略帶狼狽的迅速退了出去，再進來的時候，她將單筒望遠鏡抱在懷裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "她看上去有些紧张。",
+			say = "她看起來有些緊張。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,14 +206,14 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "而且……相较于佩萨格诺娇小的身材，这个巨大的望远镜，确实有些……过于特别。",
+			say = "而且……相較於佩薩格諾嬌小的身材，這巨大的望遠鏡，確實有些……過於特別。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "这单筒望远镜有什么特别之处吗？",
+					content = "這單筒望遠鏡有什麼特別之處嗎？",
 					flag = 1
 				}
 			}
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "嗯？指挥官对这个单筒望远镜感到在意么？",
+			say = "嗯？指揮官對這個單筒望遠鏡感到在意嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "虽然看起来是复古的单筒望远镜，但它实际上是特制的舰船辅助装备哦。",
+			say = "雖然看起來是復古的單筒望遠鏡，但它實際上是特製的艦船輔助裝備哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "能在航行和战斗中发挥重要作用，同时，作为望远镜它的性能也是非常优秀的。",
+			say = "能在航行和戰鬥中發揮重要作用，同時，作為望遠鏡它的性能也是非常優秀的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,7 +280,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "有了它，不管多远的景色都能一览无余、尽收眼底。",
+			say = "有了它，不管多遠的景色都能一覽無餘、盡收眼底。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "这样就能完全沉浸在优美的风景里了！",
+			say = "這樣就能完全沉浸在優美的風景裡了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,7 +316,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "啊，抱歉指挥官，我一味自顾自地说……",
+			say = "啊，抱歉指揮官，我一味自顧自地說……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			},
 			options = {
 				{
-					content = "真是个不错的望远镜。",
+					content = "真是個不錯的望遠鏡。",
 					flag = 1
 				}
 			}
@@ -337,7 +337,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "佩萨格诺没有刚才那么紧张了。",
+			say = "佩薩格諾沒有剛才那麼緊張了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "……谢谢你，指挥官。",
+			say = "……謝謝你，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "本来对于担任秘书舰一事，我还挺担心的。",
+			say = "本來對於擔任秘書艦一事，我還挺擔心的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +387,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "毕竟我收到过不擅长表达、不知道想什么、有点难相处……之类的评价。",
+			say = "畢竟我收到過不擅長表達、不知道想什麼、有點難相處……之類的評價。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "我很害怕指挥官也这么觉得，所以才会这么紧张。",
+			say = "我很害怕指揮官也這麼覺得，所以才會這麼緊張。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "不过现在已经不紧张了，因为指挥官也是对望远镜感兴趣的人！",
+			say = "不過現在已經不緊張了，因為指揮官也是對望遠鏡有興趣的人！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "重点在这里吗……",
+			say = "重點在這裡嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "达雷科说得没错，和指挥官在一起根本不需要担心呢。",
+			say = "達雷科說得沒錯，和指揮官在一起根本不需要擔心呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "要道谢的人是我才对，秘书舰的工作，加油哦。",
+			say = "要道謝的人是我才對，秘書艦的工作，加油哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "请指挥官放心把工作交给我吧。",
+			say = "請指揮官放心把工作交給我吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1

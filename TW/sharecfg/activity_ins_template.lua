@@ -10100,41 +10100,86 @@ pg.activity_ins_template = {
 	[380] = {
 		ship_group = 60306,
 		name = "Gorizia",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_380",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_380.png",
+		is_active = 0,
 		sculpture = "geliqiya",
 		id = 380,
 		group_id = 380,
 		order = 32,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2024,
+				3,
+				21
+			},
+			{
+				13,
+				30,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3505,
+			3508,
+			3510
+		}
 	},
 	[381] = {
 		ship_group = 60110,
 		name = "Attilio",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_381",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_381.png",
+		is_active = 0,
 		sculpture = "adiliao",
 		id = 381,
 		group_id = 381,
 		order = 32,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2024,
+				3,
+				22
+			},
+			{
+				10,
+				14,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3515,
+			3519,
+			3521
+		}
 	},
 	[382] = {
 		ship_group = 60507,
 		name = "Andrea",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_382",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_382.png",
+		is_active = 0,
 		sculpture = "andelieyaduoliya",
 		id = 382,
 		group_id = 382,
 		order = 32,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2024,
+				3,
+				23
+			},
+			{
+				7,
+				13,
+				0
+			}
+		},
+		npc_discuss_persist = {
+			3528,
+			3530,
+			3532
+		}
 	},
 	[418] = {
 		ship_group = 1100001,

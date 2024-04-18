@@ -9734,15 +9734,15 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "黎胥留、阿爾及利亞 建造追加！"
+	tip = "海因里希親王 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "可怖、聖女貞德、馬耶.布雷澤、沃克蘭、塔爾圖 建造追加！"
+	tip = "紐倫堡 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "無畏 建造追加！"
+	tip = "彼得‧史特拉塞、威悉、U-37 建造追加！"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
@@ -25255,4 +25255,20 @@ _G.pg.base.gametip.Announcements_News = {
 
 _G.pg.base.gametip.Announcements_Donotshow = {
 	tip = "今日不再顯示"
+}
+
+_G.pg.base.gametip.vote_2023_reward_word_1 = {
+	tip = "呼呼呼，讓模擬程式來發表感言也太無趣了，明明開幕的時候直接邀請我我也會來的~不過閉幕式也很不錯，我玩的很開心。 順便給你留了一份伴手禮，希望你喜歡喲♪"
+}
+
+_G.pg.base.gametip.vote_2023_reward_word_2 = {
+	tip = "這還真是……你明知道我的不安、我的猜忌、我的隱瞞和我的慾望，卻還是做出這樣的選擇了嗎。我明白了，指揮官，為了這份最初的感動，我願意讓時光的碎片來見證我們永恆的契約……"
+}
+
+_G.pg.base.gametip.vote_2023_reward_word_3 = {
+	tip = "這是……給我的獎盃嗎……謝謝，但比起獎杯，天城更想一直陪伴著主上呢。所以……那、那個，天城的鈴鐺送給主上！這樣的話，就算在天城不在主上身邊的時候，主上也能有天城的陪伴了！"
+}
+
+_G.pg.base.gametip.voting_page_reward = {
+	tip = "領取"
 }

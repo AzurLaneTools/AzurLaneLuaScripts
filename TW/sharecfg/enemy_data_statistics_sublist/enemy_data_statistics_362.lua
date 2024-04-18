@@ -770,7 +770,7 @@ pg.enemy_data_statistics_362 = {
 		buff_list = {
 			{
 				ID = 50510,
-				LV = 1
+				LV = 3
 			}
 		}
 	},

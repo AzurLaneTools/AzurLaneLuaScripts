@@ -8,6 +8,7 @@ slot0.GO_BACKYARD = "event go backyard"
 slot0.GO_LOTTERY = "event go lottery"
 slot0.EVENT_COLORING_ACHIEVE = "event coloring achieve"
 slot0.ON_TASK_SUBMIT = "event on task submit"
+slot0.ON_TASK_SUBMIT_ONESTEP = "event on task submit one step"
 slot0.ON_TASK_GO = "event on task go"
 slot0.OPEN_LAYER = "event OPEN_LAYER"
 slot0.CLOSE_LAYER = "event CLOSE_LAYER"
@@ -218,8 +219,13 @@ function slot0.register(slot0)
 	slot0:bind(uv0.EVENT_COLORING_ACHIEVE, function (slot0, slot1)
 		uv0:sendNotification(GAME.COLORING_ACHIEVE, slot1)
 	end)
-	slot0:bind(uv0.ON_TASK_SUBMIT, function (slot0, slot1)
-		uv0:sendNotification(GAME.SUBMIT_TASK, slot1.id)
+	slot0:bind(uv0.ON_TASK_SUBMIT, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.SUBMIT_TASK, slot1.id, slot2)
+	end)
+	slot0:bind(uv0.ON_TASK_SUBMIT_ONESTEP, function (slot0, slot1)
+		uv0:sendNotification(GAME.SUBMIT_TASK_ONESTEP, {
+			resultList = slot1
+		})
 	end)
 	slot0:bind(uv0.ON_TASK_GO, function (slot0, slot1)
 		uv0:sendNotification(GAME.TASK_GO, {

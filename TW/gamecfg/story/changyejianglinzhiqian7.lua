@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			soundeffect = "event:/ui/fengling",
-			say = "耳边，传来了风铃的声音。",
+			say = "耳邊，傳來了風鈴的聲音。",
 			seDelay = 1,
 			flashin = {
 				delay = 1,
@@ -34,7 +34,7 @@ return {
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
 			bgm = "bgm-waterwave",
-			say = "海浪阵阵。",
+			say = "海浪陣陣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "暗色的天空下，有着鲜明色彩的鸟居映入眼帘。",
+			say = "暗色的天空下，有著鮮明色彩的鳥居映入眼簾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "虚幻与真实的夹缝，连通梦境的休息间……",
+			say = "虛幻與真實的夾縫，連通夢境的休息間……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然直接进入梦境的情况更为常见。",
+			say = "雖然直接進入夢境的情況較為常見。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "偶尔也会来此中转一下呢……",
+			say = "偶爾也會來此中轉一下呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "涛声震天。狂风从两个对立方向袭来，裹挟着海浪彼此拍击着。",
+			say = "濤聲震天。狂風從兩個對立方向襲來，裹挾著海浪彼此拍擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "此为虚幻之境。因此时而平静，时而阴郁，时而狂躁。",
+			say = "此為虛幻之境。因此時而平靜，時而陰鬱，時而狂躁。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "如此这般……接下来多半不会是美梦了。",
+			say = "如此這般……接下來要多半不會是美夢了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "这是一处昏暗的房间。",
+			say = "這是一處昏暗的房間。",
 			bgm = "theme-starsea-core",
 			typewriter = {
 				speed = 0.05,
@@ -213,7 +213,7 @@ return {
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			oldPhoto = true,
-			say = "远方的书堆后，传来一个有些兴奋的声音。",
+			say = "遠方的書堆後，傳來一個有些興奮的聲音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……真的么？冠冕的位置找到了？！",
+			say = "……真的嗎？冠冕的位置找到了？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "……听从我命令的人不少，但真心帮助我的人寥寥。",
+			say = "……聽從我命令的人不少，但真心幫助我的人寥寥。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我就知道，还是你靠得住！",
+			say = "我就知道，還是妳靠得住！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "放心，既然已经知道了位置，那么我必将成功。",
+			say = "放心，既然已經知道了位置，那麼我必將成功。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "……嗯？铁血和皇家？",
+			say = "……嗯？鐵血和皇家？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "你在担心它们碍事么？",
+			say = "妳在擔心它們礙事嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……它们最近做事确实很过分。",
+			say = "嗯……它們最近做事確實很過分。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "区区{namecode:435}我还是不放在眼里的。",
+			say = "區區俾斯麥我還是不放在眼裡的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过伊丽莎白就有点麻烦了……",
+			say = "不過伊莉莎白就有點麻煩了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "你的担心有道理……我会想办法让她们不要碍事的。",
+			say = "妳的擔心有道理……我會想辦法讓她們不要礙事的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵……以创世纪<Genesis>11:1为起点，以11:9为终点。",
+			say = "呵呵…以創世紀<Genesis>11:1為起點，以11:9為終點。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……哈哈哈，我是不会忘记你提供的帮助的。",
+			say = "……哈哈哈，我是不會忘記妳提供的幫助的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "待我的愿望实现之时，你的愿望也必将实现——",
+			say = "待我的願望實現之時，妳的願望也必將實現——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -486,7 +486,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（不是自言自语，而是在通话么……）",
+			say = "（不是自言自語，而是在通話嗎……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -522,7 +522,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（房间的装潢是撒丁帝国风格的，错不了。）",
+			say = "（房間的裝潢是薩丁帝國風格的，錯不了。）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,7 +540,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "（这么说来这个声音……是撒丁帝国的马可波罗。）",
+			say = "（這麼說來這個聲音……是薩丁帝國的馬可波羅。）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,7 +558,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "（通讯器另一头的声音……听不清。）",
+			say = "（通訊器另一頭的聲音……聽不清楚。）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -577,7 +577,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（某处的马可波罗，正在跟某处的人聊天，是这样一个梦么。）",
+			say = "（某處的馬可波羅，正在跟某處的人聊天，是這樣一個夢嗎。）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -595,7 +595,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			side = 2,
-			say = "（沉闷，但并不狂躁……预兆与之似乎并不匹配。）",
+			say = "（沉悶，但並不狂躁……預兆與之似乎不相符。）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -614,7 +614,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（还是说此中另有玄机……）",
+			say = "（還是說此中另有玄機……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -630,7 +630,7 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "黑色的太阳，正静静燃烧着。",
+			say = "黑色的太陽，正靜靜燃燒著。",
 			soundeffect = "event:/ui/fengling",
 			effects = {
 				{
@@ -667,7 +667,7 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "发光却不发热，就像冰冷的黑洞。",
+			say = "發光卻不發熱，像冰冷的黑洞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,7 +682,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……此等景象，妾身在梦中也是第一次见。",
+			say = "……此等景象，妾身在夢中也是第一次見。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -720,7 +720,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "难道这就是那股狂躁的根源？",
+			say = "難道這就是那股狂躁的根源？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -736,7 +736,7 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "「——审判将至」",
+			say = "「——審判將至」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -751,7 +751,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……审判？",
+			say = "……審判？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -770,7 +770,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……审判是什么？",
+			say = "……審判是什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -786,7 +786,7 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "「——汝所见之物即将降临」",
+			say = "「——汝所見之物即將降臨」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -801,7 +801,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "妾身所见之物……",
+			say = "妾身所見之物……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -817,7 +817,7 @@ return {
 			bgName = "bg_roma_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "「——审判将至」",
+			say = "「——審判將至」",
 			effects = {
 				{
 					active = false,
@@ -852,7 +852,7 @@ return {
 			bgName = "bg_roma_6",
 			hidePaintObj = true,
 			oldPhoto = true,
-			say = "「——祂将降临」",
+			say = "「——祂將降臨」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -865,11 +865,11 @@ return {
 			soundeffect = "event:/ui/fengling",
 			sequence = {
 				{
-					"距离博览会闭幕式",
+					"距離博覽會閉幕式",
 					1
 				},
 				{
-					"尚有十小时",
+					"尚有十小時",
 					2
 				}
 			},

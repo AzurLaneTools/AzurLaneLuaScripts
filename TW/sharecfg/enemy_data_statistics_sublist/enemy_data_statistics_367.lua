@@ -526,10 +526,6 @@ pg.enemy_data_statistics_367 = {
 		id = 900064,
 		antisub = 0,
 		fog_fx = "",
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
 		buff_list = {
 			{
 				ID = 600130,
@@ -568,10 +564,6 @@ pg.enemy_data_statistics_367 = {
 		id = 900065,
 		antisub = 0,
 		fog_fx = "",
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
 		buff_list = {
 			{
 				ID = 600130,
@@ -610,10 +602,6 @@ pg.enemy_data_statistics_367 = {
 		id = 900066,
 		antisub = 0,
 		fog_fx = "",
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
 		buff_list = {
 			{
 				ID = 600130,

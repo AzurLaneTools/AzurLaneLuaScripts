@@ -4200,41 +4200,15 @@ pg.activity_template = {
 	},
 	[4744] = {
 		mark = 20240403,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 26,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
 		config_data = "activity_drop_4744",
+		title_res_tag = "",
 		id = 4744,
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					4,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 3,
 			bg = "loadingbg/bg_build_3_act",
@@ -4250,40 +4224,14 @@ pg.activity_template = {
 	},
 	[4745] = {
 		mark = 20240403,
-		id = 4745,
 		title_res_tag = "fuxu_pt",
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 4745,
 		is_show = 41,
+		id = 4745,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					4,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "FuxuPtPage",
 			ui_name = "FuxuPtPage"
@@ -4294,7 +4242,7 @@ pg.activity_template = {
 	},
 	[4746] = {
 		mark = 20240403,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 16,
 		login_pop = 0,
@@ -4302,75 +4250,23 @@ pg.activity_template = {
 		is_show = 0,
 		config_data = "100",
 		config_client = "",
-		id = 4746,
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					4,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		title_res_tag = "",
+		id = 4746
 	},
 	[4747] = {
 		mark = 20240403,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 4747,
 		config_data = {
 			1580001,
 			1580002,
 			1580003
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					4,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10"
@@ -4378,12 +4274,13 @@ pg.activity_template = {
 	},
 	[4748] = {
 		mark = 20240403,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 4748,
 		config_data = {
@@ -4393,33 +4290,6 @@ pg.activity_template = {
 			18429,
 			18430,
 			18431
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					4,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[4770] = {
@@ -6259,6 +6129,226 @@ pg.activity_template = {
 			ui_name = "JamaicaSkinRePage"
 		}
 	},
+	[4948] = {
+		mark = 20240418,
+		config_client = "",
+		title_res_tag = "sading_frame",
+		type = 87,
+		login_pop = 0,
+		config_id = 11,
+		is_show = 43,
+		id = 4948,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					4,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SaDingFramePage",
+			ui_name = "SaDingFramePage"
+		}
+	},
+	[4949] = {
+		mark = 20240418,
+		title_res_tag = "",
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 25,
+		is_show = 0,
+		config_client = "",
+		id = 4949,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					4,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4950] = {
+		mark = 20240418,
+		id = 4950,
+		title_res_tag = "Georgia_catchup",
+		type = 69,
+		login_pop = 0,
+		config_id = 22,
+		is_show = 40,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					4,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AugustTecCatchupPage",
+			ui_name = "AugustTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42034
+		}
+	},
+	[4951] = {
+		mark = 20240418,
+		id = 4951,
+		title_res_tag = "expo_ticket",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 42,
+		config_data = {
+			{
+				19011,
+				19012
+			},
+			{
+				19013,
+				19014
+			},
+			{
+				19015,
+				19016
+			},
+			{
+				19017,
+				19018
+			},
+			{
+				19019,
+				19020
+			},
+			{
+				19021,
+				19022
+			},
+			{
+				19023,
+				19024
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					4,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ExpoTicketTaskPage",
+			ui_name = "ExpoTicketTaskPage"
+		},
+		config_client = {
+			story = {
+				{
+					"CHANGYEJIANGLINZHIQIAN1"
+				},
+				{
+					"CHANGYEJIANGLINZHIQIAN2"
+				},
+				{
+					"CHANGYEJIANGLINZHIQIAN3"
+				},
+				{
+					"CHANGYEJIANGLINZHIQIAN4"
+				},
+				{
+					"CHANGYEJIANGLINZHIQIAN5"
+				},
+				{
+					"CHANGYEJIANGLINZHIQIAN6"
+				},
+				{
+					"CHANGYEJIANGLINZHIQIAN7"
+				}
+			}
+		}
+	},
 	[4971] = {
 		mark = 20240411,
 		config_client = "",
@@ -7694,6 +7784,52 @@ pg.activity_template = {
 			subView = "AprilFoolKinBurinSubView",
 			lastChapter = 1360005
 		}
+	},
+	[5295] = {
+		mark = 20240418,
+		id = 5295,
+		title_res_tag = "votingaward",
+		type = 86,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 49,
+		config_data = {
+			19920,
+			19921,
+			19922
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					4,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "VotingResulitAwardPage",
+			ui_name = "VotingResulitAwardPage"
+		},
+		config_client = {}
 	},
 	[8009] = {
 		mark = 20220414,
@@ -44154,6 +44290,10 @@ pg.activity_template = {
 		4945,
 		4946,
 		4947,
+		4948,
+		4949,
+		4950,
+		4951,
 		4971,
 		4972,
 		5017,
@@ -44186,6 +44326,7 @@ pg.activity_template = {
 		5202,
 		5266,
 		5267,
+		5295,
 		8009,
 		8010,
 		8019,

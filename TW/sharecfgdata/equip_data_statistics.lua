@@ -19151,6 +19151,129 @@ _G.pg.base.equip_data_statistics[3931] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[3960] = {
+	type = 10,
+	name = "博覽會紀念票",
+	speciality = "<[NA]>",
+	tech = 0,
+	value_2 = 1,
+	ammo = 10,
+	nationality = 6,
+	descrip = "歡迎來到博覽會閉幕式，祝您能度過美好的一天！",
+	rarity = 4,
+	attribute_1 = "durability",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 3960,
+	icon = "3960",
+	value_1 = "150",
+	attribute_2 = "speed",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60410
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"RN",
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[3961] = {
+	id = 3961,
+	value_1 = "180",
+	base = 3960,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3962] = {
+	id = 3962,
+	value_1 = "210",
+	base = 3960,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3963] = {
+	id = 3963,
+	value_1 = "240",
+	base = 3960,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3964] = {
+	id = 3964,
+	value_2 = 2,
+	value_1 = "270",
+	base = 3960,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3965] = {
+	id = 3965,
+	value_2 = 2,
+	value_1 = "300",
+	base = 3960,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3966] = {
+	id = 3966,
+	value_2 = 2,
+	value_1 = "330",
+	base = 3960,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3967] = {
+	id = 3967,
+	value_2 = 3,
+	value_1 = "360",
+	base = 3960,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3968] = {
+	id = 3968,
+	value_2 = 3,
+	value_1 = "390",
+	base = 3960,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3969] = {
+	id = 3969,
+	value_2 = 3,
+	value_1 = "420",
+	base = 3960,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3970] = {
+	id = 3970,
+	value_2 = 3,
+	value_1 = "450",
+	base = 3960,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[3971] = {
+	value_2 = 3,
+	anti_siren = 100,
+	base = 3960,
+	id = 3971,
+	value_1 = "475",
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[3980] = {
 	type = 10,
 	name = "對抗模擬指令",

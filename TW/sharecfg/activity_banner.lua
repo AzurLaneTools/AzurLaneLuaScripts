@@ -35,13 +35,38 @@ pg.activity_banner = {
 	{
 		id = 2,
 		pic = "temp5",
-		time = "stop",
 		type = 2,
 		param = {
 			"scene equip",
 			{
 				designPage = 2,
 				warp = "WARP_TO_DESIGN"
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					4,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
@@ -157,36 +182,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4745",
-		time = "stop",
-		type = 2,
+		param = "4950",
 		id = 6,
-		pic = "temp4"
-	},
-	{
-		param = "5267",
-		time = "stop",
+		pic = "temp4",
 		type = 3,
-		id = 7,
-		pic = "temp15"
-	},
-	{
-		id = 8,
-		pic = "temp13",
-		type = 2,
-		param = {
-			"scene level",
-			{
-				open_remaster = true,
-				isSP = false
-			}
-		},
 		time = {
 			{
 				{
 					2024,
 					4,
-					11
+					18
 				},
 				{
 					0,
@@ -197,8 +202,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					4,
-					25
+					5,
+					15
 				},
 				{
 					23,
@@ -209,8 +214,8 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5017",
-		id = 9,
+		param = "4948",
+		id = 7,
 		pic = "temp1",
 		type = 3,
 		time = {
@@ -218,7 +223,7 @@ pg.activity_banner = {
 				{
 					2024,
 					4,
-					3
+					18
 				},
 				{
 					0,
@@ -229,8 +234,53 @@ pg.activity_banner = {
 			{
 				{
 					2024,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		id = 8,
+		pic = "temp13",
+		time = "stop",
+		type = 2,
+		param = {
+			"scene level",
+			{
+				open_remaster = true,
+				isSP = false
+			}
+		}
+	},
+	{
+		param = "4951",
+		id = 9,
+		pic = "temp15",
+		type = 3,
+		time = {
+			{
+				{
+					2024,
 					4,
-					17
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					15
 				},
 				{
 					23,
@@ -787,6 +837,7 @@ pg.activity_banner = {
 	get_id_list_by_type = {
 		[3] = {
 			1,
+			6,
 			7,
 			9,
 			10,
@@ -798,7 +849,6 @@ pg.activity_banner = {
 			3,
 			4,
 			5,
-			6,
 			8,
 			12,
 			13,

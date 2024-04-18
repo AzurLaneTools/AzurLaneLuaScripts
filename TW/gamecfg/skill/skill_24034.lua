@@ -7,7 +7,7 @@ return {
 				target_choise = "TargetNil",
 				targetAniEffect = "",
 				arg_list = {
-					weapon_id = 170292,
+					weapon_id = 74032,
 					emitter = "BattleBulletEmitter"
 				}
 			}
@@ -17,7 +17,7 @@ return {
 	name = "全弹发射",
 	cd = 0,
 	painting = 1,
-	id = 24034,
+	id = 24032,
 	picture = "0",
 	desc = "全弹发射",
 	aniEffect = {
@@ -35,7 +35,7 @@ return {
 			target_choise = "TargetNil",
 			targetAniEffect = "",
 			arg_list = {
-				weapon_id = 170292,
+				weapon_id = 74032,
 				emitter = "BattleBulletEmitter"
 			}
 		}

@@ -12,11 +12,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"东欧罗巴平原",
+					"東歐羅巴平原",
 					1
 				},
 				{
-					"装甲列车「司晨女神」",
+					"裝甲列車「司晨女神」",
 					2
 				},
 				{
@@ -39,7 +39,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "列车规律的颠簸让{namecode:529:苏维埃同盟}有些困倦。",
+			say = "列車規律的顛簸讓蘇維埃聯盟有些困倦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "不知不觉中，{namecode:529:苏维埃同盟}的意识远去了。",
+			say = "不知不覺中，蘇維埃聯盟的意識遠去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgmDelay = 1,
-			say = "黑色的太阳，正静静燃烧着。",
+			say = "黑色的太陽，正靜靜燃燒著。",
 			bgm = "theme-vichy-church",
 			typewriter = {
 				speed = 0.05,
@@ -102,7 +102,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900218,
-			say = "我记得……我正在列车上看文件。",
+			say = "我記得……我正在列車上看文件。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900218,
-			say = "因为有些疲倦，所以眯了一会。",
+			say = "因為有些疲倦，所以瞇了一下。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这么说来……这是梦？",
+			say = "這麼說來……這是夢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
-			say = "无人回应{namecode:529:苏维埃同盟}的自言自语，只有黑色的太阳在无声地燃烧着。",
+			say = "無人回應蘇維埃聯盟的自言自語，只有黑色的太陽在無聲地燃燒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900218,
-			say = "……燃烧得很剧烈，但没有感受到丝毫炎热。",
+			say = "……燃燒得很劇烈，但沒有感受到絲毫炎熱。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "反而让人觉得有些冰冷……",
+			say = "反而讓人覺得有些冰冷……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900218,
-			say = "这幅景象究竟是……",
+			say = "這幅景象究竟是……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,12 +215,12 @@ return {
 			side = 2,
 			actorShadow = true,
 			bgName = "bg_firedust_5",
-			actorName = "█ █ █ █ █",
+			actorName = "█ █ ████",
 			dir = 1,
 			actor = 900220,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "▇▆▅■▎▃▌█▆▎▇█▎■▄▆▋▂▁▅▎▌█▊▇▊▇",
+			say = "▇▆▅■▎▃▌█▆▎▇█▎■▄▆▋▂ ▅▎▌█▊▇▊▇",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900218,
-			say = "罗西亚同志……？",
+			say = "俄羅斯同志……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,12 +252,12 @@ return {
 			side = 2,
 			actorShadow = true,
 			bgName = "bg_firedust_5",
-			actorName = "█ █ █ █ █",
+			actorName = "█ █ ████",
 			dir = 1,
 			actor = 900220,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "▅▁▂▋▄▊■▆▎▅▁▂▋▄▊■▆▎▇▆▅■",
+			say = "▅ ▂▋▄▊■▆▎▅ ▂▋▄▊■▆▎▇▆▅■",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "抱歉，我听不清你说的话，请再说一遍。",
+			say = "抱歉，我聽不清楚妳說的話，請再說一次。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			actorShadow = true,
 			bgName = "bg_firedust_5",
-			actorName = "█ █ █ █ █",
+			actorName = "█ █ ████",
 			dir = 1,
 			actor = 900220,
 			nameColor = "#BDBDBD",
@@ -343,7 +343,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "在列车的减速声中，{namecode:529:苏维埃同盟}睁开了双眼。",
+			say = "在列車的減速聲中，蘇維埃聯盟睜開了雙眼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "燃烧的黑日，与言语不清的罗西亚，真是奇怪的梦……",
+			say = "燃燒的黑日，與言語不清的俄羅斯，真是奇怪的夢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900218,
-			say = "难道是因为日有所思，所以“夜”有所梦么……",
+			say = "難道是因為日有所思，所以「夜」有所夢嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900218,
-			say = "唉，还是专心处理掉眼前的事，早日结束早日返回吧。",
+			say = "唉，還是專心處理掉眼前的事，早日結束早日返回吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "{namecode:529:苏维埃同盟}整理起手边的文件，进行下车前的准备。",
+			say = "蘇維埃聯盟整理起手邊的文件，進行下車前的準備。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "此刻，极地风暴行动正在有序进行。",
+			say = "此刻，極地風暴行動正在有序進行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "原本{namecode:529:苏维埃同盟}也应该坐镇中枢指挥。",
+			say = "原本蘇維埃聯盟也應該坐鎮中樞指揮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "不过，因为收到了秘密合作方克莱蒙梭想要尽快获取计划舰「香槟」的联络。",
+			say = "不過，因為收到了秘密合作方克里蒙梭想要盡快取得計畫艦「香檳」的聯絡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "而黑海造船厂的技术部门给出的反馈则是——「香槟」计划遇到了一些状况，进度有延后风险。",
+			say = "而黑海造船廠的技術部門給予的回應則是——「香檳」計畫遇到了一些狀況，進度有延後風險。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "所以{namecode:529:苏维埃同盟}不得不离开指挥中心，来到黑海造船厂来处理一下这边的问题。",
+			say = "所以蘇維埃聯盟只好來離開指揮中心，前往黑海造船廠處理這邊的問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "每一艘计划舰都是独一无二的，可不是什么轻松就能量产的奇迹……",
+			say = "每一艘計劃艦都是獨一無二，可不是什麼輕鬆就能量產的奇蹟……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,11 +487,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "列车广播系统",
+			actorName = "列車廣播系統",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:529:苏维埃同盟}同志，列车已到站。",
+			say = "蘇維埃聯盟同志，列車已到站。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,11 +499,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "列车广播系统",
+			actorName = "列車廣播系統",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "下车前请检查随身携带的机密文件。安全局的喀琅施塔得同志正在等待您。",
+			say = "下車前請檢查隨身攜帶的機密文件。安全局的喀琅施塔得同志正在等待您。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 900218,
-			say = "算了……车到山前必有路，走一步看一步吧。",
+			say = "算了……車到山前必有路，走一步看一步。",
 			painting = {
 				alpha = 0.3,
 				time = 1

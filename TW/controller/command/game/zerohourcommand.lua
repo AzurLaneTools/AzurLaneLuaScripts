@@ -285,7 +285,7 @@ function slot0.mainHandler(slot0, slot1)
 
 	slot34:RequestRandomDailyTask()
 	(function ()
-		if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSSINGLE) and not slot0:isEnd() then
+		if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSSINGLE) or slot0:isEnd() then
 			return
 		end
 
@@ -295,7 +295,7 @@ function slot0.mainHandler(slot0, slot1)
 		getProxy(ActivityProxy):updateActivity(slot0)
 	end)()
 	(function ()
-		if not uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_EVENT_SINGLE) and not slot0:isEnd() then
+		if not uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_EVENT_SINGLE) or slot0:isEnd() then
 			return
 		end
 

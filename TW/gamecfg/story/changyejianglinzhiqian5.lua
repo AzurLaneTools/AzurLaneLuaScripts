@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 1,
-			say = "NA海域·安全航线",
+			say = "NA海域·安全航線",
 			bgm = "blueocean-image",
 			flashout = {
 				black = true,
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "自从构建者被击败后，NA海域中的情况正在一天天好转。",
+			say = "自從構建者被擊敗後，NA海域中的情況正在一天天好轉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "随着能够让一般船只在护航下跨越大洋的安全航线的设立，大洋上变得重新繁忙起来。",
+			say = "隨著能夠讓一般船隻在護航下跨越大洋的安全航線的設立，大洋上變得重新繁忙起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "不过很遗憾，NA海域上空还没有安全到能让客运飞机自由通行的程度。",
+			say = "不過很遺憾，NA海域上空還沒有安全到能讓客運飛機自由通行的程度。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "此刻，船团正沿着一条安全航线向着目标撒丁帝国前进。",
+			say = "此刻，船團正沿著一條安全航線朝著目標薩丁帝國前進。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "风和日丽，海况平稳，是一个适合旅行的好天气啊~",
+			say = "風和日麗，海況平穩，是個適合旅行的好天氣啊~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "时间过得真快，不知不觉就连开了半年多的博览会也要接近尾声了……",
+			say = "時間過得真快，不知不覺就連開了半年多的博覽會也要接近尾聲了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "之前咱们没赶上开幕式，这次在闭幕式期间一定要好好放松一下~",
+			say = "之前我們沒趕上開幕式，這次在閉幕式期間一定要好好放鬆一下~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "你说是不是啊————指挥官！",
+			say = "你說是不是啊————指揮官！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "海伦娜，把指挥官手里的文件没收掉！",
+			say = "海倫娜，把指揮官手上的文件沒收掉！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "这次是放假，要严格限制每日工作时间才是！",
+			say = "這次是放假，要嚴格限制每日工作時間才是！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……在假期里限制工作时间，本来就很奇怪。",
+			say = "……在假期裡限制工作時間，本來就很奇怪。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "那你跟指挥官说，放假时间别工作了好不好，你看看能得到什么回复。",
+			say = "那妳跟指揮官說，放假時間別工作了好不好，妳看看能得到什麼回應。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，放假时间别工作了好不好。",
+			say = "指揮官，放假時間別工作好不好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "有些困难……",
+					content = "有點困難……",
 					flag = 2
 				}
 			}
@@ -267,7 +267,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "但是，我不找工作，工作就不会来找我么。",
+			say = "但是，我不找工作，工作就不會來找我嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "毕竟就算不主动找工作，工作消息还是会源源不断发过来。",
+			say = "畢竟就算不主動找工作，工作訊息還是會源源不絕發過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "你看吧，所以就只能采用这种折中方案了。",
+			say = "妳看吧，所以就只能採用這種折衷方案了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……好像确实是这样，指挥官辛苦了。",
+			say = "……好像確實是這樣，指揮官辛苦了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -340,7 +340,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "诸位好久不见，这里是白鹰驻NA海域舰队旗舰{namecode:199}！",
+			say = "諸位好久不見，這裡是白鷹駐NA海域艦隊旗艦紐澤西！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "接下来，诸位在NA海域中的旅途将由我带领舰队全程护航。",
+			say = "接下來，諸位在NA海域中的旅程將由我帶領艦隊全程護送。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们什么都不用担心，好好享受休假之旅就可以了~",
+			say = "你們什麼都不用擔心，好好享受休假之旅就好了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "好久不见，{namecode:199}。",
+			say = "好久不見，紐澤西。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "重回NA海域还习惯么？",
+			say = "重回NA海域還習慣嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "实话实说，不习惯！",
+			say = "說實話，不習慣！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "无聊……现在这里实在是太无聊了。",
+			say = "無聊……這裡實在太無聊了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -454,7 +454,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "听我说啊，Honey——",
+			say = "聽我說啊，Honey——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -472,7 +472,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "咳……公共频道。",
+			say = "咳……公共頻道。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……听我说啊，指挥官，真是今非昔比！",
+			say = "……聽我說啊，指揮官！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -509,7 +509,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "现在NA海域这里，我已经连续十天，连一艘塞壬量产型都没看到了！",
+			say = "在NA海域這裡，我已經連續十天，連一艘塞壬量產型都沒看到了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -527,7 +527,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "整整连续十天啊！",
+			say = "整整連續十天啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -545,7 +545,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "自从构建者被消灭后，以往怎么打都总能冒出来的塞壬真的开始永久性减少了！",
+			say = "自從構建者被消滅後，以往怎麼打都總能冒出來的塞壬真的開始永久性減少了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -560,7 +560,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "……怎么听上去像在哀叹某种生物种群的消亡一样。",
+			say = "……怎麼聽起來像在哀嘆某種生物族群的消亡一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "差不多就是这种感觉啊！",
+			say = "差不多就是這種感覺啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "我现在每天的工作就是看报告，巡逻，然后对着大海发呆……",
+			say = "我現在每天的工作就是看報告，巡邏，然後對著大海發呆……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还是帕克菲克洋那边有意思……早知道就不跟企业换了！",
+			say = "還是太平洋那邊有意思……早知道就不跟企業換了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -629,7 +629,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "{namecode:199}，别忘了，没有敌人的大海才是我们为之战斗的目标哦。",
+			say = "紐澤西，別忘了，沒有敵人的大海才是我們為之戰鬥的目標哦",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -646,7 +646,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在这样的和平才是正确的，才是我们的大海应该有的状态。",
+			say = "現在這樣的和平才是正確的，才是我們的大海該有的狀態。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -663,7 +663,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "况且，NA海域也没有真的平静到无事可做的程度吧？",
+			say = "況且，NA海域也沒有真的平靜到無事可做的程度吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -681,7 +681,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "之前袭击皇家舰队的那次事件，塞壬出动的舰队规模可是非同一般，袭击者的来源和所属查清楚了么？",
+			say = "先前襲擊皇家艦隊的那次事件，塞壬出動的艦隊規模可是非同一般，襲擊者的來源和所屬查清楚了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -699,7 +699,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "不愧是孟菲斯……一下子就直击问题的关键点。",
+			say = "不愧是曼非斯……一下子就直擊問題的關鍵點。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -718,7 +718,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没有，毫无头绪！",
+			say = "沒有，毫無頭緒！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -736,7 +736,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "毕竟它们真的就突袭了这么一次！",
+			say = "畢竟它們真的突襲了這麼一次！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -755,7 +755,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就是因为要防范“第二次袭击”，我才要留在这反复巡查啊……",
+			say = "就是因為要防範「第二次攻擊」，我才要留在這反復巡邏啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -773,7 +773,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "唉……希望它们赶紧再来一次，然后追根溯源，把它们一网打尽！",
+			say = "唉……希望它們趕緊再來一次，然後追根溯源，把它們一網打盡！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -788,7 +788,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "…………看来太过悠闲，也有太过悠闲的烦恼。",
+			say = "…………看來太過悠閒，也有太過悠閒的煩惱。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -796,7 +796,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -815,7 +815,7 @@ return {
 			actor = 205050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "皇家海军驻NA海域旗舰乔治五世，向诸位问好。",
+			say = "皇家海軍駐NA海域旗艦喬治五世，向諸位問好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -833,7 +833,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205050,
-			say = "欢迎来到NA海域，指挥官。",
+			say = "歡迎來到NA海域，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -851,7 +851,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205050,
-			say = "本次在您的舰队航行期间，皇家海军也会为您全程护航，请您放心。",
+			say = "本次您的艦隊在行駛期間，皇家海軍也會為您全程護航，請您放心。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -862,7 +862,7 @@ return {
 			},
 			options = {
 				{
-					content = "非常感谢，辛苦了。",
+					content = "非常感謝，辛苦了。",
 					flag = 1
 				}
 			}
@@ -876,7 +876,7 @@ return {
 			actor = 205050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不用客气，这是皇家海军应该做的。",
+			say = "不用客氣，這是皇家海軍該做的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -895,7 +895,7 @@ return {
 			actor = 205050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "同时，陛下还有话托我转告您。",
+			say = "同時，陛下還有話託我轉告您。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -914,7 +914,7 @@ return {
 			actor = 205050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "陛下说，在闭幕式结束之后，皇家馆虽然会对外关闭，但不会立刻拆除。",
+			say = "陛下說，在閉幕式結束之後，皇家館雖然會對外關閉，但不會立刻拆除。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -931,7 +931,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "她已经为您预留了包场参观的时间，希望您在方便的时候去看看。",
+			say = "她已經為您預留了包場參觀的時間，希望您在方便的時候去看看。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -946,7 +946,7 @@ return {
 			actor = 205050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "同时，陛下因为公务原因无法前往闭幕式，她托我向您表达遗憾之情。",
+			say = "同時，陛下因為公務原因無法前往閉幕式，她託我向您表達遺憾之情。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -963,7 +963,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "不过会场皇家的相关事宜已经全权委托给光辉女士了，指挥官如果有需要直接去找她就好。",
+			say = "不過會場皇家的相關事宜已經全權委託給光輝女士了，指揮官如果有需要直接去找她就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -975,7 +975,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "有些意外，没想到伊丽莎白错过了开幕式，现在连闭幕式也赶不上。",
+			say = "有些意外，沒想到伊莉莎白錯過了開幕式，現在連閉幕式也趕不上去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -987,7 +987,7 @@ return {
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "还以为她一定会来凑这个热闹呢。",
+			say = "還以為她一定會來湊這個熱鬧呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1000,7 +1000,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "陛下也非常遗憾，她一直都非常想来，还做了不少盛大的登场准备……",
+			say = "陛下也非常遺憾，她一直都非常想來，還做了不少盛大的登場準備……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1015,7 +1015,7 @@ return {
 			actor = 205050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不论如何，陛下祝您在博览会闭幕式上度过一段愉快的时光。",
+			say = "不論如何，陛下陛下祝您在博覽會閉幕式上玩的愉快。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1034,7 +1034,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我也是，我也是！祝指挥官能享受一个美好的假期！",
+			say = "我也是，我也是！祝指揮官能享受一個美好的假期！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1049,7 +1049,7 @@ return {
 			side = 2,
 			bgName = "bg_unnamearea_1",
 			hidePaintObj = true,
-			say = "两位都太夸张了……非常感谢。",
+			say = "兩位都太誇張了……非常感謝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1064,7 +1064,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哪里夸张了？你还记得上一次休假是在什么时候么？！",
+			say = "哪裡誇張了？你還記得上一次休假是在什麼時候嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1082,7 +1082,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "对了~我记得陆间海里塞壬袭击事件还是时有发生对吧？",
+			say = "對了~我記得地中海裡塞壬襲擊事件還是時有發生對吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1100,7 +1100,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 105170,
-			say = "那可比NA海域这边危险多了！",
+			say = "那可比NA海域裡危險多了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1119,7 +1119,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "安全起见，要不我干脆一路护送诸位前往会场如何？",
+			say = "安全起見，要不我乾脆一路護送諸位前往會場如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1138,7 +1138,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样就能确保绝对安全了！",
+			say = "這樣就能確保絕對安全了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1156,7 +1156,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "……咳，请某些人不要明目张胆的进行玩忽职守发言。",
+			say = "……咳，請某些人不要明目張膽的進行玩忽職守的發言。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1175,7 +1175,7 @@ return {
 			actor = 205050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请不必担心，{namecode:199}女士。",
+			say = "請不必擔心，紐澤西女士。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1192,7 +1192,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "进入直布罗陀海峡后，西陆间海的护航将由厌战负责，之后中陆间海直到会场的护航将由光辉负责。",
+			say = "進入直布羅陀海峽後，西地中海的護航將由厭戰負責，之後中地中海直到會場的護航將由光輝負責。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1207,7 +1207,7 @@ return {
 			actor = 205050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "皇家海军会确保指挥官在陆间海期间的安全的。",
+			say = "皇家海軍會確保指揮官在地中海期間的安全的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1225,7 +1225,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "况且埃塞克斯和其他人也在，某人就放弃偷懒的想法，好好在NA海域执勤吧~",
+			say = "況且艾塞克斯和其他人也在，某人就放棄偷懶的想法，好好在NA海域執勤吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1

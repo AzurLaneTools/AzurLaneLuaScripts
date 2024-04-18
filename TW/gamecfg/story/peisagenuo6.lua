@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"与你一起的风景\n\n<size=45>六　人气专栏作家</size>",
+					"與你一起的風景\n\n<size=45>六 人氣專欄作家</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 1,
-			say = "一周后的指挥室，午休时间。",
+			say = "一週後的指揮室，午休時間。",
 			bgm = "story-richang-3",
 			flashout = {
 				black = true,
@@ -55,7 +55,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "呼——看来达芬奇没有给望远镜增加奇怪的功能。",
+			say = "呼——看來達文西沒有為望遠鏡增加奇怪的功能。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "佩萨格诺仔细地检查了达芬奇修好的望远镜后，松了一口气。",
+			say = "佩薩格諾仔細檢查了達文西修好的望遠鏡後，鬆了一口氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "之后要好好感谢达芬奇呢，这个望远镜对我真的很重要。",
+			say = "之後要好好感謝達文西呢，這台望遠鏡對我真的很重要。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "砰——指挥室的大门被人用力地推开。",
+			say = "砰——指揮室的大門被用力地推開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "佩萨格诺！佩萨格诺在吗！",
+			say = "佩薩格諾！佩薩格諾在嗎！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "阿尔弗雷多，下次开门的时候请先敲门",
+			say = "阿爾弗雷多，下次開門的時候請先敲門",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "还有……请小声点，现在是午休时间。",
+			say = "還有……請小聲點，現在是午休時間。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哎呀，这不是太高兴了，想第一时间把好消息告诉你嘛！",
+			say = "哎呀，這不是太高興了，想第一時間把好消息告訴妳嘛！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼哼~我跟佩萨格诺合作的专栏，收到了大量的好评哦！",
+			say = "哼哼哼~我跟佩薩格諾合作的專欄，收到了大量的好評！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "合作专栏又是指……？",
+			say = "合作專欄又是指……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……嗯？当然是指佩萨格诺和我一起做的风景介绍专栏啊？",
+			say = "……嗯？當然是指佩薩格諾和我一起做的風景介紹專欄啊？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "因为佩萨格诺的风景介绍内容详实，沉浸感非常强，让读者们能有身临其境般的感受……",
+			say = "因為佩薩格諾的風景介紹內容詳實，沉浸感非常強，讓讀者們能有身臨其境般的感受……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "只是第一期，就已经成为大热门啦，嘿嘿~",
+			say = "只是第一期，就已經成為大熱門啦，嘿嘿~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "当然，也有我推广的功劳~《震惊！你绝对不知道的港区七大秘境》。",
+			say = "當然，也有我推廣的功勞~《震驚！你絕對不知道的港區七大祕境》。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "佩萨格诺，你居然没把这么重大的消息告诉指挥官么？！",
+			say = "佩薩格諾，妳居然沒把這麼重大的消息告訴指揮官麼？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "还没……来得及。",
+			say = "還沒……來得及。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "给，这是新的专栏稿，你拿上就快点走吧。",
+			say = "給妳，這是新的專欄稿，妳拿了就快點走吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,7 +391,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "噢~~！仿佛看到了新的销量纪录正在向我招手！",
+			say = "噢~~！彷彿看到了新的銷售紀錄正在向我招手！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "嘿嘿，嘿嘿嘿……感觉自从当了秘书舰之后，你是不是稍微有了点变化？",
+			say = "嘿嘿，嘿嘿嘿……感覺自從當了秘書艦之後，妳是不是稍微有了點變化？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟我可从来没想过会有你来主动找我合作的一天！",
+			say = "畢竟我從來沒想過會有妳來主動找我合作的一天！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且效果还会这么好……！",
+			say = "而且效果還會這麼好……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "哦对了，我这次还带来了读者来信哦！",
+			say = "喔對了，我這次還帶來了讀者來信喔！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601080,
-			say = "读者来信！佩萨格诺，我们的专栏居然有读者来信了！！",
+			say = "讀者來信！佩薩格諾，我們的專欄居然有讀者來信了！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -496,7 +496,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有一封“致望远镜小姐”，一看就是写给你的。",
+			say = "有一封「致望遠鏡小姐」，一看就是寫給妳的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "好好好……知道了。放在这里吧，我之后会看的。",
+			say = "好好好……知道了。 放在這裡吧，我之後會看的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -532,7 +532,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "你拿了稿子就快去忙你的事吧，外面还有大新闻在等着你呢。",
+			say = "妳拿了稿子就快去忙妳的事吧，外面還有大新聞在等著妳呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,7 +549,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "别、别推我啊——",
+			say = "別、別推我啊——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -566,7 +566,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那指挥官，我就先走了！等第二期做好之后我会第一时间送过来哦——",
+			say = "那指揮官，我就先走了！等第二期做好之後我會第一時間送過來喔——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -599,7 +599,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "佩萨格诺红着脸将阿尔弗雷多推出了指挥室。",
+			say = "佩薩格諾紅著臉將阿爾弗雷多推出了指揮室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			actor = 601090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼——阿尔弗雷多话太多了。",
+			say = "呼——阿爾弗雷多話太多了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -643,11 +643,11 @@ return {
 			},
 			options = {
 				{
-					content = "为什么瞒着我",
+					content = "為什麼瞞著我",
 					flag = 1
 				},
 				{
-					content = "稍微有些伤心",
+					content = "稍微有些傷心",
 					flag = 2
 				}
 			}
@@ -661,7 +661,7 @@ return {
 			actor = 601090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，这其中有很深的缘由，请听我解释。",
+			say = "啊，這其中有很深的緣由，請聽我解釋。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -680,7 +680,7 @@ return {
 			actor = 601090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎，怎么这么突然，指挥官？难道是因为我不告诉你专栏的事情？",
+			say = "怎，怎麼這麼突然，指揮官？難道是因為我不告訴你專欄的事情？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -698,7 +698,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "指挥官的话，没必要去看专栏……因为……",
+			say = "指揮官的話，沒必要去看專欄……因為……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -716,7 +716,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "指挥官……就在我身边不是么……",
+			say = "指揮官……就在我身邊不是嗎…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -734,7 +734,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "我会在你耳边……说给你听的……",
+			say = "我會在你耳邊……說給你聽的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -749,7 +749,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "说出这些话语，就仿佛用尽了佩萨格诺全部的勇气。",
+			say = "說出這些話語，就彷彿用盡了佩薩格諾全部的勇氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,7 +760,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "佩萨格诺涨红着脸，回到自己的座位上装作无事发生。",
+			say = "佩薩格諾漲紅著臉，回到自己的座位裝作無事發生。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -771,7 +771,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "但……接下来，是继续工作的氛围么……？",
+			say = "但……接下來，是繼續工作的氣氛嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

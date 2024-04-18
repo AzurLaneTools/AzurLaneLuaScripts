@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"与你一起的风景\n\n<size=45>七　景色真美</size>",
+					"與你一起的風景\n\n<size=45>七 景色真美</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			bgmDelay = 1,
-			say = "数日后，在佩萨格诺“郑重”的邀请下……",
+			say = "數日後，在佩薩格諾「鄭重」的邀請下…",
 			bgm = "story-richang-8",
 			flashout = {
 				black = true,
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "bg_map_maliyana",
 			hidePaintObj = true,
-			say = "与她来到郊外，再次登上了那座此前留下遗憾的山。",
+			say = "與她來到郊外，再次登上了那座先前留下遺憾的山。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "请稍等一下哦，指挥官，望远镜还需要再调整一下。",
+			say = "請等一下哦，指揮官，望遠鏡還需要再調整一下。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			bgName = "bg_map_maliyana",
 			hidePaintObj = true,
-			say = "佩萨格诺正在认真地目测远景，同时细致地调整望远镜，还顺便在笔记上记录几笔。",
+			say = "佩薩格諾正在認真地目測遠景，同時細緻地調整望遠鏡，還順便在筆記上紀錄幾筆。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			bgName = "bg_map_maliyana",
 			hidePaintObj = true,
-			say = "现在的佩萨格诺依旧喜欢用望远镜观看远处的风景，但同时……",
+			say = "現在的佩薩格諾依舊喜歡用望遠鏡觀看遠處的風景，但同時……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			bgName = "bg_map_maliyana",
 			hidePaintObj = true,
-			say = "她也能欣赏到身边的风景了。",
+			say = "她也能欣賞到身邊的風景了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			side = 2,
 			bgName = "bg_map_maliyana",
 			hidePaintObj = true,
-			say = "而且无论远近，她都会努力将所见的风景表达出来……用她自己的方式。",
+			say = "而且無論遠近，她都會努力將所見的風景表達出來……用她自己的方式。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "……很好，我这边已经调整完毕了。",
+			say = "……很好，我這邊已經調整完畢了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "……指挥官，你又在笑什么？",
+			say = "……指揮官，你又在笑什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "很期待今天的风景",
+					content = "很期待今天的風景",
 					flag = 2
 				}
 			}
@@ -174,7 +174,7 @@ return {
 			actor = 601090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎，怎么突然鼓掌？",
+			say = "怎，怎麼突然鼓掌？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			dir = 1,
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
-			say = "我是不是应该说……谢谢？",
+			say = "我是不是應該說……謝謝？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			bgName = "bg_map_maliyana",
 			hidePaintObj = true,
-			say = "像是做出了某种重大决定般，佩萨格诺深吸了一口气。",
+			say = "像是做出了某種重大決定般，佩薩格諾深深吸了一口氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			bgName = "bg_map_maliyana",
 			hidePaintObj = true,
-			say = "然后她低着头绕到我的背后，用双手将我轻轻推到架设好的望远镜前。",
+			say = "然後她低著頭繞到我的背後，用雙手將我輕輕推到架設好的望遠鏡前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "瞭望的目光应该落在远处，但也不应该忽视身边的事物。",
+			say = "瞭望的目光應該落在遠處，但也不應該忽略身邊的事物。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,43 +286,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "谢谢你，指挥官，让我认识到了这一点。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_map_maliyana",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 601090,
-			say = "欣赏到了更多曾被忽略的美丽景色……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "bg_map_maliyana",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 601090,
-			say = "现在轮到我的回合了。",
+			say = "謝謝你，指揮官，讓我認清了這一點。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,24 +304,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "镜头……已经设置完毕，请指挥官好好欣赏那边的风景吧。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 601090,
-			side = 2,
-			bgName = "bg_map_maliyana",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "还有……",
+			say = "欣賞了更多曾經被忽略的美麗景色……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +322,42 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "我之前答应过你，会在耳边为你描述风景……",
+			say = "現在輪到我的回合了。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_map_maliyana",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 601090,
+			say = "鏡頭……已經設定完畢，請指揮官好好欣賞那邊的風景吧。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 601090,
+			side = 2,
+			bgName = "bg_map_maliyana",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "還有…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +375,25 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "……我也已经准备好了。",
+			say = "我之前答應過你，會在耳邊為你描述風景……",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "bg_map_maliyana",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 601090,
+			say = "……我也已經準備好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,7 +408,7 @@ return {
 			side = 2,
 			bgName = "bg_map_maliyana",
 			hidePaintObj = true,
-			say = "这么说着，佩萨格诺轻轻地靠了过来……",
+			say = "這麼說著，佩薩格諾輕輕地靠了過來……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601090,
-			say = "指挥官，除了远方的景色之外，你也不要忘了身边的风景哦~",
+			say = "指揮官，除了遠方的景色之外，你也不要忘了身邊的風景哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1

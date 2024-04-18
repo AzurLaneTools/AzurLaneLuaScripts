@@ -21,8 +21,6 @@ slot0.MAIN_TAB_GAMETIP = {
 }
 slot0.TITLE_IMAGE_HEIGHT_DEFAULT = 231
 slot0.TITLE_IMAGE_HEIGHT_FULL = 734
-slot0.BULLETIN_BOARD_MAIN_TAB_CACHE = "BulletinBoardMainTabCache"
-slot0.BULLETIN_BOARD_SUB_TAB_CACHE = "BulletinBoardSubTabCache"
 
 function slot0.getUIName(slot0)
 	return "NewBulletinBoardUI"
@@ -119,19 +117,41 @@ function slot0.updateRed(slot0)
 	end
 end
 
+function slot0.checkNotice(slot0, slot1)
+	return slot1.type and slot1.type > 0 and slot1.type < 4 and (slot1.paramType == nil or slot1.paramType == 1 and type(slot1.param) == "string" or slot1.paramType == 2 and type(slot1.param) == "table" or slot1.paramType == 3 and type(slot1.param) == "number")
+end
+
 function slot0.initNotices(slot0, slot1)
 	slot0.defaultMainTab = slot0.contextData.defaultMainTab
 	slot0.defaultSubTab = slot0.contextData.defaultSubTab
 
 	for slot5, slot6 in pairs(slot1) do
-		Clone(slot6).link = string.match(slot6.titleImage, "<config.*/>") and string.match(slot7, "link%s*=%s*([^%s]+)") or nil
-		slot9.titleImage = slot7 and string.gsub(slot9.titleImage, slot7, "") or slot9.titleImage
+		slot8 = Clone(slot6)
+		slot9 = string.match(slot6.titleImage, "<config.*/>") and string.match(slot7, "link%s*=%s*([^%s]+)") or nil
+		slot11 = nil
 
-		warning(slot6.titleImage, slot9.titleImage)
+		if slot7 and tonumber(string.match(slot7, "type%s*=%s*(%d+)")) or nil then
+			if slot10 == 1 then
+				slot11 = string.match(slot7, "param%s*=%s*'(.*)'")
+			elseif slot10 == 2 then
+				if string.match(slot7, "param%s*=(.*)/>") then
+					slot11 = ParseTable(slot11) or slot11
+				end
+			elseif slot10 == 3 then
+				slot11 = string.match(slot7, "param%s*=%s*(%d+)") and (tonumber(slot11) or slot11)
+			end
+		end
 
-		if slot9.type and slot9.type > 0 and slot9.type < 4 then
-			table.insert(slot0._noticeDic[slot9.type], slot9)
-			table.insert(slot0._redDic[slot9.type], PlayerPrefs.HasKey(slot9.code))
+		slot8.param = slot11
+		slot8.link = slot9
+		slot8.paramType = slot10
+		slot8.titleImage = slot7 and string.gsub(slot8.titleImage, slot7, "") or slot8.titleImage
+
+		if slot0:checkNotice(slot8) then
+			table.insert(slot0._noticeDic[slot8.type], slot8)
+			table.insert(slot0._redDic[slot8.type], PlayerPrefs.HasKey(slot8.code))
+		else
+			Debugger.LogWarning("公告配置错误  id = " .. slot8.id)
 		end
 	end
 
@@ -231,6 +251,7 @@ function slot0.setNotices(slot0, slot1)
 	slot0.defaultSubTab = slot0.defaultSubTab or 1
 
 	triggerToggle(slot0._subTabList[slot0.defaultSubTab], true)
+	BulletinBoardMgr.Inst:ClearCache(slot0.noticeKeys, slot0.noticeVersions)
 end
 
 function slot0.setImage(slot0, slot1, slot2, slot3, slot4)
@@ -243,7 +264,7 @@ function slot0.setImage(slot0, slot1, slot2, slot3, slot4)
 	slot7 = BulletinBoardMgr.Inst
 
 	slot7:GetSprite(slot1, slot2, slot3, UnityEngine.Events.UnityAction_UnityEngine_Sprite(function (slot0)
-		if uv0 == nil or uv0._loadingFlag == nil then
+		if uv0._loadingFlag == nil then
 			return
 		end
 
@@ -283,7 +304,7 @@ function slot0.setNoticeDetail(slot0, slot1)
 	slot0:clearLeanTween()
 	slot0:clearContent()
 
-	if slot1.link then
+	if slot1.paramType or slot1.link then
 		setActive(slot0._detailTitle, false)
 		setActive(slot0._detailLine, false)
 		setActive(slot0._contentContainer, false)
@@ -292,24 +313,45 @@ function slot0.setNoticeDetail(slot0, slot1)
 
 		slot0:setImage(slot1.id, slot1.version, slot1.titleImage, slot0._detailTitleImg)
 		onButton(slot0, slot0._detailTitleImg, function ()
-			if uv0.link == "activity" then
-				uv1:emit(NewBulletinBoardMediator.GO_SCENE, SCENE.ACTIVITY)
-			elseif uv0.link == "build" then
-				uv1:emit(NewBulletinBoardMediator.GO_SCENE, SCENE.GETBOAT)
-			elseif uv0.link == "furniture" then
-				uv1:emit(NewBulletinBoardMediator.ON_BACKYARD_SHOP)
-			elseif uv0.link == "skin" then
-				uv1:emit(NewBulletinBoardMediator.GO_SCENE, SCENE.SKINSHOP)
-			elseif uv0.link == "shop" then
-				uv1:emit(NewBulletinBoardMediator.GO_SCENE, SCENE.SHOP)
-			elseif uv0.link == "dewenjun" then
-				uv1:emit(NewBulletinBoardMediator.GO_SCENE, SCENE.OTHERWORLD_MAP, {
-					openTerminal = true,
-					terminalPage = OtherworldTerminalLayer.PAGE_ADVENTURE
-				})
-			else
-				Application.OpenURL(uv0.link)
-				uv1:emit(NewBulletinBoardMediator.TRACK_OPEN_URL, uv0.track)
+			if uv0.link then
+				if uv0.link == "activity" then
+					uv1:emit(NewBulletinBoardMediator.GO_SCENE, SCENE.ACTIVITY)
+				elseif uv0.link == "build" then
+					uv1:emit(NewBulletinBoardMediator.GO_SCENE, SCENE.GETBOAT)
+				elseif uv0.link == "furniture" then
+					uv1:emit(NewBulletinBoardMediator.GO_SCENE, SCENE.COURTYARD, {
+						OpenShop = true
+					})
+				elseif uv0.link == "skin" then
+					uv1:emit(NewBulletinBoardMediator.GO_SCENE, SCENE.SKINSHOP)
+				elseif uv0.link == "shop" then
+					uv1:emit(NewBulletinBoardMediator.GO_SCENE, SCENE.SHOP)
+				elseif uv0.link == "dewenjun" then
+					uv1:emit(NewBulletinBoardMediator.GO_SCENE, SCENE.OTHERWORLD_MAP, {
+						openTerminal = true,
+						terminalPage = OtherworldTerminalLayer.PAGE_ADVENTURE
+					})
+				else
+					Application.OpenURL(uv0.link)
+					uv1:emit(NewBulletinBoardMediator.TRACK_OPEN_URL, uv0.track)
+				end
+			end
+
+			if uv0.paramType then
+				if uv0.paramType == 1 then
+					Application.OpenURL(uv0.param)
+					uv1:emit(NewBulletinBoardMediator.TRACK_OPEN_URL, uv0.track)
+				elseif uv0.paramType == 2 then
+					if #uv0.param < 2 then
+						uv1:emit(NewBulletinBoardMediator.GO_SCENE, uv0.param[1])
+					else
+						uv1:emit(NewBulletinBoardMediator.GO_SCENE, uv0.param[1], uv0.param[2])
+					end
+				elseif uv0.paramType == 3 then
+					uv1:emit(NewBulletinBoardMediator.GO_SCENE, SCENE.ACTIVITY, {
+						id = uv0.param
+					})
+				end
 			end
 
 			uv1.contextData.defaultMainTab = uv1.currentMainTab
@@ -423,7 +465,6 @@ end
 
 function slot0.willExit(slot0)
 	slot0:clearLoadingPic()
-	BulletinBoardMgr.Inst:ClearCache(slot0.noticeKeys, slot0.noticeVersions)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
 

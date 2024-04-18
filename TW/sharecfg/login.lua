@@ -362,7 +362,7 @@ pg.login = {
 	[49] = {
 		id = 49,
 		login_static = "login_0401",
-		op_play = 1,
+		op_play = 0,
 		op_time = "",
 		login_cri = "",
 		bgm = "votefes-start",
@@ -396,8 +396,9 @@ pg.login = {
 	},
 	[51] = {
 		id = 51,
-		op_play = 1,
 		login_static = "login_0401",
+		op_play = 0,
+		op_time = "",
 		login_cri = "",
 		bgm = "login-20240401us",
 		date = {
@@ -419,32 +420,6 @@ pg.login = {
 					2024,
 					4,
 					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		op_time = {
-			{
-				{
-					2024,
-					3,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					11
 				},
 				{
 					23,

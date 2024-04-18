@@ -125,7 +125,7 @@ return {
 			}
 		},
 		{
-			expression = 4,
+			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			actor = 202260,
