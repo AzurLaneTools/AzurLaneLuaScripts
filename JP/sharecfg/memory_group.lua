@@ -188,6 +188,7 @@ pg.memory_group = setmetatable({
 		280,
 		281,
 		282,
+		283,
 		501,
 		502,
 		503,
@@ -282,6 +283,7 @@ pg.memory_group = setmetatable({
 		594,
 		595,
 		596,
+		597,
 		1000,
 		1001,
 		1002
@@ -4463,6 +4465,23 @@ pg.base.memory_group = {
 			3473
 		}
 	},
+	[283] = {
+		id = 283,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 5305,
+		title = "彼岸のレドレント",
+		memories = {
+			3491,
+			3492,
+			3493,
+			3494,
+			3495,
+			3496,
+			3497
+		}
+	},
 	[501] = {
 		id = 501,
 		subtype = 0,
@@ -6072,6 +6091,23 @@ pg.base.memory_group = {
 			3425,
 			3426,
 			3427
+		}
+	},
+	[597] = {
+		id = 597,
+		subtype = 0,
+		icon = "title_chara_xiafei",
+		type = 3,
+		link_event = 0,
+		title = "天使とのランデブー",
+		memories = {
+			3481,
+			3482,
+			3483,
+			3484,
+			3485,
+			3486,
+			3487
 		}
 	},
 	[1000] = {

@@ -294,6 +294,16 @@ function slot0.GetShips(slot0)
 	return slot1
 end
 
+function slot0.AnyShipExistIntimacyOrMoney(slot0)
+	for slot5, slot6 in pairs(slot0:GetShips()) do
+		if slot6.state_info_3 > 0 or slot6.state_info_4 > 0 then
+			return true
+		end
+	end
+
+	return false
+end
+
 function slot0.GetThemeList(slot0, slot1)
 	return slot0.themes
 end

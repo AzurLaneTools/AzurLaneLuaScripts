@@ -13,8 +13,12 @@ slot0.CLOSE_ADD_EXP = "CourtYardMediator:CLOSE_ADD_EXP"
 slot0.UN_LOCK_2FLOOR = "CourtYardMediator:UN_LOCK_2FLOOR"
 slot0.GO_THEME_TEMPLATE = "CourtYardMediator:GO_THEME_TEMPLATE"
 slot0.ON_ADD_VISITOR_SHIP = "CourtYardMediator:ON_ADD_VISITOR_SHIP"
+slot0.ONE_KEY = "CourtYardMediator:ONE_KEY"
 
 function slot0.register(slot0)
+	slot0:bind(uv0.ONE_KEY, function (slot0)
+		uv0:sendNotification(GAME.BACKYARD_ONE_KEY)
+	end)
 	slot0:bind(uv0.ON_ADD_VISITOR_SHIP, function (slot0)
 		function slot1(slot0)
 			if slot0 then
@@ -118,6 +122,7 @@ function slot0.listNotificationInterests(slot0)
 		GAME.EXTEND_BACKYARD_AREA_DONE,
 		GAME.BACKYARD_ADD_MONEY_DONE,
 		GAME.BACKYARD_ADD_INTIMACY_DONE,
+		GAME.BACKYARD_ONE_KEY_DONE,
 		GAME.BACKYARD_SHIP_EXP_ADDED,
 		GAME.OPEN_BACKYARD_SHOP,
 		GAME.EXIT_SHIP_DONE,
@@ -215,6 +220,11 @@ function slot0.handleCourtyardNotification(slot0, slot1, slot2, slot3)
 		end
 	elseif slot1 == GAME.BACKYARD_ADD_INTIMACY_DONE then
 		_courtyard:GetController():ClearShipIntimacy(slot2.id)
+	elseif slot1 == GAME.BACKYARD_ONE_KEY_DONE then
+		for slot7, slot8 in ipairs(slot2.shipIds) do
+			_courtyard:GetController():ClearShipCoin(slot8)
+			_courtyard:GetController():ClearShipIntimacy(slot8)
+		end
 	elseif slot1 == GAME.EXTEND_BACKYARD_AREA_DONE then
 		_courtyard:GetController():LevelUp()
 	elseif slot1 == DormProxy.INIMACY_AND_MONEY_ADD then
