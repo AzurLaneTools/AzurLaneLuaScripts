@@ -131,6 +131,21 @@ function slot0.addInimacyAndMoney(slot0, slot1, slot2, slot3)
 		intimacy = slot2,
 		money = slot3
 	})
+	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_SHIP)
+end
+
+function slot0.clearInimacyAndMoney(slot0, slot1)
+	if not getProxy(BayProxy):getShipById(slot1) then
+		return
+	end
+
+	slot3:addLikability(slot3.state_info_3)
+	getProxy(PlayerProxy):getRawData():addResources({
+		dormMoney = slot3.state_info_4
+	})
+	slot3:updateStateInfo34(0, 0)
+	slot2:updateShip(slot3)
+	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_SHIP)
 end
 
 function slot0.isLackOfFood(slot0)
