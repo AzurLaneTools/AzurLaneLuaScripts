@@ -92,6 +92,7 @@ function slot0.UpdateCard(slot0, slot1, slot2)
 
 	if slot2:isChargeType() then
 		slot3 = {
+			isFree = false,
 			name = slot2:getConfig("name_display"),
 			price = slot2:getConfig("money"),
 			count = slot2:GetLimitDesc(),
@@ -112,6 +113,7 @@ function slot0.UpdateCard(slot0, slot1, slot2)
 	else
 		slot4 = Item.getConfigData(slot2:getConfig("effect_args")[1])
 		slot3 = {
+			isFree = true,
 			name = slot4.name,
 			price = slot2:getConfig("resource_num"),
 			count = slot2:GetLimitDesc(),
@@ -132,22 +134,27 @@ function slot0.UpdateCard(slot0, slot1, slot2)
 	end
 
 	setText(slot1:Find("name/Text"), slot3.name)
-	setText(slot1:Find("price"), GetMoneySymbol() .. slot3.price)
+
+	slot4 = slot3.isFree
+
+	if not tonumber(slot3.price) then
+		setText(slot1:Find("price"), slot3.price)
+	else
+		setText(slot1:Find("price"), GetMoneySymbol() .. slot3.price)
+	end
+
 	setText(slot1:Find("count"), slot3.count)
 	setText(slot1:Find("desc"), slot3.desc)
 	setText(slot1:Find("free"), slot3.free)
 	setText(slot1:Find("purchased"), slot3.purchased)
 	setActive(slot1:Find("mask_lock"), not slot2:inTime())
 
-	slot5 = slot2:canPurchase()
+	slot6 = slot2:canPurchase()
 
-	setActive(slot1:Find("mask_purchased"), not slot5)
-	setActive(slot1:Find("purchased"), not slot5)
-
-	slot6 = tonumber(slot3.price) <= 0
-
-	setActive(slot1:Find("free"), slot5 and slot6)
-	setActive(slot1:Find("price"), slot5 and not slot6)
+	setActive(slot1:Find("mask_purchased"), not slot6)
+	setActive(slot1:Find("purchased"), not slot6)
+	setActive(slot1:Find("free"), slot6 and slot4)
+	setActive(slot1:Find("price"), slot6 and not slot4)
 	GetImageSpriteFromAtlasAsync(slot3.icon, "", slot1:Find("icon/Image"), true)
 	GetImageSpriteFromAtlasAsync("chargeTag", uv0(slot2:getConfig("tag")), slot1:Find("icon/tag"), true)
 	UIItemList.StaticAlign(slot1:Find("awards"), slot1:Find("awards/award"), #slot3.items, function (slot0, slot1, slot2)
@@ -160,7 +167,7 @@ function slot0.UpdateCard(slot0, slot1, slot2)
 	end)
 
 	if slot1:Find("tip") then
-		setActive(slot7, slot4 and slot5)
+		setActive(slot7, slot5 and slot6)
 	end
 
 	slot9 = pg.TimeMgr.GetInstance()

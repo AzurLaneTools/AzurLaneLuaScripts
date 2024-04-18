@@ -322,6 +322,7 @@ pg.skill_data_template = setmetatable({
 		60520,
 		60530,
 		60540,
+		60550,
 		7000,
 		9010,
 		9020,
@@ -2171,6 +2172,7 @@ pg.skill_data_template = setmetatable({
 		1010750,
 		1012940,
 		1005080,
+		1013000,
 		1090010,
 		1090020,
 		1090030,
@@ -2194,7 +2196,8 @@ pg.skill_data_template = setmetatable({
 		1090210,
 		1090220,
 		1090230,
-		1090240
+		1090240,
+		1090250
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -11992,6 +11995,20 @@ pg.base.skill_data_template = {
 		type = 0,
 		max_level = 0,
 		desc = "Grants a strange power during battle.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60550] = {
+		desc_get = "",
+		name = "Echoes of Relinquished Time",
+		id = 60550,
+		type = 0,
+		max_level = 0,
+		desc = "When equipped to Akagi: increases this ship's DMG dealt by 12.0%; the first time this ship launches an airstrike during battle: increases her Detection Gauge value by an additional 50; 45 seconds after the battle starts, this ship loses 300 HP, and her Detection Gauge value will be reset to 0.",
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -140520,6 +140537,148 @@ When this ship's Main or Secondary Gun hits an enemy: $1 chance to increase this
 			}
 		}
 	},
+	[1013000] = {
+		desc_get = "",
+		name = "Cavalier of the Ether+",
+		id = 1013000,
+		type = 1,
+		max_level = 10,
+		desc = "Once guaranteed 3s after the battle starts, and with a $1 chance every 15s: fires a $2 improved special barrage (DMG is based on the skill's level) that inflicts the Cavalier's Fire and Ice ailment to enemies hit for 6s. When a ship in your Vanguard hits an enemy with this ailment, her DMG dealt is increased by $3.",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"5.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.6%"
+				},
+				{
+					"6.6%",
+					"+1.6%"
+				},
+				{
+					"8.2%",
+					"+1.8%"
+				},
+				{
+					"10.0%",
+					"+1.6%"
+				},
+				{
+					"11.6%",
+					"+1.6%"
+				},
+				{
+					"13.2%",
+					"+1.8%"
+				},
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.8%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
 	[1090010] = {
 		desc_get = "",
 		name = "Fleet Carrier - Glorious",
@@ -143460,6 +143619,103 @@ When this ship's Main or Secondary Gun hits an enemy: $1 chance to increase this
 				},
 				{
 					"8.0%"
+				}
+			}
+		}
+	},
+	[1090250] = {
+		desc_get = "",
+		name = "Torpedo Command - Comet",
+		id = 1090250,
+		type = 3,
+		max_level = 10,
+		desc = "Increases all your DDs' TRP by $1 (does not stack with the skill \"Torpedo Command\"). When this ship fires her Main Guns: fires a $2 special barrage (DMG is based on the skill's level and this ship's TRP stat).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5%",
+				"15%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
 				}
 			}
 		}

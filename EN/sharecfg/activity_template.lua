@@ -177,7 +177,7 @@ pg.activity_template = {
 		}
 	},
 	[40] = {
-		mark = 20231117,
+		mark = 20240418,
 		time = "stop",
 		page_info = "",
 		type = 0,
@@ -12912,6 +12912,7 @@ pg.activity_template = {
 			}
 		},
 		config_client = {
+			scene = "OTHERWORLD_BACKHILL",
 			red_tip_time = {
 				2024,
 				4,
@@ -14366,6 +14367,101 @@ pg.activity_template = {
 					23,
 					59,
 					59
+				}
+			}
+		}
+	},
+	[5305] = {
+		mark = 20240418,
+		id = 5305,
+		title_res_tag = "bianhuakaianxianglai",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 49,
+		config_data = {
+			{
+				19967,
+				19968
+			},
+			{
+				19969,
+				19970
+			},
+			{
+				19971,
+				19972
+			},
+			{
+				19973,
+				19974
+			},
+			{
+				19975,
+				19976
+			},
+			{
+				19977,
+				19978
+			},
+			{
+				19979,
+				19980
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					4,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "LycorisActivationPage",
+			ui_name = "LycorisActivationPage"
+		},
+		config_client = {
+			story = {
+				{
+					"BIANHUAKAIANXIANGLAI1"
+				},
+				{
+					"BIANHUAKAIANXIANGLAI2"
+				},
+				{
+					"BIANHUAKAIANXIANGLAI3"
+				},
+				{
+					"BIANHUAKAIANXIANGLAI4"
+				},
+				{
+					"BIANHUAKAIANXIANGLAI5"
+				},
+				{
+					"BIANHUAKAIANXIANGLAI6"
+				},
+				{
+					"BIANHUAKAIANXIANGLAI7"
 				}
 			}
 		}
@@ -18186,7 +18282,7 @@ pg.activity_template = {
 		},
 		page_info = {
 			class_name = "I56SkinPage",
-			ui_name = "I56SkinPage"
+			ui_name = "i56skinPage"
 		},
 		config_client = {
 			story = {
@@ -18296,6 +18392,22 @@ pg.activity_template = {
 		page_info = {
 			class_name = "NagaraSkinPage",
 			ui_name = "NagaraSkinPermanentPage"
+		}
+	},
+	[6022] = {
+		mark = 20240418,
+		title_res_tag = "u410victory_permanent",
+		time = "stop",
+		type = 74,
+		login_pop = 0,
+		config_id = 6022,
+		is_show = 10,
+		config_client = "",
+		id = 6022,
+		config_data = {},
+		page_info = {
+			class_name = "U410VictoryPtPage",
+			ui_name = "U410VictoryPtPermanentPage"
 		}
 	},
 	[100001] = {
@@ -22034,7 +22146,7 @@ pg.activity_template = {
 		id = 30116
 	},
 	[30117] = {
-		mark = 20230511,
+		mark = 20240418,
 		title_res_tag = "",
 		page_info = "",
 		type = 0,
@@ -22048,9 +22160,9 @@ pg.activity_template = {
 			"timer",
 			{
 				{
-					2023,
-					11,
-					17
+					2024,
+					4,
+					19
 				},
 				{
 					0,
@@ -22060,9 +22172,9 @@ pg.activity_template = {
 			},
 			{
 				{
-					2023,
-					11,
-					26
+					2024,
+					4,
+					28
 				},
 				{
 					23,
@@ -38638,6 +38750,7 @@ pg.activity_template = {
 		5297,
 		5298,
 		5299,
+		5305,
 		7011,
 		7012,
 		7013,
@@ -38712,6 +38825,7 @@ pg.activity_template = {
 		6019,
 		6020,
 		6021,
+		6022,
 		100001,
 		100003,
 		100004,

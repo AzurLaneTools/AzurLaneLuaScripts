@@ -36218,8 +36218,7 @@ pg.equip_skin_template = {
 		hit_fx_name = "",
 		id = 2067,
 		derivate_torpedo = "",
-		orbit_slg = "",
-		orbit_slg_bound = "",
+		orbit_slg = "shebei_xingguanghudunslg",
 		equip_type = {
 			10
 		},
@@ -36233,6 +36232,13 @@ pg.equip_skin_template = {
 				-0.13,
 				0.47,
 				-0.91
+			}
+		},
+		orbit_slg_bound = {
+			"face",
+			{
+				0,
+				46
 			}
 		},
 		orbit_ui_bound = {

@@ -152504,6 +152504,124 @@ _G.pg.base.equip_data_statistics[150293] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[150300] = {
+	type = 10,
+	name = "Echoes of Relinquished Time",
+	speciality = "<[NA]>",
+	tech = 0,
+	value_2 = 0,
+	ammo = 10,
+	descrip = "A spider lily, captured at its most beautiful moment. Gorgeous, flamboyant, poisonous.",
+	nationality = 3,
+	rarity = 4,
+	id = 150300,
+	value_3 = 0,
+	attribute_1 = "air",
+	icon = "150300",
+	value_1 = "28",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60550
+	},
+	hidden_skill_id = {},
+	part_main = {
+		7
+	},
+	part_sub = {
+		7
+	},
+	equip_parameters = {},
+	label = {
+		"IJN",
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[150301] = {
+	id = 150301,
+	value_1 = "32",
+	base = 150300,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[150302] = {
+	id = 150302,
+	value_1 = "36",
+	base = 150300,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[150303] = {
+	id = 150303,
+	value_1 = "40",
+	base = 150300,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[150304] = {
+	id = 150304,
+	value_1 = "44",
+	base = 150300,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[150305] = {
+	id = 150305,
+	value_1 = "49",
+	base = 150300,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[150306] = {
+	id = 150306,
+	value_1 = "53",
+	base = 150300,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[150307] = {
+	id = 150307,
+	value_1 = "57",
+	base = 150300,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[150308] = {
+	id = 150308,
+	value_1 = "61",
+	base = 150300,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[150309] = {
+	id = 150309,
+	value_1 = "65",
+	base = 150300,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[150310] = {
+	id = 150310,
+	value_1 = "70",
+	base = 150300,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[150311] = {
+	id = 150311,
+	anti_siren = 100,
+	value_1 = "75",
+	base = 150300,
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[170001] = {
 	type = 1,
 	name = "专属弹幕-古比雪夫I",
