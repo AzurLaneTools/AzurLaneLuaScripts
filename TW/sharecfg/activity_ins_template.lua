@@ -10190,7 +10190,7 @@ pg.activity_ins_template = {
 		sculpture = "kelaimengsuo",
 		id = 390,
 		group_id = 390,
-		order = 0,
+		order = 33,
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
@@ -10203,7 +10203,7 @@ pg.activity_ins_template = {
 		sculpture = "banerwei",
 		id = 391,
 		group_id = 391,
-		order = 0,
+		order = 33,
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
@@ -10216,7 +10216,7 @@ pg.activity_ins_template = {
 		sculpture = "jishang",
 		id = 392,
 		group_id = 392,
-		order = 0,
+		order = 33,
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
@@ -10229,7 +10229,7 @@ pg.activity_ins_template = {
 		sculpture = "xufulun",
 		id = 393,
 		group_id = 393,
-		order = 0,
+		order = 33,
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
@@ -10242,7 +10242,7 @@ pg.activity_ins_template = {
 		sculpture = "liang",
 		id = 394,
 		group_id = 394,
-		order = 0,
+		order = 33,
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
@@ -10255,7 +10255,7 @@ pg.activity_ins_template = {
 		sculpture = "kaiersheng",
 		id = 395,
 		group_id = 395,
-		order = 0,
+		order = 33,
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
