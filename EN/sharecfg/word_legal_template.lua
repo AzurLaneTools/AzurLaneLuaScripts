@@ -342,7 +342,12 @@ function temp()
 									g = {
 										e = {
 											n = {
-												this = true
+												this = true,
+												[" "] = {
+													["μ"] = {
+														this = true
+													}
+												}
 											}
 										}
 									}
@@ -3379,7 +3384,12 @@ function temp()
 								b = {
 									l = {
 										e = {
-											this = true
+											this = true,
+											[" "] = {
+												["μ"] = {
+													this = true
+												}
+											}
 										}
 									}
 								}
@@ -4977,7 +4987,12 @@ function temp()
 			i = {
 				s = {
 					e = {
-						this = true
+						this = true,
+						[" "] = {
+							["μ"] = {
+								this = true
+							}
+						}
 					}
 				}
 			},
@@ -5258,7 +5273,12 @@ function temp()
 										i = {
 											r = {
 												e = {
-													this = true
+													this = true,
+													[" "] = {
+														["μ"] = {
+															this = true
+														}
+													}
 												}
 											}
 										}

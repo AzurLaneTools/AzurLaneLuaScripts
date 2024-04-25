@@ -42,6 +42,7 @@ function slot14(slot0)
 		longTime = 0,
 		triggerDown = nil,
 		triggerUp = nil,
+		fixedScoreType = nil,
 		Ctor = function (slot0)
 			slot0.longTf = findTF(slot0._tf, "longNote")
 			slot0.singleTf = findTF(slot0._tf, "singleNote")
@@ -87,6 +88,7 @@ function slot14(slot0)
 			slot0.removeTime = nil
 			slot0.triggerDown = nil
 			slot0.triggerUp = nil
+			slot0.fixedScoreType = nil
 			slot0.keyType = slot1.key_flag == "K_BOTH" and MusicGameNote.type_pu_both or MusicGameNote.type_pu_normal
 			slot0.beginTime = tonumber(slot1.begin_time)
 			slot0.endTime = tonumber(slot1.end_time)
@@ -147,6 +149,11 @@ function slot14(slot0)
 		end,
 		changeActive = function (slot0, slot1)
 			setActive(slot0._tf, slot1)
+		end,
+		dispose = function (slot0)
+			if slot0._tf then
+				Destroy(slot0._tf)
+			end
 		end
 	}
 
@@ -155,11 +162,11 @@ function slot14(slot0)
 	return slot1
 end
 
-function slot0.Ctor(slot0, slot1, slot2)
+function slot0.Ctor(slot0, slot1, slot2, slot3)
 	slot0._tf = slot1
-	slot0.directType = slot2
+	slot0.noteTpl = slot2
+	slot0.directType = slot3
 	slot0.noteStateCallback = nil
-	slot0.tplNote = findTF(slot0._tf, "tplNote")
 	slot0.notePool = {}
 	slot0.noteList = {}
 end
@@ -172,14 +179,22 @@ function slot0.setLongTimeCallback(slot0, slot1)
 	slot0.longNoteCallback = slot1
 end
 
-function slot0.setStartData(slot0, slot1, slot2, slot3)
+function slot0.setStartData(slot0, slot1, slot2, slot3, slot4)
 	uv0 = uv1[slot2]
 	slot0.puList = slot1
 	slot0.speedLevel = slot2
 	slot0.dgree = slot3
+	slot0.noteType = slot4
 	slot0.speedOffsetX = uv2[slot2]
+	slot0.tplNote = findTF(slot0.noteTpl, "tplNote" .. slot4)
 
-	slot0:clearNote()
+	if slot0.lastNoteType and slot0.lastNoteType ~= slot4 then
+		slot0:destroyNoteAll()
+	else
+		slot0:clearNote()
+	end
+
+	slot0.lastNoteType = slot0.noteType
 end
 
 function slot0.step(slot0, slot1)
@@ -201,7 +216,23 @@ function slot0.step(slot0, slot1)
 	end
 
 	for slot5 = #slot0.noteList, 1, -1 do
-		if slot0.noteList[slot5]:getRemoveTime() and slot6 < slot0.stepTime then
+		if slot0.noteList[slot5].fixedScoreType and slot0.noteStateCallback then
+			slot0.noteStateCallback(slot7)
+
+			if slot0.loopFlag then
+				slot0.loopFlag = false
+			end
+
+			slot0:returnNote(table.remove(slot0.noteList, slot5))
+		end
+	end
+
+	for slot5 = #slot0.noteList, 1, -1 do
+		slot6 = slot0.noteList[slot5]
+		slot7 = slot6.longFlag
+		slot8 = slot6.triggerDown
+
+		if slot0.noteList[slot5]:getRemoveTime() and slot9 < slot0.stepTime then
 			if slot0.noteStateCallback then
 				if not uv1 then
 					slot0.noteStateCallback(uv0)
@@ -234,19 +265,20 @@ function slot0.checkScoreType(slot0, slot1)
 	end
 
 	slot2, slot3 = nil
+	slot4 = false
 
 	if not slot1.longFlag then
 		slot3 = slot1.beginTime
 
 		if slot0.keyDownStepTime and not slot0.keyDownTrigger then
-			slot4 = math.abs(slot0.keyDownStepTime - slot3)
+			slot5 = math.abs(slot0.keyDownStepTime - slot3)
 
 			if slot1.keyType == MusicGameNote.type_pu_both then
 				if slot0.keyBothDown then
-					slot2 = slot0:getScoreType(slot4)
+					slot2 = slot0:getScoreType(slot5)
 				end
 			else
-				slot2 = slot0:getScoreType(slot4)
+				slot2 = slot0:getScoreType(slot5)
 			end
 
 			if slot2 then
@@ -262,14 +294,14 @@ function slot0.checkScoreType(slot0, slot1)
 		slot3 = slot1.beginTime
 
 		if slot0.keyDownStepTime and not slot0.keyDownTrigger then
-			slot4 = math.abs(slot0.keyDownStepTime - slot3)
+			slot5 = math.abs(slot0.keyDownStepTime - slot3)
 
 			if slot1.keyType == MusicGameNote.type_pu_both then
 				if slot0.keyBothDown then
-					slot2 = slot0:getScoreType(slot4)
+					slot2 = slot0:getScoreType(slot5)
 				end
 			else
-				slot2 = slot0:getScoreType(slot4)
+				slot2 = slot0:getScoreType(slot5)
 			end
 
 			if slot2 then
@@ -279,23 +311,29 @@ function slot0.checkScoreType(slot0, slot1)
 			end
 		end
 	else
-		slot4 = slot0.stepTime < slot1.endTime - uv0
+		slot5 = slot0.stepTime < slot1.endTime - uv0
 
-		if not slot0.keyDown and slot4 then
+		if not slot0.keyDown and slot5 then
 			if slot0.loopFlag then
 				slot0.loopFlag = false
 			end
 
-			slot2 = uv1
+			if not slot0:getScoreType(math.abs(slot0.stepTime - slot1.endTime)) then
+				slot6 = uv1
+			end
+
+			slot1.endTime = slot1.beginTime
+			slot1.fixedScoreType = slot6
+			slot2 = nil
 		elseif slot0.keyUpStepTime and not slot0.keyUpTrigger then
-			slot5 = math.abs(slot0.keyUpStepTime - slot3)
+			slot6 = math.abs(slot0.keyUpStepTime - slot3)
 
 			if slot1.keyType == MusicGameNote.type_pu_both then
 				if slot0.keyBothUp then
-					slot2 = slot0:getScoreType(slot5)
+					slot2 = slot0:getScoreType(slot6)
 				end
 			else
-				slot2 = slot0:getScoreType(slot5)
+				slot2 = slot0:getScoreType(slot6)
 			end
 
 			if slot2 then
@@ -336,6 +374,19 @@ function slot0.checkPuShow(slot0, slot1)
 	end
 
 	return false
+end
+
+function slot0.destroyNoteAll(slot0)
+	for slot4 = #slot0.noteList, 1, -1 do
+		slot0.noteList[slot4]:dispose()
+	end
+
+	for slot4 = #slot0.notePool, 1, -1 do
+		slot0.notePool[slot4]:dispose()
+	end
+
+	slot0.noteList = {}
+	slot0.notePool = {}
 end
 
 function slot0.clearNote(slot0)

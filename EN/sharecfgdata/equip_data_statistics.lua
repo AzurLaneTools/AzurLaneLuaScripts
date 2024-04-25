@@ -128220,11 +128220,213 @@ _G.pg.base.equip_data_statistics[80221] = {
 _G.pg.base.equip_data_statistics[80222] = {
 	id = 80222,
 	name = "专属弹幕-吸血鬼METAII",
-	base = 80101,
+	base = 80221,
 	weapon_id = {
 		61612
 	},
 	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[80231] = {
+	type = 1,
+	name = "专属弹幕-{namecode:532}I",
+	speciality = "<[NA]>",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "Barrage",
+	id = 80231,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170441
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[80232] = {
+	id = 80232,
+	name = "专属弹幕-{namecode:532}II",
+	base = 80231,
+	weapon_id = {
+		170442
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[80241] = {
+	type = 1,
+	name = "专属弹幕-鲁莽(μ兵装)I",
+	speciality = "<[NA]>",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "Barrage",
+	id = 80241,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		61621
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[80242] = {
+	id = 80242,
+	name = "专属弹幕-鲁莽(μ兵装)II",
+	base = 80241,
+	weapon_id = {
+		61622
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[80251] = {
+	type = 1,
+	name = "专属弹幕-能代μI",
+	speciality = "<[NA]>",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "Barrage",
+	id = 80251,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170461
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[80252] = {
+	id = 80252,
+	name = "专属弹幕-能代μII",
+	base = 80251,
+	weapon_id = {
+		170462
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[80253] = {
+	type = 5,
+	name = "专属弹幕-能代μ鱼雷",
+	speciality = "<[NA]>",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "Barrage",
+	id = 80253,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170463
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
 }
 
 _G.pg.base.equip_data_statistics[85000] = {
@@ -137402,6 +137604,407 @@ _G.pg.base.equip_data_statistics[89733] = {
 	base = 89720,
 	id = 89733,
 	value_1 = "29",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89740] = {
+	type = 10,
+	name = "Harmony μ Ticket",
+	speciality = "<[NA]>",
+	tech = 0,
+	value_2 = 15,
+	ammo = 10,
+	nationality = 0,
+	descrip = "Link your heart with those around you and let the passion resonate!",
+	rarity = 5,
+	attribute_1 = "antiaircraft",
+	value_3 = 0,
+	torpedo_ammo = 0,
+	id = 89740,
+	icon = "89740",
+	value_1 = "14",
+	attribute_2 = "hit",
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60560
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[89741] = {
+	id = 89741,
+	value_2 = 16,
+	value_1 = "16",
+	base = 89740,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89742] = {
+	id = 89742,
+	value_2 = 17,
+	value_1 = "18",
+	base = 89740,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89743] = {
+	id = 89743,
+	value_2 = 18,
+	value_1 = "20",
+	base = 89740,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89744] = {
+	id = 89744,
+	value_2 = 19,
+	value_1 = "22",
+	base = 89740,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89745] = {
+	id = 89745,
+	value_2 = 20,
+	value_1 = "24",
+	base = 89740,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89746] = {
+	id = 89746,
+	value_2 = 22,
+	value_1 = "26",
+	base = 89740,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89747] = {
+	id = 89747,
+	value_2 = 24,
+	value_1 = "28",
+	base = 89740,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89748] = {
+	id = 89748,
+	value_2 = 26,
+	value_1 = "30",
+	base = 89740,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89749] = {
+	id = 89749,
+	value_2 = 28,
+	value_1 = "32",
+	base = 89740,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89750] = {
+	id = 89750,
+	value_2 = 30,
+	value_1 = "35",
+	base = 89740,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89751] = {
+	value_2 = 32,
+	anti_siren = 100,
+	base = 89740,
+	id = 89751,
+	value_1 = "38",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89752] = {
+	value_2 = 34,
+	anti_siren = 200,
+	base = 89740,
+	id = 89752,
+	value_1 = "41",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89753] = {
+	value_2 = 36,
+	anti_siren = 300,
+	base = 89740,
+	id = 89753,
+	value_1 = "44",
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89760] = {
+	type = 10,
+	name = "Alizarin Support Towel",
+	speciality = "<[NA]>",
+	tech = 0,
+	value_2 = 0,
+	ammo = 10,
+	descrip = "A towel dyed in Alizarin's signature color. Useful both at a concert and in your day-to-day life!",
+	nationality = 0,
+	rarity = 5,
+	id = 89760,
+	value_3 = 0,
+	attribute_1 = "durability",
+	icon = "89760",
+	value_1 = "250",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60570
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[89761] = {
+	id = 89761,
+	value_1 = "280",
+	base = 89760,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89762] = {
+	id = 89762,
+	value_1 = "310",
+	base = 89760,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89763] = {
+	id = 89763,
+	value_1 = "340",
+	base = 89760,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89764] = {
+	id = 89764,
+	value_1 = "370",
+	base = 89760,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89765] = {
+	id = 89765,
+	value_1 = "400",
+	base = 89760,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89766] = {
+	id = 89766,
+	value_1 = "430",
+	base = 89760,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89767] = {
+	id = 89767,
+	value_1 = "460",
+	base = 89760,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89768] = {
+	id = 89768,
+	value_1 = "490",
+	base = 89760,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89769] = {
+	id = 89769,
+	value_1 = "520",
+	base = 89760,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89770] = {
+	id = 89770,
+	value_1 = "550",
+	base = 89760,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89771] = {
+	id = 89771,
+	anti_siren = 100,
+	value_1 = "580",
+	base = 89760,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89772] = {
+	id = 89772,
+	anti_siren = 200,
+	value_1 = "610",
+	base = 89760,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89773] = {
+	id = 89773,
+	anti_siren = 300,
+	value_1 = "640",
+	base = 89760,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89780] = {
+	type = 10,
+	name = "Cyanidin Support Towel",
+	speciality = "<[NA]>",
+	tech = 0,
+	value_2 = 0,
+	ammo = 10,
+	descrip = "A towel dyed in Cyanidin's signature color. Useful both at a concert and in your day-to-day life!",
+	nationality = 0,
+	rarity = 5,
+	id = 89780,
+	value_3 = 0,
+	attribute_1 = "durability",
+	icon = "89780",
+	value_1 = "250",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60580
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[89781] = {
+	id = 89781,
+	value_1 = "280",
+	base = 89780,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89782] = {
+	id = 89782,
+	value_1 = "310",
+	base = 89780,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89783] = {
+	id = 89783,
+	value_1 = "340",
+	base = 89780,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89784] = {
+	id = 89784,
+	value_1 = "370",
+	base = 89780,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89785] = {
+	id = 89785,
+	value_1 = "400",
+	base = 89780,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89786] = {
+	id = 89786,
+	value_1 = "430",
+	base = 89780,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89787] = {
+	id = 89787,
+	value_1 = "460",
+	base = 89780,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89788] = {
+	id = 89788,
+	value_1 = "490",
+	base = 89780,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89789] = {
+	id = 89789,
+	value_1 = "520",
+	base = 89780,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89790] = {
+	id = 89790,
+	value_1 = "550",
+	base = 89780,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89791] = {
+	id = 89791,
+	anti_siren = 100,
+	value_1 = "580",
+	base = 89780,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89792] = {
+	id = 89792,
+	anti_siren = 200,
+	value_1 = "610",
+	base = 89780,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[89793] = {
+	id = 89793,
+	anti_siren = 300,
+	value_1 = "640",
+	base = 89780,
 	hidden_skill_id = {}
 }
 

@@ -181,6 +181,8 @@ pg.memory_group = setmetatable({
 		281,
 		282,
 		283,
+		284,
+		285,
 		501,
 		502,
 		503,
@@ -4300,6 +4302,46 @@ pg.base.memory_group = {
 			3495,
 			3496,
 			3497
+		}
+	},
+	[284] = {
+		id = 284,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 5301,
+		title = "Heart-Linking Harmony",
+		memories = {
+			3500,
+			3501,
+			3502,
+			3503,
+			3504,
+			3505,
+			3506,
+			3507,
+			3508,
+			3509,
+			3510,
+			3511,
+			3512,
+			3513,
+			3514,
+			3515,
+			3516
+		}
+	},
+	[285] = {
+		id = 285,
+		subtype = 3,
+		icon = "title_event",
+		type = 2,
+		link_event = 5311,
+		title = "Port Fashion Collection! A Glimpse Into Another Life",
+		memories = {
+			3520,
+			3521,
+			3522
 		}
 	},
 	[501] = {

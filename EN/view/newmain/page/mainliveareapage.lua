@@ -53,6 +53,10 @@ function slot0.OnInit(slot0)
 		uv0:Hide()
 	end, SFX_MAIN)
 	onButton(slot0, slot0._educateBtn, function ()
+		if LOCK_EDUCATE_SYSTEM then
+			return
+		end
+
 		uv0:emit(NewMainMediator.GO_SCENE, SCENE.EDUCATE, {
 			isMainEnter = true
 		})

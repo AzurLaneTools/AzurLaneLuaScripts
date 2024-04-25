@@ -256,7 +256,9 @@ pg.ship_skin_words_extra = setmetatable({
 		701120,
 		201370,
 		202340,
-		203130
+		203130,
+		207053,
+		307140
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -17823,6 +17825,107 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"The truth can occasionally be cruel, so exposing others to it won't necessarily lead to happiness. Sometimes, spending life behind a mask is the easier way. But with you, Commander... I can sincerely feel comfortable showing you my true self."
+			}
+		}
+	},
+	[207053] = {
+		main_extra = "",
+		feeling3 = "",
+		unlock = "",
+		lose = "",
+		expedition = "",
+		win_mvp = "",
+		feeling4 = "",
+		mission = "",
+		feeling1 = "",
+		profile = "",
+		skill = "",
+		battle = "",
+		mail = "",
+		touch = "",
+		login = "",
+		feeling5 = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 207053,
+		home = {
+			{
+				1100,
+				"W-welcome back! I made a boxed lunch for you, Commander. Would you like it now?"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Alone in the classroom with a student... What happens next? Heehee, don't worry, I already know. Your eyes have been glued to me for so long already!"
+			}
+		},
+		main = {
+			{
+				1100,
+				"nil|nil|Time spent with you is so peaceful and nice... Heehee, and I don't have to carry myself with the bearing of a royal lady, either. \"I love you, Commander♪\""
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Eep?! Commander, you'd better have a good explanation this time! ...\"Sorry, honey sweetest\"? Now you're just messing with me... Oh, forget it."
+			}
+		}
+	},
+	[307140] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		win_mvp = "",
+		profile = "",
+		mission = "",
+		touch2 = "",
+		battle = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 307140,
+		detail = "",
+		login = {
+			{
+				1100,
+				"*yawn*... Good day... Allow this little one to lay on the sofa in your office again..."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Zzzzz... Oh, you're back... There are snacks, sweets, and tea... Relax as you please."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"This way, Commander... *hug*... Mm, this one wanted to try lying in your arms. Such a warm embrace... is the ideal bed, indeed...|If dreams can be created... then we could make the perfect amusement park just for us... Heehee♪"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"...Hm? Shall we drift off to dreams together?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Heehee, Commander, do you want to nap together? This one made a lovely dream and wants to share it with you♪"
 			}
 		}
 	}

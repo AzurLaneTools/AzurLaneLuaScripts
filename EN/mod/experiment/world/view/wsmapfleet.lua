@@ -107,7 +107,7 @@ function slot0.LoadSpine(slot0, slot1)
 		uv0.spineRole = uv1
 
 		uv2()
-	end, slot0.modelResAsync)
+	end, slot0.modelResAsync, slot4.ORBIT_KEY_SLG)
 end
 
 function slot0.UnloadSpine(slot0)

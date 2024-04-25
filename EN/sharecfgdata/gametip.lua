@@ -13304,32 +13304,17 @@ _G.pg.base.gametip.help_music_game = {
 	tip = {
 		{
 			info = [[
-Regarding "Cosmic Concert"
-The Cosmic Concert is a rhythm mini-game
-where you can earn Performance Notes.
-When you get a B or higher rating in a Cosmic Concert,
-you will use up a reward attempt and earn
-a Performance Note. Collect 7 to get the limited
-SR ship, "Le Malin µ."
-You can earn one Performance Note per day after
-the event starts, up to 7 total.
-How to Play:
--Select a song from the song selection slider,
-and select a desired difficulty level.
-In this rhythm mini-game, you will earn points for
-tapping an icon when it arrives at the center of the screen. In HARD difficulty,
-tap the left side of the screen when a red icon
-reaches the center of the screen, and tap the right
-side of the screen for a blue icon.
-If an icon is followed by a white trail, you will need
-to instead tap and hold the corresponding button.
--The "X1" button on the top-right hand side of the screen
-indicates the current note speed.
-Tap the button to toggle your note speed.
--The rating and score you receive for each tapped note
-corresponds to your timing. Your COMBO
-will only increase for taps that score a
-GOOD or PERFECT rating.]]
+- Manjuu Karaoke Lounge Overview -
+
+The Manjuu Karaoke Lounge is a rhythm mini-game where you can earn Performance Notes.
+When you get a B or higher rating in the minigame, you will use up a reward attempt and earn a Performance Note. Collect 7 to get the event-exclusive item, Harmony μ Ticket.
+You can earn one Performance Note per day after the event starts, up to 7 total.
+- How to Play -
+· Select a song from the song selection slider, and select a desired difficulty level. You will earn points for tapping an icon when it arrives at the center of the screen.
+· On Hard difficulty, tap the left side of the screen when a blue icon shows up, tap the right side when a red icon shows up, and tap both sides when a yellow icon shows up. If an icon is followed by a white trail, you need to tap and hold the corresponding side of the screen until it ends. If you release the hold before the white trail ends, you will only score a Good rating.
+· The ""X1"" button on the top-right hand side of the screen indicates the current note speed. Tap the button to toggle your note speed.
+· The rating and score you receive for each tapped note corresponds to your timing.
+· Your Combo will only increase for taps that score a Good or Perfect rating.]]
 		}
 	}
 }
@@ -28318,4 +28303,81 @@ _G.pg.base.gametip.vote_2023_reward_word_3 = {
 
 _G.pg.base.gametip.voting_page_reward = {
 	tip = "Claim"
+}
+
+_G.pg.base.gametip.idol3rd_houshan = {
+	tip = {
+		{
+			info = "- Heart-Linking Harmony Overview -"
+		},
+		{
+			info = "The Heart-Linking Harmony event screen is a quick and easy way to navigate to all functions and features of the event.\n"
+		},
+		{
+			info = [[
+- Features -
+Event Stages:
+Special stages available only during the event. Clearing a stage will award you with Harmonious Emblems, the event currency.
+ 
+Exchange:
+The event shop where you can exchange your Harmonious Emblems for various rewards.
+ 
+Milestone Rewards:
+Claim rewards based on the total number of Harmonious Emblems you've gathered, including the shipgirl Le Téméraire µ.
+ 
+Limited Construction:
+Jump to the event construction page where you can build the newly added shipgirls.
+ 
+New Skins:
+Jump to the skins shop and check out the latest fashion.
+ 
+Commemoration:
+Complete different objectives to obtain memorabilia. After obtaining all of it, you'll receive the limited event furniture, Harmonious Stages.
+ 
+Minigame:
+Jump to the event minigame, a rhythm game. Play it for 7 days to receive the limited event gear, Harmony μ Ticket.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.idol3rd_collection = {
+	tip = {
+		{
+			info = "- Overview -"
+		},
+		{
+			info = "· The Heart-Linking Harmony event will run until May 8th. Collect all 12 pieces of µ-related memorabilia to unlock the limited furniture, Harmonious Stages."
+		},
+		{
+			info = [[
+· Memorabilia items can be obtained in the following ways:
+1. Clear event stages with 3 stars.
+2. Complete event-exclusive missions.
+3. Collect lots of Harmonious Emblems and claim the memorabilia through milestone rewards.{info='· Once you've obtained all the memorabilia items, you may arrange them in your fanbook. Additionally, you may share your fanbook by tapping on the Share button on the right side of the screen.
+
+· You may claim rewards up until May 15th, 23:59.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.idol3rd_practice = {
+	tip = {
+		{
+			info = [[
+- Rehearsal Overview -
+
+Complete event missions and clear event stages to earn <color=#92fc63>Harmonious Emblems</color>, which can be used to initiate rehearsals.
+Check back regularly to see if you've collected enough for another rehearsal.
+
+There are 3 types of rehearsal, each granting a different bonus.
+Additionally, your rehearsal level for a given category increases as you perform it again. Maxing out your rehearsal level will award you an additional bonus at the end.
+
+The 3 rehearsal types are as follows:
+1. Vocal Appeal - Increases the DMG your ships deal in battle.
+2. Glamorous Steps - Decreases the DMG your ships take in battle.
+3. Memorable Performance - Increases the EXP your ships gain in battle.
+
+If you're not sure what your current rehearsal level is, you can check it from the right-hand-side of the event banner.]]
+		}
+	}
 }

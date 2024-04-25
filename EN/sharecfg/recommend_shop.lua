@@ -42,7 +42,7 @@ pg.recommend_shop = {
 		}
 	},
 	[5] = {
-		shop_id = 147,
+		shop_id = 148,
 		shop_type = 1,
 		id = 5,
 		pic = "",
@@ -51,8 +51,8 @@ pg.recommend_shop = {
 			{
 				{
 					2024,
-					3,
-					28
+					4,
+					25
 				},
 				{
 					0,
@@ -63,8 +63,8 @@ pg.recommend_shop = {
 			{
 				{
 					2024,
-					4,
-					10
+					5,
+					8
 				},
 				{
 					23,

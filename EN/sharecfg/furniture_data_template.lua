@@ -137,6 +137,8 @@ pg.furniture_data_template = setmetatable({
 			269,
 			271,
 			273,
+			274,
+			275,
 			100002,
 			100003,
 			100004,
@@ -183,6 +185,7 @@ pg.furniture_data_template = setmetatable({
 			100048,
 			100049,
 			100050,
+			100051,
 			200001,
 			200002,
 			200003,
@@ -3081,6 +3084,36 @@ pg.furniture_data_template = setmetatable({
 			309114,
 			309301,
 			309302
+		},
+		[110] = {
+			310001,
+			310002,
+			310101,
+			310102,
+			310103,
+			310104,
+			310105,
+			310106,
+			310107,
+			310108,
+			310109,
+			310110,
+			310111,
+			310112,
+			310113,
+			310114,
+			310115,
+			310116,
+			310301,
+			310302,
+			310303,
+			310304,
+			310305,
+			310306,
+			310307,
+			310308,
+			310309,
+			310310
 		}
 	},
 	get_id_list_by_tag = {
@@ -4924,7 +4957,22 @@ pg.furniture_data_template = setmetatable({
 			309110,
 			309111,
 			309112,
-			309114
+			309114,
+			310101,
+			310102,
+			310103,
+			310104,
+			310105,
+			310106,
+			310107,
+			310108,
+			310109,
+			310110,
+			310111,
+			310112,
+			310113,
+			310114,
+			310115
 		},
 		{
 			1108,
@@ -5173,6 +5221,7 @@ pg.furniture_data_template = setmetatable({
 			263,
 			265,
 			269,
+			274,
 			100002,
 			100003,
 			100004,
@@ -5219,6 +5268,7 @@ pg.furniture_data_template = setmetatable({
 			100048,
 			100049,
 			100050,
+			100051,
 			31101,
 			54104,
 			54105
@@ -5272,7 +5322,8 @@ pg.furniture_data_template = setmetatable({
 			266,
 			268,
 			271,
-			273
+			273,
+			275
 		},
 		[7] = {
 			211,
@@ -5461,7 +5512,8 @@ pg.furniture_data_template = setmetatable({
 			307109,
 			308119,
 			308305,
-			309113
+			309113,
+			310116
 		},
 		[4] = {
 			1001,
@@ -5558,7 +5610,8 @@ pg.furniture_data_template = setmetatable({
 			306001,
 			307001,
 			308001,
-			309001
+			309001,
+			310001
 		},
 		[3] = {
 			1002,
@@ -5656,7 +5709,8 @@ pg.furniture_data_template = setmetatable({
 			306002,
 			307002,
 			308002,
-			309002
+			309002,
+			310002
 		},
 		[5] = {
 			1301,
@@ -5984,7 +6038,17 @@ pg.furniture_data_template = setmetatable({
 			308303,
 			308304,
 			309301,
-			309302
+			309302,
+			310301,
+			310302,
+			310303,
+			310304,
+			310305,
+			310306,
+			310307,
+			310308,
+			310309,
+			310310
 		}
 	},
 	get_id_list_by_type = {
@@ -6084,7 +6148,8 @@ pg.furniture_data_template = setmetatable({
 			306002,
 			307002,
 			308002,
-			309002
+			309002,
+			310002
 		},
 		[7] = {
 			1,
@@ -6200,6 +6265,8 @@ pg.furniture_data_template = setmetatable({
 			269,
 			271,
 			273,
+			274,
+			275,
 			100002,
 			100004,
 			100005,
@@ -6233,7 +6300,8 @@ pg.furniture_data_template = setmetatable({
 			100045,
 			100047,
 			100049,
-			100050
+			100050,
+			100051
 		},
 		[2] = {
 			120,
@@ -8076,7 +8144,22 @@ pg.furniture_data_template = setmetatable({
 			309111,
 			309112,
 			309113,
-			309114
+			309114,
+			310102,
+			310103,
+			310104,
+			310105,
+			310106,
+			310107,
+			310108,
+			310109,
+			310110,
+			310111,
+			310112,
+			310113,
+			310114,
+			310115,
+			310116
 		},
 		[11] = {
 			131,
@@ -8239,7 +8322,8 @@ pg.furniture_data_template = setmetatable({
 			306001,
 			307001,
 			308001,
-			309001
+			309001,
+			310001
 		},
 		[5] = {
 			1101,
@@ -8384,7 +8468,8 @@ pg.furniture_data_template = setmetatable({
 			305111,
 			305119,
 			308104,
-			309105
+			309105,
+			310101
 		},
 		[3] = {
 			1108,
@@ -8875,7 +8960,12 @@ pg.furniture_data_template = setmetatable({
 			308304,
 			308305,
 			309301,
-			309302
+			309302,
+			310306,
+			310307,
+			310308,
+			310309,
+			310310
 		},
 		[8] = {
 			17121
@@ -8899,7 +8989,12 @@ pg.furniture_data_template = setmetatable({
 			76305,
 			98302,
 			304306,
-			305306
+			305306,
+			310301,
+			310302,
+			310303,
+			310304,
+			310305
 		},
 		[12] = {
 			46131
@@ -9042,6 +9137,8 @@ pg.furniture_data_template = setmetatable({
 		269,
 		271,
 		273,
+		274,
+		275,
 		100002,
 		100003,
 		100004,
@@ -9088,6 +9185,7 @@ pg.furniture_data_template = setmetatable({
 		100048,
 		100049,
 		100050,
+		100051,
 		200001,
 		200002,
 		200003,
@@ -11791,7 +11889,35 @@ pg.furniture_data_template = setmetatable({
 		309113,
 		309114,
 		309301,
-		309302
+		309302,
+		310001,
+		310002,
+		310101,
+		310102,
+		310103,
+		310104,
+		310105,
+		310106,
+		310107,
+		310108,
+		310109,
+		310110,
+		310111,
+		310112,
+		310113,
+		310114,
+		310115,
+		310116,
+		310301,
+		310302,
+		310303,
+		310304,
+		310305,
+		310306,
+		310307,
+		310308,
+		310309,
+		310310
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -18284,6 +18410,129 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		},
 		interAction_group = {}
 	},
+	[274] = {
+		effect = "",
+		name = "夏日作战立体书（特典）",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "夏天到了，一起去海边打水仗吧~！",
+		themeId = 0,
+		icon = "litishuicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 6,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 274,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"litishuB",
+				"normal"
+			},
+			{
+				"litishuT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[275] = {
+		effect = "",
+		name = "Harmonious Stages",
+		gain_by = "Heart-Linking Harmony",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		themeId = 0,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A scale model of the two stages featured in the 3rd Muse System test, sporting the colors of the units Alizarin and Cyanidin. Given to Commanders who participated in the \"Heart-Linking Harmony\" event.",
+		tag = 8,
+		icon = "ido3xunzhangicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 5,
+		deblocking = 1,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 275,
+		can_rotate = 0,
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"ido3xunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		effect = "",
 		name = "Air Pump of Friendship",
@@ -21547,6 +21796,86 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 				{},
 				{
 					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[100051] = {
+		effect = "",
+		name = "Dragon Piggy Bank",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A penny saved is a penny guarded by a fire-breathing beast.",
+		themeId = 0,
+		icon = "cunqianguanicon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 100051,
+		can_rotate = 0,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cunqianguanB",
+				"normal"
+			},
+			{
+				"cunqianguanT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"attack"
+					},
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
 				}
 			},
 			{},
@@ -140058,6 +140387,1162 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[310001] = {
+		icon = "dibanido3icon",
+		name = "Backstage Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		themeId = 110,
+		picture = "ido3/dibanido3",
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		describe = "See that star? That's you.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 310001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310002] = {
+		icon = "qiangbiido3icon",
+		name = "Backstage Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 0,
+		picture = "",
+		themeId = 110,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		describe = "See those posters? Those are literally you.",
+		rarity = 4,
+		advice = 0,
+		deblocking = 1,
+		spine_action_replace = "",
+		belong = 0,
+		comfortable = 4,
+		canputon = 0,
+		id = 310002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbiido3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[310101] = {
+		effect = "",
+		name = "Backstage Carpet",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 110,
+		is_get_time_note = 0,
+		picture = "ido3/ditanido3",
+		count = 3,
+		is_3d_obj = 0,
+		describe = "The bunny motif reminds you of a certain sleepyhead.",
+		tag = 1,
+		icon = "ditanido3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 310101,
+		can_rotate = 0,
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310102] = {
+		effect = "",
+		name = "Pink Bunny Dressing Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 110,
+		count = 2,
+		is_3d_obj = 0,
+		describe = "Has everything you need to get ready for the stage except the producer telling you to hurry up.",
+		tag = 1,
+		icon = "huazhuangzhuohongido3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 310102,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huazhuangzhuohongido3",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[310103] = {
+		effect = "",
+		name = "Blue Bunny Dressing Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 110,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Has everything you need to get ready for the stage except the producer telling you to hurry up.",
+		tag = 1,
+		icon = "huazhuangzhuolanido3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 310103,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huazhuangzhuolanido3",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[310104] = {
+		effect = "",
+		name = "Outfit Mannequin",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 110,
+		is_get_time_note = 0,
+		picture = "ido3/jiarenido3",
+		count = 2,
+		is_3d_obj = 0,
+		describe = "This outfit in particular sports Cyanidin's hallmark features!",
+		tag = 1,
+		icon = "jiarenido3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 310104,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310105] = {
+		effect = "",
+		name = "Rehearsal Spotlight",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 110,
+		count = 2,
+		is_3d_obj = 0,
+		describe = "This is technical equipment! It's not meant for shadow plays!",
+		tag = 1,
+		icon = "juguangdengido3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 310105,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"juguangdengido3",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[310106] = {
+		effect = "",
+		name = "Backstage Floor Mirror",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 110,
+		is_get_time_note = 0,
+		picture = "ido3/luodijingido3",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Final check before it's time to get on stage!",
+		tag = 1,
+		icon = "luodijingido3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 310106,
+		can_rotate = 0,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310107] = {
+		effect = "",
+		name = "Backstage Partition",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 110,
+		is_get_time_note = 0,
+		picture = "ido3/pingfengido3",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Even idols want a bit of privacy sometimes.",
+		tag = 1,
+		icon = "pingfengido3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 310107,
+		can_rotate = 0,
+		size = {
+			6,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310108] = {
+		effect = "",
+		name = "Backstage Couch",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido3/shafaido3",
+		is_get_time_note = 0,
+		themeId = 110,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A place to rest those tired legs during the intermission.",
+		tag = 1,
+		icon = "shafaido3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 310108,
+		can_rotate = 0,
+		size = {
+			2,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-27.6,
+					36.1
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310109] = {
+		effect = "",
+		name = "Prop Boxes",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 110,
+		is_get_time_note = 0,
+		picture = "ido3/xiangziido3",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "It's dangerous to go alone. Take these.",
+		tag = 1,
+		icon = "xiangziido3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 310109,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310110] = {
+		effect = "",
+		name = "Backstage Shoe Rack",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 110,
+		is_get_time_note = 0,
+		picture = "ido3/xiejiaido3",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Footwear is an often overlooked part of any outfit. Idol outfits are no different.",
+		tag = 1,
+		icon = "xiejiaido3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 310110,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310111] = {
+		effect = "",
+		name = "Sturdy Clothes Rack",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 110,
+		is_get_time_note = 0,
+		picture = "ido3/yijiaido3",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "An idol needs many outfits, and this rack has them all.",
+		tag = 1,
+		icon = "yijiaido3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 310111,
+		can_rotate = 0,
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310112] = {
+		effect = "",
+		name = "Bunny Make-Up Chair 1(With Tail)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido3/yizi1ido3",
+		is_get_time_note = 0,
+		themeId = 110,
+		count = 2,
+		is_3d_obj = 0,
+		describe = "Beyond the cute tail, it's also well-oiled and height-adjustable.",
+		tag = 1,
+		icon = "yizi1ido3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 310112,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-9.4,
+					29.6
+				},
+				{
+					-1,
+					1
+				},
+				"ido3/yizi1ido3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310113] = {
+		effect = "",
+		name = "Bunny Make-Up Chair 2(With Tail)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 110,
+		is_get_time_note = 0,
+		picture = "ido3/yizi2ido3",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Beyond the cute tail, it's also well-oiled and height-adjustable.",
+		tag = 1,
+		icon = "yizi2ido3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 310113,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310114] = {
+		effect = "",
+		name = "Bunny Make-Up Chair 3(With Tail)",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 110,
+		is_get_time_note = 0,
+		picture = "ido3/yizi3ido3",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Beyond the cute tail, it's also well-oiled and height-adjustable.",
+		tag = 1,
+		icon = "yizi3ido3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 310114,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310115] = {
+		effect = "",
+		name = "Backstage Entrance",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 110,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "If you're not going up on stage, you don't get to engage.",
+		tag = 1,
+		icon = "rukouido3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		deblocking = 1,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 310115,
+		can_rotate = 1,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"rukouido3",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[310116] = {
+		effect = "",
+		name = "Rehearsal Mic & Stereo",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A mic check and a brief rehearsal before the show never hurts.",
+		themeId = 110,
+		icon = "maikefengido3icon",
+		spine_extra = "",
+		level = 1,
+		advice = 0,
+		rarity = 4,
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		id = 310116,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"maikefengido3B",
+				"normal"
+			},
+			{
+				"maikefengido3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[310301] = {
+		effect = "",
+		name = "Idol Poster 1",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 110,
+		is_get_time_note = 0,
+		picture = "ido3/haibao1ido3",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "If you keep at it, one day posters like this will cover the whole port.",
+		tag = 5,
+		icon = "haibao1ido3icon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 310301,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310302] = {
+		effect = "",
+		name = "Idol Poster 2",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 110,
+		is_get_time_note = 0,
+		picture = "ido3/haibao2ido3",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "If you keep at it, one day posters like this will cover the whole port.",
+		tag = 5,
+		icon = "haibao2ido3icon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 310302,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310303] = {
+		effect = "",
+		name = "Idol Poster 3",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 110,
+		is_get_time_note = 0,
+		picture = "ido3/haibao3ido3",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "If you keep at it, one day posters like this will cover the whole port.",
+		tag = 5,
+		icon = "haibao3ido3icon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 310303,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310304] = {
+		effect = "",
+		name = "Idol Poster 4",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 110,
+		is_get_time_note = 0,
+		picture = "ido3/haibao4ido3",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "If you keep at it, one day posters like this will cover the whole port.",
+		tag = 5,
+		icon = "haibao4ido3icon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 310304,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310305] = {
+		effect = "",
+		name = "Starboard Light",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 110,
+		is_get_time_note = 0,
+		picture = "ido3/dengpaiido3",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "Get it? Starboard?",
+		tag = 5,
+		icon = "dengpaiido3icon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 2,
+		deblocking = 1,
+		comfortable = 2,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 310305,
+		can_rotate = 1,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310306] = {
+		effect = "",
+		name = "Starry Wall Light 1",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 110,
+		is_get_time_note = 0,
+		picture = "ido3/pingmuidop3",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A starlit stage for a starlit unit.",
+		tag = 5,
+		icon = "pingmuidop3icon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 310306,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310307] = {
+		effect = "",
+		name = "Starry Wall Light 2",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 110,
+		is_get_time_note = 0,
+		picture = "ido3/qiangshi1ido3",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A starlit stage for a starlit unit.",
+		tag = 5,
+		icon = "qiangshi1ido3icon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 310307,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310308] = {
+		effect = "",
+		name = "Starry Wall Light 3",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 110,
+		is_get_time_note = 0,
+		picture = "ido3/qiangshi2ido3",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A starlit stage for a starlit unit.",
+		tag = 5,
+		icon = "qiangshi2ido3icon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 310308,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310309] = {
+		effect = "",
+		name = "Starry Wall Light 4",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		themeId = 110,
+		is_get_time_note = 0,
+		picture = "ido3/qiangshi3ido3",
+		count = 1,
+		is_3d_obj = 0,
+		describe = "A starlit stage for a starlit unit.",
+		tag = 5,
+		icon = "qiangshi3ido3icon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 1,
+		deblocking = 1,
+		comfortable = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 310309,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310310] = {
+		effect = "",
+		name = "Backstage Clothes Rack",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		themeId = 110,
+		count = 2,
+		is_3d_obj = 0,
+		describe = "You need to let your outfits hang freely or they'll get all wrinkly.",
+		tag = 5,
+		icon = "yijiaqiangido3icon",
+		spine_extra = "",
+		level = 5,
+		advice = 0,
+		rarity = 3,
+		deblocking = 1,
+		comfortable = 3,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		id = 310310,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yijiaqiangido3",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
 		},
 		interAction_group = {}
 	}

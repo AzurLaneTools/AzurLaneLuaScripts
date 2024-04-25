@@ -1185,6 +1185,30 @@ pg.equip_skin_theme_template = {
 			927
 		}
 	},
+	[56] = {
+		id = 56,
+		name = "Heart-Linking Harmony",
+		ids = {
+			950,
+			951,
+			952,
+			953,
+			954,
+			955,
+			956,
+			957,
+			958,
+			959,
+			960,
+			961,
+			962,
+			963,
+			964,
+			965,
+			966,
+			967
+		}
+	},
 	[101] = {
 		id = 101,
 		name = "Power of the Stars",
@@ -1354,6 +1378,7 @@ pg.equip_skin_theme_template = {
 		53,
 		54,
 		55,
+		56,
 		101,
 		102,
 		103,

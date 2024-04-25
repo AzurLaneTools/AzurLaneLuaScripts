@@ -1619,11 +1619,28 @@ pg.skill_data_display = setmetatable({
 		17740,
 		17741,
 		17769,
+		17770,
+		17772,
+		17773,
+		17780,
+		17781,
+		17782,
+		17783,
 		17790,
 		17791,
 		17792,
 		17800,
 		17801,
+		17812,
+		17842,
+		17851,
+		17852,
+		17880,
+		17881,
+		17882,
+		17890,
+		17891,
+		17911,
 		18010,
 		18040,
 		18041,
@@ -2220,6 +2237,10 @@ pg.skill_data_display = setmetatable({
 		30201,
 		30202,
 		30203,
+		30221,
+		30222,
+		30223,
+		30224,
 		39000,
 		39001,
 		39002,
@@ -2591,6 +2612,12 @@ pg.skill_data_display = setmetatable({
 		600170,
 		600171,
 		600172,
+		600180,
+		600181,
+		600182,
+		600183,
+		600184,
+		600185,
 		800010,
 		800020,
 		800021,
@@ -9492,6 +9519,34 @@ pg.base.skill_data_display = {
 		id = 17769,
 		name = "Harmony"
 	},
+	[17770] = {
+		id = 17770,
+		name = "The Performance Begins!"
+	},
+	[17772] = {
+		id = 17772,
+		name = "Aufführung beginnt!"
+	},
+	[17773] = {
+		id = 17773,
+		name = "Aufführung beginnt!"
+	},
+	[17780] = {
+		id = 17780,
+		name = "Crimson Song"
+	},
+	[17781] = {
+		id = 17781,
+		name = "Crimson Song"
+	},
+	[17782] = {
+		id = 17782,
+		name = "Crimson Song"
+	},
+	[17783] = {
+		id = 17783,
+		name = "Crimson Song"
+	},
 	[17790] = {
 		id = 17790,
 		name = "Suppressive Fire Order"
@@ -9511,6 +9566,46 @@ pg.base.skill_data_display = {
 	[17801] = {
 		id = 17801,
 		name = "Fit to Serve!"
+	},
+	[17812] = {
+		id = 17812,
+		name = "Royal Lady of Rock 'n' Roll"
+	},
+	[17842] = {
+		id = 17842,
+		name = "Alizarin Melody"
+	},
+	[17851] = {
+		id = 17851,
+		name = "Resonant Fortissimo"
+	},
+	[17852] = {
+		id = 17852,
+		name = "Resonant Fortissimo"
+	},
+	[17880] = {
+		id = 17880,
+		name = "Upon an Elegant Stage"
+	},
+	[17881] = {
+		id = 17881,
+		name = "Upon an Elegant Stage"
+	},
+	[17882] = {
+		id = 17882,
+		name = "Upon an Elegant Stage"
+	},
+	[17890] = {
+		id = 17890,
+		name = "Rising Passion!"
+	},
+	[17891] = {
+		id = 17891,
+		name = "Rising Passion!"
+	},
+	[17911] = {
+		id = 17911,
+		name = "Perfect Dazzling Stage"
 	},
 	[18010] = {
 		id = 18010,
@@ -11896,6 +11991,22 @@ pg.base.skill_data_display = {
 		id = 30203,
 		name = "Cute Firepower Boost!"
 	},
+	[30221] = {
+		id = 30221,
+		name = "All Out Assault - Prinz Eugen μ"
+	},
+	[30222] = {
+		id = 30222,
+		name = "All Out Assault II"
+	},
+	[30223] = {
+		id = 30223,
+		name = "All Out Assault - Prinz Eugen μ"
+	},
+	[30224] = {
+		id = 30224,
+		name = "All Out Assault - Prinz Eugen μ"
+	},
 	[39000] = {
 		id = 39000,
 		name = "Optimize I"
@@ -13379,6 +13490,30 @@ pg.base.skill_data_display = {
 	[600172] = {
 		id = 600172,
 		name = "Multiple Lifelines"
+	},
+	[600180] = {
+		id = 600180,
+		name = "Steel Blade Stance"
+	},
+	[600181] = {
+		id = 600181,
+		name = "Steel Blade Stance"
+	},
+	[600182] = {
+		id = 600182,
+		name = "Steel Blade Stance"
+	},
+	[600183] = {
+		id = 600183,
+		name = "Silver Reflection"
+	},
+	[600184] = {
+		id = 600184,
+		name = "Silver Reflection"
+	},
+	[600185] = {
+		id = 600185,
+		name = "Silver Reflection"
 	},
 	[800010] = {
 		id = 800010,

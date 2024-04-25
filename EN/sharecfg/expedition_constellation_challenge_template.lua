@@ -957,6 +957,93 @@ pg.expedition_constellation_challenge_template = {
 			}
 		}
 	},
+	[10034] = {
+		painting = "gaoxiong",
+		button_style = 7,
+		information_icon = "gaoxiong_constellation",
+		id = 10034,
+		dungeon_id = 5136,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"Steel Blade Stance",
+				"When the battle starts, Takao gains the Steel Blade Stance status; while in this status, her DMG taken from cannons, torpedoes, and aircraft is reduced by <color=#92fc63>30.0%</color>. Dealing enough DMG to Takao removes this status, but she will regain it after 10s."
+			},
+			{
+				"Silver Reflection",
+				"When the Steel Blade Stance status is removed, Takao performs a special slashing attack on the closest enemy. Ships hit by this attack have their DMG taken increased by <color=#92fc63>2.0%</color> until the battle ends. This debuff can stack."
+			}
+		},
+		award_display = {
+			{
+				14,
+				212,
+				1
+			}
+		}
+	},
+	[10035] = {
+		painting = "gaoxiong",
+		button_style = 7,
+		information_icon = "gaoxiong_constellation",
+		id = 10035,
+		dungeon_id = 5135,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"Steel Blade Stance",
+				"When the battle starts, Takao gains the Steel Blade Stance status; while in this status, her DMG taken from cannons, torpedoes, and aircraft is reduced by <color=#92fc63>60.0%</color>. Dealing enough DMG to Takao removes this status, but she will regain it after 10s."
+			},
+			{
+				"Silver Reflection",
+				"When the Steel Blade Stance status is removed, Takao performs a special slashing attack on the closest enemy. Ships hit by this attack have their DMG taken increased by <color=#92fc63>4.0%</color> until the battle ends. This debuff can stack."
+			}
+		},
+		award_display = {
+			{
+				15,
+				10012,
+				1
+			}
+		}
+	},
+	[10036] = {
+		painting = "gaoxiong",
+		button_style = 7,
+		information_icon = "gaoxiong_constellation",
+		id = 10036,
+		dungeon_id = 5134,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"Steel Blade Stance",
+				"When the battle starts, Takao gains the Steel Blade Stance status; while in this status, her DMG taken from cannons, torpedoes, and aircraft is reduced by <color=#92fc63>90.0%</color>. Dealing enough DMG to Takao removes this status, but she will regain it after 10s."
+			},
+			{
+				"Silver Reflection",
+				"When the Steel Blade Stance status is removed, Takao performs a special slashing attack on the closest enemy. Ships hit by this attack have their DMG taken increased by <color=#92fc63>6.0%</color> until the battle ends. This debuff can stack."
+			}
+		},
+		award_display = {
+			{
+				14,
+				10012,
+				1
+			}
+		}
+	},
 	all = {
 		10001,
 		10002,
@@ -990,6 +1077,9 @@ pg.expedition_constellation_challenge_template = {
 		10030,
 		10031,
 		10032,
-		10033
+		10033,
+		10034,
+		10035,
+		10036
 	}
 }

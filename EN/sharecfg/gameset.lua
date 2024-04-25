@@ -338,7 +338,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "PT",
-		key_value = 403
+		key_value = 407
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1923,7 +1923,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 405
+		key_value = 406
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -2586,7 +2586,7 @@ pg.gameset = {
 		}
 	},
 	dayandnight_bgm = {
-		key_value = 5092,
+		key_value = 5301,
 		description = {
 			{
 				{
@@ -2594,7 +2594,7 @@ pg.gameset = {
 					5
 				},
 				"bg_main_night",
-				"sk-menu"
+				"song-Alizarin-full-inst"
 			},
 			{
 				{
@@ -2602,7 +2602,7 @@ pg.gameset = {
 					8
 				},
 				"bg_main_twilight",
-				"sk-theme"
+				"song-Cyanidin-full-inst"
 			},
 			{
 				{
@@ -2610,7 +2610,7 @@ pg.gameset = {
 					16
 				},
 				"bg_main_day",
-				"sk-theme"
+				"song-Cyanidin-full-inst"
 			},
 			{
 				{
@@ -2618,7 +2618,7 @@ pg.gameset = {
 					19
 				},
 				"bg_main_twilight",
-				"sk-theme"
+				"song-Cyanidin-full-inst"
 			},
 			{
 				{
@@ -2626,7 +2626,7 @@ pg.gameset = {
 					24
 				},
 				"bg_main_night",
-				"sk-menu"
+				"song-Alizarin-full-inst"
 			}
 		}
 	},

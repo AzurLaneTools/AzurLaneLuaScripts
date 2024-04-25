@@ -171,6 +171,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Clear Challenge Mode for the first time to obtain.</color>\n（22.01.27-22.04.23）",
 		scene = {}
 	},
+	[212] = {
+		time_limit_type = 0,
+		name = "Extreme Challenge - Taurus",
+		gain_by = "",
+		id = 212,
+		time_second = 0,
+		desc = "<color=#ffffff>Commemorates your triumph over the Incarnation of Taurus. Presented to Commanders who demonstrated the courage to challenge their limits.</color> \n<color=#A7A7AAFF>Obtained from [Extreme Challenge] during the 5/1/24 - 5/31/24 Season.</color>",
+		scene = {}
+	},
 	[300] = {
 		time_limit_type = 1,
 		name = "Leader ",
@@ -639,6 +648,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Commemorates your triumph over the Incarnation of Aries. Presented to Commanders who demonstrated the courage to challenge their limits.</color> \n<color=#A7A7AAFF>Obtained from [Extreme Challenge] during the 4/1/24 - 4/30/24 Season.</color>",
 		scene = {}
 	},
+	[10012] = {
+		time_limit_type = 0,
+		name = "Extreme Challenge - Taurus",
+		gain_by = "",
+		id = 10012,
+		time_second = 0,
+		desc = "<color=#ffffff>Commemorates your triumph over the Incarnation of Taurus. Presented to Commanders who demonstrated the courage to challenge their limits.</color> \n<color=#A7A7AAFF>Obtained from [Extreme Challenge] during the 5/1/24 - 5/31/24 Season.</color>",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -659,6 +677,7 @@ pg.item_data_frame = {
 		209,
 		210,
 		211,
+		212,
 		300,
 		301,
 		302,
@@ -710,6 +729,7 @@ pg.item_data_frame = {
 		10008,
 		10009,
 		10010,
-		10011
+		10011,
+		10012
 	}
 }

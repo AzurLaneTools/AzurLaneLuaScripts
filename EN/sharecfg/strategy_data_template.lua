@@ -252,7 +252,12 @@ pg.strategy_data_template = setmetatable({
 		200774,
 		200777,
 		200780,
-		200783
+		200783,
+		200902,
+		200903,
+		200905,
+		200907,
+		200908
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -547,7 +552,7 @@ pg.base.strategy_data_template = {
 		id = 8650,
 		icon = "",
 		buff_type = 0,
-		desc = "Under the effect of a searchlight.",
+		desc = "Spotlight Buff",
 		arg = {}
 	},
 	[8732] = {
@@ -602,7 +607,7 @@ pg.base.strategy_data_template = {
 		id = 8750,
 		icon = "",
 		buff_type = 0,
-		desc = "Under the effect of a searchlight.",
+		desc = "Spotlight Buff",
 		arg = {}
 	},
 	[8801] = {
@@ -3083,6 +3088,67 @@ Certain ships, such as META ships, will not receive the increased DMG taken, red
 		icon = "200780",
 		buff_type = 0,
 		desc = "Saratoga is providing support with her secret weapon. During battle, special airstrikes will aid your fleet.",
+		arg = {}
+	},
+	[200902] = {
+		buff_id = 200902,
+		name = "Song of Alizarin",
+		iconSize = "",
+		type = 10,
+		id = 200902,
+		icon = "200902",
+		buff_type = 0,
+		desc = "It's Alizarin's time to shine! When the battle starts, the passionate music increases all your ships' FP, TRP, AVI, and RLD by 5.0% for 15s.",
+		arg = {}
+	},
+	[200903] = {
+		buff_id = 200903,
+		name = "Song of Cyanidin",
+		iconSize = "",
+		type = 10,
+		id = 200903,
+		icon = "200903",
+		buff_type = 0,
+		desc = "The spotlight shines on Cyanidin! When the battle starts, the lovely music deploys a barrier (lasts 15s) around every ship in your fleet, capable of negating up to 2.0% of each respective ship's max HP in DMG, and decreases your ships' DMG taken by 5.0% for 15s.",
+		arg = {}
+	},
+	[200905] = {
+		buff_id = 200905,
+		name = "Spotlight - Alizarin",
+		iconSize = "",
+		type = 10,
+		id = 200905,
+		icon = "",
+		buff_type = 0,
+		desc = "Spotlight Buff",
+		arg = {}
+	},
+	[200907] = {
+		buff_id = 200907,
+		name = "Spotlight - Cyanidin",
+		iconSize = "",
+		type = 10,
+		id = 200907,
+		icon = "",
+		buff_type = 0,
+		desc = "Spotlight Buff",
+		arg = {}
+	},
+	[200908] = {
+		buff_id = 0,
+		name = "Challenge Mode",
+		iconSize = "",
+		type = 10,
+		id = 200908,
+		icon = "200908",
+		buff_type = 0,
+		desc = [[
+The battle will initiate in challenge mode if your Vanguard consists of only a single ship when the battle starts. This will increase the difficulty, but also increase the score you gain.
+
+- Challenge Mode Details -
+· Enemies deal significantly more DMG and any shields they deploy have infinite HP.
+· The more time passes, the more their DMG dealt increases.
+· The skills "Quick Takeoff" and "Fiercer When Cornered" are rendered ineffective.]],
 		arg = {}
 	}
 }

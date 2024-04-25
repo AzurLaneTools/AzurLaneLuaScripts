@@ -1,30 +1,5 @@
 pg = pg or {}
 pg.enemy_data_statistics_2 = {
-	[50023] = {
-		speed_growth = 10000,
-		name = "Geryon",
-		durability_growth = 6100,
-		cannon_growth = 6100,
-		luck_growth = 10000,
-		fog_fx = "",
-		hit_growth = 6100,
-		reload_growth = 6100,
-		dodge_growth = 10000,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 50021,
-		armor_growth = 0,
-		torpedo_growth = 6100,
-		bubble_fx = "",
-		antiaircraft_growth = 6100,
-		id = 50023,
-		specific_fx_scale = {},
-		appear_fx = {},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
 	[50024] = {
 		speed_growth = 10000,
 		name = "Geryon",
@@ -922,6 +897,34 @@ pg.enemy_data_statistics_2 = {
 		hit_growth = 7750,
 		id = 50056,
 		reload_growth = 7750,
+		dodge_growth = 10000
+	},
+	[50057] = {
+		cannon_growth = 8300,
+		name = "Vspyshka",
+		durability_growth = 4000,
+		base = 50051,
+		antiaircraft_growth = 8300,
+		fog_fx = "",
+		torpedo_growth = 8300,
+		bubble_fx = "",
+		hit_growth = 8300,
+		id = 50057,
+		reload_growth = 8300,
+		dodge_growth = 10000
+	},
+	[50058] = {
+		cannon_growth = 8850,
+		name = "Vspyshka",
+		durability_growth = 4250,
+		base = 50051,
+		antiaircraft_growth = 8850,
+		fog_fx = "",
+		torpedo_growth = 8850,
+		bubble_fx = "",
+		hit_growth = 8850,
+		id = 50058,
+		reload_growth = 8850,
 		dodge_growth = 10000
 	}
 }
