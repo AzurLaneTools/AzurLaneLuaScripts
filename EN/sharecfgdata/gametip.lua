@@ -15569,7 +15569,7 @@ _G.pg.base.gametip.guild_shop_label_4 = {
 }
 
 _G.pg.base.gametip.guild_shop_label_5 = {
-	tip = "Select an character to exchange for："
+	tip = "Select a character to exchange for："
 }
 
 _G.pg.base.gametip.guild_shop_must_select_goods = {

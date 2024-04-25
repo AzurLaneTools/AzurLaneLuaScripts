@@ -1037,5 +1037,8 @@ pg.activity_const = {
 	},
 	MUSIC_FESTIVAL_MEDALCOLLECTION_3 = {
 		act_id = 5309
+	},
+	MUSIC_FESTIVAL_PT_ID_3 = {
+		act_id = 5308
 	}
 }

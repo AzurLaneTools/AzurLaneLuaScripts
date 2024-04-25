@@ -162,8 +162,9 @@ function slot0._TriggerEvent(slot0, slot1)
 
 	slot4, slot5, slot6, slot7, slot8, slot9 = ShipWordHelper.GetCvDataForShip(slot0.ship, slot2.dialog)
 	slot10 = slot2.action
+	slot11 = string.gsub(slot2.dialog, "main_", "main")
 
-	if pg.character_voice[string.gsub(slot2.dialog, "main_", "main")] and slot0.shipGroup and slot0.shipGroup:VoiceReplayCodition(pg.character_voice[slot11]) and slot0.live2dChar:checkActionExist(slot10 .. "_ex") then
+	if slot0.ship.propose and pg.character_voice[slot11] and slot0.shipGroup and slot0.shipGroup:VoiceReplayCodition(pg.character_voice[slot11]) and slot0.live2dChar:checkActionExist(slot10 .. "_ex") then
 		slot10 = slot10 .. "_ex"
 	end
 

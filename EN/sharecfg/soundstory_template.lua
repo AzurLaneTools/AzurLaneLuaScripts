@@ -339,7 +339,7 @@ pg.soundstory_template = {
 		}
 	},
 	{
-		CV_JP = "田中千惠美",
+		CV_JP = "Chiemi Tanaka",
 		audition_resource_CN = "ss-51901-1",
 		audition_text = "My, I can't tell what you're thinking at all, Commander. Shall we take a short break first? After all... the real deal is still ahead of us.",
 		story_resource_CN = "soundStory9_CN",
@@ -391,7 +391,7 @@ pg.soundstory_template = {
 		}
 	},
 	{
-		CV_JP = "依田菜津",
+		CV_JP = "Natsu Yorita",
 		audition_resource_CN = "",
 		audition_text = "Heehee... That's right. I might get sooo exhausted that I won't be able to move a muscle~",
 		story_resource_CN = "",
@@ -443,7 +443,7 @@ pg.soundstory_template = {
 		}
 	},
 	{
-		CV_JP = "三森铃子",
+		CV_JP = "Suzuko Mimori",
 		audition_resource_CN = "",
 		audition_text = "Hm? You say you're... intoxicated by my voice? It's \"as sweet as nectar\"?",
 		story_resource_CN = "",

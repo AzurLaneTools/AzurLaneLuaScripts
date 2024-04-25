@@ -16672,7 +16672,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1800003] = {
 		map = 1800003,
-		name = "Heart-Linking Harmony·SP|| ||CHAPTER EX||E.X.",
+		name = "Heart-Linking Harmony - SP|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",
@@ -16716,7 +16716,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1800004] = {
 		map = 1800004,
-		name = "Heart-Linking Harmony·EX|| ||CHAPTER EX||E.X.",
+		name = "Heart-Linking Harmony - EX|| ||CHAPTER EX||E.X.",
 		level_limit = 1,
 		type = 8,
 		anchor = "",

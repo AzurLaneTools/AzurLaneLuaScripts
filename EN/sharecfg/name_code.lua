@@ -1583,10 +1583,10 @@ pg.name_code = {
 		nation = 0
 	},
 	[228] = {
-		name = "Kongou μ ",
+		name = "Kongou μ",
 		type = 1,
 		id = 228,
-		code = "Kongou μ ",
+		code = "Kongou μ",
 		nation = 0
 	},
 	[250] = {
@@ -2696,17 +2696,24 @@ pg.name_code = {
 		nation = 0
 	},
 	[532] = {
-		name = "Prinz Eugen μ ",
+		name = "Prinz Eugen μ",
 		type = 1,
 		id = 532,
-		code = "Prinz Eugen μ ",
+		code = "Prinz Eugen μ",
 		nation = 0
 	},
 	[533] = {
-		name = "Boise μ ",
+		name = "Boise μ",
 		type = 1,
 		id = 533,
-		code = "Boise μ ",
+		code = "Boise μ",
+		nation = 0
+	},
+	[534] = {
+		name = "小信浓",
+		type = 1,
+		id = 534,
+		code = "小鵗",
 		nation = 0
 	},
 	[10000] = {

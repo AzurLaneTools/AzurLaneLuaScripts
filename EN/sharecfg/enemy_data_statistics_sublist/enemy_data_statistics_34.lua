@@ -153,7 +153,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[90922] = {
 		cannon = 0,
-		name = "Kongou μ ",
+		name = "Kongou μ",
 		type = 4,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -304,7 +304,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[90923] = {
 		cannon = 0,
-		name = "Formidable μ ",
+		name = "Formidable μ",
 		type = 7,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -448,7 +448,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[90924] = {
 		cannon = 0,
-		name = "Le Téméraire μ ",
+		name = "Le Téméraire μ",
 		type = 1,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -599,7 +599,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[90925] = {
 		cannon = 0,
-		name = "Prinz Eugen μ ",
+		name = "Prinz Eugen μ",
 		type = 3,
 		speed_growth = 0,
 		battle_unit_type = 49,
@@ -750,7 +750,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[90926] = {
 		cannon = 0,
-		name = "Boise μ ",
+		name = "Boise μ",
 		type = 2,
 		speed_growth = 0,
 		battle_unit_type = 49,

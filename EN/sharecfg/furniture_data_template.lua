@@ -140922,7 +140922,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 	},
 	[310112] = {
 		effect = "",
-		name = "Bunny Make-Up Chair 1(With Tail)",
+		name = "Bunny Make-Up Chair 1 (With Tail)",
 		gain_by = "",
 		type = 2,
 		dir = 0,
@@ -140973,7 +140973,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 	},
 	[310113] = {
 		effect = "",
-		name = "Bunny Make-Up Chair 2(With Tail)",
+		name = "Bunny Make-Up Chair 2 (With Tail)",
 		gain_by = "",
 		type = 2,
 		dir = 0,
@@ -141010,7 +141010,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 	},
 	[310114] = {
 		effect = "",
-		name = "Bunny Make-Up Chair 3(With Tail)",
+		name = "Bunny Make-Up Chair 3 (With Tail)",
 		gain_by = "",
 		type = 2,
 		dir = 0,

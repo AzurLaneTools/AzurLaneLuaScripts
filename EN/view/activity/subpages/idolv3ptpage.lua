@@ -241,7 +241,7 @@ function slot0.flushTrainPanel(slot0)
 			end
 
 			setImageSprite(slot0:findTF("icon", slot0.trainSkillBtns[slot6.group]), LoadSprite(pg.benefit_buff_template[slot6.id].icon))
-			setText(slot0:findTF("name", slot0.trainSkillBtns[slot6.group]), shortenString(pg.benefit_buff_template[slot6.id].name, 7))
+			setText(slot0:findTF("name", slot0.trainSkillBtns[slot6.group]), shortenString(pg.benefit_buff_template[slot6.id].name, 12))
 		end
 	end
 
