@@ -37,6 +37,7 @@ function slot0.OnLoad(slot0, slot1)
 		uv0:AdJustOrderInLayer(slot0)
 		uv1()
 	end)
+	slot0.shipGroup = getProxy(CollectionProxy):getShipGroup(slot0.ship.groupId)
 
 	slot0:UpdateContainerPosition()
 	slot0:AddScreenChangeTimer()
@@ -145,6 +146,8 @@ function slot0._TriggerEvent(slot0, slot1)
 		return
 	end
 
+	slot2 = slot0:GetEventConfig(slot1)
+
 	function slot3(slot0)
 		if slot0 then
 			if uv0.dialog ~= "" then
@@ -157,12 +160,17 @@ function slot0._TriggerEvent(slot0, slot1)
 		uv1.actionWaiting = false
 	end
 
-	slot4, slot5, slot6, slot7, slot8, slot9 = ShipWordHelper.GetCvDataForShip(slot0.ship, slot0:GetEventConfig(slot1).dialog)
+	slot4, slot5, slot6, slot7, slot8, slot9 = ShipWordHelper.GetCvDataForShip(slot0.ship, slot2.dialog)
+	slot10 = slot2.action
+
+	if pg.character_voice[string.gsub(slot2.dialog, "main_", "main")] and slot0.shipGroup and slot0.shipGroup:VoiceReplayCodition(pg.character_voice[slot11]) and slot0.live2dChar:checkActionExist(slot10 .. "_ex") then
+		slot10 = slot10 .. "_ex"
+	end
 
 	if not slot9 then
 		slot0.actionWaiting = true
 
-		slot0.live2dChar:TriggerAction(slot2.action)
+		slot0.live2dChar:TriggerAction(slot10)
 		slot3(true)
 	else
 		slot0.actionWaiting = true
@@ -173,7 +181,7 @@ function slot0._TriggerEvent(slot0, slot1)
 			slot3(true)
 		end
 
-		slot0.live2dChar:TriggerAction(slot2.action, nil, , slot3)
+		slot0.live2dChar:TriggerAction(slot10, nil, , slot3)
 	end
 end
 

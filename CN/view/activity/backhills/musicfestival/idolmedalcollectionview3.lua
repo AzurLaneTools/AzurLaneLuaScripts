@@ -1,0 +1,30 @@
+slot0 = class("IdolMedalCollectionView3", import(".IdolMedalCollectionView2"))
+
+function slot0.GetContainerPositions(slot0)
+	return {
+		0,
+		100
+	}
+end
+
+function slot0.GetActivityID(slot0)
+	return ActivityConst.MUSIC_FESTIVAL_MEDALCOLLECTION_3
+end
+
+function slot0.getUIName(slot0)
+	return "IdolMedalCollectionUI3"
+end
+
+function slot0.didEnter(slot0)
+	setActive(slot0:findTF("1", slot0.bg), math.random() >= 0.5)
+	setActive(slot0:findTF("2", slot0.bg), slot1 < 0.5)
+	uv0.super.didEnter(slot0)
+	onButton(slot0, slot0.helpBtn, function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.idol3rd_collection.tip
+		})
+	end, SFX_PANEL)
+end
+
+return slot0

@@ -1869,7 +1869,7 @@ function slot0.setChapter(slot0, slot1)
 	slot0.contextData.chapterVO = slot1
 end
 
-function slot0.switchToChapter(slot0, slot1, slot2)
+function slot0.switchToChapter(slot0, slot1)
 	if slot0.contextData.mapIdx ~= slot1:getConfig("map") then
 		slot0:setMap(slot1:getConfig("map"))
 	end
@@ -2015,8 +2015,6 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 
 						uv1()
 					end)
-
-					uv0.FirstEnterChapter = nil
 				else
 					slot0()
 				end
@@ -2030,11 +2028,14 @@ function slot0.switchToChapter(slot0, slot1, slot2)
 				end
 
 				uv0:unfrozen()
-				uv0.levelStageView:tryAutoTrigger(true)
 
-				if uv1 then
-					uv1()
+				if uv0.FirstEnterChapter then
+					uv0:emit(LevelMediator2.ON_RESUME_SUBSTATE, uv1.subAutoAttack)
 				end
+
+				uv0.FirstEnterChapter = nil
+
+				uv0.levelStageView:tryAutoTrigger(true)
 			end
 		})
 	end)

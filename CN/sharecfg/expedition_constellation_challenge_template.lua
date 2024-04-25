@@ -957,6 +957,93 @@ pg.expedition_constellation_challenge_template = {
 			}
 		}
 	},
+	[10034] = {
+		painting = "gaoxiong",
+		button_style = 7,
+		information_icon = "gaoxiong_constellation",
+		id = 10034,
+		dungeon_id = 5136,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"钢刃架势 ",
+				"金牛座化身战斗开始后进入【钢刃架势】；在【钢刃架势】状态下，金牛座化身受到炮击、雷击、航空伤害降低<color=#92fc63>30%</color>；架势被打断后该效果消失，10秒后再次进入【钢刃架势】"
+			},
+			{
+				"光风霁月",
+				"金牛座化身【钢刃架势】被打断后对自身最近的敌方单位释放一轮特殊斩击，被命中的敌方单位受到伤害提高<color=#92fc63>2%</color>，可以叠加"
+			}
+		},
+		award_display = {
+			{
+				14,
+				212,
+				1
+			}
+		}
+	},
+	[10035] = {
+		painting = "gaoxiong",
+		button_style = 7,
+		information_icon = "gaoxiong_constellation",
+		id = 10035,
+		dungeon_id = 5135,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"钢刃架势 ",
+				"金牛座化身战斗开始后进入【钢刃架势】；在【钢刃架势】状态下，金牛座化身受到炮击、雷击、航空伤害降低<color=#92fc63>60%</color>；架势被打断后该效果消失，10秒后再次进入【钢刃架势】"
+			},
+			{
+				"光风霁月",
+				"金牛座化身【钢刃架势】被打断后对自身最近的敌方单位释放一轮特殊斩击，被命中的敌方单位受到伤害提高<color=#92fc63>4%</color>，可以叠加"
+			}
+		},
+		award_display = {
+			{
+				15,
+				10012,
+				1
+			}
+		}
+	},
+	[10036] = {
+		painting = "gaoxiong",
+		button_style = 7,
+		information_icon = "gaoxiong_constellation",
+		id = 10036,
+		dungeon_id = 5134,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"钢刃架势 ",
+				"金牛座化身战斗开始后进入【钢刃架势】；在【钢刃架势】状态下，金牛座化身受到炮击、雷击、航空伤害降低<color=#92fc63>90%</color>；架势被打断后该效果消失，10秒后再次进入【钢刃架势】"
+			},
+			{
+				"光风霁月",
+				"金牛座化身【钢刃架势】被打断后对自身最近的敌方单位释放一轮特殊斩击，被命中的敌方单位受到伤害提高<color=#92fc63>6%</color>，可以叠加"
+			}
+		},
+		award_display = {
+			{
+				14,
+				10012,
+				1
+			}
+		}
+	},
 	all = {
 		10001,
 		10002,
@@ -990,6 +1077,9 @@ pg.expedition_constellation_challenge_template = {
 		10030,
 		10031,
 		10032,
-		10033
+		10033,
+		10034,
+		10035,
+		10036
 	}
 }

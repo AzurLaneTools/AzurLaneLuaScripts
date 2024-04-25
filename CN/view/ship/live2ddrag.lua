@@ -41,6 +41,7 @@ function slot0.Ctor(slot0, slot1, slot2)
 	slot0.relationParameter = slot1.relation_parameter
 	slot0.limitTime = slot1.limit_time > 0 and slot1.limit_time or uv0
 	slot0.revertIdleIndex = slot1.revert_idle_index == 1 and true or false
+	slot0.revertActionIndex = slot1.revert_action_index == 1 and true or false
 	slot0.randomAttitudeIndex = L2D_RANDOM_PARAM
 	slot0._active = false
 	slot0._parameterCom = nil
@@ -696,8 +697,14 @@ function slot0.updateStateData(slot0, slot1)
 		slot0:setTargetValue(slot0.startValue)
 	end
 
+	slot0.lastActionIndex = slot0.actionListIndex
+
 	if slot1.isPlaying and slot0.actionTrigger.reset_index_action and slot1.actionName and table.contains(slot0.actionTrigger.reset_index_action, slot1.actionName) then
 		slot0.actionListIndex = 1
+	end
+
+	if slot0.revertActionIndex and slot0.lastActionIndex ~= slot0.actionListIndex then
+		slot0:setTargetValue(slot0.startValue)
 	end
 
 	slot0.l2dIdleIndex = slot1.idleIndex

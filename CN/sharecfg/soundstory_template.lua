@@ -338,6 +338,162 @@ pg.soundstory_template = {
 			3
 		}
 	},
+	{
+		CV_JP = "田中千惠美",
+		audition_resource_CN = "ss-51901-1",
+		audition_text = "哎呀，完全搞不懂您的想法，总之先一起休息一下吧？毕竟……接下来才是正戏嘛。",
+		story_resource_CN = "soundStory9_CN",
+		story_pic = "",
+		overview = "展露厨艺的定安，想要分享一下对于制作面点的心得。\n在这湿热的厨房之中，两人间的温度亦在不断升高……",
+		name = "微热的厨房间",
+		ship_id = 51901,
+		audition_resource_JP = "ss-51901-2",
+		CV_CN = "秦紫翼",
+		id = 9,
+		story_resource_JP = "soundStory9_JP",
+		order = 2,
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					4,
+					25
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		CV_JP = "依田菜津",
+		audition_resource_CN = "",
+		audition_text = "呵呵……是呢，也许我会累得浑身无力，动不了呢？",
+		story_resource_CN = "",
+		story_pic = "",
+		overview = "接受了圣哈辛托的邀请，来泳池为她提升泳技。\n仅有彼此二人的场合，少女的笑声混杂着飞溅的水花……令人心荡神迷。",
+		name = "少女的小小心思",
+		ship_id = 10730,
+		audition_resource_JP = "ss-10730-1",
+		CV_CN = "",
+		id = 10,
+		story_resource_JP = "soundStory10_JP",
+		order = 2,
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					4,
+					25
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		CV_JP = "三森铃子",
+		audition_resource_CN = "",
+		audition_text = "嗯？猃的声音令人沉醉……？就像……甘露一样吗……？",
+		story_resource_CN = "",
+		story_pic = "",
+		overview = "于图书馆中偶遇到看书的猃。\n随后和她一同在图书馆读书，伴着她的声音，两人间气氛逐渐变得暧昧……",
+		name = "沉醉余音",
+		ship_id = 30319,
+		audition_resource_JP = "ss-30319-1",
+		CV_CN = "",
+		id = 11,
+		story_resource_JP = "soundStory11_JP",
+		order = 2,
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					4,
+					25
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -346,6 +502,9 @@ pg.soundstory_template = {
 		5,
 		6,
 		7,
-		8
+		8,
+		9,
+		10,
+		11
 	}
 }

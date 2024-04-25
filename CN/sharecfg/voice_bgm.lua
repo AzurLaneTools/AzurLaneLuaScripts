@@ -91,10 +91,10 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "login",
+		default_bgm = "song-Cyanidin-full",
 		special_bgm = "",
 		time = "",
-		bgm = "login"
+		bgm = "song-Cyanidin-full"
 	},
 	NewMainScene = {
 		default_bgm = "main",
@@ -163,10 +163,10 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "battle-deepecho",
+		default_bgm = "song-Alizarin-full-inst",
 		special_bgm = "",
 		time = "",
-		bgm = "battle-deepecho"
+		bgm = "song-Alizarin-full-inst"
 	},
 	SkinShopScene = {
 		default_bgm = "main",
@@ -1474,5 +1474,41 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "theme-akagi-inside"
+	},
+	IdolV3MainPage = {
+		default_bgm = "song-Alizarin-full",
+		special_bgm = "",
+		time = "",
+		bgm = "song-Alizarin-full"
+	},
+	IdolV3PtPage = {
+		default_bgm = "song-Cyanidin-full-inst",
+		special_bgm = "",
+		time = "",
+		bgm = "song-Cyanidin-full-inst"
+	},
+	MusicFestivalScene3 = {
+		default_bgm = "song-Cyanidin-full-inst",
+		special_bgm = "",
+		time = "",
+		bgm = "song-Cyanidin-full-inst"
+	},
+	SkinMagazinePage5 = {
+		default_bgm = "story-richang-11",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-11"
+	},
+	XiaoXinNongPtPage = {
+		default_bgm = "story-richang-10",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-10"
+	},
+	XiefeierIdolMusicPage = {
+		default_bgm = "song-Alizarin-full-inst",
+		special_bgm = "",
+		time = "",
+		bgm = "song-Alizarin-full-inst"
 	}
 }

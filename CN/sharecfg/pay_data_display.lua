@@ -107,6 +107,7 @@ pg.pay_data_display = setmetatable({
 		2023,
 		2024,
 		2025,
+		2026,
 		5001,
 		5002,
 		5003,
@@ -9795,6 +9796,114 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40043,
+				1
+			}
+		}
+	},
+	[2026] = {
+		subject = "舰艇教材礼包",
+		limit_group = 0,
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		type = 0,
+		limit_arg = 4,
+		name = "舰艇教材礼包(2024春)",
+		name_display = "舰艇教材礼包",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2026,
+		money = 18,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "boxSkill",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.libao118",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "可获得大量教材奖励",
+		airijp_id = "com.yostarjp.azurlane.package118",
+		extra_service_item = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					4,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40023,
 				1
 			}
 		}

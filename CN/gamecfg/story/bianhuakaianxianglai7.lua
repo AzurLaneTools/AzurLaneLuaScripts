@@ -506,7 +506,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "土佐",
+			actorName = "{namecode:81:土佐}",
 			say = "……请不要扩大火力伤及无辜，谢谢。",
 			painting = {
 				alpha = 0.3,

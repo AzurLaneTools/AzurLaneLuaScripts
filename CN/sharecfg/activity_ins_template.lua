@@ -11881,6 +11881,78 @@ pg.activity_ins_template = {
 			4359
 		}
 	},
+	[460] = {
+		ship_group = 20703,
+		name = "Illustrious",
+		sculpture = "guanghui",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 460,
+		id = 460,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[461] = {
+		ship_group = 30221,
+		name = "Nshiro",
+		sculpture = "nengdai_idol",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 461,
+		id = 461,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[462] = {
+		ship_group = 40303,
+		name = "P.Eugen",
+		sculpture = "ougen_7",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 462,
+		id = 462,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[463] = {
+		ship_group = 30401,
+		name = "BarrowYoko",
+		sculpture = "jingang_idol",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 463,
+		id = 463,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[464] = {
+		ship_group = 80103,
+		name = "L.Téméraire",
+		sculpture = "lumang_4",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 464,
+		id = 464,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[465] = {
+		ship_group = 10229,
+		name = "USSBOISE",
+		sculpture = "boyixi_idol",
+		message_persist = "",
+		picture_persist = "",
+		group_id = 465,
+		id = 465,
+		is_active = 1,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -12330,6 +12402,12 @@ pg.activity_ins_template = {
 		455,
 		457,
 		458,
-		459
+		459,
+		460,
+		461,
+		462,
+		463,
+		464,
+		465
 	}
 }

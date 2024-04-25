@@ -603,7 +603,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
-			753,
+			5308,
 			0
 		}
 	},
@@ -620,7 +620,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
-			753,
+			5308,
 			0
 		}
 	},
@@ -637,7 +637,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
-			753,
+			5308,
 			0
 		}
 	},
@@ -654,7 +654,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
-			753,
+			5308,
 			0
 		}
 	},
@@ -671,7 +671,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
-			753,
+			5308,
 			0
 		}
 	},
@@ -688,7 +688,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "battle_buff",
 		benefit_condition = {
 			"activity",
-			753,
+			5308,
 			0
 		}
 	},
@@ -705,7 +705,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"activity",
-			753,
+			5308,
 			0
 		}
 	},
@@ -722,7 +722,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"activity",
-			753,
+			5308,
 			0
 		}
 	},
@@ -739,7 +739,7 @@ pg.base.benefit_buff_template = {
 		benefit_type = "ship_battle_exp",
 		benefit_condition = {
 			"activity",
-			753,
+			5308,
 			0
 		}
 	},

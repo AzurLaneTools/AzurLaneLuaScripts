@@ -123,7 +123,7 @@ function slot9(slot0, slot1, slot2)
 		slot0:AtomSouceFresh()
 	end
 
-	if slot0.animationClipNames and (not table.indexof(slot0.animationClipNames, slot1) or slot3 == false) and string.find(slot1, "main_") then
+	if slot0.animationClipNames and (not slot0:checkActionExist(slot1) or slot3 == false) and string.find(slot1, "main_") then
 		slot1 = "main_3"
 	end
 
@@ -141,6 +141,10 @@ function slot9(slot0, slot1, slot2)
 	end
 
 	return false
+end
+
+function slot0.checkActionExist(slot0, slot1)
+	return table.indexof(slot0.animationClipNames, slot1)
 end
 
 function slot10(slot0, slot1)
