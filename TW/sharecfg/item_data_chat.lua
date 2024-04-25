@@ -64,6 +64,14 @@ pg.item_data_chat = {
 		desc = "獻給所有參與海島活動的港區指揮官們\n<color=#A7A7AAFF>通過參與海島限定活動獲取</color>",
 		scene = {}
 	},
+	[603] = {
+		time_limit_type = 0,
+		name = "華麗的邀請",
+		id = 603,
+		time_second = 0,
+		desc = "<color=#ffffff>獻給所有參與港區宴會的指揮官！ </color>\n<color=#A7A7AAFF>通過參與「宴會邀約」獲取</color>",
+		scene = {}
+	},
 	[1001] = {
 		time_limit_type = 0,
 		name = "開服紀念",
@@ -81,6 +89,7 @@ pg.item_data_chat = {
 		300,
 		301,
 		602,
+		603,
 		1001
 	}
 }

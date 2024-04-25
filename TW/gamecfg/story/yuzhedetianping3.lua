@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			stopbgm = true,
 			dialogueBgAlpha = 0.6,
-			say = "黑色的太阳，正静静燃烧着。",
+			say = "黑色的太陽，正靜靜燃燒著。",
 			bgm = "theme-vichy-church",
 			effects = {
 				{
@@ -74,7 +74,7 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "这是梦……还是说……",
+			say = "這是夢……還是說……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,14 +86,14 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "已经是梦醒之后呢……",
+			say = "這已經是夢醒之後呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "仔细观察——",
+					content = "仔細觀察——",
 					flag = 1
 				}
 			}
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "经过一番仔细观察，眼前的黑日不论如何都不像是寻常事物。",
+			say = "經過一番仔細觀察，眼前的黑日無論如何都不像是尋常事物。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "不过与此前在噩梦之中所见之物不同，这轮黑日似乎并没有任何“威胁”。",
+			say = "但與先前在惡夢之中所見之物不同，這輪黑日似乎並沒有任何「威脅」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "燃烧的火焰没有温度，也没有发出任何奇怪的声音。",
+			say = "燃燒的火焰沒有溫度，也沒有出現任何奇怪的聲音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,14 +140,14 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "它只是冷冰冰地高悬着，仿佛对周围的一切全不在乎。",
+			say = "它只是冷冰冰地高懸著，彷彿對周遭的一切全不在乎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "凝视——",
+					content = "凝視——",
 					flag = 1
 				}
 			}
@@ -158,7 +158,7 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "目不转睛地凝视着远方的黑日。",
+			say = "目不轉睛得凝視著遠方的黑日。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,14 +170,14 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "在黑日的光辉偶然黯淡下来的瞬间，似乎看到了令人不可思议的景象。",
+			say = "在黑日的光輝偶然黯淡下來的瞬間，似乎看到了令人不可思議的景象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "机械太阳？！",
+					content = "機械太陽？！",
 					flag = 1
 				}
 			}
@@ -188,7 +188,7 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "黑日的内部……仿佛隐藏着某个巨大的机械装置。",
+			say = "黑日的內部……似乎隱藏著某個巨大的機械裝置。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "那机械似乎并不完全存在于物质的世界，如同潜藏在水面下的冰山，只露出了小小一角。",
+			say = "那機械似乎不完全存在於物質的世界，反倒是像冰山一樣，只露出了小小的一角。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "在意识到这件事的瞬间，感受到了一股刺骨又压抑的寒冷。",
+			say = "在意識到這件事的瞬間，感受到了一股刺骨又壓抑的感覺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "仿佛来到了千米之下的深海……",
+			say = "彷彿來到了上千公尺下的深海……",
 			bgm = "story-clemenceau-judgement",
 			effects = {
 				{
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			oldPhoto = true,
-			say = "又仿佛来到了一个许久之前的时代……",
+			say = "又彷彿來到了一個許久之前的時代……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			oldPhoto = true,
-			say = "与此前黑日展现出的柔和不同，眼前的世界充斥着了令人绝望的窒息感。",
+			say = "與先前黑日展現出的柔和不同，眼前的世界充斥著了令人絕望的窒息感。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "bg_roma_7",
 			hidePaintObj = true,
 			oldPhoto = true,
-			say = "仿佛……要……窒息……了…………",
+			say = "彷彿……要……窒息……了…………",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "在意识消散前的最后一个瞬间。",
+			say = "在意識消散前的最後一個瞬間。",
 			soundeffect = "event:/ui/fengling",
 			typewriter = {
 				speed = 0.05,
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "…………耳边依稀听到了，风铃的声音？",
+			say = "…………耳邊依稀聽到了，風鈴的聲音？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

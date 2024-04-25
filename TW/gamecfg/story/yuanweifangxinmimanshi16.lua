@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"鸢尾芳馨弥漫时\n\n<size=45>为主角干杯</size>",
+					"鳶尾芳馨瀰漫時\n\n<size=45>為主角乾杯</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "从洗手间返回会场的走廊上，遇到了一位在此等候的人。",
+			say = "從洗手間回到會場的走廊上，遇到了一位在此等候的人。",
 			bgm = "story-musicanniversary-gorgeous",
 			flashout = {
 				black = true,
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202083,
-			say = "指挥官，这是陛下让我传递给你的信息，请过目。",
+			say = "指揮官，這是陛下要我傳遞給你的訊息，請過目。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "从谢菲尔德手中接过了一张精致的卡片。",
+			say = "從謝菲爾德手中接過了一張精緻的卡片。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "卡片上是伊丽莎白的留言，希望我绕一下路，并附上了一个房间号。",
+			say = "卡片上是伊莉莎白的留言，希望我繞一下路，並附上了一個房間號碼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "回过神来，谢菲尔德已经不见了，看来……要自己找过去了。",
+			say = "回過神來，謝菲爾德已經不見了，看來……要自己找過去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "推开门，一个皇家风格的巨大房间映入眼帘。",
+			say = "推開門，一個皇家風格的巨大房間映入眼簾。",
 			soundeffect = "event:/ui/dg-zoxiazhuanpan",
 			typewriter = {
 				speed = 0.05,
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "仿佛此处不是在鸢尾的城堡，而是来到了皇家的宫殿中。",
+			say = "彷彿此處不是在鳶尾的城堡，而是來到了皇家的宮殿中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "巨大的房间中央摆着一张餐桌，伊丽莎白正一个人坐在桌前。",
+			say = "巨大的房間中央擺著一張餐桌，伊莉莎白正一個人坐在桌前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202123,
-			say = "指挥官，请，陛下正在等您。",
+			say = "指揮官，請，陛下正在等您。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "好慢啊，仆从！",
+			say = "好慢啊，僕從！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "这个房间有些难找……没想鸢尾城堡里还有这样的房间。",
+			say = "這個房間有些難找……沒想到鳶尾城堡裡還有這樣的房間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "你是指这个单独定制的私人包间？",
+			say = "你是指這個單獨訂製的私人包廂？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "我可是伊丽莎白女王，{namecode:435}她们要是想要的话也一样可以有，这种事没什么稀奇的。",
+			say = "我可是伊莉莎白女王，俾斯麥她們要是想要的話也一樣可以有，這種事沒什麼稀奇的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "不是说要体验平凡么……？",
+			say = "不是說要體驗平凡嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "之前不是已经跟你体验过了？",
+			say = "之前不是已經跟你體驗過了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "伊丽莎白眨了眨眼，然后挥起手来。",
+			say = "伊莉莎白眨了眨眼，然後揮起手來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "来，仆从，坐吧。",
+			say = "來，僕從，坐吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "还有肚子么？",
+			say = "還有肚子嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,7 +335,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "……倒是有，不过这些菜都是女仆队做的？",
+			say = "……倒是有，不過這些菜都是女僕隊做的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "只有茶是贝法泡的。其他的菜都是后厨直接送过来的，由鸢尾提供。",
+			say = "只有茶是貝法泡的。其他的菜色都是後廚直接送過來的，由鳶尾提供。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "所以跟你在会场吃的也没什么两样，不吃也行。",
+			say = "所以跟你在會場吃的也沒兩樣，不吃也行。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "那就恭敬不如从命。陛下亲自邀请，怎么能拒绝呢。",
+			say = "那就恭敬不如從命。陛下親自邀請，怎麼能拒絕呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "贝法，给指挥官也上点菜吧。",
+			say = "貝法，幫指揮官也上點菜吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "坐在伊丽莎白旁边，边品茶，边随便吃着什么。",
+			say = "坐在伊莉莎白旁邊，邊品茶，邊隨便吃著什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "房间里格外安静，与喧嚣的会场仿佛属于两个世界",
+			say = "房間裡格外安靜，與喧囂的會場彷彿屬於兩個世界",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "不过突然注意到，只有我的杯中是茶，伊丽莎白杯中，似乎是酒。",
+			say = "不過突然注意到，只有我的杯中是茶，伊莉莎白杯中，似乎是酒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "给你茶是因为，一会回会场里有的你喝的。",
+			say = "給你茶是因為，等一下回會場裡有你喝的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -482,7 +482,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "至于本王，偶尔换换口味。",
+			say = "至於本王，偶爾換換口味。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,7 +500,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "鸢尾的葡萄酒还是不错的。",
+			say = "鳶尾的葡萄酒還是不錯的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,7 +518,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "在年份选择上，黎塞留也下了不少心思。",
+			say = "在年份選擇上，黎胥留也下了不少心思。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -536,7 +536,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "给不同喜好的人，提供的年份也不同……呵，真心细啊。",
+			say = "為不同喜好的人，提供的年份也不同……呵，真心細。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "伊丽莎白将杯中的红酒一饮而尽，然后又自己倒了一杯。",
+			say = "伊莉莎白將杯中的紅酒一飲而盡，然後又自己倒了一杯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "这次宴会，鸢尾办的确实不错。",
+			say = "這次宴會，鳶尾辦的確實不錯。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -583,7 +583,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "大到流程小到细节，方方面面都照顾到了。",
+			say = "大到流程小到細節，各方面都照顧到了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -601,7 +601,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "你感觉如何，有没有享受到这场庆典？",
+			say = "你感覺如何，有沒有享受這場慶典？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -616,7 +616,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "嗯，在会场中度过了一段愉快的时光。",
+			say = "嗯，在會場中度過了一段愉快的時光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "那就好……挺好的。",
+			say = "那就好……蠻好的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -645,7 +645,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "谈话间，提示音响了一下，收到了一条黎塞留发来的活动邀请。",
+			say = "談話間，提示音響了一下，收到了一則黎胥留發來的活動邀約。",
 			soundeffect = "event:/ui/deng1",
 			typewriter = {
 				speed = 0.05,
@@ -660,7 +660,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "黎塞留……邀请你去舞池啊。",
+			say = "黎胥留……邀請你去舞池。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -696,7 +696,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "本王有些喝多了，在这里再休息一下。",
+			say = "本王有些喝多了，在這裡再休息一下。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -714,7 +714,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 202123,
-			say = "指挥官，这边请。",
+			say = "指揮官，這邊請。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -729,7 +729,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "转头向着大门的方向走去，依稀听到背后的莎白说了什么。",
+			say = "轉頭朝著大門的方向走去，依稀聽到背後的傻白說了什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -743,7 +743,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "今晚的主角属于鸢尾。",
+			say = "今晚的主角屬於鳶尾。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -761,7 +761,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "本次……本王就破例，不去抢她们的风头了。",
+			say = "本次……本王就破例，不去搶她們的風頭了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -779,7 +779,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205011,
-			say = "好好享受庆典哟，指挥官————",
+			say = "好好享受慶典喲，指揮官————",
 			painting = {
 				alpha = 0.3,
 				time = 1

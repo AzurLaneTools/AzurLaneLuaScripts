@@ -13,11 +13,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"陆间海·某处",
+					"地中海·某處",
 					1
 				},
 				{
-					"维希教廷博览会舰队",
+					"維希教廷博覽會艦隊",
 					2
 				}
 			},
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_underheaven_2",
 			hidePaintObj = true,
 			bgm = "story-clemenceau-judgement",
-			say = "一段时间后，维希教廷舰队离开了博览会会场，来到了一片平静的海域",
+			say = "一段時間後，維希教廷艦隊離開了博覽會會場，來到了平靜的海域",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_2",
 			hidePaintObj = true,
-			say = "一路上果然如同克莱蒙梭在通讯中所说，没有遭遇到任何阻拦。",
+			say = "一路上果然如同克里蒙梭在通訊中所說，並沒有遭遇任何阻攔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 903010,
-			say = "此情此景，我自己都在怀疑我们跟这场袭击事件有脱不开的干系了。",
+			say = "此情此景，我自己都在懷疑我們跟這場攻擊事件有脫不開的干係了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 903010,
-			say = "凯尔圣，这里现在没外人了，你可以解释一下了么？",
+			say = "凱爾聖，這裡現在沒外人了，妳可以解釋一下了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 903010,
-			say = "现在的局面究竟是怎么回事，克莱蒙梭大人究竟在做什么？",
+			say = "現在的局面究竟是怎麼回事，克里蒙梭大人究竟在做什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 901040,
-			say = "嗯……其实，我真的知道的不比你们多多少。",
+			say = "嗯……其實，我真的知道的不比妳們多多少。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 901040,
-			say = "克莱蒙梭大人只是说，她有一个非常、非常不得了的计划。",
+			say = "克里蒙梭大人只是說，她有一個非常、非常不得了的計畫。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 901040,
-			say = "但是…不能向任何人透露这个计划的细节。",
+			say = "但是……不能向任何人透露這個計劃的細節。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "总之，大家只要按照克莱蒙梭大人的命令行动……计划就一定能成功。",
+			say = "總之，大家只要按照克里蒙梭大人的命令行動……計畫一定能成功。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 907010,
-			say = "连你都不知道计划的任何细节，我更是连计划本身都从未听说……",
+			say = "連妳都不知道計劃的任何細節，我甚至連計劃本身都從未聽說……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 907010,
-			say = "对审判庭内都如此提防……也就是说计划的知情人从一变成二都会带来巨大风险。",
+			say = "對審判庭內都如此提防……也就是說計畫的知情人從一變成二都會帶來巨大風險。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "克莱蒙梭大人，您究竟在做什么……",
+			say = "克里蒙梭大人，您究竟在做什麼……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			bgName = "bg_underheaven_2",
 			hidePaintObj = true,
 			nameColor = "#ff5c5c",
@@ -253,7 +253,7 @@ return {
 			actor = 905020,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "凯尔圣，看来你们已经到达第一处坐标了。",
+			say = "凱爾聖，看來妳們已經到達第一個座標了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			actor = 905020,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "离开的过程还顺利么？",
+			say = "離開的過程的還順利嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 901040,
-			say = "最初遇到了一点点波折，不过那位指挥官是通情达理的人。",
+			say = "最初遇到了一點點波折，不過那位指揮官是通情達理的人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 901040,
-			say = "我们没有发生任何冲突就顺利离开了。",
+			say = "我們沒有發生任何衝突就順利離開了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			actor = 905020,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "不但通情达理，而且聪明。",
+			say = "不但通情達理，而且聰明。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 905020,
-			say = "很好，现在向你发送第二处坐标，你带领舰队过去集结。",
+			say = "很好，現在向妳發送第二處座標，妳帶領艦隊過去集結。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			actor = 905020,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "所有人做好战斗准备，但一路上不论遇到谁，或者什么东西都不要开火。",
+			say = "所有人做好戰鬥準備，但一路上不論要遇到誰，或什麼東西都不要開火。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 905020,
-			say = "等待我的后续命令。",
+			say = "等待我的後續命令。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 901040,
-			say = "遵命，克莱蒙梭大人。",
+			say = "遵命，克里蒙梭大人。",
 			painting = {
 				alpha = 0.3,
 				time = 1

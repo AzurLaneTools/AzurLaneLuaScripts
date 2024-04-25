@@ -12,7 +12,7 @@ return {
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "圣赫勒拿岛的港口外，一支庞大的舰队正在此集结。",
+			say = "聖赫勒拿島的港口外，一隻龐大的艦隊正在此集結。",
 			bgm = "theme-richelieu",
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
-			say = "无数自由鸢尾的旗帜在风中飘荡着。",
+			say = "無數自由鳶尾的旗幟在風中飄蕩著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
-			say = "但不仅如此，有一面许久未用的、代表鸢尾教国的旗帜也在风中一同飘荡着。",
+			say = "但不僅如此，有一面許久未用的、代表鳶尾教國的旗幟也在風中一同飄蕩著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
-			say = "——距离这面旗帜上一次飘荡在风中，已经过去了多长时间呢？",
+			say = "——距離上一次這面旗幟飄蕩在風中，已經過去了多長時間呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
-			say = "黎塞留的目光从旗帜移向更为遥远的海面。",
+			say = "黎胥留的目光從旗幟移向更遙遠的海面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
-			say = "此时此刻，浓厚的海雾已经凝结起来，隐隐约约地，似乎有一道海雾组成的门扉在海面上逐渐凝结成型。",
+			say = "此時此刻，濃厚的海霧已經凝結起來，隱約地，似乎有一道海霧組成的門扉在海面上逐漸凝結成型。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
-			say = "与明亮又晴好的岛屿近海不同，门的另一侧传来了火焰与硝烟的气息。",
+			say = "與明亮又晴好的島嶼近海不同，門的另一側傳來了火焰與硝煙的氣息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "（可怖，你一直在等待的就是这个时机么……）",
+			say = "（可怖，妳一直在等待的就是這個時機嗎……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "（没想审判庭居然能利用构建者留下的科技……）",
+			say = "（沒想到審判庭居然能利用建構者留下的科技……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "（克莱蒙梭，现在的事态跟你究竟有多大程度的关联呢……）",
+			say = "（克里蒙梭，現在的事態跟妳究竟有多大程度的關聯呢……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "黎塞留主教，是时候了。",
+			say = "黎胥留主教，是時候了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "嗯。终于……时机已至。",
+			say = "嗯。終於……時機已至。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
-			say = "演讲台上的黎塞留松开压住话筒按钮的手指，轻轻地呼出一口气来。",
+			say = "講台上的黎胥留鬆開壓住麥克風按鈕的手指，輕輕地呼出一口氣來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "——鸢尾的同胞们。",
+			say = "——鳶尾的同胞們。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
-			say = "演讲的声音吸引了所有人的目光，战前的喧嚣声逐渐沉静下来。",
+			say = "演講的聲音吸引了所有人的目光，戰前的喧囂聲逐漸沉靜下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
-			say = "黎塞留的目光依次扫过集结在此的每一个人的脸庞，扫过飘扬的鸢尾教国旗帜，然后在会场安静下来后继续说道。",
+			say = "黎胥留的目光依序掃過集結在此的每一個人的臉龐，掃過飄揚的鳶尾教國旗幟，然後在會場安靜下來後繼續說道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "鸢尾教国的同胞们。",
+			say = "鳶尾教國的同胞們。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们都看到那道门之后展现的景象了。",
+			say = "妳們都看到那道門之後展現的景象了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "那不是幻觉，也不是假象，而是正在发生的现实。",
+			say = "那不是幻覺，也不是假象，而是正在發生的現實。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "此刻，异状已经覆盖了山川河流，无穷无尽的敌人正从天而降。",
+			say = "此刻，異狀已經覆蓋了山川河流，無窮無盡的敵人正從天而降。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "战火正在燃烧。",
+			say = "戰火正在燃燒。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "维希教廷正陷入苦战。",
+			say = "維希教廷正陷入苦戰。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "我们的同胞正在苦战。",
+			say = "我們的同胞正在苦戰。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
-			say = "黎塞留指向海面上的“门”，那道海雾构成的门变得比之前更为清晰。",
+			say = "黎胥留指向海面上的「門」，那道海霧構成的門變得比之前更為清晰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
-			say = "硝烟之后，依稀能看到纷飞的炮火，巨大的机甲，以及一望无尽的白。",
+			say = "硝煙之後，依稀能看到紛飛的炮火，巨大的機甲，以及一望無盡的白。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "维希教廷也好，自由鸢尾也好，我们本来就是一体的。",
+			say = "維希教廷也好，自由鳶尾也好，我們本來就是一體的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -431,42 +431,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "鸢尾教国本来应该是统一的。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_story_sainthelena1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 805010,
-			say = "是过去发生的种种不幸，才导致了当下如此不讲道理的现实。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 805010,
-			side = 2,
-			bgName = "bg_story_sainthelena1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "祖国被迫一分为二，同胞被迫刀兵相向。",
+			say = "鳶尾教國本來應該是統一的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,7 +449,42 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 805010,
-			say = "然后，更多时至今日依旧在隐隐作痛的伤痕诞生了。",
+			say = "是過去發生的種種不幸，才導致了如今如此不合理的現實。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 805010,
+			side = 2,
+			bgName = "bg_story_sainthelena1",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "祖國被迫一分為二，同胞被迫刀兵相向。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_story_sainthelena1",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 805010,
+			say = "然後，更多時至今日依舊在隱隱作痛的傷痕誕生了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
-			say = "黎塞留停顿了一下，再次环顾会场。",
+			say = "黎胥留停頓了一下，再次環顧會場。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			side = 2,
 			bgName = "bg_story_sainthelena1",
 			hidePaintObj = true,
-			say = "这一次，她没有看向鸢尾教国的旗帜，而是举起手中自由鸢尾的旗帜。",
+			say = "這次，她沒有看向鳶尾教國的旗幟，而是舉起手中自由鳶尾的旗幟。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,9 +522,9 @@ return {
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			nameColor = "#A9F548FF",
-			say = "在此集结的人中，有一些是跟随我从皇家三岛开始，一路跨越战火而来的。",
+			say = "在此集結的人中，有一些是跟隨我從皇家三島開始，一路跨越戰火而來的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -553,12 +553,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "有一些则是在中途，加入了这场正义的漫漫征途。",
+			say = "有些則是在中途，加入了這場正義的漫漫征途。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -574,9 +574,9 @@ return {
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			nameColor = "#A9F548FF",
-			say = "但是，支持我们战斗的信念并不会因为战斗时间的长短而有所差异。",
+			say = "但是，支持我們戰鬥的信念並不會因為戰鬥時間的長短而有所差異。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -588,12 +588,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毫无疑问，我们都是为了同一个信念才在今日集结于此的。",
+			say = "毫無疑問，我們都是為了同一個信念才在今日集結於此的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,9 +609,9 @@ return {
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			nameColor = "#A9F548FF",
-			say = "———一个统一祖国的信念。",
+			say = "———一個統一祖國的信念。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -627,9 +627,9 @@ return {
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			nameColor = "#A9F548FF",
-			say = "因此，我们不能对于国土之上正在燃烧的战火袖手旁观。",
+			say = "因此，我們不能對於國土之上正在發生燃燒的戰火袖手旁觀。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -645,9 +645,9 @@ return {
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			nameColor = "#A9F548FF",
-			say = "不能对于正在遭受苦难的同胞袖手旁观。",
+			say = "不能對於正在遭受苦難的同胞袖手旁觀。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -663,9 +663,9 @@ return {
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			nameColor = "#A9F548FF",
-			say = "我们曾与塞壬战斗过，曾与赤色中轴战斗过，更是同各种失败主义战斗过！",
+			say = "我們曾與塞壬戰鬥過，曾與赤色中軸戰鬥過，更是同各種失敗主義戰鬥過！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -681,9 +681,9 @@ return {
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			nameColor = "#A9F548FF",
-			say = "而现在，祖国呼唤我们，去同这个正在吞噬我们文明的，如同梦魇般的灾祸战斗！",
+			say = "而現在，祖國呼喚我們，去同這個正在吞噬我們文明的，如同夢魘般的災禍戰鬥！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -699,9 +699,9 @@ return {
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			nameColor = "#A9F548FF",
-			say = "我，鸢尾教国枢机主教黎塞留在此宣誓。",
+			say = "我，鳶尾教國樞機主教黎胥留在此宣誓。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -717,9 +717,9 @@ return {
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			nameColor = "#A9F548FF",
-			say = "我将带领诸位响应祖国的呼唤，加入这场与天灾梦魇的战斗。",
+			say = "我將帶領諸位響應祖國的呼喚，加入這場與天災夢魘的戰鬥。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -731,47 +731,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我将与诸位一同战斗，直至死亡来临。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_qiongding_7",
-			hidePaintObj = true,
-			dir = 1,
-			actorName = "黎塞留",
-			nameColor = "#A9F548FF",
-			say = "或者，直至彻底战胜敌人，让鸢尾教国的旗帜再次飘扬在我们的故土之上的时刻来临！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			actorName = "黎塞留",
-			bgName = "bg_qiongding_7",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "鸢尾的同胞们……是时候了。",
+			say = "我將與諸位一同戰鬥，直至死亡來臨。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -787,9 +752,44 @@ return {
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			nameColor = "#A9F548FF",
-			say = "全体舰队注意，让我们向着祖国的方向，拔锚，起航！",
+			say = "或者，直到徹底戰勝敵人，讓鳶尾教國的旗幟再次飄揚在我們的故土之上的時刻來臨！",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			actorName = "黎胥留",
+			bgName = "bg_qiongding_7",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "鳶尾的同胞們……是時候了。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_qiongding_7",
+			hidePaintObj = true,
+			dir = 1,
+			actorName = "黎胥留",
+			nameColor = "#A9F548FF",
+			say = "全體艦隊注意，讓我們朝祖國的方向，拔錨，起航！",
 			effects = {
 				{
 					active = true,
@@ -810,7 +810,7 @@ return {
 			side = 2,
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
-			say = "如雷鸣般的掌声中，这支庞大的舰队次第驶入了摇动的门扉。",
+			say = "如雷鳴般的掌聲中，這支龐大的艦隊次第駛入了搖動的門扉。",
 			effects = {
 				{
 					active = false,
@@ -827,7 +827,7 @@ return {
 			side = 2,
 			bgName = "bg_qiongding_7",
 			hidePaintObj = true,
-			say = "一场自自由鸢尾诞生为止，最为盛大的远征开始了——",
+			say = "一場自自由鳶尾誕生為止，最為盛大的遠征開始了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -839,11 +839,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"维希教廷所属",
+					"維希教廷所屬",
 					1
 				},
 				{
-					"土伦要塞·周边海域",
+					"土倫要塞·週邊海域",
 					2
 				}
 			},
@@ -872,7 +872,7 @@ return {
 			bgName = "bg_underheaven_5",
 			hidePaintObj = true,
 			bgm = "story-clemenceau-judgement",
-			say = "惨烈的战斗已进行了多时。",
+			say = "慘烈的戰鬥已進行了多時。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -883,7 +883,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_5",
 			hidePaintObj = true,
-			say = "燃烧的残骸遍布水面。",
+			say = "燃燒的殘骸遍布水面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -894,7 +894,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_5",
 			hidePaintObj = true,
-			say = "此刻的海面虽然已归于沉寂，但是毫无疑问，这支千疮百孔的舰队已经无力应对敌人下一轮进攻了。",
+			say = "此刻的海面雖然已歸於沉寂，但是毫無疑問，這支千瘡百孔的艦隊已經無力應對敵人下一輪進攻了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -905,7 +905,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_5",
 			hidePaintObj = true,
-			say = "领导这支舰队之人如今正手持破碎的旗帜，茫然呆坐在水面上。",
+			say = "領導這支艦隊之人如今正手持破碎的旗幟，茫然呆坐在水面上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -916,7 +916,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_5",
 			hidePaintObj = true,
-			say = "不久前的豪情已然不再，留下的只有无尽的不甘与茫然。",
+			say = "不久前的豪情已然不再，留下的只有無盡的不甘於茫然。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -929,7 +929,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "何等惨状……",
+			say = "何等慘狀……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -946,7 +946,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "我只是在赌气么……",
+			say = "我只是在賭氣嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -963,7 +963,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "我的决定是错的么……",
+			say = "我的決定是錯的嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -980,7 +980,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "我再次带领舰队走向毁灭了么……",
+			say = "我再次帶領艦隊走向毀滅了嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -999,7 +999,7 @@ return {
 			actor = 807020,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "{namecode:523}大人，又有新的敌人过来了……",
+			say = "讓·巴爾大人，又有新的敵人過來了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1018,7 +1018,7 @@ return {
 			actor = 807020,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "这一次，天上和水下都来了些新东西……",
+			say = "這次，天上和水下都來了些新東西……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1037,7 +1037,7 @@ return {
 			actor = 807020,
 			nameColor = "#ffff4d",
 			hidePaintObj = true,
-			say = "我们该……怎么办？",
+			say = "我們該……怎麼辦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1054,7 +1054,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "（是啊，我们该怎么办……）",
+			say = "（是啊，我們該怎麼辦……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1071,7 +1071,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "（黎塞留和克莱蒙梭都先后背叛了我们，我们该怎么办……）",
+			say = "（黎胥留和克里蒙梭都先後背叛了我們，我們該怎麼辦……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1086,7 +1086,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_5",
 			hidePaintObj = true,
-			say = "舰队的领袖没有理会通讯器中传来的呼叫声，只是茫然呆坐在水面上。",
+			say = "艦隊的領袖沒有理會通訊器中傳來的呼叫，只是茫然呆坐在水面上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1123,12 +1123,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这就放弃了么，我的妹妹？",
+			say = "這就放棄了嗎，我的妹妹？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1140,7 +1140,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:523}",
+			actorName = "讓·巴爾",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
@@ -1157,12 +1157,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:523}",
+			actorName = "讓·巴爾",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "呵，又是濒死前的幻觉么……",
+			say = "呵，又是瀕死前的幻覺嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1174,12 +1174,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:523}",
+			actorName = "讓·巴爾",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "这一次，神的天使变换成姐姐的样子来带我走了么……",
+			say = "這一次，神的天使變幻成姊姊的樣子來帶我走了嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1191,12 +1191,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:523}，你作为教国的骑士，作为舰队的领袖，怎么能如此失态？",
+			say = "讓·巴爾，妳身為教國的騎士，身為艦隊的領袖，怎麼能如此失態？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1208,12 +1208,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果连领袖都放弃了，追随你而战斗的舰队将会如何？",
+			say = "如果連領袖都放棄了，跟隨妳而戰鬥的艦隊會如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1225,12 +1225,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果追随你而战斗的舰队覆灭了，你们应该保护的人民又将如何？",
+			say = "如果追隨妳而戰鬥的艦隊覆滅了，妳們該保護的人民又該如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1242,12 +1242,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:523}",
+			actorName = "讓·巴爾",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "如果这是神派来的天使，那这个天使未免也有些太严厉，太像姐姐了……",
+			say = "如果這是神派來的天使，那這位天使未免也有些太嚴厲，太像姊姊了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1262,7 +1262,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "轟————————！",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -1313,7 +1313,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
-			say = "火炮声击碎了海域短暂的宁静。",
+			say = "火炮聲擊碎了海域短暫的寧靜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1324,7 +1324,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
-			say = "敌人再次逼近了。",
+			say = "敵人再次逼近了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1335,7 +1335,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
-			say = "不过，预想中的毁灭却没有到来。",
+			say = "不過，預想中的毀滅卻沒有到來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1348,8 +1348,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "沃克兰",
-			say = "{namecode:523}大人！援、援军来了！",
+			actorName = "沃克蘭",
+			say = "讓·巴爾大人！援、援軍來了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1366,8 +1366,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "沃克兰",
-			say = "自由鸢尾和审判庭的联合舰队直接伴随着一阵闪光出现在战场中间！",
+			actorName = "沃克蘭",
+			say = "自由鳶尾和審判庭的聯合艦隊直接伴隨著一陣閃光出現在戰場中間！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1384,8 +1384,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "沃克兰",
-			say = "敌人正在被击垮，我们安全了！",
+			actorName = "沃克蘭",
+			say = "敵人正在被擊垮，我們安全了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1402,8 +1402,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "敦刻尔克",
-			say = "刚才我还以为咱们所有人都要沉在这里了呢，没想到你早就叫好了援军。",
+			actorName = "敦克爾克",
+			say = "剛才我還以為我們所有人都要沉在這裡了呢，沒想到妳早就叫好了援軍。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1420,8 +1420,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "敦刻尔克",
-			say = "这么说……之前你和克莱蒙梭大人的冲突，是在演戏？",
+			actorName = "敦克爾克",
+			say = "這麼說……之前妳和克里蒙梭大人的衝突，是在演戲？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1447,7 +1447,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
-			say = "通讯中传来的消息令{namecode:523}十分费解。",
+			say = "通訊中傳來的消息令讓·巴爾十分費解。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1455,12 +1455,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:523}",
+			actorName = "讓·巴爾",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "自由鸢尾和……审判庭的援军？",
+			say = "自由鳶尾和……審判庭的援軍？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1472,12 +1472,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:523}",
+			actorName = "讓·巴爾",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "到底是怎么回事……难道，你……真的是姐姐？",
+			say = "到底是怎麼回事……難道，妳……真的是姊姊？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1489,12 +1489,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你终于发现了？",
+			say = "妳終於發現了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1506,12 +1506,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "任何时候都不能放弃相信希望。",
+			say = "任何時候都不能放棄相信希望。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1523,12 +1523,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样当希望降临之时，你才能紧紧抓住那缕光哦。",
+			say = "這樣當希望降臨之時，妳才能緊緊抓住那縷光哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1540,12 +1540,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:523}",
+			actorName = "讓·巴爾",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……你现在来做什么，黎塞留主教？",
+			say = "……妳現在來做什麼，黎胥留主教？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1557,12 +1557,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:523}",
+			actorName = "讓·巴爾",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……是来嘲笑我的惨状的么。",
+			say = "……是來嘲笑我的慘狀的嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1574,12 +1574,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "为什么不能老老实实叫姐姐呢？",
+			say = "為什麼不能老老實實叫姐姐呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1591,12 +1591,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "刚刚叫的不是挺顺口么？",
+			say = "剛剛叫的不是很順口嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1608,7 +1608,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:523}",
+			actorName = "讓·巴爾",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
@@ -1625,12 +1625,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我很喜欢，多叫两句。",
+			say = "我很喜歡，多叫兩句。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1642,12 +1642,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "来，跟我念。黎·塞·留·姐·姐。",
+			say = "來，跟我念。黎·胥·留·姊·姊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1659,12 +1659,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样我就原谅你的冒犯。",
+			say = "這樣我就原諒妳的冒犯。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1680,8 +1680,8 @@ return {
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:523}",
-			say = "……你！",
+			actorName = "讓·巴爾",
+			say = "……妳！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -1698,7 +1698,7 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
@@ -1715,12 +1715,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你期待的斗嘴环节，到这里应该就差不多了？",
+			say = "妳期待的鬥嘴環節，到這裡應該就差不多了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1732,12 +1732,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们快进下一项日程，战争还没有结束呢，振作起来，我的妹妹。",
+			say = "我們快進到下一項行程，戰爭還沒結束呢，振作起來，我的妹妹。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1749,12 +1749,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我前来的原因显而易见。",
+			say = "我前來的原因顯而易見。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1766,12 +1766,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你正深陷危机之中，我们的祖国也正深陷危机之中。",
+			say = "妳正深陷危機之中，我們的祖國也正深陷危機之中。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1783,12 +1783,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我做出了我的选择，你呢？",
+			say = "我做出了我的選擇，妳呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1800,12 +1800,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:523}",
+			actorName = "讓·巴爾",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……反正之前克莱蒙梭已经把我们逐出教廷了。",
+			say = "……反正之前克里蒙梭已經把我們逐出教廷了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1817,12 +1817,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:523}",
+			actorName = "讓·巴爾",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "我们现在无处可去，如果你愿意接纳我们的话……",
+			say = "我們現在無處可去，如果妳願意接納我們的話……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1834,12 +1834,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_underheaven_cg7",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当然，我的妹妹。",
+			say = "當然，我的妹妹。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1854,7 +1854,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_5",
 			hidePaintObj = true,
-			say = "{namecode:523}深吸了一口气，将通讯器的话筒放到嘴边。",
+			say = "讓·巴爾深吸了一口氣，將通訊器的麥克風放到嘴邊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1884,7 +1884,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原维希教廷所属，现在已然自由的鸢尾骑士们，我是{namecode:523}。",
+			say = "原維希教廷所屬，現在已然自由的鳶尾騎士們，我是讓·巴爾。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1901,7 +1901,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来，我将会加入黎塞留主教，与她和她的舰队一同为了祖国而战。",
+			say = "接下來，我將會加入黎胥留主教，與她和她的艦隊一同為了祖國而戰。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1918,7 +1918,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我已经没有立场再命令诸位做什么事。",
+			say = "我已經沒有立場再命令各位做什麼事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1935,7 +1935,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是，我希望诸位能够加入我们，在此时此刻团结一致，共同消灭这些可憎的敌人……",
+			say = "但是，我希望各位能夠加入我們，在此時此刻團結一致，共同消滅這些可憎的敵人……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1953,7 +1953,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 807020,
-			say = "如您所愿，{namecode:523}大人！",
+			say = "如您所願，讓‧巴爾大人！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1990,7 +1990,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 904010,
-			say = "当然没有问题。还有，你现在依然是我们的舰队领袖哦，{namecode:523}大人。",
+			say = "當然沒有問題。還有，妳現在還是我們的艦隊領袖哦，讓·巴爾大人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2007,7 +2007,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唉，你可比阿尔及利亚还固执，总算等你想开了！",
+			say = "唉，妳可比阿爾及利亞還固執，總算等妳想開了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2041,7 +2041,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总算……",
+			say = "總算……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2083,7 +2083,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
-			say = "{namecode:523}丢弃了手中残破的维希教廷旗帜，向着黎塞留单膝跪下。",
+			say = "讓·巴爾丟棄了手中殘破的維希教廷旗幟，向著黎胥留單膝跪下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2094,7 +2094,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
-			say = "黎塞留将旗帜搭在{namecode:523}的肩上，庄重的宣告着。",
+			say = "黎胥留將旗幟搭在讓·巴爾的肩上，莊重的宣告著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2102,12 +2102,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我作为鸢尾教国枢机主教，在此宣布。",
+			say = "我作為鳶尾教國樞機主教，在此宣布。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2119,12 +2119,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "恢复{namecode:523}身为鸢尾教国护教骑士团团长、鸢尾教国舰队司令及其被不公正剥夺的一切身份与头衔。",
+			say = "恢復讓·巴爾身為鳶尾教國護教騎士團團長、鳶尾教國艦隊司令及其被不公正剝奪的一切身分與頭銜。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2136,12 +2136,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其麾下所属的原维希教廷舰队成员亦然。",
+			say = "其麾下所屬的原維希教廷艦隊成員已然。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2153,12 +2153,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "与我们并肩作战吧，{namecode:523}。",
+			say = "與我們並肩作戰吧，讓·巴爾。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2170,7 +2170,7 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:523}",
+			actorName = "讓·巴爾",
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
 			dir = 1,
@@ -2187,12 +2187,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:523}",
+			actorName = "讓·巴爾",
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "亦如往日，向您交付我的忠诚。",
+			say = "亦如往日，向您交付我的忠貞。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2204,12 +2204,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "{namecode:523}",
+			actorName = "讓·巴爾",
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欢迎回家，教国的枢机主教，我的姐姐。",
+			say = "歡迎回家，教國的樞機主教，我的姊姊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2221,12 +2221,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……好久不见，我的妹妹。",
+			say = "……好久不見，我的妹妹。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2238,12 +2238,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "黎塞留",
+			actorName = "黎胥留",
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我回来了。",
+			say = "我回來了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2258,7 +2258,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
-			say = "巨大的欢呼声在洋面上爆发出来。",
+			say = "巨大的歡呼聲在洋面上爆發出來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2269,7 +2269,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg8",
 			hidePaintObj = true,
-			say = "而在所有人都没有注意到的角落，加斯科涅静静向远方驶去，消失在了所有人的视线中。",
+			say = "而在所有人沒有注意到的角落，加斯科涅靜靜向遠方駛去，消失在了所有人的視線中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

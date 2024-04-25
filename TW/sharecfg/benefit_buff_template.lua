@@ -108,6 +108,7 @@ pg.benefit_buff_template = setmetatable({
 		139,
 		140,
 		141,
+		142,
 		300001,
 		300002,
 		300003,
@@ -2035,6 +2036,19 @@ pg.base.benefit_buff_template = {
 				4
 			}
 		}
+	},
+	[142] = {
+		type_priority = 0,
+		name = "宴會邀約",
+		hide = 1,
+		max_time = 0,
+		act_id = 4964,
+		benefit_condition = "",
+		desc = "活動期間，透過戰鬥獲得的好感度提高。",
+		benefit_effect = "1",
+		id = 142,
+		icon = "Props/yanhuiyaoyue",
+		benefit_type = "ship_battle_intimacy"
 	},
 	[300001] = {
 		type_priority = 0,

@@ -1529,11 +1529,23 @@ pg.ship_data_group = setmetatable({
 		[80202] = {
 			454
 		},
+		[80203] = {
+			603
+		},
+		[80301] = {
+			600
+		},
 		[80501] = {
 			453
 		},
+		[80502] = {
+			602
+		},
 		[80701] = {
 			458
+		},
+		[80702] = {
+			599
 		},
 		[80801] = {
 			350
@@ -1546,6 +1558,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[90103] = {
 			457
+		},
+		[90104] = {
+			601
 		},
 		[90111] = {
 			394
@@ -1573,6 +1588,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[90501] = {
 			353
+		},
+		[90502] = {
+			604
 		},
 		[90503] = {
 			418
@@ -2379,12 +2397,17 @@ pg.ship_data_group = setmetatable({
 		523,
 		349,
 		454,
+		603,
+		600,
 		453,
+		602,
 		458,
+		599,
 		350,
 		351,
 		452,
 		457,
+		601,
 		394,
 		556,
 		481,
@@ -2394,6 +2417,7 @@ pg.ship_data_group = setmetatable({
 		455,
 		352,
 		353,
+		604,
 		418,
 		555,
 		571,
@@ -6835,7 +6859,7 @@ pg.base.ship_data_group = {
 		redirect_id = 101,
 		hide = 0,
 		nationality = 1,
-		trans_skin = 0,
+		trans_skin = 10,
 		handbook_type = 0,
 		index_id = 100,
 		code = 61,
@@ -6878,7 +6902,7 @@ pg.base.ship_data_group = {
 		redirect_id = 101,
 		hide = 0,
 		nationality = 1,
-		trans_skin = 0,
+		trans_skin = 105119,
 		handbook_type = 0,
 		index_id = 101,
 		code = 62,
@@ -6893,8 +6917,17 @@ pg.base.ship_data_group = {
 			"D",
 			"A"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"B",
+			"A"
+		},
+		trans_skill = {
+			16950
+		},
 		description = {
 			{
 				"限時活動：墜落之翼",
@@ -23687,6 +23720,70 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[603] = {
+		type = 2,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 8,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 542,
+		code = 603,
+		group_type = 80203,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：愚者的天平",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[600] = {
+		type = 3,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 8,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 543,
+		code = 600,
+		group_type = 80301,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"C",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：愚者的天平",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[453] = {
 		type = 5,
 		redirect_id = 101,
@@ -23712,6 +23809,38 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：穹頂下的聖詠曲",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[602] = {
+		type = 5,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 8,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 545,
+		code = 602,
+		group_type = 80502,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"D",
+			"D",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：愚者的天平",
 				{
 					""
 				},
@@ -23756,6 +23885,38 @@ pg.base.ship_data_group = {
 					{
 						warp = "supplies"
 					}
+				},
+				0
+			}
+		}
+	},
+	[599] = {
+		type = 7,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 8,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 547,
+		code = 599,
+		group_type = 80702,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"D",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：愚者的天平",
+				{
+					""
 				},
 				0
 			}
@@ -23913,6 +24074,38 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：穹頂下的聖詠曲",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[601] = {
+		type = 1,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 9,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 552,
+		code = 601,
+		group_type = 90104,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：愚者的天平",
 				{
 					""
 				},
@@ -24259,6 +24452,38 @@ pg.base.ship_data_group = {
 						projectName = "heavy",
 						page = 1
 					}
+				},
+				0
+			}
+		}
+	},
+	[604] = {
+		type = 5,
+		redirect_id = 101,
+		hide = 0,
+		nationality = 9,
+		trans_skin = 0,
+		handbook_type = 0,
+		index_id = 562,
+		code = 604,
+		group_type = 90502,
+		trans_type = 0,
+		share_group_id = {},
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"D",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：愚者的天平",
+				{
+					""
 				},
 				0
 			}

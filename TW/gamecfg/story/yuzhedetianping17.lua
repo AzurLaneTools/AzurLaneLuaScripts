@@ -12,7 +12,7 @@ return {
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "世界仿佛笼罩在了一片古怪的白色中。",
+			say = "世界彷彿籠罩在了一片古怪的白色中。",
 			bgm = "theme-underheaven",
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "肆意生长的粘稠菌丝仍然在蔓延着，山川大地仿佛被其转化为了某种活物。",
+			say = "肆意生長的黏稠菌絲仍在蔓延著，山川大地彷彿被其轉換為了某種活物。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "除了迪洛伊之外，更多的怪异敌人也出现在了水面上。",
+			say = "除了迪洛伊之外，更多的怪異敵人也出現在了水面上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "虽然依靠极光之壁的保护和各阵营联合舰队的作战，会场中的战况正在逐渐好转。",
+			say = "雖然依靠極光之壁的保護和各陣營聯合艦隊的作戰，會場中的戰況正在逐漸好轉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "但从全局上来看，局势毫无疑问正在每分每秒中恶化。",
+			say = "但從全局來看，局勢毫無疑問地正在每分每秒惡化。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我们刚刚拍摄到了一些最新画面。",
+			say = "指揮官，我們剛剛拍了一些最新畫面。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也许揭示了这些源源不断出现的敌人的……诞生过程。",
+			say = "也許揭示了，這些源源不絕的敵人……誕生過程。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,7 +123,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "光辉发来了侦察机的画面。",
+			say = "光輝發來了偵察機的畫面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "在第一组照片中，无数大小不一的“茧”出现在了被白色物质覆盖的大地上。",
+			say = "在第一組照片中，無數大小不一的「繭」出現在了被白色物質覆蓋的大地上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "“茧”与“茧”之间，通过某种红色的脉络相连，就像在吸收大地的养分一样。",
+			say = "「繭」與「繭」之間，透過某種紅色的脈絡相連，就像在吸收大地的養分一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "然后是第二组照片，“茧”爆裂开来，怪异敌人从中破茧而出。",
+			say = "然後是第二組照片，「繭」爆裂開來，怪異敵人從中破繭而出。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "好恶心……居然是……孵化出来的？",
+			say = "好噁心……居然是……孵化出來的？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "将万物转化为养料，然后孵化增殖……",
+			say = "將萬物轉化為養分，然後孵化增殖……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "不过指挥官，妾身认为这里虽然不是吾等熟知的镜面海域，但也并非就是于现世中发生之事。",
+			say = "不過指揮官，妾身認為這裡雖然不是吾等熟知的鏡面海域，但並非就是於現世中發生之事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "此等宛如梦魇之景，或许真的是一场梦，一场特殊的梦。",
+			say = "此等宛如夢魘之景，或許真的是一場夢，一場特殊的夢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "{namecode:182}女士，您所说的，听上去有点像逃避现实时的借口……",
+			say = "信濃女士，您所說的，聽起來有點像逃避現實時的藉口……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "{namecode:182}，你有什么证据么？",
+			say = "信濃，妳有什麼證據嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "直观的证据虽然没有，不过确有佐证。",
+			say = "直觀的證據雖然沒有，不過確有佐證。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "自从那些名为迪洛伊的敌人出现后，妾身就感觉到了一股喷涌而出的力量。",
+			say = "自從那些名為迪洛伊的敵人出現後，妾身就感覺到了一股噴湧而出的力量。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "能将如此之多的人卷入的梦，定然与妾身平日游历之梦不同。",
+			say = "能將此之多的人捲入的夢，定然與妾身平日遊歷之夢不同。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "但妾身在现世之中，从未拥有过如此力量……这就是妾身认为此处为梦境的佐证。",
+			say = "但妾身在現世之中，從未擁有過這些力量……這就是妾身認為此處為夢境的佐證。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "（在此前的作战中，{namecode:182}错将一处塞壬构建的特殊空间当成了梦境。）",
+			say = "（在先前的戰鬥中，信濃錯將一處塞壬建構的特殊空間當成了夢境。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "（或许……这次也一样。）",
+			say = "（或許……這次也是一樣。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "如果{namecode:182}的判断是正确的，此处是一个人为构建的特殊空间，而不是现实世界本身。",
+			say = "如果信濃的判斷是正確的，此處是一個人為建構的特殊空間，而不是現實世界本身。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "那就有一定有一套核心装置在维持空间的存在。",
+			say = "那就有一定有一套核心裝置在維持空間的存在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "就和应对镜面海域时相同，找到并将其破坏，就可以从无休止的消耗战中解脱出来，一举扭转局势。",
+			say = "就和應對鏡面海域時相同，找到並將其破壞，就可以從無休止的消耗戰中解脫出來，一舉扭轉局勢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "为此，首先需要恢复通讯，整合陆间海中各处的力量才行。",
+			say = "為此，首先需要恢復通訊，整合地中海中各處的力量才行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,14 +404,14 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "埃塞克斯那边，应该也处理的差不多了——",
+			say = "艾塞克斯那邊，應該也處理的差不多了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "联系埃塞克斯",
+					content = "聯繫艾塞克斯",
 					flag = 1
 				}
 			}
@@ -426,7 +426,7 @@ return {
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "受信清晰，指挥官。",
+			say = "收訊清晰，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,7 +461,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "我们已经成功修复了「太空针」的信号阵列。",
+			say = "我們已經成功修復了「太空針」的訊號陣列。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "接下来只要启动临时中继阵列，就大功告成了。",
+			say = "接下來只要啟動臨時中繼陣列，就大功告成了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -498,7 +498,7 @@ return {
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "通讯恢复倒计时，Stand by，Stand by。",
+			say = "通訊恢復倒數計時，Stand by，Stand by。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "3……2……1……就是现在！海伦娜，合闸！",
+			say = "3……2……1……就是現在！海倫娜，合閘！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -528,11 +528,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "[滋啦——]要塞呼叫[滋啦——]，收[滋啦——]请[滋啦——]复——",
+			say = "[滋啦——]要塞呼叫[滋啦——]，收[滋啦——]請[滋啦——]複——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,22 +540,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "马[滋啦——]耳他要塞呼叫博览[滋啦——]场，收到请[滋啦——]复——",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_story_italy",
-			hidePaintObj = true,
-			say = "寂静了许久的通讯器中传来了沸沸扬扬的嘈杂呼叫，转眼间竟如喧嚣的街市般热闹。",
+			say = "馬[滋啦——]爾他要塞呼叫博覽[滋啦——]場，收到請[滋啦——]複——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +555,7 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "情报正伴随着通讯如雪片般传来。",
+			say = "寂靜了許久的通訊器中傳來了四面八方的嘈雜呼叫，轉眼間竟如喧囂的街道般熱鬧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +566,7 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "好消息是，陆间海中各处要塞的抵抗并没有停止。",
+			say = "情報正伴隨著通訊如雪片般傳來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +577,7 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "坏消息则是……这个被马可波罗称为“神之国度”空间所影响的范围比之前认为的要广阔得多，也严重得多。",
+			say = "好消息是，地中海中各處要塞的抵抗並沒有停止。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +588,18 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "必须要尽快与各处战斗中的要塞建立稳定的通讯频道，整理出海域中的态势图才行。",
+			say = "壞消息則是……這個被馬可波羅稱為「神之國度」空間所影響的範圍比之前認為的要廣闊的多，也嚴重的多。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_story_italy",
+			hidePaintObj = true,
+			say = "必須盡快與各處戰鬥中的要塞建立穩定的通訊頻道，整理出海域中的態勢圖才行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +613,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官，我立刻着手处理。",
+			say = "指揮官，我立刻著手處理。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -630,7 +630,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也来帮忙，现阶段需要的人应该是多多益善吧？",
+			say = "我也來幫忙，現階段需要的人應該是多多益善吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -648,7 +648,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 702010,
-			say = "嗯，人多力量大，我和水星纪念也来帮忙。",
+			say = "嗯，人多力量大，我和水星紀念也來幫忙。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -666,7 +666,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "这方面的事不是我的专长，不过我这里正好有一个擅长的人。",
+			say = "這方面的事不是我的專長，不過我這裡剛好有一個擅長的人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -683,7 +683,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:401}，你去帮忙吧",
+			say = "Z2，妳去幫忙吧",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -717,7 +717,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:50}，汝也去协助。",
+			say = "能代，汝也去協助。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -734,7 +734,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "遵命，{namecode:182}大人。",
+			say = "遵命，信濃大人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -750,7 +750,7 @@ return {
 			bgName = "storymap_huanlujianhai1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "在各阵营的齐心协力下，很快海域中的所有已知情报都被整理完毕。",
+			say = "在各陣營的齊心協力下，很快海域中的所有已知情報都被整理完畢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -779,7 +779,7 @@ return {
 			bgName = "storymap_huanlujianhai1",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "总算可以摆脱盲目作战的状态，找回一些主动权了。",
+			say = "總算可以擺脫盲目作戰的狀態，找回一些主動權了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -790,7 +790,7 @@ return {
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			say = "直布罗陀要塞的战况并不严峻。",
+			say = "直布羅陀要塞的戰況並不嚴峻。",
 			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
@@ -810,7 +810,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "在得知了会场情况后，厌战表示将会留下一部分人驻防，之后带领主力舰队前来支援。",
+			say = "在得知了會場情況後，厭戰表示將會留下一部分人駐防，之後帶領主力艦隊前來支援。",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -827,7 +827,7 @@ return {
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			say = "马耳他要塞的情况则严峻许多，在敌人猛烈的进攻下，驻防舰队已经被包围在要塞中。",
+			say = "馬爾他要塞的情況則嚴峻許多，在敵人猛烈的進攻下，駐防艦隊已經被包圍在要塞中。",
 			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
@@ -848,7 +848,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "在评估了实际情况后，{namecode:427}同意了带领铁血舰队前去马耳他支援的方案。",
+			say = "在評估了實際情況後，歐根親王同意了帶領戰鬥力最強的鐵血艦隊前往馬爾他支援的方案。",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -867,7 +867,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "之后她们会与皇家舰队一同返回会场集结。",
+			say = "之後她們會與皇家艦隊一同返回會場集結。",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -885,7 +885,7 @@ return {
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			say = "土伦港中驻扎着维希教廷的主力舰队。",
+			say = "土倫港中駐紮維希教廷的主力艦隊。",
 			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
@@ -907,7 +907,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "不过其在通讯中只进行了公示性回应，拒绝提供任何情报，也拒绝了联合作战的邀请。",
+			say = "不過其在通訊中只進行了公示性回應，拒絕提供任何情況，也拒絕了聯合作戰的邀請。",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -927,7 +927,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "目前也只能先静观其变……",
+			say = "目前也只能先靜觀其變……",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -947,7 +947,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "撒丁帝国的情况也不容乐观。",
+			say = "薩丁帝國的情況也不樂觀。",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -967,7 +967,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "在袭击开始前，马可波罗似乎尝试过利用元老院的授权控制撒丁舰队。",
+			say = "在襲擊開始前，馬可波羅似乎嘗試過利用元老院的授權控制薩丁艦隊。",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -987,7 +987,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "不过因为种种原因未能得逞。现在随着通讯恢复，维内托已经重新取回了控制权。",
+			say = "不過因為種種原因未能得逞。現在隨著通訊恢復，維內托已經重新取回了控制權。",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -1006,7 +1006,7 @@ return {
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			say = "目前，塔兰托要塞周边的战斗已经暂时结束，其中的撒丁帝国驻防舰队正在原地待命。",
+			say = "目前，塔蘭托要塞週邊的戰鬥已經暫時結束，其中的薩丁帝國駐防艦隊正在原地待命。",
 			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
@@ -1028,31 +1028,9 @@ return {
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			say = "撒丁帝国舰队的二把手利托里奥目前人在威尼斯办事。",
+			say = "薩丁帝國艦隊的二把手利托里奧目前人在威尼斯辦事。",
 			blackBg = true,
 			soundeffect = "event:/ui/huihua",
-			canMarkNode = {
-				"huanlujianhai1",
-				{
-					1,
-					2,
-					3,
-					5,
-					6
-				}
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			dialogueBgAlpha = 0.6,
-			hidePaintObj = true,
-			blackBg = true,
-			say = "并在袭击发生后立刻前往了安全的地堡躲避，虽然被孤立在外，但还算安全。",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -1074,7 +1052,29 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "维内托原本打算让塔兰托舰队前去威尼斯救援，不过利托里奥表示远水解不了近渴，她自己会尝试其他方法脱困。",
+			say = "並在襲擊發生後立刻前往了安全的地堡躲避，雖然被孤立在外，但還算安全。",
+			canMarkNode = {
+				"huanlujianhai1",
+				{
+					1,
+					2,
+					3,
+					5,
+					6
+				}
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			dialogueBgAlpha = 0.6,
+			hidePaintObj = true,
+			blackBg = true,
+			say = "維內托原本打算讓塔蘭托艦隊前往威尼斯救援，不過利托里奧表示遠水解不了近火，她自己會嘗試其他方法脫困。",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -1095,7 +1095,7 @@ return {
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			say = "撒丁帝国的首都也遭到了袭击。不过因为驻防舰队的及时应对和来自本土的支援，目前战斗已经接近尾声。",
+			say = "薩丁帝國的首都也遭到了攻擊。不過因為駐防艦隊的及時應對和來自本土的支援，目前戰鬥已經接近尾聲。",
 			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
@@ -1120,7 +1120,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "维内托级的罗马表示，将会在确保首都安全后，带领驻防舰队前来会场集合。",
+			say = "維內托級的羅馬表示，將在戰鬥結束後，帶領駐防艦隊前來會場集合。",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -1143,7 +1143,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "同时她提供了一个重要信息，马可波罗的王座目前正在某处海域上空发光盘旋，似乎在进行着某种仪式。",
+			say = "同時她提供了一個重要訊息，馬可波羅的王座目前正在某處海域上空發光盤旋，似乎正在進行某種儀式。",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -1165,7 +1165,7 @@ return {
 			side = 2,
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
-			say = "值得注意的还有亚历山大港，那里原本应该驻扎有一支撒丁帝国舰队，但对其的呼叫没有取得任何回应，目前情况不明。",
+			say = "值得注意的還有亞歷山大港，那裡原本應該駐紮有一隻薩丁帝國艦隊，但對其呼叫後沒有取得任何回應，目前情況不明。",
 			blackBg = true,
 			soundeffect = "event:/ui/huihua",
 			canMarkNode = {
@@ -1191,7 +1191,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "塔兰托已经派出侦察机前往亚历山大方向了，相信不久后就能得到更确切的消息。",
+			say = "從塔蘭托的偵察機已經朝著亞歷山大方向而去，不久後就能得到更確切的消息了。",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -1215,7 +1215,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "撒丁帝国的全部舰队、皇家与维希教廷的陆间海舰队，再加上集结在博览会会场的各阵营联合舰队。",
+			say = "薩丁帝國的全部艦隊、皇家與維希教廷的地中海艦隊，再加上集結在博覽會會場的各陣營聯合艦隊。",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -1239,7 +1239,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "总体来说，被卷入“神之国度”的舰队力量十分可观。",
+			say = "整體來說，被捲入「神之國度」的艦隊力量十分可觀。",
 			canMarkNode = {
 				"huanlujianhai1",
 				{
@@ -1263,7 +1263,7 @@ return {
 			dialogueBgAlpha = 0.6,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "就算面对此等不利局面……只要能团结一致，依然有胜算！",
+			say = "就算面對此等不利局面……只要能團結一致，依然有勝算！",
 			canMarkNode = {
 				"huanlujianhai1",
 				{

@@ -12,11 +12,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"皇家所属",
+					"皇家所屬",
 					1
 				},
 				{
-					"伊比利亚半岛·直布罗陀要塞",
+					"伊比利半島直布羅陀要塞",
 					2
 				}
 			},
@@ -36,7 +36,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			bgm = "story-clemenceau-judgement",
-			say = "（防空警报声——）",
+			say = "（防空警報聲——）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "通告所属国籍不明之战舰，你正在进入我方警戒区域。请表明你的身份。",
+			say = "通告所屬國籍不明之戰艦，妳正進入我方警戒區域。請表明妳的身分。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "重复一遍，通告所属国籍不明之战舰……",
+			say = "重複一遍，通告所屬國籍不明之戰艦……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对方没有做出任何回应，厌战大人。",
+			say = "對方沒有做出任何回應，厭戰大人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过也没有做出任何攻击姿态，只是静静地向我们接近，还要继续呼叫么？",
+			say = "不過也沒有做出任何攻擊姿態，只是靜靜地向我們接近，還要繼續呼叫嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "先呼叫着，不要主动发起攻击，我们首先需要更多时间来……搞清现状。",
+			say = "先呼叫著，不要主動發動攻擊，我們首先需要更多時間……搞清現狀。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "厌战大人，一群极为高大的机械造物降落在了伊比利亚大陆和周边海域中。",
+			say = "厭戰大人，一群極為高大的機械造物降落在了伊比利亞大陸和周邊海域。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很难形容它们究竟有多大，因为这些机械似乎能够依靠自己的腿部在浅海中前进……",
+			say = "很難形容它們究竟有多大，因為這些機械似乎能夠依靠自己的腿部在淺海中前進……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "关于它们的具体情报呢……？",
+			say = "關於它們的具體情報呢……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "皆不明。不像塞壬使用过的任何兵器，但也不像任何其他阵营能造出来的东西……",
+			say = "皆不明。不像塞壬使用過的任何兵器，但也不像其他陣營能造出來的東西…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我明白了……和周边的联络呢？",
+			say = "我明白了……和周邊的聯絡呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "通讯状况十分混乱。",
+			say = "通訊狀況十分混亂。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我们成功与马耳他要塞短暂恢复过联系，得知她们那边也遇到了相同情况，之后通讯就中断了。",
+			say = "我們成功與馬爾他要塞短暫恢復了聯繫，得知她們那邊也遇到了相同情況，之後通訊就中斷了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "与博览会会场和本土的通讯则一直没能恢复。",
+			say = "與博覽會會場和本土的通訊則一直沒能恢復。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而且，我们似乎被困在了陆间海之中。",
+			say = "而且，我們似乎被困在了地中海之中。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "直布罗陀海峡与NA海域的连接处，如今海雾弥漫。",
+			say = "直布羅陀海峽與NA海域的連結處，如今海霧瀰漫。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这些海雾如同一堵墙，从水面连到了空中。",
+			say = "這些海霧如同一面牆，從水面連到了空中。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不论是水面侦察艇还是水下侦察潜艇，都在进入后失去了联系。",
+			say = "不論是水面偵察艇還是水下偵察潛艇，都在進入後失去了聯繫。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "试图穿越云层飞出的侦察机，也在进入云朵中后失去了联系。",
+			say = "試圖穿越雲層飛出的偵察機，也在進入雲朵中後失去了聯繫。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "云，和平时不同了……变得很危险，好像恐怖的怪物一样。",
+			say = "雲，和平時不同了……變得很危險，好像恐怖的怪物一樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -406,7 +406,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……云的事，萨福克最有发言权，再加上实际发生了这种事，我认为确实应该小心。",
+			say = "……雲的事，薩福克最有發言權，再加上實際發生了這種事，我認為確實應該小心。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +423,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就算有些离奇，现状也不容我不信了。",
+			say = "就算有些離奇，現狀也不容我不信了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟那些在陆地上蔓延的白色东西已经接近要塞外墙了……",
+			say = "畢竟那些在陸地上蔓延的白色東西已經接近要塞外牆了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,7 +457,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "约克，对面的舰队还是没有反应么？",
+			say = "約克，對面的艦隊還是沒有反應嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,7 +474,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，依然没有任何反应。",
+			say = "嗯，依然沒有任何反應。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……那就是敌人了。",
+			say = "……那就是敵人了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -508,7 +508,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "多余的话我就不重复了，陛下期待我们恪尽职守。",
+			say = "多餘的話我就不重複了，陛下期待我們恪盡職守。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -542,7 +542,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "依托要塞防御进行作战，消灭入侵者！",
+			say = "依靠要塞防禦進行作戰，消滅入侵者！",
 			painting = {
 				alpha = 0.3,
 				time = 1

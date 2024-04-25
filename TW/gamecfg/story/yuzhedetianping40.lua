@@ -12,11 +12,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"作战进行期间",
+					"作戰進行期間",
 					1
 				},
 				{
-					"亚历山大港·绿洲",
+					"亞歷山大港·綠洲",
 					2
 				}
 			},
@@ -37,7 +37,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			bgm = "battle-boss-italy",
-			say = "无人的港口中，空气轻轻地荡漾起来。",
+			say = "無人的港口中，空氣輕輕地蕩漾起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "真是噩梦般的景象……",
+			say = "真是惡夢般的景象……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_7",
 			hidePaintObj = true,
-			say = "安德烈亚抬头看向天空，划破夜色的光束清晰可见。",
+			say = "安德烈亞抬頭看向天空，劃破夜色的光束清晰可見。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "……果然，逃避不解决问题么。",
+			say = "……果然，逃避不解決問題嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_7",
 			hidePaintObj = true,
-			say = "安德烈亚摇摇头，轻轻扫掉了操作板上堆积的灰尘。",
+			say = "安德烈亞搖搖頭，輕輕掃掉了操作板上堆積的灰塵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_7",
 			hidePaintObj = true,
-			say = "她的操作是如此熟练，仿佛早已知道装置存在于此，并为此演练过无数次一般。",
+			say = "她的操作是如此熟練，彷彿早已知道裝置存在於此，並為此演練過無數次一般。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605070,
-			say = "……为黑暗送上光芒么。",
+			say = "……為黑暗中送上光芒嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "也加上我一个吧。",
+			say = "也加上我一個吧，",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,7 +188,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_8",
 			hidePaintObj = true,
-			say = "光芒自亚历山大的港口中升起。",
+			say = "光芒自亞歷山大的港口中升起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_8",
 			hidePaintObj = true,
-			say = "空气又一次轻轻地荡漾起来，一切再次归于了平静。",
+			say = "空氣又一次輕輕地蕩漾起來，一切都歸於了平靜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_8",
 			hidePaintObj = true,
-			say = "——就好像从未有人来访过一样。",
+			say = "——就好像從未有人來訪過一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

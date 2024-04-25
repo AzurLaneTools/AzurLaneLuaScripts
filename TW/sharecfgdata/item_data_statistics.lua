@@ -21108,6 +21108,130 @@ _G.pg.base.item_data_statistics[30346] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30347] = {
+	open_directly = 1,
+	name = "外觀裝備箱(夏日夢幻)",
+	display = "可以獲得一件隨機的夏日夢幻風格外觀裝備",
+	type = 11,
+	display_effect = "",
+	id = 30347,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/appearanceboxxiarimenghuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30347",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			810,
+			1
+		},
+		{
+			9,
+			811,
+			1
+		},
+		{
+			9,
+			812,
+			1
+		},
+		{
+			9,
+			813,
+			1
+		},
+		{
+			9,
+			814,
+			1
+		},
+		{
+			9,
+			815,
+			1
+		},
+		{
+			9,
+			816,
+			1
+		},
+		{
+			9,
+			817,
+			1
+		},
+		{
+			9,
+			818,
+			1
+		},
+		{
+			9,
+			819,
+			1
+		},
+		{
+			9,
+			820,
+			1
+		},
+		{
+			9,
+			821,
+			1
+		},
+		{
+			9,
+			822,
+			1
+		},
+		{
+			9,
+			823,
+			1
+		},
+		{
+			9,
+			824,
+			1
+		},
+		{
+			9,
+			825,
+			1
+		},
+		{
+			9,
+			826,
+			1
+		},
+		{
+			9,
+			827,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30348] = {
 	open_directly = 1,
 	name = "外觀裝備箱(常世夜遊)",
@@ -27715,6 +27839,218 @@ _G.pg.base.item_data_statistics[30527] = {
 		{
 			9,
 			497,
+			1
+		}
+	}
+}
+
+_G.pg.base.item_data_statistics[30528] = {
+	open_directly = 0,
+	name = "定向外觀裝備箱(夏日夢幻)",
+	display = "使用後可從「夏日夢幻」主題外觀裝備中任意選擇一種獲得1個",
+	type = 13,
+	display_effect = "",
+	id = 30528,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	link_id = 0,
+	icon = "Props/appearanceboxxiarimenghuanzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			810,
+			1
+		},
+		{
+			9,
+			811,
+			1
+		},
+		{
+			9,
+			812,
+			1
+		},
+		{
+			9,
+			813,
+			1
+		},
+		{
+			9,
+			814,
+			1
+		},
+		{
+			9,
+			815,
+			1
+		},
+		{
+			9,
+			816,
+			1
+		},
+		{
+			9,
+			817,
+			1
+		},
+		{
+			9,
+			818,
+			1
+		},
+		{
+			9,
+			819,
+			1
+		},
+		{
+			9,
+			820,
+			1
+		},
+		{
+			9,
+			821,
+			1
+		},
+		{
+			9,
+			822,
+			1
+		},
+		{
+			9,
+			823,
+			1
+		},
+		{
+			9,
+			824,
+			1
+		},
+		{
+			9,
+			825,
+			1
+		},
+		{
+			9,
+			826,
+			1
+		},
+		{
+			9,
+			827,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			810,
+			1
+		},
+		{
+			9,
+			811,
+			1
+		},
+		{
+			9,
+			812,
+			1
+		},
+		{
+			9,
+			813,
+			1
+		},
+		{
+			9,
+			814,
+			1
+		},
+		{
+			9,
+			815,
+			1
+		},
+		{
+			9,
+			816,
+			1
+		},
+		{
+			9,
+			817,
+			1
+		},
+		{
+			9,
+			818,
+			1
+		},
+		{
+			9,
+			819,
+			1
+		},
+		{
+			9,
+			820,
+			1
+		},
+		{
+			9,
+			821,
+			1
+		},
+		{
+			9,
+			822,
+			1
+		},
+		{
+			9,
+			823,
+			1
+		},
+		{
+			9,
+			824,
+			1
+		},
+		{
+			9,
+			825,
+			1
+		},
+		{
+			9,
+			826,
+			1
+		},
+		{
+			9,
+			827,
 			1
 		}
 	}

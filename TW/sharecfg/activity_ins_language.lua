@@ -4078,6 +4078,67 @@ pg.activity_ins_language = setmetatable({
 		"ins_reply_382_3_2",
 		"ins_op_382_1_1",
 		"op_reply_382_1_1",
+		"ins_390",
+		"ins_discuss_390_1",
+		"ins_reply_390_1_1",
+		"ins_reply_390_1_2",
+		"ins_discuss_390_2",
+		"ins_reply_390_2_1",
+		"ins_discuss_390_3",
+		"ins_reply_390_3_1",
+		"ins_reply_390_3_2",
+		"ins_op_390_1_1",
+		"op_reply_390_1_1",
+		"ins_391",
+		"ins_discuss_391_1",
+		"ins_reply_391_1_1",
+		"ins_discuss_391_2",
+		"ins_reply_391_2_1",
+		"ins_discuss_391_3",
+		"ins_reply_391_3_1",
+		"ins_op_391_1_1",
+		"op_reply_391_1_1",
+		"ins_392",
+		"ins_discuss_392_1",
+		"ins_reply_392_1_1",
+		"ins_discuss_392_2",
+		"ins_reply_392_2_1",
+		"ins_reply_392_2_2",
+		"ins_reply_392_2_3",
+		"ins_op_392_1_1",
+		"op_reply_392_1_1",
+		"ins_393",
+		"ins_discuss_393_1",
+		"ins_reply_393_1_1",
+		"ins_discuss_393_2",
+		"ins_reply_393_2_1",
+		"ins_reply_393_2_2",
+		"ins_reply_393_2_3",
+		"ins_discuss_393_3",
+		"ins_reply_393_3_1",
+		"ins_reply_393_3_2",
+		"ins_op_393_1_1",
+		"op_reply_393_1_1",
+		"ins_394",
+		"ins_discuss_394_1",
+		"ins_reply_394_1_1",
+		"ins_discuss_394_2",
+		"ins_reply_394_2_1",
+		"ins_discuss_394_3",
+		"ins_reply_394_3_1",
+		"ins_reply_394_3_2",
+		"ins_op_394_1_1",
+		"op_reply_394_1_1",
+		"ins_395",
+		"ins_discuss_395_1",
+		"ins_reply_395_1_1",
+		"ins_reply_395_1_2",
+		"ins_reply_395_1_3",
+		"ins_reply_395_1_4",
+		"ins_discuss_395_2",
+		"ins_reply_395_2_1",
+		"ins_op_395_1_1",
+		"op_reply_395_1_1",
 		"ins_418",
 		"ins_discuss_418_1",
 		"ins_reply_418_1_1",
@@ -16289,102 +16350,285 @@ pg.base.activity_ins_language = {
 		value = "指揮官同志，你這小看人的說法是怎麼回事！我當然好得很！"
 	},
 	ins_380 = {
-		value = ""
+		value = "啊啊啊……我的信……到底丟到哪裡去了？ ！"
 	},
 	ins_discuss_380_1 = {
-		value = ""
+		value = "丟了什麼……嗯？該不會是之前看妳在寫的「那個」吧？"
 	},
 	ins_reply_380_1_1 = {
-		value = ""
+		value = "呵呵，「那個」要是被誰撿到的話……可就有趣，啊不，麻煩了呢~？"
 	},
 	ins_reply_380_1_2 = {
-		value = ""
+		value = "啊啊啊，別說了！ 快幫我找一找啊！"
 	},
 	ins_discuss_380_2 = {
-		value = ""
+		value = "找東西的話，SG或許可以幫上忙？"
 	},
 	ins_reply_380_2_1 = {
-		value = ""
+		value = "能、能幫忙的話感激不盡！"
 	},
 	ins_discuss_380_3 = {
-		value = ""
+		value = "不能用手機簡訊嗎？ 草稿存起來也方便。"
 	},
 	ins_reply_380_3_1 = {
-		value = ""
+		value = "紙、紙質信是一種浪漫！"
 	},
 	ins_op_380_1_1 = {
-		value = ""
+		value = "我也來幫忙找？"
 	},
 	op_reply_380_1_1 = {
-		value = ""
+		value = "這，這種事就不用特地勞煩指揮官了！"
 	},
 	ins_381 = {
-		value = ""
+		value = "黑兔隊長，白兔隊員，大家要好好相處！"
 	},
 	ins_discuss_381_1 = {
-		value = ""
+		value = "黑兔子，白兔子，好有趣！"
 	},
 	ins_reply_381_1_1 = {
-		value = ""
+		value = "除了兔子們，還有很多別的同伴！像是貓貓還有海豚們！"
 	},
 	ins_reply_381_1_2 = {
-		value = ""
+		value = "安克拉治，也能和它們說話？"
 	},
 	ins_reply_381_1_3 = {
-		value = ""
+		value = "當然可以！讓阿蒂利奧當翻譯就好了！"
 	},
 	ins_discuss_381_2 = {
-		value = ""
+		value = "龐培隊長是不會輸給黑兔隊長的！"
 	},
 	ins_reply_381_2_1 = {
-		value = ""
+		value = "嗯……雖然黑兔隊長很厲害，但還是無所不能的龐培隊長更厲害一點！"
 	},
 	ins_discuss_381_3 = {
-		value = ""
+		value = "是手偶戲嗎？兔子好可愛啊～"
 	},
 	ins_reply_381_3_1 = {
-		value = ""
+		value = "嘿嘿～"
 	},
 	ins_op_381_1_1 = {
-		value = ""
+		value = "指揮官大魔王來了！"
 	},
 	op_reply_381_1_1 = {
-		value = ""
+		value = "嗚哇！黑兔隊長，保護阿蒂利奧～！"
 	},
 	ins_op_381_1_2 = {
-		value = ""
+		value = "指揮官騎士來了！"
 	},
 	op_reply_381_1_2 = {
-		value = ""
+		value = "指揮官是最可靠、最帥氣的騎士大人！是兔子們的榜樣！"
 	},
 	ins_382 = {
-		value = ""
+		value = "今天的熱牛奶~"
 	},
 	ins_discuss_382_1 = {
-		value = ""
+		value = "熱牛奶好喝！餅乾也好吃！"
 	},
 	ins_reply_382_1_1 = {
-		value = ""
+		value = "呵呵，大家喜歡就好～"
 	},
 	ins_discuss_382_2 = {
-		value = ""
+		value = "熱牛奶很棒哦，我也經常喝……"
 	},
 	ins_reply_382_2_1 = {
-		value = ""
+		value = "嗯嗯！我也一直在推薦給大家，對身體很有好處的~"
 	},
 	ins_discuss_382_3 = {
-		value = ""
+		value = "安德烈亞小姐很會照顧人呢"
 	},
 	ins_reply_382_3_1 = {
-		value = ""
+		value = "熱牛奶搭配餅乾，如果再加一小塊蛋糕的話……或許不錯？"
 	},
 	ins_reply_382_3_2 = {
-		value = ""
+		value = "不錯的提議，我會參考的！"
 	},
 	ins_op_382_1_1 = {
-		value = ""
+		value = "營養又美味！"
 	},
 	op_reply_382_1_1 = {
+		value = "這就幫您準備一杯～"
+	},
+	ins_390 = {
+		value = ""
+	},
+	ins_discuss_390_1 = {
+		value = ""
+	},
+	ins_reply_390_1_1 = {
+		value = ""
+	},
+	ins_reply_390_1_2 = {
+		value = ""
+	},
+	ins_discuss_390_2 = {
+		value = ""
+	},
+	ins_reply_390_2_1 = {
+		value = ""
+	},
+	ins_discuss_390_3 = {
+		value = ""
+	},
+	ins_reply_390_3_1 = {
+		value = ""
+	},
+	ins_reply_390_3_2 = {
+		value = ""
+	},
+	ins_op_390_1_1 = {
+		value = ""
+	},
+	op_reply_390_1_1 = {
+		value = ""
+	},
+	ins_391 = {
+		value = ""
+	},
+	ins_discuss_391_1 = {
+		value = ""
+	},
+	ins_reply_391_1_1 = {
+		value = ""
+	},
+	ins_discuss_391_2 = {
+		value = ""
+	},
+	ins_reply_391_2_1 = {
+		value = ""
+	},
+	ins_discuss_391_3 = {
+		value = ""
+	},
+	ins_reply_391_3_1 = {
+		value = ""
+	},
+	ins_op_391_1_1 = {
+		value = ""
+	},
+	op_reply_391_1_1 = {
+		value = ""
+	},
+	ins_392 = {
+		value = ""
+	},
+	ins_discuss_392_1 = {
+		value = ""
+	},
+	ins_reply_392_1_1 = {
+		value = ""
+	},
+	ins_discuss_392_2 = {
+		value = ""
+	},
+	ins_reply_392_2_1 = {
+		value = ""
+	},
+	ins_reply_392_2_2 = {
+		value = ""
+	},
+	ins_reply_392_2_3 = {
+		value = ""
+	},
+	ins_op_392_1_1 = {
+		value = ""
+	},
+	op_reply_392_1_1 = {
+		value = ""
+	},
+	ins_393 = {
+		value = ""
+	},
+	ins_discuss_393_1 = {
+		value = ""
+	},
+	ins_reply_393_1_1 = {
+		value = ""
+	},
+	ins_discuss_393_2 = {
+		value = ""
+	},
+	ins_reply_393_2_1 = {
+		value = ""
+	},
+	ins_reply_393_2_2 = {
+		value = ""
+	},
+	ins_reply_393_2_3 = {
+		value = ""
+	},
+	ins_discuss_393_3 = {
+		value = ""
+	},
+	ins_reply_393_3_1 = {
+		value = ""
+	},
+	ins_reply_393_3_2 = {
+		value = ""
+	},
+	ins_op_393_1_1 = {
+		value = ""
+	},
+	op_reply_393_1_1 = {
+		value = ""
+	},
+	ins_394 = {
+		value = ""
+	},
+	ins_discuss_394_1 = {
+		value = ""
+	},
+	ins_reply_394_1_1 = {
+		value = ""
+	},
+	ins_discuss_394_2 = {
+		value = ""
+	},
+	ins_reply_394_2_1 = {
+		value = ""
+	},
+	ins_discuss_394_3 = {
+		value = ""
+	},
+	ins_reply_394_3_1 = {
+		value = ""
+	},
+	ins_reply_394_3_2 = {
+		value = ""
+	},
+	ins_op_394_1_1 = {
+		value = ""
+	},
+	op_reply_394_1_1 = {
+		value = ""
+	},
+	ins_395 = {
+		value = ""
+	},
+	ins_discuss_395_1 = {
+		value = ""
+	},
+	ins_reply_395_1_1 = {
+		value = ""
+	},
+	ins_reply_395_1_2 = {
+		value = ""
+	},
+	ins_reply_395_1_3 = {
+		value = ""
+	},
+	ins_reply_395_1_4 = {
+		value = ""
+	},
+	ins_discuss_395_2 = {
+		value = ""
+	},
+	ins_reply_395_2_1 = {
+		value = ""
+	},
+	ins_op_395_1_1 = {
+		value = ""
+	},
+	op_reply_395_1_1 = {
 		value = ""
 	},
 	ins_418 = {

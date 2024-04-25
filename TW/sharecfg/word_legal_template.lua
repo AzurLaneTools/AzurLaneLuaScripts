@@ -1068,6 +1068,11 @@ function temp()
 						}
 					}
 				}
+			},
+			["蒙"] = {
+				["梭"] = {
+					this = true
+				}
 			}
 		}
 	}
@@ -1303,7 +1308,12 @@ function temp()
 			["吉"] = {
 				["尼"] = {
 					["亞"] = {
-						this = true
+						this = true,
+						["·"] = {
+							["改"] = {
+								this = true
+							}
+						}
 					}
 				}
 			}
@@ -2039,6 +2049,9 @@ function temp()
 			["蒙"] = {
 				this = true
 			}
+		},
+		["昂"] = {
+			this = true
 		}
 	}
 end
@@ -3540,6 +3553,11 @@ function temp()
 						}
 					}
 				}
+			}
+		},
+		["弗"] = {
+			["朗"] = {
+				this = true
 			}
 		}
 	}
@@ -5314,6 +5332,11 @@ function temp()
 	uv0["凱"] = {
 		["旋"] = {
 			this = true
+		},
+		["爾"] = {
+			["聖"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -6673,6 +6696,28 @@ function temp()
 					this = true
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["潘"] = {
+		["勒"] = {
+			["韋"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+function temp()
+	uv0["吉"] = {
+		["尚"] = {
+			this = true
 		}
 	}
 end

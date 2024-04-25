@@ -359,6 +359,101 @@ pg.login = {
 		login_cri = "loginbg_230401",
 		bgm = "login-2022401jp"
 	},
+	[31] = {
+		id = 31,
+		op_play = 1,
+		login_static = "login_0817_2",
+		login_cri = "loginbg",
+		bgm = "story-musicanniversary-gorgeous",
+		date = {
+			"timer",
+			{
+				{
+					2024,
+					4,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		op_time = {
+			{
+				{
+					2024,
+					4,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[32] = {
+		id = 32,
+		login_static = "login_0817_1",
+		op_play = 0,
+		op_time = "",
+		login_cri = "",
+		bgm = "",
+		date = {
+			"timer",
+			{
+				{
+					2024,
+					5,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[49] = {
 		id = 49,
 		login_static = "login_0401",
@@ -754,6 +849,8 @@ pg.login = {
 		10,
 		12,
 		24,
+		31,
+		32,
 		49,
 		51,
 		1001,

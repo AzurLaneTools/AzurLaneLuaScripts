@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"鸢尾芳馨弥漫时\n\n<size=45>我要保守秘密…</size>",
+					"鳶尾芳馨瀰漫時\n\n<size=45>我要保守秘密……</size>",
 					1
 				}
 			}
@@ -20,15 +20,15 @@ return {
 			bgm = "xinnong-3",
 			sequence = {
 				{
-					"<size=51>「……不知沉睡了多久……我的任务……唔……」</size>",
+					"「……不知沉睡了多久……我的任務……唔……」",
 					2.5
 				},
 				{
-					"<size=51>「……记忆有些紊乱……」</size>",
+					"「……記憶有些紊亂……」",
 					3
 				},
 				{
-					"<size=51>「……昏迷剂的效果……还没消退么……」</size>",
+					"「……昏迷劑的效果……還沒消退嗎……」",
 					3.5
 				}
 			}
@@ -40,8 +40,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702012,
-			actorName = "阿芙乐尔？",
-			say = "现场状况我知道了，继续执行任务吧。",
+			actorName = "曙光？",
+			say = "現場狀況我知道了，繼續執行任務吧。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -66,8 +66,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702012,
-			actorName = "阿芙乐尔？",
-			say = "再强调一下，带回来的时候，我要的是还能喘气的。",
+			actorName = "曙光？",
+			say = "再強調一下，帶回來的時候，我要的是還能喘氣的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
-			say = "发号施令完后，阿芙乐尔？终于注意到了这边。",
+			say = "發號施令完後，曙光？終於注意到這邊了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,8 +107,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702012,
-			actorName = "阿芙乐尔？",
-			say = "你醒啦？比之前预计的时间要早一些呢。",
+			actorName = "曙光？",
+			say = "你醒啦？比之前預計的時間早一些呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,8 +125,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702012,
-			actorName = "阿芙乐尔？",
-			say = "正好，早开工早收工，你也可以早点上路。",
+			actorName = "曙光？",
+			say = "正好，早點開工早點收工，也可以早點上路。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,8 +143,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702012,
-			actorName = "阿芙乐尔？",
-			say = "说吧，把你知道的都说出来。",
+			actorName = "曙光？",
+			say = "說吧，把你知道的都說出來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,11 +155,11 @@ return {
 			},
 			options = {
 				{
-					content = "……说什么？",
+					content = "……說什麼？",
 					flag = 1
 				},
 				{
-					content = "我什么都不知道。",
+					content = "我什麼都不知道。",
 					flag = 2
 				}
 			}
@@ -168,12 +168,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "阿芙乐尔？",
+			actorName = "曙光？",
 			dir = 1,
 			optionFlag = 1,
 			actor = 702012,
 			nameColor = "#A9F548FF",
-			say = "嚯？是装作不知道，或者是昏迷剂药效还没过吗？",
+			say = "嚯？是裝作不知道，或是昏迷劑藥效還沒過嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,12 +187,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "阿芙乐尔？",
+			actorName = "曙光？",
 			dir = 1,
 			optionFlag = 2,
 			actor = 702012,
 			nameColor = "#A9F548FF",
-			say = "很经典的回答，我每天都要听到很多次呢。",
+			say = "很經典的回答，我每天都要聽到很多次。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,8 +209,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702012,
-			actorName = "阿芙乐尔？",
-			say = "不过也无所谓，本来也不指望你会乖乖把情报都说出来。",
+			actorName = "曙光？",
+			say = "不過也無所謂，本來也不期待你會乖乖把情報都說出來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,8 +227,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702012,
-			actorName = "阿芙乐尔？",
-			say = "看来得先让你吃点苦头了。",
+			actorName = "曙光？",
+			say = "看來得先讓你吃點苦頭了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,8 +245,8 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			actor = 702012,
-			actorName = "阿芙乐尔？",
-			say = "毕竟……坏孩子总是要吃点苦头，才会老老实实的。",
+			actorName = "曙光？",
+			say = "畢竟……壞孩子總是要吃點苦頭，才會老實的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
-			say = "快住手，阿芙乐尔！",
+			say = "快住手，曙光！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
-			say = "等等，冷静下来。眼前这位绝对不是我所认识的阿芙乐尔。",
+			say = "等等，冷靜下來。眼前這位絕對不是我所認識的曙光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,11 +305,11 @@ return {
 			},
 			options = {
 				{
-					content = "我可能在做梦？",
+					content = "我可能在做夢？",
 					flag = 1
 				},
 				{
-					content = "我什么都不会说的！",
+					content = "我什麼都不會說的！",
 					flag = 2
 				}
 			}
@@ -320,7 +320,7 @@ return {
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "当脑海里出现了这个想法之后，周围的一起都黯淡了下去。",
+			say = "當腦海裡出現了這個想法之後，周圍的一起都黯淡了下去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "世界重新回归到了昏昏沉沉的黑暗中。",
+			say = "世界重新回歸到了昏昏沉沉的黑暗中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,8 +346,8 @@ return {
 			dir = 1,
 			optionFlag = 2,
 			actor = 702012,
-			actorName = "阿芙乐尔？",
-			say = "哦~居然知道我的名字？看来我们这边出现了内鬼呢~",
+			actorName = "曙光？",
+			say = "喔~居然知道我的名字？看來我們這邊出現了內鬼呢~",
 			flashout = {
 				dur = 0.15,
 				alpha = {
@@ -381,12 +381,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "阿芙乐尔？",
+			actorName = "曙光？",
 			dir = 1,
 			optionFlag = 2,
 			actor = 702012,
 			nameColor = "#A9F548FF",
-			say = "正好，把内鬼的情报也告诉我，不然……",
+			say = "正好，把內鬼的情報也告訴我，不然……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "我绝对不会说出情报的……！",
+			say = "我絕對不會說出情報的……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			bgName = "star_level_bg_154",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "秘密……决不能透露给敌人……！",
+			say = "秘密……絕不能透露給敵人……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,12 +434,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "阿芙乐尔？",
+			actorName = "曙光？",
 			dir = 1,
 			optionFlag = 2,
 			actor = 702012,
 			nameColor = "#A9F548FF",
-			say = "哦~哦，看来是个硬骨头呢，连我都稍微兴奋起来了~",
+			say = "喔~哦，看來是個硬骨頭呢，連我都稍微興奮起來了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,12 +453,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "阿芙乐尔？",
+			actorName = "曙光？",
 			dir = 1,
 			optionFlag = 2,
 			actor = 702012,
 			nameColor = "#A9F548FF",
-			say = "让我看看你能撑到什么时候~哼哼~",
+			say = "讓我看看你能撐到什麼時候~哼哼~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,12 +504,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_154",
-			actorName = "阿芙乐尔？",
+			actorName = "曙光？",
 			dir = 1,
 			optionFlag = 2,
 			actor = 702012,
 			nameColor = "#A9F548FF",
-			say = "叫吧，再叫大声一些哦，哦呵呵~",
+			say = "叫吧，再叫大聲一點哦，哦呵呵~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -529,7 +529,7 @@ return {
 			actor = 702010,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "指挥官……好像做噩梦了……",
+			say = "指揮官……好像做了惡夢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -563,7 +563,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……膝枕的腿稍微有些麻了……但是……",
+			say = "嗯……膝枕的腿稍微有點麻了……但是……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -580,7 +580,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "为了指挥官的话……",
+			say = "為了指揮官的話……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -595,7 +595,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "快住手，阿芙乐尔！",
+			say = "快住手，曙光！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -613,7 +613,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……什、什么？",
+			say = "……什、什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -648,7 +648,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官……你究竟梦到了什么……？",
+			say = "指揮官……你究竟夢到了什麼……？",
 			painting = {
 				alpha = 0.3,
 				time = 1

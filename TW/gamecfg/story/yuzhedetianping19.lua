@@ -13,11 +13,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"维希教廷展览馆「大圣堂」",
+					"維希教廷展覽館「大聖堂」",
 					1
 				},
 				{
-					"一段时间后",
+					"一段時間後",
 					2
 				}
 			},
@@ -40,7 +40,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，刚刚已经确认，维希教廷舰队驻守的土伦港已经陷入了一片火海之中。",
+			say = "指揮官，剛剛已經確認，維希教廷艦隊駐守的土倫港已經陷入了一片火海之中。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好奇怪啊，维希教廷……不是已经加入马可波罗一方了么？",
+			say = "好奇怪啊，維希教廷……不是已經加入馬可波羅一方了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "维希教廷在事件发生后的行动，确实值得揣摩。",
+			say = "維希教廷在事件發生後的行動，確實值得揣摩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "一方面，她们的舰队离开了会场，并且派出了量产型舰队加入了针对会场的进攻。",
+			say = "一方面，她們的艦隊離開了會場，並且派出了量產型艦隊加入了針對會場的進攻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "但是另一方面，自始至终没有任何舰船加入其中，维希教廷馆的极光之壁也依然没有解除。",
+			say = "但另一方面，自始至終沒有任何艦船加入其中，維希教廷館的極光之壁也依然沒有解除。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "或许维希教廷的情况和撒丁帝国相同，或者更加复杂……",
+			say = "或許維希教廷的情況和薩丁帝國相同，或者更加複雜……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "指挥官，我们应该怎么办？放任不管，还是进行救援？",
+			say = "指揮官，我們該怎麼辦？放任不管，還是進行救援？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,7 +130,7 @@ return {
 			},
 			options = {
 				{
-					content = "你觉得呢？",
+					content = "妳覺得呢？",
 					flag = 1
 				}
 			}
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……我觉得如果有可能的话，还是应该救一下。",
+			say = "嗯……我覺得如果有可能的話，還是應該救一下。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "刚才您的分析不错，就现状而言，维希教廷并没有彻底站在我们的对立面上。",
+			say = "剛才您的分析不錯，就現狀而言，維希教廷並沒有徹底站在我們的對立面上。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而此刻，又在与我们共同的敌人交战。",
+			say = "而此刻，又在與我們共同的敵人交戰。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不管是其内部出现了分歧，还是克莱蒙梭在两头下注。",
+			say = "不管是其內部出現了分歧，還是克里蒙梭在兩頭下注。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +212,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "至少……我觉得可以争取一下。",
+			say = "至少……我覺得可以爭取一下。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "嗯，我也是这么想的。",
+			say = "嗯，我也是這麼想的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "帮我接通厌战，皇家的直布罗陀舰队此时正在西陆间海，应该能执行救援任务。",
+			say = "幫我接通厭戰，皇家的直布羅陀艦隊此時正在西地中海，應該能執行救援任務。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

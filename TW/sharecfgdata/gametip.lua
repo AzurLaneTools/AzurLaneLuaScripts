@@ -7257,6 +7257,10 @@ _G.pg.base.gametip.ship_remould_warning_102304 = {
 	tip = "此次改造操作後<color=#92fc63>【主炮底座+1】</color>\n<color=#92fc63>【戰爭之殤】</color>技能將升級為<color=#92fc63>【戰爭之殤·改】</color>\n<color=#92fc63>【全彈發射II】</color>技能將升級為<color=#92fc63>【全彈發射III】</color>"
 }
 
+_G.pg.base.gametip.ship_remould_warning_105234 = {
+	tip = "此次改造操作後<color=#92fc63>【BIG SEVEN】</color>技能\n將升級為<color=#92fc63>【BIG SEVEN·西維吉尼亞】</color>"
+}
+
 _G.pg.base.gametip.ship_remould_warning_107984 = {
 	tip = "此次改造操作後<color=#92fc63>【所有戰鬥機+1】、【所有魚雷機+1】</color>\n是否確認繼續操作？"
 }
@@ -9730,7 +9734,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "哥里加、阿蒂利奧·雷戈洛、安德烈亞·多里亞 建造機率UP！"
+	tip = "克里蒙梭、吉尚、里昂等建造機率UP！"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -24055,6 +24059,209 @@ _G.pg.base.gametip.msgbox_repair_title = {
 
 _G.pg.base.gametip.equip_skin_detail_count = {
 	tip = "擁有:"
+}
+
+_G.pg.base.gametip.faest_nothing_to_get = {
+	tip = "暫無可領取的獎勵"
+}
+
+_G.pg.base.gametip.feast_click_to_close = {
+	tip = "*點擊空白處關閉彈窗"
+}
+
+_G.pg.base.gametip.feast_invitation_btn_label = {
+	tip = "特別邀約"
+}
+
+_G.pg.base.gametip.feast_task_btn_label = {
+	tip = "宴會熱度"
+}
+
+_G.pg.base.gametip.feast_task_pt_label = {
+	tip = "熱度值:"
+}
+
+_G.pg.base.gametip.feast_task_pt_level = {
+	tip = "$1級"
+}
+
+_G.pg.base.gametip.feast_task_pt_get = {
+	tip = "可領取"
+}
+
+_G.pg.base.gametip.feast_task_pt_got = {
+	tip = "已領取"
+}
+
+_G.pg.base.gametip.feast_task_tag_daily = {
+	tip = "每日任務-"
+}
+
+_G.pg.base.gametip.feast_task_tag_activity = {
+	tip = "特別任務-"
+}
+
+_G.pg.base.gametip.feast_label_make_invitation = {
+	tip = "製作邀請函"
+}
+
+_G.pg.base.gametip.feast_no_invitation = {
+	tip = "邀請函不足"
+}
+
+_G.pg.base.gametip.feast_no_gift = {
+	tip = "宴會紀念品不足"
+}
+
+_G.pg.base.gametip.feast_label_give_invitation = {
+	tip = "贈送邀請函"
+}
+
+_G.pg.base.gametip.feast_label_give_invitation_finish = {
+	tip = "已邀請"
+}
+
+_G.pg.base.gametip.feast_label_give_gift = {
+	tip = "贈送紀念品"
+}
+
+_G.pg.base.gametip.feast_label_give_gift_finish = {
+	tip = "已贈送"
+}
+
+_G.pg.base.gametip.feast_label_make_ticket_tip = {
+	tip = "拖曳邀請函部件依照順序製作邀請函"
+}
+
+_G.pg.base.gametip.feast_label_make_ticket_click_tip = {
+	tip = "點擊物品查看詳情"
+}
+
+_G.pg.base.gametip.feast_label_make_ticket_failed_tip = {
+	tip = "要不要再檢查一下製作順序呢~"
+}
+
+_G.pg.base.gametip.feast_res_window_title = {
+	tip = "詳情"
+}
+
+_G.pg.base.gametip.feast_res_window_go_label = {
+	tip = "前往"
+}
+
+_G.pg.base.gametip.feast_tip = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/feast_invitation_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/feast_invitation_help2",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/feast_invitation_help3",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.feast_invitation_part1 = {
+	tip = "Q版的人物頭像貼紙，需要貼在被邀請人頭像的區域，千萬不要弄錯了位置喲~"
+}
+
+_G.pg.base.gametip.feast_invitation_part2 = {
+	tip = "城堡宴會的邀請函，湊近了還能聞到淡淡的墨香，使用了名貴的紙張進行製作，表面的花紋與燙金字體等盡顯華麗。"
+}
+
+_G.pg.base.gametip.feast_invitation_part3 = {
+	tip = "用於寄送宴會邀請函的空信封，採用了和邀請函相同規格的製作工藝，裝入邀請函再打上蠟封，將宴會的邀請送到她們的手上吧。"
+}
+
+_G.pg.base.gametip.feast_invitation_part4 = {
+	tip = "火紅的蠟印上裝飾著金漆，用它封住信封的開口，宴會的邀請函就製作完成。"
+}
+
+_G.pg.base.gametip.uscastle2023_help = {
+	tip = {
+		{
+			info = [[
+活動簡介：
+<color=#92fc63>4.25-5.9維護</color>期間開啟限時活動「啾啾城堡」
+活動規則：
+1.活動期間開啟「宴會邀約」活動，參與活動可獲得特效頭像框&聊天框<color=#92fc63>「芳馨之徽」&「華麗的邀約」</color>、限定紀念章<color=#92fc63>「芳馨紀念章」</color>、限定傢俱<color=#92fc63>「舞蹈地毯」&「典雅吧台」&「啾啾大廚餐檯」</color>在內的豐富獎勵
+2.參與「心跳城堡挑戰賽」可獲得<color=#92fc63>「外觀裝備箱」、「宴會邀請函」、「宴會紀念品」</color>等獎勵。
+注意：「宴會邀請函」&「宴會紀念品」為「宴會邀約」活動道具，活動結束後不保留。
+3.點擊「限時建造」可以前往建造介面
+4.點擊「換裝商店」可以前往換裝商店介面
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.feast_cant_give_gift_tip = {
+	tip = "需先製作邀請函邀請角色參加宴會"
+}
+
+_G.pg.base.gametip.uscastle2023_minigame_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/uscastle2023_help1",
+				path = ""
+			}
+		},
+		{
+			icon = {
+				atlas = "helpbg/uscastle2023_help2",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.feast_drag_invitation_tip = {
+	tip = "*拖曳邀請函到角色上發起邀請"
+}
+
+_G.pg.base.gametip.feast_drag_gift_tip = {
+	tip = "*拖曳宴會紀念品贈送給角色"
 }
 
 _G.pg.base.gametip.shoot_preview = {

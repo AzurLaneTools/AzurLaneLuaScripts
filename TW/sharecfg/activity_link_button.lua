@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			4701
+			4967
 		}
 	},
 	{
@@ -50,8 +50,9 @@ pg.activity_link_button = {
 		}
 	},
 	[20] = {
-		type = 0,
+		param = "0",
 		name = "event_minigame",
+		type = 0,
 		text_pic = "text_event_minigame",
 		id = 20,
 		group_id = 5,
@@ -59,10 +60,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5193
-		},
-		param = {
-			"SPRING_FESTIVAL_BACKHILL_2024"
+			4961
 		}
 	},
 	[30] = {

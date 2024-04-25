@@ -13,11 +13,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"维希教廷所属",
+					"維希教廷所屬",
 					1
 				},
 				{
-					"土伦·海军要塞",
+					"土倫·海軍要塞",
 					2
 				}
 			},
@@ -37,7 +37,7 @@ return {
 			bgName = "bg_underheaven_2",
 			hidePaintObj = true,
 			bgm = "story-french1",
-			say = "危险正在逼近土伦港，维希教廷舰队已经驶出港口，然而——",
+			say = "危險正在逼近土倫港，維希教廷艦隊已經駛出港口，然而——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "回港？不，克莱蒙梭，你不明白现场的情况！",
+			say = "回港？不，克里蒙梭，妳不明白現場的情況！",
 			action = {
 				{
 					type = "shake",
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "白色的不明物质正在陆地上快速扩散，还有许多从天而降的怪异机甲正在大肆破坏。",
+			say = "白色的不明物質正在陸地上快速擴散，還有許多從天而降的怪異機甲正在大肆破壞。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "国土正在燃烧，我们必须要有所行动才行！",
+			say = "國土正在燃燒，我們必須要有所行動！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 905020,
-			say = "现状我很明白，我的命令也很明确。",
+			say = "現狀我很明白，我的命令也很明確。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			actor = 905020,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "土伦舰队不得离港。",
+			say = "土倫艦隊不得離港。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,7 +149,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 905020,
-			say = "你想做战斗准备可以自便，但是除非港口遭到了正面袭击，否则就算有流弹飞进来，也禁止开火还击。",
+			say = "妳想做戰鬥準備可以自便，但是除非港口遭到了正面襲擊，否則就算有流彈飛進來，也禁止開火還擊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "你在开什么玩笑？！现在这种情况下，你就让我们白白看着？！",
+			say = "妳在開什麼玩笑？！現在這種情況下，妳就讓我們白白看著？！",
 			action = {
 				{
 					type = "shake",
@@ -195,7 +195,7 @@ return {
 			actor = 905020,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "我不想把命令重复第三遍了。",
+			say = "我不想把命令重複第三遍了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			dir = 1,
 			nameColor = "#ff5c5c",
 			actor = 905020,
-			say = "加斯科涅，劝说{namecode:523}大人执行命令。",
+			say = "加斯科涅，勸說讓·巴爾大人執行命令。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "{namecode:523}大人，请不要违抗教廷司令部的命令。",
+			say = "讓·巴爾大人，請不要違抗教廷司令部的命令。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "否则，我将被迫执行紧急情况应对协议。",
+			say = "否則，我將被迫執行緊急情況應對協議。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "呵……也是，现在你说的算……",
+			say = "呵……也是，現在妳說的算……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -300,7 +300,7 @@ return {
 			actor = 905020,
 			nameColor = "#ff5c5c",
 			hidePaintObj = true,
-			say = "很好，后续有情况的话，我会再联络的。",
+			say = "很好，後續有狀況的話，我會再聯絡的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,7 +317,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "…………可恶！",
+			say = "…………可惡！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -338,7 +338,7 @@ return {
 			bgName = "bg_underheaven_2",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{namecode:523}用力锤向通讯器，在其外壳上留下了一处凹陷。",
+			say = "讓·巴爾用力搥向通訊器，在其外殼上留下了一處凹陷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 904010,
-			say = "对通讯器生气也没用。要是弄坏了，维修起来也挺麻烦的。",
+			say = "對通訊器生氣也沒用。要是弄壞了，維修起來也挺麻煩的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……要是收到的都是这种命令，坏了也就坏了吧。",
+			say = "……要是收到的都是這種命令，壞了也就壞了吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "唉……你们都听到命令了，回港。",
+			say = "唉……妳們都聽到命令了，回港。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -404,7 +404,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 807020,
-			say = "{namecode:523}大人，您别生气，克莱蒙梭大人或许有自己的苦衷。",
+			say = "讓·巴爾大人，您別生氣，克里蒙梭大人或許有自己的苦衷。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "您是她的姐姐，更应该理解她才对。",
+			say = "您是她的姐姐，更應該理解她才對。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "克莱蒙梭已经变了。",
+			say = "克里蒙梭已經改變了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……我已经理解不了她了。",
+			say = "……我已經理解不了她了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 807020,
-			say = "至少您应该相信她……",
+			say = "至少您應該相信她……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,7 +490,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "也许吧……但是我已经做不到了。",
+			say = "也許吧……但是我已經做不到了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "你们没感觉到，此情此景有些似曾相识么……？",
+			say = "妳們沒感覺，此情此景有些似曾相識嗎……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -524,7 +524,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……当我离开冰冷的海水再次睁开双眼时，我就发过誓。",
+			say = "……當我離開冰冷的海水再次睜開雙眼時，我就發過誓。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -541,7 +541,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "这一次，我要做出不同的选择。",
+			say = "這一次，我要做出不同的選擇。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,7 +558,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "历史，决不会在我眼前重演。",
+			say = "歷史，絕不會在我眼前重演。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "鸢尾舰队作为筹码和棋子的日子，该结束了……",
+			say = "鳶尾艦隊作為籌碼和棋子的日子，該結束了……",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"鸢尾芳馨弥漫时\n\n<size=45>好孩子的奖励</size>",
+					"鳶尾芳馨瀰漫時\n\n<size=45>好孩子的獎勵</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "在{namecode:84}的邀请下，来到城堡附近的湖面泛舟。",
+			say = "在武藏的邀請下，來到城堡附近的湖面泛舟。",
 			bgm = "story-richang-6",
 			flashout = {
 				black = true,
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "怎么了？指挥官，你的表情~",
+			say = "怎麼了？指揮官，你的表情~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "呵呵……难道是我这身衣装很奇怪吗？",
+			say = "呵呵……難道是我這套衣裝很奇怪嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "这是……女仆装？",
+			say = "這是……女僕裝？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "被你看出来了，呵呵~",
+			say = "被你看出來了，呵呵~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "{namecode:225}那孩子带来了不少衣装，里面正好有这件呢。",
+			say = "若月那孩子帶來了不少衣裝，裡面正好有這件呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "指挥官今天应该是在帮宴会主办方工作吧。",
+			say = "指揮官今天應該是在幫宴會主辦單位工作吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "居然连这件事都知道……",
+			say = "居然連這件事都知道……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "凭空猜测而已，毕竟你一直都是个热心肠嘛。",
+			say = "憑空猜測而已，畢竟你一直都是熱心腸嘛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "工作了这么久，又来帮我收拾行李，应该累坏了吧？",
+			say = "工作了這麼久，又來幫我收拾行李，應該累壞了吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			actor = 305101,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官还真是充满干劲呢，但是……",
+			say = "指揮官還真是充滿幹勁呢，但是……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			actor = 305101,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在我身边的话，不需要那么勉强也可以哦。",
+			say = "在我身邊的話，不需要那麼勉強也可以哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			actor = 305101,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就靠到我的身边来吧，无需羞怯。",
+			say = "那就靠到我的身邊來吧，無需羞怯。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "这里是湖水之中的一叶孤舟，没有人能打扰到我们。",
+			say = "這裡是湖水之中的一葉孤舟，沒有人能打擾到我們。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,7 +329,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "指挥官可以不用顾虑，尽情释放身体中积累的疲劳。",
+			say = "指揮官可以不用顧慮，盡情釋放身體中累積的疲勞。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "嗯？指挥官不说话，是心中仍有挂念之事？",
+			say = "嗯？指揮官不說話，是心中仍有掛念之事？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "工作倒是早就结束了，只不过……",
+			say = "工作倒是早就結束了，只不過……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "不需要“只不过”，单纯把工作结束这件事就已经很了不起了哦。",
+			say = "不需要「只不過」，單純把工作結束這件事就已經很了不起了哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305101,
-			say = "来吧~指挥官~闭上~眼睛。",
+			say = "來吧~指揮官~閉上~眼睛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			},
 			options = {
 				{
-					content = "闭上眼睛",
+					content = "閉上眼睛",
 					flag = 1
 				}
 			},
@@ -427,11 +427,11 @@ return {
 			bgm = "story-richang-6",
 			sequence = {
 				{
-					"<size=51>不要紧张，再放松一点~（嗼呋嗼呋❤~）</size>",
+					"不要緊張，再放鬆一點~（嗼呋嗼呋❤~）",
 					2.5
 				},
 				{
-					"<size=51>怎么样？很舒服的吧~呵呵~</size>",
+					"怎麼樣？很舒服的吧~呵呵~",
 					3
 				}
 			}
@@ -440,11 +440,11 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"<size=51>感觉到压力释放了吗？（嗼呋嗼呋❤~）</size>",
+					"感覺到壓力釋放了嗎？（嗼呋嗼呋❤~）",
 					2.5
 				},
 				{
-					"<size=51>（嗼呋嗼呋❤……嗼呋嗼呋❤……）</size>",
+					"（嗼呋嗼呋❤……嗼呋嗼呋❤……）",
 					3
 				}
 			}
@@ -454,7 +454,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "感觉度过了一段，短暂、悠然。又漫长的时光——",
+			say = "感覺度過了一段，短暫、悠然。又漫長的時光——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

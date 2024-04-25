@@ -12,11 +12,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"作战结束数日后",
+					"戰鬥結束數日後",
 					1
 				},
 				{
-					"陆间海·某处",
+					"地中海·某處",
 					2
 				}
 			},
@@ -36,7 +36,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			bgm = "theme-underheaven",
-			say = "陆间海再次被无垠的白色所覆盖。",
+			say = "地中海再次被無垠的白色所覆蓋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "记录，第三十三次事件复盘。",
+			say = "記錄，第三十三次事件複盤。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "关于增生的白色物质，已经通过足够样本分析证明——",
+			say = "關於增生的白色物質，已經通過足夠樣本分析證明——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "与X存在关联。",
+			say = "與X存在關聯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "因其转化程度轻微，又被施加了伪装，所以直到此刻才能确认。",
+			say = "因其轉換程度輕微，又被施加了偽裝，所以直到此刻才能確認。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "关于异常的海洛芬特机体。",
+			say = "關於異常的海洛芬特機體。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "收集到的样本同样可以证明，该异常机体与X存在关联。",
+			say = "收集到的樣本同樣可以證明，該異常機體與X有關聯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "至于海洛芬特为何没有选择在第一时间将其销毁处理。",
+			say = "至於海洛芬特為何沒有選擇在第一時間銷毀處理。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我一直没能恢复与她的联系，因此无法直接确认。",
+			say = "我一直沒能恢復與她的聯繫，因此無法直接確認。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "本次入侵事件虽然在早期阶段就被阻止。",
+			say = "本次入侵事件雖然在早期階段就被阻止。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但依然可以认定，实验场β已经不再安全了。",
+			say = "但依然可以認定，實驗場β已經不再安全了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……零似乎格外看重这里。",
+			say = "……零似乎格外看重這裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "先跟她汇报一下吧。",
+			say = "先跟她報告一下吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

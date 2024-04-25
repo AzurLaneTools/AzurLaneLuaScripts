@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			bgm = "story-finalbattle-unity",
-			say = "联合舰队在离开会场后，分成了数个打击群从不同方向向着目标合围。",
+			say = "聯合艦隊在離開會場後，分成了數個打擊群從不同方向朝著目標合圍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9702020,
-			say = "指挥官。前锋舰队目前已经成功击退了敌人的阻拦舰队，即将于“神”的本体交战。",
+			say = "指揮官。前鋒艦隊目前已經成功擊退了敵人的阻擋艦隊，即將與「神」的本體交戰。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -45,7 +45,7 @@ return {
 			dir = 1,
 			nameColor = "#ffa500",
 			actor = 9707010,
-			say = "久违的战斗让我也燃起来了~第一轮就让我来帮你试试水吧！",
+			say = "久違的戰鬥讓我也燃起來了~第一輪就讓我來幫你試試水吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "空中的战斗还有些焦灼。",
+			say = "空中的戰鬥還有些焦灼。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "不过我们的力量空前强大，除了各类舰载机之外，还有……那些，飞空艇。",
+			say = "不過我們的力量空前強大，除了各類艦載機之外，還有……那些，飛空艇。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "相信很快就能将制空权控制下来。",
+			say = "相信很快就能將制空權控制下來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "说到那些飞空艇的时候，埃塞克斯停顿了一下。",
+			say = "說道那些飛空艇的時候，艾塞克斯停頓了一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "倒也难怪，在罗马带着撒丁首都驻防舰队与漫天飞空艇一同来到会场后，引起了一片哗然。",
+			say = "倒也難怪，在羅馬帶著薩丁首都駐防艦隊與漫天飛空艇一同來到會場後，引起了一片嘩然。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "似乎就和从茧囊中诞生的敌人一样，罗马和达芬奇的飞空艇舰队也是仅能够在此处存在的特殊军队。",
+			say = "似乎就和從繭囊中誕生的敵人一樣，羅馬和達文西的飛空艇艦隊也是僅能夠在此處存在的特殊軍隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "也因此，作为战列舰的罗马，此时却被编入了航空舰队。",
+			say = "也因此，作為戰列艦的羅馬，此時卻被編入了航空艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			actor = 605030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不要退缩，也不要畏惧伤亡。",
+			say = "不要退縮，也不要畏懼傷亡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			actor = 605030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "帝国的飞空艇，粉碎敌人！",
+			say = "帝國的飛空艇，粉碎敵人！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "啊，罗马小姐，你发错频道了！",
+			say = "啊，羅馬小姐，妳發錯頻道了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就这样指挥官，有新情况我们再联系。",
+			say = "那就這樣指揮官，有新狀況我們再聯絡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，战局看上去非常顺利！",
+			say = "指揮官，戰局看起來非常順利！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "由“神”紧急在身边生产出的敌人已经被前锋舰队尽数消灭了。",
+			say = "由「神」緊急在身邊生產的敵人已經被前鋒艦隊盡數消滅了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,7 +291,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "从四处增援而来的敌人也如同添油战术，一波接着一波，连突破我们的阻击舰队都做不到。",
+			say = "從四處增援而來的敵人也如同添油戰術，一波接著一波，連突破我們的阻擊艦隊都做不到。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "目前唯一的变量就是伪神的本身。",
+			say = "目前唯一的變數就是偽神的本身。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "从开战至今它都没有出手过，不知道是否是因为在圣枪的打击下出现了损伤……",
+			say = "從開戰至今它都沒有出手過，不知道是否是因為在聖槍的打擊下出現了損傷……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "目前还在进一步调查中。",
+			say = "目前還在進一步調查中。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "妾身，此刻正处于绝佳状态。",
+			say = "妾身，此刻正處於絕佳狀態。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "如果要与神正面交火，自应去一线才是，为何让妾身在此？",
+			say = "如果要與神正面交火，自應去一線才是，為何讓妾身在此？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,7 +399,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "别急嘛，{namecode:182}小姐。",
+			say = "別急嘛，信濃小姐。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "如果说我们的胜利条件是消灭伪神，那我们的失败条件无疑就是指挥官阵亡了。",
+			say = "如果說我們的勝利條件是消滅偽神，那我們的失敗條件無疑就是指揮官陣亡了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "所以指挥官身边的护卫可不能有丝毫大意的。",
+			say = "所以指揮官身邊的護衛可不能有絲毫大意的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "况且您留在这里，也能协助指挥官协调赤色中轴的舰队作战不是嘛？",
+			say = "況且您留在這裡，也能協助指揮官協調赤色中軸的艦隊作戰不是嘛？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "有理，那便如此吧。",
+			say = "有理，那就如此吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,7 +490,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，前锋舰队已经对伪神本体发动了一轮打击。",
+			say = "指揮官，前鋒艦隊已經對偽神本體發動了一輪打擊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -508,7 +508,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 102160,
-			say = "打击没有产生任何效果，不过其……也依然没有任何行动。",
+			say = "打擊沒有產生任何效果，不過其……也依然沒有任何行動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -527,7 +527,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "合围舰队已经到位，是否展开进一步打击？",
+			say = "合圍艦隊已經到位，是否展開進一步打擊？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -542,7 +542,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "嗯，集中火力进行打击。",
+			say = "嗯，集中火力進行打擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "我们也继续向前推进吧——",
+			say = "我們繼續也向前推進吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

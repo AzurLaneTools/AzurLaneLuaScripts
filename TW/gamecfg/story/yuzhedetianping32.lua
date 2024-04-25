@@ -12,11 +12,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"西陆间海·某处",
+					"西地中海·某處",
 					1
 				},
 				{
-					"皇家直布罗陀舰队",
+					"皇家直布羅陀艦隊",
 					2
 				}
 			},
@@ -37,7 +37,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "厌战大人，刚刚收到消息，铁血舰队已经抵达马耳他了。",
+			say = "厭戰大人，剛剛收到消息，鐵血艦隊已經抵達馬爾他了。",
 			bgm = "theme-thehierophantV",
 			painting = {
 				alpha = 0.3,
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205029,
-			say = "……真是世事无常，我从来没想过铁血舰队会以这种方式进入我们的马耳他要塞。",
+			say = "……真是世事無常，我從來沒想過鐵血艦隊會以這種方式進入我們的馬爾他要塞。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205029,
-			say = "{namecode:428}现在脸上的表情我都能想象出来了……啧。",
+			say = "歐根現在臉上的表情我都想像出來了……嘖。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是辛苦纳尔逊和罗德尼了，她们还肩负着与铁血舰队一同去突尼斯的任务……",
+			say = "真是辛苦納爾遜和羅德尼了，她們還肩負著與鐵血艦隊一同去突尼斯的任務……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205029,
-			say = "哦不对，在这片空间中或许将其称呼为“迦太基”更合适。",
+			say = "喔不對，在這片空間中或許將其稱為「迦太基」比較適合。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 203019,
-			say = "真没想到那里会被设置成维持这片异常空间存在的关键节点。",
+			say = "真沒想到那裡會被設定成維持這片異常空間存在的關鍵節點。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205029,
-			say = "呵，看来马可波罗的罗马梦，还真的病得不轻……",
+			say = "呵，看來馬可波羅的羅馬夢，真的病的不輕……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +174,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			bgName = "bg_underheaven_9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
@@ -193,7 +193,7 @@ return {
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你好啊，厌战，现在进展如何？需要帮助么？",
+			say = "妳好啊，厭戰，現在進展如何？需要幫助嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205029,
-			say = "……感谢你特意发来通讯表达喜悦之情。",
+			say = "……感謝妳特意發來通訊表達喜悅之情。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205029,
-			say = "不过不用担心，我们这边正在按照原定计划转向前往阿尔及利亚。",
+			say = "不過不用擔心，我們這邊正按照原定計畫轉向前往阿爾及利亞。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "其实，我刚刚有了个更好的想法。",
+			say = "其實，我剛剛有了一個更好的想法。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "突尼斯距离阿尔及利亚并不远，敌人数量也差不多。",
+			say = "突尼斯距離阿爾及利亞不遠，敵人數量也差不多。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "完全可以由我，还有你们的马耳他舰队一起包圆了嘛。",
+			say = "完全可以由我，還有妳們的馬爾他艦隊一起通包了嘛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "你们掉头去支援黎塞留大主教不是更好？",
+			say = "妳們掉頭去支援黎胥留大主教不是更好？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "她揽过去的节点那么多，可是现在感觉……也没什么进展。",
+			say = "她攬過去的節點那麼多，可是現在感覺……也沒什麼進展。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205029,
-			say = "……我说，{namecode:427}啊，每一支编队负责的区域可是由指挥官亲自布置的任务。",
+			say = "……我說，歐根親王啊，每一隻編隊負責的區域可是由指揮官親自佈置的任務。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205029,
-			say = "你是可以不在意，不过作为碧蓝航线的一员，我们是必须要严格听从指挥官下达的作战命令的。",
+			say = "妳是可以不在意，不過身為碧藍航線的一員，我們是必須要嚴格聽從指揮官下達的作戰命令的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205029,
-			say = "怎么能说改就改……更何况皇家的任务怎么能让铁血代为处理。",
+			say = "怎麼能說改就改……更何況皇家的任務怎麼能讓鐵血代為處理。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,7 +391,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不劳挂心，刚才我们已经跟黎塞留确认过了，她表示情况一切正常，不需要支援。",
+			say = "不勞掛心，剛才我們已經跟黎胥留確認過了，她表示情況一切正常，不需要支援。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205029,
-			say = "我们彼此还是按照各自的作战计划进行就好。",
+			say = "我們彼此還是按照各自的作戰計畫進行就好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "噢~对哦，我确实没必要完全按照你们指挥官的命令来行动。",
+			say = "噢~對哦，我確實沒必要完全按照妳們指揮官的命令來行動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "不如我们就来场竞速赛如何？",
+			say = "不如我們就來競速賽如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "如果不想任务被铁血抢走的话，还请加油加速哦♪",
+			say = "如果不想任務被鐵血搶走的話，還請加油加速吧♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205029,
-			say = "你…………！",
+			say = "妳…………！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -498,7 +498,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205029,
-			say = "呵，铁血在用这种方式对我们下战书么……",
+			say = "呵，鐵血在用這種方式對我們下戰書嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -516,7 +516,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205029,
-			say = "比就比……全员注意，我们要加快行动速度了！",
+			say = "比就比……全員注意，我們要加快行動速度了！",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -12,7 +12,7 @@ return {
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "此刻，王座之上的马可波罗正在俯瞰脚下的世界，等待着最后的“觐见”。",
+			say = "此刻，王座之上的馬可波羅正在俯瞰腳下的世界，等待著最後的「覲見」。",
 			bgm = "story-clemenceau-judgement",
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
-			say = "闪耀着光芒的冠冕与王座，昭示着伟大仪式即将完成。",
+			say = "閃耀著光芒的冠冕與王座，昭示偉大儀式即將完成。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
-			say = "海水正狂躁地激荡着，在无从探知的深海之下，似乎有什么“存在”正在进入这个世界。",
+			say = "海水正狂躁地激盪著，在無從探知的深海之下，似乎有什麼「存在」正在進入這個世界。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,8 +64,8 @@ return {
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "马可波罗",
-			say = "呵呵呵……！这个动静！果然是神明亲至才能有的气势啊！",
+			actorName = "馬可波羅",
+			say = "呵呵呵……！這個動靜！果然是神明親至才能有的氣勢！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -82,12 +82,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "我的伟业就要实现了……！",
+			say = "我的偉業要實現了……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,12 +99,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "让新的纪元开始吧——",
+			say = "讓新的紀元開始吧——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
-			say = "轰隆——————————",
+			say = "轟隆——————————",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -170,7 +170,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
-			say = "远方传来的异响，打断了马可波罗得意洋洋的独角戏。",
+			say = "遠方傳來的異響，打斷了馬可波羅得意洋洋的獨角戲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,12 +178,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……哈？维苏威火山，在这个时候喷发了……？",
+			say = "……哈？維蘇威火山，在這個時候噴發了……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,12 +195,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "不、不对，从喷流里还飞出来了什么东西……",
+			say = "不、不對，從噴流裡還飛出來了什麼……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,8 +216,8 @@ return {
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "马可波罗",
-			say = "那个是……巨大的……金色机甲骑士？",
+			actorName = "馬可波羅",
+			say = "那個是……巨大的……金色機甲騎士？",
 			movableNode = {
 				{
 					time = 2,
@@ -249,12 +249,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……都飞在天上了，为什么还要骑匹马？",
+			say = "……都飛在天上了，為什麼還要騎匹馬？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,8 +270,8 @@ return {
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "马可波罗",
-			say = "不对不对，不是这个问题！",
+			actorName = "馬可波羅",
+			say = "不對不對，不是這個問題！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -288,12 +288,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "这东西是啥……从哪儿来的？",
+			say = "這東西是啥……從哪裡來的？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
-			say = "马可波罗看着愈来愈近的机甲骑士，在茫然呆愣了几秒后，才发觉此物是朝自己这边杀过来的。",
+			say = "馬可波羅看著愈來愈近的機甲騎士，在茫然呆愣了幾秒後，才發覺此物是朝自己這邊殺過來的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			say = "！！！",
 			dialogShake = {
 				speed = 0.08,
@@ -342,8 +342,8 @@ return {
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "马可波罗",
-			say = "用弓射出了激光束…………？！！",
+			actorName = "馬可波羅",
+			say = "用弓射出了雷射光束…………？！！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -360,12 +360,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			bgName = "bg_underheaven_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "糟糕！躲、躲不开了……！",
+			say = "糟糕！躲、躲不開了……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "轟————————！",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -449,8 +449,8 @@ return {
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "马可波罗",
-			say = "呜哇——！",
+			actorName = "馬可波羅",
+			say = "嗚嗚嗚——！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -470,7 +470,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
-			say = "激光仅仅是擦过，就在椅背留下了一个骇人的孔洞。",
+			say = "雷射光只是擦過，就在椅背留下了一個駭人的孔洞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
-			say = "巨大的冲击中，马可波罗引以为傲的浮空王座猛烈地颤抖起来。",
+			say = "在巨大的衝擊中，馬可波羅引以為傲的浮空王座猛烈地顫抖。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,12 +489,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "糟糕糟糕糟糕，羽翼受损，平衡性正在丧失！",
+			say = "糟糕糟糕糟糕，羽翼受損，平衡性正在喪失！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -510,8 +510,8 @@ return {
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "马可波罗",
-			say = "降落，得尽快降落才行！",
+			actorName = "馬可波羅",
+			say = "降落，得盡快降落才行！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -531,7 +531,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
-			actorName = "通讯器",
+			actorName = "通訊器",
 			stopbgm = true,
 			say = "滴————",
 			bgm = "theme-vichy-revelation",
@@ -563,8 +563,8 @@ return {
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "马可波罗",
-			say = "克莱蒙梭卿发来的通讯……？！",
+			actorName = "馬可波羅",
+			say = "克里蒙梭卿發來的通訊…？！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -585,8 +585,8 @@ return {
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "马可波罗",
-			say = "太好了，克莱蒙梭卿，你现在在哪儿？！",
+			actorName = "馬可波羅",
+			say = "太好了，克里蒙梭卿，妳現在在哪裡？！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -603,12 +603,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "你刚才看到随着火山喷发出现的机甲骑士了吧！",
+			say = "妳剛才看到隨著火山爆發出現的機甲騎士了吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,12 +620,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "真是的……难道是维内托准备的秘密武器么？",
+			say = "真是的……難道是維內托準備的秘密武器嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -637,12 +637,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "我的王座被击中了，即将紧急迫降！",
+			say = "我的王座被擊中了，即將緊急迫降！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -654,12 +654,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "你先别去会场了，快来帮我！",
+			say = "妳先別去會場了，快來幫我！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -676,8 +676,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "克莱蒙梭",
-			say = "「第一印被揭开时，我看到一匹白马」",
+			actorName = "克里蒙梭",
+			say = "「第一印被揭開時，我看到一匹白馬」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -694,8 +694,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "克莱蒙梭",
-			say = "「马上的骑士拿着弓，并有冠冕赐给他。他出来征服，胜了又要胜」",
+			actorName = "克里蒙梭",
+			say = "「馬上的騎士拿著弓，並有冠冕賜給他。他出來征服，勝了又要勝」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -712,8 +712,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "克莱蒙梭",
-			say = "请允许我介绍这张审判庭的王牌，审判型机甲——支配，由凡人所制造的神之机械。",
+			actorName = "克里蒙梭",
+			say = "請容許我介紹這張審判庭的王牌，審判型機甲——支配，由凡人所製造的神之機械。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -730,8 +730,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "克莱蒙梭",
-			say = "当然，我也已经通过马耳他骑士团的概念抵消了你的控制，将审判型舰队的控制权拿回来了。",
+			actorName = "克里蒙梭",
+			say = "當然，我也已經透過馬爾他騎士團的概念抵消了妳的控制，將審判型艦隊的控制權拿回來了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -748,8 +748,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "克莱蒙梭",
-			say = "将军。",
+			actorName = "克里蒙梭",
+			say = "將軍。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -761,12 +761,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "……这是蓄谋已久，精心准备才能做到的……",
+			say = "……這是蓄謀已久，精心準備才能做到的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -778,12 +778,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "你早就是这么打算的？！",
+			say = "妳早就是這麼打算的？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -800,8 +800,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "克莱蒙梭",
-			say = "……到这时候才反应过来。",
+			actorName = "克里蒙梭",
+			say = "……到這時候才反應過來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -818,8 +818,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "克莱蒙梭",
-			say = "果然，你不适合做这种事啊，马可波罗。",
+			actorName = "克里蒙梭",
+			say = "果然，妳不適合做這種事啊，馬可波羅。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -831,12 +831,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "克莱蒙梭卿，没想到，连你……也背叛了我。",
+			say = "克里蒙梭卿，沒想到，連妳……也背叛了我。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -848,12 +848,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "明明，我们有着同样的梦想……同样的抱负。",
+			say = "明明，我們有著同樣的夢想……同樣的抱負。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -865,12 +865,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "我们不是…………朋友……么。",
+			say = "我們不是…………朋友……嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -887,8 +887,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "克莱蒙梭",
-			say = "……我完全理解你的梦想，也由衷感谢你对于我的计划所提供的帮助。",
+			actorName = "克里蒙梭",
+			say = "……我完全理解妳的夢想，也由衷感謝妳為我的計劃所提供的幫助。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -905,8 +905,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "克莱蒙梭",
-			say = "我们的友情不是虚假的……直到此刻，我依然把你当做我的友人。",
+			actorName = "克里蒙梭",
+			say = "我們的友誼不是虛假的……直到此刻，我依然把妳當做我的朋友。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -923,8 +923,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "克莱蒙梭",
-			say = "也因此，作为友人，我有义务阻止你在歧路上继续走下去。",
+			actorName = "克里蒙梭",
+			say = "也因此，身為朋友，我有義務阻止妳在歧路上繼續走下去。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -941,8 +941,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "克莱蒙梭",
-			say = "只有这样，才能保住撒丁帝国的未来，与你的性命……",
+			actorName = "克里蒙梭",
+			say = "這樣，才能保住薩丁帝國的未來，與妳的性命……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -954,12 +954,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "我不懂……为什么，你为什么要这么做？",
+			say = "我不懂……為什麼，妳為什麼要這麼做？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -976,8 +976,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "克莱蒙梭",
-			say = "所以我才说，你不是做这种事的人……",
+			actorName = "克里蒙梭",
+			say = "所以我才說，妳不是做這種事的人……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -994,8 +994,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "克莱蒙梭",
-			say = "你的所作所为，背叛了国家与人民。",
+			actorName = "克里蒙梭",
+			say = "妳的所作所為，背叛了國家與人民。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1012,8 +1012,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "克莱蒙梭",
-			say = "因此，本次事件的所有责任，都将由独断专行肆意妄为的马可波罗一人承担。",
+			actorName = "克里蒙梭",
+			say = "因此，這次事件的所有責任，都將由獨斷專行肆意妄為的馬可波羅一人承擔。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1030,8 +1030,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "克莱蒙梭",
-			say = "撒丁帝国的国际地位不会因为你的行为受到任何影响。",
+			actorName = "克里蒙梭",
+			say = "薩丁帝國的國際地位不會因為妳的行為而受到任何影響。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1048,8 +1048,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "克莱蒙梭",
-			say = "反而会因为在解决此次事件中的积极反应，有所上升也说不定。",
+			actorName = "克里蒙梭",
+			say = "反而會因為在解決這次事件中的正面反應，有所上升也說不定。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1066,8 +1066,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "克莱蒙梭",
-			say = "作为复兴而迈出的坚实一步，也挺不错，不是么？",
+			actorName = "克里蒙梭",
+			say = "作為復興而邁出的堅實一步，也很不錯，不是嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1079,12 +1079,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "到头来……你也跟所有的凡夫俗子一样……",
+			say = "到頭來……妳也跟所有的凡夫俗子一樣……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1101,8 +1101,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "克莱蒙梭",
-			say = "作为朋友，我向你保证，我一定会为你引发的这次事件善后。",
+			actorName = "克里蒙梭",
+			say = "身為朋友，我向妳保證，我一定會為妳引發的這次事件善後。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1119,8 +1119,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "克莱蒙梭",
-			say = "不会让你背后的“神”，那个已经影响了你心智，将你变成棋子的存在降临世间。",
+			actorName = "克里蒙梭",
+			say = "不會讓妳背後的「神」，那個已經影響了妳心智，將妳變成棋子的存在降臨世間。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1137,8 +1137,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "克莱蒙梭",
-			say = "也不会让祂摧毁你在内心中所真正珍视的一切。",
+			actorName = "克里蒙梭",
+			say = "不會讓祂摧毀妳在內心中真正所珍惜的一切。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1155,8 +1155,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "克莱蒙梭",
-			say = "更不会让你真的因为做出了无可挽回的事，而成为千古罪人……",
+			actorName = "克里蒙梭",
+			say = "也不會讓妳真的因為做出無可挽回的事，而成為千古罪人……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1168,12 +1168,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "没有意义……已经没有意义了…………",
+			say = "沒有意義……已經沒有意義了…………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1185,12 +1185,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "为什么……会这样……",
+			say = "為什麼……會這樣……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1202,7 +1202,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -1219,7 +1219,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -1236,7 +1236,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			bgName = "bg_underheaven_cg6",
 			hidePaintObj = true,
 			dir = 1,
@@ -1257,7 +1257,7 @@ return {
 			bgName = "bg_underheaven_5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "喃喃自语中，马可波罗放弃了抵抗，任凭自己与破碎的王座一同坠入水中。",
+			say = "喃喃自語中，馬可波羅放棄了抵抗，任憑自己與破碎的王座一同墜入水中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1285,7 +1285,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_5",
 			hidePaintObj = true,
-			say = "随即，整个世界为之沉寂————",
+			say = "隨即，整個世界都為之沉寂————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

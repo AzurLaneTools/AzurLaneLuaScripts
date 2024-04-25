@@ -43,6 +43,16 @@ return {
 				skill_id = 61,
 				target = "TargetSelf"
 			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "ChapayevSP"
+			}
 		}
 	}
 }

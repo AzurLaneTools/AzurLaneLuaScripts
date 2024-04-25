@@ -12,11 +12,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"皇家所属",
+					"皇家所屬",
 					1
 				},
 				{
-					"马耳他·海军要塞",
+					"馬爾他·海軍要塞",
 					2
 				}
 			},
@@ -75,7 +75,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "马耳他要塞~我进来了哦————",
+			say = "馬爾他要塞~我進來了哦————",
 			action = {
 				{
 					type = "shake",
@@ -119,7 +119,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？别愣着啊，纳尔逊小姐，欢迎词呢？",
+			say = "嗯？別愣著啊，納爾遜小姐，歡迎詞呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你…………！",
+			say = "妳…………！",
 			action = {
 				{
 					type = "shake",
@@ -180,7 +180,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欢迎——来到——皇家——马耳他——要塞——",
+			say = "歡迎——來到——皇家——馬爾他——要塞——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "这就对了！",
+			say = "這就對了！",
 			action = {
 				{
 					type = "shake",
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "还好我聪明，提前把{namecode:401}留在了会场指挥官那边。",
+			say = "還好我聰明，提前把Z2留在會場指揮官那邊了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "现在才能不受人打扰的享受这一刻，啊哈哈哈——",
+			say = "現在才能不受人打擾的享受這一刻，呼呼呼——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:427}阁下………………",
+			say = "歐根親王閣下………………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499070,
-			say = "你们别这么看看我，我跟这个人不熟的哦……真的不熟哦……",
+			say = "妳們別這麼看看我，我跟這個人不熟的哦……真的不熟哦……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对哦，感谢指挥官！",
+			say = "對哦，感謝指揮官！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "感谢指挥官向马耳他派遣而来的诸位援军！",
+			say = "感謝指揮官派遣而來的馬爾他各位援軍！",
 			action = {
 				{
 					type = "shake",
@@ -340,7 +340,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样感觉舒服多了~",
+			say = "這樣感覺舒服多了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205040,
-			say = "……正如此前光辉女士所说，本次作战期间马耳他要塞将向所有参与作战的阵营敞开大门。",
+			say = "……正如先前光輝女士所說，本次作戰期間馬爾他要塞將向所有參與作戰的陣營敞開大門。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,7 +376,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205040,
-			say = "请进吧，各位远道而来的援军。",
+			say = "請進去吧，各位遠道而來的援軍。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 205040,
-			say = "欢迎来到马耳他要塞——",
+			say = "歡迎來到馬爾他要塞——",
 			painting = {
 				alpha = 0.3,
 				time = 1

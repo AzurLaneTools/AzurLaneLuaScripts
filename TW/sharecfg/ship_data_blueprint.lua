@@ -2329,7 +2329,7 @@ pg.ship_data_blueprint = {
 		blueprint_version = 5,
 		name = "鲁普雷希特亲王",
 		simulate_dungeon = 9924,
-		luck_story = "",
+		luck_story = "LUCK49907",
 		strengthen_item = 42042,
 		unlock_word = "鐵血陣營科技點數達到<color=#92fc63>700</color>",
 		id = 49907,
@@ -2338,7 +2338,12 @@ pg.ship_data_blueprint = {
 		unlock_task_open_condition = {
 			60241
 		},
-		change_skill = {},
+		change_skill = {
+			{
+				19550,
+				18550
+			}
+		},
 		unlock_task = {
 			{
 				60242,
@@ -2405,7 +2410,13 @@ pg.ship_data_blueprint = {
 			2429,
 			2430
 		},
-		fate_strengthen = {},
+		fate_strengthen = {
+			2431,
+			2432,
+			2433,
+			2434,
+			2435
+		},
 		attr_exp = {
 			100,
 			100,
@@ -2419,7 +2430,7 @@ pg.ship_data_blueprint = {
 		blueprint_version = 5,
 		name = "哈尔滨",
 		simulate_dungeon = 9925,
-		luck_story = "",
+		luck_story = "LUCK59901",
 		strengthen_item = 42043,
 		unlock_word = "東煌陣營科技點數達到<color=#92fc63>160</color>",
 		id = 59901,
@@ -2428,7 +2439,12 @@ pg.ship_data_blueprint = {
 		unlock_task_open_condition = {
 			60251
 		},
-		change_skill = {},
+		change_skill = {
+			{
+				19590,
+				18590
+			}
+		},
 		unlock_task = {
 			{
 				60252,
@@ -2495,7 +2511,13 @@ pg.ship_data_blueprint = {
 			2529,
 			2530
 		},
-		fate_strengthen = {},
+		fate_strengthen = {
+			2531,
+			2532,
+			2533,
+			2534,
+			2535
+		},
 		attr_exp = {
 			100,
 			100,
@@ -2509,7 +2531,7 @@ pg.ship_data_blueprint = {
 		blueprint_version = 5,
 		name = "契卡洛夫",
 		simulate_dungeon = 9926,
-		luck_story = "",
+		luck_story = "LUCK79901",
 		strengthen_item = 42044,
 		unlock_word = "白鷹陣營科技點數達到<color=#92fc63>760</color>、薩丁帝國陣營科技點數達到<color=#92fc63>300</color>",
 		id = 79901,
@@ -2519,7 +2541,12 @@ pg.ship_data_blueprint = {
 			60260,
 			60261
 		},
-		change_skill = {},
+		change_skill = {
+			{
+				19610,
+				18610
+			}
+		},
 		unlock_task = {
 			{
 				60262,
@@ -2586,7 +2613,13 @@ pg.ship_data_blueprint = {
 			2629,
 			2630
 		},
-		fate_strengthen = {},
+		fate_strengthen = {
+			2631,
+			2632,
+			2633,
+			2634,
+			2635
+		},
 		attr_exp = {
 			100,
 			100,

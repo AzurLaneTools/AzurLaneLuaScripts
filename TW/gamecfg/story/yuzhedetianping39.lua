@@ -12,7 +12,7 @@ return {
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "望着眼前破损的王座。",
+			say = "望著眼前破損的王座。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
-			say = "克莱蒙梭不经回忆起她们相遇的那个午后——",
+			say = "克里蒙梭不經回憶起她們相遇的那個午後——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,11 +53,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"过去的某日",
+					"過去的某日",
 					1
 				},
 				{
-					"铁血境内某处",
+					"鐵血境內某處",
 					2
 				}
 			},
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			bgm = "theme-clemenceau",
-			say = "会议已经散场许久，这间不大的会议室中，此刻竟多了些空旷与寂寥。",
+			say = "會議已經散場許久，這間不大的會議室中，此刻竟然多了些空曠與寂寥。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
-			say = "仅剩下两个看似南辕北辙的人依然留在座位上，在各自的笔记上留下些心不在焉的划痕。",
+			say = "僅剩下兩個看似南轅北轍的人依然留在座位上，在各自的筆記上留下些心不在焉的畫痕。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我说——你就是维希教廷的克莱蒙梭吧？",
+			say = "我說——妳就是維希教廷的克里蒙梭吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "嗯，马可波罗阁下，您好。",
+			say = "嗯，馬可波羅閣下，您好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "{namecode:440}都走了好一阵了，你怎么还不走？",
+			say = "腓特烈大帝都走了好一陣子了，妳怎麼還不走？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "我在趁着记忆还清晰，思考和总结一下会议精神哦。",
+			say = "我趁著記憶還清晰，思考和總結一下會議精神哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "“思考和总结会议精神”……你可真会打官腔。",
+			say = "「思考與總結會議精神」……妳可真會打官腔。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "刚才在会上听你什么都没说，你是不是跟{namecode:440}也不对付？",
+			say = "剛才在會上聽妳什麼都沒說，妳是不是跟腓特烈大帝也合不來？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "怎么会有这种事呢？维希教廷和铁血可是牢不可破——",
+			say = "怎麼會有這種事呢？維希教廷和鐵血可是牢不可破——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "好了好了，这里又没别人！",
+			say = "好了好了，這裡又沒別人！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -249,7 +249,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "别再打官腔了，我的观察力好着呢。",
+			say = "別再打官腔了，我的觀察力很好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "实话告诉你吧，我也是。",
+			say = "實話告訴妳吧，我也是。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然她的计划吸引不了你，要不要来听听我的？",
+			say = "既然她的計畫吸引不了妳，要不要來聽聽我的？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "让我们合作，一同做一番大事吧——",
+			say = "讓我們合作，一起做一番大事業吧——",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"鸢尾芳馨弥漫时\n\n<size=45>偶尔闲暇</size>",
+					"鳶尾芳馨瀰漫時\n\n<size=45>偶爾閒暇</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "在舞池跳了几曲后，顺势与{namecode:435}一同在各会场间漫步，时而停留欣赏演出，时而享用美食。",
+			say = "在舞池跳了幾曲後，順勢與俾斯麥一同在各會場間漫步，時而停留欣賞演出，時而享用美食。",
 			bgm = "story-musicanniversary-gorgeous",
 			flashout = {
 				black = true,
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "刚才乐队演奏的爵士乐……与平时听惯了的古典音乐相比……",
+			say = "剛才樂團演奏的爵士樂……與平常聽慣了的古典音樂相比……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "虽然在音律上有一些相似之处，但最后演出的效果却让我感觉耳目一新。",
+			say = "雖然在音律上有些相似之處，但最後演出的效果讓我感覺耳目一新。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "噢~指挥官你拿了些吃的过来啊。",
+			say = "噢~指揮官你拿了些吃的過來啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "请慢用。希望符合你的口味。",
+			say = "請慢用。希望符合妳的口味。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "嗯，看上去很美味，谢谢你。",
+			say = "嗯，看起來很美味，謝謝你。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "{namecode:435}细嚼慢咽地品尝了美食。",
+			say = "俾斯麥細嚼慢嚥地品嚐了美食。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "嗯~口感绵密，入口即化，像是冰淇淋的感觉，配菜则是很清新的口感。",
+			say = "嗯~口感綿密，入口即化，像是冰淇淋的感覺，配菜則是很清新的口感。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "你看起来已经开始享受宴会的氛围了。",
+			say = "妳看起來已經開始享受宴會的氣氛了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "有你在身边陪我，不知不觉间，这场宴会的性质已经变了。",
+			say = "有你在身邊陪我，不知不覺間，這場宴會的性質已經改變了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "变成可以享受快乐的类型了？",
+			say = "變成可以享受快樂的類型了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "……嗯，变成可以享受快乐的类型了。",
+			say = "……嗯，變成可以享受快樂的類型了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "以前的宴会上，可没多少机会像今天这样呢。",
+			say = "以前的宴會上，並沒有多少機會像今天這樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "大多数时候都是需要全神贯注应对的，像是工作一样的东西。",
+			say = "大多數時候都是需要全神貫注應付的，像是工作一樣的東西。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "再加上时常插入的紧急联络……",
+			say = "再加上時常插入的緊急聯絡……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "即使在最盛大的宴会中，一旦有新的消息送来也必须立刻开始处理。",
+			say = "即使在最盛大的宴會中，一旦有新的消息送來也必須立刻開始處理。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "……美食和演出，从来都没多少机会好好品味呢。",
+			say = "……美食和演出，從來都沒多少機會好好品味。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "那今天就品味个够吧，就像一介普通宾客那样。",
+			say = "那今天就品味個夠吧，就像一介普通賓客那樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "一介普通宾客吗？这个身份听起来不错。",
+			say = "一介普通賓客嗎？這個身份聽起來不錯。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "如果再有紧急消息发来的话，我替你处理。",
+			say = "如果再有緊急訊息傳來的話，我幫妳處理。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "噗……那就麻烦指挥官了。",
+			say = "噗……那就麻煩指揮官了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,7 +390,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "是啊……在你面前的话，我就可以稍微放下领导者的重担。",
+			say = "是啊……在你面前的話，我就可以稍微放下領導者的重擔。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,7 +408,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "就像一介普通宾客那样，享受一次普通的宴会……",
+			say = "就像一介普通賓客那樣，享受一次普通的宴會……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +423,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "由衷希望你能享受到宴会带来的快乐。",
+			say = "由衷希望妳能享受宴會帶來的快樂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 405011,
-			say = "有你在我身边的话，一定会的————",
+			say = "有你在我身邊的話，一定會的————",
 			painting = {
 				alpha = 0.3,
 				time = 1

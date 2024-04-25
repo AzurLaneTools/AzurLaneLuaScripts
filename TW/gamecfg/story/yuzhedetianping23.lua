@@ -12,11 +12,11 @@ return {
 			asideType = 3,
 			sequence = {
 				{
-					"过去的某日",
+					"過去的某日",
 					1
 				},
 				{
-					"铁血境内某处",
+					"鐵血境內某處",
 					2
 				}
 			},
@@ -37,7 +37,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:440}，回答我。",
+			say = "腓特烈大帝，回答我。",
 			bgm = "theme-frederick",
 			painting = {
 				alpha = 0.3,
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "既然局面已经岌岌可危，为何还要推波助澜，让各阵营间纷争不休？",
+			say = "既然局面已經岌岌可危，為何還要推波助瀾，讓各陣營間紛爭不休？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "倘若不团结起来，我们只有死路一条。",
+			say = "倘若不團結起來，我們只有死路一條。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "这个我当然知道。但，你的想法没有现实基础。",
+			say = "這個我當然知道。但，妳的想法沒有現實基礎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "各个阵营间本就有利益冲突，更有塞壬在挑拨离间。",
+			say = "各陣營間本就有利益衝突，更有塞壬在挑撥離間。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "就算能够在明面上团结起来，其结局也不会比上一次碧蓝航线好多少。",
+			say = "就算能夠在明面上團結起來，其結局也不會比上一次的碧藍航線好多少。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "用手攥住一团散沙，不会让沙子变得紧密，只会让它们全部流出手心。",
+			say = "用手攥住一團散沙，不會讓沙子變得緊密，只會讓它們全部流出手心。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这才是真正的死路一条。",
+			say = "這才是真正的死路一條。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "好，就算我们不团结各阵营，至少也不能配合塞壬的计划吧。",
+			say = "好，就算我們不團結各陣營，至少也不能配合塞壬的計畫吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "选择顺从塞壬，岂不是更加助长它们的力量，让局势更加不可挽回？",
+			say = "選擇順從塞壬，豈不是更加助長它們的力量，讓局勢更不可挽回？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "战争是政治的延续。",
+			say = "戰爭是政治的延續。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "很少有人能意识到，我们同塞壬之间的战争……亦是如此。",
+			say = "很少人能意識到，我們同塞壬之間的戰爭……亦是如此。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "时机还未到，马可波罗，稍安勿躁。",
+			say = "時機還未到，馬可波羅，稍安勿躁。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 499020,
-			say = "我还有事要忙，你也动身前往撒丁帝国，去谱写乐章之中属于你的部分吧。",
+			say = "我還有事要忙，妳也動身前往薩丁帝國，去譜寫樂章之中屬於妳的部分吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_guild_red_n",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:440}径直离开了，偌大的大厅中，只留下了马可波罗一个人。",
+			say = "腓特烈大帝徑直離開了，偌大的大廳中，只留下了馬可波羅一個人。",
 			bgm = "theme-marcopolo",
 			typewriter = {
 				speed = 0.05,
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "呵……拽什么拽。",
+			say = "呵……跩什麼跩。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "你是计划舰，我马可波罗同样是计划舰！",
+			say = "妳是計畫艦，我馬可波羅同樣是計畫艦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "用来对付塞壬的至高武力！",
+			say = "用來對付塞壬的至高武力！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只知道将精力消耗在内耗与琐事上，真不知道谁才是鼠目寸光。",
+			say = "只知道將精力消耗在內耗與瑣事上，真不知道誰才是鼠目寸光。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -384,7 +384,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "塞壬是很强……但是天外有天，难道这世界上就没有比它们更强的力量了么？",
+			say = "塞壬很強……但是天外有天，難道這世界上就沒有比它們更強的力量了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我就不信没人能治得住它们。",
+			say = "我就不相信沒人能治得住它們。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "等着吧，总有一天，我会成为那个真正解决问题的人。",
+			say = "等著吧，總有一天，我會成為那個真正解決問題的人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			say = "我会让世界惊叹于我的伟业，为我而欢呼的！",
+			say = "我會讓世界驚嘆於我的偉業，為我而歡呼的！",
 			painting = {
 				alpha = 0.3,
 				time = 1

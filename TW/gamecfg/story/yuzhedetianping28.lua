@@ -13,11 +13,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"东陆间海·苏伊士运河",
+					"東地中海·蘇伊士運河",
 					1
 				},
 				{
-					"东煌博览会舰队",
+					"東煌博覽會艦隊",
 					2
 				}
 			},
@@ -40,7 +40,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "龙骑兵，终于跟你接通了，你现在还好么，人在哪里？",
+			say = "龍騎兵，終於跟妳接通了，妳現在還好嗎，人在哪裡？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601020,
-			say = "利托里奥大人！我刚刚与东煌舰队一同进入异常海域不久！",
+			say = "利托里奧大人！我剛剛與東煌艦隊一同進入異常海域不久！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您那边还好么！到底发生什么事了？",
+			say = "您那邊還好嗎！到底發生什麼事了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们很好，其他的情况很复杂，三言两语说不清。",
+			say = "我們很好，其他的情況很複雜，三言兩語說不清。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,7 +113,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "先说你的事，你说刚进入异常海域不久是什么意思？",
+			say = "先說說妳的事，妳說剛進入異常海域不久是什麼意思？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,7 +130,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是这样的，利托里奥大人。我与东煌舰队原本位于本次异常区域的影响之外。",
+			say = "是這樣的，利托里奧大人。我與東煌艦隊原本位於本次異常區域的影響之外。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过正在喝茶的时候，镇海小姐好像突然发现了什么情况，然后让我试着联系本土。",
+			say = "不過正在喝茶的時候，鎮海小姐好像突然發現了什麼狀況，然後要我試著聯絡本土。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 601020,
-			say = "我打了好多个地方都打不通。",
+			say = "我打了好多個地方都打不通。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以就拜托她们来跟我一探究竟，然后就发现了……这么恐怖的景象。",
+			say = "所以就拜託她們來跟我一探究竟，然後就發現了……這麼恐怖的景象。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怪不得之前怎么都联系不上你，原来是处于神之国度的影响范围外啊。",
+			say = "怪不得之前怎麼都聯絡不上妳，原來是處於神之國度的影響範圍外啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 605020,
-			say = "龙骑兵，你叫东煌的镇海小姐来听一下。",
+			say = "龍騎兵，妳叫東煌的鎮海小姐來聽一下。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我这边接通了，你来分配任务吧——",
+			say = "指揮官，我這邊接通了，你來分配任務吧——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来如此，情况我明白了。",
+			say = "原來如此，情況我明白了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "不用担心，我们的战斗力足够，苏伊士运河以及周边的节点区域就交给我们吧。",
+			say = "別擔心，我們的戰鬥力足夠，蘇伊士運河以及週邊的節點區域就交給我們吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对了，我们还发现了一件事，亚历山大港中的设备在您的通讯到来之前就已经启动了。",
+			say = "對了，我們還發現了一件事，亞歷山大港中的設備在您的通訊到來之前就已經啟動了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "……你们也不知道什么情况？",
+			say = "……你們也不知道什麼狀況？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,7 +343,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "而且和驻防舰队依然处于失联状态是么……我明白了。",
+			say = "而且和駐防艦隊依然處於失聯狀態是嗎……我明白了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "我们这边会一起着手调查的，有新的情况再联系。",
+			say = "我們這邊會一起著手調查的，有新的情況再聯絡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 506010,
-			say = "嗯，也祝你一切顺利，指挥官——",
+			say = "嗯，也祝你一切順利，指揮官——",
 			painting = {
 				alpha = 0.3,
 				time = 1

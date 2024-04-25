@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			soundeffect = "event:/ui/fengling",
-			say = "风铃的余音在耳边回荡。",
+			say = "風鈴的餘音在耳邊迴盪。",
 			bgm = "bgm-waterwave",
 			typewriter = {
 				speed = 0.05,
@@ -40,14 +40,14 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "窒息的感觉消失了。出现在眼前的是……一处相当独特的空间。",
+			say = "窒息的感覺消失了，眼前，似乎來到了一個相當獨特的空間中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "仔细观察——",
+					content = "仔細觀察——",
 					flag = 1
 				}
 			}
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "暗色的天空下，有着鲜明色彩的鸟居映入眼帘。",
+			say = "暗色的天空下，有著鮮明色彩的鳥居映入眼簾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "狂风从两个对立方向袭来，裹挟着海浪彼此拍击着。",
+			say = "狂風從兩個對立方向襲來，裹挾著海浪彼此拍擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,14 +79,14 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "就连天上也有倒悬着的亭台楼阁，如同海市蜃楼一般。",
+			say = "連天上也有倒懸的亭台樓閣，如同海市蜃樓一般。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "凝视——",
+					content = "凝視——",
 					flag = 1
 				}
 			}
@@ -96,7 +96,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "目不转睛地凝视着天空中的楼阁。",
+			say = "目不轉睛得凝視著天空中的樓閣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "在飘渺虚无的建筑与云层的背后，似乎看到了某些机械结构……",
+			say = "在飄渺虛無建築與雲層的背後，似乎看到了某些機械結構……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "这些结构也与在黑日之中所见的装置相同，只是冰山显露出的一角。",
+			say = "這些結構也和在黑日之中所見的裝置一樣，似乎只是露出了冰山一角。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			},
 			options = {
 				{
-					content = "环顾四周——",
+					content = "環顧四周——",
 					flag = 1
 				}
 			}
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "在视线尽头的鸟居下，似乎看到了一个红黑色的身影。",
+			say = "在視線盡頭的鳥居下，似乎看到了一個紅黑色的身影。",
 			bgm = "main-newyear",
 			typewriter = {
 				speed = 0.05,
@@ -176,7 +176,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "那红黑色的身影似乎也注意到了视线，转身望了过来。",
+			say = "那紅黑色的身影似乎也注意到了視線，轉身望了過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "似乎，有一种怀念的感觉……",
+			say = "似乎，有一種懷念的感覺……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "可是怀念的源头从何而来呢……？",
+			say = "可是懷念的源頭從何而來呢……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "正在思考这些事的时候，那个身影凭空消失了。",
+			say = "正在思考這些事的時候，那個身影憑空消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,18 +256,18 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "这个声音和样貌——",
+			say = "這個聲音和樣貌——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "{namecode:182}！",
+					content = "信濃！",
 					flag = 1
 				},
 				{
-					content = "{namecode:182}？",
+					content = "信濃？",
 					flag = 2
 				}
 			}
@@ -296,7 +296,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "与汝的缘分还真是奇妙……没想到能够再次于梦中相遇。",
+			say = "與汝的緣分還真是奇妙……沒想到能夠再次於夢中相遇。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "正好，向{namecode:182}询问一下远方红黑色身影的事。",
+			say = "正好，向信濃詢問遠方紅黑色身影的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "……红黑色的身影？妾身没见过。",
+			say = "……紅黑色的身影？妾身沒見過。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不如说，除了汝之外，妾身从未在此处见过第二个人。",
+			say = "不如說，除了汝之外，妾身從來未在此見過第二個人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,7 +357,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "……从未？",
+			say = "……從來？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "然也。此处为虚幻与真实的夹缝，连通梦境的休息间。",
+			say = "然也。此處為虛幻與真實的夾縫，連通夢境的休息間。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -388,7 +388,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "就如同妾身的第二故乡一般。",
+			say = "就如同妾身的第二故鄉一般。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然直接进入梦境的情况更为常见，有时也需先来此地暂留片刻。",
+			say = "雖然直接進入夢境的情況較為常見，不過有時則需先來此地中轉一下。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +423,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "只可惜……今日之梦来的实在不是时候。",
+			say = "只可惜……本次之夢來的實在不是時候。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -441,7 +441,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "妾身恐怕要错过闭幕式上的精彩节目了。",
+			say = "妾身恐怕要錯過閉幕式上的精彩節目了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,7 +456,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "闭幕式……难道是指撒丁帝国举办的博览会闭幕式？",
+			say = "閉幕式……難道是指薩丁帝國舉辦的博覽會閉幕式？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "而且，你还是作为重樱阵营的代表前来的。",
+			say = "而且，妳還是以重櫻陣營的代表身分前來的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "…………如此这般，现实之中，汝与妾身其实是同处一方世界？",
+			say = "…………如此這般，現實之中，汝與妾身其實是同處一方世界？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "看上去是这样的……真是神奇。",
+			say = "看上去是這樣的……真是神奇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……妾身从未想过居然会出现此等情况。",
+			say = "……妾身從未想過居然會出現此等狀況。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -545,7 +545,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "如此算来，吾等也算是并肩作战过了。",
+			say = "如此算來，吾等也算是並肩作戰過了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -563,7 +563,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "实属有趣。",
+			say = "實屬有趣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "确实是出乎意料的展开。",
+			say = "確實是出乎意料的展開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "虽然与{namecode:182}在梦中相遇的原理有待调查。",
+			say = "雖然與信濃在夢中相遇的原理有待調查。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "不过考虑到第一次相遇的场景是某个特殊的塞壬镜面海域中。",
+			say = "不過考慮到第一次是身處在某個特殊的塞壬鏡面海域中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -611,7 +611,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "而从这里的天空中，似乎也能看到机械装置。",
+			say = "從這裡的天空中，似乎也能看到機械裝置。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "也许……所谓的梦，并不单纯是虚无缥缈的幻境。",
+			say = "也許……所謂的夢，並不單純是虛無縹緲的幻境。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -633,7 +633,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "当然，这问题看来{namecode:182}也无法解答。不过关于风铃的事，或许她会有些线索。",
+			say = "這問題看來信濃也無法解答，不過，關於風鈴的事或許她會有些線索。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,7 +646,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……回荡在耳边的风铃声？",
+			say = "……迴盪在耳邊的風鈴聲？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -664,7 +664,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "嗯……妾身确实偶尔也能听到。",
+			say = "嗯……妾身確實偶爾也能聽到。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -681,7 +681,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那个声音，就像存在于梦中的某种指引一样。",
+			say = "那個聲音，就像存在於夢中的某種指引一樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -698,7 +698,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "伴随着风铃声，时常就能看到有趣的梦境。",
+			say = "伴隨著風鈴聲，常常就能看到有趣的夢境。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -716,7 +716,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "因此从噩梦之中脱困的情况也是有的。",
+			say = "因此從惡夢之中脫困的情況也是有的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -734,7 +734,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "不过……昨日听到风铃声后，见到的景象却有些骇人。",
+			say = "不過……昨日聽到風鈴聲後，見到的景象卻有些駭人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -751,7 +751,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "金色的天空中，有一轮正在燃烧的黑色太阳。",
+			say = "在金色的天空中，有一輪正在燃燒的黑色太陽。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -769,7 +769,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "火焰没有温度，如同冰冷的黑洞一般，令人毛骨悚然……",
+			say = "火焰沒有溫度，如同冰冷的黑洞一般，令人毛骨悚然……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -784,7 +784,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "黑色的……太阳？！",
+			say = "黑色的……太陽？！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -800,7 +800,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "向{namecode:182}讲述了来到这里之前经历的事——",
+			say = "向信濃講述了來到這裡之前經歷的事——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -813,7 +813,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "汝居然也见到了……",
+			say = "汝居然也見到了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -848,7 +848,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "这轮黑日，异常危险……",
+			say = "這輪黑日，異常危險……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -866,7 +866,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "妾身之前于梦中听到了警告。有某种危险的存在就要降临了……",
+			say = "妾身之前於夢中聽到了警告。有某種危險的存在就要降臨了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -884,7 +884,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "等等……妾身的记忆似乎有些对不上。",
+			say = "等等……妾身的記憶似乎有些對不上。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -902,7 +902,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "从凌晨梦到黑日之后……就记得在闭幕式会场。",
+			say = "從凌晨夢到黑日之後……就記得在閉幕式會場。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -919,7 +919,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "奇怪，妾身于闭幕式之前的记忆……回忆不起来了。",
+			say = "奇怪，妾身於閉幕式之前的記憶……回憶不起來了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -937,7 +937,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "汝还记得在闭幕式之前发生的事么？",
+			say = "汝還記得在閉幕式之前發生的事？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -952,7 +952,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "努力搜寻记忆，却只能记起与孟菲斯和海伦娜一同离开白鹰馆。",
+			say = "努力搜尋記憶，卻只能記得與曼非斯和海倫娜一同離開白鷹館。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -963,7 +963,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "之后就是在会场中听马可波罗的演讲。",
+			say = "之後就是在會場中聽馬可波羅的演講。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -974,7 +974,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "原来当时感受到违和感的原因是这样……",
+			say = "原來當時感受到違和感的原因是這樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1005,7 +1005,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "看来恶兆已经应验，吾等必须立刻从梦境中脱身。",
+			say = "看來惡兆已經應驗，吾等必須立刻從夢境中脫身。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1020,7 +1020,7 @@ return {
 			side = 2,
 			bgName = "bg_xinnong2_2",
 			hidePaintObj = true,
-			say = "要怎么才能离开这里？",
+			say = "要怎麼才能離開這裡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1033,7 +1033,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔……等待。等到被外界唤醒，或者自然醒来……",
+			say = "唔……等待。等到被外界喚醒，或是自然醒來……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1051,7 +1051,7 @@ return {
 			nameColor = "#A9F548FF",
 			soundeffect = "event:/ui/fengling",
 			seDelay = 1,
-			say = "又是风铃的声音……",
+			say = "又是風鈴的聲音……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1080,7 +1080,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "这种感觉……苏醒的时间就要到了。",
+			say = "這種感覺……甦醒的時間就要到了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1098,7 +1098,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307080,
-			say = "呵呵，看来吾等的运气真好，那就让吾等醒来之后于现世再会吧。",
+			say = "呵呵，看來吾等的運氣真好，那就讓吾等醒來後與現世再會吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1115,7 +1115,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "汝记住，妾身的联系频道是——",
+			say = "汝記住，妾身的聯絡頻道是——",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -10,7 +10,7 @@ return {
 			side = 2,
 			actor = 599010,
 			dir = 1,
-			say = "这种变强的感觉，真叫人舒爽痛快啊！对吧，指挥官？",
+			say = "這種變強的感覺，真叫人舒爽痛快啊！對吧，指揮官？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			actor = 599010,
 			dir = 1,
-			say = "正好，趁着心情痛快，我们下馆子去吧！我请客！",
+			say = "正好，趁著心情痛快，我們去餐廳裡吧！我請客！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			actor = 599010,
 			dir = 1,
-			say = "最好再喝点什么！这么好的日子不庆祝下怎么行！",
+			say = "最好再喝點什麼！這麼好的日子不慶祝下怎麼行！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			actor = 599010,
 			dir = 1,
-			say = "总之，以后我罩定你了！可不准让我变强了又不依靠我啊！",
+			say = "總之，以後我罩定你了！可不准讓我變強了又不依靠我啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1

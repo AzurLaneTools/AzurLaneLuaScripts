@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"薰风下的邀约\n\n<size=45>耀眼的波纹</size>",
+					"薰風下的邀約\n\n<size=45>耀眼的波紋</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			bgm = "story-richang-7",
-			say = "行走在海边，清晨的海风让人感到格外清爽。",
+			say = "行走在海邊，清晨的海風格外讓人感到清爽。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "不过，似乎有人已经提前来到了这个绝好的观景位置。",
+			say = "不過，似乎有人已經提前來到了這個絕佳的觀景點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "呼，海风吹得真舒服啊~",
+			say = "呼，海風吹得真舒服啊~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不过，再过几天就要在指挥官面前……",
+			say = "不過，再過幾天就要在指揮官面前……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			},
 			options = {
 				{
-					content = "早上好，海伦娜。",
+					content = "早安，海倫娜。",
 					flag = 1
 				}
 			}
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "早上……好？",
+			say = "早安?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "指指指挥官！您、您怎么这么早就到海边来了！",
+			say = "指指指揮官！您、您怎麼這麼早就到海邊來了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "（SG，为什么不提醒我指挥官靠近了？！）",
+			say = "（SG，為什麼不提醒我指揮官靠近了？！）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "（我，我还完全没做好心理准备……！）",
+			say = "（我，我還完全沒做好心理準備……！）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "今天预定要处理的工作有些多，所以早起了些。",
+			say = "今天預定要處理的工作有些多，所以早起了些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "就算如此……现在这个时间也太早了一些。",
+			say = "就算如此……現在這個時間也太早了一些。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯，我也是这么想的。",
+			say = "嗯，我也是這麼想的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不过已经起来了，就顺便来欣赏一下日出。",
+			say = "不過已經起來了，就順便來欣賞一下日出。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "海伦娜也是来看日出的么？",
+			say = "海倫娜也是來看日出的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "（就算来看日出，也不用一个人穿泳装出来看……）",
+			say = "（就算來看日出，也不用一個人穿泳裝出來看……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯，清晨的海风还是有些凉的，穿泳装来的话要小心着凉。",
+			say = "嗯，清晨的海風還是有些涼的，穿泳裝來的話要小心著涼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "咦！？指、指挥官？您注意到我的泳装了？",
+			say = "咦！？指、指揮官？您注意到我的泳裝了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "那是当然，很可爱。",
+			say = "那是當然，很可愛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "可爱么……",
+			say = "可愛嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,7 +335,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "（欸，如果指挥官能夸我漂亮而不是可爱，就好了……）",
+			say = "（欸，如果指揮官能稱讚我漂亮而不是可愛，就好了……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "（并不是说可爱不好，只是如果是漂亮的话………当，当然，要是两边都夸也……）",
+			say = "（並不是說可愛不好，只是如果是漂亮的話………當，當然，要是兩邊都誇也……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,7 +371,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "——当然，也很漂亮。",
+			say = "——當然，也很漂亮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "啊呜……………谢，谢谢。",
+			say = "啊嗚………………謝，謝謝。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "true",
-			say = "咳、其实……指挥官……",
+			say = "咳、其實……指揮官……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "我……并不是来看日出的……",
+			say = "我……並不是來看日出的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -439,7 +439,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "几日后的郊游，不是说好要一起下海游泳么……",
+			say = "幾日後的郊遊，不是說好要一起下海游泳嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "那也就是说……要，穿泳衣。",
+			say = "那也就是說……要，穿泳衣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -475,7 +475,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "……原本觉得穿泳装并不是什么害羞的事，但一想到是在指挥官面前的话……",
+			say = "……原本覺得穿泳裝並不是什麼害羞的事，但一想到是在指揮官面前的話……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -493,7 +493,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "心里总有些忐忑……",
+			say = "心裡總有些忐忑……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,7 +511,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "所以想要提前来海边适应一下……",
+			say = "所以想要提前來海邊適應一下……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -529,7 +529,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "没想到指挥官居然也提前来到了海边……",
+			say = "沒想到指揮官居然也提前來到了海邊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -547,7 +547,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "其实，今天工作这么多的原因……也是为了后面的郊游想把工作提前做完。",
+			say = "其實，今天工作這麼多的原因……也是為了後面的郊遊想把工作提前做完。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "原来是这样……真是巧呢……",
+			say = "原來是這樣……真是巧呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -579,7 +579,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯……能在这里遇到身穿泳装海伦娜，感觉在不经意间就已经进入假日之中了。",
+			say = "嗯……能在這裡遇到身穿泳裝海倫娜，感覺在不經意間就已經進入假日之中了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "如果要当成假日的话，现在这样，还不太够呢……",
+			say = "如果要當成假日的話，現在這樣，還不太夠呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "指挥官，清晨的海风好像有些凉，我可以……离您再近一些么。",
+			say = "指揮官，清晨的海風好像有些涼，我可以……離您再近一些嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -629,7 +629,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "再近一些，近到能感受你温度的位置……",
+			say = "再近一些，近到能感受你溫度的位置……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -647,7 +647,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "嗯……这样，就有假日的感觉了。",
+			say = "嗯……這樣，就有假日的感覺了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -665,7 +665,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "太阳越升越高，海平面的光芒变得闪耀起来。",
+			say = "太陽越升越高，海平面的光芒變得閃耀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,7 +679,7 @@ return {
 			withoutActorName = true,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "少女的笑容与波光粼粼的海面交相辉映，放射出耀眼的波纹。",
+			say = "少女的笑容與波光粼粼的海面交相輝映，放射出耀眼的波紋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

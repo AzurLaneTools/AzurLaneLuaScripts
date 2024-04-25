@@ -381,10 +381,10 @@ pg.item_data_frame = {
 	[326] = {
 		time_limit_type = 0,
 		name = "無冕聖冠",
-		gain_by = "",
+		gain_by = "愚者的天平",
 		id = 326,
 		time_second = 0,
-		desc = "通過後續活動獲得",
+		desc = "<color=#ffffff>「公義無需加冕，自有勝利的桂冠為其留存。」</color>\n「愚者的天平」活動獲取",
 		scene = {}
 	},
 	[401] = {
@@ -468,6 +468,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>盡情享受無人島上的美好風光吧~！ </color>\n通過參與海島限定活動獲取",
 		scene = {}
 	},
+	[603] = {
+		time_limit_type = 0,
+		name = "芳馨之徽",
+		gain_by = "",
+		id = 603,
+		time_second = 0,
+		desc = "<color=#ffffff>參與盛大宴會的紀念，向所有與會者送上最美好的祝愿！ </color>\n透過參與「宴會邀約」活動獲取",
+		scene = {}
+	},
 	[604] = {
 		time_limit_type = 0,
 		name = "柔軟運動的紀念",
@@ -548,6 +557,7 @@ pg.item_data_frame = {
 		501,
 		601,
 		602,
+		603,
 		604,
 		605,
 		1001

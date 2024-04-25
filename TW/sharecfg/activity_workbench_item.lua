@@ -152,6 +152,28 @@ pg.activity_workbench_item = {
 			recipeid = 9
 		}
 	},
+	[14] = {
+		rarity = 4,
+		name = "宴會邀請函",
+		display = "城堡宴會的邀請函，可向心儀的對象發出宴會邀請。",
+		id = 14,
+		icon = "yanhuiyaoyue_1",
+		get_access = {
+			"產出途徑：心跳城堡挑戰賽",
+			minigame = 56
+		}
+	},
+	[15] = {
+		rarity = 4,
+		name = "宴會紀念品",
+		display = "精美的紀念品，讓人回憶起宴會上歡樂的時光。",
+		id = 15,
+		icon = "yanhuiyaoyue_2",
+		get_access = {
+			"產出途徑：心跳城堡挑戰賽",
+			minigame = 56
+		}
+	},
 	all = {
 		1,
 		2,
@@ -164,6 +186,8 @@ pg.activity_workbench_item = {
 		10,
 		11,
 		12,
-		13
+		13,
+		14,
+		15
 	}
 }

@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			soundeffect = "event:/battle/boom2",
-			say = "轰————————！",
+			say = "轟————————！",
 			bgm = "story-thehierophantV",
 			flashN = {
 				color = {
@@ -64,7 +64,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "计划舰正在协力发动攻击，其余诸舰也在勉强进行着作战。",
+			say = "計畫艦正在協力發動攻擊，其餘諸艦也勉強進行作戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "神正在向指挥官的方向移动！",
+			say = "神正在向指揮官的方向移動！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107090,
-			say = "必须拖延它的速度……才行！",
+			say = "必須拖延它的速度……才行！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "然而，攻击依然没有任何效果，“神”的行动没有受到任何阻拦。",
+			say = "然而，攻擊依然沒有任何效果，「神」的行動沒有受到任何阻擋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "祂正在接近，然后再次举起了权杖。",
+			say = "祂正在接近，然後再次舉起了權杖。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 9702020,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "……不行，来不及了！！",
+			say = "……不行，來不及了！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			dir = 1,
 			nameColor = "#a020f0",
 			actor = 9702020,
-			say = "海伦娜，你还在等什么！",
+			say = "海倫娜，妳還在等什麼！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +174,7 @@ return {
 			actor = 9702020,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "改变计划，立刻把指挥官救出去！",
+			say = "改變計劃，立刻把指揮官救出去！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "“神”的权杖射出的光芒在迪贝路的舰载机间跳动，再次形成了一张大网。",
+			say = "「神」的權杖射出的光在迪貝路的艦載機間跳動，再次形成了一張大網。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "不过——",
+			say = "不過——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgm = "theme-thetowerXVI",
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "轟————————！",
 			flashN = {
 				color = {
 					1,
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_underheaven_cg10",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "这一次，迪贝路的舰载机群一同在光束中爆炸了。",
+			say = "這一次，迪貝路的艦載機群一同在光束中爆炸了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_underheaven_cg10",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "而海域中的作战单位身边，都出现了一道耀眼的金色屏障。",
+			say = "而在海域中的作戰單位身邊，都出現了一道淡藍色的屏障。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "（叹息）孟菲斯，你之前不是让所有人相信我会提供支援么。",
+			say = "（嘆氣）曼非斯，妳之前不是讓所有人相信我會提供支援嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "你自己先放弃了怎么行？",
+			say = "妳自己先放棄了怎麼行？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			actor = 9702020,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "海伦娜——————",
+			say = "海倫娜——————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "好啦好啦，没事了。",
+			say = "好啦好啦，沒事了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "等等……这个熟悉的语调，海伦娜，你该不会是——",
+			say = "等等……這個熟悉的語調，海倫娜，妳該不會是——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "再问我就把你的护盾撤掉。",
+			say = "再問我就把妳的護盾撤掉。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "别、别嘛~好好，你不是，你不是！",
+			say = "別、別嘛~好好，妳不是，妳不是！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -529,7 +529,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "指挥官，迪贝路的问题已经处理好了。",
+			say = "指揮官，迪貝路的問題已經處理好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,7 +549,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "它的本体并不在你附近，也不会再继续提供支援过来了。",
+			say = "它的本體並不在你的附近，也不會繼續提供支援過來了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -569,7 +569,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "海洛芬特为诸位施加的“限制”我也已经找到了解决办法。",
+			say = "海洛芬特為諸位施加的「限制」我也已經找到了解決方案。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -588,7 +588,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "在屏障持续期间，诸位可以自由行动。",
+			say = "在屏障持續期間，諸位可以自由行動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -608,7 +608,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "至于持续的时间……嗯，在本次作战期间肯定够用。",
+			say = "至於持續的時間……嗯，在這次作戰期間肯定夠用。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -628,7 +628,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "不过我依然没能解决海洛芬特无法被直接攻击的问题。",
+			say = "不過我還是沒能解決海洛芬特無法被直接攻擊的問題。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -647,7 +647,7 @@ return {
 			actor = 9702010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "还请诸位继续牵制其行动，我这边还需要……更多时间。",
+			say = "還請諸位繼續牽制其行動，我這邊還需要……更多時間。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -666,7 +666,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "军团作战本来就不是海洛芬特擅长的领域。",
+			say = "軍團作戰本來就不是海洛芬特擅長的領域。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -686,7 +686,7 @@ return {
 			actor = 9707010,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "现在没了迪贝路的支援，又封印了它的最强武器，我们可是想拖延多久就拖延多久~",
+			say = "現在沒了迪貝路的支援，又封印了它最強的武器，我們可是想拖延多久就拖延多久~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -704,7 +704,7 @@ return {
 			actor = 605010,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
-			say = "简直就像打靶训练一样。",
+			say = "簡直就像打靶訓練一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -718,7 +718,7 @@ return {
 			actor = 605010,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
-			say = "虽然这个靶子没什么命中手感……不过我不会客气的。",
+			say = "雖然這個靶子沒什麼命中手感……不過我不會客氣的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +733,7 @@ return {
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，看来我们的盟友出乎意料的多啊~",
+			say = "指揮官，看來我們的盟友出乎意料的多啊~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -749,7 +749,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "舰队的士气正在恢复。",
+			say = "艦隊的士氣正在恢復。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -761,7 +761,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "然而，隐患并没有消除。",
+			say = "然而，隱患並沒有消除。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -773,7 +773,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "关于后续作战的一切判断，都是在其依然是仲裁者·海洛芬特·V的基础上做出的。",
+			say = "關於後續作戰的一切判斷，都是在其依然是仲裁者·海洛芬特·V的基礎上做出的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -785,7 +785,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "而毫无疑问……祂，已经变成了某种别的存在。",
+			say = "而毫無疑問……祂，已經變成了某種別的存在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -797,7 +797,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "直至此刻，依然有一种被祂紧盯着的感觉。",
+			say = "直至此刻，依然能有一種被祂緊盯著的感覺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -809,7 +809,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			dialogueBgAlpha = 0.6,
-			say = "能够清晰地感受到……一股死死盯来的视线。",
+			say = "仍能感受到一股死死盯來的視線。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -872,7 +872,7 @@ return {
 			actor = 9702020,
 			nameColor = "#a020f0",
 			hidePaintObj = true,
-			say = "那是加速的动作……！指挥官小心！！",
+			say = "那是加速的動作……！指揮官小心！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -887,7 +887,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "海洛芬特抛弃了机甲，孤身一人从空中陡然加速。",
+			say = "海洛芬特拋棄了機甲，孤單一人從空中陡然加速。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -913,7 +913,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "似乎仅一瞬间，便来到了指挥舰的上方。",
+			say = "似乎只有一瞬間，便來到了指揮艦的上方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -924,7 +924,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "除了指挥舰甲板上的{namecode:182}，此刻再无能够阻挡祂的存在——",
+			say = "除了指揮艦甲板上的信濃，此刻再無能夠阻擋祂的存在——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -953,7 +953,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "耳边传来了……风铃的声音？",
+			say = "耳邊傳來了……風鈴的聲音？",
 			action = {
 				{
 					type = "shake",
@@ -974,7 +974,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "轟————————！",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -1042,7 +1042,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "妾身的攻击……命中了？",
+			say = "妾身的攻擊……命中了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1057,7 +1057,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "风铃的余音依然回荡在耳边。",
+			say = "風鈴的餘音仍迴盪在耳邊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1068,7 +1068,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "一直无法被任何武器命中的海洛芬特，在遭到{namecode:182}的攻击后停了下来。",
+			say = "一直無法被任何武器命中的海洛芬特，在遭到信濃的攻擊後停了下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1081,7 +1081,7 @@ return {
 			actor = 307080,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……既然如此，再接再厉——",
+			say = "……既然如此，再接再厲——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1125,7 +1125,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "在{namecode:182}惊愕的眼神中，一个新的海洛芬特凭空诞生了。",
+			say = "在信濃驚愕的眼神中，一個新的海洛芬特憑空誕生了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1136,7 +1136,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "新生的海洛芬特如同幽灵一般径直穿过墙壁，来到了我的面前。",
+			say = "新生的海洛芬特如同幽靈般徑直穿過牆壁，來到了我的面前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1148,7 +1148,7 @@ return {
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "「▅■▆▅▆▅」",
+			say = "「▅■分▆▅」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1179,7 +1179,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "在一阵失重感中，意识陷入了黑暗。",
+			say = "在一陣失重感中，意識陷入了黑暗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

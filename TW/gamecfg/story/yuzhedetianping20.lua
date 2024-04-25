@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			bgm = "theme-clemenceau",
-			say = "维苏威火山，此刻依然笼罩在一片宁静之中。",
+			say = "維蘇威火山，此刻依然籠罩在一片寧靜之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "那些肆意蔓延的白色物质，不知为何选择了避开这里。",
+			say = "那些肆意蔓延的白色物質，不知為何選擇了避開這裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "四处战斗的喧嚣声，也在此处销声匿迹。",
+			say = "四處戰鬥的喧囂聲，也在此處消失。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,12 +43,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "马可波罗",
+			actorName = "馬可波羅",
 			bgName = "bg_underheaven_cg4",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			say = "克莱蒙梭卿，你现在到哪里了？",
+			say = "克里蒙梭卿，…現在到哪裡了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,12 +77,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克莱蒙梭",
+			actorName = "克里蒙梭",
 			bgName = "bg_underheaven_cg4",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "我现在正在向着你借给我们的隐秘据点前进。",
+			say = "我現在正在向著妳借給我們的隱密據點前進。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,12 +94,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克莱蒙梭",
+			actorName = "克里蒙梭",
 			bgName = "bg_underheaven_cg4",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "审判庭舰队也已经快到了，我们修整一下就出发前往博览会场。",
+			say = "審判庭艦隊也已經快到了，我們休整一下就出發前往博覽會場。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,8 +116,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
-			say = "太好了，总算来了点好消息。",
+			actorName = "馬可波羅",
+			say = "太好了，總算來了點好消息。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,8 +134,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
-			say = "降临之时将至，而杂音，依然未平……还是你靠得住啊！",
+			actorName = "馬可波羅",
+			say = "降臨之時將至，而雜音，依然未平……還是妳靠得住啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,8 +152,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
-			say = "在你加入战斗之前，我也给你点好消息。",
+			actorName = "馬可波羅",
+			say = "在妳加入戰鬥之前，我也給妳點好消息。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,8 +170,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
-			say = "哼哼哼，你知道么，借给你的据点位置可是我特意挑选的。",
+			actorName = "馬可波羅",
+			say = "哼哼哼，妳知道嗎，借給妳的據點位置可是我特意挑選的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,8 +188,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
-			say = "那里与元老院的秘密设施就隔一条街。",
+			actorName = "馬可波羅",
+			say = "那裡與元老院的秘密設施就隔一條街。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -206,8 +206,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
-			say = "没错，就是正在进行计划舰弗兰德尔研发的那座设施。",
+			actorName = "馬可波羅",
+			say = "沒錯，就是正在進行計畫艦法蘭德斯研發的那座設施。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,8 +224,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
-			say = "——我们合作的弗兰德尔已经完成了。",
+			actorName = "馬可波羅",
+			say = "——我們合作的法蘭德斯已經完成了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,8 +242,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			actorName = "克莱蒙梭",
-			say = "已经完工了么……？那还真是，令人意外的消息。",
+			actorName = "克里蒙梭",
+			say = "已經完工了……？那還真是，令人意外的消息。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,8 +260,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
-			say = "哈哈哈哈~我是想给你个惊喜，所以一直没告诉你。",
+			actorName = "馬可波羅",
+			say = "哈哈哈哈~我是想給妳驚喜，所以一直沒告訴妳。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,8 +278,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
-			say = "克莱蒙梭卿，我现在就给你授权，由你去启动弗兰德尔。",
+			actorName = "馬可波羅",
+			say = "克里蒙梭卿，我現在就授權給妳，由妳去啟動法蘭德斯。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,8 +296,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
-			say = "你命令她……不对，你亲自带领她，还有你的审判庭舰队一同前往会场。",
+			actorName = "馬可波羅",
+			say = "妳命令她……不對，妳親自帶領她，還有妳的審判庭艦隊一同前往會場。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,8 +314,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
-			say = "我也让特伦托去帮你。",
+			actorName = "馬可波羅",
+			say = "我也讓特倫托去幫妳。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,8 +332,8 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffff4d",
-			actorName = "马可波罗",
-			say = "这一次，务必要铲除掉那群聒噪的苍蝇！",
+			actorName = "馬可波羅",
+			say = "這次一定務必務必，要剷除那群聒噪的蒼蠅！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克莱蒙梭",
+			actorName = "克里蒙梭",
 			bgName = "bg_underheaven_cg4",
 			hidePaintObj = true,
 			dir = 1,
@@ -362,12 +362,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克莱蒙梭",
+			actorName = "克里蒙梭",
 			bgName = "bg_underheaven_cg4",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "不用担心，这些麻烦由我来处理，你专心进行仪式就好……",
+			say = "別擔心，這些麻煩由我來處理，妳專心進行儀式就好……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,12 +379,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克莱蒙梭",
+			actorName = "克里蒙梭",
 			bgName = "bg_underheaven_cg4",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ff5c5c",
-			say = "哎呀，直接挂断么……",
+			say = "哎呀，直接掛斷嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这么早就把牌打完，未免也太急躁了。",
+			say = "哎……這麼早就把牌打完，未免也太急躁了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "还以为你能在赌桌上多陪我一会呢……",
+			say = "我以為妳能在賭桌上多陪我一下子呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "克莱蒙梭摇了摇头，抬起手来在眼前的屏幕上点了几下——",
+			say = "克里蒙梭搖了搖頭，抬起手來在眼前的螢幕上點了幾下——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			nameColor = "#ffff4d",
 			actor = 901040,
-			say = "克莱蒙梭大人，我们已经在预定位置待机了，接下来需要我们做什么？",
+			say = "克里蒙梭大人，我們已經在預定位置待機了，接下來需要我們做什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "听好，一会将会有一艘名为弗兰德尔的计划舰前去与你们汇合。",
+			say = "聽好，等一下將會有一艘名為法蘭德斯的計劃艦前去與妳們匯合。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,59 +519,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "她虽然是我们与撒丁帝国合作的产物，但完全听从于审判庭的命令，绝对可靠。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_underheaven_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			actor = 905020,
-			say = "等她到达之后，由你一并指挥。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 905020,
-			side = 2,
-			bgName = "bg_underheaven_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "然后，你们需要前往我发你的新地点待命，并做好战斗准备。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 905020,
-			side = 2,
-			bgName = "bg_underheaven_3",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "作战目标是不久之后将会抵达那片区域的特伦托·META。",
+			say = "她雖然是我們與薩丁帝國合作的產物，但完全聽從於審判庭的命令，絕對可靠。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +537,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905020,
-			say = "当她出现的时候，她将会认为你们是友军，因而不会做出防备。",
+			say = "等她到達之後，由妳一併指揮。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -606,7 +554,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们直接发动突袭一举将其拿下。",
+			say = "然後，妳們需要前往我發給妳的新地點待命，並做好戰鬥準備。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -623,7 +571,25 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过不许将其击沉，让她失去战斗能力就可以了。",
+			say = "作戰目標是不久之後將會抵達那區域的特倫托·META。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_underheaven_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			actor = 905020,
+			say = "當她出現的時候，她將會認為妳們是友軍，因而不會做出防備。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -640,7 +606,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "任务完成之后向我汇报，然后在原地等待我的后续命令。",
+			say = "妳們直接發動突襲一舉將其拿下。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -657,7 +623,41 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……或许你会因为过于震惊而漏听了部分内容，需要我重复一遍命令么？",
+			say = "不過不准將其擊沉，讓她失去戰鬥能力就好了。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 905020,
+			side = 2,
+			bgName = "bg_underheaven_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "任務完成之後向我報告，然後在原地等待我的後續命令。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 905020,
+			side = 2,
+			bgName = "bg_underheaven_3",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "嗯……或許妳會因為太震驚而漏聽了部分內容，需要我重複一次命令嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -676,7 +676,7 @@ return {
 			actor = 901040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不，不需要……我已经全部记下来了，克莱蒙梭大人！",
+			say = "不，不需要……我已經全部記下來了，克里蒙梭大人！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -695,7 +695,7 @@ return {
 			actor = 901040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "保证完成任务！",
+			say = "保證完成任務！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -727,7 +727,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "与凯尔圣的通讯结束后，克莱蒙梭关闭了面前所有的通讯面板。",
+			say = "與凱爾聖的通訊結束後，克里蒙梭關閉了眼前所有的通訊面板。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,7 +738,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "她整理了一下衣袖，将法杖举了起来。",
+			say = "她整理了一下衣袖，將法杖舉了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -749,7 +749,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_3",
 			hidePaintObj = true,
-			say = "然后，维苏威火山，喷发了——",
+			say = "然後，維蘇威火山，噴發了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -784,12 +784,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克莱蒙梭",
+			actorName = "克里蒙梭",
 			bgName = "bg_underheaven_cg5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#92fc63",
-			say = "审判型机甲，代号「支配」，鸢尾教国审判庭的至高杰作。",
+			say = "審判型機甲，代號「支配」，鳶尾教國審判庭的至高傑作。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -801,12 +801,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克莱蒙梭",
+			actorName = "克里蒙梭",
 			bgName = "bg_underheaven_cg5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#92fc63",
-			say = "……蔽日的浓烟、喷涌的烈焰，还有火光之中缓缓现身的机甲骑士。",
+			say = "……蔽日的濃煙、噴湧的烈焰，還有火光之中緩緩現身的機甲騎士。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -818,12 +818,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克莱蒙梭",
+			actorName = "克里蒙梭",
 			bgName = "bg_underheaven_cg5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#92fc63",
-			say = "还有什么比这样的场景更适合渲染剧目的高潮呢。",
+			say = "還有什麼比這樣的場景更適合渲染劇目的高潮呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -835,12 +835,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克莱蒙梭",
+			actorName = "克里蒙梭",
 			bgName = "bg_underheaven_cg5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#92fc63",
-			say = "然后，我差不多也该真的动身启程了……",
+			say = "然後，我差不多也該真的動身啟程了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -852,12 +852,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克莱蒙梭",
+			actorName = "克里蒙梭",
 			bgName = "bg_underheaven_cg5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#92fc63",
-			say = "有一句话我没有说谎哦，马可波罗。",
+			say = "有一句話我沒有說謊哦，馬可波羅。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -869,12 +869,12 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "克莱蒙梭",
+			actorName = "克里蒙梭",
 			bgName = "bg_underheaven_cg5",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#92fc63",
-			say = "被“神之痕”覆盖的路，真的很难走。",
+			say = "被「神之痕」覆蓋的路，真的很難走。",
 			painting = {
 				alpha = 0.3,
 				time = 1

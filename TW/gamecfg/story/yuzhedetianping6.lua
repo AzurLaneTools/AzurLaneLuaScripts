@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			bgm = "story-clemenceau-judgement",
-			say = "博览会主会场·大剧场附近",
+			say = "博覽會主會場·大劇場附近",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "唔啊啊啊啊！好、好险……{namecode:175}阁下，你还好么！",
+			say = "唔啊啊啊啊！好、好險……駿河閣下，妳還好嗎！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "……总算在千钧一发之际躲开了。",
+			say = "……總算在千鈞一髮之際躲開了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "这是什么东西……从哪里杀出来的？",
+			say = "這是什麼東西……從哪裡殺出來的？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			hidePaintObj = true,
 			actor = 601080,
 			side = 2,
-			say = "啊啊啊啊啊啊！文化馆、文化馆被摧毁了啊！！！！！",
+			say = "啊啊啊啊啊啊！文化館、文化館被摧毀了啊！！！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "请冷静一下，阿尔弗雷多阁下！",
+			say = "請冷靜一下，阿爾弗雷多閣下！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "对、对哦，应该冷静下来！",
+			say = "對、對哦，應該冷靜下來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			soundeffect = "event:/ui/kuaimen",
-			say = "咔嚓————（拍照声）",
+			say = "喀嚓————（拍照聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			actor = 601080,
 			side = 2,
-			say = "虽然不知道发生了什么，但是要赶快记录下灾难的瞬间才行！",
+			say = "雖然不知道發生了什麼，但是要趕快記錄下災難的瞬間才行！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			actor = 601080,
 			side = 2,
-			say = "……两位贵宾快逃，这边就交给我来处理吧！",
+			say = "……兩位貴賓快逃，這邊就交給我來處理吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不，我也要留下！两个人比一个人胜算大！",
+			say = "不，我也要留下！兩個人比一個人勝算大！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 305140,
-			say = "…………处理个鬼啊，你们两个笨蛋小笼包！",
+			say = "…………處理個鬼啊，妳們兩個笨蛋小籠包！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,7 +340,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
-			say = "下一瞬间，巨大的机械腿从空中落下，掀起了漫天烟幕。",
+			say = "下一瞬間，巨大的機械腿從空中落下，掀起了漫天煙幕。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
-			say = "与此同时————",
+			say = "同時————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,9 +363,9 @@ return {
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			nameColor = "#A9F548FF",
-			say = "指挥官，您怎么停下来了？",
+			say = "指揮官，您怎麼停下來了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,26 +380,26 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
-			say = "指向一旁正在撤退的阿尔弗雷多等人——",
+			say = "指向一旁正在撤退的阿爾弗雷多等人——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "准备进行支援",
+					content = "準備進行支援",
 					flag = 1
 				}
 			}
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……如果是您的决定的话，我明白了。",
+			say = "……如果是您的決定的話，我明白了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,9 +415,9 @@ return {
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			nameColor = "#A9F548FF",
-			say = "海伦娜，向埃塞克斯提供轰炸坐标。",
+			say = "海倫娜，向艾塞克斯提供轟炸座標。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,12 +429,12 @@ return {
 		},
 		{
 			side = 1,
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "然后……",
+			say = "然後……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,9 +450,9 @@ return {
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "孟菲斯",
+			actorName = "曼非斯",
 			nameColor = "#A9F548FF",
-			say = "那边正在跑路的三个人！快到这边来，我们掩护你！",
+			say = "那邊正在跑路的三個人！快到這邊來，我們掩護妳們！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "轟————————！",
 			soundeffect = "event:/battle/boom2",
 			flashN = {
 				color = {
@@ -515,12 +515,12 @@ return {
 		},
 		{
 			side = 0,
-			actorName = "{namecode:18}",
+			actorName = "島風",
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "噢噢！万分感谢！",
+			say = "噢噢！萬分感謝！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -536,9 +536,9 @@ return {
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:18}",
+			actorName = "島風",
 			nameColor = "#A9F548FF",
-			say = "{namecode:175}阁下、阿尔弗雷多阁下，我们有支援了！",
+			say = "駿河閣下、阿爾弗雷多閣下，我們有支援了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,9 +554,9 @@ return {
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:175}",
+			actorName = "駿河",
 			nameColor = "#A9F548FF",
-			say = "你是……白鹰的孟菲斯？",
+			say = "妳是……白鷹的曼非斯？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -568,11 +568,11 @@ return {
 		},
 		{
 			side = 2,
-			actorName = "阿尔弗雷多",
+			actorName = "阿爾弗雷多",
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "人多力量大，我们先和她们一同行动吧！",
+			say = "人多力量大，我們先和她們一同行動！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,9 +584,9 @@ return {
 			bgName = "bg_underheaven_cg2",
 			hidePaintObj = true,
 			dir = 1,
-			actorName = "{namecode:175}",
+			actorName = "駿河",
 			nameColor = "#A9F548FF",
-			say = "……嗯，顾不了那么多了，先脱离眼前的困境再说。",
+			say = "……嗯，顧不了那麼多了，先脫離眼前的困境再說。",
 			painting = {
 				alpha = 0.3,
 				time = 1

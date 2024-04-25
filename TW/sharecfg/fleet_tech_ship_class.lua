@@ -2917,6 +2917,17 @@ pg.fleet_tech_ship_class = {
 			80202
 		}
 	},
+	[80203] = {
+		shiptype = 2,
+		name = "德·格拉斯級",
+		nation = 8,
+		id = 80203,
+		t_level_1 = 133,
+		t_level = 6,
+		ships = {
+			80203
+		}
+	},
 	[80301] = {
 		shiptype = 3,
 		name = "路易九世",
@@ -2926,6 +2937,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 8,
 		ships = {
 			89901
+		}
+	},
+	[80302] = {
+		shiptype = 3,
+		name = "蘇弗朗級",
+		nation = 8,
+		id = 80302,
+		t_level_1 = 137,
+		t_level = 5,
+		ships = {
+			80301
 		}
 	},
 	[80501] = {
@@ -2950,6 +2972,17 @@ pg.fleet_tech_ship_class = {
 			89902
 		}
 	},
+	[80503] = {
+		shiptype = 5,
+		name = "里昂級",
+		nation = 8,
+		id = 80503,
+		t_level_1 = 141,
+		t_level = 4,
+		ships = {
+			80502
+		}
+	},
 	[80701] = {
 		shiptype = 7,
 		name = "貝亞恩 ",
@@ -2959,6 +2992,17 @@ pg.fleet_tech_ship_class = {
 		t_level = 4,
 		ships = {
 			80701
+		}
+	},
+	[80702] = {
+		shiptype = 7,
+		name = "霞飛級",
+		nation = 8,
+		id = 80702,
+		t_level_1 = 2,
+		t_level = 6,
+		ships = {
+			80702
 		}
 	},
 	[80801] = {
@@ -3015,7 +3059,8 @@ pg.fleet_tech_ship_class = {
 		t_level = 7,
 		ships = {
 			90102,
-			90103
+			90103,
+			90104
 		}
 	},
 	[90201] = {
@@ -3072,7 +3117,8 @@ pg.fleet_tech_ship_class = {
 		t_level = 7,
 		ships = {
 			90501,
-			99901
+			99901,
+			90502
 		}
 	},
 	[90502] = {
@@ -3339,10 +3385,14 @@ pg.fleet_tech_ship_class = {
 		80104,
 		80201,
 		80202,
+		80203,
 		80301,
+		80302,
 		80501,
 		80502,
+		80503,
 		80701,
+		80702,
 		80801,
 		81801,
 		90101,

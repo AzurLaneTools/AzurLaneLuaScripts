@@ -11,7 +11,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"鸢尾芳馨弥漫时\n\n<size=45>消除恐惧的方法</size>",
+					"鳶尾芳馨瀰漫時\n\n<size=45>消除恐懼的方法</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
 			stopbgm = true,
-			say = "被{namecode:523}裹挟着来到了城堡中的某处。",
+			say = "被讓·巴爾裹挾著來到了城堡中的某處。",
 			bgm = "story-musicanniversary-gorgeous",
 			flashout = {
 				black = true,
@@ -54,7 +54,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "呼——到这里的话，应该就安全了……",
+			say = "呼——到這裡的話，應該就安全了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			},
 			options = {
 				{
-					content = "为什么突然逃走？",
+					content = "為什麼突然逃走？",
 					flag = 1
 				}
 			}
@@ -89,7 +89,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "因为被发现了。",
+			say = "因為被發現了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "为什么被发现了……就要逃走？",
+			say = "為什麼被發現了……就要逃走？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,11 +129,11 @@ return {
 			},
 			options = {
 				{
-					content = "不擅长应对马萨诸塞？",
+					content = "不擅長應付麻薩諸塞？",
 					flag = 1
 				},
 				{
-					content = "下次跑之前说一声！",
+					content = "下次跑之前說一聲！",
 					flag = 2
 				}
 			}
@@ -147,7 +147,7 @@ return {
 			actor = 905011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "算是吧……不过不是主要原因。",
+			say = "算是吧……不過不是主要原因。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -184,7 +184,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "唉……接待贵宾、宴会致辞这些工作听上去哪一个和我沾边了？",
+			say = "唉……接待貴賓、宴會致詞這些工作聽上去哪一個跟我有關了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "虚伪的笑，繁文缛节，再加上像个花瓶一样让人参观……",
+			say = "虛偽的笑，繁文縟節，再加上像花瓶一樣讓人參觀……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "都跟她说做不来这些了……还是一股脑全推过来，这跟让我出丑有什么区别。",
+			say = "都跟她說做不來這些了……還是一口氣全推過來，這跟讓我出醜有什麼不同。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "我知道她忙不开，克莱蒙梭也忙不开。",
+			say = "我知道她忙不過來，克里蒙梭也忙不過來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "那也不一定非要是我吧……贞德和马赛曲不也可以。",
+			say = "那也不一定非要選我吧……貞德和馬賽曲不也可以。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "黎塞留肯定也知道这一点，不过她还是选择了你。",
+			say = "黎胥留肯定也知道這一點，不過她還是選擇了妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "你觉得她是想看你出丑么，还是？",
+			say = "妳覺得她是想看妳出醜嗎，還是？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "还是她打算扔过来更多工作的预兆，还是因为想让我习惯这种场合。",
+			say = "還是她打算丟過來更多工作的預兆，還是因為想讓我習慣這種場合。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "还是因为我是她的妹妹……黎塞留级战列舰二号舰，{namecode:523}。",
+			say = "還是因為我是她的妹妹……黎胥留級戰艦二號艦，讓‧巴爾。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "看来你都明白。",
+			say = "看來妳都明白。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "明白归明白，但是……",
+			say = "明白歸明白，但是……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,7 +376,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "这样好了，我去跟黎塞留说你身体不适，让她把这件工作交给马赛曲或者圣女贞德——",
+			say = "這樣好了，我去跟黎胥留說妳身體不適，讓她把這件工作交給馬賽曲或聖女貞德——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "我又没说不干……而且鸢尾骑士岂能出尔反尔临阵退缩……",
+			say = "我又沒說不幹……而且鳶尾騎士豈能出爾反爾臨陣退縮……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "但是你现在的状态……",
+			say = "但是妳現在的狀態……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "宴会的工作……虽然很让人头疼，但不能让鸢尾蒙羞。",
+			say = "宴會的工作……雖然很讓人頭疼，但不能讓鳶尾蒙羞。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,7 +485,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "消除恐惧的最好方法就是面对恐惧。",
+			say = "消除恐懼的最好方法就是面對恐懼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "加油——{namecode:523}！",
+			say = "加油——讓·巴爾！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "哼……不愧是指挥官，还是那么能说会道。",
+			say = "哼……不愧是指揮官，還是那麼能言善道。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -533,7 +533,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "呼——我们回会场去吧，指挥官。",
+			say = "呼——我們回會場去吧，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "刚刚突然从马萨诸塞面前跑开，此等失礼行为，首先需要对她有个解释才行。",
+			say = "剛剛突然從麻薩諸塞面前跑走，此等失禮行為，首先需要對她有個解釋才行。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -566,7 +566,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_107",
 			hidePaintObj = true,
-			say = "一上来就是这么高难度的目标？",
+			say = "一上來就是這麼高難度的目標？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "不是你说的么，消除恐惧的最好方法就是面对恐惧。",
+			say = "不是你說的嗎，消除恐懼的最好方法就是面對恐懼。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -598,7 +598,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "宴会正在进行中，没有时间让我慢慢习惯了。",
+			say = "宴會正在進行中，沒有時間讓我慢慢習慣了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -616,7 +616,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "嗯，决定了，第一个要接待的客人就是她了。",
+			say = "嗯，決定了，第一個要接待的客人就是她了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -634,7 +634,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "不过……指挥官，帮人帮到底。",
+			say = "不過……指揮官，幫人幫到底。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -652,7 +652,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 905011,
-			say = "你会陪我一起回去的，对吧？",
+			say = "你會陪我一起回去的，對吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
