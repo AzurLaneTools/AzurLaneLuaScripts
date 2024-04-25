@@ -116,7 +116,7 @@ function slot0.init(slot0)
 	slot0.scoreview_flag = false
 	slot0.bg = findTF(slot0._tf, "bg")
 
-	pg.CriMgr.GetInstance():StopBGM()
+	pg.BgmMgr.GetInstance():StopPlay()
 	slot0:updateMusic(uv0)
 end
 
@@ -483,6 +483,8 @@ function slot0.willExit(slot0)
 	if LeanTween.isTweening(go(slot0.game_content)) then
 		LeanTween.cancel(go(slot0.game_content))
 	end
+
+	pg.BgmMgr.GetInstance():ContinuePlay()
 end
 
 function slot0.clearSDModel(slot0)

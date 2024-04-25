@@ -789,7 +789,7 @@ end
 
 function slot0.updateEnemyCount(slot0)
 	slot3 = tobool(underscore.detect(slot0.contextData.chapterVO.achieves, function (slot0)
-		return slot0.type == ChapterConst.AchieveType3 and not ChapterConst.IsAchieved(slot0)
+		return (slot0.type == ChapterConst.AchieveType3 or slot0.type == ChapterConst.AchieveType6) and not ChapterConst.IsAchieved(slot0)
 	end))
 
 	setActive(findTF(slot0.topStage, "icon_list/enemy_count"), slot3)
