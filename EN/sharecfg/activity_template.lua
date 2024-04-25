@@ -14553,7 +14553,7 @@ pg.activity_template = {
 				" ",
 				"<color=#d797ff>Kongou µ</color>: 2.5% <color=#92FC63>(up!)</color>",
 				" ",
-				"<color=#d797ff>Boise</color>: 2.5% <color=#92FC63>(up!)</color>"
+				"<color=#d797ff>Boise μ</color>: 2.5% <color=#92FC63>(up!)</color>"
 			}
 		}
 	},

@@ -32,7 +32,7 @@ end
 
 function slot0.Play(slot0, slot1, slot2)
 	if not slot0:CheckCpkAndSubtitle(slot1, next) then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("资源不存在"))
+		pg.TipsMgr.GetInstance():ShowTips(i18n("Resource does not exist"))
 
 		return
 	end
