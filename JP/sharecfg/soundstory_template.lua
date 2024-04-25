@@ -105,7 +105,7 @@ pg.soundstory_template = {
 		}
 	},
 	{
-		CV_JP = "木野 日菜",
+		CV_JP = "木野日菜",
 		audition_resource_CN = "",
 		time = "always",
 		audition_text = "（指揮官の匂い……もうちょっと近寄ってもいいかな…）",
@@ -339,7 +339,7 @@ pg.soundstory_template = {
 		}
 	},
 	{
-		CV_JP = "田中千惠美",
+		CV_JP = "田中ちえ美",
 		audition_resource_CN = "ss-51901-1",
 		audition_text = "まあ、指揮官様の心の内はうまく言い当てられませんね。とりあえず一緒に休憩して身体を整えませんか？本番はこれからですもの",
 		story_resource_CN = "soundStory9_CN",
@@ -443,7 +443,7 @@ pg.soundstory_template = {
 		}
 	},
 	{
-		CV_JP = "三森铃子",
+		CV_JP = "三森すずこ",
 		audition_resource_CN = "",
 		audition_text = "雲仙の声に…酔わされそうだ…と？まるで…甘露のようだなんて……",
 		story_resource_CN = "",
