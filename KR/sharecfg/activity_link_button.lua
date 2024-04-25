@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_link_button = {
 	{
-		param = "5260",
+		param = "5287",
 		name = "event_all",
 		type = 3,
 		text_pic = "text_event_all",
@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5260
+			5287
 		}
 	},
 	{
@@ -39,13 +39,15 @@ pg.activity_link_button = {
 	[10] = {
 		param = "0",
 		name = "event_map",
-		time = "stop",
-		text_pic = "text_event_map",
 		type = 0,
-		pic = "event_map",
+		text_pic = "text_event_map",
 		id = 10,
 		group_id = 2,
-		order = 1
+		pic = "event_map",
+		order = 1,
+		time = {
+			"default"
+		}
 	},
 	[20] = {
 		type = 2,
@@ -57,7 +59,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5260
+			5264
 		},
 		param = {
 			"OTHERWORLD_BACKHILL"
@@ -181,16 +183,13 @@ pg.activity_link_button = {
 	[102] = {
 		param = "0",
 		name = "event_boss_single",
-		type = 0,
+		time = "stop",
 		text_pic = "text_event_anotherWorld",
+		type = 0,
+		pic = "event_map",
 		id = 102,
 		group_id = 4,
-		pic = "event_map",
-		order = 1,
-		time = {
-			"default",
-			5260
-		}
+		order = 1
 	},
 	get_id_list_by_name = {
 		event_all = {

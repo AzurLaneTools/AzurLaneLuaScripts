@@ -48,7 +48,7 @@ function slot0.getProgress(slot0)
 
 			slot1 = 0
 		end
-	elseif slot0.type == 6 and slot0.subType == 1001 then
+	elseif slot0.type == 6 and slot0.subType == TASK_SUB_TYPE_PT then
 		if getProxy(ActivityProxy):getActivityById(tonumber(slot0:getConfig("target_id_2"))) then
 			slot1 = slot3.data1 or 0
 		else

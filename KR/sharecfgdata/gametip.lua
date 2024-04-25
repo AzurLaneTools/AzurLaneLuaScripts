@@ -9873,7 +9873,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "기간 한정 건조를 총 200회 실시하면, \"소비에츠키 소유즈\" 100% 획득 가능! (최대 4척까지)"
+	tip = "기간 한정 건조를 총 200회 실시하면, 크론시타트 100% 획득 가능! (최대 4척까지)"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -27668,4 +27668,20 @@ _G.pg.base.gametip.otherworld_terminal_help = {
 			y = 1024
 		}
 	}
+}
+
+_G.pg.base.gametip.vote_2023_reward_word_1 = {
+	tip = "후후후, 나를 시뮬레이션하다니 시시하네. 초대만 했으면 처음부터 직접 와줬을 텐데… 뭐, 됐어. 어쨌든 재밌게 잘 즐겼으니, 작게나마 답례를 해줄게♪"
+}
+
+_G.pg.base.gametip.vote_2023_reward_word_2 = {
+	tip = "후후, 이건 우승자의 무대인데? 인내의 시간이 곧 끝날 때가 된 것 같네, 맞지? 자, 지휘관! 내 품에 안겨! 이제 우리 오래오래 '즐거움'이 무엇인지 토론해보자구…!"
+}
+
+_G.pg.base.gametip.vote_2023_reward_word_3 = {
+	tip = "후후후, 역시 본심을 따르셨군요, 지휘관님. 지휘관님과 제일 잘 어울려요. 역시 다이호예요…후후후, 그럼 다이호가 준비한 증표는 보셨나요? 그걸 하고 저와 데이트해요, 지휘관님~♪"
+}
+
+_G.pg.base.gametip.voting_page_reward = {
+	tip = "수령"
 }

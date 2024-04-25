@@ -33,7 +33,7 @@ return {
 			},
 			arg_list = {
 				target = "TargetSelf",
-				skill_id = 24044,
+				skill_id = 24042,
 				countType = 24042
 			}
 		}

@@ -601,6 +601,24 @@ return {
 			}
 		},
 		{
+			actor = 501020,
+			side = 2,
+			bgName = "star_level_bg_176",
+			factiontag = "용사",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "용사 푸슌 님의 대활약은…?",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
@@ -608,7 +626,7 @@ return {
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "용사 푸슌 님의 대활약은…?",
+			say = "음… 용사님의 활약은 마물을 쓰러뜨리고 거점을 공략하는 것 아닐까요?",
 			painting = {
 				alpha = 0.3,
 				time = 1

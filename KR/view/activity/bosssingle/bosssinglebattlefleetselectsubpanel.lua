@@ -59,10 +59,12 @@ end
 
 function slot0.InitInteractable(slot0)
 	onButton(slot0, slot0.btnGo, function ()
-		if uv0:CheckValid() then
+		slot0, slot1 = uv0:CheckValid()
+
+		if slot0 then
 			uv0:OnCombat()
 		else
-			pg.TipsMgr.GetInstance():ShowTips(i18n("elite_disable_property_unsatisfied"))
+			pg.TipsMgr.GetInstance():ShowTips(slot1)
 		end
 	end, SFX_UI_WEIGHANCHOR_GO)
 	onButton(slot0, slot0.btnBack, function ()
@@ -142,11 +144,12 @@ function slot0.SetOilLimit(slot0, slot1)
 	end
 end
 
-function slot0.SetSettings(slot0, slot1, slot2, slot3, slot4)
+function slot0.SetSettings(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0.groupNum = slot1
 	slot0.submarineNum = slot2
 	slot0.showTryBtn = slot3
 	slot0.propetyLimitation = slot4
+	slot0.index = slot5
 end
 
 function slot0.UpdateView(slot0)
@@ -459,15 +462,21 @@ function slot0.IsPropertyLimitationSatisfy(slot0)
 end
 
 function slot0.CheckValid(slot0)
-	slot1, slot2 = slot0:IsPropertyLimitationSatisfy()
-	slot3 = 1
+	slot1, slot2 = slot0.viewParent.contextData.bossActivity:CheckCntByIdx(slot0.index)
 
-	for slot7, slot8 in ipairs(slot1) do
-		slot3 = slot3 * slot8
+	if not slot1 then
+		return slot1, slot2
 	end
 
-	if slot3 ~= 1 then
-		return false
+	slot3, slot4 = slot0:IsPropertyLimitationSatisfy()
+	slot5 = 1
+
+	for slot9, slot10 in ipairs(slot3) do
+		slot5 = slot5 * slot10
+	end
+
+	if slot5 ~= 1 then
+		return false, i18n("elite_disable_property_unsatisfied")
 	end
 
 	return true

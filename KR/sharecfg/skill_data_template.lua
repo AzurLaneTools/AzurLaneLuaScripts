@@ -134940,7 +134940,7 @@ pg.base.skill_data_template = {
 	},
 	[801191] = {
 		desc_get = "",
-		name = "섬멸의 횃불 - 뱀파이어Ⅰ",
+		name = "빛을 쫓는 화염 - 뱀파이어Ⅰ",
 		id = 801191,
 		type = 1,
 		max_level = 1,
@@ -134956,7 +134956,7 @@ pg.base.skill_data_template = {
 	},
 	[801192] = {
 		desc_get = "",
-		name = "섬멸의 횃불 - 뱀파이어Ⅱ",
+		name = "빛을 쫓는 화염 - 뱀파이어Ⅱ",
 		id = 801192,
 		type = 1,
 		max_level = 1,
@@ -134972,7 +134972,7 @@ pg.base.skill_data_template = {
 	},
 	[801195] = {
 		desc_get = "",
-		name = "逐光之焰·吸血鬼I",
+		name = "빛을 쫓는 화염 - 뱀파이어Ⅰ",
 		id = 801195,
 		type = 1,
 		max_level = 1,
@@ -134988,7 +134988,7 @@ pg.base.skill_data_template = {
 	},
 	[801197] = {
 		desc_get = "",
-		name = "逐光之焰·吸血鬼II",
+		name = "빛을 쫓는 화염 - 뱀파이어Ⅱ",
 		id = 801197,
 		type = 1,
 		max_level = 1,
@@ -139255,7 +139255,7 @@ pg.base.skill_data_template = {
 		id = 1011970,
 		type = 1,
 		max_level = 10,
-		desc = "주포로 5회 공격할 때마다 장전이 $1, 전탄발사 스킬에 의한 피해량이 $2 상승한다(최대 3회까지 가산 가능).",
+		desc = "주포로 5회 공격할 때마다 장전이 $1 증가, 자신의 대미지 $2 증가(최대 3회까지 가산 가능).",
 		system_transform = {},
 		world_death_mark = {
 			1

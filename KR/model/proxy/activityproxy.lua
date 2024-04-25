@@ -738,6 +738,8 @@ function slot0.getEnterReadyActivity(slot0)
 		end
 	end
 
+	table.sort(slot2)
+
 	for slot7, slot8 in ipairs(slot2) do
 		if slot3[slot8] > 0 then
 			return slot0.data[slot3[slot8]]
