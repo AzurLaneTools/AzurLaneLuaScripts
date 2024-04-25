@@ -101,6 +101,10 @@ function slot0.L2dHasEvent(slot0)
 	return slot0.l2dEventFlag
 end
 
+function slot0.isEx(slot0)
+	return false
+end
+
 function slot0.Destroy(slot0)
 	Destroy(slot0._go)
 	removeOnButton(slot0._tf)

@@ -147,6 +147,8 @@ pg.furniture_data_template = setmetatable({
 			269,
 			271,
 			273,
+			274,
+			275,
 			100002,
 			100003,
 			100004,
@@ -205,6 +207,7 @@ pg.furniture_data_template = setmetatable({
 			100057,
 			100058,
 			100059,
+			100060,
 			200001,
 			200002,
 			200003,
@@ -3080,6 +3083,36 @@ pg.furniture_data_template = setmetatable({
 			309114,
 			309301,
 			309302
+		},
+		[110] = {
+			310001,
+			310002,
+			310101,
+			310102,
+			310103,
+			310104,
+			310105,
+			310106,
+			310107,
+			310108,
+			310109,
+			310110,
+			310111,
+			310112,
+			310113,
+			310114,
+			310115,
+			310116,
+			310301,
+			310302,
+			310303,
+			310304,
+			310305,
+			310306,
+			310307,
+			310308,
+			310309,
+			310310
 		}
 	},
 	get_id_list_by_tag = {
@@ -4912,7 +4945,22 @@ pg.furniture_data_template = setmetatable({
 			309110,
 			309111,
 			309112,
-			309114
+			309114,
+			310101,
+			310102,
+			310103,
+			310104,
+			310105,
+			310106,
+			310107,
+			310108,
+			310109,
+			310110,
+			310111,
+			310112,
+			310113,
+			310114,
+			310115
 		},
 		{
 			1108,
@@ -5164,6 +5212,7 @@ pg.furniture_data_template = setmetatable({
 			263,
 			265,
 			269,
+			274,
 			100002,
 			100003,
 			100004,
@@ -5222,6 +5271,7 @@ pg.furniture_data_template = setmetatable({
 			100057,
 			100058,
 			100059,
+			100060,
 			31101,
 			54104,
 			54105
@@ -5277,7 +5327,8 @@ pg.furniture_data_template = setmetatable({
 			266,
 			268,
 			271,
-			273
+			273,
+			275
 		},
 		[7] = {
 			223,
@@ -5464,7 +5515,8 @@ pg.furniture_data_template = setmetatable({
 			307109,
 			308119,
 			308305,
-			309113
+			309113,
+			310116
 		},
 		[4] = {
 			1001,
@@ -5560,7 +5612,8 @@ pg.furniture_data_template = setmetatable({
 			306001,
 			307001,
 			308001,
-			309001
+			309001,
+			310001
 		},
 		[3] = {
 			1002,
@@ -5657,7 +5710,8 @@ pg.furniture_data_template = setmetatable({
 			306002,
 			307002,
 			308002,
-			309002
+			309002,
+			310002
 		},
 		[5] = {
 			1301,
@@ -5984,7 +6038,17 @@ pg.furniture_data_template = setmetatable({
 			308303,
 			308304,
 			309301,
-			309302
+			309302,
+			310301,
+			310302,
+			310303,
+			310304,
+			310305,
+			310306,
+			310307,
+			310308,
+			310309,
+			310310
 		}
 	},
 	get_id_list_by_type = {
@@ -6083,7 +6147,8 @@ pg.furniture_data_template = setmetatable({
 			306002,
 			307002,
 			308002,
-			309002
+			309002,
+			310002
 		},
 		[7] = {
 			1,
@@ -6210,6 +6275,8 @@ pg.furniture_data_template = setmetatable({
 			269,
 			271,
 			273,
+			274,
+			275,
 			100002,
 			100004,
 			100005,
@@ -6272,6 +6339,7 @@ pg.furniture_data_template = setmetatable({
 			238,
 			240,
 			242,
+			100060,
 			200001,
 			200002,
 			200003,
@@ -8078,7 +8146,22 @@ pg.furniture_data_template = setmetatable({
 			309111,
 			309112,
 			309113,
-			309114
+			309114,
+			310102,
+			310103,
+			310104,
+			310105,
+			310106,
+			310107,
+			310108,
+			310109,
+			310110,
+			310111,
+			310112,
+			310113,
+			310114,
+			310115,
+			310116
 		},
 		[11] = {
 			143,
@@ -8460,7 +8543,12 @@ pg.furniture_data_template = setmetatable({
 			308304,
 			308305,
 			309301,
-			309302
+			309302,
+			310306,
+			310307,
+			310308,
+			310309,
+			310310
 		},
 		[13] = {
 			100015,
@@ -8568,7 +8656,8 @@ pg.furniture_data_template = setmetatable({
 			306001,
 			307001,
 			308001,
-			309001
+			309001,
+			310001
 		},
 		[5] = {
 			1101,
@@ -8716,7 +8805,8 @@ pg.furniture_data_template = setmetatable({
 			305111,
 			305119,
 			308104,
-			309105
+			309105,
+			310101
 		},
 		[3] = {
 			1108,
@@ -8900,7 +8990,12 @@ pg.furniture_data_template = setmetatable({
 			76305,
 			98302,
 			304306,
-			305306
+			305306,
+			310301,
+			310302,
+			310303,
+			310304,
+			310305
 		},
 		[12] = {
 			46131
@@ -9053,6 +9148,8 @@ pg.furniture_data_template = setmetatable({
 		269,
 		271,
 		273,
+		274,
+		275,
 		100002,
 		100003,
 		100004,
@@ -9111,6 +9208,7 @@ pg.furniture_data_template = setmetatable({
 		100057,
 		100058,
 		100059,
+		100060,
 		200001,
 		200002,
 		200003,
@@ -11793,7 +11891,35 @@ pg.furniture_data_template = setmetatable({
 		309113,
 		309114,
 		309301,
-		309302
+		309302,
+		310001,
+		310002,
+		310101,
+		310102,
+		310103,
+		310104,
+		310105,
+		310106,
+		310107,
+		310108,
+		310109,
+		310110,
+		310111,
+		310112,
+		310113,
+		310114,
+		310115,
+		310116,
+		310301,
+		310302,
+		310303,
+		310304,
+		310305,
+		310306,
+		310307,
+		310308,
+		310309,
+		310310
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -18841,6 +18967,129 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[274] = {
+		spine_extra = "",
+		describe = "夏天到了，一起去海边打水仗吧~！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "夏日作战立体书（特典）",
+		themeId = 0,
+		icon = "litishuicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 274,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"litishuB",
+				"normal"
+			},
+			{
+				"litishuT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[275] = {
+		spine_extra = "",
+		describe = "μ兵装実験演習・Ⅲのステージのミニチュア。それぞれユニット「Alizarin」「Cyanidin」をモチーフとしている。――「共鳴のパッション」に参加した指揮官に贈る",
+		gain_by = "共鳴のパッション",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 8,
+		icon = "ido3xunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "共鳴のミニステージ",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 275,
+		can_rotate = 0,
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"ido3xunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "ゆゆゆ友情パワーだぴょぴょぴょぴょ………",
@@ -23013,6 +23262,43 @@ pg.base.furniture_data_template = {
 					"houzhai_huaban"
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[100060] = {
+		spine_extra = "",
+		describe = "じゃじゃん！天才＆天才メカニック、ダ・ヴィンチ1号とソオブラジーテリヌイ1号の登場だ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 0,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 6,
+		icon = "juuswanouicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "モフモフ天才軍団！",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/juuswanou",
+		canputon = 0,
+		id = 100060,
+		can_rotate = 0,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
@@ -140790,6 +141076,1162 @@ pg.base.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[310001] = {
+		spine_extra = "",
+		describe = "輝くステージが間もなく開演！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "楽屋の床",
+		effect = "",
+		advice = 0,
+		icon = "dibanido3icon",
+		spine_action_replace = "",
+		picture = "ido3/dibanido3",
+		comfortable = 4,
+		canputon = 0,
+		id = 310001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310002] = {
+		spine_extra = "",
+		describe = "輝くステージが間もなく開演！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 0,
+		themeId = 110,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "楽屋の壁",
+		effect = "",
+		advice = 0,
+		icon = "qiangbiido3icon",
+		spine_action_replace = "",
+		picture = "",
+		comfortable = 4,
+		canputon = 0,
+		id = 310002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbiido3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[310101] = {
+		spine_extra = "",
+		describe = "ウサギ模様のカーペット。踏むと眠くなりそう？Zzz…",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "ditanido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "楽屋のカーペット",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "ido3/ditanido3",
+		canputon = 0,
+		id = 310101,
+		can_rotate = 0,
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310102] = {
+		spine_extra = "",
+		describe = "ピンクのウサギをモチーフとしたメイク台。完璧なアイドルになってみせますわよ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 110,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "huazhuangzhuohongido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ウサウサメイク台（ピンク）",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 310102,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huazhuangzhuohongido3",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[310103] = {
+		spine_extra = "",
+		describe = "青のウサギをモチーフとしたメイク台。メイクチェックが終わったらステージに上る準備をしよう！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 110,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "huazhuangzhuolanido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "ウサウサメイク台（青）",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 310103,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huazhuangzhuolanido3",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[310104] = {
+		spine_extra = "",
+		describe = "Cyanidinのアイドル衣装がモチーフ…らしい？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "jiarenido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "着せ替えマネキン",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "ido3/jiarenido3",
+		canputon = 0,
+		id = 310104,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310105] = {
+		spine_extra = "",
+		describe = "手影絵で遊ぶのは禁止！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 110,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "juguangdengido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "リハーサルライト",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 310105,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"juguangdengido3",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[310106] = {
+		spine_extra = "",
+		describe = "準備完了！さあ、ステージへ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "luodijingido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "楽屋の姿見鏡",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "ido3/luodijingido3",
+		canputon = 0,
+		id = 310106,
+		can_rotate = 0,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310107] = {
+		spine_extra = "",
+		describe = "時々静けさが欲しい時も…別にサボっていませんわよ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "pingfengido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "楽屋の仕切り",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "ido3/pingfengido3",
+		canputon = 0,
+		id = 310107,
+		can_rotate = 0,
+		size = {
+			6,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310108] = {
+		spine_extra = "",
+		describe = "座り心地が最高でインターバルの休憩にうってつけ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 110,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shafaido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "楽屋のソファ",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "ido3/shafaido3",
+		canputon = 0,
+		id = 310108,
+		can_rotate = 0,
+		size = {
+			2,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-27.6,
+					36.1
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310109] = {
+		spine_extra = "",
+		describe = "ステージで必要な小道具を忘れずに！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiangziido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "小道具箱",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "ido3/xiangziido3",
+		canputon = 0,
+		id = 310109,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310110] = {
+		spine_extra = "",
+		describe = "衣装のシューズならここに！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiejiaido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "楽屋の靴棚",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "ido3/xiejiaido3",
+		canputon = 0,
+		id = 310110,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310111] = {
+		spine_extra = "",
+		describe = "コンサート中に着替える衣装も一通り揃っている！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "yijiaido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "頑丈なハンガー掛け",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "ido3/yijiaido3",
+		canputon = 0,
+		id = 310111,
+		can_rotate = 0,
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310112] = {
+		spine_extra = "",
+		describe = "高さの調整も簡単にでき、メイクにも使いやすい",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 110,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "yizi1ido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "メイクチェア1（シッポ付き）",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "ido3/yizi1ido3",
+		canputon = 0,
+		id = 310112,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-9.4,
+					29.6
+				},
+				{
+					-1,
+					1
+				},
+				"ido3/yizi1ido3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310113] = {
+		spine_extra = "",
+		describe = "高さの調整も簡単にでき、メイクにも使いやすい",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "yizi2ido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "メイクチェア2（シッポ付き）",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "ido3/yizi2ido3",
+		canputon = 0,
+		id = 310113,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310114] = {
+		spine_extra = "",
+		describe = "高さの調整も簡単にでき、メイクにも使いやすい",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "yizi3ido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "メイクチェア3（シッポ付き）",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "ido3/yizi3ido3",
+		canputon = 0,
+		id = 310114,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310115] = {
+		spine_extra = "",
+		describe = "関係者以外立入禁止だよー",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 110,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "rukouido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "バックステージの入口",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 310115,
+		can_rotate = 1,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"rukouido3",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[310116] = {
+		spine_extra = "",
+		describe = "ステージに上る前にコンディションをチェックするための設備。ノリよく歌おう！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "リハーサルコンポ",
+		themeId = 110,
+		icon = "maikefengido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 310116,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"maikefengido3B",
+				"normal"
+			},
+			{
+				"maikefengido3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[310301] = {
+		spine_extra = "",
+		describe = "頑張れば、いつかこのポスターを母港中にーー",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "haibao1ido3icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "アイドルポスター1",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "ido3/haibao1ido3",
+		canputon = 0,
+		id = 310301,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310302] = {
+		spine_extra = "",
+		describe = "頑張れば、いつかこのポスターを母港中にーー",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "haibao2ido3icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "アイドルポスター2",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "ido3/haibao2ido3",
+		canputon = 0,
+		id = 310302,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310303] = {
+		spine_extra = "",
+		describe = "頑張れば、いつかこのポスターを母港中にーー",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "haibao3ido3icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "アイドルポスター3",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "ido3/haibao3ido3",
+		canputon = 0,
+		id = 310303,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310304] = {
+		spine_extra = "",
+		describe = "頑張れば、いつかこのポスターを母港中にーー",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "haibao4ido3icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "アイドルポスター4",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "ido3/haibao4ido3",
+		canputon = 0,
+		id = 310304,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310305] = {
+		spine_extra = "",
+		describe = "今回のステージのシンボルを覚えといて！",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "dengpaiido3icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "スターボードライト",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "ido3/dengpaiido3",
+		canputon = 0,
+		id = 310305,
+		can_rotate = 1,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310306] = {
+		spine_extra = "",
+		describe = "輝くステージ、輝く君へ！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "pingmuidop3icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "スターウォールライト1",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "ido3/pingmuidop3",
+		canputon = 0,
+		id = 310306,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310307] = {
+		spine_extra = "",
+		describe = "輝くステージ、輝く君へ！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "qiangshi1ido3icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "スターウォールライト2",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "ido3/qiangshi1ido3",
+		canputon = 0,
+		id = 310307,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310308] = {
+		spine_extra = "",
+		describe = "輝くステージ、輝く君へ！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "qiangshi2ido3icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "スターウォールライト3",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "ido3/qiangshi2ido3",
+		canputon = 0,
+		id = 310308,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310309] = {
+		spine_extra = "",
+		describe = "輝くステージ、輝く君へ！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "qiangshi3ido3icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "スターウォールライト4",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "ido3/qiangshi3ido3",
+		canputon = 0,
+		id = 310309,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310310] = {
+		spine_extra = "",
+		describe = "衣装はきっちり収納すること！でないとシワが出るよ！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 2,
+		themeId = 110,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 5,
+		icon = "yijiaqiangido3icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "楽屋の衣装ハンガー",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 310310,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yijiaqiangido3",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
 		},
 		interAction_group = {}
 	}

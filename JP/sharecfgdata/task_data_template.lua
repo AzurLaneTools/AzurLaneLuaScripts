@@ -37304,7 +37304,7 @@ _G.pg.base.task_data_template[5993] = {
 	guild_coin_award = 0,
 	award = 5993,
 	type = 5,
-	desc = "アヴローラを含めた艦隊で出撃し、20回勝利する",
+	desc = "ジョッフルを含めた艦隊で出撃し、20回勝利する",
 	count_inherit = 0,
 	sub_type = 18,
 	target_id_2 = "",
@@ -37384,7 +37384,7 @@ _G.pg.base.task_data_template[5995] = {
 	guild_coin_award = 0,
 	award = 5995,
 	type = 5,
-	desc = "アヴローラの親密度が100に到達",
+	desc = "ジョッフルの親密度が100に到達",
 	count_inherit = 0,
 	sub_type = 1012,
 	target_id_2 = "",
@@ -37434,7 +37434,7 @@ _G.pg.base.task_data_template[5996] = {
 	guild_coin_award = 0,
 	award = 5996,
 	type = 5,
-	desc = "アヴローラを3回限界突破する",
+	desc = "ジョッフルを3回限界突破する",
 	count_inherit = 0,
 	sub_type = 33,
 	target_id_2 = "",
@@ -37484,7 +37484,7 @@ _G.pg.base.task_data_template[5997] = {
 	guild_coin_award = 0,
 	award = 5997,
 	type = 5,
-	desc = "アヴローラのレベルが100に到達",
+	desc = "ジョッフルのレベルが100に到達",
 	count_inherit = 0,
 	sub_type = 1013,
 	target_id_2 = "",
@@ -90400,6 +90400,1752 @@ _G.pg.base.task_data_template[19980] = {
 	},
 	scene = {
 		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19981] = {
+	name = "『偶像V3』日常建造",
+	guild_coin_award = 0,
+	award = 902036,
+	type = 36,
+	desc = "3回建造する",
+	count_inherit = 0,
+	sub_type = 30,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19981,
+	target_num = 3,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59571,
+			300
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19982] = {
+	name = "『偶像V3』日常出击",
+	guild_coin_award = 0,
+	award = 902037,
+	type = 36,
+	desc = "艦隊を出撃させ、15回勝利せよ！",
+	count_inherit = 0,
+	sub_type = 20,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "0",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19982,
+	target_num = 15,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59571,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[19983] = {
+	name = "『偶像V3』日常困难本",
+	guild_coin_award = 0,
+	award = 902038,
+	type = 36,
+	desc = "任意のハードステージを1回クリアせよ",
+	count_inherit = 0,
+	sub_type = 182,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "10101",
+	scene = "",
+	id = 19983,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59571,
+			150
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19984] = {
+	name = "『偶像V3』通关SP1",
+	guild_coin_award = 0,
+	award = 902039,
+	type = 6,
+	desc = "SP1クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1800001",
+	next_task = "19985",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19984,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59571,
+			200
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1800001,
+			chapterId = 1800001
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19985] = {
+	name = "『偶像V3』通关SP2",
+	guild_coin_award = 0,
+	award = 902040,
+	type = 6,
+	desc = "SP2クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1800002",
+	next_task = "19986",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19985,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59571,
+			400
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1800001,
+			chapterId = 1800002
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19986] = {
+	name = "『偶像V3』通关SP3",
+	guild_coin_award = 0,
+	award = 902041,
+	type = 6,
+	desc = "SP3クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1800003",
+	next_task = "19987",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19986,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59571,
+			400
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1800001,
+			chapterId = 1800003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19987] = {
+	name = "『偶像V3』通关SP4",
+	guild_coin_award = 0,
+	award = 902042,
+	type = 6,
+	desc = "SP4クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1800004",
+	next_task = "19988",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19987,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			59571,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1800001,
+			chapterId = 1800004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19988] = {
+	name = "『偶像V3』通关SP5",
+	guild_coin_award = 0,
+	award = 902043,
+	type = 6,
+	desc = "SP5クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1800005",
+	next_task = "19989",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19988,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			59571,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1800001,
+			chapterId = 1800005
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19989] = {
+	name = "『偶像V3』通关μSP",
+	guild_coin_award = 0,
+	award = 902044,
+	type = 6,
+	desc = "イベントステージSPをクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1800041",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19989,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			8,
+			70190,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1800003,
+			chapterId = 1800041
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19990] = {
+	name = "『偶像V3』通关EX",
+	guild_coin_award = 0,
+	award = 902045,
+	type = 6,
+	desc = "EXステージをクリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1800051",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19990,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1800004,
+			chapterId = 1800051
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19991] = {
+	name = "『偶像V3』SP1三星",
+	guild_coin_award = 0,
+	award = 902046,
+	type = 6,
+	desc = "SP1の作戦目標（星3つ）をすべて達成せよ！",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1800001",
+	next_task = "19992",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19991,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30355,
+			1
+		},
+		{
+			8,
+			70185,
+			1
+		},
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1800001,
+			chapterId = 1800001
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19992] = {
+	name = "『偶像V3』SP2三星",
+	guild_coin_award = 0,
+	award = 902047,
+	type = 6,
+	desc = "SP2の作戦目標（星3つ）をすべて達成せよ！",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1800002",
+	next_task = "19993",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19992,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30355,
+			1
+		},
+		{
+			8,
+			70184,
+			1
+		},
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1800001,
+			chapterId = 1800002
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19993] = {
+	name = "『偶像V3』SP3三星",
+	guild_coin_award = 0,
+	award = 902048,
+	type = 6,
+	desc = "SP3の作戦目標（星3つ）をすべて達成せよ！",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1800003",
+	next_task = "19994",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19993,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30355,
+			1
+		},
+		{
+			8,
+			70192,
+			1
+		},
+		{
+			2,
+			18013,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1800001,
+			chapterId = 1800003
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19994] = {
+	name = "『偶像V3』SP4三星",
+	guild_coin_award = 0,
+	award = 902049,
+	type = 6,
+	desc = "SP4の作戦目標(星3つ)を全て達成!",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1800004",
+	next_task = "19995",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19994,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30355,
+			1
+		},
+		{
+			8,
+			70182,
+			1
+		},
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1800001,
+			chapterId = 1800004
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19995] = {
+	name = "『偶像V3』SP5三星",
+	guild_coin_award = 0,
+	award = 902050,
+	type = 6,
+	desc = "SP5の作戦目標（星3つ）をすべて達成せよ！",
+	count_inherit = 0,
+	sub_type = 1021,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 0,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1800005",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19995,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30355,
+			1
+		},
+		{
+			8,
+			70189,
+			1
+		},
+		{
+			2,
+			18033,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1800001,
+			chapterId = 1800005
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19996] = {
+	name = "『偶像V3』登录送皮肤体验券活动",
+	guild_coin_award = 0,
+	award = 902142,
+	type = 6,
+	desc = "ゲームにログインせよ！",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19996,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			1,
+			406,
+			3
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19997] = {
+	name = "『偶像V3』外观装备箱保底",
+	guild_coin_award = 0,
+	award = 902052,
+	type = 6,
+	desc = "装備外装箱（共鳴）を20個開ける",
+	count_inherit = 0,
+	sub_type = 52,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "30355",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 19997,
+	target_num = 20,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30539,
+			1
+		}
+	},
+	scene = {
+		"SHOP",
+		{
+			warp = "shopstreet"
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19998] = {
+	name = "『偶像V3』皮肤剧情签到活动第一弹1",
+	guild_coin_award = 0,
+	award = 902053,
+	type = 14,
+	desc = "ゲームにログインせよ！",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19998,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			58995,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[19999] = {
+	name = "『偶像V3』皮肤剧情签到活动第一弹2",
+	guild_coin_award = 0,
+	award = 902053,
+	type = 14,
+	desc = "ゲームにログインせよ！",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 19999,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			58995,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[20000] = {
+	name = "『偶像V3』皮肤剧情签到活动第一弹3",
+	guild_coin_award = 0,
+	award = 902053,
+	type = 14,
+	desc = "ゲームにログインせよ！",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 20000,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			58995,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[20001] = {
+	name = "『偶像V3』累计通关10次SP5",
+	guild_coin_award = 0,
+	award = 902102,
+	type = 6,
+	desc = "SP5を10回クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1800005",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 20001,
+	target_num = 10,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			70181,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[20002] = {
+	name = "『偶像V3』累计通关20次SP5",
+	guild_coin_award = 0,
+	award = 902103,
+	type = 6,
+	desc = "SP5を20回クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1800005",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 20002,
+	target_num = 20,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			70183,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[20003] = {
+	name = "『偶像V3』累计通关30次SP5",
+	guild_coin_award = 0,
+	award = 902104,
+	type = 6,
+	desc = "SP5を30回クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "1800005",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 20003,
+	target_num = 30,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			70187,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[20004] = {
+	name = "『偶像V3』累计PT达到3500",
+	guild_coin_award = 0,
+	award = 902105,
+	type = 6,
+	desc = "「共鳴のエンブレム」累計3500入手する",
+	count_inherit = 0,
+	sub_type = 1001,
+	target_id_2 = "5302",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "407",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 20004,
+	target_num = 3500,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			70188,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[20005] = {
+	name = "『偶像V3』累计PT达到7500",
+	guild_coin_award = 0,
+	award = 902106,
+	type = 6,
+	desc = "「共鳴のエンブレム」累計7500入手する",
+	count_inherit = 0,
+	sub_type = 1001,
+	target_id_2 = "5302",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "407",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 20005,
+	target_num = 7500,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			70191,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[20006] = {
+	name = "『偶像V3』累计PT达到10500",
+	guild_coin_award = 0,
+	award = 902107,
+	type = 6,
+	desc = "「共鳴のエンブレム」累計10500入手する",
+	count_inherit = 0,
+	sub_type = 1001,
+	target_id_2 = "5302",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	fix_task = 0,
+	target_id = "407",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 20006,
+	target_num = 10500,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			8,
+			70186,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+_G.pg.base.task_data_template[20007] = {
+	name = "小信浓npc临时加入",
+	guild_coin_award = 0,
+	award = 902116,
+	type = 6,
+	desc = "不该看到",
+	count_inherit = 0,
+	sub_type = 1011,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 0,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	target_id = "0",
+	scene = "",
+	id = 20007,
+	target_num = 1,
+	activity_client_config = "",
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			4,
+			307141,
+			1
+		}
+	}
+}
+
+_G.pg.base.task_data_template[20009] = {
+	name = "『偶像V3』通关任务10次",
+	guild_coin_award = 0,
+	award = 902108,
+	type = 6,
+	desc = "『共鳴のパッション』特別ステージ10回クリア",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	scene = "",
+	id = 20009,
+	target_num = 10,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1800001,
+		1800002,
+		1800003,
+		1800004,
+		1800005,
+		1800041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59571,
+			500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[20010] = {
+	name = "『偶像V3』通关任务30次",
+	guild_coin_award = 0,
+	award = 902109,
+	type = 6,
+	desc = "『共鳴のパッション』特別ステージ30回クリア",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	scene = "",
+	id = 20010,
+	target_num = 30,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1800001,
+		1800002,
+		1800003,
+		1800004,
+		1800005,
+		1800041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59571,
+			1500
+		}
+	}
+}
+
+_G.pg.base.task_data_template[20011] = {
+	name = "『偶像V3』通关任务60次",
+	guild_coin_award = 0,
+	award = 902110,
+	type = 6,
+	desc = "『共鳴のパッション』特別ステージ60回クリア",
+	count_inherit = 0,
+	sub_type = 21,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	story_id = "",
+	priority_type = 0,
+	ryza_icon = "",
+	fix_task = 0,
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	scene = "",
+	id = 20011,
+	target_num = 60,
+	activity_client_config = "",
+	added_tip = 0,
+	target_id = {
+		1800001,
+		1800002,
+		1800003,
+		1800004,
+		1800005,
+		1800041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59571,
+			3000
+		}
+	}
+}
+
+_G.pg.base.task_data_template[20012] = {
+	name = "『偶像V3』通关ISP1",
+	guild_coin_award = 0,
+	award = 902111,
+	type = 6,
+	desc = "ISP1クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1800021",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 20012,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1800002,
+			chapterId = 1800021
+		}
+	},
+	activity_client_config = {
+		before = 19492,
+		special = false
+	}
+}
+
+_G.pg.base.task_data_template[20013] = {
+	name = "『偶像V3』通关ISP2",
+	guild_coin_award = 0,
+	award = 902111,
+	type = 6,
+	desc = "ISP2クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1800022",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 20013,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1800002,
+			chapterId = 1800022
+		}
+	},
+	activity_client_config = {
+		before = 19497,
+		special = false
+	}
+}
+
+_G.pg.base.task_data_template[20014] = {
+	name = "『偶像V3』通关ISP3",
+	guild_coin_award = 0,
+	award = 902111,
+	type = 6,
+	desc = "ISP3クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1800023",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 20014,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1800002,
+			chapterId = 1800023
+		}
+	},
+	activity_client_config = {
+		before = 19498,
+		special = false
+	}
+}
+
+_G.pg.base.task_data_template[20015] = {
+	name = "『偶像V3』通关ISP4",
+	guild_coin_award = 0,
+	award = 902111,
+	type = 6,
+	desc = "ISP4クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1800024",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 20015,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1800002,
+			chapterId = 1800024
+		}
+	},
+	activity_client_config = {
+		before = 19499,
+		special = false
+	}
+}
+
+_G.pg.base.task_data_template[20016] = {
+	name = "『偶像V3』通关ISP5",
+	guild_coin_award = 0,
+	award = 902111,
+	type = 6,
+	desc = "ISP5クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1800025",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 20016,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1800002,
+			chapterId = 1800025
+		}
+	},
+	activity_client_config = {
+		before = 19500,
+		special = false
+	}
+}
+
+_G.pg.base.task_data_template[20017] = {
+	name = "『偶像V3』通关ISP6",
+	guild_coin_award = 0,
+	award = 902111,
+	type = 6,
+	desc = "ISP6クリア",
+	count_inherit = 0,
+	sub_type = 1020,
+	target_id_2 = "",
+	story_icon = "",
+	is_head = 1,
+	task_fold = 0,
+	award_choice = "",
+	visibility = 1,
+	ryza_type = 0,
+	quick_finish = 0,
+	level = 1,
+	ryza_icon = "",
+	priority_type = 0,
+	target_id = "1800026",
+	next_task = "0",
+	auto_commit = 0,
+	story_icon_shift = "",
+	story_id = "",
+	id = 20017,
+	target_num = 1,
+	fix_task = 0,
+	added_tip = 0,
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1800002,
+			chapterId = 1800026
+		}
+	},
+	activity_client_config = {
+		before = 19500,
+		special = false
 	}
 }
 

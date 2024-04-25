@@ -55,8 +55,8 @@ function slot0.HandleBtnTrigger(slot0, slot1, slot2, slot3)
 			return
 		end
 
-		uv1()
 		triggerButton(uv0)
+		uv1()
 	end
 
 	onButton(slot0, slot1, slot4, SFX_PANEL)

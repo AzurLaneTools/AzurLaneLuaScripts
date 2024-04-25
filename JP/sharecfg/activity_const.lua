@@ -16,7 +16,7 @@ pg.activity_const = {
 		act_id = 5010
 	},
 	ACT_NPC_SHIP_ID = {
-		act_id = 5296
+		act_id = 5315
 	},
 	ANNIVERSARY_TASK_LIST_ID = {
 		act_id = 10122
@@ -1019,5 +1019,11 @@ pg.activity_const = {
 	},
 	OTHER_WORLD_TERMINAL_BATTLE_ID = {
 		act_id = 5260
+	},
+	MUSIC_FESTIVAL_ID_3 = {
+		act_id = 5310
+	},
+	MUSIC_FESTIVAL_MEDALCOLLECTION_3 = {
+		act_id = 5309
 	}
 }

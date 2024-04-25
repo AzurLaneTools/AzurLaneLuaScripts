@@ -3825,6 +3825,15 @@ pg.drop_data_restore = {
 		drop_id = 0,
 		target_id = 211
 	},
+	[7012] = {
+		target_type = 14,
+		type = 1,
+		resource_type = 1,
+		id = 7012,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 212
+	},
 	all = {
 		1,
 		2,
@@ -4250,6 +4259,7 @@ pg.drop_data_restore = {
 		7008,
 		7009,
 		7010,
-		7011
+		7011,
+		7012
 	}
 }

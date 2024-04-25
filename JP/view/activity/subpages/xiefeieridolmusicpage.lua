@@ -42,7 +42,11 @@ function slot0.OnUpdateFlush(slot0)
 		setActive(slot0.masklist:Find("mask" .. slot4 .. "/frame"), slot4 <= slot0.all_times and not isActive(slot0.masklist:Find("mask" .. slot4 .. "/dot")))
 	end
 
-	setSlider(slot0.slider, 0, 1, uv0[slot0.finish_times])
+	if slot0.finish_times > 0 then
+		setSlider(slot0.slider, 0, 1, uv0[slot0.finish_times])
+	else
+		setSlider(slot0.slider, 0, 1, 0)
+	end
 
 	if slot0.hubData:getConfig("reward_need") <= slot0.finish_times and slot0.hubData.ultimate == 0 then
 		slot0:emit(ActivityMediator.MUSIC_GAME_OPERATOR, {
@@ -51,6 +55,8 @@ function slot0.OnUpdateFlush(slot0)
 			args1 = {}
 		})
 	end
+
+	setActive(slot0.bg:Find("got_icon"), slot0.hubData.ultimate ~= 0)
 end
 
 function slot0.OnDestroy(slot0)

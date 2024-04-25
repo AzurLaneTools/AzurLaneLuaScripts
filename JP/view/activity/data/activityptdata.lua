@@ -139,6 +139,10 @@ function slot0.CanGetMorePt(slot0)
 end
 
 function slot0.CanTrain(slot0)
+	if not slot0:isInBuffTime() then
+		return false
+	end
+
 	function slot1(slot0)
 		for slot4, slot5 in ipairs(uv0.curHasBuffs) do
 			if slot0 == slot5 then
@@ -173,7 +177,7 @@ function slot0.GetCurBuffInfos(slot0)
 					table.insert(slot1, {
 						id = slot17,
 						lv = slot16,
-						group = slot2 - slot11 + 1,
+						group = slot11,
 						next = slot12[slot16 + 1],
 						award = slot0:GetBuffAwardInfo(slot12[#slot12])
 					})

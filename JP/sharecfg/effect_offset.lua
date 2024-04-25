@@ -825,6 +825,39 @@ pg.effect_offset = {
 			0
 		}
 	},
+	music_huanraoyinfu_changliangdanchuan_2 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
+			0,
+			0.2,
+			0
+		}
+	},
+	music_huanraoyinfu_fusangdanchuan_2 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
+			0,
+			0.2,
+			0
+		}
+	},
+	music_huanraoyinfu_gaoxiongdanchuan_2 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
+			0,
+			0.2,
+			0
+		}
+	},
 	jiejie_dunpai = {
 		mirror = false,
 		y_scale = false,
@@ -1901,6 +1934,50 @@ pg.effect_offset = {
 			0.2,
 			-2,
 			2.4
+		}
+	},
+	juguangdeng_yinfu_STG = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			-5,
+			8,
+			0
+		}
+	},
+	juguangdeng_huaduo_STG = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			-5,
+			8,
+			0
+		}
+	},
+	juguangdeng_yinfu_BOSS = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			2,
+			7.5,
+			0
+		}
+	},
+	juguangdeng_huaduo_BOSS = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			2,
+			7.5,
+			0
 		}
 	}
 }
