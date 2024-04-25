@@ -13687,6 +13687,77 @@ pg.activity_template = {
 			ui_name = "NewServerLoginPage"
 		}
 	},
+	[8064] = {
+		mark = 20240425,
+		title_res_tag = "",
+		page_info = "",
+		type = 2,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 8064,
+		config_data = {
+			{
+				"world_boss_help_damage_min",
+				7000
+			},
+			{
+				"world_boss_help_damage_max",
+				9000
+			},
+			{
+				"world_boss_help_team",
+				{
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10,
+					11,
+					12,
+					13,
+					14
+				}
+			},
+			{
+				"world_boss_extra_pt_rate",
+				10000
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					4,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[1068] = {
 		mark = 20231207,
 		title_res_tag = "",
@@ -17999,6 +18070,7 @@ pg.activity_template = {
 		8059,
 		8060,
 		8061,
+		8064,
 		1068,
 		1069,
 		1070,
