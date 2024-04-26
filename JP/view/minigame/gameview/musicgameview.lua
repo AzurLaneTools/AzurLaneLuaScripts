@@ -1670,9 +1670,11 @@ function slot0.locadScoreView(slot0)
 
 	slot0.scoreUIContent:Find("scoreImg/square/song"):GetComponent(typeof(Image)).sprite = slot0.selectview:Find("Main/MusicList/img/" .. slot0.musicData.picture):GetComponent(typeof(Image)).sprite
 
+	GetComponent(slot0.scoreUIContent:Find("btnList/share"), typeof(Image)):SetNativeSize()
 	onButton(slot0, slot0.scoreUIContent:Find("btnList/share"), function ()
 		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeSummary)
 	end, SFX_PANEL)
+	GetComponent(slot0.scoreUIContent:Find("btnList/restart"), typeof(Image)):SetNativeSize()
 	onButton(slot0, slot0.scoreUIContent:Find("btnList/restart"), function ()
 		setActive(uv0.scoreview, false)
 
@@ -1689,6 +1691,7 @@ function slot0.locadScoreView(slot0)
 			uv0.painting = nil
 		end
 	end, SFX_UI_CLICK)
+	GetComponent(slot0.scoreUIContent:Find("btnList/reselect"), typeof(Image)):SetNativeSize()
 	onButton(slot0, slot0.scoreUIContent:Find("btnList/reselect"), function ()
 		uv0:dynamicBgHandler(uv0.bgGo)
 		setActive(uv0.scoreview, false)
