@@ -358,7 +358,7 @@ return {
 			side = 2,
 			bgName = "bg_story_italy",
 			hidePaintObj = true,
-			say = "环顾四周，撒丁帝国的维内托，铁血的{namecode:427}，重樱的{namecode:182}，还有更多的人已经落座了。",
+			say = "環顧四周，薩丁帝國的維內托，鐵血的歐根親王，重櫻的信濃，還有更多的人已經落座了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

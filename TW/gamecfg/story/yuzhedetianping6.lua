@@ -229,7 +229,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 301290,
-			say = "{namecode:175}阁下快回去保护{namecode:182}大人！这里就由我们来处理！",
+			say = "駿河閣下快回去保護信濃大人！這裡就由我們來處理！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			side = 2,
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
-			say = "不知道是气是笑的{namecode:175}将{namecode:18}与阿尔弗雷多横抄起来，一边夹住一个，猛地朝远方跑去。",
+			say = "不知道是氣是笑的駿河將島風與阿爾弗雷多橫抄起來，一邊夾住一個，猛地朝遠方跑去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

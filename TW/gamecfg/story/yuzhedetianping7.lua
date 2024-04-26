@@ -2267,7 +2267,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "了然。指挥官，{namecode:175}和{namecode:18}就暂时拜托汝等照顾了。",
+			say = "了然。指揮官，駿河和島風就暫時拜託汝等照顧了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
