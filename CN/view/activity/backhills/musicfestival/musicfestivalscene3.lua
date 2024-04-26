@@ -53,7 +53,7 @@ function slot0.didEnter(slot0)
 		pg.m02:sendNotification(GAME.GO_MINI_GAME, 16)
 	end)
 
-	slot2 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF)
+	slot2 = getProxy(ActivityProxy):getActivityById(ActivityConst.MUSIC_FESTIVAL_PT_ID_3)
 
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "huodongye", function ()
 		uv0:emit(MusicFestivalMediator.GO_SCENE, SCENE.ACTIVITY, {
@@ -79,7 +79,7 @@ function slot0.MedalTip()
 end
 
 function slot0.ActivityTip()
-	return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF))
+	return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.MUSIC_FESTIVAL_PT_ID_3))
 end
 
 function slot0.UpdateView(slot0)

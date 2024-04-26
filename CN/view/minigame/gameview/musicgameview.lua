@@ -116,7 +116,7 @@ function slot0.init(slot0)
 	slot0.scoreview_flag = false
 	slot0.bg = findTF(slot0._tf, "bg")
 
-	pg.CriMgr.GetInstance():StopBGM()
+	pg.BgmMgr.GetInstance():StopPlay()
 	slot0:updateMusic(uv0)
 end
 
@@ -483,6 +483,8 @@ function slot0.willExit(slot0)
 	if LeanTween.isTweening(go(slot0.game_content)) then
 		LeanTween.cancel(go(slot0.game_content))
 	end
+
+	pg.BgmMgr.GetInstance():ContinuePlay()
 end
 
 function slot0.clearSDModel(slot0)
@@ -1572,13 +1574,27 @@ function slot0.locadScoreView(slot0)
 
 	slot0.painting = slot6[math.random(1, #slot6)]
 
-	setPaintingPrefabAsync(slot0.scoreview:Find("paint"), slot0.painting, "mainNormal")
+	if MusicGameConst.painting_const_key[string.lower(slot0.painting)] then
+		slot8 = {}
+
+		PaintingConst.AddPaintingNameWithFilteMap(slot8, slot7)
+		PaintingConst.PaintingDownload({
+			isShowBox = false,
+			paintingNameList = slot8,
+			finishFunc = function ()
+				setPaintingPrefabAsync(uv0.scoreview:Find("paint"), uv0.painting, "mainNormal")
+			end
+		})
+	else
+		setPaintingPrefabAsync(slot0.scoreview:Find("paint"), slot0.painting, "mainNormal")
+	end
+
 	setActive(slot0.scoreUIContent:Find("scoreImg/square/easy"), slot4 == 1)
 	setActive(slot0.scoreUIContent:Find("scoreImg/square/hard"), slot4 == 2)
 	setActive(slot0.scoreUIContent:Find("scoreList/fullCombo"), slot0.miss_number == 0)
 	setActive(slot0.scoreUIContent:Find("scoreImg/perfect/noMiss"), slot0.miss_number == 0 and slot0.good_number == 0)
 
-	function slot7(slot0, slot1, slot2)
+	function slot8(slot0, slot1, slot2)
 		LeanTween.value(go(uv0.scoreview), 0, slot1, 0.6):setOnUpdate(System.Action_float(function (slot0)
 			setText(uv0, math.round(slot0))
 		end)):setOnComplete(System.Action(function ()
@@ -1647,16 +1663,18 @@ function slot0.locadScoreView(slot0)
 	end)
 	setText(slot0.scoreUIContent:Find("scoreImg/square/nameText"), slot0.musicData.music_name)
 
-	slot9 = slot0.scoreUIContent:Find("scoreImg/square/name"):GetComponent(typeof(Image))
-	slot9.sprite = slot0.selectview:Find("Main/namelist/song" .. slot0.musicData.picture):GetComponent(typeof(Image)).sprite
+	slot10 = slot0.scoreUIContent:Find("scoreImg/square/name"):GetComponent(typeof(Image))
+	slot10.sprite = slot0.selectview:Find("Main/namelist/song" .. slot0.musicData.picture):GetComponent(typeof(Image)).sprite
 
-	slot9:SetNativeSize()
+	slot10:SetNativeSize()
 
 	slot0.scoreUIContent:Find("scoreImg/square/song"):GetComponent(typeof(Image)).sprite = slot0.selectview:Find("Main/MusicList/img/" .. slot0.musicData.picture):GetComponent(typeof(Image)).sprite
 
+	GetComponent(slot0.scoreUIContent:Find("btnList/share"), typeof(Image)):SetNativeSize()
 	onButton(slot0, slot0.scoreUIContent:Find("btnList/share"), function ()
 		pg.ShareMgr.GetInstance():Share(pg.ShareMgr.TypeSummary)
 	end, SFX_PANEL)
+	GetComponent(slot0.scoreUIContent:Find("btnList/restart"), typeof(Image)):SetNativeSize()
 	onButton(slot0, slot0.scoreUIContent:Find("btnList/restart"), function ()
 		setActive(uv0.scoreview, false)
 
@@ -1673,6 +1691,7 @@ function slot0.locadScoreView(slot0)
 			uv0.painting = nil
 		end
 	end, SFX_UI_CLICK)
+	GetComponent(slot0.scoreUIContent:Find("btnList/reselect"), typeof(Image)):SetNativeSize()
 	onButton(slot0, slot0.scoreUIContent:Find("btnList/reselect"), function ()
 		uv0:dynamicBgHandler(uv0.bgGo)
 		setActive(uv0.scoreview, false)

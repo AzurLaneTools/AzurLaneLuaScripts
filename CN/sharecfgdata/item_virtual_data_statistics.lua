@@ -158789,7 +158789,7 @@ _G.pg.base.item_virtual_data_statistics[59571] = {
 
 _G.pg.base.item_virtual_data_statistics[59572] = {
 	display = "用于「共坠甜蜜之梦」活动提升角色好感，活动结束后将会消失",
-	name = "友好度-{namecode:182}",
+	name = "友好度-{namecode:534}",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,

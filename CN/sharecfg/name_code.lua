@@ -2709,6 +2709,13 @@ pg.name_code = {
 		code = "树城(μ兵装)",
 		nation = 0
 	},
+	[534] = {
+		name = "小信浓",
+		type = 1,
+		id = 534,
+		code = "小鵗",
+		nation = 0
+	},
 	[10000] = {
 		name = "零战五二型",
 		type = 2,
