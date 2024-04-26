@@ -28353,9 +28353,10 @@ _G.pg.base.gametip.idol3rd_collection = {
 · Memorabilia items can be obtained in the following ways:
 1. Clear event stages with 3 stars.
 2. Complete event-exclusive missions.
-3. Collect lots of Harmonious Emblems and claim the memorabilia through milestone rewards.{info='· Once you've obtained all the memorabilia items, you may arrange them in your fanbook. Additionally, you may share your fanbook by tapping on the Share button on the right side of the screen.
-
-· You may claim rewards up until May 15th, 23:59.]]
+3. Collect lots of Harmonious Emblems and claim the memorabilia through milestone rewards.]]
+		},
+		{
+			info = "· Once you've obtained all the memorabilia items, you may arrange them in your fanbook. Additionally, you may share your fanbook by tapping on the Share button on the right side of the screen.\n\n· You may claim rewards up until May 15th, 23:59."
 		}
 	}
 }

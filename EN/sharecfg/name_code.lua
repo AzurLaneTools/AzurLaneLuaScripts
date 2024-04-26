@@ -2710,10 +2710,10 @@ pg.name_code = {
 		nation = 0
 	},
 	[534] = {
-		name = "小信浓",
+		name = "Shinano-chan",
 		type = 1,
 		id = 534,
-		code = "小鵗",
+		code = "Shinano-chan",
 		nation = 0
 	},
 	[10000] = {

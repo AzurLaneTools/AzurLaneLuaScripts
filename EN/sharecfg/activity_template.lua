@@ -39154,6 +39154,123 @@ pg.activity_template = {
 			}
 		}
 	},
+	[30884] = {
+		mark = 20240425,
+		config_client = "",
+		title_res_tag = "newserver_main",
+		type = 3,
+		login_pop = 0,
+		config_id = 57,
+		is_show = 51,
+		id = 30884,
+		config_data = {},
+		time = {
+			{
+				"newuser",
+				{
+					{
+						2024,
+						4,
+						4
+					},
+					{
+						0,
+						0,
+						0
+					}
+				}
+			},
+			{
+				"timer",
+				{
+					{
+						2024,
+						4,
+						25
+					},
+					{
+						0,
+						0,
+						0
+					}
+				},
+				{
+					{
+						2024,
+						5,
+						16
+					},
+					{
+						23,
+						59,
+						59
+					}
+				}
+			}
+		},
+		page_info = {
+			class_name = "NewServerLoginPage",
+			ui_name = "NewServerLoginPage"
+		}
+	},
+	[30885] = {
+		mark = 20240425,
+		title_res_tag = "",
+		page_info = "",
+		type = 30,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		id = 30885,
+		config_data = {
+			103
+		},
+		time = {
+			{
+				"newuser",
+				{
+					{
+						2024,
+						4,
+						4
+					},
+					{
+						0,
+						0,
+						0
+					}
+				}
+			},
+			{
+				"timer",
+				{
+					{
+						2024,
+						4,
+						25
+					},
+					{
+						0,
+						0,
+						0
+					}
+				},
+				{
+					{
+						2024,
+						5,
+						16
+					},
+					{
+						23,
+						59,
+						59
+					}
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -40204,6 +40321,8 @@ pg.activity_template = {
 		30880,
 		30881,
 		30882,
-		30883
+		30883,
+		30884,
+		30885
 	}
 }
