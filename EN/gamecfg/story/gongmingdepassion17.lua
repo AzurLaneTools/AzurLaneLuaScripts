@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "D-don't forget about me. And I think Téméraire and Kongou have their turn later tonight.",
+			say = "D-don't forget about Boise. And I think Téméraire and Kongou have their turn later tonight.",
 			painting = {
 				alpha = 0.3,
 				time = 1

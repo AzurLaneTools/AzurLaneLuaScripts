@@ -90198,7 +90198,7 @@ Increases this ship's DMG dealt by 2.0% and increases the radar scan's activatio
 		id = 17780,
 		type = 1,
 		max_level = 10,
-		desc = "Every 5 times this ship's Main Guns hit an enemy: increases this ship's DMG dealt by $1 until the battle ends (can be stacked up to 3 times). Every 15s: $2 chance to fire a $3 special barrage (DMG is based on the skill's level; if this ship's HP is at 75.0% or higher when the barrage fires, the barrage is improved).",
+		desc = "Every 5 times this ship's Main Guns hit an enemy: increases this ship's DMG dealt by $1 until the battle ends (can be stacked up to 3 times). Every 15s: $2 chance to fire a $3 special barrage (DMG is based on the skill's level; if this ship's HP is at 75.0% or below when the barrage fires, the barrage is improved).",
 		system_transform = {},
 		world_death_mark = {
 			1
