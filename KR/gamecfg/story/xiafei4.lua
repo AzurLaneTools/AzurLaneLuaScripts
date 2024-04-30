@@ -8,7 +8,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"천사와의 밀회\n\n<size=45>4 약속'의 진실</size>",
+					"천사와의 밀회\n\n<size=45>4 '약속'의 진실</size>",
 					1
 				}
 			}
