@@ -56,11 +56,7 @@ function slot0.UpdateList(slot0, slot1, slot2, slot3, slot4)
 			end
 
 			setText(slot2:Find("target/title"), uv2.resTitle)
-			updateDrop(slot2:Find("award"), {
-				type = slot3[1],
-				id = slot3[2],
-				count = slot3[3]
-			}, {
+			updateDrop(slot2:Find("award"), Drop.Create(slot3), {
 				hideName = true
 			})
 			onButton(uv2.binder, slot2:Find("award"), function ()

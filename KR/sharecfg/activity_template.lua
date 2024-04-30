@@ -19970,12 +19970,13 @@ pg.activity_template = {
 	},
 	[5244] = {
 		mark = 20240321,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 5244,
 		config_data = {
@@ -19984,33 +19985,6 @@ pg.activity_template = {
 			10172,
 			10173,
 			10174
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					4,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5245] = {
@@ -20801,42 +20775,16 @@ pg.activity_template = {
 	},
 	[5274] = {
 		mark = 20240328,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 74,
 		login_pop = 0,
 		config_id = 5274,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 5274,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					4,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[5280] = {
 		mark = 20240411,
@@ -21748,6 +21696,101 @@ pg.activity_template = {
 					23,
 					59,
 					59
+				}
+			}
+		}
+	},
+	[5305] = {
+		mark = 20240418,
+		id = 5305,
+		title_res_tag = "bianhuakaianxianglai",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 49,
+		config_data = {
+			{
+				19967,
+				19968
+			},
+			{
+				19969,
+				19970
+			},
+			{
+				19971,
+				19972
+			},
+			{
+				19973,
+				19974
+			},
+			{
+				19975,
+				19976
+			},
+			{
+				19977,
+				19978
+			},
+			{
+				19979,
+				19980
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					4,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "LycorisActivationPage",
+			ui_name = "LycorisActivationPage"
+		},
+		config_client = {
+			story = {
+				{
+					"BIANHUAKAIANXIANGLAI1"
+				},
+				{
+					"BIANHUAKAIANXIANGLAI2"
+				},
+				{
+					"BIANHUAKAIANXIANGLAI3"
+				},
+				{
+					"BIANHUAKAIANXIANGLAI4"
+				},
+				{
+					"BIANHUAKAIANXIANGLAI5"
+				},
+				{
+					"BIANHUAKAIANXIANGLAI6"
+				},
+				{
+					"BIANHUAKAIANXIANGLAI7"
 				}
 			}
 		}
@@ -25722,7 +25765,7 @@ pg.activity_template = {
 		},
 		page_info = {
 			class_name = "I56SkinPage",
-			ui_name = "I56SkinPage"
+			ui_name = "i56skinPage"
 		},
 		config_client = {
 			story = {
@@ -25832,6 +25875,22 @@ pg.activity_template = {
 		page_info = {
 			class_name = "NagaraSkinPage",
 			ui_name = "NagaraSkinPermanentPage"
+		}
+	},
+	[6022] = {
+		mark = 20240418,
+		title_res_tag = "u410victory_permanent",
+		time = "stop",
+		type = 74,
+		login_pop = 0,
+		config_id = 6022,
+		is_show = 10,
+		config_client = "",
+		id = 6022,
+		config_data = {},
+		page_info = {
+			class_name = "U410VictoryPtPage",
+			ui_name = "U410VictoryPtPermanentPage"
 		}
 	},
 	[100001] = {
@@ -26104,7 +26163,7 @@ pg.activity_template = {
 		}
 	},
 	[20135] = {
-		mark = 20220818,
+		mark = 20240430,
 		title_res_tag = "",
 		page_info = "",
 		type = 0,
@@ -26118,8 +26177,8 @@ pg.activity_template = {
 			"timer",
 			{
 				{
-					2023,
-					12,
+					2024,
+					5,
 					1
 				},
 				{
@@ -26130,8 +26189,8 @@ pg.activity_template = {
 			},
 			{
 				{
-					2023,
-					12,
+					2024,
+					5,
 					10
 				},
 				{
@@ -30536,6 +30595,7 @@ pg.activity_template = {
 		5297,
 		5298,
 		5299,
+		5305,
 		7004,
 		7005,
 		7006,
@@ -30606,6 +30666,7 @@ pg.activity_template = {
 		6019,
 		6020,
 		6021,
+		6022,
 		100001,
 		20038,
 		20049,

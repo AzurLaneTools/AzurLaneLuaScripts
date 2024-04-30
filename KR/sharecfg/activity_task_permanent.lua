@@ -23,7 +23,8 @@ pg.activity_task_permanent = setmetatable({
 		6018,
 		6019,
 		6020,
-		6021
+		6021,
+		6022
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -553,5 +554,16 @@ pg.base.activity_task_permanent = {
 			35270,
 			35271
 		}
+	},
+	[6022] = {
+		gametip = "캐릭터 U-410 획득 가능",
+		banner_route = "permanent_u410",
+		gametip_extra = "7일 만에 획득 가능",
+		over_pt = 0,
+		task_extra = "",
+		id = 6022,
+		activity_name = "특별 훈련",
+		over_task_id = "",
+		eliminate_task_id = {}
 	}
 }

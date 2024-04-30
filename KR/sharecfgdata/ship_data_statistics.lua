@@ -189635,7 +189635,8 @@ _G.pg.base.ship_data_statistics[307011] = {
 		"Amagi-Class",
 		"1st-airfleet",
 		"Akagi",
-		"Musashi-Game"
+		"Musashi-Game",
+		"AkagiOrigin"
 	}
 }
 
@@ -189763,7 +189764,8 @@ _G.pg.base.ship_data_statistics[307012] = {
 		"Amagi-Class",
 		"1st-airfleet",
 		"Akagi",
-		"Musashi-Game"
+		"Musashi-Game",
+		"AkagiOrigin"
 	}
 }
 
@@ -189891,7 +189893,8 @@ _G.pg.base.ship_data_statistics[307013] = {
 		"Amagi-Class",
 		"1st-airfleet",
 		"Akagi",
-		"Musashi-Game"
+		"Musashi-Game",
+		"AkagiOrigin"
 	}
 }
 
@@ -190019,7 +190022,8 @@ _G.pg.base.ship_data_statistics[307014] = {
 		"Amagi-Class",
 		"1st-airfleet",
 		"Akagi",
-		"Musashi-Game"
+		"Musashi-Game",
+		"AkagiOrigin"
 	}
 }
 

@@ -181,8 +181,9 @@ pg.memory_group = setmetatable({
 		278,
 		279,
 		280,
-		282,
 		281,
+		282,
+		283,
 		501,
 		502,
 		503,
@@ -277,6 +278,7 @@ pg.memory_group = setmetatable({
 		594,
 		595,
 		596,
+		597,
 		1000,
 		1001,
 		1002
@@ -4314,19 +4316,6 @@ pg.base.memory_group = {
 			3435
 		}
 	},
-	[282] = {
-		id = 282,
-		subtype = 2,
-		icon = "title_event",
-		type = 2,
-		link_event = 5267,
-		title = "각성의 황금",
-		memories = {
-			3471,
-			3472,
-			3473
-		}
-	},
 	[281] = {
 		id = 281,
 		subtype = 2,
@@ -4363,6 +4352,36 @@ pg.base.memory_group = {
 			3466,
 			3467,
 			3468
+		}
+	},
+	[282] = {
+		id = 282,
+		subtype = 2,
+		icon = "title_event",
+		type = 2,
+		link_event = 5267,
+		title = "각성의 황금",
+		memories = {
+			3471,
+			3472,
+			3473
+		}
+	},
+	[283] = {
+		id = 283,
+		subtype = 1,
+		icon = "title_event",
+		type = 2,
+		link_event = 5305,
+		title = "저편에 핀 꽃의 향기",
+		memories = {
+			3491,
+			3492,
+			3493,
+			3494,
+			3495,
+			3496,
+			3497
 		}
 	},
 	[501] = {
@@ -5974,6 +5993,23 @@ pg.base.memory_group = {
 			3425,
 			3426,
 			3427
+		}
+	},
+	[597] = {
+		id = 597,
+		subtype = 0,
+		icon = "title_chara_xiafei",
+		type = 3,
+		link_event = 0,
+		title = "천사와의 밀회",
+		memories = {
+			3481,
+			3482,
+			3483,
+			3484,
+			3485,
+			3486,
+			3487
 		}
 	},
 	[1000] = {

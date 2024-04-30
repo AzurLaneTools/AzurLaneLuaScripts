@@ -1468,5 +1468,11 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "bar-soft"
+	},
+	LycorisActivationPage = {
+		default_bgm = "theme-akagi-inside",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-akagi-inside"
 	}
 }

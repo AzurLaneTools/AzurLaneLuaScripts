@@ -61,6 +61,8 @@ function slot0.register(slot0)
 					hideNo = true,
 					content = i18n("chat_msg_ban", os.date("%Y/%m/%d %H:%M:%S", slot4.chatMsgBanTime))
 				})
+			elseif PLATFORM_CODE == PLATFORM_CH and LuaHelper.GetCHPackageType() ~= PACKAGE_TYPE_BILI and slot4.level < 70 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("chat_level_not_enough", 70))
 			elseif slot4.level < 10 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("chat_level_not_enough", 10))
 			elseif slot8 - slot7 < 10 then

@@ -211,15 +211,23 @@ function slot0.ChangeCoin(slot0, slot1)
 end
 
 function slot0.ClearInimacy(slot0)
+	if slot0.inimacy <= 0 then
+		return
+	end
+
 	slot0:ChangeInimacy(0)
 	slot0:ChangeState(uv0.STATE_GETAWARD)
-	slot0:DispatchEvent(CourtYardEvent.SHIP_GET_AWARD, slot0.inimacy, 2)
+	slot0:DispatchEvent(CourtYardEvent.SHIP_GET_AWARD, slot1, 2)
 end
 
 function slot0.ClearCoin(slot0)
+	if slot0.coin <= 0 then
+		return
+	end
+
 	slot0:ChangeCoin(0)
 	slot0:ChangeState(uv0.STATE_GETAWARD)
-	slot0:DispatchEvent(CourtYardEvent.SHIP_GET_AWARD, slot0.coin, 1)
+	slot0:DispatchEvent(CourtYardEvent.SHIP_GET_AWARD, slot1, 1)
 end
 
 function slot0.AddExp(slot0, slot1)
