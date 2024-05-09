@@ -158560,8 +158560,8 @@ _G.pg.base.item_virtual_data_statistics[59497] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[59498] = {
-	display = "用于「限时体验商店」兑换角色限时换装",
-	name = "换装体验券",
+	display = "用於「限時體驗商店」兌換角色限時換裝",
+	name = "換裝體驗券",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
@@ -158584,8 +158584,8 @@ _G.pg.base.item_virtual_data_statistics[59498] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[59499] = {
-	display = "用于头像框活动兑换，活动结束后将会消失",
-	name = "训练点数",
+	display = "用於頭像框活動兌換，活動結束後將會消失 ",
+	name = "訓練點數 ",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
@@ -158609,7 +158609,7 @@ _G.pg.base.item_virtual_data_statistics[59499] = {
 
 _G.pg.base.item_virtual_data_statistics[59500] = {
 	display = "用於『碧海光粼』活動兌換，活動結束後將會消失",
-	name = "玉贝",
+	name = "玉貝 ",
 	max_num = 0,
 	type = 98,
 	time_limit = 0,
