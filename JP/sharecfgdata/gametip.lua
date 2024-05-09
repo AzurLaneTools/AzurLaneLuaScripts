@@ -338,6 +338,198 @@ _G.pg.base.gametip.new_airi_error_code_300100 = {
 	tip = "システムシェアに失敗しました"
 }
 
+_G.pg.base.gametip.new_airi_error_code_100121 = {
+	tip = "PCでのゲストログインには対応しておりません"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100201 = {
+	tip = "現在使用中のGoogle Play Gamesアカウントはすでに別のゲームデータと連携済みです。連携情報をリセットし、現在プレイ中のデータと連携しますか？"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100202 = {
+	tip = "現在プレイ中のゲームデータはすでに別のGoogle Play Gamesアカウントと連携済みです。連携情報をリセットし、現在使用中のGoogle Play Gamesアカウントと連携しますか？"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100203 = {
+	tip = "現在ご利用しているGoogle Play Gamesアカウントとゲームデータは、それぞれ異なる連携情報が登録されております。連携情報を全部リセットし、当該データとGoogle Play Gamesアカウントの連携を行いますか？"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100204 = {
+	tip = "現在ご利用しているゲームデータは別の端末に移行するには、ほかのSNSアカウントやメールアドレスなどと連携する必要があります"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100205 = {
+	tip = "UIDとGoogle Play Gamesが未連携となっています"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100206 = {
+	tip = "現在プレイ中のゲームデータがGoogle Play Gamesアカウントと自動的に連携され、別の端末でプレイできるようになります"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100207 = {
+	tip = "Google Play GamesのローカルToken認証に失敗しました"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100214 = {
+	tip = "Google Play Games以外の連携を解除すると、Google Play Gamesアカウントとの連携も自動的に解除されます。「本当に連携を解除しますか」"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100218 = {
+	tip = "このアプリはX(旧ツイッター)ではログインできません"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100235 = {
+	tip = "メールアドレスの入力が無効です。もう一度お試しください"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100307 = {
+	tip = "OneStoreアカウントが登録されていません"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100310 = {
+	tip = "認証できませんでした、もう一度お試しください"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100311 = {
+	tip = "認証トークンが無効になりました。もう一度お試しください"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100401 = {
+	tip = "Steam認証失敗"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100600 = {
+	tip = "API起動失敗、パラメータの取得に失敗しました"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100802 = {
+	tip = "アンケートIDが存在しないため、読み込めませんでした"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100803 = {
+	tip = "エラー：文字数オーバー"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200141 = {
+	tip = "購入エラー：当該通貨の決済に対応しておりません"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200145 = {
+	tip = "購入エラー：Steamパラメータ同期失敗"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200231 = {
+	tip = "OneStore決裁が失敗しました"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200232 = {
+	tip = "Apple Payに対応しておりません"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200235 = {
+	tip = "決済が時間切れになりました"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200236 = {
+	tip = "決済がキャンセルされました"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200370 = {
+	tip = "パラメータの名前が重複しています\nエラーコード:200370"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200380 = {
+	tip = "利用規約が承認されていません\nエラーコード:200380"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200390 = {
+	tip = "決済システムへの通信時にエラーが発生しました\nエラーコード:200390"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200400 = {
+	tip = "決済システムへの通信時にエラーが発生しました\nエラーコード:200400"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200410 = {
+	tip = "決済失敗：決済タイプエラー"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200420 = {
+	tip = "決済が完了していません"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200430 = {
+	tip = "GMOクレジットカード決済失敗"
+}
+
+_G.pg.base.gametip.new_airi_error_code_300101 = {
+	tip = "シェア機能が有効化されていません"
+}
+
+_G.pg.base.gametip.new_airi_error_code_300102 = {
+	tip = "デバイスにアプリがインストールされていません"
+}
+
+_G.pg.base.gametip.new_airi_error_code_300200 = {
+	tip = "本人確認が不要です"
+}
+
+_G.pg.base.gametip.new_airi_error_code_300210 = {
+	tip = "本人確認が完了していません"
+}
+
+_G.pg.base.gametip.new_airi_error_code_300220 = {
+	tip = "本人確認情報が期限切れです"
+}
+
+_G.pg.base.gametip.new_airi_error_code_300300 = {
+	tip = "Yostar ID連携に失敗しました"
+}
+
+_G.pg.base.gametip.new_airi_error_code_400010 = {
+	tip = "ニンテンドーアカウントログインをキャンセルしました"
+}
+
+_G.pg.base.gametip.new_airi_error_code_400020 = {
+	tip = "エラーコード400020：ニンテンドーアカウント認証が失敗しました"
+}
+
+_G.pg.base.gametip.new_airi_error_code_400030 = {
+	tip = "エラーコード400030：ニンテンドーアカウントが存在しません"
+}
+
+_G.pg.base.gametip.new_airi_error_code_400040 = {
+	tip = "エラーコード400040：ニンテンドーアカウントが使用できません"
+}
+
+_G.pg.base.gametip.new_airi_error_code_400050 = {
+	tip = "このニンテンドーアカウントはYostar IDと連携されておりません"
+}
+
+_G.pg.base.gametip.new_airi_error_code_400060 = {
+	tip = "エラーコード400060：ニンテンドーアカウントログイン認証が失敗しました"
+}
+
+_G.pg.base.gametip.new_airi_error_code_400070 = {
+	tip = "このYostar IDは存在しません"
+}
+
+_G.pg.base.gametip.new_airi_error_code_400080 = {
+	tip = "このYostar IDはほかのニンテンドーアカウントとすでに連携済みです"
+}
+
+_G.pg.base.gametip.new_airi_error_code_400090 = {
+	tip = "このYostar IDはニンテンドーアカウントアカウントと連携されておりません"
+}
+
+_G.pg.base.gametip.new_airi_error_code_400100 = {
+	tip = "このニンテンドーアカウントアカウントは他のYostar IDとすでに連携済みです"
+}
+
+_G.pg.base.gametip.new_airi_error_code_400460 = {
+	tip = "ページが読み込めませんでした。もう一度お試しください"
+}
+
 _G.pg.base.gametip.ad_0 = {
 	tip = ""
 }
@@ -10185,7 +10377,7 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「ソビエツカヤ・ベラルーシア」「タリン」が常設実装！"
+	tip = "「リトル・レナウン」「天城ちゃん」が常設実装！"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
@@ -10193,7 +10385,7 @@ _G.pg.base.gametip.buildship_light_tip = {
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「プリンストン」常設実装！"
+	tip = "「リトル・イラストリアス」「リトル・エンタープライズ」が常設実装！"
 }
 
 _G.pg.base.gametip.Normalbuild_URexchange_help = {
@@ -13211,7 +13403,7 @@ _G.pg.base.gametip.music_main = {
  
 累計報酬：
 入手した「激唱エンブレム」の累計数により、艦船「イ
-ラストリアス（μ兵装）」など様々な報酬を入手できま
+ラストリアス(μ兵装)」など様々な報酬を入手できま
 す。 
 限定建造：
 建造の「期間限定建造」ページに移動します。
@@ -13226,7 +13418,7 @@ _G.pg.base.gametip.music_main = {
  
 激唱舞台：
 リズムゲームをプレイすることができます。７日間プレ
-イすると、SR「ル・マラン（μ兵装）」を入手できま
+イすると、SR「ル・マラン(μ兵装)」を入手できま
 す。]]
 		}
 	}

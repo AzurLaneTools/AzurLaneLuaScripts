@@ -27,4 +27,8 @@ function slot0.didEnter(slot0)
 	end, SFX_PANEL)
 end
 
+function slot0.IsShowMainTip(slot0)
+	return Activity.IsActivityReady(slot0)
+end
+
 return slot0

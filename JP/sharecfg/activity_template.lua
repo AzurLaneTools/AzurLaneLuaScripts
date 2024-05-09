@@ -10841,12 +10841,13 @@ pg.activity_template = {
 	},
 	[5305] = {
 		mark = 20240418,
-		id = 5305,
 		title_res_tag = "bianhuakaianxianglai",
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
 		is_show = 40,
+		id = 5305,
 		config_data = {
 			{
 				19967,
@@ -10875,33 +10876,6 @@ pg.activity_template = {
 			{
 				19979,
 				19980
-			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					4,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					5,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		page_info = {
@@ -10936,12 +10910,13 @@ pg.activity_template = {
 	},
 	[5301] = {
 		mark = 20240425,
-		id = 5301,
 		title_res_tag = "idol_v3_main",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 50,
+		id = 5301,
 		config_data = {
 			1800001,
 			1800002,
@@ -10956,33 +10931,6 @@ pg.activity_template = {
 			1800026,
 			1800041,
 			1800051
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					4,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					5,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "IdolV3MainPage",
@@ -11079,12 +11027,13 @@ pg.activity_template = {
 	},
 	[5306] = {
 		mark = 20240425,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 60,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 5306,
 		config_data = {
@@ -11094,72 +11043,19 @@ pg.activity_template = {
 			463,
 			464,
 			465
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					4,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					5,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5307] = {
 		mark = 20240425,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
 		is_show = 0,
+		title_res_tag = "",
 		id = 5307,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					4,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					5,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 4,
 			bg = "loadingbg/bg_build_4_act",
@@ -11188,7 +11084,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 5308,
-		is_show = 48,
+		is_show = 40,
 		config_data = {},
 		time = {
 			"timer",
@@ -11276,6 +11172,7 @@ pg.activity_template = {
 			}
 		},
 		config_client = {
+			scene = "IDOL_MEDAL_COLLECTION_SCENE3",
 			unlock_desc = {
 				"累计通关10次SP5",
 				"三星通关SP4",
@@ -11294,40 +11191,14 @@ pg.activity_template = {
 	},
 	[5310] = {
 		mark = 20240425,
-		id = 5310,
 		title_res_tag = "idol_v3_game",
+		time = "stop",
 		type = 57,
 		login_pop = 0,
 		config_id = 12,
 		is_show = 45,
 		config_data = "0",
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					4,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					5,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
+		id = 5310,
 		page_info = {
 			class_name = "XiefeierIdolMusicPage",
 			ui_name = "xiefeieridolmusicpage"
@@ -11404,12 +11275,13 @@ pg.activity_template = {
 	},
 	[5312] = {
 		mark = 20240425,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		config_client = "",
 		id = 5312,
 		config_data = {
@@ -11445,38 +11317,11 @@ pg.activity_template = {
 			20015,
 			20016,
 			20017
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					4,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					5,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5313] = {
 		mark = 20240425,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 27,
 		login_pop = 0,
@@ -11484,72 +11329,20 @@ pg.activity_template = {
 		is_show = 0,
 		config_data = "[{31947,100}]",
 		config_client = "",
-		id = 5313,
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					4,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					5,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		title_res_tag = "",
+		id = 5313
 	},
 	[5314] = {
 		mark = 20240425,
-		config_client = "",
 		title_res_tag = "xiaoxinnong",
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 5314,
 		is_show = 46,
+		config_client = "",
 		id = 5314,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					4,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					5,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "XiaoXinNongPtPage",
 			ui_name = "XiaoXinNongPtPage"
@@ -11557,42 +11350,16 @@ pg.activity_template = {
 	},
 	[5315] = {
 		mark = 20240425,
-		title_res_tag = "",
+		time = "stop",
 		page_info = "",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
 		is_show = 0,
+		title_res_tag = "",
 		id = 5315,
 		config_data = {
 			20007
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					4,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					5,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			npc = {
@@ -11689,6 +11456,108 @@ pg.activity_template = {
 			painting = "μougen_pt",
 			pt_id = 407,
 			bgm = "song-Alizarin-full-inst"
+		}
+	},
+	[5320] = {
+		mark = 20240509,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 5320,
+		config_data = {
+			20018
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					5,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			npc = {
+				"",
+				20018
+			}
+		}
+	},
+	[5321] = {
+		mark = 20240509,
+		id = 5321,
+		title_res_tag = "littlespee_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 5321,
+		is_show = 48,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					5,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "LittleSpeeRePage",
+			ui_name = "LittleSpeeRePage"
+		},
+		config_client = {
+			activateStory = "WEIJIAOXIAOSIPEIBOJUE2",
+			performStory = "51002",
+			story = {
+				{
+					"WEIJIAOXIAOSIPEIBOJUE1"
+				},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			}
 		}
 	},
 	[7011] = {
@@ -16944,6 +16813,8 @@ pg.activity_template = {
 		5315,
 		5316,
 		5317,
+		5320,
+		5321,
 		7011,
 		7012,
 		7013,

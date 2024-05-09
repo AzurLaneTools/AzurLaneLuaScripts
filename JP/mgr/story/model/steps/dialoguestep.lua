@@ -400,18 +400,8 @@ end
 function slot0.GetPaintingIcon(slot0)
 	slot1 = nil
 
-	if slot0.actor == uv0.ACTOR_TYPE_FLAGSHIP then
-		slot1 = getProxy(BayProxy):getShipById(getProxy(PlayerProxy):getRawData().character):getPrefab()
-	elseif slot0.actor == uv0.ACTOR_TYPE_PLAYER then
-		slot1 = nil
-	elseif slot0.actor == uv0.ACTOR_TYPE_TB then
-		slot1 = nil
-	elseif not slot0.actor then
-		slot1 = nil
-	elseif slot0.hideRecordIco then
-		return nil
-	else
-		slot1 = uv1[slot0.actor].prefab
+	if ((slot0.actor ~= uv0.ACTOR_TYPE_FLAGSHIP or getProxy(BayProxy):getShipById(getProxy(PlayerProxy):getRawData().character):getPrefab()) and (slot0.actor ~= uv0.ACTOR_TYPE_PLAYER or nil) and (slot0.actor ~= uv0.ACTOR_TYPE_TB or nil) and (slot0.actor or nil) and (not slot0.hideRecordIco or nil) and uv1[slot0.actor].prefab) == nil and slot0:ExistPortrait() then
+		slot1 = slot0:GetPortrait()
 	end
 
 	return slot1

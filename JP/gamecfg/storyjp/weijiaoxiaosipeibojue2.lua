@@ -286,9 +286,8 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "bg_unnamearea_1",
-			expression = 0,
-			dir = 1,
 			actor = 102200,
+			dir = 1,
 			nameColor = "#A9F548FF",
 			say = "絶対に黒幕を捕まえるぞ！",
 			painting = {

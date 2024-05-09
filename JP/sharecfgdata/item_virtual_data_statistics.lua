@@ -157975,6 +157975,30 @@ _G.pg.base.item_virtual_data_statistics[59575] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_virtual_data_statistics[59576] = {
+	display = "イベント「追撃　シュペーちゃん」で、3章以降の通常海域の敵中枢艦隊を撃破すると入手できます。イベントページの「受取」ボタンで友好度に返還されます",
+	name = "情報Pt",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/little_spee_pt",
+	id = 59576,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_virtual_data_statistics[59601] = {
 	display = "三笠大先輩の蒐集品の一つ。駆逐艦「江風」のモデル",
 	name = "江風モデル",
@@ -159632,7 +159656,7 @@ _G.pg.base.item_virtual_data_statistics[59783] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[59784] = {
-	display = "7つ集めるとSR「シェフィールド（μ兵装）」を入手可能",
+	display = "7つ集めるとSR「シェフィールド(μ兵装)」を入手可能",
 	name = "激奏力",
 	max_num = 0,
 	type = 0,
