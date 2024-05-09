@@ -38772,6 +38772,311 @@ _G.pg.base.item_data_statistics[40728] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[40731] = {
+	open_directly = 1,
+	name = "回归高级礼包",
+	display = "可获得大量材料奖励",
+	type = 17,
+	display_effect = "OpenBox",
+	id = 40731,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "props/giftbox",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "89629",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			4,
+			100011,
+			1
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			1,
+			15000
+		},
+		{
+			2,
+			16003,
+			10
+		},
+		{
+			2,
+			61001,
+			10
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40732] = {
+	open_directly = 1,
+	name = "回归中级礼包",
+	display = "可获得大量材料奖励",
+	type = 17,
+	display_effect = "OpenBox",
+	id = 40732,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "props/giftbox",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "89630",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			4,
+			100011,
+			1
+		},
+		{
+			2,
+			20001,
+			10
+		},
+		{
+			2,
+			15003,
+			5
+		},
+		{
+			1,
+			1,
+			7500
+		},
+		{
+			2,
+			16003,
+			6
+		},
+		{
+			2,
+			61001,
+			10
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40733] = {
+	open_directly = 1,
+	name = "回归低级礼包",
+	display = "可获得大量材料奖励",
+	type = 17,
+	display_effect = "OpenBox",
+	id = 40733,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "props/giftbox",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "89631",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			4,
+			100011,
+			1
+		},
+		{
+			2,
+			20001,
+			5
+		},
+		{
+			2,
+			15003,
+			2
+		},
+		{
+			1,
+			1,
+			3000
+		},
+		{
+			2,
+			16003,
+			3
+		},
+		{
+			2,
+			61001,
+			10
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40734] = {
+	open_directly = 1,
+	name = "新人礼包",
+	display = "可获得大量材料奖励",
+	type = 17,
+	display_effect = "OpenBox",
+	id = 40734,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "props/giftbox",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "89632",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			5
+		},
+		{
+			2,
+			15003,
+			5
+		},
+		{
+			1,
+			2,
+			2000
+		},
+		{
+			1,
+			1,
+			5000
+		},
+		{
+			2,
+			16501,
+			200
+		},
+		{
+			2,
+			15001,
+			120
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[40735] = {
+	open_directly = 1,
+	name = "非回归礼包",
+	display = "可获得大量材料奖励",
+	type = 17,
+	display_effect = "OpenBox",
+	id = 40735,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "props/giftbox",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "89633",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			1,
+			2,
+			1000
+		},
+		{
+			1,
+			1,
+			2000
+		},
+		{
+			2,
+			15008,
+			200
+		},
+		{
+			1,
+			6,
+			100
+		},
+		{
+			2,
+			50005,
+			2
+		},
+		{
+			2,
+			50006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[40801] = {
 	open_directly = 1,
 	name = "激励计划梯度奖励(1000)",

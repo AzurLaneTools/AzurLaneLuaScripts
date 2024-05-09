@@ -10140,7 +10140,7 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "苏维埃贝拉罗斯、塔林 等角色建造追加！"
+	tip = "小声望、{namecode:193}等角色建造追加！"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
@@ -10148,7 +10148,7 @@ _G.pg.base.gametip.buildship_light_tip = {
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "普林斯顿 建造追加！"
+	tip = "小光辉、小企业 建造追加！"
 }
 
 _G.pg.base.gametip.Normalbuild_URexchange_help = {
@@ -19939,6 +19939,10 @@ _G.pg.base.gametip.setting_resdownload_title_manga = {
 	tip = "漫画资源更新"
 }
 
+_G.pg.base.gametip.setting_resdownload_title_dorm = {
+	tip = "宿舍资源更新"
+}
+
 _G.pg.base.gametip.setting_resdownload_title_main_group = {
 	tip = "完整资源更新"
 }
@@ -22684,7 +22688,7 @@ _G.pg.base.gametip.random_ship_locked_mode = {
 _G.pg.base.gametip.littleSpee_npc = {
 	tip = {
 		{
-			info = "「“围剿”{namecode:459}伯爵」说明："
+			info = "「“围剿”{namecode:459}」复刻活动说明："
 		},
 		{
 			info = "1.活动期间，玩家可获得临时npc角色「{namecode:459}」，临时角色不可誓约、不可退役、不可被选为强化突破材料。"
@@ -22696,7 +22700,7 @@ _G.pg.base.gametip.littleSpee_npc = {
 			info = "3.上阵「{namecode:459}」参与战斗，且未被击沉，可获得双倍「情报点」。"
 		},
 		{
-			info = "4.10月19日为止，每日解锁1个可达成的友好度阶段。"
+			info = "4.5月15日为止，每日解锁1个可达成的友好度阶段。"
 		},
 		{
 			info = "5.在活动结束前累计获得1000点友好度，可领取奖励并将临时角色「{namecode:459}」转化为永久角色。"
@@ -27308,6 +27312,30 @@ _G.pg.base.gametip.senrankagura_backhill_help = {
 	}
 }
 
+_G.pg.base.gametip.dorm3d_furnitrue_type_wallpaper = {
+	tip = "墙纸"
+}
+
+_G.pg.base.gametip.dorm3d_furnitrue_type_floor = {
+	tip = "地板"
+}
+
+_G.pg.base.gametip.dorm3d_furnitrue_type_decoration = {
+	tip = "装饰"
+}
+
+_G.pg.base.gametip.dorm3d_furnitrue_type_bed = {
+	tip = "床"
+}
+
+_G.pg.base.gametip.dorm3d_furnitrue_type_couch = {
+	tip = "沙发"
+}
+
+_G.pg.base.gametip.dorm3d_furnitrue_type_table = {
+	tip = "桌子"
+}
+
 _G.pg.base.gametip.vote_lable_not_start = {
 	tip = "未开启"
 }
@@ -28131,4 +28159,68 @@ _G.pg.base.gametip.idol3rd_practice = {
 4.点击页面右侧偶像能力图标可以查看每种能力提供的额外加成与对应奖励]]
 		}
 	}
+}
+
+_G.pg.base.gametip.dorm3d_furniture_window_acesses = {
+	tip = "获取途径"
+}
+
+_G.pg.base.gametip.dorm3d_furniture_count = {
+	tip = "数量：$1"
+}
+
+_G.pg.base.gametip.dorm3d_furniture_used = {
+	tip = "<color=#00a3ef>[已摆放]</color>"
+}
+
+_G.pg.base.gametip.dorm3d_furniture_unfit = {
+	tip = "不可使用"
+}
+
+_G.pg.base.gametip.dorm3d_waiting = {
+	tip = "等待入住"
+}
+
+_G.pg.base.gametip.dorm3d_daily_favor = {
+	tip = "今日互动默契值"
+}
+
+_G.pg.base.gametip.dorm3d_favor_level = {
+	tip = "当前默契值等级："
+}
+
+_G.pg.base.gametip.dorm3d_time_choose = {
+	tip = "选择时间"
+}
+
+_G.pg.base.gametip.dorm3d_now_time = {
+	tip = "当前时间"
+}
+
+_G.pg.base.gametip.dorm3d_is_auto_time = {
+	tip = "随时间自动切换昼夜装扮"
+}
+
+_G.pg.base.gametip.dorm3d_clothing_choose = {
+	tip = "选择换装"
+}
+
+_G.pg.base.gametip.dorm3d_now_clothing = {
+	tip = "当前"
+}
+
+_G.pg.base.gametip.dorm3d_talk = {
+	tip = "对话"
+}
+
+_G.pg.base.gametip.dorm3d_touch = {
+	tip = "互动"
+}
+
+_G.pg.base.gametip.dorm3d_gift = {
+	tip = "赠礼"
+}
+
+_G.pg.base.gametip.dorm3d_gift_owner_num = {
+	tip = "数量："
 }
