@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 403030,
-			say = "{namecode:84}大人，{namecode:435}大人向您表示敬意。如果不介意的话，来尝尝我们铁血的啤酒如何？",
+			say = "{namecode:84}大人，{namecode:435}大人向您表示敬意。如果不介意的話，來嚐嚐我們鐵血的啤酒如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1

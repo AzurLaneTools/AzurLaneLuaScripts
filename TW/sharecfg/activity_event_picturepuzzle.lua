@@ -491,6 +491,31 @@ pg.activity_event_picturepuzzle = {
 			"CollectionScene"
 		}
 	},
+	[5309] = {
+		define = 0,
+		chapter = 0,
+		cd = 0,
+		id = 5309,
+		pickup_views = "",
+		pickup_picturepuzzle = {},
+		drop_picturepuzzle = {
+			70181,
+			70182,
+			70183,
+			70184,
+			70185,
+			70186,
+			70187,
+			70188,
+			70189,
+			70190,
+			70191,
+			70192
+		},
+		story = {},
+		awards = {},
+		auto_finish_args = {}
+	},
 	[40476] = {
 		define = 0,
 		chapter = 0,
@@ -759,6 +784,7 @@ pg.activity_event_picturepuzzle = {
 		4935,
 		5093,
 		5267,
+		5309,
 		40476,
 		334,
 		40228,

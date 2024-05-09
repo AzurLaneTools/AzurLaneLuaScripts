@@ -223,6 +223,271 @@ pg.chapter_pop_template = {
 			}
 		}
 	},
+	[1800001] = {
+		id = 1800001,
+		combo_on = 1,
+		sd_location = {
+			{
+				{
+					2,
+					4
+				},
+				"jingang_idol"
+			}
+		},
+		sd_act = {
+			{
+				{
+					action = "idol",
+					duration = 16.5
+				}
+			}
+		}
+	},
+	[1800002] = {
+		id = 1800002,
+		combo_on = 1,
+		sd_location = {
+			{
+				{
+					4,
+					7
+				},
+				"kewei_idol"
+			}
+		},
+		sd_act = {
+			{
+				{
+					action = "idol",
+					duration = 16.5
+				}
+			}
+		}
+	},
+	[1800003] = {
+		id = 1800003,
+		combo_on = 1,
+		sd_location = {
+			{
+				{
+					1,
+					2
+				},
+				"lumang_idol"
+			}
+		},
+		sd_act = {
+			{
+				{
+					action = "idol",
+					duration = 16.5
+				}
+			}
+		}
+	},
+	[1800004] = {
+		id = 1800004,
+		combo_on = 1,
+		sd_location = {
+			{
+				{
+					5,
+					4
+				},
+				"nengdai_idol"
+			}
+		},
+		sd_act = {
+			{
+				{
+					action = "idol",
+					duration = 16.5
+				}
+			}
+		}
+	},
+	[1800005] = {
+		id = 1800005,
+		combo_on = 1,
+		sd_location = {
+			{
+				{
+					4,
+					4
+				},
+				"boyixi_idol"
+			}
+		},
+		sd_act = {
+			{
+				{
+					action = "idol",
+					duration = 16.5
+				}
+			}
+		}
+	},
+	[1800021] = {
+		id = 1800021,
+		combo_on = 1,
+		sd_location = {
+			{
+				{
+					1,
+					2
+				},
+				"jingang_idol"
+			}
+		},
+		sd_act = {
+			{
+				{
+					action = "idol",
+					duration = 16.5
+				}
+			}
+		}
+	},
+	[1800022] = {
+		id = 1800022,
+		combo_on = 1,
+		sd_location = {
+			{
+				{
+					1,
+					2
+				},
+				"kewei_idol"
+			}
+		},
+		sd_act = {
+			{
+				{
+					action = "idol",
+					duration = 16.5
+				}
+			}
+		}
+	},
+	[1800023] = {
+		id = 1800023,
+		combo_on = 1,
+		sd_location = {
+			{
+				{
+					1,
+					2
+				},
+				"lumang_idol"
+			}
+		},
+		sd_act = {
+			{
+				{
+					action = "idol",
+					duration = 16.5
+				}
+			}
+		}
+	},
+	[1800024] = {
+		id = 1800024,
+		combo_on = 1,
+		sd_location = {
+			{
+				{
+					1,
+					2
+				},
+				"ougen_idol"
+			}
+		},
+		sd_act = {
+			{
+				{
+					action = "idol",
+					duration = 16.5
+				}
+			}
+		}
+	},
+	[1800025] = {
+		id = 1800025,
+		combo_on = 1,
+		sd_location = {
+			{
+				{
+					1,
+					2
+				},
+				"boyixi_idol"
+			}
+		},
+		sd_act = {
+			{
+				{
+					action = "idol",
+					duration = 16.5
+				}
+			}
+		}
+	},
+	[1800026] = {
+		id = 1800026,
+		combo_on = 1,
+		sd_location = {
+			{
+				{
+					1,
+					2
+				},
+				"nengdai_idol"
+			}
+		},
+		sd_act = {
+			{
+				{
+					action = "idol",
+					duration = 16.5
+				}
+			}
+		}
+	},
+	[1800041] = {
+		id = 1800041,
+		combo_on = 1,
+		sd_location = {
+			{
+				{
+					0,
+					3
+				},
+				"kewei_idol"
+			},
+			{
+				{
+					0,
+					5
+				},
+				"lumang_idol"
+			}
+		},
+		sd_act = {
+			{
+				{
+					action = "idol",
+					duration = 16.5
+				}
+			},
+			{
+				{
+					action = "idol",
+					duration = 16.5
+				}
+			}
+		}
+	},
 	[2200041] = {
 		id = 2200041,
 		combo_on = 1,
@@ -457,6 +722,18 @@ pg.chapter_pop_template = {
 		1430003,
 		1430004,
 		1430005,
+		1800001,
+		1800002,
+		1800003,
+		1800004,
+		1800005,
+		1800021,
+		1800022,
+		1800023,
+		1800024,
+		1800025,
+		1800026,
+		1800041,
 		2200041,
 		2200042,
 		2200043,

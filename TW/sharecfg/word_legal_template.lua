@@ -2241,6 +2241,11 @@ function temp()
 			["鳳"] = {
 				this = true
 			}
+		},
+		["可"] = {
+			["畏"] = {
+				this = true
+			}
 		}
 	}
 end

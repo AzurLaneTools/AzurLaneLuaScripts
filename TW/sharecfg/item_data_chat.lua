@@ -72,6 +72,14 @@ pg.item_data_chat = {
 		desc = "<color=#ffffff>獻給所有參與港區宴會的指揮官！ </color>\n<color=#A7A7AAFF>通過參與「宴會邀約」獲取</color>",
 		scene = {}
 	},
+	[10001] = {
+		time_limit_type = 0,
+		name = "限界的挑战者·双子座",
+		id = 10001,
+		time_second = 0,
+		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
+		scene = {}
+	},
 	[1001] = {
 		time_limit_type = 0,
 		name = "開服紀念",
@@ -90,6 +98,7 @@ pg.item_data_chat = {
 		301,
 		602,
 		603,
+		10001,
 		1001
 	}
 }

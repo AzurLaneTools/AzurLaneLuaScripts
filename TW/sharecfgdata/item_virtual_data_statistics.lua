@@ -157552,7 +157552,7 @@ _G.pg.base.item_virtual_data_statistics[59410] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[59411] = {
-	display = "用于「“小淑女”的礼仪课 」复刻活动提升角色好感，活动结束后将会消失",
+	display = "用於「「小淑女」的禮儀課」復刻活動提升角色好感，活動結束後將會消失",
 	name = "友好度-小可畏",
 	max_num = 0,
 	type = 98,
@@ -158608,7 +158608,7 @@ _G.pg.base.item_virtual_data_statistics[59499] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[59500] = {
-	display = "用于「碧海光粼」复刻活动兑换，活动结束后将会消失",
+	display = "用於『碧海光粼』活動兌換，活動結束後將會消失",
 	name = "玉贝",
 	max_num = 0,
 	type = 98,
@@ -165592,8 +165592,8 @@ _G.pg.base.item_virtual_data_statistics[60413] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[60435] = {
-	display = "于「碧海光粼」活动限时复刻中获取，可以免费进行一次期间限定建造（活动结束后消失）",
-	name = "单次建造券",
+	display = "於「碧海光粼」活動限時復刻中獲取，可以免費進行一次期間限定建造（活動結束後消失）",
+	name = "單次建造券",
 	max_num = 0,
 	type = 0,
 	time_limit = 0,

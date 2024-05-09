@@ -122080,6 +122080,518 @@ _G.pg.base.ship_data_statistics[207124] = {
 	}
 }
 
+_G.pg.base.ship_data_statistics[207131] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "小可畏",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 207130,
+	english_name = "HMS Formidable",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 207131,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1050,
+		0,
+		0,
+		52,
+		76,
+		42,
+		0,
+		31,
+		12,
+		30,
+		75,
+		0
+	},
+	attrs_growth = {
+		26912,
+		0,
+		0,
+		1131,
+		953,
+		291,
+		0,
+		458,
+		309,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		114,
+		114
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.25,
+		1.15
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Illustrious-Class",
+		"Armor-CV",
+		"Formidable",
+		"special"
+	}
+}
+
+_G.pg.base.ship_data_statistics[207132] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "小可畏",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 207130,
+	english_name = "HMS Formidable",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 207132,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1306,
+		0,
+		0,
+		65,
+		95,
+		42,
+		0,
+		31,
+		12,
+		30,
+		75,
+		0
+	},
+	attrs_growth = {
+		26912,
+		0,
+		0,
+		1131,
+		953,
+		291,
+		0,
+		458,
+		309,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		114,
+		114
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.12,
+		1.27,
+		1.17
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Illustrious-Class",
+		"Armor-CV",
+		"Formidable",
+		"special"
+	}
+}
+
+_G.pg.base.ship_data_statistics[207133] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "小可畏",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 207130,
+	english_name = "HMS Formidable",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 207133,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		1819,
+		0,
+		0,
+		91,
+		132,
+		42,
+		0,
+		31,
+		12,
+		30,
+		75,
+		0
+	},
+	attrs_growth = {
+		26912,
+		0,
+		0,
+		1131,
+		953,
+		291,
+		0,
+		458,
+		309,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		114,
+		114
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.3,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Illustrious-Class",
+		"Armor-CV",
+		"Formidable",
+		"special"
+	}
+}
+
+_G.pg.base.ship_data_statistics[207134] = {
+	raid_distance = 0,
+	oxy_max = 0,
+	name = "小可畏",
+	type = 7,
+	oxy_cost = 0,
+	skin_id = 207130,
+	english_name = "HMS Formidable",
+	oxy_recovery_surface = 0,
+	attack_duration = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	nationality = 2,
+	oxy_recovery_bench = 0,
+	ammo = 0,
+	armor_type = 3,
+	huntingrange_level = 0,
+	id = 207134,
+	summon_offset = 0,
+	scale = 100,
+	attrs = {
+		2587,
+		0,
+		0,
+		129,
+		189,
+		42,
+		0,
+		31,
+		12,
+		30,
+		75,
+		0
+	},
+	attrs_growth = {
+		26912,
+		0,
+		0,
+		1131,
+		953,
+		291,
+		0,
+		458,
+		309,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		114,
+		114
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		3,
+		3
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.35,
+		1.25
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Illustrious-Class",
+		"Armor-CV",
+		"Formidable",
+		"special"
+	}
+}
+
 _G.pg.base.ship_data_statistics[213011] = {
 	raid_distance = 0,
 	oxy_max = 0,

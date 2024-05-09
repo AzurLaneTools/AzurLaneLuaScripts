@@ -160,6 +160,27 @@ function slot0.getRandomBand()
 	return MusicGameConst.random_band[math.random(1, #MusicGameConst.random_band)]
 end
 
+slot0.painting_const_key = {
+	jiasikenie_idolns = "jiasikenie_idol",
+	kelifulan_idolns = "kelifulan_idol",
+	ougen_idol_n = "ougen_idol",
+	boyixi_idol_n = "boyixi_idol",
+	baerdimo_idol_n = "baerdimo_idol",
+	edu_idol_n = "edu_idol",
+	lumang_idol_n = "lumang_idol",
+	jingang_idol_n = "jingang_idol",
+	luoen_idol_n = "luoen_idol",
+	dafeng_idol_n = "dafeng_idol",
+	nengdai_idol_n = "nengdai_idol",
+	kewei_idol_n = "kewei_idol",
+	xiefeierde_idolns = "xiefeierde_idol",
+	daqinghuayu_idolns = "tashigan_idol_n",
+	xipeier_idolns = "xipeier_idol",
+	daiduo_idol_n = "daiduo_idol",
+	tashigan_idol_n = "tashigan_idol",
+	guanghui_idol_n = "guanghui_idol",
+	chicheng_idolns = "chicheng_idol"
+}
 slot0.random_band = {
 	{
 		bg = 4,

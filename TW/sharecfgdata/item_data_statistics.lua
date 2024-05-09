@@ -65430,7 +65430,7 @@ _G.pg.base.item_data_statistics[81005] = {
 }
 
 _G.pg.base.item_data_statistics[81006] = {
-	open_directly = 1,
+	open_directly = 0,
 	name = "2023春節福袋",
 	display = "購買禮包可獲得隨機換裝*1，鑽石*2023，高級定向藍圖・四期*2，心智單元*50，心智魔方*20，快速完成工具*10，傢俱幣*100",
 	type = 17,

@@ -9,7 +9,7 @@ return {
 		{
 			ui = {
 				dynamicPath = function ()
-					if LOCK_EDUCATE_SYSTEM then
+					if USE_OLD_MAIN_LIVE_AREA_UI then
 						return "/OverlayCamera/Overlay/UIMain/MainLiveAreaOldUI(Clone)/commander_btn"
 					else
 						return "/OverlayCamera/Overlay/UIMain/MainLiveAreaUI(Clone)/commander_btn"

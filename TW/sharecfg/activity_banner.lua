@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "4953",
+		param = "5069",
 		id = 1,
 		pic = "temp6",
 		type = 3,
@@ -9,8 +9,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					4,
-					25
+					5,
+					9
 				},
 				{
 					0,
@@ -22,7 +22,7 @@ pg.activity_banner = {
 				{
 					2024,
 					5,
-					9
+					16
 				},
 				{
 					23,
@@ -47,8 +47,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					4,
-					25
+					5,
+					9
 				},
 				{
 					0,
@@ -60,7 +60,7 @@ pg.activity_banner = {
 				{
 					2024,
 					5,
-					9
+					16
 				},
 				{
 					23,
@@ -82,8 +82,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					4,
-					25
+					5,
+					9
 				},
 				{
 					0,
@@ -95,7 +95,7 @@ pg.activity_banner = {
 				{
 					2024,
 					5,
-					8
+					15
 				},
 				{
 					23,
@@ -106,7 +106,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4962",
+		param = "5064",
 		id = 4,
 		pic = "temp2",
 		type = 3,
@@ -114,8 +114,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					4,
-					25
+					5,
+					9
 				},
 				{
 					0,
@@ -127,7 +127,7 @@ pg.activity_banner = {
 				{
 					2024,
 					5,
-					8
+					16
 				},
 				{
 					23,
@@ -148,8 +148,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					4,
-					25
+					5,
+					9
 				},
 				{
 					0,
@@ -161,7 +161,7 @@ pg.activity_banner = {
 				{
 					2024,
 					5,
-					8
+					15
 				},
 				{
 					23,
@@ -173,35 +173,10 @@ pg.activity_banner = {
 	},
 	{
 		param = "4960",
-		id = 6,
-		pic = "temp5",
+		time = "stop",
 		type = 3,
-		time = {
-			{
-				{
-					2024,
-					4,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					5,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 6,
+		pic = "temp5"
 	},
 	{
 		id = 7,
@@ -217,8 +192,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					4,
-					25
+					5,
+					9
 				},
 				{
 					0,
@@ -230,7 +205,7 @@ pg.activity_banner = {
 				{
 					2024,
 					5,
-					8
+					15
 				},
 				{
 					23,
@@ -254,8 +229,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					4,
-					25
+					5,
+					9
 				},
 				{
 					0,
@@ -267,7 +242,7 @@ pg.activity_banner = {
 				{
 					2024,
 					5,
-					8
+					15
 				},
 				{
 					23,
@@ -322,7 +297,7 @@ pg.activity_banner = {
 				{
 					2024,
 					5,
-					15
+					31
 				},
 				{
 					23,
@@ -341,8 +316,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					4,
-					25
+					5,
+					9
 				},
 				{
 					0,
@@ -354,7 +329,7 @@ pg.activity_banner = {
 				{
 					2024,
 					5,
-					8
+					15
 				},
 				{
 					23,
@@ -380,8 +355,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					4,
-					25
+					5,
+					9
 				},
 				{
 					0,
@@ -393,7 +368,7 @@ pg.activity_banner = {
 				{
 					2024,
 					5,
-					8
+					15
 				},
 				{
 					23,

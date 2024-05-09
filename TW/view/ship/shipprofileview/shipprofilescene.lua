@@ -575,31 +575,43 @@ function slot0.OnCVBtnClick(slot0, slot1)
 	end
 
 	function slot3()
-		slot0 = uv0.l2d_action
+		slot0 = nil
 
-		if uv1.l2dChar and not uv1.l2dChar:enablePlayAction(slot0) then
+		if uv0:isEx() then
+			slot1 = uv1.l2d_action .. "_ex"
+
+			if uv2.l2dChar and uv2.l2dChar:checkActionExist(slot1) then
+				slot0 = slot1
+			else
+				slot0 = uv1.l2d_action
+			end
+		else
+			slot0 = uv1.l2d_action
+		end
+
+		if uv2.l2dChar and not uv2.l2dChar:enablePlayAction(slot0) then
 			return
 		end
 
-		uv1:UpdatePaintingFace(uv2)
+		uv2:UpdatePaintingFace(uv0)
 
-		if uv1.characterModel then
-			uv1.characterModel:GetComponent(typeof(SpineAnimUI)):SetAction(uv1:GetModelAction(uv0), 0)
+		if uv2.characterModel then
+			uv2.characterModel:GetComponent(typeof(SpineAnimUI)):SetAction(uv2:GetModelAction(uv1), 0)
 		end
 
 		slot1 = {
 			uv3.CHAT_SHOW_TIME
 		}
 
-		if uv1.live2DBtn.isOn and uv1.l2dChar then
-			if uv1.l2dChar:IsLoaded() then
-				uv1.l2dActioning = true
+		if uv2.live2DBtn.isOn and uv2.l2dChar then
+			if uv2.l2dChar:IsLoaded() then
+				uv2.l2dActioning = true
 
-				if not uv2:L2dHasEvent() then
+				if not uv0:L2dHasEvent() then
 					parallelAsync({
 						function (slot0)
 							uv0:RemoveLive2DTimer()
-							uv0.l2dChar:TriggerAction(uv1.l2d_action, slot0)
+							uv0.l2dChar:TriggerAction(uv1, slot0)
 						end,
 						function (slot0)
 							uv0:PlayVoice(uv1, uv2)
@@ -617,7 +629,7 @@ function slot0.OnCVBtnClick(slot0, slot1)
 
 							slot1 = uv0.l2dChar
 
-							slot1:TriggerAction(uv1.l2d_action, slot0, nil, function (slot0)
+							slot1:TriggerAction(uv1, slot0, nil, function (slot0)
 								uv0:PlayVoice(uv1, uv2)
 								uv0:ShowDailogue(uv1, uv2, uv3)
 							end)
@@ -628,8 +640,8 @@ function slot0.OnCVBtnClick(slot0, slot1)
 				end
 			end
 		else
-			uv1:PlayVoice(uv2, slot1)
-			uv1:ShowDailogue(uv2, slot1)
+			uv2:PlayVoice(uv0, slot1)
+			uv2:ShowDailogue(uv0, slot1)
 		end
 	end
 

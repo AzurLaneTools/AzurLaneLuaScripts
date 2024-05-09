@@ -4,6 +4,7 @@ slot0.ON_ELITE_TRACKING = "LevelMediator2:ON_ELITE_TRACKING"
 slot0.ON_RETRACKING = "LevelMediator2:ON_RETRACKING"
 slot0.ON_UPDATE_CUSTOM_FLEET = "LevelMediator2:ON_UPDATE_CUSTOM_FLEET"
 slot0.ON_OP = "LevelMediator2:ON_OP"
+slot0.ON_RESUME_SUBSTATE = "LevelMediator2:ON_RESUME_SUBSTATE"
 slot0.ON_STAGE = "LevelMediator2:ON_STAGE"
 slot0.ON_GO_TO_TASK_SCENE = "LevelMediator2:ON_GO_TO_TASK_SCENE"
 slot0.ON_OPEN_EVENT_SCENE = "LevelMediator2:ON_OPEN_EVENT_SCENE"
@@ -131,6 +132,9 @@ function slot0.register(slot0)
 		if (not slot3 or not slot3:isUnlock() or slot3:getMapType() ~= Map.SCENARIO or Map.lastMap) and slot1:getLastUnlockMap().id then
 			uv0.viewComponent:setMap(slot2)
 		end
+	end)
+	slot0:bind(uv0.ON_RESUME_SUBSTATE, function (slot0, slot1)
+		uv0:loadSubState(slot1)
 	end)
 	slot0:bind(uv0.ON_STAGE, function (slot0)
 		uv0:addSubLayers(Context.New({
@@ -707,16 +711,12 @@ function slot0.handleNotification(slot0, slot1)
 		slot0.viewComponent:emit(slot2, unpackEx(slot3))
 	elseif slot2 == GAME.TRACKING_DONE then
 		slot0.waitingTracking = nil
-		slot4 = slot0.viewComponent
 
-		slot4:resetLevelGrid()
+		slot0.viewComponent:resetLevelGrid()
 
 		slot0.viewComponent.FirstEnterChapter = slot3.id
-		slot4 = slot0.viewComponent
 
-		slot4:switchToChapter(slot3, function ()
-			uv0:loadSubState(uv1.subAutoAttack)
-		end)
+		slot0.viewComponent:switchToChapter(slot3)
 	elseif slot2 == ChapterProxy.CHAPTER_UPDATED then
 		slot0.viewComponent:updateChapterVO(slot3.chapter, slot3.dirty)
 	elseif slot2 == GAME.COMMANDER_ELIT_FORMATION_OP_DONE then
@@ -1710,7 +1710,7 @@ function slot0.saveSubState(slot0, slot1)
 end
 
 function slot0.loadSubState(slot0, slot1)
-	if PlayerPrefs.GetInt("chapter_submarine_ai_type_" .. getProxy(PlayerProxy):getRawData().id) - 1 >= 0 and slot3 ~= slot1 then
+	if math.clamp(PlayerPrefs.GetInt("chapter_submarine_ai_type_" .. getProxy(PlayerProxy):getRawData().id, 1) - 1, 0, 1) ~= slot1 then
 		slot0.viewComponent:emit(LevelMediator2.ON_OP, {
 			type = ChapterConst.OpSubState,
 			arg1 = slot3

@@ -361,7 +361,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#ffa500",
-			say = "對外通訊完全中斷中——她們的通訊器是在太差了。要是能用跟我們同款的就好了。",
+			say = "對外通訊完全中斷中——她們的通訊器實在太差了。要是能用跟我們同款的就好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1

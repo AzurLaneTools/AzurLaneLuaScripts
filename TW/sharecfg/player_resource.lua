@@ -1075,6 +1075,11 @@ pg.player_resource = {
 		name = "xiaochaijun_youhao_pt2",
 		itemid = 59549
 	},
+	[319] = {
+		id = 319,
+		name = "xiaoxinnong_pt",
+		itemid = 59572
+	},
 	[350] = {
 		id = 350,
 		name = "liuzhounianhaidao_pt",
@@ -1324,6 +1329,21 @@ pg.player_resource = {
 		id = 405,
 		name = "skinTicket69",
 		itemid = 59547
+	},
+	[406] = {
+		id = 406,
+		name = "skinTicket70",
+		itemid = 59570
+	},
+	[407] = {
+		id = 407,
+		name = "ouxiang3_pt",
+		itemid = 59571
+	},
+	[408] = {
+		id = 408,
+		name = "newserver_pt_240425",
+		itemid = 59573
 	},
 	[950] = {
 		id = 950,
@@ -2416,6 +2436,9 @@ pg.player_resource = {
 		xiaochaijun_youhao_pt2 = {
 			318
 		},
+		xiaoxinnong_pt = {
+			319
+		},
 		liuzhounianhaidao_pt = {
 			350
 		},
@@ -2565,6 +2588,15 @@ pg.player_resource = {
 		},
 		skinTicket69 = {
 			405
+		},
+		skinTicket70 = {
+			406
+		},
+		ouxiang3_pt = {
+			407
+		},
+		newserver_pt_240425 = {
+			408
 		},
 		yisegefuke_pt1 = {
 			950
@@ -3050,6 +3082,7 @@ pg.player_resource = {
 		316,
 		317,
 		318,
+		319,
 		350,
 		351,
 		352,
@@ -3100,6 +3133,9 @@ pg.player_resource = {
 		403,
 		404,
 		405,
+		406,
+		407,
+		408,
 		950,
 		951,
 		952,
