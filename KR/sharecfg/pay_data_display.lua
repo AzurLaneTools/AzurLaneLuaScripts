@@ -9169,13 +9169,13 @@ pg.base.pay_data_display = {
 		}
 	},
 	[2026] = {
-		subject = "교과서 패키지",
+		subject = "스킬 교본 패키지",
 		limit_group = 0,
 		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
 		type = 0,
 		limit_arg = 4,
-		name = "교과서 패키지",
-		name_display = "교과서 패키지",
+		name = "스킬 교본 패키지",
+		name_display = "스킬 교본 패키지",
 		type_order = 0,
 		extra_gem = 0,
 		id = 2026,

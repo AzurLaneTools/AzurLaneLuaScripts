@@ -24433,11 +24433,11 @@ cs.gametip = {
 	},
 	idol3rd_collection = {
 		996040,
-		885,
+		876,
 		true
 	},
 	idol3rd_practice = {
-		996925,
+		996916,
 		1004,
 		true
 	}

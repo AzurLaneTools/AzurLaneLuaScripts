@@ -5995,7 +5995,7 @@ pg.base.ship_skin_template_15 = {
 	},
 	[801033] = {
 		ship_group = 80103,
-		name = "엘레건트 스텝",
+		name = "엘레강트 스텝",
 		hand_id = 13,
 		bgm = "",
 		l2d_drag_rate = "",

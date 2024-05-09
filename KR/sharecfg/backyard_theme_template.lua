@@ -4207,7 +4207,7 @@ pg.backyard_theme_template = {
 	},
 	[110] = {
 		Cfg_1 = 5,
-		name = "스타 대기실",
+		name = "별빛 분장실",
 		hot = 1,
 		is_view = 1,
 		id = 110,
