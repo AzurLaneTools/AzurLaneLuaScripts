@@ -95,6 +95,7 @@ function slot0.Refresh(slot0, slot1)
 
 	if slot1.skinId == slot0.ship.skinId and slot1.id == slot0.ship.id and slot0.state == slot2 and slot0.bgToggle == slot3 and slot1:GetRecordPosKey() == slot0.ship:GetRecordPosKey() then
 		slot0.painting:Resume()
+		slot0.painting:updateShip(slot1)
 	else
 		slot0:Init(slot1)
 	end

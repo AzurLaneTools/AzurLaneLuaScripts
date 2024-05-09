@@ -477,6 +477,10 @@ function slot0.Resume(slot0)
 end
 
 function slot0.updateShip(slot0, slot1)
+	if slot1 and slot0.ship.id == slot1.id then
+		slot0.ship = slot1
+	end
+
 	slot0:OnUpdateShip(slot1)
 end
 

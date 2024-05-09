@@ -182,11 +182,17 @@ function slot0.UpdateLanguage(slot0)
 end
 
 function slot0.SetAuthorInfo(slot0)
-	slot0.voiceActor:SetText(ShipWordHelper.GetCVAuthor(slot0.skin.id))
+	slot2 = ShipWordHelper.GetCVAuthor(slot0.skin.id)
+
+	print(slot2 .. "  ----")
+	slot0.voiceActor:SetText(slot2)
 end
 
 function slot0.SetIllustrator(slot0)
-	slot0.illustrator:SetText(slot0.shipGroup:GetNationTxt())
+	slot2 = slot0.shipGroup:GetNationTxt()
+
+	print(slot2)
+	slot0.illustrator:SetText(slot2)
 end
 
 function slot0.GetCvList(slot0, slot1)

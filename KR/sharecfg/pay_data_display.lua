@@ -100,7 +100,8 @@ pg.pay_data_display = setmetatable({
 		2022,
 		2023,
 		2024,
-		2025
+		2025,
+		2026
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -9163,6 +9164,114 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40043,
+				1
+			}
+		}
+	},
+	[2026] = {
+		subject = "교과서 패키지",
+		limit_group = 0,
+		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
+		type = 0,
+		limit_arg = 4,
+		name = "교과서 패키지",
+		name_display = "교과서 패키지",
+		type_order = 0,
+		extra_gem = 0,
+		id = 2026,
+		money = 3900,
+		tag = 2,
+		gem = 0,
+		limit_type = 2,
+		picture = "boxSkill",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift89",
+		first_pay_double = 0,
+		extra_service = 3,
+		descrip = "구매하면 교과서를 대량으로 획득 가능",
+		airijp_id = "com.yostarjp.azurlane.package118",
+		extra_service_item = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					5,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					11,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40023,
 				1
 			}
 		}

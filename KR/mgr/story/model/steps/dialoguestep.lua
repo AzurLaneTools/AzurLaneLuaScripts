@@ -89,6 +89,7 @@ function slot0.Ctor(slot0, slot1)
 		}
 	end
 
+	slot0.hideRecordIco = slot1.hideRecordIco
 	slot0.paingtingScale = slot1.actorScale
 	slot0.hidePainting = slot1.withoutPainting
 	slot0.actorShadow = slot1.actorShadow
@@ -399,7 +400,21 @@ end
 function slot0.GetPaintingIcon(slot0)
 	slot1 = nil
 
-	return (slot0.actor ~= uv0.ACTOR_TYPE_FLAGSHIP or getProxy(BayProxy):getShipById(getProxy(PlayerProxy):getRawData().character):getPrefab()) and (slot0.actor ~= uv0.ACTOR_TYPE_PLAYER or nil) and (slot0.actor ~= uv0.ACTOR_TYPE_TB or nil) and (slot0.actor or nil) and uv1[slot0.actor].prefab
+	if slot0.actor == uv0.ACTOR_TYPE_FLAGSHIP then
+		slot1 = getProxy(BayProxy):getShipById(getProxy(PlayerProxy):getRawData().character):getPrefab()
+	elseif slot0.actor == uv0.ACTOR_TYPE_PLAYER then
+		slot1 = nil
+	elseif slot0.actor == uv0.ACTOR_TYPE_TB then
+		slot1 = nil
+	elseif not slot0.actor then
+		slot1 = nil
+	elseif slot0.hideRecordIco then
+		return nil
+	else
+		slot1 = uv1[slot0.actor].prefab
+	end
+
+	return slot1
 end
 
 function slot0.GetPaintingAndName(slot0)

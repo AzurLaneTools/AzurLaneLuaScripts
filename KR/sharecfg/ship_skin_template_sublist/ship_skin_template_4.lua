@@ -1,6 +1,221 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_4 = {
+	[107096] = {
+		ship_group = 10709,
+		name = "코스 88의 바람",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 6,
+		shop_id = 70914,
+		painting = "aisaikesi_8",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 14,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 107096,
+		voice_actor_2 = -1,
+		prefab = "aisaikesi_8",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "에식스, 무사히 쿨 다운 랩 완료했습니다! 지휘관님, 제 활약 보셨나요? 에헤헷, 시합 준비에 선수와 응원하는 동료들 조정까지, 여러모로 감사드립니다!",
+		voice_actor = 149,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.048,
+					1.32,
+					0
+				}
+			},
+			plane = {
+				{
+					1.368,
+					0.472,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.86,
+							1.98,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[107100] = {
+		ship_group = 10710,
+		name = "요크타운Ⅱ",
+		hand_id = 1,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		illustrator = -1,
+		painting = "yuekechengII",
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 107100,
+		voice_actor_2 = -1,
+		prefab = "yuekechengII",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		desc = "에식스급 항공모함—요크타운II, 현호 CV-10",
+		voice_actor = 42,
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.3,
+					1.4,
+					0
+				}
+			},
+			plane = {
+				{
+					1.41,
+					1.11,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.31,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				-83,
+				-1643,
+				0
+			},
+			{
+				0.88
+			}
+		},
+		special_effects = {
+			"lihui_yuekechengII",
+			{
+				2418,
+				-99,
+				0
+			},
+			{
+				2
+			}
+		}
+	},
 	[107101] = {
 		ship_group = 10710,
 		name = "밝은 하늘의 인어",
@@ -11347,248 +11562,6 @@ pg.base.ship_skin_template_4 = {
 					}
 				}
 			}
-		}
-	},
-	[201232] = {
-		ship_group = 20123,
-		name = "백의의 소악마",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 2,
-		shop_id = 0,
-		painting = "xixuegui_3",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 15,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 201232,
-		voice_actor_2 = -1,
-		prefab = "xixuegui_3",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "지휘관, 지금의 나는 간호사…그·러·니……얌전히 내게 피를 뽑혀달라고~ 후후후, 농담이야~",
-		voice_actor = 89,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.892,
-					0.64,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.913,
-					0.697,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.059,
-					0.051,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.854,
-					0.623,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.54,
-							2.31,
-							-0.18
-						}
-					}
-				}
-			}
-		}
-	},
-	[201233] = {
-		ship_group = 20123,
-		name = "밤의 공주 정장",
-		hand_id = 13,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 3,
-		shop_id = 70225,
-		painting = "xixuegui_4",
-		illustrator = -1,
-		shop_type_id = 10,
-		lip_smoothing = 0,
-		bg = "114",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 201233,
-		voice_actor_2 = -1,
-		prefab = "xixuegui_4",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "지휘관, 오늘 이몸과 축제에 가기로 한 것, 잊지 않았겠지? 만약 잊었다고 한다면 그대의 목을 '가볍게' 한 입 물어줄거라고? ",
-		voice_actor = 89,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			1,
-			2
-		},
-		live2d_offset = {
-			55,
-			-14,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.239,
-					0.893,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.23,
-					0.834,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.205,
-					0.809,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.527,
-							2.268,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			login = 3.4
 		}
 	}
 }

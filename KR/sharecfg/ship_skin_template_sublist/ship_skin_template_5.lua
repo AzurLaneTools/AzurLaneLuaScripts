@@ -1,6 +1,248 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_5 = {
+	[201232] = {
+		ship_group = 20123,
+		name = "백의의 소악마",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 2,
+		shop_id = 0,
+		painting = "xixuegui_3",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 15,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 201232,
+		voice_actor_2 = -1,
+		prefab = "xixuegui_3",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "지휘관, 지금의 나는 간호사…그·러·니……얌전히 내게 피를 뽑혀달라고~ 후후후, 농담이야~",
+		voice_actor = 89,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.892,
+					0.64,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.913,
+					0.697,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.059,
+					0.051,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.854,
+					0.623,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.54,
+							2.31,
+							-0.18
+						}
+					}
+				}
+			}
+		}
+	},
+	[201233] = {
+		ship_group = 20123,
+		name = "밤의 공주 정장",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 3,
+		shop_id = 70225,
+		painting = "xixuegui_4",
+		illustrator = -1,
+		shop_type_id = 10,
+		lip_smoothing = 0,
+		bg = "114",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 201233,
+		voice_actor_2 = -1,
+		prefab = "xixuegui_4",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "지휘관, 오늘 이몸과 축제에 가기로 한 것, 잊지 않았겠지? 만약 잊었다고 한다면 그대의 목을 '가볍게' 한 입 물어줄거라고? ",
+		voice_actor = 89,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			55,
+			-14,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.239,
+					0.893,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.23,
+					0.834,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.205,
+					0.809,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.527,
+							2.268,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			login = 3.4
+		}
+	},
 	[201234] = {
 		ship_group = 20123,
 		name = "아이돌 리틀 데블",
@@ -12120,230 +12362,6 @@ pg.base.ship_skin_template_5 = {
 						{
 							-0.464,
 							2.399,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[202278] = {
-		ship_group = 20227,
-		name = "아침노을의 맹세",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 8,
-		shop_id = 0,
-		painting = "hemin_h",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 9998,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 1,
-		id = 202278,
-		voice_actor_2 = -1,
-		prefab = "hemin_h",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "지휘관님과 같이 여기 와서 너무 기뻐요. 이 아름다운 아침노을이 계속 우리를 지켜봐 주기를… 지휘관님, 사랑합니다.",
-		voice_actor = 242,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.531,
-					1.406,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.487,
-					1.441,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.088,
-					-0.009,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.47,
-					1.388,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.53,
-							2.185,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[202280] = {
-		ship_group = 20228,
-		name = "다이도(μ장비)",
-		hand_id = 1,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 0,
-		shop_id = 0,
-		painting = "daiduo_idol",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "140",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 202280,
-		voice_actor_2 = -1,
-		prefab = "daiduo_idol",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "경순양함 다이도, μ장비 테스트 임무 겸 아이돌 활동을 하는 중입니다. 이미 각 동료 여러분으로부터 수많은 아이돌 관련 지식을 습득했답니다. 다이도의 활약을 기대해… 주세요!",
-		voice_actor = 169,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.244,
-					1.205,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.244,
-					1.138,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.001,
-					0.001,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.194,
-					1.204,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.39,
-							2.376,
 							0
 						}
 					}

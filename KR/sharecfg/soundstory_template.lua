@@ -338,6 +338,162 @@ pg.soundstory_template = {
 			3
 		}
 	},
+	{
+		CV_JP = "Chiemi Tanaka",
+		audition_resource_CN = "ss-51901-1",
+		audition_text = "뭐, 지휘관님 마음속은 저도 잘 모르겠네요. 일단은 같이 좀 쉬고 몸을 가다듬죠. 실전은 지금부터니까요.",
+		story_resource_CN = "",
+		story_pic = "",
+		overview = "뭐, 지휘관님 마음속은 저도 잘 모르겠네요. 일단은 같이 좀 쉬고 몸을 가다듬죠. 실전은 지금부터니까요.",
+		name = "미열의 부엌",
+		ship_id = 51901,
+		audition_resource_JP = "ss-51901-2",
+		CV_CN = "",
+		id = 9,
+		story_resource_JP = "soundStory9_JP",
+		order = 1,
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					5,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		CV_JP = "Natsu Yorita",
+		audition_resource_CN = "",
+		audition_text = "후후후… 그렇네요. 이거 녹초가 돼서 움직일 수 없게 될지도 모르겠는걸요?",
+		story_resource_CN = "",
+		story_pic = "",
+		overview = "샌 재신토의 초청을 받아 수영장에 와서 그녀의 수영 레슨을 받기로 했습니다.\n단둘이 있는 자리, 소녀의 웃음소리에 물보라가 뒤섞여……두근거립니다.",
+		name = "소녀의 작은 마음",
+		ship_id = 10730,
+		audition_resource_JP = "ss-10730-1",
+		CV_CN = "",
+		id = 10,
+		story_resource_JP = "soundStory10_JP",
+		order = 1,
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					5,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		CV_JP = "Mimori Suzuko ",
+		audition_resource_CN = "",
+		audition_text = "네? 운젠의 목소리에… 취할 것 같다…? 마치… 달콤한 이슬과도 같다니…",
+		story_resource_CN = "",
+		story_pic = "",
+		overview = "요리 솜씨를 보여주는 딩안은 제빵에 대한 소회를 나누고 싶습니다.이 습하고 뜨거운 부엌에서 두 사람 사이의 온도는 계속 올라가고 있습니다……",
+		name = "심취여음",
+		ship_id = 30319,
+		audition_resource_JP = "ss-30319-1",
+		CV_CN = "",
+		id = 11,
+		story_resource_JP = "soundStory11_JP",
+		order = 1,
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					5,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -346,6 +502,9 @@ pg.soundstory_template = {
 		5,
 		6,
 		7,
-		8
+		8,
+		9,
+		10,
+		11
 	}
 }

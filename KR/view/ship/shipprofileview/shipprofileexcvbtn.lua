@@ -46,4 +46,8 @@ function slot0.UpdateCvBtn(slot0)
 	end
 end
 
+function slot0.isEx(slot0)
+	return slot0.shipGroup:VoiceReplayCodition(slot0.voice)
+end
+
 return slot0

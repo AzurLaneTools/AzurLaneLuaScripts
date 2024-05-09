@@ -8979,6 +8979,120 @@ pg.base.ship_skin_template_2 = {
 			}
 		}
 	},
+	[102294] = {
+		ship_group = 10229,
+		name = "실수해도 맛있게",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 4,
+		shop_id = 71000,
+		painting = "boyixi_5",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 17,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "150",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 102294,
+		voice_actor_2 = -1,
+		prefab = "boyixi_5",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "지휘관, 케첩 안 묻었어…? 미안해… 후~ 하~ 처, 처음 지휘관에게 이런 모습을 보여주려니… 아무래도 긴장되네……",
+		voice_actor = 276,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.12,
+					1.06,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.13,
+					1.02,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.1,
+					1.17,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.58,
+							2.33,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[102310] = {
 		ship_group = 10231,
 		name = "휴스턴Ⅱ",
@@ -9184,6 +9298,111 @@ pg.base.ship_skin_template_2 = {
 						{
 							-0.127,
 							2.437,
+							-0.15
+						}
+					}
+				}
+			}
+		}
+	},
+	[102320] = {
+		ship_group = 10232,
+		name = "보이시(μ장비)",
+		hand_id = 13,
+		bgm = "",
+		l2d_drag_rate = "",
+		illustrator2 = -1,
+		bg_sp = "",
+		l2d_ignore_drag = 0,
+		group_index = 0,
+		shop_id = 0,
+		painting = "boyixi_idol",
+		illustrator = -1,
+		l2d_voice_calibrate = "",
+		shop_type_id = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 102320,
+		voice_actor_2 = -1,
+		prefab = "boyixi_idol",
+		l2d_se = "",
+		main_UI_FX = "",
+		special_effects = "",
+		desc = "\"Cyanidin\" 소속 경순양함 보이시… 후~ 하~ 후~ 하~ 음… 이 모습이면 지휘관의 관심을 더 잘 끌 수… 있으려나? …그럼 다행이네. ///",
+		voice_actor = 276,
+		spine_offset = "",
+		gyro = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		ship_l2d_id = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.72,
+					1.58,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.7,
+					1.96,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.39,
 							-0.15
 						}
 					}
@@ -11979,220 +12198,6 @@ pg.base.ship_skin_template_2 = {
 						{
 							-0.625,
 							2.427,
-							0.14
-						}
-					}
-				}
-			}
-		}
-	},
-	[103131] = {
-		ship_group = 10313,
-		name = "와일드 스튜던트",
-		hand_id = 16,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 1,
-		shop_id = 70113,
-		painting = "mingniabolisi_2",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 4,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "103",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 103131,
-		voice_actor_2 = -1,
-		prefab = "mingniabolisi_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "교과서와 연필, 그리고 지우개… 학생이란 교실에서 수업에 참여하는 것만이 아니지… 지휘관, 야외 실습을 좀 더 넣어줘!",
-		voice_actor = 153,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.95,
-					0.91,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.91,
-					0.94,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.17,
-					0.04,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.33,
-							0.14
-						}
-					}
-				}
-			}
-		}
-	},
-	[103132] = {
-		ship_group = 10313,
-		name = "익스트림 스포츠 X",
-		hand_id = 16,
-		bgm = "",
-		l2d_drag_rate = "",
-		illustrator2 = -1,
-		bg_sp = "",
-		l2d_ignore_drag = 0,
-		group_index = 2,
-		shop_id = 70330,
-		painting = "mingniabolisi_3",
-		illustrator = -1,
-		l2d_voice_calibrate = "",
-		shop_type_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bg = "132",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 103132,
-		voice_actor_2 = -1,
-		prefab = "mingniabolisi_3",
-		l2d_se = "",
-		main_UI_FX = "",
-		special_effects = "",
-		desc = "앗, 지휘관! 비켜 비켜! ....와 정말, 조심해, 방금 부딪혔으면 어쩔뻔 했어!",
-		voice_actor = 153,
-		spine_offset = "",
-		gyro = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		ship_l2d_id = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.95,
-					1.074,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.966,
-					1.181,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.009,
-					-0.006,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.33,
 							0.14
 						}
 					}

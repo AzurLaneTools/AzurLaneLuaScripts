@@ -1,5 +1,16 @@
 slot0 = class("IdolMedalCollectionView2", import("view.base.BaseUI"))
 
+function slot0.GetContainerPositions(slot0)
+	return {
+		32.4,
+		132.7
+	}
+end
+
+function slot0.GetActivityID(slot0)
+	return ActivityConst.MUSIC_FESTIVAL_MEDALCOLLECTION_2020
+end
+
 function slot0.getUIName(slot0)
 	return "IdolMedalCollectionUI2"
 end
@@ -9,11 +20,6 @@ function slot0.init(slot0)
 	slot0:findUI()
 	slot0:addListener()
 end
-
-slot1 = {
-	32.4,
-	132.7
-}
 
 function slot0.didEnter(slot0)
 	slot0:checkAward()
@@ -27,13 +33,13 @@ end
 
 function slot0.initData(slot0)
 	slot0.activityProxy = getProxy(ActivityProxy)
-	slot0.activityData = slot0.activityProxy:getActivityById(ActivityConst.MUSIC_FESTIVAL_MEDALCOLLECTION_2020)
+	slot0.activityData = slot0.activityProxy:getActivityById(slot0:GetActivityID())
 	slot0.allIDList = slot0.activityData:GetPicturePuzzleIds()
 	slot0.activatableIDList = slot0.activityData.data1_list
 	slot0.activeIDList = slot0.activityData.data2_list
 end
 
-slot2 = {}
+slot1 = {}
 
 function slot0.findUI(slot0)
 	slot0.bg = slot0:findTF("BG")
@@ -141,7 +147,7 @@ function slot0.addListener(slot0)
 
 	onButton(slot0, slot0.buttonShare, function ()
 		setAnchoredPosition(uv0.medalContainer, {
-			x = uv1[1]
+			x = uv0:GetContainerPositions()[1]
 		})
 		setActive(uv0.selectPanel, false)
 		setActive(uv0.buttonNext, false)
@@ -295,7 +301,7 @@ function slot0.UpdateView(slot0)
 	end
 
 	setAnchoredPosition(slot0.medalContainer, {
-		x = uv0[slot0.pageIndex]
+		x = slot0:GetContainerPositions()[slot0.pageIndex]
 	})
 	setActive(slot0.selectPanel, slot0.pageIndex == 2)
 

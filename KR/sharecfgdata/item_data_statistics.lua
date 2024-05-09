@@ -23272,6 +23272,130 @@ _G.pg.base.item_data_statistics[30354] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30355] = {
+	open_directly = 1,
+	name = "장비 스킨 상자 (공명)",
+	display = "무작위로 장비 스킨 획득 가능",
+	type = 11,
+	display_effect = "",
+	id = 30355,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/appearanceboxgongming",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30355",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			950,
+			1
+		},
+		{
+			9,
+			951,
+			1
+		},
+		{
+			9,
+			952,
+			1
+		},
+		{
+			9,
+			953,
+			1
+		},
+		{
+			9,
+			954,
+			1
+		},
+		{
+			9,
+			955,
+			1
+		},
+		{
+			9,
+			956,
+			1
+		},
+		{
+			9,
+			957,
+			1
+		},
+		{
+			9,
+			958,
+			1
+		},
+		{
+			9,
+			959,
+			1
+		},
+		{
+			9,
+			960,
+			1
+		},
+		{
+			9,
+			961,
+			1
+		},
+		{
+			9,
+			962,
+			1
+		},
+		{
+			9,
+			963,
+			1
+		},
+		{
+			9,
+			964,
+			1
+		},
+		{
+			9,
+			965,
+			1
+		},
+		{
+			9,
+			966,
+			1
+		},
+		{
+			9,
+			967,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "장비스킨 상자(월드 투어)",
@@ -32121,6 +32245,218 @@ _G.pg.base.item_data_statistics[30538] = {
 		{
 			9,
 			947,
+			1
+		}
+	}
+}
+
+_G.pg.base.item_data_statistics[30539] = {
+	open_directly = 0,
+	name = "선택 장비 스킨 상자(공명)",
+	display = "사용하면 장비 스킨(공명의 Passion) 중 하나를 선택해서 획득할 수 있습니다.",
+	type = 13,
+	display_effect = "",
+	id = 30539,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	link_id = 0,
+	icon = "Props/appearanceboxgongmingzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			950,
+			1
+		},
+		{
+			9,
+			951,
+			1
+		},
+		{
+			9,
+			952,
+			1
+		},
+		{
+			9,
+			953,
+			1
+		},
+		{
+			9,
+			954,
+			1
+		},
+		{
+			9,
+			955,
+			1
+		},
+		{
+			9,
+			956,
+			1
+		},
+		{
+			9,
+			957,
+			1
+		},
+		{
+			9,
+			958,
+			1
+		},
+		{
+			9,
+			959,
+			1
+		},
+		{
+			9,
+			960,
+			1
+		},
+		{
+			9,
+			961,
+			1
+		},
+		{
+			9,
+			962,
+			1
+		},
+		{
+			9,
+			963,
+			1
+		},
+		{
+			9,
+			964,
+			1
+		},
+		{
+			9,
+			965,
+			1
+		},
+		{
+			9,
+			966,
+			1
+		},
+		{
+			9,
+			967,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			950,
+			1
+		},
+		{
+			9,
+			951,
+			1
+		},
+		{
+			9,
+			952,
+			1
+		},
+		{
+			9,
+			953,
+			1
+		},
+		{
+			9,
+			954,
+			1
+		},
+		{
+			9,
+			955,
+			1
+		},
+		{
+			9,
+			956,
+			1
+		},
+		{
+			9,
+			957,
+			1
+		},
+		{
+			9,
+			958,
+			1
+		},
+		{
+			9,
+			959,
+			1
+		},
+		{
+			9,
+			960,
+			1
+		},
+		{
+			9,
+			961,
+			1
+		},
+		{
+			9,
+			962,
+			1
+		},
+		{
+			9,
+			963,
+			1
+		},
+		{
+			9,
+			964,
+			1
+		},
+		{
+			9,
+			965,
+			1
+		},
+		{
+			9,
+			966,
+			1
+		},
+		{
+			9,
+			967,
 			1
 		}
 	}

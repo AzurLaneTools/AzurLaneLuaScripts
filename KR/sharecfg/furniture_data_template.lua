@@ -139,6 +139,8 @@ pg.furniture_data_template = setmetatable({
 			269,
 			271,
 			273,
+			274,
+			275,
 			100002,
 			100003,
 			100004,
@@ -198,6 +200,7 @@ pg.furniture_data_template = setmetatable({
 			100058,
 			100059,
 			100060,
+			100061,
 			200001,
 			200002,
 			200003,
@@ -3064,6 +3067,36 @@ pg.furniture_data_template = setmetatable({
 			309114,
 			309301,
 			309302
+		},
+		[110] = {
+			310001,
+			310002,
+			310101,
+			310102,
+			310103,
+			310104,
+			310105,
+			310106,
+			310107,
+			310108,
+			310109,
+			310110,
+			310111,
+			310112,
+			310113,
+			310114,
+			310115,
+			310116,
+			310301,
+			310302,
+			310303,
+			310304,
+			310305,
+			310306,
+			310307,
+			310308,
+			310309,
+			310310
 		}
 	},
 	get_id_list_by_tag = {
@@ -4896,7 +4929,22 @@ pg.furniture_data_template = setmetatable({
 			309110,
 			309111,
 			309112,
-			309114
+			309114,
+			310101,
+			310102,
+			310103,
+			310104,
+			310105,
+			310106,
+			310107,
+			310108,
+			310109,
+			310110,
+			310111,
+			310112,
+			310113,
+			310114,
+			310115
 		},
 		{
 			1108,
@@ -5140,6 +5188,7 @@ pg.furniture_data_template = setmetatable({
 			265,
 			267,
 			269,
+			274,
 			100002,
 			100003,
 			100004,
@@ -5199,6 +5248,7 @@ pg.furniture_data_template = setmetatable({
 			100058,
 			100059,
 			100060,
+			100061,
 			54104,
 			54105
 		},
@@ -5252,7 +5302,8 @@ pg.furniture_data_template = setmetatable({
 			266,
 			268,
 			271,
-			273
+			273,
+			275
 		},
 		[7] = {
 			213,
@@ -5438,7 +5489,8 @@ pg.furniture_data_template = setmetatable({
 			307109,
 			308119,
 			308305,
-			309113
+			309113,
+			310116
 		},
 		[4] = {
 			1001,
@@ -5534,7 +5586,8 @@ pg.furniture_data_template = setmetatable({
 			306001,
 			307001,
 			308001,
-			309001
+			309001,
+			310001
 		},
 		[3] = {
 			1002,
@@ -5631,7 +5684,8 @@ pg.furniture_data_template = setmetatable({
 			306002,
 			307002,
 			308002,
-			309002
+			309002,
+			310002
 		},
 		[5] = {
 			1301,
@@ -5954,7 +6008,17 @@ pg.furniture_data_template = setmetatable({
 			308303,
 			308304,
 			309301,
-			309302
+			309302,
+			310301,
+			310302,
+			310303,
+			310304,
+			310305,
+			310306,
+			310307,
+			310308,
+			310309,
+			310310
 		}
 	},
 	get_id_list_by_type = {
@@ -6053,7 +6117,8 @@ pg.furniture_data_template = setmetatable({
 			306002,
 			307002,
 			308002,
-			309002
+			309002,
+			310002
 		},
 		[7] = {
 			1,
@@ -6173,6 +6238,8 @@ pg.furniture_data_template = setmetatable({
 			269,
 			271,
 			273,
+			274,
+			275,
 			100002,
 			100004,
 			100005,
@@ -6218,7 +6285,8 @@ pg.furniture_data_template = setmetatable({
 			100056,
 			100057,
 			100058,
-			100059
+			100059,
+			100061
 		},
 		[2] = {
 			120,
@@ -8049,7 +8117,22 @@ pg.furniture_data_template = setmetatable({
 			309111,
 			309112,
 			309113,
-			309114
+			309114,
+			310102,
+			310103,
+			310104,
+			310105,
+			310106,
+			310107,
+			310108,
+			310109,
+			310110,
+			310111,
+			310112,
+			310113,
+			310114,
+			310115,
+			310116
 		},
 		[11] = {
 			131,
@@ -8211,7 +8294,8 @@ pg.furniture_data_template = setmetatable({
 			306001,
 			307001,
 			308001,
-			309001
+			309001,
+			310001
 		},
 		[5] = {
 			1101,
@@ -8353,7 +8437,8 @@ pg.furniture_data_template = setmetatable({
 			305111,
 			305119,
 			308104,
-			309105
+			309105,
+			310101
 		},
 		[3] = {
 			1108,
@@ -8832,7 +8917,12 @@ pg.furniture_data_template = setmetatable({
 			308304,
 			308305,
 			309301,
-			309302
+			309302,
+			310306,
+			310307,
+			310308,
+			310309,
+			310310
 		},
 		[8] = {
 			17121
@@ -8856,7 +8946,12 @@ pg.furniture_data_template = setmetatable({
 			76305,
 			98302,
 			304306,
-			305306
+			305306,
+			310301,
+			310302,
+			310303,
+			310304,
+			310305
 		},
 		[12] = {
 			46131
@@ -9001,6 +9096,8 @@ pg.furniture_data_template = setmetatable({
 		269,
 		271,
 		273,
+		274,
+		275,
 		100002,
 		100003,
 		100004,
@@ -9060,6 +9157,7 @@ pg.furniture_data_template = setmetatable({
 		100058,
 		100059,
 		100060,
+		100061,
 		200001,
 		200002,
 		200003,
@@ -11735,7 +11833,35 @@ pg.furniture_data_template = setmetatable({
 		309113,
 		309114,
 		309301,
-		309302
+		309302,
+		310001,
+		310002,
+		310101,
+		310102,
+		310103,
+		310104,
+		310105,
+		310106,
+		310107,
+		310108,
+		310109,
+		310110,
+		310111,
+		310112,
+		310113,
+		310114,
+		310115,
+		310116,
+		310301,
+		310302,
+		310303,
+		310304,
+		310305,
+		310306,
+		310307,
+		310308,
+		310309,
+		310310
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -18441,6 +18567,129 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[274] = {
+		spine_extra = "",
+		describe = "夏天到了，一起去海边打水仗吧~！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "夏日作战立体书（特典）",
+		themeId = 0,
+		icon = "litishuicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 274,
+		can_rotate = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"litishuB",
+				"normal"
+			},
+			{
+				"litishuT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[275] = {
+		spine_extra = "",
+		describe = "μ장비 실험 훈련Ⅲ 스테이지의 미니어처. 각각 유닛 \"Alizarin\", \"Cyanidin\"을 모티브로 하고 있다. ――\"공명의 Passion\" 이벤트 참가 보상.",
+		gain_by = "공명의 Passion",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		themeId = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 8,
+		icon = "ido3xunzhangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "공명 무대 모형",
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 275,
+		can_rotate = 0,
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"ido3xunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		belong = 1,
 		describe = "높이~ 더 높이 띄우자~ 에엣?! 너무 높아 너무 높이 갔어!! (QㅁQ);;;",
@@ -22650,6 +22899,98 @@ pg.base.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[100061] = {
+		spine_extra = "",
+		describe = "有着童话般的外形和舒适感，或许会在被窝里翻到珍珠？",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "闪亮贝壳床",
+		themeId = 0,
+		icon = "zhenzhubeichuangicon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 6,
+		comfortable = 0,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 100061,
+		can_rotate = 0,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhenzhubeichuangB",
+				"normal"
+			},
+			{
+				"zhenzhubeichuangT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep2",
+						nil,
+						"sleep"
+					}
+				},
+				{
+					[3] = {
+						"sleep1",
+						"sleep"
+					},
+					[4] = sleep
+				},
+				{
+					1
+				}
+			},
+			{
+				{
+					9.7,
+					19.4
+				},
+				{
+					203.06,
+					170.6
+				},
+				"chuanmo/zhenzhubeichuang_mask"
+			},
+			{
+				-17.6,
+				-27.1
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
@@ -140044,6 +140385,1162 @@ pg.base.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[310001] = {
+		spine_extra = "",
+		describe = "빛나는 무대가 이제 곧 시작됩니다!",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 0,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 4,
+		size = "",
+		deblocking = 1,
+		level = 1,
+		name = "대기실 바닥",
+		effect = "",
+		advice = 0,
+		icon = "dibanido3icon",
+		spine_action_replace = "",
+		picture = "ido3/dibanido3",
+		comfortable = 4,
+		canputon = 0,
+		id = 310001,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310002] = {
+		spine_extra = "",
+		describe = "빛나는 무대가 이제 곧 시작됩니다!",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 0,
+		themeId = 110,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 3,
+		size = "",
+		deblocking = 1,
+		level = 5,
+		name = "대기실 벽",
+		effect = "",
+		advice = 0,
+		icon = "qiangbiido3icon",
+		spine_action_replace = "",
+		picture = "",
+		comfortable = 4,
+		canputon = 0,
+		id = 310002,
+		can_rotate = 0,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbiido3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[310101] = {
+		spine_extra = "",
+		describe = "토끼 모양 카펫. 밟으면 잠이 올지도…? 쿨쿨…",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 3,
+		tag = 1,
+		icon = "ditanido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "대기실 카펫",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "ido3/ditanido3",
+		canputon = 0,
+		id = 310101,
+		can_rotate = 0,
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310102] = {
+		spine_extra = "",
+		describe = "핑크빛 토끼를 모티브로 한 화장대. 완벽한 아이돌이 되고 말겠어!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 110,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "huazhuangzhuohongido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "토끼토끼 화장대 (핑크)",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 310102,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huazhuangzhuohongido3",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[310103] = {
+		spine_extra = "",
+		describe = "푸른색 토끼를 모티브로 한 화장대. 메이크업 확인이 끝나면 무대에 설 준비를 하자!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 110,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "huazhuangzhuolanido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "토끼토끼 화장대 (파란색)",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 310103,
+		can_rotate = 0,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huazhuangzhuolanido3",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[310104] = {
+		spine_extra = "",
+		describe = "Cyanidin의 아이돌 의상이 모티브…인 것 같다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "jiarenido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "의상용 마네킹",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "ido3/jiarenido3",
+		canputon = 0,
+		id = 310104,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310105] = {
+		spine_extra = "",
+		describe = "그림자 놀이 금지!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 110,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "juguangdengido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "리허설 조명",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 310105,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"juguangdengido3",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[310106] = {
+		spine_extra = "",
+		describe = "준비 완료! 자, 무대로 가자!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "luodijingido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "대기실 전신거울",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "ido3/luodijingido3",
+		canputon = 0,
+		id = 310106,
+		can_rotate = 0,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310107] = {
+		spine_extra = "",
+		describe = "가끔은 조용히 쉬고 싶을 때도…… 땡땡이 치는 건 아니라구요!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "pingfengido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "대기실 칸막이",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "ido3/pingfengido3",
+		canputon = 0,
+		id = 310107,
+		can_rotate = 0,
+		size = {
+			6,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310108] = {
+		spine_extra = "",
+		describe = "최고의 편안함으로 잠깐 휴식을 취하기에는 안성맞춤.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 110,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "shafaido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "대기실 소파",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "ido3/shafaido3",
+		canputon = 0,
+		id = 310108,
+		can_rotate = 0,
+		size = {
+			2,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-27.6,
+					36.1
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310109] = {
+		spine_extra = "",
+		describe = "무대에 필요한 소도구를 잊지 마시길!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiangziido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "소도구 상자",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "ido3/xiangziido3",
+		canputon = 0,
+		id = 310109,
+		can_rotate = 0,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310110] = {
+		spine_extra = "",
+		describe = "무대용 신발은 모두 여기에!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "xiejiaido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "대기실 신발장",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "ido3/xiejiaido3",
+		canputon = 0,
+		id = 310110,
+		can_rotate = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310111] = {
+		spine_extra = "",
+		describe = "콘서트 중에 갈아입을 의상은 대부분 갖추고 있다!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "yijiaido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "튼튼한 행거",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "ido3/yijiaido3",
+		canputon = 0,
+		id = 310111,
+		can_rotate = 0,
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310112] = {
+		spine_extra = "",
+		describe = "쉽게 높이를 조정할 수 있어, 화장하기 편리하다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 110,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 1,
+		icon = "yizi1ido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "메이크 체어 1 (꼬리 포함)",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "ido3/yizi1ido3",
+		canputon = 0,
+		id = 310112,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-9.4,
+					29.6
+				},
+				{
+					-1,
+					1
+				},
+				"ido3/yizi1ido3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310113] = {
+		spine_extra = "",
+		describe = "쉽게 높이를 조정할 수 있어, 화장하기 편리하다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "yizi2ido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "메이크 체어 2 (꼬리 포함)",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "ido3/yizi2ido3",
+		canputon = 0,
+		id = 310113,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310114] = {
+		spine_extra = "",
+		describe = "쉽게 높이를 조정할 수 있어, 화장하기 편리하다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 1,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "yizi3ido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "메이크 체어 3 (꼬리 포함)",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "ido3/yizi3ido3",
+		canputon = 0,
+		id = 310114,
+		can_rotate = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310115] = {
+		spine_extra = "",
+		describe = "관계자 이외에는 출입금지야~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		themeId = 110,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 1,
+		icon = "rukouido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		name = "백스테이지 입구",
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 310115,
+		can_rotate = 1,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"rukouido3",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[310116] = {
+		spine_extra = "",
+		describe = "무대에 오르기 전에 컨디션을 체크하기 위한 설비. 신나게 노래하자!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 4,
+		is_get_time_note = 0,
+		belong = 1,
+		count = 1,
+		is_3d_obj = 0,
+		name = "리허설 음향",
+		themeId = 110,
+		icon = "maikefengido3icon",
+		deblocking = 1,
+		level = 1,
+		advice = 0,
+		effect = "",
+		tag = 7,
+		comfortable = 4,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 310116,
+		can_rotate = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"maikefengido3B",
+				"normal"
+			},
+			{
+				"maikefengido3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[310301] = {
+		spine_extra = "",
+		describe = "열심히 하면 언젠가는 이 포스터가 모항 전체에 붙여질지도……?",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "haibao1ido3icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "아이돌 포스터 1",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "ido3/haibao1ido3",
+		canputon = 0,
+		id = 310301,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310302] = {
+		spine_extra = "",
+		describe = "열심히 하면 언젠가는 이 포스터가 모항 전체에 붙여질지도……?",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "haibao2ido3icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "아이돌 포스터 2",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "ido3/haibao2ido3",
+		canputon = 0,
+		id = 310302,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310303] = {
+		spine_extra = "",
+		describe = "열심히 하면 언젠가는 이 포스터가 모항 전체에 붙여질지도……?",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "haibao3ido3icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "아이돌 포스터 3",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "ido3/haibao3ido3",
+		canputon = 0,
+		id = 310303,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310304] = {
+		spine_extra = "",
+		describe = "열심히 하면 언젠가는 이 포스터가 모항 전체에 붙여질지도……?",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "haibao4ido3icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "아이돌 포스터 4",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "ido3/haibao4ido3",
+		canputon = 0,
+		id = 310304,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310305] = {
+		spine_extra = "",
+		describe = "이번 무대의 심볼을 기억해 둬!",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 2,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "dengpaiido3icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "스타보드 라이트",
+		comfortable = 2,
+		spine_action_replace = "",
+		picture = "ido3/dengpaiido3",
+		canputon = 0,
+		id = 310305,
+		can_rotate = 1,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310306] = {
+		spine_extra = "",
+		describe = "빛나는 무대를 빛나는 그대에게!",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "pingmuidop3icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "스타 월라이트 1",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "ido3/pingmuidop3",
+		canputon = 0,
+		id = 310306,
+		can_rotate = 0,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310307] = {
+		spine_extra = "",
+		describe = "빛나는 무대를 빛나는 그대에게!",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "qiangshi1ido3icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "스타 월라이트 2",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "ido3/qiangshi1ido3",
+		canputon = 0,
+		id = 310307,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310308] = {
+		spine_extra = "",
+		describe = "빛나는 무대를 빛나는 그대에게!",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "qiangshi2ido3icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "스타 월라이트 3",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "ido3/qiangshi2ido3",
+		canputon = 0,
+		id = 310308,
+		can_rotate = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310309] = {
+		spine_extra = "",
+		describe = "빛나는 무대를 빛나는 그대에게!",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 1,
+		is_get_time_note = 0,
+		themeId = 110,
+		belong = 2,
+		is_3d_obj = 0,
+		count = 1,
+		tag = 5,
+		icon = "qiangshi3ido3icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "스타 월라이트 4",
+		comfortable = 1,
+		spine_action_replace = "",
+		picture = "ido3/qiangshi3ido3",
+		canputon = 0,
+		id = 310309,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310310] = {
+		spine_extra = "",
+		describe = "입은 의상은 확실히 정리할 것! 안 그러면 주름이 생겨!",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 3,
+		is_get_time_note = 0,
+		belong = 2,
+		themeId = 110,
+		is_3d_obj = 0,
+		count = 2,
+		tag = 5,
+		icon = "yijiaqiangido3icon",
+		deblocking = 1,
+		level = 5,
+		advice = 0,
+		effect = "",
+		name = "대기실의 의상 행거",
+		comfortable = 3,
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		id = 310310,
+		can_rotate = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yijiaqiangido3",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
 		},
 		interAction_group = {}
 	}

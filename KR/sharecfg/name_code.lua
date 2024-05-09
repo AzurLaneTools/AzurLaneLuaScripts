@@ -1575,6 +1575,20 @@ pg.name_code = {
 		code = "사카와",
 		nation = 0
 	},
+	[227] = {
+		name = "노시로(μ장비)",
+		type = 1,
+		id = 227,
+		code = "노시로(μ장비)",
+		nation = 0
+	},
+	[228] = {
+		name = "콘고(μ장비)",
+		type = 1,
+		id = 228,
+		code = "콘고(μ장비)",
+		nation = 0
+	},
 	[250] = {
 		name = "이9",
 		type = 1,
@@ -2679,6 +2693,27 @@ pg.name_code = {
 		type = 1,
 		id = 531,
 		code = "프리드리히 카를",
+		nation = 0
+	},
+	[532] = {
+		name = "프린츠 오이겐(μ장비)",
+		type = 1,
+		id = 532,
+		code = "프린츠 오이겐(μ장비)",
+		nation = 0
+	},
+	[533] = {
+		name = "보이시(μ장비)",
+		type = 1,
+		id = 533,
+		code = "보이시(μ장비)",
+		nation = 0
+	},
+	[534] = {
+		name = "꼬마 시나노",
+		type = 1,
+		id = 534,
+		code = "꼬마 시나노",
 		nation = 0
 	},
 	[10000] = {

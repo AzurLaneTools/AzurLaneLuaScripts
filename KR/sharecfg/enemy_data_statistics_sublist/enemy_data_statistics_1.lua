@@ -1063,5 +1063,30 @@ pg.enemy_data_statistics_1 = {
 		random_equipment_list = {},
 		random_nub = {},
 		buff_list = {}
+	},
+	[50023] = {
+		speed_growth = 10000,
+		name = "게리온",
+		durability_growth = 6100,
+		cannon_growth = 6100,
+		luck_growth = 10000,
+		fog_fx = "",
+		hit_growth = 6100,
+		reload_growth = 6100,
+		dodge_growth = 10000,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 50021,
+		armor_growth = 0,
+		torpedo_growth = 6100,
+		bubble_fx = "",
+		antiaircraft_growth = 6100,
+		id = 50023,
+		specific_fx_scale = {},
+		appear_fx = {},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
 	}
 }

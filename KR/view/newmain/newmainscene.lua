@@ -87,7 +87,7 @@ function slot0.init(slot0)
 	slot0.buffDescPage = MainBuffDescPage.New(slot0._tf, slot0.event)
 	slot0.skinExperiencePage = SkinExperienceDiplayPage.New(slot0._tf, slot0.event)
 
-	if LOCK_EDUCATE_SYSTEM then
+	if USE_OLD_MAIN_LIVE_AREA_UI then
 		slot0.liveAreaPage = MainLiveAreaOldPage.New(slot0._tf, slot0.event)
 	else
 		slot0.liveAreaPage = MainLiveAreaPage.New(slot0._tf, slot0.event)
