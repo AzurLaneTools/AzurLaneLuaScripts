@@ -91,10 +91,10 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "song-Cyanidin-full",
+		default_bgm = "login",
 		special_bgm = "",
 		time = "",
-		bgm = "song-Cyanidin-full"
+		bgm = "login"
 	},
 	NewMainScene = {
 		default_bgm = "main",
@@ -1510,5 +1510,11 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "song-Alizarin-full-inst"
+	},
+	LittleSpeeRePage = {
+		default_bgm = "story-richang-12",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-12"
 	}
 }

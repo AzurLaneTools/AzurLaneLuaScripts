@@ -199,7 +199,7 @@ function slot10.DoAreaSplit(slot0, slot1)
 	end
 
 	for slot6, slot7 in pairs(slot0._crewUnitList) do
-		slot6:TriggerBuff(uv1.BuffEffectType.ON_ANTIAIR_FIRE, {})
+		slot6:TriggerBuff(uv1.BuffEffectType.ON_ANTIAIR_FIRE_FAR, {})
 		slot6:PlayFX(slot7[1]:GetTemplateData().fire_fx, true)
 	end
 

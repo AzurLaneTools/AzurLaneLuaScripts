@@ -258,7 +258,8 @@ pg.ship_skin_words_extra = setmetatable({
 		202340,
 		203130,
 		207053,
-		307140
+		307140,
+		403140
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -17926,6 +17927,69 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"Heehee, Commander, do you want to nap together? This one made a lovely dream and wants to share it with you♪"
+			}
+		}
+	},
+	[403140] = {
+		unlock = "",
+		feeling3 = "",
+		feeling4 = "",
+		feeling1 = "",
+		expedition = "",
+		win_mvp = "",
+		profile = "",
+		mission = "",
+		battle = "",
+		skill = "",
+		mail = "",
+		lose = "",
+		main = "",
+		upgrade = "",
+		mission_complete = "",
+		feeling2 = "",
+		hp_warning = "",
+		id = 403140,
+		detail = "",
+		login = {
+			{
+				1100,
+				"There you are, my dear little one! The world is now on course toward the love-filled future that we dream of."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back, dear little one♥ No matter how far you go, I know you'll always come back."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Heehee, it's quite fun being on the receiving end of this."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Heehee, your love is just as strong as mine at this point. Yet it's still not enough. Together, we're going to cultivate an even bigger, stronger love♥|Every second I spend with you gives me new inspiration about love. Do you want to hear a snippet?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Do you want to create a passionate musical number?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Heehee, your appetite for love really is bottomless, little one."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Even though we're already a couple, my love for you just keeps growing. No-no, you don't need to do anything. You can just relax and slowly bask in all the love I have for you, little one♥"
 			}
 		}
 	}

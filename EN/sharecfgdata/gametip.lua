@@ -326,6 +326,198 @@ _G.pg.base.gametip.new_airi_error_code_300100 = {
 	tip = "System sharing failed"
 }
 
+_G.pg.base.gametip.new_airi_error_code_100121 = {
+	tip = "Guest login is not supported on PC client"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100201 = {
+	tip = "The Google Play Games account has been linked to another game account. Confirm to unlink it from the old game account and re-link to the current one?"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100202 = {
+	tip = "The game account has been linked to another Google Play Games account. Confirm to unlink it from the old Google Play Games account and re-link to the current one?"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100203 = {
+	tip = "The current game account and Google Play Games account have each been linked to other accounts. Confirm to unlink the both from the old accounts and re-link them together?"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100204 = {
+	tip = "The guest account can't be linked to a Google Play Games account so you can't log on another device with the guest account. If you want to link the guest account to a Google Play Games account, please link it to a Yostar account/third-party account first."
+}
+
+_G.pg.base.gametip.new_airi_error_code_100205 = {
+	tip = "Unbind failed. Your game account hasn't been linked to a Google Play Games account."
+}
+
+_G.pg.base.gametip.new_airi_error_code_100206 = {
+	tip = "The non-guest account has been linked to a Google Play Games account automatically. You can log on another device with the Google Play Games account."
+}
+
+_G.pg.base.gametip.new_airi_error_code_100207 = {
+	tip = "0"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100214 = {
+	tip = "The game account now is linked to a Google Play Games account. If you unlink it from other accounts (except the Google Play Games account), it will also unlink from the Google Play Games account automatically."
+}
+
+_G.pg.base.gametip.new_airi_error_code_100218 = {
+	tip = "Unable to login with Twitter account in current App"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100235 = {
+	tip = "Invalid email format. Please enter again"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100307 = {
+	tip = "0"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100310 = {
+	tip = "Behavior Verification failed, please try again"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100311 = {
+	tip = "Invalid Behavior Verification token, please try again"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100401 = {
+	tip = "Steam authorization failed"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100600 = {
+	tip = "Interface parameter error. Invoke failed"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100802 = {
+	tip = "0"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100803 = {
+	tip = "Callback URL exceeds its maximum characters"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200141 = {
+	tip = "Order creation failed: Purchase currency is not supported"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200145 = {
+	tip = "Order creation failed: Steam parameter retreival error"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200231 = {
+	tip = "0"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200232 = {
+	tip = "Apple Pay is not available on this device"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200235 = {
+	tip = "Steam transaction timeout"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200236 = {
+	tip = "Payment cancelled"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200370 = {
+	tip = "0"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200380 = {
+	tip = "0"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200390 = {
+	tip = "0"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200400 = {
+	tip = "0"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200410 = {
+	tip = "Payment failed: Payment Type Error"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200420 = {
+	tip = "Payment incomplete"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200430 = {
+	tip = "GMO credit card Payment failed"
+}
+
+_G.pg.base.gametip.new_airi_error_code_300101 = {
+	tip = "0"
+}
+
+_G.pg.base.gametip.new_airi_error_code_300102 = {
+	tip = "0"
+}
+
+_G.pg.base.gametip.new_airi_error_code_300200 = {
+	tip = "0"
+}
+
+_G.pg.base.gametip.new_airi_error_code_300210 = {
+	tip = "ID authorization incomplete"
+}
+
+_G.pg.base.gametip.new_airi_error_code_300220 = {
+	tip = "ID authorization outdated"
+}
+
+_G.pg.base.gametip.new_airi_error_code_300300 = {
+	tip = "Yostar account binding failed"
+}
+
+_G.pg.base.gametip.new_airi_error_code_400010 = {
+	tip = "Nintendo login canceled"
+}
+
+_G.pg.base.gametip.new_airi_error_code_400020 = {
+	tip = "Nintendo authorization failed"
+}
+
+_G.pg.base.gametip.new_airi_error_code_400030 = {
+	tip = "Nintendo account does not exist"
+}
+
+_G.pg.base.gametip.new_airi_error_code_400040 = {
+	tip = "Nintendo account unavailable"
+}
+
+_G.pg.base.gametip.new_airi_error_code_400050 = {
+	tip = "The Nintendo account has not been bound to a Yostar account"
+}
+
+_G.pg.base.gametip.new_airi_error_code_400060 = {
+	tip = "Nintendo login authorization failed"
+}
+
+_G.pg.base.gametip.new_airi_error_code_400070 = {
+	tip = "The Yostar account does not exist"
+}
+
+_G.pg.base.gametip.new_airi_error_code_400080 = {
+	tip = "The Yostar account has been bound to other Nintendo account"
+}
+
+_G.pg.base.gametip.new_airi_error_code_400090 = {
+	tip = "The Yostar account has not been bound to a Nintendo account"
+}
+
+_G.pg.base.gametip.new_airi_error_code_400100 = {
+	tip = "The Nintendo account has been bound to other Yostar account"
+}
+
+_G.pg.base.gametip.new_airi_error_code_400460 = {
+	tip = "Failed to load the page. Please try again."
+}
+
 _G.pg.base.gametip.ad_0 = {
 	tip = ""
 }
@@ -10292,7 +10484,7 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "Sovetskaya Belorussiya, Tallinn, and others added to standard build pool!"
+	tip = "Little Renown and Amagi-chan added to the build pool!"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
@@ -10300,7 +10492,7 @@ _G.pg.base.gametip.buildship_light_tip = {
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "Princeton added to standard build pool!"
+	tip = "Little Illustrious and Little Enterprise added to the build pool!"
 }
 
 _G.pg.base.gametip.Normalbuild_URexchange_help = {

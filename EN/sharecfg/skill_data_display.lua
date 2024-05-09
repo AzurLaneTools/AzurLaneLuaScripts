@@ -3017,6 +3017,10 @@ pg.skill_data_display = setmetatable({
 		1012940,
 		1013000,
 		1013001,
+		1010980,
+		1010981,
+		1010660,
+		1010661,
 		1090020,
 		1090042,
 		1090043,
@@ -15110,6 +15114,22 @@ pg.base.skill_data_display = {
 	[1013001] = {
 		id = 1013001,
 		name = "Cavalier of the Ether+"
+	},
+	[1010980] = {
+		id = 1010980,
+		name = "AA Protection+"
+	},
+	[1010981] = {
+		id = 1010981,
+		name = "AA Protection+"
+	},
+	[1010660] = {
+		id = 1010660,
+		name = "Sniper+"
+	},
+	[1010661] = {
+		id = 1010661,
+		name = "Sniper+"
 	},
 	[1090020] = {
 		id = 1090020,

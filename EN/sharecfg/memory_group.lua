@@ -278,6 +278,7 @@ pg.memory_group = setmetatable({
 		595,
 		596,
 		597,
+		598,
 		1000,
 		1001,
 		1002
@@ -5970,6 +5971,23 @@ pg.base.memory_group = {
 			3485,
 			3486,
 			3487
+		}
+	},
+	[598] = {
+		id = 598,
+		subtype = 0,
+		icon = "title_chara_haitian",
+		type = 3,
+		link_event = 0,
+		title = "Set Sail! An Inspiration-Seeking Journey",
+		memories = {
+			3531,
+			3532,
+			3533,
+			3534,
+			3535,
+			3536,
+			3537
 		}
 	},
 	[1000] = {

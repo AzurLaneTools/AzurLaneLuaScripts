@@ -153106,7 +153106,7 @@ _G.pg.base.item_virtual_data_statistics[59349] = {
 }
 
 _G.pg.base.item_virtual_data_statistics[59350] = {
-	display = "\"The Pursuit of Little Spee event item. Removed after the event ends.\"",
+	display = "The Pursuit of Little Spee event item used to fully recruit Little Spee to your fleet. Removed after the event ends.",
 	name = "Info Pts",
 	max_num = 0,
 	type = 98,
@@ -156461,6 +156461,30 @@ _G.pg.base.item_virtual_data_statistics[59575] = {
 	is_world = 0,
 	icon = "props/music_stage1",
 	id = 59575,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[59576] = {
+	display = "The Pursuit of Little Spee event item used to fully recruit Little Spee to your fleet. Removed after the event ends.",
+	name = "Info Pts",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/little_spee_pt",
+	id = 59576,
 	order = 0,
 	display_icon = {},
 	price = {},

@@ -2199,6 +2199,8 @@ pg.skill_data_template = setmetatable({
 		1012940,
 		1005080,
 		1013000,
+		1010980,
+		1010660,
 		1090010,
 		1090020,
 		1090030,
@@ -142526,6 +142528,236 @@ When this ship's Main or Secondary Gun hits an enemy: $1 chance to increase this
 				},
 				{
 					"20.0%"
+				}
+			}
+		}
+	},
+	[1010980] = {
+		desc_get = "",
+		name = "AA Protection+",
+		id = 1010980,
+		type = 3,
+		max_level = 10,
+		desc = "While this ship is afloat: decreases your Main Fleet's DMG taken from aircraft by $1. When a ship in your fleet attacks with a Long Range AA Gun: every ship in your Vanguard recovers $2 of their max HP and this ship fires a $3 special barrage (DMG is based on the skill's level; 10s cooldown between activations).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5%",
+				"15%"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[1010660] = {
+		desc_get = "",
+		name = "Sniper+",
+		id = 1010660,
+		type = 1,
+		max_level = 10,
+		desc = "Every $1s: fires a $2 barrage that deals guaranteed Crit DMG to a random enemy, then fires this same barrage from your Flagship (barrage DMG is based on the skill's level and Scharnhorst's and your Flagship's FP stat, respectively; your Detection Gauge is not affected by this barrage).",
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {
+			{
+				{
+					"35",
+					"-2"
+				},
+				{
+					"33",
+					"-2"
+				},
+				{
+					"31",
+					"-2"
+				},
+				{
+					"29",
+					"-2"
+				},
+				{
+					"27",
+					"-2"
+				},
+				{
+					"25",
+					"-2"
+				},
+				{
+					"23",
+					"-2"
+				},
+				{
+					"21",
+					"-3"
+				},
+				{
+					"18",
+					"-3"
+				},
+				{
+					"15"
+				}
+			},
+			{
+				{
+					"Common"
+				},
+				{
+					"Common"
+				},
+				{
+					"Common"
+				},
+				{
+					"Common"
+				},
+				{
+					"Common"
+				},
+				{
+					"AP"
+				},
+				{
+					"AP"
+				},
+				{
+					"AP"
+				},
+				{
+					"AP"
+				},
+				{
+					"AP"
 				}
 			}
 		}

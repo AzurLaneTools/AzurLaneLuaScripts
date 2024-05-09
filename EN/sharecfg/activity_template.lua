@@ -15067,6 +15067,108 @@ pg.activity_template = {
 			bgm = "song-Alizarin-full-inst"
 		}
 	},
+	[5320] = {
+		mark = 20240509,
+		title_res_tag = "",
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		id = 5320,
+		config_data = {
+			20018
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					5,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			npc = {
+				"",
+				20018
+			}
+		}
+	},
+	[5321] = {
+		mark = 20240509,
+		id = 5321,
+		title_res_tag = "littlespee_pt",
+		type = 74,
+		login_pop = 0,
+		config_id = 5321,
+		is_show = 40,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					5,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					5,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "LittleSpeeRePage",
+			ui_name = "LittleSpeeRePage"
+		},
+		config_client = {
+			activateStory = "WEIJIAOXIAOSIPEIBOJUE2",
+			performStory = "51002",
+			story = {
+				{
+					"WEIJIAOXIAOSIPEIBOJUE1"
+				},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			}
+		}
+	},
 	[7011] = {
 		mark = 20230525,
 		id = 7011,
@@ -39601,6 +39703,8 @@ pg.activity_template = {
 		5315,
 		5316,
 		5317,
+		5320,
+		5321,
 		7011,
 		7012,
 		7013,
