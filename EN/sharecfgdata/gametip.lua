@@ -9632,19 +9632,19 @@ _G.pg.base.gametip.blueprint_max_level_tip = {
 }
 
 _G.pg.base.gametip.ship_profile_voice_locked_intimacy = {
-	tip = "Coming Soon"
+	tip = "Unlocks after reaching Affinity $1"
 }
 
 _G.pg.base.gametip.ship_profile_voice_locked_propose = {
-	tip = "Coming Soon"
+	tip = "Unlocks after Oath"
 }
 
 _G.pg.base.gametip.ship_profile_voice_locked_propose_imas = {
-	tip = "Coming Soon"
+	tip = "Unlocks after Oath"
 }
 
 _G.pg.base.gametip.ship_profile_voice_locked_design = {
-	tip = "Coming Soon"
+	tip = "Unlocks after reaching Development Level $1"
 }
 
 _G.pg.base.gametip.ship_profile_voice_locked_meta = {
