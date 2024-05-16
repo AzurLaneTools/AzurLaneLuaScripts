@@ -22688,7 +22688,7 @@ _G.pg.base.gametip.technology_detail = {
 }
 
 _G.pg.base.gametip.technology_mission_unfinish = {
-	tip = "Requirements Not Met"
+	tip = "<size=16>Requirements Not Met</size>"
 }
 
 _G.pg.base.gametip.word_chinese = {
