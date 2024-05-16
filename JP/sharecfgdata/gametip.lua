@@ -20238,6 +20238,10 @@ _G.pg.base.gametip.setting_resdownload_title_manga = {
 	tip = "1コマアセットDL"
 }
 
+_G.pg.base.gametip.setting_resdownload_title_dorm = {
+	tip = "交流アセット更新"
+}
+
 _G.pg.base.gametip.setting_resdownload_title_main_group = {
 	tip = "全アセットDL"
 }
@@ -27816,6 +27820,30 @@ _G.pg.base.gametip.senrankagura_backhill_help = {
 	}
 }
 
+_G.pg.base.gametip.dorm3d_furnitrue_type_wallpaper = {
+	tip = "墙纸"
+}
+
+_G.pg.base.gametip.dorm3d_furnitrue_type_floor = {
+	tip = "地板"
+}
+
+_G.pg.base.gametip.dorm3d_furnitrue_type_decoration = {
+	tip = "装饰"
+}
+
+_G.pg.base.gametip.dorm3d_furnitrue_type_bed = {
+	tip = "床"
+}
+
+_G.pg.base.gametip.dorm3d_furnitrue_type_couch = {
+	tip = "沙发"
+}
+
+_G.pg.base.gametip.dorm3d_furnitrue_type_table = {
+	tip = "桌子"
+}
+
 _G.pg.base.gametip.vote_lable_not_start = {
 	tip = "未開放"
 }
@@ -28679,4 +28707,76 @@ _G.pg.base.gametip.idol3rd_practice = {
 ンをタップすることで確認できます。]]
 		}
 	}
+}
+
+_G.pg.base.gametip.dorm3d_furniture_window_acesses = {
+	tip = "获取途径"
+}
+
+_G.pg.base.gametip.dorm3d_furniture_count = {
+	tip = "数量：$1"
+}
+
+_G.pg.base.gametip.dorm3d_furniture_used = {
+	tip = "<color=#00a3ef>[已摆放]</color>"
+}
+
+_G.pg.base.gametip.dorm3d_furniture_unfit = {
+	tip = "不可使用"
+}
+
+_G.pg.base.gametip.dorm3d_waiting = {
+	tip = "等待入住"
+}
+
+_G.pg.base.gametip.dorm3d_daily_favor = {
+	tip = "今日互动默契值"
+}
+
+_G.pg.base.gametip.dorm3d_favor_level = {
+	tip = "当前默契值等级："
+}
+
+_G.pg.base.gametip.dorm3d_time_choose = {
+	tip = "选择时间"
+}
+
+_G.pg.base.gametip.dorm3d_now_time = {
+	tip = "当前时间"
+}
+
+_G.pg.base.gametip.dorm3d_is_auto_time = {
+	tip = "随时间自动切换昼夜装扮"
+}
+
+_G.pg.base.gametip.dorm3d_clothing_choose = {
+	tip = "选择换装"
+}
+
+_G.pg.base.gametip.dorm3d_now_clothing = {
+	tip = "当前"
+}
+
+_G.pg.base.gametip.dorm3d_talk = {
+	tip = "对话"
+}
+
+_G.pg.base.gametip.dorm3d_touch = {
+	tip = "互动"
+}
+
+_G.pg.base.gametip.dorm3d_gift = {
+	tip = "赠礼"
+}
+
+_G.pg.base.gametip.dorm3d_gift_owner_num = {
+	tip = "数量："
+}
+
+_G.pg.base.gametip.liner_sign_cnt_tip = {
+	tip = "現在入手可能数"
+}
+
+_G.pg.base.gametip.liner_sign_unlock_tip = {
+	tip = "5.21メンテ後開放"
 }
