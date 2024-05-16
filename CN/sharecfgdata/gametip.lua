@@ -28224,3 +28224,11 @@ _G.pg.base.gametip.dorm3d_gift = {
 _G.pg.base.gametip.dorm3d_gift_owner_num = {
 	tip = "数量："
 }
+
+_G.pg.base.gametip.liner_sign_cnt_tip = {
+	tip = "剩余可签到次数："
+}
+
+_G.pg.base.gametip.liner_sign_unlock_tip = {
+	tip = "5.21维护后解锁"
+}
