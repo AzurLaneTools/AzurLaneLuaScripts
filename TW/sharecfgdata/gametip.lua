@@ -9738,7 +9738,7 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "海因里希親王 建造追加！"
+	tip = "俾斯麥、英王喬治五世 建造追加！"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
@@ -9746,7 +9746,7 @@ _G.pg.base.gametip.buildship_light_tip = {
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "彼得‧史特拉塞、威悉、U-37 建造追加！"
+	tip = "U-96、U-73、U-556 建造追加！"
 }
 
 _G.pg.base.gametip.open_skill_pos = {
