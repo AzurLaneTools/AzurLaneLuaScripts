@@ -8006,6 +8006,10 @@ The skill <color=#92fc63>Martyr</color> will change into <color=#92fc63>Martyr+<
 This ship's <color=#92fc63>All Out Assault</color> skill will be upgraded.]]
 }
 
+_G.pg.base.gametip.ship_remould_warning_105214 = {
+	tip = "Completing the retrofit will upgrade the skill <color=#92fc63>Big Seven</color> into <color=#92fc63>Big Seven - Colorado</color>."
+}
+
 _G.pg.base.gametip.ship_remould_warning_105234 = {
 	tip = "Completing the retrofit will upgrade this ship's <color=#92fc63>Big Seven</color> skill into\n<color=#92fc63>Big Seven - West Virginia</color>."
 }
@@ -10480,7 +10484,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Get Kronshtadt guaranteed with every 200 event builds (can be done up to 4 times)!"
+	tip = "Get Alsace guaranteed with every 200 event builds (can be done up to 4 times)!"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -10580,8 +10584,7 @@ counts towards Combat Data Collection.]]
 2. Complete all beginner, intermediate, and advanced
 missions to unlock challenge missions.
 3. Complete all challenge missions to advance to the next phase.
-4. After completing all missions, the Rookie Missions tab will
-disappear.]]
+4. After completing all missions, the Rookie Missions tab will disappear.]]
 		}
 	}
 }
@@ -12436,7 +12439,7 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "Event Description: \n"
 		},
 		{
-			info = "1. Focus your wishes upon one of the three permanent build categories — Light, Heavy, or Special builds — then choose one ship to wish for."
+			info = "1. Focus your wishes upon one of the three permanent build categories — Light, Heavy, or Special builds — then choose one ship to wish for. (Ultra Rare ships can only appear in Heavy or Special builds.)"
 		},
 		{
 			info = "2. The acquisition rate of each rarity is the same in the Wishing Well as it is for normal building:"
@@ -12445,19 +12448,19 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "Light Ships: <color=#ffde38>Super Rare</color>: 7%, <color=#d797ff>Elite</color>: 12%, <color=#3dc6ff>Rare</color>: 26%, Common: 55%"
 		},
 		{
-			info = "Heavy Ships: <color=#ffde38>Super Rare</color>: 7%, <color=#d797ff>Elite</color>: 12%, <color=#3dc6ff>Rare</color>: 51%, Common: 30%"
+			info = "Heavy Ships: <color=#ff5e39>Ultra Rare</color>: 1.2%, <color=#ffde38>Super Rare</color>: 7%, <color=#d797ff>Elite</color>: 12%, <color=#3dc6ff>Rare</color>: 51%, Common: 30%"
 		},
 		{
-			info = "Special Ships:<color=#ffde38>Super Rare</color>: 7%, <color=#d797ff>Elite</color>: 12%, <color=#3dc6ff>Rare</color>: 51%, Common: 30%"
+			info = "Special Ships: <color=#ff5e39>Ultra Rare</color>: 1.2%, <color=#ffde38>Super Rare</color>: 7%, <color=#d797ff>Elite</color>: 12%, <color=#3dc6ff>Rare</color>: 51%, Common: 30%"
 		},
 		{
 			info = "3. You can see a list of all ships available for construction in the Wishing Well."
 		},
 		{
-			info = "4. You may choose two ships on which to focus your wishes."
+			info = "4. You may choose two ships on which to focus your wishes. (You can only choose one Ultra Rare ship and any other Ultra Rare ship cannot be build in the Wishing Well.)"
 		},
 		{
-			info = "5. Only ships added to the normal building pool prior to July 13rd can hear your wishes."
+			info = "5. Only ships added to the normal building pool prior to March 20th can hear your wishes."
 		},
 		{
 			info = "6. Ships that have an unlock condition cannot hear your wishes, and will not appear in the Wishing Well."
@@ -12466,7 +12469,7 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "7. The acquisition rate of each ship in the Wishing Well varies according to differences in rarity."
 		},
 		{
-			info = "<color=#ffde38>Super Rare</color>: 2.0%, <color=#d797ff>Elite</color>: 2.5%, <color=#3dc6ff>Rare</color>: 2.5%, Common: 2.5%"
+			info = "<color=#ff5e39>Ultra Rare</color>: 1.2%, <color=#ffde38>Super Rare</color>: 2.0%, <color=#d797ff>Elite</color>: 2.5%, <color=#3dc6ff>Rare</color>: 2.5%, Common: 2.5%"
 		},
 		{
 			info = "8. Once you have chosen your two ships, you are ready to begin wishing."
@@ -12476,8 +12479,15 @@ _G.pg.base.gametip.pray_build_help = {
 		},
 		{
 			info = "10. Wishing Well build costs are the same as ordinary builds, as are build durations, which can be skipped with a Quick Finisher."
+		},
+		{
+			info = "11. Wishing Well builds count toward the standard UR Exchange following the same rules as other standard build pools."
 		}
 	}
+}
+
+_G.pg.base.gametip.pray_build_UR_warning = {
+	tip = "You may only select 1 shipgirl of UR rarity."
 }
 
 _G.pg.base.gametip.bismarck_award_tip = {
@@ -28501,6 +28511,14 @@ _G.pg.base.gametip.voting_page_reward = {
 	tip = "Claim"
 }
 
+_G.pg.base.gametip.backyard_shipAddInimacy_ships_ok = {
+	tip = "<color=#92fc63>$1 and others'</color> Affinity <color=#92fc63>increased</color>."
+}
+
+_G.pg.base.gametip.backyard_shipAddMoney_ships_ok = {
+	tip = "<color=#92fc63>$1 and others</color> made a surprising discovery! Decor Tokens <color=#92fc63>+$2</color>."
+}
+
 _G.pg.base.gametip.idol3rd_houshan = {
 	tip = {
 		{
@@ -28579,10 +28597,230 @@ If you're not sure what your current rehearsal level is, you can check it from t
 	}
 }
 
+_G.pg.base.gametip.main_silent_tip_1 = {
+	tip = "X fleets have returned from a commission."
+}
+
+_G.pg.base.gametip.main_silent_tip_2 = {
+	tip = "X shipgirls have returned from a commission."
+}
+
+_G.pg.base.gametip.main_silent_tip_3 = {
+	tip = "X research projects have been completed."
+}
+
+_G.pg.base.gametip.main_silent_tip_4 = {
+	tip = "X characters' skills leveled up."
+}
+
+_G.pg.base.gametip.commission_label_go = {
+	tip = "Confirm"
+}
+
+_G.pg.base.gametip.commission_label_finish = {
+	tip = "Complete"
+}
+
+_G.pg.base.gametip.commission_label_go_mellow = {
+	tip = "Confirm"
+}
+
+_G.pg.base.gametip.commission_label_finish_mellow = {
+	tip = "Complete"
+}
+
+_G.pg.base.gametip.commission_label_unlock_event_tip = {
+	tip = "Unlocks at Commander Level 12"
+}
+
+_G.pg.base.gametip.commission_label_unlock_tech_tip = {
+	tip = "Unlocks at Commander Level 30"
+}
+
+_G.pg.base.gametip.specialshipyard_tip = {
+	tip = "* META shipgirls go into your special dock and do not take up regular dock space."
+}
+
+_G.pg.base.gametip.specialshipyard_name = {
+	tip = "Special Dock:"
+}
+
 _G.pg.base.gametip.liner_sign_cnt_tip = {
 	tip = "Currently Obtainable:"
 }
 
 _G.pg.base.gametip.liner_sign_unlock_tip = {
 	tip = "Unlocks on 5/21"
+}
+
+_G.pg.base.gametip.liner_target_type1 = {
+	tip = "Fixed Event"
+}
+
+_G.pg.base.gametip.liner_target_type2 = {
+	tip = "Free Roam"
+}
+
+_G.pg.base.gametip.liner_target_type3 = {
+	tip = "Investigate Case"
+}
+
+_G.pg.base.gametip.liner_target_type4 = {
+	tip = "Return to Cabin"
+}
+
+_G.pg.base.gametip.liner_target_type5 = {
+	tip = "The pleasure cruise has ended."
+}
+
+_G.pg.base.gametip.liner_log_schedule_title = {
+	tip = "Cruise Schedule"
+}
+
+_G.pg.base.gametip.liner_log_room_title = {
+	tip = "Area Investigation Record"
+}
+
+_G.pg.base.gametip.liner_log_event_title = {
+	tip = "Investigate Case"
+}
+
+_G.pg.base.gametip.liner_schedule_award_tip1 = {
+	tip = "Day's Investigation Reward"
+}
+
+_G.pg.base.gametip.liner_schedule_award_tip2 = {
+	tip = "Day's Investigation Reward"
+}
+
+_G.pg.base.gametip.liner_room_award_tip = {
+	tip = "Area Investigation Reward"
+}
+
+_G.pg.base.gametip.liner_event_award_tip1 = {
+	tip = "There are still clues to be found. Search the area one more time!"
+}
+
+_G.pg.base.gametip.liner_log_event_group_title1 = {
+	tip = "Record - 1"
+}
+
+_G.pg.base.gametip.liner_log_event_group_title2 = {
+	tip = "Record - 2"
+}
+
+_G.pg.base.gametip.liner_log_event_group_title3 = {
+	tip = "Record - 3"
+}
+
+_G.pg.base.gametip.liner_log_event_group_title4 = {
+	tip = "Record - 4"
+}
+
+_G.pg.base.gametip.liner_event_award_tip2 = {
+	tip = "You have found all the clues."
+}
+
+_G.pg.base.gametip.liner_event_reasoning_title = {
+	tip = "Investigate Case"
+}
+
+_G.pg.base.gametip["7th_main_tip"] = {
+	tip = {
+		{
+			info = [[
+- Overview - 
+· The ""Pleasure, Leisure, and Treasure"" story event is available between <color=#92fc63>May 21st and June 12th.</color>
+· Explore the massive cruise ship and complete tasks on your cruise schedule to receive a <color=#92fc63>chat frame</color>, a <color=#92fc63>portrait</color>, an <color=#92fc63>event trophy</color>, and more!
+· You receive 1 minigame attempt every day until the 27th. Use these attempts to complete the Manjuu Plumbing minigame and receive Cruise Commemoration Tickets, which can be exchanged for an SR Invitation, and the UR Voucher which can be exchanged for the shipgirl Mogador.
+· You may claim your SR Invitation from its event banner. Mogador can be claimed from her event banner as well as the shop.
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.pipe_minigame_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/pipe_minigame",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.pipe_minigame_rank = {
+	tip = "Only Show Friends and Guildmates"
+}
+
+_G.pg.base.gametip.liner_event_award_tip3 = {
+	tip = "Based on all these clues, the answer is..."
+}
+
+_G.pg.base.gametip.liner_room_get_tip = {
+	tip = "Completed Investigations: $1"
+}
+
+_G.pg.base.gametip.liner_event_get_tip = {
+	tip = "Clues Obtained: $1"
+}
+
+_G.pg.base.gametip.liner_event_lock = {
+	tip = "Unlocked by talking to the Investigation Committee."
+}
+
+_G.pg.base.gametip.liner_event_title1 = {
+	tip = "Clue 1"
+}
+
+_G.pg.base.gametip.liner_event_title2 = {
+	tip = "Clue 2"
+}
+
+_G.pg.base.gametip.liner_event_title3 = {
+	tip = "Clue 3"
+}
+
+_G.pg.base.gametip.liner_help = {
+	tip = ""
+}
+
+_G.pg.base.gametip.liner_activity_lock = {
+	tip = "Unlocked by completing the Before the Voyage event."
+}
+
+_G.pg.base.gametip.liner_name_modify = {
+	tip = "Your cruise ship's name has been changed."
+}
+
+_G.pg.base.gametip.UrExchange_Pt_NotEnough = {
+	tip = "You don't have enough exchange points."
+}
+
+_G.pg.base.gametip.UrExchange_Pt_charges = {
+	tip = "($1 times remaining)"
+}
+
+_G.pg.base.gametip.UrExchange_Pt_help = {
+	tip = {
+		{
+			info = "The exchange rules on the event page are the same as in the event shop.\nThe UR ship can only be redeemed 2 times in total during the event. \nThe first time requires 200 UR Vouchers, and the second time requires 300 UR Vouchers."
+		}
+	}
 }

@@ -14073,6 +14073,36 @@ _G.pg.base.item_data_statistics[21032] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[21033] = {
+	open_directly = 0,
+	name = "META Crystal – Béarn META",
+	display = "An item that increases the potential of Béarn META. Used in the META Lab during Somatic Activation.",
+	type = 4,
+	display_effect = "",
+	id = 21033,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "Props/21033",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "Crystallized Heat-Resistant Steel",
@@ -23050,6 +23080,251 @@ _G.pg.base.item_data_statistics[30355] = {
 		1,
 		7000
 	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30356] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Cruise)",
+	display = "Contains a random gear skin.",
+	type = 11,
+	display_effect = "",
+	id = 30356,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/appearanceboxyoulun",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30356",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			970,
+			1
+		},
+		{
+			9,
+			971,
+			1
+		},
+		{
+			9,
+			972,
+			1
+		},
+		{
+			9,
+			973,
+			1
+		},
+		{
+			9,
+			974,
+			1
+		},
+		{
+			9,
+			975,
+			1
+		},
+		{
+			9,
+			976,
+			1
+		},
+		{
+			9,
+			977,
+			1
+		},
+		{
+			9,
+			978,
+			1
+		},
+		{
+			9,
+			979,
+			1
+		},
+		{
+			9,
+			980,
+			1
+		},
+		{
+			9,
+			981,
+			1
+		},
+		{
+			9,
+			982,
+			1
+		},
+		{
+			9,
+			983,
+			1
+		},
+		{
+			9,
+			984,
+			1
+		},
+		{
+			9,
+			985,
+			1
+		},
+		{
+			9,
+			986,
+			1
+		},
+		{
+			9,
+			987,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[30357] = {
+	open_directly = 1,
+	name = "Random Gear Skin Box (Cruise)",
+	display = "Contains a random gear skin.",
+	type = 13,
+	display_effect = "",
+	id = 30357,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "Props/equipskin_drop_display",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			970,
+			1
+		},
+		{
+			9,
+			971,
+			1
+		},
+		{
+			9,
+			972,
+			1
+		},
+		{
+			9,
+			973,
+			1
+		},
+		{
+			9,
+			974,
+			1
+		},
+		{
+			9,
+			975,
+			1
+		},
+		{
+			9,
+			976,
+			1
+		},
+		{
+			9,
+			977,
+			1
+		},
+		{
+			9,
+			978,
+			1
+		},
+		{
+			9,
+			979,
+			1
+		},
+		{
+			9,
+			980,
+			1
+		},
+		{
+			9,
+			981,
+			1
+		},
+		{
+			9,
+			982,
+			1
+		},
+		{
+			9,
+			983,
+			1
+		},
+		{
+			9,
+			984,
+			1
+		},
+		{
+			9,
+			985,
+			1
+		},
+		{
+			9,
+			986,
+			1
+		},
+		{
+			9,
+			987,
+			1
+		}
+	},
+	price = {},
 	index = {},
 	shiptrans_id = {},
 	combination_display = {}
@@ -32283,6 +32558,218 @@ _G.pg.base.item_data_statistics[30539] = {
 	}
 }
 
+_G.pg.base.item_data_statistics[30540] = {
+	open_directly = 0,
+	name = "Selection Gear Skin Box (Cruise)",
+	display = "Can be opened to receive 1 Cruise gear skin of your choosing.",
+	type = 13,
+	display_effect = "",
+	id = 30540,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	link_id = 0,
+	icon = "Props/appearanceboxyoulunzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			970,
+			1
+		},
+		{
+			9,
+			971,
+			1
+		},
+		{
+			9,
+			972,
+			1
+		},
+		{
+			9,
+			973,
+			1
+		},
+		{
+			9,
+			974,
+			1
+		},
+		{
+			9,
+			975,
+			1
+		},
+		{
+			9,
+			976,
+			1
+		},
+		{
+			9,
+			977,
+			1
+		},
+		{
+			9,
+			978,
+			1
+		},
+		{
+			9,
+			979,
+			1
+		},
+		{
+			9,
+			980,
+			1
+		},
+		{
+			9,
+			981,
+			1
+		},
+		{
+			9,
+			982,
+			1
+		},
+		{
+			9,
+			983,
+			1
+		},
+		{
+			9,
+			984,
+			1
+		},
+		{
+			9,
+			985,
+			1
+		},
+		{
+			9,
+			986,
+			1
+		},
+		{
+			9,
+			987,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			970,
+			1
+		},
+		{
+			9,
+			971,
+			1
+		},
+		{
+			9,
+			972,
+			1
+		},
+		{
+			9,
+			973,
+			1
+		},
+		{
+			9,
+			974,
+			1
+		},
+		{
+			9,
+			975,
+			1
+		},
+		{
+			9,
+			976,
+			1
+		},
+		{
+			9,
+			977,
+			1
+		},
+		{
+			9,
+			978,
+			1
+		},
+		{
+			9,
+			979,
+			1
+		},
+		{
+			9,
+			980,
+			1
+		},
+		{
+			9,
+			981,
+			1
+		},
+		{
+			9,
+			982,
+			1
+		},
+		{
+			9,
+			983,
+			1
+		},
+		{
+			9,
+			984,
+			1
+		},
+		{
+			9,
+			985,
+			1
+		},
+		{
+			9,
+			986,
+			1
+		},
+		{
+			9,
+			987,
+			1
+		}
+	}
+}
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "Universal T4 Part",
@@ -39043,7 +39530,7 @@ _G.pg.base.item_data_statistics[40926] = {
 	replace_item = 0,
 	usage = "usage_drop",
 	link_id = 0,
-	icon = "Props/liheus6lf",
+	icon = "Props/lihecn6ss",
 	order = 0,
 	rarity = 4,
 	max_num = 0,
@@ -87504,6 +87991,289 @@ _G.pg.base.item_data_statistics[60466] = {
 	}
 }
 
+_G.pg.base.item_data_statistics[60491] = {
+	open_directly = 0,
+	name = "Early Summer Invitation 2024",
+	display = "Use to get an SR shipgirl of your choice and a commemorative item.",
+	type = 21,
+	display_effect = "",
+	id = 60491,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_invitation",
+	link_id = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		2501,
+		2502,
+		2503,
+		2504,
+		2505,
+		2506,
+		2507,
+		2508
+	},
+	open_ui = {
+		"login_year",
+		"t_seventh"
+	}
+}
+
+_G.pg.base.item_data_statistics[60492] = {
+	open_directly = 0,
+	name = "Illustrious's Gift (Early Summer 2024)",
+	display = "A seasonal greetings card from Illustrious.",
+	type = 1,
+	display_effect = "",
+	id = 60492,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60493] = {
+	open_directly = 0,
+	name = "Tosas Gift (Early Summer 2024)",
+	display = "A seasonal greetings card from Tosa.",
+	type = 1,
+	display_effect = "",
+	id = 60493,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60494] = {
+	open_directly = 0,
+	name = "Amagi's Gift (Early Summer 2024)",
+	display = "A seasonal greetings card from Amagi.",
+	type = 1,
+	display_effect = "",
+	id = 60494,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60495] = {
+	open_directly = 0,
+	name = "Sirius's Gift (Early Summer 2024)",
+	display = "A seasonal greetings card from Sirius.",
+	type = 1,
+	display_effect = "",
+	id = 60495,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60496] = {
+	open_directly = 0,
+	name = "Chapayev's Gift (Early Summer 2024)",
+	display = "A seasonal greetings card from Chapayev.",
+	type = 1,
+	display_effect = "",
+	id = 60496,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60497] = {
+	open_directly = 0,
+	name = "Tashkent's Gift (Early Summer 2024)",
+	display = "A seasonal greetings card from Tashkent.",
+	type = 1,
+	display_effect = "",
+	id = 60497,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60498] = {
+	open_directly = 0,
+	name = "Graf Zeppelin's Gift (Early Summer 2024)",
+	display = "A seasonal greetings card from Graf Zeppelin.",
+	type = 1,
+	display_effect = "",
+	id = 60498,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[60499] = {
+	open_directly = 0,
+	name = "Prinz Heinrich's Gift (Early Summer 2024)",
+	display = "A seasonal greetings card from Prinz Heinrich.",
+	type = 1,
+	display_effect = "",
+	id = 60499,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[69959] = {
 	open_directly = 0,
 	name = "Mystery T5 Tech Pack",
@@ -87767,6 +88537,72 @@ _G.pg.base.item_data_statistics[81203] = {
 		{
 			1,
 			4,
+			2024
+		},
+		{
+			2,
+			42056,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[81204] = {
+	open_directly = 1,
+	name = "Swimsuit Lucky Bag 2024",
+	display = "Contains 1 summer 2024 swimsuit skin, 2024 Gems, 50 Cognitive Chips, 20 Wisdom Cubes, 2 Special General Blueprints - Series 6, 10 Quick Finishers, and 100 Decor Tokens.",
+	type = 17,
+	display_effect = "",
+	id = 81204,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/fudai13",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998304",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86204,
+			1
+		},
+		{
+			1,
+			14,
 			2024
 		},
 		{
