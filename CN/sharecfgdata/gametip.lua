@@ -7386,6 +7386,10 @@ _G.pg.base.gametip.ship_remould_warning_102304 = {
 	tip = "此次改造操作后<color=#92fc63>【主炮底座+1】</color>\n<color=#92fc63>【战争之殇】</color>技能将升级为<color=#92fc63>【战争之殇·改】</color>\n<color=#92fc63>【全弹发射II】</color>技能将升级为<color=#92fc63>【全弹发射III】</color>"
 }
 
+_G.pg.base.gametip.ship_remould_warning_105214 = {
+	tip = "此次改造操作后<color=#92fc63>【BIG SEVEN】</color>技能\n将升级为<color=#92fc63>【BIG SEVEN·科罗拉多】</color>"
+}
+
 _G.pg.base.gametip.ship_remould_warning_105234 = {
 	tip = "此次改造操作后<color=#92fc63>【BIG SEVEN】</color>技能\n将升级为<color=#92fc63>【BIG SEVEN·西弗吉尼亚】</color>"
 }
@@ -10136,7 +10140,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累计建造200次可获得海上传奇舰船 喀琅施塔得(最多4次)"
+	tip = "每累计建造200次可获得海上传奇舰船 阿尔萨斯(最多4次)"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -12092,13 +12096,13 @@ _G.pg.base.gametip.returner_help = {
 
 被邀请者：
 回归指挥官：
-在2023年9月1日至9月14日维护期间没有过登录行为的
+在2024年5月7日至5月21日维护期间没有过登录行为的
 指挥官
 新人指挥官：
-在2023年9月14日至10月4日23:59期间新注册的指挥官
+在2024年5月21日至6月13日维护期间新注册的指挥官
 满足被邀请资格的指挥官在活动期间登录可在特别活动页内输入邀请者的UID参与活动
 邀请者：
-2023年9月1日至9月14日维护前有过登录行为的指挥官
+2024年5月7日至5月21日维护前有过登录行为的指挥官
 邀请者可以使用自己的UID邀请满足被邀请资格的指挥官参与活动
 召集指挥官：
 单个邀请者最多可邀请两位指挥官，在其完成专属任务后可获得集结积分。召集信号发布后还可以解锁邀请者专属任务，完成任务后也可获得集结积分。集结积分达到指定数值后可以获得丰富奖励。
@@ -12159,19 +12163,19 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "轻型建造:<color=#ffde38>超稀有</color>:7%  <color=#d797ff>精锐</color>:12%  <color=#3dc6ff>稀有</color>:26%  普通:55%"
 		},
 		{
-			info = "重型建造:<color=#ffde38>超稀有</color>:7%  <color=#d797ff>精锐</color>:12%  <color=#3dc6ff>稀有</color>:51%  普通:30%"
+			info = "重型建造:<color=#ff5e39>海上传奇舰船</color>：1.2%  <color=#ffde38>超稀有舰船</color>：7%  <color=#d797ff>精锐舰船</color>：12%  <color=#3dc6ff>稀有舰船</color>：51%  普通舰船：28.8%"
 		},
 		{
-			info = "特型建造:<color=#ffde38>超稀有</color>:7%  <color=#d797ff>精锐</color>:12%  <color=#3dc6ff>稀有</color>:51%  普通:30%"
+			info = "特型建造:<color=#ff5e39>海上传奇舰船</color>：1.2%  <color=#ffde38>超稀有舰船</color>：7%  <color=#d797ff>精锐舰船</color>：12%  <color=#3dc6ff>稀有舰船</color>：51%  普通舰船：28.8%"
 		},
 		{
-			info = "3.构建时指挥官可以查看该建造中所有可出现角色列表"
+			info = "3.构建时指挥官可以查看该建造中所有可出现角色列表，仅有重型建造及特型建造内包含<color=#ff5e39>海上传奇舰船</color>角色"
 		},
 		{
-			info = "4.指挥官可以从中选择2名角色作为祈愿角色"
+			info = "4.指挥官可以从中选择2名角色作为祈愿角色，其中仅能最多选择1名<color=#ff5e39>海上传奇舰船</color>角色"
 		},
 		{
-			info = "5.可选名单仅包含7月13日前常驻加入对应建造的角色"
+			info = "5.可选名单仅包含3月21日前常驻加入对应建造的角色"
 		},
 		{
 			info = "6.有建造解锁条件的角色无法被选为祈愿角色，\n不会在祈愿建造中出现。"
@@ -12180,7 +12184,7 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "7.所选祈愿角色的建造概率因稀有度差异而有所不同"
 		},
 		{
-			info = "<color=#ffde38>超稀有</color>:2.0%  <color=#d797ff>精锐</color>:2.5%  <color=#3dc6ff>稀有</color>:2.5%  普通:2.5%"
+			info = "<color=#ff5e39>海上传奇舰船</color>：1.2%  <color=#ffde38>超稀有</color>:2.0%  <color=#d797ff>精锐</color>:2.5%  <color=#3dc6ff>稀有</color>:2.5%  普通:2.5%"
 		},
 		{
 			info = "8.选择完2名角色后，才算构建祈愿建造成功"
@@ -12190,8 +12194,15 @@ _G.pg.base.gametip.pray_build_help = {
 		},
 		{
 			info = "10.祈愿建造的消耗与所选建造的消耗相同建造后的\n角色进入队列等待，可以使用快速完成工具"
+		},
+		{
+			info = "11.进行祈愿建造也可以积累常驻UR兑换点数"
 		}
 	}
+}
+
+_G.pg.base.gametip.pray_build_UR_warning = {
+	tip = "仅能最多选择1名<color=#ff5e39>海上传奇舰船</color>角色"
 }
 
 _G.pg.base.gametip.bismarck_award_tip = {
@@ -28099,6 +28110,14 @@ _G.pg.base.gametip.voting_page_reward = {
 	tip = "点击领取"
 }
 
+_G.pg.base.gametip.backyard_shipAddInimacy_ships_ok = {
+	tip = "<color=#92fc63>$1等舰船</color>亲密度<color=#92fc63>提高</color> "
+}
+
+_G.pg.base.gametip.backyard_shipAddMoney_ships_ok = {
+	tip = "<color=#92fc63>$1等舰船</color>有了意外的发现，家具币<color=#92fc63>+$2</color> "
+}
+
 _G.pg.base.gametip.idol3rd_houshan = {
 	tip = {
 		{
@@ -28225,10 +28244,252 @@ _G.pg.base.gametip.dorm3d_gift_owner_num = {
 	tip = "数量："
 }
 
+_G.pg.base.gametip.main_silent_tip_1 = {
+	tip = "支舰队已归航  "
+}
+
+_G.pg.base.gametip.main_silent_tip_2 = {
+	tip = "艘新船建造完毕 "
+}
+
+_G.pg.base.gametip.main_silent_tip_3 = {
+	tip = "个军部研究完成 "
+}
+
+_G.pg.base.gametip.main_silent_tip_4 = {
+	tip = "名角色学习完毕 "
+}
+
+_G.pg.base.gametip.commission_label_go = {
+	tip = "前 往"
+}
+
+_G.pg.base.gametip.commission_label_finish = {
+	tip = "完 成"
+}
+
+_G.pg.base.gametip.commission_label_go_mellow = {
+	tip = "前往"
+}
+
+_G.pg.base.gametip.commission_label_finish_mellow = {
+	tip = "完成"
+}
+
+_G.pg.base.gametip.commission_label_unlock_event_tip = {
+	tip = "指挥官等级达到Lv.12后开发"
+}
+
+_G.pg.base.gametip.commission_label_unlock_tech_tip = {
+	tip = "指挥官等级达到Lv.30后开发"
+}
+
+_G.pg.base.gametip.specialshipyard_tip = {
+	tip = "*META阵营舰船进入特殊船坞，不占用船坞容量"
+}
+
+_G.pg.base.gametip.specialshipyard_name = {
+	tip = "特殊船坞："
+}
+
 _G.pg.base.gametip.liner_sign_cnt_tip = {
 	tip = "剩余可签到次数："
 }
 
 _G.pg.base.gametip.liner_sign_unlock_tip = {
 	tip = "5.21维护后解锁"
+}
+
+_G.pg.base.gametip.liner_target_type1 = {
+	tip = "度假时光"
+}
+
+_G.pg.base.gametip.liner_target_type2 = {
+	tip = "自由探索"
+}
+
+_G.pg.base.gametip.liner_target_type3 = {
+	tip = "神秘事件调查"
+}
+
+_G.pg.base.gametip.liner_target_type4 = {
+	tip = "前往指挥官船舱休息"
+}
+
+_G.pg.base.gametip.liner_target_type5 = {
+	tip = "邮轮之旅已完成"
+}
+
+_G.pg.base.gametip.liner_log_schedule_title = {
+	tip = "·航行日程表"
+}
+
+_G.pg.base.gametip.liner_log_room_title = {
+	tip = "·区域探索记录"
+}
+
+_G.pg.base.gametip.liner_log_event_title = {
+	tip = "·神秘事件调查"
+}
+
+_G.pg.base.gametip.liner_schedule_award_tip1 = {
+	tip = "当日日程完成奖励"
+}
+
+_G.pg.base.gametip.liner_schedule_award_tip2 = {
+	tip = "当日日程完成奖励"
+}
+
+_G.pg.base.gametip.liner_room_award_tip = {
+	tip = "区域探索收集奖励"
+}
+
+_G.pg.base.gametip.liner_event_award_tip1 = {
+	tip = "线索尚未全部收集,前往指定区域收集线索"
+}
+
+_G.pg.base.gametip.liner_log_event_group_title1 = {
+	tip = "记录·一"
+}
+
+_G.pg.base.gametip.liner_log_event_group_title2 = {
+	tip = "记录·二"
+}
+
+_G.pg.base.gametip.liner_log_event_group_title3 = {
+	tip = "记录·三"
+}
+
+_G.pg.base.gametip.liner_log_event_group_title4 = {
+	tip = "记录·四"
+}
+
+_G.pg.base.gametip.liner_event_award_tip2 = {
+	tip = "线索已全部收集 "
+}
+
+_G.pg.base.gametip.liner_event_reasoning_title = {
+	tip = "神秘事件调查"
+}
+
+_G.pg.base.gametip["7th_main_tip"] = {
+	tip = {
+		{
+			info = [[
+活动规则：
+·<color=#92fc63>5.21-6.13维护</color>期间开启限时活动「假日！心跳！大邮轮！」
+·指挥官可以通过邮轮探索，完成航海日志，获得限定<color=#92fc63>头像框</color>、<color=#92fc63>聊天气泡</color>、<color=#92fc63>纪念章</color>等奖励
+·5.27为止，每日可获得一次「啾啾水管工」游戏次数，参与游戏可获取「假日邮轮纪念票」与「审判庭事件报告书」
+·累计7张「假日邮轮纪念票」可获得限定道具<color=#92fc63>「7th庆典邀请函」</color>
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.pipe_minigame_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/pipe_minigame",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.pipe_minigame_rank = {
+	tip = "仅显示好友和大舰队成员"
+}
+
+_G.pg.base.gametip.liner_event_award_tip3 = {
+	tip = "鉴于以上线索，我认为本次事件的真相是："
+}
+
+_G.pg.base.gametip.liner_room_get_tip = {
+	tip = "已探索区域：$1"
+}
+
+_G.pg.base.gametip.liner_event_get_tip = {
+	tip = "已获得$1"
+}
+
+_G.pg.base.gametip.liner_event_lock = {
+	tip = "完成剧情「调查小队，成立！」后解锁"
+}
+
+_G.pg.base.gametip.liner_event_title1 = {
+	tip = "线索一"
+}
+
+_G.pg.base.gametip.liner_event_title2 = {
+	tip = "线索二"
+}
+
+_G.pg.base.gametip.liner_event_title3 = {
+	tip = "线索三"
+}
+
+_G.pg.base.gametip.liner_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/2024liner",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.liner_activity_lock = {
+	tip = "完成「于启航之前」后可解锁航海日志功能"
+}
+
+_G.pg.base.gametip.liner_name_modify = {
+	tip = "邮轮名称修改成功"
+}
+
+_G.pg.base.gametip.UrExchange_Pt_NotEnough = {
+	tip = "Pt不足，无法进行兑换"
+}
+
+_G.pg.base.gametip.UrExchange_Pt_charges = {
+	tip = "（剩余$1次）"
+}
+
+_G.pg.base.gametip.UrExchange_Pt_help = {
+	tip = {
+		{
+			info = "该页面兑换规则与活动PT商店完全相同，兑换同时生效。\n即可兑换UR角色，在活动中累计只能被兑换2次。\n第一次兑需要200点高级PT、第二次兑换需要300点高级PT。"
+		}
+	}
 }
