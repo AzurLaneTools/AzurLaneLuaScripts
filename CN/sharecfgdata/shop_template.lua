@@ -10360,7 +10360,7 @@ _G.pg.base.shop_template[60496] = {
 	resource_type = 14,
 	genre = "gift_package",
 	type = 2,
-	desc = "880钻石购买限时建造补给(μ兵装三期版本)",
+	desc = "880钻石购买限时建造补给(阿尔萨斯版本)",
 	group_limit = 0,
 	group_buy_count = 0,
 	tag = 2,
@@ -10416,7 +10416,7 @@ _G.pg.base.shop_template[60497] = {
 	resource_type = 14,
 	genre = "gift_package",
 	type = 2,
-	desc = "120钻石购买限时攻略补给(μ兵装三期版本)",
+	desc = "120钻石购买限时攻略补给(阿尔萨斯版本)",
 	group_limit = 0,
 	group_buy_count = 0,
 	tag = 2,
@@ -10472,7 +10472,7 @@ _G.pg.base.shop_template[60498] = {
 	resource_type = 14,
 	genre = "gift_package",
 	type = 2,
-	desc = "500钻石购买家具币礼包(μ兵装三期版本)",
+	desc = "500钻石购买家具币礼包(阿尔萨斯版本)",
 	group_limit = 0,
 	group_buy_count = 0,
 	tag = 2,
@@ -10528,7 +10528,7 @@ _G.pg.base.shop_template[60499] = {
 	resource_type = 14,
 	genre = "gift_package",
 	type = 2,
-	desc = "300钻石购买心智单元礼包(μ兵装三期版本)",
+	desc = "300钻石购买心智单元礼包(阿尔萨斯版本)",
 	group_limit = 0,
 	group_buy_count = 0,
 	tag = 2,
@@ -28855,6 +28855,7 @@ _G.pg.base.shop_template[70364] = {
 	limit_args2 = "",
 	type_order = 0,
 	order = 10,
+	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -28865,32 +28866,6 @@ _G.pg.base.shop_template[70364] = {
 	limit_args = {},
 	effect_args = {
 		202125
-	},
-	time = {
-		{
-			{
-				2024,
-				5,
-				21
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2024,
-				5,
-				26
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
