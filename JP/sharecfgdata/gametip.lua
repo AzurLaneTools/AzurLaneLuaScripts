@@ -7965,6 +7965,10 @@ _G.pg.base.gametip.ship_remould_warning_102304 = {
 	tip = "改造を行うと<color=#92fc63>【主砲砲座+1】</color>\nスキル<color=#92fc63>【戦争の悲劇】</color>が<color=#92fc63>【戦争の悲劇·改】</color>に変化\nスキル<color=#92fc63>【全弾発射II】</color>が<color=#92fc63>【全弾発射III】に変化</color>"
 }
 
+_G.pg.base.gametip.ship_remould_warning_105214 = {
+	tip = "改造（近代化改修）すると、スキル\n<color=#92fc63>【BIG SEVEN】</color>はスキル<color=#92fc63>【BIG SEVEN·コロラド】</color>に強化される"
+}
+
 _G.pg.base.gametip.ship_remould_warning_105234 = {
 	tip = "改造(近代化改修)終了後、スキル<color=#92fc63>【BIG SEVEN】</color>が\n<color=#92fc63>【BIG SEVEN·ウェストバージニア】</color>に強化される"
 }
@@ -10373,7 +10377,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "期間限定建造を累計200回行うと「クロンシュタット」を確定で入手可能！（最大4隻まで）"
+	tip = "限定建造を累計200回行うと「アルザス」が確定で入手可能！（最大4回まで）"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -12310,7 +12314,7 @@ _G.pg.base.gametip.returner_help = {
 「カムバックミッション」とは、指揮官のログイン状況に応じて「現役指揮官」「カムバック・新人指揮官」に分類され、それぞれ違う報酬を入手できるイベントとなります。
 ■「現役指揮官」「カムバック・新人指揮官」について
 下記の条件を満たした指揮官は「現役指揮官」として分類され、「現役指揮官」専用の目標を達成することで報酬を入手できます。
-・2023年9月14日（木）～10月4日（水）23:59までに一度でもログインしたことがある上記の条件を満たしていない場合は「カムバック・新人指揮官」として、専用任務をクリアすることで報酬を入手することができます。
+・2024年5月7日（火）～5月21日（火）23:59までに一度でもログインしたことがある上記の条件を満たしていない場合は「カムバック・新人指揮官」として、専用任務をクリアすることで報酬を入手することができます。
 自分が「現役指揮官」「カムバック指揮官」のどちらに属しているか不明な場合は、カムバックミッションのバナーに表示される内容をご確認ください。
 ■現役指揮官の目標について
 現役指揮官は最大2人の友達に「カムバックミッション」に参加してもらうことができ、友達が専用任務をクリアすると、自分に「カムバックPt」が加算されます。
@@ -12355,44 +12359,38 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "イベント説明：\n"
 		},
 		{
-			info = [[
-「選べる特別建造」とは、常設三種類の通常建造から一
-つをベースに、特定の艦船を選択し、その艦船がピック
-アップ（出現率UP）状態にする特殊の建造システムに
-なります。]]
+			info = "「選べる特別建造」とは、常設三種類の通常建造から一つをベースに、特定の艦船を選択し、その艦船をピックアップ（出現率UP）状態にする特別な建造システムになります。"
 		},
 		{
-			info = "1.「小型艦建造」「大型艦建造」「特型艦建造」から一\nつを選ぶことで、特別建造のベースになります"
+			info = "1.「小型艦建造」「大型艦建造」「特型艦建造」から一つを選ぶことで、特別建造のベースになります。（UR艦船は「大型艦建造」「特型艦建造」にしか出現しません）"
 		},
 		{
-			info = [[
-2.同建造で出現する艦船から2種類を選び「ピックアッ
-プ状態」（出現率がUPする状態）にできます
-<color=#FF5C5C>（※2023年7月12日まで常設建造した艦しか出現し
-ません）</color>]]
+			info = "2.同建造で出現する艦船から2種類を選び「ピックアップ状態」（出現率がUPする状態）にできます<color=#FF5C5C>（※2023年7月12日までに常設建造になった艦しか出現しません。また、UR艦船を選択した場合、選ばれなかったUR艦船は建造から出現しません）</color>"
+		},
+		{
+			info = "3.「選べる特別建造」において「ピックアップ」に選ばれた艦船の出現率は、レアリティに応じて下記となります\n<color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>...2%  <color=#、、d797ff>SR</color>...2.5%  <color=#3dc6ff>R...2.5%</color>  N...2.5%"
 		},
 		{
 			info = [[
-3.「選べる特別建造」において「ピックアップ」に選ば
-れた艦船の出現率は、レアリティに応じて下記の通り
-です
-<color=#ffde38>SSR</color>...2%  <color=#、、d797ff>SR</color>...2.5%  <color=#3dc6ff>R...2.5%</color>  N...2.5%]]
-		},
-		{
-			info = [[
-4.「選べる特別建造」の艦船のレアリティ別出現率は
-通常建造同様、下記となります：
+4.「選べる特別建造」の艦船のレアリティ別出現率は通常建造同様、下記となります：
 <color=#FF5C5C>小型艦建造</color> <color=#ffde38>SSR</color>..7%  <color=#d797ff>SR</color>..12% <color=#3dc6ff>R</color>..26%  N..55% 
-<color=#FF5C5C>大型艦建造</color> <color=#ffde38>SSR</color>..7%  <color=#d797ff>SR</color>..12%  <color=#3dc6ff>R</color>..51%  N..30% 
-<color=#FF5C5C>特型艦建造</color> <color=#ffde38>SSR</color>..7%  <color=#d797ff>SR</color>..12%  <color=#3dc6ff>R</color>..51%  N..30%]]
+<color=#FF5C5C>大型艦建造</color> <color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>..7%  <color=#d797ff>SR</color>..12%  <color=#3dc6ff>R</color>..51%  N..30% 
+<color=#FF5C5C>特型艦建造</color>  <color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>..7%  <color=#d797ff>SR</color>..12%  <color=#3dc6ff>R</color>..51%  N..30%]]
 		},
 		{
-			info = "5.ベースとなる通常建造とピックアップ艦船を確定した\n後は「選べる特別建造」の内容の変更はできません"
+			info = "5.ベースとなる通常建造とピックアップ艦船を確定した後は「選べる特別建造」の内容の変更はできません"
 		},
 		{
-			info = "6.「選べる特別建造」は通常建造同様に最大で2隻まで\nしか同時に建造できませんが、建造時間は高速建造材に\nよって短縮させることができます"
+			info = "6.「選べる特別建造」は通常建造同様に最大で2隻までしか同時に建造できませんが、建造時間は高速建造材によって短縮させることができます"
+		},
+		{
+			info = "7.「選べる特別建造」は通常建造同様に建造時に使用されるキューブ数に応じて、通常建造におけるUR艦船交換時の回数にカウントされます"
 		}
 	}
+}
+
+_G.pg.base.gametip.pray_build_UR_warning = {
+	tip = "UR艦船は1隻までしか選択できません"
 }
 
 _G.pg.base.gametip.bismarck_award_tip = {
@@ -28624,6 +28622,14 @@ _G.pg.base.gametip.voting_page_reward = {
 	tip = "受け取り"
 }
 
+_G.pg.base.gametip.backyard_shipAddInimacy_ships_ok = {
+	tip = "<color=#92fc63>$1たち</color>の親密度が<color=#92fc63>アップ</color>しました"
+}
+
+_G.pg.base.gametip.backyard_shipAddMoney_ships_ok = {
+	tip = "<color=#92fc63>$1たち/color>は意外な発見をしました！家具コイン<color=#92fc63>+$2</color>"
+}
+
 _G.pg.base.gametip.idol3rd_houshan = {
 	tip = {
 		{
@@ -28773,10 +28779,230 @@ _G.pg.base.gametip.dorm3d_gift_owner_num = {
 	tip = "数量："
 }
 
+_G.pg.base.gametip.main_silent_tip_1 = {
+	tip = "個の艦隊が委託を完了し帰還しました"
+}
+
+_G.pg.base.gametip.main_silent_tip_2 = {
+	tip = "隻の艦船の建造が完了しました"
+}
+
+_G.pg.base.gametip.main_silent_tip_3 = {
+	tip = "個の科学研究が完了しました"
+}
+
+_G.pg.base.gametip.main_silent_tip_4 = {
+	tip = "名のキャラのスキル強化が完了しました"
+}
+
+_G.pg.base.gametip.commission_label_go = {
+	tip = "確認"
+}
+
+_G.pg.base.gametip.commission_label_finish = {
+	tip = "完成"
+}
+
+_G.pg.base.gametip.commission_label_go_mellow = {
+	tip = "確認"
+}
+
+_G.pg.base.gametip.commission_label_finish_mellow = {
+	tip = "完成"
+}
+
+_G.pg.base.gametip.commission_label_unlock_event_tip = {
+	tip = "指揮官Lv.12で開放"
+}
+
+_G.pg.base.gametip.commission_label_unlock_tech_tip = {
+	tip = "指揮官Lv.30で開放"
+}
+
+_G.pg.base.gametip.specialshipyard_tip = {
+	tip = "*「META」艦船は「特殊ドック」に格納され、ドック容量に含まれません"
+}
+
+_G.pg.base.gametip.specialshipyard_name = {
+	tip = "特殊ドック："
+}
+
 _G.pg.base.gametip.liner_sign_cnt_tip = {
 	tip = "現在入手可能数"
 }
 
 _G.pg.base.gametip.liner_sign_unlock_tip = {
 	tip = "5.21メンテ後開放"
+}
+
+_G.pg.base.gametip.liner_target_type1 = {
+	tip = "固定イベント"
+}
+
+_G.pg.base.gametip.liner_target_type2 = {
+	tip = "自由探索"
+}
+
+_G.pg.base.gametip.liner_target_type3 = {
+	tip = "異常事件調査"
+}
+
+_G.pg.base.gametip.liner_target_type4 = {
+	tip = "自室に戻る"
+}
+
+_G.pg.base.gametip.liner_target_type5 = {
+	tip = "バカンスが終了しました"
+}
+
+_G.pg.base.gametip.liner_log_schedule_title = {
+	tip = "航海日誌"
+}
+
+_G.pg.base.gametip.liner_log_room_title = {
+	tip = "エリア調査記録"
+}
+
+_G.pg.base.gametip.liner_log_event_title = {
+	tip = "異常事件調査"
+}
+
+_G.pg.base.gametip.liner_schedule_award_tip1 = {
+	tip = "当日探索完了報酬"
+}
+
+_G.pg.base.gametip.liner_schedule_award_tip2 = {
+	tip = "当日探索完了報酬"
+}
+
+_G.pg.base.gametip.liner_room_award_tip = {
+	tip = "エリア探索完了報酬"
+}
+
+_G.pg.base.gametip.liner_event_award_tip1 = {
+	tip = "手がかりはまだ残っています。エリアを探索し手がかりを手に入れよう！"
+}
+
+_G.pg.base.gametip.liner_log_event_group_title1 = {
+	tip = "記録・①"
+}
+
+_G.pg.base.gametip.liner_log_event_group_title2 = {
+	tip = "記録・②"
+}
+
+_G.pg.base.gametip.liner_log_event_group_title3 = {
+	tip = "記録・③"
+}
+
+_G.pg.base.gametip.liner_log_event_group_title4 = {
+	tip = "記録・④"
+}
+
+_G.pg.base.gametip.liner_event_award_tip2 = {
+	tip = "手がかりを全部集めました。"
+}
+
+_G.pg.base.gametip.liner_event_reasoning_title = {
+	tip = "異常事件調査"
+}
+
+_G.pg.base.gametip["7th_main_tip"] = {
+	tip = {
+		{
+			info = [[
+遊び方：
+·<color=#92fc63>5.21-6.13メンテまで</color>探検ストーリーイベント「トキメク休日大航海」が開催！
+ ·クルーズ船を探索し、航海日誌が完成すると報酬<color=#92fc63>チャットフレーム</color>、<color=#92fc63>チャットアイコン</color>、<color=#92fc63>記念章</color>などを入手可能
+ ·5.27まで毎日ミニゲーム回数が1回追加！回数を所持している状態でミニゲーム「饅頭配管工」をクリアすると、SSR招待状と引き換えるアイテム「クルーズ記念チケット」とUR艦船交換アイテム「URチケット」を入手可能
+ ·SSR招待状アイテムはイベントの該当バナーにて入手可能。UR艦船はショップと該当バナーにて交換可能
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.pipe_minigame_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/pipe_minigame",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.pipe_minigame_rank = {
+	tip = "友達と大艦隊メンバーのみ表示"
+}
+
+_G.pg.base.gametip.liner_event_award_tip3 = {
+	tip = "これらの手がかりが導き出した事件の真相は――"
+}
+
+_G.pg.base.gametip.liner_room_get_tip = {
+	tip = "探索済み：$1"
+}
+
+_G.pg.base.gametip.liner_event_get_tip = {
+	tip = "手がかり入手：$1"
+}
+
+_G.pg.base.gametip.liner_event_lock = {
+	tip = "ブリストルたちの調査隊参加後に開放"
+}
+
+_G.pg.base.gametip.liner_event_title1 = {
+	tip = "手がかり①"
+}
+
+_G.pg.base.gametip.liner_event_title2 = {
+	tip = "手がかり②"
+}
+
+_G.pg.base.gametip.liner_event_title3 = {
+	tip = "手がかり③"
+}
+
+_G.pg.base.gametip.liner_help = {
+	tip = "なし"
+}
+
+_G.pg.base.gametip.liner_activity_lock = {
+	tip = "「出航の前準備」クリアで開放"
+}
+
+_G.pg.base.gametip.liner_name_modify = {
+	tip = "クルーズ名変更に成功しました"
+}
+
+_G.pg.base.gametip.UrExchange_Pt_NotEnough = {
+	tip = "交換用のPtアイテムが不足しています"
+}
+
+_G.pg.base.gametip.UrExchange_Pt_charges = {
+	tip = "（残り$1回）"
+}
+
+_G.pg.base.gametip.UrExchange_Pt_help = {
+	tip = {
+		{
+			info = "イベントバナーでの交換とイベントショップと同様にカウントされます。\n合計で2回のみ交換できます。\n1回目：URチケット×200；2回目：300URチケット×300。"
+		}
+	}
 }
