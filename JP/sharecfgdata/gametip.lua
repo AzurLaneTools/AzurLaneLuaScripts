@@ -12374,8 +12374,8 @@ _G.pg.base.gametip.pray_build_help = {
 			info = [[
 4.「選べる特別建造」の艦船のレアリティ別出現率は通常建造同様、下記となります：
 <color=#FF5C5C>小型艦建造</color> <color=#ffde38>SSR</color>..7%  <color=#d797ff>SR</color>..12% <color=#3dc6ff>R</color>..26%  N..55% 
-<color=#FF5C5C>大型艦建造</color> <color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>..7%  <color=#d797ff>SR</color>..12%  <color=#3dc6ff>R</color>..51%  N..30% 
-<color=#FF5C5C>特型艦建造</color>  <color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>..7%  <color=#d797ff>SR</color>..12%  <color=#3dc6ff>R</color>..51%  N..30%]]
+<color=#FF5C5C>大型艦建造</color> <color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>..7%  <color=#d797ff>SR</color>..12%  <color=#3dc6ff>R</color>..51%  N..28.8% 
+<color=#FF5C5C>特型艦建造</color>  <color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>..7%  <color=#d797ff>SR</color>..12%  <color=#3dc6ff>R</color>..51%  N..28.8%]]
 		},
 		{
 			info = "5.ベースとなる通常建造とピックアップ艦船を確定した後は「選べる特別建造」の内容の変更はできません"
