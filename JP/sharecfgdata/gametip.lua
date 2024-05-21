@@ -12365,7 +12365,7 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "1.「小型艦建造」「大型艦建造」「特型艦建造」から一つを選ぶことで、特別建造のベースになります。（UR艦船は「大型艦建造」「特型艦建造」にしか出現しません）"
 		},
 		{
-			info = "2.同建造で出現する艦船から2種類を選び「ピックアップ状態」（出現率がUPする状態）にできます<color=#FF5C5C>（※2023年7月12日までに常設建造になった艦しか出現しません。また、UR艦船を選択した場合、選ばれなかったUR艦船は建造から出現しません）</color>"
+			info = "2.同建造で出現する艦船から2種類を選び「ピックアップ状態」（出現率がUPする状態）にできます<color=#FF5C5C>（※2024年3月20日までに常設建造になった艦しか出現しません。また、UR艦船を選択した場合、選ばれなかったUR艦船は建造から出現しません）</color>"
 		},
 		{
 			info = "3.「選べる特別建造」において「ピックアップ」に選ばれた艦船の出現率は、レアリティに応じて下記となります\n<color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>...2%  <color=#、、d797ff>SR</color>...2.5%  <color=#3dc6ff>R...2.5%</color>  N...2.5%"
@@ -28627,7 +28627,7 @@ _G.pg.base.gametip.backyard_shipAddInimacy_ships_ok = {
 }
 
 _G.pg.base.gametip.backyard_shipAddMoney_ships_ok = {
-	tip = "<color=#92fc63>$1たち/color>は意外な発見をしました！家具コイン<color=#92fc63>+$2</color>"
+	tip = "<color=#92fc63>$1たち</color>は意外な発見をしました！家具コイン<color=#92fc63>+$2</color>"
 }
 
 _G.pg.base.gametip.idol3rd_houshan = {
@@ -28980,7 +28980,29 @@ _G.pg.base.gametip.liner_event_title3 = {
 }
 
 _G.pg.base.gametip.liner_help = {
-	tip = "なし"
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/2024liner",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
 }
 
 _G.pg.base.gametip.liner_activity_lock = {
