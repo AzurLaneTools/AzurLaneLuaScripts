@@ -25754,7 +25754,7 @@ _G.pg.base.gametip["7th_main_tip"] = {
 		{
 			info = [[
 活動規則：
-·<color=#92fc63>5.21-6.13維護</color>期間開啟限時活動「假期！心跳！大郵輪！」
+·<color=#92fc63>5.23-6.13維護</color>期間開啟限時活動「假期！心跳！大郵輪！」
 ·指揮官可以透過郵輪探索，完成航海日誌，獲得限定<color=#92fc63>頭像框</color>、<color=#92fc63>聊天氣泡</color>、<color=#92fc63>紀念章</color>等獎勵
 ·5.27為止，每日可獲得一次「啾啾水管工」遊戲次數，參與遊戲可取得「假日郵輪紀念票」與「審判庭事件報告書」
 ·累計7張「假期郵輪紀念票」可獲得限定道具<color=# 92fc63>「2024慶典邀請函」</color>
@@ -25848,11 +25848,11 @@ _G.pg.base.gametip.liner_help = {
 }
 
 _G.pg.base.gametip.liner_activity_lock = {
-	tip = "郵輪名稱修改成功"
+	tip = "完成「於啟航之前」後可解鎖航海日誌功能"
 }
 
 _G.pg.base.gametip.liner_name_modify = {
-	tip = "郵輪之旅已完成"
+	tip = "郵輪名稱修改成功"
 }
 
 _G.pg.base.gametip.UrExchange_Pt_NotEnough = {
