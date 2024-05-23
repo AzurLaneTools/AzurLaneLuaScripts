@@ -7285,6 +7285,10 @@ _G.pg.base.gametip.ship_remould_warning_205124 = {
 	tip = "此次改造操作將消耗<color=#A9F548>戰士的心得</color>\n是否確認繼續操作？"
 }
 
+_G.pg.base.gametip.ship_remould_warning_205154 = {
+	tip = "此次改造操作後<color=#92fc63>【BIG SEVEN】</color>技能\n將升級為<color=#92fc63>【BIG SEVEN·納爾遜】</color>"
+}
+
 _G.pg.base.gametip.ship_remould_warning_206134 = {
 	tip = "此次改造操作後<color=#92fc63>【所有戰鬥機+1】</color>，\n<color=#92fc63>【支援空母】</color>技能\n將升級為<color=#92fc63>【獨角獸的應援】</color>是否確認繼續操作？"
 }
@@ -9734,7 +9738,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 }
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累計建造200次可獲得海上傳奇艦船島風(最多4次)"
+	tip = "每累計建造200次可獲得海上傳奇艦船俾斯麥Zwei(最多4次)"
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
@@ -11672,6 +11676,10 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "10.祈願建造的消耗與所選建造的消耗相同建造後的\n角色進入隊列等待，可以使用快速完成工具"
 		}
 	}
+}
+
+_G.pg.base.gametip.pray_build_UR_warning = {
+	tip = "僅能最多選擇1名<color=#ff5e39>海上傳奇艦船</color>角色"
 }
 
 _G.pg.base.gametip.bismarck_award_tip = {
@@ -22962,6 +22970,46 @@ _G.pg.base.gametip.battle_text_yingxiv4_10 = {
 	tip = "戰爭騎士陷入了<color=#f1f102>癱瘓狀態</color>，艦隊可以隨意開火"
 }
 
+_G.pg.base.gametip.battle_text_bisimaiz_1 = {
+	tip = "目前空間侵蝕等級為<color=#92fc63>0</color>"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_2 = {
+	tip = "目前空間侵蝕等級為<color=#f1f102>1</color>"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_3 = {
+	tip = "目前空間侵蝕等級為<color=#f1f102>2</color>"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_4 = {
+	tip = "目前空間侵蝕等級為<color=#ffc038>3</color>"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_5 = {
+	tip = "目前空間侵蝕等級為<color=#ffc038>4</color>"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_6 = {
+	tip = "目前空間侵蝕等級為<color=#ff5c5c>5</color>"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_7 = {
+	tip = "革律翁成功完成淨化，目前空間侵蝕等級變成<color=#92fc63>0</color>"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_8 = {
+	tip = "「<color=#ffc038>嵌載結合</color>」-革律翁擁有<color=#f1f102>高額防禦</color>並替{namecode:435}承受部分傷害"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_9 = {
+	tip = "「<color=#92fc63>艦裝分離</color>」-革律翁的<color=#f1f102>防禦大幅下降</color>，請盡快將其擊破！"
+}
+
+_G.pg.base.gametip.battle_text_bisimaiz_10 = {
+	tip = "革律翁已被擊破——等等，偵測到強烈的<color=#ffc038>META</color>化波動！"
+}
+
 _G.pg.base.gametip.series_enemy_mood = {
 	tip = "心情不足"
 }
@@ -23672,6 +23720,10 @@ _G.pg.base.gametip.meta_class_t_level_3 = {
 
 _G.pg.base.gametip.meta_class_t_level_4 = {
 	tip = "搖曳之火"
+}
+
+_G.pg.base.gametip.meta_class_t_level_5 = {
+	tip = "湮燼之核"
 }
 
 _G.pg.base.gametip.meta_shop_exchange_limit_tip = {
@@ -24573,8 +24625,32 @@ _G.pg.base.gametip.racing_minigame_help = {
 	}
 }
 
+_G.pg.base.gametip.word_month = {
+	tip = "湮燼之核"
+}
+
+_G.pg.base.gametip.word_which_month = {
+	tip = "月"
+}
+
+_G.pg.base.gametip.word_which_week = {
+	tip = "第$1月"
+}
+
+_G.pg.base.gametip.word_in_one_week = {
+	tip = "第$1週"
+}
+
+_G.pg.base.gametip.word_week_title = {
+	tip = "一週內"
+}
+
+_G.pg.base.gametip.word_harbour = {
+	tip = "星期"
+}
+
 _G.pg.base.gametip.levelscene_deploy_submarine = {
-	tip = "確認部署"
+	tip = "港區"
 }
 
 _G.pg.base.gametip.levelscene_deploy_submarine_cancel = {
@@ -25473,6 +25549,34 @@ _G.pg.base.gametip.help_chunjie2024 = {
 	}
 }
 
+_G.pg.base.gametip.word_week_day1 = {
+	tip = "星期一"
+}
+
+_G.pg.base.gametip.word_week_day2 = {
+	tip = "星期二"
+}
+
+_G.pg.base.gametip.word_week_day3 = {
+	tip = "星期三"
+}
+
+_G.pg.base.gametip.word_week_day4 = {
+	tip = "星期四"
+}
+
+_G.pg.base.gametip.word_week_day5 = {
+	tip = "星期五"
+}
+
+_G.pg.base.gametip.word_week_day6 = {
+	tip = "星期六"
+}
+
+_G.pg.base.gametip.word_week_day7 = {
+	tip = "星期日"
+}
+
 _G.pg.base.gametip.skin_shop_buy_confirm = {
 	tip = "是否使用<color=$1>$2鑽石</color>購買<color=#92fc63FF>$3</color>"
 }
@@ -25507,4 +25611,262 @@ _G.pg.base.gametip.vote_2023_reward_word_3 = {
 
 _G.pg.base.gametip.voting_page_reward = {
 	tip = "領取"
+}
+
+_G.pg.base.gametip.backyard_shipAddInimacy_ships_ok = {
+	tip = "<color=#92fc63>$1等艦船</color>親密度<color=#92fc63>提高</color>"
+}
+
+_G.pg.base.gametip.backyard_shipAddMoney_ships_ok = {
+	tip = "<color=#92fc63>$1等艦船</color>有了意外的發現，傢俱幣<color=#92fc63>+$2</color>"
+}
+
+_G.pg.base.gametip.main_silent_tip_1 = {
+	tip = "隻艦隊已歸航"
+}
+
+_G.pg.base.gametip.main_silent_tip_2 = {
+	tip = "新船建造完畢"
+}
+
+_G.pg.base.gametip.main_silent_tip_3 = {
+	tip = "個軍部研究完成"
+}
+
+_G.pg.base.gametip.main_silent_tip_4 = {
+	tip = "名角色學習完畢"
+}
+
+_G.pg.base.gametip.commission_label_go = {
+	tip = "前 往"
+}
+
+_G.pg.base.gametip.commission_label_finish = {
+	tip = "完 成"
+}
+
+_G.pg.base.gametip.commission_label_go_mellow = {
+	tip = "前往"
+}
+
+_G.pg.base.gametip.commission_label_finish_mellow = {
+	tip = "完成"
+}
+
+_G.pg.base.gametip.commission_label_unlock_event_tip = {
+	tip = "指揮官等級達到Lv.12後開發"
+}
+
+_G.pg.base.gametip.commission_label_unlock_tech_tip = {
+	tip = "指揮官等級達到Lv.30後開發"
+}
+
+_G.pg.base.gametip.specialshipyard_tip = {
+	tip = "*META陣營艦船進入特殊船塢，不佔用船塢容量"
+}
+
+_G.pg.base.gametip.specialshipyard_name = {
+	tip = "特殊船塢："
+}
+
+_G.pg.base.gametip.liner_sign_cnt_tip = {
+	tip = "剩餘簽到次數："
+}
+
+_G.pg.base.gametip.liner_sign_unlock_tip = {
+	tip = "5.23維護後解鎖"
+}
+
+_G.pg.base.gametip.liner_target_type1 = {
+	tip = "固定行程"
+}
+
+_G.pg.base.gametip.liner_target_type2 = {
+	tip = "自由探索"
+}
+
+_G.pg.base.gametip.liner_target_type3 = {
+	tip = "神秘事件調查"
+}
+
+_G.pg.base.gametip.liner_target_type4 = {
+	tip = "前往指揮官船艙休息"
+}
+
+_G.pg.base.gametip.liner_target_type5 = {
+	tip = "郵輪之旅已完成"
+}
+
+_G.pg.base.gametip.liner_log_schedule_title = {
+	tip = "航行日程表"
+}
+
+_G.pg.base.gametip.liner_log_room_title = {
+	tip = "區域探索紀錄"
+}
+
+_G.pg.base.gametip.liner_log_event_title = {
+	tip = "神秘事件調查"
+}
+
+_G.pg.base.gametip.liner_schedule_award_tip1 = {
+	tip = "當日日程完成獎勵"
+}
+
+_G.pg.base.gametip.liner_schedule_award_tip2 = {
+	tip = "當日日程完成獎勵"
+}
+
+_G.pg.base.gametip.liner_room_award_tip = {
+	tip = "區域探索收集獎勵"
+}
+
+_G.pg.base.gametip.liner_event_award_tip1 = {
+	tip = "線索尚未全部收集,前往指定區域收集線索"
+}
+
+_G.pg.base.gametip.liner_log_event_group_title1 = {
+	tip = "紀錄·一"
+}
+
+_G.pg.base.gametip.liner_log_event_group_title2 = {
+	tip = "紀錄·二"
+}
+
+_G.pg.base.gametip.liner_log_event_group_title3 = {
+	tip = "紀錄·三"
+}
+
+_G.pg.base.gametip.liner_log_event_group_title4 = {
+	tip = "紀錄·四"
+}
+
+_G.pg.base.gametip.liner_event_award_tip2 = {
+	tip = "線索已全部收集"
+}
+
+_G.pg.base.gametip.liner_event_reasoning_title = {
+	tip = "神秘事件調查"
+}
+
+_G.pg.base.gametip["7th_main_tip"] = {
+	tip = {
+		{
+			info = [[
+活動規則：
+·<color=#92fc63>5.21-6.13維護</color>期間開啟限時活動「假期！心跳！大郵輪！」
+·指揮官可以透過郵輪探索，完成航海日誌，獲得限定<color=#92fc63>頭像框</color>、<color=#92fc63>聊天氣泡</color>、<color=#92fc63>紀念章</color>等獎勵
+·5.27為止，每日可獲得一次「啾啾水管工」遊戲次數，參與遊戲可取得「假日郵輪紀念票」與「審判庭事件報告書」
+·累計7張「假期郵輪紀念票」可獲得限定道具<color=# 92fc63>「2024慶典邀請函」</color>
+]]
+		}
+	}
+}
+
+_G.pg.base.gametip.pipe_minigame_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/pipe_minigame",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.pipe_minigame_rank = {
+	tip = "僅顯示好友和大艦隊成員"
+}
+
+_G.pg.base.gametip.liner_event_award_tip3 = {
+	tip = "鑑於以上線索，我認為本事件的真相是："
+}
+
+_G.pg.base.gametip.liner_room_get_tip = {
+	tip = "已探索區域：$1"
+}
+
+_G.pg.base.gametip.liner_event_get_tip = {
+	tip = "已獲得：$1"
+}
+
+_G.pg.base.gametip.liner_event_lock = {
+	tip = "完成劇情「調查小隊，成立！」後解鎖"
+}
+
+_G.pg.base.gametip.liner_event_title1 = {
+	tip = "線索一"
+}
+
+_G.pg.base.gametip.liner_event_title2 = {
+	tip = "線索二"
+}
+
+_G.pg.base.gametip.liner_event_title3 = {
+	tip = "線索三"
+}
+
+_G.pg.base.gametip.liner_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/2024liner",
+				path = ""
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		defaultpage = 1,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+_G.pg.base.gametip.liner_activity_lock = {
+	tip = "郵輪名稱修改成功"
+}
+
+_G.pg.base.gametip.liner_name_modify = {
+	tip = "郵輪之旅已完成"
+}
+
+_G.pg.base.gametip.UrExchange_Pt_NotEnough = {
+	tip = "Pt不足，无法进行兑换"
+}
+
+_G.pg.base.gametip.UrExchange_Pt_charges = {
+	tip = "（剩余$1次）"
+}
+
+_G.pg.base.gametip.UrExchange_Pt_help = {
+	tip = {
+		{
+			info = "该页面兑换规则与活动PT商店完全相同，兑换同时生效。\n即可兑换UR角色，在活动中累计只能被兑换2次。\n第一次兑需要200点高级PT、第二次兑换需要300点高级PT。"
+		}
+	}
 }
