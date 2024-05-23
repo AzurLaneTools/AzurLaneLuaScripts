@@ -19519,6 +19519,10 @@ _G.pg.base.gametip.setting_resdownload_title_manga = {
 	tip = "만화 리소스 업데이트"
 }
 
+_G.pg.base.gametip.setting_resdownload_title_dorm = {
+	tip = "숙소 리소스 업데이트"
+}
+
 _G.pg.base.gametip.setting_resdownload_title_main_group = {
 	tip = "풀 리소스 업데이트"
 }

@@ -157818,6 +157818,30 @@ _G.pg.base.item_virtual_data_statistics[59575] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_virtual_data_statistics[59576] = {
+	display = "用于「“围剿”{namecode:459}」复刻活动提升角色好感，活动结束后将会消失",
+	name = "情报点",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/little_spee_pt",
+	id = 59576,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_virtual_data_statistics[59601] = {
 	display = "미카사 콜렉션 - 구축함 프라모델-카와카제",
 	name = "프라모델-카와카제",
