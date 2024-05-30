@@ -2680,6 +2680,158 @@ _G.pg.base.gametip.mail_confirm_cancel_important_flag = {
 	tip = "Unmark as important"
 }
 
+_G.pg.base.gametip.mail_mail_page = {
+	tip = "Mail"
+}
+
+_G.pg.base.gametip.mail_storeroom_page = {
+	tip = "Storage"
+}
+
+_G.pg.base.gametip.mail_boxroom_page = {
+	tip = "Archive"
+}
+
+_G.pg.base.gametip.mail_all_page = {
+	tip = "All"
+}
+
+_G.pg.base.gametip.mail_important_page = {
+	tip = "Important"
+}
+
+_G.pg.base.gametip.mail_rare_page = {
+	tip = "Special"
+}
+
+_G.pg.base.gametip.mail_reward_got = {
+	tip = "Claimed"
+}
+
+_G.pg.base.gametip.mail_reward_tips = {
+	tip = "* Any attached Oil and Coins will be sent to your Storage."
+}
+
+_G.pg.base.gametip.mail_boxroom_extend_title = {
+	tip = "Expand Storage"
+}
+
+_G.pg.base.gametip.mail_boxroom_extend_tips = {
+	tip = "Storage Capacity Increase"
+}
+
+_G.pg.base.gametip.mail_buy_button = {
+	tip = "Buy"
+}
+
+_G.pg.base.gametip.mail_manager_title = {
+	tip = "Manage Mail"
+}
+
+_G.pg.base.gametip.mail_manager_tips_2 = {
+	tip = "* Any attached Oil and Coins will be sent to your Storage."
+}
+
+_G.pg.base.gametip.mail_manager_all = {
+	tip = "All Attached Items"
+}
+
+_G.pg.base.gametip.mail_manager_rare = {
+	tip = "Mail Containing Only These Items"
+}
+
+_G.pg.base.gametip.mail_get_oneclick = {
+	tip = "Batch Claim"
+}
+
+_G.pg.base.gametip.mail_read_oneclick = {
+	tip = "Batch Read"
+}
+
+_G.pg.base.gametip.mail_delete_oneclick = {
+	tip = "Batch Delete"
+}
+
+_G.pg.base.gametip.mail_search_new = {
+	tip = "Tap to Search"
+}
+
+_G.pg.base.gametip.mail_receive_time = {
+	tip = "Received At"
+}
+
+_G.pg.base.gametip.mail_move_oneclick = {
+	tip = "Batch Move"
+}
+
+_G.pg.base.gametip.mail_deleteread_button = {
+	tip = "Delete Read"
+}
+
+_G.pg.base.gametip.mail_manage_button = {
+	tip = "Manage Mail"
+}
+
+_G.pg.base.gametip.mail_move_button = {
+	tip = "Batch Move"
+}
+
+_G.pg.base.gametip.mail_delet_button = {
+	tip = "Delete"
+}
+
+_G.pg.base.gametip.mail_moveone_button = {
+	tip = "Move Mail"
+}
+
+_G.pg.base.gametip.mail_getone_button = {
+	tip = "Claim Rewards"
+}
+
+_G.pg.base.gametip.mail_take_all_mail_msgbox = {
+	tip = "* Would you like to claim the items of all selected mail?"
+}
+
+_G.pg.base.gametip.mail_take_maildetail_msgbox = {
+	tip = "Mail Details"
+}
+
+_G.pg.base.gametip.mail_take_canget_msgbox = {
+	tip = "You will obtain the following:"
+}
+
+_G.pg.base.gametip.mail_getbox_title = {
+	tip = "Claim Mail"
+}
+
+_G.pg.base.gametip.mail_title_new = {
+	tip = "Mail"
+}
+
+_G.pg.base.gametip.mail_boxtitle_information = {
+	tip = "Info"
+}
+
+_G.pg.base.gametip.mail_box_confirm = {
+	tip = "Confirm"
+}
+
+_G.pg.base.gametip.mail_box_cancel = {
+	tip = "Cancel"
+}
+
+_G.pg.base.gametip.mail_title_English = {
+	tip = "Mailbox"
+}
+
+_G.pg.base.gametip.mail_toggle_on = {
+	tip = "On"
+}
+
+_G.pg.base.gametip.mail_toggle_off = {
+	tip = "Off"
+}
+
 _G.pg.base.gametip.main_mailLayer_mailBoxClear = {
 	tip = "Mailbox has been cleared"
 }
@@ -2701,7 +2853,11 @@ _G.pg.base.gametip.main_mailLayer_attachTaken = {
 }
 
 _G.pg.base.gametip.main_mailLayer_quest_clear = {
-	tip = "Are you sure you want to delete all read mails? <color=#92fc63>(Mail with rewards will not be deleted)</color>"
+	tip = "Would you like to delete all your read mail? <color=#238c40>(Mail with unclaimed items will not be deleted.)</color>"
+}
+
+_G.pg.base.gametip.main_mailLayer_quest_clear_choice = {
+	tip = "Would you like to delete all your selected mail? <color=#238c40>(Mail with unclaimed items will not be deleted.)</color>"
 }
 
 _G.pg.base.gametip.main_mailLayer_quest_deleteNotTakeAttach = {
@@ -2718,6 +2874,14 @@ _G.pg.base.gametip.main_mailMediator_mailDelete = {
 
 _G.pg.base.gametip.main_mailMediator_attachTaken = {
 	tip = "Rewards collected"
+}
+
+_G.pg.base.gametip.main_mailMediator_mailread = {
+	tip = "Your mail has been set to read."
+}
+
+_G.pg.base.gametip.main_mailMediator_mailmove = {
+	tip = "Your mail was moved to your Archive."
 }
 
 _G.pg.base.gametip.main_mailMediator_notingToTake = {
@@ -8988,7 +9152,7 @@ _G.pg.base.gametip.take_nothing = {
 }
 
 _G.pg.base.gametip.take_all_mail = {
-	tip = "Are you sure you want to collect <color=#92fc63>$1 rewards</color> from mail?\nYou will receive: "
+	tip = "Would you like to claim the items of all selected mail? \nYou will obtain the following items:"
 }
 
 _G.pg.base.gametip.buy_furniture_overtime = {
@@ -12320,11 +12484,155 @@ _G.pg.base.gametip.index_rare6 = {
 }
 
 _G.pg.base.gametip.warning_mail_max_1 = {
-	tip = "Your mailbox has almost reached its capacity of (<color=#FF5C5C>$1</color>/1,000.) Please check your mail!"
+	tip = "Your mailbox is nearing its capacity (<color=#FF5C5C>$1</color>/$2). Please manage it before you run out of space."
 }
 
 _G.pg.base.gametip.warning_mail_max_2 = {
 	tip = "Your mailbox is full!"
+}
+
+_G.pg.base.gametip.warning_mail_max_3 = {
+	tip = "Your mailbox is full (<color=#FF5C5C>$1</color>/100) and you cannot receive new mail. Please manage your mailbox."
+}
+
+_G.pg.base.gametip.warning_mail_max_4 = {
+	tip = "Your mailbox is full (<color=#FF5C5C>$1</color>/100) and you cannot receive any new mail. Would you like to close your inbox?"
+}
+
+_G.pg.base.gametip.warning_mail_max_5 = {
+	tip = "* You cannot receive new mail once you reach the capacity."
+}
+
+_G.pg.base.gametip.mail_moveto_markroom_1 = {
+	tip = "Would you like to move your mail to your <color=#238c40>Archive</color>? \nMoving your mail will automatically claim any attached items."
+}
+
+_G.pg.base.gametip.mail_moveto_markroom_2 = {
+	tip = "Would you like to move your important mail to your <color=#238c40>Archive</color>? \nMoving your mail will automatically claim any attached items."
+}
+
+_G.pg.base.gametip.mail_moveto_markroom_max = {
+	tip = "Your <color=#92fc63>Archive</color> has reached its mail capacity. You cannot move any more mail."
+}
+
+_G.pg.base.gametip.mail_markroom_delete = {
+	tip = "Would you like to fully delete the mail <color=#238c40>\"$1\"</color>?"
+}
+
+_G.pg.base.gametip.mail_markroom_tip = {
+	tip = "* The capacity is influenced by your Commander Level."
+}
+
+_G.pg.base.gametip.mail_manage_1 = {
+	tip = "All"
+}
+
+_G.pg.base.gametip.mail_manage_2 = {
+	tip = "Mail Containing Only These Items"
+}
+
+_G.pg.base.gametip.mail_manage_3 = {
+	tip = "No mail found meeting these conditions."
+}
+
+_G.pg.base.gametip.mail_manage_tip_1 = {
+	tip = "* Batch delete will only delete mail whose rewards you've already claimed."
+}
+
+_G.pg.base.gametip.mail_storeroom_tips = {
+	tip = "* Attached Coins and Oil will be moved to your Storage."
+}
+
+_G.pg.base.gametip.mail_storeroom_noextend = {
+	tip = "Your Storage has reached its holding capacity. You cannot expand it any further."
+}
+
+_G.pg.base.gametip.mail_storeroom_extend = {
+	tip = "Storage Capacity Increase:"
+}
+
+_G.pg.base.gametip.mail_storeroom_extend_1 = {
+	tip = "Storage expanded."
+}
+
+_G.pg.base.gametip.mail_storeroom_taken_1 = {
+	tip = "Resources claimed."
+}
+
+_G.pg.base.gametip.mail_storeroom_max_1 = {
+	tip = "Your Storage has reached its holding capacity. The following resources will be discarded. \nContinue?"
+}
+
+_G.pg.base.gametip.mail_storeroom_max_2 = {
+	tip = "Please input <color=#238c40>$1</color> to continue."
+}
+
+_G.pg.base.gametip.mail_storeroom_addgold = {
+	tip = "Stockpiled Coins:"
+}
+
+_G.pg.base.gametip.mail_storeroom_addoil = {
+	tip = "Stockpiled Oil:"
+}
+
+_G.pg.base.gametip.mail_search = {
+	tip = "Tap to Write"
+}
+
+_G.pg.base.gametip.mail_storeroom_resourcetaken = {
+	tip = "Claim Resources"
+}
+
+_G.pg.base.gametip.resource_max_tip_storeroom = {
+	tip = "You have reached your resource capacity."
+}
+
+_G.pg.base.gametip.mail_tip = {
+	tip = {
+		{
+			info = [[
+<color=#92fc63>- Mailbox Overview -</color>
+1. Your mailbox capacity is 100 mail (this includes mail marked as important or special).
+2. You can batch manage your mail and display mail matching certain criteria: 
+· Batch read: all your displayed mail will be set to already read. 
+· Batch claim: claims the attached items from all your displayed mail (Oil and Coins will be sent to your Storage). 
+· Batch delete: deletes all your displayed mail if their rewards have been claimed. 
+3. You can categorize mail by marking ordinary mail as important. Important mail won't be deleted with Batch Delete.
+4. Mail containing rewards other than Coins, Oil, Merits, or Wisdom Cubes are given the "special" category. 
+
+<color=#92fc63>- Storage -</color>
+1. Coins and Oil, unlike other items claimed via mail, are saved in your Storage. 
+2. You can claim your resources from the Storage at any time. 
+
+<color=#92fc63>- Archive -</color>
+1. You can batch move mail to your Archive. When moving mail, any attached items will be automatically claimed. Mail saved in the Archive do not count toward your mailbox total. Any claimed Oil and Coins will be transferred to your Storage. 
+2. The capacity of your Archive depends on your Commander Level.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.mail_page_1 = {
+	tip = "Mail"
+}
+
+_G.pg.base.gametip.mail_page_2 = {
+	tip = "Storage"
+}
+
+_G.pg.base.gametip.mail_page_3 = {
+	tip = "Archive"
+}
+
+_G.pg.base.gametip.mail_gold_res = {
+	tip = "Coins"
+}
+
+_G.pg.base.gametip.mail_oil_res = {
+	tip = "Oil"
+}
+
+_G.pg.base.gametip.mail_all_price = {
+	tip = "Total:"
 }
 
 _G.pg.base.gametip.return_award_bind_success = {
@@ -12706,7 +13014,19 @@ _G.pg.base.gametip.list_empty_tip_taskscene = {
 }
 
 _G.pg.base.gametip.empty_tip_mailboxui = {
-	tip = "You don't have any mail."
+	tip = "You haven't received any mail yet."
+}
+
+_G.pg.base.gametip.emptymarkroom_tip_mailboxui = {
+	tip = "You haven't saved any mail yet."
+}
+
+_G.pg.base.gametip.empty_tip_mailboxui_en = {
+	tip = "COMMANDER, YOUR INBOX IS EMPTY"
+}
+
+_G.pg.base.gametip.emptymarkroom_tip_mailboxui_en = {
+	tip = "COMMANDER, YOUR ARCHIVE IS EMPTY"
 }
 
 _G.pg.base.gametip.words_settings_unlock_ship = {
@@ -16690,6 +17010,10 @@ _G.pg.base.gametip.destory_ship_input_erro = {
 	tip = "Please input the numbers on the screen. "
 }
 
+_G.pg.base.gametip.mail_input_erro = {
+	tip = "Write the correct text to claim your items."
+}
+
 _G.pg.base.gametip.destroy_ur_rarity_tip = {
 	tip = "You have selected a ship of <color=#92fc63>UR</color> rarity. \nPlease enter the following into the box below: <color=#92fc63>$1</color> "
 }
@@ -19286,6 +19610,10 @@ _G.pg.base.gametip.player_expResource_mail_fullBag = {
 	tip = "You won't be able to collect resources that exceed the storage limit. Are you sure you want to continue?"
 }
 
+_G.pg.base.gametip.player_expResource_mail_overflow = {
+	tip = "You won't be able to collect $1 that exceed the storage limit. Are you sure you want to continue? "
+}
+
 _G.pg.base.gametip.tec_nation_award_finish = {
 	tip = "-Collected-"
 }
@@ -21443,6 +21771,66 @@ _G.pg.base.gametip.cruise_task_help_2404 = {
 - Regarding Cruise Missions - 
 · Two types of missions will be released at the same time at the start of the campaign season:
 a) Weekly Missions - Missions unlocked at midnight on every Monday during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+
+· You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.battlepass_main_tip_2406 = {
+	tip = "During the campaign season (6/1 - 7/31), complete Cruise Missions to get great rewards, including Foch META!"
+}
+
+_G.pg.base.gametip.battlepass_main_help_2406 = {
+	tip = {
+		{
+			info = [[
+Cruise Missions Seasonal Campaign
+6/1/2024 00:00 – 7/31/2024 23:59
+
+- Overview -
+"Cruise Missions" is a seasonal campaign where you can complete special missions, collect Progress Pts., and obtain great rewards for reaching certain Progress milestones.
+Additionally, you can unlock an additional set of "Fair Winds Cruise" rewards by purchasing the "Fair Winds Cruise Pass" item from Akashi's shop.
+Foch META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfits for Attilio Regolo, "Angel from Above"
+
+- How to Play -
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+· If you purchase a Fair Winds Cruise Pass, you will automatically receive 15 levels worth of progress (1500 Progress Pts).
+· You can receive rewards for reaching certain Progress milestones. There are two types of rewards:
+a) Cruise Rewards - Rewards that can be obtained based on the total number of accumulated Progress Pts. There are a total of 100 levels.
+b) Fair Winds Rewards - An additional set of rewards that will be unlocked when you purchase a Fair Winds Cruise Pass. As with the regular Cruise Rewards, there are a total of 100 levels, and they can be collected alongside Cruise Rewards at the same Progress level.
+· When the campaign season ends, your Progress Pts will be reset.
+
+- Tips - 
+· Play at your own pace
+Cruise Missions have a total of 100 Progress levels, and are not meant to be cleared in one session. We recommend that you complete them at your own pace.
+
+· Fair Winds Cruise Pass
+If. you purchase a Fair Winds Cruise Pass from Akashi's shop, you will automatically earn 1500 Progress Pts and unlock access to valuable rewards. Furthermore, there is an exclusive outfit available only through the Fair Winds rewards, so please plan accordingly.
+
+· Skipping Missions (not recommended)
+You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cruise_task_help_2406 = {
+	tip = {
+		{
+			info = [[
+- Regarding Cruise Missions - 
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
 b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
 
 · All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
@@ -28843,6 +29231,41 @@ _G.pg.base.gametip.UrExchange_Pt_help = {
 	tip = {
 		{
 			info = "The exchange rules on the event page are the same as in the event shop.\nThe UR ship can only be redeemed 2 times in total during the event. \nThe first time requires 200 UR Vouchers, and the second time requires 300 UR Vouchers."
+		}
+	}
+}
+
+_G.pg.base.gametip.xiaodadi_npc = {
+	tip = {
+		{
+			info = "- Overview -"
+		},
+		{
+			info = "During the event, Little Friedrich will provisionally join your fleet. Complete missions during the event to earn Trust. Collect enough Trust to have Little Friedrich permanently join your fleet!"
+		},
+		{
+			info = "- How to Play -"
+		},
+		{
+			info = "· During the event period, you can earn Trust by defeating the boss fleet in stages at or after Chapter 3 of the Campaign, or in event stages (excluding War Archives). You will be able to unlock rewards by reaching certain Trust milestones."
+		},
+		{
+			info = "· When you defeat the boss of a stage that rewards Trust, you will earn twice as many Trust if Little Friedrich is still afloat in one of the fleets at that time."
+		},
+		{
+			info = "· You will not be able to give a Promise Ring to Little Friedrich until you have formally recruited her to the fleet.You will also not be able to Retireor use her as Enhancement or Limit Break material."
+		},
+		{
+			info = "· If Little Friedrich has not been formally recruited by the end of the event, she will leave the Port."
+		},
+		{
+			info = "· Rewards for reaching certain amounts of Trust will unlock in phases, one phase per day until June 5th."
+		},
+		{
+			info = "· Little Friedrich cannot participate in Operation Siren or META Showdowns until she has been formally recruited."
+		},
+		{
+			info = "· Little Friedrich cannot participate in Guild Bosses until she has been formally recruited."
 		}
 	}
 }
