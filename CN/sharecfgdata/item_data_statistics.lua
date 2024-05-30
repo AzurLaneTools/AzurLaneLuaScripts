@@ -14458,6 +14458,36 @@ _G.pg.base.item_data_statistics[21033] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[21034] = {
+	open_directly = 0,
+	name = "结晶：福煦·META",
+	display = "福煦·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	type = 4,
+	display_effect = "",
+	id = 21034,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "Props/21034",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "结晶化热强钢",
@@ -24881,6 +24911,57 @@ _G.pg.base.item_data_statistics[30420] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30421] = {
+	open_directly = 1,
+	name = "外观装备箱(世界巡游)",
+	display = "可以随机获得一件本次世界巡游限定外观装备",
+	type = 11,
+	display_effect = "",
+	id = 30421,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30421",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2071,
+			1
+		},
+		{
+			9,
+			2072,
+			1
+		},
+		{
+			9,
+			2073,
+			1
+		},
+		{
+			9,
+			2074,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30501] = {
 	open_directly = 0,
 	name = "定向外观装备箱(夏末)",
@@ -33276,6 +33357,218 @@ _G.pg.base.item_data_statistics[30540] = {
 		{
 			9,
 			987,
+			1
+		}
+	}
+}
+
+_G.pg.base.item_data_statistics[30541] = {
+	open_directly = 0,
+	name = "定向外观装备箱(女仆咖啡)",
+	display = "使用后可从「女仆咖啡」主题外观装备中任意选择一种获得1个",
+	type = 13,
+	display_effect = "",
+	id = 30541,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	link_id = 0,
+	icon = "Props/appearanceboxnvpuzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			500,
+			1
+		},
+		{
+			9,
+			501,
+			1
+		},
+		{
+			9,
+			502,
+			1
+		},
+		{
+			9,
+			503,
+			1
+		},
+		{
+			9,
+			504,
+			1
+		},
+		{
+			9,
+			505,
+			1
+		},
+		{
+			9,
+			506,
+			1
+		},
+		{
+			9,
+			507,
+			1
+		},
+		{
+			9,
+			508,
+			1
+		},
+		{
+			9,
+			509,
+			1
+		},
+		{
+			9,
+			510,
+			1
+		},
+		{
+			9,
+			511,
+			1
+		},
+		{
+			9,
+			512,
+			1
+		},
+		{
+			9,
+			513,
+			1
+		},
+		{
+			9,
+			514,
+			1
+		},
+		{
+			9,
+			515,
+			1
+		},
+		{
+			9,
+			516,
+			1
+		},
+		{
+			9,
+			517,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			500,
+			1
+		},
+		{
+			9,
+			501,
+			1
+		},
+		{
+			9,
+			502,
+			1
+		},
+		{
+			9,
+			503,
+			1
+		},
+		{
+			9,
+			504,
+			1
+		},
+		{
+			9,
+			505,
+			1
+		},
+		{
+			9,
+			506,
+			1
+		},
+		{
+			9,
+			507,
+			1
+		},
+		{
+			9,
+			508,
+			1
+		},
+		{
+			9,
+			509,
+			1
+		},
+		{
+			9,
+			510,
+			1
+		},
+		{
+			9,
+			511,
+			1
+		},
+		{
+			9,
+			512,
+			1
+		},
+		{
+			9,
+			513,
+			1
+		},
+		{
+			9,
+			514,
+			1
+		},
+		{
+			9,
+			515,
+			1
+		},
+		{
+			9,
+			516,
+			1
+		},
+		{
+			9,
+			517,
 			1
 		}
 	}
@@ -98153,6 +98446,72 @@ _G.pg.base.item_data_statistics[81204] = {
 		{
 			2,
 			86204,
+			1
+		},
+		{
+			1,
+			14,
+			2024
+		},
+		{
+			2,
+			42056,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[81205] = {
+	open_directly = 1,
+	name = "七周年礼盒",
+	display = "购买礼包可获得随机换装*1，钻石*2024，心智单元*50，心智魔方*20，高级定向蓝图·六期*2，快速完成工具*10，家具币*100",
+	type = 17,
+	display_effect = "",
+	id = 81205,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/fudai14",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998305",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86205,
 			1
 		},
 		{

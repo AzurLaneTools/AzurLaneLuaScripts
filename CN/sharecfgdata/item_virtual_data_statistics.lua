@@ -159027,6 +159027,78 @@ _G.pg.base.item_virtual_data_statistics[59582] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_virtual_data_statistics[59583] = {
+	display = "参与「世界巡游」(2024.6.1~2024.7.31)获得的点数，累计一定程度可以领取奖励，活动结束后将会消失",
+	name = "巡游点数",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 7017,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	id = 59583,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[59584] = {
+	display = "不该被看到",
+	name = "通行证十七期对应虚拟道具",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 7017,
+	virtual_type = 21,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	id = 59584,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[59585] = {
+	display = "用于「今日的指挥练习」活动提升角色好感，活动结束后将会消失",
+	name = "友好度-{namecode:535}",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xiaofeitelie_pt",
+	id = 59585,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_virtual_data_statistics[59601] = {
 	display = "三笠收藏的驱逐船模-{namecode:158}",
 	name = "船模-{namecode:158}",
@@ -171730,6 +171802,63 @@ _G.pg.base.item_virtual_data_statistics[86204] = {
 		{
 			901061,
 			1600
+		}
+	}
+}
+
+_G.pg.base.item_virtual_data_statistics[86205] = {
+	display = "不会被看到",
+	name = "随机七周年换装",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 86205,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			299034,
+			1200
+		},
+		{
+			403102,
+			1200
+		},
+		{
+			701043,
+			1200
+		},
+		{
+			305082,
+			1200
+		},
+		{
+			202332,
+			1500
+		},
+		{
+			703022,
+			1400
+		},
+		{
+			302062,
+			1200
+		},
+		{
+			137031,
+			1100
 		}
 	}
 }
