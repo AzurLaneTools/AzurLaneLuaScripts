@@ -5356,6 +5356,131 @@ _G.pg.base.equip_data_statistics[553] = {
 	hidden_skill_id = {}
 }
 
+_G.pg.base.equip_data_statistics[560] = {
+	type = 10,
+	name = "“寧海號”水上偵察機",
+	speciality = "<[NA]>",
+	tech = 0,
+	value_2 = 0,
+	ammo = 10,
+	descrip = "寧海一直帶著的偵察機，似乎很珍貴？",
+	nationality = 5,
+	rarity = 4,
+	id = 560,
+	value_3 = 0,
+	attribute_1 = "hit",
+	icon = "560",
+	value_1 = "15",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		6180
+	},
+	hidden_skill_id = {},
+	part_main = {
+		2,
+		3,
+		18
+	},
+	part_sub = {
+		2,
+		3,
+		18
+	},
+	equip_parameters = {
+		avoid_extra = 800,
+		ambush_extra = 800
+	},
+	label = {
+		"PRAN",
+		"DEV"
+	}
+}
+
+_G.pg.base.equip_data_statistics[561] = {
+	id = 561,
+	value_1 = "17",
+	base = 560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[562] = {
+	id = 562,
+	value_1 = "19",
+	base = 560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[563] = {
+	id = 563,
+	value_1 = "21",
+	base = 560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[564] = {
+	id = 564,
+	value_1 = "23",
+	base = 560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[565] = {
+	id = 565,
+	value_1 = "25",
+	base = 560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[566] = {
+	id = 566,
+	value_1 = "27",
+	base = 560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[567] = {
+	id = 567,
+	value_1 = "29",
+	base = 560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[568] = {
+	id = 568,
+	value_1 = "31",
+	base = 560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[569] = {
+	id = 569,
+	value_1 = "33",
+	base = 560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[570] = {
+	id = 570,
+	value_1 = "35",
+	base = 560,
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[571] = {
+	id = 571,
+	anti_siren = 100,
+	value_1 = "37",
+	base = 560,
+	hidden_skill_id = {}
+}
+
 _G.pg.base.equip_data_statistics[580] = {
 	type = 10,
 	name = "九一式穿甲彈",
@@ -124099,6 +124224,59 @@ _G.pg.base.equip_data_statistics[80074] = {
 	base = 80073,
 	weapon_id = {
 		61551
+	},
+	hidden_skill_id = {}
+}
+
+_G.pg.base.equip_data_statistics[80101] = {
+	type = 1,
+	name = "专属弹幕-金伯利METAI",
+	speciality = "<[NA]>",
+	tech = 1,
+	rarity = 1,
+	ammo = 10,
+	nationality = 0,
+	descrip = "技能弹幕",
+	id = 80101,
+	value_3 = 0,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		61601
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+_G.pg.base.equip_data_statistics[80102] = {
+	id = 80102,
+	name = "专属弹幕-金伯利METAII",
+	base = 80101,
+	weapon_id = {
+		61602
 	},
 	hidden_skill_id = {}
 }

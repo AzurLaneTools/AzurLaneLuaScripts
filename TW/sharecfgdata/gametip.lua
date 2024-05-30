@@ -2155,6 +2155,158 @@ _G.pg.base.gametip.mail_confirm_cancel_important_flag = {
 	tip = "是否取消設定為重要郵件？"
 }
 
+_G.pg.base.gametip.mail_mail_page = {
+	tip = "郵件"
+}
+
+_G.pg.base.gametip.mail_storeroom_page = {
+	tip = "儲藏室"
+}
+
+_G.pg.base.gametip.mail_boxroom_page = {
+	tip = "收藏室"
+}
+
+_G.pg.base.gametip.mail_all_page = {
+	tip = "全部"
+}
+
+_G.pg.base.gametip.mail_important_page = {
+	tip = "重要"
+}
+
+_G.pg.base.gametip.mail_rare_page = {
+	tip = "特殊附件"
+}
+
+_G.pg.base.gametip.mail_reward_got = {
+	tip = "已領取"
+}
+
+_G.pg.base.gametip.mail_reward_tips = {
+	tip = "郵件中儲存的物資與石油會領取至儲藏室"
+}
+
+_G.pg.base.gametip.mail_boxroom_extend_title = {
+	tip = "儲藏室擴充"
+}
+
+_G.pg.base.gametip.mail_boxroom_extend_tips = {
+	tip = "儲藏室容量提升"
+}
+
+_G.pg.base.gametip.mail_buy_button = {
+	tip = "購買"
+}
+
+_G.pg.base.gametip.mail_manager_title = {
+	tip = "郵件管理"
+}
+
+_G.pg.base.gametip.mail_manager_tips_2 = {
+	tip = "※郵件中儲存的物資與石油會領取至儲藏室"
+}
+
+_G.pg.base.gametip.mail_manager_all = {
+	tip = "所有郵件"
+}
+
+_G.pg.base.gametip.mail_manager_rare = {
+	tip = "附件中僅含以下道具的郵件"
+}
+
+_G.pg.base.gametip.mail_get_oneclick = {
+	tip = "一鍵領取"
+}
+
+_G.pg.base.gametip.mail_read_oneclick = {
+	tip = "一鍵已讀"
+}
+
+_G.pg.base.gametip.mail_delete_oneclick = {
+	tip = "一鍵刪除"
+}
+
+_G.pg.base.gametip.mail_search_new = {
+	tip = "點擊搜尋"
+}
+
+_G.pg.base.gametip.mail_receive_time = {
+	tip = "收件時間"
+}
+
+_G.pg.base.gametip.mail_move_oneclick = {
+	tip = "一鍵轉移"
+}
+
+_G.pg.base.gametip.mail_deleteread_button = {
+	tip = "刪除已讀"
+}
+
+_G.pg.base.gametip.mail_manage_button = {
+	tip = "郵件管理"
+}
+
+_G.pg.base.gametip.mail_move_button = {
+	tip = "一鍵轉移"
+}
+
+_G.pg.base.gametip.mail_delet_button = {
+	tip = "刪除"
+}
+
+_G.pg.base.gametip.mail_moveone_button = {
+	tip = "郵件轉移"
+}
+
+_G.pg.base.gametip.mail_getone_button = {
+	tip = "領取獎勵"
+}
+
+_G.pg.base.gametip.mail_take_all_mail_msgbox = {
+	tip = "※是否領取所有選取的郵件"
+}
+
+_G.pg.base.gametip.mail_take_maildetail_msgbox = {
+	tip = "郵件詳情"
+}
+
+_G.pg.base.gametip.mail_take_canget_msgbox = {
+	tip = "領取將獲得："
+}
+
+_G.pg.base.gametip.mail_getbox_title = {
+	tip = "領取郵件"
+}
+
+_G.pg.base.gametip.mail_title_new = {
+	tip = "郵箱"
+}
+
+_G.pg.base.gametip.mail_boxtitle_information = {
+	tip = "資訊"
+}
+
+_G.pg.base.gametip.mail_box_confirm = {
+	tip = "確定"
+}
+
+_G.pg.base.gametip.mail_box_cancel = {
+	tip = "取消"
+}
+
+_G.pg.base.gametip.mail_title_English = {
+	tip = "MAIL BOX"
+}
+
+_G.pg.base.gametip.mail_toggle_on = {
+	tip = "ON"
+}
+
+_G.pg.base.gametip.mail_toggle_off = {
+	tip = "OFF"
+}
+
 _G.pg.base.gametip.main_mailLayer_mailBoxClear = {
 	tip = "信箱已被清空"
 }
@@ -2179,6 +2331,10 @@ _G.pg.base.gametip.main_mailLayer_quest_clear = {
 	tip = "真的要刪除所有已讀郵件嗎？<color=#A9F548>（未領取附件的郵件將會保留）</color>"
 }
 
+_G.pg.base.gametip.main_mailLayer_quest_clear_choice = {
+	tip = "確定要刪除已選取的已讀郵件嗎？ <color=#238c40>（未領取附件的郵件將會保留）</color>"
+}
+
 _G.pg.base.gametip.main_mailLayer_quest_deleteNotTakeAttach = {
 	tip = "<color=#A9F548>附件未領取</color>，真的要刪除該郵件嗎?"
 }
@@ -2193,6 +2349,14 @@ _G.pg.base.gametip.main_mailMediator_mailDelete = {
 
 _G.pg.base.gametip.main_mailMediator_attachTaken = {
 	tip = "附件已領取"
+}
+
+_G.pg.base.gametip.main_mailMediator_mailread = {
+	tip = "郵件已閱讀"
+}
+
+_G.pg.base.gametip.main_mailMediator_mailmove = {
+	tip = "郵件已轉移"
 }
 
 _G.pg.base.gametip.main_mailMediator_notingToTake = {
@@ -4391,11 +4555,11 @@ _G.pg.base.gametip.refresh_shopStreet_question = {
 }
 
 _G.pg.base.gametip.quota_shop_title = {
-	tip = "「核心兑换·限定」"
+	tip = "「核心兌換·限定」"
 }
 
 _G.pg.base.gametip.quota_shop_description = {
-	tip = "可兑换部分活动限定奖励，兑换不可超过<color=#fd8a62>持有上限</color>"
+	tip = "可兌換部分活動限定獎勵，兌換不可超過<color=#fd8a62>持有上限</color>"
 }
 
 _G.pg.base.gametip.quota_shop_owned = {
@@ -4403,11 +4567,11 @@ _G.pg.base.gametip.quota_shop_owned = {
 }
 
 _G.pg.base.gametip.quota_shop_good_limit = {
-	tip = "已达上限"
+	tip = "已達上限"
 }
 
 _G.pg.base.gametip.quota_shop_limit_error = {
-	tip = "该道具已经达到持有上限，无法兑换"
+	tip = "該道具已經達到持有上限，無法兌換"
 }
 
 _G.pg.base.gametip.event_start_success = {
@@ -8277,14 +8441,6 @@ _G.pg.base.gametip.escort_less_count_to_combat = {
 	tip = "今日挑戰次數不足，無法進入"
 }
 
-_G.pg.base.gametip.ten_even_draw = {
-	tip = "$1次補給"
-}
-
-_G.pg.base.gametip.ten_even_draw_confirm = {
-	tip = "確定抽取$1次補給？"
-}
-
 _G.pg.base.gametip.level_risk_level_desc = {
 	tip = " $1\n\n"
 }
@@ -11508,6 +11664,147 @@ _G.pg.base.gametip.warning_mail_max_2 = {
 	tip = "郵件數已經達到上限，請註意整理！"
 }
 
+_G.pg.base.gametip.warning_mail_max_3 = {
+	tip = "郵件數量已達郵箱上限(<color=#FF5C5C>$1</color>/100)，將無法收到新郵件，請指揮官前往郵箱處進行清理"
+}
+
+_G.pg.base.gametip.warning_mail_max_4 = {
+	tip = "郵件已達郵箱上限，若不清理郵箱，將無法收到新郵件，是否確認退出？"
+}
+
+_G.pg.base.gametip.warning_mail_max_5 = {
+	tip = "※達到上限後無法收到新郵件"
+}
+
+_G.pg.base.gametip.mail_moveto_markroom_1 = {
+	tip = "是否確認將郵件轉移至<color=#238c40>【收藏室】</color>\n該操作會領取郵件中所有附件並在郵箱中移出該郵件"
+}
+
+_G.pg.base.gametip.mail_moveto_markroom_2 = {
+	tip = "是否確認將所有重要郵件轉移至<color=#238c40>【收藏室】</color>\n該操作會領取所有重要郵件中的附件並在郵箱中移出這些郵件"
+}
+
+_G.pg.base.gametip.mail_moveto_markroom_max = {
+	tip = "<color=#92fc63>【收藏室】</color>儲存儲存空間不足，轉移失敗"
+}
+
+_G.pg.base.gametip.mail_markroom_delete = {
+	tip = "是否確認刪除<color=#238c40>《$1》</color>郵件"
+}
+
+_G.pg.base.gametip.mail_markroom_tip = {
+	tip = "※上限受指揮官等級影響"
+}
+
+_G.pg.base.gametip.mail_manage_1 = {
+	tip = "所有郵件"
+}
+
+_G.pg.base.gametip.mail_manage_2 = {
+	tip = "附件中僅包含以下道具的郵件"
+}
+
+_G.pg.base.gametip.mail_manage_3 = {
+	tip = "沒有符合條件的郵件"
+}
+
+_G.pg.base.gametip.mail_manage_tip_1 = {
+	tip = "※一鍵刪除僅會刪除已領取附件的郵件"
+}
+
+_G.pg.base.gametip.mail_storeroom_tips = {
+	tip = "※郵件中儲存的物資與石油會領取至儲藏室"
+}
+
+_G.pg.base.gametip.mail_storeroom_noextend = {
+	tip = "儲藏室儲存容量已達上限，無法擴充"
+}
+
+_G.pg.base.gametip.mail_storeroom_extend = {
+	tip = "儲藏室容量提升："
+}
+
+_G.pg.base.gametip.mail_storeroom_extend_1 = {
+	tip = "儲藏室擴充成功"
+}
+
+_G.pg.base.gametip.mail_storeroom_taken_1 = {
+	tip = "儲藏室取出成功"
+}
+
+_G.pg.base.gametip.mail_storeroom_max_1 = {
+	tip = "儲藏室已滿，本次領取會導致以下溢出資源消失，是否繼續？ "
+}
+
+_G.pg.base.gametip.mail_storeroom_max_2 = {
+	tip = "請輸入<color=#238c40>$1</color>進行確認"
+}
+
+_G.pg.base.gametip.mail_storeroom_addgold = {
+	tip = "儲藏物資："
+}
+
+_G.pg.base.gametip.mail_storeroom_addoil = {
+	tip = "儲藏石油："
+}
+
+_G.pg.base.gametip.mail_search = {
+	tip = "點擊輸入"
+}
+
+_G.pg.base.gametip.mail_storeroom_resourcetaken = {
+	tip = "取出資源"
+}
+
+_G.pg.base.gametip.resource_max_tip_storeroom = {
+	tip = "當前數量已達上限"
+}
+
+_G.pg.base.gametip.mail_tip = {
+	tip = {
+		{
+			info = [[
+<color=#92fc63>郵件</color>
+1.郵箱上限為100封，重要郵件與特殊郵件共用此上限
+2.透過【郵件管理】可對全部或滿足要求附件的郵件 進行批次處理
+3.將普通郵件標記為重要可將其轉移至【重要】分類下
+4.含有除【物資】【石油】【功勳】【心智魔方】以外的附件會被自動標記為【特殊 附件】郵件
+
+<color=#92fc63>儲藏室</color>
+1.從郵件附件中領取的石油與物資會被存入【儲藏室】
+2.可在【儲藏室】取出指定數量的資源
+
+<color=#92fc63>收藏室</color>
+1.透過郵件轉移功能可將郵件轉移至【收藏室】，該郵件的附件會被自動領取，該郵件會在郵箱中被刪除（石油與物資會被領取至儲藏室）
+2.【收藏室】存放的郵件上限受指揮官等級影響]]
+		}
+	}
+}
+
+_G.pg.base.gametip.mail_page_1 = {
+	tip = "郵件"
+}
+
+_G.pg.base.gametip.mail_page_2 = {
+	tip = "儲藏室"
+}
+
+_G.pg.base.gametip.mail_page_3 = {
+	tip = "收藏室"
+}
+
+_G.pg.base.gametip.mail_gold_res = {
+	tip = "物資"
+}
+
+_G.pg.base.gametip.mail_oil_res = {
+	tip = "石油"
+}
+
+_G.pg.base.gametip.mail_all_price = {
+	tip = "總價"
+}
+
 _G.pg.base.gametip.return_award_bind_success = {
 	tip = "綁定成功"
 }
@@ -11917,6 +12214,18 @@ _G.pg.base.gametip.list_empty_tip_taskscene = {
 
 _G.pg.base.gametip.empty_tip_mailboxui = {
 	tip = "暫未收到任何郵件"
+}
+
+_G.pg.base.gametip.emptymarkroom_tip_mailboxui = {
+	tip = "暫未收藏任何郵件"
+}
+
+_G.pg.base.gametip.empty_tip_mailboxui_en = {
+	tip = "C O M M A N D E R ， N O   M A I L   H A S   B E E N   A C Q U I R E D   Y E T "
+}
+
+_G.pg.base.gametip.emptymarkroom_tip_mailboxui_en = {
+	tip = "C O M M A N D E R ， N O   M A I L   H A S   B E E N   A R C H I V E D   Y E T "
 }
 
 _G.pg.base.gametip.words_settings_unlock_ship = {
@@ -15814,6 +16123,10 @@ _G.pg.base.gametip.destory_ship_before_tip = {
 
 _G.pg.base.gametip.destory_ship_input_erro = {
 	tip = "請輸入正確的確認文本後進行拆解"
+}
+
+_G.pg.base.gametip.mail_input_erro = {
+	tip = "請輸入正確的確認文字後進行領取"
 }
 
 _G.pg.base.gametip.destroy_ur_rarity_tip = {
@@ -20342,53 +20655,53 @@ _G.pg.base.gametip.cruise_task_help_2312 = {
 }
 
 _G.pg.base.gametip.battlepass_main_tip_2402 = {
-	tip = "2024/2/1-2024/3/31期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「金伯利·META」</color>在内的丰富奖励"
+	tip = "2024/6/1-2024/7/31期間，完成巡遊任務累計<icon name=pt w=0.5 h=0.5/>可取得<color=#854747>「金伯利·META」</color>在內的豐富獎勵"
 }
 
 _G.pg.base.gametip.battlepass_main_help_2402 = {
 	tip = {
 		{
 			info = [[
-世界巡游(2024.2.1-2024.3.31)
+世界巡遊(2024.6.1-2024.7.31)
 
-·<color=#92fc63>开放时间</color>
-    2024.2.1 0点 ~ 2024.3.31 23:59:59
+·<color=#92fc63>開放時間</color>
+ 2024.6.1 0點 ~ 2024.7.31 23:59:59
 
-·<color=#92fc63>巡游进度说明</color>
-（1）活动期间，指挥官通过完成巡游任务，可获取「巡游点数」。
-（2）巡游任务随时间开放解锁。
-（3）每获取100点「巡游点数」即可增加1巡游进度
-（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达100。
+·<color=#92fc63>巡遊進度說明</color>
+（1）活動期間，指揮官透過完成巡遊任務，可取得「巡遊點數」。
+（2）巡遊任務隨時間開放解鎖。
+（3）每取得100點「巡遊點數」即可增加1巡遊進度
+（4）巡遊進度提升後可以獲取對應等級的獎勵，巡遊進度最高可達100。
 
-·<color=#92fc63>奖励规则</color>
-巡游进度奖励分为两种：
-（1）基础巡游奖励：包含<color=#ff5c5c>「金伯利·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·六期</color>等奖励；
-    当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
-（2）特许巡游奖励：包含<color=#ff5c5c>梧换装「晴空下的可丽饼</color>」、<color=#ff5c5c>钻石</color>等奖励；
-    购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
-    注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。
+·<color=#92fc63>獎勵規則</color>
+巡遊進度獎勵分為兩種：
+（1）基礎巡遊獎勵：包含<color=#ff5c5c>「金伯利·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高級定向藍圖·六期</color>等獎勵；
+ 當巡遊達到指定進度時，指揮官可以直接領取相應的基礎巡遊獎勵。
+（2）特許巡遊獎勵：包含<color=#ff5c5c>深雪換裝「晴空下的可麗餅</color>」、<color=#ff5c5c>鑽石</color>等獎勵；
+ 購買「 特許巡遊憑證」，且巡遊達到指定進度時，可以領取特許巡遊獎勵。
+ 註：購買「特許巡遊憑證」後，不會影響基礎巡遊獎勵的領取。
 
-·<color=#92fc63>「特许巡游凭证」说明</color>
-（1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。
-（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即3.30 22:59:59停止)，请指挥官注意购买时间。
+·<color=#92fc63>「特許巡遊憑證」說明</color>
+（1）「特許巡遊憑證」可於「商店」-「優惠禮包」中購買，購買後可立刻獲得<color=#ff5c5c>1500點</color>「巡遊點數」同時解鎖特許巡遊獎勵。
+（2）「特許巡遊憑證」將於<color=#ff5c5c>活動結束前一小時</color>停止販賣(即7.31 22:59:59停止)，請指揮官注意購買時間。
 
-·<color=#92fc63>任务说明</color>
-巡游任务分为两种：
-（1）每周任务 
-    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务
-（2）S.P.任务
-    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
-（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。
+·<color=#92fc63>任務說明</color>
+巡遊任務分為兩種：
+（1）每週任務 
+ 巡遊任務中共有8組每週任務。自活動開始後解鎖第一週任務，之後每週一的0點解鎖下一組每週任務
+（2）S.P.任務
+ S.P.任務為一組特殊任務，在活動開始後會直接處於全部解鎖狀態。
+（3）巡遊任務在解鎖後會自動接取，滿足任務完成條件時，會自動完成並取得對應獎勵。
 
-·<color=#92fc63>「巡游任务快速完成券」说明</color>
-（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成大部分巡游任务
-（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
-（3）每个巡游任务需要消耗的完成券数量固定，与当前任务进度无关
-（4）「巡游任务快速完成券」不会随本期活动结束而消失
+·<color=#92fc63>「巡遊任務快速完成券」說明</color>
+（1）「巡遊任務快速完成券」可以在巡遊任務介面使用，花費一定數量的「巡遊任務快速完成券」可以直接完成大部分巡遊任務
+（2）在「巡遊任務快速完成券」數量不足時，指揮官可花費鑽石進行補齊
+（3）每個巡遊任務需要消耗的完成券數量固定，與目前任務進度無關
+（4）「巡遊任務快速完成券」不會隨本期活動結束而消失
 
-·<color=#ff5c5c>特别提示</color>
-（1）在本期世界巡游活动结束后，所有巡游任务将会无法继续完成，所有巡游奖励将会无法继续领取，请各位指挥官务必注意活动结束时间，提前领取奖励。
-（2）巡游进度、[特许巡游凭证]仅对本期世界巡游活动生效]]
+·<color=#ff5c5c>特別提示</color>
+（1） 在本期世界巡遊活動結束後，所有巡遊任務將會無法繼續完成，所有巡遊獎勵將會無法繼續領取，請各位指揮官務必注意活動結束時間，提前領取獎勵。
+（2）巡遊進度、[特許巡遊憑證]僅對本期世界巡遊活動生效]]
 		}
 	}
 }
@@ -20397,23 +20710,23 @@ _G.pg.base.gametip.cruise_task_help_2402 = {
 	tip = {
 		{
 			info = [[
-巡游任务说明
+巡遊任務說明
 
-·<color=#92fc63>开放时间</color>
-    2024.1.31 0点 ~ 2024.3.31 23:59:59
+·<color=#92fc63>開放時間</color>
+ 2024.6.1 0點 ~ 2024.7.31 23:59:59
 
-·<color=#92fc63>巡游任务分为两种</color>
-（1）每周任务
-    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务。
-（2）S.P.任务
-    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
-（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励
+·<color=#92fc63>巡遊任務分為兩種</color>
+（1）每週任務
+ 巡遊任務中共有8組每週任務。自活動開始後解鎖第一週任務，之後每週一的0點解鎖下一組每週任務。
+（2）S.P.任務
+ S.P.任務為一組特殊任務，在活動開始後會直接處於全部解鎖狀態。
+（3）巡遊任務在解鎖後會自動接取，滿足任務完成條件時，會自動完成並取得對應獎勵
 
-·<color=#92fc63>「巡游任务快速完成券」说明</color>
-（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成每周巡游任务
-（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
-（3）每个巡游任务需要消耗的「巡游任务快速完成券」数量和其提供的「巡游点数」相关，与当前任务进度无关
-（4）「巡游任务快速完成券」<color=#92fc63>不会随本期活动结束而消失</color>]]
+·<color=#92fc63>「巡遊任務快速完成券」說明</color >
+（1）「巡遊任務快速完成券」可以在巡遊任務介面使用，花費一定數量的「巡遊任務快速完成券」可以直接完成每週巡遊任務
+（2）在「巡遊任務快速完成券 」數量不足時，指揮官可花費鑽石進行補齊
+（3）每個巡遊任務需要消耗的「巡遊任務快速完成券」數量和其提供的「巡遊點數」相關，與當前任務進度無關
+（4）「巡遊任務快速完成券」<color=#92fc63>不會隨本期活動結束而消失</color>]]
 		}
 	}
 }
@@ -25867,6 +26180,35 @@ _G.pg.base.gametip.UrExchange_Pt_help = {
 	tip = {
 		{
 			info = "该页面兑换规则与活动PT商店完全相同，兑换同时生效。\n即可兑换UR角色，在活动中累计只能被兑换2次。\n第一次兑需要200点高级PT、第二次兑换需要300点高级PT。"
+		}
+	}
+}
+
+_G.pg.base.gametip.xiaodadi_npc = {
+	tip = {
+		{
+			info = "「今日的指揮練習」活動說明："
+		},
+		{
+			info = "1. 活動期間，玩家可獲得臨時 npc 角色「{namecode:524}」，臨時角色不可誓約、不可退役、不可被選為強化突破材料。"
+		},
+		{
+			info = "2. 活動期間，通關指定關卡可累積暫時 npc 角色「{namecode:524}」的友好度。"
+		},
+		{
+			info = "3.6 月 5 日為止，每日解鎖 1 個可達成的友好度階段。"
+		},
+		{
+			info = "4. 在活動結束前累積獲得 1000 點友好度，可領取獎勵並將臨時角色「{namecode:524}」轉化為永久角色。"
+		},
+		{
+			info = "5. 在活動結束後，未完成轉化的臨時角色「{namecode:524}」將離開港區，不返還已經消耗的強化、突破等培養材料。"
+		},
+		{
+			info = "6.npc 角色無法參與大型作戰。"
+		},
+		{
+			info = "7.npc 角色無法參與大艦隊作戰中的事件派遣、攻堅隊和首領戰。"
 		}
 	}
 }

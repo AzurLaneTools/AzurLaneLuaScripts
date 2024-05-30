@@ -13629,6 +13629,36 @@ _G.pg.base.item_data_statistics[21027] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[21029] = {
+	open_directly = 0,
+	name = "結晶：金伯利·META",
+	display = "金伯利·META的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
+	type = 4,
+	display_effect = "",
+	id = 21029,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	link_id = 0,
+	icon = "Props/21029",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "結晶化熱強鋼",
@@ -22667,6 +22697,57 @@ _G.pg.base.item_data_statistics[30417] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_data_statistics[30418] = {
+	open_directly = 1,
+	name = "外觀裝備箱(世界巡遊)",
+	display = "可以隨機獲得一件本次世界巡遊限定外觀裝備",
+	type = 11,
+	display_effect = "",
+	id = 30418,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30418",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2061,
+			1
+		},
+		{
+			9,
+			2062,
+			1
+		},
+		{
+			9,
+			2063,
+			1
+		},
+		{
+			9,
+			2064,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_data_statistics[30501] = {
 	open_directly = 0,
 	name = "定向外觀裝備箱(夏末)",
@@ -29204,6 +29285,218 @@ _G.pg.base.item_data_statistics[30533] = {
 		{
 			9,
 			1417,
+			1
+		}
+	}
+}
+
+_G.pg.base.item_data_statistics[30536] = {
+	open_directly = 0,
+	name = "定向外觀裝備箱(牛仔)",
+	display = "使用後可從「牛仔」主題外觀裝備中任意選擇一種獲得1個",
+	type = 13,
+	display_effect = "",
+	id = 30536,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	link_id = 0,
+	icon = "Props/appearanceboxniuzaizixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			440,
+			1
+		},
+		{
+			9,
+			441,
+			1
+		},
+		{
+			9,
+			442,
+			1
+		},
+		{
+			9,
+			443,
+			1
+		},
+		{
+			9,
+			444,
+			1
+		},
+		{
+			9,
+			445,
+			1
+		},
+		{
+			9,
+			446,
+			1
+		},
+		{
+			9,
+			447,
+			1
+		},
+		{
+			9,
+			448,
+			1
+		},
+		{
+			9,
+			449,
+			1
+		},
+		{
+			9,
+			450,
+			1
+		},
+		{
+			9,
+			451,
+			1
+		},
+		{
+			9,
+			452,
+			1
+		},
+		{
+			9,
+			453,
+			1
+		},
+		{
+			9,
+			454,
+			1
+		},
+		{
+			9,
+			455,
+			1
+		},
+		{
+			9,
+			456,
+			1
+		},
+		{
+			9,
+			457,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			440,
+			1
+		},
+		{
+			9,
+			441,
+			1
+		},
+		{
+			9,
+			442,
+			1
+		},
+		{
+			9,
+			443,
+			1
+		},
+		{
+			9,
+			444,
+			1
+		},
+		{
+			9,
+			445,
+			1
+		},
+		{
+			9,
+			446,
+			1
+		},
+		{
+			9,
+			447,
+			1
+		},
+		{
+			9,
+			448,
+			1
+		},
+		{
+			9,
+			449,
+			1
+		},
+		{
+			9,
+			450,
+			1
+		},
+		{
+			9,
+			451,
+			1
+		},
+		{
+			9,
+			452,
+			1
+		},
+		{
+			9,
+			453,
+			1
+		},
+		{
+			9,
+			454,
+			1
+		},
+		{
+			9,
+			455,
+			1
+		},
+		{
+			9,
+			456,
+			1
+		},
+		{
+			9,
+			457,
 			1
 		}
 	}
@@ -67197,6 +67490,72 @@ _G.pg.base.item_data_statistics[81014] = {
 		{
 			1,
 			4,
+			2024
+		},
+		{
+			2,
+			42056,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_data_statistics[81205] = {
+	open_directly = 1,
+	name = "慶典禮盒（2024） ",
+	display = "購買禮包可獲得隨機換裝*1，鑽石*2024，心智單元*50，心智魔方*20，高級定向藍圖·六期*2，快速完成工具*10，傢俱幣*100",
+	type = 17,
+	display_effect = "",
+	id = 81205,
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	link_id = 0,
+	icon = "Props/fudai14",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998305",
+	is_world = 0,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86205,
+			1
+		},
+		{
+			1,
+			14,
 			2024
 		},
 		{
