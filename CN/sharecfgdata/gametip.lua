@@ -12295,7 +12295,7 @@ _G.pg.base.gametip.mail_tip = {
 <color=#92fc63>邮件</color>
 1.邮箱上限为100封，重要邮件与特殊邮件共用此上限
 2.通过【邮件管理】可对全部或满足要求附件的邮件进行批量处理
-3.将普通邮件标记为重要可将其转移至【重要】分类下
+3.将普通邮件标记为重要可将其转移至【重要】分类下，重要邮件无法被删除
 4.含有除【物资】【石油】【功勋】【心智魔方】以外的附件会被自动标记为【特殊附件】邮件
 
 <color=#92fc63>储藏室</color>
@@ -19348,6 +19348,10 @@ _G.pg.base.gametip.ship_exp_item_label_confirm = {
 
 _G.pg.base.gametip.player_expResource_mail_fullBag = {
 	tip = "资源已经达到上限，继续会导致部分资源无法领取，是否继续？"
+}
+
+_G.pg.base.gametip.player_expResource_mail_overflow = {
+	tip = "$1已经达到上限，继续会导致部分资源无法领取，是否继续？"
 }
 
 _G.pg.base.gametip.tec_nation_award_finish = {
