@@ -106,6 +106,198 @@ _G.pg.base.gametip.new_airi_error_code_100222 = {
 	tip = "ツイッター連携承認に失敗しました"
 }
 
+_G.pg.base.gametip.new_airi_error_code_100121 = {
+	tip = "PC로는 게스트로 로그인하실 수 없습니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_100201 = {
+	tip = "현재 사용 중인 Google Play Games 계정이 이미 다른 게임 데이터와 연동 중입니다. 연동 정보를 초기화하고, 현재 플레이 중인 데이터와 연동하시겠습니까?"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100202 = {
+	tip = "현재 플레이 중인 게임 데이터가 이미 다른 Google Play Games 계정과 연동 중입니다. 연동 정보를 초기화하고, 현재 사용 중인 Google Play Games 계정과 연동하시겠습니까?"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100203 = {
+	tip = "현재 이용하고 계신 Google Play Games 계정과 게임 데이터에 각각 다른 연동 정보가 등록되어 있습니다. 연동 정보를 전부 초기화하고 해당 데이터와 Google Play Games 계정을 연동하시겠습니까?"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100204 = {
+	tip = "현재 이용하고 계신 게임 데이터를 다른 기기로 이전하시려면 다른 SNS 계정이나 메일 주소 등과 연동하셔야 합니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_100205 = {
+	tip = "UID와 Google Play Games가 미연동 상태입니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_100206 = {
+	tip = "현재 플레이 중인 게임 데이터가 Google Play Games 계정과 자동으로 연동되어 다른 기기로 플레이할 수 있게 됩니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_100207 = {
+	tip = "Google Play Games의 로컬 Token 인증에 실패했습니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_100214 = {
+	tip = "Google Play Games 이외의 연동을 해제하면, Google Play Games 계정과의 연동도 자동으로 해제됩니다. \"정말로 연동을 해제하시겠습니까?\""
+}
+
+_G.pg.base.gametip.new_airi_error_code_100218 = {
+	tip = "해당 앱은 X(구 트위터)로 로그인할 수 없습니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_100235 = {
+	tip = "메일 주소 입력이 잘못되었습니다. 다시 시도하시기 바랍니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_100307 = {
+	tip = "OneStore 계정이 등록되어 있지 않습니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_100310 = {
+	tip = "인증할 수 없습니다. 다시 시도하시기 바랍니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_100311 = {
+	tip = "인증 토큰이 잘못되었습니다. 다시 시도하시기 바랍니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_100401 = {
+	tip = "Steam 인증 실패"
+}
+
+_G.pg.base.gametip.new_airi_error_code_100600 = {
+	tip = "API 기동 실패. 매개변수 취득에 실패했습니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_100802 = {
+	tip = "설문 ID가 존재하지 않아 로딩에 실패했습니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_100803 = {
+	tip = "오류: 문자 수 초과"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200141 = {
+	tip = "구매 오류: 해당 통화로는 결제할 수 없습니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_200145 = {
+	tip = "구매 오류: Steam 매개변수 동기 실패"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200231 = {
+	tip = "OneStore 결제에 실패했습니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_200232 = {
+	tip = "Apple Pay는 이용하실 수 없습니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_200235 = {
+	tip = "결제 시간이 초과하였습니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_200236 = {
+	tip = "결제가 취소되었습니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_200370 = {
+	tip = "매개변수 이름이 중복되어 있습니다.\n오류 코드: 200370"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200380 = {
+	tip = "이용 약관이 승인되지 않았습니다.\n오류 코드: 200380"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200390 = {
+	tip = "결제 시스템 접속 시 오류가 발생했습니다.\n오류 코드: 200390"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200400 = {
+	tip = "결제 시스템 접속 시 오류가 발생했습니다.\n오류 코드: 200400"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200410 = {
+	tip = "결제 실패: 결제 유형 입력 오류"
+}
+
+_G.pg.base.gametip.new_airi_error_code_200420 = {
+	tip = "결제가 완료되지 않았습니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_200430 = {
+	tip = "GMO 신용카드 결제 실패"
+}
+
+_G.pg.base.gametip.new_airi_error_code_300101 = {
+	tip = "공유 기능이 활성화되어 있지 않습니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_300102 = {
+	tip = "기기에 앱이 설치되어 있지 않습니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_300200 = {
+	tip = "본인 인증이 필요하지 않습니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_300210 = {
+	tip = "본인 인증이 완료되지 않았습니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_300220 = {
+	tip = "본인 인증 정보 기한이 만료되었습니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_300300 = {
+	tip = "Yostar ID 연동에 실패했습니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_400010 = {
+	tip = "닌텐도 계정 로그인을 취소했습니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_400020 = {
+	tip = "오류 코드 400020: 닌텐도 계정 인증에 실패했습니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_400030 = {
+	tip = "오류 코드 400030: 닌텐도 계정이 존재하지 않습니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_400040 = {
+	tip = "오류 코드 400040: 닌텐도 계정을 사용할 수 없습니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_400050 = {
+	tip = "해당 닌텐도 계정은 Yostar ID와 연동되어 있지 않습니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_400060 = {
+	tip = "오류 코드 400060: 닌텐도 계정 로그인 인증에 실패했습니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_400070 = {
+	tip = "해당 Yostar ID는 존재하지 않습니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_400080 = {
+	tip = "해당 Yostar ID는 다른 닌텐도 계정과 이미 연동 중입니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_400090 = {
+	tip = "해당 Yostar ID는 닌텐도 계정과 연동되어 있지 않습니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_400100 = {
+	tip = "해당 닌텐도 계정은 다른 Yostar ID와 이미 연동 중입니다."
+}
+
+_G.pg.base.gametip.new_airi_error_code_400460 = {
+	tip = "페이지 로딩에 실패했습니다. 다시 시도하시기 바랍니다."
+}
+
 _G.pg.base.gametip.ad_0 = {
 	tip = ""
 }
@@ -9877,7 +10069,7 @@ _G.pg.base.gametip.buildship_new_tip = {
 }
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "\"뉴저지\", \"시나노\", \"키이\" 등 상시 건조 추가!"
+	tip = "\"꼬마 리나운 \", \"꼬마 아마기\", 등 상시 건조 추가!"
 }
 
 _G.pg.base.gametip.buildship_light_tip = {
@@ -9885,7 +10077,7 @@ _G.pg.base.gametip.buildship_light_tip = {
 }
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "프린스턴 건조 추가!"
+	tip = "꼬마 일러스트리어스,꼬마 엔터프라이즈  건조 추가!"
 }
 
 _G.pg.base.gametip.Normalbuild_URexchange_help = {
@@ -27773,4 +27965,12 @@ _G.pg.base.gametip.idol3rd_practice = {
 탭하면 확인할 수 있습니다. ]]
 		}
 	}
+}
+
+_G.pg.base.gametip.liner_sign_cnt_tip = {
+	tip = "남은 출첵 가능 횟수:"
+}
+
+_G.pg.base.gametip.liner_sign_unlock_tip = {
+	tip = "6.6 점검 후 해제"
 }
