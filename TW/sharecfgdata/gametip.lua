@@ -11661,7 +11661,7 @@ _G.pg.base.gametip.warning_mail_max_1 = {
 }
 
 _G.pg.base.gametip.warning_mail_max_2 = {
-	tip = "郵件數已經達到上限，請註意整理！"
+	tip = "郵件數已經達到上限，請注意整理！"
 }
 
 _G.pg.base.gametip.warning_mail_max_3 = {
@@ -11766,9 +11766,9 @@ _G.pg.base.gametip.mail_tip = {
 			info = [[
 <color=#92fc63>郵件</color>
 1.郵箱上限為100封，重要郵件與特殊郵件共用此上限
-2.透過【郵件管理】可對全部或滿足要求附件的郵件 進行批次處理
-3.將普通郵件標記為重要可將其轉移至【重要】分類下
-4.含有除【物資】【石油】【功勳】【心智魔方】以外的附件會被自動標記為【特殊 附件】郵件
+2.透過【郵件管理】可對全部或滿足要求附件的郵件進行批次處理
+3.將普通郵件標記為重要可將其轉移至【重要】分類下，重要郵件無法被刪除
+4.含有除【物資】【石油】【功勳】【心智魔方】以外的附件會自動標記為【特殊附件】郵件
 
 <color=#92fc63>儲藏室</color>
 1.從郵件附件中領取的石油與物資會被存入【儲藏室】
@@ -11776,7 +11776,7 @@ _G.pg.base.gametip.mail_tip = {
 
 <color=#92fc63>收藏室</color>
 1.透過郵件轉移功能可將郵件轉移至【收藏室】，該郵件的附件會被自動領取，該郵件會在郵箱中被刪除（石油與物資會被領取至儲藏室）
-2.【收藏室】存放的郵件上限受指揮官等級影響]]
+2.【收藏室】儲存的郵件上限受指揮官等級影響]]
 		}
 	}
 }
@@ -18486,6 +18486,10 @@ _G.pg.base.gametip.ship_exp_item_label_confirm = {
 
 _G.pg.base.gametip.player_expResource_mail_fullBag = {
 	tip = "資源已經達到上限，繼續會導致部分資源無法領取，是否繼續？"
+}
+
+_G.pg.base.gametip.player_expResource_mail_overflow = {
+	tip = "$1已經達到上限，繼續會導致部分資源無法領取，是否繼續領取？"
 }
 
 _G.pg.base.gametip.tec_nation_award_finish = {
