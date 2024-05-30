@@ -158143,6 +158143,102 @@ _G.pg.base.item_virtual_data_statistics[59582] = {
 	combination_display = {}
 }
 
+_G.pg.base.item_virtual_data_statistics[59583] = {
+	display = "キャンペーン「シーズン任務」(2024.6.1~2024.7.31)で累計獲得数報酬を入手するための任務Ptアイテム。キャンペーン終了後に削除されます",
+	name = "進捗Pt",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "props/battlepass_pt",
+	id = 59583,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[59584] = {
+	display = "不该被看到",
+	name = "通行证十七期对应虚拟道具",
+	max_num = 0,
+	type = 0,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 7017,
+	virtual_type = 21,
+	is_world = 0,
+	icon = "props/summer_stamp",
+	id = 59584,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[59585] = {
+	display = "イベント「ママの演奏練習」・友好度",
+	name = "友好度-フリードリヒちゃん",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 2,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/xiaofeitelie_pt",
+	id = 59585,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+_G.pg.base.item_virtual_data_statistics[59586] = {
+	display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2024.6.12メンテナンスまで）で削除されます",
+	name = "試着貸出チケット（2024.6.12まで）",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = 1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/skinTicket",
+	id = 59586,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
 _G.pg.base.item_virtual_data_statistics[59601] = {
 	display = "三笠大先輩の蒐集品の一つ。駆逐艦「江風」のモデル",
 	name = "江風モデル",
@@ -170806,6 +170902,63 @@ _G.pg.base.item_virtual_data_statistics[86204] = {
 		{
 			901061,
 			1600
+		}
+	}
+}
+
+_G.pg.base.item_virtual_data_statistics[86205] = {
+	display = "不会被看到",
+	name = "ランダム2024夏衣装",
+	max_num = 0,
+	type = 98,
+	time_limit = 0,
+	rarity = 4,
+	shop_id = -1,
+	replace_item = 0,
+	drop_gold_max = 0,
+	drop_oil_max = 0,
+	link_id = 0,
+	virtual_type = 0,
+	is_world = 0,
+	icon = "Props/clothIcon",
+	id = 86205,
+	order = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			299034,
+			1200
+		},
+		{
+			403102,
+			1200
+		},
+		{
+			701043,
+			1200
+		},
+		{
+			305082,
+			1200
+		},
+		{
+			202332,
+			1500
+		},
+		{
+			703022,
+			1400
+		},
+		{
+			302062,
+			1200
+		},
+		{
+			137031,
+			1100
 		}
 	}
 }

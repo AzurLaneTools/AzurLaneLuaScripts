@@ -2689,6 +2689,158 @@ _G.pg.base.gametip.mail_confirm_cancel_important_flag = {
 	tip = "メール保護を解除しますか？"
 }
 
+_G.pg.base.gametip.mail_mail_page = {
+	tip = "メール"
+}
+
+_G.pg.base.gametip.mail_storeroom_page = {
+	tip = "貯蔵庫"
+}
+
+_G.pg.base.gametip.mail_boxroom_page = {
+	tip = "保管庫"
+}
+
+_G.pg.base.gametip.mail_all_page = {
+	tip = "全て"
+}
+
+_G.pg.base.gametip.mail_important_page = {
+	tip = "重要"
+}
+
+_G.pg.base.gametip.mail_rare_page = {
+	tip = "特殊"
+}
+
+_G.pg.base.gametip.mail_reward_got = {
+	tip = "受取済"
+}
+
+_G.pg.base.gametip.mail_reward_tips = {
+	tip = "※メールに添付された資金と燃料は貯蔵庫に送られます"
+}
+
+_G.pg.base.gametip.mail_boxroom_extend_title = {
+	tip = "貯蔵庫拡張"
+}
+
+_G.pg.base.gametip.mail_boxroom_extend_tips = {
+	tip = "貯蔵庫容量アップ"
+}
+
+_G.pg.base.gametip.mail_buy_button = {
+	tip = "購入"
+}
+
+_G.pg.base.gametip.mail_manager_title = {
+	tip = "メール管理"
+}
+
+_G.pg.base.gametip.mail_manager_tips_2 = {
+	tip = "※メールに添付された資金と燃料は貯蔵庫に送られます"
+}
+
+_G.pg.base.gametip.mail_manager_all = {
+	tip = "全ての添付アイテム"
+}
+
+_G.pg.base.gametip.mail_manager_rare = {
+	tip = "下記アイテムのみ含まれるメール"
+}
+
+_G.pg.base.gametip.mail_get_oneclick = {
+	tip = "一括受取"
+}
+
+_G.pg.base.gametip.mail_read_oneclick = {
+	tip = "一括既読"
+}
+
+_G.pg.base.gametip.mail_delete_oneclick = {
+	tip = "一括削除"
+}
+
+_G.pg.base.gametip.mail_search_new = {
+	tip = "タップで検索"
+}
+
+_G.pg.base.gametip.mail_receive_time = {
+	tip = "受信時間"
+}
+
+_G.pg.base.gametip.mail_move_oneclick = {
+	tip = "一括移動"
+}
+
+_G.pg.base.gametip.mail_deleteread_button = {
+	tip = "既読削除"
+}
+
+_G.pg.base.gametip.mail_manage_button = {
+	tip = "メール管理"
+}
+
+_G.pg.base.gametip.mail_move_button = {
+	tip = "一括移動"
+}
+
+_G.pg.base.gametip.mail_delet_button = {
+	tip = "削除"
+}
+
+_G.pg.base.gametip.mail_moveone_button = {
+	tip = "メール移動"
+}
+
+_G.pg.base.gametip.mail_getone_button = {
+	tip = "アイテム入手"
+}
+
+_G.pg.base.gametip.mail_take_all_mail_msgbox = {
+	tip = "※下記添付アイテムを一括で受け取ります"
+}
+
+_G.pg.base.gametip.mail_take_maildetail_msgbox = {
+	tip = "メール詳細"
+}
+
+_G.pg.base.gametip.mail_take_canget_msgbox = {
+	tip = "受け取ると下記を入手可能："
+}
+
+_G.pg.base.gametip.mail_getbox_title = {
+	tip = "メール受取"
+}
+
+_G.pg.base.gametip.mail_title_new = {
+	tip = "メール"
+}
+
+_G.pg.base.gametip.mail_boxtitle_information = {
+	tip = "情報"
+}
+
+_G.pg.base.gametip.mail_box_confirm = {
+	tip = "確定"
+}
+
+_G.pg.base.gametip.mail_box_cancel = {
+	tip = "戻る"
+}
+
+_G.pg.base.gametip.mail_title_English = {
+	tip = "MAIL BOX"
+}
+
+_G.pg.base.gametip.mail_toggle_on = {
+	tip = "ON"
+}
+
+_G.pg.base.gametip.mail_toggle_off = {
+	tip = "OFF"
+}
+
 _G.pg.base.gametip.main_mailLayer_mailBoxClear = {
 	tip = "メールボックスをクリアしました"
 }
@@ -2713,6 +2865,10 @@ _G.pg.base.gametip.main_mailLayer_quest_clear = {
 	tip = "既読メールをすべて削除しますか？<color=#92fc63>（添付アイテム未受取のメールは削除されません）</color>"
 }
 
+_G.pg.base.gametip.main_mailLayer_quest_clear_choice = {
+	tip = "選択中の既読メールをすべて削除しますか？<color=#92fc63>（添付ファイルを未受取のメールは削除されません）</color>"
+}
+
 _G.pg.base.gametip.main_mailLayer_quest_deleteNotTakeAttach = {
 	tip = "<color=#92fc63>添付ファイルは受け取っていません</color>、本当に削除しますか?"
 }
@@ -2727,6 +2883,14 @@ _G.pg.base.gametip.main_mailMediator_mailDelete = {
 
 _G.pg.base.gametip.main_mailMediator_attachTaken = {
 	tip = "添付アイテムを受け取りました"
+}
+
+_G.pg.base.gametip.main_mailMediator_mailread = {
+	tip = "メールが既読状態になりました"
+}
+
+_G.pg.base.gametip.main_mailMediator_mailmove = {
+	tip = "メールが保管庫に移動されました"
 }
 
 _G.pg.base.gametip.main_mailMediator_notingToTake = {
@@ -12245,6 +12409,149 @@ _G.pg.base.gametip.warning_mail_max_2 = {
 	tip = "メール所持数が上限に達しています。メールを整理してください"
 }
 
+_G.pg.base.gametip.warning_mail_max_3 = {
+	tip = "メールボックスのメール所持数が所持可能上限(<color=#FF5C5C>$1</color>/100)に達しているため、メールを新たに受信できません"
+}
+
+_G.pg.base.gametip.warning_mail_max_4 = {
+	tip = "メールボックスがいっぱいです。所持数が所持上限に達しているとメールを新たに受信できません。メールボックスを閉じますか？"
+}
+
+_G.pg.base.gametip.warning_mail_max_5 = {
+	tip = "※上限に達するとメールを受信できなくなります"
+}
+
+_G.pg.base.gametip.mail_moveto_markroom_1 = {
+	tip = "メールをメールボックスから<color=#92fc63>【保管庫】</color>に移動しますか？\n移動すると、メールの添付アイテムが自動で取り出されます"
+}
+
+_G.pg.base.gametip.mail_moveto_markroom_2 = {
+	tip = "重要メールをメールボックスから<color=#92fc63>【保管庫】</color>に移動しますか？\n移動すると、メールの添付アイテムが自動で取り出されます"
+}
+
+_G.pg.base.gametip.mail_moveto_markroom_max = {
+	tip = "<color=#92fc63>【保管庫】</color>のメール保管数上限に達しています。メールを移動できません"
+}
+
+_G.pg.base.gametip.mail_markroom_delete = {
+	tip = "メール<color=#92fc63>《$1》</color>を完全に削除しますか？"
+}
+
+_G.pg.base.gametip.mail_markroom_tip = {
+	tip = "※上限は指揮官レベルによって影響されます"
+}
+
+_G.pg.base.gametip.mail_manage_1 = {
+	tip = "すべて"
+}
+
+_G.pg.base.gametip.mail_manage_2 = {
+	tip = "下記アイテムのみ含まれるメール"
+}
+
+_G.pg.base.gametip.mail_manage_3 = {
+	tip = "条件を満たしたメールは存在しません"
+}
+
+_G.pg.base.gametip.mail_manage_tip_1 = {
+	tip = "※一括削除は添付アイテムを受取済みのメールのみ削除されます"
+}
+
+_G.pg.base.gametip.mail_storeroom_tips = {
+	tip = "※添付アイテムの資金・燃料は【貯蔵庫】に移動されます"
+}
+
+_G.pg.base.gametip.mail_storeroom_noextend = {
+	tip = "貯蔵庫の資源保管枠が上限に達しています。これ以上は拡張できません"
+}
+
+_G.pg.base.gametip.mail_storeroom_extend = {
+	tip = "貯蔵庫容量アップ："
+}
+
+_G.pg.base.gametip.mail_storeroom_extend_1 = {
+	tip = "貯蔵庫拡張成功"
+}
+
+_G.pg.base.gametip.mail_storeroom_taken_1 = {
+	tip = "資源を取り出しました"
+}
+
+_G.pg.base.gametip.mail_storeroom_max_1 = {
+	tip = "貯蔵庫の資源保管量が上限に達しているため、下記の資源が廃棄されます。続けますか？"
+}
+
+_G.pg.base.gametip.mail_storeroom_max_2 = {
+	tip = "<color=#238c40>$1</color>を入力して操作を続けてください"
+}
+
+_G.pg.base.gametip.mail_storeroom_addgold = {
+	tip = "備蓄資金："
+}
+
+_G.pg.base.gametip.mail_storeroom_addoil = {
+	tip = "備蓄燃料："
+}
+
+_G.pg.base.gametip.mail_search = {
+	tip = "タップで入力"
+}
+
+_G.pg.base.gametip.mail_storeroom_resourcetaken = {
+	tip = "資源を取り出す"
+}
+
+_G.pg.base.gametip.resource_max_tip_storeroom = {
+	tip = "所持上限以上の資源は取り出せません"
+}
+
+_G.pg.base.gametip.mail_tip = {
+	tip = {
+		{
+			info = [[
+<color=#92fc63>メールボックスについて</color>
+ 1.メールボックスのメール所持数上限は100です（【重要】【特殊】メールを含む）
+ 2.【一括管理】でメールの表示を絞り込み、またメールを一括で管理する事ができます
+ 　一括既読：表示中のメールを全て既読にします
+ 　一括受取：表示中のメールの添付アイテムを一括で受け取ります（燃料と資金は貯蔵庫に送られます）
+ 　一括削除：表示中のメールの「添付アイテムを受け取り済みのメール」を一括で削除できます
+ 3.通常メールに【重要】を設定することで、【重要】メールに分類させることができます
+ 4.【資金】【燃料】【戦果Pt】【キューブ】以外のメールは【特殊】として分類されます
+
+  <color=#92fc63>貯蔵庫</color>
+ 1.メールから受け取った添付アイテムの中で、【資金】と【燃料】は貯蔵庫に保管されます
+ 2.貯蔵庫からはいつでも資源を取り出すことができます
+  <color=#92fc63>保管庫</color>
+ 1.一括移動機能でメールを保管庫に保管させることができます。移動させる際、メールの添付アイテムが自動で取り出されます。（保管庫に保管されるメールはメールボックスに含まれません。取り出された燃料と資金は貯蔵庫に移動されます）
+ 2.【保管庫】のメール保管数の上限は指揮官レベルによって変わります]]
+		}
+	}
+}
+
+_G.pg.base.gametip.mail_page_1 = {
+	tip = "メール"
+}
+
+_G.pg.base.gametip.mail_page_2 = {
+	tip = "貯蔵庫"
+}
+
+_G.pg.base.gametip.mail_page_3 = {
+	tip = "保管庫"
+}
+
+_G.pg.base.gametip.mail_gold_res = {
+	tip = "資金"
+}
+
+_G.pg.base.gametip.mail_oil_res = {
+	tip = "燃料"
+}
+
+_G.pg.base.gametip.mail_all_price = {
+	tip = "合計："
+}
+
 _G.pg.base.gametip.return_award_bind_success = {
 	tip = "UID入力成功"
 }
@@ -12610,6 +12917,18 @@ _G.pg.base.gametip.list_empty_tip_taskscene = {
 
 _G.pg.base.gametip.empty_tip_mailboxui = {
 	tip = "メールはありません"
+}
+
+_G.pg.base.gametip.emptymarkroom_tip_mailboxui = {
+	tip = "まだメールを保管していません"
+}
+
+_G.pg.base.gametip.empty_tip_mailboxui_en = {
+	tip = "C O M M A N D E R ， N O  M A I L  H A S  B E E N  A C Q U I R E D  Y E T "
+}
+
+_G.pg.base.gametip.emptymarkroom_tip_mailboxui_en = {
+	tip = "C O M M A N D E R ， N O  M A I L  H A S  B E E N  A R C H I V E D  Y E T "
 }
 
 _G.pg.base.gametip.words_settings_unlock_ship = {
@@ -16735,6 +17054,10 @@ _G.pg.base.gametip.destory_ship_before_tip = {
 
 _G.pg.base.gametip.destory_ship_input_erro = {
 	tip = "表示されている数字を入力してください"
+}
+
+_G.pg.base.gametip.mail_input_erro = {
+	tip = "正しいテキストを入力すると受け取れます"
 }
 
 _G.pg.base.gametip.destroy_ur_rarity_tip = {
@@ -21652,6 +21975,72 @@ _G.pg.base.gametip.battlepass_main_help_2404 = {
 }
 
 _G.pg.base.gametip.cruise_task_help_2404 = {
+	tip = {
+		{
+			info = [[
+■シーズン任務について
+・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。
+　①週次開放任務
+　キャンペーン開始時とキャンペーン期間中毎週月曜日0時に開放される任務。全8グループ
+　②全期間任務
+　最初から全開放される任務。全1グループ
+
+・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。
+
+・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。
+　ダイヤを消費しますので、オススメしません……
+　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。]]
+		}
+	}
+}
+
+_G.pg.base.gametip.battlepass_main_tip_2406 = {
+	tip = "<size=23> 2024.6.1-2024.7.31キャンペーン期間中、シーズン任務報酬で<color=#854747>「フォッシュ(META)」</color>などを入手可能！</size>"
+}
+
+_G.pg.base.gametip.battlepass_main_help_2406 = {
+	tip = {
+		{
+			info = [[
+■キャンペーン開催期間
+ 2024.6.1（土）0:00～2024.7.31（水）23:59
+
+■概要
+「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。
+また、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。
+通常報酬からは艦船「フォッシュ(META)」、SP報酬からは駆逐艦「アッティリオ・レゴロ」の限定着せ替え「アンジェラ・フロム・スカイ」を入手できます。
+
+■遊び方
+・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。
+　①週次開放任務
+　キャンペーン開始時とキャンペーン期間中毎週月曜日0時に開放される任務。全8グループ
+　②全期間任務
+　最初から全開放される任務。全1グループ
+・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。
+　さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。
+・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。
+　①通常報酬
+　「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります
+　②SP報酬
+　「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手入手できます。
+・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。
+
+■Tips
+・プレイスタイル
+　シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくりしながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。
+
+・クルーズパス
+　ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。
+
+・任務のスキップ（オススメしません）
+　「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。
+　ダイヤを消費しますので、オススメしません厖
+　「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。]]
+		}
+	}
+}
+
+_G.pg.base.gametip.cruise_task_help_2406 = {
 	tip = {
 		{
 			info = [[
@@ -29025,6 +29414,32 @@ _G.pg.base.gametip.UrExchange_Pt_help = {
 	tip = {
 		{
 			info = "イベントバナーでの交換とイベントショップと同様にカウントされます。\n合計で2回のみ交換できます。\n1回目：URチケット×200；2回目：300URチケット×300。"
+		}
+	}
+}
+
+_G.pg.base.gametip.xiaodadi_npc = {
+	tip = {
+		{
+			info = "■概要\n「ママの演奏練習」とは、イベント開始時に仮加入した【フリードリヒちゃん】の「友好度」を貯めることで、累計友好度入手数報酬で【フリードリヒちゃん】を正式加入させられるイベントになります。"
+		},
+		{
+			info = "■遊び方\n1.イベント期間中、特定のステージをクリアすると、「友好度」を入手できます。"
+		},
+		{
+			info = "2.【フリードリヒちゃん】は、友好度報酬（7段階目）の「正式加入」を達成しない限り、ケッコンすることはできず、また退役や強化・限界突破素材への選択をすることもできません。"
+		},
+		{
+			info = "3.イベント終了までにイベントページの「友好度報酬」を最後まで受け取ると、【フリードリヒちゃん】を「正式加入」させることができます（友好度が1000必要）。イベント終了時、「正式加入」していない【フリードリヒちゃん】は母港からいなくなります。"
+		},
+		{
+			info = "4.友好度報酬は6/5（水）まで毎日1段階ずつ解放されます。"
+		},
+		{
+			info = "5.仮加入状態の【フリードリヒちゃん】はセイレーン作戦（META戦含む）に参加できず、またセイレーン作戦では友好度を獲得できません。"
+		},
+		{
+			info = "6.仮加入状態の【フリードリヒちゃん】は大艦隊作戦には参加できません。"
 		}
 	}
 }
