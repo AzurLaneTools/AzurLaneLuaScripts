@@ -1,0 +1,24 @@
+return {
+	time = 0,
+	name = "中飞联动一我方移速",
+	init_effect = "",
+	picture = "",
+	desc = "",
+	stack = 1,
+	id = 8787,
+	icon = 8780,
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onUpdate"
+			},
+			arg_list = {
+				buff_id = 8788,
+				time = 0.2,
+				target = "TargetSelf"
+			}
+		}
+	}
+}

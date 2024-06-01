@@ -1,0 +1,75 @@
+return {
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	desc_get = "",
+	name = "",
+	init_effect = "",
+	id = 16850,
+	time = 0,
+	picture = "",
+	desc = "",
+	stack = 1,
+	color = "red",
+	icon = 16850,
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffCastSkillRandom",
+			trigger = {
+				"onFire"
+			},
+			arg_list = {
+				target = "TargetSelf",
+				skill_id_list = {
+					16850,
+					16851
+				},
+				range = {
+					{
+						0,
+						0.5
+					},
+					{
+						0.5,
+						1
+					}
+				},
+				index = {
+					1
+				}
+			}
+		},
+		{
+			type = "BattleBuffCount",
+			trigger = {
+				"onFire"
+			},
+			arg_list = {
+				countTarget = 16,
+				countType = 16850,
+				index = {
+					1
+				}
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onBattleBuffCount"
+			},
+			arg_list = {
+				skill_id = 16852,
+				target = "TargetSelf",
+				countType = 16850
+			}
+		}
+	}
+}
