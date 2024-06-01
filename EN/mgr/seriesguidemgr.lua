@@ -1,0 +1,303 @@
+pg = pg or {}
+pg.SeriesGuideMgr = singletonClass("SeriesGuideMgr")
+slot0 = pg.SeriesGuideMgr
+slot1 = false
+slot2 = 29
+
+log = function(...)
+	if uv0 then
+		originalPrint(...)
+	end
+end
+
+slot3 = {
+	IDLE = 1,
+	BUSY = 2
+}
+slot0.CODES = {
+	GUIDER = 1,
+	CONDITION = 4,
+	MAINUI = 2
+}
+
+slot0.isRunning = function(slot0)
+	return slot0.state == uv0.BUSY
+end
+
+slot0.isNotFinish = function(slot0)
+	if getProxy(PlayerProxy) then
+		return slot1:getRawData().guideIndex < 28
+	end
+end
+
+slot0.loadGuide = function(slot0, slot1)
+	return require("GameCfg.guide.newguide." .. slot1)
+end
+
+slot0.getStepConfig = function(slot0, slot1)
+	return slot0.guideCfgs[slot1]
+end
+
+slot0.Init = function(slot0, slot1)
+	slot0.state = uv0.IDLE
+	slot0.guideCfgs = slot0:loadGuide("SG001")
+	slot0.guideMgr = pg.NewGuideMgr.GetInstance()
+	slot0.protocols = {}
+	slot0.onReceiceProtocol = nil
+
+	slot1()
+end
+
+slot0.dispatch = function(slot0, slot1)
+	if slot0:canPlay(slot1) then
+		slot0.guideMgr:PlayNothing()
+	end
+end
+
+slot0.start = function(slot0, slot1)
+	if slot0:canPlay(slot1) then
+		slot0.state = uv0.BUSY
+
+		slot0.guideMgr:StopNothing()
+
+		slot0.stepConfig = slot0:getStepConfig(slot0.currIndex)
+
+		slot2 = function(slot0)
+			uv0.state = uv1.IDLE
+			uv0.protocols = {}
+
+			if not uv0.stepConfig.interrupt then
+				uv0:doNextStep(uv0.currIndex, slot0)
+			end
+		end
+
+		slot0:doGuideStep(slot1, function (slot0, slot1)
+			if uv0.stepConfig.end_segment and slot1 then
+				uv0.guideMgr:Play(uv0.stepConfig.end_segment, uv1.code, function ()
+					uv0(uv1)
+				end)
+			else
+				uv2(slot0)
+			end
+		end)
+	end
+end
+
+slot0.doGuideStep = function(slot0, slot1, slot2)
+	if slot0.stepConfig.condition then
+		slot3, slot4 = slot0:checkCondition(slot1)
+		slot5 = slot0.currIndex < slot4
+
+		slot0:updateIndex(slot4, function ()
+			uv0({
+				uv1
+			}, uv2)
+		end)
+
+		return
+	end
+
+	slot3 = slot0.stepConfig.segment[slot0:getSegmentIndex()]
+	slot4 = slot3[1]
+
+	assert(slot3[2], "protocol can not be nil")
+	seriesAsync({
+		function (slot0)
+			uv0.guideMgr:Play(uv1, uv2.code, slot0, function ()
+				uv0:updateIndex(uv1)
+			end)
+			uv0.guideMgr:PlayNothing()
+		end,
+		function (slot0)
+			if _.any(uv0.protocols, function (slot0)
+				return slot0.protocol == uv0
+			end) then
+				slot0()
+
+				return
+			end
+
+			uv0.onReceiceProtocol = function(slot0)
+				if slot0 == uv0 then
+					uv1.onReceiceProtocol = nil
+
+					uv2()
+				end
+			end
+		end,
+		function (slot0)
+			uv0.guideMgr:StopNothing()
+			uv0:increaseIndex(slot0)
+		end
+	}, function ()
+		uv0({
+			uv1.CODES.GUIDER
+		}, true)
+	end)
+end
+
+slot0.getSegmentIndex = function(slot0)
+	slot1 = 1
+
+	if slot0.stepConfig.getSegment then
+		slot1 = slot0.stepConfig.getSegment()
+	end
+
+	return slot1
+end
+
+slot4 = 1
+slot5 = 2
+
+slot0.checkCondition = function(slot0, slot1)
+	slot3, slot4 = nil
+
+	if slot0.stepConfig.condition.arg[1] == uv0 then
+		slot4, slot3 = slot0:checkPtotocol({
+			protocol = slot5[2],
+			func = slot2.condition.func
+		}, slot1)
+	elseif slot5[1] == uv1 then
+		slot4, slot3 = slot2.condition.func(getProxy(BayProxy):getShipById(getProxy(PlayerProxy):getRawData().character))
+		slot0.stepConfig.condition = nil
+	end
+
+	assert(slot3, "index can not be nil")
+
+	return slot4, slot3
+end
+
+slot0.checkPtotocol = function(slot0, slot1, slot2)
+	slot3 = slot1.protocol
+
+	return slot1.func(slot2.view, (_.select(slot0.protocols, function (slot0)
+		return slot0.protocol == uv0
+	end)[1] or {}).args)
+end
+
+slot0.increaseIndex = function(slot0, slot1)
+	slot0:updateIndex(slot0.currIndex + 1, slot1)
+end
+
+slot0.updateIndex = function(slot0, slot1, slot2)
+	pg.m02:sendNotification(GAME.UPDATE_GUIDE_INDEX, {
+		index = slot1,
+		callback = slot2
+	})
+end
+
+slot0.doNextStep = function(slot0, slot1, slot2)
+	slot0.stepConfig = nil
+
+	if slot0:isEnd() then
+		return
+	end
+
+	slot3 = slot0.guideCfgs[slot1]
+
+	if slot0:canPlay({
+		view = slot3.view[#slot3.view],
+		code = slot2
+	}) then
+		slot0:start(slot4)
+	end
+end
+
+slot0.isEnd = function(slot0)
+	return slot0.currIndex > #slot0.guideCfgs or not ENABLE_GUIDE
+end
+
+slot0.receiceProtocol = function(slot0, slot1, slot2, slot3)
+	table.insert(slot0.protocols, {
+		protocol = slot1,
+		args = slot2,
+		data = slot3
+	})
+
+	if slot0.onReceiceProtocol then
+		slot0.onReceiceProtocol(slot1)
+	end
+end
+
+slot0.canPlay = function(slot0, slot1)
+	if slot0.state ~= uv0.IDLE then
+		log("guider is busy")
+
+		return false
+	end
+
+	if not ENABLE_GUIDE then
+		log("ENABLE is false")
+
+		return false
+	end
+
+	if not slot0.guideMgr then
+		log("guideMgr is nil")
+
+		return false
+	end
+
+	if not slot0.plevel then
+		log("player is nil")
+
+		return false
+	end
+
+	if slot0:isEnd() then
+		log("guider is end")
+
+		return false
+	end
+
+	if not table.contains(slot0:getStepConfig(slot0.currIndex).view, slot1.view) then
+		log("view is erro", slot0.currIndex, slot1.view, slot2.view[1], slot2.view[2])
+
+		return false
+	end
+
+	return true
+end
+
+slot0.setPlayer = function(slot0, slot1)
+	slot0.plevel = slot1.level
+	slot0.pguideIndex = slot1.guideIndex
+	slot0.currIndex = slot1.guideIndex
+
+	slot0:compatibleOldPlayer()
+end
+
+slot0.dispose = function(slot0)
+	slot0.plevel = nil
+	slot0.guideIndex = nil
+	slot0.protocols = {}
+	slot0.state = uv0.IDLE
+end
+
+slot0.compatibleOldPlayer = function(slot0)
+	if not slot0.plevel then
+		return
+	end
+
+	slot1 = function()
+		slot1 = getProxy(PlayerProxy):getRawData()
+		slot1.guideIndex = uv0
+
+		uv1:setPlayer(slot1)
+		uv1:updateIndex(slot1.guideIndex)
+	end
+
+	if slot0.plevel >= 5 and slot0.pguideIndex < uv0 then
+		slot1()
+
+		return
+	end
+
+	if slot0.pguideIndex ~= uv0 then
+		pg.SystemGuideMgr.GetInstance():FixGuide(function ()
+			if uv0.pguideIndex > 1 and uv0.pguideIndex < 101 then
+				uv1()
+			end
+		end)
+	end
+end

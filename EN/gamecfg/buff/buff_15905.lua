@@ -1,0 +1,23 @@
+return {
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	time = 1,
+	name = "",
+	init_effect = "",
+	id = 15905,
+	picture = "",
+	desc = "触发器",
+	stack = 1,
+	color = "blue",
+	icon = 15900,
+	last_effect = "Health",
+	effect_list = {}
+}
