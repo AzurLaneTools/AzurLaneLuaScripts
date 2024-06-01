@@ -1,0 +1,655 @@
+slot0 = require("protobuf")
+slot1 = require("common_pb")
+
+module("p30_pb")
+
+slot2 = {
+	SC_30001_UNREAD_NUMBER_FIELD = slot0.FieldDescriptor(),
+	SC_30001_TOTAL_NUMBER_FIELD = slot0.FieldDescriptor(),
+	CS_30002_TYPE_FIELD = slot0.FieldDescriptor(),
+	CS_30002_INDEX_BEGIN_FIELD = slot0.FieldDescriptor(),
+	CS_30002_INDEX_END_FIELD = slot0.FieldDescriptor(),
+	SC_30003_MAIL_LIST_FIELD = slot0.FieldDescriptor(),
+	CS_30004_INDEX_BEGIN_FIELD = slot0.FieldDescriptor(),
+	CS_30004_INDEX_END_FIELD = slot0.FieldDescriptor(),
+	SC_30005_MAIL_LIST_FIELD = slot0.FieldDescriptor(),
+	CS_30006_CMD_FIELD = slot0.FieldDescriptor(),
+	CS_30006_MATCH_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_30007_RESULT_FIELD = slot0.FieldDescriptor(),
+	SC_30007_MAIL_ID_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_30007_DROP_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_30007_UNREAD_NUMBER_FIELD = slot0.FieldDescriptor(),
+	CS_30008_MAIL_ID_FIELD = slot0.FieldDescriptor(),
+	SC_30009_RESULT_FIELD = slot0.FieldDescriptor(),
+	CS_30010_ARG_FIELD = slot0.FieldDescriptor(),
+	SC_30011_RESULT_FIELD = slot0.FieldDescriptor(),
+	CS_30012_OIL_FIELD = slot0.FieldDescriptor(),
+	CS_30012_GOLD_FIELD = slot0.FieldDescriptor(),
+	SC_30013_RESULT_FIELD = slot0.FieldDescriptor(),
+	CS_30014_ID_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_30015_MAIL_TITLE_LIST_FIELD = slot0.FieldDescriptor(),
+	MATCH_EXPRESSION_TYPE_FIELD = slot0.FieldDescriptor(),
+	MATCH_EXPRESSION_ARG_LIST_FIELD = slot0.FieldDescriptor(),
+	MAIL_INFO_ID_FIELD = slot0.FieldDescriptor(),
+	MAIL_INFO_DATE_FIELD = slot0.FieldDescriptor(),
+	MAIL_INFO_TITLE_FIELD = slot0.FieldDescriptor(),
+	MAIL_INFO_CONTENT_FIELD = slot0.FieldDescriptor(),
+	MAIL_INFO_ATTACHMENT_LIST_FIELD = slot0.FieldDescriptor(),
+	MAIL_INFO_ATTACH_FLAG_FIELD = slot0.FieldDescriptor(),
+	MAIL_INFO_READ_FLAG_FIELD = slot0.FieldDescriptor(),
+	MAIL_INFO_IMP_FLAG_FIELD = slot0.FieldDescriptor(),
+	MAIL_SIMPLE_INFO_ID_FIELD = slot0.FieldDescriptor(),
+	MAIL_SIMPLE_INFO_DATE_FIELD = slot0.FieldDescriptor(),
+	MAIL_SIMPLE_INFO_TITLE_FIELD = slot0.FieldDescriptor(),
+	MAIL_SIMPLE_INFO_CONTENT_FIELD = slot0.FieldDescriptor(),
+	MAIL_SIMPLE_INFO_ATTACHMENT_LIST_FIELD = slot0.FieldDescriptor(),
+	MAIL_TITLE_ID_FIELD = slot0.FieldDescriptor(),
+	MAIL_TITLE_TITLE_FIELD = slot0.FieldDescriptor()
+}
+SC_30001 = slot0.Descriptor()
+CS_30002 = slot0.Descriptor()
+SC_30003 = slot0.Descriptor()
+CS_30004 = slot0.Descriptor()
+SC_30005 = slot0.Descriptor()
+CS_30006 = slot0.Descriptor()
+SC_30007 = slot0.Descriptor()
+CS_30008 = slot0.Descriptor()
+SC_30009 = slot0.Descriptor()
+CS_30010 = slot0.Descriptor()
+SC_30011 = slot0.Descriptor()
+CS_30012 = slot0.Descriptor()
+SC_30013 = slot0.Descriptor()
+CS_30014 = slot0.Descriptor()
+SC_30015 = slot0.Descriptor()
+MATCH_EXPRESSION = slot0.Descriptor()
+MAIL_INFO = slot0.Descriptor()
+MAIL_SIMPLE_INFO = slot0.Descriptor()
+MAIL_TITLE = slot0.Descriptor()
+slot2.SC_30001_UNREAD_NUMBER_FIELD.name = "unread_number"
+slot2.SC_30001_UNREAD_NUMBER_FIELD.full_name = "p30.sc_30001.unread_number"
+slot2.SC_30001_UNREAD_NUMBER_FIELD.number = 1
+slot2.SC_30001_UNREAD_NUMBER_FIELD.index = 0
+slot2.SC_30001_UNREAD_NUMBER_FIELD.label = 2
+slot2.SC_30001_UNREAD_NUMBER_FIELD.has_default_value = false
+slot2.SC_30001_UNREAD_NUMBER_FIELD.default_value = 0
+slot2.SC_30001_UNREAD_NUMBER_FIELD.type = 13
+slot2.SC_30001_UNREAD_NUMBER_FIELD.cpp_type = 3
+slot2.SC_30001_TOTAL_NUMBER_FIELD.name = "total_number"
+slot2.SC_30001_TOTAL_NUMBER_FIELD.full_name = "p30.sc_30001.total_number"
+slot2.SC_30001_TOTAL_NUMBER_FIELD.number = 2
+slot2.SC_30001_TOTAL_NUMBER_FIELD.index = 1
+slot2.SC_30001_TOTAL_NUMBER_FIELD.label = 2
+slot2.SC_30001_TOTAL_NUMBER_FIELD.has_default_value = false
+slot2.SC_30001_TOTAL_NUMBER_FIELD.default_value = 0
+slot2.SC_30001_TOTAL_NUMBER_FIELD.type = 13
+slot2.SC_30001_TOTAL_NUMBER_FIELD.cpp_type = 3
+SC_30001.name = "sc_30001"
+SC_30001.full_name = "p30.sc_30001"
+SC_30001.nested_types = {}
+SC_30001.enum_types = {}
+SC_30001.fields = {
+	slot2.SC_30001_UNREAD_NUMBER_FIELD,
+	slot2.SC_30001_TOTAL_NUMBER_FIELD
+}
+SC_30001.is_extendable = false
+SC_30001.extensions = {}
+slot2.CS_30002_TYPE_FIELD.name = "type"
+slot2.CS_30002_TYPE_FIELD.full_name = "p30.cs_30002.type"
+slot2.CS_30002_TYPE_FIELD.number = 1
+slot2.CS_30002_TYPE_FIELD.index = 0
+slot2.CS_30002_TYPE_FIELD.label = 2
+slot2.CS_30002_TYPE_FIELD.has_default_value = false
+slot2.CS_30002_TYPE_FIELD.default_value = 0
+slot2.CS_30002_TYPE_FIELD.type = 13
+slot2.CS_30002_TYPE_FIELD.cpp_type = 3
+slot2.CS_30002_INDEX_BEGIN_FIELD.name = "index_begin"
+slot2.CS_30002_INDEX_BEGIN_FIELD.full_name = "p30.cs_30002.index_begin"
+slot2.CS_30002_INDEX_BEGIN_FIELD.number = 2
+slot2.CS_30002_INDEX_BEGIN_FIELD.index = 1
+slot2.CS_30002_INDEX_BEGIN_FIELD.label = 2
+slot2.CS_30002_INDEX_BEGIN_FIELD.has_default_value = false
+slot2.CS_30002_INDEX_BEGIN_FIELD.default_value = 0
+slot2.CS_30002_INDEX_BEGIN_FIELD.type = 13
+slot2.CS_30002_INDEX_BEGIN_FIELD.cpp_type = 3
+slot2.CS_30002_INDEX_END_FIELD.name = "index_end"
+slot2.CS_30002_INDEX_END_FIELD.full_name = "p30.cs_30002.index_end"
+slot2.CS_30002_INDEX_END_FIELD.number = 3
+slot2.CS_30002_INDEX_END_FIELD.index = 2
+slot2.CS_30002_INDEX_END_FIELD.label = 2
+slot2.CS_30002_INDEX_END_FIELD.has_default_value = false
+slot2.CS_30002_INDEX_END_FIELD.default_value = 0
+slot2.CS_30002_INDEX_END_FIELD.type = 13
+slot2.CS_30002_INDEX_END_FIELD.cpp_type = 3
+CS_30002.name = "cs_30002"
+CS_30002.full_name = "p30.cs_30002"
+CS_30002.nested_types = {}
+CS_30002.enum_types = {}
+CS_30002.fields = {
+	slot2.CS_30002_TYPE_FIELD,
+	slot2.CS_30002_INDEX_BEGIN_FIELD,
+	slot2.CS_30002_INDEX_END_FIELD
+}
+CS_30002.is_extendable = false
+CS_30002.extensions = {}
+slot2.SC_30003_MAIL_LIST_FIELD.name = "mail_list"
+slot2.SC_30003_MAIL_LIST_FIELD.full_name = "p30.sc_30003.mail_list"
+slot2.SC_30003_MAIL_LIST_FIELD.number = 1
+slot2.SC_30003_MAIL_LIST_FIELD.index = 0
+slot2.SC_30003_MAIL_LIST_FIELD.label = 3
+slot2.SC_30003_MAIL_LIST_FIELD.has_default_value = false
+slot2.SC_30003_MAIL_LIST_FIELD.default_value = {}
+slot2.SC_30003_MAIL_LIST_FIELD.message_type = MAIL_INFO
+slot2.SC_30003_MAIL_LIST_FIELD.type = 11
+slot2.SC_30003_MAIL_LIST_FIELD.cpp_type = 10
+SC_30003.name = "sc_30003"
+SC_30003.full_name = "p30.sc_30003"
+SC_30003.nested_types = {}
+SC_30003.enum_types = {}
+SC_30003.fields = {
+	slot2.SC_30003_MAIL_LIST_FIELD
+}
+SC_30003.is_extendable = false
+SC_30003.extensions = {}
+slot2.CS_30004_INDEX_BEGIN_FIELD.name = "index_begin"
+slot2.CS_30004_INDEX_BEGIN_FIELD.full_name = "p30.cs_30004.index_begin"
+slot2.CS_30004_INDEX_BEGIN_FIELD.number = 1
+slot2.CS_30004_INDEX_BEGIN_FIELD.index = 0
+slot2.CS_30004_INDEX_BEGIN_FIELD.label = 2
+slot2.CS_30004_INDEX_BEGIN_FIELD.has_default_value = false
+slot2.CS_30004_INDEX_BEGIN_FIELD.default_value = 0
+slot2.CS_30004_INDEX_BEGIN_FIELD.type = 13
+slot2.CS_30004_INDEX_BEGIN_FIELD.cpp_type = 3
+slot2.CS_30004_INDEX_END_FIELD.name = "index_end"
+slot2.CS_30004_INDEX_END_FIELD.full_name = "p30.cs_30004.index_end"
+slot2.CS_30004_INDEX_END_FIELD.number = 2
+slot2.CS_30004_INDEX_END_FIELD.index = 1
+slot2.CS_30004_INDEX_END_FIELD.label = 2
+slot2.CS_30004_INDEX_END_FIELD.has_default_value = false
+slot2.CS_30004_INDEX_END_FIELD.default_value = 0
+slot2.CS_30004_INDEX_END_FIELD.type = 13
+slot2.CS_30004_INDEX_END_FIELD.cpp_type = 3
+CS_30004.name = "cs_30004"
+CS_30004.full_name = "p30.cs_30004"
+CS_30004.nested_types = {}
+CS_30004.enum_types = {}
+CS_30004.fields = {
+	slot2.CS_30004_INDEX_BEGIN_FIELD,
+	slot2.CS_30004_INDEX_END_FIELD
+}
+CS_30004.is_extendable = false
+CS_30004.extensions = {}
+slot2.SC_30005_MAIL_LIST_FIELD.name = "mail_list"
+slot2.SC_30005_MAIL_LIST_FIELD.full_name = "p30.sc_30005.mail_list"
+slot2.SC_30005_MAIL_LIST_FIELD.number = 1
+slot2.SC_30005_MAIL_LIST_FIELD.index = 0
+slot2.SC_30005_MAIL_LIST_FIELD.label = 3
+slot2.SC_30005_MAIL_LIST_FIELD.has_default_value = false
+slot2.SC_30005_MAIL_LIST_FIELD.default_value = {}
+slot2.SC_30005_MAIL_LIST_FIELD.message_type = MAIL_SIMPLE_INFO
+slot2.SC_30005_MAIL_LIST_FIELD.type = 11
+slot2.SC_30005_MAIL_LIST_FIELD.cpp_type = 10
+SC_30005.name = "sc_30005"
+SC_30005.full_name = "p30.sc_30005"
+SC_30005.nested_types = {}
+SC_30005.enum_types = {}
+SC_30005.fields = {
+	slot2.SC_30005_MAIL_LIST_FIELD
+}
+SC_30005.is_extendable = false
+SC_30005.extensions = {}
+slot2.CS_30006_CMD_FIELD.name = "cmd"
+slot2.CS_30006_CMD_FIELD.full_name = "p30.cs_30006.cmd"
+slot2.CS_30006_CMD_FIELD.number = 1
+slot2.CS_30006_CMD_FIELD.index = 0
+slot2.CS_30006_CMD_FIELD.label = 2
+slot2.CS_30006_CMD_FIELD.has_default_value = false
+slot2.CS_30006_CMD_FIELD.default_value = 0
+slot2.CS_30006_CMD_FIELD.type = 13
+slot2.CS_30006_CMD_FIELD.cpp_type = 3
+slot2.CS_30006_MATCH_LIST_FIELD.name = "match_list"
+slot2.CS_30006_MATCH_LIST_FIELD.full_name = "p30.cs_30006.match_list"
+slot2.CS_30006_MATCH_LIST_FIELD.number = 2
+slot2.CS_30006_MATCH_LIST_FIELD.index = 1
+slot2.CS_30006_MATCH_LIST_FIELD.label = 3
+slot2.CS_30006_MATCH_LIST_FIELD.has_default_value = false
+slot2.CS_30006_MATCH_LIST_FIELD.default_value = {}
+slot2.CS_30006_MATCH_LIST_FIELD.message_type = MATCH_EXPRESSION
+slot2.CS_30006_MATCH_LIST_FIELD.type = 11
+slot2.CS_30006_MATCH_LIST_FIELD.cpp_type = 10
+CS_30006.name = "cs_30006"
+CS_30006.full_name = "p30.cs_30006"
+CS_30006.nested_types = {}
+CS_30006.enum_types = {}
+CS_30006.fields = {
+	slot2.CS_30006_CMD_FIELD,
+	slot2.CS_30006_MATCH_LIST_FIELD
+}
+CS_30006.is_extendable = false
+CS_30006.extensions = {}
+slot2.SC_30007_RESULT_FIELD.name = "result"
+slot2.SC_30007_RESULT_FIELD.full_name = "p30.sc_30007.result"
+slot2.SC_30007_RESULT_FIELD.number = 1
+slot2.SC_30007_RESULT_FIELD.index = 0
+slot2.SC_30007_RESULT_FIELD.label = 2
+slot2.SC_30007_RESULT_FIELD.has_default_value = false
+slot2.SC_30007_RESULT_FIELD.default_value = 0
+slot2.SC_30007_RESULT_FIELD.type = 13
+slot2.SC_30007_RESULT_FIELD.cpp_type = 3
+slot2.SC_30007_MAIL_ID_LIST_FIELD.name = "mail_id_list"
+slot2.SC_30007_MAIL_ID_LIST_FIELD.full_name = "p30.sc_30007.mail_id_list"
+slot2.SC_30007_MAIL_ID_LIST_FIELD.number = 2
+slot2.SC_30007_MAIL_ID_LIST_FIELD.index = 1
+slot2.SC_30007_MAIL_ID_LIST_FIELD.label = 3
+slot2.SC_30007_MAIL_ID_LIST_FIELD.has_default_value = false
+slot2.SC_30007_MAIL_ID_LIST_FIELD.default_value = {}
+slot2.SC_30007_MAIL_ID_LIST_FIELD.type = 13
+slot2.SC_30007_MAIL_ID_LIST_FIELD.cpp_type = 3
+slot2.SC_30007_DROP_LIST_FIELD.name = "drop_list"
+slot2.SC_30007_DROP_LIST_FIELD.full_name = "p30.sc_30007.drop_list"
+slot2.SC_30007_DROP_LIST_FIELD.number = 3
+slot2.SC_30007_DROP_LIST_FIELD.index = 2
+slot2.SC_30007_DROP_LIST_FIELD.label = 3
+slot2.SC_30007_DROP_LIST_FIELD.has_default_value = false
+slot2.SC_30007_DROP_LIST_FIELD.default_value = {}
+slot2.SC_30007_DROP_LIST_FIELD.message_type = slot1.DROPINFO
+slot2.SC_30007_DROP_LIST_FIELD.type = 11
+slot2.SC_30007_DROP_LIST_FIELD.cpp_type = 10
+slot2.SC_30007_UNREAD_NUMBER_FIELD.name = "unread_number"
+slot2.SC_30007_UNREAD_NUMBER_FIELD.full_name = "p30.sc_30007.unread_number"
+slot2.SC_30007_UNREAD_NUMBER_FIELD.number = 4
+slot2.SC_30007_UNREAD_NUMBER_FIELD.index = 3
+slot2.SC_30007_UNREAD_NUMBER_FIELD.label = 2
+slot2.SC_30007_UNREAD_NUMBER_FIELD.has_default_value = false
+slot2.SC_30007_UNREAD_NUMBER_FIELD.default_value = 0
+slot2.SC_30007_UNREAD_NUMBER_FIELD.type = 13
+slot2.SC_30007_UNREAD_NUMBER_FIELD.cpp_type = 3
+SC_30007.name = "sc_30007"
+SC_30007.full_name = "p30.sc_30007"
+SC_30007.nested_types = {}
+SC_30007.enum_types = {}
+SC_30007.fields = {
+	slot2.SC_30007_RESULT_FIELD,
+	slot2.SC_30007_MAIL_ID_LIST_FIELD,
+	slot2.SC_30007_DROP_LIST_FIELD,
+	slot2.SC_30007_UNREAD_NUMBER_FIELD
+}
+SC_30007.is_extendable = false
+SC_30007.extensions = {}
+slot2.CS_30008_MAIL_ID_FIELD.name = "mail_id"
+slot2.CS_30008_MAIL_ID_FIELD.full_name = "p30.cs_30008.mail_id"
+slot2.CS_30008_MAIL_ID_FIELD.number = 1
+slot2.CS_30008_MAIL_ID_FIELD.index = 0
+slot2.CS_30008_MAIL_ID_FIELD.label = 2
+slot2.CS_30008_MAIL_ID_FIELD.has_default_value = false
+slot2.CS_30008_MAIL_ID_FIELD.default_value = 0
+slot2.CS_30008_MAIL_ID_FIELD.type = 13
+slot2.CS_30008_MAIL_ID_FIELD.cpp_type = 3
+CS_30008.name = "cs_30008"
+CS_30008.full_name = "p30.cs_30008"
+CS_30008.nested_types = {}
+CS_30008.enum_types = {}
+CS_30008.fields = {
+	slot2.CS_30008_MAIL_ID_FIELD
+}
+CS_30008.is_extendable = false
+CS_30008.extensions = {}
+slot2.SC_30009_RESULT_FIELD.name = "result"
+slot2.SC_30009_RESULT_FIELD.full_name = "p30.sc_30009.result"
+slot2.SC_30009_RESULT_FIELD.number = 1
+slot2.SC_30009_RESULT_FIELD.index = 0
+slot2.SC_30009_RESULT_FIELD.label = 2
+slot2.SC_30009_RESULT_FIELD.has_default_value = false
+slot2.SC_30009_RESULT_FIELD.default_value = 0
+slot2.SC_30009_RESULT_FIELD.type = 13
+slot2.SC_30009_RESULT_FIELD.cpp_type = 3
+SC_30009.name = "sc_30009"
+SC_30009.full_name = "p30.sc_30009"
+SC_30009.nested_types = {}
+SC_30009.enum_types = {}
+SC_30009.fields = {
+	slot2.SC_30009_RESULT_FIELD
+}
+SC_30009.is_extendable = false
+SC_30009.extensions = {}
+slot2.CS_30010_ARG_FIELD.name = "arg"
+slot2.CS_30010_ARG_FIELD.full_name = "p30.cs_30010.arg"
+slot2.CS_30010_ARG_FIELD.number = 1
+slot2.CS_30010_ARG_FIELD.index = 0
+slot2.CS_30010_ARG_FIELD.label = 2
+slot2.CS_30010_ARG_FIELD.has_default_value = false
+slot2.CS_30010_ARG_FIELD.default_value = 0
+slot2.CS_30010_ARG_FIELD.type = 13
+slot2.CS_30010_ARG_FIELD.cpp_type = 3
+CS_30010.name = "cs_30010"
+CS_30010.full_name = "p30.cs_30010"
+CS_30010.nested_types = {}
+CS_30010.enum_types = {}
+CS_30010.fields = {
+	slot2.CS_30010_ARG_FIELD
+}
+CS_30010.is_extendable = false
+CS_30010.extensions = {}
+slot2.SC_30011_RESULT_FIELD.name = "result"
+slot2.SC_30011_RESULT_FIELD.full_name = "p30.sc_30011.result"
+slot2.SC_30011_RESULT_FIELD.number = 1
+slot2.SC_30011_RESULT_FIELD.index = 0
+slot2.SC_30011_RESULT_FIELD.label = 2
+slot2.SC_30011_RESULT_FIELD.has_default_value = false
+slot2.SC_30011_RESULT_FIELD.default_value = 0
+slot2.SC_30011_RESULT_FIELD.type = 13
+slot2.SC_30011_RESULT_FIELD.cpp_type = 3
+SC_30011.name = "sc_30011"
+SC_30011.full_name = "p30.sc_30011"
+SC_30011.nested_types = {}
+SC_30011.enum_types = {}
+SC_30011.fields = {
+	slot2.SC_30011_RESULT_FIELD
+}
+SC_30011.is_extendable = false
+SC_30011.extensions = {}
+slot2.CS_30012_OIL_FIELD.name = "oil"
+slot2.CS_30012_OIL_FIELD.full_name = "p30.cs_30012.oil"
+slot2.CS_30012_OIL_FIELD.number = 1
+slot2.CS_30012_OIL_FIELD.index = 0
+slot2.CS_30012_OIL_FIELD.label = 2
+slot2.CS_30012_OIL_FIELD.has_default_value = false
+slot2.CS_30012_OIL_FIELD.default_value = 0
+slot2.CS_30012_OIL_FIELD.type = 13
+slot2.CS_30012_OIL_FIELD.cpp_type = 3
+slot2.CS_30012_GOLD_FIELD.name = "gold"
+slot2.CS_30012_GOLD_FIELD.full_name = "p30.cs_30012.gold"
+slot2.CS_30012_GOLD_FIELD.number = 2
+slot2.CS_30012_GOLD_FIELD.index = 1
+slot2.CS_30012_GOLD_FIELD.label = 2
+slot2.CS_30012_GOLD_FIELD.has_default_value = false
+slot2.CS_30012_GOLD_FIELD.default_value = 0
+slot2.CS_30012_GOLD_FIELD.type = 13
+slot2.CS_30012_GOLD_FIELD.cpp_type = 3
+CS_30012.name = "cs_30012"
+CS_30012.full_name = "p30.cs_30012"
+CS_30012.nested_types = {}
+CS_30012.enum_types = {}
+CS_30012.fields = {
+	slot2.CS_30012_OIL_FIELD,
+	slot2.CS_30012_GOLD_FIELD
+}
+CS_30012.is_extendable = false
+CS_30012.extensions = {}
+slot2.SC_30013_RESULT_FIELD.name = "result"
+slot2.SC_30013_RESULT_FIELD.full_name = "p30.sc_30013.result"
+slot2.SC_30013_RESULT_FIELD.number = 1
+slot2.SC_30013_RESULT_FIELD.index = 0
+slot2.SC_30013_RESULT_FIELD.label = 2
+slot2.SC_30013_RESULT_FIELD.has_default_value = false
+slot2.SC_30013_RESULT_FIELD.default_value = 0
+slot2.SC_30013_RESULT_FIELD.type = 13
+slot2.SC_30013_RESULT_FIELD.cpp_type = 3
+SC_30013.name = "sc_30013"
+SC_30013.full_name = "p30.sc_30013"
+SC_30013.nested_types = {}
+SC_30013.enum_types = {}
+SC_30013.fields = {
+	slot2.SC_30013_RESULT_FIELD
+}
+SC_30013.is_extendable = false
+SC_30013.extensions = {}
+slot2.CS_30014_ID_LIST_FIELD.name = "id_list"
+slot2.CS_30014_ID_LIST_FIELD.full_name = "p30.cs_30014.id_list"
+slot2.CS_30014_ID_LIST_FIELD.number = 1
+slot2.CS_30014_ID_LIST_FIELD.index = 0
+slot2.CS_30014_ID_LIST_FIELD.label = 3
+slot2.CS_30014_ID_LIST_FIELD.has_default_value = false
+slot2.CS_30014_ID_LIST_FIELD.default_value = {}
+slot2.CS_30014_ID_LIST_FIELD.type = 13
+slot2.CS_30014_ID_LIST_FIELD.cpp_type = 3
+CS_30014.name = "cs_30014"
+CS_30014.full_name = "p30.cs_30014"
+CS_30014.nested_types = {}
+CS_30014.enum_types = {}
+CS_30014.fields = {
+	slot2.CS_30014_ID_LIST_FIELD
+}
+CS_30014.is_extendable = false
+CS_30014.extensions = {}
+slot2.SC_30015_MAIL_TITLE_LIST_FIELD.name = "mail_title_list"
+slot2.SC_30015_MAIL_TITLE_LIST_FIELD.full_name = "p30.sc_30015.mail_title_list"
+slot2.SC_30015_MAIL_TITLE_LIST_FIELD.number = 2
+slot2.SC_30015_MAIL_TITLE_LIST_FIELD.index = 0
+slot2.SC_30015_MAIL_TITLE_LIST_FIELD.label = 3
+slot2.SC_30015_MAIL_TITLE_LIST_FIELD.has_default_value = false
+slot2.SC_30015_MAIL_TITLE_LIST_FIELD.default_value = {}
+slot2.SC_30015_MAIL_TITLE_LIST_FIELD.message_type = MAIL_TITLE
+slot2.SC_30015_MAIL_TITLE_LIST_FIELD.type = 11
+slot2.SC_30015_MAIL_TITLE_LIST_FIELD.cpp_type = 10
+SC_30015.name = "sc_30015"
+SC_30015.full_name = "p30.sc_30015"
+SC_30015.nested_types = {}
+SC_30015.enum_types = {}
+SC_30015.fields = {
+	slot2.SC_30015_MAIL_TITLE_LIST_FIELD
+}
+SC_30015.is_extendable = false
+SC_30015.extensions = {}
+slot2.MATCH_EXPRESSION_TYPE_FIELD.name = "type"
+slot2.MATCH_EXPRESSION_TYPE_FIELD.full_name = "p30.match_expression.type"
+slot2.MATCH_EXPRESSION_TYPE_FIELD.number = 1
+slot2.MATCH_EXPRESSION_TYPE_FIELD.index = 0
+slot2.MATCH_EXPRESSION_TYPE_FIELD.label = 2
+slot2.MATCH_EXPRESSION_TYPE_FIELD.has_default_value = false
+slot2.MATCH_EXPRESSION_TYPE_FIELD.default_value = 0
+slot2.MATCH_EXPRESSION_TYPE_FIELD.type = 13
+slot2.MATCH_EXPRESSION_TYPE_FIELD.cpp_type = 3
+slot2.MATCH_EXPRESSION_ARG_LIST_FIELD.name = "arg_list"
+slot2.MATCH_EXPRESSION_ARG_LIST_FIELD.full_name = "p30.match_expression.arg_list"
+slot2.MATCH_EXPRESSION_ARG_LIST_FIELD.number = 2
+slot2.MATCH_EXPRESSION_ARG_LIST_FIELD.index = 1
+slot2.MATCH_EXPRESSION_ARG_LIST_FIELD.label = 3
+slot2.MATCH_EXPRESSION_ARG_LIST_FIELD.has_default_value = false
+slot2.MATCH_EXPRESSION_ARG_LIST_FIELD.default_value = {}
+slot2.MATCH_EXPRESSION_ARG_LIST_FIELD.type = 13
+slot2.MATCH_EXPRESSION_ARG_LIST_FIELD.cpp_type = 3
+MATCH_EXPRESSION.name = "match_expression"
+MATCH_EXPRESSION.full_name = "p30.match_expression"
+MATCH_EXPRESSION.nested_types = {}
+MATCH_EXPRESSION.enum_types = {}
+MATCH_EXPRESSION.fields = {
+	slot2.MATCH_EXPRESSION_TYPE_FIELD,
+	slot2.MATCH_EXPRESSION_ARG_LIST_FIELD
+}
+MATCH_EXPRESSION.is_extendable = false
+MATCH_EXPRESSION.extensions = {}
+slot2.MAIL_INFO_ID_FIELD.name = "id"
+slot2.MAIL_INFO_ID_FIELD.full_name = "p30.mail_info.id"
+slot2.MAIL_INFO_ID_FIELD.number = 1
+slot2.MAIL_INFO_ID_FIELD.index = 0
+slot2.MAIL_INFO_ID_FIELD.label = 2
+slot2.MAIL_INFO_ID_FIELD.has_default_value = false
+slot2.MAIL_INFO_ID_FIELD.default_value = 0
+slot2.MAIL_INFO_ID_FIELD.type = 13
+slot2.MAIL_INFO_ID_FIELD.cpp_type = 3
+slot2.MAIL_INFO_DATE_FIELD.name = "date"
+slot2.MAIL_INFO_DATE_FIELD.full_name = "p30.mail_info.date"
+slot2.MAIL_INFO_DATE_FIELD.number = 2
+slot2.MAIL_INFO_DATE_FIELD.index = 1
+slot2.MAIL_INFO_DATE_FIELD.label = 2
+slot2.MAIL_INFO_DATE_FIELD.has_default_value = false
+slot2.MAIL_INFO_DATE_FIELD.default_value = 0
+slot2.MAIL_INFO_DATE_FIELD.type = 13
+slot2.MAIL_INFO_DATE_FIELD.cpp_type = 3
+slot2.MAIL_INFO_TITLE_FIELD.name = "title"
+slot2.MAIL_INFO_TITLE_FIELD.full_name = "p30.mail_info.title"
+slot2.MAIL_INFO_TITLE_FIELD.number = 3
+slot2.MAIL_INFO_TITLE_FIELD.index = 2
+slot2.MAIL_INFO_TITLE_FIELD.label = 2
+slot2.MAIL_INFO_TITLE_FIELD.has_default_value = false
+slot2.MAIL_INFO_TITLE_FIELD.default_value = ""
+slot2.MAIL_INFO_TITLE_FIELD.type = 9
+slot2.MAIL_INFO_TITLE_FIELD.cpp_type = 9
+slot2.MAIL_INFO_CONTENT_FIELD.name = "content"
+slot2.MAIL_INFO_CONTENT_FIELD.full_name = "p30.mail_info.content"
+slot2.MAIL_INFO_CONTENT_FIELD.number = 4
+slot2.MAIL_INFO_CONTENT_FIELD.index = 3
+slot2.MAIL_INFO_CONTENT_FIELD.label = 2
+slot2.MAIL_INFO_CONTENT_FIELD.has_default_value = false
+slot2.MAIL_INFO_CONTENT_FIELD.default_value = ""
+slot2.MAIL_INFO_CONTENT_FIELD.type = 9
+slot2.MAIL_INFO_CONTENT_FIELD.cpp_type = 9
+slot2.MAIL_INFO_ATTACHMENT_LIST_FIELD.name = "attachment_list"
+slot2.MAIL_INFO_ATTACHMENT_LIST_FIELD.full_name = "p30.mail_info.attachment_list"
+slot2.MAIL_INFO_ATTACHMENT_LIST_FIELD.number = 5
+slot2.MAIL_INFO_ATTACHMENT_LIST_FIELD.index = 4
+slot2.MAIL_INFO_ATTACHMENT_LIST_FIELD.label = 3
+slot2.MAIL_INFO_ATTACHMENT_LIST_FIELD.has_default_value = false
+slot2.MAIL_INFO_ATTACHMENT_LIST_FIELD.default_value = {}
+slot2.MAIL_INFO_ATTACHMENT_LIST_FIELD.message_type = slot1.DROPINFO
+slot2.MAIL_INFO_ATTACHMENT_LIST_FIELD.type = 11
+slot2.MAIL_INFO_ATTACHMENT_LIST_FIELD.cpp_type = 10
+slot2.MAIL_INFO_ATTACH_FLAG_FIELD.name = "attach_flag"
+slot2.MAIL_INFO_ATTACH_FLAG_FIELD.full_name = "p30.mail_info.attach_flag"
+slot2.MAIL_INFO_ATTACH_FLAG_FIELD.number = 6
+slot2.MAIL_INFO_ATTACH_FLAG_FIELD.index = 5
+slot2.MAIL_INFO_ATTACH_FLAG_FIELD.label = 2
+slot2.MAIL_INFO_ATTACH_FLAG_FIELD.has_default_value = false
+slot2.MAIL_INFO_ATTACH_FLAG_FIELD.default_value = 0
+slot2.MAIL_INFO_ATTACH_FLAG_FIELD.type = 13
+slot2.MAIL_INFO_ATTACH_FLAG_FIELD.cpp_type = 3
+slot2.MAIL_INFO_READ_FLAG_FIELD.name = "read_flag"
+slot2.MAIL_INFO_READ_FLAG_FIELD.full_name = "p30.mail_info.read_flag"
+slot2.MAIL_INFO_READ_FLAG_FIELD.number = 7
+slot2.MAIL_INFO_READ_FLAG_FIELD.index = 6
+slot2.MAIL_INFO_READ_FLAG_FIELD.label = 2
+slot2.MAIL_INFO_READ_FLAG_FIELD.has_default_value = false
+slot2.MAIL_INFO_READ_FLAG_FIELD.default_value = 0
+slot2.MAIL_INFO_READ_FLAG_FIELD.type = 13
+slot2.MAIL_INFO_READ_FLAG_FIELD.cpp_type = 3
+slot2.MAIL_INFO_IMP_FLAG_FIELD.name = "imp_flag"
+slot2.MAIL_INFO_IMP_FLAG_FIELD.full_name = "p30.mail_info.imp_flag"
+slot2.MAIL_INFO_IMP_FLAG_FIELD.number = 8
+slot2.MAIL_INFO_IMP_FLAG_FIELD.index = 7
+slot2.MAIL_INFO_IMP_FLAG_FIELD.label = 2
+slot2.MAIL_INFO_IMP_FLAG_FIELD.has_default_value = false
+slot2.MAIL_INFO_IMP_FLAG_FIELD.default_value = 0
+slot2.MAIL_INFO_IMP_FLAG_FIELD.type = 13
+slot2.MAIL_INFO_IMP_FLAG_FIELD.cpp_type = 3
+MAIL_INFO.name = "mail_info"
+MAIL_INFO.full_name = "p30.mail_info"
+MAIL_INFO.nested_types = {}
+MAIL_INFO.enum_types = {}
+MAIL_INFO.fields = {
+	slot2.MAIL_INFO_ID_FIELD,
+	slot2.MAIL_INFO_DATE_FIELD,
+	slot2.MAIL_INFO_TITLE_FIELD,
+	slot2.MAIL_INFO_CONTENT_FIELD,
+	slot2.MAIL_INFO_ATTACHMENT_LIST_FIELD,
+	slot2.MAIL_INFO_ATTACH_FLAG_FIELD,
+	slot2.MAIL_INFO_READ_FLAG_FIELD,
+	slot2.MAIL_INFO_IMP_FLAG_FIELD
+}
+MAIL_INFO.is_extendable = false
+MAIL_INFO.extensions = {}
+slot2.MAIL_SIMPLE_INFO_ID_FIELD.name = "id"
+slot2.MAIL_SIMPLE_INFO_ID_FIELD.full_name = "p30.mail_simple_info.id"
+slot2.MAIL_SIMPLE_INFO_ID_FIELD.number = 1
+slot2.MAIL_SIMPLE_INFO_ID_FIELD.index = 0
+slot2.MAIL_SIMPLE_INFO_ID_FIELD.label = 2
+slot2.MAIL_SIMPLE_INFO_ID_FIELD.has_default_value = false
+slot2.MAIL_SIMPLE_INFO_ID_FIELD.default_value = 0
+slot2.MAIL_SIMPLE_INFO_ID_FIELD.type = 13
+slot2.MAIL_SIMPLE_INFO_ID_FIELD.cpp_type = 3
+slot2.MAIL_SIMPLE_INFO_DATE_FIELD.name = "date"
+slot2.MAIL_SIMPLE_INFO_DATE_FIELD.full_name = "p30.mail_simple_info.date"
+slot2.MAIL_SIMPLE_INFO_DATE_FIELD.number = 2
+slot2.MAIL_SIMPLE_INFO_DATE_FIELD.index = 1
+slot2.MAIL_SIMPLE_INFO_DATE_FIELD.label = 2
+slot2.MAIL_SIMPLE_INFO_DATE_FIELD.has_default_value = false
+slot2.MAIL_SIMPLE_INFO_DATE_FIELD.default_value = 0
+slot2.MAIL_SIMPLE_INFO_DATE_FIELD.type = 13
+slot2.MAIL_SIMPLE_INFO_DATE_FIELD.cpp_type = 3
+slot2.MAIL_SIMPLE_INFO_TITLE_FIELD.name = "title"
+slot2.MAIL_SIMPLE_INFO_TITLE_FIELD.full_name = "p30.mail_simple_info.title"
+slot2.MAIL_SIMPLE_INFO_TITLE_FIELD.number = 3
+slot2.MAIL_SIMPLE_INFO_TITLE_FIELD.index = 2
+slot2.MAIL_SIMPLE_INFO_TITLE_FIELD.label = 2
+slot2.MAIL_SIMPLE_INFO_TITLE_FIELD.has_default_value = false
+slot2.MAIL_SIMPLE_INFO_TITLE_FIELD.default_value = ""
+slot2.MAIL_SIMPLE_INFO_TITLE_FIELD.type = 9
+slot2.MAIL_SIMPLE_INFO_TITLE_FIELD.cpp_type = 9
+slot2.MAIL_SIMPLE_INFO_CONTENT_FIELD.name = "content"
+slot2.MAIL_SIMPLE_INFO_CONTENT_FIELD.full_name = "p30.mail_simple_info.content"
+slot2.MAIL_SIMPLE_INFO_CONTENT_FIELD.number = 4
+slot2.MAIL_SIMPLE_INFO_CONTENT_FIELD.index = 3
+slot2.MAIL_SIMPLE_INFO_CONTENT_FIELD.label = 2
+slot2.MAIL_SIMPLE_INFO_CONTENT_FIELD.has_default_value = false
+slot2.MAIL_SIMPLE_INFO_CONTENT_FIELD.default_value = ""
+slot2.MAIL_SIMPLE_INFO_CONTENT_FIELD.type = 9
+slot2.MAIL_SIMPLE_INFO_CONTENT_FIELD.cpp_type = 9
+slot2.MAIL_SIMPLE_INFO_ATTACHMENT_LIST_FIELD.name = "attachment_list"
+slot2.MAIL_SIMPLE_INFO_ATTACHMENT_LIST_FIELD.full_name = "p30.mail_simple_info.attachment_list"
+slot2.MAIL_SIMPLE_INFO_ATTACHMENT_LIST_FIELD.number = 5
+slot2.MAIL_SIMPLE_INFO_ATTACHMENT_LIST_FIELD.index = 4
+slot2.MAIL_SIMPLE_INFO_ATTACHMENT_LIST_FIELD.label = 3
+slot2.MAIL_SIMPLE_INFO_ATTACHMENT_LIST_FIELD.has_default_value = false
+slot2.MAIL_SIMPLE_INFO_ATTACHMENT_LIST_FIELD.default_value = {}
+slot2.MAIL_SIMPLE_INFO_ATTACHMENT_LIST_FIELD.message_type = slot1.DROPINFO
+slot2.MAIL_SIMPLE_INFO_ATTACHMENT_LIST_FIELD.type = 11
+slot2.MAIL_SIMPLE_INFO_ATTACHMENT_LIST_FIELD.cpp_type = 10
+MAIL_SIMPLE_INFO.name = "mail_simple_info"
+MAIL_SIMPLE_INFO.full_name = "p30.mail_simple_info"
+MAIL_SIMPLE_INFO.nested_types = {}
+MAIL_SIMPLE_INFO.enum_types = {}
+MAIL_SIMPLE_INFO.fields = {
+	slot2.MAIL_SIMPLE_INFO_ID_FIELD,
+	slot2.MAIL_SIMPLE_INFO_DATE_FIELD,
+	slot2.MAIL_SIMPLE_INFO_TITLE_FIELD,
+	slot2.MAIL_SIMPLE_INFO_CONTENT_FIELD,
+	slot2.MAIL_SIMPLE_INFO_ATTACHMENT_LIST_FIELD
+}
+MAIL_SIMPLE_INFO.is_extendable = false
+MAIL_SIMPLE_INFO.extensions = {}
+slot2.MAIL_TITLE_ID_FIELD.name = "id"
+slot2.MAIL_TITLE_ID_FIELD.full_name = "p30.mail_title.id"
+slot2.MAIL_TITLE_ID_FIELD.number = 1
+slot2.MAIL_TITLE_ID_FIELD.index = 0
+slot2.MAIL_TITLE_ID_FIELD.label = 2
+slot2.MAIL_TITLE_ID_FIELD.has_default_value = false
+slot2.MAIL_TITLE_ID_FIELD.default_value = 0
+slot2.MAIL_TITLE_ID_FIELD.type = 13
+slot2.MAIL_TITLE_ID_FIELD.cpp_type = 3
+slot2.MAIL_TITLE_TITLE_FIELD.name = "title"
+slot2.MAIL_TITLE_TITLE_FIELD.full_name = "p30.mail_title.title"
+slot2.MAIL_TITLE_TITLE_FIELD.number = 2
+slot2.MAIL_TITLE_TITLE_FIELD.index = 1
+slot2.MAIL_TITLE_TITLE_FIELD.label = 2
+slot2.MAIL_TITLE_TITLE_FIELD.has_default_value = false
+slot2.MAIL_TITLE_TITLE_FIELD.default_value = ""
+slot2.MAIL_TITLE_TITLE_FIELD.type = 9
+slot2.MAIL_TITLE_TITLE_FIELD.cpp_type = 9
+MAIL_TITLE.name = "mail_title"
+MAIL_TITLE.full_name = "p30.mail_title"
+MAIL_TITLE.nested_types = {}
+MAIL_TITLE.enum_types = {}
+MAIL_TITLE.fields = {
+	slot2.MAIL_TITLE_ID_FIELD,
+	slot2.MAIL_TITLE_TITLE_FIELD
+}
+MAIL_TITLE.is_extendable = false
+MAIL_TITLE.extensions = {}
+cs_30002 = slot0.Message(CS_30002)
+cs_30004 = slot0.Message(CS_30004)
+cs_30006 = slot0.Message(CS_30006)
+cs_30008 = slot0.Message(CS_30008)
+cs_30010 = slot0.Message(CS_30010)
+cs_30012 = slot0.Message(CS_30012)
+cs_30014 = slot0.Message(CS_30014)
+mail_info = slot0.Message(MAIL_INFO)
+mail_simple_info = slot0.Message(MAIL_SIMPLE_INFO)
+mail_title = slot0.Message(MAIL_TITLE)
+match_expression = slot0.Message(MATCH_EXPRESSION)
+sc_30001 = slot0.Message(SC_30001)
+sc_30003 = slot0.Message(SC_30003)
+sc_30005 = slot0.Message(SC_30005)
+sc_30007 = slot0.Message(SC_30007)
+sc_30009 = slot0.Message(SC_30009)
+sc_30011 = slot0.Message(SC_30011)
+sc_30013 = slot0.Message(SC_30013)
+sc_30015 = slot0.Message(SC_30015)

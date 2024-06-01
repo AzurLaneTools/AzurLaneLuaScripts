@@ -1,0 +1,23 @@
+return {
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	time = 0,
+	name = "",
+	init_effect = "aidingbao_zhenwang",
+	id = 1090103,
+	picture = "",
+	desc = "",
+	stack = 1,
+	color = "red",
+	icon = 2080,
+	last_effect = "",
+	effect_list = {}
+}

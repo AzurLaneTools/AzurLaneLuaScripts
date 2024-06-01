@@ -1,0 +1,23 @@
+return {
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	time = 3,
+	name = "棘鳍回血",
+	init_effect = "",
+	id = 12462,
+	picture = "",
+	desc = "触发器",
+	stack = 1,
+	color = "blue",
+	icon = 12460,
+	last_effect = "Health",
+	effect_list = {}
+}
