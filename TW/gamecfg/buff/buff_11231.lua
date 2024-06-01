@@ -1,0 +1,23 @@
+return {
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	{},
+	time = 1,
+	name = "吴之雪风",
+	init_effect = "",
+	id = 11231,
+	picture = "",
+	desc = "触发器",
+	stack = 1,
+	color = "yellow",
+	icon = 11230,
+	last_effect = "Health",
+	effect_list = {}
+}

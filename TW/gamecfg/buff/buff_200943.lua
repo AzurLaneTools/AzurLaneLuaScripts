@@ -1,0 +1,29 @@
+return {
+	{},
+	{},
+	{},
+	{},
+	{},
+	time = 7,
+	name = "2024阿尔萨斯活动 死神之影精英 定期刷新浮游炮",
+	init_effect = "",
+	id = 200943,
+	picture = "",
+	desc = "",
+	stack = 1,
+	color = "yellow",
+	icon = 200943,
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onRemove"
+			},
+			arg_list = {
+				buff_id = 200944,
+				target = "TargetSelf"
+			}
+		}
+	}
+}

@@ -1,0 +1,24 @@
+return {
+	mode = 2,
+	once = true,
+	id = "W2109",
+	skipTip = false,
+	scripts = {
+		{
+			paintingNoise = true,
+			nameColor = "#a9f548",
+			side = 2,
+			dir = 1,
+			actor = 900284,
+			say = "結果確認中：缺乏能源模組，設備供能不足，塞壬航線引導裝置啟動失敗。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			painting = {
+				alpha = 0.3,
+				time = 1
+			}
+		}
+	}
+}

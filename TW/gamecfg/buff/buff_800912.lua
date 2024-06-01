@@ -1,0 +1,38 @@
+return {
+	time = 0,
+	name = "",
+	init_effect = "",
+	id = 800912,
+	picture = "",
+	desc = "",
+	stack = 1,
+	color = "red",
+	icon = 800910,
+	last_effect = "",
+	effect_list = {
+		{
+			type = "BattleBuffCount",
+			trigger = {
+				"onFire"
+			},
+			arg_list = {
+				countTarget = 10,
+				countType = 800910,
+				index = {
+					1
+				}
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onBattleBuffCount"
+			},
+			arg_list = {
+				skill_id = 800912,
+				target = "TargetSelf",
+				countType = 800910
+			}
+		}
+	}
+}
