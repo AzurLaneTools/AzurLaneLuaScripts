@@ -1,76 +1,63 @@
-name: Check and update all scripts
+name: Update all data
 
 on:
   push:
+  workflow_dispatch:
   schedule:
-    - cron: "50 * * * *"
+    - cron: "40 * * * *"
 
 jobs:
-  pre_check:
-    runs-on: ubuntu-latest
-    # Map a step output to a job output
-    outputs:
-      should_skip: ${{ steps.skip_check.outputs.should_skip }}
-    steps:
-      - id: skip_check
-        uses: fkirc/skip-duplicate-actions@master
-        with:
-          concurrent_skipping: "always"
-          skip_after_successful_duplicate: "false"
-          do_not_skip: '[]'
-
   build:
-    runs-on: windows-latest
-    needs: pre_check
-    if: ${{ needs.pre_check.outputs.should_skip != 'true' }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        server: [CN, EN, JP, KR, TW]
+    env:
+      IMAGE_NAME: ghcr.io/azurlanetools/azex/azex
     steps:
-      - name: Checkout tools repo
-        uses: actions/checkout@v2
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v3
         with:
-          repository: ${{ secrets.TOOLS_REPOSITORY }}
-          path: "tools"
-          ssh-key: ${{ secrets.TOOLS_DEPLOY_KEY }}
+          registry: ghcr.io
+          username: "azexbot"
+          password: ${{ secrets.GHCR_TOKEN }}
 
-      - name: Set up Python 3.9
-        uses: actions/setup-python@v2
+      - name: Load cache
+        uses: actions/cache@v4
         with:
-          python-version: 3.9
-
-      - name: Prepare cache
-        uses: eyal0/cache@skip-save
-        with:
-          key: "cache@pipeline-${{ github.run_id }}"
+          key: azex-dbcachev2-${{ matrix.server }}-${{ github.run_id }}
           path: "cache"
           restore-keys: |
-            cache@pipeline-
-          skip-save: ${{ env.SKIP_SAVE_CACHE }}
-
-      - name: Check for updates
-        id: check
-        run: |
-          cd tools
-          python check.py -c
+            azex-dbcachev2-${{ matrix.server }}
 
       - name: Checkout target repo
-        if: ${{ steps.check.outputs.update == 'true'}}
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
-          path: "target"
+          path: output/lua
 
-      - name: Install dependencies
-        if: ${{ steps.check.outputs.update == 'true'}}
-        run: |
-          cd tools
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+      - name: Pull docker image
+        uses: gacts/run-and-post-run@v1.4
+        with:
+          run: docker pull $IMAGE_NAME
+          post: docker image rm -f $IMAGE_NAME
 
-      - name: Update lua scripts
-        if: ${{ steps.check.outputs.update == 'true'}}
-        run: |
-          cd tools
-          python main.py ../target
+      - name: Generate lua data
+        run: >
+          docker run --rm --name azex-lua
+          -e AZEX_USER=$(id -u):$(id -g)
+          -v $PWD:/azex
+          $IMAGE_NAME
+          python -m azex lua ${{ matrix.server }}
 
-      - name: Skip cache update
-        if: ${{ steps.check.outputs.update != 'true'}}
+      - name: Save changes
         run: |
-          echo "SKIP_SAVE_CACHE=true" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+          # push
+          cd output/lua
+          if [ -f .git/commit_msg ]; then
+            git add .
+            git pull
+            git commit -F .git/commit_msg
+            git push
+          fi
