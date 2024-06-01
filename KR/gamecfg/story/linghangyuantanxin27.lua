@@ -1,0 +1,99 @@
+return {
+	fadeOut = 1.5,
+	mode = 2,
+	defaultTb = 1009,
+	id = "LINGHANGYUANTANXIN27",
+	placeholder = {
+		"tb"
+	},
+	scripts = {
+		{
+			expression = 9,
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room2",
+			bgm = "story-richang-flexible",
+			tbActor = true,
+			actor = 1009,
+			actorName = "TB",
+			hidePaintObj = true,
+			say = "{tb}, 이거 마셔보고 싶어요…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			flashout = {
+				dur = 1,
+				black = true,
+				alpha = {
+					0,
+					1
+				}
+			},
+			flashin = {
+				dur = 1,
+				black = true,
+				delay = 1,
+				alpha = {
+					1,
+					0
+				}
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room2",
+			hidePaintObj = true,
+			say = "TB는 유리잔에 금빛 액체가 한 가득 담겨있는 광고 화면을 가리키며, 반짝반짝 기대에 찬 눈빛을 보내고 있다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room2",
+			hidePaintObj = true,
+			say = "그렇지만 이 '음료수'는 오로지 어른들에게만 허락된 것이다…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room2",
+			hidePaintObj = true,
+			say = "잠깐, 설마 TB의 데이터를 '어른'으로 업데이트 하려고 그러는 건…?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room2",
+			hidePaintObj = true,
+			say = "……어쨌든 지금 TB에게는 아직 이르다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_tb_room2",
+			hidePaintObj = true,
+			say = "결국은 유리잔에 주스를 부어 어떻게든 얼버무렸다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		}
+	}
+}

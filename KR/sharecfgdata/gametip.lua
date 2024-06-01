@@ -2,1125 +2,1406 @@ _G.pg.base.gametip["new_airi_error_code_-1"] = {
 	tip = "Unknown Error"
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_0 = {
 	tip = "Success"
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_100100 = {
 	tip = "This Device ID is banned"
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_100110 = {
 	tip = "Verification failed, UID does not match with Token"
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_100111 = {
 	tip = "Account creation failed"
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_100112 = {
 	tip = "Account creation failed"
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_100113 = {
 	tip = "Account binding success; Verification failed, this UID does not match with Token, failed to acquire Access Token"
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_100114 = {
 	tip = "Account binding success; IP restricted, failed to acquire Access Token"
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_100115 = {
 	tip = "Account binding success; Device ID is banned, failed to acquire Access Token"
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_100116 = {
 	tip = "Account binding success; UID is banned, failed to acquire Access Token"
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_100117 = {
 	tip = "Illegal parameters"
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_100120 = {
 	tip = "IP restricted"
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_100130 = {
 	tip = "This UID is banned"
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_100140 = {
 	tip = "Access Token verification failed"
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_100150 = {
 	tip = "This UID does not match with Transcode"
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_100160 = {
 	tip = "User birthday has already been added"
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_100170 = {
 	tip = "Invalid birthday format"
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_100180 = {
 	tip = "This Twitter/Facebook account is not bound with the game account"
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_100190 = {
 	tip = "Failed to verify the Token and Secret of this Twitter/Facebook account"
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_100200 = {
 	tip = "This Twitter/Facebook account is already bound with another Airi UID"
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_100210 = {
 	tip = "This UID does not match with the UID bound to the Twitter/Facebook account"
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_100211 = {
 	tip = "Platform binding error"
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_100212 = {
 	tip = "Platform unbinding error"
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_100213 = {
 	tip = "Account binding with FB/TW failed"
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_100220 = {
 	tip = "Facebook login cancelled"
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_100221 = {
 	tip = "フェイスブック連携承認に失敗しました"
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_100222 = {
 	tip = "ツイッター連携承認に失敗しました"
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_100121 = {
 	tip = "PC로는 게스트로 로그인하실 수 없습니다."
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_100201 = {
 	tip = "현재 사용 중인 Google Play Games 계정이 이미 다른 게임 데이터와 연동 중입니다. 연동 정보를 초기화하고, 현재 플레이 중인 데이터와 연동하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_100202 = {
 	tip = "현재 플레이 중인 게임 데이터가 이미 다른 Google Play Games 계정과 연동 중입니다. 연동 정보를 초기화하고, 현재 사용 중인 Google Play Games 계정과 연동하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_100203 = {
 	tip = "현재 이용하고 계신 Google Play Games 계정과 게임 데이터에 각각 다른 연동 정보가 등록되어 있습니다. 연동 정보를 전부 초기화하고 해당 데이터와 Google Play Games 계정을 연동하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_100204 = {
 	tip = "현재 이용하고 계신 게임 데이터를 다른 기기로 이전하시려면 다른 SNS 계정이나 메일 주소 등과 연동하셔야 합니다."
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_100205 = {
 	tip = "UID와 Google Play Games가 미연동 상태입니다."
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_100206 = {
 	tip = "현재 플레이 중인 게임 데이터가 Google Play Games 계정과 자동으로 연동되어 다른 기기로 플레이할 수 있게 됩니다."
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_100207 = {
 	tip = "Google Play Games의 로컬 Token 인증에 실패했습니다."
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_100214 = {
 	tip = "Google Play Games 이외의 연동을 해제하면, Google Play Games 계정과의 연동도 자동으로 해제됩니다. \"정말로 연동을 해제하시겠습니까?\""
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_100218 = {
 	tip = "해당 앱은 X(구 트위터)로 로그인할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_100235 = {
 	tip = "메일 주소 입력이 잘못되었습니다. 다시 시도하시기 바랍니다."
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_100307 = {
 	tip = "OneStore 계정이 등록되어 있지 않습니다."
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_100310 = {
 	tip = "인증할 수 없습니다. 다시 시도하시기 바랍니다."
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_100311 = {
 	tip = "인증 토큰이 잘못되었습니다. 다시 시도하시기 바랍니다."
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_100401 = {
 	tip = "Steam 인증 실패"
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_100600 = {
 	tip = "API 기동 실패. 매개변수 취득에 실패했습니다."
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_100802 = {
 	tip = "설문 ID가 존재하지 않아 로딩에 실패했습니다."
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_100803 = {
 	tip = "오류: 문자 수 초과"
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_200141 = {
 	tip = "구매 오류: 해당 통화로는 결제할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_200145 = {
 	tip = "구매 오류: Steam 매개변수 동기 실패"
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_200231 = {
 	tip = "OneStore 결제에 실패했습니다."
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_200232 = {
 	tip = "Apple Pay는 이용하실 수 없습니다."
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_200235 = {
 	tip = "결제 시간이 초과하였습니다."
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_200236 = {
 	tip = "결제가 취소되었습니다."
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_200370 = {
 	tip = "매개변수 이름이 중복되어 있습니다.\n오류 코드: 200370"
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_200380 = {
 	tip = "이용 약관이 승인되지 않았습니다.\n오류 코드: 200380"
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_200390 = {
 	tip = "결제 시스템 접속 시 오류가 발생했습니다.\n오류 코드: 200390"
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_200400 = {
 	tip = "결제 시스템 접속 시 오류가 발생했습니다.\n오류 코드: 200400"
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_200410 = {
 	tip = "결제 실패: 결제 유형 입력 오류"
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_200420 = {
 	tip = "결제가 완료되지 않았습니다."
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_200430 = {
 	tip = "GMO 신용카드 결제 실패"
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_300101 = {
 	tip = "공유 기능이 활성화되어 있지 않습니다."
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_300102 = {
 	tip = "기기에 앱이 설치되어 있지 않습니다."
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_300200 = {
 	tip = "본인 인증이 필요하지 않습니다."
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_300210 = {
 	tip = "본인 인증이 완료되지 않았습니다."
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_300220 = {
 	tip = "본인 인증 정보 기한이 만료되었습니다."
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_300300 = {
 	tip = "Yostar ID 연동에 실패했습니다."
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_400010 = {
 	tip = "닌텐도 계정 로그인을 취소했습니다."
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_400020 = {
 	tip = "오류 코드 400020: 닌텐도 계정 인증에 실패했습니다."
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_400030 = {
 	tip = "오류 코드 400030: 닌텐도 계정이 존재하지 않습니다."
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_400040 = {
 	tip = "오류 코드 400040: 닌텐도 계정을 사용할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_400050 = {
 	tip = "해당 닌텐도 계정은 Yostar ID와 연동되어 있지 않습니다."
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_400060 = {
 	tip = "오류 코드 400060: 닌텐도 계정 로그인 인증에 실패했습니다."
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_400070 = {
 	tip = "해당 Yostar ID는 존재하지 않습니다."
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_400080 = {
 	tip = "해당 Yostar ID는 다른 닌텐도 계정과 이미 연동 중입니다."
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_400090 = {
 	tip = "해당 Yostar ID는 닌텐도 계정과 연동되어 있지 않습니다."
 }
 
+
 _G.pg.base.gametip.new_airi_error_code_400100 = {
 	tip = "해당 닌텐도 계정은 다른 Yostar ID와 이미 연동 중입니다."
 }
+
 
 _G.pg.base.gametip.new_airi_error_code_400460 = {
 	tip = "페이지 로딩에 실패했습니다. 다시 시도하시기 바랍니다."
 }
 
+
 _G.pg.base.gametip.ad_0 = {
 	tip = ""
 }
+
 
 _G.pg.base.gametip.ad_1 = {
 	tip = "<material=underline c=#92fc63 event=clickPlayer args=1><color=#92fc63>$1</color></material> 건조 획득 <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>"
 }
 
+
 _G.pg.base.gametip.ad_2 = {
 	tip = "<material=underline c=#92fc63 event=clickPlayer args=1><color=#92fc63>$1</color></material> 출격 획득<icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material>"
 }
+
 
 _G.pg.base.gametip.ad_3 = {
 	tip = "<material=underline c=#92fc63 event=clickPlayer args=1><color=#92fc63>$1</color></material> 님이 <icon name=shiptype2 w=0.8 h=0.8/><material=underline c=#shipcolor2 event=clickShip args=2><color=#shipcolor2>$2</color></material> 함선 획득"
 }
 
+
 _G.pg.base.gametip.word_back = {
 	tip = "뒤로"
 }
+
 
 _G.pg.base.gametip.word_backyardMoney = {
 	tip = "가구 코인"
 }
 
+
 _G.pg.base.gametip.word_cancel = {
 	tip = "취소"
 }
+
 
 _G.pg.base.gametip.word_cmdClose = {
 	tip = "준비 중"
 }
 
+
 _G.pg.base.gametip.word_delete = {
 	tip = "삭제"
 }
+
 
 _G.pg.base.gametip.word_dockyard = {
 	tip = "도크"
 }
 
+
 _G.pg.base.gametip.word_dockyardUpgrade = {
 	tip = "한계돌파"
 }
+
 
 _G.pg.base.gametip.word_dockyardDestroy = {
 	tip = "함선퇴역"
 }
 
+
 _G.pg.base.gametip.word_shipInfoScene_equip = {
 	tip = "함선 장비"
 }
+
 
 _G.pg.base.gametip.word_shipInfoScene_reinfomation = {
 	tip = "한계돌파"
 }
 
+
 _G.pg.base.gametip.word_shipInfoScene_infomation = {
 	tip = "함선 정보"
 }
+
 
 _G.pg.base.gametip.word_editFleet = {
 	tip = "함대편성"
 }
 
+
 _G.pg.base.gametip.word_exp = {
 	tip = "EXP"
 }
+
 
 _G.pg.base.gametip.word_expAdd = {
 	tip = "EXP+$1"
 }
 
+
 _G.pg.base.gametip.word_exp_chinese = {
 	tip = "경험치"
 }
+
 
 _G.pg.base.gametip.word_exist = {
 	tip = "나가기"
 }
 
+
 _G.pg.base.gametip.word_equip = {
 	tip = "장비"
 }
+
 
 _G.pg.base.gametip.word_equipDestory = {
 	tip = "해체"
 }
 
+
 _G.pg.base.gametip.word_food = {
 	tip = "식량"
 }
+
 
 _G.pg.base.gametip.word_get = {
 	tip = "획득"
 }
 
+
 _G.pg.base.gametip.word_got = {
 	tip = "수령 완료"
 }
+
 
 _G.pg.base.gametip.word_not_get = {
 	tip = "미수령"
 }
 
+
 _G.pg.base.gametip.word_next_level = {
 	tip = "다음 Lv"
 }
+
 
 _G.pg.base.gametip.word_intimacy = {
 	tip = "호감도"
 }
 
+
 _G.pg.base.gametip.word_is = {
 	tip = "네"
 }
+
 
 _G.pg.base.gametip.word_date = {
 	tip = "일"
 }
 
+
 _G.pg.base.gametip.word_hour = {
 	tip = "시"
 }
+
 
 _G.pg.base.gametip.word_minute = {
 	tip = "분"
 }
 
+
 _G.pg.base.gametip.word_second = {
 	tip = "초"
 }
+
 
 _G.pg.base.gametip.word_lv = {
 	tip = "Lv"
 }
 
+
 _G.pg.base.gametip.word_proficiency = {
 	tip = "숙련도"
 }
+
 
 _G.pg.base.gametip.word_material = {
 	tip = "재료"
 }
 
+
 _G.pg.base.gametip.word_notExist = {
 	tip = "존재하지 않음"
 }
+
 
 _G.pg.base.gametip.word_ok = {
 	tip = "확인"
 }
 
+
 _G.pg.base.gametip.word_preview = {
 	tip = "프리뷰"
 }
+
 
 _G.pg.base.gametip.word_rarity = {
 	tip = "레어도"
 }
 
+
 _G.pg.base.gametip.word_speedUp = {
 	tip = "고속건조재를 사용했습니다."
 }
+
 
 _G.pg.base.gametip.word_succeed = {
 	tip = ""
 }
 
+
 _G.pg.base.gametip.word_start = {
 	tip = "시작"
 }
+
 
 _G.pg.base.gametip.word_kiss = {
 	tip = "(*♥▽♥*)"
 }
 
+
 _G.pg.base.gametip.word_take = {
 	tip = "수령"
 }
+
 
 _G.pg.base.gametip.word_takeOk = {
 	tip = "수령 성공"
 }
 
+
 _G.pg.base.gametip.word_many = {
 	tip = "대량"
 }
+
 
 _G.pg.base.gametip.word_normal_2 = {
 	tip = "보통"
 }
 
+
 _G.pg.base.gametip.word_simple = {
 	tip = "레어"
 }
+
 
 _G.pg.base.gametip.word_save = {
 	tip = "저장"
 }
 
+
 _G.pg.base.gametip.word_levelup = {
 	tip = "레벨업"
 }
+
 
 _G.pg.base.gametip.word_serverLoadVindicate = {
 	tip = "<color=#a2a2a2>점검</color>"
 }
 
+
 _G.pg.base.gametip.word_serverLoadNormal = {
 	tip = "<material=outline c=#252525FF x=1 y=-1><color=#92fc63FF>정상</color></material>"
 }
+
 
 _G.pg.base.gametip.word_serverLoadFull = {
 	tip = "<color=#ff5c5c>만원</color>"
 }
 
+
 _G.pg.base.gametip.word_registerFull = {
 	tip = "<color=#ff5c5c>만원</color>"
 }
+
 
 _G.pg.base.gametip.word_synthesize = {
 	tip = "종합"
 }
 
+
 _G.pg.base.gametip.word_synthesize_power = {
 	tip = "전투 능력"
 }
+
 
 _G.pg.base.gametip.word_achieved_item = {
 	tip = "입수시간"
 }
 
+
 _G.pg.base.gametip.word_formation = {
 	tip = "출격"
 }
+
 
 _G.pg.base.gametip.word_teach = {
 	tip = "수업"
 }
 
+
 _G.pg.base.gametip.word_study = {
 	tip = "학습"
 }
+
 
 _G.pg.base.gametip.word_destroy = {
 	tip = "퇴역"
 }
 
+
 _G.pg.base.gametip.word_upgrade = {
 	tip = "돌파"
 }
+
 
 _G.pg.base.gametip.word_train = {
 	tip = "휴식"
 }
 
+
 _G.pg.base.gametip.word_rest = {
 	tip = "휴식"
 }
+
 
 _G.pg.base.gametip.word_capacity = {
 	tip = "보유:"
 }
 
+
 _G.pg.base.gametip.word_operation = {
 	tip = "작전참가"
 }
+
 
 _G.pg.base.gametip.word_intensify_phase = {
 	tip = "강화단계"
 }
 
+
 _G.pg.base.gametip.word_systemClose = {
 	tip = "해당 기능은 아직 개방되지 않았습니다."
 }
+
 
 _G.pg.base.gametip.word_attr_antisub = {
 	tip = "대잠"
 }
 
+
 _G.pg.base.gametip.word_attr_cannon = {
 	tip = "포격"
 }
+
 
 _G.pg.base.gametip.word_attr_torpedo = {
 	tip = "뇌장"
 }
 
+
 _G.pg.base.gametip.word_attr_antiaircraft = {
 	tip = "대공"
 }
+
 
 _G.pg.base.gametip.word_attr_air = {
 	tip = "항공"
 }
 
+
 _G.pg.base.gametip.word_attr_durability = {
 	tip = "내구"
 }
+
 
 _G.pg.base.gametip.word_attr_armor = {
 	tip = "장갑"
 }
 
+
 _G.pg.base.gametip.word_attr_reload = {
 	tip = "장전"
 }
+
 
 _G.pg.base.gametip.word_attr_speed = {
 	tip = "항속"
 }
 
+
 _G.pg.base.gametip.word_attr_luck = {
 	tip = "소모"
 }
+
 
 _G.pg.base.gametip.word_attr_range = {
 	tip = "사거리"
 }
 
+
 _G.pg.base.gametip.word_attr_range_view = {
 	tip = "사거리"
 }
+
 
 _G.pg.base.gametip.word_attr_hit = {
 	tip = "명중"
 }
 
+
 _G.pg.base.gametip.word_attr_dodge = {
 	tip = "기동"
 }
+
 
 _G.pg.base.gametip.word_attr_luck1 = {
 	tip = "행운"
 }
 
+
 _G.pg.base.gametip.word_attr_damage = {
 	tip = "화력"
 }
+
 
 _G.pg.base.gametip.word_attr_healthy = {
 	tip = "회복"
 }
 
+
 _G.pg.base.gametip.word_attr_cd = {
 	tip = "사속"
 }
+
 
 _G.pg.base.gametip.word_attr_speciality = {
 	tip = "특성"
 }
 
+
 _G.pg.base.gametip.word_attr_level = {
 	tip = "최대 레벨"
 }
+
 
 _G.pg.base.gametip.word_shipState_npc = {
 	tip = "해당 편대에 NPC 캐릭터 가입 불가!"
 }
 
+
 _G.pg.base.gametip.word_shipState_fight = {
 	tip = "해당 함선은 출격 중입니다."
 }
+
 
 _G.pg.base.gametip.word_shipState_world = {
 	tip = "해당 캐릭터가 현재 대형 작전 중입니다."
 }
 
+
 _G.pg.base.gametip.word_shipState_rest = {
 	tip = "해당 함선은 숙소에서 휴식 중입니다."
 }
+
 
 _G.pg.base.gametip.word_shipState_study = {
 	tip = "해당 함선은 대강당에서 수업 중입니다."
 }
 
+
 _G.pg.base.gametip.word_shipState_collect = {
 	tip = "해당 함선은 의뢰를 진행 중입니다."
 }
+
 
 _G.pg.base.gametip.word_shipState_event = {
 	tip = "해당 함선은 특수 임무를 진행 중입니다."
 }
 
+
 _G.pg.base.gametip.word_shipState_activity = {
 	tip = "해당 캐릭터는 특수 작전부대에 편성되어 있습니다."
 }
+
 
 _G.pg.base.gametip.word_shipState_sham = {
 	tip = "해당 함선은 모의전을 진행 중입니다."
 }
 
+
 _G.pg.base.gametip.word_shipState_support = {
 	tip = "이미 지원 함대에 편성되어 있습니다."
 }
+
 
 _G.pg.base.gametip.word_shipType_quZhu = {
 	tip = "구축"
 }
 
+
 _G.pg.base.gametip.word_shipType_qinXun = {
 	tip = "경순"
 }
+
 
 _G.pg.base.gametip.word_shipType_zhongXun = {
 	tip = "중순"
 }
 
+
 _G.pg.base.gametip.word_shipType_zhanLie = {
 	tip = "전함"
 }
+
 
 _G.pg.base.gametip.word_shipType_hangMu = {
 	tip = "항모"
 }
 
+
 _G.pg.base.gametip.word_shipType_weiXiu = {
 	tip = "공작"
 }
+
 
 _G.pg.base.gametip.word_shipType_other = {
 	tip = "기타"
 }
 
+
 _G.pg.base.gametip.word_shipType_all = {
 	tip = "전 함종"
 }
+
 
 _G.pg.base.gametip.word_gem = {
 	tip = "다이아"
 }
 
+
 _G.pg.base.gametip.word_freeGem = {
 	tip = "다이아"
 }
+
 
 _G.pg.base.gametip.word_gem_icon = {
 	tip = "<icon name=diamond w=0.7 h=0.7/>"
 }
 
+
 _G.pg.base.gametip.word_freeGem_icon = {
 	tip = "<icon name=diamond w=0.7 h=0.7/>"
 }
+
 
 _G.pg.base.gametip.word_exploit = {
 	tip = "공훈"
 }
 
+
 _G.pg.base.gametip.word_rankScore = {
 	tip = "점수"
 }
+
 
 _G.pg.base.gametip.word_battery = {
 	tip = "nico硬币"
 }
 
+
 _G.pg.base.gametip.word_oil = {
 	tip = "연료"
 }
+
 
 _G.pg.base.gametip.word_gold = {
 	tip = "물자"
 }
 
+
 _G.pg.base.gametip.word_oilField = {
 	tip = "유전"
 }
+
 
 _G.pg.base.gametip.word_goldField = {
 	tip = "무역항"
 }
 
+
 _G.pg.base.gametip.word_ema = {
 	tip = "현판"
 }
+
 
 _G.pg.base.gametip.word_pt = {
 	tip = "pt"
 }
 
+
 _G.pg.base.gametip.word_yisegefuke_pt = {
 	tip = "pt"
 }
+
 
 _G.pg.base.gametip.word_faxipt = {
 	tip = "爱丽丝之徽"
 }
 
+
 _G.pg.base.gametip.word_count_2 = {
 	tip = "<color=$1>$2개</color>"
 }
+
 
 _G.pg.base.gametip.word_clear = {
 	tip = "비우기"
 }
 
+
 _G.pg.base.gametip.word_buy = {
 	tip = "구입"
 }
+
 
 _G.pg.base.gametip.word_happy = {
 	tip = "<color=#92fc63>환희</color>"
 }
 
+
 _G.pg.base.gametip.word_normal = {
 	tip = "<color=#46F200>안정</color>"
 }
+
 
 _G.pg.base.gametip.word_tired = {
 	tip = "<color=#FCD400>피곤</color>"
 }
 
+
 _G.pg.base.gametip.word_angry = {
 	tip = "<color=#E40006>불만</color>"
 }
+
 
 _G.pg.base.gametip.word_max_page = {
 	tip = "최대"
 }
 
+
 _G.pg.base.gametip.word_least_page = {
 	tip = "최소"
 }
+
 
 _G.pg.base.gametip.word_week = {
 	tip = "주"
 }
 
+
 _G.pg.base.gametip.word_day = {
 	tip = "일"
 }
+
 
 _G.pg.base.gametip.word_use = {
 	tip = "사용"
 }
 
+
 _G.pg.base.gametip.word_use_batch = {
 	tip = "$1개 사용"
 }
+
 
 _G.pg.base.gametip.word_discount = {
 	tip = "할인"
 }
 
+
 _G.pg.base.gametip.word_threaten_exclude = {
 	tip = "위협 제거"
 }
+
 
 _G.pg.base.gametip.word_threaten = {
 	tip = "위협"
 }
 
+
 _G.pg.base.gametip.word_comingSoon = {
 	tip = "준비 중"
 }
+
 
 _G.pg.base.gametip.word_lightArmor = {
 	tip = "경장갑"
 }
 
+
 _G.pg.base.gametip.word_mediumArmor = {
 	tip = "중형장갑"
 }
+
 
 _G.pg.base.gametip.word_heavyarmor = {
 	tip = "중장갑"
 }
 
+
 _G.pg.base.gametip.word_level_upperLimit = {
 	tip = "최대 등급 도달"
 }
+
 
 _G.pg.base.gametip.word_level_require = {
 	tip = "필요 Lv"
 }
 
+
 _G.pg.base.gametip.word_materal_no_enough = {
 	tip = "재료 부족"
 }
+
 
 _G.pg.base.gametip.word_default = {
 	tip = "자동"
 }
 
+
 _G.pg.base.gametip.word_count = {
 	tip = "수량"
 }
+
 
 _G.pg.base.gametip.word_kind = {
 	tip = "종류"
 }
 
+
 _G.pg.base.gametip.word_piece = {
 	tip = "개"
 }
+
 
 _G.pg.base.gametip.word_main_fleet = {
 	tip = "주력"
 }
 
+
 _G.pg.base.gametip.word_vanguard_fleet = {
 	tip = "선봉"
 }
+
 
 _G.pg.base.gametip.word_theme = {
 	tip = "세트"
 }
 
+
 _G.pg.base.gametip.word_recommend = {
 	tip = "추천"
 }
+
 
 _G.pg.base.gametip.word_wallpaper = {
 	tip = "벽지"
 }
 
+
 _G.pg.base.gametip.word_furniture = {
 	tip = "가구"
 }
+
 
 _G.pg.base.gametip.word_decorate = {
 	tip = "장식"
 }
 
+
 _G.pg.base.gametip.word_special = {
 	tip = "특수"
 }
+
 
 _G.pg.base.gametip.word_expand = {
 	tip = "확장"
 }
 
+
 _G.pg.base.gametip.word_wall = {
 	tip = "벽장식"
 }
+
 
 _G.pg.base.gametip.word_floorpaper = {
 	tip = "바닥"
 }
 
+
 _G.pg.base.gametip.word_collection = {
 	tip = "수집품"
 }
+
 
 _G.pg.base.gametip.word_mat = {
 	tip = "카펫"
 }
 
+
 _G.pg.base.gametip.word_comfort_level = {
 	tip = "쾌적도"
 }
+
 
 _G.pg.base.gametip.word_room = {
 	tip = "ROOM$1"
 }
 
+
 _G.pg.base.gametip.word_equipment_all = {
 	tip = "전부"
 }
+
 
 _G.pg.base.gametip.word_equipment_cannon = {
 	tip = "함포"
 }
 
+
 _G.pg.base.gametip.word_equipment_torpedo = {
 	tip = "어뢰"
 }
+
 
 _G.pg.base.gametip.word_equipment_aircraft = {
 	tip = "함재기"
 }
 
+
 _G.pg.base.gametip.word_equipment_small_cannon = {
 	tip = "소형 함포"
 }
+
 
 _G.pg.base.gametip.word_equipment_medium_cannon = {
 	tip = "중형 함포"
 }
 
+
 _G.pg.base.gametip.word_equipment_big_cannon = {
 	tip = "대형 함포"
 }
+
 
 _G.pg.base.gametip.word_equipment_warship_torpedo = {
 	tip = "수면 어뢰"
 }
 
+
 _G.pg.base.gametip.word_equipment_submarine_torpedo = {
 	tip = "잠수함 어뢰"
 }
+
 
 _G.pg.base.gametip.word_equipment_antiaircraft = {
 	tip = "대공포"
 }
 
+
 _G.pg.base.gametip.word_equipment_fighter = {
 	tip = "전투기"
 }
+
 
 _G.pg.base.gametip.word_equipment_bomber = {
 	tip = "폭격기"
 }
 
+
 _G.pg.base.gametip.word_equipment_torpedo_bomber = {
 	tip = "뇌격기"
 }
+
 
 _G.pg.base.gametip.word_equipment_equip = {
 	tip = "설비"
 }
 
+
 _G.pg.base.gametip.word_equipment_type = {
 	tip = "분류"
 }
+
 
 _G.pg.base.gametip.word_equipment_rarity = {
 	tip = "레어도"
 }
 
+
 _G.pg.base.gametip.word_equipment_intensify = {
 	tip = "강화"
 }
+
 
 _G.pg.base.gametip.word_equipment_special = {
 	tip = "기타"
 }
 
+
 _G.pg.base.gametip.word_primary_weapons = {
 	tip = "주무장"
 }
+
 
 _G.pg.base.gametip.word_main_cannons = {
 	tip = "주포"
 }
 
+
 _G.pg.base.gametip.word_shipboard_aircraft = {
 	tip = "함재기"
 }
+
 
 _G.pg.base.gametip.word_sub_cannons = {
 	tip = "부포"
 }
 
+
 _G.pg.base.gametip.word_sub_weapons = {
 	tip = "부무장"
 }
+
 
 _G.pg.base.gametip.word_torpedo = {
 	tip = "어뢰"
 }
 
+
 _G.pg.base.gametip["word_ air_defense_artillery"] = {
 	tip = "대공포"
 }
+
 
 _G.pg.base.gametip.word_air_defense_artillery = {
 	tip = "대공포"
 }
 
+
 _G.pg.base.gametip.word_device = {
 	tip = "설비"
 }
+
 
 _G.pg.base.gametip.word_cannon = {
 	tip = "함포"
 }
 
+
 _G.pg.base.gametip.word_fighter = {
 	tip = "전투기"
 }
+
 
 _G.pg.base.gametip.word_bomber = {
 	tip = "폭격기"
 }
 
+
 _G.pg.base.gametip.word_attacker = {
 	tip = "뇌격기"
 }
+
 
 _G.pg.base.gametip.word_seaplane = {
 	tip = "수상기"
 }
 
+
 _G.pg.base.gametip.word_missile = {
 	tip = "미사일"
 }
+
 
 _G.pg.base.gametip.word_online = {
 	tip = "로그인 중"
 }
 
+
 _G.pg.base.gametip.word_apply = {
 	tip = "신청"
 }
+
 
 _G.pg.base.gametip.word_star = {
 	tip = "돌파"
 }
 
+
 _G.pg.base.gametip.word_level = {
 	tip = "레벨"
 }
+
 
 _G.pg.base.gametip.word_mod_value = {
 	tip = "강화수치"
 }
 
+
 _G.pg.base.gametip.word_wait = {
 	tip = "등"
 }
+
 
 _G.pg.base.gametip.word_consume = {
 	tip = "소모"
 }
 
+
 _G.pg.base.gametip.word_sell_out = {
 	tip = "품절"
 }
 
+
 _G.pg.base.gametip.word_sell_lock = {
 	tip = "미개방"
 }
+
 
 _G.pg.base.gametip.word_diamond_tip = {
 	tip = [[
@@ -1131,917 +1412,1146 @@ _G.pg.base.gametip.word_diamond_tip = {
 합계<icon name=diamond w=0.7 h=0.7/>: $3 ]]
 }
 
+
 _G.pg.base.gametip.word_contribution = {
 	tip = "기부"
 }
+
 
 _G.pg.base.gametip.word_guild_res = {
 	tip = "함대자원"
 }
 
+
 _G.pg.base.gametip.word_fit = {
 	tip = "장착"
 }
+
 
 _G.pg.base.gametip.word_equipment_skin = {
 	tip = "장비 스킨"
 }
 
+
 _G.pg.base.gametip.word_activity = {
 	tip = "活动"
 }
+
 
 _G.pg.base.gametip.word_urgency_event = {
 	tip = "긴급의뢰"
 }
 
+
 _G.pg.base.gametip.word_shop = {
 	tip = "상점"
 }
+
 
 _G.pg.base.gametip.word_facility = {
 	tip = "시설"
 }
 
+
 _G.pg.base.gametip.word_cv_key_main = {
 	tip = "메인화면"
 }
+
 
 _G.pg.base.gametip.channel_name_1 = {
 	tip = "전체"
 }
 
+
 _G.pg.base.gametip.channel_name_2 = {
 	tip = "월드"
 }
+
 
 _G.pg.base.gametip.channel_name_3 = {
 	tip = "정보"
 }
 
+
 _G.pg.base.gametip.channel_name_4 = {
 	tip = "친구"
 }
+
 
 _G.pg.base.gametip.channel_name_5 = {
 	tip = "함대"
 }
 
+
 _G.pg.base.gametip.common_wait = {
 	tip = "잠시만 기다려주시기 바랍니다."
 }
+
 
 _G.pg.base.gametip.common_ship_type = {
 	tip = "함종"
 }
 
+
 _G.pg.base.gametip.common_dont_remind_dur_login = {
 	tip = "다음 접속 시까지 표시하지 않음"
 }
+
 
 _G.pg.base.gametip.common_activity_end = {
 	tip = "<color=#92fc63>이미 종료</color>된 이벤트입니다."
 }
 
+
 _G.pg.base.gametip.common_activity_notStartOrEnd = {
 	tip = "<color=#92fc63>미개방</color> 또는 <color=#92fc63>이미 종료</color>된 이벤트입니다."
 }
+
 
 _G.pg.base.gametip.common_activity_not_start = {
 	tip = "이벤트가 <color=#92fc63>아직 개시되지</color> 않았습니다."
 }
 
+
 _G.pg.base.gametip.common_error = {
 	tip = "시스템 에러："
 }
+
 
 _G.pg.base.gametip.common_no_gold = {
 	tip = "<color=#92fc63>물자</color>가 부족합니다!"
 }
 
+
 _G.pg.base.gametip.common_no_oil = {
 	tip = "<color=#92fc63>연료</color>가 부족합니다!"
 }
+
 
 _G.pg.base.gametip.common_no_rmb = {
 	tip = "<color=#92fc63>다이아</color>가 부족합니다!"
 }
 
+
 _G.pg.base.gametip.common_count_noenough = {
 	tip = "도전 횟수 부족"
 }
+
 
 _G.pg.base.gametip.common_no_dorm_gold = {
 	tip = "<color=#92fc63>가구 코인</color>이 부족합니다!"
 }
 
+
 _G.pg.base.gametip.common_no_resource = {
 	tip = "자원이 부족합니다!"
 }
+
 
 _G.pg.base.gametip.common_no_item = {
 	tip = "아이템 <color=#92fc63>[$1]</color>가 부족합니다!"
 }
 
+
 _G.pg.base.gametip.common_no_item_1 = {
 	tip = "아이템이 부족합니다!"
 }
+
 
 _G.pg.base.gametip.common_no_x = {
 	tip = "<color=#92fc63>$1</color>이(가) 부족합니다!"
 }
 
+
 _G.pg.base.gametip.common_limit_cmd = {
 	tip = "현재 조건에서는 조작할 수 없습니다...TAT"
 }
+
 
 _G.pg.base.gametip.common_limit_type = {
 	tip = "선택하신 유형으로는 조작할 수 없습니다...TAT"
 }
 
+
 _G.pg.base.gametip.common_limit_equip = {
 	tip = "해당 장비는 장착할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.common_buy_success = {
 	tip = "성공적으로 구입했습니다!"
 }
 
+
 _G.pg.base.gametip.common_limit_level = {
 	tip = "필요 지휘관 Lv：<color=#92fc63>$1</color>"
 }
+
 
 _G.pg.base.gametip.common_shopId_noFound = {
 	tip = "상품의 ID를 찾을 수 없습니다."
 }
 
+
 _G.pg.base.gametip.common_today_buy_limit = {
 	tip = "오늘은 더 이상 구입할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.common_not_enter_room = {
 	tip = "현재 숙소에 들어와 있지 않습니다."
 }
 
+
 _G.pg.base.gametip.common_test_ship = {
 	tip = "부린은 안 돼요, 푸링!"
 }
+
 
 _G.pg.base.gametip.common_entry_inhibited = {
 	tip = "이용이 제한되어 있습니다."
 }
 
+
 _G.pg.base.gametip.common_refresh_count_insufficient = {
 	tip = "갱신 가능 횟수를 초과했습니다."
 }
+
 
 _G.pg.base.gametip.common_get_player_info_erro = {
 	tip = "유저 정보를 불러오지 못했습니다."
 }
 
+
 _G.pg.base.gametip.common_no_open = {
 	tip = "준비 중"
 }
+
 
 _G.pg.base.gametip["common_already owned"] = {
 	tip = "보유 중"
 }
 
+
 _G.pg.base.gametip.common_not_get_ship = {
 	tip = "미획득 함선"
 }
+
 
 _G.pg.base.gametip.common_sale_out = {
 	tip = "품절"
 }
 
+
 _G.pg.base.gametip.common_skin_out_of_stock = {
 	tip = "구입 가능 기간이 지났습니다."
 }
+
 
 _G.pg.base.gametip.common_go_home = {
 	tip = "메인 화면으로 돌아가겠습니까?"
 }
 
+
 _G.pg.base.gametip.dont_remind_today = {
 	tip = "오늘은 그만 보기"
 }
+
 
 _G.pg.base.gametip.dont_remind_session = {
 	tip = "이번 로그인 기간 동안 다시 보지 않음"
 }
 
+
 _G.pg.base.gametip.battle_no_oil = {
 	tip = "연료가 부족하여 출격할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.battle_emptyBlock = {
 	tip = "대응하는 장비가 장착되어 있지 않습니다..."
 }
 
+
 _G.pg.base.gametip.battle_duel_main_rage = {
 	tip = "양측 선봉함대 전멸, 전투를 빠르게 진행합니다."
 }
+
 
 _G.pg.base.gametip.battle_main_emergent = {
 	tip = "<color=#92fc63>$1</color>이(가) 큰 손상을 입었습니다!"
 }
 
+
 _G.pg.base.gametip.battle_battleMediator_goOnFight = {
 	tip = "전투속행"
 }
+
 
 _G.pg.base.gametip.battle_battleMediator_existFight = {
 	tip = "전투중지"
 }
 
+
 _G.pg.base.gametip.battle_battleMediator_clear_warning = {
 	tip = "챌린지 모드에서 퇴장하시겠습니까？\n퇴장 후에<color=#92fc63>도전은 초기화되며</color>，\n포인트는 해당 스테이지 시작 전까지 통계되어 합산됩니다."
 }
+
 
 _G.pg.base.gametip.battle_battleMediator_quest_exist = {
 	tip = "퇴각 시 아이템과 함선을 획득할 수 없습니다. 정말 퇴각하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.battle_levelMediator_ok_takeResource = {
 	tip = "물자를 조달했습니다!"
 }
+
 
 _G.pg.base.gametip.battle_result_time_limit = {
 	tip = "$1초 이내에 적 함대 격파"
 }
 
+
 _G.pg.base.gametip.battle_result_sink_limit = {
 	tip = "전투 불능이 된 함선 $1척 이하"
 }
+
 
 _G.pg.base.gametip.battle_result_undefeated = {
 	tip = "전투 불능이 되지 않을 것"
 }
 
+
 _G.pg.base.gametip.battle_result_victory = {
 	tip = "적 함대를 격파"
 }
+
 
 _G.pg.base.gametip.battle_result_defeat_all_enemys = {
 	tip = "모든 적함을 격파"
 }
 
+
 _G.pg.base.gametip.battle_result_base_score = {
 	tip = "클리어 기본 포인트:"
 }
+
 
 _G.pg.base.gametip.battle_result_dead_score = {
 	tip = "아군 사망*$1:"
 }
 
+
 _G.pg.base.gametip.battle_result_score = {
 	tip = "수송선 파괴*$1："
 }
+
 
 _G.pg.base.gametip.battle_result_score_total = {
 	tip = "총 계:"
 }
 
+
 _G.pg.base.gametip.battle_result_total_damage = {
 	tip = "누적 데미지:"
 }
+
 
 _G.pg.base.gametip.battle_result_contribution = {
 	tip = "공훈 획득:"
 }
 
+
 _G.pg.base.gametip.battle_result_total_score = {
 	tip = "누적 점수:"
 }
+
 
 _G.pg.base.gametip.battle_result_max_combo = {
 	tip = "최고 COMBO:"
 }
 
+
 _G.pg.base.gametip.battle_levelScene_0Oil = {
 	tip = "연료 포인트가 0이 되었습니다."
 }
+
 
 _G.pg.base.gametip.battle_levelScene_0Gold = {
 	tip = "물자 포인트가 0이 되었습니다."
 }
 
+
 _G.pg.base.gametip.battle_levelScene_noRaderCount = {
 	tip = "색적 가능 횟수를 초과했습니다."
 }
+
 
 _G.pg.base.gametip.battle_levelScene_lock = {
 	tip = "목표 맵이 오픈되지 않았습니다. <color=#92fc63>이전 스테이지</color>를 클리어 하세요."
 }
 
+
 _G.pg.base.gametip.battle_levelScene_hard_lock = {
 	tip = "목표 맵에 대응되는 메인 챕터를 클리어하지 않아 도전할 수 없습니다. <color=#92fc63>이전 스테이지</color>를 클리어 하세요."
 }
+
 
 _G.pg.base.gametip.battle_levelScene_close = {
 	tip = "해당 단계 이벤트 스테이지가 오픈되지 않았습니다."
 }
 
+
 _G.pg.base.gametip.battle_levelScene_chapter_lock = {
 	tip = "목표 스테이지가 오픈되지 않아 도전할 수 없습니다. <color=#92fc63>이전 스테이지</color>를 클리어 하세요."
 }
+
 
 _G.pg.base.gametip.battle_preCombatLayer_changeFormationError = {
 	tip = "해당 진형으로는 변경할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.battle_preCombatLayer_changeFormationNumberError = {
 	tip = "전투 가능한 함선이 <color=#92fc63>$1</color>척 이상 필요합니다."
 }
+
 
 _G.pg.base.gametip.battle_preCombatLayer_ready = {
 	tip = "함대 준비 만전! 언제라도 출격할 수 있습니다!"
 }
 
+
 _G.pg.base.gametip.battle_preCombatLayer_quest_leaveFleet = {
 	tip = "<color=#92fc63>$1</color>을(를) 배속해제 하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.battle_preCombatLayer_clear_confirm = {
 	tip = "선택하신 편성을 초기화하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.battle_preCombatLayer_auto_confirm = {
 	tip = "선택하신 편성을 추천 편성으로 변경하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.battle_preCombatLayer_save_confirm = {
 	tip = "현재 편성을 저장하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.battle_preCombatLayer_save_march = {
 	tip = "현재 편성을 저장하고 출격하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.battle_preCombatLayer_save_success = {
 	tip = "함대 편성을 저장했습니다."
 }
 
+
 _G.pg.base.gametip.battle_preCombatLayer_time_limit = {
 	tip = "$1초를 넘지 않을 것"
 }
+
 
 _G.pg.base.gametip.battle_preCombatLayer_sink_limit = {
 	tip = "전투 불능이 된 함선 $1척 이하"
 }
 
+
 _G.pg.base.gametip.battle_preCombatLayer_undefeated = {
 	tip = "전투 불능이 되지 않을 것"
 }
+
 
 _G.pg.base.gametip.battle_preCombatLayer_victory = {
 	tip = "적 함대를 격파"
 }
 
+
 _G.pg.base.gametip.battle_preCombatLayer_time_hold = {
 	tip = "$1초 동안 버틸 것"
 }
+
 
 _G.pg.base.gametip.battle_preCombatLayer_damage_before_end = {
 	tip = "가능한 목표에 더 많은 피해를 입히다"
 }
 
+
 _G.pg.base.gametip.battle_preCombatLayer_destory_transport_ship = {
 	tip = "수송선 최소 1척 파괴 "
 }
+
 
 _G.pg.base.gametip.battle_preCombatMediator_leastLimit = {
 	tip = "제 1 함대에는 함선을 배속해야 합니다."
 }
 
+
 _G.pg.base.gametip.battle_preCombatMediator_timeout = {
 	tip = "<color=#92fc63>작전 제한 시간</color>을 초과했습니다. 작전 실패..."
 }
+
 
 _G.pg.base.gametip.battle_preCombatMediator_activity_timeout = {
 	tip = "이벤트가 <color=#92fc63>종료되었습니다</color>. 확인을 터치하면 스테이지 선택 화면으로 돌아갑니다. "
 }
 
+
 _G.pg.base.gametip.battle_resourceSiteLayer_collecTimeDefault = {
 	tip = "의뢰시간：<color=#92fc63>--:--:--</color>"
 }
+
 
 _G.pg.base.gametip.battle_resourceSiteLayer_collecTime = {
 	tip = "의뢰시간：<color=#92fc63>--:--:--</color>"
 }
 
+
 _G.pg.base.gametip.battle_resourceSiteLayer_maxLv = {
 	tip = "최고 레벨：<color=#92fc63>Lv.$1</color>"
 }
+
 
 _G.pg.base.gametip.battle_resourceSiteLayer_avgLv = {
 	tip = "평균 레벨：<color=#92fc63>Lv.$1</color>"
 }
 
+
 _G.pg.base.gametip.battle_resourceSiteLayer_shipTypeCount = {
 	tip = "$1X$2"
 }
+
 
 _G.pg.base.gametip.battle_resourceSiteLayer_no_maxLv = {
 	tip = "최고 레벨이 <color=#92fc63>Lv.$1</color> 보다 낮습니다."
 }
 
+
 _G.pg.base.gametip.battle_resourceSiteLayer_no_avgLv = {
 	tip = "평균 레벨이 <color=#92fc63>Lv.$1</color> 보다 낮습니다."
 }
+
 
 _G.pg.base.gametip.battle_resourceSiteLayer_no_shipTypeCount = {
 	tip = "<color=#92fc63>$1X$2</color>이(가) 편성되어 있지 않습니다."
 }
 
+
 _G.pg.base.gametip.battle_resourceSiteLayer_startError_collecting = {
 	tip = "의뢰를 진행하는 중입니다."
 }
+
 
 _G.pg.base.gametip.battle_resourceSiteLayer_startError_not5Ship = {
 	tip = "<color=#92fc63> 5</color>척 이상 필요합니다."
 }
 
+
 _G.pg.base.gametip.battle_resourceSiteLayer_startError_limit = {
 	tip = "의뢰 조건에 맞지 않습니다：<color=#92fc63>$1</color>"
 }
+
 
 _G.pg.base.gametip.battle_resourceSiteLayer_endError_notStar = {
 	tip = "의뢰가 아직 개시되지 않았습니다."
 }
 
+
 _G.pg.base.gametip.battle_resourceSiteLayer_quest_end = {
 	tip = "긴급 귀항 시, 해당 의뢰는 리스트에서 사라지게 됩니다. 정말 귀항하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.battle_resourceSiteMediator_noSite = {
 	tip = "의뢰가 존재하지 않습니다."
 }
 
+
 _G.pg.base.gametip.battle_resourceSiteMediator_shipState_fight = {
 	tip = "해당 함선은 출격 중입니다."
 }
+
 
 _G.pg.base.gametip.battle_resourceSiteMediator_shipState_rest = {
 	tip = "해당 함선은 숙소에서 휴식 중입니다."
 }
 
+
 _G.pg.base.gametip.battle_resourceSiteMediator_shipState_study = {
 	tip = "해당 함선은대강당에서 수업 중입니다."
 }
+
 
 _G.pg.base.gametip.battle_resourceSiteMediator_shipState_event = {
 	tip = "해당 함선은 의뢰를 진행 중입니다."
 }
 
+
 _G.pg.base.gametip.battle_resourceSiteMediator_shipState_same = {
 	tip = "동일한 함선을 선택할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.battle_resourceSiteMediator_ok_end = {
 	tip = "모항에 돌아왔습니다."
 }
 
+
 _G.pg.base.gametip.battle_autobot_unlock = {
 	tip = "자율전투(오토) 기능이 개방되었습니다."
 }
+
 
 _G.pg.base.gametip.tips_confirm_teleport_sub = {
 	tip = "지시: <color=#92fc63FF>잠수 함대</color>를 <color=#92fc63FF>$1</color>구역에서 <color=#92fc63FF>$2</color>구역으로 조정하려면 <color=#92fc63FF>$3</color>칸을 이동해야 하며, 연료를 <color=#92fc63FF>$4</color>포인트 소모하게 됩니다. 계속 하시겠습니까? "
 }
 
+
 _G.pg.base.gametip.backyard_addExp_Info = {
 	tip = "자리를 비우신 ||<color=#FAFAF7FF>$1</color>|| 동안, 충분히 휴식했습니다! ||식량을|| <color=#92fc63FF>$2</color>|| 소비해서, 경험치를 || <color=#92fc63FF>$3</color>|| 획득했습니다!"
 }
+
 
 _G.pg.base.gametip.backyard_extendCapacity_error = {
 	tip = "확장 실패："
 }
 
+
 _G.pg.base.gametip.backyard_extendCapacity_ok = {
 	tip = "식량 창고가 <color=#92fc63>$1</color> 확장되었습니다!"
 }
+
 
 _G.pg.base.gametip.backyard_addShip_error = {
 	tip = "휴식 함선 배치 실패："
 }
 
+
 _G.pg.base.gametip.backyard_buyFurniture_error = {
 	tip = "가구 구입 실패："
 }
+
 
 _G.pg.base.gametip.backyard_extendBackYard_error = {
 	tip = "휴식 슬롯 확장 실패："
 }
 
+
 _G.pg.base.gametip.backyard_addFood_error = {
 	tip = "식량 보충 실패："
 }
+
 
 _G.pg.base.gametip.backyard_addFood_ok = {
 	tip = "식량이 <color=#92fc63>+$1</color> 보충되었습니다!"
 }
 
+
 _G.pg.base.gametip.backyard_putFurniture_ok = {
 	tip = "저장했습니다."
 }
+
 
 _G.pg.base.gametip.backyard_backyardGranaryLayer_foodCountLimit = {
 	tip = "식량이 부족합니다."
 }
 
+
 _G.pg.base.gametip.backyard_shipAddInimacy_ok = {
 	tip = "<color=#92fc63>$1</color>의 호감도가 <color=#92fc63>상승</color>했습니다."
 }
+
 
 _G.pg.base.gametip.backyard_shipAddInimacy_error = {
 	tip = "호감도 상승 실패："
 }
 
+
 _G.pg.base.gametip.backyard_shipAddMoney_ok = {
 	tip = "<color=#92fc63>$1</color>이(가) <color=#92fc63>$2</color> 가구 코인을 발견했습니다!"
 }
+
 
 _G.pg.base.gametip.backyard_shipAddMoney_error = {
 	tip = "가구 코인 획득 실패："
 }
 
+
 _G.pg.base.gametip.backyard_shipExit_error = {
 	tip = "배치 해제 실패："
 }
+
 
 _G.pg.base.gametip.backyard_shipSpeedUpEnergy_error = {
 	tip = "가속 실패："
 }
 
+
 _G.pg.base.gametip.backyard_shipAlreadyExit = {
 	tip = "이미 휴식 슬롯에서 해제되었습니다."
 }
+
 
 _G.pg.base.gametip.backyard_backyardGranaryLayer_full = {
 	tip = "<color=red>이미 식량이 가득 찼습니다.</color>"
 }
 
+
 _G.pg.base.gametip.backyard_backyardGranaryLayer_buyCountLimit = {
 	tip = "최대 <color=#92fc63>$1</color>까지만 구입 가능합니다!"
 }
+
 
 _G.pg.base.gametip.backyard_backyardGranaryLayer_error_noResource = {
 	tip = "<color=#92fc63>$1</color>이(가) 부족하여 구입할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.backyard_backyardGranaryLayer_noFood = {
 	tip = "지휘관님, 숙소에 식량이 다 떨어졌어요. 배고파요..."
 }
+
 
 _G.pg.base.gametip.backyard_backyardGranaryLayer_noTimer = {
 	tip = "<color=#92fc63>식량을 보충</color>하면 경험치를 획득할 수 있습니다!"
 }
 
+
 _G.pg.base.gametip.backyard_backyardGranaryLayer_word = {
 	tip = "이것도 저것도 전부 맛있어 보여..."
 }
+
 
 _G.pg.base.gametip.backyard_backyardGranaryLayer_noShip = {
 	tip = "<color=#393A3C>휴식 시킬 함선을 배치하기 전까지</color>,<color=#72bc42>식량은 줄어들지 않습니다.</color>"
 }
 
+
 _G.pg.base.gametip.backyard_backyardGranaryLayer_foodTimeNotice_top = {
 	tip = "비축된 식량으로                       까진"
 }
+
 
 _G.pg.base.gametip.backyard_backyardGranaryLayer_foodTimeNotice_bottom = {
 	tip = "견딜 거야... 얼른 보충하자!"
 }
 
+
 _G.pg.base.gametip.backyard_backyardGranaryLayer_foodMaxIncreaseNotice = {
 	tip = "식량 창고를 <color=#72bc42>$1</color>에서 <color=#72bc42>$2</color>으로 확장"
 }
+
 
 _G.pg.base.gametip.backyard_backyardGranaryLayer_error_entendFail = {
 	tip = "<color=#92fc63>확장에 필요한 아이템이 부족합니다.</color>"
 }
 
+
 _G.pg.base.gametip.backyard_backyardGranaryLayer_buy_max_count = {
 	tip = "식량 창고가 가득 찼습니다!"
 }
+
 
 _G.pg.base.gametip.backyard_backyardScene_comforChatContent1 = {
 	tip = "숙소 쾌적도는 가구 배치에 영향을 받지 않으며, 쾌적도가 가장 높은 상위 n번째 가구의 쾌적도를 합산하여 계산합니다."
 }
 
+
 _G.pg.base.gametip.backyard_backyardScene_comforChatContent2 = {
 	tip = "숙소 쾌적도를 게재할 때 사용되는 가구 수는 숙소 확장 횟수에 따라 결정됩니다. 현재 확장 횟수: <color=#72bc42>$1</color>"
 }
+
 
 _G.pg.base.gametip.backyard_buyExtendItem_question = {
 	tip = "<color=#92fc63>$1</color>을(를) 소비합니다. 진행하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.backyard_backyardScene_expression_label_1 = {
 	tip = "검소"
 }
+
 
 _G.pg.base.gametip.backyard_backyardScene_expression_label_2 = {
 	tip = "보통"
 }
 
+
 _G.pg.base.gametip.backyard_backyardScene_expression_label_3 = {
 	tip = "쾌적"
 }
+
 
 _G.pg.base.gametip.backyard_backyardScene_quest_clearButton = {
 	tip = "현재 배치를 <color=#92fc63>초기화</color>하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.backyard_backyardScene_quest_saveFurniture = {
 	tip = "현재 배치를 <color=#92fc63>저장</color>하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.backyard_backyardScene_restSuccess = {
 	tip = "<color=#92fc63>배치를 복원했습니다!</color>"
 }
 
+
 _G.pg.base.gametip.backyard_backyardScene_clearSuccess = {
 	tip = "<color=#92fc63>배치를 초기화했습니다.</color>"
 }
+
 
 _G.pg.base.gametip.backyard_backyardScene_name = {
 	tip = "<color=#92fc63>$1의 숙소</color>"
 }
 
+
 _G.pg.base.gametip.backyard_backyardScene_exitShipAfterAddEnergy = {
 	tip = "피로도가 회복되었습니다!"
 }
+
 
 _G.pg.base.gametip.backyard_backyardScene_showAddExpInfo = {
 	tip = "휴식시간：<color=#92fc63>$1</color> 경험치 증가：<color=#92fc63>$2</color>"
 }
 
+
 _G.pg.base.gametip.backyard_backyardScene_error_noPosPutFurniture = {
 	tip = "배치할 수 있는 장소가 없습니다."
 }
+
 
 _G.pg.base.gametip.backyard_backyardScene_error_noFurniture = {
 	tip = "배치할 수 있는 가구가 없습니다."
 }
 
+
 _G.pg.base.gametip.backyard_backyardScene_error_canNotRotate = {
 	tip = "이 장소에서는 회전시킬 수 없습니다."
 }
+
 
 _G.pg.base.gametip.backyard_backyardShipInfoLayer_quest_openPos = {
 	tip = "<color=#72bc42>$1 다이아</color>를 사용하여 휴식 슬롯을 개방하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.backyard_backyardShipInfoLayer_quest_addShipNoFood = {
 	tip = "식량이 부족합니다. 식량을 보충하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.backyard_backyardShipInfoLayer_quest_quickAddEnergy = {
 	tip = "<color=#92fc63>고속건조재</color>를 사용하여 건조를 가속하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.backyard_backyardShipInfoLayer_error_noQuickItem = {
 	tip = "고속건조재가 부족합니다."
 }
+
 
 _G.pg.base.gametip.backyard_backyardShipInfoMediator_shipState_rest = {
 	tip = "해당 함선은 숙소에서 휴식 중입니다."
 }
 
+
 _G.pg.base.gametip.backyard_backyardShipInfoMediator_shipState_fight = {
 	tip = "해당 함선은 숙소에서 휴식 중입니다."
 }
+
 
 _G.pg.base.gametip.backyard_backyardShipInfoMediator_shipState_study = {
 	tip = "해당 함선은 대강당에서 수업 중입니다."
 }
 
+
 _G.pg.base.gametip.backyard_backyardShipInfoMediator_shipState_collect = {
 	tip = "해당 함선은 의뢰를 진행 중입니다."
 }
+
 
 _G.pg.base.gametip.backyard_backyardShipInfoMediator_shipState_event = {
 	tip = "해당 함선은 특수 임무를 진행 중입니다."
 }
 
+
 _G.pg.base.gametip.backyard_backyardShipInfoMediator_quest_moveOutFleet = {
 	tip = "해당 함선은 함대에 배속되어 있습니다. 함대에서 배속해제 하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.backyard_backyardShipInfoMediator_error_vanguardFleetOnlyOneShip = {
 	tip = "선봉함대에는 최소 1척 이상의 함선이 존재해야 합니다."
 }
 
+
 _G.pg.base.gametip.backyard_backyardShipInfoMediator_error_mainFleetOnlyOneShip = {
 	tip = "주력함대에는 최소 1척 이상의 함선이 존재해야 합니다."
 }
+
 
 _G.pg.base.gametip.backyard_backyardShipInfoMediator_ok_addShip = {
 	tip = "캐릭터 추가 성공"
 }
 
+
 _G.pg.base.gametip.backyard_backyardShipInfoMediator_ok_unlock = {
 	tip = "오픈 완료"
 }
+
 
 _G.pg.base.gametip.backyard_backyardShipInfoMediator_error_noFood = {
 	tip = "식량이 부족합니다."
 }
 
+
 _G.pg.base.gametip.backyard_backyardShipInfoMediator_error_fullEnergy = {
 	tip = "이미 체력이 가득 차 있습니다."
 }
+
 
 _G.pg.base.gametip.backyard_backyardShipInfoMediator_error_fleetOnlyOneShip = {
 	tip = "함대에는 최소 1척 이상의 함선이 존재해야 합니다."
 }
 
+
 _G.pg.base.gametip.backyard_open_2floor = {
 	tip = "<color=#72bc42>$1</color> 다이아를 사용하여 숙소의 2층을 개방하시겠습니까?\n※쾌적도가 <color=#92fc63>20</color> 증가합니다. ※휴식 슬롯의 개수는 1층과 동일합니다."
 }
+
 
 _G.pg.base.gametip.backyarad_theme_replace = {
 	tip = "【$1】 세트의 아이템 중 일부가 다른 층에 배치되어 있습니다. 해당 아이템은 건너뛰고 배치되었습니다."
 }
 
+
 _G.pg.base.gametip.backyard_extendArea_ok = {
 	tip = "숙소를 확장했습니다."
 }
+
 
 _G.pg.base.gametip.backyard_extendArea_erro = {
 	tip = "숙소 확장에 실패했습니다... <color=#92fc63>$1</color>"
 }
 
+
 _G.pg.base.gametip.backyard_extendArea_tip = {
 	tip = "확장 허가서를 ||$1||개 사용하시겠습니까?||보유 수：||$2||개"
 }
+
 
 _G.pg.base.gametip.backyard_notPosition_shipExit = {
 	tip = "휴식 슬롯이 부족합니다."
 }
 
+
 _G.pg.base.gametip.backyard_no_ship_tip = {
 	tip = "함선이 존재하지 않습니다."
 }
+
 
 _G.pg.base.gametip.backyard_energy_qiuck_up_tip = {
 	tip = "에너지 커피를 <color=#92fc63FF>$1</color>개 사용하시겠습니까?\n\n보유 수：<color=$2>$3</color>"
 }
 
+
 _G.pg.base.gametip.backyard_cant_put_tip = {
 	tip = "배치할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.backyard_cant_buy_tip = {
 	tip = "구입할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.backyard_theme_lock_tip = {
 	tip = "이 세트는 현재 <color=#92fc63>미개방</color> 상태입니다."
 }
+
 
 _G.pg.base.gametip.backyard_theme_open_tip = {
 	tip = "개방 조건：\n지휘관 Lv.<color=#92fc63>$1</color> 이상"
 }
 
+
 _G.pg.base.gametip.backyard_theme_furniture_buy_tip = {
 	tip = "<material=outline c=#473B3A x=1 y=-1><color=#92fc63>$1</color></material> 가구 코인으로 <material=outline c=#473B3A x=1 y=-1><color=#92fc63>$2</color></material>을(를) 구입하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.backyard_cannot_repeat_purchase = {
 	tip = "중복 구입은 불가능합니다."
 }
 
+
 _G.pg.base.gametip.backyard_theme_bought = {
 	tip = "이미 구입했습니다."
 }
+
 
 _G.pg.base.gametip.backyard_interAction_no_open = {
 	tip = "준비 중"
 }
 
+
 _G.pg.base.gametip.backyard_theme_no_exist = {
 	tip = "세트가 존재하지 않습니다."
 }
+
 
 _G.pg.base.gametip.backayrd_theme_delete_sucess = {
 	tip = "세트 제거 성공"
 }
 
+
 _G.pg.base.gametip.backayrd_theme_delete_erro = {
 	tip = "세트 제거 실패"
 }
+
 
 _G.pg.base.gametip.backyard_ship_on_furnitrue = {
 	tip = "해당 가구에 함선 소녀가 쉬고 있습니다만... 정말 제거하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.backyard_save_empty_theme = {
 	tip = "배치를 저장할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.backyard_theme_name_forbid = {
 	tip = "금칙어가 포함되어 있습니다."
 }
 
+
 _G.pg.base.gametip.backyard_getResource_emptry = {
 	tip = "획득 가능 시간을 초과했습니다..."
 }
+
 
 _G.pg.base.gametip.backyard_no_pos_for_ship = {
 	tip = "더 이상 배치할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.equipment_destroyEquipments_error_noEquip = {
 	tip = "장비가 존재하지 않습니다."
 }
+
 
 _G.pg.base.gametip.equipment_destroyEquipments_error_notEnoughEquip = {
 	tip = "수량이 부족합니다."
 }
 
+
 _G.pg.base.gametip.equipment_equipDevUI_error_noPos = {
 	tip = "창고가 가득 찼습니다."
 }
+
 
 _G.pg.base.gametip.equipment_equipmentInfoLayer_error_canNotEquip = {
 	tip = "장비할 수 없습니다 ：<color=#92fc63>$1</color>"
 }
 
+
 _G.pg.base.gametip.equipment_equipmentScene_selectError_more = {
 	tip = "<color=#92fc63>$1</color>개까지 선택할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.equipment_newEquipLayer_getNewEquip = {
 	tip = "장비 획득：<color=#92fc63>$1</color>"
 }
 
+
 _G.pg.base.gametip.equipment_select_materials_tip = {
 	tip = "재료를 선택해주세요."
 }
+
 
 _G.pg.base.gametip.equipment_select_device_tip = {
 	tip = "장비를 선택해주세요."
 }
 
+
 _G.pg.base.gametip.equipment_cant_unload = {
 	tip = "<color=#92fc63>창고에 공간이 없습니다.</color>... 장비를 해체할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.equipment_max_level = {
 	tip = "최대 레벨의 장비입니다."
 }
 
+
 _G.pg.base.gametip.equipment_upgrade_costcheck_error = {
 	tip = "강화에 필요한 재료를 확인 후 강화하세요"
 }
+
 
 _G.pg.base.gametip.equipment_upgrade_feedback_lack_of_fragment = {
 	tip = "<color=#92fc63>$1</color> 수량 부족"
 }
 
+
 _G.pg.base.gametip.exercise_count_insufficient = {
 	tip = "연습 횟수가 부족합니다."
 }
+
 
 _G.pg.base.gametip.exercise_clear_fleet_tip = {
 	tip = "해당 함선을 해제합니다. 진행하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.exercise_fleet_exit_tip = {
 	tip = "해당 함선을 <color=#92fc63>연습전 방어 함대</color>에서 배속해제 하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.exercise_replace_rivals_ok_tip = {
 	tip = "연습 상대를 초기화했습니다."
 }
 
+
 _G.pg.base.gametip.exercise_replace_rivals_question = {
 	tip = "<color=#92fc63>$1</color> 다이아를 사용하여 연습 상대를 초기화하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.exercise_count_recover_tip = {
 	tip = "( <color=#92fc63>$1</color> 후 회복)"
 }
 
+
 _G.pg.base.gametip.exercise_shop_refresh_tip = {
 	tip = "<color=#92fc63>$1</color> 다이아를 사용하여 리스트를 갱신하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.exercise_shop_buy_tip = {
 	tip = "<color=#92fc63>$1</color> 공훈으로 교환하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.exercise_formation_title = {
 	tip = "연습전 방어 함대"
 }
 
+
 _G.pg.base.gametip.exercise_time_tip = {
 	tip = "   이번 시즌 기간：$1"
 }
+
 
 _G.pg.base.gametip.exercise_rule_tip = {
 	tip = [[
@@ -2058,128 +2568,158 @@ _G.pg.base.gametip.exercise_rule_tip = {
  11. 시즌 종료 후, 모든 유저의 연습전 횟수, 계급, 포인트가 초기화됩니다.]]
 }
 
+
 _G.pg.base.gametip.exercise_award_tip = {
 	tip = "시즌 중 처음으로 티어에 도달했을 때 보상을 지급합니다. 보상 및 티어 달성에 필요한 조건은 아래와 같습니다: "
 }
+
 
 _G.pg.base.gametip.dock_yard_left_tips = {
 	tip = "<color=#92fc63>함선</color>을 선택해주세요."
 }
 
+
 _G.pg.base.gametip.fleet_error_no_fleet = {
 	tip = "출격할 함대가 존재하지 않습니다."
 }
+
 
 _G.pg.base.gametip.fleet_repairShips_error_fullEnergy = {
 	tip = "내구가 충분합니다."
 }
 
+
 _G.pg.base.gametip.fleet_repairShips_error_noResource = {
 	tip = "자원이 부족합니다!"
 }
+
 
 _G.pg.base.gametip.fleet_repairShips_quest = {
 	tip = "<color=#92fc63>$1</color> 물자를 소비하여 내구를 회복하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.fleet_fleetRaname_error = {
 	tip = "이름 변경 실패："
 }
+
 
 _G.pg.base.gametip.fleet_updateFleet_error = {
 	tip = "갱신 실패："
 }
 
+
 _G.pg.base.gametip.friend_acceptFriendRequest_error = {
 	tip = "신청 승인 실패："
 }
+
 
 _G.pg.base.gametip.friend_deleteFriend_error = {
 	tip = "친구 삭제 실패："
 }
 
+
 _G.pg.base.gametip.friend_fetchFriendMsg_error = {
 	tip = "정보 취득 실패："
 }
+
 
 _G.pg.base.gametip.friend_rejectFriendRequest_error = {
 	tip = "신청 거절 실패："
 }
 
+
 _G.pg.base.gametip.friend_searchFriend_noPlayer = {
 	tip = "존재하지 않는 유저입니다."
 }
+
 
 _G.pg.base.gametip.friend_sendFriendMsg_error = {
 	tip = "송신 실패："
 }
 
+
 _G.pg.base.gametip.friend_sendFriendMsg_error_noFriend = {
 	tip = "상대방과는 친구가 아닙니다."
 }
+
 
 _G.pg.base.gametip.friend_sendFriendRequest_error = {
 	tip = "신청 실패："
 }
 
+
 _G.pg.base.gametip.friend_addblacklist_error = {
 	tip = "차단 실패："
 }
+
 
 _G.pg.base.gametip.friend_relieveblacklist_error = {
 	tip = "차단 해제 실패："
 }
 
+
 _G.pg.base.gametip.friend_sendFriendRequest_success = {
 	tip = "신청했습니다."
 }
+
 
 _G.pg.base.gametip.friend_relieveblacklist_success = {
 	tip = "차단을 해제했습니다."
 }
 
+
 _G.pg.base.gametip.friend_addblacklist_success = {
 	tip = "차단했습니다."
 }
+
 
 _G.pg.base.gametip.friend_confirm_add_blacklist = {
 	tip = "<color=#92fc63>$1</color>을(를) 차단하시겠습니까?\n(차단 리스트는 친구관리에서 확인할 수 있습니다.)"
 }
 
+
 _G.pg.base.gametip.friend_relieve_backlist_tip = {
 	tip = "이미 차단한 유저입니다. 차단을 해제하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.friend_player_is_friend_tip = {
 	tip = "이미 친구인 유저입니다."
 }
 
+
 _G.pg.base.gametip.friend_searchFriend_wait_time = {
 	tip = "$1초 후 다시 검색할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.lesson_classOver_error = {
 	tip = "보상 수령 실패："
 }
 
+
 _G.pg.base.gametip.lesson_endToLearn_error = {
 	tip = "학습 중지 실패："
 }
+
 
 _G.pg.base.gametip.lesson_startToLearn_error = {
 	tip = "강화 실패："
 }
 
+
 _G.pg.base.gametip.tactics_lesson_cancel = {
 	tip = "강화를 중지할 경우, 스킬 경험치는 일부 획득할 수 있으나, <color=#92fc63>교본은 그대로 소비됩니다.</color> 진행하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.tactics_lesson_system_introduce = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/tactics",
-				path = ""
+				path = "",
+				atlas = "helpbg/tactics"
 			}
 		},
 		disableScroll = true,
@@ -2199,437 +2739,546 @@ _G.pg.base.gametip.tactics_lesson_system_introduce = {
 	}
 }
 
+
 _G.pg.base.gametip.tactics_lesson_start_tip = {
 	tip = "<color=#92fc63>「$1」</color>을(를) <color=#92fc63>1권</color> 사용하여, <color=#92fc63>「$2」</color>의 <color=#92fc63>$3</color>을(를) 강화하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.tactics_noskill_erro = {
 	tip = "강화 대상이 존재해야 합니다."
 }
 
+
 _G.pg.base.gametip.tactics_max_level = {
 	tip = "이미 최대 레벨입니다."
 }
+
 
 _G.pg.base.gametip.tactics_end_to_learn = {
 	tip = "<color=#92fc63>「$1」</color> 강화 완료. <color=#92fc63>「$2」</color> 스킬은 <color=#92fc63>$3</color>의 경험치를 획득했습니다!"
 }
 
+
 _G.pg.base.gametip.tactics_continue_to_learn = {
 	tip = ", 해당 스킬을 계속 강화하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.tactics_should_exist_skill = {
 	tip = "강화 대상이 존재해야 합니다."
 }
 
+
 _G.pg.base.gametip.tactics_skill_level_up = {
 	tip = " (스킬 레벨 상승：$1→$2)"
 }
+
 
 _G.pg.base.gametip.tactics_no_lesson = {
 	tip = "교본이 없습니다..."
 }
 
+
 _G.pg.base.gametip.tactics_lesson_full = {
 	tip = "학원에 자리가 없습니다!"
 }
+
 
 _G.pg.base.gametip.tactics_lesson_repeated = {
 	tip = "해당 함선은 이미 전술학원에서 수업 중입니다."
 }
 
+
 _G.pg.base.gametip.login_gate_not_ready = {
 	tip = "현재 점검 중입니다."
 }
+
 
 _G.pg.base.gametip.login_game_not_ready = {
 	tip = "현재 점검 중입니다."
 }
 
+
 _G.pg.base.gametip.login_game_rigister_full = {
 	tip = "서버가 만원입니다."
 }
+
 
 _G.pg.base.gametip.login_game_login_full = {
 	tip = "서버에 접속할 수 없습니다. 잠시 후 다시 시도해주시기 바랍니다."
 }
 
+
 _G.pg.base.gametip.login_game_banned = {
 	tip = "이용이 정지되어 있습니다. 고객센터로 문의주시기 바랍니다."
 }
+
 
 _G.pg.base.gametip.login_game_frequence = {
 	tip = "잠시 후 다시 접속해주시기 바랍니다."
 }
 
+
 _G.pg.base.gametip.login_createNewPlayer_full = {
 	tip = "서버가 만원입니다."
 }
+
 
 _G.pg.base.gametip.login_createNewPlayer_error = {
 	tip = "가입 실패："
 }
 
+
 _G.pg.base.gametip.login_createNewPlayer_error_nameNull = {
 	tip = "이름을 입력해주세요."
 }
+
 
 _G.pg.base.gametip.login_newPlayerScene_word_lingBo = {
 	tip = "특형 구축함 아야나미... 입니다. 「귀신」이라는 말을 자주 들어요. 이름을 가르쳐주실 수 있으신가요?"
 }
 
+
 _G.pg.base.gametip.login_newPlayerScene_word_yingHuoChong = {
 	tip = "와앗! 새로운 지휘관이구나! 글로우웜이랑 같이 놀자! 이름 알려줘!"
 }
+
 
 _G.pg.base.gametip.login_newPlayerScene_word_laFei = {
 	tip = "밴슨급 구축함 라피... 특기는 야전... 지휘관... 이름을 알려줄래...?"
 }
 
+
 _G.pg.base.gametip.login_newPlayerScene_word_biaoqiang = {
 	tip = "제 이름은 재블린! 네! 지휘관도 이름을 알려주세요!"
 }
+
 
 _G.pg.base.gametip.login_newPlayerScene_word_z23 = {
 	tip = "이름을 입력하는 걸 잊으셨나요? 아니면 이름이 「지휘관」이신가요?"
 }
 
+
 _G.pg.base.gametip.login_newPlayerScene_randomName = {
 	tip = "랜덤한 이름을 생성했습니다."
 }
+
 
 _G.pg.base.gametip.login_newPlayerScene_error_notChoiseShip = {
 	tip = "시작 함선을 선택해주세요."
 }
 
+
 _G.pg.base.gametip.login_newPlayerScene_inputName = {
 	tip = "이름을 입력해주세요."
 }
+
 
 _G.pg.base.gametip.login_loginMediator_kickOtherLogin = {
 	tip = "다른 장소에서 로그인되었습니다."
 }
 
+
 _G.pg.base.gametip.login_loginMediator_kickServerClose = {
 	tip = "서버와의 연결이 끊어졌습니다."
 }
+
 
 _G.pg.base.gametip.login_loginMediator_kickIntError = {
 	tip = "접속 중 에러가 발생했습니다."
 }
 
+
 _G.pg.base.gametip.login_loginMediator_kickTimeError = {
 	tip = "오랜 시간 통신이 이루어지지 않아 접속이 끊어졌습니다."
 }
+
 
 _G.pg.base.gametip.login_loginMediator_vertifyFail = {
 	tip = "데이터 에러："
 }
 
+
 _G.pg.base.gametip.login_loginMediator_dataExpired = {
 	tip = "로그인 실패"
 }
+
 
 _G.pg.base.gametip.login_loginMediator_kickLoginOut = {
 	tip = "서버와의 연결이 끊어졌습니다."
 }
 
+
 _G.pg.base.gametip.login_loginMediator_serverLoginErro = {
 	tip = "서버 접속 에러"
 }
+
 
 _G.pg.base.gametip.login_loginMediator_kickUndefined = {
 	tip = "접속이 끊어졌습니다.：[$1]"
 }
 
+
 _G.pg.base.gametip.login_loginMediator_loginSuccess = {
 	tip = "성공적으로 로그인했습니다."
 }
+
 
 _G.pg.base.gametip.login_loginMediator_quest_RegisterSuccess = {
 	tip = "성공적으로 가입했습니다."
 }
 
+
 _G.pg.base.gametip.login_loginMediator_registerFail_error = {
 	tip = "가입 실패："
 }
+
 
 _G.pg.base.gametip.login_loginMediator_userLoginFail_error = {
 	tip = "가입 실패："
 }
 
+
 _G.pg.base.gametip.login_loginMediator_serverLoginFail_error = {
 	tip = "서버 접속 에러："
 }
+
 
 _G.pg.base.gametip.login_loginScene_error_noUserName = {
 	tip = "이름을 입력해주세요."
 }
 
+
 _G.pg.base.gametip.login_loginScene_error_noPassword = {
 	tip = "패스워드를 입력해주세요."
 }
+
 
 _G.pg.base.gametip.login_loginScene_error_diffPassword = {
 	tip = "패스워드가 일치하지 않습니다."
 }
 
+
 _G.pg.base.gametip.login_loginScene_error_noMailBox = {
 	tip = "이메일 주소를 입력해주세요."
 }
+
 
 _G.pg.base.gametip.login_loginScene_choiseServer = {
 	tip = "서버를 선택해주세요."
 }
 
+
 _G.pg.base.gametip.login_loginScene_server_vindicate = {
 	tip = "해당 서버는 점검 중입니다."
 }
+
 
 _G.pg.base.gametip.login_loginScene_server_full = {
 	tip = "서버가 만원입니다."
 }
 
+
 _G.pg.base.gametip.login_loginScene_server_disabled = {
 	tip = "현재 서버를 이용할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.login_register_full = {
 	tip = "서버가 만원입니다."
 }
 
+
 _G.pg.base.gametip.system_database_busy = {
 	tip = "통신 에러가 발생했습니다. 잠시 후 다시 접속해주시기 바랍니다."
 }
+
 
 _G.pg.base.gametip.mail_getMailList_error_noNewMail = {
 	tip = "새로운 우편이 없습니다."
 }
 
+
 _G.pg.base.gametip.mail_takeAttachment_error_noMail = {
 	tip = "우편이 존재하지 않습니다.：$1"
 }
+
 
 _G.pg.base.gametip.mail_takeAttachment_error_noAttach = {
 	tip = "첨부 아이템을 수령하지 못했습니다."
 }
 
+
 _G.pg.base.gametip.mail_takeAttachment_error_noWorld = {
 	tip = "대형 작전 미개방. 부품을 수령할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.mail_takeAttachment_error_reWorld = {
 	tip = "대형 작전 초기화 완료. 수령한 부품은 작전 준비 물자 교환권으로 전환됩니다. 수령하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.mail_count = {
 	tip = "첨부 아이템 $1건"
 }
+
 
 _G.pg.base.gametip.mail_takeAttachment_error_magazine_full = {
 	tip = "<color=#92fc63>수령 실패</color>. <color=#92fc63>창고 공간 부족</color>."
 }
 
+
 _G.pg.base.gametip.mail_takeAttachment_error_dockYrad_full = {
 	tip = "<color=#92fc63>수령 실패</color>. <color=#92fc63>도크 공간 부족</color>."
 }
+
 
 _G.pg.base.gametip.mail_confirm_set_important_flag = {
 	tip = "메일을 보존하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.mail_confirm_cancel_important_flag = {
 	tip = "메일 보존을 해제하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.main_mailLayer_mailBoxClear = {
 	tip = "우편함을 비웠습니다."
 }
 
+
 _G.pg.base.gametip.main_mailLayer_noNewMail = {
 	tip = "새로운 우편이 없습니다."
 }
+
 
 _G.pg.base.gametip.main_mailLayer_takeAttach = {
 	tip = "아이템 수령"
 }
 
+
 _G.pg.base.gametip.main_mailLayer_noAttach = {
 	tip = "첨부없음"
 }
+
 
 _G.pg.base.gametip.main_mailLayer_attachTaken = {
 	tip = "수령했습니다."
 }
 
+
 _G.pg.base.gametip.main_mailLayer_quest_clear = {
 	tip = "읽은 우편을 전부 삭제하시겠습니까?<color=#92fc63>(첨부 아이템을 수령하지 않은 우편은 삭제되지 않습니다.)</color>"
 }
+
 
 _G.pg.base.gametip.main_mailLayer_quest_deleteNotTakeAttach = {
 	tip = "<color=#92fc63>아직 첨부 아이템을 수령하지 않았습니다.</color> 정말 삭제하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.main_mailLayer_quest_deleteNotRead = {
 	tip = "<color=#92fc63>아직 읽지 않은 우편이 있습니다.</color> 정말 삭제하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.main_mailMediator_mailDelete = {
 	tip = "삭제했습니다."
 }
 
+
 _G.pg.base.gametip.main_mailMediator_attachTaken = {
 	tip = "첨부 아이템을 수령했습니다."
 }
+
 
 _G.pg.base.gametip.main_mailMediator_notingToTake = {
 	tip = "수령할 수 있는 아이템이 없습니다."
 }
 
+
 _G.pg.base.gametip.main_mailMediator_takeALot = {
 	tip = "전부 수령했습니다."
 }
+
 
 _G.pg.base.gametip.main_navalAcademyScene_systemClose = {
 	tip = "해당 기능은 아직 개방되지 않았습니다."
 }
 
+
 _G.pg.base.gametip.main_navalAcademyScene_quest_startClass = {
 	tip = "<color=#92fc63>수업 개시! 여러분, 집중해서 들어주세요~</color>"
 }
+
 
 _G.pg.base.gametip.main_navalAcademyScene_quest_stopClass = {
 	tip = "同学们努力学习中，确认让她们一起逃课？\n<color=#92fc63>（逃课将不获得属性值加成）</color>"
 }
 
+
 _G.pg.base.gametip.main_navalAcademyScene_quest_Classover_long = {
 	tip = "下课啦！<color=#92fc63>$1</color>认真学习，<color=#92fc63>$2+$3</color>；<color=#92fc63>$4+$5</color>！"
 }
+
 
 _G.pg.base.gametip.main_navalAcademyScene_quest_Classover_short = {
 	tip = "下课啦！<color=#92fc63>$1</color>认真学习，<color=#92fc63>$2+$3</color>！"
 }
 
+
 _G.pg.base.gametip.main_navalAcademyScene_upgrade_complete = {
 	tip = "<color=#92fc63>$1</color> 업그레이드 완료!"
 }
+
 
 _G.pg.base.gametip.main_navalAcademyScene_class_upgrade_complete = {
 	tip = "<color=#92fc63>$1</color> 증축 완료, 비축 용량 <color=#9CFF5CE6>+$2</color>!"
 }
 
+
 _G.pg.base.gametip.main_navalAcademyScene_work_done = {
 	tip = "받을 수 있는 임무가 없습니다."
 }
+
 
 _G.pg.base.gametip.main_notificationLayer_searchInput = {
 	tip = "유저명을 입력해주세요."
 }
 
+
 _G.pg.base.gametip.main_notificationLayer_noInput = {
 	tip = "메시지를 입력해주세요."
 }
+
 
 _G.pg.base.gametip.main_notificationLayer_noFriend = {
 	tip = "친구가 없습니다."
 }
 
+
 _G.pg.base.gametip.main_notificationLayer_deleteFriend = {
 	tip = "친구 삭제"
 }
+
 
 _G.pg.base.gametip.main_notificationLayer_sendButton = {
 	tip = "메시지 입력"
 }
 
+
 _G.pg.base.gametip.main_notificationLayer_addFriendError_addSelf = {
 	tip = "자신을 친구로 등록할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.main_notificationLayer_addFriendError_friendAlready = {
 	tip = "이미 친구인 유저입니다."
 }
 
+
 _G.pg.base.gametip.main_notificationLayer_quest_deletFriend = {
 	tip = "<color=#92fc63>「$1」</color>을(를) 친구 목록에서 삭제하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.main_notificationLayer_quest_request = {
 	tip = "에게 친구 신청을 받았습니다. 승인하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.main_notificationLayer_enter_room = {
 	tip = "<color=#92fc63>$1</color> 채팅방에 입장했습니다."
 }
+
 
 _G.pg.base.gametip.main_notificationLayer_not_roomId = {
 	tip = "채팅방 번호를 입력해주세요."
 }
 
+
 _G.pg.base.gametip.main_notificationLayer_roomId_invaild = {
 	tip = "채팅방이 존재하지 않습니다."
 }
+
 
 _G.pg.base.gametip.main_notificationMediator_sendFriendRequest = {
 	tip = "친구 신청을 보냈습니다."
 }
 
+
 _G.pg.base.gametip.main_notificationMediator_beFriend = {
 	tip = "<color=#92fc63>「$1」</color>와(과) 친구가 되었습니다."
 }
+
 
 _G.pg.base.gametip.main_notificationMediator_deleteFriend = {
 	tip = "<color=#92fc63>「$1」</color>와(과) 절교했습니다."
 }
 
+
 _G.pg.base.gametip.main_notificationMediator_room_max_number = {
 	tip = "채팅방이 가득 찼습니다."
 }
+
 
 _G.pg.base.gametip.main_playerInfoLayer_inputName = {
 	tip = "이름을 입력해주세요."
 }
 
+
 _G.pg.base.gametip.main_playerInfoLayer_inputManifesto = {
 	tip = "코멘트를 입력해주세요."
 }
+
 
 _G.pg.base.gametip.main_playerInfoLayer_quest_changeName = {
 	tip = "<color=#92fc63>100 다이아</color>를 사용합니다. 진행하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.main_playerInfoLayer_error_changeNameNoGem = {
 	tip = "다이아 부족"
 }
+
 
 _G.pg.base.gametip.main_settingsScene_quest_exist = {
 	tip = "로그아웃 하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.coloring_color_missmatch = {
 	tip = "잘못된 물감이 선택되었습니다."
 }
+
 
 _G.pg.base.gametip.coloring_color_not_enough = {
 	tip = "물감이 부족합니다. 우측 상단을 터치하여 획득 방법을 확인하여 주십시오."
 }
 
+
 _G.pg.base.gametip.coloring_erase_all_warning = {
 	tip = "[전부 삭제] 를 누르시면 팔레트의 모든 내용이 사라집니다. 계속 하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.coloring_erase_warning = {
 	tip = "색깔을 지운 후, 이미 소모된 물감은 반환되지 않습니다. 계속 하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.coloring_lock = {
 	tip = "미개방"
 }
 
+
 _G.pg.base.gametip.coloring_wait_open = {
 	tip = "오픈 대기 중"
 }
+
 
 _G.pg.base.gametip.coloring_help_tip = {
 	tip = {
@@ -2658,6 +3307,7 @@ _G.pg.base.gametip.coloring_help_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.link_link_help_tip = {
 	tip = {
 		{
@@ -2684,625 +3334,781 @@ _G.pg.base.gametip.link_link_help_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.player_changeManifesto_ok = {
 	tip = "코멘트를 변경했습니다."
 }
+
 
 _G.pg.base.gametip.player_changeManifesto_error = {
 	tip = "코멘트 변경 실패："
 }
 
+
 _G.pg.base.gametip.player_changePlayerIcon_ok = {
 	tip = "비서함을 변경했습니다!"
 }
+
 
 _G.pg.base.gametip.player_changePlayerIcon_error = {
 	tip = "프로필 이미지 변경 실패："
 }
 
+
 _G.pg.base.gametip.player_changePlayerName_ok = {
 	tip = "이름을 변경했습니다."
 }
+
 
 _G.pg.base.gametip.player_changePlayerName_error = {
 	tip = "이름 변경 실패："
 }
 
+
 _G.pg.base.gametip.player_changePlayerName_error_2015 = {
 	tip = "이미 사용 중인 이름입니다."
 }
+
 
 _G.pg.base.gametip.player_harvestResource_error = {
 	tip = "자원 조달 실패："
 }
 
+
 _G.pg.base.gametip.player_harvestResource_error_fullBag = {
 	tip = "자원 보유량이 이미 최대치에 도달했습니다."
 }
+
 
 _G.pg.base.gametip.player_change_chat_room_erro = {
 	tip = "채팅방 변경 실패："
 }
 
+
 _G.pg.base.gametip.prop_destroyProp_error_noItem = {
 	tip = "아이템이 존재하지 않습니다."
 }
+
 
 _G.pg.base.gametip.prop_destroyProp_error_canNotSell = {
 	tip = "해당 아이템은 매각할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.prop_destroyProp_error_notEnoughItem = {
 	tip = "매각할 아이템이 존재하지 않습니다."
 }
+
 
 _G.pg.base.gametip.prop_destroyProp_error = {
 	tip = "매각 실패："
 }
 
+
 _G.pg.base.gametip.resourceSite_error_noSite = {
 	tip = "의뢰가 존재하지 않습니다."
 }
+
 
 _G.pg.base.gametip.resourceSite_beginScanMap_ok = {
 	tip = "색적 성공"
 }
 
+
 _G.pg.base.gametip.resourceSite_beginScanMap_error = {
 	tip = "색적 실패："
 }
+
 
 _G.pg.base.gametip.resourceSite_collectResource_error = {
 	tip = "자원 획득 실패："
 }
 
+
 _G.pg.base.gametip.resourceSite_finishResourceSite_error = {
 	tip = "자원 획득 완료 실패："
 }
+
 
 _G.pg.base.gametip.resourceSite_startResourceSite_error = {
 	tip = "의뢰 진행 실패："
 }
 
+
 _G.pg.base.gametip.ship_error_noShip = {
 	tip = "함선이 존재하지 않습니다.：<color=#92fc63>$1</color>"
 }
+
 
 _G.pg.base.gametip.ship_addStarExp_error = {
 	tip = "경험치 상승 실패："
 }
 
+
 _G.pg.base.gametip.ship_buildShip_error = {
 	tip = "건조 실패："
 }
+
 
 _G.pg.base.gametip.ship_buildShip_error_noTemplate = {
 	tip = "건조 배치가 존재하지 않습니다.：<color=#92fc63>$1</color>"
 }
 
+
 _G.pg.base.gametip.ship_buildShip_error_notEnoughItem = {
 	tip = "재료가 부족합니다."
 }
+
 
 _G.pg.base.gametip.ship_buildShipImmediately_error = {
 	tip = "고속 건조 실패："
 }
 
+
 _G.pg.base.gametip.ship_buildShipImmediately_error_noSHip = {
 	tip = "건조 중인 함선이 없습니다."
 }
+
 
 _G.pg.base.gametip.ship_buildShipImmediately_error_finished = {
 	tip = "건조가 완료되었습니다."
 }
 
+
 _G.pg.base.gametip.ship_buildShipImmediately_error_noItem = {
 	tip = "고속건조재가 없습니다."
 }
+
 
 _G.pg.base.gametip.ship_buildShip_not_position = {
 	tip = "건조 대기열이 가득 찼습니다."
 }
 
+
 _G.pg.base.gametip.ship_buildBatchShip = {
 	tip = "<color=#92fc63>$1 다이아</color>를 사용하여 <color=#92fc63>10척 일괄 건조</color>를 진행하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.ship_buildSingleShip = {
 	tip = "<color=#92fc63>$1 다이아</color>를 사용하여 <color=#92fc63>1척 고속 건조</color>를 진행하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.ship_buildShip_succeed = {
 	tip = "함선을 획득했습니다."
 }
+
 
 _G.pg.base.gametip.ship_buildShip_list_empty = {
 	tip = "건조 대기열이 비어있습니다."
 }
 
+
 _G.pg.base.gametip.ship_buildship_tip = {
 	tip = "<color=#92fc63>$4</color> 건조 진행 시：\n<color=#92fc63>$1 물자</color>와 <color=#92fc63>$3을(를) $2개</color> 소모."
 }
+
 
 _G.pg.base.gametip.ship_destoryShips_error = {
 	tip = "퇴역 실패："
 }
 
+
 _G.pg.base.gametip.ship_equipToShip_ok = {
 	tip = "<color=#92fc63>$1</color>을(를) 장착했습니다."
 }
+
 
 _G.pg.base.gametip.ship_equipToShip_error = {
 	tip = "장비 장착 실패："
 }
 
+
 _G.pg.base.gametip.ship_equipToShip_error_noEquip = {
 	tip = "장비가 존재하지 않습니다."
 }
+
 
 _G.pg.base.gametip.ship_equip_check = {
 	tip = "※설정에서 해당 화면 on/off 가능"
 }
 
+
 _G.pg.base.gametip.ship_getShip_error = {
 	tip = "건조 실패："
 }
+
 
 _G.pg.base.gametip.ship_getShip_error_noShip = {
 	tip = "건조 중인 함선이 없습니다."
 }
 
+
 _G.pg.base.gametip.ship_getShip_error_notFinish = {
 	tip = "건조가 아직 완료되지 않았습니다."
 }
+
 
 _G.pg.base.gametip.ship_getShip_error_full = {
 	tip = "<color=#92fc63>도크에 공간이 없습니다</color>"
 }
 
+
 _G.pg.base.gametip.ship_modShip_error = {
 	tip = "강화 실패："
 }
+
 
 _G.pg.base.gametip.ship_modShip_error_notEnoughGold = {
 	tip = "<color=#92fc63>물자가 부족합니다.</color>"
 }
 
+
 _G.pg.base.gametip.ship_remouldShip_error = {
 	tip = "한계돌파 실패："
 }
+
 
 _G.pg.base.gametip.ship_unequipFromShip_ok = {
 	tip = "<color=#FFD700FF>$1</color>를(를) 장착 해제했습니다."
 }
 
+
 _G.pg.base.gametip.ship_unequipFromShip_error = {
 	tip = "장비 변경 실패："
 }
+
 
 _G.pg.base.gametip.ship_unequipFromShip_error_noEquip = {
 	tip = "장비가 없습니다."
 }
 
+
 _G.pg.base.gametip.ship_unequip_all_tip = {
 	tip = "장비를 전부 장착 해제하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.ship_unequip_all_success = {
 	tip = "장비를 장착 해제했습니다."
 }
 
+
 _G.pg.base.gametip.ship_updateShipLock_ok_lock = {
 	tip = "<color=#92fc63>$1</color>을(를) 잠금 상태로 전환했습니다."
 }
+
 
 _G.pg.base.gametip.ship_updateShipLock_ok_unlock = {
 	tip = "<color=#92fc63>$1</color>을(를) 잠금 해제 상태로 전환했습니다."
 }
 
+
 _G.pg.base.gametip.ship_updateShipLock_error = {
 	tip = "잠금/잠금 해제 실패："
 }
+
 
 _G.pg.base.gametip.ship_upgradeStar_error = {
 	tip = "한계돌파 실패："
 }
 
+
 _G.pg.base.gametip.ship_upgradeStar_error_4010 = {
 	tip = "「거울해역」에 출격 중인 함선이 포함되어 있습니다."
 }
+
 
 _G.pg.base.gametip.ship_upgradeStar_error_lvLimit = {
 	tip = "<color=#92fc63>Lv</color> 부족으로 인해 한계돌파할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.ship_upgradeStar_error_noEnoughMatrail = {
 	tip = "재료가 부족합니다."
 }
+
 
 _G.pg.base.gametip.ship_upgradeStar_notConfig = {
 	tip = "한계돌파 <color=#92fc63>$1</color>　정보를 불러오는데 실패했습니다."
 }
 
+
 _G.pg.base.gametip.ship_upgradeStar_maxLevel = {
 	tip = "더 이상 한계돌파할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.ship_upgradeStar_select_material_tip = {
 	tip = "한계돌파에 사용할 재료를 선택해주세요."
 }
 
+
 _G.pg.base.gametip.ship_exchange_question = {
 	tip = "훈장을 <color=#92fc63>$1</color>개 사용하여, <color=#92fc63>$2</color>으로 교환하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.ship_exchange_medalCount_noEnough = {
 	tip = "훈장이 부족합니다."
 }
 
+
 _G.pg.base.gametip.ship_exchange_erro = {
 	tip = "교환 실패：<color=#92fc63>$1</color>"
 }
+
 
 _G.pg.base.gametip.ship_exchange_confirm = {
 	tip = "훈장을 $1개 사용하여, <color=#92fc63>$2</color>으로 교환하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.ship_exchange_tip = {
 	tip = "1.Rare 이상의 함선을 퇴역시키면 훈장을 얻을 수 있습니다.\n2.교환 시스템에서 훈장을 사용하여 지원함선과 교환할 수 있습니다.\n3.지원 목록은 매일 6시와 18시에 갱신됩니다."
 }
+
 
 _G.pg.base.gametip.ship_vo_fighting = {
 	tip = "해당 함선은 출격 중입니다."
 }
 
+
 _G.pg.base.gametip.ship_vo_event = {
 	tip = "해당 함선은 특수 임무를 진행 중입니다."
 }
+
 
 _G.pg.base.gametip.ship_vo_isCharacter = {
 	tip = "비서함은 퇴역시킬 수 없습니다."
 }
 
+
 _G.pg.base.gametip.ship_vo_inBackyardRest = {
 	tip = "해당 함선은 숙소에서 휴식 중입니다."
 }
+
 
 _G.pg.base.gametip.ship_vo_inClass = {
 	tip = "해당 함선은 대강당에서 수업 중입니다."
 }
 
+
 _G.pg.base.gametip.ship_vo_moveout_backyard = {
 	tip = "숙소에서 내보내시겠습니까?"
 }
+
 
 _G.pg.base.gametip.ship_vo_moveout_formation = {
 	tip = "함대에서 배속해제 하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.ship_vo_mainFleet_must_hasShip = {
 	tip = "주력함대에는 최소 1척 이상의 함선이 존재해야 합니다."
 }
+
 
 _G.pg.base.gametip.ship_vo_vanguardFleet_must_hasShip = {
 	tip = "선봉함대에는 최소 1척 이상의 함선이 존재해야 합니다."
 }
 
+
 _G.pg.base.gametip.ship_vo_getWordsUndefined = {
 	tip = "알 수 없는 에러가 발생했습니다..."
 }
+
 
 _G.pg.base.gametip.ship_vo_locked = {
 	tip = "해당 함선은 잠금 상태입니다."
 }
 
+
 _G.pg.base.gametip.ship_vo_mainFleet_exist_same_ship = {
 	tip = "주력함대에 동일 함선을 편성할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.ship_vo_vanguardFleet_exist_same_ship = {
 	tip = "선봉함대에 동일 함선을 편성할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.ship_buildShipMediator_startBuild = {
 	tip = "건조 개시"
 }
+
 
 _G.pg.base.gametip.ship_buildShipMediator_finishBuild = {
 	tip = "건조 완료"
 }
 
+
 _G.pg.base.gametip.ship_buildShipScene_quest_quickFinish = {
 	tip = "고속건조재를 <color=#92fc63>$1개</color> 사용합니다.\n\n보유 수：<color=#92fc63>$3개</color>"
 }
+
 
 _G.pg.base.gametip.ship_dockyardMediator_destroy = {
 	tip = "퇴역 완료"
 }
 
+
 _G.pg.base.gametip.ship_dockyardScene_capacity = {
 	tip = "보유 수："
 }
+
 
 _G.pg.base.gametip.ship_dockyardScene_noRole = {
 	tip = "선택 중인 함선이 없습니다."
 }
 
+
 _G.pg.base.gametip.ship_dockyardScene_error_choiseRoleMore = {
 	tip = "<color=#92fc63>$1</color>척 이상 선택해주세요."
 }
+
 
 _G.pg.base.gametip.ship_dockyardScene_error_choiseRoleLess = {
 	tip = "<color=#92fc63>$1</color>척까지 선택할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.ship_formationMediator_leastLimit = {
 	tip = "제 1 함대에는 1척 이상의 함선을 배치해야 합니다."
 }
+
 
 _G.pg.base.gametip.ship_formationMediator_changeNameSuccess = {
 	tip = "함대명 변경 완료!"
 }
 
+
 _G.pg.base.gametip.ship_formationMediator_changeNameError_sameShip = {
 	tip = "동일한 함선을 편성할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.ship_formationMediator_addShipError_overlimit = {
 	tip = "<color=#92fc63>$2</color>을(를) <color=#92fc63>$1</color>척 이상 편성할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.ship_formationMediator_replaceError_onlyShip = {
 	tip = "선택하신 <color=#92fc63>$1</color>은(는) 유일한 <color=#92fc63>$2</color>이기 때문에 변경할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.ship_formationMediator_quest_replace = {
 	tip = "선택하신 함선은 이미 <color=#92fc63>$1</color>에 편성되어 있습니다. 변경하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.ship_formationMediaror_trash_warning = {
 	tip = "$1 <color=#92fc63>주력함대</color>와 <color=#92fc63>선봉함대</color>에는 각각 1척 이상의 함선을 배치해야 합니다. $1의 편성을 초기화하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.ship_formationUI_fleetName1 = {
 	tip = "제1 함대"
 }
 
+
 _G.pg.base.gametip.ship_formationUI_fleetName2 = {
 	tip = "제2 함대"
 }
+
 
 _G.pg.base.gametip.ship_formationUI_fleetName3 = {
 	tip = "제3 함대"
 }
 
+
 _G.pg.base.gametip.ship_formationUI_fleetName4 = {
 	tip = "제4 함대"
 }
+
 
 _G.pg.base.gametip.ship_formationUI_fleetName5 = {
 	tip = "제5 함대"
 }
 
+
 _G.pg.base.gametip.ship_formationUI_fleetName6 = {
 	tip = "제6 함대"
 }
+
 
 _G.pg.base.gametip.ship_formationUI_fleetName11 = {
 	tip = "제1 잠수함대"
 }
 
+
 _G.pg.base.gametip.ship_formationUI_fleetName12 = {
 	tip = "제2 잠수함대"
 }
+
 
 _G.pg.base.gametip.ship_formationUI_exercise_fleetName = {
 	tip = "연습전 함대"
 }
 
+
 _G.pg.base.gametip.ship_formationUI_fleetName_world = {
 	tip = "大型作战舰队"
 }
+
 
 _G.pg.base.gametip.ship_formationUI_changeFormationError_flag = {
 	tip = "진형 변경 도중 에러가 발생했습니다."
 }
 
+
 _G.pg.base.gametip.ship_formationUI_changeFormationError_countError = {
 	tip = "전투 가능한 함선이 부족합니다."
 }
+
 
 _G.pg.base.gametip.ship_formationUI_removeError_onlyShip = {
 	tip = "선택하신 <color=#92fc63>$1</color>은(는) 유일한 <color=#92fc63>$3</color>함선이기 때문에 함대에서 배속해제할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.ship_formationUI_quest_remove = {
 	tip = "<color=#92fc63>$1</color>을(를) 함대에서 배속해제 하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.ship_newShipLayer_get = {
 	tip = "<color=#92fc63>$1</color> - <color=#92fc63>$2</color>을(를) 획득"
 }
 
+
 _G.pg.base.gametip.ship_newSkinLayer_get = {
 	tip = "<color=#92fc63>$1</color>의 스킨 - <color=#92fc63>$2</color>을(를) 획득했습니다!"
 }
+
 
 _G.pg.base.gametip.ship_newSkin_name = {
 	tip = "「$1」"
 }
 
+
 _G.pg.base.gametip.ship_shipInfoMediator_destory = {
 	tip = "퇴역 완료"
 }
+
 
 _G.pg.base.gametip.ship_shipInfoScene_equipUnlockSlostContent = {
 	tip = "한계돌파 후 장비 슬롯 개방"
 }
 
+
 _G.pg.base.gametip.ship_shipInfoScene_equipUnlockSlostYesText = {
 	tip = "함선강화"
 }
+
 
 _G.pg.base.gametip.ship_shipInfoScene_effect = {
 	tip = "경험치：<color=#92fc63>$1/$2</color>\n"
 }
 
+
 _G.pg.base.gametip.ship_shipInfoScene_effect1or2 = {
 	tip = "증가：<color=#92fc63>$1</color>"
 }
+
 
 _G.pg.base.gametip.ship_shipInfoScene_modLvMax = {
 	tip = "더 이상 한계돌파할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.ship_shipInfoScene_choiseMod = {
 	tip = "돌파 항목을 선택해주세요."
 }
+
 
 _G.pg.base.gametip.ship_shipModLayer_effect = {
 	tip = "경험치：<color=#92fc63>$1/$2</color>\n"
 }
 
+
 _G.pg.base.gametip.ship_shipModLayer_effect1or2 = {
 	tip = "증가 보정：<color=#92fc63>$1</color>"
 }
+
 
 _G.pg.base.gametip.ship_shipModLayer_modSuccess = {
 	tip = "강화 성공"
 }
 
+
 _G.pg.base.gametip.ship_mod_no_addition_tip = {
 	tip = "더 이상 성능을 <color=#92fc63>강화할 수 없습니다.</color> 진행하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.ship_shipModMediator_choiseMaterial = {
 	tip = "재료를 선택해주세요."
 }
 
+
 _G.pg.base.gametip.ship_shipModMediator_noticeLvOver1 = {
 	tip = "☆ x 1 이상"
 }
+
 
 _G.pg.base.gametip.ship_shipModMediator_noticeStarOver4 = {
 	tip = "☆ x 4 이상"
 }
 
+
 _G.pg.base.gametip.ship_shipModMediator_noticeSameButLargerStar = {
 	tip = "☆이 많은 쪽"
 }
+
 
 _G.pg.base.gametip.ship_shipModMediator_quest = {
 	tip = "재료 중 <color=#92fc63>$1</color>인 함선이 존재합니다. 진행하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.ship_shipUpgradeLayer2_levelError = {
 	tip = "Lv이 부족합니다."
 }
+
 
 _G.pg.base.gametip.ship_shipUpgradeLayer2_noMaterail = {
 	tip = "재료가 부족합니다."
 }
 
+
 _G.pg.base.gametip.ship_shipUpgradeLayer2_ok = {
 	tip = "한계돌파 성공"
 }
+
 
 _G.pg.base.gametip.ship_shipUpgradeLayer2_effect = {
 	tip = "경험치：<color=#92fc63>$1/$2</color>\n"
 }
 
+
 _G.pg.base.gametip.ship_shipUpgradeLayer2_effect1or2 = {
 	tip = "상승치：<color=#92fc63>$1</color>"
 }
+
 
 _G.pg.base.gametip.ship_shipUpgradeLayer2_mod_uncommon_tip = {
 	tip = "강화 재료 중 S Rare 이상의 함선이 선택되어 있습니다. 진행하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.ship_shipUpgradeLayer2_uncommon_tip = {
 	tip = "강화 재료 중 S Rare 이상의 함선이 선택되어 있습니다. 진행하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.ship_shipUpgradeLayer2_mod_advanced_tip = {
 	tip = "강화 재료 중<color=#92fc63>Lv.2 이상</color>의 함선이 포함되어 있습니다. 진행하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.ship_shipUpgradeLayer2_advanced_tip = {
 	tip = "강화 재료 중<color=#92fc63>Lv.2 이상</color>의 함선이 포함되어 있습니다. 진행하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.ship_mod_exp_to_attr_tip = {
 	tip = "*동일 함선으로 강화 시 경험치 2배"
 }
 
+
 _G.pg.base.gametip.ship_max_star = {
 	tip = "한계돌파할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.ship_skill_unlock_tip = {
 	tip = "돌파 후 개방"
 }
 
+
 _G.pg.base.gametip.ship_lock_tip = {
 	tip = "함선을 <color=#92fc63>잠금 상태</color>로 전환합니까?"
 }
+
 
 _G.pg.base.gametip.ship_destroy_uncommon_tip = {
 	tip = "퇴역시킬 함선 중 <color=#92fc63>S Rare</color> 이상의 함선이 포함되어 있습니다. 진행하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.ship_destroy_advanced_tip = {
 	tip = "퇴역시킬 함선 중 Lv.2 이상의 함선이 포함되어 있습니다. 진행하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.ship_energy_mid_desc = {
 	tip = "보통\n 출격 시 호감도가 오르지 않습니다."
 }
 
+
 _G.pg.base.gametip.ship_energy_low_desc = {
 	tip = "피곤\n 출격 시 호감도가 내려가고, 획득하는 경험치가 절반이 됩니다."
 }
+
 
 _G.pg.base.gametip.ship_energy_low_warn = {
 	tip = "$1에 배속된 $2의 컨디션이 좋지 않은 것 같습니다. 출격 시 호감도가 내려가고, 획득하는 경험치가 50%로 감소합니다."
 }
 
+
 _G.pg.base.gametip.ship_energy_low_warn_no_exp = {
 	tip = "함대에 <color=#92fc63FF>$2</color>이(가) <color=#ff5c5c>지친 상태</color>이며, 강제로 출격하면 <color=#ff5c5c>호감도가 감소합니다</color>. 그래도 출격하시겠습니까? "
 }
+
 
 _G.pg.base.gametip.test_ship_intensify_tip = {
 	tip = "부린은 강화할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.test_ship_upgrade_tip = {
 	tip = "부린은 한계돌파할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.shop_buyItem_ok = {
 	tip = "<color=#92fc63>$2을(를) $1개</color> 구입했습니다."
 }
 
+
 _G.pg.base.gametip.shop_buyItem_error = {
 	tip = "구입 실패："
 }
+
 
 _G.pg.base.gametip.shop_extendMagazine_error = {
 	tip = "창고 확장 실패："
 }
 
+
 _G.pg.base.gametip.shop_entendShipYard_error = {
 	tip = "도크 확장 실패："
 }
+
 
 _G.pg.base.gametip.spweapon_attr_effect = {
 	tip = "특수 장비 효과"
 }
 
+
 _G.pg.base.gametip.spweapon_attr_skillupgrade = {
 	tip = "스킬 강화"
 }
+
 
 _G.pg.base.gametip.spweapon_help_storage = {
 	tip = {
@@ -3329,345 +4135,431 @@ _G.pg.base.gametip.spweapon_help_storage = {
 	}
 }
 
+
 _G.pg.base.gametip.spweapon_tip_upgrade = {
 	tip = "강화 경험치 상한 도달"
 }
+
 
 _G.pg.base.gametip.spweapon_tip_attr_modify = {
 	tip = "스탯 보류 또는 스탯 변경 선택 후 스탯 개조를 진행할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.spweapon_tip_materal_no_enough = {
 	tip = "재료 부족"
 }
+
 
 _G.pg.base.gametip.spweapon_tip_gold_no_enough = {
 	tip = "물자 부족"
 }
 
+
 _G.pg.base.gametip.spweapon_tip_pt_no_enough = {
 	tip = "돌파에 필요한 경험치 부족. 강화 재료를 선택하세요."
 }
+
 
 _G.pg.base.gametip.spweapon_tip_creatept_no_enough = {
 	tip = "제작에 필요한 경험치 부족. 강화 재료를 선택하세요."
 }
 
+
 _G.pg.base.gametip.spweapon_tip_bag_no_enough = {
 	tip = "특수 장비 창고 칸 부족"
 }
+
 
 _G.pg.base.gametip.spweapon_tip_create_sussess = {
 	tip = "특수 장비 획득: <color=#92fc63>$1 X1</color>"
 }
 
+
 _G.pg.base.gametip.spweapon_tip_group_error = {
 	tip = "착용 실패. 착용 조건에 부합하지 않습니다."
 }
+
 
 _G.pg.base.gametip.spweapon_tip_breakout_overflow = {
 	tip = "<color=#ff5c5c>$1</color>의 강화 경험치가 초과됩니다. 확인하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.spweapon_tip_breakout_materal_check = {
 	tip = "소모되는 재료를 확인 후 돌파를 진행하세요."
 }
+
 
 _G.pg.base.gametip.spweapon_tip_transform_materal_check = {
 	tip = "소모되는 재료를 확인 후 개조를 진행하세요."
 }
 
+
 _G.pg.base.gametip.spweapon_tip_transform_attrmax = {
 	tip = "랜덤 스탯 최대치 도달"
 }
+
 
 _G.pg.base.gametip.spweapon_tip_locked = {
 	tip = "한계돌파 MAX 달성 후 <color=#92fc63>특수 장비 슬롯</color>이 해제됩니다."
 }
 
+
 _G.pg.base.gametip.spweapon_tip_unload = {
 	tip = "특수 장비가 창고로 반환되었습니다."
 }
+
 
 _G.pg.base.gametip.spweapon_tip_sail_locked = {
 	tip = "해당 함종은 특수 장비 슬롯이 잠시 개방되지 않습니다."
 }
 
+
 _G.pg.base.gametip.spweapon_ui_level = {
 	tip = "강화 레벨"
 }
+
 
 _G.pg.base.gametip.spweapon_ui_levelmax = {
 	tip = "강화 레벨 MAX"
 }
 
+
 _G.pg.base.gametip.spweapon_ui_levelmax2 = {
 	tip = "강화 최대치 도달"
 }
+
 
 _G.pg.base.gametip.spweapon_ui_need_resource = {
 	tip = "필요 재료:"
 }
 
+
 _G.pg.base.gametip.spweapon_ui_ptitem = {
 	tip = "강화석"
 }
+
 
 _G.pg.base.gametip.spweapon_ui_spweapon = {
 	tip = "특수 장비"
 }
 
+
 _G.pg.base.gametip.spweapon_ui_transform = {
 	tip = "개조"
 }
+
 
 _G.pg.base.gametip.spweapon_ui_transform_attr_text = {
 	tip = "스탯 개조 시 특수 장비의 스탯 랜덤 증가 수치를 일부 초기화하고, 특수 장비의 스탯 랜덤 증가 수치 범위 내에서 새로운 랜덤 증가 수치가 생성됩니다."
 }
 
+
 _G.pg.base.gametip.spweapon_ui_keep_attr = {
 	tip = "스탯 보류"
 }
+
 
 _G.pg.base.gametip.spweapon_ui_change_attr = {
 	tip = "스탯 변경"
 }
 
+
 _G.pg.base.gametip.spweapon_ui_autoselect = {
 	tip = "자동 선택"
 }
+
 
 _G.pg.base.gametip.spweapon_ui_cancelselect = {
 	tip = "선택 취소"
 }
 
+
 _G.pg.base.gametip.spweapon_ui_index_shipType_quZhu = {
 	tip = "구축"
 }
+
 
 _G.pg.base.gametip.spweapon_ui_index_shipType_qinXun = {
 	tip = "경순"
 }
 
+
 _G.pg.base.gametip.spweapon_ui_index_shipType_zhongXun = {
 	tip = "중순"
 }
+
 
 _G.pg.base.gametip.spweapon_ui_index_shipType_zhanLie = {
 	tip = "전함"
 }
 
+
 _G.pg.base.gametip.spweapon_ui_index_shipType_hangMu = {
 	tip = "항모"
 }
+
 
 _G.pg.base.gametip.spweapon_ui_index_shipType_weiXiu = {
 	tip = "공작"
 }
 
+
 _G.pg.base.gametip.spweapon_ui_index_shipType_qianTing = {
 	tip = "잠수"
 }
+
 
 _G.pg.base.gametip.spweapon_ui_index_shipType_other = {
 	tip = "기타"
 }
 
+
 _G.pg.base.gametip.spweapon_ui_keep_attr_text1 = {
 	tip = "<color=#92fc63>스탯 변경</color> 시 특수 장비의 스탯 증가 수치가 변경됩니다."
 }
+
 
 _G.pg.base.gametip.spweapon_ui_keep_attr_text2 = {
 	tip = "<color=#92fc63>스탯을 변경</color>하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.spweapon_ui_change_attr_text1 = {
 	tip = "<color=#ffde38>스탯 보류</color> 시 특수 장비의 스탯 증가 수치가 보류되며,\n스탯 개조를 포기합니다."
 }
+
 
 _G.pg.base.gametip.spweapon_ui_change_attr_text2 = {
 	tip = "<color=#ffde38>스탯을 보류</color>하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.spweapon_ui_create_exp = {
 	tip = "제작에 필요한 경험치:"
 }
+
 
 _G.pg.base.gametip.spweapon_ui_upgrade_exp = {
 	tip = "강화에 필요한 경험치:"
 }
 
+
 _G.pg.base.gametip.spweapon_ui_breakout_exp = {
 	tip = "돌파에 필요한 경험치:"
 }
+
 
 _G.pg.base.gametip.spweapon_ui_create = {
 	tip = "제작"
 }
 
+
 _G.pg.base.gametip.spweapon_ui_storage = {
 	tip = "창고"
 }
+
 
 _G.pg.base.gametip.spweapon_ui_empty = {
 	tip = "비어 있음"
 }
 
+
 _G.pg.base.gametip.spweapon_ui_create_button = {
 	tip = "제 작"
 }
+
 
 _G.pg.base.gametip.spweapon_ui_helptext = {
 	tip = "*특수 장비는 「특수 장비 코어」, 「물자」 및 「강화 재료」를 소모하여 제작, 강화, 돌파합니다.\n 강화 경험치 조건에 부합하도록 「강화석」 또는 「특수 장비」를 재료로 선택하세요."
 }
 
+
 _G.pg.base.gametip.spweapon_ui_effect_tag = {
 	tip = "특수 장비 효과"
 }
+
 
 _G.pg.base.gametip.spweapon_ui_skill_tag = {
 	tip = "스킬 강화"
 }
 
+
 _G.pg.base.gametip.spweapon_activity_ui_text1 = {
 	tip = "* 이벤트 임무 완성 시, 특수 장비 코어, 특수 장비 강화석 등 보상을 획득합니다."
 }
+
 
 _G.pg.base.gametip.spweapon_activity_ui_text2 = {
 	tip = "*「특수 장비 코어」, 「특수 장비 강화석」은 특수 장비 제작, 강화에 사용됩니다."
 }
 
+
 _G.pg.base.gametip.spweapon_tip_skill_locked = {
 	tip = "(미해제)"
 }
+
 
 _G.pg.base.gametip.spweapon_tip_owned = {
 	tip = "보유중: $1"
 }
 
+
 _G.pg.base.gametip.spweapon_tip_view = {
 	tip = "<material=underline event=displayDetail>상세 확인</material>"
 }
+
 
 _G.pg.base.gametip.spweapon_tip_ship = {
 	tip = "장비 함선"
 }
 
+
 _G.pg.base.gametip.spweapon_tip_type = {
 	tip = "장비 함종"
 }
+
 
 _G.pg.base.gametip.stage_beginStage_error = {
 	tip = "스테이지 개시 실패："
 }
 
+
 _G.pg.base.gametip.stage_beginStage_error_fleetEmpty = {
 	tip = "함대에 함선이 편성되어 있지 않습니다."
 }
+
 
 _G.pg.base.gametip.stage_beginStage_error_teamEmpty = {
 	tip = "<color=#92fc63>$1</color>은(는) 적어도<color=#92fc63>$2척</color> 이상 필요합니다!"
 }
 
+
 _G.pg.base.gametip.stage_beginStage_error_noEnergy = {
 	tip = "<color=#92fc63>체력</color>이 부족합니다!"
 }
+
 
 _G.pg.base.gametip.stage_beginStage_error_noResource = {
 	tip = "<color=#92fc63>연료</color>가 부족합니다!"
 }
 
+
 _G.pg.base.gametip.stage_beginStage_error_noTicket = {
 	tip = "특별 도전권이 부족해 시작할 수 없어요. "
 }
+
 
 _G.pg.base.gametip.stage_finishStage_error = {
 	tip = "스테이지 클리어 도중 에러가 발생했습니다."
 }
 
+
 _G.pg.base.gametip.levelScene_map_lock = {
 	tip = "해당 <color=#92fc63>챕터</color>를 클리어해야 합니다."
 }
+
 
 _G.pg.base.gametip.levelScene_chapter_lock = {
 	tip = "<color=#92fc63>이전 스테이지</color>를 클리어해야 합니다."
 }
 
+
 _G.pg.base.gametip.levelScene_chapter_strategying = {
 	tip = "스테이지 <color=#92fc63>$1</color> 공략 중"
 }
+
 
 _G.pg.base.gametip.levelScene_threat_to_rule_out = {
 	tip = "위협 제거 $1"
 }
 
+
 _G.pg.base.gametip.levelScene_whether_to_retreat = {
 	tip = "정말로 <color=#92fc63>퇴각</color>하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.levelScene_who_to_retreat = {
 	tip = "$1을(를) 퇴각시킵니까?"
 }
 
+
 _G.pg.base.gametip.levelScene_who_to_exchange = {
 	tip = "함대를 변경하시겠습니까? "
 }
+
 
 _G.pg.base.gametip.levelScene_time_out = {
 	tip = "작전 시간 초과"
 }
 
+
 _G.pg.base.gametip.levelScene_nothing = {
 	tip = "아무것도 없었습니다."
 }
+
 
 _G.pg.base.gametip.levelScene_notCargo = {
 	tip = "보물상자를 발견하지 못했습니다."
 }
 
+
 _G.pg.base.gametip.levelScene_openCargo_erro = {
 	tip = "전리품 확인 실패："
 }
+
 
 _G.pg.base.gametip.levelScene_chapter_notInStrategy = {
 	tip = "공략하고 있지 않습니다."
 }
 
+
 _G.pg.base.gametip.levelScene_retreat_erro = {
 	tip = "퇴각 실패："
 }
+
 
 _G.pg.base.gametip.levelScene_strategying = {
 	tip = "공략 중입니다."
 }
 
+
 _G.pg.base.gametip.levelScene_tracking_erro = {
 	tip = "실패"
 }
+
 
 _G.pg.base.gametip.levelScene_tracking_error_3001 = {
 	tip = "현재 의뢰 중인 함선이 포함되어 있습니다!"
 }
 
+
 _G.pg.base.gametip.levelScene_chapter_unlock_tip = {
 	tip = "지휘관 <color=#92fc63>Lv.$1</color> 달성 시 개방"
 }
+
 
 _G.pg.base.gametip.levelScene_chapter_win = {
 	tip = "중요 함대(BOSS)를 격파, 스테이지 클리어!"
 }
 
+
 _G.pg.base.gametip.levelScene_sham_win = {
 	tip = "모의전 완료"
 }
+
 
 _G.pg.base.gametip.levelScene_escort_win = {
 	tip = "수송선이 목표지점에 도착했습니다. 상선 호위 성공!"
 }
 
+
 _G.pg.base.gametip.levelScene_escort_lose = {
 	tip = "수송선이 대파되었습니다. 상선 호위 실패……"
 }
+
 
 _G.pg.base.gametip.levelScene_escort_help_tip = {
 	tip = {
@@ -3698,62 +4590,68 @@ _G.pg.base.gametip.levelScene_escort_help_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.levelScene_escort_retreat = {
 	tip = "상선 호위 전투에서 퇴각하시겠습니까?\n ※오늘의 도전 횟수는 회복되지 않습니다.\n ※보상의 일부는 받을 수 있습니다."
 }
+
 
 _G.pg.base.gametip.levelScene_oni_retreat = {
 	tip = "퇴각 후엔 보상을 획득할 수 없습니다, 퇴각하시겠습니까?\n(스테이지는 승리로 인정됩니다.)"
 }
 
+
 _G.pg.base.gametip.levelScene_oni_win = {
 	tip = "特殊单位捕获成功"
 }
+
 
 _G.pg.base.gametip.levelScene_oni_lose = {
 	tip = "特殊单位已逃离，捕获失败"
 }
 
+
 _G.pg.base.gametip.levelScene_bomb_retreat = {
 	tip = "퇴각 후엔 현재 스코어에 따라 보상이 지급됩니다. 퇴각하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.levelScene_sphunt_help_tip = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/sphunt_1",
-				path = ""
+				path = "",
+				atlas = "helpbg/sphunt_1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/sphunt_2",
-				path = ""
+				path = "",
+				atlas = "helpbg/sphunt_2"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/sphunt_3",
-				path = ""
+				path = "",
+				atlas = "helpbg/sphunt_3"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/sphunt_4",
-				path = ""
+				path = "",
+				atlas = "helpbg/sphunt_4"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/sphunt_5",
-				path = ""
+				path = "",
+				atlas = "helpbg/sphunt_5"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -3767,25 +4665,26 @@ _G.pg.base.gametip.levelScene_sphunt_help_tip = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.levelScene_bomb_help_tip = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/spboom_1",
-				path = ""
+				path = "",
+				atlas = "helpbg/spboom_1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/spboom_2",
-				path = ""
+				path = "",
+				atlas = "helpbg/spboom_2"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -3800,49 +4699,61 @@ _G.pg.base.gametip.levelScene_bomb_help_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.levelScene_chapter_timeout = {
 	tip = "작전 시간이 초과되어 모항으로 귀환했습니다."
 }
+
 
 _G.pg.base.gametip.levelScene_chapter_level_limit = {
 	tip = "지휘관 <color=#92fc63>Lv.$1</color> 달성 시 개방됩니다."
 }
 
+
 _G.pg.base.gametip.levelScene_chapter_count_tip = {
 	tip = "오늘 횟수 :"
 }
+
 
 _G.pg.base.gametip.levelScene_tracking_error_retry = {
 	tip = "출격 중에 에러가 발생했습니다."
 }
 
+
 _G.pg.base.gametip.levelScene_destroy_torpedo = {
 	tip = "수뢰 해체 성공"
 }
+
 
 _G.pg.base.gametip.levelScene_new_chapter_coming = {
 	tip = "신 챕터 개방 :"
 }
 
+
 _G.pg.base.gametip.levelScene_chapter_open_count_down = {
 	tip = "잔여 개방 시간 :"
 }
+
 
 _G.pg.base.gametip.levelScene_chapter_not_open = {
 	tip = "미개방"
 }
 
+
 _G.pg.base.gametip.levelScene_activate_remaster = {
 	tip = "<color=#ffde38>데이터 키x1</color>를 소모하여 선택한 스테이지에 진입합니다.\n이동하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.levelScene_remaster_tickets_not_enough = {
 	tip = "데이터 키가 부족합니다."
 }
 
+
 _G.pg.base.gametip.levelScene_remaster_do_not_open = {
 	tip = "아직 개방되지 않았습니다."
 }
+
 
 _G.pg.base.gametip.levelScene_remaster_help_tip = {
 	tip = {
@@ -3870,28 +4781,30 @@ _G.pg.base.gametip.levelScene_remaster_help_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.levelScene_activate_loop_mode_failed = {
 	tip = "스테이지 진행도 100% 달성 후 주회 모드를 선택할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.levelScene_coastalgun_help_tip = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/coastalgun_1",
-				path = ""
+				path = "",
+				atlas = "helpbg/coastalgun_1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/coastalgun_2",
-				path = ""
+				path = "",
+				atlas = "helpbg/coastalgun_2"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 836,
 			y = 740
@@ -3906,13 +4819,16 @@ _G.pg.base.gametip.levelScene_coastalgun_help_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.levelScene_select_SP_OP = {
 	tip = "작전 아이템 선택"
 }
 
+
 _G.pg.base.gametip.levelScene_unselect_SP_OP = {
 	tip = "작전 아이템 사용 안함"
 }
+
 
 _G.pg.base.gametip.levelScene_select_SP_OP_reminder = {
 	tip = [[
@@ -3922,81 +4838,101 @@ _G.pg.base.gametip.levelScene_select_SP_OP_reminder = {
  기분 수치 소모, 호감도 획득 또한 100% 증가합니다.]]
 }
 
+
 _G.pg.base.gametip.tack_tickets_max_warning = {
 	tip = "<color=#ffde38>데이터 키</color>의 소지 횟수에는 한계가 있습니다. 임무 보수인 데이터 키는 <color=#ff5c5c>$1</color> 개 입수 가능합니다. 임무 보수를 받으시겠습니까?"
 }
+
 
 _G.pg.base.gametip.world_battle_count = {
 	tip = "교전 횟수"
 }
 
+
 _G.pg.base.gametip.world_fleetName1 = {
 	tip = "제 1 함 대"
 }
+
 
 _G.pg.base.gametip.world_fleetName2 = {
 	tip = "제 2 함 대"
 }
 
+
 _G.pg.base.gametip.world_fleetName3 = {
 	tip = "제 3 함 대"
 }
+
 
 _G.pg.base.gametip.world_fleetName4 = {
 	tip = "제 4 함 대"
 }
 
+
 _G.pg.base.gametip.world_fleetName5 = {
 	tip = "잠 수 함 대"
 }
+
 
 _G.pg.base.gametip.world_ship_repair_1 = {
 	tip = "일반 수리 $1 필요: \n<icon name=world_money w=0.7 h=0.7/>*$2"
 }
 
+
 _G.pg.base.gametip.world_ship_repair_2 = {
 	tip = "완전 수리 $1 필요: \n<icon name=world_money w=0.7 h=0.7/>*$2"
 }
+
 
 _G.pg.base.gametip.world_ship_repair_all = {
 	tip = "모든 함선 수리 필요: \n<icon name=world_money w=0.7 h=0.7/>*$1"
 }
 
+
 _G.pg.base.gametip.world_ship_repair_no_need = {
 	tip = "수리할 함선 없음"
 }
+
 
 _G.pg.base.gametip.world_event_teleport_alter = {
 	tip = "기타 해역으로 이동합니다. 현재 교전 중인 함대는 철수합니다."
 }
 
+
 _G.pg.base.gametip.world_transport_battle_alter = {
 	tip = "현재 교전 중인 함대가 존재하여, 기타 해역으로 이동할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.world_transport_locked = {
 	tip = "현재 해역 미확보. 함대를 해역 가장자리로 이동시켜 인접한 해역으로 이동하세요."
 }
 
+
 _G.pg.base.gametip.world_target_count = {
 	tip = "현재 목표 보상 $1개 수령 가능"
 }
+
 
 _G.pg.base.gametip.world_target_filter_tip1 = {
 	tip = "모두"
 }
 
+
 _G.pg.base.gametip.world_target_filter_tip2 = {
 	tip = "미완료"
 }
+
 
 _G.pg.base.gametip.world_target_get_all = {
 	tip = "모든 해역 색적 보상을 수령하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.world_target_goto = {
 	tip = "해역 이동"
 }
+
 
 _G.pg.base.gametip.world_help_tip = {
 	tip = {
@@ -4006,85 +4942,106 @@ _G.pg.base.gametip.world_help_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.world_dangerbattle_confirm = {
 	tip = "적의 공격, 내구, 작전 효율이 크게 강화되었습니다!\n전투를 진행하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.world_stamina_exchange = {
 	tip = "행동력 부족. <icon name=oil w=0.7 h=0.7/>$1를 소비하여 행동력*$2으로 교환하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.world_stamina_not_enough = {
 	tip = "행동력 부족."
 }
+
 
 _G.pg.base.gametip.world_stamina_recover = {
 	tip = "※행동력이 200미만일 경우,  <color=#92fc63>10분</color>마다 <color=#92fc63>1</color> 행동력을 회복합니다."
 }
 
+
 _G.pg.base.gametip.world_stamina_text = {
 	tip = "<color=#92fc63>$1</color> 연료를 소비하여 <color=#92fc63>$2</color> 행동력 구매 가능. 이번주 잔여 횟수 <color=#92fc63>$3/$4</color>회"
 }
+
 
 _G.pg.base.gametip.world_stamina_text2 = {
 	tip = "<color=#92fc63>$1</color> 사용 후 <color=#92fc63>$2</color> 행동력 회복 가능"
 }
 
+
 _G.pg.base.gametip.world_stamina_resetwarning = {
 	tip = "주의: 대형 작전이 곧 <color=#ff5c5c>초기화</color>됩니다. 초기화 후$1 이상의 행동력은 <color=#ff5c5c>보류되지 않으니</color>, 지휘관 여러분께서는 합리적으로 함대 작전 계획을 세워주세요!"
 }
+
 
 _G.pg.base.gametip.world_ship_healthy = {
 	tip = "선택된 목표는 수리할 필요가 없습니다!\n계속 사용하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.world_map_dangerous = {
 	tip = "미배치tip"
 }
+
 
 _G.pg.base.gametip.world_map_not_open = {
 	tip = "해역 미개방"
 }
 
+
 _G.pg.base.gametip.world_map_locked_stage = {
 	tip = "해역 미개방"
 }
+
 
 _G.pg.base.gametip.world_map_locked_border = {
 	tip = "주변 해역 미확보"
 }
 
+
 _G.pg.base.gametip.world_item_allocate_panel_fleet_info_text = {
 	tip = "미배치tip"
 }
+
 
 _G.pg.base.gametip.world_redeploy_not_change = {
 	tip = "배치 전과 후의 함대 멤버에 변화가 없습니다. 배치를 완료하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.world_redeploy_warn = {
 	tip = "재배치 시, 모항에 남은 함선은 도크로 돌아갑니다. 계속하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.world_redeploy_cost_tip = {
 	tip = "이번 함대 배치는 $1 행동력을 소모합니다. 계속하시겠습니까?\n(현재 행동력: $2. 지령 사용 간격이 짧을수록, 행동력 소모가 높아집니다.)"
 }
 
+
 _G.pg.base.gametip.world_redeploy_tip = {
 	tip = "해당 함대 미배치"
 }
+
 
 _G.pg.base.gametip.world_fleet_choose = {
 	tip = "<color=#80e742>대형 작전 중 전투는 감정 및 연료 소모에 영향을 주지 않습니다.</color>"
 }
 
+
 _G.pg.base.gametip.world_fleet_formation_not_valid = {
 	tip = "필수 배치 $1"
 }
 
+
 _G.pg.base.gametip.world_fleet_in_vortex = {
 	tip = "함대가 거센 물살의 소용돌이에 빠져 이동 능력이 제한됩니다."
 }
+
 
 _G.pg.base.gametip.world_stage_help = {
 	tip = {
@@ -4105,25 +5062,31 @@ _G.pg.base.gametip.world_stage_help = {
 	}
 }
 
+
 _G.pg.base.gametip.world_transport_disable = {
 	tip = "현재 해역에서는 경계 구역을 통해 벗어날 수 없습니다."
 }
+
 
 _G.pg.base.gametip.world_ap = {
 	tip = "행동력"
 }
 
+
 _G.pg.base.gametip.world_resource_tip_1 = {
 	tip = "비자원 알림1(미사용)"
 }
+
 
 _G.pg.base.gametip.world_resource_tip_2 = {
 	tip = "비자원 알림1(미사용)"
 }
 
+
 _G.pg.base.gametip.world_instruction_all_1 = {
 	tip = "해당 기능 미개방"
 }
+
 
 _G.pg.base.gametip.world_instruction_help_1 = {
 	tip = {
@@ -4145,241 +5108,301 @@ _G.pg.base.gametip.world_instruction_help_1 = {
 	}
 }
 
+
 _G.pg.base.gametip.world_instruction_redeploy_1 = {
 	tip = "현재 해역에서 함대를 배치할 수 없습니다. 아군 모항 해역으로 이동하세요."
 }
+
 
 _G.pg.base.gametip.world_instruction_redeploy_2 = {
 	tip = "함대 배치 완료. 모든 함대의 내구도 및 사기가 회복되었습니다."
 }
 
+
 _G.pg.base.gametip.world_instruction_redeploy_3 = {
 	tip = "함대가 특수 물품을 운송 중이므로 배치할 수 없습니다. 먼저 특수 물품을 위치로 이동시키세요."
 }
+
 
 _G.pg.base.gametip.world_instruction_morale_1 = {
 	tip = "$1 행동력을 소모하여 모든 함대의 사기와 내구도\n를 회복하고 전투 피해 상태를 해소하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.world_instruction_morale_2 = {
 	tip = "각 함대의 사기가 매우 높습니다. 사기를 회복할 필요가 없습니다."
 }
+
 
 _G.pg.base.gametip.world_instruction_morale_3 = {
 	tip = "모든 함대의 사기가 회복 완료되었습니다."
 }
 
+
 _G.pg.base.gametip.world_instruction_morale_4 = {
 	tip = "※지령 사용 후, 일정 시간 내 재사용 불가"
 }
+
 
 _G.pg.base.gametip.world_instruction_submarine_1 = {
 	tip = "현재 해역에서는 해당 기능을 사용할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.world_instruction_submarine_2 = {
 	tip = "$1 행동력을 소모하여\n현재 해역에 잠수함대를 파견하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.world_instruction_submarine_3 = {
 	tip = "현재 맵에는 잠수함대를 이미 배치하였습니다."
 }
 
+
 _G.pg.base.gametip.world_instruction_submarine_4 = {
 	tip = "잠수함대를 배치하지 않아 지원을 호출할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.world_instruction_submarine_5 = {
 	tip = "잠수함대 철수 완료"
 }
 
+
 _G.pg.base.gametip.world_instruction_submarine_6 = {
 	tip = "현재 해역에서 벗어난 후, 잠수함대는 아군 모항으로 자동 귀항합니다. 벗어나시겠습니까?"
 }
+
 
 _G.pg.base.gametip.world_instruction_submarine_7 = {
 	tip = "$1 행동력을 소모하여\n잠수함대의 탄약을 보충하고 상태를 회복하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.world_instruction_submarine_8 = {
 	tip = "※지령 사용 간격이 짧을수록, 행동력을 크게 소모합니다."
 }
+
 
 _G.pg.base.gametip.world_instruction_submarine_9 = {
 	tip = "자율 색적 모드에서 잠수함 지원의 소모량이 ≤"
 }
 
+
 _G.pg.base.gametip.world_instruction_submarine_10 = {
 	tip = "시 자동 소환"
 }
+
 
 _G.pg.base.gametip.world_instruction_submarine_11 = {
 	tip = "잠수함 자동 소환 설정 저장 성공"
 }
 
+
 _G.pg.base.gametip.world_instruction_detect_1 = {
 	tip = "$1 행동력을 소모하여\n현재 해역의 모든 지역을 정찰하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.world_instruction_detect_2 = {
 	tip = "현재 해역 정찰 완료"
 }
 
+
 _G.pg.base.gametip.world_instruction_supply_1 = {
 	tip = "$1 행동력을 소모히여 기초 보급을 신청하시겠습니까?(현재 행동력: $2)(미사용)"
 }
+
 
 _G.pg.base.gametip.world_instruction_supply_2 = {
 	tip = "$1 후 함대 수리 가능"
 }
 
+
 _G.pg.base.gametip.world_instruction_port_goods_locked = {
 	tip = "구역 확보 진척"
 }
+
 
 _G.pg.base.gametip.world_port_inbattle = {
 	tip = "함대가 작전 행동 중이므로 기항할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.world_item_recycle_1 = {
 	tip = "초기화 후 아이템이 전환됩니다."
 }
+
 
 _G.pg.base.gametip.world_item_recycle_2 = {
 	tip = "초기화 후 아이템이 사라집니다."
 }
 
+
 _G.pg.base.gametip.world_item_origin = {
 	tip = "해당 아이템은 아래의 방식으로 획득할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.world_shop_bag_unactivated = {
 	tip = "대형 작전 미활성화. 구매 불가. 우선 대형 작전에 진입하세요."
 }
 
+
 _G.pg.base.gametip.world_shop_preview_tip = {
 	tip = "초기화 후 구매 가능한 상품 미리보기"
 }
+
 
 _G.pg.base.gametip.world_shop_init_notice = {
 	tip = "대형 작전이 초기화되었습니다. 특별 교환 상점으로 이동하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.world_map_title_tips_en = {
 	tip = "OPERATION INFO"
 }
+
 
 _G.pg.base.gametip.world_map_title_tips = {
 	tip = "작전 정보"
 }
 
+
 _G.pg.base.gametip.world_mapbuff_attrtxt_1 = {
 	tip = "공격 조정"
 }
+
 
 _G.pg.base.gametip.world_mapbuff_attrtxt_2 = {
 	tip = "내구 조정"
 }
 
+
 _G.pg.base.gametip.world_mapbuff_attrtxt_3 = {
 	tip = "회복 방해"
 }
+
 
 _G.pg.base.gametip.world_mapbuff_compare_txt = {
 	tip = "적응력 확보"
 }
 
+
 _G.pg.base.gametip.world_wind_move = {
 	tip = "목표 구역으로 이동할 수 없습니다. 우선 이미 목표 구역에 위치하고 있는 함대를 이동시켜 주세요."
 }
+
 
 _G.pg.base.gametip.world_battle_pause = {
 	tip = "OPERATION"
 }
 
+
 _G.pg.base.gametip.world_battle_pause2 = {
 	tip = "대형 작전"
 }
+
 
 _G.pg.base.gametip.world_task_samemap = {
 	tip = "목표 해역에 미완성한 임무가 존재하여, 해당 임무를 접수할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.world_task_maplock = {
 	tip = "현재 해역에 미완성한 임무가 존재하여, 벗어날 수 없습니다. <color=#ff5c5c>정보</color>에서 확인해 주세요."
 }
+
 
 _G.pg.base.gametip.world_task_goto0 = {
 	tip = "현재 임무 목표 해역이 아닙니다."
 }
 
+
 _G.pg.base.gametip.world_task_goto3 = {
 	tip = "함대가 이미 임무 목표 해역에 있습니다."
 }
+
 
 _G.pg.base.gametip.world_task_view1 = {
 	tip = "임무 위치:"
 }
 
+
 _G.pg.base.gametip.world_task_view2 = {
 	tip = "현재 위치:"
 }
+
 
 _G.pg.base.gametip.world_task_view3 = {
 	tip = "불확실"
 }
 
+
 _G.pg.base.gametip.world_task_refuse1 = {
 	tip = "임무 수령 최대치 도달. 우선 기존의 임무를 완료 후 다시 수령해 주세요."
 }
+
 
 _G.pg.base.gametip.world_daily_task_lock = {
 	tip = "메인 제4장 완료 후 데일리 임무가 오픈됩니다."
 }
 
+
 _G.pg.base.gametip.world_daily_task_none = {
 	tip = "수령 가능한 임무가 없습니다."
 }
+
 
 _G.pg.base.gametip.world_daily_task_none_2 = {
 	tip = "No missions currently available"
 }
 
+
 _G.pg.base.gametip.world_sairen_title = {
 	tip = "세이렌 통제력"
 }
+
 
 _G.pg.base.gametip.world_sairen_description1 = {
 	tip = "현재 해역 세이렌 통제력 <color=#3dc6ff>$1%</color>"
 }
 
+
 _G.pg.base.gametip.world_sairen_description2 = {
 	tip = "현재 해역 세이렌 통제력 <color=#ffde38>$1%</color>"
 }
+
 
 _G.pg.base.gametip.world_sairen_description3 = {
 	tip = "현재 해역 세이렌 통제력 <color=#ff5c5c>$1%</color>"
 }
 
+
 _G.pg.base.gametip.world_low_morale = {
 	tip = "현재 함대의 사기가 너무 낮아 강적과 싸울 수 없습니다!\n알림: 임의의 전투에서 승리를 획득하여 함대의 사기를 회복할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.world_recycle_notice = {
 	tip = "「대형 작전」은 퇴장 후 초기화됩니다. 퇴장하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.world_recycle_item_transform = {
 	tip = "「대형 작전」 초기화 완료. 미사용한 작전 물자는 작전 준비 물자 교환권으로 전환되었습니다."
 }
+
 
 _G.pg.base.gametip.world_exit_tip = {
 	tip = "대형 작전에서 잠시 이탈하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.world_consume_carry_tips = {
 	tip = "미배치tip"
 }
+
 
 _G.pg.base.gametip.world_boss_help_meta = {
 	tip = {
@@ -4423,40 +5446,48 @@ META전 진츠·META가 진행 중입니다. META전에서는 동기화 수치�
 	}
 }
 
+
 _G.pg.base.gametip.world_close = {
 	tip = "대형 작전 폐쇄됨. 진입 불가."
 }
+
 
 _G.pg.base.gametip.world_catsearch_success = {
 	tip = "지휘냥이 탐색 작업을 시작했습니다!"
 }
 
+
 _G.pg.base.gametip.world_catsearch_stop = {
 	tip = "탐색 작업을 중단하고 지휘냥을 불러오시겠습니까?"
 }
+
 
 _G.pg.base.gametip.world_catsearch_fleetcheck = {
 	tip = "현재 탐색 작업 중인 지휘냥이 강제로 돌아옵니다.\n탐색을 종료하고 함대를 재편성하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.world_catsearch_leavemap = {
 	tip = "현재 탐색 작업 중인 지휘냥이 강제로 돌아옵니다!\n탐색을 종료하고 현재 해역을 벗어나시겠습니까?"
 }
+
 
 _G.pg.base.gametip.world_catsearch_help_1 = {
 	tip = "탐색 진도는 <color=#ffde38>함대 행동 횟수에 따라 증가</color>합니다.\n탐색 작업을 중단하고 지휘냥을 불러오시겠습니까?\n<color=#92fc63>(중단 후 이미 획득한 보상이 즉시 결산됩니다.)</color>"
 }
 
+
 _G.pg.base.gametip.world_catsearch_help_2 = {
 	tip = "보상 탐색"
 }
+
 
 _G.pg.base.gametip.world_catsearch_help_3 = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/tactics",
-				path = ""
+				path = "",
+				atlas = "helpbg/tactics"
 			}
 		},
 		disableScroll = true,
@@ -4476,1009 +5507,1261 @@ _G.pg.base.gametip.world_catsearch_help_3 = {
 	}
 }
 
+
 _G.pg.base.gametip.world_catsearch_help_4 = {
 	tip = "탐색 중..."
 }
+
 
 _G.pg.base.gametip.world_catsearch_help_5 = {
 	tip = "지휘냥 물자 탐색 중. 함대에 버프를 제공할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.world_catsearch_help_6 = {
 	tip = "탐색 과정 중 확률적으로 아래의 보상을 획득합니다."
 }
+
 
 _G.pg.base.gametip.world_level_prefix = {
 	tip = "레벨 LV.$1"
 }
 
+
 _G.pg.base.gametip.world_map_level = {
 	tip = "작전 난이도 레벨: \n현재 작전 난이도 레벨은 <color=#92fc63>$1</color>이며, 이 위험 등급 및 이하 해역을 공략할 것을 추천합니다."
 }
+
 
 _G.pg.base.gametip.world_movelimit_event_text = {
 	tip = "현재 해역에 미완성한 임무가 존재하여 벗어날 수 없습니다."
 }
 
+
 _G.pg.base.gametip.world_mapbuff_tip = {
 	tip = "해역 내 모든 적 전투력 상승 중"
 }
+
 
 _G.pg.base.gametip.world_sametask_tip = {
 	tip = "임무 수령 실패. 같은 임무는 최대 1건만 수령 가능."
 }
 
+
 _G.pg.base.gametip.world_expedition_reward_display = {
 	tip = "보상 보기"
 }
+
 
 _G.pg.base.gametip.world_expedition_reward_display2 = {
 	tip = "HP $1%"
 }
 
+
 _G.pg.base.gametip.world_complete_item_tip = {
 	tip = "모든 해역을 확보했습니다. 전역 정보 기록기를 구매할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.task_notfound_error = {
 	tip = "스테이지 정보를 확인하지 못했습니다. 에러 ID："
 }
 
+
 _G.pg.base.gametip.task_submitTask_error = {
 	tip = "임무 완료 실패："
 }
+
 
 _G.pg.base.gametip.task_submitTask_error_client = {
 	tip = "임무 완료 실패"
 }
 
+
 _G.pg.base.gametip.task_submitTask_error_notFinish = {
 	tip = "임무가 아직 완료되지 않았습니다."
 }
+
 
 _G.pg.base.gametip.task_taskMediator_getItem = {
 	tip = "획득：<color=#92fc63>$1</color>, 수량：<color=#92fc63>X$2</color>"
 }
 
+
 _G.pg.base.gametip.task_taskMediator_getResource = {
 	tip = "획득：<color=#92fc63>$1</color>, 수량：<color=#92fc63>X$2</color>"
 }
+
 
 _G.pg.base.gametip.task_taskMediator_getEquip = {
 	tip = "획득：<color=#92fc63>$1</color>, 수량：<color=#92fc63>X$2</color>"
 }
 
+
 _G.pg.base.gametip.task_target_chapter_in_progress = {
 	tip = "현재 임무 목표 지역을 공략하고 있어 해당 임무를 받을 수 없습니다."
 }
+
 
 _G.pg.base.gametip.task_level_notenough = {
 	tip = "$1 레벨 도달해야 임무를 진행할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.loading_tip_ShaderMgr = {
 	tip = "시각 센서 기동 중..."
 }
+
 
 _G.pg.base.gametip.loading_tip_FontMgr = {
 	tip = "자율 라이브러리 초기화 중..."
 }
 
+
 _G.pg.base.gametip.loading_tip_TipsMgr = {
 	tip = "자가 회복 기능 전개 중..."
 }
+
 
 _G.pg.base.gametip.loading_tip_MsgboxMgr = {
 	tip = "대화 인터페이스 구축 중..."
 }
 
+
 _G.pg.base.gametip.loading_tip_GuideMgr = {
 	tip = "보조 오퍼레이터 AI 접속 중..."
 }
+
 
 _G.pg.base.gametip.loading_tip_PoolMgr = {
 	tip = "유기 도장 소자 충전 중..."
 }
 
+
 _G.pg.base.gametip.loading_tip_FModMgr = {
 	tip = "음성 모듈 동작 확인 중..."
 }
+
 
 _G.pg.base.gametip.loading_tip_StoryMgr = {
 	tip = "패럴렐 메모리 기록 중..."
 }
 
+
 _G.pg.base.gametip.energy_desc_happy = {
 	tip = "의욕 만땅! 평소 이상으로 전투력을 발휘할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.energy_desc_normal = {
 	tip = "무난 무난~ 평소처럼 전투력을 발휘할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.energy_desc_tired = {
 	tip = "지쳤어... 평소보다 전투력이 떨어진 것 같습니다."
 }
+
 
 _G.pg.base.gametip.energy_desc_angry = {
 	tip = "더는 못 움직여 OTL... 얼른 쉬게 해줍시다."
 }
 
+
 _G.pg.base.gametip.create_player_success = {
 	tip = "유저 등록을 완료했습니다."
 }
+
 
 _G.pg.base.gametip.login_newPlayerScene_invalideName = {
 	tip = "캐릭터 이름에 부적절한 문구가 포함되었습니다."
 }
 
+
 _G.pg.base.gametip.login_newPlayerScene_name_tooShort = {
 	tip = "이름이 너무 짧습니다."
 }
+
 
 _G.pg.base.gametip.login_newPlayerScene_name_existOtherChar = {
 	tip = "사용할 수 없는 문자가 포함되어 있습니다."
 }
 
+
 _G.pg.base.gametip.login_newPlayerScene_name_tooLong = {
 	tip = "이름이 너무 깁니다."
 }
+
 
 _G.pg.base.gametip.equipment_updateGrade_tip = {
 	tip = "이 재료들만 모으면 강화할 수 있다구~ 뿌뿌!"
 }
 
+
 _G.pg.base.gametip.equipment_upgrade_ok = {
 	tip = "장비 강화 성공"
 }
+
 
 _G.pg.base.gametip.equipment_cant_upgrade = {
 	tip = "강화 불가능"
 }
 
+
 _G.pg.base.gametip.equipment_upgrade_erro = {
 	tip = "장비 강화 실패："
 }
+
 
 _G.pg.base.gametip.collection_nostar = {
 	tip = "수령 조건을 충족하지 않습니다."
 }
 
+
 _G.pg.base.gametip.collection_getResource_error = {
 	tip = "보수 수령 실패："
 }
+
 
 _G.pg.base.gametip.collection_hadAward = {
 	tip = "보수 수령 완료"
 }
 
+
 _G.pg.base.gametip.collection_lock = {
 	tip = "아직 개방되지 않았습니다."
 }
+
 
 _G.pg.base.gametip.collection_fetched = {
 	tip = "이미 수령했습니다."
 }
 
+
 _G.pg.base.gametip.buyProp_noResource_error = {
 	tip = "<color=#92fc63>$1</color> 부족"
 }
+
 
 _G.pg.base.gametip.refresh_shopStreet_ok = {
 	tip = "상품 갱신 성공"
 }
 
+
 _G.pg.base.gametip.refresh_shopStreet_erro = {
 	tip = "상품 갱신 실패："
 }
+
 
 _G.pg.base.gametip.shopStreet_upgrade_done = {
 	tip = "상점가 증축 완료"
 }
 
+
 _G.pg.base.gametip.shopStreet_refresh_max_count = {
 	tip = "오늘은 더 이상 갱신할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.buy_countLimit = {
 	tip = "더 이상 구입할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.buy_item_quest = {
 	tip = "구입하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.refresh_shopStreet_question = {
 	tip = "<color=#92fc63>$2</color>의 $1을(를) 사용하여 상품 리스트를 갱신하시겠습니까?\n\n<size=22>(오늘은 이미 <size=25><color=#FF0000>$3</color></size>회 구입했습니다.)</size>"
 }
 
+
 _G.pg.base.gametip.quota_shop_title = {
 	tip = "「코어 교환·한정」"
 }
+
 
 _G.pg.base.gametip.quota_shop_description = {
 	tip = "코어 데이터를 소비하여 아이템(소지 한도 있음)으로 교환 가능."
 }
 
+
 _G.pg.base.gametip.quota_shop_owned = {
 	tip = "소지 한도"
 }
+
 
 _G.pg.base.gametip.quota_shop_good_limit = {
 	tip = "한도 도달"
 }
 
+
 _G.pg.base.gametip.quota_shop_limit_error = {
 	tip = "이미 소지 한도 수에 도달하여 더 이상 획득할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.event_start_success = {
 	tip = "의뢰 개시"
 }
 
+
 _G.pg.base.gametip.event_start_fail = {
 	tip = "의뢰 개시 실패："
 }
+
 
 _G.pg.base.gametip.event_finish_success = {
 	tip = "의뢰 완료"
 }
 
+
 _G.pg.base.gametip.event_finish_fail = {
 	tip = "의뢰 완료 실패："
 }
+
 
 _G.pg.base.gametip.event_giveup_success = {
 	tip = "긴급 귀항"
 }
 
+
 _G.pg.base.gametip.event_giveup_fail = {
 	tip = "긴급 귀항 실패："
 }
+
 
 _G.pg.base.gametip.event_flush_success = {
 	tip = "상품 갱신 완료"
 }
 
+
 _G.pg.base.gametip.event_flush_fail = {
 	tip = "상품 갱신 실패："
 }
+
 
 _G.pg.base.gametip.event_flush_not_enough = {
 	tip = "갱신 가능 횟수가 부족합니다."
 }
 
+
 _G.pg.base.gametip.event_start = {
 	tip = "의뢰 개시"
 }
+
 
 _G.pg.base.gametip.event_finish = {
 	tip = "의뢰 완료"
 }
 
+
 _G.pg.base.gametip.event_giveup = {
 	tip = "의뢰 중지"
 }
+
 
 _G.pg.base.gametip.event_minimus_ship_numbers = {
 	tip = "<color=#92fc63>$1척</color>이상 배치해야 합니다."
 }
 
+
 _G.pg.base.gametip.event_confirm_giveup = {
 	tip = "의뢰를 포기하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.event_confirm_flush = {
 	tip = "현재 진행 중인 의뢰가 있습니다. 정말 리스트를 갱신하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.event_fleet_busy = {
 	tip = "동시에 진행 가능한 의뢰 수를 초과했습니다."
 }
+
 
 _G.pg.base.gametip.event_same_type_not_allowed = {
 	tip = "동일한 함선을 편성할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.event_condition_ship_level = {
 	tip = "<color=#92fc63>Lv.$1</color> 이상의 함선이 <color=#92fc63>1척</color> 이상 필요합니다."
 }
+
 
 _G.pg.base.gametip.event_condition_ship_count = {
 	tip = "<color=#92fc63>$1</color>척 이상 필요합니다."
 }
 
+
 _G.pg.base.gametip.event_condition_ship_type = {
 	tip = "<color=#92fc63>$1</color> 한정"
 }
+
 
 _G.pg.base.gametip.event_level_unreached = {
 	tip = "레벨이 부족합니다."
 }
 
+
 _G.pg.base.gametip.event_type_unreached = {
 	tip = "출격 조건에 맞지 않습니다."
 }
+
 
 _G.pg.base.gametip.event_oil_consume = {
 	tip = "의뢰 진행 시 <icon name=oil w=0.7 h=0.7/><color=#92fc63>$1</color>의 연료가 소비됩니다."
 }
 
+
 _G.pg.base.gametip.event_type_unlimit = {
 	tip = "제한 없음"
 }
+
 
 _G.pg.base.gametip.dailyLevel_restCount_notEnough = {
 	tip = "도전 횟수가 부족해 진행할 수 없습니다. "
 }
 
+
 _G.pg.base.gametip.dailyLevel_unopened = {
 	tip = "준비 중입니다."
 }
+
 
 _G.pg.base.gametip.dailyLevel_opened = {
 	tip = "개시"
 }
 
+
 _G.pg.base.gametip.playerinfo_ship_is_already_flagship = {
 	tip = "이미 비서함으로 설정되어 있습니다."
 }
+
 
 _G.pg.base.gametip.playerinfo_mask_word = {
 	tip = "금칙어가 포함되어 있습니다."
 }
 
+
 _G.pg.base.gametip.just_now = {
 	tip = "방금"
 }
+
 
 _G.pg.base.gametip.several_minutes_before = {
 	tip = "<color=#92fc63>$1</color>분 전"
 }
 
+
 _G.pg.base.gametip.several_hours_before = {
 	tip = "<color=#92fc63>$1시간</color> 전"
 }
+
 
 _G.pg.base.gametip.several_days_before = {
 	tip = "<color=#92fc63>$1일</color> 전"
 }
 
+
 _G.pg.base.gametip.long_time_offline = {
 	tip = "장기 미접속"
 }
+
 
 _G.pg.base.gametip.dont_send_message_frequently = {
 	tip = "발신 간격을 주의해주세요"
 }
 
+
 _G.pg.base.gametip.no_activity = {
 	tip = "참가할 수 있는 이벤트가 없습니다."
 }
+
 
 _G.pg.base.gametip.which_day = {
 	tip = "<color=#92fc63>$1</color>일 째"
 }
 
+
 _G.pg.base.gametip.which_day_2 = {
 	tip = "$1일차"
 }
+
 
 _G.pg.base.gametip.invalidate_evaluation = {
 	tip = "금칙어가 포함되어 있습니다."
 }
 
+
 _G.pg.base.gametip.chapter_no = {
 	tip = "제 <color=#92fc63>$1</color> 장"
 }
+
 
 _G.pg.base.gametip.reconnect_tip = {
 	tip = "통신 에러가 발생했습니다. 다시 접속하시겠습니까?\n[$1]"
 }
 
+
 _G.pg.base.gametip.like_ship_success = {
 	tip = "응원해주셔서 감사합니다!"
 }
+
 
 _G.pg.base.gametip.eva_ship_success = {
 	tip = "송신했습니다."
 }
 
+
 _G.pg.base.gametip.zan_ship_eva_success = {
 	tip = "평가를 반영했습니다."
 }
+
 
 _G.pg.base.gametip.zan_ship_eva_error_7 = {
 	tip = "이미 평가한 코멘트 입니다."
 }
 
+
 _G.pg.base.gametip.eva_count_limit = {
 	tip = "오늘은 더 이상 코멘트를 남길 수 없습니다."
 }
+
 
 _G.pg.base.gametip.attribute_durability = {
 	tip = "내구"
 }
 
+
 _G.pg.base.gametip.attribute_cannon = {
 	tip = "포격"
 }
+
 
 _G.pg.base.gametip.attribute_torpedo = {
 	tip = "뇌장"
 }
 
+
 _G.pg.base.gametip.attribute_antiaircraft = {
 	tip = "대공"
 }
+
 
 _G.pg.base.gametip.attribute_air = {
 	tip = "항공"
 }
 
+
 _G.pg.base.gametip.attribute_reload = {
 	tip = "장전"
 }
+
 
 _G.pg.base.gametip.attribute_cd = {
 	tip = "사속"
 }
 
+
 _G.pg.base.gametip.attribute_armor_type = {
 	tip = "장갑유형"
 }
+
 
 _G.pg.base.gametip.attribute_armor = {
 	tip = "장갑"
 }
 
+
 _G.pg.base.gametip.attribute_hit = {
 	tip = "명중"
 }
+
 
 _G.pg.base.gametip.attribute_speed = {
 	tip = "항속"
 }
 
+
 _G.pg.base.gametip.attribute_luck = {
 	tip = "행운"
 }
+
 
 _G.pg.base.gametip.attribute_dodge = {
 	tip = "기동"
 }
 
+
 _G.pg.base.gametip.attribute_expend = {
 	tip = "소모"
 }
+
 
 _G.pg.base.gametip.attribute_damage = {
 	tip = "화력"
 }
 
+
 _G.pg.base.gametip.attribute_healthy = {
 	tip = "회복"
 }
+
 
 _G.pg.base.gametip.attribute_speciality = {
 	tip = "특성"
 }
 
+
 _G.pg.base.gametip.attribute_range = {
 	tip = "사거리"
 }
+
 
 _G.pg.base.gametip.attribute_angle = {
 	tip = "사각"
 }
 
+
 _G.pg.base.gametip.attribute_scatter = {
 	tip = "확산범위"
 }
+
 
 _G.pg.base.gametip.attribute_ammo = {
 	tip = "탄약"
 }
 
+
 _G.pg.base.gametip.attribute_antisub = {
 	tip = "대잠"
 }
+
 
 _G.pg.base.gametip.attribute_sonarRange = {
 	tip = "탐지 범위 증가"
 }
 
+
 _G.pg.base.gametip.attribute_sonarInterval = {
 	tip = "발신 빈도"
 }
+
 
 _G.pg.base.gametip.attribute_oxy_max = {
 	tip = "잠항력"
 }
 
+
 _G.pg.base.gametip.attribute_dodge_limit = {
 	tip = "회피상한"
 }
+
 
 _G.pg.base.gametip.attribute_intimacy = {
 	tip = "호감도"
 }
 
+
 _G.pg.base.gametip.attribute_max_distance_damage = {
 	tip = "가장자리 대미지"
 }
+
 
 _G.pg.base.gametip.attribute_anti_siren = {
 	tip = "대형 작전 세이렌 증가 대미지"
 }
 
+
 _G.pg.base.gametip.attribute_add_new = {
 	tip = "New!"
 }
+
 
 _G.pg.base.gametip.skill = {
 	tip = "스킬"
 }
 
+
 _G.pg.base.gametip.cd_normal = {
 	tip = "기본 사속"
 }
+
 
 _G.pg.base.gametip.intensify = {
 	tip = "강화"
 }
 
+
 _G.pg.base.gametip.change = {
 	tip = "변경"
 }
+
 
 _G.pg.base.gametip.formation_switch_failed = {
 	tip = "전환할 수 있는 함대가 없습니다."
 }
 
+
 _G.pg.base.gametip.formation_switch_success = {
 	tip = "조작 함대를 $1로 전환했습니다."
 }
+
 
 _G.pg.base.gametip.formation_switch_tip = {
 	tip = "대열을 유지할 수 없습니다! 조작 함대를 <color=#92fc63>$1</color>로 전환합니다."
 }
 
+
 _G.pg.base.gametip.formation_reform_tip = {
 	tip = "대열을 유지할 수 없습니다! 편성하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.formation_invalide = {
 	tip = "전투 가능한 함선이 없습니다... 작전에 실패했습니다."
 }
 
+
 _G.pg.base.gametip.chapter_ap_not_enough = {
 	tip = "AP 부족"
 }
+
 
 _G.pg.base.gametip.formation_forbid_when_in_chapter = {
 	tip = "함대가 출격 중이므로, 편성을 변경할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.military_forbid_when_in_chapter = {
 	tip = "함대가 출격 중이므로, 연습에 참가할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.confirm_app_exit = {
 	tip = "게임을 종료하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.friend_info_page_tip = {
 	tip = "친구를 터치하여 확인할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.friend_search_page_tip = {
 	tip = "한 번에 <color=#92fc63>$1</color>명까지 검색할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.friend_request_page_tip = {
 	tip = "신청은 최대 <color=#92fc63>$1건</color>까지 보존할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.friend_id_copy_ok = {
 	tip = "클립보드에 복사했습니다."
 }
 
+
 _G.pg.base.gametip.friend_inpout_key_tip = {
 	tip = "검색 키워드를 입력해주세요."
 }
+
 
 _G.pg.base.gametip.remove_friend_tip = {
 	tip = "친구 목록에서 삭제하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.friend_request_msg_placeholder = {
 	tip = "신청 내용을 입력해주세요."
 }
+
 
 _G.pg.base.gametip.friend_request_msg_title = {
 	tip = "상대방이 승인할 경우 친구가 됩니다."
 }
 
+
 _G.pg.base.gametip.friend_max_count = {
 	tip = "친구 목록에 <color=#92fc63>자리가 없습니다.</color>"
 }
+
 
 _G.pg.base.gametip.friend_add_ok = {
 	tip = "친구로 추가 했습니다."
 }
 
+
 _G.pg.base.gametip.friend_max_count_1 = {
 	tip = "상대방의 친구 목록에 자리가 없습니다."
 }
+
 
 _G.pg.base.gametip.friend_no_request = {
 	tip = "친구 신청이 없습니다."
 }
 
+
 _G.pg.base.gametip.reject_all_friend_ok = {
 	tip = "일괄 거절했습니다."
 }
+
 
 _G.pg.base.gametip.reject_friend_ok = {
 	tip = "거절했습니다."
 }
 
+
 _G.pg.base.gametip.friend_offline = {
 	tip = "친구가 접속 중이 아닙니다."
 }
+
 
 _G.pg.base.gametip.friend_msg_forbid = {
 	tip = "금칙어가 포함되어 있습니다."
 }
 
+
 _G.pg.base.gametip.dont_add_self = {
 	tip = "자신을 추가할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.friend_already_add = {
 	tip = "이미 친구인 유저입니다."
 }
 
+
 _G.pg.base.gametip.friend_not_add = {
 	tip = "아직 친구가 아닙니다."
 }
+
 
 _G.pg.base.gametip.friend_send_msg_erro_tip = {
 	tip = "친구가 접속 중이 아니므로 메시지를 보낼 수 없습니다."
 }
 
+
 _G.pg.base.gametip.friend_send_msg_null_tip = {
 	tip = "메시지를 입력해주세요."
 }
+
 
 _G.pg.base.gametip.friend_search_succeed = {
 	tip = "검색 완료"
 }
 
+
 _G.pg.base.gametip.friend_request_msg_sent = {
 	tip = "신청을 보냈습니다."
 }
+
 
 _G.pg.base.gametip.friend_resume_ship_count = {
 	tip = "함선 획득："
 }
 
+
 _G.pg.base.gametip.friend_resume_title_metal = {
 	tip = "최고 등급："
 }
+
 
 _G.pg.base.gametip.friend_resume_collection_rate = {
 	tip = "달성률："
 }
 
+
 _G.pg.base.gametip.friend_resume_attack_count = {
 	tip = "출격 횟수："
 }
+
 
 _G.pg.base.gametip.friend_resume_attack_win_rate = {
 	tip = "출격 승률："
 }
 
+
 _G.pg.base.gametip.friend_resume_manoeuvre_count = {
 	tip = "연습 횟수："
 }
+
 
 _G.pg.base.gametip.friend_resume_manoeuvre_win_rate = {
 	tip = "연습 승률："
 }
 
+
 _G.pg.base.gametip.friend_resume_fleet_gs = {
 	tip = "함대 전력："
 }
+
 
 _G.pg.base.gametip.friend_event_count = {
 	tip = "의뢰 달성："
 }
 
+
 _G.pg.base.gametip.firend_relieve_blacklist_ok = {
 	tip = "해제 성공"
 }
+
 
 _G.pg.base.gametip.firend_relieve_blacklist_tip = {
 	tip = "$1을(를) 차단 목록에서 해제하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.word_shipNation_all = {
 	tip = "모든 진영"
 }
+
 
 _G.pg.base.gametip.word_shipNation_baiYing = {
 	tip = "USS"
 }
 
+
 _G.pg.base.gametip.word_shipNation_huangJia = {
 	tip = "HMS"
 }
+
 
 _G.pg.base.gametip.word_shipNation_chongYing = {
 	tip = "IJN"
 }
 
+
 _G.pg.base.gametip.word_shipNation_tieXue = {
 	tip = "KMS"
 }
+
 
 _G.pg.base.gametip.word_shipNation_dongHuang = {
 	tip = "ROC"
 }
 
+
 _G.pg.base.gametip.word_shipNation_saDing = {
 	tip = "RN"
 }
+
 
 _G.pg.base.gametip.word_shipNation_beiLian = {
 	tip = "SN"
 }
 
+
 _G.pg.base.gametip.word_shipNation_other = {
 	tip = "기타"
 }
+
 
 _G.pg.base.gametip.word_shipNation_np = {
 	tip = "넵튠"
 }
 
+
 _G.pg.base.gametip.word_shipNation_ziyou = {
 	tip = "FFNF"
 }
+
 
 _G.pg.base.gametip.word_shipNation_weixi = {
 	tip = "MNF"
 }
 
+
 _G.pg.base.gametip.word_shipNation_yuanwei = {
 	tip = "아이리스 교국"
 }
+
 
 _G.pg.base.gametip.word_shipNation_um = {
 	tip = "칭송받는 자"
 }
 
+
 _G.pg.base.gametip.word_shipNation_ai = {
 	tip = "키즈나 아이"
 }
+
 
 _G.pg.base.gametip.word_shipNation_holo = {
 	tip = "hololive"
 }
 
+
 _G.pg.base.gametip.word_shipNation_doa = {
 	tip = "비너스 휴가"
 }
+
 
 _G.pg.base.gametip.word_shipNation_imas = {
 	tip = "아이돌 마스터"
 }
 
+
 _G.pg.base.gametip.word_shipNation_link = {
 	tip = "콜라보"
 }
+
 
 _G.pg.base.gametip.word_shipNation_ssss = {
 	tip = "SSSS"
 }
 
+
 _G.pg.base.gametip.word_shipNation_mot = {
 	tip = "템페스타"
 }
+
 
 _G.pg.base.gametip.word_shipNation_ryza = {
 	tip = "Atelier Ryza"
 }
 
+
 _G.pg.base.gametip.word_shipNation_meta_index = {
 	tip = "META"
 }
+
 
 _G.pg.base.gametip.word_shipNation_senran = {
 	tip = "섬란 카구라"
 }
 
+
 _G.pg.base.gametip.word_reset = {
 	tip = "초기화"
 }
+
 
 _G.pg.base.gametip.word_asc = {
 	tip = "낮은 순"
 }
 
+
 _G.pg.base.gametip.word_desc = {
 	tip = "높은 순"
 }
+
 
 _G.pg.base.gametip.word_own = {
 	tip = "보유"
 }
 
+
 _G.pg.base.gametip.word_own1 = {
 	tip = "보유 중:"
 }
+
 
 _G.pg.base.gametip.oil_buy_limit_tip = {
 	tip = "<size=22>(오늘 구입 가능 횟수 <color=#FF0000>$1</color>/$2회)</size>"
 }
 
+
 _G.pg.base.gametip.friend_resume_title = {
 	tip = "이력"
 }
+
 
 _G.pg.base.gametip.friend_resume_data_title = {
 	tip = "정보"
 }
 
+
 _G.pg.base.gametip.batch_destroy = {
 	tip = "일괄해체"
 }
+
 
 _G.pg.base.gametip.equipment_select_device_destroy_tip = {
 	tip = "<color=#92fc63>해체</color>을(를) 진행할 장비를 선택해주세요."
 }
 
+
 _G.pg.base.gametip.equipment_select_device_destroy_bonus_tip = {
 	tip = "재료 획득："
 }
+
 
 _G.pg.base.gametip.equipment_select_device_destroy_nobonus_tip = {
 	tip = "획득 재료 없음"
 }
 
+
 _G.pg.base.gametip.ship_equip_profiiency = {
 	tip = "보정：$1%"
 }
+
 
 _G.pg.base.gametip.no_open_system_tip = {
 	tip = "<color=#92fc63>$1</color>은(는) 지휘관 <color=#92fc63>Lv.$2</color>에 개방됩니다."
 }
 
+
 _G.pg.base.gametip.open_system_tip = {
 	tip = "$1이(가) 개방되었습니다!"
 }
+
 
 _G.pg.base.gametip.charge_start_tip = {
 	tip = "총 $2 다이아를 얻게됩니다."
 }
 
+
 _G.pg.base.gametip.charge_double_gem_tip = {
 	tip = "첫 구입 시 $1 다이아 보너스!"
 }
+
 
 _G.pg.base.gametip.charge_month_card_lefttime_tip = {
 	tip = "무역 허가증 $1일 남음"
 }
 
+
 _G.pg.base.gametip.charge_title = {
 	tip = "$1으로 $3을(를) $2개 구입합니다."
 }
+
 
 _G.pg.base.gametip.charge_extra_gem_tip = {
 	tip = "＋보너스 $1 다이아"
 }
 
+
 _G.pg.base.gametip.charge_month_card_title = {
 	tip = "$1 다이아를 증정! 또한 30일 간 매일 연료·물자를 수령 가능!"
 }
+
 
 _G.pg.base.gametip.charge_items_title = {
 	tip = "다음 아이템을 획득 가능"
 }
 
+
 _G.pg.base.gametip.setting_interface_save_success = {
 	tip = "조작키 배치를 저장하였습니다."
 }
+
 
 _G.pg.base.gametip.setting_interface_revert_check = {
 	tip = "조작키 배치를 초기화하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.setting_interface_cancel_check = {
 	tip = "현재 설정을 취소하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.event_special_update = {
 	tip = "【$1】 긴급 의뢰 발생!"
 }
 
+
 _G.pg.base.gametip.no_notice_tip = {
 	tip = "공지사항이 없습니다."
 }
+
 
 _G.pg.base.gametip.energy_desc_1 = {
 	tip = "이미 녹초라구... \n<color=#FF552E>(출격 시 호감도가 내려가고, 획득하는 경험치가 절반이 됩니다.)</color>"
 }
 
+
 _G.pg.base.gametip.energy_desc_2 = {
 	tip = "컨디션이 별로 안 좋아...\n조금 쉬게 해주자."
 }
+
 
 _G.pg.base.gametip.energy_desc_3 = {
 	tip = "오늘 같은 날이 언제까지나 계속되기를..."
 }
 
+
 _G.pg.base.gametip.energy_desc_4 = {
 	tip = "좋은 일이 일어날 것 같은 예감!\n<color=#92fc63>(획득 경험치량 증가)</color>"
 }
+
 
 _G.pg.base.gametip.intimacy_desc_1 = {
 	tip = "$1은(는) 당신에게 실망했다..."
 }
 
+
 _G.pg.base.gametip.intimacy_desc_2 = {
 	tip = "$1은(는) 당신을 좀 더 알고 싶어하는 것 같다."
 }
+
 
 _G.pg.base.gametip.intimacy_desc_3 = {
 	tip = "$1은(는) 당신을 신뢰하고 있는 것 같다."
 }
 
+
 _G.pg.base.gametip.intimacy_desc_4 = {
 	tip = "$1은(는) 당신과 함께 있으면 항상 즐거워 보인다."
 }
+
 
 _G.pg.base.gametip.intimacy_desc_5 = {
 	tip = "$1의 눈에서 마음이 전해져 온다."
 }
 
+
 _G.pg.base.gametip.intimacy_desc_6 = {
 	tip = "$1은(는) 당신만을 생각하고 있다."
 }
+
 
 _G.pg.base.gametip.intimacy_desc_7 = {
 	tip = "$1은(는) 당신만을 생각하고 있다."
 }
 
+
 _G.pg.base.gametip.intimacy_desc_1_buff = {
 	tip = "보정치：없음"
 }
+
 
 _G.pg.base.gametip.intimacy_desc_2_buff = {
 	tip = "보정치：없음"
 }
 
+
 _G.pg.base.gametip.intimacy_desc_3_buff = {
 	tip = "보정치：모든 능력치(항속, 장비 제외) 1% 상승"
 }
+
 
 _G.pg.base.gametip.intimacy_desc_4_buff = {
 	tip = "보정치：모든 능력치(항속, 장비 제외) 3% 상승"
 }
 
+
 _G.pg.base.gametip.intimacy_desc_5_buff = {
 	tip = "보정치：모든 능력치(항속, 장비 제외) 6% 상승"
 }
+
 
 _G.pg.base.gametip.intimacy_desc_6_buff = {
 	tip = "보정치：모든 능력치(항속, 장비 제외) 9% 상승"
 }
 
+
 _G.pg.base.gametip.intimacy_desc_7_buff = {
 	tip = "보정치：모든 능력치(항속, 장비 제외) 12% 상승"
 }
+
 
 _G.pg.base.gametip.intimacy_desc_propose = {
 	tip = [[
@@ -5490,25 +6773,31 @@ _G.pg.base.gametip.intimacy_desc_propose = {
 서약일  $1]]
 }
 
+
 _G.pg.base.gametip.intimacy_desc_1_detail = {
 	tip = "$1은(는) 당신에게 실망했다...\n<color=#ffde38><size=18>(효과 없음)</size></color>"
 }
+
 
 _G.pg.base.gametip.intimacy_desc_2_detail = {
 	tip = "$1은(는) 당신을 좀 더 알고 싶어하는 것 같다.\n<color=#ffde38><size=18>(효과 없음)</size></color>"
 }
 
+
 _G.pg.base.gametip.intimacy_desc_3_detail = {
 	tip = "$1은(는) 당신을 신뢰하고 있는 것 같다.\n<color=#92fc63><size=18>모든 능력치(항속 제외)＋1%</size></color>"
 }
+
 
 _G.pg.base.gametip.intimacy_desc_4_detail = {
 	tip = "$1은(는) 당신과 함께 있으면 항상 즐거워 보인다.\n<color=#92fc63><size=18>모든 능력치(항속 제외)＋3%</size></color>"
 }
 
+
 _G.pg.base.gametip.intimacy_desc_5_detail = {
 	tip = "$1의 눈에서 마음이 전해져 온다.\n<color=#92fc63><size=18>모든 능력치(항속 제외)＋6%</size></color>"
 }
+
 
 _G.pg.base.gametip.intimacy_desc_6_detail = {
 	tip = [[
@@ -5519,6 +6808,7 @@ _G.pg.base.gametip.intimacy_desc_6_detail = {
                                          서약일$1]]
 }
 
+
 _G.pg.base.gametip.intimacy_desc_7_detail = {
 	tip = [[
 사랑은 행복으로의 길, 추억은 인연의 고리
@@ -5528,136 +6818,156 @@ _G.pg.base.gametip.intimacy_desc_7_detail = {
                                          서약일$1]]
 }
 
+
 _G.pg.base.gametip.intimacy_desc_ring = {
 	tip = "서약의 반지 1개 획득"
 }
+
 
 _G.pg.base.gametip.intimacy_desc_tiara = {
 	tip = "서약의 왕관 1개 획득"
 }
 
+
 _G.pg.base.gametip.intimacy_desc_day = {
 	tip = "서약일"
 }
+
 
 _G.pg.base.gametip.word_propose_cost_tip1 = {
 	tip = "서약 시 서약의 왕관 <color=#92fc63>1</color>개가 소모됩니다. (현재 <color=#92fc63>$1</color>개 보유 중)\n\n<size=32>*서약 후 캐릭터 이름 변경 및 스탯 <color=#92fc63>3%</color> 강화 획득 가능</size>"
 }
 
+
 _G.pg.base.gametip.word_propose_cost_tip2 = {
 	tip = "서약의 반지 <color=#92fc63>1</color>개를 소모하여 서약의 왕관 <color=#92fc63>1</color>개와 교환합니다.\n<color=#ff5c5c>교환 후 철회할 수 없습니다.</color>"
 }
+
 
 _G.pg.base.gametip.word_propose_tiara_tip = {
 	tip = "서약의 왕관을 씌워주세요."
 }
 
+
 _G.pg.base.gametip.charge_title_getitem = {
 	tip = "다음 아이템을 획득 가능："
 }
+
 
 _G.pg.base.gametip.charge_title_getitem_soon = {
 	tip = "바로 획득 가능："
 }
 
+
 _G.pg.base.gametip.charge_title_getitem_month = {
 	tip = "30일간 매일 획득 가능："
 }
+
 
 _G.pg.base.gametip.charge_limit_all = {
 	tip = "구입 횟수：$1/$2"
 }
 
+
 _G.pg.base.gametip.charge_limit_daily = {
 	tip = "오늘 구입 가능 횟수：$1"
 }
+
 
 _G.pg.base.gametip.charge_limit_weekly = {
 	tip = "이번 주 구입 가능 횟수：$1"
 }
 
+
 _G.pg.base.gametip.charge_limit_monthly = {
 	tip = "이번 달 구매 가능 횟수: $1"
 }
+
 
 _G.pg.base.gametip.charge_error = {
 	tip = "충전 실패:"
 }
 
+
 _G.pg.base.gametip.charge_success = {
 	tip = "구입했습니다."
 }
+
 
 _G.pg.base.gametip.charge_level_limit = {
 	tip = "레벨 부족"
 }
 
+
 _G.pg.base.gametip.ship_drop_desc_default = {
 	tip = "함선 획득"
 }
+
 
 _G.pg.base.gametip.charge_limit_lv = {
 	tip = "Lv.$1 도달 시 개방"
 }
 
+
 _G.pg.base.gametip.charge_time_out = {
 	tip = "결제 정보를 확인 중입니다..."
 }
+
 
 _G.pg.base.gametip.help_shipinfo_equip = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/strength",
-				path = ""
+				path = "",
+				atlas = "helpbg/strength"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/break",
-				path = ""
+				path = "",
+				atlas = "helpbg/break"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/bullet",
-				path = ""
+				path = "",
+				atlas = "helpbg/bullet"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/energy",
-				path = ""
+				path = "",
+				atlas = "helpbg/energy"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/maxlevel",
-				path = ""
+				path = "",
+				atlas = "helpbg/maxlevel"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/levelup",
-				path = ""
+				path = "",
+				atlas = "helpbg/levelup"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/fanqian",
-				path = ""
+				path = "",
+				atlas = "helpbg/fanqian"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/equip",
-				path = ""
+				path = "",
+				atlas = "helpbg/equip"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 8,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -5671,67 +6981,68 @@ _G.pg.base.gametip.help_shipinfo_equip = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.help_shipinfo_detail = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/strength",
-				path = ""
+				path = "",
+				atlas = "helpbg/strength"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/break",
-				path = ""
+				path = "",
+				atlas = "helpbg/break"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/equip",
-				path = ""
+				path = "",
+				atlas = "helpbg/equip"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/bullet",
-				path = ""
+				path = "",
+				atlas = "helpbg/bullet"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/energy",
-				path = ""
+				path = "",
+				atlas = "helpbg/energy"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/BoostEXP",
-				path = ""
+				path = "",
+				atlas = "helpbg/BoostEXP"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/maxlevel",
-				path = ""
+				path = "",
+				atlas = "helpbg/maxlevel"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/levelup",
-				path = ""
+				path = "",
+				atlas = "helpbg/levelup"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/fanqian",
-				path = ""
+				path = "",
+				atlas = "helpbg/fanqian"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 8,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -5745,61 +7056,62 @@ _G.pg.base.gametip.help_shipinfo_detail = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.help_shipinfo_intensify = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/break",
-				path = ""
+				path = "",
+				atlas = "helpbg/break"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/equip",
-				path = ""
+				path = "",
+				atlas = "helpbg/equip"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/bullet",
-				path = ""
+				path = "",
+				atlas = "helpbg/bullet"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/energy",
-				path = ""
+				path = "",
+				atlas = "helpbg/energy"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/maxlevel",
-				path = ""
+				path = "",
+				atlas = "helpbg/maxlevel"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/levelup",
-				path = ""
+				path = "",
+				atlas = "helpbg/levelup"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/fanqian",
-				path = ""
+				path = "",
+				atlas = "helpbg/fanqian"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/strength",
-				path = ""
+				path = "",
+				atlas = "helpbg/strength"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 8,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -5813,61 +7125,62 @@ _G.pg.base.gametip.help_shipinfo_intensify = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.help_shipinfo_upgrate = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/strength",
-				path = ""
+				path = "",
+				atlas = "helpbg/strength"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/equip",
-				path = ""
+				path = "",
+				atlas = "helpbg/equip"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/bullet",
-				path = ""
+				path = "",
+				atlas = "helpbg/bullet"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/energy",
-				path = ""
+				path = "",
+				atlas = "helpbg/energy"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/maxlevel",
-				path = ""
+				path = "",
+				atlas = "helpbg/maxlevel"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/levelup",
-				path = ""
+				path = "",
+				atlas = "helpbg/levelup"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/fanqian",
-				path = ""
+				path = "",
+				atlas = "helpbg/fanqian"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/break",
-				path = ""
+				path = "",
+				atlas = "helpbg/break"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 8,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -5882,60 +7195,61 @@ _G.pg.base.gametip.help_shipinfo_upgrate = {
 	}
 }
 
+
 _G.pg.base.gametip.help_shipinfo_maxlevel = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/strength",
-				path = ""
+				path = "",
+				atlas = "helpbg/strength"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/equip",
-				path = ""
+				path = "",
+				atlas = "helpbg/equip"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/bullet",
-				path = ""
+				path = "",
+				atlas = "helpbg/bullet"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/energy",
-				path = ""
+				path = "",
+				atlas = "helpbg/energy"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/levelup",
-				path = ""
+				path = "",
+				atlas = "helpbg/levelup"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/fanqian",
-				path = ""
+				path = "",
+				atlas = "helpbg/fanqian"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/break",
-				path = ""
+				path = "",
+				atlas = "helpbg/break"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/maxlevel",
-				path = ""
+				path = "",
+				atlas = "helpbg/maxlevel"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 8,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -5949,6 +7263,7 @@ _G.pg.base.gametip.help_shipinfo_maxlevel = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.help_shipinfo_actnpc = {
 	tip = {
@@ -5973,60 +7288,61 @@ _G.pg.base.gametip.help_shipinfo_actnpc = {
 	}
 }
 
+
 _G.pg.base.gametip.help_backyard = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/strength",
-				path = ""
+				path = "",
+				atlas = "helpbg/strength"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/break",
-				path = ""
+				path = "",
+				atlas = "helpbg/break"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/equip",
-				path = ""
+				path = "",
+				atlas = "helpbg/equip"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/bullet",
-				path = ""
+				path = "",
+				atlas = "helpbg/bullet"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/energy",
-				path = ""
+				path = "",
+				atlas = "helpbg/energy"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/maxlevel",
-				path = ""
+				path = "",
+				atlas = "helpbg/maxlevel"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/levelup",
-				path = ""
+				path = "",
+				atlas = "helpbg/levelup"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/fanqian",
-				path = ""
+				path = "",
+				atlas = "helpbg/fanqian"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 8,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -6041,6 +7357,7 @@ _G.pg.base.gametip.help_backyard = {
 	}
 }
 
+
 _G.pg.base.gametip.help_shipinfo_fashion = {
 	tip = {
 		{
@@ -6052,6 +7369,7 @@ _G.pg.base.gametip.help_shipinfo_fashion = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.help_shipinfo_attr = {
 	tip = {
@@ -6070,141 +7388,141 @@ _G.pg.base.gametip.help_shipinfo_attr = {
 		{
 			info = "     내구: 함선의 HP 최대치",
 			icon = {
-				path = "durability",
+				posX = 0,
 				atlas = "attricon",
 				posY = -6,
 				scale = 0.6,
-				posX = 0
+				path = "durability"
 			}
 		},
 		{
 			info = "     포격: 함포 위력 상승",
 			icon = {
-				path = "cannon",
+				posX = 0,
 				atlas = "attricon",
 				posY = -6,
 				scale = 0.6,
-				posX = 0
+				path = "cannon"
 			}
 		},
 		{
 			info = "     대공: 대공화기가 가하는 피해량 상승",
 			icon = {
-				path = "antiaircraft",
+				posX = 0,
 				atlas = "attricon",
 				posY = -6,
 				scale = 0.6,
-				posX = 0
+				path = "antiaircraft"
 			}
 		},
 		{
 			info = "     장갑 타입: 장갑이 두꺼우면 대구경포의 피해량 경감\n 또한, 소구경포에 의한 피해량을 무효화할 수 있음(피해 경감률: 중장갑>중형장갑>경장갑)",
 			icon = {
-				path = "armor",
+				posX = 0,
 				atlas = "attricon",
 				posY = -6,
 				scale = 0.6,
-				posX = 0
+				path = "armor"
 			}
 		},
 		{
 			info = "     뇌장: 어뢰가 가하는 피해량 상승",
 			icon = {
-				path = "torpedo",
+				posX = 0,
 				atlas = "attricon",
 				posY = -6,
 				scale = 0.6,
-				posX = 0
+				path = "torpedo"
 			}
 		},
 		{
 			info = "     항공: 함재기가 가하는 피해량 상승",
 			icon = {
-				path = "air",
+				posX = 0,
 				atlas = "attricon",
 				posY = -6,
 				scale = 0.6,
-				posX = 0
+				path = "air"
 			}
 		},
 		{
 			info = "     장전: 무기·스킬의 재발동 시간 단축",
 			icon = {
-				path = "reload",
+				posX = 0,
 				atlas = "attricon",
 				posY = -6,
 				scale = 0.6,
-				posX = 0
+				path = "reload"
 			}
 		},
 		{
 			info = "     기동: 적탄 회피 확률 상승",
 			icon = {
-				path = "dodge",
+				posX = 0,
 				atlas = "attricon",
 				posY = -6,
 				scale = 0.6,
-				posX = 0
+				path = "dodge"
 			}
 		},
 		{
 			info = "      명중: 공격 명중률 및 크리티컬율 상승",
 			icon = {
-				path = "hit",
+				posX = 0,
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.3,
-				posX = 0
+				path = "hit"
 			}
 		},
 		{
 			info = "     항속: 전투 중 함대 이동 속도에 영향을 줌\n 일부 스테이지에서 아군의 턴별 최대 이동 거리에 영향을 줌\n ",
 			icon = {
-				path = "attr_speed",
+				posX = 0,
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.6,
-				posX = 0
+				path = "attr_speed"
 			}
 		},
 		{
 			info = "     소비: 전투 1회당 소비하는 연료",
 			icon = {
-				path = "expend",
+				posX = 0,
 				atlas = "attricon",
 				posY = -6,
 				scale = 0.6,
-				posX = 0
+				path = "expend"
 			}
 		},
 		{
 			info = "     대잠: 대잠 장비 피해량 상승. 대잠 탐지 범위에 영향을 줌. ",
 			icon = {
-				path = "antisub",
+				posX = 0,
 				atlas = "attricon",
 				posY = -6,
 				scale = 0.6,
-				posX = 0
+				path = "antisub"
 			}
 		},
 		{
 			info = "     잠항력: 최대 잠항 시간. 잠항 상태에서 계속 소모되며, 0이 되면 부상 상태가 됨",
 			icon = {
-				path = "oxy_max",
+				posX = 0,
 				atlas = "attricon",
 				posY = -6,
 				scale = 0.6,
-				posX = 0
+				path = "oxy_max"
 			}
 		},
 		{
 			info = "     탄약량: 전투 중 잠수함 지원 및 해역 지도에서의 적 함대 점감 시 탄약 소모",
 			icon = {
-				path = "ammo",
+				posX = 0,
 				atlas = "attricon",
 				posY = -6,
 				scale = 0.6,
-				posX = 0
+				path = "ammo"
 			}
 		},
 		{
@@ -6214,21 +7532,21 @@ _G.pg.base.gametip.help_shipinfo_attr = {
  잠수함대는 자동으로 지원 범위 내의 적을 향해 이동하여
 점감 작전을 실시함]],
 			icon = {
-				path = "hunt_range",
+				posX = 0,
 				atlas = "attricon",
 				posY = -6,
 				scale = 0.6,
-				posX = 0
+				path = "hunt_range"
 			}
 		},
 		{
 			info = "     행운: 함선의 함력·용골에 영향을 주는 능력치. 전투 중 많은 요소에 미미한 영향을 줌.",
 			icon = {
-				path = "luck",
+				posX = 0,
 				atlas = "attricon",
 				posY = -6,
 				scale = 1,
-				posX = 0
+				path = "luck"
 			}
 		},
 		{
@@ -6236,6 +7554,7 @@ _G.pg.base.gametip.help_shipinfo_attr = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.help_equipment = {
 	tip = {
@@ -6272,6 +7591,7 @@ _G.pg.base.gametip.help_equipment = {
 	}
 }
 
+
 _G.pg.base.gametip.help_equipment_skin = {
 	tip = {
 		{
@@ -6284,6 +7604,7 @@ _G.pg.base.gametip.help_equipment_skin = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.help_daily_task = {
 	tip = {
@@ -6326,6 +7647,7 @@ B평가:<color=#92fc63>70</color>점
 	}
 }
 
+
 _G.pg.base.gametip.help_build = {
 	tip = [[
 					   <size=25>$1建造概率分布</size>
@@ -6335,6 +7657,7 @@ _G.pg.base.gametip.help_build = {
 							 <color=#3dc6ff>稀有舰船</color>：$4%
 							 普通舰船：$5%]]
 }
+
 
 _G.pg.base.gametip.help_shipinfo_hunting = {
 	tip = {
@@ -6360,270 +7683,328 @@ _G.pg.base.gametip.help_shipinfo_hunting = {
 	}
 }
 
+
 _G.pg.base.gametip.shop_extendship_success = {
 	tip = "도크 확장 성공"
 }
+
 
 _G.pg.base.gametip.shop_extendequip_success = {
 	tip = "창고 확장 성공"
 }
 
+
 _G.pg.base.gametip.shop_spweapon_success = {
 	tip = "특수 장비 슬롯 확장 성공"
 }
+
 
 _G.pg.base.gametip.naval_academy_res_desc_cateen = {
 	tip = "모두가 좋아하는 떠들썩한 식당. 증축을 통해 <color=#92fc63>연료의 획득량</color>과 <color=#92fc63>최대 비축량</color>을 UP!"
 }
 
+
 _G.pg.base.gametip.naval_academy_res_desc_shop = {
 	tip = "해군학원의 매점. 증축을 통해 <color=#92fc63>물자의 획득량</color>과 <color=#92fc63>최대 비축량</color>을 UP!"
 }
+
 
 _G.pg.base.gametip.naval_academy_res_desc_class = {
 	tip = "대강당을 강화하면, <color=#92fc63>숙련도 상한, 숙련도 변환의 빠르기</color>와<color=#92fc63> 숙련도 입수 배율</color>이 상승합니다."
 }
 
+
 _G.pg.base.gametip.number_1 = {
 	tip = "1"
 }
+
 
 _G.pg.base.gametip.number_2 = {
 	tip = "2"
 }
 
+
 _G.pg.base.gametip.number_3 = {
 	tip = "3"
 }
+
 
 _G.pg.base.gametip.number_4 = {
 	tip = "4"
 }
 
+
 _G.pg.base.gametip.number_5 = {
 	tip = "5"
 }
+
 
 _G.pg.base.gametip.number_6 = {
 	tip = "6"
 }
 
+
 _G.pg.base.gametip.number_7 = {
 	tip = "7"
 }
+
 
 _G.pg.base.gametip.number_8 = {
 	tip = "8"
 }
 
+
 _G.pg.base.gametip.number_9 = {
 	tip = "9"
 }
+
 
 _G.pg.base.gametip.number_10 = {
 	tip = "10"
 }
 
+
 _G.pg.base.gametip.military_shop_no_open_tip = {
 	tip = "<color=#92fc63>군수상점</color>은 지휘관 <color=#92fc63>Lv.15</color>에 개방됩니다."
 }
+
 
 _G.pg.base.gametip.switch_to_shop_tip_1 = {
 	tip = "재료가 부족합니다. 상점에서 구입하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.switch_to_shop_tip_2 = {
 	tip = "$1이(가) 부족합니다. 상점에서 구입하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.switch_to_shop_tip_3 = {
 	tip = "$1이(가) 부족합니다. 구입하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.switch_to_shop_tip_noPos = {
 	tip = "창고에 공간이 없습니다. 불필요한 장비를 해체하여 창고를 정리하거나, 확장해주세요."
 }
+
 
 _G.pg.base.gametip.text_noPos_clear = {
 	tip = "정리"
 }
 
+
 _G.pg.base.gametip.text_noPos_buy = {
 	tip = "확장"
 }
+
 
 _G.pg.base.gametip.text_noPos_intensify = {
 	tip = "강화"
 }
 
+
 _G.pg.base.gametip.switch_to_shop_tip_noDockyard = {
 	tip = "도크에 공간이 없습니다. 함선을 퇴역시키거나, 도크를 확장해주세요."
 }
+
 
 _G.pg.base.gametip.commission_no_open = {
 	tip = "미개방"
 }
 
+
 _G.pg.base.gametip.commission_open_tip = {
 	tip = "챕터 제 $1 장 클리어 시 개방"
 }
+
 
 _G.pg.base.gametip.commission_idle = {
 	tip = "휴식 중... "
 }
 
+
 _G.pg.base.gametip.commission_urgency = {
 	tip = "긴급 의뢰："
 }
+
 
 _G.pg.base.gametip.commission_normal = {
 	tip = "군사 의뢰："
 }
 
+
 _G.pg.base.gametip.commission_get_award = {
 	tip = "자원 획득：$1 x $2"
 }
+
 
 _G.pg.base.gametip.activity_build_end_tip = {
 	tip = "건조"
 }
 
+
 _G.pg.base.gametip.event_over_time_expired = {
 	tip = "의뢰 접수 가능 시간을 초과했습니다."
 }
+
 
 _G.pg.base.gametip.mail_sender_default = {
 	tip = "사령부"
 }
 
+
 _G.pg.base.gametip.exchangecode_title = {
 	tip = "시리얼 코드를 입력"
 }
+
 
 _G.pg.base.gametip.exchangecode_use_placeholder = {
 	tip = "영문 및 숫자만 입력할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.exchangecode_use_ok = {
 	tip = "시리얼 코드 입력 성공. 특전을 우편으로 발송했습니다."
 }
+
 
 _G.pg.base.gametip.exchangecode_use_error = {
 	tip = "에러："
 }
 
+
 _G.pg.base.gametip.exchangecode_use_error_3 = {
 	tip = "시리얼 코드의 사용 기한이 만료되었습니다"
 }
+
 
 _G.pg.base.gametip.exchangecode_use_error_6 = {
 	tip = "이미 사용 횟수가 초과되었습니다."
 }
 
+
 _G.pg.base.gametip.exchangecode_use_error_7 = {
 	tip = "이미 사용한 시리얼 코드입니다."
 }
+
 
 _G.pg.base.gametip.exchangecode_use_error_8 = {
 	tip = "존재하지 않는 시리얼 코드입니다."
 }
 
+
 _G.pg.base.gametip.exchangecode_use_error_9 = {
 	tip = "존재하지 않는 시리얼 코드입니다."
 }
+
 
 _G.pg.base.gametip.exchangecode_use_error_16 = {
 	tip = "이미 사용한 시리얼 코드입니다."
 }
 
+
 _G.pg.base.gametip.exchangecode_use_error_20 = {
 	tip = "존재하지 않는 시리얼 코드입니다."
 }
+
 
 _G.pg.base.gametip.text_noRes_tip = {
 	tip = "$1이(가) 필요합니다."
 }
 
+
 _G.pg.base.gametip.text_noRes_info_tip = {
 	tip = "<color=#FF0000>$2 $1</color>"
 }
+
 
 _G.pg.base.gametip.text_noRes_info_tip_link = {
 	tip = "와(과)"
 }
 
+
 _G.pg.base.gametip.text_noRes_info_tip2 = {
 	tip = "<color=#FF0000>$2</color>의 <color=#FF0000>$1</color>"
 }
+
 
 _G.pg.base.gametip.text_shop_noRes_tip = {
 	tip = "지휘관, 아직 $1이(가) 필요하다냥!"
 }
 
+
 _G.pg.base.gametip.text_shop_enoughRes_tip = {
 	tip = "지휘관의 물자를 전부 보충해뒀다냥!"
 }
+
 
 _G.pg.base.gametip.text_buy_fashion_tip = {
 	tip = "<color=#92fc63FF>$1</color> 다이아로 <color=#92fc63FF>$2</color>를 구입하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.equip_part_title = {
 	tip = "장착"
 }
+
 
 _G.pg.base.gametip.equip_part_main_title = {
 	tip = "적용(주포)"
 }
 
+
 _G.pg.base.gametip.equip_part_sub_title = {
 	tip = "적용(부포)"
 }
+
 
 _G.pg.base.gametip.equipment_upgrade_overlimit = {
 	tip = "더 이상 강화할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.err_name_existOtherChar = {
 	tip = "한글, 영문 및 숫자 이외의 문자가 포함되어 있습니다."
 }
+
 
 _G.pg.base.gametip.help_battle_rule = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/battle_maincanon",
-				path = ""
+				path = "",
+				atlas = "helpbg/battle_maincanon"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/battle_plane",
-				path = ""
+				path = "",
+				atlas = "helpbg/battle_plane"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/battle_sub_3",
-				path = ""
+				path = "",
+				atlas = "helpbg/battle_sub_3"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/battle_sub_4",
-				path = ""
+				path = "",
+				atlas = "helpbg/battle_sub_4"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/battle_sub_5",
-				path = ""
+				path = "",
+				atlas = "helpbg/battle_sub_5"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -6638,12 +8019,13 @@ _G.pg.base.gametip.help_battle_rule = {
 	}
 }
 
+
 _G.pg.base.gametip.help_battle_warspite = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/battle_warspite",
-				path = ""
+				path = "",
+				atlas = "helpbg/battle_warspite"
 			}
 		},
 		disableScroll = true,
@@ -6664,48 +8046,49 @@ _G.pg.base.gametip.help_battle_warspite = {
 	}
 }
 
+
 _G.pg.base.gametip.help_battle_defense = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/battle_defense_6",
-				path = ""
+				path = "",
+				atlas = "helpbg/battle_defense_6"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/battle_defense_1",
-				path = ""
+				path = "",
+				atlas = "helpbg/battle_defense_1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/battle_defense_2",
-				path = ""
+				path = "",
+				atlas = "helpbg/battle_defense_2"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/battle_defense_3",
-				path = ""
+				path = "",
+				atlas = "helpbg/battle_defense_3"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/battle_defense_4",
-				path = ""
+				path = "",
+				atlas = "helpbg/battle_defense_4"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/battle_defense_5",
-				path = ""
+				path = "",
+				atlas = "helpbg/battle_defense_5"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -6720,45 +8103,53 @@ _G.pg.base.gametip.help_battle_defense = {
 	}
 }
 
+
 _G.pg.base.gametip.backyard_theme_set_tip = {
 	tip = "프리셋 <color=#92fc63>$1</color> 을(를) 적용하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.backyard_theme_save_tip = {
 	tip = "숙소 배치를 저장하시겠습니까?：\n<color=#92fc63>$1</color>"
 }
 
+
 _G.pg.base.gametip.backyard_theme_defaultname = {
 	tip = "나의 숙소"
 }
+
 
 _G.pg.base.gametip.backyard_rename_success = {
 	tip = "숙소 이름 변경 성공"
 }
 
+
 _G.pg.base.gametip.ship_set_skin_success = {
 	tip = "스킨 변경 성공"
 }
+
 
 _G.pg.base.gametip.ship_set_skin_error = {
 	tip = "스킨 변경 실패："
 }
 
+
 _G.pg.base.gametip.equip_part_tip = {
 	tip = "*장비할 수 있는 함선을 확인"
 }
 
+
 _G.pg.base.gametip.help_battle_auto = {
 	tip = {
 		{
-			line = true,
 			info = "자율전투 시 이렇게 될 때도......",
+			line = true,
 			icon = {
-				path = "",
+				posX = -18,
 				atlas = "helpbg/zilv",
 				posY = -55,
 				scale = 1.5,
-				posX = -18
+				path = ""
 			}
 		},
 		disableScroll = true,
@@ -6775,29 +8166,33 @@ _G.pg.base.gametip.help_battle_auto = {
 	}
 }
 
+
 _G.pg.base.gametip.gold_buy_tip = {
 	tip = "<icon name=diamond w=0.7 h=0.7/><size=30><color=#92fc63>100</color></size>개를 사용하여 <size=30><color=#92fc63>3000</color></size><size=30>물자를 구입</size>"
 }
+
 
 _G.pg.base.gametip.oil_buy_tip = {
 	tip = "<icon name=diamond w=0.7 h=0.7/><size=30><color=#92fc63>$1</color></size>개를 사용하여  <size=30><color=#92fc63>$2</color></size><size=30>연료를 구입</size><size=2>\n\n</size><size=22>( 오늘 구입  <size=25><color=#FF0000>$3</color></size> 회 )</size>"
 }
 
+
 _G.pg.base.gametip.text_iknow = {
 	tip = "확인"
 }
 
+
 _G.pg.base.gametip.help_oil_buy_limit = {
 	tip = {
 		{
-			line = true,
 			info = "더 이상 구입할 수 없습니다.",
+			line = true,
 			icon = {
-				path = "",
+				posX = 30,
 				atlas = "helpbg/nooil",
 				posY = -41,
 				scale = 1,
-				posX = 30
+				path = ""
 			}
 		},
 		disableScroll = true,
@@ -6811,649 +8206,811 @@ _G.pg.base.gametip.help_oil_buy_limit = {
 	}
 }
 
+
 _G.pg.base.gametip.text_nofood_yes = {
 	tip = "식량 보충"
 }
+
 
 _G.pg.base.gametip.text_nofood_no = {
 	tip = "무시하기"
 }
 
+
 _G.pg.base.gametip.tip_add_task = {
 	tip = "새로운 임무：$1"
 }
+
 
 _G.pg.base.gametip.collection_award_ship = {
 	tip = "$1 개발 완료! 건조 라인업에 추가되었습니다."
 }
 
+
 _G.pg.base.gametip.guild_create_sucess = {
 	tip = "함대 창설 성공"
 }
+
 
 _G.pg.base.gametip.guild_create_error = {
 	tip = "함대 창설 실패"
 }
 
+
 _G.pg.base.gametip.guild_create_error_noname = {
 	tip = "함대의 이름을 입력해주세요."
 }
+
 
 _G.pg.base.gametip.guild_create_error_nofaction = {
 	tip = "함대의 진영을 선택해주세요."
 }
 
+
 _G.pg.base.gametip.guild_create_error_nopolicy = {
 	tip = "함대의 방침을 선택해주세요."
 }
+
 
 _G.pg.base.gametip.guild_create_error_nomanifesto = {
 	tip = "함대 메시지를 입력해주세요."
 }
 
+
 _G.pg.base.gametip.guild_create_error_nomoney = {
 	tip = "다이아가 부족합니다."
 }
+
 
 _G.pg.base.gametip.guild_tip_dissolve = {
 	tip = "함대를 해산할 경우 되돌릴 수 없습니다. 정말 해산하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.guild_tip_quit = {
 	tip = "함대에서 탈퇴하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.guild_create_confirm = {
 	tip = "<icon name=diamond w=0.7 h=0.7/>$1개를 사용하여 함대를 창설하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.guild_apply_erro = {
 	tip = "참가 신청에 실패했습니다."
 }
+
 
 _G.pg.base.gametip.guild_dissolve_erro = {
 	tip = "해산에 실패했습니다."
 }
 
+
 _G.pg.base.gametip.guild_fire_erro = {
 	tip = "멤버 제명에 실패했습니다."
 }
+
 
 _G.pg.base.gametip.guild_impeach_erro = {
 	tip = "탄핵에 실패했습니다."
 }
 
+
 _G.pg.base.gametip.guild_quit_erro = {
 	tip = "탈퇴에 실패했습니다."
 }
+
 
 _G.pg.base.gametip.guild_accept_erro = {
 	tip = "신청 승인에 실패했습니다."
 }
 
+
 _G.pg.base.gametip.guild_reject_erro = {
 	tip = "신청 거절에 실패했습니다."
 }
+
 
 _G.pg.base.gametip.guild_modify_erro = {
 	tip = "정보 변경에 실패했습니다."
 }
 
+
 _G.pg.base.gametip.guild_setduty_erro = {
 	tip = "직무 변경에 실패했습니다."
 }
+
 
 _G.pg.base.gametip.guild_apply_sucess = {
 	tip = "신청했습니다."
 }
 
+
 _G.pg.base.gametip.guild_no_exist = {
 	tip = "함대가 존재하지 않습니다."
 }
+
 
 _G.pg.base.gametip.guild_dissolve_sucess = {
 	tip = "해산했습니다."
 }
 
+
 _G.pg.base.gametip.guild_commder_in_impeach_time = {
 	tip = "함대 사령관의 탄핵이 진행되고 있습니다."
 }
+
 
 _G.pg.base.gametip.guild_impeach_sucess = {
 	tip = "탄핵했습니다."
 }
 
+
 _G.pg.base.gametip.guild_quit_sucess = {
 	tip = "탈퇴했습니다."
 }
+
 
 _G.pg.base.gametip.guild_member_max_count = {
 	tip = "멤버 수가 이미 최대치에 도달했습니다."
 }
 
+
 _G.pg.base.gametip.guild_new_member_join = {
 	tip = "새로운 멤버가 가입했습니다."
 }
+
 
 _G.pg.base.gametip.guild_player_in_cd_time = {
 	tip = "함대를 탈퇴하고 24시간 동안은 다른 함대에 가입할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.guild_player_already_join = {
 	tip = "이미 함대 멤버입니다."
 }
+
 
 _G.pg.base.gametip.guild_rejecet_apply_sucess = {
 	tip = "신청을 거절했습니다."
 }
 
+
 _G.pg.base.gametip.guild_should_input_keyword = {
 	tip = "키워드를 입력해주세요."
 }
+
 
 _G.pg.base.gametip.guild_search_sucess = {
 	tip = "검색 완료"
 }
 
+
 _G.pg.base.gametip.guild_list_refresh_sucess = {
 	tip = "검색 결과를 갱신했습니다."
 }
+
 
 _G.pg.base.gametip.guild_info_update = {
 	tip = "정보가 갱신되었습니다."
 }
 
+
 _G.pg.base.gametip.guild_duty_id_is_null = {
 	tip = "직무를 설정해야 합니다."
 }
+
 
 _G.pg.base.gametip.guild_player_is_null = {
 	tip = "멤버를 선택해야 합니다."
 }
 
+
 _G.pg.base.gametip.guild_duty_commder_max_count = {
 	tip = "부사령관 수가 이미 최대치에 도달했습니다."
 }
+
 
 _G.pg.base.gametip.guild_set_duty_sucess = {
 	tip = "직무를 설정했습니다."
 }
 
+
 _G.pg.base.gametip.guild_policy_power = {
 	tip = "최강함대"
 }
+
 
 _G.pg.base.gametip.guild_policy_relax = {
 	tip = "캐주얼 함대"
 }
 
+
 _G.pg.base.gametip.guild_faction_blhx = {
 	tip = "벽람항로"
 }
+
 
 _G.pg.base.gametip.guild_faction_cszz = {
 	tip = "적색중축"
 }
 
+
 _G.pg.base.gametip.guild_faction_unknown = {
 	tip = "????"
 }
+
 
 _G.pg.base.gametip.guild_faction_meta = {
 	tip = "META"
 }
 
+
 _G.pg.base.gametip.guild_word_commder = {
 	tip = "사령관"
 }
+
 
 _G.pg.base.gametip.guild_word_deputy_commder = {
 	tip = "부사령관"
 }
 
+
 _G.pg.base.gametip.guild_word_picked = {
 	tip = "정예"
 }
+
 
 _G.pg.base.gametip.guild_word_ordinary = {
 	tip = "일반"
 }
 
+
 _G.pg.base.gametip.guild_word_home = {
 	tip = "메인"
 }
+
 
 _G.pg.base.gametip.guild_word_member = {
 	tip = "멤버"
 }
 
+
 _G.pg.base.gametip.guild_word_apply = {
 	tip = "신청"
 }
+
 
 _G.pg.base.gametip.guild_faction_change_tip = {
 	tip = "소속 진영을 변경할 경우, 30일 동안 재변경이 불가능합니다. 정말 변경하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.guild_msg_is_null = {
 	tip = "메시지를 입력해주세요."
 }
+
 
 _G.pg.base.gametip.guild_log_new_guild_join = {
 	tip = "새로운 멤버 <color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> 이(가) 함대에 가입했습니다."
 }
 
+
 _G.pg.base.gametip.guild_log_duty_change = {
 	tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> 님의 직무가 $2로 변경되었습니다."
 }
+
 
 _G.pg.base.gametip.guild_log_quit = {
 	tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> 님이 함대를 탈퇴했습니다."
 }
 
+
 _G.pg.base.gametip.guild_log_fire = {
 	tip = "<color=#92fc63><material=underline event=clickPlayer args=1>$1</material></color> 님이 함대에서 제명되었습니다."
 }
+
 
 _G.pg.base.gametip.guild_leave_cd_time = {
 	tip = "함대에서 탈퇴하면 24시간 동안 새로운 함대에 가입할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.guild_sort_time = {
 	tip = "시간"
 }
+
 
 _G.pg.base.gametip.guild_sort_level = {
 	tip = "레벨"
 }
 
+
 _G.pg.base.gametip.guild_sort_duty = {
 	tip = "직무"
 }
+
 
 _G.pg.base.gametip.guild_fire_tip = {
 	tip = "해당 멤버를 제명하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.guild_impeach_tip = {
 	tip = "함대 사령관을 탄핵하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.guild_set_duty_title = {
 	tip = "$1님에게 임명："
 }
 
+
 _G.pg.base.gametip.guild_search_list_max_count = {
 	tip = "$1건을 표시"
 }
+
 
 _G.pg.base.gametip.guild_sort_all = {
 	tip = "전부"
 }
 
+
 _G.pg.base.gametip.guild_sort_blhx = {
 	tip = "벽람항로"
 }
+
 
 _G.pg.base.gametip.guild_sort_cszz = {
 	tip = "적색중축"
 }
 
+
 _G.pg.base.gametip.guild_sort_power = {
 	tip = "최강함대"
 }
+
 
 _G.pg.base.gametip.guild_sort_relax = {
 	tip = "캐주얼 함대"
 }
 
+
 _G.pg.base.gametip.guild_join_cd = {
 	tip = "함대에서 탈퇴하면 24시간 동안 새로운 함대에 가입할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.guild_name_invaild = {
 	tip = "이미 사용 중인 이름입니다."
 }
 
+
 _G.pg.base.gametip.guild_apply_full = {
 	tip = "이미 신청이 꽉 찬 함대입니다."
 }
+
 
 _G.pg.base.gametip.guild_member_full = {
 	tip = "대함대에 자리가 없습니다."
 }
 
+
 _G.pg.base.gametip.guild_fire_duty_limit = {
 	tip = "직무가 자신보다 높은 멤버는 제명할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.guild_fire_succeed = {
 	tip = "제명했습니다."
 }
 
+
 _G.pg.base.gametip.guild_duty_tip_1 = {
 	tip = "<color=#7FAFFF>현재 직급</color>"
 }
+
 
 _G.pg.base.gametip.guild_duty_tip_2 = {
 	tip = "<color=#C3C3C3>위임 불가</color>"
 }
 
+
 _G.pg.base.gametip.battle_repair_special_tip = {
 	tip = "<color=#92fc63>응급 수리 소대</color>를 사용하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.battle_repair_normal_name = {
 	tip = "남은 무료 횟수："
 }
 
+
 _G.pg.base.gametip.battle_repair_special_name = {
 	tip = "오늘 남은 횟수："
 }
+
 
 _G.pg.base.gametip.oil_max_tip_title = {
 	tip = "연료가 꽉 차 있습니다."
 }
 
+
 _G.pg.base.gametip.gold_max_tip_title = {
 	tip = "물자가 꽉 차 있습니다."
 }
+
 
 _G.pg.base.gametip.expbook_max_tip_title = {
 	tip = "함선 연습 데이터 최대치 도달"
 }
 
+
 _G.pg.base.gametip.resource_max_tip_shop = {
 	tip = "물자를 구입할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.resource_max_tip_event = {
 	tip = "의뢰 보수를 받을 수 없습니다."
 }
 
+
 _G.pg.base.gametip.resource_max_tip_battle = {
 	tip = "출격 시 자원을 획득할 수 없습니다. 정말 출격하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.resource_max_tip_collect = {
 	tip = "보수를 받을 수 없습니다."
 }
 
+
 _G.pg.base.gametip.resource_max_tip_mail = {
 	tip = "우편을 받을 수 없습니다."
 }
+
 
 _G.pg.base.gametip.resource_max_tip_eventstart = {
 	tip = "의뢰를 받을 수 없습니다."
 }
 
+
 _G.pg.base.gametip.resource_max_tip_destroy = {
 	tip = "장비를 해체할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.resource_max_tip_retire = {
 	tip = "퇴역시킬 수 없습니다."
 }
 
+
 _G.pg.base.gametip.resource_max_tip_retire_1 = {
 	tip = "더 이상 연료를 획득할 수 없습니다. 퇴역을 계속 진행하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.new_version_tip = {
 	tip = "클라이언트가 갱신되었습니다. 게임을 다시 실행하여 최신 데이터를 내려받아 주세요."
 }
 
+
 _G.pg.base.gametip.guild_request_msg_title = {
 	tip = "신청 내용 입력"
 }
+
 
 _G.pg.base.gametip.guild_request_msg_placeholder = {
 	tip = "신청을 발송했습니다."
 }
 
+
 _G.pg.base.gametip.ship_upgrade_unequip_tip = {
 	tip = "<color=$2>$1</color>에게 장착되어 있는 장비가 장착 해제됩니다. 진행하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.destination_can_not_reach = {
 	tip = "목표 위치로 이동할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.destination_can_not_reach_safety = {
 	tip = "목표 위치로 이동할 수 없습니다.：경로상에 적 존재"
 }
+
 
 _G.pg.base.gametip.destination_not_in_range = {
 	tip = "목표 지점이 이동 범위를 벗어났습니다."
 }
 
+
 _G.pg.base.gametip.level_ammo_enough = {
 	tip = "탄약이 충분합니다!"
 }
+
 
 _G.pg.base.gametip.level_ammo_supply = {
 	tip = "탄약이 $1 보충되었습니다. 보급 포인트 잔여 $2/3"
 }
 
+
 _G.pg.base.gametip.level_ammo_empty = {
 	tip = "탄약이 $1 보충되었습니다. 보급 포인트가 소멸했습니다."
 }
+
 
 _G.pg.base.gametip.level_ammo_supply_p1 = {
 	tip = "탄약이 $1 보충되었습니다."
 }
 
+
 _G.pg.base.gametip.level_flare_supply = {
 	tip = "조명탄 보급 획득. 함대에게 전투 중 $1회 조명을 비춰줍니다."
 }
+
 
 _G.pg.base.gametip.chat_level_not_enough = {
 	tip = "지휘관 Lv.$1 도달 시 발언할 수 있게 됩니다."
 }
 
+
 _G.pg.base.gametip.chat_msg_inform = {
 	tip = "운영 측에 신고했습니다."
 }
+
 
 _G.pg.base.gametip.chat_msg_ban = {
 	tip = "부적절한 발언으로 인해 이용이 제한되어 있습니다.\n\n제한 해제：$1"
 }
 
+
 _G.pg.base.gametip.month_card_set_ratio_success = {
 	tip = "최대 자원량 비율을 변경했습니다."
 }
+
 
 _G.pg.base.gametip.month_card_set_ratio_not_change = {
 	tip = "이미 해당 비율로 수정되었습니다."
 }
 
+
 _G.pg.base.gametip.charge_ship_bag_max = {
 	tip = "현재로선 더 이상 확장할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.charge_equip_bag_max = {
 	tip = "현재로선 더 이상 확장할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.login_wait_tip = {
 	tip = "동시 접속자 수가 너무 많습니다. 잠시만 기다려주세요.\n(접속 대기：$1명)"
 }
+
 
 _G.pg.base.gametip.ship_equip_exchange_tip = {
 	tip = "<color=#92fc63>$1</color>에게 장착되어 있는 <color=#92fc63>$2</color>을(를) <color=#92fc63>$3</color>에게 장착하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.ship_rename_success = {
 	tip = "변경했습니다!"
 }
+
 
 _G.pg.base.gametip.formation_chapter_lock = {
 	tip = "챕터 제 $1 장 클리어 시 제 $2 함대 개방"
 }
 
+
 _G.pg.base.gametip.elite_disable_unsatisfied = {
 	tip = "해당 챕터의 모든 스테이지를 ☆3로 클리어해야 합니다."
 }
+
 
 _G.pg.base.gametip.elite_disable_ship_escort = {
 	tip = "의뢰를 진행 중인 함선이 있습니다!"
 }
 
+
 _G.pg.base.gametip.elite_disable_formation_unsatisfied = {
 	tip = "편성조건을 만족하고 있지 않습니다."
 }
+
 
 _G.pg.base.gametip.elite_disable_no_fleet = {
 	tip = "행동 가능한 함선이 없습니다."
 }
 
+
 _G.pg.base.gametip.elite_disable_property_unsatisfied = {
 	tip = "출격 조건을 만족하고 있지 않습니다."
 }
+
 
 _G.pg.base.gametip.elite_disable_unusable = {
 	tip = "해당 챕터의 어려움 난이도는 아직 개방되지 않았습니다."
 }
 
+
 _G.pg.base.gametip.elite_warp_to_latest_map = {
 	tip = "최신 챕터로 이동했습니다."
 }
+
 
 _G.pg.base.gametip.elite_fleet_confirm = {
 	tip = "$1이(가) 출격 조건을 <color=#ff0000>만족하고 있지 않기</color> 때문에 전투에 참가할 수 없습니다. 정말 출격하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.elite_condition_level = {
 	tip = "평균 레벨"
 }
+
 
 _G.pg.base.gametip.elite_condition_durability = {
 	tip = "내구합계"
 }
 
+
 _G.pg.base.gametip.elite_condition_cannon = {
 	tip = "포격합계"
 }
+
 
 _G.pg.base.gametip.elite_condition_torpedo = {
 	tip = "뇌장합계"
 }
 
+
 _G.pg.base.gametip.elite_condition_antiaircraft = {
 	tip = "대공합계"
 }
+
 
 _G.pg.base.gametip.elite_condition_air = {
 	tip = "항공합계"
 }
 
+
 _G.pg.base.gametip.elite_condition_antisub = {
 	tip = "대잠합계"
 }
+
 
 _G.pg.base.gametip.elite_condition_dodge = {
 	tip = "기동합계"
 }
 
+
 _G.pg.base.gametip.elite_condition_reload = {
 	tip = "장전합계"
 }
+
 
 _G.pg.base.gametip.elite_condition_fleet_totle_level = {
 	tip = "함선 레벨 총합이 $1 이상인 함대 수"
 }
 
+
 _G.pg.base.gametip.common_compare_larger = {
 	tip = ">"
 }
+
 
 _G.pg.base.gametip.common_compare_equal = {
 	tip = "="
 }
 
+
 _G.pg.base.gametip.common_compare_smaller = {
 	tip = "<"
 }
+
 
 _G.pg.base.gametip.common_compare_not_less_than = {
 	tip = "≥"
 }
 
+
 _G.pg.base.gametip.common_compare_not_more_than = {
 	tip = "≤"
 }
+
 
 _G.pg.base.gametip.level_scene_formation_active_already = {
 	tip = "진형이 변경되었습니다."
 }
 
+
 _G.pg.base.gametip.level_scene_not_enough = {
 	tip = "사용 실패：보유 수량 부족"
 }
+
 
 _G.pg.base.gametip.level_scene_full_hp = {
 	tip = "사용 실패：내구가 꽉 차 있습니다."
 }
 
+
 _G.pg.base.gametip.level_click_to_move = {
 	tip = "이동할 위치를 선택해주세요."
 }
+
 
 _G.pg.base.gametip.common_hardmode = {
 	tip = "어려움"
 }
 
+
 _G.pg.base.gametip.common_elite_no_quota = {
 	tip = "오늘은 더 이상 출격할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.common_food = {
 	tip = "보충 양 "
 }
 
+
 _G.pg.base.gametip.common_no_limit = {
 	tip = "∞"
 }
+
 
 _G.pg.base.gametip.common_proficiency = {
 	tip = "보정"
 }
 
+
 _G.pg.base.gametip.backyard_food_remind = {
 	tip = "<color=yellow>$1</color>을(를) 사용할 경우\n식량 창고의 최대치까지만 보충됩니다.\n정말 사용하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.backyard_food_count = {
 	tip = "식량 창고 최대치：$1"
 }
 
+
 _G.pg.base.gametip.sham_ship_level_limit = {
 	tip = "출격할 함선의 레벨은 $1 이상이어야 합니다."
 }
+
 
 _G.pg.base.gametip.sham_count_limit = {
 	tip = "임무를 완수했습니다."
 }
 
+
 _G.pg.base.gametip.sham_count_reset = {
 	tip = "임무를 완수했습니다. 초기화하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.sham_team_limit = {
 	tip = "선봉함대와 주력함대에는 각각 1척 이상의 함선을 배치해야 합니다."
 }
 
+
 _G.pg.base.gametip.sham_formation_invalid = {
 	tip = "대열을 유지할 수 없습니다! 편성을 진행해주세요."
 }
+
 
 _G.pg.base.gametip.sham_my_assist_ship_level_limit = {
 	tip = "지원함선의 레벨은 $1 이상이어야 합니다."
 }
 
+
 _G.pg.base.gametip.sham_reset_confirm = {
 	tip = "아직 임무를 완수하지 못했습니다. 정말 초기화하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.sham_battle_help_tip = {
 	tip = {
@@ -7477,153 +9034,191 @@ _G.pg.base.gametip.sham_battle_help_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.sham_reset_err_limit = {
 	tip = "오늘은 더 이상 초기화할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.sham_ship_equip_forbid_1 = {
 	tip = "함대 필요 함선 수가 부족합니다. 이대로 출격할 경우, 출격 팀의 함선 및 장비를 변경할 수 없습니다. 진행하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.sham_ship_equip_forbid_2 = {
 	tip = "이대로 출격할 경우, 출격 팀의 함선 및 장비를 변경할 수 없습니다. 진행하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.sham_enter_error_friend_ship_expired = {
 	tip = "친구의 지원함선이 변경되었습니다. 다시 선택해주세요."
 }
 
+
 _G.pg.base.gametip.sham_can_not_change_ship = {
 	tip = "「거울해역」 출격 중에는 지원함선을 변경할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.sham_friend_ship_tip = {
 	tip = "친구 지원이 선택되어 있지 않습니다. 출격한 이후에는 친구 지원을 수정할 수 없습니다. 진행하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.inform_sueecss = {
 	tip = "성공적으로 신고했습니다"
 }
+
 
 _G.pg.base.gametip.inform_failed = {
 	tip = "신고에 실패했습니다."
 }
 
+
 _G.pg.base.gametip.inform_player = {
 	tip = "유저명：$1　을(를) 신고합니다."
 }
+
 
 _G.pg.base.gametip.inform_select_type = {
 	tip = "신고할 내용을 입력해주세요."
 }
 
+
 _G.pg.base.gametip.inform_chat_msg = {
 	tip = "메시지를 입력해주세요."
 }
+
 
 _G.pg.base.gametip.inform_sueecss_tip = {
 	tip = "신고했습니다."
 }
 
+
 _G.pg.base.gametip.ship_remould_max_level = {
 	tip = "더 이상 개조할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.ship_remould_material_ship_no_enough = {
 	tip = "재료가 부족합니다."
 }
 
+
 _G.pg.base.gametip.ship_remould_material_ship_on_exist = {
 	tip = "재료가 없습니다."
 }
+
 
 _G.pg.base.gametip.ship_remould_material_unlock_skill = {
 	tip = "스킬 습득：<color=#92fc63>$1</color>"
 }
 
+
 _G.pg.base.gametip.ship_remould_prev_lock = {
 	tip = "개조 불가능"
 }
+
 
 _G.pg.base.gametip.ship_remould_need_level = {
 	tip = "Lv.$1 필요"
 }
 
+
 _G.pg.base.gametip.ship_remould_need_star = {
 	tip = "☆x$1 필요"
 }
+
 
 _G.pg.base.gametip.ship_remould_finished = {
 	tip = "개조완료"
 }
 
+
 _G.pg.base.gametip.ship_remould_no_item = {
 	tip = "아이템이 부족합니다!"
 }
+
 
 _G.pg.base.gametip.ship_remould_no_gold = {
 	tip = "물자가 부족합니다."
 }
 
+
 _G.pg.base.gametip.ship_remould_no_material = {
 	tip = "재료가 부족합니다."
 }
+
 
 _G.pg.base.gametip.ship_remould_selecte_exceed = {
 	tip = "1척 이상 선택되어 있습니다."
 }
 
+
 _G.pg.base.gametip.ship_remould_sueecss = {
 	tip = "개조에 성공했습니다."
 }
+
 
 _G.pg.base.gametip.ship_remould_warning_102174 = {
 	tip = "이번 개조 과정에는 <color=#92fc63>빛나는 마이크</color>\n가 소모됩니다. 계속 진행 하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.ship_remould_warning_102284 = {
 	tip = "이번 개조 후 <color=#92fc63>[레이더 탐지]</color>스킬이\n<color=#92fc63>[레이더 탐지·改]</color>로 업그레이드 됩니다. "
 }
+
 
 _G.pg.base.gametip.ship_remould_warning_102304 = {
 	tip = "이번 개조 후<color=#92fc63>【주포 발사 수 +1】</color>\n<color=#92fc63>【전쟁의 비극】</color> 스킬 <color=#92fc63>【전쟁의 비극·改】</color>로 강화.\n<color=#92fc63>【전탄 발사II】</color> 스킬 <color=#92fc63>【전탄 발사III】</color>로 강화."
 }
 
+
 _G.pg.base.gametip.ship_remould_warning_105234 = {
 	tip = "개조(근대화 개수) 종료 후, 스킬 <color=#92fc63>[BIG SEVEN]</color>이\n<color=#92fc63>[BIG SEVEN·웨스트버지니아]</color>로 강화됨"
 }
+
 
 _G.pg.base.gametip.ship_remould_warning_107984 = {
 	tip = "이번 개조 후 <color=#92fc63>【모든 전투기 +1】, 【모든 뇌격기 +1】</color>\n계속하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.ship_remould_warning_201514 = {
 	tip = "개조 후 <color=#92fc63>[어뢰 발사 수-1]</color> <color=#92fc63>[대공포 발사 수+1]</color>\n 효과가 적용됩니다. 계속 하시겠습니까? "
 }
+
 
 _G.pg.base.gametip.ship_remould_warning_203114 = {
 	tip = "이번 개조 조작으로<color=#92fc63>[어뢰] 슬롯</color>이<color=#92fc63>[보조 무기]슬롯으로 변경됩니다.</color><color=#92fc63>\n<material=underline c=#92fc63 event=clickDetail>상세정보 보기</material></color>\n계속 하시겠습니까? "
 }
 
+
 _G.pg.base.gametip.ship_remould_warning_203124 = {
 	tip = "이번 개조 조작으로<color=#92fc63>[어뢰] 슬롯</color>이<color=#92fc63>[보조 무기]슬롯으로 변경됩니다.</color><color=#92fc63>\n<material=underline c=#92fc63 event=clickDetail>상세정보 보기</material></color>\n계속 하시겠습니까? "
 }
+
 
 _G.pg.base.gametip.ship_remould_warning_205124 = {
 	tip = "근대화 개수는 <color=#92fc63>전사의 마음가짐</color>을 소비합니다.\n진행하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.ship_remould_warning_205154 = {
 	tip = "이번 개조 작업 후, <color=#92fc63>[BIG SEVEN]</color> 스킬은\n<color=#92fc63>[BIG SEVEN·넬슨]</color>으로 업그레이드됩니다."
 }
+
 
 _G.pg.base.gametip.ship_remould_warning_206134 = {
 	tip = "이번 개조 후 <color=#92fc63>【모든 전투기+1】</color>\n<color=#92fc63>【지원 항모】</color> 스킬이\n<color=#92fc63>【유니콘의 응원】</color>으로 업그레이드 됩니다. 계속하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.ship_remould_warning_301534 = {
 	tip = "이번 개조 후 <color=#92fc63>[노을의 굴레]</color> 스킬이\n<color=#92fc63>[노을의 굴레·改]</color>로 업그레이드됩니다."
 }
+
 
 _G.pg.base.gametip.ship_remould_warning_301874 = {
 	tip = [[
@@ -7634,6 +9229,7 @@ _G.pg.base.gametip.ship_remould_warning_301874 = {
 스킬 <color=#92fc63>[특수 탄막-{namecode:16}II]</color>가 <color=#92fc63>[특수 탄막-{namecode:16}III]</color>으로 업그레이드됩니다.]]
 }
 
+
 _G.pg.base.gametip.ship_remould_warning_310014 = {
 	tip = [[
 <size=26>개조를 통해 <color=#92fc63>$1</color>의 함종이 변경됩니다. 
@@ -7641,6 +9237,7 @@ _G.pg.base.gametip.ship_remould_warning_310014 = {
 부무장 슬롯에 장착되어 있는 장비가 해제됩니다.
 진행하시겠습니까? <color=#92fc63><material=underline c=#92fc63 event=clickDetail>상세확인</material></color></size>]]
 }
+
 
 _G.pg.base.gametip.ship_remould_warning_310024 = {
 	tip = [[
@@ -7650,6 +9247,7 @@ _G.pg.base.gametip.ship_remould_warning_310024 = {
 진행하시겠습니까? <color=#92fc63><material=underline c=#92fc63 event=clickDetail>상세확인</material></color></size>]]
 }
 
+
 _G.pg.base.gametip.ship_remould_warning_310034 = {
 	tip = [[
 <size=26>개조를 통해 <color=#92fc63>$1</color>의 함종이 변경됩니다. 
@@ -7657,6 +9255,7 @@ _G.pg.base.gametip.ship_remould_warning_310034 = {
 부무장 슬롯에 장착되어 있는 장비가 해제됩니다.
 진행하시겠습니까? <color=#92fc63><material=underline c=#92fc63 event=clickDetail>상세확인</material></color></size>]]
 }
+
 
 _G.pg.base.gametip.ship_remould_warning_310044 = {
 	tip = [[
@@ -7666,6 +9265,7 @@ _G.pg.base.gametip.ship_remould_warning_310044 = {
 진행하시겠습니까? <color=#92fc63><material=underline c=#92fc63 event=clickDetail>상세확인</material></color></size>]]
 }
 
+
 _G.pg.base.gametip.ship_remould_warning_303154 = {
 	tip = [[
 <size=35>개조로 <color=#92fc63>$1</color>의 함종이 변경됩니다. 
@@ -7674,9 +9274,11 @@ _G.pg.base.gametip.ship_remould_warning_303154 = {
 개조를 계속하시겠습니까? <color=#92fc63><material=underline c=#A9F548 event=clickDetail>상세 내용 확인</material></color></size>]]
 }
 
+
 _G.pg.base.gametip.ship_remould_warning_402134 = {
 	tip = "개조를 완료하면 첫 [장비] 칸에 장착가능한 장비 <color=#92fc63>[헬리콥터]</color>가 추가됩니다.\n 계속하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.ship_remould_warning_702124 = {
 	tip = [[
@@ -7688,6 +9290,7 @@ _G.pg.base.gametip.ship_remould_warning_702124 = {
 계속 진행하시겠습니까?]]
 }
 
+
 _G.pg.base.gametip.ship_remould_warning_520014 = {
 	tip = [[
 이번 개조 후 함선 유형 변화:
@@ -7695,6 +9298,7 @@ _G.pg.base.gametip.ship_remould_warning_520014 = {
 함선 스탯 및 특성 일부 조정
 계속하시겠습니까?]]
 }
+
 
 _G.pg.base.gametip.ship_remould_warning_521014 = {
 	tip = [[
@@ -7704,6 +9308,7 @@ _G.pg.base.gametip.ship_remould_warning_521014 = {
 계속하시겠습니까?]]
 }
 
+
 _G.pg.base.gametip.ship_remould_warning_520034 = {
 	tip = [[
 이번 개조 후 함선 유형 변화:
@@ -7711,6 +9316,7 @@ _G.pg.base.gametip.ship_remould_warning_520034 = {
 함선 스탯 및 특성 일부 조정
 계속하시겠습니까?]]
 }
+
 
 _G.pg.base.gametip.ship_remould_warning_521034 = {
 	tip = [[
@@ -7720,6 +9326,7 @@ _G.pg.base.gametip.ship_remould_warning_521034 = {
 계속하시겠습니까?]]
 }
 
+
 _G.pg.base.gametip.ship_remould_warning_520044 = {
 	tip = [[
 이번 개조 후 함선 유형 변화:
@@ -7727,6 +9334,7 @@ _G.pg.base.gametip.ship_remould_warning_520044 = {
 함선 스탯 및 특성 일부 조정
 계속하시겠습니까?]]
 }
+
 
 _G.pg.base.gametip.ship_remould_warning_521044 = {
 	tip = [[
@@ -7736,241 +9344,301 @@ _G.pg.base.gametip.ship_remould_warning_521044 = {
 계속하시겠습니까?]]
 }
 
+
 _G.pg.base.gametip.ship_remould_warning_502114 = {
 	tip = "이번 개조 후 <color=#92fc63>[이스트 글림의 연]</color> 스킬이\n<color=#92fc63>[이스트 글림의 연·改]</color>로 업그레이드 됩니다."
 }
+
 
 _G.pg.base.gametip.ship_remould_warning_506114 = {
 	tip = "이번 개조 작업으로 <color=#92fc63>[제1무기 슬롯 전투기 장착 가능] [제1 무기 슬롯 함재기 수+2]</color>, <color=#92fc63>[제2 무기 슬롯에 모든 유형의 함재기 장착 가능] [제2 무기 슬롯 함재기 및 받침대 수+1]</color>로 업그레이됩니다.\n계속 진행하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.word_soundfiles_download_title = {
 	tip = "보이스 갱신"
 }
+
 
 _G.pg.base.gametip.word_soundfiles_download = {
 	tip = "다운로드"
 }
 
+
 _G.pg.base.gametip.word_soundfiles_checking_title = {
 	tip = "체크 중..."
 }
+
 
 _G.pg.base.gametip.word_soundfiles_checking = {
 	tip = "체크 중..."
 }
 
+
 _G.pg.base.gametip.word_soundfiles_checkend_title = {
 	tip = "갱신 체크 완료"
 }
+
 
 _G.pg.base.gametip.word_soundfiles_checkend = {
 	tip = "갱신"
 }
 
+
 _G.pg.base.gametip.word_soundfiles_noneedupdate = {
 	tip = "갱신 완료"
 }
+
 
 _G.pg.base.gametip.word_soundfiles_checkfailed = {
 	tip = "갱신 체크 실패"
 }
 
+
 _G.pg.base.gametip.word_soundfiles_retry = {
 	tip = "재시도"
 }
+
 
 _G.pg.base.gametip.word_soundfiles_update = {
 	tip = "갱신 중..."
 }
 
+
 _G.pg.base.gametip.word_soundfiles_update_end_title = {
 	tip = "보이스 갱신 완료"
 }
+
 
 _G.pg.base.gametip.word_soundfiles_update_end = {
 	tip = "갱신 완료"
 }
 
+
 _G.pg.base.gametip.word_soundfiles_update_failed = {
 	tip = "보이스 갱신 실패"
 }
+
 
 _G.pg.base.gametip.word_soundfiles_update_retry = {
 	tip = "재시도"
 }
 
+
 _G.pg.base.gametip.word_live2dfiles_download_title = {
 	tip = "Live 2D 캐릭터 패키지 다운로드"
 }
+
 
 _G.pg.base.gametip.word_live2dfiles_download = {
 	tip = "다운로드 시작"
 }
 
+
 _G.pg.base.gametip.word_live2dfiles_checking_title = {
 	tip = "확인 중…"
 }
+
 
 _G.pg.base.gametip.word_live2dfiles_checking = {
 	tip = "확인 중"
 }
 
+
 _G.pg.base.gametip.word_live2dfiles_checkend_title = {
 	tip = "Live 2D 캐릭터 패키지 확인 완료"
 }
+
 
 _G.pg.base.gametip.word_live2dfiles_checkend = {
 	tip = "갱신"
 }
 
+
 _G.pg.base.gametip.word_live2dfiles_noneedupdate = {
 	tip = "갱신 완료"
 }
+
 
 _G.pg.base.gametip.word_live2dfiles_checkfailed = {
 	tip = "Live 2D 캐릭터 패키지 확인 실패"
 }
 
+
 _G.pg.base.gametip.word_live2dfiles_retry = {
 	tip = "재시도"
 }
+
 
 _G.pg.base.gametip.word_live2dfiles_update = {
 	tip = "갱신 중…"
 }
 
+
 _G.pg.base.gametip.word_live2dfiles_update_end_title = {
 	tip = "Live 2D 캐릭터 패키지 갱신 완료"
 }
+
 
 _G.pg.base.gametip.word_live2dfiles_update_end = {
 	tip = "갱신 완료"
 }
 
+
 _G.pg.base.gametip.word_live2dfiles_update_failed = {
 	tip = "Live 2D 캐릭터 패키지 갱신 실패"
 }
+
 
 _G.pg.base.gametip.word_live2dfiles_update_retry = {
 	tip = "재시도"
 }
 
+
 _G.pg.base.gametip.word_live2dfiles_main_update_tip = {
 	tip = "현재 사용 중인 Live 2D 리소스는 갱신가 필요합니다, 갱신 하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.achieve_propose_tip = {
 	tip = "「$1」스킨 개방!"
 }
 
+
 _G.pg.base.gametip.mingshi_get_tip = {
 	tip = "「신기한 재료」를 발견했습니다!"
 }
+
 
 _G.pg.base.gametip.mingshi_task_tip_1 = {
 	tip = "발견한 거냥?\n암호는...... <<color=#92fc63>T</color>>\n다음 목표는... <<color=#92fc63>재료를 보관하는 곳</color>>이다냥!"
 }
 
+
 _G.pg.base.gametip.mingshi_task_tip_2 = {
 	tip = "발견한 거냥?\n암호는...... <<color=#92fc63>O</color>>\n다음 목표는... <<color=#92fc63>전투 기술을 갈고 닦는 곳</color>>이다냥!"
 }
+
 
 _G.pg.base.gametip.mingshi_task_tip_3 = {
 	tip = "발견한 거냥?\n암호는...... <<color=#92fc63>U</color>>\n다음 목표는... <<color=#92fc63>아이템을 파는 곳</color>>이다냥!"
 }
 
+
 _G.pg.base.gametip.mingshi_task_tip_4 = {
 	tip = "발견한 거냥?\n암호는...... <<color=#92fc63>C</color>>\n다음 목표는... <<color=#92fc63>임무를 받는 곳</color>>이다냥!"
 }
+
 
 _G.pg.base.gametip.mingshi_task_tip_5 = {
 	tip = "발견한 거냥?\n암호는...... <<color=#92fc63>H</color>>\n다음 목표는... <<color=#92fc63>진형을 편성하는 곳</color>>이다냥!"
 }
 
+
 _G.pg.base.gametip.mingshi_task_tip_6 = {
 	tip = "발견한 거냥?\n암호는...... <<color=#92fc63>A</color>>\n다음 목표는... <<color=#92fc63>휴식하는 곳</color>>이다냥!"
 }
+
 
 _G.pg.base.gametip.mingshi_task_tip_7 = {
 	tip = "발견한 거냥?\n암호는...... <<color=#92fc63>K</color>>\n다음 목표는... <<color=#92fc63>수집을 확인하는 곳</color>>이다냥!"
 }
 
+
 _G.pg.base.gametip.mingshi_task_tip_8 = {
 	tip = "발견한 거냥?\n암호는...... <<color=#92fc63>A</color>>\n다음 목표는... <<color=#92fc63>의뢰를 배치하는 곳</color>>이다냥!"
 }
+
 
 _G.pg.base.gametip.mingshi_task_tip_9 = {
 	tip = "발견한 거냥?\n암호는...... <<color=#92fc63>S</color>>\n다음 목표는... <<color=#92fc63>결전을 하는 곳</color>>이다냥!"
 }
 
+
 _G.pg.base.gametip.mingshi_task_tip_10 = {
 	tip = "발견한 거냥?\n암호는...... <<color=#92fc63>H</color>>\n마지막 목표는... <<color=#92fc63>마음이 모이는 곳</color>>이다냥!"
 }
+
 
 _G.pg.base.gametip.mingshi_task_tip_11 = {
 	tip = "발견한 거냥?\n암호는...... <<color=#92fc63>I30</color>>\n처음 목표는... <<color=#92fc63>정박하는 곳</color>>이다냥!"
 }
 
+
 _G.pg.base.gametip.word_propose_changename_title = {
 	tip = "<color=#92fc63>$1</color>은(는) 당신의 전속 함선이 되었습니다.\n<color=#92fc63>$1</color>의 이름을 변경하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.word_propose_changename_tip1 = {
 	tip = "변경된 함선 이름으로 표시하시겠습니까? (설정화면에서 선택 가능)"
 }
 
+
 _G.pg.base.gametip.word_propose_changename_tip2 = {
 	tip = "*이름 변경은 30일마다 1번 가능합니다."
 }
+
 
 _G.pg.base.gametip.word_propose_ring_tip = {
 	tip = "미래를 함께할 전속 함선에게, 서약의 반지를──"
 }
 
+
 _G.pg.base.gametip.word_rename_time_tip = {
 	tip = "앞으로 $1일 동안 이름을 변경할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.word_rename_switch_tip = {
 	tip = "이름 변경 표시가 OFF 로 되어 있습니다. 설정 → 알림 에서 변경할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.word_ssr = {
 	tip = "SSR"
 }
+
 
 _G.pg.base.gametip.word_sr = {
 	tip = "SR"
 }
 
+
 _G.pg.base.gametip.word_r = {
 	tip = "R"
 }
+
 
 _G.pg.base.gametip.ship_renameShip_error = {
 	tip = "이름 변경에 실패했습니다."
 }
 
+
 _G.pg.base.gametip.ship_renameShip_error_4 = {
 	tip = "아직 변경할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.ship_renameShip_error_2011 = {
 	tip = "이름이 너무 깁니다."
 }
 
+
 _G.pg.base.gametip.ship_proposeShip_error = {
 	tip = "서약 도중 에러가 발생했습니다."
 }
+
 
 _G.pg.base.gametip.ship_proposeShip_error_1 = {
 	tip = "무효한 조작입니다."
 }
 
+
 _G.pg.base.gametip.word_rename_time_warning = {
 	tip = "이름을 변경하면, 30일 동안 이름을 변경할 수 없습니다. <color=#92fc63>$1</color>의 이름을 <color=#92fc63>$2</color>로 변경하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.word_propose_cost_tip = {
 	tip = [[
@@ -7980,213 +9648,266 @@ _G.pg.base.gametip.word_propose_cost_tip = {
 <size=32>*서약 후 캐릭터는 자동으로 잠금 상태가 됩니다</size>.]]
 }
 
+
 _G.pg.base.gametip.word_propose_switch_tip = {
 	tip = "변경 성공"
 }
+
 
 _G.pg.base.gametip.evaluate_too_loog = {
 	tip = "코멘트가 너무 깁니다."
 }
 
+
 _G.pg.base.gametip.evaluate_ban_word = {
 	tip = "금칙어가 포함되어 있습니다."
 }
+
 
 _G.pg.base.gametip.activity_level_easy_tip = {
 	tip = "주의：통상 난이도를 선택할 경우 <color=#92fc63>통상 난이도를 전부 클리어해야</color> 어려움 난이도를 선택할 수 있게 됩니다."
 }
 
+
 _G.pg.base.gametip.activity_level_difficulty_tip = {
 	tip = "주의：어려움 난이도를 선택할 경우 <color=#92fc63>통상 난이도의 공략 진행도가 초기화됩니다.</color>"
 }
+
 
 _G.pg.base.gametip.activity_level_limit_tip = {
 	tip = "주의：<color=#92fc63>지휘관 Lv.50 이상 혹은 통상 난이도를 전부 클리어하지 않으면</color> 어려움 난이도를 선택할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.activity_level_inwarime_tip = {
 	tip = "이벤트 스테이지 <color=#92fc63>$1</color> 공략 중. 난이도를 변경하기 위해서는 우선 출격 중인 함대를 퇴각해주세요."
 }
+
 
 _G.pg.base.gametip.activity_level_pass_easy_tip = {
 	tip = "주의：통상 난이도를 선택할 경우 <color=#92fc63>통상 난이도를 전부 클리어해야</color> 어려움 난이도를 선택할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.activity_level_is_closed = {
 	tip = "该活动关卡已关闭"
 }
+
 
 _G.pg.base.gametip.activity_switch_tip = {
 	tip = "주의：통상 난이도를 선택할 경우 <color=#92fc63>어려움 난이도의 공략 진행도가 초기화됩니다.</color> (통상 난이도를 전부 클리어하지 않으면 어려움 난이도를 선택할 수 없습니다.) 정말 난이도를 변경하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.reduce_sp3_pass_count = {
 	tip = "SP3 누적 클리어 횟수 :"
 }
+
 
 _G.pg.base.gametip.qiuqiu_count = {
 	tip = "목표 기여치："
 }
 
+
 _G.pg.base.gametip.qiuqiu_total_count = {
 	tip = "누적 쥬쥬 갯수："
 }
+
 
 _G.pg.base.gametip.npcfriendly_count = {
 	tip = "목표 호감도："
 }
 
+
 _G.pg.base.gametip.npcfriendly_total_count = {
 	tip = "현재 호감도："
 }
+
 
 _G.pg.base.gametip.longxiang_count = {
 	tip = "목표 류조 부적："
 }
 
+
 _G.pg.base.gametip.longxiang_total_count = {
 	tip = "현재 류조 부적："
 }
+
 
 _G.pg.base.gametip.pt_count = {
 	tip = "$1："
 }
 
+
 _G.pg.base.gametip.pt_total_count = {
 	tip = "소지 $1"
 }
+
 
 _G.pg.base.gametip.remould_ship_ok = {
 	tip = "개조 성공"
 }
 
+
 _G.pg.base.gametip.remould_ship_count_more = {
 	tip = "1척 이상 선택되어 있습니다."
 }
+
 
 _G.pg.base.gametip.word_should_input = {
 	tip = "키워드를 입력해주세요."
 }
 
+
 _G.pg.base.gametip.simulation_advantage_counting = {
 	tip = "$1초 후 특수전술을 발동합니다."
 }
+
 
 _G.pg.base.gametip.simulation_disadvantage_counting = {
 	tip = "$1초 후 특수전술을 발동합니다."
 }
 
+
 _G.pg.base.gametip.simulation_enhancing = {
 	tip = "상대방이 특수전술을 발동했습니다. 장전 강화와 화력 강화 효과를 받고 있습니다."
 }
+
 
 _G.pg.base.gametip.simulation_enhanced = {
 	tip = "상대방이 특수전술을 발동했습니다."
 }
 
+
 _G.pg.base.gametip.word_skill_desc_get = {
 	tip = "(MAX $1)"
 }
+
 
 _G.pg.base.gametip.word_skill_desc_learn = {
 	tip = "($1)"
 }
 
+
 _G.pg.base.gametip.chapter_tip_aovid_succeed = {
 	tip = "회피 성공"
 }
+
 
 _G.pg.base.gametip.chapter_tip_aovid_failed = {
 	tip = "회피 실패"
 }
 
+
 _G.pg.base.gametip.chapter_tip_change = {
 	tip = "진형 변경：$1"
 }
+
 
 _G.pg.base.gametip.chapter_tip_use = {
 	tip = "지령 발동：$1"
 }
 
+
 _G.pg.base.gametip.chapter_tip_with_npc = {
 	tip = "<color=#ff5c5c>이벤트 스테이지</color>에 출격합니다.\n첫 번째 출격함대의 선봉에 <color=#ff5c5c>NPC $1</color>이(가) 일시 참가하므로\n선봉함대의 편성 슬롯을 1칸 비워주세요."
 }
+
 
 _G.pg.base.gametip.chapter_tip_bp_ammo = {
 	tip = "평소에 준비를 잘 해둔 덕분에, 전원의 탄약량+2"
 }
 
+
 _G.pg.base.gametip.build_ship_tip = {
 	tip = "$2을(를) <color=#ff5c5c>$1척</color> 건조하기 위해 다음의 아이템이 사용됩니다.\n<color=$5>$3 물자</color>와 <color=$5>성정큐브 $4개</color>"
 }
+
 
 _G.pg.base.gametip.auto_battle_limit_tip = {
 	tip = "자율전투는 1-3 클리어 시 개방됩니다."
 }
 
+
 _G.pg.base.gametip.build_ship_quickly_buy_stone = {
 	tip = "<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>개의 다이아를 사용하여, $4<color=#92fc63>$2</color>개 구입하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.build_ship_quickly_buy_tool = {
 	tip = "<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>개의 다이아를 사용하여, 고속건조재를<color=#92fc63>$2</color>개 구입하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.ship_profile_voice_locked = {
 	tip = "개방 조건을 만족하고 있지 않습니다."
 }
+
 
 _G.pg.base.gametip.ship_profile_skin_locked = {
 	tip = "이 스킨은 아직 개방되지 않았습니다."
 }
 
+
 _G.pg.base.gametip.ship_profile_words = {
 	tip = "대사 감상"
 }
+
 
 _G.pg.base.gametip.ship_profile_action_words = {
 	tip = "표정 변화 대사 감상"
 }
 
+
 _G.pg.base.gametip.ship_profile_label_common = {
 	tip = "일반"
 }
+
 
 _G.pg.base.gametip.ship_profile_label_diff = {
 	tip = "스킨"
 }
 
+
 _G.pg.base.gametip.level_fleet_lease_one_ship = {
 	tip = "출격 함대는 한 개 함대 이상 필요합니다."
 }
+
 
 _G.pg.base.gametip.level_fleet_not_enough = {
 	tip = "해당 함대는 출격 조건을 만족하고 있지 않습니다."
 }
 
+
 _G.pg.base.gametip.level_fleet_outof_limit = {
 	tip = "더 이상 함대를 출격시킬 수 없습니다."
 }
+
 
 _G.pg.base.gametip.vote_success = {
 	tip = "투표 성공!"
 }
 
+
 _G.pg.base.gametip.vote_not_enough = {
 	tip = "표가 부족합니다."
 }
+
 
 _G.pg.base.gametip.vote_love_not_enough = {
 	tip = "특별표가 부족합니다."
 }
 
+
 _G.pg.base.gametip.vote_love_limit = {
 	tip = "특별표 투표는 일반투표 이후에 진행됩니다."
 }
 
+
 _G.pg.base.gametip.vote_love_confirm = {
 	tip = "특별표를 1장 투표하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.vote_primary_rule = {
 	tip = [[
@@ -8205,237 +9926,296 @@ _G.pg.base.gametip.vote_primary_rule = {
 ※ 득표 수가 동일한 경우, "마지막에 투표된 캐릭터"가 상위에 랭크됩니다.</size> ]]
 }
 
+
 _G.pg.base.gametip.vote_final_title1 = {
 	tip = "본선에 대해서"
 }
+
 
 _G.pg.base.gametip.vote_final_rule1 = {
 	tip = "본선에 참가한 12척의 함선은 10일 동안의 투표를 거쳐 최종 랭킹을 결정짓습니다. 예선에서의 투표 수는 반영되지 않습니다.\n※본선 랭킹 상위 함선은 새로운 스킨을 받게될 가능성이 있습니다."
 }
 
+
 _G.pg.base.gametip.vote_final_title2 = {
 	tip = "보상에 대해서"
 }
+
 
 _G.pg.base.gametip.vote_final_rule2 = {
 	tip = "본선 랭킹 상위 함선은 새로운 스킨을 받게될 가능성이 있습니다."
 }
 
+
 _G.pg.base.gametip.vote_vote_time = {
 	tip = "투표 기간：$1 - $2"
 }
+
 
 _G.pg.base.gametip.vote_vote_count = {
 	tip = "$1 표"
 }
 
+
 _G.pg.base.gametip.vote_vote_group = {
 	tip = "$1 그룹"
 }
+
 
 _G.pg.base.gametip.vote_rank_refresh_time = {
 	tip = "※30분마다 갱신됩니다."
 }
 
+
 _G.pg.base.gametip.vote_rank_in_current_server = {
 	tip = "※현재 서버에서의 순위입니다."
 }
+
 
 _G.pg.base.gametip.words_auto_battle_label = {
 	tip = "자율 전투 종료 시 진동 알림 "
 }
 
+
 _G.pg.base.gametip.words_show_ship_name_label = {
 	tip = "함선명을 반영"
 }
+
 
 _G.pg.base.gametip.words_rare_ship_vibrate = {
 	tip = "캐릭터 획득 시 진동"
 }
 
+
 _G.pg.base.gametip.words_display_ship_get_effect = {
 	tip = "중복 캐릭터 획득 안내"
 }
+
 
 _G.pg.base.gametip.words_show_touch_effect = {
 	tip = "화면 터치 특수효과 표시"
 }
 
+
 _G.pg.base.gametip.words_bg_fit_mode = {
 	tip = "화면 최적화 "
 }
+
 
 _G.pg.base.gametip.words_battle_hide_bg = {
 	tip = "전투 중 배경 일부분 기본 숨김"
 }
 
+
 _G.pg.base.gametip.words_battle_expose_line = {
 	tip = "전투 내 항공모함 정찰 라인 표시"
 }
+
 
 _G.pg.base.gametip.words_autoFight_battery_savemode = {
 	tip = "자율 색적 절전 모드"
 }
 
+
 _G.pg.base.gametip.words_autoFight_battery_savemode_des = {
 	tip = "설정 후, 자율 색적 시작 20초 후 화면 밝기가 낮게 조절되어, 배터리 소모를 절약합니다."
 }
+
 
 _G.pg.base.gametip.words_autoFIght_down_frame = {
 	tip = "절전 모드 프레임 감소"
 }
 
+
 _G.pg.base.gametip.words_autoFIght_down_frame_des = {
 	tip = "설정 후, 자율 색적 절전 모드 중 프레임이 낮아지며 배터리 소모를 절약합니다."
 }
+
 
 _G.pg.base.gametip.words_autoFight_tips = {
 	tip = "우선 자율 색적 절전 모드를 설정해주세요."
 }
 
+
 _G.pg.base.gametip.words_autoFight_right = {
 	tip = "절전 모드 설정을 위해, 일부 시스템 설정에 대한 수정 권한이 필요합니다."
 }
+
 
 _G.pg.base.gametip.activity_puzzle_get1 = {
 	tip = "획득 방식：퍼즐 임무 7"
 }
 
+
 _G.pg.base.gametip.activity_puzzle_get2 = {
 	tip = "획득 방식：통상 난이도 2-1"
 }
+
 
 _G.pg.base.gametip.activity_puzzle_get3 = {
 	tip = "획득 방식：통상 난이도 2-3"
 }
 
+
 _G.pg.base.gametip.activity_puzzle_get4 = {
 	tip = "획득 방식：통상 난이도 3-1"
 }
+
 
 _G.pg.base.gametip.activity_puzzle_get5 = {
 	tip = "획득 방식：통상 난이도 3-3"
 }
 
+
 _G.pg.base.gametip.activity_puzzle_get6 = {
 	tip = "획득 방식：통상 난이도 3-4"
 }
+
 
 _G.pg.base.gametip.activity_puzzle_get7 = {
 	tip = "획득 방식：통상 난이도 2-2"
 }
 
+
 _G.pg.base.gametip.activity_puzzle_get8 = {
 	tip = "획득 방식：통상 난이도 2-4"
 }
+
 
 _G.pg.base.gametip.activity_puzzle_get9 = {
 	tip = "획득 방식：통상 난이도 3-2"
 }
 
+
 _G.pg.base.gametip.activity_puzzle_get10 = {
 	tip = "획득 방식：퍼즐 임무 1"
 }
+
 
 _G.pg.base.gametip.activity_puzzle_get11 = {
 	tip = "획득 방식：퍼즐 임무 2"
 }
 
+
 _G.pg.base.gametip.activity_puzzle_get12 = {
 	tip = "획득 방식：퍼즐 임무 3"
 }
+
 
 _G.pg.base.gametip.activity_puzzle_get13 = {
 	tip = "획득 방식：퍼즐 임무 4"
 }
 
+
 _G.pg.base.gametip.activity_puzzle_get14 = {
 	tip = "획득 방식：퍼즐 임무 5"
 }
+
 
 _G.pg.base.gametip.activity_puzzle_get15 = {
 	tip = "획득 방식：퍼즐 임무 6"
 }
 
+
 _G.pg.base.gametip.word_stopremain_build = {
 	tip = "재접속까지 표시 안함"
 }
+
 
 _G.pg.base.gametip.word_stopremain_default = {
 	tip = "오늘은 그만 보기"
 }
 
+
 _G.pg.base.gametip.transcode_desc = {
 	tip = "※인계 패스워드의 사용기한은 없습니다.\n※사전에 발행해두고, 보관하시는 것을 권장합니다."
 }
+
 
 _G.pg.base.gametip.transcode_empty_tip = {
 	tip = "정확한 인계 패스워드를 입력해주세요."
 }
 
+
 _G.pg.base.gametip.set_birth_title = {
 	tip = "당신의 생일을 설정해주세요."
 }
+
 
 _G.pg.base.gametip.set_birth_confirm_tip = {
 	tip = "생일을 $1 로 설정하시겠습니까?\n<color=#FF0000>※이후 변경할 수 없습니다.</color>"
 }
 
+
 _G.pg.base.gametip.set_birth_empty_tip = {
 	tip = "정확한 생일을 입력해주세요."
 }
+
 
 _G.pg.base.gametip.set_birth_success = {
 	tip = "생일을 설정했습니다."
 }
 
+
 _G.pg.base.gametip.clear_transcode_cache_confirm = {
 	tip = "정말 유저 데이터를 제거하시겠습니까?\n※복원할 수 없는 경우도 있습니다."
 }
+
 
 _G.pg.base.gametip.clear_transcode_cache_success = {
 	tip = "유저 데이터를 제거했습니다."
 }
 
+
 _G.pg.base.gametip.exchange_item_success = {
 	tip = "지원 물품이 도착했습니다!"
 }
+
 
 _G.pg.base.gametip.give_up_cloth_change = {
 	tip = "스킨을 변경하지 않고 이전 화면으로 돌아가시겠습니까?"
 }
 
+
 _G.pg.base.gametip.err_cloth_change_noship = {
 	tip = "$1은(는) 가지고 있지 않습니다."
 }
+
 
 _G.pg.base.gametip.need_break_tip = {
 	tip = "한계돌파 필요"
 }
 
+
 _G.pg.base.gametip.max_level_notice = {
 	tip = "최대 레벨 도달·돌파 후 최대 레벨이 $1로상승"
 }
+
 
 _G.pg.base.gametip.new_skin_no_choose = {
 	tip = "스킨을 변경할 함선을 선택하지 않았습니다. 스킨을 변경하지 않고 이전 화면으로 돌아가시겠습니까?"
 }
 
+
 _G.pg.base.gametip.sure_resume_volume = {
 	tip = "사운드 설정을 초기화하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.course_class_not_ready = {
 	tip = "아직 준비가 되지 않아, 수업을 시작할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.course_student_max_level = {
 	tip = "이미 최대 레벨에 도달한 학생이 있습니다!"
 }
 
+
 _G.pg.base.gametip.course_stop_confirm = {
 	tip = "수업을 종료하시겠습니까?(※경과한 시간만큼 경험치를 획득합니다.)"
 }
+
 
 _G.pg.base.gametip.course_class_help = {
 	tip = {
@@ -8470,245 +10250,306 @@ _G.pg.base.gametip.course_class_help = {
 	}
 }
 
+
 _G.pg.base.gametip.course_class_name = {
 	tip = "오늘의 수업：《$1》"
 }
+
 
 _G.pg.base.gametip.course_proficiency_not_enough = {
 	tip = "숙련도가 부족합니다."
 }
 
+
 _G.pg.base.gametip.course_state_rest = {
 	tip = "준비 중"
 }
+
 
 _G.pg.base.gametip.course_state_lession = {
 	tip = "수업 시간 :"
 }
 
+
 _G.pg.base.gametip.course_energy_not_enough = {
 	tip = "<color=#92fc63>$1</color>의 컨디션이 낮아 수업에 참가할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.course_proficiency_tip = {
 	tip = "한계 돌파를 3회 진행한<material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>$1 레벨</color></material>의 함선소녀가 출격 시, 얻을 수 있는 경험치의<material=outline c=#3D3D3DFF x1y-1><color=#92fc63FF>$2%</color></material> 에 해당하는 숙련도를 획득할 수 있게 됩니다."
 }
 
+
 _G.pg.base.gametip.course_sunday_tip = {
 	tip = "오늘은 수업이 없습니다. (출격 시 입수하는 숙련도가 2배)"
 }
+
 
 _G.pg.base.gametip.course_exit_confirm = {
 	tip = "수업이 아직 시작되지 않았습니다. 대강당에서 나가시겠습니까?"
 }
 
+
 _G.pg.base.gametip.course_learning = {
 	tip = "지금은 수업중"
 }
+
 
 _G.pg.base.gametip.time_remaining_tip = {
 	tip = "남은 시간："
 }
 
+
 _G.pg.base.gametip.propose_intimacy_tip = {
 	tip = "호감도 100(현재 $1)"
 }
+
 
 _G.pg.base.gametip.no_found_record_equipment = {
 	tip = "현재 장착 중이 아닌 $1이(가) 없습니다. 동일한 타입의 다른 장비를 검색하여 장착하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.sec_floor_limit_tip = {
 	tip = "1층 숙소를 최대로 확장 시 개방"
 }
+
 
 _G.pg.base.gametip.guild_shop_flash_success = {
 	tip = "갱신 완료"
 }
 
+
 _G.pg.base.gametip.destroy_high_rarity_tip = {
 	tip = "<color=#92fc63>S Rare 이상</color>"
 }
+
 
 _G.pg.base.gametip.destroy_high_level_tip = {
 	tip = "<color=#92fc63>$1 Lv.1 이상</color>"
 }
 
+
 _G.pg.base.gametip.destroy_eliteequipment_tip = {
 	tip = "$1 장비가 선택되어 있습니다. 계속하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.destroy_high_intensify_tip = {
 	tip = "<color=#92fc63>$1 강화 후</color>"
 }
 
+
 _G.pg.base.gametip.destroy_inHardFormation_tip = {
 	tip = "어려움 편성 중"
 }
+
 
 _G.pg.base.gametip.destroy_equip_rarity_tip = {
 	tip = "<color=#92fc63>$1</color>(을)를 입력하여 확인하세요."
 }
 
+
 _G.pg.base.gametip.ship_quick_change_noequip = {
 	tip = "변경하려는 장비가 존재하지 않습니다."
 }
+
 
 _G.pg.base.gametip.ship_quick_change_nofreeequip = {
 	tip = "변경하려는 장비는 다른 함선에 장착되어 있습니다."
 }
 
+
 _G.pg.base.gametip.word_nowenergy = {
 	tip = "컨디션"
 }
+
 
 _G.pg.base.gametip.word_energy_recov_speed = {
 	tip = "회복 속도"
 }
 
+
 _G.pg.base.gametip.destroy_eliteship_tip = {
 	tip = "선택한 캐릭터 중 $1가 있는 캐릭터: "
 }
+
 
 _G.pg.base.gametip.err_resloveequip_nochoice = {
 	tip = "해체하실 장비를 선택해주세요."
 }
 
+
 _G.pg.base.gametip.take_nothing = {
 	tip = "수령할 수 있는 아이템이 없습니다."
 }
+
 
 _G.pg.base.gametip.take_all_mail = {
 	tip = "<color='#92fc63FF'>모든 우편을 수령</color>하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.buy_furniture_overtime = {
 	tip = "구입 가능한 기간이 지났습니다."
 }
+
 
 _G.pg.base.gametip.twitter_login_tips = {
 	tip = "트위터 연동 시, 현재 로그인되어 있는 계정의 로그인이 해제됩니다. 트위터 연동을 진행하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.data_erro = {
 	tip = "데이터 오류 발생"
 }
+
 
 _G.pg.base.gametip.login_failed = {
 	tip = "로그인 실패"
 }
 
+
 _G.pg.base.gametip["not yet completed"] = {
 	tip = "미완성"
 }
+
 
 _G.pg.base.gametip.escort_less_count_to_combat = {
 	tip = "일일 도전 횟수가 부족하여 진입할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.ten_even_draw = {
 	tip = "$1회 보급"
 }
+
 
 _G.pg.base.gametip.ten_even_draw_confirm = {
 	tip = "$1회 보급을 진행하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.level_risk_level_desc = {
 	tip = "$1\n\n"
 }
+
 
 _G.pg.base.gametip.level_risk_level_mitigation_rate = {
 	tip = "<size=24>현재 해역 위험 등급은 <color=#92fc63>【$1】</color> 입니다.\n출격 함대가 받는 대미지가 <color=#92fc63>$2%</color> 감소합니다.</size>"
 }
 
+
 _G.pg.base.gametip.level_diffcult_chapter_state_safety = {
 	tip = "<size=24>맵 <color=#92fc63>100%</color> 달성 후 출격 함대가 적 기함을 곧바로 공격할 수 있습니다.</size>"
 }
+
 
 _G.pg.base.gametip.level_chapter_state_high_risk = {
 	tip = "<color=#EE2C00>【고위험해역】</color>"
 }
 
+
 _G.pg.base.gametip.level_chapter_state_risk = {
 	tip = "<color=#ffde38>【위험해역】</color>"
 }
+
 
 _G.pg.base.gametip.level_chapter_state_low_risk = {
 	tip = "<color=#c5cfdf>【저위험해역】</color>"
 }
 
+
 _G.pg.base.gametip.level_chapter_state_safety = {
 	tip = "<color=#92fc63>【안전해역】</color>"
 }
+
 
 _G.pg.base.gametip.open_skill_class_success = {
 	tip = "학습란 개방 성공"
 }
 
+
 _G.pg.base.gametip.backyard_sort_tag_default = {
 	tip = "가구ID"
 }
+
 
 _G.pg.base.gametip.backyard_sort_tag_price = {
 	tip = "가격"
 }
 
+
 _G.pg.base.gametip.backyard_sort_tag_comfortable = {
 	tip = "쾌적도"
 }
+
 
 _G.pg.base.gametip.backyard_sort_tag_size = {
 	tip = "면적"
 }
 
+
 _G.pg.base.gametip.backyard_filter_tag_other = {
 	tip = "기타"
 }
+
 
 _G.pg.base.gametip.word_status_inFight = {
 	tip = "<size=23>출격 중</size>"
 }
 
+
 _G.pg.base.gametip.word_status_inPVP = {
 	tip = "<size=23>연습배치</size>"
 }
+
 
 _G.pg.base.gametip.word_status_inEvent = {
 	tip = "<size=23>의뢰 중</size>"
 }
 
+
 _G.pg.base.gametip.word_status_inEventFinished = {
 	tip = "<size=23>완료</size>"
 }
+
 
 _G.pg.base.gametip.word_status_inTactics = {
 	tip = "<size=23>전술학원</size>"
 }
 
+
 _G.pg.base.gametip.word_status_inClass = {
 	tip = "<size=23>수업 중</size>"
 }
+
 
 _G.pg.base.gametip.word_status_rest = {
 	tip = "<size=23>휴식 중</size>"
 }
 
+
 _G.pg.base.gametip.word_status_train = {
 	tip = "<size=23>훈련 중</size>"
 }
+
 
 _G.pg.base.gametip.word_status_world = {
 	tip = "대형 작전 중"
 }
 
+
 _G.pg.base.gametip.word_status_inHardFormation = {
 	tip = "어려움 편성 중"
 }
 
+
 _G.pg.base.gametip.word_status_series_enemy = {
 	tip = "특별 작전 중"
 }
+
 
 _G.pg.base.gametip.challenge_rule = {
 	tip = {
@@ -8730,165 +10571,206 @@ _G.pg.base.gametip.challenge_rule = {
 	}
 }
 
+
 _G.pg.base.gametip.challenge_exit_warning = {
 	tip = "스테이지 전투 중 퇴장하면, 도전은 초기화되며 바로 해당 스테이지 전까지의 포인트를 결산합니다. \n 퇴장하시겠습니까? "
 }
+
 
 _G.pg.base.gametip.challenge_fleet_type_fail = {
 	tip = "이미 같은 함종인 두 명의 캐릭터를 선택하였습니다."
 }
 
+
 _G.pg.base.gametip.challenge_current_level = {
 	tip = "현재 스테이지: 제 $1 라운드"
 }
+
 
 _G.pg.base.gametip.challenge_current_score = {
 	tip = "누적 포인트: $1"
 }
 
+
 _G.pg.base.gametip.challenge_total_score = {
 	tip = "최고 포인트: $1"
 }
+
 
 _G.pg.base.gametip.challenge_current_progress = {
 	tip = "챌린드 모드 제 $1 라운드"
 }
 
+
 _G.pg.base.gametip.challenge_count_unlimit = {
 	tip = "<size=28>무한제</size>"
 }
+
 
 _G.pg.base.gametip.challenge_no_fleet = {
 	tip = "사용 가능한 함대가 없어 출격할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.equipment_skin_unload = {
 	tip = "장착 해제된 장비 스킨이 창고에 보관됩니다."
 }
+
 
 _G.pg.base.gametip.equipment_skin_no_old_ship = {
 	tip = "不存在旧船"
 }
 
+
 _G.pg.base.gametip.equipment_skin_no_old_skinorequipment = {
 	tip = "장비나 스킨이 장착되어 있지 않습니다."
 }
+
 
 _G.pg.base.gametip.equipment_skin_no_new_ship = {
 	tip = "不存在新船"
 }
 
+
 _G.pg.base.gametip.equipment_skin_no_new_equipment = {
 	tip = "新船没有装备"
 }
+
 
 _G.pg.base.gametip.equipment_skin_count_noenough = {
 	tip = "장비 스킨이 부족합니다."
 }
 
+
 _G.pg.base.gametip.equipment_skin_replace_done = {
 	tip = "장비 스킨이 변경되었습니다."
 }
+
 
 _G.pg.base.gametip.equipment_skin_unload_failed = {
 	tip = "장비 스킨을 적용시킬 수 없습니다."
 }
 
+
 _G.pg.base.gametip.equipment_skin_unmatch_equipment = {
 	tip = "변경된 장비와 사용 중인 스킨이 일치하지 않습니다. 장비 스킨이 창고에 보관됩니다."
 }
+
 
 _G.pg.base.gametip.equipment_skin_no_equipment_tip = {
 	tip = "장비가 장착되어 있지 않아, 장비 스킨을 적용시킬 수 없습니다."
 }
 
+
 _G.pg.base.gametip.activity_pool_awards_empty = {
 	tip = "현재 단계의 보상을 이미 전부 획득하였습니다."
 }
+
 
 _G.pg.base.gametip.activity_switch_award_pool_failed = {
 	tip = "다음 단계는 목표 보상을 전부 획득하여 개방할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.shop_street_activity_tip = {
 	tip = "·이벤트 기간(<color=#A1E400FF>$1</COLOR>)에는 갱신 시마다\n반드시 <color=#A1E400FF>장비 스킨 상자</COLOR>가 출현합니다."
 }
+
 
 _G.pg.base.gametip.shop_street_Equipment_skin_box_help = {
 	tip = "$1 출현 시간: $2"
 }
 
+
 _G.pg.base.gametip.twitter_link_title = {
 	tip = "连接中的推特账号：$1"
 }
+
 
 _G.pg.base.gametip.commander_material_noenough = {
 	tip = "재료 부족"
 }
 
+
 _G.pg.base.gametip.battle_result_boss_destruct = {
 	tip = "BOSS의 자폭을 막으며 격파하라!"
 }
+
 
 _G.pg.base.gametip.battle_preCombatLayer_boss_destruct = {
 	tip = "BOSS의 자폭을 막으며 격파하라!"
 }
 
+
 _G.pg.base.gametip.destory_important_equipment_tip = {
 	tip = "해당 장비를 해체하시겠습니까? : <color=#FFDE00FF>“$1”</color>, 아래에 해당 장비 이름을 입력하신 뒤 해체가 진행됩니다. "
 }
+
 
 _G.pg.base.gametip.destory_important_equipment_input_erro = {
 	tip = "장비 이름 오류"
 }
 
+
 _G.pg.base.gametip.activity_hit_monster_nocount = {
 	tip = "횟수가 부족합니다."
 }
+
 
 _G.pg.base.gametip.activity_hit_monster_death = {
 	tip = "녠셔우를 이미 쓰러뜨렸습니다."
 }
 
+
 _G.pg.base.gametip.activity_hit_monster_help = {
 	tip = "녠셔우 미니 게임 규칙"
 }
+
 
 _G.pg.base.gametip.activity_hit_monster_erro = {
 	tip = "공격에 실패했습니다."
 }
 
+
 _G.pg.base.gametip.activity_xiaotiane_progress = {
 	tip = "진행도: $1/$2"
 }
+
 
 _G.pg.base.gametip.activity_hit_monster_reset_tip = {
 	tip = "푸슌의 대모험을 재도전 하시겠습니까?\n(보수는 입수할 수 없습니다)"
 }
 
+
 _G.pg.base.gametip.equip_skin_detail_tip = {
 	tip = "다음과 같은 장비 스킨을 획득 가능"
 }
+
 
 _G.pg.base.gametip.emoji_type_0 = {
 	tip = "즐겨찾기"
 }
 
+
 _G.pg.base.gametip.emoji_type_1 = {
 	tip = "디폴트"
 }
+
 
 _G.pg.base.gametip.emoji_type_2 = {
 	tip = "애니메이션"
 }
 
+
 _G.pg.base.gametip.emoji_type_3 = {
 	tip = "도트 그래픽"
 }
 
+
 _G.pg.base.gametip.emoji_type_4 = {
 	tip = "이모티콘 "
 }
+
 
 _G.pg.base.gametip.card_pairs_help_tip = {
 	tip = {
@@ -8919,225 +10801,281 @@ _G.pg.base.gametip.card_pairs_help_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.card_pairs_tips = {
 	tip = "오늘은 더 이상 [기억 카드] 를 획득할 수 없습니다. 새 게임을 시작하시겠습니까?"
 }
+
 
 _G.pg.base.gametip["card_battle_card details_deck"] = {
 	tip = "커맨드 덱"
 }
 
+
 _G.pg.base.gametip["card_battle_card details_hand"] = {
 	tip = "선택 중인 커맨드"
 }
+
 
 _G.pg.base.gametip["card_battle_card details"] = {
 	tip = "커맨드 상세 정보"
 }
 
+
 _G.pg.base.gametip["card_battle_card details_switchto_deck"] = {
 	tip = "덱 확인"
 }
+
 
 _G.pg.base.gametip["card_battle_card details_switchto_hand"] = {
 	tip = "커맨드 확인"
 }
 
+
 _G.pg.base.gametip.card_battle_card_empty_en = {
 	tip = "- LIST IS EMPTY -"
 }
+
 
 _G.pg.base.gametip.card_battle_card_empty_ch = {
 	tip = "덱에 커맨드 카드가 없습니다."
 }
 
+
 _G.pg.base.gametip.card_puzzel_goal_ch = {
 	tip = "스테이지 목표"
 }
+
 
 _G.pg.base.gametip.card_puzzel_goal_en = {
 	tip = "TARGET"
 }
 
+
 _G.pg.base.gametip.card_puzzle_deck = {
 	tip = "덱"
 }
+
 
 _G.pg.base.gametip.upgrade_to_next_maxlevel_failed = {
 	tip = "이미 최고레벨에 도달하여,\n인식 각성을 진행할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.upgrade_to_next_maxlevel_tip = {
 	tip = "아래의 재료를 소모하여 인식 각성(레벨 상한 상승)을 진행합니다.\n※인식 각성 진행 후 레벨 상한 :"
 }
+
 
 _G.pg.base.gametip.upgrade_to_next_maxlevel_succeed = {
 	tip = "인식 각성 완료\n최대 레벨이<color=#92fc63FF> $1</color>으로 상승되었습니다."
 }
 
+
 _G.pg.base.gametip.extra_chapter_socre_tip = {
 	tip = "오늘의 스코어：<color=#92fc63>$1</color>\n개인 최고 스코어：<color=#92fc63>$2</color>\n $3"
 }
+
 
 _G.pg.base.gametip.extra_chapter_record_updated = {
 	tip = "개인 최고 스코어 갱신 성공!"
 }
 
+
 _G.pg.base.gametip.extra_chapter_record_not_updated = {
 	tip = "개인 최고 스코어 갱신 실패"
 }
+
 
 _G.pg.base.gametip.extra_chapter_locked_tip = {
 	tip = "어려움 난이도를 전부 클리어하면 개방됩니다."
 }
 
+
 _G.pg.base.gametip.extra_chapter_locked_tip_1 = {
 	tip = "통상 난이도의 마지막 이벤트 해역을 클리어하면 개방됩니다"
 }
+
 
 _G.pg.base.gametip.player_name_change_time_lv_tip = {
 	tip = "지휘관 레벨 <color=#92fc63>$1</color>를 달성 후 닉네임 변경 기능이 오픈됩니다."
 }
 
+
 _G.pg.base.gametip.player_name_change_time_limit_tip = {
 	tip = "닉네임은 <color=#92fc63>$1</color>후 다시 변경 가능합니다."
 }
+
 
 _G.pg.base.gametip.player_name_change_windows_tip = {
 	tip = "*닉네임 변경은 <color=#92fc63>$1:$2</color>를 소비하며\n<color=#92fc63>30</color>일 내에는 다시 변경할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.player_name_change_warning = {
 	tip = "닉네임 변경은 <color=#92fc63>$1</color>개의 <color=#92fc63>$2</color>를 필요로 하며, <color=#92fc63>30</color>일 후 다시 변경할 수 있습니다. 지휘관 닉네임을 <color=#92fc63>$3</color> 로 변경하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.player_name_change_success = {
 	tip = "지휘관 닉네임 변경 성공"
 }
 
+
 _G.pg.base.gametip.player_name_change_failed = {
 	tip = "지휘관 닉네임 변경 실패"
 }
+
 
 _G.pg.base.gametip.same_player_name_tip = {
 	tip = "현재와 동일한 닉네임은 사용할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.task_is_not_existence = {
 	tip = "존재하지 않은 임무$1 "
 }
+
 
 _G.pg.base.gametip.cannot_build_multiple_printblue = {
 	tip = "현재 진행 중인 <color=#92fc63>$1</color>의 개발을 잠시 중단하고, 개발 함선을 <color=#92fc63>$2</color>으로 변경하시겠습니까? 개발 진행도는 유지됩니다.\n개발 개시 혹은 재시작 후 <color=#92fc63>24시간 이내에는 </color>의 개발 대상을 변경하실 수 없습니다."
 }
 
+
 _G.pg.base.gametip.printblue_build_success = {
 	tip = "개발 개시"
 }
+
 
 _G.pg.base.gametip.printblue_build_erro = {
 	tip = "개발 실패"
 }
 
+
 _G.pg.base.gametip.blueprint_mod_success = {
 	tip = "강화 성공"
 }
+
 
 _G.pg.base.gametip.blueprint_mod_erro = {
 	tip = "강화 실패"
 }
 
+
 _G.pg.base.gametip.technology_refresh_sucess = {
 	tip = "연구 항목 일람 - 갱신 성공"
 }
+
 
 _G.pg.base.gametip.technology_refresh_erro = {
 	tip = "연구 항목 일람 - 갱신 실패"
 }
 
+
 _G.pg.base.gametip.change_technology_refresh_sucess = {
 	tip = "연구 항목 - 변경 성공"
 }
+
 
 _G.pg.base.gametip.change_technology_refresh_erro = {
 	tip = "연구 항목 - 변경 실패"
 }
 
+
 _G.pg.base.gametip.technology_start_up = {
 	tip = "연구 개시"
 }
+
 
 _G.pg.base.gametip.technology_start_erro = {
 	tip = "연구 실패"
 }
 
+
 _G.pg.base.gametip.technology_stop_success = {
 	tip = "연구 중단에 성공하였습니다."
 }
+
 
 _G.pg.base.gametip.technology_stop_erro = {
 	tip = "연구 중단에 실패하였습니다."
 }
 
+
 _G.pg.base.gametip.technology_finish_success = {
 	tip = "연구를 성공적으로 완료했습니다."
 }
+
 
 _G.pg.base.gametip.technology_finish_erro = {
 	tip = "연구에 실패했습니다."
 }
 
+
 _G.pg.base.gametip.blueprint_stop_success = {
 	tip = "개발 중단에 성공하였습니다."
 }
+
 
 _G.pg.base.gametip.blueprint_stop_erro = {
 	tip = "개발 중단에 실패하였습니다."
 }
 
+
 _G.pg.base.gametip.blueprint_destory_tip = {
 	tip = "PR함은 퇴역시킬 수 없습니다. "
 }
+
 
 _G.pg.base.gametip.blueprint_task_update_tip = {
 	tip = "함선의 개발 진도가 갱신되었습니다. 개발 도크를 확인해주세요."
 }
 
+
 _G.pg.base.gametip.blueprint_mod_addition_lock = {
 	tip = "강화 레벨 $1 도달 시 개방됩니다."
 }
+
 
 _G.pg.base.gametip.blueprint_mod_word_unlock = {
 	tip = "대사 개방: $1"
 }
 
+
 _G.pg.base.gametip.blueprint_mod_skin_unlock = {
 	tip = "스킨 획득: $1"
 }
+
 
 _G.pg.base.gametip.blueprint_build_consume = {
 	tip = "$1 를 소모하여 개발을 진행하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.blueprint_stop_tip = {
 	tip = "개발을 중단하시겠습니까? (소모된 아이템 및 물자는 반환되지 않습니다.)"
 }
+
 
 _G.pg.base.gametip.technology_canot_refresh = {
 	tip = "연구 중에는 연구 항목 일람을 갱신할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.technology_refresh_tip = {
 	tip = "연구 항목 일람을 갱신하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.technology_is_actived = {
 	tip = "연구 중인 연구 항목이 존재합니다."
 }
 
+
 _G.pg.base.gametip.technology_stop_tip = {
 	tip = "연구를 중단하시겠습니까? (소모된 아이템・물자는 반환되지 않습니다)"
 }
+
 
 _G.pg.base.gametip.technology_help_text = {
 	tip = {
@@ -9198,72 +11136,85 @@ _G.pg.base.gametip.technology_help_text = {
 	}
 }
 
+
 _G.pg.base.gametip.blueprint_build_time_tip = {
 	tip = "개발 개시 혹은 재시작 후엔, 24시간 이내에 개발 함선을 변경할 수 없습니다.\n\n이대로 개발을 시작하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.blueprint_cannot_build_tip = {
 	tip = "개발 대상 변경 가능 시간 까지 : $1"
 }
 
+
 _G.pg.base.gametip.technology_task_none_tip = {
 	tip = "-없음-"
 }
+
 
 _G.pg.base.gametip.technology_task_build_tip = {
 	tip = "연구에 착수하기 위해 아래의 물자 혹은 아이템을 소모하게 됩니다 : $1"
 }
 
+
 _G.pg.base.gametip.blueprint_commit_tip = {
 	tip = "개발 임무를 완료하기 위해 <color=#92fc63>$1</color>를 소모합니다. 개발 임무를 완료하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.buleprint_need_level_tip = {
 	tip = "해당 함선은 $1 레벨에 개방됩니다."
 }
 
+
 _G.pg.base.gametip.blueprint_max_level_tip = {
 	tip = "현재 최대 레벨에 도달하셨습니다."
 }
+
 
 _G.pg.base.gametip.ship_profile_voice_locked_intimacy = {
 	tip = "호감도 $1 달성 후 개방"
 }
 
+
 _G.pg.base.gametip.ship_profile_voice_locked_propose = {
 	tip = "서약 진행 후 개방"
 }
+
 
 _G.pg.base.gametip.ship_profile_voice_locked_propose_imas = {
 	tip = "서약 진행 후 개방"
 }
 
+
 _G.pg.base.gametip.ship_profile_voice_locked_design = {
 	tip = "개발 레벨 $1 달성 후 개방"
 }
+
 
 _G.pg.base.gametip.ship_profile_voice_locked_meta = {
 	tip = "수리 진도 $1%후 해제(미사용)"
 }
 
+
 _G.pg.base.gametip.help_technolog0 = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/technologytree1",
-				path = ""
+				path = "",
+				atlas = "helpbg/technologytree1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/technologytree2",
-				path = ""
+				path = "",
+				atlas = "helpbg/technologytree2"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 2,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -9277,43 +11228,44 @@ _G.pg.base.gametip.help_technolog0 = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.help_technolog = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/technology",
-				path = ""
+				path = "",
+				atlas = "helpbg/technology"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/blueprint_build",
-				path = ""
+				path = "",
+				atlas = "helpbg/blueprint_build"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/blueprint_dev",
-				path = ""
+				path = "",
+				atlas = "helpbg/blueprint_dev"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/technologytree1",
-				path = ""
+				path = "",
+				atlas = "helpbg/technologytree1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/technologytree2",
-				path = ""
+				path = "",
+				atlas = "helpbg/technologytree2"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -9328,13 +11280,16 @@ _G.pg.base.gametip.help_technolog = {
 	}
 }
 
+
 _G.pg.base.gametip.hide_chat_warning = {
 	tip = "채팅 기능을 비활성화하면, 채팅 메시지를 수신할 수 없게 됩니다. 채팅 기능을 비활성화하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.show_chat_warning = {
 	tip = "채팅 기능을 활성화하면, 채팅 메시지를 수신하게 됩니다. 채팅 기능을 활성화하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.help_shipblueprintui = {
 	tip = {
@@ -9383,6 +11338,7 @@ DR함
 	}
 }
 
+
 _G.pg.base.gametip.help_shipblueprintui_luck = {
 	tip = {
 		{
@@ -9397,152 +11353,170 @@ _G.pg.base.gametip.help_shipblueprintui_luck = {
 	}
 }
 
+
 _G.pg.base.gametip.anniversary_task_title_1 = {
 	tip = "그것은 이형의 외적을 베는 검, 인류 최후의 수호자."
 }
+
 
 _G.pg.base.gametip.anniversary_task_title_2 = {
 	tip = "함께 나아가는 것은 파도를 가르는 강철의 날개, 마음을 이어주는 역사의 매듭."
 }
 
+
 _G.pg.base.gametip.anniversary_task_title_3 = {
 	tip = "과학의 세기의 종언에 싹 튼 혁명의 종자는 반격의 깃발을 휘날리며,"
 }
+
 
 _G.pg.base.gametip.anniversary_task_title_4 = {
 	tip = "흔들리지 않는 신념을 품은 무위는 수평선을 가로막는 시련을 극복한다."
 }
 
+
 _G.pg.base.gametip.anniversary_task_title_5 = {
 	tip = "이를테면 충의. 여왕 폐하를 섬기는 영광스러운 자는 자연의 은혜를 받는다."
 }
+
 
 _G.pg.base.gametip.anniversary_task_title_6 = {
 	tip = "이를테면 용기. 자유를 믿는 자는 기계장치의 신의 예관을 받을 운명."
 }
 
+
 _G.pg.base.gametip.anniversary_task_title_7 = {
 	tip = "이를테면 결속. 인연을 잇는 자는 자신의 심상을 형이상적으로 승화시킨다."
 }
+
 
 _G.pg.base.gametip.anniversary_task_title_8 = {
 	tip = "이를테면 변증. 거짓된 영겁을 그리워하는 자야말로 진정한 초인에 이를 것이다."
 }
 
+
 _G.pg.base.gametip.anniversary_task_title_9 = {
 	tip = "이를테면 정열. 꺾이지 않는 자가 정복하는 우리 길의 종착지에 승리의 경색을."
 }
+
 
 _G.pg.base.gametip.anniversary_task_title_10 = {
 	tip = "이를테면 경건. 빛나는 이야기의 결말을 꿈꾸는 자에게 작자의 가호 있으라."
 }
 
+
 _G.pg.base.gametip.anniversary_task_title_11 = {
 	tip = "강철의 기억을 용골로, 사람들의 소망으로 형태가 부여된 자,"
 }
+
 
 _G.pg.base.gametip.anniversary_task_title_12 = {
 	tip = "다시 태어난 '함선'…… 우리들의 노랫소리로 그 존재의 닻을 내리자."
 }
 
+
 _G.pg.base.gametip.anniversary_task_title_13 = {
 	tip = "당신은, 인류의 문명을 지키기 위해 만들어진 불과 쇠의 방주."
 }
+
 
 _G.pg.base.gametip.anniversary_task_title_14 = {
 	tip = "당신은, 지배되지 않는 자아를 가진 '인간'이란 존재에 걸맞는 자……"
 }
 
+
 _G.pg.base.gametip.charge_scene_buy_confirm = {
 	tip = "<color=#92fc63FF>$1다이아</color>을(를) 사용하여 <color=#92fc63FF>$2</color>을(를) 구매하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.charge_scene_buy_confirm_gold = {
 	tip = "<color=#92fc63FF>$1 물자</color>를 사용하여 <color=#92fc63FF>$2</color>을(를) 구매하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.charge_scene_batch_buy_tip = {
 	tip = "<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>다이아을(를) 사용하여 <color=$3>을(를) $2</color>개 구매하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.help_level_ui = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/level_ui_help_1",
-				path = ""
+				path = "",
+				atlas = "helpbg/level_ui_help_1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/level_ui_help_2",
-				path = ""
+				path = "",
+				atlas = "helpbg/level_ui_help_2"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/level_ui_help_3",
-				path = ""
+				path = "",
+				atlas = "helpbg/level_ui_help_3"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/level_ui_help_4",
-				path = ""
+				path = "",
+				atlas = "helpbg/level_ui_help_4"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/level_ui_help_5",
-				path = ""
+				path = "",
+				atlas = "helpbg/level_ui_help_5"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/level_ui_help_6",
-				path = ""
+				path = "",
+				atlas = "helpbg/level_ui_help_6"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/level_ui_help_7",
-				path = ""
+				path = "",
+				atlas = "helpbg/level_ui_help_7"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/level_ui_help_8",
-				path = ""
+				path = "",
+				atlas = "helpbg/level_ui_help_8"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/level_ui_help",
-				path = ""
+				path = "",
+				atlas = "helpbg/level_ui_help"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/battle_ac_1",
-				path = ""
+				path = "",
+				atlas = "helpbg/battle_ac_1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/battle_ac_2",
-				path = ""
+				path = "",
+				atlas = "helpbg/battle_ac_2"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/battle_concealment",
-				path = ""
+				path = "",
+				atlas = "helpbg/battle_concealment"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -9557,117 +11531,146 @@ _G.pg.base.gametip.help_level_ui = {
 	}
 }
 
+
 _G.pg.base.gametip.guild_modify_info_tip = {
 	tip = "<color=#92fc63><icon name=diamond w=0.7 h=0.7/>$1</color>다이아를 사용하여 함대 명칭을 변경하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.ai_change_1 = {
 	tip = "잠수함대 - 지원 대기 태세로 변경되었습니다."
 }
 
+
 _G.pg.base.gametip.ai_change_2 = {
 	tip = "잠수함대 – 자동 색적 태세로 변경되었습니다."
 }
+
 
 _G.pg.base.gametip.activity_shop_lable = {
 	tip = "*교환 개방 시간 : <color=#FFF693>$1</color>"
 }
 
+
 _G.pg.base.gametip.word_bilibili = {
 	tip = "bili小电池"
 }
+
 
 _G.pg.base.gametip.levelScene_tracking_error_pre = {
 	tip = "<color=#92fc63>$1</color>를 클리어 후 오픈됩니다"
 }
 
+
 _G.pg.base.gametip.ship_limit_notice = {
 	tip = "*잠수함대의 스테이터스는 출격 조건에 포함되지 않습니다"
 }
+
 
 _G.pg.base.gametip.idle = {
 	tip = "대기"
 }
 
+
 _G.pg.base.gametip.main_1 = {
 	tip = "메인\n1"
 }
+
 
 _G.pg.base.gametip.main_2 = {
 	tip = "메인\n2"
 }
 
+
 _G.pg.base.gametip.main_3 = {
 	tip = "메인\n3"
 }
+
 
 _G.pg.base.gametip.complete = {
 	tip = "의뢰\n완료"
 }
 
+
 _G.pg.base.gametip.login = {
 	tip = "로그인"
 }
+
 
 _G.pg.base.gametip.home = {
 	tip = "모항\n귀환"
 }
 
+
 _G.pg.base.gametip.mail = {
 	tip = "우편"
 }
+
 
 _G.pg.base.gametip.mission = {
 	tip = "임무"
 }
 
+
 _G.pg.base.gametip.mission_complete = {
 	tip = "임무\n완료"
 }
+
 
 _G.pg.base.gametip.wedding = {
 	tip = "서약"
 }
 
+
 _G.pg.base.gametip.touch_head = {
 	tip = "머리 터치\n3"
 }
+
 
 _G.pg.base.gametip.touch_body = {
 	tip = "터치\n1"
 }
 
+
 _G.pg.base.gametip.touch_special = {
 	tip = "터치\n2"
 }
+
 
 _G.pg.base.gametip.gold = {
 	tip = "金币"
 }
 
+
 _G.pg.base.gametip.oil = {
 	tip = "石油"
 }
+
 
 _G.pg.base.gametip.diamond = {
 	tip = "钻石"
 }
 
+
 _G.pg.base.gametip.word_photo_mode = {
 	tip = "카메라"
 }
+
 
 _G.pg.base.gametip.word_video_mode = {
 	tip = "비디오"
 }
 
+
 _G.pg.base.gametip.word_save_ok = {
 	tip = "사진을 저장하였습니다."
 }
 
+
 _G.pg.base.gametip.word_save_video = {
 	tip = "녹화가 완료되었습니다. 저장 하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.reflux_help_tip = {
 	tip = {
@@ -9701,77 +11704,96 @@ _G.pg.base.gametip.reflux_help_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.reflux_pt_not_enough = {
 	tip = "作战点数不足"
 }
+
 
 _G.pg.base.gametip.reflux_word_1 = {
 	tip = "이벤트 기간："
 }
 
+
 _G.pg.base.gametip.reflux_word_2 = {
 	tip = "개방："
 }
+
 
 _G.pg.base.gametip.ship_hunting_level_tips = {
 	tip = "※ 한계돌파 및 장비 효과, 지휘냥에 의한 지원 범위 Lv 상승만 반영됨(최대 Lv5)"
 }
 
+
 _G.pg.base.gametip.acquisitionmode_is_not_open = {
 	tip = "아직 획득할 수 없습니다"
 }
+
 
 _G.pg.base.gametip.collect_chapter_is_activation = {
 	tip = "다른 스테이지를 현재 공략 중입니다, 퇴각하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.levelScene_chapter_is_activation = {
 	tip = "<color=#92fc63>$1</color> 스테이지를 현재 공략 중입니다, \n공략 중인 스테이지로 진입할지, 아니면 퇴각할지를 선택해 주십시오."
 }
+
 
 _G.pg.base.gametip.resource_verify_warn = {
 	tip = "리소스 복구를 시작하시겠습니까? 복구하는데 어느 정도의 시간이 걸리며 복구 프로세스 중에는 오류가 나타날 수 있으므로 휴대폰 사용을 하지말고 잠시만 기다려 주십시오."
 }
 
+
 _G.pg.base.gametip.resource_verify_fail = {
 	tip = "리소스 복구 완료, 게임을 재시작하여 업데이트를 진행해주세요. 확인을 터치하면 게임이 종료됩니다.$1"
 }
+
 
 _G.pg.base.gametip.resource_verify_success = {
 	tip = "리소스 복구 완료"
 }
 
+
 _G.pg.base.gametip.resource_clear_all = {
 	tip = "캐시 리소스를 제거하시겠습니까? (제거 완료 후 게임은 자동 종료됩니다)"
 }
+
 
 _G.pg.base.gametip.acl_oil_count = {
 	tip = "목표 연료："
 }
 
+
 _G.pg.base.gametip.acl_oil_total_count = {
 	tip = "누적 사용 연료 :"
 }
+
 
 _G.pg.base.gametip.word_take_video_tip = {
 	tip = "녹화 중 오른쪽에 있는 버튼을 터치하면 녹화가 종료됩니다."
 }
 
+
 _G.pg.base.gametip.word_snapshot_share_title = {
 	tip = "<벽람항로> 이용 약관"
 }
+
 
 _G.pg.base.gametip.word_snapshot_share_agreement = {
 	tip = "사용자는 본 약관에 따라 해당 기능을 합법적, 합리적으로 사용하는데 동의하며, 해당 기능을 사용하여 생성된 사진 혹은 비디오의 공유, 저장, 사용, 전달 및 공개 행위에 대해 사적인 범위 및 비상업적인 범위를 넘어선 모든 용도에 쓰여서는 안 된다는 것에 대해 동의합니다. \n<벽람항로> 측은 본 기능을 이용하여 발생할 수 있는 타인 및 단체와의 마찰 및 분쟁, 모든 손해, 그리고 모든 법적 문제에 대해 일절 책임을 지지 않으며, 이에 관련된 모든 책임은 촬영자 본인에게 있음을 명시합니다."
 }
 
+
 _G.pg.base.gametip.skin_remain_time = {
 	tip = "잔여 판매 기간"
 }
 
+
 _G.pg.base.gametip.word_museum_1 = {
 	tip = "오늘의 이벤트가 전부 완료되었습니다. 내일 이벤트를 기대하여 주십시오."
 }
+
 
 _G.pg.base.gametip.word_museum_help = {
 	tip = {
@@ -9795,6 +11817,7 @@ _G.pg.base.gametip.word_museum_help = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.goldship_help_tip = {
 	tip = {
@@ -9824,6 +11847,7 @@ _G.pg.base.gametip.goldship_help_tip = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.metalgearsub_help_tip = {
 	tip = {
@@ -9872,213 +11896,266 @@ _G.pg.base.gametip.metalgearsub_help_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.acl_gold_count = {
 	tip = "목표 물자 :"
 }
+
 
 _G.pg.base.gametip.acl_gold_total_count = {
 	tip = "누적 사용 물자 :"
 }
 
+
 _G.pg.base.gametip.discount_time = {
 	tip = "<color=grey>잔여 할인 기간</color> <color=#92fc63>$1</color>"
 }
+
 
 _G.pg.base.gametip.commander_talent_not_exist = {
 	tip = "잘못된 어빌리티(이미 존재하는 어빌리티)입니다"
 }
 
+
 _G.pg.base.gametip.commander_replace_talent_not_exist = {
 	tip = "잘못된 어빌리티(변경처의 어빌리티)입니다"
 }
+
 
 _G.pg.base.gametip.commander_talent_learned = {
 	tip = "어빌리티 $1을(를) 습득했습니다"
 }
 
+
 _G.pg.base.gametip.commander_talent_learn_erro = {
 	tip = "어빌리티를 습득할 수 없습니다$1"
 }
+
 
 _G.pg.base.gametip.commander_not_exist = {
 	tip = "지휘냥이 존재하지 않습니다"
 }
 
+
 _G.pg.base.gametip.commander_fleet_not_exist = {
 	tip = "함대가 존재하지 않습니다"
 }
+
 
 _G.pg.base.gametip.commander_fleet_pos_not_exist = {
 	tip = "지휘냥이 장비되어 있지 않습니다"
 }
 
+
 _G.pg.base.gametip.commander_equip_to_fleet_erro = {
 	tip = "지휘냥을 장비할 수 없습니다$1"
 }
+
 
 _G.pg.base.gametip.commander_acquire_erro = {
 	tip = "지휘냥을 입수할 수 없습니다$1"
 }
 
+
 _G.pg.base.gametip.commander_lock_erro = {
 	tip = "잠금에 실패했습니다$1"
 }
+
 
 _G.pg.base.gametip.commander_reset_talent_time_no_rearch = {
 	tip = "일정 시간 내에서는 한 번밖에 초기화할 수 없습니다"
 }
 
+
 _G.pg.base.gametip.commander_reset_talent_is_not_need = {
 	tip = "초기 상태에서는 초기화할 수 없습니다"
 }
+
 
 _G.pg.base.gametip.commander_reset_talent_success = {
 	tip = "어빌리티를 초기화했습니다"
 }
 
+
 _G.pg.base.gametip.commander_reset_talent_erro = {
 	tip = "어빌리티를 초기화할 수 없습니다$1"
 }
+
 
 _G.pg.base.gametip.commander_can_not_be_upgrade = {
 	tip = "이 지휘냥은 레벨업 할 수 없습니다"
 }
 
+
 _G.pg.base.gametip.commander_anyone_is_in_fleet = {
 	tip = "편성 중인 지휘냥이 선택되어 있습니다"
 }
+
 
 _G.pg.base.gametip.commander_is_in_fleet = {
 	tip = "지휘냥이 출격 중입니다"
 }
 
+
 _G.pg.base.gametip.commander_play_erro = {
 	tip = "강화에 실패했습니다$1"
 }
+
 
 _G.pg.base.gametip.ship_equip_same_group_equipment = {
 	tip = "유일 장비 중복 장비할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.summary_page_un_rearch = {
 	tip = "미획득"
 }
+
 
 _G.pg.base.gametip.player_summary_from = {
 	tip = "특수 작전:"
 }
 
+
 _G.pg.base.gametip.player_summary_data = {
 	tip = "획득 날짜"
 }
+
 
 _G.pg.base.gametip.commander_exp_overflow_tip = {
 	tip = "입수하는 경험치가 최대 경험치를 초과하게 됩니다. 강화하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.commander_reset_talent_tip = {
 	tip = "어빌리티를 초기화하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.commander_reset_talent = {
 	tip = "초기화 가능"
 }
 
+
 _G.pg.base.gametip.commander_select_min_cnt = {
 	tip = "$1 이상의 지휘냥을 선택해야 합니다"
 }
+
 
 _G.pg.base.gametip.commander_select_max = {
 	tip = "더 이상 선택할 수 없습니다"
 }
 
+
 _G.pg.base.gametip.commander_lock_done = {
 	tip = "잠금에 성공했습니다"
 }
+
 
 _G.pg.base.gametip.commander_unlock_done = {
 	tip = "잠금 해제에 성공했습니다"
 }
 
+
 _G.pg.base.gametip.commander_get_1 = {
 	tip = "매일 1회 째의 냥박스 구매는 무료다냥!"
 }
+
 
 _G.pg.base.gametip.commander_get = {
 	tip = "자금 $1을 소비하여 냥박스 $2개를 구입하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.commander_build_done = {
 	tip = "지휘냥 훈련 시작!"
 }
+
 
 _G.pg.base.gametip.commander_build_erro = {
 	tip = "지휘냥 훈련 실패: $1"
 }
 
+
 _G.pg.base.gametip.commander_get_skills_done = {
 	tip = "습득 가능 리스트를 불러오지 못했습니다"
 }
+
 
 _G.pg.base.gametip.collection_way_is_unopen = {
 	tip = "현재 입수할 수 없습니다"
 }
 
+
 _G.pg.base.gametip.commander_can_not_select_same_group = {
 	tip = "해당 함대에 이미 동일한 지휘냥이 편성되어 있습니다."
 }
+
 
 _G.pg.base.gametip.commander_capcity_is_max = {
 	tip = "냥하우스가 가득 차 있다냥..."
 }
 
+
 _G.pg.base.gametip.commander_reserve_count_is_max = {
 	tip = "더 이상은 구입할 수 없습니다"
 }
+
 
 _G.pg.base.gametip.commander_build_pool_tip = {
 	tip = "$2개의 $1을(를) 소비하여 지휘냥을 훈련시키겠습니까?"
 }
 
+
 _G.pg.base.gametip.commander_select_matiral_erro = {
 	tip = "지휘냥의 레벨이 최대 상태입니다. 같은 이름의 지휘냥을 사용하는 스킬 강화 이외의 강화는 진행할 수 없습니다"
 }
+
 
 _G.pg.base.gametip.commander_material_is_rarity = {
 	tip = "SSR 지휘냥이 선택되어 있습니다. 계속하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.commander_material_is_maxLevel = {
 	tip = "지휘냥의 레벨이 최대 상태입니다. 더 이상 강화를 해도 경험치를 얻을 수 없습니다. 계속하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.charge_commander_bag_max = {
 	tip = "냥하우스(지휘냥 소지 수)가 이미 최대치에 도달했습니다. 더 이상 증축할 수 없습니다"
 }
 
+
 _G.pg.base.gametip.shop_extendcommander_success = {
 	tip = "냥하우스(지휘냥 소지 수) 증축에 성공했습니다"
 }
+
 
 _G.pg.base.gametip.commander_skill_point_noengough = {
 	tip = "어빌리티 포인트가 부족합니다"
 }
 
+
 _G.pg.base.gametip.buildship_new_tip = {
 	tip = "기간 한정 건조를 총 200회 실시하면, 크론시타트 100% 획득 가능! (최대 4척까지)"
 }
+
 
 _G.pg.base.gametip.buildship_heavy_tip = {
 	tip = "\"꼬마 리나운 \", \"꼬마 아마기\", 등 상시 건조 추가!"
 }
 
+
 _G.pg.base.gametip.buildship_light_tip = {
 	tip = "쿠이비셰프 건조가 추가되었습니다!"
 }
 
+
 _G.pg.base.gametip.buildship_special_tip = {
 	tip = "꼬마 일러스트리어스,꼬마 엔터프라이즈  건조 추가!"
 }
+
 
 _G.pg.base.gametip.Normalbuild_URexchange_help = {
 	tip = {
@@ -10094,45 +12171,56 @@ _G.pg.base.gametip.Normalbuild_URexchange_help = {
 	}
 }
 
+
 _G.pg.base.gametip.Normalbuild_URexchange_text1 = {
 	tip = "상시 UR 교환"
 }
+
 
 _G.pg.base.gametip.Normalbuild_URexchange_text2 = {
 	tip = "누적"
 }
 
+
 _G.pg.base.gametip.Normalbuild_URexchange_text3 = {
 	tip = "교환 가능 함선 확인"
 }
+
 
 _G.pg.base.gametip.Normalbuild_URexchange_text4 = {
 	tip = "함선 교환"
 }
 
+
 _G.pg.base.gametip.Normalbuild_URexchange_warning1 = {
 	tip = "총 건조 횟수 Pt가 부족합니다."
 }
+
 
 _G.pg.base.gametip.Normalbuild_URexchange_warning3 = {
 	tip = "교환 Pt가 최대치에 달했습니다. UR 함선으로 교환하지 않으면 더 이상 교환 Pt를 획득할 수 없습니다. 건조를 실시하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.Normalbuild_URexchange_confirm = {
 	tip = "400Pt를 소비하여 $1(으)로 교환하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.open_skill_pos = {
 	tip = "해당 항목을 오픈하기 위해선 <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=#ffde38>$1</color>이 필요합니다.\n오픈하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.open_skill_pos_discount = {
 	tip = "해당 항목을 오픈하기 위해선 <icon name=diamond w=0.7 h=0.7 y=0.3 /><color=grey>$1</color> <color=#ffde38>$2</color>이 필요합니다. \n오픈하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.event_recommend_fail = {
 	tip = "군사 의뢰 편성 조건을 만족시키지 못했습니다."
 }
+
 
 _G.pg.base.gametip.newplayer_help_tip = {
 	tip = {
@@ -10174,160 +12262,183 @@ _G.pg.base.gametip.newplayer_help_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.newplayer_notice_1 = {
 	tip = "신병 단계의 모든 임무 완료 후 개방"
 }
+
 
 _G.pg.base.gametip.newplayer_notice_2 = {
 	tip = "심화 단계의 모든 임무 완료 후 개방"
 }
 
+
 _G.pg.base.gametip.newplayer_notice_3 = {
 	tip = "시험 단계의 모든 임무 완료 후 개방"
 }
+
 
 _G.pg.base.gametip.newplayer_notice_4 = {
 	tip = "챌린지 성공 후 포틀랜드 획득 가능."
 }
 
+
 _G.pg.base.gametip.newplayer_notice_5 = {
 	tip = "챌린지 성공 후 넬슨 획득 가능."
 }
+
 
 _G.pg.base.gametip.newplayer_notice_6 = {
 	tip = "챌린지 성공 후 후드, 엔터프라이즈, 샌디에이고, 일러스트리어스 중 원하는 한 명을 획득 가능."
 }
 
+
 _G.pg.base.gametip.newplayer_notice_7 = {
 	tip = "이전 단계의 챌린지를 완료 후 개방됩니다."
 }
+
 
 _G.pg.base.gametip.newplayer_notice_8 = {
 	tip = "지휘관, 벽람항로에 온 걸 환영해! 우선, 신병 훈련장으로 가 전입 신고부터 하자구!"
 }
 
+
 _G.pg.base.gametip.tec_catchup_1 = {
 	tip = "제1기"
 }
+
 
 _G.pg.base.gametip.tec_catchup_2 = {
 	tip = "제2기"
 }
 
+
 _G.pg.base.gametip.tec_catchup_3 = {
 	tip = "제3기"
 }
+
 
 _G.pg.base.gametip.tec_catchup_4 = {
 	tip = "제4기"
 }
 
+
 _G.pg.base.gametip.tec_catchup_5 = {
 	tip = "제5기"
 }
+
 
 _G.pg.base.gametip.tec_notice = {
 	tip = "과학 연구 $1 연구 가속 모든 임무 완료 후 해제"
 }
 
+
 _G.pg.base.gametip.tec_notice_not_open_tip = {
 	tip = "이전 단계 모든 개발 가속 임무 완료 후 개방"
 }
+
 
 _G.pg.base.gametip.apply_permission_camera_tip1 = {
 	tip = "AR 카메라 기능 사용을 위해 카메라에 대한 접근 권한이 필요합니다."
 }
 
+
 _G.pg.base.gametip.apply_permission_camera_tip2 = {
 	tip = "카메라 권한이 OFF 상태입니다. 설정 화면에서 권한을 확인해 주세요."
 }
+
 
 _G.pg.base.gametip.apply_permission_camera_tip3 = {
 	tip = "카메라 권한이 OFF인 경우 AR 카메라 기능을 이용할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.apply_permission_record_audio_tip1 = {
 	tip = "AR 녹화 기능 사용을 위해 음성 녹음에 대한 접근 권한이 필요합니다."
 }
+
 
 _G.pg.base.gametip.apply_permission_record_audio_tip2 = {
 	tip = "음성 녹음 권한이 OFF 상태입니다. 설정 화면에서 권한을 확인해 주세요."
 }
 
+
 _G.pg.base.gametip.apply_permission_record_audio_tip3 = {
 	tip = "음성 녹음 권한이 OFF인 경우 AR 녹화 기능을 이용할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.nine_choose_one = {
 	tip = "연회에는 단 한 명의 함선소녀만 초대할 수 있습니다.\n<color=#92fc63>$1</color>을(를) 초대하시겠습니까?\n초대 후엔 상응하는 함선소녀와 답례품을 획득할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.help_commander_info = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/commander_build",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_build"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_info",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_info"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_ability1",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_ability1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_ability2",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_ability2"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_ability3",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_ability3"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_up",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_up"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_skill1",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_skill1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_skill2",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_skill2"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_9",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_9"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_10",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_10"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 2,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -10341,73 +12452,74 @@ _G.pg.base.gametip.help_commander_info = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.help_commander_play = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/commander_build",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_build"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_info",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_info"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_ability1",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_ability1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_ability2",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_ability2"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_ability3",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_ability3"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_up",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_up"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_skill1",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_skill1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_skill2",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_skill2"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_9",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_9"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_10",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_10"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 4,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -10421,73 +12533,74 @@ _G.pg.base.gametip.help_commander_play = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.help_commander_ability = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/commander_build",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_build"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_info",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_info"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_ability1",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_ability1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_ability2",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_ability2"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_ability3",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_ability3"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_up",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_up"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_skill1",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_skill1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_skill2",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_skill2"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_9",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_9"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_10",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_10"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 3,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -10501,81 +12614,84 @@ _G.pg.base.gametip.help_commander_ability = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.story_skip_confirm = {
 	tip = "아직 감상하지 않은 스토리를 스킵 하겠습니까?\n스킵한 스토리는<color=#A1E400FF>도감>회상</COLOR>에서 확인할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.commander_ability_replace_warning = {
 	tip = "상위 어빌리티가 습득 예정 어빌리티로 변경됩니다. 계속하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.help_command_room = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/commander_build",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_build"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_info",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_info"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_ability1",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_ability1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_ability2",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_ability2"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_ability3",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_ability3"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_up",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_up"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_skill1",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_skill1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_skill2",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_skill2"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_9",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_9"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/commander_10",
-				path = ""
+				path = "",
+				atlas = "helpbg/commander_10"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -10590,9 +12706,11 @@ _G.pg.base.gametip.help_command_room = {
 	}
 }
 
+
 _G.pg.base.gametip.commander_build_rate_tip = {
 	tip = "냥박스 출현 확률 : SSR 5%, SR 35%, R 60%"
 }
+
 
 _G.pg.base.gametip.help_activity_bossbattle = {
 	tip = {
@@ -10631,113 +12749,141 @@ _G.pg.base.gametip.help_activity_bossbattle = {
 	}
 }
 
+
 _G.pg.base.gametip.commander_is_in_fleet_already = {
 	tip = "이미 배치된 지휘냥입니다."
 }
+
 
 _G.pg.base.gametip.commander_material_is_in_fleet_tip = {
 	tip = "이미 배치된 지휘냥을 선택하셨습니다. 배치를 취소하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.commander_main_pos = {
 	tip = "사령냥"
 }
+
 
 _G.pg.base.gametip.commander_assistant_pos = {
 	tip = "참모냥"
 }
 
+
 _G.pg.base.gametip.comander_repalce_tip = {
 	tip = "선택하신 지휘냥은 이미\n$1의 $2에 위치하고 있습니다. \n변경을 진행하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.commander_lock_tip = {
 	tip = "지휘냥을 <color=#92fc63>잠금 상태</color>로 전환하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.commander_is_in_battle = {
 	tip = "지휘냥이 출격중입니다"
 }
+
 
 _G.pg.base.gametip.commander_rename_warning = {
 	tip = "개명 후엔 1일 뒤 다시 개명이 가능합니다. 지휘냥 이름을 $1로 변경하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.commander_rename_coldtime_tip = {
 	tip = "$1 후에 다시 개명이 가능합니다."
 }
+
 
 _G.pg.base.gametip.commander_rename_success_tip = {
 	tip = "이름 변경 성공"
 }
 
+
 _G.pg.base.gametip.amercian_notice_1 = {
 	tip = "여왕의 훈장 <color=#92fc63>$1</color>개를 소비하여 보급을 <color=#92fc63>$2</color>회 진행하시겠습니까? "
 }
+
 
 _G.pg.base.gametip.amercian_notice_2 = {
 	tip = "해당 단계에서 목표 보수를 획득하면 다음 단계로 넘어갈 수 있습니다."
 }
 
+
 _G.pg.base.gametip.amercian_notice_3 = {
 	tip = "이벤트 기간：2019.10.17~10.30"
 }
+
 
 _G.pg.base.gametip.amercian_notice_4 = {
 	tip = "배틀 스타"
 }
 
+
 _G.pg.base.gametip.amercian_notice_5 = {
 	tip = "해당 단계는 아직 개방되지 않았습니다."
 }
+
 
 _G.pg.base.gametip.amercian_notice_6 = {
 	tip = "소지 자원(연료 / 물자)가 한계치에 도달하여, 작전 보급을 통해 입수한 자원은 자동 파기 처리 됩니다. 작전 보급을 진행하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.ranking_word_1 = {
 	tip = "종합 전투력"
 }
+
 
 _G.pg.base.gametip.ranking_word_2 = {
 	tip = "수집률"
 }
 
+
 _G.pg.base.gametip.ranking_word_3 = {
 	tip = "誓约数"
 }
+
 
 _G.pg.base.gametip.ranking_word_4 = {
 	tip = "EX 포인트"
 }
 
+
 _G.pg.base.gametip.ranking_word_5 = {
 	tip = "랭킹"
 }
+
 
 _G.pg.base.gametip.ranking_word_6 = {
 	tip = "등급"
 }
 
+
 _G.pg.base.gametip.ranking_word_7 = {
 	tip = "최고 단계"
 }
+
 
 _G.pg.base.gametip.ranking_word_8 = {
 	tip = "지휘관 이름"
 }
 
+
 _G.pg.base.gametip.ranking_word_9 = {
 	tip = "점수"
 }
+
 
 _G.pg.base.gametip.ranking_word_10 = {
 	tip = "기여치"
 }
 
+
 _G.pg.base.gametip.spece_illegal_tip = {
 	tip = "이름에는 스페이스를 넣을 수 없습니다."
 }
+
 
 _G.pg.base.gametip.utaware_warmup_notice = {
 	tip = {
@@ -10773,6 +12919,7 @@ _G.pg.base.gametip.utaware_warmup_notice = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.utaware_formal_notice = {
 	tip = {
@@ -10812,169 +12959,211 @@ _G.pg.base.gametip.utaware_formal_notice = {
 	}
 }
 
+
 _G.pg.base.gametip.npc_learn_skill_tip = {
 	tip = "이벤트 종료 시 「정식 획득」 하지 않은 콜라보레이션 캐릭터는 모항에서 사라지게 됩니다. ※스킬 강화에 사용된 아이템은 반환되지 않습니다. 계속 하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.npc_upgrade_max_level = {
 	tip = "「정식 획득」하지 않은 콜라보레이션 캐릭터는 인식 각성을 진행할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.npc_propse_tip = {
 	tip = "「정식 획득」 하지 않은 콜라보레이션 캐릭터는 서약을 진행할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.npc_strength_tip = {
 	tip = "이벤트 종료 시 「정식 획득」 하지 않은 콜라보레이션 캐릭터는 모항에서 사라지게 됩니다. ※강화 및 한계돌파에 사용된 아이템은 반환되지 않습니다. 계속 하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.npc_breakout_tip = {
 	tip = "이벤트 종료 시 「정식 획득」 하지 않은 콜라보레이션 캐릭터는 모항에서 사라지게 됩니다. ※강화 및 한계돌파에 사용된 아이템은 반환되지 않습니다. 계속 하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.word_chuansong = {
 	tip = "코코포 코인"
 }
 
+
 _G.pg.base.gametip.npc_evaluation_tip = {
 	tip = " '임시 획득' 캐릭터는 코멘트 기능 이용을 할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.map_event_skip = {
 	tip = "이미 봤던 스토리 이벤트를 스킵한다"
 }
 
+
 _G.pg.base.gametip.map_event_stop_tip = {
 	tip = "대응되는 색의 <color=#92fc63>기관</color>을 밟아 통행 금지 상태 해제 가능"
 }
+
 
 _G.pg.base.gametip.map_event_stop_battle_tip = {
 	tip = "주위의 모든 <color=#ff5c5c>적</color>을 섬멸하여 통행 금지 상태 해제 가능"
 }
 
+
 _G.pg.base.gametip.map_event_stop_battle_tip_2 = {
 	tip = "<color=#ff5c5c>특수 적군</color> 모두 섬멸 시 통행 금지 상태 해제 가능"
 }
+
 
 _G.pg.base.gametip.map_event_stop_story_tip = {
 	tip = "근처 <color=#92fc63>스토리 지점</color>에서 통행 금지 상태 해제 가능"
 }
 
+
 _G.pg.base.gametip.map_event_save_nekone = {
 	tip = "<color=#92fc63>네코네</color>의 구출에 성공했습니다!"
 }
+
 
 _G.pg.base.gametip.map_event_save_rurutie = {
 	tip = "<color=#92fc63>루루티에</color>의 구출에 성공했습니다!"
 }
 
+
 _G.pg.base.gametip.map_event_memory_collected = {
 	tip = "스토리 <color=#92fc63>「$1」</color> 개방 성공!"
 }
+
 
 _G.pg.base.gametip.map_event_save_kizuna = {
 	tip = "<color=#92fc63>키즈나 아이</color>를 성공적으로 구조했습니다"
 }
 
+
 _G.pg.base.gametip.five_choose_one = {
 	tip = "함께 크리스마스를 보낼 함선소녀는 1명만 초대할 수 있습니다.\n<color=#92fc63>$1</color>를 초대하시겠습니까?\n초대 후엔 해당 캐릭터와 답례를 획득할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.ship_preference_common = {
 	tip = "<color=#92fc63>$1</color>의 즐겨찾기 등록이 완료되었습니다."
 }
 
+
 _G.pg.base.gametip.draw_big_luck_1 = {
 	tip = "새해엔 운수대통이다냥~!"
 }
+
 
 _G.pg.base.gametip.draw_big_luck_2 = {
 	tip = "운이 좋구냥! 조금 부럽다냥~"
 }
 
+
 _G.pg.base.gametip.draw_big_luck_3 = {
 	tip = "오늘은 분명 좋은 일이 있을 거다냥!"
 }
+
 
 _G.pg.base.gametip.draw_medium_luck_1 = {
 	tip = "오늘은 행운이 넘치는 하루가 될 것 같다냥!"
 }
 
+
 _G.pg.base.gametip.draw_medium_luck_2 = {
 	tip = "행운이 계속될 때 열심히 노력해보자냥!"
 }
+
 
 _G.pg.base.gametip.draw_medium_luck_3 = {
 	tip = "아카시한테도 운 좀 나눠줘냥!"
 }
 
+
 _G.pg.base.gametip.draw_little_luck_1 = {
 	tip = "앞으로 운이 좋아질 거다냥!"
 }
+
 
 _G.pg.base.gametip.draw_little_luck_2 = {
 	tip = "운도 노력도 전부 중요하다냥~"
 }
 
+
 _G.pg.base.gametip.draw_little_luck_3 = {
 	tip = "아카시의 가게에 오면 분명 운이 좋아질 거다냥~"
 }
+
 
 _G.pg.base.gametip.ship_preference_non = {
 	tip = "<color=#92fc63>$1</color>의 즐겨찾기 등록이 취소되었습니다."
 }
 
+
 _G.pg.base.gametip.school_title_dajiangtang = {
 	tip = "대강당"
 }
+
 
 _G.pg.base.gametip.school_title_zhihuimiao = {
 	tip = "지휘냥"
 }
 
+
 _G.pg.base.gametip.school_title_shitang = {
 	tip = "해군식당"
 }
+
 
 _G.pg.base.gametip.school_title_xiaomaibu = {
 	tip = "해군매점"
 }
 
+
 _G.pg.base.gametip.school_title_shangdian = {
 	tip = "보급상점"
 }
+
 
 _G.pg.base.gametip.school_title_xueyuan = {
 	tip = "전술학원"
 }
 
+
 _G.pg.base.gametip.school_title_shoucang = {
 	tip = "보관실"
 }
+
 
 _G.pg.base.gametip.school_title_xiaoyouxiting = {
 	tip = "게임 로비"
 }
 
+
 _G.pg.base.gametip.tag_level_fighting = {
 	tip = "공략 중"
 }
+
 
 _G.pg.base.gametip.tag_level_oni = {
 	tip = "특수 단위"
 }
 
+
 _G.pg.base.gametip.tag_level_bomb = {
 	tip = "로열 네이비 폭격"
 }
+
 
 _G.pg.base.gametip.ui_word_levelui2_inevent = {
 	tip = "작전 중"
 }
 
+
 _G.pg.base.gametip.exit_backyard_exp_display = {
 	tip = "$1이(가) 훈련에서 $2의 경험치를 획득하였습니다."
 }
+
 
 _G.pg.base.gametip.help_monopoly = {
 	tip = {
@@ -11002,59 +13191,61 @@ _G.pg.base.gametip.help_monopoly = {
 		{
 			info = " ：    물자를 소량 획득할 수 있습니다.；",
 			icon = {
-				path = "jinbi",
+				posX = 0,
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.19,
-				posX = 0
+				path = "jinbi"
 			}
 		},
 		{
 			info = " ：    연료를 소량 획득할 수 있습니다.；",
 			icon = {
-				path = "shiyou",
+				posX = 0,
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.19,
-				posX = 0
+				path = "shiyou"
 			}
 		},
 		{
 			info = " ：    랜덤한 미니 이벤트가 발생합니다.；",
 			icon = {
-				path = "minyun",
+				posX = 0,
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.19,
-				posX = 0
+				path = "minyun"
 			}
 		},
 		{
 			info = " ：    랜덤한 아이템을 획득할 수 있습니다.；",
 			icon = {
-				path = "daoju",
+				posX = 0,
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.19,
-				posX = 0
+				path = "daoju"
 			}
 		},
 		{
 			info = " ：    랜덤한 이동 이벤트；",
 			icon = {
-				path = "teshu",
+				posX = 0,
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.19,
-				posX = 0
+				path = "teshu"
 			}
 		}
 	}
 }
 
+
 _G.pg.base.gametip.md5_error = {
 	tip = "에러가 발생했습니다. 게임을 재기동하여 주십시오."
 }
+
 
 _G.pg.base.gametip.world_boss_help = {
 	tip = {
@@ -11131,17 +13322,21 @@ _G.pg.base.gametip.world_boss_help = {
 	}
 }
 
+
 _G.pg.base.gametip.world_boss_tip = {
 	tip = "「<color=#7e7e7f>$1</color>」훈련을 위해<color=#8299bc>$2</color>기여했다"
 }
+
 
 _G.pg.base.gametip.world_boss_award_limit = {
 	tip = "훈련 진도가<color=#FFDE00FF>$1%</color>에 도달 후 잠금 해제"
 }
 
+
 _G.pg.base.gametip.backyard_is_loading = {
 	tip = "다음 준비중, 잠시만 기다려주세요 "
 }
+
 
 _G.pg.base.gametip.levelScene_loop_help_tip = {
 	tip = {
@@ -11171,53 +13366,66 @@ _G.pg.base.gametip.levelScene_loop_help_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.no_airspace_competition = {
 	tip = "제공전 없음"
 }
+
 
 _G.pg.base.gametip.air_supremacy_value = {
 	tip = "제공수치"
 }
 
+
 _G.pg.base.gametip.read_the_user_agreement = {
 	tip = "먼저 사용자 규약을 읽어주세요."
 }
+
 
 _G.pg.base.gametip.award_max_warning = {
 	tip = "아래의 보상은 상한을 초과하여 <color=#ff5c5c>획득할 수 없습니다</color>. 그래도 수령하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.sub_item_warning = {
 	tip = "다음 물품을 제출하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.select_award_warning = {
 	tip = "원하시는 보상을 선택해주세요."
 }
 
+
 _G.pg.base.gametip.no_item_selected_tip = {
 	tip = "보상을 선택하지 않아 수령을 포기합니다."
 }
+
 
 _G.pg.base.gametip.backyard_traning_tip = {
 	tip = "숙소에서 훈련 중인 함선 소녀는 컨디션이 회복되며, 경험치를 얻습니다."
 }
 
+
 _G.pg.base.gametip.backyard_rest_tip = {
 	tip = "숙소에서 휴식 중인 함선 소녀는 컨디션이 회복됩니다."
 }
+
 
 _G.pg.base.gametip.backyard_class_tip = {
 	tip = "함선소녀가 수업에 참가하면 경험치가 상승합니다"
 }
 
+
 _G.pg.base.gametip.medal_notice_1 = {
 	tip = "최고 등급만 표시"
 }
 
+
 _G.pg.base.gametip.medal_notice_2 = {
 	tip = "이미 선택"
 }
+
 
 _G.pg.base.gametip.medal_help_tip = {
 	tip = {
@@ -11269,117 +13477,146 @@ _G.pg.base.gametip.medal_help_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.trophy_achieved = {
 	tip = "훈장 잠금해제!"
 }
+
 
 _G.pg.base.gametip.text_shop = {
 	tip = "상점"
 }
 
+
 _G.pg.base.gametip.text_confirm = {
 	tip = "확인"
 }
+
 
 _G.pg.base.gametip.text_cancel = {
 	tip = "취소"
 }
 
+
 _G.pg.base.gametip.text_cancel_fight = {
 	tip = "전투 나가기"
 }
+
 
 _G.pg.base.gametip.text_goon_fight = {
 	tip = "전투 계속하기"
 }
 
+
 _G.pg.base.gametip.text_exit = {
 	tip = "나가기"
 }
+
 
 _G.pg.base.gametip.text_clear = {
 	tip = "정리"
 }
 
+
 _G.pg.base.gametip.text_apply = {
 	tip = "신청"
 }
+
 
 _G.pg.base.gametip.text_buy = {
 	tip = "구매"
 }
 
+
 _G.pg.base.gametip.text_forward = {
 	tip = "바로가기"
 }
+
 
 _G.pg.base.gametip.text_prepage = {
 	tip = "이전 장"
 }
 
+
 _G.pg.base.gametip.text_nextpage = {
 	tip = "다음 장"
 }
+
 
 _G.pg.base.gametip.text_exchange = {
 	tip = "교환"
 }
 
+
 _G.pg.base.gametip.text_retreat = {
 	tip = "퇴각"
 }
+
 
 _G.pg.base.gametip.text_goto = {
 	tip = "확 인"
 }
 
+
 _G.pg.base.gametip.level_scene_title_word_1 = {
 	tip = "색적치:"
 }
+
 
 _G.pg.base.gametip.level_scene_title_word_2 = {
 	tip = "해역 위협도:"
 }
 
+
 _G.pg.base.gametip.level_scene_title_word_3 = {
 	tip = "제공수치:"
 }
+
 
 _G.pg.base.gametip.level_scene_title_word_4 = {
 	tip = "공역:"
 }
 
+
 _G.pg.base.gametip.level_scene_title_word_5 = {
 	tip = "추천："
 }
+
 
 _G.pg.base.gametip.ambush_display_0 = {
 	tip = "접적"
 }
 
+
 _G.pg.base.gametip.ambush_display_1 = {
 	tip = "안전"
 }
+
 
 _G.pg.base.gametip.ambush_display_2 = {
 	tip = "낮음"
 }
 
+
 _G.pg.base.gametip.ambush_display_3 = {
 	tip = "보통"
 }
+
 
 _G.pg.base.gametip.ambush_display_4 = {
 	tip = "중간"
 }
 
+
 _G.pg.base.gametip.ambush_display_5 = {
 	tip = "높음"
 }
 
+
 _G.pg.base.gametip.ambush_display_6 = {
 	tip = "위험"
 }
+
 
 _G.pg.base.gametip.black_white_grid_notice = {
 	tip = {
@@ -11420,21 +13657,26 @@ _G.pg.base.gametip.black_white_grid_notice = {
 	}
 }
 
+
 _G.pg.base.gametip.black_white_grid_reset = {
 	tip = "초기화하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.black_white_grid_switch_tip = {
 	tip = "이번 게임이 종료되지 않아 뒤집을 수 없습니다"
 }
 
+
 _G.pg.base.gametip.no_way_to_escape = {
 	tip = "탈출할 수 있는 경로가 없습니다."
 }
 
+
 _G.pg.base.gametip.word_attr_ac = {
 	tip = "제공"
 }
+
 
 _G.pg.base.gametip.help_battle_ac = {
 	tip = {
@@ -11469,6 +13711,7 @@ P.S. 아군의 대공은 효율적으로 적의 제공수치를 낮춘다!
 	}
 }
 
+
 _G.pg.base.gametip.help_attribute_dodge_limit = {
 	tip = {
 		{
@@ -11482,25 +13725,31 @@ _G.pg.base.gametip.help_attribute_dodge_limit = {
 	}
 }
 
+
 _G.pg.base.gametip.refuse_friend = {
 	tip = "거절하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.refuse_and_add_into_bl = {
 	tip = "거절 및 차단하기 "
 }
 
+
 _G.pg.base.gametip.tech_simulate_closed = {
 	tip = "리뷰 기능(모의전)이 개방되지 않았습니다."
 }
+
 
 _G.pg.base.gametip.tech_simulate_quit = {
 	tip = "리뷰 기능(모의전)을 종료하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.technology_uplevel_error_no_res = {
 	tip = "<color=#92fc63>$1</color>물자를 소모하여 기술 레벨을 해제하시겠습니까?\n필요시간 : <color=#92fc63>$2</color>\n레벨변화 : <color=#92fc63>Lv.$3->Lv.$4</color>"
 }
+
 
 _G.pg.base.gametip.help_technologytree = {
 	tip = {
@@ -11539,25 +13788,31 @@ Z23(<color=#ff5c5c>메탈 블러드</color>) 기술 Pt <color=#92fc63>+1</color>
 	}
 }
 
+
 _G.pg.base.gametip.tech_change_version_mark = {
 	tip = "연구 지향"
 }
+
 
 _G.pg.base.gametip.technology_uplevel_error_studying = {
 	tip = "<color=#92fc63>$1</color>—진영 기술을 강화 중입니다.(진영 기술은 동시에 하나만 강화할 수 있습니다)"
 }
 
+
 _G.pg.base.gametip.fate_attr_word = {
 	tip = "용골편찬에 따른 강화 효과："
 }
+
 
 _G.pg.base.gametip.fate_phase_word = {
 	tip = "연구 진척"
 }
 
+
 _G.pg.base.gametip.blueprint_simulation_confirm = {
 	tip = "전술 모의전을 시작하시겠습니까?(전술 시뮬레이션 중 아군 함대는 특수 버프를 받게되며 <color=#ff5c5c>실제 성능은 획득 함선을 기준으로 측정됩니다.</color>"
 }
+
 
 _G.pg.base.gametip.blueprint_simulation_confirm_19901 = {
 	tip = [[
@@ -11569,6 +13824,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_19901 = {
 </color></size>]]
 }
 
+
 _G.pg.base.gametip.blueprint_simulation_confirm_19902 = {
 	tip = [[
 <size=36>전술 모의전을 시작하시겠습니까?(전술 시뮬레이션 중 아군 함대는 특수 버프를 받게되며 <color=#ff5c5c>실제 성능은 획득 함선을 기준으로 측정됩니다.</color>
@@ -11578,6 +13834,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_19902 = {
 40mm 4연장 보포스 기관포
 </color></size>]]
 }
+
 
 _G.pg.base.gametip.blueprint_simulation_confirm_39903 = {
 	tip = [[
@@ -11589,6 +13846,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_39903 = {
 </color></size>]]
 }
 
+
 _G.pg.base.gametip.blueprint_simulation_confirm_39904 = {
 	tip = [[
 <size=36>전술 모의전을 시작하시겠습니까?(전술 시뮬레이션 중 아군 함대는 특수 버프를 받게되며 <color=#ff5c5c>실제 성능은 획득 함선을 기준으로 측정됩니다.</color>
@@ -11598,6 +13856,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_39904 = {
 시제형 5식 40mm 고사기관포
 </color></size>]]
 }
+
 
 _G.pg.base.gametip.blueprint_simulation_confirm_49902 = {
 	tip = [[
@@ -11609,6 +13868,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_49902 = {
 </color></size>]]
 }
 
+
 _G.pg.base.gametip.blueprint_simulation_confirm_99901 = {
 	tip = [[
 <size=36>전술 모의전을 시작하시겠습니까?(전술 시뮬레이션 중 아군 함대는 특수 버프를 받게되며 <color=#ff5c5c>실제 성능은 획득 함선을 기준으로 측정됩니다.</color>
@@ -11618,6 +13878,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_99901 = {
 2연장 37mm 고사포 Mle1936
 </color></size>]]
 }
+
 
 _G.pg.base.gametip.blueprint_simulation_confirm_29903 = {
 	tip = [[
@@ -11631,6 +13892,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_29903 = {
 </color></size>]]
 }
 
+
 _G.pg.base.gametip.blueprint_simulation_confirm_29904 = {
 	tip = [[
 <size=28>
@@ -11642,6 +13904,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_29904 = {
 6연장 40mm 보포스 대공포
 </color></size>]]
 }
+
 
 _G.pg.base.gametip.blueprint_simulation_confirm_49903 = {
 	tip = [[
@@ -11655,6 +13918,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_49903 = {
 </color></size>]]
 }
 
+
 _G.pg.base.gametip.blueprint_simulation_confirm_49904 = {
 	tip = [[
 <size=28>
@@ -11666,6 +13930,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_49904 = {
 2연장 105mmSKC 고각포
 </color></size>]]
 }
+
 
 _G.pg.base.gametip.blueprint_simulation_confirm_89902 = {
 	tip = [[
@@ -11679,6 +13944,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_89902 = {
 </color></size>]]
 }
 
+
 _G.pg.base.gametip.blueprint_simulation_confirm_19903 = {
 	tip = [[
 <size=28>
@@ -11690,6 +13956,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_19903 = {
 4연장 28mm “시카고 피아노”
 </color></size>]]
 }
+
 
 _G.pg.base.gametip.blueprint_simulation_confirm_39905 = {
 	tip = [[
@@ -11703,6 +13970,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_39905 = {
 </color></size>]]
 }
 
+
 _G.pg.base.gametip.blueprint_simulation_confirm_49905 = {
 	tip = [[
 <size=28>
@@ -11714,6 +13982,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_49905 = {
 연장 105mm SKC 고사포
 </color></size>]]
 }
+
 
 _G.pg.base.gametip.blueprint_simulation_confirm_49906 = {
 	tip = [[
@@ -11727,6 +13996,7 @@ Ju-87 D-4
 </color></size>]]
 }
 
+
 _G.pg.base.gametip.blueprint_simulation_confirm_69901 = {
 	tip = [[
 <size=28>
@@ -11738,6 +14008,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_69901 = {
 시제형 연장 90mm 고각포 Model 1939
 </color></size>]]
 }
+
 
 _G.pg.base.gametip.blueprint_simulation_confirm_29905 = {
 	tip = [[
@@ -11751,6 +14022,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_29905 = {
 </color></size>]]
 }
 
+
 _G.pg.base.gametip.blueprint_simulation_confirm_49907 = {
 	tip = [[
 <size=28>
@@ -11762,6 +14034,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_49907 = {
 시제형 4연장 30mm 기관포
 </color></size>]]
 }
+
 
 _G.pg.base.gametip.blueprint_simulation_confirm_59901 = {
 	tip = [[
@@ -11775,6 +14048,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_59901 = {
 </color></size>]]
 }
 
+
 _G.pg.base.gametip.blueprint_simulation_confirm_79901 = {
 	tip = [[
 <size=28>
@@ -11786,6 +14060,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_79901 = {
 시제형 VIT-2 (VK-107)
 </color></size>]]
 }
+
 
 _G.pg.base.gametip.blueprint_simulation_confirm_89903 = {
 	tip = [[
@@ -11799,6 +14074,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_89903 = {
 </color></size>]]
 }
 
+
 _G.pg.base.gametip.blueprint_simulation_confirm_19904 = {
 	tip = [[
 <size=28>탄막 확인 기능(모의전)을 기동하시겠습니까? 
@@ -11808,6 +14084,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_19904 = {
 F8F 베어캣
 127mm 연장 양용포 MK12(시한신관)</color></size>]]
 }
+
 
 _G.pg.base.gametip.blueprint_simulation_confirm_39906 = {
 	tip = [[
@@ -11819,6 +14096,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_39906 = {
 100mm 연장 고각포</color></size>]]
 }
 
+
 _G.pg.base.gametip.blueprint_simulation_confirm_49908 = {
 	tip = [[
 <size=28>탄막 확인 기능(모의전)을 기동하시겠습니까? 
@@ -11828,6 +14106,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_49908 = {
 533mm 4연장 자기 어뢰
 시제형 203mm SKC 3연장포改</color></size>]]
 }
+
 
 _G.pg.base.gametip.blueprint_simulation_confirm_49909 = {
 	tip = [[
@@ -11839,6 +14118,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_49909 = {
 시제형 55mm Gerät 58 대공포</color></size>]]
 }
 
+
 _G.pg.base.gametip.blueprint_simulation_confirm_99902 = {
 	tip = [[
 <size=28>탄막 확인 기능(모의전)을 기동하시겠습니까? 
@@ -11849,17 +14129,21 @@ _G.pg.base.gametip.blueprint_simulation_confirm_99902 = {
 2연장 보포스 40mm 기관포</color></size>]]
 }
 
+
 _G.pg.base.gametip.electrotherapy_wanning = {
 	tip = "안전 구역의 범위가 제한됩니다."
 }
+
 
 _G.pg.base.gametip.siren_chase_warning = {
 	tip = "위험 구역 확장 중"
 }
 
+
 _G.pg.base.gametip.memorybook_get_award_tip = {
 	tip = "항구의 추억'을 모두 수집하면 '키즈나 아이 기념장'을 획득하실 수 있습니다"
 }
+
 
 _G.pg.base.gametip.memorybook_notice = {
 	tip = {
@@ -11882,13 +14166,16 @@ _G.pg.base.gametip.memorybook_notice = {
 	}
 }
 
+
 _G.pg.base.gametip.word_votes = {
 	tip = "득표 수량"
 }
 
+
 _G.pg.base.gametip.number_0 = {
 	tip = "0"
 }
+
 
 _G.pg.base.gametip.intimacy_desc_propose_vertical = {
 	tip = [[
@@ -11904,141 +14191,176 @@ _G.pg.base.gametip.intimacy_desc_propose_vertical = {
  서약일: $1 ]]
 }
 
+
 _G.pg.base.gametip.without_selected_ship = {
 	tip = "조건에 맞는 함선이 없습니다. "
 }
+
 
 _G.pg.base.gametip.index_all = {
 	tip = "전부"
 }
 
+
 _G.pg.base.gametip.index_fleetfront = {
 	tip = "선봉(전열)"
 }
+
 
 _G.pg.base.gametip.index_fleetrear = {
 	tip = "주력(후열)"
 }
 
+
 _G.pg.base.gametip.index_shipType_quZhu = {
 	tip = "구축"
 }
+
 
 _G.pg.base.gametip.index_shipType_qinXun = {
 	tip = "경순"
 }
 
+
 _G.pg.base.gametip.index_shipType_zhongXun = {
 	tip = "중순"
 }
+
 
 _G.pg.base.gametip.index_shipType_zhanLie = {
 	tip = "전함"
 }
 
+
 _G.pg.base.gametip.index_shipType_hangMu = {
 	tip = "항모"
 }
+
 
 _G.pg.base.gametip.index_shipType_weiXiu = {
 	tip = "공작"
 }
 
+
 _G.pg.base.gametip.index_shipType_qianTing = {
 	tip = "잠수"
 }
+
 
 _G.pg.base.gametip.index_other = {
 	tip = "기타"
 }
 
+
 _G.pg.base.gametip.index_rare2 = {
 	tip = "N"
 }
+
 
 _G.pg.base.gametip.index_rare3 = {
 	tip = "R"
 }
 
+
 _G.pg.base.gametip.index_rare4 = {
 	tip = "SR"
 }
+
 
 _G.pg.base.gametip.index_rare5 = {
 	tip = "SSR"
 }
 
+
 _G.pg.base.gametip.index_rare6 = {
 	tip = "UR"
 }
+
 
 _G.pg.base.gametip.warning_mail_max_1 = {
 	tip = "우편 소지량이 한계치(<color=#FF5C5C>$1</color>/1000)에 가까워지고 있습니다. 우편을 정리해주십시오."
 }
 
+
 _G.pg.base.gametip.warning_mail_max_2 = {
 	tip = "우편 소지량이 한계치에 달했습니다. 우편을 정리해주십시오."
 }
+
 
 _G.pg.base.gametip.return_award_bind_success = {
 	tip = "연동 완료"
 }
 
+
 _G.pg.base.gametip.return_award_bind_erro = {
 	tip = "연동 실패 $1"
 }
+
 
 _G.pg.base.gametip.rename_commander_erro = {
 	tip = "닉네임 변경 실패 $1"
 }
 
+
 _G.pg.base.gametip.change_display_medal_success = {
 	tip = "훈장 전시 수정 완료"
 }
+
 
 _G.pg.base.gametip.limit_skin_time_day = {
 	tip = "남은 시간: $1일"
 }
 
+
 _G.pg.base.gametip.limit_skin_time_day_min = {
 	tip = "남은 시간: $1시간 $2분"
 }
+
 
 _G.pg.base.gametip.limit_skin_time_min = {
 	tip = "남은 시간: $1분"
 }
 
+
 _G.pg.base.gametip.limit_skin_time_overtime = {
 	tip = "만료되었습니다."
 }
+
 
 _G.pg.base.gametip.limit_skin_time_before_maintenance = {
 	tip = "$1월 $2일 업데이트 전"
 }
 
+
 _G.pg.base.gametip.award_window_pt_title = {
 	tip = "현재 PT:"
 }
+
 
 _G.pg.base.gametip.return_have_participated_in_act = {
 	tip = "해당 이벤트를 이미 참여하셨습니다."
 }
 
+
 _G.pg.base.gametip.input_returner_code = {
 	tip = "터치하여 UID 작성"
 }
+
 
 _G.pg.base.gametip.dress_up_success = {
 	tip = "데코레이션 완료"
 }
 
+
 _G.pg.base.gametip.already_have_the_skin = {
 	tip = "해당 스킨 보유중"
 }
 
+
 _G.pg.base.gametip.exchange_limit_skin_tip = {
 	tip = "스킨 체험권x$1을 소모하여\n스킨 [$2]($3일 $4시간)으로 교환하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.returner_help = {
 	tip = {
@@ -12064,29 +14386,36 @@ _G.pg.base.gametip.returner_help = {
 	}
 }
 
+
 _G.pg.base.gametip.attire_time_stamp = {
 	tip = "$1일 $2시간 $3분"
 }
+
 
 _G.pg.base.gametip.pray_build_select_ship_instruction = {
 	tip = "함선 두 명 선택"
 }
 
+
 _G.pg.base.gametip.warning_pray_build_pool = {
 	tip = "희망 건조 캐릭터 확인 후 <color=#FF5C5C>변경하실 수 없습니다</color>.\n선택하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.error_pray_select_ship_max = {
 	tip = "더 이상 선택하실 수 없습니다"
 }
 
+
 _G.pg.base.gametip.tip_pray_build_pool_success = {
 	tip = "구성 완료"
 }
 
+
 _G.pg.base.gametip.tip_pray_build_pool_fail = {
 	tip = "구성 실패"
 }
+
 
 _G.pg.base.gametip.pray_build_help = {
 	tip = {
@@ -12130,33 +14459,41 @@ _G.pg.base.gametip.pray_build_help = {
 	}
 }
 
+
 _G.pg.base.gametip.bismarck_award_tip = {
 	tip = "모든 조건을 달성하면 보상을 획득하실 수 있습니다"
 }
+
 
 _G.pg.base.gametip.bismarck_chapter_desc = {
 	tip = "[메탈 블러드, 음표 & 맹세]에 참여하여 임무를 완료하면 레전더리 아이템을 획득하실 수 있습니다. "
 }
 
+
 _G.pg.base.gametip.returner_push_success = {
 	tip = "발령 성공"
 }
+
 
 _G.pg.base.gametip.returner_max_count = {
 	tip = "더 이상 초대할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.returner_push_tip = {
 	tip = "해당 기능은 당신의 UID를 시스템에 입력해 귀환 지휘관들과 빠르게 매칭을 제공합니다. 게시 후 <color=#FF5C5C>취소 할 수 없습니다.</color>\n게시하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.returner_match_tip = {
 	tip = "매칭 후, 랜덤으로 시스템에 있는 모집자의 UID 정보와 연결됩니다. 확인을 터치해 연결하면 <color=#FF5C5C>변경할 수 없습니다.</color> 연결 하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.return_lock_tip = {
 	tip = "기능 점검 중. 11월 24일 해제 예정"
 }
+
 
 _G.pg.base.gametip.challenge_help = {
 	tip = {
@@ -12193,37 +14530,46 @@ _G.pg.base.gametip.challenge_help = {
 	}
 }
 
+
 _G.pg.base.gametip.challenge_casual_reset = {
 	tip = "지난 챌린지가 정상적으로 종료되지 않았습니다, 데이터가 곧 결산됩니다.\n누적 포인트:$1"
 }
+
 
 _G.pg.base.gametip.challenge_infinite_reset = {
 	tip = "지난 챌린지가 정상적으로 종료되지 않았습니다, 데이터가 곧 결산됩니다.\n클리어 스테이지:$1"
 }
 
+
 _G.pg.base.gametip.challenge_normal_reset = {
 	tip = "이번 챌린지를 종료하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.challenge_casual_click_switch = {
 	tip = "현재 모드:일반 모드\n누적 포인트:$1\n모드를 전환하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.challenge_infinite_click_switch = {
 	tip = "현재 모드:무한 모드\n현재 스테이지:$1\n모드를 전환하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.challenge_season_update = {
 	tip = "신규 챌린지가 이미 개방되었습니다."
 }
 
+
 _G.pg.base.gametip.challenge_season_update_casual_clear = {
 	tip = "\"누적 포인트:$1\n신규 챌린지가 이미 개방되었습니다. 이번 챌린지 데이터는 통계에 합산되지 않습니다.\n계속 도전하시겠습니까?\""
 }
 
+
 _G.pg.base.gametip.challenge_season_update_infinite_clear = {
 	tip = "\"현재 스테이지:$1\n신규 챌린지가 이미 개방되었습니다. 이번 챌린지 데이터는 통계에 합산되지 않습니다.\n계속 도전하시겠습니까?\""
 }
+
 
 _G.pg.base.gametip.challenge_season_update_casual_switch = {
 	tip = [[
@@ -12233,6 +14579,7 @@ _G.pg.base.gametip.challenge_season_update_casual_switch = {
 현재 포인트를 결산하고 모드를 전환하시겠습니까??"]]
 }
 
+
 _G.pg.base.gametip.challenge_season_update_infinite_switch = {
 	tip = [[
 "현재 모드:무한 모드
@@ -12241,169 +14588,211 @@ _G.pg.base.gametip.challenge_season_update_infinite_switch = {
 현재 포인트를 결산하고 모드를 전환하시겠습니까??"]]
 }
 
+
 _G.pg.base.gametip.challenge_combat_score = {
 	tip = "현 스테이지 포인트：$1"
 }
+
 
 _G.pg.base.gametip.challenge_share_progress = {
 	tip = "이번 한계 챌린지 진도:"
 }
 
+
 _G.pg.base.gametip.challenge_share = {
 	tip = "스테이지"
 }
+
 
 _G.pg.base.gametip.challenge_expire_warn = {
 	tip = "신규 챌린지가 이미 개방되었습니다. 이번 챌린지 데이터는 통계에 합산되지 않습니다."
 }
 
+
 _G.pg.base.gametip.challenge_normal_tip = {
 	tip = "스테이지 클리어와 최고 포인트 기록 갱신에 도전하고, 보상을 획득하세요!"
 }
+
 
 _G.pg.base.gametip.challenge_unlimited_tip = {
 	tip = "자신의 한계에 도전하고, 더 많은 스테이지를 돌파하세요!"
 }
 
+
 _G.pg.base.gametip.commander_prefab_rename_success = {
 	tip = "이름 변경 성공"
 }
+
 
 _G.pg.base.gametip.commander_prefab_name = {
 	tip = "미리 설정한 편대 $1"
 }
 
+
 _G.pg.base.gametip.commander_prefab_rename_time = {
 	tip = "$1 초 후 이름을 변경할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.commander_build_solt_deficiency = {
 	tip = "잔여 공간이 없습니다."
 }
 
+
 _G.pg.base.gametip.commander_select_box_tip = {
 	tip = "총 $1 개 냥박스 선택, 훈련 시작 후 취소할 수 없습니다. 확인 하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.challenge_end_tip = {
 	tip = "이벤트가 종료되었습니다."
 }
 
+
 _G.pg.base.gametip.pass_times = {
 	tip = "클리어 횟수 "
 }
+
 
 _G.pg.base.gametip.list_empty_tip_billboardui = {
 	tip = "랭킹 데이터 없음"
 }
 
+
 _G.pg.base.gametip.list_empty_tip_equipmentdesignui = {
 	tip = "설계도 미획득"
 }
+
 
 _G.pg.base.gametip.list_empty_tip_storehouseui_equip = {
 	tip = "조건에 맞는 장비 없음"
 }
 
+
 _G.pg.base.gametip.list_empty_tip_storehouseui_item = {
 	tip = "재료 미획득"
 }
+
 
 _G.pg.base.gametip.list_empty_tip_eventui = {
 	tip = "진행 가능한 의뢰 없음"
 }
 
+
 _G.pg.base.gametip.list_empty_tip_guildrequestui = {
 	tip = "함대 신청 없음"
 }
+
 
 _G.pg.base.gametip.list_empty_tip_joinguildui = {
 	tip = "조건에 맞는 함대 없음"
 }
 
+
 _G.pg.base.gametip.list_empty_tip_friendui = {
 	tip = "친구 없음"
 }
+
 
 _G.pg.base.gametip.list_empty_tip_friendui_search = {
 	tip = "조건에 맞는 지휘관 찾을 수 없음"
 }
 
+
 _G.pg.base.gametip.list_empty_tip_friendui_request = {
 	tip = "친구 신청 없음"
 }
+
 
 _G.pg.base.gametip.list_empty_tip_friendui_black = {
 	tip = "블랙 리스트 없음"
 }
 
+
 _G.pg.base.gametip.list_empty_tip_dockyardui = {
 	tip = "조건에 맞는 함선 없음"
 }
+
 
 _G.pg.base.gametip.list_empty_tip_taskscene = {
 	tip = "진행 중인 임무 없음"
 }
 
+
 _G.pg.base.gametip.empty_tip_mailboxui = {
 	tip = "우편 미획득"
 }
+
 
 _G.pg.base.gametip.words_settings_unlock_ship = {
 	tip = "캐릭터 잠금 해제"
 }
 
+
 _G.pg.base.gametip.words_settings_resolve_equip = {
 	tip = "장비 분해"
 }
+
 
 _G.pg.base.gametip.words_settings_unlock_commander = {
 	tip = "지휘냥 잠금 해제"
 }
 
+
 _G.pg.base.gametip.words_settings_create_inherit = {
 	tip = "상속 코드 생성"
 }
+
 
 _G.pg.base.gametip.tips_fail_secondarypwd_much_times = {
 	tip = "2차 비밀번호 오류 횟수 초과. <color=#92FC63>%s</color>후 다시 시도해 보세요."
 }
 
+
 _G.pg.base.gametip.words_desc_unlock = {
 	tip = "해당 조작은 비밀번호 입력 확인이 필요합니다."
 }
+
 
 _G.pg.base.gametip.words_desc_resolve_equip = {
 	tip = "해당 조작은 비밀번호 입력 확인이 필요합니다."
 }
 
+
 _G.pg.base.gametip.words_desc_create_inherit = {
 	tip = "해당 조작은 비밀번호 입력 확인이 필요합니다."
 }
+
 
 _G.pg.base.gametip.words_desc_close_password = {
 	tip = "2차 비밀번호를 사용 중지하려면 비밀번호를 입력해주세요."
 }
 
+
 _G.pg.base.gametip.words_desc_change_settings = {
 	tip = "2차 비밀번호 제한 범위를 변경하려면 비밀번호를 입력하세요."
 }
+
 
 _G.pg.base.gametip.words_set_password = {
 	tip = "비밀번호 설정"
 }
 
+
 _G.pg.base.gametip.words_information = {
 	tip = "정보"
 }
+
 
 _G.pg.base.gametip.Word_Ship_Exp_Buff = {
 	tip = "경험치＋ "
 }
 
+
 _G.pg.base.gametip.secondarypassword_incorrectpwd_error = {
 	tip = "비밀번호가 정확하지 않습니다. 재시도 가능 횟수: <color=FF5C5CFF>%d</color>회"
 }
+
 
 _G.pg.base.gametip.secondary_password_help = {
 	tip = {
@@ -12432,6 +14821,7 @@ _G.pg.base.gametip.secondary_password_help = {
 	}
 }
 
+
 _G.pg.base.gametip.comic_help = {
 	tip = {
 		{
@@ -12446,17 +14836,21 @@ _G.pg.base.gametip.comic_help = {
 	}
 }
 
+
 _G.pg.base.gametip.secondarypassword_illegal_tip = {
 	tip = "부적합한 내용입니다. 다시 입력해 주세요. "
 }
+
 
 _G.pg.base.gametip.pt_cosume = {
 	tip = "소모 $1"
 }
 
+
 _G.pg.base.gametip.secondarypassword_confirm_tips = {
 	tip = "비밀번호 입력 알림을 다시 확인해 주세요.\n<color=#FFDE38>“%s”</color>"
 }
+
 
 _G.pg.base.gametip.help_tempesteve = {
 	tip = {
@@ -12492,65 +14886,81 @@ P7 지정 스테이지 클리어]]
 	}
 }
 
+
 _G.pg.base.gametip.word_rest_times = {
 	tip = "<color=#FFDE38FF>잔여 횟수: %s회</color> "
 }
+
 
 _G.pg.base.gametip.common_buy_gold_success = {
 	tip = "<color=#92fc63>$1</color> 물자 구매 성공! "
 }
 
+
 _G.pg.base.gametip.harbour_bomb_tip = {
 	tip = "항구가 파괴되었습니다, 임무 실패…"
 }
+
 
 _G.pg.base.gametip.submarine_approach = {
 	tip = "잠수함 접근 중"
 }
 
+
 _G.pg.base.gametip.submarine_approach_desc = {
 	tip = "적함 편대 접근 중, 경계에 유의하세요."
 }
+
 
 _G.pg.base.gametip.desc_quick_play = {
 	tip = "이동 재생 가속화"
 }
 
+
 _G.pg.base.gametip.text_win_condition = {
 	tip = "승리 조건"
 }
+
 
 _G.pg.base.gametip.text_lose_condition = {
 	tip = "실패 조건"
 }
 
+
 _G.pg.base.gametip.text_rest_HP = {
 	tip = "남은 HP"
 }
+
 
 _G.pg.base.gametip.desc_defense_reward = {
 	tip = "클리어 시 항구의 남은 HP에 따라 보상을 획득합니다"
 }
 
+
 _G.pg.base.gametip.desc_base_hp = {
 	tip = "항구 내구도 : $1/$2"
 }
+
 
 _G.pg.base.gametip.map_event_open = {
 	tip = "저지 기관 가동됨"
 }
 
+
 _G.pg.base.gametip.word_reward = {
 	tip = "보상"
 }
+
 
 _G.pg.base.gametip.tips_dispense_completed = {
 	tip = "장착 완료"
 }
 
+
 _G.pg.base.gametip.tips_firework_completed = {
 	tip = "불꽃 제작 완료"
 }
+
 
 _G.pg.base.gametip.help_summer_feast = {
 	tip = {
@@ -12570,6 +14980,7 @@ TIPS：
 	}
 }
 
+
 _G.pg.base.gametip.help_firework_produce = {
 	tip = [[
 시작 버튼 터치로 장착을 합니다. 장착치는 매번 변하며 적절한 타이밍에 첫번째, 두번째, 세번째 터치로 3회 장착을 합니다.
@@ -12582,6 +14993,7 @@ _G.pg.base.gametip.help_firework_produce = {
 3등상: <color=#ffea01>90-120% 180-210%</color>
 나머지: 4등상]]
 }
+
 
 _G.pg.base.gametip.help_firework = {
 	tip = {
@@ -12599,6 +15011,7 @@ _G.pg.base.gametip.help_firework = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.help_summer_shrine = {
 	tip = {
@@ -12626,6 +15039,7 @@ _G.pg.base.gametip.help_summer_shrine = {
 	}
 }
 
+
 _G.pg.base.gametip.help_summer_food = {
 	tip = {
 		{
@@ -12650,6 +15064,7 @@ _G.pg.base.gametip.help_summer_food = {
 	}
 }
 
+
 _G.pg.base.gametip.help_summer_shooting = {
 	tip = {
 		{
@@ -12669,6 +15084,7 @@ _G.pg.base.gametip.help_summer_shooting = {
 	}
 }
 
+
 _G.pg.base.gametip.help_summer_stamp = {
 	tip = {
 		{
@@ -12681,21 +15097,26 @@ _G.pg.base.gametip.help_summer_stamp = {
 	}
 }
 
+
 _G.pg.base.gametip.tips_summergame_exit = {
 	tip = "미니게임이 진행중입니다. 이탈 시 현재까지 진행한 내용을 잃습니다. 떠나시겠습니까?"
 }
+
 
 _G.pg.base.gametip.tips_shrine_buff = {
 	tip = "5 물자를 소모합니다. \n추가 효과를 획득합니다"
 }
 
+
 _G.pg.base.gametip.tips_shrine_nobuff = {
 	tip = "5 물자를 소모합니다. \n횟수가 모두 소진되어 효과를 받을 \n수 없습니다."
 }
 
+
 _G.pg.base.gametip.paint_hide_other_obj_tip = {
 	tip = "배경 숨기기"
 }
+
 
 _G.pg.base.gametip.help_vote = {
 	tip = {
@@ -12779,73 +15200,91 @@ _G.pg.base.gametip.help_vote = {
 	}
 }
 
+
 _G.pg.base.gametip.tips_firework_exit = {
 	tip = "불꽃 제작이 완료되지 않았습니다. 떠나시겠습니까?"
 }
+
 
 _G.pg.base.gametip.result_firework_produce = {
 	tip = "불꽃 제작이 완료되었습니다. 이번 평가: "
 }
 
+
 _G.pg.base.gametip.tag_level_narrative = {
 	tip = "스토리 "
 }
+
 
 _G.pg.base.gametip.vote_get_book = {
 	tip = "응원 자격 획득"
 }
 
+
 _G.pg.base.gametip.vote_book_is_over = {
 	tip = "이번 라운드 투표가 종료되었습니다. 응원 자격 획득 불가"
 }
+
 
 _G.pg.base.gametip.vote_fame_tip = {
 	tip = "※전당 캐릭터의 스페셜 스토리 관람 후, 캐릭터 전용 테두리가 해제됩니다: $1,$2,$3"
 }
 
+
 _G.pg.base.gametip.word_maintain = {
 	tip = "업데이트 후"
 }
+
 
 _G.pg.base.gametip.name_zhanliejahe = {
 	tip = "카가(전함)"
 }
 
+
 _G.pg.base.gametip.change_skin_secretary_ship_success = {
 	tip = "스킨 변경 및 비서함 설정 성공 "
 }
+
 
 _G.pg.base.gametip.change_skin_secretary_ship = {
 	tip = "변경 및 비서함 설정 성공"
 }
 
+
 _G.pg.base.gametip.word_billboard = {
 	tip = "랭킹"
 }
+
 
 _G.pg.base.gametip.word_easy = {
 	tip = "이지"
 }
 
+
 _G.pg.base.gametip.word_normal_junhe = {
 	tip = "노멀"
 }
+
 
 _G.pg.base.gametip.word_hard = {
 	tip = "하드"
 }
 
+
 _G.pg.base.gametip.word_special_challenge_ticket = {
 	tip = "특별 도전권"
 }
+
 
 _G.pg.base.gametip.tip_exchange_ticket = {
 	tip = "특별 도전권을 한 장 사용해 $1 난이도의 추가 보상 횟수를 늘리시겠습니까? "
 }
 
+
 _G.pg.base.gametip.dont_remind = {
 	tip = "다시 보지 않기 "
 }
+
 
 _G.pg.base.gametip.worldbossex_help = {
 	tip = {
@@ -12882,81 +15321,101 @@ _G.pg.base.gametip.worldbossex_help = {
 	}
 }
 
+
 _G.pg.base.gametip.ship_formationUI_fleetName_easy = {
 	tip = "이지 함대"
 }
+
 
 _G.pg.base.gametip.ship_formationUI_fleetName_normal = {
 	tip = "노멀 함대"
 }
 
+
 _G.pg.base.gametip.ship_formationUI_fleetName_hard = {
 	tip = "하드 함대"
 }
+
 
 _G.pg.base.gametip.ship_formationUI_fleetName_extra = {
 	tip = "EX 함대"
 }
 
+
 _G.pg.base.gametip.ship_formationUI_fleetName_easy_ss = {
 	tip = "이지 잠수 함대"
 }
+
 
 _G.pg.base.gametip.ship_formationUI_fleetName_normal_ss = {
 	tip = "노멀 잠수 함대"
 }
 
+
 _G.pg.base.gametip.ship_formationUI_fleetName_hard_ss = {
 	tip = "하드 잠수 함대"
 }
+
 
 _G.pg.base.gametip.ship_formationUI_fleetName_extra_ss = {
 	tip = "EX 잠수 함대"
 }
 
+
 _G.pg.base.gametip.text_consume = {
 	tip = "소비 "
 }
+
 
 _G.pg.base.gametip.text_inconsume = {
 	tip = "비소비 "
 }
 
+
 _G.pg.base.gametip.pt_ship_now = {
 	tip = "현재 격침:"
 }
+
 
 _G.pg.base.gametip.pt_ship_goal = {
 	tip = "목표 격침:"
 }
 
+
 _G.pg.base.gametip.option_desc1 = {
 	tip = "기능 ON 후, 함선이 자신이 설정한 이름으로 보입니다."
 }
+
 
 _G.pg.base.gametip.option_desc2 = {
 	tip = "기능 ON 후, 자율 전투 종료 시 진동으로 알립니다."
 }
 
+
 _G.pg.base.gametip.option_desc3 = {
 	tip = "기능 ON 후, SSR 이상 등급의 함선 획득 시 진동으로 알립니다."
 }
+
 
 _G.pg.base.gametip.option_desc4 = {
 	tip = "기능 OFF 후, 이미 보유한 SR 이하 등급의 함선 중복 획득 시(해역 드랍 한정) 함선 획득 화면을 스킵합니다."
 }
 
+
 _G.pg.base.gametip.option_desc5 = {
 	tip = "기능 ON 후, 게임 화면 터치 시 터치 특수 효과가 나타납니다."
 }
+
 
 _G.pg.base.gametip.option_desc6 = {
 	tip = "기능 ON 후, 화면 둘레의 검정색 부분이 사라지며, 화면이 기기에 따라 최소 화면으로 맞춰집니다."
 }
 
+
 _G.pg.base.gametip.option_desc10 = {
 	tip = "기능 설정 후, 전투 중 코스튬의 일부 배경이 보이지 않습니다. "
 }
+
 
 _G.pg.base.gametip.option_desc11 = {
 	tip = [[
@@ -12977,6 +15436,7 @@ _G.pg.base.gametip.option_desc11 = {
 연습전에서 노출 표시 라인이 확대되며, 적함이 노출 범위 내 진입 시, 모든 항공모함은 즉시 [은닉] 상태에서 벗어납니다.
 ]]
 }
+
 
 _G.pg.base.gametip.music_collection = {
 	tip = {
@@ -13006,6 +15466,7 @@ _G.pg.base.gametip.music_collection = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.music_main = {
 	tip = {
@@ -13038,6 +15499,7 @@ _G.pg.base.gametip.music_main = {
 	}
 }
 
+
 _G.pg.base.gametip.music_juus = {
 	tip = {
 		{
@@ -13051,6 +15513,7 @@ _G.pg.base.gametip.music_juus = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.doa_collection = {
 	tip = {
@@ -13072,33 +15535,41 @@ _G.pg.base.gametip.doa_collection = {
 	}
 }
 
+
 _G.pg.base.gametip.ins_word_day = {
 	tip = "$1일 전"
 }
+
 
 _G.pg.base.gametip.ins_word_hour = {
 	tip = "$1시간 전"
 }
 
+
 _G.pg.base.gametip.ins_word_minu = {
 	tip = "$1분 전"
 }
+
 
 _G.pg.base.gametip.ins_word_like = {
 	tip = "$1 좋아요"
 }
 
+
 _G.pg.base.gametip.ins_click_like_success = {
 	tip = "좋아요 완료!"
 }
+
 
 _G.pg.base.gametip.ins_push_comment_success = {
 	tip = "댓글 남기기 완료!"
 }
 
+
 _G.pg.base.gametip.skinshop_live2d_fliter_failed = {
 	tip = "선별 가능한 코스튬이 없습니다 "
 }
+
 
 _G.pg.base.gametip.help_music_game = {
 	tip = {
@@ -13131,13 +15602,16 @@ _G.pg.base.gametip.help_music_game = {
 	}
 }
 
+
 _G.pg.base.gametip.restart_music_game = {
 	tip = "다시 시작할 시 현재 획득한 점수는 초기화됩니다. 다시 시작 하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.reselect_music_game = {
 	tip = "곡 선택 화면으로 돌아갈 시 현재 획득한 점수는 초기화됩니다. 돌아가시겠습니까?"
 }
+
 
 _G.pg.base.gametip.hololive_goodmorning = {
 	tip = {
@@ -13161,6 +15635,7 @@ _G.pg.base.gametip.hololive_goodmorning = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.hololive_lianliankan = {
 	tip = {
@@ -13198,6 +15673,7 @@ _G.pg.base.gametip.hololive_lianliankan = {
 	}
 }
 
+
 _G.pg.base.gametip.hololive_dalaozhang = {
 	tip = {
 		{
@@ -13221,6 +15697,7 @@ _G.pg.base.gametip.hololive_dalaozhang = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.hololive_dashenling = {
 	tip = {
@@ -13250,13 +15727,16 @@ _G.pg.base.gametip.hololive_dashenling = {
 	}
 }
 
+
 _G.pg.base.gametip.pocky_jiujiu = {
 	tip = "쥬쥬 일상"
 }
 
+
 _G.pg.base.gametip.pocky_jiujiu_desc = {
 	tip = "무정한 출첵 기기에서 '카드를 찍어주세요' 소리를 전해 왔어요"
 }
+
 
 _G.pg.base.gametip.pocky_help = {
 	tip = {
@@ -13281,6 +15761,7 @@ _G.pg.base.gametip.pocky_help = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.secretary_help = {
 	tip = {
@@ -13327,56 +15808,65 @@ _G.pg.base.gametip.secretary_help = {
 	}
 }
 
+
 _G.pg.base.gametip.secretary_unlock2 = {
 	tip = "3-4 해역 클리어 후 해제 "
 }
+
 
 _G.pg.base.gametip.secretary_unlock3 = {
 	tip = "6-4 해역 클리어 후 해제 "
 }
 
+
 _G.pg.base.gametip.secretary_unlock4 = {
 	tip = "9-4 해역 클리어 후 해제 "
 }
+
 
 _G.pg.base.gametip.secretary_unlock5 = {
 	tip = "12-4 해역 클리어 후 해제 "
 }
 
+
 _G.pg.base.gametip.secretary_closed = {
 	tip = "해제되지 않음 "
 }
+
 
 _G.pg.base.gametip.confirm_unlock = {
 	tip = "해제하시겠습니까?$1 "
 }
 
+
 _G.pg.base.gametip.secretary_pos_save = {
 	tip = "현재 비서함의 위치 조정을 저장하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.secretary_pos_save_success = {
 	tip = "저장 성공"
 }
 
+
 _G.pg.base.gametip.collection_help = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/collect_help1",
-				path = ""
+				path = "",
+				atlas = "helpbg/collect_help1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/collect_help2",
-				path = ""
+				path = "",
+				atlas = "helpbg/collect_help2"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -13391,181 +15881,226 @@ _G.pg.base.gametip.collection_help = {
 	}
 }
 
+
 _G.pg.base.gametip.juese_tiyan = {
 	tip = "캐릭터 체험 스테이지를 시작하시겠습니까? \n(체험 스테이지 내 아군 함선의 스탯은 참고용으로 제공됩니다.) \n<color=#ff5c5c>실제 성능은 획득한 함선을 기준으로 합니다.</color> "
 }
+
 
 _G.pg.base.gametip.resolve_amount_prefix = {
 	tip = "분해 수량:"
 }
 
+
 _G.pg.base.gametip.compose_amount_prefix = {
 	tip = "합성 수량:"
 }
+
 
 _G.pg.base.gametip.help_sub_limits = {
 	tip = "잠수함 범위 ON/OFF"
 }
 
+
 _G.pg.base.gametip.help_sub_display = {
 	tip = "색적 자동/대기모드"
 }
+
 
 _G.pg.base.gametip.confirm_unlock_ship_main = {
 	tip = "비서함으로 설정된 함선은 선택할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.msgbox_text_confirm = {
 	tip = "확인"
 }
+
 
 _G.pg.base.gametip.msgbox_text_shop = {
 	tip = "상점"
 }
 
+
 _G.pg.base.gametip.msgbox_text_cancel = {
 	tip = "취소"
 }
+
 
 _G.pg.base.gametip.msgbox_text_cancel_g = {
 	tip = "취소"
 }
 
+
 _G.pg.base.gametip.msgbox_text_cancel_fight = {
 	tip = "전투중지"
 }
+
 
 _G.pg.base.gametip.msgbox_text_goon_fight = {
 	tip = "전투속행"
 }
 
+
 _G.pg.base.gametip.msgbox_text_exit = {
 	tip = "나가기"
 }
+
 
 _G.pg.base.gametip.msgbox_text_clear = {
 	tip = "정리"
 }
 
+
 _G.pg.base.gametip.msgbox_text_apply = {
 	tip = "신청"
 }
+
 
 _G.pg.base.gametip.msgbox_text_buy = {
 	tip = "구매"
 }
 
+
 _G.pg.base.gametip.msgbox_text_noPos_buy = {
 	tip = "확장"
 }
+
 
 _G.pg.base.gametip.msgbox_text_noPos_clear = {
 	tip = "정리"
 }
 
+
 _G.pg.base.gametip.msgbox_text_noPos_intensify = {
 	tip = "강화"
 }
+
 
 _G.pg.base.gametip.msgbox_text_forward = {
 	tip = "바로가기"
 }
 
+
 _G.pg.base.gametip.msgbox_text_iknow = {
 	tip = "확인"
 }
+
 
 _G.pg.base.gametip.msgbox_text_prepage = {
 	tip = "이전 장"
 }
 
+
 _G.pg.base.gametip.msgbox_text_nextpage = {
 	tip = "다음 장"
 }
+
 
 _G.pg.base.gametip.msgbox_text_exchange = {
 	tip = "교환"
 }
 
+
 _G.pg.base.gametip.msgbox_text_retreat = {
 	tip = "퇴각"
 }
+
 
 _G.pg.base.gametip.msgbox_text_go = {
 	tip = "바로가기"
 }
 
+
 _G.pg.base.gametip.msgbox_text_consume = {
 	tip = "소모"
 }
+
 
 _G.pg.base.gametip.msgbox_text_inconsume = {
 	tip = "비소비"
 }
 
+
 _G.pg.base.gametip.msgbox_text_unlock = {
 	tip = "해제"
 }
+
 
 _G.pg.base.gametip.msgbox_text_save = {
 	tip = "저 장"
 }
 
+
 _G.pg.base.gametip.msgbox_text_replace = {
 	tip = "변 경"
 }
+
 
 _G.pg.base.gametip.msgbox_text_unload = {
 	tip = "해 제"
 }
 
+
 _G.pg.base.gametip.msgbox_text_modify = {
 	tip = "개 조"
 }
+
 
 _G.pg.base.gametip.msgbox_text_breakthrough = {
 	tip = "돌 파"
 }
 
+
 _G.pg.base.gametip.msgbox_text_equipdetail = {
 	tip = "장비 정보"
 }
+
 
 _G.pg.base.gametip.msgbox_text_use = {
 	tip = "사용"
 }
 
+
 _G.pg.base.gametip.common_flag_ship = {
 	tip = "비서함"
 }
+
 
 _G.pg.base.gametip.fenjie_lantu_tip = {
 	tip = "과학 연구 레벨 30 달성 후 도면 분해 가능!"
 }
 
+
 _G.pg.base.gametip.msgbox_text_analyse = {
 	tip = "분 해"
 }
+
 
 _G.pg.base.gametip.fragresolve_empty_tip = {
 	tip = "현재 분해 가능한 도면이 없습니다."
 }
 
+
 _G.pg.base.gametip.confirm_unlock_lv = {
 	tip = "$1의 $2 해제하겠습니까? "
 }
+
 
 _G.pg.base.gametip.shops_rest_day = {
 	tip = "남은 교환 기간："
 }
 
+
 _G.pg.base.gametip.title_limit_time = {
 	tip = "「한정」"
 }
 
+
 _G.pg.base.gametip.seven_choose_one = {
 	tip = "지휘관은 1명에게만 연하장을 보낼 수 있습니다.\n연하장을 <color=#92fc63>$1</color>에게 보내겠습니까?\n연하장을 보내면 캐릭터의 답례를 받을 수 있습니다. "
 }
+
 
 _G.pg.base.gametip.help_newyear_feast = {
 	tip = {
@@ -13582,6 +16117,7 @@ TIPS:
 		}
 	}
 }
+
 
 _G.pg.base.gametip.help_newyear_shrine = {
 	tip = {
@@ -13609,6 +16145,7 @@ _G.pg.base.gametip.help_newyear_shrine = {
 	}
 }
 
+
 _G.pg.base.gametip.help_newyear_stamp = {
 	tip = {
 		{
@@ -13621,28 +16158,30 @@ _G.pg.base.gametip.help_newyear_stamp = {
 	}
 }
 
+
 _G.pg.base.gametip.pt_reconfirm = {
 	tip = "<color=#ff5c5c>$1</color>로 교환하시겠습니까? "
 }
+
 
 _G.pg.base.gametip.qte_game_help = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/guinu_help1",
-				path = ""
+				path = "",
+				atlas = "helpbg/guinu_help1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/guinu_help2",
-				path = ""
+				path = "",
+				atlas = "helpbg/guinu_help2"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -13657,45 +16196,56 @@ _G.pg.base.gametip.qte_game_help = {
 	}
 }
 
+
 _G.pg.base.gametip.word_equipskin_type = {
 	tip = "타입 "
 }
+
 
 _G.pg.base.gametip.word_equipskin_all = {
 	tip = "전부"
 }
 
+
 _G.pg.base.gametip.word_equipskin_cannon = {
 	tip = "함포 "
 }
+
 
 _G.pg.base.gametip.word_equipskin_tarpedo = {
 	tip = "어뢰 "
 }
 
+
 _G.pg.base.gametip.word_equipskin_aircraft = {
 	tip = "함재기 "
 }
+
 
 _G.pg.base.gametip.word_equipskin_aux = {
 	tip = "설비"
 }
 
+
 _G.pg.base.gametip.msgbox_repair = {
 	tip = "물자 복원"
 }
+
 
 _G.pg.base.gametip.msgbox_repair_l2d = {
 	tip = "L2D 복원"
 }
 
+
 _G.pg.base.gametip.msgbox_repair_painting = {
 	tip = "일러스트 복원 "
 }
 
+
 _G.pg.base.gametip.word_no_cache = {
 	tip = "복원이 필요한 물자 없음"
 }
+
 
 _G.pg.base.gametip.pile_game_notice = {
 	tip = {
@@ -13714,6 +16264,7 @@ _G.pg.base.gametip.pile_game_notice = {
 	}
 }
 
+
 _G.pg.base.gametip.help_chunjie_stamp = {
 	tip = {
 		{
@@ -13726,6 +16277,7 @@ _G.pg.base.gametip.help_chunjie_stamp = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.help_chunjie_feast = {
 	tip = {
@@ -13748,6 +16300,7 @@ _G.pg.base.gametip.help_chunjie_feast = {
 	}
 }
 
+
 _G.pg.base.gametip.help_chunjie_jiulou = {
 	tip = {
 		{
@@ -13760,33 +16313,41 @@ _G.pg.base.gametip.help_chunjie_jiulou = {
 	}
 }
 
+
 _G.pg.base.gametip.special_animal1 = {
 	tip = "[우라나미의 귀여운 <기괴> 생물 도감 No.1]\n프로즌 도롱뇽: 급속냉동 스킬을 가지고 있는 생물. 얼음을 만들 수 있다. 몸 주변에 얼음 결정을 띄우고 있다."
 }
+
 
 _G.pg.base.gametip.special_animal2 = {
 	tip = "[우라나미의 귀여운 <기괴> 생물 도감 No.2]\n넓적부리황새ESP: 가만히 있을 때 초능력을 사용하는 넓적부리황새. 몸 주변을 에너지가 감싸고 있다."
 }
 
+
 _G.pg.base.gametip.special_animal3 = {
 	tip = "[우라나미의 귀여운 <기괴> 생물 도감 No.3]\n둥실물범볼: 공기를 마셔 공중에 떠오를 수 있는 물범볼."
 }
+
 
 _G.pg.base.gametip.special_animal4 = {
 	tip = "[우라나미의 귀여운 <기괴> 생물 도감 No.4]\n각성 유니콘: 소중한 사람을 지키기 위해 각성한 유니콘… (설정)"
 }
 
+
 _G.pg.base.gametip.special_animal5 = {
 	tip = "[우라나미의 귀여운 <기괴> 생물 도감 No.5]\n하이드 멍멍: 은신을 할 수 있는 멍멍이. 엉덩이는 숨길 수 없는 점이 가장 골치거리라고."
 }
+
 
 _G.pg.base.gametip.special_animal6 = {
 	tip = "[우라나미의 귀여운 <기괴> 생물 도감 No.6]\n머슬 만쥬: 극한의 벌크업을 한 만쥬. 조금 과한 것 같다."
 }
 
+
 _G.pg.base.gametip.special_animal7 = {
 	tip = "[우라나미의 귀여운 <기괴> 생물 도감 No.7]\n레인보우 롱캣: 잘 때 무지개색 침을 흘리는 고양이. 이상한 자세로 잠을 잔다."
 }
+
 
 _G.pg.base.gametip.bulin_help = {
 	tip = {
@@ -13801,65 +16362,81 @@ _G.pg.base.gametip.bulin_help = {
 	}
 }
 
+
 _G.pg.base.gametip.super_bulin = {
 	tip = "특수 스테이지에 도전하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.super_bulin_tip = {
 	tip = "여기를 눌러 나의 추가 도전을 받아라 푸링!"
 }
 
+
 _G.pg.base.gametip.bulin_tip1 = {
 	tip = "출격이다냥! 목표는 1-2다냥!"
 }
+
 
 _G.pg.base.gametip.bulin_tip2 = {
 	tip = "모아둔 아이템은 잘 정리해야해냥!"
 }
 
+
 _G.pg.base.gametip.bulin_tip3 = {
 	tip = "출격이다냥! 목표는 2-2다냥!"
 }
+
 
 _G.pg.base.gametip.bulin_tip4 = {
 	tip = "냥? 도크로 이동해서 확인해야 할까냥?"
 }
 
+
 _G.pg.base.gametip.bulin_tip5 = {
 	tip = "출격이다냥! 목표는 1-4다냥!"
 }
+
 
 _G.pg.base.gametip.bulin_tip6 = {
 	tip = "항상 식량 보충하는 것을 기억해야해냥!"
 }
 
+
 _G.pg.base.gametip.bulin_tip7 = {
 	tip = "출격이다냥! 목표는 2-4다냥!"
 }
+
 
 _G.pg.base.gametip.bulin_tip8 = {
 	tip = "벚꽃이 흩날리는 스쿨에서 확인해봐냥!"
 }
 
+
 _G.pg.base.gametip.bulin_tip9 = {
 	tip = "할 거 없으면 자주 찾아와서 물건 좀 사달라냥!"
 }
+
 
 _G.pg.base.gametip.bulin_tip_other1 = {
 	tip = "힌트를 해제하시겠습니까? 힌트는 20분마다 한 번만 해제 가능합니다."
 }
 
+
 _G.pg.base.gametip.bulin_tip_other2 = {
 	tip = "힌트 해제 사용 대기 중"
 }
+
 
 _G.pg.base.gametip.bulin_tip_other3 = {
 	tip = "퇴각하시겠습니까? 퇴각하면 보상을 획득할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.monopoly_left_count = {
 	tip = "잔여 횟수:"
 }
+
 
 _G.pg.base.gametip.help_chunjie_monopoly = {
 	tip = {
@@ -13878,71 +16455,76 @@ _G.pg.base.gametip.help_chunjie_monopoly = {
 		{
 			info = "         :일정 수량의 물자 획득",
 			icon = {
-				path = "jinbi",
+				posX = 0,
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.5,
-				posX = 0
+				path = "jinbi"
 			}
 		},
 		{
 			info = "         :일정 수량의 연료 획득",
 			icon = {
-				path = "shiyou",
+				posX = 0,
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.5,
-				posX = 0
+				path = "shiyou"
 			}
 		},
 		{
 			info = "         :랜덤 사건 발생",
 			icon = {
-				path = "minyun",
+				posX = 0,
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.5,
-				posX = 0
+				path = "minyun"
 			}
 		},
 		{
 			info = "         :랜덤 보상 발생",
 			icon = {
-				path = "daoju",
+				posX = 0,
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.5,
-				posX = 0
+				path = "daoju"
 			}
 		},
 		{
 			info = "         :랜덤 이동 사건 발생",
 			icon = {
-				path = "teshu",
+				posX = 0,
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.5,
-				posX = 0
+				path = "teshu"
 			}
 		}
 	}
 }
 
+
 _G.pg.base.gametip.monoply_drop_ship_step = {
 	tip = "$1바퀴를 돌면 캐릭터 스킨 [이스트 글림의 바람]을 획득할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.lanternRiddles_wait_for_reanswer = {
 	tip = "잠시 후 다시 시도하세요."
 }
 
+
 _G.pg.base.gametip.lanternRiddles_answer_is_wrong = {
 	tip = "오답입니다. 올바른 답을 선택해주세요."
 }
 
+
 _G.pg.base.gametip.lanternRiddles_answer_is_right = {
 	tip = "축하합니다. 정답입니다!"
 }
+
 
 _G.pg.base.gametip.lanternRiddles_gametip = {
 	tip = {
@@ -13964,73 +16546,91 @@ _G.pg.base.gametip.lanternRiddles_gametip = {
 	}
 }
 
+
 _G.pg.base.gametip.LanternRiddle_wait_time_tip = {
 	tip = "재답변 시간:"
 }
+
 
 _G.pg.base.gametip.LinkLinkGame_BestTime = {
 	tip = "최고 기록:"
 }
 
+
 _G.pg.base.gametip.LinkLinkGame_CurTime = {
 	tip = "소요 시간:"
 }
+
 
 _G.pg.base.gametip.sort_attribute = {
 	tip = "스탯"
 }
 
+
 _G.pg.base.gametip.sort_intimacy = {
 	tip = "호감도"
 }
+
 
 _G.pg.base.gametip.index_skin = {
 	tip = "스킨 교체 가능"
 }
 
+
 _G.pg.base.gametip.index_reform = {
 	tip = "개조 가능"
 }
+
 
 _G.pg.base.gametip.index_reform_cw = {
 	tip = "개조 가능"
 }
 
+
 _G.pg.base.gametip.index_strengthen = {
 	tip = "강화 가능"
 }
+
 
 _G.pg.base.gametip.index_special = {
 	tip = "특수"
 }
 
+
 _G.pg.base.gametip.index_propose_skin = {
 	tip = "서약 스킨"
 }
+
 
 _G.pg.base.gametip.index_not_obtained = {
 	tip = "미획득"
 }
 
+
 _G.pg.base.gametip.index_no_limit = {
 	tip = "제한 없음"
 }
+
 
 _G.pg.base.gametip.index_awakening = {
 	tip = "<size=36>각성 가능</size>"
 }
 
+
 _G.pg.base.gametip.index_not_lvmax = {
 	tip = "레벨 부족"
 }
+
 
 _G.pg.base.gametip.index_spweapon = {
 	tip = "특수 장비"
 }
 
+
 _G.pg.base.gametip.index_marry = {
 	tip = "서약 완료"
 }
+
 
 _G.pg.base.gametip.decodegame_gametip = {
 	tip = {
@@ -14053,81 +16653,101 @@ _G.pg.base.gametip.decodegame_gametip = {
 	}
 }
 
+
 _G.pg.base.gametip.indexsort_sort = {
 	tip = "정렬"
 }
+
 
 _G.pg.base.gametip.indexsort_index = {
 	tip = "색인"
 }
 
+
 _G.pg.base.gametip.indexsort_camp = {
 	tip = "진영"
 }
+
 
 _G.pg.base.gametip.indexsort_type = {
 	tip = "유형"
 }
 
+
 _G.pg.base.gametip.indexsort_rarity = {
 	tip = "레어도"
 }
+
 
 _G.pg.base.gametip.indexsort_extraindex = {
 	tip = "추가 색인"
 }
 
+
 _G.pg.base.gametip.indexsort_label = {
 	tip = "라벨"
 }
+
 
 _G.pg.base.gametip.indexsort_sorteng = {
 	tip = "SORT"
 }
 
+
 _G.pg.base.gametip.indexsort_indexeng = {
 	tip = "INDEX"
 }
+
 
 _G.pg.base.gametip.indexsort_campeng = {
 	tip = "CAMP"
 }
 
+
 _G.pg.base.gametip.indexsort_rarityeng = {
 	tip = "RARITY"
 }
+
 
 _G.pg.base.gametip.indexsort_typeeng = {
 	tip = "TYPE"
 }
 
+
 _G.pg.base.gametip.indexsort_labeleng = {
 	tip = "LABEL"
 }
+
 
 _G.pg.base.gametip.fightfail_up = {
 	tip = "퇴각하고 다른 스테이지로 이동해 <color=#92fc63>레벨업</color>하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.fightfail_equip = {
 	tip = "퇴각하고 도크에서 <color=#92fc63>장비 강화</color>를 진행하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.fight_strengthen = {
 	tip = "퇴각하고 도크에서 <color=#92fc63>강화 및 한계돌파</color>를 진행하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.fightfail_noequip = {
 	tip = "강화 불가. 현재 아무 장비도 착용하고 있지 않습니다."
 }
+
 
 _G.pg.base.gametip.fightfail_choiceequip = {
 	tip = "함선을 터치하여 <color=#92fc63>장비 강화</color>를 진행하세요."
 }
 
+
 _G.pg.base.gametip.fightfail_choicestrengthen = {
 	tip = "함선을 터치하여 <color=#92fc63>강화 및 한계돌파</color>를 진행하세요."
 }
+
 
 _G.pg.base.gametip.sofmap_attention = {
 	tip = {
@@ -14141,50 +16761,56 @@ _G.pg.base.gametip.sofmap_attention = {
 	}
 }
 
+
 _G.pg.base.gametip.sofmapsd_1 = {
 	tip = "냐앙!? 준비한 상품권을 잃어버렸다냥!\n지휘관, 어서 {namecode:98}를 도와줘냥!"
 }
+
 
 _G.pg.base.gametip.sofmapsd_2 = {
 	tip = "어서 {namecode:98}를 도와 상품권을 넣어 달라냥!\n지휘관에게 보수를 줄 것이다냥!"
 }
 
+
 _G.pg.base.gametip.sofmapsd_3 = {
 	tip = "냐앙! 매출 금액이 상승했다냥!\n지휘관, 감사하다냥!"
 }
+
 
 _G.pg.base.gametip.sofmapsd_4 = {
 	tip = "매출 금액이 목표를 달성했다냥!\n지휘관, 감사하다냥!"
 }
 
+
 _G.pg.base.gametip.inform_level_limit = {
 	tip = "신고는 지휘관 레벨 20 달성 후 오픈됩니다."
 }
+
 
 _G.pg.base.gametip["3match_tip"] = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/3match_1",
-				path = ""
+				path = "",
+				atlas = "helpbg/3match_1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/3match_2",
-				path = ""
+				path = "",
+				atlas = "helpbg/3match_2"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/3match_3",
-				path = ""
+				path = "",
+				atlas = "helpbg/3match_3"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -14199,101 +16825,126 @@ _G.pg.base.gametip["3match_tip"] = {
 	}
 }
 
+
 _G.pg.base.gametip.retire_selectzero = {
 	tip = "조건에 부합하는 함선을 찾을 수 없습니다. "
 }
+
 
 _G.pg.base.gametip.retire_marry_skin = {
 	tip = "$1 스킨이 초기화되었습니다."
 }
 
+
 _G.pg.base.gametip.undermist_tip = {
 	tip = "현재 임무 완성. 내일 해제되니 기다려주세요. "
 }
+
 
 _G.pg.base.gametip.retire_1 = {
 	tip = "한계돌파 3회 달성한 동명의 함선 <color=#92fc63>「보유」</color> 시, <color=#92fc63>퇴역 조건에 부합</color>한 동명의 함선을 몇 척 보류"
 }
 
+
 _G.pg.base.gametip.retire_2 = {
 	tip = "한계돌파 3회 달성한 동명의 함선 <color=#ff5c5c>「미보유」</color> 시, <color=#92fc63>퇴역 조건에 부합</color>한 동명의 함선을 몇 척 보류"
 }
+
 
 _G.pg.base.gametip.retire_3 = {
 	tip = "LV.1 함선만 선택"
 }
 
+
 _G.pg.base.gametip.retire_rarity = {
 	tip = "우선 순위 $1 선택"
 }
+
 
 _G.pg.base.gametip.retire_title = {
 	tip = "일괄 퇴역 설정"
 }
 
+
 _G.pg.base.gametip.res_unlock_tip = {
 	tip = "다음의 재료를 소모하여 개방 가능"
 }
+
 
 _G.pg.base.gametip.res_wifi_tip = {
 	tip = "현재 WIFI 환경이 아닙니다. 다운로드에 데이터가 발생할 수 있습니다. 계속 다운로드를 진행하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.res_downloading = {
 	tip = "다운로드 중"
 }
+
 
 _G.pg.base.gametip.res_pic_time_all = {
 	tip = "모두"
 }
 
+
 _G.pg.base.gametip.res_pic_time_2017_up = {
 	tip = "2017 상"
 }
+
 
 _G.pg.base.gametip.res_pic_time_2017_down = {
 	tip = "2017 하"
 }
 
+
 _G.pg.base.gametip.res_pic_time_2018_up = {
 	tip = "2018 상"
 }
+
 
 _G.pg.base.gametip.res_pic_time_2018_down = {
 	tip = "2018 하"
 }
 
+
 _G.pg.base.gametip.res_pic_time_2019_up = {
 	tip = "2019 상"
 }
+
 
 _G.pg.base.gametip.res_pic_time_2019_down = {
 	tip = "2019 하"
 }
 
+
 _G.pg.base.gametip.res_pic_time_2020_up = {
 	tip = "2020 상"
 }
+
 
 _G.pg.base.gametip.res_pic_new_tip = {
 	tip = "이번 업데이트에서 신규 삽화가 $1장 추가되었습니다."
 }
 
+
 _G.pg.base.gametip.res_music_no_pre_tip = {
 	tip = "첫 번째 곡입니다."
 }
+
 
 _G.pg.base.gametip.res_music_no_next_tip = {
 	tip = "마지막 곡입니다."
 }
 
+
 _G.pg.base.gametip.res_music_new_tip = {
 	tip = "이번 업데이트에서 신규 음악이 $1곡 추가되었습니다."
 }
 
+
 _G.pg.base.gametip.apple_link_title = {
 	tip = "連携中のアカウント完了"
 }
+
 
 _G.pg.base.gametip.retire_setting_help = {
 	tip = {
@@ -14312,33 +16963,41 @@ _G.pg.base.gametip.retire_setting_help = {
 	}
 }
 
+
 _G.pg.base.gametip.activity_shop_exchange_count = {
 	tip = "남은 횟수"
 }
+
 
 _G.pg.base.gametip.shops_msgbox_exchange_count = {
 	tip = "교환수량:"
 }
 
+
 _G.pg.base.gametip.shops_msgbox_output = {
 	tip = "획득 항목："
 }
+
 
 _G.pg.base.gametip.shop_word_exchange = {
 	tip = "교환"
 }
 
+
 _G.pg.base.gametip.shop_word_cancel = {
 	tip = "취소"
 }
+
 
 _G.pg.base.gametip.title_item_ways = {
 	tip = "다음의 경로를 통해 <color=#92fc63>$1</color>를 획득할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.item_lack_title = {
 	tip = "<color=#92fc63>$1</color>가 부족합니다. 다음의 방법으로 <color=#92fc63>$1</color>를 획득할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.oil_buy_tip_2 = {
 	tip = [[
@@ -14348,49 +17007,61 @@ _G.pg.base.gametip.oil_buy_tip_2 = {
 </size><size=28><color=#a2a2a2>(오늘 <size=28><color=#ff5c5c>$3</color></size>회 구매함)</color></size>]]
 }
 
+
 _G.pg.base.gametip.target_chapter_is_lock = {
 	tip = "해당 챕터는 아직 개방되지 않았습니다."
 }
+
 
 _G.pg.base.gametip.ship_book = {
 	tip = "<color=#92fc63>교과서</color>"
 }
 
+
 _G.pg.base.gametip.month_sign_resign = {
 	tip = "페이스북 로그인 문제로 인해, 출석 보상을 보충 지급합니다."
 }
+
 
 _G.pg.base.gametip.collect_tip = {
 	tip = "출격 중인 함선이 있습니다. 의뢰에 포함시킬 수 없습니다."
 }
 
+
 _G.pg.base.gametip.collect_tip2 = {
 	tip = "편성 중인 함선이 있습니다. 의뢰에 포함시킬 수 없습니다."
 }
+
 
 _G.pg.base.gametip.word_weakness = {
 	tip = "피해"
 }
 
+
 _G.pg.base.gametip.special_operation_tip1 = {
 	tip = "현재 스테이지에서 사용 불가"
 }
+
 
 _G.pg.base.gametip.special_operation_tip2 = {
 	tip = "특별 작전 아이템이 없습니다."
 }
 
+
 _G.pg.base.gametip.area_lock = {
 	tip = "해당 해역 미해제"
 }
+
 
 _G.pg.base.gametip.equipment_upgrade_equipped_tag = {
 	tip = "장착 중:"
 }
 
+
 _G.pg.base.gametip.equipment_upgrade_spare_tag = {
 	tip = "창고:"
 }
+
 
 _G.pg.base.gametip.equipment_upgrade_help = {
 	tip = {
@@ -14418,57 +17089,71 @@ _G.pg.base.gametip.equipment_upgrade_help = {
 	}
 }
 
+
 _G.pg.base.gametip.equipment_upgrade_title = {
 	tip = "장비 개발"
 }
+
 
 _G.pg.base.gametip.equipment_upgrade_coin_consume = {
 	tip = "물자 소모"
 }
 
+
 _G.pg.base.gametip.equipment_upgrade_quick_interface_source_chosen = {
 	tip = "장비를 선택하세요."
 }
+
 
 _G.pg.base.gametip.equipment_upgrade_quick_interface_materials_consume = {
 	tip = "다음 재료를 소모합니다."
 }
 
+
 _G.pg.base.gametip.equipment_upgrade_feedback_lack_of_materials = {
 	tip = "재료 부족"
 }
+
 
 _G.pg.base.gametip.equipment_upgrade_feedback_equipment_consume = {
 	tip = "이번 개발에서 <color=#92fc63>$1</color> 장착 중인 <color=#92fc63>$2</color>을(를) 소모합니다."
 }
 
+
 _G.pg.base.gametip.equipment_upgrade_feedback_equipment_can_be_produced = {
 	tip = "재료 장비 부족. 재료 장비는 개발 시스템을 통해 획득 가능합니다."
 }
+
 
 _G.pg.base.gametip.equipment_upgrade_quick_interface_feedback_source_chosen = {
 	tip = "장비를 선택하세요."
 }
 
+
 _G.pg.base.gametip.equipment_upgrade_feedback_lack_of_equipment = {
 	tip = "재료 장비 부족"
 }
+
 
 _G.pg.base.gametip.equipment_upgrade_equipped_unavailable = {
 	tip = "<color=#92fc63>$1</color>장착 불가<color=#92fc63>$2</color>, 창고에 저장되었습니다."
 }
 
+
 _G.pg.base.gametip.equipment_upgrade_initial_node = {
 	tip = "해당 장비는 장비 개발을 통해 획득할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.equipment_upgrade_feedback_compose_tip = {
 	tip = "장비 설계도를 선택하여 장비 개조를 진행합니다. 해당 설계도 합성에 필요한 물자를 추가로 소모할 수 있습니다. 확인하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.discount_coupon_tip = {
 	tip = "<color=#92fc63FF>$1 다이아</color> 및 <color=#92fc63FF>$2 </color>를 사용하여 <color=#92fc63FF>$3</color>를 구매하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.pizzahut_help = {
 	tip = {
@@ -14483,6 +17168,7 @@ _G.pg.base.gametip.pizzahut_help = {
 	}
 }
 
+
 _G.pg.base.gametip.towerclimbing_gametip = {
 	tip = {
 		{
@@ -14495,6 +17181,7 @@ _G.pg.base.gametip.towerclimbing_gametip = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.qingdianguangchang_help = {
 	tip = {
@@ -14520,17 +17207,21 @@ _G.pg.base.gametip.qingdianguangchang_help = {
 	}
 }
 
+
 _G.pg.base.gametip.building_tip = {
 	tip = "업그레이드에 필요한 자재가 부족합니다."
 }
+
 
 _G.pg.base.gametip.building_upgrade_tip = {
 	tip = "업그레이드하시겠습니까? 그에 맞는 자재를 소모합니다."
 }
 
+
 _G.pg.base.gametip.msgbox_text_upgrade = {
 	tip = "업그레이드"
 }
+
 
 _G.pg.base.gametip.towerclimbing_sign_help = {
 	tip = {
@@ -14553,101 +17244,126 @@ _G.pg.base.gametip.towerclimbing_sign_help = {
 	}
 }
 
+
 _G.pg.base.gametip.building_complete_tip = {
 	tip = "업그레이드 완성"
 }
+
 
 _G.pg.base.gametip.backyard_theme_refresh_time_tip = {
 	tip = "잠시 후 새로고침 해주세요."
 }
 
+
 _G.pg.base.gametip.backyard_theme_total_print = {
 	tip = "총 가격"
 }
+
 
 _G.pg.base.gametip.backyard_theme_word_buy = {
 	tip = "구매"
 }
 
+
 _G.pg.base.gametip.backyard_theme_word_apply = {
 	tip = "배치"
 }
+
 
 _G.pg.base.gametip.backyard_theme_apply_success = {
 	tip = "배치 성공"
 }
 
+
 _G.pg.base.gametip.words_visit_backyard_toggle = {
 	tip = "친구 숙소 방문 허가"
 }
+
 
 _G.pg.base.gametip.words_show_friend_backyardship_toggle = {
 	tip = "다른 사람 방문 흔적 표시"
 }
 
+
 _G.pg.base.gametip.words_show_my_backyardship_toggle = {
 	tip = "내 방문 흔적 표시"
 }
+
 
 _G.pg.base.gametip.option_desc7 = {
 	tip = "기능 개방 후, 친구가 내 숙소를 방문할 수 있게 됩니다."
 }
 
+
 _G.pg.base.gametip.option_desc8 = {
 	tip = "기능 개방 후, 친구가 내 숙소를 방문하면, 내 숙소에 친구의 비서함이 나타납니다."
 }
+
 
 _G.pg.base.gametip.option_desc9 = {
 	tip = "기능 개방 후, 자신이 친구의 숙소를 방문하면, 친구 숙소에 내 비서함이 나타납니다."
 }
 
+
 _G.pg.base.gametip.backyard_unopen = {
 	tip = "숙소 미개방"
 }
+
 
 _G.pg.base.gametip.coupon_timeout_tip = {
 	tip = "<color=#92fc63>「$1」</color> 기한 만료. 획득 불가"
 }
 
+
 _G.pg.base.gametip.coupon_repeat_tip = {
 	tip = "<color=#92fc63>「$1」</color>를 이미 획득하였습니다. 중복 획득 불가"
 }
+
 
 _G.pg.base.gametip.backyard_shop_refresh_frequently = {
 	tip = "터치가 빈번합니다. $1초 후 터치할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.word_random = {
 	tip = "랜덤"
 }
+
 
 _G.pg.base.gametip.word_hot = {
 	tip = "HOT"
 }
 
+
 _G.pg.base.gametip.word_new = {
 	tip = "NEW"
 }
+
 
 _G.pg.base.gametip.backyard_decoration_theme_template_delete_tip = {
 	tip = "테마를 삭제하시겠습니까? 테마 삭제 후 좋아요와 즐겨찾기도 함께 삭제됩니다."
 }
 
+
 _G.pg.base.gametip.backyard_not_found_theme_template = {
 	tip = "테마 검색 결과 없음"
 }
+
 
 _G.pg.base.gametip.backyard_apply_theme_template_erro = {
 	tip = "배치 실패"
 }
 
+
 _G.pg.base.gametip.backyard_theme_template_list_is_empty = {
 	tip = "배치할 수 있는 가구 없음"
 }
 
+
 _G.pg.base.gametip.BackYard_collection_be_delete_tip = {
 	tip = "삭제된 테마를 즐겨찾기 목록에서 제거했습니다. "
 }
+
 
 _G.pg.base.gametip.help_monopoly_car = {
 	tip = {
@@ -14663,55 +17379,56 @@ _G.pg.base.gametip.help_monopoly_car = {
 		{
 			info = "       : 일정 수량의 물자 획득.",
 			icon = {
-				path = "saichejinbi",
+				posX = 0,
 				atlas = "attricon",
 				posY = -5,
 				scale = 0.3,
-				posX = 0
+				path = "saichejinbi"
 			}
 		},
 		{
 			info = "       : 일정 수량의 연료 획득.",
 			icon = {
-				path = "saicheshiyou",
+				posX = 0,
 				atlas = "attricon",
 				posY = -5,
 				scale = 0.3,
-				posX = 0
+				path = "saicheshiyou"
 			}
 		},
 		{
 			info = "       : 랜덤 발동.",
 			icon = {
-				path = "saicheminyun",
+				posX = 0,
 				atlas = "attricon",
 				posY = -5,
 				scale = 0.3,
-				posX = 0
+				path = "saicheminyun"
 			}
 		},
 		{
 			info = "       : 랜덤 보상 발동.",
 			icon = {
-				path = "saichedaoju",
+				posX = 0,
 				atlas = "attricon",
 				posY = -5,
 				scale = 0.3,
-				posX = 0
+				path = "saichedaoju"
 			}
 		},
 		{
 			info = "       : 랜덤 이동.",
 			icon = {
-				path = "saicheteshu",
+				posX = 0,
 				atlas = "attricon",
 				posY = -5,
 				scale = 0.3,
-				posX = 0
+				path = "saicheteshu"
 			}
 		}
 	}
 }
+
 
 _G.pg.base.gametip.help_monopoly_car_2 = {
 	tip = {
@@ -14730,51 +17447,51 @@ _G.pg.base.gametip.help_monopoly_car_2 = {
 		{
 			info = "    ：일정량의 물자 획득",
 			icon = {
-				path = "saichejinbi",
+				posX = 0,
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.19,
-				posX = 0
+				path = "saichejinbi"
 			}
 		},
 		{
 			info = "    ：일정량의 연료 획득",
 			icon = {
-				path = "saicheshiyou",
+				posX = 0,
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.19,
-				posX = 0
+				path = "saicheshiyou"
 			}
 		},
 		{
 			info = "    ：랜덤 사건 발동",
 			icon = {
-				path = "saicheminyun",
+				posX = 0,
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.19,
-				posX = 0
+				path = "saicheminyun"
 			}
 		},
 		{
 			info = "    ：랜덤 보상 발동",
 			icon = {
-				path = "saichedaoju",
+				posX = 0,
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.19,
-				posX = 0
+				path = "saichedaoju"
 			}
 		},
 		{
 			info = "    ：랜덤 이동 사건 발동",
 			icon = {
-				path = "saicheteshu",
+				posX = 0,
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.19,
-				posX = 0
+				path = "saicheteshu"
 			}
 		},
 		{
@@ -14782,6 +17499,7 @@ _G.pg.base.gametip.help_monopoly_car_2 = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.help_monopoly_3th = {
 	tip = {
@@ -14809,399 +17527,486 @@ _G.pg.base.gametip.help_monopoly_3th = {
 		{
 			info = "    : 일정 수량의 물자 획득.",
 			icon = {
-				path = "icon_2",
+				posX = 0,
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.4,
-				posX = 0
+				path = "icon_2"
 			}
 		},
 		{
 			info = "    : 일정 수량의 연료 획득.",
 			icon = {
-				path = "icon_5",
+				posX = 0,
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.4,
-				posX = 0
+				path = "icon_5"
 			}
 		},
 		{
 			info = "    : 랜덤 사건 발동.",
 			icon = {
-				path = "icon_3",
+				posX = 0,
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.4,
-				posX = 0
+				path = "icon_3"
 			}
 		},
 		{
 			info = "    : 랜덤 보상 발동.",
 			icon = {
-				path = "icon_1",
+				posX = 0,
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.4,
-				posX = 0
+				path = "icon_1"
 			}
 		},
 		{
 			info = "    : 1회 재전진",
 			icon = {
-				path = "icon_6",
+				posX = 0,
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.4,
-				posX = 0
+				path = "icon_6"
 			}
 		}
 	}
 }
 
+
 _G.pg.base.gametip.backYard_missing_furnitrue_tip = {
 	tip = "이하 가구가 없습니다"
 }
+
 
 _G.pg.base.gametip.win_condition_display_qijian = {
 	tip = "적군 기함 격파"
 }
 
+
 _G.pg.base.gametip.win_condition_display_qijian_tip = {
 	tip = "BOSS 격파. 스테이지 공략 완료"
 }
+
 
 _G.pg.base.gametip.win_condition_display_shangchuan = {
 	tip = "상선이 지정 위치 도착"
 }
 
+
 _G.pg.base.gametip.win_condition_display_shangchuan_tip = {
 	tip = "운송함 종점 도착. 호송 성공"
 }
+
 
 _G.pg.base.gametip.win_condition_display_judian = {
 	tip = "적의 모든 거점 파괴"
 }
 
+
 _G.pg.base.gametip.win_condition_display_tuoli = {
 	tip = "임의의 함선이 이탈점 도달 "
 }
+
 
 _G.pg.base.gametip.win_condition_display_tuoli_tip = {
 	tip = "이탈 지점 도착 성공. 스테이지 공략 완료"
 }
 
+
 _G.pg.base.gametip.lose_condition_display_quanmie = {
 	tip = "아군 함대 전멸"
 }
+
 
 _G.pg.base.gametip.lose_condition_display_gangqu = {
 	tip = "아군 함대 전멸, 항구 HP가 0에 도달"
 }
 
+
 _G.pg.base.gametip.re_battle = {
 	tip = "재도전"
 }
+
 
 _G.pg.base.gametip.keep_fate_tip = {
 	tip = "<color=#92fc63>용골편찬</color>에 필요한 강화 유닛 보류 "
 }
 
+
 _G.pg.base.gametip.equip_info_1 = {
 	tip = "피해"
 }
+
 
 _G.pg.base.gametip.equip_info_2 = {
 	tip = "표준 사격 속도"
 }
 
+
 _G.pg.base.gametip.equip_info_3 = {
 	tip = "사격 속도"
 }
+
 
 _G.pg.base.gametip.equip_info_4 = {
 	tip = "스킬"
 }
 
+
 _G.pg.base.gametip.equip_info_5 = {
 	tip = "탄약"
 }
+
 
 _G.pg.base.gametip.equip_info_6 = {
 	tip = "비행 속도"
 }
 
+
 _G.pg.base.gametip.equip_info_7 = {
 	tip = "어뢰 속도"
 }
+
 
 _G.pg.base.gametip.equip_info_8 = {
 	tip = "대갑 비례"
 }
 
+
 _G.pg.base.gametip.equip_info_9 = {
 	tip = "피해 범위"
 }
+
 
 _G.pg.base.gametip.equip_info_10 = {
 	tip = "기관총 거리"
 }
 
+
 _G.pg.base.gametip.equip_info_11 = {
 	tip = "기관총 각도"
 }
+
 
 _G.pg.base.gametip.equip_info_12 = {
 	tip = "확산 범위"
 }
 
+
 _G.pg.base.gametip.equip_info_13 = {
 	tip = "특성"
 }
+
 
 _G.pg.base.gametip.equip_info_14 = {
 	tip = "장비 파라미터"
 }
 
+
 _G.pg.base.gametip.equip_info_15 = {
 	tip = "색적 범위"
 }
+
 
 _G.pg.base.gametip.equip_info_16 = {
 	tip = "색적 각도"
 }
 
+
 _G.pg.base.gametip.equip_info_17 = {
 	tip = "탄약 거리"
 }
+
 
 _G.pg.base.gametip.equip_info_18 = {
 	tip = "확산 각도"
 }
 
+
 _G.pg.base.gametip.equip_info_19 = {
 	tip = "소속 진영"
 }
+
 
 _G.pg.base.gametip.equip_info_20 = {
 	tip = "함재기 속도"
 }
 
+
 _G.pg.base.gametip.equip_info_21 = {
 	tip = "함재기 내구"
 }
+
 
 _G.pg.base.gametip.equip_info_22 = {
 	tip = "함재기 최대 회피"
 }
 
+
 _G.pg.base.gametip.equip_info_23 = {
 	tip = "사용 함종"
 }
+
 
 _G.pg.base.gametip.equip_info_24 = {
 	tip = "휴대 무기"
 }
 
+
 _G.pg.base.gametip.equip_info_25 = {
 	tip = "없음"
 }
+
 
 _G.pg.base.gametip.equip_info_26 = {
 	tip = "스킬 변경"
 }
 
+
 _G.pg.base.gametip.equip_info_27 = {
 	tip = ""
 }
+
 
 _G.pg.base.gametip.equip_info_28 = {
 	tip = "대미지 수정 비율"
 }
 
+
 _G.pg.base.gametip.equip_info_29 = {
 	tip = "대미지 속성 유형"
 }
+
 
 _G.pg.base.gametip.equip_info_30 = {
 	tip = "속성 효율"
 }
 
+
 _G.pg.base.gametip.equip_info_31 = {
 	tip = "공습"
 }
+
 
 _G.pg.base.gametip.equip_info_32 = {
 	tip = "편차 사격 보정"
 }
 
+
 _G.pg.base.gametip.equip_info_33 = {
 	tip = "영격 표준 공속"
 }
+
 
 _G.pg.base.gametip.equip_info_34 = {
 	tip = "영격 공속"
 }
 
+
 _G.pg.base.gametip.equip_info_extralevel_0 = {
 	tip = "레벨0"
 }
+
 
 _G.pg.base.gametip.equip_info_extralevel_1 = {
 	tip = "레벨1"
 }
 
+
 _G.pg.base.gametip.equip_info_extralevel_2 = {
 	tip = "레벨2"
 }
+
 
 _G.pg.base.gametip.equip_info_extralevel_3 = {
 	tip = "레벨3"
 }
 
+
 _G.pg.base.gametip.tec_settings_btn_word = {
 	tip = "연구 선택"
 }
+
 
 _G.pg.base.gametip.tec_tendency_x = {
 	tip = "연구 제$1기"
 }
 
+
 _G.pg.base.gametip.tec_tendency_0 = {
 	tip = "없음"
 }
+
 
 _G.pg.base.gametip.tec_tendency_1 = {
 	tip = "과학 연구 1기"
 }
 
+
 _G.pg.base.gametip.tec_tendency_2 = {
 	tip = "과학 연구 2기"
 }
+
 
 _G.pg.base.gametip.tec_tendency_3 = {
 	tip = "과학 연구 3기"
 }
 
+
 _G.pg.base.gametip.tec_tendency_4 = {
 	tip = "과학 연구 4기"
 }
+
 
 _G.pg.base.gametip.tec_tendency_cur_x = {
 	tip = "연구 지향 / 제$1기"
 }
 
+
 _G.pg.base.gametip.tec_tendency_cur_0 = {
 	tip = "연구 방향/없음"
 }
+
 
 _G.pg.base.gametip.tec_tendency_cur_1 = {
 	tip = "연구 방향/1기"
 }
 
+
 _G.pg.base.gametip.tec_tendency_cur_2 = {
 	tip = "연구 방향/2기"
 }
+
 
 _G.pg.base.gametip.tec_tendency_cur_3 = {
 	tip = "연구 방향/3기"
 }
 
+
 _G.pg.base.gametip.tec_target_catchup_none = {
 	tip = "강화 지향 / 미선택"
 }
+
 
 _G.pg.base.gametip.tec_target_catchup_selected = {
 	tip = "강화 지향"
 }
 
+
 _G.pg.base.gametip.tec_tendency_cur_4 = {
 	tip = "연구 방향/4기"
 }
+
 
 _G.pg.base.gametip.tec_target_catchup_none_x = {
 	tip = "강화 지향: 제$1기/미선택"
 }
 
+
 _G.pg.base.gametip.tec_target_catchup_none_1 = {
 	tip = "강화 지향: 1기/미선택"
 }
+
 
 _G.pg.base.gametip.tec_target_catchup_none_2 = {
 	tip = "강화 지향: 2기/미선택"
 }
 
+
 _G.pg.base.gametip.tec_target_catchup_none_3 = {
 	tip = "강화 지향: 3기/미선택"
 }
+
 
 _G.pg.base.gametip.tec_target_catchup_selected_x = {
 	tip = "강화 지향: 제$1기/진행"
 }
 
+
 _G.pg.base.gametip.tec_target_catchup_selected_1 = {
 	tip = "강화 지향: 1기/진행"
 }
+
 
 _G.pg.base.gametip.tec_target_catchup_selected_2 = {
 	tip = "강화 지향: 2기/진행"
 }
 
+
 _G.pg.base.gametip.tec_target_catchup_selected_3 = {
 	tip = "강화 지향: 3기/진행"
 }
+
 
 _G.pg.base.gametip.tec_target_catchup_finish_x = {
 	tip = "강화 지향: 제$1기/완료"
 }
 
+
 _G.pg.base.gametip.tec_target_catchup_finish_1 = {
 	tip = "강화 지향: 1기/완료"
 }
+
 
 _G.pg.base.gametip.tec_target_catchup_finish_2 = {
 	tip = "강화 지향: 2기/완료"
 }
 
+
 _G.pg.base.gametip.tec_target_catchup_finish_3 = {
 	tip = "강화 지향: 3기/완료"
 }
+
 
 _G.pg.base.gametip.tec_target_catchup_dr_finish_tip = {
 	tip = "완료됨"
 }
 
+
 _G.pg.base.gametip.tec_target_catchup_all_finish_tip = {
 	tip = "강화 지향 완료"
 }
+
 
 _G.pg.base.gametip.tec_target_catchup_show_the_finished_version = {
 	tip = "완료된 연구 강화 지향 표시"
 }
 
+
 _G.pg.base.gametip.tec_target_catchup_pry_char = {
 	tip = "PR함"
 }
+
 
 _G.pg.base.gametip.tec_target_catchup_dr_char = {
 	tip = "DR함"
 }
 
+
 _G.pg.base.gametip.tec_target_need_print = {
 	tip = "필요 강화 유닛"
 }
+
 
 _G.pg.base.gametip.tec_target_catchup_progress = {
 	tip = "강화 진도"
 }
 
+
 _G.pg.base.gametip.tec_target_catchup_select_tip = {
 	tip = "해당 캐릭터를 연구하시겠습니까: $1?"
 }
 
+
 _G.pg.base.gametip.tec_target_catchup_giveup_tip = {
 	tip = "해당 캐릭터 연구를 포기하시겠습니까: $1?\n확인 입력으로 포기"
 }
+
 
 _G.pg.base.gametip.tec_target_catchup_help_tip = {
 	tip = {
@@ -15222,137 +18027,171 @@ _G.pg.base.gametip.tec_target_catchup_help_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.tec_target_catchup_giveup_confirm = {
 	tip = "포기 확인"
 }
+
 
 _G.pg.base.gametip.tec_target_catchup_giveup_input_err = {
 	tip = "입력 불일치"
 }
 
+
 _G.pg.base.gametip.tec_speedup_title = {
 	tip = "연구 가속"
 }
+
 
 _G.pg.base.gametip.tec_speedup_progress = {
 	tip = "$10000/$20000"
 }
 
+
 _G.pg.base.gametip.tec_speedup_overflow = {
 	tip = "테스트 데이터를 사용해 $1 경험치를 획득합니다. 사용하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.tec_speedup_help_tip = {
 	tip = "연구 가속 기능을 통해 연구 테스트 데이터를 필요한 경험치로 전환할 수 있습니다. 테스트 데이터는 연구 가속 임무에서 획득할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.click_back_tip = {
 	tip = "화면을 터치하여 돌아가기"
 }
+
 
 _G.pg.base.gametip.tech_catchup_sentence_pauses = {
 	tip = "——"
 }
 
+
 _G.pg.base.gametip.tec_act_catchup_btn_word = {
 	tip = "강화 유닛 보완"
 }
+
 
 _G.pg.base.gametip.tec_catchup_errorfix = {
 	tip = "「신병 훈련」 중 「과학 연구 임무·1기」 완료 후 임무가 갱신되는 문제가 존재하기 때문에, 공정한 게임을 위하여 「과학 연구 임무·1기」 임무를 처음 완료 후, 1기 임무가 자동으로 1회 초기화될 것이며, 모든 지휘관들은 2번째 「과학 연구 임무·1기」를 완료할 수 있을 것입니다."
 }
 
+
 _G.pg.base.gametip.guild_duty_is_too_low = {
 	tip = "견습 멤버는 보상을 수령할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.guild_trainee_duty_change_tip = {
 	tip = "견습 멤버는 직위를 변경할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.guild_not_exist_donate_task = {
 	tip = "해당 임무가 존재하지 않습니다."
 }
+
 
 _G.pg.base.gametip.guild_week_task_state_is_wrong = {
 	tip = "대함대 임무 정보를 정상적으로 불러오지 못했습니다."
 }
 
+
 _G.pg.base.gametip.guild_get_week_done = {
 	tip = "새로운 대함대 임무가 수령되었습니다."
 }
+
 
 _G.pg.base.gametip.guild_public_awards = {
 	tip = "대함대 보상: "
 }
 
+
 _G.pg.base.gametip.guild_private_awards = {
 	tip = "멤버 보상: "
 }
+
 
 _G.pg.base.gametip.guild_task_selecte_tip = {
 	tip = "[$1] 임무를 수령하려고 합니다. 수령할 경우, 이번 주 중에는 다른 임무로 변경할 수 없습니다. 확인하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.guild_task_accept = {
 	tip = "[$1]의 [$2]을(를) 수령합니다. 금주 개인 보상은 이미 획득했습니다. [$3]을(를) 중복으로 진행할 경우 <color=#FF5C5CFF>함대 코인 보상은 획득하지 못하지만</color>, <color=#92FC63FF>대함대 임무 완성 횟수는 누적</color>됩니다. 수령을 확인하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.guild_commander_and_sub_op = {
 	tip = "해당 기능은 대함대 사령관, 부사령관만 사용할 수 있습니다."
 }
 
+
 _G.pg.base.gametip["guild_donate_times_not enough"] = {
 	tip = "오늘 준비 횟수를 모두 사용했습니다."
 }
+
 
 _G.pg.base.gametip.guild_donate_success = {
 	tip = "군수 준비 완성"
 }
 
+
 _G.pg.base.gametip.guild_left_donate_cnt = {
 	tip = "남은 횟수: $1회"
 }
+
 
 _G.pg.base.gametip.guild_donate_tip = {
 	tip = "<color=#92FC63FF>$1×$2</color>(보유 개수: <color=$4>$3</color>)을(를) 대함대에 기부하려고 합니다. 기부하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.guild_donate_addition_capital_tip = {
 	tip = "대함대 자금이 $1 증가했습니다."
 }
+
 
 _G.pg.base.gametip.guild_donate_addition_techpoint_tip = {
 	tip = "준비 진도가 $1 증가했습니다."
 }
 
+
 _G.pg.base.gametip.guild_donate_capital_toplimit = {
 	tip = "금일 군수 준비로 획득 가능한 대함대 물자를 초과했습니다. 획득할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.guild_donate_techpoint_toplimit = {
 	tip = "금일 군수 준비로 획득 가능한 준비 진도를 초과했습니다. 획득할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.guild_supply_no_open = {
 	tip = "대함대 보급을 구입하지 않았습니다."
 }
+
 
 _G.pg.base.gametip.guild_supply_award_got = {
 	tip = "대함대 보급을 수령했습니다."
 }
 
+
 _G.pg.base.gametip.guild_new_member_get_award_tip = {
 	tip = "대함대 가입 당일에는 대함대 보급을 받을 수 없습니다."
 }
+
 
 _G.pg.base.gametip.guild_start_supply_consume_tip = {
 	tip = "대함대 자금 $1을 사용해 대함대 보급을 구입하시겠습니까?\n<color=#c5cfdf>※대함대 보급: 모든 대함대 멤버가 매일 보급 보상 획득. 14일 지속</color>"
 }
 
+
 _G.pg.base.gametip.guild_left_supply_day = {
 	tip = "$1일 남음"
 }
+
 
 _G.pg.base.gametip.guild_supply_help_tip = {
 	tip = {
@@ -15383,481 +18222,601 @@ _G.pg.base.gametip.guild_supply_help_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.guild_op_only_administrator = {
 	tip = "해당 기능은 대함대 사령관, 부사령관만 사용할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.guild_shop_refresh_done = {
 	tip = "초기화 성공"
 }
 
+
 _G.pg.base.gametip.guild_shop_cnt_no_enough = {
 	tip = "수량 부족"
 }
+
 
 _G.pg.base.gametip.guild_shop_refresh_all_tip = {
 	tip = "$1 <color=#92fc63>$2</color> 소비하여 상품 목록을 갱신하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.guild_shop_exchange_tip = {
 	tip = "이 아이템과 교환하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.guild_shop_label_1 = {
 	tip = "교환할 상품을 선택하세요:"
 }
 
+
 _G.pg.base.gametip.guild_shop_label_2 = {
 	tip = "교환 가능 횟수"
 }
+
 
 _G.pg.base.gametip.guild_shop_label_3 = {
 	tip = "확인"
 }
 
+
 _G.pg.base.gametip.guild_shop_label_4 = {
 	tip = "사용"
 }
+
 
 _G.pg.base.gametip.guild_shop_label_5 = {
 	tip = "교환할 캐릭터를 선택하세요:"
 }
 
+
 _G.pg.base.gametip.guild_shop_must_select_goods = {
 	tip = "교환할 아이템을 선택해주세요."
 }
+
 
 _G.pg.base.gametip.guild_not_exist_activation_tech = {
 	tip = "연구 중인 함대 기술이 없습니다."
 }
 
+
 _G.pg.base.gametip.guild_not_exist_tech = {
 	tip = "함대 기술이 없습니다."
 }
+
 
 _G.pg.base.gametip.guild_cancel_only_once_pre_day = {
 	tip = "함대 기술 개발은 1일 1회만 변경할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.guild_tech_is_max_level = {
 	tip = "함대 기술 레벨이 최대치입니다."
 }
+
 
 _G.pg.base.gametip.guild_tech_gold_no_enough = {
 	tip = "함대 기술 학습에 필요한 물자가 부족합니다."
 }
 
+
 _G.pg.base.gametip.guild_tech_guildgold_no_enough = {
 	tip = "함대 기술 학습에 필요한 함대 코인이 부족합니다."
 }
+
 
 _G.pg.base.gametip.guild_tech_upgrade_done = {
 	tip = "함대 기술 레벨이 상승했습니다."
 }
 
+
 _G.pg.base.gametip.guild_exist_activation_tech = {
 	tip = "함대 기술은 한 번에 1종류만 개발할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.guild_tech_gold_desc = {
 	tip = "물자 비축 상한 +$1"
 }
 
+
 _G.pg.base.gametip.guild_tech_oil_desc = {
 	tip = "연료 비축 상한 +$1"
 }
+
 
 _G.pg.base.gametip.guild_tech_shipbag_desc = {
 	tip = "도크 용량 +$1"
 }
 
+
 _G.pg.base.gametip.guild_tech_equipbag_desc = {
 	tip = "창고 용량 +$1"
 }
+
 
 _G.pg.base.gametip.guild_box_gold_desc = {
 	tip = "냥박스 구입 비용 -$1"
 }
 
+
 _G.pg.base.gametip.guidl_r_box_time_desc = {
 	tip = "냥박스 R 훈련 시간 단축 $1"
 }
+
 
 _G.pg.base.gametip.guidl_sr_box_time_desc = {
 	tip = "냥박스 SR 훈련 시간 단축 $2"
 }
 
+
 _G.pg.base.gametip.guidl_ssr_box_time_desc = {
 	tip = "냥박스 SSR 훈련 시간 단축 $3"
 }
+
 
 _G.pg.base.gametip.guild_member_max_cnt_desc = {
 	tip = "대함대 최대 멤버 수 +$1"
 }
 
+
 _G.pg.base.gametip.guild_tech_livness_no_enough = {
 	tip = "활약도 <color=#ff5c5c>$1</color> 증가 시 학습 가능. 계속 레벨업 시 공공함대 과학 기술 레벨업에 필요한 비용이 증가합니다. 계속 레벨업하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.guild_tech_livness_no_enough_label = {
 	tip = "활약도 $1 달성 시 학습 가능"
 }
 
+
 _G.pg.base.gametip.guild_ship_attr_desc = {
 	tip = "대함대 작전 내 $1의 $2이(가) $3"
 }
+
 
 _G.pg.base.gametip.guild_start_tech_group_tip = {
 	tip = "[$1] 개발을 진행하려고 합니다. 확인하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.guild_cancel_tech_tip = {
 	tip = "[$1] 개발을 중지하려고 합니다. 진행 상황은 저장되지만, 임의의 항목 개발을 다시 시작하기 전까지 군수 준비 진도는 얻지 못합니다."
 }
+
 
 _G.pg.base.gametip.guild_tech_consume_tip = {
 	tip = "<icon name=guildicon w=0.7 h=0.7/>$1 및 <icon name=gold w=0.7 h=0.7/>$2를 사용해 [$3]을(를) 학습하려고 합니다. 학습하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.guild_tech_non_admin = {
 	tip = "권한 부족. 해당 기능은 대함대 사령관, 부사령관만 사용할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.guild_tech_label_max_level = {
 	tip = "Lv 상한: "
 }
 
+
 _G.pg.base.gametip.guild_tech_label_dev_progress = {
 	tip = "준비 진도"
 }
+
 
 _G.pg.base.gametip.guild_tech_label_condition = {
 	tip = "군수 준비 증가"
 }
 
+
 _G.pg.base.gametip.guild_tech_donate_target = {
 	tip = "준비 진도 $1이 필요합니다."
 }
+
 
 _G.pg.base.gametip.guild_not_exist = {
 	tip = "대함대가 존재하지 않습니다."
 }
 
+
 _G.pg.base.gametip.guild_not_exist_battle = {
 	tip = "대함대 작전이 존재하지 않습니다."
 }
+
 
 _G.pg.base.gametip.guild_battle_is_end = {
 	tip = "대함대 작전은 종료되었습니다."
 }
 
+
 _G.pg.base.gametip.guild_battle_is_exist = {
 	tip = "이미 대함대 작전이 발령되었습니다."
 }
+
 
 _G.pg.base.gametip.guild_guildgold_no_enough_for_battle = {
 	tip = "대함대 작전을 발령하는 데 필요한 대함대 자금이 없습니다."
 }
 
+
 _G.pg.base.gametip.guild_event_start_tip1 = {
 	tip = "새로운 대함대 작전이 발령되었습니다. 확인을 터치해 화면을 새로고침해주세요."
 }
+
 
 _G.pg.base.gametip.guild_event_start_tip2 = {
 	tip = "이미 대함대 작전이 발령되었으므로, 새로운 대함대 작전을 발령할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.guild_word_may_happen_event = {
 	tip = "사건 발생 가능"
 }
+
 
 _G.pg.base.gametip.guild_battle_award = {
 	tip = "작전 획득"
 }
 
+
 _G.pg.base.gametip.guild_word_consume = {
 	tip = "사용"
 }
+
 
 _G.pg.base.gametip.guild_start_event_consume_tip = {
 	tip = "대함대 물자 $1을 사용해 [$2]을(를) 발령하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.guild_start_event_consume_tip_extra = {
 	tip = "이번달에 <color=#ff5c5c>$3</color>회의 작전을 개시하였습니다.대함대 물자 $1을 사용해 [$2]을(를) 발령하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.guild_word_consume_for_battle = {
 	tip = "발령 사용"
 }
 
+
 _G.pg.base.gametip.guild_level_no_enough = {
 	tip = "대함대 레벨이 부족하므로 작전을 발령할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.guild_open_event_info_when_exist_active = {
 	tip = "$1 진행 중, 해당 작전을 선택할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.guild_join_event_cnt_label = {
 	tip = "이번달 참여 횟수:"
 }
+
 
 _G.pg.base.gametip.guild_join_event_max_cnt_tip = {
 	tip = "참가 가능한 횟수가 부족합니다."
 }
 
+
 _G.pg.base.gametip.guild_join_event_progress_label = {
 	tip = "작전 진행도: "
 }
+
 
 _G.pg.base.gametip.guild_join_event_exist_finished_mission_tip = {
 	tip = "해당 작전은 진행 중입니다. 지금 작전에 참가할 시 이미 완성한 작전 사건의 보상은 획득할 수 없습니다. 작전에 참가하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.guild_event_not_exist = {
 	tip = "작전 사건이 없습니다."
 }
+
 
 _G.pg.base.gametip.guild_fleet_can_not_edit = {
 	tip = "함대를 편집할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.guild_fleet_exist_same_kind_ship = {
 	tip = "이미 지원파견 중. 중복 선택 불가"
 }
+
 
 _G.pg.base.gametip.guild_event_exist_same_kind_ship = {
 	tip = "동명의 함선은 중복으로 존재할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.guidl_event_ship_in_event = {
 	tip = "다른 임무를 수행 중이므로 선택할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.guild_event_start_done = {
 	tip = "파견 성공"
 }
 
+
 _G.pg.base.gametip.guild_fleet_update_done = {
 	tip = "함대 갱신 성공"
 }
+
 
 _G.pg.base.gametip.guild_event_is_lock = {
 	tip = "사건 미개방"
 }
 
+
 _G.pg.base.gametip.guild_event_is_finish = {
 	tip = "사건 종료. 작전 보고서를 확인하면 보상을 수령할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.guild_fleet_not_save_tip = {
 	tip = "함대 편성이 갱신되지 않았습니다. 이전 화면으로 돌아가시겠습니까? "
 }
 
+
 _G.pg.base.gametip.guild_word_battle_area = {
 	tip = "작전 해역: "
 }
+
 
 _G.pg.base.gametip.guild_word_battle_type = {
 	tip = "작전 유형: "
 }
 
+
 _G.pg.base.gametip.guild_wrod_battle_target = {
 	tip = "작전 목표: "
 }
+
 
 _G.pg.base.gametip.guild_event_recomm_ship_failed = {
 	tip = "조건을 충족하는 함선이 없습니다."
 }
 
+
 _G.pg.base.gametip.guild_event_start_event_tip = {
 	tip = "파견 성공 후 철수할 수 없습니다. 확인하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.guild_word_sea = {
 	tip = "근해"
 }
 
+
 _G.pg.base.gametip.guild_word_score_addition = {
 	tip = "평가 UP: "
 }
+
 
 _G.pg.base.gametip.guild_word_effect_addition = {
 	tip = "효율 UP: "
 }
 
+
 _G.pg.base.gametip.guild_curr_fleet_can_not_edit = {
 	tip = "함대 편성을 변경할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.guild_next_edit_fleet_time = {
 	tip = "$1 후, 새로운 함대를 파견할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.guild_event_info_desc1 = {
 	tip = "캐릭터 $5명 $1 수치 $2 달성: <color=$3>$4/$5</color>"
 }
+
 
 _G.pg.base.gametip.guild_event_info_desc2 = {
 	tip = "총 $1수치: <color=$2>$3/$4</color>"
 }
 
+
 _G.pg.base.gametip.guild_join_member_cnt = {
 	tip = "참가 멤버:"
 }
+
 
 _G.pg.base.gametip.guild_total_effect = {
 	tip = "총 효율: "
 }
 
+
 _G.pg.base.gametip.guild_word_people = {
 	tip = "명"
 }
+
 
 _G.pg.base.gametip.guild_event_info_desc3 = {
 	tip = "$1 함선(현재 $2)"
 }
 
+
 _G.pg.base.gametip.guild_not_exist_boss = {
 	tip = "보스 데이터가 없습니다."
 }
+
 
 _G.pg.base.gametip.guild_ship_from = {
 	tip = "from:"
 }
 
+
 _G.pg.base.gametip.guild_boss_formation_1 = {
 	tip = "대함대 멤버의 지원 파견 함선을 최대 3척까지 선택할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.guild_boss_formation_2 = {
 	tip = "한 멤버당 지원 파견 함선을 최대 1척까지 선택할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.guild_boss_formation_3 = {
 	tip = "편대 내 동명의 함선이 중복으로 존재할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.guild_boss_cnt_no_enough = {
 	tip = "도전 횟수 부족"
 }
 
+
 _G.pg.base.gametip.guild_boss_fleet_cnt_invaild = {
 	tip = "편성 오류, 출격할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.guild_boss_formation_not_exist_self_ship = {
 	tip = "선봉함대, 주력함대에 자신의 함선을 각각 1척 이상 배치해야 합니다."
 }
 
+
 _G.pg.base.gametip.guild_boss_formation_exist_event_ship = {
 	tip = "$1 군사 의뢰 진행 중, 보스전에 참가할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.guild_fleet_is_legal = {
 	tip = "선봉함대, 주력함대에 각각 1척 이상 배치해야 합니다."
 }
 
+
 _G.pg.base.gametip.guild_battle_result_boss_is_death = {
 	tip = "대함대 작전 보스전이 종료되었습니다. 전투 패배"
 }
+
 
 _G.pg.base.gametip.guild_must_edit_fleet = {
 	tip = "지원 파견 함선을 갱신했습니다."
 }
 
+
 _G.pg.base.gametip.guild_ship_in_battle = {
 	tip = "$1은(는) 작전에 참가 중입니다. 작전 종료 후에 파견 편성이 갱신됩니다."
 }
+
 
 _G.pg.base.gametip.guild_ship_in_assult_fleet = {
 	tip = "이미 지원 파견 함선에 편성된 상태입니다."
 }
 
+
 _G.pg.base.gametip.guild_event_exist_assult_ship = {
 	tip = "지원 파견 함선은 작전 사건에 참가할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.guild_formation_erro_in_boss_battle = {
 	tip = "보스와 교전 중입니다. 지원 파견 함선을 변경할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.guild_get_report_failed = {
 	tip = "작전 보고서 정보를 수령하는 데 실패했습니다."
 }
+
 
 _G.pg.base.gametip.guild_report_get_all = {
 	tip = "모두 수령"
 }
 
+
 _G.pg.base.gametip.guild_can_not_get_tip = {
 	tip = "작전 사건에 참가하지 않았으므로 보상을 수령할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.guild_not_exist_notifycation = {
 	tip = "대함대 게시판에 작성된 글이 없습니다."
 }
 
+
 _G.pg.base.gametip.guild_exist_report_award_when_exit = {
 	tip = "미수령한 작전 보상이 있습니다. 수령하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.guild_report_tooltip = {
 	tip = "※작전 보고서(보상)는 최대 20개까지 저장됩니다. 수령하지 않은 보상은 새로운 보상이 추가되면 삭제됩니다. 주의하세요!"
 }
 
+
 _G.pg.base.gametip.word_guildgold = {
 	tip = "함대 코인"
 }
+
 
 _G.pg.base.gametip.guild_member_rank_title_donate = {
 	tip = "기부 횟수"
 }
 
+
 _G.pg.base.gametip.guild_member_rank_title_finish_cnt = {
 	tip = "완료 횟수"
 }
+
 
 _G.pg.base.gametip.guild_member_rank_title_join_cnt = {
 	tip = "참가 횟수"
 }
 
+
 _G.pg.base.gametip.guild_donate_log = {
 	tip = "[$1] $2이(가) $3$4를 사용해 군수 준비 임무를 완료했습니다. 대함대 자금 +$5"
 }
+
 
 _G.pg.base.gametip.guild_supply_log = {
 	tip = "[$1] $2이(가) 대함대 자금 $3를 사용해 대함대 보급 물자를 $4일분 구입했습니다."
 }
 
+
 _G.pg.base.gametip.guild_weektask_log = {
 	tip = "[$1] 대함대 임무를 완료했습니다. 대함대 자금 +$2"
 }
+
 
 _G.pg.base.gametip.guild_battle_log = {
 	tip = "[$1] $2이(가) 대함대 자금 $3를 사용해 대함대 작전을 발령했습니다."
 }
 
+
 _G.pg.base.gametip.guild_tech_change_log = {
 	tip = "[$1] $2 과학 연구 $3(으)로 전환"
 }
+
 
 _G.pg.base.gametip.guild_log_title = {
 	tip = "함대 일지"
 }
 
+
 _G.pg.base.gametip.guild_use_donateitem_success = {
 	tip = "사용 성공, 군수 준비 횟수 +$1"
 }
+
 
 _G.pg.base.gametip.guild_use_battleitem_success = {
 	tip = "사용 성공, 작전 참가 횟수 +$1"
 }
 
+
 _G.pg.base.gametip.not_exist_guild_use_item = {
 	tip = "대함대에 가입하지 않았습니다. 해당 아이템을 사용할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.guild_member_tip = {
 	tip = {
@@ -15933,6 +18892,7 @@ _G.pg.base.gametip.guild_member_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.guild_tech_tip = {
 	tip = {
 		{
@@ -15976,6 +18936,7 @@ _G.pg.base.gametip.guild_tech_tip = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.guild_office_tip = {
 	tip = {
@@ -16030,6 +18991,7 @@ _G.pg.base.gametip.guild_office_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.guild_event_help_tip = {
 	tip = {
 		{
@@ -16050,57 +19012,57 @@ _G.pg.base.gametip.guild_event_help_tip = {
 		{
 			info = "조우전",
 			rawIcon = {
-				atlas = "GuildEventIcon",
-				name = "1"
+				name = "1",
+				atlas = "GuildEventIcon"
 			}
 		},
 		{
 			info = "항공전",
 			rawIcon = {
-				atlas = "GuildEventIcon",
-				name = "2"
+				name = "2",
+				atlas = "GuildEventIcon"
 			}
 		},
 		{
 			info = "수송 호위",
 			rawIcon = {
-				atlas = "GuildEventIcon",
-				name = "3"
+				name = "3",
+				atlas = "GuildEventIcon"
 			}
 		},
 		{
 			info = "보급 파괴",
 			rawIcon = {
-				atlas = "GuildEventIcon",
-				name = "4"
+				name = "4",
+				atlas = "GuildEventIcon"
 			}
 		},
 		{
 			info = "거점 점령",
 			rawIcon = {
-				atlas = "GuildEventIcon",
-				name = "5"
+				name = "5",
+				atlas = "GuildEventIcon"
 			}
 		},
 		{
 			info = "거점 방어",
 			rawIcon = {
-				atlas = "GuildEventIcon",
-				name = "6"
+				name = "6",
+				atlas = "GuildEventIcon"
 			}
 		},
 		{
 			info = "순찰",
 			rawIcon = {
-				atlas = "GuildEventIcon",
-				name = "7"
+				name = "7",
+				atlas = "GuildEventIcon"
 			}
 		},
 		{
 			info = "보급 정비",
 			rawIcon = {
-				atlas = "GuildEventIcon",
-				name = "8"
+				name = "8",
+				atlas = "GuildEventIcon"
 			}
 		},
 		{
@@ -16136,6 +19098,7 @@ _G.pg.base.gametip.guild_event_help_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.guild_mission_info_tip = {
 	tip = {
 		{
@@ -16162,6 +19125,7 @@ _G.pg.base.gametip.guild_mission_info_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.guild_public_tech_tip = {
 	tip = {
 		{
@@ -16182,6 +19146,7 @@ _G.pg.base.gametip.guild_public_tech_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.guild_public_office_tip = {
 	tip = {
 		{
@@ -16199,9 +19164,11 @@ _G.pg.base.gametip.guild_public_office_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.guild_tech_price_inc_tip = {
 	tip = "<color=#92fc63>현재 대함대</color>의 과학 기술 레벨 최대치 도달. 계속 레벨업 시 공공함대 과학 기술 레벨업에 필요한 비용이 증가합니다. 계속 레벨업하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.guild_boss_fleet_desc = {
 	tip = [[
@@ -16212,89 +19179,111 @@ _G.pg.base.gametip.guild_boss_fleet_desc = {
 5. 지휘관은 하루에 <color=#92fc63>1</color>번만 보스와 교전할 수 있습니다.]]
 }
 
+
 _G.pg.base.gametip.guild_boss_formation_exist_invaild_ship = {
 	tip = "대함대 멤버의 지원 파견 편성이 변경되었으므로, 보스전 편성이 갱신되었습니다."
 }
+
 
 _G.pg.base.gametip.guild_exist_unreceived_supply_award = {
 	tip = "<color=red>미수령</color>"
 }
 
+
 _G.pg.base.gametip.word_shipState_guild_event = {
 	tip = "캐릭터가 대함대 작전에 참여 중입니다. 퇴역 불가"
 }
+
 
 _G.pg.base.gametip.word_shipState_guild_boss = {
 	tip = "해당 캐릭터는 대함대 작전 보스전에 편성되어있습니다. 편성에서 제외하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.commander_is_in_guild = {
 	tip = "해당 지휘냥은 대함대 작전 보스전에 편성되어있습니다. 편성에서 제외하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.guild_assult_ship_recommend = {
 	tip = "추천 상태 갱신 성공. 지원파견 추천 캐릭터 설정 성공"
 }
 
+
 _G.pg.base.gametip.guild_cancel_assult_ship_recommend = {
 	tip = "추천 상태 갱신 성공. 지원파견 추천 캐릭터 취소 성공"
 }
+
 
 _G.pg.base.gametip.guild_assult_ship_recommend_conflict = {
 	tip = "추천 상태 갱신 성공. 해당 캐릭터는 지원파견 추천 캐릭터입니다."
 }
 
+
 _G.pg.base.gametip.guild_recommend_limit = {
 	tip = "지원파견 추천 캐릭터가 최대치입니다. 설정 불가."
 }
+
 
 _G.pg.base.gametip.guild_cancel_assult_ship_recommend_conflict = {
 	tip = "추천 상태 갱신 성공. 해당 캐릭터 추천 상태가 다른 관리원에 의해 최소되었습니다."
 }
 
+
 _G.pg.base.gametip.guild_mission_complate = {
 	tip = "완료한 대함대 임무: $1"
 }
+
 
 _G.pg.base.gametip.guild_operation_event_occurrence = {
 	tip = "대함대 작전에 파견 가능한 새로운 사건이 있습니다. 확인해 주세요."
 }
 
+
 _G.pg.base.gametip.guild_transfer_president_confirm = {
 	tip = "함대 사령을 $1에게 양도합니다. 양도 후 일반 멤버로 등급이 하락합니다. 계속하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.guild_damage_ranking = {
 	tip = "랭킹"
 }
 
+
 _G.pg.base.gametip.guild_total_damage = {
 	tip = "총 대미지"
 }
+
 
 _G.pg.base.gametip.guild_donate_list_updated = {
 	tip = "군수 준비 항목 갱신됨"
 }
 
+
 _G.pg.base.gametip.guild_donate_list_update_failed = {
 	tip = "군수 준비 항목 갱신 실패"
 }
+
 
 _G.pg.base.gametip.guild_tip_quit_operation = {
 	tip = "대함대 작전 참여 중, 대함대 탈퇴 시 이미 소모한 대함대 작전 횟수(이번달 잔여 횟수: $1)는 사라집니다. 탈퇴하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.guild_tip_grand_fleet_is_frozen = {
 	tip = "해당 대함대는 동결되었습니다. 가입 신청 불가"
 }
+
 
 _G.pg.base.gametip.guild_tip_operation_time_is_not_ample = {
 	tip = "해당 작전의 잔여 시간이 7일 미만입니다. 시간 부족으로 인해 작전 참가 횟수에 손해를 볼 수 있습니다. 작전에 참여하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.guild_time_remaining_tip = {
 	tip = "작전 잔여 시간:"
 }
+
 
 _G.pg.base.gametip.help_rollingBallGame = {
 	tip = {
@@ -16325,6 +19314,7 @@ _G.pg.base.gametip.help_rollingBallGame = {
 	}
 }
 
+
 _G.pg.base.gametip.rolling_ball_help = {
 	tip = {
 		{
@@ -16337,6 +19327,7 @@ _G.pg.base.gametip.rolling_ball_help = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.help_jiujiu_expedition_game = {
 	tip = {
@@ -16357,29 +19348,36 @@ _G.pg.base.gametip.help_jiujiu_expedition_game = {
 	}
 }
 
+
 _G.pg.base.gametip.jiujiu_expedition_game_stg_desc = {
 	tip = "$1스테이지 탐색도"
 }
+
 
 _G.pg.base.gametip.build_ship_accumulative = {
 	tip = "건조 누적:"
 }
 
+
 _G.pg.base.gametip.destory_ship_before_tip = {
 	tip = "확인하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.destory_ship_input_erro = {
 	tip = "정확한 확인 문구를 입력해야 해체가 진행됩니다."
 }
 
+
 _G.pg.base.gametip.destroy_ur_rarity_tip = {
 	tip = "<color=#92fc63>UR 함선</color> 포함됨, <color=#92fc63>$1</color>를 입력하여 확인"
 }
 
+
 _G.pg.base.gametip.destory_ur_pt_overflowa = {
 	tip = "※해체로 획득하는 <color=#92fc63>「특장 원형」</color>은 이번달 획득 최대치를 초과하며, <color=#fd796b>초과된 부분은 획득할 수 없습니다</color>."
 }
+
 
 _G.pg.base.gametip.jiujiu_expedition_help = {
 	tip = {
@@ -16401,29 +19399,36 @@ _G.pg.base.gametip.jiujiu_expedition_help = {
 	}
 }
 
+
 _G.pg.base.gametip.shop_label_unlimt_cnt = {
 	tip = "중복 교환 가능"
 }
+
 
 _G.pg.base.gametip.jiujiu_expedition_book_tip = {
 	tip = "이전 수첩 수집 완료 후 잠금 해제 가능"
 }
 
+
 _G.pg.base.gametip.jiujiu_expedition_reward_tip = {
 	tip = "수첩 수집 완료 후 보상 수령 가능"
 }
+
 
 _G.pg.base.gametip.jiujiu_expedition_amount_tip = {
 	tip = "탐색 PT 부족, 임무를 완성하여 탐색 PT를 획득하세요."
 }
 
+
 _G.pg.base.gametip.jiujiu_expedition_stg_tip = {
 	tip = "스테이지 잠김, 이전 스테이지를 완료하세요."
 }
 
+
 _G.pg.base.gametip.trade_card_tips1 = {
 	tip = "상점으로 이동"
 }
+
 
 _G.pg.base.gametip.trade_card_tips2 = {
 	tip = [[
@@ -16434,6 +19439,7 @@ _G.pg.base.gametip.trade_card_tips2 = {
 {namecode:98}는 항상 상점에서 지휘관을 기다리고 있을 거다냥~!]]
 }
 
+
 _G.pg.base.gametip.trade_card_tips3 = {
 	tip = [[
 중요 알림!
@@ -16443,9 +19449,11 @@ _G.pg.base.gametip.trade_card_tips3 = {
 {namecode:98}는 항상 상점에서 지휘관을 기다리고 있을 거다냥~!]]
 }
 
+
 _G.pg.base.gametip.trade_card_tips4 = {
 	tip = "$1년 $2월 $3일"
 }
+
 
 _G.pg.base.gametip.ur_exchange_help_tip = {
 	tip = {
@@ -16468,9 +19476,11 @@ _G.pg.base.gametip.ur_exchange_help_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.fleet_antisub_range = {
 	tip = "대잠"
 }
+
 
 _G.pg.base.gametip.fleet_antisub_range_tip = {
 	tip = {
@@ -16502,9 +19512,11 @@ _G.pg.base.gametip.fleet_antisub_range_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.practise_idol_tip = {
 	tip = "$1에게 연습을 진행시키겠습니까?"
 }
+
 
 _G.pg.base.gametip.practise_idol_help = {
 	tip = {
@@ -16531,29 +19543,36 @@ _G.pg.base.gametip.practise_idol_help = {
 	}
 }
 
+
 _G.pg.base.gametip.upgrade_idol_tip = {
 	tip = "「연습할 항목을 선택하세요.」"
 }
+
 
 _G.pg.base.gametip.upgrade_complete_tip = {
 	tip = "연습 완료"
 }
 
+
 _G.pg.base.gametip.upgrade_introduce_tip = {
 	tip = "$1 Lv.MAX 달성 시 특별 보상 획득 가능"
 }
+
 
 _G.pg.base.gametip.collect_idol_tip = {
 	tip = "※굿즈를 선택창으로 드래그하여 되돌리기 가능"
 }
 
+
 _G.pg.base.gametip.hand_account_tip = {
 	tip = "굿즈 수집 완료 후 해제"
 }
 
+
 _G.pg.base.gametip.hand_account_resetting_tip = {
 	tip = "수첩 페이지를 초기화합니까?"
 }
+
 
 _G.pg.base.gametip.help_candymagic = {
 	tip = {
@@ -16585,9 +19604,11 @@ _G.pg.base.gametip.help_candymagic = {
 	}
 }
 
+
 _G.pg.base.gametip.award_overflow_tip = {
 	tip = "일부 보상은 자원 최대치를 초과하였습니다. 수동으로 수령해 주세요."
 }
+
 
 _G.pg.base.gametip.hunter_npc = {
 	tip = {
@@ -16611,6 +19632,7 @@ _G.pg.base.gametip.hunter_npc = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.venusvolleyball_help = {
 	tip = {
@@ -16637,17 +19659,21 @@ miss. 리시브: miss 시 실점, good/perfect 시 리시브 성공
 	}
 }
 
+
 _G.pg.base.gametip.venusvolleyball_rule_tip = {
 	tip = "$1점 우선획득"
 }
+
 
 _G.pg.base.gametip.venusvolleyball_return_tip = {
 	tip = "게임에서 퇴장하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.venusvolleyball_suspend_tip = {
 	tip = "게임을 계속하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.doa_main = {
 	tip = {
@@ -16666,6 +19692,7 @@ _G.pg.base.gametip.doa_main = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.doa_pt_help = {
 	tip = {
@@ -16688,29 +19715,36 @@ _G.pg.base.gametip.doa_pt_help = {
 	}
 }
 
+
 _G.pg.base.gametip.doa_pt_complete = {
 	tip = "강화 완료"
 }
+
 
 _G.pg.base.gametip.doa_pt_up = {
 	tip = "$1을(를) 강화하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.doa_liliang = {
 	tip = "파워"
 }
+
 
 _G.pg.base.gametip.doa_jiqiao = {
 	tip = "테크닉"
 }
 
+
 _G.pg.base.gametip.doa_tili = {
 	tip = "체력"
 }
 
+
 _G.pg.base.gametip.doa_meili = {
 	tip = "매력"
 }
+
 
 _G.pg.base.gametip.snowball_help = {
 	tip = {
@@ -16747,6 +19781,7 @@ _G.pg.base.gametip.snowball_help = {
 	}
 }
 
+
 _G.pg.base.gametip.help_xinnian2021_feast = {
 	tip = {
 		{
@@ -16764,6 +19799,7 @@ _G.pg.base.gametip.help_xinnian2021_feast = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.help_xinnian2021__qiaozhong = {
 	tip = {
@@ -16792,6 +19828,7 @@ _G.pg.base.gametip.help_xinnian2021__qiaozhong = {
 	}
 }
 
+
 _G.pg.base.gametip.help_xinnian2021__meishiyemian = {
 	tip = {
 		{
@@ -16811,6 +19848,7 @@ _G.pg.base.gametip.help_xinnian2021__meishiyemian = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.help_xinnian2021__meishi = {
 	tip = {
@@ -16841,18 +19879,19 @@ _G.pg.base.gametip.help_xinnian2021__meishi = {
 	}
 }
 
+
 _G.pg.base.gametip.help_act_event = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/event_doa",
-				path = ""
+				path = "",
+				atlas = "helpbg/event_doa"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -16867,113 +19906,141 @@ _G.pg.base.gametip.help_act_event = {
 	}
 }
 
+
 _G.pg.base.gametip.autofight = {
 	tip = "자동공략"
 }
+
 
 _G.pg.base.gametip.autofight_errors_tip = {
 	tip = "자동 공략으로 적을 찾지 못했습니다. 수동 모드로 전환되었습니다."
 }
 
+
 _G.pg.base.gametip.autofight_special_operation_tip = {
 	tip = "고효율 작전 명령서가 이미 <color=#ff5c5c>취소</color>되었습니다. 자동 공략 모드에서는 <color=#92fc63>적 기함을 우선 공격</color>하며 전투를 전부 진행하지는 않습니다. 여전히 고효율 작전 명령서를 사용하길 원할 경우, <color=#92fc63>수동으로 다시 선택하여 사용해 주세요</color>."
 }
+
 
 _G.pg.base.gametip.autofight_formation = {
 	tip = "편대"
 }
 
+
 _G.pg.base.gametip.autofight_cat = {
 	tip = "지휘냥"
 }
+
 
 _G.pg.base.gametip.autofight_function = {
 	tip = "기능"
 }
 
+
 _G.pg.base.gametip.autofight_function1 = {
 	tip = "도중 전투"
 }
+
 
 _G.pg.base.gametip.autofight_function2 = {
 	tip = "기함 전투"
 }
 
+
 _G.pg.base.gametip.autofight_function3 = {
 	tip = "전부 전투"
 }
+
 
 _G.pg.base.gametip.autofight_function4 = {
 	tip = "대기"
 }
 
+
 _G.pg.base.gametip.autofight_function5 = {
 	tip = "잠수함 자동 소환"
 }
+
 
 _G.pg.base.gametip.autofight_rewards = {
 	tip = "총 획득 보상"
 }
 
+
 _G.pg.base.gametip.autofight_rewards_none = {
 	tip = "이번 작전 미획득 보상"
 }
+
 
 _G.pg.base.gametip.autofight_leave = {
 	tip = "이탈"
 }
 
+
 _G.pg.base.gametip.autofight_onceagain = {
 	tip = "재출격"
 }
+
 
 _G.pg.base.gametip.autofight_entrust = {
 	tip = "이번 작전의 긴급 의뢰: $1"
 }
 
+
 _G.pg.base.gametip.autofight_task = {
 	tip = "이번 작전 완성 임무: $1"
 }
+
 
 _G.pg.base.gametip.autofight_effect = {
 	tip = "적응력 조정: 공격 +$1, 내구 +$2, 회복 +$3"
 }
 
+
 _G.pg.base.gametip.autofight_file = {
 	tip = "해제된 파일: $1"
 }
+
 
 _G.pg.base.gametip.autofight_discovery = {
 	tip = "완료된 해역 탐색 목표: $1"
 }
 
+
 _G.pg.base.gametip.autofight_tip_bigworld_dead = {
 	tip = "현재 함대는 전투에서 패배하여,\n자율 색적 진행 불가."
 }
+
 
 _G.pg.base.gametip.autofight_tip_bigworld_begin = {
 	tip = "이미 자율 색적을 시작했습니다."
 }
 
+
 _G.pg.base.gametip.autofight_tip_bigworld_stop = {
 	tip = "이미 자율 색적이 중지되었습니다."
 }
+
 
 _G.pg.base.gametip.autofight_tip_bigworld_suspend = {
 	tip = "이미 시야 내 모든 사건을 완료했습니다. 자율 색적 중지."
 }
 
+
 _G.pg.base.gametip.autofight_tip_bigworld_loop = {
 	tip = "목표 지점에 도달할 수 없어 자율 색적이 중지되었습니다."
 }
+
 
 _G.pg.base.gametip.autofight_farm = {
 	tip = "주회모드"
 }
 
+
 _G.pg.base.gametip.autofight_story = {
 	tip = "카운트 다운 종료 후 스토리 자동 재생"
 }
+
 
 _G.pg.base.gametip.fushun_adventure_help = {
 	tip = {
@@ -17004,13 +20071,16 @@ _G.pg.base.gametip.fushun_adventure_help = {
 	}
 }
 
+
 _G.pg.base.gametip.autofight_change_tip = {
 	tip = "함대에 변화가 발생하여, 함대 기능이 <color=#92fc63>전부 전투</color>로 변경됩니다."
 }
 
+
 _G.pg.base.gametip.autofight_selectprops_tip = {
 	tip = "터치하여\n작전 아이템 선택"
 }
+
 
 _G.pg.base.gametip.help_chunjie2021_feast = {
 	tip = {
@@ -17028,45 +20098,56 @@ _G.pg.base.gametip.help_chunjie2021_feast = {
 	}
 }
 
+
 _G.pg.base.gametip.valentinesday__txt1_tip = {
 	tip = "맛있는 초콜릿을 먹고 싶다면, 어서 재료들을 수집해 오세요."
 }
+
 
 _G.pg.base.gametip.valentinesday__txt2_tip = {
 	tip = "초콜릿이 완성되었어요. 뭐죠, 제가 직접 먹여줘야 하나요?"
 }
 
+
 _G.pg.base.gametip.valentinesday__txt3_tip = {
 	tip = "음, 초콜릿 가루가 부족한 것 같은데......"
 }
+
 
 _G.pg.base.gametip.valentinesday__txt4_tip = {
 	tip = "초콜릿, 완성이에요... 지휘관님, 보상 잊지 마세요......"
 }
 
+
 _G.pg.base.gametip.valentinesday__txt5_tip = {
 	tip = "지휘관님, 더 많은 재료들을 수집해야 초콜릿을 계속 만들 수 있어요."
 }
+
 
 _G.pg.base.gametip.valentinesday__txt6_tip = {
 	tip = "초콜릿이 완성되었어요. 지휘관님, 와서 먹어 보세요."
 }
 
+
 _G.pg.base.gametip.valentinesday__shop_tip = {
 	tip = "스킨 상점으로 이동하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.wwf_bamboo_tip1 = {
 	tip = "닝닝의 친구(닝하이 편)"
 }
 
+
 _G.pg.base.gametip.wwf_bamboo_tip2 = {
 	tip = "핑핑의 친구(핑하이 편)"
 }
 
+
 _G.pg.base.gametip.wwf_bamboo_tip3 = {
 	tip = "맛있는 대나무 부족. 임무를 완성하여 획득하세요."
 }
+
 
 _G.pg.base.gametip.wwf_bamboo_help = {
 	tip = {
@@ -17084,9 +20165,11 @@ _G.pg.base.gametip.wwf_bamboo_help = {
 	}
 }
 
+
 _G.pg.base.gametip.wwf_guide_tip = {
 	tip = "맛있는 대나무 아이콘을 터치하여 임무 목록 확인 가능"
 }
+
 
 _G.pg.base.gametip.securitycake_help = {
 	tip = {
@@ -17110,6 +20193,7 @@ _G.pg.base.gametip.securitycake_help = {
 	}
 }
 
+
 _G.pg.base.gametip.icecream_help = {
 	tip = {
 		{
@@ -17125,329 +20209,411 @@ _G.pg.base.gametip.icecream_help = {
 	}
 }
 
+
 _G.pg.base.gametip.icecream_make_tip = {
 	tip = "$1의 아이스크림"
 }
+
 
 _G.pg.base.gametip.query_role = {
 	tip = "조회 중"
 }
 
+
 _G.pg.base.gametip.query_role_none = {
 	tip = "결과 없음"
 }
+
 
 _G.pg.base.gametip.query_role_button = {
 	tip = "조회 결과"
 }
 
+
 _G.pg.base.gametip.query_role_fail = {
 	tip = "조회 실패"
 }
+
 
 _G.pg.base.gametip.cumulative_victory_target_tip = {
 	tip = "목표 승리 횟수"
 }
 
+
 _G.pg.base.gametip.cumulative_victory_now_tip = {
 	tip = "현재 승리 횟수"
 }
+
 
 _G.pg.base.gametip.word_files_repair = {
 	tip = "터치하여 복구"
 }
 
+
 _G.pg.base.gametip.repair_setting_label = {
 	tip = "리소스 복구"
 }
+
 
 _G.pg.base.gametip.voice_control = {
 	tip = "사운드"
 }
 
+
 _G.pg.base.gametip.index_equip = {
 	tip = "장비 중"
 }
+
 
 _G.pg.base.gametip.index_without_limit = {
 	tip = "무제한"
 }
 
+
 _G.pg.base.gametip.meta_learn_skill = {
 	tip = "습득 스킬: $1(미사용)"
 }
+
 
 _G.pg.base.gametip.world_joint_boss_not_found = {
 	tip = "선택한 비콘이 사라졌습니다. 다른 비콘을 선택하세요!"
 }
 
+
 _G.pg.base.gametip.world_joint_boss_is_death = {
 	tip = "선택한 비콘이 사라졌습니다. 다른 비콘을 선택하세요!"
 }
+
 
 _G.pg.base.gametip.world_joint_whitout_guild = {
 	tip = "대함대에 가입하지 않았습니다."
 }
 
+
 _G.pg.base.gametip.world_joint_whitout_friend = {
 	tip = "전우가 없습니다."
 }
+
 
 _G.pg.base.gametip.world_joint_call_support_failed = {
 	tip = "지원 요청 실패!"
 }
 
+
 _G.pg.base.gametip.world_joint_call_support_success = {
 	tip = "지원 요청 성공!"
 }
+
 
 _G.pg.base.gametip.world_joint_call_friend_support_txt = {
 	tip = "전우 $1님이 $2 TIER.$3 도전 중, 긴급 지원 요청을 보냈습니다.(미사용)"
 }
 
+
 _G.pg.base.gametip.world_joint_call_guild_support_txt = {
 	tip = "대함대 멤버 $1님이 $2 TIER.$3 도전 중, 긴급 지원 요청을 보냈습니다.(미사용)"
 }
+
 
 _G.pg.base.gametip.world_joint_call_world_support_txt = {
 	tip = "지휘관 $1님이 $2 TIER.$3 도전 중, 긴급 지원 요청을 보냈습니다.(미사용)"
 }
 
+
 _G.pg.base.gametip.ad_4 = {
 	tip = "<material=underline c=#92fc63><color=#92fc63>$2</color></material> 님이 <material=underline><color=#FFDE38FF>$3</color></material> 도전에 초대하였습니다."
 }
+
 
 _G.pg.base.gametip.world_word_expired = {
 	tip = "비콘 기간 종료"
 }
 
+
 _G.pg.base.gametip.world_word_guild_member = {
 	tip = "대함대 멤버(미사용)"
 }
+
 
 _G.pg.base.gametip.world_word_guild_player = {
 	tip = "지휘관(미사용)"
 }
 
+
 _G.pg.base.gametip.world_joint_boss_award_expired = {
 	tip = "보상 수령 실패"
 }
+
 
 _G.pg.base.gametip.world_joint_not_refresh_frequently = {
 	tip = "새로고침이 너무 잦습니다."
 }
 
+
 _G.pg.base.gametip.world_joint_exit_battle_tip = {
 	tip = "현재 전투를 중단하고 비콘·META로 이동하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.world_boss_get_item = {
 	tip = "비콘 데이터를 지정량만큼 수집하였습니다. 바로 분석하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.world_boss_ask_help = {
 	tip = "해당 채널에서 지원을 호출할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.world_joint_count_no_enough = {
 	tip = "도전 횟수 부족"
 }
 
+
 _G.pg.base.gametip.world_boss_none = {
 	tip = "선택한 비콘이 도전 불가 상태입니다. 다른 비콘을 선택하세요!"
 }
+
 
 _G.pg.base.gametip.world_boss_fleet = {
 	tip = "비콘 작전"
 }
 
+
 _G.pg.base.gametip.world_max_challenge_cnt = {
 	tip = "선택한 비콘의 도전 인원 수가 가득 찼습니다. 다른 비콘을 선택하세요!"
 }
+
 
 _G.pg.base.gametip.world_reset_success = {
 	tip = "대형 작전 초기화 완료"
 }
 
+
 _G.pg.base.gametip.world_map_dangerous_confirm = {
 	tip = "심연 해역은 작전 난이도가 높으며 중복하여 진입이 불가합니다.\n함대의 작전 준비 상태를 확인 후 이동해주세요."
 }
+
 
 _G.pg.base.gametip.world_map_version = {
 	tip = "현재 해역은 버전 업데이트로 인해 초기화되었습니다."
 }
 
+
 _G.pg.base.gametip.world_resource_fill = {
 	tip = "작전 준비 물자 교환권이 최대치에 도달했습니다."
 }
+
 
 _G.pg.base.gametip.meta_sys_lock_tip = {
 	tip = "META 연구실은 대형 작전의 비콘·META 기능 개방 후 열립니다.(미사용)"
 }
 
+
 _G.pg.base.gametip.meta_story_lock = {
 	tip = "이전 스토리를 완료해야 정보 동기화를 진행할 수 있습니다.(미사용)"
 }
+
 
 _G.pg.base.gametip.meta_acttime_limit = {
 	tip = "한정"
 }
 
+
 _G.pg.base.gametip.meta_pt_left = {
 	tip = "잔여 $1일"
 }
+
 
 _G.pg.base.gametip.meta_syn_rate = {
 	tip = "정보 동기화율"
 }
 
+
 _G.pg.base.gametip.meta_repair_rate = {
 	tip = "함장 강화율"
 }
+
 
 _G.pg.base.gametip.meta_story_tip_1 = {
 	tip = "스토리 해제(미사용)"
 }
 
+
 _G.pg.base.gametip.meta_story_tip_2 = {
 	tip = "후 개방(미사용)"
 }
+
 
 _G.pg.base.gametip.meta_pt_get_way = {
 	tip = "아래 방식을 통해 동기화 수치를 얻을 수 있습니다.(미사용)"
 }
 
+
 _G.pg.base.gametip.meta_pt_point = {
 	tip = "동기화 수치"
 }
+
 
 _G.pg.base.gametip.meta_award_get = {
 	tip = "수령 가능"
 }
 
+
 _G.pg.base.gametip.meta_award_got = {
 	tip = "수령함"
 }
+
 
 _G.pg.base.gametip.meta_repair = {
 	tip = "속성 증가:"
 }
 
+
 _G.pg.base.gametip.meta_repair_success = {
 	tip = "함장 강화 성공"
 }
+
 
 _G.pg.base.gametip.meta_repair_effect_unlock = {
 	tip = "강화율 $1% 후 획득"
 }
 
+
 _G.pg.base.gametip.meta_repair_effect_special = {
 	tip = "강화율 $1% 달성 시, 다음 버프 획득"
 }
+
 
 _G.pg.base.gametip.meta_energy_ship_level_need = {
 	tip = "함선 레벨 요구: $1/$2"
 }
 
+
 _G.pg.base.gametip.meta_energy_ship_repairrate_need = {
 	tip = "함선 강화율 요구: $1/$2"
 }
+
 
 _G.pg.base.gametip.meta_energy_active_box_tip = {
 	tip = "캐릭터에게 에너지 활성화를 진행하시겠습니까?(에너지 활성화 시 캐릭터 성급 상승)"
 }
 
+
 _G.pg.base.gametip.meta_break = {
 	tip = "*활성화 후 캐릭터 성급 상승"
 }
+
 
 _G.pg.base.gametip.meta_energy_preview_title = {
 	tip = "최종 본체의 기본 속성은 아래와 같습니다."
 }
 
+
 _G.pg.base.gametip.meta_energy_preview_tip = {
 	tip = "*호감도 및 서약 등 추가 버프를 포함하지 않습니다."
 }
+
 
 _G.pg.base.gametip.meta_exp_per_day = {
 	tip = "일일 경험치"
 }
 
+
 _G.pg.base.gametip.meta_skill_unlock = {
 	tip = "스킬 습득을 터치한 후 연수를 진행하세요."
 }
+
 
 _G.pg.base.gametip.meta_unlock_skill_tip = {
 	tip = "$1의 스킬 <color=#92fc63>$2</color> 습득은 \n아래의 스킬북을 소모합니다."
 }
 
+
 _G.pg.base.gametip.meta_unlock_skill_select = {
 	tip = "먼저 한 가지 재료를 선택하세요.(미사용)"
 }
+
 
 _G.pg.base.gametip.meta_switch_skill_disable = {
 	tip = "금일 연수 횟수가 최대치에 도달했습니다.\n다음날 0시에 회복됩니다."
 }
 
+
 _G.pg.base.gametip.meta_switch_skill_box_title = {
 	tip = "스킬 $1의 연수를 시작하시겠습니까?\n"
 }
+
 
 _G.pg.base.gametip.meta_cur_pt = {
 	tip = "현재 동기화 수치"
 }
 
+
 _G.pg.base.gametip.meta_toast_fullexp = {
 	tip = "금일 연수 최대치 도달"
 }
+
 
 _G.pg.base.gametip.meta_toast_tactics = {
 	tip = "연수 EXP"
 }
 
+
 _G.pg.base.gametip.meta_skillbtn_tactics = {
 	tip = "연 수"
 }
+
 
 _G.pg.base.gametip.meta_destroy_tip = {
 	tip = "META 캐릭터는 퇴역시킬 수 없습니다."
 }
 
+
 _G.pg.base.gametip.meta_voice_name_feeling1 = {
 	tip = "미지"
 }
+
 
 _G.pg.base.gametip.meta_voice_name_feeling2 = {
 	tip = "낯섦"
 }
 
+
 _G.pg.base.gametip.meta_voice_name_feeling3 = {
 	tip = "이해"
 }
+
 
 _G.pg.base.gametip.meta_voice_name_feeling4 = {
 	tip = "동기화"
 }
 
+
 _G.pg.base.gametip.meta_voice_name_feeling5 = {
 	tip = "공감"
 }
+
 
 _G.pg.base.gametip.meta_voice_name_propose = {
 	tip = "서약"
 }
 
+
 _G.pg.base.gametip.world_boss_ad = {
 	tip = "[$1]TIER.$2"
 }
+
 
 _G.pg.base.gametip.world_boss_drop_title = {
 	tip = "비콘 수집(미사용)"
 }
 
+
 _G.pg.base.gametip.world_boss_pt_recove_desc = {
 	tip = "매일 0시마다 $1 도전 횟수 회복"
 }
+
 
 _G.pg.base.gametip.world_boss_progress_item_desc = {
 	tip = [[
@@ -17457,57 +20623,71 @@ P.S.기록기의 내용량은 상한이 있으니, 반드시 제때 분석하세
 데이터 기록량: $3]]
 }
 
+
 _G.pg.base.gametip.world_joint_max_challenge_people_cnt = {
 	tip = "도전 인원 수 최대치, 지원 호출 불가!"
 }
+
 
 _G.pg.base.gametip.equip_ammo_type_1 = {
 	tip = "철갑탄"
 }
 
+
 _G.pg.base.gametip.equip_ammo_type_2 = {
 	tip = "고폭탄"
 }
+
 
 _G.pg.base.gametip.equip_ammo_type_3 = {
 	tip = "통상탄"
 }
 
+
 _G.pg.base.gametip.equip_ammo_type_4 = {
 	tip = "음향 유도"
 }
+
 
 _G.pg.base.gametip.equip_ammo_type_5 = {
 	tip = "통상"
 }
 
+
 _G.pg.base.gametip.equip_ammo_type_6 = {
 	tip = "삼식탄"
 }
+
 
 _G.pg.base.gametip.equip_ammo_type_7 = {
 	tip = "반철갑탄(SAP탄)"
 }
 
+
 _G.pg.base.gametip.equip_ammo_type_8 = {
 	tip = "자성식"
 }
+
 
 _G.pg.base.gametip.equip_ammo_type_9 = {
 	tip = "격발식"
 }
 
+
 _G.pg.base.gametip.equip_ammo_type_10 = {
 	tip = "없음"
 }
+
 
 _G.pg.base.gametip.equip_ammo_type_11 = {
 	tip = "미사일"
 }
 
+
 _G.pg.base.gametip.common_daily_limit = {
 	tip = "일일 최대치(미사용)"
 }
+
 
 _G.pg.base.gametip.meta_help = {
 	tip = {
@@ -17553,341 +20733,426 @@ _G.pg.base.gametip.meta_help = {
 	}
 }
 
+
 _G.pg.base.gametip.world_boss_daily_limit = {
 	tip = "일일 최대치 초과"
 }
+
 
 _G.pg.base.gametip.common_go_to_analyze = {
 	tip = "분석하기"
 }
 
+
 _G.pg.base.gametip.world_boss_not_reach_target = {
 	tip = "지정 데이터량 미달성"
 }
+
 
 _G.pg.base.gametip.special_transform_limit_reach = {
 	tip = "해당 개조 아이템 또는 개조 후 함선을 이미 보유 중입니다. 교환 불가."
 }
 
+
 _G.pg.base.gametip.meta_pt_notenough = {
 	tip = "동기화 수치가 부족합니다. <color=#92fc63>대형 작전</color>의 비콘·META 작전으로 이동하여 획득하세요."
 }
+
 
 _G.pg.base.gametip.meta_boss_unlock = {
 	tip = "<color=#92fc63>대형 작전</color> 제1장에서 비콘·META 기능 해제 후 캐릭터 획득 오픈!"
 }
 
+
 _G.pg.base.gametip.word_take_effect = {
 	tip = "적용"
 }
+
 
 _G.pg.base.gametip.world_boss_challenge_cnt = {
 	tip = "도전 인원 수"
 }
 
+
 _G.pg.base.gametip.word_shipNation_meta = {
 	tip = "???"
 }
+
 
 _G.pg.base.gametip.world_word_friend = {
 	tip = "전우"
 }
 
+
 _G.pg.base.gametip.world_word_world = {
 	tip = "월드"
 }
+
 
 _G.pg.base.gametip.world_word_guild = {
 	tip = "대함대"
 }
 
+
 _G.pg.base.gametip.world_collection_1 = {
 	tip = "수집 진도"
 }
+
 
 _G.pg.base.gametip.world_collection_2 = {
 	tip = "진도"
 }
 
+
 _G.pg.base.gametip.world_collection_3 = {
 	tip = "수집률"
 }
+
 
 _G.pg.base.gametip.zero_hour_command_error = {
 	tip = "0시 데이터 갱신 오류"
 }
 
+
 _G.pg.base.gametip.commander_is_in_bigworld = {
 	tip = "해당 지휘냥 대형 작전 중"
 }
+
 
 _G.pg.base.gametip.world_collection_back = {
 	tip = "빈 곳을 터치하여 돌아가기"
 }
 
+
 _G.pg.base.gametip.archives_whether_to_retreat = {
 	tip = "정말 <color=#92fc63>퇴장</color>하시겠습니까?\n(퇴장 시 데이터 키는 반환되지 않습니다.)"
 }
+
 
 _G.pg.base.gametip.world_fleet_stop = {
 	tip = "함대 이동 정지 중"
 }
 
+
 _G.pg.base.gametip.world_setting_title = {
 	tip = "대형 작전 설정"
 }
+
 
 _G.pg.base.gametip.world_setting_quickmode = {
 	tip = "TB 가이드 감소"
 }
 
+
 _G.pg.base.gametip.world_setting_quickmodetip = {
 	tip = "기능 오픈 후, TB 가이드 설명을 중복 재생하지 않습니다."
 }
+
 
 _G.pg.base.gametip.world_setting_submititem = {
 	tip = "자율 시 아이템 자동 제출"
 }
 
+
 _G.pg.base.gametip.world_setting_submititemtip = {
 	tip = "기능 설정 후, 자율 색적 시 아이템을 자동 제출하여 해역 사건을 완료합니다."
 }
+
 
 _G.pg.base.gametip.world_setting_mapauto = {
 	tip = "안전 해역 자율 모드 기본 설정"
 }
 
+
 _G.pg.base.gametip.world_setting_mapautotip = {
 	tip = "기능 설정 후, 안전 해역 진입 시 자율 모드가 기본 설정됩니다."
 }
+
 
 _G.pg.base.gametip.world_boss_maintenance = {
 	tip = "곧 서버 점검이 시작되어, 비콘·META 작전을 진행할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.world_boss_inbattle = {
 	tip = "현재 전투 중, 이동 불가."
 }
+
 
 _G.pg.base.gametip.world_automode_title_1 = {
 	tip = "계획 작전 모드"
 }
 
+
 _G.pg.base.gametip.world_automode_title_2 = {
 	tip = "OPERATION"
 }
+
 
 _G.pg.base.gametip.world_automode_treasure_1 = {
 	tip = "비밀 해역 기록기 구매 후 해제"
 }
 
+
 _G.pg.base.gametip.world_automode_treasure_2 = {
 	tip = "비밀 해역 기록기 사용 후 해제"
 }
+
 
 _G.pg.base.gametip.world_automode_treasure_3 = {
 	tip = "대형 작전 초기화 후 구매 가능"
 }
 
+
 _G.pg.base.gametip.world_automode_cancel = {
 	tip = "취소"
 }
+
 
 _G.pg.base.gametip.world_automode_confirm = {
 	tip = "확인"
 }
 
+
 _G.pg.base.gametip.world_automode_start_tip1 = {
 	tip = "조건에 맞는 해역이 없습니다."
 }
+
 
 _G.pg.base.gametip.world_automode_start_tip2 = {
 	tip = "행동력 부족"
 }
 
+
 _G.pg.base.gametip.world_automode_start_tip3 = {
 	tip = "현재 안전 해역이 아닙니다."
 }
+
 
 _G.pg.base.gametip.world_automode_start_tip4 = {
 	tip = "현재 해역 이탈 불가"
 }
 
+
 _G.pg.base.gametip.world_automode_start_tip5 = {
 	tip = "현재 해역에서 사용 불가. 안전 해역으로 이동하세요."
 }
+
 
 _G.pg.base.gametip.world_automode_setting_1 = {
 	tip = "확보해야 할 위험 등급:"
 }
 
+
 _G.pg.base.gametip.world_automode_setting_1_1 = {
 	tip = "4 이하"
 }
+
 
 _G.pg.base.gametip.world_automode_setting_1_2 = {
 	tip = "5"
 }
 
+
 _G.pg.base.gametip.world_automode_setting_1_3 = {
 	tip = "6"
 }
+
 
 _G.pg.base.gametip.world_automode_setting_1_4 = {
 	tip = "전부"
 }
 
+
 _G.pg.base.gametip.world_automode_setting_2 = {
 	tip = "작전 수행 모드 선택:"
 }
+
 
 _G.pg.base.gametip.world_automode_setting_2_1 = {
 	tip = "현재 해역 반복"
 }
 
+
 _G.pg.base.gametip.world_automode_setting_2_2 = {
 	tip = "모든 해역 랜덤 선택"
 }
+
 
 _G.pg.base.gametip.world_automode_setting_all_1 = {
 	tip = "신비한 상인 조우 시 일시정지"
 }
 
+
 _G.pg.base.gametip.world_automode_setting_all_1_1 = {
 	tip = "O"
 }
+
 
 _G.pg.base.gametip.world_automode_setting_all_1_2 = {
 	tip = "X"
 }
 
+
 _G.pg.base.gametip.world_automode_setting_all_2 = {
 	tip = "비콘 데이터 알림"
 }
+
 
 _G.pg.base.gametip.world_automode_setting_all_2_1 = {
 	tip = "OFF"
 }
 
+
 _G.pg.base.gametip.world_automode_setting_all_2_2 = {
 	tip = "100PT 누적 알림"
 }
+
 
 _G.pg.base.gametip.world_automode_setting_all_2_3 = {
 	tip = "200PT 누적 알림"
 }
 
+
 _G.pg.base.gametip.world_automode_setting_all_3 = {
 	tip = "자율 모드 시 아이템 자동 사용"
 }
+
 
 _G.pg.base.gametip.world_automode_setting_all_3_1 = {
 	tip = "OFF"
 }
 
+
 _G.pg.base.gametip.world_automode_setting_all_3_2 = {
 	tip = "ON"
 }
+
 
 _G.pg.base.gametip.world_automode_setting_all_4 = {
 	tip = "세이렌 장치 발견 시 일시정지"
 }
 
+
 _G.pg.base.gametip.world_automode_setting_all_4_1 = {
 	tip = "O"
 }
+
 
 _G.pg.base.gametip.world_automode_setting_all_4_2 = {
 	tip = "X"
 }
 
+
 _G.pg.base.gametip.world_automode_setting_new_1 = {
 	tip = "확보해야 할 위험 등급:"
 }
+
 
 _G.pg.base.gametip.world_automode_setting_new_1_1 = {
 	tip = "3 이하"
 }
 
+
 _G.pg.base.gametip.world_automode_setting_new_1_2 = {
 	tip = "4"
 }
+
 
 _G.pg.base.gametip.world_automode_setting_new_1_3 = {
 	tip = "5"
 }
 
+
 _G.pg.base.gametip.world_automode_setting_new_1_4 = {
 	tip = "6"
 }
+
 
 _G.pg.base.gametip.world_automode_setting_new_1_5 = {
 	tip = "전부"
 }
 
+
 _G.pg.base.gametip.world_collection_task_tip_1 = {
 	tip = "이미 진행 중인 파일 임무가 있어 구매할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.area_putong = {
 	tip = "일반 해역"
 }
 
+
 _G.pg.base.gametip.area_anquan = {
 	tip = "안전 해역"
 }
+
 
 _G.pg.base.gametip.area_yaosai = {
 	tip = "세이렌의 요새"
 }
 
+
 _G.pg.base.gametip.area_yaosai_2 = {
 	tip = "현재 해역이 세이렌의 침입을\n받았습니다"
 }
+
 
 _G.pg.base.gametip.area_shenyuan = {
 	tip = "심연 해역"
 }
 
+
 _G.pg.base.gametip.area_yinmi = {
 	tip = "비밀 해역"
 }
+
 
 _G.pg.base.gametip.area_renwu = {
 	tip = "임무 해역"
 }
 
+
 _G.pg.base.gametip.area_zhuxian = {
 	tip = "메인 해역"
 }
+
 
 _G.pg.base.gametip.area_dangan = {
 	tip = "파일 해역"
 }
 
+
 _G.pg.base.gametip.charge_trade_no_error = {
 	tip = "주문 id 오류. 다시 시도해 주세요."
 }
+
 
 _G.pg.base.gametip.world_reset_1 = {
 	tip = "대형 작전 초기화까지 <color=#92fc63>$1</color>일"
 }
 
+
 _G.pg.base.gametip.world_reset_2 = {
 	tip = "대형 작전이 내일 <color=#92fc63>$1</color>시에 초기화됩니다."
 }
+
 
 _G.pg.base.gametip.world_reset_3 = {
 	tip = "대형 작전 재진입 후 초기화 적용"
 }
 
+
 _G.pg.base.gametip.guild_is_frozen_when_start_tech = {
 	tip = "해당 대함대 동결됨. 기술 연구 불가."
 }
 
+
 _G.pg.base.gametip.world_boss_unactivated = {
 	tip = "대형 작전 활성화 후, 재도전 해주세요."
 }
+
 
 _G.pg.base.gametip.world_reset_tip = {
 	tip = {
@@ -17920,141 +21185,176 @@ _G.pg.base.gametip.world_reset_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.spring_invited_2021 = {
 	tip = "연하장은 1명에게만 보낼 수 있습니다. $1에게 보내시겠습니까? 연하장 전달 후 해당 캐릭터 및 답장 획득"
 }
+
 
 _G.pg.base.gametip.charge_error_count_limit = {
 	tip = "금일 구매 횟수 최대치 도달."
 }
 
+
 _G.pg.base.gametip.charge_error_disable = {
 	tip = "해당 루트로 구매할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.levelScene_select_sp = {
 	tip = "고효율 작전 명령서 사용 중"
 }
 
+
 _G.pg.base.gametip.word_adjustFleet = {
 	tip = "편성 조정"
 }
+
 
 _G.pg.base.gametip.levelScene_select_noitem = {
 	tip = "사용 가능 아이템 없음"
 }
 
+
 _G.pg.base.gametip.story_setting_label = {
 	tip = "회상 자동 재생 속도 조정"
 }
+
 
 _G.pg.base.gametip.login_arrears_tips = {
 	tip = "계정에 비정상 환불 기록이 존재합니다. 다음 서버로만 접속할 수 있습니다: $1"
 }
 
+
 _G.pg.base.gametip.Supplement_pay1 = {
 	tip = "계정에서 비정상 환불 기록을 발견하였습니다. 모든 비정상 환불을 처리 완료해야 게임을 플레이할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.Supplement_pay2 = {
 	tip = "계정에 비정상 환불 기록이 존재합니다. 우측의 모든 비정상 거래의 보충 결제를 완료해야 게임을 플레이할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.Supplement_pay3 = {
 	tip = "계정 내 모든 비정상 환불 기록이 모두 처리 완료되었습니다. 확인 버튼을 누르면 게임이 종료됩니다.클라이언트 재실행 시, 게임을 정상적으로 플레이할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.Supplement_pay4 = {
 	tip = "처리하기"
 }
 
+
 _G.pg.base.gametip.world_ship_repair = {
 	tip = "사용할 함선을 선택하세요:"
 }
+
 
 _G.pg.base.gametip.Supplement_pay5 = {
 	tip = "※각 거래 기록을 터치하여 결제 페이지로 이동해 환불 진행 가능"
 }
 
+
 _G.pg.base.gametip.area_unkown = {
 	tip = "미지 해역"
 }
+
 
 _G.pg.base.gametip.Supplement_pay6 = {
 	tip = "구매 시간"
 }
 
+
 _G.pg.base.gametip.Supplement_pay7 = {
 	tip = "환불 시간"
 }
+
 
 _G.pg.base.gametip.Supplement_pay8 = {
 	tip = "잔여 $1일"
 }
 
+
 _G.pg.base.gametip.world_battle_damage = {
 	tip = "전투 피해 상태는 함대 수리 또는 항구 수리를 통해 제거"
 }
+
 
 _G.pg.base.gametip.setting_story_speed_1 = {
 	tip = "천천히"
 }
 
+
 _G.pg.base.gametip.setting_story_speed_2 = {
 	tip = "보통"
 }
+
 
 _G.pg.base.gametip.setting_story_speed_3 = {
 	tip = "빠르게"
 }
 
+
 _G.pg.base.gametip.setting_story_speed_4 = {
 	tip = "매우 빠르게"
 }
+
 
 _G.pg.base.gametip.story_autoplay_setting_label = {
 	tip = "스토리 자동 재생"
 }
 
+
 _G.pg.base.gametip.story_autoplay_setting_1 = {
 	tip = "OFF"
 }
+
 
 _G.pg.base.gametip.story_autoplay_setting_2 = {
 	tip = "ON"
 }
 
+
 _G.pg.base.gametip.meta_shop_exchange_limit = {
 	tip = "보유 중인 캐릭터가 아닙니다."
 }
+
 
 _G.pg.base.gametip.meta_shop_unexchange_label = {
 	tip = "아직 함선을 획득하지 못함"
 }
 
+
 _G.pg.base.gametip.daily_level_quick_battle_label2 = {
 	tip = "도전"
 }
+
 
 _G.pg.base.gametip.daily_level_quick_battle_label1 = {
 	tip = "빠른 도전 <color=$2>$1</color>회"
 }
 
+
 _G.pg.base.gametip.dailyLevel_quickfinish = {
 	tip = "빠른 도전을 진행하시겠습니까?\n빠른 도전 시 데일리 챌린지 스테이지에서 획득하는 모든 보상을 즉시 획득합니다.\n연료를 소모하지 않으며, 지휘관 경험치, 함선 경험치를 획득하지 않습니다. 또한 함선의 감정 수치와 호감도에도 영향을 주지 않습니다."
 }
+
 
 _G.pg.base.gametip.daily_level_quick_battle_label3 = {
 	tip = "빠른 도전 1회"
 }
 
+
 _G.pg.base.gametip.backyard_longpress_ship_tip = {
 	tip = "※길게 눌러 캐릭터 육성 화면으로 이동"
 }
 
+
 _G.pg.base.gametip.common_npc_formation_tip = {
 	tip = "해당 편대에 NPC 캐릭터 가입 불가!"
 }
+
 
 _G.pg.base.gametip.gametip_xiaotiancheng = {
 	tip = {
@@ -18085,77 +21385,96 @@ _G.pg.base.gametip.gametip_xiaotiancheng = {
 	}
 }
 
+
 _G.pg.base.gametip.guild_task_autoaccept_1 = {
 	tip = "이번 작전 자동 수령 임무: $1"
 }
+
 
 _G.pg.base.gametip.guild_task_autoaccept_2 = {
 	tip = "자동 수령한 대함대 임무: $1"
 }
 
+
 _G.pg.base.gametip.task_lock = {
 	tip = "$1 레벨 해제"
 }
+
 
 _G.pg.base.gametip.week_task_pt_name = {
 	tip = "활약도"
 }
 
+
 _G.pg.base.gametip.week_task_award_preview_label = {
 	tip = "보상 확인"
 }
+
 
 _G.pg.base.gametip.week_task_title_label = {
 	tip = "주간 활약 보상"
 }
 
+
 _G.pg.base.gametip.cattery_op_clean_success = {
 	tip = "청소 성공"
 }
+
 
 _G.pg.base.gametip.cattery_op_feed_success = {
 	tip = "먹이주기 성공"
 }
 
+
 _G.pg.base.gametip.cattery_op_play_success = {
 	tip = "놀아주기 성공"
 }
+
 
 _G.pg.base.gametip.cattery_style_change_success = {
 	tip = "옷 갈아입기 성공"
 }
 
+
 _G.pg.base.gametip.cattery_add_commander_success = {
 	tip = "지휘냥 배치 성공"
 }
+
 
 _G.pg.base.gametip.cattery_remove_commander_success = {
 	tip = "지휘냥 배치 취소"
 }
 
+
 _G.pg.base.gametip.commander_box_quickly_tool_tip_1 = {
 	tip = "냥박스 훈련 가속 아이템을 사용하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.commander_box_quickly_tool_tip_2 = {
 	tip = "(1개당 훈련 시간 20분 단축)"
 }
 
+
 _G.pg.base.gametip.commander_box_quickly_tool_tip_3 = {
 	tip = "잔여 시간:"
 }
+
 
 _G.pg.base.gametip.commander_box_was_finished = {
 	tip = "냥박스 훈련 완료"
 }
 
+
 _G.pg.base.gametip.comander_tool_cnt_is_reclac = {
 	tip = "사용 수량 계산 초기화"
 }
 
+
 _G.pg.base.gametip.comander_tool_max_cnt = {
 	tip = "현재 보유: $1개"
 }
+
 
 _G.pg.base.gametip.cat_home_help = {
 	tip = {
@@ -18172,93 +21491,116 @@ _G.pg.base.gametip.cat_home_help = {
 	}
 }
 
+
 _G.pg.base.gametip.cat_accelfrate_notenough = {
 	tip = "냥박스 가속 아이템 수량 부족"
 }
+
 
 _G.pg.base.gametip.cat_home_unlock = {
 	tip = "냥하우스를 레벨업하여 더 많은 냥하우스를 해제하세요."
 }
 
+
 _G.pg.base.gametip.cat_sleep_notplay = {
 	tip = "지휘냥 휴식 중. 같이 놀 수 없습니다."
 }
+
 
 _G.pg.base.gametip.cathome_style_unlock = {
 	tip = "냥하우스를 레벨업하여 더 많은 양식을 해제하세요."
 }
 
+
 _G.pg.base.gametip.commander_is_in_cattery = {
 	tip = "이미 냥하우스에 배치하였습니다."
 }
+
 
 _G.pg.base.gametip.cat_home_interaction = {
 	tip = "해당 지휘냥은 $1를 끝냈습니다."
 }
 
+
 _G.pg.base.gametip.cat_accelerate_left = {
 	tip = "사용 후 잔여:"
 }
+
 
 _G.pg.base.gametip.common_clean = {
 	tip = "청소"
 }
 
+
 _G.pg.base.gametip.common_feed = {
 	tip = "먹이주기"
 }
+
 
 _G.pg.base.gametip.common_play = {
 	tip = "놀아주기"
 }
 
+
 _G.pg.base.gametip.game_stopwords = {
 	tip = "메인 화면 대사창 숨김"
 }
+
 
 _G.pg.base.gametip.game_openwords = {
 	tip = "메인 화면 대사창 표시"
 }
 
+
 _G.pg.base.gametip.amusementpark_shop_enter = {
 	tip = "교환소에 오신 걸 환영합니다. 어떤 보상을 교환하고 싶으신가요?"
 }
+
 
 _G.pg.base.gametip.amusementpark_shop_exchange = {
 	tip = "교환권이 충분하지 않다면 보상을 교환할 수 없습니다~ 어서 기간 한정 임무를 완료하고 쥬쥬 교환권을 획득해 보세요!"
 }
 
+
 _G.pg.base.gametip.amusementpark_shop_success = {
 	tip = "찾아주셔서 감사합니다!"
 }
+
 
 _G.pg.base.gametip.amusementpark_shop_special = {
 	tip = "특별 보상이 해제되었습니다. 다음 보상을 수령해 주세요~!"
 }
 
+
 _G.pg.base.gametip.amusementpark_shop_end = {
 	tip = "이미 모든 보상을 교환 완료하였습니다!"
 }
+
 
 _G.pg.base.gametip.amusementpark_shop_0 = {
 	tip = "♫만쥬의 힘을 손에 넣어라~ 정의의 히어로~ 만쥬~♫"
 }
 
+
 _G.pg.base.gametip.amusementpark_shop_carousel1 = {
 	tip = "♫완전무결한 깃발을 높이 들어라~ 가야할 해안을 향해~ 항해하자~♫"
 }
+
 
 _G.pg.base.gametip.amusementpark_shop_carousel2 = {
 	tip = "♫기다란 직선으로~ 그렸던~ 너의 수많은 목적지~♫"
 }
 
+
 _G.pg.base.gametip.amusementpark_shop_carousel3 = {
 	tip = "천천히 골라 보세요. 전 잠시 노래를 부르고 있을게요~"
 }
 
+
 _G.pg.base.gametip.amusementpark_shop_exchange2 = {
 	tip = " <icon name=Props/AmusementparkshopPT w=0.7 h=0.7/> 을 $1개 소비하여 $3*$2와(과) 교환하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.amusementpark_help = {
 	tip = {
@@ -18282,6 +21624,7 @@ _G.pg.base.gametip.amusementpark_help = {
 	}
 }
 
+
 _G.pg.base.gametip.amusementpark_shop_help = {
 	tip = {
 		{
@@ -18294,6 +21637,7 @@ _G.pg.base.gametip.amusementpark_shop_help = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.handshake_game_help = {
 	tip = {
@@ -18308,6 +21652,7 @@ _G.pg.base.gametip.handshake_game_help = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.MeixiV4_help = {
 	tip = {
@@ -18341,17 +21686,21 @@ _G.pg.base.gametip.MeixiV4_help = {
 	}
 }
 
+
 _G.pg.base.gametip.activity_permanent_total = {
 	tip = "이벤트 목록"
 }
+
 
 _G.pg.base.gametip.word_investigate = {
 	tip = "정찰"
 }
 
+
 _G.pg.base.gametip.ambush_display_none = {
 	tip = "없음"
 }
+
 
 _G.pg.base.gametip.activity_permanent_help = {
 	tip = {
@@ -18365,25 +21714,31 @@ _G.pg.base.gametip.activity_permanent_help = {
 	}
 }
 
+
 _G.pg.base.gametip.activity_permanent_tips1 = {
 	tip = "<size=40><color=#92fc63>「$1」</color> 이벤트를 오픈하시겠습니까?</size>"
 }
+
 
 _G.pg.base.gametip.activity_permanent_tips2 = {
 	tip = "이벤트 완료. 터치 후 현재 이벤트를 종료하며 이벤트 목록으로 이동합니다."
 }
 
+
 _G.pg.base.gametip.activity_permanent_tips3 = {
 	tip = "현재 이벤트 완료 및 종료 후 다음 이벤트를 오픈할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.activity_permanent_tips4 = {
 	tip = "<size=30><color=#a2a2a2>같은 기간 내에 하나의 이벤트만 오픈 가능하며, 현재 이벤트 완료 후\n다음 이벤트를 오픈할 수 있습니다.</color></size>"
 }
 
+
 _G.pg.base.gametip.activity_permanent_finished = {
 	tip = "완성함"
 }
+
 
 _G.pg.base.gametip.idolmaster_main = {
 	tip = {
@@ -18402,25 +21757,31 @@ _G.pg.base.gametip.idolmaster_main = {
 	}
 }
 
+
 _G.pg.base.gametip.idolmaster_game_tip1 = {
 	tip = "게임을 계속하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.idolmaster_game_tip2 = {
 	tip = "게임을 나가시겠습니까?"
 }
 
+
 _G.pg.base.gametip.idolmaster_game_tip3 = {
 	tip = "이번 점수:"
 }
+
 
 _G.pg.base.gametip.idolmaster_game_tip4 = {
 	tip = "최고 점수:"
 }
 
+
 _G.pg.base.gametip.idolmaster_game_tip5 = {
 	tip = "점수:"
 }
+
 
 _G.pg.base.gametip.idolmaster_collection = {
 	tip = {
@@ -18441,134 +21802,164 @@ _G.pg.base.gametip.idolmaster_collection = {
 	}
 }
 
+
 _G.pg.base.gametip.idolmaster_voice_name_feeling1 = {
 	tip = "실망"
 }
+
 
 _G.pg.base.gametip.idolmaster_voice_name_feeling2 = {
 	tip = "낯섦"
 }
 
+
 _G.pg.base.gametip.idolmaster_voice_name_feeling3 = {
 	tip = "호감"
 }
+
 
 _G.pg.base.gametip.idolmaster_voice_name_feeling4 = {
 	tip = "기쁨"
 }
 
+
 _G.pg.base.gametip.idolmaster_voice_name_feeling5 = {
 	tip = "사랑"
 }
+
 
 _G.pg.base.gametip.idolmaster_voice_name_propose = {
 	tip = "서약"
 }
 
+
 _G.pg.base.gametip.cartoon_notall = {
 	tip = "읽지 않음"
 }
+
 
 _G.pg.base.gametip.cartoon_haveno = {
 	tip = "조건에 맞는 만화 없음"
 }
 
+
 _G.pg.base.gametip.res_cartoon_new_tip = {
 	tip = "이번 업데이트에서 만화 $1장이 신규 추가됩니다."
 }
+
 
 _G.pg.base.gametip.memory_actiivty_ex = {
 	tip = "E.X."
 }
 
+
 _G.pg.base.gametip.memory_activity_sp = {
 	tip = "S.P."
 }
+
 
 _G.pg.base.gametip.memory_activity_daily = {
 	tip = "데일리"
 }
 
+
 _G.pg.base.gametip.memory_activity_others = {
 	tip = "기타"
 }
+
 
 _G.pg.base.gametip.battle_end_title = {
 	tip = "전투 결과"
 }
 
+
 _G.pg.base.gametip.battle_end_subtitle1 = {
 	tip = "작전 보상"
 }
+
 
 _G.pg.base.gametip.battle_end_subtitle2 = {
 	tip = "전술 연구"
 }
 
+
 _G.pg.base.gametip.meta_skill_dailyexp = {
 	tip = "일일 획득 가능 경험치"
 }
+
 
 _G.pg.base.gametip.meta_skill_learn = {
 	tip = "※스킬을 눌러 학습 또는 전환 가능"
 }
 
+
 _G.pg.base.gametip.meta_skill_maxtip = {
 	tip = "$1의 현재 연구 스킬이 최고 레벨입니다. 연구 스킬을 변경하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.meta_tactics_detail = {
 	tip = "상세 확인"
 }
 
+
 _G.pg.base.gametip.meta_tactics_unlock = {
 	tip = "습득 스킬"
 }
+
 
 _G.pg.base.gametip.meta_tactics_switch = {
 	tip = "연구 스킬"
 }
 
+
 _G.pg.base.gametip.meta_skill_maxtip2 = {
 	tip = "스킬 레벨 최대"
 }
+
 
 _G.pg.base.gametip.activity_permanent_progress = {
 	tip = "진도:"
 }
 
+
 _G.pg.base.gametip.cattery_settlement_dialogue_1 = {
 	tip = "지휘관이 없던"
 }
+
 
 _G.pg.base.gametip.cattery_settlement_dialogue_2 = {
 	tip = "동안 지휘냥이 충분한"
 }
 
+
 _G.pg.base.gametip.cattery_settlement_dialogue_3 = {
 	tip = "휴식을 취하고 총"
 }
+
 
 _G.pg.base.gametip.cattery_settlement_dialogue_4 = {
 	tip = "의 경험치를 획득했다냥~"
 }
 
+
 _G.pg.base.gametip.blueprint_catchup_by_gold_confirm = {
 	tip = "이번 강화에 $1 물자를 소모합니다. 확인하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.blueprint_catchup_by_gold_help = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/blueprint_catchup_by_gold",
-				path = ""
+				path = "",
+				atlas = "helpbg/blueprint_catchup_by_gold"
 			}
 		},
 		disableScroll = false,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -18583,69 +21974,86 @@ _G.pg.base.gametip.blueprint_catchup_by_gold_help = {
 	}
 }
 
+
 _G.pg.base.gametip.tec_tip_no_consumption = {
 	tip = "무료"
 }
+
 
 _G.pg.base.gametip.tec_tip_material_stock = {
 	tip = "보관"
 }
 
+
 _G.pg.base.gametip.tec_tip_to_consumption = {
 	tip = "물자 소모"
 }
+
 
 _G.pg.base.gametip.onebutton_max_tip = {
 	tip = "일괄 분해"
 }
 
+
 _G.pg.base.gametip.target_get_tip = {
 	tip = "목표"
 }
+
 
 _G.pg.base.gametip.fleet_select_title = {
 	tip = "함대 선택"
 }
 
+
 _G.pg.base.gametip.backyard_rename_title = {
 	tip = "이름 변경"
 }
+
 
 _G.pg.base.gametip.backyard_rename_tip = {
 	tip = "숙소 명칭을 입력"
 }
 
+
 _G.pg.base.gametip.equip_add = {
 	tip = "— 터치하여 장비 추가 —"
 }
+
 
 _G.pg.base.gametip.equipskin_add = {
 	tip = "— 터치하여 장비스킨 추가 —"
 }
 
+
 _G.pg.base.gametip.equipskin_none = {
 	tip = "— 장비스킨 사용 불가 —"
 }
+
 
 _G.pg.base.gametip.equipskin_typewrong = {
 	tip = "— 장비스킨과 장비 종류 불일치 —"
 }
 
+
 _G.pg.base.gametip.equipskin_typewrong_en = {
 	tip = "GEAR SKIN UNAVAILABLE"
 }
+
 
 _G.pg.base.gametip.user_is_banned = {
 	tip = "계정 이용 정지됨\n정지 해제 시간: ($1)"
 }
 
+
 _G.pg.base.gametip.user_is_forever_banned = {
 	tip = "계정 이용 정지됨"
 }
 
+
 _G.pg.base.gametip.old_class_is_close = {
 	tip = "대강당 업데이트 중. 후속 버전 오픈을 기다려 주세요."
 }
+
 
 _G.pg.base.gametip.activity_event_building = {
 	tip = {
@@ -18668,6 +22076,7 @@ _G.pg.base.gametip.activity_event_building = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.salvage_tips = {
 	tip = {
@@ -18698,6 +22107,7 @@ I168: -50점
 	}
 }
 
+
 _G.pg.base.gametip.tips_shakebeads = {
 	tip = {
 		{
@@ -18716,9 +22126,11 @@ _G.pg.base.gametip.tips_shakebeads = {
 	}
 }
 
+
 _G.pg.base.gametip.gem_shop_xinzhi_tip = {
 	tip = "(이번달 <color=#FF5C5CFF>$1</color>/15회 구매함)"
 }
+
 
 _G.pg.base.gametip.cowboy_tips = {
 	tip = {
@@ -18738,9 +22150,11 @@ _G.pg.base.gametip.cowboy_tips = {
 	}
 }
 
+
 _G.pg.base.gametip.backyard_backyardScene_Disable_Rotation = {
 	tip = "이 가구는 회전할 수 없음"
 }
+
 
 _G.pg.base.gametip.chazi_tips = {
 	tip = {
@@ -18756,6 +22170,7 @@ _G.pg.base.gametip.chazi_tips = {
 	}
 }
 
+
 _G.pg.base.gametip.catchteasure_help = {
 	tip = {
 		{
@@ -18769,97 +22184,121 @@ _G.pg.base.gametip.catchteasure_help = {
 	}
 }
 
+
 _G.pg.base.gametip.unlock_tips = {
 	tip = "·  $1일차 해제  ·"
 }
+
 
 _G.pg.base.gametip.class_label_tran = {
 	tip = "전환:"
 }
 
+
 _G.pg.base.gametip.class_label_gen = {
 	tip = "생성 중:"
 }
+
 
 _G.pg.base.gametip.class_attr_store = {
 	tip = "베이스 상한"
 }
 
+
 _G.pg.base.gametip.class_attr_proficiency = {
 	tip = "숙련도 상한"
 }
+
 
 _G.pg.base.gametip.class_attr_getproficiency = {
 	tip = "숙련도 획득"
 }
 
+
 _G.pg.base.gametip.class_attr_costproficiency = {
 	tip = "숙련도 소모"
 }
+
 
 _G.pg.base.gametip.class_label_upgrading = {
 	tip = "레벨업 중"
 }
 
+
 _G.pg.base.gametip.class_label_upgradetime = {
 	tip = "레벨업 시간"
 }
+
 
 _G.pg.base.gametip.class_label_oilfield = {
 	tip = "연료 생산"
 }
 
+
 _G.pg.base.gametip.class_label_goldfield = {
 	tip = "물자 생산량"
 }
+
 
 _G.pg.base.gametip.class_res_maxlevel_tip = {
 	tip = "이미 최대 레벨입니다."
 }
 
+
 _G.pg.base.gametip.ship_exp_item_title = {
 	tip = "레벨업"
 }
+
 
 _G.pg.base.gametip.ship_exp_item_label_clear = {
 	tip = "비우기"
 }
 
+
 _G.pg.base.gametip.ship_exp_item_label_recom = {
 	tip = "추 천"
 }
+
 
 _G.pg.base.gametip.ship_exp_item_label_confirm = {
 	tip = "확 인"
 }
 
+
 _G.pg.base.gametip.player_expResource_mail_fullBag = {
 	tip = "자원 최대치 도달. 계속하면 일부 자원을 수령할 수 없습니다. 계속하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.tec_nation_award_finish = {
 	tip = "- 수령함 -"
 }
 
+
 _G.pg.base.gametip.coures_exp_overflow_tip = {
 	tip = "이번 강화 시 <color=#ffde38>$1</color> 경험치가 초과됩니다. 계속하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.coures_exp_npc_tip = {
 	tip = "해당 캐릭터는 NPC 캐릭터입니다. 이벤트 종료 시 정식 가입하지 않을 시 모항을 떠납니다. 계속하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.coures_level_tip = {
 	tip = "<color=#E0E0E0>*[함선 연습 데이터]를 사용하여 빠르게 경험치 획득 가능</color>"
 }
+
 
 _G.pg.base.gametip.coures_tip_material_stock = {
 	tip = "보관:"
 }
 
+
 _G.pg.base.gametip.coures_tip_exceeded_lv = {
 	tip = "현재 최대 레벨 도달"
 }
+
 
 _G.pg.base.gametip.eatgame_tips = {
 	tip = {
@@ -18876,29 +22315,36 @@ _G.pg.base.gametip.eatgame_tips = {
 	}
 }
 
+
 _G.pg.base.gametip.breakout_tip_ultimatebonus_gunner = {
 	tip = "전탄 발사/특수 탄막 발동에 필요한 주포 사격 횟수 반감"
 }
+
 
 _G.pg.base.gametip.breakout_tip_ultimatebonus_torpedo = {
 	tip = "자신이 장비한 어뢰 살포각 축소"
 }
 
+
 _G.pg.base.gametip.breakout_tip_ultimatebonus_aux = {
 	tip = "설비가 제공하는 기본 속성 30% 추가 상승"
 }
+
 
 _G.pg.base.gametip.map_event_lighthouse_tip_1 = {
 	tip = "등대 통제. 이어지는 전투에서 등대 조명 효과를 획득합니다."
 }
 
+
 _G.pg.base.gametip.battlepass_main_tip_2110 = {
 	tip = "2021.10.1-2021.11.30까지, 투어 임무를 완료하여 <icon name=pt w=0.5 h=0.5/> 누적 시, 「후소·META」가 포함된 풍부한 보상을 획득할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.battlepass_main_time = {
 	tip = "$1일 $2시간"
 }
+
 
 _G.pg.base.gametip.battlepass_main_help_2110 = {
 	tip = {
@@ -18948,6 +22394,7 @@ _G.pg.base.gametip.battlepass_main_help_2110 = {
 	}
 }
 
+
 _G.pg.base.gametip.cruise_task_help_2110 = {
 	tip = {
 		{
@@ -18973,305 +22420,381 @@ _G.pg.base.gametip.cruise_task_help_2110 = {
 	}
 }
 
+
 _G.pg.base.gametip.cruise_task_phase = {
 	tip = "투어 진도|phase.$1"
 }
+
 
 _G.pg.base.gametip.cruise_task_tips = {
 	tip = "완료함:"
 }
 
+
 _G.pg.base.gametip.battlepass_task_quickfinish1 = {
 	tip = "해당 임무를 빠르게 완료하려면 투어 임무 완료 쿠폰 <color=#ff5c5c>$1</color>장을 소모해야 합니다.\n(현재 보유: <color=#92fc63>$2</color>)\n사용하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.battlepass_task_quickfinish2 = {
 	tip = "아이템 부족. 구매하시겠습니까?\n필요한 투어 임무 완료 쿠폰: <color=#ff5c5c>$1</color>"
 }
 
+
 _G.pg.base.gametip.battlepass_task_quickfinish3 = {
 	tip = "아이템 사용 성공"
 }
+
 
 _G.pg.base.gametip.cruise_task_unlock = {
 	tip = "해당 주간 임무는 $1일 $2시간 후 해제됩니다."
 }
 
+
 _G.pg.base.gametip.cruise_task_week = {
 	tip = "$1주차"
 }
+
 
 _G.pg.base.gametip.battlepass_pay_timelimit = {
 	tip = "잔여: $1"
 }
 
+
 _G.pg.base.gametip.battlepass_pay_acquire = {
 	tip = "구매 후 획득:"
 }
+
 
 _G.pg.base.gametip.battlepass_pay_attention = {
 	tip = "월드 투어 이벤트로 이동하여 보상을 수령하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.battlepass_acquire_attention = {
 	tip = "월드 투어가 $1일 $2시간 후 종료됩니다. 아래 보상을 아직 수령하지 않았습니다."
 }
+
 
 _G.pg.base.gametip.battlepass_pay_tip = {
 	tip = "구매 후 특허 투어 보상 해제:"
 }
 
+
 _G.pg.base.gametip.battlepass_main_tip1 = {
 	tip = "이벤트 기간 동안, 투어 임무를 완료하여 <icon name=pt w=1 h=1/> 누적 시\n<color=#92fc63>「후소·META」</color>、<color=#92fc63>성정 큐브</color>、\n<color=#92fc63>고급 지향형 강화 유닛</color>이 포함된 풍부한 보상을 획득할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.battlepass_main_tip2 = {
 	tip = "<icon name=pass w=1 h=1/>구매 시\n<color=#92fc63>「요크타운」 한정 스킨</color>、<color=#92fc63>다이아</color>\n<color=#92fc63>성정 큐브</color>가 포함된 추가 보상을 해제할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.battlepass_main_tip3 = {
 	tip = "이벤트 기간 동안, 투어 임무를 완료하여 <icon name=pt w=1 h=1/> 누적 시\n<color=#92fc63>「요크타운」 한정 스킨</color>、\n<color=#92fc63>다이아</color>、<color=#92fc63>성정 큐브</color>가 포함된 추가 보상을 획득할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.battlepass_complete = {
 	tip = "월드 투어 완료"
 }
 
+
 _G.pg.base.gametip.shop_free_tag = {
 	tip = "무료"
 }
+
 
 _G.pg.base.gametip.quick_equip_tip1 = {
 	tip = "착용 중"
 }
 
+
 _G.pg.base.gametip.quick_equip_tip2 = {
 	tip = "필터"
 }
+
 
 _G.pg.base.gametip.quick_equip_tip3 = {
 	tip = "창고"
 }
 
+
 _G.pg.base.gametip.quick_equip_tip4 = {
 	tip = "조건에 맞는 장비 없음"
 }
+
 
 _G.pg.base.gametip.quick_equip_tip5 = {
 	tip = "장비 슬롯에서 변경할 장비를 선택하세요."
 }
 
+
 _G.pg.base.gametip.quick_equip_tip6 = {
 	tip = "<color=#22ff22> $1</color>에게서 <color=#22ff22>$2</color> 장비를 <color=#FF2222>해제</color>하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.retire_importantequipment_tips = {
 	tip = "중요 장비는 일괄 해체할 수 없습니다. 창고에서 수동으로 해체해 주세요."
 }
 
+
 _G.pg.base.gametip.settle_rewards_title = {
 	tip = "결산 보상 획득"
 }
+
 
 _G.pg.base.gametip.settle_rewards_subtitle = {
 	tip = "SETTLE REWARDS"
 }
 
+
 _G.pg.base.gametip.total_rewards_subtitle = {
 	tip = "TOTAL REWARDS"
 }
+
 
 _G.pg.base.gametip.settle_rewards_text = {
 	tip = "결산 보상"
 }
 
+
 _G.pg.base.gametip.use_oil_limit_help = {
 	tip = "현재 함대의 연료 소모량은 <icon name=oil w=0.7 h=0.7/>으로 상한을 초과하여, 이번 전투 소모량이 <icon name=oil w=0.7 h=0.7/>$1에서 <icon name=oil w=0.7 h=0.7/>$2로 감소합니다."
 }
+
 
 _G.pg.base.gametip.formationScene_use_oil_limit_tip = {
 	tip = "주회 모드 소모량 상한:"
 }
 
+
 _G.pg.base.gametip.index_awakening2 = {
 	tip = "인식 각성II 가능"
 }
+
 
 _G.pg.base.gametip.index_upgrade = {
 	tip = "한계돌파 가능"
 }
 
+
 _G.pg.base.gametip.formationScene_use_oil_limit_enemy = {
 	tip = "도중"
 }
+
 
 _G.pg.base.gametip.formationScene_use_oil_limit_flagship = {
 	tip = "기함"
 }
 
+
 _G.pg.base.gametip.formationScene_use_oil_limit_submarine = {
 	tip = "잠수함"
 }
+
 
 _G.pg.base.gametip.formationScene_use_oil_limit_surface = {
 	tip = "수면"
 }
 
+
 _G.pg.base.gametip.formationScene_use_oil_limit_tip_worldboss = {
 	tip = "소모 상한:"
 }
+
 
 _G.pg.base.gametip.attr_durability = {
 	tip = "내구"
 }
 
+
 _G.pg.base.gametip.attr_armor = {
 	tip = "장갑"
 }
+
 
 _G.pg.base.gametip.attr_reload = {
 	tip = "장전"
 }
 
+
 _G.pg.base.gametip.attr_cannon = {
 	tip = "포격"
 }
+
 
 _G.pg.base.gametip.attr_torpedo = {
 	tip = "뇌장"
 }
 
+
 _G.pg.base.gametip.attr_motion = {
 	tip = "기동"
 }
+
 
 _G.pg.base.gametip.attr_antiaircraft = {
 	tip = "대공"
 }
 
+
 _G.pg.base.gametip.attr_air = {
 	tip = "항공"
 }
+
 
 _G.pg.base.gametip.attr_hit = {
 	tip = "명중"
 }
 
+
 _G.pg.base.gametip.attr_antisub = {
 	tip = "대잠"
 }
+
 
 _G.pg.base.gametip.attr_oxy_max = {
 	tip = "잠항력"
 }
 
+
 _G.pg.base.gametip.attr_ammo = {
 	tip = "탄약량"
 }
+
 
 _G.pg.base.gametip.attr_hunting_range = {
 	tip = "지원 범위"
 }
 
+
 _G.pg.base.gametip.attr_luck = {
 	tip = "행운"
 }
+
 
 _G.pg.base.gametip.attr_consume = {
 	tip = "소모"
 }
 
+
 _G.pg.base.gametip.attr_speed = {
 	tip = "항속"
 }
+
 
 _G.pg.base.gametip.monthly_card_tip = {
 	tip = "30일간 매일 획득 자원"
 }
 
+
 _G.pg.base.gametip.shopping_error_time_limit = {
 	tip = "현재 해당 아이템을 구매할 수 없습니다. 인게임 공지를 참고해 주세요."
 }
+
 
 _G.pg.base.gametip.world_total_power = {
 	tip = "총전력"
 }
 
+
 _G.pg.base.gametip.world_mileage = {
 	tip = "항행 거리"
 }
+
 
 _G.pg.base.gametip.world_pressing = {
 	tip = "제압통계"
 }
 
+
 _G.pg.base.gametip.Settings_title_FPS = {
 	tip = "프레임 설정"
 }
+
 
 _G.pg.base.gametip.Settings_title_Notification = {
 	tip = "알림 기능 사용"
 }
 
+
 _G.pg.base.gametip.Settings_title_Other = {
 	tip = "기타 옵션"
 }
+
 
 _G.pg.base.gametip.Settings_title_LoginJP = {
 	tip = "인계 코드"
 }
 
+
 _G.pg.base.gametip.Settings_title_Redeem = {
 	tip = "교환 코드"
 }
+
 
 _G.pg.base.gametip.Settings_title_AdjustScr = {
 	tip = "스크린 최적화"
 }
 
+
 _G.pg.base.gametip.Settings_title_Secpw = {
 	tip = "2차 비밀번호"
 }
+
 
 _G.pg.base.gametip.Settings_title_Secpwlimop = {
 	tip = "2차 비밀번호 제한 조작"
 }
 
+
 _G.pg.base.gametip.Settings_title_agreement = {
 	tip = "협약 확인"
 }
+
 
 _G.pg.base.gametip.Settings_title_sound = {
 	tip = "보이스 설정"
 }
 
+
 _G.pg.base.gametip.Settings_title_resUpdate = {
 	tip = "리소스 다운"
 }
+
 
 _G.pg.base.gametip.equipment_info_change_tip = {
 	tip = "아래 장비의 명칭이 변경되었습니다."
 }
 
+
 _G.pg.base.gametip.equipment_info_change_name_a = {
 	tip = "연장 203mm 주포 Mle1924"
 }
+
 
 _G.pg.base.gametip.equipment_info_change_name_b = {
 	tip = "연장 203mm 주포 Mle1931"
 }
 
+
 _G.pg.base.gametip.equipment_info_change_text_before = {
 	tip = "변경 전"
 }
+
 
 _G.pg.base.gametip.equipment_info_change_text_after = {
 	tip = "변경 후"
 }
 
+
 _G.pg.base.gametip.world_boss_progress_tip_title = {
 	tip = "비콘 데이터 수집 알림"
 }
+
 
 _G.pg.base.gametip.world_boss_progress_tip_desc = {
 	tip = [[
@@ -19280,6 +22803,7 @@ OFF: 알림 받지 않음
 100PT 누적 시마다: 100, 200PT 도달 시 알림
 200PT 누적 시마다: 200PT 도달 시 알림]]
 }
+
 
 _G.pg.base.gametip.ssss_main_help = {
 	tip = {
@@ -19299,41 +22823,51 @@ _G.pg.base.gametip.ssss_main_help = {
 	}
 }
 
+
 _G.pg.base.gametip.mini_game_time = {
 	tip = "카운트 다운:"
 }
+
 
 _G.pg.base.gametip.mini_game_score = {
 	tip = "점수:"
 }
 
+
 _G.pg.base.gametip.mini_game_leave = {
 	tip = "게임에서 퇴장하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.mini_game_pause = {
 	tip = "게임을 계속하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.mini_game_cur_score = {
 	tip = "이번 점수:"
 }
+
 
 _G.pg.base.gametip.mini_game_high_score = {
 	tip = "최고 점수:"
 }
 
+
 _G.pg.base.gametip.monopoly_world_tip1 = {
 	tip = "※터치하여 이동"
 }
+
 
 _G.pg.base.gametip.monopoly_world_tip2 = {
 	tip = "이벤트 기간 동안, 매일 $1회의 행동 기회를 얻습니다.\n방향키를 조작하여 풍부한 보상을 탐색해 보세요!\n한 바퀴 더 이동 시, 획득:"
 }
 
+
 _G.pg.base.gametip.monopoly_world_tip3 = {
 	tip = "이벤트 기간 동안, 매일 $1회의 행동 기회를 얻습니다.\n방향키를 조작하여 풍부한 보상을 탐색해 보세요!"
 }
+
 
 _G.pg.base.gametip.help_monopoly_world = {
 	tip = {
@@ -19349,51 +22883,51 @@ _G.pg.base.gametip.help_monopoly_world = {
 		{
 			info = "    : 일정 수량의 물자 획득",
 			icon = {
-				path = "jinbiworld",
+				posX = 0,
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.19,
-				posX = 0
+				path = "jinbiworld"
 			}
 		},
 		{
 			info = "    : 일정 수량의 연료 획득",
 			icon = {
-				path = "shiyouworld",
+				posX = 0,
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.19,
-				posX = 0
+				path = "shiyouworld"
 			}
 		},
 		{
 			info = "    : 랜덤 이벤트 발동",
 			icon = {
-				path = "mingyunworld",
+				posX = 0,
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.19,
-				posX = 0
+				path = "mingyunworld"
 			}
 		},
 		{
 			info = "    : 랜덤 보상 발동",
 			icon = {
-				path = "daojuworld",
+				posX = 0,
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.19,
-				posX = 0
+				path = "daojuworld"
 			}
 		},
 		{
 			info = "    : 랜덤 이동",
 			icon = {
-				path = "saicheteshu",
+				posX = 0,
 				atlas = "attricon",
 				posY = 0,
 				scale = 0.19,
-				posX = 0
+				path = "saicheteshu"
 			}
 		},
 		{
@@ -19408,109 +22942,136 @@ _G.pg.base.gametip.help_monopoly_world = {
 	}
 }
 
+
 _G.pg.base.gametip.ssssmedal_tip = {
 	tip = "세이렌 정보 <color=#9D46FF>「$1/12」</color>개 수집 시 <color=#9D46FF>「SSSS 기념장」 </color>획득 가능"
 }
+
 
 _G.pg.base.gametip.ssssmedal_name = {
 	tip = "<color=#946EFF>이름: </color> "
 }
 
+
 _G.pg.base.gametip.ssssmedal_belonging = {
 	tip = "<color=#946EFF>소속: </color> "
 }
+
 
 _G.pg.base.gametip.ssssmedal_name1 = {
 	tip = "스캐빈저 무장: 「Wander」"
 }
 
+
 _G.pg.base.gametip.ssssmedal_name2 = {
 	tip = "체이서 무장: 「Guard」"
 }
+
 
 _G.pg.base.gametip.ssssmedal_name3 = {
 	tip = "네비게이터 무장: 「Invade」"
 }
 
+
 _G.pg.base.gametip.ssssmedal_name4 = {
 	tip = "스매셔 무장: 「Blast」"
 }
+
 
 _G.pg.base.gametip.ssssmedal_name5 = {
 	tip = "컨덕터 무장: 「Moderate」"
 }
 
+
 _G.pg.base.gametip.ssssmedal_name6 = {
 	tip = "퓨리파이어"
 }
+
 
 _G.pg.base.gametip.ssssmedal_belonging1 = {
 	tip = "세이렌-집행자 계열"
 }
 
+
 _G.pg.base.gametip.ssssmedal_belonging2 = {
 	tip = "세이렌-아마도 상급"
 }
+
 
 _G.pg.base.gametip.ssssmedal_desc1 = {
 	tip = "「Wander」란 이름의 스캐빈저 특수 무장. 신속한 행동의 해양 레이스 달인."
 }
 
+
 _G.pg.base.gametip.ssssmedal_desc2 = {
 	tip = "「Guard」란 이름의 체이서 특수 무장. 화력과 기동 능력의 밸런스가 갖춰졌으며 범용성이 뛰어나다."
 }
+
 
 _G.pg.base.gametip.ssssmedal_desc3 = {
 	tip = "「Invade」란 이름의 네비게이터 특수 무장. 기동성은 떨어지지만 매우 견고하다. 화력 역시 얕볼 수 없는 수준."
 }
 
+
 _G.pg.base.gametip.ssssmedal_desc4 = {
 	tip = "「Blast」란 이름의 스매셔 특수 무장. 기존의 강력한 화력이 한층 더 강화되었다. 압박감 충만."
 }
+
 
 _G.pg.base.gametip.ssssmedal_desc5 = {
 	tip = "「Moderate」란 이름의 컨덕터 특수 무장. 사용하는 함재기도 특수 모델. 머리 위에 있는 것은 대공포."
 }
 
+
 _G.pg.base.gametip.ssssmedal_desc6 = {
 	tip = "귀여운 매력과 실력을 겸비한 퓨리파이어. 이건 그녀의 몇 번째 기억 상실일까?"
 }
+
 
 _G.pg.base.gametip.show_fate_demand_count = {
 	tip = "<color=#92fc63>용골편찬</color>에 필요한 수량 표시"
 }
 
+
 _G.pg.base.gametip.show_design_demand_count = {
 	tip = "<color=#92fc63>과학 연구 레벨 30</color>에 필요한 수량 표시"
 }
+
 
 _G.pg.base.gametip.blueprint_select_overflow = {
 	tip = "초과 수량"
 }
 
+
 _G.pg.base.gametip.blueprint_select_overflow_tip = {
 	tip = "<color=#22ff22>$1</color> 교환에 필요한 수량보다 <color=#ff5c5c> $2장</color> 초과"
 }
+
 
 _G.pg.base.gametip.blueprint_exchange_empty_tip = {
 	tip = "현재 교환 가능한 도면이 없습니다."
 }
 
+
 _G.pg.base.gametip.blueprint_exchange_select_display = {
 	tip = "선택 수량 / 필요 수량"
 }
+
 
 _G.pg.base.gametip.build_rate_title = {
 	tip = "건조 확률"
 }
 
+
 _G.pg.base.gametip.build_pools_intro = {
 	tip = "성정 큐브와 물자를 사용하여 함대 규모를 빠르게 확장시키세요."
 }
 
+
 _G.pg.base.gametip.build_detail_intro = {
 	tip = "동시 건조 가능 수:"
 }
+
 
 _G.pg.base.gametip.ssss_game_tip = {
 	tip = {
@@ -19535,6 +23096,7 @@ _G.pg.base.gametip.ssss_game_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.ssss_medal_tip = {
 	tip = {
 		{
@@ -19549,9 +23111,11 @@ _G.pg.base.gametip.ssss_medal_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.battlepass_main_tip_2112 = {
 	tip = "2021.12.8 ~ 2022.2.7까지 투어 임무를 완성하여 <icon name=pt w=0.5 h=0.5/> 누적 시 <color=#854747>「히요·META」</color>가 포함된 풍부한 보상을 획득할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.battlepass_main_help_2112 = {
 	tip = {
@@ -19601,6 +23165,7 @@ _G.pg.base.gametip.battlepass_main_help_2112 = {
 	}
 }
 
+
 _G.pg.base.gametip.cruise_task_help_2112 = {
 	tip = {
 		{
@@ -19625,6 +23190,7 @@ _G.pg.base.gametip.cruise_task_help_2112 = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.littleSanDiego_npc = {
 	tip = {
@@ -19655,117 +23221,146 @@ _G.pg.base.gametip.littleSanDiego_npc = {
 	}
 }
 
+
 _G.pg.base.gametip.tag_ship_unlocked = {
 	tip = "도감 해제됨"
 }
+
 
 _G.pg.base.gametip.tag_ship_locked = {
 	tip = "도감 미해제"
 }
 
+
 _G.pg.base.gametip.acceleration_tips_1 = {
 	tip = "<color=#66472a><size=34>냥박스 훈련 가속 아이템을 $1개 사용하여\n$2개의 냥박스를 가속하시겠습니까?</size></color>"
 }
+
 
 _G.pg.base.gametip.acceleration_tips_2 = {
 	tip = "<color=#827c7c><size=26>(가속 후 냥박스 R형 $1개, 냥박스 SR형 $2개, 냥박스 SSR형 $3개 완료)</size></color>"
 }
 
+
 _G.pg.base.gametip.noacceleration_tips = {
 	tip = "현재 가속할 수 있는 냥박스가 없습니다."
 }
+
 
 _G.pg.base.gametip.word_shipskin = {
 	tip = "특수"
 }
 
+
 _G.pg.base.gametip.settings_sound_title_bgm = {
 	tip = "배경음악"
 }
+
 
 _G.pg.base.gametip.settings_sound_title_effct = {
 	tip = "효과음"
 }
 
+
 _G.pg.base.gametip.settings_sound_title_cv = {
 	tip = "보이스"
 }
+
 
 _G.pg.base.gametip.setting_resdownload_title_gallery = {
 	tip = "삽화 리소스 업데이트"
 }
 
+
 _G.pg.base.gametip.setting_resdownload_title_live2d = {
 	tip = "live2D 리소스 업데이트"
 }
+
 
 _G.pg.base.gametip.setting_resdownload_title_music = {
 	tip = "BGM 리소스 업데이트"
 }
 
+
 _G.pg.base.gametip.setting_resdownload_title_sound = {
 	tip = "보이스 리소스 업데이트"
 }
+
 
 _G.pg.base.gametip.setting_resdownload_title_manga = {
 	tip = "만화 리소스 업데이트"
 }
 
+
 _G.pg.base.gametip.setting_resdownload_title_dorm = {
 	tip = "숙소 리소스 업데이트"
 }
+
 
 _G.pg.base.gametip.setting_resdownload_title_main_group = {
 	tip = "풀 리소스 업데이트"
 }
 
+
 _G.pg.base.gametip.settings_battle_title = {
 	tip = "버튼 위치"
 }
+
 
 _G.pg.base.gametip.settings_battle_tip = {
 	tip = "편집을 터치하여 버튼 위치 변경"
 }
 
+
 _G.pg.base.gametip.settings_battle_Btn_edit = {
 	tip = "편 집"
 }
+
 
 _G.pg.base.gametip.settings_battle_Btn_reset = {
 	tip = "초기화"
 }
 
+
 _G.pg.base.gametip.settings_battle_Btn_save = {
 	tip = "저 장"
 }
+
 
 _G.pg.base.gametip.settings_battle_Btn_cancel = {
 	tip = "취 소"
 }
 
+
 _G.pg.base.gametip.settings_pwd_label_close = {
 	tip = "OFF"
 }
+
 
 _G.pg.base.gametip.settings_pwd_label_open = {
 	tip = "ON"
 }
 
+
 _G.pg.base.gametip.word_frame = {
 	tip = "FPS"
 }
+
 
 _G.pg.base.gametip.Settings_title_Redeem_input_label = {
 	tip = "교환 코드 입력:"
 }
 
+
 _G.pg.base.gametip.Settings_title_Redeem_input_submit = {
 	tip = "수령"
 }
 
+
 _G.pg.base.gametip.Settings_title_Redeem_input_placeholder = {
 	tip = "영문, 숫자 조합에 한함"
 }
+
 
 _G.pg.base.gametip.CurlingGame_tips1 = {
 	tip = {
@@ -19782,6 +23377,7 @@ _G.pg.base.gametip.CurlingGame_tips1 = {
 	}
 }
 
+
 _G.pg.base.gametip.maid_task_tips1 = {
 	tip = {
 		{
@@ -19794,29 +23390,36 @@ _G.pg.base.gametip.maid_task_tips1 = {
 	}
 }
 
+
 _G.pg.base.gametip.shop_diamond_title = {
 	tip = "다이아 구매"
 }
+
 
 _G.pg.base.gametip.shop_gift_title = {
 	tip = "특별 패키지"
 }
 
+
 _G.pg.base.gametip.shop_item_title = {
 	tip = "기능 아이템"
 }
+
 
 _G.pg.base.gametip.shop_charge_level_limit = {
 	tip = "레벨 해제"
 }
 
+
 _G.pg.base.gametip.backhill_cantupbuilding = {
 	tip = "먼저 <color=#92fc63>$1</color>에 도달해야 계속 업그레이드할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.pray_cant_tips = {
 	tip = "에마 기원에서 함선 에마를 걸면 유효 횟수를 획득할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.help_xinnian2022_feast = {
 	tip = {
@@ -19833,6 +23436,7 @@ _G.pg.base.gametip.help_xinnian2022_feast = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.Pray_activity_tips1 = {
 	tip = {
@@ -19866,9 +23470,11 @@ _G.pg.base.gametip.Pray_activity_tips1 = {
 	}
 }
 
+
 _G.pg.base.gametip.backhill_notenoughbuilding = {
 	tip = "업그레이드 재료 부족. <color=#92fc63>탄산과 홍차</color> 이벤트에서 <color=#92fc63>이벤트 임무</color>를 완료하여 획득하세요."
 }
+
 
 _G.pg.base.gametip.help_xinnian2022_z28 = {
 	tip = {
@@ -19883,6 +23489,7 @@ _G.pg.base.gametip.help_xinnian2022_z28 = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.help_xinnian2022_firework = {
 	tip = {
@@ -19902,81 +23509,101 @@ _G.pg.base.gametip.help_xinnian2022_firework = {
 	}
 }
 
+
 _G.pg.base.gametip.player_manifesto_placeholder = {
 	tip = "터치하여 서명 수정..."
 }
+
 
 _G.pg.base.gametip.box_ship_del_click = {
 	tip = ""
 }
 
+
 _G.pg.base.gametip.box_equipment_del_click = {
 	tip = ""
 }
+
 
 _G.pg.base.gametip.change_player_name_title = {
 	tip = "이름 변경"
 }
 
+
 _G.pg.base.gametip.change_player_name_subtitle = {
 	tip = "이름을 입력하세요."
 }
+
 
 _G.pg.base.gametip.change_player_name_input_tip = {
 	tip = "닉네임 입력"
 }
 
+
 _G.pg.base.gametip.change_player_name_illegal = {
 	tip = "닉네임에 부적절한 단어가 포함되어, <color=#FFDE38FF>$1</color>로 수정되었습니다.\n닉네임을 다시 입력해 주세요."
 }
+
 
 _G.pg.base.gametip.nodisplay_player_home_name = {
 	tip = "숙소"
 }
 
+
 _G.pg.base.gametip.nodisplay_player_home_share = {
 	tip = "공유 테마"
 }
+
 
 _G.pg.base.gametip.tactics_class_start = {
 	tip = "수업 시작"
 }
 
+
 _G.pg.base.gametip.tactics_class_cancel = {
 	tip = "취소"
 }
+
 
 _G.pg.base.gametip.tactics_class_get_exp = {
 	tip = "스킬 경험치 획득"
 }
 
+
 _G.pg.base.gametip.tactics_class_spend_time = {
 	tip = "소요 시간"
 }
+
 
 _G.pg.base.gametip.build_ticket_description = {
 	tip = "※이벤트 종료 후 사라짐"
 }
 
+
 _G.pg.base.gametip.build_ticket_expire_warning = {
 	tip = "x$1 만료 임박"
 }
+
 
 _G.pg.base.gametip.tip_build_ticket_expired = {
 	tip = "이벤트가 종료되었습니다. 「$1」 사용 불가"
 }
 
+
 _G.pg.base.gametip.tip_build_ticket_exchange_expired = {
 	tip = "한정 건조가 종료되었습니다. 「$1」 교환 불가."
 }
+
 
 _G.pg.base.gametip.tip_build_ticket_not_enough = {
 	tip = "「$1」 수량 부족"
 }
 
+
 _G.pg.base.gametip.build_ship_tip_use_ticket = {
 	tip = "$2 <color=#ff5c5c>「$1척」</color> 건조 시 필요 소모:\n<color=$5>「$4 $3개」</color>"
 }
+
 
 _G.pg.base.gametip.springfes_tips1 = {
 	tip = {
@@ -19995,13 +23622,16 @@ _G.pg.base.gametip.springfes_tips1 = {
 	}
 }
 
+
 _G.pg.base.gametip.worldinpicture_tavel_point_tip = {
 	tip = "탐사 PT 부족"
 }
 
+
 _G.pg.base.gametip.worldinpicture_draw_point_tip = {
 	tip = "제작 PT 부족"
 }
+
 
 _G.pg.base.gametip.worldinpicture_help = {
 	tip = {
@@ -20016,6 +23646,7 @@ _G.pg.base.gametip.worldinpicture_help = {
 	}
 }
 
+
 _G.pg.base.gametip.worldinpicture_task_help = {
 	tip = {
 		{
@@ -20029,53 +23660,66 @@ _G.pg.base.gametip.worldinpicture_task_help = {
 	}
 }
 
+
 _G.pg.base.gametip.worldinpicture_not_area_can_draw = {
 	tip = "제작 가능 구역 없음"
 }
+
 
 _G.pg.base.gametip.missile_attack_area_confirm = {
 	tip = "공격 개시"
 }
 
+
 _G.pg.base.gametip.missile_attack_area_cancel = {
 	tip = "공격 취소"
 }
+
 
 _G.pg.base.gametip.shipchange_alert_infleet = {
 	tip = "함선이 이미 편대에 소속되어 있습니다. 편대에서 제외하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.shipchange_alert_inpvp = {
 	tip = "함선이 이미 연습전 공격 함대에 편성되어 있습니다. 편대에서 제외하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.shipchange_alert_inexercise = {
 	tip = "함선이 이미 연습전 방어 함대에 편성되어 있습니다. 편대에서 제외하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.shipchange_alert_inworld = {
 	tip = "함선이 이미 대형 작전에 편성되어 있습니다. 편대에서 제외하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.shipchange_alert_inguildbossevent = {
 	tip = "함선이 이미 대함대 보스전에 편성되어 있습니다. 편대에서 제외하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.shipchange_alert_indiff = {
 	tip = "함선이 이미 저장한 함대에 편성되어 있습니다. 편대에서 제외하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.shipmodechange_reject_1stfleet_only = {
 	tip = "제1함대 선봉/주력 함대의 유일한 함선입니다. 편대 진형을 조정 후 재시도 해주세요."
 }
 
+
 _G.pg.base.gametip.shipmodechange_reject_worldfleet_only = {
 	tip = "월드 함대 선봉/주력 함대의 유일한 함선입니다. 편대 진형을 조정 후 재시도 해주세요."
 }
 
+
 _G.pg.base.gametip.monopoly3thre_tip = {
 	tip = "※한정 스킨 중복 획득 시 일정 수량의 물자와 자동 교환."
 }
+
 
 _G.pg.base.gametip.fushun_game3_tip = {
 	tip = {
@@ -20099,9 +23743,11 @@ _G.pg.base.gametip.fushun_game3_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.battlepass_main_tip_2202 = {
 	tip = "2022.2.8 ~ 2022.4.7까지 투어 임무를 완성하여 <icon name=pt w=0.5 h=0.5/> 누적 시 <color=#854747>「준요·META」</color>가 포함된 풍부한 보상을 획득할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.battlepass_main_help_2202 = {
 	tip = {
@@ -20151,6 +23797,7 @@ _G.pg.base.gametip.battlepass_main_help_2202 = {
 	}
 }
 
+
 _G.pg.base.gametip.cruise_task_help_2202 = {
 	tip = {
 		{
@@ -20176,9 +23823,11 @@ _G.pg.base.gametip.cruise_task_help_2202 = {
 	}
 }
 
+
 _G.pg.base.gametip.battlepass_main_tip_2204 = {
 	tip = "2022.4.8 ~ 2022.6.7까지 투어 임무를 완성하여 <icon name=pt w=0.5 h=0.5/> 누적 시 <color=#854747>「야마시로·META」</color>가 포함된 풍부한 보상을 획득할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.battlepass_main_help_2204 = {
 	tip = {
@@ -20228,6 +23877,7 @@ _G.pg.base.gametip.battlepass_main_help_2204 = {
 	}
 }
 
+
 _G.pg.base.gametip.cruise_task_help_2204 = {
 	tip = {
 		{
@@ -20253,9 +23903,11 @@ _G.pg.base.gametip.cruise_task_help_2204 = {
 	}
 }
 
+
 _G.pg.base.gametip.battlepass_main_tip_2206 = {
 	tip = "2022.6.8 ~ 2022.8.7까지 투어 임무를 완성하여 <icon name=pt w=0.5 h=0.5/> 누적 시 <color=#854747>「멤피스·META」</color>가 포함된 풍부한 보상을 획득할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.battlepass_main_help_2206 = {
 	tip = {
@@ -20305,6 +23957,7 @@ _G.pg.base.gametip.battlepass_main_help_2206 = {
 	}
 }
 
+
 _G.pg.base.gametip.cruise_task_help_2206 = {
 	tip = {
 		{
@@ -20330,9 +23983,11 @@ _G.pg.base.gametip.cruise_task_help_2206 = {
 	}
 }
 
+
 _G.pg.base.gametip.battlepass_main_tip_2208 = {
 	tip = "2022.8.8-2022.10.7까지 투어 임무를 완료하여 <icon name=pt w=0.5 h=0.5/> 누적 시, <color=#854747>「트렌토·META」</color>가 포함된 풍부한 보상을 획득할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.battlepass_main_help_2208 = {
 	tip = {
@@ -20382,6 +24037,7 @@ _G.pg.base.gametip.battlepass_main_help_2208 = {
 	}
 }
 
+
 _G.pg.base.gametip.cruise_task_help_2208 = {
 	tip = {
 		{
@@ -20407,9 +24063,11 @@ _G.pg.base.gametip.cruise_task_help_2208 = {
 	}
 }
 
+
 _G.pg.base.gametip.battlepass_main_tip_2210 = {
 	tip = "2022.10.8-2022.12.7까지, 투어 임무를 완료하여 <icon name=pt w=0.5 h=0.5/> 누적 시, 「헌터·META」가 포함된 풍부한 보상을 획득할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.battlepass_main_help_2210 = {
 	tip = {
@@ -20459,6 +24117,7 @@ _G.pg.base.gametip.battlepass_main_help_2210 = {
 	}
 }
 
+
 _G.pg.base.gametip.cruise_task_help_2210 = {
 	tip = {
 		{
@@ -20484,9 +24143,11 @@ _G.pg.base.gametip.cruise_task_help_2210 = {
 	}
 }
 
+
 _G.pg.base.gametip.battlepass_main_tip_2212 = {
 	tip = "2022.12.8-2023.2.7까지, 투어 임무를 완료하여 <icon name=pt w=0.5 h=0.5/> 누적 시, 「포춘·META·META」가 포함된 풍부한 보상을 획득할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.battlepass_main_help_2212 = {
 	tip = {
@@ -20536,6 +24197,7 @@ _G.pg.base.gametip.battlepass_main_help_2212 = {
 	}
 }
 
+
 _G.pg.base.gametip.cruise_task_help_2212 = {
 	tip = {
 		{
@@ -20561,9 +24223,11 @@ _G.pg.base.gametip.cruise_task_help_2212 = {
 	}
 }
 
+
 _G.pg.base.gametip.battlepass_main_tip_2302 = {
 	tip = "2023.2.8-2023.4.7까지, 투어 임무를 완료하여 <icon name=pt w=0.5 h=0.5/> 누적 시, 「셰필드·META」가 포함된 풍부한 보상을 획득할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.battlepass_main_help_2302 = {
 	tip = {
@@ -20613,6 +24277,7 @@ _G.pg.base.gametip.battlepass_main_help_2302 = {
 	}
 }
 
+
 _G.pg.base.gametip.cruise_task_help_2302 = {
 	tip = {
 		{
@@ -20638,9 +24303,11 @@ _G.pg.base.gametip.cruise_task_help_2302 = {
 	}
 }
 
+
 _G.pg.base.gametip.battlepass_main_tip_2304 = {
 	tip = "2023.4.8-2023.6.7까지, 투어 임무를 완료하여 <icon name=pt w=0.5 h=0.5/> 누적 시, 「라 갈리소니에르·META」가 포함된 풍부한 보상을 획득할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.battlepass_main_help_2304 = {
 	tip = {
@@ -20690,6 +24357,7 @@ _G.pg.base.gametip.battlepass_main_help_2304 = {
 	}
 }
 
+
 _G.pg.base.gametip.cruise_task_help_2304 = {
 	tip = {
 		{
@@ -20715,9 +24383,11 @@ _G.pg.base.gametip.cruise_task_help_2304 = {
 	}
 }
 
+
 _G.pg.base.gametip.battlepass_main_tip_2306 = {
 	tip = "2023.6.8-2023.8.7까지, 투어 임무를 완료하여 <icon name=pt w=0.5 h=0.5/> 누적 시, 「베스탈·META」가 포함된 풍부한 보상을 획득할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.battlepass_main_help_2306 = {
 	tip = {
@@ -20767,6 +24437,7 @@ _G.pg.base.gametip.battlepass_main_help_2306 = {
 	}
 }
 
+
 _G.pg.base.gametip.cruise_task_help_2306 = {
 	tip = {
 		{
@@ -20792,9 +24463,11 @@ _G.pg.base.gametip.cruise_task_help_2306 = {
 	}
 }
 
+
 _G.pg.base.gametip.battlepass_main_tip_2308 = {
 	tip = "8/8-10/7까지 투어 임무를 완성하여 <icon name=pt w=0.5 h=0.5/> 누적 시 <color=#854747>「하타카제·META」</color>가 포함된 풍부한 보상을 획득할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.battlepass_main_help_2308 = {
 	tip = {
@@ -20844,6 +24517,7 @@ _G.pg.base.gametip.battlepass_main_help_2308 = {
 	}
 }
 
+
 _G.pg.base.gametip.cruise_task_help_2308 = {
 	tip = {
 		{
@@ -20869,9 +24543,11 @@ _G.pg.base.gametip.cruise_task_help_2308 = {
 	}
 }
 
+
 _G.pg.base.gametip.battlepass_main_tip_2310 = {
 	tip = "10/8-12/7까지 투어 임무를 완성하여 <icon name=pt w=0.5 h=0.5/> 누적 시 <color=#854747>「프린스턴·META」</color>가 포함된 풍부한 보상을 획득할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.battlepass_main_help_2310 = {
 	tip = {
@@ -20921,6 +24597,7 @@ _G.pg.base.gametip.battlepass_main_help_2310 = {
 	}
 }
 
+
 _G.pg.base.gametip.cruise_task_help_2310 = {
 	tip = {
 		{
@@ -20945,6 +24622,7 @@ _G.pg.base.gametip.cruise_task_help_2310 = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.battlepass_main_tip_2312 = {
 	tip = {
@@ -20994,6 +24672,7 @@ _G.pg.base.gametip.battlepass_main_tip_2312 = {
 	}
 }
 
+
 _G.pg.base.gametip.battlepass_main_help_2312 = {
 	tip = {
 		{
@@ -21042,6 +24721,7 @@ _G.pg.base.gametip.battlepass_main_help_2312 = {
 	}
 }
 
+
 _G.pg.base.gametip.cruise_task_help_2312 = {
 	tip = {
 		{
@@ -21067,9 +24747,11 @@ _G.pg.base.gametip.cruise_task_help_2312 = {
 	}
 }
 
+
 _G.pg.base.gametip.battlepass_main_tip_2402 = {
 	tip = "2024.2.8-2024.4.7까지, 투어 임무를 완료하여 <icon name=pt w=0.5 h=0.5/> 누적 시, 「킴벌리·META」가 포함된 풍부한 보상을 획득할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.battlepass_main_help_2402 = {
 	tip = {
@@ -21119,6 +24801,7 @@ _G.pg.base.gametip.battlepass_main_help_2402 = {
 	}
 }
 
+
 _G.pg.base.gametip.cruise_task_help_2402 = {
 	tip = {
 		{
@@ -21144,9 +24827,11 @@ _G.pg.base.gametip.cruise_task_help_2402 = {
 	}
 }
 
+
 _G.pg.base.gametip.battlepass_main_tip_2404 = {
 	tip = "<size=23>2024.4.8 ~ 2024.6.7 이벤트 기간 중에 월드 투어 보상으로 <color=#854747>「뱀파이어·META」</color> 등 획득 가능! </size>"
 }
+
 
 _G.pg.base.gametip.battlepass_main_help_2404 = {
 	tip = {
@@ -21190,6 +24875,7 @@ _G.pg.base.gametip.battlepass_main_help_2404 = {
 	}
 }
 
+
 _G.pg.base.gametip.cruise_task_help_2404 = {
 	tip = {
 		{
@@ -21210,53 +24896,66 @@ _G.pg.base.gametip.cruise_task_help_2404 = {
 	}
 }
 
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "초기화"
 }
+
 
 _G.pg.base.gametip.attrset_save = {
 	tip = "저장"
 }
 
+
 _G.pg.base.gametip.attrset_ask_save = {
 	tip = "현재 수정 내용을 저장하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.attrset_save_success = {
 	tip = "저장 성공"
 }
 
+
 _G.pg.base.gametip.attrset_disable = {
 	tip = "현재 진행 중인 전투가 있어 조정할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.attrset_input_ill = {
 	tip = "잘못된 입력"
 }
 
+
 _G.pg.base.gametip.eventshop_time_hint = {
 	tip = "$1 점검 전까지 교환할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.purchase_backyard_theme_desc_for_onekey = {
 	tip = "여러번 구매 가능한 가구를 1회 구매"
 }
 
+
 _G.pg.base.gametip.purchase_backyard_theme_desc_for_all = {
 	tip = "여러번 구매 가능한 가구를 상한까지 구매"
 }
+
 
 _G.pg.base.gametip.sp_no_quota = {
 	tip = "SP 스테이지 일일 도전 횟수 상한 도달"
 }
 
+
 _G.pg.base.gametip.fur_all_buy = {
 	tip = "모두 구매"
 }
 
+
 _G.pg.base.gametip.fur_onekey_buy = {
 	tip = "세트 구매"
 }
+
 
 _G.pg.base.gametip.littleRenown_npc = {
 	tip = {
@@ -21287,94 +24986,114 @@ _G.pg.base.gametip.littleRenown_npc = {
 	}
 }
 
+
 _G.pg.base.gametip.tech_package_tip = {
 	tip = "한 패키지만 구매할 수 있습니다. 패키지는 우편으로 발송되니 확인 후 수령해 주시기 바랍니다.\n일반 패키지 구매 후에도 고급 패키지로 업그레이드 할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.backyard_food_shop_tip = {
 	tip = "필요 다이아:"
 }
 
+
 _G.pg.base.gametip.dorm_2f_lock = {
 	tip = "미개방"
 }
+
 
 _G.pg.base.gametip.word_get_way = {
 	tip = "획득 방법:"
 }
 
+
 _G.pg.base.gametip.word_get_date = {
 	tip = "획득 날짜:"
 }
+
 
 _G.pg.base.gametip.enter_theme_name = {
 	tip = "숙소 명칭을 입력"
 }
 
+
 _G.pg.base.gametip.enter_extend_food_label = {
 	tip = "확장"
 }
+
 
 _G.pg.base.gametip.backyard_extend_tip_1 = {
 	tip = "확장 허가서를 "
 }
 
+
 _G.pg.base.gametip.backyard_extend_tip_2 = {
 	tip = "개 사용하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.backyard_extend_tip_3 = {
 	tip = "보유 수："
 }
 
+
 _G.pg.base.gametip.backyard_extend_tip_4 = {
 	tip = "개"
 }
+
 
 _G.pg.base.gametip.levelScene_remaster_story_tip = {
 	tip = "「$1」 스토리 모두 해제 완료.\n회상 화면으로 이동하여 확인할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.levelScene_remaster_unlock_tip = {
 	tip = "※「작전 문서」-$1 $2 클리어 시 모든 스토리 해제"
 }
+
 
 _G.pg.base.gametip.level_remaster_tip1 = {
 	tip = "출현 해역:"
 }
 
+
 _G.pg.base.gametip.level_remaster_tip2 = {
 	tip = "출격"
 }
+
 
 _G.pg.base.gametip.level_remaster_tip3 = {
 	tip = "수령"
 }
 
+
 _G.pg.base.gametip.level_remaster_tip4 = {
 	tip = "$1 적 기함 처치 횟수"
 }
+
 
 _G.pg.base.gametip.skill_learn_tip = {
 	tip = "금일 남은 쾌속 스킬 습득 횟수: $1회"
 }
 
+
 _G.pg.base.gametip.build_count_tip = {
 	tip = "누적"
 }
+
 
 _G.pg.base.gametip.help_research_package = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/tecshipgifthelp",
-				path = ""
+				path = "",
+				atlas = "helpbg/tecshipgifthelp"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -21389,137 +25108,171 @@ _G.pg.base.gametip.help_research_package = {
 	}
 }
 
+
 _G.pg.base.gametip.lv70_package_tip = {
 	tip = "지휘관 레벨이 70이상입니다. 즉시 출격 패키지 구매 후, 지휘관 레벨은 변하지 않습니다(패키지 내 기타 보상은 정상 획득). 구매하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.tech_select_tip1 = {
 	tip = "캐릭터 해제 미완료"
 }
 
+
 _G.pg.base.gametip.tech_select_tip2 = {
 	tip = "과학연구-개발도크에서 캐릭터 1명을 선택하여 개발 가속 및 획득 가능"
 }
+
 
 _G.pg.base.gametip.tech_select_tip3 = {
 	tip = "해제됨"
 }
 
+
 _G.pg.base.gametip.tech_select_tip4 = {
 	tip = "캐릭터 해제 완료"
 }
+
 
 _G.pg.base.gametip.tech_select_tip5 = {
 	tip = "사용 시 다음 아이템 획득"
 }
 
+
 _G.pg.base.gametip.techpackage_item_use = {
 	tip = "가속 개발은 1명의 캐릭터만 선택할 수 있습니다. $1을(를) 개발하시겠습니까?\n개발 후 해당 캐릭터를 획득합니다(레벨1 및 개발 레벨1\n<color=#ff5c5c>$2*1 소모</color>"
 }
+
 
 _G.pg.base.gametip.techpackage_item_use_1 = {
 	tip = "특별 개방은 동일 년도에 추가되는 특별계획함 1척만 선택하여 획득할 수 있습니다. <color=#92fc63>$1</color>(을)를 선택하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.techpackage_item_use_2 = {
 	tip = "아이템 <color=#ff5c5c>$1*1</color>을 소모하여 해당 특별계획함을 획득합니다. (레벨 및 강화 레벨은 초기 상태입니다.)"
 }
+
 
 _G.pg.base.gametip.techpackage_item_use_confirm = {
 	tip = "캐릭터 모두 획득함. 사용 시 다음 아이템을 획득합니다."
 }
 
+
 _G.pg.base.gametip.newserver_shop_timelimit = {
 	tip = "해당 상점은 $1 후 해제됩니다."
 }
+
 
 _G.pg.base.gametip.tech_character_get = {
 	tip = "획득함"
 }
 
+
 _G.pg.base.gametip.package_detail_tip = {
 	tip = "상세 확인"
 }
+
 
 _G.pg.base.gametip.event_ui_consume = {
 	tip = "소모:"
 }
 
+
 _G.pg.base.gametip.event_ui_recommend = {
 	tip = "추천"
 }
+
 
 _G.pg.base.gametip.event_ui_start = {
 	tip = "시작"
 }
 
+
 _G.pg.base.gametip.event_ui_giveup = {
 	tip = "취소"
 }
+
 
 _G.pg.base.gametip.event_ui_finish = {
 	tip = "완료"
 }
 
+
 _G.pg.base.gametip.nav_tactics_sel_skill_title = {
 	tip = "스킬 선택"
 }
+
 
 _G.pg.base.gametip.battle_result_confirm = {
 	tip = "확인"
 }
 
+
 _G.pg.base.gametip.battle_result_targets = {
 	tip = "전투 평가"
 }
+
 
 _G.pg.base.gametip.battle_result_continue = {
 	tip = "터치하여 계속하기"
 }
 
+
 _G.pg.base.gametip.index_L2D = {
 	tip = "L2D"
 }
+
 
 _G.pg.base.gametip.index_DBG = {
 	tip = "모션 배경"
 }
 
+
 _G.pg.base.gametip.index_BG = {
 	tip = "일반 배경"
 }
+
 
 _G.pg.base.gametip.index_CANTUSE = {
 	tip = "사용 불가"
 }
 
+
 _G.pg.base.gametip.index_UNUSE = {
 	tip = "미사용"
 }
+
 
 _G.pg.base.gametip.index_BGM = {
 	tip = "스페셜 BGM"
 }
 
+
 _G.pg.base.gametip.without_ship_to_wear = {
 	tip = "스킨 변경 가능한 캐릭터 없음"
 }
+
 
 _G.pg.base.gametip.choose_ship_to_wear_this_skin = {
 	tip = "스킨 변경할 캐릭터를 선택하세요."
 }
 
+
 _G.pg.base.gametip.skinatlas_search_holder = {
 	tip = "캐릭터 이름 또는 스킨 이름 검색"
 }
+
 
 _G.pg.base.gametip.skinatlas_search_result_is_empty = {
 	tip = "조건에 맞는 스킨 없음"
 }
 
+
 _G.pg.base.gametip.chang_ship_skin_window_title = {
 	tip = "스킨"
 }
+
 
 _G.pg.base.gametip.world_boss_item_info = {
 	tip = [[
@@ -21529,6 +25282,7 @@ P.S.기록기의 기록 용량은 상한이 있으며 제때 분석하시기 바
 기록 용량 상한: $3/$4]]
 }
 
+
 _G.pg.base.gametip.world_past_boss_item_info = {
 	tip = [[
 파일 비콘 기록기|대형 작전에서 수집한 「파일 비콘 데이터」를 기록하는 장치. 데이터가 일정량에 도달하면 분석하여 특정한 비콘을 발견할 수 있다.
@@ -21537,69 +25291,86 @@ P.S.기록기의 기록 용량은 상한이 있으며 제때 분석하시기 바
 기록 용량 상한: $3/$4]]
 }
 
+
 _G.pg.base.gametip.world_boss_lefttime = {
 	tip = "$1일"
 }
+
 
 _G.pg.base.gametip.world_boss_item_count_noenough = {
 	tip = "정보 분석 데이터 부족"
 }
 
+
 _G.pg.base.gametip.world_boss_item_usage_tip = {
 	tip = "※비콘과 파일 비콘을 동시에 분석할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.world_boss_no_select_archives = {
 	tip = "먼저 비콘 파일에서 분석을 해제하세요."
 }
 
+
 _G.pg.base.gametip.world_boss_archives_item_count_noenough = {
 	tip = "파일 비콘 데이터 부족"
 }
+
 
 _G.pg.base.gametip.world_boss_archives_are_clear = {
 	tip = "모든 META 분석 완료"
 }
 
+
 _G.pg.base.gametip.world_boss_switch_archives = {
 	tip = "현재 $1의 파일을 분석 중입니다. 전환하시겠습니까?\n(현재 진행 중인 파일 비콘에 영향을 주지 않습니다.)"
 }
+
 
 _G.pg.base.gametip.world_boss_switch_archives_success = {
 	tip = "해제 성공. 파일 비콘 화면에서 분석할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.world_boss_archives_auto_battle_unopen = {
 	tip = "자율 작전은 도전 1회 완료 후 개방됩니다."
 }
+
 
 _G.pg.base.gametip.world_boss_archives_need_stop_auto_battle = {
 	tip = "자율 작전 진행 중. 도전할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.world_boss_archives_stop_auto_battle = {
 	tip = "작전 종료"
 }
+
 
 _G.pg.base.gametip.world_boss_archives_continue_auto_battle = {
 	tip = "작전 계속"
 }
 
+
 _G.pg.base.gametip.world_boss_archives_auto_battle_reusle_title = {
 	tip = "자율 작전 완료"
 }
+
 
 _G.pg.base.gametip.world_boss_archives_stop_auto_battle_title = {
 	tip = "자율 작전 중···"
 }
 
+
 _G.pg.base.gametip.world_boss_archives_stop_auto_battle_tip = {
 	tip = "잔여 시간:"
 }
 
+
 _G.pg.base.gametip.world_boss_archives_stop_auto_battle_tip1 = {
 	tip = "(자율 작전 중도 종료 시, 비콘에 대미지를 입히지 않으며 연료는 반환되지 않습니다.)"
 }
+
 
 _G.pg.base.gametip.world_archives_boss_help = {
 	tip = {
@@ -21646,6 +25417,7 @@ _G.pg.base.gametip.world_archives_boss_help = {
 	}
 }
 
+
 _G.pg.base.gametip.world_archives_boss_list_help = {
 	tip = {
 		{
@@ -21659,169 +25431,211 @@ _G.pg.base.gametip.world_archives_boss_list_help = {
 	}
 }
 
+
 _G.pg.base.gametip.archives_boss_was_opened = {
 	tip = "분석 중인 파일 비콘이 있습니다. 내 비콘으로 이동할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.current_boss_was_opened = {
 	tip = "분석 중인 비콘이 있습니다. 파일 비콘으로 이동할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.world_boss_title_auto_battle = {
 	tip = "자율 작전"
 }
+
 
 _G.pg.base.gametip.world_boss_title_highest_damge = {
 	tip = "최고 대미지"
 }
 
+
 _G.pg.base.gametip.world_boss_title_estimation = {
 	tip = "자율 작전 예상"
 }
+
 
 _G.pg.base.gametip.world_boss_title_battle_cnt = {
 	tip = "작전 횟수"
 }
 
+
 _G.pg.base.gametip.world_boss_title_consume_oil_cnt = {
 	tip = "연료 누적 소모"
 }
+
 
 _G.pg.base.gametip.world_boss_title_spend_time = {
 	tip = "소요 시간"
 }
 
+
 _G.pg.base.gametip.world_boss_title_total_damage = {
 	tip = "총 대미지"
 }
+
 
 _G.pg.base.gametip.world_no_time_to_auto_battle = {
 	tip = "현재 비콘의 잔여 시간 부족!"
 }
 
+
 _G.pg.base.gametip.world_boss_current_boss_label = {
 	tip = "금일 획득"
 }
+
 
 _G.pg.base.gametip.world_boss_current_boss_label1 = {
 	tip = "분석 소모"
 }
 
+
 _G.pg.base.gametip.world_boss_archives_boss_tip = {
 	tip = "파일 비콘 작전 지원은 보상이 없으며, 횟수를 소모하지 않습니다."
 }
+
 
 _G.pg.base.gametip.world_boss_progress_no_enough = {
 	tip = "비콘 데이터 부족"
 }
 
+
 _G.pg.base.gametip.world_boss_auto_battle_no_oil = {
 	tip = "연료 부족!"
 }
+
 
 _G.pg.base.gametip.meta_syn_value_label = {
 	tip = "누적 동기화 수치"
 }
 
+
 _G.pg.base.gametip.meta_syn_finish = {
 	tip = "정보 동기화 완료"
 }
+
 
 _G.pg.base.gametip.index_meta_repair = {
 	tip = "함장 강화 가능"
 }
 
+
 _G.pg.base.gametip.index_meta_tactics = {
 	tip = "전술 연구 가능"
 }
+
 
 _G.pg.base.gametip.index_meta_energy = {
 	tip = "에너지 활성화 가능"
 }
 
+
 _G.pg.base.gametip.tactics_continue_to_learn_other_skill = {
 	tip = ", 해당 캐릭터의 스킬을 계속 강화하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.tactics_continue_to_learn_other_ship_skill = {
 	tip = "현재 캐릭터의 모든 스킬이 최대 레벨입니다. 다른 캐릭터의 스킬을 강화하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.tactics_no_recent_ships = {
 	tip = "최근 스킬 강화한 캐릭터 없음"
 }
+
 
 _G.pg.base.gametip.activity_kill = {
 	tip = "누적 격침"
 }
 
+
 _G.pg.base.gametip.battle_result_dmg = {
 	tip = "대미지"
 }
+
 
 _G.pg.base.gametip.battle_result_kill_count = {
 	tip = "처치"
 }
 
+
 _G.pg.base.gametip.battle_result_toggle_on = {
 	tip = "잠수함 함대"
 }
+
 
 _G.pg.base.gametip.battle_result_toggle_off = {
 	tip = "수상 함대"
 }
 
+
 _G.pg.base.gametip.battle_result_continue_battle = {
 	tip = "계속 전투"
 }
+
 
 _G.pg.base.gametip.battle_result_quit_battle = {
 	tip = "돌아가기"
 }
 
+
 _G.pg.base.gametip.battle_result_share_battle = {
 	tip = ""
 }
+
 
 _G.pg.base.gametip.pre_combat_team = {
 	tip = "출격 함대"
 }
 
+
 _G.pg.base.gametip.pre_combat_vanguard = {
 	tip = "선봉함대"
 }
+
 
 _G.pg.base.gametip.pre_combat_main = {
 	tip = "주력함대"
 }
 
+
 _G.pg.base.gametip.pre_combat_submarine = {
 	tip = "잠수함대"
 }
+
 
 _G.pg.base.gametip.pre_combat_targets = {
 	tip = "목표"
 }
 
+
 _G.pg.base.gametip.pre_combat_atlasloot = {
 	tip = "드랍"
 }
+
 
 _G.pg.base.gametip.destroy_confirm_access = {
 	tip = "확인"
 }
 
+
 _G.pg.base.gametip.destroy_confirm_cancel = {
 	tip = "취소"
 }
+
 
 _G.pg.base.gametip.pt_count_tip = {
 	tip = "누적"
 }
 
+
 _G.pg.base.gametip.dockyard_data_loss_detected = {
 	tip = "도크 데이터가 손실되었습니다. 새로고침하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.littleEugen_npc = {
 	tip = {
@@ -21852,13 +25666,16 @@ _G.pg.base.gametip.littleEugen_npc = {
 	}
 }
 
+
 _G.pg.base.gametip.five_shujuhuigu = {
 	tip = "미개방"
 }
 
+
 _G.pg.base.gametip.five_shujuhuigu1 = {
 	tip = "$1까지 진행"
 }
+
 
 _G.pg.base.gametip.littleChaijun_npc = {
 	tip = {
@@ -21889,6 +25706,7 @@ _G.pg.base.gametip.littleChaijun_npc = {
 	}
 }
 
+
 _G.pg.base.gametip.five_qingdian = {
 	tip = {
 		{
@@ -21902,33 +25720,41 @@ _G.pg.base.gametip.five_qingdian = {
 	}
 }
 
+
 _G.pg.base.gametip.friend_resume_title_detail = {
 	tip = "상세 이력"
 }
+
 
 _G.pg.base.gametip.item_type13_tip1 = {
 	tip = "교환 목록"
 }
 
+
 _G.pg.base.gametip.item_type13_tip2 = {
 	tip = "교환 목록"
 }
+
 
 _G.pg.base.gametip.item_type16_tip1 = {
 	tip = "장비 목록"
 }
 
+
 _G.pg.base.gametip.item_type16_tip2 = {
 	tip = "장비 목록"
 }
+
 
 _G.pg.base.gametip.item_type17_tip1 = {
 	tip = "보상 정보"
 }
 
+
 _G.pg.base.gametip.item_type17_tip2 = {
 	tip = "보상 정보"
 }
+
 
 _G.pg.base.gametip.five_duomaomao = {
 	tip = {
@@ -21945,13 +25771,16 @@ _G.pg.base.gametip.five_duomaomao = {
 	}
 }
 
+
 _G.pg.base.gametip.main_4 = {
 	tip = "메인\n화면 4"
 }
 
+
 _G.pg.base.gametip.main_5 = {
 	tip = "메인\n화면 5"
 }
+
 
 _G.pg.base.gametip.honor_medal_support_tips_display = {
 	tip = {
@@ -21968,41 +25797,51 @@ _G.pg.base.gametip.honor_medal_support_tips_display = {
 	}
 }
 
+
 _G.pg.base.gametip.honor_medal_support_tips_confirm = {
 	tip = "함선 지원 <color=#ff5c5c>「$1회」</color> 신청 시, 필요 소모:\n<color=$3>「명예훈장 $2개」</color>"
 }
+
 
 _G.pg.base.gametip.support_rate_title = {
 	tip = "지원 확률"
 }
 
+
 _G.pg.base.gametip.support_times_limited = {
 	tip = "이번달 훈장 지원 가능 횟수 부족"
 }
+
 
 _G.pg.base.gametip.support_times_tip = {
 	tip = "지원 수량"
 }
 
+
 _G.pg.base.gametip.build_times_tip = {
 	tip = "건조 수량"
 }
+
 
 _G.pg.base.gametip.tactics_recent_ship_label = {
 	tip = "최근 스킬 강화"
 }
 
+
 _G.pg.base.gametip.title_info = {
 	tip = "정보"
 }
+
 
 _G.pg.base.gametip.eventshop_unlock_info = {
 	tip = "$1 클리어"
 }
 
+
 _G.pg.base.gametip.eventshop_unlock_hint = {
 	tip = "메인 $1 클리어 후, 교환 해제"
 }
+
 
 _G.pg.base.gametip.commission_event_tip = {
 	tip = {
@@ -22020,73 +25859,91 @@ _G.pg.base.gametip.commission_event_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.decoration_medal_placeholder = {
 	tip = "아무 훈장도 획득하지 않았습니다."
 }
+
 
 _G.pg.base.gametip.technology_filter_placeholder = {
 	tip = "해당하는 함선이 없습니다."
 }
 
+
 _G.pg.base.gametip.eva_comment_send_null = {
 	tip = "코멘트를 입력하세요."
 }
+
 
 _G.pg.base.gametip.report_sent_thank = {
 	tip = "신고가 성공적으로 발송되었습니다. 클린한 게임 환경을 위해 기여해 주셔서 감사합니다."
 }
 
+
 _G.pg.base.gametip.report_ship_cannot_comment = {
 	tip = "댓글 기능 정비 중"
 }
+
 
 _G.pg.base.gametip.report_cannot_comment = {
 	tip = "댓글 등록이 금지되었습니다. 고객 센터로 연락해 주세요."
 }
 
+
 _G.pg.base.gametip.report_sent_title = {
 	tip = "신고"
 }
+
 
 _G.pg.base.gametip.report_sent_desc = {
 	tip = "신고 유형을 1개 선택하세요."
 }
 
+
 _G.pg.base.gametip.report_type_1 = {
 	tip = "부적절한 댓글"
 }
+
 
 _G.pg.base.gametip.report_type_1_1 = {
 	tip = "민감, 위험성 댓글"
 }
 
+
 _G.pg.base.gametip.report_type_2 = {
 	tip = "공격적인 댓글"
 }
+
 
 _G.pg.base.gametip.report_type_2_1 = {
 	tip = "욕설, 비난 등 공격성 댓글"
 }
 
+
 _G.pg.base.gametip.report_type_3 = {
 	tip = "혐오성 댓글"
 }
+
 
 _G.pg.base.gametip.report_type_3_1 = {
 	tip = "인종, 성별 차별"
 }
 
+
 _G.pg.base.gametip.report_type_other = {
 	tip = "기타"
 }
+
 
 _G.pg.base.gametip.report_type_other_1 = {
 	tip = "신고 내용(최대 150자)"
 }
 
+
 _G.pg.base.gametip.report_type_other_2 = {
 	tip = "내용을 입력해 주세요."
 }
+
 
 _G.pg.base.gametip.report_sent_help = {
 	tip = {
@@ -22100,133 +25957,166 @@ _G.pg.base.gametip.report_sent_help = {
 	}
 }
 
+
 _G.pg.base.gametip.rename_input = {
 	tip = "이름 입력"
 }
+
 
 _G.pg.base.gametip.avatar_task_level = {
 	tip = "$1 $2로 $3 적 기함 $4회 격파 및 생존"
 }
 
+
 _G.pg.base.gametip.avatar_upgrad_1 = {
 	tip = "돌파 1회"
 }
+
 
 _G.pg.base.gametip.avatar_upgrad_2 = {
 	tip = "돌파 2회"
 }
 
+
 _G.pg.base.gametip.avatar_upgrad_3 = {
 	tip = "돌파 MAX"
 }
+
 
 _G.pg.base.gametip.avatar_task_ship_1 = {
 	tip = "획득 함선 「$1」"
 }
 
+
 _G.pg.base.gametip.avatar_task_ship_2 = {
 	tip = "「$1」한계돌파 MAX"
 }
+
 
 _G.pg.base.gametip.technology_queue_complete = {
 	tip = "연구 완료"
 }
 
+
 _G.pg.base.gametip.technology_queue_processing = {
 	tip = "진행 중"
 }
+
 
 _G.pg.base.gametip.technology_queue_waiting = {
 	tip = "진행 대기"
 }
 
+
 _G.pg.base.gametip.technology_queue_getaward = {
 	tip = "보상 수령"
 }
+
 
 _G.pg.base.gametip.technology_daily_refresh = {
 	tip = "매일 0시 후 갱신"
 }
 
+
 _G.pg.base.gametip.technology_queue_full = {
 	tip = "대열이 가득 차 추가할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.technology_queue_in_mission_incomplete = {
 	tip = "연구 완료 조건 미달성. 추가할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.technology_consume = {
 	tip = "연구 소모"
 }
+
 
 _G.pg.base.gametip.technology_request = {
 	tip = "연구 완료 조건"
 }
 
+
 _G.pg.base.gametip.technology_queue_in_doublecheck = {
 	tip = "해당 연구 항목을 대열에 추가하시겠습니까? 대열에 추가된 연구 항목은 순서대로 완료되며 취소할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.playervtae_setting_btn_label = {
 	tip = "설정하기"
 }
 
+
 _G.pg.base.gametip.technology_queue_in_success = {
 	tip = "대열 추가 성공"
 }
+
 
 _G.pg.base.gametip.star_require_enemy_text = {
 	tip = "「모든 적 격파」 달성까지: $1"
 }
 
+
 _G.pg.base.gametip.star_require_enemy_title = {
 	tip = "남은 적 수"
 }
+
 
 _G.pg.base.gametip.star_require_enemy_check = {
 	tip = "확인"
 }
 
+
 _G.pg.base.gametip.worldboss_rank_timer_label = {
 	tip = "순위 집계 중\n잔여:"
 }
+
 
 _G.pg.base.gametip.technology_detail = {
 	tip = "상세정보"
 }
 
+
 _G.pg.base.gametip.technology_mission_unfinish = {
 	tip = "조건 미달성"
 }
+
 
 _G.pg.base.gametip.word_chinese = {
 	tip = "중국어"
 }
 
+
 _G.pg.base.gametip.word_japanese_2 = {
 	tip = "일어2"
 }
+
 
 _G.pg.base.gametip.word_japanese = {
 	tip = "일어"
 }
 
+
 _G.pg.base.gametip.avatarframe_got = {
 	tip = "수령함"
 }
+
 
 _G.pg.base.gametip.item_is_max_cnt = {
 	tip = "보유 아이템 상한 도달"
 }
 
+
 _G.pg.base.gametip.level_fleet_ship_desc = {
 	tip = "출격 가능 함대:"
 }
 
+
 _G.pg.base.gametip.level_fleet_sub_desc = {
 	tip = "잠수함대:"
 }
+
 
 _G.pg.base.gametip.summerland_tip = {
 	tip = {
@@ -22241,6 +26131,7 @@ _G.pg.base.gametip.summerland_tip = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.icecreamgame_tip = {
 	tip = {
@@ -22270,29 +26161,36 @@ _G.pg.base.gametip.icecreamgame_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.unlock_date_tip = {
 	tip = "<color=#92fc63>$1월 $2일</color> 해제"
 }
+
 
 _G.pg.base.gametip.guild_duty_shoule_be_deputy_commander = {
 	tip = "함대 사령관은 부사령관 중에 한하여 임명할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.guild_deputy_commander_cnt_is_full = {
 	tip = "<color=#C3C3C3>최대 인원 수</color>"
 }
+
 
 _G.pg.base.gametip.guild_deputy_commander_cnt = {
 	tip = "<color=#C3C3C3>위임 완료:<color=#92fc63>$1/$2</color></color>"
 }
 
+
 _G.pg.base.gametip.mail_filter_placeholder = {
 	tip = "우편 없음"
 }
 
+
 _G.pg.base.gametip.recently_sticker_placeholder = {
 	tip = "이모티콘 없음"
 }
+
 
 _G.pg.base.gametip.backhill_campusfestival_tip = {
 	tip = {
@@ -22316,6 +26214,7 @@ _G.pg.base.gametip.backhill_campusfestival_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.mini_cookgametip = {
 	tip = {
 		{
@@ -22336,113 +26235,141 @@ _G.pg.base.gametip.mini_cookgametip = {
 	}
 }
 
+
 _G.pg.base.gametip.cook_game_Albacore = {
 	tip = "디저트 원거리 전달"
 }
+
 
 _G.pg.base.gametip.cook_game_august = {
 	tip = "이동 속도 UP"
 }
 
+
 _G.pg.base.gametip.cook_game_elbe = {
 	tip = "디저트 일타이피"
 }
+
 
 _G.pg.base.gametip.cook_game_hakuryu = {
 	tip = "정확한 디저트 연속 전달 시 이동 속도 증가"
 }
 
+
 _G.pg.base.gametip.cook_game_howe = {
 	tip = "디저트 전달 성공 시마다 50% 확률로 1점 추가 득점"
 }
+
 
 _G.pg.base.gametip.cook_game_marcopolo = {
 	tip = "아군 게임 시간 증가"
 }
 
+
 _G.pg.base.gametip.cook_game_noshiro = {
 	tip = "잘못된 디저트 전달해도 1점 득점"
 }
+
 
 _G.pg.base.gametip.cook_game_pnelope = {
 	tip = "디저트 2개 전달 성공 시마다 1점 추가 득점"
 }
 
+
 _G.pg.base.gametip.cook_game_laffey = {
 	tip = "올바르게 전달하면, 다음에 다시 올바르게 전달할 시 득점 상승"
 }
+
 
 _G.pg.base.gametip.cook_game_janus = {
 	tip = "전달 시 정답 여부에 따라 무작위로 득점 변화"
 }
 
+
 _G.pg.base.gametip.cook_game_flandre = {
 	tip = "도우미 만쥬에게 도움을 받을 수 있음"
 }
+
 
 _G.pg.base.gametip.cook_game_constellation = {
 	tip = "올바르게 전달하면 일정 확률로 손님을 <color=#FFE555>특수 상태</color>로 만듦"
 }
 
+
 _G.pg.base.gametip.cook_game_constellation_skill_name = {
 	tip = "<color=#FFE555>\"희망 점\"</color>"
 }
+
 
 _G.pg.base.gametip.cook_game_constellation_skill_desc = {
 	tip = "7초 동안 라이벌의 디저트를 받지 않으며, 아군이 올바른 주문을 전달했을 시의 득점이 2배가 됨"
 }
 
+
 _G.pg.base.gametip.random_ship_on = {
 	tip = "랜덤 비서함 기능 설정됨"
 }
+
 
 _G.pg.base.gametip.random_ship_off_0 = {
 	tip = "현재 랜덤 설정 가능한 캐릭터 수량이 부족하여 랜덤 비서함 기능이 자동 해제되었습니다."
 }
 
+
 _G.pg.base.gametip.random_ship_off = {
 	tip = "랜덤 비서함 기능 해제됨. 비서함 캐릭터가 복귀하였습니다."
 }
+
 
 _G.pg.base.gametip.random_ship_forbidden = {
 	tip = "랜덤 비서함 기능 설정됨. 랜덤 비서함 조작 불가."
 }
 
+
 _G.pg.base.gametip.random_ship_now = {
 	tip = "기존 비서함 확인"
 }
+
 
 _G.pg.base.gametip.random_ship_label = {
 	tip = "랜덤 비서함"
 }
 
+
 _G.pg.base.gametip.player_vitae_skin_setting = {
 	tip = "스킨 설정"
 }
+
 
 _G.pg.base.gametip.random_ship_tips1 = {
 	tip = "랜덤 비서함은 매일 8시와 19시에 랜덤으로 변경됩니다."
 }
 
+
 _G.pg.base.gametip.random_ship_tips2 = {
 	tip = "기존 비서함을 변경할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.random_ship_before = {
 	tip = "랜덤 비서함으로 돌아가기"
 }
 
+
 _G.pg.base.gametip.random_ship_and_skin_title = {
 	tip = "비서팀 캐릭터 랜덤 범위"
 }
+
 
 _G.pg.base.gametip.random_ship_frequse_mode = {
 	tip = "상용 캐릭터"
 }
 
+
 _G.pg.base.gametip.random_ship_locked_mode = {
 	tip = "캐릭터 고정"
 }
+
 
 _G.pg.base.gametip.littleSpee_npc = {
 	tip = {
@@ -22476,173 +26403,216 @@ _G.pg.base.gametip.littleSpee_npc = {
 	}
 }
 
+
 _G.pg.base.gametip.random_flag_ship = {
 	tip = "랜덤 비서함"
 }
+
 
 _G.pg.base.gametip.random_flag_ship_changskinBtn_label = {
 	tip = "스킨 변경"
 }
 
+
 _G.pg.base.gametip.expedition_drop_use_out = {
 	tip = "금일 해당 난이도의 추가 수익 횟수를 모두 사용하였습니다!"
 }
+
 
 _G.pg.base.gametip.expedition_extra_drop_tip = {
 	tip = "추가 수익 횟수:"
 }
 
+
 _G.pg.base.gametip.ex_pass_use = {
 	tip = "사용"
 }
+
 
 _G.pg.base.gametip.defense_formation_tip_npc = {
 	tip = "제1함대에 <color=#92fc63>임시 가입한 캐릭터</color>가 존재하여 연습전 함대에 편성할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.pgs_login_tip = {
 	tip = "게스트 계정이 아닌 경우 PGS 계정과 자동으로 연동됩니다. PGS 계정을 통해 다른 설비에서 로그인할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.pgs_login_binding_exist1 = {
 	tip = "게임 계정이 다른 PGS 계정과 연동 중입니다. 현재 로그인한 PGS 계정으로 연동을 변경하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.pgs_login_binding_exist2 = {
 	tip = "현재 PGS 계정은 다른 게임 계정과 연동 중입니다. 연동을 변경하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.pgs_login_binding_exist3 = {
 	tip = "현재 게임 계정은 다른 PGS 계정과 연동 중이며, 현재 PGS 계정은 다른 게임 계정과 연동 중입니다. 연동을 변경하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.pgs_binding_account = {
 	tip = "연동된 계정:"
 }
+
 
 _G.pg.base.gametip.pgs_unbind = {
 	tip = "PGS 계정 연동 해제"
 }
 
+
 _G.pg.base.gametip.pgs_unbind_tip1 = {
 	tip = "현재 게임 계정을 PGS 계정과 연동 해제하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.pgs_unbind_tip2 = {
 	tip = "현재 게임 계정은 PGS 계정과 연동 중입니다. PGS 이외의 기타 연동 방식을 해제할 경우, PGS 계정도 자동으로 연동 해제됩니다."
 }
 
+
 _G.pg.base.gametip.word_item = {
 	tip = "아이템"
 }
+
 
 _G.pg.base.gametip.word_tool = {
 	tip = "채집 아이템"
 }
 
+
 _G.pg.base.gametip.word_other = {
 	tip = "기타"
 }
+
 
 _G.pg.base.gametip.ryza_word_equip = {
 	tip = "장비"
 }
 
+
 _G.pg.base.gametip.ryza_rest_produce_count = {
 	tip = "잔여 조합 가능 수: $1"
 }
+
 
 _G.pg.base.gametip.ryza_composite_confirm = {
 	tip = "$1 * $2을(를) 조합하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.ryza_composite_confirm_single = {
 	tip = "$1을(를) 조합하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.ryza_composite_count = {
 	tip = "제작 개수:"
 }
 
+
 _G.pg.base.gametip.ryza_toggle_only_composite = {
 	tip = "조합 가능만 표시"
 }
+
 
 _G.pg.base.gametip.ryza_tip_select_recipe = {
 	tip = "왼쪽 레시피 리스트에서 레시피 선택"
 }
 
+
 _G.pg.base.gametip.ryza_tip_put_materials = {
 	tip = "서클을 터치해 재료 투입 ($1/$2)"
 }
+
 
 _G.pg.base.gametip.ryza_tip_composite_unlock = {
 	tip = "아틀리에 준비 중. T5 클리어 후 개방"
 }
 
+
 _G.pg.base.gametip.ryza_tip_unlock_all_tools = {
 	tip = "모든 아이템 획득 후 레시피 합성 해제"
 }
+
 
 _G.pg.base.gametip.ryza_material_not_enough = {
 	tip = "소재 부족. 조합하기 터치 시 모든 소재 확인 가능"
 }
 
+
 _G.pg.base.gametip.ryza_tip_composite_invalid = {
 	tip = "레시피 조합 가능 횟수가 최대치에 도달했습니다."
 }
+
 
 _G.pg.base.gametip.ryza_tip_max_composite_count = {
 	tip = "조합 가능 수 최대치에 도달했습니다."
 }
 
+
 _G.pg.base.gametip.ryza_tip_no_item = {
 	tip = "-획득한 소재가 없습니다-"
 }
+
 
 _G.pg.base.gametip.ryza_ui_show_acess = {
 	tip = "획득 경로\n확인"
 }
 
+
 _G.pg.base.gametip.ryza_tip_no_recipe = {
 	tip = "-조합 가능 레시피 없음-"
 }
+
 
 _G.pg.base.gametip.ryza_tip_item_access = {
 	tip = "아이템 아이콘 터치 시 획득 경로 확인 가능"
 }
 
+
 _G.pg.base.gametip.ryza_tip_control_buff_not_obtain_tip = {
 	tip = "아틀리에에서 조합하여 획득"
 }
+
 
 _G.pg.base.gametip.ryza_tip_control_buff_upgrade = {
 	tip = "업그레이드"
 }
 
+
 _G.pg.base.gametip.ryza_tip_control_buff_replace = {
 	tip = "교체"
 }
+
 
 _G.pg.base.gametip.ryza_tip_control_buff_limit = {
 	tip = "최대치 도달"
 }
 
+
 _G.pg.base.gametip.ryza_tip_control_buff_already_active_tip = {
 	tip = "투입함"
 }
+
 
 _G.pg.base.gametip.ryza_tip_control_buff = {
 	tip = "TH1~TH5, A.SP, EX 스테이지 내 효과 보너스 적용"
 }
 
+
 _G.pg.base.gametip.ryza_tip_control_buff_not_obtain = {
 	tip = "미보유"
 }
 
+
 _G.pg.base.gametip.ryza_tip_control = {
 	tip = "코어를 서클에 투입 시 효과 보너스 획득"
 }
+
 
 _G.pg.base.gametip.ryza_tip_main = {
 	tip = {
@@ -22662,44 +26632,47 @@ _G.pg.base.gametip.ryza_tip_main = {
 	}
 }
 
+
 _G.pg.base.gametip.battle_levelScene_ryza_lock = {
 	tip = "<color=#92fc63>일반 모드 클리어</color> 후 소재 스테이지에 진입할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.ryza_tip_toast_item_got = {
 	tip = "소재 수집"
 }
 
+
 _G.pg.base.gametip.ryza_composite_help_tip = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/ryza_composite_1",
-				path = ""
+				path = "",
+				atlas = "helpbg/ryza_composite_1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/ryza_composite_2",
-				path = ""
+				path = "",
+				atlas = "helpbg/ryza_composite_2"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/ryza_composite_3",
-				path = ""
+				path = "",
+				atlas = "helpbg/ryza_composite_3"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/ryza_composite_4",
-				path = ""
+				path = "",
+				atlas = "helpbg/ryza_composite_4"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -22713,19 +26686,20 @@ _G.pg.base.gametip.ryza_composite_help_tip = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.ryza_control_help_tip = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/ryza_control",
-				path = ""
+				path = "",
+				atlas = "helpbg/ryza_control"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -22739,25 +26713,26 @@ _G.pg.base.gametip.ryza_control_help_tip = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.ryza_mini_game = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/ryza_mini_game_1",
-				path = ""
+				path = "",
+				atlas = "helpbg/ryza_mini_game_1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/ryza_mini_game_2",
-				path = ""
+				path = "",
+				atlas = "helpbg/ryza_mini_game_2"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -22772,85 +26747,106 @@ _G.pg.base.gametip.ryza_mini_game = {
 	}
 }
 
+
 _G.pg.base.gametip.ryza_task_level_desc = {
 	tip = "모항 명성"
 }
+
 
 _G.pg.base.gametip.ryza_task_tag_explore = {
 	tip = "탐색"
 }
 
+
 _G.pg.base.gametip.ryza_task_tag_battle = {
 	tip = "토벌"
 }
+
 
 _G.pg.base.gametip.ryza_task_tag_dalegate = {
 	tip = "의뢰"
 }
 
+
 _G.pg.base.gametip.ryza_task_tag_develop = {
 	tip = "연구"
 }
+
 
 _G.pg.base.gametip.ryza_task_tag_adventure = {
 	tip = "탐험"
 }
 
+
 _G.pg.base.gametip.ryza_task_tag_build = {
 	tip = "건설"
 }
+
 
 _G.pg.base.gametip.ryza_task_tag_create = {
 	tip = "제조"
 }
 
+
 _G.pg.base.gametip.ryza_task_tag_daily = {
 	tip = "데일리"
 }
+
 
 _G.pg.base.gametip.ryza_task_detail_content = {
 	tip = "내용"
 }
 
+
 _G.pg.base.gametip.ryza_task_detail_award = {
 	tip = "보상"
 }
+
 
 _G.pg.base.gametip.ryza_task_go = {
 	tip = "이동"
 }
 
+
 _G.pg.base.gametip.ryza_task_get = {
 	tip = "수령"
 }
+
 
 _G.pg.base.gametip.ryza_task_get_all = {
 	tip = "일괄 수령"
 }
 
+
 _G.pg.base.gametip.ryza_task_confirm = {
 	tip = "확인"
 }
+
 
 _G.pg.base.gametip.ryza_task_cancel = {
 	tip = "취소"
 }
 
+
 _G.pg.base.gametip.ryza_task_level_num = {
 	tip = "명성 레벨"
 }
+
 
 _G.pg.base.gametip.ryza_task_level_add = {
 	tip = "명성 보너스"
 }
 
+
 _G.pg.base.gametip.ryza_task_submit = {
 	tip = "제출"
 }
 
+
 _G.pg.base.gametip.ryza_task_detail = {
 	tip = "확인"
 }
+
 
 _G.pg.base.gametip.ryza_composite_words = {
 	tip = {
@@ -22901,24 +26897,25 @@ _G.pg.base.gametip.ryza_composite_words = {
 	}
 }
 
+
 _G.pg.base.gametip.ryza_task_help_tip = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/ryza_task_1",
-				path = ""
+				path = "",
+				atlas = "helpbg/ryza_task_1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/ryza_task_2",
-				path = ""
+				path = "",
+				atlas = "helpbg/ryza_task_2"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -22933,137 +26930,171 @@ _G.pg.base.gametip.ryza_task_help_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.hotspring_buff = {
 	tip = "노천 온천|입욕한 함선의 기분 회복 속도 가속"
 }
+
 
 _G.pg.base.gametip.random_ship_custom_mode_empty = {
 	tip = "비서함 목록이 비어있습니다. 편집 버튼을 터치해 캐릭터를 추가하세요."
 }
 
+
 _G.pg.base.gametip.random_ship_custom_mode_main_button_add = {
 	tip = "추가"
 }
+
 
 _G.pg.base.gametip.random_ship_custom_mode_main_button_remove = {
 	tip = "삭제"
 }
 
+
 _G.pg.base.gametip.random_ship_custom_mode_main_tip1 = {
 	tip = "랜덤 비서함은 위의 캐릭터 중 랜덤 선택됩니다."
 }
+
 
 _G.pg.base.gametip.random_ship_custom_mode_main_tip2 = {
 	tip = "캐릭터 수:"
 }
 
+
 _G.pg.base.gametip.random_ship_custom_mode_main_empty = {
 	tip = "비서함 목록이 비어있습니다."
 }
+
 
 _G.pg.base.gametip.random_ship_custom_mode_select_all = {
 	tip = "모두 선택"
 }
 
+
 _G.pg.base.gametip.random_ship_custom_mode_add_tip1 = {
 	tip = "선택한 캐릭터가 비서함 목록에 추가됩니다."
 }
+
 
 _G.pg.base.gametip.random_ship_custom_mode_select_number = {
 	tip = "선택중:"
 }
 
+
 _G.pg.base.gametip.random_ship_custom_mode_add_complete = {
 	tip = "캐릭터 추가 성공"
 }
+
 
 _G.pg.base.gametip.random_ship_custom_mode_add_tip2 = {
 	tip = "위의 캐릭터 비서함 목록에 추가"
 }
 
+
 _G.pg.base.gametip.random_ship_custom_mode_remove_tip1 = {
 	tip = "선택 캐릭터 비서함 목록에서 삭제"
 }
+
 
 _G.pg.base.gametip.random_ship_custom_mode_remove_complete = {
 	tip = "캐릭터 삭제 성공"
 }
 
+
 _G.pg.base.gametip.random_ship_custom_mode_remove_tip2 = {
 	tip = "비서함 목록에서 위의 캐릭터가 삭제됩니다."
 }
+
 
 _G.pg.base.gametip.index_dressed = {
 	tip = "스킨 교체"
 }
 
+
 _G.pg.base.gametip.random_ship_custom_mode = {
 	tip = "커스텀 비서함 목록"
 }
+
 
 _G.pg.base.gametip.random_ship_custom_mode_add_title = {
 	tip = "캐릭터 추가"
 }
 
+
 _G.pg.base.gametip.random_ship_custom_mode_remove_title = {
 	tip = "캐릭터 삭제"
 }
+
 
 _G.pg.base.gametip.hotspring_shop_enter1 = {
 	tip = "아카시의 교환 상점에 온 걸 환영한다냥! 무슨 물건을 교환하고 싶냐옹?"
 }
 
+
 _G.pg.base.gametip.hotspring_shop_enter2 = {
 	tip = "어서 오라냥! 물건은 잔뜩 있으니, 온천 티켓만 있으면 가져갈 수 있다냥~"
 }
+
 
 _G.pg.base.gametip.hotspring_shop_insufficient = {
 	tip = "교환권이 부족하다냥~ 물건을 원한다면 아카시의 온천 경영을 도와달라냥~"
 }
 
+
 _G.pg.base.gametip.hotspring_shop_success1 = {
 	tip = "고맙다냥~"
 }
+
 
 _G.pg.base.gametip.hotspring_shop_success2 = {
 	tip = "지휘관 눈썰미가 좋다냥~"
 }
 
+
 _G.pg.base.gametip.hotspring_shop_finish = {
 	tip = "역시 지휘관이다냥. 물건을 모두 교환해서 재고가 텅 비었다냥!"
 }
+
 
 _G.pg.base.gametip.hotspring_shop_end = {
 	tip = "온천 경영 이벤트는 종료되었다냥~ 하지만 교환 서비스는 계속 이어진다냥~"
 }
 
+
 _G.pg.base.gametip.hotspring_shop_touch1 = {
 	tip = "아카시는 교환할 수 있는 물건이 아니다냥!"
 }
+
 
 _G.pg.base.gametip.hotspring_shop_touch2 = {
 	tip = "아, 아무리 빌어도 물건을 공짜로 줄 순 없다냥!"
 }
 
+
 _G.pg.base.gametip.hotspring_shop_touch3 = {
 	tip = "설마 아카시를 놀리는 건 아니겠지냥!?"
 }
+
 
 _G.pg.base.gametip.hotspring_shop_exchanged = {
 	tip = "이 물건은 교환했던 것이다냥~ 욕심부리지 마라냥~"
 }
 
+
 _G.pg.base.gametip.hotspring_shop_exchange = {
 	tip = "$1개의  <icon name=Props/wenquanjuan w=0.7 h=0.7/> 을 소모하여 $2개의 $3을(를) 교환하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.hotspring_tip1 = {
 	tip = "온천에 입욕한 캐릭터의 기분 회복 속도를 높일 수 있습니다."
 }
 
+
 _G.pg.base.gametip.hotspring_tip2 = {
 	tip = "온천 코인이 부족합니다."
 }
+
 
 _G.pg.base.gametip.hotspring_help = {
 	tip = {
@@ -23079,9 +27110,11 @@ _G.pg.base.gametip.hotspring_help = {
 	}
 }
 
+
 _G.pg.base.gametip.hotspring_expand = {
 	tip = "온천 코인*$1을 소모하여 온천을 확장하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.hotspring_shop_help = {
 	tip = {
@@ -23095,6 +27128,7 @@ _G.pg.base.gametip.hotspring_shop_help = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.resorts_help = {
 	tip = {
@@ -23111,6 +27145,7 @@ _G.pg.base.gametip.resorts_help = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.pvzminigame_help = {
 	tip = {
@@ -23133,6 +27168,7 @@ _G.pg.base.gametip.pvzminigame_help = {
 	}
 }
 
+
 _G.pg.base.gametip.tips_yuandanhuoyue2023 = {
 	tip = {
 		{
@@ -23151,165 +27187,206 @@ _G.pg.base.gametip.tips_yuandanhuoyue2023 = {
 	}
 }
 
+
 _G.pg.base.gametip.beach_guard_chaijun = {
 	tip = "적에게 로켓포 불꽃을 발사해 대미지를 입히고 폭발을 일으킨다."
 }
+
 
 _G.pg.base.gametip.beach_guard_jianye = {
 	tip = "불꽃 폭탄을 던져 범위 내의 적에게 대미지를 입힌다."
 }
 
+
 _G.pg.base.gametip.beach_guard_lituoliao = {
 	tip = "안개 불꽃을 발사해 폭발 후 안개를 발생시킨다.\n안개는 5초 지속되며, 적의 이동 속도와 공격 속도가 10%씩 감소된다. 최대 5회 중첩 가능."
 }
+
 
 _G.pg.base.gametip.beach_guard_bominghan = {
 	tip = "분열 불꽃을 발사한다. 분열 불꽃이 적에게 명중하면 경직 효과를 주며 분열시킨다. 분열로 발생하는 불꽃에는 경직 효과 없음."
 }
 
+
 _G.pg.base.gametip.beach_guard_nengdai = {
 	tip = "동시에 두 개의 강화 불꽃을 발사한다.\n적 명중 후, 자신 주변 범위 내의 아군의 공격 속도와 대미지가 1% 상승한다. 10초 지속, 최대 10회 중첩."
 }
+
 
 _G.pg.base.gametip.beach_guard_m_craft = {
 	tip = "끊임없이 불꽃을 생산한다."
 }
 
+
 _G.pg.base.gametip.beach_guard_m_atk = {
 	tip = "불꽃을 이용해 공격한다."
 }
+
 
 _G.pg.base.gametip.beach_guard_m_guard = {
 	tip = "세이렌의 공격을 저지한다."
 }
 
+
 _G.pg.base.gametip.beach_guard_m_craft_name = {
 	tip = "생산쥬"
 }
+
 
 _G.pg.base.gametip.beach_guard_m_atk_name = {
 	tip = "전투쥬"
 }
 
+
 _G.pg.base.gametip.beach_guard_m_guard_name = {
 	tip = "방어쥬"
 }
+
 
 _G.pg.base.gametip.beach_guard_e1 = {
 	tip = "스캐빈저"
 }
 
+
 _G.pg.base.gametip.beach_guard_e2 = {
 	tip = "체이서"
 }
+
 
 _G.pg.base.gametip.beach_guard_e3 = {
 	tip = "네비게이터"
 }
 
+
 _G.pg.base.gametip.beach_guard_e4 = {
 	tip = "스매셔"
 }
+
 
 _G.pg.base.gametip.beach_guard_e5 = {
 	tip = "컨덕터"
 }
 
+
 _G.pg.base.gametip.beach_guard_e6 = {
 	tip = "테스터"
 }
+
 
 _G.pg.base.gametip.beach_guard_e7 = {
 	tip = "퓨리파이어"
 }
 
+
 _G.pg.base.gametip.beach_guard_e1_desc = {
 	tip = "가장 흔한 세이렌 집행자. 이동하며 공격한다."
 }
+
 
 _G.pg.base.gametip.beach_guard_e2_desc = {
 	tip = "흔한 세이렌 집행자. 이동 속도가 스캐빈저보다 빠르다."
 }
 
+
 _G.pg.base.gametip.beach_guard_e3_desc = {
 	tip = "흔한 세이렌 집행자. 공격 속도가 스캐빈저보다 빠르다."
 }
+
 
 _G.pg.base.gametip.beach_guard_e4_desc = {
 	tip = "세이렌 집행자. 뛰어난 공격력과 체력을 지녔지만, 행동이 더디다."
 }
 
+
 _G.pg.base.gametip.beach_guard_e5_desc = {
 	tip = "세이렌 집행자. 밸런스형. 공격 능력과 생존 능력이 모두 양호하다."
 }
+
 
 _G.pg.base.gametip.beach_guard_e6_desc = {
 	tip = "체력이 50% 이하일 시, 전장의 모든 세이렌에게 실드를 부여한다. 실드 수치는 자신의 기본 체력의 10%.\n1명의 세이렌당 동시에 1개의 실드만 적용됨."
 }
 
+
 _G.pg.base.gametip.beach_guard_e7_desc = {
 	tip = "주기적으로 자신 주변에 존재하는 안개, 감속 효과를 제거한다."
 }
+
 
 _G.pg.base.gametip.ninghai_nianye = {
 	tip = "찐빵 다 익었어! 지휘관, 하나 먹어볼래?"
 }
 
+
 _G.pg.base.gametip.yingrui_nianye = {
 	tip = "완성됐어요~ 새해 축하에 달달한 디저트가 빠지면 안되죠!"
 }
+
 
 _G.pg.base.gametip.zhaohe_nianye = {
 	tip = "너무 안 익었거나, 너무 익은 거 아니지? 역시 내가 해낼 수 있다니까!"
 }
 
+
 _G.pg.base.gametip.zhenhai_nianye = {
 	tip = "다 됐어요. 모항이 새로운 한 해 동안 번성하길 빌죠~"
 }
+
 
 _G.pg.base.gametip.haitian_nianye = {
 	tip = "즐겁고 온기 가득한 설날 되세요. 그런데 좀 더 맵게 해야 할까요……"
 }
 
+
 _G.pg.base.gametip.taiyuan_nianye = {
 	tip = "완성했어요…… 만두가 전부 터지지 않아서 다행이네요……"
 }
+
 
 _G.pg.base.gametip.yixian_nianye = {
 	tip = "새해 복 많이 받으세요. 새로운 1년 동안 모든 게 뜻대로 되시길."
 }
 
+
 _G.pg.base.gametip.activity_yanhua_tip1 = {
 	tip = "폭죽"
 }
+
 
 _G.pg.base.gametip.activity_yanhua_tip2 = {
 	tip = "누적 제작 폭죽:"
 }
 
+
 _G.pg.base.gametip.activity_yanhua_tip3 = {
 	tip = "현재 제작 폭죽:"
 }
+
 
 _G.pg.base.gametip.activity_yanhua_tip4 = {
 	tip = "폭죽의 별*$1을 소모해 폭죽을 제작하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.activity_yanhua_tip5 = {
 	tip = "폭죽의 별이 부족합니다~"
 }
+
 
 _G.pg.base.gametip.activity_yanhua_tip6 = {
 	tip = "금일 제작 횟수를 모두 사용했습니다~"
 }
 
+
 _G.pg.base.gametip.activity_yanhua_tip7 = {
 	tip = "선택한 폭죽을 다시 터치하면 제작을 취소합니다."
 }
 
+
 _G.pg.base.gametip.activity_yanhua_tip8 = {
 	tip = "제작 완료!"
 }
+
 
 _G.pg.base.gametip.help_chunjie2023 = {
 	tip = {
@@ -23329,6 +27406,7 @@ _G.pg.base.gametip.help_chunjie2023 = {
 	}
 }
 
+
 _G.pg.base.gametip.sevenday_nianye = {
 	tip = {
 		{
@@ -23337,21 +27415,26 @@ _G.pg.base.gametip.sevenday_nianye = {
 	}
 }
 
+
 _G.pg.base.gametip.tip_nianye = {
 	tip = "셰프가 아직 준비 중입니다. 잠시만 기다려 주세요~ "
 }
+
 
 _G.pg.base.gametip.couplete_activty_desc = {
 	tip = "1월 24일까지 매일 0시마다 1개의 새로운 임무가 해제되며, 임무 완료 시 새로운 춘련이 1쌍 해제됩니다. 총 7쌍. 춘련의 뒤 구절은 순서가 섞여있으니, 지휘관은 앞 구절에 대응하도록 정확하게 매치해야 합니다. 매칭 성공 후 한정 장비 「매화 이야기」를 포함한 풍부한 보상을 획득할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.couplete_click_desc = {
 	tip = "얏센을 연속 3회 터치하면 힌트를 얻습니다."
 }
 
+
 _G.pg.base.gametip.couplet_index_desc = {
 	tip = "$1번째"
 }
+
 
 _G.pg.base.gametip.couplete_help = {
 	tip = {
@@ -23366,177 +27449,221 @@ _G.pg.base.gametip.couplete_help = {
 	}
 }
 
+
 _G.pg.base.gametip.couplete_drag_tip = {
 	tip = "*위아래로 드래그하여 순서 조정"
 }
+
 
 _G.pg.base.gametip.couplete_remind = {
 	tip = "뒤 구절은\n“$1”입니다."
 }
 
+
 _G.pg.base.gametip.couplete_complete = {
 	tip = "이미 모두 확인하셨습니다."
 }
+
 
 _G.pg.base.gametip.couplete_enter = {
 	tip = "매치하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.couplete_stay = {
 	tip = "지휘관님~~~ 도움이 필요하신가요?"
 }
+
 
 _G.pg.base.gametip.couplete_task = {
 	tip = "지휘관님, 임무를 완료하면 춘련이 해제됩니다~"
 }
 
+
 _G.pg.base.gametip.couplete_pass_1 = {
 	tip = "맞아요, 바로 이거예요~"
 }
+
 
 _G.pg.base.gametip.couplete_pass_2 = {
 	tip = "지휘관님, 정확해요."
 }
 
+
 _G.pg.base.gametip.couplete_fail_1 = {
 	tip = "어딘가 잘못된 것 같아요……"
 }
+
 
 _G.pg.base.gametip.couplete_fail_2 = {
 	tip = "음…… 뭔가 맞지 않네요."
 }
 
+
 _G.pg.base.gametip.couplete_pair_1 = {
 	tip = "만자천홍총시춘"
 }
+
 
 _G.pg.base.gametip.couplete_pair_2 = {
 	tip = "매화기점송신춘"
 }
 
+
 _G.pg.base.gametip.couplete_pair_3 = {
 	tip = "야우만인거윤화"
 }
+
 
 _G.pg.base.gametip.couplete_pair_4 = {
 	tip = "연어남린만호환"
 }
 
+
 _G.pg.base.gametip.couplete_pair_5 = {
 	tip = "동풍선보행화개"
 }
+
 
 _G.pg.base.gametip.couplete_pair_6 = {
 	tip = "화풍세우조풍년"
 }
 
+
 _G.pg.base.gametip.couplete_pair_7 = {
 	tip = "일난신주만목영"
 }
+
 
 _G.pg.base.gametip["2023spring_minigame_item_lantern"] = {
 	tip = "새해 등롱|괴수를 쫓아내고 괴수가 접근하지 못하는 구역을 5초 동안 생성한다."
 }
 
+
 _G.pg.base.gametip["2023spring_minigame_item_firecracker"] = {
 	tip = "폭죽|괴수를 놀래켜 5초 동안 공격할 수 없는 공포 상태를 부여한다."
 }
+
 
 _G.pg.base.gametip["2023spring_minigame_skill_icewall"] = {
 	tip = "얼음벽|괴수를 막아주는 얼음벽을 세운다."
 }
 
+
 _G.pg.base.gametip["2023spring_minigame_skill_icewall_up"] = {
 	tip = "얼음벽 해제, 얼음벽 길이 7칸, 쿨타임 1초|얼음벽 길이 2칸 증가|얼음벽 길이 2칸 증가"
 }
+
 
 _G.pg.base.gametip["2023spring_minigame_skill_sprint"] = {
 	tip = "질주|캐릭터 기본 이동 속도 20% 증가"
 }
 
+
 _G.pg.base.gametip["2023spring_minigame_skill_sprint_up"] = {
 	tip = "질주 해제, 5초 지속, 쿨타임 20초|속도 10% 추가 증가|지속 시간 2초 연장"
 }
+
 
 _G.pg.base.gametip["2023spring_minigame_skill_flash"] = {
 	tip = "플래쉬|정면으로 짧은 거리 순간 이동. 방해물 통과 가능."
 }
 
+
 _G.pg.base.gametip["2023spring_minigame_skill_flash_up"] = {
 	tip = "플래쉬 해제, 쿨타임 30초|쿨타임 5초 단축|쿨타임 5초 단축"
 }
+
 
 _G.pg.base.gametip["2023spring_minigame_bless_speed"] = {
 	tip = "속도|기본 이동 속도 증가"
 }
 
+
 _G.pg.base.gametip["2023spring_minigame_bless_speed_up"] = {
 	tip = "기본 이동 속도 +3%|기본 이동 속도 +3%|기본 이동 속도 +4%"
 }
+
 
 _G.pg.base.gametip["2023spring_minigame_bless_substitute"] = {
 	tip = "대역|공격당하는 순간 얼음으로 막고 멀리 순간 이동한다(매 게임마다 1회만 발동)."
 }
 
+
 _G.pg.base.gametip["2023spring_minigame_bless_substitute_up"] = {
 	tip = "대역 해제"
 }
+
 
 _G.pg.base.gametip["2023spring_minigame_nenjuu_skill1"] = {
 	tip = "텔레포트|괴수가 사방이 막히거나 캐릭터와 거리가 먼 경우, 캐릭터 근처로 텔레포트한다."
 }
 
+
 _G.pg.base.gametip["2023spring_minigame_nenjuu_skill2"] = {
 	tip = "질주|괴수 이동 속도 10% 증가"
 }
+
 
 _G.pg.base.gametip["2023spring_minigame_nenjuu_skill3"] = {
 	tip = "파괴|괴수가 얼음벽 3칸을 파괴한다."
 }
 
+
 _G.pg.base.gametip["2023spring_minigame_nenjuu_skill4"] = {
 	tip = "중력|캐릭터 이동 속도 15% 감소"
 }
+
 
 _G.pg.base.gametip["2023spring_minigame_nenjuu_skill5"] = {
 	tip = "쌍둥이|분신을 소환한다. 분신은 특별한 능력이 없으며 이동 속도는 본체의 70%."
 }
 
+
 _G.pg.base.gametip["2023spring_minigame_nenjuu_skill6"] = {
 	tip = "딜레이|캐릭터 스킬 쿨타임 20% 증가"
 }
+
 
 _G.pg.base.gametip["2023spring_minigame_nenjuu_skill7"] = {
 	tip = "견인|20초마다 랜덤으로 블랙홀을 생성한다. 캐릭터가 블랙홀 영향 범위 진입 시 이동 속도가 감소한다. 블랙홀 중심에 들어서면 1초간 속박당하며, 속박이 풀린 후 블랙홀은 사라진다."
 }
 
+
 _G.pg.base.gametip["2023spring_minigame_nenjuu_skill8"] = {
 	tip = "초음속|괴수가 10초마다 초음속 상태가 되어 이동 속도가 20% 증가한다. 5초 지속. 초음속 기간 동안 괴수가 공격 시 초음속 상태가 풀린다."
 }
+
 
 _G.pg.base.gametip["2023spring_minigame_tip1"] = {
 	tip = "장비"
 }
 
+
 _G.pg.base.gametip["2023spring_minigame_tip2"] = {
 	tip = "장비함"
 }
+
 
 _G.pg.base.gametip["2023spring_minigame_tip3"] = {
 	tip = "포인트"
 }
 
+
 _G.pg.base.gametip["2023spring_minigame_tip5"] = {
 	tip = "괴수 약화 시 포인트 배율 감소"
 }
+
 
 _G.pg.base.gametip["2023spring_minigame_tip6"] = {
 	tip = "$1 해제 성공~"
 }
 
+
 _G.pg.base.gametip["2023spring_minigame_tip7"] = {
 	tip = "$1 업그레이드 성공~"
 }
+
 
 _G.pg.base.gametip["2023spring_minigame_help"] = {
 	tip = {
@@ -23560,349 +27687,436 @@ _G.pg.base.gametip["2023spring_minigame_help"] = {
 	}
 }
 
+
 _G.pg.base.gametip.multiple_sorties_title = {
 	tip = "연속 작전"
 }
+
 
 _G.pg.base.gametip.multiple_sorties_title_eng = {
 	tip = "MULTIPLE SORTIES"
 }
 
+
 _G.pg.base.gametip.multiple_sorties_locked_tip = {
 	tip = "해당 난이도 1회 클리어 후 <color=#92fc63>연속 작전</color>이 해제됩니다."
 }
+
 
 _G.pg.base.gametip.multiple_sorties_times = {
 	tip = "작전 횟수"
 }
 
+
 _G.pg.base.gametip.multiple_sorties_tip = {
 	tip = "※연속 작전 시 <color=#92fc63>「자율 작전」</color>, <color=#92fc63>「잠수함 자동 호출」</color>이 자동 설정됩니다."
 }
+
 
 _G.pg.base.gametip.multiple_sorties_challenge_ticket_use = {
 	tip = "자동 사용"
 }
 
+
 _G.pg.base.gametip.multiple_sorties_cost1 = {
 	tip = "<color=#92fc63>「<icon name=oil w=0.7 h=0.7/>$1 연료」</color> 소모 예정"
 }
+
 
 _G.pg.base.gametip.multiple_sorties_cost2 = {
 	tip = "<color=#92fc63>「<icon name=ticket w=0.7 h=0.7/>$1개 특별 도전권个」</color>"
 }
 
+
 _G.pg.base.gametip.multiple_sorties_cost3 = {
 	tip = "<color=#92fc63>「<icon name=ticket w=0.7 h=0.7/>$1개 고효율 작전 지령서」</color>"
 }
+
 
 _G.pg.base.gametip.multiple_sorties_stopped = {
 	tip = "중지됨"
 }
 
+
 _G.pg.base.gametip.multiple_sorties_stop_tip = {
 	tip = "<color=#92fc63>연속 작전</color> 중지. 이번 전투 결산 후 퇴장합니다."
 }
+
 
 _G.pg.base.gametip.multiple_sorties_resume_tip = {
 	tip = "<color=#92fc63>연속 작전</color> 계속 진행"
 }
 
+
 _G.pg.base.gametip.multiple_sorties_auto_on = {
 	tip = "<color=#92fc63>자율 작전</color> 개시"
 }
+
 
 _G.pg.base.gametip.multiple_sorties_finish = {
 	tip = "연속 작전 완료."
 }
 
+
 _G.pg.base.gametip.multiple_sorties_stop = {
 	tip = "연속 작전 중지."
 }
+
 
 _G.pg.base.gametip.multiple_sorties_stop_end = {
 	tip = ", 연속 작전이 중지되었습니다."
 }
 
+
 _G.pg.base.gametip.multiple_sorties_end_status = {
 	tip = "출격 예정<color=#92fc63>$1</color>회, 실제 완료 <color=#92fc63>$2</color>회."
 }
+
 
 _G.pg.base.gametip.multiple_sorties_finish_tip = {
 	tip = "<color=#92fc63>연속 작전</color> 완료"
 }
 
+
 _G.pg.base.gametip.multiple_sorties_stop_tip_end = {
 	tip = ", <color=#92fc63>연속 작전</color> 중지"
 }
+
 
 _G.pg.base.gametip.multiple_sorties_stop_reason1 = {
 	tip = "<color=#92fc63>연료</color> 부족"
 }
 
+
 _G.pg.base.gametip.multiple_sorties_stop_reason2 = {
 	tip = "함대 중 <color=#92fc63>$2</color>의 기분이 좋지 않습니다."
 }
+
 
 _G.pg.base.gametip.multiple_sorties_stop_reason3 = {
 	tip = "도크가 가득찼습니다."
 }
 
+
 _G.pg.base.gametip.multiple_sorties_stop_reason4 = {
 	tip = "작전 실패"
 }
+
 
 _G.pg.base.gametip.multiple_sorties_main_tip = {
 	tip = "※ 연속 작전 중에는 <color=#92fc63>자동 이동·자동 전투</color> 모드가 적용됩니다. \n※ 자동 이동을 중지하면, 연속 작전 모드도 중지됩니다."
 }
 
+
 _G.pg.base.gametip.multiple_sorties_main_end = {
 	tip = "※ 예상 연속 작전 수(해역 클리어 수) <color=#92fc63>$1</color>회, 실제 해역 클리어 수 <color=#92fc63>$2</color>회"
 }
+
 
 _G.pg.base.gametip.multiple_sorties_rest_time = {
 	tip = "진도: $1/$2"
 }
 
+
 _G.pg.base.gametip.multiple_sorties_retry_desc = {
 	tip = "연속 작전 $1회"
 }
+
 
 _G.pg.base.gametip.msgbox_text_battle = {
 	tip = "출격"
 }
 
+
 _G.pg.base.gametip.pre_combat_start = {
 	tip = "출격"
 }
+
 
 _G.pg.base.gametip.pre_combat_start_en = {
 	tip = "WEIGH ANCHOR"
 }
 
+
 _G.pg.base.gametip["2023Valentine_minigame_s"] = {
 	tip = "우와…… 훌륭한 퀄리티의 초콜릿이 완성되었어요! 지휘관님, 드셔 보세요! 해피 밸런타인 데이!"
 }
+
 
 _G.pg.base.gametip["2023Valentine_minigame_a"] = {
 	tip = "이 초콜릿은 꽤나 괜찮아 보이네요! 지휘관님, 바로 드셔 보세요!"
 }
 
+
 _G.pg.base.gametip["2023Valentine_minigame_b"] = {
 	tip = "초콜릿이 완성되었어요…… 맛은 그럭저럭 나쁘지 않겠죠? 수고하셨어요, 지휘관님!"
 }
+
 
 _G.pg.base.gametip["2023Valentine_minigame_c"] = {
 	tip = "……지휘관님, 정말 이걸 드실 건가요? 다시 만드는게 더 좋지 않을까요……?"
 }
 
+
 _G.pg.base.gametip["2023Valentine_minigame_label1"] = {
 	tip = "최종 점수:"
 }
+
 
 _G.pg.base.gametip["2023Valentine_minigame_label2"] = {
 	tip = "완성 횟수"
 }
 
+
 _G.pg.base.gametip["2023Valentine_minigame_label3"] = {
 	tip = "현재 완성:"
 }
+
 
 _G.pg.base.gametip.sort_energy = {
 	tip = "기분"
 }
 
+
 _G.pg.base.gametip.dockyard_search_holder = {
 	tip = "캐릭터 이름으로 검색"
 }
+
 
 _G.pg.base.gametip.loveletter_exchange_tip1 = {
 	tip = "조건을 만족하는 우편이 없습니다. 고객센터로 문의해 주세요."
 }
 
+
 _G.pg.base.gametip.loveletter_exchange_tip2 = {
 	tip = "밸런타인 데이 우편 미수령 보상이 있습니다. 수령 후 재시도 해주세요."
 }
+
 
 _G.pg.base.gametip.loveletter_exchange_confirm = {
 	tip = "밸런타인 데이 우편과 선물을 변경하시겠습니까? 변경 후\n<color=#ff5c5c>{namecode:98}의 밸런타인 데이 선물과 우편함 내 해당하는 밸런타인 데이 우편</color>이 삭제됩니다.\n동시에 <color=#92fc63> 셰필드·META의 밸런타인 데이 우편</color>이 새로 발송됩니다(셰필드·META 밸런타인 데이 선물 포함)."
 }
 
+
 _G.pg.base.gametip.loveletter_exchange_button = {
 	tip = "변경"
 }
+
 
 _G.pg.base.gametip.loveletter_exchange_tip3 = {
 	tip = "변경 성공. 우편으로 이동해 확인하세요."
 }
 
+
 _G.pg.base.gametip.battle_text_common_1 = {
 	tip = "적이 큰 기술을 펼치려고 한다! <color=#f1f102>화력을 집중해서 차지를 저지하라</color>!"
 }
+
 
 _G.pg.base.gametip.battle_text_common_2 = {
 	tip = "경고: <color=#ffc038>전투 데이터 이상</color>을 탐지했습니다. 아군의 <color=#f1f102>특정 장비 및 스킬 효과가 무효화됩니다! </color>"
 }
 
+
 _G.pg.base.gametip.battle_text_common_3 = {
 	tip = "<color=#f1f102>적이 가하는 피해량이 대폭 상승하고, 받는 피해량이 시간이 경과함에 따라 상승한다</color>."
 }
+
 
 _G.pg.base.gametip.battle_text_yingxiv4_1 = {
 	tip = "전쟁의 기사가 왼쪽으로 돌진합니다!"
 }
 
+
 _G.pg.base.gametip.battle_text_yingxiv4_2 = {
 	tip = "전쟁의 기사가 정면으로 돌진합니다!"
 }
+
 
 _G.pg.base.gametip.battle_text_yingxiv4_3 = {
 	tip = "전쟁의 기사가 오른쪽으로 돌진합니다!"
 }
 
+
 _G.pg.base.gametip.battle_text_yingxiv4_4 = {
 	tip = "전쟁의 기사의 방어력이 허술해졌습니다!"
 }
+
 
 _G.pg.base.gametip.battle_text_yingxiv4_5 = {
 	tip = "전쟁의 기사가 더욱 난폭해집니다!"
 }
 
+
 _G.pg.base.gametip.battle_text_yingxiv4_6 = {
 	tip = "전쟁의 기사가 온 힘을 집중합니다! 그를 저지하세요!"
 }
+
 
 _G.pg.base.gametip.battle_text_yingxiv4_7 = {
 	tip = "전쟁의 기사가 경계 중입니다. 경솔히 움직이지 마세요!"
 }
 
+
 _G.pg.base.gametip.battle_text_yingxiv4_8 = {
 	tip = "전쟁의 기사가 특수 장치로 아군 주력함대를 묶었습니다!"
 }
+
 
 _G.pg.base.gametip.battle_text_yingxiv4_9 = {
 	tip = "상대의 주포 공격을 유도해 장치를 파괴하세요!"
 }
 
+
 _G.pg.base.gametip.battle_text_yingxiv4_10 = {
 	tip = "전쟁의 기사가 허약해졌습니다! 집중 공격하세요!"
 }
+
 
 _G.pg.base.gametip.battle_text_bisimaiz_1 = {
 	tip = "현재 공간 침식 등급: <color=#92fc63>0</color>"
 }
 
+
 _G.pg.base.gametip.battle_text_bisimaiz_2 = {
 	tip = "현재 공간 침식 등급: <color=#f1f102>1</color>"
 }
+
 
 _G.pg.base.gametip.battle_text_bisimaiz_3 = {
 	tip = "현재 공간 침식 등급: <color=#f1f102>2</color>"
 }
 
+
 _G.pg.base.gametip.battle_text_bisimaiz_4 = {
 	tip = "현재 공간 침식 등급: <color=#ffc038>3</color>"
 }
+
 
 _G.pg.base.gametip.battle_text_bisimaiz_5 = {
 	tip = "현재 공간 침식 등급: <color=#ffc038>4</color>"
 }
 
+
 _G.pg.base.gametip.battle_text_bisimaiz_6 = {
 	tip = "현재 공간 침식 등급: <color=#ff5c5c>5</color>"
 }
+
 
 _G.pg.base.gametip.battle_text_bisimaiz_7 = {
 	tip = "게리온 정화 성공. 현재 공간 침식 등급이<color=#92fc63>0</color>로 변경되었습니다."
 }
 
+
 _G.pg.base.gametip.battle_text_bisimaiz_8 = {
 	tip = "「<color=#ffc038>장착결합</color>」 -게리온 <color=#f1f102>고급 방어</color>보유 및 비스마르크를 대신해 일부 데미지 부담"
 }
+
 
 _G.pg.base.gametip.battle_text_bisimaiz_9 = {
 	tip = "「<color=#92fc63>의장분리</color>」 -게리온의 <color=#f1f102>방어력 대폭 하락</color>, 어서 무찌르세요!"
 }
 
+
 _G.pg.base.gametip.battle_text_bisimaiz_10 = {
 	tip = "게리온 격파 완료——잠깐, 강렬한 <color=#ffc038>META</color>화 흐름이 감지됩니다!"
 }
+
 
 _G.pg.base.gametip.battle_text_yunxian_1 = {
 	tip = "부정한 그림자는 힘을 축적하고 있다! 어두운 안개의 용을 공격하여, 적을 약화시켜라!"
 }
 
+
 _G.pg.base.gametip.battle_text_yunxian_2 = {
 	tip = "어두운 안개의 일부가 제거되었다! 부정한 그림자의 방어도가 떨어졌다."
 }
+
 
 _G.pg.base.gametip.battle_text_yunxian_3 = {
 	tip = "어두운 안개의 '핵'을 격파했다! 함선을 모방한 그림자도 무너지기 시작했다."
 }
 
+
 _G.pg.base.gametip.battle_text_tongmeng_1 = {
 	tip = "2F 2A 77 68 61 74 20 68 61 70 70 65 6E 64 2A 2F"
 }
+
 
 _G.pg.base.gametip.battle_text_luodeni_1 = {
 	tip = "로드니의 수가 감소하고, \"로드니·META\"가 <color=#f1f102>강화</color>되었다."
 }
 
+
 _G.pg.base.gametip.battle_text_luodeni_2 = {
 	tip = "<color=#ffc038>하나 되는 조화, 영원과도 같은 찰나, 다가올 \"종말\"을 지켜보라.——</color>"
 }
+
 
 _G.pg.base.gametip.battle_text_luodeni_3 = {
 	tip = "로드니가 있는 경우, <color=#ffc038>\"로드니\"의 종말</color>은 사용할 수 없다."
 }
 
+
 _G.pg.base.gametip.series_enemy_mood = {
 	tip = "감정 부족"
 }
+
 
 _G.pg.base.gametip.series_enemy_mood_error = {
 	tip = "단독 출격 시, 감정<=30 함선이 존재할 시 출격 불가"
 }
 
+
 _G.pg.base.gametip.series_enemy_reward_tip1 = {
 	tip = "기본 클리어 보상"
 }
+
 
 _G.pg.base.gametip.series_enemy_reward_tip2 = {
 	tip = "협동 출격 보상"
 }
 
+
 _G.pg.base.gametip.series_enemy_reward_tip3 = {
 	tip = "클리어 보상"
 }
+
 
 _G.pg.base.gametip.series_enemy_reward_tip4 = {
 	tip = "최고 점수:"
 }
 
+
 _G.pg.base.gametip.series_enemy_cost = {
 	tip = "총 소모:"
 }
+
 
 _G.pg.base.gametip.series_enemy_SP_count = {
 	tip = "금일 횟수:"
 }
 
+
 _G.pg.base.gametip.series_enemy_SP_error = {
 	tip = "금일 SP 도전 횟수 부족"
 }
+
 
 _G.pg.base.gametip.series_enemy_unlock = {
 	tip = "순서대로 스테이지에 도전하세요."
 }
 
+
 _G.pg.base.gametip.series_enemy_storyunlock = {
 	tip = "스토리 다음 단계 해제"
 }
 
+
 _G.pg.base.gametip.series_enemy_storyreward = {
 	tip = "해제 완료:"
 }
+
 
 _G.pg.base.gametip.series_enemy_help = {
 	tip = [[
@@ -23915,53 +28129,66 @@ _G.pg.base.gametip.series_enemy_help = {
 5. PT 누적 시 「작전 모드」에서 다양한 보상을 수령할 수 있으며 「스토리 모드」 내 모든 단계의 스토리 완료 시 「한정 장비」를 획득할 수 있습니다.]]
 }
 
+
 _G.pg.base.gametip.series_enemy_score = {
 	tip = "점수"
 }
+
 
 _G.pg.base.gametip.series_enemy_total_score = {
 	tip = "총 점수"
 }
 
+
 _G.pg.base.gametip.setting_label_private = {
 	tip = "개인 정보 보호 계약"
 }
+
 
 _G.pg.base.gametip.setting_label_licence = {
 	tip = "사용자 프로토콜"
 }
 
+
 _G.pg.base.gametip.series_enemy_reward = {
 	tip = "누적 보상"
 }
+
 
 _G.pg.base.gametip.series_enemy_mode_1 = {
 	tip = "단독 출격"
 }
 
+
 _G.pg.base.gametip.series_enemy_mode_2 = {
 	tip = "협동 출격"
 }
+
 
 _G.pg.base.gametip.series_enemy_fleet_prefix = {
 	tip = "함대 $1"
 }
 
+
 _G.pg.base.gametip.series_enemy_team_notenough = {
 	tip = "출격 조건에 부합하지 않는 함대가 있습니다. 각 함대마다 주력 및 선봉함선이 최소 1척씩 존재해야 합니다."
 }
+
 
 _G.pg.base.gametip.series_enemy_empty_commander_main = {
 	tip = "사령냥 없음"
 }
 
+
 _G.pg.base.gametip.series_enemy_empty_commander_assistant = {
 	tip = "참모냥 없음"
 }
 
+
 _G.pg.base.gametip.limit_team_character_tips = {
 	tip = "※참전 중인 함대에 동명의 캐릭터 편성 불가"
 }
+
 
 _G.pg.base.gametip.game_room_help = {
 	tip = {
@@ -23976,73 +28203,91 @@ _G.pg.base.gametip.game_room_help = {
 	}
 }
 
+
 _G.pg.base.gametip.game_cannot_go = {
 	tip = "현재 플레이할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.game_ticket_notenough = {
 	tip = "게임 쿠폰이 부족합니다. 미니 게임 로비로 돌아가시겠습니까?"
 }
 
+
 _G.pg.base.gametip.game_ticket_max_all = {
 	tip = "게임 쿠폰이 소지 한도에 도달하여, 한도 수량을 초과한 게임 쿠폰은 획득이 불가능합니다. 그래도 플레이하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.game_ticket_max_month = {
 	tip = "이번 달에 획득 가능한 쿠폰 수가 한도에 도달하여, 한도 수량을 초과한 게임 쿠폰은 획득이 불가능합니다. 그래도 플레이하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.game_icon_notenough = {
 	tip = "코인이 부족합니다. 물자를 소비하여 코인을 구매하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.game_goldbyicon = {
 	tip = "물자를 $1 소비하여 코인 $2개를 구매하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.game_icon_max = {
 	tip = "코인이 소지 한도에 도달하여, 한도 수량을 초과한 게임 코인은 획득이 불가능합니다. 그래도 획득하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.caibulin_tip1 = {
 	tip = "작전 중 단서를 수색하자, 목표 1-2 푸링!"
 }
 
+
 _G.pg.base.gametip.caibulin_tip2 = {
 	tip = "창고가…… 수상해. 단서를 숨기기 좋은 곳이야 푸링!"
 }
+
 
 _G.pg.base.gametip.caibulin_tip3 = {
 	tip = "작전 중 단서를 수색하자, 목표 2-2 푸링!"
 }
 
+
 _G.pg.base.gametip.caibulin_tip4 = {
 	tip = "도크가…… 수상해. 단서를 숨기기 좋은 곳이야 푸링!"
 }
+
 
 _G.pg.base.gametip.caibulin_tip5 = {
 	tip = "작전 중 단서를 수색하자, 목표 1-4 푸링!"
 }
 
+
 _G.pg.base.gametip.caibulin_tip6 = {
 	tip = "숙소가…… 수상해. 단서를 숨기기 좋은 곳이야 푸링!"
 }
+
 
 _G.pg.base.gametip.caibulin_tip7 = {
 	tip = "작전 중 단서를 수색하자, 목표 2-4 푸링!"
 }
 
+
 _G.pg.base.gametip.caibulin_tip8 = {
 	tip = "학교가…… 수상해. 단서를 숨기기 좋은 곳이야 푸링!"
 }
+
 
 _G.pg.base.gametip.caibulin_tip9 = {
 	tip = "해군매점이…… 수상해. 단서를 숨기기 좋은 곳이야 푸링!"
 }
 
+
 _G.pg.base.gametip.caibulin_tip10 = {
 	tip = "「건조」가…… 수상해. 단서를 숨기기 좋은 곳이야 푸링!"
 }
+
 
 _G.pg.base.gametip.caibulin_help = {
 	tip = {
@@ -24058,13 +28303,16 @@ _G.pg.base.gametip.caibulin_help = {
 	}
 }
 
+
 _G.pg.base.gametip.caibulin_tip11 = {
 	tip = "신기의 단서 수집 완료 시 특별 스테이지가 해제됩니다~"
 }
 
+
 _G.pg.base.gametip.caibulin_lock_tip = {
 	tip = "단서 수집 완료 후 특별 스테이지 해제 가능"
 }
+
 
 _G.pg.base.gametip.gametip_xiaoqiye = {
 	tip = {
@@ -24095,25 +28343,31 @@ _G.pg.base.gametip.gametip_xiaoqiye = {
 	}
 }
 
+
 _G.pg.base.gametip.event_recommend_level1 = {
 	tip = "조건을 만족하는 캐릭터가 없습니다. 고정 상태의 1레벨 캐릭터를 자동으로 추가하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.doa_minigame_Luna = {
 	tip = "루나"
 }
 
+
 _G.pg.base.gametip.doa_minigame_Misaki = {
 	tip = "미사키"
 }
+
 
 _G.pg.base.gametip.doa_minigame_Marie = {
 	tip = "마리 로즈"
 }
 
+
 _G.pg.base.gametip.doa_minigame_Tamaki = {
 	tip = "타마키"
 }
+
 
 _G.pg.base.gametip.doa_minigame_help = {
 	tip = {
@@ -24121,14 +28375,14 @@ _G.pg.base.gametip.doa_minigame_help = {
 			icon = {
 				posY = 0,
 				atlas = "helpbg/doa_minigame_1",
-				path = "",
-				posX = 0
+				posX = 0,
+				path = ""
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -24142,6 +28396,7 @@ _G.pg.base.gametip.doa_minigame_help = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.gametip_xiaokewei = {
 	tip = {
@@ -24172,45 +28427,56 @@ _G.pg.base.gametip.gametip_xiaokewei = {
 	}
 }
 
+
 _G.pg.base.gametip.doa_character_select_confirm = {
 	tip = "<color=#92fc63>「휴일 항로」 캐릭터 임의 선택 아이템</color>을 소모하여 캐릭터 <color=#92fc63> $1 </color>을(를) 교환합니다.\n계속하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.blueprint_combatperformance = {
 	tip = "전투 성능"
 }
 
+
 _G.pg.base.gametip.blueprint_shipperformance = {
 	tip = "함선 스킬"
 }
+
 
 _G.pg.base.gametip.blueprint_researching = {
 	tip = "연구 진행 중..."
 }
 
+
 _G.pg.base.gametip.sculpture_drawline_tip = {
 	tip = "* 점선을 따라 설계도 오리기"
 }
+
 
 _G.pg.base.gametip.sculpture_drawline_done = {
 	tip = "바쁜 작업 후, 설계도에 따라 모든 부품이 제작되었습니다!"
 }
 
+
 _G.pg.base.gametip.sculpture_drawline_exit = {
 	tip = "진행 도중 종료 시 진행도가 저장되지 않습니다. 그래도 종료하시겠습니까?\n종료 후 재입장 시 추가 재료 소모는 없습니다."
 }
+
 
 _G.pg.base.gametip.sculpture_puzzle_tip = {
 	tip = "* 부품을 클릭하여 선택하고 점선 영역으로 드래그하여 접합합니다."
 }
 
+
 _G.pg.base.gametip.sculpture_gratitude_tip = {
 	tip = "* 선물을 드래그하여 함선에게 선물합니다."
 }
 
+
 _G.pg.base.gametip.sculpture_close_tip = {
 	tip = "* 빈 곳을 클릭하면 종료됩니다."
 }
+
 
 _G.pg.base.gametip.gift_act_help = {
 	tip = {
@@ -24226,6 +28492,7 @@ _G.pg.base.gametip.gift_act_help = {
 	}
 }
 
+
 _G.pg.base.gametip.gift_act_drawline_help = {
 	tip = {
 		{
@@ -24240,17 +28507,21 @@ _G.pg.base.gametip.gift_act_drawline_help = {
 	}
 }
 
+
 _G.pg.base.gametip.gift_act_tips = {
 	tip = "$1부족"
 }
+
 
 _G.pg.base.gametip.expedition_award_tip = {
 	tip = "지휘관의 부재 기간 동안, 탐험대가 획득한 몇가지 재료입니다:"
 }
 
+
 _G.pg.base.gametip.island_act_tips1 = {
 	tip = "빈 곳을 클릭해 팝업 닫기"
 }
+
 
 _G.pg.base.gametip.haidaojudian_help = {
 	tip = {
@@ -24274,9 +28545,11 @@ _G.pg.base.gametip.haidaojudian_help = {
 	}
 }
 
+
 _G.pg.base.gametip.haidaojudian_building_tip = {
 	tip = "건물 업그레이드에 필요한 자재 부족"
 }
+
 
 _G.pg.base.gametip.workbench_help = {
 	tip = {
@@ -24293,98 +28566,110 @@ _G.pg.base.gametip.workbench_help = {
 	}
 }
 
+
 _G.pg.base.gametip.workbench_need_materials = {
 	tip = "소모 재료"
 }
+
 
 _G.pg.base.gametip.workbench_tips1 = {
 	tip = "제작 횟수가 이미 소진되었습니다."
 }
 
+
 _G.pg.base.gametip.workbench_tips2 = {
 	tip = "재료 부족"
 }
+
 
 _G.pg.base.gametip.workbench_tips3 = {
 	tip = "최대 생산 수량에 도달했습니다."
 }
 
+
 _G.pg.base.gametip.workbench_tips4 = {
 	tip = "무인도 제작대 Lv. $1 잠금 해제"
 }
+
 
 _G.pg.base.gametip.workbench_tips5 = {
 	tip = "- 아직 제작 가능한 목록이 없습니다 -"
 }
 
+
 _G.pg.base.gametip.workbench_tips6 = {
 	tip = "이미 최대 레벨입니다."
 }
+
 
 _G.pg.base.gametip.workbench_tips7 = {
 	tip = "재료"
 }
 
+
 _G.pg.base.gametip.workbench_tips8 = {
 	tip = "제작 수량"
 }
+
 
 _G.pg.base.gametip.workbench_tips9 = {
 	tip = "필요 재료"
 }
 
+
 _G.pg.base.gametip.workbench_tips10 = {
 	tip = "제작 가능한 것만 보기"
 }
+
 
 _G.pg.base.gametip.island_help = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/island_help1",
-				path = ""
+				path = "",
+				atlas = "helpbg/island_help1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/island_help2",
-				path = ""
+				path = "",
+				atlas = "helpbg/island_help2"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/island_help3",
-				path = ""
+				path = "",
+				atlas = "helpbg/island_help3"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/island_help4",
-				path = ""
+				path = "",
+				atlas = "helpbg/island_help4"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/island_help5",
-				path = ""
+				path = "",
+				atlas = "helpbg/island_help5"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/island_help6",
-				path = ""
+				path = "",
+				atlas = "helpbg/island_help6"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/island_help7",
-				path = ""
+				path = "",
+				atlas = "helpbg/island_help7"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -24399,129 +28684,161 @@ _G.pg.base.gametip.island_help = {
 	}
 }
 
+
 _G.pg.base.gametip.islandnode_tips1 = {
 	tip = "새로 고침 시간"
 }
+
 
 _G.pg.base.gametip.islandnode_tips2 = {
 	tip = "알림"
 }
 
+
 _G.pg.base.gametip.islandnode_tips3 = {
 	tip = "* 한 번만 선택할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.islandnode_tips4 = {
 	tip = "빙고~ 축하합니다! 정답입니다!"
 }
 
+
 _G.pg.base.gametip.islandnode_tips5 = {
 	tip = "아쉽네요, 오답입니다… 다음에 다시 도전해 보세요!"
 }
+
 
 _G.pg.base.gametip.islandnode_tips6 = {
 	tip = "지휘관은 아직 수확할 수 없답니다~"
 }
 
+
 _G.pg.base.gametip.islandnode_tips7 = {
 	tip = "지휘관이 자리를 비운 사이 $1가(이) 밭을 돌봤습니다."
 }
+
 
 _G.pg.base.gametip.islandnode_tips8 = {
 	tip = "사건 미해결. 지휘관은 무인도 거점을 업그레이드하고, 메인 스토리 클리어를 통해 해결하세요."
 }
 
+
 _G.pg.base.gametip.islandnode_tips9 = {
 	tip = "지휘관은 후속 메인 에피소드 잠금 해제를 위해 섬 거점 레벨을 올려주세요~!"
 }
+
 
 _G.pg.base.gametip.islandshop_tips1 = {
 	tip = "남은 교환 시간"
 }
 
+
 _G.pg.base.gametip.islandshop_tips2 = {
 	tip = "구매 제한"
 }
+
 
 _G.pg.base.gametip.islandshop_tips3 = {
 	tip = "소모"
 }
 
+
 _G.pg.base.gametip.islandshop_tips4 = {
 	tip = "$1부족"
 }
+
 
 _G.pg.base.gametip.island_shop_limit_error = {
 	tip = "이미 소지 한도 수에 도달하여 더 이상 획득할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.haidaojudian_upgrade_limit = {
 	tip = "이 건물은 당분간 업그레이드할 수 없습니다. 지휘관은 먼저 다른 건물을 업그레이드해주세요~"
 }
+
 
 _G.pg.base.gametip.chargetip_monthcard_1 = {
 	tip = "무역 허가증 구매 성공, 축하합니다."
 }
 
+
 _G.pg.base.gametip.chargetip_monthcard_2 = {
 	tip = "무역 허가증의 일일 보상이 우편으로 발송되었습니다."
 }
+
 
 _G.pg.base.gametip.chargetip_crusing = {
 	tip = "특허 투어 패스 잠금 해제"
 }
 
+
 _G.pg.base.gametip.chargetip_giftpackage = {
 	tip = "구매 성공! 우편함에서 확인하세요."
 }
+
 
 _G.pg.base.gametip.package_view_1 = {
 	tip = "무역 허가증 구매 성공, 이미 획득하셨습니다."
 }
 
+
 _G.pg.base.gametip.package_view_2 = {
 	tip = "무역 허가증 기간 동안 매일 우편으로 보상을 획득할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.package_view_3 = {
 	tip = "특허 투어 패스 잠금 해제"
 }
 
+
 _G.pg.base.gametip.package_view_4 = {
 	tip = "획득 완료:"
 }
+
 
 _G.pg.base.gametip.probabilityskinshop_tip = {
 	tip = "해당 스킨을 이미 보유 중일 경우. 다이아로 획득하게 됩니다."
 }
 
+
 _G.pg.base.gametip.skin_gift_desc = {
 	tip = "아래 스킨 중 랜덤으로 1개의 스킨을 획득합니다.(이미 해당 스킨을 보유 중일 경우, 다이아로 획득하게 됩니다.)\n포함된 스킨과 확률은 아래와 같습니다:\n$1"
 }
+
 
 _G.pg.base.gametip.springtask_tip = {
 	tip = "무인도 정찰을 마친 뒤, 온천장 건설에 이상적인 장소를 발견했지만 건설을 완료하기 위해 필요한 재료가 부족합니다...\n매일 0시 온천 건설 퀘스트가 1개 잠금 해제 됩니다. 모두 완료하면 노천 온천 기능을 해제할 수 있습니다!"
 }
 
+
 _G.pg.base.gametip.island_build_desc = {
 	tip = "* 거점 건물을 업그레이드하면 거점 레벨을 올릴 수 있습니다."
 }
+
 
 _G.pg.base.gametip.island_history_desc = {
 	tip = "* 현재 지역의 모든 노드를 탐색 완료하면 숨겨진 보물에 대한 단서를 잠금 해제할 수 있습니다!"
 }
 
+
 _G.pg.base.gametip.island_build_level = {
 	tip = "거점 레벨"
 }
+
 
 _G.pg.base.gametip.island_game_limit_help = {
 	tip = "매일 0시 이후 무인도에 진입 시 $1장의 허가증을 획득할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.island_game_limit_num = {
 	tip = "보유 중: $1"
 }
+
 
 _G.pg.base.gametip.ore_minigame_help = {
 	tip = {
@@ -24536,101 +28853,126 @@ _G.pg.base.gametip.ore_minigame_help = {
 	}
 }
 
+
 _G.pg.base.gametip.meta_shop_exchange_limit_2 = {
 	tip = "아직 잠금 해제되지 않았습니다."
 }
+
 
 _G.pg.base.gametip.meta_shop_tip = {
 	tip = "결정 상품의 교환 가능 횟수는 이미 획득한 결정 개수에 따라 변화합니다."
 }
 
+
 _G.pg.base.gametip.pt_shop_tran_tip = {
 	tip = "$2' 아이템은 더 이상 획득할 수 없습니다. '$2' $1개와, 나머지 '$2' 아이템은 '$4' $3개로 전환됩니다. 교환하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.urdraw_tip = {
 	tip = "현재 수령하지 않은 누적 건설 보상이 존재합니다. 어서 수령해 주세요."
 }
 
+
 _G.pg.base.gametip.urdraw_complement = {
 	tip = "현재 누적 건설: <color=#92fc63>$1</color>\n남은 시간: <color=#ff5c5c>$2</color>"
 }
+
 
 _G.pg.base.gametip.meta_class_t_level_1 = {
 	tip = "섬멸의 횃불"
 }
 
+
 _G.pg.base.gametip.meta_class_t_level_2 = {
 	tip = "구조의 이치 "
 }
+
 
 _G.pg.base.gametip.meta_class_t_level_3 = {
 	tip = "빛을 쫓는 화염"
 }
 
+
 _G.pg.base.gametip.meta_class_t_level_4 = {
 	tip = "일렁이는 불꽃"
 }
+
 
 _G.pg.base.gametip.meta_class_t_level_5 = {
 	tip = "인신의 핵"
 }
 
+
 _G.pg.base.gametip.meta_shop_exchange_limit_tip = {
 	tip = "아직 $1 캐릭터를 획득하지 못했습니다."
 }
+
 
 _G.pg.base.gametip.meta_shop_exchange_limit_2_tip = {
 	tip = "이 아이템은 $1년 $2월 $3일 $4시 $5분 $6초 후 구매 가능합니다."
 }
 
+
 _G.pg.base.gametip.charge_tip_crusing_label = {
 	tip = "획득을 축하합니다."
 }
+
 
 _G.pg.base.gametip.mktea_1 = {
 	tip = "채엽부터 신중하게 고르는 것이 좋은 차를 만드는 밑바탕입니다."
 }
 
+
 _G.pg.base.gametip.mktea_2 = {
 	tip = "찻잎을 펴서 찻잎의 수분을 증발시키고 잎을 부드럽게 합니다."
 }
+
 
 _G.pg.base.gametip.mktea_3 = {
 	tip = "차의 향기를 유지하기 위해 살청은 빼놓을 수 없는 단계입니다."
 }
 
+
 _G.pg.base.gametip.mktea_4 = {
 	tip = "살청된 찻잎을 서늘한 곳에 놓고 얇게 펴서 다시 습기를 머금게 합니다. 식으면 가루를 제거하고 부스러기를 걸러냅니다."
 }
+
 
 _G.pg.base.gametip.mktea_5 = {
 	tip = "마지막으로 녹색을 띄고, 잎이 평평하고 매끄러워지도록 찻잎을 가마솥에 볶아 향과 모양을 최적의 상태로 만듭니다."
 }
 
+
 _G.pg.base.gametip.random_skin_list_item_desc_label = {
 	tip = " 스킨"
 }
+
 
 _G.pg.base.gametip.notice_input_desc = {
 	tip = "메시지를 입력"
 }
 
+
 _G.pg.base.gametip.notice_label_send = {
 	tip = "송신"
 }
+
 
 _G.pg.base.gametip.notice_label_room = {
 	tip = "수신"
 }
 
+
 _G.pg.base.gametip.notice_label_recv = {
 	tip = "채팅방"
 }
 
+
 _G.pg.base.gametip.notice_label_tip = {
 	tip = "채팅방이 만원일 경우 입장할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.littleTaihou_npc = {
 	tip = {
@@ -24661,450 +29003,556 @@ _G.pg.base.gametip.littleTaihou_npc = {
 	}
 }
 
+
 _G.pg.base.gametip.disassemble_selected = {
 	tip = "선택 완료"
 }
+
 
 _G.pg.base.gametip.disassemble_available = {
 	tip = "획득 가능"
 }
 
+
 _G.pg.base.gametip.ship_formationUI_fleetName_challenge = {
 	tip = "한계 챌린지 함대"
 }
+
 
 _G.pg.base.gametip.ship_formationUI_fleetName_challenge_sub = {
 	tip = "한계 챌린지 함대"
 }
 
+
 _G.pg.base.gametip.word_status_activity = {
 	tip = "이벤트 출격 중입니다."
 }
+
 
 _G.pg.base.gametip.word_status_challenge = {
 	tip = "한계 챌린지"
 }
 
+
 _G.pg.base.gametip.shipmodechange_reject_inactivity = {
 	tip = "해당 함선은 이벤트 출격 함대에 편성되어 있습니다. 편성을 바꾸어 다시 시도하시기 바랍니다."
 }
+
 
 _G.pg.base.gametip.shipmodechange_reject_inchallenge = {
 	tip = "해당 함선은 한계 챌린지 함대에 편성되어 있습니다. 편성을 바꾸어 다시 시도하시기 바랍니다."
 }
 
+
 _G.pg.base.gametip.battle_result_total_time = {
 	tip = "클리어 시간:"
 }
+
 
 _G.pg.base.gametip.charge_game_room_coin_tip = {
 	tip = "물자를 <color=#92fc63><icon name=gold w=0.7 h=0.7/>$1</color> 소비하여 <color=$3>$4 × $2</color>(을)를 구매하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.game_room_shooting_tip = {
 	tip = "점수:"
 }
+
 
 _G.pg.base.gametip.mini_game_shop_ticked_not_enough = {
 	tip = "게임 쿠폰이 부족합니다. 미니 게임 로비로 돌아가시겠습니까?"
 }
 
+
 _G.pg.base.gametip.game_ticket_current_month = {
 	tip = "이번 달 획득 가능 한도"
 }
+
 
 _G.pg.base.gametip.game_icon_max_full = {
 	tip = "이미 소지 한도 수에 도달하여 더 이상 획득할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.pre_combat_consume = {
 	tip = "소모:"
 }
+
 
 _G.pg.base.gametip.file_down_msgbox = {
 	tip = "클라이언트에서 주요 리소스가 누락된 것을 감지하여 게임을 계속하려면 <color=#92fc63>$1</color>의 리소스를 다운로드해야 합니다. 다운로드 시작하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.file_down_mgr_title = {
 	tip = "리소스 다운로드 중"
 }
+
 
 _G.pg.base.gametip.file_down_mgr_progress = {
 	tip = "$1/$2"
 }
 
+
 _G.pg.base.gametip.file_down_mgr_error = {
 	tip = "리소스 다운로드 실패: $1\n 오류 코드: $2\n 다시 시도하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.last_building_not_shown = {
 	tip = "아래 함선이 건조되었습니다"
 }
 
+
 _G.pg.base.gametip.setting_group_prefs_tip = {
 	tip = "부팅 시 자동 다운로드"
 }
+
 
 _G.pg.base.gametip.group_prefs_switch_tip = {
 	tip = "디폴트 다운로드 양식이 변경되었습니다. 다음 부팅 시 적용됩니다."
 }
 
+
 _G.pg.base.gametip.main_group_msgbox_content = {
 	tip = "다운로드 후, 전체 클라이언트로 변경되어 게임의 모든 컨텐츠를 체험할 수 있습니다. 이번 업데이트는 $1의 파일을 다운로드하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.word_maingroup_checking = {
 	tip = "확인 중"
 }
 
+
 _G.pg.base.gametip.word_maingroup_checktoupdate = {
 	tip = "터치하여 다운로드"
 }
+
 
 _G.pg.base.gametip.word_maingroup_checkfailure = {
 	tip = "오류 발생, 다시 시도해 주세요"
 }
 
+
 _G.pg.base.gametip.word_maingroup_updating = {
 	tip = "업데이트 중.."
 }
+
 
 _G.pg.base.gametip.word_maingroup_updatesuccess = {
 	tip = "업데이트 완료"
 }
 
+
 _G.pg.base.gametip.word_maingroup_updatefailure = {
 	tip = "업데이트에 실패했습니다. 다시 시도해 주세요"
 }
+
 
 _G.pg.base.gametip.group_download_tip = {
 	tip = "업데이트하려면 $1의 데이터를 다운로드해야 합니다. 업데이트를 진행하겠습니까?"
 }
 
+
 _G.pg.base.gametip.word_manga_checking = {
 	tip = "체크 중"
 }
+
 
 _G.pg.base.gametip.word_manga_checktoupdate = {
 	tip = "터치하여 다운로드"
 }
 
+
 _G.pg.base.gametip.word_manga_checkfailure = {
 	tip = "오류 발생, 다시 시도해 주세요"
 }
+
 
 _G.pg.base.gametip.word_manga_updating = {
 	tip = "업데이트: $1/$2"
 }
 
+
 _G.pg.base.gametip.word_manga_updatesuccess = {
 	tip = "업데이트 완료"
 }
+
 
 _G.pg.base.gametip.word_manga_updatefailure = {
 	tip = "업데이트에 실패했습니다. 다시 시도해 주세요"
 }
 
+
 _G.pg.base.gametip.cryptolalia_lock_res = {
 	tip = "리소스 다운로드 미완료"
 }
+
 
 _G.pg.base.gametip.cryptolalia_not_download_res = {
 	tip = "다운로드 미완료 리소스"
 }
 
+
 _G.pg.base.gametip.cryptolalia_timelimie = {
 	tip = "기간 한정"
 }
+
 
 _G.pg.base.gametip.cryptolalia_label_downloading = {
 	tip = "리소스 다운로드 중"
 }
 
+
 _G.pg.base.gametip.cryptolalia_delete_res = {
 	tip = "리소스 삭제 ($1)"
 }
+
 
 _G.pg.base.gametip.cryptolalia_delete_res_tip = {
 	tip = "시크릿즈 리소스를 삭제하시겠습니까? ($1)"
 }
 
+
 _G.pg.base.gametip.cryptolalia_delete_res_title = {
 	tip = "리소스 다운로드"
 }
+
 
 _G.pg.base.gametip.cryptolalia_use_gem_title = {
 	tip = "다이아로 오픈"
 }
 
+
 _G.pg.base.gametip.cryptolalia_use_ticket_title = {
 	tip = "티켓으로 오픈"
 }
+
 
 _G.pg.base.gametip.cryptolalia_exchange = {
 	tip = "바로 오픈"
 }
 
+
 _G.pg.base.gametip.cryptolalia_exchange_success = {
 	tip = "오픈 완료"
 }
+
 
 _G.pg.base.gametip.cryptolalia_list_title = {
 	tip = "시크릿즈 목록"
 }
 
+
 _G.pg.base.gametip.cryptolalia_list_subtitle = {
 	tip = "합계 $1개"
 }
+
 
 _G.pg.base.gametip.cryptolalia_download_done = {
 	tip = "리소스 다운로드 완료"
 }
 
+
 _G.pg.base.gametip.cryptolalia_coming_soom = {
 	tip = "제작 중......"
 }
+
 
 _G.pg.base.gametip.cryptolalia_unopen = {
 	tip = "미오픈"
 }
 
+
 _G.pg.base.gametip.cryptolalia_no_ticket = {
 	tip = "시크릿즈 오픈 티켓이 부족합니다. 상점에서 다이아로 구매 가능"
 }
+
 
 _G.pg.base.gametip.cryptolalia_entrance_coming_soom = {
 	tip = "시크릿즈 파일실 건설 중..."
 }
 
+
 _G.pg.base.gametip.ship_formationUI_fleetName_sp = {
 	tip = "업그레이드 도전 함대"
 }
+
 
 _G.pg.base.gametip.ship_formationUI_fleetName_sp_ss = {
 	tip = "업그레이드 도전 잠수함 함대"
 }
 
+
 _G.pg.base.gametip.activityboss_sp_all_buff = {
 	tip = "선택 가능"
 }
+
 
 _G.pg.base.gametip.activityboss_sp_best_score = {
 	tip = "최고 점수:"
 }
 
+
 _G.pg.base.gametip.activityboss_sp_display_reward = {
 	tip = "보상 확인"
 }
+
 
 _G.pg.base.gametip.activityboss_sp_score_bonus = {
 	tip = "점수 증가"
 }
 
+
 _G.pg.base.gametip.activityboss_sp_active_buff = {
 	tip = "선택 중"
 }
+
 
 _G.pg.base.gametip.activityboss_sp_window_best_score = {
 	tip = "달성 완료 점수:"
 }
 
+
 _G.pg.base.gametip.activityboss_sp_score_target = {
 	tip = "목표 점수:"
 }
+
 
 _G.pg.base.gametip.activityboss_sp_score = {
 	tip = "현재 점수"
 }
 
+
 _G.pg.base.gametip.activityboss_sp_score_update = {
 	tip = "최고 점수 갱신"
 }
+
 
 _G.pg.base.gametip.activityboss_sp_score_not_update = {
 	tip = "최고 점수 미갱신"
 }
 
+
 _G.pg.base.gametip.collect_page_got = {
 	tip = "입수 완료:"
 }
+
 
 _G.pg.base.gametip.charge_menu_month_tip = {
 	tip = "무역 허가증의 유효 잔여 기간이 $1일이므로 구매할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.activity_shop_title = {
 	tip = "이벤트"
 }
+
 
 _G.pg.base.gametip.street_shop_title = {
 	tip = "상점"
 }
 
+
 _G.pg.base.gametip.military_shop_title = {
 	tip = "연습"
 }
+
 
 _G.pg.base.gametip.quota_shop_title1 = {
 	tip = "코어 한정"
 }
 
+
 _G.pg.base.gametip.sham_shop_title = {
 	tip = "코어 월간"
 }
+
 
 _G.pg.base.gametip.fragment_shop_title = {
 	tip = "원형"
 }
 
+
 _G.pg.base.gametip.guild_shop_title = {
 	tip = "대함대"
 }
+
 
 _G.pg.base.gametip.medal_shop_title = {
 	tip = "훈장"
 }
 
+
 _G.pg.base.gametip.meta_shop_title = {
 	tip = "META"
 }
+
 
 _G.pg.base.gametip.mini_game_shop_title = {
 	tip = "티켓"
 }
 
+
 _G.pg.base.gametip.metaskill_up = {
 	tip = "<color=#E0E0E0>* \"META 범용 전술 교본\"으로 획득 가능한 경험치는 일일 획득 가능 경험치 상한에 포함되지 않습니다.</color>"
 }
+
 
 _G.pg.base.gametip.metaskill_overflow_tip = {
 	tip = "상한을 초과한 <color=#FFDE60>$1</color> 스킬 강화 경험치는 가산되지 않습니다. 계속하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.msgbox_repair_cipher = {
 	tip = "리소스 재다운로드"
 }
+
 
 _G.pg.base.gametip.msgbox_repair_title = {
 	tip = "정보"
 }
 
+
 _G.pg.base.gametip.equip_skin_detail_count = {
 	tip = "소지 중:"
 }
+
 
 _G.pg.base.gametip.faest_nothing_to_get = {
 	tip = "획득할 수 있는 보상이 없습니다."
 }
 
+
 _G.pg.base.gametip.feast_click_to_close = {
 	tip = "화면을 탭하여 돌아가기"
 }
+
 
 _G.pg.base.gametip.feast_invitation_btn_label = {
 	tip = "특별 초대"
 }
 
+
 _G.pg.base.gametip.feast_task_btn_label = {
 	tip = "연회 인기 Lv"
 }
+
 
 _G.pg.base.gametip.feast_task_pt_label = {
 	tip = "인기도:"
 }
 
+
 _G.pg.base.gametip.feast_task_pt_level = {
 	tip = "Lv$1"
 }
+
 
 _G.pg.base.gametip.feast_task_pt_get = {
 	tip = "미획득"
 }
 
+
 _G.pg.base.gametip.feast_task_pt_got = {
 	tip = "획득 완료"
 }
+
 
 _G.pg.base.gametip.feast_task_tag_daily = {
 	tip = "데일리 임무-"
 }
 
+
 _G.pg.base.gametip.feast_task_tag_activity = {
 	tip = "특별 임무-"
 }
+
 
 _G.pg.base.gametip.feast_label_make_invitation = {
 	tip = "초대장 제작"
 }
 
+
 _G.pg.base.gametip.feast_no_invitation = {
 	tip = "초대장이 없습니다."
 }
+
 
 _G.pg.base.gametip.feast_no_gift = {
 	tip = "선물이 없습니다."
 }
 
+
 _G.pg.base.gametip.feast_label_give_invitation = {
 	tip = "초대장 증정"
 }
+
 
 _G.pg.base.gametip.feast_label_give_invitation_finish = {
 	tip = "초대 완료"
 }
 
+
 _G.pg.base.gametip.feast_label_give_gift = {
 	tip = "선물 제작"
 }
+
 
 _G.pg.base.gametip.feast_label_give_gift_finish = {
 	tip = "선물 완료"
 }
 
+
 _G.pg.base.gametip.feast_label_make_ticket_tip = {
 	tip = "재료를 드래그 앤 드롭하여 초대장을 제작하세요."
 }
+
 
 _G.pg.base.gametip.feast_label_make_ticket_click_tip = {
 	tip = "탭하여 상세 내용 확인"
 }
 
+
 _G.pg.base.gametip.feast_label_make_ticket_failed_tip = {
 	tip = "제작 순서를 한번 더 확인하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.feast_res_window_title = {
 	tip = "상세 내용"
 }
 
+
 _G.pg.base.gametip.feast_res_window_go_label = {
 	tip = "확인하기"
 }
+
 
 _G.pg.base.gametip.feast_tip = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/feast_invitation_help1",
-				path = ""
+				path = "",
+				atlas = "helpbg/feast_invitation_help1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/feast_invitation_help2",
-				path = ""
+				path = "",
+				atlas = "helpbg/feast_invitation_help2"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/feast_invitation_help3",
-				path = ""
+				path = "",
+				atlas = "helpbg/feast_invitation_help3"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -25119,21 +29567,26 @@ _G.pg.base.gametip.feast_tip = {
 	}
 }
 
+
 _G.pg.base.gametip.feast_invitation_part1 = {
 	tip = "함선 아이콘을 올바른 곳에 붙여 두자."
 }
+
 
 _G.pg.base.gametip.feast_invitation_part2 = {
 	tip = "파티 초대장 용지. 은은한 향기가 풍기는 고급스러운 종이로, 디자인과 폰트에도 신경을 쓴 느낌이다."
 }
 
+
 _G.pg.base.gametip.feast_invitation_part3 = {
 	tip = "초대장을 넣는 봉투. 초대장 용지와 마찬가지로 고급스러운 제품이라, 상대방에 대한 경의와 파티의 격식을 잘 전달할 수 있을 것이다."
 }
 
+
 _G.pg.base.gametip.feast_invitation_part4 = {
 	tip = "초대장을 넣은 다음에는 금가루가 섞인 봉랍으로 잘 봉합하여, 소중한 마음을 함께 담아 전달하자."
 }
+
 
 _G.pg.base.gametip.uscastle2023_help = {
 	tip = {
@@ -25168,28 +29621,30 @@ _G.pg.base.gametip.uscastle2023_help = {
 	}
 }
 
+
 _G.pg.base.gametip.feast_cant_give_gift_tip = {
 	tip = "우선은 초대장을 만들어 함선에게 보내자"
 }
+
 
 _G.pg.base.gametip.uscastle2023_minigame_help = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/uscastle2023_help1",
-				path = ""
+				path = "",
+				atlas = "helpbg/uscastle2023_help1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/uscastle2023_help2",
-				path = ""
+				path = "",
+				atlas = "helpbg/uscastle2023_help2"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -25204,105 +29659,131 @@ _G.pg.base.gametip.uscastle2023_minigame_help = {
 	}
 }
 
+
 _G.pg.base.gametip.feast_drag_invitation_tip = {
 	tip = "*초대장을 캐릭터한테 드래그하여 증정하기"
 }
+
 
 _G.pg.base.gametip.feast_drag_gift_tip = {
 	tip = "*연회 선물을 캐릭터한테 드래그하여 증정하기"
 }
 
+
 _G.pg.base.gametip.shoot_preview = {
 	tip = "발사 연출"
 }
+
 
 _G.pg.base.gametip.hit_preview = {
 	tip = "명중 연출"
 }
 
+
 _G.pg.base.gametip.story_label_skip = {
 	tip = "스킵"
 }
+
 
 _G.pg.base.gametip.story_label_auto = {
 	tip = "자동"
 }
 
+
 _G.pg.base.gametip.launch_ball_skill_desc = {
 	tip = "상세 확인"
 }
+
 
 _G.pg.base.gametip.launch_ball_hatsuduki_skill_1 = {
 	tip = "액티브: 요괴 격퇴"
 }
 
+
 _G.pg.base.gametip.launch_ball_hatsuduki_skill_1_desc = {
 	tip = "요괴 격퇴: 5초 동안 발사한 부적이 요괴 행렬을 조금 내려오게 한다."
 }
+
 
 _G.pg.base.gametip.launch_ball_hatsuduki_skill_2 = {
 	tip = "패시브: 요괴는 질색/난사"
 }
 
+
 _G.pg.base.gametip.launch_ball_hatsuduki_skill_2_desc = {
 	tip = "요괴는 질색: 요괴가 중앙으로 접근하면 하츠즈키의 공격 속도가 상승한다.난사: 10초 동안 공격하지 않은 경우, 하츠즈키가 토라지며 무작위의 3방향을 향해 3회 공격 후, 요괴 행렬을 조금 내려오게 한다."
 }
+
 
 _G.pg.base.gametip.launch_ball_shinano_skill_1 = {
 	tip = "액티브: 접해몽화"
 }
 
+
 _G.pg.base.gametip.launch_ball_shinano_skill_1_desc = {
 	tip = "접해몽화: 화면 상단에 있는 모든 요괴를 격퇴한다(점수는 기본 점수만큼 획득)."
 }
+
 
 _G.pg.base.gametip.launch_ball_shinano_skill_2 = {
 	tip = "패시브: 영원한 나비"
 }
 
+
 _G.pg.base.gametip.launch_ball_shinano_skill_2_desc = {
 	tip = "영원한 나비: 10초 동안 공격하지 않은 경우, 시나노는 잠들고, 잠자는 동안 2초마다 무작위로 요괴를 1마리 퇴치한다."
 }
+
 
 _G.pg.base.gametip.launch_ball_yura_skill_1 = {
 	tip = "액티브: 요괴 퇴치술"
 }
 
+
 _G.pg.base.gametip.launch_ball_yura_skill_1_desc = {
 	tip = "요괴 퇴치술: 5초 동안 요괴 행렬의 행진 속도를 큰 폭으로 낮춘다."
 }
+
 
 _G.pg.base.gametip.launch_ball_yura_skill_2 = {
 	tip = "패시브: 술식 전개"
 }
 
+
 _G.pg.base.gametip.launch_ball_yura_skill_2_desc = {
 	tip = "술식 전개: '후퇴', '감속' 마크가 있는 특정 요괴를 격퇴하면 얻을 수 있는 효과의 지속 시간이 늘어난다."
 }
+
 
 _G.pg.base.gametip.launch_ball_shimakaze_skill_1 = {
 	tip = "액티브: 질풍신뢰"
 }
 
+
 _G.pg.base.gametip.launch_ball_shimakaze_skill_1_desc = {
 	tip = "질풍신뢰: 전방 부채꼴 범위 내에 있는 요괴를 모두 격퇴한다(점수는 기본 점수만큼 획득)."
 }
+
 
 _G.pg.base.gametip.launch_ball_shimakaze_skill_2 = {
 	tip = "패시브: 전광석화"
 }
 
+
 _G.pg.base.gametip.launch_ball_shimakaze_skill_2_desc = {
 	tip = "전광석화: 요괴를 1회 격퇴할 때마다 '질풍신뢰'의 재사용 가능까지 걸리는 시간을 0.5초 단축한다."
 }
+
 
 _G.pg.base.gametip.jp6th_spring_tip1 = {
 	tip = "온천 증서<icon name=wenquanshoupai w=0.7 h=0.7/>를 소비하여 만쥬 온천을 증축하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.jp6th_spring_tip2 = {
 	tip = "온천 손팻말이 부족합니다."
 }
+
 
 _G.pg.base.gametip.jp6th_biaohoushan_help = {
 	tip = {
@@ -25330,6 +29811,7 @@ _G.pg.base.gametip.jp6th_biaohoushan_help = {
 	}
 }
 
+
 _G.pg.base.gametip.jp6th_lihoushan_help = {
 	tip = {
 		{
@@ -25338,108 +29820,130 @@ _G.pg.base.gametip.jp6th_lihoushan_help = {
 	}
 }
 
+
 _G.pg.base.gametip.jp6th_lihoushan_time = {
 	tip = "익일 0시에 새로운 스테이지가 오픈됩니다!"
 }
+
 
 _G.pg.base.gametip.jp6th_lihoushan_order = {
 	tip = "이전 스테이지를 클리어하면 오픈됩니다!"
 }
 
+
 _G.pg.base.gametip.jp6th_lihoushan_pt1 = {
 	tip = "보상 획득 가능 횟수"
 }
+
 
 _G.pg.base.gametip.launchball_minigame_help = {
 	tip = ""
 }
 
+
 _G.pg.base.gametip.launchball_minigame_select = {
 	tip = "캐릭터를 탭하여 선택"
 }
+
 
 _G.pg.base.gametip.launchball_minigame_un_select = {
 	tip = "동일 캐릭터를 탭하여 선택 해제"
 }
 
+
 _G.pg.base.gametip.launchball_minigame_shop = {
 	tip = "품절이다냥~"
 }
+
 
 _G.pg.base.gametip.launchball_lock_Shinano = {
 	tip = "상점에서 <color=#92fc63>'시나노의 증표'</color>를 구매하여 선택 가능"
 }
 
+
 _G.pg.base.gametip.launchball_lock_Yura = {
 	tip = "상점에서 <color=#92fc63>'유라의 증표'</color>를 구매하여 선택 가능"
 }
+
 
 _G.pg.base.gametip.launchball_lock_Shimakaze = {
 	tip = "상점에서 <color=#92fc63>'시마카제의 증표'</color>를 구매하여 선택 가능"
 }
 
+
 _G.pg.base.gametip.launchball_spilt_series = {
 	tip = "콤보: 부적을 1회 발사하여 여러 마리의 요괴를 동시에 격퇴하면, 획득 점수가 상승한다."
 }
+
 
 _G.pg.base.gametip.launchball_spilt_mix = {
 	tip = "흡착: 요괴를 격퇴한 후, 양쪽 요괴가 같은 색깔인 경우에는 전방 요괴가 자동으로 후방 요괴 쪽에 흡착된다. 그 때 요괴를 격퇴하면, 획득 점수가 상승한다."
 }
 
+
 _G.pg.base.gametip.launchball_spilt_over = {
 	tip = "돌파: 요괴를 격퇴한 후에 생성된 공간에 다시 부적을 발사하여 그 전방에 있는 요괴를 격퇴하면, 획득 점수가 상승한다."
 }
+
 
 _G.pg.base.gametip.launchball_spilt_many = {
 	tip = "멀티플: 한 번에 요괴를 3마리 이상 격퇴하면, 획득 점수가 상승한다."
 }
 
+
 _G.pg.base.gametip.luckybag_skin_isani = {
 	tip = "모션 일러스트"
 }
+
 
 _G.pg.base.gametip.luckybag_skin_islive2d = {
 	tip = "L2D"
 }
 
+
 _G.pg.base.gametip.SkinMagazinePage2_tip = {
 	tip = "출석 체크"
 }
+
 
 _G.pg.base.gametip.racing_cost = {
 	tip = "누적\n소모"
 }
 
+
 _G.pg.base.gametip.racing_rank_top_text = {
 	tip = "친구 순위"
 }
+
 
 _G.pg.base.gametip.racing_rank_half_h = {
 	tip = "* 30분마다 업데이트"
 }
 
+
 _G.pg.base.gametip.racing_rank_no_data = {
 	tip = "정보가 없습니다."
 }
+
 
 _G.pg.base.gametip.racing_minigame_help = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/racing2023_help1",
-				path = ""
+				path = "",
+				atlas = "helpbg/racing2023_help1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/racing2023_help2",
-				path = ""
+				path = "",
+				atlas = "helpbg/racing2023_help2"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -25453,107 +29957,124 @@ _G.pg.base.gametip.racing_minigame_help = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.child_msg_title_detail = {
 	tip = "상세 내용"
 }
 
+
 _G.pg.base.gametip.child_msg_title_tip = {
 	tip = "tips"
 }
+
 
 _G.pg.base.gametip.child_msg_owned = {
 	tip = "소지 중: $1"
 }
 
+
 _G.pg.base.gametip.child_polaroid_get_tip = {
 	tip = "수록된 콘텐츠는 '순간'에서 확인하실 수 있습니다."
 }
+
 
 _G.pg.base.gametip.child_close_tip = {
 	tip = "화면을 탭하여 돌아가기"
 }
 
+
 _G.pg.base.gametip.word_month = {
 	tip = "월"
 }
+
 
 _G.pg.base.gametip.word_which_month = {
 	tip = "$1개월차"
 }
 
+
 _G.pg.base.gametip.word_which_week = {
 	tip = "$1주차"
 }
+
 
 _G.pg.base.gametip.word_in_one_week = {
 	tip = "이번 주 중"
 }
 
+
 _G.pg.base.gametip.word_week_title = {
 	tip = "요일:"
 }
+
 
 _G.pg.base.gametip.word_harbour = {
 	tip = "모항"
 }
 
+
 _G.pg.base.gametip.child_btn_target = {
 	tip = "목표"
 }
+
 
 _G.pg.base.gametip.child_btn_collect = {
 	tip = "추억"
 }
 
+
 _G.pg.base.gametip.child_btn_mind = {
 	tip = "생각"
 }
+
 
 _G.pg.base.gametip.child_btn_bag = {
 	tip = "소지품"
 }
 
+
 _G.pg.base.gametip.child_btn_news = {
 	tip = "이번 달의 뉴스"
 }
+
 
 _G.pg.base.gametip.child_main_help = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/educate_tb_help1",
-				path = ""
+				path = "",
+				atlas = "helpbg/educate_tb_help1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/educate_tb_help2",
-				path = ""
+				path = "",
+				atlas = "helpbg/educate_tb_help2"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/educate_tb_help3",
-				path = ""
+				path = "",
+				atlas = "helpbg/educate_tb_help3"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/educate_tb_help4",
-				path = ""
+				path = "",
+				atlas = "helpbg/educate_tb_help4"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/educate_tb_help5",
-				path = ""
+				path = "",
+				atlas = "helpbg/educate_tb_help5"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -25568,433 +30089,541 @@ _G.pg.base.gametip.child_main_help = {
 	}
 }
 
+
 _G.pg.base.gametip.child_archive_name = {
 	tip = "이름"
 }
+
 
 _G.pg.base.gametip.child_news_import_title = {
 	tip = "중요 이벤트"
 }
 
+
 _G.pg.base.gametip.child_news_other_title = {
 	tip = "일반 이벤트"
 }
+
 
 _G.pg.base.gametip.child_favor_progress = {
 	tip = "현재 진척도: $1"
 }
 
+
 _G.pg.base.gametip.child_favor_lock1 = {
 	tip = "호감도 $1"
 }
+
 
 _G.pg.base.gametip.child_favor_lock2 = {
 	tip = "$1로 오픈"
 }
 
+
 _G.pg.base.gametip.child_target_lock_tip = {
 	tip = "현재 단계의 육성 목표는 이미 설정이 완료되었습니다."
 }
+
 
 _G.pg.base.gametip.child_target_progress = {
 	tip = "완성도:"
 }
 
+
 _G.pg.base.gametip.child_target_finish_tip = {
 	tip = "현재 단계의 육성 목표를 달성했습니다."
 }
+
 
 _G.pg.base.gametip.child_target_time_title = {
 	tip = "남은 시간:"
 }
 
+
 _G.pg.base.gametip.child_target_title1 = {
 	tip = "주요 목표"
 }
+
 
 _G.pg.base.gametip.child_target_title2 = {
 	tip = "육성 목표"
 }
 
+
 _G.pg.base.gametip.child_item_type0 = {
 	tip = "전부"
 }
+
 
 _G.pg.base.gametip.child_item_type1 = {
 	tip = "서적"
 }
 
+
 _G.pg.base.gametip.child_item_type2 = {
 	tip = "악기"
 }
+
 
 _G.pg.base.gametip.child_item_type3 = {
 	tip = "도구"
 }
 
+
 _G.pg.base.gametip.child_item_type4 = {
 	tip = "기타"
 }
+
 
 _G.pg.base.gametip.child_mind_empty_tip = {
 	tip = "-특별히 생각하는 바는 없습니다-"
 }
 
+
 _G.pg.base.gametip.child_mind_finish_title = {
 	tip = "달성 완료"
 }
+
 
 _G.pg.base.gametip.child_mind_processing_title = {
 	tip = "진행 중"
 }
 
+
 _G.pg.base.gametip.child_mind_time_title = {
 	tip = "남은 시간:"
 }
+
 
 _G.pg.base.gametip.child_collect_lock = {
 	tip = "-미오픈-"
 }
 
+
 _G.pg.base.gametip.child_nature_title = {
 	tip = "성격:"
 }
+
 
 _G.pg.base.gametip.child_btn_review = {
 	tip = "개요"
 }
 
+
 _G.pg.base.gametip.child_schedule_empty_tip = {
 	tip = "화면 좌측의 아이콘을 탭하여 스케줄을 추가하세요!"
 }
+
 
 _G.pg.base.gametip.child_schedule_event_tip = {
 	tip = "이미 스케줄이 설정되어 있습니다."
 }
 
+
 _G.pg.base.gametip.child_schedule_sure_tip = {
 	tip = "모든 스케줄 슬롯이 설정되어 있습니다. 미설정된 스케줄 슬롯은 \"자유 행동\"으로 채워집니다. 스케줄을 실행하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.child_schedule_sure_tip2 = {
 	tip = "아직 사용하지 않은 행동력이 있습니다. 다음 주로 진행하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.child_plan_check_tip1 = {
 	tip = "스케줄 슬롯이 부족합니다. 스케줄 슬롯을 비운 후 다시 시도하시기 바랍니다."
 }
+
 
 _G.pg.base.gametip.child_plan_check_tip2 = {
 	tip = "능력치가 조건을 충족하고 있지 않습니다. 스케줄을 추가할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.child_plan_check_tip3 = {
 	tip = "전 단계의 스케줄 실행 횟수가 부족합니다. 스케줄을 추가할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.child_plan_check_tip4 = {
 	tip = "소지금이 부족합니다. 스케줄을 추가할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.child_plan_check_tip5 = {
 	tip = "TB의 컨디션이 좋지 않습니다. 스케줄을 추가할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.child_plan_event = {
 	tip = "중요 이벤트"
 }
 
+
 _G.pg.base.gametip.child_btn_home = {
 	tip = "귀가"
 }
+
 
 _G.pg.base.gametip.child_option_limit = {
 	tip = "한정"
 }
 
+
 _G.pg.base.gametip.child_shop_tip1 = {
 	tip = "※ 해당 아이템은 $1주마다 입하됩니다."
 }
+
 
 _G.pg.base.gametip.child_shop_tip2 = {
 	tip = "※ 해당 아이템은 1회만 구매할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.child_filter_title = {
 	tip = "필터링"
 }
+
 
 _G.pg.base.gametip.child_filter_type1 = {
 	tip = "예정 종류"
 }
 
+
 _G.pg.base.gametip.child_filter_type2 = {
 	tip = "보상 종류"
 }
+
 
 _G.pg.base.gametip.child_filter_type3 = {
 	tip = "소비 종류"
 }
 
+
 _G.pg.base.gametip.child_plan_type1 = {
 	tip = "학교 수업"
 }
+
 
 _G.pg.base.gametip.child_plan_type2 = {
 	tip = "취미 활동"
 }
 
+
 _G.pg.base.gametip.child_plan_type3 = {
 	tip = "사회 공부"
 }
+
 
 _G.pg.base.gametip.child_plan_type4 = {
 	tip = "자유 행동"
 }
 
+
 _G.pg.base.gametip.child_filter_award_res = {
 	tip = "TB"
 }
+
 
 _G.pg.base.gametip.child_filter_award_nature = {
 	tip = "개성"
 }
 
+
 _G.pg.base.gametip.child_filter_award_attr1 = {
 	tip = "속성"
 }
+
 
 _G.pg.base.gametip.child_filter_award_attr2 = {
 	tip = "능력"
 }
 
+
 _G.pg.base.gametip.child_mood_desc1 = {
 	tip = "현재 기분 단계: 낙담<color=#72bc42>버프 40% 감소</color>"
 }
+
 
 _G.pg.base.gametip.child_mood_desc2 = {
 	tip = "현재 기분 단계: 우울<color=#72bc42>버프 20% 감소</color>"
 }
 
+
 _G.pg.base.gametip.child_mood_desc3 = {
 	tip = "현재 기분 단계: 보통<color=#72bc42>추가 버프 없음</color>"
 }
+
 
 _G.pg.base.gametip.child_mood_desc4 = {
 	tip = "현재 기분 단계: 좋음<color=#72bc42>버프 40% 증가</color>"
 }
 
+
 _G.pg.base.gametip.child_mood_desc5 = {
 	tip = "현재 기분 단계: 좋음<color=#72bc42>버프 40% 증가</color>"
 }
+
 
 _G.pg.base.gametip.child_stage_desc1 = {
 	tip = "육성 단계Ⅰ"
 }
 
+
 _G.pg.base.gametip.child_stage_desc2 = {
 	tip = "육성 단계Ⅱ"
 }
+
 
 _G.pg.base.gametip.child_stage_desc3 = {
 	tip = "육성 단계Ⅲ"
 }
 
+
 _G.pg.base.gametip.child_default_callname = {
 	tip = "지휘관"
 }
+
 
 _G.pg.base.gametip.flagship_display_mode_1 = {
 	tip = "특수 비서함 비표시"
 }
 
+
 _G.pg.base.gametip.flagship_display_mode_2 = {
 	tip = "특수 비서함만 표시"
 }
+
 
 _G.pg.base.gametip.flagship_display_mode_3 = {
 	tip = "모두 표시"
 }
 
+
 _G.pg.base.gametip.flagship_educate_slot_lock_tip = {
 	tip = "<color=#39bfff>\"TB 육성\"</color> 스토리 \"새로운 생활\" 오픈 후에 기능이 개방됩니다."
 }
+
 
 _G.pg.base.gametip.child_story_name = {
 	tip = "지휘관"
 }
 
+
 _G.pg.base.gametip.secretary_special_name = {
 	tip = "TB"
 }
+
 
 _G.pg.base.gametip.secretary_special_lock_tip = {
 	tip = "아직 오픈되지 않았습니다."
 }
 
+
 _G.pg.base.gametip.secretary_special_title_age = {
 	tip = "모듈 변경"
 }
+
 
 _G.pg.base.gametip.secretary_special_title_physiognomy = {
 	tip = "모듈 변경"
 }
 
+
 _G.pg.base.gametip.child_plan_skip = {
 	tip = "연출 화면 스킵"
 }
+
 
 _G.pg.base.gametip.child_attr_name1 = {
 	tip = "속성"
 }
 
+
 _G.pg.base.gametip.child_attr_name2 = {
 	tip = "능력"
 }
+
 
 _G.pg.base.gametip.child_task_system_type2 = {
 	tip = "육성"
 }
 
+
 _G.pg.base.gametip.child_task_system_type3 = {
 	tip = "주요"
 }
+
 
 _G.pg.base.gametip.child_plan_perform_title = {
 	tip = "예정 짜기"
 }
 
+
 _G.pg.base.gametip.child_date_text1 = {
 	tip = "재택 육성"
 }
+
 
 _G.pg.base.gametip.child_date_text2 = {
 	tip = "입학 준비"
 }
 
+
 _G.pg.base.gametip.child_date_text3 = {
 	tip = "단계 상승"
 }
+
 
 _G.pg.base.gametip.child_date_text4 = {
 	tip = "업데이트 준비"
 }
 
+
 _G.pg.base.gametip.child_upgrade_sure_tip = {
 	tip = "다음 육성 단계로 진행하면 성장 목표가 초기화되며, 아직 사용하지 않은 행동력은 그대로 소멸됩니다. 다음 육성 단계로 진행하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.child_school_sure_tip = {
 	tip = "입학하면 성장 목표가 초기화되며, 아직 사용하지 않은 행동력은 그대로 소멸됩니다. 다음 육성 단계로 진행하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.child_extraAttr_sure_tip = {
 	tip = "是否确认个性补正？确认后将无法修改"
 }
+
 
 _G.pg.base.gametip.child_reset_sure_tip = {
 	tip = "TB 육성을 재시작하면 육성 단계Ⅰ부터 다시 육성할 수 있습니다. 육성을 재시작하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.child_end_sure_tip = {
 	tip = "엔딩으로 진행하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.child_buff_name = {
 	tip = "상태"
 }
 
+
 _G.pg.base.gametip.child_unlock_tip = {
 	tip = "오픈"
 }
+
 
 _G.pg.base.gametip.child_unlock_out = {
 	tip = "외출"
 }
 
+
 _G.pg.base.gametip.child_unlock_memory = {
 	tip = "추억"
 }
+
 
 _G.pg.base.gametip.child_unlock_polaroid = {
 	tip = "소중한 순간"
 }
 
+
 _G.pg.base.gametip.child_unlock_ending = {
 	tip = "엔딩"
 }
+
 
 _G.pg.base.gametip.child_unlock_intimacy = {
 	tip = "호감도"
 }
 
+
 _G.pg.base.gametip.child_unlock_buff = {
 	tip = "상태"
 }
+
 
 _G.pg.base.gametip.child_unlock_attr2 = {
 	tip = "개성"
 }
 
+
 _G.pg.base.gametip.child_unlock_attr3 = {
 	tip = "능력"
 }
+
 
 _G.pg.base.gametip.child_unlock_bag = {
 	tip = "소지품"
 }
 
+
 _G.pg.base.gametip.child_shop_empty_tip = {
 	tip = "- 판매 중인 아이템이 없습니다 -"
 }
+
 
 _G.pg.base.gametip.child_bag_empty_tip = {
 	tip = "-소지품이 없습니다-"
 }
 
+
 _G.pg.base.gametip.levelscene_deploy_submarine = {
 	tip = "목표 확정"
 }
+
 
 _G.pg.base.gametip.levelscene_deploy_submarine_cancel = {
 	tip = "공격 중지"
 }
 
+
 _G.pg.base.gametip.levelscene_airexpel_cancel = {
 	tip = "구축 중지"
 }
+
 
 _G.pg.base.gametip.levelscene_airexpel_select_enemy = {
 	tip = "적 함대만 선택할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.levelscene_airexpel_outrange = {
 	tip = "적 함대를 이동시킬 수 있는 칸이 없습니다."
 }
+
 
 _G.pg.base.gametip.levelscene_airexpel_select_boss = {
 	tip = "보스 함대를 선택할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.levelscene_airexpel_select_battle = {
 	tip = "교전 중인 적 함대는 선택할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.levelscene_airexpel_select_confirm_left = {
 	tip = "지시 발령: <color=#92fc63>$1</color>을 <color=#92fc63>왼쪽</color>으로 1칸 이동시킵니다. 지시를 확정하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.levelscene_airexpel_select_confirm_right = {
 	tip = "지시 발령: <color=#92fc63>$1</color>을 <color=#92fc63>오른쪽</color>으로 1칸 이동시킵니다. 지시를 확정하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.levelscene_airexpel_select_confirm_up = {
 	tip = "지시 발령: <color=#92fc63>$1</color>을 <color=#92fc63>위</color>로 1칸 이동시킵니다. 지시를 확정하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.levelscene_airexpel_select_confirm_down = {
 	tip = "지시 발령: <color=#92fc63>$1</color>을 <color=#92fc63>아래</color>로 1칸 이동시킵니다. 지시를 확정하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.shipyard_phase_1 = {
 	tip = {
@@ -26017,40 +30646,45 @@ _G.pg.base.gametip.shipyard_phase_1 = {
 	}
 }
 
+
 _G.pg.base.gametip.shipyard_phase_2 = {
 	tip = "废弃"
 }
+
 
 _G.pg.base.gametip.shipyard_button_1 = {
 	tip = "기대 만발"
 }
 
+
 _G.pg.base.gametip.shipyard_button_2 = {
 	tip = "비밀 조선소'의 모든 임무를 클리어하여 오픈"
 }
+
 
 _G.pg.base.gametip.shipyard_introduce = {
 	tip = "임무는 11/8(수)까지 매일 2개씩 오픈됩니다.\n오픈 후 7일 동안 매일 오픈되는 임무를 클리어하면, 한정 장비 <color=#ff9892>'템페스타 플래그'</color>를 획득할 수 있습니다!"
 }
 
+
 _G.pg.base.gametip.help_supportfleet = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/supportfleet_help1",
-				path = ""
+				path = "",
+				atlas = "helpbg/supportfleet_help1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/supportfleet_help2",
-				path = ""
+				path = "",
+				atlas = "helpbg/supportfleet_help2"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -26064,341 +30698,421 @@ _G.pg.base.gametip.help_supportfleet = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.word_status_inSupportFleet = {
 	tip = "지원 출격 중"
 }
 
+
 _G.pg.base.gametip.ship_formationMediator_request_replace_support = {
 	tip = "이미 지원 함대에 편성되어 있습니다. 편성을 변경하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.courtyard_label_train = {
 	tip = "훈련"
 }
 
+
 _G.pg.base.gametip.courtyard_label_rest = {
 	tip = "휴식"
 }
+
 
 _G.pg.base.gametip.courtyard_label_capacity = {
 	tip = "식량"
 }
 
+
 _G.pg.base.gametip.courtyard_label_share = {
 	tip = "공유"
 }
+
 
 _G.pg.base.gametip.courtyard_label_shop = {
 	tip = "상점"
 }
 
+
 _G.pg.base.gametip.courtyard_label_decoration = {
 	tip = "편집"
 }
+
 
 _G.pg.base.gametip.courtyard_label_template = {
 	tip = ""
 }
 
+
 _G.pg.base.gametip.courtyard_label_floor = {
 	tip = "플로어"
 }
+
 
 _G.pg.base.gametip.courtyard_label_exp_addition = {
 	tip = "경험치 효과"
 }
 
+
 _G.pg.base.gametip.courtyard_label_total_exp_addition = {
 	tip = "총 경험치 효과:"
 }
+
 
 _G.pg.base.gametip.courtyard_label_comfortable_addition = {
 	tip = "총 경험치 효과:"
 }
 
+
 _G.pg.base.gametip.courtyard_label_placed_furniture = {
 	tip = "배치 완료 가구"
 }
+
 
 _G.pg.base.gametip.courtyard_label_shop_1 = {
 	tip = "상점"
 }
 
+
 _G.pg.base.gametip.courtyard_label_clear = {
 	tip = "클리어"
 }
+
 
 _G.pg.base.gametip.courtyard_label_save = {
 	tip = "저장"
 }
 
+
 _G.pg.base.gametip.courtyard_label_save_theme = {
 	tip = "테마 저장"
 }
+
 
 _G.pg.base.gametip.courtyard_label_using = {
 	tip = "$1 플로어에 배치 중"
 }
 
+
 _G.pg.base.gametip.courtyard_label_search_holder = {
 	tip = "search..."
 }
+
 
 _G.pg.base.gametip.courtyard_label_filter = {
 	tip = "필터링"
 }
 
+
 _G.pg.base.gametip.courtyard_label_time = {
 	tip = ""
 }
+
 
 _G.pg.base.gametip.courtyard_label_week = {
 	tip = ""
 }
 
+
 _G.pg.base.gametip.courtyard_label_month = {
 	tip = ""
 }
+
 
 _G.pg.base.gametip.courtyard_label_year = {
 	tip = ""
 }
 
+
 _G.pg.base.gametip.courtyard_label_putlist_title = {
 	tip = "배치 완료 가구 목록"
 }
+
 
 _G.pg.base.gametip.courtyard_label_custom_theme = {
 	tip = "내 세팅"
 }
 
+
 _G.pg.base.gametip.courtyard_label_system_theme = {
 	tip = "프리셋"
 }
+
 
 _G.pg.base.gametip.courtyard_tip_furniture_not_in_layer = {
 	tip = "가구가 해당 플로어에 배치되어 있지 않습니다."
 }
 
+
 _G.pg.base.gametip.courtyard_label_detail = {
 	tip = "상세 내용"
 }
+
 
 _G.pg.base.gametip.courtyard_label_place_pnekey = {
 	tip = "일괄 배치"
 }
 
+
 _G.pg.base.gametip.courtyard_label_delete = {
 	tip = "삭제"
 }
+
 
 _G.pg.base.gametip.courtyard_label_cancel_share = {
 	tip = "공유 중지"
 }
 
+
 _G.pg.base.gametip.courtyard_label_empty_template_list = {
 	tip = ""
 }
+
 
 _G.pg.base.gametip.courtyard_label_empty_custom_template_list = {
 	tip = ""
 }
 
+
 _G.pg.base.gametip.courtyard_label_empty_collection_list = {
 	tip = ""
 }
+
 
 _G.pg.base.gametip.courtyard_label_go = {
 	tip = "확인"
 }
 
+
 _G.pg.base.gametip.mot_class_t_level_1 = {
 	tip = "별의 인도자"
 }
+
 
 _G.pg.base.gametip.mot_class_t_level_2 = {
 	tip = "구름의 수호자"
 }
 
+
 _G.pg.base.gametip.equip_share_label_1 = {
 	tip = "대경장갑"
 }
+
 
 _G.pg.base.gametip.equip_share_label_2 = {
 	tip = "대중형장갑"
 }
 
+
 _G.pg.base.gametip.equip_share_label_3 = {
 	tip = "대중장갑"
 }
+
 
 _G.pg.base.gametip.equip_share_label_4 = {
 	tip = "대항공"
 }
 
+
 _G.pg.base.gametip.equip_share_label_5 = {
 	tip = "폭발적 화력"
 }
+
 
 _G.pg.base.gametip.equip_share_label_6 = {
 	tip = "안정적 화력"
 }
 
+
 _G.pg.base.gametip.equip_share_label_7 = {
 	tip = "메인용"
 }
+
 
 _G.pg.base.gametip.equip_share_label_8 = {
 	tip = "데일리용"
 }
 
+
 _G.pg.base.gametip.equip_share_label_9 = {
 	tip = "세이렌용"
 }
+
 
 _G.pg.base.gametip.equipcode_input = {
 	tip = "장비 코드를 입력하십시오."
 }
 
+
 _G.pg.base.gametip.equipcode_slot_unmatch = {
 	tip = "이 장비 편성은 적용할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.equipcode_share_nolabel = {
 	tip = "라벨을 2개 설정한 후에 공유할 수 있습니다."
 }
 
+
 _G.pg.base.gametip.equipcode_share_exceedlimit = {
 	tip = "라벨은 2개까지 선택할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.equipcode_illegal = {
 	tip = "올바른 장비 코드를 입력하십시오."
 }
 
+
 _G.pg.base.gametip.equipcode_confirm_doublecheck = {
 	tip = "가져온 장비 편성을 적용하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.equipcode_import_success = {
 	tip = "장비 편성을 적용했습니다."
 }
 
+
 _G.pg.base.gametip.equipcode_share_success = {
 	tip = "장비 편성을 공유했습니다."
 }
+
 
 _G.pg.base.gametip.equipcode_like_limited = {
 	tip = "오늘은 이미 해당 장비 편성에 좋아요를 보냈습니다."
 }
 
+
 _G.pg.base.gametip.equipcode_like_success = {
 	tip = "좋아요를 보냈습니다."
 }
+
 
 _G.pg.base.gametip.equipcode_dislike_success = {
 	tip = "신고 완료"
 }
 
+
 _G.pg.base.gametip.equipcode_report_type_1 = {
 	tip = "장비 편성이 무의미함"
 }
+
 
 _G.pg.base.gametip.equipcode_report_type_2 = {
 	tip = "장비 편성이 너무 오래됨"
 }
 
+
 _G.pg.base.gametip.equipcode_report_warning = {
 	tip = "단기간에 대량으로 신고를 받으면 일시적으로 공유가 불가능해집니다."
 }
+
 
 _G.pg.base.gametip.equipcode_level_unmatched = {
 	tip = "레벨 차이"
 }
 
+
 _G.pg.base.gametip.equipcode_equipment_unowned = {
 	tip = "미소지"
 }
+
 
 _G.pg.base.gametip.equipcode_diff_selected = {
 	tip = "변경 완료"
 }
 
+
 _G.pg.base.gametip.equipcode_export_success = {
 	tip = "장비 코드를 복사했습니다."
 }
+
 
 _G.pg.base.gametip.equipcode_unsaved_tips = {
 	tip = "가져온 장비 편성은 적용이 불가능합니다. 이전 화면으로 돌아가시겠습니까?"
 }
 
+
 _G.pg.base.gametip.equipcode_share_ruletips = {
 	tip = "라벨을 2개 설정하여 장비 편성을 공유해 보세요!"
 }
+
 
 _G.pg.base.gametip.equipcode_share_errorcode7 = {
 	tip = "오늘은 이미 해당 함선의 장비 편성을 공유했습니다."
 }
 
+
 _G.pg.base.gametip.equipcode_share_errorcode44 = {
 	tip = "오늘은 더 이상 장비 편성을 공유할 수 없습니다."
 }
+
 
 _G.pg.base.gametip.equipcode_share_title = {
 	tip = "장비 편성"
 }
 
+
 _G.pg.base.gametip.equipcode_share_titleeng = {
 	tip = "EQUIPMENTS"
 }
+
 
 _G.pg.base.gametip.equipcode_share_listempty = {
 	tip = "아직 장비 편성을 공유하지 않았습니다."
 }
 
+
 _G.pg.base.gametip.equipcode_equip_occupied = {
 	tip = "사용 중"
 }
+
 
 _G.pg.base.gametip.sail_boat_equip_tip_1 = {
 	tip = "<color=#E3CEAF>위력은 낮지만 장전 속도가 빠른 화포</color>\n<color=#F1B969>장착하면 항속이 저하한다.</color>"
 }
 
+
 _G.pg.base.gametip.sail_boat_equip_tip_2 = {
 	tip = "<color=#E3CEAF>위력·장전 속도 모두 보통인 화포</color>\n<color=#F1B969>장착하면 항속이 저하한다.</color>"
 }
+
 
 _G.pg.base.gametip.sail_boat_equip_tip_3 = {
 	tip = "<color=#E3CEAF>위력은 강하지만 장전 속도가 무척 느린 화포</color>\n<color=#F1B969>장착하면 항속이 저하한다.</color>"
 }
 
+
 _G.pg.base.gametip.sail_boat_equip_tip_4 = {
 	tip = "<color=#E3CEAF>장갑 갑판</color>\n<color=#F1B969>장착하면 내구가 상승하지만, 항속이 저하한다</color>."
 }
+
 
 _G.pg.base.gametip.sail_boat_equip_tip_5 = {
 	tip = "<color=#E3CEAF>선원 만쥬</color>\n<color=#F1B969>장착하면 항속이 상승한다</color>."
 }
 
+
 _G.pg.base.gametip.sail_boat_minigame_help = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/sailboat_help1",
-				path = ""
+				path = "",
+				atlas = "helpbg/sailboat_help1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/sailboat_help2",
-				path = ""
+				path = "",
+				atlas = "helpbg/sailboat_help2"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -26412,6 +31126,7 @@ _G.pg.base.gametip.sail_boat_minigame_help = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.pirate_wanted_help = {
 	tip = [[
@@ -26423,6 +31138,7 @@ _G.pg.base.gametip.pirate_wanted_help = {
 　어빌리티가 고정된 새로운 지휘냥, 한정 템페스타용 설비, 가구 '찬란한 침로'
 수령 시간은 11월 29일(수) 23:59까지]]
 }
+
 
 _G.pg.base.gametip.harbor_backhill_help = {
 	tip = {
@@ -26456,81 +31172,101 @@ _G.pg.base.gametip.harbor_backhill_help = {
 	}
 }
 
+
 _G.pg.base.gametip.cryptolalia_download_task_already_exists = {
 	tip = "시크릿즈 [$1] 다운로드 중"
 }
+
 
 _G.pg.base.gametip.charge_scene_buy_confirm_backyard = {
 	tip = "<color=#72bc42>$1다이아를 사용하여</color>구매하시겠습니까?<color=#72bc42>$2</color>"
 }
 
+
 _G.pg.base.gametip.roll_room1 = {
 	tip = "하인 휴게실"
 }
+
 
 _G.pg.base.gametip.roll_room2 = {
 	tip = "1F 홀"
 }
 
+
 _G.pg.base.gametip.roll_room3 = {
 	tip = "객실"
 }
+
 
 _G.pg.base.gametip.roll_room4 = {
 	tip = "정원"
 }
 
+
 _G.pg.base.gametip.roll_room5 = {
 	tip = "거실"
 }
+
 
 _G.pg.base.gametip.roll_room6 = {
 	tip = "집사 룸"
 }
 
+
 _G.pg.base.gametip.roll_room7 = {
 	tip = "식당"
 }
+
 
 _G.pg.base.gametip.roll_room8 = {
 	tip = "주방"
 }
 
+
 _G.pg.base.gametip.roll_room9 = {
 	tip = "연회장"
 }
+
 
 _G.pg.base.gametip.roll_room10 = {
 	tip = "전망대"
 }
 
+
 _G.pg.base.gametip.roll_room11 = {
 	tip = "세컨드 베드룸"
 }
+
 
 _G.pg.base.gametip.roll_room12 = {
 	tip = "수집실"
 }
 
+
 _G.pg.base.gametip.roll_room13 = {
 	tip = "2F 홀"
 }
+
 
 _G.pg.base.gametip.roll_room14 = {
 	tip = "메인 베드룸"
 }
 
+
 _G.pg.base.gametip.roll_room15 = {
 	tip = "서재"
 }
+
 
 _G.pg.base.gametip.roll_room16 = {
 	tip = "시크릿 룸"
 }
 
+
 _G.pg.base.gametip.roll_room17 = {
 	tip = "가든"
 }
+
 
 _G.pg.base.gametip.roll_attr_list = {
 	tip = {
@@ -26588,81 +31324,101 @@ _G.pg.base.gametip.roll_attr_list = {
 	}
 }
 
+
 _G.pg.base.gametip.roll_notimes = {
 	tip = "주사위 부족, 이벤트에서 획득하세요"
 }
+
 
 _G.pg.base.gametip.roll_tip2 = {
 	tip = "잠금 해제된 모든 구역을 조사한 후에야 다시 던질 수 있습니다"
 }
 
+
 _G.pg.base.gametip.roll_reward_word1 = {
 	tip = "서막"
 }
+
 
 _G.pg.base.gametip.roll_reward_word2 = {
 	tip = "제1막"
 }
 
+
 _G.pg.base.gametip.roll_reward_word3 = {
 	tip = "제2막"
 }
+
 
 _G.pg.base.gametip.roll_reward_word4 = {
 	tip = "제3막"
 }
 
+
 _G.pg.base.gametip.roll_reward_word5 = {
 	tip = "제4막"
 }
+
 
 _G.pg.base.gametip.roll_reward_word6 = {
 	tip = "제5막"
 }
 
+
 _G.pg.base.gametip.roll_reward_word7 = {
 	tip = "제6막"
 }
+
 
 _G.pg.base.gametip.roll_reward_word8 = {
 	tip = "종막"
 }
 
+
 _G.pg.base.gametip.roll_reward_tip = {
 	tip = "$1/$2 완성함"
 }
+
 
 _G.pg.base.gametip.roll_unlock = {
 	tip = "—— 옛 성채 조사 및 전부 스토리 해제 후, 랜덤 캐릭터 생성 카드 기능 해제 가능 ——"
 }
 
+
 _G.pg.base.gametip.roll_noname = {
 	tip = "이름은 비워 둘 수 없습니다"
 }
+
 
 _G.pg.base.gametip.roll_card_info = {
 	tip = "기본 정보"
 }
 
+
 _G.pg.base.gametip.roll_card_attr = {
 	tip = "능력"
 }
+
 
 _G.pg.base.gametip.roll_card_skill = {
 	tip = "스킬"
 }
 
+
 _G.pg.base.gametip.roll_times_left = {
 	tip = "남은 횟수:$1"
 }
+
 
 _G.pg.base.gametip.roll_room_unexplored = {
 	tip = "???"
 }
 
+
 _G.pg.base.gametip.roll_reward_got = {
 	tip = "수령함"
 }
+
 
 _G.pg.base.gametip.roll_gametip = {
 	tip = {
@@ -26691,173 +31447,216 @@ _G.pg.base.gametip.roll_gametip = {
 	}
 }
 
+
 _G.pg.base.gametip.roll_ending_tip1 = {
 	tip = "종막이 이미 나타났으니, 옛 성채 1F와 2F에서 조사를 완료하세요"
 }
+
 
 _G.pg.base.gametip.roll_ending_tip2 = {
 	tip = "여전히 미탐색 구역이 있으니, 옛 성채 1F와 2F에서 조사를 완료하세요"
 }
 
+
 _G.pg.base.gametip.commandercat_label_raw_name = {
 	tip = "기존 이름"
 }
+
 
 _G.pg.base.gametip.commandercat_label_custom_name = {
 	tip = "변경 후 이름"
 }
 
+
 _G.pg.base.gametip.commandercat_label_display_name = {
 	tip = "변경 후 이름"
 }
+
 
 _G.pg.base.gametip.commander_selected_max = {
 	tip = "지휘냥 최대 $1마리 선택 가능"
 }
 
+
 _G.pg.base.gametip.word_talent = {
 	tip = "어빌리티"
 }
+
 
 _G.pg.base.gametip.word_click_to_close = {
 	tip = "화면을 탭하여 닫기"
 }
 
+
 _G.pg.base.gametip.commander_subtile_ablity = {
 	tip = "기본 능력 효과"
 }
+
 
 _G.pg.base.gametip.commander_subtile_talent = {
 	tip = "어빌리티 효과 "
 }
 
+
 _G.pg.base.gametip.commander_confirm_tip = {
 	tip = "*확정을 탭하면 강화 재료로 지정된 지휘냥이 사라집니다."
 }
+
 
 _G.pg.base.gametip.commander_level_up_tip = {
 	tip = "* 지휘냥의 레벨이 5 상승할 때마다 어빌리티 포인트 1 획득"
 }
 
+
 _G.pg.base.gametip.commander_skill_effect = {
 	tip = "스킬 효과"
 }
+
 
 _G.pg.base.gametip.commander_choice_talent_1 = {
 	tip = "습득·강화 어빌리티 선택"
 }
 
+
 _G.pg.base.gametip.commander_choice_talent_2 = {
 	tip = "선택 가능 어빌리티"
 }
+
 
 _G.pg.base.gametip.commander_choice_talent_3 = {
 	tip = "새로 습득할 수 없습니다. 교체할 어빌리티를 선택하십시오."
 }
 
+
 _G.pg.base.gametip.commander_get_box_tip_1 = {
 	tip = "냥박스??형 "
 }
+
 
 _G.pg.base.gametip.commander_get_box_tip = {
 	tip = "랜덤 유형의 냥박스를 받을 수 있다냥, \n기대해줘냥!"
 }
 
+
 _G.pg.base.gametip.commander_total_gold = {
 	tip = "합계 소비:"
 }
+
 
 _G.pg.base.gametip.commander_use_box_tip = {
 	tip = "냥박스 선택"
 }
 
+
 _G.pg.base.gametip.commander_use_box_queue = {
 	tip = "훈련 선택"
 }
+
 
 _G.pg.base.gametip.commander_command_ability = {
 	tip = "지휘 능력"
 }
 
+
 _G.pg.base.gametip.commander_logistics_ability = {
 	tip = "보조 능력"
 }
+
 
 _G.pg.base.gametip.commander_tactical_ability = {
 	tip = "전술 능력"
 }
 
+
 _G.pg.base.gametip.commander_choice_talent_4 = {
 	tip = "*어빌리티 Pt를 사용하면 어빌리티 성장 시킬 수 있습니다."
 }
+
 
 _G.pg.base.gametip.commander_rename_tip = {
 	tip = "**각 지휘냥은 하루에 한 번만 이름 변경 가능"
 }
 
+
 _G.pg.base.gametip.commander_home_level_label = {
 	tip = "현재 레벨"
 }
+
 
 _G.pg.base.gametip.commander_get_commander_coptyright = {
 	tip = "지휘냥 센터――"
 }
 
+
 _G.pg.base.gametip.commander_choice_talent_reset = {
 	tip = "물자 $1을 소비하여 어빌리티를 초기화하시겠습니까? \t어빌리티가 초기 배치로 돌아가, 어빌리티 포인트 $2 획득 가능"
 }
+
 
 _G.pg.base.gametip.commander_lock_setting_title = {
 	tip = "훈련 완료 시, 다음 조건을 만족시키는 지휘냥의 잠금 확인"
 }
 
+
 _G.pg.base.gametip.skin_exchange_confirm = {
 	tip = "<color=#92fc63>$1×1</color>을 소비하여 <color=#92fc63>$2</color>)로 교환하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.skin_purchase_confirm = {
 	tip = "<color=#92fc63>$1×1</color>을 소비하여 할인가 <icon name=gem w=0.7 h=0.7/> $2로 $3 스킨을 구매하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.blackfriday_pack_lock = {
 	tip = "礼包将于$1解锁购买 "
 }
+
 
 _G.pg.base.gametip.skin_exchange_title = {
 	tip = "아래 스킨 교환 가능"
 }
 
+
 _G.pg.base.gametip.blackfriday_pack_select_skinall = {
 	tip = "할인 스킨 교환권은 지정된 교환 리스트 중의 스킨만 교환할 수 있습니다. 이미 전부 소지할 경우 교환권은 자동으로 할인권으로 변환됩니다."
 }
+
 
 _G.pg.base.gametip.skin_discount_desc = {
 	tip = "$1×1을 소비하여 할인가 $2로 $3 스킨을 구매하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.skin_exchange_timelimit = {
 	tip = "아래 아이템의 교환 대상은 $1 점검 후에 변경됩니다. 가급적 빠르게 사용하시기 바랍니다."
 }
+
 
 _G.pg.base.gametip.blackfriday_pack_purchased = {
 	tip = "已购买"
 }
 
+
 _G.pg.base.gametip.commander_unsel_lock_flag_tip = {
 	tip = "보호 확인이 설정되어 있지 않습니다. 지휘냥 훈련 완료 시에 보호 확인 화면이 표시되지 않습니다."
 }
+
 
 _G.pg.base.gametip.skin_discount_timelimit = {
 	tip = "道具$1将于$2维护后到期，请及时前往换装商店使用"
 }
 
+
 _G.pg.base.gametip.shan_luan_task_progress_tip = {
 	tip = "달성 수: $1"
 }
 
+
 _G.pg.base.gametip.shan_luan_task_level_tip = {
 	tip = "비전 레벨: $1"
 }
+
 
 _G.pg.base.gametip.shan_luan_task_help = {
 	tip = {
@@ -26878,17 +31677,21 @@ _G.pg.base.gametip.shan_luan_task_help = {
 	}
 }
 
+
 _G.pg.base.gametip.shan_luan_task_buff_default = {
 	tip = "???"
 }
+
 
 _G.pg.base.gametip.senran_pt_consume_tip = {
 	tip = "<icon name=renzhinan_pt w=0.6 h=0.6/>(을)를 <color=#3fbe0d>$1</color> 소비하여 레벨을 <color=#3fbe0d>Lv.$2</color>(으)로 상승시키겠습니까?"
 }
 
+
 _G.pg.base.gametip.senran_pt_not_enough = {
 	tip = "<color=#92fc63>닌자 지도</color>가 부족합니다."
 }
+
 
 _G.pg.base.gametip.senran_pt_help = {
 	tip = {
@@ -26915,9 +31718,11 @@ _G.pg.base.gametip.senran_pt_help = {
 	}
 }
 
+
 _G.pg.base.gametip.senran_pt_rank = {
 	tip = "레벨 상승 $1회"
 }
+
 
 _G.pg.base.gametip.senran_pt_words_feiniao = {
 	tip = {
@@ -26944,6 +31749,7 @@ _G.pg.base.gametip.senran_pt_words_feiniao = {
 	}
 }
 
+
 _G.pg.base.gametip.senran_pt_words_banjiu = {
 	tip = {
 		{
@@ -26968,6 +31774,7 @@ _G.pg.base.gametip.senran_pt_words_banjiu = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.senran_pt_words_yan = {
 	tip = {
@@ -26994,6 +31801,7 @@ _G.pg.base.gametip.senran_pt_words_yan = {
 	}
 }
 
+
 _G.pg.base.gametip.senran_pt_words_xuequan = {
 	tip = {
 		{
@@ -27018,6 +31826,7 @@ _G.pg.base.gametip.senran_pt_words_xuequan = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.senran_pt_words_xuebugui = {
 	tip = {
@@ -27044,6 +31853,7 @@ _G.pg.base.gametip.senran_pt_words_xuebugui = {
 	}
 }
 
+
 _G.pg.base.gametip.senran_pt_words_zi = {
 	tip = {
 		{
@@ -27068,6 +31878,7 @@ _G.pg.base.gametip.senran_pt_words_zi = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.senran_pt_words_xishao = {
 	tip = {
@@ -27094,6 +31905,7 @@ _G.pg.base.gametip.senran_pt_words_xishao = {
 	}
 }
 
+
 _G.pg.base.gametip.senrankagura_backhill_help = {
 	tip = {
 		{
@@ -27102,61 +31914,76 @@ _G.pg.base.gametip.senrankagura_backhill_help = {
 	}
 }
 
+
 _G.pg.base.gametip.vote_lable_not_start = {
 	tip = "미오픈"
 }
+
 
 _G.pg.base.gametip.vote_lable_voting = {
 	tip = "진행 중"
 }
 
+
 _G.pg.base.gametip.vote_lable_title = {
 	tip = "<size=36>투표 일정</size><size=32>2023/12/21 - 2024/2/19 24시</size>"
 }
+
 
 _G.pg.base.gametip.vote_lable_acc_title_1 = {
 	tip = "누적 투표수"
 }
 
+
 _G.pg.base.gametip.vote_lable_acc_title_2 = {
 	tip = "누적 투표 완료수:"
 }
+
 
 _G.pg.base.gametip.vote_lable_curr_title_1 = {
 	tip = "이번 라운드 투표수"
 }
 
+
 _G.pg.base.gametip.vote_lable_curr_title_2 = {
 	tip = "이번 라운드 누적 투표 완료수:"
 }
+
 
 _G.pg.base.gametip.vote_lable_window_title = {
 	tip = "보상 보기"
 }
 
+
 _G.pg.base.gametip.vote_lable_rearch = {
 	tip = "달성 완료"
 }
+
 
 _G.pg.base.gametip.vote_lable_daily_task_title = {
 	tip = "일일 임무"
 }
 
+
 _G.pg.base.gametip.vote_lable_daily_task_tip = {
 	tip = "일일 임무 완료 시 보상으로 $1 지급"
 }
+
 
 _G.pg.base.gametip.vote_lable_task_title = {
 	tip = "기간 한정 임무"
 }
 
+
 _G.pg.base.gametip.vote_lable_task_list_is_empty = {
 	tip = "이번 라운드의 투표권은 이미 교환되었습니다."
 }
 
+
 _G.pg.base.gametip.vote_lable_ship_votes = {
 	tip = "$1표"
 }
+
 
 _G.pg.base.gametip.vote_help_2023 = {
 	tip = {
@@ -27233,29 +32060,36 @@ _G.pg.base.gametip.vote_help_2023 = {
 	}
 }
 
+
 _G.pg.base.gametip.vote_tip_level_limit = {
 	tip = "지휘관 레벨 <color=#92fc63>Lv25</color> 이상 시 교환소를 이용할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.vote_label_rank = {
 	tip = "랭킹"
 }
 
+
 _G.pg.base.gametip.vote_label_rank_fresh_time_tip = {
 	tip = "※ 30분마다 랭킹이 갱신됩니다."
 }
+
 
 _G.pg.base.gametip.vote_tip_area_closed = {
 	tip = "해당 구역은 아직 오픈 시간이 아닙니다."
 }
 
+
 _G.pg.base.gametip.commander_skill_ui_info = {
 	tip = "정보"
 }
 
+
 _G.pg.base.gametip.commander_skill_ui_confirm = {
 	tip = "확정"
 }
+
 
 _G.pg.base.gametip.commander_formation_prefab_fleet = {
 	tip = [[
@@ -27265,9 +32099,11 @@ _G.pg.base.gametip.commander_formation_prefab_fleet = {
 영]]
 }
 
+
 _G.pg.base.gametip.rect_ship_card_tpl_add = {
 	tip = "탭하여 추가"
 }
+
 
 _G.pg.base.gametip.newyear2024_backhill_help = {
 	tip = {
@@ -27300,37 +32136,46 @@ _G.pg.base.gametip.newyear2024_backhill_help = {
 	}
 }
 
+
 _G.pg.base.gametip.last_times_sign = {
 	tip = "보상 수령 가능 횟수: $1"
 }
+
 
 _G.pg.base.gametip.skin_page_sign = {
 	tip = "출석 체크"
 }
 
+
 _G.pg.base.gametip.skin_page_desc = {
 	tip = "게임에 로그인하면 매일 $1개 보상 획득 및 미니 스토리 오픈 가능!"
 }
+
 
 _G.pg.base.gametip.live2d_reset_desc = {
 	tip = "Live2D 상태 리셋 되었습니다."
 }
 
+
 _G.pg.base.gametip.skin_exchange_usetip = {
 	tip = "아이템 $1가 창고로 발송되었습니다. 창고에서 사용할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.blackfriday_pack_select_skinall_dialog = {
 	tip = "교환 가능한 스킨을 이미 모두 소지하고 있습니다. <color=#92fc63>$1*1</color>를 <color=#92fc63>$2*1</color>로 교환하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.not_use_ticket_to_buy_skin = {
 	tip = "스킨 할인권 사용 안 함"
 }
 
+
 _G.pg.base.gametip.skin_purchase_over_price = {
 	tip = "<color=#92fc63>$1*1</color>를 소모하여 할인가\n<icon name=gem w=0.6 h=0.6/><color=#FFDE38FF>$2</color>의<color=#92fc63>$3</color>스킨을 구매하시겠습니까?\n（스킨 판매가 초과할 부분은 반환하지 않습니다.）"
 }
+
 
 _G.pg.base.gametip.help_chunjie2024 = {
 	tip = {
@@ -27350,358 +32195,438 @@ _G.pg.base.gametip.help_chunjie2024 = {
 	}
 }
 
+
 _G.pg.base.gametip.child_random_polaroid_drop = {
 	tip = "무작위 보상"
 }
+
 
 _G.pg.base.gametip.child_random_ops_drop = {
 	tip = "소중한 순간"
 }
 
+
 _G.pg.base.gametip.child_refresh_sure_tip = {
 	tip = "육성을 재시작하시겠습니까?"
 }
+
 
 _G.pg.base.gametip.child_target_set_sure_tip = {
 	tip = "육성 목표를 확정하시겠습니까? \n다음 육성 단계까지 변경할 수 없습니다."
 }
 
+
 _G.pg.base.gametip.child_polaroid_lock_tip = {
 	tip = "육성 단계 오픈 또는 TB의 개성 오픈으로 확인 가능"
 }
+
 
 _G.pg.base.gametip.child_task_finish_all = {
 	tip = "현재 단계의 육성 목표를 달성했습니다."
 }
 
+
 _G.pg.base.gametip.child_unlock_new_secretary = {
 	tip = "새로운 스킨 모듈이 오픈되었습니다. '특수 비서함' 화면에서 설정을 변경할 수 있습니다."
 }
+
 
 _G.pg.base.gametip.child_no_resource = {
 	tip = "자원이 부족합니다!"
 }
 
+
 _G.pg.base.gametip.child_target_set_empty = {
 	tip = "육성 목표가 설정되어 있지 않습니다."
 }
+
 
 _G.pg.base.gametip.child_target_set_skip = {
 	tip = "탭하여 <color=#39BFFF>육성 목표</color> 설정"
 }
 
+
 _G.pg.base.gametip.child_news_import_empty = {
 	tip = "이번 달에는 중요 이벤트가 없습니다."
 }
+
 
 _G.pg.base.gametip.child_news_other_empty = {
 	tip = "이번 달에는 이벤트가 없습니다."
 }
 
+
 _G.pg.base.gametip.word_week_day1 = {
 	tip = "월요일"
 }
+
 
 _G.pg.base.gametip.word_week_day2 = {
 	tip = "화요일"
 }
 
+
 _G.pg.base.gametip.word_week_day3 = {
 	tip = "수요일"
 }
+
 
 _G.pg.base.gametip.word_week_day4 = {
 	tip = "목요일"
 }
 
+
 _G.pg.base.gametip.word_week_day5 = {
 	tip = "금요일"
 }
+
 
 _G.pg.base.gametip.word_week_day6 = {
 	tip = "토요일"
 }
 
+
 _G.pg.base.gametip.word_week_day7 = {
 	tip = "일요일"
 }
+
 
 _G.pg.base.gametip.child_shop_price_title = {
 	tip = "합계:"
 }
 
+
 _G.pg.base.gametip.child_callname_tip = {
 	tip = "이름을 입력하세요."
 }
+
 
 _G.pg.base.gametip.child_plan_no_cost = {
 	tip = "- 소비 없음 -"
 }
 
+
 _G.pg.base.gametip.word_emoji_unlock = {
 	tip = "스탬프 오픈!"
 }
+
 
 _G.pg.base.gametip.word_get_emoji = {
 	tip = "「$1」"
 }
 
+
 _G.pg.base.gametip.word_show_extra_reward_at_fudai_dialog = {
 	tip = "(<color=#92fc63>특전 $1</color>)"
 }
+
 
 _G.pg.base.gametip.skin_shop_buy_confirm = {
 	tip = "<color=$1>다이아×$2</color>개를 소비하여 <color=#92fc63FF>$3</color>을(를) 구매하시겠습니까?"
 }
 
+
 _G.pg.base.gametip.activity_victory = {
 	tip = "함대를 출격시켜 승리함"
 }
+
 
 _G.pg.base.gametip.other_world_temple_toggle_1 = {
 	tip = "힘의 신상"
 }
 
+
 _G.pg.base.gametip.other_world_temple_toggle_2 = {
 	tip = "풍요의 신상"
 }
+
 
 _G.pg.base.gametip.other_world_temple_toggle_3 = {
 	tip = "지혜의 인상"
 }
 
+
 _G.pg.base.gametip.other_world_temple_char = {
 	tip = "수호신 총람"
 }
+
 
 _G.pg.base.gametip.other_world_temple_award = {
 	tip = "보상 확인"
 }
 
+
 _G.pg.base.gametip.other_world_temple_got = {
 	tip = "수령함"
 }
+
 
 _G.pg.base.gametip.other_world_temple_progress = {
 	tip = "$1한테 $2/$3회 바친 후 개방 가능"
 }
 
+
 _G.pg.base.gametip.other_world_temple_char_title = {
 	tip = "수호신 총람"
 }
+
 
 _G.pg.base.gametip.other_world_temple_award_last = {
 	tip = "$1/$2 남음"
 }
 
+
 _G.pg.base.gametip.other_world_temple_award_title_1 = {
 	tip = "힘의 신상의 은택"
 }
+
 
 _G.pg.base.gametip.other_world_temple_award_title_2 = {
 	tip = "풍요의 신상의 은택"
 }
 
+
 _G.pg.base.gametip.other_world_temple_award_title_3 = {
 	tip = "지혜의 인상의 은택"
 }
+
 
 _G.pg.base.gametip.other_world_temple_lottery_all = {
 	tip = "모든 보상 획득함"
 }
 
+
 _G.pg.base.gametip.other_world_temple_award_desc = {
 	tip = "※이벤트 기간 동안 쥬쥬의 심신상에 공물을 바치면 푸짐한 보상과 수호신의 가호를 받을 수 있습니다."
 }
+
 
 _G.pg.base.gametip.temple_consume_not_enough = {
 	tip = "자원 부족"
 }
 
+
 _G.pg.base.gametip.other_world_temple_pay = {
 	tip = "$1회 기원"
 }
+
 
 _G.pg.base.gametip.other_world_task_type_daily = {
 	tip = "일일 임무"
 }
 
+
 _G.pg.base.gametip.other_world_task_type_main = {
 	tip = "메인 임무"
 }
+
 
 _G.pg.base.gametip.other_world_task_type_repeat = {
 	tip = "중복 임무"
 }
 
+
 _G.pg.base.gametip.other_world_task_title = {
 	tip = "모험 의뢰판"
 }
+
 
 _G.pg.base.gametip.other_world_task_get_all = {
 	tip = "전부 수령"
 }
 
+
 _G.pg.base.gametip.other_world_task_go = {
 	tip = "이동"
 }
+
 
 _G.pg.base.gametip.other_world_task_got = {
 	tip = "수령함"
 }
 
+
 _G.pg.base.gametip.other_world_task_get = {
 	tip = "수령"
 }
+
 
 _G.pg.base.gametip.other_world_task_tag_main = {
 	tip = "메인 임무"
 }
 
+
 _G.pg.base.gametip.other_world_task_tag_daily = {
 	tip = "일일"
 }
+
 
 _G.pg.base.gametip.other_world_task_tag_all = {
 	tip = "전부"
 }
 
+
 _G.pg.base.gametip.terminal_personal_title = {
 	tip = "개인 정보"
 }
+
 
 _G.pg.base.gametip.terminal_adventure_title = {
 	tip = "모험 데이터"
 }
 
+
 _G.pg.base.gametip.terminal_guardian_title = {
 	tip = "수호신"
 }
+
 
 _G.pg.base.gametip.personal_info_title = {
 	tip = "기본 정보"
 }
 
+
 _G.pg.base.gametip.personal_property_title = {
 	tip = "속성"
 }
+
 
 _G.pg.base.gametip.personal_ability_title = {
 	tip = "스킬"
 }
 
+
 _G.pg.base.gametip.adventure_award_title = {
 	tip = "모험 레벨 보상"
 }
+
 
 _G.pg.base.gametip.adventure_progress_title = {
 	tip = "다음 업그레이드 까지:"
 }
 
+
 _G.pg.base.gametip.adventure_lv_title = {
 	tip = "모험 레벨:"
 }
+
 
 _G.pg.base.gametip.adventure_record_title = {
 	tip = "모험 기록:"
 }
 
+
 _G.pg.base.gametip.adventure_record_grade_title = {
 	tip = "모험자 평가:"
 }
+
 
 _G.pg.base.gametip.adventure_award_end_tip = {
 	tip = "※5.1(수) 24시까지 수령 가능"
 }
 
+
 _G.pg.base.gametip.guardian_select_title = {
 	tip = "수호신 선택"
 }
+
 
 _G.pg.base.gametip.guardian_sure_btn = {
 	tip = "장비"
 }
 
+
 _G.pg.base.gametip.guardian_cancel_btn = {
 	tip = "해제"
 }
+
 
 _G.pg.base.gametip.guardian_active_tip = {
 	tip = "적용 중"
 }
 
+
 _G.pg.base.gametip.personal_random = {
 	tip = "랜덤 생성"
 }
+
 
 _G.pg.base.gametip.adventure_get_all = {
 	tip = "전부 수령"
 }
 
+
 _G.pg.base.gametip.Announcements_Event_Notice = {
 	tip = "이벤트 공지"
 }
+
 
 _G.pg.base.gametip.Announcements_System_Notice = {
 	tip = "시스템 공지"
 }
 
+
 _G.pg.base.gametip.Announcements_News = {
 	tip = "최신 정보"
 }
+
 
 _G.pg.base.gametip.Announcements_Donotshow = {
 	tip = "금일 더 이상 표시하지 않음"
 }
 
+
 _G.pg.base.gametip.adventure_unlock_tip = {
 	tip = "<color=#92fc63>이전 난이도의 스테이지 클리어 후 </color> 개방 가능"
 }
+
 
 _G.pg.base.gametip.personal_random_tip = {
 	tip = "<color=#92fc63>스토리 모드</color> 완성 후 해제"
 }
 
+
 _G.pg.base.gametip.guardian_sure_limit_tip = {
 	tip = "수호신 장비 수량 상한 도잘"
 }
+
 
 _G.pg.base.gametip.other_world_temple_tip = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/otherworld_help2",
-				path = ""
+				path = "",
+				atlas = "helpbg/otherworld_help2"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/otherworld_help3",
-				path = ""
+				path = "",
+				atlas = "helpbg/otherworld_help3"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/otherworld_help4",
-				path = ""
+				path = "",
+				atlas = "helpbg/otherworld_help4"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/otherworld_help5",
-				path = ""
+				path = "",
+				atlas = "helpbg/otherworld_help5"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/otherworld_help1",
-				path = ""
+				path = "",
+				atlas = "helpbg/otherworld_help1"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -27715,43 +32640,44 @@ _G.pg.base.gametip.other_world_temple_tip = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.otherworld_map_help = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/otherworld_help1",
-				path = ""
+				path = "",
+				atlas = "helpbg/otherworld_help1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/otherworld_help2",
-				path = ""
+				path = "",
+				atlas = "helpbg/otherworld_help2"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/otherworld_help3",
-				path = ""
+				path = "",
+				atlas = "helpbg/otherworld_help3"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/otherworld_help4",
-				path = ""
+				path = "",
+				atlas = "helpbg/otherworld_help4"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/otherworld_help5",
-				path = ""
+				path = "",
+				atlas = "helpbg/otherworld_help5"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -27765,43 +32691,44 @@ _G.pg.base.gametip.otherworld_map_help = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.otherworld_backhill_help = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/otherworld_help1",
-				path = ""
+				path = "",
+				atlas = "helpbg/otherworld_help1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/otherworld_help2",
-				path = ""
+				path = "",
+				atlas = "helpbg/otherworld_help2"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/otherworld_help3",
-				path = ""
+				path = "",
+				atlas = "helpbg/otherworld_help3"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/otherworld_help4",
-				path = ""
+				path = "",
+				atlas = "helpbg/otherworld_help4"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/otherworld_help5",
-				path = ""
+				path = "",
+				atlas = "helpbg/otherworld_help5"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -27815,43 +32742,44 @@ _G.pg.base.gametip.otherworld_backhill_help = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.otherworld_terminal_help = {
 	tip = {
 		{
 			icon = {
-				atlas = "helpbg/otherworld_help4",
-				path = ""
+				path = "",
+				atlas = "helpbg/otherworld_help4"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/otherworld_help5",
-				path = ""
+				path = "",
+				atlas = "helpbg/otherworld_help5"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/otherworld_help1",
-				path = ""
+				path = "",
+				atlas = "helpbg/otherworld_help1"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/otherworld_help2",
-				path = ""
+				path = "",
+				atlas = "helpbg/otherworld_help2"
 			}
 		},
 		{
 			icon = {
-				atlas = "helpbg/otherworld_help3",
-				path = ""
+				path = "",
+				atlas = "helpbg/otherworld_help3"
 			}
 		},
 		disableScroll = true,
 		pageMode = true,
-		ImageMode = true,
 		defaultpage = 1,
+		ImageMode = true,
 		windowSize = {
 			x = 1263,
 			y = 873
@@ -27866,21 +32794,26 @@ _G.pg.base.gametip.otherworld_terminal_help = {
 	}
 }
 
+
 _G.pg.base.gametip.vote_2023_reward_word_1 = {
 	tip = "후후후, 나를 시뮬레이션하다니 시시하네. 초대만 했으면 처음부터 직접 와줬을 텐데… 뭐, 됐어. 어쨌든 재밌게 잘 즐겼으니, 작게나마 답례를 해줄게♪"
 }
+
 
 _G.pg.base.gametip.vote_2023_reward_word_2 = {
 	tip = "후후, 이건 우승자의 무대인데? 인내의 시간이 곧 끝날 때가 된 것 같네, 맞지? 자, 지휘관! 내 품에 안겨! 이제 우리 오래오래 '즐거움'이 무엇인지 토론해보자구…!"
 }
 
+
 _G.pg.base.gametip.vote_2023_reward_word_3 = {
 	tip = "후후후, 역시 본심을 따르셨군요, 지휘관님. 지휘관님과 제일 잘 어울려요. 역시 다이호예요…후후후, 그럼 다이호가 준비한 증표는 보셨나요? 그걸 하고 저와 데이트해요, 지휘관님~♪"
 }
 
+
 _G.pg.base.gametip.voting_page_reward = {
 	tip = "수령"
 }
+
 
 _G.pg.base.gametip.idol3rd_houshan = {
 	tip = {
@@ -27917,6 +32850,7 @@ _G.pg.base.gametip.idol3rd_houshan = {
 	}
 }
 
+
 _G.pg.base.gametip.idol3rd_collection = {
 	tip = {
 		{
@@ -27937,6 +32871,7 @@ _G.pg.base.gametip.idol3rd_collection = {
 		}
 	}
 }
+
 
 _G.pg.base.gametip.idol3rd_practice = {
 	tip = {
@@ -27967,9 +32902,11 @@ _G.pg.base.gametip.idol3rd_practice = {
 	}
 }
 
+
 _G.pg.base.gametip.liner_sign_cnt_tip = {
 	tip = "남은 출첵 가능 횟수:"
 }
+
 
 _G.pg.base.gametip.liner_sign_unlock_tip = {
 	tip = "6.6 점검 후 해제"
