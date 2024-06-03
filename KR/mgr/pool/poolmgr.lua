@@ -291,9 +291,7 @@ slot7 = {
 	"Loading",
 	"WorldUI"
 }
-slot8 = {
-	"WorldAllocateUI"
-}
+slot8 = {}
 
 slot0.GetUI = function(slot0, slot1, slot2, slot3)
 	slot0:FromPlural("ui/" .. slot1, slot1, slot2, table.contains(uv0, slot1) and 3 or 1, function (slot0)

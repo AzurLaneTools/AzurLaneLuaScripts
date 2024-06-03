@@ -418,7 +418,7 @@ return {
 			actor = 9706020,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "本来以为得拖到{namecode:433}和{namecode:441:腓特烈}那边完成新基地的建设，我们才能摆脱它们呢。",
+			say = "샤른호르스트와 \"프리드리히 데어 그로세\"가 새로운 기지를 건설할 때까지는 따돌릴 수 없을 줄 알았는데…",
 			painting = {
 				alpha = 0.3,
 				time = 1
