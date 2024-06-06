@@ -87,16 +87,17 @@ slot0.OnFirstFlush = function(slot0)
 		})
 	end, SFX_PANEL)
 
-	slot3 = getProxy(PlayerProxy)
-	slot3 = slot3:getRawData()
+	slot1 = getProxy(PlayerProxy)
+	slot1 = slot1:getRawData()
+	slot0.defaultName = slot1:GetName()
 
-	setInputText(slot0.nameInput, slot3:GetName())
+	setInputText(slot0.nameInput, slot0.defaultName)
 	onButton(slot0, slot0.sureBtn, function ()
 		if getInputText(uv0.nameInput) == "" then
 			return
 		end
 
-		if not nameValidityCheck(slot0, 4, 14, {
+		if slot0 ~= uv0.defaultName and not nameValidityCheck(slot0, 4, 14, {
 			"spece_illegal_tip",
 			"login_newPlayerScene_name_tooShort",
 			"login_newPlayerScene_name_tooLong",
@@ -118,7 +119,7 @@ slot0.OnFirstFlush = function(slot0)
 			return
 		end
 
-		if not nameValidityCheck(slot0, 4, 14, {
+		if slot0 ~= uv0.defaultName and not nameValidityCheck(slot0, 4, 14, {
 			"spece_illegal_tip",
 			"login_newPlayerScene_name_tooShort",
 			"login_newPlayerScene_name_tooLong",

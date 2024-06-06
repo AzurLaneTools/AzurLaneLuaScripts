@@ -513,6 +513,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>揚帆起航！ 豪華郵輪與心跳之旅！ </color>透過參與特別限定活動獲取",
 		scene = {}
 	},
+	[10001] = {
+		name = "限界的挑战者·双子座",
+		gain_by = "",
+		time_second = 0,
+		id = 10001,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>结晶之中闪烁着双子座的光芒，献给勇于挑战极限的指挥官！</color>\n通过参与「限界挑战」获取 （23.06.15-23.06.30）",
+		scene = {}
+	},
 	[1001] = {
 		name = "開服紀念",
 		gain_by = "",
@@ -580,6 +589,7 @@ pg.item_data_frame = {
 		604,
 		605,
 		606,
+		10001,
 		1001
 	}
 }

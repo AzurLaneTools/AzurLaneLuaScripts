@@ -119,8 +119,10 @@ slot0.Resetcontrol = function(slot0)
 					uv1:Updatecontrol()
 				end
 			end)
-			pressPersistTrigger(slot4:Find("number_panel/left"), 0.5, function ()
+			pressPersistTrigger(slot4:Find("number_panel/left"), 0.5, function (slot0)
 				if uv0.curCount <= 0 then
+					slot0()
+
 					return
 				end
 
@@ -128,8 +130,10 @@ slot0.Resetcontrol = function(slot0)
 
 				uv1:Updatecontrol()
 			end, nil, true, true, 0.1, SFX_PANEL)
-			pressPersistTrigger(slot4:Find("number_panel/right"), 0.5, function ()
+			pressPersistTrigger(slot4:Find("number_panel/right"), 0.5, function (slot0)
 				if uv0.maxCount <= uv0.curCount then
+					slot0()
+
 					return
 				end
 

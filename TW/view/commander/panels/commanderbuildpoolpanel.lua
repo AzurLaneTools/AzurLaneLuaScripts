@@ -103,6 +103,8 @@ slot0.Show = function(slot0, slot1, slot2)
 			pressPersistTrigger(slot2:Find("icon"), 0.5, function (slot0)
 				if #uv0.selected < uv1 and uv0.counts[uv2.id] > 0 then
 					uv0:ReduceCount(uv2.id, -1)
+				else
+					slot0()
 				end
 			end, nil, true, true, 0.15, SFX_PANEL)
 			setText(slot2:Find("name"), slot3:getName())

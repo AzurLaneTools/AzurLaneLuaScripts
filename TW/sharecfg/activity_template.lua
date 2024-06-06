@@ -5936,7 +5936,8 @@ pg.activity_template = {
 			12002,
 			12003,
 			12004,
-			12005
+			12005,
+			12006
 		},
 		config_client = {
 			"commonbg/meta_shop_bg",
@@ -10062,6 +10063,82 @@ pg.activity_template = {
 					59,
 					59
 				}
+			}
+		}
+	},
+	[5360] = {
+		mark = 20240606,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 48,
+		title_res_tag = "zhenhaimuseum",
+		id = 5360,
+		config_data = {
+			{
+				20182
+			},
+			{
+				20183
+			},
+			{
+				20184
+			},
+			{
+				20185
+			},
+			{
+				20186
+			},
+			{
+				20187
+			},
+			{
+				20188
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					6,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ZhenhaiMuseumPage",
+			ui_name = "ZhenhaiMuseumPage"
+		},
+		config_client = {
+			story = {
+				{
+					"CUIYUANJIAXIU"
+				},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
 			}
 		}
 	},
@@ -47003,6 +47080,7 @@ pg.activity_template = {
 			4971,
 			5017,
 			5324,
+			5360,
 			6000,
 			6001,
 			6002,
@@ -48428,6 +48506,7 @@ pg.activity_template = {
 		5348,
 		5350,
 		5355,
+		5360,
 		5361,
 		5362,
 		5363,

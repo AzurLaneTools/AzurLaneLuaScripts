@@ -106,16 +106,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4792",
-		type = 3,
+		type = 2,
 		id = 4,
 		pic = "temp6",
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		},
 		time = {
 			{
 				{
 					2024,
-					5,
-					16
+					6,
+					6
 				},
 				{
 					0,
@@ -127,7 +132,7 @@ pg.activity_banner = {
 				{
 					2024,
 					6,
-					13
+					12
 				},
 				{
 					23,
@@ -310,12 +315,35 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
-		type = 2,
+		param = "4877",
+		type = 3,
 		id = 10,
 		pic = "temp3",
-		param = {
-			"scene court yard"
+		time = {
+			{
+				{
+					2024,
+					6,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
@@ -351,11 +379,41 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4793",
-		time = "stop",
-		type = 3,
+		type = 2,
 		id = 12,
-		pic = "temp4"
+		pic = "temp4",
+		param = {
+			"metacharacter",
+			{
+				autoOpenShipConfigID = 9702051
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					6,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					9,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	{
 		type = 2,
@@ -813,20 +871,20 @@ pg.activity_banner = {
 	get_id_list_by_type = {
 		[3] = {
 			1,
-			4,
 			5,
 			6,
+			10,
 			11,
-			12,
 			1003
 		},
 		[2] = {
 			2,
 			3,
+			4,
 			7,
 			8,
 			9,
-			10,
+			12,
 			13,
 			1000,
 			1001,

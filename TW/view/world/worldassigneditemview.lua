@@ -31,8 +31,10 @@ slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.cancelBtn, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
-	pressPersistTrigger(slot0.rightArr, 0.5, function ()
+	pressPersistTrigger(slot0.rightArr, 0.5, function (slot0)
 		if not uv0.itemVO then
+			slot0()
+
 			return
 		end
 
@@ -40,8 +42,10 @@ slot0.OnInit = function(slot0)
 
 		uv0:updateValue()
 	end, nil, true, true, 0.1, SFX_PANEL)
-	pressPersistTrigger(slot0.leftArr, 0.5, function ()
+	pressPersistTrigger(slot0.leftArr, 0.5, function (slot0)
 		if not uv0.itemVO then
+			slot0()
+
 			return
 		end
 

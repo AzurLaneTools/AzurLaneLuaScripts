@@ -164,21 +164,20 @@ slot0.InitCounter = function(slot0, slot1, slot2, slot3, slot4)
 
 		if uv0 == uv0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("workbench_tips3"))
+			slot0()
 
 			return
 		end
 
 		uv2()
-	end, function ()
-		if uv0 == uv1[2] then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("workbench_tips3"))
-		end
-	end, true, true, 0.1, SFX_PANEL)
+	end, nil, true, true, 0.1, SFX_PANEL)
 	pressPersistTrigger(slot6:Find("Minus"), 0.5, function (slot0)
 		uv0 = uv0 - 1
 		uv0 = math.clamp(uv0, uv1[1], uv1[2])
 
 		if uv0 == uv0 then
+			slot0()
+
 			return
 		end
 

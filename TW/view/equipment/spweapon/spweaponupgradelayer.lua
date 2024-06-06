@@ -181,42 +181,39 @@ slot0.didEnter = function(slot0)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventInit then
-			pressPersistTrigger(slot2:Find("IconTpl"), 0.5, function ()
-				slot2 = uv0:GetSelectMaterial(uv0.candicateMaterials[uv1].id) and slot1.count or 0
-				slot3 = uv0.itemVOs[slot0] and uv0.itemVOs[slot0].count or 0
+			pressPersistTrigger(slot2:Find("IconTpl"), 0.5, function (slot0)
+				slot3 = uv0:GetSelectMaterial(uv0.candicateMaterials[uv1].id) and slot2.count or 0
+				slot4 = uv0.itemVOs[slot1] and uv0.itemVOs[slot1].count or 0
 
-				if uv0.ptMax or slot2 == slot3 then
-					return
-				end
-
-				if slot2 == slot3 then
-					return
-				end
-
-				if not slot1 then
-					table.insert(uv0.consumeItems, Item.New({
-						count = 0,
-						id = slot0
-					}))
-				end
-
-				slot1.count = slot1.count + 1
-
-				uv0:UpdateAll(true)
-			end, function ()
 				if uv0.ptMax then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("spweapon_tip_upgrade"))
+					slot0()
+				elseif slot3 == slot4 then
+					slot0()
+				else
+					if not slot2 then
+						table.insert(uv0.consumeItems, Item.New({
+							count = 0,
+							id = slot1
+						}))
+					end
+
+					slot2.count = slot2.count + 1
+
+					uv0:UpdateAll(true)
 				end
-			end, true, true, 0.15, SFX_PANEL)
-			pressPersistTrigger(slot2:Find("IconTpl/Reduce"), 0.5, function ()
-				if (uv0:GetSelectMaterial(uv0.candicateMaterials[uv1].id) and slot1.count or 0) == 0 then
+			end, nil, true, true, 0.15, SFX_PANEL)
+			pressPersistTrigger(slot2:Find("IconTpl/Reduce"), 0.5, function (slot0)
+				if (uv0:GetSelectMaterial(uv0.candicateMaterials[uv1].id) and slot2.count or 0) == 0 then
+					slot0()
+
 					return
 				end
 
-				slot1.count = slot1.count - 1
+				slot2.count = slot2.count - 1
 
-				if slot1.count <= 0 then
-					table.removebyvalue(uv0.consumeItems, slot1)
+				if slot2.count <= 0 then
+					table.removebyvalue(uv0.consumeItems, slot2)
 				end
 
 				uv0:UpdateAll(true)

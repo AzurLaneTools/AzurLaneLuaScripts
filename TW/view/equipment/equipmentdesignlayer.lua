@@ -586,8 +586,10 @@ slot0.showDesignDesc = function(slot0, slot1)
 		setText(uv0, slot0)
 		setText(uv1, slot0 * uv2)
 	end)(1)
-	pressPersistTrigger(findTF(slot2, "bg/calc/minus"), 0.5, function ()
+	pressPersistTrigger(findTF(slot2, "bg/calc/minus"), 0.5, function (slot0)
 		if uv0 <= 1 then
+			slot0()
+
 			return
 		end
 
@@ -595,8 +597,10 @@ slot0.showDesignDesc = function(slot0, slot1)
 
 		uv1(uv0)
 	end, nil, true, true, 0.1, SFX_PANEL)
-	pressPersistTrigger(findTF(slot2, "bg/calc/add"), 0.5, function ()
+	pressPersistTrigger(findTF(slot2, "bg/calc/add"), 0.5, function (slot0)
 		if uv0 == uv1 then
+			slot0()
+
 			return
 		end
 

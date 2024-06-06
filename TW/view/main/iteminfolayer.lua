@@ -235,15 +235,19 @@ slot0.didEnter = function(slot0)
 
 		uv0:SetOperateCount(1)
 	end, SFX_PANEL)
-	pressPersistTrigger(slot0.operateLeftButton, 0.5, function ()
+	pressPersistTrigger(slot0.operateLeftButton, 0.5, function (slot0)
 		if not uv0:UpdateCount(uv0.operateCount - 1) then
+			slot0()
+
 			return
 		end
 
 		uv0:SetOperateCount(uv0.operateCount - 1)
 	end, nil, true, true, 0.1, SFX_PANEL)
-	pressPersistTrigger(slot0.operateRightButton, 0.5, function ()
+	pressPersistTrigger(slot0.operateRightButton, 0.5, function (slot0)
 		if not uv0:UpdateCount(uv0.operateCount + 1) then
+			slot0()
+
 			return
 		end
 

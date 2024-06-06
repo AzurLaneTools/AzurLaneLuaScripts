@@ -2484,6 +2484,114 @@ pg.drop_data_restore = {
 		drop_id = 65228,
 		target_id = 191
 	},
+	[7001] = {
+		target_type = 14,
+		resource_type = 1,
+		type = 1,
+		id = 7001,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 201
+	},
+	[7002] = {
+		target_type = 14,
+		resource_type = 1,
+		type = 1,
+		id = 7002,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 202
+	},
+	[7003] = {
+		target_type = 14,
+		resource_type = 1,
+		type = 1,
+		id = 7003,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 203
+	},
+	[7004] = {
+		target_type = 14,
+		resource_type = 1,
+		type = 1,
+		id = 7004,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 204
+	},
+	[7005] = {
+		target_type = 14,
+		resource_type = 1,
+		type = 1,
+		id = 7005,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 205
+	},
+	[7006] = {
+		target_type = 14,
+		resource_type = 1,
+		type = 1,
+		id = 7006,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 206
+	},
+	[7007] = {
+		target_type = 14,
+		resource_type = 1,
+		type = 1,
+		id = 7007,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 207
+	},
+	[7008] = {
+		target_type = 14,
+		resource_type = 1,
+		type = 1,
+		id = 7008,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 208
+	},
+	[7009] = {
+		target_type = 14,
+		resource_type = 1,
+		type = 1,
+		id = 7009,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 209
+	},
+	[7010] = {
+		target_type = 14,
+		resource_type = 1,
+		type = 1,
+		id = 7010,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 210
+	},
+	[7011] = {
+		target_type = 14,
+		resource_type = 1,
+		type = 1,
+		id = 7011,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 211
+	},
+	[7012] = {
+		target_type = 14,
+		resource_type = 1,
+		type = 1,
+		id = 7012,
+		resource_num = 2000,
+		drop_id = 0,
+		target_id = 212
+	},
 	[10001] = {
 		target_type = 7,
 		resource_type = 14,
@@ -5083,6 +5191,18 @@ pg.drop_data_restore = {
 		5015,
 		5016,
 		6000,
+		7001,
+		7002,
+		7003,
+		7004,
+		7005,
+		7006,
+		7007,
+		7008,
+		7009,
+		7010,
+		7011,
+		7012,
 		10001,
 		10002,
 		10003,

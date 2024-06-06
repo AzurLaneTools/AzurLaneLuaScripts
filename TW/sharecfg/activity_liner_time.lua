@@ -122,10 +122,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "去教室看看或許會很有趣",
+		desc_before = "考慮到露天泳池游泳",
 		type = 1,
 		id = 9,
-		desc_after = "好好學習，天天向上",
+		desc_after = "將過熱的亞爾薩斯送去了醫務室",
 		bg_name = "day",
 		time = {
 			8,
@@ -167,10 +167,10 @@ pg.activity_liner_time = {
 		}
 	},
 	{
-		desc_before = "考慮到露天泳池游泳",
+		desc_before = "去教室看看或許會很有趣",
 		type = 1,
 		id = 12,
-		desc_after = "將過熱的亞爾薩斯送去了醫務室",
+		desc_after = "好好學習，天天向上",
 		bg_name = "dusk",
 		time = {
 			18,

@@ -154,6 +154,7 @@ pg.memory_group = setmetatable({
 		282,
 		286,
 		288,
+		290,
 		501,
 		502,
 		503,
@@ -3654,6 +3655,17 @@ pg.base.memory_group = {
 			3604,
 			3605,
 			3606
+		}
+	},
+	[290] = {
+		title = "翠園佳繡",
+		subtype = 3,
+		link_event = 5360,
+		type = 2,
+		id = 290,
+		icon = "title_event",
+		memories = {
+			3651
 		}
 	},
 	[501] = {

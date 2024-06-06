@@ -710,7 +710,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9702051] = {
-		breakout_view = "習得技能【構造之理··{namecode:293}】/主炮效率提高5%",
+		breakout_view = "習得技能【構造之理·{namecode:293}】/主炮效率提高5%",
 		item2 = 21025,
 		pre_id = 0,
 		repair = 0,
@@ -743,7 +743,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702053] = {
-		breakout_view = "【構造之理··{namecode:293}】升級/魚雷效率提高15%",
+		breakout_view = "【構造之理·{namecode:293}】升級/魚雷效率提高15%",
 		item2 = 21025,
 		pre_id = 9702052,
 		repair = 0,

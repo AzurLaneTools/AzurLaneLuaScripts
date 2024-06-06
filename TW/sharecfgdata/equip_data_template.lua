@@ -77371,7 +77371,10 @@ _G.pg.base.equip_data_template[14460] = {
 		}
 	},
 	restore_item = {},
-	upgrade_formula_id = {}
+	upgrade_formula_id = {
+		14460,
+		14461
+	}
 }
 
 

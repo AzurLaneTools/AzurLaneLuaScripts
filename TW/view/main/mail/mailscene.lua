@@ -789,8 +789,10 @@ slot0.UpdateStore = function(slot0)
 
 			setInputText(uv0, uv3.withdrawal[uv4])
 		end)
-		pressPersistTrigger(slot20:Find("count/left"), 0.5, function ()
+		pressPersistTrigger(slot20:Find("count/left"), 0.5, function (slot0)
 			if uv0.withdrawal[uv1] == 0 then
+				slot0()
+
 				return
 			end
 
@@ -802,9 +804,10 @@ slot0.UpdateStore = function(slot0)
 				uv3()
 			end
 		end, nil, true, true, 0.15, SFX_PANEL)
-		pressPersistTrigger(slot20:Find("count/right"), 0.5, function ()
+		pressPersistTrigger(slot20:Find("count/right"), 0.5, function (slot0)
 			if uv2 <= uv0.withdrawal[uv1] then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("resource_max_tip_storeroom"))
+				slot0()
 
 				return
 			end
@@ -813,7 +816,7 @@ slot0.UpdateStore = function(slot0)
 				return
 			end
 
-			slot0 = uv0.withdrawal[uv1]
+			slot1 = uv0.withdrawal[uv1]
 			uv0.withdrawal[uv1] = math.min(uv0.withdrawal[uv1] + 100, uv3)
 
 			if uv2 <= uv0.withdrawal[uv1] then
@@ -824,7 +827,7 @@ slot0.UpdateStore = function(slot0)
 
 			setInputText(uv4, uv0.withdrawal[uv1])
 
-			if slot0 == 0 then
+			if slot1 == 0 then
 				uv5()
 			end
 		end, nil, true, true, 0.15, SFX_PANEL)

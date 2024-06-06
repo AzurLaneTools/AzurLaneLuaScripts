@@ -734,26 +734,26 @@ pressPersistTrigger = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, 
 				uv1.duration = math.max(uv1.duration - uv2 / 10, uv3)
 			end
 
-			existCall(uv4)
+			existCall(uv4, uv5)
 		end, uv2, -1)
-
-		if uv5 then
-			uv0.func()
-		end
 
 		uv0:Start()
 
-		if uv6 and uv7 then
-			pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv6)
+		if uv6 then
+			uv0.func()
+		end
+
+		if uv7 and uv8 then
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv7)
 		end
 	end)
 	slot8:AddPointUpFunc(function ()
-		uv0:Stop()
+		if uv0 then
+			uv0:Stop()
 
-		uv0 = nil
+			uv0 = nil
 
-		if uv1 then
-			uv1()
+			existCall(uv1)
 		end
 	end)
 

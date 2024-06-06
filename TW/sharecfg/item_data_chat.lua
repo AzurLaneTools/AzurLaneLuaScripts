@@ -80,6 +80,14 @@ pg.item_data_chat = {
 		desc = "在水波蕩漾之中，盡情享受假日郵輪之旅吧~！ \n<color=#A7A7AAFF>透過參與特別限定活動取得</color>",
 		scene = {}
 	},
+	[10001] = {
+		name = "限界的挑战者·双子座",
+		time_second = 0,
+		id = 10001,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
+		scene = {}
+	},
 	[1001] = {
 		name = "開服紀念",
 		time_second = 0,
@@ -99,6 +107,7 @@ pg.item_data_chat = {
 		602,
 		603,
 		606,
+		10001,
 		1001
 	}
 }

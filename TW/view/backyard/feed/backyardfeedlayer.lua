@@ -176,14 +176,6 @@ slot2 = function(slot0, slot1)
 	pressPersistTrigger(slot1.icon, 0.5, function (slot0)
 		uv0:SimulateAddFood(uv1.foodId, slot0)
 	end, function ()
-		if uv0.simulateFood ~= uv0.simulateCapacity and uv0.simulateCapacity < uv0.simulateFood + uv0.simulateAddition and uv0.remindEndTime < pg.TimeMgr.GetInstance():GetServerTime() then
-			uv0:ShowCapcityTip(uv1.foodId, uv0.simulateFood, uv0.simulateCapacity, uv0.simulateAddition)
-		elseif uv0.simulateCapacity <= uv0.simulateFood then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_backyardGranaryLayer_full"))
-		elseif uv0.simulateItemCnt == 0 then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_backyardGranaryLayer_foodCountLimit"))
-		end
-
 		uv0:TriggerAddFood(uv1.foodId, uv0.simulateUsageCnt)
 
 		uv0.simulateFood = nil
@@ -236,18 +228,31 @@ slot0.UpdateCards = function(slot0)
 	end
 end
 
-slot0.SimulateAddFood = function(slot0, slot1)
+slot0.SimulateAddFood = function(slot0, slot1, slot2)
 	if not slot0.isSimulation then
-		slot2 = getProxy(DormProxy):getRawData()
-		slot0.simulateFood = slot2.food
-		slot0.simulateCapacity = slot2:GetCapcity()
+		slot3 = getProxy(DormProxy):getRawData()
+		slot0.simulateFood = slot3.food
+		slot0.simulateCapacity = slot3:GetCapcity()
 		slot0.simulateAddition = Item.getConfigData(slot1).usage_arg[1]
 		slot0.simulateItemCnt = getProxy(BagProxy):getItemCountById(slot1)
 		slot0.simulateUsageCnt = 0
 		slot0.isSimulation = true
 	end
 
-	if slot0.simulateFood ~= slot0.simulateCapacity and slot0.simulateCapacity < slot0.simulateFood + slot0.simulateAddition and slot0.remindEndTime < pg.TimeMgr.GetInstance():GetServerTime() or slot0.simulateCapacity <= slot0.simulateFood or slot0.simulateItemCnt == 0 then
+	if slot0.simulateCapacity <= slot0.simulateFood then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_backyardGranaryLayer_full"))
+		slot2()
+
+		return
+	elseif slot0.simulateItemCnt == 0 then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_backyardGranaryLayer_foodCountLimit"))
+		slot2()
+
+		return
+	elseif slot0.simulateCapacity < slot0.simulateFood + slot0.simulateAddition and slot0.remindEndTime < pg.TimeMgr.GetInstance():GetServerTime() then
+		slot0:ShowCapcityTip(slot1, slot0.simulateFood, slot0.simulateCapacity, slot0.simulateAddition)
+		slot2()
+
 		return
 	end
 

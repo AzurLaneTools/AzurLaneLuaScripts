@@ -10944,6 +10944,99 @@ _G.pg.base.item_data_statistics[16024] = {
 }
 
 
+_G.pg.base.item_data_statistics[16031] = {
+	open_directly = 0,
+	name = "META通用戰術教材T1",
+	type = 25,
+	display = "META通用戰術教材T1，可在META戰術研習介面使用，為所選角色提供100技能經驗",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/16031",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "100",
+	id = 16031,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[16032] = {
+	open_directly = 0,
+	name = "META通用戰術教材T2",
+	type = 25,
+	display = "META通用戰術教材T2，可在META戰術研習介面使用，為所選角色提供1000技能經驗",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/16032",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "1000",
+	id = 16032,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[16033] = {
+	open_directly = 0,
+	name = "META通用戰術教材T3",
+	type = 25,
+	display = "META通用戰術教材T3，可在META戰術研習介面使用，為所選角色提供10000技能經驗",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/16033",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "10000",
+	id = 16033,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[16501] = {
 	open_directly = 0,
 	name = "艦艇演習數據T1",
@@ -14008,6 +14101,37 @@ _G.pg.base.item_data_statistics[21024] = {
 }
 
 
+_G.pg.base.item_data_statistics[21025] = {
+	open_directly = 0,
+	name = "結晶：{namecode:293}",
+	type = 4,
+	display = "{namecode:293}的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21025",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21025,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[21026] = {
 	open_directly = 0,
 	name = "結晶：普林斯頓·META",
@@ -14556,6 +14680,37 @@ _G.pg.base.item_data_statistics[21911] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21911,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[21912] = {
+	open_directly = 0,
+	name = "同步值：{namecode:293}",
+	type = 4,
+	display = "在「信標·META」戰鬥中收集的數據，可以提升{namecode:293}同步率。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21912",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21912,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
