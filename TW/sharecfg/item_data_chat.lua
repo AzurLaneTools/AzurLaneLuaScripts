@@ -81,11 +81,11 @@ pg.item_data_chat = {
 		scene = {}
 	},
 	[10001] = {
-		name = "限界的挑战者·双子座",
+		name = "極限的挑戰者·雙子座",
 		time_second = 0,
 		id = 10001,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>献给勇于挑战极限的指挥官！</color>\n<color=#A7A7AAFF>通过参与「限界挑战」获取 </color>",
+		desc = "<color=#ffffff>獻給勇於挑戰極限的指揮官！</color>\n<color=#A7A7AAFF>透過參與「限界挑戰」取得 </color>",
 		scene = {}
 	},
 	[1001] = {
