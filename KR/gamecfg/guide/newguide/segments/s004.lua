@@ -18,12 +18,18 @@ return {
 				mode = 2,
 				dir = -1,
 				posY = -275,
-				posX = 348,
+				posX = 168,
 				text = slot0[1]
 			},
 			ui = {
 				pathIndex = -1,
-				path = "/OverlayCamera/Overlay/UIMain/main/frame/right/formationButton",
+				dynamicPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/right/1/formation"
+					else
+						return "/OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/right/formationButton"
+					end
+				end,
 				triggerType = {
 					1
 				},

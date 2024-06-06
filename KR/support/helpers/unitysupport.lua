@@ -815,7 +815,7 @@ setBlackMask = function(slot0, slot1, slot2)
 
 		slot4:SetColor("_Color", slot2.color or Color(0, 0, 0, 0.2))
 
-		slot3.AjusterMaterial = slot4
+		slot3.adjusterMaterial = slot4
 		slot3.enabled = true
 	else
 		RemoveComponent(slot0, "UIMaterialAdjuster")

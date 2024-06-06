@@ -362,7 +362,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "――아, 스폰서명은 어떻게 해? 그냥 각 진영 공동 주최로 쓰면 돼?",
+			say = "――아, 스폰서명은 어떻게 해? 그냥 각 진영 공동 주최로 god",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -81,11 +81,6 @@ slot0.loginProcessHandler = function(slot0)
 			uv0.viewComponent:switchToAiriLogin()
 		end
 
-		if not IsUnityEditor then
-			uv0:CheckMaintain()
-			coroutine.yield()
-		end
-
 		uv0:CheckMaintain()
 
 		if uv0.contextData.code then

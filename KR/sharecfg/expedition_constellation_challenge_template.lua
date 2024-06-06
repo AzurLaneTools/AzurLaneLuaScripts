@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.expedition_constellation_challenge_template = {
 	[10001] = {
-		button_style = 6,
+		button_style = 7,
 		information_icon = "huashengdun_constellation",
 		painting = "huashengdun",
 		id = 10001,
@@ -30,7 +30,7 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10002] = {
-		button_style = 6,
+		button_style = 7,
 		information_icon = "huashengdun_constellation",
 		painting = "huashengdun",
 		id = 10002,
@@ -59,7 +59,7 @@ pg.expedition_constellation_challenge_template = {
 		}
 	},
 	[10003] = {
-		button_style = 6,
+		button_style = 7,
 		information_icon = "huashengdun_constellation",
 		painting = "huashengdun",
 		id = 10003,

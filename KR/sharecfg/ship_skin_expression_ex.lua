@@ -16373,5 +16373,380 @@ pg.ship_skin_expression_ex = {
 				"5"
 			}
 		}
+	},
+	aersasi = {
+		feeling3 = "",
+		main_1 = "",
+		painting = "aersasi",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"11"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"13"
+			}
+		},
+		home = {
+			{
+				1100,
+				"12"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"10"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"12"
+			}
+		},
+		upgrade = {
+			{
+				1100,
+				"10"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"12|9|10|13"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"9"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"11"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"10"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"12"
+			}
+		},
+		mail = {
+			{
+				1100,
+				"10"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"12"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"10"
+			}
+		}
+	},
+	mojiaduoer = {
+		feeling3 = "",
+		main_1 = "",
+		win_mvp = "",
+		painting = "mojiaduoer",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				""
+			}
+		},
+		home = {
+			{
+				1100,
+				""
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				""
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"3|||3"
+			}
+		},
+		touch = {
+			{
+				1100,
+				""
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"3"
+			}
+		},
+		mission = {
+			{
+				1100,
+				""
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				""
+			}
+		},
+		mail = {
+			{
+				1100,
+				"3"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				""
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				""
+			}
+		}
+	},
+	bulunnusi = {
+		touch = "",
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		expedition = "",
+		win_mvp = "",
+		mail = "",
+		painting = "bulunnusi",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"3"
+			}
+		},
+		home = {
+			{
+				1100,
+				"3"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"4"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"3|4|3"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"4"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"4"
+			}
+		}
+	},
+	huajian = {
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		expedition = "",
+		win_mvp = "",
+		mail = "",
+		painting = "huajian",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"7"
+			}
+		},
+		home = {
+			{
+				1100,
+				"6"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"6|7"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"1"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"5"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"4"
+			}
+		}
+	},
+	zhongjian = {
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		mail = "",
+		painting = "zhongjian",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"3"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"2"
+			}
+		},
+		home = {
+			{
+				1100,
+				"8"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"3"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"2"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"3|2"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"8"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"4"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"8"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"3"
+			}
+		}
 	}
 }

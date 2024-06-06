@@ -144,7 +144,7 @@ end
 slot3.calcHPCount = function(slot0, slot1)
 	slot2, slot3 = slot1:GetHP()
 	slot4, slot5 = slot0._caster:GetHP()
-	slot0._hpCountTarget = slot0._casterMaxHPRatio * slot5 + slot0._maxHPRatio * slot3 + slot0._countTarget
+	slot0._hpCountTarget = math.floor(slot0._casterMaxHPRatio * slot5 + slot0._maxHPRatio * slot3 + slot0._countTarget)
 end
 
 slot3.GetCountType = function(slot0)

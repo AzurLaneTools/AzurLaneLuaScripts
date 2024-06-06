@@ -63,7 +63,7 @@ end
 
 slot2.InitialCD = function(slot0)
 	uv0.super.InitialCD(slot0)
-	slot0._playerTorpedoVO:Deduct(slot0)
+	slot0._playerTorpedoVO:InitialDeduct(slot0)
 	slot0._playerTorpedoVO:Charge(slot0)
 end
 

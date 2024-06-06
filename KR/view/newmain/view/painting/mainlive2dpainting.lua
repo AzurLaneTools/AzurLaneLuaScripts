@@ -45,6 +45,14 @@ slot0.OnLoad = function(slot0, slot1)
 	slot0:AddScreenChangeTimer()
 end
 
+slot0.ResetState = function(slot0)
+	if not slot0.live2dChar then
+		return
+	end
+
+	slot0.live2dChar:resetL2dData()
+end
+
 slot0.AdJustOrderInLayer = function(slot0, slot1)
 	if slot0.container:GetComponent(typeof(Canvas)) and slot2.overrideSorting and slot2.sortingOrder ~= 0 then
 		ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Rendering.CubismRenderController"), "SortingOrder", slot1._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController"), slot2.sortingOrder)
@@ -255,7 +263,7 @@ slot0.GetOffset = function(slot0)
 end
 
 slot0.GetCenterPos = function(slot0)
-	return slot0.chatTf.parent:InverseTransformPoint(slot0.live2dContainer.position)
+	return slot0.live2dContainer.position
 end
 
 slot0.IslimitYPos = function(slot0)

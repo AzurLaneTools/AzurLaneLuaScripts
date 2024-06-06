@@ -37,10 +37,19 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.icon = slot1.icon
 	slot0.autoShowOption = defaultValue(slot1.autoShowOption, false)
 	slot0.dispatcher = slot1.dispatcher
+	slot0.shakeTime = defaultValue(slot1.shakeTime, 0)
 	slot0.selectedBranchCode = 0
 	slot0.id = 0
 	slot0.placeholderType = 0
 	slot0.defaultTb = slot1.defaultTb
+end
+
+slot0.ShouldShake = function(slot0)
+	return slot0.shakeTime > 0
+end
+
+slot0.GetShakeTime = function(slot0)
+	return slot0.shakeTime
 end
 
 slot0.SetDefaultTb = function(slot0, slot1)

@@ -35,6 +35,7 @@ slot0.init = function(slot0)
 
 	setActive(slot0.emojiIconItem, false)
 
+	slot0.parentTr = slot0._tf.parent
 	slot0.resource = slot0:findTF("frame/resource")
 	slot0.frame = slot0:findTF("frame")
 	slot0.frame.position = slot0.contextData.pos or Vector3(0, 0, 0)
@@ -48,10 +49,15 @@ slot0.didEnter = function(slot0)
 		uv0:emit(uv1.ON_CLOSE)
 	end, SFX_CANCEL)
 	slot0:display()
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		groupName = slot0:getGroupNameFromData(),
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+
+	if getProxy(SettingsProxy):IsMellowStyle() then
+		setParent(slot0._tf, pg.UIMgr.GetInstance().OverlayMain)
+	else
+		pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+			groupName = slot0:getGroupNameFromData(),
+			weight = LayerWeightConst.SECOND_LAYER
+		})
+	end
 end
 
 slot0.display = function(slot0)
@@ -344,7 +350,12 @@ slot0.willExit = function(slot0)
 	_.each(slot0.tplCaches, function (slot0)
 		uv0:clearItem(slot0)
 	end)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+
+	if getProxy(SettingsProxy):IsMellowStyle() then
+		setParent(slot0._tf, slot0.parentTr)
+	else
+		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	end
 end
 
 return slot0

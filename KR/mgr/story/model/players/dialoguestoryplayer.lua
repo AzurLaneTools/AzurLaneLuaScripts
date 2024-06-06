@@ -137,6 +137,10 @@ slot0.ResetActorTF = function(slot0, slot1, slot2)
 		slot0.paintingStay = true
 
 		slot0:ResetMeshPainting(slot4)
+
+		if slot1:IsSpinePainting() then
+			slot0:HideSpineEffect(slot4, slot1)
+		end
 	end
 
 	slot0:RecyclePaintingList(slot5)
@@ -151,6 +155,38 @@ slot0.ResetActorTF = function(slot0, slot1, slot2)
 	}) do
 		slot10:GetComponent(typeof(CanvasGroup)).alpha = 1
 	end
+end
+
+slot0.HideSpineEffect = function(slot0, slot1)
+	slot0.spineEffectOrderCaches = {}
+
+	slot2 = function(slot0)
+		for slot5 = 1, slot0:GetComponentsInChildren(typeof("UnityEngine.ParticleSystemRenderer")).Length do
+			slot6 = slot1[slot5 - 1]
+
+			ReflectionHelp.RefSetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot6, -1)
+
+			uv0.spineEffectOrderCaches[slot6] = ReflectionHelp.RefGetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot6)
+		end
+	end
+
+	slot2(slot1:Find("spine"))
+	slot2(slot1:Find("spinebg"))
+end
+
+slot0.RevertSpineEffect = function(slot0, slot1, slot2)
+	if not slot2 then
+		return
+	end
+
+	slot3 = function(slot0)
+		for slot5 = 1, slot0:GetComponentsInChildren(typeof("UnityEngine.ParticleSystemRenderer")).Length do
+			ReflectionHelp.RefSetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot6, uv0[slot1[slot5 - 1]] or 950)
+		end
+	end
+
+	slot3(slot1:Find("spine"))
+	slot3(slot1:Find("spinebg"))
 end
 
 slot0.OnInit = function(slot0, slot1, slot2, slot3)
@@ -400,9 +436,16 @@ slot0.UpdatePainting = function(slot0, slot1, slot2, slot3)
 		return
 	end
 
+	slot4 = not slot0.paintingStay
+
+	if slot0.paintingStay and slot0.spineEffectOrderCaches and slot1:IsSpinePainting() then
+		slot0:RevertSpineEffect(slot0:GetSideTF(slot1:GetSide()), slot0.spineEffectOrderCaches)
+	end
+
+	slot0.spineEffectOrderCaches = nil
 	slot0.paintingStay = nil
 	slot5, slot6, slot7, slot8 = slot0:GetSideTF(slot1:GetSide())
-	slot9 = slot2 and slot2:IsDialogueMode() and (slot1:ShouldGrayingOutPainting(slot2) or slot1:ShouldGrayingPainting(slot2)) or not slot1:ShouldFadeInPainting() or not not slot0.paintingStay
+	slot9 = slot2 and slot2:IsDialogueMode() and (slot1:ShouldGrayingOutPainting(slot2) or slot1:ShouldGrayingPainting(slot2)) or not slot1:ShouldFadeInPainting() or not slot4
 	slot10 = slot2 and slot2:IsDialogueMode() and slot1:ShouldGrayingPainting(slot2)
 
 	seriesAsync({
@@ -509,9 +552,9 @@ slot0.LoadPainting = function(slot0, slot1, slot2, slot3)
 	slot4, slot5, slot6, slot7 = slot0:GetSideTF(slot1:GetSide())
 	slot8, slot9 = slot1:GetPaintingAndName()
 
-	if slot1:IsLive2dPainting() and PathMgr.FileExists(PathMgr.getAssetBundle("live2d/" .. slot9)) then
+	if slot1:IsLive2dPainting() and checkABExist("live2d/" .. slot9) then
 		slot0:UpdateLive2dPainting(slot1, slot4, slot2, slot3)
-	elseif slot1:IsSpinePainting() and PathMgr.FileExists(PathMgr.getAssetBundle("spinepainting/" .. slot9)) then
+	elseif slot1:IsSpinePainting() and checkABExist("spinepainting/" .. slot9) then
 		slot0:UpdateSpinePainting(slot1, slot4, slot2, slot3)
 	else
 		slot0:UpdateMeshPainting(slot1, slot4, slot7, slot2, slot3)
@@ -603,7 +646,7 @@ slot6 = function(slot0, slot1, slot2)
 	slot9 = slot2 - slot5 + 1
 
 	for slot13 = 1, slot3.Length do
-		slot3[slot13 - 1].sortingOrder = slot9
+		slot3[slot13 - 1].sortingOrder = slot9 + slot13 - 1
 	end
 
 	slot10 = slot9 + 1
@@ -632,70 +675,53 @@ slot6 = function(slot0, slot1, slot2)
 end
 
 slot7 = function(slot0, slot1, slot2)
-	slot4 = nil
-
-	for slot8 = 1, slot0:GetComponentsInChildren(typeof(Canvas)).Length do
-		if slot8 - 1 == slot1 then
-			slot4 = slot3[slot8 - 1].sortingOrder
-		end
-	end
-
+	slot4 = slot0:GetComponentsInChildren(typeof("UnityEngine.ParticleSystemRenderer"))
 	slot5 = math.huge
 
-	if slot3.Length == 0 then
+	if slot0:GetComponentsInChildren(typeof(Canvas)).Length == 0 then
 		slot5 = 0
 	else
 		for slot9 = 1, slot3.Length do
-			if slot9 - 1 ~= slot1 and slot5 > slot3[slot9 - 1].sortingOrder - slot4 then
+			if slot3[slot9 - 1].sortingOrder < slot5 then
 				slot5 = slot11
 			end
 		end
 	end
 
-	slot7 = {}
+	slot6 = {}
 
-	for slot11 = 1, slot0:GetComponentsInChildren(typeof("UnityEngine.ParticleSystemRenderer")).Length do
-		slot13 = ReflectionHelp.RefGetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot6[slot11 - 1])
-		slot7[slot11] = slot13
+	for slot10 = 1, slot4.Length do
+		slot12 = ReflectionHelp.RefGetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot4[slot10 - 1])
+		slot6[slot10] = slot12
 
-		if slot5 > slot13 - slot4 then
-			slot5 = slot14
+		if slot12 < slot5 then
+			slot5 = slot12
 		end
 	end
 
-	slot8 = slot2 - slot5 + 1
+	slot8 = slot2 + 1 - slot5
 
 	for slot12 = 1, slot3.Length do
-		if slot12 - 1 == slot1 then
-			slot3[slot12 - 1].sortingOrder = slot8
+		slot13 = slot3[slot12 - 1]
+		slot14 = slot8 + slot13.sortingOrder
+		slot13.sortingOrder = slot14
+
+		if slot7 < slot14 then
+			slot7 = slot14
 		end
 	end
 
-	slot9 = slot8 + 1
+	for slot12 = 1, slot4.Length do
+		slot15 = slot8 + slot6[slot12]
 
-	for slot13 = 1, slot3.Length do
-		if slot13 - 1 ~= slot1 then
-			slot14 = slot3[slot13 - 1]
-			slot15 = slot8 + slot14.sortingOrder - slot4
-			slot14.sortingOrder = slot15
+		ReflectionHelp.RefSetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot4[slot12 - 1], slot15)
 
-			if slot8 < slot15 then
-				slot9 = slot15
-			end
+		if slot15 < slot7 then
+			slot7 = slot15
 		end
 	end
 
-	for slot13 = 1, slot6.Length do
-		slot16 = slot8 + slot7[slot13] - slot4
-
-		ReflectionHelp.RefSetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot6[slot13 - 1], slot16)
-
-		if slot8 < slot16 then
-			slot9 = slot16
-		end
-	end
-
-	return slot9
+	return slot7
 end
 
 slot0.UpdateSpinePainting = function(slot0, slot1, slot2, slot3, slot4)
@@ -751,11 +777,11 @@ slot0.UpdateMeshPainting = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot7 = false
 
 	slot8 = function()
-		if uv0:IsShowNPainting() and PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. uv1 .. "_n")) then
+		if uv0:IsShowNPainting() and checkABExist("painting/" .. uv1 .. "_n") then
 			uv1 = uv1 .. "_n"
 		end
 
-		if uv0:IsShowWJZPainting() and PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. uv1 .. "_wjz")) then
+		if uv0:IsShowWJZPainting() and checkABExist("painting/" .. uv1 .. "_wjz") then
 			uv1 = uv1 .. "_wjz"
 		end
 
@@ -798,7 +824,7 @@ end
 slot8 = function(slot0)
 	slot1 = slot0.name
 
-	if slot0.showNPainting and PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot1 .. "_n")) then
+	if slot0.showNPainting and checkABExist("painting/" .. slot1 .. "_n") then
 		slot1 = slot1 .. "_n"
 	end
 

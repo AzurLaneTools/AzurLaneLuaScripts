@@ -532,7 +532,7 @@ return {
 		end
 	end,
 	AiriYoStarPassMigrateHandler = function (slot0)
-		if slot0.SHOW_MIGRATE_PAGE == 1 then
+		if slot0.R_CODE == 0 and slot0.SHOW_MIGRATE_PAGE == 1 then
 			uv0.BindYostarPass()
 
 			return true

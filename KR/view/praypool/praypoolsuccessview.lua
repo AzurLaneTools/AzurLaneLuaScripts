@@ -40,6 +40,10 @@ slot0.initUI = function(slot0)
 		slot0:findTF("Ship1"),
 		slot0:findTF("Ship2")
 	}
+	slot0.shipRarityTF = {
+		slot0:findTF("Rarity1"),
+		slot0:findTF("Rarity2")
+	}
 	slot0.boxTF = slot0:findTF("build_msg")
 	slot0.buildMsgBox = uv0.MsgBox(slot0.boxTF)
 	slot0.buildBtn = slot0:findTF("BuildBtn")
@@ -48,6 +52,29 @@ slot0.initUI = function(slot0)
 	slot0.curCubeNumText = slot0:findTF("CubeImg/NumText")
 	slot0.material1 = slot0:findTF("material1")
 	slot0.material2 = slot0:findTF("material2")
+	slot0.ratioSpriteMap = {}
+	slot1 = slot0:findTF("Ratio")
+
+	for slot5 = 2, 6 do
+		slot0.ratioSpriteMap[slot5] = getImageSprite(slot0:findTF(tostring(slot5), slot1))
+	end
+
+	slot0.raritySpriteMap = {
+		Normal = {
+			Light1 = getImageSprite(slot0:findTF("Light/Normal/Light1")),
+			Light2 = getImageSprite(slot0:findTF("Light/Normal/Light2")),
+			Light2_2 = getImageSprite(slot0:findTF("Light/Normal/Light2_2")),
+			Light3 = getImageSprite(slot0:findTF("Light/Normal/Light3")),
+			RarityBG = getImageSprite(slot0:findTF("RarityBG/Normal"))
+		},
+		UR = {
+			Light1 = getImageSprite(slot0:findTF("Light/UR/Light1")),
+			Light2 = getImageSprite(slot0:findTF("Light/UR/Light2")),
+			Light2_2 = getImageSprite(slot0:findTF("Light/UR/Light2_2")),
+			Light3 = getImageSprite(slot0:findTF("Light/UR/Light3")),
+			RarityBG = getImageSprite(slot0:findTF("RarityBG/UR"))
+		}
+	}
 
 	onButton(slot0, slot0.buildBtn, function ()
 		slot2 = pg.ship_data_create_material[pg.activity_ship_create[uv0.poolType].create_id]
@@ -92,10 +119,11 @@ end
 slot0.updatePaint = function(slot0, slot1)
 	for slot5 = 1, 2 do
 		slot6 = slot1[slot5]
-		slot9 = pg.ship_data_statistics[slot6].rarity
-		slot10 = slot0.shipTF[slot5]
+		slot7 = pg.ship_data_statistics[slot6].name
+		slot8 = pg.ship_data_statistics[slot6].english_name
+		slot11 = slot0.shipTF[slot5]
 
-		setPaintingPrefabAsync(slot0:findTF("Paint", slot10), Ship.getPaintingName(slot6), "build", function ()
+		setPaintingPrefabAsync(slot0:findTF("Mask/Paint", slot11), Ship.getPaintingName(slot6), "build", function ()
 			slot4 = (uv2 == 2 and uv0.material2 or uv0.material1):GetComponent(typeof(Image)).material
 
 			slot4:SetFloat("_Range", uv2 == 2 and 0.9 or -0.57)
@@ -104,15 +132,32 @@ slot0.updatePaint = function(slot0, slot1)
 			GetComponent(uv0:findTF("fitter", uv1):GetChild(0), "MeshImage").material = slot4
 		end)
 
-		slot14 = slot0:findTF("Light2", slot10)
+		slot14 = slot0:findTF("Light1", slot11)
+		slot16 = slot0:findTF("Light2_2", slot0:findTF("Light2", slot11))
+		slot17 = slot0:findTF("Light3", slot11)
 
-		setImageColor(slot0:findTF("Light1", slot10), uv0.Rarity_To_Light_Color_1[slot9])
-		setImageColor(slot14, uv0.Rarity_To_Light_Color_1[slot9])
-		setImageColor(slot0:findTF("Light2_2", slot14), uv0.Rarity_To_Light_Color_1[slot9])
-		setImageColor(slot0:findTF("Light3", slot10), uv0.Rarity_To_Light_Color_2[slot9])
-		setText(slot0:findTF("NameText", slot10), pg.ship_data_statistics[slot6].name)
-		setText(slot0:findTF("NameEngText", slot10), pg.ship_data_statistics[slot6].english_name)
-		setImageSprite(slot0:findTF("Rarity/NumImg", slot10), GetSpriteFromAtlas("ui/praybuildsuccesspage_atlas", "ratio_" .. slot9), true)
+		if not (pg.ship_data_statistics[slot6].rarity == ShipRarity.SSR) then
+			setImageSprite(slot14, slot0.raritySpriteMap.Normal.Light1)
+			setImageSprite(slot15, slot0.raritySpriteMap.Normal.Light2)
+			setImageSprite(slot16, slot0.raritySpriteMap.Normal.Light2_2)
+			setImageSprite(slot17, slot0.raritySpriteMap.Normal.Light3)
+			setImageColor(slot14, uv0.Rarity_To_Light_Color_1[slot9])
+			setImageColor(slot15, uv0.Rarity_To_Light_Color_1[slot9])
+			setImageColor(slot16, uv0.Rarity_To_Light_Color_1[slot9])
+			setImageColor(slot17, uv0.Rarity_To_Light_Color_2[slot9])
+		else
+			setImageSprite(slot14, slot0.raritySpriteMap.UR.Light1)
+			setImageSprite(slot15, slot0.raritySpriteMap.UR.Light2)
+			setImageSprite(slot16, slot0.raritySpriteMap.UR.Light2_2)
+			setImageSprite(slot17, slot0.raritySpriteMap.UR.Light3)
+		end
+
+		slot18 = slot0.shipRarityTF[slot5]
+
+		setImageSprite(slot18, slot10 and slot0.raritySpriteMap.UR.RarityBG or slot0.raritySpriteMap.Normal.RarityBG)
+		setText(slot0:findTF("NameText", slot11), slot7)
+		setText(slot0:findTF("NameEngText", slot11), slot8)
+		setImageSprite(slot0:findTF("NumImg", slot18), slot0.ratioSpriteMap[slot9], true)
 	end
 end
 

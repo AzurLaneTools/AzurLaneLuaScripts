@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.story_template = {
-	[4172] = {
+	[4342] = {
 		name = "E0-1",
-		id = 4172,
+		id = 4342,
 		icon = "story-doujichang",
 		story = "YUZHEDETIANPING2",
 		pos = {
@@ -10,9 +10,9 @@ pg.story_template = {
 			0.3
 		}
 	},
-	[4173] = {
+	[4343] = {
 		name = "E0-2",
-		id = 4173,
+		id = 4343,
 		icon = "story-doujichang",
 		story = "YUZHEDETIANPING3",
 		pos = {
@@ -20,9 +20,9 @@ pg.story_template = {
 			0.3
 		}
 	},
-	[4174] = {
+	[4344] = {
 		name = "E0-3",
-		id = 4174,
+		id = 4344,
 		icon = "story-doujichang",
 		story = "YUZHEDETIANPING4",
 		pos = {
@@ -30,9 +30,9 @@ pg.story_template = {
 			0.3
 		}
 	},
-	[4175] = {
+	[4350] = {
 		name = "E1-1",
-		id = 4175,
+		id = 4350,
 		icon = "story-diluoyi",
 		story = "YUZHEDETIANPING10",
 		pos = {
@@ -40,9 +40,9 @@ pg.story_template = {
 			0.14
 		}
 	},
-	[4176] = {
+	[4351] = {
 		name = "E1-2",
-		id = 4176,
+		id = 4351,
 		icon = "story-diluoyi",
 		story = "YUZHEDETIANPING11",
 		pos = {
@@ -50,9 +50,9 @@ pg.story_template = {
 			0.136
 		}
 	},
-	[4177] = {
+	[4352] = {
 		name = "E1-3",
-		id = 4177,
+		id = 4352,
 		icon = "story-diluoyi",
 		story = "YUZHEDETIANPING12",
 		pos = {
@@ -60,9 +60,9 @@ pg.story_template = {
 			0.355
 		}
 	},
-	[4178] = {
+	[4353] = {
 		name = "E1-4",
-		id = 4178,
+		id = 4353,
 		icon = "story-diluoyi",
 		story = "YUZHEDETIANPING13",
 		pos = {
@@ -70,9 +70,9 @@ pg.story_template = {
 			0.296
 		}
 	},
-	[4179] = {
+	[4354] = {
 		name = "E1-5",
-		id = 4179,
+		id = 4354,
 		icon = "story-diluoyi",
 		story = "YUZHEDETIANPING14",
 		pos = {
@@ -80,9 +80,9 @@ pg.story_template = {
 			0.276
 		}
 	},
-	[4180] = {
+	[4355] = {
 		name = "E1-6",
-		id = 4180,
+		id = 4355,
 		icon = "story-diluoyi",
 		story = "YUZHEDETIANPING15",
 		pos = {
@@ -90,9 +90,9 @@ pg.story_template = {
 			0.412
 		}
 	},
-	[4181] = {
+	[4356] = {
 		name = "E1-7",
-		id = 4181,
+		id = 4356,
 		icon = "story-diluoyi",
 		story = "YUZHEDETIANPING16",
 		pos = {
@@ -100,9 +100,9 @@ pg.story_template = {
 			0.391
 		}
 	},
-	[4182] = {
+	[4368] = {
 		name = "E2-1",
-		id = 4182,
+		id = 4368,
 		icon = "story-xinhaota",
 		story = "YUZHEDETIANPING28",
 		pos = {
@@ -110,9 +110,9 @@ pg.story_template = {
 			0.114
 		}
 	},
-	[4183] = {
+	[4369] = {
 		name = "E2-2",
-		id = 4183,
+		id = 4369,
 		icon = "story-xinhaota",
 		story = "YUZHEDETIANPING29",
 		pos = {
@@ -120,9 +120,9 @@ pg.story_template = {
 			0.33
 		}
 	},
-	[4184] = {
+	[4370] = {
 		name = "E2-3",
-		id = 4184,
+		id = 4370,
 		icon = "story-xinhaota",
 		story = "YUZHEDETIANPING30",
 		pos = {
@@ -130,9 +130,9 @@ pg.story_template = {
 			0.341
 		}
 	},
-	[4185] = {
+	[4371] = {
 		name = "E2-4",
-		id = 4185,
+		id = 4371,
 		icon = "story-xinhaota",
 		story = "YUZHEDETIANPING31",
 		pos = {
@@ -140,9 +140,9 @@ pg.story_template = {
 			0.152
 		}
 	},
-	[4186] = {
+	[4372] = {
 		name = "E2-5",
-		id = 4186,
+		id = 4372,
 		icon = "story-xinhaota",
 		story = "YUZHEDETIANPING32",
 		pos = {
@@ -150,9 +150,9 @@ pg.story_template = {
 			0.176
 		}
 	},
-	[4187] = {
+	[4373] = {
 		name = "E2-6",
-		id = 4187,
+		id = 4373,
 		icon = "story-xinhaota",
 		story = "YUZHEDETIANPING33",
 		pos = {
@@ -160,9 +160,9 @@ pg.story_template = {
 			0.358
 		}
 	},
-	[4192] = {
+	[4374] = {
 		name = "E2-7",
-		id = 4192,
+		id = 4374,
 		icon = "story-xinhaota",
 		story = "YUZHEDETIANPING34",
 		pos = {
@@ -171,22 +171,22 @@ pg.story_template = {
 		}
 	},
 	all = {
-		4172,
-		4173,
-		4174,
-		4175,
-		4176,
-		4177,
-		4178,
-		4179,
-		4180,
-		4181,
-		4182,
-		4183,
-		4184,
-		4185,
-		4186,
-		4187,
-		4192
+		4342,
+		4343,
+		4344,
+		4350,
+		4351,
+		4352,
+		4353,
+		4354,
+		4355,
+		4356,
+		4368,
+		4369,
+		4370,
+		4371,
+		4372,
+		4373,
+		4374
 	}
 }

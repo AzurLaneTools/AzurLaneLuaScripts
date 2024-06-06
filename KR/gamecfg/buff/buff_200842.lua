@@ -29,11 +29,7 @@ return {
 				skill_id = 13302,
 				target = "TargetSelf",
 				effectAttachData = {
-					{
-						value = 0,
-						op = "lessequal",
-						type = "BattleBuffShield"
-					}
+					"BattleBuffShield<=0"
 				}
 			}
 		},
@@ -46,11 +42,7 @@ return {
 				skill_id = 200842,
 				target = "TargetSelf",
 				effectAttachData = {
-					{
-						value = 0,
-						op = "great",
-						type = "BattleBuffShield"
-					}
+					"BattleBuffShield>0"
 				}
 			}
 		}

@@ -28,6 +28,7 @@ slot0.execute = function(slot0, slot1)
 				pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_shipAddMoney_ok", slot2:getName(), slot3))
 			end
 
+			getProxy(DormProxy):UpdateInimacyAndMoney()
 			uv1:sendNotification(GAME.BACKYARD_ADD_MONEY_DONE, {
 				id = uv0
 			})

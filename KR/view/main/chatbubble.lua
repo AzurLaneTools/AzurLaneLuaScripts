@@ -5,6 +5,12 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.isLoadChatBg = false
 
 	slot0:init()
+
+	slot0.chatFrameTr = findTF(slot0.tf, "chat_fram")
+
+	if IsNil(slot0.chatFrameTr) then
+		slot0.chatFrameTr = slot0.tf
+	end
 end
 
 slot0.init = function(slot0)
@@ -173,7 +179,7 @@ slot0.update = function(slot0, slot1)
 				slot0:GetComponent(typeof(LayoutElement)).preferredWidth = uv0.chatBgWidth
 				slot0.name = uv2
 
-				setParent(slot0, uv0.tf, false)
+				setParent(slot0, uv0.chatFrameTr, false)
 				tf(slot0):SetAsFirstSibling()
 				Canvas.ForceUpdateCanvases()
 				uv0:OnChatFrameLoaded(slot0)
@@ -202,7 +208,7 @@ slot0.dispose = function(slot0)
 	end
 
 	if slot0.isLoadChatBg then
-		slot1 = slot0.tf:GetChild(0).gameObject
+		slot1 = slot0.chatFrameTr:GetChild(0).gameObject
 
 		PoolMgr.GetInstance():ReturnPrefab("ChatFrame/" .. slot1.name, slot1.name, slot1)
 

@@ -17,7 +17,7 @@ end
 
 slot0.OnFirstFlush = function(slot0)
 	updateDrop(slot0.itemTF, {
-		count = 1,
+		count = 0,
 		type = DROP_TYPE_ITEM,
 		id = slot0.itemID
 	})

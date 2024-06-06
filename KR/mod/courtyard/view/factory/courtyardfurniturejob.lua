@@ -137,7 +137,7 @@ end
 
 slot7 = function(slot0, slot1, slot2, slot3)
 	if slot2:GetType() == Furniture.TYPE_ARCH then
-		if not PathMgr.FileExists(PathMgr.getAssetBundle("furnitrues/" .. slot2:GetArchMask())) then
+		if not checkABExist("furnitrues/" .. slot2:GetArchMask()) then
 			slot3()
 
 			return

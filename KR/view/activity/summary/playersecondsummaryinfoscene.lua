@@ -21,7 +21,8 @@ slot0.init = function(slot0)
 	slot0.pageContainer = slot0:findTF("bg/main/pages")
 	slot0.pageFootContainer = slot0:findTF("bg/main/foots")
 
-	setActive(slot0.pageFootContainer, false)
+	GetOrAddComponent(slot0.pageFootContainer, typeof(CanvasGroup))
+	setCanvasGroupAlpha(slot0.pageFootContainer, 0)
 end
 
 slot0.didEnter = function(slot0)
@@ -113,20 +114,18 @@ slot0.initSummaryInfo = function(slot0)
 			uv0.inAniming = false
 
 			uv0.loadingPage:Hide()
-			uv0:registerFootEvent()
-			uv0:registerDrag()
 			slot0()
 		end
 	}, function ()
-		setActive(uv0.pageFootContainer, true)
-		uv0:updatePageFoot(1)
+		uv0:registerDrag()
+		uv0:registerFootEvent(1)
 	end)
 end
 
-slot0.registerFootEvent = function(slot0)
-	slot1 = UIItemList.New(slot0.pageFootContainer, slot0.pageFootContainer:Find("dot"))
+slot0.registerFootEvent = function(slot0, slot1)
+	slot2 = UIItemList.New(slot0.pageFootContainer, slot0.pageFootContainer:Find("dot"))
 
-	slot1:make(function (slot0, slot1, slot2)
+	slot2:make(function (slot0, slot1, slot2)
 		slot3 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
@@ -136,12 +135,14 @@ slot0.registerFootEvent = function(slot0)
 
 					uv0.currPage = uv1
 				else
-					uv0.pages[uv0.currPage]:Hide()
+					uv0.pages[uv1]:Hide()
 				end
 			end)
 		end
 	end)
-	slot1:align(#slot0.pages)
+	slot2:align(#slot0.pages)
+	setCanvasGroupAlpha(slot0.pageFootContainer, 1)
+	triggerToggle(slot0.pageFootContainer:GetChild(slot1 - 1), true)
 end
 
 slot0.registerDrag = function(slot0)

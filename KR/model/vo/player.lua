@@ -864,4 +864,23 @@ slot0.SetEducateCharacter = function(slot0, slot1)
 	slot0.educateCharacter = slot1
 end
 
+slot0.CanGetResource = function(slot0, slot1)
+	slot2 = id2res(slot1)
+	slot3 = nil
+
+	if slot1 == 1 then
+		slot3 = slot0:getLevelMaxGold()
+	elseif slot1 == 2 then
+		slot3 = slot0:getLevelMaxOil()
+	else
+		assert(false)
+	end
+
+	if slot3 <= slot0[slot2] then
+		return false
+	end
+
+	return true
+end
+
 return slot0

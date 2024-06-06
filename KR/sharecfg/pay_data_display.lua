@@ -62,6 +62,8 @@ pg.pay_data_display = setmetatable({
 		66,
 		67,
 		68,
+		69,
+		70,
 		1000,
 		1001,
 		1002,
@@ -78,6 +80,7 @@ pg.pay_data_display = setmetatable({
 		1013,
 		1014,
 		1015,
+		1016,
 		2001,
 		2002,
 		2003,
@@ -6292,6 +6295,232 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[69] = {
+		extra_service = 3,
+		limit_group = 0,
+		descrip_extra = "※복주머니는 구매 후 우편함으로 발송됩니다.\n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
+		type = 1,
+		first_pay_double = 0,
+		name_display = "여름 수영복 복주머니 2024",
+		descrip = "아이템, 자원 및 랜덤 스킨 획득 가능",
+		subject = "여름 수영복 복주머니 2024",
+		limit_arg = 1,
+		money = 36300,
+		tag = 2,
+		name = "여름 수영복 복주머니 2024",
+		gem = 0,
+		type_order = 2,
+		limit_type = 2,
+		picture = "fudai13",
+		skin_inquire_relation = 86204,
+		id_str = "alkrgift90",
+		extra_gem = 0,
+		id = 69,
+		airijp_id = "com.yostarjp.azurlane.diamond157",
+		extra_service_item = {
+			{
+				2,
+				86204,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					6,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86204,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81204,
+				1
+			}
+		}
+	},
+	[70] = {
+		extra_service = 3,
+		limit_group = 0,
+		descrip_extra = "※복주머니는 구매 후 우편함으로 발송됩니다.\n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
+		type = 1,
+		first_pay_double = 0,
+		name_display = "여름 수영복 복주머니 2023 (복각)",
+		descrip = "아이템, 자원 및 랜덤 스킨 획득 가능",
+		subject = "여름 수영복 복주머니 2023 (복각)",
+		limit_arg = 1,
+		money = 36300,
+		tag = 2,
+		name = "여름 수영복 복주머니 2023 (복각)",
+		gem = 0,
+		type_order = 2,
+		limit_type = 2,
+		picture = "lihecn6ss_l",
+		skin_inquire_relation = 69926,
+		id_str = "alkrgift91",
+		extra_gem = 0,
+		id = 70,
+		airijp_id = "com.yostarjp.azurlane.diamond158",
+		extra_service_item = {
+			{
+				2,
+				69926,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					6,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69926,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40926,
+				1
+			}
+		}
+	},
 	[1000] = {
 		extra_service = 4,
 		limit_group = 0,
@@ -7486,6 +7715,81 @@ pg.base.pay_data_display = {
 		},
 		sub_display = {
 			7016,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1016] = {
+		extra_service = 4,
+		limit_group = 0,
+		descrip_extra = "*임무를 통해 대응 투어 진도 달성 후 획득 가능",
+		type = 0,
+		first_pay_double = 0,
+		name_display = "특허 투어 패스(2024.6.8-2024.8.7)",
+		descrip = "1500 투어 PT 획득, 특허 투어 보상 해제 가능: 보클랭 한정 스킨 및 기타 보상",
+		subject = "특허 투어 패스",
+		limit_arg = 1,
+		money = 12000,
+		tag = 2,
+		name = "특허 투어 패스(2024.6.8-2024.8.7)",
+		gem = 0,
+		type_order = 4,
+		limit_type = 2,
+		picture = "battlepass_1",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift92",
+		extra_gem = 0,
+		id = 1016,
+		airijp_id = "com.yostarjp.azurlane.seasonpass17",
+		extra_service_item = {
+			{
+				1,
+				4017,
+				1500
+			},
+			{
+				8,
+				59584,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					6,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4017,
+				1500
+			}
+		},
+		sub_display = {
+			7017,
 			1500
 		},
 		ignorePlatform = {},

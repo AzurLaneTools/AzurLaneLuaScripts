@@ -227,6 +227,16 @@ pg.task_meta_data_template = setmetatable({
 		100183,
 		100184,
 		100185,
+		100191,
+		100192,
+		100193,
+		100194,
+		100195,
+		100201,
+		100202,
+		100203,
+		100204,
+		100205,
 		200001,
 		200002,
 		200003,
@@ -298,7 +308,15 @@ pg.task_meta_data_template = setmetatable({
 		200181,
 		200182,
 		200183,
-		200184
+		200184,
+		200191,
+		200192,
+		200193,
+		200194,
+		200201,
+		200202,
+		200203,
+		200204
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2103,6 +2121,86 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "뱀파이어·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
 	},
+	[100191] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970704",
+		id = 100191,
+		target_num = 1,
+		desc = "베아른·META를 편성한 함대로 전투에서 1회 승리"
+	},
+	[100192] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970704",
+		id = 100192,
+		target_num = 1,
+		desc = "베아른·META를 편성한 함대로 전투에서 Lv30 이상의 적 함대 격파"
+	},
+	[100193] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970704",
+		id = 100193,
+		target_num = 1,
+		desc = "베아른·META를 편성한 함대로 전투에서 Lv55 이상의 적 함대 격파"
+	},
+	[100194] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970704",
+		id = 100194,
+		target_num = 1,
+		desc = "베아른·META를 편성한 함대로 전투에서 Lv80 이상의 적 함대 격파"
+	},
+	[100195] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970704",
+		id = 100195,
+		target_num = 1,
+		desc = "베아른·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
+	},
+	[100201] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970303",
+		id = 100201,
+		target_num = 1,
+		desc = "포슈·META를 편성한 함대로 전투에서 1회 승리"
+	},
+	[100202] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970303",
+		id = 100202,
+		target_num = 1,
+		desc = "포슈·META를 편성한 함대로 전투에서 Lv30 이상의 적 함대 격파"
+	},
+	[100203] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970303",
+		id = 100203,
+		target_num = 1,
+		desc = "포슈·META를 편성한 함대로 전투에서 Lv55 이상의 적 함대 격파"
+	},
+	[100204] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970303",
+		id = 100204,
+		target_num = 1,
+		desc = "포슈·META를 편성한 함대로 전투에서 Lv80 이상의 적 함대 격파"
+	},
+	[100205] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970303",
+		id = 100205,
+		target_num = 1,
+		desc = "포슈·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -2678,5 +2776,69 @@ pg.base.task_meta_data_template = {
 		id = 200184,
 		target_num = 1,
 		desc = "대형작전에서 뱀파이어·META를 포함한 함대로 Lv100 이상의 적 격파"
+	},
+	[200191] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970704",
+		id = 200191,
+		target_num = 1,
+		desc = "대형작전에서 베아른·META를 포함한 함대로 1회 승리"
+	},
+	[200192] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970704",
+		id = 200192,
+		target_num = 1,
+		desc = "대형작전에서 베아른·META를 포함한 함대로 Lv70 이상의 적 격파"
+	},
+	[200193] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970704",
+		id = 200193,
+		target_num = 1,
+		desc = "대형작전에서 베아른·META를 포함한 함대로 Lv90 이상의 적 격파"
+	},
+	[200194] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970704",
+		id = 200194,
+		target_num = 1,
+		desc = "대형작전에서 베아른·META를 포함한 함대로 Lv100 이상의 적 격파"
+	},
+	[200201] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970303",
+		id = 200201,
+		target_num = 1,
+		desc = "大型作战内使用福煦·META获得1次胜利"
+	},
+	[200202] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970303",
+		id = 200202,
+		target_num = 1,
+		desc = "大型作战内使用福煦·META击破等级＞70的敌方1次"
+	},
+	[200203] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970303",
+		id = 200203,
+		target_num = 1,
+		desc = "大型作战内使用福煦·META击破等级＞90的敌方1次"
+	},
+	[200204] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970303",
+		id = 200204,
+		target_num = 1,
+		desc = "大型作战内使用福煦·META击破等级＞100的敌方1次"
 	}
 }

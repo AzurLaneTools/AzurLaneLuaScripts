@@ -198,6 +198,17 @@ pg.effect_offset = {
 			0
 		}
 	},
+	Shield_mojiaduoer = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		offset = {
+			0,
+			-1.25,
+			0
+		}
+	},
 	DEF = {
 		mirror = false,
 		y_scale = false,
@@ -1977,6 +1988,61 @@ pg.effect_offset = {
 		offset = {
 			2,
 			7.5,
+			0
+		}
+	},
+	boss_huiguangzhihe = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
+			0,
+			1,
+			0
+		}
+	},
+	enemy_huiguangzhihe = {
+		mirror = false,
+		y_scale = false,
+		container_index = 3,
+		top_cover_offset = false,
+		offset = {
+			0.1,
+			0.4,
+			0
+		}
+	},
+	shaen_miaozhun = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
+			0,
+			1.6,
+			0
+		}
+	},
+	bulunnusi_hudun_01 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		offset = {
+			0,
+			0,
+			0
+		}
+	},
+	mojiaduoer_debuff = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			0,
+			4,
 			0
 		}
 	}

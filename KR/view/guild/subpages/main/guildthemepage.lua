@@ -1,7 +1,11 @@
 slot0 = class("GuildThemePage", import("...base.GuildBasePage"))
 
 slot0.getTargetUI = function(slot0)
-	return "GuildThemeBlueUI", "GuildThemeRedUI"
+	if getProxy(SettingsProxy):IsMellowStyle() then
+		return "GuildThemeBlueUI4Mellow", "GuildThemeRedUI4Mellow"
+	else
+		return "GuildThemeBlueUI", "GuildThemeRedUI"
+	end
 end
 
 slot0.OnLoaded = function(slot0)

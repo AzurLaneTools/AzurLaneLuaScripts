@@ -56,6 +56,7 @@ slot0.Init = function(slot0, slot1)
 	slot0.contentSizeFitter = slot0._tf:Find("content"):GetComponent(typeof(ContentSizeFitter))
 
 	onButton(nil, slot0.closeBtn, function ()
+		setButtonEnabled(uv0.closeBtn, false)
 		uv0:Hide()
 	end, SFX_PANEL)
 	slot0.pageAniEvent:SetEndEvent(function ()
@@ -93,6 +94,7 @@ end
 
 slot8 = function(slot0)
 	setActive(slot0._tf, true)
+	setButtonEnabled(slot0.closeBtn, true)
 	slot0.pageAnim:Play("anim_storyrecordUI_record_in")
 
 	slot0.state = uv0
@@ -255,6 +257,7 @@ slot0.OnHide = function(slot0)
 	slot0:Clear()
 	slot0:UnblurPanel()
 	setActive(slot0._tf, false)
+	setButtonEnabled(slot0.closeBtn, true)
 
 	slot0.state = uv0
 end

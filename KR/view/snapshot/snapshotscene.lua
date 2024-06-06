@@ -467,7 +467,7 @@ slot1 = function(slot0)
 end
 
 slot0.updateSkin = function(slot0)
-	if slot0.showType == uv0.SHOW_LIVE2D and (not ResourceMgr.Inst:AssetExist("live2d/" .. slot0.paintSkin) or not PathMgr.FileExists(PathMgr.getAssetBundle("live2d/" .. slot0.paintSkin))) then
+	if slot0.showType == uv0.SHOW_LIVE2D and (not ResourceMgr.Inst:AssetExist("live2d/" .. slot0.paintSkin) or not checkABExist("live2d/" .. slot0.paintSkin)) then
 		slot0.showType = uv0.SHOW_PAINT
 
 		slot0:updateShowType()

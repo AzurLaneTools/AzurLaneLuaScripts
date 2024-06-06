@@ -328,19 +328,25 @@ slot0.SetUp = function(slot0)
 		getProxy(SettingsProxy):SetNextTipTimeLimitSkinShop()
 	end
 
-	seriesAsync({
+	slot0.skinPageID = slot1 == uv0.MODE_EXPERIENCE and uv1 or uv2
+
+	parallelAsync({
 		function (slot0)
 			uv0:InitSkinClassify(uv1, uv2, slot0)
 		end,
 		function (slot0)
-			onNextTick(slot0)
-		end,
-		function (slot0)
-			if uv0.exited then
-				return
-			end
+			seriesAsync({
+				function (slot0)
+					onNextTick(slot0)
+				end,
+				function (slot0)
+					if uv0.exited then
+						return
+					end
 
-			uv0:UpdateCommodities(uv1, true, slot0)
+					uv0:UpdateCommodities(uv1, true, slot0)
+				end
+			}, slot0)
 		end
 	}, function ()
 		uv0.commodities = uv1
@@ -413,7 +419,7 @@ slot0.InitSkinClassify = function(slot0, slot1, slot2, slot3)
 
 			uv2(uv0, uv0.rollingCircleRect:AddItem(uv1))
 
-			if (uv3 - 1) % 3 == 0 or uv3 == #uv4 then
+			if (uv3 - 1) % 5 == 0 or uv3 == #uv4 then
 				onNextTick(slot0)
 			else
 				slot0()
@@ -426,13 +432,8 @@ slot0.InitSkinClassify = function(slot0, slot1, slot2, slot3)
 			return
 		end
 
-		if uv1 == uv2.MODE_EXPERIENCE then
-			uv0.rollingCircleRect:ScrollTo(uv3)
-		else
-			uv0.rollingCircleRect:ScrollTo(uv4)
-		end
-
-		uv5()
+		uv0.rollingCircleRect:ScrollTo(uv0.skinPageID)
+		uv1()
 	end)
 end
 
@@ -473,7 +474,15 @@ slot0.ToVShip = function(slot0, slot1)
 	return slot0.vship
 end
 
+slot0.IsAllFilter = function(slot0, slot1)
+	return slot1.typeIndex == ShipIndexConst.TypeAll and slot1.campIndex == ShipIndexConst.CampAll and slot1.rarityIndex == ShipIndexConst.RarityAll and slot1.extraIndex == SkinIndexLayer.ExtraALL
+end
+
 slot0.IsFilterType = function(slot0, slot1, slot2)
+	if slot0:IsAllFilter(slot1) then
+		return true
+	end
+
 	if not ShipSkin.New({
 		id = slot2:getSkinId()
 	}):GetDefaultShipConfig() then
@@ -486,28 +495,32 @@ slot0.IsFilterType = function(slot0, slot1, slot2)
 end
 
 slot0.IsSearchType = function(slot0, slot1, slot2)
+	if not slot1 or slot1 == "" then
+		return true
+	end
+
 	return ShipSkin.New({
 		id = slot2:getSkinId()
 	}):IsMatchKey(slot1)
 end
 
-slot8 = function(slot0, slot1)
-	if ((slot0.type == Goods.TYPE_ACTIVITY or slot0.type == Goods.TYPE_ACTIVITY_EXTRA) and 0 or slot0:GetPrice()) == ((slot1.type == Goods.TYPE_ACTIVITY or slot1.type == Goods.TYPE_ACTIVITY_EXTRA) and 0 or slot1:GetPrice()) then
+slot8 = function(slot0, slot1, slot2)
+	if slot2[slot0.id] == slot2[slot1.id] then
 		return slot0.id < slot1.id
 	else
-		return slot3 < slot2
+		return slot4 < slot3
 	end
 end
 
-slot0.Sort = function(slot0, slot1, slot2)
+slot0.Sort = function(slot0, slot1, slot2, slot3)
 	if (slot1.buyCount == 0 and 1 or 0) == (slot2.buyCount == 0 and 1 or 0) then
 		if slot1:getConfig("order") == slot2:getConfig("order") then
-			return uv0(slot1, slot2)
+			return uv0(slot1, slot2, slot3)
 		else
-			return slot5 < slot6
+			return slot6 < slot7
 		end
 	else
-		return slot4 < slot3
+		return slot5 < slot4
 	end
 end
 
@@ -533,19 +546,33 @@ slot0.UpdateCommodities = function(slot0, slot1, slot2, slot3)
 	slot0.cards = {}
 	slot0.displays = {}
 	slot0.canUseVoucherCache = {}
+	slot4 = getInputText(slot0.inptuTr)
+	slot5 = getProxy(BagProxy):GetSkinShopDiscountItemList()
 
-	for slot7, slot8 in ipairs(slot1) do
-		slot9 = slot8:CanUseVoucherType()
+	for slot9, slot10 in ipairs(slot1) do
+		slot11 = slot10:StaticCanUseVoucherType(slot5)
 
-		if slot0:IsType(slot0.skinPageID, slot8) and slot0:IsFilterType(slot0.defaultIndex, slot8) and slot0:IsSearchType(getInputText(slot0.inptuTr), slot8) and slot0:IsCouponType(slot0.isFilterCoupon, slot8) and slot0:IsVoucherType(slot0.isFilterVoucher, slot9) then
-			table.insert(slot0.displays, slot8)
+		if slot0:IsType(slot0.skinPageID, slot10) and slot0:IsFilterType(slot0.defaultIndex, slot10) and slot0:IsSearchType(slot4, slot10) and slot0:IsCouponType(slot0.isFilterCoupon, slot10) and slot0:IsVoucherType(slot0.isFilterVoucher, slot11) then
+			table.insert(slot0.displays, slot10)
 		end
 
-		slot0.canUseVoucherCache[slot8.id] = slot9
+		slot0.canUseVoucherCache[slot10.id] = slot11
+	end
+
+	slot6 = {}
+
+	for slot10, slot11 in ipairs(slot0.displays) do
+		slot13 = 0
+
+		if not (slot11.type == Goods.TYPE_ACTIVITY or slot11.type == Goods.TYPE_ACTIVITY_EXTRA) then
+			slot13 = slot11:GetPrice()
+		end
+
+		slot6[slot11.id] = slot13
 	end
 
 	table.sort(slot0.displays, function (slot0, slot1)
-		return uv0:Sort(slot0, slot1)
+		return uv0:Sort(slot0, slot1, uv1)
 	end)
 
 	if slot2 then
@@ -556,11 +583,11 @@ slot0.UpdateCommodities = function(slot0, slot1, slot2, slot3)
 		slot0.scrollrect:SetTotalCount(#slot0.displays)
 	end
 
-	slot4 = #slot0.displays <= 0
+	slot7 = #slot0.displays <= 0
 
-	setActive(slot0.emptyTr, slot4)
+	setActive(slot0.emptyTr, slot7)
 
-	if slot4 then
+	if slot7 then
 		slot0.mainView:Flush(nil)
 	end
 

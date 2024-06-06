@@ -40,6 +40,10 @@ slot2 = function(slot0)
 			slot9.enabled = false
 		end
 	end
+
+	if slot3 then
+		setToggleEnabled(slot0, true)
+	end
 end
 
 slot3 = function(slot0)

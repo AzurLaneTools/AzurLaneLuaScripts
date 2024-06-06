@@ -88,6 +88,7 @@ SCENE = {
 	OTHERWORLD_BACKHILL = "OTHERWORLD_BACKHILL",
 	OTHERWORLD_MAP = "OTHERWORLD_MAP",
 	MUSIC_FESTIVAL3 = "music festival 3",
+	LINER_BACKHILL = "LINER_BACKHILL",
 	WORLD_COLLECTION = "world collection",
 	SNAPSHOT = "snapshot",
 	DORM3D_AR = "DORM3D_AR",
@@ -125,6 +126,7 @@ SCENE = {
 	LIMIT_CHALLENGE = "limit challenge",
 	NEWYEAR_BACKHILL_2024 = "NEWYEAR_BACKHILL_2024",
 	NEWYEAR_SQUARE = "newyear square",
+	LINER = "LINER",
 	ATELIER_COMPOSITE = "ATELIER_COMPOSITE",
 	RYZA_TASK = "ryza task scene",
 	DORM3DSELECT = "dorm 3d select",
@@ -842,6 +844,14 @@ slot0 = {
 	[SCENE.DORM3D_AR] = function (slot0, slot1)
 		slot0.mediator = Dorm3dARMediator
 		slot0.viewComponent = Dorm3dARScene
+	end,
+	[SCENE.LINER] = function (slot0, slot1)
+		slot0.mediator = LinerMediator
+		slot0.viewComponent = LinerScene
+	end,
+	[SCENE.LINER_BACKHILL] = function (slot0, slot1)
+		slot0.mediator = LinerBackHillMediator
+		slot0.viewComponent = LinerBackHillScene
 	end
 }
 
@@ -999,6 +1009,10 @@ slot1 = {
 				uv1()
 			end
 		})
+	end,
+	ActivityMediator = function (slot0, slot1)
+		pg.m02:sendNotification(GAME.GET_OPEN_SHOPS)
+		slot1()
 	end,
 	SixthAnniversaryIslandShopMediator = function (slot0, slot1)
 		slot3 = getProxy(ActivityProxy)

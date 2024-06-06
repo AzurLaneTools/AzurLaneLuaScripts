@@ -144,7 +144,7 @@ slot0.MetaClassConfig = nil
 slot0.MotClassConfig = nil
 
 slot0.CreateMetaClassConfig = function()
-	if uv0.MetaClassConfig and uv0.MotClassConfig then
+	if uv0.MetaClassConfig or uv0.MotClassConfig then
 		return
 	end
 

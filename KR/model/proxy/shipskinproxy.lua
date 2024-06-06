@@ -419,7 +419,7 @@ slot0.HasFashion = function(slot0, slot1)
 	end
 
 	if #slot0:GetAllSkinForShip(slot1) == 1 then
-		return PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot3[1].painting .. "_n"))
+		return checkABExist("painting/" .. slot3[1].painting .. "_n")
 	end
 
 	return #slot3 > 1

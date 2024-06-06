@@ -6,6 +6,7 @@ end
 
 slot0.init = function(slot0)
 	slot0.buffBtn = slot0._tf:Find("buff")
+	slot0.oneKeyBtn = slot0._tf:Find("onekey")
 	slot0.buffPage = CourtYardBuffPage.New(slot0._tf.parent.parent, slot0.parent)
 end
 
@@ -27,6 +28,9 @@ slot0.OnRegister = function(slot0)
 			uv0.buffPage:ExecuteAction("Show", slot0)
 		end
 	end, SFX_PANEL)
+	onButton(slot0, slot0.oneKeyBtn, function ()
+		uv0:emit(CourtYardMediator.ONE_KEY)
+	end, SFX_PANEL)
 end
 
 slot0.OnVisitRegister = function(slot0)
@@ -43,7 +47,7 @@ slot0.OnFlush = function(slot0, slot1)
 	end
 
 	if bit.band(slot1, BackYardConst.DORM_UPDATE_TYPE_SHIP) > 0 then
-		-- Nothing
+		setActive(slot0.oneKeyBtn, slot2:AnyShipExistIntimacyOrMoney())
 	end
 end
 

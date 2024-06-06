@@ -25,6 +25,18 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	setActive(slot0.ongoingCounterContainer, false)
 	setActive(slot0.leisureCounterContainer, false)
 
+	if getProxy(SettingsProxy):IsMellowStyle() then
+		setText(slot0.goBtn:Find("Image"), i18n("commission_label_go_mellow"))
+		setText(slot0.finishedBtn:Find("Image"), i18n("commission_label_finish_mellow"))
+		setText(slot4:Find("unlock/leisure/go_btn/Image"), i18n("commission_label_go_mellow"))
+		setText(slot4:Find("unlock/finished/finish_btn/Image"), i18n("commission_label_finish_mellow"))
+	else
+		setText(slot0.goBtn:Find("Image"), i18n("commission_label_go"))
+		setText(slot0.finishedBtn:Find("Image"), i18n("commission_label_finish"))
+		setText(slot4:Find("unlock/leisure/go_btn/Image"), i18n("commission_label_go"))
+		setText(slot4:Find("unlock/finished/finish_btn/Image"), i18n("commission_label_finish"))
+	end
+
 	slot0.timers = {}
 end
 

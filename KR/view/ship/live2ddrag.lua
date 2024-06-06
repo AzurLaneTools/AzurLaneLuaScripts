@@ -42,6 +42,12 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.limitTime = slot1.limit_time > 0 and slot1.limit_time or uv0
 	slot0.revertIdleIndex = slot1.revert_idle_index == 1 and true or false
 	slot0.revertActionIndex = slot1.revert_action_index == 1 and true or false
+	slot0.saveParameterFlag = true
+
+	if slot1.save_parameter == -1 then
+		slot0.saveParameterFlag = false
+	end
+
 	slot0.randomAttitudeIndex = L2D_RANDOM_PARAM
 	slot0._active = false
 	slot0._parameterCom = nil
@@ -663,8 +669,6 @@ slot0.updateTrigger = function(slot0)
 end
 
 slot0.triggerAction = function(slot0)
-	print("set limit time = " .. slot0.limitTime)
-
 	slot0.nextTriggerTime = slot0.limitTime
 
 	slot0:setTriggerActionFlag(true)
@@ -755,7 +759,7 @@ slot0.checkClickAction = function(slot0)
 end
 
 slot0.saveData = function(slot0)
-	if slot0.revert == -1 then
+	if slot0.revert == -1 and slot0.saveParameterFlag then
 		Live2dConst.SaveDragData(slot0.id, slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id, slot0.parameterTargetValue)
 	end
 
@@ -765,7 +769,7 @@ slot0.saveData = function(slot0)
 end
 
 slot0.loadData = function(slot0)
-	if slot0.revert == -1 and Live2dConst.GetDragData(slot0.id, slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id) then
+	if slot0.revert == -1 and slot0.saveParameterFlag and Live2dConst.GetDragData(slot0.id, slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id) then
 		slot0:setParameterValue(slot1)
 		slot0:setTargetValue(slot1)
 	end

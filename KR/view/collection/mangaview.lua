@@ -171,7 +171,7 @@ slot0.initEmpty = function(slot0, slot1)
 	slot12, slot13 = nil
 
 	for slot17, slot18 in ipairs(pg.cartoon.all) do
-		if PathMgr.FileExists(PathMgr.getAssetBundle(MangaConst.MANGA_PATH_PREFIX .. pg.cartoon[slot18].resource)) then
+		if checkABExist(MangaConst.MANGA_PATH_PREFIX .. pg.cartoon[slot18].resource) then
 			slot12 = slot19
 			slot13 = slot20
 

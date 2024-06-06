@@ -488,7 +488,7 @@ slot0.ShiftSkin = function(slot0, slot1)
 
 	slot0:LoadSkinBg((not slot0.skin.bg_sp or slot0.skin.bg_sp == "" or not (PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot0.skin.painting, 0) == 0) or slot0.skin.bg_sp) and (not slot0.skin.bg or slot0.skin.bg == "" or slot0.skin.bg) and slot0.shipGroup:rarity2bgPrintForGet(slot0.showTrans, slot0.skin.id))
 
-	slot0.haveOp = PathMgr.FileExists(PathMgr.getAssetBundle("ui/skinunlockanim/star_level_unlock_anim_" .. slot0.skin.id))
+	slot0.haveOp = checkABExist("ui/skinunlockanim/star_level_unlock_anim_" .. slot0.skin.id)
 end
 
 slot0.UpdateCryptolaliaBtn = function(slot0, slot1)
@@ -788,7 +788,7 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.playOpening = function(slot0, slot1)
-	if PathMgr.FileExists(PathMgr.getAssetBundle("ui/skinunlockanim/" .. ("star_level_unlock_anim_" .. slot0.skin.id))) then
+	if checkABExist("ui/skinunlockanim/" .. ("star_level_unlock_anim_" .. slot0.skin.id)) then
 		slot4 = pg.CpkPlayMgr.GetInstance()
 
 		slot4:PlayCpkMovie(function ()
@@ -803,7 +803,7 @@ slot0.playOpening = function(slot0, slot1)
 end
 
 slot0.updateSpinePaintingState = function(slot0)
-	if PathMgr.FileExists(PathMgr.getAssetBundle(HXSet.autoHxShiftPath("spinepainting/" .. slot0.paintingName))) then
+	if checkABExist(HXSet.autoHxShiftPath("spinepainting/" .. slot0.paintingName)) then
 		setActive(slot0.spinePaintingBtn, true)
 
 		slot4 = slot0.spinePaintingToggle

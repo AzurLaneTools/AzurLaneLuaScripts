@@ -71,7 +71,7 @@ slot0.OnUpdating = function(slot0)
 end
 
 slot0.OnUpdated = function(slot0, slot1, slot2)
-	setActive(slot0.live2dBtn, PathMgr.FileExists(PathMgr.getAssetBundle(slot1)))
+	setActive(slot0.live2dBtn, checkABExist(slot1))
 	setActive(slot0.live2dState, false)
 	setActive(slot0.live2dToggle, true)
 	setActive(slot0.live2dOn, slot2)

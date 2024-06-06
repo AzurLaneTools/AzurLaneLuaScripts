@@ -441,7 +441,7 @@ slot0.getDesignVO = function(slot0, slot1)
 end
 
 slot0.filter = function(slot0, slot1, slot2)
-	GetSpriteFromAtlasAsync("ui/commonui_atlas", slot0:isDefaultStatus() and "shaixuan_off" or "shaixuan_on", function (slot0)
+	GetSpriteFromAtlasAsync("ui/share/index_atlas", slot0:isDefaultStatus() and "shaixuan_off" or "shaixuan_on", function (slot0)
 		setImageSprite(uv0.indexBtn, slot0, true)
 	end)
 
@@ -588,6 +588,8 @@ slot0.showDesignDesc = function(slot0, slot1)
 	end)(1)
 	pressPersistTrigger(findTF(slot2, "bg/calc/minus"), 0.5, function (slot0)
 		if uv0 <= 1 then
+			slot0()
+
 			return
 		end
 
@@ -597,6 +599,8 @@ slot0.showDesignDesc = function(slot0, slot1)
 	end, nil, true, true, 0.1, SFX_PANEL)
 	pressPersistTrigger(findTF(slot2, "bg/calc/add"), 0.5, function (slot0)
 		if uv0 == uv1 then
+			slot0()
+
 			return
 		end
 

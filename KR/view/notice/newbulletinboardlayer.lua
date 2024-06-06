@@ -118,7 +118,7 @@ slot0.updateRed = function(slot0)
 end
 
 slot0.checkNotice = function(slot0, slot1)
-	return slot1.type and slot1.type > 0 and slot1.type < 4 and (slot1.paramType == nil or slot1.paramType == 1 and type(slot1.param) == "string" or slot1.paramType == 2 and type(slot1.param) == "table" or slot1.paramType == 3 and type(slot1.param) == "number")
+	return slot1.type and slot1.type > 0 and slot1.type < 4 and (slot1.paramType == nil or slot1.paramType == 1 and type(slot1.param) == "string" or slot1.paramType == 2 and type(slot1.param) == "string" or slot1.paramType == 3 and type(slot1.param) == "number")
 end
 
 slot0.initNotices = function(slot0, slot1)
@@ -134,9 +134,7 @@ slot0.initNotices = function(slot0, slot1)
 			if slot10 == 1 then
 				slot11 = string.match(slot7, "param%s*=%s*'(.*)'")
 			elseif slot10 == 2 then
-				if string.match(slot7, "param%s*=(.*)/>") then
-					slot11 = ParseTable(slot11) or slot11
-				end
+				slot11 = string.match(slot7, "param%s*=%s*'(.*)'")
 			elseif slot10 == 3 then
 				slot11 = string.match(slot7, "param%s*=%s*(%d+)") and (tonumber(slot11) or slot11)
 			end
@@ -342,11 +340,7 @@ slot0.setNoticeDetail = function(slot0, slot1)
 					Application.OpenURL(uv0.param)
 					uv1:emit(NewBulletinBoardMediator.TRACK_OPEN_URL, uv0.track)
 				elseif uv0.paramType == 2 then
-					if #uv0.param < 2 then
-						uv1:emit(NewBulletinBoardMediator.GO_SCENE, uv0.param[1])
-					else
-						uv1:emit(NewBulletinBoardMediator.GO_SCENE, uv0.param[1], uv0.param[2])
-					end
+					uv1:emit(NewBulletinBoardMediator.GO_SCENE, uv0.param)
 				elseif uv0.paramType == 3 then
 					uv1:emit(NewBulletinBoardMediator.GO_SCENE, SCENE.ACTIVITY, {
 						id = uv0.param

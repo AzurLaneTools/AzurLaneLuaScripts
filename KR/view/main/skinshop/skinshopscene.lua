@@ -482,7 +482,7 @@ slot0.updateMainView = function(slot0, slot1)
 		slot0.prefabName = slot4
 	end
 
-	slot6 = PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot2.painting .. "_n"))
+	slot6 = checkABExist("painting/" .. slot2.painting .. "_n")
 
 	setActive(slot0.hideObjToggleTF, slot6)
 
@@ -527,7 +527,7 @@ slot0.UpdateLiveToggle = function(slot0, slot1, slot2)
 		id = slot1
 	})
 	slot8 = PlayerPrefs.GetInt("skinShop#l2dPreViewToggle" .. getProxy(PlayerProxy):getRawData().id, 0) == 1
-	slot10 = PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. pg.ship_skin_template[slot3.id].painting .. "_n"))
+	slot10 = checkABExist("painting/" .. pg.ship_skin_template[slot3.id].painting .. "_n")
 	slot11 = true
 
 	if slot3:IsLive2d() or slot3:IsSpine() then
@@ -571,7 +571,7 @@ slot0.UpdateLiveToggle = function(slot0, slot1, slot2)
 end
 
 slot0.UpdateSpineState = function(slot0, slot1, slot2)
-	slot5 = PathMgr.FileExists(PathMgr.getAssetBundle(HXSet.autoHxShiftPath("SpinePainting/" .. string.lower(pg.ship_skin_template[slot1.id].painting), nil, true)))
+	slot5 = checkABExist(HXSet.autoHxShiftPath("SpinePainting/" .. string.lower(pg.ship_skin_template[slot1.id].painting), nil, true))
 
 	setActive(slot0.l2dUnDownload, not slot5)
 	setActive(slot0.l2dDownloaded, slot5)
@@ -621,7 +621,7 @@ slot0.UnloadSpine = function(slot0, slot1)
 end
 
 slot0.UpdateLive2dDownloadState = function(slot0, slot1, slot2)
-	slot5 = PathMgr.FileExists(PathMgr.getAssetBundle(HXSet.autoHxShiftPath("live2d/" .. string.lower(pg.ship_skin_template[slot1.id].painting), nil, true)))
+	slot5 = checkABExist(HXSet.autoHxShiftPath("live2d/" .. string.lower(pg.ship_skin_template[slot1.id].painting), nil, true))
 
 	setActive(slot0.l2dUnDownload, not slot5)
 	setActive(slot0.l2dDownloaded, slot5)
@@ -1013,11 +1013,11 @@ slot0.setPaintingPrefab = function(slot0, slot1, slot2, slot3, slot4)
 	slot6.Tween = 1
 	slot7 = slot2
 
-	if not slot4 and PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot2 .. "_n")) then
+	if not slot4 and checkABExist("painting/" .. slot2 .. "_n") then
 		slot2 = slot2 .. "_n"
 	end
 
-	if PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot2)) then
+	if checkABExist("painting/" .. slot2) then
 		slot8 = pg.UIMgr.GetInstance()
 
 		slot8:LoadingOn()

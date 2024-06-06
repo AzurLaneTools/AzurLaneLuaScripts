@@ -9,7 +9,7 @@ slot0.GetBgName = function(slot0)
 end
 
 slot0.IsActive = function(slot0, slot1)
-	return PathMgr.FileExists(PathMgr.getAssetBundle(HXSet.autoHxShiftPath("spinepainting/" .. slot1:getPainting())))
+	return checkABExist(HXSet.autoHxShiftPath("spinepainting/" .. slot1:getPainting()))
 end
 
 slot0.GetDefaultValue = function(slot0)

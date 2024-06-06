@@ -413,5 +413,12 @@ pg.ship_spine_shift = {
 			10,
 			0
 		}
+	},
+	aersasi = {
+		spine = "aersasi",
+		mainui_shift = {
+			0,
+			-100
+		}
 	}
 }

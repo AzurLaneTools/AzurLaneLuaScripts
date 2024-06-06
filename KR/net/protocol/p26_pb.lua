@@ -182,7 +182,8 @@ slot2 = {
 	FRIENDSCORE_ID_FIELD = slot0.FieldDescriptor(),
 	FRIENDSCORE_NAME_FIELD = slot0.FieldDescriptor(),
 	FRIENDSCORE_SCORE_FIELD = slot0.FieldDescriptor(),
-	FRIENDSCORE_DISPLAY_FIELD = slot0.FieldDescriptor()
+	FRIENDSCORE_DISPLAY_FIELD = slot0.FieldDescriptor(),
+	FRIENDSCORE_TIME_DATA_FIELD = slot0.FieldDescriptor()
 }
 SC_26001 = slot0.Descriptor()
 CS_26002 = slot0.Descriptor()
@@ -1768,7 +1769,7 @@ slot2.MINIGAMEHUB_MAXSCORES_FIELD.index = 4
 slot2.MINIGAMEHUB_MAXSCORES_FIELD.label = 3
 slot2.MINIGAMEHUB_MAXSCORES_FIELD.has_default_value = false
 slot2.MINIGAMEHUB_MAXSCORES_FIELD.default_value = {}
-slot2.MINIGAMEHUB_MAXSCORES_FIELD.message_type = slot1.KVDATA
+slot2.MINIGAMEHUB_MAXSCORES_FIELD.message_type = slot1.KVDATA2
 slot2.MINIGAMEHUB_MAXSCORES_FIELD.type = 11
 slot2.MINIGAMEHUB_MAXSCORES_FIELD.cpp_type = 10
 MINIGAMEHUB.name = "minigamehub"
@@ -2663,6 +2664,15 @@ slot2.FRIENDSCORE_DISPLAY_FIELD.default_value = nil
 slot2.FRIENDSCORE_DISPLAY_FIELD.message_type = slot1.DISPLAYINFO
 slot2.FRIENDSCORE_DISPLAY_FIELD.type = 11
 slot2.FRIENDSCORE_DISPLAY_FIELD.cpp_type = 10
+slot2.FRIENDSCORE_TIME_DATA_FIELD.name = "time_data"
+slot2.FRIENDSCORE_TIME_DATA_FIELD.full_name = "p26.friendscore.time_data"
+slot2.FRIENDSCORE_TIME_DATA_FIELD.number = 5
+slot2.FRIENDSCORE_TIME_DATA_FIELD.index = 4
+slot2.FRIENDSCORE_TIME_DATA_FIELD.label = 2
+slot2.FRIENDSCORE_TIME_DATA_FIELD.has_default_value = false
+slot2.FRIENDSCORE_TIME_DATA_FIELD.default_value = 0
+slot2.FRIENDSCORE_TIME_DATA_FIELD.type = 13
+slot2.FRIENDSCORE_TIME_DATA_FIELD.cpp_type = 3
 FRIENDSCORE.name = "friendscore"
 FRIENDSCORE.full_name = "p26.friendscore"
 FRIENDSCORE.nested_types = {}
@@ -2671,7 +2681,8 @@ FRIENDSCORE.fields = {
 	slot2.FRIENDSCORE_ID_FIELD,
 	slot2.FRIENDSCORE_NAME_FIELD,
 	slot2.FRIENDSCORE_SCORE_FIELD,
-	slot2.FRIENDSCORE_DISPLAY_FIELD
+	slot2.FRIENDSCORE_DISPLAY_FIELD,
+	slot2.FRIENDSCORE_TIME_DATA_FIELD
 }
 FRIENDSCORE.is_extendable = false
 FRIENDSCORE.extensions = {}

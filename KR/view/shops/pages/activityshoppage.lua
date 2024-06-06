@@ -203,6 +203,10 @@ slot0.OnPurchase = function(slot0, slot1, slot2)
 	end
 
 	slot0:emit(NewShopsMediator.ON_ACT_SHOPPING, slot0.shop.activityId, 1, slot1.id, slot2)
+
+	if slot4 == UrExchangeMogadorPage.UR_COMMODITY_ID then
+		TrackConst.TrackingUrExchangeFetch(slot4, 1)
+	end
 end
 
 slot0.OnClickCommodity = function(slot0, slot1, slot2)

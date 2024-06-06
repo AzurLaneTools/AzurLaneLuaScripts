@@ -339,7 +339,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 407
+		key_value = 410
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1910,7 +1910,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 406
+		key_value = 409
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -3602,6 +3602,16 @@ pg.gameset = {
 		description = {
 			5261,
 			3
+		}
+	},
+	main_scene_silent_time = {
+		description = "",
+		key_value = 60
+	},
+	unoccupied_ship_nationality = {
+		key_value = 0,
+		description = {
+			97
 		}
 	}
 }

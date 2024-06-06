@@ -354,6 +354,17 @@ slot0.exit = function(slot0)
 	end
 end
 
+slot0.PlayExitAnimation = function(slot0, slot1)
+	slot3 = slot0._tf:GetComponent(typeof(UIEventTrigger))
+
+	slot3.didExit:RemoveAllListeners()
+	slot3.didExit:AddListener(function ()
+		uv0.didExit:RemoveAllListeners()
+		uv1()
+	end)
+	slot0._tf:GetComponent(typeof(Animation)):Play("exit")
+end
+
 slot0.attach = function(slot0, slot1)
 end
 
@@ -418,13 +429,14 @@ slot0.setImageAmount = function(slot0, slot1, slot2)
 end
 
 slot0.setVisible = function(slot0, slot1)
+	slot0:ShowOrHideResUI(slot1)
+
 	if slot1 then
 		slot0:OnVisible()
 	else
 		slot0:OnDisVisible()
 	end
 
-	slot0:ShowOrHideResUI(slot1)
 	setActiveViaLayer(slot0._tf, slot1)
 end
 

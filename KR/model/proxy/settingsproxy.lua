@@ -124,8 +124,8 @@ slot0.SetBgmFlag = function(slot0, slot1)
 end
 
 slot0.getSkinPosSetting = function(slot0, slot1)
-	if PlayerPrefs.HasKey(tostring(slot1:GetRecordPosKey()) .. "_scale") then
-		return PlayerPrefs.GetFloat(tostring(slot2) .. "_x", 0), PlayerPrefs.GetFloat(tostring(slot2) .. "_y", 0), PlayerPrefs.GetFloat(tostring(slot2) .. "_scale", 1)
+	if PlayerPrefs.HasKey(slot0:GetCurrMainUIStyleKeyForSkinShop() .. tostring(slot1:GetRecordPosKey()) .. "_scale") then
+		return PlayerPrefs.GetFloat(slot3 .. tostring(slot2) .. "_x", 0), PlayerPrefs.GetFloat(slot3 .. tostring(slot2) .. "_y", 0), PlayerPrefs.GetFloat(slot3 .. tostring(slot2) .. "_scale", 1)
 	else
 		return nil
 	end
@@ -133,11 +133,20 @@ end
 
 slot0.setSkinPosSetting = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot1:GetRecordPosKey()
+	slot6 = slot0:GetCurrMainUIStyleKeyForSkinShop()
 
-	PlayerPrefs.SetFloat(tostring(slot5) .. "_x", slot2)
-	PlayerPrefs.SetFloat(tostring(slot5) .. "_y", slot3)
-	PlayerPrefs.SetFloat(tostring(slot5) .. "_scale", slot4)
+	PlayerPrefs.SetFloat(slot6 .. tostring(slot5) .. "_x", slot2)
+	PlayerPrefs.SetFloat(slot6 .. tostring(slot5) .. "_y", slot3)
+	PlayerPrefs.SetFloat(slot6 .. tostring(slot5) .. "_scale", slot4)
 	PlayerPrefs.Save()
+end
+
+slot0.GetCurrMainUIStyleKeyForSkinShop = function(slot0)
+	if slot0:GetMainSceneThemeStyle() == NewMainScene.THEME_CLASSIC then
+		return ""
+	else
+		return slot1
+	end
 end
 
 slot0.resetSkinPosSetting = function(slot0, slot1)
@@ -178,6 +187,7 @@ slot0.rotateCurrentSecretaryIndex = function(slot0)
 	end
 
 	slot0:setCurrentSecretaryIndex(slot2)
+	pg.m02:sendNotification(GAME.ROTATE_PAINTING_INDEX)
 end
 
 slot0.setCurrentSecretaryIndex = function(slot0, slot1)
@@ -999,6 +1009,34 @@ slot0.ClearEducateCharTip = function(slot0, slot1)
 	})
 
 	return true
+end
+
+slot0.GetMainSceneThemeStyle = function(slot0)
+	if PlayerPrefs.GetInt(USAGE_NEW_MAINUI, 1) == 1 then
+		return NewMainScene.THEME_MELLOW
+	else
+		return NewMainScene.THEME_CLASSIC
+	end
+end
+
+slot0.IsMellowStyle = function(slot0)
+	return NewMainScene.THEME_MELLOW == slot0:GetMainSceneThemeStyle()
+end
+
+slot0.GetMainSceneScreenSleepTime = function(slot0)
+	if pg.NewGuideMgr.GetInstance():IsBusy() then
+		return SleepTimeout.SystemSetting
+	end
+
+	if PlayerPrefs.GetInt(pg.settings_other_template[20].name, 1) == 1 then
+		return SleepTimeout.NeverSleep
+	else
+		return SleepTimeout.SystemSetting
+	end
+end
+
+slot0.ShowL2dResetInMainScene = function(slot0)
+	return PlayerPrefs.GetInt(pg.settings_other_template[21].name, 0) == 1
 end
 
 slot0.Reset = function(slot0)

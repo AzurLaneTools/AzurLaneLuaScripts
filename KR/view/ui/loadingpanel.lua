@@ -45,7 +45,6 @@ slot0.init = function(slot0)
 	slot0.infoTpl = slot0:getTpl("infos/info_tpl")
 	slot0.indicator = slot0:findTF("load")
 	slot0.bg = slot0:findTF("BG")
-	slot0.logo = slot0:findTF("logo")
 
 	slot0:displayBG(true)
 end
@@ -112,7 +111,6 @@ end
 
 slot0.displayBG = function(slot0, slot1)
 	setActive(slot0.bg, slot1)
-	setActive(slot0.logo, slot1)
 
 	slot2 = GetComponent(slot0.bg, "Image")
 

@@ -223,25 +223,7 @@ slot1.BuffAttachDataCondition = function(slot0, slot1)
 
 	for slot7, slot8 in ipairs(slot1:GetEffectList()) do
 		for slot12, slot13 in ipairs(slot0._effectAttachData) do
-			if slot8.__name == slot13.type then
-				slot14 = slot13.type
-				slot15 = slot13.value
-				slot17 = slot8:GetEffectAttachData()
-
-				if slot13.op == "equal" and slot17 ~= slot15 then
-					slot2 = false
-				elseif slot16 == "notequal" and slot17 == slot15 then
-					slot2 = false
-				elseif slot16 == "lessequal" and slot15 < slot17 then
-					slot2 = false
-				elseif slot16 == "greatequal" and slot17 < slot15 then
-					slot2 = false
-				elseif slot16 == "great" and slot17 <= slot15 then
-					slot2 = false
-				elseif slot16 == "less" and slot15 <= slot17 then
-					slot2 = false
-				end
-			end
+			slot2 = slot2 and uv0.Battle.BattleFormulas.parseCompareBuffAttachData(slot13, slot8)
 		end
 	end
 

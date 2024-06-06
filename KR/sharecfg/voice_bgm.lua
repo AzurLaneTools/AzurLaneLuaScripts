@@ -163,10 +163,10 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "song-Alizarin-full-inst",
+		default_bgm = "story-startravel",
 		special_bgm = "",
 		time = "",
-		bgm = "song-Alizarin-full-inst"
+		bgm = "story-startravel"
 	},
 	SkinShopScene = {
 		default_bgm = "main",
@@ -1540,5 +1540,53 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "theme-starsea-core"
+	},
+	SeventhAnniversaryMainPage = {
+		default_bgm = "theme-lightheven",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-lightheven"
+	},
+	AersasiPtPage = {
+		default_bgm = "theme-lightheven",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-lightheven"
+	},
+	AnniversarySevenLoginPage = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		time = "",
+		bgm = "story-musicanniversary-gorgeous"
+	},
+	LinerBackHillScene = {
+		default_bgm = "story-richang-5",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-5"
+	},
+	LinerLogBookLayer = {
+		default_bgm = "story-niceship-soft",
+		special_bgm = "",
+		time = "",
+		bgm = "story-niceship-soft"
+	},
+	PrayPoolScene = {
+		default_bgm = "level02",
+		special_bgm = "",
+		time = "",
+		bgm = "level02"
+	},
+	UrExchangeMogadorPage = {
+		default_bgm = "theme-vichy-church",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-vichy-church"
+	},
+	SeventhInvitePage = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		time = "",
+		bgm = "story-musicanniversary-gorgeous"
 	}
 }

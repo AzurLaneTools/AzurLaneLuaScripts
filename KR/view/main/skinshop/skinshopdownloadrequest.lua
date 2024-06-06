@@ -34,7 +34,7 @@ slot0.Refresh = function(slot0, slot1, slot2, slot3)
 		slot7 = true
 	elseif slot8 == DownloadState.UpdateSuccess then
 		slot7 = true
-		slot6 = PathMgr.FileExists(PathMgr.getAssetBundle(slot2))
+		slot6 = checkABExist(slot2)
 	end
 
 	if slot0.live2dTimer then

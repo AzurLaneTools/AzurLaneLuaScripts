@@ -44,6 +44,10 @@ slot0.addChilds = function(slot0, slot1)
 	end)
 end
 
+slot0.hasChild = function(slot0)
+	return slot0.children and #slot0.children > 0
+end
+
 slot0.removeChild = function(slot0, slot1)
 	slot5 = Context
 

@@ -1,12 +1,5 @@
 slot0 = class("SkinExperienceDiplayPage", import("...base.BaseSubView"))
 
-slot0.Ctor = function(slot0, slot1, slot2, slot3)
-	uv0.super.Ctor(slot0, slot1, slot2, slot3)
-	slot0:bind(NewMainScene.ON_SKIN_FREEUSAGE_DESC, function (slot0, slot1)
-		uv0:ExecuteAction("Show", slot1)
-	end)
-end
-
 slot0.getUIName = function(slot0)
 	return "ExSkinListUI"
 end

@@ -57,21 +57,33 @@ slot0.UpdataHubData = function(slot0, slot1)
 end
 
 slot0.GetHighScore = function(slot0, slot1)
-	return slot0:GetHubByGameId(slot1).highScores[slot1] or 0
+	return slot0:GetHubByGameId(slot1).highScores[slot1] or {}
 end
 
 slot0.UpdataHighScore = function(slot0, slot1, slot2)
-	if slot2 > (slot0:GetHubByGameId(slot1).highScores[slot1] or 0) then
+	slot4 = 0
+
+	if slot0:GetHubByGameId(slot1).highScores[slot1] and slot3.highScores[slot1][1] then
+		slot4 = slot3.highScores[slot1][1]
+	end
+
+	if slot4 <= slot2[1] then
 		slot3.highScores[slot1] = slot2
 
 		slot0:UpdataHubData(slot3)
+
+		slot5 = {
+			slot1
+		}
+
+		for slot9, slot10 in ipairs(slot2) do
+			table.insert(slot5, slot10)
+		end
+
 		slot0:sendNotification(GAME.SEND_MINI_GAME_OP, {
 			hubid = slot3.id,
 			cmd = MiniGameOPCommand.CMD_HIGH_SCORE,
-			args1 = {
-				slot1,
-				slot2
-			}
+			args1 = slot5
 		})
 	end
 end

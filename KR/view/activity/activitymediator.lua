@@ -43,6 +43,7 @@ slot0.BUY_ITEM = "ActivityMediator.BUY_ITEM"
 slot0.OPEN_CHARGE_ITEM_PANEL = "ActivityMediator.OPEN_CHARGE_ITEM_PANEL"
 slot0.OPEN_CHARGE_BIRTHDAY = "ActivityMediator.OPEN_CHARGE_BIRTHDAY"
 slot0.STORE_DATE = "ActivityMediator.STORE_DATE"
+slot0.ON_ACT_SHOPPING = "ActivityMediator.ON_ACT_SHOPPING"
 
 slot0.register = function(slot0)
 	slot0.UIAvalibleCallbacks = {}
@@ -327,6 +328,14 @@ slot0.register = function(slot0)
 			callback = slot1.callback
 		})
 	end)
+	slot0:bind(uv0.ON_ACT_SHOPPING, function (slot0, slot1, slot2, slot3, slot4)
+		uv0:sendNotification(GAME.ACTIVITY_OPERATION, {
+			activity_id = slot1,
+			cmd = slot2,
+			arg1 = slot3,
+			arg2 = slot4
+		})
+	end)
 	slot0.viewComponent:setActivities(getProxy(ActivityProxy):getPanelActivities())
 
 	slot3 = getProxy(PlayerProxy):getRawData()
@@ -464,6 +473,7 @@ slot0.initNotificationHandleDic = function(slot0)
 					end
 				end
 			}, function ()
+				uv0.viewComponent:updateTaskLayers()
 			end)
 		end,
 		[GAME.ACTIVITY_PERMANENT_START_DONE] = function (slot0, slot1)
@@ -495,6 +505,18 @@ slot0.initNotificationHandleDic = function(slot0)
 		end,
 		[GAME.ACT_MANUAL_SIGN_DONE] = function (slot0, slot1)
 			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot1:getBody().awards)
+		end,
+		[ActivityProxy.ACTIVITY_SHOP_SHOW_AWARDS] = function (slot0, slot1)
+			slot3 = slot0.viewComponent
+
+			slot3:emit(BaseUI.ON_ACHIEVE, slot1:getBody().awards, function ()
+				if getProxy(ActivityProxy):getActivityById(ActivityConst.UR_EXCHANGE_MOGADOR_ID) and not slot0:isShow() then
+					uv0.viewComponent:removeActivity(ActivityConst.UR_EXCHANGE_MOGADOR_ID)
+				end
+
+				uv0.viewComponent:updateTaskLayers()
+				uv1.callback()
+			end)
 		end
 	}
 end

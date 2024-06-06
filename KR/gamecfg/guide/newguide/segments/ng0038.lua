@@ -4,7 +4,13 @@ return {
 		{
 			alpha = 0.4,
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/main/frame/bottom/liveButton",
+				dynamicPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/bottom/frame/live"
+					else
+						return "OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/bottom/liveButton"
+					end
+				end,
 				triggerType = {
 					1
 				}
@@ -35,7 +41,7 @@ return {
 		{
 			alpha = 0.4,
 			ui = {
-				path = "/UICamera/Canvas/UIMain/NavalAcademySpringUI(Clone)/academyMap/map/minigamehall",
+				path = "/UICamera/Canvas/UIMain/NavalAcademyUI/academyMap/map/minigamehall",
 				triggerType = {
 					1
 				}

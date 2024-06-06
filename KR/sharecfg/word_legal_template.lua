@@ -357,6 +357,11 @@ temp = function()
 						this = true
 					}
 				}
+			},
+			["도"] = {
+				["르"] = {
+					this = true
+				}
 			}
 		},
 		["니"] = {
@@ -383,6 +388,11 @@ temp = function()
 		},
 		["래"] = {
 			["셔"] = {
+				this = true
+			}
+		},
+		["뢰"] = {
+			["레"] = {
 				this = true
 			}
 		},
@@ -693,7 +703,18 @@ temp = function()
 		},
 		["아"] = {
 			["른"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -1334,6 +1355,11 @@ temp = function()
 				}
 			}
 		},
+		["자"] = {
+			["스"] = {
+				this = true
+			}
+		},
 		["제"] = {
 			["리"] = {
 				this = true,
@@ -1409,6 +1435,13 @@ temp = function()
 		["륀"] = {
 			["힐"] = {
 				["드"] = {
+					this = true
+				}
+			}
+		},
+		["렌"] = {
+			["누"] = {
+				["스"] = {
 					this = true
 				}
 			}
@@ -2452,7 +2485,18 @@ temp = function()
 			}
 		},
 		["슈"] = {
-			this = true
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -2840,7 +2884,12 @@ temp = function()
 		["로"] = {
 			["라"] = {
 				["도"] = {
-					this = true
+					this = true,
+					["·"] = {
+						["改"] = {
+							this = true
+						}
+					}
 				}
 			}
 		}
@@ -3351,6 +3400,9 @@ temp = function()
 					}
 				}
 			}
+		},
+		["페"] = {
+			this = true
 		},
 		["기"] = {
 			["르"] = {

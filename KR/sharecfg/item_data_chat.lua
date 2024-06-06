@@ -88,6 +88,14 @@ pg.item_data_chat = {
 		desc = "<color=#ffffff>모항 파티 참가 기념. 화려하게 함선들에게 초대장을 전달한 지휘관에게 바친다.</color>\n<color=#A7A7AAFF>\"연회장\" 이벤트 참가 보상.</color>",
 		scene = {}
 	},
+	[606] = {
+		name = "푸른 바다의 물결",
+		time_second = 0,
+		id = 606,
+		time_limit_type = 0,
+		desc = "<size=28>일렁이는 파도를 타고 휴일 크루즈를 만끽하자!\n<color=#A7A7AAFF>이벤트 \"휴일! 심쿵! 크루즈!\" 참가 시 획득 가능</color></size>",
+		scene = {}
+	},
 	[10001] = {
 		name = "한계 챌린지·쌍둥이 자리",
 		time_second = 0,
@@ -196,6 +204,7 @@ pg.item_data_chat = {
 		301,
 		602,
 		603,
+		606,
 		10001,
 		10002,
 		10003,

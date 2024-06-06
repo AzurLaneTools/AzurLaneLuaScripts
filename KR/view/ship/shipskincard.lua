@@ -190,7 +190,7 @@ slot0.loadPainting = function(slot0)
 	slot1 = nil
 	slot0.paintingName = (HXSet.isHx() or slot0.skin.painting) and (slot0.skin.painting_hx ~= "" and slot0.skin.painting_hx or slot0.skin.painting) or "unknown"
 
-	setActive(slot0.hideObjToggle, PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot0.paintingName .. "_n")))
+	setActive(slot0.hideObjToggle, checkABExist("painting/" .. slot0.paintingName .. "_n"))
 
 	slot0.hideObjToggle.isOn = PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot0.paintingName, 0) ~= 0
 

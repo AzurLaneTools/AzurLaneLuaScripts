@@ -1,11 +1,4 @@
-slot0 = class("MainLiveAreaOldPage", import("...base.BaseSubView"))
-
-slot0.Ctor = function(slot0, slot1, slot2, slot3)
-	uv0.super.Ctor(slot0, slot1, slot2, slot3)
-	slot0:bind(NewMainScene.OPEN_LIVEAREA, function (slot0)
-		uv0:ExecuteAction("Show")
-	end)
-end
+slot0 = class("MainLiveAreaOldPage", import("view.base.BaseSubView"))
 
 slot0.getUIName = function(slot0)
 	return "MainLiveAreaOldUI"

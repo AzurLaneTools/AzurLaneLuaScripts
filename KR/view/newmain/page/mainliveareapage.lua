@@ -1,11 +1,4 @@
-slot0 = class("MainLiveAreaPage", import("...base.BaseSubView"))
-
-slot0.Ctor = function(slot0, slot1, slot2, slot3)
-	uv0.super.Ctor(slot0, slot1, slot2, slot3)
-	slot0:bind(NewMainScene.OPEN_LIVEAREA, function (slot0)
-		uv0:ExecuteAction("Show")
-	end)
-end
+slot0 = class("MainLiveAreaPage", import("view.base.BaseSubView"))
 
 slot0.getUIName = function(slot0)
 	return "MainLiveAreaUI"
@@ -14,8 +7,7 @@ end
 slot0.OnLoaded = function(slot0)
 	slot0._bg = slot0:findTF("bg")
 
-	setText(slot0:findTF("day/Text", slot0._bg), i18n("word_harbour"))
-	setText(slot0:findTF("night/Text", slot0._bg), i18n("word_harbour"))
+	setText(slot0:findTF("bg/Text", slot0._bg), i18n("word_harbour"))
 
 	slot0.timeCfg = pg.gameset.main_live_area_time.description
 	slot0._academyBtn = slot0:findTF("school_btn")
@@ -111,26 +103,23 @@ slot0.Show = function(slot0)
 end
 
 slot0.UpdateTime = function(slot0)
-	slot3 = pg.TimeMgr.GetInstance():GetServerHour() < 12
-
-	setActive(slot0:findTF("AM", slot0._bg), slot3)
-	setActive(slot0:findTF("PM", slot0._bg), not slot3)
+	GetSpriteFromAtlasAsync("ui/MainUISecondaryPanel_atlas", pg.TimeMgr.GetInstance():GetServerHour() < 12 and "am" or "pm", function (slot0)
+		uv0:findTF("bg/AMPM"):GetComponent(typeof(Image)).sprite = slot0
+	end)
 
 	slot4 = slot0:getDayOrNight(slot2) == "day"
+	slot0:findTF("bg", slot0._bg):GetComponent(typeof(Image)).sprite = LoadSprite("bg/" .. (slot4 and "bg_livingarea_day" or "bg_livingarea_night"), "")
+	slot0:findTF("bg", slot0._islandBtn):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/MainUISecondaryPanel_atlas", slot4 and "island_build_day" or "island_build_night")
 
-	setActive(slot0:findTF("day", slot0._bg), slot4)
-	setActive(slot0:findTF("night", slot0._bg), not slot4)
-	setActive(slot0:findTF("day", slot0._islandBtn), slot4)
-	setActive(slot0:findTF("night", slot0._islandBtn), not slot4)
 	setText(slot0:findTF("date", slot0._bg), slot1:CurrentSTimeDesc("%Y/%m/%d", true))
 
-	slot6 = slot1:CurrentSTimeDesc(":%M", true)
+	slot8 = slot1:CurrentSTimeDesc(":%M", true)
 
 	if slot2 > 12 then
 		slot2 = slot2 - 12
 	end
 
-	setText(slot0:findTF("time", slot0._bg), slot2 .. slot6)
+	setText(slot0:findTF("time", slot0._bg), slot2 .. slot8)
 	setText(slot0:findTF("date/week", slot0._bg), EducateHelper.GetWeekStrByNumber(slot1:GetServerWeek()))
 end
 

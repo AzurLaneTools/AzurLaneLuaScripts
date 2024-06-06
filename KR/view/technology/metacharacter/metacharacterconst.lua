@@ -50,13 +50,13 @@ slot0.GetMetaCharacterPaintPath = function(slot0, slot1)
 			return uv0.META_ART_RESOURCE_PERFIX .. slot3, slot3
 		end
 	elseif slot1 == true then
-		if not PathMgr.FileExists(PathMgr.getAssetBundle(uv0.META_ART_RESOURCE_PERFIX .. (slot0 .. uv0.META_ACTIVE_LASTFIX .. uv0.HX_TAG))) then
+		if not checkABExist(uv0.META_ART_RESOURCE_PERFIX .. (slot0 .. uv0.META_ACTIVE_LASTFIX .. uv0.HX_TAG)) then
 			slot4 = uv0.META_ART_RESOURCE_PERFIX .. (slot0 .. uv0.META_ACTIVE_LASTFIX)
 		end
 
 		return slot4, slot3
 	else
-		if not PathMgr.FileExists(PathMgr.getAssetBundle(uv0.META_ART_RESOURCE_PERFIX .. (slot0 .. uv0.META_DISACTIVE_LASTFIX .. uv0.HX_TAG))) then
+		if not checkABExist(uv0.META_ART_RESOURCE_PERFIX .. (slot0 .. uv0.META_DISACTIVE_LASTFIX .. uv0.HX_TAG)) then
 			slot4 = uv0.META_ART_RESOURCE_PERFIX .. (slot0 .. uv0.META_DISACTIVE_LASTFIX)
 		end
 

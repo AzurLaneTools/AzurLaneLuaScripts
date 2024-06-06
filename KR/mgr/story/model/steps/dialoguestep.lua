@@ -609,25 +609,15 @@ end
 slot0.OnClear = function(slot0)
 end
 
-slot3 = function(slot0)
-	if IsUnityEditor or UnGamePlayState then
-		return true
-	else
-		return true
-	end
-end
-
 slot0.GetUsingPaintingNames = function(slot0)
 	slot1 = {}
 
-	if slot0:GetPainting() ~= nil and uv0(slot2) then
+	if slot0:GetPainting() ~= nil then
 		table.insert(slot1, slot2)
 	end
 
 	for slot7, slot8 in ipairs(slot0:GetSubPaintings()) do
-		if uv0(slot8.name) then
-			table.insert(slot1, slot9)
-		end
+		table.insert(slot1, slot8.name)
 	end
 
 	return slot1

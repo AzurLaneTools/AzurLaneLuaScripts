@@ -96,7 +96,7 @@ slot0.initUI = function(slot0)
 	slot2 = slot0:findTF("MaxRarity")
 	slot3 = slot0:findTF("Ratio")
 
-	for slot7 = 2, 5 do
+	for slot7 = 2, 6 do
 		slot0.minRaritySpriteMap[slot7] = getImageSprite(slot0:findTF(tostring(slot7), slot1))
 		slot0.maxRaritySpriteMap[slot7] = getImageSprite(slot0:findTF(tostring(slot7), slot2))
 		slot0.ratioSpriteMap[slot7] = getImageSprite(slot0:findTF(tostring(slot7), slot3))
@@ -421,9 +421,11 @@ slot0.updateShipList = function(slot0, slot1)
 			setActive(slot4, false)
 		end
 
-		slot9 = ShipRarity.Rarity2Print(pg.ship_data_statistics[slot2].rarity)
+		slot8 = pg.ship_data_statistics[slot2].rarity
+		slot9 = ShipRarity.Rarity2Print(slot8)
 
-		setFrame(uv1:findTF("BG/Frame", slot1), slot9)
+		setFrame(uv1:findTF("BG/icon_bg/frame", slot1), slot9)
+		setIconColorful(uv1:findTF("BG", slot1), slot8 - 1, {})
 		setImageSprite(uv1:findTF("BG", slot1), GetSpriteFromAtlas("weaponframes", "bg" .. slot9))
 		setText(uv1:findTF("NameBG/NameText", slot1), shortenString(pg.ship_data_statistics[slot2].name, 6))
 
@@ -435,6 +437,10 @@ slot0.updateShipList = function(slot0, slot1)
 			SetActive(slot13, false)
 		end
 
+		setBlackMask(tf(slot1), slot8 == ShipRarity.SSR and uv1:isSelectedSSR() and not isActive(slot13), {
+			recursive = true,
+			color = Color(0, 0, 0, 0.6)
+		})
 		onButton(uv1, slot1, function ()
 			if uv0.selectedCount < uv0.pickUpNum then
 				if isActive(uv1) then
@@ -444,6 +450,9 @@ slot0.updateShipList = function(slot0, slot1)
 
 					SetActive(uv1, false)
 					uv0:updateSelectedShipList()
+					uv0:updateShipList(uv0.fliteList)
+				elseif uv3 == ShipRarity.SSR and uv0:isSelectedSSR() then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("pray_build_UR_warning"))
 				else
 					uv0.prayProxy:insertSelectedShipIDList(uv2)
 
@@ -451,6 +460,7 @@ slot0.updateShipList = function(slot0, slot1)
 
 					SetActive(uv1, true)
 					uv0:updateSelectedShipList()
+					uv0:updateShipList(uv0.fliteList)
 				end
 			elseif uv0.selectedCount == uv0.pickUpNum then
 				if isActive(uv1) then
@@ -460,6 +470,7 @@ slot0.updateShipList = function(slot0, slot1)
 
 					SetActive(uv1, false)
 					uv0:updateSelectedShipList()
+					uv0:updateShipList(uv0.fliteList)
 				else
 					pg.TipsMgr.GetInstance():ShowTips(i18n("error_pray_select_ship_max"))
 				end
@@ -510,6 +521,22 @@ end
 
 slot0.isMinPrefs = function(slot0)
 	return GroupHelper.GetGroupPrefsByName("PAINTING") == DMFileChecker.Prefs.Min
+end
+
+slot0.isSelectedSSR = function(slot0)
+	slot1 = false
+
+	if slot0.prayProxy:getSelectedShipIDList() and #slot2 > 0 then
+		for slot6, slot7 in ipairs(slot2) do
+			if pg.ship_data_statistics[slot7].rarity == ShipRarity.SSR then
+				slot1 = true
+
+				break
+			end
+		end
+	end
+
+	return slot1
 end
 
 return slot0

@@ -29,10 +29,12 @@ slot0.OnMiniGameSuccess = function(slot0, slot1)
 			return
 		end
 
+		slot3 = nil
+
 		slot0:sendNotification(GAME.SEND_MINI_GAME_OP, {
 			hubid = slot2.id,
 			cmd = MiniGameOPCommand.CMD_COMPLETE,
-			args1 = {
+			args1 = slot1 and type(slot1) == "table" and slot1 or {
 				slot1
 			},
 			id = slot0.miniGameId

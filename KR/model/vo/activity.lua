@@ -27,7 +27,8 @@ slot0.GetType2Class = function()
 		[ActivityConst.ACTIVITY_TYPE_SKIN_COUPON] = SkinCouponActivity,
 		[ActivityConst.ACTIVITY_TYPE_MANUAL_SIGN] = ManualSignActivity,
 		[ActivityConst.ACTIVITY_TYPE_BOSSSINGLE] = BossSingleActivity,
-		[ActivityConst.ACTIVITY_TYPE_EVENT_SINGLE] = SingleEventActivity
+		[ActivityConst.ACTIVITY_TYPE_EVENT_SINGLE] = SingleEventActivity,
+		[ActivityConst.ACTIVITY_TYPE_LINER] = LinerActivity
 	}
 
 	return uv0
@@ -68,6 +69,14 @@ slot0.Ctor = function(slot0, slot1)
 
 	for slot5, slot6 in slot2(slot3) do
 		table.insert(slot0.data3_list, slot6)
+	end
+
+	slot0.data4_list = {}
+	slot2 = ipairs
+	slot3 = slot1.data4_list or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		table.insert(slot0.data4_list, slot6)
 	end
 
 	slot0.data1KeyValueList = {}
@@ -465,8 +474,18 @@ slot0.readyToAchieve = function(slot0)
 			return false
 		end,
 		[ActivityConst.ACTIVITY_TYPE_CLIENT_DISPLAY] = function (slot0)
-			if slot0:getConfig("config_client") and slot1.linkGameHubID and getProxy(MiniGameProxy):GetHubByHubId(slot1.linkGameHubID) and slot2.count > 0 then
-				return true
+			if slot0:getConfig("config_client") and slot1.linkGameHubID and getProxy(MiniGameProxy):GetHubByHubId(slot1.linkGameHubID) then
+				if slot1.trimRed then
+					if slot2.ultimate == 1 then
+						return false
+					end
+
+					if slot2.usedtime == slot2:getConfig("reward_need") then
+						return true
+					end
+				end
+
+				return slot2.count > 0
 			end
 
 			return false
@@ -609,6 +628,19 @@ slot0.readyToAchieve = function(slot0)
 			return underscore(slot1):chain():first(math.min(#slot1, slot0:getNDay())):any(function (slot0)
 				return getProxy(ShopsProxy):GetGiftCommodity(slot0, Goods.TYPE_GIFT_PACKAGE):canPurchase() and slot1:inTime() and not slot1:IsGroupLimit()
 			end):value()
+		end,
+		[ActivityConst.ACTIVITY_TYPE_UR_EXCHANGE] = function (slot0)
+			if getProxy(ShopsProxy):getActivityShops() == nil then
+				return false
+			end
+
+			slot1 = function(slot0, slot1)
+				return getProxy(ShopsProxy):getActivityShopById(slot0):GetCommodityById(slot1):GetPurchasableCnt()
+			end
+
+			slot2 = slot0:getConfig("config_client")
+
+			return slot6 < 3 and (3 - slot1(slot2.shopId, slot2.goodsId[1]) - slot1(slot2.shopId, slot2.goodsId[2]) < 3 and pg.activity_shop_template[slot2.goodsId[slot6]] or nil).resource_num <= getProxy(PlayerProxy):getData():getResource(slot2.uPtId)
 		end
 	}
 
@@ -699,6 +731,19 @@ slot0.isShow = function(slot0)
 		slot1 = getProxy(ActivityProxy)
 
 		return slot1:isSurveyOpen() and not slot1:isSurveyDone()
+	elseif slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_UR_EXCHANGE then
+		if getProxy(ShopsProxy):getActivityShops() == nil then
+			return false
+		end
+
+		slot1 = function(slot0, slot1)
+			return getProxy(ShopsProxy):getActivityShopById(slot0):GetCommodityById(slot1):GetPurchasableCnt()
+		end
+
+		slot2 = slot0:getConfig("config_client")
+		slot3 = getProxy(PlayerProxy):getData():getResource(slot2.uPtId)
+
+		return 3 - slot1(slot2.shopId, slot2.goodsId[1]) - slot1(slot2.shopId, slot2.goodsId[2]) < 3
 	end
 
 	return true

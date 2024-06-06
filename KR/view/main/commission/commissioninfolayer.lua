@@ -1,11 +1,16 @@
 slot0 = class("CommissionInfoLayer", import("...base.BaseUI"))
 
 slot0.getUIName = function(slot0)
-	return "CommissionInfoUI"
+	if getProxy(SettingsProxy):IsMellowStyle() then
+		return "CommissionInfoUI4Mellow"
+	else
+		return "CommissionInfoUI"
+	end
 end
 
 slot0.init = function(slot0)
 	slot0.frame = slot0:findTF("frame")
+	slot0.parentTr = slot0._tf.parent
 	slot0.resourcesTF = slot0:findTF("resources", slot0.frame)
 	slot0.oilTF = slot0:findTF("canteen/bubble/Text", slot0.resourcesTF):GetComponent(typeof(Text))
 	slot0.goldTF = slot0:findTF("merchant/bubble/Text", slot0.resourcesTF):GetComponent(typeof(Text))
@@ -13,6 +18,9 @@ slot0.init = function(slot0)
 	slot0.oilbubbleTF = slot0:findTF("canteen/bubble", slot0.resourcesTF)
 	slot0.goldbubbleTF = slot0:findTF("merchant/bubble", slot0.resourcesTF)
 	slot0.classbubbleTF = slot0:findTF("class/bubble", slot0.resourcesTF)
+	slot0.oilbubbleCG = GetOrAddComponent(slot0.oilbubbleTF, typeof(CanvasGroup))
+	slot0.goldbubbleCG = GetOrAddComponent(slot0.goldbubbleTF, typeof(CanvasGroup))
+	slot0.classbubbleCG = GetOrAddComponent(slot0.classbubbleTF, typeof(CanvasGroup))
 	slot3 = slot0.classbubbleTF:Find("icon")
 	slot3:GetComponent(typeof(Image)).sprite = LoadSprite(Item.getConfigData(getProxy(NavalAcademyProxy):GetClassVO():GetResourceType()).icon)
 	slot0.projectContainer = slot0:findTF("main/content", slot0.frame)
@@ -22,9 +30,7 @@ slot0.init = function(slot0)
 		CommissionInfoTechnologyItem.New(slot0:findTF("frame/main/content/technology"), slot0)
 	}
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
-		weight = LayerWeightConst.SECOND_LAYER
-	})
+	slot0:BlurPanel()
 
 	slot0.linkBtnPanel = slot0:findTF("frame/link_btns/btns")
 	slot0.activityInsBtn = slot0:findTF("frame/link_btns/btns/ins")
@@ -34,6 +40,16 @@ slot0.init = function(slot0)
 	slot0.activtyUrExchangeTip = slot0:findTF("frame/link_btns/btns/urEx/tip")
 	slot0.activityCrusingBtn = slot0:findTF("frame/link_btns/btns/crusing")
 	slot0.metaBossBtn = CommissionMetaBossBtn.New(slot0:findTF("frame/link_btns/btns/meta_boss"), slot0.event)
+end
+
+slot0.BlurPanel = function(slot0)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+		weight = LayerWeightConst.SECOND_LAYER
+	})
+end
+
+slot0.UnBlurPanel = function(slot0)
+	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0.parentTr)
 end
 
 slot0.UpdateUrItemEntrance = function(slot0)
@@ -98,37 +114,81 @@ end
 
 slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.oilbubbleTF, function ()
-		if LeanTween.isTweening(go(uv0.frame)) then
+		if uv0.isPaying then
 			return
 		end
 
-		uv0:emit(CommissionInfoMediator.GET_OIL_RES)
+		if not getProxy(PlayerProxy):getRawData():CanGetResource(PlayerConst.ResOil) then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("player_harvestResource_error_fullBag"))
+
+			return
+		end
+
+		uv0:PlayGetResAnimation(uv0.oilbubbleTF, function ()
+			uv0:emit(CommissionInfoMediator.GET_OIL_RES)
+		end)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.goldbubbleTF, function ()
-		if LeanTween.isTweening(go(uv0.frame)) then
+		if uv0.isPaying then
 			return
 		end
 
-		uv0:emit(CommissionInfoMediator.GET_GOLD_RES)
+		if not getProxy(PlayerProxy):getRawData():CanGetResource(PlayerConst.ResGold) then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("player_harvestResource_error_fullBag"))
+
+			return
+		end
+
+		uv0:PlayGetResAnimation(uv0.goldbubbleTF, function ()
+			uv0:emit(CommissionInfoMediator.GET_GOLD_RES)
+		end)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.classbubbleTF, function ()
+		if uv0.isPaying then
+			return
+		end
+
+		if not getProxy(NavalAcademyProxy):GetClassVO():CanGetRes() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("player_harvestResource_error_fullBag"))
+
+			return
+		end
+
+		uv0:PlayGetResAnimation(uv0.classbubbleTF, function ()
+			uv0:emit(CommissionInfoMediator.GET_CLASS_RES)
+		end)
 	end, SFX_PANEL)
 	onButton(slot0, slot0._tf, function ()
-		if LeanTween.isTweening(go(uv0.frame)) then
-			return
-		end
-
 		if uv0.contextData.inFinished then
 			return
 		end
 
-		uv0:emit(uv1.ON_CLOSE)
+		uv0.isPaying = true
+
+		uv0:PlayExitAnimation(function ()
+			uv0:emit(uv1.ON_CLOSE)
+
+			uv0.isPaying = false
+		end)
 	end, SOUND_BACK)
-	onButton(slot0, slot0.classbubbleTF, function ()
-		uv0:emit(CommissionInfoMediator.GET_CLASS_RES)
-	end, SFX_PANEL)
 	slot0:InitItems()
 	slot0:UpdateUrItemEntrance()
 	slot0:updateCrusingEntrance()
 	slot0.metaBossBtn:Flush()
+end
+
+slot0.PlayGetResAnimation = function(slot0, slot1, slot2)
+	slot0.isPaying = true
+	slot4 = slot1:GetComponent(typeof(DftAniEvent))
+
+	slot4:SetEndEvent(nil)
+	slot4:SetEndEvent(function ()
+		uv0:SetEndEvent(nil)
+		uv1()
+
+		uv2.isPaying = false
+	end)
+	slot1:GetComponent(typeof(Animation)):Play("anim_commission_bubble_get")
 end
 
 slot0.InitItems = function(slot0)
@@ -157,6 +217,12 @@ end
 
 slot0.updateResource = function(slot0, slot1)
 	slot3 = getProxy(NavalAcademyProxy):GetClassVO():GetGenResCnt()
+	slot0.oilbubbleCG.alpha = 1
+	slot0.goldbubbleCG.alpha = 1
+	slot0.classbubbleCG.alpha = 1
+	slot0.oilbubbleTF.localScale = Vector3.one
+	slot0.goldbubbleTF.localScale = Vector3.one
+	slot0.classbubbleTF.localScale = Vector3.one
 
 	setActive(slot0.oilbubbleTF, slot1.oilField ~= 0)
 	setActive(slot0.goldbubbleTF, slot1.goldField ~= 0)
@@ -173,7 +239,7 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	slot0:UnBlurPanel()
 
 	for slot4, slot5 in ipairs(slot0.items) do
 		slot5:Dispose()

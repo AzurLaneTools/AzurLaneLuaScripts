@@ -300,6 +300,7 @@ slot6.AddUnitEvent = function(slot0)
 	slot0._unitData:RegisterEventListener(slot0, uv0.ADD_BLINK, slot0.onBlink)
 	slot0._unitData:RegisterEventListener(slot0, uv0.SUBMARINE_VISIBLE, slot0.onUpdateDiveInvisible)
 	slot0._unitData:RegisterEventListener(slot0, uv0.SUBMARINE_DETECTED, slot0.onDetected)
+	slot0._unitData:RegisterEventListener(slot0, uv0.SUBMARINE_FORCE_DETECTED, slot0.onForceDetected)
 	slot0._unitData:RegisterEventListener(slot0, uv0.BLIND_VISIBLE, slot0.onUpdateBlindInvisible)
 	slot0._unitData:RegisterEventListener(slot0, uv0.BLIND_EXPOSE, slot0.onBlindExposed)
 	slot0._unitData:RegisterEventListener(slot0, uv0.INIT_ANIT_SUB_VIGILANCE, slot0.onInitVigilantState)
@@ -340,6 +341,7 @@ slot6.RemoveUnitEvent = function(slot0)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.ADD_BLINK)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.SUBMARINE_VISIBLE)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.SUBMARINE_DETECTED)
+	slot0._unitData:UnregisterEventListener(slot0, uv0.SUBMARINE_FORCE_DETECTED)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.BLIND_VISIBLE)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.BLIND_EXPOSE)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.UPDATE_SCORE)
@@ -515,7 +517,7 @@ slot6.UpdateDiveInvisible = function(slot0, slot1)
 
 	slot3 = slot0._unitData:GetIFF() == uv0.FOE_CODE
 
-	if slot0._unitData:GetDiveInvisible() then
+	if not slot0._unitData:GetForceExpose() and slot0._unitData:GetDiveInvisible() then
 		slot0:updateInvisible(slot2, slot3 and "GRID_TRANSPARENT" or "SEMI_TRANSPARENT", slot0:GetFactory():GetDivingFilterColor())
 
 		if not slot1 and slot3 then
@@ -563,10 +565,6 @@ slot6.onDetected = function(slot0, slot1)
 		return
 	end
 
-	if slot0._unitData:GetForceExpose() then
-		return
-	end
-
 	if slot0._unitData:GetDiveDetected() and slot0._unitData:GetIFF() == uv0.FOE_CODE then
 		slot0._shockFX = slot0:AddFX("shock", true, true)
 	else
@@ -586,6 +584,10 @@ slot6.UpdateCharacterDetected = function(slot0)
 	else
 		slot0:spineSemiTransparentFade(0.7, 0, uv0.SUB_FADE_OUT_DURATION)
 	end
+end
+
+slot6.onForceDetected = function(slot0, slot1)
+	slot0:UpdateCharacterForceDetected()
 end
 
 slot6.UpdateCharacterForceDetected = function(slot0)
@@ -739,7 +741,11 @@ slot6.UpdatePosition = function(slot0)
 	end
 
 	slot0._characterPos = slot1
-	slot0._tf.localPosition = slot1
+	slot0._tf.localPosition = slot0:getCharacterPos()
+end
+
+slot6.getCharacterPos = function(slot0)
+	return slot0._characterPos
 end
 
 slot6.UpdateMatrix = function(slot0)

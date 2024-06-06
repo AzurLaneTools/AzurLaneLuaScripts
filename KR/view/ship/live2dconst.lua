@@ -1,4 +1,5 @@
 slot0 = class("Live2dConst")
+slot0.UnLoadL2dPating = nil
 
 slot0.SaveL2dIdle = function(slot0, slot1, slot2)
 	PlayerPrefs.SetInt(uv0.GetL2dIdleSaveName(slot0, slot1), slot2)

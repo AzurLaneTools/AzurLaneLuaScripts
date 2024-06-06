@@ -183,7 +183,7 @@ slot0.FlushBG = function(slot0, slot1, slot2)
 	}):getShipBgPrint(true)
 	slot8 = pg.ship_skin_template[slot3].painting
 
-	if (slot0.isToggleShowBg or not PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot8 .. "_n"))) and slot4.bg_sp ~= "" then
+	if (slot0.isToggleShowBg or not checkABExist("painting/" .. slot8 .. "_n")) and slot4.bg_sp ~= "" then
 		slot7 = slot4.bg_sp
 	end
 
@@ -221,9 +221,9 @@ slot0.FlushPaintingToggle = function(slot0, slot1)
 	removeOnToggle(slot0.dynamicToggle)
 	removeOnToggle(slot0.showBgToggle)
 
-	slot3 = PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. ShipSkin.New({
+	slot3 = checkABExist("painting/" .. ShipSkin.New({
 		id = slot1:getSkinId()
-	}):getConfig("painting") .. "_n"))
+	}):getConfig("painting") .. "_n")
 
 	if slot0.isToggleShowBg and not slot3 then
 		triggerToggle(slot0.showBgToggle, false)
@@ -294,13 +294,13 @@ end
 slot0.ExistL2dRes = function(slot0, slot1)
 	slot2 = HXSet.autoHxShiftPath("live2d/" .. string.lower(slot1), nil, true)
 
-	return PathMgr.FileExists(PathMgr.getAssetBundle(slot2)), slot2
+	return checkABExist(slot2), slot2
 end
 
 slot0.ExistSpineRes = function(slot0, slot1)
 	slot2 = HXSet.autoHxShiftPath("SpinePainting/" .. string.lower(slot1), nil, true)
 
-	return PathMgr.FileExists(PathMgr.getAssetBundle(slot2)), slot2
+	return checkABExist(slot2), slot2
 end
 
 slot0.FlushDynamicPaintingResState = function(slot0, slot1)
@@ -418,11 +418,11 @@ slot0.LoadMeshPainting = function(slot0, slot1, slot2)
 	slot4.Tween = 1
 	slot6 = pg.ship_skin_template[slot1:getSkinId()].painting
 
-	if not slot2 and PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot5 .. "_n")) then
+	if not slot2 and checkABExist("painting/" .. slot5 .. "_n") then
 		slot5 = slot5 .. "_n"
 	end
 
-	if not PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. slot5)) then
+	if not checkABExist("painting/" .. slot5) then
 		return
 	end
 

@@ -488,7 +488,7 @@ slot0.updatePlateTF = function(slot0, slot1, slot2)
 				setActive(slot9, false)
 				setActive(slot10, false)
 				setActive(slot11, true)
-			elseif PathMgr.FileExists(PathMgr.getAssetBundle(slot21)) then
+			elseif checkABExist(slot21) then
 				slot0.appreciateProxy:updateMusicFileExistStateTable(slot16, true)
 				table.removebyvalue(slot0.downloadCheckIDList, slot16, true)
 
@@ -646,7 +646,7 @@ slot0.updateSongTF = function(slot0, slot1, slot2)
 			setActive(slot8, false)
 			setActive(slot9, false)
 
-			if PathMgr.FileExists(PathMgr.getAssetBundle(slot15)) then
+			if checkABExist(slot15) then
 				slot17 = MusicCollectionConst.Color_Of_Normal_Song
 
 				slot0.appreciateProxy:updateMusicFileExistStateTable(slot11, true)

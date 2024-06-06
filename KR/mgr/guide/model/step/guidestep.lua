@@ -184,8 +184,14 @@ slot0.GenSearchData = function(slot0, slot1)
 		return nil
 	end
 
+	slot2 = slot1.path
+
+	if slot1.dynamicPath then
+		slot2 = slot1.dynamicPath()
+	end
+
 	return {
-		path = slot1.path,
+		path = slot2,
 		delay = slot1.delay,
 		pathIndex = slot1.pathIndex,
 		conditionData = slot1.conditionData

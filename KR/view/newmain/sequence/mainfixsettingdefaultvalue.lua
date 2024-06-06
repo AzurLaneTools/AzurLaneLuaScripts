@@ -10,7 +10,12 @@ slot0.Execute = function(slot0, slot1)
 	end
 
 	PlayerPrefs.Save()
+	slot0:FixPlayerPrefsKey()
 	slot1()
+end
+
+slot0.FixPlayerPrefsKey = function(slot0)
+	USAGE_NEW_MAINUI = "USAGE_NEW_MAINUI" .. getProxy(PlayerProxy):getRawData().id
 end
 
 return slot0

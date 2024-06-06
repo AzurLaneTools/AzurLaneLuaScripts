@@ -662,7 +662,7 @@ slot0.initEmptyCard = function(slot0, slot1)
 	slot5, slot6 = nil
 
 	for slot10, slot11 in ipairs(pg.gallery_config.all) do
-		if PathMgr.FileExists(PathMgr.getAssetBundle(GalleryConst.CARD_PATH_PREFIX .. (pg.gallery_config[slot11].illustration .. "_t"))) then
+		if checkABExist(GalleryConst.CARD_PATH_PREFIX .. (pg.gallery_config[slot11].illustration .. "_t")) then
 			slot5 = slot14
 			slot6 = slot13
 

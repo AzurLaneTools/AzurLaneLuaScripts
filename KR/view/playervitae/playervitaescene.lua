@@ -34,7 +34,13 @@ end
 
 slot0.ReloadPanting = function(slot0, slot1)
 	if slot0.displaySkinID and slot0.displaySkinID == slot1 then
-		setPaintingPrefabAsync(slot0.painting, slot0:GetFlagShip():getPainting(), "kanban")
+		slot0:ReturnPainting()
+
+		slot3 = slot0:GetFlagShip():getPainting()
+
+		setPaintingPrefabAsync(slot0.painting, slot3, "kanban")
+
+		slot0.paintingName = slot3
 	end
 end
 
@@ -223,7 +229,14 @@ slot0.UpdatePainting = function(slot0, slot1)
 	end
 
 	if not slot0.displaySkinID or slot0.displaySkinID ~= slot2.skinId or slot1 then
-		setPaintingPrefabAsync(slot0.painting, slot2:getPainting(), "kanban")
+		slot0:ReturnPainting()
+
+		slot5 = slot2:getPainting()
+
+		setPaintingPrefabAsync(slot0.painting, slot5, "kanban")
+
+		slot0.paintingName = slot5
+
 		setActive(slot0.switchSkinBtn, not HXSet.isHxSkin() and getProxy(ShipSkinProxy):HasFashion(slot2) and not isa(slot2, VirtualEducateCharShip))
 
 		slot0.displaySkinID = slot2.skinId
@@ -232,6 +245,14 @@ slot0.UpdatePainting = function(slot0, slot1)
 	setActive(slot0.cryptolaliaBtn, getProxy(PlayerProxy):getRawData():ExistCryptolalia(slot2:getGroupId()))
 	slot0:updateSwitchSkinBtnTag()
 	slot0:checkShowResetL2dBtn()
+end
+
+slot0.ReturnPainting = function(slot0)
+	if slot0.paintingName then
+		retPaintingPrefab(slot0.painting, slot0.paintingName)
+	end
+
+	slot0.paintingName = nil
 end
 
 slot0.updateSwitchSkinBtnTag = function(slot0)
@@ -261,7 +282,7 @@ slot0.checkShowResetL2dBtn = function(slot0)
 		return
 	end
 
-	if not PathMgr.FileExists(PathMgr.getAssetBundle(HXSet.autoHxShiftPath("live2d/" .. string.lower(slot1:getPainting()), nil, true))) then
+	if not checkABExist(HXSet.autoHxShiftPath("live2d/" .. string.lower(slot1:getPainting()), nil, true)) then
 		setActive(slot0.btnLive2dReset, false)
 
 		return
@@ -278,6 +299,8 @@ slot0.checkShowResetL2dBtn = function(slot0)
 end
 
 slot0.willExit = function(slot0)
+	slot0:ReturnPainting()
+
 	if LeanTween.isTweening(slot0.painting.gameObject) then
 		LeanTween.cancel(slot0.painting.gameObject)
 	end

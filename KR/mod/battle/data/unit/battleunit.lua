@@ -1520,6 +1520,10 @@ slot9.GetOxygenVisible = function(slot0)
 	return slot0._oxyState and slot0._oxyState:GetBarVisible()
 end
 
+slot9.SetForceVisible = function(slot0)
+	slot0:DispatchEvent(uv0.Event.New(uv1.SUBMARINE_FORCE_DETECTED))
+end
+
 slot9.Detected = function(slot0, slot1)
 	slot2 = nil
 

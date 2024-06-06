@@ -13,16 +13,34 @@ return {
 				posX = -668.9,
 				uiset = {
 					{
-						pathIndex = -1,
 						lineMode = 1,
-						path = "OverlayCamera/Overlay/UIMain/main/frame/char"
+						pathIndex = -1,
+						dynamicPath = function ()
+							if getProxy(SettingsProxy):IsMellowStyle() then
+								return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/top/icon"
+							else
+								return "OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/char"
+							end
+						end
 					}
 				}
 			},
 			ui = {
 				pathIndex = -1,
-				eventPath = "OverlayCamera/Overlay/UIMain/main/frame/top/iconBack",
-				path = "OverlayCamera/Overlay/UIMain/main/frame/char"
+				dynamicPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/top/icon"
+					else
+						return "OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/char"
+					end
+				end,
+				dynamicEventPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/top/name_bg"
+					else
+						return "OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/top/iconBack"
+					end
+				end
 			}
 		},
 		{

@@ -23,6 +23,7 @@ slot0.execute = function(slot0, slot1)
 				pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_shipAddInimacy_ok", slot2:getName()))
 			end
 
+			getProxy(DormProxy):UpdateInimacyAndMoney()
 			uv1:sendNotification(GAME.BACKYARD_ADD_INTIMACY_DONE, {
 				id = uv0
 			})

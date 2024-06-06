@@ -1,4 +1,4 @@
-slot0 = class("MainBasePainting")
+slot0 = class("MainBasePainting", import("view.base.BaseEventLogic"))
 slot1 = 1
 slot2 = 2
 slot3 = 3
@@ -6,21 +6,23 @@ slot4 = 4
 slot5 = nil
 
 slot0.Ctor = function(slot0, slot1, slot2)
+	uv0.super.Ctor(slot0, slot2)
 	pg.DelegateInfo.New(slot0)
 
 	slot0.container = slot1
-	slot0.chatTf = slot2
-	slot0.chatText = slot2:Find("Text")
-	slot0.chatTextBg = slot2:Find("chatbgtop")
-	slot0.initChatBgH = slot0.chatTextBg.sizeDelta.y
-	slot0.state = uv0
-	uv1 = pg.AssistantInfo
+	slot0.state = uv1
+	uv2 = pg.AssistantInfo
+	slot0.wordPosition = slot1:Find("live2d")
 	slot0.cvLoader = MainCVLoader.New()
 	slot0.longPressEvent = slot1:GetComponent("UILongPressTrigger").onLongPressed
 end
 
+slot0.IsUnload = function(slot0)
+	return slot0.state == uv0
+end
+
 slot0.GetCenterPos = function(slot0)
-	return slot0.chatTf.parent:InverseTransformPoint(slot0.container.position)
+	return slot0.wordPosition.position
 end
 
 slot0.IsLoading = function(slot0)
@@ -60,6 +62,8 @@ slot0.Unload = function(slot0)
 	slot0:OnUnload()
 
 	slot0.paintingName = nil
+
+	LeanTween.cancel(slot0.container.gameObject)
 end
 
 slot0.UnloadOnlyPainting = function(slot0)
@@ -246,29 +250,9 @@ slot0.DisplayWord = function(slot0, slot1)
 		return
 	end
 
-	if PLATFORM_CODE == PLATFORM_US then
-		setTextEN(slot0.chatText, slot4)
-	else
-		setText(slot0.chatText, SwitchSpecialChar(slot4))
-	end
-
-	slot0:AdjustChatPosition()
 	slot0:OnDisplayWorld(slot1)
-	slot0:RegisterChatSkipAction(slot1)
+	slot0:emit(MainWordView.SET_CONTENT, slot1, slot4)
 	slot0:PlayCvAndAnimation(slot6, slot5, slot3)
-end
-
-slot0.RegisterChatSkipAction = function(slot0, slot1)
-	removeOnButton(slot0.chatTf)
-	onButton(slot0, slot0.chatTf, function ()
-		if uv0 == "mission_complete" or uv0 == "mission" then
-			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.TASK)
-		elseif uv0 == "collection" then
-			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.EVENT)
-		elseif uv0 == "event_complete" then
-			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.EVENT)
-		end
-	end)
 end
 
 slot0.PlayCvAndAnimation = function(slot0, slot1, slot2, slot3)
@@ -312,40 +296,38 @@ slot0.PlayCV = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.cvLoader:Load(pg.CriMgr.GetCVBankName(ShipWordHelper.RawGetCVKey(slot0.ship.skinId)), slot3, 0, slot4)
 end
 
-slot0.AdjustChatPosition = function(slot0)
-	if CHAT_POP_STR_LEN < #slot0.chatText:GetComponent(typeof(Text)).text then
-		slot1.alignment = TextAnchor.MiddleLeft
-	else
-		slot1.alignment = TextAnchor.MiddleCenter
-	end
+slot0.StartChatAnimtion = function(slot0, slot1, slot2)
+	slot3 = 0.3
+	slot4 = slot1 > 0 and slot1 or 3
 
-	if slot0.initChatBgH < slot1.preferredHeight + 26 then
-		slot0.chatTextBg.sizeDelta = Vector2.New(slot0.chatTextBg.sizeDelta.x, slot2)
-	else
-		slot0.chatTextBg.sizeDelta = Vector2.New(slot0.chatTextBg.sizeDelta.x, slot0.initChatBgH)
-	end
+	slot0:emit(MainWordView.START_ANIMATION, slot3, slot4)
+	slot0:AddCharTimer(function ()
+		if uv0:IsUnload() then
+			return
+		end
 
-	if slot0.isFoldState then
-		slot0.chatTf.localPosition = Vector3(slot0:GetCenterPos().x, -190, 0)
-	end
+		uv1()
+	end, slot3 * 3 + slot4)
 end
 
-slot0.StartChatAnimtion = function(slot0, slot1, slot2)
-	slot3 = getProxy(SettingsProxy):ShouldShipMainSceneWord() and 1 or 0
-	slot5 = slot1 > 0 and slot1 or 3
+slot0.AddCharTimer = function(slot0, slot1, slot2)
+	slot0:RemoveChatTimer()
 
-	LeanTween.scale(rtf(slot0.chatTf.gameObject), Vector3.New(slot3, slot3, 1), 0.3):setEase(LeanTweenType.easeOutBack):setOnComplete(System.Action(function ()
-		LeanTween.scale(rtf(uv0.chatTf.gameObject), Vector3.New(0, 0, 1), uv1):setEase(LeanTweenType.easeInBack):setDelay(uv1 + uv2):setOnComplete(System.Action(uv3))
-	end))
+	slot0.chatTimer = Timer.New(slot1, slot2, 1)
+
+	slot0.chatTimer:Start()
+end
+
+slot0.RemoveChatTimer = function(slot0)
+	if slot0.chatTimer then
+		slot0.chatTimer:Stop()
+
+		slot0.chatTimer = nil
+	end
 end
 
 slot0.StopChatAnimtion = function(slot0)
-	if LeanTween.isTweening(slot0.chatTf.gameObject) then
-		LeanTween.cancel(slot0.chatTf.gameObject)
-	end
-
-	slot0.chatTf.localScale = Vector3.zero
-
+	slot0:emit(MainWordView.STOP_ANIMATION)
 	slot0:OnEndChatting()
 end
 
@@ -415,15 +397,6 @@ slot0.Fold = function(slot0, slot1, slot2)
 	slot0.isFoldState = slot1
 
 	slot0:RemoveMoveTimer()
-
-	if slot1 and slot2 > 0 then
-		slot3 = LeanTween.value(slot0.container.gameObject, 0, 1, slot2)
-
-		slot3:setOnUpdate(System.Action_float(function (slot0)
-			uv0.chatTf.localPosition = Vector3(uv0:GetCenterPos().x, -190, 0)
-		end))
-	end
-
 	slot0:OnFold(slot1)
 end
 
@@ -459,20 +432,41 @@ slot0.IslimitYPos = function(slot0)
 	return false
 end
 
-slot0.Puase = function(slot0)
+slot0.PauseForSilent = function(slot0)
+	if slot0:IsLoaded() then
+		slot0:_Pause()
+	end
+end
+
+slot0._Pause = function(slot0)
 	slot0.isPuase = true
 
 	slot0:RemoveMoveTimer()
 	slot0:StopChatAnimtion()
+	slot0:RemoveChatTimer()
 	slot0:RemoveTimer()
 	slot0.cvLoader:Stop()
+end
+
+slot0.Puase = function(slot0)
+	slot0:_Pause()
 	slot0:OnPuase()
 end
 
-slot0.Resume = function(slot0)
+slot0.ResumeForSilent = function(slot0)
+	if slot0:IsLoaded() then
+		slot0:_Resume()
+	end
+end
+
+slot0._Resume = function(slot0)
 	slot0.isPuase = false
 
 	slot0:TriggerNextEventAuto()
+end
+
+slot0.Resume = function(slot0)
+	slot0:_Resume()
 	slot0:OnResume()
 end
 
@@ -488,6 +482,8 @@ slot0.OnUpdateShip = function(slot0, slot1)
 end
 
 slot0.Dispose = function(slot0)
+	slot0:disposeEvent()
+
 	slot0.isExited = true
 
 	pg.DelegateInfo.Dispose(slot0)
@@ -503,6 +499,7 @@ slot0.Dispose = function(slot0)
 
 	slot0:RemoveTimer()
 	slot0:RemoveMoveTimer()
+	slot0:RemoveChatTimer()
 end
 
 slot0.OnLoad = function(slot0, slot1)

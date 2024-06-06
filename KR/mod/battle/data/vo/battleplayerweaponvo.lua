@@ -259,16 +259,7 @@ slot3.Plus = function(slot0, slot1)
 end
 
 slot3.Deduct = function(slot0, slot1)
-	slot0.deleteElementFromArray(slot1, slot0._readyList)
-
-	slot0._overHeatList[#slot0._overHeatList + 1] = slot1
-	slot0._count = slot0._count - 1
-
-	if slot0._count < 0 then
-		slot0._count = 0
-	end
-
-	slot0:DispatchCountChange()
+	slot0:readyToOverheat(slot1)
 
 	if #slot0._readyList ~= 0 then
 		slot0._max = slot0._GCD
@@ -282,6 +273,11 @@ slot3.Deduct = function(slot0, slot1)
 		slot0._current = 0
 	end
 
+	slot0:DispatchOverLoadChange()
+end
+
+slot3.InitialDeduct = function(slot0, slot1)
+	slot0:readyToOverheat(slot1)
 	slot0:DispatchOverLoadChange()
 end
 
@@ -386,6 +382,19 @@ slot3.Dispose = function(slot0)
 	slot0._focusTimer = nil
 
 	uv0.EventDispatcher.DetachEventDispatcher(slot0)
+end
+
+slot3.readyToOverheat = function(slot0, slot1)
+	slot0.deleteElementFromArray(slot1, slot0._readyList)
+
+	slot0._overHeatList[#slot0._overHeatList + 1] = slot1
+	slot0._count = slot0._count - 1
+
+	if slot0._count < 0 then
+		slot0._count = 0
+	end
+
+	slot0:DispatchCountChange()
 end
 
 slot3.deleteElementFromArray = function(slot0, slot1)

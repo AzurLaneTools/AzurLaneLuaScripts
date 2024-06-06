@@ -666,6 +666,17 @@ slot0.parseCompareUnitTemplate = function(slot0, slot1, slot2)
 	return getCompareFuncByPunctuation(string.sub(slot0, slot3, slot4))(tonumber(string.sub(slot0, 1, slot3 - 1)) or slot1:GetTemplateValue(slot6), tonumber(slot7) or slot2:GetTemplateValue(slot7))
 end
 
+slot0.parseCompareBuffAttachData = function(slot0, slot1)
+	slot2, slot3 = string.find(slot0, "%p+")
+	slot4 = string.sub(slot0, slot2, slot3)
+
+	if slot1.__name ~= string.sub(slot0, 1, slot2 - 1) then
+		return true
+	end
+
+	return getCompareFuncByPunctuation(slot4)(slot1:GetEffectAttachData(), tonumber(string.sub(slot0, slot3 + 1, #slot0)))
+end
+
 slot0.parseCompare = function(slot0, slot1)
 	slot2, slot3 = string.find(slot0, "%p+")
 	slot6 = string.sub(slot0, slot3 + 1, #slot0)

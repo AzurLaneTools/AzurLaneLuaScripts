@@ -22,16 +22,14 @@ slot0.init = function(slot0)
 	slot1 = GameObject.Find("MainObject")
 	slot0.downloadmgr = BulletinBoardMgr.Inst
 	slot0.listTF = slot0:findTF("list")
+	slot0.listAnimationPlayer = slot0._tf:GetComponent(typeof(Animation))
+	slot0.listDftAniEvent = slot0._tf:GetComponent(typeof(DftAniEvent))
 	slot0.mainTF = slot0:findTF("main")
-
-	setActive(slot0.listTF, true)
-	setActive(slot0.mainTF, false)
-
 	slot0.closeBtn = slot0:findTF("close_btn")
 	slot0.helpBtn = slot0:findTF("list/bg/help")
 	slot0.noMsgTF = slot0:findTF("list/bg/no_msg")
 	slot0.list = slot0:findTF("list/bg/scrollrect"):GetComponent("LScrollRect")
-	slot0.imageTF = slot0:findTF("main/left_panel/Image")
+	slot0.imageTF = slot0:findTF("main/left_panel/Image"):GetComponent(typeof(RawImage))
 	slot0.likeBtn = slot0:findTF("main/left_panel/heart")
 	slot0.bubbleTF = slot0:findTF("main/left_panel/bubble")
 	slot0.planeTF = slot0:findTF("main/left_panel/plane")
@@ -55,52 +53,50 @@ slot0.init = function(slot0)
 end
 
 slot0.SetImageByUrl = function(slot0, slot1, slot2, slot3)
-	slot4 = slot2:GetComponent(typeof(Image))
-
 	if not slot1 or slot1 == "" then
-		slot4.sprite = LoadSprite("bg/bg_night")
-
-		if slot3 then
-			slot3()
-		end
-	elseif slot0.sprites[slot1] then
-		slot4.sprite = slot5
+		setActive(slot2.gameObject, false)
 
 		if slot3 then
 			slot3()
 		end
 	else
-		slot4.enabled = false
-		slot6 = slot0.downloadmgr
+		setActive(slot2.gameObject, true)
 
-		slot6:GetSprite("ins", "1", slot1, UnityEngine.Events.UnityAction_UnityEngine_Sprite(function (slot0)
-			if uv0.exited then
-				return
+		if slot0.sprites[slot1] then
+			slot2.texture = slot4
+
+			if slot3 then
+				slot3()
 			end
+		else
+			slot2.enabled = false
+			slot5 = slot0.downloadmgr
 
-			if not uv0.sprites then
-				return
-			end
+			slot5:GetTexture("ins", "1", slot1, UnityEngine.Events.UnityAction_UnityEngine_Texture(function (slot0)
+				if uv0.exited then
+					return
+				end
 
-			uv0.sprites[uv1] = slot0
-			uv2.sprite = slot0
-			uv2.enabled = true
+				if not uv0.sprites then
+					return
+				end
 
-			if uv3 then
-				uv3()
-			end
-		end))
-		table.insert(slot0.toDownloadList, slot1)
+				uv0.sprites[uv1] = slot0
+				uv2.texture = slot0
+				uv2.enabled = true
+
+				if uv3 then
+					uv3()
+				end
+			end))
+			table.insert(slot0.toDownloadList, slot1)
+		end
 	end
 end
 
 slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.closeBtn, function ()
-		if uv0.inDetail then
-			uv0:ExitDetail()
-		else
-			uv0:emit(uv1.ON_CLOSE)
-		end
+		uv0:OnClose()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -109,11 +105,7 @@ slot0.didEnter = function(slot0)
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0._tf, function ()
-		if uv0.inDetail then
-			uv0:ExitDetail()
-		else
-			uv0:emit(uv1.ON_CLOSE)
-		end
+		uv0:OnClose()
 	end, SFX_PANEL)
 
 	slot0.cards = {}
@@ -137,6 +129,16 @@ slot0.didEnter = function(slot0)
 	end
 
 	slot0:InitList()
+end
+
+slot0.OnClose = function(slot0)
+	if slot0.inDetail then
+		slot0:ExitDetail()
+	else
+		slot0:PlayExitAnimation(function ()
+			uv0:emit(uv1.ON_CLOSE)
+		end)
+	end
 end
 
 slot0.InitList = function(slot0)
@@ -170,18 +172,13 @@ end
 slot0.EnterDetail = function(slot0, slot1)
 	slot0.contextData.instagram = slot1
 
-	setActive(slot0.mainTF, true)
-
-	slot2 = GetOrAddComponent(slot0.listTF, typeof(CanvasGroup))
-	slot2.alpha = 0
-	slot2.blocksRaycasts = false
-
 	slot0:InitDetailPage()
 
 	slot0.inDetail = true
 
 	pg.SystemGuideMgr.GetInstance():Play(slot0)
 	slot0:RefreshInstagram()
+	slot0.listAnimationPlayer:Play("anim_snsLoad_list_out")
 	scrollTo(slot0.scroll, 0, 1)
 end
 
@@ -191,15 +188,10 @@ slot0.ExitDetail = function(slot0)
 	end
 
 	slot0.contextData.instagram = nil
-
-	setActive(slot0.mainTF, false)
-
-	slot2 = GetOrAddComponent(slot0.listTF, typeof(CanvasGroup))
-	slot2.alpha = 1
-	slot2.blocksRaycasts = true
 	slot0.inDetail = false
 
 	slot0:CloseCommentPanel()
+	slot0.listAnimationPlayer:Play("anim_snsLoad_list_in")
 end
 
 slot0.RefreshInstagram = function(slot0)
@@ -379,6 +371,12 @@ slot0.willExit = function(slot0)
 
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot4)
 	slot0:ExitDetail()
+
+	for slot4, slot5 in pairs(slot0.sprites) do
+		if not IsNil(slot5) then
+			Object.Destroy(slot5)
+		end
+	end
 
 	slot0.sprites = nil
 

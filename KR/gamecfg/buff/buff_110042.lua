@@ -38,11 +38,7 @@ return {
 				buff_id = 110043,
 				target = "TargetSelf",
 				effectAttachData = {
-					{
-						value = 0,
-						op = "lessequal",
-						type = "BattleBuffShield"
-					}
+					"BattleBuffShield<=0"
 				}
 			}
 		},
@@ -55,11 +51,7 @@ return {
 				buff_id = 110043,
 				target = "TargetSelf",
 				effectAttachData = {
-					{
-						value = 0,
-						op = "great",
-						type = "BattleBuffShield"
-					}
+					"BattleBuffShield>0"
 				}
 			}
 		}

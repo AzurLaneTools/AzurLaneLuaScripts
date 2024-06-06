@@ -11,7 +11,10 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.highScores = {}
 
 	underscore.each(slot1.maxscores or {}, function (slot0)
-		uv0.highScores[slot0.key] = slot0.value
+		uv0.highScores[slot0.key] = {
+			slot0.value1,
+			slot0.value2
+		}
 	end)
 end
 
@@ -23,9 +26,13 @@ slot0.UpdateData = function(slot0, slot1)
 	slot0.count = slot1.available_cnt or slot0.count
 	slot0.usedtime = slot1.used_cnt or slot0.usedtime
 	slot0.ultimate = slot1.ultimate or slot0.ultimate
+	slot2 = slot1.maxscores
 
 	underscore.each(slot1.maxscores or {}, function (slot0)
-		uv0.highScores[slot0.key] = slot0.value
+		uv0.highScores[slot0.key] = {
+			slot0.value1,
+			slot0.value2
+		}
 	end)
 	print("Hub 更新", "ID:", tostring(slot0.id), "Count:", tostring(slot0.count), "UsedTime:", tostring(slot0.usedtime), "Ultimate:", tostring(slot0.ultimate))
 end

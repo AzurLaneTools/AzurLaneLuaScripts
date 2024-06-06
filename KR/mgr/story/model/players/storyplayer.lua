@@ -17,6 +17,7 @@ slot0.Ctor = function(slot0, slot1)
 
 	slot0._go = slot1
 	slot0._tf = slot1.transform
+	slot0.animationPlayer = slot0._tf:GetComponent(typeof(Animation))
 	slot0.front = slot0:findTF("front")
 	slot0.actorTr = slot0._tf:Find("actor")
 	slot0.frontTr = slot0._tf:Find("front")
@@ -189,6 +190,9 @@ slot0.Play = function(slot0, slot1, slot2, slot3)
 					uv0:LoadEffects(uv1, slot0)
 				end,
 				function (slot0)
+					uv0:ApplyEffects(uv1, slot0)
+				end,
+				function (slot0)
 					uv0:flashin(uv1, slot0)
 				end
 			}, slot0)
@@ -312,6 +316,7 @@ slot0.Play = function(slot0, slot1, slot2, slot3)
 			seriesAsync({
 				function (slot0)
 					uv0:ClearAnimation()
+					uv0:ClearApplyEffect()
 					uv0:OnWillExit(uv1, uv2, slot0)
 				end,
 				function (slot0)
@@ -357,6 +362,42 @@ slot0.NextStage = function(slot0, slot1)
 	end
 
 	return false
+end
+
+slot0.ApplyEffects = function(slot0, slot1, slot2)
+	if slot1:ShouldShake() then
+		slot0:ApplyShakeEffect(slot1)
+	end
+
+	slot2()
+end
+
+slot0.ApplyShakeEffect = function(slot0, slot1)
+	if not slot1:ShouldShake() then
+		return
+	end
+
+	slot2 = slot0.animationPlayer
+
+	slot2:Play("anim_storyrecordUI_shake_loop")
+
+	slot0.playingShakeAnim = true
+
+	slot0:DelayCall(slot1:GetShakeTime(), function ()
+		uv0:ClearShakeEffect()
+	end)
+end
+
+slot0.ClearShakeEffect = function(slot0)
+	if slot0.playingShakeAnim then
+		slot0.animationPlayer:Play("anim_storyrecordUI_shake_reset")
+
+		slot0.playingShakeAnim = nil
+	end
+end
+
+slot0.ClearApplyEffect = function(slot0)
+	slot0:ClearShakeEffect()
 end
 
 slot0.DispatcherEvent = function(slot0, slot1, slot2)
@@ -578,6 +619,7 @@ slot0.InitBranches = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = false
 	slot7, slot8 = slot0:GetOptionContainer(slot2)
 	slot10 = slot0.branchCodeList[slot2:GetId()] or {}
+	GetOrAddComponent(slot7.container, typeof(CanvasGroup)).blocksRaycasts = true
 	slot0.selectedBranchID = nil
 
 	slot7:make(function (slot0, slot1, slot2)
@@ -599,14 +641,19 @@ slot0.InitBranches = function(slot0, slot1, slot2, slot3, slot4)
 				uv0:SetBranchCode(uv3, uv4, uv5)
 
 				if uv6:GetComponent(typeof(Animation)) then
+					uv7.blocksRaycasts = false
+
 					slot0:Play("anim_storydialogue_optiontpl_confirm")
 					uv6:GetComponent(typeof(DftAniEvent)):SetEndEvent(function ()
 						setActive(uv0.optionsCg.gameObject, false)
-						uv1(uv2)
+
+						uv1.blocksRaycasts = true
+
+						uv2(uv3)
 					end)
 				else
 					setActive(uv0.optionsCg.gameObject, false)
-					uv7(uv8)
+					uv8(uv9)
 				end
 
 				uv0:HideBranchesWithoutSelected(uv4)
@@ -615,7 +662,7 @@ slot0.InitBranches = function(slot0, slot1, slot2, slot3, slot4)
 
 			GetOrAddComponent(slot2, typeof(CanvasGroup)).alpha = slot6 and 0.5 or 1
 
-			uv2:UpdateOptionTxt(uv7, slot3, uv0[slot1 + 1][1])
+			uv2:UpdateOptionTxt(uv8, slot3, uv0[slot1 + 1][1])
 		end
 	end)
 	slot7:align(#slot2:GetOptions())
@@ -1063,9 +1110,9 @@ slot0.LoadEffects = function(slot0, slot1, slot2)
 		else
 			slot16 = ""
 
-			if PathMgr.FileExists(PathMgr.getAssetBundle("ui/" .. slot10)) then
+			if checkABExist("ui/" .. slot10) then
 				slot16 = "ui"
-			elseif PathMgr.FileExists(PathMgr.getAssetBundle("effect/" .. slot10)) then
+			elseif checkABExist("effect/" .. slot10) then
 				slot16 = "effect"
 			end
 
@@ -1232,6 +1279,7 @@ slot0.Reset = function(slot0, slot1, slot2, slot3)
 	slot0.flashCg.alpha = 1
 	slot0.goCG.alpha = 1
 
+	slot0.animationPlayer:Stop()
 	slot0:OnReset(slot1, slot2, slot3)
 end
 

@@ -8,6 +8,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.lockTF = slot0._tf:Find("lock")
 
 	setActive(slot0.lockTF, false)
+	setText(slot0.lockTF:Find("Text"), i18n("commission_label_unlock_tech_tip"))
 end
 
 slot0.CanOpen = function(slot0)

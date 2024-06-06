@@ -427,6 +427,5 @@ end
 
 slot2.AddModel = function(slot0, slot1)
 	uv0.super.AddModel(slot0, slot1)
-
-	slot0._tf.position = slot0._unitData:GetPosition()
+	slot0:UpdatePosition()
 end

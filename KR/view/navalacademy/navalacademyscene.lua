@@ -31,6 +31,12 @@ slot0.UpdatePlayer = function(slot0, slot1)
 	slot0.player = slot1
 end
 
+slot0.onUILoaded = function(slot0, slot1)
+	slot1.name = "NavalAcademyUI"
+
+	uv0.super.onUILoaded(slot0, slot1)
+end
+
 slot0.init = function(slot0)
 	slot0.backBtn = slot0:findTF("blur_container/adapt/top/title/back")
 	slot0._blurLayer = slot0:findTF("blur_container")

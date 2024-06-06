@@ -114,6 +114,10 @@ pg.ship_meta_breakout = setmetatable({
 		9707032,
 		9707033,
 		9707034,
+		9707041,
+		9707042,
+		9707043,
+		9707044,
 		9708011,
 		9708012,
 		9708013,
@@ -129,7 +133,11 @@ pg.ship_meta_breakout = setmetatable({
 		9713011,
 		9713012,
 		9713013,
-		9713014
+		9713014,
+		9703031,
+		9703032,
+		9703033,
+		9703034
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1965,6 +1973,75 @@ pg.base.ship_meta_breakout = {
 		level = 0,
 		weapon_ids = {}
 	},
+	[9707041] = {
+		breakout_view = "[일렁이는 불꽃 - 베아른] 습득 / 함재기 수 +1 / 함재기 보정 +3%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 1000,
+		breakout_id = 9707042,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9707041,
+		item1 = 21033,
+		level = 10,
+		weapon_ids = {
+			60511,
+			54014
+		}
+	},
+	[9707042] = {
+		breakout_view = "뇌격기 상한 +1 / 부무장 포좌 +1 / 함재기 보정 +5%",
+		item2 = 21001,
+		pre_id = 9707041,
+		repair = 0,
+		gold = 3000,
+		breakout_id = 9707043,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9707042,
+		item1 = 21033,
+		level = 30,
+		weapon_ids = {
+			60512,
+			54014,
+			60512,
+			54014
+		}
+	},
+	[9707043] = {
+		breakout_view = "[일렁이는 불꽃 - 베아른] 강화 / 함재기 수 +1 / 함재기 보정 +7%",
+		item2 = 21001,
+		pre_id = 9707042,
+		repair = 0,
+		gold = 10000,
+		breakout_id = 9707044,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9707043,
+		item1 = 21033,
+		level = 70,
+		weapon_ids = {
+			60513,
+			54015,
+			60513,
+			54015
+		}
+	},
+	[9707044] = {
+		breakout_view = "없음",
+		item2 = 21001,
+		pre_id = 9707043,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9707044,
+		item1 = 21033,
+		level = 0,
+		weapon_ids = {}
+	},
 	[9708011] = {
 		breakout_view = "스킬 [일렁이는 불꽃·{namecode:416}] 습득/어뢰 효율 +5%",
 		item2 = 21001,
@@ -2212,6 +2289,69 @@ pg.base.ship_meta_breakout = {
 		item2_num = 0,
 		id = 9713014,
 		item1 = 21027,
+		level = 0,
+		weapon_ids = {}
+	},
+	[9703031] = {
+		breakout_view = "[섬멸의 횃불 - 뱀파이어] 습득 / 어뢰 보정 +5%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 500,
+		breakout_id = 9703032,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9703031,
+		item1 = 21034,
+		level = 10,
+		weapon_ids = {
+			80281
+		}
+	},
+	[9703032] = {
+		breakout_view = "어뢰 발사 수 +1/어뢰 탑재량 +1/어뢰 효율 +10%",
+		item2 = 21001,
+		pre_id = 9703031,
+		repair = 0,
+		gold = 1500,
+		breakout_id = 9703033,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9703032,
+		item1 = 21034,
+		level = 30,
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[9703033] = {
+		breakout_view = "[섬멸의 횃불 - 뱀파이어] 강화 / 어뢰 보정 +15%",
+		item2 = 21001,
+		pre_id = 9703032,
+		repair = 0,
+		gold = 2500,
+		breakout_id = 9703034,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9703033,
+		item1 = 21034,
+		level = 70,
+		weapon_ids = {
+			80282
+		}
+	},
+	[9703034] = {
+		breakout_view = "없음",
+		item2 = 21001,
+		pre_id = 9703033,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9703034,
+		item1 = 21034,
 		level = 0,
 		weapon_ids = {}
 	}

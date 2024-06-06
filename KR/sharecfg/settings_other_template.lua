@@ -178,6 +178,33 @@ pg.settings_other_template = {
 		title = "L2D 설정 저장",
 		desc = "ON으로 설정 시 메인화면의 L2D 및 특수 모션 일러스트 스킨의 상호 상태가 기본 대기 모션으로 고정되며, 상호 상태가 고정하면 L2D 스킨의 【로그인】【모항 귀환】애니메이션이 재생되지 않게 됩니다."
 	},
+	{
+		default = 1,
+		name = "USAGE_NEW_MAINUI",
+		alignment = 0,
+		type = 0,
+		id = 19,
+		title = "메인화면 새로운 UI 적용",
+		desc = "ON으로 하면 메인화면은 새로운 UI가 적용됩니다"
+	},
+	{
+		default = 1,
+		name = "MAINUI_NEVER_SLEEP",
+		alignment = 0,
+		type = 0,
+		id = 20,
+		title = "메인 화면 있을 시 에너지 절약 모드를 기동시키지 않습니다",
+		desc = "ON으로 하면 메인 화면은 시간에 따라 자동으로 화면이 잠기지 않습니다"
+	},
+	{
+		default = 0,
+		name = "MAINUI_RESET_L2D",
+		alignment = 0,
+		type = 0,
+		id = 21,
+		title = "L2D 리셋 버튼 표시",
+		desc = "L2D 리셋 버튼 표시"
+	},
 	all = {
 		1,
 		2,
@@ -196,6 +223,9 @@ pg.settings_other_template = {
 		15,
 		16,
 		17,
-		18
+		18,
+		19,
+		20,
+		21
 	}
 }

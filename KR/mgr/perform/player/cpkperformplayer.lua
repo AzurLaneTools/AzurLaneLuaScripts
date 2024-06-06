@@ -35,7 +35,7 @@ slot0.Play = function(slot0, slot1, slot2, slot3)
 
 	slot5 = slot1.param[2] or 3
 
-	if PathMgr.FileExists(PathMgr.getAssetBundle("educateanim/" .. (slot0:getCpkName(slot1.param[1]) or ""))) then
+	if checkABExist("educateanim/" .. (slot0:getCpkName(slot1.param[1]) or "")) then
 		slot7 = ResourceMgr.Inst
 
 		slot7:getAssetAsync("educateanim/" .. slot4, slot4, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)

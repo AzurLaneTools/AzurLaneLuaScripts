@@ -366,6 +366,12 @@ pg.expedition_data_by_map = setmetatable({
 		1800002,
 		1800003,
 		1800004,
+		1810001,
+		1810002,
+		1810011,
+		1810012,
+		1810025,
+		1810026,
 		2100000,
 		2100001,
 		2100010,
@@ -17231,6 +17237,320 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		uifx = "",
 		bind_map = 1800002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1810001] = {
+		map = 1810001,
+		name = "휘광의 성에서 피어나라·전편|| ||CHAPTER EX||E.X.",
+		bgm = "theme-lightheven",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "ZHANFANGYUHUIGUANGZHICHENG1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1810006",
+		cloud_suffix = "",
+		on_activity = 5331,
+		ui_type = 1,
+		bg = "Map_1810005",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1810011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1810001,
+					"map_1650001",
+					"effect_1650001",
+					"bgm_theme-camelot"
+				}
+			},
+			{
+				2,
+				{
+					1810003,
+					"effect_1810005"
+				}
+			}
+		}
+	},
+	[1810002] = {
+		map = 1810002,
+		name = "휘광의 성에서 피어나라·후편|| ||CHAPTER EX||E.X.",
+		bgm = "theme-lightheven",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "ZHANFANGYUHUIGUANGZHICHENG15",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1810007",
+		cloud_suffix = "",
+		on_activity = 5331,
+		ui_type = 1,
+		bg = "Map_1810005",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1810012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1810005,
+					"effect_1810006"
+				}
+			}
+		}
+	},
+	[1810011] = {
+		map = 1810011,
+		name = "휘광의 성에서 피어나라·전편|| ||CHAPTER EX||E.X.",
+		bgm = "theme-lightheven",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "ZHANFANGYUHUIGUANGZHICHENG1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1810002",
+		cloud_suffix = "",
+		on_activity = 5331,
+		ui_type = 1,
+		bg = "Map_1810001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1810001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1810021,
+					"map_1650003",
+					"effect_1650003",
+					"bgm_theme-camelot"
+				}
+			},
+			{
+				2,
+				{
+					1810023,
+					"effect_1810001"
+				}
+			}
+		}
+	},
+	[1810012] = {
+		map = 1810012,
+		name = "휘광의 성에서 피어나라·후편|| ||CHAPTER EX||E.X.",
+		bgm = "theme-lightheven",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "ZHANFANGYUHUIGUANGZHICHENG15",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1810003",
+		cloud_suffix = "",
+		on_activity = 5331,
+		ui_type = 1,
+		bg = "Map_1810001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1810002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1810025,
+					"effect_1810002"
+				}
+			}
+		}
+	},
+	[1810025] = {
+		map = 1810025,
+		name = "휘광의 성에서 피어나라·SP|| ||CHAPTER EX||E.X.",
+		bgm = "theme-thehierophantV",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1810004",
+		ani_controller = "",
+		cloud_suffix = "",
+		on_activity = 5331,
+		ui_type = 1,
+		bg = "Map_1810001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1810012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1810026] = {
+		map = 1810026,
+		name = "휘광의 성에서 피어나라·EX|| ||CHAPTER EX||E.X.",
+		bgm = "theme-lightheven",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1810008",
+		ani_controller = "",
+		cloud_suffix = "",
+		on_activity = 5331,
+		ui_type = 1,
+		bg = "Map_1810005",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1810012,
 		clouds_pos = {
 			{
 				332,

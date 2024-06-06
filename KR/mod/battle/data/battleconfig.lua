@@ -250,7 +250,7 @@ slot0.AMMO_DAMAGE_REDUCE = {
 	"damageReduceFromAmmoType_1",
 	"damageReduceFromAmmoType_2",
 	"damageReduceFromAmmoType_3",
-	nil,
+	"damageReduceFromAmmoType_4",
 	nil,
 	nil,
 	"damageReduceFromAmmoType_7"
@@ -413,7 +413,9 @@ slot0.AIM_BIAS_MAX_RANGE_SUB = 25
 slot0.AIM_BIAS_ENEMY_INIT_TIME = 1.5
 slot0.FLEET_ATTR_CAP = {
 	huohun = 5,
+	shenpanzhijian = 6,
 	ReisalinAP = 99,
+	Judgement = 12,
 	yuanchou = 9
 }
 slot0.TARGET_SELECT_PRIORITY = {

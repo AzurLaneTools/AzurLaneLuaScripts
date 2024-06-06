@@ -957,7 +957,7 @@ slot0.displayShipWord = function(slot0, slot1)
 end
 
 slot0.useL2dOrPainting = function(slot0)
-	return PathMgr.FileExists(PathMgr.getAssetBundle("live2d/" .. string.lower(slot0.paintingName)))
+	return checkABExist("live2d/" .. string.lower(slot0.paintingName))
 end
 
 slot0.showStoryUI = function(slot0, slot1)
@@ -1106,7 +1106,7 @@ slot0.loadChar = function(slot0, slot1, slot2, slot3)
 				uv0.paintingName = uv0.shipVO:getPainting()
 			end
 
-			if PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. uv0.paintingName .. "_n")) and PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot1, 0) ~= 0 then
+			if checkABExist("painting/" .. uv0.paintingName .. "_n") and PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot1, 0) ~= 0 then
 				slot1 = slot1 .. "_n"
 			end
 
@@ -1123,7 +1123,7 @@ slot0.loadChar = function(slot0, slot1, slot2, slot3)
 				uv1()
 			end)
 
-			if PathMgr.FileExists(PathMgr.getAssetBundle("live2d/" .. string.lower(uv0.paintingName))) then
+			if checkABExist("live2d/" .. string.lower(uv0.paintingName)) then
 				uv0:createLive2D(uv0.paintingName)
 			end
 		end)

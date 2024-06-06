@@ -73,6 +73,20 @@ slot0.init = function(slot0)
 	slot0.sortImgDesc = slot0.sortBtn:Find("desc")
 	slot0.leftTipsText = slot0.topPanel:Find("capacity")
 
+	onButton(slot0, slot0.leftTipsText:Find("switch"), function ()
+		uv0.isCapacityMeta = not uv0.isCapacityMeta
+
+		uv0:updateCapacityDisplay()
+	end, SFX_PANEL)
+	onButton(slot0, slot0.leftTipsText:Find("plus"), function ()
+		gotoChargeScene()
+	end, SFX_PANEL)
+	onButton(slot0, slot0.leftTipsText:Find("tip"), function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			hideNo = true,
+			content = i18n("specialshipyard_tip")
+		})
+	end, SFX_PANEL)
 	setActive(slot0.leftTipsText, false)
 
 	slot0.indexBtn = slot0.topPanel:Find("index_button")
@@ -292,8 +306,9 @@ slot0.isDefaultStatus = function(slot0)
 	return slot0.sortIndex == ShipIndexConst.SortLevel and (not slot0.typeIndex or slot0.typeIndex == ShipIndexConst.TypeAll) and (not slot0.campIndex or slot0.campIndex == ShipIndexConst.CampAll) and (not slot0.rarityIndex or slot0.rarityIndex == ShipIndexConst.RarityAll) and (not slot0.extraIndex or slot0.extraIndex == ShipIndexConst.ExtraAll)
 end
 
-slot0.setShipsCount = function(slot0, slot1)
+slot0.setShipsCount = function(slot0, slot1, slot2)
 	slot0.shipsCount = slot1
+	slot0.specialShipCount = slot2
 end
 
 slot0.GetCard = function(slot0, slot1)
@@ -579,6 +594,20 @@ slot0.updateBarInfo = function(slot0)
 		setActive(slot0.leftTipsText, false)
 	else
 		setActive(slot0.leftTipsText, true)
+		slot0:updateCapacityDisplay()
+	end
+end
+
+slot0.updateCapacityDisplay = function(slot0)
+	setActive(slot0.leftTipsText:Find("plus"), not slot0.isCapacityMeta)
+	setActive(slot0.leftTipsText:Find("tip"), slot0.isCapacityMeta)
+	setActive(slot0.leftTipsText:Find("switch/off"), not slot0.isCapacityMeta)
+	setActive(slot0.leftTipsText:Find("switch/on"), slot0.isCapacityMeta)
+
+	if slot0.isCapacityMeta then
+		setText(slot0.leftTipsText:Find("label"), i18n("specialshipyard_name"))
+		setText(slot0.leftTipsText:Find("Text"), slot0.specialShipCount)
+	else
 		setText(slot0.leftTipsText:Find("label"), i18n("ship_dockyardScene_capacity"))
 		setText(slot0.leftTipsText:Find("Text"), slot0.shipsCount .. "/" .. slot0.player:getMaxShipBag())
 	end

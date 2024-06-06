@@ -59,6 +59,8 @@ end
 
 slot3.SetForceExpose = function(slot0, slot1)
 	slot0._forceExpose = slot1
+
+	slot0._target:SetForceVisible()
 end
 
 slot3.GetForceExpose = function(slot0)

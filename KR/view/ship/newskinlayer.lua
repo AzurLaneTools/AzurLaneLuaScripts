@@ -85,7 +85,7 @@ slot0.setSkin = function(slot0, slot1)
 
 	slot0._shade:GetComponent(typeof(Image)).color = Color.New(0, 0, 0, 1)
 
-	if PathMgr.FileExists(PathMgr.getAssetBundle("ui/skinunlockanim/" .. ("star_level_unlock_anim_" .. slot1))) then
+	if checkABExist("ui/skinunlockanim/" .. ("star_level_unlock_anim_" .. slot1)) then
 		slot0:playOpening(function ()
 			uv0:setSkinPri(uv1)
 		end, slot2)

@@ -20,6 +20,7 @@ slot3.Ctor = function(slot0, slot1)
 	slot0._indexRequire = slot2.index
 	slot0._damageAttrRequire = slot2.damageAttr
 	slot0._damageReasonRequire = slot2.damageReason
+	slot0._damageSrcTagRequire = slot2.srcTag
 	slot0._deathCauseRequire = slot2.deathCause
 	slot0._countType = slot2.countType
 	slot0._behit = slot2.be_hit_condition
@@ -440,6 +441,26 @@ slot3.killerWeaponRequire = function(slot0, slot1, slot2, slot3)
 
 	if table.contains(slot1, slot2:GetWeapon():GetWeaponId()) then
 		return true
+	end
+end
+
+slot3.DamageSourceRequire = function(slot0, slot1, slot2)
+	if not slot0._damageSrcTagRequire then
+		return true
+	else
+		if not slot1 then
+			return false
+		end
+
+		if not uv0.Battle.BattleDataProxy.GetInstance():GetUnitList()[slot1] then
+			return false
+		end
+
+		if slot4:ContainsLabelTag(slot0._damageSrcTagRequire) then
+			return true
+		else
+			return false
+		end
 	end
 end
 

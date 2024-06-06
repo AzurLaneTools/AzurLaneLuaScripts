@@ -9,6 +9,7 @@ slot2.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
 
 	slot0._preCastBound = false
+	slot0._prefabPos = Vector3(0, 0, 0)
 end
 
 slot2.RegisterWeaponListener = function(slot0, slot1)
@@ -105,4 +106,12 @@ slot2.UpdateAimBiasBar = function(slot0)
 		slot1 = slot0:GetUnitData():GetAimBias():GetCurrentRate()
 		slot0._fogFx.transform.localScale = Vector3(slot1, slot1, 1)
 	end
+end
+
+slot2.getCharacterPos = function(slot0)
+	slot1 = slot0:GetUnitData():GetTemplate().prefab_offset
+
+	slot0._prefabPos:Set(slot0._characterPos.x + slot1[1], slot0._characterPos.y + slot1[2], slot0._characterPos.z + slot1[3])
+
+	return slot0._prefabPos
 end

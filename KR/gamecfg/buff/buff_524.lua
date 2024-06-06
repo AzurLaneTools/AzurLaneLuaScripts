@@ -21,6 +21,16 @@ return {
 				dotType = 2,
 				number = 5
 			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "flood"
+			}
 		}
 	}
 }

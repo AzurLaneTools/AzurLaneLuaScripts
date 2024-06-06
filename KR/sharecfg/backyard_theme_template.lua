@@ -690,8 +690,8 @@ pg.backyard_theme_template = {
 	},
 	[20] = {
 		Cfg_1 = 5,
-		name = "쥬쥬 초원",
-		desc = "야생이 살아 숨쉬는 쥬쥬 초원에 어서 오세요!",
+		name = "만쥬 파크 ",
+		desc = "만쥬 파크에 어서 오세요!",
 		deblocking = 1,
 		new = 0,
 		hot = 0,
@@ -767,8 +767,8 @@ pg.backyard_theme_template = {
 	},
 	[22] = {
 		Cfg_1 = 5,
-		name = "어반 로열",
-		desc = "있는 그대로의 기품을 더 우아하게, 이것이야말로 로열 왕도가 갖춰야 할 모습이죠.",
+		name = "어번 로열",
+		desc = "자연스레 흐르는 우아함과 기품이 바로 로열 네이비 왕도의 품격",
 		deblocking = 1,
 		new = 0,
 		hot = 0,
@@ -809,8 +809,8 @@ pg.backyard_theme_template = {
 	},
 	[23] = {
 		Cfg_1 = 5,
-		name = "쥬쥬 유치원",
-		desc = "쥬쥬 유치원이 개학 했어요~",
+		name = "만쥬 유치원",
+		desc = "유치원 개원! 이제 만쥬 수용은 걱정 없겠어!",
 		deblocking = 1,
 		new = 0,
 		hot = 0,
@@ -849,8 +849,8 @@ pg.backyard_theme_template = {
 	},
 	[24] = {
 		Cfg_1 = 5,
-		name = "냥냥 카페",
-		desc = "냥냥! 어서오세냥!",
+		name = "고양이 카페",
+		desc = "고양이 카페에 오신 걸 환영한다냥! ",
 		deblocking = 1,
 		new = 0,
 		hot = 0,
@@ -897,8 +897,8 @@ pg.backyard_theme_template = {
 	},
 	[27] = {
 		Cfg_1 = 5,
-		name = "워터 파크",
-		desc = "같이 물놀이 하자고요!",
+		name = "서머 파크",
+		desc = "물놀이 하자!",
 		deblocking = 1,
 		new = 0,
 		hot = 0,
@@ -1055,7 +1055,7 @@ pg.backyard_theme_template = {
 	[30] = {
 		Cfg_1 = 5,
 		name = "레인보우 헤븐",
-		desc = "꿈과 환상이 가득한 레인보우 헤븐에 어서오세요!",
+		desc = "멋진 레인보우 헤븐!",
 		deblocking = 1,
 		new = 0,
 		hot = 0,
@@ -2377,8 +2377,8 @@ pg.backyard_theme_template = {
 	},
 	[63] = {
 		Cfg_1 = 5,
-		name = "쥬쥬 해피 레스토랑",
-		desc = "어서 오세요~ 배가 고프시다면 피자를 드세요쥬!",
+		name = "만쥬 피자헛",
+		desc = "너무 맛있다쥬쥬! ",
 		deblocking = 1,
 		new = 0,
 		hot = 0,
@@ -2980,8 +2980,8 @@ pg.backyard_theme_template = {
 	},
 	[81] = {
 		Cfg_1 = 5,
-		name = "쥬쥬 스쿨",
-		desc = "즐거운 스쿨 생활을 즐기자쥬!",
+		name = "만쥬 학교",
+		desc = "스쿨 라이프를 만끽하자쥬쥬!",
 		deblocking = 1,
 		new = 0,
 		hot = 0,
@@ -3200,7 +3200,7 @@ pg.backyard_theme_template = {
 	[86] = {
 		Cfg_1 = 5,
 		name = "이스트 글림 정원",
-		desc = "이스트 글림의 의취가 충만한 정원",
+		desc = "이스트 글림 스타일의 정원 세트. 비성수기에도 대인기!",
 		deblocking = 1,
 		new = 0,
 		hot = 0,
@@ -3238,8 +3238,8 @@ pg.backyard_theme_template = {
 	},
 	[87] = {
 		Cfg_1 = 5,
-		name = "쥬쥬 캠퍼스",
-		desc = "따뜻한 바람이 불어와요. 새 학기 시작!",
+		name = "만쥬 학교2",
+		desc = "신학기가 시작된다쥬쥬!",
 		deblocking = 1,
 		new = 0,
 		hot = 1,
@@ -3274,8 +3274,8 @@ pg.backyard_theme_template = {
 	},
 	[88] = {
 		Cfg_1 = 5,
-		name = "뱀파이어 캐슬",
-		desc = "후후… 내 성에 온 걸 환영한다…쥬",
+		name = "뱀파이어 성",
+		desc = "크크크… 성에 온 걸 환영한다쥬쥬…",
 		deblocking = 1,
 		new = 0,
 		hot = 0,
@@ -3315,8 +3315,8 @@ pg.backyard_theme_template = {
 	},
 	[89] = {
 		Cfg_1 = 5,
-		name = "이스트 글림 패션",
-		desc = "심플하면서도 심플하지 않고 럭셔리하면서도 과하지 않아요.",
+		name = "이스트 글림 모던",
+		desc = "심플하면서도 구차하지 않고, 화려하면서도 호사스럽지 않다",
 		deblocking = 1,
 		new = 0,
 		hot = 0,
@@ -3361,8 +3361,8 @@ pg.backyard_theme_template = {
 	},
 	[90] = {
 		Cfg_1 = 5,
-		name = "동화의 숲",
-		desc = "환상의 색채가 물씬 풍기는 기묘한 숲~",
+		name = "동화 속 숲",
+		desc = "환상적인 풍경으로 가득한 기묘한 숲",
 		deblocking = 1,
 		new = 0,
 		hot = 0,
@@ -3400,8 +3400,8 @@ pg.backyard_theme_template = {
 	},
 	[91] = {
 		Cfg_1 = 5,
-		name = "쥬쥬 댄스실",
-		desc = "음악을 따라 댄스의 세계에 빠져보세요!",
+		name = "만쥬 댄스 룸",
+		desc = "음악에 맞춰 춤추는 거다쥬쥬!",
 		deblocking = 1,
 		new = 0,
 		hot = 0,
@@ -3483,8 +3483,8 @@ pg.backyard_theme_template = {
 	},
 	[93] = {
 		Cfg_1 = 5,
-		name = "시원한 여름",
-		desc = "무더운 여름날의 시원한 파라다이스!",
+		name = "시원한 한여름",
+		desc = "뜨거운 여름에는 역시 서머 파크!",
 		deblocking = 1,
 		new = 0,
 		hot = 0,
@@ -3522,8 +3522,8 @@ pg.backyard_theme_template = {
 	},
 	[94] = {
 		Cfg_1 = 5,
-		name = "쥬쥬 학원 축제",
-		desc = "즐거운 학원 축제, 개최!",
+		name = "만쥬 학교 축제",
+		desc = "즐거운 만쥬들의 학교 축제, 지금 개최 중!",
 		deblocking = 1,
 		new = 0,
 		hot = 0,
@@ -3612,8 +3612,8 @@ pg.backyard_theme_template = {
 	},
 	[96] = {
 		Cfg_1 = 5,
-		name = "남방 휴일",
-		desc = "화창한 남방의 휴일을 함께 즐겨봐요!",
+		name = "만쥬 비치 하우스",
+		desc = "만쥬 비치 하우스에서 해변을 만끽해라쥬쥬!",
 		deblocking = 1,
 		new = 0,
 		hot = 0,
@@ -3652,8 +3652,8 @@ pg.backyard_theme_template = {
 	},
 	[97] = {
 		Cfg_1 = 5,
-		name = "푸드랜드",
-		desc = "색, 향, 맛을 모두 갖춘 놀이공원!",
+		name = "이스트 글림 미식 랜드",
+		desc = "색, 향, 맛의 삼박자를 모두 갖춘 미식의 향연!",
 		deblocking = 1,
 		new = 0,
 		hot = 0,
@@ -3694,8 +3694,8 @@ pg.backyard_theme_template = {
 	},
 	[98] = {
 		Cfg_1 = 5,
-		name = "로열 교실",
-		desc = "우아하고 즐거운 모항 캠퍼스 라이프를 느껴보세요!",
+		name = "로열 네이비 학교",
+		desc = "우아하고 유쾌한 스쿨 라이프♪",
 		deblocking = 1,
 		new = 0,
 		hot = 0,
@@ -3753,8 +3753,8 @@ pg.backyard_theme_template = {
 	},
 	[99] = {
 		Cfg_1 = 5,
-		name = "온천 타임",
-		desc = "피어나는 수증기에 인생의 철학이 담겨져 있어요.",
+		name = "만쥬의 숨겨진 온천",
+		desc = "피어오르는 김이 왠지 철학적",
 		deblocking = 1,
 		new = 0,
 		hot = 0,
@@ -3887,8 +3887,8 @@ pg.backyard_theme_template = {
 	},
 	[102] = {
 		Cfg_1 = 5,
-		name = "쥬쥬 팰리스",
-		desc = "고풍스럽고 고급스러운 쥬쥬 팰리스. 이렇게 우아할 수가!",
+		name = "만쥬 팰리스",
+		desc = "고풍스럽고 특별한 만쥬 팰리스. 이렇게 우아할수가!",
 		deblocking = 1,
 		new = 0,
 		hot = 1,
@@ -3970,7 +3970,7 @@ pg.backyard_theme_template = {
 	},
 	[104] = {
 		Cfg_1 = 5,
-		name = "항해의 집",
+		name = "해적 오두막",
 		desc = "원양선이여, 자유와 보물을 위해 출항하라!",
 		deblocking = 1,
 		new = 0,
@@ -4027,8 +4027,8 @@ pg.backyard_theme_template = {
 	},
 	[105] = {
 		Cfg_1 = 5,
-		name = "닌자의 집",
-		desc = "닌자의 일상을 체험해 보고 싶다고? 지금 바로 닌자의 집에 신청을!",
+		name = "시노비 저택",
+		desc = "시노비의 일상을 체험해 보고 싶다고? 지금 바로 시노비 저택에 신청을!",
 		deblocking = 1,
 		new = 1,
 		hot = 1,
@@ -4130,7 +4130,7 @@ pg.backyard_theme_template = {
 	},
 	[108] = {
 		Cfg_1 = 5,
-		name = "괴도 퀴즈",
+		name = "괴도 리들",
 		desc = "미스터리한 괴도의 세계에 오신 것을 환영합니다!",
 		deblocking = 1,
 		new = 1,
@@ -4172,7 +4172,7 @@ pg.backyard_theme_template = {
 	},
 	[109] = {
 		Cfg_1 = 5,
-		name = "숲속 오두막",
+		name = "마법사의 숲 오두막",
 		desc = "판타지와 마법이 가득한 숲의 오두막에 오신 것을 환영합니다!",
 		deblocking = 1,
 		new = 1,
@@ -4207,7 +4207,7 @@ pg.backyard_theme_template = {
 	},
 	[110] = {
 		Cfg_1 = 5,
-		name = "별빛 분장실",
+		name = "스타 대기실",
 		desc = "빛나는 무대가 이제 곧 시작됩니다!",
 		deblocking = 1,
 		new = 1,
@@ -4248,6 +4248,41 @@ pg.backyard_theme_template = {
 			310308,
 			310309,
 			310310
+		}
+	},
+	[111] = {
+		Cfg_1 = 5,
+		name = "홀리데이 크루즈",
+		desc = "크루즈선을 타고 바다 너머를 항해하자!",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 112,
+		id = 111,
+		icon = "yothemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			311001,
+			311002,
+			311101,
+			311102,
+			311103,
+			311104,
+			311105,
+			311106,
+			311107,
+			311108,
+			311109,
+			311110,
+			311111,
+			311112,
+			311113,
+			311114,
+			311115
 		}
 	},
 	all = {
@@ -4346,6 +4381,7 @@ pg.backyard_theme_template = {
 		107,
 		108,
 		109,
-		110
+		110,
+		111
 	}
 }

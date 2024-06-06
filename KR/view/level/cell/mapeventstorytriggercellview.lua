@@ -19,7 +19,7 @@ slot0.Update = function(slot0)
 
 		slot7 = pg.map_event_template[slot1.attachmentId].icon
 
-		if IsNil(slot0.triggerUpper) and slot7 and #slot7 > 0 and PathMgr.FileExists(PathMgr.getAssetBundle("ui/" .. slot7 .. "_1shangceng")) then
+		if IsNil(slot0.triggerUpper) and slot7 and #slot7 > 0 and checkABExist("ui/" .. slot7 .. "_1shangceng") then
 			slot0.triggerUpper = HaloAttachmentView.New(slot0.parent, slot3, slot4)
 
 			slot0.triggerUpper:SetLoader(slot0.loader)

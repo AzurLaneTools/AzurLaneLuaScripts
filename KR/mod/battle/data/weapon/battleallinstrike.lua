@@ -181,7 +181,7 @@ end
 
 slot6.InitialCD = function(slot0)
 	slot0:AddCDTimer(slot0:GetReloadTime())
-	slot0._allInWeaponVo:Deduct(slot0)
+	slot0._allInWeaponVo:InitialDeduct(slot0)
 	slot0._allInWeaponVo:Charge(slot0)
 end
 

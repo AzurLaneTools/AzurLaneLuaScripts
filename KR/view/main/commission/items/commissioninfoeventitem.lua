@@ -6,6 +6,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.lockTF = slot0._tf:Find("lock")
 
 	setActive(slot0.lockTF, false)
+	setText(slot0.lockTF:Find("Text"), i18n("commission_label_unlock_event_tip"))
 end
 
 slot0.CanOpen = function(slot0)
@@ -72,10 +73,13 @@ end
 
 slot0.UpdateListItem = function(slot0, slot1, slot2, slot3)
 	if getProxy(EventProxy).maxFleetNums < slot1 then
-		slot6 = slot0:GetChapterByCount(slot1)
+		assert(slot0:GetChapterByCount(slot1), slot1)
 
-		assert(slot6, slot1)
-		setText(slot3:Find("lock/Text"), i18n("commission_no_open") .. "\n" .. i18n("commission_open_tip", slot6.chapter_name))
+		if getProxy(SettingsProxy):IsMellowStyle() then
+			setText(slot3:Find("lock/Text"), i18n("commission_open_tip", slot6.chapter_name))
+		else
+			setText(slot3:Find("lock/Text"), i18n("commission_no_open") .. "\n" .. i18n("commission_open_tip", slot6.chapter_name))
+		end
 	else
 		slot0:UpdateEventInfo(slot3, slot2)
 	end
@@ -171,8 +175,15 @@ slot0.UpdateStyle = function(slot0, slot1, slot2, slot3)
 		slot9 = "event_bg_act"
 	end
 
-	slot1:Find("unlock/ongoging"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/commissioninfoui_atlas", slot9)
-	slot1:Find("unlock/finished"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/commissioninfoui_atlas", slot9)
+	if getProxy(SettingsProxy):IsMellowStyle() then
+		slot9 = "frame_unlock"
+		slot1:Find("unlock/ongoging"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/CommissionInfoUI4Mellow_atlas", slot9)
+		slot1:Find("unlock/finished"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/CommissionInfoUI4Mellow_atlas", slot9)
+	else
+		slot1:Find("unlock/ongoging"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/commissioninfoui_atlas", slot9)
+		slot1:Find("unlock/finished"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/commissioninfoui_atlas", slot9)
+	end
+
 	slot11 = slot2 and Color.New(0.996078431372549, 0.7568627450980392, 0.9725490196078431, 1) or Color.New(0.6039215686274509, 0.7843137254901961, 0.9607843137254902, 1)
 	slot1:Find("unlock/ongoging/print"):GetComponent(typeof(Image)).color = slot11
 	slot1:Find("unlock/finished/print"):GetComponent(typeof(Image)).color = slot11

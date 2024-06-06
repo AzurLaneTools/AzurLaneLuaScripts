@@ -33,7 +33,9 @@ slot0.RefreshFreeBuildActivity = function(slot0)
 end
 
 slot0.RefreshRegularExchangeCount = function(slot0)
-	slot0:UpdateRegularBuildPoolExchange(slot0.pool)
+	if slot0.pool then
+		slot0:UpdateRegularBuildPoolExchange(slot0.pool)
+	end
 end
 
 slot0.OnLoaded = function(slot0)

@@ -162,31 +162,38 @@ slot0.HandleMeteoDamage = function(slot0, slot1, slot2)
 end
 
 slot0.HandleDirectDamage = function(slot0, slot1, slot2, slot3, slot4)
-	slot6 = slot1:GetAttrByName("id")
-	slot7 = slot1:UpdateHP(slot2 * -1, {
+	slot5 = nil
+
+	if slot3 then
+		slot5 = slot3:GetAttrByName("id")
+	end
+
+	slot7 = slot1:GetAttrByName("id")
+	slot8 = slot1:UpdateHP(slot2 * -1, {
 		isMiss = false,
 		isCri = false,
 		isHeal = false,
-		damageReason = slot4
+		damageReason = slot4,
+		srcID = slot5
 	})
-	slot8 = slot1:IsAlive()
+	slot9 = slot1:IsAlive()
 
 	if slot3 then
-		slot0:DamageStatistics(slot3:GetAttrByName("id"), slot6, -slot7)
+		slot0:DamageStatistics(slot5, slot7, -slot8)
 
-		if not slot8 then
-			slot0:KillCountStatistics(slot9, slot6)
+		if not slot9 then
+			slot0:KillCountStatistics(slot5, slot7)
 		end
 	end
 
-	if not slot8 then
-		slot10 = true
+	if not slot9 then
+		slot11 = true
 
-		if slot1:GetUnitType() ~= uv0.UnitType.AIRCRAFT_UNIT and slot9 ~= uv0.UnitType.AIRFIGHTER_UNIT and slot9 ~= uv0.UnitType.FUNNEL_UNIT and slot9 ~= uv0.UnitType.UAV_UNIT then
-			slot10 = false
+		if slot1:GetUnitType() ~= uv0.UnitType.AIRCRAFT_UNIT and slot10 ~= uv0.UnitType.AIRFIGHTER_UNIT and slot10 ~= uv0.UnitType.FUNNEL_UNIT and slot10 ~= uv0.UnitType.UAV_UNIT then
+			slot11 = false
 		end
 
-		slot0:obituary(slot1, slot10, slot3)
+		slot0:obituary(slot1, slot11, slot3)
 	end
 end
 

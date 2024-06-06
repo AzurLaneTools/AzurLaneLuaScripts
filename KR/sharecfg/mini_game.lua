@@ -2151,6 +2151,59 @@ pg.mini_game = {
 		hub_id = 54,
 		request_data = 1
 	},
+	{
+		is_ranking = 1,
+		view_name = "PipeGameView",
+		game_room = 0,
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		name = "水管工小游戏",
+		config_csv = "",
+		id = 65,
+		hub_id = 55,
+		request_data = 0,
+		simple_config_data = {
+			drop_ids = {
+				{
+					2,
+					54050,
+					2
+				},
+				{
+					1,
+					1,
+					300
+				},
+				{
+					2,
+					54051,
+					1
+				},
+				{
+					1,
+					1,
+					300
+				},
+				{
+					2,
+					50004,
+					5
+				},
+				{
+					2,
+					20012,
+					2
+				},
+				{
+					2,
+					30347,
+					2
+				}
+			}
+		}
+	},
 	[1001] = {
 		is_ranking = 0,
 		view_name = "GameRoomFushun3View",
@@ -2358,6 +2411,7 @@ pg.mini_game = {
 		62,
 		63,
 		64,
+		65,
 		1001,
 		1002,
 		1003,

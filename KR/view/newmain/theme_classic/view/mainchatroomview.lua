@@ -1,0 +1,180 @@
+slot0 = class("MainChatRoomView", import("...base.MainBaseView"))
+
+slot0.Ctor = function(slot0, slot1, slot2)
+	uv0.super.Ctor(slot0, slot1, slot2)
+
+	slot3 = slot1:Find("item")
+	slot0.items = {
+		slot3
+	}
+	slot0.tplInitPosY = slot3.anchoredPosition.y
+	slot0.MAX_COUNT = 4
+	slot0.enableBtn = slot1:Find("enable")
+	slot0.disableBtn = slot1:Find("disable")
+	slot0.btn = slot1:GetComponent(typeof(Button))
+	slot0.empty = slot1:Find("empty"):GetComponent(typeof(Text))
+
+	slot0:RegisterEvent(slot2)
+end
+
+slot0.RegisterEvent = function(slot0, slot1)
+	slot0:bind(GAME.REMOVE_LAYERS, function (slot0, slot1)
+		uv0:OnRemoveLayer(slot1.context)
+	end)
+	slot0:bind(GAME.ANY_CHAT_MSG_UPDATE, function (slot0)
+		uv0:OnUpdateChatMsg()
+	end)
+
+	slot0.hideChatFlag = PlayerPrefs.GetInt(HIDE_CHAT_FLAG)
+
+	onButton(slot0, slot0._tf, function ()
+		if not uv0.hideChatFlag or uv0.hideChatFlag ~= 1 then
+			uv0:GoChatView()
+		end
+	end, SFX_MAIN)
+	onButton(slot0, slot0.enableBtn, function ()
+		uv0:SwitchState()
+	end, SFX_MAIN)
+	onButton(slot0, slot0.disableBtn, function ()
+		uv0:SwitchState()
+	end, SFX_MAIN)
+	slot0:UpdateBtnState()
+end
+
+slot0.GoChatView = function(slot0)
+	slot0:emit(NewMainMediator.OPEN_CHATVIEW)
+end
+
+slot0.SwitchState = function(slot0)
+	pg.MsgboxMgr.GetInstance():ShowMsgBox({
+		content = i18n(slot0.hideChatFlag and slot0.hideChatFlag == 1 and "show_chat_warning" or "hide_chat_warning"),
+		onYes = function ()
+			PlayerPrefs.SetInt(HIDE_CHAT_FLAG, uv0 and 0 or 1)
+
+			uv1.hideChatFlag = PlayerPrefs.GetInt(HIDE_CHAT_FLAG)
+
+			uv1:UpdateBtnState()
+		end
+	})
+end
+
+slot0.UpdateBtnState = function(slot0)
+	slot1 = slot0.hideChatFlag and slot0.hideChatFlag == 1
+
+	setActive(slot0.enableBtn, slot1)
+	setActive(slot0.disableBtn, not slot1)
+
+	if slot1 then
+		slot0:Clear()
+	end
+
+	slot0.btn.enabled = not slot1
+end
+
+slot0.OnRemoveLayer = function(slot0, slot1)
+	if slot1.mediator == NotificationMediator then
+		slot0:Update()
+	end
+end
+
+slot0.OnUpdateChatMsg = function(slot0)
+	slot0:Update()
+end
+
+slot0.Init = function(slot0)
+	slot0:Update()
+end
+
+slot0.Refresh = function(slot0)
+	slot0:Update()
+end
+
+slot0.Update = function(slot0)
+	if slot0.hideChatFlag and slot0.hideChatFlag == 1 then
+		return
+	end
+
+	slot0:UpdateMessages(getProxy(ChatProxy):GetAllTypeChatMessages(slot0.MAX_COUNT))
+end
+
+slot0.InstantiateMsgTpl = function(slot0, slot1)
+	for slot6 = #slot0.items + 1, slot1 do
+		table.insert(slot0.items, Object.Instantiate(slot0.items[1], slot0.items[1].parent))
+	end
+
+	for slot6 = #slot0.items, slot1 + 1, -1 do
+		setActive(slot0.items[slot6], false)
+	end
+end
+
+slot0.UpdateMessages = function(slot0, slot1)
+	slot0:InstantiateMsgTpl(#slot1)
+
+	for slot5 = 1, #slot1 do
+		slot6 = slot0.items[slot5]
+		slot6.anchoredPosition = Vector2(slot6.anchoredPosition.x, slot0.tplInitPosY - (slot5 - 1) * (slot6.sizeDelta.y + 14))
+
+		slot0:UpdateMessage(slot6, slot1[slot5])
+	end
+
+	slot0.empty.text = PLATFORM_CODE == PLATFORM_JP and #slot1 <= 0 and "ログはありません" or ""
+end
+
+slot0.UpdateMessage = function(slot0, slot1, slot2)
+	setActive(slot1, true)
+
+	findTF(slot1, "channel"):GetComponent("Image").sprite = GetSpriteFromAtlas("channel", ChatConst.GetChannelSprite(slot2.type) .. "_1920")
+	slot4 = findTF(slot1, "text"):GetComponent("RichText")
+
+	if slot2.type == ChatConst.ChannelPublic then
+		slot4.supportRichText = true
+
+		ChatProxy.InjectPublic(slot4, slot2, true)
+	elseif slot2:IsWorldBossNotify() then
+		slot4.supportRichText = true
+
+		if GetPerceptualSize(slot2.args.playerName .. slot2.args.bossName) - 18 > 0 then
+			slot6 = shortenString(slot6, GetPerceptualSize(slot6) - slot8)
+		end
+
+		slot4.text = i18n("ad_4", slot2.args.supportType, slot5, slot6, slot2.args.level)
+	else
+		slot4.supportRichText = slot2.emojiId ~= nil
+		slot4.text = slot0:MatchEmoji(slot4, slot2)
+	end
+end
+
+slot0.MatchEmoji = function(slot0, slot1, slot2)
+	slot3 = false
+	slot5 = false
+
+	for slot10 in string.gmatch(slot2.player.name .. ": " .. slot2.content, ChatConst.EmojiIconCodeMatch), nil,  do
+		if table.contains(pg.emoji_small_template.all, tonumber(slot10)) then
+			slot5 = true
+
+			slot1:AddSprite(slot10, LoadSprite("emoji/" .. pg.emoji_small_template[tonumber(slot10)].pic .. "_small", nil))
+		end
+	end
+
+	if not slot2.emojiId then
+		slot4 = slot5 and shortenString(slot4, 16) or shortenString(slot4, 20)
+	end
+
+	return string.gsub(slot4, ChatConst.EmojiIconCodeMatch, function (slot0)
+		if table.contains(pg.emoji_small_template.all, tonumber(slot0)) then
+			return string.format("<icon name=%s w=0.7 h=0.7/>", slot0)
+		end
+	end)
+end
+
+slot0.Clear = function(slot0)
+	for slot4, slot5 in ipairs(slot0.items) do
+		setActive(slot5, false)
+	end
+end
+
+slot0.GetDirection = function(slot0)
+	return Vector2(1, 0)
+end
+
+return slot0

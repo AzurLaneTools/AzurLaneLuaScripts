@@ -443,7 +443,7 @@ pg.item_data_frame = {
 	},
 	[330] = {
 		name = "환몽 수호자",
-		gain_by = "",
+		gain_by = "휘광의 성에서 피어나라",
 		time_second = 0,
 		id = 330,
 		time_limit_type = 0,
@@ -547,6 +547,15 @@ pg.item_data_frame = {
 		id = 605,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>누구보다 빠르게 도착점에 도달하여, 레이스에서 승리를 획득하라!</color>\n\"극속 레이스\" 이벤트 참가 보상.",
+		scene = {}
+	},
+	[606] = {
+		name = "설레는 바캉스",
+		gain_by = "",
+		time_second = 0,
+		id = 606,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>돛을 올려라! 크루즈선을 타고 가슴 설레는 여행을 떠나자! </color>이벤트 \"휴일! 심쿵! 크루즈!\" 참가 시 획득 가능",
 		scene = {}
 	},
 	[10001] = {
@@ -719,6 +728,7 @@ pg.item_data_frame = {
 		602,
 		603,
 		605,
+		606,
 		10001,
 		10002,
 		10003,

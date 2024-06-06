@@ -1044,10 +1044,19 @@ pg.activity_const = {
 	LINER_SIGN_ID = {
 		act_id = 5324
 	},
+	SEVEN_INVITE_ID = {
+		act_id = 5350
+	},
 	LINER_NAMED_ID = {
 		act_id = 5322
 	},
 	LINER_ID = {
 		act_id = 5335
+	},
+	PIPE_GAME_ACT_ID = {
+		act_id = 5355
+	},
+	UR_EXCHANGE_MOGADOR_ID = {
+		act_id = 5351
 	}
 }

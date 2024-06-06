@@ -4,7 +4,13 @@ return {
 		{
 			alpha = 0,
 			ui = {
-				path = "OverlayCamera/Overlay/UIMain/main/frame/link_top/layout/MainUINewServerBtn(Clone)",
+				dynamicPath = function ()
+					if getProxy(SettingsProxy):IsMellowStyle() then
+						return "/OverlayCamera/Overlay/UIMain/NewMainMellowTheme(Clone)/frame/left/list/MainUINewServerBtn4Mellow(Clone)"
+					else
+						return "OverlayCamera/Overlay/UIMain/NewMainClassicTheme(Clone)/frame/link_top/layout/MainUINewServerBtn(Clone)"
+					end
+				end,
 				triggerType = {
 					1
 				},

@@ -23,6 +23,7 @@ slot0.OnDataSetting = function(slot0)
 	slot0.taskProxy = getProxy(TaskProxy)
 	slot0.taskGroup = underscore.flatten(slot0.activity:getConfig("config_data"))
 	slot0.taskConfig = pg.task_data_template
+	slot0.preStory = slot0.activity:getConfig("config_client").preStory
 
 	return updateActivityTaskStatus(slot0.activity)
 end
@@ -122,6 +123,7 @@ slot0.OnFirstFlush = function(slot0)
 				actId = ActivityConst.LINER_NAMED_ID,
 				strValue = slot0,
 				callback = function ()
+					pg.TipsMgr.GetInstance():ShowTips(i18n("liner_name_modify"))
 					uv0:OnUpdateFlush()
 				end
 			})
@@ -132,7 +134,17 @@ slot0.OnFirstFlush = function(slot0)
 			return
 		end
 
-		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.LINER)
+		seriesAsync({
+			function (slot0)
+				if uv0.preStory and uv0.preStory ~= "" and not pg.NewStoryMgr.GetInstance():IsPlayed(uv0.preStory) then
+					pg.NewStoryMgr.GetInstance():Play(uv0.preStory, slot0)
+				else
+					slot0()
+				end
+			end
+		}, function ()
+			uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.LINER)
+		end)
 	end, SFX_PANEL)
 end
 

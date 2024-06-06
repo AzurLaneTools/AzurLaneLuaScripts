@@ -144,7 +144,7 @@ slot0.UpdateAllFashion = function(slot0, slot1)
 					slot6:updateUsing(uv0:GetShipVO().skinId == slot4.id)
 				end
 
-				slot0 = PathMgr.FileExists(PathMgr.getAssetBundle("painting/" .. uv2.paintingName .. "_n"))
+				slot0 = checkABExist("painting/" .. uv2.paintingName .. "_n")
 
 				setActive(uv0.hideObjToggle, slot0)
 

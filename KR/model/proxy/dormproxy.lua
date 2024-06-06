@@ -134,6 +134,10 @@ slot0.addInimacyAndMoney = function(slot0, slot1, slot2, slot3)
 	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_SHIP)
 end
 
+slot0.UpdateInimacyAndMoney = function(slot0)
+	slot0:updateDrom(slot0.data, BackYardConst.DORM_UPDATE_TYPE_SHIP)
+end
+
 slot0.clearInimacyAndMoney = function(slot0, slot1)
 	if not getProxy(BayProxy):getShipById(slot1) then
 		return

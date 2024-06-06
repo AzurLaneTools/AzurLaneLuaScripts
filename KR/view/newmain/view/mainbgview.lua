@@ -1,4 +1,4 @@
-slot0 = class("MainBGView")
+slot0 = class("MainBGView", import("..base.MainBaseView"))
 slot1 = {
 	{
 		{
@@ -55,12 +55,13 @@ slot0.GetBgAndBgm = function()
 end
 
 slot0.Ctor = function(slot0, slot1)
+	uv0.super.Ctor(slot0, slot1, nil)
+
 	slot0._tf = slot1
 	slot0._go = slot1.gameObject
 	slot0.paintingCanvases = {
 		slot1.parent.parent:Find("paintBg"):GetComponent(typeof(Canvas)),
-		slot1.parent.parent:Find("paint"):GetComponent(typeof(Canvas)),
-		slot1.parent.parent:Find("chat"):GetComponent(typeof(Canvas))
+		slot1.parent.parent:Find("paint"):GetComponent(typeof(Canvas))
 	}
 	slot0.isSpecialBg = false
 	slot0.isloading = false
@@ -81,6 +82,7 @@ slot0.Init = function(slot0, slot1)
 	if slot0.isSpecialBg and slot4 then
 		slot0:SetSpecailBg(slot2)
 		slot0:ClearMapBg()
+		slot0:ClearCommonBg()
 	elseif uv0 and uv0 ~= 0 then
 		slot5 = pg.expedition_data_by_map[uv0]
 
@@ -93,10 +95,22 @@ slot0.Init = function(slot0, slot1)
 
 			slot0:SetMapBg(slot5.bg, slot5.ani_name)
 		end
+
+		slot0:ClearCommonBg()
 	else
-		slot0:SetCommonBg(uv1.GetBgAndBgm())
+		if slot0.commonBg == uv1.GetBgAndBgm() then
+			return
+		end
+
+		slot0:SetCommonBg(slot5)
 		slot0:ClearMapBg()
+
+		slot0.commonBg = slot5
 	end
+end
+
+slot0.ClearCommonBg = function(slot0)
+	slot0.commonBg = nil
 end
 
 slot0.Refresh = function(slot0, slot1)
@@ -189,15 +203,7 @@ end
 
 slot0.SetCommonBg = function(slot0, slot1)
 	setActive(slot0._tf, true)
-
-	slot0.isloading = true
-	slot2 = PoolMgr.GetInstance()
-
-	slot2:GetSprite("commonbg/" .. slot1, "", true, function (slot0)
-		uv0.isloading = false
-
-		setImageSprite(uv0._tf, slot0)
-	end)
+	setImageSprite(slot0._tf, LoadSprite("commonbg/" .. slot1, ""))
 end
 
 slot0.ClearSpecailBg = function(slot0)
@@ -217,6 +223,7 @@ slot0.Disable = function(slot0)
 end
 
 slot0.Dispose = function(slot0)
+	uv0.super.Dispose(slot0)
 	slot0:ClearSpecailBg()
 	slot0:ClearMapBg()
 end

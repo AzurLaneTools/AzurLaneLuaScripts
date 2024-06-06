@@ -1,4 +1,4 @@
-slot0 = class("MainBuffDescPage", import("...base.BaseSubView"))
+slot0 = class("MainBuffDescPage", import("view.base.BaseSubView"))
 
 slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	uv0.super.Ctor(slot0, slot1, slot2, slot3)

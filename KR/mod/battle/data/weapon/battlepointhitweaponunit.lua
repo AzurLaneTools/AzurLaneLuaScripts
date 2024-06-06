@@ -192,7 +192,7 @@ end
 
 slot4.InitialCD = function(slot0)
 	uv0.super.InitialCD(slot0)
-	slot0._playerChargeWeaponVo:Deduct(slot0)
+	slot0._playerChargeWeaponVo:InitialDeduct(slot0)
 	slot0._playerChargeWeaponVo:Charge(slot0)
 end
 

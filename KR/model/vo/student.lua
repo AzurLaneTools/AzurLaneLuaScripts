@@ -18,6 +18,10 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.state = slot1.state or uv0.ATTEND
 end
 
+slot0.IsFinish = function(slot0)
+	return slot0:getFinishTime() <= pg.TimeMgr.GetInstance():GetServerTime()
+end
+
 slot0.updateSkillId = function(slot0, slot1)
 	slot0.skillId = slot1
 end

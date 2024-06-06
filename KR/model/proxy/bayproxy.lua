@@ -395,8 +395,35 @@ slot0.getShips = function(slot0)
 	return slot1
 end
 
+slot0.getRawShipCount = function(slot0)
+	slot1 = 0
+
+	for slot5, slot6 in pairs(slot0.data) do
+		slot1 = slot1 + 1
+	end
+
+	return slot1
+end
+
 slot0.getShipCount = function(slot0)
-	return table.getCount(slot0.data)
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(getGameset("unoccupied_ship_nationality")[2]) do
+		slot1[slot6] = true
+	end
+
+	slot2 = 0
+	slot3 = 0
+
+	for slot7, slot8 in pairs(slot0.data) do
+		if slot1[slot8:getNation()] then
+			slot3 = slot3 + 1
+		else
+			slot2 = slot2 + 1
+		end
+	end
+
+	return slot2, slot3
 end
 
 slot0.getShipById = function(slot0, slot1)

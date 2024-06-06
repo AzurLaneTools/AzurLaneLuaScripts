@@ -11,7 +11,7 @@ slot0.Execute = function(slot0, slot1)
 end
 
 slot0.Check = function(slot0, slot1)
-	if not (slot1 <= getProxy(BayProxy):getShipCount()) then
+	if not (slot1 <= getProxy(BayProxy):getRawShipCount()) then
 		originalPrint(slot1, slot2)
 		slot0:ShowTip()
 	end

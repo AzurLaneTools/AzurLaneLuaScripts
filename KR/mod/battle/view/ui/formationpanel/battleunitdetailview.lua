@@ -157,8 +157,8 @@ slot6.updateHP = function(slot0)
 
 	for slot9, slot10 in pairs(slot0._unit:GetBuffList()) do
 		for slot14, slot15 in ipairs(slot10:GetEffectList()) do
-			if slot15.__name == "BattleBuffShield" then
-				slot5 = slot5 + math.max(0, slot15._shield)
+			if slot15.__name == "BattleBuffShield" or slot15.__name == "BattleBuffRecordShield" then
+				slot5 = slot5 + math.max(0, slot15:GetEffectAttachData())
 			end
 		end
 	end
@@ -403,7 +403,7 @@ slot6.addSkillCaster = function(slot0, slot1)
 		slot5 = cloneTplTo(slot0._skillTpl, slot0._skillContainer)
 
 		setText(slot5:Find("common"):Find("skillID"), slot1._skill_id)
-		GetImageSpriteFromAtlasAsync("skillicon/" .. slot1._srcBuff._tempData.icon, "", slot5:Find("common/icon"))
+		GetImageSpriteFromAtlasAsync("skillicon/" .. (slot1._srcBuff._tempData.icon or 10120), "", slot5:Find("common/icon"))
 		Canvas.ForceUpdateCanvases()
 
 		slot0._skillList[slot2] = {

@@ -92,10 +92,14 @@ slot0.ScrollTo = function(slot0, slot1)
 	LeanTween.moveLocalX(go(slot0.container), -1 * (slot1 - 1) * slot0.itemWidth, 0.2):setEase(LeanTweenType.easeInOutSine):setOnComplete(System.Action(function ()
 		uv0.animating = false
 	end))
+	slot0:TriggerDot(slot0.dots[slot0.index or 1], false)
+	slot0:TriggerDot(slot0.dots[slot1], true)
 
-	slot0.dots[slot0.index or 1]:GetComponent(typeof(Image)).color = Color.New(0.4, 0.45, 0.55)
-	slot0.dots[slot1]:GetComponent(typeof(Image)).color = Color.New(1, 1, 1, 1)
 	slot0.index = slot1
+end
+
+slot0.TriggerDot = function(slot0, slot1, slot2)
+	slot1:GetComponent(typeof(Image)).color = slot2 and Color.New(1, 1, 1, 1) or Color.New(0.4, 0.45, 0.55)
 end
 
 slot0.AddDrag = function(slot0)
@@ -117,21 +121,21 @@ slot0.AddDrag = function(slot0)
 	slot3 = slot0.dragEvent
 
 	slot3:AddDragFunc(function (slot0, slot1)
-		if uv0.animating then
+		if uv0.animating or not uv1 then
 			return
 		end
 
-		uv0.container.localPosition = Vector3(uv2.x + (slot1.position.x - uv1) * 0.5, uv2.y, 0)
+		uv0.container.localPosition = Vector3(uv1.x + (slot1.position.x - uv2) * 0.5, uv1.y, 0)
 	end)
 
 	slot3 = slot0.dragEvent
 
 	slot3:AddDragEndFunc(function (slot0, slot1)
-		if uv0.animating then
+		if uv0.animating or not uv1 then
 			return
 		end
 
-		slot2 = slot1.position.x - uv1
+		slot2 = slot1.position.x - uv2
 		slot3 = math.floor(math.abs(slot2 / uv0.itemWidth) + 0.5)
 
 		uv0:ScrollTo(math.clamp(slot2 < 0 and uv0.index + slot3 or uv0.index - slot3, 1, uv0.total))
@@ -157,8 +161,7 @@ slot0.Disable = function(slot0)
 	end
 
 	for slot4, slot5 in ipairs(slot0.dots) do
-		slot5:GetComponent(typeof(Image)).color = Color.New(0.4, 0.45, 0.55)
-
+		slot0:TriggerDot(slot5, false)
 		setActive(slot5, false)
 	end
 end

@@ -9,7 +9,7 @@ end
 slot0.LoadBg = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot7 = "bg/star_level_bg_" .. slot2
 
-	if PathMgr.FileExists(PathMgr.getAssetBundle("ui/star_level_bg_" .. slot2)) then
+	if checkABExist("ui/star_level_bg_" .. slot2) then
 		slot0:ClearBg(slot1:getUIName())
 		PoolMgr.GetInstance():GetPrefab(slot8, "", true, function (slot0)
 			if not uv0.exited then

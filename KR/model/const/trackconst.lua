@@ -79,4 +79,50 @@ slot0.Track = function(slot0, slot1, ...)
 	})
 end
 
+slot0.TrackingExitSilentView = function(slot0, slot1, slot2)
+	pg.m02:sendNotification(GAME.MAIN_SCENE_TRACK, {
+		trackType = 1,
+		arg3 = 0,
+		arg1 = slot0,
+		arg2 = slot1,
+		arg4 = tostring(slot2)
+	})
+end
+
+slot0.TrackingTouchBanner = function(slot0)
+	pg.m02:sendNotification(GAME.MAIN_SCENE_TRACK, {
+		trackType = 2,
+		arg1 = 0,
+		arg3 = 0,
+		arg2 = 0,
+		arg4 = tostring(slot0)
+	})
+end
+
+slot0.TrackingSwitchPainting = function(slot0, slot1)
+	pg.m02:sendNotification(GAME.MAIN_SCENE_TRACK, {
+		trackType = 3,
+		arg3 = 0,
+		arg4 = "",
+		arg1 = slot0,
+		arg2 = slot1
+	})
+end
+
+slot0.TrackingUrExchangeFetch = function(slot0, slot1)
+	pg.m02:sendNotification(GAME.UR_EXCHANGE_TRACK, {
+		trackType = 1,
+		arg1 = slot0,
+		arg2 = slot1
+	})
+end
+
+slot0.TrackingUrExchangeJump = function(slot0)
+	pg.m02:sendNotification(GAME.UR_EXCHANGE_TRACK, {
+		arg1 = 0,
+		trackType = 2,
+		arg2 = slot0
+	})
+end
+
 return slot0

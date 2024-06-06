@@ -56,12 +56,18 @@ slot0.GenEventSearchData = function(slot0, slot1)
 		slot6 = slot1.triggerType and slot1.triggerType[2]
 	end
 
+	slot7 = slot1.eventPath
+
+	if slot1.dynamicEventPath then
+		slot7 = slot1.dynamicEventPath()
+	end
+
 	slot2.triggerData = {
 		type = slot5,
 		arg = slot6
 	}
 	slot2.childIndex = slot1.eventIndex
-	slot2.eventPath = slot1.eventPath
+	slot2.eventPath = slot7
 	slot2.fingerPos = slot1.fingerPos
 	slot2.slipAnim = slot5 == uv0.SNAP_PAGE
 

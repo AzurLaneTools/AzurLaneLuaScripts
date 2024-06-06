@@ -45,7 +45,7 @@ slot0.StartCheckUpdate = function(slot0, slot1)
 		slot0:UpdateBtnState(true, false)
 		removeOnButton(slot0.tf)
 	else
-		slot5 = PathMgr.FileExists(PathMgr.getAssetBundle(slot1))
+		slot5 = checkABExist(slot1)
 
 		slot0:ShowOrHide(slot5)
 

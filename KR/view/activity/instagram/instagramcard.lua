@@ -9,7 +9,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.txt = slot0._tf:Find("Text")
 	slot0.like = slot0._tf:Find("like/Text")
 	slot0.tip = slot0._tf:Find("head/tip")
-	slot0.image = slot0._tf:Find("image")
+	slot0.image = slot0._tf:Find("image"):GetComponent(typeof(RawImage))
 	slot0.loading = false
 	slot0.needRefresh = false
 end

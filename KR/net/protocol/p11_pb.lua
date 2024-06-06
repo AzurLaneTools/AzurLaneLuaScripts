@@ -86,6 +86,11 @@ slot2 = {
 	SC_11026_RESULT_FIELD = slot0.FieldDescriptor(),
 	CS_11027_SURVEY_ID_FIELD = slot0.FieldDescriptor(),
 	SC_11028_RESULT_FIELD = slot0.FieldDescriptor(),
+	CS_11029_TRACK_TYP_FIELD = slot0.FieldDescriptor(),
+	CS_11029_INT_ARG1_FIELD = slot0.FieldDescriptor(),
+	CS_11029_INT_ARG2_FIELD = slot0.FieldDescriptor(),
+	CS_11029_INT_ARG3_FIELD = slot0.FieldDescriptor(),
+	CS_11029_STR_ARG1_FIELD = slot0.FieldDescriptor(),
 	CS_11100_CMD_FIELD = slot0.FieldDescriptor(),
 	CS_11100_ARG1_FIELD = slot0.FieldDescriptor(),
 	CS_11100_ARG2_FIELD = slot0.FieldDescriptor(),
@@ -124,6 +129,9 @@ slot2 = {
 	SC_11209_RESULT_FIELD = slot0.FieldDescriptor(),
 	SC_11210_PERMANENT_ACTIVITY_FIELD = slot0.FieldDescriptor(),
 	SC_11210_PERMANENT_NOW_FIELD = slot0.FieldDescriptor(),
+	CS_11212_TRACK_TYP_FIELD = slot0.FieldDescriptor(),
+	CS_11212_SHIP_TID_FIELD = slot0.FieldDescriptor(),
+	CS_11212_FROM_FIELD = slot0.FieldDescriptor(),
 	GROUPINFO_ID_FIELD = slot0.FieldDescriptor(),
 	GROUPINFO_SHIP_LIST_FIELD = slot0.FieldDescriptor(),
 	GROUPINFO_COMMANDERS_FIELD = slot0.FieldDescriptor(),
@@ -194,6 +202,7 @@ slot2 = {
 	ACTIVITYINFO_TASK_LIST_FIELD = slot0.FieldDescriptor(),
 	ACTIVITYINFO_BUFF_LIST_FIELD = slot0.FieldDescriptor(),
 	ACTIVITYINFO_STR_DATA1_FIELD = slot0.FieldDescriptor(),
+	ACTIVITYINFO_DATA4_LIST_FIELD = slot0.FieldDescriptor(),
 	NOTICEINFO_ID_FIELD = slot0.FieldDescriptor(),
 	NOTICEINFO_VERSION_FIELD = slot0.FieldDescriptor(),
 	NOTICEINFO_BTN_TITLE_FIELD = slot0.FieldDescriptor(),
@@ -302,6 +311,7 @@ CS_11025 = slot0.Descriptor()
 SC_11026 = slot0.Descriptor()
 CS_11027 = slot0.Descriptor()
 SC_11028 = slot0.Descriptor()
+CS_11029 = slot0.Descriptor()
 CS_11100 = slot0.Descriptor()
 SC_11101 = slot0.Descriptor()
 BENEFITBUFF = slot0.Descriptor()
@@ -316,6 +326,7 @@ SC_11207 = slot0.Descriptor()
 CS_11208 = slot0.Descriptor()
 SC_11209 = slot0.Descriptor()
 SC_11210 = slot0.Descriptor()
+CS_11212 = slot0.Descriptor()
 GROUPINFO = slot0.Descriptor()
 SC_11300 = slot0.Descriptor()
 CS_11401 = slot0.Descriptor()
@@ -1435,6 +1446,64 @@ SC_11028.fields = {
 }
 SC_11028.is_extendable = false
 SC_11028.extensions = {}
+slot2.CS_11029_TRACK_TYP_FIELD.name = "track_typ"
+slot2.CS_11029_TRACK_TYP_FIELD.full_name = "p11.cs_11029.track_typ"
+slot2.CS_11029_TRACK_TYP_FIELD.number = 1
+slot2.CS_11029_TRACK_TYP_FIELD.index = 0
+slot2.CS_11029_TRACK_TYP_FIELD.label = 2
+slot2.CS_11029_TRACK_TYP_FIELD.has_default_value = false
+slot2.CS_11029_TRACK_TYP_FIELD.default_value = 0
+slot2.CS_11029_TRACK_TYP_FIELD.type = 13
+slot2.CS_11029_TRACK_TYP_FIELD.cpp_type = 3
+slot2.CS_11029_INT_ARG1_FIELD.name = "int_arg1"
+slot2.CS_11029_INT_ARG1_FIELD.full_name = "p11.cs_11029.int_arg1"
+slot2.CS_11029_INT_ARG1_FIELD.number = 2
+slot2.CS_11029_INT_ARG1_FIELD.index = 1
+slot2.CS_11029_INT_ARG1_FIELD.label = 2
+slot2.CS_11029_INT_ARG1_FIELD.has_default_value = false
+slot2.CS_11029_INT_ARG1_FIELD.default_value = 0
+slot2.CS_11029_INT_ARG1_FIELD.type = 13
+slot2.CS_11029_INT_ARG1_FIELD.cpp_type = 3
+slot2.CS_11029_INT_ARG2_FIELD.name = "int_arg2"
+slot2.CS_11029_INT_ARG2_FIELD.full_name = "p11.cs_11029.int_arg2"
+slot2.CS_11029_INT_ARG2_FIELD.number = 3
+slot2.CS_11029_INT_ARG2_FIELD.index = 2
+slot2.CS_11029_INT_ARG2_FIELD.label = 2
+slot2.CS_11029_INT_ARG2_FIELD.has_default_value = false
+slot2.CS_11029_INT_ARG2_FIELD.default_value = 0
+slot2.CS_11029_INT_ARG2_FIELD.type = 13
+slot2.CS_11029_INT_ARG2_FIELD.cpp_type = 3
+slot2.CS_11029_INT_ARG3_FIELD.name = "int_arg3"
+slot2.CS_11029_INT_ARG3_FIELD.full_name = "p11.cs_11029.int_arg3"
+slot2.CS_11029_INT_ARG3_FIELD.number = 4
+slot2.CS_11029_INT_ARG3_FIELD.index = 3
+slot2.CS_11029_INT_ARG3_FIELD.label = 2
+slot2.CS_11029_INT_ARG3_FIELD.has_default_value = false
+slot2.CS_11029_INT_ARG3_FIELD.default_value = 0
+slot2.CS_11029_INT_ARG3_FIELD.type = 13
+slot2.CS_11029_INT_ARG3_FIELD.cpp_type = 3
+slot2.CS_11029_STR_ARG1_FIELD.name = "str_arg1"
+slot2.CS_11029_STR_ARG1_FIELD.full_name = "p11.cs_11029.str_arg1"
+slot2.CS_11029_STR_ARG1_FIELD.number = 5
+slot2.CS_11029_STR_ARG1_FIELD.index = 4
+slot2.CS_11029_STR_ARG1_FIELD.label = 2
+slot2.CS_11029_STR_ARG1_FIELD.has_default_value = false
+slot2.CS_11029_STR_ARG1_FIELD.default_value = ""
+slot2.CS_11029_STR_ARG1_FIELD.type = 9
+slot2.CS_11029_STR_ARG1_FIELD.cpp_type = 9
+CS_11029.name = "cs_11029"
+CS_11029.full_name = "p11.cs_11029"
+CS_11029.nested_types = {}
+CS_11029.enum_types = {}
+CS_11029.fields = {
+	slot2.CS_11029_TRACK_TYP_FIELD,
+	slot2.CS_11029_INT_ARG1_FIELD,
+	slot2.CS_11029_INT_ARG2_FIELD,
+	slot2.CS_11029_INT_ARG3_FIELD,
+	slot2.CS_11029_STR_ARG1_FIELD
+}
+CS_11029.is_extendable = false
+CS_11029.extensions = {}
 slot2.CS_11100_CMD_FIELD.name = "cmd"
 slot2.CS_11100_CMD_FIELD.full_name = "p11.cs_11100.cmd"
 slot2.CS_11100_CMD_FIELD.number = 1
@@ -1937,6 +2006,44 @@ SC_11210.fields = {
 }
 SC_11210.is_extendable = false
 SC_11210.extensions = {}
+slot2.CS_11212_TRACK_TYP_FIELD.name = "track_typ"
+slot2.CS_11212_TRACK_TYP_FIELD.full_name = "p11.cs_11212.track_typ"
+slot2.CS_11212_TRACK_TYP_FIELD.number = 1
+slot2.CS_11212_TRACK_TYP_FIELD.index = 0
+slot2.CS_11212_TRACK_TYP_FIELD.label = 2
+slot2.CS_11212_TRACK_TYP_FIELD.has_default_value = false
+slot2.CS_11212_TRACK_TYP_FIELD.default_value = 0
+slot2.CS_11212_TRACK_TYP_FIELD.type = 13
+slot2.CS_11212_TRACK_TYP_FIELD.cpp_type = 3
+slot2.CS_11212_SHIP_TID_FIELD.name = "ship_tid"
+slot2.CS_11212_SHIP_TID_FIELD.full_name = "p11.cs_11212.ship_tid"
+slot2.CS_11212_SHIP_TID_FIELD.number = 2
+slot2.CS_11212_SHIP_TID_FIELD.index = 1
+slot2.CS_11212_SHIP_TID_FIELD.label = 2
+slot2.CS_11212_SHIP_TID_FIELD.has_default_value = false
+slot2.CS_11212_SHIP_TID_FIELD.default_value = 0
+slot2.CS_11212_SHIP_TID_FIELD.type = 13
+slot2.CS_11212_SHIP_TID_FIELD.cpp_type = 3
+slot2.CS_11212_FROM_FIELD.name = "from"
+slot2.CS_11212_FROM_FIELD.full_name = "p11.cs_11212.from"
+slot2.CS_11212_FROM_FIELD.number = 3
+slot2.CS_11212_FROM_FIELD.index = 2
+slot2.CS_11212_FROM_FIELD.label = 2
+slot2.CS_11212_FROM_FIELD.has_default_value = false
+slot2.CS_11212_FROM_FIELD.default_value = 0
+slot2.CS_11212_FROM_FIELD.type = 13
+slot2.CS_11212_FROM_FIELD.cpp_type = 3
+CS_11212.name = "cs_11212"
+CS_11212.full_name = "p11.cs_11212"
+CS_11212.nested_types = {}
+CS_11212.enum_types = {}
+CS_11212.fields = {
+	slot2.CS_11212_TRACK_TYP_FIELD,
+	slot2.CS_11212_SHIP_TID_FIELD,
+	slot2.CS_11212_FROM_FIELD
+}
+CS_11212.is_extendable = false
+CS_11212.extensions = {}
 slot2.GROUPINFO_ID_FIELD.name = "id"
 slot2.GROUPINFO_ID_FIELD.full_name = "p11.groupinfo.id"
 slot2.GROUPINFO_ID_FIELD.number = 1
@@ -2845,6 +2952,15 @@ slot2.ACTIVITYINFO_STR_DATA1_FIELD.has_default_value = false
 slot2.ACTIVITYINFO_STR_DATA1_FIELD.default_value = ""
 slot2.ACTIVITYINFO_STR_DATA1_FIELD.type = 9
 slot2.ACTIVITYINFO_STR_DATA1_FIELD.cpp_type = 9
+slot2.ACTIVITYINFO_DATA4_LIST_FIELD.name = "data4_list"
+slot2.ACTIVITYINFO_DATA4_LIST_FIELD.full_name = "p11.activityinfo.data4_list"
+slot2.ACTIVITYINFO_DATA4_LIST_FIELD.number = 17
+slot2.ACTIVITYINFO_DATA4_LIST_FIELD.index = 16
+slot2.ACTIVITYINFO_DATA4_LIST_FIELD.label = 3
+slot2.ACTIVITYINFO_DATA4_LIST_FIELD.has_default_value = false
+slot2.ACTIVITYINFO_DATA4_LIST_FIELD.default_value = {}
+slot2.ACTIVITYINFO_DATA4_LIST_FIELD.type = 13
+slot2.ACTIVITYINFO_DATA4_LIST_FIELD.cpp_type = 3
 ACTIVITYINFO.name = "activityinfo"
 ACTIVITYINFO.full_name = "p11.activityinfo"
 ACTIVITYINFO.nested_types = {}
@@ -2865,7 +2981,8 @@ ACTIVITYINFO.fields = {
 	slot2.ACTIVITYINFO_COLLECTION_LIST_FIELD,
 	slot2.ACTIVITYINFO_TASK_LIST_FIELD,
 	slot2.ACTIVITYINFO_BUFF_LIST_FIELD,
-	slot2.ACTIVITYINFO_STR_DATA1_FIELD
+	slot2.ACTIVITYINFO_STR_DATA1_FIELD,
+	slot2.ACTIVITYINFO_DATA4_LIST_FIELD
 }
 ACTIVITYINFO.is_extendable = false
 ACTIVITYINFO.extensions = {}
@@ -3884,11 +4001,13 @@ cs_11021 = slot0.Message(CS_11021)
 cs_11023 = slot0.Message(CS_11023)
 cs_11025 = slot0.Message(CS_11025)
 cs_11027 = slot0.Message(CS_11027)
+cs_11029 = slot0.Message(CS_11029)
 cs_11100 = slot0.Message(CS_11100)
 cs_11202 = slot0.Message(CS_11202)
 cs_11204 = slot0.Message(CS_11204)
 cs_11206 = slot0.Message(CS_11206)
 cs_11208 = slot0.Message(CS_11208)
+cs_11212 = slot0.Message(CS_11212)
 cs_11401 = slot0.Message(CS_11401)
 cs_11501 = slot0.Message(CS_11501)
 cs_11504 = slot0.Message(CS_11504)

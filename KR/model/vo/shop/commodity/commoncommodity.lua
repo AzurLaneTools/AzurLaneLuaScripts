@@ -103,7 +103,11 @@ slot0.IsItemDiscountType = function(slot0)
 end
 
 slot0.CanUseVoucherType = function(slot0)
-	if #getProxy(BagProxy):GetSkinShopDiscountItemList() <= 0 then
+	return slot0:StaticCanUseVoucherType(getProxy(BagProxy):GetSkinShopDiscountItemList())
+end
+
+slot0.StaticCanUseVoucherType = function(slot0, slot1)
+	if #slot1 <= 0 then
 		return false
 	end
 

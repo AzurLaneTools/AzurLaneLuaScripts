@@ -94,20 +94,14 @@ slot8 = function(slot0, slot1)
 	end
 
 	if slot0.enablePlayActions and #slot0.enablePlayActions > 0 and not table.contains(slot0.enablePlayActions, slot1) then
-		warning(tostring(slot1) .. "不在白名单中,不播放该动作")
-
 		return false
 	end
 
 	if slot0.ignorePlayActions and #slot0.ignorePlayActions > 0 and table.contains(slot0.ignorePlayActions, slot1) then
-		warning(tostring(slot1) .. "在黑名单中，不播放该动作")
-
 		return false
 	end
 
 	if slot0._readlyToStop then
-		print("l2d即将停止，不播放该动作")
-
 		return false
 	end
 
@@ -165,7 +159,9 @@ slot11 = function(slot0, slot1, slot2)
 			return
 		end
 
-		slot0:setReactPos(tobool(slot8))
+		if slot8 ~= nil then
+			slot0:setReactPos(tobool(slot8))
+		end
 
 		if slot4 then
 			uv1(slot0, slot4, slot7 or false)
@@ -431,6 +427,13 @@ slot14 = function(slot0, slot1)
 		slot0:changeParamaterValue("Paramring", 0)
 	end
 
+	if not slot0._physics then
+		slot0._physics = GetComponent(slot0._tf, "CubismPhysicsController")
+	end
+
+	slot0._physics.enabled = false
+	slot0._physics.enabled = true
+
 	if slot0.live2dData.l2dDragRate and #slot0.live2dData.l2dDragRate > 0 then
 		slot0.liveCom.DragRateX = slot0.live2dData.l2dDragRate[1] * uv1
 		slot0.liveCom.DragRateY = slot0.live2dData.l2dDragRate[2] * uv2
@@ -444,6 +447,8 @@ slot14 = function(slot0, slot1)
 	if slot0.live2dData.shipL2dId and #slot0.live2dData.shipL2dId > 0 then
 		uv7(slot0)
 	end
+
+	slot0:addKeyBoard()
 
 	slot0.state = uv8.STATE_INITED
 
@@ -501,6 +506,11 @@ slot0.SetVisible = function(slot0, slot1)
 
 		onDelayTick(function ()
 			if not uv0._readlyToStop then
+				if uv0._physics then
+					uv0._physics.enabled = false
+					uv0._physics.enabled = true
+				end
+
 				uv0:setReactPos(false)
 			end
 		end, 1)
@@ -680,6 +690,8 @@ slot0.TriggerAction = function(slot0, slot1, slot2, slot3, slot4)
 
 	if not uv0(slot0, slot1, slot3) and slot0.animEventCB then
 		slot0.animEventCB(false)
+
+		slot0.animEventCB = nil
 	end
 end
 
@@ -689,6 +701,29 @@ slot0.Reset = function(slot0)
 	slot0.enablePlayActions = {}
 	slot0.ignorePlayActions = {}
 	slot0.ableFlag = nil
+end
+
+slot0.resetL2dData = function(slot0)
+	if not slot0._tf then
+		return
+	end
+
+	if slot0._tf and LeanTween.isTweening(go(slot0._tf)) then
+		return
+	end
+
+	slot0._l2dPosition = slot0._tf.position
+	slot0._tf.position = Vector3(slot0._l2dPosition.x + 100, 0, 0)
+
+	LeanTween.delayedCall(go(slot0._tf), 0.2, System.Action(function ()
+		if uv0._tf then
+			uv0._tf.position = uv0._l2dPosition
+		end
+	end))
+	Live2dConst.ClearLive2dSave(slot0.live2dData.ship.skinId, slot0.live2dData.ship.id)
+	slot0:Reset()
+	slot0:changeIdleIndex(0)
+	slot0:loadLive2dData()
 end
 
 slot0.applyActiveData = function(slot0, slot1, slot2)
@@ -741,8 +776,6 @@ slot0.changeIdleIndex = function(slot0, slot1)
 	if slot0.idleIndex ~= slot1 then
 		slot0._animator:SetInteger("idle", slot1)
 	end
-
-	print("now idle index is " .. slot1)
 
 	slot0.idleIndex = slot1
 
@@ -803,7 +836,9 @@ end
 
 slot0.Dispose = function(slot0)
 	if slot0.state == uv0.STATE_INITED then
-		Destroy(slot0._go)
+		if slot0._go then
+			Destroy(slot0._go)
+		end
 
 		slot0.liveCom.FinishAction = nil
 		slot0.liveCom.EventAction = nil
@@ -856,6 +891,9 @@ slot0.AtomSouceFresh = function(slot0)
 	if slot0.updateAtom then
 		slot0.updateAtom = false
 	end
+end
+
+slot0.addKeyBoard = function(slot0)
 end
 
 return slot0

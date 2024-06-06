@@ -65,11 +65,10 @@ slot0.Init = function(slot0, slot1)
 	slot0.animation = slot2:GetComponent(typeof(Animation))
 	slot0.gemPos = slot0.gemAddBtn.anchoredPosition
 	slot0.oilPos = slot0.oilAddBtn.anchoredPosition
+	slot0.foldableHelper = MainFoldableHelper.New(slot0._go.transform, Vector2(0, 1))
 
 	onButton(slot0, slot0.goldAddBtn, function ()
-		if not pg.goldExchangeMgr then
-			pg.goldExchangeMgr = GoldExchangeView.New()
-		end
+		uv0:ClickGold()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.oilAddBtn, function ()
 		uv0:ClickOil()
@@ -171,11 +170,8 @@ slot0.CustomSetting = function(slot0, slot1)
 end
 
 slot0.DoAnimation = function(slot0)
-	slot0.posY = slot0.posY or slot0._go.transform.anchoredPosition.y
-
-	LeanTween.value(slot0._go, slot0.posY + 200, slot0.posY, 0.5):setOnUpdate(System.Action_float(function (slot0)
-		uv0._go.transform.anchoredPosition = Vector3(uv0._go.transform.anchoredPosition.x, slot0, 0)
-	end)):setEase(LeanTweenType.easeInOutExpo)
+	slot0.foldableHelper:Fold(true, 0)
+	slot0.foldableHelper:Fold(false, 0.5)
 end
 
 slot0.ClickGem = function(slot0)
@@ -202,6 +198,12 @@ slot0.ClickGem = function(slot0)
 		})
 	else
 		slot2()
+	end
+end
+
+slot0.ClickGold = function(slot0)
+	if not pg.goldExchangeMgr then
+		pg.goldExchangeMgr = GoldExchangeView.New()
 	end
 end
 
@@ -257,14 +259,16 @@ slot0.ClickOil = function(slot0)
 end
 
 slot0.Flush = function(slot0)
-	slot1 = slot0:GetPlayer()
-	slot0.goldMax.text = "MAX: " .. slot1:getLevelMaxGold()
-	slot0.goldValue.text = slot1.gold
-	slot0.oilMax.text = "MAX: " .. slot1:getLevelMaxOil()
-	slot0.oilValue.text = slot1.oil
-	slot0.gemValue.text = slot1:getTotalGem()
-
+	uv0.StaticFlush(slot0:GetPlayer(), slot0.goldMax, slot0.goldValue, slot0.oilMax, slot0.oilValue, slot0.gemValue)
 	slot0:SetDirty(false)
+end
+
+slot0.StaticFlush = function(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot1.text = "MAX: " .. slot0:getLevelMaxGold()
+	slot2.text = slot0.gold
+	slot3.text = "MAX: " .. slot0:getLevelMaxOil()
+	slot4.text = slot0.oil
+	slot5.text = slot0:getTotalGem()
 end
 
 slot0.Dispose = function(slot0)
@@ -289,9 +293,7 @@ slot0.Fold = function(slot0, slot1, slot2)
 		return
 	end
 
-	slot0.lposY = slot0.lposY or slot0._go.transform.localPosition.y
-
-	LeanTween.moveLocalY(slot0._go, slot1 and slot0.lposY + 200 or slot0.lposY, slot2):setEase(LeanTweenType.easeInOutExpo)
+	slot0.foldableHelper:Fold(slot1, slot2)
 end
 
 slot0.listNotificationInterests = function(slot0)

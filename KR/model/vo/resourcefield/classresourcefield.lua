@@ -73,4 +73,12 @@ slot0.GetCanGetResCnt = function(slot0)
 	return math.min(slot0:GetGenResCnt(), Item.getConfigData(slot2).max_num - getProxy(BagProxy):getItemCountById(slot2))
 end
 
+slot0.CanGetRes = function(slot0)
+	if slot0:GetCanGetResCnt() <= 0 then
+		return false
+	end
+
+	return true
+end
+
 return slot0

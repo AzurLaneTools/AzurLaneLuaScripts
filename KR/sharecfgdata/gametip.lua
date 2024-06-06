@@ -9175,6 +9175,11 @@ _G.pg.base.gametip.ship_remould_warning_102304 = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_105214 = {
+	tip = "개조(근대화 개수)하면, 스킬\n<color=#92fc63>[BIG SEVEN]</color>이 스킬 <color=#92fc63>[BIG SEVEN·콜로라도]</color>로 강화됨"
+}
+
+
 _G.pg.base.gametip.ship_remould_warning_105234 = {
 	tip = "개조(근대화 개수) 종료 후, 스킬 <color=#92fc63>[BIG SEVEN]</color>이\n<color=#92fc63>[BIG SEVEN·웨스트버지니아]</color>로 강화됨"
 }
@@ -12138,7 +12143,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "기간 한정 건조를 총 200회 실시하면, 크론시타트 100% 획득 가능! (최대 4척까지)"
+	tip = "한정 건조를 총 200회 실시하면 \"알자스\" 100% 획득 가능! (최대 4회까지)"
 }
 
 
@@ -12225,39 +12230,27 @@ _G.pg.base.gametip.event_recommend_fail = {
 _G.pg.base.gametip.newplayer_help_tip = {
 	tip = {
 		{
-			info = "신병훈련 이벤트 설명: "
+			info = "※새로운 요소"
 		},
 		{
-			{
-				info = "신병훈련 이벤트 설명: "
-			},
-			{
-				info = "1. 이벤트는 시간 제한이 없고, 지휘관이 모든 이벤트 임무를 완료할 때까지 개방됩니다."
-			},
-			{
-				info = "2. 현 단계의 모든 임무를 완료하면, 시험 임무가 개방됩니다."
-			},
-			{
-				info = "3. 현 단계의 모든 시험 임무를 완료하면, 다음 이벤트 단계가 개방됩니다."
-			},
-			{
-				info = "4. 모든 이벤트 임무를 완료하면, 이벤트가 닫히게 됩니다."
-			}
+			info = [[
+특별계획함(3기) 도입에 따라, 신입 훈련소에 "개발
+임무"를 추가했습니다.
+지휘관의 레벨이 30에 도달하면, 신입 훈련소 화면 우측 하단에 "개발" 탭이 오픈됩니다.
+"개방" 탭을 터치하면, 개발도크 관련 임무를 확인할 수 있습니다.]]
 		},
 		{
-			info = "\n신병 연구 가속 이벤트 설명:"
+			info = "\"개발\" 임무를 클리어하면, 특별계획함(1기) 개발을 가속시킬 수 있는 아이템 \"과학 연구 테스트 데이터\"을 획득할 수 있습니다.\n\"과학 연구 테스트 데이터\"는 개발도크에서 특정 함선의 \"전술 데이터 수집\" 임무 경험치로 변환할 수 있습니다."
 		},
 		{
-			info = "1. 이벤트는 레벨 30에 개방되며 화면 좌측 하단의 아이콘을 통해 연구 가속, 신병 훈련 이벤트가 표시됩니다."
+			info = "규칙:"
 		},
 		{
-			info = "2. 이벤트는 시간 제한이 없고, 지휘관이 모든 이벤트 임무를 완료할 때까지 개방됩니다."
-		},
-		{
-			info = "3. 현 단계의 모든 임무를 완료하면 최종 이벤트가 개방됩니다."
-		},
-		{
-			info = "4. 신병훈련과 연구 가속 모든 이벤트 임무를 완료하면, 이벤트가 닫히게 됩니다.\n"
+			info = [[
+1. 신입 훈련소에는 별도의 진행 기간이 없습니다.
+2. 현 단계(신병·심화·시험)의 임무를 모두 클리어하면 챌린지 임무가 오픈됩니다.
+3. 챌린지 임무를 클리어하면, 다음 단계로 진행할 수 있습니다.
+4. 모든 임무를 클리어하고 보상을 수령하면, 신입 훈련소는 사라집니다.]]
 		}
 	}
 }
@@ -14423,40 +14416,39 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "이벤트 설명:\n"
 		},
 		{
-			info = "'선택 가능한 특별 건조'란, 상시 3종류의 일반 건조 중 하나를\n베이스로 삼아, 특정 함선을 선택하여 그 함선을 픽업 상태(출현율 UP)로 만드는 특수한 건조 시스템을\n말합니다."
+			info = "선택 가능한 특별 건조\"란, 상시 3종류의 일반 건조 중 하나를 베이스로 삼아, 특정 함선을 선택하여 그 함선을 픽업 상태(출현율 UP)로 만드는 특별 건조 시스템을 말합니다."
 		},
 		{
-			info = "1. '소형함 건조', '대형함 건조', '특형함 건조' 중 하나를\n골라, 특별 건조의 베이스로 만들 수 있습니다."
+			info = "1. \"소형함 건조\", \"대형함 건조\", \"특형함 건조\" 중 하나를 골라 특별 건조의 베이스로 만들 수 있습니다. (UR 함선은 \"대형함 건조\", \"특형함 건조\" 에서만 출현합니다.)"
 		},
 		{
-			info = [[
-2. 동일 건조에서 출현하는 함선 중 두 종류를 골라
-'픽업 상태(출현율 UP 상태)'로 만들 수 있습니다.
-<color=#FF5C5C>(※ 2024년 1월 18일까지 상시 건조한 함선만
-출현합니다.)</color>]]
+			info = "2. 동일 건조에서 출현하는 함선 중 두 종류를 골라 \"픽업 상태(출현율 UP 상태)\"로 만들 수 있습니다.<color=#FF5C5C>(※ 2024년 3월 20일까지 상시 건조 상태가 된 함선만 출현합니다. 또한, UR 함선을 선택한 경우, 선택하지 않은 UR 함선은 건조에서 출현하지 않습니다.)</color>"
 		},
 		{
-			info = [[
-3. '선택 가능한 특별 건조'에서 '픽업'으로 선택된
-함선의 출현율은 레어도에 따라 다음과 같이
-분류됩니다.
-<color=#ffde38>SSR</color>: 2%, <color=#d797ff>SR</color>: 2.5%, <color=#3dc6ff>R</color>: 2.5%, N: 2.5%]]
+			info = "3. 선택 가능한 특별 건조\"에서 \"픽업\"으로 선택된 함선의 출현율은 레어도에 따라 다음과 같이 분류됩니다.\n<color=#ff5e39>UR</color>: 1.2% <color=#ffde38>SSR</color>: 2%  <color=#d797ff>SR</color>: 2.5%  <color=#3dc6ff>R: 2.5%</color>  N: 2.5%"
 		},
 		{
 			info = [[
-4. '선택 가능한 특별 건조'의 함선 레어도별 출현율은
-일반 건조와 마찬가지로 다음과 같습니다.
-<color=#FF5C5C>소형함 건조</color> <color=#ffde38>SSR</color>: 7, <color=#d797ff>SR</color>: 12%, <color=#3dc6ff>R</color>: 26%, N: 55% 
-<color=#FF5C5C>대형함 건조</color> <color=#ffde38>SSR</color>: 7%, <color=#d797ff>SR</color>:12%, <color=#3dc6ff>R</color>: 51%, N: 30% 
-<color=#FF5C5C>특형함 건조</color> <color=#ffde38>SSR</color>: 7%, <color=#d797ff>SR</color>: 12%, <color=#3dc6ff>R</color>: 51%, N: 30%]]
+4. 선택 가능한 특별 건조"의 함선 레어도별 출현율은 일반 건조와 마찬가지로 다음과 같습니다.
+<color=#FF5C5C>소형함 건조</color> <color=#ffde38>SSR</color>: 7%  <color=#d797ff>SR</color>: 12% <color=#3dc6ff>R</color>: 26%  N: 55%
+<color=#FF5C5C>대형함 건조</color> <color=#ff5e39>UR</color>: 1.2% <color=#ffde38>SSR</color>: 7%  <color=#d797ff>SR</color>: 12%  <color=#3dc6ff>R</color>: 51%  N: 30%
+<color=#FF5C5C>특형함 건조</color>  <color=#ff5e39>UR</color>: 1.2% <color=#ffde38>SSR</color>: 7%  <color=#d797ff>SR</color>: 12%  <color=#3dc6ff>R</color>: 51%  N: 30%]]
 		},
 		{
-			info = "5. 베이스가 되는 일반 건조와 픽업 함선을 확정한\n후에는 '선택 가능한 특별 건조' 내용은 변경할 수 없습니다."
+			info = "5. 베이스가 되는 일반 건조와 픽업 함선을 확정한 후에는 \"선택 가능한 특별 건조\" 내용을 변경할 수 없습니다."
 		},
 		{
-			info = "6. '선택 가능한 특별 건조'는 일반 건조와 마찬가지로 최대 2척까지만\n동시에 건조할 수 있지만, 건조 시간은 고속건조재로\n단축시킬 수 있습니다."
+			info = "6. 선택 가능한 특별 건조\"는 일반 건조와 마찬가지로 최대 2척까지만 동시에 건조할 수 있지만, 건조 시간은 고속건조재로 단축시킬 수 있습니다."
+		},
+		{
+			info = "7. \"선택 가능한 특별 건조\"는 일반 건조와 마찬가지로 건조 시에 사용되는 큐브 수에 따라, 일반 건조에서의 UR 함선 교환 시 횟수로 카운트됩니다."
 		}
 	}
+}
+
+
+_G.pg.base.gametip.pray_build_UR_warning = {
+	tip = "UR 함선은 1척만 선택할 수 있습니다."
 }
 
 
@@ -24897,6 +24889,75 @@ _G.pg.base.gametip.cruise_task_help_2404 = {
 }
 
 
+_G.pg.base.gametip.battlepass_main_tip_2406 = {
+	tip = "<size=23>2024.6.8 ~ 2024.8.7 이벤트 기간 중에 월드 투어 보상으로 <color=#854747>\"포슈·META\"</color> 등 획득 가능! </size>"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2406 = {
+	tip = {
+		{
+			info = [[
+■ 이벤트 진행 기간
+ 2024.6.8(토) 0:00 ~ 2024.8.7(수) 23:59
+
+■ 개요
+"월드 투어"란, 이벤트 진행 중에 임무를 클리어하고 "투어 PT"를 모아, 획득한 투어 PT 합계에 따라 보상을 얻을 수 있는 이벤트입니다. 
+또한, 기본 투어 보상에는 추가적으로 "특허 투어 보상"이 존재하며, 상점 아이템 "특허 투어 패스"를 구매하면 특허 투어 보상을 획득할 수 있습니다. 
+기본 투어 보상으로는 함선 "포슈·META", 특허 투어 보상으로는 "아틸리오 레골로"의 한정 스킨인 "구름 위에 내린 천사"를 획득할 수 있습니다. 
+
+■플레이 방법
+・"월드 투어" 이벤트 시작과 동시에 임무 두 종류가 오픈됩니다. 
+　①주간 오픈 임무
+　이벤트 시작 시와 이벤트 기간 중 7일이 경과할 때마다 오픈되는 임무. 총 8그룹
+　②전체 기간 임무
+　처음부터 모두 오픈되는 임무. 총 1그룹
+・상기 "월드 투어"는 모두 자동적으로 수령이 완료되고, "월드 투어" 화면으로 이동 시에 이미 완료 조건을 충족한 임무는 클리어로 처리되며, "투어 PT"를 자동으로 획득할 수 있습니다. 
+　또한, "특허 투어 패스"를 구매하면, 15단계 분량의 보상(투어 PT 1,500)을 획득할 수 있습니다. 
+・"투어 PT"의 합계에 따라 투어 보상을 얻을 수 있습니다. 투어 보상은 두 가지가 있습니다. 
+　①기본 투어 보상
+　"투어 PT"의 획득 수에 따라 얻을 수 있는 보상. 총 100단계가 있습니다.
+　②특허 투어 보상
+　"특허 투어 패스"를 구매하면 오픈되는 추가 보상. 기본 투어 보상과 동일하게 총 100단계가 있으며, 기본 투어 보상과 같은 단계의 특허 투어 보상을 획득할 수 있습니다. 
+・이벤트가 종료되면 획득한 투어 PT는 초기화됩니다. 
+
+■ Tips
+・플레이 스타일
+　월드 투어에는 총 100단계가 있으며, 단숨에 마지막 단계까지 클리어할 수 없도록 만들어져 있습니다. 평소대로 퀘스트를 클리어하면서 임무를 처리하거나, 원하는 보상을 정해 신속하게 클리어하는 등, 자신의 플레이 스타일에 따라 즐기는 것을 추천합니다. 
+
+・특허 투어 패스
+　상점에서 "특허 투어 패스"를 구매하면, 특별한 아이템과 함께 "투어 PT"를 1,500PT 획득할 수 있습니다. 또한, 추가 한정 스킨은 "특허 투어 패스" 구매로 오픈되는 "특허 투어 보상"으로만 획득할 수 있습니다. 이 점 주의하시기 바랍니다. 
+
+・임무 스킵(추천하지 않습니다)
+　"월드 투어"의 "임무 목록" 화면에서 각 임무 우측의 화살표 버튼을 탭하면, 임무를 자동으로 스킵(클리어 처리)하고, 투어 PT를 획득할 수 있는 "월드 투어 티켓"을 구입하거나 사용할 수 있습니다. 
+　다이아가 소모되므로, 추천하지 않습니다.
+　"월드 투어 티켓"은 이벤트가 종료된 후에도 계속 소지할 수 있습니다. ]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2406 = {
+	tip = {
+		{
+			info = [[
+■ 월드 투어에 대해
+・"월드 투어" 이벤트 시작과 동시에 임무 두 종류가 오픈됩니다. 
+　①주간 오픈 임무
+　이벤트 시작 시와 이벤트 기간 중 7일이 경과할 때마다 오픈되는 임무. 총 8그룹
+　②전체 기간 임무
+　처음부터 모두 오픈되는 임무. 총 1그룹
+
+・"월드 투어"는 모두 자동적으로 수령이 완료되고, "월드 투어" 화면으로 이동 시에 이미 완료 조건을 충족한 임무는 클리어로 처리되며, "투어 PT"를 자동으로 획득할 수 있습니다. 
+
+・"월드 투어"의 "임무 목록" 화면에서 각 임무 우측의 화살표 버튼을 탭하면, 임무를 자동으로 스킵(클리어 처리)하고, 투어 PT를 획득할 수 있는 "월드 투어 티켓"을 구입하거나 사용할 수 있습니다. 
+　다이아가 소모되므로, 추천하지 않습니다……
+　"월드 투어 티켓"은 이벤트가 종료된 후에도 계속 소지할 수 있습니다. ]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "초기화"
 }
@@ -32815,6 +32876,16 @@ _G.pg.base.gametip.voting_page_reward = {
 }
 
 
+_G.pg.base.gametip.backyard_shipAddInimacy_ships_ok = {
+	tip = "<color=#92fc63>$1 쪽</color>의 호감도가 <color=#92fc63>상승</color>했습니다."
+}
+
+
+_G.pg.base.gametip.backyard_shipAddMoney_ships_ok = {
+	tip = "<color=#92fc63>$1 쪽</color>은 예상치 못한 발견을 했습니다! 가구 코인 <color=#92fc63>+$2</color>"
+}
+
+
 _G.pg.base.gametip.idol3rd_houshan = {
 	tip = {
 		{
@@ -32903,6 +32974,66 @@ _G.pg.base.gametip.idol3rd_practice = {
 }
 
 
+_G.pg.base.gametip.main_silent_tip_1 = {
+	tip = "개 함대가 의뢰를 완료하고 귀환했습니다."
+}
+
+
+_G.pg.base.gametip.main_silent_tip_2 = {
+	tip = "척의 함선 건조가 완료되었습니다."
+}
+
+
+_G.pg.base.gametip.main_silent_tip_3 = {
+	tip = "개의 과학 연구가 완료되었습니다."
+}
+
+
+_G.pg.base.gametip.main_silent_tip_4 = {
+	tip = "명의 캐릭터 스킬 강화가 완료되었습니다."
+}
+
+
+_G.pg.base.gametip.commission_label_go = {
+	tip = "확인"
+}
+
+
+_G.pg.base.gametip.commission_label_finish = {
+	tip = "완성"
+}
+
+
+_G.pg.base.gametip.commission_label_go_mellow = {
+	tip = "확인"
+}
+
+
+_G.pg.base.gametip.commission_label_finish_mellow = {
+	tip = "완성"
+}
+
+
+_G.pg.base.gametip.commission_label_unlock_event_tip = {
+	tip = "지휘관 Lv.12 달성 시 오픈"
+}
+
+
+_G.pg.base.gametip.commission_label_unlock_tech_tip = {
+	tip = "지휘관 Lv.30 달성 시 오픈"
+}
+
+
+_G.pg.base.gametip.specialshipyard_tip = {
+	tip = "* \"META\" 함선은 \"특수 도크\"에 격납되어, 도크 용량에 포함되지 않습니다."
+}
+
+
+_G.pg.base.gametip.specialshipyard_name = {
+	tip = "특수 도크:"
+}
+
+
 _G.pg.base.gametip.liner_sign_cnt_tip = {
 	tip = "남은 출첵 가능 횟수:"
 }
@@ -32910,4 +33041,232 @@ _G.pg.base.gametip.liner_sign_cnt_tip = {
 
 _G.pg.base.gametip.liner_sign_unlock_tip = {
 	tip = "6.6 점검 후 해제"
+}
+
+
+_G.pg.base.gametip.liner_target_type1 = {
+	tip = "휴가 시간"
+}
+
+
+_G.pg.base.gametip.liner_target_type2 = {
+	tip = "자유 탐색"
+}
+
+
+_G.pg.base.gametip.liner_target_type3 = {
+	tip = "신비 사건 조사"
+}
+
+
+_G.pg.base.gametip.liner_target_type4 = {
+	tip = "방으로 복귀한다"
+}
+
+
+_G.pg.base.gametip.liner_target_type5 = {
+	tip = "바캉스가 종료되었습니다."
+}
+
+
+_G.pg.base.gametip.liner_log_schedule_title = {
+	tip = "항해 일지"
+}
+
+
+_G.pg.base.gametip.liner_log_room_title = {
+	tip = "구역 조사 기록"
+}
+
+
+_G.pg.base.gametip.liner_log_event_title = {
+	tip = "신비 사건 조사"
+}
+
+
+_G.pg.base.gametip.liner_schedule_award_tip1 = {
+	tip = "당일 탐색 완료 보상"
+}
+
+
+_G.pg.base.gametip.liner_schedule_award_tip2 = {
+	tip = "당일 탐색 완료 보상"
+}
+
+
+_G.pg.base.gametip.liner_room_award_tip = {
+	tip = "구역 탐색 완료 보상"
+}
+
+
+_G.pg.base.gametip.liner_event_award_tip1 = {
+	tip = "단서가 아직 남아 있습니다. 구역을 탐색하여 단서를 획득하세요!"
+}
+
+
+_G.pg.base.gametip.liner_log_event_group_title1 = {
+	tip = "기록①"
+}
+
+
+_G.pg.base.gametip.liner_log_event_group_title2 = {
+	tip = "기록②"
+}
+
+
+_G.pg.base.gametip.liner_log_event_group_title3 = {
+	tip = "기록③"
+}
+
+
+_G.pg.base.gametip.liner_log_event_group_title4 = {
+	tip = "기록④"
+}
+
+
+_G.pg.base.gametip.liner_event_award_tip2 = {
+	tip = "단서를 모두 수집했습니다."
+}
+
+
+_G.pg.base.gametip.liner_event_reasoning_title = {
+	tip = "신비 사건 조사"
+}
+
+
+_G.pg.base.gametip["7th_main_tip"] = {
+	tip = {
+		{
+			info = [[
+플레이 방법:
+·<color=#92fc63>6.6 ~ 6.27 점검까지</color>탐색형 스토리 이벤트 "휴일! 심쿵! 크루즈!" 진행!
+ ·크루즈선을 탐색하며 항해 일지를 완성하면 보상으로 <color=#92fc63>채팅 테두리</color>, <color=#92fc63>채팅 아이콘</color>, <color=#92fc63>기념장</color> 등 획득 가능
+ ·6.12까지 매일 미니 게임 횟수 1회 추가! 횟수가 남아있는 상태에서 미니 게임 "쥬쥬 배관공"을 클리어하면, SSR 초대장 및 교환 아이템 "휴일 크루즈 기념 티켓", UR 함선 교환 아이템 "심판정 사건 보고서" 획득 가능
+ ·SSR 초대장 아이템은 이벤트의 해당 배너에서 획득 가능. UR 함선은 상점과 해당 배너에서 교환 가능.
+]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.pipe_minigame_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/pipe_minigame"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.pipe_minigame_rank = {
+	tip = "친구와 대함대 멤버에게만 공개"
+}
+
+
+_G.pg.base.gametip.liner_event_award_tip3 = {
+	tip = "단서들을 통해 밝혀낸 사건의 진상은――"
+}
+
+
+_G.pg.base.gametip.liner_room_get_tip = {
+	tip = "탐색 완료: $1"
+}
+
+
+_G.pg.base.gametip.liner_event_get_tip = {
+	tip = "단서 획득: $1"
+}
+
+
+_G.pg.base.gametip.liner_event_lock = {
+	tip = "브리스톨의 조사대 참가 후 오픈"
+}
+
+
+_G.pg.base.gametip.liner_event_title1 = {
+	tip = "단서①"
+}
+
+
+_G.pg.base.gametip.liner_event_title2 = {
+	tip = "단서②"
+}
+
+
+_G.pg.base.gametip.liner_event_title3 = {
+	tip = "단서③"
+}
+
+
+_G.pg.base.gametip.liner_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/2024liner"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.liner_activity_lock = {
+	tip = "「출항하기 전에」 모항 크루즈 클리어 시 오픈"
+}
+
+
+_G.pg.base.gametip.liner_name_modify = {
+	tip = "크루즈 이름 변경에 성공했습니다."
+}
+
+
+_G.pg.base.gametip.UrExchange_Pt_NotEnough = {
+	tip = "Pt 아이템이 부족합니다."
+}
+
+
+_G.pg.base.gametip.UrExchange_Pt_charges = {
+	tip = "(잔여 $1회)"
+}
+
+
+_G.pg.base.gametip.UrExchange_Pt_help = {
+	tip = {
+		{
+			info = "이벤트 배너를 통한 교환 및 이벤트 상점과 동일하게 카운트됩니다.\n총 2회까지 교환할 수 있습니다.\n1회차: 심판정 사건 보고서×200；2회차: 심판정 사건 보고서×300."
+		}
+	}
 }

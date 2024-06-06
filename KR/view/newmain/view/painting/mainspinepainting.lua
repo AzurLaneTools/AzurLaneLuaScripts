@@ -10,7 +10,7 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.GetCenterPos = function(slot0)
-	return slot0.chatTf.parent:InverseTransformPoint(slot0.spTF.position)
+	return slot0.spTF.position
 end
 
 slot0.OnLoad = function(slot0, slot1)
