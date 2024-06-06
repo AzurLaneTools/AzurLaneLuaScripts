@@ -15045,7 +15045,7 @@ _G.pg.base.gametip.mail_tip = {
 2. You can claim your resources from the Storage at any time. 
 
 <color=#92fc63>- Archive -</color>
-1. You can batch move mail to your Archive. When moving mail, any attached items will be automatically claimed. Mail saved in the Archive do not count toward your mailbox total. Any claimed Oil and Coins will be transferred to your Storage. 
+1. You can move mail to your Archive. When moving mail, any attached items will be automatically claimed. Mail saved in the Archive do not count toward your mailbox total. Any claimed Oil and Coins will be transferred to your Storage. 
 2. The capacity of your Archive depends on your Commander Level.]]
 		}
 	}

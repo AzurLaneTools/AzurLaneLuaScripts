@@ -2974,6 +2974,7 @@ pg.memory_template = setmetatable({
 		3643,
 		3644,
 		3651,
+		3661,
 		10011,
 		10012,
 		10013,
@@ -35807,6 +35808,17 @@ pg.base.memory_template = {
 		story = "CUIYUANJIAXIU",
 		id = 3651,
 		icon = "memory_cuiyuanjiaxiu",
+		is_open = 0
+	},
+	[3661] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "A Leisurely Trip to Jade Seas",
+		condition = "Begin \"Invitation to Jade Seas\"",
+		story = "YOURANBIHAIXING",
+		id = 3661,
+		icon = "memory_youranbihaixing",
 		is_open = 0
 	},
 	[10011] = {

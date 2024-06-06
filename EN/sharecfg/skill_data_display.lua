@@ -2851,6 +2851,8 @@ pg.skill_data_display = setmetatable({
 		801221,
 		801222,
 		801223,
+		801261,
+		801262,
 		902201,
 		1010140,
 		1010143,
@@ -14498,6 +14500,14 @@ pg.base.skill_data_display = {
 	[801223] = {
 		id = 801223,
 		name = "Sacrament's Empowering Rite"
+	},
+	[801261] = {
+		id = 801261,
+		name = "Cinders of Hope - Foch"
+	},
+	[801262] = {
+		id = 801262,
+		name = "Cinders of Hope - Foch"
 	},
 	[902201] = {
 		id = 902201,
