@@ -326,6 +326,7 @@ pg.skill_data_template = setmetatable({
 		60570,
 		60580,
 		60590,
+		60600,
 		7000,
 		9030,
 		9031,
@@ -2159,8 +2160,8 @@ pg.skill_data_template = setmetatable({
 		801250,
 		801261,
 		801262,
-		801263,
-		801264,
+		801265,
+		801267,
 		901010,
 		901020,
 		902010,
@@ -12113,6 +12114,20 @@ pg.base.skill_data_template = {
 		max_level = 0,
 		desc = "戦闘中一定周期で謎の音を発する奇怪な装置",
 		id = 60590,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60600] = {
+		desc_get = "",
+		name = "80mm連装九八式高角砲",
+		type = 0,
+		max_level = 0,
+		desc = "前衛艦隊の重桜船が装備している場合、自身の火力が5%アップ。自身が対空攻撃を行った場合、3秒間この火力アップ効果が半分になる",
+		id = 60600,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -139496,13 +139511,13 @@ pg.base.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
-	[801263] = {
+	[801265] = {
 		desc_get = "",
 		name = "焔追の灰-フォッシュⅠ",
 		type = 3,
 		max_level = 1,
 		desc = "【セイレーン作戦】\n自身が主砲攻撃を9回行う度に、特殊弾幕Ⅰを展開する。人型セイレーン艦隊や敵中枢艦隊と交戦する場合、自身が与えるダメージが2%アップ",
-		id = 801263,
+		id = 801265,
 		system_transform = {
 			[51.0] = 801265
 		},
@@ -139512,13 +139527,13 @@ pg.base.skill_data_template = {
 		desc_get_add = {},
 		desc_add = {}
 	},
-	[801264] = {
+	[801267] = {
 		desc_get = "",
 		name = "焔追の灰-フォッシュⅡ",
 		type = 3,
 		max_level = 1,
 		desc = "【セイレーン作戦】\n自身が主砲攻撃を6回行う度に、特殊弾幕Ⅱを展開する。人型セイレーン艦隊や敵中枢艦隊と交戦する場合、自身が与えるダメージが6%アップ",
-		id = 801264,
+		id = 801267,
 		system_transform = {
 			[51.0] = 801267
 		},

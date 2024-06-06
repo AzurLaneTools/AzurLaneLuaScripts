@@ -1,6 +1,221 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_13 = {
+	[407011] = {
+		name = "砂浜のウルズ",
+		id = 407011,
+		desc = "第二の楽章は夏と海のロンドか……まあ良い。来たるべく終焉の前に、卿とともにしばし安寧を享受するのもよかろう",
+		illustrator2 = -1,
+		ship_group = 40701,
+		group_index = 1,
+		prefab = "qibolin_2",
+		painting = "qibolin_2",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 6,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "106",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = 73,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70077,
+		voice_actor = 9,
+		spine_offset = "",
+		illustrator = 21,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			15.34,
+			-36.6,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.19,
+					3.86,
+					0
+				}
+			},
+			plane = {
+				{
+					0.59,
+					3.45,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.68,
+							2.46,
+							-1.85
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			propose = 2.5
+		}
+	},
+	[407020] = {
+		name = "ツェッペリンちゃん",
+		id = 407020,
+		desc = "航空母艦グラーフ・ツェッペリン",
+		illustrator2 = -1,
+		ship_group = 40702,
+		group_index = 0,
+		prefab = "qibolin_younv",
+		painting = "qibolin_younv",
+		hand_id = 5,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = 73,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 9,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			15.34,
+			-36.6,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.96,
+					0.62,
+					0
+				}
+			},
+			plane = {
+				{
+					0.95,
+					0.66,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.55,
+							2.07,
+							-1.85
+						}
+					}
+				}
+			}
+		}
+	},
 	[407030] = {
 		name = "ペーター・シュトラッサー",
 		id = 407030,
@@ -5762,6 +5977,120 @@ pg.base.ship_skin_template_13 = {
 			50105123
 		}
 	},
+	[501052] = {
+		name = "碧海、悠然に誘われて",
+		id = 501052,
+		desc = "ゆらゆらしているサンゴがきれい…海の中の景色がこんなに色鮮やかなんて…気に入ったならいつでも来ていい、ですか？…指揮官さん、ありがとうございます！",
+		illustrator2 = -1,
+		ship_group = 50105,
+		group_index = 2,
+		prefab = "longwu_3",
+		painting = "longwu_3",
+		hand_id = 10,
+		bgm = "story-richang-7 ",
+		shop_type_id = 6,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "173",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 396,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.66,
+					1.05,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.73,
+					1.04,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.67,
+					1.68,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.35,
+							2.27,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[501060] = {
 		name = "虎賁",
 		id = 501060,
@@ -10111,6 +10440,118 @@ pg.base.ship_skin_template_13 = {
 			}
 		}
 	},
+	[502078] = {
+		name = "鸞鳳の契りと成りて",
+		id = 502078,
+		desc = "「髻を結ぶは金鳳の帯、髪を梳くは龍紋の櫛」…お待たせしました、指揮官さん。かつて夢見たこの情景が本当になるなんて…これからも、末永くお傍にいさせてください。で、では、しきたりに従って、次は合卺 (ごうきん)の時間になるかと……///",
+		illustrator2 = -1,
+		ship_group = 50207,
+		group_index = 8,
+		prefab = "haitian_h",
+		painting = "haitian_h",
+		hand_id = 15,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 301,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.195,
+					1.038,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.094,
+					1.023,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.091,
+					1.1,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.487,
+							2.392,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[502080] = {
 		name = "海圻",
 		id = 502080,
@@ -11615,452 +12056,6 @@ pg.base.ship_skin_template_13 = {
 			},
 			{
 				1.416
-			}
-		}
-	},
-	[519010] = {
-		name = "定安",
-		id = 519010,
-		desc = "運送艦・定安",
-		illustrator2 = -1,
-		ship_group = 51901,
-		group_index = 0,
-		prefab = "dingan",
-		painting = "dingan",
-		hand_id = 9,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 353,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.16,
-					1.14,
-					0
-				}
-			},
-			cannon = {
-				{
-					1.04,
-					0.8800001,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.19,
-					1.11,
-					0
-				}
-			},
-			remote = {
-				-50,
-				0,
-				0
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.36,
-							2.36,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[519011] = {
-		name = "白玉柔憐",
-		id = 519011,
-		desc = "こうすればうまくこねられますね……あら？指揮官様？うふふ、見ての通りバオズを作っているところですよ。指揮官様は手伝いに来てくださったのですか…？",
-		illustrator2 = -1,
-		ship_group = 51901,
-		group_index = 1,
-		prefab = "dingan_2",
-		painting = "dingan_2",
-		hand_id = 9,
-		bgm = "",
-		shop_type_id = 3,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "165",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70808,
-		voice_actor = 353,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.117,
-					1.273,
-					0
-				}
-			},
-			cannon = {
-				{
-					1.49,
-					1.11,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.34,
-					1.11,
-					0
-				}
-			},
-			remote = {
-				-50,
-				0,
-				0
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.514,
-							2.328,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[520000] = {
-		name = "导驱type20测试机",
-		id = 520000,
-		desc = "鞍山级驱逐舰1号舰—鞍山，舷号101",
-		illustrator2 = -1,
-		ship_group = 52000,
-		group_index = 0,
-		prefab = "anshan",
-		painting = "anshan",
-		hand_id = 15,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 81,
-		spine_offset = "",
-		illustrator = 1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.02,
-					0.9,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.03,
-					1,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.14,
-					0.07,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.03,
-					0.9,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.32,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[521000] = {
-		name = "导驱type21测试机",
-		id = 521000,
-		desc = "鞍山级驱逐舰1号舰—鞍山，舷号101",
-		illustrator2 = -1,
-		ship_group = 52100,
-		group_index = 0,
-		prefab = "anshan",
-		painting = "anshan",
-		hand_id = 15,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 81,
-		spine_offset = "",
-		illustrator = 1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.02,
-					0.9,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.03,
-					1,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.14,
-					0.07,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.03,
-					0.9,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.32,
-							0
-						}
-					}
-				}
 			}
 		}
 	}

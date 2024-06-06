@@ -1,6 +1,118 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_9 = {
+	[301819] = {
+		name = "霞改",
+		id = 301819,
+		desc = "霞、この姿だと少ししゅっとなっている気がする。ふわりんもそう言ってた",
+		illustrator2 = -1,
+		ship_group = 30181,
+		group_index = 9,
+		prefab = "xia_g",
+		painting = "xia_g",
+		hand_id = 6,
+		bgm = "",
+		shop_type_id = 9997,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 216,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.346,
+					1.001,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.367,
+					1.001,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.002,
+					-0.004,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.338,
+					1.001,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.341,
+							2.547,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301820] = {
 		name = "花月",
 		id = 301820,
@@ -12672,118 +12784,6 @@ pg.base.ship_skin_template_9 = {
 						{
 							-0.31,
 							2.28,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[303170] = {
-		name = "鈴谷",
-		id = 303170,
-		desc = "最上型重巡洋艦三番艦・鈴谷",
-		illustrator2 = -1,
-		ship_group = 30317,
-		group_index = 0,
-		prefab = "linggu",
-		painting = "linggu",
-		hand_id = 2,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 181,
-		spine_offset = "",
-		illustrator = 21,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.16,
-					1.05,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.13,
-					1,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.19,
-					0.1,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.95,
-					0.99,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.45,
-							2.15,
 							0
 						}
 					}

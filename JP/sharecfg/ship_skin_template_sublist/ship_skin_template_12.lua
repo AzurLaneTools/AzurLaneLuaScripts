@@ -1,6 +1,234 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_12 = {
+	[401465] = {
+		name = "終わりなきホコリとの闘争",
+		id = 401465,
+		desc = "見えるだろうかこのホコリ。清掃を任された以上、私は一片たりともホコリの存在を許してはならない。どうかあなたもこの戦いに加勢してくれないだろうか",
+		illustrator2 = -1,
+		ship_group = 40146,
+		group_index = 5,
+		prefab = "z46_6",
+		painting = "z46_6",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 17,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "150",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70637,
+		voice_actor = 60,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.45,
+					1.07,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.34,
+					1.07,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.005,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.33,
+					1.14,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.53,
+							2.38,
+							-1.05
+						}
+					}
+				}
+			}
+		}
+	},
+	[401466] = {
+		name = "バード・ハーメルン",
+		id = 401466,
+		desc = "ん？この笛の音に魅入られてついてきたのか？うむ……私を旅に連れて行く見返りに、あなたの物語を聞かせてほしい",
+		illustrator2 = -1,
+		ship_group = 40146,
+		group_index = 6,
+		prefab = "z46_7",
+		painting = "z46_7",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 24,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "178",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 60,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.45,
+					1.07,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.34,
+					1.07,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.005,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.33,
+					1.14,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.53,
+							2.38,
+							-1.05
+						}
+					}
+				}
+			}
+		}
+	},
 	[401990] = {
 		name = "オットー・フォン・アルフェンスレーベン",
 		id = 401990,
@@ -10745,7 +10973,7 @@ pg.base.ship_skin_template_12 = {
 			4
 		},
 		live2d_offset = {
-			83,
+			34,
 			-85,
 			0
 		},
@@ -12618,221 +12846,6 @@ pg.base.ship_skin_template_12 = {
 						{
 							0.87,
 							0.79,
-							-1.85
-						}
-					}
-				}
-			}
-		}
-	},
-	[407011] = {
-		name = "砂浜のウルズ",
-		id = 407011,
-		desc = "第二の楽章は夏と海のロンドか……まあ良い。来たるべく終焉の前に、卿とともにしばし安寧を享受するのもよかろう",
-		illustrator2 = -1,
-		ship_group = 40701,
-		group_index = 1,
-		prefab = "qibolin_2",
-		painting = "qibolin_2",
-		hand_id = 1,
-		bgm = "",
-		shop_type_id = 6,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "106",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = 73,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70077,
-		voice_actor = 9,
-		spine_offset = "",
-		illustrator = 21,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		tag = {
-			1,
-			2
-		},
-		live2d_offset = {
-			15.34,
-			-36.6,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.19,
-					3.86,
-					0
-				}
-			},
-			plane = {
-				{
-					0.59,
-					3.45,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.68,
-							2.46,
-							-1.85
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_special",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			propose = 2.5
-		}
-	},
-	[407020] = {
-		name = "ツェッペリンちゃん",
-		id = 407020,
-		desc = "航空母艦グラーフ・ツェッペリン",
-		illustrator2 = -1,
-		ship_group = 40702,
-		group_index = 0,
-		prefab = "qibolin_younv",
-		painting = "qibolin_younv",
-		hand_id = 5,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = 73,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 9,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			15.34,
-			-36.6,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.96,
-					0.62,
-					0
-				}
-			},
-			plane = {
-				{
-					0.95,
-					0.66,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.55,
-							2.07,
 							-1.85
 						}
 					}

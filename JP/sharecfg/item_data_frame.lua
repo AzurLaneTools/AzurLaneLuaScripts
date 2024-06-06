@@ -72,15 +72,6 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Sixth　Anniversary！</color>\n　六周年記念イベントで開放可能",
 		scene = {}
 	},
-	[109] = {
-		name = "七周年纪念",
-		gain_by = "",
-		time_second = 0,
-		id = 109,
-		time_limit_type = 0,
-		desc = "<color=#ffffff>献给所有七年间持续奋斗在港区的指挥官们</color>\n通过参与七周年限定活动获取",
-		scene = {}
-	},
 	[201] = {
 		name = "チャレンジャー",
 		gain_by = "",
@@ -711,7 +702,6 @@ pg.item_data_frame = {
 		105,
 		107,
 		108,
-		109,
 		201,
 		202,
 		203,

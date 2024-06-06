@@ -1,6 +1,133 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_8 = {
+	[301162] = {
+		name = "冬のユキカゼ",
+		id = 301162,
+		desc = "はっはっはー！雪風様の麗しい姿に見惚れたのか？むっ、あっちで東煌の子たちが爆竹を鳴らしているのだな…一緒に様子を見に行くのだ！ほら、雪風様の手をしっかり握るのだ！",
+		illustrator2 = -1,
+		ship_group = 30116,
+		group_index = 2,
+		prefab = "xuefeng_3",
+		painting = "xuefeng_3",
+		hand_id = 14,
+		bgm = "",
+		shop_type_id = 3,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "127",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70301,
+		voice_actor = 42,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {
+			1,
+			4
+		},
+		live2d_offset = {
+			-19.9,
+			-52.5,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.12,
+					1.18,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.02,
+					0.049,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.17,
+					1.34,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.52,
+							2.29,
+							-0.16
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			mail = 0.3,
+			expedition = 0.3,
+			mission_complete = 0.26,
+			touch2 = 0.33
+		}
+	},
 	[301168] = {
 		name = "ポカポカ春模様",
 		id = 301168,
@@ -12140,118 +12267,6 @@ pg.base.ship_skin_template_8 = {
 						{
 							-0.417,
 							2.504,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301819] = {
-		name = "霞改",
-		id = 301819,
-		desc = "霞、この姿だと少ししゅっとなっている気がする。ふわりんもそう言ってた",
-		illustrator2 = -1,
-		ship_group = 30181,
-		group_index = 9,
-		prefab = "xia_g",
-		painting = "xia_g",
-		hand_id = 6,
-		bgm = "",
-		shop_type_id = 9997,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 2,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 216,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.346,
-					1.001,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.367,
-					1.001,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.002,
-					-0.004,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.338,
-					1.001,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.341,
-							2.547,
 							0
 						}
 					}

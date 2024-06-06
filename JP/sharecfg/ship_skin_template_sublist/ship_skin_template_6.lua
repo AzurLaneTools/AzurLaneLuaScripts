@@ -1,6 +1,118 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_6 = {
+	[202300] = {
+		name = "カリブディス",
+		id = 202300,
+		desc = "ダイドー級軽巡洋艦・カリブディス（HMS Charybdis）",
+		illustrator2 = -1,
+		ship_group = 20230,
+		group_index = 0,
+		prefab = "kalvbudisi",
+		painting = "kalvbudisi",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 303,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.108,
+					0.998,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.063,
+					1.013,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.01,
+					1.022,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.413,
+							2.335,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[202301] = {
 		name = "癒やしの紅閨",
 		id = 202301,
@@ -9861,15 +9973,19 @@ pg.base.ship_skin_template_6 = {
 		time = "",
 		l2d_para_range = "",
 		lip_sync_gain = 0,
-		live2d_offset_profile = "",
 		show_skin = "stand",
 		tag = {
 			1,
 			2
 		},
 		live2d_offset = {
-			110,
+			0,
 			25,
+			0
+		},
+		live2d_offset_profile = {
+			76,
+			0,
 			0
 		},
 		fx_container = {
@@ -12674,120 +12790,6 @@ pg.base.ship_skin_template_6 = {
 						{
 							-0.481,
 							2.325,
-							-0.55
-						}
-					}
-				}
-			}
-		}
-	},
-	[206052] = {
-		name = "ゲーマースタイル",
-		id = 206052,
-		desc = "よし！実績ゲット！…あら？指揮官、ご機嫌よう。わたくしのこの格好がそんなに珍しいの？ふふ、こう見えてもユニオン出身、エンターテイメントももちろん心得ていることよ♪",
-		illustrator2 = -1,
-		ship_group = 20605,
-		group_index = 2,
-		prefab = "zhuiganzhe_3",
-		painting = "zhuiganzhe_3",
-		hand_id = 1,
-		bgm = "",
-		shop_type_id = 9,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "105",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70197,
-		voice_actor = 165,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			80,
-			-120,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.28,
-					1.19,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.012,
-					1.146,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.022,
-					0.046,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.014,
-					1.166,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.498,
-							2.586,
 							-0.55
 						}
 					}

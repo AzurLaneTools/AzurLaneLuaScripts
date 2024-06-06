@@ -1,6 +1,134 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_2 = {
+	[102040] = {
+		name = "フェニックス",
+		id = 102040,
+		desc = "ブルックリン級巡洋艦・フェニックス（CL-46）",
+		illustrator2 = -1,
+		ship_group = 10204,
+		group_index = 0,
+		prefab = "feinikesi",
+		painting = "feinikesi",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 64,
+		spine_offset = "",
+		illustrator = 7,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.32,
+					0.833,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.32,
+					0.833,
+					0
+				},
+				{
+					0.068,
+					0.683,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.897,
+					0.902,
+					0
+				},
+				{
+					-0.546,
+					0.902,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.54,
+							0.43,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.06,
+							0.59,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[102050] = {
 		name = "ヘレナ",
 		id = 102050,
@@ -12348,113 +12476,6 @@ pg.base.ship_skin_template_2 = {
 						{
 							-0.6,
 							2.33,
-							0.14
-						}
-					}
-				}
-			}
-		}
-	},
-	[103133] = {
-		name = "聖夜のモービルドライブ",
-		id = 103133,
-		desc = "メリークリスマス、指揮官！いまの私はサンタクロース！そして、こいつが一緒にプレゼントを配る相棒だ！そうだ、これお前のプレゼント、ほらよっ！",
-		illustrator2 = -1,
-		ship_group = 10313,
-		group_index = 3,
-		prefab = "mingniabolisi_4",
-		painting = "mingniabolisi_4",
-		hand_id = 16,
-		bgm = "",
-		shop_type_id = 1,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "125",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70453,
-		voice_actor = 153,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.112,
-					0.987,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.153,
-					0.994,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.492,
 							0.14
 						}
 					}

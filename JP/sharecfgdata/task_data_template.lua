@@ -99001,6 +99001,584 @@ _G.pg.base.task_data_template[20191] = {
 }
 
 
+_G.pg.base.task_data_template[20192] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902487,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『悠然碧海行』七日任务1",
+	desc = "艦隊を出撃させ、10回S評価で勝利せよ！",
+	sub_type = 24,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20192,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20193] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902488,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『悠然碧海行』七日任务2",
+	desc = "ゲームにログインせよ！",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20193,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20194] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902489,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『悠然碧海行』七日任务3",
+	desc = "演習を2回行う",
+	sub_type = 27,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20194,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20195] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902490,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『悠然碧海行』七日任务4",
+	desc = "「軍事委託」を2回遂行する",
+	sub_type = 80,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20195,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20196] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902491,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『悠然碧海行』七日任务5",
+	desc = "艦を2隻「退役」して、艦隊を再編せよ！",
+	sub_type = 31,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20196,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20197] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902492,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『悠然碧海行』七日任务6",
+	desc = "「デイリーチャレンジ」を三回行う ",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20197,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20198] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902493,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『悠然碧海行』七日任务7",
+	desc = "艦を5回強化する",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20198,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20199] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902494,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『悠然碧海行』七日任务8",
+	desc = "戦術教室で戦術訓練を2回行う",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20199,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20200] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902495,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『悠然碧海行』七日任务9",
+	desc = "任意の敵艦を20隻撃破する",
+	sub_type = 11,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20200,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20201] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902496,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『悠然碧海行』七日任务10",
+	desc = "寮舎で食糧を5回補充する",
+	sub_type = 61,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20201,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20202] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902497,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『悠然碧海行』七日任务11",
+	desc = "艦を2隻「建造」せよ！",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20202,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20203] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902498,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『悠然碧海行』七日任务12",
+	desc = "装備箱を1個開ける",
+	sub_type = 50,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20203,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20204] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902499,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『悠然碧海行』七日任务13",
+	desc = "戦術教室で戦術訓練を2回遂行せよ！",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20204,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20205] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902500,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『悠然碧海行』七日任务14",
+	desc = "艦隊を出撃させ、敵中枢艦隊を3回撃破せよ！",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20205,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			7,
+			501052,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
 _G.pg.base.task_data_template[30201] = {
 	target_id_2 = "",
 	guild_coin_award = 0,
