@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"西南风，全速前进！\n\n<size=45>六　西南风的真实目的</size>",
+					"西南風，全速前進！\n\n<size=45>西南風的真實目的</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "此后某日的指挥室",
+			say = "此後某日的指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			bgmDelay = 2,
@@ -51,7 +51,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，这边的文件都整理好了，你只需要确认后签字就好了。",
+			say = "指揮官，這邊的文件都整理好了，你只要確認後簽字就好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -68,7 +68,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "废弃文件也用碎纸机处理完毕了！",
+			say = "廢棄文件也用碎紙機處理完畢了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "原本以为西南风想要做秘书舰是闹着玩的，不过现在她已经用实际行动证明了自己。",
+			say = "原本以為西南風想要當秘書艦是鬧著玩的，不過現在她已經用實際行動證明了自己。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,14 +100,14 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "对于这样的西南风果然还是夸奖一下吧。",
+			say = "對於這樣的西南風果然還是誇獎一下吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "夸奖西南风",
+					content = "誇獎西南風",
 					flag = 1
 				}
 			}
@@ -120,7 +120,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿嘿，一开始我也没想到能够这么顺利啦……",
+			say = "嘿嘿嘿，一開始我也沒想到能夠這麼順利啦……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其实来找指挥官的时候我还是有小心思的，还好指挥官当时没问我想要当秘书舰的理由~！",
+			say = "其實來找指揮官的時候我還是有小心思的，還好指揮官當時沒問我想要當秘書艦的理由~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,7 +149,7 @@ return {
 			},
 			options = {
 				{
-					content = "西南风为什么想要当秘书舰呢？",
+					content = "西南風為什麼想要當秘書艦呢？",
 					flag = 1
 				}
 			}
@@ -162,7 +162,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼~因为秘书舰是和指挥官接触最多的人，所以西南风才想当秘书舰！",
+			say = "哼哼~因為秘書艦是和指揮官接觸最多的人，所以西南風才想當秘書艦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官每天都要工作，虽然西北风姐姐有帮我列出指挥官有空的时间，但是指挥官即使不在工作时间也经常有各种各样要处理的事！",
+			say = "指揮官每天都要工作，雖然西北風姐姐有幫我列出指揮官有空的時間，但是指揮官即使不在工作時間也經常有各種各樣要處理的事！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以我就想着能够成为秘书舰的话就能每天正大光明和指挥官待在一块啦！",
+			say = "所以我就想著能夠成為秘書艦的話就能每天正大光明和指揮官待在一起啦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而且当秘书舰和港区的同伴多多接触的话还能帮西北风姐姐交到朋友！",
+			say = "而且當秘書艦和港區的同伴多多接觸的話還能幫西北風姐姐交到朋友！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "简直就是一举两得的好事情呢！",
+			say = "簡直就是一舉兩得的好事情呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过也快要到换班的时候了，如果不做秘书舰的话就没有这么多和指挥官在一起的机会了……",
+			say = "不過也快要到換班的時候了，如果不做秘書艦的話就沒有這麼多和指揮官在一起的機會了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +275,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "说着说着西南风的情绪低落了起来，头也低了下去。",
+			say = "說著說著西南風的情緒低落了起來，頭也低了下去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "如果不考虑秘书舰的工作内容的话，确实是这样没有错。",
+			say = "如果不考慮秘書艦的工作內容的話，確實是這樣沒有錯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,14 +293,14 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "但实际上秘书舰的工作并不算是很轻松，西南风能坚持下来真是了不起。",
+			say = "但其實秘書艦的工作不算很輕鬆，西南風能撐下來真是了不起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "摸摸西南风的头——",
+					content = "摸摸西南風的頭——",
 					flag = 1
 				}
 			}
@@ -313,7 +313,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官？",
+			say = "指揮官？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "就算不再担任秘书舰了，也可以抽时间一起玩。",
+			say = "就算不再擔任秘書艦了，也可以抽空一起玩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真的吗？",
+			say = "真的嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "也会和你一起帮西北风交朋友。",
+			say = "也會和妳一起幫西北風交朋友。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那我们拉钩？",
+			say = "那我們打勾勾？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,14 +389,14 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "西南风伸出了小指。",
+			say = "西南風伸出了小指。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "拉钩上吊一百年不许变。",
+					content = "打勾上吊一百年不許變。",
 					flag = 1
 				}
 			}
@@ -409,7 +409,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一百年不许变~",
+			say = "一百年不許變~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +423,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			blackBg = true,
-			say = "二人小指拉钩，大拇指印在了一起。",
+			say = "二人小指打勾勾，大拇指印在了一起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

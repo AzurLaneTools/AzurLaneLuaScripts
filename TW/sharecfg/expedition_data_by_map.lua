@@ -28,6 +28,7 @@ pg.expedition_data_by_map = setmetatable({
 		210,
 		211,
 		212,
+		213,
 		10000,
 		70000,
 		90000,
@@ -1156,7 +1157,7 @@ pg.base.expedition_data_by_map = {
 		bg = "Map_12",
 		destory_icon_suffix = "blue",
 		uifx = "",
-		bind_map = 0,
+		bind_map = 213,
 		clouds_pos = {
 			{
 				332,
@@ -1751,6 +1752,50 @@ pg.base.expedition_data_by_map = {
 				-465
 			}
 		}
+	},
+	[213] = {
+		map = 213,
+		name = "馬里亞納風雲下",
+		bgm = "level",
+		type = 2,
+		anchor = "",
+		title = "13",
+		level_limit = 80,
+		enter_story = "",
+		animtor = 0,
+		guide_id = "",
+		ani_name = "",
+		ani_controller = "",
+		cloud_suffix = "white",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_212",
+		destory_icon_suffix = "blue",
+		uifx = "UIhuohua2",
+		bind_map = 13,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		drop_by_map_display = {}
 	},
 	[10000] = {
 		map = 10000,
@@ -7457,7 +7502,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "",
 		ani_controller = "",
 		cloud_suffix = "",
-		on_activity = 40442,
+		on_activity = 4429,
 		ui_type = 1,
 		bg = "Map_1360001",
 		destory_icon_suffix = "blue",

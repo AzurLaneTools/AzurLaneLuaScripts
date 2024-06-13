@@ -13780,6 +13780,328 @@ _G.pg.base.spweapon_data_statistics[12290] = {
 }
 
 
+_G.pg.base.spweapon_data_statistics[12400] = {
+	attribute_1 = "air",
+	name = "於碧海晴空下閃耀",
+	type = 7,
+	tech = 0,
+	value_1_random = 10,
+	rarity = 4,
+	effect_id_display = 902060,
+	value_2_random = 5,
+	effect_id = 902060,
+	attribute_2 = "reload",
+	next = 12401,
+	upgrade_id = 101,
+	value_2 = 4,
+	icon = "12400",
+	value_1 = 20,
+	level = 1,
+	descrip = "由特殊兵裝核心製造出來的專屬特製兵裝",
+	uncraftable = 0,
+	unique = 20704,
+	important = 2,
+	prev = 0,
+	id = 12400,
+	usability = {
+		7
+	},
+	skill_upgrade = {
+		{
+			0,
+			1011120
+		}
+	},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[12401] = {
+	upgrade_id = 102,
+	prev = 12400,
+	next = 12402,
+	base = 12400,
+	id = 12401,
+	value_2 = 5,
+	value_1 = 21,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[12402] = {
+	upgrade_id = 103,
+	prev = 12401,
+	next = 12403,
+	base = 12400,
+	id = 12402,
+	value_2 = 5,
+	value_1 = 22,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[12403] = {
+	upgrade_id = 104,
+	prev = 12402,
+	next = 12404,
+	base = 12400,
+	id = 12403,
+	value_2 = 6,
+	value_1 = 23,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[12404] = {
+	upgrade_id = 105,
+	prev = 12403,
+	next = 12405,
+	base = 12400,
+	id = 12404,
+	value_2 = 6,
+	value_1 = 24,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[12405] = {
+	upgrade_id = 106,
+	prev = 12404,
+	next = 12406,
+	base = 12400,
+	id = 12405,
+	value_2 = 7,
+	value_1 = 25,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[12406] = {
+	upgrade_id = 107,
+	prev = 12405,
+	next = 12407,
+	base = 12400,
+	id = 12406,
+	value_2 = 7,
+	value_1 = 26,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[12407] = {
+	upgrade_id = 108,
+	prev = 12406,
+	next = 12408,
+	base = 12400,
+	id = 12407,
+	value_2 = 8,
+	value_1 = 27,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[12408] = {
+	upgrade_id = 109,
+	prev = 12407,
+	next = 12409,
+	base = 12400,
+	id = 12408,
+	value_2 = 8,
+	value_1 = 28,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[12409] = {
+	upgrade_id = 110,
+	prev = 12408,
+	next = 12410,
+	base = 12400,
+	id = 12409,
+	value_2 = 9,
+	value_1 = 29,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[12410] = {
+	id = 12410,
+	upgrade_id = 111,
+	base = 12400,
+	next = 0,
+	prev = 12409,
+	value_2 = 10,
+	value_1 = 30,
+	level = 11,
+	skill_upgrade = {
+		{
+			11120,
+			1011120
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[12420] = {
+	attribute_1 = "cannon",
+	name = "除厄七五三",
+	type = 6,
+	tech = 0,
+	value_1_random = 10,
+	rarity = 4,
+	effect_id_display = 902030,
+	value_2_random = 5,
+	effect_id = 902030,
+	attribute_2 = "hit",
+	next = 12421,
+	upgrade_id = 101,
+	value_2 = 4,
+	icon = "12420",
+	value_1 = 13,
+	level = 1,
+	descrip = "由特殊兵裝核心製造出來的專屬特製兵裝",
+	uncraftable = 0,
+	unique = 30501,
+	important = 2,
+	prev = 0,
+	id = 12420,
+	usability = {
+		5,
+		10
+	},
+	skill_upgrade = {
+		{
+			0,
+			1090180
+		}
+	},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[12421] = {
+	upgrade_id = 102,
+	prev = 12420,
+	next = 12422,
+	base = 12420,
+	id = 12421,
+	value_1 = 14,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[12422] = {
+	upgrade_id = 103,
+	prev = 12421,
+	next = 12423,
+	base = 12420,
+	id = 12422,
+	value_1 = 15,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[12423] = {
+	upgrade_id = 104,
+	prev = 12422,
+	next = 12424,
+	base = 12420,
+	id = 12423,
+	value_1 = 16,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[12424] = {
+	upgrade_id = 105,
+	prev = 12423,
+	next = 12425,
+	base = 12420,
+	id = 12424,
+	value_2 = 5,
+	value_1 = 17,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[12425] = {
+	upgrade_id = 106,
+	prev = 12424,
+	next = 12426,
+	base = 12420,
+	id = 12425,
+	value_2 = 5,
+	value_1 = 18,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[12426] = {
+	upgrade_id = 107,
+	prev = 12425,
+	next = 12427,
+	base = 12420,
+	id = 12426,
+	value_2 = 5,
+	value_1 = 19,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[12427] = {
+	upgrade_id = 108,
+	prev = 12426,
+	next = 12428,
+	base = 12420,
+	id = 12427,
+	value_2 = 5,
+	value_1 = 20,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[12428] = {
+	upgrade_id = 109,
+	prev = 12427,
+	next = 12429,
+	base = 12420,
+	id = 12428,
+	value_2 = 6,
+	value_1 = 21,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[12429] = {
+	upgrade_id = 110,
+	prev = 12428,
+	next = 12430,
+	base = 12420,
+	id = 12429,
+	value_2 = 6,
+	value_1 = 23,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[12430] = {
+	id = 12430,
+	upgrade_id = 111,
+	base = 12420,
+	next = 0,
+	prev = 12429,
+	value_2 = 6,
+	value_1 = 25,
+	level = 11,
+	skill_upgrade = {
+		{
+			2071,
+			1090180
+		}
+	}
+}
+
+
 _G.pg.base.spweapon_data_statistics[12580] = {
 	attribute_1 = "cannon",
 	name = "雙刀・兩舷繚閃",

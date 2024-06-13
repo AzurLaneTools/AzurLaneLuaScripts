@@ -1,12 +1,12 @@
 pg = pg or {}
 pg.activity_link_button = {
 	{
-		param = "4853",
+		param = "4685",
 		name = "event_all",
-		text_pic = "text_event_all",
 		type = 3,
+		text_pic = "text_event_all",
 		pic = "event_all",
-		id = 1,
+		["王"] = 1,
 		group_id = 1,
 		order = 1,
 		time = {
@@ -14,8 +14,8 @@ pg.activity_link_button = {
 			{
 				{
 					2024,
-					5,
-					23
+					6,
+					13
 				},
 				{
 					0,
@@ -27,7 +27,7 @@ pg.activity_link_button = {
 				{
 					2024,
 					6,
-					13
+					27
 				},
 				{
 					23,
@@ -41,10 +41,10 @@ pg.activity_link_button = {
 		param = "0",
 		name = "event_all",
 		time = "stop",
-		text_pic = "text_event_all",
 		type = 3,
+		text_pic = "text_event_all",
 		pic = "event_all_1",
-		id = 2,
+		["王"] = 2,
 		group_id = 1,
 		order = 2
 	},
@@ -52,20 +52,20 @@ pg.activity_link_button = {
 		param = "0",
 		name = "event_all",
 		time = "always",
-		text_pic = "text_event_all",
 		type = 3,
+		text_pic = "text_event_all",
 		pic = "event_all_default",
-		id = 9,
+		["王"] = 9,
 		group_id = 1,
 		order = 99
 	},
 	[10] = {
 		param = "0",
 		name = "event_map",
-		text_pic = "text_event_map",
 		type = 0,
+		text_pic = "text_event_map",
 		pic = "event_map",
-		id = 10,
+		["王"] = 10,
 		group_id = 2,
 		order = 1,
 		time = {
@@ -74,10 +74,10 @@ pg.activity_link_button = {
 	},
 	[20] = {
 		name = "event_minigame",
-		text_pic = "text_event_minigame",
 		type = 2,
+		text_pic = "text_event_minigame",
 		pic = "event_minigame",
-		id = 20,
+		["王"] = 20,
 		group_id = 5,
 		order = 1,
 		time = {
@@ -91,10 +91,10 @@ pg.activity_link_button = {
 	[30] = {
 		param = "0",
 		name = "event_boss",
-		text_pic = "text_event_boss",
 		type = 0,
+		text_pic = "text_event_boss",
 		pic = "event_boss",
-		id = 30,
+		["王"] = 30,
 		group_id = 3,
 		order = 1,
 		time = {
@@ -104,10 +104,10 @@ pg.activity_link_button = {
 	[40] = {
 		param = "0",
 		name = "event_escort",
-		text_pic = "text_event_escort",
 		type = 0,
+		text_pic = "text_event_escort",
 		pic = "event_escort",
-		id = 40,
+		["王"] = 40,
 		group_id = 6,
 		order = 1,
 		time = {
@@ -117,10 +117,10 @@ pg.activity_link_button = {
 	[60] = {
 		param = "0",
 		name = "event_LanternFestival",
-		text_pic = "text_event_LanternFestival",
 		type = 0,
+		text_pic = "text_event_LanternFestival",
 		pic = "event_LanternFestival",
-		id = 60,
+		["王"] = 60,
 		group_id = 7,
 		order = 1,
 		time = {
@@ -131,10 +131,10 @@ pg.activity_link_button = {
 	[70] = {
 		param = "0",
 		name = "event_aprilFool",
-		text_pic = "text_event_aprilFool",
 		type = 0,
+		text_pic = "text_event_aprilFool",
 		pic = "event_aprilFool",
-		id = 70,
+		["王"] = 70,
 		group_id = 8,
 		order = 1,
 		time = {
@@ -144,10 +144,10 @@ pg.activity_link_button = {
 	},
 	[80] = {
 		name = "event_Atelier",
-		text_pic = "text_event_Atelier",
 		type = 2,
+		text_pic = "text_event_Atelier",
 		pic = "event_Atelier",
-		id = 80,
+		["王"] = 80,
 		group_id = 9,
 		order = 1,
 		time = {
@@ -161,10 +161,10 @@ pg.activity_link_button = {
 	[1000] = {
 		name = "event_minigame",
 		time = "stop",
-		text_pic = "text_event_minigame",
 		type = 7,
+		text_pic = "text_event_minigame",
 		pic = "event_minigame",
-		id = 1000,
+		["王"] = 1000,
 		group_id = 5,
 		order = 1,
 		param = {
@@ -174,10 +174,10 @@ pg.activity_link_button = {
 	[90] = {
 		param = "0",
 		name = "event_series",
-		text_pic = "text_event_series",
 		type = 0,
+		text_pic = "text_event_series",
 		pic = "event_series",
-		id = 90,
+		["王"] = 90,
 		group_id = 4,
 		order = 1,
 		time = {
@@ -186,10 +186,10 @@ pg.activity_link_button = {
 	},
 	[100] = {
 		name = "event_medal",
-		text_pic = "text_event_medal",
 		type = 2,
+		text_pic = "text_event_medal",
 		pic = "event_medal",
-		id = 100,
+		["王"] = 100,
 		group_id = 10,
 		order = 1,
 		time = {
@@ -202,10 +202,10 @@ pg.activity_link_button = {
 	},
 	[101] = {
 		name = "event_senran",
-		text_pic = "text_event_senran",
 		type = 2,
+		text_pic = "text_event_senran",
 		pic = "event_senran",
-		id = 101,
+		["王"] = 101,
 		group_id = 100,
 		order = 1,
 		time = {
@@ -220,10 +220,10 @@ pg.activity_link_button = {
 		param = "0",
 		name = "event_boss_single",
 		time = "stop",
-		text_pic = "text_event_anotherWorld",
 		type = 0,
+		text_pic = "text_event_anotherWorld",
 		pic = "event_map",
-		id = 102,
+		["王"] = 102,
 		group_id = 4,
 		order = 1
 	},

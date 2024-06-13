@@ -361,37 +361,11 @@ pg.login = {
 	},
 	[28] = {
 		op_play = 1,
+		date = "stop",
 		id = 28,
 		login_static = "login",
 		login_cri = "",
 		bgm = "story-musicanniversary-gorgeous",
-		date = {
-			"timer",
-			{
-				{
-					2024,
-					5,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					6,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		op_time = {
 			{
 				{

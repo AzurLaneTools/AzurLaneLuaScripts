@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"西南风，全速前进！\n\n<size=45>七　西南风继续前行</size>",
+					"西南風，全速前進！\n\n<size=45>西南風繼續前行</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "港区·广场",
+			say = "港區·廣場",
 			side = 2,
 			bgName = "star_level_bg_113",
 			bgmDelay = 2,
@@ -47,7 +47,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "今天是西南风担任秘书舰的最后一天，目前正在从码头返回指挥室的路上。",
+			say = "今天是西南風擔任秘書艦的最後一天，目前正在從碼頭返回指揮室的路上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不知不觉就是最后一天了呢，明天就可以稍微偷个懒了~",
+			say = "不知不覺就是最後一天了呢，明天就可以稍微偷個懶了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿嘿，跟指挥官在一起是很开心啦，但是秘书舰的工作也确实辛苦。",
+			say = "嘿嘿嘿，跟指揮官在一起是很開心啦，但是秘書艦的工作也確實辛苦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一直工作也难免会想要休息一下的吧？指挥官难道不想偷个懒吗？",
+			say = "一直工作也難免會想休息一下的吧？指揮官不想偷個懶嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "这个嘛————",
+			say = "這個嘛————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是吧是吧！所以和西南风一起玩吧~！",
+			say = "是吧是吧！所以和西南風一起玩吧~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜啊…………不愧是指挥官！！！",
+			say = "嗚啊…………不愧是指揮官！！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦那边的是西北风姐姐她们吗？",
+			say = "咦那邊的是西北風姐姐她們嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_113",
-			say = "顺着西南风手指的方向看过去，果然看到了西北风拉菲{namecode:6}还有{namecode:408}四个人结伴而行。",
+			say = "順著西南風手指的方向看過去，果然看到了西北風拉菲綾波還有Z23四個人結伴而行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			actor = 601040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊！指挥官还有西南风，下、下午好！",
+			say = "啊！指揮官還有西南風，下、下午好！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			actor = 301050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "下午好…的说。",
+			say = "下午好……的說。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			actor = 401230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "两位下午好。",
+			say = "兩位下午好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			actor = 101170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "下午好......指挥官和西南风也是一起去茶会的么？",
+			say = "下午好……指揮官和西南風也是一起去茶會的嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			actor = 401230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "别犯困啦拉菲！指挥官和西南风还在工作中呢！",
+			say = "別犯睏啦拉菲！指揮官和西南風還在工作中呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			actor = 101170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就下一次……",
+			say = "那就下次……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们是要去参加茶会吗？",
+			say = "妳們是要去參加茶會嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			actor = 401230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是啊，标枪邀请我们一起去参加皇家的茶会呢。",
+			say = "是啊，標槍邀請我們一起去參加皇家的茶會呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样呀，那么就祝大家跟西北风姐姐一起度过一个愉快的下午吧~",
+			say = "這樣呀，那就祝大家跟西北風姐姐一起度過一個愉快的下午吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			actor = 601040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谢、谢谢你西南风……",
+			say = "謝、謝謝妳西南風……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +396,7 @@ return {
 		{
 			bgName = "bg_story_task",
 			side = 2,
-			say = "不久后的指挥室",
+			say = "不久後的指揮室",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -427,7 +427,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼，西南风的秘书舰作战大成功！",
+			say = "哼哼，西南風的秘書艦作戰大成功！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不仅好好完成了工作还帮西北风姐姐交到了朋友，西南风很棒对吧？",
+			say = "不只好好完成了工作還幫西北風姊姊交到了朋友，西南風很棒對吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,11 +456,11 @@ return {
 			},
 			options = {
 				{
-					content = "西南风真棒！",
+					content = "西南風真棒！",
 					flag = 1
 				},
 				{
-					content = "西南风了不起！",
+					content = "西南風了不起！",
 					flag = 2
 				}
 			}
@@ -473,7 +473,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿嘿，我去给指挥官倒茶~",
+			say = "嘿嘿嘿，我去幫指揮官倒茶~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是最后一杯了呢，要好好珍惜哦指挥官！",
+			say = "這是最後一杯了呢，要好好珍惜指揮官！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,7 +504,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "西南风的秘书舰工作即将告一段落。尽管有些不舍，不过西南风有所成长才是最重要的。",
+			say = "西南風的秘書艦工作即將告一段落。儘管有些不捨，不過西南風有所成長才是最重要的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜哇哇！莫非我搞错了？！指挥官对不起！",
+			say = "嗚哇哇！莫非我搞錯了？！指揮官對不起！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官等一下！我先把帽子脱下来——西南风的头给你摸，指挥官就原谅我吧~",
+			say = "指揮官等一下！我先把帽子脫下來——西南風的頭給你摸，指揮官就原諒我吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -565,7 +565,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			blackBg = true,
-			say = "嗯，结论下太早了……看起来西南风还是有不少成长的空间呢————",
+			say = "嗯，結論下太早了……看起來西南風還是有不少成長的空間呢————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

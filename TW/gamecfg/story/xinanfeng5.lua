@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"西南风，全速前进！\n\n<size=45>五　交友对象的选择</size>",
+					"西南風，全速前進！\n\n<size=45>交友對象的選擇</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "虽然知道西南风的性格非常容易相处，不过没想到她已经跟这么多人都搞好关系了。",
+			say = "雖然知道西南風的個性非常容易相處，但沒想到她已經跟這麼多人搞好關係了。",
 			side = 2,
 			bgName = "bg_story_task",
 			bgmDelay = 2,
@@ -52,7 +52,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "毕竟是秘书舰嘛！接触多了自然就成为要好的朋友了~",
+			say = "畢竟是秘書艦嘛！接觸多了自然就成為要好的朋友了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就是…如果西北风姐姐也可以和大家交上朋友就好了呢。",
+			say = "就是……如果西北風姊姊也可以跟大家交上朋友就好了呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,11 +81,11 @@ return {
 			},
 			options = {
 				{
-					content = "西北风那样的性格——",
+					content = "西北風那樣的性格——",
 					flag = 1
 				},
 				{
-					content = "西北风遇到什么困难了么？",
+					content = "西北風遇到什麼困難了？",
 					flag = 2
 				}
 			}
@@ -99,7 +99,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是呀……西北风姐姐有些时候想的有点多呢。",
+			say = "是呀……西北風姐姐有些時候想的有點多呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -118,7 +118,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……与其说是遇到困难，不如说是连第一步都还没迈出去……",
+			say = "嗯……與其說是遇到困難，不如說是連第一步都還沒走出去……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大家其实都很好相处呢……西北风姐姐只是缺少一个契机。",
+			say = "大家其實都很好相處呢……西北風姐姐只是缺少一個契機。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "于是乎就轮到我出场啦！",
+			say = "於是乎就輪到我出場啦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我打算帮西北风姐姐介绍几个朋友——指挥官你觉得怎么样！？",
+			say = "我打算幫西北風姐姐介紹幾個朋友——指揮官你覺得怎麼樣！？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +204,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿~{namecode:408}认真负责有主见，是个非常非常可靠的人呢！西南风也请教过她很多问题！",
+			say = "嘿嘿~Z23認真負責有主見，是個非常非常可靠的人呢！西南風也請教過她很多問題！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "确实，{namecode:408}是个认真可靠的人，应该会跟认真的西南风有共同话题。",
+			say = "確實，Z23是個認真可靠的人，應該會跟認真的西南風有共同話題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "拉菲的话……和拉菲在一起的时候感到很惬意，让人不由自主就放松下来了呢~",
+			say = "拉菲的話……和拉菲在一起的時候感到很愜意，讓人不由自主就放鬆下來了呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而且在拉菲挑选的地方午睡非常舒服！",
+			say = "而且在拉菲挑選的地方午睡非常舒服！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "嗯……和拉菲一起的话，就算是西北风也能放松下来吧。",
+			say = "嗯……和拉菲一起的話，就算是西北風也能放鬆下來吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:6}打游戏特别厉害！而且也有耐心，我很喜欢和她一起玩游戏。",
+			say = "綾波打遊戲特別厲害！而且也有耐心，我很喜歡跟她玩遊戲。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果是和{namecode:6}一起玩游戏的话，西北风姐姐肯定也能顺利融入的！",
+			say = "如果是跟綾波玩遊戲的話，西北風姊姊一定也能順利融入的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,7 +317,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "嗯，游戏好友的话，选{namecode:6}肯定没有错。",
+			say = "嗯，遊戲好友的話，選綾波肯定沒有錯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "标枪活泼开朗而且善解人意，也是非常好相处的人呢。",
+			say = "標槍活潑開朗又善解人意，也是非常好相處的人呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "而且总是充满活力，只要跟她呆一会心情就会变好。",
+			say = "而且總是充滿活力，只要跟她待一陣子心情就會變好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错没错！看来指挥官也深有同感呢！",
+			say = "沒錯沒錯！看來指揮官也深有同感呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔......大家都很好，一时间不知道该介绍谁给西北风姐姐认识了欸……",
+			say = "嗯……大家都很好，一時間不知道該介紹誰給西北風姐姐認識了欸……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -404,7 +404,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官你觉得介绍谁比较好呢？",
+			say = "指揮官你覺得介紹誰比較好呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "交朋友并不是单选题，不如一起介绍吧？",
+			say = "交朋友不是單選題，不如一起介紹吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸？全部吗？！好像确实可行！",
+			say = "欸？全部嗎？！好像確實可行！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我明白了，非常感谢指挥官的建议！接下来我会找大家约个时间的！",
+			say = "我明白了，非常感謝指揮官的建議！接下來我會找大家約個時間的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -463,7 +463,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			blackBg = true,
-			say = "要是西北风能够顺利和她们交上朋友就太好了——",
+			say = "要是西北風能夠順利和她們交上朋友就太好了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

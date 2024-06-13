@@ -11,13 +11,13 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"西南风，全速前进！\n\n<size=45>二　失误连连的秘书舰</size>",
+					"西南風，全速前進！\n\n<size=45>失誤連連的秘書艦</size>",
 					1
 				}
 			}
 		},
 		{
-			say = "第二天的指挥室",
+			say = "第二天的指揮室",
 			side = 2,
 			bgName = "bg_story_task",
 			bgmDelay = 2,
@@ -52,7 +52,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Ciao……咳咳，早安，指挥官。",
+			say = "Ciao……咳咳，早安，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "原本想要扬手问候的西南风忽然改为了行提裙礼，或许这也是注意事项的一部分吧。",
+			say = "原本想要揚手問候的西南風忽然改為了行提裙禮，或許這也是注意事項的一部分吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（双手微提裙摆，再开始自我介绍。）",
+			say = "（雙手微提裙擺，再開始自我介紹。）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "撒丁帝国所属驱逐舰，西南风，向指挥官致以清晨的问好~",
+			say = "薩丁帝國所屬驅逐艦，西南風，向指揮官致以清晨的問好~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			},
 			options = {
 				{
-					content = "早上好。",
+					content = "早安。",
 					flag = 1
 				}
 			}
@@ -120,7 +120,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "事不宜迟！我来为指挥官泡茶吧！西北风姐姐说茶包好像是放在……",
+			say = "事不宜遲！我來為指揮官泡茶吧！西北風姐姐說茶包好像是放在……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "找到了！然后是茶壶和茶杯…………",
+			say = "找到了！然後是茶壺和茶杯…………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官~我把茶端过来了哦。接下来是整理文件对吧？",
+			say = "指揮官~我把茶端過來了哦。接下來是整理文件對吧？",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -184,14 +184,14 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我知道的！整理文件就是把盖过章的放一边，需要确认的放在另一边——",
+			say = "我知道的！整理文件就是把蓋過章的放一邊，需要確認的放在另一邊——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +204,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "看起来好像……有模有样的，难道是之前担心过度了么？",
+			say = "看起來好像……有模有樣的，難道是之前擔心過度了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸？啊！我忘记烧热水了么？我难道……直接把冷水倒在茶包上了么！",
+			say = "欸？啊！我忘記燒熱水了嗎？我難道……直接把冷水倒在茶包上了嗎！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "非常抱歉！我马上换一杯！",
+			say = "非常抱歉！我馬上換一杯！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜哇————",
+			say = "嗚嗚嗚————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "小跑而来的西南风脚下一滑，在即将跌倒之际扑在了书桌上。",
+			say = "小跑而來的西南風腳下一滑，在即將跌倒之際撲在了書桌上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好险好险……呜啊啊啊，文件！！！",
+			say = "好險好險……嗚啊啊啊，文件！！！",
 			dialogShake = {
 				speed = 0.08,
 				x = 15,
@@ -327,7 +327,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "因为突如其来的冲击，桌上的文件堆乱成了一团。",
+			say = "因為突如其來的衝擊，桌上的文件堆亂成了一團。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "不过也许是事先预料到了什么，手中的茶杯在端起后就不曾放下。",
+			say = "不過也許是事先預料到了什麼，手中的茶杯端起後就不曾放下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜呜呜，对不起指挥官我马上整理……",
+			say = "嗚嗚嗚，對不起指揮官我馬上整理……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "咚咚咚——（敲门声）",
+			say = "咚咚咚——（敲門聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			actor = 601040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那、那个，打扰了！稍微有点不放心所以想来看一看……",
+			say = "那、那個，打擾了！稍微有點不放心所以想來看看……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,7 +395,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "西北风姐姐，救命啊————！",
+			say = "西北風姐姐，救命啊————！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			actor = 601040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "西、西南风？！",
+			say = "西、西南風？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			blackBg = true,
-			say = "最终还是在西北风的帮助下收拾了残局——",
+			say = "最後還是在西北風的幫助下收拾了殘局——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

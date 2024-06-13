@@ -227,6 +227,7 @@ pg.memory_group = setmetatable({
 		572,
 		573,
 		574,
+		575,
 		576,
 		577,
 		578,
@@ -4903,6 +4904,23 @@ pg.base.memory_group = {
 			2125,
 			2126,
 			2127
+		}
+	},
+	[575] = {
+		title = "西南風，全速前進！",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 575,
+		icon = "title_chara_xinanfeng",
+		memories = {
+			2171,
+			2172,
+			2173,
+			2174,
+			2175,
+			2176,
+			2177
 		}
 	},
 	[576] = {

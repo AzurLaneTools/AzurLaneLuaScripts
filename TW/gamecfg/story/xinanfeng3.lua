@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"西南风，全速前进！\n\n<size=45>三　逐渐成长的秘书舰</size>",
+					"西南風，全速前進！\n\n<size=45>逐漸成長的秘書艦</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，来试试今天的茶吧！",
+			say = "指揮官，來試試今天的茶吧！",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -60,7 +60,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这次西南风有好好注意时间和温度，肯定没问题！",
+			say = "這次西南風有好好注意時間和溫度，一定沒問題！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "端起茶杯感受了一下————是茶的味道，而且是热的。",
+			say = "端起茶杯感受了一下————是茶的味道，而且是熱的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么样指挥官？",
+			say = "怎麼樣指揮官？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,15 +98,15 @@ return {
 			},
 			options = {
 				{
-					content = "还不错。",
+					content = "還不錯。",
 					flag = 1
 				},
 				{
-					content = "以茶包来说还不错。",
+					content = "以茶包來說還不錯。",
 					flag = 2
 				},
 				{
-					content = "以西南风来说还不错。",
+					content = "以西南風來說還不錯。",
 					flag = 3
 				}
 			}
@@ -139,7 +139,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "比起茶包，指挥官更喜欢喝茶叶么？",
+			say = "比起茶包，指揮官更喜歡喝茶葉嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可是西北风姐姐说在泡好茶包前不让我随便动指挥室的茶叶……",
+			say = "可是西北風姊姊說在泡好茶包前​​不讓我隨便動指揮室的茶葉……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……只能加倍练习了！",
+			say = "嗯……只能加倍練習了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎嘿嘿，这就是指挥官认可了我的进步的意思吧~",
+			say = "哎嘿嘿，這就是指揮官認可了我的進步的意思吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然后这边是分好类的文件，也请指挥官过目！",
+			say = "然後這邊是分類好的文件，也請指揮官過目！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,14 +226,14 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "从外表看上去确实已经完成了分类……相比之前的事故连发实在是取得了可喜的进步。",
+			say = "從外表看上去確實已經完成了分類……相比之前的事故連發實在是取得了可喜的進步。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "表扬西南风",
+					content = "稱讚西南風",
 					flag = 4
 				}
 			}
@@ -246,7 +246,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "诶嘿嘿嘿，被指挥官表扬了~",
+			say = "欸嘿嘿嘿，被指揮官表揚了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过我不会因此而得意忘形的哦！",
+			say = "不過我不會因此而得意忘形的哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			say = "就在准备仔细检查文件时，突然注意到西南风并没有给她自己的茶杯倒茶。",
+			say = "就在準備仔細檢查文件時，突然注意到西南風並沒有為她自己的茶杯倒茶。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这个啊……说出来指挥官不许笑！",
+			say = "這個啊……說出來指揮官不准笑！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其实……那一天结束之后，我被西北风姐姐拉着进行了秘书舰的能力特训……",
+			say = "其實……那一天結束之後，我被西北風姐姐拉著進行了秘書艦的能力特訓……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			actor = 601050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "泡茶也是冲了无数遍，已经不想再喝茶了……！",
+			say = "泡茶也是泡了無數遍，已經不想再喝茶了……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
