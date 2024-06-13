@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "One of the many responsibilities expected of the Commander and secretary are to be on duty.",
+			say = "Duty shift - One of the daily work modes in port.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "This is a system that, in times of emergency, allows commanding officers to stay overnight at the base to avoid having to commute, but...",
+			say = "Even when there are no battles, there are various administrative tasks that need to be handled.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "If called in during a day off, the regulations simply require that \"the commander and the secretary must perform joint activities over the course of two days.\" Because of that...",
+			say = "Even if the next day is a day off, there are cases where one has to stay overnight in the office the night before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
