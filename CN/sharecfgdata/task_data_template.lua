@@ -43215,6 +43215,291 @@ _G.pg.base.task_data_template[10174] = {
 }
 
 
+_G.pg.base.task_data_template[10175] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 94085,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "限时 兵装训练任务1",
+	desc = "完成1次「每日挑战-限时兵装训练」",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 10175,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			1
+		},
+		{
+			2,
+			15016,
+			10
+		},
+		{
+			2,
+			15021,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[10176] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 94085,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "限时 兵装训练任务2",
+	desc = "完成2次「每日挑战-限时兵装训练」",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 10176,
+	target_num = 2,
+	fix_task = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			1
+		},
+		{
+			2,
+			15016,
+			10
+		},
+		{
+			2,
+			15021,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[10177] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 94086,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "限时 兵装训练任务3",
+	desc = "完成3次「每日挑战-限时兵装训练」",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 10177,
+	target_num = 3,
+	fix_task = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			1
+		},
+		{
+			2,
+			15016,
+			25
+		},
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[10178] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 94087,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "限时 兵装训练任务4",
+	desc = "完成4次「每日挑战-限时兵装训练」",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 10178,
+	target_num = 4,
+	fix_task = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			2
+		},
+		{
+			2,
+			15016,
+			25
+		},
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[10179] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 94088,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "限时 兵装训练任务5",
+	desc = "完成5次「每日挑战-限时兵装训练」",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 10179,
+	target_num = 5,
+	fix_task = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			3
+		},
+		{
+			2,
+			15017,
+			5
+		},
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			4
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[10302] = {
 	target_id_2 = "",
 	guild_coin_award = 0,
@@ -98122,6 +98407,584 @@ _G.pg.base.task_data_template[20205] = {
 }
 
 
+_G.pg.base.task_data_template[20210] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902511,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "克利夫兰礼服复刻活动1",
+	desc = "舰队出征，以S评价通关10次",
+	sub_type = 24,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20210,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20211] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902512,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "克利夫兰礼服复刻活动2",
+	desc = "登录游戏",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20211,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20212] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902513,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "克利夫兰礼服复刻活动3",
+	desc = "完成军事委托2次",
+	sub_type = 80,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20212,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20213] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902514,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "克利夫兰礼服复刻活动4",
+	desc = "进行2次演习",
+	sub_type = 27,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20213,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20214] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902515,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "克利夫兰礼服复刻活动5",
+	desc = "完成3次每日挑战",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20214,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20215] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902516,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "克利夫兰礼服复刻活动6",
+	desc = "舰船退役2次",
+	sub_type = 31,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20215,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20216] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902517,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "克利夫兰礼服复刻活动7",
+	desc = "进行战术训练2次",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20216,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20217] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902518,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "克利夫兰礼服复刻活动8",
+	desc = "舰船强化5次",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20217,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20218] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902519,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "克利夫兰礼服复刻活动9",
+	desc = "击沉任意敌人20艘",
+	sub_type = 11,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20218,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20219] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902520,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "克利夫兰礼服复刻活动10",
+	desc = "后宅补充食物5次",
+	sub_type = 61,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20219,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20220] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902521,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "克利夫兰礼服复刻活动11",
+	desc = "打开任意科技箱1个",
+	sub_type = 50,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20220,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20221] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902522,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "克利夫兰礼服复刻活动12",
+	desc = "建造舰船2次",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20221,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20222] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902523,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "克利夫兰礼服复刻活动13",
+	desc = "进行2次战术训练",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20222,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20223] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902524,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "克利夫兰礼服复刻活动14",
+	desc = "击败旗舰3次 ",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20223,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			7,
+			102096,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
 _G.pg.base.task_data_template[31017] = {
 	target_id_2 = "",
 	guild_coin_award = 0,
@@ -109742,6 +110605,584 @@ _G.pg.base.task_data_template[35271] = {
 		{
 			7,
 			302041,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[35272] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 65281,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "【常驻活动】初春礼服活动1",
+	desc = "击败旗舰3次",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 35272,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54012,
+			5
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[35273] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 65282,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "【常驻活动】初春礼服活动2",
+	desc = "登录游戏",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 35273,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[35274] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 65283,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "【常驻活动】初春礼服活动3",
+	desc = "完成3次每日挑战 ",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 35274,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54050,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[35275] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 65284,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "【常驻活动】初春礼服活动4",
+	desc = "退役舰船2次 ",
+	sub_type = 31,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 35275,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[35276] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 65285,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "【常驻活动】初春礼服活动5",
+	desc = "进行2次战术训练 ",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 35276,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54022,
+			3
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[35277] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 65286,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "【常驻活动】初春礼服活动6",
+	desc = "后宅补充5次食物",
+	sub_type = 61,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 35277,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[35278] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 65287,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "【常驻活动】初春礼服活动7",
+	desc = "击沉任意敌人20艘 ",
+	sub_type = 11,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 35278,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			50004,
+			3
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[35279] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 65288,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "【常驻活动】初春礼服活动8",
+	desc = "建造舰船2次",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 35279,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[35280] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 65289,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "【常驻活动】初春礼服活动9",
+	desc = "打开任意科技箱1个",
+	sub_type = 50,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 35280,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54023,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[35281] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 65290,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "【常驻活动】初春礼服活动10",
+	desc = "强化舰船5次 ",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 35281,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[35282] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 65291,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "【常驻活动】初春礼服活动11",
+	desc = "完成2次委托 ",
+	sub_type = 80,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 35282,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54003,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[35283] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 65292,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "【常驻活动】初春礼服活动12",
+	desc = "参与演习2次 ",
+	sub_type = 27,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 35283,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[35284] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 65293,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "【常驻活动】初春礼服活动13",
+	desc = "强化装备2次 ",
+	sub_type = 40,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 35284,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54024,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[35285] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 65294,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "【常驻活动】初春礼服活动14",
+	desc = "舰队出征，以S评价通关10次 ",
+	sub_type = 24,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 35285,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			7,
+			301212,
 			1
 		}
 	},
@@ -175500,6 +176941,325 @@ _G.pg.base.task_data_template[500007] = {
 			2,
 			18012,
 			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500011] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500011,
+	type = 5,
+	is_head = 1,
+	count_inherit = 0,
+	name = "文件大雪崩",
+	desc = "提交3个《鱼雷天妇罗》",
+	sub_type = 1000,
+	task_fold = 0,
+	story_icon = "aijier",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500012",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "AIJIER1",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500011,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "50003",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+
+_G.pg.base.task_data_template[500012] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500012,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "再整理",
+	desc = "强化任意角色10次",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "aijier",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500013",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "AIJIER2",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500012,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500013] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500013,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "静谧之时",
+	desc = "{namecode:480}上阵出击(关卡)胜利20次",
+	sub_type = 18,
+	task_fold = 0,
+	story_icon = "aijier",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500014",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "AIJIER3",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500013,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "49905",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500014] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500014,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "慢节拍升温",
+	desc = "累计消耗石油500",
+	sub_type = 121,
+	task_fold = 0,
+	story_icon = "aijier",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500015",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "AIJIER4",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500014,
+	target_num = 500,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500015] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500015,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "海神的邀约",
+	desc = "{namecode:480}好感度达到100",
+	sub_type = 1012,
+	task_fold = 0,
+	story_icon = "aijier",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500016",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "AIJIER5",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500015,
+	target_num = 10000,
+	fix_task = 0,
+	target_id = "49905",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			18013,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500016] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500016,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "酒会之前",
+	desc = "{namecode:480}突破至满星",
+	sub_type = 33,
+	task_fold = 0,
+	story_icon = "aijier",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500017",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "AIJIER6",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500016,
+	target_num = 6,
+	fix_task = 0,
+	target_id = "49905",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18013,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500017] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500017,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "激荡的荒海之神",
+	desc = "{namecode:480}等级达到100",
+	sub_type = 1013,
+	task_fold = 0,
+	story_icon = "aijier",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "AIJIER7",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500017,
+	target_num = 100,
+	fix_task = 0,
+	target_id = "49905",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			16004,
+			1
 		}
 	}
 }

@@ -2306,7 +2306,18 @@ temp = function()
 	uv0["威"] = {
 		["奇"] = {
 			["塔"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		},
 		["尔"] = {

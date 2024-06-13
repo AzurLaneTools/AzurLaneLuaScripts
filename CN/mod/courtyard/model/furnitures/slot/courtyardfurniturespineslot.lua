@@ -149,24 +149,46 @@ slot6 = function(slot0)
 end
 
 slot0.GetActions = function(slot0)
-	slot1, slot2 = nil
+	slot1, slot2, slot3 = nil
 
 	if slot0.preheatAction and type(slot0.preheatAction) == "string" then
+		slot3 = false
 		slot1 = slot0.preheatAction
 	elseif slot0.preheatAction and type(slot0.preheatAction) == "table" then
+		slot4 = {}
+
+		if type(slot0.preheatAction[1]) == "table" then
+			for slot8, slot9 in ipairs(slot0.preheatAction[1]) do
+				table.insert(slot4, slot9)
+			end
+		else
+			table.insert(slot4, slot0.preheatAction[1])
+		end
+
+		slot5 = 1
+
+		if isa(slot0:GetOwner(), CourtYardFurniture) then
+			slot5 = #slot6:GetUsingSlots()
+		end
+
+		slot3 = slot0.preheatAction[3]
 		slot2 = slot0.preheatAction[2]
-		slot1 = slot0.preheatAction[1]
+		slot1 = slot4[slot5]
 	end
 
-	slot3, slot4, slot5 = nil
+	slot4, slot5, slot6 = nil
 
 	if slot0.strategyType == uv0 then
-		slot3, slot4, slot5 = uv1(slot0)
+		slot4, slot5, slot6 = uv1(slot0)
 	else
-		slot3, slot4, slot5 = uv2(slot0)
+		slot4, slot5, slot6 = uv2(slot0)
 	end
 
-	return slot3, slot4, slot5, slot1, slot2, slot0.tailAction
+	if slot3 then
+		slot6[0] = true
+	end
+
+	return slot4, slot5, slot6, slot1, slot2, slot0.tailAction
 end
 
 slot0.OnAwake = function(slot0)

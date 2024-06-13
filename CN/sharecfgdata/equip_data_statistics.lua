@@ -136939,6 +136939,61 @@ _G.pg.base.equip_data_statistics[80282] = {
 }
 
 
+_G.pg.base.equip_data_statistics[80291] = {
+	name = "专属弹幕-威奇塔METAI",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能弹幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 80291,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170511
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80292] = {
+	name = "专属弹幕-威奇塔METAII",
+	base = 80291,
+	id = 80292,
+	weapon_id = {
+		170512
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[85000] = {
 	name = "B-13 双联装130mm主炮B-2LM",
 	speciality = "<[LOCK]>",
@@ -154033,7 +154088,7 @@ _G.pg.base.equip_data_statistics[91220] = {
 	value_2 = 25,
 	icon = "51220",
 	attribute_2 = "air",
-	descrip = "说明未填写",
+	descrip = "鸢尾以D.520战斗机为基础尝试研发的舰载机型",
 	nationality = 8,
 	ammo = 5,
 	value_3 = 0,
@@ -154321,7 +154376,7 @@ _G.pg.base.equip_data_statistics[91240] = {
 	value_2 = 45,
 	icon = "51240",
 	attribute_2 = "air",
-	descrip = "说明未填写",
+	descrip = "鸢尾以BR.690攻击机为基础尝试研发的舰载机型，采用了双发设计",
 	nationality = 8,
 	ammo = 5,
 	value_3 = 0,
@@ -154712,7 +154767,7 @@ _G.pg.base.equip_data_statistics[91260] = {
 	attribute_2 = "dodge",
 	rarity = 5,
 	nationality = 10,
-	descrip = "说明未填写",
+	descrip = "战斗天使的羽翼，象征着无畏、奉献与忠诚。",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "air",

@@ -5258,7 +5258,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信标·META功能说明
 
-1. <color=#92fc63>2024.3.14-2024.6.13</color>期间限时开放「罗德尼·META」的挑战，在此期间指挥官可挑战「罗德尼·META」累计其同步值获取<color=#92fc63>「罗德尼·META」角色</color>及其他丰厚奖励
+1. <color=#92fc63>2024.6.13-2024.9.5</color>期间限时开放「威奇塔·META」的挑战，在此期间指挥官可挑战「威奇塔·META」累计其同步值获取<color=#92fc63>「威奇塔·META」角色</color>及其他丰厚奖励
 <color=#ff5c5c>注意：同步值将于时间结束后消失</color>
 
 2.「信标数据」获取与解析
@@ -5279,7 +5279,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 ·同一个信标最多能允许累计30位指挥官进行挑战
 
 5.战斗说明
-·挑战信标罗德尼·META暂不可使用指挥喵与潜艇
+·挑战信标威奇塔·META暂不可使用指挥喵与潜艇
 ·战斗结算时不会获得经验值，不会影响舰船心情值
 ·战斗中不可中途退出，如果出现网络波动导致掉线的情况：
 ①挑战自己解析的信标时将会消耗40点石油(非第一次挑战)，且不会计算已造成的伤害
@@ -5287,8 +5287,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>请在参与作战时保持网络环境畅通</color>
 
 6.火力支援
-随着信标罗德尼·META挑战的进行，从第31天开始，即2024.4.14~2024.6.13期间，舰队挑战「罗德尼·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标罗德尼·META开放的日期增加，火力支援提供的伤害也会增加。
-※此支援只会在指挥官自己发现的信标罗德尼·META战斗中出现，每次挑战均会触发。]]
+随着信标威奇塔·META挑战的进行，从第31天开始，即2024.6.14~2024.9.5期间，舰队挑战「威奇塔·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标威奇塔·META开放的日期增加，火力支援提供的伤害也会增加。
+※此支援只会在指挥官自己发现的信标威奇塔·META战斗中出现，每次挑战均会触发。]]
 		}
 	}
 }
@@ -12347,17 +12347,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "小声望、{namecode:193}等角色建造追加！"
+	tip = "福煦 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "基洛夫、雷鸣、摩尔曼斯克 建造追加！"
+	tip = "不屈、进取 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "小光辉、小企业 建造追加！"
+	tip = "霞飞 建造追加！"
 }
 
 
@@ -17231,7 +17231,7 @@ _G.pg.base.gametip.retire_rarity = {
 
 
 _G.pg.base.gametip.retire_title = {
-	tip = "一键退役设置"
+	tip = "退役设置"
 }
 
 
@@ -17279,7 +17279,8 @@ _G.pg.base.gametip.retire_setting_help = {
 	tip = {
 		{
 			info = [[
- ·一键退役条件：
+ ·唯一舰船退役保护开启后，如果该舰船是船坞里<color=#92fc63>唯一舰船</color>，退役的时候需要输入密码进行确认
+·一键退役条件：
  1.稀有度为SR、R、N
  2.未锁定的舰船
  3.等级为1级
@@ -21241,9 +21242,9 @@ _G.pg.base.gametip.meta_help = {
 		{
 			info = [[
 1.<color=#92fc63>资讯同步</color>
-·<color=#92fc63>2024.3.14-2024.6.13</color>期间限时开放「罗德尼·META」的「资讯同步」，通过「信标罗德尼·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「罗德尼·META」角色</color>
+·<color=#92fc63>2024.6.13-2024.9.5</color>期间限时开放「威奇塔·META」的「资讯同步」，通过「信标威奇塔·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「威奇塔·META」角色</color>
 ·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励
-·注意：<color=#ff5c5c>「罗德尼·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
+·注意：<color=#ff5c5c>「威奇塔·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
 
 2.<color=#92fc63>能量激活</color>
 ·META角色达到指定等级后可以使用对应的角色结晶进行激活。激活后可以提升角色星级
@@ -33964,4 +33965,39 @@ _G.pg.base.gametip.xiaodadi_npc = {
 			info = "7.npc 角色无法参与大舰队作战中的事件派遣、攻坚队和首领战。"
 		}
 	}
+}
+
+
+_G.pg.base.gametip.words_lock_ship_label = {
+	tip = "自动锁定新获得角色"
+}
+
+
+_G.pg.base.gametip.one_click_retire_subtitle = {
+	tip = "一键退役设置"
+}
+
+
+_G.pg.base.gametip.unique_ship_retire_protect = {
+	tip = "唯一舰船退役保护"
+}
+
+
+_G.pg.base.gametip.unique_ship_tip1 = {
+	tip = "选择角色中有<color=#92fc63>唯一</color>角色："
+}
+
+
+_G.pg.base.gametip.unique_ship_retire_before_tip = {
+	tip = "是否确认"
+}
+
+
+_G.pg.base.gametip.unique_ship_tip2 = {
+	tip = "包含<color=#92fc63>唯一</color>角色，请输入<color=#92fc63>$1</color>进行确认"
+}
+
+
+_G.pg.base.gametip.lock_new_ship = {
+	tip = "自动锁定新获得角色"
 }

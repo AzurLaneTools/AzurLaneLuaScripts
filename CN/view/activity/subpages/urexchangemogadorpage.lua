@@ -44,9 +44,10 @@ end
 slot0.OnFirstFlush = function(slot0)
 	setText(slot0._tipText, i18n("UrExchange_Pt_NotEnough"))
 
-	slot1 = slot0.uilist
+	slot0.isLinkActOpen = getProxy(ActivityProxy):getActivityById(slot0.config.activitytime) and not slot1:isEnd()
 
-	slot1:make(function (slot0, slot1, slot2)
+	setActive(slot0._tasksTF, slot0.isLinkActOpen)
+	slot0.uilist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:UpdateTask(slot1, slot2)
 		end
@@ -198,6 +199,10 @@ slot0.taskTypeDic = {
 }
 
 slot0.UpdateTask = function(slot0, slot1, slot2)
+	if not slot0.isLinkActOpen then
+		return
+	end
+
 	slot3 = slot1 + 1
 	slot7, slot8 = uv0.taskTypeDic[slot0.taskConfig[slot3][1]](slot0, slot0.taskConfig[slot3][3])
 

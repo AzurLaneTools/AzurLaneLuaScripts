@@ -1793,6 +1793,35 @@ pg.re_map_template = {
 			}
 		}
 	},
+	[33] = {
+		id = 33,
+		name = "杰诺瓦的焰火常驻复刻",
+		bg = "temp_fuxv",
+		memory_group = 203,
+		activity_type = 2,
+		order = 33,
+		config_data = {
+			2200121,
+			2200122,
+			2200123
+		},
+		chapter_progress = {
+			33,
+			66,
+			100
+		},
+		drop_gain = {},
+		drop_display_sp = {},
+		drop_display = {
+			{
+				{
+					2,
+					11049
+				},
+				"SP3"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1824,6 +1853,7 @@ pg.re_map_template = {
 		29,
 		30,
 		31,
-		32
+		32,
+		33
 	}
 }

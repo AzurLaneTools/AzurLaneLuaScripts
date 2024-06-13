@@ -14955,6 +14955,37 @@ _G.pg.base.item_data_statistics[21034] = {
 }
 
 
+_G.pg.base.item_data_statistics[21035] = {
+	open_directly = 0,
+	name = "结晶：威奇塔·META",
+	type = 4,
+	display = "威奇塔·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21035",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21035,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "结晶化热强钢",
@@ -15503,6 +15534,37 @@ _G.pg.base.item_data_statistics[21914] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21914,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[21915] = {
+	open_directly = 0,
+	name = "同步值：威奇塔·META",
+	type = 4,
+	display = "于「信标·META」战斗中收集的数据，可以提升威奇塔·META同步率。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21915",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21915,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},

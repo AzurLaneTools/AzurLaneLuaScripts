@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.enemy_data_statistics_115 = {
+	[10094003] = {
+		cannon = 33,
+		antisub = 0,
+		air = 0,
+		cannon_growth = 1500,
+		armor = 0,
+		reload = 150,
+		base = 90125,
+		dodge = 0,
+		torpedo_growth = 1200,
+		air_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		star = 3,
+		hit = 10,
+		antisub_growth = 0,
+		rarity = 3,
+		luck_growth = 0,
+		torpedo = 20,
+		durability = 580,
+		armor_growth = 0,
+		durability_growth = 28000,
+		antiaircraft = 35,
+		speed = 15,
+		luck = 0,
+		hit_growth = 144,
+		battle_unit_type = 35,
+		id = 10094003,
+		antiaircraft_growth = 1000,
+		fog_fx = "",
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			100206,
+			100519,
+			535002
+		}
+	},
 	[10094004] = {
 		cannon = 54,
 		antisub = 0,
@@ -1649,101 +1689,6 @@ pg.enemy_data_statistics_115 = {
 			551525,
 			551527,
 			551526
-		}
-	},
-	[10095501] = {
-		hit_growth = 210,
-		luck_growth = 0,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		dodge = 21,
-		armor = 0,
-		antiaircraft_growth = 0,
-		antisub = 0,
-		cannon = 270,
-		fog_fx = "",
-		dodge_growth = 318,
-		star = 6,
-		antisub_growth = 0,
-		rarity = 6,
-		base = 90259,
-		durability = 98000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 22,
-		luck = 60,
-		id = 10095501,
-		cannon_growth = 0,
-		pilot_ai_template_id = 30003,
-		reload = 150,
-		reload_growth = 0,
-		hit = 29,
-		torpedo = 380,
-		durability_growth = 0,
-		antiaircraft = 580,
-		battle_unit_type = 60,
-		bound_bone = {
-			cannon = {
-				{
-					0.6,
-					0.6,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.38,
-					0.6,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.472,
-							0.233,
-							0.467
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							0.42,
-							1.7,
-							2.07
-						}
-					}
-				}
-			}
-		},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			551531,
-			551532,
-			551533,
-			551535,
-			551536
 		}
 	}
 }

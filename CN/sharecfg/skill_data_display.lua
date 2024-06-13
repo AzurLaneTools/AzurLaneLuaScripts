@@ -2893,6 +2893,7 @@ pg.skill_data_display = setmetatable({
 		801223,
 		801261,
 		801262,
+		801294,
 		902201,
 		1010140,
 		1010143,
@@ -3041,6 +3042,7 @@ pg.skill_data_display = setmetatable({
 		295009,
 		200897,
 		200933,
+		200958,
 		1011540,
 		1011541,
 		1090010,
@@ -3111,6 +3113,9 @@ pg.skill_data_display = setmetatable({
 		1010981,
 		1010660,
 		1010661,
+		1012320,
+		1012322,
+		1012323,
 		1090020,
 		1090042,
 		1090043,
@@ -3140,7 +3145,9 @@ pg.skill_data_display = setmetatable({
 		1090231,
 		1090240,
 		1090242,
-		1090243
+		1090243,
+		1090260,
+		1090261
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -14709,6 +14716,10 @@ pg.base.skill_data_display = {
 		id = 801262,
 		name = "逐光之焰·福煦II"
 	},
+	[801294] = {
+		id = 801294,
+		name = "理事会制式MKXIII型外置轨道炮"
+	},
 	[902201] = {
 		id = 902201,
 		name = "幻想之环"
@@ -15301,6 +15312,10 @@ pg.base.skill_data_display = {
 		id = 200933,
 		name = "辉光之城-绽放"
 	},
+	[200958] = {
+		id = 200958,
+		name = "理事会制式MKXIII型外置轨道炮"
+	},
 	[1011540] = {
 		id = 1011540,
 		name = "最后的炮火 +"
@@ -15581,6 +15596,18 @@ pg.base.skill_data_display = {
 		id = 1010661,
 		name = "狙击手 +"
 	},
+	[1012320] = {
+		id = 1012320,
+		name = "Gassing Breath +"
+	},
+	[1012322] = {
+		id = 1012322,
+		name = "Gassing Breath +"
+	},
+	[1012323] = {
+		id = 1012323,
+		name = "Gassing Breath +"
+	},
 	[1090020] = {
 		id = 1090020,
 		name = "火力全开·{namecode:422}"
@@ -15700,5 +15727,13 @@ pg.base.skill_data_display = {
 	[1090243] = {
 		id = 1090243,
 		name = "水雷战队·{namecode:38}"
+	},
+	[1090260] = {
+		id = 1090260,
+		name = "快速装填·斯彭斯"
+	},
+	[1090261] = {
+		id = 1090261,
+		name = "快速装填·斯彭斯"
 	}
 }

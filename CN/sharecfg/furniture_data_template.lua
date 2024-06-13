@@ -76193,10 +76193,10 @@ pg.base.furniture_data_template = {
 		canputonGrid = {},
 		interAction = {
 			{
-				"wash",
+				"sit",
 				{
 					-4.5,
-					-100.9
+					-38.3
 				},
 				{
 					1,

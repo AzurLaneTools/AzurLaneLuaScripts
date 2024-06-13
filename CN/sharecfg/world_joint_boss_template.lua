@@ -436,6 +436,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "罗德尼·META",
 		boss_level_id = 196,
+		state = "stop",
 		item_id = 100000,
 		painting = "luodeni",
 		meta_id = 970505,
@@ -457,12 +458,49 @@ pg.world_joint_boss_template = {
 				"当场上的「罗德尼」被全部消灭后，罗德尼·META将进入维度跨越状态，并在维度跨越状态结束后<color=#92fc63>释放终结一击</color>，结束战斗。"
 			}
 		},
+		p_offset = {
+			36.7,
+			679.8,
+			1,
+			1
+		},
+		p_offset_other = {
+			632,
+			679.8,
+			1,
+			1
+		}
+	},
+	{
+		name = "威奇塔·META",
+		boss_level_id = 211,
+		item_id = 100000,
+		painting = "weiqita",
+		meta_id = 970304,
+		id = 15,
+		description = {
+			{
+				"愈战愈勇",
+				3,
+				"单次战斗过程中，自身<color=#92fc63>每累计损失5%耐久值，便会获得5%的伤害提升</color>。"
+			},
+			{
+				"烬火之链",
+				2,
+				"战斗中会释放出多条锁链，被锁链命中的单位将被束缚，在被束缚期间<color=#92fc63>无法移动、开火，并额外受到20%伤害</color>。"
+			},
+			{
+				"收尾打击",
+				1,
+				"战斗的末尾会启用理事会制式MKXIII型外置轨道炮，对战场全域造成巨额伤害。"
+			}
+		},
 		state = {
 			{
 				{
 					2024,
-					3,
-					14
+					6,
+					13
 				},
 				{
 					0,
@@ -473,8 +511,8 @@ pg.world_joint_boss_template = {
 			{
 				{
 					2024,
-					6,
-					13
+					9,
+					5
 				},
 				{
 					23,
@@ -484,13 +522,13 @@ pg.world_joint_boss_template = {
 			}
 		},
 		p_offset = {
-			36.7,
+			10,
 			679.8,
 			1,
 			1
 		},
 		p_offset_other = {
-			632,
+			615,
 			679.8,
 			1,
 			1
@@ -510,6 +548,7 @@ pg.world_joint_boss_template = {
 		11,
 		12,
 		13,
-		14
+		14,
+		15
 	}
 }

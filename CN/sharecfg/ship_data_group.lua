@@ -2137,6 +2137,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[970303] = {
 			30034
+		},
+		[970304] = {
+			30035
 		}
 	},
 	get_id_list_by_handbook_type = {
@@ -2858,7 +2861,8 @@ pg.ship_data_group = setmetatable({
 			30031,
 			30032,
 			30033,
-			30034
+			30034,
+			30035
 		}
 	},
 	all = {
@@ -3573,7 +3577,8 @@ pg.ship_data_group = setmetatable({
 		30031,
 		30032,
 		30033,
-		30034
+		30034,
+		30035
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -11637,6 +11642,17 @@ pg.base.ship_data_group = {
 				"限时活动：来自鸢尾的天使",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -27773,6 +27789,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -27921,6 +27948,17 @@ pg.base.ship_data_group = {
 				"限时活动：杰诺瓦的焰火",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行重型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -28168,6 +28206,17 @@ pg.base.ship_data_group = {
 				"限时活动：来自鸢尾的天使",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行特型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -32754,6 +32803,41 @@ pg.base.ship_data_group = {
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9703031
+					}
+				},
+				0
+			}
+		}
+	},
+	[30035] = {
+		nationality = 97,
+		type = 3,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970304,
+		index_id = 30035,
+		code = 30035,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：META研究室-资讯同步",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9703041
 					}
 				},
 				0

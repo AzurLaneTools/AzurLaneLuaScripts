@@ -249,15 +249,16 @@ slot0.UpdateFashionDetail = function(slot0, slot1)
 	slot10 = getProxy(ShipSkinProxy):getSkinById(slot1.id)
 	slot11 = getProxy(ShipSkinProxy):InForbiddenSkinListAndShow(slot1.id)
 
-	setGray(slot2.confirm, false)
 	setActive(slot2.using, false)
 	setActive(slot2.change, false)
 	setActive(slot2.buy, false)
 	setActive(slot2.experience, false)
 
 	if slot1.id == slot0:GetShipVO().skinId and slot10 and slot10:isExpireType() then
+		setGray(slot2.confirm, false)
 		setActive(slot2.experience, true)
 	elseif slot8 then
+		setGray(slot2.confirm, false)
 		setActive(slot2.using, true)
 	elseif slot9 and ShipSkin.IsShareSkin(slot0:GetShipVO(), slot1.id) and not ShipSkin.CanUseShareSkinForShip(slot0:GetShipVO(), slot1.id) then
 		setActive(slot2.change, true)

@@ -2,15 +2,37 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffCastSkill",
+				type = "BattleBuffAddBuff",
 				trigger = {
-					"onChargeWeaponFire"
+					"onStartGame"
 				},
 				arg_list = {
-					rant = 4000,
-					skill_id = 18071,
-					target = "TargetSelf",
-					time = 12
+					buff_id = 18072,
+					minTargetNumber = 1,
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"chuyunzhuanwu"
+					}
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onStartGame"
+				},
+				arg_list = {
+					buff_id = 18073,
+					maxTargetNumber = 0,
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"chuyunzhuanwu"
+					}
 				}
 			}
 		}
@@ -18,15 +40,37 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffCastSkill",
+				type = "BattleBuffAddBuff",
 				trigger = {
-					"onChargeWeaponFire"
+					"onStartGame"
 				},
 				arg_list = {
-					rant = 4300,
-					skill_id = 18071,
-					target = "TargetSelf",
-					time = 12
+					buff_id = 18072,
+					minTargetNumber = 1,
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"chuyunzhuanwu"
+					}
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onStartGame"
+				},
+				arg_list = {
+					buff_id = 18073,
+					maxTargetNumber = 0,
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"chuyunzhuanwu"
+					}
 				}
 			}
 		}
@@ -34,15 +78,37 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffCastSkill",
+				type = "BattleBuffAddBuff",
 				trigger = {
-					"onChargeWeaponFire"
+					"onStartGame"
 				},
 				arg_list = {
-					rant = 4600,
-					skill_id = 18071,
-					target = "TargetSelf",
-					time = 12
+					buff_id = 18072,
+					minTargetNumber = 1,
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"chuyunzhuanwu"
+					}
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onStartGame"
+				},
+				arg_list = {
+					buff_id = 18073,
+					maxTargetNumber = 0,
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"chuyunzhuanwu"
+					}
 				}
 			}
 		}
@@ -50,15 +116,37 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffCastSkill",
+				type = "BattleBuffAddBuff",
 				trigger = {
-					"onChargeWeaponFire"
+					"onStartGame"
 				},
 				arg_list = {
-					rant = 4900,
-					skill_id = 18071,
-					target = "TargetSelf",
-					time = 12
+					buff_id = 18072,
+					minTargetNumber = 1,
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"chuyunzhuanwu"
+					}
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onStartGame"
+				},
+				arg_list = {
+					buff_id = 18073,
+					maxTargetNumber = 0,
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"chuyunzhuanwu"
+					}
 				}
 			}
 		}
@@ -66,15 +154,37 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffCastSkill",
+				type = "BattleBuffAddBuff",
 				trigger = {
-					"onChargeWeaponFire"
+					"onStartGame"
 				},
 				arg_list = {
-					rant = 5200,
-					skill_id = 18071,
-					target = "TargetSelf",
-					time = 12
+					buff_id = 18072,
+					minTargetNumber = 1,
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"chuyunzhuanwu"
+					}
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onStartGame"
+				},
+				arg_list = {
+					buff_id = 18073,
+					maxTargetNumber = 0,
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"chuyunzhuanwu"
+					}
 				}
 			}
 		}
@@ -82,15 +192,37 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffCastSkill",
+				type = "BattleBuffAddBuff",
 				trigger = {
-					"onChargeWeaponFire"
+					"onStartGame"
 				},
 				arg_list = {
-					rant = 5500,
-					skill_id = 18071,
-					target = "TargetSelf",
-					time = 12
+					buff_id = 18072,
+					minTargetNumber = 1,
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"chuyunzhuanwu"
+					}
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onStartGame"
+				},
+				arg_list = {
+					buff_id = 18073,
+					maxTargetNumber = 0,
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"chuyunzhuanwu"
+					}
 				}
 			}
 		}
@@ -98,15 +230,37 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffCastSkill",
+				type = "BattleBuffAddBuff",
 				trigger = {
-					"onChargeWeaponFire"
+					"onStartGame"
 				},
 				arg_list = {
-					rant = 5800,
-					skill_id = 18071,
-					target = "TargetSelf",
-					time = 12
+					buff_id = 18072,
+					minTargetNumber = 1,
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"chuyunzhuanwu"
+					}
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onStartGame"
+				},
+				arg_list = {
+					buff_id = 18073,
+					maxTargetNumber = 0,
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"chuyunzhuanwu"
+					}
 				}
 			}
 		}
@@ -114,15 +268,37 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffCastSkill",
+				type = "BattleBuffAddBuff",
 				trigger = {
-					"onChargeWeaponFire"
+					"onStartGame"
 				},
 				arg_list = {
-					rant = 6200,
-					skill_id = 18071,
-					target = "TargetSelf",
-					time = 12
+					buff_id = 18072,
+					minTargetNumber = 1,
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"chuyunzhuanwu"
+					}
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onStartGame"
+				},
+				arg_list = {
+					buff_id = 18073,
+					maxTargetNumber = 0,
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"chuyunzhuanwu"
+					}
 				}
 			}
 		}
@@ -130,15 +306,37 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffCastSkill",
+				type = "BattleBuffAddBuff",
 				trigger = {
-					"onChargeWeaponFire"
+					"onStartGame"
 				},
 				arg_list = {
-					rant = 6600,
-					skill_id = 18071,
-					target = "TargetSelf",
-					time = 12
+					buff_id = 18072,
+					minTargetNumber = 1,
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"chuyunzhuanwu"
+					}
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onStartGame"
+				},
+				arg_list = {
+					buff_id = 18073,
+					maxTargetNumber = 0,
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"chuyunzhuanwu"
+					}
 				}
 			}
 		}
@@ -146,15 +344,37 @@ return {
 	{
 		effect_list = {
 			{
-				type = "BattleBuffCastSkill",
+				type = "BattleBuffAddBuff",
 				trigger = {
-					"onChargeWeaponFire"
+					"onStartGame"
 				},
 				arg_list = {
-					rant = 7000,
-					skill_id = 18071,
-					target = "TargetSelf",
-					time = 12
+					buff_id = 18072,
+					minTargetNumber = 1,
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"chuyunzhuanwu"
+					}
+				}
+			},
+			{
+				type = "BattleBuffAddBuff",
+				trigger = {
+					"onStartGame"
+				},
+				arg_list = {
+					buff_id = 18073,
+					maxTargetNumber = 0,
+					check_target = {
+						"TargetSelf",
+						"TargetShipTag"
+					},
+					ship_tag_list = {
+						"chuyunzhuanwu"
+					}
 				}
 			}
 		}
@@ -172,15 +392,37 @@ return {
 	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffCastSkill",
+			type = "BattleBuffAddBuff",
 			trigger = {
-				"onChargeWeaponFire"
+				"onStartGame"
 			},
 			arg_list = {
-				rant = 4000,
-				skill_id = 18071,
-				target = "TargetSelf",
-				time = 12
+				buff_id = 18072,
+				minTargetNumber = 1,
+				check_target = {
+					"TargetSelf",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"chuyunzhuanwu"
+				}
+			}
+		},
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onStartGame"
+			},
+			arg_list = {
+				buff_id = 18073,
+				maxTargetNumber = 0,
+				check_target = {
+					"TargetSelf",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"chuyunzhuanwu"
+				}
 			}
 		}
 	}

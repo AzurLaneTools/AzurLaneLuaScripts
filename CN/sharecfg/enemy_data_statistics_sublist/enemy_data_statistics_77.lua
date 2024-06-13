@@ -1,5 +1,46 @@
 pg = pg or {}
 pg.enemy_data_statistics_77 = {
+	[111015] = {
+		cannon = 360,
+		hit_growth = 0,
+		luck = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		air = 0,
+		air_growth = 0,
+		antisub = 0,
+		battle_unit_type = 55,
+		fog_fx = "",
+		dodge_growth = 0,
+		star = 3,
+		antisub_growth = 0,
+		rarity = 2,
+		base = 90188,
+		durability = 6700,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 24,
+		armor = 0,
+		id = 111015,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 46,
+		reload_growth = 0,
+		hit = 38,
+		torpedo = 700,
+		durability_growth = 35500,
+		antiaircraft = 290,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			319022,
+			319023,
+			319024
+		}
+	},
 	[111016] = {
 		cannon = 300,
 		antisub = 0,
@@ -1065,46 +1106,6 @@ pg.enemy_data_statistics_77 = {
 		durability_growth = 2550,
 		antiaircraft = 0,
 		antiaircraft_growth = 0,
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			330013
-		}
-	},
-	[111041] = {
-		cannon = 320,
-		name = "强化自爆船",
-		hit_growth = 0,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
-		air = 0,
-		antisub = 0,
-		armor = 0,
-		rarity = 1,
-		antiaircraft = 0,
-		fog_fx = "",
-		dodge_growth = 0,
-		star = 2,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90080,
-		durability = 1800,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 30,
-		luck = 0,
-		id = 111041,
-		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 208,
-		torpedo = 600,
-		durability_growth = 2550,
-		luck_growth = 0,
-		battle_unit_type = 15,
 		appear_fx = {
 			"appearsmall"
 		},
