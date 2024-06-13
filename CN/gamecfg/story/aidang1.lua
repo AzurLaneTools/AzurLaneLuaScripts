@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "值班——也是指挥官和秘书舰的工作之一。",
+			say = "值班——港区的日常工作模式之一。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "这是为了让平时住在基地之外的将官们能在紧急时刻及时应对，而让他们留在基地过夜的一种制度，但是……",
+			say = "即使是无须战斗的日常，港区中仍有大大小小的事务需要处理。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "如果隔天是休息日，只要遵守了“指挥官和秘书舰两天内保持共同行动”这一条，不管是出门还是休息，据说都没问题。",
+			say = "因此，偶尔也会有着即便第二天是休息日，但前一天的夜晚也需要值班的情况存在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
