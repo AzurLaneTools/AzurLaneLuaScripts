@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "宿直――それは指揮官と秘書艦の業務の一つ。",
+			say = "宿直--母港勤務の形の一つ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "普段は営舎より離れた場所に住んでいる将官が、緊急時に即刻対応できるよう基地内に泊まる制度だが……",
+			say = "戦いがない時でも、母港には大小の事務作業がたくさんある。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "非番の日と被る場合、「指揮官と秘書官が二日間、常に行動を共にする」という事だけ守っていれば、割と出かけても休んでも問題ない――らしい。",
+			say = "たとえ翌日が非番日だとしても、その前日の夜に宿直--執務室に寝泊まりするケースがあるのだ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
