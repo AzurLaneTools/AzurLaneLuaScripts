@@ -2159,6 +2159,13 @@ pg.skill_data_template = setmetatable({
 		801262,
 		801265,
 		801267,
+		801270,
+		801280,
+		801290,
+		801301,
+		801302,
+		801305,
+		801307,
 		901010,
 		901020,
 		902010,
@@ -2186,6 +2193,8 @@ pg.skill_data_template = setmetatable({
 		902230,
 		902240,
 		902250,
+		902260,
+		902270,
 		1010140,
 		1010390,
 		1010410,
@@ -2238,6 +2247,10 @@ pg.skill_data_template = setmetatable({
 		1013000,
 		1010980,
 		1010660,
+		1012320,
+		1019080,
+		1011170,
+		1010090,
 		1090010,
 		1090020,
 		1090030,
@@ -2262,7 +2275,8 @@ pg.skill_data_template = setmetatable({
 		1090220,
 		1090230,
 		1090240,
-		1090250
+		1090250,
+		1090260
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -138894,6 +138908,406 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[801270] = {
+		desc_get = "",
+		name = "Honed Through Adversity",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's RLD and ACC by $1. When this ship's HP falls below 50.0%, the lower her HP is: increases this ship's FP (up to $2).",
+		id = 801270,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"10.0%",
+				"50.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"10.00%"
+				},
+				{
+					"12.50%"
+				},
+				{
+					"14.29%"
+				},
+				{
+					"16.67%"
+				},
+				{
+					"20.00%"
+				},
+				{
+					"25.00%"
+				},
+				{
+					"28.57%"
+				},
+				{
+					"33.33%"
+				},
+				{
+					"40.00%"
+				},
+				{
+					"50.00%"
+				}
+			}
+		}
+	},
+	[801280] = {
+		desc_get = "",
+		name = "Decisiveness From Despair",
+		type = 1,
+		max_level = 10,
+		desc = "When this ship fires her Main Guns: $1 chance to fire again (can only activate once every second). When this ship's HP falls below 50.0%, the lower her HP is: increases the activation chance of this skill (up to $2).",
+		id = 801280,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"15.0%",
+				"25.0%"
+			},
+			{
+				"60.0%",
+				"75.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.1%"
+				},
+				{
+					"16.1%",
+					"+1.1%"
+				},
+				{
+					"17.2%",
+					"+1.1%"
+				},
+				{
+					"18.3%",
+					"+1.1%"
+				},
+				{
+					"19.4%",
+					"+1.1%"
+				},
+				{
+					"20.5%",
+					"+1.1%"
+				},
+				{
+					"21.6%",
+					"+1.1%"
+				},
+				{
+					"22.7%",
+					"+1.1%"
+				},
+				{
+					"23.8%",
+					"+1.2%"
+				},
+				{
+					"25.0%"
+				}
+			},
+			{
+				{
+					"60.0%",
+					"+1.5%"
+				},
+				{
+					"61.5%",
+					"+1.5%"
+				},
+				{
+					"63%",
+					"+1.5%"
+				},
+				{
+					"64.5%",
+					"+1.6%"
+				},
+				{
+					"66.1%",
+					"+1.6%"
+				},
+				{
+					"67.7%",
+					"+1.7%"
+				},
+				{
+					"69.4%",
+					"+1.8%"
+				},
+				{
+					"71.2%",
+					"+1.8%"
+				},
+				{
+					"73%",
+					"+2%"
+				},
+				{
+					"75.0%"
+				}
+			}
+		}
+	},
+	[801290] = {
+		desc_get = "",
+		name = "Eleventh Hour",
+		type = 1,
+		max_level = 10,
+		desc = "When this ship's HP falls below 50.0%, the lower her HP is: increases her DMG dealt (up to $3). Once per battle, when this ship takes DMG that would sink her: this ship does not sink and evades all attacks for 8s; when this effect activates, this ship deploys a $1 Council-Style MK XIII Orbital Cannon and attacks with it (DMG is based on the skill's level). When this effect wears off, this ship recovers $2 of her max HP and all of her skills are negated until the battle ends.",
+		id = 801290,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"10.0%",
+				"50.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"10.00%"
+				},
+				{
+					"12.50%"
+				},
+				{
+					"14.29%"
+				},
+				{
+					"16.67%"
+				},
+				{
+					"20.00%"
+				},
+				{
+					"25.00%"
+				},
+				{
+					"28.57%"
+				},
+				{
+					"33.33%"
+				},
+				{
+					"40.00%"
+				},
+				{
+					"50.00%"
+				}
+			}
+		}
+	},
+	[801301] = {
+		desc_get = "",
+		name = "Ashen Might - Wichita I",
+		type = 1,
+		max_level = 1,
+		desc = "Every 12 times this ship fires her Main Guns: fires a special barrage.",
+		id = 801301,
+		system_transform = {
+			[51.0] = 801235
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801302] = {
+		desc_get = "",
+		name = "Ashen Might - Wichita II",
+		type = 1,
+		max_level = 1,
+		desc = "While this ship's HP is above 50.0%, every 8 times this ship fires her Main Guns: reduces this ship's current HP by 5.0% and fires a special barrage with 20.0% increased Crit Rate; when this ship's HP falls below 50.0%, every 4 times this ship fires her Main Guns: fires a special barrage.",
+		id = 801302,
+		system_transform = {
+			[51.0] = 801237
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801305] = {
+		desc_get = "",
+		name = "Ashen Might - Wichita I",
+		type = 1,
+		max_level = 1,
+		desc = "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 3.0%.",
+		id = 801305,
+		system_transform = {
+			[51.0] = 801235
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801307] = {
+		desc_get = "",
+		name = "Ashen Might - Wichita II",
+		type = 1,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhile this ship's HP is above 50.0%, every 8 times this ship fires her Main Guns: reduces this ship's current HP by 5.0% and fires a special barrage with 20.0% increased Crit Rate; when this ship's HP falls below 50.0%, every 4 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 8.0%.",
+		id = 801307,
+		system_transform = {
+			[51.0] = 801237
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[901010] = {
 		desc_get = "",
 		name = "Slash Attack - Spread",
@@ -139265,6 +139679,34 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 		max_level = 1,
 		desc = "Decreases this ship's aircraft DMG taken by 20.0%. Once per battle, 40s after the battle starts: restores 8.0% of this ship's max HP.",
 		id = 902250,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[902260] = {
+		desc_get = "",
+		name = "Twin Blades of Good and Evil",
+		type = 3,
+		max_level = 1,
+		desc = "Increases this ship's Main Gun Crit Rate by 20.0% and decreases its Spread by 4.",
+		id = 902260,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[902270] = {
+		desc_get = "",
+		name = "Protected by Stars",
+		type = 3,
+		max_level = 1,
+		desc = "Increases this ship's AA by 20.0%. While the AA buff from the skill \"I Am No. 1!\" or \"I Am No. 1!+\" is active: decreases this ship's DMG taken by 15.0%.",
+		id = 902270,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -145485,6 +145927,412 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 			}
 		}
 	},
+	[1012320] = {
+		desc_get = "",
+		name = "Poisonous Sting+",
+		type = 1,
+		max_level = 10,
+		desc = "Every 10 times this ship's Main Guns hit the same enemy: increases that enemy's DMG taken from your Vanguard by $1 for 5s and fires a $2 special barrage (DMG is based on the skill's level). When this ship sinks an enemy: increases this ship's FP, ACC, and AA by $3 until the battle ends (can be stacked up to 4 times).",
+		id = 1012320,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"1.5%",
+				"6.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%"
+				}
+			}
+		}
+	},
+	[1019080] = {
+		desc_get = "",
+		name = "Specialized Armor+",
+		type = 2,
+		max_level = 10,
+		desc = "Decreases this ship's DMG taken from AP ammo by $1. When this ship fires her Main Guns: increases this ship's DMG dealt by $2 for 8s. Increases the activation chance of the skill \"A Legend's Inheritance\" or \"A Legend's Inheritance+\" by 30.0%.",
+		id = 1019080,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"15%",
+				"30%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.5%"
+				},
+				{
+					"16.5%",
+					"+1.5%"
+				},
+				{
+					"18.0%",
+					"+2.0%"
+				},
+				{
+					"20.0%",
+					"+1.5%"
+				},
+				{
+					"21.5%",
+					"+1.5%"
+				},
+				{
+					"23.0%",
+					"+2.0%"
+				},
+				{
+					"25.0%",
+					"+1.5%"
+				},
+				{
+					"26.5%",
+					"+1.5%"
+				},
+				{
+					"28.0%",
+					"+2.0%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[1011170] = {
+		desc_get = "",
+		name = "Allies of Justice+",
+		type = 1,
+		max_level = 10,
+		desc = "When sortied with Sheffield: increases this ship's EVA by $1 and increases this ship's and Sheffield's FP and TRP by $1.",
+		id = 1011170,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5%",
+				"15%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[1010090] = {
+		desc_get = "",
+		name = "I Am No. 1!+",
+		type = 3,
+		max_level = 10,
+		desc = "When this ship fires her AA Guns: 15.0% chance to increase your fleet's AA by $1 for 8s. When this ship fires her Main Guns: fires a $2 star barrage that ignores enemy shields (DMG is based on the skill's level).",
+		id = 1010090,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"30%",
+				"50%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"30.0%",
+					"+2.2%"
+				},
+				{
+					"32.2%",
+					"+2.2%"
+				},
+				{
+					"34.4%",
+					"+2.2%"
+				},
+				{
+					"36.6%",
+					"+2.2%"
+				},
+				{
+					"38.8%",
+					"+2.2%"
+				},
+				{
+					"41.0%",
+					"+2.2%"
+				},
+				{
+					"43.2%",
+					"+2.2%"
+				},
+				{
+					"45.4%",
+					"+2.2%"
+				},
+				{
+					"47.6%",
+					"+2.4%"
+				},
+				{
+					"50.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
 	[1090010] = {
 		desc_get = "",
 		name = "Fleet Carrier - Glorious",
@@ -148522,6 +149370,193 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 				},
 				{
 					"Lv.10"
+				}
+			}
+		}
+	},
+	[1090260] = {
+		desc_get = "",
+		name = "Quick Reload - Spence",
+		type = 1,
+		max_level = 10,
+		desc = "Every 20s: $1 chance to increase this ship's RLD by $2. When this ship takes DMG: fires a $3 special barrage and increases this ship's TRP and ACC by $4 for 10s (15s cooldown between activations; DMG is based on the skill's level; buff can be stacked up to 3 times).",
+		id = 1090260,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"20.0%",
+				"40.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
 				}
 			}
 		}

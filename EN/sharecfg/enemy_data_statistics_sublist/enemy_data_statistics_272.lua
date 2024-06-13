@@ -1,5 +1,46 @@
 pg = pg or {}
 pg.enemy_data_statistics_272 = {
+	[15901102] = {
+		cannon = 20,
+		air = 0,
+		torpedo = 27,
+		cannon_growth = 936,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		armor = 0,
+		dodge = 11,
+		torpedo_growth = 3366,
+		hit_growth = 210,
+		reload_growth = 0,
+		dodge_growth = 162,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 55,
+		base = 90466,
+		durability = 760,
+		armor_growth = 0,
+		durability_growth = 30500,
+		antiaircraft = 28,
+		speed = 25,
+		luck = 0,
+		antisub = 0,
+		antiaircraft_growth = 3744,
+		id = 15901102,
+		fog_fx = "",
+		specific_fx_scale = {},
+		appear_fx = {
+			"heisewuqi_stg"
+		},
+		equipment_list = {
+			1003117,
+			1003122,
+			1003127,
+			1003132
+		}
+	},
 	[15901103] = {
 		cannon = 24,
 		air = 0,
@@ -1113,55 +1154,6 @@ pg.enemy_data_statistics_272 = {
 			1003187,
 			1100786,
 			1003197
-		}
-	},
-	[15901301] = {
-		cannon = 160,
-		name = "Vision of King George V",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		id = 15901301,
-		air = 0,
-		armor = 0,
-		luck_growth = 0,
-		hit_growth = 210,
-		fog_fx = "",
-		dodge_growth = 108,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90516,
-		durability = 16500,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 20,
-		luck = 8,
-		antisub = 0,
-		scale = 180,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 11,
-		reload_growth = 0,
-		hit = 16,
-		torpedo = 0,
-		durability_growth = 0,
-		antiaircraft = 180,
-		battle_unit_type = 95,
-		specific_fx_scale = {
-			heisewuqi_stg = 1.5
-		},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ",
-			"heisewuqi_stg"
-		},
-		equipment_list = {
-			893301,
-			893302,
-			893303,
-			893304,
-			893305,
-			893306
 		}
 	}
 }

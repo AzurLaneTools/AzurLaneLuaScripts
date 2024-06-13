@@ -1795,6 +1795,43 @@ end
 
 slot0.checkDestroyShips = function(slot0, slot1, slot2)
 	slot3 = {}
+
+	if PlayerPrefs.GetInt("RetireProtect", 1) == 0 then
+		slot4 = {}
+
+		for slot8, slot9 in pairs(slot1) do
+			slot10 = 0
+
+			for slot14, slot15 in pairs(slot1) do
+				if slot15:getGroupId() == slot9:getGroupId() then
+					slot10 = slot10 + 1
+				end
+			end
+
+			if #getProxy(BayProxy):findShipsByGroup(slot9:getGroupId()) == slot10 then
+				slot12 = false
+
+				for slot16, slot17 in pairs(slot4) do
+					if slot17:getGroupId() == slot9:getGroupId() then
+						slot12 = true
+
+						break
+					end
+				end
+
+				if not slot12 then
+					table.insert(slot4, slot9)
+				end
+			end
+		end
+
+		if #slot4 > 0 then
+			table.insert(slot3, function (slot0)
+				uv0.destroyConfirmWindow:ExecuteAction("ShowOneShipProtect", uv1, slot0)
+			end)
+		end
+	end
+
 	slot4, slot5 = ShipCalcHelper.GetEliteAndHightLevelShips(slot1)
 
 	if #slot4 > 0 or #slot5 > 0 then

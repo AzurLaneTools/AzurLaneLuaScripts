@@ -793,15 +793,19 @@ slot8.QuickTagChrageWeapon = function(slot0, slot1)
 		return
 	end
 
-	if slot0._chargeWeaponVO:GetCurrentWeapon() ~= nil and slot2:GetCurrentState() == slot2.STATE_READY then
-		slot2:QuickTag()
+	slot2 = nil
 
-		if #slot2:GetLockList() <= 0 then
-			slot2:CancelQuickTag()
+	if slot0._chargeWeaponVO:GetCurrentWeapon() ~= nil and slot3:GetCurrentState() == slot3.STATE_READY then
+		slot3:QuickTag()
+
+		if #slot3:GetLockList() <= 0 then
+			slot3:CancelQuickTag()
 		else
-			slot0:fireChargeWeapon(slot2, slot1)
+			slot2 = slot0:fireChargeWeapon(slot3, slot1)
 		end
 	end
+
+	return slot2
 end
 
 slot8.fireChargeWeapon = function(slot0, slot1, slot2, slot3)
@@ -833,17 +837,22 @@ slot8.UnleashAllInStrike = function(slot0)
 		return
 	end
 
-	if slot0._airAssistVO:GetCurrentWeapon() and slot1:GetCurrentState() == slot1.STATE_READY then
-		slot2 = slot1:GetHost()
+	slot1 = nil
 
-		if slot0._IFF == uv0.FRIENDLY_CODE and slot2:IsMainFleetUnit() then
-			slot0._airAssistVO:PlayCutIn(slot2, 1)
+	if slot0._airAssistVO:GetCurrentWeapon() and slot2:GetCurrentState() == slot2.STATE_READY then
+		slot3 = slot2:GetHost()
+
+		if slot0._IFF == uv0.FRIENDLY_CODE and slot3:IsMainFleetUnit() then
+			slot0._airAssistVO:PlayCutIn(slot3, 1)
 		end
 
-		slot1:CLSBullet()
-		slot1:DispatchBlink()
-		slot1:Fire()
+		slot2:CLSBullet()
+		slot2:DispatchBlink()
+
+		slot1 = slot2:Fire()
 	end
+
+	return slot1
 end
 
 slot8.CastTorpedo = function(slot0)
@@ -851,8 +860,7 @@ slot8.CastTorpedo = function(slot0)
 		return
 	end
 
-	if slot0._torpedoWeaponVO:GetCurrentWeapon() ~= nil and slot1:GetCurrentState() == slot1.STATE_READY then
-		slot1:Prepar()
+	if slot0._torpedoWeaponVO:GetCurrentWeapon() ~= nil and slot1:GetCurrentState() == slot1.STATE_READY and slot1:Prepar() then
 		slot0:FleetBuffTrigger(uv0.BuffEffectType.ON_TORPEDO_BUTTON_PUSH)
 	end
 end
@@ -880,9 +888,13 @@ slot8.QuickCastTorpedo = function(slot0)
 		return
 	end
 
-	if slot0._torpedoWeaponVO:GetCurrentWeapon() ~= nil and slot1:GetCurrentState() == slot1.STATE_READY then
-		slot1:Fire(true)
+	slot1 = nil
+
+	if slot0._torpedoWeaponVO:GetCurrentWeapon() ~= nil and slot2:GetCurrentState() == slot2.STATE_READY then
+		slot1 = slot2:Fire(true)
 	end
+
+	return slot1
 end
 
 slot8.RemoveManunalTorpedo = function(slot0, slot1, slot2)

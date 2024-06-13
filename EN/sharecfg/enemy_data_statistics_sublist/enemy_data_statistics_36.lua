@@ -1,5 +1,44 @@
 pg = pg or {}
 pg.enemy_data_statistics_36 = {
+	[710] = {
+		cannon = 0,
+		hit_growth = 1200,
+		luck = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		air = 0,
+		air_growth = 0,
+		antisub = 0,
+		battle_unit_type = 15,
+		fog_fx = "",
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 90080,
+		durability = 10,
+		armor_growth = 0,
+		torpedo_growth = 3000,
+		speed = 40,
+		armor = 0,
+		id = 710,
+		cannon_growth = 0,
+		pilot_ai_template_id = 80000,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 81,
+		torpedo = 12,
+		durability_growth = 4000,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			300003
+		}
+	},
 	[711] = {
 		cannon = 0,
 		hit_growth = 1200,
@@ -1127,74 +1166,6 @@ pg.enemy_data_statistics_36 = {
 			300100,
 			300101,
 			300102
-		}
-	},
-	[801] = {
-		cannon = 0,
-		name = "Cargo Ship",
-		hit_growth = 0,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
-		air = 0,
-		reload = 150,
-		antisub = 20,
-		armor = 0,
-		rarity = 1,
-		antiaircraft = 10,
-		fog_fx = "",
-		dodge_growth = 0,
-		star = 1,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90090,
-		durability = 120,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		luck = 0,
-		id = 801,
-		scale = 150,
-		cannon_growth = 0,
-		pilot_ai_template_id = 20005,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		torpedo = 0,
-		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 90,
-		cld_box = {
-			4.125,
-			5.625,
-			6
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				-0.48,
-				0
-			},
-			{
-				0.2,
-				0.006,
-				0.5
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {
-			danchuanlanghuaxiao = 0.75
-		},
-		appear_fx = {
-			"appearsmall"
 		}
 	}
 }

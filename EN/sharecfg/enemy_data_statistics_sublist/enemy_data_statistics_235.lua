@@ -1,5 +1,65 @@
 pg = pg or {}
 pg.enemy_data_statistics_235 = {
+	[14902207] = {
+		cannon = 140,
+		luck_growth = 0,
+		air_growth = 0,
+		speed_growth = 0,
+		antiaircraft_growth = 3600,
+		air = 0,
+		armor = 0,
+		antisub = 0,
+		hit_growth = 210,
+		bubble_fx = "",
+		fog_fx = "",
+		dodge_growth = 156,
+		star = 4,
+		antisub_growth = 0,
+		rarity = 3,
+		base = 90251,
+		durability = 18120,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 20,
+		luck = 15,
+		id = 14902207,
+		cannon_growth = 2500,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 16,
+		torpedo = 0,
+		durability_growth = 353600,
+		antiaircraft = 175,
+		battle_unit_type = 90,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			1000777,
+			1000782,
+			1000787,
+			1000792,
+			1000797
+		},
+		buff_list = {
+			{
+				ID = 50500,
+				LV = 3
+			}
+		}
+	},
 	[14902301] = {
 		cannon = 210,
 		luck_growth = 0,
@@ -1192,63 +1252,6 @@ pg.enemy_data_statistics_235 = {
 			1101083,
 			1101108,
 			1101523
-		},
-		buff_list = {}
-	},
-	[14903203] = {
-		cannon = 120,
-		luck_growth = 0,
-		air_growth = 0,
-		speed_growth = 0,
-		antiaircraft_growth = 3200,
-		air = 0,
-		armor = 0,
-		antisub = 0,
-		hit_growth = 210,
-		bubble_fx = "",
-		fog_fx = "",
-		dodge_growth = 156,
-		star = 4,
-		antisub_growth = 0,
-		rarity = 3,
-		base = 90250,
-		durability = 12530,
-		armor_growth = 0,
-		torpedo_growth = 1500,
-		speed = 20,
-		luck = 18,
-		id = 14903203,
-		cannon_growth = 1700,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 11,
-		reload_growth = 0,
-		hit = 20,
-		torpedo = 105,
-		durability_growth = 228800,
-		antiaircraft = 205,
-		battle_unit_type = 90,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			1000743,
-			1000748,
-			1000753,
-			1000758,
-			1000763,
-			1000768,
-			1000773
 		},
 		buff_list = {}
 	}

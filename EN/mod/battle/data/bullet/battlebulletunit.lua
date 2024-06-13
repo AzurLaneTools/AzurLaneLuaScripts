@@ -616,7 +616,8 @@ slot10.generateAttachBuffList = function(slot0)
 		table.insert(slot1, {
 			buff_id = slot7.buff_id,
 			level = slot7.buff_level,
-			rant = slot7.rant
+			rant = slot7.rant,
+			hit_ignore = slot7.hit_ignore
 		})
 	end
 

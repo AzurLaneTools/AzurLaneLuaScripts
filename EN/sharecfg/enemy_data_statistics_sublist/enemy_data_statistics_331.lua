@@ -1,5 +1,47 @@
 pg = pg or {}
 pg.enemy_data_statistics_331 = {
+	[16552102] = {
+		cannon = 38,
+		air = 0,
+		torpedo = 76,
+		cannon_growth = 936,
+		pilot_ai_template_id = 20017,
+		reload = 150,
+		armor = 0,
+		dodge = 11,
+		torpedo_growth = 3366,
+		hit_growth = 210,
+		reload_growth = 0,
+		dodge_growth = 162,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 55,
+		base = 90678,
+		durability = 3570,
+		armor_growth = 0,
+		durability_growth = 30400,
+		antiaircraft = 156,
+		speed = 25,
+		luck = 0,
+		antiaircraft_growth = 3744,
+		antisub = 0,
+		id = 16552102,
+		scale = 240,
+		fog_fx = "",
+		appear_fx = {
+			"appearsmall",
+			"nuofukedanchuan_buff_01"
+		},
+		equipment_list = {
+			1100027,
+			1100107,
+			1100192,
+			1100477
+		}
+	},
 	[16552103] = {
 		cannon = 54,
 		air = 0,
@@ -1053,82 +1095,6 @@ pg.enemy_data_statistics_331 = {
 			1003184,
 			3086108,
 			3086113
-		}
-	},
-	[16553201] = {
-		antisub = 0,
-		battle_unit_type = 90,
-		speed_growth = 0,
-		luck_growth = 0,
-		air = 0,
-		armor = 0,
-		hit_growth = 210,
-		cannon = 120,
-		fog_fx = "",
-		dodge_growth = 156,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90808,
-		durability = 12530,
-		armor_growth = 0,
-		torpedo_growth = 1500,
-		speed = 20,
-		luck = 18,
-		id = 16553201,
-		scale = 180,
-		cannon_growth = 1700,
-		pilot_ai_template_id = 20006,
-		reload = 150,
-		dodge = 11,
-		reload_growth = 0,
-		hit = 25,
-		torpedo = 105,
-		durability_growth = 220600,
-		antiaircraft = 205,
-		antiaircraft_growth = 3200,
-		bound_bone = {
-			cannon = {
-				{
-					1.55,
-					1.25,
-					-0.6
-				}
-			},
-			torpedo = {
-				{
-					0.33,
-					0.55,
-					-0.32
-				}
-			},
-			antiaircraft = {
-				{
-					0.8,
-					1.04,
-					-0.6
-				}
-			},
-			plane = {
-				{
-					1.36,
-					0.67,
-					-0.39
-				}
-			}
-		},
-		appear_fx = {
-			"appearsmall",
-			"nuofukedanchuan_buff_01",
-			"danchuanheiyan_CA"
-		},
-		equipment_list = {
-			3087301,
-			3087302,
-			3087303,
-			3087304,
-			3087305,
-			3087306,
-			3087307
 		}
 	}
 }

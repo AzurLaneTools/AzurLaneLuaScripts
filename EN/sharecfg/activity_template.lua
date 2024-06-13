@@ -16879,6 +16879,7 @@ pg.activity_template = {
 	[5363] = {
 		mark = 20240530,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -16888,33 +16889,6 @@ pg.activity_template = {
 		id = 5363,
 		config_data = {
 			20191
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					5,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					6,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5364] = {
@@ -16922,7 +16896,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 48,
+		is_show = 45,
 		title_res_tag = "longwuskin",
 		id = 5364,
 		config_data = {
@@ -16997,6 +16971,122 @@ pg.activity_template = {
 				{},
 				{},
 				{}
+			}
+		}
+	},
+	[5365] = {
+		mark = 20240613,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 48,
+		config_client = "",
+		title_res_tag = "kelifulan_skin",
+		id = 5365,
+		config_data = {
+			{
+				20210,
+				20211
+			},
+			{
+				20212,
+				20213
+			},
+			{
+				20214,
+				20215
+			},
+			{
+				20216,
+				20217
+			},
+			{
+				20218,
+				20219
+			},
+			{
+				20220,
+				20221
+			},
+			{
+				20222,
+				20223
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "KelifulanSkinRePage",
+			ui_name = "KelifulanSkinRePage"
+		}
+	},
+	[5366] = {
+		mark = 20240613,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5366,
+		config_data = {
+			10175,
+			10176,
+			10177,
+			10178,
+			10179
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
@@ -17606,6 +17696,51 @@ pg.activity_template = {
 					2023,
 					9,
 					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SurveyPage",
+			ui_name = "SurveyPage"
+		}
+	},
+	[7102] = {
+		mark = 20240222,
+		type = 101,
+		login_pop = 0,
+		config_id = 1002,
+		is_show = 35,
+		config_client = "",
+		title_res_tag = "survey",
+		id = 7102,
+		config_data = {
+			1,
+			30
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					26
 				},
 				{
 					23,
@@ -21141,6 +21276,51 @@ pg.activity_template = {
 		page_info = {
 			class_name = "U410VictoryPtPage",
 			ui_name = "U410VictoryPtPermanentPage"
+		}
+	},
+	[6023] = {
+		mark = 20240613,
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		config_client = "",
+		title_res_tag = "chuchunskin_permanent",
+		id = 6023,
+		config_data = {
+			{
+				35272,
+				35273
+			},
+			{
+				35274,
+				35275
+			},
+			{
+				35276,
+				35277
+			},
+			{
+				35278,
+				35279
+			},
+			{
+				35280,
+				35281
+			},
+			{
+				35282,
+				35283
+			},
+			{
+				35284,
+				35285
+			}
+		},
+		page_info = {
+			class_name = "ChuChunSkinPage",
+			ui_name = "ChuChunSkinPermanentPage"
 		}
 	},
 	[100001] = {
@@ -41534,6 +41714,7 @@ pg.activity_template = {
 			5345,
 			5361,
 			5363,
+			5366,
 			1079,
 			1080,
 			1081,
@@ -41726,6 +41907,7 @@ pg.activity_template = {
 			5341,
 			5360,
 			5364,
+			5365,
 			6000,
 			6001,
 			6002,
@@ -41745,6 +41927,7 @@ pg.activity_template = {
 			6019,
 			6020,
 			6021,
+			6023,
 			30002,
 			30004,
 			30005,
@@ -42340,7 +42523,8 @@ pg.activity_template = {
 			7017
 		},
 		[101] = {
-			7101
+			7101,
+			7102
 		},
 		[19] = {
 			1069,
@@ -42827,6 +43011,8 @@ pg.activity_template = {
 		5362,
 		5363,
 		5364,
+		5365,
+		5366,
 		7011,
 		7012,
 		7013,
@@ -42835,6 +43021,7 @@ pg.activity_template = {
 		7016,
 		7017,
 		7101,
+		7102,
 		8009,
 		8010,
 		8050,
@@ -42905,6 +43092,7 @@ pg.activity_template = {
 		6020,
 		6021,
 		6022,
+		6023,
 		100001,
 		100003,
 		100004,

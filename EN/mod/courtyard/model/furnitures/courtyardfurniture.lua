@@ -466,6 +466,9 @@ slot0.StartInteraction = function(slot0, slot1)
 	slot0:DispatchEvent(CourtYardEvent.FURNITURE_START_INTERACTION, slot1)
 end
 
+slot0.OnPreheatActionEnd = function(slot0)
+end
+
 slot0.UpdateInteraction = function(slot0, ...)
 	slot0:DispatchEvent(CourtYardEvent.FURNITURE_UPDATE_INTERACTION, ...)
 end

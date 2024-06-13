@@ -1,5 +1,47 @@
 pg = pg or {}
 pg.enemy_data_statistics_312 = {
+	[16517004] = {
+		cannon = 1250,
+		name = "Omitter β",
+		torpedo = 900,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		id = 16517004,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 284,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 25,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 210,
+		base = 90428,
+		durability = 450000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 300,
+		speed = 18,
+		luck = 0,
+		battle_unit_type = 95,
+		antisub = 0,
+		torpedo_growth = 0,
+		fog_fx = "",
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 50500,
+				LV = 5
+			}
+		}
+	},
 	[16517005] = {
 		cannon = 2000,
 		name = "Omitter μ",
@@ -959,42 +1001,6 @@ pg.enemy_data_statistics_312 = {
 			1003121,
 			1003126,
 			1003131
-		}
-	},
-	[16520113] = {
-		cannon = 24,
-		air = 0,
-		torpedo = 33,
-		cannon_growth = 2016,
-		id = 16520113,
-		reload = 150,
-		armor = 0,
-		dodge = 7,
-		torpedo_growth = 2763,
-		hit_growth = 210,
-		reload_growth = 0,
-		dodge_growth = 102,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 60,
-		base = 90467,
-		durability = 780,
-		armor_growth = 0,
-		durability_growth = 41600,
-		antiaircraft = 35,
-		speed = 18,
-		luck = 0,
-		antiaircraft_growth = 2880,
-		fog_fx = "",
-		antisub = 0,
-		equipment_list = {
-			1003136,
-			1003141,
-			1003146,
-			1003151
 		}
 	}
 }

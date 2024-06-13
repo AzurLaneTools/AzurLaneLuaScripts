@@ -1,5 +1,81 @@
 pg = pg or {}
 pg.enemy_data_statistics_332 = {
+	[16553201] = {
+		antisub = 0,
+		battle_unit_type = 90,
+		speed_growth = 0,
+		luck_growth = 0,
+		air = 0,
+		armor = 0,
+		hit_growth = 210,
+		cannon = 120,
+		fog_fx = "",
+		dodge_growth = 156,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90808,
+		durability = 12530,
+		armor_growth = 0,
+		torpedo_growth = 1500,
+		speed = 20,
+		luck = 18,
+		id = 16553201,
+		scale = 180,
+		cannon_growth = 1700,
+		pilot_ai_template_id = 20006,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 25,
+		torpedo = 105,
+		durability_growth = 220600,
+		antiaircraft = 205,
+		antiaircraft_growth = 3200,
+		bound_bone = {
+			cannon = {
+				{
+					1.55,
+					1.25,
+					-0.6
+				}
+			},
+			torpedo = {
+				{
+					0.33,
+					0.55,
+					-0.32
+				}
+			},
+			antiaircraft = {
+				{
+					0.8,
+					1.04,
+					-0.6
+				}
+			},
+			plane = {
+				{
+					1.36,
+					0.67,
+					-0.39
+				}
+			}
+		},
+		appear_fx = {
+			"appearsmall",
+			"nuofukedanchuan_buff_01",
+			"danchuanheiyan_CA"
+		},
+		equipment_list = {
+			3087301,
+			3087302,
+			3087303,
+			3087304,
+			3087305,
+			3087306,
+			3087307
+		}
+	},
 	[16553202] = {
 		battle_unit_type = 90,
 		speed_growth = 0,
@@ -1173,44 +1249,6 @@ pg.enemy_data_statistics_332 = {
 		id = 16555001,
 		antisub = 0,
 		fog_fx = "",
-		equipment_list = {}
-	},
-	[16555002] = {
-		cannon = 800,
-		air = 0,
-		torpedo = 800,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		armor = 0,
-		dodge = 0,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 9999,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 95,
-		base = 90819,
-		durability = 3000000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 800,
-		speed = 25,
-		luck = 0,
-		antiaircraft_growth = 0,
-		antisub = 0,
-		id = 16555002,
-		scale = 180,
-		fog_fx = "",
-		appear_fx = {
-			"heisewuqi_stg",
-			"bossguangxiao",
-			"appearQ"
-		},
 		equipment_list = {}
 	}
 }

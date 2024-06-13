@@ -1,5 +1,43 @@
 pg = pg or {}
 pg.enemy_data_statistics_352 = {
+	[16594302] = {
+		cannon = 310,
+		name = "Incarnation of Pamiat' Merkuria",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		id = 16594302,
+		air = 370,
+		armor = 0,
+		luck_growth = 0,
+		hit_growth = 330,
+		fog_fx = "",
+		dodge_growth = 312,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90886,
+		durability = 65000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 18,
+		luck = 30,
+		antisub = 0,
+		scale = 180,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 26,
+		reload_growth = 0,
+		hit = 35,
+		torpedo = 130,
+		durability_growth = 0,
+		antiaircraft = 410,
+		battle_unit_type = 95,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {}
+	},
 	[16594303] = {
 		cannon = 350,
 		name = "Incarnation of Pamiat' Merkuria",
@@ -939,48 +977,6 @@ pg.enemy_data_statistics_352 = {
 			3139303,
 			3139304,
 			3139305
-		}
-	},
-	[16599201] = {
-		cannon = 8,
-		air = 0,
-		torpedo = 36,
-		cannon_growth = 560,
-		pilot_ai_template_id = 20005,
-		reload = 150,
-		armor = 0,
-		dodge = 0,
-		torpedo_growth = 3250,
-		hit_growth = 144,
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 15,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 25,
-		base = 90899,
-		durability = 640,
-		armor_growth = 0,
-		durability_growth = 13200,
-		antiaircraft = 80,
-		speed = 15,
-		luck = 0,
-		antiaircraft_growth = 1000,
-		antisub = 0,
-		id = 16599201,
-		fog_fx = "",
-		equipment_list = {
-			3139007,
-			3139012,
-			3139017
-		},
-		buff_list = {
-			{
-				ID = 200821,
-				LV = 3
-			}
 		}
 	}
 }

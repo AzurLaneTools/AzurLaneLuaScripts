@@ -1,5 +1,54 @@
 pg = pg or {}
 pg.enemy_data_statistics_273 = {
+	[15901301] = {
+		cannon = 160,
+		name = "Vision of King George V",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		id = 15901301,
+		air = 0,
+		armor = 0,
+		luck_growth = 0,
+		hit_growth = 210,
+		fog_fx = "",
+		dodge_growth = 108,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90516,
+		durability = 16500,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 20,
+		luck = 8,
+		antisub = 0,
+		scale = 180,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 16,
+		torpedo = 0,
+		durability_growth = 0,
+		antiaircraft = 180,
+		battle_unit_type = 95,
+		specific_fx_scale = {
+			heisewuqi_stg = 1.5
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ",
+			"heisewuqi_stg"
+		},
+		equipment_list = {
+			893301,
+			893302,
+			893303,
+			893304,
+			893305,
+			893306
+		}
+	},
 	[15901302] = {
 		cannon = 120,
 		name = "Up-Armored Queen",
@@ -967,42 +1016,6 @@ pg.enemy_data_statistics_273 = {
 				ID = 50510,
 				LV = 3
 			}
-		}
-	},
-	[15902115] = {
-		cannon = 36,
-		air = 86,
-		torpedo = 0,
-		cannon_growth = 0,
-		id = 15902115,
-		reload = 150,
-		armor = 0,
-		dodge = 9,
-		torpedo_growth = 0,
-		hit_growth = 280,
-		reload_growth = 0,
-		dodge_growth = 96,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 25,
-		antisub_growth = 0,
-		air_growth = 4127,
-		battle_unit_type = 70,
-		base = 90469,
-		durability = 5780,
-		armor_growth = 0,
-		durability_growth = 58880,
-		antiaircraft = 134,
-		speed = 16,
-		luck = 0,
-		antiaircraft_growth = 5280,
-		fog_fx = "",
-		antisub = 0,
-		equipment_list = {
-			1003178,
-			1003183,
-			1003188,
-			1003193
 		}
 	}
 }

@@ -18,14 +18,14 @@ pg.survey_data_template = {
 		}
 	},
 	[1002] = {
-		ios_url = "https://usersurvey.wjx.cn/vm/wFx2bAQ.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
-		uo_url = "https://usersurvey.wjx.cn/vm/twi78ax.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
-		main_url = "https://usersurvey.wjx.cn/vm/OKyoiqf.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
+		ios_url = "",
+		uo_url = "",
+		main_url = "http://survey.yostar.net/vm/wKrlqqF.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6",
 		id = 1002,
-		name = "问卷第二期",
-		main_activity = "252629872",
-		ios_activity = "252629969",
-		uo_activity = "252629896",
+		name = "Azur Lane Light of the Martyrium Event Player Survey",
+		main_activity = "270316309",
+		ios_activity = "",
+		uo_activity = "",
 		bonus = {
 			{
 				2,

@@ -126,19 +126,25 @@ slot6.GetType = function(slot0)
 end
 
 slot6.Fire = function(slot0)
-	slot4 = {}
+	if slot0._host:IsCease() then
+		return false
+	else
+		slot4 = {}
 
-	slot0._host:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_ALL_IN_STRIKE_STEADY, slot4)
+		slot0._host:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_ALL_IN_STRIKE_STEADY, slot4)
 
-	for slot4, slot5 in ipairs(slot0._hiveList) do
-		slot5:SingleFire()
+		for slot4, slot5 in ipairs(slot0._hiveList) do
+			slot5:SingleFire()
+		end
+
+		slot0._skill:Cast(slot0._host)
+		slot0._host:StrikeExpose()
+		slot0._host:StateChange(uv0.Battle.UnitState.STATE_ATTACK, "attack")
+		slot0:DispatchEvent(uv0.Event.New(uv1.MANUAL_WEAPON_FIRE, {}))
+		slot0._host:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_ALL_IN_STRIKE, {})
 	end
 
-	slot0._skill:Cast(slot0._host)
-	slot0._host:StrikeExpose()
-	slot0._host:StateChange(uv0.Battle.UnitState.STATE_ATTACK, "attack")
-	slot0:DispatchEvent(uv0.Event.New(uv1.MANUAL_WEAPON_FIRE, {}))
-	slot0._host:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_ALL_IN_STRIKE, {})
+	return true
 end
 
 slot6.TriggerBuffOnReady = function(slot0)

@@ -54,6 +54,18 @@ pg.ship_meta_breakout = setmetatable({
 		9703012,
 		9703013,
 		9703014,
+		9703021,
+		9703022,
+		9703023,
+		9703024,
+		9703031,
+		9703032,
+		9703033,
+		9703034,
+		9703041,
+		9703042,
+		9703043,
+		9703044,
 		9704011,
 		9704012,
 		9704013,
@@ -126,18 +138,10 @@ pg.ship_meta_breakout = setmetatable({
 		9712012,
 		9712013,
 		9712014,
-		9703021,
-		9703022,
-		9703023,
-		9703024,
 		9713011,
 		9713012,
 		9713013,
-		9713014,
-		9703031,
-		9703032,
-		9703033,
-		9703034
+		9713014
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -958,6 +962,195 @@ pg.base.ship_meta_breakout = {
 		item2_num = 0,
 		id = 9703014,
 		item1 = 21013,
+		level = 0,
+		weapon_ids = {}
+	},
+	[9703021] = {
+		breakout_view = "Unlock Cinders of Hope – Algérie/Main Gun efficiency +5%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 1000,
+		breakout_id = 9703022,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9703021,
+		item1 = 21023,
+		level = 10,
+		weapon_ids = {
+			80011
+		}
+	},
+	[9703022] = {
+		breakout_view = "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+		item2 = 21001,
+		pre_id = 9703021,
+		repair = 0,
+		gold = 3000,
+		breakout_id = 9703023,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9703022,
+		item1 = 21023,
+		level = 30,
+		weapon_ids = {
+			105,
+			105
+		}
+	},
+	[9703023] = {
+		breakout_view = "Improve Cinders of Hope – Algérie/Torpedo efficiency +15%",
+		item2 = 21001,
+		pre_id = 9703022,
+		repair = 0,
+		gold = 10000,
+		breakout_id = 9703024,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9703023,
+		item1 = 21023,
+		level = 70,
+		weapon_ids = {
+			80012
+		}
+	},
+	[9703024] = {
+		breakout_view = "None",
+		item2 = 21001,
+		pre_id = 9703023,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9703024,
+		item1 = 21023,
+		level = 0,
+		weapon_ids = {}
+	},
+	[9703031] = {
+		breakout_view = "Unlock Cinders of Hope - Foch/Main gun efficiency +5%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 500,
+		breakout_id = 9703032,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9703031,
+		item1 = 21034,
+		level = 10,
+		weapon_ids = {
+			80281
+		}
+	},
+	[9703032] = {
+		breakout_view = "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+		item2 = 21001,
+		pre_id = 9703031,
+		repair = 0,
+		gold = 1500,
+		breakout_id = 9703033,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9703032,
+		item1 = 21034,
+		level = 30,
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[9703033] = {
+		breakout_view = "Improve Cinders of Hope - Foch/Torpedo efficiency +15%",
+		item2 = 21001,
+		pre_id = 9703032,
+		repair = 0,
+		gold = 2500,
+		breakout_id = 9703034,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9703033,
+		item1 = 21034,
+		level = 70,
+		weapon_ids = {
+			80282
+		}
+	},
+	[9703034] = {
+		breakout_view = "None",
+		item2 = 21001,
+		pre_id = 9703033,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9703034,
+		item1 = 21034,
+		level = 0,
+		weapon_ids = {}
+	},
+	[9703041] = {
+		breakout_view = "Unlock Ashen Might - Wichita/Main gun efficiency +5%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 1000,
+		breakout_id = 9703042,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9703041,
+		item1 = 21035,
+		level = 10,
+		weapon_ids = {
+			80291
+		}
+	},
+	[9703042] = {
+		breakout_view = "Main gun base +1/Main gun efficiency +10%",
+		item2 = 21001,
+		pre_id = 9703041,
+		repair = 0,
+		gold = 3000,
+		breakout_id = 9703043,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9703042,
+		item1 = 21035,
+		level = 30,
+		weapon_ids = {
+			13000,
+			13000
+		}
+	},
+	[9703043] = {
+		breakout_view = "Improve Ashen Might - Wichita/All weapons' efficiency +5%",
+		item2 = 21001,
+		pre_id = 9703042,
+		repair = 0,
+		gold = 10000,
+		breakout_id = 9703044,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9703043,
+		item1 = 21035,
+		level = 70,
+		weapon_ids = {
+			80292
+		}
+	},
+	[9703044] = {
+		breakout_view = "None",
+		item2 = 21001,
+		pre_id = 9703043,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9703044,
+		item1 = 21035,
 		level = 0,
 		weapon_ids = {}
 	},
@@ -2163,69 +2356,6 @@ pg.base.ship_meta_breakout = {
 		level = 0,
 		weapon_ids = {}
 	},
-	[9703021] = {
-		breakout_view = "Unlock Cinders of Hope – Algérie/Main Gun efficiency +5%",
-		item2 = 21001,
-		pre_id = 0,
-		repair = 0,
-		gold = 1000,
-		breakout_id = 9703022,
-		item1_num = 1,
-		item2_num = 0,
-		id = 9703021,
-		item1 = 21023,
-		level = 10,
-		weapon_ids = {
-			80011
-		}
-	},
-	[9703022] = {
-		breakout_view = "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
-		item2 = 21001,
-		pre_id = 9703021,
-		repair = 0,
-		gold = 3000,
-		breakout_id = 9703023,
-		item1_num = 1,
-		item2_num = 0,
-		id = 9703022,
-		item1 = 21023,
-		level = 30,
-		weapon_ids = {
-			105,
-			105
-		}
-	},
-	[9703023] = {
-		breakout_view = "Improve Cinders of Hope – Algérie/Torpedo efficiency +15%",
-		item2 = 21001,
-		pre_id = 9703022,
-		repair = 0,
-		gold = 10000,
-		breakout_id = 9703024,
-		item1_num = 2,
-		item2_num = 0,
-		id = 9703023,
-		item1 = 21023,
-		level = 70,
-		weapon_ids = {
-			80012
-		}
-	},
-	[9703024] = {
-		breakout_view = "None",
-		item2 = 21001,
-		pre_id = 9703023,
-		repair = 0,
-		gold = 0,
-		breakout_id = 0,
-		item1_num = 0,
-		item2_num = 0,
-		id = 9703024,
-		item1 = 21023,
-		level = 0,
-		weapon_ids = {}
-	},
 	[9713011] = {
 		breakout_view = "Unlock Cinders of Hope - Erebus/Secondary Gun base +1/Main gun efficiency +5%",
 		item2 = 21001,
@@ -2289,69 +2419,6 @@ pg.base.ship_meta_breakout = {
 		item2_num = 0,
 		id = 9713014,
 		item1 = 21027,
-		level = 0,
-		weapon_ids = {}
-	},
-	[9703031] = {
-		breakout_view = "Unlock Cinders of Hope - Foch/Main gun efficiency +5%",
-		item2 = 21001,
-		pre_id = 0,
-		repair = 0,
-		gold = 500,
-		breakout_id = 9703032,
-		item1_num = 1,
-		item2_num = 0,
-		id = 9703031,
-		item1 = 21034,
-		level = 10,
-		weapon_ids = {
-			80281
-		}
-	},
-	[9703032] = {
-		breakout_view = "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
-		item2 = 21001,
-		pre_id = 9703031,
-		repair = 0,
-		gold = 1500,
-		breakout_id = 9703033,
-		item1_num = 1,
-		item2_num = 0,
-		id = 9703032,
-		item1 = 21034,
-		level = 30,
-		weapon_ids = {
-			106,
-			106
-		}
-	},
-	[9703033] = {
-		breakout_view = "Improve Cinders of Hope - Foch/Tornado efficiency +15%",
-		item2 = 21001,
-		pre_id = 9703032,
-		repair = 0,
-		gold = 2500,
-		breakout_id = 9703034,
-		item1_num = 2,
-		item2_num = 0,
-		id = 9703033,
-		item1 = 21034,
-		level = 70,
-		weapon_ids = {
-			80282
-		}
-	},
-	[9703034] = {
-		breakout_view = "None",
-		item2 = 21001,
-		pre_id = 9703033,
-		repair = 0,
-		gold = 0,
-		breakout_id = 0,
-		item1_num = 0,
-		item2_num = 0,
-		id = 9703034,
-		item1 = 21034,
 		level = 0,
 		weapon_ids = {}
 	}

@@ -5952,64 +5952,33 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 - META Showdown Overview -
 
-From <color=#92fc63>3/14/24 to 6/12/24</color>, challenge Rodney META
-to earn Sync Points. Sync Points can be used
-to obtain the limited character, <color=#92fc63>Rodney META</color> as well
-as other great rewards.
+From <color=#92fc63>6/13/24 to 9/5/24</color>, challenge Wichita META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Wichita META</color> as well as other great rewards.
 <color=#ff5c5c>Note: Sync Points will expire after the event period ends.</color>
 
 - Acquiring and Analyzing META Coordinates -
-· META Coordinates can be earned by playing Operation Siren.
-Sufficient amounts of META Coordinates
-can be analyzed to begin a META Showdown.
-· You may perform Analysis <color=#92fc63>2 times</color> per day,
-resetting every day at midnight. Unused
-META Coordinates will be retained.
-· You need <color=#92fc63>100</color> META Coordinates to begin 
-a META Showdown.
+· META Coordinates can be earned by playing Operation Siren. Sufficient amounts of META Coordinates can be analyzed to begin a META Showdown.
+· You may perform Analysis <color=#92fc63>2 times</color> per day, resetting every day at midnight. Unused META Coordinates will be retained.
+· You need <color=#92fc63>100</color> META Coordinates to begin a META Showdown.
 
 - Fighting Your Bosses -
-· Your first time challenging a META boss that you
-spawned will not require Oil. From the second
-attempt onwards, cost of each attempt will gradually drop from <color=#92fc63>40</color> Oil to <color=#92fc63>0</color> Oil.
-(Will not consume a challenge attempt).
-· When a META Showdown boss reaches 0 HP,
-it will be defeated. Participants will be able to collect
-rewards, including a large amount of Sync Points.
-· Each META Showdown will only last for <color=#92fc63>24 hours</color>,
-after which it will disappear.
-Use Request Support if you need help.
-· After defeating a META boss, the difficulty
-of subsequent META Showdowns will increase by
-1 level, up to a maximum of 15.
+· Your first time challenging a META boss that you spawned will not require Oil. From the second attempt onwards, cost of each attempt will gradually drop from <color=#92fc63>40</color> Oil to <color=#92fc63>0</color> Oil. (Will not consume a challenge attempt).
+· When a META Showdown boss reaches 0 HP, they will be defeated. Participants will be able to collect rewards, including a large amount of Sync Points.
+· Each META Showdown will only last for <color=#92fc63>24 hours</color>, after which it will disappear. Use Request Support if you need help.
+· After defeating a META boss, the difficulty of subsequent META Showdowns will increase by 1 level, up to a maximum of 15.
 
 - Fighting Others' Bosses -
-· In the Boss List menu, you can see requests that
-other Commanders have sent.
-When fighting another Commander's boss, you
-will immediately gain Sync Points based
-upon the <color=#92fc63>amount of DMG</color> you dealt.
-· Each attempt uses 1 Challenge Attempt, but
-uses no Oil.
-· You can have up to <color=#92fc63>3</color> Challenge attempts,
-resetting each day at midnight.
+· In the Boss List menu, you can see requests that other Commanders have sent. When fighting another Commander's boss, you will immediately gain Sync Points based upon the <color=#92fc63>amount of DMG</color> you dealt.
+· Each attempt uses 1 Challenge Attempt, but uses no Oil.
+· You can have up to <color=#92fc63>3</color> Challenge attempts, resetting each day at midnight.
 Each META Showdown can have up to 30 participants.
 
 - Combat Instructions -
 · You cannot bring Meowfficers or submarines.
-· At the end of battle, no EXP is gained, and Morale
-will not be affected.
-· You cannot quit during an META Showdown.
-If connection is lost due to unstable network
-conditions, the following will occur:
-a. If challenging a boss you discovered, you will
-spend 40 Oil (the first battle is still free), and
-any damage done will not count.
-b. If challenging someone else's boss,
-a challenge attempt will be used, but no rewards
-will be granted.
-<color=#92fc63>Please make sure your network conditions are stable
-before attempting an META Showdown!</color>
+· At the end of battle, no EXP is gained, and Morale will not be affected.
+· You cannot quit during an META Showdown. If connection is lost due to unstable network conditions, the following will occur:
+a. If challenging a boss you discovered, you will spend 40 Oil (the first battle is still free), and any damage done will not count.
+b. If challenging someone else's boss, a challenge attempt will be used, but no rewards will be granted.
+<color=#92fc63>Please make sure your network conditions are stable before attempting an META Showdown!</color>
 
 - Artillery Support -
 From the 31st day of this META Showdown season onwards, whenever you begin an META Showdown, your fleet will gain an additional wave of artillery support. This artillery support will deal damage to the enemy and apply a special debuff that inflicts damage over time (this damage cannot be amplified by any bonus effects).
@@ -12835,17 +12804,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "Little Renown and Amagi-chan added to standard build pool!"
+	tip = "Foch added to standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Kirov, Gremyashchy, Murmansk, and others added to standard build pool!"
+	tip = "L'Indomptable and Enterprise (CL) added to standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "Little Illustrious and Little Enterprise added to standard build pool!"
+	tip = "Joffre added to standard build pool!"
 }
 
 
@@ -17688,7 +17657,7 @@ _G.pg.base.gametip.retire_rarity = {
 
 
 _G.pg.base.gametip.retire_title = {
-	tip = "Quick Retire Options"
+	tip = "Retire Settings"
 }
 
 
@@ -17736,15 +17705,16 @@ _G.pg.base.gametip.retire_setting_help = {
 	tip = {
 		{
 			info = [[
-By tapping the “Quick Retire” button to the bottom left of the Retire interface, you can quickly retire ships that meet all of the following conditions:
- 1. Must be level 1.
- 2. Must not be locked.
- 3. Must already own another locked copy of that ship.
- 4. Rarity must be Elite or below (can be toggled through the Quick Retire Settings).
- 5. Must not be sortieing, on commission, assigned to a formation, or in an exercise.
- 6. Must not be assigned to the Lecture Hall, Tactical Class, Dorm, or be set as secretary. Quick Retire can also exclude certain ships based upon the following criteria that can toggled in Settings:
- -Duplicates of ships that have already been fully limit broken.
- -Duplicates of ships that have not been fully limit broken.]]
+ –When Accidental Retire Protection is enabled, if a ship selected for retiring <color=#92fc63>is the only copy of that ship</color> in your Dock, you will have to enter the passcode to continue with retiring.
+–Mass Retire Conditions:
+ 1. One of the following rarities only: Elite, Rare, Common
+ 2. Unlocked characters only
+ 3. Level 1 only
+ 4. Non-Bulins only
+ 5. Ships that are not present in a Fleet, serving as Secretary, in commission, or subject to any other special status
+–Mass Retire settings only apply to ships that <color=#92fc63>fulfill the above 5 conditions</color>
+–The default order for auto-selection priority is Common, Rare, then Elite.
+ –Go to <color=#92fc63>Settings</color> to include or exclude rarities and change the prioritization order.]]
 		}
 	}
 }
@@ -21523,7 +21493,7 @@ _G.pg.base.gametip.common_daily_limit = {
 _G.pg.base.gametip.meta_help = {
 	tip = {
 		{
-			info = "- About the META Lab:"
+			info = "META Lab Info:"
 		},
 		{
 			info = "The META Lab is where you are able to acquire and upgrade META ships. Here you can:"
@@ -21535,7 +21505,7 @@ _G.pg.base.gametip.meta_help = {
 			info = "- Claim rewards from accumulating Sync Points"
 		},
 		{
-			info = "- Carry out Rigging Fortification, and Tactical Research, and Somatic Activation"
+			info = "- Carry out Rigging Fortification, and Tactical Research, and Somatic Activation\n\n"
 		},
 		{
 			info = "1. About Sync Points:"
@@ -21544,19 +21514,22 @@ _G.pg.base.gametip.meta_help = {
 			info = "Sync Points obtained through META Showdown in Operation Siren can be used to recruit certain META ships."
 		},
 		{
-			info = "Obtainable rewards from accumulating Sync Points can be viewed and claimed on each corresponding META ship’s tab in the META Lab. Furthermore, upon obtaining enough Sync Points, you’ll be able to recruit a META ship."
+			info = "Obtainable rewards from accumulating Sync Points can be viewed and claimed on each corresponding META ship’s tab in the META Lab. Furthermore, upon obtaining enough Sync Points, you’ll be able to recruit a META ship.\n\n"
+		},
+		{
+			info = "From <color=#92fc63>6/13/24 to 9/5/24</color>, challenge Wichita META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Wichita META</color> as well as other great rewards.\n\n"
 		},
 		{
 			info = "2. About Rigging Fortification:"
 		},
 		{
-			info = "Recruited META ships can be enhanced via the Rigging Fortification menu. Fortifying a META ship's rigging lets you upgrade their fire power, torpedoes, aviation, and reload stats."
+			info = "Recruited META ships can be enhanced via the Rigging Fortification menu. Fortifying a META ship's rigging lets you upgrade their firepower, torpedoes, aviation, and reload stats."
 		},
 		{
 			info = "Enhancing these stats past a certain threshold grants you access to additional bonus stat boosts."
 		},
 		{
-			info = "The process of fortifying riggings requires specific materials."
+			info = "The process of fortifying riggings requires specific materials.\n\n"
 		},
 		{
 			info = "3. About Somatic Activation:"
@@ -21565,7 +21538,7 @@ _G.pg.base.gametip.meta_help = {
 			info = "Much like ordinary ships, META ships can be upgraded and have their star rating increase. However, instead of Bulins, META ships require their own item called META Crystals."
 		},
 		{
-			info = "For more information, consult the tips on ordinary Limit Breaking."
+			info = "For more information, consult the tips on ordinary Limit Breaking.\n\n"
 		},
 		{
 			info = "4. About Tactical Research:"
@@ -34489,4 +34462,39 @@ _G.pg.base.gametip.xiaodadi_npc = {
 			info = "· Little Friedrich cannot participate in Guild Bosses until she has been formally recruited."
 		}
 	}
+}
+
+
+_G.pg.base.gametip.words_lock_ship_label = {
+	tip = "Automatically lock new characters"
+}
+
+
+_G.pg.base.gametip.one_click_retire_subtitle = {
+	tip = "Mass Retire Settings"
+}
+
+
+_G.pg.base.gametip.unique_ship_retire_protect = {
+	tip = "Accidental Retire Protection"
+}
+
+
+_G.pg.base.gametip.unique_ship_tip1 = {
+	tip = "You only have <color=#92fc63>1 copy</color> of the following shipgirls:"
+}
+
+
+_G.pg.base.gametip.unique_ship_retire_before_tip = {
+	tip = "Confirm"
+}
+
+
+_G.pg.base.gametip.unique_ship_tip2 = {
+	tip = "Current selection contains <color=#92fc63>unique</color> shipgirls. Please enter <color=#92fc63>$1</color> to confirm this selection."
+}
+
+
+_G.pg.base.gametip.lock_new_ship = {
+	tip = "Automatically lock new characters"
 }

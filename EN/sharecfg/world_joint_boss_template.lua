@@ -496,6 +496,69 @@ pg.world_joint_boss_template = {
 			1
 		}
 	},
+	{
+		name = "Wichita META",
+		boss_level_id = 211,
+		item_id = 100000,
+		painting = "weiqita",
+		meta_id = 970304,
+		id = 15,
+		description = {
+			{
+				"Tooth and Nail",
+				3,
+				"Every time this ship loses <color=#92fc63>5.0% of her max HP in total, her DMG dealt increases by 5.0%</color>."
+			},
+			{
+				"Chains of Flickering Flames",
+				2,
+				"When this ship hits one of your ships with her chain, that ship will be restrained, <color=#92fc63>temporarily rendering her unable to attack or move and increases her DMG taken by 20.0%</color>."
+			},
+			{
+				"The Final Strike",
+				1,
+				"When the battle is nearly over, this ship deploys the Council-Style MK XIII Orbital Cannon, dealing massive damage to all targets on the battlefield."
+			}
+		},
+		state = {
+			{
+				{
+					2024,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					9,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			10,
+			679.8,
+			1,
+			1
+		},
+		p_offset_other = {
+			615,
+			679.8,
+			1,
+			1
+		}
+	},
 	all = {
 		1,
 		2,
@@ -510,6 +573,7 @@ pg.world_joint_boss_template = {
 		11,
 		12,
 		13,
-		14
+		14,
+		15
 	}
 }
