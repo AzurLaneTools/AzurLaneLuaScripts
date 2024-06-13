@@ -87889,9 +87889,9 @@ _G.pg.base.item_data_statistics[81204] = {
 
 _G.pg.base.item_data_statistics[81205] = {
 	open_directly = 1,
-	name = "七周年礼盒",
+	name = "연회복 패키지 (2024)",
 	type = 17,
-	display = "购买礼包可获得随机换装*1，钻石*2024，心智单元*50，心智魔方*20，高级定向蓝图·六期*2，快速完成工具*10，家具币*100",
+	display = "패키지를 구매하면 특정 범위 내의 랜덤 스킨*1, 다이아*2024, 성정 큐브*20, 고급 지향형 강화 유닛-제6기*2, 고속건조재*10, 가구 코인*100, 성정 유닛*50을 획득 가능",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",

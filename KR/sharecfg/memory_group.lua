@@ -4566,7 +4566,7 @@ pg.base.memory_group = {
 		}
 	},
 	[290] = {
-		title = "비취 정원에서의 자수",
+		title = "취원가수",
 		subtype = 3,
 		link_event = 5360,
 		type = 2,

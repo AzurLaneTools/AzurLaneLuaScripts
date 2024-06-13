@@ -23168,7 +23168,7 @@ pg.base.furniture_data_template = {
 	},
 	[100062] = {
 		can_rotate = 0,
-		describe = "用如影随形的纯真视线扫视四周啾！",
+		describe = "그림자처럼 따라다니는 순수한 시선으로 사방을 휘둘러본다쥬!",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -23187,7 +23187,7 @@ pg.base.furniture_data_template = {
 		canputon = 0,
 		themeId = 0,
 		count = 1,
-		name = "啾啾不倒翁（纯真）",
+		name = "쥬쥬 오뚜기(순수)",
 		advice = 0,
 		id = 100062,
 		icon = "jiujiubudaowengicon",

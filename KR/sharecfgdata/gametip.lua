@@ -3051,12 +3051,12 @@ _G.pg.base.gametip.mail_mail_page = {
 
 
 _G.pg.base.gametip.mail_storeroom_page = {
-	tip = "저장고"
+	tip = "저장실"
 }
 
 
 _G.pg.base.gametip.mail_boxroom_page = {
-	tip = "보관고"
+	tip = "수집실"
 }
 
 
@@ -3081,17 +3081,17 @@ _G.pg.base.gametip.mail_reward_got = {
 
 
 _G.pg.base.gametip.mail_reward_tips = {
-	tip = "※ 우편에 첨부된 물자와 연료는 저장고로 발송됩니다."
+	tip = "※ 우편에 첨부된 물자와 연료는 저장실로 발송됩니다."
 }
 
 
 _G.pg.base.gametip.mail_boxroom_extend_title = {
-	tip = "저장고 확장"
+	tip = "저장실 확장"
 }
 
 
 _G.pg.base.gametip.mail_boxroom_extend_tips = {
-	tip = "저장고 용량 확장"
+	tip = "저장실 용량 확장"
 }
 
 
@@ -3106,7 +3106,7 @@ _G.pg.base.gametip.mail_manager_title = {
 
 
 _G.pg.base.gametip.mail_manager_tips_2 = {
-	tip = "※ 우편에 첨부된 물자와 연료는 저장고로 발송됩니다."
+	tip = "※ 우편에 첨부된 물자와 연료는 저장실로 발송됩니다."
 }
 
 
@@ -3126,7 +3126,7 @@ _G.pg.base.gametip.mail_get_oneclick = {
 
 
 _G.pg.base.gametip.mail_read_oneclick = {
-	tip = "읽음 처리"
+	tip = "일괄 읽기"
 }
 
 
@@ -3296,7 +3296,7 @@ _G.pg.base.gametip.main_mailMediator_mailread = {
 
 
 _G.pg.base.gametip.main_mailMediator_mailmove = {
-	tip = "우편이 보관고로 이동했습니다."
+	tip = "우편이 수집실로 이동했습니다."
 }
 
 
@@ -14501,17 +14501,17 @@ _G.pg.base.gametip.warning_mail_max_5 = {
 
 
 _G.pg.base.gametip.mail_moveto_markroom_1 = {
-	tip = "우편을 우편함에서<color=#92fc63>[보관고]</color>로 이동하시겠습니까? \n이동하면 우편에 첨부된 아이템은 자동으로 반출됩니다."
+	tip = "우편을 우편함에서<color=#92fc63>[수집실]</color>로 이동하시겠습니까? \n이동하면 우편에 첨부된 아이템은 자동으로 반출됩니다."
 }
 
 
 _G.pg.base.gametip.mail_moveto_markroom_2 = {
-	tip = "중요 우편을 우편함에서 <color=#92fc63>[보관고]</color>로 이동하시겠습니까? \n이동하면 우편에 첨부된 아이템은 자동으로 반출됩니다."
+	tip = "중요 우편을 우편함에서 <color=#92fc63>[수집실]</color>로 이동하시겠습니까? \n이동하면 우편에 첨부된 아이템은 자동으로 반출됩니다."
 }
 
 
 _G.pg.base.gametip.mail_moveto_markroom_max = {
-	tip = "<color=#92fc63>[보관고]</color>의 최대 우편 보관 수에 달했습니다. 우편을 이동할 수 없습니다."
+	tip = "<color=#92fc63>[수집실]</color>의 최대 우편 보관 수에 달했습니다. 우편을 이동할 수 없습니다."
 }
 
 
@@ -14546,22 +14546,22 @@ _G.pg.base.gametip.mail_manage_tip_1 = {
 
 
 _G.pg.base.gametip.mail_storeroom_tips = {
-	tip = "※ 첨부 아이템 중 물자·연료는 [저장고]로 이동됩니다."
+	tip = "※ 첨부 아이템 중 물자·연료는 [저장실]로 이동됩니다."
 }
 
 
 _G.pg.base.gametip.mail_storeroom_noextend = {
-	tip = "저장고의 자원 보관량이 한도에 달했습니다. 더 이상 확장할 수 없습니다."
+	tip = "저장실의 자원 보관량이 한도에 달했습니다. 더 이상 확장할 수 없습니다."
 }
 
 
 _G.pg.base.gametip.mail_storeroom_extend = {
-	tip = "저장고 용량 확장:"
+	tip = "저장실 용량 확장:"
 }
 
 
 _G.pg.base.gametip.mail_storeroom_extend_1 = {
-	tip = "저장고 확장 성공"
+	tip = "저장실 확장 성공"
 }
 
 
@@ -14571,7 +14571,7 @@ _G.pg.base.gametip.mail_storeroom_taken_1 = {
 
 
 _G.pg.base.gametip.mail_storeroom_max_1 = {
-	tip = "저장고의 자원 보관량이 한도에 달하여, 다음 자원이 폐기됩니다. 계속하시겠습니까?"
+	tip = "저장실의 자원 보관량이 한도에 달하여, 다음 자원이 폐기됩니다. 계속하시겠습니까?"
 }
 
 
@@ -14613,17 +14613,17 @@ _G.pg.base.gametip.mail_tip = {
  1. 우편함의 최대 우편 소지 수는 100입니다([중요], [특수] 우편 포함).
  2. [일괄 관리]로 표시되는 우편을 필터링하거나, 우편을 일괄적으로 관리할 수 있습니다.
  　읽음 처리: 표시되는 우편을 모두 읽은 것으로 처리합니다.
- 　일괄 수령: 표시되는 우편의 첨부 아이템을 일괄적으로 수령합니다(연료 및 물자는 저장고로 이동됩니다.).
+ 　일괄 수령: 표시되는 우편의 첨부 아이템을 일괄적으로 수령합니다(연료 및 물자는 저장실로 이동됩니다.).
  　일괄 삭제: 표시되는 우편 중 "첨부 아이템을 수령한 우편"을 일괄적으로 삭제할 수 있습니다.
  3. 일반 우편에 [중요]를 설정하면, [중요] 우편으로 분류할 수 있습니다.
  4. [물자], [연료], [공훈 Pt], [큐브] 이외의 우편은 [특수]로 분류됩니다.
 
-  <color=#92fc63>저장고</color>
- 1. 우편에서 수령한 첨부 아이템 중 [물자]와 [연료]는 저장고에 보관됩니다.
- 2. 원한다면 언제든 저장고에서 자원을 반출할 수 있습니다.
-  <color=#92fc63>보관고</color>
- 1. 일괄 이동 기능으로 우편을 보관고에 보관할 수 있습니다. 이동 시, 우편에 첨부된 아이템은 자동으로 반출됩니다. (보관고로 이동한 우편은 우편함에서 삭제됩니다. 반출된 연료와 물자는 저장고로 이동됩니다.)
- 2. [보관고]의 최대 우편 보관 수는 지휘관 레벨에 따라 다릅니다.]]
+  <color=#92fc63>저장실</color>
+ 1. 우편에서 수령한 첨부 아이템 중 [물자]와 [연료]는 저장실에 보관됩니다.
+ 2. 원한다면 언제든 저장실에서 자원을 반출할 수 있습니다.
+  <color=#92fc63>수집실</color>
+ 1. 일괄 이동 기능으로 우편을 수집실에 보관할 수 있습니다. 이동 시, 우편에 첨부된 아이템은 자동으로 반출됩니다. (수집실로 이동한 우편은 우편함에서 삭제됩니다. 반출된 연료와 물자는 저장실로 이동됩니다.)
+ 2. [수집실]의 최대 우편 보관 수는 지휘관 레벨에 따라 다릅니다.]]
 		}
 	}
 }
@@ -14635,12 +14635,12 @@ _G.pg.base.gametip.mail_page_1 = {
 
 
 _G.pg.base.gametip.mail_page_2 = {
-	tip = "저장고"
+	tip = "저장실"
 }
 
 
 _G.pg.base.gametip.mail_page_3 = {
-	tip = "보관고"
+	tip = "수집실"
 }
 
 
@@ -33679,7 +33679,7 @@ _G.pg.base.gametip.UrExchange_Pt_help = {
 _G.pg.base.gametip.xiaodadi_npc = {
 	tip = {
 		{
-			info = "■ 개요\n\"엄마의 연주 연습\"은 이벤트 시작 시에 임시로 가입하는 [꼬마 프리드리히]의 \"호감도\"를 쌓아서, 총 호감도 획득 수에 따라 [꼬마 프리드리히]를 정식으로 가입시킬 수 있는 이벤트입니다."
+			info = "■ 개요\n\"오늘의 지휘 연습\"은 이벤트 시작 시에 임시로 가입하는 [꼬마 프리드리히]의 \"호감도\"를 쌓아서, 총 호감도 획득 수에 따라 [꼬마 프리드리히]를 정식으로 가입시킬 수 있는 이벤트입니다."
 		},
 		{
 			info = "■ 플레이 방법\n1. 이벤트 기간 중에 특정 스테이지를 클리어하면 \"호감도\"를 획득할 수 있습니다."

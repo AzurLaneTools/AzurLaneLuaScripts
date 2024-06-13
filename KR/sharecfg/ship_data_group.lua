@@ -23171,7 +23171,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"이벤트: 엄마의 연주 연습",
+				"이벤트: 오늘의 지휘 연습",
 				{
 					""
 				},
