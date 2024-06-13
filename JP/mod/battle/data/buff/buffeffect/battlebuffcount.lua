@@ -10,6 +10,10 @@ slot3.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 end
 
+slot3.Repeater = function(slot0)
+	return slot0._keepRestCount
+end
+
 slot3.SetArgs = function(slot0, slot1, slot2)
 	slot0._countTarget = slot0._tempData.arg_list.countTarget or 1
 	slot0._countType = slot3.countType
@@ -21,6 +25,7 @@ slot3.SetArgs = function(slot0, slot1, slot2)
 	slot0._interrupt = slot0._tempData.arg_list.interrupt
 	slot0._iconType = slot0._tempData.arg_list.iconType or 1
 	slot0._gunnerBonus = slot3.gunnerBonus
+	slot0._keepRestCount = slot3.keep
 
 	slot0:ResetCount()
 
@@ -152,9 +157,13 @@ slot3.GetCountType = function(slot0)
 end
 
 slot3.GetCountProgress = function(slot0)
-	return slot0._count / slot0._countTarget
+	return slot0._count / (slot0._hpCountTarget or slot0._countTarget)
 end
 
 slot3.ResetCount = function(slot0)
 	slot0._count = 0
+end
+
+slot3.ConsumeCount = function(slot0)
+	slot0._count = math.max(slot0._count - (slot0._hpCountTarget or slot0._countTarget))
 end

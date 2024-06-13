@@ -27,10 +27,10 @@ slot0.DoPreheatStep = function(slot0, slot1, slot2)
 	if slot1 then
 		slot0.preheatProcess = true
 
-		slot0.host:GetOwner():UpdateInteraction(slot0:PackData(slot1))
+		slot0.host:GetOwner():UpdateInteraction(slot0:PackData(slot1, true))
 
 		if slot2 then
-			slot0.host:GetUser():UpdateInteraction(slot0:PackData(slot2))
+			slot0.host:GetUser():UpdateInteraction(slot0:PackData(slot2, true))
 		end
 	else
 		slot0:DoStep()
@@ -69,7 +69,7 @@ slot0.DoTailStep = function(slot0)
 	slot0.host:GetOwner():UpdateInteraction(slot0:PackData(slot0.tailAction))
 end
 
-slot0.PackData = function(slot0, slot1)
+slot0.PackData = function(slot0, slot1, slot2)
 	return {
 		action = slot1,
 		slot = slot0.host,
@@ -77,12 +77,14 @@ slot0.PackData = function(slot0, slot1)
 		progress = slot0.index / slot0.total,
 		total = slot0.total,
 		index = slot0.index,
-		isReset = slot0.isReset
+		isReset = slot0.isReset,
+		block = slot2
 	}
 end
 
 slot0.StepEnd = function(slot0, slot1)
 	if slot0.preheatProcess then
+		slot0:OnPreheatDone()
 		slot0:DoStep()
 	else
 		if slot0.index == 0 then
@@ -93,6 +95,10 @@ slot0.StepEnd = function(slot0, slot1)
 
 		slot0:OnStepEnd()
 	end
+end
+
+slot0.OnPreheatDone = function(slot0)
+	slot0.host:GetOwner():OnPreheatActionEnd(slot0.host)
 end
 
 slot0.AllStepEnd = function(slot0)

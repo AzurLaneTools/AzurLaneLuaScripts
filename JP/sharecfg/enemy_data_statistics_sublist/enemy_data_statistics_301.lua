@@ -1,5 +1,53 @@
 pg = pg or {}
 pg.enemy_data_statistics_301 = {
+	[16504201] = {
+		cannon = 150,
+		name = "エミール・ベルタン駒式統御武装「Guard」",
+		hit_growth = 210,
+		speed_growth = 0,
+		armor = 0,
+		air = 0,
+		icon_type = 2,
+		type = 2,
+		id = 16504201,
+		antiaircraft = 205,
+		antiaircraft_growth = 3200,
+		fog_fx = "",
+		dodge_growth = 156,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90742,
+		durability = 15950,
+		armor_growth = 0,
+		torpedo_growth = 1500,
+		speed = 20,
+		luck = 22,
+		antisub = 0,
+		cannon_growth = 2000,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 20,
+		torpedo = 105,
+		durability_growth = 291200,
+		luck_growth = 0,
+		battle_unit_type = 90,
+		specific_fx_scale = {
+			yuanchou_tianping = 0.04
+		},
+		appear_fx = {
+			"appearQ",
+			"yuanchou_tianping"
+		},
+		equipment_list = {
+			1101074,
+			1101079,
+			1101084,
+			1101089,
+			769004
+		}
+	},
 	[16504202] = {
 		cannon = 154,
 		name = "ジョッフル駒式統御武装「Blast」",
@@ -1097,45 +1145,6 @@ pg.enemy_data_statistics_301 = {
 		equipment_list = {
 			1002016,
 			1002021
-		}
-	},
-	[16511003] = {
-		cannon = 12,
-		air = 0,
-		torpedo = 15,
-		cannon_growth = 1500,
-		pilot_ai_template_id = 20004,
-		reload = 150,
-		armor = 0,
-		dodge = 0,
-		torpedo_growth = 1200,
-		hit_growth = 144,
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 35,
-		base = 90419,
-		durability = 270,
-		armor_growth = 0,
-		durability_growth = 16000,
-		antiaircraft = 35,
-		speed = 15,
-		luck = 0,
-		antiaircraft_growth = 1000,
-		antisub = 0,
-		id = 16511003,
-		fog_fx = "",
-		specific_fx_scale = {
-			dianliu_CA = 1.5
-		},
-		equipment_list = {
-			1002026,
-			1002031,
-			1002036
 		}
 	}
 }

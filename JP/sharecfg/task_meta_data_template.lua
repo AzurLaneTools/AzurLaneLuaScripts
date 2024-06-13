@@ -237,6 +237,11 @@ pg.task_meta_data_template = setmetatable({
 		100203,
 		100204,
 		100205,
+		100301,
+		100302,
+		100303,
+		100304,
+		100305,
 		200001,
 		200002,
 		200003,
@@ -316,7 +321,11 @@ pg.task_meta_data_template = setmetatable({
 		200201,
 		200202,
 		200203,
-		200204
+		200204,
+		200211,
+		200212,
+		200213,
+		200214
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2201,6 +2210,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "フォッシュ(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
+	[100301] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970304",
+		id = 100301,
+		target_num = 1,
+		desc = "ウィチタ(META)を編成した艦隊で1回戦闘を勝利する"
+	},
+	[100302] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970304",
+		id = 100302,
+		target_num = 1,
+		desc = "ウィチタ(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+	},
+	[100303] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970304",
+		id = 100303,
+		target_num = 1,
+		desc = "ウィチタ(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+	},
+	[100304] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970304",
+		id = 100304,
+		target_num = 1,
+		desc = "ウィチタ(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+	},
+	[100305] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970304",
+		id = 100305,
+		target_num = 1,
+		desc = "ウィチタ(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -2840,5 +2889,37 @@ pg.base.task_meta_data_template = {
 		id = 200204,
 		target_num = 1,
 		desc = "セイレーン作戦でフォッシュ(META)を含めた艦隊でLv100+の敵を撃破"
+	},
+	[200211] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970304",
+		id = 200211,
+		target_num = 1,
+		desc = "セイレーン作戦でウィチタ(META)を含めた艦隊で1回勝利する"
+	},
+	[200212] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970304",
+		id = 200212,
+		target_num = 1,
+		desc = "セイレーン作戦でウィチタ(META)を含めた艦隊でLv70+の敵を撃破"
+	},
+	[200213] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970304",
+		id = 200213,
+		target_num = 1,
+		desc = "セイレーン作戦でウィチタ(META)を含めた艦隊でLv90+の敵を撃破"
+	},
+	[200214] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970304",
+		id = 200214,
+		target_num = 1,
+		desc = "セイレーン作戦でウィチタ(META)を含めた艦隊でLv100+の敵を撃破"
 	}
 }

@@ -510,8 +510,8 @@ slot0.initNotificationHandleDic = function(slot0)
 			slot3 = slot0.viewComponent
 
 			slot3:emit(BaseUI.ON_ACHIEVE, slot1:getBody().awards, function ()
-				if getProxy(ActivityProxy):getActivityById(ActivityConst.UR_EXCHANGE_MOGADOR_ID) and not slot0:isShow() then
-					uv0.viewComponent:removeActivity(ActivityConst.UR_EXCHANGE_MOGADOR_ID)
+				if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_UR_EXCHANGE) and not slot0:isShow() then
+					uv0.viewComponent:removeActivity(slot0.id)
 				end
 
 				uv0.viewComponent:updateTaskLayers()

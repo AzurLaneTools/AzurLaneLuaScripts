@@ -109,7 +109,7 @@ slot4.Fire = function(slot0, slot1)
 
 	slot0._strikeMode = false
 
-	uv1.super.Fire(slot0)
+	return uv1.super.Fire(slot0)
 end
 
 slot4.DoAttack = function(slot0, slot1)

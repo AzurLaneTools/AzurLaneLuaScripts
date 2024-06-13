@@ -3548,6 +3548,17 @@ pg.fleet_tech_ship_class = {
 			970303
 		}
 	},
+	[970304] = {
+		shiptype = 3,
+		name = "ウィチタ(META)",
+		t_level = 1,
+		id = 970304,
+		t_level_1 = 12,
+		nation = 97,
+		ships = {
+			970304
+		}
+	},
 	[970401] = {
 		shiptype = 4,
 		name = "グナイゼナウ(META)",
@@ -4054,6 +4065,7 @@ pg.fleet_tech_ship_class = {
 		970301,
 		970302,
 		970303,
+		970304,
 		970401,
 		970402,
 		970403,

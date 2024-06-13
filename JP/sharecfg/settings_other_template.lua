@@ -228,6 +228,15 @@ pg.settings_other_template = {
 		title = "L2Dリセットボタン表示",
 		desc = "ONにすると、メイン画面にL2D演出リセットボタンが表示されます"
 	},
+	{
+		default = 0,
+		name = "LOCK_NEW_SHIP",
+		alignment = 0,
+		type = 1,
+		id = 22,
+		title = "新登録艦船自動ロック",
+		desc = "ONにすると、図鑑に新たに登録される艦船は自動でロックする"
+	},
 	all = {
 		1,
 		2,
@@ -249,6 +258,7 @@ pg.settings_other_template = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	}
 }

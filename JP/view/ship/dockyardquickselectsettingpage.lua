@@ -10,30 +10,52 @@ end
 
 slot0.InitUI = function(slot0)
 	setText(findTF(slot0._tf, "window/top/bg/obtain/title"), i18n("retire_title"))
+	setText(findTF(slot0._tf, "window/notifications/options/notify_tpl_0/Text"), i18n("unique_ship_retire_protect"))
 
-	slot2 = {
+	slot1 = findTF(slot0._tf, "window/notifications/options/notify_tpl_0")
+
+	onToggle(slot0, findTF(slot1, "on"), function (slot0)
+		slot1 = uv0:GetComponent(typeof(Toggle))
+
+		if slot0 then
+			uv1.settingChanged = true
+
+			PlayerPrefs.SetInt("RetireProtect", 0)
+		end
+	end)
+	onToggle(slot0, findTF(slot1, "off"), function (slot0)
+		slot1 = uv0:GetComponent(typeof(Toggle))
+
+		if slot0 then
+			uv1.settingChanged = true
+
+			PlayerPrefs.SetInt("RetireProtect", 1)
+		end
+	end)
+
+	slot5 = {
 		sr = 4,
 		n = 2,
 		empty = 0,
 		r = 3
 	}
-	slot3 = {}
+	slot6 = {}
 
-	for slot7 = 1, #{
+	for slot10 = 1, #{
 		findTF(slot0._tf, "window/notifications/options/notify_tpl_1"),
 		findTF(slot0._tf, "window/notifications/options/notify_tpl_2"),
 		findTF(slot0._tf, "window/notifications/options/notify_tpl_3")
 	} do
-		slot3[slot7] = {}
+		slot6[slot10] = {}
 
-		for slot11, slot12 in pairs(slot2) do
-			slot3[slot7][slot11] = findTF(slot1[slot7], slot11)
+		for slot14, slot15 in pairs(slot5) do
+			slot6[slot10][slot14] = findTF(slot4[slot10], slot14)
 		end
 	end
 
-	for slot7 = 1, #slot1 do
-		for slot11, slot12 in pairs(slot2) do
-			onToggle(slot0, slot3[slot7][slot11], function (slot0)
+	for slot10 = 1, #slot4 do
+		for slot14, slot15 in pairs(slot5) do
+			onToggle(slot0, slot6[slot10][slot14], function (slot0)
 				slot1 = uv0[uv1][uv2]:GetComponent(typeof(Toggle))
 
 				if slot0 then
@@ -47,23 +69,23 @@ slot0.InitUI = function(slot0)
 		end
 	end
 
-	slot4 = findTF(slot0._tf, "window/notifications/options/notify_tpl_4")
+	slot7 = findTF(slot0._tf, "window/notifications/options/notify_tpl_4")
 
-	onToggle(slot0, findTF(slot4, "keep_all"), function (slot0)
+	onToggle(slot0, findTF(slot7, "keep_all"), function (slot0)
 		if slot0 then
 			uv0.settingChanged = true
 
 			PlayerPrefs.SetString("QuickSelectWhenHasAtLeastOneMaxstar", "KeepAll")
 		end
 	end)
-	onToggle(slot0, findTF(slot4, "keep_one"), function (slot0)
+	onToggle(slot0, findTF(slot7, "keep_one"), function (slot0)
 		if slot0 then
 			uv0.settingChanged = true
 
 			PlayerPrefs.SetString("QuickSelectWhenHasAtLeastOneMaxstar", "KeepOne")
 		end
 	end)
-	onToggle(slot0, findTF(slot4, "keep_none"), function (slot0)
+	onToggle(slot0, findTF(slot7, "keep_none"), function (slot0)
 		if slot0 then
 			uv0.settingChanged = true
 
@@ -71,23 +93,23 @@ slot0.InitUI = function(slot0)
 		end
 	end)
 
-	slot5 = findTF(slot0._tf, "window/notifications/options/notify_tpl_5")
+	slot8 = findTF(slot0._tf, "window/notifications/options/notify_tpl_5")
 
-	onToggle(slot0, findTF(slot5, "keep_all"), function (slot0)
+	onToggle(slot0, findTF(slot8, "keep_all"), function (slot0)
 		if slot0 then
 			uv0.settingChanged = true
 
 			PlayerPrefs.SetString("QuickSelectWithoutMaxstar", "KeepAll")
 		end
 	end)
-	onToggle(slot0, findTF(slot5, "keep_needed"), function (slot0)
+	onToggle(slot0, findTF(slot8, "keep_needed"), function (slot0)
 		if slot0 then
 			uv0.settingChanged = true
 
 			PlayerPrefs.SetString("QuickSelectWithoutMaxstar", "KeepNeeded")
 		end
 	end)
-	onToggle(slot0, findTF(slot5, "keep_none"), function (slot0)
+	onToggle(slot0, findTF(slot8, "keep_none"), function (slot0)
 		if slot0 then
 			uv0.settingChanged = true
 
@@ -104,42 +126,49 @@ slot0.InitUI = function(slot0)
 		})
 	end, SFX_CONFIRM)
 
-	slot7 = PlayerPrefs.GetString("QuickSelectWithoutMaxstar", "KeepAll")
+	slot10 = PlayerPrefs.GetString("QuickSelectWhenHasAtLeastOneMaxstar", "KeepNone")
+	slot11 = PlayerPrefs.GetString("QuickSelectWithoutMaxstar", "KeepAll")
 
-	if PlayerPrefs.GetString("QuickSelectWhenHasAtLeastOneMaxstar", "KeepNone") == "KeepAll" then
-		triggerToggle(findTF(slot4, "keep_all"), true)
-	elseif slot6 == "KeepOne" then
-		triggerToggle(findTF(slot4, "keep_one"), true)
-	elseif slot6 == "KeepNone" then
-		triggerToggle(findTF(slot4, "keep_none"), true)
+	if PlayerPrefs.GetInt("RetireProtect", 1) == 0 then
+		triggerToggle(slot2, true)
+	elseif slot9 == 1 then
+		triggerToggle(slot3, true)
 	end
 
-	if slot7 == "KeepAll" then
-		triggerToggle(findTF(slot5, "keep_all"), true)
-	elseif slot7 == "KeepNeeded" then
-		triggerToggle(findTF(slot5, "keep_needed"), true)
-	elseif slot7 == "KeepNone" then
-		triggerToggle(findTF(slot5, "keep_none"), true)
+	if slot10 == "KeepAll" then
+		triggerToggle(findTF(slot7, "keep_all"), true)
+	elseif slot10 == "KeepOne" then
+		triggerToggle(findTF(slot7, "keep_one"), true)
+	elseif slot10 == "KeepNone" then
+		triggerToggle(findTF(slot7, "keep_none"), true)
+	end
+
+	if slot11 == "KeepAll" then
+		triggerToggle(findTF(slot8, "keep_all"), true)
+	elseif slot11 == "KeepNeeded" then
+		triggerToggle(findTF(slot8, "keep_needed"), true)
+	elseif slot11 == "KeepNone" then
+		triggerToggle(findTF(slot8, "keep_none"), true)
 	end
 
 	setText(findTF(slot0._tf, "window/notifications/options/notify_tpl_4/Text"), i18n("retire_1"))
 	setText(findTF(slot0._tf, "window/notifications/options/notify_tpl_5/Text"), i18n("retire_2"))
 
-	slot8 = {
+	slot12 = {
 		PlayerPrefs.GetInt("QuickSelectRarity1", 3),
 		PlayerPrefs.GetInt("QuickSelectRarity2", 4),
 		PlayerPrefs.GetInt("QuickSelectRarity3", 2)
 	}
 
-	for slot12 = 1, #slot1 do
-		slot16 = "retire_rarity"
-		slot17 = slot12
+	for slot16 = 1, #slot4 do
+		slot20 = "retire_rarity"
+		slot21 = slot16
 
-		setText(findTF(slot1[slot12], "Text"), i18n(slot16, slot17))
+		setText(findTF(slot4[slot16], "Text"), i18n(slot20, slot21))
 
-		for slot16, slot17 in pairs(slot2) do
-			if slot17 == slot8[slot12] then
-				triggerToggle(slot3[slot12][slot16], true)
+		for slot20, slot21 in pairs(slot5) do
+			if slot21 == slot12[slot16] then
+				triggerToggle(slot6[slot16][slot20], true)
 			end
 		end
 	end

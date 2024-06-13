@@ -436,6 +436,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "ロドニー(META)",
 		boss_level_id = 196,
+		state = "stop",
 		item_id = 100000,
 		painting = "luodeni",
 		meta_id = 970505,
@@ -457,12 +458,49 @@ pg.world_joint_boss_template = {
 				"「ロドニー」の投影がすべて消滅した場合、ロドニー(META)は次元超越状態になり、その後<color=#92fc63>最後の一撃を放ち</color>戦闘を終了させる。"
 			}
 		},
+		p_offset = {
+			36.7,
+			679.8,
+			1,
+			1
+		},
+		p_offset_other = {
+			632,
+			679.8,
+			1,
+			1
+		}
+	},
+	{
+		name = "ウィチタ(META)",
+		boss_level_id = 211,
+		item_id = 100000,
+		painting = "weiqita",
+		meta_id = 970304,
+		id = 15,
+		description = {
+			{
+				"善戦敢闘",
+				3,
+				"戦闘中、自身が<color=#92fc63>累計で上限の5％分の耐久を失う度に、自身が与えるダメージが5%アップ</color>。"
+			},
+			{
+				"燼火の鎖",
+				2,
+				"戦闘中鎖を放ち、味方が鎖に命中した場合、鎖によって縛られ<color=#92fc63>一定期間攻撃・移動できず、更に受けるダメージが20%アップ</color>。"
+			},
+			{
+				"ファイナルディシジョン",
+				1,
+				"戦闘終了間近に、【理事会制式MKXIII型オービタル・キャノン】を使用し、戦場全域にいるすべての目標に大ダメージを与える。"
+			}
+		},
 		state = {
 			{
 				{
 					2024,
-					3,
-					14
+					6,
+					13
 				},
 				{
 					0,
@@ -473,8 +511,8 @@ pg.world_joint_boss_template = {
 			{
 				{
 					2024,
-					6,
-					13
+					9,
+					5
 				},
 				{
 					23,
@@ -484,13 +522,13 @@ pg.world_joint_boss_template = {
 			}
 		},
 		p_offset = {
-			36.7,
+			10,
 			679.8,
 			1,
 			1
 		},
 		p_offset_other = {
-			632,
+			615,
 			679.8,
 			1,
 			1
@@ -510,6 +548,7 @@ pg.world_joint_boss_template = {
 		11,
 		12,
 		13,
-		14
+		14,
+		15
 	}
 }
