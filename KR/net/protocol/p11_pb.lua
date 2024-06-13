@@ -56,6 +56,7 @@ slot2 = {
 	SC_11003_TAKING_SHIP_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_11003_SOUNDSTORY_FIELD = slot0.FieldDescriptor(),
 	SC_11003_CHILD_DISPLAY_FIELD = slot0.FieldDescriptor(),
+	SC_11003_MAIL_STOREROOM_LV_FIELD = slot0.FieldDescriptor(),
 	SC_11004_RESOURCE_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_11005_TYPE_FIELD = slot0.FieldDescriptor(),
 	CS_11005_ID_FIELD = slot0.FieldDescriptor(),
@@ -888,6 +889,15 @@ slot2.SC_11003_CHILD_DISPLAY_FIELD.has_default_value = false
 slot2.SC_11003_CHILD_DISPLAY_FIELD.default_value = 0
 slot2.SC_11003_CHILD_DISPLAY_FIELD.type = 13
 slot2.SC_11003_CHILD_DISPLAY_FIELD.cpp_type = 3
+slot2.SC_11003_MAIL_STOREROOM_LV_FIELD.name = "mail_storeroom_lv"
+slot2.SC_11003_MAIL_STOREROOM_LV_FIELD.full_name = "p11.sc_11003.mail_storeroom_lv"
+slot2.SC_11003_MAIL_STOREROOM_LV_FIELD.number = 48
+slot2.SC_11003_MAIL_STOREROOM_LV_FIELD.index = 46
+slot2.SC_11003_MAIL_STOREROOM_LV_FIELD.label = 2
+slot2.SC_11003_MAIL_STOREROOM_LV_FIELD.has_default_value = false
+slot2.SC_11003_MAIL_STOREROOM_LV_FIELD.default_value = 0
+slot2.SC_11003_MAIL_STOREROOM_LV_FIELD.type = 13
+slot2.SC_11003_MAIL_STOREROOM_LV_FIELD.cpp_type = 3
 SC_11003.name = "sc_11003"
 SC_11003.full_name = "p11.sc_11003"
 SC_11003.nested_types = {}
@@ -938,7 +948,8 @@ SC_11003.fields = {
 	slot2.SC_11003_MARRY_SHIP_FIELD,
 	slot2.SC_11003_TAKING_SHIP_LIST_FIELD,
 	slot2.SC_11003_SOUNDSTORY_FIELD,
-	slot2.SC_11003_CHILD_DISPLAY_FIELD
+	slot2.SC_11003_CHILD_DISPLAY_FIELD,
+	slot2.SC_11003_MAIL_STOREROOM_LV_FIELD
 }
 SC_11003.is_extendable = false
 SC_11003.extensions = {}

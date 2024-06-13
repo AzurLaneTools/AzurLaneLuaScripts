@@ -70,6 +70,16 @@ pg.player_resource = {
 		name = "soundStoryCard",
 		itemid = 59017
 	},
+	[16] = {
+		id = 16,
+		name = "gold_mail",
+		itemid = 59001
+	},
+	[17] = {
+		id = 17,
+		name = "oil_mail",
+		itemid = 59002
+	},
 	[101] = {
 		id = 101,
 		name = "battery",
@@ -1085,6 +1095,11 @@ pg.player_resource = {
 		name = "xiaosipei_pt2",
 		itemid = 59576
 	},
+	[321] = {
+		id = 321,
+		name = "xiaofeitelie_pt",
+		itemid = 59585
+	},
 	[350] = {
 		id = 350,
 		name = "liuzhounianhaidao_pt",
@@ -1369,6 +1384,11 @@ pg.player_resource = {
 		id = 412,
 		name = "union11_pt",
 		itemid = 59581
+	},
+	[413] = {
+		id = 413,
+		name = "skinTicket72",
+		itemid = 59586
 	},
 	[950] = {
 		id = 950,
@@ -1772,6 +1792,12 @@ pg.player_resource = {
 		},
 		soundStoryCard = {
 			15
+		},
+		gold_mail = {
+			16
+		},
+		oil_mail = {
+			17
 		},
 		battery = {
 			101
@@ -2382,6 +2408,9 @@ pg.player_resource = {
 		xiaosipei_pt2 = {
 			320
 		},
+		xiaofeitelie_pt = {
+			321
+		},
 		liuzhounianhaidao_pt = {
 			350
 		},
@@ -2552,6 +2581,9 @@ pg.player_resource = {
 		},
 		union11_pt = {
 			412
+		},
+		skinTicket72 = {
+			413
 		},
 		yisegefuke_pt1 = {
 			950
@@ -2785,6 +2817,8 @@ pg.player_resource = {
 		12,
 		14,
 		15,
+		16,
+		17,
 		101,
 		102,
 		103,
@@ -2988,6 +3022,7 @@ pg.player_resource = {
 		318,
 		319,
 		320,
+		321,
 		350,
 		351,
 		352,
@@ -3045,6 +3080,7 @@ pg.player_resource = {
 		410,
 		411,
 		412,
+		413,
 		950,
 		951,
 		952,

@@ -1,6 +1,5 @@
 slot0 = class("PlayerProxy", import(".NetProxy"))
 slot0.UPDATED = "PlayerProxy.UPDATED"
-slot0.RESOURCE_UPDATED = "PlayerProxy.RESOURCE_UPDATED"
 
 slot0.register = function(slot0)
 	slot0._flags = {}
@@ -132,19 +131,26 @@ slot0.updatePlayer = function(slot0, slot1)
 	slot0:sendNotification(uv0.UPDATED, slot1:clone())
 end
 
-slot0.UpdatePlayerRes = function(slot0, slot1, slot2)
+slot0.UpdatePlayerRes = function(slot0, slot1)
 	if not slot0.data then
 		return
 	end
 
-	slot3 = id2res(slot1)
-	slot0.data[slot3] = math.max(slot0.data[slot3] + slot2, 0)
+	slot2 = {}
+	slot3 = {}
 
-	slot0:sendNotification(uv0.RESOURCE_UPDATED, {
-		id = slot1,
-		diff = slot2,
-		amount = slot0.data[slot3]
-	})
+	for slot7, slot8 in ipairs(slot1) do
+		slot9 = id2res(slot8.id)
+
+		if slot8.count < 0 then
+			slot3[slot9] = defaultValue(slot3[slot9], 0) - slot8.count
+		else
+			slot2[slot9] = defaultValue(slot2[slot9], 0) + slot8.count
+		end
+	end
+
+	slot0.data:addResources(slot2)
+	slot0.data:consume(slot3)
 	slot0:updatePlayer(slot0.data)
 end
 

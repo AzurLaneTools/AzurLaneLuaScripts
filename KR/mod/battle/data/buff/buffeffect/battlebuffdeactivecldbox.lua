@@ -13,9 +13,9 @@ slot1.GetEffectType = function(slot0)
 end
 
 slot1.onAttach = function(slot0, slot1, slot2)
-	slot1:DeactiveCldBox()
+	slot1:SetCldBoxImmune(true)
 end
 
 slot1.onRemove = function(slot0, slot1, slot2)
-	slot1:ActiveCldBox()
+	slot1:SetCldBoxImmune(false)
 end

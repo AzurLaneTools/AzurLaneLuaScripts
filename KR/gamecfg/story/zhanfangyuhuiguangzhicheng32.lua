@@ -37,7 +37,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			say = "이곳은 아비터 \"러버스I\"와 \"엠프레스\"가 \"X\"의 침공을 막기 위해 구축한 방어선이다.",
+			say = "이곳은 아비터 \"러버즈\"와 \"엠프레스\"가 \"X\"의 침공을 막기 위해 구축한 방어선이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -21430,7 +21430,12 @@ pg.activity_template = {
 			470,
 			471,
 			472,
-			473
+			473,
+			474,
+			475,
+			476,
+			477,
+			478
 		},
 		time = {
 			"timer",
@@ -21542,7 +21547,7 @@ pg.activity_template = {
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 49,
+		is_show = 45,
 		title_res_tag = "aersasi_main",
 		id = 5331,
 		config_data = {
@@ -22342,7 +22347,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 5346,
-		is_show = 48,
+		is_show = 44,
 		config_client = "",
 		title_res_tag = "aersasi_pt",
 		id = 5346,
@@ -22423,7 +22428,7 @@ pg.activity_template = {
 		type = 70,
 		login_pop = 0,
 		config_id = 5350,
-		is_show = 46,
+		is_show = 42,
 		title_res_tag = "zhaodaizhuang",
 		id = 5350,
 		config_data = {},
@@ -22469,7 +22474,7 @@ pg.activity_template = {
 		type = 115,
 		login_pop = 0,
 		config_id = 1,
-		is_show = 47,
+		is_show = 43,
 		title_res_tag = "urexchange",
 		id = 5351,
 		config_data = {},
@@ -22772,6 +22777,211 @@ pg.activity_template = {
 					2024,
 					6,
 					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5360] = {
+		mark = 20240530,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 48,
+		title_res_tag = "zhenhaimuseum",
+		id = 5360,
+		config_data = {
+			{
+				20182
+			},
+			{
+				20183
+			},
+			{
+				20184
+			},
+			{
+				20185
+			},
+			{
+				20186
+			},
+			{
+				20187
+			},
+			{
+				20188
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ZhenhaiMuseumPage",
+			ui_name = "ZhenhaiMuseumPage"
+		},
+		config_client = {
+			story = {
+				{
+					"CUIYUANJIAXIU"
+				},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			}
+		}
+	},
+	[5361] = {
+		mark = 20240530,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 5361,
+		config_data = {
+			20190
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			npc = {
+				"",
+				20190
+			}
+		}
+	},
+	[5362] = {
+		mark = 20240530,
+		type = 74,
+		login_pop = 0,
+		config_id = 5362,
+		is_show = 47,
+		config_client = "",
+		title_res_tag = "xiaodadi_pt",
+		id = 5362,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "XiaoDaDiPtPage",
+			ui_name = "XiaoDaDiPtPage"
+		}
+	},
+	[5363] = {
+		mark = 20240530,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5363,
+		config_data = {
+			20191
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					26
 				},
 				{
 					23,
@@ -31282,6 +31492,7 @@ pg.activity_template = {
 			5314,
 			5321,
 			5346,
+			5362,
 			1086,
 			6006,
 			6010,
@@ -31404,6 +31615,8 @@ pg.activity_template = {
 			5337,
 			5344,
 			5345,
+			5361,
+			5363,
 			1079,
 			1080,
 			1081,
@@ -31478,6 +31691,7 @@ pg.activity_template = {
 			5305,
 			5324,
 			5341,
+			5360,
 			6000,
 			6001,
 			6002,
@@ -32789,6 +33003,10 @@ pg.activity_template = {
 		5353,
 		5354,
 		5355,
+		5360,
+		5361,
+		5362,
+		5363,
 		7004,
 		7005,
 		7006,

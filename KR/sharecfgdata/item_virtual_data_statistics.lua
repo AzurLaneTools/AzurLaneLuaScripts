@@ -160276,7 +160276,7 @@ _G.pg.base.item_virtual_data_statistics[59583] = {
 	shop_id = -1,
 	replace_item = 0,
 	time_limit = 0,
-	link_id = 0,
+	link_id = 7017,
 	icon = "props/battlepass_pt",
 	order = 0,
 	rarity = 2,
@@ -160309,6 +160309,56 @@ _G.pg.base.item_virtual_data_statistics[59584] = {
 	drop_oil_max = 0,
 	virtual_type = 21,
 	id = 59584,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[59585] = {
+	drop_gold_max = 0,
+	name = "호감도 - 꼬마 프리드리히",
+	display = "이벤트 \"엄마의 연주 연습\"·호감도",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xiaofeitelie_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 59585,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[59586] = {
+	drop_gold_max = 0,
+	name = "스킨 체험권 (2024.6.12까지)",
+	display = "스킨 체험 대상의 스킨을 일정 시간 동안 사용할 수 있는 티켓. 이벤트 종료(2024.6.12 점검까지) 시 제거됩니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 59586,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173225,6 +173275,64 @@ _G.pg.base.item_virtual_data_statistics[86204] = {
 		{
 			901061,
 			1600
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86205] = {
+	drop_gold_max = 0,
+	name = "随机七周年换装",
+	display = "不会被看到",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86205,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			299034,
+			1200
+		},
+		{
+			403102,
+			1200
+		},
+		{
+			701043,
+			1200
+		},
+		{
+			305082,
+			1200
+		},
+		{
+			202332,
+			1500
+		},
+		{
+			703022,
+			1400
+		},
+		{
+			302062,
+			1200
+		},
+		{
+			137031,
+			1100
 		}
 	}
 }

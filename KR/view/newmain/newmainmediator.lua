@@ -110,10 +110,7 @@ slot0.register = function(slot0)
 				system = SYSTEM_DEBUG
 			})
 		else
-			uv0:addSubLayers(Context.New({
-				mediator = MailMediator,
-				viewComponent = MailLayer
-			}))
+			uv0:sendNotification(GAME.GO_SCENE, SCENE.MAIL)
 		end
 	end)
 	slot0:bind(uv0.OPEN_NOTICE, function (slot0)
@@ -158,6 +155,8 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.FETCH_VOTE_INFO_DONE,
 		GAME.ROTATE_PAINTING_INDEX,
 		GAME.LOAD_LAYERS,
+		GAME.GUILD_GET_USER_INFO_DONE,
+		GAME.GET_PUBLIC_GUILD_USER_DATA_DONE,
 		NotificationProxy.FRIEND_REQUEST_ADDED,
 		NotificationProxy.FRIEND_REQUEST_REMOVED,
 		FriendProxy.FRIEND_NEW_MSG,

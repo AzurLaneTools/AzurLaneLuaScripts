@@ -523,7 +523,7 @@ slot0.DecreasSprite = function(slot0, slot1, slot2)
 
 	if slot0.pools_pack[slot1] and slot0.pools_pack[slot3].type == slot4 then
 		if slot0.pools_pack[slot3]:Remove(slot2) then
-			uv0:ClearBundleRef(slot3, true, false)
+			uv0:ClearBundleRef(slot3, false, false)
 		end
 
 		if slot0.pools_pack[slot3]:GetAmount() <= 0 then
@@ -543,7 +543,7 @@ slot0.DestroySprite = function(slot0, slot1)
 		slot0.pools_pack[slot2] = nil
 
 		for slot8 = 1, slot0.pools_pack[slot2]:GetAmount() do
-			uv0:ClearBundleRef(slot2, true, false)
+			uv0:ClearBundleRef(slot2, false, false)
 		end
 	end
 end
@@ -564,7 +564,7 @@ slot0.DestroyAllSprite = function(slot0)
 		slot0.pools_pack[slot6] = nil
 
 		for slot12 = 1, slot0.pools_pack[slot6]:GetAmount() do
-			uv0:ClearBundleRef(slot6, true, false)
+			uv0:ClearBundleRef(slot6, false, false)
 		end
 	end
 

@@ -60,8 +60,11 @@ slot0.addListeners = function(slot0)
 	slot0.linerName = slot1:getStrData1()
 
 	setInputText(slot0.nameInput, slot0.linerName)
+
+	slot0.defaultName = getProxy(PlayerProxy):getRawData():GetName()
+
 	onInputEndEdit(slot0, slot0.nameInput, function (slot0)
-		if not nameValidityCheck(slot0, 4, 14, {
+		if slot0 ~= uv0.defaultName and not nameValidityCheck(slot0, 4, 14, {
 			"spece_illegal_tip",
 			"login_newPlayerScene_name_tooShort",
 			"login_newPlayerScene_name_tooLong",
@@ -83,6 +86,11 @@ slot0.addListeners = function(slot0)
 			})
 		end
 	end)
+
+	slot2 = PLATFORM_CODE == PLATFORM_CH and LOCK_NAMED
+	slot0.nameInput:GetComponent(typeof(InputField)).interactable = not slot2
+
+	setActive(slot0:findTF("name/edit", slot0.topUI), not slot2)
 	onButton(slot0, slot0:findTF("back", slot0.topUI), function ()
 		uv0:onBackPressed()
 	end, SFX_PANEL)

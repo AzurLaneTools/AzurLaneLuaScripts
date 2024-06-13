@@ -50,6 +50,10 @@ slot9.DeactiveCldBox = function(slot0)
 	slot0._cldComponent:SetActive(false)
 end
 
+slot9.SetCldBoxImmune = function(slot0, slot1)
+	slot0._cldComponent:SetImmuneCLD(slot1)
+end
+
 slot9.Init = function(slot0)
 	slot0._hostileCldList = {}
 	slot0._currentHPRate = 1

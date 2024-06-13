@@ -799,6 +799,10 @@ end
 
 slot0.switchPage = function(slot0, slot1)
 	if not slot0.curPageIndex then
+		if slot1 == 1 then
+			setActive(slot0.toggleBtnsTF, true)
+		end
+
 		triggerToggle(slot0.toggleList[slot1], true)
 	end
 end

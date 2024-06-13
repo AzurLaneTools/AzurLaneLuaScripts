@@ -76,7 +76,6 @@ slot0.PlayCpkMovie = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, s
 		if uv0._criCpk then
 			uv0._criCpk.player:SetVolume(PlayerPrefs.GetFloat("bgm_vol", DEFAULT_BGMVOLUME))
 			uv0._criCpk.player:SetShaderDispatchCallback(function (slot0, slot1)
-				uv0:CpkDebug("ShaderDispatchCallback")
 				uv0:checkBgmStop(slot0)
 
 				return nil
@@ -141,58 +140,14 @@ slot0.PlayCpkMovie = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, s
 				uv0._criUsm.renderMode = ReflectionHelp.RefGetField(typeof("CriManaMovieMaterial+RenderMode"), "Always", nil)
 			end
 
-			if uv0._usmImg then
-				uv0._usmImg.color = Color.New(1, 1, 1, 1)
+			if uv0._usmImg and uv0._usmImg.color.a == 0 then
+				uv0._usmImg.color = Color.New(1, 1, 1, 0.1)
 			end
 
-			uv0:CpkDebug("Instantiate")
-
-			uv0.debugTimer = Timer.New(function ()
-				uv0:CpkDebug("After 1s")
-			end, 1)
-
-			uv0.debugTimer:Start()
 			uv2()
 		end)
 	else
 		slot11()
-	end
-end
-
-slot0.CpkDebug = function(slot0, slot1)
-	warning(slot1)
-
-	if slot0._criCpk then
-		warning("CriManaMovieController.target ", slot0._criCpk.target)
-		warning("CriManaMovieController.useOriginalMaterial ", slot0._criCpk.useOriginalMaterial)
-		warning("CriManaMovieController.applyMask ", slot0._criCpk.applyMask)
-		warning("CriManaMovieMaterial.isMaterialAvailable ", slot0._criCpk.isMaterialAvailable)
-		warning("CriManaMovieMaterial.player ", slot0._criCpk.player)
-		warning("CriManaMovieMaterial.material ", slot0._criCpk.material)
-
-		if slot0._criCpk.material then
-			warning("Material.Shader", slot0._criCpk.material.shader)
-			warning("Material.mainTexture", slot0._criCpk.material.mainTexture)
-		end
-	end
-
-	if slot0._usmImg then
-		warning("usmImage", slot0._usmImg.enabled)
-	end
-
-	if tf(slot0._mainTF):Find("usm") then
-		warning("usmEnable", isActive(slot2))
-		warning("UsmPositon", slot2.transform.position)
-		warning("UsmScale", slot2.transform.localScale)
-		warning("UsmRotation", slot2.transform.localRotation)
-	end
-
-	if slot2:GetComponent("AspectRatioFitter") then
-		warning("AspectRatioFitter", slot3.enabled)
-	end
-
-	if slot0._animator then
-		warning("Animator", slot0._animator.enabled)
 	end
 end
 

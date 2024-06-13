@@ -305,3 +305,30 @@ end
 table.lastof = function(slot0)
 	return slot0[#slot0]
 end
+
+table.dichotomyInsert = function(slot0, slot1, slot2)
+	assert(type(defaultValue(slot2, function (slot0)
+		return slot0
+	end)) == "function")
+
+	slot3 = {}
+	slot4 = 1
+	slot5 = #slot0
+	slot6 = nil
+
+	slot7 = function(slot0)
+		uv0[slot0] = uv0[slot0] or uv1(slot0)
+
+		return uv0[slot0]
+	end
+
+	while slot4 < slot5 do
+		if slot7(slot0[math.floor((slot4 + slot5) / 2)]) < slot7(slot1) then
+			slot4 = slot8 + 1
+		else
+			slot5 = slot8
+		end
+	end
+
+	table.insert(slot0, slot4, slot1)
+end

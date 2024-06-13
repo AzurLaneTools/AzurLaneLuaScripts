@@ -95,18 +95,9 @@ slot0.SetImageByUrl = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0.closeBtn, function ()
-		uv0:OnClose()
-	end, SFX_PANEL)
-	onButton(slot0, slot0.helpBtn, function ()
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.music_juus.tip
-		})
-	end, SFX_PANEL)
-	onButton(slot0, slot0._tf, function ()
-		uv0:OnClose()
-	end, SFX_PANEL)
+	slot0.animTF:GetComponent(typeof(UIEventTrigger)).didEnter:AddListener(function ()
+		uv0:SetUp()
+	end)
 
 	slot0.cards = {}
 
@@ -129,6 +120,21 @@ slot0.didEnter = function(slot0)
 	end
 
 	slot0:InitList()
+end
+
+slot0.SetUp = function(slot0)
+	onButton(slot0, slot0.closeBtn, function ()
+		uv0:OnClose()
+	end, SFX_PANEL)
+	onButton(slot0, slot0.helpBtn, function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = pg.gametip.music_juus.tip
+		})
+	end, SFX_PANEL)
+	onButton(slot0, slot0._tf, function ()
+		uv0:OnClose()
+	end, SFX_PANEL)
 end
 
 slot0.OnClose = function(slot0)

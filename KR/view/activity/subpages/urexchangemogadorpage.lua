@@ -5,7 +5,6 @@ slot0.RANDOM_DAILY = 3
 slot0.CHALLANGE = 4
 slot0.MINI_GAME = 5
 slot0.SHOP_BUY = 6
-slot0.UR_COMMODITY_ID = 901071
 
 slot1 = function(...)
 	if false then
@@ -38,6 +37,7 @@ slot0.OnDataSetting = function(slot0)
 	slot0.uPtId = slot0.config.uPtId
 	slot0.goodsId = slot0.config.goodsId
 	slot0.shopId = slot0.config.shopId
+	slot0.length = #slot0.goodsId + 1
 	slot0.actShop = slot0.shopProxy:getActivityShopById(slot0.shopId)
 end
 
@@ -232,16 +232,18 @@ end
 slot0.UpdateExchangeStatus = function(slot0)
 	slot0.player = slot0.playerProxy:getData()
 	slot0.ptCount = slot0.player:getResource(slot0.uPtId)
-	slot0.restExchange = slot0:GetGoodsResCnt(slot0.goodsId[1]) + slot0:GetGoodsResCnt(slot0.goodsId[2])
-	slot0.exchangeState = 3 - slot0.restExchange
-	slot0.curGoods = slot0.exchangeState < 3 and pg.activity_shop_template[slot0.goodsId[slot0.exchangeState]] or nil
-	slot0.canExchange = slot0.exchangeState < 3 and slot0.curGoods.resource_num <= slot0.ptCount
+	slot0.restExchange = _.reduce(slot0.goodsId, 0, function (slot0, slot1)
+		return slot0 + uv0.actShop:GetCommodityById(slot1):GetPurchasableCnt()
+	end)
+	slot0.exchangeState = slot0.length - slot0.restExchange
+	slot0.curGoods = slot0.exchangeState < slot0.length and pg.activity_shop_template[slot0.goodsId[slot0.exchangeState]] or nil
+	slot0.canExchange = slot0.exchangeState < slot0.length and slot0.curGoods.resource_num <= slot0.ptCount
 
 	uv0(slot0.exchangeState, slot0.curGoods, slot0.canExchange)
 end
 
 slot0.UpdatePtCount = function(slot0)
-	setText(slot0._ptText, (slot0.exchangeState < 3 and slot0.ptCount < slot0.curGoods.resource_num and "<color=red>" or "<color=#3689DE>") .. slot0.ptCount .. "</color>/" .. (slot0.exchangeState == 3 and "--" or slot0.curGoods.resource_num) .. i18n("UrExchange_Pt_charges", slot0.restExchange))
+	setText(slot0._ptText, (slot0.exchangeState < slot0.length and slot0.ptCount < slot0.curGoods.resource_num and "<color=red>" or "<color=#3689DE>") .. slot0.ptCount .. "</color>/" .. (slot0.exchangeState == 3 and "--" or slot0.curGoods.resource_num) .. i18n("UrExchange_Pt_charges", slot0.restExchange))
 end
 
 slot0.OnDestroy = function(slot0)

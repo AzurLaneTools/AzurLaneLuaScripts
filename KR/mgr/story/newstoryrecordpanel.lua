@@ -39,6 +39,10 @@ slot0.IsShowing = function(slot0)
 	return slot0.state == uv0
 end
 
+slot0.CanOpen = function(slot0)
+	return slot0.state == uv0 or slot0.state == uv1 or slot0.state == uv2
+end
+
 slot0.Init = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = slot1.transform

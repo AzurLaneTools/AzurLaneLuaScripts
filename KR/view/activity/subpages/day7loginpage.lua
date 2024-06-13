@@ -16,13 +16,8 @@ slot0.OnFirstFlush = function(slot0)
 
 	for slot4 = 1, 7 do
 		slot5 = cloneTplTo(slot0.item, slot0.items)
-		slot7 = slot0.config.front_drops[slot4]
 
-		updateDrop(slot0:findTF("item", slot5), {
-			type = slot7[1],
-			id = slot7[2],
-			count = slot7[3]
-		})
+		updateDrop(slot0:findTF("item", slot5), Drop.Create(slot0.config.front_drops[slot4]))
 		onButton(slot0, slot5, function ()
 			uv0:emit(BaseUI.ON_DROP, uv1)
 		end, SFX_PANEL)

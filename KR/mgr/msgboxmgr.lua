@@ -876,14 +876,14 @@ slot1.commonSetting = function(slot0, slot1)
 			btnType = slot0.settings.yesBtnType or uv1.BUTTON_BLUE,
 			onCallback = slot10,
 			sound = slot1.yesSound or SFX_CONFIRM,
-			alignment = slot0.settings.yesSize and TextAnchor.MiddleCenter
+			alignment = slot0.settings.yesSize and TextAnchor.MiddleCenter,
+			gray = slot0.settings.yesGray,
+			delayButton = slot0.settings.delayConfirm
 		})
 
 		if slot0.settings.yesSize then
 			slot13.sizeDelta = slot0.settings.yesSize
 		end
-
-		setGray(slot13, slot0.settings.yesGray, true)
 	end
 
 	if slot0.settings.yseBtnLetf then
@@ -972,29 +972,64 @@ slot1.createBtn = function(slot0, slot1)
 		slot5.localScale = Vector2(slot1.scale.x or 1, slot1.scale.y or 1)
 	end
 
+	slot6 = nil
+
 	if slot2 == uv0.BUTTON_MEDAL then
 		setText(slot5:Find("text"), slot1.text)
+
+		slot6 = slot5:Find("text")
 	elseif slot2 ~= uv0.BUTTON_RETREAT and slot2 ~= uv0.BUTTON_PREPAGE and slot2 ~= uv0.BUTTON_NEXTPAGE then
 		slot0:updateButton(slot5, slot1.text, slot1.alignment)
+
+		slot6 = slot5:Find("pic")
 	end
 
 	if slot2 == uv0.BUTTON_BLUE_WITH_ICON and slot1.iconName then
 		setImageSprite(slot5:Find("ticket/icon"), LoadSprite(slot1.iconName[1], slot1.iconName[2]))
 	end
 
+	slot7 = nil
+
+	if slot1.delayButton then
+		slot8 = slot1.delayButton
+		slot7 = Timer.New(function ()
+			uv0 = uv0 - 1
+
+			if uv0 > 0 then
+				setText(uv1, uv2 .. string.format("(%d)", uv0))
+			else
+				setText(uv1, uv2)
+				setGray(uv3, uv4.gray, true)
+
+				uv5 = nil
+			end
+		end, 1, slot8)
+		slot0.timers.delayTimer = slot7
+
+		slot7:Start()
+		setText(slot6, getText(slot6) .. string.format("(%d)", slot8))
+		setGray(slot5, true, true)
+	else
+		setGray(slot5, slot1.gray, true)
+	end
+
 	if not slot1.hideEvent then
 		onButton(slot0, slot5, function ()
-			if type(uv0) == "function" then
-				if uv0() then
-					return
-				else
-					uv1:hide()
-				end
-			elseif not uv0 then
-				uv1:hide()
+			if uv0 then
+				return
 			end
 
-			return existCall(uv2.onCallback)
+			if type(uv1) == "function" then
+				if uv1() then
+					return
+				else
+					uv2:hide()
+				end
+			elseif not uv1 then
+				uv2:hide()
+			end
+
+			return existCall(uv3.onCallback)
 		end, slot1.sound or SFX_CONFIRM)
 	end
 

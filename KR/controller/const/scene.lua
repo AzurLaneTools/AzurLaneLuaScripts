@@ -3,7 +3,7 @@ SCENE = {
 	WORLDBOSS = "scene worldboss",
 	ANNIVERSARY_ISLAND_BACKHILL_2023 = "anniversary island 2023",
 	EQUIPMENT_TRANSFORM = "equip transform",
-	AMUSEMENT_PARK = "amusement park",
+	NEWMEIXIV4_SKIRMISH = "newmeixiv4 skirmish",
 	ROGUE_FINAL_REWARD = "ROGUE_FINAL_REWARD",
 	COMMANDERCAT = "scene commander cat room",
 	COMBATLOAD = "scene combat load",
@@ -19,73 +19,74 @@ SCENE = {
 	CRUSING = "crusing",
 	SHIPINFO = "scene shipinfo",
 	SUMMARY = "summary",
-	HOLOLIVE_LINKLINK_SELECT_SCENE = "hololive linklink select scene",
+	MAIL = "mail",
 	SPRING_TOWN = "springfestival town",
 	CHARGE = "scene charge",
 	SKINSHOP = "scene skinshop",
 	EDUCATE_MAP = "EDUCATE_MAP",
-	DAILYLEVEL = "scene dailylevel",
+	RESOLVEEQUIP = "scene resolve equip",
 	MONOPOLY_PT = "MONOPOLY_PT",
-	COURTYARD = "scene court yard",
+	DAILYLEVEL = "scene dailylevel",
 	ANNIVERSARY_ISLAND_SPRING = "anniversary island spring",
-	NAVALTACTICS = "naval tactics",
+	JIUJIU_EXPEDITION = "jiujiu expedition ",
 	IDOL_MEDAL_COLLECTION_SCENE2 = "IDOL_MEDAL_COLLECTION_SCENE2",
+	NAVALTACTICS = "naval tactics",
 	THIRD_ANNIVERSARY_AKIBA = "third anniversary Akiba",
 	GUILD = "scene guild",
-	REDPACKEY = "scene RED PACKEY",
 	SHIP_PROFILE = "ship profile",
 	SIXTH_ANNIVERSARY_JP_HOTSPRING = "SIXTH_ANNIVERSARY_JP_HOTSPRING",
-	NEWGUILD = "scene newguild",
+	COLLECTSHIP = "scene collect ship",
 	TECHNOLOGY = "technology",
 	BACKHILL_FIFTH_ANNIVERSARY = "BACKHILL FIFTH ANNIVERSARY",
-	CREATE_PLAYER = "scene create player",
+	NEWGUILD = "scene newguild",
 	EQUIP_CODE = "equip code",
-	WORLDINPICTURE = "world in picture",
-	JIUJIU_EXPEDITION = "jiujiu expedition ",
+	PUBLIC_GUILD = "public guild",
+	RESOLVESHIPS = "scene resolve ships",
 	EVENT = "scene event",
 	REFLUX = "reflux",
+	COURTYARD = "scene court yard",
 	SCULPTURE = "sculpture",
-	ISLAND_TASK = "island task",
 	BATTLE = "scene battle",
 	VOTEENTRANCE = "scene vote entrance",
-	CARD_TOWER_MODE_SELECT = "CARD_TOWER_MODE_SELECT",
+	ISLAND_TASK = "island task",
 	OTHER_WORLD_TEMPLE_SCENE = "other world temple scene",
+	CARD_TOWER_DIFFICULTY_SELECT = "CARD_TOWER_DIFFICULTY_SELECT",
 	CARD_TOWER_CHARACTER_SELECT_DETAIL = "CARD_TOWER_CHARACTER_SELECT_DETAIL",
 	CARD_TOWER_CELL_SELECT = "CARD_TOWER_CELL_SELECT",
-	NEWMEIXIV4_SKIRMISH = "newmeixiv4 skirmish",
 	DOA_MEDAL_COLLECTION_SCENE = "scene doa medal collection",
+	REDPACKEY = "scene RED PACKEY",
 	MEDIA_COLLECTION_ENTRANCE = "media collection entrance",
-	CRYPTOLALIA = "scene Cryptolalia",
 	ACTIVITY = "scene activity",
 	REDPACKEYLOTTERY = "scene RED PACKEY LOTTERY",
 	BULLETINBOARD = "scene bulletinboard",
-	US_CASTLE_2023 = "US_CASTLE_2023",
+	CRYPTOLALIA = "scene Cryptolalia",
 	IDOL_MEDAL_COLLECTION_SCENE = "idol medal collection scene",
-	COLLECTSHIP = "scene collect ship",
+	US_CASTLE_2023 = "US_CASTLE_2023",
 	BACKYARD = "scene court yard",
-	LAUNCH_BALL_TASK = "LAUNCH_BALL_TASK",
+	DOALINK_ISLAND = "scene DOALink Island",
 	RYZA_URBAN_AREA = "RYZA_URBAN_AREA",
+	LAUNCH_BALL_TASK = "LAUNCH_BALL_TASK",
 	HARBOR_BACKHILL = "HARBOR_BACKHILL",
 	TEMPESTA_MEDAL_COLLECTION = "tempesta medal collection",
-	CASTLE_MAIN = "CASTLE_MAIN",
 	NEWYEAR_BACKHILL = "scene NEWYEAR BACKHILL",
-	SENRANKAGURA_MEDAL = "senrankagura medal",
+	CASTLE_MAIN = "CASTLE_MAIN",
 	WORLD_FLEET_SELECT = "world fleet select",
-	DORM3D = "dorm 3d",
+	SENRANKAGURA_MEDAL = "senrankagura medal",
 	SPRING_FESTIVAL_BACKHILL_2023 = "SPRING FESTIVAL BackHill 2023",
-	SPRING_FESTIVAL_BACKHILL_2024 = "SPRING_FESTIVAL_BACKHILL_2024",
+	DORM3D = "dorm 3d",
 	SECRET_SHIPYARD = "SECRET_SHIPYARD",
-	RESOLVEEQUIP = "scene resolve equip",
-	EDUCATE_DOCK = "EDUCATE_DOCK",
+	SPRING_FESTIVAL_BACKHILL_2024 = "SPRING_FESTIVAL_BACKHILL_2024",
+	HOLOLIVE_LINKLINK_SELECT_SCENE = "hololive linklink select scene",
 	TRANSITION = "scene transition",
 	DOCKYARD = "scene dockyard",
 	TASK = "scene task",
 	SPWEAPON_STOREHOUSE = "spweapon storehouse",
+	EDUCATE_DOCK = "EDUCATE_DOCK",
 	EDUCATE_PROFILE = "EDUCATE_PROFILE",
-	CARD_TOWER_DIFFICULTY_SELECT = "CARD_TOWER_DIFFICULTY_SELECT",
 	SENRANKAGURA_TRAIN = "senrankagura train",
 	CHALLENGE_MAIN_SCENE = "challenge main scene",
 	OTHERWORLD_BACKHILL = "OTHERWORLD_BACKHILL",
+	CARD_TOWER_MODE_SELECT = "CARD_TOWER_MODE_SELECT",
 	OTHERWORLD_MAP = "OTHERWORLD_MAP",
 	MUSIC_FESTIVAL3 = "music festival 3",
 	LINER_BACKHILL = "LINER_BACKHILL",
@@ -152,7 +153,7 @@ SCENE = {
 	SIXTH_ANNIVERSARY_JP = "SIXTH_ANNIVERSARY_JP",
 	COLORING = "scene coloring",
 	SENRANKAGURA_BACKHILL = "SENRANKAGURA_BACKHILL",
-	PUBLIC_GUILD = "public guild",
+	AMUSEMENT_PARK = "amusement park",
 	ACT_BOSS_BATTLE = "act boss battle",
 	NEW_SERVER_CARNIVAL = "new server carnival",
 	CARD_PAIRS = "card pairs",
@@ -160,10 +161,10 @@ SCENE = {
 	BACK_CHARGE = "back charge",
 	CARD_TOWER_CHARACTER_SELECT = "CARD_TOWER_CHARACTER_SELECT",
 	SSSS_MEDAL_COLLECTION = "SSSS_MEDAL_COLLECTION",
-	DOALINK_ISLAND = "scene DOALink Island",
+	CREATE_PLAYER = "scene create player",
 	ZUMA_PT_SHOP = "ZUMA_PT_SHOP",
 	GAME_HALL = "game hall",
-	RESOLVESHIPS = "scene resolve ships",
+	WORLDINPICTURE = "world in picture",
 	SIXTH_ANNIVERSARY_JP_DARK = "SIXTH_ANNIVERSARY_JP_DARK",
 	WORLD = "scene world",
 	SELECT_SKIN = "scene select skin",
@@ -777,6 +778,10 @@ slot0 = {
 		slot0.mediator = EquipCodeMediator
 		slot0.viewComponent = EquipCodeScene
 	end,
+	[SCENE.MAIL] = function (slot0, slot1)
+		slot0.mediator = MailMediator
+		slot0.viewComponent = MailScene
+	end,
 	[SCENE.HARBOR_BACKHILL] = function (slot0, slot1)
 		slot0.mediator = BackHillMediatorTemplate
 		slot0.viewComponent = HarborBackHillScene
@@ -988,7 +993,20 @@ slot1 = {
 		WorldConst.ReqWorldCheck(slot1)
 	end,
 	MailMediator = function (slot0, slot1)
-		WorldConst.ReqWorldCheck(slot1)
+		table.insert({}, function (slot0)
+			WorldConst.ReqWorldCheck(slot0)
+		end)
+
+		if getProxy(MailProxy):IsDirty() then
+			table.insert(slot2, function (slot0)
+				pg.m02:sendNotification(GAME.GET_MAIL_LIST, {
+					cmd = "new",
+					callback = slot0
+				})
+			end)
+		end
+
+		seriesAsync(slot2, slot1)
 	end,
 	SixthAnniversaryIslandMediator = function (slot0, slot1)
 		if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ISLAND) or slot2.isEnd(slot2) then

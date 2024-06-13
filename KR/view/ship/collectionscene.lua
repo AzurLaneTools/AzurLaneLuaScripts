@@ -301,9 +301,12 @@ slot0.didEnter = function(slot0)
 						end
 
 						pg.BgmMgr.GetInstance():ContinuePlay()
-					elseif uv1 == uv2.MUSIC_INDEX and uv0.musicView and uv0.musicView:CheckState(BaseSubView.STATES.INITED) then
+					elseif uv1 == uv2.MUSIC_INDEX then
 						pg.BgmMgr.GetInstance():StopPlay()
-						uv0.musicView:tryPlayMusic()
+
+						if uv0.musicView and uv0.musicView:CheckState(BaseSubView.STATES.INITED) then
+							uv0.musicView:tryPlayMusic()
+						end
 					end
 
 					if uv1 ~= uv2.GALLERY_INDEX and uv0.galleryView and uv0.galleryView:CheckState(BaseSubView.STATES.INITED) then

@@ -160,9 +160,9 @@ slot0.UpdateCapacityWithAnim = function(slot0, slot1, slot2)
 	LeanTween.value(slot0.capacityBar.gameObject, slot3, slot4, 0.396):setEase(LeanTweenType.easeInOutQuart):setOnUpdate(System.Action_float(function (slot0)
 		uv0.capacityBar.value = slot0
 	end)):setOnComplete(System.Action(function ()
-		uv0.playing = false
-
 		uv0:UpdateDorm()
+
+		uv0.playing = false
 	end)):setDelay(0.069)
 end
 
@@ -239,32 +239,19 @@ slot0.SimulateAddFood = function(slot0, slot1, slot2)
 		slot0.isSimulation = true
 	end
 
-	if slot0.simulateFood ~= slot0.simulateCapacity and slot0.simulateCapacity < slot0.simulateFood + slot0.simulateAddition and slot0.remindEndTime < pg.TimeMgr.GetInstance():GetServerTime() then
-		slot0:ShowCapcityTip(slot1, slot0.simulateFood, slot0.simulateCapacity, slot0.simulateAddition)
-
-		if slot2 then
-			slot2()
-		end
-
-		return
-	end
-
 	if slot0.simulateCapacity <= slot0.simulateFood then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_backyardGranaryLayer_full"))
-
-		if slot2 then
-			slot2()
-		end
+		slot2()
 
 		return
-	end
-
-	if slot0.simulateItemCnt == 0 then
+	elseif slot0.simulateItemCnt == 0 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("backyard_backyardGranaryLayer_foodCountLimit"))
+		slot2()
 
-		if slot2 then
-			slot2()
-		end
+		return
+	elseif slot0.simulateCapacity < slot0.simulateFood + slot0.simulateAddition and slot0.remindEndTime < pg.TimeMgr.GetInstance():GetServerTime() then
+		slot0:ShowCapcityTip(slot1, slot0.simulateFood, slot0.simulateCapacity, slot0.simulateAddition)
+		slot2()
 
 		return
 	end

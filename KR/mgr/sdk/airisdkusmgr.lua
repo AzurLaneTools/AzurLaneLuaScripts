@@ -532,7 +532,11 @@ return {
 		end
 	end,
 	AiriYoStarPassMigrateHandler = function (slot0)
-		if slot0.R_CODE == 0 and slot0.SHOW_MIGRATE_PAGE == 1 then
+		if table.contains({
+			0,
+			100204,
+			100206
+		}, slot0.R_CODE:ToInt()) and slot0.SHOW_MIGRATE_PAGE == 1 then
 			uv0.BindYostarPass()
 
 			return true

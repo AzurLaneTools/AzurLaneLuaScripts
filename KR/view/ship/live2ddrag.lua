@@ -40,6 +40,9 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.actionTriggerActive = slot1.action_trigger_active
 	slot0.relationParameter = slot1.relation_parameter
 	slot0.limitTime = slot1.limit_time > 0 and slot1.limit_time or uv0
+	slot0.reactCondition = slot1.react_condition and slot1.react_condition ~= "" and slot1.react_condition or {}
+	slot0.idleOn = slot0.reactCondition.idle_on and slot0.reactCondition.idle_on or {}
+	slot0.idleOff = slot0.reactCondition.idleOff and slot0.reactCondition.idleOff or {}
 	slot0.revertIdleIndex = slot1.revert_idle_index == 1 and true or false
 	slot0.revertActionIndex = slot1.revert_action_index == 1 and true or false
 	slot0.saveParameterFlag = true
@@ -68,6 +71,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.offsetDragTargetX = slot0.startValue
 	slot0.offsetDragTargetY = slot0.startValue
 	slot0.parameterComAdd = true
+	slot0.reactConditionFlag = false
 end
 
 slot0.startDrag = function(slot0)
@@ -160,6 +164,10 @@ end
 
 slot0.getRelationParameterList = function(slot0)
 	return slot0._relationParameterList
+end
+
+slot0.getReactCondition = function(slot0)
+	return slot0.reactConditionFlag
 end
 
 slot0.getActive = function(slot0)
@@ -718,6 +726,14 @@ slot0.updateStateData = function(slot0, slot1)
 
 	if not slot0.l2dIsPlaying and slot0.isTriggerAtion then
 		slot0:setTriggerActionFlag(false)
+	end
+
+	if slot0.l2dIdleIndex and slot0.idleOn and #slot0.idleOn > 0 then
+		slot0.reactConditionFlag = table.contains(slot0.idleOn, slot0.l2dIdleIndex)
+	end
+
+	if slot0.l2dIdleIndex and slot0.idleOff and #slot0.idleOff > 0 then
+		slot0.reactConditionFlag = not table.contains(slot0.idleOff, slot0.l2dIdleIndex)
 	end
 end
 

@@ -9,13 +9,6 @@ slot0.init = function(slot0)
 	slot0:initData()
 	slot0:findUI()
 	slot0:addListener()
-end
-
-slot0.didEnter = function(slot0)
-	slot0:doRepairProgressPanelAni()
-	slot0:updateAttrListPanel()
-	slot0:updateRepairBtn(true)
-	slot0:updateDetailPanel()
 
 	for slot4, slot5 in ipairs(MetaCharacterConst.REPAIR_ATTRS) do
 		if not slot0.curMetaCharacterVO:getAttrVO(slot5):isLock() then
@@ -24,7 +17,13 @@ slot0.didEnter = function(slot0)
 			break
 		end
 	end
+end
 
+slot0.didEnter = function(slot0)
+	slot0:doRepairProgressPanelAni()
+	slot0:updateAttrListPanel()
+	slot0:updateRepairBtn(true)
+	slot0:updateDetailPanel()
 	slot0:TryPlayGuide()
 end
 

@@ -345,7 +345,7 @@ slot0.CollectIdleEvents = function(slot0, slot1)
 			table.insert(slot2, "mission_complete")
 		end
 
-		if getProxy(MailProxy):GetAttachmentCount() > 0 and slot1 ~= "mail" then
+		if getProxy(MailProxy):GetUnreadCount() > 0 and slot1 ~= "mail" then
 			table.insert(slot2, "mail")
 		end
 

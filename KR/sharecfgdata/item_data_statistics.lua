@@ -87887,6 +87887,73 @@ _G.pg.base.item_data_statistics[81204] = {
 }
 
 
+_G.pg.base.item_data_statistics[81205] = {
+	open_directly = 1,
+	name = "七周年礼盒",
+	type = 17,
+	display = "购买礼包可获得随机换装*1，钻石*2024，心智单元*50，心智魔方*20，高级定向蓝图·六期*2，快速完成工具*10，家具币*100",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai14",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998305",
+	id = 81205,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86205,
+			1
+		},
+		{
+			1,
+			14,
+			2024
+		},
+		{
+			2,
+			42056,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[99952] = {
 	open_directly = 0,
 	name = "SP 해역 드랍 관련 우편",

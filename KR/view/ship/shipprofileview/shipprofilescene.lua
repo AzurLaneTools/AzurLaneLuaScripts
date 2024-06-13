@@ -872,19 +872,27 @@ slot0.DestroySpinePainting = function(slot0)
 end
 
 slot0.onWeddingReview = function(slot0, slot1)
-	if slot0.l2dChar then
-		slot0.l2dChar:SetVisible(not slot1)
-		slot0.l2dChar:Reset()
+	if not slot1 and slot0.exitLoadL2d then
+		slot0.exitLoadL2d = false
 
-		if not slot1 then
-			slot0.l2dChar:UpdateAtomSource()
-		else
-			slot0.l2dActioning = false
-			slot0.cvLoader.prevCvPath = nil
+		slot0.live2DBtn:Update(slot0.paintingName, true)
+	else
+		slot0.live2DBtn:Update(slot0.paintingName, false)
+	end
 
-			slot0:StopDailogue()
-			slot0.cvLoader:StopSound()
-		end
+	slot0.live2DBtn:SetEnable(not slot1)
+
+	if slot0.l2dChar and slot1 then
+		slot0.l2dChar:Dispose()
+
+		slot0.l2dChar = nil
+		slot0.l2dActioning = false
+		slot0.cvLoader.prevCvPath = nil
+
+		slot0:StopDailogue()
+		slot0.cvLoader:StopSound()
+
+		slot0.exitLoadL2d = true
 	end
 end
 

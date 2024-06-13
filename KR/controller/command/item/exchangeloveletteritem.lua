@@ -29,7 +29,6 @@ slot0.execute = function(slot0, slot1)
 				slot7:removeItemById(slot6.id, slot6.count)
 			end
 
-			getProxy(MailProxy):resetData()
 			pg.TipsMgr.GetInstance():ShowTips(i18n("loveletter_exchange_tip3"))
 		elseif slot0.result == 20 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("loveletter_exchange_tip1"))

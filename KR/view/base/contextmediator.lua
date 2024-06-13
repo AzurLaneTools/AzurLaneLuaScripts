@@ -6,7 +6,7 @@ slot0.Ctor = function(slot0, slot1)
 end
 
 slot0.initNotificationHandleDic = function(slot0)
-	slot0.handElse = nil
+	slot0.handleElse = nil
 	slot0.handleDic = nil
 end
 
@@ -20,7 +20,7 @@ end
 
 slot0.handleNotification = function(slot0, slot1)
 	if slot0.handleDic then
-		switch(slot1:getName(), slot0.handleDic, slot0.handElse, slot0, slot1)
+		switch(slot1:getName(), slot0.handleDic, slot0.handleElse, slot0, slot1)
 	else
 		uv0.super.handleNotification(slot0, slot1)
 	end

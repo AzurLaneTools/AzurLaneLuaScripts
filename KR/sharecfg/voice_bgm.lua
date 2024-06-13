@@ -1588,5 +1588,17 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "story-musicanniversary-gorgeous"
+	},
+	XiaoDaDiPtPage = {
+		default_bgm = "login-orchestral-ver",
+		special_bgm = "",
+		time = "",
+		bgm = "login-orchestral-ver"
+	},
+	ZhenhaiMuseumPage = {
+		default_bgm = "theme-yixian-soft-loop",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-yixian-soft-loop"
 	}
 }

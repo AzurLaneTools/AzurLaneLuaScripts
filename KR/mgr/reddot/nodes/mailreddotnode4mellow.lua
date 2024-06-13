@@ -1,4 +1,5 @@
 slot0 = class("MailRedDotNode4Mellow", import(".RedDotNode"))
+slot1 = 99
 
 slot0.Ctor = function(slot0, slot1)
 	slot0._attachmentHint = findTF(slot1, "tip")
@@ -16,10 +17,10 @@ end
 slot0.Init = function(slot0)
 	uv0.super.Init(slot0)
 
-	if getProxy(MailProxy).total >= 1000 then
+	if MAIL_COUNT_LIMIT <= getProxy(MailProxy).total then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("warning_mail_max_2"))
-	elseif slot1.total >= 950 then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("warning_mail_max_1", slot1.total))
+	elseif slot1.total > MAIL_COUNT_LIMIT * 0.9 then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("warning_mail_max_1", slot1.total, MAIL_COUNT_LIMIT))
 	end
 end
 
@@ -27,7 +28,11 @@ slot0.SetData = function(slot0, slot1)
 	if slot1 > 0 then
 		SetActive(slot0._attachmentHint, true)
 
-		slot0._attachmentCountText.text = slot2
+		if uv0 < slot2 then
+			slot0._attachmentCountText.text = uv0 .. "+"
+		else
+			slot0._attachmentCountText.text = slot2
+		end
 	else
 		SetActive(slot0._attachmentHint, false)
 

@@ -31629,6 +31629,77 @@ _G.pg.base.ship_data_breakout[405054] = {
 }
 
 
+_G.pg.base.ship_data_breakout[405061] = {
+	use_gold = 500,
+	pre_id = 0,
+	use_char_num = 1,
+	use_char = 40506,
+	breakout_id = 405062,
+	breakout_view = "주포 포좌 +1 / 주포 보정 +5%",
+	id = 405061,
+	icon = "10001",
+	level = 10,
+	use_item = {},
+	weapon_ids = {
+		44100,
+		44100
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[405062] = {
+	use_gold = 1500,
+	pre_id = 405061,
+	use_char_num = 1,
+	use_char = 40506,
+	breakout_id = 405063,
+	breakout_view = "부포 포좌 +2 / 주포 보정 +10%",
+	id = 405062,
+	icon = "10001",
+	level = 30,
+	use_item = {},
+	weapon_ids = {
+		101,
+		101,
+		101
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[405063] = {
+	use_gold = 2500,
+	pre_id = 405062,
+	use_char_num = 2,
+	use_char = 40506,
+	breakout_id = 405064,
+	breakout_view = "주포 포좌 +1 / 주포 보정 +15%",
+	id = 405063,
+	icon = "10001",
+	level = 70,
+	use_item = {},
+	weapon_ids = {
+		44100,
+		44100,
+		44100
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[405064] = {
+	use_gold = 0,
+	pre_id = 405063,
+	use_char_num = 0,
+	use_char = 40506,
+	breakout_id = 0,
+	breakout_view = "없음",
+	id = 405064,
+	icon = "10001",
+	level = 0,
+	use_item = {},
+	weapon_ids = {}
+}
+
+
 _G.pg.base.ship_data_breakout[406011] = {
 	use_gold = 500,
 	pre_id = 0,

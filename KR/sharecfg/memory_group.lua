@@ -190,6 +190,7 @@ pg.memory_group = setmetatable({
 		287,
 		288,
 		289,
+		290,
 		501,
 		502,
 		503,
@@ -4562,6 +4563,17 @@ pg.base.memory_group = {
 			3642,
 			3643,
 			3644
+		}
+	},
+	[290] = {
+		title = "비취 정원에서의 자수",
+		subtype = 3,
+		link_event = 5360,
+		type = 2,
+		id = 290,
+		icon = "title_event",
+		memories = {
+			3651
 		}
 	},
 	[501] = {

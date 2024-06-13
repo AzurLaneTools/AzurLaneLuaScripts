@@ -959,6 +959,10 @@ slot0.InitSwitch = function()
 
 	uv0.UpdateDropCase = {
 		[DROP_TYPE_RESOURCE] = function (slot0, slot1, slot2)
+			if slot0.id == PlayerConst.ResStoreGold or slot0.id == PlayerConst.ResStoreOil then
+				(slot2 or {}).frame = "frame_store"
+			end
+
 			updateItem(slot1, Item.New({
 				id = id2ItemId(slot0.id)
 			}), slot2)

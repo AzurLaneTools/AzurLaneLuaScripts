@@ -1,4 +1,5 @@
 slot0 = class("MailRedDotNode", import(".RedDotNode"))
+slot1 = 99
 
 slot0.Ctor = function(slot0, slot1)
 	slot0._mailMsg = findTF(slot1, "unread")
@@ -18,10 +19,10 @@ end
 slot0.Init = function(slot0)
 	uv0.super.Init(slot0)
 
-	if getProxy(MailProxy).total >= 1000 then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("warning_mail_max_2"))
-	elseif slot1.total >= 950 then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("warning_mail_max_1", slot1.total))
+	slot1 = getProxy(MailProxy)
+
+	if slot1.total == math.clamp(slot1.total, MAIL_COUNT_LIMIT * 0.9, MAIL_COUNT_LIMIT) then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("warning_mail_max_1", slot1.total, MAIL_COUNT_LIMIT))
 	end
 end
 
@@ -32,7 +33,12 @@ slot0.SetData = function(slot0, slot1)
 		SetActive(slot0._mailMsg, true)
 
 		slot0.gameObject:GetComponent(typeof(Button)).targetGraphic = slot0._mailMsg:GetComponent(typeof(Image))
-		slot0._attachmentCountText.text = slot2
+
+		if uv0 < slot2 then
+			slot0._attachmentCountText.text = uv0 .. "+"
+		else
+			slot0._attachmentCountText.text = slot2
+		end
 	else
 		SetActive(slot0._mailEmpty, true)
 		SetActive(slot0._mailMsg, false)

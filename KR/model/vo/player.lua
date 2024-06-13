@@ -90,6 +90,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.displayTrophyList = slot1.medal_id or {}
 	slot0.banBackyardUploadTime = slot1.theme_upload_not_allowed_time or 0
 	slot0.identityFlag = slot1.gm_flag
+	slot0.mailStoreLevel = slot1.mail_storeroom_lv
 	slot3 = getProxy(AppreciateProxy)
 
 	if slot1.appreciation then
@@ -580,15 +581,32 @@ slot0.isFriend = function(slot0)
 end
 
 slot0.OilMax = function(slot0, slot1)
-	if (slot1 or 0) < 0 then
-		slot1 = 0
-	end
-
-	return pg.gameset.max_oil.key_value < slot0.oil + slot1
+	return pg.gameset.max_oil.key_value < slot0.oil + (slot1 or 0)
 end
 
 slot0.GoldMax = function(slot0, slot1)
 	return pg.gameset.max_gold.key_value < slot0.gold + (slot1 or 0)
+end
+
+slot0.ResLack = function(slot0, slot1, slot2)
+	if pg.gameset["max_" .. slot1].key_value < slot0[slot1] then
+		return 0
+	else
+		return math.min(slot2, slot3 - slot0[slot1])
+	end
+end
+
+slot0.OverStore = function(slot0, slot1, slot2)
+	slot4 = pg.mail_storeroom[slot0.mailStoreLevel]
+
+	return slot0[id2res(slot1)] + (slot2 or 0) - switch(slot1, {
+		[PlayerConst.ResStoreGold] = function ()
+			return uv0.gold_store
+		end,
+		[PlayerConst.ResStoreOil] = function ()
+			return uv0.oil_store
+		end
+	})
 end
 
 slot0.UpdateCommonFlag = function(slot0, slot1)
@@ -881,6 +899,32 @@ slot0.CanGetResource = function(slot0, slot1)
 	end
 
 	return true
+end
+
+slot0.GetExtendStoreCost = function(slot0)
+	slot2 = {}
+
+	if pg.mail_storeroom[slot0.mailStoreLevel].upgrade_gem > 0 then
+		slot2.diamond = Drop.New({
+			type = DROP_TYPE_RESOURCE,
+			id = PlayerConst.ResDiamond,
+			count = slot1.upgrade_gem
+		})
+	end
+
+	if slot1.upgrade_gold > 0 then
+		slot2.gold = Drop.New({
+			type = DROP_TYPE_RESOURCE,
+			id = PlayerConst.ResGold,
+			count = slot1.upgrade_gold
+		})
+	end
+
+	return slot2.diamond, slot2.gold
+end
+
+slot0.IsStoreLevelMax = function(slot0)
+	return not pg.mail_storeroom[slot0.mailStoreLevel + 1]
 end
 
 return slot0

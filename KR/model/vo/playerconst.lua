@@ -9,6 +9,8 @@ slot0.ResGoldField = 7
 slot0.ResGuildCoin = 8
 slot0.ResBlueprintFragment = 9
 slot0.ResClassField = 10
+slot0.ResStoreGold = 16
+slot0.ResStoreOil = 17
 slot0.ResBattery = 101
 slot0.ResPT = 102
 slot1 = nil
@@ -17,7 +19,9 @@ slot2 = function(slot0)
 	uv0 = uv0 or {
 		[DROP_TYPE_RESOURCE] = function (slot0)
 			if getProxy(PlayerProxy) then
-				slot1:UpdatePlayerRes(slot0.id, slot0.count)
+				slot1:UpdatePlayerRes({
+					slot0
+				})
 			end
 		end,
 		[DROP_TYPE_ITEM] = function (slot0)

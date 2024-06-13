@@ -37,6 +37,8 @@ slot0.OnInit = function(slot0)
 	end, SFX_PANEL)
 	pressPersistTrigger(slot0.rightArr, 0.5, function (slot0)
 		if not uv0.itemVO then
+			slot0()
+
 			return
 		end
 
@@ -46,6 +48,8 @@ slot0.OnInit = function(slot0)
 	end, nil, true, true, 0.1, SFX_PANEL)
 	pressPersistTrigger(slot0.leftArr, 0.5, function (slot0)
 		if not uv0.itemVO then
+			slot0()
+
 			return
 		end
 

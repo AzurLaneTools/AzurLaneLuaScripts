@@ -30022,7 +30022,8 @@ _G.pg.base.ship_data_statistics[102191] = {
 		"Brooklyn-Class",
 		"Helena-Chan",
 		"Helena",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -30152,7 +30153,8 @@ _G.pg.base.ship_data_statistics[102192] = {
 		"Brooklyn-Class",
 		"Helena-Chan",
 		"Helena",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -30282,7 +30284,8 @@ _G.pg.base.ship_data_statistics[102193] = {
 		"Brooklyn-Class",
 		"Helena-Chan",
 		"Helena",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -30412,7 +30415,8 @@ _G.pg.base.ship_data_statistics[102194] = {
 		"Brooklyn-Class",
 		"Helena-Chan",
 		"Helena",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -30541,7 +30545,8 @@ _G.pg.base.ship_data_statistics[102201] = {
 	tag_list = {
 		"Cleveland-Class",
 		"Cleveland-Chan",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -30670,7 +30675,8 @@ _G.pg.base.ship_data_statistics[102202] = {
 	tag_list = {
 		"Cleveland-Class",
 		"Cleveland-Chan",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -30799,7 +30805,8 @@ _G.pg.base.ship_data_statistics[102203] = {
 	tag_list = {
 		"Cleveland-Class",
 		"Cleveland-Chan",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -30928,7 +30935,8 @@ _G.pg.base.ship_data_statistics[102204] = {
 	tag_list = {
 		"Cleveland-Class",
 		"Cleveland-Chan",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -31060,7 +31068,8 @@ _G.pg.base.ship_data_statistics[102211] = {
 		"Atlanta-Class",
 		"Helena-Chan",
 		"Cleveland-Chan",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -31192,7 +31201,8 @@ _G.pg.base.ship_data_statistics[102212] = {
 		"Atlanta-Class",
 		"Helena-Chan",
 		"Cleveland-Chan",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -31324,7 +31334,8 @@ _G.pg.base.ship_data_statistics[102213] = {
 		"Atlanta-Class",
 		"Helena-Chan",
 		"Cleveland-Chan",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -31456,7 +31467,8 @@ _G.pg.base.ship_data_statistics[102214] = {
 		"Atlanta-Class",
 		"Helena-Chan",
 		"Cleveland-Chan",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -66129,7 +66141,8 @@ _G.pg.base.ship_data_statistics[107991] = {
 	tag_list = {
 		"Yorktown-Class",
 		"special",
-		"Enterprize"
+		"Enterprize",
+		"Little-series"
 	}
 }
 
@@ -66257,7 +66270,8 @@ _G.pg.base.ship_data_statistics[107992] = {
 	tag_list = {
 		"Yorktown-Class",
 		"special",
-		"Enterprize"
+		"Enterprize",
+		"Little-series"
 	}
 }
 
@@ -66385,7 +66399,8 @@ _G.pg.base.ship_data_statistics[107993] = {
 	tag_list = {
 		"Yorktown-Class",
 		"special",
-		"Enterprize"
+		"Enterprize",
+		"Little-series"
 	}
 }
 
@@ -66513,7 +66528,8 @@ _G.pg.base.ship_data_statistics[107994] = {
 	tag_list = {
 		"Yorktown-Class",
 		"special",
-		"Enterprize"
+		"Enterprize",
+		"Little-series"
 	}
 }
 
@@ -97199,7 +97215,8 @@ _G.pg.base.ship_data_statistics[202181] = {
 	},
 	tag_list = {
 		"Town-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -97329,7 +97346,8 @@ _G.pg.base.ship_data_statistics[202182] = {
 	},
 	tag_list = {
 		"Town-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -97459,7 +97477,8 @@ _G.pg.base.ship_data_statistics[202183] = {
 	},
 	tag_list = {
 		"Town-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -97589,7 +97608,8 @@ _G.pg.base.ship_data_statistics[202184] = {
 	},
 	tag_list = {
 		"Town-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -110865,7 +110885,8 @@ _G.pg.base.ship_data_statistics[203101] = {
 		{}
 	},
 	tag_list = {
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -110993,7 +111014,8 @@ _G.pg.base.ship_data_statistics[203102] = {
 		{}
 	},
 	tag_list = {
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -111121,7 +111143,8 @@ _G.pg.base.ship_data_statistics[203103] = {
 		{}
 	},
 	tag_list = {
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -111249,7 +111272,8 @@ _G.pg.base.ship_data_statistics[203104] = {
 		{}
 	},
 	tag_list = {
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -113400,7 +113424,8 @@ _G.pg.base.ship_data_statistics[204041] = {
 	},
 	tag_list = {
 		"Renown-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -113527,7 +113552,8 @@ _G.pg.base.ship_data_statistics[204042] = {
 	},
 	tag_list = {
 		"Renown-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -113654,7 +113680,8 @@ _G.pg.base.ship_data_statistics[204043] = {
 	},
 	tag_list = {
 		"Renown-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -113781,7 +113808,8 @@ _G.pg.base.ship_data_statistics[204044] = {
 	},
 	tag_list = {
 		"Renown-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -127922,7 +127950,8 @@ _G.pg.base.ship_data_statistics[207091] = {
 	tag_list = {
 		"Illustrious-Class",
 		"Armor-CV",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -128050,7 +128079,8 @@ _G.pg.base.ship_data_statistics[207092] = {
 	tag_list = {
 		"Illustrious-Class",
 		"Armor-CV",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -128178,7 +128208,8 @@ _G.pg.base.ship_data_statistics[207093] = {
 	tag_list = {
 		"Illustrious-Class",
 		"Armor-CV",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -128306,7 +128337,8 @@ _G.pg.base.ship_data_statistics[207094] = {
 	tag_list = {
 		"Illustrious-Class",
 		"Armor-CV",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -129459,7 +129491,8 @@ _G.pg.base.ship_data_statistics[207131] = {
 		"Illustrious-Class",
 		"Armor-CV",
 		"Formidable",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -129588,7 +129621,8 @@ _G.pg.base.ship_data_statistics[207132] = {
 		"Illustrious-Class",
 		"Armor-CV",
 		"Formidable",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -129717,7 +129751,8 @@ _G.pg.base.ship_data_statistics[207133] = {
 		"Illustrious-Class",
 		"Armor-CV",
 		"Formidable",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -129846,7 +129881,8 @@ _G.pg.base.ship_data_statistics[207134] = {
 		"Illustrious-Class",
 		"Armor-CV",
 		"Formidable",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -181216,7 +181252,8 @@ _G.pg.base.ship_data_statistics[304061] = {
 	},
 	tag_list = {
 		"Kongo-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -181342,7 +181379,8 @@ _G.pg.base.ship_data_statistics[304062] = {
 	},
 	tag_list = {
 		"Kongo-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -181468,7 +181506,8 @@ _G.pg.base.ship_data_statistics[304063] = {
 	},
 	tag_list = {
 		"Kongo-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -181594,7 +181633,8 @@ _G.pg.base.ship_data_statistics[304064] = {
 	},
 	tag_list = {
 		"Kongo-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -181720,7 +181760,8 @@ _G.pg.base.ship_data_statistics[304071] = {
 	},
 	tag_list = {
 		"Amagi-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -181846,7 +181887,8 @@ _G.pg.base.ship_data_statistics[304072] = {
 	},
 	tag_list = {
 		"Amagi-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -181972,7 +182014,8 @@ _G.pg.base.ship_data_statistics[304073] = {
 	},
 	tag_list = {
 		"Amagi-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -182098,7 +182141,8 @@ _G.pg.base.ship_data_statistics[304074] = {
 	},
 	tag_list = {
 		"Amagi-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -197403,7 +197447,8 @@ _G.pg.base.ship_data_statistics[307091] = {
 		"Amagi-Class",
 		"1st-airfleet",
 		"special",
-		"Akagi"
+		"Akagi",
+		"Little-series"
 	}
 }
 
@@ -197532,7 +197577,8 @@ _G.pg.base.ship_data_statistics[307092] = {
 		"Amagi-Class",
 		"1st-airfleet",
 		"special",
-		"Akagi"
+		"Akagi",
+		"Little-series"
 	}
 }
 
@@ -197661,7 +197707,8 @@ _G.pg.base.ship_data_statistics[307093] = {
 		"Amagi-Class",
 		"1st-airfleet",
 		"special",
-		"Akagi"
+		"Akagi",
+		"Little-series"
 	}
 }
 
@@ -197790,7 +197837,8 @@ _G.pg.base.ship_data_statistics[307094] = {
 		"Amagi-Class",
 		"1st-airfleet",
 		"special",
-		"Akagi"
+		"Akagi",
+		"Little-series"
 	}
 }
 
@@ -199454,7 +199502,8 @@ _G.pg.base.ship_data_statistics[307131] = {
 	tag_list = {
 		"Armor-CV",
 		"special",
-		"Taiho-chan"
+		"Taiho-chan",
+		"Little-series"
 	}
 }
 
@@ -199582,7 +199631,8 @@ _G.pg.base.ship_data_statistics[307132] = {
 	tag_list = {
 		"Armor-CV",
 		"special",
-		"Taiho-chan"
+		"Taiho-chan",
+		"Little-series"
 	}
 }
 
@@ -199710,7 +199760,8 @@ _G.pg.base.ship_data_statistics[307133] = {
 	tag_list = {
 		"Armor-CV",
 		"special",
-		"Taiho-chan"
+		"Taiho-chan",
+		"Little-series"
 	}
 }
 
@@ -199838,7 +199889,8 @@ _G.pg.base.ship_data_statistics[307134] = {
 	tag_list = {
 		"Armor-CV",
 		"special",
-		"Taiho-chan"
+		"Taiho-chan",
+		"Little-series"
 	}
 }
 
@@ -199966,7 +200018,8 @@ _G.pg.base.ship_data_statistics[307141] = {
 	tag_list = {
 		"Shinano",
 		"special",
-		"Shinano-chan"
+		"Shinano-chan",
+		"Little-series"
 	}
 }
 
@@ -200094,7 +200147,8 @@ _G.pg.base.ship_data_statistics[307142] = {
 	tag_list = {
 		"Shinano",
 		"special",
-		"Shinano-chan"
+		"Shinano-chan",
+		"Little-series"
 	}
 }
 
@@ -200222,7 +200276,8 @@ _G.pg.base.ship_data_statistics[307143] = {
 	tag_list = {
 		"Shinano",
 		"special",
-		"Shinano-chan"
+		"Shinano-chan",
+		"Little-series"
 	}
 }
 
@@ -200350,7 +200405,8 @@ _G.pg.base.ship_data_statistics[307144] = {
 	tag_list = {
 		"Shinano",
 		"special",
-		"Shinano-chan"
+		"Shinano-chan",
+		"Little-series"
 	}
 }
 
@@ -226760,7 +226816,8 @@ _G.pg.base.ship_data_statistics[403121] = {
 	},
 	tag_list = {
 		"Admiral Hipper-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -226889,7 +226946,8 @@ _G.pg.base.ship_data_statistics[403122] = {
 	},
 	tag_list = {
 		"Admiral Hipper-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -227018,7 +227076,8 @@ _G.pg.base.ship_data_statistics[403123] = {
 	},
 	tag_list = {
 		"Admiral Hipper-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -227147,7 +227206,8 @@ _G.pg.base.ship_data_statistics[403124] = {
 	},
 	tag_list = {
 		"Admiral Hipper-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -227276,7 +227336,8 @@ _G.pg.base.ship_data_statistics[403131] = {
 	},
 	tag_list = {
 		"Deutschland-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -227405,7 +227466,8 @@ _G.pg.base.ship_data_statistics[403132] = {
 	},
 	tag_list = {
 		"Deutschland-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -227534,7 +227596,8 @@ _G.pg.base.ship_data_statistics[403133] = {
 	},
 	tag_list = {
 		"Deutschland-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -227663,7 +227726,8 @@ _G.pg.base.ship_data_statistics[403134] = {
 	},
 	tag_list = {
 		"Deutschland-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -233760,6 +233824,514 @@ _G.pg.base.ship_data_statistics[405054] = {
 }
 
 
+_G.pg.base.ship_data_statistics[405061] = {
+	nationality = 4,
+	oxy_max = 0,
+	type = 5,
+	name = "꼬마 프리드리히",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 405061,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "KMS Friedrich der Grosse",
+	oxy_cost = 0,
+	skin_id = 405060,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1487,
+		78,
+		0,
+		41,
+		0,
+		53,
+		0,
+		22,
+		8,
+		30,
+		0,
+		0
+	},
+	attrs_growth = {
+		40532,
+		976,
+		0,
+		901,
+		0,
+		372,
+		0,
+		339,
+		150,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		2,
+		0.9
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"special",
+		"Little-series"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[405062] = {
+	nationality = 4,
+	oxy_max = 0,
+	type = 5,
+	name = "꼬마 프리드리히",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 405062,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "KMS Friedrich der Grosse",
+	oxy_cost = 0,
+	skin_id = 405060,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1850,
+		97,
+		0,
+		51,
+		0,
+		53,
+		0,
+		22,
+		8,
+		30,
+		0,
+		0
+	},
+	attrs_growth = {
+		40532,
+		976,
+		0,
+		901,
+		0,
+		372,
+		0,
+		339,
+		150,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		2,
+		0.9
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"special",
+		"Little-series"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[405063] = {
+	nationality = 4,
+	oxy_max = 0,
+	type = 5,
+	name = "꼬마 프리드리히",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 405063,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "KMS Friedrich der Grosse",
+	oxy_cost = 0,
+	skin_id = 405060,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		2575,
+		136,
+		0,
+		71,
+		0,
+		53,
+		0,
+		22,
+		8,
+		30,
+		0,
+		0
+	},
+	attrs_growth = {
+		40532,
+		976,
+		0,
+		901,
+		0,
+		372,
+		0,
+		339,
+		150,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		2,
+		0.9
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"special",
+		"Little-series"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[405064] = {
+	nationality = 4,
+	oxy_max = 0,
+	type = 5,
+	name = "꼬마 프리드리히",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 405064,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "KMS Friedrich der Grosse",
+	oxy_cost = 0,
+	skin_id = 405060,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		3663,
+		194,
+		0,
+		102,
+		0,
+		53,
+		0,
+		22,
+		8,
+		30,
+		0,
+		0
+	},
+	attrs_growth = {
+		40532,
+		976,
+		0,
+		901,
+		0,
+		372,
+		0,
+		339,
+		150,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.45,
+		2,
+		0.9
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"special",
+		"Little-series"
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[406011] = {
 	nationality = 4,
 	oxy_max = 0,
@@ -235885,7 +236457,8 @@ _G.pg.base.ship_data_statistics[407021] = {
 	},
 	tag_list = {
 		"Graf Zeppelin-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -236011,7 +236584,8 @@ _G.pg.base.ship_data_statistics[407022] = {
 	},
 	tag_list = {
 		"Graf Zeppelin-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -236137,7 +236711,8 @@ _G.pg.base.ship_data_statistics[407023] = {
 	},
 	tag_list = {
 		"Graf Zeppelin-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -236263,7 +236838,8 @@ _G.pg.base.ship_data_statistics[407024] = {
 	},
 	tag_list = {
 		"Graf Zeppelin-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -342013,7 +342589,8 @@ _G.pg.base.ship_data_statistics[900352] = {
 	tag_list = {
 		"Cleveland-Class",
 		"Cleveland-Chan",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -342143,7 +342720,8 @@ _G.pg.base.ship_data_statistics[900353] = {
 		"Brooklyn-Class",
 		"Helena-Chan",
 		"Helena",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -342275,7 +342853,8 @@ _G.pg.base.ship_data_statistics[900354] = {
 		"Atlanta-Class",
 		"Helena-Chan",
 		"Cleveland-Chan",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -342402,7 +342981,8 @@ _G.pg.base.ship_data_statistics[900355] = {
 	},
 	tag_list = {
 		"Yorktown-Class",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 
@@ -342531,7 +343111,8 @@ _G.pg.base.ship_data_statistics[900356] = {
 		"Amagi-Class",
 		"1st-airfleet",
 		"special",
-		"Akagi"
+		"Akagi",
+		"Little-series"
 	}
 }
 
@@ -342659,7 +343240,8 @@ _G.pg.base.ship_data_statistics[900357] = {
 	tag_list = {
 		"Illustrious-Class",
 		"Armor-CV",
-		"special"
+		"special",
+		"Little-series"
 	}
 }
 

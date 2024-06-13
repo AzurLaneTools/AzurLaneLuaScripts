@@ -183,6 +183,8 @@ slot0.MsgBox = function(slot0)
 	slot1.active = false
 
 	pg.DelegateInfo.New(slot1)
+	setText(findTF(slot1.cancenlBtn, "Image/Image (1)"), i18n("text_cancel"))
+	setText(findTF(slot1.confirmBtn, "Image/Image (1)"), i18n("text_confirm"))
 
 	slot2 = function(slot0, slot1)
 		uv0.valueTxt.text = slot0

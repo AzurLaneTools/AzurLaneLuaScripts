@@ -142,8 +142,6 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.InitCounter = function(slot0, slot1, slot2, slot3, slot4)
-	slot0:DisposeCounter()
-
 	slot2[2] = math.max(slot2[1], slot2[2])
 	slot5 = slot1
 	slot6 = slot0.layerFormulaDetail
@@ -160,8 +158,7 @@ slot0.InitCounter = function(slot0, slot1, slot2, slot3, slot4)
 		setText(uv1:Find("Number"), slot0)
 		uv2(uv0)
 	end)()
-
-	slot8, slot0._rightRemoveTimer = pressPersistTrigger(slot6:Find("Plus"), 0.5, function (slot0)
+	pressPersistTrigger(slot6:Find("Plus"), 0.5, function (slot0)
 		uv0 = uv0 + 1
 		uv0 = math.clamp(uv0, uv1[1], uv1[2])
 
@@ -174,7 +171,7 @@ slot0.InitCounter = function(slot0, slot1, slot2, slot3, slot4)
 
 		uv2()
 	end, nil, true, true, 0.1, SFX_PANEL)
-	slot10, slot0._leftRemoveTimer = pressPersistTrigger(slot6:Find("Minus"), 0.5, function (slot0)
+	pressPersistTrigger(slot6:Find("Minus"), 0.5, function (slot0)
 		uv0 = uv0 - 1
 		uv0 = math.clamp(uv0, uv1[1], uv1[2])
 
@@ -186,7 +183,6 @@ slot0.InitCounter = function(slot0, slot1, slot2, slot3, slot4)
 
 		uv2()
 	end, nil, true, true, 0.1, SFX_PANEL)
-
 	onButton(slot0, slot6:Find("Plus10"), function ()
 		uv0 = uv0 + 10
 		uv0 = math.clamp(uv0, uv1[1], uv1[2])
@@ -206,21 +202,11 @@ slot0.InitCounter = function(slot0, slot1, slot2, slot3, slot4)
 		uv2()
 	end)
 
-	slot14 = slot0.layerFormulaDetail
+	slot10 = slot0.layerFormulaDetail
 
-	onButton(slot0, slot14:Find("Composite"), function ()
+	onButton(slot0, slot10:Find("Composite"), function ()
 		existCall(uv0, uv1)
 	end, SFX_PANEL)
-end
-
-slot0.DisposeCounter = function(slot0)
-	if slot0._leftRemoveTimer then
-		slot0._leftRemoveTimer()
-		slot0._rightRemoveTimer()
-
-		slot0._leftRemoveTimer = nil
-		slot0._rightRemoveTimer = nil
-	end
 end
 
 slot3 = {
@@ -557,7 +543,6 @@ slot0.UpdateActivityDrop = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.willExit = function(slot0)
-	slot0:DisposeCounter()
 	slot0.loader:Clear()
 end
 

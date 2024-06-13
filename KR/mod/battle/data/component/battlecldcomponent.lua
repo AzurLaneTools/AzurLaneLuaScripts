@@ -12,10 +12,15 @@ slot2.SetActive = function(slot0, slot1)
 	slot0._cldData.Active = slot1
 end
 
+slot2.SetImmuneCLD = function(slot0, slot1)
+	slot0._cldData.ImmuneCLD = slot1
+end
+
 slot2.SetCldData = function(slot0, slot1)
 	slot0._cldData = slot1
 	slot0._cldData.distList = {}
 	slot0._cldData.Active = false
+	slot0._cldData.ImmuneCLD = false
 	slot0._cldData.FriendlyCld = false
 	slot0._cldData.Surface = uv0.OXY_STATE.FLOAT
 	slot0._box.data = slot1

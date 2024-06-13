@@ -559,6 +559,10 @@ slot0.RegistRecordBtn = function(slot0)
 			return
 		end
 
+		if not uv0.recordPanel:CanOpen() then
+			return
+		end
+
 		uv0.recordPanel.Show(uv0.recordPanel, uv0.recorder)
 	end, SFX_PANEL)
 end

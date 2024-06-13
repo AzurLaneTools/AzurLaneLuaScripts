@@ -3021,6 +3021,7 @@ pg.memory_template = setmetatable({
 		3642,
 		3643,
 		3644,
+		3651,
 		10000,
 		10001,
 		10002,
@@ -36060,7 +36061,7 @@ pg.base.memory_template = {
 		mask = "bg/bg_memory",
 		subtitle = "",
 		type = 1,
-		title = "휘관의 성",
+		title = "휘광의 성",
 		condition = "A2/C2 시작",
 		story = "ZHANFANGYUHUIGUANGZHICHENG6",
 		id = 3615,
@@ -36384,6 +36385,17 @@ pg.base.memory_template = {
 		story = "ZHANFANGYUHUIGUANGZHICHENG35",
 		id = 3644,
 		icon = "memory_huiguangzhicheng2",
+		is_open = 0
+	},
+	[3651] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "비취 정원에서의 자수",
+		condition = "비취 정원에서의 자수 시작",
+		story = "CUIYUANJIAXIU",
+		id = 3651,
+		icon = "memory_cuiyuanjiaxiu",
 		is_open = 0
 	},
 	[10000] = {

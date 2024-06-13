@@ -442,7 +442,7 @@ onDelayTick = function(slot0, slot1)
 	Timer.New(slot0, slot1, 1):Start()
 end
 
-seriesAsync = function(slot0, slot1)
+seriesAsync = function(slot0, slot1, ...)
 	slot2 = 0
 	slot3 = #slot0
 	slot4 = nil
@@ -455,10 +455,10 @@ seriesAsync = function(slot0, slot1)
 		elseif uv0 == uv1 + 1 and uv4 then
 			uv4(...)
 		end
-	end)()
+	end)(...)
 end
 
-seriesAsyncExtend = function(slot0, slot1)
+seriesAsyncExtend = function(slot0, slot1, ...)
 	slot2 = nil
 
 	(function (...)
@@ -467,7 +467,7 @@ seriesAsyncExtend = function(slot0, slot1)
 		elseif uv2 then
 			uv2(...)
 		end
-	end)()
+	end)(...)
 end
 
 parallelAsync = function(slot0, slot1)
@@ -718,8 +718,6 @@ setOutlineColor = function(slot0, slot1)
 	GetComponent(slot0, typeof(Outline)).effectColor = slot1
 end
 
-slot4 = {}
-
 pressPersistTrigger = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	assert(defaultValue(slot6, 0.25) > 0, "maxSpeed less than zero")
 	assert(slot0, "should exist objectOrTransform")
@@ -728,49 +726,38 @@ pressPersistTrigger = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, 
 
 	assert(slot2, "should exist callback")
 
-	slot9 = uv0[slot0]
+	slot9 = nil
 
-	slot10 = function()
-		if uv0 then
-			uv0:Stop()
-
-			uv0 = nil
-			uv1[uv2] = nil
-		end
-	end
-
-	slot10()
 	slot8:AddPointDownFunc(function ()
-		uv0()
-
-		uv1 = Timer.New(function ()
+		uv0 = Timer.New(function ()
 			if uv0 then
 				uv1.duration = math.max(uv1.duration - uv2 / 10, uv3)
 			end
 
 			existCall(uv4, uv5)
-		end, uv3, -1)
-		uv6[uv7] = uv1
+		end, uv2, -1)
 
-		uv1:Start()
+		uv0:Start()
 
-		if uv8 then
-			uv1.func()
+		if uv6 then
+			uv0.func()
 		end
 
-		if uv9 and uv10 then
-			pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv9)
+		if uv7 and uv8 then
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv7)
 		end
 	end)
 	slot8:AddPointUpFunc(function ()
-		uv0()
+		if uv0 then
+			uv0:Stop()
 
-		if uv1 then
-			uv1()
+			uv0 = nil
+
+			existCall(uv1)
 		end
 	end)
 
-	return slot8, slot10
+	return slot8
 end
 
 getSpritePivot = function(slot0)

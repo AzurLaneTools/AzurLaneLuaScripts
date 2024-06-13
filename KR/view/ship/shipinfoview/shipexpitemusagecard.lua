@@ -10,22 +10,22 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.valueTxt = slot2:GetComponent(typeof(Text))
 	slot0.value = 0
 
-	pressPersistTrigger(slot1:Find("m10"), 0.5, function (slot0)
+	pressPersistTrigger(slot1:Find("m10"), 0.5, function ()
 		uv0.value = uv0.value - 10
 
 		uv0:UpdateValue(true)
 	end, nil, true, true, 0.15, SFX_PANEL)
-	pressPersistTrigger(slot1:Find("a10"), 0.5, function (slot0)
+	pressPersistTrigger(slot1:Find("a10"), 0.5, function ()
 		uv0.value = uv0.value + 10
 
 		uv0:UpdateValue()
 	end, nil, true, true, 0.15, SFX_PANEL)
-	pressPersistTrigger(slot1:Find("a1"), 0.5, function (slot0)
+	pressPersistTrigger(slot1:Find("a1"), 0.5, function ()
 		uv0.value = uv0.value + 1
 
 		uv0:UpdateValue()
 	end, nil, true, true, 0.15, SFX_PANEL)
-	pressPersistTrigger(slot1:Find("m1"), 0.5, function (slot0)
+	pressPersistTrigger(slot1:Find("m1"), 0.5, function ()
 		uv0.value = uv0.value - 1
 
 		uv0:UpdateValue(true)

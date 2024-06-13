@@ -3045,6 +3045,196 @@ _G.pg.base.gametip.mail_confirm_cancel_important_flag = {
 }
 
 
+_G.pg.base.gametip.mail_mail_page = {
+	tip = "우편"
+}
+
+
+_G.pg.base.gametip.mail_storeroom_page = {
+	tip = "저장고"
+}
+
+
+_G.pg.base.gametip.mail_boxroom_page = {
+	tip = "보관고"
+}
+
+
+_G.pg.base.gametip.mail_all_page = {
+	tip = "모두"
+}
+
+
+_G.pg.base.gametip.mail_important_page = {
+	tip = "중요"
+}
+
+
+_G.pg.base.gametip.mail_rare_page = {
+	tip = "특수"
+}
+
+
+_G.pg.base.gametip.mail_reward_got = {
+	tip = "수령 완료"
+}
+
+
+_G.pg.base.gametip.mail_reward_tips = {
+	tip = "※ 우편에 첨부된 물자와 연료는 저장고로 발송됩니다."
+}
+
+
+_G.pg.base.gametip.mail_boxroom_extend_title = {
+	tip = "저장고 확장"
+}
+
+
+_G.pg.base.gametip.mail_boxroom_extend_tips = {
+	tip = "저장고 용량 확장"
+}
+
+
+_G.pg.base.gametip.mail_buy_button = {
+	tip = "구매"
+}
+
+
+_G.pg.base.gametip.mail_manager_title = {
+	tip = "우편 관리"
+}
+
+
+_G.pg.base.gametip.mail_manager_tips_2 = {
+	tip = "※ 우편에 첨부된 물자와 연료는 저장고로 발송됩니다."
+}
+
+
+_G.pg.base.gametip.mail_manager_all = {
+	tip = "모든 첨부 아이템"
+}
+
+
+_G.pg.base.gametip.mail_manager_rare = {
+	tip = "다음 아이템만 포함된 우편"
+}
+
+
+_G.pg.base.gametip.mail_get_oneclick = {
+	tip = "일괄 수령"
+}
+
+
+_G.pg.base.gametip.mail_read_oneclick = {
+	tip = "읽음 처리"
+}
+
+
+_G.pg.base.gametip.mail_delete_oneclick = {
+	tip = "일괄 삭제"
+}
+
+
+_G.pg.base.gametip.mail_search_new = {
+	tip = "탭하여 검색"
+}
+
+
+_G.pg.base.gametip.mail_receive_time = {
+	tip = "수신 시간"
+}
+
+
+_G.pg.base.gametip.mail_move_oneclick = {
+	tip = "일괄 이동"
+}
+
+
+_G.pg.base.gametip.mail_deleteread_button = {
+	tip = "읽은 우편 삭제"
+}
+
+
+_G.pg.base.gametip.mail_manage_button = {
+	tip = "우편 관리"
+}
+
+
+_G.pg.base.gametip.mail_move_button = {
+	tip = "일괄 이동"
+}
+
+
+_G.pg.base.gametip.mail_delet_button = {
+	tip = "삭제"
+}
+
+
+_G.pg.base.gametip.mail_moveone_button = {
+	tip = "우편 이동"
+}
+
+
+_G.pg.base.gametip.mail_getone_button = {
+	tip = "아이템 획득"
+}
+
+
+_G.pg.base.gametip.mail_take_all_mail_msgbox = {
+	tip = "※ 다음 첨부 아이템을 일괄적으로 수령합니다."
+}
+
+
+_G.pg.base.gametip.mail_take_maildetail_msgbox = {
+	tip = "우편 상세 정보"
+}
+
+
+_G.pg.base.gametip.mail_take_canget_msgbox = {
+	tip = "수령 시 하기 획득 가능:"
+}
+
+
+_G.pg.base.gametip.mail_getbox_title = {
+	tip = "우편 수령"
+}
+
+
+_G.pg.base.gametip.mail_title_new = {
+	tip = "우편"
+}
+
+
+_G.pg.base.gametip.mail_boxtitle_information = {
+	tip = "정보"
+}
+
+
+_G.pg.base.gametip.mail_box_confirm = {
+	tip = "확정"
+}
+
+
+_G.pg.base.gametip.mail_box_cancel = {
+	tip = "돌아가기"
+}
+
+
+_G.pg.base.gametip.mail_title_English = {
+	tip = "MAIL BOX"
+}
+
+
+_G.pg.base.gametip.mail_toggle_on = {
+	tip = "ON"
+}
+
+
+_G.pg.base.gametip.mail_toggle_off = {
+	tip = "OFF"
+}
+
+
 _G.pg.base.gametip.main_mailLayer_mailBoxClear = {
 	tip = "우편함을 비웠습니다."
 }
@@ -3071,7 +3261,12 @@ _G.pg.base.gametip.main_mailLayer_attachTaken = {
 
 
 _G.pg.base.gametip.main_mailLayer_quest_clear = {
-	tip = "읽은 우편을 전부 삭제하시겠습니까?<color=#92fc63>(첨부 아이템을 수령하지 않은 우편은 삭제되지 않습니다.)</color>"
+	tip = "읽은 우편을 모두 삭제하시겠습니까? <color=#92fc63>(첨부 아이템을 미수령한 우편은 삭제되지 않습니다.)</color>"
+}
+
+
+_G.pg.base.gametip.main_mailLayer_quest_clear_choice = {
+	tip = "선택한 우편을 모두 삭제하시겠습니까? <color=#92fc63>(첨부 파일을 수령하지 않은 우편은 삭제되지 않습니다.)</color>"
 }
 
 
@@ -3092,6 +3287,16 @@ _G.pg.base.gametip.main_mailMediator_mailDelete = {
 
 _G.pg.base.gametip.main_mailMediator_attachTaken = {
 	tip = "첨부 아이템을 수령했습니다."
+}
+
+
+_G.pg.base.gametip.main_mailMediator_mailread = {
+	tip = "우편이 읽음 처리되었습니다."
+}
+
+
+_G.pg.base.gametip.main_mailMediator_mailmove = {
+	tip = "우편이 보관고로 이동했습니다."
 }
 
 
@@ -10392,7 +10597,7 @@ _G.pg.base.gametip.take_nothing = {
 
 
 _G.pg.base.gametip.take_all_mail = {
-	tip = "<color='#92fc63FF'>모든 우편을 수령</color>하시겠습니까?"
+	tip = "<color='#92fc63FF'>모든 우편을 개봉</color>하시겠습니까?"
 }
 
 
@@ -14271,12 +14476,186 @@ _G.pg.base.gametip.index_rare6 = {
 
 
 _G.pg.base.gametip.warning_mail_max_1 = {
-	tip = "우편 소지량이 한계치(<color=#FF5C5C>$1</color>/1000)에 가까워지고 있습니다. 우편을 정리해주십시오."
+	tip = "우편 소지 수가 곧 한도(<color=#FF5C5C>$1</color>/1000)에 달합니다. 우편을 정리하시기 바랍니다."
 }
 
 
 _G.pg.base.gametip.warning_mail_max_2 = {
 	tip = "우편 소지량이 한계치에 달했습니다. 우편을 정리해주십시오."
+}
+
+
+_G.pg.base.gametip.warning_mail_max_3 = {
+	tip = "우편함의 우편 소지 수가 한도(<color=#FF5C5C>$1</color>/100)에 달하여, 더 이상 우편을 수신할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.warning_mail_max_4 = {
+	tip = "우편함이 가득 찼습니다. 소지 수가 한도에 달하면 우편을 새로 수신할 수 없습니다. 우편함을 닫으시겠습니까?"
+}
+
+
+_G.pg.base.gametip.warning_mail_max_5 = {
+	tip = "※ 한도에 달하면 우편을 수신할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.mail_moveto_markroom_1 = {
+	tip = "우편을 우편함에서<color=#92fc63>[보관고]</color>로 이동하시겠습니까? \n이동하면 우편에 첨부된 아이템은 자동으로 반출됩니다."
+}
+
+
+_G.pg.base.gametip.mail_moveto_markroom_2 = {
+	tip = "중요 우편을 우편함에서 <color=#92fc63>[보관고]</color>로 이동하시겠습니까? \n이동하면 우편에 첨부된 아이템은 자동으로 반출됩니다."
+}
+
+
+_G.pg.base.gametip.mail_moveto_markroom_max = {
+	tip = "<color=#92fc63>[보관고]</color>의 최대 우편 보관 수에 달했습니다. 우편을 이동할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.mail_markroom_delete = {
+	tip = "우편<color=#92fc63>《$1》</color>(을)를 완전히 삭제하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.mail_markroom_tip = {
+	tip = "※ 최대 한도는 지휘관 레벨에 영향을 받습니다."
+}
+
+
+_G.pg.base.gametip.mail_manage_1 = {
+	tip = "모두"
+}
+
+
+_G.pg.base.gametip.mail_manage_2 = {
+	tip = "다음 아이템만 포함된 우편"
+}
+
+
+_G.pg.base.gametip.mail_manage_3 = {
+	tip = "조건에 해당하는 우편이 없습니다"
+}
+
+
+_G.pg.base.gametip.mail_manage_tip_1 = {
+	tip = "※ 일괄 삭제는 첨부 아이템을 수령한 우편만 삭제합니다."
+}
+
+
+_G.pg.base.gametip.mail_storeroom_tips = {
+	tip = "※ 첨부 아이템 중 물자·연료는 [저장고]로 이동됩니다."
+}
+
+
+_G.pg.base.gametip.mail_storeroom_noextend = {
+	tip = "저장고의 자원 보관량이 한도에 달했습니다. 더 이상 확장할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.mail_storeroom_extend = {
+	tip = "저장고 용량 확장:"
+}
+
+
+_G.pg.base.gametip.mail_storeroom_extend_1 = {
+	tip = "저장고 확장 성공"
+}
+
+
+_G.pg.base.gametip.mail_storeroom_taken_1 = {
+	tip = "자원을 반출했습니다."
+}
+
+
+_G.pg.base.gametip.mail_storeroom_max_1 = {
+	tip = "저장고의 자원 보관량이 한도에 달하여, 다음 자원이 폐기됩니다. 계속하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.mail_storeroom_max_2 = {
+	tip = "<color=#238c40>$1</color>(을)를 입력하여 계속해서 조작하십시오."
+}
+
+
+_G.pg.base.gametip.mail_storeroom_addgold = {
+	tip = "비축 물자:"
+}
+
+
+_G.pg.base.gametip.mail_storeroom_addoil = {
+	tip = "비축 연료:"
+}
+
+
+_G.pg.base.gametip.mail_search = {
+	tip = "탭하여 입력"
+}
+
+
+_G.pg.base.gametip.mail_storeroom_resourcetaken = {
+	tip = "자원 반출"
+}
+
+
+_G.pg.base.gametip.resource_max_tip_storeroom = {
+	tip = "자원은 최대 소지 한도를 초과해서 반출할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.mail_tip = {
+	tip = {
+		{
+			info = [[
+<color=#92fc63>우편함에 대해</color>
+ 1. 우편함의 최대 우편 소지 수는 100입니다([중요], [특수] 우편 포함).
+ 2. [일괄 관리]로 표시되는 우편을 필터링하거나, 우편을 일괄적으로 관리할 수 있습니다.
+ 　읽음 처리: 표시되는 우편을 모두 읽은 것으로 처리합니다.
+ 　일괄 수령: 표시되는 우편의 첨부 아이템을 일괄적으로 수령합니다(연료 및 물자는 저장고로 이동됩니다.).
+ 　일괄 삭제: 표시되는 우편 중 "첨부 아이템을 수령한 우편"을 일괄적으로 삭제할 수 있습니다.
+ 3. 일반 우편에 [중요]를 설정하면, [중요] 우편으로 분류할 수 있습니다.
+ 4. [물자], [연료], [공훈 Pt], [큐브] 이외의 우편은 [특수]로 분류됩니다.
+
+  <color=#92fc63>저장고</color>
+ 1. 우편에서 수령한 첨부 아이템 중 [물자]와 [연료]는 저장고에 보관됩니다.
+ 2. 원한다면 언제든 저장고에서 자원을 반출할 수 있습니다.
+  <color=#92fc63>보관고</color>
+ 1. 일괄 이동 기능으로 우편을 보관고에 보관할 수 있습니다. 이동 시, 우편에 첨부된 아이템은 자동으로 반출됩니다. (보관고로 이동한 우편은 우편함에서 삭제됩니다. 반출된 연료와 물자는 저장고로 이동됩니다.)
+ 2. [보관고]의 최대 우편 보관 수는 지휘관 레벨에 따라 다릅니다.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.mail_page_1 = {
+	tip = "우편"
+}
+
+
+_G.pg.base.gametip.mail_page_2 = {
+	tip = "저장고"
+}
+
+
+_G.pg.base.gametip.mail_page_3 = {
+	tip = "보관고"
+}
+
+
+_G.pg.base.gametip.mail_gold_res = {
+	tip = "물자"
+}
+
+
+_G.pg.base.gametip.mail_oil_res = {
+	tip = "연료"
+}
+
+
+_G.pg.base.gametip.mail_all_price = {
+	tip = "합계:"
 }
 
 
@@ -14712,7 +15091,22 @@ _G.pg.base.gametip.list_empty_tip_taskscene = {
 
 
 _G.pg.base.gametip.empty_tip_mailboxui = {
-	tip = "우편 미획득"
+	tip = "우편이 없습니다."
+}
+
+
+_G.pg.base.gametip.emptymarkroom_tip_mailboxui = {
+	tip = "아직 우편이 보관되어 있지 않습니다."
+}
+
+
+_G.pg.base.gametip.empty_tip_mailboxui_en = {
+	tip = "C O M M A N D E R ， N O   M A I L   H A S   B E E N   A C Q U I R E D   Y E T "
+}
+
+
+_G.pg.base.gametip.emptymarkroom_tip_mailboxui_en = {
+	tip = "C O M M A N D E R ， N O   M A I L   H A S   B E E N   A R C H I V E D   Y E T "
 }
 
 
@@ -19361,6 +19755,11 @@ _G.pg.base.gametip.destory_ship_input_erro = {
 }
 
 
+_G.pg.base.gametip.mail_input_erro = {
+	tip = "올바른 텍스트를 입력하면 수령할 수 있습니다."
+}
+
+
 _G.pg.base.gametip.destroy_ur_rarity_tip = {
 	tip = "<color=#92fc63>UR 함선</color> 포함됨, <color=#92fc63>$1</color>를 입력하여 확인"
 }
@@ -22259,6 +22658,11 @@ _G.pg.base.gametip.ship_exp_item_label_confirm = {
 
 _G.pg.base.gametip.player_expResource_mail_fullBag = {
 	tip = "자원 최대치 도달. 계속하면 일부 자원을 수령할 수 없습니다. 계속하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.player_expResource_mail_overflow = {
+	tip = "$1 소지 수가 한도에 도달했습니다. 계속하면 일부 아이템을 획득할 수 없게 됩니다. 계속하시겠습니까?"
 }
 
 
@@ -33267,6 +33671,33 @@ _G.pg.base.gametip.UrExchange_Pt_help = {
 	tip = {
 		{
 			info = "이벤트 배너를 통한 교환 및 이벤트 상점과 동일하게 카운트됩니다.\n총 2회까지 교환할 수 있습니다.\n1회차: 심판정 사건 보고서×200；2회차: 심판정 사건 보고서×300."
+		}
+	}
+}
+
+
+_G.pg.base.gametip.xiaodadi_npc = {
+	tip = {
+		{
+			info = "■ 개요\n\"엄마의 연주 연습\"은 이벤트 시작 시에 임시로 가입하는 [꼬마 프리드리히]의 \"호감도\"를 쌓아서, 총 호감도 획득 수에 따라 [꼬마 프리드리히]를 정식으로 가입시킬 수 있는 이벤트입니다."
+		},
+		{
+			info = "■ 플레이 방법\n1. 이벤트 기간 중에 특정 스테이지를 클리어하면 \"호감도\"를 획득할 수 있습니다."
+		},
+		{
+			info = "2. [꼬마 프리드리히]는 호감도 보상(7단계째)의 \"정식 가입\"을 달성하지 않으면 서약할 수 없으며, 퇴역이 불가능하고, 강화·한계 돌파 재료로도 선택할 수 없습니다."
+		},
+		{
+			info = "3. 이벤트 종료 시까지 이벤트 페이지의 \"호감도 보상\"을 마지막까지 수령하면, \"꼬마 프리드리히\"를 \"정식 가입\"시킬 수 있습니다(호감도 1000 필요). 이벤트 종료 시, \"정식 가입\"하지 않은 [꼬마 프리드리히]는 모항에서 사라집니다."
+		},
+		{
+			info = "4. 호감도 보상은 6/5(수)까지 매일 한 단계씩 오픈됩니다."
+		},
+		{
+			info = "5. 임시 가입 상태인 [꼬마 프리드리히]는 대형 작전(META전 포함)에는 참여할 수 없으며, 대형 작전을 통한 호감도 획득 또한 불가능합니다."
+		},
+		{
+			info = "6. 임시 가입 상태인 [꼬마 프리드리히]는 대함대 작전에 참여할 수 없습니다."
 		}
 	}
 }

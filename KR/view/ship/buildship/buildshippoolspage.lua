@@ -152,12 +152,13 @@ slot0.Flush = function(slot0, slot1, slot2)
 
 		slot14 = slot13:Find("frame")
 
+		removeOnToggle(slot14)
+		triggerToggle(slot14, false)
 		onToggle(slot0, slot14, function (slot0)
 			if slot0 then
 				uv0:SwitchPool(uv1)
 			end
 		end, SFX_PANEL)
-		triggerToggle(slot14, false)
 
 		slot4[slot11:GetPoolId()] = slot13
 	end

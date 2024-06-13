@@ -634,13 +634,12 @@ slot0.readyToAchieve = function(slot0)
 				return false
 			end
 
-			slot1 = function(slot0, slot1)
-				return getProxy(ShopsProxy):getActivityShopById(slot0):GetCommodityById(slot1):GetPurchasableCnt()
-			end
+			slot1 = slot0:getConfig("config_client")
+			slot3 = #slot1.goodsId + 1
 
-			slot2 = slot0:getConfig("config_client")
-
-			return slot6 < 3 and (3 - slot1(slot2.shopId, slot2.goodsId[1]) - slot1(slot2.shopId, slot2.goodsId[2]) < 3 and pg.activity_shop_template[slot2.goodsId[slot6]] or nil).resource_num <= getProxy(PlayerProxy):getData():getResource(slot2.uPtId)
+			return slot4 < slot3 and (slot3 > slot3 - _.reduce(slot1.goodsId, 0, function (slot0, slot1)
+				return slot0 + getProxy(ShopsProxy):getActivityShopById(uv0.shopId):GetCommodityById(slot1):GetPurchasableCnt()
+			end) and pg.activity_shop_template[slot1.goodsId[slot4]] or nil).resource_num <= getProxy(PlayerProxy):getData():getResource(slot1.uPtId)
 		end
 	}
 
@@ -736,14 +735,13 @@ slot0.isShow = function(slot0)
 			return false
 		end
 
-		slot1 = function(slot0, slot1)
-			return getProxy(ShopsProxy):getActivityShopById(slot0):GetCommodityById(slot1):GetPurchasableCnt()
-		end
+		slot1 = slot0:getConfig("config_client")
+		slot2 = getProxy(PlayerProxy):getData():getResource(slot1.uPtId)
+		slot3 = #slot1.goodsId + 1
 
-		slot2 = slot0:getConfig("config_client")
-		slot3 = getProxy(PlayerProxy):getData():getResource(slot2.uPtId)
-
-		return 3 - slot1(slot2.shopId, slot2.goodsId[1]) - slot1(slot2.shopId, slot2.goodsId[2]) < 3
+		return slot3 > slot3 - _.reduce(slot1.goodsId, 0, function (slot0, slot1)
+			return slot0 + getProxy(ShopsProxy):getActivityShopById(uv0.shopId):GetCommodityById(slot1):GetPurchasableCnt()
+		end)
 	end
 
 	return true

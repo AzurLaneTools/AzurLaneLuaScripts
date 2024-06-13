@@ -101,21 +101,23 @@ slot7.UpdateShipCldTree = function(slot0, slot1)
 end
 
 slot7.HandlePlayerShipCld = function(slot0, slot1, slot2)
-	if slot2:GetCldData().Active == false then
+	if slot2:GetCldData().Active == false or slot3.ImmuneCLD == true then
 		return
 	end
 
 	slot5 = {}
 
 	for slot9 = 1, #slot1 do
-		if slot1[slot9].data.Active == false then
-			-- Nothing
-		elseif slot10.UID == slot2:GetUniqueID() then
-			-- Nothing
-		elseif slot3.IFF == slot10.IFF then
-			-- Nothing
-		elseif slot3.Surface == slot10.Surface then
-			slot5[#slot5 + 1] = slot10.UID
+		if slot1[slot9].data.Active ~= false then
+			if slot10.ImmuneCLD == true then
+				-- Nothing
+			elseif slot10.UID == slot2:GetUniqueID() then
+				-- Nothing
+			elseif slot3.IFF == slot10.IFF then
+				-- Nothing
+			elseif slot3.Surface == slot10.Surface then
+				slot5[#slot5 + 1] = slot10.UID
+			end
 		end
 	end
 
@@ -123,7 +125,7 @@ slot7.HandlePlayerShipCld = function(slot0, slot1, slot2)
 end
 
 slot7.HandleEnemyShipCld = function(slot0, slot1, slot2)
-	if slot2:GetCldData().Active == false then
+	if slot2:GetCldData().Active == false or slot3.ImmuneCLD == true then
 		return
 	end
 
@@ -131,16 +133,18 @@ slot7.HandleEnemyShipCld = function(slot0, slot1, slot2)
 	slot5 = {}
 
 	for slot10 = 1, #slot1 do
-		if slot1[slot10].data.Active == false then
-			-- Nothing
-		elseif slot11.UID == slot2:GetUniqueID() then
-			-- Nothing
-		elseif slot3.IFF ~= slot11.IFF then
-			-- Nothing
-		elseif not slot11.FriendlyCld then
-			-- Nothing
-		elseif slot3.Surface == slot11.Surface then
-			slot5[#slot5 + 1] = slot4 - slot0:GetShip(slot11.UID):GetPosition()
+		if slot1[slot10].data.Active ~= false then
+			if slot11.ImmuneCLD == true then
+				-- Nothing
+			elseif slot11.UID == slot2:GetUniqueID() then
+				-- Nothing
+			elseif slot3.IFF ~= slot11.IFF then
+				-- Nothing
+			elseif not slot11.FriendlyCld then
+				-- Nothing
+			elseif slot3.Surface == slot11.Surface then
+				slot5[#slot5 + 1] = slot4 - slot0:GetShip(slot11.UID):GetPosition()
+			end
 		end
 	end
 
@@ -152,7 +156,7 @@ slot7.surfaceFilterCount = function(slot0, slot1)
 	slot3 = 0
 
 	for slot8 = 1, #slot1 do
-		if slot1[slot8].data.Active == true and slot9.UID ~= slot0:GetUniqueID() and slot2.IFF ~= slot9.IFF and slot2.Surface == slot9.Surface then
+		if slot1[slot8].data.Active == true and slot9.ImmuneCLD == false and slot9.UID ~= slot0:GetUniqueID() and slot2.IFF ~= slot9.IFF and slot2.Surface == slot9.Surface then
 			slot3 = slot3 + 1
 		end
 	end
@@ -177,7 +181,7 @@ end
 
 slot7.HandleBulletCldWithAircraft = function(slot0, slot1, slot2)
 	for slot7 = 1, #slot1 do
-		if slot1[slot7].data.type == uv0.CldType.BULLET and slot8.Active == true then
+		if slot1[slot7].data.type == uv0.CldType.BULLET and slot8.Active == true and slot8.ImmuneCLD == false then
 			slot0._proxy:HandleBulletHit(slot0:GetBullet(slot8.UID), slot2)
 		end
 	end
@@ -241,7 +245,7 @@ slot7.HandleBulletCldWithShip = function(slot0, slot1, slot2)
 	slot4 = slot2:GetType()
 
 	for slot8 = 1, #slot1 do
-		if slot1[slot8].data.type == uv0.CldType.SHIP and slot9.Active == true then
+		if slot1[slot8].data.type == uv0.CldType.SHIP and slot9.Active == true and slot9.ImmuneCLD == false then
 			slot10 = slot0:GetShip(slot9.UID)
 			slot12 = slot10:IsImmuneCommonBulletCLD()
 
@@ -317,15 +321,17 @@ slot7.HandleAreaCldWithVehicle = function(slot0, slot1, slot2)
 	slot4 = slot1:OpponentAffected()
 
 	for slot9 = 1, #slot2 do
-		slot12 = slot0:GetShip(slot2[slot9].data.UID)
-		slot13 = true
+		if slot2[slot9].data.Active == true and slot10.ImmuneCLD == false then
+			slot12 = slot0:GetShip(slot10.UID)
+			slot13 = true
 
-		if slot1:GetDiveFilter() and table.contains(slot11, slot12:GetCurrentOxyState()) then
-			slot13 = false
-		end
+			if slot1:GetDiveFilter() and table.contains(slot11, slot12:GetCurrentOxyState()) then
+				slot13 = false
+			end
 
-		if slot13 and not slot1:IsOutOfAngle(slot12) then
-			slot1:AppendCldObj(slot10)
+			if slot13 and not slot1:IsOutOfAngle(slot12) then
+				slot1:AppendCldObj(slot10)
+			end
 		end
 	end
 end
@@ -365,7 +371,7 @@ end
 
 slot7.HandleWallCldWithBullet = function(slot0, slot1, slot2)
 	for slot7 = 1, #slot2 do
-		if slot2[slot7].data.type == uv0.CldType.BULLET and slot8.Active == true and not slot0._proxy:HandleWallHitByBullet(slot1, slot0:GetBullet(slot8.UID)) then
+		if slot2[slot7].data.type == uv0.CldType.BULLET and slot8.Active == true and slot8.ImmuneCLD == false and not slot0._proxy:HandleWallHitByBullet(slot1, slot0:GetBullet(slot8.UID)) then
 			return
 		end
 	end
@@ -375,7 +381,7 @@ slot7.HandleWllCldWithShip = function(slot0, slot1, slot2)
 	slot4 = {}
 
 	for slot8 = 1, #slot2 do
-		if slot2[slot8].data.type == uv0.CldType.SHIP and slot9.Active == true then
+		if slot2[slot8].data.type == uv0.CldType.SHIP and slot9.Active == true and slot9.ImmuneCLD == false then
 			if slot0:GetShip(slot9.UID):GetCurrentOxyState() ~= uv1.DIVE then
 				table.insert(slot4, slot10)
 			end

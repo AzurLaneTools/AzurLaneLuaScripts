@@ -47,7 +47,7 @@ slot2.Settle = function(slot0)
 	slot0._cldComponent:GetCldData().func(slot1, obj)
 
 	for slot6, slot7 in pairs(slot0._handledList) do
-		if not slot2[slot6.UID] then
+		if not slot2[slot6.UID] or slot6.ImmuneCLD == true then
 			slot0._exitCldFunc(slot6)
 
 			slot0._handledList[slot6] = nil

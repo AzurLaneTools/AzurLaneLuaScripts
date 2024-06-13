@@ -15,7 +15,15 @@ slot0.SetUp = function(slot0)
 		slot0.handle = UpdateBeat:CreateListener(slot0.Update, slot0)
 	end
 
-	UpdateBeat:AddListener(slot0.handle)
+	slot1 = UpdateBeat
+
+	slot1:AddListener(slot0.handle)
+
+	slot0.isFoldState = false
+
+	slot0:bind(NewMainScene.FOLD, function (slot0, slot1)
+		uv0.isFoldState = slot1
+	end)
 end
 
 slot0.Update = function(slot0)
@@ -44,7 +52,7 @@ slot0.EnterState = function(slot0)
 end
 
 slot0.AnyOverlayShowing = function(slot0)
-	return pg.NewStoryMgr.GetInstance():IsRunning() or pg.NewGuideMgr.GetInstance():IsBusy() or isActive(pg.MsgboxMgr.GetInstance()._tf) or getProxy(ContextProxy):getCurrentContext():hasChild() or pg.LayerWeightMgr.GetInstance().uiOrigin.childCount > 0
+	return pg.NewStoryMgr.GetInstance():IsRunning() or pg.NewGuideMgr.GetInstance():IsBusy() or isActive(pg.MsgboxMgr.GetInstance()._tf) or getProxy(ContextProxy):getCurrentContext():hasChild() or pg.LayerWeightMgr.GetInstance().uiOrigin.childCount > 0 or slot0.isFoldState
 end
 
 slot0.Clear = function(slot0)
@@ -53,6 +61,10 @@ slot0.Clear = function(slot0)
 
 		slot0.handle = nil
 	end
+
+	slot0:disposeEvent()
+
+	slot0.isFoldState = false
 end
 
 slot0.Disable = function(slot0)
@@ -61,7 +73,6 @@ end
 
 slot0.Dispose = function(slot0)
 	slot0:Disable()
-	slot0:disposeEvent()
 end
 
 return slot0

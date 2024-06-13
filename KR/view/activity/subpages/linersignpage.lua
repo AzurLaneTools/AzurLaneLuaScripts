@@ -1,6 +1,7 @@
 slot0 = class("LinerSignPage", import("view.base.BaseActivityPage"))
 
 slot0.OnInit = function(slot0)
+	slot0.lockNamed = PLATFORM_CODE == PLATFORM_CH and LOCK_NAMED
 	slot0.bg = slot0:findTF("AD")
 	slot0.signTF = slot0:findTF("sign", slot0.bg)
 	slot0.items = slot0:findTF("items", slot0.signTF)
@@ -16,6 +17,14 @@ slot0.OnInit = function(slot0)
 	slot0.linerBtn = slot0:findTF("go", slot0.linerTF)
 
 	setText(slot0:findTF("lock/Text", slot0.linerBtn), i18n("liner_sign_unlock_tip"))
+
+	slot0.nameInput:GetComponent(typeof(InputField)).interactable = not slot0.lockNamed
+
+	setActive(slot0:findTF("input/pan", slot0.namedTF), not slot0.lockNamed)
+
+	slot0.linerInput:GetComponent(typeof(InputField)).interactable = not slot0.lockNamed
+
+	setActive(slot0:findTF("name/edit", slot0.linerTF), not slot0.lockNamed)
 end
 
 slot0.OnDataSetting = function(slot0)
@@ -78,16 +87,17 @@ slot0.OnFirstFlush = function(slot0)
 		})
 	end, SFX_PANEL)
 
-	slot3 = getProxy(PlayerProxy)
-	slot3 = slot3:getRawData()
+	slot1 = getProxy(PlayerProxy)
+	slot1 = slot1:getRawData()
+	slot0.defaultName = slot1:GetName()
 
-	setInputText(slot0.nameInput, slot3:GetName())
+	setInputText(slot0.nameInput, slot0.defaultName)
 	onButton(slot0, slot0.sureBtn, function ()
 		if getInputText(uv0.nameInput) == "" then
 			return
 		end
 
-		if not nameValidityCheck(slot0, 4, 14, {
+		if slot0 ~= uv0.defaultName and not nameValidityCheck(slot0, 4, 14, {
 			"spece_illegal_tip",
 			"login_newPlayerScene_name_tooShort",
 			"login_newPlayerScene_name_tooLong",
@@ -109,7 +119,7 @@ slot0.OnFirstFlush = function(slot0)
 			return
 		end
 
-		if not nameValidityCheck(slot0, 4, 14, {
+		if slot0 ~= uv0.defaultName and not nameValidityCheck(slot0, 4, 14, {
 			"spece_illegal_tip",
 			"login_newPlayerScene_name_tooShort",
 			"login_newPlayerScene_name_tooLong",

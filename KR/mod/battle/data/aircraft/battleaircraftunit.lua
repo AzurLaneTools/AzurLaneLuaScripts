@@ -62,6 +62,10 @@ slot6.DeactiveCldBox = function(slot0)
 	slot0._cldComponent:SetActive(false)
 end
 
+slot6.SetCldBoxImmune = function(slot0, slot1)
+	slot0._cldComponent:SetImmuneCLD(slot1)
+end
+
 slot6.Init = function(slot0)
 	slot0._aliveState = true
 	slot0._speed = Vector3.zero

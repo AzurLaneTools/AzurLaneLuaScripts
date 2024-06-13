@@ -214,19 +214,23 @@ slot12 = function(slot0)
 		slot0.drags[slot6]:changeReactValue(slot2)
 		slot0.drags[slot6]:stepParameter()
 
-		if (slot0.drags[slot6]:getParameToTargetFlag() or slot0.drags[slot6]:getActive()) and slot0.drags[slot6]:getIgnoreReact() then
+		slot8 = slot0.drags[slot6]:getActive()
+
+		if (slot0.drags[slot6]:getParameToTargetFlag() or slot8) and slot0.drags[slot6]:getIgnoreReact() then
+			slot1 = true
+		elseif slot0.drags[slot6]:getReactCondition() then
 			slot1 = true
 		end
 
-		slot9 = slot0.drags[slot6]:getParameterUpdateFlag()
+		slot10 = slot0.drags[slot6]:getParameterUpdateFlag()
 
-		if slot0.drags[slot6]:getParameter() and slot9 and slot0.drags[slot6]:getParameterCom() then
-			slot0.liveCom:ChangeParameterData(slot10, slot8)
+		if slot0.drags[slot6]:getParameter() and slot10 and slot0.drags[slot6]:getParameterCom() then
+			slot0.liveCom:ChangeParameterData(slot11, slot9)
 		end
 
-		for slot14, slot15 in ipairs(slot0.drags[slot6]:getRelationParameterList()) do
-			if slot15.enable then
-				slot0.liveCom:ChangeParameterData(slot15.com, slot15.value)
+		for slot15, slot16 in ipairs(slot0.drags[slot6]:getRelationParameterList()) do
+			if slot16.enable then
+				slot0.liveCom:ChangeParameterData(slot16.com, slot16.value)
 			end
 		end
 	end
@@ -431,8 +435,10 @@ slot14 = function(slot0, slot1)
 		slot0._physics = GetComponent(slot0._tf, "CubismPhysicsController")
 	end
 
-	slot0._physics.enabled = false
-	slot0._physics.enabled = true
+	if slot0._physics then
+		slot0._physics.enabled = false
+		slot0._physics.enabled = true
+	end
 
 	if slot0.live2dData.l2dDragRate and #slot0.live2dData.l2dDragRate > 0 then
 		slot0.liveCom.DragRateX = slot0.live2dData.l2dDragRate[1] * uv1

@@ -45,6 +45,8 @@ slot0.OnInit = function(slot0)
 	end, SFX_PANEL)
 	pressPersistTrigger(slot0.minusBtn, 0.5, function (slot0)
 		if uv0.currCnt == 1 then
+			slot0()
+
 			return
 		end
 
@@ -54,6 +56,8 @@ slot0.OnInit = function(slot0)
 	end, nil, true, true, 0.1, SFX_PANEL)
 	pressPersistTrigger(slot0.addBtn, 0.5, function (slot0)
 		if uv0.currCnt > CommanderConst.MAX_GETBOX_CNT - uv0.count - 1 then
+			slot0()
+
 			return
 		end
 

@@ -853,7 +853,7 @@ pg.activity_ins_ship_group_template = {
 	[70104] = {
 		ship_group = 70104,
 		name = "Ташкент",
-		sculpture = "tashigan"
+		sculpture = "tashigan_4"
 	},
 	[20123] = {
 		ship_group = 20123,
@@ -1063,7 +1063,7 @@ pg.activity_ins_ship_group_template = {
 	[30508] = {
 		ship_group = 30508,
 		name = "Tosa",
-		sculpture = "tuzuo"
+		sculpture = "tuzuo_3"
 	},
 	[30182] = {
 		ship_group = 30182,
@@ -1193,7 +1193,7 @@ pg.activity_ins_ship_group_template = {
 	[29903] = {
 		ship_group = 29903,
 		name = "CaitSith",
-		sculpture = "chaijun"
+		sculpture = "chaijun_5"
 	},
 	[31901] = {
 		ship_group = 31901,
@@ -2028,7 +2028,7 @@ pg.activity_ins_ship_group_template = {
 	[20233] = {
 		ship_group = 20233,
 		name = "Scylla",
-		sculpture = "sikula"
+		sculpture = "sikula_3"
 	},
 	[20136] = {
 		ship_group = 20136,
@@ -2073,7 +2073,7 @@ pg.activity_ins_ship_group_template = {
 	[70302] = {
 		ship_group = 70302,
 		name = "Kursk",
-		sculpture = "kuersike"
+		sculpture = "kuersike_3"
 	},
 	[40210] = {
 		ship_group = 40210,
@@ -2444,6 +2444,16 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 90107,
 		name = "Mogador",
 		sculpture = "mojiaduoer_2"
+	},
+	[20120] = {
+		ship_group = 20120,
+		name = "Hunter",
+		sculpture = "lieren"
+	},
+	[19901] = {
+		ship_group = 19901,
+		name = "Seattle",
+		sculpture = "xiyatu"
 	},
 	all = {
 		30701,
@@ -2934,6 +2944,8 @@ pg.activity_ins_ship_group_template = {
 		80302,
 		90105,
 		90106,
-		90107
+		90107,
+		20120,
+		19901
 	}
 }

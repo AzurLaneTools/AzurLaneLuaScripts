@@ -343,9 +343,7 @@ slot0.ShowMsgbox = function(slot0, slot1)
 		setText(slot12:Find("number/Text"), math.clamp(PlayerPrefs.GetInt("world_sub_call_line", 0), 0, pg.gameset.world_instruction_submarine.description[1]))
 		pressPersistTrigger(slot12:Find("minus"), 0.5, function (slot0)
 			if uv0 == 0 then
-				if slot0 then
-					slot0()
-				end
+				slot0()
 
 				return
 			end
@@ -357,9 +355,7 @@ slot0.ShowMsgbox = function(slot0, slot1)
 		end, nil, true, true, 0.1, SFX_PANEL)
 		pressPersistTrigger(slot12:Find("plus"), 0.5, function (slot0)
 			if uv0 == uv1 then
-				if slot0 then
-					slot0()
-				end
+				slot0()
 
 				return
 			end

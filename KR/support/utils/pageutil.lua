@@ -8,27 +8,27 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4)
 	slot0._rightBtn = slot2
 	slot0._maxBtn = slot3
 	slot0._numTxt = slot4
-	slot5, slot0._leftRemoveTimer = pressPersistTrigger(slot0._leftBtn, 0.5, function (slot0)
+
+	pressPersistTrigger(slot0._leftBtn, 0.5, function ()
 		if uv0._curNum - uv0._addNum <= 0 then
-			slot1 = uv0._curNum or slot1
+			slot0 = uv0._curNum or slot0
 		end
 
-		uv0:setCurNum(slot1)
+		uv0:setCurNum(slot0)
 	end, nil, true, true, 0.1, SFX_PANEL)
-	slot7, slot0._rightRemoveTimer = pressPersistTrigger(slot0._rightBtn, 0.5, function (slot0)
-		slot1 = uv0._curNum + uv0._addNum
+	pressPersistTrigger(slot0._rightBtn, 0.5, function ()
+		slot0 = uv0._curNum + uv0._addNum
 
 		if uv0._maxNum < 0 then
-			uv0:setCurNum(slot1)
+			uv0:setCurNum(slot0)
 		else
-			if uv0._maxNum < slot1 then
-				slot1 = uv0._maxNum or slot1
+			if uv0._maxNum < slot0 then
+				slot0 = uv0._maxNum or slot0
 			end
 
-			uv0:setCurNum(slot1)
+			uv0:setCurNum(slot0)
 		end
 	end, nil, true, true, 0.1, SFX_PANEL)
-
 	onButton(slot0, slot0._maxBtn, function ()
 		if uv0._maxNum >= 0 then
 			uv0:setCurNum(uv0._maxNum)
@@ -74,8 +74,6 @@ slot0.getCurNum = function(slot0)
 end
 
 slot0.Dispose = function(slot0)
-	existCall(slot0._leftRemoveTimer)
-	existCall(slot0._rightRemoveTimer)
 	pg.DelegateInfo.Dispose(slot0)
 end
 

@@ -62,7 +62,7 @@ slot0.didEnter = function(slot0)
 	end)
 	slot0:InitFacilityCross(slot0._dayTF, slot0._nightTF, "btn_cruise", function ()
 		uv0:emit(LinerBackHillMediator.GO_SCENE, SCENE.LINER)
-		PlayerPrefs.SetInt("LinerBackHillScene" .. uv1.GetPrefsKey(), 1)
+		PlayerPrefs.SetString("LinerBackHillScene", uv1.GetDate())
 	end)
 	slot0:InitFacilityCross(slot0._dayTF, slot0._nightTF, "btn_task", function ()
 		uv0:emit(LinerBackHillMediator.GO_SCENE, SCENE.ACTIVITY, {
@@ -100,7 +100,7 @@ slot0.UpdateView = function(slot0)
 	setActive(slot0:findTF("tip", slot0.night_btn_cruise), uv0.CruiseTip())
 end
 
-slot0.GetPrefsKey = function()
+slot0.GetDate = function()
 	return pg.TimeMgr.GetInstance():STimeDescC(pg.TimeMgr.GetInstance():GetServerTime(), "%Y/%m/%d")
 end
 
@@ -113,7 +113,7 @@ slot0.MiniGameTip = function()
 end
 
 slot0.CruiseTip = function()
-	return not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LINER):IsFinishAllTime() and not (PlayerPrefs.GetInt("LinerBackHillScene" .. uv0.GetPrefsKey(), 0) == 1)
+	return not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LINER):IsFinishAllTime() and not (PlayerPrefs.GetString("LinerBackHillScene") == uv0.GetDate())
 end
 
 slot0.IsShowMainTip = function(slot0)

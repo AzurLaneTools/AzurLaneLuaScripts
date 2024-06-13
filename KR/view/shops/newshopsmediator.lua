@@ -20,6 +20,7 @@ slot0.ON_QUOTA_SHOPPING = "NewShopsMediator:ON_QUOTA_SHOPPING"
 slot0.ON_MINI_GAME_SHOP_BUY = "NewShopsMediator:ON_MINI_GAME_SHOP_BUY"
 slot0.ON_MINI_GAME_SHOP_FLUSH = "NewShopsMediator:ON_MINI_GAME_SHOP_FLUSH"
 slot0.MINI_GAME_SHOP_BUY_DONE = "NewShopsMediator:MINI_GAME_SHOP_BUY_DONE"
+slot0.UR_EXCHANGE_TRACKING = "NewShopsMediator:UR_EXCHANGE_TRACKING"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.ON_META_SHOP, function (slot0, slot1, slot2, slot3, slot4)
@@ -160,6 +161,11 @@ slot0.register = function(slot0)
 			mediator = ShipPreviewMediator,
 			data = slot4
 		}))
+	end)
+	slot0:bind(uv0.UR_EXCHANGE_TRACKING, function (slot0, slot1)
+		if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_UR_EXCHANGE) and not slot2:isEnd() and getProxy(ShopsProxy):getActivityShopById(slot2:getConfig("config_client").shopId):GetCommodityById(slot2:getConfig("config_client").goodsId[1]):getConfig("commodity_id") == slot1 then
+			TrackConst.TrackingUrExchangeFetch(slot1, 1)
+		end
 	end)
 	slot0.viewComponent:SetShops(slot0.contextData.shops)
 	slot0:bind(uv0.ON_QUOTA_SHOPPING, function (slot0, slot1, slot2)

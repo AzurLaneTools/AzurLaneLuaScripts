@@ -64,6 +64,8 @@ pg.pay_data_display = setmetatable({
 		68,
 		69,
 		70,
+		71,
+		72,
 		1000,
 		1001,
 		1002,
@@ -6517,6 +6519,232 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40926,
+				1
+			}
+		}
+	},
+	[71] = {
+		extra_service = 3,
+		limit_group = 0,
+		descrip_extra = "※복주머니는 구매 후 우편함으로 발송됩니다. \n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
+		type = 1,
+		first_pay_double = 0,
+		name_display = "복주머니 (여름 2024)",
+		descrip = "아이템, 자원 및 랜덤 스킨 획득 가능",
+		subject = "복주머니 (여름 2024)",
+		limit_arg = 1,
+		money = 36300,
+		tag = 2,
+		name = "복주머니 (여름 2024)",
+		gem = 0,
+		type_order = 2,
+		limit_type = 2,
+		picture = "fudai14",
+		skin_inquire_relation = 86205,
+		id_str = "alkrgift93",
+		extra_gem = 0,
+		id = 71,
+		airijp_id = "com.yostarjp.azurlane.diamond159",
+		extra_service_item = {
+			{
+				2,
+				86205,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86205,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81205,
+				1
+			}
+		}
+	},
+	[72] = {
+		extra_service = 3,
+		limit_group = 0,
+		descrip_extra = "※복주머니는 구매 후 우편함으로 발송됩니다. \n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
+		type = 1,
+		first_pay_double = 0,
+		name_display = "복주머니 (여름 2023, 복각)",
+		descrip = "아이템, 자원 및 랜덤 스킨 획득 가능",
+		subject = "복주머니 (여름 2023, 복각)",
+		limit_arg = 1,
+		money = 36300,
+		tag = 2,
+		name = "복주머니 (여름 2023, 복각)",
+		gem = 0,
+		type_order = 2,
+		limit_type = 2,
+		picture = "lihecn6lf_l",
+		skin_inquire_relation = 69927,
+		id_str = "alkrgift94",
+		extra_gem = 0,
+		id = 72,
+		airijp_id = "com.yostarjp.azurlane.diamond160",
+		extra_service_item = {
+			{
+				2,
+				69927,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					6,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					6,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69927,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40927,
 				1
 			}
 		}

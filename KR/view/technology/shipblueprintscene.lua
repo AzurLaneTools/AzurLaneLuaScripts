@@ -1133,9 +1133,7 @@ slot0.updateModPanel = function(slot0)
 
 	pressPersistTrigger(slot0.calcMinusBtn, 0.5, function (slot0)
 		if uv0:inModAnim() or uv1:isMaxLevel() or uv2 == 0 then
-			if slot0 then
-				slot0()
-			end
+			slot0()
 
 			return
 		end
@@ -1146,9 +1144,7 @@ slot0.updateModPanel = function(slot0)
 	end, nil, true, true, 0.1, SFX_PANEL)
 	pressPersistTrigger(slot0.calcPlusBtn, 0.5, function (slot0)
 		if uv0:inModAnim() or uv1:isMaxLevel() or uv2 == uv3 then
-			if slot0 then
-				slot0()
-			end
+			slot0()
 
 			return
 		end
@@ -1367,9 +1363,7 @@ slot0.updateFittingPanel = function(slot0)
 
 	pressPersistTrigger(slot0.fittingCalcMinusBtn, 0.5, function (slot0)
 		if uv0:inModAnim() or uv1:isMaxFateLevel() or uv2 == 0 then
-			if slot0 then
-				slot0()
-			end
+			slot0()
 
 			return
 		end
@@ -1383,9 +1377,7 @@ slot0.updateFittingPanel = function(slot0)
 
 	pressPersistTrigger(slot0.fittingCalcPlusBtn, 0.5, function (slot0)
 		if uv0:inModAnim() or uv1:isMaxFateLevel() or uv2 == uv3 then
-			if slot0 then
-				slot0()
-			end
+			slot0()
 
 			return
 		end

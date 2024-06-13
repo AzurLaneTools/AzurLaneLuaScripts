@@ -8892,7 +8892,7 @@ pg.ship_strengthen_meta = {
 		}
 	},
 	[970704] = {
-		ship_id = 9704041,
+		ship_id = 9707041,
 		type = 2,
 		synchronize = 0,
 		activity_id = 5352,

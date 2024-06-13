@@ -71,20 +71,14 @@ slot1 = 0
 slot0.on = function(slot0, slot1)
 	setImageAlpha(slot0._tf, defaultValue(slot1, true) and 0.01 or 0)
 
-	if slot1 then
-		slot2 = pg.TimeMgr.GetInstance()
-
-		slot2:RemoveTimer(slot0.delayTimer)
-
+	if not slot1 then
+		setActive(slot0.indicator, slot1)
+	elseif not slot0.delayTimer then
 		slot2 = pg.TimeMgr.GetInstance()
 		slot0.delayTimer = slot2:AddTimer("loading", 1, 0, function ()
 			setImageAlpha(uv0._tf, 0.2)
 			setActive(uv0.indicator, true)
-
-			uv0.delayTimer = nil
 		end)
-	else
-		setActive(slot0.indicator, false)
 	end
 
 	uv0 = uv0 + 1
@@ -102,9 +96,12 @@ slot0.off = function(slot0)
 		if uv0 == 0 then
 			setActive(slot0._go, false)
 			setActive(slot0.indicator, false)
-			pg.TimeMgr.GetInstance():RemoveTimer(slot0.delayTimer)
 
-			slot0.delayTimer = nil
+			if slot0.delayTimer then
+				pg.TimeMgr.GetInstance():RemoveTimer(slot0.delayTimer)
+
+				slot0.delayTimer = nil
+			end
 		end
 	end
 end

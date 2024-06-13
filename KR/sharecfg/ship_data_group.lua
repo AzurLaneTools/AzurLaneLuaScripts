@@ -1334,6 +1334,9 @@ pg.ship_data_group = setmetatable({
 		[40505] = {
 			593
 		},
+		[40506] = {
+			647
+		},
 		[40601] = {
 			485
 		},
@@ -2576,6 +2579,7 @@ pg.ship_data_group = setmetatable({
 			529,
 			545,
 			593,
+			647,
 			485,
 			526,
 			591,
@@ -3294,6 +3298,7 @@ pg.ship_data_group = setmetatable({
 		529,
 		545,
 		593,
+		647,
 		485,
 		526,
 		591,
@@ -23135,6 +23140,38 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"한정 이벤트: 오엽각 교차점",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[647] = {
+		nationality = 4,
+		type = 5,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 40506,
+		index_id = 446,
+		code = 647,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"이벤트: 엄마의 연주 연습",
 				{
 					""
 				},

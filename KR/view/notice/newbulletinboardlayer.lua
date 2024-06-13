@@ -144,6 +144,7 @@ slot0.initNotices = function(slot0, slot1)
 		slot8.link = slot9
 		slot8.paramType = slot10
 		slot8.titleImage = slot7 and string.gsub(slot8.titleImage, slot7, "") or slot8.titleImage
+		slot8.code = slot8:prefKey()
 
 		if slot0:checkNotice(slot8) then
 			table.insert(slot0._noticeDic[slot8.type], slot8)

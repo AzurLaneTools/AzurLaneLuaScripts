@@ -46,6 +46,7 @@ slot2 = {
 	SC_24021_RESULT_FIELD = slot0.FieldDescriptor(),
 	SC_24021_TIMES_FIELD = slot0.FieldDescriptor(),
 	SC_24021_AWARDS_FIELD = slot0.FieldDescriptor(),
+	SC_24021_PASS_IDS_FIELD = slot0.FieldDescriptor(),
 	CS_24022_CHALLENGEIDS_FIELD = slot0.FieldDescriptor(),
 	SC_24023_RESULT_FIELD = slot0.FieldDescriptor(),
 	SC_24023_DROP_LIST_FIELD = slot0.FieldDescriptor(),
@@ -609,6 +610,15 @@ slot2.SC_24021_AWARDS_FIELD.default_value = {}
 slot2.SC_24021_AWARDS_FIELD.message_type = slot1.KVDATA
 slot2.SC_24021_AWARDS_FIELD.type = 11
 slot2.SC_24021_AWARDS_FIELD.cpp_type = 10
+slot2.SC_24021_PASS_IDS_FIELD.name = "pass_ids"
+slot2.SC_24021_PASS_IDS_FIELD.full_name = "p24.sc_24021.pass_ids"
+slot2.SC_24021_PASS_IDS_FIELD.number = 4
+slot2.SC_24021_PASS_IDS_FIELD.index = 3
+slot2.SC_24021_PASS_IDS_FIELD.label = 3
+slot2.SC_24021_PASS_IDS_FIELD.has_default_value = false
+slot2.SC_24021_PASS_IDS_FIELD.default_value = {}
+slot2.SC_24021_PASS_IDS_FIELD.type = 13
+slot2.SC_24021_PASS_IDS_FIELD.cpp_type = 3
 SC_24021.name = "sc_24021"
 SC_24021.full_name = "p24.sc_24021"
 SC_24021.nested_types = {}
@@ -616,7 +626,8 @@ SC_24021.enum_types = {}
 SC_24021.fields = {
 	slot2.SC_24021_RESULT_FIELD,
 	slot2.SC_24021_TIMES_FIELD,
-	slot2.SC_24021_AWARDS_FIELD
+	slot2.SC_24021_AWARDS_FIELD,
+	slot2.SC_24021_PASS_IDS_FIELD
 }
 SC_24021.is_extendable = false
 SC_24021.extensions = {}
