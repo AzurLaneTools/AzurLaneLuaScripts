@@ -28545,11 +28545,11 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"小型艦建造",
+				"特型艦建造",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
+						projectName = "special",
 						page = 1
 					}
 				},
