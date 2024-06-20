@@ -25608,7 +25608,7 @@ pg.activity_shop_template = {
 		resource_type = 21000,
 		id = 12001,
 		resource_num = 80,
-		order = 2,
+		order = 3,
 		limit_args = {
 			{
 				1,
@@ -25643,7 +25643,7 @@ pg.activity_shop_template = {
 		resource_type = 21000,
 		id = 12002,
 		resource_num = 5,
-		order = 3
+		order = 4
 	},
 	[12003] = {
 		limit_args = "",
@@ -25656,7 +25656,7 @@ pg.activity_shop_template = {
 		resource_type = 21000,
 		id = 12003,
 		resource_num = 5,
-		order = 4
+		order = 5
 	},
 	[12004] = {
 		limit_args = "",
@@ -25669,7 +25669,7 @@ pg.activity_shop_template = {
 		resource_type = 21000,
 		id = 12004,
 		resource_num = 5,
-		order = 5
+		order = 6
 	},
 	[12005] = {
 		limit_args = "",
@@ -25682,7 +25682,7 @@ pg.activity_shop_template = {
 		resource_type = 21000,
 		id = 12005,
 		resource_num = 5,
-		order = 6
+		order = 7
 	},
 	[12006] = {
 		limit_args = "",
@@ -25695,7 +25695,7 @@ pg.activity_shop_template = {
 		resource_type = 21000,
 		id = 12006,
 		resource_num = 5,
-		order = 7
+		order = 8
 	},
 	[12007] = {
 		resource_category = 2,
@@ -25707,7 +25707,7 @@ pg.activity_shop_template = {
 		resource_type = 21000,
 		id = 12007,
 		resource_num = 80,
-		order = 1,
+		order = 2,
 		limit_args = {
 			{
 				1,
@@ -25721,6 +25721,40 @@ pg.activity_shop_template = {
 						2024,
 						3,
 						21
+					},
+					{
+						0,
+						0,
+						0
+					}
+				}
+			}
+		}
+	},
+	[12008] = {
+		resource_category = 2,
+		activity = 4877,
+		commodity_id = 21033,
+		num = 1,
+		num_limit = 4,
+		commodity_type = 2,
+		resource_type = 21000,
+		id = 12008,
+		resource_num = 80,
+		order = 1,
+		limit_args = {
+			{
+				1,
+				970704,
+				1
+			},
+			{
+				2,
+				{
+					{
+						2024,
+						6,
+						20
 					},
 					{
 						0,
@@ -27467,7 +27501,8 @@ pg.activity_shop_template = {
 			12004,
 			12005,
 			12006,
-			12007
+			12007,
+			12008
 		},
 		[3] = {
 			106,
@@ -29683,6 +29718,7 @@ pg.activity_shop_template = {
 		12004,
 		12005,
 		12006,
-		12007
+		12007,
+		12008
 	}
 }
