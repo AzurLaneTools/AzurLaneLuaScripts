@@ -218,43 +218,46 @@ end
 
 slot0.Init = function(slot0, slot1)
 	slot0.state = uv0
-	slot0.playedList = {}
-	slot0.playQueue = {}
 
 	PoolMgr.GetInstance():GetUI("NewStoryUI", true, function (slot0)
-		uv0._go = slot0
-		uv0._tf = tf(uv0._go)
-		uv0.frontTr = findTF(uv0._tf, "front")
 		uv0.UIOverlay = GameObject.Find("Overlay/UIOverlay")
 
-		uv0._go.transform:SetParent(uv0.UIOverlay.transform, false)
-
-		uv0.skipBtn = findTF(uv0._tf, "front/btns/btns/skip_button")
-		uv0.autoBtn = findTF(uv0._tf, "front/btns/btns/auto_button")
-		uv0.autoBtnImg = findTF(uv0._tf, "front/btns/btns/auto_button/sel"):GetComponent(typeof(Image))
-		uv0.alphaImage = uv0._tf:GetComponent(typeof(Image))
-		uv0.recordBtn = findTF(uv0._tf, "front/btns/record")
-		uv0.dialogueContainer = findTF(uv0._tf, "front/dialogue")
-		uv0.players = {
-			AsideStoryPlayer.New(slot0),
-			DialogueStoryPlayer.New(slot0),
-			BgStoryPlayer.New(slot0),
-			CarouselPlayer.New(slot0),
-			VedioStoryPlayer.New(slot0),
-			CastStoryPlayer.New(slot0)
-		}
-		uv0.setSpeedPanel = StorySetSpeedPanel.New(uv0._tf)
-		uv0.recordPanel = NewStoryRecordPanel.New()
-		uv0.recorder = StoryRecorder.New()
-
-		setActive(uv0._go, false)
-
-		uv0.state = uv1
-
-		if uv2 then
-			uv2()
-		end
+		slot0.transform:SetParent(uv0.UIOverlay.transform, false)
+		uv0:_Init(slot0, uv1)
 	end)
+end
+
+slot0._Init = function(slot0, slot1, slot2)
+	slot0.playedList = {}
+	slot0.playQueue = {}
+	slot0._go = slot1
+	slot0._tf = tf(slot0._go)
+	slot0.frontTr = findTF(slot0._tf, "front")
+	slot0.skipBtn = findTF(slot0._tf, "front/btns/btns/skip_button")
+	slot0.autoBtn = findTF(slot0._tf, "front/btns/btns/auto_button")
+	slot0.autoBtnImg = findTF(slot0._tf, "front/btns/btns/auto_button/sel"):GetComponent(typeof(Image))
+	slot0.alphaImage = slot0._tf:GetComponent(typeof(Image))
+	slot0.recordBtn = findTF(slot0._tf, "front/btns/record")
+	slot0.dialogueContainer = findTF(slot0._tf, "front/dialogue")
+	slot0.players = {
+		AsideStoryPlayer.New(slot1),
+		DialogueStoryPlayer.New(slot1),
+		BgStoryPlayer.New(slot1),
+		CarouselPlayer.New(slot1),
+		VedioStoryPlayer.New(slot1),
+		CastStoryPlayer.New(slot1)
+	}
+	slot0.setSpeedPanel = StorySetSpeedPanel.New(slot0._tf)
+	slot0.recordPanel = NewStoryRecordPanel.New()
+	slot0.recorder = StoryRecorder.New()
+
+	setActive(slot0._go, false)
+
+	slot0.state = uv0
+
+	if slot2 then
+		slot2()
+	end
 end
 
 slot0.Play = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
@@ -404,6 +407,10 @@ slot0.SoloPlay = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 		return nil
 	end
 
+	slot0:ExecuteScript(slot8)
+end
+
+slot0.ExecuteScript = function(slot0, slot1)
 	seriesAsync({
 		function (slot0)
 			uv0:CheckResDownload(uv0.storyScript, slot0)
@@ -421,7 +428,7 @@ slot0.SoloPlay = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 
 		for slot4, slot5 in ipairs(uv0.storyScript.steps) do
 			table.insert(slot0, function (slot0)
-				pg.m02:sendNotification(GAME.STORY_NEXT)
+				uv0:SendNotification(GAME.STORY_NEXT)
 
 				slot1 = uv0.players[uv1:GetMode()]
 				uv0.currPlayer = slot1
@@ -434,6 +441,10 @@ slot0.SoloPlay = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 			uv0:OnEnd(uv1)
 		end)
 	end)
+end
+
+slot0.SendNotification = function(slot0, slot1, slot2)
+	pg.m02:sendNotification(slot1, slot2)
 end
 
 slot0.CheckResDownload = function(slot0, slot1, slot2)
@@ -622,14 +633,14 @@ slot0.OnStart = function(slot0)
 	slot0.state = uv0
 
 	slot0:TrackingStart()
-	pg.m02:sendNotification(GAME.STORY_BEGIN, slot0.storyScript:GetName())
+	slot0:SendNotification(GAME.STORY_BEGIN, slot0.storyScript:GetName())
 
 	slot5 = {
 		storyId = slot6
 	}
 	slot6 = slot0.storyScript:GetName()
 
-	pg.m02:sendNotification(GAME.STORY_UPDATE, slot5)
+	slot0:SendNotification(GAME.STORY_UPDATE, slot5)
 	pg.DelegateInfo.New(slot0)
 
 	for slot5, slot6 in ipairs(slot0.players) do
@@ -746,12 +757,17 @@ slot0.Clear = function(slot0)
 
 	slot0.optionSelCodes = nil
 
-	pg.BgmMgr.GetInstance():ContinuePlay()
-	pg.m02:sendNotification(GAME.STORY_END)
+	slot0:SendNotification(GAME.STORY_END)
 
 	if slot0.isOpenMsgbox then
 		pg.MsgboxMgr:GetInstance():hide()
 	end
+
+	slot0:RevertBgmVolumeValue()
+end
+
+slot0.RevertBgmVolumeValue = function(slot0)
+	pg.BgmMgr.GetInstance():ContinuePlay()
 
 	slot1 = pg.CriMgr.GetInstance():getBGMVolume()
 

@@ -1390,6 +1390,21 @@ pg.player_resource = {
 		name = "skinTicket72",
 		itemid = 59586
 	},
+	[414] = {
+		id = 414,
+		name = "gonghaijiandui_frame_pt2",
+		itemid = 59587
+	},
+	[415] = {
+		id = 415,
+		name = "gonghaijiandui_pt2",
+		itemid = 59588
+	},
+	[416] = {
+		id = 416,
+		name = "skinTicket73",
+		itemid = 59589
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -2590,6 +2605,15 @@ pg.player_resource = {
 		skinTicket72 = {
 			413
 		},
+		gonghaijiandui_frame_pt2 = {
+			414
+		},
+		gonghaijiandui_pt2 = {
+			415
+		},
+		skinTicket73 = {
+			416
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -3089,6 +3113,9 @@ pg.player_resource = {
 		411,
 		412,
 		413,
+		414,
+		415,
+		416,
 		950,
 		951,
 		952,

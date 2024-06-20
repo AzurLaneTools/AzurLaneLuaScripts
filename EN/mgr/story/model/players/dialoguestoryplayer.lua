@@ -250,6 +250,10 @@ slot0.SetGlitchArtForPortrait = function(slot0)
 end
 
 slot0.ClearGlitchArtForPortrait = function(slot0)
+	if not slot0.portraitImg then
+		return
+	end
+
 	if slot0.portraitImg.material ~= slot0.portraitImg.defaultGraphicMaterial then
 		slot0.portraitImg.material = slot0.portraitImg.defaultGraphicMaterial
 	end
@@ -358,7 +362,7 @@ end
 
 slot0.ClearCanMarkNode = function(slot0)
 	if slot0.canMarkNode then
-		Object.Destroy(slot0.canMarkNode.go)
+		Destroy(slot0.canMarkNode.go)
 
 		slot0.canMarkNode = nil
 	end
@@ -528,7 +532,7 @@ slot0.ClearHeadMask = function(slot0, slot1)
 		return
 	end
 
-	Object.Destroy(slot2:GetChild(0):Find("head_mask").gameObject)
+	Destroy(slot2:GetChild(0):Find("head_mask").gameObject)
 
 	for slot9 = 0, slot1:GetComponentsInChildren(typeof(Image)).Length - 1 do
 		slot10 = slot5[slot9]
@@ -1272,11 +1276,11 @@ slot11 = function(slot0)
 			slot8.material:SetColor("_Color", slot9)
 		end
 
-		setGray(slot0, false, true)
+		setGray(slot1, false, true)
 		retPaintingPrefab(slot0, slot1.name)
 
 		if slot1:Find("temp_mask") then
-			Destroy(slot4)
+			Destroy(slot4.gameObject)
 		end
 	end
 end
@@ -1316,10 +1320,10 @@ slot0.ResetMeshPainting = function(slot0, slot1)
 			end
 		end
 
-		setGray(slot1, false, true)
+		setGray(slot2, false, true)
 
 		if slot2:Find("temp_mask") then
-			Destroy(slot5)
+			Destroy(slot5.gameObject)
 		end
 	end
 end
@@ -1338,13 +1342,8 @@ slot12 = function(slot0, slot1)
 	slot4 = table.getCount(slot0.live2dChars) <= 0
 
 	if slot3 and slot4 then
-		if slot0.front:GetComponent(typeof(GraphicRaycaster)) then
-			Object.Destroy(slot5)
-		end
-
-		if slot0.front:GetComponent(typeof(Canvas)) then
-			Object.Destroy(slot6)
-		end
+		RemoveComponent(slot0.front, "GraphicRaycaster")
+		RemoveComponent(slot0.front, "Canvas")
 	end
 end
 
@@ -1361,13 +1360,8 @@ slot13 = function(slot0, slot1)
 	slot4 = table.getCount(slot0.spinePainings) <= 0
 
 	if slot3 and slot4 then
-		if slot0.front:GetComponent(typeof(GraphicRaycaster)) then
-			Object.Destroy(slot5)
-		end
-
-		if slot0.front:GetComponent(typeof(Canvas)) then
-			Object.Destroy(slot6)
-		end
+		RemoveComponent(slot0.front, "GraphicRaycaster")
+		RemoveComponent(slot0.front, "Canvas")
 	end
 end
 
@@ -1465,7 +1459,14 @@ slot0.OnWillExit = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.OnEnd = function(slot0)
-	slot0.conentTxt.fontSize = slot0.defualtFontSize
+	if slot0.conentTxt then
+		slot0.conentTxt.fontSize = slot0.defualtFontSize
+		slot0.conentTxt.text = ""
+	end
+
+	if slot0.nameTxt then
+		slot0.nameTxt.text = ""
+	end
 
 	slot0:ClearGlitchArtForPortrait()
 	slot0:ClearCanMarkNode()
@@ -1474,9 +1475,6 @@ slot0.OnEnd = function(slot0)
 		"actorMiddle",
 		"actorRgiht"
 	})
-
-	slot0.conentTxt.text = ""
-	slot0.nameTxt.text = ""
 
 	for slot5, slot6 in ipairs({
 		"actorLeft",

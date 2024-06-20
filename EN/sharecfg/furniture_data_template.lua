@@ -18609,7 +18609,15 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		offset = {},
 		canputonGrid = {},
 		can_trigger = {
-			1
+			2,
+			{
+				"song11",
+				"song12"
+			},
+			{
+				"normal",
+				"normal"
+			}
 		},
 		spine = {
 			{

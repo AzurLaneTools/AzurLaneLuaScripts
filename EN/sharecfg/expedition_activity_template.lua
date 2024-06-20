@@ -5309,8 +5309,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				4320,
-				251
+				5374,
+				414
 			}
 		}
 	},
@@ -5319,8 +5319,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				4320,
-				251
+				5374,
+				414
 			}
 		}
 	},
@@ -5329,8 +5329,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				4320,
-				251
+				5374,
+				414
 			}
 		}
 	},
@@ -5339,8 +5339,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				4321,
-				251
+				5375,
+				414
 			}
 		}
 	},
@@ -5349,8 +5349,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				4321,
-				251
+				5375,
+				414
 			}
 		}
 	},
@@ -5359,68 +5359,68 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				4321,
-				251
+				5375,
+				414
 			}
 		}
 	},
 	[1642013] = {
 		id = 1642013,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				4320,
-				251
+				5374,
+				414
 			}
 		}
 	},
 	[1642113] = {
 		id = 1642113,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				4320,
-				251
+				5374,
+				414
 			}
 		}
 	},
 	[1642213] = {
 		id = 1642213,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				4320,
-				251
+				5374,
+				414
 			}
 		}
 	},
 	[1643013] = {
 		id = 1643013,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				4321,
-				251
+				5375,
+				414
 			}
 		}
 	},
 	[1643113] = {
 		id = 1643113,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				4321,
-				251
+				5375,
+				414
 			}
 		}
 	},
 	[1643213] = {
 		id = 1643213,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				4321,
-				251
+				5375,
+				414
 			}
 		}
 	},
@@ -5429,8 +5429,8 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				4321,
-				251
+				5375,
+				414
 			}
 		}
 	},

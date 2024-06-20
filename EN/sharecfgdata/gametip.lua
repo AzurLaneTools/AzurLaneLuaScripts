@@ -12799,7 +12799,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Get Alsace guaranteed with every 200 event builds (can be done up to 4 times)!"
+	tip = "Rate UP for Emden, Lützow, and more!"
 }
 
 
