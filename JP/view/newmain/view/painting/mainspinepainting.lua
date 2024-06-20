@@ -82,9 +82,9 @@ slot0.InitSpecialTouch = function(slot0)
 						slot2 = uv0.uiCam:ScreenToWorldPoint(slot1.position)
 
 						for slot6 = 1, #uv0.specialClickDic do
-							slot7 = uv0.specialClickDic[slot6]
+							slot8 = uv0.specialClickDic[slot6].tf:InverseTransformPoint(slot2)
 
-							if math.abs(slot7.tf:InverseTransformPoint(slot2).x) < slot7.bound.x / 2 and math.abs(slot8.y) < slot7.bound.y / 2 then
+							if not uv0.spinePainting:isInAction() and math.abs(slot8.x) < slot7.bound.x / 2 and math.abs(slot8.y) < slot7.bound.y / 2 then
 								uv0:TriggerEvent(slot7.name)
 								uv0:TriggerPersonalTask(slot7.task)
 
@@ -153,9 +153,17 @@ slot0.InitSpecialTouch = function(slot0)
 end
 
 slot0.OnClick = function(slot0)
+	if slot0.spinePainting:isInAction() then
+		return
+	end
+
 	slot1 = slot0:CollectTouchEvents()
 
 	slot0:TriggerEvent(slot1[math.ceil(math.random(#slot1))])
+end
+
+slot0.OnEnableTimerEvent = function(slot0)
+	return not slot0.spinePainting:isInAction()
 end
 
 slot0.OnDisplayWorld = function(slot0, slot1)

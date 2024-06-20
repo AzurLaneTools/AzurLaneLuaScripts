@@ -163,10 +163,10 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "story-startravel",
+		default_bgm = "theme-highseasfleet",
 		special_bgm = "",
 		time = "",
-		bgm = "story-startravel"
+		bgm = "theme-highseasfleet"
 	},
 	SkinShopScene = {
 		default_bgm = "main",
@@ -1612,5 +1612,29 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "story-musicanniversary-gorgeous"
+	},
+	GonghaiLoginPage = {
+		default_bgm = "battle-highseasfleet-reborn",
+		special_bgm = "",
+		time = "",
+		bgm = "battle-highseasfleet-reborn"
+	},
+	GongHaiMainPage = {
+		default_bgm = "battle-highseasfleet-reborn",
+		special_bgm = "",
+		time = "",
+		bgm = "battle-highseasfleet-reborn"
+	},
+	GongHaiPtRePage = {
+		default_bgm = "theme-highseasfleet",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-highseasfleet"
+	},
+	DexiV4FrameReRePage = {
+		default_bgm = "theme-frederick",
+		special_bgm = "",
+		time = "",
+		bgm = "theme-frederick"
 	}
 }

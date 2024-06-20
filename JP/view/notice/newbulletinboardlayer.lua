@@ -36,18 +36,19 @@ slot0.init = function(slot0)
 	SetActive(slot0._tabTpl, false)
 
 	slot0._subTabList = {}
-	slot0._detailTitleImg = slot0:findTF("bg/content_view/viewport/content/title_img")
+	slot0._contentTF = slot0:findTF("bg/content_view/viewport/content")
+	slot0._detailTitleImg = slot0:findTF("title_img", slot0._contentTF)
 	slot0._detailTitleImgLayoutElement = slot0._detailTitleImg:GetComponent(typeof(LayoutElement))
-	slot0._detailTitle = slot0:findTF("bg/content_view/viewport/content/title")
-	slot0._detailTitleTxt = slot0:findTF("bg/content_view/viewport/content/title/title_txt/mask/scroll_txt")
-	slot0._detailTimeTxt = slot0:findTF("bg/content_view/viewport/content/title/time_txt")
-	slot0._detailLine = slot0:findTF("bg/content_view/viewport/content/line")
-	slot0._contentContainer = slot0:findTF("bg/content_view/viewport/content/content_container")
-	slot0._contentTxtTpl = slot0:findTF("bg/content_view/viewport/content/content_txt")
+	slot0._detailTitle = slot0:findTF("title", slot0._contentTF)
+	slot0._detailTitleTxt = slot0:findTF("title/title_txt/mask/scroll_txt", slot0._contentTF)
+	slot0._detailTimeTxt = slot0:findTF("title/time_txt", slot0._contentTF)
+	slot0._detailLine = slot0:findTF("line", slot0._contentTF)
+	slot0._contentContainer = slot0:findTF("content_container", slot0._contentTF)
+	slot0._contentTxtTpl = slot0:findTF("content_txt", slot0._contentTF)
 
 	setActive(slot0._contentTxtTpl, false)
 
-	slot0._contentBannerTpl = slot0:findTF("bg/content_view/viewport/content/content_banner")
+	slot0._contentBannerTpl = slot0:findTF("content_banner", slot0._contentTF)
 
 	setActive(slot0._contentBannerTpl, false)
 
@@ -66,8 +67,6 @@ slot0.init = function(slot0)
 
 	slot0._loadingFlag = {}
 	slot0._contentList = {}
-	slot0.noticeKeys = {}
-	slot0.noticeVersions = {}
 	slot0._noticeDic = {
 		{},
 		{},
@@ -78,6 +77,8 @@ slot0.init = function(slot0)
 		{},
 		{}
 	}
+	slot0.noticeKeys = {}
+	slot0.noticeVersions = {}
 	slot0.LTList = {}
 end
 
@@ -118,7 +119,7 @@ slot0.updateRed = function(slot0)
 end
 
 slot0.checkNotice = function(slot0, slot1)
-	return slot1.type and slot1.type > 0 and slot1.type < 4 and (slot1.paramType == nil or slot1.paramType == 1 and type(slot1.param) == "string" or slot1.paramType == 2 and type(slot1.param) == "string" or slot1.paramType == 3 and type(slot1.param) == "number")
+	return slot1.type and slot1.type > 0 and slot1.type < 4 and (slot1.paramType == nil or slot1.paramType == 1 and type(slot1.param) == "string" or slot1.paramType == 2 and type(slot1.param) == "string" or slot1.paramType == 3 and type(slot1.param) == "number" or slot1.paramType == 4 and type(slot1.param) == "number" and pg.activity_banner_notice[slot1.param] ~= nil)
 end
 
 slot0.initNotices = function(slot0, slot1)
@@ -126,31 +127,11 @@ slot0.initNotices = function(slot0, slot1)
 	slot0.defaultSubTab = slot0.contextData.defaultSubTab
 
 	for slot5, slot6 in pairs(slot1) do
-		slot8 = Clone(slot6)
-		slot9 = string.match(slot6.titleImage, "<config.*/>") and string.match(slot7, "link%s*=%s*([^%s]+)") or nil
-		slot11 = nil
-
-		if slot7 and tonumber(string.match(slot7, "type%s*=%s*(%d+)")) or nil then
-			if slot10 == 1 then
-				slot11 = string.match(slot7, "param%s*=%s*'(.*)'")
-			elseif slot10 == 2 then
-				slot11 = string.match(slot7, "param%s*=%s*'(.*)'")
-			elseif slot10 == 3 then
-				slot11 = string.match(slot7, "param%s*=%s*(%d+)") and (tonumber(slot11) or slot11)
-			end
-		end
-
-		slot8.param = slot11
-		slot8.link = slot9
-		slot8.paramType = slot10
-		slot8.titleImage = slot7 and string.gsub(slot8.titleImage, slot7, "") or slot8.titleImage
-		slot8.code = slot8:prefKey()
-
-		if slot0:checkNotice(slot8) then
-			table.insert(slot0._noticeDic[slot8.type], slot8)
-			table.insert(slot0._redDic[slot8.type], PlayerPrefs.HasKey(slot8.code))
+		if slot0:checkNotice(slot6) then
+			table.insert(slot0._noticeDic[slot6.type], slot6)
+			table.insert(slot0._redDic[slot6.type], PlayerPrefs.HasKey(slot6.code))
 		else
-			Debugger.LogWarning("公告配置错误  id = " .. slot8.id)
+			Debugger.LogWarning("公告配置错误  id = " .. slot6.id)
 		end
 	end
 
@@ -334,6 +315,8 @@ slot0.setNoticeDetail = function(slot0, slot1)
 					Application.OpenURL(uv0.link)
 					uv1:emit(NewBulletinBoardMediator.TRACK_OPEN_URL, uv0.track)
 				end
+
+				Debugger.LogWarning("使用了旧的跳转配置格式 id = " .. uv0.id)
 			end
 
 			if uv0.paramType then
@@ -346,6 +329,10 @@ slot0.setNoticeDetail = function(slot0, slot1)
 					uv1:emit(NewBulletinBoardMediator.GO_SCENE, SCENE.ACTIVITY, {
 						id = uv0.param
 					})
+				elseif uv0.paramType == 4 then
+					slot0 = pg.activity_banner_notice[uv0.param].param
+
+					uv1:emit(NewBulletinBoardMediator.GO_SCENE, slot0[1], slot0[2])
 				end
 			end
 

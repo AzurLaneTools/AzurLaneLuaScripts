@@ -100442,6 +100442,1072 @@ _G.pg.base.task_data_template[20223] = {
 }
 
 
+_G.pg.base.task_data_template[20224] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902525,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『公海舰队复刻』-日常建造",
+	desc = "3回建造する",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20224,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59587,
+			300
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20225] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902526,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『公海舰队复刻』-日常出击",
+	desc = "艦隊を出撃させ、15回勝利せよ！",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20225,
+	target_num = 15,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59587,
+			300
+		},
+		{
+			2,
+			59590,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20226] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902527,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『公海舰队复刻』-日常困难本",
+	desc = "任意のハードステージを1回クリアせよ",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20226,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59587,
+			150
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20227] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902528,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『公海舰队复刻』-日常活动关卡",
+	desc = "任意のイベントステージを1回クリア",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20227,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1640001,
+		1640002,
+		1640003,
+		1640004,
+		1640005,
+		1640006,
+		1640021,
+		1640022,
+		1640023,
+		1640024,
+		1640025,
+		1640026,
+		1640041,
+		1640051
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59587,
+			300
+		},
+		{
+			2,
+			54006,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5375
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20228] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902529,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『公海舰队复刻』通关A1/C1",
+	desc = "A1かC1を1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20228,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1640001,
+		1640021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			59590,
+			1
+		},
+		{
+			2,
+			59587,
+			200
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5374
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20229] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902530,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『公海舰队复刻』通关A2/C2",
+	desc = "A2かC2を1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20229,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1640002,
+		1640022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			59590,
+			1
+		},
+		{
+			2,
+			59587,
+			400
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5374
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20230] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902531,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『公海舰队复刻』通关A3/C3",
+	desc = "A3かC3を1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20230,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1640003,
+		1640023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			59590,
+			1
+		},
+		{
+			2,
+			59587,
+			600
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5374
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20231] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902532,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『公海舰队复刻』通关B1/D1",
+	desc = "B1かD1を1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20231,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1640004,
+		1640024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			59590,
+			1
+		},
+		{
+			2,
+			59587,
+			400
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5375
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20232] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902533,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『公海舰队复刻』通关B2/D2",
+	desc = "B2かD2を1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20232,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1640005,
+		1640025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			59590,
+			1
+		},
+		{
+			2,
+			59587,
+			600
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5375
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20233] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902534,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『公海舰队复刻』通关B3/D3",
+	desc = "B3かD3を1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20233,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1640006,
+		1640026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			59590,
+			1
+		},
+		{
+			2,
+			59587,
+			800
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5375
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20234] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902535,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『公海舰队复刻』通关SP",
+	desc = "イベントステージSPをクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20234,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1640041",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			59590,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1640025,
+			chapterId = 1640041
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20235] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902536,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『公海舰队复刻』通关D3",
+	desc = "D3クリア(2個目は取得できません)",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20235,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1640026",
+	open_need = {},
+	award_display = {
+		{
+			5,
+			225,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1640012,
+			chapterId = 1640026
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20236] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902537,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『公海舰队复刻』通关EX",
+	desc = "EXステージをクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20236,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1640051",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1640026,
+			chapterId = 1640051
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20237] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902538,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『公海舰队复刻』A1/C1的3星",
+	desc = "A1かC1の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20238",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20237,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1640001,
+		1640021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5374
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20238] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902539,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『公海舰队复刻』A2/C2的3星",
+	desc = "A2かC2の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20239",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20238,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1640002,
+		1640022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5374
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20239] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902540,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『公海舰队复刻』A3/C3的3星",
+	desc = "A3かC3の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20240",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20239,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1640003,
+		1640023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18013,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5374
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20240] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902541,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『公海舰队复刻』B1/D1的3星",
+	desc = "B1かD1の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20241",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20240,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1640004,
+		1640024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5375
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20241] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902542,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『公海舰队复刻』B2/D2的3星",
+	desc = "B2かD2の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20242",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20241,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1640005,
+		1640025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5375
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20242] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902543,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『公海舰队复刻』B3/D3的3星",
+	desc = "B3かD3の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20242,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1640006,
+		1640026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18013,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5375
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20243] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902544,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『公海舰队复刻』登录送皮肤体验券活动",
+	desc = "ゲームにログインせよ！",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20243,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			416,
+			3
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[30201] = {
 	target_id_2 = "",
 	guild_coin_award = 0,

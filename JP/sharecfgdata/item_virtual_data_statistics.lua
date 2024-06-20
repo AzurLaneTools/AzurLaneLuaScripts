@@ -160552,6 +160552,106 @@ _G.pg.base.item_virtual_data_statistics[59586] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[59587] = {
+	drop_gold_max = 0,
+	name = "楽章の栞",
+	display = "『吟ずる瑠璃の楽章』のイベント報酬交換に使用する。イベント終了後に削除される",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/gonghai_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 59587,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[59588] = {
+	drop_gold_max = 0,
+	name = "訓練Pt",
+	display = "「作戦準備・鉄血」報酬交換用アイテム。イベント終了後に削除される。",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_d",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 59588,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[59589] = {
+	drop_gold_max = 0,
+	name = "試着貸出チケット（2024.6.26まで）",
+	display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2024.6.26メンテナンスまで）で削除されます",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 59589,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[59590] = {
+	drop_gold_max = 0,
+	name = "建造支援チケット",
+	display = "イベント「吟ずる瑠璃の楽章」で入手できる期間限定建造チケット。イベント終了後に削除されます",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5370,
+	icon = "Props/buildTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 22,
+	id = 59590,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[59601] = {
 	drop_gold_max = 0,
 	name = "江風モデル",
