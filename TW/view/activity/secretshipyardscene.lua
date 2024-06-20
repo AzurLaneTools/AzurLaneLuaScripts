@@ -197,7 +197,7 @@ slot0.checkTaskFinish = function(slot0)
 end
 
 slot0.checkMinigame = function(slot0)
-	return pg.mini_game[uv0.GAME_ID] ~= nil
+	return pg.mini_game[uv0.GAME_ID] ~= nil and pg.TimeMgr.GetInstance():inTime(pg.mini_game[uv0.GAME_ID].simple_config_data.show_time)
 end
 
 slot0.willExit = function(slot0)

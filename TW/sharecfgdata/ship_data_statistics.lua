@@ -34810,6 +34810,514 @@ _G.pg.base.ship_data_statistics[102304] = {
 }
 
 
+_G.pg.base.ship_data_statistics[102311] = {
+	nationality = 1,
+	oxy_max = 0,
+	type = 2,
+	name = "休士頓II",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 102311,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "USS Houston II",
+	oxy_cost = 0,
+	skin_id = 102310,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		760,
+		31,
+		0,
+		72,
+		0,
+		71,
+		0,
+		56,
+		30,
+		32.5,
+		80,
+		25
+	},
+	attrs_growth = {
+		18847,
+		434,
+		0,
+		1494,
+		0,
+		496,
+		0,
+		828,
+		620,
+		0,
+		0,
+		305
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		0.75,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Cleveland-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[102312] = {
+	nationality = 1,
+	oxy_max = 0,
+	type = 2,
+	name = "休士頓II",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 102312,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "USS Houston II",
+	oxy_cost = 0,
+	skin_id = 102310,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		945,
+		39,
+		0,
+		90,
+		0,
+		71,
+		0,
+		56,
+		30,
+		32.5,
+		80,
+		31
+	},
+	attrs_growth = {
+		18847,
+		434,
+		0,
+		1494,
+		0,
+		496,
+		0,
+		828,
+		620,
+		0,
+		0,
+		305
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		0.75,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Cleveland-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[102313] = {
+	nationality = 1,
+	oxy_max = 0,
+	type = 2,
+	name = "休士頓II",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 102313,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "USS Houston II",
+	oxy_cost = 0,
+	skin_id = 102310,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1316,
+		54,
+		0,
+		125,
+		0,
+		71,
+		0,
+		56,
+		30,
+		32.5,
+		80,
+		43
+	},
+	attrs_growth = {
+		18847,
+		434,
+		0,
+		1494,
+		0,
+		496,
+		0,
+		828,
+		620,
+		0,
+		0,
+		305
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		0.75,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Cleveland-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[102314] = {
+	nationality = 1,
+	oxy_max = 0,
+	type = 2,
+	name = "休士頓II",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 102314,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "USS Houston II",
+	oxy_cost = 0,
+	skin_id = 102310,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1872,
+		78,
+		0,
+		178,
+		0,
+		71,
+		0,
+		56,
+		30,
+		32.5,
+		80,
+		62
+	},
+	attrs_growth = {
+		18847,
+		434,
+		0,
+		1494,
+		0,
+		496,
+		0,
+		828,
+		620,
+		0,
+		0,
+		305
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		0.75,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Cleveland-Class"
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[103011] = {
 	nationality = 1,
 	oxy_max = 0,
@@ -283144,7 +283652,8 @@ _G.pg.base.ship_data_statistics[901111] = {
 		{}
 	},
 	tag_list = {
-		"Le Fantasque-Class"
+		"Le Fantasque-Class",
+		"LeMalin"
 	}
 }
 
@@ -283270,7 +283779,8 @@ _G.pg.base.ship_data_statistics[901112] = {
 		{}
 	},
 	tag_list = {
-		"Le Fantasque-Class"
+		"Le Fantasque-Class",
+		"LeMalin"
 	}
 }
 
@@ -283396,7 +283906,8 @@ _G.pg.base.ship_data_statistics[901113] = {
 		{}
 	},
 	tag_list = {
-		"Le Fantasque-Class"
+		"Le Fantasque-Class",
+		"LeMalin"
 	}
 }
 
@@ -283522,7 +284033,8 @@ _G.pg.base.ship_data_statistics[901114] = {
 		{}
 	},
 	tag_list = {
-		"Le Fantasque-Class"
+		"Le Fantasque-Class",
+		"LeMalin"
 	}
 }
 
@@ -337057,7 +337569,8 @@ _G.pg.base.ship_data_statistics[9702031] = {
 	},
 	tag_list = {
 		"Sheffield.META",
-		"Town-Class"
+		"Town-Class",
+		"Sheffield"
 	}
 }
 
@@ -337187,7 +337700,8 @@ _G.pg.base.ship_data_statistics[9702032] = {
 	},
 	tag_list = {
 		"Sheffield.META",
-		"Town-Class"
+		"Town-Class",
+		"Sheffield"
 	}
 }
 
@@ -337317,7 +337831,8 @@ _G.pg.base.ship_data_statistics[9702033] = {
 	},
 	tag_list = {
 		"Sheffield.META",
-		"Town-Class"
+		"Town-Class",
+		"Sheffield"
 	}
 }
 
@@ -337447,7 +337962,8 @@ _G.pg.base.ship_data_statistics[9702034] = {
 	},
 	tag_list = {
 		"Sheffield.META",
-		"Town-Class"
+		"Town-Class",
+		"Sheffield"
 	}
 }
 

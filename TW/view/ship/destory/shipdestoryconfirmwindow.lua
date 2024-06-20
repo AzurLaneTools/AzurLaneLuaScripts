@@ -67,6 +67,71 @@ slot0.Confirm = function(slot0)
 	end
 end
 
+slot0.ShowOneShipProtect = function(slot0, slot1, slot2)
+	uv0.super.Show(slot0)
+
+	slot3 = pg.UIMgr.GetInstance()
+
+	slot3:BlurPanel(slot0._tf)
+
+	slot0.key = nil
+	slot0.ships = slot1
+
+	slot0:SetCallBack(slot2)
+	setText(slot0.title, i18n("unique_ship_tip1"))
+
+	slot0.key = math.random(100000, 999999)
+
+	setText(slot0.urLabel, i18n("unique_ship_tip2", slot0.key))
+	setActive(slot0.urLabel, true)
+	setActive(slot0.urInput, true)
+	setActive(slot0.urOverflowLabel, false)
+	mergeSort(slot0.ships, CompareFuncs({
+		function (slot0)
+			return -slot0.level
+		end,
+		function (slot0)
+			return -slot0:getRarity()
+		end
+	}, true))
+
+	if #slot0.ships > 5 then
+		slot4 = slot0._tf
+
+		setActive(slot4:Find("window/content/ships"), true)
+
+		slot4 = slot0._tf
+
+		setActive(slot4:Find("window/content/ships_single"), false)
+
+		slot3 = slot0._tf
+		slot3 = slot3:Find("window/content/ships/content")
+
+		slot3:GetComponent("LScrollRect").onUpdateItem = function (slot0, slot1)
+			updateShip(tf(slot1), uv0.ships[slot0 + 1])
+		end
+
+		onNextTick(function ()
+			uv0:SetTotalCount(#uv1.ships)
+		end)
+
+		return
+	end
+
+	setActive(slot0._tf:Find("window/content/ships"), false)
+	setActive(slot0._tf:Find("window/content/ships_single"), true)
+
+	slot3 = slot0._tf:Find("window/content/ships_single")
+	slot4 = UIItemList.New(slot3, slot3:Find("IconTpl"))
+
+	slot4:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			updateShip(slot2, uv0.ships[slot1 + 1])
+		end
+	end)
+	slot4:align(#slot0.ships)
+end
+
 slot0.Show = function(slot0, slot1, slot2, slot3, slot4)
 	uv0.super.Show(slot0)
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)

@@ -50,9 +50,7 @@ slot2.Fire = function(slot0, slot1)
 		slot0._botAutoAimAngle = slot0:GetBaseAngle()
 	end
 
-	uv1.super.Fire(slot0)
-
-	return true
+	return uv1.super.Fire(slot0)
 end
 
 slot2.DoAttack = function(slot0)
@@ -124,9 +122,15 @@ slot2.QuickCoolDown = function(slot0)
 end
 
 slot2.Prepar = function(slot0)
-	slot0._currentState = slot0.STATE_PRECAST
+	if slot0._host:IsCease() then
+		return false
+	else
+		slot0._currentState = slot0.STATE_PRECAST
 
-	slot0:DispatchEvent(uv0.Event.New(uv1.TORPEDO_WEAPON_PREPAR, {}))
+		slot0:DispatchEvent(uv0.Event.New(uv1.TORPEDO_WEAPON_PREPAR, {}))
+
+		return true
+	end
 end
 
 slot2.Cancel = function(slot0)

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"皇家财富的秘密船厂\n\n<size=45>五　船底涂料的学问</size>",
+					"皇家幸運的秘密船廠\n\n<size=45>五 船底塗料的學問</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "bg_battleshipyard_4",
 			hidePaintObj = true,
 			bgm = "theme-seaandsun-image",
-			say = "皇家财富造船厂·底部船壳铺设完毕——",
+			say = "皇家幸運造船廠·底部船殼鋪設完畢——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "“唯有那些冒险走远路的人才有可能发现他们能走多远。”……船也是如此呢。",
+			say = "「只有那些冒險走遠路的人才有可能發現他們能走多遠。」……船也是如此呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -53,7 +53,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但就算再优良的木材，在海水经年累月的浸泡下也会逐渐腐朽。",
+			say = "但就算再優良的木材，在海水經年累月的浸泡下也會逐漸腐朽。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "各种各样肉眼看得见或看不见的微小生物，会攀附于船底的表面。",
+			say = "各種肉眼看得見或看不見的微小生物，會攀附於船底的表面。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎呀，虽然变得五彩斑斓会有些许艺术价值，不过对于船底本身来说就是巨大危机了。",
+			say = "哎呀，雖然變得五彩斑斕會有些許藝術價值，不過對船底本身來說就是巨大危機了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "攀附的生长物不仅会蛀蚀船底的木料，还会拖累船只的航速。",
+			say = "攀附的生長物不僅會蛀蝕船底的木料，還會拖累船隻的航速。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "若是不加以处理，说不定上好的战舰只需要一年不到，就会被锈蚀成千疮百孔哦。",
+			say = "若是不加以處理，說不定上好的戰艦只要一年不到，就會被鏽蝕成千瘡百孔哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为了保护船底，防护涂料也随之诞生。",
+			say = "為了保護船底，防護塗料也隨之誕生。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这次使用的，是俗称“黑料”的防护涂料，它由松树胶和焦油混合而成，虽说性能一般，但胜在价格便宜。",
+			say = "這次使用的，是俗稱「黑料」的防護塗料，它由松樹膠和焦油混合而成，雖說性能一般，但勝在價格便宜。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过，就算做好了准备，这些涂料也最多只能使用一年，之后就需要更换了。",
+			say = "不過，就算做好了準備，這些塗料也最多只能使用一年，之後就需要更換了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "想要让战舰长久驰骋在海洋之上，长期且精心的维护是十分有必要的呢~",
+			say = "想要讓戰艦長久馳騁在海洋之上，長期且精心的維護是十分必要的呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1

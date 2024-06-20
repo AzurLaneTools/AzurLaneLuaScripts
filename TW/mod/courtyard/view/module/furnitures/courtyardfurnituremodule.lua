@@ -200,6 +200,10 @@ slot0.OnUpdateInteraction = function(slot0, slot1)
 		setActive(slot4, false)
 		setActive(slot4, true)
 	end
+
+	if slot1.block then
+		slot0.cg.blocksRaycasts = false
+	end
 end
 
 slot0.OnStopInterAction = function(slot0, slot1)
@@ -224,6 +228,8 @@ slot0.OnStopInterAction = function(slot0, slot1)
 end
 
 slot0.OnAnimtionFinish = function(slot0, slot1)
+	slot0.cg.blocksRaycasts = true
+
 	slot0:Emit("FurnitureAnimtionFinish", slot0.data.id, slot1)
 end
 

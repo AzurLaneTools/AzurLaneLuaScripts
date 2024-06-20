@@ -147,6 +147,7 @@ pg.memory_group = setmetatable({
 		254,
 		255,
 		259,
+		262,
 		265,
 		266,
 		267,
@@ -240,7 +241,8 @@ pg.memory_group = setmetatable({
 		585,
 		586,
 		587,
-		589
+		589,
+		591
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3483,6 +3485,24 @@ pg.base.memory_group = {
 			3022
 		}
 	},
+	[262] = {
+		title = "皇家幸運的秘密船廠",
+		subtype = 2,
+		link_event = 5023,
+		type = 2,
+		id = 262,
+		icon = "title_event",
+		memories = {
+			3061,
+			3062,
+			3063,
+			3064,
+			3065,
+			3066,
+			3067,
+			3068
+		}
+	},
 	[265] = {
 		title = "今日主推商品是…？",
 		subtype = 3,
@@ -5142,6 +5162,23 @@ pg.base.memory_group = {
 			2835,
 			2836,
 			2837
+		}
+	},
+	[591] = {
+		title = "隱藏於純白之下",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 591,
+		icon = "title_chara_kelaimengsuo",
+		memories = {
+			3051,
+			3052,
+			3053,
+			3054,
+			3055,
+			3056,
+			3057
 		}
 	}
 }

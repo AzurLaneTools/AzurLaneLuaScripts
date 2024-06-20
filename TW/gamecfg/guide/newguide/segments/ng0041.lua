@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "在本章战斗中，可以使用\n「支援舰队」功能",
+				text = "在本章戰鬥中，可以使用\n「支援艦隊」功能",
 				mode = 1,
 				dir = 1,
 				posY = 214,
@@ -14,7 +14,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "在「支援舰队」栏位中设置需要编入支援舰队的角色吧",
+				text = "在「支援艦隊」欄位中設定需要編入支援艦隊的角色吧",
 				mode = 1,
 				dir = 1,
 				posY = 3,
@@ -30,7 +30,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "选择任意一名角色编入「支援舰队」",
+				text = "選擇任意一名角色編入「支援艦隊」",
 				mode = 1,
 				dir = -1,
 				posY = 289.2,
@@ -44,7 +44,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击确认",
+				text = "點擊確認",
 				mode = 1,
 				dir = 1,
 				posY = -134,
@@ -57,7 +57,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "有关支援舰队的机制说明可以随时在本界面点击问号查看哦",
+				text = "有關支援艦隊的機制說明可以隨時在本介面點選問號查看哦",
 				mode = 1,
 				dir = 1,
 				posY = 93.5,

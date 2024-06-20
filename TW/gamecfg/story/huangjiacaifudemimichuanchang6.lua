@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"皇家财富的秘密船厂\n\n<size=45>六　火炮即威严</size>",
+					"皇家幸運的秘密船廠\n\n<size=45>六 火炮即威嚴</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "bg_battleshipyard_5",
 			hidePaintObj = true,
 			bgm = "theme-seaandsun-image",
-			say = "皇家财富造船厂·火炮甲板建设完毕——",
+			say = "皇家幸運造船廠·火炮甲板建設完畢——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "终于，到这激动人心的一刻了！",
+			say = "終於，到這激動人心的一刻了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -62,7 +62,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "火炮！风帆战舰的武力象征！",
+			say = "火炮！風帆戰艦的武力象徵！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "根据武器摆设的不同，火炮甲板也分为连续火炮甲板，和不连续火炮甲板。",
+			say = "根據武器擺設的不同，火炮甲板也分為連續火炮甲板，和不連續火炮甲板。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "区分它们的方式——顾名思义，所谓的连续，自然就是指在整个侧舷不间断地部署火炮。",
+			say = "區分它們的方式——顧名思義，所謂的連續，自然就是指在整個側舷不間斷地部署火炮。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,7 +123,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "火炮配置数量的不同，自然也使得风帆战舰的等级产生了差别。",
+			say = "火炮配置數量的不同，自然也使得風帆戰艦的等級產生了差異。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "例如说，一级战舰相比四级战舰，就多了两层连续火炮甲板。",
+			say = "例如說，一級戰艦比起四級戰艦，就多了兩層連續火炮甲板。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "它们之间装配的火炮数量的差距，甚至可以达到50门以上哦。",
+			say = "它們之間組裝的火炮數量的差距，甚至可以達到50門以上哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +174,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "拥有一等战列舰，便是强大海军的象征~",
+			say = "擁有一等戰列艦，便是強大海軍的象徵~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊哈，不过海盗就不一样了。",
+			say = "啊哈，不過海盜就不一樣了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在辽阔的海洋上，速度就是生命，多余的火炮反而会造成负担呢。",
+			say = "在遼闊的海洋上，速度就是生命，多餘的火炮反而會造成負擔呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "正因为如此，小型的战舰依然是舰队中不可或缺的存在。",
+			say = "正因為如此，小型的戰艦依然是艦隊中不可或缺的存在。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "优秀的舰队指挥官会选择合适的战舰去应对不同的敌人。",
+			say = "優秀的艦隊指揮官會選擇適合的戰艦去應付不同的敵人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这点放到现在，也依然适用呢。",
+			say = "這點放到現在，也依然適用呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"隐藏于纯白之下\n\n<size=45>一　干练、成熟且高效</size>",
+					"隱藏於純白之下\n\n<size=45>一 幹練、成熟且高效</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			bgm = "story-richang-1",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "在黎塞留的推荐下，任命了克莱蒙梭担任秘书舰。",
+			say = "在黎胥留的推薦下，任命了克里蒙梭擔任秘書艦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "今天是她上任的第一天，本来有些担心身为主教的她会对秘书舰工作不太适应。",
+			say = "今天是她上任的第一天，本來有些擔心身為主教的她會對秘書艦工作不太適應。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "不过看着手中的文件，我陷入了沉思……",
+			say = "不過看著手中的文件，我陷入了沉思……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，这些文件您已经看了相当长一段时间了。这让我不禁怀疑起自己处理文件的方式是否有问题……",
+			say = "指揮官，這些文件您已經看了相當長一段時間了。這讓我不禁懷疑起自己處理文件的方式是否有問題……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "或者是有什么地方您无法理解，需要我为您做一番解释和说明？",
+			say = "或是有什麼地方您無法理解，需要我為您做一些解釋和說明？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那倒不用。只是你做得实在是远超我的预期……所以有些震惊。",
+			say = "那倒不用。只是妳做得實在是遠超我的預期……所以有些震驚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵~那我就当做指挥官是在称赞我吧。",
+			say = "呵呵~那我就當做指揮官在稱讚我吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，其实克莱蒙梭在这方面的工作能力连我都要甘拜下风。",
+			say = "指揮官，其實克里蒙梭在這方面的工作能力連我都要甘拜下風。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "教廷内事务繁杂，多亏她帮我分担，我才不至于彻底淹没在工作中。",
+			say = "教廷內事務繁雜，多虧她幫我分擔，我才不至於完全淹沒在工作中。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那是因为需要姐姐操心的事实在太多，我只是顺手做了些力所能及的事而已。",
+			say = "那是因為需要姐姐操心的事實在太多，我只是順手做了一些力所能及的事而已。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,7 +188,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你太谦虚了。正是因为你出色的能力，我才会推荐你来担任指挥官的秘书舰的。",
+			say = "妳太謙虛了。正是因為妳出色的能力，我才會推薦妳來擔任指揮官的秘書艦的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要好好辅佐指挥官，切勿辱没鸢尾之名哦。",
+			say = "要好好輔佐指揮官，切勿辱沒鳶尾之名哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "黎塞留离开指挥室后，克莱蒙梭便回到了自己的座位上继续处理文件。",
+			say = "黎胥留離開指揮室後，克里蒙梭便回到了自己的座位上繼續處理文件。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "但是她上扬的嘴角和她时不时轻哼出的曲调，都让人有点在意。",
+			say = "但是她上揚的嘴角和她時不時輕哼出的曲調，都讓人有點在意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯……看上去似乎心情很好的样子？）",
+			say = "（嗯……看起來似乎心情很好的樣子？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			soundeffect = "event:/ui/knockdoor1",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咚咚咚——（敲门声）",
+			say = "咚咚咚——（敲門聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我可以进来么，指挥官？",
+			say = "我可以進來嗎，指揮官？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "请进。",
+			say = "請進。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "早上好，{namecode:523}。有什么事需要帮忙吗？",
+			say = "早上好，讓·巴爾。有什麼事需要幫忙嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "{namecode:523}看上去有些局促。虽然面对着我，但她的眼神却总是瞟向一旁的克莱蒙梭。",
+			say = "讓·巴爾看起來有點局促。雖然面對著我，但她的眼神卻總是瞟向一旁的克里蒙梭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯~莫非是来找我的？",
+			say = "嗯~莫非是來找我的？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			actor = 905010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不，不是！是敦刻尔克做了很多甜点……姐姐让我送来一些。",
+			say = "不，不是！是敦克爾克做了很多甜點……姐姐要我送一些過來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			actor = 905010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等到午休时间，你和指挥官可以把这些甜点当做餐后甜品享用……",
+			say = "等到午休時間，妳和指揮官可以把這些甜點當成餐後甜點享用……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,7 +418,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……姐姐？可是黎塞留刚从指挥室离开，理论上她过来距离也更近些，为什么要{namecode:523}再特地跑一趟？）",
+			say = "（……姊姊？可是黎胥留剛從指揮室離開，理論上她過來距離也更近些，為什麼要讓·巴爾再特地跑一趟？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来是这样啊。我知道了，午休时我和指挥官会好好品尝敦刻尔克的心意的。",
+			say = "原來是這樣啊。我知道了，午休時我和指揮官會好好品嚐敦克爾克的心意的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……总觉得今天的{namecode:523}感觉不太对劲？）",
+			say = "（……總覺得今天的讓·巴爾感覺不太對勁？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……克莱蒙梭也不太对劲。）",
+			say = "（……克里蒙梭也不太對勁。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（明明今早刚来的时候还只是一副公事公办的平淡模样。）",
+			say = "（明明今早剛來的時候還只是一副公事公辦的平淡模樣。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（好像……从黎塞留和{namecode:523}来过之后就变得心情很好……）",
+			say = "（好像……從黎胥留和讓·巴爾來過之後就變得心情很好……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（难道说……？）",
+			say = "（難道說……？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "是来自姐姐们的关心，让你心情变好了？",
+			say = "是來自姐姐們的關心，讓妳心情變好了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我可不知道指挥官阁下在说什么哦~",
+			say = "我可不知道指揮官閣下在說什麼哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯~真是让人食指大动的香气~敦刻尔克做的甜点，你以前尝过吗？",
+			say = "嗯~真是讓人食指大動的香氣~敦克爾克做的甜點，你以前嘗試過嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -593,7 +593,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有别于鸢尾的传统口味，她做的甜点会更清淡一些呢。",
+			say = "有別於鳶尾的傳統口味，她做的甜點會比較清淡呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "或许正是这一份特别的淡雅，才让人尝过一次就难以忘怀。",
+			say = "或許正是這一份特別的淡雅，才讓人嚐過一次就難以忘懷。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -629,7 +629,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "反倒是传统甜点的砂糖加得太多太过直接，过于甜腻的口感总让人觉得相当无趣呢。",
+			say = "反倒是傳統甜點的砂糖加太多太過直接，過於甜膩的口感總讓人覺得相當無趣呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -647,7 +647,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官不这么认为吗？",
+			say = "指揮官不這麼認為嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -663,7 +663,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（克莱蒙梭不仅转移了话题，而且总感觉话里有话……）",
+			say = "（克里蒙梭不僅轉移了話題，而且總覺得話裡有話……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -677,7 +677,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊~指挥官，请容许我提醒一下，我们似乎已经耽误了不少时间。",
+			say = "啊~指揮官，請容許我提醒一下，我們似乎已經耽誤了不少時間。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -695,7 +695,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再不快点工作的话，可就赶不上午餐时间咯~",
+			say = "再不快點工作的話，可就趕不上午餐時間了~",
 			painting = {
 				alpha = 0.3,
 				time = 1

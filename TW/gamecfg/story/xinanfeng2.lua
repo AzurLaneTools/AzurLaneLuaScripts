@@ -184,7 +184,6 @@ return {
 			}
 		},
 		{
-			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,

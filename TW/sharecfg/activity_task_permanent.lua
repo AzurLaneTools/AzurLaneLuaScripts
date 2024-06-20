@@ -13,7 +13,8 @@ pg.activity_task_permanent = setmetatable({
 		6011,
 		6015,
 		6016,
-		6018
+		6018,
+		6020
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -287,6 +288,32 @@ pg.base.activity_task_permanent = {
 			35220,
 			35221,
 			35222
+		}
+	},
+	[6020] = {
+		gametip = "可獲得{namecode:147}限定換裝「緞帶輕飄飄」",
+		banner_route = "permanent_manchao",
+		gametip_extra = "最快7日獲得",
+		task_extra = "",
+		over_pt = 0,
+		activity_name = "緞帶輕飄飄",
+		id = 6020,
+		over_task_id = "",
+		eliminate_task_id = {
+			35244,
+			35245,
+			35246,
+			35247,
+			35248,
+			35249,
+			35250,
+			35251,
+			35252,
+			35253,
+			35254,
+			35255,
+			35256,
+			35257
 		}
 	}
 }

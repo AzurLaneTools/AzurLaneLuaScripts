@@ -105,6 +105,9 @@ slot0.StartInteraction = function(slot0, slot1, slot2)
 	end
 end
 
+slot0.OnPreheatActionEnd = function(slot0)
+end
+
 slot0.UpdateInteraction = function(slot0, ...)
 	slot0:DispatchEvent(CourtYardEvent.SHIP_UPDATE_INTERACTION, ...)
 end

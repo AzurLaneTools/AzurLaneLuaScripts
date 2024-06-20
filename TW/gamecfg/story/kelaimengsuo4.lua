@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"隐藏于纯白之下\n\n<size=45>四　张弛有度</size>",
+					"隱藏於純白之下\n\n<size=45>四 張弛有度</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_513",
 			hidePaintObj = true,
 			bgm = "story-richang-4",
-			say = "工作终于结束后，与克莱蒙梭一同前往了晚餐会所在的地点。",
+			say = "工作終於結束後，與克里蒙梭一同前往了晚餐會所在的地點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_513",
 			hidePaintObj = true,
-			say = "中途，怀中还被她塞了一份不知何时从何处拿出来的邀请函。",
+			say = "中途，懷中還被她塞了一份不知何時從何處拿出來的邀請函。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_513",
 			hidePaintObj = true,
-			say = "与这种堪称“不太正经”的邀请方式形成对比的是，那是一封用红色信封和金色鸢尾花图案火漆封口的、非常正式的邀请函。",
+			say = "與這種堪稱「不太正經」的邀請方式形成對比的是，那是一封用紅色信封和金色鳶尾花圖案火漆封口的、非常正式的邀請函。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_513",
 			hidePaintObj = true,
-			say = "这种类型的邀请函，指向的场合理应相当严肃才是……",
+			say = "這種類型的邀請函，指向的場合理應相當嚴肅才是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然邀请了指挥官前往，就算只是普通的聚会，也是需要尽礼数的。",
+			say = "既然邀請了指揮官前往，就算只是普通的聚會，也是需要盡禮數的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还是说——没有交谊舞环节让指挥官阁下失望了？",
+			say = "還是說——沒有交際舞環節讓指揮官閣下失望了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵~今天是孩子们的犒劳晚会嘛，缺掉的部分以后补给你。",
+			say = "呵呵~今天是孩子們的犒勞晚會嘛，缺掉的部分以後補給你。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,11 +116,11 @@ return {
 			},
 			options = {
 				{
-					content = "不，完全没失望！",
+					content = "不，完全沒失望！",
 					flag = 1
 				},
 				{
-					content = "请务必！",
+					content = "請務必！",
 					flag = 2
 				}
 			}
@@ -133,7 +133,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘘——快到会场了，悄悄话等到没人的时候再说。我们先入座吧~",
+			say = "噓——快到會場了，悄悄話等到沒人的時候再說。我們先入座吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			actor = 801040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来就是见证奇迹的时刻~请看……看……？！！",
+			say = "接下來就是見證奇蹟的時刻~請看……看……？！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			actor = 801040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦？怎么没有反应？",
+			say = "咦？怎麼沒有反應？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			actor = 904010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，克莱蒙梭大人，甜点还合你们的口味吗？",
+			say = "指揮官，克里蒙梭大人，甜點還合你們的口味嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "非常美味，敦刻尔克的烘焙水准真是越来越高了呢。",
+			say = "非常美味，敦克爾克的烘焙水準真是越來越高了呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			actor = 801070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "茶……好烫。",
+			say = "茶……好燙。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			actor = 901030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜啊！抱歉抱歉，可怖。这杯才是特地帮你准备的，是温的！",
+			say = "嗚嗚嗚！抱歉抱歉，可怖。這杯才是特地幫妳準備的，是溫的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			actor = 801070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔、还是好烫！",
+			say = "唔、還是好燙！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			actor = 901030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？倔强，你这个道具是不是有点不对劲？",
+			say = "嗯？倔強，妳這個道具是不是有點不對勁？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			actor = 801040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看我看看……这是……",
+			say = "讓我看看……這是……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -414,7 +414,7 @@ return {
 			actor = 801040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳咳……怎么爆炸了？",
+			say = "咳……怎麼爆炸了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -432,7 +432,7 @@ return {
 			actor = 801040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "沃克兰，你是不是又对我的道具做了手脚？",
+			say = "沃克蘭，妳是不是又對我的道具做了手腳？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			actor = 901030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这次我可没有哦！我一直在帮敦刻尔克布置聚会的现场。",
+			say = "這次我可沒有哦！我一直在幫敦克爾克佈置聚會的現場。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +468,7 @@ return {
 			actor = 904010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这一点我可以作证，沃克兰这次确实没什么机会捣乱。",
+			say = "這一點我可以作證，沃克蘭這次確實沒什麼機會搗亂。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -485,7 +485,7 @@ return {
 			actor = 801070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "会不会是道具出厂的时候就出问题了？",
+			say = "會不會是道具出廠的時候就出問題了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -503,7 +503,7 @@ return {
 			actor = 801040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……算了，明天去找{namecode:98}小姐问问清楚好了。",
+			say = "嗯……算了，明天去找明石小姐問問清楚好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,7 +521,7 @@ return {
 			actor = 904010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "克莱蒙梭大人，黎塞留大人和{namecode:523}大人今天没空参加聚会，这红酒……",
+			say = "克里蒙梭大人，黎胥留大人和讓‧巴爾大人今天沒空參加聚會，這紅酒……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -539,7 +539,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我知道了，稍后我会把红酒给她们带回去的。",
+			say = "我知道了，稍後我會把紅酒帶回去給她們的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,7 +554,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_115",
-			say = "聚会的场面稍微有点混乱，但是到处充满了欢笑，每个人都享受着这轻松的氛围。",
+			say = "派對的場面稍微有點混亂，但是到處充滿了歡笑，每個人都享受著這輕鬆的氛圍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官阁下看上去有些诧异呢，是吃到奇怪的东西了么？",
+			say = "指揮官閣下看起來有些詫異呢，是吃到奇怪的東西了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -601,7 +601,7 @@ return {
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没有，食物非常美味。只是……",
+			say = "沒有，食物非常美味。只是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只是对于晚餐会的氛围有些意外？",
+			say = "只是對於晚餐會的氣氛有些意外？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -633,7 +633,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，偶尔我们也是会举办这种轻松的宴会，偶尔啦~",
+			say = "呵呵，偶爾我們也是會舉辦這種輕鬆的宴會，偶爾~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -651,7 +651,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "毕竟我们有一些很有个性的孩子呢。",
+			say = "畢竟我們有一些很有個性的孩子呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -669,7 +669,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而且，只有彻底消除了疲惫，才能以更好的状态迎接新的训练。",
+			say = "而且，只有徹底消除了疲憊，才能以更好的狀態迎接新的訓練。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -687,7 +687,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官不这样认为么？呵呵~",
+			say = "指揮官不這樣認為嗎？呵呵~",
 			painting = {
 				alpha = 0.3,
 				time = 1

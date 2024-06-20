@@ -19774,7 +19774,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10502,
 		resource_num = 500,
-		order = 3,
+		order = 4,
 		limit_args = {
 			{
 				"quota",
@@ -19792,7 +19792,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10503,
 		resource_num = 500,
-		order = 4,
+		order = 5,
 		limit_args = {
 			{
 				"quota",
@@ -19810,7 +19810,7 @@ pg.activity_shop_template = {
 		resource_type = 59900,
 		id = 10504,
 		resource_num = 500,
-		order = 5,
+		order = 6,
 		limit_args = {
 			{
 				"quota",
@@ -20228,9 +20228,9 @@ pg.activity_shop_template = {
 				2,
 				{
 					{
-						2024,
+						2023,
 						6,
-						28
+						22
 					},
 					{
 						0,

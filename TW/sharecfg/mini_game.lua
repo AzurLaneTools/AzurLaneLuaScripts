@@ -1972,6 +1972,7 @@ pg.mini_game = {
 		hub_id = 50,
 		request_data = 0,
 		simple_config_data = {
+			show_time = "stop",
 			drop_ids = {
 				{
 					2,

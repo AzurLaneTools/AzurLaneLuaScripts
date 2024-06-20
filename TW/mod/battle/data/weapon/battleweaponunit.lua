@@ -621,7 +621,9 @@ slot9.PreCast = function(slot0)
 end
 
 slot9.Fire = function(slot0, slot1)
-	if not slot0._host:IsCease() then
+	if slot0._host:IsCease() then
+		return false
+	else
 		slot0:DispatchGCD()
 
 		slot0._currentState = slot0.STATE_ATTACK

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"皇家财富的秘密船厂\n\n<size=45>一　火炮、风帆、工程学</size>",
+					"皇家幸運的秘密船廠\n\n<size=45>一 火炮、風帆、工程學</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "灯光——",
+			say = "燈光——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -41,7 +41,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "与音乐——！",
+			say = "與音樂——！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "诸位，欢迎来到皇家财富的秘密造船厂——",
+			say = "諸位，歡迎來到皇家幸運的秘密造船廠——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔，登场的效果倒是够了，但台词还是缺了点气势啊。",
+			say = "唔，登場的效果倒是夠了，但台詞還是缺了點氣勢啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,7 +139,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那也可以这样……",
+			say = "那也可以這樣……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳、诸位，欢迎来到皇家财富伟大征途的起点！",
+			say = "咳、諸位，歡迎來到皇家幸運偉大征途的起點！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——皇家财富造船厂！",
+			say = "——皇家幸運造船廠！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,42 +224,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，这样就好多了！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_battleshipyard_0",
-			dir = 1,
-			actor = 9600010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "那么接下来，我要问诸位一个问题——",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_battleshipyard_0",
-			dir = 1,
-			actor = 9600010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "——“风帆战舰”是什么？",
+			say = "嗯，這樣就好多了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +242,42 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不用急着回答，先从脑海中调动相关的知识吧。",
+			say = "那麼接下來，我要問諸位一個問題——",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_battleshipyard_0",
+			dir = 1,
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "——「風帆戰艦」是什麼？",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_battleshipyard_0",
+			dir = 1,
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "不用急著回答，先從腦海中調動相關的知識吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再通过缜密的推断、慎重的思考，最后得出可信的答案——",
+			say = "再透過縝密的推論、慎重的思考，最後得出可信的答案——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错！所谓的风帆战舰呢，就是指主要依靠风吹船帆的动力进行移动的武装战舰。",
+			say = "沒錯！所謂的風帆戰艦呢，就是指主要依靠風吹船帆的動力來移動的武裝戰艦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,7 +335,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "风帆战舰船身普遍较高，且常设计有多层甲板~",
+			say = "風帆戰艦船體普遍較高，常設計有多層甲板~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +352,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "装备了火炮之后，这些庞大的舰船就成为了海洋上的移动堡垒！",
+			say = "裝備了火炮之後，這些龐大的船艦就成為了海洋上的移動堡壘！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在「飓风」的世界里，风帆战舰才是海洋上的霸主呢。",
+			say = "在「颶風」的世界裡，風帆戰艦才是海洋上的霸主呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "面对这样的强大战舰，相信诸位应该也很心动吧？",
+			say = "面對這樣的強大戰艦，相信諸位應該也很心動吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -404,7 +404,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "正所谓实践是最好的老师，心动不如行动~",
+			say = "正所謂實踐是最好的老師，心動不如行動~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "让我们一起建造一艘风帆战舰吧~！",
+			say = "讓我們一起建造一艘風帆戰艦吧~！",
 			painting = {
 				alpha = 0.3,
 				time = 1

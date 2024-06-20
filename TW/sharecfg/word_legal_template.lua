@@ -2426,7 +2426,12 @@ temp = function()
 	uv0["休"] = {
 		["士"] = {
 			["頓"] = {
-				this = true
+				this = true,
+				I = {
+					I = {
+						this = true
+					}
+				}
 			}
 		}
 	}

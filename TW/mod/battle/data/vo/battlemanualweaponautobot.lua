@@ -26,21 +26,15 @@ end
 
 slot3.Update = function(slot0)
 	if slot0._active then
-		if not slot0._torpedoVO:IsOverLoad() then
-			slot0._fleetVO:QuickCastTorpedo()
-
+		if not slot0._torpedoVO:IsOverLoad() and slot0._fleetVO:QuickCastTorpedo() then
 			return
 		end
 
-		if not slot0._AAVO:IsOverLoad() then
-			slot0._fleetVO:UnleashAllInStrike()
-
+		if not slot0._AAVO:IsOverLoad() and slot0._fleetVO:UnleashAllInStrike() then
 			return
 		end
 
-		if not slot0._chargeVO:IsOverLoad() then
-			slot0._fleetVO:QuickTagChrageWeapon(slot0._isPlayFocus)
-
+		if not slot0._chargeVO:IsOverLoad() and slot0._fleetVO:QuickTagChrageWeapon(slot0._isPlayFocus) then
 			return
 		end
 	end

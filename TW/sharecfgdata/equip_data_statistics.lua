@@ -153522,6 +153522,132 @@ _G.pg.base.equip_data_statistics[100000] = {
 }
 
 
+_G.pg.base.equip_data_statistics[150020] = {
+	name = "颶風旗",
+	tech = 0,
+	type = 10,
+	speciality = "<[NA]>",
+	attribute_1 = "dodge",
+	value_2 = 0,
+	icon = "150020",
+	value_1 = "10",
+	rarity = 4,
+	descrip = "说明未填写",
+	nationality = 96,
+	ammo = 10,
+	value_3 = 0,
+	id = 150020,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60440
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"MOT",
+		"DEV"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[150021] = {
+	id = 150021,
+	value_1 = "11",
+	base = 150020,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150022] = {
+	id = 150022,
+	value_1 = "12",
+	base = 150020,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150023] = {
+	id = 150023,
+	value_1 = "13",
+	base = 150020,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150024] = {
+	id = 150024,
+	value_1 = "14",
+	base = 150020,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150025] = {
+	id = 150025,
+	value_1 = "15",
+	base = 150020,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150026] = {
+	id = 150026,
+	value_1 = "16",
+	base = 150020,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150027] = {
+	id = 150027,
+	value_1 = "17",
+	base = 150020,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150028] = {
+	id = 150028,
+	value_1 = "18",
+	base = 150020,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150029] = {
+	id = 150029,
+	value_1 = "19",
+	base = 150020,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150030] = {
+	id = 150030,
+	value_1 = "20",
+	base = 150020,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150031] = {
+	anti_siren = 100,
+	base = 150020,
+	id = 150031,
+	value_1 = "21",
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[170001] = {
 	name = "专属弹幕-古比雪夫I",
 	tech = 1,

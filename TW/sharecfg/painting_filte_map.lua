@@ -9345,6 +9345,14 @@ pg.painting_filte_map = {
 			"painting/npcadaerbote_3_n"
 		}
 	},
+	npcchaijun_5 = {
+		key = "npcchaijun_5",
+		res_list = {
+			"painting/npcchaijun_5_rw_tex",
+			"painting/npcchaijun_5_n_tex",
+			"painting/npcchaijun_5_n"
+		}
+	},
 	nuofuke = {
 		key = "nuofuke",
 		res_list = {
@@ -13860,6 +13868,13 @@ pg.painting_filte_map = {
 	xiusidun = {
 		key = "xiusidun",
 		res_list = {
+			"painting/xiusidun_tex",
+			"painting/xiusidun"
+		}
+	},
+	xiusidunii = {
+		key = "xiusidunii",
+		res_list = {
 			"painting/xiusidunii_tex",
 			"painting/xiusidunii_rw_tex",
 			"painting/xiusidunii_n_tex",
@@ -13868,9 +13883,7 @@ pg.painting_filte_map = {
 			"painting/xiusidunii_2_n_tex",
 			"painting/xiusidunii_2_n",
 			"painting/xiusidunii_2",
-			"painting/xiusidunii",
-			"painting/xiusidun_tex",
-			"painting/xiusidun"
+			"painting/xiusidunii"
 		}
 	},
 	xixuegui = {

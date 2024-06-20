@@ -206,6 +206,9 @@ pg.ship_data_group = setmetatable({
 		[10225] = {
 			428
 		},
+		[10231] = {
+			609
+		},
 		[10220] = {
 			391
 		},
@@ -1984,6 +1987,7 @@ pg.ship_data_group = setmetatable({
 			330,
 			405,
 			428,
+			609,
 			391,
 			420,
 			39,
@@ -2630,6 +2634,7 @@ pg.ship_data_group = setmetatable({
 		330,
 		405,
 		428,
+		609,
 		391,
 		420,
 		39,
@@ -6254,6 +6259,43 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[609] = {
+		nationality = 1,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 10231,
+		index_id = 71,
+		code = 609,
+		share_group_id = {
+			10305
+		},
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"推薦探索關卡15-4",
+				{
+					"LEVEL",
+					{
+						chapterid = 1504
+					}
+				},
+				0
+			}
+		}
+	},
 	[391] = {
 		nationality = 1,
 		type = 2,
@@ -6551,7 +6593,9 @@ pg.base.ship_data_group = {
 		group_type = 10305,
 		index_id = 78,
 		code = 43,
-		share_group_id = {},
+		share_group_id = {
+			10231
+		},
 		property_hexagon = {
 			"A",
 			"E",
@@ -7497,7 +7541,7 @@ pg.base.ship_data_group = {
 	[60] = {
 		nationality = 1,
 		type = 5,
-		trans_type = 0,
+		trans_type = 5,
 		handbook_type = 0,
 		redirect_id = 101,
 		trans_skin = 0,

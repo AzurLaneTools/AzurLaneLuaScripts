@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"隐藏于纯白之下\n\n<size=45>六　如猎人般智慧</size>",
+					"隱藏於純白之下\n\n<size=45>六 如獵人般智慧</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			bgm = "story-richang-3",
-			say = "多亏克莱蒙梭的协助，今天也是能在日落前准点下班的一天。",
+			say = "多虧克里蒙梭的協助，今天也是日落前能準時下班的一天。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "突然，在前方的树丛中听到了少女们交谈的声音。",
+			say = "突然，在前方的樹叢中聽到了少女們交談的聲音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			actor = 905010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我说……你们就这样看着，都不打算来帮帮我吗？",
+			say = "我說……妳們就這樣看著，都不打算來幫幫我嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？我听你的声音都激动到颤抖了，还以为你和小猫们玩得挺开心的呢？",
+			say = "嗯？我聽妳的聲音都激動到顫抖了，還以為妳和小貓們玩得挺開心的呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			actor = 905010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你……！",
+			say = "妳……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:523}，你先不要动，挂在你身上的小橘猫要掉下去了。",
+			say = "讓·巴爾，妳先不要動，掛在妳身上的小橘貓要掉下去了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就算冒着掉下去的风险也要往身上爬，真是的，这些孩子到底是为什么这么喜欢你呢？",
+			say = "就算冒著掉下去的風險也要往身上爬，真是的，這些孩子到底是為什麼這麼喜歡妳呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可能{namecode:523}对于这群孩子来说就像猫薄荷一样吧？=真是令人羡慕。",
+			say = "可能讓·巴爾對於這群孩子來說就像貓薄荷吧？真是令人羨慕。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			actor = 905010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我完全不觉得！",
+			say = "我完全不覺得！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:523}，能被可爱的动物喜欢可是神赐给你的福音，你应该心怀感激才是哦。",
+			say = "讓·巴爾，能被可愛的動物喜歡可是神賜給妳的福音，妳應該心懷感激才是哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_520",
-			say = "穿过树丛，映入眼帘的是身上爬满了小猫，如同人型猫爬架一般僵硬不动的{namecode:523}。",
+			say = "穿過樹叢，映入眼簾的是身上爬滿了小貓，如同人型貓爬架一般僵硬不動的讓·巴爾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "手拿逗猫棒，看上去饶有兴致的黎塞留。",
+			say = "手拿逗貓棒，看起來饒有興致的黎胥留。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "以及站在一旁带着某种“某种目的得逞”的笑容，“冷眼旁观”的克莱蒙梭。",
+			say = "以及站在一旁帶著某種「某種目的得逞」的笑容，「冷眼旁觀」的克里蒙梭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "日安，指挥官。",
+			say = "日安，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			actor = 905010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官！快、快来把这些家伙带走！",
+			say = "指揮官！快、快來把這些傢伙帶走！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "难得没有下班后一起走，结果还是遇到了呢，真是巧啊。",
+			say = "難得沒有下班後一起走，結果還是遇到了呢，真是巧啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			actor = 905010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……难得，什么？",
+			say = "……難得，什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳……指挥官是来散步的么？",
+			say = "咳……指揮官是來散步的嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "只是随便走走，你们这是在……玩什么惩罚游戏么？",
+			say = "只是隨便走走，妳們這是在……玩什麼懲罰遊戲麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "无论怎么看，这都像是游戏结束后的惩罚环节，毕竟{namecode:523}并不擅长应对猫这样的动物。",
+			say = "無論怎麼看，這都像是遊戲結束後的懲罰環節，畢竟讓·巴爾並不擅長應付貓咪這樣的動物。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么会呢~只是黎塞留说想帮忙找回昨天从猫咖中意外跑丢的猫。",
+			say = "怎麼會呢~只是黎胥留說想幫忙找回昨天從貓咖意外跑丟的貓。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以我就建议{namecode:523}来一起帮忙了。",
+			say = "所以我就建議讓·巴爾一起來幫忙了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "托她的福，走失的猫找到了，黎塞留姐姐也度过了一段开心的时光。",
+			say = "托她的福，走失的貓找到了，黎胥留姊姊也度過了一段開心的時光。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -460,7 +460,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "原来如此。利用{namecode:523}来吸引走失的猫……真是聪明的作战。",
+			say = "原來如此。利用讓·巴爾來吸引走失的貓……真是聰明的作戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "多谢指挥官阁下的夸奖~",
+			say = "多謝指揮官閣下的誇獎~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,7 +490,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过既然猫已经找到了，是不是尽快解救一下{namecode:523}比较好？",
+			say = "不過既然貓咪已經找到了，是不是趕快解救一下讓·巴爾比較好？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……我觉得她可以再坚持坚持，让黎塞留姐姐再多开心一会儿吧~",
+			say = "嗯…我覺得她可以再堅持堅持，讓黎胥留姊姊再多開心一下子吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1

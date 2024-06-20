@@ -2506,10 +2506,7 @@ pg.activity_shop_extra = {
 		id = 95,
 		order = 800,
 		scene = {
-			"SPRING_FESTIVAL_BACKHILL_2024",
-			{
-				isOpenRedPacket = true
-			}
+			"SPRING FESTIVAL BackHill 2023"
 		},
 		time = {
 			{
@@ -2548,10 +2545,7 @@ pg.activity_shop_extra = {
 		id = 96,
 		order = 800,
 		scene = {
-			"SPRING_FESTIVAL_BACKHILL_2024",
-			{
-				isOpenRedPacket = true
-			}
+			"SPRING FESTIVAL BackHill 2023"
 		},
 		time = {
 			{

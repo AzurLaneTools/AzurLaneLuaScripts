@@ -52,9 +52,11 @@ slot0.init = function(slot0)
 	slot0.noneBg = slot0:findTF("none_bg")
 	slot0.allLaunch = slot0:findTF("all_launch")
 	slot0.aniBgTF = slot0:findTF("aniBg")
+	slot0.autoLockShipToggle = slot0:findTF("autolockship/Toggle"):GetComponent(typeof(Toggle))
 	slot0.canvasgroup = GetOrAddComponent(slot0._tf, typeof(CanvasGroup))
 
 	setText(slot0:findTF("title/text"), i18n("build_detail_intro"))
+	setText(slot0:findTF("autolockship/Text"), i18n("lock_new_ship"))
 end
 
 slot0.updatePlayer = function(slot0, slot1)
@@ -63,9 +65,8 @@ end
 
 slot0.didEnter = function(slot0)
 	slot0.projectTFs = {}
-	slot1 = slot0.multList
 
-	slot1:make(function (slot0, slot1, slot2)
+	slot0.multList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot2.gameObject.name = "project_" .. slot1 + 1
 			uv0.projectTFs[slot1 + 1] = slot2
@@ -73,10 +74,7 @@ slot0.didEnter = function(slot0)
 			uv0:updateProject(slot1 + 1, uv0.projectList[slot1 + 1])
 		end
 	end)
-
-	slot1 = slot0.singleList
-
-	slot1:make(function (slot0, slot1, slot2)
+	slot0.singleList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot2.gameObject.name = "project_" .. slot1 + 1
 			uv0.projectTFs[slot1 + 1] = slot2
@@ -87,10 +85,7 @@ slot0.didEnter = function(slot0)
 	slot0:initProjectList()
 	slot0:updateItem()
 	slot0:updateListCount()
-
-	slot2 = slot0.aniBgTF.transform
-
-	slot2:SetParent(GameObject.Find("Overlay/UIOverlay").transform, false)
+	slot0.aniBgTF.transform:SetParent(GameObject.Find("Overlay/UIOverlay").transform, false)
 	onButton(slot0, slot0.allLaunch, function ()
 		if uv0:getNeedCount() > 0 and not uv0.isStopSpeedUpRemind then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -116,6 +111,19 @@ slot0.didEnter = function(slot0)
 			id = pg.shop_template[61009].effect_args[1]
 		}, 9, "build_ship_quickly_buy_tool")
 	end)
+
+	slot2 = pg.settings_other_template[22]
+	slot3 = getProxy(PlayerProxy):getRawData():GetCommonFlag(_G[slot2.name])
+
+	if slot2.default == 1 then
+		slot3 = not slot3
+	end
+
+	slot0.autoLockShipToggle.isOn = slot3 or false
+
+	onToggle(slot0, go(slot0.autoLockShipToggle), function (slot0)
+		uv0:ChangeAutoLockShip(uv1, slot0)
+	end, SFX_PANEL)
 end
 
 slot0.onBackPressed = function(slot0)
@@ -375,6 +383,25 @@ slot0.stopCV = function(slot0)
 	end
 
 	slot0.voiceContent = nil
+end
+
+slot0.ChangeAutoLockShip = function(slot0, slot1, slot2)
+	slot4 = getProxy(PlayerProxy):getRawData():GetCommonFlag(_G[slot1.name])
+	slot5 = not slot2
+
+	if slot1.default == 1 then
+		slot5 = slot2
+	end
+
+	if slot5 then
+		pg.m02:sendNotification(GAME.CANCEL_COMMON_FLAG, {
+			flagID = slot3
+		})
+	else
+		pg.m02:sendNotification(GAME.COMMON_FLAG, {
+			flagID = slot3
+		})
+	end
 end
 
 return slot0

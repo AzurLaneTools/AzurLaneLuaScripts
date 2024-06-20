@@ -1086,7 +1086,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 4430,
-		is_show = 60,
+		is_show = 48,
 		title_res_tag = "Princeton_pt",
 		id = 4430,
 		config_data = {},
@@ -3446,7 +3446,7 @@ pg.activity_template = {
 		type = 57,
 		login_pop = 0,
 		config_id = 42,
-		is_show = 60,
+		is_show = 47,
 		config_client = "",
 		title_res_tag = "ValentineQte",
 		id = 4685,
@@ -7939,6 +7939,111 @@ pg.activity_template = {
 			ui_name = "JavelinDressSkinPage"
 		}
 	},
+	[5023] = {
+		mark = 20240620,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 50,
+		title_res_tag = "pirate",
+		id = 5023,
+		config_data = {
+			{
+				19331,
+				19332
+			},
+			{
+				19333,
+				19334
+			},
+			{
+				19335,
+				19336
+			},
+			{
+				19337,
+				19338
+			},
+			{
+				19339,
+				19340
+			},
+			{
+				19341,
+				19342
+			},
+			{
+				19343,
+				19344
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					6,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					7,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "PiratePage",
+			ui_name = "PiratePage"
+		},
+		config_client = {
+			firstStory = "HUANGJIACAIFUDEMIMICHUANCHANG1",
+			story = {
+				{
+					"HUANGJIACAIFUDEMIMICHUANCHANG2"
+				},
+				{
+					"HUANGJIACAIFUDEMIMICHUANCHANG3"
+				},
+				{
+					"HUANGJIACAIFUDEMIMICHUANCHANG4"
+				},
+				{
+					"HUANGJIACAIFUDEMIMICHUANCHANG5"
+				},
+				{
+					"HUANGJIACAIFUDEMIMICHUANCHANG6"
+				},
+				{
+					"HUANGJIACAIFUDEMIMICHUANCHANG7"
+				},
+				{
+					"HUANGJIACAIFUDEMIMICHUANCHANG8"
+				}
+			},
+			shipyard_phase_1 = {
+				"歡迎歡迎~今天的計劃是什麼？ ",
+				"哼哼，你總算來了！讓我們快點完成這項偉大的工作吧~",
+				"等完工後，就由你來主持剪綵儀式吧~"
+			},
+			shipyard_phase_2 = {
+				"快點來吧，偉大的冒險就在前方！我已經等不及啦~",
+				"出發出發~目的地是哪裡？神秘的暗礁，還是黃金的海岸~？ "
+			}
+		}
+	},
 	[5062] = {
 		mark = 20240509,
 		page_info = "",
@@ -9994,6 +10099,7 @@ pg.activity_template = {
 	},
 	[5360] = {
 		mark = 20240606,
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
@@ -10021,33 +10127,6 @@ pg.activity_template = {
 			},
 			{
 				20188
-			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					6,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					6,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		page_info = {
@@ -12779,6 +12858,51 @@ pg.activity_template = {
 		page_info = {
 			class_name = "ChocolateWorkshopSkinPage",
 			ui_name = "ChocolateWorkshopPermanentPage"
+		}
+	},
+	[6020] = {
+		mark = 20221019,
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 10,
+		config_client = "",
+		title_res_tag = "manchao_permanent",
+		id = 6020,
+		config_data = {
+			{
+				35244,
+				35245
+			},
+			{
+				35246,
+				35247
+			},
+			{
+				35248,
+				35249
+			},
+			{
+				35250,
+				35251
+			},
+			{
+				35252,
+				35253
+			},
+			{
+				35254,
+				35255
+			},
+			{
+				35256,
+				35257
+			}
+		},
+		page_info = {
+			class_name = "ManChaoSkinPage",
+			ui_name = "ManChaoSkinPermanentPage"
 		}
 	},
 	[100001] = {
@@ -46928,6 +47052,7 @@ pg.activity_template = {
 			4960,
 			4971,
 			5017,
+			5023,
 			5324,
 			5360,
 			6000,
@@ -46940,6 +47065,7 @@ pg.activity_template = {
 			6015,
 			6016,
 			6018,
+			6020,
 			40159,
 			40164,
 			40167,
@@ -48317,6 +48443,7 @@ pg.activity_template = {
 		4971,
 		4972,
 		5017,
+		5023,
 		5062,
 		5063,
 		5064,
@@ -48463,6 +48590,7 @@ pg.activity_template = {
 		6015,
 		6016,
 		6018,
+		6020,
 		100001,
 		40009,
 		40030,

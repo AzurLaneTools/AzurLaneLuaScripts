@@ -29404,12 +29404,135 @@ _G.pg.base.gametip.word_harbour = {
 
 
 _G.pg.base.gametip.levelscene_deploy_submarine = {
-	tip = "港區"
+	tip = "確認部署"
 }
 
 
 _G.pg.base.gametip.levelscene_deploy_submarine_cancel = {
 	tip = "取消部署"
+}
+
+
+_G.pg.base.gametip.levelscene_airexpel_cancel = {
+	tip = "取消驅逐"
+}
+
+
+_G.pg.base.gametip.levelscene_airexpel_select_enemy = {
+	tip = "只能選擇敵方艦隊作為目標"
+}
+
+
+_G.pg.base.gametip.levelscene_airexpel_outrange = {
+	tip = "目標點不在驅離範圍內"
+}
+
+
+_G.pg.base.gametip.levelscene_airexpel_select_boss = {
+	tip = "無法選擇敵方旗艦作為目標"
+}
+
+
+_G.pg.base.gametip.levelscene_airexpel_select_battle = {
+	tip = "無法選擇處於交戰狀態的敵方艦隊作為目標"
+}
+
+
+_G.pg.base.gametip.levelscene_airexpel_select_confirm_left = {
+	tip = "發布指令：將<color=#92fc63>$1</color>向<color=#92fc63>左</color>驅離一格，是否確認"
+}
+
+
+_G.pg.base.gametip.levelscene_airexpel_select_confirm_right = {
+	tip = "發布指令：將<color=#92fc63>$1</color>向<color=#92fc63>右</color>驅離一格，是否確認"
+}
+
+
+_G.pg.base.gametip.levelscene_airexpel_select_confirm_up = {
+	tip = "發布指令：將<color=#92fc63>$1</color>向<color=#92fc63>上</color>驅離一格，是否確認"
+}
+
+
+_G.pg.base.gametip.levelscene_airexpel_select_confirm_down = {
+	tip = "發布指令：將<color=#92fc63>$1</color>向<color=#92fc63>下</color>驅離一格，是否確認"
+}
+
+
+_G.pg.base.gametip.shipyard_phase_1 = {
+	tip = {
+		{
+			info = [[
+活動簡介：
+<color=#92fc63>6.20-7.11/24時</color>期間開啟「皇家幸運的秘密船廠」活動的第二階段。
+活動期間完成「秘密船廠」建造階段的所有任務，即可參加第二階段活動。
+活動期間，6月26日為止每日解鎖一關遊戲關卡，並增加<color=#92fc63>1</color>次可獲得獎勵的遊玩次數。
+擁有可獲得獎勵的遊玩次數時，完成遊戲關卡可獲得<color=#92fc63>道具獎勵。</color>
+完成全部7個遊戲關卡後，可取得<color=#92fc63>限定傢俱「啟航的冒險船」x1</color>並可自由選擇任意關卡通關]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.shipyard_phase_2 = {
+	tip = "廢棄"
+}
+
+
+_G.pg.base.gametip.shipyard_button_1 = {
+	tip = "敬請期待"
+}
+
+
+_G.pg.base.gametip.shipyard_button_2 = {
+	tip = "完成「秘密船廠」的全部建造任務後解鎖"
+}
+
+
+_G.pg.base.gametip.shipyard_introduce = {
+	tip = "6月26日為止，每天零點解鎖2個任務\n完成七日活動任務，可獲得限定裝備<color=#ff9892>「颶風旗」 </color>"
+}
+
+
+_G.pg.base.gametip.help_supportfleet = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/supportfleet_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/supportfleet_help2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.word_status_inSupportFleet = {
+	tip = "支援艦隊中"
+}
+
+
+_G.pg.base.gametip.ship_formationMediator_request_replace_support = {
+	tip = "您目前選擇的船艦已經在<color=#92fc63>支援艦隊</color>中, 是否進行切換？"
 }
 
 
@@ -30877,4 +31000,39 @@ _G.pg.base.gametip.xiaodadi_npc = {
 			info = "7.npc 角色無法參與大艦隊作戰中的事件派遣、攻堅隊和首領戰。"
 		}
 	}
+}
+
+
+_G.pg.base.gametip.words_lock_ship_label = {
+	tip = "自動鎖定新獲得角色"
+}
+
+
+_G.pg.base.gametip.one_click_retire_subtitle = {
+	tip = "一鍵退役設定"
+}
+
+
+_G.pg.base.gametip.unique_ship_retire_protect = {
+	tip = "唯一艦船退役保護"
+}
+
+
+_G.pg.base.gametip.unique_ship_tip1 = {
+	tip = "選擇角色中有<color=#92fc63>唯一</color>角色："
+}
+
+
+_G.pg.base.gametip.unique_ship_retire_before_tip = {
+	tip = "是否確認"
+}
+
+
+_G.pg.base.gametip.unique_ship_tip2 = {
+	tip = "包含<color=#92fc63>唯一</color>角色，請輸入<color=#92fc63>$1</color>確認"
+}
+
+
+_G.pg.base.gametip.lock_new_ship = {
+	tip = "自動鎖定新獲得角色"
 }

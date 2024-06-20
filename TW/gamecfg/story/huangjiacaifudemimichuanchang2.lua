@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"皇家财富的秘密船厂\n\n<size=45>二　龙骨是灵魂</size>",
+					"皇家幸運的秘密船廠\n\n<size=45>二 龍骨是靈魂</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "bg_battleshipyard_1",
 			hidePaintObj = true,
 			bgm = "theme-seaandsun-image",
-			say = "皇家财富造船厂·龙骨铺设完毕——",
+			say = "皇家幸運造船廠·龍骨鋪設完畢——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "龙骨，是在船体的基底中央连接船首柱和船尾柱的一个纵向构件。",
+			say = "龍骨，是在船體的基底中央連接船首柱和船尾柱的一個縱向構件。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -56,7 +56,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其最重要的作用，就是作为船舶的承重结构。",
+			say = "其最重要的作用，就是作為船舶的承重結構。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "从工程力学的角度出发，龙骨主要承受船体的纵向弯曲力矩。",
+			say = "從工程力學的角度出發，龍骨主要承受船體的縱向彎曲力矩。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "优秀的龙骨，是船舶结构最强而有力的保证。",
+			say = "優秀的龍骨，是船舶結構最強而有力的保證。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,7 +113,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "除此之外，龙骨还扩大了船的侧面面积——这对逆风航行尤为重要。",
+			say = "除此之外，龍骨還擴大了船的側面面積——這對逆風航行尤其重要。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,7 +130,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼，龙骨对于一艘舰船而言，就是定海神针一般的存在哦。",
+			say = "哼哼，龍骨對於一艘艦船而言，就是定海神針一般的存在哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "海面上的水况复杂，龙骨的重量还能稳定船只，减少倾斜以及意料之外的反向转动哦。",
+			say = "海面上的水況複雜，龍骨的重量還能穩定船隻，減少傾斜以及意料之外的反向轉動哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对于一艘风帆战舰而言，龙骨就是她的根骨与灵魂~",
+			say = "對一艘風帆戰艦而言，龍骨就是她的根骨與靈魂~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过，也不是只靠龙骨就能撑起整艘战舰。",
+			say = "不過，也不是只靠龍骨就能撐起整艘戰艦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "和其它部分的配合也至关重要，这点请务必牢记哦。",
+			say = "和其它部分的配合也至關重要，這一點請務必牢記哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来，让我们开始下一阶段的建造任务吧——",
+			say = "接下來，讓我們開始下一階段的建造任務吧——",
 			painting = {
 				alpha = 0.3,
 				time = 1

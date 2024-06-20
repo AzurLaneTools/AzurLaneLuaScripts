@@ -205,6 +205,15 @@ pg.settings_other_template = {
 		title = "主介面顯示L2D重置按鈕 ",
 		desc = "功能開啟後，主介面出現L2D重置按鈕"
 	},
+	{
+		default = 0,
+		name = "LOCK_NEW_SHIP",
+		alignment = 0,
+		type = 1,
+		id = 22,
+		title = "自動鎖定新獲得角色",
+		desc = "功能開啟後，自動鎖定新獲得角色，不再跳出鎖定提示"
+	},
 	all = {
 		1,
 		2,
@@ -226,6 +235,7 @@ pg.settings_other_template = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	}
 }
