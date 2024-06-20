@@ -13149,7 +13149,6 @@ pg.base.expedition_data_by_map = {
 		name = "虹彩的终幕曲·上篇|| ||CHAPTER EX||E.X.",
 		bgm = "theme-highseasfleet",
 		type = 4,
-		anchor = "",
 		title = "EX",
 		drop_by_map_display = "",
 		level_limit = 1,
@@ -13159,7 +13158,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1640001",
 		ani_controller = "",
 		cloud_suffix = "",
-		on_activity = 4320,
+		on_activity = 5374,
 		ui_type = 1,
 		bg = "Map_1630001",
 		destory_icon_suffix = "blue",
@@ -13186,6 +13185,10 @@ pg.base.expedition_data_by_map = {
 				0,
 				-465
 			}
+		},
+		anchor = {
+			0.5,
+			0.5
 		}
 	},
 	[1640002] = {
@@ -13193,7 +13196,6 @@ pg.base.expedition_data_by_map = {
 		name = "虹彩的终幕曲·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "battle-highseasfleet-reborn",
 		type = 4,
-		anchor = "",
 		title = "EX",
 		drop_by_map_display = "",
 		level_limit = 1,
@@ -13203,7 +13205,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1640002",
 		ani_controller = "",
 		cloud_suffix = "",
-		on_activity = 4320,
+		on_activity = 5374,
 		ui_type = 1,
 		bg = "Map_1630002",
 		destory_icon_suffix = "blue",
@@ -13230,6 +13232,10 @@ pg.base.expedition_data_by_map = {
 				0,
 				-465
 			}
+		},
+		anchor = {
+			0.5,
+			0.5
 		}
 	},
 	[1640011] = {
@@ -13237,7 +13243,6 @@ pg.base.expedition_data_by_map = {
 		name = "虹彩的终幕曲·上篇|| ||CHAPTER EX||E.X.",
 		bgm = "theme-highseasfleet",
 		type = 5,
-		anchor = "",
 		title = "EX",
 		drop_by_map_display = "",
 		level_limit = 1,
@@ -13247,7 +13252,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1640003",
 		ani_controller = "",
 		cloud_suffix = "",
-		on_activity = 4320,
+		on_activity = 5374,
 		ui_type = 1,
 		bg = "Map_1630003",
 		destory_icon_suffix = "blue",
@@ -13274,6 +13279,10 @@ pg.base.expedition_data_by_map = {
 				0,
 				-465
 			}
+		},
+		anchor = {
+			0.5,
+			0.5
 		}
 	},
 	[1640012] = {
@@ -13281,7 +13290,6 @@ pg.base.expedition_data_by_map = {
 		name = "虹彩的终幕曲·下篇|| ||CHAPTER EX||E.X.",
 		bgm = "battle-highseasfleet-reborn",
 		type = 5,
-		anchor = "",
 		title = "EX",
 		drop_by_map_display = "",
 		level_limit = 1,
@@ -13291,7 +13299,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1640004",
 		ani_controller = "",
 		cloud_suffix = "",
-		on_activity = 4320,
+		on_activity = 5374,
 		ui_type = 1,
 		bg = "Map_1630004",
 		destory_icon_suffix = "blue",
@@ -13318,6 +13326,10 @@ pg.base.expedition_data_by_map = {
 				0,
 				-465
 			}
+		},
+		anchor = {
+			0.5,
+			0.5
 		}
 	},
 	[1640025] = {
@@ -13325,7 +13337,6 @@ pg.base.expedition_data_by_map = {
 		name = "虹彩的终幕曲·SP|| ||CHAPTER EX||E.X.",
 		bgm = "theme-frederick",
 		type = 8,
-		anchor = "",
 		title = "EX",
 		drop_by_map_display = "",
 		level_limit = 1,
@@ -13335,7 +13346,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1640004",
 		ani_controller = "",
 		cloud_suffix = "",
-		on_activity = 4320,
+		on_activity = 5374,
 		ui_type = 1,
 		bg = "Map_1630004",
 		destory_icon_suffix = "blue",
@@ -13362,6 +13373,10 @@ pg.base.expedition_data_by_map = {
 				0,
 				-465
 			}
+		},
+		anchor = {
+			0.5,
+			0.5
 		}
 	},
 	[1640026] = {
@@ -13369,7 +13384,6 @@ pg.base.expedition_data_by_map = {
 		name = "虹彩的终幕曲·EX|| ||CHAPTER EX||E.X.",
 		bgm = "theme-frederick",
 		type = 8,
-		anchor = "",
 		title = "EX",
 		drop_by_map_display = "",
 		level_limit = 1,
@@ -13379,7 +13393,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1640004",
 		ani_controller = "",
 		cloud_suffix = "",
-		on_activity = 4320,
+		on_activity = 5374,
 		ui_type = 1,
 		bg = "Map_1630004",
 		destory_icon_suffix = "blue",
@@ -13406,6 +13420,10 @@ pg.base.expedition_data_by_map = {
 				0,
 				-465
 			}
+		},
+		anchor = {
+			0.5,
+			0.5
 		}
 	},
 	[1650001] = {

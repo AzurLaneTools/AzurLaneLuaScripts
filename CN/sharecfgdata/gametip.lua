@@ -12342,7 +12342,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累计建造200次可获得海上传奇舰船 阿尔萨斯(最多4次)"
+	tip = "{namecode:448}、{namecode:461}等角色建造概率UP！"
 }
 
 

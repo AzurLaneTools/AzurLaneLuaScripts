@@ -274,7 +274,7 @@ slot0.Play = function(slot0, slot1, slot2, slot3)
 				return
 			end
 
-			uv0:RegisetEvent(slot0)
+			uv0:RegisetEvent(uv2, slot0)
 			uv0:TriggerEventIfAuto(uv3)
 		end,
 		function (slot0)
@@ -820,7 +820,7 @@ slot0.ClearMoveNodes = function(slot0, slot1)
 		if slot6:GetComponent(typeof(SpineAnimUI)) ~= nil then
 			PoolMgr.GetInstance():ReturnSpineChar(slot6.name, slot6.gameObject)
 		else
-			Object.Destroy(slot6.gameObject)
+			Destroy(slot6.gameObject)
 		end
 	end
 
@@ -966,7 +966,7 @@ slot0.setPaintingAlpha = function(slot0, slot1, slot2)
 	end
 end
 
-slot0.RegisetEvent = function(slot0, slot1)
+slot0.RegisetEvent = function(slot0, slot1, slot2)
 	setButtonEnabled(slot0._go, not slot0.autoNext)
 	onButton(slot0, slot0._go, function ()
 		if uv0.pause or uv0.stop then
@@ -1181,20 +1181,9 @@ end
 
 slot0.ClearEffectInterlayer = function(slot0, slot1)
 	if slot0.activeInterLayer == slot1 then
-		slot3 = slot0.frontTr:GetComponent(typeof(Canvas))
-		slot4 = slot0.frontTr:GetComponent(typeof(GraphicRaycaster))
-
-		if slot0.actorTr:GetComponent(typeof(Canvas)) then
-			Object.Destroy(slot2)
-		end
-
-		if slot4 then
-			Object.Destroy(slot4)
-		end
-
-		if slot3 then
-			Object.Destroy(slot3)
-		end
+		RemoveComponent(slot0.actorTr, "Canvas")
+		RemoveComponent(slot0.frontTr, "Canvas")
+		RemoveComponent(slot0.frontTr, "GraphicRaycaster")
 
 		slot0.activeInterLayer = nil
 	end

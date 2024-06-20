@@ -2,20 +2,44 @@ pg = pg or {}
 pg.activity_banner_notice = {
 	{
 		id = 1,
-		param = "3",
-		pic = "linshi",
-		type = 3
+		param = {
+			"scene court yard",
+			{
+				OpenShop = true
+			}
+		}
 	},
 	{
 		id = 2,
-		pic = "linshi",
-		type = 2,
 		param = {
-			"scene get boat"
+			"OTHERWORLD_MAP",
+			{
+				openTerminal = true,
+				terminalPage = 2
+			}
+		}
+	},
+	{
+		id = 3,
+		param = {
+			"scene get boat",
+			{
+				projectName = "new",
+				page = 1
+			}
+		}
+	},
+	{
+		id = 4,
+		param = {
+			"scene skinshop",
+			{}
 		}
 	},
 	all = {
 		1,
-		2
+		2,
+		3,
+		4
 	}
 }
