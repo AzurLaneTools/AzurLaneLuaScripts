@@ -1600,5 +1600,11 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "theme-yixian-soft-loop"
+	},
+	LongwuSkinPage = {
+		default_bgm = "story-richang-7",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-7"
 	}
 }

@@ -10117,6 +10117,63 @@ _G.pg.base.shop_template[60499] = {
 }
 
 
+_G.pg.base.shop_template[60508] = {
+	group_type = 0,
+	resource_num = 980,
+	type_order = 3,
+	type = 2,
+	desc = "980钻石购买限时礼包-比翼双飞（国服七周年第二弹版本）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	time_second = 0,
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 60508,
+	genre = "gift_package",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40100
+	},
+	time = {
+		{
+			{
+				2024,
+				6,
+				20
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				7,
+				3
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
 _G.pg.base.shop_template[61001] = {
 	group_type = 0,
 	resource_num = 200,
@@ -35679,7 +35736,7 @@ _G.pg.base.shop_template[70702] = {
 	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 250,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -35706,7 +35763,7 @@ _G.pg.base.shop_template[70703] = {
 	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 250,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -35733,7 +35790,7 @@ _G.pg.base.shop_template[70704] = {
 	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 250,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -35760,7 +35817,7 @@ _G.pg.base.shop_template[70705] = {
 	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 250,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -35787,7 +35844,7 @@ _G.pg.base.shop_template[70706] = {
 	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 250,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -35814,7 +35871,7 @@ _G.pg.base.shop_template[70707] = {
 	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 250,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -35841,7 +35898,7 @@ _G.pg.base.shop_template[70708] = {
 	tag = 0,
 	limit_args2 = "",
 	time_second = 0,
-	order = 250,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,

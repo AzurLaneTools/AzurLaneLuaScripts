@@ -327,6 +327,7 @@ pg.skill_data_template = setmetatable({
 		60570,
 		60580,
 		60590,
+		60600,
 		7000,
 		9030,
 		9031,
@@ -12136,6 +12137,20 @@ pg.base.skill_data_template = {
 		max_level = 0,
 		desc = "전투 중에 일정한 주기로 수수께끼의 소리를 내는 이상한 장치",
 		id = 60590,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60600] = {
+		desc_get = "",
+		name = "80mm 연장 98식 고각포",
+		type = 0,
+		max_level = 0,
+		desc = "선봉함대 중 사쿠라 엠파이어 함선이 장착하면, 포격이 5% 상승한다. 대공 공격을 실시한 경우, 3초 동안 해당 포격 상승 효과는 절반이 된다.",
+		id = 60600,
 		system_transform = {},
 		world_death_mark = {
 			1

@@ -1,6 +1,120 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_6 = {
+	[202311] = {
+		name = "메이드의 전투 체험",
+		id = 202311,
+		desc = "각하… 아니, 지금은 주인님이라고 불러야 하겠지요. 로열 메이드 벨로나, 주인님께 인사 올립니다. 어머, 그렇게 의외란 표정을 지으시다니… 나중에 설명해 드릴 테니 안심하시길.",
+		illustrator2 = -1,
+		ship_group = 20231,
+		group_index = 1,
+		prefab = "sizhannvshen_2",
+		painting = "sizhannvshen_2",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 17,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "150",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70698,
+		voice_actor = 319,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.25,
+					0.998,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.26,
+					1.013,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.34,
+					1.022,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.405,
+							2.441,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[202320] = {
 		name = "엔터프라이즈",
 		id = 202320,
@@ -9274,15 +9388,19 @@ pg.base.ship_skin_template_6 = {
 		time = "",
 		l2d_para_range = "",
 		lip_sync_gain = 0,
-		live2d_offset_profile = "",
 		show_skin = "stand",
 		tag = {
 			1,
 			2
 		},
 		live2d_offset = {
-			110,
+			0,
 			25,
+			0
+		},
+		live2d_offset_profile = {
+			76,
+			0,
 			0
 		},
 		fx_container = {
@@ -12838,174 +12956,6 @@ pg.base.ship_skin_template_6 = {
 					}
 				}
 			}
-		}
-	},
-	[206072] = {
-		name = "주각에 풍겨드는 봄 향기",
-		id = 206072,
-		desc = "손은 귓가에서 머리를 쓸어올리는 듯이 두고, 눈은 카메라를 바라보고…… 음… 촬영 모델도 쉽지만은 않네요… 지휘관, 이러면 될까요?",
-		illustrator2 = -1,
-		ship_group = 20607,
-		group_index = 2,
-		prefab = "aerbien_3",
-		painting = "aerbien_3",
-		hand_id = 1,
-		bgm = "",
-		shop_type_id = 3,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_drag_rate = "",
-		bg = "152",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70969,
-		voice_actor = 344,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		tag = {
-			1,
-			4
-		},
-		live2d_offset = {
-			92,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.08,
-					1.13,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.04,
-					1.13,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.2,
-					0.07,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.39,
-					1.35,
-					0
-				}
-			},
-			plane = {
-				{
-					1.42,
-					1.25,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.52,
-							2.21,
-							-0.55
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			use_event = true
-		},
-		ship_l2d_id = {
-			20607201,
-			20607202,
-			20607203,
-			20607204,
-			20607205,
-			20607206,
-			20607207,
-			20607208,
-			20607209,
-			20607210,
-			20607211,
-			20607212,
-			20607213,
-			20607214,
-			20607215,
-			20607216,
-			20607217,
-			20607218,
-			20607219,
-			20607220,
-			20607221,
-			20607222,
-			20607223,
-			20607224,
-			20607225,
-			20607226,
-			20607227,
-			20607228,
-			20607229,
-			20607230
 		}
 	}
 }

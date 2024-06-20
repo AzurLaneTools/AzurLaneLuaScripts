@@ -101,7 +101,7 @@ slot0.register = function(slot0)
 			skinId = slot2,
 			live2d = slot3,
 			tbId = slot4,
-			propose = uv0.viewComponent.bgView.propose
+			propose = slot1.propose
 		})
 	end)
 	slot0:bind(uv0.OPEN_MAIL, function (slot0)

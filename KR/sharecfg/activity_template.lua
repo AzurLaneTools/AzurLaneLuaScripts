@@ -22991,6 +22991,89 @@ pg.activity_template = {
 			}
 		}
 	},
+	[5364] = {
+		mark = 20240606,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 48,
+		title_res_tag = "longwuskin",
+		id = 5364,
+		config_data = {
+			{
+				20192,
+				20193
+			},
+			{
+				20194,
+				20195
+			},
+			{
+				20196,
+				20197
+			},
+			{
+				20198,
+				20199
+			},
+			{
+				20200,
+				20201
+			},
+			{
+				20202,
+				20203
+			},
+			{
+				20204,
+				20205
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					6,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					7,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "LongwuSkinPage",
+			ui_name = "LongwuSkinPage"
+		},
+		config_client = {
+			story = {
+				{
+					"YOURANBIHAIXING"
+				},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			}
+		}
+	},
 	[7004] = {
 		mark = 20220324,
 		type = 54,
@@ -31692,6 +31775,7 @@ pg.activity_template = {
 			5324,
 			5341,
 			5360,
+			5364,
 			6000,
 			6001,
 			6002,
@@ -33007,6 +33091,7 @@ pg.activity_template = {
 		5361,
 		5362,
 		5363,
+		5364,
 		7004,
 		7005,
 		7006,
