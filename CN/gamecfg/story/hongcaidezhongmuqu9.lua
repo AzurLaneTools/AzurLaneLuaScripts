@@ -472,7 +472,7 @@ return {
 			}
 		},
 		{
-			expression = 51,
+			expression = 1,
 			side = 2,
 			bgName = "bg_story_nepu2",
 			dir = 1,
