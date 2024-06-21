@@ -1113,7 +1113,7 @@ return {
 			side = 2,
 			bgName = "bg_endingsong_6",
 			dir = 1,
-			say = "But from between the gaps in their fingers, they witnessed a sight they would be able to forget––",
+			say = "But from between the gaps in their fingers, they witnessed a sight they would never be able to forget––",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
