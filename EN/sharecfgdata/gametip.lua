@@ -12799,7 +12799,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for Emden, Lützow, and more!"
+	tip = "Rate UP for Alvitr, Z47, and more!"
 }
 
 
@@ -34497,4 +34497,58 @@ _G.pg.base.gametip.unique_ship_tip2 = {
 
 _G.pg.base.gametip.lock_new_ship = {
 	tip = "Automatically lock new characters"
+}
+
+
+_G.pg.base.gametip.main_scene_settings = {
+	tip = "Idle Screen Settings"
+}
+
+
+_G.pg.base.gametip.settings_enable_standby_mode = {
+	tip = "Enable Idle Screen"
+}
+
+
+_G.pg.base.gametip.settings_time_system = {
+	tip = "Show Time on Idle Screen"
+}
+
+
+_G.pg.base.gametip.settings_flagship_interaction = {
+	tip = "Play Voice Lines on Idle Screen"
+}
+
+
+_G.pg.base.gametip.settings_enter_standby_mode_time = {
+	tip = "Automatic Idle Screen Activation"
+}
+
+
+_G.pg.base.gametip["202406_wenquan_unlock"] = {
+	tip = "Would you like to use $1 voucher(s)<icon name=59593 w=0.7 h=0.7/> and upgrade the building?"
+}
+
+
+_G.pg.base.gametip["202406_wenquan_unlock_tip2"] = {
+	tip = "Insufficient materials."
+}
+
+
+_G.pg.base.gametip["202406_main_help"] = {
+	tip = {
+		{
+			info = [[
+- Overview -
+The Welcome to Little Academy event is available from <color=#92fc63>June 27th to July 10th</color>!
+Complete missions, build your fleets, and clear the event stages to collect Colorful Doodles and earn rewards!
+
+· Tap the bottom left button to switch between story and operation modes.
+· In operation mode, build your fleets and take on the SP stage to receive Colorful Doodles. Accumulate these to earn rewards, including the Elite shipgirl <color=#92fc63>U-31</color> and the limited gear <color=#92fc63>533mm Improved Quadruple Magnetic Torpedo Mount</color>!
+· From the homework menu, you can view and claim rewards for any event missions you've accomplished.
+· Go to story mode to read the fun event story. Read it to the end to receive a special gear skin.
+· Head to the playground and position your shipgirls to let them recover their Morale more quickly.
+· Use little star construction vouchers to upgrade the event buildings.]]
+		}
+	}
 }

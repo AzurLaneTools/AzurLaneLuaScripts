@@ -137,6 +137,8 @@ slot0.SetVisible = function(slot0, slot1)
 		slot0.mainSpineAnim:SetActionCallBack(nil)
 
 		slot0.inAction = false
+		slot0.lockLayer = false
+		slot0.clickActionList = {}
 
 		if LeanTween.isTweening(go(slot0._tf)) then
 			LeanTween.cancel(go(slot0._tf))
@@ -146,6 +148,8 @@ slot0.SetVisible = function(slot0, slot1)
 			slot0._skeletonGraphic.material.shader = slot0._baseShader
 			slot0._baseShader = nil
 		end
+
+		slot0._displayWord = false
 	end
 
 	slot0:checkActionShow()
@@ -162,6 +166,10 @@ slot0.checkActionShow = function(slot0)
 
 			slot0:SetAction(slot0.idleName, 0)
 		end
+	else
+		slot0.idleName = slot0:getNormalName()
+
+		slot0:SetAction(slot0.idleName, 0)
 	end
 end
 
@@ -179,8 +187,10 @@ end
 
 slot0.DoDragClick = function(slot0)
 	if slot0:isDragClickShip() then
-		slot0:updateDragClick()
+		return slot0:updateDragClick()
 	end
+
+	return false
 end
 
 slot0.isDragClickShip = function(slot0)
@@ -192,8 +202,8 @@ slot0.isDragClickShip = function(slot0)
 end
 
 slot0.updateDragClick = function(slot0)
-	if slot0.inAction then
-		return
+	if slot0.inAction or slot0._displayWord then
+		return false
 	else
 		slot0.inAction = true
 	end
@@ -203,20 +213,28 @@ slot0.updateDragClick = function(slot0)
 		slot0.lockLayer = slot1.lock_layer
 
 		slot0:checkListAction()
+
+		return true
 	end
+
+	return false
 end
 
 slot0.checkListAction = function(slot0)
 	if #slot0.clickActionList > 0 then
-		slot0.lockLayer = clickData.lock_layer
-
 		slot0:SetActionWithFinishCallback(table.remove(slot0.clickActionList, 1), 0, function ()
 			uv0:checkListAction()
-		end)
-	elseif slot0.inAction then
+		end, true)
+	else
 		slot0.inAction = false
 		slot0.lockLayer = false
+
+		slot0:SetAction(slot0:getNormalName(), 0)
 	end
+end
+
+slot0.displayWord = function(slot0, slot1)
+	slot0._displayWord = slot1
 end
 
 slot0.DoDragTouch = function(slot0)
@@ -313,12 +331,12 @@ slot0.changeSpecialIdle = function(slot0, slot1)
 	slot0.inAction = false
 end
 
-slot0.SetAction = function(slot0, slot1, slot2)
+slot0.SetAction = function(slot0, slot1, slot2, slot3)
 	if slot0:getMultipFaceFlag() then
 		slot1 = slot0:getMultipFaceAction(slot1, slot2)
 	end
 
-	if slot0.lockLayer and slot2 ~= 0 then
+	if slot0.lockLayer and not slot3 then
 		return
 	end
 
@@ -330,8 +348,8 @@ slot0.SetAction = function(slot0, slot1, slot2)
 		slot1 = slot0.idleName
 	end
 
-	for slot6, slot7 in ipairs(slot0.spineAnimList) do
-		slot7:SetAction(slot1, slot2)
+	for slot7, slot8 in ipairs(slot0.spineAnimList) do
+		slot8:SetAction(slot1, slot2)
 	end
 end
 
@@ -339,12 +357,16 @@ slot0.isInAction = function(slot0)
 	return slot0.inAction
 end
 
-slot0.SetActionWithFinishCallback = function(slot0, slot1, slot2, slot3)
-	slot0:SetAction(slot1, slot2)
+slot0.SetActionWithFinishCallback = function(slot0, slot1, slot2, slot3, slot4)
+	slot0.inAction = true
+
+	slot0:SetAction(slot1, slot2, slot4)
 
 	if slot0.mainSpineAnim then
 		slot0.mainSpineAnim:SetActionCallBack(function (slot0)
 			if slot0 == "finish" and uv0 then
+				uv1.inAction = false
+
 				uv1.mainSpineAnim:SetActionCallBack(nil)
 				uv0()
 			end

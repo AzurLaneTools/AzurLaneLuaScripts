@@ -181516,6 +181516,784 @@ _G.pg.base.task_data_template[20243] = {
 }
 
 
+_G.pg.base.task_data_template[20301] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902653,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『亚尔薇特』多队出击挑战1",
+	desc = "Complete Arts Cluster - Hard using multiple fleets without a DD or DDG.",
+	sub_type = 107,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20301,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		{
+			1,
+			20,
+			21
+		},
+		2003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17023,
+			20
+		},
+		{
+			2,
+			42056,
+			1
+		},
+		{
+			2,
+			15008,
+			200
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[20302] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902654,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『亚尔薇特』多队出击挑战2",
+	desc = "Complete Arts Cluster - Hard using multiple fleets without a CL.",
+	sub_type = 107,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20302,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		{
+			2
+		},
+		2003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17033,
+			20
+		},
+		{
+			2,
+			42056,
+			1
+		},
+		{
+			2,
+			15008,
+			200
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[20303] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902655,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『亚尔薇特』多队出击挑战3",
+	desc = "Complete Arts Cluster - Hard using multiple fleets without a CA or CB.",
+	sub_type = 107,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20303,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		{
+			3,
+			18
+		},
+		2003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			20
+		},
+		{
+			2,
+			42056,
+			1
+		},
+		{
+			2,
+			15008,
+			200
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[20304] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902656,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『亚尔薇特』多队出击挑战4",
+	desc = "Complete Arts Cluster - Hard using multiple fleets without a CV or CVL.",
+	sub_type = 107,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20304,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		{
+			6,
+			7
+		},
+		2003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17043,
+			20
+		},
+		{
+			2,
+			42056,
+			2
+		},
+		{
+			2,
+			15012,
+			20
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[20305] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902657,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『亚尔薇特』多队出击挑战5",
+	desc = "Complete Arts Cluster - Hard using multiple fleets without a BB, BC, or BM.",
+	sub_type = 107,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20305,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		{
+			4,
+			5,
+			13
+		},
+		2003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17013,
+			20
+		},
+		{
+			2,
+			42056,
+			2
+		},
+		{
+			2,
+			15012,
+			20
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[20306] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902658,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『亚尔薇特』EX挑战",
+	desc = "Win a battle on EX difficulty.",
+	sub_type = 108,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20306,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[20307] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902577,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『亚尔薇特』登录送皮肤体验券活动",
+	desc = "Log in to the game.",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20307,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			417,
+			3
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20308] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902645,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『亚尔薇特』剧情送装备",
+	desc = "Read the entire event story.",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20308,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		6101
+	},
+	open_need = {},
+	award_display = {
+		{
+			9,
+			4019,
+			1
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN",
+		{
+			displayMode = 2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20309] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902646,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『亚尔薇特』-日常建造",
+	desc = "(Daily) Build 3 ships.",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20309,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			421,
+			300
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20310] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902647,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『亚尔薇特』-日常出击",
+	desc = "(Daily) Sortie and obtain 15 victories.",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20310,
+	target_num = 15,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			421,
+			300
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[20311] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902576,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『亚尔薇特』外观装备箱保底",
+	desc = "Open 20 Gear Skin Boxes (Little).",
+	sub_type = 52,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20311,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "30358",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30542,
+			1
+		}
+	},
+	scene = {
+		"SHOP",
+		{
+			warp = "shopstreet"
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20312] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902648,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『亚尔薇特』-日常困难本",
+	desc = "(Daily) Sortie and clear 1 non-event Hard Mode Stage.",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20312,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			421,
+			150
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20313] = {
+	target_id_2 = "5408",
+	guild_coin_award = 0,
+	award = 902649,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "累计PT达到5000点",
+	desc = "Collect 5,000 Colorful Doodles.",
+	sub_type = 1001,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20313,
+	target_num = 5000,
+	fix_task = 0,
+	target_id = "421",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			59593,
+			1
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[20314] = {
+	target_id_2 = "5408",
+	guild_coin_award = 0,
+	award = 902650,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "累计PT达到10000点",
+	desc = "Collect 10,000 Colorful Doodles.",
+	sub_type = 1001,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20314,
+	target_num = 10000,
+	fix_task = 0,
+	target_id = "421",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			59593,
+			1
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[20315] = {
+	target_id_2 = "5408",
+	guild_coin_award = 0,
+	award = 902651,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "累计PT达到15000点",
+	desc = "Collect 15,000 Colorful Doodles.",
+	sub_type = 1001,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20315,
+	target_num = 15000,
+	fix_task = 0,
+	target_id = "421",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			59593,
+			1
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[20316] = {
+	target_id_2 = "5408",
+	guild_coin_award = 0,
+	award = 902652,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "累计PT达到20000点",
+	desc = "Collect 20,000 Colorful Doodles.",
+	sub_type = 1001,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20316,
+	target_num = 20000,
+	fix_task = 0,
+	target_id = "421",
+	open_need = {},
+	award_display = {
+		{
+			5,
+			280,
+			1
+		},
+		{
+			8,
+			59593,
+			1
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
 _G.pg.base.task_data_template[31017] = {
 	target_id_2 = "",
 	guild_coin_award = 0,

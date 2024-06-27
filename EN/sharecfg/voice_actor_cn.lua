@@ -1572,6 +1572,10 @@ pg.voice_actor_CN = {
 		actor_name = "Marika",
 		code = 400
 	},
+	[401] = {
+		actor_name = "Nozomi Nishida",
+		code = 401
+	},
 	[402] = {
 		actor_name = "Emiri Iwai",
 		code = 402
@@ -1603,5 +1607,9 @@ pg.voice_actor_CN = {
 	[409] = {
 		actor_name = "Minami Kurisaka",
 		code = 409
+	},
+	[415] = {
+		actor_name = "Tomomi Jiena Sumi",
+		code = 415
 	}
 }

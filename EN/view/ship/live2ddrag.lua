@@ -4,6 +4,9 @@ slot1 = 4
 slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.live2dData = slot2
 	slot0.frameRate = Application.targetFrameRate or 60
+
+	print("drag id " .. slot1.id .. "初始化")
+
 	slot0.id = slot1.id
 	slot0.drawAbleName = slot1.draw_able_name or ""
 	slot0.parameterName = slot1.parameter
@@ -40,6 +43,10 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.actionTriggerActive = slot1.action_trigger_active
 	slot0.relationParameter = slot1.relation_parameter
 	slot0.limitTime = slot1.limit_time > 0 and slot1.limit_time or uv0
+	slot0.listenerData = slot1.listener_data
+	slot0.listenerType = slot0.listenerData.type
+	slot0.listenerChange = slot0.listenerData.change
+	slot0.listenerApply = slot0.listenerData.apply
 	slot0.reactCondition = slot1.react_condition and slot1.react_condition ~= "" and slot1.react_condition or {}
 	slot0.idleOn = slot0.reactCondition.idle_on and slot0.reactCondition.idle_on or {}
 	slot0.idleOff = slot0.reactCondition.idleOff and slot0.reactCondition.idleOff or {}
@@ -74,6 +81,94 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.reactConditionFlag = false
 end
 
+slot0.onListenerEvent = function(slot0, slot1, slot2)
+	if slot0.listenerType == slot1 then
+		slot3 = slot2.action
+		slot4 = slot2.values
+		slot5 = slot2.idle
+		slot6 = slot2.idle_change
+		slot7 = slot2.draw_able_name
+		slot8 = slot2.parameter_name
+		slot9 = false
+
+		if slot0.listenerChange and #slot0.listenerChange > 0 and slot0:getChangeCheckName(slot1, slot2) then
+			for slot14 = 1, #slot0.listenerChange do
+				slot15 = slot0.listenerChange[slot14]
+				slot16 = slot15[1]
+				slot18 = slot15[3]
+				slot19 = slot15[4]
+
+				if table.contains(slot15[2], slot10) then
+					slot20 = nil
+
+					if slot16 == 1 then
+						slot20 = slot0.parameterTargetValue + slot18
+					elseif slot16 == 2 then
+						slot20 = slot18
+					end
+
+					if slot20 then
+						slot9 = true
+						slot21 = slot0:fixParameterTargetValue(slot20, slot0.range, slot0.rangeAbs, slot0.dragDirect)
+
+						slot0:setTargetValue(slot21)
+						slot0:setParameterValue(slot21)
+						print("数值变更为" .. slot0.parameterTargetValue)
+					end
+
+					if slot19 and slot19 > 0 then
+						slot9 = true
+						slot0.actionListIndex = slot19
+					end
+				end
+			end
+		end
+
+		if slot0.listenerApply and #slot0.listenerApply > 0 then
+			slot11 = slot0.listenerApply[2]
+
+			if slot0.listenerApply[1] == 1 and slot9 then
+				slot12 = slot0.parameterTargetValue
+				slot13 = nil
+
+				for slot17 = 1, #slot11 do
+					if slot11[slot17][1] <= slot12 and slot12 < slot18[2] then
+						slot13 = slot18[3]
+					end
+				end
+
+				if slot13 then
+					slot0:onEventCallback(Live2D.EVENT_CHANGE_IDLE_INDEX, {
+						id = slot0.id,
+						idle = slot13,
+						activeData = slot0.actionTriggerActive
+					})
+				end
+			end
+		end
+	end
+end
+
+slot0.getChangeCheckName = function(slot0, slot1, slot2)
+	if slot1 == Live2D.ON_ACTION_PLAY then
+		return slot2.action
+	elseif slot1 == Live2D.ON_ACTION_DRAG_CLICK then
+		-- Nothing
+	elseif slot1 == Live2D.ON_ACTION_CHANGE_IDLE then
+		return slot2.idle
+	elseif slot1 == Live2D.ON_ACTION_PARAMETER then
+		-- Nothing
+	elseif slot1 == Live2D.ON_ACTION_DOWN then
+		-- Nothing
+	elseif slot1 == Live2D.ON_ACTION_XY_TRIGGER then
+		-- Nothing
+	elseif slot1 == Live2D.ON_ACTION_DRAG_TRIGGER then
+		-- Nothing
+	end
+
+	return nil
+end
+
 slot0.startDrag = function(slot0)
 	if slot0.ignoreAction and slot0.l2dIsPlaying then
 		return
@@ -81,6 +176,9 @@ slot0.startDrag = function(slot0)
 
 	if not slot0._active then
 		slot0._active = true
+
+		print("激活，id=" .. slot0.id)
+
 		slot0.mouseInputDown = Input.mousePosition
 		slot0.mouseInputDownTime = Time.time
 		slot0.triggerActionTime = 0
@@ -259,20 +357,23 @@ slot0.onEventCallback = function(slot0, slot1, slot2, slot3)
 		end
 
 		slot2 = {
-			function ()
-				uv0:actionApplyFinish()
-			end,
 			id = slot0.id,
 			action = slot5,
 			activeData = slot4,
 			focus = slot6,
-			react = slot8
+			react = slot8,
+			callback = slot3,
+			finishCall = function ()
+				uv0:actionApplyFinish()
+			end
 		}
 	elseif slot1 == Live2D.EVENT_ACTION_ABLE then
 		-- Nothing
+	elseif slot1 == Live2D.EVENT_CHANGE_IDLE_INDEX then
+		print("CHANGE idle")
 	end
 
-	slot0._eventCallback(slot1, slot2, slot3)
+	slot0._eventCallback(slot1, slot2)
 end
 
 slot0.fillterAction = function(slot0, slot1)
@@ -281,6 +382,20 @@ slot0.fillterAction = function(slot0, slot1)
 	else
 		return slot1
 	end
+end
+
+slot0.onEventNotice = function(slot0, slot1)
+	if slot0._eventCallback then
+		slot0._eventCallback(slot1, slot0:getCommonNoticeData())
+	end
+end
+
+slot0.getCommonNoticeData = function(slot0)
+	return {
+		draw_able_name = slot0.drawAbleName,
+		parameter_name = slot0.parameterName,
+		parameter_target = slot0.parameterTargetValue
+	}
 end
 
 slot0.setTargetValue = function(slot0, slot1)
@@ -489,14 +604,14 @@ slot0.updateRelationValue = function(slot0)
 			slot10 = false
 		end
 
-		slot5.value, slot5.parameterSmooth = Mathf.SmoothDamp(slot5.value or slot0.startValue, slot0:fixRelationParameter(slot9, slot6), slot5.parameterSmooth or 0, 0.1)
+		slot5.value, slot5.parameterSmooth = Mathf.SmoothDamp(slot5.value or slot0.startValue, slot0:fixRelationParameter(slot9, slot6), slot5.parameterSmooth or 0, slot6.smooth and slot6.smooth / 1000 or slot0.smooth)
 		slot5.enable = slot10
 		slot5.comId = slot0.id
 	end
 end
 
 slot0.fixRelationParameter = function(slot0, slot1, slot2)
-	return slot0:fixParameterTargetValue(slot1, slot2.range or slot0.range, slot2.rangeAbs and slot2.rangeAbs == 1 or slot0.rangeAbs, slot2.dragDirect and slot2.dragDirect or slot0.dragDirect)
+	return slot0:fixParameterTargetValue(slot1, slot2.range or slot0.range, slot2.rangeAbs and slot2.rangeAbs == 1 or slot0.rangeAbs, slot2.drag_direct and slot2.drag_direct or slot0.dragDirect)
 end
 
 slot0.fixParameterTargetValue = function(slot0, slot1, slot2, slot3, slot4)
@@ -608,7 +723,11 @@ slot0.updateTrigger = function(slot0)
 				slot0.triggerActionTime = slot0.triggerActionTime + Time.deltaTime
 
 				if slot3 < slot0.triggerActionTime and not slot0.l2dIsPlaying then
-					slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY)
+					slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY, {}, function (slot0)
+						if slot0 then
+							uv0:onEventNotice(Live2D.ON_ACTION_DRAG_TRIGGER)
+						end
+					end)
 				end
 			else
 				slot0.triggerActionTime = slot0.triggerActionTime + 0
@@ -616,7 +735,11 @@ slot0.updateTrigger = function(slot0)
 		end
 	elseif slot1 == Live2D.DRAG_CLICK_ACTION then
 		if slot0:checkClickAction() then
-			slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY)
+			slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY, {}, function (slot0)
+				if slot0 then
+					uv0:onEventNotice(Live2D.ON_ACTION_DRAG_CLICK)
+				end
+			end)
 		end
 	elseif slot1 == Live2D.DRAG_DOWN_ACTION then
 		if slot0._active then
@@ -635,7 +758,11 @@ slot0.updateTrigger = function(slot0)
 
 				slot0.ableFalg = false
 
-				slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY)
+				slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY, {}, function (slot0)
+					if slot0 then
+						uv0:onEventNotice(Live2D.ON_ACTION_DOWN)
+					end
+				end)
 
 				slot0.mouseInputDownTime = Time.time
 			end
@@ -656,7 +783,11 @@ slot0.updateTrigger = function(slot0)
 				slot0.triggerActionTime = slot0.triggerActionTime + Time.deltaTime
 
 				if slot3 < slot0.triggerActionTime and not slot0.l2dIsPlaying then
-					slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY)
+					slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY, {}, function (slot0)
+						if slot0 then
+							uv0:onEventNotice(Live2D.ON_ACTION_XY_TRIGGER)
+						end
+					end)
 				end
 			else
 				slot0.triggerActionTime = slot0.triggerActionTime + 0
@@ -670,8 +801,11 @@ slot0.updateTrigger = function(slot0)
 				end
 			end
 		end
-	elseif slot1 == Live2D.DRAG_CLICK_MANY and slot0:checkClickAction() then
-		print("id = " .. slot0.id .. "被按下了")
+	elseif slot1 == Live2D.DRAG_CLICK_MANY then
+		if slot0:checkClickAction() then
+			slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY)
+		end
+	elseif slot1 == Live2D.DRAG_LISTENER_EVENT and slot0._listenerTrigger then
 		slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY)
 	end
 end
@@ -797,6 +931,8 @@ end
 
 slot0.clearData = function(slot0)
 	if slot0.revert == -1 then
+		slot0.actionListIndex = 1
+
 		slot0:setParameterValue(slot0.startValue)
 		slot0:setTargetValue(slot0.startValue)
 	end

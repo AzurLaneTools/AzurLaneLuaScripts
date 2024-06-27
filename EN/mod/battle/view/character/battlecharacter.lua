@@ -1049,12 +1049,21 @@ slot6.SwitchModel = function(slot0, slot1, slot2)
 end
 
 slot6.AddOrbit = function(slot0, slot1, slot2)
-	slot3 = slot2.orbit_combat_bound[1]
 	slot4 = slot2.orbit_combat_bound[2]
+	slot5 = slot2.orbit_hidden_action
 	slot1.transform.localPosition = Vector3(slot4[1], slot4[2], slot4[3])
-	SpineAnim.AddFollower(slot3, slot0._tf, slot1.transform):GetComponent("Spine.Unity.BoneFollower").followBoneRotation = false
+	slot6 = SpineAnim.AddFollower(slot2.orbit_combat_bound[1], slot0._tf, slot1.transform):GetComponent("Spine.Unity.BoneFollower")
+
+	if slot2.orbit_rotate then
+		slot6.followBoneRotation = true
+		slot7 = slot1.transform.localEulerAngles
+		slot1.transform.localEulerAngles = Vector3(slot7.x, slot7.y, slot7.z - 90)
+	else
+		slot6.followBoneRotation = false
+	end
+
 	slot0._orbitList[slot1] = {
-		hiddenAction = slot2.orbit_hidden_action,
+		hiddenAction = slot5,
 		boundBone = slot3
 	}
 

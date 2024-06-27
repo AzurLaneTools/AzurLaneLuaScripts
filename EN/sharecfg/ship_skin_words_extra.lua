@@ -266,7 +266,11 @@ pg.ship_skin_words_extra = setmetatable({
 		803020,
 		901050,
 		901060,
-		405060
+		405060,
+		404060,
+		401470,
+		408130,
+		401430
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -18493,6 +18497,283 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"When I say that I'll accept all of you, that isn't just pretty words. Go on... Surrender all of yourself, everything, to me. I'll put you in the utmost place in my heart... Heeheehee..."
+			}
+		}
+	},
+	[404060] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 404060,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Welcome back. I have already put together an action plan for you based on your recent routines. Once you're ready, let's see it put into action."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Your time of return differs from the necessary time I calculated for your battle command... Did you think I would say that sincerely? Nice try. I got you a gift in return this time."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Hmm? Why'd I put an ice pack and wrist brace on the table? Well... You've blinked especially hard eleven times, and you rubbed your thumb joint seven times. These items can help relieve your troubles.|Your breathing frequency, blood flow, and heart rate are all rising to the point that you're shaking. I see, I'll go start the shower–Hm? That's not it? You're just realizing how much paperwork you have left to do...?|(My failed deduction led to me revealing my feelings first, but now that I think about it, I haven't properly confessed. What now, Alvitr? Do you put it all out there?)"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Yes, I'm right here."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"This is how you like to touch me, yes? Heh, I knew it."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Phew... Commander, I know I'm late saying this, but... Well, I love you very much. My love reaches to the end of eternity and Valhalla beyond... engraved firmly in the passage of time."
+			}
+		}
+	},
+	[401470] = {
+		feeling3 = "",
+		upgrade = "",
+		id = 401470,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Hey, look who's here. I'll put my phone down if you come and cuddle with me."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"I'm the MVP. I'm da best. Heehee."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Oh, Mandy! Yeah, I just dropped my phone to hug you. That's how much I missed you."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Hm? Heehee..."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"A nickname? I mean, I'm fine with whatever. Z47, Forse, sweetheart, GF... Call me whatever you want."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I, um, found this recipe online and gave it a shot... It's my first try, so I dunno if it's any good... W-wanna give it a taste?|Gee, I'd love to watch a movie! If only someone would ask me on a date! I might just put down my phone and say yes! *stares eagerly*...|Mandy, check this out. This here's our plans for today – ride a Ferris wheel, munch some marshmallows, and tour the amusement park while holding hands. Sure is a busy schedule, eh? Better set out as soon as we can!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Mgh... It might look like I'm always browsing, but truth be told, I'm always thinking about you."
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"Yo, commission team's back. I DM'd you about it, but since you check so rarely, I figured I'd notify you the old school way, too."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Missions, eh. Let's see what's left on the to-do list..."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"That feels sooo good, Mandy. I want more..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Heehee... I hope I'll see you in my dreams by sleeping with you, holding hands... That'll put me in an amazing mood tomorrow."
+			}
+		}
+	},
+	[408130] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 408130,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"*sniff sniff*... *sniff sniff*... Heheh. Once again, my odor is the only one I smell on you. Good to know you didn't get caught up in any \"risky\" business."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back, Commander. Go on and get comfortable. Don't worry, I'll make sure nobody interrupts me for– I mean, interrupts YOU for a while♪"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Heheh! Come closer if you wanna!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Hmm? Well, yeah, I'm clinging to you because I'm your bodyguard! If that makes it hard to walk, so be it! I've got to be ready to protect you from every which way♪|Commander, time for a surprise inspection! Let me check if your phone's been wiretapped. Alrighty... There, I set our selfie together as your wallpaper!|Heehee. I've already sent all those ne'er-do-wells packing. Use this opportunity to give me a biiig hug!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"What's up? Do you want a hug?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Eek! G-gosh, THAT was exciting..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Hey, which would you choose between plain milk and chocolate milk? It's gotta be chocolate milk, right? Ahah! Chocolate milk is just like me – titillating, multi-layered, and rich... Do you want a taste?"
+			}
+		}
+	},
+	[401430] = {
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 401430,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Comma–no, Augur of Destiny! Why are you always so late? It makes me so nervous that I can't even sleep in!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Heh heh heh... This is the power I gained from joining hands with the Augur of Destiny!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Augur of Destiny, sit down and rest! We got the couch nice and ready for you to relax! ...Who is \"we\"? Heheheh, my servants Delaman and Dulce, of course!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Heheheh... F-feels good, huh?!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Augur of Destiny, Delaman has taken a liking to you! Wanna put on an eyepatch with Delaman's essence in it? I made it myself, so it's extra cool!|You really don't find me strange... Huh? You actually like that? H-hmph! Because of your presence, I might just be able to reside in this world for a long time!|A-aaah, finally... Finally! Thanks to your patient teaching, I can finally check the rewards all by myself! Heheheh, leave it to me next time!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Heheheh, I feel the pulsing of magic!"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Heheh. Is this my reward for seeing my justice through? Then let's see what we've got! Uh... Oh, I don't get any of this... C-Commander, help!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"A-are you trying to make my magic overflow again...?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I know I say a lot of nonsense, and I often brag about my strength... Maybe I'm just trying to escape the fact that I'm powerless to change reality. But now... I won't ever let you go! And I won't let anything bad ever happen to you!"
 			}
 		}
 	}

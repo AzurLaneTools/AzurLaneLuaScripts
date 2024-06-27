@@ -1677,6 +1677,17 @@ pg.skill_data_display = setmetatable({
 		150090,
 		150091,
 		150121,
+		150140,
+		150141,
+		150150,
+		150151,
+		150152,
+		150180,
+		150181,
+		150190,
+		150191,
+		150201,
+		150202,
 		18010,
 		18040,
 		18041,
@@ -2065,6 +2076,8 @@ pg.skill_data_display = setmetatable({
 		23412,
 		23511,
 		23512,
+		23611,
+		23612,
 		24011,
 		24012,
 		24061,
@@ -3003,6 +3016,7 @@ pg.skill_data_display = setmetatable({
 		200897,
 		200933,
 		200958,
+		200964,
 		1011540,
 		1011541,
 		1090010,
@@ -9812,6 +9826,50 @@ pg.base.skill_data_display = {
 		id = 150121,
 		name = "Symphony Rehearsal"
 	},
+	[150140] = {
+		id = 150140,
+		name = "Muspel-Piercing Spear"
+	},
+	[150141] = {
+		id = 150141,
+		name = "Muspel-Piercing Spear"
+	},
+	[150150] = {
+		id = 150150,
+		name = "Rune of Omniscience"
+	},
+	[150151] = {
+		id = 150151,
+		name = "Rune of Omniscience"
+	},
+	[150152] = {
+		id = 150152,
+		name = "Rune of Omniscience"
+	},
+	[150180] = {
+		id = 150180,
+		name = "Eternal Demon-Eye"
+	},
+	[150181] = {
+		id = 150181,
+		name = "Eternal Demon-Eye"
+	},
+	[150190] = {
+		id = 150190,
+		name = "Rebel for Justice!"
+	},
+	[150191] = {
+		id = 150191,
+		name = "Rebel for Justice!"
+	},
+	[150201] = {
+		id = 150201,
+		name = "Danger From Below!"
+	},
+	[150202] = {
+		id = 150202,
+		name = "Danger From Below!"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -11362,6 +11420,14 @@ pg.base.skill_data_display = {
 	},
 	[23512] = {
 		id = 23512,
+		name = "All Out Assault Ⅱ"
+	},
+	[23611] = {
+		id = 23611,
+		name = "All Out Assault Ⅰ"
+	},
+	[23612] = {
+		id = 23612,
 		name = "All Out Assault Ⅱ"
 	},
 	[24011] = {
@@ -15115,6 +15181,10 @@ pg.base.skill_data_display = {
 	[200958] = {
 		id = 200958,
 		name = "Council-Style MK XIII Orbital Cannon"
+	},
+	[200964] = {
+		id = 200964,
+		name = "Metal Gauntlet Mash!"
 	},
 	[1011540] = {
 		id = 1011540,

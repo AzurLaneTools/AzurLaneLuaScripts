@@ -1981,7 +1981,8 @@ pg.fleet_tech_ship_class = {
 		nation = 4,
 		ships = {
 			40135,
-			40136
+			40136,
+			40143
 		}
 	},
 	[40105] = {
@@ -1992,7 +1993,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 117,
 		nation = 4,
 		ships = {
-			40146
+			40146,
+			40147
 		}
 	},
 	[40106] = {
@@ -2233,7 +2235,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 123,
 		nation = 4,
 		ships = {
-			40405
+			40405,
+			40406
 		}
 	},
 	[40501] = {
@@ -2398,6 +2401,17 @@ pg.fleet_tech_ship_class = {
 		nation = 4,
 		ships = {
 			40810
+		}
+	},
+	[40806] = {
+		shiptype = 8,
+		name = "Type VIIA",
+		t_level = 6,
+		id = 40806,
+		t_level_1 = 125,
+		nation = 4,
+		ships = {
+			40813
 		}
 	},
 	[41801] = {
@@ -3964,6 +3978,7 @@ pg.fleet_tech_ship_class = {
 		40803,
 		40804,
 		40805,
+		40806,
 		41801,
 		50101,
 		50102,

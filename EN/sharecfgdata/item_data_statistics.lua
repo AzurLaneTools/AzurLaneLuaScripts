@@ -23986,6 +23986,131 @@ _G.pg.base.item_data_statistics[30357] = {
 }
 
 
+_G.pg.base.item_data_statistics[30358] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Little)",
+	type = 11,
+	display = "Contains a random gear skin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxtongxin",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30358",
+	id = 30358,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4001,
+			1
+		},
+		{
+			9,
+			4002,
+			1
+		},
+		{
+			9,
+			4003,
+			1
+		},
+		{
+			9,
+			4004,
+			1
+		},
+		{
+			9,
+			4005,
+			1
+		},
+		{
+			9,
+			4006,
+			1
+		},
+		{
+			9,
+			4007,
+			1
+		},
+		{
+			9,
+			4008,
+			1
+		},
+		{
+			9,
+			4009,
+			1
+		},
+		{
+			9,
+			4010,
+			1
+		},
+		{
+			9,
+			4011,
+			1
+		},
+		{
+			9,
+			4012,
+			1
+		},
+		{
+			9,
+			4013,
+			1
+		},
+		{
+			9,
+			4014,
+			1
+		},
+		{
+			9,
+			4015,
+			1
+		},
+		{
+			9,
+			4016,
+			1
+		},
+		{
+			9,
+			4017,
+			1
+		},
+		{
+			9,
+			4018,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "Random Gear Skin Box",
@@ -33745,6 +33870,219 @@ _G.pg.base.item_data_statistics[30541] = {
 		{
 			9,
 			517,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_data_statistics[30542] = {
+	open_directly = 0,
+	name = "Gear Skin Box (Little)",
+	type = 13,
+	display = "Can be opened to receive 1 Little Academy gear skin of your choosing.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxtongxinzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30542,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4001,
+			1
+		},
+		{
+			9,
+			4002,
+			1
+		},
+		{
+			9,
+			4003,
+			1
+		},
+		{
+			9,
+			4004,
+			1
+		},
+		{
+			9,
+			4005,
+			1
+		},
+		{
+			9,
+			4006,
+			1
+		},
+		{
+			9,
+			4007,
+			1
+		},
+		{
+			9,
+			4008,
+			1
+		},
+		{
+			9,
+			4009,
+			1
+		},
+		{
+			9,
+			4010,
+			1
+		},
+		{
+			9,
+			4011,
+			1
+		},
+		{
+			9,
+			4012,
+			1
+		},
+		{
+			9,
+			4013,
+			1
+		},
+		{
+			9,
+			4014,
+			1
+		},
+		{
+			9,
+			4015,
+			1
+		},
+		{
+			9,
+			4016,
+			1
+		},
+		{
+			9,
+			4017,
+			1
+		},
+		{
+			9,
+			4018,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4001,
+			1
+		},
+		{
+			9,
+			4002,
+			1
+		},
+		{
+			9,
+			4003,
+			1
+		},
+		{
+			9,
+			4004,
+			1
+		},
+		{
+			9,
+			4005,
+			1
+		},
+		{
+			9,
+			4006,
+			1
+		},
+		{
+			9,
+			4007,
+			1
+		},
+		{
+			9,
+			4008,
+			1
+		},
+		{
+			9,
+			4009,
+			1
+		},
+		{
+			9,
+			4010,
+			1
+		},
+		{
+			9,
+			4011,
+			1
+		},
+		{
+			9,
+			4012,
+			1
+		},
+		{
+			9,
+			4013,
+			1
+		},
+		{
+			9,
+			4014,
+			1
+		},
+		{
+			9,
+			4015,
+			1
+		},
+		{
+			9,
+			4016,
+			1
+		},
+		{
+			9,
+			4017,
+			1
+		},
+		{
+			9,
+			4018,
 			1
 		}
 	}
@@ -91460,6 +91798,73 @@ _G.pg.base.item_data_statistics[81402] = {
 		{
 			2,
 			86402,
+			1
+		},
+		{
+			1,
+			14,
+			2024
+		},
+		{
+			2,
+			42056,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[81403] = {
+	open_directly = 1,
+	name = "School Time Lucky Bag",
+	type = 17,
+	display = "Contains 1x random skin, 2x Special General Blueprints - Series 6, 2024x Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai87",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998503",
+	id = 81403,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86403,
 			1
 		},
 		{

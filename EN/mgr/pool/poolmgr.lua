@@ -389,6 +389,17 @@ slot0.DelTempCache = function(slot0, slot1)
 	slot0.ui_tempCache[slot1] = nil
 end
 
+slot0.ClearAllTempCache = function(slot0)
+	for slot4, slot5 in pairs(slot0.ui_tempCache) do
+		if slot5 and slot0.pools_plural["ui/" .. slot4 .. slot4] then
+			uv0:ClearBundleRef(slot6, true, true)
+			slot0.pools_plural[slot7]:Clear()
+
+			slot0.pools_plural[slot7] = nil
+		end
+	end
+end
+
 slot0.PreloadPainting = function(slot0, slot1, slot2)
 	slot3 = {}
 
@@ -768,15 +779,21 @@ end
 slot0.FromObjPack = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	if not slot0.pools_pack[slot1] or not slot0.pools_pack[slot6]:Get(slot2) then
 		slot0:LoadAsset(slot1, slot2, slot3, slot4, function (slot0)
-			if not uv0.pools_pack[uv1] then
-				uv0.pools_pack[uv1] = uv2.New(uv3)
+			if slot0 == nil then
+				Debugger.LogError("can not find asset: " .. uv0 .. " : " .. uv1)
+
+				return
 			end
 
-			if not uv0.pools_pack[uv1]:Get(uv4) then
-				uv0.pools_pack[uv1]:Set(uv4, slot0)
+			if not uv2.pools_pack[uv3] then
+				uv2.pools_pack[uv3] = uv4.New(uv5)
 			end
 
-			uv5(slot0)
+			if not uv2.pools_pack[uv3]:Get(uv1) then
+				uv2.pools_pack[uv3]:Set(uv1, slot0)
+			end
+
+			uv6(slot0)
 		end, false)
 	else
 		slot5(slot0.pools_pack[slot6]:Get(slot2))

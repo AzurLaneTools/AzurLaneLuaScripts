@@ -87,7 +87,15 @@ slot0.AttachOrbit = function(slot0, slot1)
 					slot5 = SpineAnimUI.AddFollower(uv3[slot1][1], uv0.model.transform, slot4.transform)
 					slot4.transform.localScale = Vector3.one
 					uv0._attachmentList[slot5] = uv3.orbit_hidden_action
-					slot5:GetComponent("Spine.Unity.BoneFollowerGraphic").followBoneRotation = false
+					slot6 = slot5:GetComponent("Spine.Unity.BoneFollowerGraphic")
+
+					if uv3.orbit_rotate then
+						slot6.followBoneRotation = true
+						slot7 = slot4.transform.localEulerAngles
+						slot4.transform.localEulerAngles = Vector3(slot7.x, slot7.y, slot7.z - 90)
+					else
+						slot6.followBoneRotation = false
+					end
 
 					if uv3.orbit_ui_back == 1 then
 						slot5:SetParent(uv0.modelRoot.transform, false)

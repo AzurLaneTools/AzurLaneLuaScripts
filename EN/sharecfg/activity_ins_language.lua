@@ -5277,7 +5277,62 @@ pg.activity_ins_language = setmetatable({
 		"ins_op_478_1_1",
 		"op_reply_478_1_1",
 		"ins_op_478_1_2",
-		"op_reply_478_1_2"
+		"op_reply_478_1_2",
+		"ins_479",
+		"ins_discuss_479_1",
+		"ins_reply_479_1_1",
+		"ins_reply_479_1_2",
+		"ins_reply_479_1_3",
+		"ins_discuss_479_2",
+		"ins_reply_479_2_1",
+		"ins_reply_479_2_2",
+		"ins_discuss_479_3",
+		"ins_reply_479_3_1",
+		"ins_reply_479_3_2",
+		"ins_reply_479_3_3",
+		"ins_op_479_1_1",
+		"op_reply_479_1_1",
+		"ins_op_479_1_2",
+		"op_reply_479_1_2",
+		"ins_480",
+		"ins_discuss_480_1",
+		"ins_reply_480_1_1",
+		"ins_reply_480_1_2",
+		"ins_discuss_480_2",
+		"ins_reply_480_2_1",
+		"ins_reply_480_2_2",
+		"ins_discuss_480_3",
+		"ins_reply_480_3_1",
+		"ins_reply_480_3_2",
+		"ins_reply_480_3_3",
+		"ins_op_480_1_1",
+		"op_reply_480_1_1",
+		"ins_op_480_1_2",
+		"op_reply_480_1_2",
+		"ins_481",
+		"ins_discuss_481_1",
+		"ins_reply_481_1_1",
+		"ins_reply_481_1_2",
+		"ins_discuss_481_2",
+		"ins_reply_481_2_1",
+		"ins_reply_481_2_2",
+		"ins_op_481_1_1",
+		"op_reply_481_1_1",
+		"ins_op_481_1_2",
+		"op_reply_481_1_2",
+		"ins_482",
+		"ins_discuss_482_1",
+		"ins_reply_482_1_1",
+		"ins_reply_482_1_2",
+		"ins_reply_482_1_3",
+		"ins_reply_482_1_4",
+		"ins_discuss_482_2",
+		"ins_reply_482_2_1",
+		"ins_reply_482_2_2",
+		"ins_op_482_1_1",
+		"op_reply_482_1_1",
+		"ins_op_482_1_2",
+		"op_reply_482_1_2"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -20634,480 +20689,645 @@ pg.base.activity_ins_language = {
 		value = "Um... You too!"
 	},
 	ins_466 = {
-		value = ""
+		value = "Been working hard all day so it's time for a break!"
 	},
 	ins_discuss_466_1 = {
-		value = ""
+		value = "Working? Judging by your progress, I think you've just been gaming all day."
 	},
 	ins_reply_466_1_1 = {
-		value = ""
+		value = "That's cause I'm a speedrunner. I make progress fast."
 	},
 	ins_reply_466_1_2 = {
-		value = ""
+		value = "How do you speedrun a game you've never played before?"
 	},
 	ins_reply_466_1_3 = {
-		value = ""
+		value = "I can teach you how, young padawan."
 	},
 	ins_discuss_466_2 = {
-		value = ""
+		value = "girl keeps a whole stash of chips and coke at her job wtf"
 	},
 	ins_reply_466_2_1 = {
-		value = ""
+		value = "Gamer fuel is my lifeblood! I need them!"
 	},
 	ins_reply_466_2_2 = {
-		value = ""
+		value = "Mmm... Crisps and coke..."
 	},
 	ins_reply_466_2_3 = {
-		value = ""
+		value = "ruh roh here come the pirates"
 	},
 	ins_op_466_1_1 = {
-		value = ""
+		value = "You've earned it. Do you want to game later tonight?"
 	},
 	op_reply_466_1_1 = {
-		value = ""
+		value = "DO I? Heck yeah! Hop on Shelldivers!"
 	},
 	ins_op_466_1_2 = {
-		value = ""
+		value = "Working hard, or hardly working?"
 	},
 	op_reply_466_1_2 = {
-		value = ""
+		value = "A bit of column A, a bit of column B!"
 	},
 	ins_467 = {
-		value = ""
+		value = "Emden has been keeping a cruise diary and recorded some observations on a certain passenger."
 	},
 	ins_discuss_467_1 = {
-		value = ""
+		value = "Ooh are you keeping tabs on the commander? Lemme have a looksie at what you've got!"
 	},
 	ins_reply_467_1_1 = {
-		value = ""
+		value = "Yes, but the diary also contains our schedule. I'm afraid I can't let you have it."
 	},
 	ins_reply_467_1_2 = {
-		value = ""
+		value = "Awww!"
 	},
 	ins_discuss_467_2 = {
-		value = ""
+		value = "A treasure trove of info about the Commander! Dangit I wish I'd thought of that first!"
 	},
 	ins_reply_467_2_1 = {
-		value = ""
+		value = "Yes, I suppose it is a treasure trove, in that sense. \"This treasure is Emden's. No one else may have it.\""
 	},
 	ins_op_467_1_1 = {
-		value = ""
+		value = "How did you... learn about these \"observations\"?"
 	},
 	op_reply_467_1_1 = {
-		value = ""
+		value = "That's a secret between us. \"If you're truly curious, plead and beg and Emden shall tell you.\""
 	},
 	ins_op_467_1_2 = {
-		value = ""
+		value = "I feel like I've been made into a zoo animal..."
 	},
 	op_reply_467_1_2 = {
-		value = ""
+		value = "You already are an animal, human. Please make it easy for us both and accept it."
 	},
 	ins_468 = {
-		value = ""
+		value = "This new liquid coolant is excellent. It rapidly cools down one's emotion module and its texture appeals to one's taste module."
 	},
 	ins_discuss_468_1 = {
-		value = ""
+		value = "Gascogne seeks to replicate recipe."
 	},
 	ins_reply_468_1_1 = {
-		value = ""
+		value = "Encrypting secret recipe... done. Sending data packet now."
 	},
 	ins_reply_468_1_2 = {
-		value = ""
+		value = "Composition analyzed. The ratio of lime juice to other ingredients is extremely high."
 	},
 	ins_discuss_468_2 = {
-		value = ""
+		value = "A tempting color, an irresistible aroma – like the enchanting nectar of a witch."
 	},
 	ins_reply_468_2_1 = {
-		value = ""
+		value = "That sounds like something the Commander would say... Oh no. That makes my emotion module tingle!"
 	},
 	ins_op_468_1_1 = {
-		value = ""
+		value = "Wow! You're a real mixologist."
 	},
 	op_reply_468_1_1 = {
-		value = ""
+		value = "You flatter me... This one is just, you know, capable of many things!"
 	},
 	ins_op_468_1_2 = {
-		value = ""
+		value = "Can I have some?"
 	},
 	op_reply_468_1_2 = {
-		value = ""
+		value = "Axmfnswhwnjdf sorry I mean sure! I'll pour you a glass after I PICK UP THE PIECES OF MY EMOTION MODULE AAAA"
 	},
 	ins_469 = {
-		value = ""
+		value = "Such a beautiful backdrop deserves a eulogy."
 	},
 	ins_discuss_469_1 = {
-		value = ""
+		value = "A violinic melody in the moonlit night stirs the soul so."
 	},
 	ins_reply_469_1_1 = {
-		value = ""
+		value = "The tale the melody tells, too, flows forth under the moon's light."
 	},
 	ins_discuss_469_2 = {
-		value = ""
+		value = "Visibility looks good! This would be perfect weather for a mission."
 	},
 	ins_reply_469_2_1 = {
-		value = ""
+		value = "Echoes linger, but silence surrounds. This place is paradise."
 	},
 	ins_op_469_1_1 = {
-		value = ""
+		value = "The night is beautiful, and so are you."
 	},
 	op_reply_469_1_1 = {
-		value = ""
+		value = "Thank you for the kind words, Swordbearer."
 	},
 	ins_op_469_1_2 = {
-		value = ""
+		value = "I want to hear one of your songs!"
 	},
 	op_reply_469_1_2 = {
-		value = ""
+		value = "I'd be happy to oblige. Which song would you like?"
 	},
 	ins_470 = {
-		value = ""
+		value = "Watch this! I'm gonna deal you a hand with ~*magic*~!"
 	},
 	ins_discuss_470_1 = {
-		value = ""
+		value = "I admire you Fleur. You can do all these cool things I never could..."
 	},
 	ins_reply_470_1_1 = {
-		value = ""
+		value = "Hey, don't be sad. Everyone is good at SOMETHING!"
 	},
 	ins_discuss_470_2 = {
-		value = ""
+		value = "Sounds like a movie I saw this one time. I think it was called High Stakes No Breaks?"
 	},
 	ins_reply_470_2_1 = {
-		value = ""
+		value = "Yeah I know that one! Good taste."
 	},
 	ins_op_470_1_1 = {
-		value = ""
+		value = "Cards and magic always have been a potent combination."
 	},
 	op_reply_470_1_1 = {
-		value = ""
+		value = "They sure are. Attracts all kinds of people, from gamblers to people looking to be amazed."
 	},
 	ins_op_470_1_2 = {
-		value = ""
+		value = "I do NOT want to catch you cheating with your magic!"
 	},
 	op_reply_470_1_2 = {
-		value = ""
+		value = "Slander! I'd never cheat and get caught doing it!"
 	},
 	ins_471 = {
-		value = ""
+		value = "I'm sorry about the mess... I'll start cleaning up right away!"
 	},
 	ins_discuss_471_1 = {
-		value = ""
+		value = "Geesh that IS a real mess! Don't worry tho, I'll come help you out!"
 	},
 	ins_reply_471_1_1 = {
-		value = ""
+		value = "Oh you really shouldn't! It's my fault so I should clean it up..."
 	},
 	ins_discuss_471_2 = {
-		value = ""
+		value = "Did you trip? Because I just did... The cruise ship is rocking a lot. You're not hurt, are you?"
 	},
 	ins_reply_471_2_1 = {
-		value = ""
+		value = "Just a little lightheaded... I think I might be seasick."
 	},
 	ins_reply_471_2_2 = {
-		value = ""
+		value = "Wait, shipgirls can get seasick? Is this official lore now?"
 	},
 	ins_reply_471_2_3 = {
-		value = ""
+		value = "There Ikazuchi goes again, talking about esoteric things..."
 	},
 	ins_op_471_1_1 = {
-		value = ""
+		value = "Let me give you a hand. Also, watch out for glass shards."
 	},
 	op_reply_471_1_1 = {
-		value = ""
+		value = "Oh gosh... Thank you so much Commander. I hope it's not too much..."
 	},
 	ins_op_471_1_2 = {
-		value = ""
+		value = "Don't beat yourself up. It's the cruise ship's fault for rocking."
 	},
 	op_reply_471_1_2 = {
-		value = ""
+		value = "Thanks for reassuring me... I'll try to be less hard on myself."
 	},
 	ins_472 = {
-		value = ""
+		value = "For the next 3 days, I'll pay for ALL the drinks and food at all the restaurants! Get out there and have your fill y'all!"
 	},
 	ins_discuss_472_1 = {
-		value = ""
+		value = "woohoo! you bet i'm gonna have my fill and then some!"
 	},
 	ins_reply_472_1_1 = {
-		value = ""
+		value = "Knock yourself out. And if there's any leftovers, feel free to pack em up and bring em back home!"
 	},
 	ins_discuss_472_2 = {
-		value = ""
+		value = "Oh hell yeah. Come to the bar and let's get wasted!"
 	},
 	ins_reply_472_2_1 = {
-		value = ""
+		value = "And find out who holds their liquor better? I'm in!"
 	},
 	ins_discuss_472_3 = {
-		value = ""
+		value = "god dayum i emptied my whole stock today! bless up for your generosity gurl"
 	},
 	ins_reply_472_3_1 = {
-		value = ""
+		value = "Anytime! I'm glad as long as everyone else is glad. Especially the Commander!"
 	},
 	ins_op_472_1_1 = {
-		value = ""
+		value = "Thanks for footing the bill, chief! You're a legend."
 	},
 	op_reply_472_1_1 = {
-		value = ""
+		value = "No prob! All's well in the world when every belly's full."
 	},
 	ins_op_472_1_2 = {
-		value = ""
+		value = "It's time to awaken... the black hole in my stomach!"
 	},
 	op_reply_472_1_2 = {
-		value = ""
+		value = "We'll fill that black hole yet!"
 	},
 	ins_473 = {
-		value = ""
+		value = "Well well... I might have found a hidden area in the cruise ship."
 	},
 	ins_discuss_473_1 = {
-		value = ""
+		value = "Ooh! This warrants exploration!"
 	},
 	ins_reply_473_1_1 = {
-		value = ""
+		value = "Yes buuut first I need to find a way inside."
 	},
 	ins_reply_473_1_2 = {
-		value = ""
+		value = "You're talking to the master of finding a way in! The first thing you should look for is"
 	},
 	ins_reply_473_1_3 = {
-		value = ""
+		value = "Ruh-roh, An Shan is knocking on my door. I'll tell you another time!"
 	},
 	ins_discuss_473_2 = {
-		value = ""
+		value = "This smells of dark secrets to me!"
 	},
 	ins_reply_473_2_1 = {
-		value = ""
+		value = "Yeah I DO smell something secret coming from inside..."
 	},
 	ins_reply_473_2_2 = {
-		value = ""
+		value = "I must know what! Stay put and I'll be right there!"
 	},
 	ins_op_473_1_1 = {
-		value = ""
+		value = "Where are you even? I've never seen this place."
 	},
 	op_reply_473_1_1 = {
-		value = ""
+		value = "Even you don't know what it is? Then I should DEFINITELY have a look around."
 	},
 	ins_op_473_1_2 = {
-		value = ""
+		value = "Try not to get lost... You know what? I'll come there to pick you up."
 	},
 	op_reply_473_1_2 = {
-		value = ""
+		value = "Oh geez the Commander is coming to pick me up! Don't you worry, I'll sit tight like a good girl does <3"
 	},
 	ins_474 = {
-		value = ""
+		value = "It seems that my Master cannot be without my ever-present service!"
 	},
 	ins_discuss_474_1 = {
-		value = ""
+		value = "Exemplary work. This is precisely the kind of elegance and etiquette expected of a Royal Maid."
 	},
 	ins_reply_474_1_1 = {
-		value = ""
+		value = "Thank you for your kind words, Head Maid. I am honoured."
 	},
 	ins_reply_474_1_2 = {
-		value = ""
+		value = "My, look at those eggs – fried to perfection! Master will love them."
 	},
 	ins_reply_474_1_3 = {
-		value = ""
+		value = "Yes, I counted the seconds while frying to ensure they suit my Master's tastes. I don't believe you get any better than my fried eggs."
 	},
 	ins_discuss_474_2 = {
-		value = ""
+		value = "You've made breakfast and poured coffee, now would you mind leaving?"
 	},
 	ins_reply_474_2_1 = {
-		value = ""
+		value = "I'm afraid I cannot. My Master needs my service."
 	},
 	ins_reply_474_2_2 = {
-		value = ""
+		value = "Nobody NEEDS your service like it's oxygen. Plus, you're not even wearing a maid uniform!"
 	},
 	ins_reply_474_2_3 = {
-		value = ""
+		value = "It isn't the uniform that makes a maid, it's her service. As long as I'm serving my Master, I am doing my job as a maid."
 	},
 	ins_op_474_1_1 = {
-		value = ""
+		value = "Thanks for the grub, Scylla."
 	},
 	op_reply_474_1_1 = {
-		value = ""
+		value = "No need to thank me. I know you cannot get by without me. Now, open wide, please!"
 	},
 	ins_op_474_1_2 = {
-		value = ""
+		value = "Breakfast on the bed? Don't mind if I do!"
 	},
 	op_reply_474_1_2 = {
-		value = ""
+		value = "Surely you're not thinking of eating it yourself, are you? Allow me to feed you, Master. Open wide, please!"
 	},
 	ins_475 = {
-		value = ""
+		value = "Hooo boy... I'm dizzy..."
 	},
 	ins_discuss_475_1 = {
-		value = ""
+		value = "Hi dizzy, I'm sleepy."
 	},
 	ins_reply_475_1_1 = {
-		value = ""
+		value = "Hey... I told you to invite Tashkent to our pajama party Laffey! Why isn't she here?"
 	},
 	ins_reply_475_1_2 = {
-		value = ""
+		value = "I got so sleepy I forgot. I'm going to bed now, night night."
 	},
 	ins_reply_475_1_3 = {
-		value = ""
+		value = "For the love of... Hey Tashkent, do you want to attend our pajama party?"
 	},
 	ins_reply_475_1_4 = {
-		value = ""
+		value = "Oh... let me think about it."
 	},
 	ins_discuss_475_2 = {
-		value = ""
+		value = "sheesh you got a fine outfit girl. careful so it dont get wrinkled!"
 	},
 	ins_reply_475_2_1 = {
-		value = ""
+		value = "Thanks but I like relaxing too much to care."
 	},
 	ins_reply_475_2_2 = {
-		value = ""
+		value = "then you oughta try my wrinkle remover spray. it works like magic, no cap!"
 	},
 	ins_reply_475_2_3 = {
-		value = ""
+		value = "Now Owari's advertising in the replies? I'd just gotten used to Akashi doing that! (~_~;)"
 	},
 	ins_discuss_475_3 = {
-		value = ""
+		value = "If you wanna make the most of this vacay you should come up and play some games."
 	},
 	ins_reply_475_3_1 = {
-		value = ""
+		value = "Is that so? Challenge accepted."
 	},
 	ins_reply_475_3_2 = {
-		value = ""
+		value = "Attagirl! Show me what you got!"
 	},
 	ins_op_475_1_1 = {
-		value = ""
+		value = "Do you still have energy in you for a few more games?"
 	},
 	op_reply_475_1_1 = {
-		value = ""
+		value = "Sure... if you'll play, dear comrade."
 	},
 	ins_op_475_1_2 = {
-		value = ""
+		value = "On my way to the arcade now."
 	},
 	op_reply_475_1_2 = {
-		value = ""
+		value = "I'll reserve a spot for you... the game is starting soon."
 	},
 	ins_476 = {
-		value = ""
+		value = "Behold my MAGIC fireworks!!! (*>ω<*)"
 	},
 	ins_discuss_476_1 = {
-		value = ""
+		value = "Whoooa! Imagine how it'd look if you had ten times the fireworks!"
 	},
 	ins_reply_476_1_1 = {
-		value = ""
+		value = "Then I bet my owner could see it from anywhere in the world!"
 	},
 	ins_reply_476_1_2 = {
-		value = ""
+		value = "Ooh that gives me an idea. A BIG idea, heheh..."
 	},
 	ins_discuss_476_2 = {
-		value = ""
+		value = "I'm surprised by how good it looks. Can the fireworks be shot from a cannon?"
 	},
 	ins_reply_476_2_1 = {
-		value = ""
+		value = "I put all my love into it so of course it looks good! Hmm I think if you modify the fireworks a bit then you could."
 	},
 	ins_reply_476_2_2 = {
-		value = ""
+		value = "Modify them? Understood. I'll give that a try."
 	},
 	ins_reply_476_2_3 = {
-		value = ""
+		value = "Sheffield, what are you planning?"
 	},
 	ins_discuss_476_3 = {
-		value = ""
+		value = "Oh man that's beautiful. You gonna do a full fireworks show?"
 	},
 	ins_reply_476_3_1 = {
-		value = ""
+		value = "Nuh! This is a special surprise magic trick I made just for my owner :3"
 	},
 	ins_reply_476_3_2 = {
-		value = ""
+		value = "You know I could use a big showoffy trick like this to surprise the Commander with..."
 	},
 	ins_reply_476_3_3 = {
-		value = ""
+		value = "I'll teach you how to do it!"
 	},
 	ins_op_476_1_1 = {
-		value = ""
+		value = "Greatest magic show of all time! Full stop!"
 	},
 	op_reply_476_1_1 = {
-		value = ""
+		value = "Yay! I'm so happy you love it!! Come here so I can glomp you owner :3"
 	},
 	ins_op_476_1_2 = {
-		value = ""
+		value = "I wish I was there to see them with you."
 	},
 	op_reply_476_1_2 = {
-		value = ""
+		value = "That can be arranged! An encore for you, owner!"
 	},
 	ins_477 = {
-		value = ""
+		value = "The wolf of the tundras never misses her mark."
 	},
 	ins_discuss_477_1 = {
-		value = ""
+		value = "Impressive! You shot the ball right in from such a steep angle!"
 	},
 	ins_reply_477_1_1 = {
-		value = ""
+		value = "Hey now, you're not half bad yourself. You scored that last ball on the first shot."
 	},
 	ins_reply_477_1_2 = {
-		value = ""
+		value = "That's my sister for you. I want in on this."
 	},
 	ins_reply_477_1_3 = {
-		value = ""
+		value = "The table's about to get mighty crowded, I feel..."
 	},
 	ins_discuss_477_2 = {
-		value = ""
+		value = "Kursk! Play a match with me!"
 	},
 	ins_reply_477_2_1 = {
-		value = ""
+		value = "You're on. Don't expect me to go easy on you."
 	},
 	ins_discuss_477_3 = {
-		value = ""
+		value = "The warming up has finished. Now let us see who'll be first to seize victory."
 	},
 	ins_reply_477_3_1 = {
-		value = ""
+		value = "A hunter is a hunter even at the pool table. Let's find out who's best."
 	},
 	ins_op_477_1_1 = {
-		value = ""
+		value = "What's next? Going to clear the whole table with one shot?"
 	},
 	op_reply_477_1_1 = {
-		value = ""
+		value = "Winning just like that is no fun. I like to let my prey wander a bit first."
 	},
 	ins_op_477_1_2 = {
-		value = ""
+		value = "Looks like you've got a lot of people challenging you."
 	},
 	op_reply_477_1_2 = {
-		value = ""
+		value = "And I never shy away from a challenge. Think you can take me on too?"
 	},
 	ins_478 = {
-		value = ""
+		value = "In the waters, I grasped it – the very sensation of holding a sword."
 	},
 	ins_discuss_478_1 = {
-		value = ""
+		value = "How are you content with not holding a real sword? Know you some secret that I do not?"
 	},
 	ins_reply_478_1_1 = {
-		value = ""
+		value = "Simply believe that there is a sword in your hands."
 	},
 	ins_reply_478_1_2 = {
-		value = ""
+		value = "I CAAAN'T! I NEED MY SWORD! I NEED IT!"
 	},
 	ins_discuss_478_2 = {
-		value = ""
+		value = "Is this what is meant by, \"it isn't the blade that matters, but the hand that holds it\"? The path of bushido is a long one."
 	},
 	ins_reply_478_2_1 = {
-		value = ""
+		value = "The path of the sword never ends. The strong must ever look forward."
 	},
 	ins_reply_478_2_2 = {
-		value = ""
+		value = "What you say is true."
 	},
 	ins_discuss_478_3 = {
-		value = ""
+		value = "I wonder if drinking hot milk after the bath is what gave you this insight."
 	},
 	ins_reply_478_3_1 = {
-		value = ""
+		value = "While I did indeed have milk, it was in fact my warrior's intuition that gave me this."
 	},
 	ins_reply_478_3_2 = {
-		value = ""
+		value = "So you HAVE learned the appeal of milk after a bath. Finally!"
 	},
 	ins_reply_478_3_3 = {
-		value = ""
+		value = "Enough about the milk already..."
 	},
 	ins_op_478_1_1 = {
-		value = ""
+		value = "So... you've learned a new skill?"
 	},
 	op_reply_478_1_1 = {
-		value = ""
+		value = "I've learned something you yourself should try. You may learn something unexpected from it."
 	},
 	ins_op_478_1_2 = {
-		value = ""
+		value = "Sounds like a case of manifesting your spirit as a sword."
 	},
 	op_reply_478_1_2 = {
+		value = "I've never heard of such a thing before, though it is an interesting concept."
+	},
+	ins_479 = {
+		value = ""
+	},
+	ins_discuss_479_1 = {
+		value = ""
+	},
+	ins_reply_479_1_1 = {
+		value = ""
+	},
+	ins_reply_479_1_2 = {
+		value = ""
+	},
+	ins_reply_479_1_3 = {
+		value = ""
+	},
+	ins_discuss_479_2 = {
+		value = ""
+	},
+	ins_reply_479_2_1 = {
+		value = ""
+	},
+	ins_reply_479_2_2 = {
+		value = ""
+	},
+	ins_discuss_479_3 = {
+		value = ""
+	},
+	ins_reply_479_3_1 = {
+		value = ""
+	},
+	ins_reply_479_3_2 = {
+		value = ""
+	},
+	ins_reply_479_3_3 = {
+		value = ""
+	},
+	ins_op_479_1_1 = {
+		value = ""
+	},
+	op_reply_479_1_1 = {
+		value = ""
+	},
+	ins_op_479_1_2 = {
+		value = ""
+	},
+	op_reply_479_1_2 = {
+		value = ""
+	},
+	ins_480 = {
+		value = ""
+	},
+	ins_discuss_480_1 = {
+		value = ""
+	},
+	ins_reply_480_1_1 = {
+		value = ""
+	},
+	ins_reply_480_1_2 = {
+		value = ""
+	},
+	ins_discuss_480_2 = {
+		value = ""
+	},
+	ins_reply_480_2_1 = {
+		value = ""
+	},
+	ins_reply_480_2_2 = {
+		value = ""
+	},
+	ins_discuss_480_3 = {
+		value = ""
+	},
+	ins_reply_480_3_1 = {
+		value = ""
+	},
+	ins_reply_480_3_2 = {
+		value = ""
+	},
+	ins_reply_480_3_3 = {
+		value = ""
+	},
+	ins_op_480_1_1 = {
+		value = ""
+	},
+	op_reply_480_1_1 = {
+		value = ""
+	},
+	ins_op_480_1_2 = {
+		value = ""
+	},
+	op_reply_480_1_2 = {
+		value = ""
+	},
+	ins_481 = {
+		value = ""
+	},
+	ins_discuss_481_1 = {
+		value = ""
+	},
+	ins_reply_481_1_1 = {
+		value = ""
+	},
+	ins_reply_481_1_2 = {
+		value = ""
+	},
+	ins_discuss_481_2 = {
+		value = ""
+	},
+	ins_reply_481_2_1 = {
+		value = ""
+	},
+	ins_reply_481_2_2 = {
+		value = ""
+	},
+	ins_op_481_1_1 = {
+		value = ""
+	},
+	op_reply_481_1_1 = {
+		value = ""
+	},
+	ins_op_481_1_2 = {
+		value = ""
+	},
+	op_reply_481_1_2 = {
+		value = ""
+	},
+	ins_482 = {
+		value = ""
+	},
+	ins_discuss_482_1 = {
+		value = ""
+	},
+	ins_reply_482_1_1 = {
+		value = ""
+	},
+	ins_reply_482_1_2 = {
+		value = ""
+	},
+	ins_reply_482_1_3 = {
+		value = ""
+	},
+	ins_reply_482_1_4 = {
+		value = ""
+	},
+	ins_discuss_482_2 = {
+		value = ""
+	},
+	ins_reply_482_2_1 = {
+		value = ""
+	},
+	ins_reply_482_2_2 = {
+		value = ""
+	},
+	ins_op_482_1_1 = {
+		value = ""
+	},
+	op_reply_482_1_1 = {
+		value = ""
+	},
+	ins_op_482_1_2 = {
+		value = ""
+	},
+	op_reply_482_1_2 = {
 		value = ""
 	}
 }

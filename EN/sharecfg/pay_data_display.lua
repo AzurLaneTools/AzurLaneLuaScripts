@@ -141,7 +141,8 @@ pg.pay_data_display = setmetatable({
 		145,
 		146,
 		147,
-		148
+		148,
+		149
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -13539,6 +13540,119 @@ pg.base.pay_data_display = {
 			{
 				2,
 				81402,
+				1
+			}
+		}
+	},
+	[149] = {
+		extra_service = 3,
+		limit_group = 0,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		first_pay_double = 0,
+		name_display = "School Time Lucky Bag",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "School Time Lucky Bag",
+		limit_arg = 1,
+		money = 2999,
+		tag = 2,
+		name = "School Time Lucky Bag",
+		gem = 0,
+		type_order = 2,
+		limit_type = 2,
+		picture = "fudai87",
+		skin_inquire_relation = 86403,
+		id_str = "com.yostaren.azurlane.luckybag35",
+		extra_gem = 0,
+		id = 149,
+		airijp_id = "com.yostaren.azurlane.luckybag35",
+		extra_service_item = {
+			{
+				2,
+				86403,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					6,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					7,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86403,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81403,
 				1
 			}
 		}

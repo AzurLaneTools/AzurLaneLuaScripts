@@ -14,41 +14,16 @@ changdaoActivityId = 10006
 changdaoTaskStartId = 5031
 
 slot0.register = function(slot0)
+	slot0.data = {}
+	slot0.finishData = {}
+	slot0.tmpInfo = {}
+
 	slot0:on(20001, function (slot0)
-		uv0.data = {}
-		uv0.finishData = {}
-		uv0.tmpInfo = {}
-
-		for slot4, slot5 in ipairs(slot0.info) do
-			if Task.New(slot5):getConfigTable() ~= nil then
-				slot6:display("loaded")
-
-				if slot6:getTaskStatus() ~= 2 then
-					uv0.data[slot6.id] = slot6
-				else
-					uv0.finishData[slot6.id] = slot6
-				end
-			else
-				pg.TipsMgr.GetInstance():ShowTips(i18n("task_notfound_error") .. tostring(slot5.id))
-				Debugger.LogWarning("Missing Task Config, id :" .. tostring(slot5.id))
-			end
-		end
-
+		uv0:initTaskInfo(slot0.info)
 		getProxy(TechnologyProxy):updateBlueprintStates()
 	end)
 	slot0:on(20002, function (slot0)
-		for slot4, slot5 in ipairs(slot0.info) do
-			if uv0.data[slot5.id] ~= nil then
-				slot6.progress = slot5.progress
-
-				uv0:updateTask(slot6)
-
-				if not slot6:isFinish() then
-					uv0:sendNotification(uv1.TASK_PROGRESS_UPDATE, slot6:clone())
-				end
-			end
-		end
-
+		uv0:updateProgress(slot0.info)
 		uv0:sendNotification(GAME.TASK_PROGRESS_UPDATE)
 	end)
 	slot0:on(20003, function (slot0)
@@ -110,6 +85,85 @@ slot0.register = function(slot0)
 	end)
 
 	slot0.submittingTask = {}
+end
+
+slot0.initTaskInfo = function(slot0, slot1, slot2)
+	for slot6, slot7 in ipairs(slot1) do
+		if Task.New(slot7):getConfigTable() ~= nil then
+			slot8:display("loaded")
+
+			if slot8:getTaskStatus() ~= 2 then
+				slot0.data[slot8.id] = slot8
+			else
+				slot0.finishData[slot8.id] = slot8
+			end
+
+			slot8:setActId(slot2)
+		else
+			pg.TipsMgr.GetInstance():ShowTips(i18n("task_notfound_error") .. tostring(slot7.id))
+			Debugger.LogWarning("Missing Task Config, id :" .. tostring(slot7.id))
+		end
+	end
+end
+
+slot0.updateProgress = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot1) do
+		print("任务id" .. slot6.id .. "更新")
+
+		if slot0.data[slot6.id] ~= nil then
+			slot7.progress = slot6.progress
+
+			slot0:updateTask(slot7)
+
+			if not slot7:isFinish() then
+				slot0:sendNotification(uv0.TASK_PROGRESS_UPDATE, slot7:clone())
+			end
+		end
+	end
+end
+
+slot0.initActData = function(slot0, slot1, slot2)
+	slot0:initTaskInfo(slot2, slot1)
+end
+
+slot0.updateActProgress = function(slot0, slot1, slot2)
+	slot0:updateProgress(slot2)
+end
+
+slot0.addActData = function(slot0, slot1, slot2)
+	for slot6, slot7 in ipairs(slot2) do
+		slot8 = Task.New(slot7)
+
+		slot8:setActId(slot1)
+		slot0:addTask(slot8)
+	end
+end
+
+slot0.removeActData = function(slot0, slot1, slot2)
+	for slot6, slot7 in ipairs(slot2) do
+		slot0:removeTaskById(slot7.id)
+	end
+end
+
+slot0.clearTimeOut = function(slot0)
+	if not slot0.datas or #slot0.datas == 0 then
+		return
+	end
+
+	slot1 = false
+	slot2 = {}
+
+	for slot6 = #slot0.datas, 1, -1 do
+		if slot0.datas[slot6]:isActivityTask() and (not getProxy(ActivityProxy):getActivityById(slot7:getActId()) or slot9:isEnd()) then
+			table.insert(slot2, slot7)
+
+			slot1 = true
+		end
+	end
+
+	for slot6 = 1, #slot2 do
+		slot0:removeTask(slot2[slot6])
+	end
 end
 
 slot0.GetWeekTaskProgressInfo = function(slot0)

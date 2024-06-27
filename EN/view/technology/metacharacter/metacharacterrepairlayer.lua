@@ -22,7 +22,7 @@ end
 slot0.didEnter = function(slot0)
 	slot0:doRepairProgressPanelAni()
 	slot0:updateAttrListPanel()
-	slot0:updateRepairBtn(true)
+	slot0:updateRepairBtn()
 	slot0:updateDetailPanel()
 	slot0:TryPlayGuide()
 end

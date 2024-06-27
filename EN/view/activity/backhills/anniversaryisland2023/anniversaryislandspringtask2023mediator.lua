@@ -6,7 +6,7 @@ slot0.SHOW_SUBMIT_WINDOW = "AnniversaryIslandSpringTask2023Mediator:SHOW_SUBMIT_
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.SUBMIT_TASK, function (slot0, slot1)
-		uv0:sendNotification(GAME.AVATAR_FRAME_AWARD, {
+		uv0:sendNotification(GAME.SUBMIT_ACTIVITY_TASK, {
 			act_id = slot1.actId,
 			task_ids = {
 				slot1.id
@@ -41,7 +41,7 @@ end
 slot0.listNotificationInterests = function(slot0)
 	return {
 		AnniversaryIslandSpringTask2023Mediator.SUBMIT_TASK,
-		GAME.SUBMIT_AVATAR_TASK_DONE,
+		GAME.SUBMIT_ACTIVITY_TASK_DONE,
 		ActivityProxy.ACTIVITY_UPDATED
 	}
 end
@@ -51,7 +51,7 @@ slot0.handleNotification = function(slot0, slot1)
 
 	if slot1:getName() == AnniversaryIslandSpringTask2023Mediator.SUBMIT_TASK then
 		slot0.viewComponent:emit(AnniversaryIslandSpringTask2023Mediator.SUBMIT_TASK, slot3)
-	elseif slot2 == GAME.SUBMIT_AVATAR_TASK_DONE then
+	elseif slot2 == GAME.SUBMIT_ACTIVITY_TASK_DONE then
 		slot4 = slot0.viewComponent
 
 		slot4:emit(BaseUI.ON_ACHIEVE, slot3.awards, function ()
