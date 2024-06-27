@@ -333,11 +333,369 @@ pg.activity_series_enemy = {
 			0.8
 		}
 	},
+	[2001] = {
+		oil = 0,
+		name = "理性办公楼",
+		type = 1,
+		pre_chapter = 0,
+		chapter_name = "简单",
+		pos_x = "0.10703125",
+		pos_y = "0.157291667",
+		count = 0,
+		ex_count = "",
+		additional_awards_display = "",
+		profiles = [[
+「欢迎来到理性办公楼。」
+「愿你在这里度过便捷高效的一天。」
+「愿你不为光阴所扰。」
+「愿童心永驻。」]],
+		whether_singlefight = 0,
+		id = 2001,
+		limitation = {},
+		expedition_id = {
+			1819101
+		},
+		boss_icon = {
+			{
+				"youeryuan_boss05",
+				5
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				421,
+				1
+			},
+			{
+				2,
+				200174,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			},
+			{
+				2,
+				54012,
+				1
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	},
+	[2002] = {
+		oil = 0,
+		name = "童心教学楼",
+		type = 1,
+		pre_chapter = 2001,
+		chapter_name = "普通",
+		pos_x = "0.34609375",
+		pos_y = "0.347916667",
+		count = 0,
+		ex_count = "",
+		profiles = [[
+「欢迎来到童心教学楼。」
+「愿你在这里度过无忧无虑的一天。」
+「愿你畅游知识海洋。」
+「愿童心永驻。」]],
+		whether_singlefight = 1,
+		id = 2002,
+		limitation = {},
+		expedition_id = {
+			1819201,
+			1819202
+		},
+		boss_icon = {
+			{
+				"youeryuan_boss05",
+				5
+			},
+			{
+				"youeryuan_boss03",
+				7
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				421,
+				1
+			},
+			{
+				2,
+				200175,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			},
+			{
+				2,
+				54017,
+				1
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				421,
+				1
+			},
+			{
+				1,
+				1,
+				1
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	},
+	[2003] = {
+		oil = 0,
+		name = "童趣艺术楼",
+		type = 1,
+		pre_chapter = 2002,
+		chapter_name = "困难",
+		pos_x = "0.50546875",
+		pos_y = "0.080208333",
+		count = 0,
+		ex_count = "",
+		profiles = [[
+「欢迎来到童趣艺体楼。」
+「愿你在这里度过丰富多彩的一天。」
+「愿你坚持心中所向。」
+「愿童心永驻。」]],
+		whether_singlefight = 1,
+		id = 2003,
+		limitation = {},
+		expedition_id = {
+			1819301,
+			1819302,
+			1819303
+		},
+		boss_icon = {
+			{
+				"youeryuan_boss05",
+				5
+			},
+			{
+				"youeryuan_boss03",
+				7
+			},
+			{
+				"youeryuan_boss04",
+				3
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				421,
+				1
+			},
+			{
+				2,
+				200176,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			},
+			{
+				2,
+				54017,
+				1
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				421,
+				1
+			},
+			{
+				1,
+				1,
+				1
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			25,
+			16
+		}
+	},
+	[2004] = {
+		oil = 0,
+		name = "健康活力操场",
+		type = 2,
+		pre_chapter = 2003,
+		chapter_name = "SP",
+		pos_x = "0.60546875",
+		pos_y = "0.446875",
+		count = 1,
+		ex_count = "",
+		profiles = [[
+「欢迎来到健康活力操场。」
+「愿你在这里度过朝气蓬勃的一天。」
+「愿你活力满满」
+「愿童心永驻。」]],
+		whether_singlefight = 0,
+		id = 2004,
+		limitation = {},
+		expedition_id = {
+			1819401,
+			1819402,
+			1819403,
+			1819404
+		},
+		boss_icon = {
+			{
+				"youeryuan_boss05",
+				5
+			},
+			{
+				"youeryuan_boss03",
+				7
+			},
+			{
+				"youeryuan_boss04",
+				3
+			},
+			{
+				"youeryuan_boss01",
+				1
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				421,
+				1
+			},
+			{
+				2,
+				200177,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			},
+			{
+				2,
+				54016,
+				1
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				421,
+				1
+			},
+			{
+				1,
+				1,
+				1
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			40,
+			16
+		}
+	},
+	[2005] = {
+		oil = 0,
+		name = "童真森林",
+		type = 3,
+		pre_chapter = 2004,
+		chapter_name = "EX",
+		pos_x = "0.6265625",
+		pos_y = "0.15625",
+		count = 0,
+		additional_awards_display = "",
+		profiles = [[
+「欢迎来到童真森林。」
+「愿你在这里度过自由美好的一天。」
+「愿你亲近自然。」
+「愿童心永驻。」]],
+		pass_awards_display = "",
+		whether_singlefight = 0,
+		id = 2005,
+		limitation = {},
+		expedition_id = {
+			1819501,
+			1819502,
+			1819503,
+			1819504,
+			1819505
+		},
+		boss_icon = {
+			{
+				"youeryuan_boss05",
+				5
+			},
+			{
+				"youeryuan_boss03",
+				7
+			},
+			{
+				"youeryuan_boss04",
+				3
+			},
+			{
+				"youeryuan_boss01",
+				1
+			},
+			{
+				"youeryuan_boss02",
+				2
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		},
+		ex_count = {
+			8000,
+			20,
+			0.2,
+			1000,
+			0.8
+		}
+	},
 	all = {
 		1001,
 		1002,
 		1003,
 		1004,
-		1005
+		1005,
+		2001,
+		2002,
+		2003,
+		2004,
+		2005
 	}
 }

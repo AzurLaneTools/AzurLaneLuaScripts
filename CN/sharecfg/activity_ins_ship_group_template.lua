@@ -2455,6 +2455,46 @@ pg.activity_ins_ship_group_template = {
 		name = "Seattle",
 		sculpture = "xiyatu"
 	},
+	[40406] = {
+		ship_group = 40406,
+		name = "Hervör alvitr",
+		sculpture = "yaerweite_2"
+	},
+	[40147] = {
+		ship_group = 40147,
+		name = "☆WildeKatze47☆",
+		sculpture = "z47"
+	},
+	[40813] = {
+		ship_group = 40813,
+		name = "Unbeschwert31",
+		sculpture = "u31"
+	},
+	[40143] = {
+		ship_group = 40143,
+		name = "Z·DEVIL·43",
+		sculpture = "z43"
+	},
+	[10219] = {
+		ship_group = 10219,
+		name = "HelenaSG@little",
+		sculpture = "hailunna_younv"
+	},
+	[10221] = {
+		ship_group = 10221,
+		name = "NO1Sandiego!@little",
+		sculpture = "shengdiyage_younv"
+	},
+	[40702] = {
+		ship_group = 40702,
+		name = "TrägerZeppelin@little",
+		sculpture = "qibolin_younv"
+	},
+	[10220] = {
+		ship_group = 10220,
+		name = "Cleveland☆Knight@little",
+		sculpture = "kelifulan_younv"
+	},
 	all = {
 		30701,
 		30702,
@@ -2946,6 +2986,14 @@ pg.activity_ins_ship_group_template = {
 		90106,
 		90107,
 		20120,
-		19901
+		19901,
+		40406,
+		40147,
+		40813,
+		40143,
+		10219,
+		10221,
+		40702,
+		10220
 	}
 }

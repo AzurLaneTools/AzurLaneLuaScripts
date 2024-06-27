@@ -561,6 +561,66 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[15016] = {
+		id = 15016,
+		name = "角色用/技能用AI - U-31向前随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = 33,
+					z = 0
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 5,
+				param = {
+					stopCount = 90,
+					Z2 = -15,
+					moveCount = 240,
+					Z1 = 15,
+					duration = -1,
+					X1 = -10,
+					X2 = 10
+				}
+			}
+		}
+	},
+	[15017] = {
+		id = 15017,
+		name = "角色用/技能用AI - U-31撤后随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = -33,
+					z = 0
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 5,
+				param = {
+					stopCount = 90,
+					Z2 = -15,
+					moveCount = 240,
+					Z1 = 15,
+					duration = -1,
+					X1 = -10,
+					X2 = 10
+				}
+			}
+		}
+	},
 	[20001] = {
 		id = 20001,
 		name = "蛋船固定移动ai-23",
@@ -10333,6 +10393,36 @@ pg.auto_pilot_template = {
 				type = 0,
 				param = {
 					duration = 2
+				}
+			}
+		}
+	},
+	[70263] = {
+		id = 70263,
+		name = "2024幼儿园活动 剧情战我方潜艇",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = 45,
+					z = 0
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 5,
+				param = {
+					stopCount = 90,
+					Z2 = -15,
+					moveCount = 240,
+					Z1 = 15,
+					duration = -1,
+					X1 = -10,
+					X2 = 10
 				}
 			}
 		}

@@ -48,6 +48,22 @@ slot0.execute = function(slot0, slot1)
 		return
 	end
 
+	if slot8:isActivityTask() then
+		pg.m02:sendNotification(GAME.SUBMIT_ACTIVITY_TASK, {
+			act_id = slot8:getActId(),
+			task_ids = {
+				slot4
+			},
+			callback = function (slot0, slot1)
+				if slot0 and uv0 then
+					uv0(slot0)
+				end
+			end
+		})
+
+		return
+	end
+
 	if slot6:isSubmitting(slot4) then
 		return
 	else
@@ -82,41 +98,11 @@ slot0.execute = function(slot0, slot1)
 			uv0:removeSubmittingTask(uv1)
 
 			if slot0.result == 0 then
-				if uv2:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_ITEM then
-					getProxy(BagProxy):removeItemById(tonumber(tonumber(uv2:getConfig("target_id"))), tonumber(uv2:getConfig("target_num")))
-				elseif uv2:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_VIRTUAL_ITEM then
-					getProxy(ActivityProxy):removeVitemById(tonumber(uv2:getConfig("target_id")), uv2:getConfig("target_num"))
-				elseif uv2:getConfig("sub_type") == TASK_SUB_TYPE_PLAYER_RES then
-					slot3 = getProxy(PlayerProxy)
-					slot4 = slot3:getData()
-
-					slot4:consume({
-						[id2res(tonumber(uv2:getConfig("target_id")))] = uv2:getConfig("target_num")
-					})
-					slot3:updatePlayer(slot4)
-				end
-
-				uv3.AddGuildLivness(uv2)
-
 				slot1 = PlayerConst.addTranDrop(slot0.award_list, {
 					taskId = uv2.id
 				})
 
-				if uv2:getConfig("type") == Task.TYPE_REFLUX then
-					getProxy(RefluxProxy):addPtAfterSubTasks({
-						uv2
-					})
-				end
-
-				if uv2:getConfig("type") ~= 8 then
-					uv0:removeTask(uv2)
-				else
-					uv2.submitTime = 1
-
-					uv0:updateTask(uv2)
-				end
-
-				if not uv4 then
+				if not uv3 then
 					for slot5 = #slot1, 1, -1 do
 						if slot1[slot5].type == DROP_TYPE_VITEM then
 							table.remove(slot1, slot5)
@@ -124,26 +110,62 @@ slot0.execute = function(slot0, slot1)
 					end
 				end
 
-				uv5:sendNotification(GAME.SUBMIT_TASK_DONE, slot1, {
+				pg.m02:sendNotification(GAME.SUBMIT_TASK_DONE, slot1, {
 					uv2.id
 				})
-
-				if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST_MONITOR) and not slot3:isEnd() and table.contains(slot3:getConfig("config_data")[1] or {}, uv2.id) then
-					slot2:monitorTaskList(slot3)
-				end
-
-				if uv6 then
-					uv6(true)
-				end
+				uv4.OnSubmitSuccess(uv2, uv5)
 			else
 				pg.TipsMgr.GetInstance():ShowTips(errorTip("task_submitTask", slot0.result))
 
-				if uv6 then
-					uv6(false)
+				if uv5 then
+					uv5(false)
 				end
 			end
 		end)
 	end)
+end
+
+slot0.OnSubmitSuccess = function(slot0, slot1)
+	uv0.CheckTaskSub(slot0)
+	uv0.AddGuildLivness(slot0)
+	uv0.CheckTaskType(slot0)
+	uv0.UpdateActivity(slot0)
+
+	if slot1 then
+		slot1(true)
+	end
+end
+
+slot0.CheckTaskSub = function(slot0)
+	if slot0:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_ITEM then
+		getProxy(BagProxy):removeItemById(tonumber(tonumber(slot0:getConfig("target_id"))), tonumber(slot0:getConfig("target_num")))
+	elseif slot0:getConfig("sub_type") == TASK_SUB_TYPE_GIVE_VIRTUAL_ITEM then
+		getProxy(ActivityProxy):removeVitemById(tonumber(slot0:getConfig("target_id")), slot0:getConfig("target_num"))
+	elseif slot0:getConfig("sub_type") == TASK_SUB_TYPE_PLAYER_RES then
+		slot3 = getProxy(PlayerProxy)
+		slot4 = slot3:getData()
+
+		slot4:consume({
+			[id2res(tonumber(slot0:getConfig("target_id")))] = slot0:getConfig("target_num")
+		})
+		slot3:updatePlayer(slot4)
+	end
+end
+
+slot0.CheckTaskType = function(slot0)
+	if slot0:getConfig("type") == Task.TYPE_REFLUX then
+		getProxy(RefluxProxy):addPtAfterSubTasks({
+			slot0
+		})
+	end
+
+	if slot0:getConfig("type") ~= 8 then
+		getProxy(TaskProxy):removeTask(slot0)
+	else
+		slot0.submitTime = 1
+
+		getProxy(TaskProxy):updateTask(slot0)
+	end
 end
 
 slot0.AddGuildLivness = function(slot0)
@@ -174,6 +196,12 @@ slot0.AddGuildLivness = function(slot0)
 		if slot4 then
 			slot1:updateGuild(slot2)
 		end
+	end
+end
+
+slot0.UpdateActivity = function(slot0)
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST_MONITOR) and not slot2:isEnd() and table.contains(slot2:getConfig("config_data")[1] or {}, slot0.id) then
+		slot1:monitorTaskList(slot2)
 	end
 end
 

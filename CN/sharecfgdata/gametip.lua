@@ -12342,7 +12342,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "{namecode:448}、{namecode:461}等角色建造概率UP！"
+	tip = "亚尔薇特、{namecode:494}等角色建造概率UP！"
 }
 
 
@@ -34000,4 +34000,53 @@ _G.pg.base.gametip.unique_ship_tip2 = {
 
 _G.pg.base.gametip.lock_new_ship = {
 	tip = "自动锁定新获得角色"
+}
+
+
+_G.pg.base.gametip.main_scene_settings = {
+	tip = "待机模式设置"
+}
+
+
+_G.pg.base.gametip.settings_enable_standby_mode = {
+	tip = "启用待机模式"
+}
+
+
+_G.pg.base.gametip.settings_time_system = {
+	tip = "待机显示时间制"
+}
+
+
+_G.pg.base.gametip.settings_flagship_interaction = {
+	tip = "秘书舰主动互动"
+}
+
+
+_G.pg.base.gametip.settings_enter_standby_mode_time = {
+	tip = "进入待机模式所需时间"
+}
+
+
+_G.pg.base.gametip["202406_wenquan_unlock"] = {
+	tip = "是否消耗$1小星星奖励券<icon name=59593 w=0.7 h=0.7/>扩展童心乐园"
+}
+
+
+_G.pg.base.gametip["202406_wenquan_unlock_tip2"] = {
+	tip = "资源不足，无法解锁~"
+}
+
+
+_G.pg.base.gametip["202406_main_help"] = {
+	tip = {
+		{
+			info = [[
+活动规则：
+·<color=#92fc63>6.27-7.11维护</color>期间开启限时活动「欢迎来到童心学院」
+·指挥官可以通过学院冒险-作战模式累计「彩色涂鸦画」，获得角色<color=#92fc63>「{namecode:537}」</color>、装备<color=#92fc63>「四联装533mm磁性鱼雷改」</color>等奖励
+·通过学院冒险-剧情模式可获得限定纪念外观
+·可于童心乐园中放入角色，加快心情回复，童心乐园扩建道具可于活动任务中获取]]
+		}
+	}
 }

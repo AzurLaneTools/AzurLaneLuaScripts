@@ -2723,6 +2723,20 @@ pg.name_code = {
 		code = "小腓德雷卡",
 		nation = 0
 	},
+	[536] = {
+		name = "U-31",
+		type = 1,
+		id = 536,
+		code = "优咪伊",
+		nation = 0
+	},
+	[537] = {
+		name = "Z43",
+		type = 1,
+		id = 537,
+		code = "希咪",
+		nation = 0
+	},
 	[10000] = {
 		name = "零战五二型",
 		type = 2,

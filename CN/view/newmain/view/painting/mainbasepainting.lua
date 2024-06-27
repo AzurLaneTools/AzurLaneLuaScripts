@@ -45,6 +45,8 @@ slot0.Load = function(slot0, slot1)
 
 		if uv0.triggerWhenLoaded then
 			uv0:TriggerEventAtFirstTime()
+		else
+			uv0:TriggerNextEventAuto()
 		end
 
 		uv0:InitClickEvent()
@@ -443,6 +445,10 @@ slot0.IslimitYPos = function(slot0)
 end
 
 slot0.PauseForSilent = function(slot0)
+	if SettingsMainScenePanel.IsEnableFlagShipInteraction() then
+		return
+	end
+
 	if slot0:IsLoaded() then
 		slot0:_Pause()
 	end
@@ -464,6 +470,10 @@ slot0.Puase = function(slot0)
 end
 
 slot0.ResumeForSilent = function(slot0)
+	if SettingsMainScenePanel.IsEnableFlagShipInteraction() then
+		return
+	end
+
 	if slot0:IsLoaded() then
 		slot0:_Resume()
 	end

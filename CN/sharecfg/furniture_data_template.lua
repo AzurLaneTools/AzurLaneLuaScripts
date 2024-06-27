@@ -177,6 +177,8 @@ pg.furniture_data_template = setmetatable({
 			277,
 			278,
 			279,
+			280,
+			281,
 			100001,
 			100002,
 			100003,
@@ -239,6 +241,7 @@ pg.furniture_data_template = setmetatable({
 			100060,
 			100061,
 			100062,
+			100063,
 			200001,
 			200002,
 			200003,
@@ -5598,6 +5601,8 @@ pg.furniture_data_template = setmetatable({
 			274,
 			277,
 			279,
+			280,
+			281,
 			100001,
 			100002,
 			100003,
@@ -5660,6 +5665,7 @@ pg.furniture_data_template = setmetatable({
 			100060,
 			100061,
 			100062,
+			100063,
 			31101,
 			54101,
 			54102,
@@ -6719,6 +6725,7 @@ pg.furniture_data_template = setmetatable({
 			277,
 			278,
 			279,
+			280,
 			100001,
 			100002,
 			100004,
@@ -8728,6 +8735,7 @@ pg.furniture_data_template = setmetatable({
 			143,
 			215,
 			233,
+			281,
 			100003,
 			100008,
 			100021,
@@ -8735,6 +8743,7 @@ pg.furniture_data_template = setmetatable({
 			100030,
 			100034,
 			100042,
+			100063,
 			30123,
 			35128,
 			36125,
@@ -9798,6 +9807,8 @@ pg.furniture_data_template = setmetatable({
 		277,
 		278,
 		279,
+		280,
+		281,
 		100001,
 		100002,
 		100003,
@@ -9860,6 +9871,7 @@ pg.furniture_data_template = setmetatable({
 		100060,
 		100061,
 		100062,
+		100063,
 		200001,
 		200002,
 		200003,
@@ -21390,6 +21402,207 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[280] = {
+		can_rotate = 0,
+		describe = "五彩缤纷的滑梯，让童心滑向远方！ ",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/youeryuanhuati",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "童心滑梯 ",
+		advice = 0,
+		icon = "youeryuanhuatiicon",
+		id = 280,
+		comfortable = 4,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[281] = {
+		can_rotate = 0,
+		describe = "高效快捷的校车，让童心不再迟到！ ",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "youeryuanxiaocheicon",
+		count = 1,
+		name = "童心校车",
+		advice = 0,
+		id = 281,
+		tag = 6,
+		comfortable = 4,
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"youeryuanxiaocheB",
+				"normal",
+				nil,
+				1
+			},
+			{
+				"youeryuanxiaocheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit1",
+						nil,
+						"sit"
+					}
+				},
+				{
+					nil,
+					1,
+					{
+						{
+							"walk1",
+							"walk2",
+							"walk3"
+						},
+						"walk",
+						1
+					}
+				},
+				{
+					1
+				},
+				{
+					{
+						"sit1"
+					},
+					{
+						"sit2"
+					},
+					{
+						"sit3"
+					}
+				}
+			},
+			{
+				{
+					-40.1,
+					28.6
+				},
+				{
+					192,
+					172
+				},
+				"chuanmo/youeryuanxiaoche_mask1"
+			},
+			{
+				30.6,
+				-14.2
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_extra = {
+			{
+				{
+					{
+						-6.5,
+						34.9
+					},
+					{
+						96,
+						125
+					},
+					"chuanmo/youeryuanxiaoche_mask2"
+				},
+				{
+					5.1,
+					-37
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{
+					{
+						-6.5,
+						34.9
+					},
+					{
+						100,
+						132
+					},
+					"chuanmo/youeryuanxiaoche_mask2"
+				},
+				{
+					5.1,
+					-37
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char1",
+				1
+			},
+			{
+				"char2",
+				1
+			},
+			{
+				"char3",
+				1
+			}
+		},
+		interAction_group = {}
+	},
 	[100001] = {
 		can_rotate = 0,
 		describe = "本ID禁用",
@@ -25817,6 +26030,57 @@ pg.base.furniture_data_template = {
 		spine = {
 			{
 				"jiujiubudaoweng",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[100063] = {
+		can_rotate = 0,
+		describe = "冲击性的可爱！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "北极兔玩偶（AT型）",
+		advice = 0,
+		id = 100063,
+		icon = "jiguangyantuicon",
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jiguangyantu",
 				"normal",
 				{
 					"action2",

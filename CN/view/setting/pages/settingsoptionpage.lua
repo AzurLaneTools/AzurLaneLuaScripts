@@ -38,6 +38,7 @@ slot0.GetPanels = function(slot0)
 		SettingsRandomFlagShipAndSkinPanel,
 		SettingsStoryAutoPlayPanel,
 		SettingsStorySpeedPanel,
+		SettingsMainScenePanel,
 		SettingsOtherPanel
 	}
 

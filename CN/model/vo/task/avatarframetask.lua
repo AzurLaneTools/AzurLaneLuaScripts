@@ -16,7 +16,7 @@ slot4 = "avatar_task_ship_1"
 slot5 = "avatar_task_ship_2"
 
 slot0.Ctor = function(slot0, slot1, slot2, slot3)
-	slot0.actId = slot1
+	slot0._actId = slot1
 	slot0.configId = slot2
 	slot0.id = slot3.id
 	slot0.progress = slot3.progress or 0
@@ -126,6 +126,10 @@ end
 
 slot0.isAvatarTask = function(slot0)
 	return true
+end
+
+slot0.getActId = function(slot0)
+	return slot0._actId
 end
 
 slot0.createData = function(slot0, slot1, slot2)

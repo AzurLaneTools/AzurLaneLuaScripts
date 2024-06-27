@@ -36,7 +36,11 @@ slot0.Ctor = function(slot0, slot1)
 		end
 	end
 
-	slot0.titleImage = slot3 and string.gsub(slot0.titleImage, slot3, "") or slot0.titleImage
+	if slot3 then
+		slot4, slot5 = string.find(slot0.titleImage, slot3, 1, true)
+		slot0.titleImage = string.sub(slot0.titleImage, slot5 + 1, -1)
+	end
+
 	slot0.code = slot0:prefKey()
 end
 

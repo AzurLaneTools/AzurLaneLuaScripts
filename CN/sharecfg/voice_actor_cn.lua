@@ -1600,56 +1600,64 @@ pg.voice_actor_CN = {
 		actor_name = "Marika",
 		code = 400
 	},
-	[402] = {
+	{
+		actor_name = "西田望见",
+		code = 401
+	},
+	{
 		actor_name = "岩井映美里",
 		code = 402
 	},
-	[403] = {
+	{
 		actor_name = "真野美月",
 		code = 403
 	},
-	[404] = {
+	{
 		actor_name = "佐仓薰",
 		code = 404
 	},
-	[405] = {
+	{
 		actor_name = "丰崎爱生",
 		code = 405
 	},
-	[406] = {
+	{
 		actor_name = "日野麻里",
 		code = 406
 	},
-	[407] = {
+	{
 		actor_name = "菊池纱矢香",
 		code = 407
 	},
-	[408] = {
+	{
 		actor_name = "高岸美里亚",
 		code = 408
 	},
-	[409] = {
+	{
 		actor_name = "栗坂南美",
 		code = 409
 	},
-	[410] = {
+	{
 		actor_name = "杨梦露",
 		code = 410
 	},
-	[411] = {
+	{
 		actor_name = "陈雨",
 		code = 411
 	},
-	[412] = {
+	{
 		actor_name = "四白",
 		code = 412
 	},
-	[413] = {
+	{
 		actor_name = "陈婷婷",
 		code = 413
 	},
-	[414] = {
+	{
 		actor_name = "刘雯",
 		code = 414
+	},
+	{
+		actor_name = "鹫见友美Jiena",
+		code = 415
 	}
 }

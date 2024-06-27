@@ -39,6 +39,7 @@ end
 slot1 = 1
 slot2 = 1
 slot3 = 2
+slot4 = 3
 
 slot0.StoryStart = function(slot0)
 	if not slot0 then
@@ -52,7 +53,7 @@ slot0.StoryStart = function(slot0)
 	})
 end
 
-slot0.StorySkip = function(slot0)
+slot0.StorySkip = function(slot0, slot1)
 	if not slot0 then
 		return
 	end
@@ -60,7 +61,21 @@ slot0.StorySkip = function(slot0)
 	pg.m02:sendNotification(GAME.NEW_TRACK, {
 		type = uv0,
 		eventId = uv1,
-		para1 = tostring(slot0)
+		para1 = tostring(slot0),
+		para2 = tostring(slot1 or "0")
+	})
+end
+
+slot0.StoryOption = function(slot0, slot1)
+	if not slot0 then
+		return
+	end
+
+	pg.m02:sendNotification(GAME.NEW_TRACK, {
+		type = uv0,
+		eventId = uv0,
+		para1 = tostring(slot0),
+		para2 = tostring(slot1 or "0_0")
 	})
 end
 

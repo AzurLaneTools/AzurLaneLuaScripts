@@ -12170,6 +12170,7 @@ pg.activity_template = {
 	[5347] = {
 		mark = 20240521,
 		page_info = "",
+		time = "stop",
 		type = 30,
 		login_pop = 0,
 		config_id = 4,
@@ -12177,34 +12178,7 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 5347,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					5,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					6,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[5348] = {
 		mark = 20240521,
@@ -12591,6 +12565,7 @@ pg.activity_template = {
 	},
 	[5365] = {
 		mark = 20240613,
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
@@ -12628,33 +12603,6 @@ pg.activity_template = {
 				20223
 			}
 		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					6,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					6,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "KelifulanSkinRePage",
 			ui_name = "KelifulanSkinRePage"
@@ -12682,6 +12630,7 @@ pg.activity_template = {
 	[5368] = {
 		mark = 20240620,
 		page_info = "",
+		time = "stop",
 		type = 58,
 		login_pop = 0,
 		config_id = 17,
@@ -12689,34 +12638,7 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 5368,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					6,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					6,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[5369] = {
 		mark = 20240620,
@@ -12745,8 +12667,8 @@ pg.activity_template = {
 			{
 				{
 					2024,
-					6,
-					27
+					7,
+					3
 				},
 				{
 					23,
@@ -12763,6 +12685,7 @@ pg.activity_template = {
 	[5370] = {
 		mark = 20240620,
 		page_info = "",
+		time = "stop",
 		type = 80,
 		login_pop = 0,
 		config_id = 0,
@@ -12772,39 +12695,13 @@ pg.activity_template = {
 		config_data = {
 			4
 		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					6,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					6,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			59590
 		}
 	},
 	[5371] = {
 		mark = 20240620,
+		time = "stop",
 		type = 3,
 		login_pop = 0,
 		config_id = 59,
@@ -12813,33 +12710,6 @@ pg.activity_template = {
 		title_res_tag = "YidaliV2_login",
 		id = 5371,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					6,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					6,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "GongHaiLoginPage",
 			ui_name = "GongHaiLoginPage"
@@ -12848,6 +12718,7 @@ pg.activity_template = {
 	[5372] = {
 		mark = 20240620,
 		page_info = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
@@ -12855,41 +12726,15 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 5372,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					6,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					6,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[5374] = {
 		mark = 20240620,
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 48,
+		is_show = 47,
 		title_res_tag = "gonghai_main",
 		id = 5374,
 		config_data = {
@@ -12899,33 +12744,6 @@ pg.activity_template = {
 			1640021,
 			1640022,
 			1640023
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					6,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					6,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "GongHaiMainPage",
@@ -12938,6 +12756,7 @@ pg.activity_template = {
 	[5375] = {
 		mark = 20240620,
 		page_info = "",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -12954,33 +12773,6 @@ pg.activity_template = {
 			1640041,
 			1640051
 		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					6,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					6,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10"
 		}
@@ -12988,6 +12780,7 @@ pg.activity_template = {
 	[5376] = {
 		mark = 20240620,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -13015,33 +12808,6 @@ pg.activity_template = {
 			20240,
 			20241,
 			20242
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					6,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					6,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5377] = {
@@ -13255,6 +13021,7 @@ pg.activity_template = {
 	[5381] = {
 		mark = 20240620,
 		page_info = "",
+		time = "stop",
 		type = 27,
 		login_pop = 0,
 		config_id = 1,
@@ -13262,14 +13029,26 @@ pg.activity_template = {
 		config_data = "[{31968,100}]",
 		config_client = "",
 		title_res_tag = "",
-		id = 5381,
+		id = 5381
+	},
+	[5401] = {
+		mark = 20240627,
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5401,
+		config_data = {},
 		time = {
 			"timer",
 			{
 				{
 					2024,
 					6,
-					20
+					27
 				},
 				{
 					0,
@@ -13280,8 +13059,385 @@ pg.activity_template = {
 			{
 				{
 					2024,
+					7,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5402] = {
+		mark = 20240627,
+		type = 93,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 48,
+		title_res_tag = "kingdergarten",
+		id = 5402,
+		config_data = {
+			2001,
+			2002,
+			2003,
+			2004,
+			2005
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
 					6,
-					26
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					7,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ChildishnessMainPage",
+			ui_name = "ChildishnessMainPage"
+		},
+		config_client = {
+			scene = "BossRushAlvitScene",
+			openStory = "HUANYINLAIDAOTONGXINXUEYUAN1",
+			entrance_bg = "activitybanner/temp10",
+			endStory = "HUANYINLAIDAOTONGXINXUEYUAN10",
+			mediator = "BossRushAlvitMediator",
+			tasks = {
+				20308
+			},
+			storys = {
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38
+			}
+		}
+	},
+	[5403] = {
+		mark = 20240627,
+		page_info = "",
+		type = 94,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "0",
+		config_client = "",
+		title_res_tag = "",
+		id = 5403,
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					6,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					7,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5404] = {
+		mark = 20240627,
+		page_info = "",
+		type = 74,
+		login_pop = 0,
+		config_id = 5404,
+		is_show = 0,
+		title_res_tag = "",
+		id = 5404,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					6,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					7,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			scene = "KINDERGARTEN",
+			linkActID = 5402
+		}
+	},
+	[5405] = {
+		mark = 20240627,
+		page_info = "",
+		type = 60,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5405,
+		config_data = {
+			479,
+			480,
+			481,
+			482
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					6,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					7,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5406] = {
+		mark = 20240627,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5406,
+		config_data = {
+			20309,
+			20310,
+			20312,
+			20308,
+			20313,
+			20314,
+			20315,
+			20316,
+			20301,
+			20302,
+			20303,
+			20304,
+			20305,
+			20306,
+			20307,
+			20311
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					6,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					7,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5408] = {
+		mark = 20240627,
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 421,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		title_res_tag = "",
+		id = 5408,
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					6,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					7,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5409] = {
+		mark = 20240627,
+		page_info = "",
+		type = 91,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5409,
+		config_data = {
+			{
+				59593,
+				1,
+				4,
+				1,
+				6
+			},
+			{
+				0,
+				0
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					6,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					7,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5410] = {
+		mark = 20240620,
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_data = "[{31945,100}]",
+		config_client = "",
+		title_res_tag = "",
+		id = 5410,
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					6,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					7,
+					10
 				},
 				{
 					23,
@@ -19324,7 +19480,8 @@ pg.activity_template = {
 			5285,
 			5307,
 			5352,
-			5372
+			5372,
+			5401
 		},
 		{
 			8064,
@@ -19501,6 +19658,7 @@ pg.activity_template = {
 			5361,
 			5366,
 			5376,
+			5406,
 			1079,
 			1080,
 			1081,
@@ -19601,6 +19759,7 @@ pg.activity_template = {
 			5346,
 			5362,
 			5379,
+			5404,
 			1086,
 			6006,
 			6010,
@@ -19676,7 +19835,8 @@ pg.activity_template = {
 			5290,
 			5302,
 			5333,
-			5377
+			5377,
+			5408
 		},
 		[12] = {
 			4898,
@@ -19724,7 +19884,8 @@ pg.activity_template = {
 			5294,
 			5313,
 			5343,
-			5381
+			5381,
+			5410
 		},
 		[80] = {
 			4902,
@@ -19802,7 +19963,8 @@ pg.activity_template = {
 			5228,
 			5262,
 			5306,
-			5323
+			5323,
+			5405
 		},
 		[46] = {
 			4922,
@@ -19856,7 +20018,8 @@ pg.activity_template = {
 			4966
 		},
 		[91] = {
-			4981
+			4981,
+			5409
 		},
 		[105] = {
 			4990
@@ -19931,6 +20094,12 @@ pg.activity_template = {
 		},
 		[115] = {
 			5351
+		},
+		[93] = {
+			5402
+		},
+		[94] = {
+			5403
 		},
 		[54] = {
 			7011,
@@ -20362,6 +20531,15 @@ pg.activity_template = {
 		5379,
 		5380,
 		5381,
+		5401,
+		5402,
+		5403,
+		5404,
+		5405,
+		5406,
+		5408,
+		5409,
+		5410,
 		7011,
 		7012,
 		7013,

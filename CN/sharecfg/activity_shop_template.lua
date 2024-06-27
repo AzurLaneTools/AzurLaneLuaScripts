@@ -25819,6 +25819,19 @@ pg.activity_shop_template = {
 		resource_num = 500,
 		order = 5
 	},
+	[10088] = {
+		limit_args = "",
+		resource_category = 2,
+		activity = 0,
+		commodity_id = 85160,
+		num = 1,
+		num_limit = 1,
+		commodity_type = 3,
+		resource_type = 59900,
+		id = 10088,
+		resource_num = 800,
+		order = 4
+	},
 	[10500] = {
 		resource_category = 2,
 		activity = 0,
@@ -25920,6 +25933,24 @@ pg.activity_shop_template = {
 		id = 10505,
 		resource_num = 800,
 		order = 3,
+		limit_args = {
+			{
+				"quota",
+				2
+			}
+		}
+	},
+	[10506] = {
+		resource_category = 2,
+		activity = 0,
+		commodity_id = 940,
+		num = 1,
+		num_limit = 0,
+		commodity_type = 3,
+		resource_type = 59900,
+		id = 10506,
+		resource_num = 500,
+		order = 7,
 		limit_args = {
 			{
 				"quota",
@@ -28581,12 +28612,14 @@ pg.activity_shop_template = {
 			10085,
 			10086,
 			10087,
+			10088,
 			10500,
 			10501,
 			10502,
 			10503,
 			10504,
-			10505
+			10505,
+			10506
 		},
 		[8] = {
 			1621,
@@ -30621,12 +30654,14 @@ pg.activity_shop_template = {
 		10085,
 		10086,
 		10087,
+		10088,
 		10500,
 		10501,
 		10502,
 		10503,
 		10504,
 		10505,
+		10506,
 		10901,
 		10902,
 		10903,

@@ -9,9 +9,21 @@ slot0.Execute = function(slot0, slot1)
 		end
 	end
 
+	slot0:FixMainSceneSettings()
 	PlayerPrefs.Save()
 	slot0:FixPlayerPrefsKey()
 	slot1()
+end
+
+slot0.FixMainSceneSettings = function(slot0)
+	for slot5, slot6 in ipairs({
+		SettingsMainScenePanel.STANDBY_MODE_KEY,
+		SettingsMainScenePanel.FLAGSHIP_INTERACTION_KEY
+	}) do
+		if not PlayerPrefs.HasKey(slot6 .. "_" .. getProxy(PlayerProxy):getRawData().id) then
+			PlayerPrefs.SetInt(slot7, 1)
+		end
+	end
 end
 
 slot0.FixPlayerPrefsKey = function(slot0)

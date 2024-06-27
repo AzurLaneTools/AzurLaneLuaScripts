@@ -954,6 +954,7 @@ end
 
 slot0.willExit = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	ClearLScrollrect(slot0.leftPanelEquipScrollComp)
 	slot0.loader:Clear()
 end
 
