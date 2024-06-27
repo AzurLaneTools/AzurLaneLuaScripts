@@ -10473,7 +10473,7 @@ pg.activity_ins_template = {
 		message_persist = "",
 		id = 411,
 		group_id = 411,
-		order = 0,
+		order = 35,
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
@@ -10486,7 +10486,7 @@ pg.activity_ins_template = {
 		message_persist = "",
 		id = 412,
 		group_id = 412,
-		order = 0,
+		order = 35,
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
@@ -10499,7 +10499,7 @@ pg.activity_ins_template = {
 		message_persist = "",
 		id = 413,
 		group_id = 413,
-		order = 0,
+		order = 35,
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
@@ -10512,7 +10512,7 @@ pg.activity_ins_template = {
 		message_persist = "",
 		id = 414,
 		group_id = 414,
-		order = 0,
+		order = 35,
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
@@ -10525,7 +10525,7 @@ pg.activity_ins_template = {
 		message_persist = "",
 		id = 415,
 		group_id = 415,
-		order = 0,
+		order = 35,
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
@@ -10538,7 +10538,7 @@ pg.activity_ins_template = {
 		message_persist = "",
 		id = 416,
 		group_id = 416,
-		order = 0,
+		order = 35,
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
@@ -10551,7 +10551,7 @@ pg.activity_ins_template = {
 		message_persist = "",
 		id = 417,
 		group_id = 417,
-		order = 0,
+		order = 35,
 		time_persist = {},
 		npc_discuss_persist = {}
 	},

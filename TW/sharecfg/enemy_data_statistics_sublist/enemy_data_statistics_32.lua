@@ -1254,7 +1254,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90844] = {
 		cannon = 0,
-		name = "加里冒險號",
+		name = "冒險加利號 ",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

@@ -151721,7 +151721,7 @@ _G.pg.base.item_virtual_data_statistics[58989] = {
 
 _G.pg.base.item_virtual_data_statistics[58990] = {
 	drop_gold_max = 0,
-	name = "外观装备箱(航海家)",
+	name = "外觀裝備箱(航海家) ",
 	display = "有機率獲得以下裝備外觀之一",
 	type = 99,
 	is_world = 0,
@@ -151837,8 +151837,8 @@ _G.pg.base.item_virtual_data_statistics[58990] = {
 
 _G.pg.base.item_virtual_data_statistics[58991] = {
 	drop_gold_max = 0,
-	name = "外观装备箱(航海家)",
-	display = "随机获得一件「航海集结」主题外观装备",
+	name = "外觀裝備箱(航海家) ",
+	display = "隨機獲得一件「航海集結」主題外觀裝備 ",
 	type = 99,
 	is_world = 0,
 	shop_id = -1,

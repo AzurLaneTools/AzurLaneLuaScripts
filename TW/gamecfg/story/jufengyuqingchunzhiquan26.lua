@@ -67,7 +67,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一時間太激動了！總之你沒事就好！",
+			say = "一時間太激動了！總之妳沒事就好！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			},
 			options = {
 				{
-					content = "你做得很好。",
+					content = "妳做得很好。",
 					flag = 1
 				}
 			}
@@ -184,7 +184,7 @@ return {
 			actor = 9600060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你們看，聖馬丁那邊分出勝負了。",
+			say = "妳們看，聖馬丁那邊分出勝負了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "投降吧，你已經沒有退路了。",
+			say = "投降吧，妳已經沒有退路了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -830,7 +830,7 @@ return {
 			actor = 9600060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "算了……你們開心就好……",
+			say = "算了……妳們開心就好……",
 			painting = {
 				alpha = 0.3,
 				time = 1
