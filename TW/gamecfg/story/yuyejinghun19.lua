@@ -12,7 +12,7 @@ return {
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
-					"雨夜驚魂\n\n<size=45Chapter-5-勳爵之女</size>",
+					"雨夜驚魂\n\n<size=45>Chapter-5-勳爵之女</size>",
 					1
 				}
 			}
