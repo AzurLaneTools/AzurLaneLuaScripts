@@ -53,7 +53,7 @@ slot0.OnInit = function(slot0)
 end
 
 slot0.CommonToggleSetting = function(slot0, slot1, slot2, slot3, slot4, slot5)
-	setText(slot1:Find("mask/Text"), slot3)
+	setScrollText(slot1:Find("mask/Text"), slot3)
 
 	slot6 = slot1:Find("on")
 	slot7 = slot1:Find("off")
@@ -125,7 +125,7 @@ end
 slot0.InitEnterStandbyModeTime = function(slot0)
 	slot1 = slot0._tf:Find("time")
 
-	setText(slot1:Find("notify_tpl/mask/Text"), i18n("settings_enter_standby_mode_time"))
+	setScrollText(slot1:Find("notify_tpl/mask/Text"), i18n("settings_enter_standby_mode_time"))
 	table.insert(slot0.subToggles, slot1)
 
 	if ({
