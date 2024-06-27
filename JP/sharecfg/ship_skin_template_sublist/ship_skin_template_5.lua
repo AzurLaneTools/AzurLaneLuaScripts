@@ -1,6 +1,120 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_5 = {
+	[201234] = {
+		name = "夜姫inアイドルスタイル",
+		id = 201234,
+		desc = "ヴァンパイアのアイドル衣装…意外と本格的でしょ？ふふん、これから汝の視線は私のステージに釘付けよ♪",
+		illustrator2 = -1,
+		ship_group = 20123,
+		group_index = 4,
+		prefab = "xixuegui_5",
+		painting = "xixuegui_5",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 11,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "120",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70440,
+		voice_actor = 89,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.535,
+					0.997,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.585,
+					1.022,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.531,
+					1.05,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.381,
+							2.446,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[201235] = {
 		name = "夜姫の夜宴inサンタナイト",
 		id = 201235,
@@ -12461,120 +12575,6 @@ pg.base.ship_skin_template_5 = {
 						"smoke",
 						{
 							-0.512,
-							2.406,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[202292] = {
-		name = "ソルティーメイド",
-		id = 202292,
-		desc = "いらっしゃいませ。言われた通り、今はこちらでメイドさんをやらせてもらってるの……ええと、用があるときだけ呼んで",
-		illustrator2 = -1,
-		ship_group = 20229,
-		group_index = 2,
-		prefab = "peineiluopo_3",
-		painting = "peineiluopo_3",
-		hand_id = 1,
-		bgm = "",
-		shop_type_id = 17,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "150",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "1102",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70642,
-		voice_actor = 55,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.17,
-					0.87,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.08,
-					0.85,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.03,
-					1.07,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.38,
 							2.406,
 							0
 						}

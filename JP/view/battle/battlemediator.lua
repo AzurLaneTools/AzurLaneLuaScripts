@@ -128,6 +128,7 @@ slot0.register = function(slot0)
 					mediator = BossRushTotalRewardPanelMediator,
 					viewComponent = BossRushTotalRewardPanel,
 					data = {
+						isAutoFight = false,
 						isLayer = true,
 						rewards = getProxy(ActivityProxy):PopBossRushAwards()
 					}

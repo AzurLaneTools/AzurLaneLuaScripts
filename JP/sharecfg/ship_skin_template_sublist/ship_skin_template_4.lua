@@ -1,6 +1,123 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_4 = {
+	[107100] = {
+		name = "ヨークタウンⅡ",
+		id = 107100,
+		desc = "エセックス級空母――ヨークタウンⅡ(CV-10)",
+		illustrator2 = -1,
+		ship_group = 10710,
+		group_index = 0,
+		prefab = "yuekechengII",
+		painting = "yuekechengII",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 0,
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 42,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.3,
+					1.4,
+					0
+				}
+			},
+			plane = {
+				{
+					1.41,
+					1.11,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.31,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				-83,
+				-1643,
+				0
+			},
+			{
+				0.88
+			}
+		},
+		special_effects = {
+			"lihui_yuekechengII",
+			{
+				2418,
+				-99,
+				0
+			},
+			{
+				2
+			}
+		}
+	},
 	[107101] = {
 		name = "ブライトスカイ・マーメイド",
 		id = 107101,
@@ -11697,120 +11814,6 @@ pg.base.ship_skin_template_4 = {
 		},
 		l2d_voice_calibrate = {
 			login = 3.4
-		}
-	},
-	[201234] = {
-		name = "夜姫inアイドルスタイル",
-		id = 201234,
-		desc = "ヴァンパイアのアイドル衣装…意外と本格的でしょ？ふふん、これから汝の視線は私のステージに釘付けよ♪",
-		illustrator2 = -1,
-		ship_group = 20123,
-		group_index = 4,
-		prefab = "xixuegui_5",
-		painting = "xixuegui_5",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 11,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "120",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70440,
-		voice_actor = 89,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.535,
-					0.997,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.585,
-					1.022,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.531,
-					1.05,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.381,
-							2.446,
-							0
-						}
-					}
-				}
-			}
 		}
 	}
 }

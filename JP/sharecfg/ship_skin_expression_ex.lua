@@ -16801,5 +16801,282 @@ pg.ship_skin_expression_ex = {
 				"5"
 			}
 		}
+	},
+	yaerweite = {
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		expedition = "",
+		win_mvp = "",
+		mail = "",
+		painting = "yaerweite",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"1"
+			}
+		},
+		home = {
+			{
+				1100,
+				"1"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"1|2|3"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"1"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"2"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"1"
+			}
+		}
+	},
+	z47 = {
+		feeling3 = "",
+		main_1 = "",
+		mail = "",
+		painting = "z47",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"5"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"2"
+			}
+		},
+		home = {
+			{
+				1100,
+				"2"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"5"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"2"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"2|4|2"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"4"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"2"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"2"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"2"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"2"
+			}
+		}
+	},
+	u31 = {
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		expedition = "",
+		win_mvp = "",
+		mail = "",
+		painting = "u31",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"4"
+			}
+		},
+		home = {
+			{
+				1100,
+				"8"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"2"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"9|17|8"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"7"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"7"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"9"
+			}
+		}
+	},
+	z43 = {
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		expedition = "",
+		mail = "",
+		painting = "z43",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"14"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"4"
+			}
+		},
+		home = {
+			{
+				1100,
+				"5"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"6"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"1|3|4"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"7"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"17"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"10"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"5"
+			}
+		}
 	}
 }

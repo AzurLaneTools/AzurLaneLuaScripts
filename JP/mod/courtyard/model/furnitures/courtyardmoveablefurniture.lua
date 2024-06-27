@@ -41,11 +41,19 @@ slot0.GetAroundPositions = function(slot0)
 	end
 end
 
+slot0._ChangeState = function(slot0, slot1)
+	uv0.super._ChangeState(slot0, slot1)
+
+	if CourtYardFurniture.STATE_TOUCH == slot0.state then
+		slot0:ChangeMoveState(uv1)
+	end
+end
+
 slot0.ChangeState = function(slot0, slot1)
 	uv0.super.ChangeState(slot0, slot1)
 
-	if slot0:IsTouchState() then
-		slot0:ChangeMoveState(uv1)
+	if CourtYardFurniture.STATE_TOUCH == slot0.state then
+		-- Nothing
 	elseif slot0:IsMoving() then
 		slot0:Idle()
 	end

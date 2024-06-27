@@ -6,13 +6,13 @@ slot0.SHOW_DETAIL = "activity task show detail"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.SUBMIT_TASK_ALL, function (slot0, slot1)
-		uv0:sendNotification(GAME.AVATAR_FRAME_AWARD, {
+		uv0:sendNotification(GAME.SUBMIT_ACTIVITY_TASK, {
 			act_id = slot1.activityId,
 			task_ids = slot1.ids
 		})
 	end)
 	slot0:bind(uv0.SUBMIT_TASK, function (slot0, slot1)
-		uv0:sendNotification(GAME.AVATAR_FRAME_AWARD, {
+		uv0:sendNotification(GAME.SUBMIT_ACTIVITY_TASK, {
 			act_id = slot1.activityId,
 			task_ids = {
 				slot1.id
@@ -37,14 +37,14 @@ end
 
 slot0.listNotificationInterests = function(slot0)
 	return {
-		GAME.SUBMIT_AVATAR_TASK_DONE
+		GAME.SUBMIT_ACTIVITY_TASK_DONE
 	}
 end
 
 slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
-	if slot1:getName() == GAME.SUBMIT_AVATAR_TASK_DONE then
+	if slot1:getName() == GAME.SUBMIT_ACTIVITY_TASK_DONE then
 		if #slot3.awards > 0 then
 			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 		end

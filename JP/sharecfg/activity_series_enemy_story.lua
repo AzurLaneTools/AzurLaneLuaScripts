@@ -353,6 +353,142 @@ pg.activity_series_enemy_story = {
 		id = 21,
 		icon = "base5"
 	},
+	[31] = {
+		pos_x = "0.10703125",
+		name = "裏切りし者の歌",
+		type = 1,
+		pos_y = "0.157291667",
+		story = "HUANYINLAIDAOTONGXINXUEYUAN2",
+		line = 0,
+		pass_awards = 0,
+		id = 31,
+		icon = "",
+		trigger_type = {
+			1
+		},
+		trigger_value = {
+			0
+		}
+	},
+	[32] = {
+		pos_x = "0.34609375",
+		name = "ユニット組もうよ♪",
+		type = 3,
+		pos_y = "0.347916667",
+		story = "1819601",
+		line = 0,
+		pass_awards = 0,
+		id = 32,
+		icon = "",
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			31
+		}
+	},
+	[33] = {
+		pos_x = "0.50546875",
+		name = "デカ指揮官、登場！",
+		type = 3,
+		pos_y = "0.080208333",
+		story = "1819602",
+		line = 0,
+		pass_awards = 0,
+		id = 33,
+		icon = "",
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			32
+		}
+	},
+	[34] = {
+		pos_x = "0.60546875",
+		name = "運動場ファイト！",
+		type = 3,
+		pos_y = "0.446875",
+		story = "1819603",
+		line = 0,
+		pass_awards = 0,
+		id = 34,
+		icon = "",
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			33
+		}
+	},
+	[35] = {
+		pos_x = "0.6265625",
+		name = "先生たちを助けよう！",
+		type = 1,
+		pos_y = "0.15625",
+		story = "HUANYINLAIDAOTONGXINXUEYUAN6",
+		line = 0,
+		pass_awards = 0,
+		id = 35,
+		icon = "",
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			34
+		}
+	},
+	[36] = {
+		pos_x = "1.10703125",
+		name = "わんぱくになろう！",
+		type = 3,
+		pos_y = "1.157291667",
+		story = "1819604",
+		line = 0,
+		pass_awards = 0,
+		id = 36,
+		icon = "",
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			35
+		}
+	},
+	[37] = {
+		pos_x = "1.34609375",
+		name = "無邪気に大暴走！",
+		type = 3,
+		pos_y = "1.347916667",
+		story = "1819605",
+		line = 0,
+		pass_awards = 0,
+		id = 37,
+		icon = "",
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			36
+		}
+	},
+	[38] = {
+		pos_x = "1.50546875",
+		name = "童心よ、永遠に",
+		type = 1,
+		pos_y = "1.080208333",
+		story = "HUANYINLAIDAOTONGXINXUEYUAN9",
+		line = 0,
+		pass_awards = 0,
+		id = 38,
+		icon = "",
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			37
+		}
+	},
 	all = {
 		1,
 		2,
@@ -374,6 +510,14 @@ pg.activity_series_enemy_story = {
 		18,
 		19,
 		20,
-		21
+		21,
+		31,
+		32,
+		33,
+		34,
+		35,
+		36,
+		37,
+		38
 	}
 }

@@ -1,6 +1,120 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_6 = {
+	[202292] = {
+		name = "ソルティーメイド",
+		id = 202292,
+		desc = "いらっしゃいませ。言われた通り、今はこちらでメイドさんをやらせてもらってるの……ええと、用があるときだけ呼んで",
+		illustrator2 = -1,
+		ship_group = 20229,
+		group_index = 2,
+		prefab = "peineiluopo_3",
+		painting = "peineiluopo_3",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 17,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "150",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70642,
+		voice_actor = 55,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.17,
+					0.87,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.08,
+					0.85,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.03,
+					1.07,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.38,
+							2.406,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[202300] = {
 		name = "カリブディス",
 		id = 202300,
@@ -8789,6 +8903,130 @@ pg.base.ship_skin_template_6 = {
 			}
 		}
 	},
+	[205074] = {
+		name = "賢装のペダゴーグ",
+		id = 205074,
+		desc = "来たわね。我が学舎を訪ねる幼稚なるオデュッセウス。今日はこの私、デューク・オブ・ヨークがそなたの進路について指導してやるわ――さあ、座って耳を傾けてごらんなさい",
+		illustrator2 = 19,
+		ship_group = 20507,
+		group_index = 4,
+		prefab = "yuekegongjue_4",
+		painting = "yuekegongjue_4",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 23,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "169",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71024,
+		voice_actor = 79,
+		illustrator = 14,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2,
+			6
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.977,
+					1.101,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.997,
+					1.102,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.008,
+					-0.018,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.987,
+					1.061,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.458,
+							0.53
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				1,
+				-691,
+				0
+			},
+			{
+				0.45
+			}
+		}
+	},
 	[205090] = {
 		name = "ハウ",
 		id = 205090,
@@ -12550,246 +12788,6 @@ pg.base.ship_skin_template_6 = {
 						{
 							-0.56,
 							2.11,
-							-0.55
-						}
-					}
-				}
-			}
-		}
-	},
-	[206050] = {
-		name = "チェイサー",
-		id = 206050,
-		desc = "アタッカー級航空母艦・チェイサー（HMS Chaser）",
-		illustrator2 = -1,
-		ship_group = 20605,
-		group_index = 0,
-		prefab = "zhuiganzhe",
-		painting = "zhuiganzhe",
-		hand_id = 1,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 165,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			80,
-			-120,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.69,
-					0.745,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.641,
-					0.726,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.159,
-					0.053,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.837,
-					1.279,
-					0
-				}
-			},
-			plane = {
-				{
-					0.767,
-					1.231,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.481,
-							2.325,
-							-0.55
-						}
-					}
-				}
-			}
-		}
-	},
-	[206051] = {
-		name = "東煌見聞録",
-		id = 206051,
-		desc = "この東煌（どんふぁん）の衣装は似合ってるのかな？わたくし、ユニオン生まれでロイヤル育ちだけど、実は東煌にもちょっとした足跡を残したわよ？では、オリエンタルなお茶と文化についておしゃべりでもしようかしら、ふふふ♪",
-		illustrator2 = -1,
-		ship_group = 20605,
-		group_index = 1,
-		prefab = "zhuiganzhe_2",
-		painting = "zhuiganzhe_2",
-		hand_id = 9,
-		bgm = "",
-		shop_type_id = 3,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "102",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70159,
-		voice_actor = 165,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			80,
-			-120,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.758,
-					1.146,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.758,
-					1.146,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.159,
-					0.053,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.739,
-					1.269,
-					0
-				}
-			},
-			plane = {
-				{
-					0.767,
-					1.231,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.481,
-							2.325,
 							-0.55
 						}
 					}

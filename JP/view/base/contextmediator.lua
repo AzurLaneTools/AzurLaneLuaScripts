@@ -57,6 +57,7 @@ slot0.onRegister = function(slot0)
 			})
 		end
 
+		pg.PoolMgr.GetInstance():ClearAllTempCache()
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.MAINUI)
 	end)
 	slot0:bind(BaseUI.ON_CLOSE, function (slot0)

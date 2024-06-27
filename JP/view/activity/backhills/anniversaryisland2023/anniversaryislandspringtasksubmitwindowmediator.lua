@@ -17,14 +17,14 @@ end
 
 slot0.listNotificationInterests = function(slot0)
 	return {
-		GAME.SUBMIT_AVATAR_TASK_DONE
+		GAME.SUBMIT_ACTIVITY_TASK_DONE
 	}
 end
 
 slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
-	if slot1:getName() == GAME.SUBMIT_AVATAR_TASK_DONE then
+	if slot1:getName() == GAME.SUBMIT_ACTIVITY_TASK_DONE then
 		slot0.viewComponent:closeView()
 	end
 end

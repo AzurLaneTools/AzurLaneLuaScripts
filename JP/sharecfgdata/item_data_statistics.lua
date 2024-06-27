@@ -24092,6 +24092,131 @@ _G.pg.base.item_data_statistics[30357] = {
 }
 
 
+_G.pg.base.item_data_statistics[30358] = {
+	open_directly = 1,
+	name = "装備外装箱（リトル）",
+	type = 11,
+	display = "ランダムの装備外装を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxtongxin",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30358",
+	id = 30358,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4001,
+			1
+		},
+		{
+			9,
+			4002,
+			1
+		},
+		{
+			9,
+			4003,
+			1
+		},
+		{
+			9,
+			4004,
+			1
+		},
+		{
+			9,
+			4005,
+			1
+		},
+		{
+			9,
+			4006,
+			1
+		},
+		{
+			9,
+			4007,
+			1
+		},
+		{
+			9,
+			4008,
+			1
+		},
+		{
+			9,
+			4009,
+			1
+		},
+		{
+			9,
+			4010,
+			1
+		},
+		{
+			9,
+			4011,
+			1
+		},
+		{
+			9,
+			4012,
+			1
+		},
+		{
+			9,
+			4013,
+			1
+		},
+		{
+			9,
+			4014,
+			1
+		},
+		{
+			9,
+			4015,
+			1
+		},
+		{
+			9,
+			4016,
+			1
+		},
+		{
+			9,
+			4017,
+			1
+		},
+		{
+			9,
+			4018,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "ランダム装備外装",
@@ -33851,6 +33976,219 @@ _G.pg.base.item_data_statistics[30541] = {
 		{
 			9,
 			517,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_data_statistics[30542] = {
+	open_directly = 0,
+	name = "選択装備外装箱（リトル）",
+	type = 13,
+	display = "使用すると、装備外装（リトル学園）から任意の装備外装を1個選択して入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxtongxinzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30542,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4001,
+			1
+		},
+		{
+			9,
+			4002,
+			1
+		},
+		{
+			9,
+			4003,
+			1
+		},
+		{
+			9,
+			4004,
+			1
+		},
+		{
+			9,
+			4005,
+			1
+		},
+		{
+			9,
+			4006,
+			1
+		},
+		{
+			9,
+			4007,
+			1
+		},
+		{
+			9,
+			4008,
+			1
+		},
+		{
+			9,
+			4009,
+			1
+		},
+		{
+			9,
+			4010,
+			1
+		},
+		{
+			9,
+			4011,
+			1
+		},
+		{
+			9,
+			4012,
+			1
+		},
+		{
+			9,
+			4013,
+			1
+		},
+		{
+			9,
+			4014,
+			1
+		},
+		{
+			9,
+			4015,
+			1
+		},
+		{
+			9,
+			4016,
+			1
+		},
+		{
+			9,
+			4017,
+			1
+		},
+		{
+			9,
+			4018,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4001,
+			1
+		},
+		{
+			9,
+			4002,
+			1
+		},
+		{
+			9,
+			4003,
+			1
+		},
+		{
+			9,
+			4004,
+			1
+		},
+		{
+			9,
+			4005,
+			1
+		},
+		{
+			9,
+			4006,
+			1
+		},
+		{
+			9,
+			4007,
+			1
+		},
+		{
+			9,
+			4008,
+			1
+		},
+		{
+			9,
+			4009,
+			1
+		},
+		{
+			9,
+			4010,
+			1
+		},
+		{
+			9,
+			4011,
+			1
+		},
+		{
+			9,
+			4012,
+			1
+		},
+		{
+			9,
+			4013,
+			1
+		},
+		{
+			9,
+			4014,
+			1
+		},
+		{
+			9,
+			4015,
+			1
+		},
+		{
+			9,
+			4016,
+			1
+		},
+		{
+			9,
+			4017,
+			1
+		},
+		{
+			9,
+			4018,
 			1
 		}
 	}

@@ -26,8 +26,10 @@ slot0.OnLoaded = function(slot0)
 	slot0.dateTxt = slot0:findTF("adapt/date"):GetComponent(typeof(Text))
 	slot0.changeBtn = slot0:findTF("change")
 	slot0.tips = UIItemList.New(slot0:findTF("tips"), slot0:findTF("tips/tpl"))
+	slot0.chatTr = slot0:findTF("chat")
+	slot0.chatTxt = slot0.chatTr:GetComponent(typeof(Text))
 	slot0.changeSkinBtn = MainChangeSkinBtn.New(slot0.changeBtn, slot0.event)
-	slot0.systemTimeUtil = SystemTimeUtil.New()
+	slot0.systemTimeUtil = LocalSystemTimeUtil.New()
 	slot0.playedList = {}
 end
 
@@ -49,7 +51,40 @@ slot0.OnInit = function(slot0)
 	slot0:bind(GAME.REMOVE_LAYERS, function (slot0, slot1)
 		uv0:OnRemoveLayer(slot1.context)
 	end)
+	slot0:bind(MainWordView.SET_CONTENT, function (slot0, slot1, slot2)
+		uv0:SetChatTxt(slot2)
+	end)
+	slot0:bind(MainWordView.START_ANIMATION, function (slot0, slot1, slot2)
+		uv0:RemoveChatTimer()
+		uv0:AddChatTimer(slot1 + slot2)
+	end)
+	slot0:bind(MainWordView.STOP_ANIMATION, function (slot0, slot1, slot2)
+		uv0:RemoveChatTimer()
+		uv0:SetChatTxt("")
+	end)
 	slot0.changeSkinBtn:Flush()
+end
+
+slot0.RemoveChatTimer = function(slot0)
+	if slot0.chatTimer then
+		slot0.chatTimer:Stop()
+
+		slot0.chatTimer = nil
+	end
+end
+
+slot0.AddChatTimer = function(slot0, slot1)
+	slot0.chatTimer = Timer.New(function ()
+		uv0:SetChatTxt("")
+	end, slot1, 1)
+
+	slot0.chatTimer:Start()
+end
+
+slot0.SetChatTxt = function(slot0, slot1)
+	setActive(slot0.chatTr, slot1 and slot1 ~= "")
+
+	slot0.chatTxt.text = slot1 or ""
 end
 
 slot0.OnRemoveLayer = function(slot0, slot1)
@@ -59,6 +94,7 @@ slot0.OnRemoveLayer = function(slot0, slot1)
 end
 
 slot0.Exit = function(slot0, slot1)
+	slot0:RemoveChatTimer()
 	slot0:TrackingSwitchShip()
 	slot0.dftAniEvent:SetEndEvent(nil)
 	slot0.dftAniEvent:SetEndEvent(function ()
@@ -107,6 +143,7 @@ slot0.Show = function(slot0)
 	slot0:FlushTime()
 	slot0:FlushDate()
 	slot0:AddTimer()
+	slot0:SetChatTxt("")
 
 	slot0.changeSkinCount = 0
 	slot0.enterTime = pg.TimeMgr.GetInstance():GetServerTime()
@@ -295,11 +332,21 @@ slot0.FlushTime = function(slot0)
 	slot1 = slot0.systemTimeUtil
 
 	slot1:SetUp(function (slot0, slot1, slot2)
-		if (slot0 > 12 and slot0 - 12 or slot0) < 10 then
-			slot3 = "0" .. slot3
+		if SettingsMainScenePanel.IsEnable24HourSystem() then
+			uv0.timeEnTxt.color = Color.New(1, 1, 1, 0)
+		else
+			uv0.timeEnTxt.color = Color.New(1, 1, 1, 1)
+
+			if slot0 > 12 then
+				slot0 = slot0 - 12
+			end
 		end
 
-		uv0.timeTxt.text = slot3 .. ":" .. slot1
+		if slot0 < 10 then
+			slot0 = "0" .. slot0
+		end
+
+		uv0.timeTxt.text = slot0 .. ":" .. slot1
 		uv0.timeEnTxt.text = slot2
 	end)
 end
@@ -339,6 +386,8 @@ slot0.FlushDate = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	slot0:RemoveChatTimer()
+
 	slot0.exited = true
 
 	slot0.dftAniEvent:SetEndEvent(nil)

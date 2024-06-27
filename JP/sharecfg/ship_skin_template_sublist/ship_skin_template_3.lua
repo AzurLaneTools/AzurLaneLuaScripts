@@ -1,6 +1,113 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_3 = {
+	[103132] = {
+		name = "エクストリームゲームX",
+		id = 103132,
+		desc = "ああ、指揮官、ちょっとそこどいて！……ったく、気をつけろよ！ぶつかったら危ないんだぞ！",
+		illustrator2 = -1,
+		ship_group = 10313,
+		group_index = 2,
+		prefab = "mingniabolisi_3",
+		painting = "mingniabolisi_3",
+		hand_id = 16,
+		bgm = "",
+		shop_type_id = 13,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "132",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70330,
+		voice_actor = 153,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.95,
+					1.074,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.966,
+					1.181,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.009,
+					-0.006,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.33,
+							0.14
+						}
+					}
+				}
+			}
+		}
+	},
 	[103133] = {
 		name = "聖夜のモービルドライブ",
 		id = 103133,
@@ -10520,7 +10627,7 @@ pg.base.ship_skin_template_3 = {
 			4
 		},
 		live2d_offset = {
-			190,
+			90,
 			-110,
 			0
 		},
@@ -12019,123 +12126,6 @@ pg.base.ship_skin_template_3 = {
 						}
 					}
 				}
-			}
-		}
-	},
-	[107100] = {
-		name = "ヨークタウンⅡ",
-		id = 107100,
-		desc = "エセックス級空母――ヨークタウンⅡ(CV-10)",
-		illustrator2 = -1,
-		ship_group = 10710,
-		group_index = 0,
-		prefab = "yuekechengII",
-		painting = "yuekechengII",
-		hand_id = 1,
-		bgm = "",
-		shop_type_id = 0,
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 42,
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.3,
-					1.4,
-					0
-				}
-			},
-			plane = {
-				{
-					1.41,
-					1.11,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.51,
-							2.31,
-							0
-						}
-					}
-				}
-			}
-		},
-		spine_offset = {
-			{
-				-83,
-				-1643,
-				0
-			},
-			{
-				0.88
-			}
-		},
-		special_effects = {
-			"lihui_yuekechengII",
-			{
-				2418,
-				-99,
-				0
-			},
-			{
-				2
 			}
 		}
 	}

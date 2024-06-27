@@ -276,7 +276,7 @@ slot0.mainHandler = function(slot0, slot1)
 
 	slot34:resetUsedDailyFinishCnt()
 
-	slot34 = getProxy(AvatarFrameProxy)
+	slot34 = getProxy(TotalTaskProxy)
 
 	slot34:clearTimeOut()
 	slot0:sendNotification(GAME.ZERO_HOUR_OP_DONE)

@@ -83,7 +83,11 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5)
 		slot16:SetDefaultTb(slot0.defaultTb)
 
 		if slot16:ExistOption() then
-			if slot7[slot6 + 1] then
+			slot6 = slot6 + 1
+
+			slot16:SetOptionIndex(slot6)
+
+			if slot7[slot6] then
 				slot16:SetOptionSelCodes(slot7[slot6])
 			end
 

@@ -1,6 +1,1224 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_19 = {
+	[9703030] = {
+		name = "フォッシュ(META)",
+		id = 9703030,
+		desc = "やあ、ご機嫌よう指揮官くん、征戦の主長・フォッシュから挨拶申し上げよう。ふふ、どこの主長かって？――それはねえ、もちろん地獄のさ！ははは、これからよろしくね♪",
+		illustrator2 = -1,
+		ship_group = 970303,
+		group_index = 0,
+		prefab = "fuxu_alter",
+		painting = "fuxu_alter",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 292,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.357,
+					0.865,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.365,
+					0.856,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.008,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.672,
+					1.353,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.806,
+							1.9,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[9703040] = {
+		name = "ウィチタ(META)",
+		id = 9703040,
+		desc = "指揮官か？よし、お前ならいい。戦場にでも連れて行ってくれ。がっかりさせやしない！",
+		illustrator2 = -1,
+		ship_group = 970304,
+		group_index = 0,
+		prefab = "weiqita_alter",
+		painting = "weiqita_alter",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 24,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.92,
+					0.98,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.95,
+					1.03,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.008,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.14,
+					1.26,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.43,
+							2.24,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[9704010] = {
+		name = "グナイゼナウ(META)",
+		id = 9704010,
+		desc = "あなたは…指揮官、ですね。つまり私に命令する権力を持っていますね。あなたという個体に興味はありませんが、あなたから発せられる命令には従わせていただきます。――今のうちは、ね",
+		illustrator2 = -1,
+		ship_group = 970401,
+		group_index = 0,
+		prefab = "genaisennao_alter",
+		painting = "genaisennao_alter",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 26,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.73,
+					1.031,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.59,
+					1.22,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.47,
+					1.3,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.49,
+							2.38,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[9704020] = {
+		name = "シャルンホルスト(META)",
+		id = 9704020,
+		desc = "鉄血巡洋戦艦シャルンホルストだ。優秀な指揮官と協力できるのを楽しみにしている。我が期待が覆されることがないよう願いたい",
+		illustrator2 = -1,
+		ship_group = 970402,
+		group_index = 0,
+		prefab = "shaenhuosite_alter",
+		painting = "shaenhuosite_alter",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 38,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.57,
+					0.95,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.31,
+					0.96,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.33,
+					1.58,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.39,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[9704030] = {
+		name = "レパルス(META)",
+		id = 9704030,
+		desc = "レナウン級巡洋戦艦、レパルス。いろいろ経験してきたけど…まあ、今はこの母港の一員として、困ったことがあったら何でも任せて",
+		illustrator2 = -1,
+		ship_group = 970403,
+		group_index = 0,
+		prefab = "fanji_alter",
+		painting = "fanji_alter",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 41,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.53,
+					0.76,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.57,
+					0.86,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.59,
+					0.84,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.39,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[9704040] = {
+		name = "レナウン(META)",
+		id = 9704040,
+		desc = "巡洋戦艦レナウン、指揮官様に敬意を表します！願わくば、この歴戦の刃が貴方の力にならんことを",
+		illustrator2 = -1,
+		ship_group = 970404,
+		group_index = 0,
+		prefab = "shengwang_alter",
+		painting = "shengwang_alter",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = 183,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.53,
+					0.76,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.57,
+					0.86,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.59,
+					0.84,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.39,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[9705010] = {
+		name = "扶桑(META)",
+		id = 9705010,
+		desc = "戦艦扶桑です。さすらう魂をなだめようと参りました。指揮官様、祈りか救いか…どちらをご所望でしょうか？",
+		illustrator2 = -1,
+		ship_group = 970501,
+		group_index = 0,
+		prefab = "fusang_alter",
+		painting = "fusang_alter",
+		hand_id = 2,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 71,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.907,
+					1.031,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.59,
+					1.39,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.48,
+					1.405,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.42,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[9705020] = {
+		name = "山城(META)",
+		id = 9705020,
+		desc = "殿様がこの艦隊の指揮官ですか？うんうん、迫力はありますけどまだまだですね。どんな稽古を殿様にしてあげようか……とにかく、楽しみにしていてください！",
+		illustrator2 = -1,
+		ship_group = 970502,
+		group_index = 0,
+		prefab = "shancheng_alter",
+		painting = "shancheng_alter",
+		hand_id = 2,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 71,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.28,
+					1.16,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.04,
+					1.16,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.15,
+					1.27,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.61,
+							2.32,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[9705030] = {
+		name = "アリゾナ(META)",
+		id = 9705030,
+		desc = "私はアリゾナ…申しにくいことですが、本当に私をここに置いてくださっていて良いのでしょうか？…指揮官がそう仰るなら…わかりました",
+		illustrator2 = -1,
+		ship_group = 970503,
+		group_index = 0,
+		prefab = "yalisangna_alter",
+		painting = "yalisangna_alter",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 37,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.58,
+					0.88,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.27,
+					1.1,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.34,
+					1.36,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.35,
+							2.32,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[9705040] = {
+		name = "クイーン・エリザベス(META)",
+		id = 9705040,
+		desc = "あんたが指揮官なのね？まあいいわ、これからあんたの胆力と頭脳はすべて私のために使いなさい！……何をとぼけているの？あんたはもう私の下僕なんだから、まずは忠誠を誓わないと始まらないでしょ？",
+		illustrator2 = -1,
+		ship_group = 970504,
+		group_index = 0,
+		prefab = "yilishabai_alter",
+		painting = "yilishabai_alter",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 28,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.43,
+					0.85,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.49,
+					1.04,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.12,
+					0.02,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.64,
+					1.59,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.54,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[9705050] = {
+		name = "ロドニー(META)",
+		id = 9705050,
+		desc = "あらゆる「ロドニー」に代わって挨拶申し上げます。…「私」は「ロドニー」という概念を具現化した象徴にすぎません。ご理解いただければと……",
+		illustrator2 = -1,
+		ship_group = 970505,
+		group_index = 0,
+		prefab = "luodeni_alter",
+		painting = "luodeni_alter",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 32,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.9,
+					0.99,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.78,
+					1.06,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.12,
+					0.02,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.99,
+					1.65,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.513,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[9706010] = {
 		name = "飛鷹(META)",
 		id = 9706010,
@@ -10617,1235 +11835,6 @@ pg.base.ship_skin_template_19 = {
 						{
 							-0.46,
 							2.49,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[10800052] = {
-		name = "モーニング・ルーティーン",
-		id = 10800052,
-		desc = "少し危機感なさすぎ、って？んー…指揮官さんが相手だから…ってことにしといて下さい",
-		illustrator2 = -1,
-		ship_group = 1080005,
-		group_index = 2,
-		prefab = "mengya_3",
-		painting = "mengya_3",
-		hand_id = 14,
-		bgm = "ssss-az-story",
-		shop_type_id = 20,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "109",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70871,
-		voice_actor = 295,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2,
-			5
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.05,
-					1.01,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.01,
-					0.92,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							2.49,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[10800060] = {
-		name = "飛鳥川ちせ",
-		id = 10800060,
-		desc = "うっわー、なんか知らないとこにきちゃったな……あっ、わたし、飛鳥川ちせです！しばらくここでお世話になるみたいなんで、よろしくお願いしまーす！",
-		illustrator2 = -1,
-		ship_group = 1080006,
-		group_index = 0,
-		prefab = "qianlai",
-		painting = "qianlai",
-		hand_id = 14,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 296,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.9,
-					1.3,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.38,
-					1.26,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.27,
-					1.05,
-					0
-				}
-			},
-			plane = {
-				{
-					1.16,
-					1.73,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							0.97,
-							1.37,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[10800061] = {
-		name = "君と泳ぐ空",
-		id = 10800061,
-		desc = "わあ、晴れてきた！雨上がりの空は気持ちいいな……あっ、指揮官さんだ。おーい！一緒に、空の散歩しませんかー！？",
-		illustrator2 = -1,
-		ship_group = 1080006,
-		group_index = 1,
-		prefab = "qianlai_2",
-		painting = "qianlai_2",
-		hand_id = 14,
-		bgm = "ssss-az-story",
-		shop_type_id = 9,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "105",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70619,
-		voice_actor = 296,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2,
-			5
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.86,
-					1.35,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.47,
-					1.08,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.34,
-					0.99,
-					0
-				}
-			},
-			plane = {
-				{
-					1.169,
-					1.68,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							0.98,
-							1.54,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[10800062] = {
-		name = "ハッピー・ランドリー",
-		id = 10800062,
-		desc = "あっちゃ～、こんな気の抜けた格好でいるところ見られたら、さすがに恥ずかしいじゃないっすか～",
-		illustrator2 = -1,
-		ship_group = 1080006,
-		group_index = 2,
-		prefab = "qianlai_3",
-		painting = "qianlai_3",
-		hand_id = 14,
-		bgm = "ssss-az-story",
-		shop_type_id = 20,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "109",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70873,
-		voice_actor = 296,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2,
-			5
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.86,
-					1.35,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.47,
-					1.08,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.34,
-					0.99,
-					0
-				}
-			},
-			plane = {
-				{
-					1.169,
-					1.68,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							0.98,
-							1.54,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[10800070] = {
-		name = "ムジナ",
-		id = 10800070,
-		desc = "怪獣優生思想・ムジナ。今は戦艦ってことになってる。この世界にも……怪獣はいないんだね",
-		illustrator2 = -1,
-		ship_group = 1080007,
-		group_index = 0,
-		prefab = "he",
-		painting = "he",
-		hand_id = 2,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 86,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.38,
-					1.1,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.33,
-					1.38,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							0.68,
-							2.85,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[10800071] = {
-		name = "黄金色の遊歩道",
-		id = 10800071,
-		desc = "指揮官くんも今帰り？だったら、途中まで一緒に戻ろうよ。イチョウでも見ながら……さ",
-		illustrator2 = -1,
-		ship_group = 1080007,
-		group_index = 1,
-		prefab = "he_2",
-		painting = "he_2",
-		hand_id = 2,
-		bgm = "ssss-az-story",
-		shop_type_id = 9,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "105",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "1101",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70622,
-		voice_actor = 86,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2,
-			5
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.45,
-					1.07,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.14,
-					1.33,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.43,
-							2.5,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[10800080] = {
-		name = "2代目",
-		id = 10800080,
-		desc = "はて、ここは一体…あ、初めまして。私は2代目と申します。グリッドナイト同盟を…ってここではあまり関係ないかもしれないですね",
-		illustrator2 = -1,
-		ship_group = 1080008,
-		group_index = 0,
-		prefab = "erdaimu",
-		painting = "erdaimu",
-		hand_id = 2,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 376,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.48,
-					1.98,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					2.46,
-					2.13,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							0.64,
-							2.2,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[10800081] = {
-		name = "プライベート・タイム",
-		id = 10800081,
-		desc = "ちょっとだけ、お待ちいただけます？この報告だけ。指揮官さんもコーヒーでいいですか？あ…すみません、カップがこれしかなくて…一緒でいいですか？",
-		illustrator2 = -1,
-		ship_group = 1080008,
-		group_index = 1,
-		prefab = "erdaimu_2",
-		painting = "erdaimu_2",
-		hand_id = 2,
-		bgm = "ssss-az-story",
-		shop_type_id = 20,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "109",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70869,
-		voice_actor = 376,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2,
-			5
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.48,
-					1.98,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					2.46,
-					2.13,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							0.64,
-							2.2,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[10800090] = {
-		name = "ひめ",
-		id = 10800090,
-		desc = "あれ？ここって…あ、えーっと、私（わたくし）に何を求めますか人の子よ…って、そういうのいらない？あはは…初めまして異国のお方。私（わたし）の名はー…うん、気軽にひめって呼んで",
-		illustrator2 = -1,
-		ship_group = 1080009,
-		group_index = 0,
-		prefab = "gongzhu",
-		painting = "gongzhu",
-		hand_id = 2,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 182,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.872,
-					0.632,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.887,
-					0.654,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.196,
-					1.241,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.723,
-							1.671,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[10800091] = {
-		name = "ナイトキャップ・タイム",
-		id = 10800091,
-		desc = "わ！見つかっちゃったよ…いいじゃん、個人的などんな格好で晩酌してたってさ…何？お酒でちょっと火照ったお姉さんの柔肌が、そんなに気になる？",
-		illustrator2 = -1,
-		ship_group = 1080009,
-		group_index = 1,
-		prefab = "gongzhu_2",
-		painting = "gongzhu_2",
-		hand_id = 2,
-		bgm = "ssss-az-story",
-		shop_type_id = 20,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "142",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70868,
-		voice_actor = 182,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2,
-			5
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.872,
-					0.632,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.887,
-					0.654,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.196,
-					1.241,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.723,
-							1.671,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[10800100] = {
-		name = "特殊装備",
-		id = 10800100,
-		desc = "特殊装備・効果",
-		illustrator2 = -1,
-		ship_group = 1080010,
-		group_index = 0,
-		prefab = "gulite_robot3",
-		painting = "gulite_robot3",
-		hand_id = 14,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = -1,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.03,
-					0.85,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.05,
-					0.86,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							2.515,
 							0
 						}
 					}

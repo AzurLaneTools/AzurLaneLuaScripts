@@ -1,6 +1,313 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_11 = {
+	[307023] = {
+		name = "白羽の貴華",
+		id = 307023,
+		desc = "この彫像、アイリスの教えからきたやつか。芸術に通じているわけではないが、豪華…そして人に敬虔さを抱かせる何かを感じ取れるな。指揮官、お前は何を感じる？",
+		illustrator2 = -1,
+		ship_group = 30702,
+		group_index = 3,
+		prefab = "Jiahe_5",
+		painting = "Jiahe_5",
+		hand_id = 2,
+		bgm = "",
+		shop_type_id = 7,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "135",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = 137,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70424,
+		voice_actor = 9,
+		spine_offset = "",
+		illustrator = 8,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.254,
+					1.12,
+					0
+				}
+			},
+			plane = {
+				{
+					1.214,
+					1.114,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[307024] = {
+		name = "淡桜の息吹",
+		id = 307024,
+		desc = "まさかこの衣装を受け取るためにお前と旅をするとはな……母港や姉さまのことは気になるが、お前の言う通り少しの間ゆっくりとするか",
+		illustrator2 = -1,
+		ship_group = 30702,
+		group_index = 4,
+		prefab = "jiahe_4",
+		painting = "jiahe_4",
+		hand_id = 2,
+		bgm = "",
+		shop_type_id = 2,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "142",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = 137,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70532,
+		voice_actor = 9,
+		spine_offset = "",
+		illustrator = 8,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.1,
+					1.01,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.007,
+					-0.006,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.088,
+					1.003,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.4,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[307025] = {
+		name = "鸞翔影集",
+		id = 307025,
+		desc = "こんなところで何をしている！…指揮官か。姉様に会いに行ったと思ったがなぜここに…空気を吸いたいならいいが、姉様が変なことをしでかす前に戻ったほうが身のためだぞ",
+		illustrator2 = -1,
+		ship_group = 30702,
+		group_index = 5,
+		prefab = "jiahe_6",
+		painting = "jiahe_6",
+		hand_id = 2,
+		bgm = "",
+		shop_type_id = 3,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "152",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = 137,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70660,
+		voice_actor = 9,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.035,
+					0.994,
+					0
+				}
+			},
+			plane = {
+				{
+					1.07,
+					1.1,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.494,
+							2.391,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[307026] = {
 		name = "狐舞皚々",
 		id = 307026,
@@ -11497,15 +11804,15 @@ pg.base.ship_skin_template_11 = {
 			}
 		}
 	},
-	[401460] = {
-		name = "Z46",
-		id = 401460,
-		desc = "1936C型駆逐艦・Z46",
+	[401430] = {
+		name = "Z43",
+		id = 401430,
+		desc = "1936B型駆逐艦-Z43",
 		illustrator2 = -1,
-		ship_group = 40146,
+		ship_group = 40143,
 		group_index = 0,
-		prefab = "Z46",
-		painting = "Z46",
+		prefab = "z43",
+		painting = "z43",
 		hand_id = 13,
 		bgm = "",
 		shop_type_id = 0,
@@ -11525,9 +11832,9 @@ pg.base.ship_skin_template_11 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = 60,
+		voice_actor = 276,
 		spine_offset = "",
-		illustrator = 5,
+		illustrator = -1,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
@@ -11622,24 +11929,25 @@ pg.base.ship_skin_template_11 = {
 			}
 		}
 	},
-	[401461] = {
-		name = "ファーストサマー",
-		id = 401461,
-		desc = "喧騒な砂浜、笑顔溢れる海辺……はじめて体験した別様の夏、嫌悪などするはずもなく",
+	[401431] = {
+		name = "二人の秘密基地",
+		id = 401431,
+		desc = "どうして上手く包帯を巻け……んんんー！あいたたたた！……え？しき――しゅ、宿命の人よ、手を貸せ！魔力制御の包帯が暴走している…！",
 		illustrator2 = -1,
-		ship_group = 40146,
+		ship_group = 40143,
 		group_index = 1,
-		prefab = "Z46_2",
-		painting = "Z46_2",
+		prefab = "z43_2",
+		painting = "z43_2",
 		hand_id = 13,
 		bgm = "",
-		shop_type_id = 6,
+		shop_type_id = 4,
 		special_effects = "",
 		gyro = 0,
 		lip_smoothing = 0,
+		l2d_animations = "",
 		ship_l2d_id = "",
 		l2d_drag_rate = "",
-		bg = "106",
+		bg = "509",
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		skin_type = 0,
@@ -11648,23 +11956,23 @@ pg.base.ship_skin_template_11 = {
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
-		shop_id = 70076,
-		voice_actor = 60,
+		shop_id = 71023,
+		voice_actor = 276,
 		spine_offset = "",
-		illustrator = 5,
+		illustrator = -1,
 		rarity_bg = "",
 		time = "",
 		l2d_para_range = "",
 		lip_sync_gain = 0,
 		live2d_offset_profile = "",
 		show_skin = "stand",
+		l2d_voice_calibrate = "",
 		tag = {
-			1,
 			2
 		},
 		live2d_offset = {
-			45,
-			-21.24,
+			0,
+			0,
 			0
 		},
 		fx_container = {
@@ -11692,22 +12000,22 @@ pg.base.ship_skin_template_11 = {
 		bound_bone = {
 			cannon = {
 				{
-					0.7,
-					0.41,
+					0.82,
+					0.4,
 					0
 				}
 			},
 			vicegun = {
 				{
-					0.77,
+					0.82,
 					0.4,
 					0
 				}
 			},
 			torpedo = {
 				{
-					0.19,
-					0.1,
+					0.22,
+					0.13,
 					0
 				}
 			},
@@ -11721,405 +12029,26 @@ pg.base.ship_skin_template_11 = {
 		},
 		smoke = {
 			{
-				50,
+				70,
 				{
 					{
 						"smoke",
 						{
-							-0.61,
-							2.14,
-							-1.05
+							-0.43,
+							0.37,
+							-0.14
 						}
 					}
 				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_special",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			propose = 2.5
-		}
-	},
-	[401462] = {
-		name = "スカベンジハントレス",
-		id = 401462,
-		desc = "努力と根性、目標と希望、歓喜と消沈……「運動会」……楽しみだ",
-		illustrator2 = -1,
-		ship_group = 40146,
-		group_index = 2,
-		prefab = "Z46_3",
-		painting = "Z46_3",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 13,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "112",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70328,
-		voice_actor = 60,
-		spine_offset = "",
-		illustrator = 5,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		tag = {
-			1,
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
 			},
 			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.309,
-					1.209,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.284,
-					1.32,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.013,
-					0.011,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.321,
-					1.206,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
+				40,
 				{
 					{
 						"smoke",
 						{
-							-0.61,
-							2.14,
-							-1.05
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_special",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			login = 0.67
-		}
-	},
-	[401463] = {
-		name = "Schokolade★Schicksal",
-		id = 401463,
-		desc = "輝けるサイリウム、影映すホリゾント、歓声とメロディ、歌声、迴響が織りなす多重層（クインテット）……未知の舞台に登っている私……ときめく感情、悪くない",
-		illustrator2 = -1,
-		ship_group = 40146,
-		group_index = 3,
-		prefab = "Z46_4",
-		painting = "Z46_4",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 11,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "120",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70436,
-		voice_actor = 60,
-		spine_offset = "",
-		illustrator = 5,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			1,
-			4
-		},
-		live2d_offset = {
-			0,
-			-65,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.633,
-					1.34,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.596,
-					1.389,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0.225,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.596,
-					1.399,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.523,
-							2.645,
-							-1.05
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_special",
-			"touch_head"
-		}
-	},
-	[401464] = {
-		name = "切り絵のファンタジア",
-		id = 401464,
-		desc = "紙を切り抜いて作った動物の絵…どうやら私の理解の範疇をまた超越しているようだ。飾れば良いことが起きるからすれば、もしや――印、紋章、聖印ではなかろうか",
-		illustrator2 = -1,
-		ship_group = 40146,
-		group_index = 4,
-		prefab = "Z46_5",
-		painting = "Z46_5",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 3,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "144",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70483,
-		voice_actor = 60,
-		spine_offset = "",
-		illustrator = 5,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			-65,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.393,
-					1.009,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.41,
-					1,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0.005,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.422,
-					1.004,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.432,
-							2.471,
+							-0.19,
+							1.94,
 							-1.05
 						}
 					}

@@ -1636,5 +1636,29 @@ pg.voice_bgm = {
 		special_bgm = "",
 		time = "",
 		bgm = "theme-frederick"
+	},
+	ChildishnessMainPage = {
+		default_bgm = "story-richang-7",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-7"
+	},
+	KindergartenScene = {
+		default_bgm = "story-richang-9",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-9"
+	},
+	TongXinSpringLayer = {
+		default_bgm = "story-richang-10",
+		special_bgm = "",
+		time = "",
+		bgm = "story-richang-10"
+	},
+	BossRushAlvitScene = {
+		default_bgm = "story-richang-12",
+		special_bgm = "story-richang-11",
+		time = "",
+		bgm = "story-richang-12"
 	}
 }

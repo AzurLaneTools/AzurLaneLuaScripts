@@ -5277,7 +5277,62 @@ pg.activity_ins_language = setmetatable({
 		"ins_op_478_1_1",
 		"op_reply_478_1_1",
 		"ins_op_478_1_2",
-		"op_reply_478_1_2"
+		"op_reply_478_1_2",
+		"ins_479",
+		"ins_discuss_479_1",
+		"ins_reply_479_1_1",
+		"ins_reply_479_1_2",
+		"ins_reply_479_1_3",
+		"ins_discuss_479_2",
+		"ins_reply_479_2_1",
+		"ins_reply_479_2_2",
+		"ins_discuss_479_3",
+		"ins_reply_479_3_1",
+		"ins_reply_479_3_2",
+		"ins_reply_479_3_3",
+		"ins_op_479_1_1",
+		"op_reply_479_1_1",
+		"ins_op_479_1_2",
+		"op_reply_479_1_2",
+		"ins_480",
+		"ins_discuss_480_1",
+		"ins_reply_480_1_1",
+		"ins_reply_480_1_2",
+		"ins_discuss_480_2",
+		"ins_reply_480_2_1",
+		"ins_reply_480_2_2",
+		"ins_discuss_480_3",
+		"ins_reply_480_3_1",
+		"ins_reply_480_3_2",
+		"ins_reply_480_3_3",
+		"ins_op_480_1_1",
+		"op_reply_480_1_1",
+		"ins_op_480_1_2",
+		"op_reply_480_1_2",
+		"ins_481",
+		"ins_discuss_481_1",
+		"ins_reply_481_1_1",
+		"ins_reply_481_1_2",
+		"ins_discuss_481_2",
+		"ins_reply_481_2_1",
+		"ins_reply_481_2_2",
+		"ins_op_481_1_1",
+		"op_reply_481_1_1",
+		"ins_op_481_1_2",
+		"op_reply_481_1_2",
+		"ins_482",
+		"ins_discuss_482_1",
+		"ins_reply_482_1_1",
+		"ins_reply_482_1_2",
+		"ins_reply_482_1_3",
+		"ins_reply_482_1_4",
+		"ins_discuss_482_2",
+		"ins_reply_482_2_1",
+		"ins_reply_482_2_2",
+		"ins_op_482_1_1",
+		"op_reply_482_1_1",
+		"ins_op_482_1_2",
+		"op_reply_482_1_2"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -20634,480 +20689,645 @@ pg.base.activity_ins_language = {
 		value = "え、ええと…がんばって★ふぁいと！"
 	},
 	ins_466 = {
-		value = ""
+		value = "ふぅ…幽霊さんは休憩中なの～"
 	},
 	ins_discuss_466_1 = {
-		value = ""
+		value = "このゲームの進行度…あなた、ちゃんと働いているの？"
 	},
 	ins_reply_466_1_1 = {
-		value = ""
+		value = "もちろんなの～。このロング・アイランドの超高速ゲーム攻略を見くびらないでほしいの～"
 	},
 	ins_reply_466_1_2 = {
-		value = ""
+		value = "超高速ゲーム攻略だって？"
 	},
 	ins_reply_466_1_3 = {
-		value = ""
+		value = "ふふ～ん、コツが気になるなら後で教えてあげるの～"
 	},
 	ins_discuss_466_2 = {
-		value = ""
+		value = "ふぅーん、ポテチと飲み物をこんなに隠してるなんてな"
 	},
 	ins_reply_466_2_1 = {
-		value = ""
+		value = "だって幽霊さんの命の源だもん～"
 	},
 	ins_reply_466_2_2 = {
-		value = ""
+		value = "酸素コーラにポテチ…？ウィダーも欲しい…"
 	},
 	ins_reply_466_2_3 = {
-		value = ""
+		value = "うわっ…今度は海賊のお出ましだぜ"
 	},
 	ins_op_466_1_1 = {
-		value = ""
+		value = "夜に一緒にゲームする？"
 	},
 	op_reply_466_1_1 = {
-		value = ""
+		value = "やった～指揮官さんに負けないからね～"
 	},
 	ins_op_466_1_2 = {
-		value = ""
+		value = "「忙中閑あり」と…"
 	},
 	op_reply_466_1_2 = {
-		value = ""
+		value = "指揮官さん、ゲーム画面を覗き見しないで～"
 	},
 	ins_467 = {
-		value = ""
+		value = "クルーズ船の日誌だけじゃなく、観察日記も少しつけましたわ"
 	},
 	ins_discuss_467_1 = {
-		value = ""
+		value = "わぁー指揮官くんの観察日記だ！見せてもらえない？"
 	},
 	ins_reply_467_1_1 = {
-		value = ""
+		value = "…大事なスケジュールが書かれた手帳ですからそれはできませんわ"
 	},
 	ins_reply_467_1_2 = {
-		value = ""
+		value = "そんなー"
 	},
 	ins_discuss_467_2 = {
-		value = ""
+		value = "大好きな指揮官の情報がみっちり詰まった宝物だ！うぅ、そこまでされたら敵わないかも"
 	},
 	ins_reply_467_2_1 = {
-		value = ""
+		value = "ええ、そういう意味では確かに宝物ですわ♪「これだけはエムデン、絶対に譲れないもの。ふふふ♪」"
 	},
 	ins_op_467_1_1 = {
-		value = ""
+		value = "一体どうやって…？"
 	},
 	op_reply_467_1_1 = {
-		value = ""
+		value = "秘密ですわ♡「気になるなら、エムデンに教えてって懇願しなさい♥」"
 	},
 	ins_op_467_1_2 = {
-		value = ""
+		value = "観察対象にされた気分…"
 	},
 	op_reply_467_1_2 = {
-		value = ""
+		value = "「そうよ、人間♥」エムデンに素直に付き合ってください♡"
 	},
 	ins_468 = {
-		value = ""
+		value = "新型冷却水、感情モジュールの温度を素早く下げるだけでなく、味覚モジュールにもフレンドリーの感触"
 	},
 	ins_discuss_468_1 = {
-		value = ""
+		value = "ガスコーニュ、レシピの再現を試みる"
 	},
 	ins_reply_468_1_1 = {
-		value = ""
+		value = "調合レシピの暗号化、完了。アルザスの秘伝レシピを送信…ごくごく"
 	},
 	ins_reply_468_1_2 = {
-		value = ""
+		value = "成分を分析…ライムジュースの比例が極めて高いことを確認"
 	},
 	ins_discuss_468_2 = {
-		value = ""
+		value = "色合いは魅惑的、香りは抗いがたく、まさしく人を蠱惑する魔女の甘露ってことですね…"
 	},
 	ins_reply_468_2_1 = {
-		value = ""
+		value = "指揮官の褒め方とちょっと似て…？はっ、かかか感情モジュールに反応が！？"
 	},
 	ins_op_468_1_1 = {
-		value = ""
+		value = "さすがアルザス！"
 	},
 	op_reply_468_1_1 = {
-		value = ""
+		value = "アルザスには…当然のこと///"
 	},
 	ins_op_468_1_2 = {
-		value = ""
+		value = "ひと口飲んでも？"
 	},
 	op_reply_468_1_2 = {
-		value = ""
+		value = "し、指揮官自ら？アアアア、アルザスの準備を！し、しまった感情モジュールがああ――"
 	},
 	ins_469 = {
-		value = ""
+		value = "これほど美しい景色、心酔わさずにはいられない"
 	},
 	ins_discuss_469_1 = {
-		value = ""
+		value = "月夜に溶け込むメロディーには感動させられるな"
 	},
 	ins_reply_469_1_1 = {
-		value = ""
+		value = "そのメロディーが奏でる物語もまた、月の光に溶け込んでいる"
 	},
 	ins_discuss_469_2 = {
-		value = ""
+		value = "視界良好～作戦にもちょうどいい天気☆"
 	},
 	ins_reply_469_2_1 = {
-		value = ""
+		value = "包み込む静寂にこだまする残響…これすなわち楽園"
 	},
 	ins_op_469_1_1 = {
-		value = ""
+		value = "これが俗に言う「月下麗人」か"
 	},
 	op_reply_469_1_1 = {
-		value = ""
+		value = "褒めていただぎ感謝する。執剣者(ソードテイカー)"
 	},
 	ins_op_469_1_2 = {
-		value = ""
+		value = "自分も聞きたい！"
 	},
 	op_reply_469_1_2 = {
-		value = ""
+		value = "その要望には喜んで応えよう。どんな曲がいい？"
 	},
 	ins_470 = {
-		value = ""
+		value = "フルーレのトランプマジックで、指揮官にディールするよ～シュッシュッ——！"
 	},
 	ins_discuss_470_1 = {
-		value = ""
+		value = "うぅ…フーちゃんすごい…そういうのエペ、全然できそうにないよぉ…"
 	},
 	ins_reply_470_1_1 = {
-		value = ""
+		value = "エペにはエペにしかできないことがあるんだから、凹まないの～"
 	},
 	ins_discuss_470_2 = {
-		value = ""
+		value = "どこかで似たような映画を見た気がするの…『完璧で瀟洒なギャンブルキング』だっけ？"
 	},
 	ins_reply_470_2_1 = {
-		value = ""
+		value = "おお～さすがロング・アイランド！"
 	},
 	ins_op_470_1_1 = {
-		value = ""
+		value = "マジック侮りがたし！"
 	},
 	op_reply_470_1_1 = {
-		value = ""
+		value = "ふっふん♪今日のフルーレはディーリングの女神よ！"
 	},
 	ins_op_470_1_2 = {
-		value = ""
+		value = "イカサマはダメだからな！"
 	},
 	op_reply_470_1_2 = {
-		value = ""
+		value = "そんなことしないって——フルーレはなーんにも知らないからね♪"
 	},
 	ins_471 = {
-		value = ""
+		value = "ご、ごめんなさい…すぐに片付けるから…"
 	},
 	ins_discuss_471_1 = {
-		value = ""
+		value = "わわわ大変！でも大丈夫よぺーちゃん！フルーレが今助けるから！"
 	},
 	ins_reply_471_1_1 = {
-		value = ""
+		value = "うぅ…！ご、ごめんなさい、全部エペのせい…"
 	},
 	ins_discuss_471_2 = {
-		value = ""
+		value = "私もさっき転んじゃいました…やっぱり船がちょっと揺れるせいですかね…おケガはありませんか？"
 	},
 	ins_reply_471_2_1 = {
-		value = ""
+		value = "ちょっとクラクラするだけ…もしかしてエペ、船酔いするの…？"
 	},
 	ins_reply_471_2_2 = {
-		value = ""
+		value = "あれ？艦船のくせに船酔いするの…？もしかして「せってい」？"
 	},
 	ins_reply_471_2_3 = {
-		value = ""
+		value = "雷ちゃん、また難しいこと言っていますね…"
 	},
 	ins_op_471_1_1 = {
-		value = ""
+		value = "こっちにも手伝わせて"
 	},
 	op_reply_471_1_1 = {
-		value = ""
+		value = "あ、ありがとう指揮官…また迷惑をかけちゃった…"
 	},
 	ins_op_471_1_2 = {
-		value = ""
+		value = "確かに船が揺れてた"
 	},
 	op_reply_471_1_2 = {
-		value = ""
+		value = "し、指揮官に励まされちゃった…エペ、これからもっと頑張る…！"
 	},
 	ins_472 = {
-		value = ""
+		value = "今日から3日間、全レストランの料理とドリンクが全部無料で提供されるぞ！みんな、飲みまくれ食べまくれ～"
 	},
 	ins_discuss_472_1 = {
-		value = ""
+		value = "やったわー！遠慮なんてしないからね！"
 	},
 	ins_reply_472_1_1 = {
-		value = ""
+		value = "遠慮なんていらねぇ！食べ残しは持ち帰ってもいいから、ゆっくり食べても大丈夫だ！"
 	},
 	ins_discuss_472_2 = {
-		value = ""
+		value = "よし、じゃあ今日は酒盛りをするか！"
 	},
 	ins_reply_472_2_1 = {
-		value = ""
+		value = "ああ、いつでも付き合うぜ！"
 	},
 	ins_discuss_472_3 = {
-		value = ""
+		value = "あはは♪一気に在庫を掃けた！あざーっす♪"
 	},
 	ins_reply_472_3_1 = {
-		value = ""
+		value = "いいって！その分みんなに楽しんでもらおう！指揮官には特に！"
 	},
 	ins_op_472_1_1 = {
-		value = ""
+		value = "感謝！ハルビンの姐さん！"
 	},
 	op_reply_472_1_1 = {
-		value = ""
+		value = "腹が満たされりゃ、天下太平ってやつだ！"
 	},
 	ins_op_472_1_2 = {
-		value = ""
+		value = "…目覚めよ、我が鉄の胃袋！"
 	},
 	op_reply_472_1_2 = {
-		value = ""
+		value = "指揮官、遠慮せずに腹いっぱい食べな！"
 	},
 	ins_473 = {
-		value = ""
+		value = "ここってぇ…このクルーズ船の秘密の場所ぉ？"
 	},
 	ins_discuss_473_1 = {
-		value = ""
+		value = "探索しがいがありそうだね！"
 	},
 	ins_reply_473_1_1 = {
-		value = ""
+		value = "でも、まずは中に入る方法を見つけないと…"
 	},
 	ins_reply_473_1_2 = {
-		value = ""
+		value = "ふふん、よーく聞け！隠し通路を探すコツは――"
 	},
 	ins_reply_473_1_3 = {
-		value = ""
+		value = "うわ、鞍山姉さんがノックしてる…教えるのはまた今度！"
 	},
 	ins_discuss_473_2 = {
-		value = ""
+		value = "むむ…何やら陰謀めいた匂いがする！"
 	},
 	ins_reply_473_2_1 = {
-		value = ""
+		value = "確かに中は何かが隠されてるみたいな匂いがするね…"
 	},
 	ins_reply_473_2_2 = {
-		value = ""
+		value = "中に一体何が…？待ってて！今そっちに向かうよ！"
 	},
 	ins_op_473_1_1 = {
-		value = ""
+		value = "こんなところは見たことがない"
 	},
 	op_reply_473_1_1 = {
-		value = ""
+		value = "指揮官でさえ知らない場所だから、なおさら探索しがいがあるねぇ…"
 	},
 	ins_op_473_1_2 = {
-		value = ""
+		value = "探しに行くから待ってて"
 	},
 	op_reply_473_1_2 = {
-		value = ""
+		value = "しきかーぁん、探しに来てくれるなんて♥…ぐへへへ、じゃあモガドール、ここで大人しく待つことにする♥"
 	},
 	ins_474 = {
-		value = ""
+		value = "ふふふ。どんな時でも、ご主人さまはシラのご奉仕なしではいられませんね♪"
 	},
 	ins_discuss_474_1 = {
-		value = ""
+		value = "よくできました。ロイヤルメイドに相応しい、優雅で完璧な作法です"
 	},
 	ins_reply_474_1_1 = {
-		value = ""
+		value = "ありがとうございます。メイド長に褒めていただき光栄です"
 	},
 	ins_reply_474_1_2 = {
-		value = ""
+		value = "目玉焼きの焼き加減もちょうどよくて…ご主人さまをうまく癒せますね～"
 	},
 	ins_reply_474_1_3 = {
-		value = ""
+		value = "ふふふ…ご主人さまの好みに合わせて1秒単位で火を通していたので、誰にも負けない自信がありますよ♪"
 	},
 	ins_discuss_474_2 = {
-		value = ""
+		value = "コーヒーも淹れ終わったし、そろそろお引き取りになってはどうです？"
 	},
 	ins_reply_474_2_1 = {
-		value = ""
+		value = "それはできない相談ですね。ご主人さまにはシラのお給仕が必要ですもの"
 	},
 	ins_reply_474_2_2 = {
-		value = ""
+		value = "なんですって…！？メイド服も着ずにメイドぶるのはやめてもらえます？"
 	},
 	ins_reply_474_2_3 = {
-		value = ""
+		value = "ご主人さまに奉仕するのがメイドですもの――たとえメイドの衣装を身にまとってなくても、シラはご主人さまのメイドなのですよ♡"
 	},
 	ins_op_474_1_1 = {
-		value = ""
+		value = "ご苦労様、シラ"
 	},
 	op_reply_474_1_1 = {
-		value = ""
+		value = "とんでもありません。ご主人さまにはシラがいないとダメですもの――はい、あーんしてくださいませ♡"
 	},
 	ins_op_474_1_2 = {
-		value = ""
+		value = "いただきまぁーす！"
 	},
 	op_reply_474_1_2 = {
-		value = ""
+		value = "ご主人さまの手を煩わせるわけにはいきませんよ？シラが食べさせて差し上げます――はい、あーんしてくださいませ♡"
 	},
 	ins_475 = {
-		value = ""
+		value = "なんだか…クラクラする…"
 	},
 	ins_discuss_475_1 = {
-		value = ""
+		value = "ラフィーも…眠い…Zzz…"
 	},
 	ins_reply_475_1_1 = {
-		value = ""
+		value = "ちょっと…ラフィーがタシュケントをパジャマパーティーに誘うって話だったでしょ？"
 	},
 	ins_reply_475_1_2 = {
-		value = ""
+		value = "眠すぎて忘れた…ラフィー、もう寝る…Zzz…"
 	},
 	ins_reply_475_1_3 = {
-		value = ""
+		value = "はぁ…面倒…こほん。タシュケント、今度一緒に遊びませんか？"
 	},
 	ins_reply_475_1_4 = {
-		value = ""
+		value = "あっそ…ちょっと考えさせて"
 	},
 	ins_discuss_475_2 = {
-		value = ""
+		value = "綺麗な衣装！シワがつかないように気を付けてね！"
 	},
 	ins_reply_475_2_1 = {
-		value = ""
+		value = "ありがとう…でもやっぱりゴロゴロするのが気持ちいいね…"
 	},
 	ins_reply_475_2_2 = {
-		value = ""
+		value = "じゃあシワ取りスプレーを試してみない？効果はガチよ！"
 	},
 	ins_reply_475_2_3 = {
-		value = ""
+		value = "こういう時いつも明石が出てくるのに、尾張さんが代役なんでしょうか？なんだか慣れません！＞＜"
 	},
 	ins_discuss_475_3 = {
-		value = ""
+		value = "せっかくのバカンスだから、一緒にゲームでもやらないか？"
 	},
 	ins_reply_475_3_1 = {
-		value = ""
+		value = "あっそ…挑戦なら受けて立つよ"
 	},
 	ins_reply_475_3_2 = {
-		value = ""
+		value = "いい返事だ！そう来なくちゃな！"
 	},
 	ins_op_475_1_1 = {
-		value = ""
+		value = "まだ遊び足りてない？"
 	},
 	op_reply_475_1_1 = {
-		value = ""
+		value = "同志ちゃんも一緒に…どう？"
 	},
 	ins_op_475_1_2 = {
-		value = ""
+		value = "今そっちに行くよ"
 	},
 	op_reply_475_1_2 = {
-		value = ""
+		value = "じゃあ同志ちゃんの場所をキープしておく…ゲームももうすぐだからね…"
 	},
 	ins_476 = {
-		value = ""
+		value = "チェシャーのマジック花火パフォーマンス、さあさあ♪"
 	},
 	ins_discuss_476_1 = {
-		value = ""
+		value = "おお！すごい！火薬の量を10倍にしたらどんな奇跡が…"
 	},
 	ins_reply_476_1_1 = {
-		value = ""
+		value = "そうにゃったらチェシャーのマジックがきっと世界中を照らすはず！そしたらダンナさまがどこにいても見れるね♪"
 	},
 	ins_reply_476_1_2 = {
-		value = ""
+		value = "あ！いいこと思いついた！…えへへ…"
 	},
 	ins_discuss_476_2 = {
-		value = ""
+		value = "意外と見栄えのいい花火ですね…銃砲にもなりますか？"
 	},
 	ins_reply_476_2_1 = {
-		value = ""
+		value = "えへへ…チェシャーの愛のマジックだもん♪銃砲にゃら…花火をちょっと改造すればいけるかも？"
 	},
 	ins_reply_476_2_2 = {
-		value = ""
+		value = "なるほど…わかりました。試させていただきます"
 	},
 	ins_reply_476_2_3 = {
-		value = ""
+		value = "シェフィールド、何をする気ですか？"
 	},
 	ins_discuss_476_3 = {
-		value = ""
+		value = "めっちゃ綺麗っすね…花火大会でもやる予定っすか？"
 	},
 	ins_reply_476_3_1 = {
-		value = ""
+		value = "ふっふん…違うよ！これはね、チェシャーがダンナさまに用意したサプライズマジックにゃんだよ♪"
 	},
 	ins_reply_476_3_2 = {
-		value = ""
+		value = "こんな大掛かりな手品、フルーレもやってみたいな～。指揮官もきっと驚いてくれるし～、えへへ"
 	},
 	ins_reply_476_3_3 = {
-		value = ""
+		value = "じゃあ今度チェシャーが教えてあげる！"
 	},
 	ins_op_476_1_1 = {
-		value = ""
+		value = "人生最高のマジックショーだ！"
 	},
 	op_reply_476_1_1 = {
-		value = ""
+		value = "やった！ダンナさまが気に入ってくれて嬉しい！えへへ、ダンナさま、ぎゅーってして♪"
 	},
 	ins_op_476_1_2 = {
-		value = ""
+		value = "一緒に花火を楽しもう"
 	},
 	op_reply_476_1_2 = {
-		value = ""
+		value = "喜んで！では、ダンナさまのための二発目、発射するよー♪"
 	},
 	ins_477 = {
-		value = ""
+		value = "どんな獲物であろうと…雪原の狼が深淵に落としてやる"
 	},
 	ins_discuss_477_1 = {
-		value = ""
+		value = "最も難しい角度から見事に決めたな！面白いっ！"
 	},
 	ins_reply_477_1_1 = {
-		value = ""
+		value = "そっちもなかなかやる。さっきはワンショットでポケットインしたじゃないか"
 	},
 	ins_reply_477_1_2 = {
-		value = ""
+		value = "さすがだ。今度私も混ぜてくれ"
 	},
 	ins_reply_477_1_3 = {
-		value = ""
+		value = "プレイヤーがどんどん増えてきたな…"
 	},
 	ins_discuss_477_2 = {
-		value = ""
+		value = "クルスク！今度勝負してみないか？"
 	},
 	ins_reply_477_2_1 = {
-		value = ""
+		value = "ああ。手は抜かないぞ"
 	},
 	ins_discuss_477_3 = {
-		value = ""
+		value = "ウォーミングアップは済んだ。先にどっちが勝利を捕まえるか、見てみよう"
 	},
 	ins_reply_477_3_1 = {
-		value = ""
+		value = "ああ。ここからは狩人同士の戦いだ"
 	},
 	ins_op_477_1_1 = {
-		value = ""
+		value = "ワンショットでも挑戦する？"
 	},
 	op_reply_477_1_1 = {
-		value = ""
+		value = "あまりに早く終わってしまってもつまらない。獲物を泳がせておくのが好きだ"
 	},
 	ins_op_477_1_2 = {
-		value = ""
+		value = "挑戦者が次々と…"
 	},
 	op_reply_477_1_2 = {
-		value = ""
+		value = "雪原の狼は挑戦を拒まない。お前も狩りに加わりたいか？"
 	},
 	ins_478 = {
-		value = ""
+		value = "極意。水浴びで開眼す"
 	},
 	ins_discuss_478_1 = {
-		value = ""
+		value = "刀を持っていなくても平気だと？この白龍も知らぬ秘訣でもあるというのか？"
 	},
 	ins_reply_478_1_1 = {
-		value = ""
+		value = "己が手に刀があると思えばいい"
 	},
 	ins_reply_478_1_2 = {
-		value = ""
+		value = "…うわああ！だ、だめぇ……あぅ、む、無理だよぉ…"
 	},
 	ins_discuss_478_2 = {
-		value = ""
+		value = "無刀の境地とはこういうことか？修行の道はまだまだ長い"
 	},
 	ins_reply_478_2_1 = {
-		value = ""
+		value = "剣の道に終わりなどない。強者は常にその先を見据えるべきだ"
 	},
 	ins_reply_478_2_2 = {
-		value = ""
+		value = "心得た"
 	},
 	ins_discuss_478_3 = {
-		value = ""
+		value = "風呂に入った後のほかほかミルクのおかげかな？"
 	},
 	ins_reply_478_3_1 = {
-		value = ""
+		value = "確かに牛乳は飲んだが…これはどちらかというと強者の閃きだ"
 	},
 	ins_reply_478_3_2 = {
-		value = ""
+		value = "土佐さんもようやくお風呂上がりの牛乳の素晴らしさが分かったのですね～。よかったです～"
 	},
 	ins_reply_478_3_3 = {
-		value = ""
+		value = "貴様ら……"
 	},
 	ins_op_478_1_1 = {
-		value = ""
+		value = "新しいスキルを覚える感じ？"
 	},
 	op_reply_478_1_1 = {
-		value = ""
+		value = "貴様も試すがいい。ひらめくやもしれんぞ"
 	},
 	ins_op_478_1_2 = {
-		value = ""
+		value = "噂に聞く「闘気の刃」か…？"
 	},
 	op_reply_478_1_2 = {
+		value = "それは初めて聞くが。…中々凄まじい名前だ"
+	},
+	ins_479 = {
+		value = ""
+	},
+	ins_discuss_479_1 = {
+		value = ""
+	},
+	ins_reply_479_1_1 = {
+		value = ""
+	},
+	ins_reply_479_1_2 = {
+		value = ""
+	},
+	ins_reply_479_1_3 = {
+		value = ""
+	},
+	ins_discuss_479_2 = {
+		value = ""
+	},
+	ins_reply_479_2_1 = {
+		value = ""
+	},
+	ins_reply_479_2_2 = {
+		value = ""
+	},
+	ins_discuss_479_3 = {
+		value = ""
+	},
+	ins_reply_479_3_1 = {
+		value = ""
+	},
+	ins_reply_479_3_2 = {
+		value = ""
+	},
+	ins_reply_479_3_3 = {
+		value = ""
+	},
+	ins_op_479_1_1 = {
+		value = ""
+	},
+	op_reply_479_1_1 = {
+		value = ""
+	},
+	ins_op_479_1_2 = {
+		value = ""
+	},
+	op_reply_479_1_2 = {
+		value = ""
+	},
+	ins_480 = {
+		value = ""
+	},
+	ins_discuss_480_1 = {
+		value = ""
+	},
+	ins_reply_480_1_1 = {
+		value = ""
+	},
+	ins_reply_480_1_2 = {
+		value = ""
+	},
+	ins_discuss_480_2 = {
+		value = ""
+	},
+	ins_reply_480_2_1 = {
+		value = ""
+	},
+	ins_reply_480_2_2 = {
+		value = ""
+	},
+	ins_discuss_480_3 = {
+		value = ""
+	},
+	ins_reply_480_3_1 = {
+		value = ""
+	},
+	ins_reply_480_3_2 = {
+		value = ""
+	},
+	ins_reply_480_3_3 = {
+		value = ""
+	},
+	ins_op_480_1_1 = {
+		value = ""
+	},
+	op_reply_480_1_1 = {
+		value = ""
+	},
+	ins_op_480_1_2 = {
+		value = ""
+	},
+	op_reply_480_1_2 = {
+		value = ""
+	},
+	ins_481 = {
+		value = ""
+	},
+	ins_discuss_481_1 = {
+		value = ""
+	},
+	ins_reply_481_1_1 = {
+		value = ""
+	},
+	ins_reply_481_1_2 = {
+		value = ""
+	},
+	ins_discuss_481_2 = {
+		value = ""
+	},
+	ins_reply_481_2_1 = {
+		value = ""
+	},
+	ins_reply_481_2_2 = {
+		value = ""
+	},
+	ins_op_481_1_1 = {
+		value = ""
+	},
+	op_reply_481_1_1 = {
+		value = ""
+	},
+	ins_op_481_1_2 = {
+		value = ""
+	},
+	op_reply_481_1_2 = {
+		value = ""
+	},
+	ins_482 = {
+		value = ""
+	},
+	ins_discuss_482_1 = {
+		value = ""
+	},
+	ins_reply_482_1_1 = {
+		value = ""
+	},
+	ins_reply_482_1_2 = {
+		value = ""
+	},
+	ins_reply_482_1_3 = {
+		value = ""
+	},
+	ins_reply_482_1_4 = {
+		value = ""
+	},
+	ins_discuss_482_2 = {
+		value = ""
+	},
+	ins_reply_482_2_1 = {
+		value = ""
+	},
+	ins_reply_482_2_2 = {
+		value = ""
+	},
+	ins_op_482_1_1 = {
+		value = ""
+	},
+	op_reply_482_1_1 = {
+		value = ""
+	},
+	ins_op_482_1_2 = {
+		value = ""
+	},
+	op_reply_482_1_2 = {
 		value = ""
 	}
 }

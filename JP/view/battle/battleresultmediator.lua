@@ -334,7 +334,7 @@ slot0.register = function(slot0)
 
 			slot7 = slot6:GetStaegLevel() + 1
 			slot8 = slot6:GetExpeditionIds()
-			slot10 = not slot2:getCurrentContext():getContextByMediator(ContinuousOperationMediator) or slot9.data.autoFlag
+			uv1.contextData.isAutoFight = not slot2:getCurrentContext():getContextByMediator(ContinuousOperationMediator) or slot9.data.autoFlag
 
 			if slot2:getCurrentContext():getContextByMediator(ContinuousOperationMediator) then
 				if pg.GuildMsgBoxMgr.GetInstance():GetShouldShowBattleTip() and getProxy(GuildProxy):getRawData() and slot12:getWeeklyTask() and slot13.id ~= 0 then
@@ -633,13 +633,14 @@ slot0.handleNotification = function(slot0, slot1)
 
 		slot0:addSubLayers(Context.New({
 			mediator = slot4 == SYSTEM_BOSS_RUSH and BossRushBattleResultMediator or BossRushBattleResultMediator,
-			viewComponent = slot4 == SYSTEM_BOSS_RUSH and BossRushBattleResultLayer or BossRushEXBattleResultLayer,
+			viewComponent = slot4 == SYSTEM_BOSS_RUSH and BossRushBattleResultLayer or BossRushConst.GetEXBattleResultLayer(slot5),
 			data = {
 				awards = slot3.awards,
 				system = slot0.contextData.system,
 				actId = slot5,
 				seriesData = slot6,
-				win = slot7
+				win = slot7,
+				isAutoFight = slot0.contextData.isAutoFight
 			}
 		}), true)
 		slot0.viewComponent:closeView()

@@ -1,4 +1,9 @@
 slot0 = class("BillboardScene", import("..base.BaseUI"))
+slot0.SINGLE_SHOW = {
+	PowerRank.TYPE_EXTRA_CHAPTER,
+	PowerRank.TYPE_ACT_BOSS_BATTLE,
+	PowerRank.TYPE_BOSSRUSH
+}
 
 slot0.getUIName = function(slot0)
 	return "BillboardUI"
@@ -83,7 +88,7 @@ slot0.init = function(slot0)
 
 	slot0.rankRect.decelerationRate = 0.07
 
-	if (slot0.contextData.page or PowerRank.TYPE_POWER) == PowerRank.TYPE_EXTRA_CHAPTER then
+	if table.contains(uv0.SINGLE_SHOW, slot0.contextData.page or PowerRank.TYPE_POWER) then
 		setActive(slot0.leftPanel, false)
 		setAnchoredPosition(slot0.mainPanel, Vector2(0, -35.5))
 		setImageSprite(slot0.extraChapterBg, GetSpriteFromAtlas("commonbg/bg_fengshan", ""))
