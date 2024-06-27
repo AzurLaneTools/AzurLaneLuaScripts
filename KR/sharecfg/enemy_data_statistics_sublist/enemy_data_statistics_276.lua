@@ -1,5 +1,53 @@
 pg = pg or {}
 pg.enemy_data_statistics_276 = {
+	[15903302] = {
+		cannon = 160,
+		name = "항모「Queen」-중장갑형",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		id = 15903302,
+		air = 300,
+		armor = 0,
+		luck_growth = 0,
+		hit_growth = 210,
+		fog_fx = "",
+		dodge_growth = 312,
+		icon = "srcv0",
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90635,
+		durability = 91000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 20,
+		luck = 25,
+		antisub = 0,
+		scale = 300,
+		cannon_growth = 0,
+		reload = 150,
+		dodge = 22,
+		reload_growth = 0,
+		hit = 22,
+		torpedo = 0,
+		durability_growth = 0,
+		antiaircraft = 390,
+		battle_unit_type = 95,
+		specific_fx_scale = {
+			nuofukedanchuan_buff_01 = 1.8
+		},
+		appear_fx = {
+			"nuofukedanchuan_buff_01",
+			"appearQ"
+		},
+		equipment_list = {
+			894401,
+			894402,
+			894403,
+			894407,
+			894408,
+			894409
+		}
+	},
 	[15903303] = {
 		cannon = 300,
 		name = "악몽의 형상-「뱅가드」",
@@ -1023,40 +1071,5 @@ pg.enemy_data_statistics_276 = {
 			1100551,
 			1100586
 		}
-	},
-	[15908104] = {
-		cannon = 45,
-		air = 0,
-		torpedo = 261,
-		cannon_growth = 0,
-		id = 15908104,
-		reload = 150,
-		armor = 0,
-		dodge = 30,
-		torpedo_growth = 0,
-		hit_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 312,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 40,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 95,
-		base = 90647,
-		durability = 22000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 216,
-		speed = 30,
-		luck = 20,
-		antiaircraft_growth = 0,
-		antisub = 0,
-		fog_fx = "",
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {}
 	}
 }

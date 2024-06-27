@@ -52,7 +52,10 @@ slot0.ShowItemTipbyID = function(...)
 end
 
 slot0.CanShowTip = function(slot0)
-	return tobool(uv0.DetailConfig[slot0])
+	return tobool(uv0.GetDropLackConfig(Drop.New({
+		type = DROP_TYPE_ITEM,
+		id = slot0
+	})))
 end
 
 slot0.ShowRingBuyTip = function()

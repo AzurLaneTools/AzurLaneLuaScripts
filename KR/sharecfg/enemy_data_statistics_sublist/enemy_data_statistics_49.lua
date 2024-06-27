@@ -1,5 +1,43 @@
 pg = pg or {}
 pg.enemy_data_statistics_49 = {
+	[7025] = {
+		cannon = 60,
+		antisub = 0,
+		air = 0,
+		cannon_growth = 0,
+		armor = 0,
+		reload = 150,
+		base = 90267,
+		dodge = 5,
+		torpedo_growth = 0,
+		air_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 72,
+		speed_growth = 0,
+		star = 2,
+		hit = 14,
+		antisub_growth = 0,
+		rarity = 1,
+		luck_growth = 0,
+		torpedo = 180,
+		durability = 1960,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 0,
+		speed = 12,
+		luck = 0,
+		hit_growth = 210,
+		battle_unit_type = 95,
+		id = 7025,
+		antiaircraft_growth = 0,
+		scale = 150,
+		fog_fx = "",
+		equipment_list = {
+			317024,
+			317025,
+			317026
+		}
+	},
 	[7501] = {
 		cannon = 3,
 		hit_growth = 120,
@@ -1269,103 +1307,6 @@ pg.enemy_data_statistics_49 = {
 			100223,
 			100432,
 			317004,
-			317012,
-			318102
-		}
-	},
-	[805200] = {
-		battle_unit_type = 95,
-		hit_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		air = 0,
-		dodge = 100,
-		armor = 0,
-		air_growth = 0,
-		antisub = 0,
-		cannon = 394,
-		fog_fx = "",
-		dodge_growth = 0,
-		star = 4,
-		antisub_growth = 0,
-		rarity = 3,
-		base = 90163,
-		durability = 34652,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 37,
-		luck = 0,
-		id = 805200,
-		cannon_growth = 0,
-		reload = 150,
-		reload_growth = 0,
-		hit = 31,
-		torpedo = 742,
-		durability_growth = 0,
-		antiaircraft = 235,
-		antiaircraft_growth = 0,
-		bound_bone = {
-			cannon = {
-				{
-					0.61,
-					0.49,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.61,
-					0.49,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.31,
-					0.17,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.61,
-					0.49,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.23,
-							0.486,
-							-0.481
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.56,
-							2.91,
-							-0.14
-						}
-					}
-				}
-			}
-		},
-		equipment_list = {
-			100223,
-			100432,
-			317007,
 			317012,
 			318102
 		}

@@ -205,6 +205,15 @@ pg.settings_other_template = {
 		title = "L2D 리셋 버튼 표시",
 		desc = "L2D 리셋 버튼 표시"
 	},
+	{
+		default = 0,
+		name = "LOCK_NEW_SHIP",
+		alignment = 0,
+		type = 1,
+		id = 22,
+		title = "신규 등록 함선 자동 잠금",
+		desc = "기능 오픈 후 신규 획득한 캐릭터가 자동으로 잠기며 알림 뜨지 않습니다."
+	},
 	all = {
 		1,
 		2,
@@ -226,6 +235,7 @@ pg.settings_other_template = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22
 	}
 }

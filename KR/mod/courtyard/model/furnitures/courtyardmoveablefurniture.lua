@@ -8,6 +8,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2)
 
 	slot0.moveState = uv1
+	slot0.playPreheatAction = false
 end
 
 slot0.IsCar = function(slot0)
@@ -134,19 +135,62 @@ slot0.ChangeMoveState = function(slot0, slot1)
 	slot0.moveState = slot1
 end
 
-slot0.StartInteraction = function(slot0, slot1)
-	uv0.super.StartInteraction(slot0, slot1)
+slot0.IsSpineSlotAndExistPreheatAction = function(slot0, slot1)
+	if not isa(slot1, CourtYardFurnitureSpineSlot) then
+		return false
+	end
 
-	if slot0:IsMoveableSlot(slot1) then
-		slot0:ChangeMoveState(uv1)
+	return slot1.preheatAction ~= nil
+end
+
+slot0.StartInteraction = function(slot0, slot1)
+	if slot0:IsSpineSlotAndExistPreheatAction(slot1) then
+		slot0.playPreheatAction = true
+
+		slot0:_ChangeState(CourtYardFurniture.STATE_INTERACT)
+		slot0:DispatchEvent(CourtYardEvent.FURNITURE_START_INTERACTION, slot1)
+		slot0:Idle()
+	else
+		uv0.super.StartInteraction(slot0, slot1)
+
+		if slot0:IsMoveableSlot(slot1) then
+			slot0:ChangeMoveState(uv1)
+		end
 	end
 end
 
-slot0.ClearInteraction = function(slot0, slot1)
-	uv0.super.ClearInteraction(slot0, slot1)
+slot0.OnPreheatActionEnd = function(slot0, slot1)
+	if slot0:IsSpineSlotAndExistPreheatAction(slot1) then
+		slot0.playPreheatAction = false
 
-	if slot0:IsMoveableSlot(slot1) then
-		slot0:Idle()
+		slot0:ChangeMoveState(uv0)
+	end
+end
+
+slot0.CanInterAction = function(slot0)
+	if slot0.playPreheatAction then
+		return false
+	end
+
+	return uv0.super.CanInterAction(slot0)
+end
+
+slot0.ClearInteraction = function(slot0, slot1)
+	if slot0:IsSpineSlotAndExistPreheatAction(slot1) then
+		if #_.select(slot0.slots, function (slot0)
+			return slot0.id ~= uv0.id and slot0:IsUsing()
+		end) == 0 then
+			slot0:_ChangeState(CourtYardFurniture.STATE_IDLE)
+			slot0:Idle()
+		end
+
+		slot0:DispatchEvent(CourtYardEvent.FURNITURE_STOP_INTERACTION, slot1)
+	else
+		uv0.super.ClearInteraction(slot0, slot1)
+
+		if slot0:IsMoveableSlot(slot1) then
+			slot0:Idle()
+		end
 	end
 end
 
@@ -183,6 +227,8 @@ end
 slot0.Dispose = function(slot0)
 	uv0.super.Dispose(slot0)
 	slot0:RemoveTimer()
+
+	slot0.playPreheatAction = false
 end
 
 return slot0

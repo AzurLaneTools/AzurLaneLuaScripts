@@ -416,8 +416,14 @@ end
 
 slot0.showExitTip = function(slot0, slot1)
 	slot2 = slot0._shipVO:GetLockState()
+	slot3 = pg.settings_other_template[22]
+	slot4 = getProxy(PlayerProxy):getRawData():GetCommonFlag(_G[slot3.name])
 
-	if slot0._shipVO.virgin and slot2 == Ship.LOCK_STATE_UNLOCK then
+	if slot3.default == 1 then
+		slot4 = not slot4
+	end
+
+	if slot0._shipVO.virgin and slot2 == Ship.LOCK_STATE_UNLOCK and not slot4 then
 		if slot0.effectObj then
 			setActive(slot0.effectObj, false)
 		end
@@ -805,7 +811,7 @@ slot0.playOpening = function(slot0, slot1)
 
 	slot2 = nil
 
-	if checkABExist("ui/skinunlockanim/" .. ("star_level_unlock_anim_" .. ((not slot0._shipVO:isRemoulded() or ShipGroup.GetGroupConfig(slot0._shipVO:getGroupId()).trans_skin) and ShipGroup.getDefaultSkin(slot0._shipVO:getGroupId()).id))) then
+	if PathMgr.FileExists(PathMgr.getAssetBundle("ui/skinunlockanim/" .. ("star_level_unlock_anim_" .. ((not slot0._shipVO:isRemoulded() or ShipGroup.GetGroupConfig(slot0._shipVO:getGroupId()).trans_skin) and ShipGroup.getDefaultSkin(slot0._shipVO:getGroupId()).id)))) then
 		slot5 = pg.CpkPlayMgr.GetInstance()
 
 		slot5:PlayCpkMovie(function ()

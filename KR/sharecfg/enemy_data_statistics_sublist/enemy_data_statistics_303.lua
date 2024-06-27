@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.enemy_data_statistics_303 = {
+	[16500201] = {
+		cannon = 20,
+		name = "조프르 통제 무장-「Wander」",
+		hit_growth = 210,
+		speed_growth = 0,
+		armor = 0,
+		air = 0,
+		icon_type = 1,
+		type = 1,
+		id = 16500201,
+		antiaircraft = 65,
+		antiaircraft_growth = 2800,
+		fog_fx = "",
+		dodge_growth = 270,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90648,
+		durability = 950,
+		armor_growth = 0,
+		torpedo_growth = 3000,
+		speed = 20,
+		luck = 0,
+		antisub = 0,
+		cannon_growth = 1200,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 19,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 80,
+		durability_growth = 96000,
+		luck_growth = 0,
+		battle_unit_type = 90,
+		specific_fx_scale = {
+			yuanchou_gongjian = 0.04
+		},
+		appear_fx = {
+			"appearQ",
+			"yuanchou_gongjian"
+		},
+		equipment_list = {
+			1101070,
+			1101075,
+			1101080,
+			1101085
+		}
+	},
 	[16500202] = {
 		cannon = 30,
 		name = "조프르 통제 무장-「Guard」",
@@ -1154,56 +1201,5 @@ pg.enemy_data_statistics_303 = {
 			1000771
 		},
 		buff_list = {}
-	},
-	[16501206] = {
-		cannon = 120,
-		battle_unit_type = 90,
-		speed_growth = 0,
-		luck_growth = 0,
-		air = 0,
-		armor = 0,
-		hit_growth = 210,
-		antisub = 0,
-		fog_fx = "",
-		dodge_growth = 156,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90251,
-		durability = 3850,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 20,
-		luck = 4,
-		id = 16501206,
-		cannon_growth = 3600,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 11,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 0,
-		durability_growth = 249600,
-		antiaircraft = 135,
-		antiaircraft_growth = 3200,
-		specific_fx_scale = {
-			yuanchou_kandao = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_kandao"
-		},
-		equipment_list = {
-			1000776,
-			1000781,
-			1000786,
-			1000791,
-			1000796
-		},
-		buff_list = {
-			{
-				ID = 50500,
-				LV = 2
-			}
-		}
 	}
 }

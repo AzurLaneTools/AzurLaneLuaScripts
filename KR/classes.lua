@@ -1331,6 +1331,7 @@ JPSkirmishHeadFramePage = import("view.activity.subPages.JPSkirmishHeadFramePage
 JPSkirmishHeadFrameRePage = import("view.activity.subPages.JPSkirmishHeadFrameRePage")
 JunZhuTecCatchupPage = import("view.activity.subPages.JunZhuTecCatchupPage")
 KelifulanSkinPage = import("view.activity.subPages.KelifulanSkinPage")
+KelifulanSkinRePage = import("view.activity.subPages.KelifulanSkinRePage")
 KFCPTPage = import("view.activity.subPages.KFCPTPage")
 KitakazeTecCatchupPage = import("view.activity.subPages.KitakazeTecCatchupPage")
 KurskSPPtPage = import("view.activity.subPages.KurskSPPtPage")

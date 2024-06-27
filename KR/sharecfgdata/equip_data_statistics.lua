@@ -136750,6 +136750,61 @@ _G.pg.base.equip_data_statistics[80282] = {
 }
 
 
+_G.pg.base.equip_data_statistics[80291] = {
+	name = "专属弹幕-威奇塔METAI",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "스킬 탄막",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 80291,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170511
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80292] = {
+	name = "专属弹幕-威奇塔METAII",
+	base = 80291,
+	id = 80292,
+	weapon_id = {
+		170512
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[85000] = {
 	name = "B-13 연장 130mm 주포 B-2LM",
 	speciality = "추적",
@@ -153844,7 +153899,7 @@ _G.pg.base.equip_data_statistics[91220] = {
 	value_2 = 25,
 	icon = "51220",
 	attribute_2 = "air",
-	descrip = "说明未填写",
+	descrip = "아이리스에서 D.520 전투기를 바탕으로 시험 제작한 함재기",
 	nationality = 8,
 	ammo = 5,
 	value_3 = 0,
@@ -154132,7 +154187,7 @@ _G.pg.base.equip_data_statistics[91240] = {
 	value_2 = 45,
 	icon = "51240",
 	attribute_2 = "air",
-	descrip = "说明未填写",
+	descrip = "아이리스에서 BR.690 전투기를 바탕으로 시험 제작한 함재기",
 	nationality = 8,
 	ammo = 5,
 	value_3 = 0,
@@ -154512,7 +154567,7 @@ _G.pg.base.equip_data_statistics[91253] = {
 
 
 _G.pg.base.equip_data_statistics[91260] = {
-	name = "천사의 날개",
+	name = "아이리스 천사의 날개",
 	tech = 0,
 	type = 10,
 	speciality = "없음",
@@ -154523,7 +154578,7 @@ _G.pg.base.equip_data_statistics[91260] = {
 	attribute_2 = "dodge",
 	rarity = 5,
 	nationality = 10,
-	descrip = "说明未填写",
+	descrip = "전투 천사의 날개. 용기와 헌신, 충성을 상징한다.",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "air",

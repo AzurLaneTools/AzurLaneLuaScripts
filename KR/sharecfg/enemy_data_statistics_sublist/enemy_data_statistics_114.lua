@@ -1,5 +1,99 @@
 pg = pg or {}
 pg.enemy_data_statistics_114 = {
+	[10091500] = {
+		hit_growth = 210,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		dodge = 20,
+		armor = 0,
+		antiaircraft_growth = 0,
+		antisub = 0,
+		cannon = 80,
+		fog_fx = "",
+		dodge_growth = 303,
+		star = 6,
+		antisub_growth = 0,
+		rarity = 6,
+		base = 90259,
+		durability = 6600,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 22,
+		luck = 0,
+		id = 10091500,
+		cannon_growth = 0,
+		pilot_ai_template_id = 70043,
+		reload = 150,
+		reload_growth = 0,
+		hit = 29,
+		torpedo = 50,
+		durability_growth = 0,
+		antiaircraft = 75,
+		battle_unit_type = 95,
+		bound_bone = {
+			cannon = {
+				{
+					0.6,
+					0.6,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.38,
+					0.6,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.472,
+							0.233,
+							0.467
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.42,
+							1.7,
+							2.07
+						}
+					}
+				}
+			}
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			550531,
+			550532,
+			550533,
+			550534
+		}
+	},
 	[10092001] = {
 		cannon = 8,
 		antisub = 0,
@@ -1497,100 +1591,6 @@ pg.enemy_data_statistics_114 = {
 		},
 		equipment_list = {
 			550101
-		}
-	},
-	[10093500] = {
-		hit_growth = 210,
-		luck_growth = 0,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		dodge = 28,
-		armor = 0,
-		antiaircraft_growth = 0,
-		antisub = 0,
-		cannon = 125,
-		fog_fx = "",
-		dodge_growth = 424,
-		star = 6,
-		antisub_growth = 0,
-		rarity = 6,
-		base = 90257,
-		durability = 11400,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 32,
-		luck = 0,
-		id = 10093500,
-		cannon_growth = 0,
-		pilot_ai_template_id = 70041,
-		reload = 150,
-		reload_growth = 0,
-		hit = 35,
-		torpedo = 220,
-		durability_growth = 0,
-		antiaircraft = 200,
-		battle_unit_type = 95,
-		bound_bone = {
-			cannon = {
-				{
-					0.6,
-					0.6,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.38,
-					0.6,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.472,
-							0.233,
-							0.467
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							0.42,
-							1.7,
-							2.07
-						}
-					}
-				}
-			}
-		},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			550511,
-			550512,
-			550513,
-			550514
 		}
 	}
 }

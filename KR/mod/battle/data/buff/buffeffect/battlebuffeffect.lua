@@ -715,8 +715,15 @@ slot3.onBulletKill = function(slot0, slot1, slot2, slot3)
 end
 
 slot3.onBattleBuffCount = function(slot0, slot1, slot2, slot3)
-	if slot3.buffFX:GetCountType() == slot0._countType and slot0:onTrigger(slot1, slot2) ~= "overheat" then
-		slot4:ResetCount()
+	if slot3.buffFX:GetCountType() == slot0._countType then
+		if slot4:Repeater() then
+			while slot4:GetCountProgress() >= 1 do
+				slot0:onTrigger(slot1, slot2)
+				slot4:ConsumeCount()
+			end
+		elseif slot0:onTrigger(slot1, slot2) ~= "overheat" then
+			slot4:ResetCount()
+		end
 	end
 end
 

@@ -21,7 +21,7 @@ slot1.SetArgs = function(slot0, slot1, slot2)
 	slot0._number = 0
 end
 
-slot1.UpdateAttr = function(slot0, slot1)
+slot1.calcBloodRageNumber = function(slot0, slot1)
 	if slot0._threshold < slot1:GetHPRate() then
 		slot0._number = 0
 	else
@@ -31,10 +31,15 @@ slot1.UpdateAttr = function(slot0, slot1)
 			slot0._number = math.min(slot0._number, slot0._attrBound)
 		end
 	end
-
-	uv0.super.UpdateAttr(slot0, slot1)
 end
 
 slot1.doOnHPRatioUpdate = function(slot0, slot1, slot2)
+	slot0:calcBloodRageNumber(slot1)
+	slot0:UpdateAttr(slot1)
+end
+
+slot1.onRemove = function(slot0, slot1, slot2)
+	slot0._number = 0
+
 	slot0:UpdateAttr(slot1)
 end

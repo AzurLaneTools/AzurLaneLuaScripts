@@ -1208,7 +1208,7 @@ pg.login = {
 	},
 	[43] = {
 		op_play = 1,
-		op_time = "stop",
+		op_time = "",
 		date = "stop",
 		id = 43,
 		login_static = "login",
@@ -1217,7 +1217,7 @@ pg.login = {
 	},
 	[44] = {
 		op_play = 0,
-		op_time = "stop",
+		op_time = "",
 		date = "stop",
 		id = 44,
 		login_static = "login",
@@ -1226,7 +1226,7 @@ pg.login = {
 	},
 	[45] = {
 		op_play = 0,
-		op_time = "stop",
+		op_time = "",
 		date = "stop",
 		id = 45,
 		login_static = "login",
@@ -1235,7 +1235,7 @@ pg.login = {
 	},
 	[46] = {
 		op_play = 0,
-		op_time = "stop",
+		op_time = "",
 		date = "stop",
 		id = 46,
 		login_static = "login",
@@ -1244,7 +1244,7 @@ pg.login = {
 	},
 	[47] = {
 		op_play = 0,
-		op_time = "stop",
+		op_time = "",
 		date = "stop",
 		id = 47,
 		login_static = "login",
@@ -1253,7 +1253,7 @@ pg.login = {
 	},
 	[48] = {
 		op_play = 0,
-		op_time = "stop",
+		op_time = "",
 		date = "stop",
 		id = 48,
 		login_static = "login",
@@ -1262,7 +1262,7 @@ pg.login = {
 	},
 	[50] = {
 		op_play = 0,
-		op_time = "stop",
+		op_time = "",
 		date = "stop",
 		id = 50,
 		login_static = "login_0401",
@@ -1271,7 +1271,7 @@ pg.login = {
 	},
 	[52] = {
 		op_play = 0,
-		op_time = "stop",
+		op_time = "",
 		date = "stop",
 		id = 52,
 		login_static = "login",
@@ -1280,7 +1280,7 @@ pg.login = {
 	},
 	[53] = {
 		op_play = 0,
-		op_time = "stop",
+		op_time = "",
 		date = "stop",
 		id = 53,
 		login_static = "login",
@@ -1288,64 +1288,13 @@ pg.login = {
 		bgm = ""
 	},
 	[54] = {
-		op_play = 1,
+		op_play = 0,
+		op_time = "",
+		date = "stop",
 		id = 54,
 		login_static = "login",
 		login_cri = "",
-		bgm = "",
-		date = {
-			"timer",
-			{
-				{
-					2024,
-					6,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					6,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		op_time = {
-			{
-				{
-					2024,
-					6,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					6,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		bgm = ""
 	},
 	[3001] = {
 		op_play = 1,

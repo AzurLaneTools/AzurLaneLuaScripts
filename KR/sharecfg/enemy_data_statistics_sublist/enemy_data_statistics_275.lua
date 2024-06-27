@@ -1,5 +1,46 @@
 pg = pg or {}
 pg.enemy_data_statistics_275 = {
+	[15903105] = {
+		cannon = 36,
+		air = 86,
+		torpedo = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		armor = 0,
+		dodge = 9,
+		torpedo_growth = 0,
+		hit_growth = 280,
+		reload_growth = 0,
+		dodge_growth = 96,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 25,
+		antisub_growth = 0,
+		air_growth = 4127,
+		battle_unit_type = 70,
+		base = 90469,
+		durability = 5780,
+		armor_growth = 0,
+		durability_growth = 58880,
+		antiaircraft = 134,
+		speed = 16,
+		luck = 0,
+		antisub = 0,
+		antiaircraft_growth = 5280,
+		id = 15903105,
+		fog_fx = "",
+		specific_fx_scale = {},
+		appear_fx = {
+			"heisewuqi_stg"
+		},
+		equipment_list = {
+			1003179,
+			1003184,
+			1003189,
+			1003194
+		}
+	},
 	[15903111] = {
 		cannon = 22,
 		air = 0,
@@ -1177,54 +1218,6 @@ pg.enemy_data_statistics_275 = {
 			894304,
 			894305,
 			894306
-		}
-	},
-	[15903302] = {
-		cannon = 160,
-		name = "항모「Queen」-중장갑형",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		id = 15903302,
-		air = 300,
-		armor = 0,
-		luck_growth = 0,
-		hit_growth = 210,
-		fog_fx = "",
-		dodge_growth = 312,
-		icon = "srcv0",
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90635,
-		durability = 91000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 20,
-		luck = 25,
-		antisub = 0,
-		scale = 300,
-		cannon_growth = 0,
-		reload = 150,
-		dodge = 22,
-		reload_growth = 0,
-		hit = 22,
-		torpedo = 0,
-		durability_growth = 0,
-		antiaircraft = 390,
-		battle_unit_type = 95,
-		specific_fx_scale = {
-			nuofukedanchuan_buff_01 = 1.8
-		},
-		appear_fx = {
-			"nuofukedanchuan_buff_01",
-			"appearQ"
-		},
-		equipment_list = {
-			894401,
-			894402,
-			894403,
-			894407,
-			894408,
-			894409
 		}
 	}
 }

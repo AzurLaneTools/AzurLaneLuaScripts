@@ -1,5 +1,42 @@
 pg = pg or {}
 pg.enemy_data_statistics_247 = {
+	[15301005] = {
+		cannon = 4,
+		air = 25,
+		torpedo = 0,
+		cannon_growth = 300,
+		pilot_ai_template_id = 20004,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		torpedo_growth = 0,
+		hit_growth = 144,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 10,
+		antisub_growth = 0,
+		air_growth = 1000,
+		battle_unit_type = 65,
+		base = 90590,
+		durability = 560,
+		armor_growth = 0,
+		durability_growth = 27200,
+		antiaircraft = 30,
+		speed = 15,
+		luck = 0,
+		antiaircraft_growth = 1100,
+		id = 15301005,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {
+			840051,
+			840056,
+			840061,
+			1100206
+		}
+	},
 	[15301006] = {
 		cannon = 40,
 		air = 0,
@@ -918,42 +955,6 @@ pg.enemy_data_statistics_247 = {
 		equipment_list = {
 			1100108,
 			1100503
-		}
-	},
-	[15303002] = {
-		cannon = 16,
-		air = 0,
-		torpedo = 26,
-		cannon_growth = 880,
-		pilot_ai_template_id = 20005,
-		reload = 150,
-		armor = 0,
-		dodge = 0,
-		torpedo_growth = 2250,
-		hit_growth = 144,
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 30,
-		base = 90587,
-		durability = 510,
-		armor_growth = 0,
-		durability_growth = 19200,
-		antiaircraft = 120,
-		speed = 15,
-		luck = 0,
-		antiaircraft_growth = 2250,
-		id = 15303002,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			1100253,
-			1100468,
-			1100293
 		}
 	}
 }

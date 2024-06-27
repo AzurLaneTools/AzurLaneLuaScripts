@@ -288,6 +288,7 @@ pg.memory_group = setmetatable({
 		596,
 		597,
 		598,
+		599,
 		1000,
 		1001,
 		1002
@@ -6231,6 +6232,23 @@ pg.base.memory_group = {
 			3535,
 			3536,
 			3537
+		}
+	},
+	[599] = {
+		title = "격동하는 황량한 바다의 주인",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 599,
+		icon = "title_chara_aijier",
+		memories = {
+			3671,
+			3672,
+			3673,
+			3674,
+			3675,
+			3676,
+			3677
 		}
 	},
 	[1000] = {

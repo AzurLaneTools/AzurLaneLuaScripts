@@ -24,7 +24,8 @@ pg.activity_task_permanent = setmetatable({
 		6019,
 		6020,
 		6021,
-		6022
+		6022,
+		6023
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -565,5 +566,31 @@ pg.base.activity_task_permanent = {
 		id = 6022,
 		over_task_id = "",
 		eliminate_task_id = {}
+	},
+	[6023] = {
+		gametip = "「하츠하루」 스킨 획득!",
+		banner_route = "permanent_chunyaodenghuo",
+		gametip_extra = "빠르면 7일 후 획득",
+		task_extra = "",
+		over_pt = 0,
+		activity_name = "등불의 하츠하루",
+		id = 6023,
+		over_task_id = "",
+		eliminate_task_id = {
+			35272,
+			35273,
+			35274,
+			35275,
+			35276,
+			35277,
+			35278,
+			35279,
+			35280,
+			35281,
+			35282,
+			35283,
+			35284,
+			35285
+		}
 	}
 }

@@ -237,6 +237,11 @@ pg.task_meta_data_template = setmetatable({
 		100203,
 		100204,
 		100205,
+		100301,
+		100302,
+		100303,
+		100304,
+		100305,
 		200001,
 		200002,
 		200003,
@@ -316,7 +321,11 @@ pg.task_meta_data_template = setmetatable({
 		200201,
 		200202,
 		200203,
-		200204
+		200204,
+		200211,
+		200212,
+		200213,
+		200214
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2201,6 +2210,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "포슈·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
 	},
+	[100301] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970304",
+		id = 100301,
+		target_num = 1,
+		desc = "위치타·META를 편성한 함대로 전투에서 1회 승리"
+	},
+	[100302] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970304",
+		id = 100302,
+		target_num = 1,
+		desc = "위치타·META를 편성한 함대로 전투에서 Lv30 이상의 적 함대 격파"
+	},
+	[100303] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970304",
+		id = 100303,
+		target_num = 1,
+		desc = "위치타·META를 편성한 함대로 전투에서 Lv55 이상의 적 함대 격파"
+	},
+	[100304] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970304",
+		id = 100304,
+		target_num = 1,
+		desc = "위치타·META를 편성한 함대로 전투에서 Lv80 이상의 적 함대 격파"
+	},
+	[100305] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970304",
+		id = 100305,
+		target_num = 1,
+		desc = "위치타·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -2840,5 +2889,37 @@ pg.base.task_meta_data_template = {
 		id = 200204,
 		target_num = 1,
 		desc = "大型作战内使用福煦·META击破等级＞100的敌方1次"
+	},
+	[200211] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970304",
+		id = 200211,
+		target_num = 1,
+		desc = "대형작전에서 위치타·META를 포함한 함대로 1회 승리"
+	},
+	[200212] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970304",
+		id = 200212,
+		target_num = 1,
+		desc = "대형작전에서 위치타·META를 포함한 함대로 Lv70 이상의 적 격파"
+	},
+	[200213] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970304",
+		id = 200213,
+		target_num = 1,
+		desc = "대형작전에서 위치타·META를 포함한 함대로 Lv90 이상의 적 격파"
+	},
+	[200214] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970304",
+		id = 200214,
+		target_num = 1,
+		desc = "대형작전에서 위치타·META를 포함한 함대로 Lv100 이상의 적 격파"
 	}
 }

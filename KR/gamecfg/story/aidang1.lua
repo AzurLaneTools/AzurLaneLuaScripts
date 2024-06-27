@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "story-1",
-			say = "항구·지휘실",
+			say = "숙직… 그것은 모항의 근무 형태 중 하나이다.",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "당직도 지휘관과 비서함의 업무 중 하나이다.",
+			say = "전투가 없을 때도 모항에는 크고 작은 사무 작업이 잔뜩 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
-			say = "이는 평상시에 기지 밖에 있는 장교들이 긴급 상황 시에 즉각 대응할 수 있도록 기지에 남아 밤을 새우는 제도이다. 하지만......",
+			say = "설령 다음날이 휴일이라고 하더라도, 그 전날 밤에 숙직… 집무실에 묵어야 하는 경우도 있는 법이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

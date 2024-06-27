@@ -1,5 +1,46 @@
 pg = pg or {}
 pg.enemy_data_statistics_108 = {
+	[10060003] = {
+		cannon = 31,
+		hit_growth = 144,
+		luck = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		air = 0,
+		air_growth = 0,
+		antisub = 0,
+		battle_unit_type = 60,
+		fog_fx = "",
+		dodge_growth = 0,
+		star = 3,
+		antisub_growth = 0,
+		rarity = 3,
+		base = 90126,
+		durability = 1200,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		armor = 0,
+		id = 10060003,
+		cannon_growth = 2000,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 10,
+		torpedo = 0,
+		durability_growth = 0,
+		antiaircraft = 80,
+		antiaircraft_growth = 1404,
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			800025,
+			800026,
+			800027
+		}
+	},
 	[10060004] = {
 		cannon = 40,
 		name = "실험자 α형",
@@ -1120,46 +1161,6 @@ pg.enemy_data_statistics_108 = {
 			100219,
 			535001,
 			313091
-		}
-	},
-	[10070202] = {
-		cannon = 17,
-		battle_unit_type = 30,
-		hit_growth = 144,
-		speed_growth = 0,
-		luck_growth = 0,
-		air = 0,
-		armor = 0,
-		air_growth = 0,
-		id = 10070202,
-		fog_fx = "",
-		dodge_growth = 0,
-		star = 3,
-		antisub_growth = 0,
-		rarity = 3,
-		base = 90124,
-		durability = 360,
-		armor_growth = 0,
-		torpedo_growth = 2000,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		prefab = "srCL2",
-		cannon_growth = 800,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 10,
-		torpedo = 24,
-		durability_growth = 14600,
-		antiaircraft = 45,
-		antiaircraft_growth = 1600,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			530500,
-			100349
 		}
 	}
 }

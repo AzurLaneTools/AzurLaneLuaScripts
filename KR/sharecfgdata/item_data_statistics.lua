@@ -14854,6 +14854,37 @@ _G.pg.base.item_data_statistics[21034] = {
 }
 
 
+_G.pg.base.item_data_statistics[21035] = {
+	open_directly = 0,
+	name = "결정: 위치타·META",
+	type = 4,
+	display = "위치타·META의 능력을 상승시키는 아이템. META 연구실의 한계돌파에서 사용 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21035",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21035,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "결정화 내열강",
@@ -15402,6 +15433,37 @@ _G.pg.base.item_data_statistics[21914] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21914,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[21915] = {
+	open_directly = 0,
+	name = "위치타·META 동기화 수치",
+	type = 4,
+	display = "위치타·META의 동기화 수치",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21915",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21915,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},

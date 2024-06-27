@@ -2627,7 +2627,18 @@ temp = function()
 	uv0["위"] = {
 		["치"] = {
 			["타"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		},
 		["다"] = {

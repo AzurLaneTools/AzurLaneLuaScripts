@@ -1,5 +1,46 @@
 pg = pg or {}
 pg.enemy_data_statistics_395 = {
+	[295079] = {
+		cannon = 220,
+		name = "샤른호르스트·META(Tier.4)",
+		torpedo = 128,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 14,
+		id = 295079,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 50,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90623,
+		durability = 70000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 218,
+		speed = 30,
+		luck = 15,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 2
+			}
+		}
+	},
 	[295080] = {
 		cannon = 233,
 		name = "샤른호르스트·META(Tier.5)",
@@ -1011,47 +1052,6 @@ pg.enemy_data_statistics_395 = {
 		antiaircraft = 348,
 		speed = 30,
 		luck = 24,
-		battle_unit_type = 90,
-		antisub = 0,
-		fog_fx = "",
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50500,
-				LV = 5
-			}
-		}
-	},
-	[295105] = {
-		cannon = 365,
-		name = "리펄스·META(Tier.15)",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 25,
-		id = 295105,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 110,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 90645,
-		durability = 1480000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 361,
-		speed = 30,
-		luck = 25,
 		battle_unit_type = 90,
 		antisub = 0,
 		fog_fx = "",
