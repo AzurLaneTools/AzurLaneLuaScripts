@@ -1135,7 +1135,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“滴——访客抚顺认证失败。警告！警告！非认证人员不得入内！”",
+			say = "“滴——访客王抚顺认证失败。警告！警告！非认证人员不得入内！”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
