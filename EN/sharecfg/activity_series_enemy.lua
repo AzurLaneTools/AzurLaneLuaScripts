@@ -335,7 +335,7 @@ pg.activity_series_enemy = {
 	},
 	[2001] = {
 		oil = 0,
-		name = "Administrative Building",
+		name = "Admin Building",
 		type = 1,
 		pre_chapter = 0,
 		chapter_name = "Easy",
@@ -345,9 +345,9 @@ pg.activity_series_enemy = {
 		ex_count = "",
 		additional_awards_display = "",
 		profiles = [[
-Welcome to the administrative building. 
-May you have a productive day. 
-May you never feel pressed for time. 
+Welcome to the admin building.
+May you have a productive day.
+May you never feel pressed for time.
 May your inner child always be with you.]],
 		whether_singlefight = 0,
 		id = 2001,
@@ -392,7 +392,7 @@ May your inner child always be with you.]],
 	},
 	[2002] = {
 		oil = 0,
-		name = "Classrooms",
+		name = "School Building",
 		type = 1,
 		pre_chapter = 2001,
 		chapter_name = "Normal",
@@ -401,8 +401,8 @@ May your inner child always be with you.]],
 		count = 0,
 		ex_count = "",
 		profiles = [[
-Welcome to the classrooms. 
-May you have a stress-free day. 
+Welcome to the school building.
+May you have a stress-free day.
 May you bask in the joy of learning. 
 May your inner child always be with you.]],
 		whether_singlefight = 1,
@@ -465,7 +465,7 @@ May your inner child always be with you.]],
 	},
 	[2003] = {
 		oil = 0,
-		name = "Arts Cluster",
+		name = "Arts Building",
 		type = 1,
 		pre_chapter = 2002,
 		chapter_name = "Hard",
@@ -474,9 +474,9 @@ May your inner child always be with you.]],
 		count = 0,
 		ex_count = "",
 		profiles = [[
-Welcome to the arts cluster. 
-May you have a colorful day. 
-May you keep your innocence. 
+Welcome to the arts building. 
+May you have a colorful day.
+May you keep your innocence.
 May your inner child always be with you.]],
 		whether_singlefight = 1,
 		id = 2003,
@@ -543,7 +543,7 @@ May your inner child always be with you.]],
 	},
 	[2004] = {
 		oil = 0,
-		name = "Recreational Area",
+		name = "Athletic Field",
 		type = 2,
 		pre_chapter = 2003,
 		chapter_name = "SP",
@@ -552,9 +552,9 @@ May your inner child always be with you.]],
 		count = 1,
 		ex_count = "",
 		profiles = [[
-Welcome to the recreational area. 
-May you have an active day. 
-May you feel full of energy. 
+Welcome to the athletic field.
+May you have an active day.
+May you feel full of energy.
 May your inner child always be with you.]],
 		whether_singlefight = 0,
 		id = 2004,
