@@ -9,13 +9,13 @@ return {
 		{
 			nameColor = "#A9F548FF",
 			side = 2,
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			bgm = "story-temepest-1",
 			actor = 9600010,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "开炮开炮！",
+			say = "開炮開炮！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -28,12 +28,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "新世界的宝藏可不分先来后到——",
+			say = "新世界的寶藏可不分先來後到——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -47,7 +47,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——轰！",
+			say = "——轟！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在隆隆的炮声中，对手调转方向，逃向了远方。",
+			say = "在隆隆的炮聲中，對手調轉方向，逃向了遠方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,12 +66,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘻嘻~这样就是我的胜利呢！",
+			say = "嘻嘻~這樣就是我的勝利呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,12 +83,12 @@ return {
 		},
 		{
 			side = 2,
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "伟大的皇家财富的又一次辉煌胜利……",
+			say = "偉大的皇家幸運的又一次輝煌勝利……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
@@ -147,12 +147,12 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜哇！好大的风暴！怎么回事？！",
+			say = "嗚哇！好大的風暴！怎麼回事？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,12 +165,12 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要快点收帆！",
+			say = "要快點收帆！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,12 +183,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "来、来不及了！！",
+			say = "來、來不及了！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,12 +211,12 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "作为一场冒险而言也太过刺激了呀啊啊啊——",
+			say = "作為一場冒險而言也太過刺激了呀啊啊啊——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "鼓满了帆的战舰，义无反顾地撞进了风暴中。",
+			say = "鼓滿了帆的戰艦，義無反顧地撞進了風暴中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

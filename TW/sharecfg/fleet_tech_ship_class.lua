@@ -3168,6 +3168,72 @@ pg.fleet_tech_ship_class = {
 			90701
 		}
 	},
+	[960001] = {
+		shiptype = 22,
+		name = "皇家幸運號",
+		t_level = 1,
+		id = 960001,
+		t_level_1 = 1,
+		nation = 96,
+		ships = {
+			960001
+		}
+	},
+	[960002] = {
+		shiptype = 24,
+		name = "聖馬丁號",
+		t_level = 2,
+		id = 960002,
+		t_level_1 = 1,
+		nation = 96,
+		ships = {
+			960002
+		}
+	},
+	[960003] = {
+		shiptype = 23,
+		name = "金鹿號",
+		t_level = 1,
+		id = 960003,
+		t_level_1 = 2,
+		nation = 96,
+		ships = {
+			960003
+		}
+	},
+	[960004] = {
+		shiptype = 22,
+		name = "瑪麗·賽勒斯特號",
+		t_level = 1,
+		id = 960004,
+		t_level_1 = 3,
+		nation = 96,
+		ships = {
+			960004
+		}
+	},
+	[960005] = {
+		shiptype = 22,
+		name = "維達號",
+		t_level = 1,
+		id = 960005,
+		t_level_1 = 4,
+		nation = 96,
+		ships = {
+			960005
+		}
+	},
+	[960006] = {
+		shiptype = 23,
+		name = "冒險加利號",
+		t_level = 1,
+		id = 960006,
+		t_level_1 = 5,
+		nation = 96,
+		ships = {
+			960006
+		}
+	},
 	[970101] = {
 		shiptype = 1,
 		name = "獵人·META",
@@ -3740,6 +3806,12 @@ pg.fleet_tech_ship_class = {
 		90501,
 		90502,
 		90701,
+		960001,
+		960002,
+		960003,
+		960004,
+		960005,
+		960006,
 		970101,
 		970102,
 		970103,

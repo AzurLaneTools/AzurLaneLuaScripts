@@ -9,7 +9,17 @@ pg.constellation_challenge_month = {
 			10003
 		}
 	},
+	[7] = {
+		id = 7,
+		constellation_icon = "Cancer",
+		stage = {
+			10004,
+			10005,
+			10006
+		}
+	},
 	all = {
-		6
+		6,
+		7
 	}
 }

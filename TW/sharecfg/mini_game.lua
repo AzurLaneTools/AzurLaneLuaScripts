@@ -821,51 +821,13 @@ pg.mini_game = {
 		type = 2,
 		mediator_name = "MiniHubMediator",
 		config_csv_key = "",
+		simple_config_data = "",
 		config_data = "",
 		name = "啾啾牛仔",
 		config_csv = "",
 		id = 28,
 		hub_id = 21,
-		request_data = 0,
-		simple_config_data = {
-			drop = {
-				{
-					2,
-					54050,
-					2
-				},
-				{
-					1,
-					1,
-					300
-				},
-				{
-					2,
-					54051,
-					1
-				},
-				{
-					1,
-					1,
-					300
-				},
-				{
-					2,
-					50004,
-					5
-				},
-				{
-					1,
-					1,
-					300
-				},
-				{
-					2,
-					20012,
-					2
-				}
-			}
-		}
+		request_data = 0
 	},
 	{
 		is_ranking = 0,
@@ -1528,32 +1490,32 @@ pg.mini_game = {
 			drop = {
 				{
 					2,
-					60023,
+					60024,
 					1
 				},
 				{
 					2,
-					60023,
+					60024,
 					1
 				},
 				{
 					2,
-					60023,
+					60024,
 					1
 				},
 				{
 					2,
-					60023,
+					60024,
 					1
 				},
 				{
 					2,
-					60023,
+					60024,
 					1
 				},
 				{
 					2,
-					60023,
+					60024,
 					1
 				},
 				{
@@ -1972,7 +1934,6 @@ pg.mini_game = {
 		hub_id = 50,
 		request_data = 0,
 		simple_config_data = {
-			show_time = "stop",
 			drop_ids = {
 				{
 					2,
@@ -2008,6 +1969,33 @@ pg.mini_game = {
 					5,
 					304106,
 					1
+				}
+			},
+			show_time = {
+				"timer",
+				{
+					{
+						2024,
+						6,
+						27
+					},
+					{
+						0,
+						0,
+						0
+					}
+				},
+				{
+					{
+						2024,
+						7,
+						11
+					},
+					{
+						23,
+						59,
+						59
+					}
 				}
 			}
 		}

@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgm = "story-temepest-2",
-			say = "虽说是引诱作战，但同残响舰队的交战从一开始就是白热化的。",
+			say = "雖說是引誘作戰，但跟殘響艦隊的交戰從一開始就是白熱化的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "残响舰队向来缺乏风度，这里也只是充满灼热气旋的战场。",
+			say = "殘響艦隊向來缺乏風度，這裡也只是充滿灼熱氣旋的戰場。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "如同在风暴中那时一样，圣马丁依然选择在最前方奋战。",
+			say = "如同在風暴中那時一樣，聖馬丁依然選擇在最前方奮戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,10 +45,10 @@ return {
 			actor = 9600020,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "无敌桂冠",
+			factiontag = "無敵桂冠",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "前进，前进，黄金的旗帜永不降下！",
+			say = "前進，前進，黃金的旗幟永不降下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,13 +57,13 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			factiontag = "无敌桂冠",
+			factiontag = "無敵桂冠",
 			bgName = "star_level_bg_504",
 			soundeffect = "event:/battle/boom2",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "开火、开火，黄金的荣光永不泯灭！",
+			say = "開火、開火，黃金的榮光永不磨滅！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,13 +128,13 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			factiontag = "无敌桂冠",
+			factiontag = "無敵桂冠",
 			bgName = "star_level_bg_504",
 			soundeffect = "event:/battle/boom2",
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唱响、唱响，黄金的颂歌永不缺席！！",
+			say = "唱響、唱響，黃金的頌歌永不缺席！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "即便敌人如浪潮般涌来，无敌的桂冠依然在暗夜中闪耀。",
+			say = "即便敵人如浪潮般湧來，無敵的桂冠依然在暗夜中閃耀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,12 +268,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "幽灵",
+			factiontag = "幽靈",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是强大……",
+			say = "真是強大……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,12 +287,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "幽灵",
+			factiontag = "幽靈",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "多亏了圣马丁的活跃，指挥官。",
+			say = "多虧了聖馬丁的活躍，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,12 +306,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "幽灵",
+			factiontag = "幽靈",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "周围的残响舰队现在都被吸引着离开了海滨，我们最好也趁现在撤退。",
+			say = "周圍的殘響艦隊現在都被吸引離開了海濱，我們最好也趁現在撤退。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,12 +324,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在不是撤退的好时机哦。",
+			say = "現在不是撤退的好時機哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,12 +343,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要不是有圣马丁在，我们现在已经被残响舰队淹没了。",
+			say = "要不是有聖馬丁在，我們現在已經被殘響艦隊淹沒了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,12 +361,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在这种时候把后背露给敌人就是自寻死路。",
+			say = "在這種時候把背露給敵人就是自尋死路。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,12 +380,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "投资人",
+			factiontag = "投資人",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就继续战斗，我们在新世界并非孤立无援。",
+			say = "那就繼續戰鬥，我們在新世界並非孤立無援。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,12 +399,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "投资人",
+			factiontag = "投資人",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有一场战争从我们遗落的历史中降临了。",
+			say = "有一場戰爭從我們遺落的歷史中降臨了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,12 +418,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "投资人",
+			factiontag = "投資人",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们对它浑然不知，但总有智者愿意未雨绸缪。",
+			say = "我們對它渾然不知，但總有智者願意未雨綢繆。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,12 +436,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "投资人",
+			factiontag = "投資人",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，是时候了。",
+			say = "指揮官，是時候了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,7 +452,7 @@ return {
 			},
 			options = {
 				{
-					content = "点燃信号弹的引信。",
+					content = "點燃信號彈的引信。",
 					flag = 1
 				}
 			}
@@ -462,7 +462,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "串联好的信号弹次第升上天空。",
+			say = "串聯好的訊號彈依次升上天空。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,12 +471,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "幽灵",
+			factiontag = "幽靈",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喔…………好厉害。",
+			say = "喔…………好厲害。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -490,12 +490,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "投资人",
+			factiontag = "投資人",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……我在新世界游历时得到的“令箭”。",
+			say = "……我在新世界遊歷時得到的「令箭」。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -508,12 +508,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "投资人",
+			factiontag = "投資人",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果我的那位朋友真的像她自称的那样人脉宽广，那么……",
+			say = "如果我的那位朋友真的像她自稱的那樣人脈寬廣，那麼……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -536,14 +536,14 @@ return {
 		},
 		{
 			side = 2,
-			factiontag = "投资人",
+			factiontag = "投資人",
 			dir = 1,
 			bgName = "star_level_bg_504",
 			bgm = "story-temepest-1",
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……援军马上就到了。",
+			say = "……援軍馬上就到了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "另一排照明弹升上天空，照亮了一支不知何时抵达此地的舰队。",
+			say = "另一排照明彈升上天空，照亮了一支不知何時抵達此地的艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,11 +585,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "荣誉领袖",
+			factiontag = "榮譽領袖",
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳咳，这里是维达号……！",
+			say = "咳咳，這裡是維達號……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,10 +599,10 @@ return {
 			actor = 9600050,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "荣誉领袖",
+			factiontag = "榮譽領袖",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "城邦世界的好朋友们，我好想你们~",
+			say = "城邦世界的好朋友們，我好想妳們~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,10 +612,10 @@ return {
 			actor = 9600050,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "荣誉领袖",
+			factiontag = "榮譽領袖",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "有没有从那里带来的新糖果？有没有？",
+			say = "有沒有從那裡帶來的新糖果？有沒有？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,12 +625,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这……这就是你人脉很广的……朋友的援军？",
+			say = "這……這就是妳人脈很廣的……朋友的援軍？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -643,12 +643,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "投资人",
+			factiontag = "投資人",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "确切来说，是她本人。",
+			say = "確切來說，是她本人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -662,7 +662,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
@@ -681,12 +681,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呃……这个小豆丁……？",
+			say = "呃……這個小矮子……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -700,12 +700,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "投资人",
+			factiontag = "投資人",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她比我有钱。",
+			say = "她比我有錢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -719,12 +719,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "投资人",
+			factiontag = "投資人",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么了？你没有这样的朋友？",
+			say = "怎麼了？妳沒有這樣的朋友？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -737,12 +737,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好的我完全没有问题了你的朋友啊不我的挚友真是帅气呢——",
+			say = "好的我完全沒有問題了妳的朋友啊不我的摯友真是帥氣呢——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -756,12 +756,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "投资人",
+			factiontag = "投資人",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很好。记得到时候也这样说。",
+			say = "很好。記得到時候也這樣說。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -774,12 +774,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "投资人",
+			factiontag = "投資人",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喂！！维达！看这边！",
+			say = "喂！！維達！看這邊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -793,12 +793,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "投资人",
+			factiontag = "投資人",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我带了糖果，但你得掩护我撤退！",
+			say = "我帶了糖果，但妳得掩護我撤退！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -812,7 +812,7 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "荣誉领袖",
+			factiontag = "榮譽領袖",
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -826,11 +826,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "荣誉领袖",
+			factiontag = "榮譽領袖",
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我听到啦~♪",
+			say = "我聽到啦~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -840,11 +840,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "荣誉领袖",
+			factiontag = "榮譽領袖",
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "交给我吧！",
+			say = "交給我吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

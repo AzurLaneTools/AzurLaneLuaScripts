@@ -486,6 +486,87 @@ pg.commander_data_template = {
 		command_value = 41,
 		ability_show = {}
 	},
+	[960011] = {
+		name = "德雷喵",
+		rarity = 5,
+		painting = "deleimiao",
+		nationality = 96,
+		max_level = 30,
+		tactic_value = 55,
+		exp_cost = 30,
+		ability_refresh_type = 1,
+		exp = 500,
+		support_value = 39,
+		group_type = 96001,
+		id = 960011,
+		bg = "1",
+		skill_id = 960011,
+		command_value = 63,
+		ability_show = {
+			5141,
+			901,
+			902,
+			131,
+			903,
+			5101,
+			132,
+			5131
+		}
+	},
+	[960021] = {
+		name = "基德喵",
+		rarity = 5,
+		painting = "jidemiao",
+		nationality = 96,
+		max_level = 30,
+		tactic_value = 56,
+		exp_cost = 30,
+		ability_refresh_type = 1,
+		exp = 500,
+		support_value = 53,
+		group_type = 96002,
+		id = 960021,
+		bg = "1",
+		skill_id = 960021,
+		command_value = 52,
+		ability_show = {
+			5151,
+			811,
+			812,
+			141,
+			813,
+			5101,
+			142,
+			5131
+		}
+	},
+	[960031] = {
+		name = "貝拉喵",
+		rarity = 4,
+		painting = "beilamiao",
+		nationality = 96,
+		max_level = 30,
+		tactic_value = 44,
+		exp_cost = 20,
+		ability_refresh_type = 1,
+		exp = 300,
+		support_value = 35,
+		group_type = 96003,
+		id = 960031,
+		bg = "1",
+		skill_id = 960031,
+		command_value = 52,
+		ability_show = {
+			5081,
+			761,
+			762,
+			141,
+			763,
+			5111,
+			142,
+			5121
+		}
+	},
 	all = {
 		10011,
 		10021,
@@ -513,6 +594,9 @@ pg.commander_data_template = {
 		41021,
 		41031,
 		42011,
-		42021
+		42021,
+		960011,
+		960021,
+		960031
 	}
 }

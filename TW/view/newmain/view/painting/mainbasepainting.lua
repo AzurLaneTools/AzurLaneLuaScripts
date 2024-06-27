@@ -214,15 +214,25 @@ slot0.TriggerNextEventAuto = function(slot0)
 	slot0:RemoveTimer()
 
 	slot0.timer = Timer.New(function ()
-		slot0 = uv0:CollectIdleEvents(uv0.lastChatEvent)
-		uv0.lastChatEvent = slot0[math.ceil(math.random(#slot0))]
-
-		uv0:_TriggerEvent(uv0.lastChatEvent)
-		uv0:OnTriggerEventAuto()
-		uv0:RemoveTimer()
+		uv0:OnTimerTriggerEvent()
 	end, 30, 1, true)
 
 	slot0.timer:Start()
+end
+
+slot0.OnTimerTriggerEvent = function(slot0)
+	if slot0:OnEnableTimerEvent() then
+		slot1 = slot0:CollectIdleEvents(slot0.lastChatEvent)
+		slot0.lastChatEvent = slot1[math.ceil(math.random(#slot1))]
+
+		slot0:_TriggerEvent(slot0.lastChatEvent)
+		slot0:OnTriggerEventAuto()
+		slot0:RemoveTimer()
+	end
+end
+
+slot0.OnEnableTimerEvent = function(slot0)
+	return true
 end
 
 slot0.OnStartChatting = function(slot0)

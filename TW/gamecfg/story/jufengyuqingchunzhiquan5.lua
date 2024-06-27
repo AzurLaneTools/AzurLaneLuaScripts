@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgm = "story-temepest-1",
-			say = "风帆快船以不可思议的速度在塞壬战舰中穿梭着。",
+			say = "風帆快艇以不可思議的速度在塞壬戰艦中穿梭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
-			say = "站在船尾甲板上，感受着拂面的狂风，身后还时不时亮起爆炸的火花。",
+			say = "站在船尾甲板上，感受著拂面的狂風，身後不時亮起爆炸的火花。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
-			say = "这些火花少数来自于这艘“临时皇家财富号”造成的打击。",
+			say = "這些火花少數來自於這艘「臨時皇家幸運號」造成的打擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
-			say = "多数则来自塞壬战舰之间的误击。",
+			say = "多數則來自塞壬戰艦之間的誤擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,12 +55,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦……！这个战术真起作用了！我们真的在以一敌十欸！",
+			say = "哦……！這個戰術真起作用了！我們真的在以一敵十欸！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,12 +74,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……等等，残响舰队正在朝我们的左舷和右舷散开！",
+			say = "……等等，殘響艦隊正在朝我們的左舷和右舷散開！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,12 +93,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样下去不妙啊！等它们让出可用的炮线，我们就要陷入压制性的不利了！",
+			say = "這樣下去不妙！等它們讓出可用的炮線，我們就要陷入壓制性的不利了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			bgName = "star_level_bg_524",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰——！",
+			say = "轟——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,13 +162,13 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			bgName = "star_level_bg_524",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "左舷中弹啦！快做点什么！",
+			say = "左舷中彈啦！快做點什麼！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不要急，差不多是时候了。",
+			say = "不要著急，差不多是時候了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
@@ -232,7 +232,7 @@ return {
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "永远记住，我们不是孤军奋战。",
+			say = "永遠記住，我們不是孤軍奮戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,21 +243,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
-			say = "就在这时，远方传来了嘹亮的响哨。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			portrait = 9600030,
-			side = 2,
-			bgName = "star_level_bg_524",
-			actorName = "？？",
-			withoutPainting = true,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "女神保佑，这里还有一个真正的战士！",
+			say = "就在這時，遠方傳來了嘹亮的響哨聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +257,21 @@ return {
 			withoutPainting = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "跟上我们的旗舰！前进！",
+			say = "女神保佑，這裡還有一個真正的戰士！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			portrait = 9600030,
+			side = 2,
+			bgName = "star_level_bg_524",
+			actorName = "？？",
+			withoutPainting = true,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "跟上我們的旗艦！前進！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
-			say = "在十几分钟的努力后，完成整备的城邦舰队终于开动了起来。",
+			say = "在十幾分鐘的努力後，完成整備的城邦艦隊終於開動了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
-			say = "胜负已分——",
+			say = "勝負已分——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

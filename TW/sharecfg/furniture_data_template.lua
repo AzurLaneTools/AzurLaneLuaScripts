@@ -131,6 +131,8 @@ pg.furniture_data_template = setmetatable({
 			258,
 			260,
 			263,
+			264,
+			265,
 			266,
 			269,
 			278,
@@ -167,6 +169,7 @@ pg.furniture_data_template = setmetatable({
 			100033,
 			100034,
 			100035,
+			100036,
 			100055,
 			200001,
 			200002,
@@ -2717,6 +2720,49 @@ pg.furniture_data_template = setmetatable({
 			303118,
 			303119
 		},
+		[104] = {
+			304001,
+			304002,
+			304101,
+			304102,
+			304103,
+			304104,
+			304105,
+			304106,
+			304107,
+			304108,
+			304109,
+			304110,
+			304111,
+			304112,
+			304113,
+			304114,
+			304115,
+			304116,
+			304117,
+			304118,
+			304119,
+			304120,
+			304121,
+			304122,
+			304123,
+			304124,
+			304125,
+			304126,
+			304127,
+			304128,
+			304129,
+			304130,
+			304131,
+			304201,
+			304301,
+			304302,
+			304303,
+			304304,
+			304305,
+			304306,
+			304307
+		},
 		[105] = {
 			305001,
 			305002,
@@ -4411,6 +4457,36 @@ pg.furniture_data_template = setmetatable({
 			303117,
 			303118,
 			303119,
+			304101,
+			304102,
+			304103,
+			304104,
+			304105,
+			304106,
+			304107,
+			304108,
+			304109,
+			304110,
+			304111,
+			304112,
+			304113,
+			304114,
+			304115,
+			304116,
+			304117,
+			304118,
+			304119,
+			304120,
+			304121,
+			304122,
+			304123,
+			304124,
+			304125,
+			304126,
+			304127,
+			304128,
+			304129,
+			304130,
 			305101,
 			305102,
 			305103,
@@ -4574,7 +4650,8 @@ pg.furniture_data_template = setmetatable({
 			99203,
 			99204,
 			300201,
-			300202
+			300202,
+			304201
 		},
 		[6] = {
 			1,
@@ -4663,6 +4740,7 @@ pg.furniture_data_template = setmetatable({
 			258,
 			260,
 			263,
+			265,
 			269,
 			100002,
 			100003,
@@ -4697,6 +4775,7 @@ pg.furniture_data_template = setmetatable({
 			100033,
 			100034,
 			100035,
+			100036,
 			100055,
 			54104,
 			54105
@@ -4743,6 +4822,7 @@ pg.furniture_data_template = setmetatable({
 			248,
 			256,
 			257,
+			264,
 			266,
 			278
 		},
@@ -4903,6 +4983,7 @@ pg.furniture_data_template = setmetatable({
 			302130,
 			303101,
 			303102,
+			304131,
 			305301,
 			305302,
 			305303,
@@ -4994,6 +5075,7 @@ pg.furniture_data_template = setmetatable({
 			301001,
 			302001,
 			303001,
+			304001,
 			305001,
 			311001
 		},
@@ -5083,6 +5165,7 @@ pg.furniture_data_template = setmetatable({
 			301002,
 			302002,
 			303002,
+			304002,
 			305002,
 			311002
 		},
@@ -5371,6 +5454,13 @@ pg.furniture_data_template = setmetatable({
 			302302,
 			302303,
 			302304,
+			304301,
+			304302,
+			304303,
+			304304,
+			304305,
+			304306,
+			304307,
 			305305,
 			305306
 		}
@@ -5462,6 +5552,7 @@ pg.furniture_data_template = setmetatable({
 			301002,
 			302002,
 			303002,
+			304002,
 			305002,
 			311002
 		},
@@ -5575,6 +5666,8 @@ pg.furniture_data_template = setmetatable({
 			258,
 			260,
 			263,
+			264,
+			265,
 			266,
 			269,
 			278,
@@ -5602,6 +5695,7 @@ pg.furniture_data_template = setmetatable({
 			100031,
 			100033,
 			100035,
+			100036,
 			100055
 		},
 		[2] = {
@@ -7239,6 +7333,35 @@ pg.furniture_data_template = setmetatable({
 			303117,
 			303118,
 			303119,
+			304101,
+			304102,
+			304103,
+			304104,
+			304105,
+			304106,
+			304107,
+			304108,
+			304109,
+			304110,
+			304111,
+			304112,
+			304113,
+			304114,
+			304116,
+			304117,
+			304119,
+			304120,
+			304121,
+			304122,
+			304123,
+			304124,
+			304125,
+			304126,
+			304127,
+			304128,
+			304129,
+			304130,
+			304131,
 			305101,
 			305102,
 			305103,
@@ -7418,6 +7541,7 @@ pg.furniture_data_template = setmetatable({
 			301001,
 			302001,
 			303001,
+			304001,
 			305001,
 			311001
 		},
@@ -7550,6 +7674,8 @@ pg.furniture_data_template = setmetatable({
 			98138,
 			300109,
 			302111,
+			304115,
+			304118,
 			305108,
 			305111,
 			305119
@@ -7683,7 +7809,8 @@ pg.furniture_data_template = setmetatable({
 			99203,
 			99204,
 			300201,
-			300202
+			300202,
+			304201
 		},
 		[6] = {
 			1301,
@@ -7966,6 +8093,12 @@ pg.furniture_data_template = setmetatable({
 			302302,
 			302303,
 			302304,
+			304301,
+			304302,
+			304303,
+			304304,
+			304305,
+			304307,
 			305301,
 			305302,
 			305303,
@@ -7991,6 +8124,7 @@ pg.furniture_data_template = setmetatable({
 			38301,
 			76305,
 			98302,
+			304306,
 			305306
 		},
 		[12] = {
@@ -8128,6 +8262,8 @@ pg.furniture_data_template = setmetatable({
 		258,
 		260,
 		263,
+		264,
+		265,
 		266,
 		269,
 		278,
@@ -8164,6 +8300,7 @@ pg.furniture_data_template = setmetatable({
 		100033,
 		100034,
 		100035,
+		100036,
 		100055,
 		200001,
 		200002,
@@ -10543,6 +10680,47 @@ pg.furniture_data_template = setmetatable({
 		303117,
 		303118,
 		303119,
+		304001,
+		304002,
+		304101,
+		304102,
+		304103,
+		304104,
+		304105,
+		304106,
+		304107,
+		304108,
+		304109,
+		304110,
+		304111,
+		304112,
+		304113,
+		304114,
+		304115,
+		304116,
+		304117,
+		304118,
+		304119,
+		304120,
+		304121,
+		304122,
+		304123,
+		304124,
+		304125,
+		304126,
+		304127,
+		304128,
+		304129,
+		304130,
+		304131,
+		304201,
+		304301,
+		304302,
+		304303,
+		304304,
+		304305,
+		304306,
+		304307,
 		305001,
 		305002,
 		305101,
@@ -16736,6 +16914,101 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[264] = {
+		can_rotate = 0,
+		describe = "此為初見的象徵，亦為再會的信物。我心中的人啊，願海風永遠與你同行。\n－「颶風與青春之泉」活動紀念章",
+		gain_by = "颶風與青春之泉",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/fengfanxunzhang",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 8,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "璀璨航針",
+		advice = 0,
+		icon = "fengfanxunzhangicon",
+		id = 264,
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
+	[265] = {
+		can_rotate = 1,
+		describe = "——骰子已經擲出了。",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "命運之骰",
+		advice = 0,
+		id = 265,
+		icon = "shimiantouicon",
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shimiantou",
+				"normal",
+				{
+					"action0",
+					false,
+					{
+						"action1",
+						"action2",
+						"action3",
+						"action4",
+						"action5",
+						"action6",
+						"action7",
+						"action8",
+						"action9"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[266] = {
 		can_rotate = 0,
 		describe = "紀錄風雲城景色的捲軸，將其展開後能看到壯麗的景色。\n——「蒼閃忍法帖」活動紀念",
@@ -19337,6 +19610,80 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100036] = {
+		can_rotate = 0,
+		describe = "解開科學之謎啾！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "qiuzhuangshandianfashengqiicon",
+		count = 1,
+		name = "球狀閃電發生器",
+		advice = 0,
+		id = 100036,
+		tag = 6,
+		comfortable = 0,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiuzhuangshandianfashengqiB",
+				"normal"
+			},
+			{
+				"qiuzhuangshandianfashengqiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},
@@ -123319,6 +123666,1767 @@ pg.base.furniture_data_template = {
 				"yinghuobgyx",
 				"normal"
 			}
+		},
+		interAction_group = {}
+	},
+	[304001] = {
+		can_rotate = 0,
+		describe = "遠航船，向著自由與寶藏，起航~",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/dibanhdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "航海之家地板",
+		advice = 0,
+		icon = "dibanhdcicon",
+		id = 304001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304002] = {
+		can_rotate = 0,
+		describe = "遠航船，向著自由與寶藏，起航~",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/qiangbihdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "航海之家壁紙",
+		advice = 0,
+		icon = "qiangbihdcicon",
+		id = 304002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304101] = {
+		can_rotate = 0,
+		describe = "可以放心打開，沒有寶箱怪物跳出來。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/baoxianghdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "傳說中的寶藏",
+		advice = 0,
+		icon = "baoxianghdcicon",
+		id = 304101,
+		comfortable = 3,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304102] = {
+		can_rotate = 0,
+		describe = "手持船舵，在大海中勇猛前進吧！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/chuanduohdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "航海船舵",
+		advice = 0,
+		icon = "chuanduohdcicon",
+		id = 304102,
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304103] = {
+		can_rotate = 0,
+		describe = "穩定性十足，不會因為海浪顛簸從上面掉下來。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/chuanghdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 104,
+		count = 1,
+		name = "船長床",
+		advice = 0,
+		id = 304103,
+		icon = "chuanghdcicon",
+		comfortable = 2,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					3,
+					13
+				},
+				{
+					1,
+					1
+				},
+				"hdc/chuanghdc_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304104] = {
+		can_rotate = 0,
+		describe = "就是這隻啾喝掉了我的啤酒！！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/chuanyuanjiuhdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "船員啾",
+		advice = 0,
+		icon = "chuanyuanjiuhdcicon",
+		id = 304104,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304105] = {
+		can_rotate = 0,
+		describe = "試著裝出威風凜凜的樣子。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/chuanzhangjiuhdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "船長啾",
+		advice = 0,
+		icon = "chuanzhangjiuhdcicon",
+		id = 304105,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304106] = {
+		can_rotate = 0,
+		describe = "肆無忌憚，無所畏懼的冒險生涯！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/dachuanhdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 104,
+		count = 1,
+		name = "啟航的冒險船",
+		advice = 0,
+		id = 304106,
+		icon = "dachuanhdcicon",
+		comfortable = 4,
+		size = {
+			5,
+			14
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					-302,
+					10.7
+				},
+				{
+					1,
+					1
+				},
+				"hdc/dachuanhdc_using"
+			},
+			{
+				"dance",
+				{
+					111.8,
+					-226.3
+				},
+				{
+					-1,
+					1
+				},
+				"hdc/dachuanhdc_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304107] = {
+		can_rotate = 0,
+		describe = "預備，開炮！！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/dapaohdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "火炮",
+		advice = 0,
+		icon = "dapaohdcicon",
+		id = 304107,
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304108] = {
+		can_rotate = 0,
+		describe = "炮彈，發射！！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/dapao2hdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "黃金大炮",
+		advice = 0,
+		icon = "dapao2hdcicon",
+		id = 304108,
+		comfortable = 3,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304109] = {
+		can_rotate = 0,
+		describe = "喝多了可以在上面打盹。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/dashafahdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 104,
+		count = 1,
+		name = "扶手沙發",
+		advice = 0,
+		id = 304109,
+		icon = "dashafahdcicon",
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-18.8,
+					16.6
+				},
+				{
+					-1,
+					1
+				},
+				"hdc/dashafahdc_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304110] = {
+		can_rotate = 0,
+		describe = "物盡其用，底下墊著幾個酒桶。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/dazhuozihdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		count = 1,
+		name = "酒桶大桌",
+		advice = 0,
+		icon = "dazhuozihdcicon",
+		id = 304110,
+		comfortable = 2,
+		size = {
+			3,
+			4
+		},
+		offset = {
+			0,
+			-11.4
+		},
+		canputonGrid = {
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				2,
+				4
+			},
+			{
+				2,
+				5
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			},
+			{
+				3,
+				4
+			},
+			{
+				3,
+				5
+			},
+			{
+				4,
+				2
+			},
+			{
+				4,
+				3
+			},
+			{
+				4,
+				4
+			},
+			{
+				4,
+				5
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304111] = {
+		can_rotate = 0,
+		describe = "不算很亮，剛好看清腳下的地板。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/denghdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "航船夜燈",
+		advice = 0,
+		icon = "denghdcicon",
+		id = 304111,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304112] = {
+		can_rotate = 0,
+		describe = "看見燈塔可以準備靠岸了。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/dengtahdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "明亮燈塔",
+		advice = 0,
+		icon = "dengtahdcicon",
+		id = 304112,
+		comfortable = 2,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304113] = {
+		can_rotate = 0,
+		describe = "如果喝多了可能要從凳子上滑下來。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/dengzihdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 104,
+		count = 1,
+		name = "矮凳",
+		advice = 0,
+		id = 304113,
+		icon = "dengzihdcicon",
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-20.3,
+					60.5
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304114] = {
+		can_rotate = 0,
+		describe = "躺在吊床上，看看藍天白雲。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/diaochuanghdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 104,
+		count = 1,
+		name = "沙灘吊床",
+		advice = 0,
+		id = 304114,
+		icon = "diaochuanghdcicon",
+		comfortable = 2,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					9.7,
+					-36.4
+				},
+				{
+					1,
+					1
+				},
+				"hdc/diaochuanghdc_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304115] = {
+		can_rotate = 0,
+		describe = "猜猜看，暗格下面，隱藏著什麼寶藏呢……",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/dilonghdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "甲板暗格",
+		advice = 0,
+		icon = "dilonghdcicon",
+		id = 304115,
+		comfortable = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304116] = {
+		can_rotate = 0,
+		describe = "環球旅行",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/diqiuyihdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "地球儀",
+		advice = 0,
+		icon = "diqiuyihdcicon",
+		id = 304116,
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304117] = {
+		can_rotate = 0,
+		describe = "嚴肅，安靜，在工作呢！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/gongzuozhuohdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "航船工作台",
+		advice = 0,
+		icon = "gongzuozhuohdcicon",
+		id = 304117,
+		comfortable = 1,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304118] = {
+		can_rotate = 0,
+		describe = "模仿海水波瀾紋樣紡織的地毯",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/haishuihdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 8,
+		name = "海水地毯",
+		advice = 0,
+		icon = "haishuihdcicon",
+		id = 304118,
+		comfortable = 1,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304119] = {
+		can_rotate = 0,
+		describe = "金的哎！值不少錢吧！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/jinchuanduohdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "黃金船舵",
+		advice = 0,
+		icon = "jinchuanduohdcicon",
+		id = 304119,
+		comfortable = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304120] = {
+		can_rotate = 0,
+		describe = "實現一個在金子裡沐浴的夢想",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/jinyuganghdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 104,
+		count = 1,
+		name = "黃金浴缸",
+		advice = 0,
+		id = 304120,
+		icon = "jinyuganghdcicon",
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					0.8,
+					-23.8
+				},
+				{
+					-1,
+					1
+				},
+				"hdc/jinyuganghdc_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304121] = {
+		can_rotate = 0,
+		describe = "從上面摔下來過很多醉鬼。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/loutihdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "堅固的樓梯",
+		advice = 0,
+		icon = "loutihdcicon",
+		id = 304121,
+		comfortable = 2,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304122] = {
+		can_rotate = 0,
+		describe = "精密儀器，禁止在其附近打架鬥毆，以防碰損。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/luopanhdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "精密羅盤",
+		advice = 0,
+		icon = "luopanhdcicon",
+		id = 304122,
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304123] = {
+		can_rotate = 0,
+		describe = "輕拿輕放，乾燥保存。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/paodanhdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "武器庫的炮彈",
+		advice = 0,
+		icon = "paodanhdcicon",
+		id = 304123,
+		comfortable = 1,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304124] = {
+		can_rotate = 0,
+		describe = "救命，誰把鯊魚放進來的！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/shayuhdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "溜進來的鯊魚",
+		advice = 0,
+		icon = "shayuhdcicon",
+		id = 304124,
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304125] = {
+		can_rotate = 0,
+		describe = "讓我看看寶箱藏在哪裡了？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/wangyuanjinghdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "機械式望遠鏡",
+		advice = 0,
+		icon = "wangyuanjinghdcicon",
+		id = 304125,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304126] = {
+		can_rotate = 0,
+		describe = "搭乘小船，悄無聲息登陸淺灘。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/xiaochuanhdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 104,
+		count = 1,
+		name = "登陸船",
+		advice = 0,
+		id = 304126,
+		icon = "xiaochuanhdcicon",
+		comfortable = 2,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"dance",
+				{
+					12.9,
+					-2.1
+				},
+				{
+					-1,
+					1
+				},
+				"hdc/xiaochuanhdc_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304127] = {
+		can_rotate = 0,
+		describe = "捆了幾個酒桶，上面墊了一層玻璃，湊合用。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/xiaozhuohdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		count = 1,
+		name = "小桶桌",
+		advice = 0,
+		icon = "xiaozhuohdcicon",
+		id = 304127,
+		comfortable = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {
+			0,
+			5.83
+		},
+		canputonGrid = {
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			},
+			{
+				3,
+				2
+			},
+			{
+				3,
+				3
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304128] = {
+		can_rotate = 0,
+		describe = "不准舉起椅子打人，把椅子放下！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/yizihdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 104,
+		count = 1,
+		name = "座椅",
+		advice = 0,
+		id = 304128,
+		icon = "yizihdcicon",
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					18,
+					27.3
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304129] = {
+		can_rotate = 0,
+		describe = "請節約用水。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/zaotonghdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 104,
+		count = 1,
+		name = "舒適澡桶",
+		advice = 0,
+		id = 304129,
+		icon = "zaotonghdcicon",
+		comfortable = 2,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-11,
+					-12
+				},
+				{
+					1,
+					1
+				},
+				"hdc/zaotonghdc_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304130] = {
+		can_rotate = 0,
+		describe = "桌子這麼乾淨，放幾個酒瓶吧？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/zhuohdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		count = 1,
+		name = "乾淨的方桌",
+		advice = 0,
+		icon = "zhuohdcicon",
+		id = 304130,
+		comfortable = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {
+			0,
+			1.59
+		},
+		canputonGrid = {
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				1,
+				3
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				2,
+				3
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304131] = {
+		can_rotate = 0,
+		describe = "能佔用你一點時間嗎，想跟你講一下……",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 7,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 104,
+		count = 1,
+		name = "深海問候",
+		advice = 0,
+		id = 304131,
+		icon = "chushouhdcicon",
+		comfortable = 4,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chushouhdc",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[304201] = {
+		can_rotate = 0,
+		describe = "嗝~",
+		gain_by = "",
+		type = 3,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/pijiuhdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 2,
+		spine_extra = "",
+		level = 2,
+		rarity = 1,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 4,
+		name = "滿杯生啤酒",
+		advice = 0,
+		icon = "pijiuhdcicon",
+		id = 304201,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304301] = {
+		can_rotate = 0,
+		describe = "看見有海鷗飛過~",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/chuanghuhdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 2,
+		name = "船舷窗戶",
+		advice = 0,
+		icon = "chuanghuhdcicon",
+		id = 304301,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304302] = {
+		can_rotate = 0,
+		describe = "所以我們現在航行到哪裡了？",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/hanghaituhdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "詳細的航海圖",
+		advice = 0,
+		icon = "hanghaituhdcicon",
+		id = 304302,
+		comfortable = 1,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304303] = {
+		can_rotate = 0,
+		describe = "從很遠的地方就能聞到酒的香氣~",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/jiujiaohdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "堆滿酒桶的酒窖",
+		advice = 0,
+		icon = "jiujiaohdcicon",
+		id = 304303,
+		comfortable = 2,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304304] = {
+		can_rotate = 0,
+		describe = "跳動的火苗~",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/lazhuhdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 4,
+		name = "昏暗的蠟燭",
+		advice = 0,
+		icon = "lazhuhdcicon",
+		id = 304304,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304305] = {
+		can_rotate = 0,
+		describe = "外面風浪大，門要關好~",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/menhdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "結實的門",
+		advice = 0,
+		icon = "menhdcicon",
+		id = 304305,
+		comfortable = 2,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304306] = {
+		can_rotate = 0,
+		describe = "看起來很晴朗，適合夜間航行。",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/yekonghdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 2,
+		name = "夜間航行",
+		advice = 0,
+		icon = "yekonghdcicon",
+		id = 304306,
+		comfortable = 1,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[304307] = {
+		can_rotate = 0,
+		describe = "不是漁網襪，不要披在身上！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hdc/yuwanghdc",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 104,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "捕魚網",
+		advice = 0,
+		icon = "yuwanghdcicon",
+		id = 304307,
+		comfortable = 1,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},

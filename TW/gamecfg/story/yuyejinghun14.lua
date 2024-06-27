@@ -9,13 +9,13 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
-			actorName = "一本正经的后辈kp",
+			actorName = "一本正經的後輩kp",
 			bgName = "star_level_bg_600",
-			factiontag = "真相只有一个",
+			factiontag = "真相只有一個",
 			bgm = "qe-ova-15",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在说话的间隙，你总觉得有一道强烈的视线打在你的身上。",
+			say = "在說話的間隙，你總覺得有一道強烈的視線打在你的身上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……请问我脸上是有沾到什么吗？",
+			say = "……請問我臉上有沾到什麼嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,12 +54,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "来一顿饕餮盛宴吧",
+			factiontag = "來一頓饕餮盛宴吧",
 			nameColor = "#A9F548FF",
 			actor = 9600061,
-			actorName = "古堡厨师长",
+			actorName = "古堡廚師長",
 			hidePaintObj = true,
-			say = "啊、啊，不、不是的、我、我只是觉得……调查员您和大小姐的婚约者……过去的摩根阁下一样。",
+			say = "啊、啊，不、不是的、我、我只是覺得……調查員您和大小姐的婚約者……過去的摩根閣下一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,12 +69,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "来一顿饕餮盛宴吧",
+			factiontag = "來一頓饕餮盛宴吧",
 			nameColor = "#A9F548FF",
 			actor = 9600061,
-			actorName = "古堡厨师长",
+			actorName = "古堡廚師長",
 			hidePaintObj = true,
-			say = "……都那么好看（小声）。",
+			say = "……都那麼好看（小聲）。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,17 +85,17 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			actorName = "文學少女KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "面对这种情景，调查员决定——",
+			say = "面對這種情景，調查員決定——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "用魅惑术拿到钥匙！",
+					content = "用魅惑術拿到鑰匙！",
 					flag = 1
 				}
 			}
@@ -106,7 +106,7 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "既然有这个技能，那就要用！",
+			say = "既然有這個技能，那就要用！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "有疑问找{namecode:428:欧根}",
+			factiontag = "有疑問找歐根",
 			actorName = "代理kp",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -130,11 +130,11 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "有疑问找{namecode:428:欧根}",
+			factiontag = "有疑問找歐根",
 			actorName = "代理kp",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啧……你回忆着魅惑术的内容，虽然那些知识让你的良心隐隐作痛，但是只要能达成最终目的，你并不在意方法。",
+			say = "嘖……你回憶著魅惑術的內容，雖然那些知識讓你的良心隱隱作痛，但是只要能達成最終目的，你並不在意方法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,11 +144,11 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "有疑问找{namecode:428:欧根}",
+			factiontag = "有疑問找歐根",
 			actorName = "代理kp",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很快，厨师长就迷倒在你出色的容貌和高超的魅惑术之下。",
+			say = "很快，廚師長就迷倒在你出色的容貌和高超的魅惑術之下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,12 +158,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "来一顿饕餮盛宴吧",
+			factiontag = "來一頓饕餮盛宴吧",
 			nameColor = "#A9F548FF",
 			actor = 9600061,
-			actorName = "古堡厨师长",
+			actorName = "古堡廚師長",
 			hidePaintObj = true,
-			say = "调查员……虽然这么说有些唐突，但是！但是我觉得我、我已经不可自拔地爱上了你！",
+			say = "調查員……雖然這麼說有些唐突，但是！但是我覺得我、我已經不可自拔地愛上你了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "太好了，继续乘胜追击！",
+			say = "太好了，繼續乘勝追擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,10 +191,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			actorName = "文學少女KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你请求她帮助你直接打开餐厅与宴会厅的隔间，厨师在听到这个小小的要求时愣了一下。",
+			say = "你請求她幫你直接打開餐廳與宴會廳的隔間，廚師在聽到這個小小的要求時愣了一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,10 +205,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			actorName = "文學少女KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "似乎，对于管家的敬重在和魅惑术的力量相抗衡，但很快，她似乎想通了什么。",
+			say = "似乎，對於管家的敬重在和魅惑術的力量相抗衡，但是很快地，她似乎想通了什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,12 +218,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "来一顿饕餮盛宴吧",
+			factiontag = "來一頓饕餮盛宴吧",
 			nameColor = "#A9F548FF",
 			actor = 9600061,
-			actorName = "古堡厨师长",
+			actorName = "古堡廚師長",
 			hidePaintObj = true,
-			say = "我明白了，亲爱的调查员。您随我来。",
+			say = "我明白了，親愛的調查員。您隨我來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,10 +234,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			actorName = "文學少女KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "厨师对你的绵绵爱意全都化作了疯狂的冲动，那一见倾心的热情让她在瞬间就做出了一个大胆的决定。",
+			say = "廚師對你的綿綿愛意全都化作了瘋狂的衝動，那一見傾心的熱情讓她在瞬間就做出了一個大膽的決定。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,10 +248,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			actorName = "文學少女KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她牵上了你的手，带着你往厨房的方向走去。",
+			say = "她牽上了你的手，帶著你往廚房的方向走去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,10 +262,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			actorName = "文學少女KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也就是在这一瞬间，有一种怪异的感觉爬上你的脊背……",
+			say = "也就是在這一瞬間，有種怪異的感覺爬上你的脊背…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯？……等等！她头上发饰的图案难道是……！",
+			say = "嗯？……等等！她頭上髮飾的圖案難道是……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,10 +288,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			actorName = "文學少女KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你注意到厨师发饰上的图案似乎有点与众不同，那个标记好像在什么地方……",
+			say = "你似乎注意注意到廚師髮飾上的圖案似乎有點與眾不同，那個標記似乎在什麼地方……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,10 +302,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_600",
 			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			actorName = "文學少女KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（d100=69）失败。很可惜，在你成功想起来什么之前，那只柔软的手夺走了你所有的注意力。",
+			say = "（d100=69）失敗。很可惜，在你成功想起來什麼之前，那隻柔軟的手奪走了你所有的注意力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等……等等，我想起来了啊——",
+			say = "等等……等等，我想起來了啊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,13 +326,13 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
-			actorName = "一本正经的后辈kp",
+			actorName = "一本正經的後輩kp",
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
+			factiontag = "真相只有一個",
 			bgm = "story-oldcastle-carnival",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "你发现自己来到了厨房。",
+			say = "你發現自己來到了廚房。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,11 +359,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈kp",
+			factiontag = "真相只有一個",
+			actorName = "一本正經的後輩kp",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "昏暗的炉火是这个房间里唯一的光源，只能勉强看清一些东西摆放的大体位置。",
+			say = "昏暗的爐火是這個房間裡唯一的光源，只能勉強看清一些東西擺放的大致位置。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,8 +373,8 @@ return {
 			portrait = 101490,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "没有人比我更懂kp",
-			actorName = "传奇调查员KP（自称）",
+			factiontag = "没有人比我更懂KP",
+			actorName = "傳奇調查員KP（自稱）",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
 			say = "嘶嘶嘶@#￥%……&…………嘶——！！",
@@ -392,11 +392,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "真相只有一個",
+			actorName = "一本正經的後輩KP",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "那个低沉的声音又出现了，无序和混乱的呓语飘荡在整个房间里。",
+			say = "那個低沉的聲音又出現了，無序又混亂的囈語飄蕩在整個房間裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（又是这个声音！不好，得尽快脱身才行……）",
+			say = "（又是這個聲音！不好，得盡快脫身才行……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,11 +418,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "真相只有一個",
+			actorName = "一本正經的後輩KP",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "你敏锐地察觉到了隐藏在这个房间里的危险，正当你转身想要快速离开的时候……",
+			say = "你敏銳地察覺到了隱藏在這個房間裡的危險，正當你轉身想要快速離開的時候……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,11 +432,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "真相只有一個",
+			actorName = "一本正經的後輩KP",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "突然间一股强大的力量拉住了你的手臂。",
+			say = "突然間一股強大的力量拉住了你的手臂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,12 +446,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "来一顿饕餮盛宴吧",
+			factiontag = "來一頓饕餮盛宴吧",
 			nameColor = "#FF9B93",
 			actor = 9600061,
-			actorName = "古堡厨师长",
+			actorName = "古堡廚師長",
 			hidePaintObj = true,
-			say = "亲·爱·的~你要去哪里呀？",
+			say = "親·愛·的~你要去哪裡呀？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,10 +474,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "NA-NO-DA！",
-			actorName = "运势高涨的KP大人",
+			actorName = "運勢高漲的KP大人",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "调查员似乎想要用力甩开这只拉住你的手呢~",
+			say = "調查員似乎想要用力甩開這隻拉住你的手呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,17 +488,17 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "NA-NO-DA！",
-			actorName = "运势高涨的KP大人",
+			actorName = "運勢高漲的KP大人",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "如此紧急的时刻，要申请过力量检定吗？{namecode:22:雪风}大人可以来给你再投一次哦~",
+			say = "如此緊急的時刻，要申請過力量檢定嗎？雪風大人可以來再給你一次喔~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "请务必！",
+					content = "請務必！",
 					flag = 1
 				},
 				{
@@ -512,10 +512,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "NA-NO-DA！",
-			actorName = "运势高涨的KP大人",
+			actorName = "運勢高漲的KP大人",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "{namecode:22:雪风}大人的投掷结果是——（d100=1）大成功！",
+			say = "雪風大人的投擲結果是——（d100=1）大成功！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,10 +538,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			actorName = "文學少女KP",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "你用尽了全力，依然没有甩开厨师小姐拉着你的手。",
+			say = "你用盡了全力，依然沒有甩開廚師小姐拉著你的手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,10 +552,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			actorName = "文學少女KP",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "泛黄的记忆再次回到了你的脑海，你突然想起来了一件事。",
+			say = "泛黃的記憶再次回到了你的腦海，你突然想起來了一件事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,10 +566,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			actorName = "文學少女KP",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "你的力气和普通人相比要弱小得多。往往别人轻易可以举起的东西，对你来说却相当沉重。",
+			say = "你的力氣和普通人相比弱小很多。往往別人輕易可以舉起的東西，對你來說卻相當沉重。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,10 +580,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			actorName = "文學少女KP",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "你成功回忆起了自己的基础属性：力量：25。",
+			say = "你成功回憶起了自己的基礎屬性：力量：25。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………只有25？但是这个检定可是大成功！",
+			say = "…………只有25？但是這個檢定可是大成功！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,10 +610,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			actorName = "文學少女KP",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "嗯……没错。是这样，虽然你没能成功甩开厨师小姐的手。",
+			say = "嗯……沒錯。是這樣，雖然你沒能成功甩開廚師小姐的手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,10 +624,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			actorName = "文學少女KP",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "但是你试图挣脱的行为明显激怒了她，她主动松开了你的手，然后拿起了菜刀。",
+			say = "但是你試圖掙脫的行為明顯激怒了她，她主動鬆開了你的手，然後拿起了菜刀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,11 +637,11 @@ return {
 			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "来一顿饕餮盛宴吧",
+			factiontag = "來一頓饕餮盛宴吧",
 			actor = 9600061,
-			actorName = "古堡厨师长",
+			actorName = "古堡廚師長",
 			hidePaintObj = true,
-			say = "啊~调查员、我亲爱的……我爱您……这次……我不会再将您让给她了……",
+			say = "啊~調查員、我的親愛的……我愛您……這次……我不會再將您讓給她了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -651,10 +651,10 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "来一顿饕餮盛宴吧",
+			factiontag = "來一頓饕餮盛宴吧",
 			nameColor = "#FF9B93",
 			actor = 9600061,
-			actorName = "古堡厨师长",
+			actorName = "古堡廚師長",
 			hidePaintObj = true,
 			say = "可是祭品……大小姐的希望……",
 			typewriter = {
@@ -666,12 +666,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "来一顿饕餮盛宴吧",
+			factiontag = "來一頓饕餮盛宴吧",
 			nameColor = "#FF9B93",
 			actor = 9600061,
-			actorName = "古堡厨师长",
+			actorName = "古堡廚師長",
 			hidePaintObj = true,
-			say = "没关系~嘻嘻嘻嘻~祭品什么的总能找到更合适的~",
+			say = "沒關係~嘻嘻嘻嘻~祭品什麼的總是能找到比較合適的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,11 +681,11 @@ return {
 			nameColor = "#FF9B93",
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "来一顿饕餮盛宴吧",
+			factiontag = "來一頓饕餮盛宴吧",
 			actor = 9600061,
-			actorName = "古堡厨师长",
+			actorName = "古堡廚師長",
 			hidePaintObj = true,
-			say = "就让我们永远都在一起吧~",
+			say = "就讓我們永遠在一起吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -696,10 +696,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			actorName = "文學少女KP",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "那绵绵不绝的爱意最后全都化作了疯狂，为了和你永远在一起，厨师决定将你做成一桌绝世盛宴。",
+			say = "那綿綿不絕的愛意最後全都化作了瘋狂，為了和你永遠在一起，廚師決定將你做成一桌絕世盛宴。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,10 +710,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			actorName = "文學少女KP",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "这样，你就永远都属于她了。",
+			say = "這樣，你就永遠都屬於她了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -724,10 +724,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			actorName = "文學少女KP",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "你感觉到后颈传来一阵剧烈的疼痛，然后眼前就陷入了无边的黑暗，再无知觉——",
+			say = "你覺得後頸一陣劇烈疼痛，然後就陷入了無邊的黑暗，再多知覺——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -739,7 +739,7 @@ return {
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
-					"古堡调查实录\n\n<size=45>BE-04-饕餮盛宴</size>",
+					"古堡調查實錄\n\n<size=45>BE-04-饕餮盛宴</size>",
 					1
 				}
 			}
@@ -751,7 +751,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgm = "theme-ijndailymeeting",
-			say = "所以……最后我是从字面意义上被厨师长享用掉了？",
+			say = "所以……最後我是從字面意義上被廚師長享用掉了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -762,10 +762,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			actorName = "文學少女KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，没错哦~",
+			say = "嘿嘿，沒錯哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -776,10 +776,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			actorName = "文學少女KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当初设计的时候，{namecode:428:欧根}小姐说这个结局代表了疯狂、沉重且专一的爱，{namecode:401:Z2}小姐也表示认同。",
+			say = "當初設計的時候，歐根小姐說這個結局代表了瘋狂、沉重且專一的愛，Z2小姐也表示認同。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -790,10 +790,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			actorName = "文學少女KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以最后就这么定下来了哦~",
+			say = "所以最後就這麼定下來了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -803,22 +803,22 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "有疑问找{namecode:428:欧根}",
+			factiontag = "有疑問找歐根",
 			actorName = "代理KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不……与我无关。主要还是{namecode:428:欧根}那么兴致勃勃……",
+			say = "不……與我無關。主要還是歐根那麼興致勃勃…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "好恐怖，下次能不能全年龄一些！",
+					content = "好恐怖，下次能不能全年齡一點！",
 					flag = 1
 				},
 				{
-					content = "好刺激的结局，请来更多！",
+					content = "好結局，請來更多！",
 					flag = 2
 				}
 			}
@@ -828,10 +828,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			actorName = "文學少女KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就要看指挥官的运气了哦~",
+			say = "那就要看指揮官的運氣了哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -842,10 +842,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_159",
 			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			actorName = "文學少女KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么——欲知后事如何，请听下回分解！",
+			say = "那麼——預知後事如何，請聽下回分解！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -857,7 +857,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这个“分解”也是字面意义么？",
+			say = "……這個「分解」也是字面意義嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -883,12 +883,12 @@ return {
 		{
 			portrait = 502070,
 			side = 2,
-			actorName = "文学少女KP",
+			actorName = "文學少女KP",
 			factiontag = "子曰：",
 			blackBg = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼呼~谁知道呢~",
+			say = "呼呼~誰知道呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

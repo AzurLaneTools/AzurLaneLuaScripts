@@ -288,6 +288,10 @@ pg.expedition_data_by_map = setmetatable({
 		1740012,
 		1740025,
 		1740026,
+		1760001,
+		1760002,
+		1760003,
+		1760004,
 		1770001,
 		1770002,
 		1770003,
@@ -10461,7 +10465,6 @@ pg.base.expedition_data_by_map = {
 		name = "虹彩的終幕曲·上篇|| ||CHAPTER EX||E.X.",
 		bgm = "theme-highseasfleet",
 		type = 4,
-		anchor = "",
 		title = "EX",
 		drop_by_map_display = "",
 		level_limit = 1,
@@ -10498,6 +10501,10 @@ pg.base.expedition_data_by_map = {
 				0,
 				-465
 			}
+		},
+		anchor = {
+			0.5,
+			0.5
 		}
 	},
 	[1640002] = {
@@ -10505,7 +10512,6 @@ pg.base.expedition_data_by_map = {
 		name = "虹彩的終幕曲·下篇| ||CHAPTER EX||E.X.",
 		bgm = "battle-highseasfleet-reborn",
 		type = 4,
-		anchor = "",
 		title = "EX",
 		drop_by_map_display = "",
 		level_limit = 1,
@@ -10542,6 +10548,10 @@ pg.base.expedition_data_by_map = {
 				0,
 				-465
 			}
+		},
+		anchor = {
+			0.5,
+			0.5
 		}
 	},
 	[1640011] = {
@@ -10549,7 +10559,6 @@ pg.base.expedition_data_by_map = {
 		name = "虹彩的終幕曲·上篇|| ||CHAPTER EX||E.X.",
 		bgm = "theme-highseasfleet",
 		type = 5,
-		anchor = "",
 		title = "EX",
 		drop_by_map_display = "",
 		level_limit = 1,
@@ -10586,6 +10595,10 @@ pg.base.expedition_data_by_map = {
 				0,
 				-465
 			}
+		},
+		anchor = {
+			0.5,
+			0.5
 		}
 	},
 	[1640012] = {
@@ -10593,7 +10606,6 @@ pg.base.expedition_data_by_map = {
 		name = "虹彩的終幕曲·下篇| ||CHAPTER EX||E.X.",
 		bgm = "battle-highseasfleet-reborn",
 		type = 5,
-		anchor = "",
 		title = "EX",
 		drop_by_map_display = "",
 		level_limit = 1,
@@ -10630,6 +10642,10 @@ pg.base.expedition_data_by_map = {
 				0,
 				-465
 			}
+		},
+		anchor = {
+			0.5,
+			0.5
 		}
 	},
 	[1640025] = {
@@ -10637,7 +10653,6 @@ pg.base.expedition_data_by_map = {
 		name = "虹彩的終幕曲·SP|| ||CHAPTER EX||E.X.",
 		bgm = "theme-frederick",
 		type = 8,
-		anchor = "",
 		title = "EX",
 		drop_by_map_display = "",
 		level_limit = 1,
@@ -10674,6 +10689,10 @@ pg.base.expedition_data_by_map = {
 				0,
 				-465
 			}
+		},
+		anchor = {
+			0.5,
+			0.5
 		}
 	},
 	[1640026] = {
@@ -10681,7 +10700,6 @@ pg.base.expedition_data_by_map = {
 		name = "虹彩的終幕曲·EX|| ||CHAPTER EX||E.X.",
 		bgm = "theme-frederick",
 		type = 8,
-		anchor = "",
 		title = "EX",
 		drop_by_map_display = "",
 		level_limit = 1,
@@ -10718,6 +10736,10 @@ pg.base.expedition_data_by_map = {
 				0,
 				-465
 			}
+		},
+		anchor = {
+			0.5,
+			0.5
 		}
 	},
 	[1650001] = {
@@ -13527,6 +13549,182 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		uifx = "",
 		bind_map = 1740012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1760001] = {
+		map = 1760001,
+		name = "颶風與青春之泉·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "story-temepest-1",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "1767002",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1760001",
+		ani_controller = "",
+		cloud_suffix = "",
+		on_activity = 5051,
+		ui_type = 1,
+		bg = "Map_1760001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1760002] = {
+		map = 1760002,
+		name = "颶風與青春之泉·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "theme-tempest-up",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "JUFENGYUQINGCHUNZHIQUAN14",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1760002",
+		ani_controller = "",
+		cloud_suffix = "",
+		on_activity = 5051,
+		ui_type = 1,
+		bg = "Map_1760002",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1760003] = {
+		map = 1760003,
+		name = "颶風與青春之泉·SP|| ||CHAPTER EX||E.X.",
+		bgm = "theme-tempest",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1760002",
+		ani_controller = "",
+		cloud_suffix = "",
+		on_activity = 5051,
+		ui_type = 1,
+		bg = "Map_1760002",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1760002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1760004] = {
+		map = 1760004,
+		name = "颶風與青春之泉·EX|| ||CHAPTER EX||E.X.",
+		bgm = "theme-tempest-up",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1760001",
+		ani_controller = "",
+		cloud_suffix = "",
+		on_activity = 5051,
+		ui_type = 1,
+		bg = "Map_1760001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1760002,
 		clouds_pos = {
 			{
 				332,

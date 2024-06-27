@@ -12,7 +12,7 @@ return {
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
-					"雨夜惊魂\n\n<size=45>Chapter-2-枪与管家</size>",
+					"雨夜驚魂\n\n<size=45>Chapter-2-槍與管家</size>",
 					1
 				}
 			}
@@ -21,12 +21,12 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "真相只有一個",
+			actorName = "一本正經的後輩KP",
 			bgm = "theme-highseasfleet-reborn",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在进入会客厅后，最先映入眼帘的依旧是那堪称奢华的装潢。",
+			say = "在進入會客廳後，最先映入眼簾的依舊是那堪稱奢華的裝潢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,11 +36,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "真相只有一個",
+			actorName = "一本正經的後輩KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "出于职业习惯，你又开始打量整个房间的布局和装修。",
+			say = "出於職業習慣，你又開始打量整個房間的佈置和裝潢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,11 +50,11 @@ return {
 			portrait = 107060,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "享受剧本吧",
-			actorName = "一本正经的KP",
+			factiontag = "享受劇本吧",
+			actorName = "一本正經的KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（d100=37），检定成功。",
+			say = "（d100=37），檢定成功。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,11 +64,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "真相只有一個",
+			actorName = "一本正經的後輩KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你注意到房间里除了有不少动物标本作为装饰品之外，还摆放着许多猎枪。",
+			say = "你注意到房間裡除了有不少動物標本當裝飾品之外，還擺放著許多獵槍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,11 +78,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "真相只有一個",
+			actorName = "一本正經的後輩KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其中，一把闪烁寒光的手枪引起了你的注意。",
+			say = "其中，一把閃爍寒光的手槍吸引了你的注意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,11 +92,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "真相只有一個",
+			actorName = "一本正經的後輩KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你隐约记起自己似乎是在某处报道中看到过，打猎是布莱克勋爵的诸多兴趣之一。不过，这手枪却略显格格不入。",
+			say = "你隱約記起自己似乎是在某處報導中看到過，打獵是布萊克勳爵的諸多興趣之一。不過，這手槍卻略顯格格不入。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			actor = 9600021,
 			actorName = "古堡女管家",
 			hidePaintObj = true,
-			say = "这些标本都是勋爵大人打猎时的战利品，至于那些猎枪，则是他的小爱好。",
+			say = "這些標本都是勳爵打獵時的戰利品，至於那些獵槍，則是他的小嗜好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,11 +120,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "真相只有一個",
+			actorName = "一本正經的後輩KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "突然响起的声音让你一惊，一位女性悄无声息的出现在视野余光中。",
+			say = "突然響起的聲音讓你一驚，一位女性悄無聲息的出現在視野餘光中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			actor = 9600021,
 			actorName = "古堡女管家",
 			hidePaintObj = true,
-			say = "我吓到您了？刚才我在隔壁自己的房间里整理仪容，如果吓到您了，我为此向您道歉，调查员。",
+			say = "我嚇到您了？剛才我在隔壁自己的房間整理儀容，如果嚇到您了，我為此向您道歉，調查員。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			actor = 9600021,
 			actorName = "古堡女管家",
 			hidePaintObj = true,
-			say = "哦~自我介绍一下，我是布莱克府邸的管家。",
+			say = "喔~自我介紹一下，我是布萊克府邸的管家。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			actor = 9600021,
 			actorName = "古堡女管家",
 			hidePaintObj = true,
-			say = "至于这把枪……是主人送我的好伙伴之一。",
+			say = "至於這把槍……是主人送給我的好夥伴之一。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			actor = 9600021,
 			actorName = "古堡女管家",
 			hidePaintObj = true,
-			say = "最近城堡里不怎么太平，为了保护两位小姐的安全，每个房间都做了类似的设置。",
+			say = "最近城堡裡不怎麼太平，為了保護兩位小姐的安全，每個房間都做了類似的設置。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			actor = 9600021,
 			actorName = "古堡女管家",
 			hidePaintObj = true,
-			say = "不过，既然主人已经聘请了您来调查这次的事件。我相信我们应该很快就可以回到平静的生活了吧？",
+			say = "不過，既然主人已經聘請了您來調查這次的事件。我相信我們應該很快就可以回到平靜的生活了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,11 +207,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "真相只有一個",
+			actorName = "一本正經的後輩KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "女管家犀利的目光正上下打量着你，而她的语气似乎并不像她所说的那样信任你。",
+			say = "女管家犀利的目光正上下打量著你，而她的語氣似乎不像她所說的那樣信任你。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,18 +225,18 @@ return {
 			actor = 9600021,
 			actorName = "古堡女管家",
 			hidePaintObj = true,
-			say = "那么，对于这座城堡的事情，你想了解什么呢？",
+			say = "那麼，對於這座城堡的事情，你想了解什麼呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "您似乎并不相信我？",
+					content = "您似乎並不相信我？",
 					flag = 1
 				},
 				{
-					content = "您对我似乎有些看法？",
+					content = "您對我似乎有些看法？",
 					flag = 2
 				}
 			}
@@ -250,7 +250,7 @@ return {
 			actor = 9600021,
 			actorName = "古堡女管家",
 			hidePaintObj = true,
-			say = "嗯……虽然这么说有些以貌取人。",
+			say = "嗯……雖然這麼說有些以貌取人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			actor = 9600021,
 			actorName = "古堡女管家",
 			hidePaintObj = true,
-			say = "但是您这……俊美的面庞让我很难将您跟“优秀的调查员”划上等号。",
+			say = "但是您這……俊美的臉龐讓我很難將您跟「優秀的調查員」劃上等號。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……俊美的面庞？",
+			say = "……俊美的面龐？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,11 +286,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "真相只有一個",
+			actorName = "一本正經的後輩KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "突如其来赞美让你微微一愣，好像有记忆的碎片正在缓慢回归……",
+			say = "突如其來讚美讓你微微一愣，好像有記憶的碎片正在緩慢回歸……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,11 +300,11 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "有疑问找{namecode:428:欧根}",
+			factiontag = "有疑問找歐根",
 			actorName = "代理KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（d100=30），判定成功。你成功回想起，的确有许多人在第一次见到你时都会对你的能力产生质疑。",
+			say = "（d100=30），判定成功。你成功回想起，的確有許多人在第一次見到你時都會對你的能力產生質疑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,11 +314,11 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "有疑问找{namecode:428:欧根}",
+			factiontag = "有疑問找歐根",
 			actorName = "代理KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这些质疑除了来源于你不高的学历之外，还有相当一部分来源于你的外表。",
+			say = "這些質疑除了來自於你不高的學歷之外，還有相當一部分來自於你的外表。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,11 +328,11 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "有疑问找{namecode:428:欧根}",
+			factiontag = "有疑問找歐根",
 			actorName = "代理KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有时候，拥有一副完美的外表能带来相当大的便利，但有时候，它也会成为一种变相的负担。",
+			say = "有時候，擁有一副完美的外表能帶來相當大的便利，但有時候，它也會成為一種變相的負擔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,11 +342,11 @@ return {
 			portrait = 401020,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "有疑问找{namecode:428:欧根}",
+			factiontag = "有疑問找歐根",
 			actorName = "代理KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你已成功回忆起基础属性：外貌：85。",
+			say = "你已成功回憶起基礎屬性：外貌：85。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……原来是用来交代角色设定的啊，嗯……也行吧……）",
+			say = "（……原來是用來交代角色設定的啊，嗯……也行吧……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			actor = 9600021,
 			actorName = "古堡女管家",
 			hidePaintObj = true,
-			say = "而且，在您之前主人也已经请过几次所谓的“调查员”，不过最后么……",
+			say = "而且，在您之前主人也已經請過幾次所謂的“調查員”，不過最後麼…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			actor = 9600021,
 			actorName = "古堡女管家",
 			hidePaintObj = true,
-			say = "基本都是骗子，甚至还有人想来城堡里“浑水摸鱼”的。当然，那些人最后都受到了惩罚。",
+			say = "基本上都是騙子，甚至還有人想來城堡裡「渾水摸魚」的。當然，那些人最後都受到了懲罰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			actor = 9600021,
 			actorName = "古堡女管家",
 			hidePaintObj = true,
-			say = "要我说，这次的失踪案非常简单——单纯是有心人刻意营造出的“神秘事件”的假象。",
+			say = "要我說，這次的失蹤案非常簡單——單純是有心人刻意營造出的「神祕事件」的假象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“刻意”？",
+			say = "「刻意」？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			actor = 9600021,
 			actorName = "古堡女管家",
 			hidePaintObj = true,
-			say = "最开始失踪的动物被找到后确实只剩下了尸体，可是之后失踪的仆人却什么东西都没留下——",
+			say = "最開始失蹤的動物被發現後確實只剩下了屍體，可是之後失蹤的僕人卻什麼東西都沒留下——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			actor = 9600021,
 			actorName = "古堡女管家",
 			hidePaintObj = true,
-			say = "就像一开始就不曾存在过一样，我可不认为这是什么正经的失踪案。",
+			say = "就像一開始就不曾存在過一樣，我可不認為這是什麼正經的失蹤案。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,18 +463,18 @@ return {
 			actor = 9600021,
 			actorName = "古堡女管家",
 			hidePaintObj = true,
-			say = "不过是几个没有感恩心的家伙，因为经常偷懒被惩罚而怀恨在心，所以在辞职之后蓄意散布谣言进行报复罢了。",
+			say = "不過是幾個不懂感恩的傢伙，因為經常偷懶被懲罰而懷恨在心，所以在辭職之後蓄意散佈謠言進行報復罷了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "偷懒？",
+					content = "偷懶？",
 					flag = 1
 				},
 				{
-					content = "蓄意报复?",
+					content = "蓄意報復?",
 					flag = 2
 				}
 			}
@@ -487,7 +487,7 @@ return {
 			actor = 9600021,
 			actorName = "古堡女管家",
 			hidePaintObj = true,
-			say = "调查员，想必您也听说过。我家的主人是个难得的大善人，自夫人去世后他更是彻底投身于慈善事业。",
+			say = "調查員，想必您也聽過。我家的主人是個難得的大善人，自夫人過世後他更是徹底投入慈善事業。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			actor = 9600021,
 			actorName = "古堡女管家",
 			hidePaintObj = true,
-			say = "因为心善，所以有时候就过于包容——包括一些行为“不检点”的仆人。",
+			say = "因為心善，所以有時候就過於包容——包括一些行為「不檢點」的僕人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			actor = 9600021,
 			actorName = "古堡女管家",
 			hidePaintObj = true,
-			say = "那些人“神秘失踪”之后弄得城堡里人心惶惶，其他仆人纷纷辞职，如今就只剩下了我、女仆长和厨师长。",
+			say = "那些人「神秘失蹤」之後弄得城堡裡人心惶惶，其他僕人紛紛辭職，如今就只剩下了我、女僕長和廚師長。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "您和另外两位从没想过离开？",
+			say = "您和另外兩位從沒想過要離開？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			actor = 9600021,
 			actorName = "古堡女管家",
 			hidePaintObj = true,
-			say = "为什么要离开呢？",
+			say = "為什麼要離開呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			actor = 9600021,
 			actorName = "古堡女管家",
 			hidePaintObj = true,
-			say = "我们服务于布莱克家已经很多年了，女仆长和厨师长几乎可以说是在这个城堡里跟着小姐们一起长大的。",
+			say = "我們服務布萊克家已經很多年了，女僕長和廚師長幾乎可以說是在這座城堡裡跟著小姐們一起長大的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "小姐们……？",
+			say = "小姐們……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,10 +581,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			actorName = "文學少女KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "观察检定，（d100=6），成功。你注意到在桌子的一角摆放着一张家庭合照。",
+			say = "觀察檢定，（d100=6），成功。你注意到在桌子的一角擺放著一張家庭合照。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,10 +595,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			actorName = "文學少女KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "合照之中共有四人。除了被人为涂抹掉面庞的布莱克勋爵夫妇之外，还有两名少女。",
+			say = "合照之中共有四人。除了被人為塗抹掉面龐的布萊克勳爵夫婦之外，還有兩位少女。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,11 +608,11 @@ return {
 			portrait = 202080,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "同时提供除虫服务",
-			actorName = "皇家顾问KP",
+			factiontag = "同時提供除蟲服務",
+			actorName = "皇家顧問KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "除此之外，你再次注意到了那把闪烁着寒光的手枪。",
+			say = "除此之外，你再次注意到了那把閃爍著寒光的手槍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,11 +634,11 @@ return {
 			portrait = 202080,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "同时提供除虫服务",
-			actorName = "皇家顾问KP",
+			factiontag = "同時提供除蟲服務",
+			actorName = "皇家顧問KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你的目光被那把美丽的手枪所吸引，不自觉地向手枪的位置迈出了脚步。",
+			say = "你的目光被那把美麗的手槍所吸引，不自覺地向手槍的位置邁出了腳步。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……行。管家小姐，请问我可以去看一下那把枪么？",
+			say = "……好的。管家小姐，請問我可以去看那把槍嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			actor = 9600021,
 			actorName = "古堡女管家",
 			hidePaintObj = true,
-			say = "调查员原来对枪也有兴趣啊，请便。",
+			say = "調查員原來對槍也有興趣啊，請便。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,11 +674,11 @@ return {
 			portrait = 202080,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "同时提供除虫服务",
-			actorName = "皇家顾问KP",
+			factiontag = "同時提供除蟲服務",
+			actorName = "皇家顧問KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你将那把闪烁着寒光的手枪拿在手中，观察着枪身的每一个细节。",
+			say = "你將那把閃爍著寒光的手槍拿在手中，觀察槍身的每一個細節。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,11 +688,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "真相只有一個",
+			actorName = "一本正經的後輩KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等，别忘了这里要过一个检定哦！",
+			say = "等等，別忘了這裡要過一個檢定！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,11 +702,11 @@ return {
 			portrait = 202080,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "同时提供除虫服务",
-			actorName = "皇家顾问KP",
+			factiontag = "同時提供除蟲服務",
+			actorName = "皇家顧問KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:22:雪风}，你来投。",
+			say = "雪風，你來投。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -717,10 +717,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "NA-NO-DA！",
-			actorName = "运势高涨的KP大人",
+			actorName = "運勢高漲的KP大人",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:22:雪风}大人的投掷结果是——（d100=1）大成功！",
+			say = "雪風大人的投擲結果是——（d100=1）大成功！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -735,11 +735,11 @@ return {
 			portrait = 202080,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "同时提供除虫服务",
-			actorName = "皇家顾问KP",
+			factiontag = "同時提供除蟲服務",
+			actorName = "皇家顧問KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很好。调查员注意到，这是一支采用了红木握把并雕刻了精致花纹的柯尔特M1873单动式转轮手枪。",
+			say = "很好。調查員注意到，這是一支採用了紅木握把並雕刻了精緻花紋的柯爾特M1873單動式轉輪手槍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -749,11 +749,11 @@ return {
 			portrait = 202080,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "同时提供除虫服务",
-			actorName = "皇家顾问KP",
+			factiontag = "同時提供除蟲服務",
+			actorName = "皇家顧問KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "柯尔特公司在1873年设计制造出了这款M1873单动式左轮枪。",
+			say = "柯爾特公司在1873年設計製造了這款M1873單動式左輪槍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -763,11 +763,11 @@ return {
 			portrait = 202080,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "同时提供除虫服务",
-			actorName = "皇家顾问KP",
+			factiontag = "同時提供除蟲服務",
+			actorName = "皇家顧問KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这把枪曾经缔造了无数传奇故事，在电影和游戏作品中也时常有着它的身影存在。",
+			say = "這把槍曾經締造了無數傳奇故事，在電影和遊戲作品中也常常有著它的身影存在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -777,11 +777,11 @@ return {
 			portrait = 202080,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "同时提供除虫服务",
-			actorName = "皇家顾问KP",
+			factiontag = "同時提供除蟲服務",
+			actorName = "皇家顧問KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可以说，所有选择了这把枪的人都有着极其出色的品味。",
+			say = "可以說，所有選擇了這把槍的人都有著極為出色的品味。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -793,7 +793,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "…………多谢夸奖。",
+			say = "…………多謝誇獎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -803,11 +803,11 @@ return {
 			portrait = 202080,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "同时提供除虫服务",
-			actorName = "皇家顾问KP",
+			factiontag = "同時提供除蟲服務",
+			actorName = "皇家顧問KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不客气。",
+			say = "不客氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -817,11 +817,11 @@ return {
 			portrait = 202080,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "同时提供除虫服务",
-			actorName = "皇家顾问KP",
+			factiontag = "同時提供除蟲服務",
+			actorName = "皇家顧問KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你抚摸着银色的枪支，看着枪管折射出的寒光，曾经在靶场中每一分每一秒的回忆，再次流回了你的心田。",
+			say = "你撫摸著銀色的槍支，看著槍管折射出的寒光，曾經在靶場中每一分每一秒的回憶，再次流回了你的心田。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -831,11 +831,11 @@ return {
 			portrait = 202080,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "同时提供除虫服务",
-			actorName = "皇家顾问KP",
+			factiontag = "同時提供除蟲服務",
+			actorName = "皇家顧問KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "出于职业的需要，你曾刻苦训练过自己的射击技术。",
+			say = "出於職業的需要，你曾刻苦訓練自己的射擊技術。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -845,11 +845,11 @@ return {
 			portrait = 202080,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "同时提供除虫服务",
-			actorName = "皇家顾问KP",
+			factiontag = "同時提供除蟲服務",
+			actorName = "皇家顧問KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有品味的调查员，你已回忆起个人技能：射击，熟练程度：入门。",
+			say = "有品味的調查員，你已回憶起個人技能：射擊，熟練程度：入門。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -867,7 +867,7 @@ return {
 			actor = 9600021,
 			actorName = "古堡女管家",
 			hidePaintObj = true,
-			say = "我曾听主人提过，您的枪法不错，如果有机会的话倒是想向您讨教一二。",
+			say = "我曾聽主人提過，您的槍法不錯，如果有機會的話倒是想向您討教一二。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -879,7 +879,7 @@ return {
 			bgName = "star_level_bg_156",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……枪法不错，但是熟练度只有入门……？",
+			say = "……槍法不錯，但是熟練度只有入門……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -890,10 +890,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			actorName = "文學少女KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然你确实训练得非常刻苦，但是百分百的汗水并不能换来百分百的成果。",
+			say = "雖然你確實訓練得非常刻苦，但是百分百的汗水並不能換來百分百的成果。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -904,10 +904,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			actorName = "文學少女KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "至少现在的你已经能顺利开枪，并且不会走火。",
+			say = "至少現在的你已經能順利開槍，不會走火。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -918,10 +918,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			factiontag = "子曰：",
-			actorName = "文学少女KP",
+			actorName = "文學少女KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好好运用的话，或许会在意想不到的地方起到扭转乾坤的作用哦~",
+			say = "好好運用的話，或許會在意想不到的地方起到扭轉乾坤的作用哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -936,7 +936,7 @@ return {
 			actor = 9600021,
 			actorName = "古堡女管家",
 			hidePaintObj = true,
-			say = "咳……调查员还有工作，我就不在枪的问题上多打扰你了。",
+			say = "咳……調查員還有工作，我就不在槍的問題上多打擾你了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -950,7 +950,7 @@ return {
 			actor = 9600021,
 			actorName = "古堡女管家",
 			hidePaintObj = true,
-			say = "总之，既然是主人的吩咐，我们自然会配合您的调查工作。",
+			say = "總之，既然是主人的吩咐，我們自然會配合您的調查工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -965,7 +965,7 @@ return {
 			actor = 9600021,
 			actorName = "古堡女管家",
 			hidePaintObj = true,
-			say = "不过，城堡之中容易迷路，还请您小心些。",
+			say = "不過，城堡之中容易迷路，請小心一點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -979,7 +979,7 @@ return {
 			actor = 9600021,
 			actorName = "古堡女管家",
 			hidePaintObj = true,
-			say = "同时，如果是卧室一类的非公共区域，请务必在征得房间主人的同意后才能进入。",
+			say = "同時，如果是臥室一類的非公共區域，請務必在徵得房間主人的同意後才能進入。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -989,11 +989,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "真相只有一個",
+			actorName = "一本正經的後輩KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然管家表面上答应得很干脆，但是你对于她是否真的会配合这一点保持怀疑。",
+			say = "雖然管家表面上答應得很乾脆，但是你對於她是否真的會配合這一點保持懷疑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1003,11 +1003,11 @@ return {
 			portrait = 107090,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "真相只有一个",
-			actorName = "一本正经的后辈KP",
+			factiontag = "真相只有一個",
+			actorName = "一本正經的後輩KP",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来，你决定————",
+			say = "接下來，你決定————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

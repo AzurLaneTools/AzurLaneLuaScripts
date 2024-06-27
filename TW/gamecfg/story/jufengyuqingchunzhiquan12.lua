@@ -24,7 +24,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
-			say = "甲板上的各种碎裂杂物还没清扫干净，不过造成这一切的祸首眼看着就要消散了。",
+			say = "甲板上的各種碎裂雜物還沒清掃乾淨，不過造成這一切的禍首眼看著就要消散了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
-			say = "只是眨眼的功夫，坚不可摧的风暴之墙就“融化”了大半——",
+			say = "光是眨眼的功夫，堅不可摧的風暴之牆就「融化」了大半——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,12 +45,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "幽灵",
+			factiontag = "幽靈",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么会……风暴在消散……",
+			say = "怎麼會……風暴在消散……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,12 +64,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "幽灵",
+			factiontag = "幽靈",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "它本应该再持续几个小时才对……！",
+			say = "它本來應該再持續幾個小時才對……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,12 +83,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "金鹿，你之前不是说女神是掌管风与海洋的？",
+			say = "金鹿，妳之前不是說女神是掌管風與海洋的？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -102,12 +102,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这岂不是意味着……祂的力量被窃取了？！",
+			say = "這豈不是意味著……祂的力量被竊取了？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,12 +121,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "之前可从来没听说过残响舰队还有这种本事……",
+			say = "之前可從來沒聽過殘響艦隊還有這種本事…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,12 +140,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "投资人",
+			factiontag = "投資人",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……我也不清楚，可以肯定的是，残响舰队是针对玛丽小姐做了专门的准备。",
+			say = "……我也不清楚，可以肯定的是，殘響艦隊是針對瑪麗小姐做了專門的準備。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,12 +159,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "投资人",
+			factiontag = "投資人",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这道将风暴消除的力量就是证据。",
+			say = "這道將風暴消除的力量就是證據。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,12 +178,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "幽灵",
+			factiontag = "幽靈",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦……我么？",
+			say = "咦……我嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,12 +197,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "幽灵",
+			factiontag = "幽靈",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我不明白……抱歉，给大家添麻烦了。",
+			say = "我不懂……抱歉，給大家添麻煩了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,12 +215,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "幽灵",
+			factiontag = "幽靈",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……我会掩护你们离开的。",
+			say = "……我會掩護妳們離開的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,12 +233,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好的，感谢掩护——",
+			say = "好的，感謝掩護——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,12 +252,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——你以为我会这么说吗？！",
+			say = "——妳以為我會這麼說嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,12 +270,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我梦想中的船团可不会丢下同伴。",
+			say = "我夢想中的船團可不會丟下同伴。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,12 +289,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "从现在起，它就是我船团法典的一部分了。",
+			say = "從現在起，它就是我船團法典的一部分了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,11 +305,11 @@ return {
 			},
 			options = {
 				{
-					content = "什么时候有的“船团”……",
+					content = "什麼時候有的「船團」……",
 					flag = 1
 				},
 				{
-					content = "什么时候有的“法典”……",
+					content = "什麼時候有的「法典」……",
 					flag = 2
 				}
 			}
@@ -318,12 +318,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "从现在起就有了！！",
+			say = "從現在起就有了！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,12 +336,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好不容易有帅气的发言，别拆我台嘛！",
+			say = "好不容易有帥氣的發言，別拆我台嘛！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,12 +354,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "幽灵",
+			factiontag = "幽靈",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们真是一群有趣的人……",
+			say = "妳們真是一群有趣的人……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,12 +373,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "幽灵",
+			factiontag = "幽靈",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我明白了，接下来的旅程，请允许我同行。",
+			say = "我明白了，接下來的旅程，請容許我同行。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,12 +391,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然！欢迎上船！",
+			say = "當然！歡迎上船！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,12 +410,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总之，让我们并肩作战吧，圣马丁还在前方奋战呢！",
+			say = "總之，讓我們並肩作戰吧，聖馬丁還在前方奮戰呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,12 +428,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们打跑过残响舰队一次，就还能打跑它第二次！",
+			say = "我們打跑過殘響艦隊一次，就還能打跑它第二次！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,12 +447,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "出发出发！",
+			say = "出發出發！",
 			painting = {
 				alpha = 0.3,
 				time = 1

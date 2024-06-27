@@ -9,12 +9,12 @@ return {
 		{
 			portrait = 107090,
 			side = 2,
-			actorName = "一本正经的后辈KP",
-			factiontag = "真相只有一个",
+			actorName = "一本正經的後輩KP",
+			factiontag = "真相只有一個",
 			bgm = "story-oldcastle-carnival",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大失败……这可不太妙啊。",
+			say = "大失敗……這可不太妙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,10 +24,10 @@ return {
 			portrait = 107060,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "享受剧本吧",
+			factiontag = "享受劇本吧",
 			hidePaintObj = true,
-			actorName = "一本正经的KP",
-			say = "我记得这一幕的设计是……嗯，确实不太妙。",
+			actorName = "一本正經的KP",
+			say = "我記得這一幕的設計是……嗯，確實不太妙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "掷骰失败，会发生什么事么……？",
+			say = "擲骰失敗，會發生什麼事呢…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,10 +48,10 @@ return {
 			portrait = 107090,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "真相只有一个",
+			factiontag = "真相只有一個",
 			hidePaintObj = true,
-			actorName = "一本正经的后辈KP",
-			say = "这一点的话……稍后您就知道了。那么，让我们继续吧——",
+			actorName = "一本正經的後輩KP",
+			say = "這一點的話……稍後您就知道了。那麼，讓我們繼續吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

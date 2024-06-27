@@ -1622,6 +1622,21 @@ pg.ship_data_group = setmetatable({
 		[960001] = {
 			571
 		},
+		[960002] = {
+			613
+		},
+		[960003] = {
+			610
+		},
+		[960004] = {
+			611
+		},
+		[960005] = {
+			614
+		},
+		[960006] = {
+			612
+		},
 		[1060001] = {
 			10061
 		},
@@ -2458,7 +2473,12 @@ pg.ship_data_group = setmetatable({
 			604,
 			418,
 			555,
-			571
+			571,
+			613,
+			610,
+			611,
+			614,
+			612
 		},
 		{
 			10061,
@@ -3106,6 +3126,11 @@ pg.ship_data_group = setmetatable({
 		418,
 		555,
 		571,
+		613,
+		610,
+		611,
+		614,
+		612,
 		10061,
 		10062,
 		10063,
@@ -25693,6 +25718,166 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：萬聖夜的「奇遇」",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[613] = {
+		nationality = 96,
+		type = 24,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 960002,
+		index_id = 578,
+		code = 613,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"E",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：颶風與青春之泉",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[610] = {
+		nationality = 96,
+		type = 23,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 960003,
+		index_id = 579,
+		code = 610,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"E",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：颶風與青春之泉",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[611] = {
+		nationality = 96,
+		type = 22,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 960004,
+		index_id = 580,
+		code = 611,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"E",
+			"E",
+			"C",
+			"E",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：颶風與青春之泉",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[614] = {
+		nationality = 96,
+		type = 22,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 960005,
+		index_id = 581,
+		code = 614,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"E",
+			"E",
+			"C",
+			"E",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：颶風與青春之泉",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[612] = {
+		nationality = 96,
+		type = 23,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 960006,
+		index_id = 582,
+		code = 612,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"E",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：颶風與青春之泉",
 				{
 					""
 				},

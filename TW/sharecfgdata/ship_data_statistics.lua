@@ -329601,6 +329601,260 @@ _G.pg.base.ship_data_statistics[900401] = {
 }
 
 
+_G.pg.base.ship_data_statistics[900405] = {
+	nationality = 96,
+	oxy_max = 0,
+	type = 22,
+	name = "皇家财富号",
+	huntingrange_level = 3,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 2,
+	id = 900405,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 30,
+	english_name = "MOT Royal Fortune",
+	oxy_cost = 0,
+	skin_id = 9600010,
+	attack_duration = 9999,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		955,
+		91,
+		0,
+		0,
+		0,
+		66,
+		0,
+		57,
+		31,
+		18,
+		51,
+		0
+	},
+	attrs_growth = {
+		9932,
+		506,
+		0,
+		0,
+		0,
+		462,
+		0,
+		830,
+		528,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		3733,
+		3733,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.25,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-2,
+				0
+			},
+			{
+				-1,
+				-2
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				-1,
+				2
+			},
+			{
+				0,
+				-2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				1,
+				-2
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				0
+			},
+			{
+				2,
+				1
+			}
+		},
+		{
+			{
+				-2,
+				-2
+			},
+			{
+				-2,
+				2
+			},
+			{
+				2,
+				-2
+			},
+			{
+				2,
+				2
+			}
+		},
+		{
+			{
+				-3,
+				-2
+			},
+			{
+				-3,
+				0
+			},
+			{
+				-3,
+				2
+			}
+		},
+		{
+			{
+				-2,
+				-1
+			},
+			{
+				-2,
+				1
+			}
+		},
+		{
+			{
+				-3,
+				-1
+			},
+			{
+				-3,
+				1
+			}
+		}
+	},
+	tag_list = {}
+}
+
+
 _G.pg.base.ship_data_statistics[900424] = {
 	nationality = 98,
 	oxy_max = 0,
@@ -334375,6 +334629,3506 @@ _G.pg.base.ship_data_statistics[9600014] = {
 				1
 			}
 		}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[9600021] = {
+	nationality = 96,
+	oxy_max = 0,
+	type = 24,
+	name = "聖馬丁號",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 9600021,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MOT São Martinho",
+	oxy_cost = 0,
+	skin_id = 9600020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1005,
+		81,
+		0,
+		0,
+		0,
+		62,
+		0,
+		21,
+		6,
+		26,
+		59,
+		0
+	},
+	attrs_growth = {
+		26967,
+		1000,
+		0,
+		0,
+		0,
+		429,
+		0,
+		303,
+		227,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		158,
+		100,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.8,
+		1.75,
+		1.75
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[9600022] = {
+	nationality = 96,
+	oxy_max = 0,
+	type = 24,
+	name = "聖馬丁號",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 9600022,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MOT São Martinho",
+	oxy_cost = 0,
+	skin_id = 9600020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1250,
+		101,
+		0,
+		0,
+		0,
+		62,
+		0,
+		21,
+		6,
+		26,
+		59,
+		0
+	},
+	attrs_growth = {
+		26967,
+		1000,
+		0,
+		0,
+		0,
+		429,
+		0,
+		303,
+		227,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		158,
+		100,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.85,
+		1.75,
+		1.75
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[9600023] = {
+	nationality = 96,
+	oxy_max = 0,
+	type = 24,
+	name = "聖馬丁號",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 9600023,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MOT São Martinho",
+	oxy_cost = 0,
+	skin_id = 9600020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1740,
+		141,
+		0,
+		0,
+		0,
+		62,
+		0,
+		21,
+		6,
+		26,
+		59,
+		0
+	},
+	attrs_growth = {
+		26967,
+		1000,
+		0,
+		0,
+		0,
+		429,
+		0,
+		303,
+		227,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		158,
+		100,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.95,
+		1.75,
+		1.75
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[9600024] = {
+	nationality = 96,
+	oxy_max = 0,
+	type = 24,
+	name = "聖馬丁號",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 9600024,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MOT São Martinho",
+	oxy_cost = 0,
+	skin_id = 9600020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		2475,
+		202,
+		0,
+		0,
+		0,
+		62,
+		0,
+		21,
+		6,
+		26,
+		59,
+		0
+	},
+	attrs_growth = {
+		26967,
+		1000,
+		0,
+		0,
+		0,
+		429,
+		0,
+		303,
+		227,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		158,
+		100,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.75,
+		1.75
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[9600031] = {
+	nationality = 96,
+	oxy_max = 0,
+	type = 23,
+	name = "金鹿號",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 9600031,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MOT Golden Hind",
+	oxy_cost = 0,
+	skin_id = 9600030,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		544,
+		32,
+		0,
+		0,
+		0,
+		62,
+		0,
+		57,
+		26,
+		8,
+		78,
+		0
+	},
+	attrs_growth = {
+		13483,
+		447,
+		0,
+		0,
+		0,
+		431,
+		0,
+		841,
+		519,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		100,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.1,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[9600032] = {
+	nationality = 96,
+	oxy_max = 0,
+	type = 23,
+	name = "金鹿號",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 9600032,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MOT Golden Hind",
+	oxy_cost = 0,
+	skin_id = 9600030,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		677,
+		40,
+		0,
+		0,
+		0,
+		62,
+		0,
+		57,
+		26,
+		16,
+		78,
+		0
+	},
+	attrs_growth = {
+		13483,
+		447,
+		0,
+		0,
+		0,
+		431,
+		0,
+		841,
+		519,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		100,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.15,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[9600033] = {
+	nationality = 96,
+	oxy_max = 0,
+	type = 23,
+	name = "金鹿號",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 9600033,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MOT Golden Hind",
+	oxy_cost = 0,
+	skin_id = 9600030,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		942,
+		56,
+		0,
+		0,
+		0,
+		62,
+		0,
+		57,
+		26,
+		24,
+		78,
+		0
+	},
+	attrs_growth = {
+		13483,
+		447,
+		0,
+		0,
+		0,
+		431,
+		0,
+		841,
+		519,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		100,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.25,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[9600034] = {
+	nationality = 96,
+	oxy_max = 0,
+	type = 23,
+	name = "金鹿號",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 9600034,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MOT Golden Hind",
+	oxy_cost = 0,
+	skin_id = 9600030,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1340,
+		80,
+		0,
+		0,
+		0,
+		62,
+		0,
+		57,
+		26,
+		32,
+		78,
+		0
+	},
+	attrs_growth = {
+		13483,
+		447,
+		0,
+		0,
+		0,
+		431,
+		0,
+		841,
+		519,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		100,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.35,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[9600041] = {
+	nationality = 96,
+	oxy_max = 0,
+	type = 22,
+	name = "瑪麗·賽勒斯特號",
+	huntingrange_level = 1,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 2,
+	id = 9600041,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 30,
+	english_name = "MOT Mary Celeste",
+	oxy_cost = 0,
+	skin_id = 9600040,
+	attack_duration = 9999,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		403,
+		35,
+		0,
+		0,
+		0,
+		57,
+		0,
+		53,
+		21,
+		18,
+		81,
+		0
+	},
+	attrs_growth = {
+		11493,
+		478,
+		0,
+		0,
+		0,
+		400,
+		0,
+		784,
+		584,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		100,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		1,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-2,
+				-1
+			},
+			{
+				-2,
+				0
+			},
+			{
+				-2,
+				1
+			},
+			{
+				-1,
+				-2
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				-1,
+				2
+			},
+			{
+				0,
+				-2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				0
+			},
+			{
+				2,
+				1
+			}
+		},
+		{
+			{
+				-3,
+				-1
+			},
+			{
+				-3,
+				1
+			},
+			{
+				-2,
+				-2
+			},
+			{
+				-2,
+				2
+			}
+		},
+		{
+			{
+				-3,
+				0
+			},
+			{
+				1,
+				-2
+			},
+			{
+				1,
+				2
+			}
+		},
+		{
+			{
+				-1,
+				-3
+			},
+			{
+				-1,
+				3
+			}
+		},
+		{
+			{
+				0,
+				-3
+			},
+			{
+				0,
+				3
+			}
+		}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[9600042] = {
+	nationality = 96,
+	oxy_max = 0,
+	type = 22,
+	name = "瑪麗·賽勒斯特號",
+	huntingrange_level = 1,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 2,
+	id = 9600042,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 30,
+	english_name = "MOT Mary Celeste",
+	oxy_cost = 0,
+	skin_id = 9600040,
+	attack_duration = 9999,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		501,
+		44,
+		0,
+		0,
+		0,
+		57,
+		0,
+		53,
+		21,
+		18,
+		81,
+		0
+	},
+	attrs_growth = {
+		11493,
+		478,
+		0,
+		0,
+		0,
+		400,
+		0,
+		784,
+		584,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		100,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		1.05,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-2,
+				-1
+			},
+			{
+				-2,
+				0
+			},
+			{
+				-2,
+				1
+			},
+			{
+				-1,
+				-2
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				-1,
+				2
+			},
+			{
+				0,
+				-2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				0
+			},
+			{
+				2,
+				1
+			}
+		},
+		{
+			{
+				-3,
+				-1
+			},
+			{
+				-3,
+				1
+			},
+			{
+				-2,
+				-2
+			},
+			{
+				-2,
+				2
+			}
+		},
+		{
+			{
+				-3,
+				0
+			},
+			{
+				1,
+				-2
+			},
+			{
+				1,
+				2
+			}
+		},
+		{
+			{
+				-1,
+				-3
+			},
+			{
+				-1,
+				3
+			}
+		},
+		{
+			{
+				0,
+				-3
+			},
+			{
+				0,
+				3
+			}
+		}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[9600043] = {
+	nationality = 96,
+	oxy_max = 0,
+	type = 22,
+	name = "瑪麗·賽勒斯特號",
+	huntingrange_level = 2,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 2,
+	id = 9600043,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 30,
+	english_name = "MOT Mary Celeste",
+	oxy_cost = 0,
+	skin_id = 9600040,
+	attack_duration = 9999,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		698,
+		61,
+		0,
+		0,
+		0,
+		57,
+		0,
+		53,
+		21,
+		18,
+		81,
+		0
+	},
+	attrs_growth = {
+		11493,
+		478,
+		0,
+		0,
+		0,
+		400,
+		0,
+		784,
+		584,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		100,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.15,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-2,
+				-1
+			},
+			{
+				-2,
+				0
+			},
+			{
+				-2,
+				1
+			},
+			{
+				-1,
+				-2
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				-1,
+				2
+			},
+			{
+				0,
+				-2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				0
+			},
+			{
+				2,
+				1
+			}
+		},
+		{
+			{
+				-3,
+				-1
+			},
+			{
+				-3,
+				1
+			},
+			{
+				-2,
+				-2
+			},
+			{
+				-2,
+				2
+			}
+		},
+		{
+			{
+				-3,
+				0
+			},
+			{
+				1,
+				-2
+			},
+			{
+				1,
+				2
+			}
+		},
+		{
+			{
+				-1,
+				-3
+			},
+			{
+				-1,
+				3
+			}
+		},
+		{
+			{
+				0,
+				-3
+			},
+			{
+				0,
+				3
+			}
+		}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[9600044] = {
+	nationality = 96,
+	oxy_max = 0,
+	type = 22,
+	name = "瑪麗·賽勒斯特號",
+	huntingrange_level = 3,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 2,
+	id = 9600044,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 30,
+	english_name = "MOT Mary Celeste",
+	oxy_cost = 0,
+	skin_id = 9600040,
+	attack_duration = 9999,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		993,
+		86,
+		0,
+		0,
+		0,
+		57,
+		0,
+		53,
+		21,
+		18,
+		81,
+		0
+	},
+	attrs_growth = {
+		11493,
+		478,
+		0,
+		0,
+		0,
+		400,
+		0,
+		784,
+		584,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		100,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.25,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-2,
+				-1
+			},
+			{
+				-2,
+				0
+			},
+			{
+				-2,
+				1
+			},
+			{
+				-1,
+				-2
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				-1,
+				2
+			},
+			{
+				0,
+				-2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				0
+			},
+			{
+				2,
+				1
+			}
+		},
+		{
+			{
+				-3,
+				-1
+			},
+			{
+				-3,
+				1
+			},
+			{
+				-2,
+				-2
+			},
+			{
+				-2,
+				2
+			}
+		},
+		{
+			{
+				-3,
+				0
+			},
+			{
+				1,
+				-2
+			},
+			{
+				1,
+				2
+			}
+		},
+		{
+			{
+				-1,
+				-3
+			},
+			{
+				-1,
+				3
+			}
+		},
+		{
+			{
+				0,
+				-3
+			},
+			{
+				0,
+				3
+			}
+		}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[9600051] = {
+	nationality = 96,
+	oxy_max = 0,
+	type = 22,
+	name = "維達號",
+	huntingrange_level = 1,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 2,
+	id = 9600051,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 30,
+	english_name = "MOT Whydah",
+	oxy_cost = 0,
+	skin_id = 9600050,
+	attack_duration = 9999,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		324,
+		34,
+		0,
+		0,
+		0,
+		69,
+		0,
+		57,
+		28,
+		18,
+		18,
+		0
+	},
+	attrs_growth = {
+		9232,
+		475,
+		0,
+		0,
+		0,
+		482,
+		0,
+		817,
+		532,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		100,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.95,
+		0.9,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-1,
+				0
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				1,
+				-2
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				2,
+				-2
+			},
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				0
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				3,
+				-2
+			},
+			{
+				3,
+				0
+			},
+			{
+				3,
+				2
+			}
+		},
+		{
+			{
+				0,
+				-2
+			},
+			{
+				0,
+				2
+			},
+			{
+				2,
+				-3
+			},
+			{
+				2,
+				3
+			}
+		},
+		{
+			{
+				-2,
+				0
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				1
+			}
+		},
+		{
+			{
+				-3,
+				0
+			},
+			{
+				-3,
+				1
+			}
+		},
+		{
+			{
+				-3,
+				2
+			},
+			{
+				-2,
+				2
+			}
+		}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[9600052] = {
+	nationality = 96,
+	oxy_max = 0,
+	type = 22,
+	name = "維達號",
+	huntingrange_level = 1,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 2,
+	id = 9600052,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 30,
+	english_name = "MOT Whydah",
+	oxy_cost = 0,
+	skin_id = 9600050,
+	attack_duration = 9999,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		403,
+		43,
+		0,
+		0,
+		0,
+		69,
+		0,
+		57,
+		28,
+		18,
+		18,
+		0
+	},
+	attrs_growth = {
+		9232,
+		475,
+		0,
+		0,
+		0,
+		482,
+		0,
+		817,
+		532,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		100,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		0.95,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-1,
+				0
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				1,
+				-2
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				2,
+				-2
+			},
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				0
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				3,
+				-2
+			},
+			{
+				3,
+				0
+			},
+			{
+				3,
+				2
+			}
+		},
+		{
+			{
+				0,
+				-2
+			},
+			{
+				0,
+				2
+			},
+			{
+				2,
+				-3
+			},
+			{
+				2,
+				3
+			}
+		},
+		{
+			{
+				-2,
+				0
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				1
+			}
+		},
+		{
+			{
+				-3,
+				0
+			},
+			{
+				-3,
+				1
+			}
+		},
+		{
+			{
+				-3,
+				2
+			},
+			{
+				-2,
+				2
+			}
+		}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[9600053] = {
+	nationality = 96,
+	oxy_max = 0,
+	type = 22,
+	name = "維達號",
+	huntingrange_level = 2,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 2,
+	id = 9600053,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 30,
+	english_name = "MOT Whydah",
+	oxy_cost = 0,
+	skin_id = 9600050,
+	attack_duration = 9999,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		561,
+		60,
+		0,
+		0,
+		0,
+		69,
+		0,
+		57,
+		28,
+		18,
+		18,
+		0
+	},
+	attrs_growth = {
+		9232,
+		475,
+		0,
+		0,
+		0,
+		482,
+		0,
+		817,
+		532,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		100,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.05,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-1,
+				0
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				1,
+				-2
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				2,
+				-2
+			},
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				0
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				3,
+				-2
+			},
+			{
+				3,
+				0
+			},
+			{
+				3,
+				2
+			}
+		},
+		{
+			{
+				0,
+				-2
+			},
+			{
+				0,
+				2
+			},
+			{
+				2,
+				-3
+			},
+			{
+				2,
+				3
+			}
+		},
+		{
+			{
+				-2,
+				0
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				1
+			}
+		},
+		{
+			{
+				-3,
+				0
+			},
+			{
+				-3,
+				1
+			}
+		},
+		{
+			{
+				-3,
+				2
+			},
+			{
+				-2,
+				2
+			}
+		}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[9600054] = {
+	nationality = 96,
+	oxy_max = 0,
+	type = 22,
+	name = "維達號",
+	huntingrange_level = 3,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 2,
+	id = 9600054,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 30,
+	english_name = "MOT Whydah",
+	oxy_cost = 0,
+	skin_id = 9600050,
+	attack_duration = 9999,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		798,
+		85,
+		0,
+		0,
+		0,
+		69,
+		0,
+		57,
+		28,
+		18,
+		18,
+		0
+	},
+	attrs_growth = {
+		9232,
+		475,
+		0,
+		0,
+		0,
+		482,
+		0,
+		817,
+		532,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		100,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.15,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-1,
+				0
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				1,
+				-2
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			},
+			{
+				1,
+				2
+			},
+			{
+				2,
+				-2
+			},
+			{
+				2,
+				-1
+			},
+			{
+				2,
+				0
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			},
+			{
+				3,
+				-2
+			},
+			{
+				3,
+				0
+			},
+			{
+				3,
+				2
+			}
+		},
+		{
+			{
+				0,
+				-2
+			},
+			{
+				0,
+				2
+			},
+			{
+				2,
+				-3
+			},
+			{
+				2,
+				3
+			}
+		},
+		{
+			{
+				-2,
+				0
+			},
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				1
+			}
+		},
+		{
+			{
+				-3,
+				0
+			},
+			{
+				-3,
+				1
+			}
+		},
+		{
+			{
+				-3,
+				2
+			},
+			{
+				-2,
+				2
+			}
+		}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[9600061] = {
+	nationality = 96,
+	oxy_max = 0,
+	type = 23,
+	name = "冒險加利號",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9600061,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MOT Adventure Galley",
+	oxy_cost = 0,
+	skin_id = 9600060,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		731,
+		41,
+		0,
+		0,
+		0,
+		64,
+		0,
+		38,
+		9,
+		11.2,
+		68,
+		0
+	},
+	attrs_growth = {
+		18889,
+		562,
+		0,
+		0,
+		0,
+		445,
+		0,
+		607,
+		459,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		100,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		1.05,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[9600062] = {
+	nationality = 96,
+	oxy_max = 0,
+	type = 23,
+	name = "冒險加利號",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9600062,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MOT Adventure Galley",
+	oxy_cost = 0,
+	skin_id = 9600060,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		909,
+		51,
+		0,
+		0,
+		0,
+		64,
+		0,
+		38,
+		9,
+		16.2,
+		68,
+		0
+	},
+	attrs_growth = {
+		18889,
+		562,
+		0,
+		0,
+		0,
+		445,
+		0,
+		607,
+		459,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		100,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.1,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[9600063] = {
+	nationality = 96,
+	oxy_max = 0,
+	type = 23,
+	name = "冒險加利號",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9600063,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MOT Adventure Galley",
+	oxy_cost = 0,
+	skin_id = 9600060,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1266,
+		71,
+		0,
+		0,
+		0,
+		64,
+		0,
+		38,
+		9,
+		21.2,
+		68,
+		0
+	},
+	attrs_growth = {
+		18889,
+		562,
+		0,
+		0,
+		0,
+		445,
+		0,
+		607,
+		459,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		100,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[9600064] = {
+	nationality = 96,
+	oxy_max = 0,
+	type = 23,
+	name = "冒險加利號",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9600064,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MOT Adventure Galley",
+	oxy_cost = 0,
+	skin_id = 9600060,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1801,
+		101,
+		0,
+		0,
+		0,
+		64,
+		0,
+		38,
+		9,
+		26.2,
+		68,
+		0
+	},
+	attrs_growth = {
+		18889,
+		562,
+		0,
+		0,
+		0,
+		445,
+		0,
+		607,
+		459,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		100,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.3,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
 	},
 	tag_list = {}
 }

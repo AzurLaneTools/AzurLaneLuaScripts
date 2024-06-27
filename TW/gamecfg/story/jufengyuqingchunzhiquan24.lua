@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgm = "battle-boss-temepest-1",
-			say = "提斯塔先前的自信已经消失不见。",
+			say = "提斯塔先前的自信已經消失。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "在与主机长久失联的当下，这位“提斯塔”女士的战争技巧比白纸更白。",
+			say = "在與主機長久失聯的當下，這位「提斯塔」女士的戰爭技巧比白紙更白。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,12 +42,12 @@ return {
 			}
 		},
 		{
-			actorName = "自动报警系统",
+			actorName = "自動警報系統",
 			side = 2,
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "警告。严重误击损失。",
+			say = "警告。嚴重誤擊損失。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			actor = 900011,
 			actorName = "提斯塔",
 			hidePaintObj = true,
-			say = "可恶可恶可恶……！！",
+			say = "可惡可惡可惡……！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			actor = 900011,
 			actorName = "提斯塔",
 			hidePaintObj = true,
-			say = "第一、第三防卫机构，向两侧散开！",
+			say = "第一、第三防衛機構，向兩側散開！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,42 +89,31 @@ return {
 			actor = 900011,
 			actorName = "提斯塔",
 			hidePaintObj = true,
-			say = "第二防卫机构，拖住敌人！",
+			say = "第二防衛機構，拖住敵人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "自动报警系统",
+			actorName = "自動警報系統",
 			side = 2,
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "执行。错误。队形过密。撞击风险。",
+			say = "執行。錯誤。隊形過密。撞擊風險。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "自动报警系统",
+			actorName = "自動警報系統",
 			side = 2,
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "警告。重大损失。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_525",
-			hidePaintObj = true,
-			say = "被提斯塔一同编入密集编队的，除了塞满了火炮的巨舰外，更有不清的自爆舰船。",
+			say = "警告。重大損失。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,21 +124,18 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "但这显然起了反作用：在盛大的烟火演出中，屏幕中的提斯塔舰队，正如雪花般飞快消逝。",
+			say = "被提斯塔一同編入密集編隊的，除了塞滿了火炮的巨艦外，更有不清的自爆船艦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
-			factiontag = "湖中倒影",
-			actor = 900011,
-			actorName = "提斯塔",
 			hidePaintObj = true,
-			say = "不、不……！我的舰队！！",
+			say = "但這顯然起了反作用：在盛大的煙火演出中，螢幕中的提斯塔艦隊，正如雪花般飛快消逝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +149,7 @@ return {
 			actor = 900011,
 			actorName = "提斯塔",
 			hidePaintObj = true,
-			say = "你到底做了什么！",
+			say = "不、不……！我的艦隊！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,19 +163,33 @@ return {
 			actor = 900011,
 			actorName = "提斯塔",
 			hidePaintObj = true,
-			say = "告诉我，“指挥官”，你到底做了什么？！",
+			say = "你到底做了什麼！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "自动报警系统",
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "star_level_bg_525",
+			factiontag = "湖中倒影",
+			actor = 900011,
+			actorName = "提斯塔",
+			hidePaintObj = true,
+			say = "告訴我，「指揮官」，你到底做了什麼？！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "自動警報系統",
 			side = 2,
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "警告。最终防卫线被突破。",
+			say = "警告。最終防衛線被突破。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,12 +199,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "船上的家伙听着！",
+			say = "船上的傢伙聽著！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,12 +218,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "立刻缴械投降！",
+			say = "立即繳械投降！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,12 +237,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "否则我们就不客气了！",
+			say = "否則我們就不客氣了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			actor = 900011,
 			actorName = "提斯塔",
 			hidePaintObj = true,
-			say = "想都别想！！",
+			say = "想都別想！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			actor = 900011,
 			actorName = "提斯塔",
 			hidePaintObj = true,
-			say = "可恶！待会再和你算账！",
+			say = "可惡！待會再跟你算帳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "提斯塔恼怒地翻下船舷，踏上了自己最终的战场。",
+			say = "提斯塔惱怒地翻下船舷，踏上了自己最終的戰場。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "她留下的仪器中，依然还在播放着战场中的画面——",
+			say = "她留下的儀器中，依然還在播放著戰場中的畫面——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

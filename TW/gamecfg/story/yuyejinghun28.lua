@@ -9,14 +9,14 @@ return {
 		{
 			expression = 10,
 			side = 2,
-			factiontag = "文学少女KP",
+			factiontag = "文學少女KP",
 			dir = 1,
 			bgName = "star_level_bg_159",
 			bgm = "theme-ijndailymeeting",
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼呼呼，完结撒花~！",
+			say = "呼呼呼呼，完結撒花~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -52,7 +52,7 @@ return {
 			actor = 401020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……居然真的，完整体验了所有的BE。",
+			say = "……居然真的，完整體驗了所有的BE。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,12 +65,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：古堡女仆长",
+			factiontag = "飾：古堡女僕長",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，你都不知道一边看见你骰运不济，一边憋笑，然后还要一本正经演出有多困难。",
+			say = "指揮官，你都不知道一邊看見你骰運不濟，一邊憋笑，然後還要一本正經演出有多困難。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：古堡二小姐",
+			factiontag = "飾：古堡二小姐",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#A9F548FF",
@@ -102,7 +102,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：古堡大小姐",
+			factiontag = "飾：古堡大小姐",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
@@ -121,12 +121,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：布莱克勋爵",
+			factiontag = "飾：布萊克勳爵",
 			dir = 1,
 			actor = 403030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我在机关室也笑得很厉害哦，花时间设计这个剧本也算物有所值了。",
+			say = "我在機關室也笑得很厲害哦，花時間設計這個劇本也算物有所值了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,12 +139,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "运势高涨的KP大人",
+			factiontag = "運勢高漲的KP大人",
 			dir = 1,
 			actor = 301160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以说，都让{namecode:22:雪风}大人来扔骰子就好啦！",
+			say = "所以說，都讓雪風大人來丟骰子就好！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			actor = 401020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不行，那样会破坏游戏平衡。",
+			say = "不行，那樣會破壞遊戲平衡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,10 +176,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：调查员",
+			factiontag = "飾：調查員",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以，最后的TE结局里，布莱克勋爵的结婚对象难道是……",
+			say = "所以，在最後的TE結局裡，布萊克勳爵的結婚對象難道是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,12 +189,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "传奇调查员KP（自称）",
+			factiontag = "傳奇調查員KP（自稱）",
 			dir = 1,
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，当然是复活的妻子啦~",
+			say = "沒錯，當然是復活的妻子啦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,10 +208,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：调查员",
+			factiontag = "飾：調查員",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "还有一个疑问，关于二小姐。她到底从校博物馆顺回了多少道具？",
+			say = "還有一個疑問，關於二小姐。她到底從校博物館順回了多少道具？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,10 +221,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：调查员",
+			factiontag = "飾：調查員",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "感觉她好像早就洞察了所有真相？",
+			say = "感覺她好像早就洞察了所有真相？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,12 +234,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "一本正经的后辈KP",
+			factiontag = "一本正經的後輩KP",
 			dir = 1,
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "关于这点，我只能说女仆长没有受到影响就是因为二小姐的缘故。",
+			say = "關於這一點，我只能說女僕長沒有受到影響就是因為二小姐的緣故。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,12 +252,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "一本正经的后辈KP",
+			factiontag = "一本正經的後輩KP",
 			dir = 1,
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "至于其它的细节，还是留给指挥官自己回味好啦。",
+			say = "至於其他的細節，還是留給指揮官自己回味好啦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,12 +271,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "一本正经的后辈KP",
+			factiontag = "一本正經的後輩KP",
 			dir = 1,
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一千个人心中有一千个哈姆雷特，就算是设计剧本的我们，也不能剥夺您回味剧本的乐趣。",
+			say = "一千個人心中有一千個哈姆雷特，就算是設計劇本的我們，也不能剝奪您回味劇本的樂趣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,12 +290,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "一本正经的KP",
+			factiontag = "一本正經的KP",
 			dir = 1,
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "关于剧情的讨论就先到这里吧？既然指挥官已经体验了全部内容，有什么想反馈的么？",
+			say = "關於劇情的討論就先到這邊吧？既然指揮官已經體驗了全部內容，有什麼想法嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,12 +319,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "传奇调查员KP（自称）",
+			factiontag = "傳奇調查員KP（自稱）",
 			dir = 1,
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……毕竟是为了契合主题嘛！",
+			say = "嗯……畢竟是為了契合主題嘛！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,12 +337,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：古老神祇之影",
+			factiontag = "飾：古神祇之影",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "顺带一提，剧中很多逼真的效果是我用阿尔戈做出来的哦。",
+			say = "順帶一提，劇中的許多逼真效果是我用阿爾戈做出來的哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,12 +356,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "一本正经的KP",
+			factiontag = "一本正經的KP",
 			dir = 1,
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过这么一想……港区中胆小的同伴也有不少。",
+			say = "不過這麼一想……港區中膽小的同伴也有不少。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,12 +374,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "一本正经的KP",
+			factiontag = "一本正經的KP",
 			dir = 1,
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "感觉确实有一定的改进空间。",
+			say = "感覺確實有一定的進步空間。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,7 +390,7 @@ return {
 			},
 			options = {
 				{
-					content = "增加全年龄模式！",
+					content = "增加全年齡模式！",
 					flag = 1
 				},
 				{
@@ -403,12 +403,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "一本正经的KP",
+			factiontag = "一本正經的KP",
 			dir = 1,
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来如此……这确实是个可行的方案。",
+			say = "原來如此……這確實是個可行的方案。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,12 +422,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：古堡二小姐",
+			factiontag = "飾：古堡二小姐",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不管怎么改剧本，还请继续让二小姐留在房间里被游戏和可乐薯片包围！",
+			say = "不管怎麼改劇本，請繼續讓二小姐留在房間裡被遊戲洋芋片和可樂包圍！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -441,12 +441,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_159",
-			factiontag = "饰：古堡二小姐",
+			factiontag = "飾：古堡二小姐",
 			dir = 1,
 			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "————非常感谢！",
+			say = "————非常感謝！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
-					"雨夜惊魂\n\n<size=45>END</size>",
+					"古堡調查實錄\n\n<size=45>END</size>",
 					1
 				}
 			}

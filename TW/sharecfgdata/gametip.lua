@@ -11932,7 +11932,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累計建造200次可獲得海上傳奇艦船俾斯麥Zwei(最多4次)"
+	tip = "聖馬丁號、金鹿號等角色建造機率UP!"
 }
 
 
@@ -27457,6 +27457,16 @@ _G.pg.base.gametip.battle_text_bisimaiz_10 = {
 }
 
 
+_G.pg.base.gametip.battle_text_haidao_1 = {
+	tip = "<color=#f1f102>/// 警告：偵測到非「颶風」船 ///</color>"
+}
+
+
+_G.pg.base.gametip.battle_text_haidao_2 = {
+	tip = "<color=#f1f102>/// 「雲牆守衛」突擊中！聖馬丁戰鬥力大幅提升！///</color>"
+}
+
+
 _G.pg.base.gametip.series_enemy_mood = {
 	tip = "心情不足"
 }
@@ -29463,7 +29473,7 @@ _G.pg.base.gametip.shipyard_phase_1 = {
 		{
 			info = [[
 活動簡介：
-<color=#92fc63>6.20-7.11/24時</color>期間開啟「皇家幸運的秘密船廠」活動的第二階段。
+<color=#92fc63>6.20-7.11維護</color>期間開啟「皇家幸運的秘密船廠」活動的第二階段。
 活動期間完成「秘密船廠」建造階段的所有任務，即可參加第二階段活動。
 活動期間，6月26日為止每日解鎖一關遊戲關卡，並增加<color=#92fc63>1</color>次可獲得獎勵的遊玩次數。
 擁有可獲得獎勵的遊玩次數時，完成遊戲關卡可獲得<color=#92fc63>道具獎勵。</color>
@@ -29896,6 +29906,87 @@ _G.pg.base.gametip.equipcode_equip_occupied = {
 }
 
 
+_G.pg.base.gametip.sail_boat_equip_tip_1 = {
+	tip = "<color=#E3CEAF>威力較小裝填速度較快的火炮</color>\n<color=#F1B969>裝備後艦船航速降低</color>"
+}
+
+
+_G.pg.base.gametip.sail_boat_equip_tip_2 = {
+	tip = "<color=#E3CEAF>威力中等裝填速度中等的火炮</color>\n<color=#F1B969>裝備後艦船航速降低</color>"
+}
+
+
+_G.pg.base.gametip.sail_boat_equip_tip_3 = {
+	tip = "<color=#E3CEAF>威力極大裝填速度極慢的火炮</color>\n<color=#F1B969>裝備後艦船航速降低</color>"
+}
+
+
+_G.pg.base.gametip.sail_boat_equip_tip_4 = {
+	tip = "<color=#E3CEAF>裝甲甲板</color>\n<color=#F1B969>裝備後艦船耐久提升航速降低</color>"
+}
+
+
+_G.pg.base.gametip.sail_boat_equip_tip_5 = {
+	tip = "<color=#E3CEAF>海人啾</color>\n<color=#F1B969>裝備後艦船航速提升</color>"
+}
+
+
+_G.pg.base.gametip.sail_boat_minigame_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/sailboat_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/sailboat_help2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.pirate_wanted_help = {
+	tip = "活動時間：<color=#b14c4c>6.27-7.11 維護 </color>\n1.活動期間，參與「啾啾懸賞」活動可獲得豐厚獎勵。完成全部<color=#b14c4c>6</color>個「懸賞」後，可獲得活動限定紀念章<color=#b14c4c>「璀璨航針」</color>\n2.領取時間截止7月17日24時"
+}
+
+
+_G.pg.base.gametip.harbor_backhill_help = {
+	tip = {
+		{
+			info = [[
+活動簡介：
+<color=#92fc63>6.27-7.11 維護</color>期間開啟限時活動「神秘港灣」
+活動規則：
+1.活動期間開啟「皇家幸運的秘密船廠」第二階段，參與活動可獲得限定傢俱<color=#92fc63>「啟航的冒險船」</color>、<color=#92fc63>「颶風的饋贈」</color>、<color=#92fc63>「蔬果補給品」</color>、<color=#92fc63>「喵箱SSR型」</color>在內的豐富獎勵
+2.活動期間開啟「啾啾懸賞板」，參與活動可獲得限定紀念章<color=#92fc63>「璀璨航針」</color>、<color=#92fc63>「舊式重火炮」</color>、<color=#92fc63>「基德喵」&「貝拉喵」</color>在內的豐富獎勵
+3.點選「限時兌換」可以前往活動商店
+4.點選「限時建造」可以前往建造介面
+5.點選「換裝商店」可以前往換裝商店介面
+]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.cryptolalia_download_task_already_exists = {
 	tip = "$1密語正在下載中"
 }
@@ -29903,6 +29994,281 @@ _G.pg.base.gametip.cryptolalia_download_task_already_exists = {
 
 _G.pg.base.gametip.charge_scene_buy_confirm_backyard = {
 	tip = "是否使用<color=#72bc42>$1鑽石</color>購買<color=#72bc42>$2</color>"
+}
+
+
+_G.pg.base.gametip.roll_room1 = {
+	tip = "傭人休息室"
+}
+
+
+_G.pg.base.gametip.roll_room2 = {
+	tip = "大廳"
+}
+
+
+_G.pg.base.gametip.roll_room3 = {
+	tip = "接待室"
+}
+
+
+_G.pg.base.gametip.roll_room4 = {
+	tip = "中庭"
+}
+
+
+_G.pg.base.gametip.roll_room5 = {
+	tip = "會客廳"
+}
+
+
+_G.pg.base.gametip.roll_room6 = {
+	tip = "管家房"
+}
+
+
+_G.pg.base.gametip.roll_room7 = {
+	tip = "餐廳"
+}
+
+
+_G.pg.base.gametip.roll_room8 = {
+	tip = "廚房"
+}
+
+
+_G.pg.base.gametip.roll_room9 = {
+	tip = "宴會廳"
+}
+
+
+_G.pg.base.gametip.roll_room10 = {
+	tip = "觀景台"
+}
+
+
+_G.pg.base.gametip.roll_room11 = {
+	tip = "次臥"
+}
+
+
+_G.pg.base.gametip.roll_room12 = {
+	tip = "收藏室"
+}
+
+
+_G.pg.base.gametip.roll_room13 = {
+	tip = "大廳"
+}
+
+
+_G.pg.base.gametip.roll_room14 = {
+	tip = "主臥"
+}
+
+
+_G.pg.base.gametip.roll_room15 = {
+	tip = "書房"
+}
+
+
+_G.pg.base.gametip.roll_room16 = {
+	tip = "密室"
+}
+
+
+_G.pg.base.gametip.roll_room17 = {
+	tip = "後花園"
+}
+
+
+_G.pg.base.gametip.roll_attr_list = {
+	tip = {
+		"交涉",
+		"急救",
+		"META研究",
+		"塞壬研究",
+		"情報分析",
+		"機械維修",
+		"藥理學",
+		"民俗研究",
+		"心理學",
+		"地質學",
+		"開鎖",
+		"觀察力",
+		"潛行",
+		"奔跑",
+		"潛水",
+		"機甲駕駛",
+		"戰術研究",
+		"格鬥",
+		"射擊",
+		"荒野求生",
+		"魔方研究",
+		"危機感應",
+		"魅惑術",
+		"釣魚",
+		"法律學",
+		"量產型駕駛",
+		"艦裝維修",
+		"陷阱製作",
+		"炮術",
+		"天文學",
+		"密碼學",
+		"法律研究",
+		"烹飪",
+		"石油探勘",
+		"快速閱讀",
+		"導航學",
+		"騎術",
+		"催眠術",
+		"追蹤術",
+		"語言學",
+		"攀爬",
+		"物品整理",
+		"時間規劃",
+		"文件處理",
+		"艦隊集結",
+		"後勤調度",
+		"外交學",
+		"養生術",
+		"農學",
+		"土木工程學",
+		"戰場指揮"
+	}
+}
+
+
+_G.pg.base.gametip.roll_notimes = {
+	tip = "骰子數量不足，前往活動獲取"
+}
+
+
+_G.pg.base.gametip.roll_tip2 = {
+	tip = "調查全部已解鎖的區域後才能再次投擲"
+}
+
+
+_G.pg.base.gametip.roll_reward_word1 = {
+	tip = "序幕"
+}
+
+
+_G.pg.base.gametip.roll_reward_word2 = {
+	tip = "第一幕"
+}
+
+
+_G.pg.base.gametip.roll_reward_word3 = {
+	tip = "第二幕"
+}
+
+
+_G.pg.base.gametip.roll_reward_word4 = {
+	tip = "第三幕"
+}
+
+
+_G.pg.base.gametip.roll_reward_word5 = {
+	tip = "第四幕"
+}
+
+
+_G.pg.base.gametip.roll_reward_word6 = {
+	tip = "第五幕"
+}
+
+
+_G.pg.base.gametip.roll_reward_word7 = {
+	tip = "第六幕"
+}
+
+
+_G.pg.base.gametip.roll_reward_word8 = {
+	tip = "終幕"
+}
+
+
+_G.pg.base.gametip.roll_reward_tip = {
+	tip = "已完成$1/$2"
+}
+
+
+_G.pg.base.gametip.roll_unlock = {
+	tip = "— 調查古堡解鎖全部劇情後，可解鎖隨機生成角色卡功能 —"
+}
+
+
+_G.pg.base.gametip.roll_noname = {
+	tip = "姓名不能為空"
+}
+
+
+_G.pg.base.gametip.roll_card_info = {
+	tip = "基本訊息"
+}
+
+
+_G.pg.base.gametip.roll_card_attr = {
+	tip = "屬性"
+}
+
+
+_G.pg.base.gametip.roll_card_skill = {
+	tip = "技能"
+}
+
+
+_G.pg.base.gametip.roll_times_left = {
+	tip = "剩餘次數:$1"
+}
+
+
+_G.pg.base.gametip.roll_room_unexplored = {
+	tip = "???"
+}
+
+
+_G.pg.base.gametip.roll_reward_got = {
+	tip = "已領取"
+}
+
+
+_G.pg.base.gametip.roll_gametip = {
+	tip = {
+		{
+			info = [[
+活動簡介：
+<color=#92fc63>6.27-7.11維護</color>期間開啟「雨夜驚魂活動」活動。
+「調查獎勵」
+·調查古堡完成劇情獲取獎勵
+·推進劇情會用到探索之骰，透過雨夜驚魂活動累積繼承敵人獲取
+「角色卡」
+·角色卡上的資訊將隨著古堡的調查逐漸顯露
+·解鎖全部劇情後，可以解鎖隨機生成角色卡功能
+·角色卡姓名預設為指揮官名稱，可以編輯修改，可以不限次數的隨機屬性數值、技能與技能熟練度
+「投擲」
+探索之骰使用規則：
+投擲兩個十面骰，第一個骰子為十位數數字，第二個骰子為個位數數值，當結果為：
+1~5時：判定大成功
+6~50時：判定成功
+51~94時：判定失敗
+95~100時：判定大失敗（00=100）
+·當出現失敗與大失敗時，只能前往一個區域
+觸發BE劇情後將返回上一個區域同時返還一個骰子，下一次投擲結果必定為成功或大成功
+·當出現成功與大成功時，可以前往兩個區域，未探索的區域後續也可以返回進行探索]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.roll_ending_tip1 = {
+	tip = "終幕已然顯現，請前往古堡1F與2F中完成調查"
+}
+
+
+_G.pg.base.gametip.roll_ending_tip2 = {
+	tip = "仍有未探索區域，請前往古堡1F與2F中完成調查"
 }
 
 

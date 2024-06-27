@@ -340,7 +340,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 351
+		key_value = 376
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1924,7 +1924,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 352
+		key_value = 375
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -2809,6 +2809,13 @@ pg.gameset = {
 				10,
 				2000
 			}
+		}
+	},
+	tech_sort_mot = {
+		key_value = 0,
+		description = {
+			1,
+			2
 		}
 	},
 	main_live_area_time = {

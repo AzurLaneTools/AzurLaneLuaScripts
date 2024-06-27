@@ -40,7 +40,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_church",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
@@ -75,12 +75,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_church",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎呀……你真的想好了？",
+			say = "哎呀……妳真的想好了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,12 +94,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_church",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我好高兴……！",
+			say = "我好高興……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,12 +112,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_church",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "先说好，和我在一起可是一件很辛苦的事情哦？不可以反悔哦？",
+			say = "先說好，跟我在一起可是一件很辛苦的事哦？不可以反悔？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,12 +131,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_church",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "来，牵起我的手……",
+			say = "來，牽起我的手……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,14 +241,14 @@ return {
 			portrait = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_cg2",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			withoutPainting = true,
-			actorName = "皇家财富号",
+			actorName = "皇家幸運號",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喂！！你们在做什么呀！！",
+			say = "喂！！妳們在做什麼呀！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_cg2",
 			hidePaintObj = true,
-			say = "视线恢复之时，正看见猛地掀开舱门的皇家财富。",
+			say = "視線恢復之時，正看見猛地掀開艙門的皇家幸運。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,14 +273,14 @@ return {
 			portrait = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_cg2",
-			factiontag = "投资人",
+			factiontag = "投資人",
 			dir = 1,
 			withoutPainting = true,
-			actorName = "金鹿号",
+			actorName = "金鹿號",
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如你所见，在照顾指挥官~",
+			say = "如妳所見，在照顧指揮官~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			withoutPainting = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "小声点，指挥官刚醒——",
+			say = "小聲點，指揮官剛醒——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,14 +308,14 @@ return {
 			portrait = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_cg2",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			withoutPainting = true,
-			actorName = "皇家财富号",
+			actorName = "皇家幸運號",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦…哦…………",
+			say = "哦……哦…………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,14 +329,14 @@ return {
 			portrait = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_cg2",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			withoutPainting = true,
-			actorName = "皇家财富号",
+			actorName = "皇家幸運號",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………个锤子啊！",
+			say = "…………個錘子啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,14 +350,14 @@ return {
 			portrait = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_cg2",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			withoutPainting = true,
-			actorName = "皇家财富号",
+			actorName = "皇家幸運號",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我的船员我来照顾就好了！",
+			say = "我的船員我來照顧就好了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,14 +371,14 @@ return {
 			portrait = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_cg2",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			withoutPainting = true,
-			actorName = "皇家财富号",
+			actorName = "皇家幸運號",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还有…玛丽·西莱斯特女士！",
+			say = "還有…瑪麗·賽勒斯特女士！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,14 +392,14 @@ return {
 			portrait = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_cg2",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			withoutPainting = true,
-			actorName = "皇家财富号",
+			actorName = "皇家幸運號",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就算你是大名鼎鼎的幽灵船！也麻烦让一下！",
+			say = "就算妳是大名鼎鼎的幽靈船！也麻煩讓一下！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,10 +440,10 @@ return {
 			portrait = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_cg3",
-			factiontag = "投资人",
+			factiontag = "投資人",
 			dir = 1,
 			withoutPainting = true,
-			actorName = "金鹿号",
+			actorName = "金鹿號",
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -461,14 +461,14 @@ return {
 			portrait = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_cg3",
-			factiontag = "投资人",
+			factiontag = "投資人",
 			dir = 1,
 			withoutPainting = true,
-			actorName = "金鹿号",
+			actorName = "金鹿號",
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "先前我听指挥官说，有个人对幽灵船有着独一档的期待呢~",
+			say = "先前我聽指揮官說，有個人對幽靈船有著獨一檔的期待呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -482,14 +482,14 @@ return {
 			portrait = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_cg3",
-			factiontag = "投资人",
+			factiontag = "投資人",
 			dir = 1,
 			withoutPainting = true,
-			actorName = "金鹿号",
+			actorName = "金鹿號",
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是不是呀，皇家财富？",
+			say = "是不是呀，皇家幸運？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -503,14 +503,14 @@ return {
 			portrait = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_cg3",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			withoutPainting = true,
-			actorName = "皇家财富号",
+			actorName = "皇家幸運號",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在不期待了！！",
+			say = "現在不期待了！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -524,14 +524,14 @@ return {
 			portrait = 9600010,
 			side = 2,
 			bgName = "bg_jufengv1_cg3",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			withoutPainting = true,
-			actorName = "皇家财富号",
+			actorName = "皇家幸運號",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "气气气气——",
+			say = "氣氣氣氣——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -546,14 +546,14 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_cg3",
 			hidePaintObj = true,
-			say = "见识到了作为叫醒服务而言过于夸张的场面。",
+			say = "見識到了作為叫醒服務而言過於誇張的場面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "好了，你们别逗她了。",
+					content = "好了，妳們別逗她了。",
 					flag = 1
 				}
 			}
@@ -562,14 +562,14 @@ return {
 			portrait = 9600030,
 			side = 2,
 			bgName = "bg_jufengv1_cg3",
-			factiontag = "投资人",
+			factiontag = "投資人",
 			dir = 1,
 			withoutPainting = true,
-			actorName = "金鹿号",
+			actorName = "金鹿號",
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好嘞~来吧皇家财富，坐我这来~",
+			say = "好的~來吧皇家幸運，坐我這來~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -581,13 +581,13 @@ return {
 		},
 		{
 			side = 2,
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			bgName = "bg_jufengv1_2",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谢·谢·你·啊——",
+			say = "謝·謝·妳·啊——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -619,7 +619,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
-			say = "皇家财富猛地坐下，拉住了我的另一只手。",
+			say = "皇家幸運猛地坐下，拉住了我的另一隻手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,7 +631,7 @@ return {
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你先别急，我有话想问。",
+			say = "妳先別急，我有話想問。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,7 +643,7 @@ return {
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "圣马丁怎么样了？",
+			say = "聖馬丁怎麼樣了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "在您的英勇行动下，已经得救了哦。",
+			say = "在您的英勇行動下，已經得救了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,12 +665,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_2",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们还确认了她不是来找我们麻烦的。",
+			say = "我們也確認了她不是來找我們麻煩的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -683,12 +683,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv1_2",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "想想也是，无敌之冠怎么会专门找我们麻烦……都怪金鹿瞎说。",
+			say = "想想也是，無敵之冠怎麼會專門找我們麻煩……都怪金鹿瞎說。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -702,12 +702,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_2",
-			factiontag = "投资人",
+			factiontag = "投資人",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎呀哎呀~防人之心不可无哦？",
+			say = "哎呀哎呀~防人之心不可無哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -723,7 +723,7 @@ return {
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "就是这样了。",
+			say = "就是這樣了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -735,7 +735,7 @@ return {
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过，圣马丁小姐看起来有点懊恼……我猜，大概是被自己的追逐目标搭救了的缘故吧。",
+			say = "不過，聖馬丁小姐看起來有點懊惱……我猜，大概是被自己的追逐目標搭救了的緣故吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -747,7 +747,7 @@ return {
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但她肯定会理解您的，毕竟您的手是这样温暖……",
+			say = "但她肯定會理解您的，畢竟您的手是這樣溫暖……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -757,7 +757,7 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jufengv1_2",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
@@ -775,12 +775,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv1_2",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我不会当没看见哦！",
+			say = "我不會當作沒看見哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -796,7 +796,7 @@ return {
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呼呼，你有一群很有意思的同伴呢，指挥官。",
+			say = "呼呼，妳有一群很有意思的同伴呢，指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -805,12 +805,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv1_2",
-			factiontag = "幽灵",
+			factiontag = "幽靈",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我的名字叫玛丽·西莱斯特。",
+			say = "我的名字叫瑪麗·賽勒斯特。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -824,12 +824,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv1_2",
-			factiontag = "幽灵",
+			factiontag = "幽靈",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如她们刚刚所说，是新世界航路中，“幽灵船”传说的正体哦。",
+			say = "如她們剛剛所說，是新世界航路中，「幽靈船」傳說的正體哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -842,12 +842,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv1_2",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是玛丽小姐指引着我们抵达了平静的台风眼。",
+			say = "是瑪麗小姐指引我們抵達了平靜的颱風眼。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -861,12 +861,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_2",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…………虽然玛丽小姐可能不愿意说，不过我觉得你应该知道这件事。",
+			say = "…………雖然瑪麗小姐可能不願意說，不過我覺得妳應該知道這件事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -877,7 +877,7 @@ return {
 			},
 			options = {
 				{
-					content = "感谢你的救援，玛丽小姐。该怎样才能回报你？",
+					content = "感謝妳的救援，瑪麗小姐。該怎樣才能回報妳？",
 					flag = 1
 				}
 			}
@@ -885,12 +885,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv1_2",
-			factiontag = "幽灵",
+			factiontag = "幽靈",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我不求回报……这是您和您英勇的同伴应得的。",
+			say = "我不求回報……這是您和您英勇的同伴應得的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -904,12 +904,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv1_2",
-			factiontag = "幽灵",
+			factiontag = "幽靈",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "作为幽灵船，行走于风暴之中本就是烙印在我头脑中的本能。",
+			say = "身為幽靈船，行走於風暴之中本就是烙印在我腦海中的本能。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -922,12 +922,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv1_2",
-			factiontag = "幽灵",
+			factiontag = "幽靈",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "像您这样的勇敢者应当完成您的征程……对您的救援，我只是做了些力所能及的事罢了。",
+			say = "像您這樣的勇敢者應該完成您的旅程…對您的救援，我只是做了些力所能及的事罷了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -941,12 +941,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv1_2",
-			factiontag = "幽灵",
+			factiontag = "幽靈",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "风暴几个小时后就会散去，到时候您就可以继续前行了。",
+			say = "風暴幾個小時後就會散去，到時候您就可以繼續前進了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -962,7 +962,7 @@ return {
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你不打算与我们同行么？",
+			say = "妳不打算與我們同行嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -972,7 +972,7 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_jufengv1_2",
-			factiontag = "幽灵",
+			factiontag = "幽靈",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
@@ -990,12 +990,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv1_2",
-			factiontag = "幽灵",
+			factiontag = "幽靈",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可我是幽灵船……您真的不在意么？",
+			say = "但我是幽靈船……您真的不在乎嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1006,7 +1006,7 @@ return {
 			},
 			options = {
 				{
-					content = "当然。",
+					content = "當然。",
 					flag = 1
 				}
 			}
@@ -1014,12 +1014,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv1_2",
-			factiontag = "幽灵",
+			factiontag = "幽靈",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "您是个好人，但…………",
+			say = "您是個好人，但…………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1032,49 +1032,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv1_2",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们可不是在说什么客气话哦？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_jufengv1_2",
-			factiontag = "蓝洋新星",
-			dir = 1,
-			actor = 9600010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "哼哼，城邦教会的女神都不在乎，我们又在乎什么？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_jufengv1_2",
-			factiontag = "蓝洋新星",
-			dir = 1,
-			actor = 9600010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "这可是真真正正、实实在在的上船邀请……冒险的旅途就缺你啦！",
+			say = "我們可不是在說什麼客氣話哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1088,12 +1051,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv1_2",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你说是不是，指挥官？",
+			say = "哼哼，城邦教會的女神都不在乎，我們又在乎什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1106,12 +1069,49 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv1_2",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "快说“是”啦！",
+			say = "這可是真真正正、實實在在的上船邀約……冒險的旅程就缺妳啦！",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_jufengv1_2",
+			factiontag = "藍洋新星",
+			dir = 1,
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "妳說是不是，指揮官？",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_jufengv1_2",
+			factiontag = "藍洋新星",
+			dir = 1,
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "快說「是」啦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1122,11 +1122,11 @@ return {
 			},
 			options = {
 				{
-					content = "没错，说的太对了！",
+					content = "沒錯，說的太對了！",
 					flag = 1
 				},
 				{
-					content = "说的好，不愧是我最敬爱的皇家财富呀！",
+					content = "說的好，不愧是我最敬愛的皇家幸運呀！",
 					flag = 2
 				}
 			}
@@ -1134,7 +1134,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv1_2",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			optionFlag = 2,
 			actor = 9600010,
@@ -1154,12 +1154,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_jufengv1_2",
-			factiontag = "幽灵",
+			factiontag = "幽靈",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……唔……我需要考虑一下。",
+			say = "……唔……我需要考慮一下。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1173,12 +1173,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv1_2",
-			factiontag = "幽灵",
+			factiontag = "幽靈",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还有…………",
+			say = "還有…………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1194,7 +1194,7 @@ return {
 			bgName = "bg_jufengv1_2",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "——轰！",
+			say = "——轟！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1244,7 +1244,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
-			say = "舷窗外突然传来了隆隆炮声。",
+			say = "舷窗外突然傳來了隆隆炮聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1254,12 +1254,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv1_2",
-			factiontag = "蓝洋新星",
+			factiontag = "藍洋新星",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么回事？",
+			say = "怎麼回事？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1273,12 +1273,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv1_2",
-			factiontag = "投资人",
+			factiontag = "投資人",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官！是残响舰队！",
+			say = "指揮官！是殘響艦隊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1291,12 +1291,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv1_2",
-			factiontag = "投资人",
+			factiontag = "投資人",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "圣马丁已经和它们打起来了，我们也必须行动——",
+			say = "聖馬丁已經和它們打起來了，我們也必須行動——",
 			painting = {
 				alpha = 0.3,
 				time = 1

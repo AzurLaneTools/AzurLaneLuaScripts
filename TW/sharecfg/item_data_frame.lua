@@ -522,6 +522,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>結晶之中閃爍著雙子座的光芒，獻給勇於挑戰極限的指揮官！</color>\n透過參與「限界挑戰」取得 （24.06.06-24.06.30）",
 		scene = {}
 	},
+	[10002] = {
+		name = "極限的挑戰者·巨蟹座",
+		gain_by = "",
+		time_second = 0,
+		id = 10002,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>結晶之中閃爍著巨蟹座的光芒，獻給勇於挑戰極限的指揮官！</color>\n透過參與「限界挑戰」取得 （24.07.01-24.07.31）",
+		scene = {}
+	},
 	[1001] = {
 		name = "開服紀念",
 		gain_by = "",
@@ -590,6 +599,7 @@ pg.item_data_frame = {
 		605,
 		606,
 		10001,
+		10002,
 		1001
 	}
 }

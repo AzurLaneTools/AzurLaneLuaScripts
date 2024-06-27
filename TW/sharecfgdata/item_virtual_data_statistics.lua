@@ -23928,7 +23928,7 @@ _G.pg.base.item_virtual_data_statistics[56057] = {
 		},
 		{
 			4,
-			401231,
+			301051,
 			1
 		},
 		{
@@ -24079,7 +24079,7 @@ _G.pg.base.item_virtual_data_statistics[56058] = {
 		},
 		{
 			4,
-			401231,
+			301051,
 			1
 		},
 		{
@@ -24230,7 +24230,7 @@ _G.pg.base.item_virtual_data_statistics[56059] = {
 		},
 		{
 			4,
-			401231,
+			301051,
 			1
 		},
 		{
@@ -24386,7 +24386,7 @@ _G.pg.base.item_virtual_data_statistics[56060] = {
 		},
 		{
 			4,
-			401231,
+			301051,
 			1
 		},
 		{
@@ -160801,7 +160801,7 @@ _G.pg.base.item_virtual_data_statistics[59495] = {
 _G.pg.base.item_virtual_data_statistics[59496] = {
 	drop_gold_max = 0,
 	name = "探索之骰",
-	display = "掷出骰子吧——",
+	display = "擲出骰子吧——",
 	type = 0,
 	is_world = 0,
 	shop_id = 1,
@@ -160825,8 +160825,8 @@ _G.pg.base.item_virtual_data_statistics[59496] = {
 
 _G.pg.base.item_virtual_data_statistics[59497] = {
 	drop_gold_max = 0,
-	name = "远古金币",
-	display = "用于「飓风与青春之泉」活动兑换，活动结束后将会消失",
+	name = "遠古金幣",
+	display = "用於「颶風與青春之泉」活動兌換，活動結束後將會消失",
 	type = 98,
 	is_world = 0,
 	shop_id = -1,

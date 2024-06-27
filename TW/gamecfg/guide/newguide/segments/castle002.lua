@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "接下来要去2F进行探索了哦！",
+				text = "接下來要去2F進行探索了哦！",
 				mode = 1,
 				dir = -1,
 				posY = -80,

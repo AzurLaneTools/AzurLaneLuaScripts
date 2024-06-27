@@ -475,7 +475,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
-			say = "这样的话，没有名字可不行。干脆叫“{namecode:525}的维修工坊”或者“{namecode:525}的万事屋”之类的？",
+			say = "這樣的話，沒有名字可不行。乾脆叫「英格拉罕的維修工坊」或者「英格拉罕的萬事屋」之類的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

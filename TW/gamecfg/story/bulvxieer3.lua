@@ -91,7 +91,7 @@ return {
 			actor = 403020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "休息……？能有指挥官陪伴在{namecode:450}身边，对{namecode:450}来说就是最好的休息！",
+			say = "休息……？能有指揮官陪伴在布呂歇爾身邊，對布呂歇爾來說就是最好的休息！",
 			painting = {
 				alpha = 0.3,
 				time = 1
