@@ -931,6 +931,8 @@ end
 
 slot0.clearData = function(slot0)
 	if slot0.revert == -1 then
+		slot0.actionListIndex = 1
+
 		slot0:setParameterValue(slot0.startValue)
 		slot0:setTargetValue(slot0.startValue)
 	end

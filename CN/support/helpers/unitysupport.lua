@@ -64,6 +64,14 @@ setText = function(slot0, slot1)
 	slot0.GetComponent(slot0, typeof(Text)).text = tostring(slot1)
 end
 
+setScrollText = function(slot0, slot1)
+	if not slot1 then
+		return
+	end
+
+	slot0:GetComponent("ScrollText"):SetText(tostring(slot1))
+end
+
 setTextEN = function(slot0, slot1)
 	if not slot1 then
 		return
