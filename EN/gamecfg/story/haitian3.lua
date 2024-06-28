@@ -734,7 +734,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "\"As song comes from boats, flowers line the shore.'",
+			say = "\"As song comes from boats, flowers line the shore.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -781,7 +781,7 @@ return {
 			actor = 502070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Heehee. It appears that I'm the victor. Now then... 'A flower must be harvested when the time is right. Wait not until the branches are empty.\"",
+			say = "Heehee. It appears that I'm the victor. Now then... \"A flower must be harvested when the time is right. Wait not until the branches are empty.\"",
 			painting = {
 				alpha = 0.3,
 				time = 1
