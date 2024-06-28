@@ -1364,6 +1364,9 @@ pg.ship_data_group = setmetatable({
 		[40702] = {
 			385
 		},
+		[40813] = {
+			650
+		},
 		[40810] = {
 			484
 		},
@@ -1399,9 +1402,6 @@ pg.ship_data_group = setmetatable({
 		},
 		[40812] = {
 			528
-		},
-		[40813] = {
-			650
 		},
 		[50101] = {
 			253
@@ -2604,6 +2604,7 @@ pg.ship_data_group = setmetatable({
 			252,
 			482,
 			385,
+			650,
 			484,
 			343,
 			387,
@@ -2616,7 +2617,6 @@ pg.ship_data_group = setmetatable({
 			386,
 			344,
 			528,
-			650,
 			253,
 			254,
 			255,
@@ -3328,6 +3328,7 @@ pg.ship_data_group = setmetatable({
 		252,
 		482,
 		385,
+		650,
 		484,
 		343,
 		387,
@@ -3340,7 +3341,6 @@ pg.ship_data_group = setmetatable({
 		386,
 		344,
 		528,
-		650,
 		253,
 		254,
 		255,
@@ -23789,6 +23789,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[650] = {
+		nationality = 4,
+		type = 8,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 40813,
+		index_id = 457,
+		code = 650,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：リトル学園へようこそ",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[484] = {
 		nationality = 4,
 		type = 8,
@@ -23798,7 +23830,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 40810,
-		index_id = 457,
+		index_id = 458,
 		code = 484,
 		share_group_id = {},
 		property_hexagon = {
@@ -23841,7 +23873,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 40802,
-		index_id = 458,
+		index_id = 459,
 		code = 343,
 		share_group_id = {},
 		property_hexagon = {
@@ -23894,7 +23926,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 40805,
-		index_id = 459,
+		index_id = 460,
 		code = 387,
 		share_group_id = {},
 		property_hexagon = {
@@ -23946,7 +23978,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 40801,
-		index_id = 460,
+		index_id = 461,
 		code = 341,
 		share_group_id = {},
 		property_hexagon = {
@@ -23982,7 +24014,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 40809,
-		index_id = 461,
+		index_id = 462,
 		code = 467,
 		share_group_id = {},
 		property_hexagon = {
@@ -24034,7 +24066,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 40806,
-		index_id = 462,
+		index_id = 463,
 		code = 399,
 		share_group_id = {},
 		property_hexagon = {
@@ -24070,7 +24102,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 40808,
-		index_id = 463,
+		index_id = 464,
 		code = 416,
 		share_group_id = {},
 		property_hexagon = {
@@ -24113,7 +24145,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 40811,
-		index_id = 464,
+		index_id = 465,
 		code = 492,
 		share_group_id = {},
 		property_hexagon = {
@@ -24145,7 +24177,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 40807,
-		index_id = 465,
+		index_id = 466,
 		code = 400,
 		share_group_id = {},
 		property_hexagon = {
@@ -24181,7 +24213,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 40804,
-		index_id = 466,
+		index_id = 467,
 		code = 386,
 		share_group_id = {},
 		property_hexagon = {
@@ -24233,7 +24265,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 40803,
-		index_id = 467,
+		index_id = 468,
 		code = 344,
 		share_group_id = {},
 		property_hexagon = {
@@ -24285,7 +24317,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 40812,
-		index_id = 468,
+		index_id = 469,
 		code = 528,
 		share_group_id = {},
 		property_hexagon = {
@@ -24301,38 +24333,6 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"イベント：遡望せし虹彩の塔",
-				{
-					""
-				},
-				0
-			}
-		}
-	},
-	[650] = {
-		nationality = 4,
-		type = 8,
-		trans_type = 0,
-		handbook_type = 0,
-		redirect_id = 101,
-		trans_skin = 0,
-		hide = 0,
-		group_type = 40813,
-		index_id = 469,
-		code = 650,
-		share_group_id = {},
-		property_hexagon = {
-			"D",
-			"S",
-			"E",
-			"D",
-			"E",
-			"D"
-		},
-		trans_radar_chart = {},
-		trans_skill = {},
-		description = {
-			{
-				"イベント：リトル学園へようこそ",
 				{
 					""
 				},
