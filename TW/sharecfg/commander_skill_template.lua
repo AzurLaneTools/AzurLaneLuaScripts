@@ -1537,7 +1537,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[960011] = {
-		name = "环球航行",
+		name = "環球航行 ",
 		desc_world = "依據指揮喵指揮屬性，提高所在艦隊中戰列、戰巡、航戰、風帆M的炮擊屬性(效果中)；",
 		next_id = 960012,
 		exp = 0,
@@ -1558,7 +1558,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[960012] = {
-		name = "环球航行",
+		name = "環球航行 ",
 		desc_world = "所在艦隊中存在任意風帆艦時，依據指揮喵戰術屬性，降低旗艦受到的傷害",
 		next_id = 960013,
 		exp = 0,
@@ -1579,7 +1579,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[960013] = {
-		name = "环球航行",
+		name = "環球航行 ",
 		desc_world = "依據指揮喵戰術屬性，提高隊伍中風帆V、風帆M的機動屬性(效果大)",
 		next_id = 0,
 		exp = 0,
@@ -1663,7 +1663,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[960031] = {
-		name = "“高速”的山姆",
+		name = "「高速」的山姆",
 		desc_world = "以潛艇編隊指揮喵時，提高所在艦隊中潛艇5點氧氣",
 		next_id = 960032,
 		exp = 0,
@@ -1684,7 +1684,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[960032] = {
-		name = "“高速”的山姆",
+		name = "「高速」的山姆",
 		desc_world = "身為潛艇編隊指揮喵時，進入戰鬥後恢復所有風帆艦2%耐久",
 		next_id = 960033,
 		exp = 0,
@@ -1705,7 +1705,7 @@ pg.commander_skill_template = {
 		}
 	},
 	[960033] = {
-		name = "“高速”的山姆",
+		name = "「高速」的山姆",
 		desc_world = "作為潛艇編隊指揮喵時，進入戰鬥後依據指揮喵戰術屬性，提高所在艦隊中潛艇、潛母、風帆S的命中屬性（效果中）",
 		next_id = 0,
 		exp = 0,

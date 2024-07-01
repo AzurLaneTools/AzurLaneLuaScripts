@@ -9679,9 +9679,9 @@ pg.base.ship_skin_template_2 = {
 		}
 	},
 	[102310] = {
-		name = "休斯敦II",
+		name = "休士頓II",
 		ship_group = 10231,
-		desc = "克利夫兰级轻巡洋舰—休斯敦II，舷号CL-81",
+		desc = "克里夫蘭級輕巡洋艦—休士頓II，舷號CL-81",
 		illustrator2 = -1,
 		bg_sp = "",
 		group_index = 0,
