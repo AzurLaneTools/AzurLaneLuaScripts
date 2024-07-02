@@ -76,8 +76,12 @@ slot0.updateUI = function(slot0)
 
 		if slot7 <= slot2 then
 			if slot1[slot7] and slot1[slot7] ~= 0 then
-				setImageSprite(findTF(slot11, "mask/icon"), LoadSprite("qicon/" .. getProxy(BayProxy):RawGetShipById(slot1[slot7]):getPainting()))
-				setActive(slot11, true)
+				if getProxy(BayProxy):RawGetShipById(slot1[slot7]) then
+					setImageSprite(findTF(slot11, "mask/icon"), LoadSprite("qicon/" .. slot12:getPainting()))
+					setActive(slot11, true)
+				else
+					setActive(slot9, true)
+				end
 			else
 				setActive(slot9, true)
 			end
