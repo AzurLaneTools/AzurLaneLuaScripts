@@ -12348,7 +12348,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "한정 건조를 총 200회 실시하면 \"알자스\" 100% 획득 가능! (최대 4회까지)"
+	tip = "「엠덴」, 「뤼초」 등의 등장 확률 UP!"
 }
 
 

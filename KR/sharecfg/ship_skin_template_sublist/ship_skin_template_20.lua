@@ -12145,7 +12145,7 @@ pg.base.ship_skin_template_20 = {
 			cannon = {
 				{
 					1.58,
-					0.62,
+					1.049,
 					0
 				}
 			},
