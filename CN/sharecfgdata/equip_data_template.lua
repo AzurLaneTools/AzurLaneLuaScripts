@@ -262168,7 +262168,6 @@ _G.pg.base.equip_data_template[85600] = {
 	equip_limit = 0,
 	level = 1,
 	ship_type_forbidden = {
-		10,
 		22,
 		23,
 		24

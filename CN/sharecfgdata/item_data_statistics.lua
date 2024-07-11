@@ -77062,9 +77062,9 @@ _G.pg.base.item_data_statistics[42063] = {
 
 _G.pg.base.item_data_statistics[42064] = {
 	open_directly = 0,
-	name = "蓝图：纳西莫夫海军上将",
+	name = "蓝图：纳希莫夫海军上将",
 	type = 12,
-	display = "北联航母「纳西莫夫海军上将」的设计蓝图。\n<color=#92fc63>获得「纳西莫夫海军上将」后，可在「开发船坞」中用于增强「纳西莫夫海军上将」的能力。</color>",
+	display = "北联航母「纳希莫夫海军上将」的设计蓝图。\n<color=#92fc63>获得「纳希莫夫海军上将」后，可在「开发船坞」中用于增强「纳希莫夫海军上将」的能力。</color>",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_blueprint",
