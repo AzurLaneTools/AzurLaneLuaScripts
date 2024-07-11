@@ -435728,8 +435728,8 @@ _G.pg.base.ship_data_statistics[199053] = {
 		0
 	},
 	equipment_proficiency = {
-		1.23,
-		1.33,
+		1.25,
+		1.35,
 		1.25
 	},
 	strategy_list = {},
