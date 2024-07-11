@@ -1,15 +1,20 @@
 slot0 = class("BossRushFleetSelectView", import("view.base.BaseUI"))
-slot1 = {
+slot0.fleetNames = {
 	vanguard = 1,
 	submarine = 3,
 	main = 2
 }
+
+slot0.GetTextColor = function(slot0)
+	return Color.white, Color.New(1, 1, 1, 0.5)
+end
 
 slot0.getUIName = function(slot0)
 	return "BossRushFleetSelectUI"
 end
 
 slot0.init = function(slot0)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, nil, {})
 	slot0:InitUI()
 end
 
@@ -134,12 +139,12 @@ slot0.didEnter = function(slot0)
 		table.remove(slot0.fleetIndexToggles, slot7)
 	end
 
-	slot4 = Color.white
-	slot5 = Color.New(1, 1, 1, 0.5)
-
-	slot6 = function(slot0, slot1)
+	slot4 = function(slot0, slot1)
 		setActive(slot0:Find("Selected"), slot1)
-		setTextColor(slot0:Find("Text"), slot1 and uv0 or uv1)
+
+		slot2, slot3 = uv0:GetTextColor()
+
+		setTextColor(slot0:Find("Text"), slot1 and slot2 or slot3)
 	end
 
 	table.Foreach(slot0.fleetIndexToggles, function (slot0, slot1)
@@ -171,10 +176,10 @@ slot0.didEnter = function(slot0)
 	setText(slot0._tf:Find("Panel/Info/Title/Text/EN"), slot1:GetSeriesCode())
 	setText(slot0._tf:Find("Panel/Info/Description/Text"), slot1:GetDescription())
 
-	slot8 = slot1:GetBossIcons()
-	slot9 = slot0._tf:Find("Panel/Info/Boss")
+	slot6 = slot1:GetBossIcons()
+	slot7 = slot0._tf:Find("Panel/Info/Boss")
 
-	UIItemList.StaticAlign(slot9, slot9:GetChild(0), #slot1:GetExpeditionIds(), function (slot0, slot1, slot2)
+	UIItemList.StaticAlign(slot7, slot7:GetChild(0), #slot1:GetExpeditionIds(), function (slot0, slot1, slot2)
 		if slot0 ~= UIItemList.EventUpdate then
 			return
 		end
@@ -193,7 +198,7 @@ slot0.didEnter = function(slot0)
 		end
 	end)
 
-	slot10 = function(slot0)
+	slot8 = function(slot0)
 		if type(slot0) ~= "table" then
 			return {}
 		end
@@ -201,16 +206,16 @@ slot0.didEnter = function(slot0)
 		return slot0
 	end
 
-	slot11 = slot1:GetType() == BossRushSeriesData.TYPE.EXTRA
+	slot9 = slot1:GetType() == BossRushSeriesData.TYPE.EXTRA
 
-	setActive(slot0._tf:Find("Panel/Reward/Normal"), not slot11)
-	setActive(slot0._tf:Find("Panel/Reward/EX"), slot11)
+	setActive(slot0._tf:Find("Panel/Reward/Normal"), not slot9)
+	setActive(slot0._tf:Find("Panel/Reward/EX"), slot9)
 
-	if not slot11 then
-		slot12 = slot0._tf
-		slot12 = slot12:Find("Panel/Reward/Normal/Base/Items")
+	if not slot9 then
+		slot10 = slot0._tf
+		slot10 = slot10:Find("Panel/Reward/Normal/Base/Items")
 
-		UIItemList.StaticAlign(slot12, slot12:GetChild(0), #slot10(slot1:GetPassAwards()), function (slot0, slot1, slot2)
+		UIItemList.StaticAlign(slot10, slot10:GetChild(0), #slot8(slot1:GetPassAwards()), function (slot0, slot1, slot2)
 			if slot0 ~= UIItemList.EventUpdate then
 				return
 			end
@@ -226,10 +231,10 @@ slot0.didEnter = function(slot0)
 			end, SFX_PANEL)
 		end)
 
-		slot14 = slot0.extraAwardTF
-		slot14 = slot14:Find("Items")
+		slot12 = slot0.extraAwardTF
+		slot12 = slot12:Find("Items")
 
-		UIItemList.StaticAlign(slot14, slot14:GetChild(0), #slot10(slot1:GetAdditionalAwards()), function (slot0, slot1, slot2)
+		UIItemList.StaticAlign(slot12, slot12:GetChild(0), #slot8(slot1:GetAdditionalAwards()), function (slot0, slot1, slot2)
 			if slot0 ~= UIItemList.EventUpdate then
 				return
 			end
@@ -249,10 +254,9 @@ slot0.didEnter = function(slot0)
 	end
 
 	slot0:updateEliteFleets()
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, nil, {})
 end
 
-slot2 = {
+slot1 = {
 	[99.0] = true
 }
 
@@ -311,7 +315,7 @@ slot0.initAddButton = function(slot0, slot1, slot2, slot3)
 	table.sort(_.map(slot5, function (slot0)
 		return uv0.shipVOs[slot0]
 	end), function (slot0, slot1)
-		return uv0[slot0:getTeamType()] < uv0[slot1:getTeamType()] or uv0[slot0:getTeamType()] == uv0[slot1:getTeamType()] and table.indexof(uv1, slot0.id) < table.indexof(uv1, slot1.id)
+		return uv0.fleetNames[slot0:getTeamType()] < uv0.fleetNames[slot1:getTeamType()] or uv0.fleetNames[slot0:getTeamType()] == uv0.fleetNames[slot1:getTeamType()] and table.indexof(uv1, slot0.id) < table.indexof(uv1, slot1.id)
 	end)
 
 	slot9 = findTF(slot1, slot2)

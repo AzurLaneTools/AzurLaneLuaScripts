@@ -79,16 +79,25 @@ slot0.InitSpecialTouch = function(slot0)
 
 					if math.abs(uv0.dragOffset.x) < 200 or math.abs(uv0.dragOffset.y) < 200 then
 						uv0.dragUp = slot1.position
-						slot2 = uv0.uiCam:ScreenToWorldPoint(slot1.position)
 
-						for slot6 = 1, #uv0.specialClickDic do
-							slot8 = uv0.specialClickDic[slot6].tf:InverseTransformPoint(slot2)
+						if uv0.spinePainting:isInAction() then
+							return
+						end
 
-							if not uv0.spinePainting:isInAction() and math.abs(slot8.x) < slot7.bound.x / 2 and math.abs(slot8.y) < slot7.bound.y / 2 then
-								uv0:TriggerEvent(slot7.name)
-								uv0:TriggerPersonalTask(slot7.task)
+						if uv0.spinePainting:DoDragClick() then
+							return
+						else
+							slot2 = uv0.uiCam:ScreenToWorldPoint(slot1.position)
 
-								return
+							for slot6 = 1, #uv0.specialClickDic do
+								slot7 = uv0.specialClickDic[slot6]
+
+								if math.abs(slot7.tf:InverseTransformPoint(slot2).x) < slot7.bound.x / 2 and math.abs(slot8.y) < slot7.bound.y / 2 then
+									uv0:TriggerEvent(slot7.name)
+									uv0:TriggerPersonalTask(slot7.task)
+
+									return
+								end
 							end
 						end
 					end
@@ -131,6 +140,10 @@ slot0.InitSpecialTouch = function(slot0)
 			end
 
 			onButton(uv0, slot0, function ()
+				if uv0.spinePainting:isInAction() then
+					return
+				end
+
 				slot0 = uv0:GetSpecialTouchEvent(uv1.name)
 
 				if uv1.name == "special" then
@@ -169,12 +182,14 @@ end
 slot0.OnDisplayWorld = function(slot0, slot1)
 	if ShipExpressionHelper.GetExpression(slot0.paintingName, slot1, slot0.ship:getCVIntimacy(), slot0.ship.skinId) ~= "" then
 		slot0.spinePainting:SetAction(slot3, 1)
+		slot0.spinePainting:displayWord(true)
 	end
 end
 
 slot0.OnDisplayWordEnd = function(slot0)
 	uv0.super.OnDisplayWordEnd(slot0)
 	slot0.spinePainting:SetEmptyAction(1)
+	slot0.spinePainting:displayWord(false)
 end
 
 slot0.OnLongPress = function(slot0)

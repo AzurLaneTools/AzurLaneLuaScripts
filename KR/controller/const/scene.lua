@@ -7,7 +7,7 @@ SCENE = {
 	ROGUE_FINAL_REWARD = "ROGUE_FINAL_REWARD",
 	COMMANDERCAT = "scene commander cat room",
 	COMBATLOAD = "scene combat load",
-	DEPOTSCENE = "scene depot scene",
+	KINDERGARTEN = "KINDERGARTEN",
 	MAINUI = "scene mainUI",
 	SKINATALAS = "scene skinatals",
 	PROPINFO = "scene prop info",
@@ -93,6 +93,7 @@ SCENE = {
 	WORLD_COLLECTION = "world collection",
 	SNAPSHOT = "snapshot",
 	DORM3D_AR = "DORM3D_AR",
+	DEPOTSCENE = "scene depot scene",
 	SELTECHNOLOGY = "seltechnology",
 	INVITATION = "scene invitation",
 	UPGRADESTAR = "scene upgrade star",
@@ -708,6 +709,12 @@ slot0 = {
 			end
 
 			uv1 = _G[slot0]
+
+			if not uv0:getConfig("config_client").mediator then
+				return
+			end
+
+			uv2 = _G[slot1]
 		end)()
 		assert(BossRushKurskScene, "Activity_template not set scene in config_client: " .. (getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSRUSH) and slot4.id or "NIL"))
 
@@ -857,6 +864,10 @@ slot0 = {
 	[SCENE.LINER_BACKHILL] = function (slot0, slot1)
 		slot0.mediator = LinerBackHillMediator
 		slot0.viewComponent = LinerBackHillScene
+	end,
+	[SCENE.KINDERGARTEN] = function (slot0, slot1)
+		slot0.mediator = KindergartenMediator
+		slot0.viewComponent = KindergartenScene
 	end
 }
 

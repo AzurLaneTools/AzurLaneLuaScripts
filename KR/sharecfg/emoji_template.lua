@@ -442,6 +442,32 @@ pg.emoji_template = {
 			1
 		}
 	},
+	{
+		achieve = 1,
+		index = 75,
+		pic = "35",
+		desc = "<color=#92fc63>[잡았다~]</color>",
+		item_name = "스탬프: 잡았다~",
+		item_desc = "스탬프: 잡았다~ 채팅의 디폴트 스탬프 세트로 사용 가능",
+		id = 35,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	{
+		achieve = 1,
+		index = 76,
+		pic = "36",
+		desc = "<color=#92fc63>[더워]</color>",
+		item_name = "스탬프: 더워",
+		item_desc = "스탬프: 더워. 채팅의 디폴트 스탬프 세트로 사용 가능",
+		id = 36,
+		icon = "",
+		type = {
+			1
+		}
+	},
 	[41] = {
 		achieve = 0,
 		index = 1001,
@@ -2193,6 +2219,8 @@ pg.emoji_template = {
 		32,
 		33,
 		34,
+		35,
+		36,
 		41,
 		42,
 		43,

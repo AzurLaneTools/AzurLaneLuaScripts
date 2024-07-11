@@ -42,6 +42,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.id = 0
 	slot0.placeholderType = 0
 	slot0.defaultTb = slot1.defaultTb
+	slot0.optionIndex = 0
 end
 
 slot0.ShouldShake = function(slot0)
@@ -443,6 +444,14 @@ end
 
 slot0.IsImport = function(slot0)
 	return slot0.important
+end
+
+slot0.SetOptionIndex = function(slot0, slot1)
+	slot0.optionIndex = slot1
+end
+
+slot0.GetOptionIndex = function(slot0)
+	return slot0.optionIndex
 end
 
 slot0.GetOptions = function(slot0)

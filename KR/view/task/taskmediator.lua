@@ -8,6 +8,7 @@ slot0.ON_BATCH_SUBMIT_WEEK_TASK = "TaskMediator:ON_BATCH_SUBMIT_WEEK_TASK"
 slot0.ON_SUBMIT_WEEK_TASK = "TaskMediator:ON_SUBMIT_WEEK_TASK"
 slot0.CLICK_GET_ALL = "TaskMediator:CLICK_GET_ALL"
 slot0.ON_DROP = "TaskMediator:ON_DROP"
+slot0.STORE_ACTIVITY_AWARDS = "TaskMediator:STORE_ACTIVITY_AWARDS"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.ON_SUBMIT_WEEK_TASK, function (slot0, slot1)
@@ -16,8 +17,8 @@ slot0.register = function(slot0)
 		})
 	end)
 	slot0:bind(uv0.ON_SUBMIT_AVATAR_TASK, function (slot0, slot1)
-		uv0:sendNotification(GAME.AVATAR_FRAME_AWARD, {
-			act_id = slot1.actId,
+		uv0:sendNotification(GAME.SUBMIT_ACTIVITY_TASK, {
+			act_id = slot1:getActId(),
 			task_ids = {
 				slot1.id
 			}
@@ -92,6 +93,9 @@ slot0.register = function(slot0)
 			taskVO = slot1
 		})
 	end)
+	slot0:bind(uv0.STORE_ACTIVITY_AWARDS, function (slot0, slot1)
+		uv0.storeActivityAwardFlag = slot1
+	end)
 	slot0:SetTaskVOs()
 	slot0.viewComponent:SetWeekTaskProgressInfo(getProxy(TaskProxy):GetWeekTaskProgressInfo())
 end
@@ -140,6 +144,7 @@ slot0.listNotificationInterests = function(slot0)
 		TaskProxy.WEEK_TASKS_DELETED,
 		GAME.SUBMIT_WEEK_TASK_DONE,
 		GAME.SUBMIT_WEEK_TASK_PROGRESS_DONE,
+		GAME.SUBMIT_ACTIVITY_TASK_DONE,
 		GAME.SUBMIT_AVATAR_TASK_DONE,
 		TaskProxy.WEEK_TASK_RESET,
 		GAME.MERGE_TASK_ONE_STEP_AWARD_DONE,
@@ -179,14 +184,23 @@ slot0.handleNotification = function(slot0, slot1)
 	else
 		if slot2 == GAME.SUBMIT_TASK_DONE then
 			slot4 = slot1:getType()
-			slot5 = getProxy(TaskProxy)
+			slot5 = slot3
+			slot6 = getProxy(TaskProxy)
 			slot0.viewComponent.onShowAwards = true
-			slot6 = slot0.viewComponent
 
-			slot6:emit(BaseUI.ON_ACHIEVE, slot3, function ()
+			if slot0.activityAwards and #slot0.activityAwards > 0 then
+				for slot10, slot11 in ipairs(slot0.activityAwards) do
+					table.insert(slot5, slot11)
+				end
+
+				slot0.activityAwards = {}
+			end
+
+			slot0:addAwardShow(slot5, function ()
 				uv0.viewComponent.onShowAwards = nil
 
 				uv0:accepetActivityTask()
+				uv0.viewComponent:refreshPage()
 				uv0.viewComponent:updateOneStepBtn()
 
 				slot0 = {}
@@ -243,17 +257,23 @@ slot0.handleNotification = function(slot0, slot1)
 			else
 				slot4()
 			end
-		elseif slot2 == GAME.SUBMIT_AVATAR_TASK_DONE then
+		elseif slot2 == GAME.SUBMIT_AVATAR_TASK_DONE or slot2 == GAME.SUBMIT_ACTIVITY_TASK_DONE then
 			slot4 = function()
 				uv0.viewComponent:refreshPage()
-
-				if uv1.callback then
-					uv1.callback()
-				end
 			end
 
 			if #slot3.awards > 0 then
-				slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, slot4)
+				if slot0.storeActivityAwardFlag then
+					if not slot0.activityAwards then
+						slot0.activityAwards = {}
+					end
+
+					for slot8, slot9 in ipairs(slot3.awards) do
+						table.insert(slot0.activityAwards, slot9)
+					end
+				else
+					slot0:addAwardShow(slot3.awards, slot4)
+				end
 			else
 				slot4()
 			end
@@ -267,6 +287,48 @@ slot0.handleNotification = function(slot0, slot1)
 		elseif slot2 == AvatarFrameProxy.FRAME_TASK_TIME_OUT then
 			slot0.viewComponent:refreshPage()
 		end
+	end
+end
+
+slot0.addAwardShow = function(slot0, slot1, slot2)
+	if not slot1 or #slot1 == 0 then
+		return
+	end
+
+	if not slot0.awardsShowList then
+		slot0.awardsShowList = {}
+	end
+
+	table.insert(slot0.awardsShowList, {
+		awards = slot1,
+		callback = slot2
+	})
+
+	if slot0.isShowAwardFlag then
+		return
+	else
+		slot0:showAwardList()
+	end
+end
+
+slot0.showAwardList = function(slot0)
+	if slot0.isShowAwardFlag then
+		return
+	end
+
+	if slot0.awardsShowList and #slot0.awardsShowList > 0 then
+		slot0.isShowAwardFlag = true
+		slot2 = slot0.viewComponent
+
+		slot2:emit(BaseUI.ON_ACHIEVE, table.remove(slot0.awardsShowList, 1).awards, function ()
+			if uv0.callback then
+				uv0.callback()
+			end
+
+			uv1.isShowAwardFlag = false
+
+			uv1:showAwardList()
+		end)
 	end
 end
 

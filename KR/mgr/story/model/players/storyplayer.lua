@@ -639,6 +639,7 @@ slot0.InitBranches = function(slot0, slot1, slot2, slot3, slot4)
 				uv0.selectedBranchID = uv2
 
 				uv0:SetBranchCode(uv3, uv4, uv5)
+				pg.NewStoryMgr.GetInstance():TrackingOption(uv4:GetOptionIndex(), uv5)
 
 				if uv6:GetComponent(typeof(Animation)) then
 					uv7.blocksRaycasts = false

@@ -5958,6 +5958,113 @@ pg.base.ship_skin_template_1 = {
 			}
 		}
 	},
+	[101266] = {
+		name = "오늘도 착한 아이의 방과후",
+		id = 101266,
+		desc = "방과 후…… 음, 뭐 할 거야? ……나가서 놀까? (엘드릿지는 의혹 섞인 눈빛을 보내왔다)",
+		illustrator2 = -1,
+		ship_group = 10126,
+		group_index = 6,
+		prefab = "aierdeliqi_8",
+		painting = "aierdeliqi_8",
+		hand_id = 5,
+		bgm = "",
+		shop_type_id = 4,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "509",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71022,
+		voice_actor = 54,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.204,
+					1.038,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.141,
+					1.017,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.63,
+							2.25,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[101268] = {
 		name = "한낮의 포레스트 채플",
 		id = 101268,
@@ -12203,134 +12310,6 @@ pg.base.ship_skin_template_1 = {
 						{
 							-0.61,
 							0.53,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[102040] = {
-		name = "피닉스",
-		id = 102040,
-		desc = "브루클린급 순양함·피닉스 (CL-46)",
-		illustrator2 = -1,
-		ship_group = 10204,
-		group_index = 0,
-		prefab = "feinikesi",
-		painting = "feinikesi",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 64,
-		spine_offset = "",
-		illustrator = 7,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.32,
-					0.833,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.32,
-					0.833,
-					0
-				},
-				{
-					0.068,
-					0.683,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.897,
-					0.902,
-					0
-				},
-				{
-					-0.546,
-					0.902,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.54,
-							0.43,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.06,
-							0.59,
 							0
 						}
 					}

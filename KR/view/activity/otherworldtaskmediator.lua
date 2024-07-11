@@ -9,7 +9,7 @@ slot0.register = function(slot0)
 		slot2 = uv0
 
 		slot2:checkActStory(slot1.activityId, slot1.ids, function ()
-			uv0:sendNotification(GAME.AVATAR_FRAME_AWARD, {
+			uv0:sendNotification(GAME.SUBMIT_ACTIVITY_TASK, {
 				act_id = uv1.activityId,
 				task_ids = uv1.ids
 			})
@@ -21,7 +21,7 @@ slot0.register = function(slot0)
 		slot2:checkActStory(slot1.activityId, {
 			slot1.id
 		}, function ()
-			uv0:sendNotification(GAME.AVATAR_FRAME_AWARD, {
+			uv0:sendNotification(GAME.SUBMIT_ACTIVITY_TASK, {
 				act_id = uv1.activityId,
 				task_ids = {
 					uv1.id
@@ -88,7 +88,7 @@ end
 
 slot0.listNotificationInterests = function(slot0)
 	return {
-		GAME.SUBMIT_AVATAR_TASK_DONE,
+		GAME.SUBMIT_ACTIVITY_TASK_DONE,
 		GAME.ZERO_HOUR_OP_DONE
 	}
 end
@@ -96,7 +96,7 @@ end
 slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
-	if slot1:getName() == GAME.SUBMIT_AVATAR_TASK_DONE then
+	if slot1:getName() == GAME.SUBMIT_ACTIVITY_TASK_DONE then
 		if #slot3.awards > 0 then
 			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 		end

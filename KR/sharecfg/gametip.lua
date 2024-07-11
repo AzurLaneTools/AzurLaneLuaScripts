@@ -25385,5 +25385,45 @@ cs.gametip = {
 		1032023,
 		111,
 		true
+	},
+	main_scene_settings = {
+		1032134,
+		102,
+		true
+	},
+	settings_enable_standby_mode = {
+		1032236,
+		114,
+		true
+	},
+	settings_time_system = {
+		1032350,
+		110,
+		true
+	},
+	settings_flagship_interaction = {
+		1032460,
+		119,
+		true
+	},
+	settings_enter_standby_mode_time = {
+		1032579,
+		122,
+		true
+	},
+	["202406_wenquan_unlock"] = {
+		1032701,
+		168,
+		true
+	},
+	["202406_wenquan_unlock_tip2"] = {
+		1032869,
+		126,
+		true
+	},
+	["202406_main_help"] = {
+		1032995,
+		1472,
+		true
 	}
 }

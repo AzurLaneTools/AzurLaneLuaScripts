@@ -48,6 +48,7 @@ end
 
 slot0.Unload = function(slot0)
 	if slot0.name and slot0.shipModel then
+		slot0.spineAnim:Resume()
 		PoolMgr.GetInstance():ReturnSpineChar(slot0.name, slot0.shipModel)
 
 		slot0.spineAnim = nil

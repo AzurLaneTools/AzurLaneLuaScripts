@@ -78,7 +78,7 @@ slot0.checkAutoSubmit = function(slot0)
 		end
 
 		if #slot7 > 0 then
-			slot0:sendNotification(GAME.AVATAR_FRAME_AWARD, {
+			slot0:sendNotification(GAME.SUBMIT_ACTIVITY_TASK, {
 				act_id = slot5,
 				task_ids = slot7
 			})
@@ -171,6 +171,16 @@ slot0.getActTaskTip = function(slot0, slot1)
 	end
 
 	return slot3 > 0
+end
+
+slot0.getTaskVo = function(slot0, slot1, slot2)
+	for slot7 = 1, #slot0:getTaskById(slot1) do
+		if slot3[slot7].id == slot2 then
+			return Clone(slot3[slot7])
+		end
+	end
+
+	return nil
 end
 
 slot0.createTask = function(slot0, slot1, slot2)

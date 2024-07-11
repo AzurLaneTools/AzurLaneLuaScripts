@@ -12348,7 +12348,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「엠덴」, 「뤼초」 등의 등장 확률 UP!"
+	tip = "「알비트」, 「Z47」 등의 등장 확률 UP!"
 }
 
 
@@ -33735,4 +33735,58 @@ _G.pg.base.gametip.unique_ship_tip2 = {
 
 _G.pg.base.gametip.lock_new_ship = {
 	tip = "신규 등록 함선 자동 잠금"
+}
+
+
+_G.pg.base.gametip.main_scene_settings = {
+	tip = "대기화면 설정"
+}
+
+
+_G.pg.base.gametip.settings_enable_standby_mode = {
+	tip = "대기화면 유효화"
+}
+
+
+_G.pg.base.gametip.settings_time_system = {
+	tip = "대기화면 시간 표시"
+}
+
+
+_G.pg.base.gametip.settings_flagship_interaction = {
+	tip = "대기화면 대사 재생"
+}
+
+
+_G.pg.base.gametip.settings_enter_standby_mode_time = {
+	tip = "대기화면 자동 전환"
+}
+
+
+_G.pg.base.gametip["202406_wenquan_unlock"] = {
+	tip = "작은 별 증축 티켓을 $1개 사용하여 시설을 증축하시겠습니까?"
+}
+
+
+_G.pg.base.gametip["202406_wenquan_unlock_tip2"] = {
+	tip = "필요한 자원이 부족합니다."
+}
+
+
+_G.pg.base.gametip["202406_main_help"] = {
+	tip = {
+		{
+			info = [[
+플레이 방법:
+ <color=#92fc63>7.11 ~ 7.25 점검</color>까지 기간 한정 이벤트 「웰컴 투 동심 학원」가 진행됩니다! 
+ 한정 임무를 완수하고, 함대를 편성해 한정 스테이지를 클리어하여 「컬러풀 낙서」를 모으면, 보상을 획득할 수 있습니다! 
+
+  ① 화면 좌측 하단의 버튼을 이용하면 「스토리」와 「특별 전투」 화면을 전환할 수 있습니다. 
+ ② 「특별 전투」에서는 함대를 편성하여 SP 스테이지 도전할 수 있으며, 수집 Pt 아이템인 「컬러풀 낙서」를 획득할 수 있습니다.
+ 　「컬러풀 낙서」는 총 획득 수 보상으로 SR 함선 <color=#92fc63>「U-31」</color>, <color=#92fc63>「533mm 4연장 자기 어뢰改」</color> 등을 획득할 수 있습니다.
+ ③ 「한정 임무」에서는 이벤트 진행 기간에 등장하는 이벤트 임무를 확인하거나, 보상을 수령할 수 있습니다. 
+ ④ 「스토리」에서는 특별 스토리를 감상할 수 있습니다. 스토리를 전부 감상하면, 기념 장비 스킨을 획득할 수 있습니다.
+ ⑤ 「놀이터」에 함선을 배치하면, 배치된 함선의 컨디션 회복 속도가 상승합니다. 이벤트에서 획득 가능한 「작은 별 증축 티켓」을 사용하면, 배치 슬롯을 확장할 수 있습니다.]]
+		}
+	}
 }
