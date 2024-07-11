@@ -37,4 +37,8 @@ slot0.getData = function(slot0)
 	return Clone(slot0.data)
 end
 
+slot0.timeCall = function(slot0)
+	return {}
+end
+
 return slot0

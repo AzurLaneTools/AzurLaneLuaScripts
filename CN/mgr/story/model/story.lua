@@ -5,6 +5,7 @@ slot0.MODE_BG = 3
 slot0.MODE_CAROUSE = 4
 slot0.MODE_VEDIO = 5
 slot0.MODE_CAST = 6
+slot0.MODE_SPANIM = 7
 slot0.STORY_AUTO_SPEED = {
 	-9,
 	0,
@@ -25,7 +26,8 @@ slot0.GetStoryStepCls = function(slot0)
 		BgStep,
 		CarouselStep,
 		VedioStep,
-		CastStep
+		CastStep,
+		SpAnimStep
 	})[slot0]
 end
 

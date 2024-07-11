@@ -57,7 +57,7 @@ return {
 			factiontag = "通讯模式",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "保持镇定。在保证自身安全的前提下，先检查周围的是否有引发异常现象的设施——",
+			say = "保持镇定。在保证自身安全的前提下，先检查周围是否有引发异常现象的设施——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

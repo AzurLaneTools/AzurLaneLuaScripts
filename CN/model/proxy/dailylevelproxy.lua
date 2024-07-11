@@ -42,6 +42,15 @@ slot0.register = function(slot0)
 	end)
 end
 
+slot0.timeCall = function(slot0)
+	return {
+		[ProxyRegister.DayCall] = function (slot0)
+			uv0:resetDailyCount()
+			uv0:clearChaptersDefeatCount()
+		end
+	}
+end
+
 slot0.AddQuickStage = function(slot0, slot1)
 	slot0.quickStages[slot1] = true
 end

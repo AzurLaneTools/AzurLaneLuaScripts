@@ -27,20 +27,45 @@ slot0.register = function(slot0)
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inEvent")
 		uv0.facade:sendNotification(GAME.EVENT_LIST_UPDATE)
 	end)
+end
 
-	slot0.timer = Timer.New(function ()
-		uv0:updateTime()
-	end, 1, -1)
+slot0.timeCall = function(slot0)
+	return {
+		[ProxyRegister.DayCall] = function (slot0)
+			if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLLECTION_EVENT) or slot1:isEnd() then
+				return
+			end
 
-	slot0.timer:Start()
+			slot2, slot3 = uv0:GetEventByActivityId(slot1.id)
+
+			if not slot2 or slot2 and not slot2:IsStarting() then
+				if slot2 and slot3 then
+					table.remove(uv0.eventList, slot3)
+				end
+
+				slot4 = slot1:getConfig("config_data")
+
+				if slot1:getDayIndex() > 0 and slot5 <= #slot4 then
+					uv0:AddActivityEvent(EventInfo.New({
+						finish_time = 0,
+						over_time = 0,
+						id = slot4[slot5],
+						ship_id_list = {},
+						activity_id = slot1.id
+					}))
+				end
+
+				pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inEvent")
+				uv0:sendNotification(GAME.EVENT_LIST_UPDATE)
+			end
+		end,
+		[ProxyRegister.SecondCall] = function (slot0)
+			uv0:updateTime()
+		end
+	}
 end
 
 slot0.remove = function(slot0)
-	if slot0.timer then
-		slot0.timer:Stop()
-
-		slot0.timer = nil
-	end
 end
 
 slot0.updateInfo = function(slot0, slot1)

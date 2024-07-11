@@ -13,12 +13,15 @@ slot0.didEnter = function(slot0)
 	slot0:addListener()
 	slot0:updateTecItemList()
 	slot0:updateOneStepBtn()
+	slot0.nationProxy:setRedPointIgnoreTecCampUpgrade()
 end
 
 slot0.willExit = function(slot0)
 	for slot4, slot5 in pairs(slot0.timerList) do
 		slot5:Stop()
 	end
+
+	slot0.nationProxy:refreshRedPoint()
 end
 
 slot0.initData = function(slot0)

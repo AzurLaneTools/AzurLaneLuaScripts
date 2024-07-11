@@ -5,6 +5,15 @@ slot0.register = function(slot0)
 	slot0:addListener()
 end
 
+slot0.timeCall = function(slot0)
+	return {
+		[ProxyRegister.DayCall] = function (slot0)
+			uv0:setAutoActionForbidden(false)
+			uv0:sendNotification(GAME.REFLUX_REQUEST_DATA)
+		end
+	}
+end
+
 slot0.initData = function(slot0)
 	slot0.active = false
 	slot0.returnLV = 0

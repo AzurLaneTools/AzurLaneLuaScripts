@@ -376,7 +376,7 @@ slot8 = {
 }
 
 slot0.FlushDate = function(slot0)
-	slot2 = string.split(pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d", true), "/")
+	slot2 = string.split(os.date("%Y/%m/%d"), "/")
 	slot0.dateTxt.text = table.concat({
 		uv0[pg.TimeMgr.GetInstance():GetServerWeek()],
 		uv1[tonumber(slot2[2])],

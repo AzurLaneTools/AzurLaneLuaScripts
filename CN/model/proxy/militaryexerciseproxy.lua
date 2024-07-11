@@ -26,6 +26,30 @@ slot0.register = function(slot0)
 		slot4:updateScoreAndRank(slot2.score, slot2.rank)
 		slot3:updatePlayer(slot4)
 	end)
+
+	slot0.waiting = true
+end
+
+slot0.timeCall = function(slot0)
+	return {
+		[ProxyRegister.DayCall] = function (slot0)
+			if uv0:getSeasonInfo() then
+				slot1:resetFlashCount()
+				uv0:updateSeasonInfo(slot1)
+			end
+		end,
+		[ProxyRegister.SecondCall] = function (slot0)
+			if uv0.waiting then
+				return
+			end
+
+			if uv0.seasonInfo.resetTime <= pg.TimeMgr.GetInstance():GetServerTime() then
+				uv0.waiting = true
+
+				uv0:sendNotification(GAME.EXERCISE_COUNT_RECOVER_UP)
+			end
+		end
+	}
 end
 
 slot0.addSeasonInfo = function(slot0, slot1)
@@ -35,71 +59,18 @@ slot0.addSeasonInfo = function(slot0, slot1)
 
 	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inExercise")
 	slot0:sendNotification(uv0.SEASON_INFO_ADDED, slot1:clone())
-	slot0:addRefreshCountTimer()
+
+	slot0.waiting = false
 end
 
-slot0.addRefreshCountTimer = function(slot0)
-	slot0:removeRefreshTimer()
+slot0.setSeasonOver = function(slot0)
+	slot1 = slot0:getSeasonInfo()
 
-	slot1 = function()
-		uv0:sendNotification(GAME.EXERCISE_COUNT_RECOVER_UP)
-	end
-
-	if slot0.seasonInfo.resetTime - pg.TimeMgr.GetInstance():GetServerTime() > 0 then
-		slot0.refreshCountTimer = Timer.New(function ()
-			uv0()
-		end, slot2, 1)
-
-		slot0.refreshCountTimer:Start()
-	else
-		slot1()
-	end
-end
-
-slot0.addSeasonOverTimer = function(slot0)
-	slot0:removeSeasonOverTimer()
-
-	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_MILITARY_EXERCISE) and not slot2:isEnd() then
-		slot3 = function()
-			uv0:removeSeasonOverTimer()
-
-			slot0 = uv0:getSeasonInfo()
-
-			slot0:setExerciseCount(0)
-			uv0:updateSeasonInfo(slot0)
-		end
-
-		if slot2.stopTime - pg.TimeMgr.GetInstance():GetServerTime() > 0 then
-			slot0.SeasonOverTimer = Timer.New(function ()
-				uv0()
-			end, slot5, 1)
-
-			slot0.SeasonOverTimer:Start()
-		else
-			slot3()
-		end
-	end
-end
-
-slot0.removeRefreshTimer = function(slot0)
-	if slot0.refreshCountTimer then
-		slot0.refreshCountTimer:Stop()
-
-		slot0.refreshCountTimer = nil
-	end
-end
-
-slot0.removeSeasonOverTimer = function(slot0)
-	if slot0.SeasonOverTimer then
-		slot0.SeasonOverTimer:Stop()
-
-		slot0.SeasonOverTimer = nil
-	end
+	slot1:setExerciseCount(0)
+	slot0:updateSeasonInfo(slot1)
 end
 
 slot0.remove = function(slot0)
-	slot0:removeRefreshTimer()
-	slot0:removeSeasonOverTimer()
 end
 
 slot0.updateSeasonInfo = function(slot0, slot1)

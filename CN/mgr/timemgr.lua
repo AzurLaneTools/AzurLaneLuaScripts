@@ -332,6 +332,22 @@ slot1.CalcMonthDays = function(slot0, slot1, slot2)
 	return slot3
 end
 
+slot1.inPeriod = function(slot0, slot1, slot2)
+	if slot1 and type(slot1) == "string" then
+		return slot1 == "always"
+	end
+
+	if not slot1 or not slot2 then
+		return true
+	end
+
+	slot3 = function(slot0)
+		return slot0[1] * uv0 + slot0[2] * 60 + slot0[3]
+	end
+
+	return slot3(slot1) <= (slot0:GetServerTime() - slot0._sAnchorTime) % uv1 and slot4 <= slot3(slot2)
+end
+
 slot1.inTime = function(slot0, slot1, slot2)
 	if not slot1 then
 		return true

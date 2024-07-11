@@ -7,6 +7,29 @@ slot0.register = function(slot0)
 	slot0.miniGameDataDic = {}
 end
 
+slot0.timeCall = function(slot0)
+	return {
+		[ProxyRegister.DayCall] = function (slot0)
+			uv0:sendNotification(GAME.REQUEST_MINI_GAME, {
+				type = MiniGameRequestCommand.REQUEST_HUB_DATA
+			})
+
+			if uv0:GetMiniGameDataByType(MiniGameConst.MG_TYPE_5) then
+				slot2 = slot1.id
+
+				uv0:sendNotification(GAME.SEND_MINI_GAME_OP, {
+					hubid = uv0:GetHubByGameId(slot2).id,
+					cmd = MiniGameOPCommand.CMD_SPECIAL_GAME,
+					args1 = {
+						slot2,
+						1
+					}
+				})
+			end
+		end
+	}
+end
+
 slot0.CheckHasHub = function(slot0, slot1)
 	return slot0.miniGameHubDataDic[slot1] ~= nil
 end

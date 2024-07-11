@@ -447,7 +447,7 @@ return {
 			actor = 405020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我和姐姐在收到通讯后就第一时间就赶到了这里，可是无法打开大门……",
+			say = "指挥官，我和姐姐在收到通讯后就第一时间赶到了这里，可是无法打开大门……",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -136,7 +136,7 @@ slot0.getBGM = function(slot0)
 	end
 
 	slot2 = slot1.bgm
-	slot3 = slot1.special_bgm
+	slot3 = "battle-deepecho"
 
 	if slot0.contextData.displayMode == uv0.DISPLAY.BATTLE then
 		return slot2

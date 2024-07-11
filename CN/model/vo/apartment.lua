@@ -317,11 +317,11 @@ slot0.getTouchConfig = function(slot0, slot1)
 		end
 	end
 
-	slot5 = {
-		[0] = envFunc(function ()
-			up, donw, left, right, zoom_in, zoom_out = unpack(uv0.camera_trigger[uv1])
-		end, {})
-	}
+	envFunc(({
+		[0] = {}
+	})[0], function ()
+		up, donw, left, right, zoom_in, zoom_out = unpack(uv0.camera_trigger[uv1])
+	end)
 
 	for slot9, slot10 in ipairs(slot3) do
 		slot11 = pg.dorm3d_touch_trigger[slot10]

@@ -245,7 +245,8 @@ slot0._Init = function(slot0, slot1, slot2)
 		BgStoryPlayer.New(slot1),
 		CarouselPlayer.New(slot1),
 		VedioStoryPlayer.New(slot1),
-		CastStoryPlayer.New(slot1)
+		CastStoryPlayer.New(slot1),
+		SpAnimStoryPlayer.New(slot1)
 	}
 	slot0.setSpeedPanel = StorySetSpeedPanel.New(slot0._tf)
 	slot0.recordPanel = NewStoryRecordPanel.New()

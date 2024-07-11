@@ -276,7 +276,7 @@ return {
 			actor = 207037,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "里面写着“安抚情绪用的歌曲”也是非常照顾过程中非常重要的一环。",
+			say = "里面写着“安抚情绪用的歌曲”也是照顾过程中非常重要的一环。",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -29,7 +29,9 @@ slot0.didEnter = function(slot0)
 	slot0.animEvent:SetEndEvent(function ()
 		uv0:closeView()
 	end)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+		weight = LayerWeightConst.SECOND_LAYER
+	})
 end
 
 slot0.Show = function(slot0)

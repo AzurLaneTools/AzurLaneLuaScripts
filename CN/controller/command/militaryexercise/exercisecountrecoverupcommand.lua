@@ -15,7 +15,8 @@ slot0.execute = function(slot0, slot1)
 	end)() + pg.TimeMgr.GetInstance():GetServerTime())
 	slot4:updateExerciseCount(SeasonInfo.RECOVER_UP_COUNT)
 	slot3:updateSeasonInfo(slot4)
-	slot3:addRefreshCountTimer()
+
+	slot3.waiting = false
 end
 
 return slot0

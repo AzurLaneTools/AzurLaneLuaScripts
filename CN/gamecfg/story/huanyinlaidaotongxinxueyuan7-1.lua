@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
-			say = "可是依然有三五只石膏喵依然在坚定地高举着出题板。",
+			say = "可是依然有三五只石膏喵在坚定地高举着出题板。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -270,7 +270,7 @@ return {
 			factiontag = "通讯模式",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "虽然我人不在现场，但是还是可以通过这种方式可以陪着你呀？",
+			say = "虽然我人不在现场，但是还是可以通过这种方式陪着你呀？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

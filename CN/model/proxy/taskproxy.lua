@@ -37,9 +37,7 @@ slot0.register = function(slot0)
 		end
 	end)
 	slot0:on(20015, function (slot0)
-		slot1 = slot0.time
-
-		uv0:sendNotification(GAME.ZERO_HOUR)
+		pg.proxyRegister.dayProto = true
 	end)
 
 	slot0.taskTriggers = {}
@@ -85,6 +83,15 @@ slot0.register = function(slot0)
 	end)
 
 	slot0.submittingTask = {}
+end
+
+slot0.timeCall = function(slot0)
+	return {
+		[ProxyRegister.DayCall] = function (slot0)
+			uv0:sendNotification(GAME.ACCEPT_ACTIVITY_TASK)
+			uv0:sendNotification(GAME.ZERO_HOUR_OP_DONE)
+		end
+	}
 end
 
 slot0.initTaskInfo = function(slot0, slot1, slot2)

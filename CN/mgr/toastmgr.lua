@@ -428,7 +428,7 @@ slot0.UpdateCrusing = function(slot0, slot1, slot2, slot3)
 
 	slot7 = tf(slot0:GetAndSet(slot1.type, slot0.container))
 	slot8 = Drop.New({
-		type = DROP_TYPE_RESOURCE,
+		type = DROP_TYPE_VITEM,
 		id = slot4.ptId
 	})
 

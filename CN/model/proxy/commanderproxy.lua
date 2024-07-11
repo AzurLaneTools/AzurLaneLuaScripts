@@ -82,6 +82,19 @@ slot0.register = function(slot0)
 	end)
 end
 
+slot0.timeCall = function(slot0)
+	return {
+		[ProxyRegister.DayCall] = function (slot0)
+			uv0:resetBoxUseCnt()
+
+			if uv0:GetCommanderHome() then
+				slot1:ResetCatteryOP()
+				slot1:ReduceClean()
+			end
+		end
+	}
+end
+
 slot0.GetNewestCommander = function(slot0, slot1, slot2)
 	slot3 = defaultValue(slot2, true)
 

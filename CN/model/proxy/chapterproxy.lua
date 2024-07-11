@@ -81,6 +81,25 @@ slot0.register = function(slot0)
 	slot0:buildRemasterInfo()
 end
 
+slot0.timeCall = function(slot0)
+	return {
+		[ProxyRegister.DayCall] = function (slot0)
+			uv0:resetRepairTimes()
+			uv0:resetEscortChallengeTimes()
+
+			for slot5, slot6 in pairs(uv0:getData()) do
+				if slot6.todayDefeatCount > 0 then
+					slot6.todayDefeatCount = 0
+
+					uv0:updateChapter(slot6)
+				end
+			end
+
+			uv0:resetDailyCount()
+		end
+	}
+end
+
 slot0.OnBattleFinished = function(slot0, slot1, slot2)
 	if slot0:getActiveChapter() then
 		slot4 = 0

@@ -105,7 +105,9 @@ slot0.StopAnimation = function(slot0)
 end
 
 slot0.AdjustChatPosition = function(slot0, slot1, slot2)
-	if CHAT_POP_STR_LEN < #slot0.chatTxt.text then
+	slot3 = slot0.chatTxt
+
+	if CHAT_POP_STR_LEN < #slot2 then
 		slot3.alignment = TextAnchor.MiddleLeft
 	else
 		slot3.alignment = TextAnchor.MiddleCenter
