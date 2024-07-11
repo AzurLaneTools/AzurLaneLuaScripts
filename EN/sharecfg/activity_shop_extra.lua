@@ -3512,7 +3512,7 @@ pg.activity_shop_extra = {
 				{
 					2024,
 					7,
-					25
+					24
 				},
 				{
 					23,
