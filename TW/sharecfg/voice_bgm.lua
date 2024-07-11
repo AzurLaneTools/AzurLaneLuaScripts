@@ -163,10 +163,10 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "story-startravel",
+		default_bgm = "theme-highseasfleet",
 		special_bgm = "",
 		time = "",
-		bgm = "story-startravel"
+		bgm = "Story-startravel"
 	},
 	SkinShopScene = {
 		default_bgm = "main",

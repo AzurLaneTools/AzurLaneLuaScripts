@@ -156,7 +156,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "沙恩霍斯特·META",
 		boss_level_id = 76,
-		state = "stop",
+		state = "always",
 		item_id = 100000,
 		painting = "shaenhuosite",
 		meta_id = 970402,

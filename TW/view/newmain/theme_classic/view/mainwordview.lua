@@ -41,6 +41,14 @@ slot0.Register = function(slot0)
 			uv0.stopChatFlag = false
 		end
 	end)
+	slot0:bind(NewMainScene.ENTER_SILENT_VIEW, function ()
+		uv0:StopAnimation()
+
+		uv0.stopChatFlag = true
+	end)
+	slot0:bind(NewMainScene.EXIT_SILENT_VIEW, function ()
+		uv0.stopChatFlag = false
+	end)
 end
 
 slot0.Fold = function(slot0, slot1, slot2)

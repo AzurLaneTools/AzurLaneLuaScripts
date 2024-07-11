@@ -161,16 +161,18 @@ end
 
 slot0.ExitRushBossSystem = function(slot0, slot1, slot2)
 	slot3 = slot1.system
+	slot4 = slot1.actId
 
 	slot0:addSubLayers(Context.New({
 		mediator = slot3 == SYSTEM_BOSS_RUSH and BossRushBattleResultMediator or BossRushBattleResultMediator,
-		viewComponent = slot3 == SYSTEM_BOSS_RUSH and BossRushBattleResultLayer or BossRushEXBattleResultLayer,
+		viewComponent = slot3 == SYSTEM_BOSS_RUSH and BossRushBattleResultLayer or BossRushConst.GetEXBattleResultLayer(slot4),
 		data = {
 			awards = slot2.awards,
 			system = slot3,
-			actId = slot1.actId,
+			actId = slot4,
 			seriesData = slot2.seriesData,
-			win = ys.Battle.BattleConst.BattleScore.C < slot1.score
+			win = ys.Battle.BattleConst.BattleScore.C < slot1.score,
+			isAutoFight = slot0.contextData.isAutoFight
 		}
 	}), true)
 	LoadContextCommand.RemoveLayerByMediator(NewBattleResultMediator)
@@ -364,10 +366,10 @@ slot0.ContinuousBossRush = function(slot0, slot1, slot2, slot3, slot4, slot5, sl
 		function (slot0)
 			uv0:addSubLayers(Context.New({
 				mediator = ChallengePassedMediator,
-				viewComponent = BossRushPassedLayer,
+				viewComponent = BossRushConst.GetPassedLayer(uv1),
 				data = {
-					curIndex = uv1 - 1,
-					maxIndex = #uv2
+					curIndex = uv2 - 1,
+					maxIndex = #uv3
 				},
 				onRemoved = slot0
 			}))
@@ -396,7 +398,10 @@ slot0.CheckBossRushSystem = function(slot0, slot1)
 		uv0()
 	end
 
-	if not (not slot3 or slot7 > #slot8 or not (not slot2:getCurrentContext():getContextByMediator(ContinuousOperationMediator) or slot9.data.autoFlag)) then
+	slot10 = not slot2:getCurrentContext():getContextByMediator(ContinuousOperationMediator) or slot9.data.autoFlag
+	slot0.contextData.isAutoFight = slot10
+
+	if not (not slot3 or slot7 > #slot8 or not slot10) then
 		slot0:ContinuousBossRush(slot1.system, slot4, slot7, slot8, slot1.continuousBattleTimes, slot1.totalBattleTimes)
 	end
 

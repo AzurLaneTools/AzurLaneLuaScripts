@@ -156,10 +156,6 @@ slot0.isDaily = function(slot0)
 	return slot0.subType == 415 or slot0.subType == 412
 end
 
-slot0.IsOverflowShipExpItem = function(slot0)
-	return false
-end
-
 slot0.ShowOnTaskScene = function(slot0)
 	return false
 end

@@ -425,15 +425,18 @@ slot0.ExecuteScript = function(slot0, slot1)
 
 		slot0 = {}
 		uv0.currPlayer = nil
+		uv0.progress = 0
 
 		for slot4, slot5 in ipairs(uv0.storyScript.steps) do
 			table.insert(slot0, function (slot0)
+				uv0.progress = uv1
+
 				uv0:SendNotification(GAME.STORY_NEXT)
 
-				slot1 = uv0.players[uv1:GetMode()]
+				slot1 = uv0.players[uv2:GetMode()]
 				uv0.currPlayer = slot1
 
-				slot1:Play(uv0.storyScript, uv2, slot0)
+				slot1:Play(uv0.storyScript, uv1, slot0)
 			end)
 		end
 
@@ -659,6 +662,36 @@ slot0.OnStart = function(slot0)
 	slot0:RegistRecordBtn()
 end
 
+slot0.TrackingStart = function(slot0)
+	slot0.trackFlag = false
+
+	if not slot0.storyScript then
+		return
+	end
+
+	if not slot0:GetPlayedFlag(slot0:StoryName2StoryId(slot0.storyScript:GetName())) then
+		TrackConst.StoryStart(slot1)
+
+		slot0.trackFlag = true
+	end
+end
+
+slot0.TrackingSkip = function(slot0)
+	if not slot0.trackFlag or not slot0.storyScript then
+		return
+	end
+
+	TrackConst.StorySkip(slot0:StoryName2StoryId(slot0.storyScript:GetName()), slot0.progress or 0)
+end
+
+slot0.TrackingOption = function(slot0, slot1, slot2)
+	if not slot0.storyScript or not slot1 or not slot2 then
+		return
+	end
+
+	TrackConst.StoryOption(slot0:StoryName2StoryId(slot0.storyScript:GetName()), slot1 .. "_" .. slot2 or 0)
+end
+
 slot0.ClearStoryEvent = function(slot0)
 	if slot0.storyEventTriggerListener then
 		slot0.storyEventTriggerListener:Clear()
@@ -727,6 +760,8 @@ slot0.ClearStoryEventTriggerListener = function(slot0)
 end
 
 slot0.Clear = function(slot0)
+	slot0.progress = 0
+
 	slot0:ClearStoryEventTriggerListener()
 	slot0.recorder:Clear()
 	slot0.recordPanel:Hide()

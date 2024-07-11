@@ -464,37 +464,11 @@ pg.login = {
 	},
 	[40] = {
 		op_play = 1,
+		date = "stop",
 		id = 40,
 		login_static = "login",
 		login_cri = "",
 		bgm = "theme-SeaAndSun-image",
-		date = {
-			"timer",
-			{
-				{
-					2024,
-					6,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					7,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		op_time = {
 			{
 				{

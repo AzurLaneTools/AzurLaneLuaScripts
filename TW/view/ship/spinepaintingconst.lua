@@ -31,8 +31,7 @@ slot0.ship_drag_datas = {
 			lock_layer = true,
 			type = 1,
 			list = {
-				"dianji",
-				"normal"
+				"touch"
 			}
 		}
 	}

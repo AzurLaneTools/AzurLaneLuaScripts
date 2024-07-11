@@ -55800,6 +55800,11 @@ _G.pg.base.item_virtual_data_statistics[57607] = {
 	display_icon = {
 		{
 			4,
+			205051,
+			1
+		},
+		{
+			4,
 			404011,
 			1
 		},
@@ -57196,6 +57201,11 @@ _G.pg.base.item_virtual_data_statistics[57625] = {
 	virtual_type = 0,
 	id = 57625,
 	display_icon = {
+		{
+			4,
+			205051,
+			1
+		},
 		{
 			4,
 			404011,
@@ -161301,7 +161311,7 @@ _G.pg.base.item_virtual_data_statistics[59518] = {
 _G.pg.base.item_virtual_data_statistics[59519] = {
 	drop_gold_max = 0,
 	name = "破碎的金屬板",
-	display = "用于「逆转彩虹之塔」复刻活动兑换，活动结束后将会消失",
+	display = "用於「逆轉彩虹之塔」復刻活動兌換，活動結束後將會消失",
 	type = 98,
 	is_world = 0,
 	shop_id = -1,
@@ -161351,7 +161361,7 @@ _G.pg.base.item_virtual_data_statistics[59520] = {
 _G.pg.base.item_virtual_data_statistics[59521] = {
 	drop_gold_max = 0,
 	name = "單次建造券",
-	display = "于「逆转彩虹之塔」活动限时复刻中获取，可以免费进行一次期间限定建造（活动结束后消失）",
+	display = "於「逆轉彩虹之塔」活動限時復刻中獲取，可以免費進行一次期間限定建造（活動結束後消失）",
 	type = 0,
 	is_world = 0,
 	shop_id = -1,

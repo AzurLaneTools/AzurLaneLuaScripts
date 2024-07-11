@@ -211,30 +211,48 @@ slot0.ExecuteOneStepSubmit = function(slot0)
 		uv0 = uv2:filterSubmitTaskVOList(uv0, uv4)
 		uv0 = uv2:filterChoiceTaskVOList(uv0, uv4)
 		slot0 = {}
+		slot1 = {}
 
-		for slot4 = #uv0, 1, -1 do
-			if uv0[slot4]:isAvatarTask() then
-				if not slot0[slot5.actId] then
-					slot0[slot5.actId] = {}
+		for slot5 = #uv0, 1, -1 do
+			if uv0[slot5]:isAvatarTask() then
+				if not slot0[slot6:getActId()] then
+					slot0[slot6:getActId()] = {}
 				end
 
-				table.insert(slot0[slot5.actId], slot5.id)
-				table.remove(uv0, slot4)
+				table.insert(slot0[slot6:getActId()], slot6.id)
+				table.remove(uv0, slot5)
+			elseif slot6:isActivityTask() then
+				if not slot1[slot6:getActId()] then
+					slot1[slot6:getActId()] = {}
+				end
+
+				table.insert(slot1[slot6:getActId()], slot6.id)
+				table.remove(uv0, slot5)
 			end
 		end
 
-		for slot4, slot5 in pairs(slot0) do
-			if #slot5 > 0 then
-				pg.m02:sendNotification(GAME.AVATAR_FRAME_AWARD, {
-					act_id = slot4,
-					task_ids = slot5,
-					callback = function ()
-						uv0()
-					end
-				})
-				coroutine.yield()
+		slot2 = function(slot0)
+			for slot4, slot5 in pairs(slot0) do
+				if #slot5 > 0 then
+					pg.m02:sendNotification(GAME.SUBMIT_ACTIVITY_TASK, {
+						act_id = slot4,
+						task_ids = slot5,
+						callback = function (slot0, slot1, slot2)
+							uv0()
+						end
+					})
+					coroutine.yield()
+				end
 			end
 		end
+
+		if #uv0 > 0 then
+			uv2:emit(TaskMediator.STORE_ACTIVITY_AWARDS, true)
+		end
+
+		slot2(slot0)
+		slot2(slot1)
+		uv2:emit(TaskMediator.STORE_ACTIVITY_AWARDS, false)
 
 		if #uv0 > 0 then
 			pg.m02:sendNotification(GAME.MERGE_TASK_ONE_STEP_AWARD, {

@@ -1070,5 +1070,14 @@ pg.activity_const = {
 	},
 	UR_EXCHANGE_MOGADOR_ID = {
 		act_id = 5351
+	},
+	ALVIT_PT_ACT_ID = {
+		act_id = 5404
+	},
+	ALVIT_TASK_ACT_ID = {
+		act_id = 5406
+	},
+	ALVIT_BOSS_RUSH_ID = {
+		act_id = 5402
 	}
 }

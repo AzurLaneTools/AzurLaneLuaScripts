@@ -30828,6 +30828,219 @@ _G.pg.base.item_data_statistics[30540] = {
 }
 
 
+_G.pg.base.item_data_statistics[30541] = {
+	open_directly = 0,
+	name = "定向外觀裝備箱(女僕咖啡)",
+	type = 13,
+	display = "使用後可從「女僕咖啡」主題外觀裝備中任意選擇一種獲得1個",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxnvpuzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30541,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			500,
+			1
+		},
+		{
+			9,
+			501,
+			1
+		},
+		{
+			9,
+			502,
+			1
+		},
+		{
+			9,
+			503,
+			1
+		},
+		{
+			9,
+			504,
+			1
+		},
+		{
+			9,
+			505,
+			1
+		},
+		{
+			9,
+			506,
+			1
+		},
+		{
+			9,
+			507,
+			1
+		},
+		{
+			9,
+			508,
+			1
+		},
+		{
+			9,
+			509,
+			1
+		},
+		{
+			9,
+			510,
+			1
+		},
+		{
+			9,
+			511,
+			1
+		},
+		{
+			9,
+			512,
+			1
+		},
+		{
+			9,
+			513,
+			1
+		},
+		{
+			9,
+			514,
+			1
+		},
+		{
+			9,
+			515,
+			1
+		},
+		{
+			9,
+			516,
+			1
+		},
+		{
+			9,
+			517,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			500,
+			1
+		},
+		{
+			9,
+			501,
+			1
+		},
+		{
+			9,
+			502,
+			1
+		},
+		{
+			9,
+			503,
+			1
+		},
+		{
+			9,
+			504,
+			1
+		},
+		{
+			9,
+			505,
+			1
+		},
+		{
+			9,
+			506,
+			1
+		},
+		{
+			9,
+			507,
+			1
+		},
+		{
+			9,
+			508,
+			1
+		},
+		{
+			9,
+			509,
+			1
+		},
+		{
+			9,
+			510,
+			1
+		},
+		{
+			9,
+			511,
+			1
+		},
+		{
+			9,
+			512,
+			1
+		},
+		{
+			9,
+			513,
+			1
+		},
+		{
+			9,
+			514,
+			1
+		},
+		{
+			9,
+			515,
+			1
+		},
+		{
+			9,
+			516,
+			1
+		},
+		{
+			9,
+			517,
+			1
+		}
+	}
+}
+
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "定向部件T4",

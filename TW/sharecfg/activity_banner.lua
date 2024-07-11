@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "5051",
+		param = "5167",
 		type = 3,
 		id = 1,
 		pic = "temp1",
@@ -9,8 +9,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					6,
-					27
+					7,
+					11
 				},
 				{
 					0,
@@ -22,7 +22,7 @@ pg.activity_banner = {
 				{
 					2024,
 					7,
-					11
+					18
 				},
 				{
 					23,
@@ -47,8 +47,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					6,
-					27
+					7,
+					11
 				},
 				{
 					0,
@@ -60,7 +60,7 @@ pg.activity_banner = {
 				{
 					2024,
 					7,
-					11
+					18
 				},
 				{
 					23,
@@ -71,38 +71,13 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 3,
 		pic = "temp13",
 		param = {
 			"scene skinshop",
 			{}
-		},
-		time = {
-			{
-				{
-					2024,
-					6,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					7,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
@@ -116,8 +91,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					6,
-					27
+					7,
+					11
 				},
 				{
 					0,
@@ -129,7 +104,7 @@ pg.activity_banner = {
 				{
 					2024,
 					7,
-					10
+					17
 				},
 				{
 					23,
@@ -153,8 +128,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					6,
-					27
+					7,
+					11
 				},
 				{
 					0,
@@ -166,7 +141,7 @@ pg.activity_banner = {
 				{
 					2024,
 					7,
-					10
+					17
 				},
 				{
 					23,
@@ -178,35 +153,10 @@ pg.activity_banner = {
 	},
 	{
 		param = "5053",
+		time = "stop",
 		type = 3,
 		id = 6,
-		pic = "temp11",
-		time = {
-			{
-				{
-					2024,
-					6,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					7,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "temp11"
 	},
 	{
 		type = 2,
@@ -222,8 +172,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					6,
-					27
+					7,
+					11
 				},
 				{
 					0,
@@ -235,7 +185,7 @@ pg.activity_banner = {
 				{
 					2024,
 					7,
-					10
+					17
 				},
 				{
 					23,
@@ -246,6 +196,7 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 8,
 		pic = "temp3",
@@ -254,36 +205,10 @@ pg.activity_banner = {
 			{
 				mapIdx = 15
 			}
-		},
-		time = {
-			{
-				{
-					2024,
-					6,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					7,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
-		param = "5023",
+		param = "5162",
 		type = 3,
 		id = 9,
 		pic = "temp8",
@@ -291,8 +216,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					6,
-					20
+					7,
+					11
 				},
 				{
 					0,
@@ -304,7 +229,7 @@ pg.activity_banner = {
 				{
 					2024,
 					7,
-					11
+					18
 				},
 				{
 					23,
@@ -394,8 +319,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					6,
-					27
+					7,
+					11
 				},
 				{
 					0,
@@ -407,7 +332,7 @@ pg.activity_banner = {
 				{
 					2024,
 					7,
-					10
+					17
 				},
 				{
 					23,
@@ -433,8 +358,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					6,
-					27
+					7,
+					11
 				},
 				{
 					0,
@@ -446,7 +371,7 @@ pg.activity_banner = {
 				{
 					2024,
 					7,
-					10
+					17
 				},
 				{
 					23,

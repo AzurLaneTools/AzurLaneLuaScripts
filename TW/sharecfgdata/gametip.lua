@@ -11932,7 +11932,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "聖馬丁號、金鹿號等角色建造機率UP!"
+	tip = "每累計建造200次可獲得海上傳奇艦船 {namecode:463}(最多4次)"
 }
 
 
@@ -31401,4 +31401,29 @@ _G.pg.base.gametip.unique_ship_tip2 = {
 
 _G.pg.base.gametip.lock_new_ship = {
 	tip = "自動鎖定新獲得角色"
+}
+
+
+_G.pg.base.gametip.main_scene_settings = {
+	tip = "待機模式設定"
+}
+
+
+_G.pg.base.gametip.settings_enable_standby_mode = {
+	tip = "啟用待機模式"
+}
+
+
+_G.pg.base.gametip.settings_time_system = {
+	tip = "待機顯示時間制"
+}
+
+
+_G.pg.base.gametip.settings_flagship_interaction = {
+	tip = "秘書艦主動互動"
+}
+
+
+_G.pg.base.gametip.settings_enter_standby_mode_time = {
+	tip = "進入待機模式所需時間"
 }

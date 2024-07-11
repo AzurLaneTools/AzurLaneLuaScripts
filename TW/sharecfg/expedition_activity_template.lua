@@ -5016,8 +5016,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40976,
-				232
+				5167,
+				388
 			}
 		}
 	},
@@ -5026,8 +5026,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40976,
-				232
+				5167,
+				388
 			}
 		}
 	},
@@ -5036,8 +5036,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40976,
-				232
+				5167,
+				388
 			}
 		}
 	},
@@ -5046,8 +5046,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40977,
-				232
+				5168,
+				388
 			}
 		}
 	},
@@ -5056,8 +5056,8 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40977,
-				232
+				5168,
+				388
 			}
 		}
 	},
@@ -5066,88 +5066,98 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40977,
-				232
+				5168,
+				388
 			}
 		}
 	},
 	[1601413] = {
 		id = 1601413,
-		pt_drop_display = "",
-		bonus_time = 0
-	},
-	[1602013] = {
-		id = 1602013,
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				40976,
-				232
+				5168,
+				388
+			}
+		}
+	},
+	[1602013] = {
+		id = 1602013,
+		bonus_time = 1,
+		pt_drop_display = {
+			{
+				5167,
+				388
 			}
 		}
 	},
 	[1602113] = {
 		id = 1602113,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40976,
-				232
+				5167,
+				388
 			}
 		}
 	},
 	[1602213] = {
 		id = 1602213,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40976,
-				232
+				5167,
+				388
 			}
 		}
 	},
 	[1603013] = {
 		id = 1603013,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40977,
-				232
+				5168,
+				388
 			}
 		}
 	},
 	[1603113] = {
 		id = 1603113,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40977,
-				232
+				5168,
+				388
 			}
 		}
 	},
 	[1603213] = {
 		id = 1603213,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40977,
-				232
+				5168,
+				388
 			}
 		}
 	},
 	[1603413] = {
 		id = 1603413,
-		pt_drop_display = "",
-		bonus_time = 0
+		bonus_time = 0,
+		pt_drop_display = {
+			{
+				5168,
+				388
+			}
+		}
 	},
 	[1604013] = {
 		id = 1604013,
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				40977,
-				232
+				5168,
+				388
 			}
 		}
 	},

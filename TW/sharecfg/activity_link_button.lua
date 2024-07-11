@@ -14,8 +14,8 @@ pg.activity_link_button = {
 			{
 				{
 					2024,
-					6,
-					27
+					7,
+					11
 				},
 				{
 					0,
@@ -27,7 +27,7 @@ pg.activity_link_button = {
 				{
 					2024,
 					7,
-					11
+					18
 				},
 				{
 					23,
@@ -85,7 +85,7 @@ pg.activity_link_button = {
 			5048
 		},
 		param = {
-			"HARBOR_BACKHILL"
+			"tempesta medal collection"
 		}
 	},
 	[30] = {

@@ -179,7 +179,9 @@ slot0.SetUpSilentChecker = function(slot0)
 	slot0.defaultSleepTimeout = Screen.sleepTimeout
 	Screen.sleepTimeout = getProxy(SettingsProxy):GetMainSceneScreenSleepTime()
 
-	slot0.silentChecker:SetUp()
+	if SettingsMainScenePanel.IsEnableStandbyMode() then
+		slot0.silentChecker:SetUp()
+	end
 end
 
 slot0.RevertSleepTimeout = function(slot0)

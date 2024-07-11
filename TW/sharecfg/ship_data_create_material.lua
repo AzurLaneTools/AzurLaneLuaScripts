@@ -202,13 +202,13 @@ pg.ship_data_create_material = {
 			"<color=#3dc6ff>稀有艦船</color>：51%",
 			"普通艦船：28.8%",
 			" ",
-			"<color=#ff5e39>{namecode:514}</color>：1.2%(<color=#92fc63>up!</color>)",
+			"<color=#ff5e39>{namecode:463}</color>：1.2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>{namecode:516}</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>{namecode:455}</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>{namecode:510}</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>{namecode:447}</color>：0.5%",
 			" ",
-			"<color=#ffde38>{namecode:515}</color>：0.5%"
+			"<color=#d797ff>{namecode:468}</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{
@@ -224,10 +224,15 @@ pg.ship_data_create_material = {
 		icon = "build_11",
 		exchange_count = 0,
 		rate_tip = {
-			"<color=#ffde38>超稀有舰船</color>：7%",
-			"<color=#d797ff>精锐舰船</color>：12%",
-			"<color=#3dc6ff>稀有舰船</color>：51%",
-			"普通舰船：30%"
+			"<color=#ffde38>超稀有艦船</color>：7%",
+			"<color=#d797ff>精銳艦船</color>：12%",
+			"<color=#3dc6ff>稀有艦船</color>：51%",
+			"普通艦船：30%",
+			"<color=#ffde38>華盛頓</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>明尼亞波利斯</color>：2%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>馬里蘭</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#d797ff>科羅拉多</color>：2.5%(<color=#92fc63>up!</color>)",
+			"<color=#3dc6ff>科爾克</color>：5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	all = {
