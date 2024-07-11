@@ -1,26 +1,16 @@
 slot0 = class("PreCombatLayerSubmarine", import(".PreCombatLayer"))
 slot1 = import("..ship.FormationUI")
-slot0.FORM_EDIT = "EDIT"
-slot0.FORM_PREVIEW = "PREVIEW"
-
-slot0.getUIName = function(slot0)
-	return "PreCombatUI"
-end
 
 slot0.init = function(slot0)
 	slot0:CommonInit()
 
 	slot1 = slot0:findTF("middle")
 
-	SetActive(slot1:Find("mask/grid_bg"), false)
 	SetActive(slot1:Find("gear_score/main"), false)
 	SetActive(slot1:Find("gear_score/vanguard"), false)
 	SetActive(slot1:Find("gear_score/submarine"), true)
-
-	slot0._subBg = slot1:Find("mask/bg_sub")
-	slot0._subFrame = slot1:Find("mask/GridFrame")
-
-	SetActive(slot0._subBg, true)
+	setActive(slot0._bgFleet, false)
+	setActive(slot0._bgSub, true)
 
 	slot0._formationLogic = BaseFormation.New(slot0._tf, slot0._heroContainer, slot0._heroInfo, slot0._gridTFs)
 
@@ -34,9 +24,9 @@ slot0.SetFleets = function(slot0, slot1)
 	_.each(_.filter(_.values(slot1), function (slot0)
 		return slot0:getFleetType() == FleetType.Submarine
 	end), function (slot0)
-		if #slot0.ships > 0 then
-			uv0._fleetVOs[slot0.id] = slot0
+		uv0._fleetVOs[slot0.id] = slot0
 
+		if #slot0.ships > 0 then
 			table.insert(uv0._fleetIDList, slot0.id)
 
 			uv1 = uv1 + 1
@@ -44,14 +34,12 @@ slot0.SetFleets = function(slot0, slot1)
 	end)
 
 	if 0 == 0 then
-		slot0._fleetVOs[11] = slot2[1]
-
-		table.insert(slot0._fleetIDList, 11)
-	else
-		table.sort(slot0._fleetIDList, function (slot0, slot1)
-			return slot0 < slot1
-		end)
+		table.insert(slot0._fleetIDList, slot2[1].id)
 	end
+
+	table.sort(slot0._fleetIDList, function (slot0, slot1)
+		return slot0 < slot1
+	end)
 end
 
 slot0.SetCurrentFleet = function(slot0, slot1)
@@ -170,10 +158,6 @@ slot0.didEnter = function(slot0)
 	onNextTick(function ()
 		uv0:uiStartAnimating()
 	end)
-
-	if slot0._currentForm == uv0.FORM_PREVIEW and slot0.contextData.system == SYSTEM_DUEL and #slot0._currentFleetVO.mainShips <= 0 then
-		triggerButton(slot0._checkBtn)
-	end
 end
 
 slot0.getNextFleetID = function(slot0)
@@ -205,11 +189,9 @@ slot0.getPrevFleetID = function(slot0)
 end
 
 slot0.displayFleetInfo = function(slot0)
-	slot1 = slot0._currentFleetVO:GetPropertiesSum()
-
 	setActive(slot0._popup, true)
 	uv0.tweenNumText(slot0._costText, slot0._currentFleetVO:GetCostSum().oil)
-	uv0.tweenNumText(slot0._subGS, slot0._currentFleetVO:GetGearScoreSum(TeamType.Submarine))
+	uv0.tweenNumText(slot0._subGS, math.floor(slot0._currentFleetVO:GetGearScoreSum(TeamType.Submarine)))
 	setText(slot0._fleetNameText, uv0.defaultFleetName(slot0._currentFleetVO))
 	setText(slot0._fleetNumText, slot0._currentFleetVO.id - 10)
 end
@@ -221,32 +203,6 @@ slot0.SetFleetStepper = function(slot0)
 	else
 		setActive(slot0._nextPage, slot0:getNextFleetID() ~= nil)
 		setActive(slot0._prevPage, slot0:getPrevFleetID() ~= nil)
-	end
-end
-
-slot0.willExit = function(slot0)
-	if slot0.eventTriggers then
-		for slot4, slot5 in pairs(slot0.eventTriggers) do
-			ClearEventTrigger(slot4)
-		end
-
-		slot0.eventTriggers = nil
-	end
-
-	slot0._formationLogic:Destroy()
-
-	slot0._formationLogic = nil
-
-	if slot0.tweens then
-		cancelTweens(slot0.tweens)
-	end
-
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
-
-	if slot0._resPanel then
-		slot0._resPanel:exit()
-
-		slot0._resPanel = nil
 	end
 end
 

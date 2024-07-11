@@ -14663,6 +14663,62 @@ _G.pg.base.gametip.blueprint_simulation_confirm_99902 = {
 }
 
 
+_G.pg.base.gametip.blueprint_simulation_confirm_19905 = {
+	tip = [[
+<size=28>弾幕確認機能（模擬戦）を起動しますか？
+(※実際の艦の性能とは異なります）
+使用兵装：<color=#ff5c5c>
+127mm単装砲
+五連装533mm魚雷
+試作型F8Fベアキャット（フロート）</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_39907 = {
+	tip = [[
+<size=28>弾幕確認機能（模擬戦）を起動しますか？
+(※実際の艦の性能とは異なります）
+使用兵装：<color=#ff5c5c>
+試作型410mm連装砲Mod.A
+140mm単装砲
+試作型五式40mm高射機関砲</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_69902 = {
+	tip = [[
+<size=28>弾幕確認機能（模擬戦）を起動しますか？
+(※実際の艦の性能とは異なります）
+使用兵装：<color=#ff5c5c>
+試作型254mm三連装砲Mod1939
+試作型152mm三連装砲Model1936
+試作型90mm連装高角砲Model1939</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_89904 = {
+	tip = [[
+<size=28>弾幕確認機能（模擬戦）を起動しますか？
+(※実際の艦の性能とは異なります）
+使用兵装：<color=#ff5c5c>
+152mm三連装砲Mle1930（榴弾）
+三連装550mm魚雷
+二連装57mm／L60ボフォース対空機関砲Mle1951</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_79902 = {
+	tip = [[
+<size=28>弾幕確認機能（模擬戦）を起動しますか？
+(※実際の艦の性能とは異なります）
+使用兵装：<color=#ff5c5c>
+試作型艦上式La-9
+試作型艦上式La-9
+試作型VIT-2（モードチェンジ）
+</color></size>]]
+}
+
+
 _G.pg.base.gametip.electrotherapy_wanning = {
 	tip = "鏡面海域化領域・接近中"
 }

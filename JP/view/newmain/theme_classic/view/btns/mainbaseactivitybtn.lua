@@ -186,6 +186,11 @@ slot0.Skip = function(slot0, slot1)
 		else
 			slot0:emit(NewMainMediator.GO_SCENE, SCENE.NEWGUILD)
 		end
+	elseif slot1.type == GAMEUI_BANNER_14 then
+		slot0:emit(NewMainMediator.OPEN_KINK_BUTTON_LAYER, Context.New({
+			mediator = _G[slot1.param.mediator],
+			viewComponent = _G[slot1.param.view]
+		}))
 	end
 end
 

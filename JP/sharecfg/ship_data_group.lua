@@ -2042,6 +2042,21 @@ pg.ship_data_group = setmetatable({
 		[99902] = {
 			20032
 		},
+		[19905] = {
+			20033
+		},
+		[39907] = {
+			20034
+		},
+		[69902] = {
+			20035
+		},
+		[79902] = {
+			20036
+		},
+		[89904] = {
+			20037
+		},
 		[970701] = {
 			30001
 		},
@@ -2833,7 +2848,12 @@ pg.ship_data_group = setmetatable({
 			20029,
 			20030,
 			20031,
-			20032
+			20032,
+			20033,
+			20034,
+			20035,
+			20036,
+			20037
 		},
 		{
 			30001,
@@ -3554,6 +3574,11 @@ pg.ship_data_group = setmetatable({
 		20030,
 		20031,
 		20032,
+		20033,
+		20034,
+		20035,
+		20036,
+		20037,
 		30001,
 		30002,
 		30003,
@@ -32041,6 +32066,181 @@ pg.base.ship_data_group = {
 					"SHIPBLUEPRINT",
 					{
 						shipGroupId = 99902
+					}
+				},
+				0
+			}
+		}
+	},
+	[20033] = {
+		nationality = 1,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 19905,
+		index_id = 20033,
+		code = 20033,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"C",
+			"B",
+			"B",
+			"D",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"研究ドック",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 19905
+					}
+				},
+				0
+			}
+		}
+	},
+	[20034] = {
+		nationality = 3,
+		type = 5,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 39907,
+		index_id = 20034,
+		code = 20034,
+		share_group_id = {},
+		property_hexagon = {
+			"S",
+			"C",
+			"E",
+			"C",
+			"D",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"研究ドック",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 39907
+					}
+				},
+				0
+			}
+		}
+	},
+	[20035] = {
+		nationality = 6,
+		type = 3,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 69902,
+		index_id = 20035,
+		code = 20035,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"B",
+			"C",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"研究ドック",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 69902
+					}
+				},
+				0
+			}
+		}
+	},
+	[20036] = {
+		nationality = 7,
+		type = 7,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 79902,
+		index_id = 20036,
+		code = 20036,
+		share_group_id = {},
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"C",
+			"B",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"研究ドック",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 79902
+					}
+				},
+				0
+			}
+		}
+	},
+	[20037] = {
+		nationality = 8,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 2,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 89904,
+		index_id = 20037,
+		code = 20037,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"研究ドック",
+				{
+					"SHIPBLUEPRINT",
+					{
+						shipGroupId = 89904
 					}
 				},
 				0

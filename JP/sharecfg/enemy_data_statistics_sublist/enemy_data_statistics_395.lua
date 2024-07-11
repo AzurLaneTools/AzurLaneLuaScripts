@@ -1,5 +1,87 @@
 pg = pg or {}
 pg.enemy_data_statistics_395 = {
+	[295132] = {
+		cannon = 315,
+		name = "アリゾナ(META)-Tier.12",
+		torpedo = 0,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 22,
+		id = 295132,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 90,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90718,
+		durability = 840000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 294,
+		speed = 20,
+		luck = 22,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 4
+			}
+		}
+	},
+	[295133] = {
+		cannon = 334,
+		name = "アリゾナ(META)-Tier.13",
+		torpedo = 0,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 23,
+		id = 295133,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 95,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90718,
+		durability = 1080000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 308,
+		speed = 20,
+		luck = 23,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 5
+			}
+		}
+	},
 	[295134] = {
 		cannon = 353,
 		name = "アリゾナ(META)-Tier.14",
@@ -1065,96 +1147,6 @@ pg.enemy_data_statistics_395 = {
 			{
 				ID = 200463,
 				LV = 7
-			},
-			{
-				ID = 200466,
-				LV = 3
-			}
-		}
-	},
-	[295158] = {
-		cannon = 224,
-		name = "アルジェリー(META)-Tier.8",
-		torpedo = 168,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 50,
-		id = 295158,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 70,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 90765,
-		durability = 314000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 210,
-		speed = 30,
-		luck = 50,
-		battle_unit_type = 90,
-		antisub = 0,
-		fog_fx = "",
-		buff_list = {
-			{
-				ID = 200462,
-				LV = 4
-			},
-			{
-				ID = 200463,
-				LV = 8
-			},
-			{
-				ID = 200466,
-				LV = 3
-			}
-		}
-	},
-	[295159] = {
-		cannon = 240,
-		name = "アルジェリー(META)-Tier.9",
-		torpedo = 180,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 53,
-		id = 295159,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 75,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 90765,
-		durability = 395000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 225,
-		speed = 30,
-		luck = 50,
-		battle_unit_type = 90,
-		antisub = 0,
-		fog_fx = "",
-		buff_list = {
-			{
-				ID = 200462,
-				LV = 5
-			},
-			{
-				ID = 200463,
-				LV = 9
 			},
 			{
 				ID = 200466,

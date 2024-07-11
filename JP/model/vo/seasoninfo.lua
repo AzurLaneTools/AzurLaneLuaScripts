@@ -12,7 +12,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.rank = slot1.rank
 	slot0.fightCount = slot1.fight_count
 	slot0.resetTime = slot1.fight_count_reset_time
-	slot0.flashTargetCount = slot1.flash_target_count + 1
+	slot0.flashTargetCount = slot1.flash_target_count
 	slot0.score = slot0.score + uv0.INIT_POINT
 	slot2 = {}
 

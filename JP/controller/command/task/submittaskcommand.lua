@@ -110,10 +110,10 @@ slot0.execute = function(slot0, slot1)
 					end
 				end
 
+				uv4.OnSubmitSuccess(uv2, uv5)
 				pg.m02:sendNotification(GAME.SUBMIT_TASK_DONE, slot1, {
 					uv2.id
 				})
-				uv4.OnSubmitSuccess(uv2, uv5)
 			else
 				pg.TipsMgr.GetInstance():ShowTips(errorTip("task_submitTask", slot0.result))
 

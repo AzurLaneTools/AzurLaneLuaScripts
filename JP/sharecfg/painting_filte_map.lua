@@ -1658,6 +1658,14 @@ pg.painting_filte_map = {
 			"painting/beiqi_3"
 		}
 	},
+	beiyade = {
+		key = "beiyade",
+		res_list = {
+			"painting/beiyade_tex",
+			"painting/beiyade_rw_tex",
+			"painting/beiyade"
+		}
+	},
 	beiyaen = {
 		key = "beiyaen",
 		res_list = {
@@ -3279,6 +3287,16 @@ pg.painting_filte_map = {
 			"painting/daqinghuayu_idol"
 		}
 	},
+	dashan = {
+		key = "dashan",
+		res_list = {
+			"painting/dashan_tex",
+			"painting/dashan_rw_tex",
+			"painting/dashan_n_tex",
+			"painting/dashan_n",
+			"painting/dashan"
+		}
+	},
 	deleike = {
 		key = "deleike",
 		res_list = {
@@ -4758,6 +4776,18 @@ pg.painting_filte_map = {
 			"painting/haerbin_h"
 		}
 	},
+	haerfude = {
+		key = "haerfude",
+		res_list = {
+			"painting/haerfude_tex",
+			"painting/haerfude_rw_tex",
+			"painting/haerfude_n_tex",
+			"painting/haerfude_n_bj_tex",
+			"painting/haerfude_n",
+			"painting/haerfude_bj_tex",
+			"painting/haerfude"
+		}
+	},
 	haerxibaoweier = {
 		key = "haerxibaoweier",
 		res_list = {
@@ -4914,6 +4944,14 @@ pg.painting_filte_map = {
 			"painting/haitian_4_n",
 			"painting/haitian_4_front_tex",
 			"painting/haitian_4"
+		}
+	},
+	haitian_5 = {
+		key = "haitian_5",
+		res_list = {
+			"painting/haitian_5_tex",
+			"painting/haitian_5_rw_tex",
+			"painting/haitian_5"
 		}
 	},
 	haitian_h = {
@@ -9435,6 +9473,18 @@ pg.painting_filte_map = {
 			"painting/muyue_g"
 		}
 	},
+	nabulesi = {
+		key = "nabulesi",
+		res_list = {
+			"painting/nabulesi_tex",
+			"painting/nabulesi_rw_tex",
+			"painting/nabulesi_rw_hx_tex",
+			"painting/nabulesi_n_tex",
+			"painting/nabulesi_n",
+			"painting/nabulesi_blueprint",
+			"painting/nabulesi"
+		}
+	},
 	naerxun = {
 		key = "naerxun",
 		res_list = {
@@ -9545,6 +9595,14 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/nandaketa_2_tex",
 			"painting/nandaketa_2"
+		}
+	},
+	naximofu = {
+		key = "naximofu",
+		res_list = {
+			"painting/naximofu_tex",
+			"painting/naximofu_rw_tex",
+			"painting/naximofu"
 		}
 	},
 	nazhi = {

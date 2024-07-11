@@ -111,6 +111,10 @@ pg.pay_data_display = setmetatable({
 		2024,
 		2025,
 		2026,
+		2027,
+		2028,
+		2029,
+		2030,
 		5001,
 		5002,
 		5003,
@@ -8974,7 +8978,7 @@ pg.base.pay_data_display = {
 		tag = 2,
 		name = "指揮官レベルアップパック",
 		gem = 0,
-		type_order = 0,
+		type_order = 2,
 		limit_type = 2,
 		time = "always",
 		picture = "lv_70",
@@ -10140,7 +10144,7 @@ pg.base.pay_data_display = {
 		tag = 2,
 		name = "お得パック(デイリー)",
 		gem = 0,
-		type_order = 0,
+		type_order = 3,
 		limit_type = 4,
 		time = "always",
 		picture = "richang",
@@ -10288,6 +10292,232 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40023,
+				1
+			}
+		}
+	},
+	[2027] = {
+		extra_service = 3,
+		limit_group = 4,
+		descrip_extra = "此处不会被看到",
+		type = 0,
+		first_pay_double = 0,
+		name_display = "PR特別計画艦パック·Ⅳ期",
+		descrip = "特別計画艦・Ⅳ期と交換できるアイテムなどを入手できます",
+		subject = "PR特別計画艦パック・Ⅳ期",
+		limit_arg = 0,
+		money = 2000,
+		tag = 2,
+		name = "PR特別計画艦パック·Ⅳ期",
+		gem = 0,
+		type_order = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech4_display",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.keyan",
+		extra_gem = 0,
+		id = 2027,
+		airijp_id = "com.yostarjp.azurlane.tech",
+		extra_service_item = {
+			{
+				2,
+				40139,
+				1
+			},
+			{
+				2,
+				42030,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40139,
+				1
+			},
+			{
+				2,
+				42030,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {}
+	},
+	[2028] = {
+		extra_service = 3,
+		limit_group = 4,
+		descrip_extra = "*既にPR艦船・Ⅳ期をすべて所持している場合、使用時にアイテムに変換されます（アイコンタップで確認）",
+		type = 0,
+		first_pay_double = 0,
+		name_display = "PR艦船Ⅳ期交換アイテム\n＋強化ユニットセット",
+		descrip = "内容",
+		subject = "PR艦船Ⅳ期交換アイテム＋強化ユニットセット",
+		limit_arg = 1,
+		money = 2000,
+		tag = 2,
+		name = "PR艦船Ⅳ期交換アイテム＋強化ユニットセット",
+		gem = 0,
+		type_order = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech4_promotion",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.keyan10",
+		extra_gem = 0,
+		id = 2028,
+		airijp_id = "com.yostarjp.azurlane.tech10",
+		extra_service_item = {
+			{
+				2,
+				40139,
+				1
+			},
+			{
+				2,
+				42030,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40139,
+				1
+			},
+			{
+				2,
+				42030,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40044,
+				1
+			}
+		}
+	},
+	[2029] = {
+		extra_service = 3,
+		limit_group = 4,
+		descrip_extra = "*既にPR艦船・Ⅳ期をすべて所持している場合、使用時にアイテムに変換されます（アイコンタップで確認）",
+		type = 0,
+		first_pay_double = 0,
+		name_display = "PR艦船Ⅳ期交換アイテム",
+		descrip = "内容",
+		subject = "PR艦船Ⅳ期交換アイテム",
+		limit_arg = 2,
+		money = 1200,
+		tag = 2,
+		name = "PR艦船Ⅳ期交換アイテム",
+		gem = 0,
+		type_order = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech4_normal",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.keyan11",
+		extra_gem = 0,
+		id = 2029,
+		airijp_id = "com.yostarjp.azurlane.tech11",
+		extra_service_item = {
+			{
+				2,
+				40139,
+				1
+			}
+		},
+		display = {
+			{
+				2,
+				40139,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40045,
+				1
+			}
+		}
+	},
+	[2030] = {
+		extra_service = 3,
+		limit_group = 4,
+		descrip_extra = "購入すると指向型強化ユニット・Ⅳ期×343個を入手可能",
+		type = 0,
+		first_pay_double = 0,
+		name_display = "強化ユニット",
+		descrip = "内容",
+		subject = "強化ユニット",
+		limit_arg = 3,
+		money = 1000,
+		tag = 2,
+		name = "PR特別計画艦Ⅳ期強化ユニットセット",
+		gem = 0,
+		type_order = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech4_promotion",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.keyan12",
+		extra_gem = 0,
+		id = 2030,
+		airijp_id = "com.yostarjp.azurlane.tech12",
+		extra_service_item = {
+			{
+				2,
+				42030,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				42030,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40046,
 				1
 			}
 		}

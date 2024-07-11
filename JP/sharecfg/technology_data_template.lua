@@ -11738,6 +11738,206 @@ pg.technology_data_template = {
 			}
 		}
 	},
+	[533] = {
+		id = 533,
+		rarity = 2,
+		time = 21600,
+		type = 1,
+		name = "新装備試案作成",
+		lv_limit = 50,
+		desc = "現在配備中の装備を分解することで基礎設計を見直し、将来開発が予定される新装備の基礎研究を行う。 ",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 6,
+		sub_name = "中型項目",
+		label = "tag_blue",
+		bg_icon = "item_2",
+		label_color = "tag_e",
+		consume = {
+			{
+				2,
+				30013,
+				15
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13037,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[534] = {
+		id = 534,
+		rarity = 2,
+		time = 21600,
+		type = 1,
+		name = "新装備試案作成",
+		lv_limit = 50,
+		desc = "現在配備中の装備を分解することで基礎設計を見直し、将来開発が予定される新装備の基礎研究を行う。 ",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 6,
+		sub_name = "中型項目",
+		label = "tag_blue",
+		bg_icon = "item_2",
+		label_color = "tag_e",
+		consume = {
+			{
+				2,
+				30033,
+				15
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13039,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[535] = {
+		id = 535,
+		rarity = 2,
+		time = 21600,
+		type = 1,
+		name = "新装備試案作成",
+		lv_limit = 50,
+		desc = "現在配備中の装備を分解することで基礎設計を見直し、将来開発が予定される新装備の基礎研究を行う。 ",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 6,
+		sub_name = "中型項目",
+		label = "tag_blue",
+		bg_icon = "item_2",
+		label_color = "tag_e",
+		consume = {
+			{
+				2,
+				30043,
+				15
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13040,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[536] = {
+		id = 536,
+		rarity = 2,
+		time = 21600,
+		type = 1,
+		name = "新装備試案作成",
+		lv_limit = 50,
+		desc = "現在配備中の装備を分解することで基礎設計を見直し、将来開発が予定される新装備の基礎研究を行う。 ",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 6,
+		sub_name = "中型項目",
+		label = "tag_blue",
+		bg_icon = "item_2",
+		label_color = "tag_e",
+		consume = {
+			{
+				2,
+				30043,
+				15
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13041,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[537] = {
+		id = 537,
+		rarity = 2,
+		time = 21600,
+		type = 1,
+		name = "新装備試案作成",
+		lv_limit = 50,
+		desc = "現在配備中の装備を分解することで基礎設計を見直し、将来開発が予定される新装備の基礎研究を行う。 ",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 6,
+		sub_name = "中型項目",
+		label = "tag_blue",
+		bg_icon = "item_2",
+		label_color = "tag_e",
+		consume = {
+			{
+				2,
+				30043,
+				15
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13042,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
 	[541] = {
 		id = 541,
 		rarity = 1,
@@ -13124,6 +13324,1994 @@ pg.technology_data_template = {
 			{
 				2,
 				52071,
+				1
+			},
+			{
+				2,
+				54050,
+				1
+			},
+			{
+				2,
+				15008,
+				1
+			}
+		}
+	},
+	[601] = {
+		id = 601,
+		rarity = 1,
+		time = 21600,
+		type = 1,
+		name = "基礎研究",
+		lv_limit = 30,
+		desc = "メンタルキューブに関する基礎理論は、キューブの構造への認識から始まる。キューブの基礎構造についての理論構築作業は依然として全力で取り組まれている。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "中型項目",
+		label = "tag_red",
+		bg_icon = "item_1",
+		label_color = "tag_c",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[602] = {
+		id = 602,
+		rarity = 1,
+		time = 21600,
+		type = 1,
+		name = "基礎研究",
+		lv_limit = 30,
+		desc = "メンタルキューブに関する基礎理論は、キューブの構造への認識から始まる。キューブの基礎構造についての理論構築作業は依然として全力で取り組まれている。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "中型項目",
+		label = "tag_red",
+		bg_icon = "item_1",
+		label_color = "tag_c",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[603] = {
+		id = 603,
+		rarity = 2,
+		time = 28800,
+		type = 1,
+		name = "基礎研究",
+		lv_limit = 30,
+		desc = "メンタルキューブに関する基礎理論は、キューブの構造への認識から始まる。キューブの基礎構造についての理論構築作業は依然として全力で取り組まれている。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "大型項目",
+		label = "tag_red",
+		bg_icon = "item_2",
+		label_color = "tag_c",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52081,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[604] = {
+		id = 604,
+		rarity = 2,
+		time = 28800,
+		type = 1,
+		name = "基礎研究",
+		lv_limit = 30,
+		desc = "メンタルキューブに関する基礎理論は、キューブの構造への認識から始まる。キューブの基礎構造についての理論構築作業は依然として全力で取り組まれている。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "大型項目",
+		label = "tag_red",
+		bg_icon = "item_2",
+		label_color = "tag_c",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52081,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[611] = {
+		id = 611,
+		rarity = 1,
+		time = 14400,
+		type = 1,
+		name = "データ収集",
+		lv_limit = 30,
+		desc = "メンタルキューブの構造に関する様々な仮説に対して、実証実験を行う研究プロジェクト。実戦でデータを収集し、アイデアの科学的証明に寄与しよう。",
+		condition = 52001,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "中型項目",
+		label = "tag_red",
+		bg_icon = "battle_1",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52081,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[612] = {
+		id = 612,
+		rarity = 1,
+		time = 14400,
+		type = 1,
+		name = "データ収集",
+		lv_limit = 30,
+		desc = "メンタルキューブの構造に関する様々な仮説に対して、実証実験を行う研究プロジェクト。実戦でデータを収集し、アイデアの科学的証明に寄与しよう。",
+		condition = 52002,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "中型項目",
+		label = "tag_red",
+		bg_icon = "battle_1",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52081,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[613] = {
+		id = 613,
+		rarity = 1,
+		time = 14400,
+		type = 1,
+		name = "データ収集",
+		lv_limit = 30,
+		desc = "メンタルキューブの構造に関する様々な仮説に対して、実証実験を行う研究プロジェクト。実戦でデータを収集し、アイデアの科学的証明に寄与しよう。",
+		condition = 52003,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "中型項目",
+		label = "tag_red",
+		bg_icon = "battle_1",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52081,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[614] = {
+		id = 614,
+		rarity = 1,
+		time = 14400,
+		type = 1,
+		name = "データ収集",
+		lv_limit = 40,
+		desc = "メンタルキューブの構造に関する様々な仮説に対して、実証実験を行う研究プロジェクト。実戦でデータを収集し、アイデアの科学的証明に寄与しよう。",
+		condition = 52004,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "中型項目",
+		label = "tag_red",
+		bg_icon = "battle_1",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52081,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[615] = {
+		id = 615,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "データ収集",
+		lv_limit = 50,
+		desc = "メンタルキューブの構造に関する様々な仮説に対して、実証実験を行う研究プロジェクト。実戦でデータを収集し、アイデアの科学的証明に寄与しよう。",
+		condition = 52005,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "中型項目",
+		label = "tag_red",
+		bg_icon = "battle_2",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52081,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[616] = {
+		id = 616,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "データ収集",
+		lv_limit = 60,
+		desc = "メンタルキューブの構造に関する様々な仮説に対して、実証実験を行う研究プロジェクト。実戦でデータを収集し、アイデアの科学的証明に寄与しよう。",
+		condition = 52006,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "中型項目",
+		label = "tag_red",
+		bg_icon = "battle_2",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52081,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[617] = {
+		id = 617,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "データ収集",
+		lv_limit = 65,
+		desc = "メンタルキューブの構造に関する様々な仮説に対して、実証実験を行う研究プロジェクト。実戦でデータを収集し、アイデアの科学的証明に寄与しよう。",
+		condition = 52007,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "中型項目",
+		label = "tag_red",
+		bg_icon = "battle_2",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52081,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[618] = {
+		id = 618,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "データ収集",
+		lv_limit = 70,
+		desc = "メンタルキューブの構造に関する様々な仮説に対して、実証実験を行う研究プロジェクト。実戦でデータを収集し、アイデアの科学的証明に寄与しよう。",
+		condition = 52008,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "中型項目",
+		label = "tag_red",
+		bg_icon = "battle_2",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52081,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[621] = {
+		id = 621,
+		rarity = 1,
+		time = 10800,
+		type = 1,
+		name = "研究委託",
+		lv_limit = 30,
+		desc = "「建造」以外に、メンタルキューブの民生利用に関する研究も提案された。技術転用の可能性を模索するプロジェクトには、軍の助力も求められる。",
+		condition = 52021,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_blue",
+		bg_icon = "item_1",
+		label_color = "tag_t",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[622] = {
+		id = 622,
+		rarity = 1,
+		time = 14400,
+		type = 1,
+		name = "研究委託",
+		lv_limit = 30,
+		desc = "「建造」以外に、メンタルキューブの民生利用に関する研究も提案された。技術転用の可能性を模索するプロジェクトには、軍の助力も求められる。",
+		condition = 52022,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_blue",
+		bg_icon = "item_1",
+		label_color = "tag_t",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[623] = {
+		id = 623,
+		rarity = 2,
+		time = 21600,
+		type = 1,
+		name = "研究委託",
+		lv_limit = 30,
+		desc = "「建造」以外に、メンタルキューブの民生利用に関する研究も提案された。技術転用の可能性を模索するプロジェクトには、軍の助力も求められる。",
+		condition = 52023,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_blue",
+		bg_icon = "item_2",
+		label_color = "tag_t",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[631] = {
+		id = 631,
+		rarity = 1,
+		time = 7200,
+		type = 1,
+		name = "サンプル調達",
+		lv_limit = 30,
+		desc = "メンタルキューブと「艤装」の関連性を調査する数多の試みは、膨大な実験データに基づいて行われている。不要な艤装を提供し、実験サンプルに充てよう。",
+		condition = 52031,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_blue",
+		bg_icon = "item_1",
+		label_color = "tag_e",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[632] = {
+		id = 632,
+		rarity = 2,
+		time = 7200,
+		type = 1,
+		name = "サンプル調達",
+		lv_limit = 30,
+		desc = "メンタルキューブと「艤装」の関連性を調査する数多の試みは、膨大な実験データに基づいて行われている。不要な艤装を提供し、実験サンプルに充てよう。",
+		condition = 52032,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_blue",
+		bg_icon = "item_2",
+		label_color = "tag_e",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[641] = {
+		id = 641,
+		rarity = 1,
+		time = 5400,
+		type = 1,
+		name = "費用寄付",
+		lv_limit = 30,
+		desc = "優れた科学の発展を支えるには叡智なる頭脳だけでなく――支援者から提供される研究資金も必要だ。余った資金を寄付し、技術研究を応援しよう。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_red",
+		bg_icon = "gold_1",
+		label_color = "tag_g",
+		consume = {
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52081,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[642] = {
+		id = 642,
+		rarity = 1,
+		time = 5400,
+		type = 1,
+		name = "費用寄付",
+		lv_limit = 30,
+		desc = "優れた科学の発展を支えるには叡智なる頭脳だけでなく――支援者から提供される研究資金も必要だ。余った資金を寄付し、技術研究を応援しよう。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_red",
+		bg_icon = "gold_1",
+		label_color = "tag_g",
+		consume = {
+			{
+				1,
+				1,
+				1500
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52081,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[643] = {
+		id = 643,
+		rarity = 1,
+		time = 9000,
+		type = 1,
+		name = "費用寄付",
+		lv_limit = 30,
+		desc = "優れた科学の発展を支えるには叡智なる頭脳だけでなく――支援者から提供される研究資金も必要だ。余った資金を寄付し、技術研究を応援しよう。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_red",
+		bg_icon = "gold_1",
+		label_color = "tag_g",
+		consume = {
+			{
+				1,
+				1,
+				3000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52081,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[644] = {
+		id = 644,
+		rarity = 1,
+		time = 9000,
+		type = 1,
+		name = "費用寄付",
+		lv_limit = 30,
+		desc = "優れた科学の発展を支えるには叡智なる頭脳だけでなく――支援者から提供される研究資金も必要だ。余った資金を寄付し、技術研究を応援しよう。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_red",
+		bg_icon = "gold_1",
+		label_color = "tag_g",
+		consume = {
+			{
+				1,
+				1,
+				3000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52081,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[645] = {
+		id = 645,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "費用寄付",
+		lv_limit = 30,
+		desc = "優れた科学の発展を支えるには叡智なる頭脳だけでなく――支援者から提供される研究資金も必要だ。余った資金を寄付し、技術研究を応援しよう。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "中型項目",
+		label = "tag_red",
+		bg_icon = "gold_2",
+		label_color = "tag_g",
+		consume = {
+			{
+				1,
+				1,
+				6000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52081,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[646] = {
+		id = 646,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "費用寄付",
+		lv_limit = 30,
+		desc = "優れた科学の発展を支えるには叡智なる頭脳だけでなく――支援者から提供される研究資金も必要だ。余った資金を寄付し、技術研究を応援しよう。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "中型項目",
+		label = "tag_red",
+		bg_icon = "gold_2",
+		label_color = "tag_g",
+		consume = {
+			{
+				1,
+				1,
+				6000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52081,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[651] = {
+		id = 651,
+		rarity = 1,
+		time = 9000,
+		type = 1,
+		name = "認識指向研究",
+		lv_limit = 30,
+		desc = "メンタルキューブが不特定多数の人間の集合認識――イメージを具現化させるのなら、それを望んだ方向に「指向」させる事により、どんな結果をもたらす事ができるのだろうか。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_red",
+		bg_icon = "chara_haerfude",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				3000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42061,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[652] = {
+		id = 652,
+		rarity = 1,
+		time = 9000,
+		type = 1,
+		name = "認識指向研究",
+		lv_limit = 30,
+		desc = "メンタルキューブが不特定多数の人間の集合認識――イメージを具現化させるのなら、それを望んだ方向に「指向」させる事により、どんな結果をもたらす事ができるのだろうか。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_red",
+		bg_icon = "chara_dashan",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				3000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42062,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[653] = {
+		id = 653,
+		rarity = 1,
+		time = 9000,
+		type = 1,
+		name = "認識指向研究",
+		lv_limit = 30,
+		desc = "メンタルキューブが不特定多数の人間の集合認識――イメージを具現化させるのなら、それを望んだ方向に「指向」させる事により、どんな結果をもたらす事ができるのだろうか。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_red",
+		bg_icon = "chara_nabulesi",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				3000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42063,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[654] = {
+		id = 654,
+		rarity = 1,
+		time = 9000,
+		type = 1,
+		name = "認識指向研究",
+		lv_limit = 30,
+		desc = "メンタルキューブが不特定多数の人間の集合認識――イメージを具現化させるのなら、それを望んだ方向に「指向」させる事により、どんな結果をもたらす事ができるのだろうか。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_red",
+		bg_icon = "chara_naximofuhaijunshangjiang",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				3000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42064,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[655] = {
+		id = 655,
+		rarity = 1,
+		time = 9000,
+		type = 1,
+		name = "認識指向研究",
+		lv_limit = 30,
+		desc = "メンタルキューブが不特定多数の人間の集合認識――イメージを具現化させるのなら、それを望んだ方向に「指向」させる事により、どんな結果をもたらす事ができるのだろうか。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_red",
+		bg_icon = "chara_beiyade",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				3000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42065,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			}
+		}
+	},
+	[661] = {
+		id = 661,
+		rarity = 2,
+		time = 18000,
+		type = 1,
+		name = "認識指向研究",
+		lv_limit = 30,
+		desc = "メンタルキューブが不特定多数の人間の集合認識――イメージを具現化させるのなら、それを望んだ方向に「指向」させる事により、どんな結果をもたらす事ができるのだろうか。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "中型項目",
+		label = "tag_red",
+		bg_icon = "chara_haerfude",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42061,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[662] = {
+		id = 662,
+		rarity = 2,
+		time = 18000,
+		type = 1,
+		name = "認識指向研究",
+		lv_limit = 30,
+		desc = "メンタルキューブが不特定多数の人間の集合認識――イメージを具現化させるのなら、それを望んだ方向に「指向」させる事により、どんな結果をもたらす事ができるのだろうか。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "中型項目",
+		label = "tag_red",
+		bg_icon = "chara_dashan",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42062,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[663] = {
+		id = 663,
+		rarity = 2,
+		time = 18000,
+		type = 1,
+		name = "認識指向研究",
+		lv_limit = 30,
+		desc = "メンタルキューブが不特定多数の人間の集合認識――イメージを具現化させるのなら、それを望んだ方向に「指向」させる事により、どんな結果をもたらす事ができるのだろうか。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "中型項目",
+		label = "tag_red",
+		bg_icon = "chara_nabulesi",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42063,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[664] = {
+		id = 664,
+		rarity = 2,
+		time = 18000,
+		type = 1,
+		name = "認識指向研究",
+		lv_limit = 30,
+		desc = "メンタルキューブが不特定多数の人間の集合認識――イメージを具現化させるのなら、それを望んだ方向に「指向」させる事により、どんな結果をもたらす事ができるのだろうか。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "中型項目",
+		label = "tag_red",
+		bg_icon = "chara_naximofuhaijunshangjiang",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42064,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[665] = {
+		id = 665,
+		rarity = 2,
+		time = 18000,
+		type = 1,
+		name = "認識指向研究",
+		lv_limit = 30,
+		desc = "メンタルキューブが不特定多数の人間の集合認識――イメージを具現化させるのなら、それを望んだ方向に「指向」させる事により、どんな結果をもたらす事ができるのだろうか。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "中型項目",
+		label = "tag_red",
+		bg_icon = "chara_beiyade",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42065,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[671] = {
+		id = 671,
+		rarity = 1,
+		time = 3600,
+		type = 1,
+		name = "艤装解析",
+		lv_limit = 30,
+		desc = "艤装とメンタルキューブの共鳴現象を制御可能にできるよう、あらゆる手段で該当の現象が発生する場面の再現を行い、同現象をもっとも効果的に利用できる場面を検証する。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17001,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[672] = {
+		id = 672,
+		rarity = 1,
+		time = 3600,
+		type = 1,
+		name = "艤装解析",
+		lv_limit = 30,
+		desc = "艤装とメンタルキューブの共鳴現象を制御可能にできるよう、あらゆる手段で該当の現象が発生する場面の再現を行い、同現象をもっとも効果的に利用できる場面を検証する。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17011,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[673] = {
+		id = 673,
+		rarity = 1,
+		time = 3600,
+		type = 1,
+		name = "艤装解析",
+		lv_limit = 30,
+		desc = "艤装とメンタルキューブの共鳴現象を制御可能にできるよう、あらゆる手段で該当の現象が発生する場面の再現を行い、同現象をもっとも効果的に利用できる場面を検証する。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17021,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[674] = {
+		id = 674,
+		rarity = 1,
+		time = 3600,
+		type = 1,
+		name = "艤装解析",
+		lv_limit = 30,
+		desc = "艤装とメンタルキューブの共鳴現象を制御可能にできるよう、あらゆる手段で該当の現象が発生する場面の再現を行い、同現象をもっとも効果的に利用できる場面を検証する。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17031,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[675] = {
+		id = 675,
+		rarity = 1,
+		time = 3600,
+		type = 1,
+		name = "艤装解析",
+		lv_limit = 30,
+		desc = "艤装とメンタルキューブの共鳴現象を制御可能にできるよう、あらゆる手段で該当の現象が発生する場面の再現を行い、同現象をもっとも効果的に利用できる場面を検証する。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17041,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[676] = {
+		id = 676,
+		rarity = 1,
+		time = 7200,
+		type = 1,
+		name = "艤装解析",
+		lv_limit = 30,
+		desc = "艤装とメンタルキューブの共鳴現象を制御可能にできるよう、あらゆる手段で該当の現象が発生する場面の再現を行い、同現象をもっとも効果的に利用できる場面を検証する。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17002,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[677] = {
+		id = 677,
+		rarity = 1,
+		time = 7200,
+		type = 1,
+		name = "艤装解析",
+		lv_limit = 30,
+		desc = "艤装とメンタルキューブの共鳴現象を制御可能にできるよう、あらゆる手段で該当の現象が発生する場面の再現を行い、同現象をもっとも効果的に利用できる場面を検証する。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17012,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[678] = {
+		id = 678,
+		rarity = 1,
+		time = 7200,
+		type = 1,
+		name = "艤装解析",
+		lv_limit = 30,
+		desc = "艤装とメンタルキューブの共鳴現象を制御可能にできるよう、あらゆる手段で該当の現象が発生する場面の再現を行い、同現象をもっとも効果的に利用できる場面を検証する。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17022,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[679] = {
+		id = 679,
+		rarity = 1,
+		time = 7200,
+		type = 1,
+		name = "艤装解析",
+		lv_limit = 30,
+		desc = "艤装とメンタルキューブの共鳴現象を制御可能にできるよう、あらゆる手段で該当の現象が発生する場面の再現を行い、同現象をもっとも効果的に利用できる場面を検証する。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17032,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[680] = {
+		id = 680,
+		rarity = 1,
+		time = 7200,
+		type = 1,
+		name = "艤装解析",
+		lv_limit = 30,
+		desc = "艤装とメンタルキューブの共鳴現象を制御可能にできるよう、あらゆる手段で該当の現象が発生する場面の再現を行い、同現象をもっとも効果的に利用できる場面を検証する。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_blue",
+		bg_icon = "gold_1",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17042,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52004,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[681] = {
+		id = 681,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "艤装解析",
+		lv_limit = 30,
+		desc = "艤装とメンタルキューブの共鳴現象を制御可能にできるよう、あらゆる手段で該当の現象が発生する場面の再現を行い、同現象をもっとも効果的に利用できる場面を検証する。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "中型項目",
+		label = "tag_blue",
+		bg_icon = "gold_2",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17003,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[682] = {
+		id = 682,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "艤装解析",
+		lv_limit = 30,
+		desc = "艤装とメンタルキューブの共鳴現象を制御可能にできるよう、あらゆる手段で該当の現象が発生する場面の再現を行い、同現象をもっとも効果的に利用できる場面を検証する。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "中型項目",
+		label = "tag_blue",
+		bg_icon = "gold_2",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17013,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[683] = {
+		id = 683,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "艤装解析",
+		lv_limit = 30,
+		desc = "艤装とメンタルキューブの共鳴現象を制御可能にできるよう、あらゆる手段で該当の現象が発生する場面の再現を行い、同現象をもっとも効果的に利用できる場面を検証する。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "中型項目",
+		label = "tag_blue",
+		bg_icon = "gold_2",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17023,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[684] = {
+		id = 684,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "艤装解析",
+		lv_limit = 30,
+		desc = "艤装とメンタルキューブの共鳴現象を制御可能にできるよう、あらゆる手段で該当の現象が発生する場面の再現を行い、同現象をもっとも効果的に利用できる場面を検証する。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "中型項目",
+		label = "tag_blue",
+		bg_icon = "gold_2",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17033,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[685] = {
+		id = 685,
+		rarity = 2,
+		time = 14400,
+		type = 1,
+		name = "艤装解析",
+		lv_limit = 30,
+		desc = "艤装とメンタルキューブの共鳴現象を制御可能にできるよう、あらゆる手段で該当の現象が発生する場面の再現を行い、同現象をもっとも効果的に利用できる場面を検証する。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "中型項目",
+		label = "tag_blue",
+		bg_icon = "gold_2",
+		label_color = "tag_q",
+		consume = {
+			{
+				2,
+				17043,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[691] = {
+		id = 691,
+		rarity = 1,
+		time = 3600,
+		type = 1,
+		name = "キューブ構造解析",
+		lv_limit = 30,
+		desc = "メンタルキューブを文字通り物理的に「分解」し、構造分析を行う。成功例こそ無いものの、実験を行う価値は大いにあると考えられる。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_red",
+		bg_icon = "gold_1",
+		label_color = "tag_h",
+		consume = {
+			{
+				2,
+				20001,
+				3
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52081,
+				1
+			},
+			{
+				2,
+				54049,
+				1
+			},
+			{
+				2,
+				15008,
+				1
+			}
+		}
+	},
+	[692] = {
+		id = 692,
+		rarity = 1,
+		time = 3600,
+		type = 1,
+		name = "キューブ構造解析",
+		lv_limit = 30,
+		desc = "メンタルキューブを文字通り物理的に「分解」し、構造分析を行う。成功例こそ無いものの、実験を行う価値は大いにあると考えられる。",
+		condition = 0,
+		bg = "1",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_red",
+		bg_icon = "gold_1",
+		label_color = "tag_h",
+		consume = {
+			{
+				2,
+				20001,
+				3
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52081,
+				1
+			},
+			{
+				2,
+				54049,
+				1
+			},
+			{
+				2,
+				15008,
+				1
+			}
+		}
+	},
+	[693] = {
+		id = 693,
+		rarity = 2,
+		time = 7200,
+		type = 1,
+		name = "キューブ構造解析",
+		lv_limit = 30,
+		desc = "メンタルキューブを文字通り物理的に「分解」し、構造分析を行う。成功例こそ無いものの、実験を行う価値は大いにあると考えられる。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_red",
+		bg_icon = "gold_2",
+		label_color = "tag_h",
+		consume = {
+			{
+				2,
+				20001,
+				6
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52081,
+				1
+			},
+			{
+				2,
+				54050,
+				1
+			},
+			{
+				2,
+				15008,
+				1
+			}
+		}
+	},
+	[694] = {
+		id = 694,
+		rarity = 2,
+		time = 7200,
+		type = 1,
+		name = "キューブ構造解析",
+		lv_limit = 30,
+		desc = "メンタルキューブを文字通り物理的に「分解」し、構造分析を行う。成功例こそ無いものの、実験を行う価値は大いにあると考えられる。",
+		condition = 0,
+		bg = "2",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_red",
+		bg_icon = "gold_2",
+		label_color = "tag_h",
+		consume = {
+			{
+				2,
+				20001,
+				6
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52081,
 				1
 			},
 			{
@@ -20118,6 +22306,1181 @@ pg.technology_data_template = {
 			}
 		}
 	},
+	[1531] = {
+		id = 1531,
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		name = "新装備試案作成",
+		lv_limit = 80,
+		desc = "現在配備中の装備を分解することで基礎設計を見直し、将来開発が予定される新装備の基礎研究を行う。 ",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 6,
+		sub_name = "小型項目",
+		label = "tag_blue",
+		bg_icon = "item_3",
+		label_color = "tag_e",
+		consume = {
+			{
+				2,
+				10022,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13037,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1532] = {
+		id = 1532,
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		name = "新装備試案作成",
+		lv_limit = 80,
+		desc = "現在配備中の装備を分解することで基礎設計を見直し、将来開発が予定される新装備の基礎研究を行う。 ",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 6,
+		sub_name = "小型項目",
+		label = "tag_blue",
+		bg_icon = "item_3",
+		label_color = "tag_e",
+		consume = {
+			{
+				2,
+				10055,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13039,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1533] = {
+		id = 1533,
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		name = "新装備試案作成",
+		lv_limit = 80,
+		desc = "現在配備中の装備を分解することで基礎設計を見直し、将来開発が予定される新装備の基礎研究を行う。 ",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 6,
+		sub_name = "小型項目",
+		label = "tag_blue",
+		bg_icon = "item_3",
+		label_color = "tag_e",
+		consume = {
+			{
+				2,
+				10073,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13040,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1534] = {
+		id = 1534,
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		name = "新装備試案作成",
+		lv_limit = 80,
+		desc = "現在配備中の装備を分解することで基礎設計を見直し、将来開発が予定される新装備の基礎研究を行う。 ",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 6,
+		sub_name = "小型項目",
+		label = "tag_blue",
+		bg_icon = "item_3",
+		label_color = "tag_e",
+		consume = {
+			{
+				2,
+				10103,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13041,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1535] = {
+		id = 1535,
+		rarity = 3,
+		time = 7200,
+		type = 2,
+		name = "新装備試案作成",
+		lv_limit = 80,
+		desc = "現在配備中の装備を分解することで基礎設計を見直し、将来開発が予定される新装備の基礎研究を行う。 ",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 6,
+		sub_name = "小型項目",
+		label = "tag_blue",
+		bg_icon = "item_3",
+		label_color = "tag_e",
+		consume = {
+			{
+				2,
+				10077,
+				45
+			}
+		},
+		drop_client = {
+			{
+				2,
+				13042,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1601] = {
+		id = 1601,
+		rarity = 3,
+		time = 43200,
+		type = 2,
+		name = "基礎研究",
+		lv_limit = 30,
+		desc = "メンタルキューブに関する基礎理論は、キューブの構造への認識から始まる。キューブの基礎構造についての理論構築作業は依然として全力で取り組まれている。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 7,
+		sub_name = "大型項目",
+		label = "tag_red",
+		bg_icon = "item_3",
+		label_color = "tag_c",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52081,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1602] = {
+		id = 1602,
+		rarity = 3,
+		time = 43200,
+		type = 2,
+		name = "基礎研究",
+		lv_limit = 30,
+		desc = "メンタルキューブに関する基礎理論は、キューブの構造への認識から始まる。キューブの基礎構造についての理論構築作業は依然として全力で取り組まれている。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 7,
+		sub_name = "大型項目",
+		label = "tag_red",
+		bg_icon = "item_3",
+		label_color = "tag_c",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52081,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			},
+			{
+				2,
+				59001,
+				1
+			}
+		}
+	},
+	[1603] = {
+		id = 1603,
+		rarity = 3,
+		time = 14400,
+		type = 2,
+		name = "データ収集",
+		lv_limit = 75,
+		desc = "メンタルキューブの構造に関する様々な仮説に対して、実証実験を行う研究プロジェクト。実戦でデータを収集し、アイデアの科学的証明に寄与しよう。",
+		condition = 52009,
+		bg = "3",
+		blueprint_version = 7,
+		sub_name = "中型項目",
+		label = "tag_red",
+		bg_icon = "battle_3",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52081,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1604] = {
+		id = 1604,
+		rarity = 3,
+		time = 14400,
+		type = 2,
+		name = "データ収集",
+		lv_limit = 80,
+		desc = "メンタルキューブの構造に関する様々な仮説に対して、実証実験を行う研究プロジェクト。実戦でデータを収集し、アイデアの科学的証明に寄与しよう。",
+		condition = 52010,
+		bg = "3",
+		blueprint_version = 7,
+		sub_name = "中型項目",
+		label = "tag_red",
+		bg_icon = "battle_3",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52081,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1605] = {
+		id = 1605,
+		rarity = 3,
+		time = 28800,
+		type = 2,
+		name = "認識指向研究",
+		lv_limit = 30,
+		desc = "メンタルキューブが不特定多数の人間の集合認識――イメージを具現化させるのなら、それを望んだ方向に「指向」させる事により、どんな結果をもたらす事ができるのだろうか。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 7,
+		sub_name = "大型項目",
+		label = "tag_red",
+		bg_icon = "chara_haerfude",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				8000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42061,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1606] = {
+		id = 1606,
+		rarity = 3,
+		time = 28800,
+		type = 2,
+		name = "認識指向研究",
+		lv_limit = 30,
+		desc = "メンタルキューブが不特定多数の人間の集合認識――イメージを具現化させるのなら、それを望んだ方向に「指向」させる事により、どんな結果をもたらす事ができるのだろうか。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 7,
+		sub_name = "大型項目",
+		label = "tag_red",
+		bg_icon = "chara_dashan",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				8000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42062,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1607] = {
+		id = 1607,
+		rarity = 3,
+		time = 28800,
+		type = 2,
+		name = "認識指向研究",
+		lv_limit = 30,
+		desc = "メンタルキューブが不特定多数の人間の集合認識――イメージを具現化させるのなら、それを望んだ方向に「指向」させる事により、どんな結果をもたらす事ができるのだろうか。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 7,
+		sub_name = "大型項目",
+		label = "tag_red",
+		bg_icon = "chara_nabulesi",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				8000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42063,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1608] = {
+		id = 1608,
+		rarity = 3,
+		time = 28800,
+		type = 2,
+		name = "認識指向研究",
+		lv_limit = 30,
+		desc = "メンタルキューブが不特定多数の人間の集合認識――イメージを具現化させるのなら、それを望んだ方向に「指向」させる事により、どんな結果をもたらす事ができるのだろうか。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 7,
+		sub_name = "大型項目",
+		label = "tag_red",
+		bg_icon = "chara_naximofuhaijunshangjiang",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				8000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42064,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1609] = {
+		id = 1609,
+		rarity = 3,
+		time = 28800,
+		type = 2,
+		name = "認識指向研究",
+		lv_limit = 30,
+		desc = "メンタルキューブが不特定多数の人間の集合認識――イメージを具現化させるのなら、それを望んだ方向に「指向」させる事により、どんな結果をもたらす事ができるのだろうか。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 7,
+		sub_name = "大型項目",
+		label = "tag_red",
+		bg_icon = "chara_beiyade",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				8000
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42065,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1611] = {
+		id = 1611,
+		rarity = 3,
+		time = 14400,
+		type = 2,
+		name = "キューブ構造解析",
+		lv_limit = 30,
+		desc = "メンタルキューブを文字通り物理的に「分解」し、構造分析を行う。成功例こそ無いものの、実験を行う価値は大いにあると考えられる。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 7,
+		sub_name = "中型項目",
+		label = "tag_red",
+		bg_icon = "gold_3",
+		label_color = "tag_h",
+		consume = {
+			{
+				2,
+				20001,
+				10
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52081,
+				1
+			},
+			{
+				2,
+				54051,
+				1
+			},
+			{
+				2,
+				15008,
+				1
+			}
+		}
+	},
+	[1612] = {
+		id = 1612,
+		rarity = 3,
+		time = 14400,
+		type = 2,
+		name = "キューブ構造解析",
+		lv_limit = 30,
+		desc = "メンタルキューブを文字通り物理的に「分解」し、構造分析を行う。成功例こそ無いものの、実験を行う価値は大いにあると考えられる。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 7,
+		sub_name = "中型項目",
+		label = "tag_red",
+		bg_icon = "gold_3",
+		label_color = "tag_h",
+		consume = {
+			{
+				2,
+				20001,
+				10
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52081,
+				1
+			},
+			{
+				2,
+				54051,
+				1
+			},
+			{
+				2,
+				15008,
+				1
+			}
+		}
+	},
+	[1613] = {
+		id = 1613,
+		rarity = 3,
+		time = 1800,
+		type = 2,
+		name = "緊急：認識指向研究",
+		lv_limit = 30,
+		desc = "メンタルキューブの認識具現化実験において、思考の散逸率が突如上昇する異常現象が発生した。原理を解明できれば、メンタルキューブに関する理論構築が大きく前進するはずだ。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_red",
+		bg_icon = "chara_haerfude",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			},
+			{
+				2,
+				20001,
+				5
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42061,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1614] = {
+		id = 1614,
+		rarity = 3,
+		time = 1800,
+		type = 2,
+		name = "緊急：認識指向研究",
+		lv_limit = 30,
+		desc = "メンタルキューブの認識具現化実験において、思考の散逸率が突如上昇する異常現象が発生した。原理を解明できれば、メンタルキューブに関する理論構築が大きく前進するはずだ。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_red",
+		bg_icon = "chara_dashan",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			},
+			{
+				2,
+				20001,
+				5
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42062,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1615] = {
+		id = 1615,
+		rarity = 4,
+		time = 1800,
+		type = 2,
+		name = "緊急：認識指向研究",
+		lv_limit = 30,
+		desc = "メンタルキューブの認識具現化実験において、思考の散逸率が突如上昇する異常現象が発生した。原理を解明できれば、メンタルキューブに関する理論構築が大きく前進するはずだ。",
+		condition = 0,
+		bg = "4",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_red",
+		bg_icon = "chara_nabulesi",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			},
+			{
+				2,
+				20001,
+				5
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42063,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1616] = {
+		id = 1616,
+		rarity = 4,
+		time = 1800,
+		type = 2,
+		name = "緊急：認識指向研究",
+		lv_limit = 30,
+		desc = "メンタルキューブの認識具現化実験において、思考の散逸率が突如上昇する異常現象が発生した。原理を解明できれば、メンタルキューブに関する理論構築が大きく前進するはずだ。",
+		condition = 0,
+		bg = "4",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_red",
+		bg_icon = "chara_naximofuhaijunshangjiang",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			},
+			{
+				2,
+				20001,
+				5
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42064,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1617] = {
+		id = 1617,
+		rarity = 3,
+		time = 1800,
+		type = 2,
+		name = "緊急：認識指向研究",
+		lv_limit = 30,
+		desc = "メンタルキューブの認識具現化実験において、思考の散逸率が突如上昇する異常現象が発生した。原理を解明できれば、メンタルキューブに関する理論構築が大きく前進するはずだ。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_red",
+		bg_icon = "chara_beiyade",
+		label_color = "tag_sp",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			},
+			{
+				2,
+				20001,
+				5
+			}
+		},
+		drop_client = {
+			{
+				2,
+				42065,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1619] = {
+		id = 1619,
+		rarity = 3,
+		time = 1800,
+		type = 2,
+		name = "緊急：艤装解析",
+		lv_limit = 30,
+		desc = "メンタルキューブと艤装の共鳴実験においては、とあるパーツが極めて高いシンクロニシティを示した。おそらく今まで解明されていない未知の技術が含まれていると考えられる。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_blue",
+		bg_icon = "gold_3",
+		label_color = "tag_q",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			},
+			{
+				2,
+				17003,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1620] = {
+		id = 1620,
+		rarity = 3,
+		time = 1800,
+		type = 2,
+		name = "緊急：艤装解析",
+		lv_limit = 30,
+		desc = "メンタルキューブと艤装の共鳴実験においては、とあるパーツが極めて高いシンクロニシティを示した。おそらく今まで解明されていない未知の技術が含まれていると考えられる。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_blue",
+		bg_icon = "gold_3",
+		label_color = "tag_q",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			},
+			{
+				2,
+				17013,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1621] = {
+		id = 1621,
+		rarity = 3,
+		time = 1800,
+		type = 2,
+		name = "緊急：艤装解析",
+		lv_limit = 30,
+		desc = "メンタルキューブと艤装の共鳴実験においては、とあるパーツが極めて高いシンクロニシティを示した。おそらく今まで解明されていない未知の技術が含まれていると考えられる。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_blue",
+		bg_icon = "gold_3",
+		label_color = "tag_q",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			},
+			{
+				2,
+				17023,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1622] = {
+		id = 1622,
+		rarity = 3,
+		time = 1800,
+		type = 2,
+		name = "緊急：艤装解析",
+		lv_limit = 30,
+		desc = "メンタルキューブと艤装の共鳴実験においては、とあるパーツが極めて高いシンクロニシティを示した。おそらく今まで解明されていない未知の技術が含まれていると考えられる。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_blue",
+		bg_icon = "gold_3",
+		label_color = "tag_q",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			},
+			{
+				2,
+				17033,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1623] = {
+		id = 1623,
+		rarity = 3,
+		time = 1800,
+		type = 2,
+		name = "緊急：艤装解析",
+		lv_limit = 30,
+		desc = "メンタルキューブと艤装の共鳴実験においては、とあるパーツが極めて高いシンクロニシティを示した。おそらく今まで解明されていない未知の技術が含まれていると考えられる。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_blue",
+		bg_icon = "gold_3",
+		label_color = "tag_q",
+		consume = {
+			{
+				1,
+				1,
+				5000
+			},
+			{
+				2,
+				17043,
+				20
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
+	[1624] = {
+		id = 1624,
+		rarity = 3,
+		time = 1800,
+		type = 2,
+		name = "緊急：人格補完",
+		lv_limit = 30,
+		desc = "上層部から極秘とされている研究プロジェクト。これによって人類だけでなく、世界の生態系そのものに絶大な影響を及ぼす事になるだろう。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_blue",
+		bg_icon = "gold_3",
+		label_color = "tag_sh",
+		consume = {
+			{
+				1,
+				1,
+				8000
+			},
+			{
+				2,
+				20001,
+				3
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52081,
+				1
+			},
+			{
+				2,
+				54051,
+				1
+			},
+			{
+				2,
+				15008,
+				1
+			}
+		}
+	},
+	[1625] = {
+		id = 1625,
+		rarity = 3,
+		time = 1800,
+		type = 2,
+		name = "緊急：人格補完",
+		lv_limit = 30,
+		desc = "上層部から極秘とされている研究プロジェクト。これによって人類だけでなく、世界の生態系そのものに絶大な影響を及ぼす事になるだろう。",
+		condition = 0,
+		bg = "3",
+		blueprint_version = 7,
+		sub_name = "小型項目",
+		label = "tag_blue",
+		bg_icon = "gold_3",
+		label_color = "tag_sh",
+		consume = {
+			{
+				1,
+				1,
+				8000
+			},
+			{
+				2,
+				20001,
+				3
+			}
+		},
+		drop_client = {
+			{
+				2,
+				52081,
+				1
+			},
+			{
+				2,
+				54051,
+				1
+			},
+			{
+				2,
+				15008,
+				1
+			}
+		}
+	},
+	[1626] = {
+		id = 1626,
+		rarity = 3,
+		time = 14400,
+		type = 2,
+		name = "データ収集",
+		lv_limit = 85,
+		desc = "メンタルキューブの構造に関する様々な仮説に対して、実証実験を行う研究プロジェクト。実戦でデータを収集し、アイデアの科学的証明に寄与しよう。",
+		condition = 52011,
+		bg = "3",
+		blueprint_version = 7,
+		sub_name = "中型項目",
+		label = "tag_red",
+		bg_icon = "battle_3",
+		label_color = "tag_b",
+		consume = {},
+		drop_client = {
+			{
+				2,
+				52081,
+				1
+			},
+			{
+				2,
+				52082,
+				1
+			},
+			{
+				2,
+				52003,
+				1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -20426,6 +23789,11 @@ pg.technology_data_template = {
 		523,
 		531,
 		532,
+		533,
+		534,
+		535,
+		536,
+		537,
 		541,
 		542,
 		543,
@@ -20461,6 +23829,58 @@ pg.technology_data_template = {
 		592,
 		593,
 		594,
+		601,
+		602,
+		603,
+		604,
+		611,
+		612,
+		613,
+		614,
+		615,
+		616,
+		617,
+		618,
+		621,
+		622,
+		623,
+		631,
+		632,
+		641,
+		642,
+		643,
+		644,
+		645,
+		646,
+		651,
+		652,
+		653,
+		654,
+		655,
+		661,
+		662,
+		663,
+		664,
+		665,
+		671,
+		672,
+		673,
+		674,
+		675,
+		676,
+		677,
+		678,
+		679,
+		680,
+		681,
+		682,
+		683,
+		684,
+		685,
+		691,
+		692,
+		693,
+		694,
 		1001,
 		1002,
 		1003,
@@ -20632,6 +24052,35 @@ pg.technology_data_template = {
 		1523,
 		1524,
 		1525,
-		1526
+		1526,
+		1531,
+		1532,
+		1533,
+		1534,
+		1535,
+		1601,
+		1602,
+		1603,
+		1604,
+		1605,
+		1606,
+		1607,
+		1608,
+		1609,
+		1611,
+		1612,
+		1613,
+		1614,
+		1615,
+		1616,
+		1617,
+		1619,
+		1620,
+		1621,
+		1622,
+		1623,
+		1624,
+		1625,
+		1626
 	}
 }

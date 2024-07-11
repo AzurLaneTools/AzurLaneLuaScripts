@@ -36,10 +36,17 @@ pg.activity_banner_notice = {
 			{}
 		}
 	},
+	{
+		id = 5,
+		param = {
+			"seltechnology"
+		}
+	},
 	all = {
 		1,
 		2,
 		3,
-		4
+		4,
+		5
 	}
 }

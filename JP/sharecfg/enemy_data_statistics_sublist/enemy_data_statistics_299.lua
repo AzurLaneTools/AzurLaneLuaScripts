@@ -1,5 +1,88 @@
 pg = pg or {}
 pg.enemy_data_statistics_299 = {
+	[16502022] = {
+		cannon = 16,
+		air = 0,
+		torpedo = 26,
+		cannon_growth = 880,
+		id = 16502022,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		torpedo_growth = 2250,
+		hit_growth = 144,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 10,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 30,
+		base = 90744,
+		durability = 510,
+		armor_growth = 0,
+		durability_growth = 19200,
+		antiaircraft = 120,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		antiaircraft_growth = 2250,
+		fog_fx = "",
+		specific_fx_scale = {
+			yuanchou_tianping = 0.04
+		},
+		appear_fx = {
+			"appearsmall",
+			"yuanchou_tianping"
+		},
+		equipment_list = {
+			1100337,
+			1100272,
+			1100492
+		}
+	},
+	[16502023] = {
+		cannon = 18,
+		air = 0,
+		torpedo = 17,
+		cannon_growth = 1800,
+		id = 16502023,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		torpedo_growth = 1250,
+		hit_growth = 144,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 10,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 35,
+		base = 90745,
+		durability = 1190,
+		armor_growth = 0,
+		durability_growth = 35200,
+		antiaircraft = 95,
+		speed = 12,
+		luck = 0,
+		antisub = 0,
+		antiaircraft_growth = 1400,
+		fog_fx = "",
+		specific_fx_scale = {
+			yuanchou_tianping = 0.04
+		},
+		appear_fx = {
+			"appearsmall",
+			"yuanchou_tianping"
+		},
+		equipment_list = {
+			1100552,
+			1100587
+		}
+	},
 	[16502024] = {
 		cannon = 43,
 		air = 0,
@@ -1121,110 +1204,6 @@ pg.enemy_data_statistics_299 = {
 			1101097,
 			1101102,
 			1101107
-		}
-	},
-	[16502206] = {
-		cannon = 140,
-		name = "ラ・ガリソニエール駒式統御武装「Annihilate」",
-		hit_growth = 210,
-		speed_growth = 0,
-		armor = 0,
-		air = 0,
-		icon_type = 5,
-		type = 5,
-		id = 16502206,
-		antiaircraft = 175,
-		antiaircraft_growth = 3600,
-		dodge_growth = 156,
-		fog_fx = "",
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90442,
-		durability = 18120,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 20,
-		luck = 15,
-		antisub = 0,
-		cannon_growth = 2500,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 11,
-		reload_growth = 0,
-		hit = 16,
-		torpedo = 0,
-		durability_growth = 353600,
-		luck_growth = 0,
-		battle_unit_type = 90,
-		specific_fx_scale = {
-			yuanchou_liandao = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_liandao"
-		},
-		equipment_list = {
-			1101092,
-			1101112,
-			1101117,
-			1101122
-		},
-		buff_list = {
-			{
-				ID = 50500,
-				LV = 3
-			}
-		}
-	},
-	[16502301] = {
-		cannon = 180,
-		name = "ジョッフル駒式統御武装「Blast」",
-		hit_growth = 210,
-		speed_growth = 0,
-		armor = 0,
-		air = 0,
-		icon_type = 3,
-		type = 3,
-		id = 16502301,
-		antiaircraft = 185,
-		antiaircraft_growth = 0,
-		fog_fx = "",
-		dodge_growth = 312,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90648,
-		durability = 38600,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 26,
-		luck = 18,
-		antisub = 0,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 22,
-		reload_growth = 0,
-		hit = 25,
-		torpedo = 120,
-		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 95,
-		specific_fx_scale = {
-			yuanchou_gongjian = 0.04
-		},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ",
-			"yuanchou_gongjian"
-		},
-		equipment_list = {
-			3053001,
-			3053002,
-			3053003,
-			3053004,
-			3053005,
-			3053006,
-			3053007
 		}
 	}
 }

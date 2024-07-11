@@ -332,11 +332,19 @@ slot0.refreshRedPoint = function(slot0)
 		end
 	end
 
-	for slot4, slot5 in ipairs(pg.fleet_tech_group.all) do
-		if (not slot0.techList[slot5] or slot0.techList[slot5].studyID == 0) and slot0:getLevelByTecID(slot5) < #pg.fleet_tech_group[slot5].techs and pg.fleet_tech_template[pg.fleet_tech_group[slot5].techs[slot6 + 1]].pt <= slot0.nationToPoint[pg.fleet_tech_group[slot5].nation[1]] then
-			slot0.ifShowRedPoint = true
+	if slot0:isNeedRedPointTecCampUpgrade() then
+		slot1 = getProxy(PlayerProxy):getData().gold
 
-			break
+		for slot5, slot6 in ipairs(pg.fleet_tech_group.all) do
+			if (not slot0.techList[slot6] or slot0.techList[slot6].studyID == 0) and slot0:getLevelByTecID(slot6) < #pg.fleet_tech_group[slot6].techs then
+				slot11 = pg.fleet_tech_template[slot9].cost <= slot1
+
+				if pg.fleet_tech_template[pg.fleet_tech_group[slot6].techs[slot7 + 1]].pt <= slot0.nationToPoint[pg.fleet_tech_group[slot6].nation[1]] and slot11 then
+					slot0.ifShowRedPoint = true
+
+					return
+				end
+			end
 		end
 	end
 
@@ -357,6 +365,20 @@ slot0.isAnyTecCampCanGetAward = function(slot0)
 	end
 
 	return slot1
+end
+
+slot0.Ignore_TecCamp_Upgrade_Key = "Ignore_TecCamp_Upgrade_Key"
+
+slot0.setRedPointIgnoreTecCampUpgrade = function(slot0)
+	PlayerPrefs.SetInt(uv0.Ignore_TecCamp_Upgrade_Key, pg.TimeMgr.GetInstance():GetServerTime())
+end
+
+slot0.isNeedRedPointTecCampUpgrade = function(slot0)
+	if PlayerPrefs.GetInt(uv0.Ignore_TecCamp_Upgrade_Key, 0) ~= 0 then
+		return not pg.TimeMgr.GetInstance():IsSameDay(slot1, pg.TimeMgr.GetInstance():GetServerTime())
+	else
+		return true
+	end
 end
 
 slot0.GetTecList = function(slot0)
