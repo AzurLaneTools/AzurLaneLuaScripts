@@ -48043,3 +48043,355 @@ _G.pg.base.ship_data_breakout[999024] = {
 	use_item = {},
 	weapon_ids = {}
 }
+
+
+_G.pg.base.ship_data_breakout[199051] = {
+	use_gold = 0,
+	pre_id = 0,
+	use_char_num = 1,
+	use_char = 19905,
+	breakout_id = 199052,
+	breakout_view = "Learns All Out Assault I/All weapons' efficiency +2%/Can equip Seaplanes in third weapon slot",
+	id = 199051,
+	icon = "10001",
+	level = 10,
+	use_item = {},
+	weapon_ids = {
+		80321,
+		61101
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[199052] = {
+	use_gold = 0,
+	pre_id = 199051,
+	use_char_num = 1,
+	use_char = 19905,
+	breakout_id = 199053,
+	breakout_view = "All weapons' efficiency +3%",
+	id = 199052,
+	icon = "10001",
+	level = 30,
+	use_item = {},
+	weapon_ids = {
+		101,
+		108,
+		61101
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[199053] = {
+	use_gold = 0,
+	pre_id = 199052,
+	use_char_num = 2,
+	use_char = 19905,
+	breakout_id = 199054,
+	breakout_view = "Improves All Out Assault I/All weapons' efficiency +5%",
+	id = 199053,
+	icon = "10001",
+	level = 70,
+	use_item = {},
+	weapon_ids = {
+		80322,
+		61101
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[199054] = {
+	use_gold = 0,
+	pre_id = 199053,
+	use_char_num = 0,
+	use_char = 19905,
+	breakout_id = 0,
+	breakout_view = "None",
+	id = 199054,
+	icon = "10001",
+	level = 0,
+	use_item = {},
+	weapon_ids = {}
+}
+
+
+_G.pg.base.ship_data_breakout[699021] = {
+	use_gold = 0,
+	pre_id = 0,
+	use_char_num = 1,
+	use_char = 69902,
+	breakout_id = 699022,
+	breakout_view = "Learns All Out Assault I/Main Gun efficiency +5%",
+	id = 699021,
+	icon = "10001",
+	level = 10,
+	use_item = {},
+	weapon_ids = {
+		170551,
+		170553
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[699022] = {
+	use_gold = 0,
+	pre_id = 699021,
+	use_char_num = 1,
+	use_char = 69902,
+	breakout_id = 699023,
+	breakout_view = "Secondary Gun efficiency +10%",
+	id = 699022,
+	icon = "10001",
+	level = 30,
+	use_item = {},
+	weapon_ids = {
+		101,
+		101
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[699023] = {
+	use_gold = 0,
+	pre_id = 699022,
+	use_char_num = 2,
+	use_char = 69902,
+	breakout_id = 699024,
+	breakout_view = "Improves All Out Assault I/All weapons' efficiency +5%",
+	id = 699023,
+	icon = "10001",
+	level = 70,
+	use_item = {},
+	weapon_ids = {
+		170552,
+		170554
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[699024] = {
+	use_gold = 0,
+	pre_id = 699023,
+	use_char_num = 0,
+	use_char = 69902,
+	breakout_id = 0,
+	breakout_view = "None",
+	id = 699024,
+	icon = "10001",
+	level = 0,
+	use_item = {},
+	weapon_ids = {}
+}
+
+
+_G.pg.base.ship_data_breakout[799021] = {
+	use_gold = 0,
+	pre_id = 0,
+	use_char_num = 1,
+	use_char = 79902,
+	breakout_id = 799022,
+	breakout_view = "Dive Bomber efficiency +5%/Torpedo Bomber efficiency +5%",
+	id = 799021,
+	icon = "10001",
+	level = 10,
+	use_item = {},
+	weapon_ids = {
+		61091,
+		54014
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[799022] = {
+	use_gold = 0,
+	pre_id = 799021,
+	use_char_num = 1,
+	use_char = 79902,
+	breakout_id = 799023,
+	breakout_view = "Hangar capacity +1/Fighter efficiency +10%",
+	id = 799022,
+	icon = "10001",
+	level = 30,
+	use_item = {},
+	weapon_ids = {
+		61092,
+		54014,
+		61092,
+		54014
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[799023] = {
+	use_gold = 0,
+	pre_id = 799022,
+	use_char_num = 2,
+	use_char = 79902,
+	breakout_id = 799024,
+	breakout_view = "Aircraft efficiency +5%/Can equip any aircraft in Dive Bomber slot",
+	id = 799023,
+	icon = "10001",
+	level = 70,
+	use_item = {},
+	weapon_ids = {
+		61093,
+		54015,
+		61093,
+		54015
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[799024] = {
+	use_gold = 0,
+	pre_id = 799023,
+	use_char_num = 0,
+	use_char = 79902,
+	breakout_id = 0,
+	breakout_view = "None",
+	id = 799024,
+	icon = "10001",
+	level = 0,
+	use_item = {},
+	weapon_ids = {}
+}
+
+
+_G.pg.base.ship_data_breakout[399071] = {
+	use_gold = 0,
+	pre_id = 0,
+	use_char_num = 1,
+	use_char = 39907,
+	breakout_id = 399072,
+	breakout_view = "Main Gun base +1/Main Gun efficiency +5%",
+	id = 399071,
+	icon = "10001",
+	level = 10,
+	use_item = {},
+	weapon_ids = {
+		34320,
+		34320
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[399072] = {
+	use_gold = 0,
+	pre_id = 399071,
+	use_char_num = 1,
+	use_char = 39907,
+	breakout_id = 399073,
+	breakout_view = "Secondary Gun base +2/Main Gun efficiency +10%",
+	id = 399072,
+	icon = "10001",
+	level = 30,
+	use_item = {},
+	weapon_ids = {
+		101,
+		101,
+		101
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[399073] = {
+	use_gold = 0,
+	pre_id = 399072,
+	use_char_num = 2,
+	use_char = 39907,
+	breakout_id = 399074,
+	breakout_view = "Main Gun base +1/Main Gun efficiency +15%",
+	id = 399073,
+	icon = "10001",
+	level = 70,
+	use_item = {},
+	weapon_ids = {
+		34320,
+		34320,
+		34320
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[399074] = {
+	use_gold = 0,
+	pre_id = 399073,
+	use_char_num = 0,
+	use_char = 39907,
+	breakout_id = 0,
+	breakout_view = "None",
+	id = 399074,
+	icon = "10001",
+	level = 0,
+	use_item = {},
+	weapon_ids = {}
+}
+
+
+_G.pg.base.ship_data_breakout[899041] = {
+	use_gold = 0,
+	pre_id = 0,
+	use_char_num = 1,
+	use_char = 89904,
+	breakout_id = 899042,
+	breakout_view = "Learns All Out Assault I/Main Gun efficiency +5%",
+	id = 899041,
+	icon = "10001",
+	level = 10,
+	use_item = {},
+	weapon_ids = {
+		80311
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[899042] = {
+	use_gold = 0,
+	pre_id = 899041,
+	use_char_num = 1,
+	use_char = 89904,
+	breakout_id = 899043,
+	breakout_view = "Torpedo efficiency +10%/Main Gun base +1",
+	id = 899042,
+	icon = "10001",
+	level = 30,
+	use_item = {},
+	weapon_ids = {
+		100,
+		106,
+		100,
+		106
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[899043] = {
+	use_gold = 0,
+	pre_id = 899042,
+	use_char_num = 2,
+	use_char = 89904,
+	breakout_id = 899044,
+	breakout_view = "Improves All Out Assault I/Main Gun efficiency +10%",
+	id = 899043,
+	icon = "10001",
+	level = 70,
+	use_item = {},
+	weapon_ids = {
+		80312
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[899044] = {
+	use_gold = 0,
+	pre_id = 899043,
+	use_char_num = 0,
+	use_char = 89904,
+	breakout_id = 0,
+	breakout_view = "None",
+	id = 899044,
+	icon = "10001",
+	level = 0,
+	use_item = {},
+	weapon_ids = {}
+}

@@ -328,6 +328,20 @@ pg.skill_data_template = setmetatable({
 		60580,
 		60590,
 		60600,
+		60610,
+		60611,
+		60612,
+		60613,
+		60614,
+		60615,
+		60616,
+		60617,
+		60618,
+		60619,
+		60620,
+		60621,
+		60622,
+		60623,
 		7000,
 		9010,
 		9020,
@@ -1260,6 +1274,18 @@ pg.skill_data_template = setmetatable({
 		19740,
 		19750,
 		19760,
+		19770,
+		19780,
+		19790,
+		19800,
+		19810,
+		19820,
+		19830,
+		19840,
+		19850,
+		19860,
+		19870,
+		19880,
 		20011,
 		20012,
 		20021,
@@ -1750,6 +1776,12 @@ pg.skill_data_template = setmetatable({
 		30272,
 		30281,
 		30282,
+		30291,
+		30292,
+		30301,
+		30302,
+		30311,
+		30312,
 		101010,
 		101020,
 		101030,
@@ -2206,6 +2238,7 @@ pg.skill_data_template = setmetatable({
 		902250,
 		902260,
 		902270,
+		902280,
 		1010140,
 		1010390,
 		1010410,
@@ -2262,6 +2295,7 @@ pg.skill_data_template = setmetatable({
 		1019080,
 		1011170,
 		1010090,
+		1011590,
 		1090010,
 		1090020,
 		1090030,
@@ -2287,7 +2321,8 @@ pg.skill_data_template = setmetatable({
 		1090230,
 		1090240,
 		1090250,
-		1090260
+		1090260,
+		1090270
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -12169,6 +12204,202 @@ pg.base.skill_data_template = {
 		max_level = 0,
 		desc = "When equipped by a Sakura Empire Vanguard ship: increases this ship's FP by 5.0%. When this ship fires her AA guns: halves this FP buff for 3s.",
 		id = 60600,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60610] = {
+		desc_get = "",
+		name = "Prototype F8F Bearcat (Float)",
+		type = 0,
+		max_level = 0,
+		desc = "When the wearer is a DD and launches an airstrike: summons 3 additional Prototype F8F Bearcats (Float).",
+		id = 60610,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60611] = {
+		desc_get = "",
+		name = "Prototype F8F Bearcat (Float)",
+		type = 0,
+		max_level = 0,
+		desc = "When the wearer is a DD and launches an airstrike: summons 3 additional Prototype F8F Bearcats (Floating Type).",
+		id = 60611,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60612] = {
+		desc_get = "",
+		name = "Prototype F8F Bearcat (Float)",
+		type = 0,
+		max_level = 0,
+		desc = "When the wearer is a DD and launches an airstrike: summons 3 additional Prototype F8F Bearcats (Floating Type).",
+		id = 60612,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60613] = {
+		desc_get = "",
+		name = "Prototype F8F Bearcat (Float)",
+		type = 0,
+		max_level = 0,
+		desc = "When the wearer is a DD and launches an airstrike: summons 3 additional Prototype F8F Bearcats (Floating Type).",
+		id = 60613,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60614] = {
+		desc_get = "",
+		name = "Prototype F8F Bearcat (Float)",
+		type = 0,
+		max_level = 0,
+		desc = "When the wearer is a DD and launches an airstrike: summons 3 additional Prototype F8F Bearcats (Floating Type).",
+		id = 60614,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60615] = {
+		desc_get = "",
+		name = "Prototype F8F Bearcat (Float)",
+		type = 0,
+		max_level = 0,
+		desc = "When the wearer is a DD and launches an airstrike: summons 3 additional Prototype F8F Bearcats (Floating Type).",
+		id = 60615,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60616] = {
+		desc_get = "",
+		name = "Prototype F8F Bearcat (Float)",
+		type = 0,
+		max_level = 0,
+		desc = "When the wearer is a DD and launches an airstrike: summons 3 additional Prototype F8F Bearcats (Floating Type).",
+		id = 60616,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60617] = {
+		desc_get = "",
+		name = "Prototype F8F Bearcat (Float)",
+		type = 0,
+		max_level = 0,
+		desc = "When the wearer is a DD and launches an airstrike: summons 3 additional Prototype F8F Bearcats (Floating Type).",
+		id = 60617,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60618] = {
+		desc_get = "",
+		name = "Prototype F8F Bearcat (Float)",
+		type = 0,
+		max_level = 0,
+		desc = "When the wearer is a DD and launches an airstrike: summons 3 additional Prototype F8F Bearcats (Floating Type).",
+		id = 60618,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60619] = {
+		desc_get = "",
+		name = "Prototype F8F Bearcat (Float)",
+		type = 0,
+		max_level = 0,
+		desc = "When the wearer is a DD and launches an airstrike: summons 3 additional Prototype F8F Bearcats (Floating Type).",
+		id = 60619,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60620] = {
+		desc_get = "",
+		name = "Prototype F8F Bearcat (Float)",
+		type = 0,
+		max_level = 0,
+		desc = "When the wearer is a DD and launches an airstrike: summons 3 additional Prototype F8F Bearcats (Floating Type).",
+		id = 60620,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60621] = {
+		desc_get = "",
+		name = "Prototype F8F Bearcat (Float)",
+		type = 0,
+		max_level = 0,
+		desc = "When the wearer is a DD and launches an airstrike: summons 3 additional Prototype F8F Bearcats (Floating Type).",
+		id = 60621,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60622] = {
+		desc_get = "",
+		name = "Prototype F8F Bearcat (Float)",
+		type = 0,
+		max_level = 0,
+		desc = "When the wearer is a DD and launches an airstrike: summons 3 additional Prototype F8F Bearcats (Floating Type).",
+		id = 60622,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60623] = {
+		desc_get = "",
+		name = "Prototype F8F Bearcat (Float)",
+		type = 0,
+		max_level = 0,
+		desc = "When the wearer is a DD and launches an airstrike: summons 3 additional Prototype F8F Bearcats (Floating Type).",
+		id = 60623,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -105840,6 +106071,1362 @@ One of the following two effects apply based on what type of weapon this ship ha
 			}
 		}
 	},
+	[19770] = {
+		desc_get = "",
+		name = "The Dauntless Exemplar",
+		type = 3,
+		max_level = 10,
+		desc = "Decreases this ship's torpedo DMG taken by $1. Every 10s, this ship gains the Exemplary Knight status: for 5s, increases this ship's SPD by 20.0%, EVA by $2, and Evasion Rate by $1, and fires a $3 special barrage (DMG is based on the skill's level).",
+		id = 19770,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[19780] = {
+		desc_get = "",
+		name = "Blade of Iris Aspirations",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's FP and RLD by $1. The lower this ship's current HP is, the more DMG she deals (up to 15.0% more DMG). Once per battle, when this ship's HP falls below 50.0% as a result of DMG taken: for 5s, this ship evades all attacks; when this effect activates, decreases the ACC of all enemies present on the battlefield by $1 until the battle ends.",
+		id = 19780,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[19790] = {
+		desc_get = "",
+		name = "Nocturnal Judgment",
+		type = 1,
+		max_level = 10,
+		desc = "When the battle starts, if this ship has Eagle Union gear equipped: increases this ship's AVI by $1. Every 15s: targets a random enemy (humanoid enemies are prioritized) and decreases that enemy's EVA by $2 for 6s and launches a $3 seaplane attack (DMG is based on the skill's level). If this seaplane hits the random enemy targeted by this skill: increases that enemy's cannon DMG taken by 8.0% for 6s.",
+		id = 19790,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[19800] = {
+		desc_get = "",
+		name = "Pedigree of Perfection",
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's EVA by $1. If this ship does NOT have a Seaplane equipped: increases this ship's TRP and AA by $3, decreases her DMG taken by $4, and, every 15s, fires a $5 special barrage (DMG is based on the skill's level).\nIf this ship has a Seaplane equipped, activates the following effects:1) When this ship launches an odd number of airstrikes: deploys a smokescreen (lasts 5s) that increases Evasion Rate by $2 for all your ships in it (does not stack with other smokescreen skills);2) When this ship launches an even number of airstrikes: restores 4.0% of this ship's max HP and extinguishes any Burn this ship is afflicted with.",
+		id = 19800,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"15.0%",
+				"30.0%"
+			},
+			{
+				"20.0%",
+				"40.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.6%"
+				},
+				{
+					"19.8%",
+					"+1.6%"
+				},
+				{
+					"21.4%",
+					"+1.6%"
+				},
+				{
+					"23.0%",
+					"+1.6%"
+				},
+				{
+					"24.6%",
+					"+1.8%"
+				},
+				{
+					"26.4%",
+					"+1.8%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[19810] = {
+		desc_get = "",
+		name = "Destructive Connection: Peak Load Crash",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's AVI and ACC by $1 and Crit Rate by $2. When this ship launches an airstrike: launches an additional $3 special airstrike (DMG is based on the skill's level); 1.5s after this effect activates, inflicts the Crashed debuff to all enemies on the battlefield, decreasing their SPD by 60.0% for 5s.",
+		id = 19810,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[19820] = {
+		desc_get = "",
+		name = "Vulnerability Exploit: Security Breach",
+		type = 3,
+		max_level = 10,
+		desc = "When this ship launches an airstrike: targets a random enemy (prioritizes humanoid enemies) and decreases that enemy's AA and EVA by 5.0% for 6s and increases their DMG taken by 5.0%.\nEnemies with a SPD-decreasing debuff inflicted by another Northern Parliament ship's skill in your fleet gain the Enfeebled debuff; when an enemy with the Enfeebled debuff is inflicted with the Crashed status, their SPD is set to 0 for 2.5s.\nIncreases this ship's Crit DMG against enemies with the Enfeebled debuff by $1.",
+		id = 19820,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"20.0%",
+				"40.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			}
+		}
+	},
+	[19830] = {
+		desc_get = "",
+		name = "Authorization Module: Trusted Certificate",
+		type = 2,
+		max_level = 10,
+		desc = "Increases this ship's AA and EVA by $1. Every 25s after the battle starts: for 5s, increases this ship's Detection Gauge recovery speed by 2.\nOnce per battle, when this ship's HP falls below 40.0% as a result of DMG taken: sets this ship's Detection Gauge to 0 and any Burn DMG this ship takes for the next 8s is set to 0; this effect does not extinguish an active Burn.",
+		id = 19830,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[19840] = {
+		desc_get = "",
+		name = "Requiem Aeternam",
+		type = 1,
+		max_level = 10,
+		desc = "During battle, this ship uses a special $1 Secondary Gun (fires once every second; barrage pattern is based on the skill's level). Increases this ship's FP and EVA by $2. While there is an enemy within 40 units of this ship: this ship's Main Guns, Secondary Guns, and special Secondary Gun all ignore enemy shields.",
+		id = 19840,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.2"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.2"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[19850] = {
+		desc_get = "",
+		name = "Caelum Imbrialis",
+		type = 2,
+		max_level = 10,
+		desc = "When the battle starts, and every 20s: deploys a smokescreen (lasts 5s) that increases Evasion Rate by $1 for all your ships in it (does not stack with other smokescreen skills). \nAfter the above effect activates: for 5s, creates an exhaust smokescreen (lasts 1s) every 0.5s that increases Napoli's Evasion Rate by $2 and Secondary Gun efficiency by $3 (this does not affect her special Secondary Gun) while she is inside the smokescreen; other smokescreen skills do not affect Napoli during the active duration.",
+		id = 19850,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"20.0%",
+				"40.0%"
+			},
+			{
+				"20.0%",
+				"40.0%"
+			},
+			{
+				"50.0%",
+				"100.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			},
+			{
+				{
+					"50.0%",
+					"+5.0%"
+				},
+				{
+					"55.0%",
+					"+5.0%"
+				},
+				{
+					"60.0%",
+					"+5.0%"
+				},
+				{
+					"65.0%",
+					"+5.0%"
+				},
+				{
+					"70.0%",
+					"+5.0%"
+				},
+				{
+					"75.0%",
+					"+5.0%"
+				},
+				{
+					"80.0%",
+					"+5.0%"
+				},
+				{
+					"85.0%",
+					"+5.0%"
+				},
+				{
+					"90.0%",
+					"+10.0%"
+				},
+				{
+					"100%"
+				}
+			}
+		}
+	},
+	[19860] = {
+		desc_get = "",
+		name = "Causality Anchor",
+		type = 1,
+		max_level = 10,
+		desc = [[
+When the battle starts: increases this ship's FP and TRP by $1. When this ship fires her Main Guns: fires a $2 special barrage (DMG is based on the skill's level) and alternatingly activates one of these two effects: 
+ 1) Inflicts a special Burn ailment to enemies hit by the special barrage, lasting 15s;
+ 2) When firing the special barrage, also fires a $2 torpedo barrage (DMG is based on the skill's level);
+ If this ship has a Sakura Empire Anti-Air Gun equipped, the above effects activate in the opposite order.
+ When this ship's HP falls below 30.0% as a result of DMG taken: when this skill activates, both effects 1 and 2 will activate simultaneously until the battle ends.]],
+		id = 19860,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"20.0%",
+				"40.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
+				}
+			}
+		}
+	},
+	[19870] = {
+		desc_get = "",
+		name = "Blessings and Purity",
+		type = 3,
+		max_level = 10,
+		desc = "When this ship's Main Guns finish loading: launches a recon plane and targets the enemy furthest from this ship, increasing this ship's DMG dealt to that enemy by $1 for 10s.\nIf the recon plane launched by this skill is shot down: restores $2 of your Vanguard's max HP. Once per battle, when 2 recon planes launched by this skill have been shot down, also restores 5.0% max HP for the ship in your Vanguard with the lowest current HP percentage.",
+		id = 19870,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			}
+		}
+	},
+	[19880] = {
+		desc_get = "",
+		name = "那不勒斯燃油烟雾buff效果占位",
+		type = 3,
+		max_level = 10,
+		desc = "那不勒斯燃油烟雾占位",
+		id = 19880,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[20011] = {
 		desc_get = "",
 		name = "All Out Assault I",
@@ -112701,6 +114288,90 @@ One of the following two effects apply based on what type of weapon this ship ha
 		max_level = 1,
 		desc = "Every 10 times this ship fires her Main Guns: fires a special barrage.",
 		id = 30282,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[30291] = {
+		desc_get = "",
+		name = "All Out Assault I",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Bayard once every 12 times the Main Guns are fired.",
+		id = 30291,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[30292] = {
+		desc_get = "",
+		name = "All Out Assault II",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault II: Bayard once every 8 times the Main Guns are fired.",
+		id = 30292,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[30301] = {
+		desc_get = "",
+		name = "All Out Assault I",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Halford once every 15 times the Main Guns are fired.",
+		id = 30301,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[30302] = {
+		desc_get = "",
+		name = "All Out Assault II",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault II: Halford once every 10 times the Main Guns are fired.",
+		id = 30302,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[30311] = {
+		desc_get = "",
+		name = "All Out Assault I",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Napoli once every 12 times the Main Guns are fired. Activates a level 1 special torpedo barrage every 10 times this ship's special Secondary Gun is fired.",
+		id = 30311,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[30312] = {
+		desc_get = "",
+		name = "All Out Assault II",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault II: Napoli once every 8 times the Main Guns are fired. Activates a level 2 special torpedo barrage every 10 times this ship's special Secondary Gun is fired.",
+		id = 30312,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -140712,6 +142383,20 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[902280] = {
+		desc_get = "",
+		name = "Airspace Training",
+		type = 3,
+		max_level = 1,
+		desc = "Increases this ship's Fighter and Torpedo Bomber efficiency by 10%.",
+		id = 902280,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[1010140] = {
 		desc_get = "",
 		name = "Eagle's Tears+",
@@ -147331,6 +149016,112 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 			}
 		}
 	},
+	[1011590] = {
+		desc_get = "",
+		name = "Airspace Dominance+",
+		type = 3,
+		max_level = 10,
+		desc = "When the battle starts, if there are 3 or more Royal Navy ships in your fleet: increases this ship's DMG dealt by $2. When this ship launches an airstrike: increases your Main Fleet's AVI by $1 and FP by $2 for 8s.",
+		id = 1011590,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5%",
+				"15%"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.4%"
+				},
+				{
+					"4.4%",
+					"+0.4%"
+				},
+				{
+					"4.8%",
+					"+0.7%"
+				},
+				{
+					"5.5%",
+					"+0.6%"
+				},
+				{
+					"6.1%",
+					"+0.6%"
+				},
+				{
+					"6.7%",
+					"+0.8%"
+				},
+				{
+					"7.5%",
+					"+0.7%"
+				},
+				{
+					"8.2%",
+					"+0.7%"
+				},
+				{
+					"8.9%",
+					"+1.1%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
 	[1090010] = {
 		desc_get = "",
 		name = "Fleet Carrier - Glorious",
@@ -150555,6 +152346,148 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 				},
 				{
 					"5.0%"
+				}
+			}
+		}
+	},
+	[1090270] = {
+		desc_get = "",
+		name = "Tactical Command – Leipzig",
+		type = 3,
+		max_level = 10,
+		desc = "Increases your Cruisers' FP, TRP, and RLD by $1 (does not stack with similar Tactical Command skills). When the battle starts: increases this ship's TRP and AA by $2, and fires a $3 special barrage every 15s (DMG is based on the skill's level).",
+		id = 1090270,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1%",
+				"10%"
+			},
+			{
+				"15%",
+				"25%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.1%"
+				},
+				{
+					"16.1%",
+					"+1.1%"
+				},
+				{
+					"17.2%",
+					"+1.1%"
+				},
+				{
+					"18.3%",
+					"+1.1%"
+				},
+				{
+					"19.4%",
+					"+1.1%"
+				},
+				{
+					"20.5%",
+					"+1.1%"
+				},
+				{
+					"21.6%",
+					"+1.1%"
+				},
+				{
+					"22.7%",
+					"+1.1%"
+				},
+				{
+					"23.8%",
+					"+1.2%"
+				},
+				{
+					"25.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
 				}
 			}
 		}

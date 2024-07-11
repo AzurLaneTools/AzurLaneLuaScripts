@@ -236,6 +236,40 @@ slot0.register = function(slot0)
 	end)
 end
 
+slot0.timeCall = function(slot0)
+	return {
+		[ProxyRegister.DayCall] = function (slot0)
+			if uv0:getRawData() then
+				slot1:ResetTechCancelCnt()
+
+				if slot1:getWeeklyTask() and slot2:isExpire() then
+					getProxy(TaskProxy):removeTaskById(slot2:GetPresonTaskId())
+
+					slot1.weeklyTaskFlag = 0
+				end
+
+				if slot1:GetActiveEvent() then
+					slot3:GetBossMission():ResetDailyCnt()
+				end
+
+				if slot0 == 1 then
+					slot1:ResetActiveEventCnt()
+				end
+
+				uv0:updateGuild(slot1)
+			end
+
+			if uv0:GetPublicGuild() then
+				onDelayTick(function ()
+					uv0:sendNotification(GAME.GET_PUBLIC_GUILD_USER_DATA, {
+						flag = true
+					})
+				end, math.random(2, 5))
+			end
+		end
+	}
+end
+
 slot0.AddPublicGuild = function(slot0, slot1)
 	slot0.publicGuild = slot1
 end

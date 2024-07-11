@@ -287,6 +287,7 @@ pg.memory_group = setmetatable({
 		597,
 		598,
 		599,
+		600,
 		1000,
 		1001,
 		1002
@@ -6188,6 +6189,23 @@ pg.base.memory_group = {
 			3675,
 			3676,
 			3677
+		}
+	},
+	[600] = {
+		title = "Emotional Overload",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 600,
+		icon = "title_chara_aersasi",
+		memories = {
+			3691,
+			3692,
+			3693,
+			3694,
+			3695,
+			3696,
+			3697
 		}
 	},
 	[1000] = {

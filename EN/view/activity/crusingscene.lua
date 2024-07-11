@@ -160,7 +160,7 @@ slot0.didEnter = function(slot0)
 	end
 
 	GetComponent(slot0.textTip, "RichText"):AddSprite("pt", GetSpriteFromAtlas(Drop.New({
-		type = DROP_TYPE_RESOURCE,
+		type = DROP_TYPE_VITEM,
 		id = slot0.ptId
 	}):getIcon(), ""))
 	setText(slot0.textTip, i18n(slot0.activity:getConfig("config_client").tips[1]))
@@ -202,7 +202,7 @@ slot0.didEnter = function(slot0)
 
 	slot0:updateMapStatus()
 	LoadImageSpriteAtlasAsync(Drop.New({
-		type = DROP_TYPE_RESOURCE,
+		type = DROP_TYPE_VITEM,
 		id = slot0.ptId
 	}):getIcon(), "", slot0.sliderPt:Find("Text/icon"), true)
 	slot0:updateMapWay()
@@ -481,14 +481,13 @@ slot0.openBuyPanel = function(slot0)
 	slot5 = nil
 	slot6 = slot2:getConfig("sub_display")
 	slot7 = slot6[1]
-	slot8 = pg.battlepass_event_pt[slot7].pt
 	slot5 = Drop.New({
-		type = DROP_TYPE_RESOURCE,
+		type = DROP_TYPE_VITEM,
 		id = pg.battlepass_event_pt[slot7].pt,
 		count = slot6[2]
 	})
-	slot4 = PlayerConst.MergePassItemDrop(underscore.map(pg.battlepass_event_pt[slot7].drop_client_pay, function (slot0)
-		return Drop.Create(slot0)
+	slot4 = PlayerConst.MergePassItemDrop(underscore.map(pg.battlepass_event_pt[slot7].award_pay, function (slot0)
+		return Drop.Create(pg.battlepass_event_award[slot0].drop_client)
 	end))
 	slot10 = nil
 

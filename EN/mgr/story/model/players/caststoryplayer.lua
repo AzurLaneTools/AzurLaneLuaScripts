@@ -125,8 +125,8 @@ slot0.SpeedUp = function(slot0, slot1, slot2)
 	slot0:PlayAnimation(slot1 * 0.2, slot2)
 end
 
-slot0.RegisetEvent = function(slot0, slot1)
-	uv0.super.RegisetEvent(slot0, slot1)
+slot0.RegisetEvent = function(slot0, slot1, slot2)
+	uv0.super.RegisetEvent(slot0, slot1, slot2)
 	triggerButton(slot0._go)
 end
 

@@ -362,8 +362,14 @@ slot0.didEnter = function(slot0)
 			if slot0 == UIItemList.EventUpdate then
 				slot2.name = "version_" .. slot1
 
-				GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "version_" .. slot1, slot2:Find("image"))
-				setText(slot2:Find("number/Text"), string.format("%02d", slot1))
+				GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "newVersion_" .. slot1, slot2:Find("image"))
+
+				if uv0.version == slot1 then
+					setActive(slot2:Find("choose"), true)
+				else
+					setActive(slot2:Find("choose"), false)
+				end
+
 				onButton(uv0, slot2, function ()
 					uv0.version = uv1
 
@@ -374,6 +380,7 @@ slot0.didEnter = function(slot0)
 					GetImageSpriteFromAtlasAsync("ui/shipblueprintui_atlas", "version_" .. uv0.version, uv0.versionBtn)
 					uv0:initShips()
 					uv0:updateVersionBtnTip()
+					uv2:align(uv3)
 					pg.UIMgr.GetInstance():UnblurPanel(uv0.versionPanel, uv0._tf)
 					setActive(uv0.versionPanel, false)
 				end, SFX_CANCEL)
@@ -1749,18 +1756,19 @@ slot0.updateTasksProgress = function(slot0)
 end
 
 slot0.updatePainting = function(slot0)
-	slot2 = slot0.contextData.shipBluePrintVO:getShipVO()
+	slot3 = slot0.contextData.shipBluePrintVO:getShipVO():getPainting()
 
-	if slot0.lastPaintingName and slot0.lastPaintingName ~= slot2:getPainting() then
+	if PLATFORM_CODE == PLATFORM_CH and checkABExist("painting/" .. slot3 .. "_blueprint") then
+		slot3 = slot3 .. "_blueprint"
+	end
+
+	if slot0.lastPaintingName and slot0.lastPaintingName ~= slot3 then
 		retPaintingPrefab(slot0.painting, slot0.lastPaintingName)
 	end
 
-	slot3 = slot2:getPainting()
-
-	setPaintingPrefab(slot0.painting, slot3, "tuzhi")
-
 	slot0.lastPaintingName = slot3
 
+	setPaintingPrefab(slot0.painting, slot3, "tuzhi")
 	slot0:paintBreath()
 end
 

@@ -10,3 +10,4 @@ require("Support/Helpers/MediaSaver")
 
 ReflectionHelp = require("Support/Helpers/ReflectionHelp")
 Heap = require("Support/Helpers/Heap")
+ProxyRegister = require("Support/Helpers/ProxyRegister")

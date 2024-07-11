@@ -82,6 +82,26 @@ slot0.register = function(slot0)
 	end)
 end
 
+slot0.timeCall = function(slot0)
+	return {
+		[ProxyRegister.DayCall] = function (slot0)
+			slot1 = nowWorld()
+
+			if pg.TimeMgr.GetInstance():GetServerWeek() == 1 then
+				slot1.staminaMgr.staminaExchangeTimes = 0
+			end
+
+			if slot1 then
+				slot3 = slot1:GetBossProxy()
+
+				slot3:increasePt()
+				slot3:ClearSummonPtDailyAcc()
+				slot3:ClearSummonPtOldAcc()
+			end
+		end
+	}
+end
+
 slot0.remove = function(slot0)
 	if slot0.world then
 		slot0.world:GetBossProxy():Dispose()

@@ -48,14 +48,6 @@ slot0.UpdateActivies = function(slot0, slot1, slot2)
 		uv0.UpdateActivity(slot8, slot3[slot9])
 	end
 
-	slot7 = ActivityConst.ACTIVITY_TYPE_PT_CRUSING
-
-	for slot7, slot8 in ipairs(slot0.activityProxy:getActivitiesByType(slot7)) do
-		slot3[slot9] = slot3[pg.battlepass_event_pt[slot8.id].pt] or slot2:getResource(slot9) - slot1:getResource(slot9)
-
-		uv0.UpdateActivity(slot8, slot3[slot9])
-	end
-
 	slot7 = ActivityConst.ACTIVITY_TYPE_RETURN_AWARD
 
 	for slot7, slot8 in ipairs(slot0.activityProxy:getActivitiesByType(slot7)) do
@@ -105,12 +97,6 @@ slot0.UpdateActivity = function(slot0, slot1)
 	elseif slot3 == ActivityConst.ACTIVITY_TYPE_BOSS_RANK then
 		if slot1 ~= 0 then
 			slot0.data1 = slot0.data1 + slot1
-
-			slot2:updateActivity(slot0)
-		end
-	elseif slot3 == ActivityConst.ACTIVITY_TYPE_PT_CRUSING then
-		if not slot0:isEnd() and slot1 ~= 0 then
-			slot0.data1 = slot0.data1 + math.abs(slot1)
 
 			slot2:updateActivity(slot0)
 		end

@@ -75,6 +75,14 @@ slot0.register = function(slot0)
 	end)
 end
 
+slot0.timeCall = function(slot0)
+	return {
+		[ProxyRegister.DayCall] = function (slot0)
+			uv0:clearTimeOut()
+		end
+	}
+end
+
 slot0.clearTimeOut = function(slot0)
 	getProxy(AvatarFrameProxy):clearTimeOut()
 	getProxy(TaskProxy):clearTimeOut()

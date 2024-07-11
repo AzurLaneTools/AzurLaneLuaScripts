@@ -888,7 +888,7 @@ slot0.GetCrusingUnreceiveAward = function(slot0)
 		if slot0.data1 < slot8 then
 			break
 		elseif not slot3[slot8] then
-			table.insert(slot2, Drop.Create(slot1.drop_client[slot7]))
+			table.insert(slot2, Drop.Create(pg.battlepass_event_award[slot1.award[slot7]].drop_client))
 		end
 	end
 
@@ -906,7 +906,7 @@ slot0.GetCrusingUnreceiveAward = function(slot0)
 		if slot0.data1 < slot9 then
 			break
 		elseif not slot4[slot9] then
-			table.insert(slot2, Drop.Create(slot1.drop_client_pay[slot8]))
+			table.insert(slot2, Drop.Create(pg.battlepass_event_award[slot1.award_pay[slot8]].drop_client))
 		end
 	end
 
@@ -928,8 +928,8 @@ slot0.GetCrusingInfo = function(slot0)
 		table.insert(slot3, {
 			id = slot8,
 			pt = slot9,
-			award = slot1.drop_client[slot8],
-			award_pay = slot1.drop_client_pay[slot8],
+			award = pg.battlepass_event_award[slot1.award[slot8]].drop_client,
+			award_pay = pg.battlepass_event_award[slot1.award_pay[slot8]].drop_client,
 			isImportent = slot4[slot8]
 		})
 	end

@@ -12809,7 +12809,7 @@ _G.pg.base.gametip.buildship_heavy_tip = {
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "L'Indomptable and Enterprise (CL) added to standard build pool!"
+	tip = "Eskimo added to standard build pool!"
 }
 
 
@@ -14724,6 +14724,66 @@ Prototype Triple 380mm Mle 1935 Main Gun Mount
 Triple 152mm Mle 1930 Main Gun Mount
 Twin 40mm Bofors AA Gun Mount
 </color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_19905 = {
+	tip = [[
+<size=28>
+Would you like to start a Battle Simulation?
+(<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)
+Equipment: <color=#92fc63>
+Single 127mm Main Gun
+533mm Quintuple Torpedo Mount
+Prototype F8F Bearcat (Float)</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_39907 = {
+	tip = [[
+<size=28>
+Would you like to start a Battle Simulation?
+(<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)
+Equipment: <color=#92fc63>
+Prototype Twin 410mm mod.A Main Gun Mount
+Single 140mm Naval Gun
+Twin 40mm Bofors Type 5 AA Gun Mount</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_69902 = {
+	tip = [[
+<size=28>
+Would you like to start a Battle Simulation?
+(<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)
+Equipment: <color=#92fc63>
+Prototype Triple 254mm Model 1939 Main Gun Mount
+Prototype Triple 152mm Model 1936 Main Gun Mount
+Prototype Twin 90mm Model 1939 High Angle Gun</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_89904 = {
+	tip = [[
+<size=28>
+Would you like to start a Battle Simulation?
+(<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)
+Equipment: <color=#92fc63>
+Triple 152mm Mle1930 Main Gun Mount (HE)
+550mm Triple Torpedo Mount
+Twin 57mm/L60 Bofors Mle 1951 AA Gun Mount</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_79902 = {
+	tip = [[
+<size=28>
+Would you like to start a Battle Simulation?
+(<color=#ff5c5c>A shipgirl's simulation performance may differ from her actual performance.</color>)
+Equipment: <color=#92fc63>
+Prototype Carrier-Based La-9
+Prototype Carrier-Based La-9
+Prototype VIT-2 (Mode Change)</color></size>]]
 }
 
 

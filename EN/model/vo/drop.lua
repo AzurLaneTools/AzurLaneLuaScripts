@@ -750,6 +750,13 @@ slot0.InitSwitch = function()
 						end
 					end
 				end,
+				[26] = function ()
+					if Clone(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING)) and not slot1:isEnd() then
+						slot1.data1 = slot1.data1 + uv0.count
+
+						slot0:updateActivity(slot1)
+					end
+				end,
 				[99] = function ()
 				end,
 				[100] = function ()

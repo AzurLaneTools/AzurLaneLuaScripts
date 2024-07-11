@@ -188,6 +188,7 @@ pg.skill_data_display = setmetatable({
 		8521,
 		8530,
 		8533,
+		8540,
 		8609,
 		8640,
 		8641,
@@ -1920,6 +1921,23 @@ pg.skill_data_display = setmetatable({
 		19760,
 		19761,
 		19762,
+		19770,
+		19771,
+		19780,
+		19781,
+		19791,
+		19800,
+		19801,
+		19802,
+		19804,
+		19807,
+		19831,
+		19864,
+		19865,
+		19866,
+		19870,
+		19871,
+		19872,
 		20011,
 		20012,
 		20021,
@@ -2292,6 +2310,8 @@ pg.skill_data_display = setmetatable({
 		30224,
 		30271,
 		30272,
+		30291,
+		30292,
 		39000,
 		39001,
 		39002,
@@ -2883,6 +2903,7 @@ pg.skill_data_display = setmetatable({
 		1010691,
 		1011380,
 		1011381,
+		1011592,
 		1012670,
 		1012671,
 		200002,
@@ -3121,7 +3142,8 @@ pg.skill_data_display = setmetatable({
 		1090242,
 		1090243,
 		1090260,
-		1090261
+		1090261,
+		1090273
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3869,6 +3891,10 @@ pg.base.skill_data_display = {
 	[8533] = {
 		id = 8533,
 		name = "Tormentor of the Weak"
+	},
+	[8540] = {
+		id = 8540,
+		name = "Battle Simulation - Airstrike Loading Time Shortened"
 	},
 	[8609] = {
 		id = 8609,
@@ -10798,6 +10824,74 @@ pg.base.skill_data_display = {
 		id = 19762,
 		name = "Divine Presence"
 	},
+	[19770] = {
+		id = 19770,
+		name = "The Dauntless Exemplar"
+	},
+	[19771] = {
+		id = 19771,
+		name = "The Dauntless Exemplar"
+	},
+	[19780] = {
+		id = 19780,
+		name = "Blade of Iris Aspirations"
+	},
+	[19781] = {
+		id = 19781,
+		name = "Blade of Iris Aspirations"
+	},
+	[19791] = {
+		id = 19791,
+		name = "Nocturnal Judgment"
+	},
+	[19800] = {
+		id = 19800,
+		name = "Pedigree of Perfection"
+	},
+	[19801] = {
+		id = 19801,
+		name = "Pedigree of Perfection"
+	},
+	[19802] = {
+		id = 19802,
+		name = "Pedigree of Perfection"
+	},
+	[19804] = {
+		id = 19804,
+		name = "Pedigree of Perfection"
+	},
+	[19807] = {
+		id = 19807,
+		name = "Pedigree of Perfection"
+	},
+	[19831] = {
+		id = 19831,
+		name = "Authorization Module: Trusted Certificate"
+	},
+	[19864] = {
+		id = 19864,
+		name = "Causality Anchor – Additional Torpedo"
+	},
+	[19865] = {
+		id = 19865,
+		name = "Causality Anchor – Burn Imbue"
+	},
+	[19866] = {
+		id = 19866,
+		name = "Causality Anchor – Release Anchor"
+	},
+	[19870] = {
+		id = 19870,
+		name = "Blessings and Purity"
+	},
+	[19871] = {
+		id = 19871,
+		name = "Blessings and Purity"
+	},
+	[19872] = {
+		id = 19872,
+		name = "Blessings and Purity"
+	},
 	[20011] = {
 		id = 20011,
 		name = "All Out Assault Ⅰ"
@@ -12284,6 +12378,14 @@ pg.base.skill_data_display = {
 	},
 	[30272] = {
 		id = 30272,
+		name = "All Out Assault II"
+	},
+	[30291] = {
+		id = 30291,
+		name = "All Out Assault I"
+	},
+	[30292] = {
+		id = 30292,
 		name = "All Out Assault II"
 	},
 	[39000] = {
@@ -14650,6 +14752,10 @@ pg.base.skill_data_display = {
 		id = 1011381,
 		name = "Departing Strike+"
 	},
+	[1011592] = {
+		id = 1011592,
+		name = "Airspace Dominance+"
+	},
 	[1012670] = {
 		id = 1012670,
 		name = "Fuoco di Copertura!+"
@@ -15605,5 +15711,9 @@ pg.base.skill_data_display = {
 	[1090261] = {
 		id = 1090261,
 		name = "Quick Reload - Spence"
+	},
+	[1090273] = {
+		id = 1090273,
+		name = "Tactical Command – Leipzig"
 	}
 }

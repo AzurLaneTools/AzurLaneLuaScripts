@@ -26350,17 +26350,7 @@ pg.ship_l2d = {
 				},
 				{
 					8,
-					{
-						"touch_idle12",
-						"touch_drag1",
-						"touch_drag2",
-						"touch_drag3",
-						"touch_drag4",
-						"touch_drag5",
-						"touch_drag6",
-						"touch_drag7",
-						"touch_drag8"
-					}
+					{}
 				},
 				{
 					9,
@@ -26374,7 +26364,9 @@ pg.ship_l2d = {
 				},
 				{
 					8,
-					{}
+					{
+						"touch_idle1"
+					}
 				},
 				{
 					9,
@@ -26987,7 +26979,6 @@ pg.ship_l2d = {
 			type = 2
 		},
 		action_trigger_active = {
-			idle = 0,
 			enable = {},
 			ignore = {}
 		}
@@ -27032,7 +27023,6 @@ pg.ship_l2d = {
 			type = 2
 		},
 		action_trigger_active = {
-			idle = 0,
 			enable = {},
 			ignore = {}
 		}
@@ -27077,7 +27067,6 @@ pg.ship_l2d = {
 			type = 2
 		},
 		action_trigger_active = {
-			idle = 0,
 			enable = {},
 			ignore = {}
 		}
@@ -27122,7 +27111,6 @@ pg.ship_l2d = {
 			type = 2
 		},
 		action_trigger_active = {
-			idle = 0,
 			enable = {},
 			ignore = {}
 		}
@@ -27167,7 +27155,6 @@ pg.ship_l2d = {
 			type = 2
 		},
 		action_trigger_active = {
-			idle = 0,
 			enable = {},
 			ignore = {}
 		}
@@ -27212,7 +27199,6 @@ pg.ship_l2d = {
 			type = 2
 		},
 		action_trigger_active = {
-			idle = 0,
 			enable = {},
 			ignore = {}
 		}
@@ -27244,7 +27230,7 @@ pg.ship_l2d = {
 		save_parameter = 0,
 		revert_idle_index = 0,
 		gyro_z = 0,
-		smooth = 150,
+		smooth = 500,
 		start_value = 0,
 		range_abs = 0,
 		ship_skin_id = 207037,
@@ -27342,7 +27328,7 @@ pg.ship_l2d = {
 		save_parameter = 0,
 		revert_idle_index = 0,
 		gyro_z = 0,
-		smooth = 150,
+		smooth = 500,
 		start_value = 0,
 		range_abs = 0,
 		ship_skin_id = 207037,
@@ -27803,6 +27789,120 @@ pg.ship_l2d = {
 			circle = true,
 			target = 1,
 			type = 2
+		}
+	},
+	[20703729] = {
+		listener_data = "",
+		parameter = "Param3",
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		react_condition = "",
+		revert_action_index = 0,
+		draw_able_name = "",
+		mode = 2,
+		react_pos_y = 0,
+		action_trigger = "",
+		revert = -1,
+		react_pos_x = -7,
+		shop_action = 1,
+		id = 20703729,
+		offset_y = 0,
+		revert_smooth = 100,
+		limit_time = 0,
+		parts_data = "",
+		relation_parameter = "",
+		ignore_react = 0,
+		gyro = 0,
+		gyro_x = 0,
+		ignore_action = 0,
+		offset_x = 0,
+		save_parameter = 0,
+		revert_idle_index = 0,
+		gyro_z = 0,
+		smooth = 50,
+		start_value = 0,
+		range_abs = 0,
+		ship_skin_id = 207037,
+		range = {
+			-10,
+			10
+		}
+	},
+	[20703730] = {
+		listener_data = "",
+		parameter = "Param3",
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		react_condition = "",
+		revert_action_index = 0,
+		draw_able_name = "",
+		mode = 2,
+		react_pos_y = 0,
+		action_trigger = "",
+		revert = -1,
+		react_pos_x = 10,
+		shop_action = 1,
+		id = 20703730,
+		offset_y = 0,
+		revert_smooth = 100,
+		limit_time = 0,
+		parts_data = "",
+		relation_parameter = "",
+		ignore_react = 0,
+		gyro = 0,
+		gyro_x = 0,
+		ignore_action = 0,
+		offset_x = 0,
+		save_parameter = 0,
+		revert_idle_index = 0,
+		gyro_z = 0,
+		smooth = 50,
+		start_value = 0,
+		range_abs = 0,
+		ship_skin_id = 207037,
+		range = {
+			-10,
+			10
+		}
+	},
+	[20703731] = {
+		listener_data = "",
+		parameter = "Param3",
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		react_condition = "",
+		revert_action_index = 0,
+		draw_able_name = "",
+		mode = 2,
+		react_pos_y = 0,
+		action_trigger = "",
+		revert = -1,
+		react_pos_x = -7,
+		shop_action = 1,
+		id = 20703731,
+		offset_y = 0,
+		revert_smooth = 100,
+		limit_time = 0,
+		parts_data = "",
+		relation_parameter = "",
+		ignore_react = 0,
+		gyro = 0,
+		gyro_x = 0,
+		ignore_action = 0,
+		offset_x = 0,
+		save_parameter = 0,
+		revert_idle_index = 0,
+		gyro_z = 0,
+		smooth = 50,
+		start_value = 0,
+		range_abs = 0,
+		ship_skin_id = 207037,
+		range = {
+			-10,
+			10
 		}
 	},
 	all = {
@@ -28343,6 +28443,9 @@ pg.ship_l2d = {
 		20703725,
 		20703726,
 		20703727,
-		20703728
+		20703728,
+		20703729,
+		20703730,
+		20703731
 	}
 }

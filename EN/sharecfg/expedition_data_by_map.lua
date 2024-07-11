@@ -447,6 +447,7 @@ pg.expedition_data_by_map = setmetatable({
 		2200070,
 		2200080,
 		2200090,
+		2200100,
 		2200110,
 		2200120,
 		9920001,
@@ -20750,6 +20751,50 @@ pg.base.expedition_data_by_map = {
 		on_activity = 0,
 		ui_type = 1,
 		bg = "Map_1310001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2200100] = {
+		map = 2200100,
+		name = "Counterattack Within the Fjord|| ||CHAPTER SP||S.P.",
+		bgm = "level02",
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1330001",
+		ani_controller = "",
+		cloud_suffix = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1330001",
 		destory_icon_suffix = "blue",
 		uifx = "",
 		bind_map = 0,

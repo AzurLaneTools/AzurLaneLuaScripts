@@ -50,7 +50,7 @@ slot0.UpdateStudent = function(slot0, slot1, slot2)
 	slot5 = slot1:getShipVO()
 	slot6 = nil
 
-	setText(slot2:Find("unlock/name_bg/Text"), slot1:getSkillName())
+	setText(slot2:Find("unlock/name_bg/Text"), shortenString(slot1:getSkillName(), 7))
 
 	if pg.TimeMgr.GetInstance():GetServerTime() < slot1:getFinishTime() then
 		slot0:AddTimer(slot1, slot2)

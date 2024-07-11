@@ -17500,6 +17500,7 @@ pg.activity_template = {
 	[5377] = {
 		mark = 20240620,
 		page_info = "",
+		time = "stop",
 		type = 16,
 		login_pop = 0,
 		config_id = 414,
@@ -17507,38 +17508,12 @@ pg.activity_template = {
 		config_data = "100",
 		config_client = "",
 		title_res_tag = "",
-		id = 5377,
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					6,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					7,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 5377
 	},
 	[5378] = {
 		mark = 20240620,
 		page_info = "",
+		time = "stop",
 		type = 36,
 		login_pop = 0,
 		config_id = 0,
@@ -17553,33 +17528,6 @@ pg.activity_template = {
 			0.36,
 			0.6,
 			10
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					6,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					7,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5379] = {
@@ -17747,6 +17695,7 @@ pg.activity_template = {
 	[5401] = {
 		mark = 20240627,
 		page_info = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
@@ -17754,37 +17703,11 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 5401,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					6,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					7,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[5402] = {
 		mark = 20240627,
+		time = "stop",
 		type = 93,
 		login_pop = 0,
 		config_id = 0,
@@ -17797,33 +17720,6 @@ pg.activity_template = {
 			2003,
 			2004,
 			2005
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					6,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					7,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "ChildishnessMainPage",
@@ -17853,6 +17749,7 @@ pg.activity_template = {
 	[5403] = {
 		mark = 20240627,
 		page_info = "",
+		time = "stop",
 		type = 94,
 		login_pop = 0,
 		config_id = 0,
@@ -17860,34 +17757,7 @@ pg.activity_template = {
 		config_data = "0",
 		config_client = "",
 		title_res_tag = "",
-		id = 5403,
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					6,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					7,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 5403
 	},
 	[5404] = {
 		mark = 20240627,
@@ -17934,6 +17804,7 @@ pg.activity_template = {
 	[5405] = {
 		mark = 20240627,
 		page_info = "",
+		time = "stop",
 		type = 60,
 		login_pop = 0,
 		config_id = 0,
@@ -17946,38 +17817,12 @@ pg.activity_template = {
 			480,
 			481,
 			482
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					6,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					7,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5406] = {
 		mark = 20240627,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -18001,38 +17846,12 @@ pg.activity_template = {
 			20305,
 			20306,
 			20311
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					6,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					7,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5407] = {
 		mark = 20240627,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -18042,38 +17861,12 @@ pg.activity_template = {
 		id = 5407,
 		config_data = {
 			20307
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					6,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					7,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5408] = {
 		mark = 20240627,
 		page_info = "",
+		time = "stop",
 		type = 16,
 		login_pop = 0,
 		config_id = 421,
@@ -18081,38 +17874,12 @@ pg.activity_template = {
 		config_data = "100",
 		config_client = "",
 		title_res_tag = "",
-		id = 5408,
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					6,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					7,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 5408
 	},
 	[5409] = {
 		mark = 20240627,
 		page_info = "",
+		time = "stop",
 		type = 91,
 		login_pop = 0,
 		config_id = 0,
@@ -18132,38 +17899,12 @@ pg.activity_template = {
 				0,
 				0
 			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					6,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					7,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5410] = {
 		mark = 20240620,
 		page_info = "",
+		time = "stop",
 		type = 27,
 		login_pop = 0,
 		config_id = 1,
@@ -18171,14 +17912,54 @@ pg.activity_template = {
 		config_data = "[{31945,100}]",
 		config_client = "",
 		title_res_tag = "",
-		id = 5410,
+		id = 5410
+	},
+	[5415] = {
+		mark = 20240711,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 45,
+		config_client = "",
+		title_res_tag = "haitianskin",
+		id = 5415,
+		config_data = {
+			{
+				20320,
+				20321
+			},
+			{
+				20322,
+				20323
+			},
+			{
+				20324,
+				20325
+			},
+			{
+				20326,
+				20327
+			},
+			{
+				20328,
+				20329
+			},
+			{
+				20330,
+				20331
+			},
+			{
+				20332,
+				20333
+			}
+		},
 		time = {
 			"timer",
 			{
 				{
 					2024,
-					6,
-					27
+					7,
+					11
 				},
 				{
 					0,
@@ -18190,7 +17971,7 @@ pg.activity_template = {
 				{
 					2024,
 					7,
-					10
+					24
 				},
 				{
 					23,
@@ -18198,6 +17979,10 @@ pg.activity_template = {
 					59
 				}
 			}
+		},
+		page_info = {
+			class_name = "HaitianSkinPage",
+			ui_name = "HaitianSkinPage"
 		}
 	},
 	[7011] = {
@@ -43028,6 +42813,7 @@ pg.activity_template = {
 			5360,
 			5364,
 			5365,
+			5415,
 			6000,
 			6001,
 			6002,
@@ -44175,6 +43961,7 @@ pg.activity_template = {
 		5408,
 		5409,
 		5410,
+		5415,
 		7011,
 		7012,
 		7013,
