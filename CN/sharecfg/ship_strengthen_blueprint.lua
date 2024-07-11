@@ -31818,7 +31818,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3505] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+298|防空+13|机动+5|副炮底座+1|鉴赏解锁：主界面1、旗舰开战、任务",
+		effect_desc = "耐久+298|防空+12|机动+5|副炮底座+1|鉴赏解锁：主界面1、旗舰开战、任务",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 1,
