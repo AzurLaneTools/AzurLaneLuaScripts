@@ -19,6 +19,24 @@ return {
 				add = 0,
 				mul = -6000
 			}
+		},
+		{
+			type = "BattleBuffAddBuff",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				buff_id = 19821,
+				minTargetNumber = 1,
+				target = "TargetSelf",
+				check_target = {
+					"TargetSelf",
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"naximofubeilianjiansu"
+				}
+			}
 		}
 	}
 }

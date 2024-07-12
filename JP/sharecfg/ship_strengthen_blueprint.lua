@@ -33748,7 +33748,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3715] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+405|対空+35|鱼雷装填数+1|図鑑開放：メイン3、タッチ1、任務完了",
+		effect_desc = "耐久+405|対空+35|魚雷装填数+1|図鑑開放：メイン3、タッチ1、任務完了",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 10,

@@ -9,7 +9,7 @@ return {
 	{},
 	{},
 	{},
-	time = 3,
+	time = 1.5,
 	name = "",
 	init_effect = "",
 	picture = "",
@@ -17,17 +17,16 @@ return {
 	stack = 1,
 	id = 19812,
 	icon = 19810,
-	last_effect = "Darkness",
+	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffFixVelocity",
+			type = "BattleBuffCastSkill",
 			trigger = {
-				"onAttach",
 				"onRemove"
 			},
 			arg_list = {
-				add = 0,
-				mul = -6000
+				skill_id = 19811,
+				target = "TargetSelf"
 			}
 		}
 	}

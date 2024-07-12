@@ -6105,7 +6105,7 @@ _G.pg.base.gametip.world_complete_item_tip = {
 
 
 _G.pg.base.gametip.task_notfound_error = {
-	tip = "ステージ情報が見つかりませんでした。エラーid:"
+	tip = "任務データが見つかりませんでした。ゲームを再起動しデータの更新をお願い致します。エラーid:"
 }
 
 
