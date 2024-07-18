@@ -4339,6 +4339,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -6257,6 +6268,17 @@ pg.base.ship_data_group = {
 				"限時活動：箱庭療法",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -13123,6 +13145,16 @@ pg.base.ship_data_group = {
 				"限時活動：凜冬王冠",
 				{
 					""
+				},
+				0
+			},
+			{
+				"軍需商店兌換",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -21254,17 +21286,6 @@ pg.base.ship_data_group = {
 				"限時活動：異色格",
 				{
 					""
-				},
-				0
-			},
-			{
-				"進行重型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
 				},
 				0
 			}
