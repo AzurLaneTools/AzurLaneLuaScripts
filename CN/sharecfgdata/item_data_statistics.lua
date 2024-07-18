@@ -38179,7 +38179,7 @@ _G.pg.base.item_data_statistics[40046] = {
 
 _G.pg.base.item_data_statistics[40047] = {
 	open_directly = 1,
-	name = "海上传奇支援组合包",
+	name = "海上传奇支援组合包(240718)",
 	type = 17,
 	display = "购买礼包可获得大量材料奖励",
 	other_resource_cost = "[]",

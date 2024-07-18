@@ -31,6 +31,8 @@ slot0.OnInit = function(slot0)
 	setText(slot0.reward_oilText, i18n("mail_storeroom_max_3"))
 	setText(slot0.titleTips, i18n("mail_boxtitle_information"))
 	setText(slot0.item_panel:Find("parentAdpter/rewardAdpter/Text"), i18n("mail_storeroom_collect"))
+	setText(slot0.cancelButton:Find("Text"), i18n("mail_box_cancel"))
+	setText(slot0.confirmButton:Find("Text"), i18n("mail_box_confirm"))
 end
 
 slot0.Show = function(slot0, slot1)
