@@ -161810,7 +161810,7 @@ _G.pg.base.item_virtual_data_statistics[59586] = {
 
 _G.pg.base.item_virtual_data_statistics[59599] = {
 	drop_gold_max = 0,
-	name = "巡游点数",
+	name = "巡遊點數",
 	display = "参与「世界巡游」获得的点数，累计一定程度可以领取奖励，活动结束后将会消失",
 	type = 0,
 	is_world = 0,

@@ -4645,17 +4645,6 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"進行輕型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
-			},
-			{
 				"艦隊商店兌換",
 				{
 					"SHOP",
@@ -4736,6 +4725,17 @@ pg.base.ship_data_group = {
 				"限時活動：箱庭療法",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -4968,6 +4968,17 @@ pg.base.ship_data_group = {
 				"限時活動：箱庭療法",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -5965,6 +5976,16 @@ pg.base.ship_data_group = {
 				"限時活動：箱庭療法",
 				{
 					""
+				},
+				0
+			},
+			{
+				"軍需商店兌換",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -7095,6 +7116,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行重型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -7592,17 +7624,6 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
-			},
-			{
-				"進行重型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
-				},
-				0
 			}
 		}
 	},
@@ -7633,17 +7654,6 @@ pg.base.ship_data_group = {
 				"限時活動：墜落之翼",
 				{
 					""
-				},
-				0
-			},
-			{
-				"進行重型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
 				},
 				0
 			}
@@ -7941,6 +7951,17 @@ pg.base.ship_data_group = {
 				"限時活動：箱庭療法",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行重型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -8940,6 +8961,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"軍需商店兌換",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -9148,19 +9179,7 @@ pg.base.ship_data_group = {
 		},
 		trans_radar_chart = {},
 		trans_skill = {},
-		description = {
-			{
-				"進行特型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "special",
-						page = 1
-					}
-				},
-				0
-			}
-		}
+		description = {}
 	},
 	[477] = {
 		nationality = 1,
@@ -13066,12 +13085,11 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"進行重型艦建造",
+				"軍需商店兌換",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "heavy",
-						page = 1
+						warp = "supplies"
 					}
 				},
 				0
@@ -13105,17 +13123,6 @@ pg.base.ship_data_group = {
 				"限時活動：凜冬王冠",
 				{
 					""
-				},
-				0
-			},
-			{
-				"進行重型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
 				},
 				0
 			}
@@ -15053,17 +15060,6 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"進行輕型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
-			},
-			{
 				"艦隊商店兌換",
 				{
 					"SHOP",
@@ -15450,17 +15446,6 @@ pg.base.ship_data_group = {
 				"月度簽到",
 				{
 					""
-				},
-				0
-			},
-			{
-				"進行輕型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
 				},
 				0
 			},
@@ -15986,17 +15971,6 @@ pg.base.ship_data_group = {
 				"限時活動：紅染的參訪者",
 				{
 					""
-				},
-				0
-			},
-			{
-				"進行輕型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
 				},
 				0
 			}
@@ -17510,11 +17484,11 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"進行重型、特型艦建造",
+				"進行特型艦建造",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
+						projectName = "special",
 						page = 1
 					}
 				},
@@ -17748,6 +17722,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行重型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -17896,17 +17881,6 @@ pg.base.ship_data_group = {
 				"限時活動：歸來與新生",
 				{
 					""
-				},
-				0
-			},
-			{
-				"進行重型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
 				},
 				0
 			}
@@ -18558,6 +18532,16 @@ pg.base.ship_data_group = {
 				"限時活動：斯圖爾特的硝煙",
 				{
 					""
+				},
+				0
+			},
+			{
+				"軍需商店兌換",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -19945,17 +19929,6 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
-			},
-			{
-				"進行輕型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
 			}
 		}
 	},
@@ -20060,17 +20033,6 @@ pg.base.ship_data_group = {
 				"限時活動：異色格",
 				{
 					""
-				},
-				0
-			},
-			{
-				"進行輕型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
 				},
 				0
 			}
@@ -20663,17 +20625,6 @@ pg.base.ship_data_group = {
 				"限時活動：圍剿施佩伯爵",
 				{
 					""
-				},
-				0
-			},
-			{
-				"進行重型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "heavy",
-						page = 1
-					}
 				},
 				0
 			}
@@ -22494,17 +22445,6 @@ pg.base.ship_data_group = {
 		},
 		description = {
 			{
-				"進行輕型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
-			},
-			{
 				"艦隊商店兌換",
 				{
 					"SHOP",
@@ -22548,17 +22488,6 @@ pg.base.ship_data_group = {
 			10950
 		},
 		description = {
-			{
-				"進行輕型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
-				},
-				0
-			},
 			{
 				"艦隊商店兌換",
 				{
@@ -24526,12 +24455,11 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"進行輕型艦建造",
+				"軍需商店兌換",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "supplies"
 					}
 				},
 				0
@@ -24565,17 +24493,6 @@ pg.base.ship_data_group = {
 				"限時活動：光與影的鳶尾之華",
 				{
 					""
-				},
-				0
-			},
-			{
-				"進行輕型艦建造",
-				{
-					"GETBOAT",
-					{
-						projectName = "light",
-						page = 1
-					}
 				},
 				0
 			}
