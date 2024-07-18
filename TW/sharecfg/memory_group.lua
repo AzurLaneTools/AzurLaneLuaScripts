@@ -154,6 +154,7 @@ pg.memory_group = setmetatable({
 		266,
 		267,
 		268,
+		280,
 		282,
 		286,
 		288,
@@ -3670,6 +3671,21 @@ pg.base.memory_group = {
 			3205,
 			3206,
 			3207
+		}
+	},
+	[280] = {
+		title = "吟遊者之詩",
+		subtype = 2,
+		link_event = 5243,
+		type = 2,
+		id = 280,
+		icon = "title_event",
+		memories = {
+			3431,
+			3432,
+			3433,
+			3434,
+			3435
 		}
 	},
 	[282] = {

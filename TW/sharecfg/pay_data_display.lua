@@ -78,6 +78,10 @@ pg.pay_data_display = setmetatable({
 		4859,
 		4860,
 		4861,
+		4862,
+		4863,
+		4864,
+		4865,
 		4900,
 		4901,
 		4902,
@@ -6831,7 +6835,7 @@ pg.base.pay_data_display = {
 		subject = "即刻出戰禮包",
 		limit_arg = 1,
 		money = 170,
-		tag = 2,
+		tag = 1,
 		name = "即刻出戰禮包",
 		gem = 0,
 		type_order = 0,
@@ -7223,6 +7227,232 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40023,
+				1
+			}
+		}
+	},
+	[4862] = {
+		extra_service = 3,
+		limit_group = 3,
+		descrip_extra = "此处不会被看到",
+		type = 0,
+		first_pay_double = 0,
+		name_display = "最高方案研發禮包三期",
+		descrip = "可獲得最高方案快速研​​發券·三期*1、定向藍圖·三期*343",
+		subject = "最高方案研發禮包(三期)",
+		limit_arg = 0,
+		money = 490,
+		tag = 2,
+		name = "最高方案研發禮包（三期）",
+		gem = 0,
+		type_order = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech3_display",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.keyan",
+		extra_gem = 0,
+		id = 4862,
+		airijp_id = "com.hkmanjuu.azurlane.keyan",
+		extra_service_item = {
+			{
+				2,
+				40130,
+				1
+			},
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40130,
+				1
+			},
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {}
+	},
+	[4863] = {
+		extra_service = 3,
+		limit_group = 3,
+		descrip_extra = "*最高方案快速研​​發券·三期獎勵可能發生變化，點擊道具查看詳情",
+		type = 0,
+		first_pay_double = 0,
+		name_display = "高級版",
+		descrip = "禮包内容",
+		subject = "最高方案研發禮包(三期)高級版",
+		limit_arg = 1,
+		money = 490,
+		tag = 2,
+		name = "最高方案研發禮包（三期）高級版",
+		gem = 0,
+		type_order = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech3_promotion",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.keyan7",
+		extra_gem = 0,
+		id = 4863,
+		airijp_id = "com.hkmanjuu.azurlane.keyan7",
+		extra_service_item = {
+			{
+				2,
+				40130,
+				1
+			},
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40130,
+				1
+			},
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40026,
+				1
+			}
+		}
+	},
+	[4864] = {
+		extra_service = 3,
+		limit_group = 3,
+		descrip_extra = "*最高方案快速研​​發券·三期獎勵可能發生變化，點擊道具查看詳情",
+		type = 0,
+		first_pay_double = 0,
+		name_display = "標準版",
+		descrip = "禮包内容",
+		subject = "最高方案研發禮包(三期)標準版",
+		limit_arg = 2,
+		money = 330,
+		tag = 2,
+		name = "最高方案研發禮包（第三期）標準版",
+		gem = 0,
+		type_order = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech3_normal",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.keyan8",
+		extra_gem = 0,
+		id = 4864,
+		airijp_id = "com.hkmanjuu.azurlane.keyan8",
+		extra_service_item = {
+			{
+				2,
+				40130,
+				1
+			}
+		},
+		display = {
+			{
+				2,
+				40130,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40027,
+				1
+			}
+		}
+	},
+	[4865] = {
+		extra_service = 3,
+		limit_group = 3,
+		descrip_extra = "升級為高級版後可獲得定向藍圖·三期x343",
+		type = 0,
+		first_pay_double = 0,
+		name_display = "升級版",
+		descrip = "禮包内容",
+		subject = "最高方案研發禮包(三期)升級版",
+		limit_arg = 3,
+		money = 190,
+		tag = 2,
+		name = "最高方案研發禮包（第三期）升級版",
+		gem = 0,
+		type_order = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech3_promotion",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.keyan9",
+		extra_gem = 0,
+		id = 4865,
+		airijp_id = "com.hkmanjuu.azurlane.keyan9",
+		extra_service_item = {
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				42020,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40028,
 				1
 			}
 		}

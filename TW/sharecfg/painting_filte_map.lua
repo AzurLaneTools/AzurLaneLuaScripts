@@ -496,8 +496,10 @@ pg.painting_filte_map = {
 			"painting/aijier_3_rw_tex",
 			"painting/aijier_3_rw_hx_tex",
 			"painting/aijier_3_n_tex",
+			"painting/aijier_3_n_hx_tex",
 			"painting/aijier_3_n_hx",
 			"painting/aijier_3_n",
+			"painting/aijier_3_hx_tex",
 			"painting/aijier_3_hx",
 			"painting/aijier_3_bj2_tex",
 			"painting/aijier_3_bj2_hx_tex",
@@ -4754,6 +4756,9 @@ pg.painting_filte_map = {
 			"painting/haitian_rw_tex",
 			"painting/haitian_n_tex",
 			"painting/haitian_n",
+			"painting/haitian_5_tex",
+			"painting/haitian_5_rw_tex",
+			"painting/haitian_5",
 			"painting/haitian"
 		}
 	},
@@ -15389,11 +15394,6 @@ pg.painting_filte_map = {
 		key = "z46",
 		res_list = {
 			"painting/z46_tex",
-			"painting/z46_7_tex",
-			"painting/z46_7_rw_tex",
-			"painting/z46_7_n_tex",
-			"painting/z46_7_n",
-			"painting/z46_7",
 			"painting/z46"
 		}
 	},
@@ -15434,6 +15434,16 @@ pg.painting_filte_map = {
 			"painting/z46_6_n_tex",
 			"painting/z46_6_n",
 			"painting/z46_6"
+		}
+	},
+	z46_7 = {
+		key = "z46_7",
+		res_list = {
+			"painting/z46_7_tex",
+			"painting/z46_7_rw_tex",
+			"painting/z46_7_n_tex",
+			"painting/z46_7_n",
+			"painting/z46_7"
 		}
 	},
 	zaoshen = {

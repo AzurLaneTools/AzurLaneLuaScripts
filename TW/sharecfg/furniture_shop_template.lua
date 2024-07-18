@@ -136,9 +136,9 @@ pg.furniture_shop_template = {
 		time = {
 			{
 				{
-					2022,
-					11,
-					17
+					2024,
+					7,
+					18
 				},
 				{
 					0,
@@ -148,9 +148,9 @@ pg.furniture_shop_template = {
 			},
 			{
 				{
-					2022,
-					11,
-					30
+					2024,
+					8,
+					7
 				},
 				{
 					23,

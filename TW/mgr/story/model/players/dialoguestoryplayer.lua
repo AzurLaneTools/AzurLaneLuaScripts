@@ -1331,7 +1331,7 @@ end
 slot12 = function(slot0, slot1)
 	slot3 = false
 
-	if slot0.live2dChars[slot1] then
+	if slot0.live2dChars[slot1] and slot2._go then
 		ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Rendering.CubismRenderController"), "SortingOrder", slot2._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController"), 0)
 		slot2:Dispose()
 

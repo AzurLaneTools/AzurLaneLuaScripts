@@ -32830,6 +32830,122 @@ _G.pg.base.item_data_statistics[40023] = {
 }
 
 
+_G.pg.base.item_data_statistics[40026] = {
+	open_directly = 1,
+	name = "最高方案研發禮包（三期）高級版",
+	type = 17,
+	display = "購買禮包可獲得大量材料獎勵",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech3_promotion",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4028",
+	id = 40026,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			40130,
+			1
+		},
+		{
+			2,
+			42020,
+			343
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[40027] = {
+	open_directly = 1,
+	name = "最高方案研發禮包（第三期）標準版",
+	type = 17,
+	display = "購買禮包可獲得大量材料獎勵",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech3_normal",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4029",
+	id = 40027,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			40130,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[40028] = {
+	open_directly = 1,
+	name = "最高方案研發禮包（第三期）升級版",
+	type = 17,
+	display = "購買禮包可獲得大量材料獎勵",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/tech3_promotion",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4030",
+	id = 40028,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			42020,
+			343
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[40100] = {
 	open_directly = 1,
 	name = "比翼雙飛",
@@ -33963,6 +34079,70 @@ _G.pg.base.item_data_statistics[40129] = {
 			2,
 			16023,
 			3
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[40130] = {
+	open_directly = 0,
+	name = "最高方案快速研​​發券·三期",
+	type = 17,
+	display = [[
+可於科研-開發船塢介面，從柴郡、{namecode:479}、{namecode:486}、香檳中選擇並取得一位等級與科研等級均為1級的角色
+<color=#92fc63>上述角色全部獲得時</color>，在倉庫中使用此道具將會獲得：
+科研測試數據·三期*300
+定向改造圖紙T3*5
+定向改造圖紙T2*10
+心智魔方* 5
+物資*20000]],
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/research3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[{ship_unlock,29903},{ship_unlock,49903},{ship_unlock,49904},{ship_unlock,89902}]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4208",
+	id = 40130,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20103,
+			300
+		},
+		{
+			2,
+			30133,
+			5
+		},
+		{
+			2,
+			30132,
+			10
+		},
+		{
+			2,
+			20001,
+			5
+		},
+		{
+			1,
+			1,
+			20000
 		}
 	},
 	price = {},

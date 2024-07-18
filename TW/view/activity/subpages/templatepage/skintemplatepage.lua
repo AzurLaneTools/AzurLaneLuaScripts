@@ -57,7 +57,24 @@ slot0.UpdateTask = function(slot0, slot1, slot2)
 		uv0:emit(ActivityMediator.ON_TASK_GO, uv1)
 	end, SFX_PANEL)
 	onButton(slot0, slot13, function ()
-		uv0:emit(ActivityMediator.ON_TASK_SUBMIT, uv1)
+		slot0 = {}
+		slot3 = getProxy(PlayerProxy):getRawData()
+		slot6, slot7 = Task.StaticJudgeOverflow(slot3.gold, slot3.oil, LOCK_UR_SHIP and 0 or getProxy(BagProxy):GetLimitCntById(pg.gameset.urpt_chapter_max.description[1]), true, true, uv0:getConfig("award_display"))
+
+		if slot6 then
+			table.insert(slot0, function (slot0)
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					type = MSGBOX_TYPE_ITEM_BOX,
+					content = i18n("award_max_warning"),
+					items = uv0,
+					onYes = slot0
+				})
+			end)
+		end
+
+		seriesAsync(slot0, function ()
+			uv0:emit(ActivityMediator.ON_TASK_SUBMIT, uv1)
+		end)
 	end, SFX_PANEL)
 end
 

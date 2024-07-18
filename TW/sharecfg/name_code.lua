@@ -1764,6 +1764,13 @@ pg.name_code = {
 		code = "朝凪",
 		nation = 0
 	},
+	[299] = {
+		name = "大山",
+		type = 1,
+		id = 299,
+		code = "鳝",
+		nation = 0
+	},
 	[400] = {
 		name = "Z1",
 		type = 1,

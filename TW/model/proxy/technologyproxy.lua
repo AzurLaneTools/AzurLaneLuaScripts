@@ -42,6 +42,19 @@ slot0.register = function(slot0)
 	end)
 end
 
+slot0.timeCall = function(slot0)
+	return {
+		[ProxyRegister.DayCall] = function (slot0)
+			uv0:updateRefreshFlag(0)
+		end,
+		[ProxyRegister.HourCall] = function (slot0)
+			if slot0 == 4 then
+				uv0:resetPursuingTimes()
+			end
+		end
+	}
+end
+
 slot0.setVersion = function(slot0, slot1)
 	PlayerPrefs.SetInt("technology_version", slot1)
 	PlayerPrefs.Save()

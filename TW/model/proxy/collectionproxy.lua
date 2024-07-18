@@ -80,6 +80,14 @@ slot0.register = function(slot0)
 	end)
 end
 
+slot0.timeCall = function(slot0)
+	return {
+		[ProxyRegister.DayCall] = function (slot0)
+			uv0:resetEvaCount()
+		end
+	}
+end
+
 slot0.resetEvaCount = function(slot0)
 	for slot4, slot5 in pairs(slot0.shipGroups) do
 		if slot5.evaluation then

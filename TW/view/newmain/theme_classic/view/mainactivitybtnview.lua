@@ -26,7 +26,8 @@ slot0.InitBtns = function(slot0)
 		MainActAprilFoolBtn.New(slot0.actBtnTpl, slot0.event),
 		MainActMedalCollectionBtn.New(slot0.actBtnTpl, slot0.event),
 		MainActSenranBtn.New(slot0.actBtnTpl, slot0.event),
-		MainActBossSingleBtn.New(tpl, event)
+		MainActBossSingleBtn.New(slot0.actBtnTpl, slot0.event),
+		MainActLayerBtn.New(slot0.actBtnTpl, slot0.event)
 	}
 	slot0.specailBtns = {
 		MainActInsBtn.New(slot0._tf, slot0.event),

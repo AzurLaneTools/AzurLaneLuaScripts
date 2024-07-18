@@ -16,6 +16,7 @@ slot0.SKIP_LOTTERY = "NewMainMediator:SKIP_LOTTERY"
 slot0.GO_SINGLE_ACTIVITY = "NewMainMediator:GO_SINGLE_ACTIVITY"
 slot0.REFRESH_VIEW = "NewMainMediator:REFRESH_VIEW"
 slot0.OPEN_DORM_SELECT_LAYER = "NewMainMediator.OPEN_DORM_SELECT_LAYER"
+slot0.OPEN_KINK_BUTTON_LAYER = "NewMainMediator.OPEN_KINK_BUTTON_LAYER"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.GO_SINGLE_ACTIVITY, function (slot0, slot1)
@@ -132,6 +133,9 @@ slot0.register = function(slot0)
 	end)
 	slot0:bind(uv0.OPEN_DORM_SELECT_LAYER, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.DORM3DSELECT)
+	end)
+	slot0:bind(uv0.OPEN_KINK_BUTTON_LAYER, function (slot0, slot1)
+		uv0:addSubLayers(slot1)
 	end)
 end
 

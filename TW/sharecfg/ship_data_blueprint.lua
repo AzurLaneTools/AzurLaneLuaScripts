@@ -1340,7 +1340,9 @@ pg.ship_data_blueprint = {
 			100,
 			100
 		},
-		gain_item_id = {}
+		gain_item_id = {
+			40130
+		}
 	},
 	[29904] = {
 		name = "德雷克",
@@ -1546,7 +1548,9 @@ pg.ship_data_blueprint = {
 			100,
 			100
 		},
-		gain_item_id = {}
+		gain_item_id = {
+			40130
+		}
 	},
 	[49904] = {
 		name = "奥丁",
@@ -1647,7 +1651,9 @@ pg.ship_data_blueprint = {
 			100,
 			100
 		},
-		gain_item_id = {}
+		gain_item_id = {
+			40130
+		}
 	},
 	[89902] = {
 		name = "香槟",
@@ -1749,7 +1755,9 @@ pg.ship_data_blueprint = {
 			100,
 			100
 		},
-		gain_item_id = {}
+		gain_item_id = {
+			40130
+		}
 	},
 	[19903] = {
 		name = "安克雷奇",

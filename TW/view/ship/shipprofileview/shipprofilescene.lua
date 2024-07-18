@@ -894,6 +894,10 @@ slot0.onWeddingReview = function(slot0, slot1)
 
 		slot0.exitLoadL2d = true
 	end
+
+	if slot0.spinePaintingRoot.childCount > 0 then
+		setActive(slot0.commonPainting, not slot0.spinePaintingisOn)
+	end
 end
 
 slot0.DisplaySpinePainting = function(slot0, slot1)

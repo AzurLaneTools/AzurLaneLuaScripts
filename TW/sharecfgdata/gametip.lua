@@ -11937,12 +11937,12 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "俾斯麥、英王喬治五世 建造追加！"
+	tip = "巴爾的摩、阿拉巴馬、霧島 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "紐倫堡 建造追加！"
+	tip = "艾倫·M·桑拿、史蒂芬·波特、伯明罕等建造追加！"
 }
 
 
@@ -24645,7 +24645,17 @@ _G.pg.base.gametip.tech_select_tip5 = {
 
 
 _G.pg.base.gametip.techpackage_item_use = {
-	tip = "快速研發只能選定1名角色，是否確認研發$1？\n研發後會獲得對應角色(等級與科研等級均為1級)\n<color=#ff5c5c>將消耗道具$2*1</color>"
+	tip = "快速研發只能選擇1名角色，是否確認研發$1？\n研發後會獲得對應角色(等級與科研等級均為1級)\n<color=#ff5c5c>將消耗道具$2*1</color>"
+}
+
+
+_G.pg.base.gametip.techpackage_item_use_1 = {
+	tip = "快速研發只能選擇1名角色，是否確認研發<color=#92fc63>$1</color>?"
+}
+
+
+_G.pg.base.gametip.techpackage_item_use_2 = {
+	tip = "研發將消耗<color=#ff5c5c>道具$1*1</color>，可獲得對應角色（等級與科研等級皆為1級）"
 }
 
 

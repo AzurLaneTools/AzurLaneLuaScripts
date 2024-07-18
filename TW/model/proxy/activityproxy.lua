@@ -2,6 +2,7 @@ slot0 = class("ActivityProxy", import(".NetProxy"))
 slot0.ACTIVITY_ADDED = "ActivityProxy ACTIVITY_ADDED"
 slot0.ACTIVITY_UPDATED = "ActivityProxy ACTIVITY_UPDATED"
 slot0.ACTIVITY_DELETED = "ActivityProxy ACTIVITY_DELETED"
+slot0.ACTIVITY_END = "ActivityProxy ACTIVITY_END"
 slot0.ACTIVITY_OPERATION_DONE = "ActivityProxy ACTIVITY_OPERATION_DONE"
 slot0.ACTIVITY_SHOW_AWARDS = "ActivityProxy ACTIVITY_SHOW_AWARDS"
 slot0.ACTIVITY_SHOP_SHOW_AWARDS = "ActivityProxy ACTIVITY_SHOP_SHOW_AWARDS"
@@ -21,6 +22,7 @@ slot0.register = function(slot0)
 		uv0.params = {}
 		uv0.hxList = {}
 		uv0.buffActs = {}
+		uv0.stopList = {}
 
 		if slot0.hx_list then
 			for slot4, slot5 in ipairs(slot0.hx_list) do
@@ -61,10 +63,6 @@ slot0.register = function(slot0)
 				isInit = true,
 				activity = slot5
 			})
-		end
-
-		if uv0.data[ActivityConst.MILITARY_EXERCISE_ACTIVITY_ID] then
-			getProxy(MilitaryExerciseProxy):addSeasonOverTimer()
 		end
 
 		if uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE) and not slot1:isEnd() then
@@ -124,17 +122,17 @@ slot0.register = function(slot0)
 		slot3 = BossRushSettlementCommand.ConcludeEXP(slot0, slot1, slot2 and slot2:GetBattleStatistics())
 
 		(function ()
-			getProxy(ActivityProxy):GetBossRushRuntime(uv0.id).settlementData = uv1
+			uv0:GetBossRushRuntime(uv1.id).settlementData = uv2
 		end)()
 	end)
 	slot0:on(24100, function (slot0)
 		(function ()
-			if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_EXTRA_BOSSRUSH_RANK) then
+			if not uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_EXTRA_BOSSRUSH_RANK) then
 				return
 			end
 
-			slot0:Record(uv0.score)
-			uv1:updateActivity(slot0)
+			slot0:Record(uv1.score)
+			uv0:updateActivity(slot0)
 		end)()
 
 		if not uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_BOSSRUSH) then
@@ -175,6 +173,154 @@ slot0.register = function(slot0)
 
 	slot0.requestTime = {}
 	slot0.extraDatas = {}
+end
+
+slot0.timeCall = function(slot0)
+	return {
+		[ProxyRegister.DayCall] = function (slot0)
+			for slot4, slot5 in pairs(uv0.data) do
+				if not slot5:isEnd() then
+					switch(slot5:getConfig("type"), {
+						[ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN] = function ()
+							uv0.autoActionForbidden = false
+
+							uv1:updateActivity(uv0)
+						end,
+						[ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN] = function ()
+							uv0.autoActionForbidden = false
+
+							uv1:updateActivity(uv0)
+						end,
+						[ActivityConst.ACTIVITY_TYPE_MONTHSIGN] = function ()
+							uv0.autoActionForbidden = false
+
+							uv1:updateActivity(uv0)
+						end,
+						[ActivityConst.ACTIVITY_TYPE_REFLUX] = function ()
+							uv0.data1KeyValueList = {
+								{}
+							}
+							uv0.autoActionForbidden = false
+
+							uv1:updateActivity(uv0)
+						end,
+						[ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN] = function ()
+							uv0.autoActionForbidden = false
+
+							uv1:updateActivity(uv0)
+						end,
+						[ActivityConst.ACTIVITY_TYPE_BB] = function ()
+							uv0.data2 = 0
+							uv0.autoActionForbidden = false
+
+							uv1:updateActivity(uv0)
+						end,
+						[ActivityConst.ACTIVITY_TYPE_LOTTERY_AWARD] = function ()
+							uv0.data2 = 0
+							uv0.autoActionForbidden = false
+
+							uv1:updateActivity(uv0)
+						end,
+						[ActivityConst.ACTIVITY_TYPE_BOSSRUSH] = function ()
+							table.Foreach(uv0:GetUsedBonus(), function (slot0, slot1)
+								uv0[slot0] = 0
+							end)
+							uv1:updateActivity(uv0)
+						end,
+						[ActivityConst.ACTIVITY_TYPE_BOSSSINGLE] = function ()
+							table.Foreach(uv0:GetDailyCounts(), function (slot0, slot1)
+								uv0[slot0] = 0
+							end)
+							uv1:updateActivity(uv0)
+						end,
+						[ActivityConst.ACTIVITY_TYPE_MANUAL_SIGN] = function ()
+							uv0:sendNotification(GAME.ACT_MANUAL_SIGN, {
+								activity_id = uv1.id,
+								cmd = ManualSignActivity.OP_SIGN
+							})
+						end,
+						[ActivityConst.ACTIVITY_TYPE_TURNTABLE] = function ()
+							if pg.activity_event_turning[uv0:getConfig("config_id")].total_num <= uv0.data3 then
+								return
+							end
+
+							if not slot1.task_table[uv0.data4] then
+								return
+							end
+
+							slot4 = getProxy(TaskProxy)
+
+							for slot8, slot9 in ipairs(slot3) do
+								if (slot4:getTaskById(slot9) or slot4:getFinishTaskById(slot9)):getTaskStatus() ~= 2 then
+									return
+								end
+							end
+
+							uv1:sendNotification(GAME.ACTIVITY_OPERATION, {
+								cmd = 2,
+								activity_id = uv0.id
+							})
+						end,
+						[ActivityConst.ACTIVITY_TYPE_MONOPOLY] = function ()
+							uv0:updateActivity(uv1)
+						end,
+						[ActivityConst.ACTIVITY_TYPE_CHALLENGE] = function ()
+							uv0:sendNotification(GAME.CHALLENGE2_INFO, {})
+						end,
+						[ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2] = function ()
+							slot0 = uv0.data1KeyValueList[1]
+
+							if pg.activity_event_worldboss[uv0:getConfig("config_id")] then
+								slot2 = ipairs
+								slot3 = slot1.normal_expedition_drop_num or {}
+
+								for slot5, slot6 in slot2(slot3) do
+									for slot10, slot11 in ipairs(slot6[1]) do
+										slot0[slot11] = slot6[2] or 0
+									end
+								end
+							end
+
+							uv1:updateActivity(uv0)
+						end,
+						[ActivityConst.ACTIVITY_TYPE_RANDOM_DAILY_TASK] = function ()
+							if pg.TimeMgr.GetInstance():IsSameDay(uv0.data1, pg.TimeMgr.GetInstance():GetServerTime()) then
+								return
+							end
+
+							pg.m02:sendNotification(GAME.ACT_RANDOM_DAILY_TASK, {
+								activity_id = uv0.id,
+								cmd = ActivityConst.RANDOM_DAILY_TASK_OP_RANDOM
+							})
+						end,
+						[ActivityConst.ACTIVITY_TYPE_EVENT_SINGLE] = function ()
+							uv0:sendNotification(GAME.SINGLE_EVENT_REFRESH, {
+								actId = uv1.id
+							})
+						end
+					})
+				end
+			end
+		end,
+		[ProxyRegister.SecondCall] = function (slot0)
+			if not uv0.stopList then
+				return
+			end
+
+			slot1 = pg.TimeMgr.GetInstance():GetServerTime()
+
+			while #uv0.stopList > 0 and uv0.stopList[1][1] <= slot1 do
+				slot2, slot3 = unpack(table.remove(uv0.stopList, 1))
+
+				if uv0.data[slot3]:getConfig("type") == ActivityConst.ACTIVITY_TYPE_MILITARY_EXERCISE then
+					getProxy(MilitaryExerciseProxy):setSeasonOver()
+				end
+
+				pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inActivity")
+				uv0:sendNotification(uv1.ACTIVITY_END, slot3)
+			end
+		end
+	}
 end
 
 slot0.getAliveActivityByType = function(slot0, slot1)
@@ -266,13 +412,14 @@ slot0.getPanelActivities = function(slot0)
 		end
 	end
 
-	table.sort(slot2, function (slot0, slot1)
-		if slot0:getConfig("login_pop") == slot1:getConfig("login_pop") then
-			return slot0.id < slot1.id
-		else
-			return slot3 < slot2
+	table.sort(slot2, CompareFuncs({
+		function (slot0)
+			return -slot0:getConfig("login_pop")
+		end,
+		function (slot0)
+			return slot0.id
 		end
-	end)
+	}))
 
 	return slot2
 end
@@ -448,8 +595,8 @@ slot0.updateActivity = function(slot0, slot1)
 
 	slot0.data[slot1.id] = slot1
 
-	slot0.facade:sendNotification(uv0.ACTIVITY_UPDATED, slot1:clone())
-	slot0.facade:sendNotification(GAME.SYN_GRAFTING_ACTIVITY, {
+	slot0:sendNotification(uv0.ACTIVITY_UPDATED, slot1:clone())
+	slot0:sendNotification(GAME.SYN_GRAFTING_ACTIVITY, {
 		id = slot1.id
 	})
 end
@@ -460,7 +607,19 @@ slot0.addActivity = function(slot0, slot1)
 
 	slot0.data[slot1.id] = slot1
 
-	slot0.facade:sendNotification(uv0.ACTIVITY_ADDED, slot1:clone())
+	slot0:sendNotification(uv0.ACTIVITY_ADDED, slot1:clone())
+
+	if slot1.stopTime > 0 then
+		table.insert(slot0.stopList, {
+			slot1.stopTime,
+			slot1.id
+		})
+		table.sort(slot0.stopList, CompareFuncs({
+			function (slot0)
+				return slot0[1]
+			end
+		}))
+	end
 
 	if slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BUFF then
 		table.insert(slot0.buffActs, slot1.id)
@@ -473,7 +632,13 @@ slot0.deleteActivityById = function(slot0, slot1)
 
 	slot0.data[slot1] = nil
 
-	slot0.facade:sendNotification(uv0.ACTIVITY_DELETED, slot1)
+	slot0:sendNotification(uv0.ACTIVITY_DELETED, slot1)
+
+	if table.getIndex(slot0.stopList, function (slot0)
+		return slot0[2] == uv0
+	end) then
+		table.remove(slot0.stopList, slot2)
+	end
 end
 
 slot0.IsActivityNotEnd = function(slot0, slot1)
@@ -577,7 +742,7 @@ end
 
 slot0.monitorTaskList = function(slot0, slot1)
 	if slot1 and not slot1:isEnd() and slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_TASK_LIST_MONITOR and getProxy(TaskProxy):isReceiveTasks(slot1:getConfig("config_data")[1] or {}) then
-		pg.m02:sendNotification(GAME.ACTIVITY_OPERATION, {
+		slot0:sendNotification(GAME.ACTIVITY_OPERATION, {
 			cmd = 1,
 			activity_id = slot1.id
 		})
@@ -736,7 +901,7 @@ slot0.getEnterReadyActivity = function(slot0)
 end
 
 slot0.AtelierActivityAllSlotIsEmpty = function(slot0)
-	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK) or slot1:isEnd() then
+	if not slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK) or slot1:isEnd() then
 		return false
 	end
 
@@ -750,7 +915,7 @@ slot0.AtelierActivityAllSlotIsEmpty = function(slot0)
 end
 
 slot0.OwnAtelierActivityItemCnt = function(slot0, slot1, slot2)
-	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK) or slot3:isEnd() then
+	if not slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK) or slot3:isEnd() then
 		return false
 	end
 

@@ -47,6 +47,34 @@ slot0.register = function(slot0)
 	end
 end
 
+slot0.timeCall = function(slot0)
+	return {
+		[ProxyRegister.DayCall] = function (slot0)
+			if uv0:getShopStreet() then
+				slot1:resetflashCount()
+				uv0:setShopStreet(slot1)
+			end
+
+			uv0.refreshChargeList = true
+
+			if uv0:getMiniShop() and slot2:checkShopFlash() then
+				pg.m02:sendNotification(GAME.MINI_GAME_SHOP_FLUSH)
+			end
+
+			if slot0 == 1 then
+				uv0.shamShop:update(date.month, {})
+				uv0:AddShamShop(uv0.shamShop)
+				uv0.fragmentShop:Reset(date.month)
+				uv0:AddFragmentShop(uv0.fragmentShop)
+
+				if not LOCK_UR_SHIP then
+					getProxy(BagProxy):ClearLimitCnt(pg.gameset.urpt_chapter_max.description[1])
+				end
+			end
+		end
+	}
+end
+
 slot0.setShopStreet = function(slot0, slot1)
 	slot0.shopStreet = slot1
 

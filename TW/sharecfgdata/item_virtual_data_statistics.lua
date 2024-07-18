@@ -161708,6 +161708,31 @@ _G.pg.base.item_virtual_data_statistics[59534] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[59536] = {
+	drop_gold_max = 0,
+	name = "勇者金幣",
+	display = "用於「勇者的旅途」活動兌換，活動結束後將會消失",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/hero_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 59536,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[59582] = {
 	drop_gold_max = 0,
 	name = "假日郵輪紀念票",
@@ -161775,6 +161800,31 @@ _G.pg.base.item_virtual_data_statistics[59586] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 59586,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[59599] = {
+	drop_gold_max = 0,
+	name = "巡游点数",
+	display = "参与「世界巡游」获得的点数，累计一定程度可以领取奖励，活动结束后将会消失",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "props/battlepass_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 26,
+	id = 59599,
 	display_icon = {},
 	price = {},
 	index = {},

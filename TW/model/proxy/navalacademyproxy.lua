@@ -64,6 +64,16 @@ slot0.register = function(slot0)
 	end)
 end
 
+slot0.timeCall = function(slot0)
+	return {
+		[ProxyRegister.DayCall] = function (slot0)
+			uv0:setCourse(uv0.course)
+			uv0:sendNotification(GAME.CLASS_FORCE_UPDATE)
+			getProxy(NavalAcademyProxy):resetUsedDailyFinishCnt()
+		end
+	}
+end
+
 slot0.GetRecentShips = function(slot0)
 	if #slot0.recentShips > 0 then
 		for slot4 = #slot0.recentShips, 1, -1 do

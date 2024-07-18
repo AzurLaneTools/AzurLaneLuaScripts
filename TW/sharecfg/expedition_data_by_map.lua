@@ -328,6 +328,10 @@ pg.expedition_data_by_map = setmetatable({
 		2100141,
 		2100150,
 		2100151,
+		2100180,
+		2100181,
+		2100190,
+		2100191,
 		2100200,
 		2100201,
 		2100210,
@@ -349,6 +353,7 @@ pg.expedition_data_by_map = setmetatable({
 		2200020,
 		2200030,
 		2200040,
+		2200050,
 		2200080,
 		2200090,
 		5100000,
@@ -15248,6 +15253,182 @@ pg.base.expedition_data_by_map = {
 			}
 		}
 	},
+	[2100180] = {
+		map = 2100180,
+		name = "箱庭療法·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "XIANGTINGLIAOFA1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1230001",
+		ani_controller = "",
+		cloud_suffix = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1230001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 2100190,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100181] = {
+		map = 2100181,
+		name = "箱庭療法·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "XIANGTINGLIAOFA16",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1230002",
+		ani_controller = "",
+		cloud_suffix = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1230002",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 2100191,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100190] = {
+		map = 2100190,
+		name = "箱庭療法·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "XIANGTINGLIAOFA1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1230003",
+		ani_controller = "",
+		cloud_suffix = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1230003",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 2100180,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100191] = {
+		map = 2100191,
+		name = "箱庭療法·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "bsm-1",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "XIANGTINGLIAOFA16",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1230004",
+		ani_controller = "",
+		cloud_suffix = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1230004",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 2100181,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
 	[2100200] = {
 		map = 2100200,
 		name = "浮櫻影華·上篇|| ||CHAPTER EX||E.X.",
@@ -16149,6 +16330,50 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		uifx = "",
 		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2200050] = {
+		map = 2200050,
+		name = "斯圖爾特的硝煙|| ||CHAPTER SP||S.P.",
+		bgm = "level",
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 0,
+		guide_id = "",
+		ani_name = "",
+		ani_controller = "",
+		cloud_suffix = "white",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "map_5",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 2200051,
 		clouds_pos = {
 			{
 				332,

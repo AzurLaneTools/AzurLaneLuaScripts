@@ -40,9 +40,9 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
-			say = "♪优雅的女士们，请继续听我唱♪",
+			say = "♪優雅的女士們，請繼續聽我唱♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -60,9 +60,9 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
-			say = "♪穿过丛林，越过山峦♪",
+			say = "♪穿越叢林，越過山巒♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,69 +79,9 @@ return {
 			factiontag = "？？？",
 			dir = 1,
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
-			say = "♪举目远眺，直至北方♪",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "star_level_bg_158",
-			factiontag = "？？？",
-			dir = 1,
-			nameColor = "#FEF15E",
-			actor = 401466,
-			actorName = "吟游诗人",
-			hidePaintObj = true,
-			say = "♪群山之中，你会见到那座城堡♪",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 8,
-			side = 2,
-			bgName = "star_level_bg_158",
-			factiontag = "？？？",
-			dir = 1,
-			nameColor = "#FEF15E",
-			actor = 401466,
-			actorName = "吟游诗人",
-			hidePaintObj = true,
-			say = "♪那座肃穆又华丽，以火焰与鲜血妆点的城堡♪",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 12,
-			side = 2,
-			bgName = "star_level_bg_158",
-			factiontag = "？？？",
-			dir = 1,
-			nameColor = "#FEF15E",
-			actor = 401466,
-			actorName = "吟游诗人",
-			hidePaintObj = true,
-			say = "♪那就是魔王的居城，亿万傀儡的居城♪",
+			say = "♪舉目遠眺，直至北方♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,9 +99,9 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
-			say = "♪它们坚如金石，寒冷如冰♪",
+			say = "♪群山之中，妳會見到那座城堡♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,9 +119,9 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
-			say = "♪没有心，亦无感情♪",
+			say = "♪那肅穆又華麗，以火焰與鮮血妝點的城堡♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,9 +139,69 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
-			say = "♪如今，大军已经出动♪",
+			say = "♪那就是魔王的居城，億萬傀儡的居城♪",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "star_level_bg_158",
+			factiontag = "？？？",
+			dir = 1,
+			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
+			hidePaintObj = true,
+			say = "♪它們堅如金石，冷如冰♪",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 8,
+			side = 2,
+			bgName = "star_level_bg_158",
+			factiontag = "？？？",
+			dir = 1,
+			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
+			hidePaintObj = true,
+			say = "♪沒有心，亦無感情♪",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 12,
+			side = 2,
+			bgName = "star_level_bg_158",
+			factiontag = "？？？",
+			dir = 1,
+			nameColor = "#FEF15E",
+			actor = 401466,
+			actorName = "吟遊詩人",
+			hidePaintObj = true,
+			say = "♪如今，大軍已經出動♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,9 +219,9 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
-			say = "♪所过之处，生灵无存♪",
+			say = "♪所過之處，生靈無存♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			actor = 101170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "魔王军……",
+			say = "魔王軍……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			actor = 201210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……确实偶尔有路过的商人说遭到过魔物的袭击。",
+			say = "嗯……確實偶爾有路過的商人說遭到魔物的襲​​擊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			actor = 201210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过你不用担心啦，村庄附近的魔物都被我们消灭干净了哦~",
+			say = "不過妳不用擔心啦，村莊附近的魔物都被我們消滅乾淨了哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,9 +310,9 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
-			say = "……原来你们还是村落的保卫者啊，真厉害。",
+			say = "……原來妳們還是村落的保衛者啊，真厲害。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			actor = 201210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎嘿嘿……一般般啦。",
+			say = "哎嘿嘿……普普通通啦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,9 +348,9 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
-			say = "不过魔王的军队，和那些游荡的魔物可不一样。",
+			say = "不過魔王的軍隊，和那些遊蕩的魔物可不一樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,9 +368,9 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
-			say = "就算是王国军，在其强大的攻势下也只能一退再退。",
+			say = "就算是王國軍，在其強大的攻勢下也只能一退再退。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -388,9 +388,9 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
-			say = "目前，王国军已经决定彻底放弃无尽树海及周边区域了。",
+			say = "目前，王國軍已經決定徹底放棄無盡樹海及週邊區域了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			actor = 301059,
 			actorName = "{namecode:6}",
 			hidePaintObj = true,
-			say = "无尽树海……是哪里？",
+			say = "無盡樹海……是哪裡？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,9 +426,9 @@ return {
 			factiontag = "？？？",
 			dir = 1,
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
-			say = "……从村子望过去的那片无穷无尽的大森林，就是无尽树海。",
+			say = "……從村子望過去的那片無窮無盡的大森林，就是無盡樹海。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,7 +446,7 @@ return {
 			actor = 401230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……那片森林我们一直叫它起源之森，原来你们都叫无尽树海啊。",
+			say = "啊……那片森林我們一直叫它起源之森，原來妳們都叫無盡樹海。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,9 +464,9 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
-			say = "起源之森？村里流传的是这个名字么？",
+			say = "起源之森？村裡流傳的是這個名字嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,7 +484,7 @@ return {
 			actor = 401230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，村里一直都是这么叫的。",
+			say = "嗯，村裡一直都是這麼叫的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,9 +502,9 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
-			say = "……有些令人怀念的称呼。呵呵，那就叫起源之森——",
+			say = "……有些令人懷念的稱呼。呵呵，那就叫起源之森——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,7 +519,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_158",
 			hidePaintObj = true,
-			say = "吟游诗人停顿了一下，继续歌唱起来。",
+			say = "吟遊詩人停頓了一下，繼續唱起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "♪起源之森的善良之人啊♪",
 			painting = {
@@ -553,9 +553,9 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
-			say = "♪请不要放弃希望♪",
+			say = "♪請不要放棄希望♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -573,9 +573,9 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
-			say = "♪向南望去，希望正在天冠城外酝酿♪",
+			say = "♪向南望去，希望正在天冠城外醞釀♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -593,9 +593,9 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
-			say = "♪与魔王勾结的守护者已被驱离王都♪",
+			say = "♪與魔王勾結的守護者已被驅離王都♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -613,9 +613,9 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
-			say = "♪高耸入云的天冠城墙即将完工♪",
+			say = "♪高聳入雲的天冠城牆即將完工♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -633,9 +633,9 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
-			say = "♪十二神教会赐福了冰雪湖♪",
+			say = "♪十二神教會賜福了冰雪湖♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -653,9 +653,9 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
-			say = "♪高贵的吸血鬼修建了乐歌城♪",
+			say = "♪高貴的吸血鬼修建了樂歌城♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -673,9 +673,9 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
-			say = "♪守护巨龙亦已翱翔于天♪",
+			say = "♪守護巨龍亦已翱翔於天♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -693,9 +693,9 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
-			say = "♪为敌人带来毁灭，为土地带来丰饶♪",
+			say = "♪為敵人帶來毀滅，為土地帶來豐饒♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -713,7 +713,7 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "♪所以，起源之森的善良之人啊♪",
 			painting = {
@@ -733,9 +733,9 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
-			say = "♪跟我向南，前往那片希望之地吧♪",
+			say = "♪跟我向南，前往那片希望之地♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -753,7 +753,7 @@ return {
 			actor = 401230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以……你是希望我们跟着你向南走，前往安全的地方么？",
+			say = "所以……妳是希望我們跟著你往南走，前往安全的地方嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -771,9 +771,9 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
-			say = "没错。这座美丽的村庄虽然保不住了，但是善良的诸位不应该殒命于此。",
+			say = "沒錯。這座美麗的村莊雖然保不住了，但是善良的諸位不該殞命於此。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -790,9 +790,9 @@ return {
 			factiontag = "？？？",
 			dir = 1,
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
-			say = "引导你们前往那片希望之地，是我这个微不足道的吟游诗人能为你们做的唯一一件事了。",
+			say = "引導妳們前往那片希望之地，是我這個微不足道的吟遊詩人能為你們做的唯一一件事了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -811,7 +811,7 @@ return {
 			actor = 301059,
 			actorName = "{namecode:6}",
 			hidePaintObj = true,
-			say = "守护者……在村子的记录中是守护王国的人。",
+			say = "守護者……在村子的記錄中是守護王國的人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -830,7 +830,7 @@ return {
 			actor = 301059,
 			actorName = "{namecode:6}",
 			hidePaintObj = true,
-			say = "为什么会去和魔王勾结呢？",
+			say = "為什麼會去和魔王勾結呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -848,9 +848,9 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
-			say = "你们村子竟然连这个都有记录……？",
+			say = "妳們村子竟然連這個都有紀錄……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -868,9 +868,9 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
-			say = "这个就……说来话长了。",
+			say = "這個就……說來話長了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -888,7 +888,7 @@ return {
 			actor = 101170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那……可以请你再呆一天么？",
+			say = "那……可以請妳再待一天嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -906,7 +906,7 @@ return {
 			actor = 201210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不用担心，我们会保护村子，也保护你的哦~",
+			say = "不用擔心，我們會保護村子，也保護妳的哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -924,7 +924,7 @@ return {
 			dir = 1,
 			nameColor = "#FEF15E",
 			actor = 401466,
-			actorName = "吟游诗人",
+			actorName = "吟遊詩人",
 			hidePaintObj = true,
 			say = "嗯……那就再待一天吧。",
 			painting = {
