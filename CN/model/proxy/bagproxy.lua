@@ -44,6 +44,8 @@ slot0.removeExtraData = function(slot0, slot1, slot2)
 end
 
 slot0.hasExtraData = function(slot0, slot1, slot2)
+	warning(PrintTable(slot0.extraItemData[slot1] or {}))
+
 	return table.contains(slot0.extraItemData[slot1] or {}, slot2)
 end
 
@@ -58,7 +60,7 @@ slot0.addItemById = function(slot0, slot1, slot2, slot3)
 		slot0:addExtraData(slot1, slot3)
 	end
 
-	slot0:updateItem(slot1, slot2)
+	slot0:updateItem(slot1, slot2, slot3)
 end
 
 slot0.removeItemById = function(slot0, slot1, slot2, slot3)
@@ -72,7 +74,7 @@ slot0.removeItemById = function(slot0, slot1, slot2, slot3)
 		slot0:removeExtraData(slot1, slot3)
 	end
 
-	slot0:updateItem(slot1, -slot2)
+	slot0:updateItem(slot1, -slot2, slot3)
 end
 
 slot0.getItemsByExclude = function(slot0)
@@ -198,19 +200,23 @@ slot0.getCanComposeCount = function(slot0)
 	return slot1
 end
 
-slot0.updateItem = function(slot0, slot1, slot2)
-	slot3 = slot0.data[slot1] or Item.New({
+slot0.updateItem = function(slot0, slot1, slot2, slot3)
+	slot4 = slot0.data[slot1] or Item.New({
 		count = 0,
 		id = slot1
 	})
-	slot3.count = slot3.count + slot2
+	slot4.count = slot4.count + slot2
 
-	assert(slot3.count >= 0, "item count error: " .. slot3.id)
+	assert(slot4.count >= 0, "item count error: " .. slot4.id)
 
-	slot0.data[slot3.id] = slot3
+	slot0.data[slot4.id] = slot4
 
-	slot0.data[slot3.id]:display("updated")
-	slot0.facade:sendNotification(uv0.ITEM_UPDATED, slot3:clone())
+	slot0.data[slot4.id]:display("updated")
+
+	slot5 = slot4:clone()
+	slot5.extra = slot3
+
+	slot0.facade:sendNotification(uv0.ITEM_UPDATED, slot5)
 end
 
 slot0.canUpgradeFlagShipEquip = function(slot0)

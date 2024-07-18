@@ -513,6 +513,9 @@ slot0.UpdateMailList = function(slot0, slot1, slot2)
 
 		table.sort(slot0.filterMails, CompareFuncs({
 			function (slot0)
+				return (uv0.collectionSortToggle and 1 or -1) * slot0.date
+			end,
+			function (slot0)
 				return (uv0.collectionSortToggle and 1 or -1) * slot0.id
 			end
 		}))
