@@ -338,7 +338,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "PT",
-		key_value = 414
+		key_value = 422
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1923,7 +1923,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 417
+		key_value = 424
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -3626,6 +3626,62 @@ pg.gameset = {
 		key_value = 0,
 		description = {
 			97
+		}
+	},
+	loveletter_item_new = {
+		key_value = 0,
+		description = {
+			{
+				2018,
+				44011,
+				73
+			},
+			{
+				2019,
+				44012,
+				241
+			},
+			{
+				2020,
+				44013,
+				490
+			},
+			{
+				2021,
+				44014,
+				871
+			},
+			{
+				2022,
+				44015,
+				4254
+			},
+			{
+				2023,
+				44016,
+				4686
+			},
+			{
+				2024,
+				44017,
+				5201
+			}
+		}
+	},
+	loveletter_item_old_year = {
+		key_value = 0,
+		description = {
+			{
+				44001,
+				{
+					2022,
+					2023
+				}
+			},
+			{
+				44002,
+				2024
+			}
 		}
 	}
 }

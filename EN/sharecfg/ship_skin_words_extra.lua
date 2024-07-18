@@ -273,7 +273,9 @@ pg.ship_skin_words_extra = setmetatable({
 		401430,
 		799020,
 		199050,
-		399070
+		399070,
+		699020,
+		899040
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -19081,6 +19083,202 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"Heehee. You chose to respond to my feelings directly instead of with poetry, so allow me to do the same. Commander, I love you very much♡"
+			}
+		}
+	},
+	[699020] = {
+		feeling3 = "",
+		id = 699020,
+		skill = "",
+		unlock = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"You're here, Commander. Yes, I didn't get lost today. I suppose what I should say is... I'm waiting for you to invite me on a stroll."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"My strategy went rather well. It was all thanks to your teachings, Commander."
+			}
+		},
+		lose = {
+			{
+				1100,
+				"This is far from over."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Have a seat and get comfortable, Commander. I've made you tea and sweets. Indeed – your favorite ones. I've committed them to memory."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Hm? Yes, I was thinking of you, too."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"I don't want to catch those eyes of yours staring at any other girl, Commander. You'll make her get as lost in your heart as I have. We can't have that, because you're mine."
+			}
+		},
+		upgrade = {
+			{
+				1100,
+				"Whatever foes or obstacles come between us, I shall eliminate them all."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I've got the hang of paperwork by now, Commander. You can stop bothering other girls with it and leave it all to me.|Diplomats often dance at balls as part of their work, so allow me to teach you some moves. Yes, place your hands like this... Feel free to place them further down, even.|What's that? You're studying intel on the enemy? I don't see why you'd concern yourself with such a thing. Can't you just beat them down with overwhelming force?|Commander? Oh, it seems my stroll has unexpectedly brought me to your room... Perhaps you could say that's part of the fun of traveling, heehee. What do you think?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"I've heard that massages are good for the skin. Incidentally, may I... borrow your hands for a bit?"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"Let us head out and greet the commission team together."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Don't worry about those missions. I'll handle them."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Mission complete. I daresay I've grown quite good at this."
+			}
+		},
+		mail = {
+			{
+				1100,
+				"Would you share the contents of this letter with me? I'm rather... scratch that, just a little curious."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"I've been taking good care of these as well, by the way!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I've thought of a myriad of metaphors for my love for you. A lighthouse out at sea, a guiding star... None of them quite hit home, though. Perhaps I ought to forego such things and just express my unadulterated feelings... I love you. I will always be with you."
+			}
+		}
+	},
+	[899040] = {
+		feeling3 = "",
+		upgrade = "",
+		id = 899040,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		feeling2 = "",
+		login = {
+			{
+				1100,
+				"Before you start work today, allow me to set ten minutes aside to get you into the right mental space."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Commander, the battle is over. Let's cross this sea of sorrows and return home."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome home. As a reward for overcoming your trials... (Bayard gives you a warm hug.)"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"In the Commander's name, I will annihilate you."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Is this a reward? For... me?"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"A true knight is not made by title, honor, or status. Anyone who has a knight's spirit may be called a knight."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Someday, we won't need weapons anymore. Knights will no longer be necessary. But that's the kind of future I want.|If one's purpose for fighting is to annihilate, to destroy, then it's my duty to stand in opposition.|I want to be fair, tolerant, humble, and pious. If my money is better suited to enriching others' lives... If my fame and honor could be used to touch others... Then I'm just fine giving all of that up."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Let me just close my eyes and stay by your side..."
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"I finished receiving the mission rewards. Here's a list of what we received... Umm? Is there something on my face?"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Let's tackle this mission together. You don't need to worry about the workload."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Commander, I suggest taking a short break before you gather your rewards."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"You've dragged me into the abyss of desire, too, I see..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"In my time with you, I've learned to confront my own emotions. I shouldn't suppress my love. So now, I'm letting you see my... shameful, unsightly side. Please... hold me tight, and give me your warmth."
 			}
 		}
 	}

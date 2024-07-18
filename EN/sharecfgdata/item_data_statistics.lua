@@ -37166,6 +37166,58 @@ _G.pg.base.item_data_statistics[40046] = {
 }
 
 
+_G.pg.base.item_data_statistics[40047] = {
+	open_directly = 1,
+	name = "Outfit Selection Pack (Shimakaze)",
+	type = 17,
+	display = "Contains many items.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/daofeng_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4049",
+	id = 40047,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			59553,
+			1
+		},
+		{
+			2,
+			20001,
+			40
+		},
+		{
+			1,
+			1,
+			30000
+		},
+		{
+			2,
+			16502,
+			50
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[40100] = {
 	open_directly = 1,
 	name = "Promise Crate",
@@ -81118,6 +81170,223 @@ _G.pg.base.item_data_statistics[44002] = {
 }
 
 
+_G.pg.base.item_data_statistics[44011] = {
+	open_directly = 0,
+	name = "Valentine Gift",
+	type = 23,
+	display = "A Valentine Gift from $1",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/manhanquanxi ",
+	price = "",
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 44011,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[44012] = {
+	open_directly = 0,
+	name = "Valentine Gift",
+	type = 23,
+	display = "A Valentine Gift from $1",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/manhanquanxi ",
+	price = "",
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 44012,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[44013] = {
+	open_directly = 0,
+	name = "Valentine Gift",
+	type = 23,
+	display = "A Valentine Gift from $1",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/manhanquanxi ",
+	price = "",
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 44013,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[44014] = {
+	open_directly = 0,
+	name = "Valentine Gift",
+	type = 23,
+	display = "A Valentine Gift from $1",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/manhanquanxi ",
+	price = "",
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 44014,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[44015] = {
+	open_directly = 0,
+	name = "Valentine Gift",
+	type = 23,
+	display = "A Valentine Gift from $1",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/manhanquanxi ",
+	price = "",
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 44015,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[44016] = {
+	open_directly = 0,
+	name = "Valentine Gift",
+	type = 23,
+	display = "A Valentine Gift from $1",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/manhanquanxi ",
+	price = "",
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 44016,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[44017] = {
+	open_directly = 0,
+	name = "Valentine Gift",
+	type = 23,
+	display = "A Valentine Gift from $1",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/manhanquanxi ",
+	price = "",
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 44017,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[50001] = {
 	open_directly = 0,
 	name = "Oxy-cola",
@@ -81985,6 +82254,105 @@ _G.pg.base.item_data_statistics[59551] = {
 			0
 		},
 		780
+	}
+}
+
+
+_G.pg.base.item_data_statistics[59552] = {
+	open_directly = 0,
+	name = "Outfit Coupon (1080)",
+	type = 1,
+	display = "Gives a 1,080 Gem discount when purchasing a skin. Removed after use.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/skin_1080",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 59552,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			0
+		},
+		1080
+	}
+}
+
+
+_G.pg.base.item_data_statistics[59553] = {
+	open_directly = 0,
+	name = "Selection Skin Voucher (Shimakaze)",
+	type = 26,
+	display = "Can be used from your Depot to select 1 skin of your choosing. \n(<color=#ff5c5c>You may only choose from the skins presented. If you already own all the skins, you will instead receive a Skin Voucher.</color>)",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed_skinexchange",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/skin_exchange_daofeng",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 59553,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			7,
+			301291,
+			1
+		},
+		{
+			7,
+			301292,
+			1
+		},
+		{
+			7,
+			301293,
+			1
+		},
+		{
+			7,
+			301294,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		0,
+		{},
+		{
+			301291,
+			301292,
+			301293,
+			301294
+		},
+		0,
+		59552
 	}
 }
 

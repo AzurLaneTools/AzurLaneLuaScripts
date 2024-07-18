@@ -136,6 +136,7 @@ pg.pay_data_display = setmetatable({
 		2028,
 		2029,
 		2030,
+		2031,
 		139,
 		140,
 		141,
@@ -12640,6 +12641,104 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40046,
+				1
+			}
+		}
+	},
+	[2031] = {
+		extra_service = 3,
+		limit_group = 0,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		first_pay_double = 0,
+		name_display = "Outfit Selection Pack (Shimakaze)",
+		descrip = "Contains an Outfit Selection Voucher, Wisdom Cubes, T2 EXP Data Packs, and more.",
+		subject = "Outfit Selection Pack (Shimakaze)",
+		limit_arg = 1,
+		money = 1799,
+		tag = 2,
+		name = "Outfit Selection Pack (Shimakaze)",
+		gem = 0,
+		type_order = 0,
+		limit_type = 2,
+		sub_display = "",
+		picture = "daofeng_package",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.pack11",
+		extra_gem = 0,
+		id = 2031,
+		airijp_id = "com.yostaren.azurlane.pack11",
+		extra_service_item = {
+			{
+				2,
+				59553,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				1,
+				1,
+				30000
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					7,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59553,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40047,
 				1
 			}
 		}

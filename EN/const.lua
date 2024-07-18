@@ -323,3 +323,4 @@ OPEN_EXCEPTION_TEST = false
 LOCK_SKIN_SHOP_ANIM_PREVIEW = false
 OPEN_EXCEPTION_TEST = false
 LOCK_NAMED = false
+MailWaterSelect = true

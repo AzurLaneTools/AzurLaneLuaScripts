@@ -93,10 +93,11 @@ slot0.register = function(slot0)
 	slot0:bind(uv0.ON_FETCH_BOSS, function (slot0)
 		uv0:updateBossProxy()
 	end)
-	slot0:bind(uv0.ON_BATTLE, function (slot0, slot1, slot2)
+	slot0:bind(uv0.ON_BATTLE, function (slot0, slot1, slot2, slot3)
 		uv0:sendNotification(GAME.WORLD_BOSS_START_BATTLE, {
 			bossId = slot1,
-			isOther = slot2
+			isOther = slot2,
+			hpRate = slot3 or 1
 		})
 	end)
 	slot0:bind(uv0.ON_RANK_LIST, function (slot0, slot1)

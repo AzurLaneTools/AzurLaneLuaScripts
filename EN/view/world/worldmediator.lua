@@ -81,7 +81,8 @@ slot0.register = function(slot0)
 		else
 			uv0:sendNotification(GAME.BEGIN_STAGE, {
 				system = SYSTEM_WORLD,
-				stageId = slot1
+				stageId = slot1,
+				hpRate = slot3:GetHP() and slot3:GetHP() / slot3:GetMaxHP() or nil
 			})
 		end
 	end)

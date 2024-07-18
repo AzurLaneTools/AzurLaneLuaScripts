@@ -9,22 +9,23 @@ slot0.FontMgr.Init = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in pairs({
-		bankgthd = "bankgthd",
+		weijichuanFont = "weijichuanFont",
 		remfont = "remfont",
-		impact = "impact",
-		treatfont = "treatfont",
-		crifont = "crifont",
 		chuanjiadanFont = "chuanjiadanFont",
+		heitibold = "ZhunYuan_Bold",
+		crifont = "crifont",
+		heiti = "zhunyuan",
 		explofont = "explofont",
-		number = "number",
+		impact = "impact",
 		countnumber = "countnumber",
 		weaponcountfont = "weaponcountfont",
 		missfont = "missfont",
-		heiti = "zhunyuan",
+		treatfont = "treatfont",
 		MStiffHei = "MStiffHei",
-		weijichuanFont = "weijichuanFont",
 		lvnumber = "lvnumber",
-		sourcehanserifcn = "sourcehanserifcn-bold_0"
+		number = "number",
+		sourcehanserifcn = "sourcehanserifcn-bold_0",
+		bankgthd = "bankgthd"
 	}) do
 		table.insert(slot2, function (slot0)
 			ResourceMgr.Inst:getAssetAsync("font/" .. uv0, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)

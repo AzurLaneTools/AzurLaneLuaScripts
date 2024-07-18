@@ -141921,7 +141921,7 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 		desc = "Every 12 times this ship fires her Main Guns: fires a special barrage.",
 		id = 801301,
 		system_transform = {
-			[51.0] = 801235
+			[51.0] = 801305
 		},
 		world_death_mark = {
 			1
@@ -141937,7 +141937,7 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 		desc = "While this ship's HP is above 50.0%, every 8 times this ship fires her Main Guns: reduces this ship's current HP by 5.0% and fires a special barrage with 20.0% increased Crit Rate; when this ship's HP falls below 50.0%, every 4 times this ship fires her Main Guns: fires a special barrage.",
 		id = 801302,
 		system_transform = {
-			[51.0] = 801237
+			[51.0] = 801307
 		},
 		world_death_mark = {
 			1
@@ -141953,7 +141953,7 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 		desc = "[Operation Siren]\nEvery 12 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 3.0%.",
 		id = 801305,
 		system_transform = {
-			[51.0] = 801235
+			[51.0] = 801305
 		},
 		world_death_mark = {
 			1
@@ -141969,7 +141969,7 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 		desc = "[Operation Siren]\nWhile this ship's HP is above 50.0%, every 8 times this ship fires her Main Guns: reduces this ship's current HP by 5.0% and fires a special barrage with 20.0% increased Crit Rate; when this ship's HP falls below 50.0%, every 4 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 8.0%.",
 		id = 801307,
 		system_transform = {
-			[51.0] = 801237
+			[51.0] = 801307
 		},
 		world_death_mark = {
 			1

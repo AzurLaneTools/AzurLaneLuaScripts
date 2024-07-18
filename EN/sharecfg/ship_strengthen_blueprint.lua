@@ -32813,8 +32813,8 @@ pg.ship_strengthen_blueprint = {
 		},
 		extra_desc = {
 			"Learns Siren Killer",
-			"Fighter efficiency +5%",
-			"Can equip Torpedo Bombers in Fighter slot"
+			"Dive Bomber efficiency +5%",
+			"Torpedo Bomber efficiency +5%"
 		}
 	},
 	[3611] = {
@@ -33092,7 +33092,7 @@ pg.ship_strengthen_blueprint = {
 		extra_desc = {
 			"Improves Siren Killer",
 			"Hangar capacity +1",
-			"Dive Bomber efficiency +10%"
+			"Fighter efficiency +10%"
 		}
 	},
 	[3621] = {
@@ -33365,7 +33365,7 @@ pg.ship_strengthen_blueprint = {
 		extra_desc = {
 			"Improves Siren Killer",
 			"Aircraft efficiency +5%",
-			"Can equip Dive Bombers in Torpedo Bomber slot"
+			"Can equip any aircraft in Dive Bomber slot"
 		}
 	},
 	[3701] = {

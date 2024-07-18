@@ -277,4 +277,27 @@ slot0.getIcon = function(slot0)
 	return slot0:getConfig("Icon")
 end
 
+slot1 = nil
+
+slot0.IsLoveLetterCheckItem = function(slot0)
+	if not uv0 then
+		uv0 = {}
+
+		for slot4, slot5 in ipairs(getGameset("loveletter_item_old_year")[2]) do
+			slot6, slot7 = unpack(slot5)
+			uv0[slot6] = underscore.flatten({
+				slot7
+			})
+		end
+
+		for slot4, slot5 in ipairs(pg.loveletter_2018_2021.all) do
+			uv0[slot5] = {
+				pg.loveletter_2018_2021[slot5].year
+			}
+		end
+	end
+
+	return uv0[slot0]
+end
+
 return slot0

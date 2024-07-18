@@ -182872,6 +182872,1118 @@ _G.pg.base.task_data_template[20333] = {
 }
 
 
+_G.pg.base.task_data_template[20340] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902725,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『前卫复刻』-日常建造",
+	desc = "Build 3 ships.",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20340,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59594,
+			300
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20341] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902726,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『前卫复刻』-日常出击",
+	desc = "Sortie and obtain 15 victories",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20341,
+	target_num = 15,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59594,
+			300
+		},
+		{
+			2,
+			59597,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20342] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902727,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『前卫复刻』-日常困难本",
+	desc = "Sortie and clear 1 non-event Hard Mode Stage.",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20342,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59594,
+			150
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20343] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902728,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『前卫复刻』-日常活动关卡",
+	desc = "Clear any event stage 1 time.",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20343,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1650001,
+		1650002,
+		1650003,
+		1650004,
+		1650005,
+		1650006,
+		1650021,
+		1650022,
+		1650023,
+		1650024,
+		1650025,
+		1650026,
+		1650041,
+		1650051
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			59594,
+			300
+		},
+		{
+			2,
+			54006,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5428
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20344] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902729,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『前卫复刻』通关A1/C1",
+	desc = "Clear A1 or C1 1 time.",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20344,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1650001,
+		1650021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			59597,
+			1
+		},
+		{
+			2,
+			59594,
+			200
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5427
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20345] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902730,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『前卫复刻』通关A2/C2",
+	desc = "Clear A2 or C2 1 time.",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20345,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1650002,
+		1650022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			59597,
+			1
+		},
+		{
+			2,
+			59594,
+			400
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5427
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20346] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902731,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『前卫复刻』通关A3/C3",
+	desc = "Clear A3 or C3 1 time.",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20346,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1650003,
+		1650023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			59597,
+			2
+		},
+		{
+			2,
+			59594,
+			600
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5427
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20347] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902732,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『前卫复刻』通关B1/D1",
+	desc = "Clear B1 or D1 1 time.",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20347,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1650004,
+		1650024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			59597,
+			1
+		},
+		{
+			2,
+			59594,
+			400
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5428
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20348] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902733,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『前卫复刻』通关B2/D2",
+	desc = "Clear B2 or D2 1 time.",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20348,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1650005,
+		1650025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			59597,
+			1
+		},
+		{
+			2,
+			59594,
+			600
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5428
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20349] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902734,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『前卫复刻』通关B3/D3",
+	desc = "Clear B3 or D3 1 time.",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20349,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1650006,
+		1650026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			59597,
+			2
+		},
+		{
+			2,
+			59594,
+			800
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5428
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20350] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902735,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『前卫复刻』通关SP",
+	desc = "Clear SP.",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20350,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1650041",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			59597,
+			3
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1650025,
+			chapterId = 1650041
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20351] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902736,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『前卫复刻』通关D3",
+	desc = "Clear D3 Stage<color=#92fc63> (can only be obtained once)</color>",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20351,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1650026",
+	open_need = {},
+	award_display = {
+		{
+			5,
+			226,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1650012,
+			chapterId = 1650026
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20352] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902737,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『前卫复刻』通关EX",
+	desc = "Clear EX.",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20352,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1650051",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1650026,
+			chapterId = 1650051
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20353] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902738,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『前卫复刻』A1/C1的3星",
+	desc = "Complete A1 or C1 with 3 stars.",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20354",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20353,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1650001,
+		1650021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5427
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20354] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902739,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『前卫复刻』A2/C2的3星",
+	desc = "Complete A2 or C2 with 3 stars.",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20355",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20354,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1650002,
+		1650022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5427
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20355] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902740,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『前卫复刻』A3/C3的3星",
+	desc = "Complete A3 or C3 with 3 stars.",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20356",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20355,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1650003,
+		1650023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18013,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5427
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20356] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902741,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『前卫复刻』B1/D1的3星",
+	desc = "Complete B1 or D1 with 3 stars.",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20357",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20356,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1650004,
+		1650024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5428
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20357] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902742,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『前卫复刻』B2/D2的3星",
+	desc = "Complete B2 or D2 with 3 stars.",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20358",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20357,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1650005,
+		1650025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5428
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20358] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902743,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『前卫复刻』B3/D3的3星",
+	desc = "Complete B3 or D3 with 3 stars.",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20358,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1650006,
+		1650026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18013,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5428
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20359] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902744,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『前卫复刻』登录送皮肤体验券活动",
+	desc = "Log in once.",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20359,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			424,
+			3
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20360] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 902776,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『前卫复刻』外观装备箱保底",
+	desc = "Open 20 Empery Chic Gear Skin Boxes.",
+	sub_type = 52,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20360,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "30334",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30504,
+			1
+		}
+	},
+	scene = {
+		"SHOP",
+		{
+			warp = "shopstreet"
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[31017] = {
 	target_id_2 = "",
 	guild_coin_award = 0,
