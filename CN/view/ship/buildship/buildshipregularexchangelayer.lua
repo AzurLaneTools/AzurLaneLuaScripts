@@ -93,11 +93,8 @@ slot0.setSelectedShip = function(slot0, slot1)
 	end
 
 	slot0.shipVO = slot1
-	slot2 = ShipType.Type2BattlePrint(slot1:getShipType())
 
-	eachChild(slot0.rtName:Find("shiptype"), function (slot0)
-		setActive(slot0, slot0.name == uv0)
-	end)
+	GetImageSpriteFromAtlasAsync("shiptype", ShipType.Type2BattlePrint(slot1:getShipType()), slot0.rtName:Find("shiptype/Image"), true)
 	setText(slot0.rtName:Find("name"), slot1:getName())
 	setText(slot0.rtName:Find("english"), string.upper(slot1:getConfig("english_name")))
 	setPaintingPrefabAsync(slot0.rtPaint, slot1:getPainting(), "huode")
