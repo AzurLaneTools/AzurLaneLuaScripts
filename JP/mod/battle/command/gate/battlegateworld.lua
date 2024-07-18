@@ -39,6 +39,7 @@ slot0.Entrance = function(slot0, slot1)
 
 	slot18 = slot0.stageId
 	slot20 = ys.Battle.BattleDataFunction.GetDungeonTmpDataByID(pg.expedition_data_template[slot18].dungeon_id).fleet_prefab
+	slot21 = slot0.hpRate
 
 	slot1.ShipVertify()
 	BeginStageCommand.SendRequest(SYSTEM_WORLD, slot7, {
@@ -63,11 +64,12 @@ slot0.Entrance = function(slot0, slot1)
 		slot1 = uv6
 
 		slot1:updatePlayer(uv1)
-		uv9:sendNotification(GAME.BEGIN_STAGE_DONE, {
+		uv10:sendNotification(GAME.BEGIN_STAGE_DONE, {
 			prefabFleet = uv7,
 			stageId = uv8,
 			system = SYSTEM_WORLD,
-			token = slot0.key
+			token = slot0.key,
+			hpRate = uv9
 		})
 	end, function (slot0)
 		uv0:RequestFailStandardProcess(slot0)

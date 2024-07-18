@@ -85,7 +85,8 @@ slot0.register = function(slot0)
 		uv1:sendNotification(GAME.BEGIN_STAGE, {
 			actId = 0,
 			bossId = uv1.contextData.bossId,
-			system = SYSTEM_WORLD_BOSS
+			system = SYSTEM_WORLD_BOSS,
+			hpRate = uv1.contextData.hpRate
 		})
 	end)
 	slot0:bind(uv0.CHANGE_FLEET_SHIP, function (slot0, slot1, slot2, slot3)

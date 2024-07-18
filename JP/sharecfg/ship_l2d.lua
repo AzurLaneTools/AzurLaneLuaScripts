@@ -26298,7 +26298,8 @@ pg.ship_l2d = {
 					{
 						"touch_drag1",
 						"touch_drag5",
-						"touch_drag9"
+						"touch_drag9",
+						"touch_idle13"
 					},
 					0
 				},
@@ -26979,7 +26980,25 @@ pg.ship_l2d = {
 			type = 2
 		},
 		action_trigger_active = {
-			enable = {},
+			idle = 1,
+			enable = {
+				"touch_idle2",
+				"touch_idle3",
+				"touch_idle4",
+				"touch_idle5",
+				"touch_idle6",
+				"touch_idle7",
+				"touch_idle8",
+				"touch_idle9",
+				"touch_idle10",
+				"touch_idle11",
+				"touch_idle13",
+				"touch_drag10",
+				"touch_drag11",
+				"touch_drag12",
+				"touch_drag13",
+				"touch_drag14"
+			},
 			ignore = {}
 		}
 	},
@@ -27023,7 +27042,25 @@ pg.ship_l2d = {
 			type = 2
 		},
 		action_trigger_active = {
-			enable = {},
+			idle = 1,
+			enable = {
+				"touch_idle2",
+				"touch_idle3",
+				"touch_idle4",
+				"touch_idle5",
+				"touch_idle6",
+				"touch_idle7",
+				"touch_idle8",
+				"touch_idle9",
+				"touch_idle10",
+				"touch_idle11",
+				"touch_idle13",
+				"touch_drag10",
+				"touch_drag11",
+				"touch_drag12",
+				"touch_drag13",
+				"touch_drag14"
+			},
 			ignore = {}
 		}
 	},
@@ -27067,7 +27104,25 @@ pg.ship_l2d = {
 			type = 2
 		},
 		action_trigger_active = {
-			enable = {},
+			idle = 1,
+			enable = {
+				"touch_idle2",
+				"touch_idle3",
+				"touch_idle4",
+				"touch_idle5",
+				"touch_idle6",
+				"touch_idle7",
+				"touch_idle8",
+				"touch_idle9",
+				"touch_idle10",
+				"touch_idle11",
+				"touch_idle13",
+				"touch_drag10",
+				"touch_drag11",
+				"touch_drag12",
+				"touch_drag13",
+				"touch_drag14"
+			},
 			ignore = {}
 		}
 	},
@@ -27111,7 +27166,25 @@ pg.ship_l2d = {
 			type = 2
 		},
 		action_trigger_active = {
-			enable = {},
+			idle = 1,
+			enable = {
+				"touch_idle2",
+				"touch_idle3",
+				"touch_idle4",
+				"touch_idle5",
+				"touch_idle6",
+				"touch_idle7",
+				"touch_idle8",
+				"touch_idle9",
+				"touch_idle10",
+				"touch_idle11",
+				"touch_idle13",
+				"touch_drag10",
+				"touch_drag11",
+				"touch_drag12",
+				"touch_drag13",
+				"touch_drag14"
+			},
 			ignore = {}
 		}
 	},
@@ -27155,7 +27228,25 @@ pg.ship_l2d = {
 			type = 2
 		},
 		action_trigger_active = {
-			enable = {},
+			idle = 1,
+			enable = {
+				"touch_idle2",
+				"touch_idle3",
+				"touch_idle4",
+				"touch_idle5",
+				"touch_idle6",
+				"touch_idle7",
+				"touch_idle8",
+				"touch_idle9",
+				"touch_idle10",
+				"touch_idle11",
+				"touch_idle13",
+				"touch_drag10",
+				"touch_drag11",
+				"touch_drag12",
+				"touch_drag13",
+				"touch_drag14"
+			},
 			ignore = {}
 		}
 	},

@@ -364,12 +364,46 @@ slot0.init = function(slot0)
 		})
 	end, SFX_PANEL)
 
+	slot0.rtBtnRightDelte = slot0.rtMailRight:Find("bottom/btn_delete")
+
+	onButton(slot0, slot0.rtBtnRightDelte, function ()
+		assert(uv0.selectMailId)
+
+		if uv0.proxy:getMail(uv0.selectMailId).importantFlag == true then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("mail_confirm_delete_important_flag"))
+
+			return
+		end
+
+		seriesAsync({
+			function (slot0)
+				uv0:ShowDoubleConfiremationMsgBox({
+					type = MailProxy.MailMessageBoxType.ShowTips,
+					content = i18n("mail_markroom_delete", uv1.title),
+					onYes = slot0
+				})
+			end
+		}, function ()
+			uv0:emit(MailMediator.ON_OPERATION, {
+				noAttachTip = true,
+				cmd = "delete",
+				filter = {
+					type = "ids",
+					list = {
+						uv0.selectMailId
+					}
+				}
+			})
+		end)
+	end, SFX_PANEL)
+
 	slot0.rtMailEmpty = slot2:Find("empty")
 	slot0.rtStore = slot2:Find("store")
 	slot0.mailMgrSubView = MailMgrWindow.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.storeUpgradeSubView = StoreUpgradeWindow.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.mailConfirmationSubView = MailConfirmationWindow.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.mailOverflowWindowSubView = MailOverflowWindow.New(slot0._tf, slot0.event, slot0.contextData)
+	slot0.mailStoreroomRewardSubView = MailRewardWindow.New(slot0._tf, slot0.event, slot0.contextData)
 
 	setText(slot0.rtBtnLeftDeleteAll:Find("Text"), i18n("mail_deleteread_button"))
 	setText(slot0.rtBtnLeftManager:Find("Text"), i18n("mail_manage_button"))
@@ -378,6 +412,7 @@ slot0.init = function(slot0)
 	setText(slot0.rtBtnLeftDeleteCollection:Find("Text"), i18n("mail_delet_button"))
 	setText(slot0.rtBtnRightMove:Find("Text"), i18n("mail_moveone_button"))
 	setText(slot0.rtBtnRightGet:Find("Text"), i18n("mail_getone_button"))
+	setText(slot0.rtBtnRightDelte:Find("Text"), i18n("mail_delet_button_1"))
 	setText(slot0.rtMailRight:Find("main/title/matter/on/Text"), i18n("mail_toggle_on"))
 	setText(slot0.rtMailRight:Find("main/title/matter/off/Text"), i18n("mail_toggle_off"))
 	slot0:InitResBar()
@@ -643,6 +678,7 @@ slot0.UpdateMailContent = function(slot0, slot1)
 
 	setActive(slot0.rtBtnRightMove, slot0.mailToggle ~= "collection")
 	setActive(slot0.rtBtnRightGet, slot0.mailToggle ~= "collection" and not slot1.attachFlag)
+	setActive(slot0.rtBtnRightDelte, slot0.mailToggle ~= "collection" and slot1.attachFlag)
 
 	if slot0.mailToggle ~= "collection" and not slot1.readFlag then
 		slot0:emit(MailMediator.ON_OPERATION, {
@@ -727,7 +763,17 @@ slot0.UpdateStore = function(slot0)
 	slot5 = slot0.rtStore
 
 	onButton(slot0, slot5:Find("bottom/btn_get"), function ()
-		uv0:emit(MailMediator.ON_WITHDRAWAL, uv0.withdrawal)
+		seriesAsync({
+			function (slot0)
+				uv0:ShowDoubleConfiremationMsgBox({
+					type = MailProxy.MailMessageBoxType.RewardStoreroom,
+					content = uv0.withdrawal,
+					onYes = slot0
+				})
+			end
+		}, function ()
+			uv0:emit(MailMediator.ON_WITHDRAWAL, uv0.withdrawal)
+		end)
 	end, SFX_CONFIRM)
 	(function ()
 		slot0 = uv0.withdrawal.oil ~= 0 or uv0.withdrawal.gold ~= 0
@@ -855,6 +901,8 @@ slot0.onBackPressed = function(slot0)
 		slot0.mailConfirmationSubView:Hide()
 	elseif slot0.mailOverflowWindowSubView:isShowing() then
 		slot0.mailOverflowWindowSubView:Hide()
+	elseif slot0.mailStoreroomRewardSubView:isShowing() then
+		slot0.mailStoreroomRewardSubView:Hide()
 	else
 		triggerButton(slot0.rtAdapt:Find("top/back_btn"))
 	end
@@ -865,11 +913,14 @@ slot0.willExit = function(slot0)
 	slot0.storeUpgradeSubView:Destroy()
 	slot0.mailConfirmationSubView:Destroy()
 	slot0.mailOverflowWindowSubView:Destroy()
+	slot0.mailStoreroomRewardSubView:Destroy()
 end
 
 slot0.ShowDoubleConfiremationMsgBox = function(slot0, slot1)
 	if slot1.type == MailProxy.MailMessageBoxType.OverflowConfirm then
 		slot0.mailOverflowWindowSubView:ExecuteAction("Show", slot1)
+	elseif slot1.type == MailProxy.MailMessageBoxType.RewardStoreroom then
+		slot0.mailStoreroomRewardSubView:ExecuteAction("Show", slot1)
 	else
 		slot0.mailConfirmationSubView:ExecuteAction("Show", slot1)
 	end

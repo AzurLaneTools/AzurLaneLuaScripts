@@ -11,34 +11,70 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+	slot1 = pg.UIMgr.GetInstance()
+
+	slot1:BlurPanel(slot0._tf, false, {
 		weight = slot0:getWeightFromData()
 	})
 
 	slot0.window = slot0:findTF("window")
+	slot2 = slot0.window
 
-	setText(slot0.window:Find("top/bg/infomation/title"), i18n("words_information"))
+	setText(slot2:Find("top/bg/infomation/title"), i18n("words_information"))
 
-	slot0.btnContent = slot0.window:Find("actions")
-	slot0.okBtn = slot0.btnContent:Find("ok_button")
+	slot1 = slot0.window
+	slot0.btnContent = slot1:Find("actions")
 
-	setText(slot0.okBtn:Find("pic"), i18n("msgbox_text_confirm"))
+	eachChild(slot0.btnContent, function (slot0)
+		setActive(slot0, false)
+	end)
 
-	slot0.useBtn = slot0.btnContent:Find("use_button")
-	slot0.batchUseBtn = slot0.btnContent:Find("batch_use_button")
-	slot0.useOneBtn = slot0.btnContent:Find("use_one_button")
-	slot0.composeBtn = slot0.btnContent:Find("compose_button")
-	slot0.resolveBtn = slot0.btnContent:Find("resolve_button")
+	slot4 = i18n
+	slot5 = "msgbox_text_use"
 
-	setText(slot0.resolveBtn:Find("pic"), i18n("msgbox_text_analyse"))
+	for slot4, slot5 in pairs({
+		okBtn = {
+			"ok_button",
+			i18n("msgbox_text_confirm")
+		},
+		useBtn = {
+			"use_button"
+		},
+		batchUseBtn = {
+			"batch_use_button"
+		},
+		useOneBtn = {
+			"use_one_button"
+		},
+		composeBtn = {
+			"compose_button"
+		},
+		resolveBtn = {
+			"resolve_button",
+			i18n("msgbox_text_analyse")
+		},
+		loveRepairBtn = {
+			"love_lettle_repair_button",
+			i18n("loveletter_exchange_button")
+		},
+		metaskillBtn = {
+			"metaskill_use_btn",
+			slot4(slot5)
+		},
+		blueBtn = {
+			"blue_btn"
+		},
+		yellowBtn = {
+			"yellow_btn"
+		}
+	}) do
+		slot6, slot7 = unpack(slot5)
+		slot0[slot4] = slot0.btnContent:Find(slot6)
 
-	slot0.loveRepairBtn = slot0.btnContent:Find("love_lettle_repair_button")
-
-	setText(slot0.loveRepairBtn:Find("pic"), i18n("loveletter_exchange_button"))
-
-	slot0.metaskillBtn = slot0.btnContent:Find("metaskill_use_btn")
-
-	setText(slot0.metaskillBtn:Find("pic"), i18n("msgbox_text_use"))
+		if slot7 then
+			setText(slot0[slot4]:Find("pic"), slot7)
+		end
+	end
 
 	slot0.itemTF = slot0.window:Find("item")
 	slot0.operatePanel = slot0:findTF("operate")
@@ -67,6 +103,14 @@ slot0.init = function(slot0)
 	slot0.operateLeftButton = slot0.operatePanel:Find("count/number_panel/left")
 	slot0.operateRightButton = slot0.operatePanel:Find("count/number_panel/right")
 	slot0.operateMaxButton = slot0.operatePanel:Find("count/max")
+end
+
+slot0.getButton = function(slot0, slot1, slot2)
+	slot0[slot1] = slot0[slot1] or cloneTplTo(slot2, slot0.btnContent)
+
+	setActive(slot0[slot1], true)
+
+	return slot0[slot1]
 end
 
 slot0.setDrop = function(slot0, slot1)
@@ -107,10 +151,6 @@ slot0.setItem = function(slot0, slot1)
 
 	slot0.itemVO = slot1:getSubClass()
 
-	eachChild(slot0.btnContent, function (slot0)
-		setActive(slot0, slot0 == uv0.okBtn)
-	end)
-
 	if not Item.CanInBag(slot0.itemVO.id) then
 		return
 	end
@@ -121,16 +161,70 @@ slot0.setItem = function(slot0, slot1)
 		slot0.operateMax = slot0.itemVO.count / slot2
 
 		setActive(slot0.composeBtn, true)
-		setActive(slot0.okBtn, false)
 	end
 
 	if slot0.itemVO:getConfig("usage") == ItemUsage.SOS then
 		setText(slot0.useBtn:Find("text"), 1)
 		setActive(slot0.useBtn, true)
-		setActive(slot0.okBtn, false)
 	end
 
 	slot3 = slot0.itemVO:getConfig("type")
+
+	if Item.IsLoveLetterCheckItem(slot0.itemVO.id) then
+		slot5 = slot0:getButton("checkMail", slot0.blueBtn)
+
+		setText(slot5:Find("pic"), i18n("loveletter_recover_bottom1"))
+		onButton(slot0, slot5, function ()
+			uv0:emit(ItemInfoMediator.CHECK_LOVE_LETTER_MAIL, uv0.itemVO.id, uv1)
+		end, SFX_CONFIRM)
+
+		slot6 = slot0:getButton("repairMail", slot0.yellowBtn)
+
+		setText(slot6:Find("pic"), i18n("loveletter_recover_bottom2"))
+		onButton(slot0, slot6, function ()
+			if not uv0 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("loveletter_recover_tip1"))
+			elseif #uv0 == 0 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("loveletter_recover_tip3"))
+			else
+				if #uv0 == 1 then
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						delayConfirm = 3,
+						content = i18n("loveletter_recover_text1", uv0[1], ShipGroup.New({
+							id = uv1
+						}):getName()),
+						onYes = function ()
+							uv0:emit(ItemInfoMediator.REPAIR_LOVE_LETTER_MAIL, uv0.itemVO.id, uv1, uv2)
+						end
+					})
+
+					return
+				end
+
+				table.sort(uv0)
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					hideYes = true,
+					content = i18n("loveletter_recover_text2", ShipGroup.New({
+						id = uv1
+					}):getName()),
+					custom = underscore.map(uv0, function (slot0)
+						return {
+							delayButton = 3,
+							text = i18n("loveletter_recover_bottom3", slot0),
+							sound = SFX_CONFIRM,
+							onCallback = function ()
+								uv0:emit(ItemInfoMediator.REPAIR_LOVE_LETTER_MAIL, uv0.itemVO.id, uv1, uv2)
+							end,
+							btnType = pg.MsgboxMgr.BUTTON_YELLOW
+						}
+					end)
+				})
+			end
+		end, SFX_PANEL)
+		setGray(slot6, not getProxy(BagProxy):GetLoveLetterRepairInfo(slot0.itemVO.id .. "_" .. (slot0.itemVO.extra or pg.loveletter_2018_2021[slot0.itemVO.id].ship_group_id)) or #slot7 == 0)
+
+		return
+	end
 
 	if slot0.itemVO:CanOpen() then
 		setText(slot0.useBtn:Find("text"), 1)
@@ -140,8 +234,6 @@ slot0.setItem = function(slot0, slot1)
 			setText(slot0.batchUseBtn:Find("text"), math.min(slot0.itemVO.count, 10))
 			setActive(slot0.batchUseBtn, true)
 		end
-
-		setActive(slot0.okBtn, false)
 	elseif slot3 == Item.BLUEPRINT_TYPE then
 		slot5 = getProxy(TechnologyProxy):GetBlueprint4Item(slot0.itemVO.id)
 
@@ -151,38 +243,37 @@ slot0.setItem = function(slot0, slot1)
 		end
 
 		slot0:setItemInfo(slot1, slot0.operatePanel:Find("item"))
+		setActive(slot0.okBtn, true)
 	elseif slot3 == Item.TEC_SPEEDUP_TYPE then
 		setActive(slot0.resolveBtn, true)
 		slot0:UpdateSpeedUpResolveNum()
 		slot0:setItemInfo(slot1, slot0.operatePanel:Find("item"))
-	else
-		if slot3 == Item.LOVE_LETTER_TYPE then
-			setActive(slot0.loveRepairBtn, getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOVE_LETTER) and not slot4:isEnd() and slot4.data1 > 0 and slot0.itemVO.extra == 31201)
-			onButton(slot0, slot0.loveRepairBtn, function ()
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("loveletter_exchange_confirm"),
-					onYes = function ()
-						uv0:emit(ItemInfoMediator.EXCHANGE_LOVE_LETTER_ITEM, uv1.id)
-					end
-				})
-			end, SFX_PANEL)
-
-			return
-		end
-
-		if slot3 == Item.METALESSON_TYPE then
-			setActive(slot0.metaskillBtn, true)
-			onButton(slot0, slot0.metaskillBtn, function ()
-				uv0:closeView()
-				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.METACHARACTER)
-			end, SFX_PANEL)
-		elseif slot3 == Item.SKIN_ASSIGNED_TYPE then
-			setActive(slot0.useOneBtn, slot0.contextData.confirmCall)
-			onButton(slot0, slot0.useOneBtn, function ()
-				uv0.contextData.confirmCall()
-				uv0:closeView()
-			end, SFX_PANEL)
-		end
+		setActive(slot0.okBtn, true)
+	elseif slot3 == Item.LOVE_LETTER_TYPE then
+		setActive(slot0.loveRepairBtn, getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOVE_LETTER) and not slot4:isEnd() and slot4.data1 > 0 and slot0.itemVO.extra == 31201)
+		onButton(slot0, slot0.loveRepairBtn, function ()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("loveletter_exchange_confirm"),
+				onYes = function ()
+					uv0:emit(ItemInfoMediator.EXCHANGE_LOVE_LETTER_ITEM, uv1.id)
+				end
+			})
+		end, SFX_PANEL)
+		setActive(slot0.okBtn, true)
+	elseif slot3 == Item.METALESSON_TYPE then
+		setActive(slot0.metaskillBtn, true)
+		onButton(slot0, slot0.metaskillBtn, function ()
+			uv0:closeView()
+			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.METACHARACTER)
+		end, SFX_PANEL)
+		setActive(slot0.okBtn, true)
+	elseif slot3 == Item.SKIN_ASSIGNED_TYPE then
+		setActive(slot0.useOneBtn, slot0.contextData.confirmCall)
+		onButton(slot0, slot0.useOneBtn, function ()
+			uv0.contextData.confirmCall()
+			uv0:closeView()
+		end, SFX_PANEL)
+		setActive(slot0.okBtn, true)
 	end
 end
 

@@ -115,6 +115,7 @@ pg.pay_data_display = setmetatable({
 		2028,
 		2029,
 		2030,
+		2031,
 		5001,
 		5002,
 		5003,
@@ -10518,6 +10519,104 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40046,
+				1
+			}
+		}
+	},
+	[2031] = {
+		extra_service = 3,
+		limit_group = 0,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		first_pay_double = 0,
+		name_display = "選べるUR着せ替え福袋②",
+		descrip = "選べる着せ替えチケット、キューブ、経験値パックT2などを入手可能",
+		subject = "選べるUR着せ替え福袋②",
+		limit_arg = 1,
+		money = 2600,
+		tag = 2,
+		name = "選べるUR着せ替え福袋②",
+		gem = 0,
+		type_order = 0,
+		limit_type = 2,
+		sub_display = "",
+		picture = "daofeng_package",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.libao119",
+		extra_gem = 0,
+		id = 2031,
+		airijp_id = "com.yostarjp.azurlane.package119",
+		extra_service_item = {
+			{
+				2,
+				59553,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				1,
+				1,
+				30000
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					7,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59553,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40047,
 				1
 			}
 		}

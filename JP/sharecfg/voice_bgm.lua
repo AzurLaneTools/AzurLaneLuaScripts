@@ -136,9 +136,9 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "theme-highseasfleet",
+		default_bgm = "theme-camelot",
 		special_bgm = "",
-		bgm = "theme-highseasfleet"
+		bgm = "theme-camelot"
 	},
 	SkinShopScene = {
 		default_bgm = "main",
@@ -1479,5 +1479,25 @@ pg.voice_bgm = {
 		default_bgm = "story-china",
 		special_bgm = "",
 		bgm = "story-china"
+	},
+	YingxiV3MainPage = {
+		default_bgm = "theme-vanguard",
+		special_bgm = "",
+		bgm = "theme-vanguard"
+	},
+	YingxiV3PtRePage = {
+		default_bgm = "theme-royalknights-battle",
+		special_bgm = "",
+		bgm = "theme-royalknights-battle"
+	},
+	YingxiV3FrameRePage = {
+		default_bgm = "level03",
+		special_bgm = "",
+		bgm = "level03"
+	},
+	LoginSignRe2Page = {
+		default_bgm = "theme-partydress",
+		special_bgm = "",
+		bgm = "theme-partydress"
 	}
 }

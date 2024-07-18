@@ -450,6 +450,10 @@ pg.expedition_data_by_map = setmetatable({
 		2100362,
 		2100371,
 		2100372,
+		2100381,
+		2100382,
+		2100391,
+		2100392,
 		2200000,
 		2200010,
 		2200020,
@@ -13031,7 +13035,7 @@ pg.base.expedition_data_by_map = {
 		guide_id = "",
 		ani_name = "Map_1650007",
 		cloud_suffix = "",
-		on_activity = 4401,
+		on_activity = 5427,
 		ui_type = 1,
 		bg = "Map_1650001",
 		destory_icon_suffix = "blue",
@@ -13104,7 +13108,7 @@ pg.base.expedition_data_by_map = {
 		guide_id = "",
 		ani_name = "Map_1650008",
 		cloud_suffix = "",
-		on_activity = 4401,
+		on_activity = 5427,
 		ui_type = 1,
 		bg = "Map_1650002",
 		destory_icon_suffix = "blue",
@@ -13177,7 +13181,7 @@ pg.base.expedition_data_by_map = {
 		guide_id = "",
 		ani_name = "Map_1650009",
 		cloud_suffix = "",
-		on_activity = 4401,
+		on_activity = 5427,
 		ui_type = 1,
 		bg = "Map_1650003",
 		destory_icon_suffix = "blue",
@@ -13250,7 +13254,7 @@ pg.base.expedition_data_by_map = {
 		guide_id = "",
 		ani_name = "Map_1650010",
 		cloud_suffix = "",
-		on_activity = 4401,
+		on_activity = 5427,
 		ui_type = 1,
 		bg = "Map_1650004",
 		destory_icon_suffix = "blue",
@@ -13324,7 +13328,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1650005",
 		ani_controller = "",
 		cloud_suffix = "",
-		on_activity = 4401,
+		on_activity = 5427,
 		ui_type = 1,
 		bg = "Map_1650005",
 		destory_icon_suffix = "blue",
@@ -13368,7 +13372,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1650006",
 		ani_controller = "",
 		cloud_suffix = "",
-		on_activity = 4401,
+		on_activity = 5427,
 		ui_type = 1,
 		bg = "Map_1650006",
 		destory_icon_suffix = "blue",
@@ -20873,6 +20877,182 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		uifx = "",
 		bind_map = 2100362,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100381] = {
+		map = 2100381,
+		name = "駆けよ 碧海の吹き風·前編|| ||CHAPTER EX||E.X.",
+		bgm = "battle-pacific",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "BIHAIGUANGLIN1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1560001",
+		ani_controller = "",
+		cloud_suffix = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1560001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 2100391,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100382] = {
+		map = 2100382,
+		name = "駆けよ 碧海の吹き風·後編|| ||CHAPTER EX||E.X.",
+		bgm = "map-longgong",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "BIHAIGUANGLIN17",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1560002",
+		ani_controller = "",
+		cloud_suffix = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1560002",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 2100392,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100391] = {
+		map = 2100391,
+		name = "駆けよ 碧海の吹き風·前編|| ||CHAPTER EX||E.X.",
+		bgm = "battle-pacific",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "BIHAIGUANGLIN1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1560011",
+		ani_controller = "",
+		cloud_suffix = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1560011",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 2100381,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100392] = {
+		map = 2100392,
+		name = "駆けよ 碧海の吹き風·後編|| ||CHAPTER EX||E.X.",
+		bgm = "map-longgong",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "BIHAIGUANGLIN17",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1560012",
+		ani_controller = "",
+		cloud_suffix = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1560012",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 2100382,
 		clouds_pos = {
 			{
 				332,

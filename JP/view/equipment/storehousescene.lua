@@ -1130,6 +1130,10 @@ slot0.updateItem = function(slot0, slot1, slot2)
 					uv0.assignedItemView:ActionInvoke("update", uv1)
 				end, SFX_PANEL)
 			end
+		elseif Item.IsLoveLetterCheckItem(slot4.id) then
+			onButton(slot0, slot3.go, function ()
+				uv0:emit(uv1.ON_ITEM_EXTRA, uv2.id, uv2.extra)
+			end, SFX_PANEL)
 		elseif slot4:getConfig("type") == Item.LOVE_LETTER_TYPE then
 			onButton(slot0, slot3.go, function ()
 				uv0:emit(uv1.ON_ITEM_EXTRA, uv2.id, uv2.extra)

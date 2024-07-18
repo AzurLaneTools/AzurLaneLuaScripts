@@ -3352,6 +3352,11 @@ _G.pg.base.gametip.mail_confirm_cancel_important_flag = {
 }
 
 
+_G.pg.base.gametip.mail_confirm_delete_important_flag = {
+	tip = "重要メールは削除できません"
+}
+
+
 _G.pg.base.gametip.mail_mail_page = {
 	tip = "メール"
 }
@@ -3474,6 +3479,11 @@ _G.pg.base.gametip.mail_move_button = {
 
 _G.pg.base.gametip.mail_delet_button = {
 	tip = "削除"
+}
+
+
+_G.pg.base.gametip.mail_delet_button_1 = {
+	tip = "メール削除"
 }
 
 
@@ -12713,22 +12723,22 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「アルヴィト」「Z47」など出現率アップ！"
+	tip = "期間限定建造を累計200回行うと「ヴァンガード」を確定で入手可能！（最大4隻まで）"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「フォッシュ」常設実装！"
+	tip = "「島風」「筑摩」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「ランドンターブル」「エンタープライズ（軽巡）」常設実装！"
+	tip = "「由良」「海風」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「ジョッフル」常設実装！"
+	tip = "「島風」「葛城」常設実装！"
 }
 
 
@@ -14966,6 +14976,16 @@ _G.pg.base.gametip.mail_storeroom_max_2 = {
 }
 
 
+_G.pg.base.gametip.mail_storeroom_max_3 = {
+	tip = "※受け取ると、燃料所持数が所持上限を超えてしまいます"
+}
+
+
+_G.pg.base.gametip.mail_storeroom_max_4 = {
+	tip = "※受け取ると、資金所持数が所持上限を超えてしまいます"
+}
+
+
 _G.pg.base.gametip.mail_storeroom_addgold = {
 	tip = "備蓄資金："
 }
@@ -14973,6 +14993,11 @@ _G.pg.base.gametip.mail_storeroom_addgold = {
 
 _G.pg.base.gametip.mail_storeroom_addoil = {
 	tip = "備蓄燃料："
+}
+
+
+_G.pg.base.gametip.mail_storeroom_collect = {
+	tip = "受け取ると下記のアイテムを入手できます："
 }
 
 
@@ -29091,6 +29116,66 @@ _G.pg.base.gametip.loveletter_exchange_button = {
 
 _G.pg.base.gametip.loveletter_exchange_tip3 = {
 	tip = "補填メールをメールボックスにてご確認ください"
+}
+
+
+_G.pg.base.gametip.loveletter_recover_tip1 = {
+	tip = "メール再送機能を使用するには「メール確認」を先に行う必要があります"
+}
+
+
+_G.pg.base.gametip.loveletter_recover_tip2 = {
+	tip = "キャラクターが間違っています"
+}
+
+
+_G.pg.base.gametip.loveletter_recover_tip3 = {
+	tip = "既にバレンタインメールがメールボックス/保管庫に存在しています"
+}
+
+
+_G.pg.base.gametip.loveletter_recover_tip4 = {
+	tip = "その年にはまだ未実装だったキャラです"
+}
+
+
+_G.pg.base.gametip.loveletter_recover_tip5 = {
+	tip = "メール保管庫がいっぱいです。保管庫を整理するとメールを再送できます"
+}
+
+
+_G.pg.base.gametip.loveletter_recover_tip6 = {
+	tip = "メール確認が終了しました。$1年のバレンタインメールを再送できます"
+}
+
+
+_G.pg.base.gametip.loveletter_recover_tip7 = {
+	tip = "メール確認が終了しました。既にバレンタインメールがメールボックス/保管庫に存在しています"
+}
+
+
+_G.pg.base.gametip.loveletter_recover_bottom1 = {
+	tip = "メール確認"
+}
+
+
+_G.pg.base.gametip.loveletter_recover_bottom2 = {
+	tip = "メール再送"
+}
+
+
+_G.pg.base.gametip.loveletter_recover_bottom3 = {
+	tip = "$1年"
+}
+
+
+_G.pg.base.gametip.loveletter_recover_text1 = {
+	tip = "<color=#ffde38>メール再送</color>を行うと、メール保管庫に<color=#ffde38>$1</color>年の<color=#ffde38>$2</color>からのバレンタインメール（添付アイテムは含まれない）が再送されます\n*メール再送機能は記念アイテム毎に1回しか使用できません"
+}
+
+
+_G.pg.base.gametip.loveletter_recover_text2 = {
+	tip = "再送してほしい<color=#ffde38>年</color>を選択してください。再送すると、メール保管庫に<color=#ffde38>$1</color>からのバレンタインメール（添付アイテムは含まれない）が再送されます\n*メール再送機能は記念アイテム毎に1回しか使用できません"
 }
 
 
