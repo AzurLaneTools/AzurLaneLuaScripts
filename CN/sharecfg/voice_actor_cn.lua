@@ -1667,5 +1667,9 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "立花日菜",
 		code = 417
+	},
+	{
+		actor_name = "潘惠美",
+		code = 418
 	}
 }

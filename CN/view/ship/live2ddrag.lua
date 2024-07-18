@@ -127,7 +127,7 @@ slot0.onListenerEvent = function(slot0, slot1, slot2)
 		if slot0.listenerApply and #slot0.listenerApply > 0 then
 			slot11 = slot0.listenerApply[2]
 
-			if slot0.listenerApply[1] == 1 then
+			if slot0.listenerApply[1] == 1 and slot9 then
 				slot12 = slot0.parameterTargetValue
 				slot13 = nil
 
