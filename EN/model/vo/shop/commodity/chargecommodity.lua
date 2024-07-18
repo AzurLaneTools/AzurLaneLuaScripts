@@ -123,7 +123,7 @@ slot0.GetExtraDrop = function(slot0)
 		slot3 = slot2[1]
 		slot4 = pg.battlepass_event_pt[slot3].pt
 		slot1 = Drop.New({
-			type = DROP_TYPE_RESOURCE,
+			type = DROP_TYPE_VITEM,
 			id = pg.battlepass_event_pt[slot3].pt,
 			count = slot2[2]
 		})

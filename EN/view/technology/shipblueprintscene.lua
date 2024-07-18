@@ -2094,7 +2094,12 @@ slot0.openPreView = function(slot0)
 
 			onToggle(slot0, slot0:findTF("stage" .. slot5, slot0.stages), function (slot0)
 				if slot0 then
-					setText(uv0.breakView, uv1[uv2].breakout_view)
+					if PLATFORM_CODE == PLATFORM_US then
+						changeToScrollText(uv0.breakView, uv1[uv2].breakout_view)
+					else
+						setText(uv0.breakView, uv1[uv2].breakout_view)
+					end
+
 					uv0:switchStage(uv2)
 				end
 			end, SFX_PANEL)
