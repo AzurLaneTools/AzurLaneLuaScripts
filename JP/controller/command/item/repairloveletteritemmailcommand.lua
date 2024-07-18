@@ -10,6 +10,7 @@ slot0.execute = function(slot0, slot1)
 		groupid = slot2.group_id or 0
 	}, 30019, function (slot0)
 		if slot0.ret == 0 then
+			getProxy(BagProxy):SetLoveLetterRepairInfo(uv0 .. "_" .. uv1, nil)
 			getProxy(BagProxy):removeItemById(uv0, 1, uv1)
 
 			getProxy(MailProxy).collectionIds = nil
