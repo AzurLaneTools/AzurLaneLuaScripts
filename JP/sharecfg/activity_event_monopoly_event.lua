@@ -986,6 +986,255 @@ pg.activity_event_monopoly_event = {
 			3
 		}
 	},
+	[601] = {
+		id = 601,
+		drop = 902792,
+		story = "SAICHEDAFUWENGEVENTV2-1-1",
+		effect = {}
+	},
+	[602] = {
+		id = 602,
+		drop = 902793,
+		story = "SAICHEDAFUWENGEVENTV2-1-2",
+		effect = {}
+	},
+	[603] = {
+		id = 603,
+		drop = 902794,
+		story = "SAICHEDAFUWENGEVENTV2-1-3",
+		effect = {}
+	},
+	[604] = {
+		id = 604,
+		drop = 902796,
+		story = "SAICHEDAFUWENGEVENTV2-2-1",
+		effect = {}
+	},
+	[605] = {
+		id = 605,
+		drop = 902797,
+		story = "SAICHEDAFUWENGEVENTV2-2-2",
+		effect = {}
+	},
+	[606] = {
+		id = 606,
+		drop = 902798,
+		story = "SAICHEDAFUWENGEVENTV2-2-3",
+		effect = {}
+	},
+	[607] = {
+		id = 607,
+		drop = 902799,
+		story = "SAICHEDAFUWENGEVENTV2-3-1",
+		effect = {}
+	},
+	[608] = {
+		id = 608,
+		drop = 902800,
+		story = "SAICHEDAFUWENGEVENTV2-3-2",
+		effect = {}
+	},
+	[609] = {
+		id = 609,
+		drop = 902801,
+		story = "SAICHEDAFUWENGEVENTV2-3-3",
+		effect = {}
+	},
+	[610] = {
+		id = 610,
+		drop = 902805,
+		story = "SAICHEDAFUWENGEVENTV2-4-1",
+		effect = {}
+	},
+	[611] = {
+		id = 611,
+		drop = 902806,
+		story = "SAICHEDAFUWENGEVENTV2-4-2",
+		effect = {}
+	},
+	[612] = {
+		id = 612,
+		drop = 902807,
+		story = "SAICHEDAFUWENGEVENTV2-4-3",
+		effect = {}
+	},
+	[613] = {
+		id = 613,
+		drop = 902808,
+		story = "SAICHEDAFUWENGEVENTV2-5-1",
+		effect = {}
+	},
+	[614] = {
+		id = 614,
+		drop = 902809,
+		story = "SAICHEDAFUWENGEVENTV2-5-2",
+		effect = {}
+	},
+	[615] = {
+		id = 615,
+		drop = 902810,
+		story = "SAICHEDAFUWENGEVENTV2-5-3",
+		effect = {}
+	},
+	[616] = {
+		id = 616,
+		drop = 902811,
+		story = "SAICHEDAFUWENGEVENTV2-6-1",
+		effect = {}
+	},
+	[617] = {
+		id = 617,
+		drop = 902812,
+		story = "SAICHEDAFUWENGEVENTV2-6-2",
+		effect = {}
+	},
+	[618] = {
+		id = 618,
+		drop = 902813,
+		story = "SAICHEDAFUWENGEVENTV2-6-3",
+		effect = {}
+	},
+	[619] = {
+		id = 619,
+		drop = 902814,
+		story = "SAICHEDAFUWENGEVENTV2-6-4",
+		effect = {}
+	},
+	[620] = {
+		id = 620,
+		drop = 902802,
+		story = "SAICHEDAFUWENGEVENTV2-7-1",
+		effect = {}
+	},
+	[621] = {
+		id = 621,
+		drop = 902803,
+		story = "SAICHEDAFUWENGEVENTV2-7-2",
+		effect = {}
+	},
+	[622] = {
+		id = 622,
+		drop = 902804,
+		story = "SAICHEDAFUWENGEVENTV2-7-3",
+		effect = {}
+	},
+	[623] = {
+		id = 623,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-8-1",
+		effect = {
+			"go_forward",
+			1
+		}
+	},
+	[624] = {
+		id = 624,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-8-2",
+		effect = {
+			"go_forward",
+			2
+		}
+	},
+	[625] = {
+		id = 625,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-8-3",
+		effect = {
+			"go_forward",
+			3
+		}
+	},
+	[626] = {
+		id = 626,
+		drop = 902791,
+		story = "0",
+		effect = {}
+	},
+	[627] = {
+		id = 627,
+		drop = 902790,
+		story = "0",
+		effect = {}
+	},
+	[628] = {
+		id = 628,
+		drop = 0,
+		story = "0",
+		effect = {}
+	},
+	[651] = {
+		id = 651,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-SITELASIBAO1",
+		effect = {}
+	},
+	[652] = {
+		id = 652,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-SITELASIBAO2",
+		effect = {}
+	},
+	[653] = {
+		id = 653,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-SITELASIBAO3",
+		effect = {}
+	},
+	[654] = {
+		id = 654,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-U961",
+		effect = {}
+	},
+	[655] = {
+		id = 655,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-U962",
+		effect = {}
+	},
+	[656] = {
+		id = 656,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-U963",
+		effect = {}
+	},
+	[657] = {
+		id = 657,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-XIAFEI1",
+		effect = {}
+	},
+	[658] = {
+		id = 658,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-XIAFEI2",
+		effect = {}
+	},
+	[659] = {
+		id = 659,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-XIAFEI3",
+		effect = {}
+	},
+	[661] = {
+		id = 661,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-SITELASIBAO4",
+		effect = {}
+	},
+	[662] = {
+		id = 662,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-U964",
+		effect = {}
+	},
+	[663] = {
+		id = 663,
+		drop = 0,
+		story = "SAICHEDAFUWENGEVENTV2-XIAFEI4",
+		effect = {}
+	},
 	all = {
 		101,
 		102,
@@ -1144,6 +1393,46 @@ pg.activity_event_monopoly_event = {
 		528,
 		529,
 		530,
-		531
+		531,
+		601,
+		602,
+		603,
+		604,
+		605,
+		606,
+		607,
+		608,
+		609,
+		610,
+		611,
+		612,
+		613,
+		614,
+		615,
+		616,
+		617,
+		618,
+		619,
+		620,
+		621,
+		622,
+		623,
+		624,
+		625,
+		626,
+		627,
+		628,
+		651,
+		652,
+		653,
+		654,
+		655,
+		656,
+		657,
+		658,
+		659,
+		661,
+		662,
+		663
 	}
 }

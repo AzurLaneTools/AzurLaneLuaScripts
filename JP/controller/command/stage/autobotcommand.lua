@@ -2,9 +2,12 @@ slot0 = class("AutoBotCommand", pm.SimpleCommand)
 
 slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
-	slot3 = slot2.isActiveBot
 	slot4 = slot2.toggle
 	slot6 = uv0.GetAutoBotMark(slot2.system)
+
+	slot0:sendNotification(BattleMediator.UPDATE_AUTO_COUNT, {
+		isOn = slot2.isActiveBot
+	})
 
 	if uv0.autoBotSatisfied() then
 		if PlayerPrefs.GetInt("autoBotIsAcitve" .. slot6, 0) ~= not slot3 then

@@ -135689,6 +135689,61 @@ _G.pg.base.equip_data_statistics[80322] = {
 }
 
 
+_G.pg.base.equip_data_statistics[80331] = {
+	name = "专属弹幕-果敢I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能弹幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 80331,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		61671
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80332] = {
+	name = "专属弹幕-果敢II",
+	base = 80331,
+	id = 80332,
+	weapon_id = {
+		61672
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[85000] = {
 	name = "B-13 130mm連装砲B-2LM",
 	speciality = "<[LOCK]>",
@@ -163292,6 +163347,131 @@ _G.pg.base.equip_data_statistics[150331] = {
 }
 
 
+_G.pg.base.equip_data_statistics[150340] = {
+	name = "共同演習記念コイン（限定版）",
+	tech = 0,
+	type = 10,
+	speciality = "<[NA]>",
+	attribute_1 = "durability",
+	value_2 = 0,
+	icon = "150340",
+	value_1 = "200",
+	rarity = 4,
+	descrip = "サディアとアイリスが共同で作った限定記念コイン。最も貴き客人にのみ贈られる",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 150340,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60650
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[150341] = {
+	id = 150341,
+	value_1 = "230",
+	base = 150340,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150342] = {
+	id = 150342,
+	value_1 = "260",
+	base = 150340,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150343] = {
+	id = 150343,
+	value_1 = "290",
+	base = 150340,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150344] = {
+	id = 150344,
+	value_1 = "320",
+	base = 150340,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150345] = {
+	id = 150345,
+	value_1 = "350",
+	base = 150340,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150346] = {
+	id = 150346,
+	value_1 = "380",
+	base = 150340,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150347] = {
+	id = 150347,
+	value_1 = "410",
+	base = 150340,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150348] = {
+	id = 150348,
+	value_1 = "440",
+	base = 150340,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150349] = {
+	id = 150349,
+	value_1 = "470",
+	base = 150340,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150350] = {
+	id = 150350,
+	value_1 = "500",
+	base = 150340,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150351] = {
+	anti_siren = 100,
+	base = 150340,
+	id = 150351,
+	value_1 = "530",
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[170001] = {
 	name = "专属弹幕-古比雪夫I",
 	tech = 1,
@@ -164376,6 +164556,62 @@ _G.pg.base.equip_data_statistics[170554] = {
 	id = 170554,
 	weapon_id = {
 		170554
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[170571] = {
+	name = "构造之理-霞 I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能弹幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 170571,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170571
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[170572] = {
+	name = "构造之理-霞 II",
+	base = 170571,
+	id = 170572,
+	weapon_id = {
+		170572,
+		170573
 	},
 	hidden_skill_id = {}
 }

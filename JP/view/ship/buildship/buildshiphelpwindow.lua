@@ -43,6 +43,7 @@ slot0.Show = function(slot0, slot1, slot2, slot3)
 
 	slot0:OnShow(slot1, slot3)
 	setActiveViaLayer(slot0._tf, true)
+	slot0:PlayOpenAnimation()
 end
 
 slot0.OnShow = function(slot0, slot1, slot2)
@@ -92,6 +93,33 @@ slot0.isShowing = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+end
+
+slot0.PlayOpenAnimation = function(slot0)
+	slot2 = slot0:findTF("window/bg_decorations"):GetComponent(typeof(Animation))
+
+	slot2:Stop()
+	slot2:Play("anim_window_bg")
+
+	slot4 = slot0:findTF("window/title"):GetComponent(typeof(Animation))
+
+	slot4:Stop()
+	slot4:Play("anim_top")
+
+	slot6 = slot0:findTF("window"):GetComponent(typeof(Animation))
+
+	slot6:Stop()
+	slot6:Play("anim_content")
+
+	slot8 = slot0:findTF("print"):GetComponent(typeof(Animation))
+
+	slot8:Stop()
+	slot8:Play("anim_bg_plus")
+
+	slot10 = slot0:findTF("window/confirm_btn"):GetComponent(typeof(Animation))
+
+	slot10:Stop()
+	slot10:Play("anim_button_container")
 end
 
 return slot0

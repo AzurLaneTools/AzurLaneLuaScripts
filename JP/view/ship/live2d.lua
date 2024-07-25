@@ -193,9 +193,9 @@ slot14 = function(slot0, slot1, slot2)
 		slot3 = slot2.id
 		slot5 = slot2.callback
 		slot6 = slot2.finishCall
-		slot7 = slot2.activeData
 		slot8 = slot2.focus
 		slot9 = slot2.react
+		slot10 = slot2.activeData.idle_focus
 
 		if (not slot2.action or slot4 == "") and slot5 then
 			slot5(uv0(slot0))
@@ -210,12 +210,22 @@ slot14 = function(slot0, slot1, slot2)
 				action = slot4
 			})
 
+			if slot10 and slot10 == 1 and (not slot4 or slot4 == "") then
+				slot4 = "idle"
+
+				slot0:changeIdleIndex(slot7.idle and slot7.idle or 0)
+			end
+
 			if uv1(slot0, slot4, slot8 or false) then
 				slot0:applyActiveData(slot2)
 			end
 
+			if slot10 and slot10 == 1 then
+				slot0:live2dActionChange(false)
+			end
+
 			if slot5 then
-				slot5(slot10)
+				slot5(slot11)
 			end
 		end
 	elseif slot1 == Live2D.EVENT_ACTION_ABLE then
@@ -657,6 +667,7 @@ slot0.loadLive2dData = function(slot0)
 	end
 
 	slot1, slot2 = Live2dConst.GetL2dSaveData(slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id)
+	slot3 = Live2dConst.GetDragActionIndex(slot2, slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id) or 1
 
 	if slot1 then
 		slot0:changeIdleIndex(slot1)
@@ -672,26 +683,30 @@ slot0.loadLive2dData = function(slot0)
 
 	if slot2 and slot2 > 0 then
 		if pg.ship_l2d[slot2] then
-			slot3 = pg.ship_l2d[slot2].action_trigger_active
+			slot4 = pg.ship_l2d[slot2].action_trigger_active
 
-			if slot1 and slot3.idle_enable and #slot3.idle_enable > 0 then
-				for slot7, slot8 in ipairs(slot3.idle_enable) do
-					if slot8[1] == slot1 then
-						slot0.enablePlayActions = slot8[2]
+			if slot1 and slot4.idle_enable and #slot4.idle_enable > 0 then
+				for slot8, slot9 in ipairs(slot4.idle_enable) do
+					if slot9[1] == slot1 then
+						slot0.enablePlayActions = slot9[2]
 					end
 				end
+			elseif slot3 and slot3 >= 1 and slot4.active_list then
+				slot0.enablePlayActions = slot4.active_list[slot3].enable and slot4.active_list[slot3].enable or {}
 			else
-				slot0.enablePlayActions = slot3.enable and slot3.enable or {}
+				slot0.enablePlayActions = slot4.enable and slot4.enable or {}
 			end
 
-			if slot1 and slot3.idle_ignore and #slot3.idle_ignore > 0 then
-				for slot7, slot8 in ipairs(slot3.idle_ignore) do
-					if slot8[1] == slot1 then
-						slot0.ignorePlayActions = slot8[2]
+			if slot1 and slot4.idle_ignore and #slot4.idle_ignore > 0 then
+				for slot8, slot9 in ipairs(slot4.idle_ignore) do
+					if slot9[1] == slot1 then
+						slot0.ignorePlayActions = slot9[2]
 					end
 				end
+			elseif slot3 and slot3 >= 1 and slot4.active_list then
+				slot0.ignorePlayActions = slot4.active_list[slot3].ignore and slot4.active_list[slot3].ignore or {}
 			else
-				slot0.ignorePlayActions = slot3.ignore and slot3.ignore or {}
+				slot0.ignorePlayActions = slot4.ignore and slot4.ignore or {}
 			end
 		end
 	else
@@ -700,8 +715,8 @@ slot0.loadLive2dData = function(slot0)
 	end
 
 	if slot0.drags then
-		for slot6 = 1, #slot0.drags do
-			slot0.drags[slot6]:loadData()
+		for slot7 = 1, #slot0.drags do
+			slot0.drags[slot7]:loadData()
 		end
 	end
 
@@ -848,7 +863,9 @@ slot0.applyActiveData = function(slot0, slot1)
 	slot4 = slot2.idle_enable
 	slot5 = slot2.idle_ignore
 	slot6 = slot2.ignore
-	slot7 = slot2.idle and slot2.idle or slot1.idle
+
+	print("active data idle = " .. tostring(slot2.idle and slot2.idle or slot1.idle))
+
 	slot8 = slot2.repeatFlag
 
 	if slot2.enable and #slot3 >= 0 then

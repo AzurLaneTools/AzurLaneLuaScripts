@@ -82,7 +82,8 @@ slot0.onRegister = function(slot0)
 					mediator = AwardInfoMediator,
 					viewComponent = AwardInfoLayer,
 					data = setmetatable({
-						removeFunc = slot0
+						removeFunc = slot0,
+						auto = uv1.auto
 					}, {
 						__index = uv1
 					})
@@ -228,6 +229,27 @@ slot0.onRegister = function(slot0)
 		end
 
 		seriesAsyncExtend(slot3, slot2)
+	end)
+	slot0:bind(BaseUI.ON_ACHIEVE_AUTO, function (slot0, slot1, slot2, slot3)
+		slot4 = {}
+
+		if #slot1 > 0 then
+			table.insert(slot4, function (slot0)
+				uv0.viewComponent:emit(BaseUI.ON_AWARD, {
+					items = uv1,
+					removeFunc = slot0,
+					auto = uv2 or 2
+				})
+			end)
+			table.insert(slot4, function (slot0)
+				uv0(uv1, uv2)
+				uv3(uv1, uv2)
+				uv4(uv1, uv2)
+				slot0()
+			end)
+		end
+
+		seriesAsyncExtend(slot4, slot3)
 	end)
 	slot0:bind(BaseUI.ON_WORLD_ACHIEVE, function (slot0, slot1)
 		slot2 = {}

@@ -190,6 +190,29 @@ slot0.didEnter = function(slot0)
 			uv0.enterCallback = nil
 		end
 	end)
+
+	if slot0.contextData.auto then
+		slot0:AddCloseTimer()
+	end
+end
+
+slot0.RemoveCloseTimer = function(slot0)
+	if slot0.closeTimer then
+		slot0.closeTimer:Stop()
+
+		slot0.closeTimer = nil
+	end
+end
+
+slot0.AddCloseTimer = function(slot0)
+	slot0:RemoveCloseTimer()
+
+	slot0.closeTimer = Timer.New(function ()
+		uv0:RemoveCloseTimer()
+		triggerButton(uv0._tf)
+	end, slot0.contextData.auto or 2, 1)
+
+	slot0.closeTimer:Start()
 end
 
 slot0.onUIAnimEnd = function(slot0, slot1)
@@ -312,6 +335,7 @@ slot0.ShowOrHideSpriteMask = function(slot0, slot1)
 end
 
 slot0.willExit = function(slot0)
+	slot0:RemoveCloseTimer()
 	setActive(slot0.spriteMask, false)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 

@@ -57,6 +57,7 @@ slot0.findUI = function(slot0)
 	slot0.detailPanel = slot0:findTF("DetailPanel")
 	slot0.baseImg = slot0:findTF("Info/BaseImg", slot0.detailPanel)
 	slot0.modelImg = slot0:findTF("ModelImg", slot0.baseImg)
+	slot0.modelImgCom = slot0.modelImg:GetComponent(typeof(Image))
 	slot0.top = slot0:findTF("Info/top", slot0.detailPanel)
 	slot0.levelImg = slot0:findTF("LevelImg", slot0.top)
 	slot0.typeTextImg = slot0:findTF("TypeTextImg", slot0.top)
@@ -85,11 +86,14 @@ slot0.addListener = function(slot0)
 end
 
 slot0.updateDetail = function(slot0)
+	slot0.modelImgCom.enabled = false
+
 	LoadSpriteAsync("shipmodels/" .. slot0.shipPaintName, function (slot0)
 		if slot0 then
 			setImageSprite(uv0.modelImg, slot0, true)
 
 			rtf(uv0.modelImg).pivot = getSpritePivot(slot0)
+			uv0.modelImgCom.enabled = true
 		end
 	end)
 	setImageSprite(slot0.baseImg, GetSpriteFromAtlas("shipraritybaseicon", "base_" .. slot0.rarity))

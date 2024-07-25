@@ -374,6 +374,10 @@ pg.expedition_data_by_map = setmetatable({
 		1810012,
 		1810025,
 		1810026,
+		1820001,
+		1820002,
+		1820003,
+		1820004,
 		2100000,
 		2100001,
 		2100010,
@@ -17617,6 +17621,182 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		uifx = "",
 		bind_map = 1810012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1820001] = {
+		map = 1820001,
+		name = "夢幻の間奏曲·前編|| ||CHAPTER EX||E.X.",
+		bgm = "story-musicanniversary-gorgeous",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1820001",
+		ani_controller = "",
+		cloud_suffix = "",
+		on_activity = 5501,
+		ui_type = 9,
+		bg = "Map_1820001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1820001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1820002] = {
+		map = 1820002,
+		name = "夢幻の間奏曲·後編|| ||CHAPTER EX||E.X.",
+		bgm = "story-musicanniversary-gorgeous",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1820001",
+		ani_controller = "",
+		cloud_suffix = "",
+		on_activity = 5501,
+		ui_type = 9,
+		bg = "Map_1820001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1820002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1820003] = {
+		map = 1820003,
+		name = "夢幻の間奏曲·SP|| ||CHAPTER EX||E.X.",
+		bgm = "story-musicanniversary-gorgeous",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1820001",
+		ani_controller = "",
+		cloud_suffix = "",
+		on_activity = 5501,
+		ui_type = 9,
+		bg = "Map_1820001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1820002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1820004] = {
+		map = 1820004,
+		name = "夢幻の間奏曲·EX|| ||CHAPTER EX||E.X.",
+		bgm = "story-musicanniversary-gorgeous",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1820001",
+		ani_controller = "",
+		cloud_suffix = "",
+		on_activity = 5501,
+		ui_type = 9,
+		bg = "Map_1820001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1820002,
 		clouds_pos = {
 			{
 				332,

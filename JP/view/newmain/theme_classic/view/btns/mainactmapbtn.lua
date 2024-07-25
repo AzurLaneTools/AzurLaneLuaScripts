@@ -17,7 +17,15 @@ slot0.GetActivityID = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	setActive(slot0.tipTr.gameObject, getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip())
+	setActive(slot0.tipTr.gameObject, slot0:IsShowTip())
+end
+
+slot0.IsShowTip = function(slot0)
+	if slot0:GetActivityID() == ActivityConst.OTHER_WORLD_TERMINAL_BATTLE_ID then
+		return OtherworldMapScene.IsShowTip()
+	end
+
+	return getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip()
 end
 
 slot0.CustomOnClick = function(slot0)

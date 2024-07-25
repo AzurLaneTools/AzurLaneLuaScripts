@@ -40339,6 +40339,179 @@ pg.equip_skin_template = {
 			"wash"
 		}
 	},
+	[2075] = {
+		hit_sfx = "",
+		bullet_name = "paodan_shujushanchu",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "96801",
+		name = "トラブルノイズ砲弾",
+		desc = "ガガッとシグナル異常！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 2075,
+		themeid = 106,
+		orbit_rotate = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_slg = "",
+		orbit_ui = "",
+		miss_sfx = "",
+		orbit_combat_bound = "",
+		orbit_combat = "",
+		orbit_combat_anima_change = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "paodan_shujushanchu_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[2076] = {
+		hit_sfx = "",
+		bullet_name = "zidan_zhenliejiantou",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "96802",
+		name = "ディレクトリアロー弾",
+		desc = "シュシュッと指向性攻撃",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 2076,
+		themeid = 106,
+		orbit_rotate = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_slg = "",
+		orbit_ui = "",
+		miss_sfx = "",
+		orbit_combat_bound = "",
+		orbit_combat = "",
+		orbit_combat_anima_change = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "zidan_zhenliejiantou_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[2077] = {
+		hit_sfx = "",
+		bullet_name = "yulei_dengpai",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "96803",
+		name = "ネオンボード魚雷",
+		desc = "海の中でもキラメク！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 2077,
+		themeid = 106,
+		orbit_rotate = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_slg = "",
+		orbit_ui = "",
+		miss_sfx = "",
+		orbit_combat_bound = "",
+		orbit_combat = "",
+		orbit_combat_anima_change = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "yulei_dengpai_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[2078] = {
+		hit_sfx = "",
+		bullet_name = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "96804",
+		name = "戦力スカウター",
+		desc = "戦力分析完了、勝率はーー",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 2078,
+		themeid = 106,
+		orbit_rotate = false,
+		mirror = 0,
+		rarity = 4,
+		orbit_slg = "",
+		orbit_ui = "shebei_fenxiyiui",
+		miss_sfx = "",
+		orbit_combat = "shebei_fenxiyi",
+		orbit_combat_anima_change = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.23,
+				-1.5,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-20,
+				-160
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
 	[3001] = {
 		hit_sfx = "",
 		bullet_name = "",
@@ -41879,6 +42052,10 @@ pg.equip_skin_template = {
 		2072,
 		2073,
 		2074,
+		2075,
+		2076,
+		2077,
+		2078,
 		3001,
 		3002,
 		3003,

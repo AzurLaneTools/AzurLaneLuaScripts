@@ -11,12 +11,6 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.viewParent = slot1
 end
 
-slot0.InvokeParent = function(slot0, slot1, ...)
-	if slot0.viewParent then
-		slot0.viewParent[slot1](slot0.viewParent, ...)
-	end
-end
-
 slot0.Init = function(slot0)
 	if slot0._state ~= uv0.STATES.LOADED then
 		return
