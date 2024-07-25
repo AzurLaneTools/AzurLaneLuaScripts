@@ -12352,7 +12352,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累计建造200次可获得海上传奇舰船 前卫(最多4次)"
+	tip = "斯特拉斯堡、迪普莱克斯 建造概率UP！"
 }
 
 
@@ -25617,6 +25617,86 @@ _G.pg.base.gametip.cruise_task_help_2406 = {
 }
 
 
+_G.pg.base.gametip.battlepass_main_tip_2408 = {
+	tip = "2024/8/1-2024/9/30期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「蕸·META」</color>在内的丰富奖励"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2408 = {
+	tip = {
+		{
+			info = [[
+世界巡游(2024.8.1-2024.9.30)
+
+·<color=#92fc63>开放时间</color>
+    2024.8.1 0点 ~ 2024.9.30 23:59:59
+
+·<color=#92fc63>巡游进度说明</color>
+（1）活动期间，指挥官通过完成巡游任务，可获取「巡游点数」。
+（2）巡游任务随时间开放解锁。
+（3）每获取100点「巡游点数」即可增加1巡游进度
+（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达100。
+
+·<color=#92fc63>奖励规则</color>
+巡游进度奖励分为两种：
+（1）基础巡游奖励：包含<color=#ff5c5c>「蕸·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·六期</color>等奖励；
+    当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
+（2）特许巡游奖励：包含<color=#ff5c5c>罗马换装「罗马的假日 </color>」、<color=#ff5c5c>钻石</color>等奖励；
+    购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
+    注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。
+
+·<color=#92fc63>「特许巡游凭证」说明</color>
+（1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。
+（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即9.30 22:59:59停止)，请指挥官注意购买时间。
+
+·<color=#92fc63>任务说明</color>
+巡游任务分为两种：
+（1）每周任务 
+    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务
+（2）S.P.任务
+    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成大部分巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的完成券数量固定，与当前任务进度无关
+（4）「巡游任务快速完成券」不会随本期活动结束而消失
+
+·<color=#ff5c5c>特别提示</color>
+（1）在本期世界巡游活动结束后，所有巡游任务将会无法继续完成，所有巡游奖励将会无法继续领取，请各位指挥官务必注意活动结束时间，提前领取奖励。
+（2）巡游进度、[特许巡游凭证]仅对本期世界巡游活动生效]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2408 = {
+	tip = {
+		{
+			info = [[
+巡游任务说明
+
+·<color=#92fc63>开放时间</color>
+    2024.7.31 0点 ~ 2024.9.31 23:59:59
+
+·<color=#92fc63>巡游任务分为两种</color>
+（1）每周任务
+    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务。
+（2）S.P.任务
+    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成每周巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的「巡游任务快速完成券」数量和其提供的「巡游点数」相关，与当前任务进度无关
+（4）「巡游任务快速完成券」<color=#92fc63>不会随本期活动结束而消失</color>]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "全部重置"
 }
@@ -28733,6 +28813,11 @@ _G.pg.base.gametip.battle_text_common_2 = {
 
 _G.pg.base.gametip.battle_text_common_3 = {
 	tip = "<color=#f1f102>敌方伤害大幅度提高，同时会随时间流逝增加其受到的伤害。</color>"
+}
+
+
+_G.pg.base.gametip.battle_text_common_4 = {
+	tip = "<color=#f1f102>敌方伤害大幅度提高，同时所有子弹获得穿透能力。</color>"
 }
 
 
@@ -34199,4 +34284,133 @@ _G.pg.base.gametip["202406_main_help"] = {
 ·可于童心乐园中放入角色，加快心情回复，童心乐园扩建道具可于活动任务中获取]]
 		}
 	}
+}
+
+
+_G.pg.base.gametip.MonopolyCar2024Game_title1 = {
+	tip = "完成次数"
+}
+
+
+_G.pg.base.gametip.MonopolyCar2024Game_title2 = {
+	tip = "当前完成："
+}
+
+
+_G.pg.base.gametip.help_monopoly_car2024 = {
+	tip = {
+		{
+			info = " 活动说明："
+		},
+		{
+			info = "1. 活动期间，玩家每日登录可获得 3 次加速机会，完成活动每日任务可额外获得 2 次加速机会；"
+		},
+		{
+			info = "2. 玩家每次经过终点，可选择指定角色的其中一人作为协助者；"
+		},
+		{
+			info = "3. 玩家在投出特定点数、抵达指定格子时将触发协助者的不同台词；"
+		},
+		{
+			info = "4. 活动期间，玩家完成 3 圈比赛即可获得限定家具奖励；玩家每次与不同的协助者一同比赛时将获得物资 * 2000 奖励 "
+		},
+		{
+			info = "5. 游戏中，根据玩家停留的格子可获得不同奖励 "
+		},
+		{
+			info = "    ：获得一定数量物资；",
+			icon = {
+				posX = 0,
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				path = "jinbi"
+			}
+		},
+		{
+			info = "    ：获得一定数量石油；",
+			icon = {
+				posX = 0,
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				path = "shiyou"
+			}
+		},
+		{
+			info = "    ：触发随机事件；",
+			icon = {
+				posX = 0,
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				path = "minyun"
+			}
+		},
+		{
+			info = "    ：触发随机奖励；",
+			icon = {
+				posX = 0,
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				path = "daoju"
+			}
+		},
+		{
+			info = "    ：触发随机移动事件；",
+			icon = {
+				posX = 0,
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				path = "jiasu"
+			}
+		}
+	}
+}
+
+
+_G.pg.base.gametip.MonopolyCar2024Game_pick_tip = {
+	tip = "到达终点时可更换协助人员，初次选择每个协助人员时可获得奖励。"
+}
+
+
+_G.pg.base.gametip.MonopolyCar2024Game_sel_label = {
+	tip = "选择"
+}
+
+
+_G.pg.base.gametip.MonopolyCar2024Game_total_award_title = {
+	tip = "合计获得奖励"
+}
+
+
+_G.pg.base.gametip.MonopolyCar2024Game_lock_auto_tip = {
+	tip = "累计加速10次后解锁自动加速模式，当前已加速$1次"
+}
+
+
+_G.pg.base.gametip.MonopolyCar2024Game_open_auto_tip = {
+	tip = "自动加速模式已开启，经过终点时将自动更换随机协助者"
+}
+
+
+_G.pg.base.gametip.MonopolyCar2024Game_total_num_tip = {
+	tip = "当前剩余加速次数:$1"
+}
+
+
+_G.pg.base.gametip.sitelasibao_expup_name = {
+	tip = "经验加成"
+}
+
+
+_G.pg.base.gametip.sitelasibao_expup_desc = {
+	tip = "活动期间，<color=#92fc63>斯特拉斯堡、果敢、迪普莱克斯、妮米、赫敏、庞培·马格诺</color>通过出征获取的经验值提高<color=#92fc63>20%</color>"
+}
+
+
+_G.pg.base.gametip.levelScene_tracking_error_pre_2 = {
+	tip = "通关$1或$2后开启 "
 }

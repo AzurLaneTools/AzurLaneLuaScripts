@@ -1,21 +1,21 @@
-slot1 = class("MapBuilderShinano", import(".MapBuilder"))
+slot0 = class("MapBuilderShinano", import(".MapBuilderPermanent"))
 
-slot1.Ctor = function(slot0, ...)
+slot0.Ctor = function(slot0, ...)
 	uv0.super.Ctor(slot0, ...)
 
 	slot0.chapterTFsById = {}
 	slot0.chaptersInBackAnimating = {}
 end
 
-slot1.GetType = function(slot0)
-	return uv0.TYPESHINANO
+slot0.GetType = function(slot0)
+	return MapBuilder.TYPESHINANO
 end
 
-slot1.getUIName = function(slot0)
+slot0.getUIName = function(slot0)
 	return "Shinano_levels"
 end
 
-slot1.OnInit = function(slot0)
+slot0.OnInit = function(slot0)
 	slot0.tpl = slot0._tf:Find("level_tpl")
 
 	setActive(slot0.tpl, false)
@@ -37,13 +37,14 @@ slot1.OnInit = function(slot0)
 	slot0:InitTransformMapBtn(slot0._tf:Find("huigui"), -1, slot1.prefabItem[3])
 end
 
-slot1.OnShow = function(slot0)
+slot0.OnShow = function(slot0)
+	uv0.super.OnShow(slot0)
 	setActive(slot0.sceneParent.mainLayer:Find("title_chapter_lines"), true)
 	setActive(slot0.sceneParent.topChapter:Find("title_chapter"), true)
 	setActive(slot0.sceneParent.topChapter:Find("type_skirmish"), true)
 end
 
-slot1.OnHide = function(slot0)
+slot0.OnHide = function(slot0)
 	setActive(slot0.sceneParent.mainLayer:Find("title_chapter_lines"), false)
 	setActive(slot0.sceneParent.topChapter:Find("title_chapter"), false)
 
@@ -59,8 +60,8 @@ slot1.OnHide = function(slot0)
 	uv0.super.OnHide(slot0)
 end
 
-slot1.TrySwitchNextMap = function(slot0, slot1)
-	if not getProxy(ChapterProxy):getMapById(slot0.sceneParent.contextData.mapIdx + slot1) then
+slot0.TrySwitchNextMap = function(slot0, slot1)
+	if not getProxy(ChapterProxy):getMapById(slot0.contextData.mapIdx + slot1) then
 		return
 	end
 
@@ -81,9 +82,9 @@ slot1.TrySwitchNextMap = function(slot0, slot1)
 	return true
 end
 
-slot1.InitTransformMapBtn = function(slot0, slot1, slot2, slot3)
-	onButton(slot0.sceneParent, slot1, function ()
-		if uv0.sceneParent:isfrozen() then
+slot0.InitTransformMapBtn = function(slot0, slot1, slot2, slot3)
+	onButton(slot0, slot1, function ()
+		if uv0:isfrozen() then
 			return
 		end
 
@@ -126,21 +127,14 @@ slot1.InitTransformMapBtn = function(slot0, slot1, slot2, slot3)
 	end)
 end
 
-slot1.Update = function(slot0, slot1)
-	slot0.float.pivot = Vector2(0.5, 0.5)
-	slot0.float.anchoredPosition = Vector2(0, 0)
-
-	setText(slot0.sceneParent.chapterName, string.split(slot1:getConfig("name"), "||")[1])
-	slot0.sceneParent.loader:GetSpriteQuiet("chapterno", "chapter" .. slot1:getMapTitleNumber(), slot0.sceneParent.chapterNoTitle, true)
-	uv0.super.Update(slot0, slot1)
+slot0.UpdateView = function(slot0)
+	setText(slot0.sceneParent.chapterName, string.split(slot0.contextData.map:getConfig("name"), "||")[1])
+	slot0.sceneParent.loader:GetSpriteQuiet("chapterno", "chapter" .. slot0.contextData.map:getMapTitleNumber(), slot0.sceneParent.chapterNoTitle, true)
+	uv0.super.UpdateView(slot0)
 end
 
-slot1.UpdateButtons = function(slot0)
-	slot0.sceneParent:updateDifficultyBtns()
-	slot0.sceneParent:updateActivityBtns()
-end
-
-slot1.PostUpdateMap = function(slot0, slot1)
+slot0.UpdateButtons = function(slot0)
+	uv0.super.UpdateButtons(slot0)
 	setActive(slot0._tf:Find("rumeng"), false)
 	setActive(slot0._tf:Find("huigui"), false)
 
@@ -199,11 +193,7 @@ slot1.PostUpdateMap = function(slot0, slot1)
 	end
 end
 
-slot1.UpdateMapItems = function(slot0)
-	if not slot0:isShowing() then
-		return
-	end
-
+slot0.UpdateMapItems = function(slot0)
 	uv0.super.UpdateMapItems(slot0)
 
 	slot2 = getProxy(ChapterProxy)
@@ -305,7 +295,7 @@ slot1.UpdateMapItems = function(slot0)
 	end
 end
 
-slot1.UpdateMapItem = function(slot0, slot1, slot2)
+slot0.UpdateMapItem = function(slot0, slot1, slot2)
 	slot3 = slot2:getConfigTable()
 
 	setAnchoredPosition(slot1, {
@@ -393,7 +383,7 @@ slot1.UpdateMapItem = function(slot0, slot1, slot2)
 	setActive(slot23, slot22)
 
 	if slot22 then
-		slot0.sceneParent.loader:GetSprite("ui/levelmainscene_atlas", slot0.sceneParent.contextData.map:getConfig("type") == Map.ACTIVITY_HARD and "bonus_us_hard" or "bonus_us", slot23:Find("bonus"))
+		slot0.sceneParent.loader:GetSprite("ui/levelmainscene_atlas", slot0.contextData.map:getConfig("type") == Map.ACTIVITY_HARD and "bonus_us_hard" or "bonus_us", slot23:Find("bonus"))
 		LeanTween.cancel(go(slot23), true)
 
 		slot27 = slot23.anchoredPosition.y
@@ -414,50 +404,18 @@ slot1.UpdateMapItem = function(slot0, slot1, slot2)
 
 	slot24 = slot2.id
 
-	onButton(slot0.sceneParent, slot4, function ()
-		if uv0:InvokeParent("isfrozen") then
-			return
-		end
-
+	onButton(slot0, slot4, function ()
 		if uv0.chaptersInBackAnimating[uv1] then
 			return
 		end
 
-		if not getProxy(ChapterProxy):getChapterById(uv1):isUnlock() then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_tracking_error_pre", slot0:getPrevChapterName()))
+		slot0 = uv2.localPosition
 
-			return
-		end
-
-		if not getProxy(ChapterProxy):getMapById(slot0:getConfig("map")):isRemaster() and not slot0:inActTime() then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_close"))
-
-			return
-		end
-
-		if uv0.sceneParent.player.level < slot0:getConfig("unlocklevel") then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_chapter_level_limit", slot2))
-
-			return
-		end
-
-		if getProxy(ChapterProxy):getActiveChapter(true) and slot3.id ~= uv1 then
-			uv0:InvokeParent("emit", LevelMediator2.ON_STRATEGYING_CHAPTER)
-
-			return
-		end
-
-		if slot0.active then
-			uv0:InvokeParent("switchToChapter", slot0)
-		else
-			slot4 = uv2.localPosition
-
-			uv0:InvokeParent("displayChapterPanel", slot0, Vector3(slot4.x - 10, slot4.y + 150))
-		end
+		uv0:TryOpenChapterInfo(uv1, Vector3(slot0.x - 10, slot0.y + 150))
 	end, SFX_UI_WEIGHANCHOR_SELECT)
 end
 
-slot1.PlayChapterItemAnimation = function(slot0, slot1, slot2, slot3)
+slot0.PlayChapterItemAnimation = function(slot0, slot1, slot2, slot3)
 	slot4 = findTF(slot1, "main")
 	slot6 = findTF(slot4, "circle")
 	slot7 = findTF(slot4, "info/bk")
@@ -483,7 +441,7 @@ slot1.PlayChapterItemAnimation = function(slot0, slot1, slot2, slot3)
 	end)
 end
 
-slot1.PlayChapterItemAnimationBackward = function(slot0, slot1, slot2, slot3)
+slot0.PlayChapterItemAnimationBackward = function(slot0, slot1, slot2, slot3)
 	slot4 = findTF(slot1, "main")
 	slot6 = findTF(slot4, "circle")
 	slot7 = findTF(slot4, "info/bk")
@@ -513,7 +471,7 @@ slot1.PlayChapterItemAnimationBackward = function(slot0, slot1, slot2, slot3)
 	end
 end
 
-slot1.UpdateChapterTF = function(slot0, slot1)
+slot0.UpdateChapterTF = function(slot0, slot1)
 	if slot0.chapterTFsById[slot1] then
 		slot3 = getProxy(ChapterProxy):getChapterById(slot1)
 
@@ -522,33 +480,18 @@ slot1.UpdateChapterTF = function(slot0, slot1)
 	end
 end
 
-slot1.AddChapterTF = function(slot0, slot1)
-	slot2 = slot0.data
-
-	if slot0.chapterTFsById[slot1] then
-		slot0:UpdateChapterTF(slot1)
-	elseif _.contains(slot2:GetChapterList(), function (slot0)
-		if slot0 ~= uv0 then
-			return false
-		end
-
-		return (getProxy(ChapterProxy):getChapterById(uv0, true):isUnlock() or slot1:activeAlways()) and not slot1:ifNeedHide()
-	end) then
-		slot4 = getProxy(ChapterProxy):getChapterById(slot1, true)
-		slot3 = cloneTplTo(slot0.tpl, slot0.itemHolder, "Chapter_" .. slot4.id)
-
-		slot0:UpdateMapItem(slot3, slot4)
-
-		slot0.chapterTFsById[slot4.id] = slot3
-
-		slot0:PlayChapterItemAnimation(slot3)
-	end
-end
-
-slot1.TryOpenChapter = function(slot0, slot1)
+slot0.TryOpenChapter = function(slot0, slot1)
 	if slot0.chapterTFsById[slot1] then
 		triggerButton(slot2:Find("main"))
 	end
 end
 
-return slot1
+slot0.HideFloat = function(slot0)
+	setActive(slot0.itemHolder, false)
+end
+
+slot0.ShowFloat = function(slot0)
+	setActive(slot0.itemHolder, true)
+end
+
+return slot0

@@ -179,6 +179,8 @@ pg.furniture_data_template = setmetatable({
 			279,
 			280,
 			281,
+			282,
+			283,
 			100001,
 			100002,
 			100003,
@@ -242,6 +244,7 @@ pg.furniture_data_template = setmetatable({
 			100061,
 			100062,
 			100063,
+			100064,
 			200001,
 			200002,
 			200003,
@@ -3328,6 +3331,27 @@ pg.furniture_data_template = setmetatable({
 			311114,
 			311115,
 			311116
+		},
+		[112] = {
+			312001,
+			312002,
+			312101,
+			312102,
+			312103,
+			312104,
+			312105,
+			312106,
+			312107,
+			312108,
+			312109,
+			312110,
+			312111,
+			312112,
+			312113,
+			312114,
+			312115,
+			312301,
+			312302
 		}
 	},
 	get_id_list_by_tag = {
@@ -5285,7 +5309,20 @@ pg.furniture_data_template = setmetatable({
 			311112,
 			311113,
 			311114,
-			311115
+			311115,
+			312101,
+			312102,
+			312103,
+			312104,
+			312105,
+			312106,
+			312107,
+			312108,
+			312109,
+			312110,
+			312111,
+			312112,
+			312113
 		},
 		{
 			1108,
@@ -5603,6 +5640,7 @@ pg.furniture_data_template = setmetatable({
 			279,
 			280,
 			281,
+			282,
 			100001,
 			100002,
 			100003,
@@ -5666,6 +5704,7 @@ pg.furniture_data_template = setmetatable({
 			100061,
 			100062,
 			100063,
+			100064,
 			31101,
 			54101,
 			54102,
@@ -5725,7 +5764,8 @@ pg.furniture_data_template = setmetatable({
 			273,
 			275,
 			276,
-			278
+			278,
+			283
 		},
 		[7] = {
 			213,
@@ -5914,7 +5954,9 @@ pg.furniture_data_template = setmetatable({
 			308305,
 			309113,
 			310116,
-			311116
+			311116,
+			312114,
+			312115
 		},
 		[4] = {
 			1001,
@@ -6016,7 +6058,8 @@ pg.furniture_data_template = setmetatable({
 			308001,
 			309001,
 			310001,
-			311001
+			311001,
+			312001
 		},
 		[3] = {
 			1002,
@@ -6118,7 +6161,8 @@ pg.furniture_data_template = setmetatable({
 			308002,
 			309002,
 			310002,
-			311002
+			311002,
+			312002
 		},
 		[5] = {
 			1301,
@@ -6470,7 +6514,9 @@ pg.furniture_data_template = setmetatable({
 			310307,
 			310308,
 			310309,
-			310310
+			310310,
+			312301,
+			312302
 		}
 	},
 	get_id_list_by_type = {
@@ -6574,7 +6620,8 @@ pg.furniture_data_template = setmetatable({
 			308002,
 			309002,
 			310002,
-			311002
+			311002,
+			312002
 		},
 		[7] = {
 			1,
@@ -6726,6 +6773,7 @@ pg.furniture_data_template = setmetatable({
 			278,
 			279,
 			280,
+			283,
 			100001,
 			100002,
 			100004,
@@ -8728,7 +8776,21 @@ pg.furniture_data_template = setmetatable({
 			311113,
 			311114,
 			311115,
-			311116
+			311116,
+			312101,
+			312102,
+			312103,
+			312104,
+			312105,
+			312106,
+			312107,
+			312108,
+			312109,
+			312110,
+			312111,
+			312112,
+			312113,
+			312114
 		},
 		[11] = {
 			131,
@@ -8736,6 +8798,7 @@ pg.furniture_data_template = setmetatable({
 			215,
 			233,
 			281,
+			282,
 			100003,
 			100008,
 			100021,
@@ -8744,6 +8807,7 @@ pg.furniture_data_template = setmetatable({
 			100034,
 			100042,
 			100063,
+			100064,
 			30123,
 			35128,
 			36125,
@@ -8773,7 +8837,8 @@ pg.furniture_data_template = setmetatable({
 			90104,
 			90117,
 			94119,
-			301105
+			301105,
+			312115
 		},
 		[14] = {
 			214,
@@ -9132,7 +9197,8 @@ pg.furniture_data_template = setmetatable({
 			310307,
 			310308,
 			310309,
-			310310
+			310310,
+			312302
 		},
 		[15] = {
 			251,
@@ -9250,7 +9316,8 @@ pg.furniture_data_template = setmetatable({
 			308001,
 			309001,
 			310001,
-			311001
+			311001,
+			312001
 		},
 		[5] = {
 			1101,
@@ -9624,7 +9691,8 @@ pg.furniture_data_template = setmetatable({
 			310302,
 			310303,
 			310304,
-			310305
+			310305,
+			312301
 		},
 		[12] = {
 			46131
@@ -9809,6 +9877,8 @@ pg.furniture_data_template = setmetatable({
 		279,
 		280,
 		281,
+		282,
+		283,
 		100001,
 		100002,
 		100003,
@@ -9872,6 +9942,7 @@ pg.furniture_data_template = setmetatable({
 		100061,
 		100062,
 		100063,
+		100064,
 		200001,
 		200002,
 		200003,
@@ -12755,7 +12826,26 @@ pg.furniture_data_template = setmetatable({
 		311113,
 		311114,
 		311115,
-		311116
+		311116,
+		312001,
+		312002,
+		312101,
+		312102,
+		312103,
+		312104,
+		312105,
+		312106,
+		312107,
+		312108,
+		312109,
+		312110,
+		312111,
+		312112,
+		312113,
+		312114,
+		312115,
+		312301,
+		312302
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -21603,6 +21693,130 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[282] = {
+		can_rotate = 0,
+		describe = "闪耀的「雷电」将以风驰电掣之势席卷整个赛场！ ",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "cheleidianicon",
+		count = 1,
+		name = "赛车「雷电」",
+		advice = 0,
+		id = 282,
+		tag = 6,
+		comfortable = 4,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheleidianB",
+				"normal",
+				nil,
+				1
+			},
+			{
+				"cheleidianT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					5.8,
+					19.8
+				},
+				{
+					192,
+					172
+				},
+				"chuanmo/cheleidian_mask"
+			},
+			{
+				-0.5,
+				-15.5
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[283] = {
+		can_rotate = 0,
+		describe = "由审判庭制作的圣米歇尔山圣坛微缩模型，细致还原了山上的一草一木。",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/shengmixieershan",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 8,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "圣米歇尔山圣坛微缩模型",
+		advice = 0,
+		icon = "shengmixieershanicon",
+		id = 283,
+		comfortable = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
 	[100001] = {
 		can_rotate = 0,
 		describe = "本ID禁用",
@@ -26091,6 +26305,91 @@ pg.base.furniture_data_template = {
 					"action1"
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[100064] = {
+		can_rotate = 0,
+		describe = "风滚草冲击——！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "fengguncaoicon",
+		count = 1,
+		name = "巨型风滚草",
+		advice = 0,
+		id = 100064,
+		tag = 6,
+		comfortable = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fengguncaoB",
+				"normal"
+			},
+			{
+				"fengguncaoT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					15.6,
+					156.8
+				},
+				{
+					317,
+					281
+				},
+				"chuanmo/fengguncao_mask"
+			},
+			{
+				-45.7,
+				-133.5
+			},
+			{
+				1,
+				1
+			},
+			0.8
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
@@ -152607,6 +152906,850 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[312001] = {
+		can_rotate = 0,
+		describe = "速度！激情！燃烧！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "car2/dibancar2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 112,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "燃燃咖啡厅地板",
+		advice = 0,
+		icon = "dibancar2icon",
+		id = 312001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[312002] = {
+		can_rotate = 0,
+		describe = "速度！激情！燃烧！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		themeId = 112,
+		count = 1,
+		name = "燃燃咖啡厅墙纸",
+		advice = 0,
+		id = 312002,
+		icon = "qiangbicar2icon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbicar2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[312101] = {
+		can_rotate = 0,
+		describe = "分享速度与激情的浓郁之味啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 112,
+		count = 1,
+		name = "燃燃咖啡吧台",
+		advice = 0,
+		id = 312101,
+		icon = "bataicar2icon",
+		comfortable = 3,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bataicar2",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[312102] = {
+		can_rotate = 0,
+		describe = "就算是冷饮，放在上面也会变得燃起来！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "car2/chajicar2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 112,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "燃燃茶几",
+		advice = 0,
+		icon = "chajicar2icon",
+		id = 312102,
+		comfortable = 1,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[312103] = {
+		can_rotate = 0,
+		describe = "摆放应援物的木桌，不可以站上去欢呼哦！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "car2/lianpaizhuozicar2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 112,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "燃燃大长桌",
+		advice = 0,
+		icon = "lianpaizhuozicar2icon",
+		id = 312103,
+		comfortable = 3,
+		size = {
+			15,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[312104] = {
+		can_rotate = 0,
+		describe = "只能用来装饰的轮胎，不可以搬到赛场上哦。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "car2/luntaicar2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 112,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "燃燃轮胎",
+		advice = 0,
+		icon = "luntaicar2icon",
+		id = 312104,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[312105] = {
+		can_rotate = 0,
+		describe = "来一场紧张刺激的模拟赛吧！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 112,
+		count = 1,
+		name = "燃燃赛车桌",
+		advice = 0,
+		id = 312105,
+		icon = "paodaozhuocar2icon",
+		comfortable = 4,
+		size = {
+			9,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"paodaozhuocar2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[312106] = {
+		can_rotate = 1,
+		describe = "胜利就在前方……不能在室内冲刺哦！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "car2/saicheqizhicar2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 112,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "胜利旗帜（装饰品）",
+		advice = 0,
+		icon = "saicheqizhicar2icon",
+		id = 312106,
+		comfortable = 1,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[312107] = {
+		can_rotate = 0,
+		describe = "比赛间隙，躺下来休息一会吧！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "car2/shafa1car2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 112,
+		count = 2,
+		name = "燃燃咖色沙发（软）",
+		advice = 0,
+		id = 312107,
+		icon = "shafa1car2icon",
+		comfortable = 2,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					22.6,
+					21.4
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[312108] = {
+		can_rotate = 0,
+		describe = "躺下来休息一会吧……嗯？怎么是硬的！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "car2/shafa2car2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 112,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "燃燃咖色沙发（硬）",
+		advice = 0,
+		icon = "shafa2car2icon",
+		id = 312108,
+		comfortable = 2,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[312109] = {
+		can_rotate = 0,
+		describe = "体验赛车手的速度与激情！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 112,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "vrsaichecar2icon",
+		count = 1,
+		name = "燃燃赛车体验装置",
+		advice = 0,
+		id = 312109,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"vrsaichecar2B",
+				"normal"
+			},
+			{
+				"vrsaichecar2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[312110] = {
+		can_rotate = 0,
+		describe = "坐下来看模拟赛吧！胜负，即将揭晓！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "car2/yizi1car2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 112,
+		count = 4,
+		name = "燃燃小座椅1",
+		advice = 0,
+		id = 312110,
+		icon = "yizi1car2icon",
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-19.4,
+					19.2
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[312111] = {
+		can_rotate = 0,
+		describe = "坐下来看模拟赛吧！胜负，即将揭晓！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "car2/yizi2car2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 112,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "燃燃小座椅2",
+		advice = 0,
+		icon = "yizi2car2icon",
+		id = 312111,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[312112] = {
+		can_rotate = 0,
+		describe = "近距离观看车赛的最佳席位，燃起来了！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "car2/yizi3car2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 112,
+		count = 2,
+		name = "燃燃格纹椅1",
+		advice = 0,
+		id = 312112,
+		icon = "yizi3car2icon",
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					16.2,
+					27.2
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[312113] = {
+		can_rotate = 0,
+		describe = "近距离观看车赛的最佳席位，燃起来了！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "car2/yizi4car2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 112,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "燃燃格纹椅2",
+		advice = 0,
+		icon = "yizi4car2icon",
+		id = 312113,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[312114] = {
+		can_rotate = 0,
+		describe = "砰砰砰！三两下汽车就维修好了！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 7,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 112,
+		count = 1,
+		name = "燃燃机械臂",
+		advice = 0,
+		id = 312114,
+		icon = "jixiebicar2icon",
+		comfortable = 4,
+		size = {
+			7,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jixiebicar2",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[312115] = {
+		can_rotate = 0,
+		describe = "带着爱与和平，冲向胜利！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 112,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "laoyechecar2icon",
+		count = 1,
+		name = "爱心发射汽车",
+		advice = 0,
+		id = 312115,
+		tag = 7,
+		comfortable = 4,
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"laoyechecar2B",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"laoyechecar2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[312301] = {
+		can_rotate = 0,
+		describe = "激情的比赛和好喝的饮品更配哦！",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		picture = "car2/caidancar2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 112,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "燃燃菜单",
+		advice = 0,
+		icon = "caidancar2icon",
+		id = 312301,
+		comfortable = 2,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[312302] = {
+		can_rotate = 0,
+		describe = "这个可不能燃起来哦！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "car2/kafeidoucar2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 112,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "燃燃密封罐",
+		advice = 0,
+		icon = "kafeidoucar2icon",
+		id = 312302,
+		comfortable = 2,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	}

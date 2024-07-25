@@ -113,7 +113,7 @@ slot0.didEnter = function(slot0)
 			page = 1
 		})
 	end)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.top, false)
+	pg.UIMgr.GetInstance():OverlayPanel(slot0.top)
 
 	slot0.academyStudents = {}
 

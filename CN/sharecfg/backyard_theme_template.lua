@@ -4529,6 +4529,41 @@ pg.backyard_theme_template = {
 			311115
 		}
 	},
+	[112] = {
+		Cfg_1 = 5,
+		name = "燃燃咖啡厅 ",
+		desc = "速度！激情！燃烧！ ",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 113,
+		id = 112,
+		icon = "car2themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			312001,
+			312002,
+			312101,
+			312102,
+			312103,
+			312104,
+			312105,
+			312106,
+			312107,
+			312108,
+			312109,
+			312110,
+			312111,
+			312112,
+			312113,
+			312301,
+			312302
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4632,6 +4667,7 @@ pg.backyard_theme_template = {
 		108,
 		109,
 		110,
-		111
+		111,
+		112
 	}
 }

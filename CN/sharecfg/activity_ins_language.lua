@@ -5332,7 +5332,61 @@ pg.activity_ins_language = setmetatable({
 		"ins_op_482_1_1",
 		"op_reply_482_1_1",
 		"ins_op_482_1_2",
-		"op_reply_482_1_2"
+		"op_reply_482_1_2",
+		"ins_483",
+		"ins_discuss_483_1",
+		"ins_reply_483_1_1",
+		"ins_reply_483_1_2",
+		"ins_reply_483_1_3",
+		"ins_reply_483_1_4",
+		"ins_discuss_483_2",
+		"ins_reply_483_2_1",
+		"ins_reply_483_2_2",
+		"ins_discuss_483_3",
+		"ins_reply_483_3_1",
+		"ins_reply_483_3_2",
+		"ins_reply_483_3_3",
+		"ins_reply_483_3_4",
+		"ins_reply_483_3_5",
+		"ins_op_483_1_1",
+		"op_reply_483_1_1",
+		"ins_op_483_1_2",
+		"op_reply_483_1_2",
+		"ins_484",
+		"ins_discuss_484_1",
+		"ins_reply_484_1_1",
+		"ins_reply_484_1_2",
+		"ins_reply_484_1_3",
+		"ins_discuss_484_2",
+		"ins_reply_484_2_1",
+		"ins_reply_484_2_2",
+		"ins_discuss_484_3",
+		"ins_reply_484_3_1",
+		"ins_reply_484_3_2",
+		"ins_reply_484_3_3",
+		"ins_reply_484_3_4",
+		"ins_op_484_1_1",
+		"op_reply_484_1_1",
+		"ins_op_484_1_2",
+		"op_reply_484_1_2",
+		"ins_485",
+		"ins_discuss_485_1",
+		"ins_reply_485_1_1",
+		"ins_reply_485_1_2",
+		"ins_discuss_485_2",
+		"ins_reply_485_2_1",
+		"ins_reply_485_2_2",
+		"ins_reply_485_2_3",
+		"ins_reply_485_2_4",
+		"ins_discuss_485_3",
+		"ins_reply_485_3_1",
+		"ins_reply_485_3_2",
+		"ins_reply_485_3_3",
+		"ins_reply_485_3_4",
+		"ins_op_485_1_1",
+		"op_reply_485_1_1",
+		"ins_op_485_1_2",
+		"op_reply_485_1_2"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -21166,168 +21220,330 @@ pg.base.activity_ins_language = {
 		value = "呃……那是什么技能，听上去好像很厉害。"
 	},
 	ins_479 = {
-		value = ""
+		value = "真是苦恼啊……空调彻底坏掉了呢。"
 	},
 	ins_discuss_479_1 = {
-		value = ""
+		value = "亚尔薇特老师之前不是就计算出空调坏了吗，为什么……？"
 	},
 	ins_reply_479_1_1 = {
-		value = ""
+		value = "嗯……是因为一些特殊原因，真的坏掉的时候还是有些难熬呢。"
 	},
 	ins_reply_479_1_2 = {
-		value = ""
+		value = "但是……知道什么时候坏掉了的话……？"
 	},
 	ins_reply_479_1_3 = {
-		value = ""
+		value = "没办法，计划赶不上变化，只能拜托人再维修一次了。"
 	},
 	ins_discuss_479_2 = {
-		value = ""
+		value = "咦？可是指挥官之前不是已经修过一次空调了吗？"
 	},
 	ins_reply_479_2_1 = {
-		value = ""
+		value = "可能是因为又出现了新的问题，又得麻烦一次指挥官了。"
 	},
 	ins_reply_479_2_2 = {
-		value = ""
+		value = "这样啊。奇怪……空调会坏掉得这么快吗？"
 	},
 	ins_discuss_479_3 = {
-		value = ""
+		value = "唔……唔唔……这样下去会被烤熟的吧……！"
 	},
 	ins_reply_479_3_1 = {
-		value = ""
+		value = "烤熟？啊！想吃烤肉了！我们在教室办烧烤会吧！"
 	},
 	ins_reply_479_3_2 = {
-		value = ""
+		value = "在教室里？这样就得格外注意通风了哦。"
 	},
 	ins_reply_479_3_3 = {
-		value = ""
+		value = "没问题！肯定不会出事的啦，亚尔薇特老师就放心吧~！"
 	},
 	ins_op_479_1_1 = {
-		value = ""
+		value = "咦？又坏了？！"
 	},
 	op_reply_479_1_1 = {
-		value = ""
+		value = "正如之前所预料的一样，指挥官，接下来要怎么办呢？"
 	},
 	ins_op_479_1_2 = {
-		value = ""
+		value = "我这就带着工具箱过来！"
 	},
 	op_reply_479_1_2 = {
-		value = ""
+		value = "哎呀，您其实什么都不用带哦？我全都提前准备好了呢。"
 	},
 	ins_480 = {
-		value = ""
+		value = "手机……手机不知道去哪儿了？！"
 	},
 	ins_discuss_480_1 = {
-		value = ""
+		value = "嗯嗯……没有手机很麻烦的欸！不过总觉得哪里有点奇怪？"
 	},
 	ins_reply_480_1_1 = {
-		value = ""
+		value = "之前明明还在口袋里的，为什么……"
 	},
 	ins_reply_480_1_2 = {
-		value = ""
+		value = "别急，总之一定是落在什么地方了！"
 	},
 	ins_discuss_480_2 = {
-		value = ""
+		value = "我有一个问题，手机不见了，是怎么发JUUS的？"
 	},
 	ins_reply_480_2_1 = {
-		value = ""
+		value = "…对、对哦，我怎么像个笨蛋似的……"
 	},
 	ins_reply_480_2_2 = {
-		value = ""
+		value = "来灵感了！接下来就去做“不需要手机也可以发JUUS”的发明好了！"
 	},
 	ins_discuss_480_3 = {
-		value = ""
+		value = "所以{namecode:494}，你不觉得，这件事就一开始就很奇怪吗？"
 	},
 	ins_reply_480_3_1 = {
-		value = ""
+		value = "嗯……我完全没意识到……"
 	},
 	ins_reply_480_3_2 = {
-		value = ""
+		value = "哎，你和利物浦都没有发现手机其实就在手上呢。"
 	},
 	ins_reply_480_3_3 = {
-		value = ""
+		value = "这、这也是常有的事哦！拿着手机找手机什么的！"
 	},
 	ins_op_480_1_1 = {
-		value = ""
+		value = "小心撞到脑袋。"
 	},
 	op_reply_480_1_1 = {
-		value = ""
+		value = "谢谢指挥官……我会注意的。"
 	},
 	ins_op_480_1_2 = {
-		value = ""
+		value = "真的完全没察觉到啊！"
 	},
 	op_reply_480_1_2 = {
-		value = ""
+		value = "好丢人……"
 	},
 	ins_481 = {
-		value = ""
+		value = "为了指挥官的安全保障而设置的保险！"
 	},
 	ins_discuss_481_1 = {
-		value = ""
+		value = "被捷足先登了……可恶……"
 	},
 	ins_reply_481_1_1 = {
-		value = ""
+		value = "呵呵呵……有害虫做了不得了的事情呢，需要“扫除”一下……"
 	},
 	ins_reply_481_1_2 = {
-		value = ""
+		value = "这是为了指挥官安全必要的考虑，哼哼，是合法途径！"
 	},
 	ins_discuss_481_2 = {
-		value = ""
+		value = "办公室的ID卡一定要好好保管，这样在手上转圈会弄丢的。"
 	},
 	ins_reply_481_2_1 = {
-		value = ""
+		value = "不会的，我可是指挥官的护卫，这种事情不可能的啦~"
 	},
 	ins_reply_481_2_2 = {
-		value = ""
+		value = "希望如此吧。"
 	},
 	ins_op_481_1_1 = {
-		value = ""
+		value = "真、真的不会有什么关系吗？"
 	},
 	op_reply_481_1_1 = {
-		value = ""
+		value = "放心放心，手续是绝对正规的啦！"
 	},
 	ins_op_481_1_2 = {
-		value = ""
+		value = "是备用的门卡吗？谢谢！"
 	},
 	op_reply_481_1_2 = {
-		value = ""
+		value = "欸嘿，指挥官不用谢~"
 	},
 	ins_482 = {
-		value = ""
+		value = "这就是，叛恶者的力量！"
 	},
 	ins_discuss_482_1 = {
-		value = ""
+		value = "出现了呢，逃离黑暗的叛恶者！是逃避，还是面对呢！"
 	},
 	ins_reply_482_1_1 = {
-		value = ""
+		value = "哼哼，恶魔偶像！叛恶者可不会临阵脱逃啊！"
 	},
 	ins_reply_482_1_2 = {
-		value = ""
+		value = "哦？居然出现了新的恶魔啊，服从于魔王之下吧！"
 	},
 	ins_reply_482_1_3 = {
-		value = ""
+		value = "什……叛恶者是不会对魔王屈服的！"
 	},
 	ins_reply_482_1_4 = {
-		value = ""
+		value = "来吧，三重禁忌的解放——恶魔之力！"
 	},
 	ins_discuss_482_2 = {
-		value = ""
+		value = "暗黑镇魂曲？是新的反派吗！"
 	},
 	ins_reply_482_2_1 = {
-		value = ""
+		value = "没错，暗黑镇魂曲都是阴险狡诈、喜欢迷惑人心之徒！"
 	},
 	ins_reply_482_2_2 = {
-		value = ""
+		value = "作为英雄，不能坐视不管，从黑暗的手中保护世界吧！"
 	},
 	ins_op_482_1_1 = {
-		value = ""
+		value = "哦！胜利已经被确定了！"
 	},
 	op_reply_482_1_1 = {
-		value = ""
+		value = "没错……暗黑镇魂曲必将失败！"
 	},
 	ins_op_482_1_2 = {
-		value = ""
+		value = "灯光效果不错！"
 	},
 	op_reply_482_1_2 = {
+		value = "哼哼，毕竟是我认真打造的秘密基地嘛！指挥官也来一起吧！"
+	},
+	ins_483 = {
+		value = ""
+	},
+	ins_discuss_483_1 = {
+		value = ""
+	},
+	ins_reply_483_1_1 = {
+		value = ""
+	},
+	ins_reply_483_1_2 = {
+		value = ""
+	},
+	ins_reply_483_1_3 = {
+		value = ""
+	},
+	ins_reply_483_1_4 = {
+		value = ""
+	},
+	ins_discuss_483_2 = {
+		value = ""
+	},
+	ins_reply_483_2_1 = {
+		value = ""
+	},
+	ins_reply_483_2_2 = {
+		value = ""
+	},
+	ins_discuss_483_3 = {
+		value = ""
+	},
+	ins_reply_483_3_1 = {
+		value = ""
+	},
+	ins_reply_483_3_2 = {
+		value = ""
+	},
+	ins_reply_483_3_3 = {
+		value = ""
+	},
+	ins_reply_483_3_4 = {
+		value = ""
+	},
+	ins_reply_483_3_5 = {
+		value = ""
+	},
+	ins_op_483_1_1 = {
+		value = ""
+	},
+	op_reply_483_1_1 = {
+		value = ""
+	},
+	ins_op_483_1_2 = {
+		value = ""
+	},
+	op_reply_483_1_2 = {
+		value = ""
+	},
+	ins_484 = {
+		value = ""
+	},
+	ins_discuss_484_1 = {
+		value = ""
+	},
+	ins_reply_484_1_1 = {
+		value = ""
+	},
+	ins_reply_484_1_2 = {
+		value = ""
+	},
+	ins_reply_484_1_3 = {
+		value = ""
+	},
+	ins_discuss_484_2 = {
+		value = ""
+	},
+	ins_reply_484_2_1 = {
+		value = ""
+	},
+	ins_reply_484_2_2 = {
+		value = ""
+	},
+	ins_discuss_484_3 = {
+		value = ""
+	},
+	ins_reply_484_3_1 = {
+		value = ""
+	},
+	ins_reply_484_3_2 = {
+		value = ""
+	},
+	ins_reply_484_3_3 = {
+		value = ""
+	},
+	ins_reply_484_3_4 = {
+		value = ""
+	},
+	ins_op_484_1_1 = {
+		value = ""
+	},
+	op_reply_484_1_1 = {
+		value = ""
+	},
+	ins_op_484_1_2 = {
+		value = ""
+	},
+	op_reply_484_1_2 = {
+		value = ""
+	},
+	ins_485 = {
+		value = ""
+	},
+	ins_discuss_485_1 = {
+		value = ""
+	},
+	ins_reply_485_1_1 = {
+		value = ""
+	},
+	ins_reply_485_1_2 = {
+		value = ""
+	},
+	ins_discuss_485_2 = {
+		value = ""
+	},
+	ins_reply_485_2_1 = {
+		value = ""
+	},
+	ins_reply_485_2_2 = {
+		value = ""
+	},
+	ins_reply_485_2_3 = {
+		value = ""
+	},
+	ins_reply_485_2_4 = {
+		value = ""
+	},
+	ins_discuss_485_3 = {
+		value = ""
+	},
+	ins_reply_485_3_1 = {
+		value = ""
+	},
+	ins_reply_485_3_2 = {
+		value = ""
+	},
+	ins_reply_485_3_3 = {
+		value = ""
+	},
+	ins_reply_485_3_4 = {
+		value = ""
+	},
+	ins_op_485_1_1 = {
+		value = ""
+	},
+	op_reply_485_1_1 = {
+		value = ""
+	},
+	ins_op_485_1_2 = {
+		value = ""
+	},
+	op_reply_485_1_2 = {
 		value = ""
 	}
 }

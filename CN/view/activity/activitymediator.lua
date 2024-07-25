@@ -44,10 +44,20 @@ slot0.OPEN_CHARGE_ITEM_PANEL = "ActivityMediator.OPEN_CHARGE_ITEM_PANEL"
 slot0.OPEN_CHARGE_BIRTHDAY = "ActivityMediator.OPEN_CHARGE_BIRTHDAY"
 slot0.STORE_DATE = "ActivityMediator.STORE_DATE"
 slot0.ON_ACT_SHOPPING = "ActivityMediator.ON_ACT_SHOPPING"
+slot0.GO_MONOPOLY2024 = "ActivityMediator:GO_MONOPOLY2024"
 
 slot0.register = function(slot0)
 	slot0.UIAvalibleCallbacks = {}
 
+	slot0:bind(uv0.GO_MONOPOLY2024, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			mediator = MonopolyCar2024Mediator,
+			viewComponent = MonopolyCar2024Scene,
+			data = {
+				actId = slot1
+			}
+		}))
+	end)
 	slot0:bind(uv0.ON_AWARD_WINDOW, function (slot0, slot1, slot2, slot3)
 		uv0.viewComponent:ShowAwardWindow(slot1, slot2, slot3)
 	end)
@@ -453,6 +463,8 @@ slot0.initNotificationHandleDic = function(slot0)
 
 			if slot0.viewComponent.pageDic[slot0.viewComponent.activity.id] and slot3.activity:getConfig("type") == ActivityConst.ACTIVITY_TYPE_MONOPOLY and slot3.onAward then
 				slot3:onAward(slot2.awards, slot2.callback)
+			elseif slot2.autoFlag then
+				slot0.viewComponent:emit(BaseUI.ON_ACHIEVE_AUTO, slot2.awards, 1, slot2.callback)
 			else
 				slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot2.awards, slot2.callback)
 			end

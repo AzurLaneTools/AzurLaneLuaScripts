@@ -1671,5 +1671,13 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "潘惠美",
 		code = 418
+	},
+	{
+		actor_name = "宫咲明里",
+		code = 419
+	},
+	{
+		actor_name = "平山笑美",
+		code = 420
 	}
 }

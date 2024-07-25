@@ -221,24 +221,24 @@ slot1 = function()
 end
 
 slot0.ShowExtraChapterActSocre = function(slot0, slot1)
-	slot4 = getProxy(ChapterProxy):getActiveChapter() and slot2:getMapById(slot3:getConfig("map"))
+	slot3 = getProxy(ChapterProxy):getActiveChapter()
 
-	for slot9, slot10 in ipairs(uv0()) do
-		if slot10:getConfig("config_data")[1] == slot1.stageId and slot4 and slot4:isActExtra() then
-			slot15, slot16 = ActivityLevelConst.getExtraChapterSocre(slot12, math.floor(slot1.statistics._totalTime), ActivityLevelConst.getShipsPower(slot1.prefabFleet or slot1.oldMainShips), slot10)
-			slot17 = slot16 < slot15 and i18n("extra_chapter_record_updated") or i18n("extra_chapter_record_not_updated")
+	for slot8, slot9 in ipairs(uv0()) do
+		if slot9:getConfig("config_data")[1] == slot1.stageId and slot3:IsEXChapter() then
+			slot14, slot15 = ActivityLevelConst.getExtraChapterSocre(slot11, math.floor(slot1.statistics._totalTime), ActivityLevelConst.getShipsPower(slot1.prefabFleet or slot1.oldMainShips), slot9)
+			slot16 = slot15 < slot14 and i18n("extra_chapter_record_updated") or i18n("extra_chapter_record_not_updated")
 
-			if slot16 < slot15 then
-				slot10.data1 = slot15
+			if slot15 < slot14 then
+				slot9.data1 = slot14
 
-				getProxy(ActivityProxy):updateActivity(slot10)
+				getProxy(ActivityProxy):updateActivity(slot9)
 
-				slot16 = slot15
+				slot15 = slot14
 			end
 
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				hideNo = true,
-				content = i18n("extra_chapter_socre_tip", slot15, slot16, slot17),
+				content = i18n("extra_chapter_socre_tip", slot14, slot15, slot16),
 				weight = LayerWeightConst.SECOND_LAYER
 			})
 		end

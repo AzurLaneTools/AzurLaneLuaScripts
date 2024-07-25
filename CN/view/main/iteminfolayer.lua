@@ -274,6 +274,8 @@ slot0.setItem = function(slot0, slot1)
 			uv0:closeView()
 		end, SFX_PANEL)
 		setActive(slot0.okBtn, true)
+	else
+		setActive(slot0.okBtn, true)
 	end
 end
 
@@ -604,6 +606,32 @@ slot0.PlayOpenBox = function(slot0, slot1, slot2)
 		end)
 		pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_UI_EQUIPMENT_OPEN)
 	end)
+end
+
+slot0.inOutAnim = function(slot0, slot1, slot2)
+	if slot1 then
+		slot4 = slot0:findTF("window/bg_decorations"):GetComponent(typeof(Animation))
+
+		slot4:Stop()
+		slot4:Play("anim_window_bg")
+
+		slot6 = slot0:findTF("window/top"):GetComponent(typeof(Animation))
+
+		slot6:Stop()
+		slot6:Play("anim_top")
+
+		slot8 = slot0:findTF("window"):GetComponent(typeof(Animation))
+
+		slot8:Stop()
+		slot8:Play("anim_content")
+
+		slot10 = slot0:findTF("bg"):GetComponent(typeof(Animation))
+
+		slot10:Stop()
+		slot10:Play("anim_bg_plus")
+	end
+
+	slot2()
 end
 
 return slot0

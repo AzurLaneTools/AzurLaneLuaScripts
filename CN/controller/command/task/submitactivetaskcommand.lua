@@ -71,10 +71,7 @@ slot0.submitActivity = function(slot0, slot1, slot2, slot3, slot4)
 					awards = slot1
 				})
 			elseif table.contains(TotalTaskProxy.activity_task_type, uv0) then
-				slot5 = task.id
-				slot1 = PlayerConst.addTranDrop(slot0.award_list, {
-					taskId = slot5
-				})
+				slot1 = PlayerConst.addTranDrop(slot0.award_list, {})
 
 				for slot5 = 1, #uv1.task_ids do
 					slot7 = pg.task_data_template[uv1.task_ids[slot5]]

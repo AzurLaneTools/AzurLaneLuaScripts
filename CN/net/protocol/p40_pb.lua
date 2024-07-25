@@ -27,6 +27,9 @@ slot2 = {
 	CS_40003_DATA2_FIELD = slot0.FieldDescriptor(),
 	CS_40003_COMMANDER_ID_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_40003_OTHERSTATISTICS_FIELD = slot0.FieldDescriptor(),
+	CS_40003_AUTO_BEFORE_FIELD = slot0.FieldDescriptor(),
+	CS_40003_AUTO_SWITCH_TIME_FIELD = slot0.FieldDescriptor(),
+	CS_40003_AUTO_AFTER_FIELD = slot0.FieldDescriptor(),
 	SC_40004_RESULT_FIELD = slot0.FieldDescriptor(),
 	SC_40004_DROP_INFO_FIELD = slot0.FieldDescriptor(),
 	SC_40004_EXTRA_DROP_INFO_FIELD = slot0.FieldDescriptor(),
@@ -322,6 +325,33 @@ slot2.CS_40003_OTHERSTATISTICS_FIELD.default_value = {}
 slot2.CS_40003_OTHERSTATISTICS_FIELD.message_type = STATISTICSINFO
 slot2.CS_40003_OTHERSTATISTICS_FIELD.type = 11
 slot2.CS_40003_OTHERSTATISTICS_FIELD.cpp_type = 10
+slot2.CS_40003_AUTO_BEFORE_FIELD.name = "auto_before"
+slot2.CS_40003_AUTO_BEFORE_FIELD.full_name = "p40.cs_40003.auto_before"
+slot2.CS_40003_AUTO_BEFORE_FIELD.number = 16
+slot2.CS_40003_AUTO_BEFORE_FIELD.index = 15
+slot2.CS_40003_AUTO_BEFORE_FIELD.label = 2
+slot2.CS_40003_AUTO_BEFORE_FIELD.has_default_value = false
+slot2.CS_40003_AUTO_BEFORE_FIELD.default_value = 0
+slot2.CS_40003_AUTO_BEFORE_FIELD.type = 13
+slot2.CS_40003_AUTO_BEFORE_FIELD.cpp_type = 3
+slot2.CS_40003_AUTO_SWITCH_TIME_FIELD.name = "auto_switch_time"
+slot2.CS_40003_AUTO_SWITCH_TIME_FIELD.full_name = "p40.cs_40003.auto_switch_time"
+slot2.CS_40003_AUTO_SWITCH_TIME_FIELD.number = 17
+slot2.CS_40003_AUTO_SWITCH_TIME_FIELD.index = 16
+slot2.CS_40003_AUTO_SWITCH_TIME_FIELD.label = 2
+slot2.CS_40003_AUTO_SWITCH_TIME_FIELD.has_default_value = false
+slot2.CS_40003_AUTO_SWITCH_TIME_FIELD.default_value = 0
+slot2.CS_40003_AUTO_SWITCH_TIME_FIELD.type = 13
+slot2.CS_40003_AUTO_SWITCH_TIME_FIELD.cpp_type = 3
+slot2.CS_40003_AUTO_AFTER_FIELD.name = "auto_after"
+slot2.CS_40003_AUTO_AFTER_FIELD.full_name = "p40.cs_40003.auto_after"
+slot2.CS_40003_AUTO_AFTER_FIELD.number = 18
+slot2.CS_40003_AUTO_AFTER_FIELD.index = 17
+slot2.CS_40003_AUTO_AFTER_FIELD.label = 2
+slot2.CS_40003_AUTO_AFTER_FIELD.has_default_value = false
+slot2.CS_40003_AUTO_AFTER_FIELD.default_value = 0
+slot2.CS_40003_AUTO_AFTER_FIELD.type = 13
+slot2.CS_40003_AUTO_AFTER_FIELD.cpp_type = 3
 CS_40003.name = "cs_40003"
 CS_40003.full_name = "p40.cs_40003"
 CS_40003.nested_types = {}
@@ -341,7 +371,10 @@ CS_40003.fields = {
 	slot2.CS_40003_ENEMY_INFO_FIELD,
 	slot2.CS_40003_DATA2_FIELD,
 	slot2.CS_40003_COMMANDER_ID_LIST_FIELD,
-	slot2.CS_40003_OTHERSTATISTICS_FIELD
+	slot2.CS_40003_OTHERSTATISTICS_FIELD,
+	slot2.CS_40003_AUTO_BEFORE_FIELD,
+	slot2.CS_40003_AUTO_SWITCH_TIME_FIELD,
+	slot2.CS_40003_AUTO_AFTER_FIELD
 }
 CS_40003.is_extendable = false
 CS_40003.extensions = {}

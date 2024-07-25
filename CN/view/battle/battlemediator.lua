@@ -9,6 +9,7 @@ slot0.HIDE_ALL_BUTTONS = "BattleMediator:HIDE_ALL_BUTTONS"
 slot0.ON_CHAT = "BattleMediator:ON_CHAT"
 slot0.CLOSE_CHAT = "BattleMediator:CLOSE_CHAT"
 slot0.ON_AUTO = "BattleMediator:ON_AUTO"
+slot0.UPDATE_AUTO_COUNT = "BattleMediator:UPDATE_AUTO_COUNT"
 slot0.ON_PUZZLE_RELIC = "BattleMediator.ON_PUZZLE_RELIC"
 slot0.ON_PUZZLE_CARD = "BattleMediator.ON_PUZZLE_CARD"
 
@@ -204,6 +205,10 @@ slot0.onAutoBtn = function(slot0, slot1)
 		toggle = slot1.toggle,
 		system = slot1.system
 	})
+end
+
+slot0.updateAutoCount = function(slot0, slot1)
+	slot3 = ys.Battle.BattleState.GetInstance():GetProxyByName(ys.Battle.BattleDataProxy.__name):AutoStatistics(slot1.isOn)
 end
 
 slot0.onPauseBtn = function(slot0)
@@ -1406,7 +1411,8 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.RESUME_BATTLE,
 		uv0.CLOSE_CHAT,
 		GAME.QUIT_BATTLE,
-		uv0.HIDE_ALL_BUTTONS
+		uv0.HIDE_ALL_BUTTONS,
+		uv0.UPDATE_AUTO_COUNT
 	}
 end
 
@@ -1513,6 +1519,8 @@ slot0.handleNotification = function(slot0, slot1)
 		}))
 	elseif slot2 == GAME.QUIT_BATTLE then
 		slot4:Stop()
+	elseif slot2 == uv0.UPDATE_AUTO_COUNT then
+		slot0:updateAutoCount(slot3)
 	end
 end
 

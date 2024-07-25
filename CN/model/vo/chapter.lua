@@ -161,7 +161,11 @@ slot0.isTypeDefence = function(slot0)
 end
 
 slot0.IsSpChapter = function(slot0)
-	return getProxy(ChapterProxy):getMapById(slot0:getConfig("map")):getMapType() == Map.ACT_EXTRA and slot0:getPlayType() == ChapterConst.TypeRange
+	return slot0:isTriesLimit()
+end
+
+slot0.IsEXChapter = function(slot0)
+	return slot0:getPlayType() == ChapterConst.TypeExtra
 end
 
 slot0.getConfig = function(slot0, slot1)
@@ -203,11 +207,21 @@ slot0.isUnlock = function(slot0)
 end
 
 slot0.IsCleanPrevChapter = function(slot0)
-	if slot0:getConfig("pre_chapter") == 0 then
-		return true
+	slot4 = "pre_chapter"
+
+	for slot4, slot5 in ipairs(slot0:getConfig(slot4)) do
+		if _.all(slot5, function (slot0)
+			if slot0 == 0 then
+				return true
+			end
+
+			return getProxy(ChapterProxy):GetChapterItemById(slot0):isClear()
+		end) then
+			return true
+		end
 	end
 
-	return getProxy(ChapterProxy):GetChapterItemById(slot1):isClear()
+	return false
 end
 
 slot0.IsCleanPrevStory = function(slot0)
@@ -613,11 +627,14 @@ slot0.activeAlways = function(slot0)
 	return false
 end
 
-slot0.getPrevChapterName = function(slot0)
-	slot1 = ""
+slot0.GetPrevChapterNames = function(slot0)
+	slot1 = {}
+	slot5 = "pre_chapter"
 
-	if slot0:getConfig("pre_chapter") ~= 0 then
-		slot1 = slot0:bindConfigTable()[slot2].chapter_name
+	for slot5, slot6 in ipairs(slot0:getConfig(slot5)) do
+		if slot6[1] ~= 0 then
+			table.insert(slot1, slot0:bindConfigTable()[slot7].chapter_name)
+		end
 	end
 
 	return slot1

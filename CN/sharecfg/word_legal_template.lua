@@ -597,6 +597,15 @@ temp = function()
 					}
 				}
 			}
+		},
+		["特"] = {
+			["拉"] = {
+				["斯"] = {
+					["堡"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end
@@ -4564,6 +4573,17 @@ temp = function()
 		},
 		this = {
 			this = true
+		},
+		["·"] = {
+			M = {
+				E = {
+					T = {
+						A = {
+							this = true
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -7149,6 +7169,32 @@ temp = function()
 								this = true
 							}
 						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["果"] = {
+		["敢"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["迪"] = {
+		["普"] = {
+			["莱"] = {
+				["克"] = {
+					["斯"] = {
+						this = true
 					}
 				}
 			}

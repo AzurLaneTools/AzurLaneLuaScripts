@@ -41,8 +41,8 @@ slot0.OnInit = function(slot0)
 end
 
 slot0.InitTransformMapBtn = function(slot0, slot1, slot2, slot3)
-	onButton(slot0.sceneParent, slot1, function ()
-		if uv0.sceneParent:isfrozen() then
+	onButton(slot0, slot1, function ()
+		if uv0:isfrozen() then
 			return
 		end
 
@@ -69,7 +69,8 @@ slot0.InitTransformMapBtn = function(slot0, slot1, slot2, slot3)
 	end)
 end
 
-slot0.PostUpdateMap = function(slot0, slot1)
+slot0.UpdateButtons = function(slot0)
+	uv0.super.UpdateButtons(slot0)
 	setActive(slot0.buttonUp, false)
 	setActive(slot0.effectUp, false)
 	setActive(slot0.buttonDown, false)
@@ -174,9 +175,11 @@ slot0.UpdateMapItem = function(slot0, slot1, slot2)
 		slot0:RecordTween("fighting" .. slot2.id, LeanTween.alphaCanvas(slot20, 0, 0.5):setFrom(1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong().uniqueId)
 	end
 
-	setActive(findTF(slot4, "triesLimit"), false)
+	slot22 = slot2:isTriesLimit()
 
-	if slot2:isTriesLimit() then
+	setActive(findTF(slot4, "triesLimit"), slot22)
+
+	if slot22 then
 		slot23 = slot2:getConfig("count")
 
 		setText(slot21:Find("label"), i18n("levelScene_chapter_count_tip"))
@@ -190,7 +193,7 @@ slot0.UpdateMapItem = function(slot0, slot1, slot2)
 	setActive(slot24, slot23)
 
 	if slot23 then
-		slot0.sceneParent.loader:GetSprite("ui/levelmainscene_atlas", slot0.sceneParent.contextData.map:getConfig("type") == Map.ACTIVITY_HARD and "bonus_us_hard" or "bonus_us", slot24:Find("bonus"))
+		slot0.sceneParent.loader:GetSprite("ui/levelmainscene_atlas", slot0.contextData.map:getConfig("type") == Map.ACTIVITY_HARD and "bonus_us_hard" or "bonus_us", slot24:Find("bonus"))
 		LeanTween.cancel(go(slot24), true)
 
 		slot28 = slot24.anchoredPosition.y
@@ -211,46 +214,14 @@ slot0.UpdateMapItem = function(slot0, slot1, slot2)
 
 	slot25 = slot2.id
 
-	onButton(slot0.sceneParent, slot4, function ()
-		if uv0:InvokeParent("isfrozen") then
-			return
-		end
-
+	onButton(slot0, slot4, function ()
 		if uv0.chaptersInBackAnimating[uv1] then
 			return
 		end
 
-		if not getProxy(ChapterProxy):getChapterById(uv1):isUnlock() then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_tracking_error_pre", slot0:getPrevChapterName()))
+		slot0 = uv2.localPosition
 
-			return
-		end
-
-		if not getProxy(ChapterProxy):getMapById(slot0:getConfig("map")):isRemaster() and not slot0:inActTime() then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("battle_levelScene_close"))
-
-			return
-		end
-
-		if uv0.sceneParent.player.level < slot0:getConfig("unlocklevel") then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("levelScene_chapter_level_limit", slot2))
-
-			return
-		end
-
-		if getProxy(ChapterProxy):getActiveChapter(true) and slot3.id ~= uv1 then
-			uv0:InvokeParent("emit", LevelMediator2.ON_STRATEGYING_CHAPTER)
-
-			return
-		end
-
-		if slot0.active then
-			uv0:InvokeParent("switchToChapter", slot0)
-		else
-			slot4 = uv2.localPosition
-
-			uv0:InvokeParent("displayChapterPanel", slot0, Vector3(slot4.x - 10, slot4.y + 150))
-		end
+		uv0:TryOpenChapterInfo(uv1, Vector3(slot0.x - 10, slot0.y + 150))
 	end, SFX_UI_WEIGHANCHOR_SELECT)
 end
 

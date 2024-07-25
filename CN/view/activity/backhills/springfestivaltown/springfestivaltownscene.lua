@@ -117,7 +117,7 @@ slot0.didEnter = function(slot0)
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "pifushangdian", function ()
 		uv0:emit(NewYearFestivalMediator.GO_SCENE, SCENE.SKINSHOP)
 	end)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.top, false)
+	pg.UIMgr.GetInstance():OverlayPanel(slot0.top)
 	slot0:InitStudents(ActivityConst.ACTIVITY_478, 3, 5)
 	slot0:UpdateView()
 end

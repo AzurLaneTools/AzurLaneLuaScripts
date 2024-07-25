@@ -15,6 +15,7 @@ slot0.ON_ITEM_EXTRA = "BaseUI.ON_ITEM_EXTRA"
 slot0.ON_SHIP = "BaseUI:ON_SHIP"
 slot0.ON_AWARD = "BaseUI:ON_AWARD"
 slot0.ON_ACHIEVE = "BaseUI:ON_ACHIEVE"
+slot0.ON_ACHIEVE_AUTO = "BaseUI:ON_ACHIEVE_AUTO"
 slot0.ON_WORLD_ACHIEVE = "BaseUI:ON_WORLD_ACHIEVE"
 slot0.ON_EQUIPMENT = "BaseUI:ON_EQUIPMENT"
 slot0.ON_SPWEAPON = "BaseUI:ON_SPWEAPON"
@@ -264,8 +265,7 @@ end
 slot0.enter = function(slot0)
 	slot0:quickExit()
 	slot0:PlayBGM()
-
-	slot1 = function()
+	slot0:inOutAnim(true, function ()
 		uv0:emit(uv1.DID_ENTER)
 
 		if not uv0._isCachedView then
@@ -273,8 +273,13 @@ slot0.enter = function(slot0)
 			uv0:ShowOrHideResUI(true)
 		end
 
-		uv0:emit(uv1.AVALIBLE)
-		uv0:onUIAnimEnd(function ()
+		slot0 = uv0
+
+		slot0:emit(uv1.AVALIBLE)
+
+		slot0 = uv0
+
+		slot0:onUIAnimEnd(function ()
 			pg.SeriesGuideMgr.GetInstance():start({
 				view = uv0.__cname,
 				code = {
@@ -285,35 +290,7 @@ slot0.enter = function(slot0)
 				view = uv0.__cname
 			})
 		end)
-	end
-
-	slot2 = false
-
-	if not IsNil(slot0._tf:GetComponent(typeof(Animation))) then
-		slot0.animTF = slot0._tf
-	else
-		slot0.animTF = slot0:findTF("blur_panel")
-	end
-
-	if slot0.animTF ~= nil then
-		slot4 = slot0.animTF:GetComponent(typeof(UIEventTrigger))
-
-		if slot0.animTF:GetComponent(typeof(Animation)) ~= nil and slot4 ~= nil then
-			if slot3:get_Item("enter") == nil then
-				originalPrint("cound not found enter animation")
-			else
-				slot3:Play("enter")
-			end
-		elseif slot3 ~= nil then
-			originalPrint("cound not found [UIEventTrigger] component")
-		elseif slot4 ~= nil then
-			originalPrint("cound not found [Animation] component")
-		end
-	end
-
-	if not slot2 then
-		slot1()
-	end
+	end)
 end
 
 slot0.closeView = function(slot0)
@@ -335,8 +312,7 @@ slot0.exit = function(slot0)
 
 	slot0:StopBgm()
 	pg.DelegateInfo.Dispose(slot0)
-
-	slot1 = function()
+	slot0:inOutAnim(false, function ()
 		uv0:willExit()
 		uv0:ShowOrHideResUI(false)
 		uv0:detach()
@@ -347,10 +323,38 @@ slot0.exit = function(slot0)
 			view = uv0.__cname
 		})
 		uv0:emit(uv1.DID_EXIT)
+	end)
+end
+
+slot0.inOutAnim = function(slot0, slot1, slot2)
+	slot3 = false
+
+	if slot1 then
+		if not IsNil(slot0._tf:GetComponent(typeof(Animation))) then
+			slot0.animTF = slot0._tf
+		else
+			slot0.animTF = slot0:findTF("blur_panel")
+		end
+
+		if slot0.animTF ~= nil then
+			slot5 = slot0.animTF:GetComponent(typeof(UIEventTrigger))
+
+			if slot0.animTF:GetComponent(typeof(Animation)) ~= nil and slot5 ~= nil then
+				if slot4:get_Item("enter") == nil then
+					originalPrint("cound not found enter animation")
+				else
+					slot4:Play("enter")
+				end
+			elseif slot4 ~= nil then
+				originalPrint("cound not found [UIEventTrigger] component")
+			elseif slot5 ~= nil then
+				originalPrint("cound not found [Animation] component")
+			end
+		end
 	end
 
-	if not false then
-		slot1()
+	if not slot3 then
+		slot2()
 	end
 end
 
