@@ -11354,7 +11354,7 @@ pg.activity_template = {
 				{
 					2024,
 					8,
-					8
+					14
 				},
 				{
 					23,
@@ -11368,7 +11368,7 @@ pg.activity_template = {
 			red_tip_time = {
 				2024,
 				8,
-				8,
+				14,
 				23,
 				59,
 				59
