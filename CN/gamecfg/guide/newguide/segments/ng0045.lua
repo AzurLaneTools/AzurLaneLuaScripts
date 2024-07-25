@@ -18,7 +18,7 @@ return {
 				path = "OverlayCamera/Overlay/UIMain/LevelInfoSPUI(Clone)/panel/Difficulty/Normal",
 				fingerPos = {
 					posY = -20,
-					posX = -20
+					posX = 120
 				},
 				onClick = function ()
 				end

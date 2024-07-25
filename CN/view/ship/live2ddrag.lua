@@ -375,7 +375,7 @@ end
 
 slot0.fillterAction = function(slot0, slot1)
 	if type(slot1) == "table" then
-		return slot1[math.random(1, slot1)]
+		return slot1[math.random(1, #slot1)]
 	else
 		return slot1
 	end
