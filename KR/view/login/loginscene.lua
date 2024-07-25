@@ -60,6 +60,14 @@ slot0.init = function(slot0)
 
 	setActive(slot0.chInfo, PLATFORM_CODE == PLATFORM_CH)
 
+	if PLATFORM_CODE == PLATFORM_CH then
+		slot0.urlClick = slot0:findTF("urlClick", slot0.chInfo)
+
+		onButton(slot0, slot0.urlClick, function ()
+			Application.OpenURL("https://beian.miit.gov.cn/#/home")
+		end)
+	end
+
 	slot0.pressToLogin = GetOrAddComponent(slot0:findTF("background/press_to_login"), "CanvasGroup")
 
 	LeanTween.alphaCanvas(slot0.pressToLogin, 0.25, uv0):setFrom(1):setEase(LeanTweenType.easeInOutSine):setLoopPingPong()

@@ -57,8 +57,12 @@ slot0.update = function(slot0, slot1, slot2)
 	slot0.levelTxt.text = "Lv." .. slot1.lv
 
 	setActive(slot0.NumImgTF, math.min(slot3 > 0 and slot3 or 4, 4) < 4)
+
+	if slot4 < 4 then
+		setImageSprite(slot0.NumImgTF, GetSpriteFromAtlas("billboardframe", "bgn" .. slot4), true)
+	end
+
 	setImageSprite(slot0.frameTF, GetSpriteFromAtlas("billboardframe", "bg" .. slot4))
-	setImageSprite(slot0.NumImgTF, GetSpriteFromAtlas("billboardframe", "bgn" .. slot4), true)
 
 	slot5 = uv0[slot4]
 	slot0.frameBgTF.color = Color.New(slot5[1], slot5[2], slot5[3])

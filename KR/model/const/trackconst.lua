@@ -37,9 +37,10 @@ slot0.Build1Action4Desc = function(slot0)
 end
 
 slot1 = 1
-slot2 = 1
-slot3 = 2
-slot4 = 3
+slot2 = 4
+slot3 = 1
+slot4 = 2
+slot5 = 3
 
 slot0.StoryStart = function(slot0)
 	if not slot0 then
@@ -77,6 +78,16 @@ slot0.StoryOption = function(slot0, slot1)
 		para1 = tostring(slot0),
 		para2 = tostring(slot1 or "0_0")
 	})
+end
+
+slot0.EmojiSend = function(slot0)
+	if tonumber(slot0:match("777#(%d+)#777")) and slot2 > 0 then
+		pg.m02:sendNotification(GAME.NEW_TRACK, {
+			eventId = 0,
+			type = uv0,
+			para1 = tostring(slot2)
+		})
+	end
 end
 
 slot0.TRACK_NEW_BULLETIN_OPEN_URL = 2

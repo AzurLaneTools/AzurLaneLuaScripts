@@ -57,7 +57,16 @@ slot0.updateTaskLayers = function(slot0)
 	slot3 = slot0.activity
 
 	for slot6, slot7 in ipairs(underscore.map(slot3:getConfig("config_data"), function (slot0)
-		return uv0:getTaskVO(slot0)
+		if not uv0:getTaskVO(slot0) then
+			slot1 = Task.New({
+				submit_time = 1,
+				id = slot0
+			})
+
+			slot1:updateProgress(slot1:getConfig("target_num"))
+		end
+
+		return slot1
 	end)) do
 		slot8 = slot0.rtMainPanel:Find("tasks"):GetChild(slot6 - 1)
 

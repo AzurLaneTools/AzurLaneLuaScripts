@@ -77,6 +77,8 @@ slot0.register = function(slot0)
 				elseif slot1 == ChatConst.ChannelGuild then
 					uv0:sendNotification(GAME.GUILD_SEND_MSG, slot10)
 				end
+
+				TrackConst.EmojiSend(slot10)
 			end
 		end
 	end)

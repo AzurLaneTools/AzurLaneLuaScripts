@@ -21274,7 +21274,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2200100] = {
 		map = 2200100,
-		name = "피오르드 반격전|| ||CHAPTER SP||S.P. ",
+		name = "피오르드 반격전|| ||CHAPTER SP||S.P.",
 		bgm = "level02",
 		type = 3,
 		anchor = "",

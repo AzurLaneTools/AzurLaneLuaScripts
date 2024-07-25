@@ -29,6 +29,16 @@ return {
 				add = 0,
 				mul = -5000
 			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "naximofubeilianjiansu"
+			}
 		}
 	}
 }

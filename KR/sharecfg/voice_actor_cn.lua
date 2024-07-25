@@ -1607,5 +1607,13 @@ pg.voice_actor_CN = {
 	[415] = {
 		actor_name = "Tomomi Jiena Sumi",
 		code = 415
+	},
+	[416] = {
+		actor_name = "이고마 유리에",
+		code = 416
+	},
+	[417] = {
+		actor_name = "타치바나 히나",
+		code = 417
 	}
 }

@@ -22,6 +22,13 @@ slot0.initNotificationHandleDic = function(slot0)
 			slot3:emit(BaseUI.ON_ACHIEVE, slot1:getBody(), function ()
 				uv0.viewComponent:updateTaskLayers()
 			end)
+		end,
+		[GAME.SUBMIT_ACTIVITY_TASK_DONE] = function (slot0, slot1)
+			slot3 = slot0.viewComponent
+
+			slot3:emit(BaseUI.ON_ACHIEVE, slot1:getBody().awards, function ()
+				uv0.viewComponent:updateTaskLayers()
+			end)
 		end
 	}
 end

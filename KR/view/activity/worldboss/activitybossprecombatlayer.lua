@@ -10,87 +10,7 @@ end
 
 slot0.init = function(slot0)
 	slot0:CommonInit()
-
-	slot0._formationLogic = BaseFormation.New(slot0._tf, slot0._heroContainer, slot0._heroInfo, slot0._gridTFs)
-
-	slot0:Register()
-end
-
-slot0.CommonInit = function(slot0)
-	slot0.eventTriggers = {}
-	slot0._startBtn = slot0:findTF("right/start")
-	slot0._costContainer = slot0:findTF("right/start/cost_container")
-	slot0._popup = slot0._costContainer:Find("popup")
-	slot0._costText = slot0._popup:Find("Text")
-	slot0._moveLayer = slot0:findTF("moveLayer")
-	slot1 = slot0:findTF("middle")
-	slot0._autoToggle = slot0:findTF("auto_toggle")
-	slot0._autoSubToggle = slot0:findTF("sub_toggle_container/sub_toggle")
-	slot0._fleetInfo = slot1:Find("fleet_info")
-	slot0._fleetNameText = slot1:Find("fleet_info/fleet_name/Text")
-	slot0._fleetNumText = slot1:Find("fleet_info/fleet_number")
-
 	setActive(slot0._fleetInfo, true)
-
-	slot0._mainGS = slot1:Find("gear_score/main/Text")
-	slot0._vanguardGS = slot1:Find("gear_score/vanguard/Text")
-	slot0._subGS = slot1:Find("gear_score/submarine/Text")
-	slot0._bgFleet = slot1:Find("mask/grid_bg")
-	slot0._bgSub = slot1:Find("mask/bg_sub")
-	slot0._gridTFs = {
-		[TeamType.Vanguard] = {},
-		[TeamType.Main] = {},
-		[TeamType.Submarine] = {}
-	}
-	slot0._gridFrame = slot1:Find("mask/GridFrame")
-
-	for slot5 = 1, 3 do
-		slot0._gridTFs[TeamType.Main][slot5] = slot0._gridFrame:Find("main_" .. slot5)
-		slot0._gridTFs[TeamType.Vanguard][slot5] = slot0._gridFrame:Find("vanguard_" .. slot5)
-		slot0._gridTFs[TeamType.Submarine][slot5] = slot0._gridFrame:Find("submarine_" .. slot5)
-	end
-
-	slot0._nextPage = slot0:findTF("middle/nextPage")
-	slot0._prevPage = slot0:findTF("middle/prevPage")
-	slot0._heroContainer = slot1:Find("HeroContainer")
-	slot0._checkBtn = slot1:Find("checkBtn")
-	slot0._blurPanel = slot0:findTF("blur_panel")
-	slot0.topPanel = slot0:findTF("top", slot0._blurPanel)
-	slot0.topPanelBg = slot0:findTF("top_bg", slot0._blurPanel)
-	slot0._backBtn = slot0:findTF("back_btn", slot0.topPanel)
-	slot0._spoilsContainer = slot0:findTF("right/infomation/atlasloot/spoils/items/items_container")
-	slot0._item = slot0:findTF("right/infomation/atlasloot/spoils/items/item_tpl")
-
-	SetActive(slot0._item, false)
-
-	slot0._goals = slot0:findTF("right/infomation/target/goal")
-	slot0._heroInfo = slot0:getTpl("heroInfo")
-	slot0._starTpl = slot0:getTpl("star_tpl")
-
-	setText(findTF(slot0._tf, "middle/gear_score/vanguard/line/Image/Text1"), i18n("pre_combat_vanguard"))
-	setText(findTF(slot0._tf, "middle/gear_score/main/line/Image/Text1"), i18n("pre_combat_main"))
-	setText(findTF(slot0._tf, "middle/gear_score/submarine/line/Image/text1"), i18n("pre_combat_submarine"))
-	setText(slot0._costContainer:Find("title"), i18n("pre_combat_consume"))
-	setText(findTF(slot0._tf, "right/infomation/target/title/GameObject"), i18n("pre_combat_targets"))
-	setText(findTF(slot0._tf, "right/infomation/atlasloot/atlasloot/title/GameObject"), i18n("pre_combat_atlasloot"))
-	setText(slot0._startBtn:Find("text"), i18n("pre_combat_start"))
-	setText(slot0._startBtn:Find("text_en"), i18n("pre_combat_start_en"))
-
-	slot0._middle = slot0:findTF("middle")
-	slot0._right = slot0:findTF("right")
-
-	setAnchoredPosition(slot0._middle, {
-		x = -840
-	})
-	setAnchoredPosition(slot0._right, {
-		x = 470
-	})
-
-	slot0.guideDesc = slot0:findTF("guideDesc", slot0._middle)
-
-	if slot0.contextData.stageId then
-		slot0:SetStageID(slot0.contextData.stageId)
-	end
 
 	slot0._ticket = slot0._startBtn:Find("ticket")
 	slot0._bonus = slot0._startBtn:Find("bonus")
@@ -101,6 +21,10 @@ slot0.CommonInit = function(slot0)
 	setText(slot0._continuousBtn:Find("text_en"), i18n("multiple_sorties_title_eng"))
 	setText(slot0._ticket:Find("title"), i18n("ex_pass_use"))
 	setText(slot0._bonus:Find("title"), i18n("expedition_extra_drop_tip"))
+
+	slot0._formationLogic = BaseFormation.New(slot0._tf, slot0._heroContainer, slot0._heroInfo, slot0._gridTFs)
+
+	slot0:Register()
 end
 
 slot0.Register = function(slot0)
@@ -571,88 +495,83 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.displayFleetInfo = function(slot0)
-	setActive(slot0._vanguardGS.parent, slot0._currentFleetVO:getFleetType() == FleetType.Normal)
-	setActive(slot0._mainGS.parent, slot1 == FleetType.Normal)
-	setActive(slot0._subGS.parent, slot1 == FleetType.Submarine)
-	setActive(slot0._costContainer, true)
-	uv0.tweenNumText(slot0._costText, pg.battle_cost_template[slot0.contextData.system].oil_cost == 0 and 0 or slot0._currentFleetVO:GetCostSum().oil)
-	uv0.tweenNumText(slot0._vanguardGS, math.floor(slot0._currentFleetVO:GetGearScoreSum(TeamType.Vanguard)))
-	uv0.tweenNumText(slot0._mainGS, math.floor(slot0._currentFleetVO:GetGearScoreSum(TeamType.Main)))
-	uv0.tweenNumText(slot0._subGS, math.floor(slot0._currentFleetVO:GetGearScoreSum(TeamType.Submarine)))
-	setText(slot0._fleetNameText, uv0.defaultFleetName(slot0._currentFleetVO))
-	setText(slot0._fleetNumText, slot0._currentFleetVO.id)
-	setActive(slot0._bonus, getProxy(ActivityProxy):getActivityById(slot0.contextData.actId):GetStageBonus(slot0.contextData.stageId) > 0)
-	setActive(slot0._ticket, slot11 <= 0)
-	setText(slot0._bonus:Find("Text"), slot11)
+	uv0.super.displayFleetInfo(slot0)
 
-	if slot11 <= 0 then
+	slot1 = slot0.contextData.system
+
+	setActive(slot0._costContainer, true)
+	setActive(slot0._bonus, getProxy(ActivityProxy):getActivityById(slot0.contextData.actId):GetStageBonus(slot0.contextData.stageId) > 0)
+	setActive(slot0._ticket, slot4 <= 0)
+	setText(slot0._bonus:Find("Text"), slot4)
+
+	if slot4 <= 0 then
 		setImageSprite(slot0._ticket:Find("icon"), LoadSprite(Drop.New({
 			type = DROP_TYPE_RESOURCE,
 			id = slot0._ticketItemID
 		}):getIcon(), ""))
 
-		slot14 = getProxy(PlayerProxy):getRawData():getResource(slot0._ticketItemID)
-		slot15 = 1
-		slot16 = slot0._ticket:Find("checkbox")
+		slot7 = getProxy(PlayerProxy):getRawData():getResource(slot0._ticketItemID)
+		slot8 = 1
+		slot9 = slot0._ticket:Find("checkbox")
 
-		if slot6 == SYSTEM_BOSS_EXPERIMENT then
-			slot15 = 0
+		if slot1 == SYSTEM_BOSS_EXPERIMENT then
+			slot8 = 0
 
-			triggerToggle(slot16, false)
-			setToggleEnabled(slot16, false)
-		elseif slot6 == SYSTEM_HP_SHARE_ACT_BOSS then
-			triggerToggle(slot16, true)
-			setToggleEnabled(slot16, false)
-		elseif slot6 == SYSTEM_ACT_BOSS_SP then
+			triggerToggle(slot9, false)
+			setToggleEnabled(slot9, false)
+		elseif slot1 == SYSTEM_HP_SHARE_ACT_BOSS then
+			triggerToggle(slot9, true)
+			setToggleEnabled(slot9, false)
+		elseif slot1 == SYSTEM_ACT_BOSS_SP then
 			setActive(slot0._ticket, false)
-		elseif slot6 == SYSTEM_ACT_BOSS then
-			slot17 = slot14 > 0
+		elseif slot1 == SYSTEM_ACT_BOSS then
+			slot10 = slot7 > 0
 
-			setToggleEnabled(slot16, slot17)
-			triggerToggle(slot16, slot17 and getProxy(SettingsProxy):isTipActBossExchangeTicket() == 1)
+			setToggleEnabled(slot9, slot10)
+			triggerToggle(slot9, slot10 and getProxy(SettingsProxy):isTipActBossExchangeTicket() == 1)
 		end
 
-		if slot14 < slot15 then
-			slot14 = setColorStr(slot14, COLOR_RED) or slot14
+		if slot7 < slot8 then
+			slot7 = setColorStr(slot7, COLOR_RED) or slot7
 		end
 
-		slot18 = slot0._ticket
+		slot11 = slot0._ticket
 
-		setText(slot18:Find("Text"), slot15 .. "/" .. slot14)
-		onToggle(slot0, slot16, function (slot0)
+		setText(slot11:Find("Text"), slot8 .. "/" .. slot7)
+		onToggle(slot0, slot9, function (slot0)
 			getProxy(SettingsProxy):setActBossExchangeTicketTip(slot0 and 1 or 0)
 		end, SFX_PANEL, SFX_CANCEL)
 	end
 
-	slot13 = pg.battle_cost_template[slot6].oil_cost > 0
-	slot14 = 0
-	slot15 = 0
-	slot16 = false
+	slot6 = pg.battle_cost_template[slot1].oil_cost > 0
+	slot7 = 0
+	slot8 = 0
+	slot9 = false
 
-	for slot20, slot21 in ipairs({
+	for slot13, slot14 in ipairs({
 		slot0.contextData.fleets[1]
 	}) do
-		slot22 = slot21:GetCostSum().oil
+		slot15 = slot14:GetCostSum().oil
 
-		if not slot13 then
-			slot22 = 0
+		if not slot6 then
+			slot15 = 0
 		end
 
-		slot15 = slot15 + slot22
+		slot8 = slot8 + slot15
 
-		if slot0.contextData.costLimit[slot20 == 1 and 1 or 2] > 0 then
-			slot16 = slot16 or slot24 < slot22
-			slot22 = math.min(slot22, slot24)
+		if slot0.contextData.costLimit[slot13 == 1 and 1 or 2] > 0 then
+			slot9 = slot9 or slot17 < slot15
+			slot15 = math.min(slot15, slot17)
 		end
 
-		slot14 = slot14 + slot22
+		slot7 = slot7 + slot15
 	end
 
-	setTextColor(slot0._costText, slot16 and Color(0.9803921568627451, 0.39215686274509803, 0.39215686274509803) or Color.white)
-	uv0.tweenNumText(slot0._costText, slot14)
-	setActive(slot0._costTip, slot16)
+	setTextColor(slot0._costText, slot9 and Color(0.9803921568627451, 0.39215686274509803, 0.39215686274509803) or Color.white)
+	uv1.tweenNumText(slot0._costText, slot7)
+	setActive(slot0._costTip, slot9)
 
-	if slot16 then
+	if slot9 then
 		onButton(slot0, slot0._costTip, function ()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				hideNo = true,

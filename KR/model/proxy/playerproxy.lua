@@ -28,8 +28,6 @@ slot0.register = function(slot0)
 		elseif uv0.data:GetDaysFromRegister() == 6 then
 			pg.TrackerMgr.GetInstance():Tracking(TRACKING_7D_RETENTION)
 		end
-
-		uv0:flushTimesListener()
 	end)
 	slot0:on(11004, function (slot0)
 		if not uv0.data then
@@ -86,8 +84,25 @@ slot0.register = function(slot0)
 	end)
 end
 
+slot0.timeCall = function(slot0)
+	return {
+		[ProxyRegister.DayCall] = function (slot0)
+			slot1 = uv0:getData()
+
+			slot1:resetBuyOilCount()
+
+			for slot5, slot6 in pairs(slot1.vipCards) do
+				if slot6:isExpire() then
+					slot1.vipCards[slot6.id] = nil
+				end
+			end
+
+			uv0:updatePlayer(slot1)
+		end
+	}
+end
+
 slot0.remove = function(slot0)
-	slot0:clearTimesListener()
 end
 
 slot0.getSummaryInfo = function(slot0)
@@ -96,23 +111,6 @@ end
 
 slot0.setSummaryInfo = function(slot0, slot1)
 	slot0.summaryInfo = slot1
-end
-
-slot0.flushTimesListener = function(slot0)
-	slot0:clearTimesListener()
-
-	slot1 = pg.TimeMgr.GetInstance()
-	slot0.fourClockId = slot1:AddTimer("daily_four", slot1:GetNextTime(4, 0, 0) - slot1:GetServerTime(), 86400, function ()
-		uv0:sendNotification(GAME.FOUR_HOUR)
-	end)
-end
-
-slot0.clearTimesListener = function(slot0)
-	if slot0.fourClockId then
-		pg.TimeMgr.GetInstance():RemoveTimer(slot0.fourClockId)
-
-		slot0.fourClockId = nil
-	end
 end
 
 slot0.updatePlayer = function(slot0, slot1)

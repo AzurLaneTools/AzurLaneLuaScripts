@@ -4,6 +4,14 @@ slot0.register = function(slot0)
 	slot0:initData()
 end
 
+slot0.timeCall = function(slot0)
+	return {
+		[ProxyRegister.DayCall] = function (slot0)
+			LimitChallengeConst.RequestInfo()
+		end
+	}
+end
+
 slot0.initData = function(slot0)
 	slot0.passTimeDict = {}
 	slot0.awardedDict = {}

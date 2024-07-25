@@ -4,7 +4,7 @@ slot0.execute = function(slot0, slot1)
 	slot3 = getProxy(MilitaryExerciseProxy):getSeasonInfo()
 	slot4 = slot3:getconsumeGem()
 
-	if MAX_REPLACE_RIVAL_COUNT < slot3:getFlashCount() then
+	if MAX_REPLACE_RIVAL_COUNT <= slot3:getFlashCount() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_refresh_count_insufficient"))
 
 		return

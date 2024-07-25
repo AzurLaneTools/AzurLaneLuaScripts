@@ -2045,5 +2045,16 @@ pg.effect_offset = {
 			4,
 			0
 		}
+	},
+	napolibuff = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			0,
+			5,
+			0
+		}
 	}
 }

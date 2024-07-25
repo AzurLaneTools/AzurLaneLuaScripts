@@ -64,7 +64,8 @@ pg.fleet_tech_ship_class = {
 			10142,
 			10113,
 			10111,
-			10143
+			10143,
+			19905
 		}
 	},
 	[10105] = {
@@ -1703,6 +1704,17 @@ pg.fleet_tech_ship_class = {
 			30510
 		}
 	},
+	[30509] = {
+		shiptype = 5,
+		name = "다이센",
+		t_level = 9,
+		id = 30509,
+		t_level_1 = 98,
+		nation = 3,
+		ships = {
+			39907
+		}
+	},
 	[30601] = {
 		shiptype = 6,
 		name = "히요급",
@@ -2682,6 +2694,17 @@ pg.fleet_tech_ship_class = {
 			60305
 		}
 	},
+	[60304] = {
+		shiptype = 3,
+		name = "나폴리",
+		t_level = 10,
+		id = 60304,
+		t_level_1 = 134,
+		nation = 6,
+		ships = {
+			69902
+		}
+	},
 	[60501] = {
 		shiptype = 5,
 		name = "베네토급",
@@ -2981,6 +3004,17 @@ pg.fleet_tech_ship_class = {
 			79901
 		}
 	},
+	[70703] = {
+		shiptype = 7,
+		name = "아드미랄 나히모프",
+		t_level = 10,
+		id = 70703,
+		t_level_1 = 139,
+		nation = 7,
+		ships = {
+			79902
+		}
+	},
 	[71801] = {
 		shiptype = 18,
 		name = "크론시타트",
@@ -3069,6 +3103,17 @@ pg.fleet_tech_ship_class = {
 		nation = 8,
 		ships = {
 			80203
+		}
+	},
+	[80204] = {
+		shiptype = 2,
+		name = "바야르",
+		t_level = 8,
+		id = 80204,
+		t_level_1 = 138,
+		nation = 8,
+		ships = {
+			89904
 		}
 	},
 	[80301] = {
@@ -3918,6 +3963,7 @@ pg.fleet_tech_ship_class = {
 		30506,
 		30507,
 		30508,
+		30509,
 		30601,
 		30602,
 		30603,
@@ -4002,6 +4048,7 @@ pg.fleet_tech_ship_class = {
 		60301,
 		60302,
 		60303,
+		60304,
 		60501,
 		60502,
 		60503,
@@ -4028,6 +4075,7 @@ pg.fleet_tech_ship_class = {
 		70503,
 		70701,
 		70702,
+		70703,
 		71801,
 		80101,
 		80102,
@@ -4036,6 +4084,7 @@ pg.fleet_tech_ship_class = {
 		80201,
 		80202,
 		80203,
+		80204,
 		80301,
 		80302,
 		80303,

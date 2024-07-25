@@ -106,7 +106,11 @@ pg.pay_data_display = setmetatable({
 		2023,
 		2024,
 		2025,
-		2026
+		2026,
+		2027,
+		2028,
+		2029,
+		2030
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -8490,7 +8494,7 @@ pg.base.pay_data_display = {
 		tag = 2,
 		name = "즉시 출격 패키지",
 		gem = 0,
-		type_order = 0,
+		type_order = 2,
 		limit_type = 2,
 		time = "always",
 		picture = "lv_70",
@@ -9656,7 +9660,7 @@ pg.base.pay_data_display = {
 		tag = 2,
 		name = "데일리 보급 패키지",
 		gem = 0,
-		type_order = 0,
+		type_order = 3,
 		limit_type = 4,
 		time = "always",
 		picture = "richang",
@@ -9804,6 +9808,232 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40023,
+				1
+			}
+		}
+	},
+	[2027] = {
+		extra_service = 3,
+		limit_group = 4,
+		descrip_extra = "此处不会被看到",
+		type = 0,
+		first_pay_double = 0,
+		name_display = "PR함 개발 패키지(제4기)",
+		descrip = "PR함 가속 개발권·제4기*1, 지향형 강화 도면·제4기*343 획득 가능",
+		subject = "PR 특별계획함 패키지·4기",
+		limit_arg = 0,
+		money = 20000,
+		tag = 2,
+		name = "PR함 개발 패키지(제4기)",
+		gem = 0,
+		type_order = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech4_display",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift96",
+		extra_gem = 0,
+		id = 2027,
+		airijp_id = "com.yostarjp.azurlane.tech",
+		extra_service_item = {
+			{
+				2,
+				40139,
+				1
+			},
+			{
+				2,
+				42030,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40139,
+				1
+			},
+			{
+				2,
+				42030,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {}
+	},
+	[2028] = {
+		extra_service = 3,
+		limit_group = 4,
+		descrip_extra = "* 이미 PR함선·4기를 모두 소지하고 있는 경우에는 사용 시에 아이템으로 변환됩니다(아이콘을 탭하여 확인).",
+		type = 0,
+		first_pay_double = 0,
+		name_display = "고급",
+		descrip = "패키지 내용",
+		subject = "PR함선 4기 교환 아이템 + 강화 유닛 세트",
+		limit_arg = 1,
+		money = 20000,
+		tag = 2,
+		name = "PR함 개발 패키지(제4기)-고급",
+		gem = 0,
+		type_order = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech4_promotion",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift96",
+		extra_gem = 0,
+		id = 2028,
+		airijp_id = "com.yostarjp.azurlane.tech10",
+		extra_service_item = {
+			{
+				2,
+				40139,
+				1
+			},
+			{
+				2,
+				42030,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40139,
+				1
+			},
+			{
+				2,
+				42030,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40044,
+				1
+			}
+		}
+	},
+	[2029] = {
+		extra_service = 3,
+		limit_group = 4,
+		descrip_extra = "* 이미 PR함선·4기를 모두 소지하고 있는 경우에는 사용 시에 아이템으로 변환됩니다(아이콘을 탭하여 확인).",
+		type = 0,
+		first_pay_double = 0,
+		name_display = "일반",
+		descrip = "패키지 내용",
+		subject = "PR함선 4기 교환 아이템",
+		limit_arg = 2,
+		money = 12000,
+		tag = 2,
+		name = "PR함 개발 패키지(제4기)-일반",
+		gem = 0,
+		type_order = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech4_normal",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift95",
+		extra_gem = 0,
+		id = 2029,
+		airijp_id = "com.yostarjp.azurlane.tech11",
+		extra_service_item = {
+			{
+				2,
+				40139,
+				1
+			}
+		},
+		display = {
+			{
+				2,
+				40139,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40045,
+				1
+			}
+		}
+	},
+	[2030] = {
+		extra_service = 3,
+		limit_group = 4,
+		descrip_extra = "구매하면 지향형 강화 유닛·4기×343개 획득 가능",
+		type = 0,
+		first_pay_double = 0,
+		name_display = "고급",
+		descrip = "패키지 내용",
+		subject = "강화 유닛",
+		limit_arg = 3,
+		money = 8900,
+		tag = 2,
+		name = "PR함 개발 패키지(제4기)-업그레이드",
+		gem = 0,
+		type_order = 0,
+		limit_type = 3,
+		time = "always",
+		picture = "tech4_promotion",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift97",
+		extra_gem = 0,
+		id = 2030,
+		airijp_id = "com.yostarjp.azurlane.tech12",
+		extra_service_item = {
+			{
+				2,
+				42030,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				42030,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40046,
 				1
 			}
 		}

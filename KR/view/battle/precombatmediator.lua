@@ -232,7 +232,9 @@ slot0.commitEdit = function(slot0, slot1)
 	elseif #slot3.ships == 0 then
 		slot2:commitEdittingFleet(slot1)
 
-		if slot0.contextData.system ~= SYSTEM_SUB_ROUTINE then
+		if slot0.contextData.system == SYSTEM_SUB_ROUTINE then
+			slot0:changeFleet()
+		else
 			slot0:changeFleet(1)
 		end
 	else

@@ -1821,6 +1821,138 @@ _G.pg.base.item_virtual_data_statistics[52072] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[52081] = {
+	drop_gold_max = 0,
+	name = "강화 유닛(랜덤)",
+	display = "무작위로 다음 강화 유닛을 획득할 수 있습니다.",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/52001",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 52081,
+	display_icon = {
+		{
+			2,
+			42061,
+			1
+		},
+		{
+			2,
+			42062,
+			1
+		},
+		{
+			2,
+			42063,
+			1
+		},
+		{
+			2,
+			42064,
+			1
+		},
+		{
+			2,
+			42065,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[52082] = {
+	drop_gold_max = 0,
+	name = "장비 설계도(랜덤)",
+	display = "무작위로 다음 설계도를 획득할 수 있습니다.",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 52082,
+	display_icon = {
+		{
+			2,
+			13043,
+			1
+		},
+		{
+			2,
+			13044,
+			1
+		},
+		{
+			2,
+			13045,
+			1
+		},
+		{
+			2,
+			13046,
+			1
+		},
+		{
+			2,
+			13047,
+			1
+		},
+		{
+			2,
+			13048,
+			1
+		},
+		{
+			2,
+			13024,
+			1
+		},
+		{
+			2,
+			13007,
+			1
+		},
+		{
+			2,
+			13010,
+			1
+		},
+		{
+			2,
+			13009,
+			1
+		},
+		{
+			2,
+			13011,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[53000] = {
 	drop_gold_max = 0,
 	name = "장비 & 설계도 (랜덤) ",
@@ -160294,7 +160426,7 @@ _G.pg.base.item_virtual_data_statistics[59583] = {
 
 _G.pg.base.item_virtual_data_statistics[59584] = {
 	drop_gold_max = 0,
-	name = "通行证十七期对应虚拟道具",
+	name = "通行证十七期礼包商店购买支付标记",
 	display = "不该被看到",
 	type = 0,
 	is_world = 0,
@@ -160534,6 +160666,31 @@ _G.pg.base.item_virtual_data_statistics[59593] = {
 	drop_oil_max = 0,
 	virtual_type = 24,
 	id = 59593,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[59599] = {
+	drop_gold_max = 0,
+	name = "투어 PT",
+	display = "이벤트 「월드 투어」에서 획득 합계 보상을 획득하기 위한 임무 PT 아이템. 이벤트 종료 후에 제거됩니다.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "props/battlepass_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 26,
+	id = 59599,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -173609,6 +173766,31 @@ _G.pg.base.item_virtual_data_statistics[99951] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 99951,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[99954] = {
+	drop_gold_max = 0,
+	name = "스킨 체험권",
+	display = "「한정 스킨 상점」에서 한정 스킨으로 교환가능합니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 99954,
 	display_icon = {},
 	price = {},
 	index = {},

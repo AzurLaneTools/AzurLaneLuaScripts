@@ -68,8 +68,8 @@ end
 
 slot0.GetExtraServiceItem = function(slot0)
 	slot1 = {}
-	slot1 = (not slot0:isPassItem() or PlayerConst.MergePassItemDrop(underscore.map(pg.battlepass_event_pt[slot0:getConfig("sub_display")[1]].drop_client_pay, function (slot0)
-		return Drop.Create(slot0)
+	slot1 = (not slot0:isPassItem() or PlayerConst.MergePassItemDrop(underscore.map(pg.battlepass_event_pt[slot0:getConfig("sub_display")[1]].award_pay, function (slot0)
+		return Drop.Create(pg.battlepass_event_award[slot0].drop_client)
 	end))) and underscore.map(slot0:getConfig("extra_service_item"), function (slot0)
 		return Drop.Create(slot0)
 	end)

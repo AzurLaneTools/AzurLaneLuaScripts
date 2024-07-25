@@ -39631,8 +39631,8 @@ _G.pg.base.shop_template[70775] = {
 		{
 			{
 				2024,
-				3,
-				14
+				7,
+				25
 			},
 			{
 				0,
@@ -39643,8 +39643,8 @@ _G.pg.base.shop_template[70775] = {
 		{
 			{
 				2024,
-				4,
-				3
+				7,
+				31
 			},
 			{
 				23,
@@ -39683,8 +39683,8 @@ _G.pg.base.shop_template[70776] = {
 		{
 			{
 				2024,
-				3,
-				14
+				7,
+				25
 			},
 			{
 				0,
@@ -39695,8 +39695,8 @@ _G.pg.base.shop_template[70776] = {
 		{
 			{
 				2024,
-				4,
-				3
+				7,
+				31
 			},
 			{
 				23,
@@ -39735,8 +39735,8 @@ _G.pg.base.shop_template[70777] = {
 		{
 			{
 				2024,
-				3,
-				14
+				7,
+				25
 			},
 			{
 				0,
@@ -39747,8 +39747,8 @@ _G.pg.base.shop_template[70777] = {
 		{
 			{
 				2024,
-				4,
-				3
+				7,
+				31
 			},
 			{
 				23,
@@ -39787,8 +39787,8 @@ _G.pg.base.shop_template[70778] = {
 		{
 			{
 				2024,
-				3,
-				14
+				7,
+				25
 			},
 			{
 				0,
@@ -39799,8 +39799,8 @@ _G.pg.base.shop_template[70778] = {
 		{
 			{
 				2024,
-				4,
-				3
+				7,
+				31
 			},
 			{
 				23,
@@ -39839,8 +39839,8 @@ _G.pg.base.shop_template[70779] = {
 		{
 			{
 				2024,
-				3,
-				14
+				7,
+				25
 			},
 			{
 				0,
@@ -39851,8 +39851,8 @@ _G.pg.base.shop_template[70779] = {
 		{
 			{
 				2024,
-				4,
-				3
+				7,
+				31
 			},
 			{
 				23,
@@ -39891,8 +39891,8 @@ _G.pg.base.shop_template[70780] = {
 		{
 			{
 				2024,
-				3,
-				14
+				7,
+				25
 			},
 			{
 				0,
@@ -39903,8 +39903,8 @@ _G.pg.base.shop_template[70780] = {
 		{
 			{
 				2024,
-				4,
-				3
+				7,
+				31
 			},
 			{
 				23,
@@ -39943,8 +39943,8 @@ _G.pg.base.shop_template[70781] = {
 		{
 			{
 				2024,
-				3,
-				14
+				7,
+				25
 			},
 			{
 				0,
@@ -39955,8 +39955,8 @@ _G.pg.base.shop_template[70781] = {
 		{
 			{
 				2024,
-				4,
-				3
+				7,
+				31
 			},
 			{
 				23,
@@ -39995,8 +39995,8 @@ _G.pg.base.shop_template[70782] = {
 		{
 			{
 				2024,
-				3,
-				14
+				7,
+				25
 			},
 			{
 				0,
@@ -40007,8 +40007,8 @@ _G.pg.base.shop_template[70782] = {
 		{
 			{
 				2024,
-				4,
-				3
+				7,
+				31
 			},
 			{
 				23,
@@ -40047,8 +40047,8 @@ _G.pg.base.shop_template[70783] = {
 		{
 			{
 				2024,
-				3,
-				14
+				7,
+				25
 			},
 			{
 				0,
@@ -40059,8 +40059,8 @@ _G.pg.base.shop_template[70783] = {
 		{
 			{
 				2024,
-				4,
-				3
+				7,
+				31
 			},
 			{
 				23,
@@ -40099,8 +40099,8 @@ _G.pg.base.shop_template[70784] = {
 		{
 			{
 				2024,
-				3,
-				14
+				7,
+				25
 			},
 			{
 				0,
@@ -40111,8 +40111,8 @@ _G.pg.base.shop_template[70784] = {
 		{
 			{
 				2024,
-				4,
-				3
+				7,
+				31
 			},
 			{
 				23,
@@ -40151,8 +40151,8 @@ _G.pg.base.shop_template[70785] = {
 		{
 			{
 				2024,
-				3,
-				14
+				7,
+				25
 			},
 			{
 				0,
@@ -40163,8 +40163,8 @@ _G.pg.base.shop_template[70785] = {
 		{
 			{
 				2024,
-				4,
-				3
+				7,
+				31
 			},
 			{
 				23,
@@ -40203,8 +40203,8 @@ _G.pg.base.shop_template[70786] = {
 		{
 			{
 				2024,
-				3,
-				14
+				7,
+				25
 			},
 			{
 				0,
@@ -40215,8 +40215,8 @@ _G.pg.base.shop_template[70786] = {
 		{
 			{
 				2024,
-				4,
-				3
+				7,
+				31
 			},
 			{
 				23,
@@ -40255,8 +40255,8 @@ _G.pg.base.shop_template[70788] = {
 		{
 			{
 				2024,
-				3,
-				14
+				7,
+				25
 			},
 			{
 				0,
@@ -40267,8 +40267,8 @@ _G.pg.base.shop_template[70788] = {
 		{
 			{
 				2024,
-				4,
-				3
+				7,
+				31
 			},
 			{
 				23,
@@ -40307,8 +40307,8 @@ _G.pg.base.shop_template[70789] = {
 		{
 			{
 				2024,
-				3,
-				14
+				7,
+				25
 			},
 			{
 				0,
@@ -40319,8 +40319,8 @@ _G.pg.base.shop_template[70789] = {
 		{
 			{
 				2024,
-				4,
-				3
+				7,
+				31
 			},
 			{
 				23,
@@ -40359,8 +40359,8 @@ _G.pg.base.shop_template[70790] = {
 		{
 			{
 				2024,
-				3,
-				14
+				7,
+				25
 			},
 			{
 				0,
@@ -40371,8 +40371,8 @@ _G.pg.base.shop_template[70790] = {
 		{
 			{
 				2024,
-				4,
-				3
+				7,
+				31
 			},
 			{
 				23,
@@ -63875,6 +63875,214 @@ _G.pg.base.shop_template[99042] = {
 	limit_args = {},
 	effect_args = {
 		107092
+	}
+}
+
+
+_G.pg.base.shop_template[99043] = {
+	group_type = 0,
+	resource_num = 1,
+	type_order = 0,
+	type = 6,
+	desc = "240725限时皮肤体验：海因里希亲王泳装(韩服独有)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 172800,
+	order = 3,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 956,
+	id = 99043,
+	genre = "skin_shop_timelimit",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		403092
+	},
+	time = {
+		{
+			{
+				2024,
+				7,
+				25
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				7,
+				31
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[99044] = {
+	group_type = 0,
+	resource_num = 1,
+	type_order = 0,
+	type = 6,
+	desc = "240725限时皮肤体验：北安普敦II泳装(韩服独有)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 172800,
+	order = 1,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 956,
+	id = 99044,
+	genre = "skin_shop_timelimit",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		103261
+	},
+	time = {
+		{
+			{
+				2024,
+				7,
+				25
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				7,
+				31
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[99045] = {
+	group_type = 0,
+	resource_num = 1,
+	type_order = 0,
+	type = 6,
+	desc = "240725限时皮肤体验：布雷斯特泳装(韩服独有)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 172800,
+	order = 2,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 956,
+	id = 99045,
+	genre = "skin_shop_timelimit",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		899031
+	},
+	time = {
+		{
+			{
+				2024,
+				7,
+				25
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				7,
+				31
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[99046] = {
+	group_type = 0,
+	resource_num = 1,
+	type_order = 0,
+	type = 6,
+	desc = "240725限时皮肤体验：能代泳装(韩服独有)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	time_second = 172800,
+	order = 4,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 956,
+	id = 99046,
+	genre = "skin_shop_timelimit",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		302216
+	},
+	time = {
+		{
+			{
+				2024,
+				7,
+				25
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				7,
+				31
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
 	}
 }
 

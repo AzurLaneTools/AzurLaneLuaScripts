@@ -14328,6 +14328,62 @@ _G.pg.base.gametip.blueprint_simulation_confirm_99902 = {
 }
 
 
+_G.pg.base.gametip.blueprint_simulation_confirm_19905 = {
+	tip = [[
+<size=28>탄막 확인 기능(모의전)을 기동하시겠습니까? 
+(※ 실제 함선 성능과 다름)
+사용 장비: <color=#ff5c5c>
+127mm 단장포
+5연장 533mm 어뢰
+시제형 F8F 베어캣(수상기)</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_39907 = {
+	tip = [[
+<size=28>탄막 확인 기능(모의전)을 기동하시겠습니까? 
+(※ 실제 함선 성능과 다름)
+사용 장비: <color=#ff5c5c>
+시제형 410mm 연장포 Mod.A
+140mm 단장포
+시제형 5식 40mm 고사기관포</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_69902 = {
+	tip = [[
+<size=28>탄막 확인 기능(모의전)을 기동하시겠습니까? 
+(※ 실제 함선 성능과 다름)
+사용 장비: <color=#ff5c5c>
+시제형 254mm 3연장포 Model 1939
+시제형 152mm 3연장포 Model 1936
+시제형 90mm 연장고각포 Model1939</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_89904 = {
+	tip = [[
+<size=28>탄막 확인 기능(모의전)을 기동하시겠습니까? 
+(※ 실제 함선 성능과 다름)
+사용 장비: <color=#ff5c5c>
+152mm 3연장포 Mle1930(유탄)
+3연장 550mm 어뢰
+2연장 57mm/L60 보포스 대공 기관포 Mle1951</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_79902 = {
+	tip = [[
+<size=28>탄막 확인 기능(모의전)을 기동하시겠습니까? 
+(※ 실제 함선 성능과 다름)
+사용 장비: <color=#ff5c5c>
+시제형 함상식 La-9
+시제형 함상식 La-9
+시제형 VIT-2(모드 체인지)
+</color></size>]]
+}
+
+
 _G.pg.base.gametip.electrotherapy_wanning = {
 	tip = "안전 구역의 범위가 제한됩니다."
 }

@@ -1445,6 +1445,11 @@ pg.player_resource = {
 		name = "unionkr_pt_2021_2",
 		itemid = 99957
 	},
+	[956] = {
+		id = 956,
+		name = "skinTicketkr1",
+		itemid = 99954
+	},
 	[1001] = {
 		id = 1001,
 		name = "vote2019_pt",
@@ -2648,6 +2653,9 @@ pg.player_resource = {
 		unionkr_pt_2021_2 = {
 			955
 		},
+		skinTicketkr1 = {
+			956
+		},
 		vote2019_pt = {
 			1001
 		},
@@ -3140,6 +3148,7 @@ pg.player_resource = {
 		953,
 		954,
 		955,
+		956,
 		1001,
 		2001,
 		2002,
