@@ -49,13 +49,14 @@ slot0.GO_MONOPOLY2024 = "ActivityMediator:GO_MONOPOLY2024"
 slot0.register = function(slot0)
 	slot0.UIAvalibleCallbacks = {}
 
-	slot0:bind(uv0.GO_MONOPOLY2024, function (slot0, slot1)
+	slot0:bind(uv0.GO_MONOPOLY2024, function (slot0, slot1, slot2)
 		uv0:addSubLayers(Context.New({
 			mediator = MonopolyCar2024Mediator,
 			viewComponent = MonopolyCar2024Scene,
 			data = {
 				actId = slot1
-			}
+			},
+			onRemoved = slot2
 		}))
 	end)
 	slot0:bind(uv0.ON_AWARD_WINDOW, function (slot0, slot1, slot2, slot3)

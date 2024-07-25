@@ -22,7 +22,15 @@ slot0.OnInit = function(slot0)
 			return
 		end
 
-		uv0:emit(ActivityMediator.GO_MONOPOLY2024, uv0.activity.id)
+		for slot3, slot4 in ipairs(uv0.turnAwards) do
+			setActive(slot4:Find("mark/get"), false)
+		end
+
+		uv0:emit(ActivityMediator.GO_MONOPOLY2024, uv0.activity.id, function ()
+			for slot3, slot4 in ipairs(uv0.turnAwards) do
+				setActive(slot4:Find("mark/get"), true)
+			end
+		end)
 	end, SFX_PANEL)
 
 	slot0.taskGoBtn = slot0:findTF("AD/battle_btn")
