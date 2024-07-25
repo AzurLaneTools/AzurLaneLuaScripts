@@ -16,7 +16,7 @@ return {
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = "main3",
-			say = "无力的冒险者们，我在此赐予诅咒你们——",
+			say = "無力的冒險者們，我在此賜予詛咒你們——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "诅咒你们衰老、无力、虚弱、痛苦——",
+			say = "詛咒你們衰老、無力、虛弱、痛苦——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,11 +91,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "咳咳……这个是……魔王才能使用的究极诅咒。",
+			say = "咳咳……這個是……魔王才能使用的究極詛咒。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "糟糕……这个诅咒……凭我现在的能力解除不掉……",
+			say = "糟糕……這個詛咒……憑我現在的能力解除不掉……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,12 +128,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "见习神官",
+			factiontag = "見習神官",
 			dir = 1,
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳……哥哥……独角兽……要坚持不住了……",
+			say = "咳……哥哥……獨角獸……要堅持不住了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,12 +147,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "药剂师",
+			factiontag = "藥師",
 			dir = 1,
 			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "药剂瓶……药剂瓶要拿不稳了……",
+			say = "藥劑瓶……藥劑瓶要拿不穩了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可恶……我可是勇者……勇者抚顺怎么能倒在这种地方……",
+			say = "可惡……我可是勇者……勇者撫順怎麼能倒在這種地方……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "早就说了~就凭你们，想要到达我的脚下究竟是奇迹了，竟然还妄图讨伐我？",
+			say = "早就說了~就憑你們，想要到達我的腳下究竟是奇蹟了，竟然還妄圖討伐我？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "都在我的诅咒下痛苦又缓慢的迎来死亡吧——",
+			say = "都在我的詛咒下痛苦又緩慢的迎來死亡吧——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,22 +238,22 @@ return {
 			}
 		},
 		{
-			actorName = "冒险终端",
+			actorName = "冒險終端",
 			side = 2,
 			bgName = "star_level_bg_156",
 			nameColor = "#A9F548FF",
-			say = "系统提示：光明之加护：SSS，已生效。钢铁之加护：SSS，已生效。",
+			say = "系統提示：光明之加護：SSS，已生效。鋼鐵之加護：SSS，已生效。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "战斗还没有结束。",
+					content = "戰鬥還沒結束。",
 					flag = 1
 				},
 				{
-					content = "没发现我还站在你面前么？",
+					content = "沒發現我還站在妳面前嗎？",
 					flag = 2
 				}
 			}
@@ -267,7 +267,7 @@ return {
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = "main2",
-			say = "……嗯？你怎么还没倒下？",
+			say = "……嗯？你怎麼還沒倒下？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "罢了……你的勇者、神官、圣女、药剂师都已深陷诅咒。",
+			say = "罷了……你的勇者、神官、聖女、藥劑師都已深陷詛咒。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "你一个手无缚鸡之力的指挥官就算没倒下，又有什么用？",
+			say = "你一個手無縛雞之力的指揮官就算沒倒下，又有什麼用？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,9 +319,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "手无缚鸡之力？",
+			say = "手無縛雞之力？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,9 +331,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "你作为魔王，应该有查看冒险者面板的能力吧？",
+			say = "你身為魔王，應該要有檢視冒險者面板的能力吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "哼，那是自然。我可是站在魔族顶点之人，区区查看冒险面板这种小事……",
+			say = "哼，那是自然。我可是站在魔族頂點之人，區區查看冒險面板這種小事……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "这种小事…………",
+			say = "這種小事…………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = "main1",
-			say = "……这、这不对吧？",
+			say = "……這、這不對吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "……等级999，生命值999999，魔法值999999，攻击力9999，防御力9999……？",
+			say = "……等級999，生命值999999，魔法值999999，攻擊力9999，防禦力9999……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,9 +419,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "你终于注意到了。",
+			say = "妳終於注意到了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "……居然已经将基础属性提升到了这种程度。",
+			say = "……居然已經將基礎屬性提升到這種程度了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -454,7 +454,7 @@ return {
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = "main2",
-			say = "……之前你打败巨炎龙……不是巧合？！",
+			say = "……之前你打敗巨炎龍……不是巧合？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,9 +468,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "所以你觉得，一对一我会怕你么？",
+			say = "所以妳覺得，一對一我會怕妳嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "原来你才是小队里最厉害的那一个！",
+			say = "原來你才是小隊裡最厲害的那一個！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -524,7 +524,7 @@ return {
 			},
 			options = {
 				{
-					content = "拿起抚顺的勇者之剑",
+					content = "拿起撫順的勇者之劍",
 					flag = 1
 				}
 			}
@@ -540,7 +540,7 @@ return {
 			},
 			options = {
 				{
-					content = "拿起贞德的神圣之剑",
+					content = "拿起貞德的神聖之劍",
 					flag = 1
 				}
 			}
@@ -554,7 +554,7 @@ return {
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = "touch2",
-			say = "你、你想做什么……",
+			say = "你、你想做什麼……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -572,7 +572,7 @@ return {
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "等等，有话好好说……！",
+			say = "等等，有話好好說……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -591,7 +591,7 @@ return {
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "我可是魔王！不论人类国王许诺给你了什么我都可以给你双倍！",
+			say = "我可是魔王！不論人類國王許諾給你了什麼我都可以給你雙倍！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -609,7 +609,7 @@ return {
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "你不要过来啊————！",
+			say = "你不要過來啊————！",
 			painting = {
 				alpha = 0.3,
 				time = 1

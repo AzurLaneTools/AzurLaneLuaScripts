@@ -2,7 +2,7 @@ pg = pg or {}
 pg.activity_single_event = {
 	[1001] = {
 		story_type = 1,
-		name = "EP1-1 从零开始的冒险",
+		name = "EP1-1 從零開始的冒險",
 		pre_event = 0,
 		type = 1,
 		story = "CONGLINGKAISHIMOWANG2",
@@ -18,7 +18,7 @@ pg.activity_single_event = {
 	},
 	[1002] = {
 		story_type = 2,
-		name = "EP1-2 初始之森的战斗",
+		name = "EP1-2 初始之森的戰鬥",
 		pre_event = 1001,
 		type = 1,
 		story = "1799101",
@@ -83,7 +83,7 @@ pg.activity_single_event = {
 	},
 	[1003] = {
 		story_type = 1,
-		name = "EP1-3 别样的新手村",
+		name = "EP1-3 別樣的新手村",
 		pre_event = 1002,
 		type = 1,
 		story = "CONGLINGKAISHIMOWANG4",
@@ -99,7 +99,7 @@ pg.activity_single_event = {
 	},
 	[1004] = {
 		story_type = 1,
-		name = "EP1-4 王都与国王",
+		name = "EP1-4 王都與國王",
 		pre_event = 1003,
 		type = 1,
 		story = "CONGLINGKAISHIMOWANG5",
@@ -164,7 +164,7 @@ pg.activity_single_event = {
 	},
 	[1005] = {
 		story_type = 1,
-		name = "EP2-1 王都采购",
+		name = "EP2-1 王都採購",
 		pre_event = 1004,
 		type = 1,
 		story = "CONGLINGKAISHIMOWANG6",
@@ -180,7 +180,7 @@ pg.activity_single_event = {
 	},
 	[1006] = {
 		story_type = 1,
-		name = "EP2-2 无尽树海的深处",
+		name = "EP2-2 無盡樹海的深處",
 		pre_event = 1005,
 		type = 1,
 		story = "CONGLINGKAISHIMOWANG7",
@@ -196,7 +196,7 @@ pg.activity_single_event = {
 	},
 	[1007] = {
 		story_type = 1,
-		name = "EP2-3 村落的药剂师",
+		name = "EP2-3 村落的藥劑師",
 		pre_event = 1006,
 		type = 1,
 		story = "CONGLINGKAISHIMOWANG8",
@@ -338,7 +338,7 @@ pg.activity_single_event = {
 	},
 	[1009] = {
 		story_type = 2,
-		name = "EP2-5 传说中的英雄",
+		name = "EP2-5 傳說中的英雄",
 		pre_event = 1008,
 		type = 1,
 		story = "1799103",
@@ -411,7 +411,7 @@ pg.activity_single_event = {
 	},
 	[1010] = {
 		story_type = 2,
-		name = "EP3-1 来自天上的敌人",
+		name = "EP3-1 來自天上的敵人",
 		pre_event = 1009,
 		type = 1,
 		story = "1799104",
@@ -484,7 +484,7 @@ pg.activity_single_event = {
 	},
 	[1011] = {
 		story_type = 1,
-		name = "EP3-2 救援弗里德村",
+		name = "EP3-2 救援弗里茨村",
 		pre_event = 1010,
 		type = 1,
 		story = "CONGLINGKAISHIMOWANG12",
@@ -500,7 +500,7 @@ pg.activity_single_event = {
 	},
 	[1012] = {
 		story_type = 2,
-		name = "EP3-3 守望长城攻防战",
+		name = "EP3-3 守望長城攻防戰",
 		pre_event = 1011,
 		type = 1,
 		story = "1799105",
@@ -573,7 +573,7 @@ pg.activity_single_event = {
 	},
 	[1013] = {
 		story_type = 1,
-		name = "EP3-4 庆功宴",
+		name = "EP3-4 慶功宴",
 		pre_event = 1012,
 		type = 1,
 		story = "CONGLINGKAISHIMOWANG14",
@@ -650,7 +650,7 @@ pg.activity_single_event = {
 	},
 	[1014] = {
 		story_type = 2,
-		name = "EP4-1 枯萎森林的圣女",
+		name = "EP4-1 枯萎森林的聖女",
 		pre_event = 1013,
 		type = 1,
 		story = "1799106",
@@ -727,7 +727,7 @@ pg.activity_single_event = {
 	},
 	[1015] = {
 		story_type = 1,
-		name = "EP4-2 猎人的往昔",
+		name = "EP4-2 獵人的往昔",
 		pre_event = 1014,
 		type = 1,
 		story = "CONGLINGKAISHIMOWANG16",
@@ -743,7 +743,7 @@ pg.activity_single_event = {
 	},
 	[1016] = {
 		story_type = 2,
-		name = "EP4-3 遗迹的守护者",
+		name = "EP4-3 遺跡的守護者",
 		pre_event = 1015,
 		type = 1,
 		story = "1799107",
@@ -820,7 +820,7 @@ pg.activity_single_event = {
 	},
 	[1017] = {
 		story_type = 1,
-		name = "EP4-4 尘封的真相",
+		name = "EP4-4 塵封的真相",
 		pre_event = 1016,
 		type = 1,
 		story = "CONGLINGKAISHIMOWANG18",
@@ -897,7 +897,7 @@ pg.activity_single_event = {
 	},
 	[1018] = {
 		story_type = 1,
-		name = "EP4-5 东方据点之战",
+		name = "EP4-5 東方據點之戰",
 		pre_event = 1017,
 		type = 1,
 		story = "CONGLINGKAISHIMOWANG19",
@@ -974,7 +974,7 @@ pg.activity_single_event = {
 	},
 	[1019] = {
 		story_type = 1,
-		name = "EP4-6 西方据点之战",
+		name = "EP4-6 西方據點之戰",
 		pre_event = 1018,
 		type = 1,
 		story = "CONGLINGKAISHIMOWANG20",
@@ -1051,7 +1051,7 @@ pg.activity_single_event = {
 	},
 	[1020] = {
 		story_type = 2,
-		name = "EP4-7 中部据点之战",
+		name = "EP4-7 中部據點之戰",
 		pre_event = 1019,
 		type = 1,
 		story = "1799108",
@@ -1128,7 +1128,7 @@ pg.activity_single_event = {
 	},
 	[1021] = {
 		story_type = 2,
-		name = "EP5-1 军械库之战",
+		name = "EP5-1 軍械庫之戰",
 		pre_event = 1020,
 		type = 1,
 		story = "1799109",
@@ -1205,7 +1205,7 @@ pg.activity_single_event = {
 	},
 	[1022] = {
 		story_type = 1,
-		name = "EP5-2 补给站之战",
+		name = "EP5-2 補給站之戰",
 		pre_event = 1021,
 		type = 1,
 		story = "CONGLINGKAISHIMOWANG23",
@@ -1282,7 +1282,7 @@ pg.activity_single_event = {
 	},
 	[1023] = {
 		story_type = 1,
-		name = "EP5-3 来自王都的天使",
+		name = "EP5-3 來自王都的天使",
 		pre_event = 1022,
 		type = 1,
 		story = "CONGLINGKAISHIMOWANG24",
@@ -1298,7 +1298,7 @@ pg.activity_single_event = {
 	},
 	[1024] = {
 		story_type = 2,
-		name = "EP5-4 巨炎龙讨伐战",
+		name = "EP5-4 巨炎龍討伐戰",
 		pre_event = 1023,
 		type = 1,
 		story = "1799110",
@@ -1375,7 +1375,7 @@ pg.activity_single_event = {
 	},
 	[1025] = {
 		story_type = 2,
-		name = "EP5-5 最终魔王讨伐战",
+		name = "EP5-5 最終魔王討伐戰",
 		pre_event = 1024,
 		type = 1,
 		story = "1799111",
@@ -1391,7 +1391,7 @@ pg.activity_single_event = {
 	},
 	[1026] = {
 		story_type = 1,
-		name = "EP5-6 在那之后的故事",
+		name = "EP5-6 在那之後的故事",
 		pre_event = 1025,
 		type = 1,
 		story = "CONGLINGKAISHIMOWANG27",
@@ -1407,7 +1407,7 @@ pg.activity_single_event = {
 	},
 	[2001] = {
 		story_type = 1,
-		name = "委托-修缮城墙 ",
+		name = "委託-修繕城牆",
 		pre_event = 0,
 		type = 2,
 		story = "YISHIJIEWEITUO1",
@@ -1423,7 +1423,7 @@ pg.activity_single_event = {
 	},
 	[2002] = {
 		story_type = 1,
-		name = "委托-探索遗迹",
+		name = "委託-探索遺跡",
 		pre_event = 0,
 		type = 2,
 		story = "YISHIJIEWEITUO2",
@@ -1439,7 +1439,7 @@ pg.activity_single_event = {
 	},
 	[2003] = {
 		story_type = 1,
-		name = "委托-要塞驻守 ",
+		name = "委託-要塞駐守",
 		pre_event = 0,
 		type = 2,
 		story = "YISHIJIEWEITUO3",
@@ -1455,7 +1455,7 @@ pg.activity_single_event = {
 	},
 	[2004] = {
 		story_type = 1,
-		name = "委托-潜入魔王补给站 ",
+		name = "委託-潛入魔王補給站",
 		pre_event = 0,
 		type = 2,
 		story = "YISHIJIEWEITUO4",
@@ -1471,7 +1471,7 @@ pg.activity_single_event = {
 	},
 	[2005] = {
 		story_type = 1,
-		name = "委托-炎狱山脉调查 ",
+		name = "委託-炎獄山脈調查",
 		pre_event = 0,
 		type = 2,
 		story = "YISHIJIEWEITUO5",
@@ -1487,7 +1487,7 @@ pg.activity_single_event = {
 	},
 	[2006] = {
 		story_type = 1,
-		name = "委托-帮助特尔玛尔村",
+		name = "委託-幫助特爾瑪爾村",
 		pre_event = 0,
 		type = 2,
 		story = "YISHIJIEWEITUO6",
@@ -1503,7 +1503,7 @@ pg.activity_single_event = {
 	},
 	[2007] = {
 		story_type = 1,
-		name = "委托-帮助乌尔斯普村",
+		name = "委託-幫助烏爾斯普村",
 		pre_event = 0,
 		type = 2,
 		story = "YISHIJIEWEITUO7",
@@ -1519,7 +1519,7 @@ pg.activity_single_event = {
 	},
 	[2008] = {
 		story_type = 1,
-		name = "委托-帮助弗里德村",
+		name = "委託-幫助弗里德村",
 		pre_event = 0,
 		type = 2,
 		story = "YISHIJIEWEITUO8",
@@ -1535,7 +1535,7 @@ pg.activity_single_event = {
 	},
 	[2009] = {
 		story_type = 1,
-		name = "委托-枯萎森林地形侦察",
+		name = "委託-枯萎森林地形偵察",
 		pre_event = 0,
 		type = 2,
 		story = "YISHIJIEWEITUO9",
@@ -1551,7 +1551,7 @@ pg.activity_single_event = {
 	},
 	[2010] = {
 		story_type = 1,
-		name = "委托-炎狱湖钓鱼",
+		name = "委託-炎獄湖釣魚",
 		pre_event = 0,
 		type = 2,
 		story = "YISHIJIEWEITUO10",
@@ -1567,7 +1567,7 @@ pg.activity_single_event = {
 	},
 	[2011] = {
 		story_type = 1,
-		name = "委托-石料采集",
+		name = "委託-石料採集",
 		pre_event = 0,
 		type = 2,
 		story = "YISHIJIEWEITUO11",
@@ -1583,7 +1583,7 @@ pg.activity_single_event = {
 	},
 	[2012] = {
 		story_type = 1,
-		name = "委托-潜入魔王军械库",
+		name = "委託-潛入魔王軍械庫",
 		pre_event = 0,
 		type = 2,
 		story = "YISHIJIEWEITUO12",
@@ -1599,7 +1599,7 @@ pg.activity_single_event = {
 	},
 	[2013] = {
 		story_type = 1,
-		name = "委托-无尽树海狩猎",
+		name = "委託-無盡樹海狩獵",
 		pre_event = 0,
 		type = 2,
 		story = "YISHIJIEWEITUO13",
@@ -1615,7 +1615,7 @@ pg.activity_single_event = {
 	},
 	[2014] = {
 		story_type = 1,
-		name = "委托-悠闲钓鱼 ",
+		name = "委託-悠閒釣魚",
 		pre_event = 0,
 		type = 2,
 		story = "YISHIJIEWEITUO14",

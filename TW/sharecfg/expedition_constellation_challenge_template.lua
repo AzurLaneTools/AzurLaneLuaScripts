@@ -174,12 +174,102 @@ pg.expedition_constellation_challenge_template = {
 			}
 		}
 	},
+	[10007] = {
+		button_style = 7,
+		information_icon = "shengdiyage_constellation",
+		painting = "shengdiyage",
+		id = 10007,
+		dungeon_id = 5109,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"星之歌",
+				"戰鬥中每18秒，獅子座化身將會大聲歌唱，強制擊退敵​​方先鋒艦隊，並使敵方所有艦隊成員蓄力空襲、蓄力魚雷和蓄力主炮的裝填進度分別減少<color=#92fc63>5%</color>、<color=#92fc63>10%</color>和<color=#92fc63>15%</color>（已裝填完畢的武器不受影響）。"
+			},
+			{
+				"星星舞台",
+				"【星之歌】觸發2秒後，海域中將會出現一個特殊的舞台區域，持續5秒，位於舞台區域中的敵我雙方所有單位航速提升20點、迴避率提高20%；"
+			}
+		},
+		award_display = {
+			{
+				14,
+				203,
+				1
+			}
+		}
+	},
+	[10008] = {
+		button_style = 7,
+		information_icon = "shengdiyage_constellation",
+		painting = "shengdiyage",
+		id = 10008,
+		dungeon_id = 5108,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"星之歌",
+				"戰鬥中每18秒，獅子座化身將會大聲歌唱，強制擊退敵​​方先鋒艦隊，並使敵方所有艦隊成員蓄力空襲、蓄力魚雷和蓄力主炮的裝填進度分別減少<color=#92fc63>10%</color>、<color=#92fc63>15%</color>和<color=#92fc63>20%</color>（已裝填完畢的武器不受影響）。"
+			},
+			{
+				"星星舞台",
+				"【星之歌】觸發2秒後，海域中將會出現一個特殊的舞台區域，持續5秒，位於舞台區域中的敵我雙方所有單位航速提升20點、迴避率提高20%；"
+			}
+		},
+		award_display = {
+			{
+				15,
+				10003,
+				1
+			}
+		}
+	},
+	[10009] = {
+		button_style = 7,
+		information_icon = "shengdiyage_constellation",
+		painting = "shengdiyage",
+		id = 10009,
+		dungeon_id = 5107,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"星之歌",
+				"戰鬥中每18秒，獅子座化身將會大聲歌唱，強制擊退敵​​方先鋒艦隊，並使敵方所有艦隊成員蓄力空襲、蓄力魚雷和蓄力主炮的裝填進度分別減少<color=#92fc63>15%</color>、<color=#92fc63>20%</color>和<color=#92fc63>30%</color>（已裝填完畢的武器不受影響）。"
+			},
+			{
+				"星星舞台",
+				"【星之歌】觸發2秒後，海域中將會出現一個特殊的舞台區域，持續5秒，位於舞台區域中的敵我雙方所有單位航速提升20點、迴避率提高20%；"
+			}
+		},
+		award_display = {
+			{
+				14,
+				10003,
+				1
+			}
+		}
+	},
 	all = {
 		10001,
 		10002,
 		10003,
 		10004,
 		10005,
-		10006
+		10006,
+		10007,
+		10008,
+		10009
 	}
 }

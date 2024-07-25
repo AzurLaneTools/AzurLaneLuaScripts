@@ -8,7 +8,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_chuansong",
 			bgm = "theme-shallowoftheworld",
-			say = "黑色的高墙近在咫尺。",
+			say = "黑色的高牆近在咫尺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_chuansong",
-			say = "我们终于来到了旅途的最后一站——魔王城",
+			say = "我們終於來到了旅程的最後一站—魔王城",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_chuansong",
-			say = "吸血鬼猎人们早已先我们一步等候在此，就如同她们此前所承诺的那样。",
+			say = "吸血鬼獵人們早已先我們一步等候在此，就如同她們先前所承諾的那樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			say = "除此之外，还有一个意想不到的人。",
+			say = "除此之外，還有一個意想不到的人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "向诸位致以钢铁与巨龙之神的问候，无畏的勇者们。",
+			say = "向諸位致以鋼鐵與巨龍之神的問候，無畏的勇者們。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "得知诸位即将进行魔王城的攻略作战，我特地代表教会前来支援。",
+			say = "得知諸位即將進行魔王城的攻略作戰，我特地代表教會前來支援。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，魔王城厚重的大门，就交给我所带来的神之机械来处理吧~",
+			say = "呵呵，魔王城厚重的大門，就交給我所帶來的神之機械來處理吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			say = "钢铁巨龙迸发出的怒火撕裂了多重法阵保护下的魔王城大门。",
+			say = "鋼鐵巨龍迸發出的怒火撕裂了多重法陣保護下的魔王城大門。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			say = "骁勇善战的猎人们则撕碎了城内的正面防线，将我们一路护送至魔王的王座前。",
+			say = "驍勇善戰的獵人們則撕碎了城內的正面防線，將我們一路護送至魔王的王座前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "魔王，勇者抚顺带领小队来讨伐你了哦！",
+			say = "魔王，勇者撫順帶領小隊來討伐妳了喔！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,11 +254,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "你的恶行到今天就要结束了，魔王。",
+			say = "妳的惡行到今天就要結束了，魔王。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = "main1",
-			say = "啧……真是聒噪。",
+			say = "嘖……真是聒噪。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "这不是之前在人类王宫里偷窥我的冒险者小队么。",
+			say = "這不是之前在人類王宮裡偷窺我的冒險者小隊嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "没想到你们竟能活着走到这里。",
+			say = "沒想到你們竟能活著走到這裡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,7 +334,7 @@ return {
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "就这么急着送死么？",
+			say = "就這麼急著送死嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +352,7 @@ return {
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = "headtouch",
-			say = "也好，本魔王在此送你们最后一程就是了！",
+			say = "也好，本魔王在此送你們最後一程就是了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,9 +366,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "……其实，你只要一开始就亲自出马，或许我们就走不到这里了。",
+			say = "……其實，妳只要一開始就親自出馬，或許我們就走不到這裡了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "所谓魔王，就是要像这样，最后在魔王城的王座之上等着勇者送上门来的设定啊！",
+			say = "所謂魔王，就是要像這樣，最後在魔王城的王座之上等著勇者送上門來的設定啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，魔王就应该是这种设定才对啊！",
+			say = "沒錯，魔王就應該是這種設定才對啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,12 +433,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "药剂师",
+			factiontag = "藥師",
 			dir = 1,
 			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "放马过来吧魔王，就让药剂师努比亚人来当你的对手！",
+			say = "放馬過來吧魔王，就讓藥劑師努比亞來當妳的對手！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,12 +452,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "见习神官",
+			factiontag = "見習神官",
 			dir = 1,
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "独角兽……治疗魔法准备就绪，随时可以加入战斗。",
+			say = "獨角獸……治療魔法準備就緒，隨時可以加入戰鬥。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -476,7 +476,7 @@ return {
 			actor = 203131,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "哼，多说无益，动手吧——！",
+			say = "哼，多說無益，動手吧——！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -522,7 +522,7 @@ return {
 			soundeffect = "event:/ui/kuaimen",
 			actorName = "利物浦",
 			hidePaintObj = true,
-			say = "值得纪念的魔王讨伐之旅最终战，现在开始~！",
+			say = "值得紀念的魔王討伐之旅最終戰，現在開始~！",
 			painting = {
 				alpha = 0.3,
 				time = 1

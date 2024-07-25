@@ -8,7 +8,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			bgm = "story-mmorpg",
-			say = "之后，我们又在守望要塞停留休整了三日。",
+			say = "之後，我們又在守望要塞停留休息了三日。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
-			say = "在升级完装备，采购完补给，并尽可能查阅了魔王军的资料后。",
+			say = "在升級完裝備，採購完補給，並儘可能查閱了魔王軍的資料後。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
-			say = "我们穿过守望要塞的守望之门，正式踏入了由魔王军控制的荒芜之地。",
+			say = "我們穿過守望要塞的守望之門，正式踏入了由魔王軍控制的荒蕪之地。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			bgName = "star_level_bg_176",
 			bgm = "battle-ash-strong",
 			nameColor = "#A9F548FF",
-			say = "成型的道路在离开要塞不久后就中断了。",
+			say = "成型的道路在離開要塞不久後就中斷了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
-			say = "如今，我们深陷浓雾之中。",
+			say = "如今，我們深陷濃霧之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
-			say = "四周的树木早已失去生机，干枯的树枝如同扭曲的手臂般伸向天空。",
+			say = "四周的樹木早已失去生氣，乾枯的樹枝如同扭曲的手臂般伸向天空。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,12 +109,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "见习神官",
+			factiontag = "見習神官",
 			dir = 1,
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哥哥……这里的气氛好阴森。",
+			say = "哥哥……這裡的氣氛好陰森。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,9 +128,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "或许……我们已经进入情报里提到过的枯萎森林了？",
+			say = "或許……我們已經進入情報裡提到的枯萎森林了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,11 +140,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "没错，此处就是枯萎森林哦。",
+			say = "沒錯，此處就是枯萎森林哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,18 +158,18 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
-			say = "从迷雾中出现的是——神圣教会的圣女。",
+			say = "從迷霧中出現的是——王國軍的聖女。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "……你怎么会在这里？",
+					content = "……妳怎麼會在這裡？",
 					flag = 1
 				},
 				{
-					content = "欢迎入队！",
+					content = "歡迎入隊！",
 					flag = 2
 				}
 			}
@@ -177,12 +177,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			optionFlag = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "因为我在等你们。",
+			say = "因為我在等你們。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,12 +196,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			optionFlag = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "与你们一同前进，这就能在第一时间见证你们讨伐魔王的瞬间了，不是么？",
+			say = "與你們一同前進，這就能在第一時間見證你們討伐魔王的瞬間了，不是嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,12 +215,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			optionFlag = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "怎么样，欢迎我的加入么？",
+			say = "怎麼樣，歡迎我的加入嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			say = "那是自然的。",
@@ -247,12 +247,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			optionFlag = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，那接下来的旅程就请多关照啦~",
+			say = "嘿嘿，那接下來的旅程就請多關照~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,12 +266,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			optionFlag = 2,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "哇哦……不愧是聪明的指挥官。",
+			say = "哇哦……不愧是聰明的指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,12 +285,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			optionFlag = 2,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "没错，我是来加入你们小队的。",
+			say = "沒錯，我是來加入你們小隊的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,12 +303,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			optionFlag = 2,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "毕竟与你们一同前进，这就能在第一时间见证你们讨伐魔王的瞬间嘛~",
+			say = "畢竟與你們一同前進，這就能在第一時間見證你們討伐魔王的瞬間嘛~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,11 +322,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "言归正传。如你们所见，荒芜之地，确实如同字面意义上一般荒芜。",
+			say = "言歸正傳。如你們所見，荒蕪之地，確實如同字面意義上一般荒蕪。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,11 +340,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "将这片大地变成如今这副模样的……是魔王的魔法，我们也将其称为魔王的诅咒。",
+			say = "將這片大地變成如今這副模樣的……是魔王的魔法，我們也稱之為魔王的詛咒。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,11 +358,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "在那守望长城还未建立的遥远过去……我们身边的枯萎森林也是无尽树海的一部分，",
+			say = "在那守望長城還未建立的遙遠過去……我們身邊的枯萎森林也是無盡樹海的一部分，",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,46 +375,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "可是如今……这里却变成了一片万物凋零、熔岩肆虐的生命禁区……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
-			dir = 1,
-			actor = 802020,
-			nameColor = "#A9F548FF",
-			say = "根据情报，魔王在守望长城外设置了三个由大魔族镇守的据点。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
-			dir = 1,
-			actor = 802020,
-			nameColor = "#A9F548FF",
-			say = "我们将其称为西方据点、中部据点和东方据点。",
+			say = "但如今……這裡卻變成了一片萬物凋零、熔岩肆虐的生命禁區……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,11 +393,46 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "魔王一直通过这三个据点维持其对于守望长城的军事压力。",
+			say = "根據情報，魔王在守望長城外設置了三個由大魔族鎮守的據點。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "star_level_bg_176",
+			factiontag = "神聖教會聖女",
+			dir = 1,
+			actor = 802020,
+			nameColor = "#A9F548FF",
+			say = "我們稱之為西方據點、中部據點和東方據點。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_176",
+			factiontag = "神聖教會聖女",
+			dir = 1,
+			actor = 802020,
+			nameColor = "#A9F548FF",
+			say = "魔王一直透過這三個據點維持其對於守望長城的軍事壓力。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,11 +446,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "我们在过去也发动过数次神圣远征，想要净化这片被诅咒的大地。",
+			say = "我們在過去也發動過數次神聖遠征，想要淨化這片被詛咒的大地。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,11 +464,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "可是因为这三个据点不停扩散诅咒的缘故，纵使我们净化了一片土地……",
+			say = "可是因為這三個據點不停擴散詛咒的緣故，縱使我們淨化了一片土地……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,11 +481,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "那片土地也会在祝福的力量消散后再次回归荒芜。",
+			say = "那片土地也會在祝福的力量消散後再次回歸荒蕪。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,9 +499,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "也就是说，大地的诅咒不是不可逆的。",
+			say = "也就是說，大地的詛咒不是不可逆的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,9 +511,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "只是因为有据点的存在，才导致对土地释放净化魔法没有意义？",
+			say = "只是因為有據點的存在，才導致對土地釋放淨化魔法沒有意義？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,11 +523,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "没错。指挥官，你在庆功宴上已经获得了光明与正义之神的祝福之力。",
+			say = "沒錯。指揮官，你在慶功宴上已經獲得了光明與正義之神的祝福之力。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,11 +540,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "只要据点的影响消失，你应该能利用这股力量直接净化这片被诅咒的土地。",
+			say = "只要據點的影響消失，你應該可以利用這股力量直接淨化這片被詛咒的土地。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -562,7 +562,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦？！由指挥官来负责净化么？！",
+			say = "咦？！由指揮官來負責淨化嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -608,7 +608,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "勇者抚顺展现实力的地方呢……？",
+			say = "勇者撫順展現實力的地方呢……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -622,11 +622,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "唔……我认为勇者大人展现实力的地方，自然是在打倒魔物拔除据点的时候啦？",
+			say = "嗯……我認為勇者大人展現實力的地方，自然是在打倒魔物拔除據點的時候啦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -662,7 +662,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，确实是这样！讨伐魔物才是勇者展现魅力的时刻~",
+			say = "沒錯，確實是這樣！討伐魔物才是勇者展現魅力的時刻~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -680,7 +680,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那我们还等什么，快去讨伐最近的要塞中的魔物吧~！",
+			say = "那我們還在等什麼，快去討伐最近的要塞中的魔物吧~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -710,12 +710,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "药剂师",
+			factiontag = "藥師",
 			dir = 1,
 			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘘——！不要说话这么大声！",
+			say = "噓——！不要說話這麼大聲！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -735,12 +735,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "药剂师",
+			factiontag = "藥師",
 			dir = 1,
 			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "老师曾经说过，荒芜之地的魔物数量众多而且生性凶残——",
+			say = "老師曾說過，荒蕪之地的魔物數量眾多而且生性兇殘——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -754,7 +754,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_176",
 			nameColor = "#FF9B93",
-			actorName = "狂野啾莱姆战士",
+			actorName = "狂野啾萊姆戰士",
 			say = "吼啾——吼啾————！",
 			typewriter = {
 				speed = 0.05,
@@ -783,7 +783,7 @@ return {
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "已经有一群怪物被吸引而来了呢……",
+			say = "已經有一群怪物被吸引而來了呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -831,9 +831,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "所有人调整队形，准备战斗！",
+			say = "所有人調整隊形，準備戰鬥！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

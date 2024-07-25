@@ -8,7 +8,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			bgm = "story-mmorpg",
-			say = "攻陷补给站后，通向魔王城的道路上终于不再有任何阻碍了。",
+			say = "攻陷補給站後，通往魔王城的道路上終於不再有任何阻礙了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
-			say = "此时此刻，可以清晰的看到魔王城内冉冉升起的防御法阵。",
+			say = "此時此刻，可以清楚的看到魔王城內冉冉升起的防禦法陣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
-			say = "与魔王的决战的时刻，终于快到了。",
+			say = "與魔王的決戰的時刻，終於快到了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……越接近魔王城，气温就越高。",
+			say = "呼……越接近魔王城，氣溫越高。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "努比亚人，你那里有没有能够降温的药水呀！",
+			say = "努比亞，妳那裡有沒有能夠降溫的藥水呀！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,12 +91,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "药剂师",
+			factiontag = "藥師",
 			dir = 1,
 			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……急冻药水？",
+			say = "嗯……急凍藥水？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "用这个会把我冻成冰块的吧！",
+			say = "用這個會把我凍成冰塊的吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "独角兽~优酱借我骑一下好不好~",
+			say = "獨角獸~優醬借我騎好不好~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "见习神官",
+			factiontag = "見習神官",
 			dir = 1,
 			actor = 236031,
 			nameColor = "#A9F548FF",
@@ -169,7 +169,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸，可是天上吹风多凉快————啊！",
+			say = "欸，可是天上吹風多涼快————啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，天上有一个目标正在朝我们飞过来！",
+			say = "指揮官，天上有一個目標正在朝我們飛過來！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,12 +200,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "药剂师",
+			factiontag = "藥師",
 			dir = 1,
 			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那个是……王国军的战斗天使？",
+			say = "那個是……王國軍的戰鬥天使？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,12 +219,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "药剂师",
+			factiontag = "藥師",
 			dir = 1,
 			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "糟糕……不会是来抓圣女殿下回去的吧！",
+			say = "糟糕……不會是來抓聖女殿下回去的吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那可不行！圣女已经是我们的同伴了，我们不能眼看她被抓回去！",
+			say = "那可不行！聖女已經是我們的同伴了，我們不能看著她被抓回去！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,11 +256,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "等等，大家先冷静。那个是……霞飞？",
+			say = "等等，大家先冷靜一下。那個是……霞飛？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,11 +274,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "不用担心，是自己人！",
+			say = "不用擔心，是自己人！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,12 +291,12 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			factiontag = "战斗天使",
+			factiontag = "戰鬥天使",
 			dir = 1,
 			bgName = "star_level_bg_176",
 			actor = 907010,
 			nameColor = "#A9F548FF",
-			say = "在此向诸位献上光明与正义女神的祝福。",
+			say = "在此向諸位獻上光明與正義女神的祝福。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,11 +327,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "战斗天使",
+			factiontag = "戰鬥天使",
 			dir = 1,
 			actor = 907010,
 			nameColor = "#A9F548FF",
-			say = "诸位，好久不见。",
+			say = "諸位，好久不見。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,11 +345,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "霞飞，你怎么突然来了？",
+			say = "霞飛，妳怎麼突然來了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,11 +362,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "战斗天使",
+			factiontag = "戰鬥天使",
 			dir = 1,
 			actor = 907010,
 			nameColor = "#A9F548FF",
-			say = "我自然是带着国王陛下和整个神圣教会的关心而来的。",
+			say = "我自然是帶著國王陛下和整個神聖教會的關心而來的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,11 +380,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "战斗天使",
+			factiontag = "戰鬥天使",
 			dir = 1,
 			actor = 907010,
 			nameColor = "#A9F548FF",
-			say = "你知道么？你这次不辞而别可把她老人家吓得不轻哦。",
+			say = "妳知道嗎？妳這次不辭而別可把她老人家嚇得不輕哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,11 +398,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "战斗天使",
+			factiontag = "戰鬥天使",
 			dir = 1,
 			actor = 907010,
 			nameColor = "#A9F548FF",
-			say = "不过随后传来的一个又一个魔王军据点被攻陷的消息则更甚之。",
+			say = "不過隨後傳來的一個又一個魔王軍據點被攻陷的消息則更甚之。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,29 +415,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "战斗天使",
+			factiontag = "戰鬥天使",
 			dir = 1,
 			actor = 907010,
 			nameColor = "#A9F548FF",
-			say = "国王陛下已经下定决心，下达了发动第十三次，或许也是最后一次神圣远征的命令。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_176",
-			factiontag = "战斗天使",
-			dir = 1,
-			actor = 907010,
-			nameColor = "#A9F548FF",
-			say = "此刻，王国军的主力已经走出了守望要塞，主动进攻着魔王部署在其他地方的兵力，为你们攻略魔王城减轻压力。",
+			say = "國王陛下已經下定決心，下達了發動第十三次，或許也是最後一次神聖遠征的命令。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,11 +433,29 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "戰鬥天使",
+			dir = 1,
+			actor = 907010,
+			nameColor = "#A9F548FF",
+			say = "此刻，王國軍的主力已經走出了守望要塞，主動進攻魔王部署在其他地方的兵力，為你們攻略魔王城減輕壓力。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_176",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "真是个好消息……这样我们在进攻魔王城的时候就没有后顾之忧了。",
+			say = "真是個好消息……這樣我們在進攻魔王城的時候就沒有後顧之憂了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -469,11 +469,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "战斗天使",
+			factiontag = "戰鬥天使",
 			dir = 1,
 			actor = 907010,
 			nameColor = "#A9F548FF",
-			say = "也不尽然。我还有个消息要告诉你们。",
+			say = "也不盡然。我還有個消息要告訴你們。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,11 +487,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "战斗天使",
+			factiontag = "戰鬥天使",
 			dir = 1,
 			actor = 907010,
 			nameColor = "#A9F548FF",
-			say = "在魔王城东部的炎狱山脉中，有一处属于巨龙巢穴群。",
+			say = "在魔王城東部的炎獄山脈中，有一處屬於巨龍巢穴群。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -505,11 +505,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "战斗天使",
+			factiontag = "戰鬥天使",
 			dir = 1,
 			actor = 907010,
 			nameColor = "#A9F548FF",
-			say = "正如你们所知，巨龙一族早在数百年前加入了魔王军，其族长巨炎龙也是魔王亲封的领主之一。",
+			say = "如妳所知，巨龍一族早在數百年前加入了魔王軍，其族長巨炎龍也是魔王親封的領主之一。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -522,11 +522,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "战斗天使",
+			factiontag = "戰鬥天使",
 			dir = 1,
 			actor = 907010,
 			nameColor = "#A9F548FF",
-			say = "如果放任这处龙巢存在的话，你们还是有在魔王城中被夹击的危险。",
+			say = "如果放任這處龍巢存在的話，你們還是有在魔王城中被夾擊的危險。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,11 +540,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "唔……确实在进攻魔王城之前拔掉这个钉子比较好呢。",
+			say = "嗯……確實在進攻魔王城之前拔掉這個釘子比較好呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,11 +558,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "战斗天使",
+			factiontag = "戰鬥天使",
 			dir = 1,
 			actor = 907010,
 			nameColor = "#A9F548FF",
-			say = "我也是这么认为的。",
+			say = "我也是這麼認為的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -576,11 +576,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "战斗天使",
+			factiontag = "戰鬥天使",
 			dir = 1,
 			actor = 907010,
 			nameColor = "#A9F548FF",
-			say = "遗憾的是，我还要回去向国王陛下和神圣教会复命，就不与你们同去了。",
+			say = "遺憾的是，我還要回去向國王陛下和神聖教會復命，就不與你們同去了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -593,11 +593,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "战斗天使",
+			factiontag = "戰鬥天使",
 			dir = 1,
 			actor = 907010,
 			nameColor = "#A9F548FF",
-			say = "圣女殿下——应该也不打算随我回去吧？",
+			say = "聖女殿下——應該也不打算隨我回去吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,11 +611,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "那是自然！我现在已经是冒险小队的人了哦~",
+			say = "那是自然！我現在已經是冒險小隊的人了哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -629,11 +629,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "战斗天使",
+			factiontag = "戰鬥天使",
 			dir = 1,
 			actor = 907010,
 			nameColor = "#A9F548FF",
-			say = "我明白了，愿女神的加护与你们同在。",
+			say = "我明白了，願女神的加護與你們同在。",
 			painting = {
 				alpha = 0.3,
 				time = 1

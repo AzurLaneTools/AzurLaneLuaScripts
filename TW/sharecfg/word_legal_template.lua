@@ -3308,7 +3308,18 @@ temp = function()
 	uv0["吸"] = {
 		["血"] = {
 			["鬼"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -3360,6 +3371,11 @@ temp = function()
 				["奧"] = {
 					this = true
 				}
+			}
+		},
+		["物"] = {
+			["浦"] = {
+				this = true
 			}
 		}
 	}
@@ -5100,6 +5116,11 @@ temp = function()
 			["克"] = {
 				this = true
 			}
+		},
+		["文"] = {
+			["郡"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -5904,6 +5925,13 @@ temp = function()
 				["大"] = {
 					["帝"] = {
 						this = true
+					}
+				},
+				["·"] = {
+					["卡"] = {
+						["爾"] = {
+							this = true
+						}
 					}
 				}
 			}
@@ -6876,6 +6904,18 @@ temp = function()
 						this = true
 					}
 				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["努"] = {
+		["比"] = {
+			["亞"] = {
+				this = true
 			}
 		}
 	}

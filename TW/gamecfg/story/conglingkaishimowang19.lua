@@ -8,7 +8,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			bgm = "story-oldcastle-carnival",
-			say = "根据文件中记载的术式，我们轻松破解了“永夜之暗”，进入了东方据点。",
+			say = "根據文件中記載的術式，我們輕鬆破解了「永夜之暗」，進入了東方據點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			say = "驻守在这里的吸血鬼似乎根本没有想到据点的防御术式会被破解，没能做出实质性抵抗就被我们轻松解决了。",
+			say = "駐守在這裡的吸血鬼似乎根本沒有想到據點的防禦術式會被破解，沒能做出實質抵抗就被我們輕鬆解決了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,11 +45,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
+			factiontag = "吸血鬼門衛",
 			dir = 1,
 			actor = 408024,
 			nameColor = "#FF9B93",
-			say = "咳……这个术式是……",
+			say = "咳……這個術式是……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,11 +69,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
+			factiontag = "吸血鬼門衛",
 			dir = 1,
 			actor = 408024,
 			nameColor = "#FF9B93",
-			say = "你们和约克公爵族长是什么关系……",
+			say = "你們和約克公爵族長是什麼關係……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,64 +86,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
+			factiontag = "吸血鬼門衛",
 			dir = 1,
 			actor = 408024,
 			nameColor = "#FF9B93",
-			say = "……这样啊。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
-			dir = 1,
-			actor = 408024,
-			nameColor = "#FF9B93",
-			say = "……多亏了这个术式，感觉头脑终于清醒起来了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
-			dir = 1,
-			actor = 408024,
-			nameColor = "#FF9B93",
-			say = "……已经过去这么多年了么。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
-			dir = 1,
-			actor = 408024,
-			nameColor = "#FF9B93",
-			say = "……也好，我也该休息了。",
+			say = "……這樣啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,11 +104,28 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
+			factiontag = "吸血鬼門衛",
 			dir = 1,
 			actor = 408024,
 			nameColor = "#FF9B93",
-			say = "……你们是打算攻略全部三个据点么？",
+			say = "……多虧了這個術式，感覺頭腦終於清醒起來了。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "star_level_bg_156",
+			factiontag = "吸血鬼門衛",
+			dir = 1,
+			actor = 408024,
+			nameColor = "#FF9B93",
+			say = "……已經過去這麼多年了嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,11 +139,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
+			factiontag = "吸血鬼門衛",
 			dir = 1,
 			actor = 408024,
 			nameColor = "#FF9B93",
-			say = "我倒下之后，其它据点一定会提高戒备的，突袭只能成功一次。",
+			say = "……也好，我也該休息了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,28 +157,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
+			factiontag = "吸血鬼門衛",
 			dir = 1,
 			actor = 408024,
 			nameColor = "#FF9B93",
-			say = "中部据点是由大小姐和女仆长亲自把守的，你们最好最后再去……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
-			dir = 1,
-			actor = 408024,
-			nameColor = "#FF9B93",
-			say = "先去西方据点吧。",
+			say = "……你們是打算攻略全部三個據點嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,11 +175,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
+			factiontag = "吸血鬼門衛",
 			dir = 1,
 			actor = 408024,
 			nameColor = "#FF9B93",
-			say = "负责防卫西方据点的{namecode:449:埃尔宾}二小姐十分喜欢吃甜品。",
+			say = "我倒下之後，其它據點一定會提高戒備的，突襲只能成功一次。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,11 +193,28 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
+			factiontag = "吸血鬼門衛",
 			dir = 1,
 			actor = 408024,
 			nameColor = "#FF9B93",
-			say = "尤其是各种有创意的甜品……",
+			say = "中部據點是由大小姐和女僕長親自把守的，你們最好最後再去……",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "star_level_bg_156",
+			factiontag = "吸血鬼門衛",
+			dir = 1,
+			actor = 408024,
+			nameColor = "#FF9B93",
+			say = "先去西方據點吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,46 +228,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
+			factiontag = "吸血鬼門衛",
 			dir = 1,
 			actor = 408024,
 			nameColor = "#FF9B93",
-			say = "因为魔王军的焦土政策，她大概已经很久没有吃到了",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
-			dir = 1,
-			actor = 408024,
-			nameColor = "#FF9B93",
-			say = "如果你们伪装成从她领地路过的不法走私商人。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
-			dir = 1,
-			actor = 408024,
-			nameColor = "#FF9B93",
-			say = "主动为她献上美味甜品的话……说不定能引起她的好奇心主动见你们。",
+			say = "負責防衛西方據點的埃爾賓二小姐十分喜歡吃甜點。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,11 +246,82 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
+			factiontag = "吸血鬼門衛",
 			dir = 1,
 			actor = 408024,
 			nameColor = "#FF9B93",
-			say = "这样你们就有机会了。",
+			say = "尤其是各種有創意的甜點……",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_156",
+			factiontag = "吸血鬼門衛",
+			dir = 1,
+			actor = 408024,
+			nameColor = "#FF9B93",
+			say = "因為魔王軍的焦土政策，她大概已經很久沒吃到了",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_156",
+			factiontag = "吸血鬼門衛",
+			dir = 1,
+			actor = 408024,
+			nameColor = "#FF9B93",
+			say = "如果你們偽裝成從她領地經過的不法走私商人。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "star_level_bg_156",
+			factiontag = "吸血鬼門衛",
+			dir = 1,
+			actor = 408024,
+			nameColor = "#FF9B93",
+			say = "主動為她獻上美味甜點的話……說不定能引起她的好奇心主動見你們。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_156",
+			factiontag = "吸血鬼門衛",
+			dir = 1,
+			actor = 408024,
+			nameColor = "#FF9B93",
+			say = "這樣你們就有機會了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,11 +335,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
+			factiontag = "吸血鬼門衛",
 			dir = 1,
 			actor = 408024,
 			nameColor = "#FF9B93",
-			say = "……那么再见了。",
+			say = "……那麼再見了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,11 +353,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼门卫",
+			factiontag = "吸血鬼門衛",
 			dir = 1,
 			actor = 408024,
 			nameColor = "#FF9B93",
-			say = "……一定要打倒魔王啊，冒险者们。",
+			say = "……一定要打倒魔王啊，冒險者們。",
 			painting = {
 				alpha = 0.3,
 				time = 1

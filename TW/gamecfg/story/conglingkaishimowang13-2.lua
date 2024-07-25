@@ -6,13 +6,13 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			factiontag = "战斗天使",
+			factiontag = "戰鬥天使",
 			dir = 1,
 			bgName = "star_level_bg_545",
 			bgm = "story-french",
 			actor = 907010,
 			nameColor = "#A9F548FF",
-			say = "光明与正义之神，请您降下祝福之光，为您英勇的战士们带来胜利吧！",
+			say = "光明與正義之神，請您降下祝福之光，為您英勇的戰士們帶來勝利吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -43,12 +43,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "钢铁教会机械师",
+			factiontag = "鋼鐵教會機械師",
 			dir = 1,
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "钢铁与巨龙之神，我在此释放您的愤怒，为我们的敌人带来毁灭吧！",
+			say = "鋼鐵與巨龍之神，我在此釋放您的憤怒，為我們的敵人帶來毀滅吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			actor = 205130,
 			nameColor = "#A9F548FF",
-			say = "居然是……神圣教会和钢铁教会派来的援军？！",
+			say = "居然是……神聖教會和鋼鐵教會派來的援軍？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,11 +104,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "诸位，请不要放弃获胜的希望！",
+			say = "諸位，請不要放棄獲勝的希望！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,11 +121,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "增援部队已经抵达，让我们并肩战斗，一同消灭这些魔物吧！",
+			say = "增援部隊已經抵達，讓我們並肩戰鬥，一同消滅這些魔物吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -8,7 +8,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			bgm = "theme-shallowoftheworld",
-			say = "眼前，是宛如炼狱的战场。",
+			say = "眼前，是宛如煉獄的戰場。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
-			say = "成百上千的飞龙在火山上空盘旋着。",
+			say = "成百上千的飛龍在火山上空盤旋著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
-			say = "其中最引人注目的，无疑是那只体长数百米，浑身燃烧着烈焰的巨龙",
+			say = "其中最引人注目的，無疑是那隻體長數百公尺，全身燃燒著烈焰的巨龍",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
-			say = "那就是巨炎龙，巨龙一族的领袖，魔王最信任的领主。",
+			say = "那就是巨炎龍，巨龍一族的領袖，魔王最信任的領主。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
-			say = "它的每一次振翅，都仿佛与这片炎狱山脉形成了共鸣，岩浆随之雀跃涌动。",
+			say = "它的每一次振翅，都彷彿與這片炎獄山脈形成了共鳴，岩漿隨之雀躍湧動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,11 +74,11 @@ return {
 		{
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "仿佛要将天空遮蔽一般……这就是巨龙的大军，",
+			say = "彷彿要將天空遮蔽一般……這就是巨龍的大軍…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,11 +92,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "……依靠我们真的能打赢么？",
+			say = "……靠我們真的能打贏嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,9 +110,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "敌我实力悬殊，又是正面交锋……",
+			say = "敵我實力懸殊，又是正面交鋒……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,9 +122,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "没办法了……消耗品，该用的时候就要用。",
+			say = "沒辦法了……消耗品，該用的時候就要用。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,16 +134,16 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "是时候呼唤传说中的英雄们了。",
+			say = "是時候呼喚傳說中的英雄們了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "发动技能“时之笛”",
+					content = "發動技能「時之笛」",
 					flag = 1
 				}
 			}
@@ -153,7 +153,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			bgm = "ryza-az-theme",
-			say = "悠扬的笛声如同一股清流，划破了灼热的空气。",
+			say = "悠揚的笛聲如同一股清流，劃破了灼熱的空氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
-			say = "当最后一个音节落下时，四座传送阵骤然浮现。",
+			say = "當最後一個音節落下時，四座傳送陣驟然浮現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
-			say = "紧接着，四道身影从传送阵中踏出。",
+			say = "緊接著，四道身影從傳送陣中踏出。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,12 +200,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "传说级勇者",
+			factiontag = "傳說級勇者",
 			dir = 1,
 			actor = 201217,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "又见面了，新时代的冒险者们~",
+			say = "又見面了，新時代的冒險者們~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,12 +218,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "传说级格斗家",
+			factiontag = "傳說級格鬥家",
 			dir = 1,
 			actor = 331055,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……巨炎龙，没见过的敌人，有挑战的价值。",
+			say = "……巨炎龍，沒見過的敵人，有挑戰的價值。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,12 +236,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "传说级战士",
+			factiontag = "傳說級戰士",
 			dir = 1,
 			actor = 431232,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "正好试试新强化完毕的斧子~",
+			say = "正好試試新強化完畢的斧頭~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,12 +255,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "传说级魔法师",
+			factiontag = "傳說級魔法師",
 			dir = 1,
 			actor = 131171,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈欠……快点解决啦…………拉菲还要继续睡觉……",
+			say = "哈欠……快點解決…………拉菲還要繼續睡……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
-			say = "传说中的英雄在此降临，并毫不迟疑地向着巨龙冲了过去。",
+			say = "傳說中的英雄在此降臨，並毫不遲疑地向著龍衝了過去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,11 +284,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "等等……如果我没猜错的话。",
+			say = "等等……如果我沒猜錯的話。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,11 +302,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_camelot_6",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "这些难道是……传说中的讨伐过上代魔王的英雄们？！",
+			say = "這些難道是……傳說中的討伐過上代魔王的英雄們？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，贞德入队比较晚不知道这件事呢……",
+			say = "啊，貞德入隊比較晚不知道這件事呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那是个可精彩的故事了，等战斗结束后讲给你听~！",
+			say = "那是個很精彩的故事呢，等戰鬥結束後再講給你聽~！",
 			painting = {
 				alpha = 0.3,
 				time = 1

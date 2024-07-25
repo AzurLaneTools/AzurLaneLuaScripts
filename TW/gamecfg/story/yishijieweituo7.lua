@@ -9,7 +9,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "接到村长的委托来乌尔斯普村帮忙。",
+			say = "接到村長的委託來烏爾斯普村幫忙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,7 +18,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "帮助村长处理了各种日常事务！",
+			say = "幫助村長啾處理了各種日常事務！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "可以获取委托奖励了！",
+			say = "委託終於完成了，可以回冒險者公會領獎勵了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

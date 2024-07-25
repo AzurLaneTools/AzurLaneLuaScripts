@@ -9,7 +9,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "接到王国军的委托前来修缮守望长城。",
+			say = "接到王國軍的委託前來修繕守望長城。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,7 +18,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "随着小队成员的不懈努力，城墙缺口正在逐渐变小！",
+			say = "隨著小隊成員不懈的努力，城牆缺口逐漸變小！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "可以获取委托奖励了！",
+			say = "委託終於完成了，可以回冒險者公會領獎勵了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

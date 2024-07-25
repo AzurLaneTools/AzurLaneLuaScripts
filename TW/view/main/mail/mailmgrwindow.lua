@@ -80,6 +80,13 @@ slot0.OnInit = function(slot0)
 		end
 	end
 
+	if MailWaterSelect then
+		table.insert(slot1, Drop.New({
+			id = 50002,
+			type = DROP_TYPE_ITEM
+		}))
+	end
+
 	slot0.filterDic = {}
 	slot0.rtContent = slot0._tf:Find("window/frame/toggle_group/filter/content")
 

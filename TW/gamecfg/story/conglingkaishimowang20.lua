@@ -8,7 +8,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			bgm = "story-mmorpg",
-			say = "枯萎森林，前往西方据点的道路上——",
+			say = "枯萎森林，前往西方據點的道路上—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,11 +35,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "唔……有创意的甜品，究竟要怎么做才能算有创意呢。",
+			say = "嗯……有創意的甜點，究竟要怎麼做才能算有創意呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -53,12 +53,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "药剂师",
+			factiontag = "藥師",
 			dir = 1,
 			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "甜品嘛……首先在于口味。",
+			say = "甜點嘛……首先在於口味。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -71,12 +71,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "药剂师",
+			factiontag = "藥師",
 			dir = 1,
 			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果我们能做出与常规甜品不同的口味&应该就算创意了。",
+			say = "如果我們能做出與常規甜點不同的口味，應該就算有創意了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,12 +90,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "药剂师",
+			factiontag = "藥師",
 			dir = 1,
 			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我正好有很多能够当承担调料功能的魔药哦！",
+			say = "我剛好有很多能夠承擔調味料功能的魔藥哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "食材也要和传统甜品做出些区分才行呢~",
+			say = "食材也要和傳統甜點做些區分才行呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果加入啾莱姆鳗……应该会是一个可以称之为创意的大胆尝试！",
+			say = "如果加入啾萊姆鰻……應該會是一個可以稱之為創意的大膽嘗試！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然后还有颜色和形状~！",
+			say = "然後還有顏色和形狀~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我觉得甜品的颜色和形状也很重要哦~！",
+			say = "我覺得甜點的顏色和形狀也很重要哦~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "颜色的话……首先要丰富多彩！最好是五彩斑斓，和彩虹一样！",
+			say = "顏色的話……首先要豐富多彩！最好是五彩斑斕，跟彩虹一樣！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然后形状要有冲击力，能够一下就抓住人眼球的那种！",
+			say = "然後形狀要有衝擊力，能夠一下就吸引人目光的那種！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "比如……七彩定时炸弹啾莱姆大蛋糕，你们觉得怎么样！",
+			say = "例如……七彩定時炸彈啾萊姆大蛋糕，你們覺得怎麼樣！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,11 +244,11 @@ return {
 			},
 			options = {
 				{
-					content = "还要再考虑下气味！",
+					content = "還要再考慮下氣味！",
 					flag = 1
 				},
 				{
-					content = "就这么决定了！",
+					content = "就這麼決定了！",
 					flag = 2
 				},
 				{
@@ -261,10 +261,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "食物讲究色香味俱全。香就是嗅觉，嗅觉上的刺激也很重要。",
+			say = "食物講究色香味俱全。香就是嗅覺，嗅覺上的刺激也很重要。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,10 +274,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "最好再加入一些独特的气味！",
+			say = "最好再加入一些獨特的氣味！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不愧是指挥官，轻而易举就发现了计划中的盲点！",
+			say = "不愧是指揮官，輕易就發現了計畫中的盲點！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,13 +306,13 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "药剂师",
+			factiontag = "藥師",
 			dir = 1,
 			optionFlag = 1,
 			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "气味是么……我这就翻翻魔药，一定能找出些气味独特的来！",
+			say = "氣味是嗎……我這就翻翻魔藥，一定能找出些氣味獨特的來！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,13 +326,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "见习神官",
+			factiontag = "見習神官",
 			dir = 1,
 			optionFlag = 2,
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哥哥……这样做出来的东西真的能吃么。",
+			say = "哥哥……這樣做出來的東西真的能吃嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,10 +346,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "说不定吸血鬼的味觉和人类不同呢！",
+			say = "說不定吸血鬼的味覺和人類不同呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,13 +359,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "见习神官",
+			factiontag = "見習神官",
 			dir = 1,
 			optionFlag = 3,
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哥哥……这样做出来的东西真的能吃么。",
+			say = "哥哥……這樣做出來的東西真的能吃嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,10 +379,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			optionFlag = 3,
-			say = "希望吸血鬼的味觉和人类不同吧……",
+			say = "希望吸血鬼的味覺和人類不同吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,12 +392,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "吸血鬼獵人",
 			dir = 1,
 			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呃……听上去似乎能做出个有趣的东西来呢。",
+			say = "呃……聽起來似乎能做出個有趣的東西來呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,12 +411,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "吸血鬼獵人",
 			dir = 1,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……啧，我不擅长演戏，这次行动我就不参与了。",
+			say = "……嘖，我不擅長演戲，這次行動我就不參與了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,12 +430,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "吸血鬼獵人",
 			dir = 1,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我先去盯着中部要塞的动向，祝你们好运。",
+			say = "我先去盯著中部要塞的動向，祝你們好運。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			bgm = "story-oldcastle-carnival",
-			say = "此刻，我们正拿着制作完成的七彩定时炸弹啾莱姆大蛋糕大摇大摆地接近着西方要塞。",
+			say = "此刻，我們正拿著製作完成的七彩定時炸彈啾萊姆大蛋糕大搖大擺地接近東方要塞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			say = "一路上，果然一只来捣乱的魔物都没有。",
+			say = "一路上，果然一隻來搗亂的魔物都沒有。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,8 +490,8 @@ return {
 			factiontag = "吸血鬼二小姐",
 			dir = 1,
 			nameColor = "#FF9B93",
-			actorName = "{namecode:449}",
-			say = "真是一个有创意的大蛋糕……",
+			actorName = "埃爾賓",
+			say = "真是個有創意的大蛋糕……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -508,8 +508,8 @@ return {
 			factiontag = "吸血鬼二小姐",
 			dir = 1,
 			nameColor = "#FF9B93",
-			actorName = "{namecode:449}",
-			say = "你们是路过{namecode:449:埃尔宾}领地的走私商人么……？",
+			actorName = "埃爾賓",
+			say = "你們是路過埃爾賓領地的走私商人嗎……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -526,8 +526,8 @@ return {
 			factiontag = "吸血鬼二小姐",
 			dir = 1,
 			nameColor = "#FF9B93",
-			actorName = "{namecode:449}",
-			say = "很好……把这个蛋糕留下，就过去吧。",
+			actorName = "埃爾賓",
+			say = "很好……把這個蛋糕留下，就過去吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,8 +544,8 @@ return {
 			factiontag = "吸血鬼二小姐",
 			dir = 1,
 			nameColor = "#FF9B93",
-			actorName = "{namecode:449}",
-			say = "不、等等……你们就这么拿着蛋糕，我现在就过来品尝！",
+			actorName = "埃爾賓",
+			say = "不、等等……你們就這麼拿著蛋糕，我現在就來品嚐！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -563,7 +563,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼~计划成功，她果然被吸引过来了~！",
+			say = "哼哼~計畫成功，她果然被吸引過來了~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -577,7 +577,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			say = "不论制作蛋糕的过程看起来多么胡闹，至少这个蛋糕确实完成了它应该完成的任务。",
+			say = "不論製作蛋糕的過程看起來多麼胡鬧，至少這個蛋糕確實完成了它應該完成的任務。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			say = "就在吸血鬼二小姐毫无防备地走到抚顺面前，视线被大蛋糕完全占据时。",
+			say = "就在吸血鬼二小姐毫無防備地走到撫順面前，視線被大蛋糕完全佔據時。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			say = "躲藏在阴影中的吸血鬼猎人，为其奉上了解脱一击——",
+			say = "躲藏在陰影中的吸血鬼獵人，為其奉上了解脫一擊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -611,8 +611,8 @@ return {
 			nameColor = "#FF9B93",
 			bgName = "star_level_bg_156",
 			actor = 402080,
-			actorName = "{namecode:449}",
-			say = "啊……{namecode:449:埃尔宾}感受到生命之力正在流逝……",
+			actorName = "埃爾賓",
+			say = "啊……埃爾賓感受到生命之力正在流逝……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -646,8 +646,8 @@ return {
 			factiontag = "吸血鬼二小姐",
 			dir = 1,
 			actor = 402080,
-			actorName = "{namecode:449}",
-			say = "但是诅咒也随之流逝了……",
+			actorName = "埃爾賓",
+			say = "但是詛咒也隨之流逝了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -665,8 +665,8 @@ return {
 			dir = 1,
 			nameColor = "#FF9B93",
 			actor = 402080,
-			actorName = "{namecode:449}",
-			say = "终于，{namecode:449:埃尔宾}等到解脱的这一天……",
+			actorName = "埃爾賓",
+			say = "終於，埃爾賓等到解脫的這一天……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -684,8 +684,8 @@ return {
 			dir = 1,
 			nameColor = "#FF9B93",
 			actor = 402080,
-			actorName = "{namecode:449}",
-			say = "……你们的甜品，真的很有创意。",
+			actorName = "埃爾賓",
+			say = "……你們的甜點，真的很有創意。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -703,8 +703,8 @@ return {
 			dir = 1,
 			nameColor = "#FF9B93",
 			actor = 402080,
-			actorName = "{namecode:449}",
-			say = "……我的最后一刻，过得真的好开心……",
+			actorName = "埃爾賓",
+			say = "……我的最後一刻，過得真的好開心……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -722,8 +722,8 @@ return {
 			dir = 1,
 			nameColor = "#FF9B93",
 			actor = 402080,
-			actorName = "{namecode:449}",
-			say = "姐姐和女仆长……也拜托你们了……",
+			actorName = "埃爾賓",
+			say = "姊姊和女僕長……也拜託你們了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -742,8 +742,8 @@ return {
 			nameColor = "#FF9B93",
 			paintingNoise = true,
 			actor = 402080,
-			actorName = "{namecode:449}",
-			say = "祝你们一路顺风……正义的冒险者们……",
+			actorName = "埃爾賓",
+			say = "祝你們一路順風……正義的冒險者們……",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -9,7 +9,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "为什么会委托冒险者来炎狱湖钓鱼……？",
+			say = "為什麼會委託冒險者來炎獄湖釣魚……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,7 +18,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "炎狱湖这地方居然……真的有鱼？！",
+			say = "炎獄湖這裡居然……真的有魚？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "可以获取委托奖励了！",
+			say = "委託終於完成了，可以回冒險者公會領獎勵了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

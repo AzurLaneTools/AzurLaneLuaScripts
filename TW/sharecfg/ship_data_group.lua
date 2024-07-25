@@ -488,6 +488,9 @@ pg.ship_data_group = setmetatable({
 		[20135] = {
 			569
 		},
+		[20137] = {
+			630
+		},
 		[20221] = {
 			372
 		},
@@ -535,6 +538,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[20210] = {
 			113
+		},
+		[20234] = {
+			631
 		},
 		[20211] = {
 			114
@@ -610,6 +616,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[20310] = {
 			552
+		},
+		[20313] = {
+			632
 		},
 		[20401] = {
 			127
@@ -1231,6 +1240,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[40310] = {
 			527
+		},
+		[40314] = {
+			640
 		},
 		[40312] = {
 			549
@@ -1930,6 +1942,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[970104] = {
 			30029
+		},
+		[970105] = {
+			30032
 		}
 	},
 	get_id_list_by_handbook_type = {
@@ -2096,6 +2111,7 @@ pg.ship_data_group = setmetatable({
 			460,
 			550,
 			569,
+			630,
 			372,
 			373,
 			557,
@@ -2112,6 +2128,7 @@ pg.ship_data_group = setmetatable({
 			423,
 			112,
 			113,
+			631,
 			114,
 			115,
 			335,
@@ -2137,6 +2154,7 @@ pg.ship_data_group = setmetatable({
 			125,
 			126,
 			552,
+			632,
 			127,
 			128,
 			451,
@@ -2344,6 +2362,7 @@ pg.ship_data_group = setmetatable({
 			479,
 			483,
 			527,
+			640,
 			549,
 			546,
 			568,
@@ -2582,7 +2601,8 @@ pg.ship_data_group = setmetatable({
 			30025,
 			30026,
 			30027,
-			30029
+			30029,
+			30032
 		}
 	},
 	all = {
@@ -2748,6 +2768,7 @@ pg.ship_data_group = setmetatable({
 		460,
 		550,
 		569,
+		630,
 		372,
 		373,
 		557,
@@ -2764,6 +2785,7 @@ pg.ship_data_group = setmetatable({
 		423,
 		112,
 		113,
+		631,
 		114,
 		115,
 		335,
@@ -2789,6 +2811,7 @@ pg.ship_data_group = setmetatable({
 		125,
 		126,
 		552,
+		632,
 		127,
 		128,
 		451,
@@ -2996,6 +3019,7 @@ pg.ship_data_group = setmetatable({
 		479,
 		483,
 		527,
+		640,
 		549,
 		546,
 		568,
@@ -3228,7 +3252,8 @@ pg.ship_data_group = setmetatable({
 		30025,
 		30026,
 		30027,
-		30029
+		30029,
+		30032
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -10641,6 +10666,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[630] = {
+		nationality = 2,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 20137,
+		index_id = 170,
+		code = 630,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"A",
+			"D",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：從零開始的魔王討伐之旅",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[372] = {
 		nationality = 2,
 		type = 2,
@@ -11382,6 +11439,38 @@ pg.base.ship_data_group = {
 						projectName = "light",
 						page = 1
 					}
+				},
+				0
+			}
+		}
+	},
+	[631] = {
+		nationality = 2,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 20234,
+		index_id = 187,
+		code = 631,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：從零開始的魔王討伐之旅",
+				{
+					""
 				},
 				0
 			}
@@ -12505,6 +12594,38 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：奶油餅乾要夾心！",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[632] = {
+		nationality = 2,
+		type = 3,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 20313,
+		index_id = 213,
+		code = 632,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"C",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：從零開始的魔王討伐之旅",
 				{
 					""
 				},
@@ -20948,6 +21069,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[640] = {
+		nationality = 4,
+		type = 3,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 40314,
+		index_id = 434,
+		code = 640,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"B",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：從零開始的魔王討伐之旅",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[549] = {
 		nationality = 4,
 		type = 3,
@@ -29134,6 +29287,41 @@ pg.base.ship_data_group = {
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9701041
+					}
+				},
+				0
+			}
+		}
+	},
+	[30032] = {
+		nationality = 97,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970105,
+		index_id = 30032,
+		code = 30032,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"B",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：世界巡遊",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9701051
 					}
 				},
 				0

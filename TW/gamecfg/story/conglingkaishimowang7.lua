@@ -8,7 +8,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			bgm = "theme-camelot",
-			say = "随着小队继续向内深入，无尽树海中的道路也愈发复杂。",
+			say = "隨著小隊繼續向內深入，無盡樹海中的道路也愈發複雜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
-			say = "不过依靠情报收集与分析技能，我的终端总能在道路分叉处指出正确的路线。",
+			say = "不過依靠情報收集與分析技能，我的終端總是能在道路分叉處指出正確的路線。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
-			say = "终于在又穿过一片灌木丛后，前方出现了一片豁然开朗的林间空地。",
+			say = "終於在又穿過一片灌木叢後，前方出現了一片豁然開朗的林間空地。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 		{
 			portrait = 131171,
 			side = 2,
-			factiontag = "传说级魔法师",
+			factiontag = "傳說級魔法師",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
@@ -90,7 +90,7 @@ return {
 			portrait = 131171,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "传说级魔法师",
+			factiontag = "傳說級魔法師",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actorName = "拉菲",
@@ -113,7 +113,7 @@ return {
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……你们看前面，那个在草地里睡觉的人。",
+			say = "……你們看前面，那個在草地裡睡覺的人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "身边还放了一个可爱的兔兔法杖……那就是我们要找的大魔法师吧？",
+			say = "身邊還放了一個可愛的兔兔法杖……那就是我們要找的大魔法師吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们怎么看这个魔法师？",
+			say = "你們怎麼看這個魔法師？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,12 +164,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "见习神官",
+			factiontag = "見習神官",
 			dir = 1,
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "独角兽能从她身上感受到充盈的魔力反应……",
+			say = "獨角獸能從她身上感受到充盈的魔力反應……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,9 +183,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "情报分析也显示，她的等级和魔法攻击高到夸张。",
+			say = "情報分析也顯示，她的等級和魔法攻擊高到誇張。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇哦~居然是货真价实的大魔法师啊。",
+			say = "哇~居然是貨真價實的大魔法師。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过就这么慵懒地睡在草地上，一点防备都没有……入队之后真的能派上用场么。",
+			say = "不過就這麼慵懶地睡在草地上，一點防備都沒有……入隊之後真的能派上用場麼。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,11 +231,11 @@ return {
 			portrait = 131171,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "传说级魔法师",
+			factiontag = "傳說級魔法師",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actorName = "拉菲",
-			say = "……感应魔法有反应。",
+			say = "……感應魔法有反應。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,11 +249,11 @@ return {
 			portrait = 131171,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "传说级魔法师",
+			factiontag = "傳說級魔法師",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actorName = "拉菲",
-			say = "……嗯？你们是？",
+			say = "……嗯？你們是？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,9 +267,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "看来被发现了，我们过去好好聊聊吧。",
+			say = "看來被發現了，我們過去好好聊聊吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,13 +278,13 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			factiontag = "传说级魔法师",
+			factiontag = "傳說級魔法師",
 			dir = 1,
 			bgName = "star_level_bg_518",
 			actor = 131171,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……你们的来意……拉菲清楚了。",
+			say = "……你們的來意……拉菲清楚了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,12 +315,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "传说级魔法师",
+			factiontag = "傳說級魔法師",
 			dir = 1,
 			actor = 131171,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是……拉菲拒绝。",
+			say = "但是……拉菲拒絕。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸？我们可是要去讨伐魔王哦！",
+			say = "欸？我們可是要去討伐魔王哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你不是传说中曾经成功讨伐过魔王的大魔法师么，为什么要拒绝我们的邀请！",
+			say = "妳不是傳說中曾經成功討伐過魔王的大魔法師嗎，為什麼要拒絕我們的邀約！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,12 +372,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "传说级魔法师",
+			factiontag = "傳說級魔法師",
 			dir = 1,
 			actor = 131171,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就算讨伐了旧的魔王……还会有新的魔王冒出来。",
+			say = "就算討伐了舊的魔王……還會有新的魔王冒出來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,12 +391,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "传说级魔法师",
+			factiontag = "傳說級魔法師",
 			dir = 1,
 			actor = 131171,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "拉菲已经累了……不想再战斗了。",
+			say = "拉菲已經累了……不想再戰鬥了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -414,7 +414,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呃……这个大魔法师，派不上用场啊。",
+			say = "呃……這個大魔法師，派不上用場啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,9 +428,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "（事情似乎有些奇怪……）",
+			say = "（事情似乎有點奇怪……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,16 +440,16 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "（等等，情报分析的技能有反应，这个难道是使用提示……）",
+			say = "（等等，情報分析的技能有反應，這個難道是使用提示……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "对大魔法师使用“情报分析”技能。",
+					content = "對大魔法師使用「情報分析」技能。",
 					flag = 1
 				}
 			}
@@ -458,37 +458,18 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
-			say = "在使用了情报分析技能后，关于大魔法师的情报流入了系统终端。",
+			say = "在使用了情報分析技能後，關於大魔法師的情報流入了系統終端。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "冒险终端",
+			actorName = "冒險終端",
 			side = 2,
 			bgName = "star_level_bg_518",
 			nameColor = "#A9F548FF",
-			say = "「大魔法师拉菲，种族：兔兔星人。」",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			icon = {
-				scale = 1.4,
-				image = "Props/story_tablet",
-				pos = {
-					0,
-					100
-				}
-			}
-		},
-		{
-			actorName = "冒险终端",
-			side = 2,
-			bgName = "star_level_bg_518",
-			nameColor = "#A9F548FF",
-			say = "「在千年前曾经斩杀过魔王的传说中勇者小队的一员。」",
+			say = "「大魔法師拉菲，種族：兔兔星人。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,11 +484,11 @@ return {
 			}
 		},
 		{
-			actorName = "冒险终端",
+			actorName = "冒險終端",
 			side = 2,
 			bgName = "star_level_bg_518",
 			nameColor = "#A9F548FF",
-			say = "「当前状态：诅咒缠身。」",
+			say = "「在千年前曾經斬殺過魔王的傳說中勇者小隊的一員。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,11 +503,11 @@ return {
 			}
 		},
 		{
-			actorName = "冒险终端",
+			actorName = "冒險終端",
 			side = 2,
 			bgName = "star_level_bg_518",
 			nameColor = "#A9F548FF",
-			say = "「诅咒名：怠惰咒。」",
+			say = "「當前狀態：詛咒纏身。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,11 +522,11 @@ return {
 			}
 		},
 		{
-			actorName = "冒险终端",
+			actorName = "冒險終端",
 			side = 2,
 			bgName = "star_level_bg_518",
 			nameColor = "#A9F548FF",
-			say = "「由前代魔王留下的诅咒，可将诅咒目标禁锢在过去的循环中，直到其理智完全被负面感情所吞噬。」",
+			say = "「詛咒名：怠惰咒。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,11 +541,30 @@ return {
 			}
 		},
 		{
-			actorName = "冒险终端",
+			actorName = "冒險終端",
 			side = 2,
 			bgName = "star_level_bg_518",
 			nameColor = "#A9F548FF",
-			say = "「解除诅咒的方法：不明。」",
+			say = "「由前代魔王留下的詛咒，可將詛咒目標禁錮在過去的循環中，直到其理智完全被負面感情所吞噬。」",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			icon = {
+				scale = 1.4,
+				image = "Props/story_tablet",
+				pos = {
+					0,
+					100
+				}
+			}
+		},
+		{
+			actorName = "冒險終端",
+			side = 2,
+			bgName = "star_level_bg_518",
+			nameColor = "#A9F548FF",
+			say = "「解除詛咒的方法：不明。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,9 +582,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "……看来如果不解除大魔法师的诅咒，我们是不可能将她拉入小队了。",
+			say = "……看來如果不解除大魔法師的詛咒，我們不可能將她拉進小隊了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没想到竟然是这样……",
+			say = "沒想到竟然是這樣……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -616,7 +616,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "千年前就讨伐了魔王，而这个诅咒是当时的魔王留下的……",
+			say = "千年前就討伐了魔王，而這個詛咒是當時的魔王留下的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -634,7 +634,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也就是说她已经承受了千年诅咒了么……",
+			say = "也就是說她已經承受了千年詛咒了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -653,7 +653,7 @@ return {
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜呜……千年的诅咒也没能完全磨灭她的理性……真是一个强大的魔法师！",
+			say = "嗚嗚嗚……千年的詛咒也沒能完全磨滅她的理性……真是個強大的魔法師！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -667,12 +667,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "见习神官",
+			factiontag = "見習神官",
 			dir = 1,
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哥哥，我们快想办法解除她的诅咒吧！",
+			say = "哥哥，我們快想辦法解除她的詛咒吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -686,9 +686,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "那是自然。不过这个诅咒看上去有些棘手，我们还需要更多的情报……",
+			say = "那是自然。不過這個詛咒看起來有些棘手，我們還需要更多的情報……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,7 +702,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官你看！在她睡觉的毯子周围有一摞餐盘，似乎有人会定期来给她送饭！",
+			say = "指揮官你看！在她睡覺的毯子周圍有一疊餐盤，似乎有人會定期來給她送飯！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -721,7 +721,7 @@ return {
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真的欸……那个来送饭的人或许会知道些什么！",
+			say = "真的欸……那個來送飯的人或許會知道些什麼！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -735,7 +735,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_518",
-			say = "仔细观察后，不光在周围发现了装满食物的餐盘，还发现了一些治疗用的药水。",
+			say = "仔細觀察後，不光在周圍發現了裝滿食物的餐盤，也發現了一些治療用的藥水。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -745,11 +745,11 @@ return {
 			portrait = 403140,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "钢铁教会机械师",
+			factiontag = "鋼鐵教會機械師",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这些药水属于附近村落中的一位药剂师哦。",
+			say = "這些藥水屬於附近村落中的一位藥劑師哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -767,7 +767,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你是……之前在王都里突然出现的钢铁教会机械师？",
+			say = "妳是……之前在王都裡突然出現的鋼鐵教會機械師？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -785,7 +785,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这次也是突然出现在我们身边……你难道是在跟踪我么？！",
+			say = "這次也是突然出現在我們身邊……妳是在跟蹤我們嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -798,13 +798,13 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			factiontag = "钢铁教会机械师",
+			factiontag = "鋼鐵教會機械師",
 			dir = 1,
 			bgName = "star_level_bg_518",
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸……让诸位感到不快我很抱歉，但我绝无跟踪诸位的意思。",
+			say = "欸……讓各位感到不快我很抱歉，但我絕無跟蹤諸位的意思。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -835,12 +835,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "钢铁教会机械师",
+			factiontag = "鋼鐵教會機械師",
 			dir = 1,
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我只是看到诸位离开王都要前往无尽树海的深处，而深处的情况又如各位所见……",
+			say = "我只是看到諸位離開王都要前往無盡樹海的深處，而深處的情況又如各位所見……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -853,12 +853,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "钢铁教会机械师",
+			factiontag = "鋼鐵教會機械師",
 			dir = 1,
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我有些不放心，就跟过来了。",
+			say = "我有些不放心，就跟過來了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -872,12 +872,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "钢铁教会机械师",
+			factiontag = "鋼鐵教會機械師",
 			dir = 1,
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其实教会多年来一直在试图解除大魔法师身上的诅咒，只可惜迟迟没有进展……",
+			say = "其實教會多年來一直在試圖解除大魔法師身上的詛咒，只可惜遲遲沒有進展……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -891,10 +891,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这些治疗用的药水，是你们教会提供的么？",
+			say = "這些治療用的藥水，是妳們教會提供的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -904,12 +904,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "钢铁教会机械师",
+			factiontag = "鋼鐵教會機械師",
 			dir = 1,
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那倒不是，这些药水是附近村落的一位好心药剂师留下的。",
+			say = "那倒不是，這些藥水是附近村落的好心藥劑師留下的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -923,12 +923,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "钢铁教会机械师",
+			factiontag = "鋼鐵教會機械師",
 			dir = 1,
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那位药剂师小姐也自发地照顾大魔法师很久了。",
+			say = "那位藥劑師小姐也自發性地照顧大魔法師很久了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -941,12 +941,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "钢铁教会机械师",
+			factiontag = "鋼鐵教會機械師",
 			dir = 1,
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在这期间，她也一直试图用自己的方法解除大魔法师的诅咒。",
+			say = "在這段期間，她也一直試圖用自己的方法解除大魔法師的詛咒。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -960,12 +960,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "钢铁教会机械师",
+			factiontag = "鋼鐵教會機械師",
 			dir = 1,
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可惜一直以来也没什么效果……",
+			say = "可惜一直以來也沒什麼效果……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -978,12 +978,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "钢铁教会机械师",
+			factiontag = "鋼鐵教會機械師",
 			dir = 1,
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过她在上次失败后，曾表示下次带来的药剂一定能行……",
+			say = "不過她在上次失敗後，曾表示下次帶來的藥劑一定能行……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -997,12 +997,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "钢铁教会机械师",
+			factiontag = "鋼鐵教會機械師",
 			dir = 1,
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然我已经不抱希望了，不过诸位如果在意的话或许可以去看看？",
+			say = "雖然我已經不抱希望了，但諸位如果在意的話或許可以去看看？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1020,7 +1020,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "附近村落中一直在研究大魔法师诅咒的药剂师……真是个宝贵的线索。",
+			say = "附近村落中一直在研究大魔法師詛咒的藥劑師……真是寶貴的線索。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1038,7 +1038,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我们去看看吧~！",
+			say = "指揮官，我們去看看吧~！",
 			painting = {
 				alpha = 0.3,
 				time = 1

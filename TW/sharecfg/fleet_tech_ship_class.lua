@@ -722,7 +722,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 39,
 		nation = 2,
 		ships = {
-			20132
+			20132,
+			20137
 		}
 	},
 	[20113] = {
@@ -861,7 +862,8 @@ pg.fleet_tech_ship_class = {
 		nation = 2,
 		ships = {
 			20209,
-			20210
+			20210,
+			20234
 		}
 	},
 	[20211] = {
@@ -896,7 +898,8 @@ pg.fleet_tech_ship_class = {
 		ships = {
 			20301,
 			20302,
-			20309
+			20309,
+			20313
 		}
 	},
 	[20302] = {
@@ -2075,8 +2078,9 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 121,
 		nation = 4,
 		ships = {
-			40304,
-			40305
+			40309,
+			40310,
+			40314
 		}
 	},
 	[40303] = {
@@ -3278,6 +3282,17 @@ pg.fleet_tech_ship_class = {
 			970104
 		}
 	},
+	[970105] = {
+		shiptype = 1,
+		name = "吸血鬼·META",
+		t_level = 3,
+		id = 970105,
+		t_level_1 = 9,
+		nation = 97,
+		ships = {
+			970105
+		}
+	},
 	[970201] = {
 		shiptype = 2,
 		name = "海倫娜·META",
@@ -3816,6 +3831,7 @@ pg.fleet_tech_ship_class = {
 		970102,
 		970103,
 		970104,
+		970105,
 		970201,
 		970202,
 		970203,

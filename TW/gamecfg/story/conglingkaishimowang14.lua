@@ -8,7 +8,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			bgm = "story-mmorpg",
-			say = "在战斗彻底结束后，我们收到了前往守望要塞参加庆功宴的正式邀请。",
+			say = "在戰鬥徹底結束後，我們收到了前往守望要塞參加慶功宴的正式邀請。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
-			say = "这处如今被视为守望长城心脏的地方，在遥远的过去，不过是一个随处可见的小村落。",
+			say = "這處如今被視為守望長城心臟的地方，在遙遠的過去，不過是一個隨處可見的小村落。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
-			say = "直到旧都沦陷，魔物大军跨过旧日城墙的那一天。",
+			say = "直到舊都淪陷，魔物大軍跨過舊日城牆的那一天。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
-			say = "远在边疆的旧王朝的最后一位王族，如今人类王国新纪元的第一位国王在众神的帮助下，以此处为中心点建立了如今的守望城墙。",
+			say = "遠在邊疆的舊王朝的最後一位王族，如今人類王國新紀元的第一位國王在眾神的幫助下，以此處為中心點建立了如今的守望城牆。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
-			say = "正是这座守望城墙的存在，人类王国的剩余部分才能从魔王军毁灭的铁蹄中得以幸免。",
+			say = "正是這座守望城牆的存在，人類王國的剩餘部分才能從魔王軍毀滅的鐵蹄中得以倖免。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
-			say = "王都得以重建，王国得以再次壮大。",
+			say = "王都得以重建，王國得以再次壯大。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
-			say = "而作为守望长城中心点的此处，也逐渐发展成了人类王国的第二大都市——守望要塞。",
+			say = "而作為守望長城中心點的此處，也逐漸發展成了人類王國的第二大都市——守望要塞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
-			say = "此时此刻，守望要塞中张灯结彩，人声鼎沸。",
+			say = "此時此刻，守望要塞中張燈結彩，人聲鼎沸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
-			say = "一场象征“胜利”的庆典正在召开中——",
+			say = "一場象徵「勝利」的慶典正在召開中——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
 			bgm = "qe-ova-15",
-			say = "守望要塞·宴会厅",
+			say = "守望要塞宴會廳",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,11 +143,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "王国军二级魔法师",
+			factiontag = "王國軍二級魔法師",
 			dir = 1,
 			actor = 801040,
 			nameColor = "#A9F548FF",
-			say = "……真是太不可思议了，你们解除了大魔法师的诅咒……",
+			say = "……真是太不可思議了，你們解除了大魔法師的詛咒……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,11 +161,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "王国军二级魔法师",
+			factiontag = "王國軍二級魔法師",
 			dir = 1,
 			actor = 801040,
 			nameColor = "#A9F548FF",
-			say = "还因此见到了传说中勇者小队的其他成员？！",
+			say = "還因此見到了傳說中勇者小隊的其他成員？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿~没错哦，而且更不可思议的是——",
+			say = "嘿嘿~沒錯哦，而且更不可思議的是——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "传说中的勇者之剑……居然是一把咸鱼之剑！",
+			say = "傳說中的勇者之劍……居然是一把鹹魚之劍！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,11 +214,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "王国军二级魔法师",
+			factiontag = "王國軍二級魔法師",
 			dir = 1,
 			actor = 801030,
 			nameColor = "#A9F548FF",
-			say = "咸鱼剑……不可能吧，你们肯定是在吹牛。",
+			say = "鹹魚劍……不可能吧，你們一定是在吹牛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼，我才没有吹牛呢！",
+			say = "哼，我才沒有吹牛呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "叮叮♪~真的也好，假的也好，现在都不重要啦。",
+			say = "叮叮♪~真的也好，假的也好，現在都不重要啦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们看着是什么~",
+			say = "妳們看這是什麼~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,11 +288,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "王国军守护骑士",
+			factiontag = "王國軍守護騎士",
 			dir = 1,
 			actor = 901110,
 			nameColor = "#A9F548FF",
-			say = "呃……这锅黏糊糊的条状物……是什么？",
+			say = "呃……這鍋黏黏的條狀物……是什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是我的拿手菜，也是我最喜欢吃的鳗鱼冻哦~庆功宴上来上一份再合适不过了！",
+			say = "是我的拿手菜，也是我最喜歡吃的鰻魚凍哦~慶功宴上來上一份再合適不過了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过因为没有找到鳗鱼，所以这次就用了与鳗鱼类似的啾莱姆鳗代替啦~！",
+			say = "不過因為沒有找到鰻魚，所以這次就用了與鰻魚類似的啾萊姆鰻代替啦~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大家不用客气，一同来品尝吧！",
+			say = "大家不用客氣，一同來品嚐吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,11 +363,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "王国军守护骑士",
+			factiontag = "王國軍守護騎士",
 			dir = 1,
 			actor = 901130,
 			nameColor = "#A9F548FF",
-			say = "啾、啾莱姆鳗是什么东西啊？！那不是魔物么？！",
+			say = "啾、啾萊姆鰻是什麼東西啊？！那不是魔物嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,11 +391,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "王国军守护骑士",
+			factiontag = "王國軍守護騎士",
 			dir = 1,
 			actor = 901110,
 			nameColor = "#A9F548FF",
-			say = "咳、不……不用了，热情的冒险者。",
+			say = "咳、不……不用了，熱情的冒險者。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,11 +409,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "王国军守护骑士",
+			factiontag = "王國軍守護騎士",
 			dir = 1,
 			actor = 901110,
 			nameColor = "#A9F548FF",
-			say = "如此美味的食物，还是——",
+			say = "如此美味的食物，還是——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,12 +427,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "药剂师",
+			factiontag = "藥師",
 			dir = 1,
 			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还是搭配上更加美味的饮料一起食用吧~！",
+			say = "還是搭配上更加美味的飲料一起吃吧~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -446,7 +446,7 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "王国军守护骑士",
+			factiontag = "王國軍守護騎士",
 			dir = 1,
 			actor = 901110,
 			nameColor = "#A9F548FF",
@@ -464,11 +464,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "王国军守护骑士",
+			factiontag = "王國軍守護騎士",
 			dir = 1,
 			actor = 901110,
 			nameColor = "#A9F548FF",
-			say = "药剂师小姐……那瓶在你手中散发着五彩斑斓光泽的黑色液体是什么？",
+			say = "藥劑師小姐……那瓶在妳手中散發著五彩斑斕光澤的黑色液體是什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -482,12 +482,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "药剂师",
+			factiontag = "藥師",
 			dir = 1,
 			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然是我的秘制特调饮料啦~",
+			say = "當然是我的秘製特調飲料啦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,12 +501,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "药剂师",
+			factiontag = "藥師",
 			dir = 1,
 			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喝了之后，可以将战斗积累的所有疲劳一扫而空哦~",
+			say = "喝了之後，可以將戰鬥累積的所有疲勞一掃而空~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,11 +519,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "王国军守护骑士",
+			factiontag = "王國軍守護騎士",
 			dir = 1,
 			actor = 901110,
 			nameColor = "#A9F548FF",
-			say = "呃……嗯，我们是王国军骑士，就算经历了一天的战斗也不觉得疲劳。",
+			say = "呃……嗯，我們是王國軍騎士，就算經歷了一天的戰鬥也不覺得疲勞。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -536,11 +536,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "王国军守护骑士",
+			factiontag = "王國軍守護騎士",
 			dir = 1,
 			actor = 901110,
 			nameColor = "#A9F548FF",
-			say = "这份“秘制饮料”还是让其他人来品尝吧……",
+			say = "這份「秘製飲料」還是讓其他人來品嚐吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,7 +554,7 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "药剂师",
+			factiontag = "藥師",
 			dir = 1,
 			actor = 201371,
 			nameColor = "#A9F548FF",
@@ -573,11 +573,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "王国军守护骑士",
+			factiontag = "王國軍守護騎士",
 			dir = 1,
 			actor = 901110,
 			nameColor = "#A9F548FF",
-			say = "不，请容许我坚定拒绝！",
+			say = "不，請容許我堅定拒絕！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -601,7 +601,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
-			say = "筵席间，严肃的王国骑士和随性的冒险者们已经打成了一片。",
+			say = "筵席間，嚴肅的王國騎士和隨性的冒險者們已經打成了一片。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -628,7 +628,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
-			say = "整个大厅萦绕着欢乐的气息。",
+			say = "整個大廳縈繞著歡樂的氣息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,19 +638,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
-			say = "可是……有一件事一直萦绕在我的心头，让我无法融入到这份欢乐之中。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
-			nameColor = "#A9F548FF",
-			say = "……这枚金币，是今天在与不死军团的将军战斗后获得的。",
+			say = "可是……有一件事一直縈繞在我的心頭，讓我無法融入這份歡樂之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,9 +648,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "情报分析技能显示，这是一枚旧王国时代铸造的金币……",
+			say = "……這枚金幣，是今天在與不死軍團的將軍戰鬥後獲得的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,9 +660,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "这样的一枚金币，为什么会出现在不死军团的将军身上……",
+			say = "情報分析技能顯示，這是一枚舊王國時代鑄造的金幣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,9 +672,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "旧王国……不死军团……还有魔王之间似乎存在某些关联。",
+			say = "這樣的一枚金幣，為什麼會出現在不死軍團的將軍身上……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -696,9 +684,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "……手头的线索太少，还无法得出结论。",
+			say = "舊王國……不死軍團……還有魔王之間似乎有某些關聯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -708,9 +696,21 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "不过这个游戏的世界观设定……倒是有些意思。",
+			say = "……手頭上的線索太少，還無法下結論。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_600",
+			factiontag = "指揮官",
+			nameColor = "#A9F548FF",
+			say = "不過這個遊戲的世界觀設定……倒是有點意思。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -724,7 +724,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actorName = "利物浦",
-			say = "指挥官————",
+			say = "指揮官————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -738,11 +738,11 @@ return {
 			portrait = 201371,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "药剂师",
+			factiontag = "藥師",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "努比亚人",
-			say = "指挥官~~~~",
+			actorName = "努比亞",
+			say = "指揮官~~~~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -756,7 +756,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
-			say = "纵使没有选择融入会场的欢乐，欢乐的气息似乎自己找了过来。",
+			say = "縱使沒有選擇融入會場的歡樂，歡樂的氣息似乎自己找了過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -771,7 +771,7 @@ return {
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜呜呜……她们所有人都不愿意品尝利物浦的拿手好菜！",
+			say = "嗚嗚嗚……她們所有人都不願意品嚐利物浦的拿手好菜！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -785,12 +785,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "药剂师",
+			factiontag = "藥師",
 			dir = 1,
 			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜呜呜……她们所有人都不愿意品尝努比亚人的特制药水~！",
+			say = "嗚嗚嗚……她們所有人都不願意品嚐努比亞的特製藥水~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -809,7 +809,7 @@ return {
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，你应该会愿意尝尝吧！",
+			say = "指揮官，你應該會願意嚐嚐吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -823,12 +823,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "药剂师",
+			factiontag = "藥師",
 			dir = 1,
 			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，你应该不会拒绝吧~！",
+			say = "指揮官，你應該不會拒絕吧~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -842,9 +842,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "嗯……反正已经有了毒抗性，这种程度应该没关系吧。",
+			say = "嗯……反正已經有了詛咒抗性SSS，這種程度應該沒關係吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -854,36 +854,36 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "试试就试试——",
+			say = "試試就試試——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "品尝利物浦的拿手好菜！",
+					content = "品嚐利物浦的拿手好菜！",
 					flag = 1
 				},
 				{
-					content = "品尝努比亚人的特制药水！",
+					content = "品嚐努比亞的特製藥水！",
 					flag = 2
 				},
 				{
-					content = "为什么不能两个一起？",
+					content = "為什麼不能兩個一起？",
 					flag = 3
 				}
 			}
 		},
 		{
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			side = 2,
 			bgName = "star_level_bg_600",
 			bgm = "story-richang-9",
 			actor = 0,
 			nameColor = "#A9F548FF",
-			say = "呃……我这是……",
+			say = "呃……我這是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -910,9 +910,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "昏过去了么……",
+			say = "昏過去了嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -922,7 +922,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
-			say = "感觉自己似乎正枕在某个温暖又柔软的物体上……",
+			say = "感覺自己似乎正枕在某個溫暖又柔軟的物體上…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -932,7 +932,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
-			say = "一股好闻的香气传入鼻腔……",
+			say = "一股好聞的香氣傳入鼻腔……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -942,12 +942,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "见习神官",
+			factiontag = "見習神官",
 			dir = 1,
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哥哥……你终于醒了。",
+			say = "哥哥……你終於醒了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -961,12 +961,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "见习神官",
+			factiontag = "見習神官",
 			dir = 1,
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我已经好好教训过利物浦和努比亚人了……",
+			say = "我已經好好教訓過利物浦和努比亞了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -980,12 +980,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "见习神官",
+			factiontag = "見習神官",
 			dir = 1,
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是的……我才一会儿不在，她们就给哥哥吃奇怪的东西……",
+			say = "真是的……我才一下子不在，她們就給哥哥吃奇怪的東西……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -999,9 +999,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "刚刚是独角兽一直在照顾我么？谢谢……",
+			say = "剛剛是獨角獸一直在照顧我嗎？謝謝……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1011,12 +1011,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "见习神官",
+			factiontag = "見習神官",
 			dir = 1,
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎嘿嘿……哥哥感觉还好么？",
+			say = "哎嘿嘿……哥哥感覺還好嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1030,9 +1030,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "不用担心，我没事。",
+			say = "不用擔心，我沒事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1042,9 +1042,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "看来毒抗性最后还是发挥了它应该起到的效果……",
+			say = "看來毒抗性最後還是發揮了它該有的效果…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1054,11 +1054,11 @@ return {
 			portrait = 802020,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "圣女贞德",
-			say = "呵呵，你要是倒在这里，那我就等不到你打倒魔王的那一天了哦。",
+			actorName = "聖女貞德",
+			say = "呵呵，你要是倒在這裡，那我就等不到你打倒魔王的那一天了哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1072,9 +1072,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "是啊……要是还没有见到魔王，就倒在了圣女、神官和天使都在的庆功宴上的话。",
+			say = "是啊……要是還沒見到魔王，就倒在了聖女、神官和天使都在的慶功宴上的話。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1084,9 +1084,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "那真要变成一个大笑话了。",
+			say = "那真是要變成一個大笑話了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1096,11 +1096,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "指挥官，你话里有话哦~",
+			say = "指揮官，你話裡有話哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1113,11 +1113,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_600",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "既然你已经没事了，那就请召集你的同伴前来，我有重要的事要说。",
+			say = "既然你已經沒事了，那就請召集你的同伴前來，我有重要的事要說。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1132,7 +1132,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
 			bgm = "story-musicanniversary-gorgeous",
-			say = "一段时间后，守望要塞的大会议室中。",
+			say = "一段時間後，守望要塞的大會議室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1159,11 +1159,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "——鉴于诸位所做出的以上功绩，国王陛下决定不再追究你们炸毁王宫谒见之厅一事的责任。",
+			say = "——鑑於各位所做出的以上功績，國王陛下決定不再追究你們炸毀王宮謁見之廳一事的責任。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1176,11 +1176,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "同时为诸位补发通过守望要塞所必须的通关许可证。",
+			say = "同時為諸位補發通過守望要塞所必須的通關許可證。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1194,11 +1194,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "当然，诸位前往荒芜之地所需的装备与补给物资也由王国军全额承担。",
+			say = "當然，諸位前往荒蕪之地所需的裝備與補給物資也由王國軍全額承擔。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1211,11 +1211,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "稍后诸位可以前往要塞的王国军械库中自由挑选。",
+			say = "稍後諸位可以前往要塞的王國軍械庫中自由挑選。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1233,7 +1233,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……通关许可证？",
+			say = "……通關許可證？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1251,7 +1251,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呃、难道……穿过要塞去打魔王还需要许可证的么？！",
+			say = "呃、難道……穿過要塞去打魔王還需要許可證的嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1265,7 +1265,7 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
@@ -1282,11 +1282,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "荒芜之地凶险万分，我们不能放任实力不足的王国未来无端断送自己的生命啊。",
+			say = "荒蕪之地兇險萬分，我們不能放任實力不足的王國未來無端斷送自己的生命啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1304,7 +1304,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还、还好我们去参加了保卫战……",
+			say = "還、還好我們去參加了保衛戰……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1322,7 +1322,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不然要是没有许可证的话，讨伐魔王的冒险之旅就要结束了……",
+			say = "不然要是沒有許可證的話，討伐魔王的冒險之旅就要結束了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1336,11 +1336,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "不仅如此，你们还会被守卫抓住，然后扭送回王宫承担炸毁谒见之厅的责任哦。",
+			say = "不僅如此，你們還會被守衛抓住，然後扭送回王宮承擔炸毀謁見之廳的責任哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1371,11 +1371,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "不论如何，我代表国王陛下再次感谢诸位在城墙之上的英勇战斗。",
+			say = "不論如何，我代表國王陛下再次感謝諸位在城牆之上的英勇戰鬥。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1389,11 +1389,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "同时，由我个人决定，为此为作战中做出突出贡献的指挥官，颁发一项特殊奖励。",
+			say = "同時，由我個人決定，為此為作戰中做出突出貢獻的指揮官，頒發一項特殊獎勵。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1407,9 +1407,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "……特殊奖励？",
+			say = "……特殊獎勵？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1419,11 +1419,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "霞飞。",
+			say = "霞飛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1437,7 +1437,7 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "战斗天使",
+			factiontag = "戰鬥天使",
 			dir = 1,
 			actor = 907010,
 			nameColor = "#A9F548FF",
@@ -1454,11 +1454,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "战斗天使",
+			factiontag = "戰鬥天使",
 			dir = 1,
 			actor = 907010,
 			nameColor = "#A9F548FF",
-			say = "指挥官，鉴于你此前的表现，我们认为在你身上存在指挥小队讨伐魔王的潜力。",
+			say = "指揮官，鑑於你先前的表現，我們認為在你身上存在著指揮小隊討伐魔王的潛力。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1472,11 +1472,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "战斗天使",
+			factiontag = "戰鬥天使",
 			dir = 1,
 			actor = 907010,
 			nameColor = "#A9F548FF",
-			say = "因此，我代表神圣教会，代表光明与正义之神，在此赐予你“光明之加护“。",
+			say = "因此，我代表神聖教會，代表光明與正義之神，在此賜予你「光明之加護」。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1490,11 +1490,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "战斗天使",
+			factiontag = "戰鬥天使",
 			dir = 1,
 			actor = 907010,
 			nameColor = "#A9F548FF",
-			say = "愿此加护，能够为成为你在讨伐魔王之路上的一份助力——",
+			say = "願此加護，能夠為成為你在討伐魔王之路上的一份助力——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1508,7 +1508,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
 			side = 2,
-			say = "金色光芒伴随着战斗天使霞飞的话语四散而出。",
+			say = "金色光芒伴隨著戰鬥天使霞飛的話語四散而出。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1528,8 +1528,8 @@ return {
 			side = 2,
 			bgName = "star_level_bg_599",
 			nameColor = "#A9F548FF",
-			actorName = "冒险终端",
-			say = "「系统提示，获得新技能：光明之加护，评级：SSS」",
+			actorName = "冒險終端",
+			say = "「系統提示，獲得新技能：光明之加護，評級：SSS」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1557,11 +1557,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "呵呵，看来很顺利呢。",
+			say = "呵呵，看來很順利呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1574,11 +1574,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "这样一来，仪式完成，今晚所有的正事也就结束了。",
+			say = "這樣一來，儀式完成，今晚所有的正事也就結束了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1592,11 +1592,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "诸位请返回大厅尽情享受吧。",
+			say = "諸位請返回大廳盡情享受。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1610,11 +1610,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "今夜，欢乐是我们所有人应得的奖励~",
+			say = "今夜，歡樂是我們所有人應得的獎勵~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1630,7 +1630,7 @@ return {
 			bgm = "story-darkplan",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "守望要塞·客房",
+			say = "守望要塞客房",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1658,7 +1658,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "blackbg",
 			hidePaintObj = true,
-			say = "深夜，眼前的黑暗中，依稀站立着一个身影。",
+			say = "深夜，眼前的黑暗中，依稀站立著一個身影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1668,12 +1668,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "blackbg",
-			factiontag = "钢铁教会机械师",
+			factiontag = "鋼鐵教會機械師",
 			dir = 1,
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸……没想到被抢先下了加护啊。",
+			say = "欸……沒想到被搶先下了加護啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1687,12 +1687,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "blackbg",
-			factiontag = "钢铁教会机械师",
+			factiontag = "鋼鐵教會機械師",
 			dir = 1,
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "偷跑可不好哦，圣女小姐。",
+			say = "偷跑可不好哦，聖女小姐。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1705,12 +1705,12 @@ return {
 		{
 			side = 2,
 			bgName = "blackbg",
-			factiontag = "钢铁教会机械师",
+			factiontag = "鋼鐵教會機械師",
 			dir = 1,
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "况且，想要打败魔王，区区精神层面的光明之加护……还不够。",
+			say = "況且，想要打敗魔王，區區精神層面的光明之加護……還不夠。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1724,12 +1724,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "blackbg",
-			factiontag = "钢铁教会机械师",
+			factiontag = "鋼鐵教會機械師",
 			dir = 1,
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你还需要有我赐予的，用于强化肉体的“钢铁之加护“。",
+			say = "你還需要有我所賜予的，用來強化肉體的「鋼鐵之加護」。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1742,12 +1742,12 @@ return {
 		{
 			side = 2,
 			bgName = "blackbg",
-			factiontag = "钢铁教会机械师",
+			factiontag = "鋼鐵教會機械師",
 			dir = 1,
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……嗯？就算中了我的术式，也没完全睡过去么。",
+			say = "……嗯？就算中了我的術式，也沒完全睡過去嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1761,12 +1761,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "blackbg",
-			factiontag = "钢铁教会机械师",
+			factiontag = "鋼鐵教會機械師",
 			dir = 1,
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过也没有完全醒过来~",
+			say = "不過也沒有完全醒來~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1780,12 +1780,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "blackbg",
-			factiontag = "钢铁教会机械师",
+			factiontag = "鋼鐵教會機械師",
 			dir = 1,
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，那就收下我的“爱”吧~",
+			say = "呵呵，那就收下我的「愛」吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1798,12 +1798,12 @@ return {
 		{
 			side = 2,
 			bgName = "blackbg",
-			factiontag = "钢铁教会机械师",
+			factiontag = "鋼鐵教會機械師",
 			dir = 1,
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等你一觉起来，就会发现自己变得更强了哦。",
+			say = "等你一覺起來，就會發現自己變得更強了哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1817,12 +1817,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "blackbg",
-			factiontag = "钢铁教会机械师",
+			factiontag = "鋼鐵教會機械師",
 			dir = 1,
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "把这当成打倒魔王过程中一个美梦吧~",
+			say = "把這當成打倒魔王過程中一個美夢吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1836,12 +1836,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "blackbg",
-			factiontag = "钢铁教会机械师",
+			factiontag = "鋼鐵教會機械師",
 			dir = 1,
 			actor = 403140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "晚安，我的指挥官。",
+			say = "晚安，我的指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1

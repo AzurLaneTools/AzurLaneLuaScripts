@@ -400,8 +400,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				28
+				7,
+				25
 			},
 			{
 				18,
@@ -417,8 +417,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				28
+				7,
+				25
 			},
 			{
 				18,
@@ -440,8 +440,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				28
+				7,
+				25
 			},
 			{
 				18,
@@ -458,8 +458,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				28
+				7,
+				25
 			},
 			{
 				18,
@@ -476,8 +476,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				28
+				7,
+				25
 			},
 			{
 				18,
@@ -494,8 +494,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				28
+				7,
+				25
 			},
 			{
 				19,
@@ -512,8 +512,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				28
+				7,
+				25
 			},
 			{
 				19,
@@ -904,8 +904,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				30
+				7,
+				27
 			},
 			{
 				20,
@@ -925,8 +925,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				30
+				7,
+				27
 			},
 			{
 				20,
@@ -943,8 +943,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				30
+				7,
+				27
 			},
 			{
 				20,
@@ -961,8 +961,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				30
+				7,
+				27
 			},
 			{
 				20,
@@ -1328,8 +1328,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				29
+				7,
+				26
 			},
 			{
 				10,
@@ -1350,8 +1350,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				29
+				7,
+				26
 			},
 			{
 				10,
@@ -1368,8 +1368,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				29
+				7,
+				26
 			},
 			{
 				11,
@@ -1385,8 +1385,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				29
+				7,
+				26
 			},
 			{
 				11,
@@ -1406,8 +1406,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				29
+				7,
+				26
 			},
 			{
 				11,
@@ -1423,8 +1423,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				29
+				7,
+				26
 			},
 			{
 				13,
@@ -1444,8 +1444,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				29
+				7,
+				26
 			},
 			{
 				13,
@@ -1908,8 +1908,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				29
+				7,
+				26
 			},
 			{
 				19,
@@ -1929,8 +1929,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				29
+				7,
+				26
 			},
 			{
 				19,
@@ -1946,8 +1946,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				29
+				7,
+				26
 			},
 			{
 				19,
@@ -1968,8 +1968,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				29
+				7,
+				26
 			},
 			{
 				20,
@@ -1986,8 +1986,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				29
+				7,
+				26
 			},
 			{
 				20,
@@ -2021,8 +2021,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				28
+				7,
+				25
 			},
 			{
 				9,
@@ -2044,8 +2044,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				28
+				7,
+				25
 			},
 			{
 				9,
@@ -2062,8 +2062,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				28
+				7,
+				25
 			},
 			{
 				9,
@@ -2080,8 +2080,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				28
+				7,
+				25
 			},
 			{
 				9,
@@ -2098,8 +2098,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				28
+				7,
+				25
 			},
 			{
 				9,
@@ -2116,8 +2116,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				28
+				7,
+				25
 			},
 			{
 				9,
@@ -2374,8 +2374,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				30
+				7,
+				27
 			},
 			{
 				14,
@@ -2395,8 +2395,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				30
+				7,
+				27
 			},
 			{
 				14,
@@ -2412,8 +2412,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				30
+				7,
+				27
 			},
 			{
 				14,
@@ -2433,8 +2433,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				30
+				7,
+				27
 			},
 			{
 				14,
@@ -2451,8 +2451,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2021,
-				3,
-				30
+				7,
+				27
 			},
 			{
 				14,
@@ -5500,8 +5500,8 @@ pg.activity_ins_npc_template = {
 		},
 		npc_reply_persist = {
 			302,
-			303,
-			304,
+			307,
+			274,
 			305,
 			306,
 			307
@@ -6078,8 +6078,8 @@ pg.activity_ins_npc_template = {
 				4
 			},
 			{
-				13,
-				30,
+				17,
+				27,
 				0
 			}
 		}
@@ -8695,8 +8695,8 @@ pg.activity_ins_npc_template = {
 				27
 			},
 			{
-				13,
-				29,
+				17,
+				26,
 				0
 			}
 		}
@@ -22263,8 +22263,8 @@ pg.activity_ins_npc_template = {
 				20
 			},
 			{
-				13,
-				28,
+				17,
+				25,
 				0
 			}
 		}
@@ -23543,8 +23543,8 @@ pg.activity_ins_npc_template = {
 				21
 			},
 			{
-				13,
-				28,
+				17,
+				25,
 				0
 			}
 		}
@@ -27100,8 +27100,8 @@ pg.activity_ins_npc_template = {
 				29
 			},
 			{
-				13,
-				29,
+				17,
+				26,
 				0
 			}
 		},
@@ -29625,8 +29625,8 @@ pg.activity_ins_npc_template = {
 				9
 			},
 			{
-				13,
-				29,
+				17,
+				26,
 				0
 			}
 		}
@@ -30528,8 +30528,8 @@ pg.activity_ins_npc_template = {
 				27
 			},
 			{
-				13,
-				28,
+				17,
+				25,
 				0
 			}
 		}
@@ -30545,8 +30545,8 @@ pg.activity_ins_npc_template = {
 				27
 			},
 			{
-				13,
-				30,
+				17,
+				27,
 				0
 			}
 		},
@@ -33145,8 +33145,8 @@ pg.activity_ins_npc_template = {
 				24
 			},
 			{
-				13,
-				30,
+				17,
+				27,
 				0
 			}
 		}
@@ -34193,8 +34193,8 @@ pg.activity_ins_npc_template = {
 				24
 			},
 			{
-				13,
-				30,
+				17,
+				27,
 				0
 			}
 		},
@@ -34830,8 +34830,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2022,
-				3,
-				28
+				7,
+				25
 			},
 			{
 				18,
@@ -34851,8 +34851,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2022,
-				3,
-				28
+				7,
+				25
 			},
 			{
 				18,
@@ -34868,8 +34868,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2022,
-				3,
-				28
+				7,
+				25
 			},
 			{
 				19,
@@ -34890,8 +34890,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2022,
-				3,
-				28
+				7,
+				25
 			},
 			{
 				19,
@@ -34908,8 +34908,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2022,
-				3,
-				28
+				7,
+				25
 			},
 			{
 				19,
@@ -34925,8 +34925,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2022,
-				3,
-				28
+				7,
+				25
 			},
 			{
 				19,
@@ -34946,8 +34946,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2022,
-				3,
-				28
+				7,
+				25
 			},
 			{
 				19,
@@ -34981,8 +34981,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2022,
-				3,
-				29
+				7,
+				26
 			},
 			{
 				16,
@@ -35003,8 +35003,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2022,
-				3,
-				29
+				7,
+				26
 			},
 			{
 				16,
@@ -35021,8 +35021,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2022,
-				3,
-				29
+				7,
+				26
 			},
 			{
 				16,
@@ -35038,8 +35038,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2022,
-				3,
-				29
+				7,
+				26
 			},
 			{
 				16,
@@ -35060,8 +35060,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2022,
-				3,
-				29
+				7,
+				26
 			},
 			{
 				16,
@@ -35078,8 +35078,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2022,
-				3,
-				29
+				7,
+				26
 			},
 			{
 				16,
@@ -35131,8 +35131,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2022,
-				3,
-				30
+				7,
+				27
 			},
 			{
 				20,
@@ -35152,8 +35152,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2022,
-				3,
-				30
+				7,
+				27
 			},
 			{
 				20,
@@ -35169,8 +35169,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2022,
-				3,
-				30
+				7,
+				27
 			},
 			{
 				20,
@@ -35190,8 +35190,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2022,
-				3,
-				30
+				7,
+				27
 			},
 			{
 				20,
@@ -35207,8 +35207,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2022,
-				3,
-				30
+				7,
+				27
 			},
 			{
 				20,
@@ -35228,8 +35228,8 @@ pg.activity_ins_npc_template = {
 		time_persist = {
 			{
 				2022,
-				3,
-				30
+				7,
+				27
 			},
 			{
 				20,
@@ -37848,8 +37848,8 @@ pg.activity_ins_npc_template = {
 				8
 			},
 			{
-				13,
-				29,
+				17,
+				26,
 				0
 			}
 		},
@@ -49912,8 +49912,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			2833,
-			2834
+			2837,
+			2534
 		}
 	},
 	[2833] = {
@@ -51834,8 +51834,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			2963,
-			2964,
+			2967,
+			2664,
 			2965,
 			2966
 		}
@@ -52740,8 +52740,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			3023,
-			3024,
+			3027,
+			2724,
 			3025
 		}
 	},
@@ -53500,6 +53500,7 @@ pg.activity_ins_npc_template = {
 	},
 	[3071] = {
 		ship_group = 30511,
+		npc_reply_persist = "",
 		message_persist = "ins_discuss_335_2",
 		id = 3071,
 		time_persist = {
@@ -53513,11 +53514,6 @@ pg.activity_ins_npc_template = {
 				43,
 				0
 			}
-		},
-		npc_reply_persist = {
-			3072,
-			3073,
-			3074
 		}
 	},
 	[3072] = {
@@ -55924,8 +55920,8 @@ pg.activity_ins_npc_template = {
 				6
 			},
 			{
-				13,
-				30,
+				17,
+				27,
 				0
 			}
 		},
@@ -58115,8 +58111,8 @@ pg.activity_ins_npc_template = {
 				24
 			},
 			{
-				13,
-				29,
+				17,
+				26,
 				0
 			}
 		}
@@ -62966,6 +62962,251 @@ pg.activity_ins_npc_template = {
 			}
 		}
 	},
+	[4326] = {
+		ship_group = 20226,
+		message_persist = "",
+		id = 4326,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4327] = {
+		ship_group = 20227,
+		message_persist = "",
+		id = 4327,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4328] = {
+		ship_group = 20233,
+		message_persist = "",
+		id = 4328,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4329] = {
+		ship_group = 20212,
+		message_persist = "",
+		id = 4329,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4330] = {
+		ship_group = 20137,
+		message_persist = "",
+		id = 4330,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4331] = {
+		ship_group = 30317,
+		message_persist = "",
+		id = 4331,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4332] = {
+		ship_group = 30318,
+		message_persist = "",
+		id = 4332,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4333] = {
+		ship_group = 30111,
+		message_persist = "",
+		id = 4333,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4334] = {
+		ship_group = 30112,
+		message_persist = "",
+		id = 4334,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4335] = {
+		ship_group = 20137,
+		message_persist = "",
+		id = 4335,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4337] = {
+		ship_group = 20137,
+		message_persist = "",
+		id = 4337,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4339] = {
+		ship_group = 20137,
+		message_persist = "",
+		id = 4339,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4341] = {
+		ship_group = 39904,
+		message_persist = "",
+		id = 4341,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4342] = {
+		ship_group = 20234,
+		message_persist = "",
+		id = 4342,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4343] = {
+		ship_group = 39904,
+		message_persist = "",
+		id = 4343,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4344] = {
+		ship_group = 80107,
+		message_persist = "",
+		id = 4344,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4345] = {
+		ship_group = 20209,
+		message_persist = "",
+		id = 4345,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4346] = {
+		ship_group = 20220,
+		message_persist = "",
+		id = 4346,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4347] = {
+		ship_group = 29903,
+		message_persist = "",
+		id = 4347,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4348] = {
+		ship_group = 20234,
+		message_persist = "",
+		id = 4348,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4349] = {
+		ship_group = 80107,
+		message_persist = "",
+		id = 4349,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4351] = {
+		ship_group = 20234,
+		message_persist = "",
+		id = 4351,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4353] = {
+		ship_group = 20234,
+		message_persist = "",
+		id = 4353,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4355] = {
+		ship_group = 20606,
+		message_persist = "",
+		id = 4355,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4356] = {
+		ship_group = 20208,
+		message_persist = "",
+		id = 4356,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4357] = {
+		ship_group = 20313,
+		message_persist = "",
+		id = 4357,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4358] = {
+		ship_group = 31201,
+		message_persist = "",
+		id = 4358,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4359] = {
+		ship_group = 50102,
+		message_persist = "",
+		id = 4359,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4360] = {
+		ship_group = 20313,
+		message_persist = "",
+		id = 4360,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4361] = {
+		ship_group = 20219,
+		message_persist = "",
+		id = 4361,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4362] = {
+		ship_group = 30707,
+		message_persist = "",
+		id = 4362,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4363] = {
+		ship_group = 30701,
+		message_persist = "",
+		id = 4363,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4364] = {
+		ship_group = 31201,
+		message_persist = "",
+		id = 4364,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4366] = {
+		ship_group = 20313,
+		message_persist = "",
+		id = 4366,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4368] = {
+		ship_group = 20313,
+		message_persist = "",
+		id = 4368,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -66360,6 +66601,41 @@ pg.activity_ins_npc_template = {
 		3899,
 		3900,
 		3902,
-		3904
+		3904,
+		4326,
+		4327,
+		4328,
+		4329,
+		4330,
+		4331,
+		4332,
+		4333,
+		4334,
+		4335,
+		4337,
+		4339,
+		4341,
+		4342,
+		4343,
+		4344,
+		4345,
+		4346,
+		4347,
+		4348,
+		4349,
+		4351,
+		4353,
+		4355,
+		4356,
+		4357,
+		4358,
+		4359,
+		4360,
+		4361,
+		4362,
+		4363,
+		4364,
+		4366,
+		4368
 	}
 }

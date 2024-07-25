@@ -8,7 +8,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			bgm = "story-musicanniversary-gorgeous",
-			say = "一段时间后，王都繁华的街市中——",
+			say = "一段時間後，王都繁華的街市中——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……刚才真是千钧一发，差点就要被抓入大牢了！",
+			say = "呼……剛才真是千鈞一髮差點就要被抓進大牢了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过王宫内部虽然一团糟，却没有人追着我们跑出来呢~",
+			say = "不過王宮內部雖然一團糟，卻沒有人追著我們跑出來~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，可能是因为我们切换地图了吧，NPC是没办法自由切换地图的~",
+			say = "嘿嘿，可能是因為我們切換地圖了吧，NPC是沒辦法自由切換地圖的~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "话又说回来，国王给的初始资金竟然有五百枚金币，真是太慷慨了。",
+			say = "話又說回來，國王給的初始資金竟然有五百枚金幣，真是太慷慨了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,11 +105,11 @@ return {
 			},
 			options = {
 				{
-					content = "可能是游戏CE版特有的高福利任务？",
+					content = "可能是遊戲CE版特有的高福利任務？",
 					flag = 1
 				},
 				{
-					content = "只给10枚铜币就想打发人去讨伐魔王的时代结束了！",
+					content = "只給10枚銅幣就想打發人去討伐魔王的時代結束了！",
 					flag = 2
 				}
 			}
@@ -123,7 +123,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那我希望能把这个慷慨的奖励保存在正式版中！",
+			say = "那我希望能把這個慷慨的獎勵儲存在正式版中！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错没错~我也是这么认为的！",
+			say = "沒錯沒錯~我也是這麼認為的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
-			say = "不论如何，多亏国王提供的慷慨资金，我们才得以进行了一次扫货式的大采购。",
+			say = "不論如何，多虧國王提供的慷慨資金，我們才得以進行了一次掃貨式的大採購。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
-			say = "抚顺从铁匠铺中购买了全套勇者盔甲，独角兽一口气将法杖的强化等级提升到了最高。",
+			say = "撫順從鐵匠鋪中購買了全套勇者盔甲，獨角獸一口氣將法杖的強化等級提升到了最高。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
-			say = "利物浦则买了一身属性并不顶尖，但在整个王都中最为可爱的衣服。",
+			say = "利物浦則買了一身屬性並不頂尖，但在整個王都中最為可愛的衣服。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
-			say = "至于我……很可惜，指挥官的职业似乎装备不了绝大多数的武器和盔甲。",
+			say = "至於我……很可惜，指揮官的職業似乎裝備不了絕大多數的武器和盔甲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
-			say = "不过作为代替，我将剩下的全部预算都变成了炼金炸弹。",
+			say = "不過作為代替，我將剩下的預算全部變成了煉金炸彈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
-			say = "投掷作为我所拥有的唯一战斗技能，用炼金炸弹与之配合真是再合适不过了。",
+			say = "投擲作為我所擁有的唯一戰鬥技能，用煉金炸彈與之配合真是再合適不過了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对了对了，大家听我说！",
+			say = "對了對了，大家聽我說！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "刚才在路过冒险公会的时候，我听到了一个十分不得了的传闻哦！",
+			say = "剛才在路過冒險公會的時候，我聽到了一個十分不得了的傳聞哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,12 +269,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "见习神官",
+			factiontag = "見習神官",
 			dir = 1,
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……十分不得了的传闻？",
+			say = "……十分不得了的傳聞？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "传闻中说——有一位传说中的大魔法师，就隐居在无尽树海的深处哦！",
+			say = "傳聞中說——有一位傳說中的大魔法師，就隱居在無盡樹海的深處哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,7 +310,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你看，咱们的小队有一名勇者一名指挥官和两名神官，魔法输出严重不足！",
+			say = "妳看，我們的小隊有一名勇者一名指揮官和兩名神官，魔法輸出嚴重不足！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果能让这位大魔法师加入我们的话，我们的短板就补齐了！",
+			say = "如果能讓這位大魔法師加入我們的話，我們的短板就補齊了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "隐居在森林中的大魔法师……听起来好有趣！",
+			say = "隱居在森林中的大魔法師……聽起來好有趣！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,11 +357,11 @@ return {
 			},
 			options = {
 				{
-					content = "这个大魔法师……是精灵么？",
+					content = "這個大魔法師……是精靈嗎？",
 					flag = 1
 				},
 				{
-					content = "无尽树海的深处……",
+					content = "無盡樹海的深處……",
 					flag = 2
 				}
 			}
@@ -375,7 +375,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那我就不清楚了，得实际看看才知道哦！",
+			say = "那我就不清楚了，得實際去看看才知道哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官不用担心。无尽树海深处虽然更危险一些，但魔物也依然是些啾莱姆，不足为虑~！",
+			say = "指揮官不用擔心。無盡樹海深處雖然更危險一些，但魔物也依然是些啾萊姆，不足為奇~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哔哔哔~任务目标——邀请传说中的大魔法师入队！",
+			say = "嗶嗶嗶~任務目標——邀請傳說中的大魔法師入隊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "任务地点——无尽树海的深处！",
+			say = "任務地點——無盡樹海的深處！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "勇者抚顺的冒险小队~出发！",
+			say = "勇者撫順的冒險小隊~出發！",
 			painting = {
 				alpha = 0.3,
 				time = 1

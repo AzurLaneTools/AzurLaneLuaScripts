@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "在次活动中，分为【剧情模式】与【作战模式】",
+				text = "在本次活動中，分為【劇情模式】與【戰鬥模式】",
 				mode = 1,
 				char = "char",
 				posY = 0,
@@ -16,7 +16,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击【剧情模式】按钮来进入剧情模式吧",
+				text = "點選【劇情模式】按鈕來進入劇情模式吧",
 				mode = 1,
 				dir = -1,
 				char = "char",
@@ -32,7 +32,7 @@ return {
 			delay = 2.3,
 			alpha = 0.4,
 			style = {
-				text = "在剧情模式中让我们一起在异世界冒险吧！",
+				text = "在劇情模式中讓我們一起在異世界冒險吧！",
 				mode = 1,
 				char = "char",
 				posY = 0,
@@ -44,7 +44,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "有关本次活动的特殊机制可以随时点击问号查看哦",
+				text = "有關本次活動的特殊機制可以隨時點擊問號查看哦",
 				mode = 1,
 				char = "char",
 				posY = 326.7,

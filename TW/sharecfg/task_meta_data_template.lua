@@ -2096,7 +2096,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970105",
 		id = 100181,
 		target_num = 1,
-		desc = "使用吸血鬼·META获得1次胜利"
+		desc = "使用吸血鬼·META獲得1次勝利"
 	},
 	[100182] = {
 		target_id = "30",
@@ -2104,7 +2104,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970105",
 		id = 100182,
 		target_num = 1,
-		desc = "使用吸血鬼·META击破等级＞30的敌方1次"
+		desc = "使用吸血鬼·META擊破等級＞30的敵方1次"
 	},
 	[100183] = {
 		target_id = "55",
@@ -2112,7 +2112,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970105",
 		id = 100183,
 		target_num = 1,
-		desc = "使用吸血鬼·META击破等级＞55的敌方1次"
+		desc = "使用吸血鬼·META擊破等級＞55的敵方1次"
 	},
 	[100184] = {
 		target_id = "80",
@@ -2120,7 +2120,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970105",
 		id = 100184,
 		target_num = 1,
-		desc = "使用吸血鬼·META击破等级＞80的敌方1次"
+		desc = "使用吸血鬼·META擊破等級＞80的敵方1次"
 	},
 	[100185] = {
 		target_id = "100",
@@ -2128,7 +2128,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970105",
 		id = 100185,
 		target_num = 1,
-		desc = "使用吸血鬼·META击破等级＞100的敌方1次"
+		desc = "使用吸血鬼·META擊破等級＞100的敵方1次"
 	},
 	[100191] = {
 		target_id = "0",
@@ -2800,7 +2800,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970105",
 		id = 200181,
 		target_num = 1,
-		desc = "大型作战内使用吸血鬼·META获得1次胜利"
+		desc = "大型戰鬥內使用吸血鬼·META獲得1次勝利"
 	},
 	[200182] = {
 		target_id = "70",
@@ -2808,7 +2808,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970105",
 		id = 200182,
 		target_num = 1,
-		desc = "大型作战内使用吸血鬼·META击破等级＞70的敌方1次"
+		desc = "大型戰鬥內使用吸血鬼·META擊破等級＞70的敵方1次"
 	},
 	[200183] = {
 		target_id = "90",
@@ -2816,7 +2816,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970105",
 		id = 200183,
 		target_num = 1,
-		desc = "大型作战内使用吸血鬼·META击破等级＞90的敌方1次"
+		desc = "大型作戰內使用吸血鬼·META擊破等級＞90的敵方1次"
 	},
 	[200184] = {
 		target_id = "100",
@@ -2824,7 +2824,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970105",
 		id = 200184,
 		target_num = 1,
-		desc = "大型作战内使用吸血鬼·META击破等级＞100的敌方1次"
+		desc = "大型作戰內使用吸血鬼·META擊破等級＞100的敵方1次"
 	},
 	[200191] = {
 		target_id = "0",

@@ -9,7 +9,7 @@ return {
 			bgName = "star_level_bg_545",
 			nameColor = "#A9F548FF",
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,11 +75,11 @@ return {
 			portrait = 403022,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "巨龙领主",
+			factiontag = "巨龍領主",
 			dir = 1,
 			nameColor = "#FF9B93",
-			actorName = "{namecode:450}",
-			say = "可、可恶！",
+			actorName = "布呂歇爾",
+			say = "可、可惡！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,11 +93,11 @@ return {
 			portrait = 403022,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "巨龙领主",
+			factiontag = "巨龍領主",
 			dir = 1,
 			nameColor = "#FF9B93",
-			actorName = "{namecode:450}",
-			say = "不要以为你们这就算赢了！",
+			actorName = "布呂歇爾",
+			say = "不要以為你們這就算贏了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,11 +111,11 @@ return {
 			portrait = 403022,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "巨龙领主",
+			factiontag = "巨龍領主",
 			dir = 1,
 			nameColor = "#FF9B93",
-			actorName = "{namecode:450}",
-			say = "你们给我等着！",
+			actorName = "布呂歇爾",
+			say = "你們給我等著！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,11 +139,11 @@ return {
 			portrait = 403022,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "巨龙领主",
+			factiontag = "巨龍領主",
 			dir = 1,
 			nameColor = "#FF9B93",
-			actorName = "{namecode:450}",
-			say = "我一定会回来……哇啊啊啊、呜呜呜飞慢一点啦——！",
+			actorName = "布呂歇爾",
+			say = "我一定會回來……哇啊啊啊、嗚嗚嗚飛慢一點啦——！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_545",
 			side = 2,
-			say = "{namecode:450:布吕歇尔}被巨龙狼狈地拖拽着，如流星般消失在远方的乌云中。",
+			say = "布呂歇爾被巨龍狼狽地拖曳著，如流星般消失在遠方的烏雲中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼，可惜巨龙的皮实在太厚，让她夹着尾巴逃走了。",
+			say = "哼，可惜巨龍的皮實在太厚，讓她夾著尾巴逃走了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,11 +202,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "即便如此，也是一场巨大胜利。",
+			say = "即便如此，也是一場巨大勝利。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,11 +220,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "失去了大魔族的压阵，这群魔物大军溃散只是时间问题。",
+			say = "失去了大魔族的壓陣，這群魔物大軍潰散只是時間問題。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,11 +237,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "先是用激将法让其孤身深入，紧接着用小队间完美的配合将其击败。",
+			say = "先是用激將法讓其孤身深入，緊接著用小隊間完美的配合將其擊敗。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,11 +255,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "如此手段……你真是位出色的指挥官呢。",
+			say = "如此手段……你真是位出色的指揮官呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,11 +272,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "凭借你们的小队……或许有朝一日真的能打败魔王，让和平降临世间吧。",
+			say = "憑藉你們的小隊……或許有朝一日真的能打敗魔王，讓和平降臨世間吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,11 +287,11 @@ return {
 			},
 			options = {
 				{
-					content = "没错，你看人真准！",
+					content = "沒錯，妳看人真準！",
 					flag = 1
 				},
 				{
-					content = "过奖了。",
+					content = "過獎了。",
 					flag = 2
 				}
 			}
@@ -300,7 +300,7 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			optionFlag = 1,
 			actor = 802020,
@@ -318,12 +318,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			optionFlag = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "那我就期待你们打倒魔王的那一天能够早日到来了哦~？",
+			say = "那我就期待你們打倒魔王的那一天能夠早日到來了哦~？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,10 +337,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "现在魔物还没有被全部消灭，不是闲聊的时候。",
+			say = "現在魔物還沒被全部消滅，不是閒聊的時候。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,12 +350,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			optionFlag = 2,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "呵呵，你说的对，现在还不是放松警惕的时候。",
+			say = "呵呵，你說的對，現在還不是放鬆警戒的時候。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,12 +368,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			optionFlag = 2,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "那庆功宴上再聊咯~指挥官~",
+			say = "那慶功宴上再聊囉~指揮官~",
 			painting = {
 				alpha = 0.3,
 				time = 1

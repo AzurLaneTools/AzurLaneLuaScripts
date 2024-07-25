@@ -1415,6 +1415,21 @@ pg.player_resource = {
 		name = "240627_pt",
 		itemid = 59591
 	},
+	[422] = {
+		id = 422,
+		name = "yingxiv3_pt2",
+		itemid = 59594
+	},
+	[423] = {
+		id = 423,
+		name = "yingxiur_frame_pt2",
+		itemid = 59595
+	},
+	[424] = {
+		id = 424,
+		name = "skinTicket75",
+		itemid = 59596
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1444,6 +1459,11 @@ pg.player_resource = {
 		id = 955,
 		name = "unionkr_pt_2021_2",
 		itemid = 99957
+	},
+	[956] = {
+		id = 956,
+		name = "skinTicketkr1",
+		itemid = 99954
 	},
 	[1001] = {
 		id = 1001,
@@ -2720,6 +2740,15 @@ pg.player_resource = {
 		["240627_pt"] = {
 			421
 		},
+		yingxiv3_pt2 = {
+			422
+		},
+		yingxiur_frame_pt2 = {
+			423
+		},
+		skinTicket75 = {
+			424
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -2737,6 +2766,9 @@ pg.player_resource = {
 		},
 		unionkr_pt_2021_2 = {
 			955
+		},
+		skinTicketkr1 = {
+			956
 		},
 		vote2019_pt = {
 			1001
@@ -3278,12 +3310,16 @@ pg.player_resource = {
 		416,
 		417,
 		421,
+		422,
+		423,
+		424,
 		950,
 		951,
 		952,
 		953,
 		954,
 		955,
+		956,
 		1001,
 		2001,
 		2002,

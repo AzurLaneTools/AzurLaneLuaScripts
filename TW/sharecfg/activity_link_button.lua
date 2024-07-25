@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_link_button = {
 	{
-		param = "5051",
+		param = "5260",
 		name = "event_all",
 		text_pic = "text_event_all",
 		type = 3,
@@ -10,31 +10,8 @@ pg.activity_link_button = {
 		group_id = 1,
 		order = 1,
 		time = {
-			"timer",
-			{
-				{
-					2024,
-					7,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					7,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
+			"default",
+			5260
 		}
 	},
 	{
@@ -60,16 +37,19 @@ pg.activity_link_button = {
 		order = 99
 	},
 	[10] = {
-		param = "0",
 		name = "event_map",
-		text_pic = "text_event_map",
-		type = 0,
+		text_pic = "text_event_anotherWorld",
+		type = 2,
 		pic = "event_map",
 		id = 10,
 		group_id = 2,
 		order = 1,
 		time = {
-			"default"
+			"default",
+			5260
+		},
+		param = {
+			"OTHERWORLD_MAP"
 		}
 	},
 	[20] = {
@@ -82,10 +62,10 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5048
+			5260
 		},
 		param = {
-			"tempesta medal collection"
+			"OTHERWORLD_BACKHILL"
 		}
 	},
 	[30] = {

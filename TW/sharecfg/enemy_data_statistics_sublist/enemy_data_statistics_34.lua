@@ -1633,7 +1633,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[90899] = {
 		cannon = 0,
-		name = "宝箱啾莱姆",
+		name = "寶箱啾萊姆",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1775,7 +1775,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[90900] = {
 		cannon = 0,
-		name = "幽魂啾莱姆",
+		name = "幽魂啾萊姆",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1917,7 +1917,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[90901] = {
 		cannon = 0,
-		name = "狂野啾莱姆战士",
+		name = "狂野啾萊姆戰士",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2059,7 +2059,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[90902] = {
 		cannon = 0,
-		name = "黑暗啾莱姆骑士",
+		name = "黑啾萊姆騎士",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2201,7 +2201,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[90903] = {
 		cannon = 0,
-		name = "魔法啾莱姆",
+		name = "魔法啾萊姆",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2343,7 +2343,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[90904] = {
 		cannon = 0,
-		name = "炎爆啾莱姆",
+		name = "炎爆啾萊姆",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2464,7 +2464,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[90905] = {
 		cannon = 0,
-		name = "啾莱姆王",
+		name = "啾萊姆王",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2586,7 +2586,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[90906] = {
 		cannon = 0,
-		name = "有翼啾莱姆",
+		name = "有翼啾萊姆",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2708,7 +2708,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[90907] = {
 		cannon = 0,
-		name = "巨炎龙",
+		name = "大炎龍",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2841,7 +2841,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[90908] = {
 		cannon = 0,
-		name = "魔女偶像·好孩子·亚德",
+		name = "魔女偶像·好孩子·亞德",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2988,7 +2988,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[90909] = {
 		cannon = 0,
-		name = "完美究极吸血鬼",
+		name = "完美究極吸血鬼",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3144,7 +3144,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[90910] = {
 		cannon = 0,
-		name = "巨龙领主·布吕歇尔",
+		name = "龍領主·布呂歇爾",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3456,7 +3456,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[90912] = {
 		cannon = 0,
-		name = "飞天独角兽",
+		name = "飛天獨角獸",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

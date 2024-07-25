@@ -2688,6 +2688,13 @@ pg.name_code = {
 		code = "萨尤斯",
 		nation = 0
 	},
+	[531] = {
+		name = "腓特烈·卡爾",
+		type = 1,
+		id = 531,
+		code = "腓特烈·卡爾",
+		nation = 0
+	},
 	[535] = {
 		name = "小腓特烈",
 		type = 1,

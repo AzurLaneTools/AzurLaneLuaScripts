@@ -102371,6 +102371,7 @@ _G.pg.base.chapter_template_loop[1190016] = {
 
 
 _G.pg.base.chapter_template_loop[1200002] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -102986,10 +102987,6 @@ _G.pg.base.chapter_template_loop[1200002] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -102997,6 +102994,7 @@ _G.pg.base.chapter_template_loop[1200002] = {
 
 
 _G.pg.base.chapter_template_loop[1200003] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
@@ -103621,10 +103619,6 @@ _G.pg.base.chapter_template_loop[1200003] = {
 		1
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -103632,6 +103626,7 @@ _G.pg.base.chapter_template_loop[1200003] = {
 
 
 _G.pg.base.chapter_template_loop[1200004] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
@@ -104251,10 +104246,6 @@ _G.pg.base.chapter_template_loop[1200004] = {
 		1
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -111342,6 +111333,7 @@ _G.pg.base.chapter_template_loop[1210016] = {
 
 
 _G.pg.base.chapter_template_loop[1230001] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -111802,10 +111794,6 @@ _G.pg.base.chapter_template_loop[1230001] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -111813,6 +111801,7 @@ _G.pg.base.chapter_template_loop[1230001] = {
 
 
 _G.pg.base.chapter_template_loop[1230002] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -112280,10 +112269,6 @@ _G.pg.base.chapter_template_loop[1230002] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -112291,6 +112276,7 @@ _G.pg.base.chapter_template_loop[1230002] = {
 
 
 _G.pg.base.chapter_template_loop[1230003] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -112843,10 +112829,6 @@ _G.pg.base.chapter_template_loop[1230003] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -112854,6 +112836,7 @@ _G.pg.base.chapter_template_loop[1230003] = {
 
 
 _G.pg.base.chapter_template_loop[1230004] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -113411,10 +113394,6 @@ _G.pg.base.chapter_template_loop[1230004] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -113422,6 +113401,7 @@ _G.pg.base.chapter_template_loop[1230004] = {
 
 
 _G.pg.base.chapter_template_loop[1230005] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
@@ -114022,10 +114002,6 @@ _G.pg.base.chapter_template_loop[1230005] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -114033,6 +114009,7 @@ _G.pg.base.chapter_template_loop[1230005] = {
 
 
 _G.pg.base.chapter_template_loop[1230006] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
@@ -114599,10 +114576,6 @@ _G.pg.base.chapter_template_loop[1230006] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -114610,6 +114583,7 @@ _G.pg.base.chapter_template_loop[1230006] = {
 
 
 _G.pg.base.chapter_template_loop[1230011] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -115112,10 +115086,6 @@ _G.pg.base.chapter_template_loop[1230011] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -115123,6 +115093,7 @@ _G.pg.base.chapter_template_loop[1230011] = {
 
 
 _G.pg.base.chapter_template_loop[1230012] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -115632,10 +115603,6 @@ _G.pg.base.chapter_template_loop[1230012] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -115643,6 +115610,7 @@ _G.pg.base.chapter_template_loop[1230012] = {
 
 
 _G.pg.base.chapter_template_loop[1230013] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
@@ -116237,10 +116205,6 @@ _G.pg.base.chapter_template_loop[1230013] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -116248,6 +116212,7 @@ _G.pg.base.chapter_template_loop[1230013] = {
 
 
 _G.pg.base.chapter_template_loop[1230014] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
@@ -116847,10 +116812,6 @@ _G.pg.base.chapter_template_loop[1230014] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -116858,6 +116819,7 @@ _G.pg.base.chapter_template_loop[1230014] = {
 
 
 _G.pg.base.chapter_template_loop[1230015] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
@@ -117502,10 +117464,6 @@ _G.pg.base.chapter_template_loop[1230015] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -117513,6 +117471,7 @@ _G.pg.base.chapter_template_loop[1230015] = {
 
 
 _G.pg.base.chapter_template_loop[1230016] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
@@ -118123,10 +118082,6 @@ _G.pg.base.chapter_template_loop[1230016] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -125743,6 +125698,7 @@ _G.pg.base.chapter_template_loop[1240018] = {
 
 
 _G.pg.base.chapter_template_loop[1250001] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
@@ -126210,10 +126166,6 @@ _G.pg.base.chapter_template_loop[1250001] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {
 		{
 			4,
@@ -126227,6 +126179,7 @@ _G.pg.base.chapter_template_loop[1250001] = {
 
 
 _G.pg.base.chapter_template_loop[1250002] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -126743,10 +126696,6 @@ _G.pg.base.chapter_template_loop[1250002] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {
 		{
 			3,
@@ -126760,6 +126709,7 @@ _G.pg.base.chapter_template_loop[1250002] = {
 
 
 _G.pg.base.chapter_template_loop[1250003] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -127373,10 +127323,6 @@ _G.pg.base.chapter_template_loop[1250003] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {
 		{
 			5,
@@ -127390,6 +127336,7 @@ _G.pg.base.chapter_template_loop[1250003] = {
 
 
 _G.pg.base.chapter_template_loop[1250004] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -127906,10 +127853,6 @@ _G.pg.base.chapter_template_loop[1250004] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -127917,6 +127860,7 @@ _G.pg.base.chapter_template_loop[1250004] = {
 
 
 _G.pg.base.chapter_template_loop[1250005] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
@@ -128476,10 +128420,6 @@ _G.pg.base.chapter_template_loop[1250005] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -128487,6 +128427,7 @@ _G.pg.base.chapter_template_loop[1250005] = {
 
 
 _G.pg.base.chapter_template_loop[1250006] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
@@ -129012,10 +128953,6 @@ _G.pg.base.chapter_template_loop[1250006] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -129023,6 +128960,7 @@ _G.pg.base.chapter_template_loop[1250006] = {
 
 
 _G.pg.base.chapter_template_loop[1250011] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -129532,10 +129470,6 @@ _G.pg.base.chapter_template_loop[1250011] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {
 		{
 			4,
@@ -129549,6 +129483,7 @@ _G.pg.base.chapter_template_loop[1250011] = {
 
 
 _G.pg.base.chapter_template_loop[1250012] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -130107,10 +130042,6 @@ _G.pg.base.chapter_template_loop[1250012] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {
 		{
 			3,
@@ -130124,6 +130055,7 @@ _G.pg.base.chapter_template_loop[1250012] = {
 
 
 _G.pg.base.chapter_template_loop[1250013] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
@@ -130774,10 +130706,6 @@ _G.pg.base.chapter_template_loop[1250013] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {
 		{
 			5,
@@ -130791,6 +130719,7 @@ _G.pg.base.chapter_template_loop[1250013] = {
 
 
 _G.pg.base.chapter_template_loop[1250014] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
@@ -131349,10 +131278,6 @@ _G.pg.base.chapter_template_loop[1250014] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -131360,6 +131285,7 @@ _G.pg.base.chapter_template_loop[1250014] = {
 
 
 _G.pg.base.chapter_template_loop[1250015] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
@@ -131963,10 +131889,6 @@ _G.pg.base.chapter_template_loop[1250015] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -131974,6 +131896,7 @@ _G.pg.base.chapter_template_loop[1250015] = {
 
 
 _G.pg.base.chapter_template_loop[1250016] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
@@ -132543,10 +132466,6 @@ _G.pg.base.chapter_template_loop[1250016] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -132554,6 +132473,7 @@ _G.pg.base.chapter_template_loop[1250016] = {
 
 
 _G.pg.base.chapter_template_loop[1260001] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
@@ -133021,10 +132941,6 @@ _G.pg.base.chapter_template_loop[1260001] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -133032,6 +132948,7 @@ _G.pg.base.chapter_template_loop[1260001] = {
 
 
 _G.pg.base.chapter_template_loop[1260002] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -133508,10 +133425,6 @@ _G.pg.base.chapter_template_loop[1260002] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {
 		{
 			7,
@@ -133530,6 +133443,7 @@ _G.pg.base.chapter_template_loop[1260002] = {
 
 
 _G.pg.base.chapter_template_loop[1260003] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -134096,10 +134010,6 @@ _G.pg.base.chapter_template_loop[1260003] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {
 		{
 			6,
@@ -134118,6 +134028,7 @@ _G.pg.base.chapter_template_loop[1260003] = {
 
 
 _G.pg.base.chapter_template_loop[1260006] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -134619,10 +134530,6 @@ _G.pg.base.chapter_template_loop[1260006] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -134630,6 +134537,7 @@ _G.pg.base.chapter_template_loop[1260006] = {
 
 
 _G.pg.base.chapter_template_loop[1260007] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
@@ -135173,10 +135081,6 @@ _G.pg.base.chapter_template_loop[1260007] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -135184,6 +135088,7 @@ _G.pg.base.chapter_template_loop[1260007] = {
 
 
 _G.pg.base.chapter_template_loop[1260008] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
@@ -135686,10 +135591,6 @@ _G.pg.base.chapter_template_loop[1260008] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -135697,6 +135598,7 @@ _G.pg.base.chapter_template_loop[1260008] = {
 
 
 _G.pg.base.chapter_template_loop[1260021] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -136206,10 +136108,6 @@ _G.pg.base.chapter_template_loop[1260021] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -136217,6 +136115,7 @@ _G.pg.base.chapter_template_loop[1260021] = {
 
 
 _G.pg.base.chapter_template_loop[1260022] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -136733,10 +136632,6 @@ _G.pg.base.chapter_template_loop[1260022] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {
 		{
 			7,
@@ -136755,6 +136650,7 @@ _G.pg.base.chapter_template_loop[1260022] = {
 
 
 _G.pg.base.chapter_template_loop[1260023] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
@@ -137362,10 +137258,6 @@ _G.pg.base.chapter_template_loop[1260023] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {
 		{
 			6,
@@ -137384,6 +137276,7 @@ _G.pg.base.chapter_template_loop[1260023] = {
 
 
 _G.pg.base.chapter_template_loop[1260026] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
@@ -137926,10 +137819,6 @@ _G.pg.base.chapter_template_loop[1260026] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -137937,6 +137826,7 @@ _G.pg.base.chapter_template_loop[1260026] = {
 
 
 _G.pg.base.chapter_template_loop[1260027] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
@@ -138524,10 +138414,6 @@ _G.pg.base.chapter_template_loop[1260027] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -138535,6 +138421,7 @@ _G.pg.base.chapter_template_loop[1260027] = {
 
 
 _G.pg.base.chapter_template_loop[1260028] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
@@ -139080,10 +138967,6 @@ _G.pg.base.chapter_template_loop[1260028] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -139091,6 +138974,7 @@ _G.pg.base.chapter_template_loop[1260028] = {
 
 
 _G.pg.base.chapter_template_loop[1260031] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 7,
@@ -139675,7 +139559,6 @@ _G.pg.base.chapter_template_loop[1260031] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -139683,6 +139566,7 @@ _G.pg.base.chapter_template_loop[1260031] = {
 
 
 _G.pg.base.chapter_template_loop[1270001] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -140148,10 +140032,6 @@ _G.pg.base.chapter_template_loop[1270001] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -140159,6 +140039,7 @@ _G.pg.base.chapter_template_loop[1270001] = {
 
 
 _G.pg.base.chapter_template_loop[1270002] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -140729,10 +140610,6 @@ _G.pg.base.chapter_template_loop[1270002] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -140740,6 +140617,7 @@ _G.pg.base.chapter_template_loop[1270002] = {
 
 
 _G.pg.base.chapter_template_loop[1270003] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
@@ -141269,10 +141147,6 @@ _G.pg.base.chapter_template_loop[1270003] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -151258,6 +151132,7 @@ _G.pg.base.chapter_template_loop[1300041] = {
 
 
 _G.pg.base.chapter_template_loop[1310001] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
@@ -151736,10 +151611,6 @@ _G.pg.base.chapter_template_loop[1310001] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -151747,6 +151618,7 @@ _G.pg.base.chapter_template_loop[1310001] = {
 
 
 _G.pg.base.chapter_template_loop[1310002] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -152212,10 +152084,6 @@ _G.pg.base.chapter_template_loop[1310002] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -152223,6 +152091,7 @@ _G.pg.base.chapter_template_loop[1310002] = {
 
 
 _G.pg.base.chapter_template_loop[1310003] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -152726,10 +152595,6 @@ _G.pg.base.chapter_template_loop[1310003] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -152737,6 +152602,7 @@ _G.pg.base.chapter_template_loop[1310003] = {
 
 
 _G.pg.base.chapter_template_loop[1310004] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -153260,10 +153126,6 @@ _G.pg.base.chapter_template_loop[1310004] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -153271,6 +153133,7 @@ _G.pg.base.chapter_template_loop[1310004] = {
 
 
 _G.pg.base.chapter_template_loop[1310005] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
@@ -153739,10 +153602,6 @@ _G.pg.base.chapter_template_loop[1310005] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -153750,6 +153609,7 @@ _G.pg.base.chapter_template_loop[1310005] = {
 
 
 _G.pg.base.chapter_template_loop[1310006] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
@@ -154273,10 +154133,6 @@ _G.pg.base.chapter_template_loop[1310006] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -154284,6 +154140,7 @@ _G.pg.base.chapter_template_loop[1310006] = {
 
 
 _G.pg.base.chapter_template_loop[1310021] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -154805,10 +154662,6 @@ _G.pg.base.chapter_template_loop[1310021] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -154816,6 +154669,7 @@ _G.pg.base.chapter_template_loop[1310021] = {
 
 
 _G.pg.base.chapter_template_loop[1310022] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -155324,10 +155178,6 @@ _G.pg.base.chapter_template_loop[1310022] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -155335,6 +155185,7 @@ _G.pg.base.chapter_template_loop[1310022] = {
 
 
 _G.pg.base.chapter_template_loop[1310023] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
@@ -155880,10 +155731,6 @@ _G.pg.base.chapter_template_loop[1310023] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -155891,6 +155738,7 @@ _G.pg.base.chapter_template_loop[1310023] = {
 
 
 _G.pg.base.chapter_template_loop[1310024] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
@@ -156456,10 +156304,6 @@ _G.pg.base.chapter_template_loop[1310024] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -156467,6 +156311,7 @@ _G.pg.base.chapter_template_loop[1310024] = {
 
 
 _G.pg.base.chapter_template_loop[1310025] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
@@ -156979,10 +156824,6 @@ _G.pg.base.chapter_template_loop[1310025] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -156990,6 +156831,7 @@ _G.pg.base.chapter_template_loop[1310025] = {
 
 
 _G.pg.base.chapter_template_loop[1310026] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
@@ -157557,613 +157399,6 @@ _G.pg.base.chapter_template_loop[1310026] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
-	land_based = {},
-	chapter_strategy = {},
-	alarm_cell = {}
-}
-
-
-_G.pg.base.chapter_template_loop[1310041] = {
-	pop_pic = "",
-	air_dominance_loop_rate = 80,
-	boss_refresh = 7,
-	is_limit_move = 0,
-	bgm = "&&",
-	is_air_attack = 0,
-	friendly_id = 0,
-	is_ambush = 0,
-	is_ai = 1,
-	id = 1310041,
-	group_num = 2,
-	fightauto = 1,
-	model = 2,
-	investigation_ratio = 6,
-	wall_prefab = "",
-	avoid_ratio = 10,
-	time = 43200,
-	slg_effect = "",
-	chapter_fx = "",
-	submarine_num = 1,
-	uifx = "",
-	scale = {
-		0.34,
-		0.53,
-		1.5
-	},
-	limitation = {
-		{
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	property_limitation = {
-		{
-			"level",
-			1,
-			110
-		}
-	},
-	expedition_id_weight_list = {
-		{
-			1334001,
-			15,
-			0
-		},
-		{
-			1334002,
-			20,
-			0
-		},
-		{
-			1334003,
-			30,
-			1
-		},
-		{
-			1334004,
-			15,
-			0
-		},
-		{
-			1334005,
-			20,
-			0
-		},
-		{
-			1334006,
-			30,
-			1
-		},
-		{
-			1334007,
-			15,
-			0
-		},
-		{
-			1334008,
-			20,
-			0
-		},
-		{
-			1334009,
-			30,
-			1
-		}
-	},
-	ambush_expedition_list = {},
-	guarder_expedition_list = {
-		1334010,
-		1334011,
-		1334012
-	},
-	elite_expedition_list = {
-		1334006,
-		1334008
-	},
-	ai_expedition_list = {
-		1334101,
-		1334102,
-		1334103
-	},
-	patrolai_expedition_list = {
-		1
-	},
-	submarine_expedition_list = {
-		1
-	},
-	boss_expedition_id = {
-		1334013
-	},
-	enemy_refresh = {
-		1,
-		1,
-		1,
-		1,
-		1,
-		1
-	},
-	elite_refresh = {
-		1,
-		0,
-		1,
-		0,
-		1
-	},
-	ai_refresh = {
-		2,
-		0,
-		1
-	},
-	patrolai_refresh = {
-		0
-	},
-	submarine_refresh = {
-		0
-	},
-	grids = {
-		{
-			8,
-			8,
-			true,
-			12
-		},
-		{
-			8,
-			7,
-			true,
-			0
-		},
-		{
-			8,
-			6,
-			true,
-			0
-		},
-		{
-			8,
-			5,
-			true,
-			1
-		},
-		{
-			8,
-			4,
-			true,
-			0
-		},
-		{
-			8,
-			3,
-			true,
-			1
-		},
-		{
-			8,
-			2,
-			true,
-			0
-		},
-		{
-			8,
-			1,
-			true,
-			0
-		},
-		{
-			8,
-			0,
-			true,
-			12
-		},
-		{
-			7,
-			8,
-			true,
-			12
-		},
-		{
-			7,
-			7,
-			true,
-			0
-		},
-		{
-			7,
-			6,
-			true,
-			0
-		},
-		{
-			7,
-			5,
-			true,
-			6
-		},
-		{
-			7,
-			4,
-			true,
-			8
-		},
-		{
-			7,
-			3,
-			true,
-			6
-		},
-		{
-			7,
-			2,
-			true,
-			0
-		},
-		{
-			7,
-			1,
-			true,
-			0
-		},
-		{
-			7,
-			0,
-			true,
-			12
-		},
-		{
-			6,
-			8,
-			true,
-			0
-		},
-		{
-			6,
-			7,
-			true,
-			0
-		},
-		{
-			6,
-			6,
-			true,
-			6
-		},
-		{
-			6,
-			5,
-			false,
-			0
-		},
-		{
-			6,
-			4,
-			false,
-			0
-		},
-		{
-			6,
-			3,
-			false,
-			0
-		},
-		{
-			6,
-			2,
-			true,
-			6
-		},
-		{
-			6,
-			1,
-			true,
-			0
-		},
-		{
-			6,
-			0,
-			true,
-			0
-		},
-		{
-			5,
-			8,
-			true,
-			0
-		},
-		{
-			5,
-			7,
-			true,
-			6
-		},
-		{
-			5,
-			6,
-			false,
-			0
-		},
-		{
-			5,
-			5,
-			true,
-			6
-		},
-		{
-			5,
-			4,
-			true,
-			0
-		},
-		{
-			5,
-			3,
-			true,
-			6
-		},
-		{
-			5,
-			2,
-			false,
-			0
-		},
-		{
-			5,
-			1,
-			true,
-			6
-		},
-		{
-			5,
-			0,
-			true,
-			0
-		},
-		{
-			4,
-			8,
-			true,
-			6
-		},
-		{
-			4,
-			7,
-			true,
-			0
-		},
-		{
-			4,
-			6,
-			false,
-			0
-		},
-		{
-			4,
-			5,
-			false,
-			0
-		},
-		{
-			4,
-			4,
-			true,
-			4
-		},
-		{
-			4,
-			3,
-			false,
-			0
-		},
-		{
-			4,
-			2,
-			false,
-			0
-		},
-		{
-			4,
-			1,
-			true,
-			0
-		},
-		{
-			4,
-			0,
-			true,
-			6
-		},
-		{
-			3,
-			8,
-			true,
-			0
-		},
-		{
-			3,
-			7,
-			true,
-			4
-		},
-		{
-			3,
-			6,
-			true,
-			0
-		},
-		{
-			3,
-			5,
-			true,
-			6
-		},
-		{
-			3,
-			4,
-			true,
-			16
-		},
-		{
-			3,
-			3,
-			true,
-			6
-		},
-		{
-			3,
-			2,
-			true,
-			0
-		},
-		{
-			3,
-			1,
-			true,
-			4
-		},
-		{
-			3,
-			0,
-			true,
-			0
-		},
-		{
-			2,
-			8,
-			true,
-			0
-		},
-		{
-			2,
-			7,
-			true,
-			0
-		},
-		{
-			2,
-			6,
-			true,
-			6
-		},
-		{
-			2,
-			5,
-			true,
-			0
-		},
-		{
-			2,
-			4,
-			true,
-			0
-		},
-		{
-			2,
-			3,
-			true,
-			0
-		},
-		{
-			2,
-			2,
-			true,
-			6
-		},
-		{
-			2,
-			1,
-			true,
-			0
-		},
-		{
-			2,
-			0,
-			true,
-			0
-		}
-	},
-	float_items = {
-		{
-			6,
-			4,
-			"2x1_1_maoxi_hard",
-			0,
-			18
-		},
-		{
-			4,
-			5,
-			"2x2_1_maoxi_hard",
-			77,
-			-24
-		},
-		{
-			4,
-			3,
-			"1x1_2_maoxi_hard",
-			8,
-			12
-		},
-		{
-			4,
-			2,
-			"1x2_1_maoxi_hard",
-			-2,
-			-33
-		}
-	},
-	ambush_event_ratio = {},
-	ambush_ratio_extra = {},
-	theme = {
-		"sea_maozi_hard",
-		45,
-		20,
-		-128,
-		98,
-		100,
-		100,
-		4,
-		4,
-		""
-	},
-	box_list = {},
-	random_box_list = {
-		9,
-		23,
-		103,
-		1004,
-		5001
-	},
-	box_refresh = {
-		0
-	},
-	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -159625,6 +158860,7 @@ _G.pg.base.chapter_template_loop[1320003] = {
 
 
 _G.pg.base.chapter_template_loop[1330001] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 3,
@@ -160063,10 +159299,6 @@ _G.pg.base.chapter_template_loop[1330001] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -160074,6 +159306,7 @@ _G.pg.base.chapter_template_loop[1330001] = {
 
 
 _G.pg.base.chapter_template_loop[1330002] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -160541,10 +159774,6 @@ _G.pg.base.chapter_template_loop[1330002] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -160552,6 +159781,7 @@ _G.pg.base.chapter_template_loop[1330002] = {
 
 
 _G.pg.base.chapter_template_loop[1330003] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -161039,10 +160269,6 @@ _G.pg.base.chapter_template_loop[1330003] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -161050,6 +160276,7 @@ _G.pg.base.chapter_template_loop[1330003] = {
 
 
 _G.pg.base.chapter_template_loop[1330004] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -161574,10 +160801,6 @@ _G.pg.base.chapter_template_loop[1330004] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -161585,6 +160808,7 @@ _G.pg.base.chapter_template_loop[1330004] = {
 
 
 _G.pg.base.chapter_template_loop[1330005] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
@@ -162097,10 +161321,6 @@ _G.pg.base.chapter_template_loop[1330005] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -162108,6 +161328,7 @@ _G.pg.base.chapter_template_loop[1330005] = {
 
 
 _G.pg.base.chapter_template_loop[1330006] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
@@ -162688,10 +161909,6 @@ _G.pg.base.chapter_template_loop[1330006] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -162699,6 +161916,7 @@ _G.pg.base.chapter_template_loop[1330006] = {
 
 
 _G.pg.base.chapter_template_loop[1330021] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -163179,10 +162397,6 @@ _G.pg.base.chapter_template_loop[1330021] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -163190,6 +162404,7 @@ _G.pg.base.chapter_template_loop[1330021] = {
 
 
 _G.pg.base.chapter_template_loop[1330022] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -163699,10 +162914,6 @@ _G.pg.base.chapter_template_loop[1330022] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -163710,6 +162921,7 @@ _G.pg.base.chapter_template_loop[1330022] = {
 
 
 _G.pg.base.chapter_template_loop[1330023] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
@@ -164240,10 +163452,6 @@ _G.pg.base.chapter_template_loop[1330023] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -164251,6 +163459,7 @@ _G.pg.base.chapter_template_loop[1330023] = {
 
 
 _G.pg.base.chapter_template_loop[1330024] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
@@ -164817,10 +164026,6 @@ _G.pg.base.chapter_template_loop[1330024] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -164828,6 +164033,7 @@ _G.pg.base.chapter_template_loop[1330024] = {
 
 
 _G.pg.base.chapter_template_loop[1330025] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
@@ -165384,10 +164590,6 @@ _G.pg.base.chapter_template_loop[1330025] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -165395,6 +164597,7 @@ _G.pg.base.chapter_template_loop[1330025] = {
 
 
 _G.pg.base.chapter_template_loop[1330026] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 6,
@@ -166019,10 +165222,6 @@ _G.pg.base.chapter_template_loop[1330026] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -166554,6 +165753,7 @@ _G.pg.base.chapter_template_loop[1330041] = {
 
 
 _G.pg.base.chapter_template_loop[1350001] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -167059,10 +166259,6 @@ _G.pg.base.chapter_template_loop[1350001] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -167070,6 +166266,7 @@ _G.pg.base.chapter_template_loop[1350001] = {
 
 
 _G.pg.base.chapter_template_loop[1350002] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 4,
@@ -167635,10 +166832,6 @@ _G.pg.base.chapter_template_loop[1350002] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}
@@ -167646,6 +166839,7 @@ _G.pg.base.chapter_template_loop[1350002] = {
 
 
 _G.pg.base.chapter_template_loop[1350003] = {
+	special_operation_list = "",
 	pop_pic = "",
 	air_dominance_loop_rate = 80,
 	boss_refresh = 5,
@@ -168208,10 +167402,6 @@ _G.pg.base.chapter_template_loop[1350003] = {
 		0
 	},
 	npc_data = {},
-	special_operation_list = {
-		47,
-		48
-	},
 	land_based = {},
 	chapter_strategy = {},
 	alarm_cell = {}

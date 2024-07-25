@@ -22,12 +22,13 @@ slot0.Entrance = function(slot0, slot1)
 
 	slot14 = slot4:getSortShipsByFleet(slot12)
 	slot15 = slot3:getData()
-	slot17 = slot10:GetBossProxy()
-	slot18 = slot17:GetBossById(slot0.bossId)
-	slot19 = slot18:GetStageID()
+	slot17 = slot0.hpRate
+	slot18 = slot10:GetBossProxy()
+	slot19 = slot18:GetBossById(slot0.bossId)
+	slot20 = slot19:GetStageID()
 
-	if slot17:IsSelfBoss(slot18) and slot18:GetSelfFightCnt() > 0 then
-		slot9 = slot18:GetOilConsume()
+	if slot18:IsSelfBoss(slot19) and slot19:GetSelfFightCnt() > 0 then
+		slot9 = slot19:GetOilConsume()
 	end
 
 	if slot6 and slot15.oil < slot9 then
@@ -69,7 +70,7 @@ slot0.Entrance = function(slot0, slot1)
 		slot1 = uv9
 
 		slot1:updatePlayer(uv1)
-		uv12:sendNotification(GAME.BEGIN_STAGE_DONE, {
+		uv13:sendNotification(GAME.BEGIN_STAGE_DONE, {
 			prefabFleet = {},
 			bossId = uv8,
 			actId = uv10,
@@ -77,7 +78,8 @@ slot0.Entrance = function(slot0, slot1)
 			system = SYSTEM_WORLD_BOSS,
 			token = slot0.key,
 			bossLevel = uv7:GetLevel(),
-			bossConfigId = uv7:GetConfigID()
+			bossConfigId = uv7:GetConfigID(),
+			hpRate = uv12
 		})
 	end, function (slot0)
 		slot1 = function()

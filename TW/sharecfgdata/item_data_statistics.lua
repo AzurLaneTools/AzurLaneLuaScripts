@@ -14256,6 +14256,37 @@ _G.pg.base.item_data_statistics[21029] = {
 }
 
 
+_G.pg.base.item_data_statistics[21032] = {
+	open_directly = 0,
+	name = "結晶：吸血鬼·META",
+	type = 4,
+	display = "吸血鬼·META的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21032",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21032,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "結晶化熱強鋼",
@@ -22418,6 +22449,131 @@ _G.pg.base.item_data_statistics[30350] = {
 }
 
 
+_G.pg.base.item_data_statistics[30354] = {
+	open_directly = 1,
+	name = "外觀裝備箱(異世界冒險)",
+	type = 11,
+	display = "可以獲得一件隨機的異世界冒險風格外觀裝備",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxyishijiemaoxian",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30354",
+	id = 30354,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			930,
+			1
+		},
+		{
+			9,
+			931,
+			1
+		},
+		{
+			9,
+			932,
+			1
+		},
+		{
+			9,
+			933,
+			1
+		},
+		{
+			9,
+			934,
+			1
+		},
+		{
+			9,
+			935,
+			1
+		},
+		{
+			9,
+			936,
+			1
+		},
+		{
+			9,
+			937,
+			1
+		},
+		{
+			9,
+			938,
+			1
+		},
+		{
+			9,
+			939,
+			1
+		},
+		{
+			9,
+			940,
+			1
+		},
+		{
+			9,
+			941,
+			1
+		},
+		{
+			9,
+			942,
+			1
+		},
+		{
+			9,
+			943,
+			1
+		},
+		{
+			9,
+			944,
+			1
+		},
+		{
+			9,
+			945,
+			1
+		},
+		{
+			9,
+			946,
+			1
+		},
+		{
+			9,
+			947,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[30356] = {
 	open_directly = 1,
 	name = "外觀裝備箱(郵輪)",
@@ -23606,6 +23762,115 @@ _G.pg.base.item_data_statistics[30418] = {
 		{
 			9,
 			2064,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[30419] = {
+	open_directly = 1,
+	name = "火焰巨龍飛機",
+	type = 11,
+	display = "可以獲得火焰巨龍飛機(魚雷)、火焰巨龍飛機(戰鬥)、火焰巨龍飛機(轟炸)外觀裝備各一件",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/96731",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30419",
+	id = 30419,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2068,
+			1
+		},
+		{
+			9,
+			2069,
+			1
+		},
+		{
+			9,
+			2070,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[30420] = {
+	open_directly = 1,
+	name = "外觀裝備箱(世界巡遊)",
+	type = 11,
+	display = "可以隨機獲得一件本次世界巡遊限定外觀裝備",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30420",
+	id = 30420,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2065,
+			1
+		},
+		{
+			9,
+			2066,
+			1
+		},
+		{
+			9,
+			2067,
+			1
+		},
+		{
+			9,
+			2068,
+			1
+		},
+		{
+			9,
+			2069,
+			1
+		},
+		{
+			9,
+			2070,
 			1
 		}
 	},
@@ -30615,6 +30880,219 @@ _G.pg.base.item_data_statistics[30536] = {
 }
 
 
+_G.pg.base.item_data_statistics[30538] = {
+	open_directly = 0,
+	name = "定向外觀裝備箱(異世界冒險)",
+	type = 13,
+	display = "使用後可從「異世界冒險」主題外觀裝備中任意選擇一種獲得1個",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxyishijiemaoxianzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30538,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			930,
+			1
+		},
+		{
+			9,
+			931,
+			1
+		},
+		{
+			9,
+			932,
+			1
+		},
+		{
+			9,
+			933,
+			1
+		},
+		{
+			9,
+			934,
+			1
+		},
+		{
+			9,
+			935,
+			1
+		},
+		{
+			9,
+			936,
+			1
+		},
+		{
+			9,
+			937,
+			1
+		},
+		{
+			9,
+			938,
+			1
+		},
+		{
+			9,
+			939,
+			1
+		},
+		{
+			9,
+			940,
+			1
+		},
+		{
+			9,
+			941,
+			1
+		},
+		{
+			9,
+			942,
+			1
+		},
+		{
+			9,
+			943,
+			1
+		},
+		{
+			9,
+			944,
+			1
+		},
+		{
+			9,
+			945,
+			1
+		},
+		{
+			9,
+			946,
+			1
+		},
+		{
+			9,
+			947,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			930,
+			1
+		},
+		{
+			9,
+			931,
+			1
+		},
+		{
+			9,
+			932,
+			1
+		},
+		{
+			9,
+			933,
+			1
+		},
+		{
+			9,
+			934,
+			1
+		},
+		{
+			9,
+			935,
+			1
+		},
+		{
+			9,
+			936,
+			1
+		},
+		{
+			9,
+			937,
+			1
+		},
+		{
+			9,
+			938,
+			1
+		},
+		{
+			9,
+			939,
+			1
+		},
+		{
+			9,
+			940,
+			1
+		},
+		{
+			9,
+			941,
+			1
+		},
+		{
+			9,
+			942,
+			1
+		},
+		{
+			9,
+			943,
+			1
+		},
+		{
+			9,
+			944,
+			1
+		},
+		{
+			9,
+			945,
+			1
+		},
+		{
+			9,
+			946,
+			1
+		},
+		{
+			9,
+			947,
+			1
+		}
+	}
+}
+
+
 _G.pg.base.item_data_statistics[30540] = {
 	open_directly = 0,
 	name = "定向外觀裝備箱(郵輪)",
@@ -34470,6 +34948,57 @@ _G.pg.base.item_data_statistics[40137] = {
 		4137,
 		0,
 		150
+	}
+}
+
+
+_G.pg.base.item_data_statistics[40138] = {
+	open_directly = 1,
+	name = "限時建造補給",
+	type = 17,
+	display = "購買禮包可獲得大量材料獎勵",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/boxBuild",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40138,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			1,
+			15000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4138,
+		15000,
+		0
 	}
 }
 
@@ -60125,6 +60654,223 @@ _G.pg.base.item_data_statistics[44002] = {
 }
 
 
+_G.pg.base.item_data_statistics[44011] = {
+	open_directly = 0,
+	name = "情人節禮物",
+	type = 23,
+	display = "$1贈送的情人節禮物",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/manhanquanxi ",
+	price = "",
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 44011,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[44012] = {
+	open_directly = 0,
+	name = "情人節禮物",
+	type = 23,
+	display = "$1贈送的情人節禮物",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/manhanquanxi ",
+	price = "",
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 44012,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[44013] = {
+	open_directly = 0,
+	name = "情人節禮物",
+	type = 23,
+	display = "$1贈送的情人節禮物",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/manhanquanxi ",
+	price = "",
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 44013,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[44014] = {
+	open_directly = 0,
+	name = "情人節禮物",
+	type = 23,
+	display = "$1贈送的情人節禮物",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/manhanquanxi ",
+	price = "",
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 44014,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[44015] = {
+	open_directly = 0,
+	name = "情人節禮物",
+	type = 23,
+	display = "$1贈送的情人節禮物",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/manhanquanxi ",
+	price = "",
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 44015,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[44016] = {
+	open_directly = 0,
+	name = "情人節禮物",
+	type = 23,
+	display = "$1贈送的情人節禮物",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/manhanquanxi ",
+	price = "",
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 44016,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[44017] = {
+	open_directly = 0,
+	name = "情人節禮物",
+	type = 23,
+	display = "$1贈送的情人節禮物",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/manhanquanxi ",
+	price = "",
+	order = 0,
+	rarity = 8,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 44017,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[50001] = {
 	open_directly = 0,
 	name = "酸素可樂",
@@ -70195,6 +70941,471 @@ _G.pg.base.item_data_statistics[89002] = {
 	target_id = 0,
 	display_icon = {},
 	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[100011] = {
+	open_directly = 0,
+	name = "光明與正義之神",
+	type = 1,
+	display = "光明與正義之神的守護之力",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "SquareIcon/lisailiu",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 100011,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[100012] = {
+	open_directly = 0,
+	name = "火焰與淨化之神",
+	type = 1,
+	display = "火焰與淨化之神的守護之力",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "SquareIcon/chicheng",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 100012,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[100013] = {
+	open_directly = 0,
+	name = "黑暗與詭計之神",
+	type = 1,
+	display = "黑暗與詭計之神的守護之力",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "SquareIcon/kelaimengsuo",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 100013,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[100014] = {
+	open_directly = 0,
+	name = "鋼鐵與巨龍之神",
+	type = 1,
+	display = "鋼鐵與巨龍之神的守護之力",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "SquareIcon/bisimaiZ",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 100014,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[100015] = {
+	open_directly = 0,
+	name = "復興與浴室之神",
+	type = 1,
+	display = "復興與浴室之神的守護之力",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "SquareIcon/weineituo",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 100015,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[100016] = {
+	open_directly = 0,
+	name = "開拓與冒險之神",
+	type = 1,
+	display = "開拓與冒險之神的守護之力",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "SquareIcon/huangjiacaifu",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 100016,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[100017] = {
+	open_directly = 0,
+	name = "秩序與規則之神",
+	type = 1,
+	display = "秩序與規則之神的守護之力",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "SquareIcon/tbniang1",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 100017,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[100018] = {
+	open_directly = 0,
+	name = "堅韌與團結之神",
+	type = 1,
+	display = "堅韌與團結之神的守護之力",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "SquareIcon/suweiaitongmengnew",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 100018,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[100019] = {
+	open_directly = 0,
+	name = "幸運與財富之神",
+	type = 1,
+	display = "幸運與財富之神的守護之力",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "SquareIcon/mingshi",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 100019,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[100020] = {
+	open_directly = 0,
+	name = "茶會與點心之神",
+	type = 1,
+	display = "茶會與點心之神的守護之力",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "SquareIcon/yilishabai",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 100020,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[100021] = {
+	open_directly = 0,
+	name = "平安與守護之神",
+	type = 1,
+	display = "平安與守護之神的守護之力",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "SquareIcon/yixian",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 100021,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[100022] = {
+	open_directly = 0,
+	name = "起始與終焉之神",
+	type = 1,
+	display = "起始與終焉之神的守護之力",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "SquareIcon/salatuojia",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 100022,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[100023] = {
+	open_directly = 0,
+	name = "戰爭之神",
+	type = 1,
+	display = "戰爭之神的守護之力",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "SquareIcon/qiye_dark",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 100023,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[100024] = {
+	open_directly = 0,
+	name = "智慧之神",
+	type = 1,
+	display = "智慧之神的守護之力",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "SquareIcon/hailunna_alter",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 100024,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[100025] = {
+	open_directly = 0,
+	name = "歡愉之神",
+	type = 1,
+	display = "歡愉之神的守護之力",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "SquareIcon/unknown2",
+	price = "",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 100025,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
 	index = {},
 	shiptrans_id = {},
 	combination_display = {}

@@ -131219,6 +131219,116 @@ _G.pg.base.equip_data_statistics[80102] = {
 }
 
 
+_G.pg.base.equip_data_statistics[80211] = {
+	name = "专属弹幕-努比亚人I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能彈幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 80211,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170421
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80212] = {
+	name = "专属弹幕-努比亚人II",
+	base = 80211,
+	id = 80212,
+	weapon_id = {
+		170422
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80221] = {
+	name = "专属弹幕-吸血鬼METAI",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能彈幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 80221,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		61611
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80222] = {
+	name = "专属弹幕-吸血鬼METAII",
+	base = 80221,
+	id = 80222,
+	weapon_id = {
+		61612
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[85000] = {
 	name = "B-13 雙聯裝130mm主炮B-2LM",
 	speciality = "<[LOCK]>",
@@ -154610,6 +154720,149 @@ _G.pg.base.equip_data_statistics[150191] = {
 	base = 150180,
 	value_2 = 10,
 	value_1 = "25"
+}
+
+
+_G.pg.base.equip_data_statistics[150280] = {
+	name = "異世界冒險終端",
+	tech = 0,
+	type = 10,
+	speciality = "<[NA]>",
+	attribute_1 = "durability",
+	value_2 = 0,
+	icon = "150280",
+	value_1 = "250",
+	rarity = 5,
+	descrip = "異世界冒險途中的不可或缺的道具！",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 150280,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60540
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[150281] = {
+	id = 150281,
+	value_1 = "280",
+	base = 150280,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150282] = {
+	id = 150282,
+	value_1 = "310",
+	base = 150280,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150283] = {
+	id = 150283,
+	value_1 = "340",
+	base = 150280,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150284] = {
+	id = 150284,
+	value_1 = "370",
+	base = 150280,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150285] = {
+	id = 150285,
+	value_1 = "400",
+	base = 150280,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150286] = {
+	id = 150286,
+	value_1 = "430",
+	base = 150280,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150287] = {
+	id = 150287,
+	value_1 = "460",
+	base = 150280,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150288] = {
+	id = 150288,
+	value_1 = "490",
+	base = 150280,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150289] = {
+	id = 150289,
+	value_1 = "520",
+	base = 150280,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150290] = {
+	id = 150290,
+	value_1 = "550",
+	base = 150280,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150291] = {
+	anti_siren = 100,
+	base = 150280,
+	id = 150291,
+	value_1 = "580",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150292] = {
+	anti_siren = 200,
+	base = 150280,
+	id = 150292,
+	value_1 = "610",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150293] = {
+	anti_siren = 300,
+	base = 150280,
+	id = 150293,
+	value_1 = "640",
+	hidden_skill_id = {}
 }
 
 

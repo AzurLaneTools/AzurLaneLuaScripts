@@ -8,7 +8,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgm = "battle-arcticocean",
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样一来就彻底结束了——",
+			say = "這樣一來就徹底結束了——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "勇者斩击——！",
+			say = "勇者斬擊——！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			bgm = "theme-ijndailymeeting",
 			actor = 705062,
 			nameColor = "#FEF15E",
-			say = "不错，你们做得很出色，我认可你们通过了考验。",
+			say = "不錯，你們做得很出色，我認可你們通過了考驗。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿~对于勇者抚顺来说小菜一碟~",
+			say = "嘿嘿~對於勇者撫順來說小菜一碟~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……太好了。刚才的治疗压力真是太大了……",
+			say = "呼……太好了。剛才的治療壓力真是太大了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,12 +174,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "见习神官",
+			factiontag = "見習神官",
 			dir = 1,
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是啊……还好所有的诅咒都成功解除了。",
+			say = "是啊……還好所有的詛咒都成功解除了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,9 +193,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "（阿尔汉格尔斯克在考验中使用的不是魔物……而是塞壬？）",
+			say = "（阿爾漢格爾斯克在考驗中使用的不是魔物……而是塞壬？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,9 +205,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "（而且还有在战斗中所使用的高级诅咒技能……）",
+			say = "（而且還有在戰鬥中所使用的高階詛咒技能……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,9 +217,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "智慧魔女……你刚才所驱使的魔物和诅咒能力是怎么回事？",
+			say = "智慧魔女……妳剛才所驅使的魔物和詛咒能力是怎麼回事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			dir = 1,
 			actor = 705062,
 			nameColor = "#FEF15E",
-			say = "我身为知晓一切奥秘的智慧魔女，驱使一些世间不存在的魔物，会一些高级诅咒魔法也没什么问题吧？",
+			say = "我身為知曉一切奧秘的智慧魔女，驅使一些世間不存在的魔物，會一些高級詛咒魔法也沒什麼問題吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			dir = 1,
 			actor = 705062,
 			nameColor = "#FEF15E",
-			say = "呵呵，你要是也想学的话，不如还是留在这里当我的弟子吧？",
+			say = "呵呵，你要是也想學的話，不如還是留在這裡當我的弟子吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,12 +263,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "药剂师",
+			factiontag = "藥師",
 			dir = 1,
 			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "老师，这件事您就别再想啦！",
+			say = "老師，這件事您就別再想啦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			actor = 705062,
 			nameColor = "#FEF15E",
-			say = "你啊你啊，才出去多久，就开始偏袒外人了。",
+			say = "妳啊妳啊，才出去多久，就開始偏袒外人了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			dir = 1,
 			actor = 705062,
 			nameColor = "#FEF15E",
-			say = "好吧，约定就是约定。你们通过了试炼，我会如约告诉你们解除诅咒的方法。",
+			say = "好吧，約定就是約定。你們通過了試煉，我會如約告訴你們解除詛咒的方法。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
-			say = "阿尔汉格尔斯克微微抬手，一个装饰精细的笛子凭空出现在她的手中。",
+			say = "阿爾漢格爾斯克微微抬手，一個裝飾精細的笛子憑空出現在她的手中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			dir = 1,
 			actor = 705062,
 			nameColor = "#FEF15E",
-			say = "这件道具名为“时之笛”，是昔日大魔法师所属勇者小队队长的遗物。",
+			say = "這件道具名為「時之笛」，是昔日大魔法師所屬勇者小隊隊長的遺物。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			dir = 1,
 			actor = 705062,
 			nameColor = "#FEF15E",
-			say = "你们只要在她的耳边吹响这支笛子，就能将她从诅咒中唤醒了。",
+			say = "你們只要在她的耳邊吹響這支笛子，就能將她從詛咒中喚醒了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			dir = 1,
 			actor = 705062,
 			nameColor = "#FEF15E",
-			say = "不过将她唤醒之后……算了。",
+			say = "不過將她喚醒之後……算了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			dir = 1,
 			actor = 705062,
 			nameColor = "#FEF15E",
-			say = "给，拿上笛子就回去做你们想做的事吧。",
+			say = "拿去，拿上笛子就回去做你們想做的事吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好耶——关键道具入手啦~！",
+			say = "好耶——關鍵道具入手啦~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,9 +417,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_177",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "（“不过将她唤醒之后”……阿尔汉格尔斯克似乎还有重要的情报没有说出来。）",
+			say = "（「不過將她喚醒之後」……阿爾漢格爾斯克似乎還有重要的情報沒有說出來。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "走吧走吧，别发呆啊指挥官~！",
+			say = "走吧走吧，別發呆啊指揮官~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们快回去解除大魔法师的诅咒吧！",
+			say = "我們快回去解除大魔法師的詛咒吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1

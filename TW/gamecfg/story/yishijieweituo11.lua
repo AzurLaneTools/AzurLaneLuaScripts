@@ -9,7 +9,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "接到冒险者工会的委托来采集石料。。",
+			say = "接到冒險者工會的委託來採集石料。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,7 +18,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "一块石料四十块金币，两块石料八十块金币……",
+			say = "一塊石料四十塊金幣，兩塊石料八十塊金幣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "可以获取委托奖励了！",
+			say = "委託終於完成了，可以回冒險者公會領獎勵了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

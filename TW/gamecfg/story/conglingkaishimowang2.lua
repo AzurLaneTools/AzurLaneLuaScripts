@@ -35,7 +35,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_mmorpg_cg2",
-			say = "一阵光芒闪过，几位打扮各异的少女出现在了充满异世界风情的村镇中。",
+			say = "一陣光芒閃過，少女們出現在了充滿異世界風情的村鎮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,25 +49,7 @@ return {
 			dir = 1,
 			actorName = "利物浦",
 			hidePaintObj = true,
-			say = "……迎面而来的阳光，还有空气与土地的味道……一切都与港区截然不同。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_mmorpg_cg2",
-			factiontag = "神官",
-			dir = 1,
-			actorName = "利物浦",
-			hidePaintObj = true,
-			say = "还有这身可爱的神官制服……",
+			say = "……迎面而來的陽光，還有空氣與土地的味道……一切都與港區截然不同。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -85,7 +67,7 @@ return {
 			dir = 1,
 			actorName = "利物浦",
 			hidePaintObj = true,
-			say = "这就是，虚拟现实系统的力量~！",
+			say = "還有這套可愛的神官制服……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,11 +81,11 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_mmorpg_cg2",
-			factiontag = "见习神官",
+			factiontag = "神官",
 			dir = 1,
-			actorName = "独角兽",
+			actorName = "利物浦",
 			hidePaintObj = true,
-			say = "独角兽也能从法杖中感受到魔法的力量……",
+			say = "這就是，虛擬實境系統的力量~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,11 +99,11 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_mmorpg_cg2",
-			factiontag = "见习神官",
+			factiontag = "見習神官",
 			dir = 1,
-			actorName = "独角兽",
+			actorName = "獨角獸",
 			hidePaintObj = true,
-			say = "好像真的变成能使用魔法的神官了……",
+			say = "獨角獸也能從法杖中感受到魔法的力量……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,29 +117,11 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_mmorpg_cg2",
-			factiontag = "勇者",
+			factiontag = "見習神官",
 			dir = 1,
-			actorName = "抚顺",
+			actorName = "獨角獸",
 			hidePaintObj = true,
-			say = "等……等等！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#A9F548FF",
-			side = 2,
-			bgName = "bg_mmorpg_cg2",
-			factiontag = "勇者",
-			dir = 1,
-			actorName = "抚顺",
-			hidePaintObj = true,
-			say = "勇者之剑确实是刷出来了，可是……抚顺的变装呢！",
+			say = "好像真的變成能使用魔法的神官了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,9 +137,9 @@ return {
 			bgName = "bg_mmorpg_cg2",
 			factiontag = "勇者",
 			dir = 1,
-			actorName = "抚顺",
+			actorName = "撫順",
 			hidePaintObj = true,
-			say = "我设计的十几套勇者服饰去哪里了？！",
+			say = "等等……等等！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,9 +155,45 @@ return {
 			bgName = "bg_mmorpg_cg2",
 			factiontag = "勇者",
 			dir = 1,
-			actorName = "抚顺",
+			actorName = "撫順",
 			hidePaintObj = true,
-			say = "紧急呼叫秩序与规则之神——！",
+			say = "勇者之劍確實是刷出來了，可是……撫順的變裝呢！",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_mmorpg_cg2",
+			factiontag = "勇者",
+			dir = 1,
+			actorName = "撫順",
+			hidePaintObj = true,
+			say = "我設計的十幾套勇者服飾去哪了？！",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			nameColor = "#A9F548FF",
+			side = 2,
+			bgName = "bg_mmorpg_cg2",
+			factiontag = "勇者",
+			dir = 1,
+			actorName = "撫順",
+			hidePaintObj = true,
+			say = "緊急呼叫秩序與規則之神—！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,11 +207,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "秩序与规则之神",
+			factiontag = "秩序與規則之神",
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一次性紧急联络道具已确认使用。",
+			say = "一次性緊急聯絡道具已確認使用。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,11 +238,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "秩序与规则之神",
+			factiontag = "秩序與規則之神",
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "回复：你未对最终使用方案做出决定，且我无法自主决定该项内容。",
+			say = "回復：妳未對最終使用方案做出決定，且我無法自主決定該項內容。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,11 +252,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "秩序与规则之神",
+			factiontag = "秩序與規則之神",
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因此为了能确保游戏流程正常进行，经过评估，我选择了调用默认服饰的方案。",
+			say = "因此為了能確保遊戲流程正常進行，我選擇了預設服飾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,11 +266,11 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "秩序与规则之神",
+			factiontag = "秩序與規則之神",
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "以上，本次联络结束。",
+			say = "以上，本次聯絡結束。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "糟糕……好像确实是这样……我当时忙着去道具组设计勇者之剑就……",
+			say = "糟糕……好像確實是這樣……我當時忙著去道具組設計勇者之劍就……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "失策了……没事，至少勇者之剑好好刷出来了！",
+			say = "失策了……沒事，至少勇者之劍好好刷出來了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼……这个手感，不愧是由我亲自设计的武器，真是完美无缺的品质！",
+			say = "哼哼……這個手感，不愧是我親自設計的武器，真是完美無缺的品質！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么接下来，首先操作一下系统面板查看一下属性装备和任务——",
+			say = "那麼接下來，先操作一下系統面板查看一下屬性裝備和任務——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦？独角兽你怎么变成了见习神官？",
+			say = "咦？獨角獸妳怎麼變成見習神官了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,12 +387,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "见习神官",
+			factiontag = "見習神官",
 			dir = 1,
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我看到见习神官的背景介绍是“原本拥有强大力量的魔法师改学神官魔法，所以保留了一部分以前的法术。”",
+			say = "我看到見習神官的背景介紹是「原本擁有強大力量的魔法師改學神官魔法，所以保留了一部分以前的法術。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -406,12 +406,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "见习神官",
+			factiontag = "見習神官",
 			dir = 1,
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "独角兽选了优酱召唤术……这样就能和优酱一起冒险了。",
+			say = "獨角獸選了優醬召喚術……這樣就能和優醬一起冒險了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来见习神官是这种设定么……？！",
+			say = "原來見習神官是這種設定嗎……？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,7 +447,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "干得漂亮独角兽~居然想到了冒险之王都没想到的事！",
+			say = "幹得漂亮獨角獸~居然想到了冒險之王都沒想到的事！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -475,7 +475,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "开局就有了会飞的小队坐骑……嘿嘿，对于冒险之旅来说真是如虎添翼啊~",
+			say = "開局就有了會飛的小隊坐騎……嘿嘿，對於冒險之旅來說真是如虎添翼啊~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -493,7 +493,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然后接下来是任务列表……嗯，已经刷新了！",
+			say = "然後接下來是任務清單……嗯，已經更新了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,7 +511,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "第一个任务是寻找小队指挥官，任务地点在“无尽树海”~",
+			say = "第一個任務是尋找小隊指揮官，任務地點在「無盡樹海」~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -530,7 +530,7 @@ return {
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "小队指挥官，看来这个就是去和指挥官汇合的任务了呢。",
+			say = "小隊指揮官，看來這個就是去跟指揮官匯合的任務了呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -548,7 +548,7 @@ return {
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没想到都来到了异世界，指挥官的职业还是指挥官。",
+			say = "沒想到都來到了異世界，指揮官的職業還是指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -566,7 +566,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就是说啊！可惜最后的投票结果就是这样……",
+			say = "就是說啊！可惜最後的投票結果就是這樣……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -584,7 +584,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果让我来设定……嘿嘿，那我肯定把指挥官的职业设定成狂战士。",
+			say = "如果讓我來設定……嘿嘿，那我肯定把指揮官的職業設定成狂戰士。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -602,7 +602,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "让指挥官也体会一次依靠力量手撕敌人的快乐~",
+			say = "讓指揮官也體會一次依靠力量手撕敵人的快樂~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -616,12 +616,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "见习神官",
+			factiontag = "見習神官",
 			dir = 1,
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……失去理性的狂战士哥哥……好可怕。",
+			say = "……失去理性的狂戰士哥哥……好可怕。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -639,7 +639,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就是因为有这样的反对意见，所以我也没坚持嘛~",
+			say = "就是因為有這樣的反對意見，所以我也沒堅持嘛~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -657,7 +657,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好啦好啦，别光站在这里聊天，我们去做主线任务吧。",
+			say = "好啦好啦，別光站在這裡聊天，我們去做主線任務吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -675,7 +675,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "目标是无尽树海，出发~！",
+			say = "目標是無盡樹海，出發~！",
 			painting = {
 				alpha = 0.3,
 				time = 1

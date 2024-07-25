@@ -2685,6 +2685,11 @@ _G.pg.base.gametip.mail_confirm_cancel_important_flag = {
 }
 
 
+_G.pg.base.gametip.mail_confirm_delete_important_flag = {
+	tip = "無法刪除重要郵件"
+}
+
+
 _G.pg.base.gametip.mail_mail_page = {
 	tip = "郵件"
 }
@@ -2807,6 +2812,11 @@ _G.pg.base.gametip.mail_move_button = {
 
 _G.pg.base.gametip.mail_delet_button = {
 	tip = "刪除"
+}
+
+
+_G.pg.base.gametip.mail_delet_button_1 = {
+	tip = "刪除郵件"
 }
 
 
@@ -14023,6 +14033,16 @@ _G.pg.base.gametip.mail_storeroom_max_2 = {
 }
 
 
+_G.pg.base.gametip.mail_storeroom_max_3 = {
+	tip = "※本次領取後，將無法領取來自食堂的石油"
+}
+
+
+_G.pg.base.gametip.mail_storeroom_max_4 = {
+	tip = "※本次領取後，將無法領取來自合作社的物資"
+}
+
+
 _G.pg.base.gametip.mail_storeroom_addgold = {
 	tip = "儲藏物資："
 }
@@ -14030,6 +14050,11 @@ _G.pg.base.gametip.mail_storeroom_addgold = {
 
 _G.pg.base.gametip.mail_storeroom_addoil = {
 	tip = "儲藏石油："
+}
+
+
+_G.pg.base.gametip.mail_storeroom_collect = {
+	tip = "本次領取將會獲得以下資源："
 }
 
 
@@ -24373,6 +24398,86 @@ _G.pg.base.gametip.cruise_task_help_2402 = {
 }
 
 
+_G.pg.base.gametip.battlepass_main_tip_2404 = {
+	tip = "2024/8/1-2024/9/30期間，完成巡遊任務累計<icon name=pt w=0.5 h=0.5/>可獲得<color=#854747>「吸血鬼·META」</color>在內的豐富獎勵"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2404 = {
+	tip = {
+		{
+			info = [[
+世界巡遊(2024.8.1-2024.9.30)
+
+·<color=#92fc63>開放時間</color>
+    2024.8.1 0點 ~ 2024.9.30 23:59:59
+
+·<color=#92fc63>巡遊進度說明</color>
+（1）活動期間，指揮官透過完成巡遊任務，可獲取「巡遊點數」。
+（2）巡遊任務隨時間開放解鎖。
+（3）每取得100點「巡遊點數」即可增加1巡遊進度
+（4）巡遊進度提升後可以獲得對應等級的獎勵，巡遊進度最高可達100。
+
+·<color=#92fc63>獎勵規則</color>
+巡遊進度獎勵分為兩種：
+（1）基礎巡遊獎勵：包含<color=#ff5c5c>「吸血鬼·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高級定向藍圖·六期</color>等獎勵；
+    當巡遊達到指定進度時，指揮官可以直接領取對應的基礎巡遊獎勵。
+（2）特許巡遊獎勵：包含<color=#ff5c5c>電換裝「薔薇紫的芳香</color>」、<color=#ff5c5c>鑽石</color>等獎勵；
+    購買「特許巡遊憑證」，且巡遊達到指定進度時，可以領取特許巡遊獎勵。
+    註：購買「特許巡遊憑證」後，不會影響基礎巡遊獎勵的領取。
+
+·<color=#92fc63>「特許巡遊憑證」說明</color>
+（1）「特許巡遊憑證」可於「商店」-「優惠禮包」中購買，購買後可立刻獲得< color=#ff5c5c>1500點</color>「巡遊點數」同時解鎖特許巡遊獎勵。
+（2）「特許巡遊憑證」將於<color=#ff5c5c>活動結束前一小時</color>停止販賣(即9.30 22:59:59停止)，請指揮官注意購買時間。
+
+·<color=#92fc63>任務說明</color>
+巡遊任務分為兩種：
+（1）每週任務 
+    巡遊任務中共有8組每週任務。自活動開始後解鎖第一週任務，之後每週一的0點解鎖下一組每週任務
+（2）S.P.任務
+    S.P.任務為一組特殊任務，在活動開始後會直接處於全部解鎖狀態。
+（3）巡遊任務在解鎖後會自動接取，滿足任務完成條件時，會自動完成並取得對應獎勵。
+
+·<color=#92fc63>「巡遊任務快速完成券」說明</color>
+（1）「巡遊任務快速完成券」可以在巡遊任務介面使用，花費一定數量的「巡遊任務快速完成券」可以直接完成大部分巡遊任務
+（2）在「巡遊任務快速完成券」數量不足時，指揮官可花費鑽石進行補齊
+（3）每個巡遊任務需要消耗的完成券數量固定，與目前任務進度無關
+（4）「巡遊任務快速完成券」不會隨本期活動結束而消失
+
+·<color=#ff5c5c>特別提示</color>
+（1）在本期世界巡遊活動結束後，所有巡遊任務將會無法繼續完成，所有巡遊獎勵將會無法繼續領取，請各位指揮官務必注意活動結束時間，提前領取獎勵。
+（2）巡遊進度、[特許巡遊憑證]僅對本期世界巡遊活動生效]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2404 = {
+	tip = {
+		{
+			info = [[
+巡遊任務說明
+
+·<color=#92fc63>開放時間</color>
+    2024.8.1 0點 ~ 2024.9.30 23:59:59
+
+·<color=#92fc63>巡遊任務分為兩種</color>
+（1）每週任務
+    巡遊任務中共有8組每週任務。自活動開始後解鎖第一週任務，之後每週一的0點解鎖下一組每週任務。
+（2）S.P.任務
+    S.P.任務為一組特殊任務，在活動開始後會直接處於全部解鎖狀態。
+（3）巡遊任務在解鎖後會自動接取，滿足任務完成條件時，會自動完成並取得對應獎勵
+
+·<color=#92fc63>「巡遊任務快速完成券」說明</color>
+（1）「巡遊任務快速完成券」可以在巡遊任務介面使用，花費一定數量的「巡遊任務快速完成券」可以直接完成每週巡遊任務
+（2）在「巡遊任務快速完成券」數量不足時，指揮官可花費鑽石進行補齊
+（3）每個巡遊任務需要消耗的「巡遊任務快速完成券」數量和其提供的「巡遊點數」相關，與當前任務進度無關
+ （4）「巡遊任務快速完成券」<color=#92fc63>不會隨本期活動結束而消失</color>]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "全部重置"
 }
@@ -27359,6 +27464,66 @@ _G.pg.base.gametip.sort_energy = {
 
 _G.pg.base.gametip.dockyard_search_holder = {
 	tip = "搜索角色名"
+}
+
+
+_G.pg.base.gametip.loveletter_recover_tip1 = {
+	tip = "需要檢查郵箱/收藏室內是否擁有對應郵件後使用恢復功能"
+}
+
+
+_G.pg.base.gametip.loveletter_recover_tip2 = {
+	tip = "角色錯誤"
+}
+
+
+_G.pg.base.gametip.loveletter_recover_tip3 = {
+	tip = "信箱內已有該年份的情人節郵件"
+}
+
+
+_G.pg.base.gametip.loveletter_recover_tip4 = {
+	tip = "該角色不在該年份情人節郵件列表內"
+}
+
+
+_G.pg.base.gametip.loveletter_recover_tip5 = {
+	tip = "信箱收藏室已滿，請整理收藏室後進行恢復郵件"
+}
+
+
+_G.pg.base.gametip.loveletter_recover_tip6 = {
+	tip = "檢查完畢，可以進行$1年的情人節郵件恢復"
+}
+
+
+_G.pg.base.gametip.loveletter_recover_tip7 = {
+	tip = "檢查完畢，郵箱中已有對應的情人節郵件，無法使用復原功能。"
+}
+
+
+_G.pg.base.gametip.loveletter_recover_bottom1 = {
+	tip = "檢查郵件"
+}
+
+
+_G.pg.base.gametip.loveletter_recover_bottom2 = {
+	tip = "恢復郵件"
+}
+
+
+_G.pg.base.gametip.loveletter_recover_bottom3 = {
+	tip = "$1年"
+}
+
+
+_G.pg.base.gametip.loveletter_recover_text1 = {
+	tip = "是否確認使用<color=#ffde38>恢復郵件</color>功能，使用後郵箱收藏室將獲得一封<color=#ffde38>$1</color>年由<color=#ffde38>$2</color>角色寄給您的情人節郵件（不含附件內容）\n*每件情人節禮物的恢復郵件功能只能使用一次"
+}
+
+
+_G.pg.base.gametip.loveletter_recover_text2 = {
+	tip = "請選擇<color=#ffde38>恢復年份</color>。選擇後，郵箱收藏室將獲得一封由<color=#ffde38>$1</color>角色向您發送的所選年份情人節郵件（不包含附件內容）\n*每件情人節禮物的恢復郵件功能僅能使用一次"
 }
 
 
@@ -31001,6 +31166,236 @@ _G.pg.base.gametip.skin_shop_buy_confirm = {
 }
 
 
+_G.pg.base.gametip.activity_victory = {
+	tip = "艦隊出擊，累計獲得勝利"
+}
+
+
+_G.pg.base.gametip.other_world_temple_toggle_1 = {
+	tip = "力量神像"
+}
+
+
+_G.pg.base.gametip.other_world_temple_toggle_2 = {
+	tip = "豐饒神像"
+}
+
+
+_G.pg.base.gametip.other_world_temple_toggle_3 = {
+	tip = "智慧神像"
+}
+
+
+_G.pg.base.gametip.other_world_temple_char = {
+	tip = "守護神總覽"
+}
+
+
+_G.pg.base.gametip.other_world_temple_award = {
+	tip = "查看獎勵"
+}
+
+
+_G.pg.base.gametip.other_world_temple_got = {
+	tip = "已獲得"
+}
+
+
+_G.pg.base.gametip.other_world_temple_progress = {
+	tip = "向$1供奉$2/$3次後生效"
+}
+
+
+_G.pg.base.gametip.other_world_temple_char_title = {
+	tip = "守護神總覽"
+}
+
+
+_G.pg.base.gametip.other_world_temple_award_last = {
+	tip = "剩餘$1/$2"
+}
+
+
+_G.pg.base.gametip.other_world_temple_award_title_1 = {
+	tip = "力量之神的恩澤"
+}
+
+
+_G.pg.base.gametip.other_world_temple_award_title_2 = {
+	tip = "豐饒之神的恩澤"
+}
+
+
+_G.pg.base.gametip.other_world_temple_award_title_3 = {
+	tip = "智慧之神的恩澤"
+}
+
+
+_G.pg.base.gametip.other_world_temple_lottery_all = {
+	tip = "已獲得所有獎勵"
+}
+
+
+_G.pg.base.gametip.other_world_temple_award_desc = {
+	tip = "※活動期間向啾啾三神像獻上貢品，可以獲得豐富獎勵與守護神的加護。"
+}
+
+
+_G.pg.base.gametip.temple_consume_not_enough = {
+	tip = "資源不足"
+}
+
+
+_G.pg.base.gametip.other_world_temple_pay = {
+	tip = "祈求$1次"
+}
+
+
+_G.pg.base.gametip.other_world_task_type_daily = {
+	tip = "每日任務"
+}
+
+
+_G.pg.base.gametip.other_world_task_type_main = {
+	tip = "主線任務"
+}
+
+
+_G.pg.base.gametip.other_world_task_type_repeat = {
+	tip = "重複任務"
+}
+
+
+_G.pg.base.gametip.other_world_task_title = {
+	tip = "冒險委託板"
+}
+
+
+_G.pg.base.gametip.other_world_task_get_all = {
+	tip = "全部領取"
+}
+
+
+_G.pg.base.gametip.other_world_task_go = {
+	tip = "前往"
+}
+
+
+_G.pg.base.gametip.other_world_task_got = {
+	tip = "已領取"
+}
+
+
+_G.pg.base.gametip.other_world_task_get = {
+	tip = "領取"
+}
+
+
+_G.pg.base.gametip.other_world_task_tag_main = {
+	tip = "主線"
+}
+
+
+_G.pg.base.gametip.other_world_task_tag_daily = {
+	tip = "每日"
+}
+
+
+_G.pg.base.gametip.other_world_task_tag_all = {
+	tip = "全部"
+}
+
+
+_G.pg.base.gametip.terminal_personal_title = {
+	tip = "個人資訊"
+}
+
+
+_G.pg.base.gametip.terminal_adventure_title = {
+	tip = "冒險數據"
+}
+
+
+_G.pg.base.gametip.terminal_guardian_title = {
+	tip = "守護神"
+}
+
+
+_G.pg.base.gametip.personal_info_title = {
+	tip = "基礎資訊"
+}
+
+
+_G.pg.base.gametip.personal_property_title = {
+	tip = "屬性"
+}
+
+
+_G.pg.base.gametip.personal_ability_title = {
+	tip = "技能"
+}
+
+
+_G.pg.base.gametip.adventure_award_title = {
+	tip = "冒險等級獎勵"
+}
+
+
+_G.pg.base.gametip.adventure_progress_title = {
+	tip = "距離下次升級："
+}
+
+
+_G.pg.base.gametip.adventure_lv_title = {
+	tip = "冒險等級："
+}
+
+
+_G.pg.base.gametip.adventure_record_title = {
+	tip = "冒險記錄"
+}
+
+
+_G.pg.base.gametip.adventure_record_grade_title = {
+	tip = "冒險者評級："
+}
+
+
+_G.pg.base.gametip.adventure_award_end_tip = {
+	tip = "※領取時間截止至8.14 24時"
+}
+
+
+_G.pg.base.gametip.guardian_select_title = {
+	tip = "守護神選擇"
+}
+
+
+_G.pg.base.gametip.guardian_sure_btn = {
+	tip = "裝備"
+}
+
+
+_G.pg.base.gametip.guardian_cancel_btn = {
+	tip = "卸下"
+}
+
+
+_G.pg.base.gametip.guardian_active_tip = {
+	tip = "生效中"
+}
+
+
+_G.pg.base.gametip.personal_random = {
+	tip = "隨機生成"
+}
+
+
+_G.pg.base.gametip.adventure_get_all = {
+	tip = "全部領取"
+}
+
+
 _G.pg.base.gametip.Announcements_Event_Notice = {
 	tip = "活動公告"
 }
@@ -31018,6 +31413,225 @@ _G.pg.base.gametip.Announcements_News = {
 
 _G.pg.base.gametip.Announcements_Donotshow = {
 	tip = "今日不再顯示"
+}
+
+
+_G.pg.base.gametip.adventure_unlock_tip = {
+	tip = "目標關卡尚未解鎖，請通關<color=#92fc63>前置關卡</color>"
+}
+
+
+_G.pg.base.gametip.personal_random_tip = {
+	tip = "完成<color=#92fc63>劇情模式</color>後解鎖"
+}
+
+
+_G.pg.base.gametip.guardian_sure_limit_tip = {
+	tip = "守護神裝備數量已達上限"
+}
+
+
+_G.pg.base.gametip.other_world_temple_tip = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/otherworld_help2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/otherworld_help3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/otherworld_help4"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/otherworld_help5"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/otherworld_help1"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.otherworld_map_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/otherworld_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/otherworld_help2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/otherworld_help3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/otherworld_help4"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/otherworld_help5"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.otherworld_backhill_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/otherworld_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/otherworld_help2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/otherworld_help3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/otherworld_help4"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/otherworld_help5"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.otherworld_terminal_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/otherworld_help4"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/otherworld_help5"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/otherworld_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/otherworld_help2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/otherworld_help3"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
 }
 
 

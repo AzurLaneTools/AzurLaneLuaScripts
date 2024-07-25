@@ -8,7 +8,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_545",
 			bgm = "battle-boss-camelot",
-			say = "魔物如乌云般覆盖着天空，犹如雨点般落下。",
+			say = "魔物如烏雲般覆蓋著天空，如雨般落下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_545",
-			say = "剑与魔法，机械与盔甲，彼此交织碰撞着。",
+			say = "劍與魔法，機械與盔甲，彼此交織碰撞著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_545",
-			say = "当我们赶到的时候，长城之上已经变为混乱的战场。",
+			say = "當我們趕到的時候，長城之上已經變成混亂的戰場。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,11 +228,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "王国军守护骑士",
+			factiontag = "王國軍守護騎士",
 			dir = 1,
 			actor = 901110,
 			nameColor = "#A9F548FF",
-			say = "除了飞行魔物还有不死军团……真是来势汹汹。",
+			say = "除了飛行魔物還有不死軍團……真是來勢洶洶。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,11 +245,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "王国军守护骑士",
+			factiontag = "王國軍守護騎士",
 			dir = 1,
 			actor = 901110,
 			nameColor = "#A9F548FF",
-			say = "看来接下来是一场苦战了。",
+			say = "看來接下來是一場苦戰了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,11 +262,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "王国军守护骑士",
+			factiontag = "王國軍守護騎士",
 			dir = 1,
 			actor = 901130,
 			nameColor = "#A9F548FF",
-			say = "王国军守护骑士，绝不屈服！",
+			say = "王國軍守護騎士，絕不屈服！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,11 +279,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "王国军方旗骑士",
+			factiontag = "王國軍方旗騎士",
 			dir = 1,
 			actor = 903020,
 			nameColor = "#A9F548FF",
-			say = "诸位坚守阵型，绝对不能放任何一只魔物过去！",
+			say = "各位堅守陣型，絕對不能放任何一隻魔物過去！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,11 +297,11 @@ return {
 			portrait = 205130,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "王国军方旗骑士",
+			factiontag = "王國軍方旗騎士",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "前卫",
-			say = "闪耀的王家之剑——！",
+			actorName = "前衛",
+			say = "閃耀的王家之劍——！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,12 +321,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			factiontag = "王国军方旗骑士",
+			factiontag = "王國軍方旗騎士",
 			dir = 1,
 			bgName = "star_level_bg_545",
 			actor = 205130,
 			nameColor = "#A9F548FF",
-			say = "抱歉！让你们久等了！",
+			say = "抱歉！讓妳們久等了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,11 +357,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "王国军守护骑士",
+			factiontag = "王國軍守護騎士",
 			dir = 1,
 			actor = 901130,
 			nameColor = "#A9F548FF",
-			say = "真是出色的一击！",
+			say = "真是出色的一擊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,11 +375,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "王国军守护骑士",
+			factiontag = "王國軍守護騎士",
 			dir = 1,
 			actor = 901130,
 			nameColor = "#A9F548FF",
-			say = "前卫指挥官，你来得正是时候。",
+			say = "前衛指揮官，妳來得正是時候。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,11 +393,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "王国军守护骑士",
+			factiontag = "王國軍守護騎士",
 			dir = 1,
 			actor = 901130,
 			nameColor = "#A9F548FF",
-			say = "再晚点的话，魔物都要被我们解决完了哦~",
+			say = "再晚點的話，魔物都要被我們解決了哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,11 +411,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "王国军守护骑士",
+			factiontag = "王國軍守護騎士",
 			dir = 1,
 			actor = 901110,
 			nameColor = "#A9F548FF",
-			say = "……村庄的情况怎么样了？",
+			say = "……村莊的情況怎麼樣了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,11 +429,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "王国军方旗骑士",
+			factiontag = "王國軍方旗騎士",
 			dir = 1,
 			actor = 205130,
 			nameColor = "#A9F548FF",
-			say = "魔物消灭完毕，村民也全都避难了。",
+			say = "魔物消滅完畢，村民也全都避難了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,7 +447,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "王国军守护骑士",
+			factiontag = "王國軍守護騎士",
 			dir = 1,
 			actor = 901110,
 			nameColor = "#A9F548FF",
@@ -465,11 +465,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "王国军方旗骑士",
+			factiontag = "王國軍方旗騎士",
 			dir = 1,
 			actor = 205130,
 			nameColor = "#A9F548FF",
-			say = "……抱歉，是我中了魔王军的调虎离山之计。",
+			say = "……抱歉，是我中了魔王軍的調虎離山之計。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,11 +483,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "王国军方旗骑士",
+			factiontag = "王國軍方旗騎士",
 			dir = 1,
 			actor = 903020,
 			nameColor = "#A9F548FF",
-			say = "说什么呢。",
+			say = "說什麼呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,11 +500,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "王国军方旗骑士",
+			factiontag = "王國軍方旗騎士",
 			dir = 1,
 			actor = 903020,
 			nameColor = "#A9F548FF",
-			say = "我们常年坚守在长城，就是为了守护身后的人民不受魔王军的侵扰。",
+			say = "我們常年堅守在長城，就是為了守護身後的人民不受魔王軍的侵擾。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,11 +518,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "王国军方旗骑士",
+			factiontag = "王國軍方旗騎士",
 			dir = 1,
 			actor = 903020,
 			nameColor = "#A9F548FF",
-			say = "眼见近在咫尺的村落陷于战火却不去救援，还算什么王国军骑士？",
+			say = "眼見近在咫尺的村落陷於戰火卻不去救援，還算什麼王國軍騎士？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -536,11 +536,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "王国军方旗骑士",
+			factiontag = "王國軍方旗騎士",
 			dir = 1,
 			actor = 205130,
 			nameColor = "#A9F548FF",
-			say = "没错……你说的对。",
+			say = "沒錯……妳說的對。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -553,29 +553,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "王国军方旗骑士",
+			factiontag = "王國軍方旗騎士",
 			dir = 1,
 			actor = 205130,
 			nameColor = "#A9F548FF",
-			say = "既然村庄的问题解决完毕，接下来该解决这边的问题了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "star_level_bg_545",
-			factiontag = "王国军方旗骑士",
-			dir = 1,
-			actor = 205130,
-			nameColor = "#A9F548FF",
-			say = "阿尔及利亚，现在战况如何？",
+			say = "既然村莊的問題解決完畢，接下來該解決這邊的問題了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,11 +571,29 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "王国军方旗骑士",
+			factiontag = "王國軍方旗騎士",
+			dir = 1,
+			actor = 205130,
+			nameColor = "#A9F548FF",
+			say = "阿爾及利亞，現在戰況如何？",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "star_level_bg_545",
+			factiontag = "王國軍方旗騎士",
 			dir = 1,
 			actor = 903020,
 			nameColor = "#A9F548FF",
-			say = "魔王军全线来袭，比几天前那次攻势更猛。",
+			say = "魔王軍全線來襲，比幾天前那次攻勢更猛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,11 +607,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "王国军方旗骑士",
+			factiontag = "王國軍方旗騎士",
 			dir = 1,
 			actor = 903020,
 			nameColor = "#A9F548FF",
-			say = "指挥这次袭击的是魔王军的大魔族，巨龙领主{namecode:450:布吕歇尔}。",
+			say = "指揮這次攻擊的是魔王軍的大魔族，巨龍領主布呂歇爾。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,11 +624,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "王国军方旗骑士",
+			factiontag = "王國軍方旗騎士",
 			dir = 1,
 			actor = 205130,
 			nameColor = "#A9F548FF",
-			say = "巨龙领主……呵，来得正好，一直肆虐的天空猎杀队就是她所操纵的。",
+			say = "巨龍領主……呵，來得正好，一直肆虐的天空獵殺隊就是她所操縱的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -642,11 +642,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "王国军方旗骑士",
+			factiontag = "王國軍方旗騎士",
 			dir = 1,
 			actor = 205130,
 			nameColor = "#A9F548FF",
-			say = "新仇旧恨，就在今天一起清算吧！",
+			say = "新仇舊恨，就在今天一起清算吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -659,7 +659,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			factiontag = "巨龙领主",
+			factiontag = "巨龍領主",
 			dir = 1,
 			bgName = "star_level_bg_545",
 			actor = 403022,
@@ -695,11 +695,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "巨龙领主",
+			factiontag = "巨龍領主",
 			dir = 1,
 			actor = 403022,
 			nameColor = "#FF9B93",
-			say = "燃烧吧，粉碎吧~",
+			say = "燃燒吧，粉碎吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -713,11 +713,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "巨龙领主",
+			factiontag = "巨龍領主",
 			dir = 1,
 			actor = 403022,
 			nameColor = "#FF9B93",
-			say = "在魔王军的攻势下化为尘埃吧~",
+			say = "在魔王軍的攻勢下化為塵埃吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -731,11 +731,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "巨龙领主",
+			factiontag = "巨龍領主",
 			dir = 1,
 			actor = 403022,
 			nameColor = "#FF9B93",
-			say = "守卫长城的王国军已经乱成了一团，这场战斗看来能够轻而易举拿下了~~",
+			say = "守衛長城的王國軍已經亂成了一團，這場戰鬥看來能夠輕而易舉拿下了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -752,8 +752,8 @@ return {
 			factiontag = "勇者",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "抚顺",
-			say = "哟嚯？你就是巨龙领主？",
+			actorName = "撫順",
+			say = "喲嚯？妳就是巨龍領主？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -770,8 +770,8 @@ return {
 			factiontag = "勇者",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "抚顺",
-			say = "看上去也没什么了不起的啊~",
+			actorName = "撫順",
+			say = "看上去也沒什麼了不起的~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -788,8 +788,8 @@ return {
 			factiontag = "勇者",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "抚顺",
-			say = "你现在不过是用人多来掩盖自己的弱小罢了~",
+			actorName = "撫順",
+			say = "妳現在不過是用人多來掩蓋自己的弱小罷了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -806,8 +806,8 @@ return {
 			factiontag = "勇者",
 			dir = 1,
 			nameColor = "#A9F548FF",
-			actorName = "抚顺",
-			say = "看我们一会把你打下来，看你还嚣张不嚣张！",
+			actorName = "撫順",
+			say = "看我們等一下把妳打下來，看妳還囂張不囂張！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -821,11 +821,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "巨龙领主",
+			factiontag = "巨龍領主",
 			dir = 1,
 			actor = 403022,
 			nameColor = "#FF9B93",
-			say = "哈？！哪儿来的冒险者？！",
+			say = "哈？！哪裡來的冒險者？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -838,11 +838,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "巨龙领主",
+			factiontag = "巨龍領主",
 			dir = 1,
 			actor = 403022,
 			nameColor = "#FF9B93",
-			say = "啊哈哈哈！王国军已经落魄到需要冒险者小队来保卫长城了么？！",
+			say = "啊哈哈哈！王國軍已經落魄到需要冒險者小隊來保衛長城了嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -866,11 +866,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "巨龙领主",
+			factiontag = "巨龍領主",
 			dir = 1,
 			actor = 403022,
 			nameColor = "#FF9B93",
-			say = "也好……既然你们不知死活，就让我来亲自教育你们一下！",
+			say = "也好……既然你們不知死活，就讓我來親自教育你們！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -884,12 +884,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "见习神官",
+			factiontag = "見習神官",
 			dir = 1,
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哥哥……对面轻易就上钩了呢。",
+			say = "哥哥……對面輕易就上鉤了呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -908,7 +908,7 @@ return {
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来可以轻松取得胜利了~太好了~！",
+			say = "看來可以輕鬆取得勝利了~太好了~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -922,9 +922,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "呵呵，敌军虽然人多势众，但是敌将轻敌自大。",
+			say = "呵呵，敵軍雖然人多勢眾，但是敵將輕敵自大。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -934,9 +934,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_545",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "找准机会，执行斩首作战。",
+			say = "找準機會，執行斬首作戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -950,7 +950,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼哼~我的剑也未尝不利，是时候宝剑出鞘了！",
+			say = "哼哼哼~我的劍也未嚐不利，是時候寶劍出鞘了！",
 			painting = {
 				alpha = 0.3,
 				time = 1

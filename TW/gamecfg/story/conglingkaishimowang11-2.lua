@@ -9,7 +9,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			bgm = "story-mmorpg",
 			nameColor = "#A9F548FF",
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,11 +75,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "呼……这就是最后一只了。",
+			say = "呼……這就是最後一隻了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,11 +93,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "非常感谢你们的帮助，王国的冒险者们。",
+			say = "非常感謝你們的幫助，王國的冒險者們。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,11 +110,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "如果不是你们仗义相助，今天恐怕就要出现重大伤亡了。",
+			say = "如果不是你們仗義相助，今天恐怕就要出現重大傷亡了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不用客气~这是勇者小队分内的事~",
+			say = "不用客氣~這是勇者小隊分內的事~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,12 +146,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "药剂师",
+			factiontag = "藥師",
 			dir = 1,
 			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "圣女殿下，您为什么会带这么少的人与魔物交战啊！",
+			say = "聖女殿下，您為什麼要帶這麼少的人來與魔物交戰啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,11 +165,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "……与魔物交战非我本意。",
+			say = "……與魔物交戰非我本意。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,11 +183,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "我只是在前往守望要塞的路上见到了被魔物袭击的村民，因而出手相助罢了。",
+			say = "我只是在前往守望要塞的路上見到了被魔物攻擊的村民，因而出手相助罷了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,11 +200,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "没想到距离要塞这么近的地方都会发生魔王军的袭击事件……",
+			say = "沒想到距離要塞這麼近的地方都會發生魔王軍的攻擊事件……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,11 +218,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "看来前线的战况愈发恶化了……",
+			say = "看來前線的戰況愈發惡化了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,11 +236,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "各位冒险者，能拜托你们一件事么？",
+			say = "各位冒險者，能拜託你們一件事嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,7 +258,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "圣女殿下请讲！",
+			say = "聖女殿下請講！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,11 +271,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "守望长城受到光明与正义之神在内的多位神祇加护，就连魔王本人都无法轻易穿越，常规魔物就更不可能了。",
+			say = "守望長城受到光明與正義之神在內的多位神祇加護，就連魔王本人都無法輕易穿越，普通魔物就更不可能了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,11 +289,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "但是因为前几日的一场大战，守望长城出现了一个缺口。",
+			say = "但因為前幾日的一場大戰，守望長城出現了一個缺口。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,11 +307,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "我这次离开王都就是为了前去守望要塞修复缺口……没想到魔王军的巡逻队竟已深入到了要塞周边。",
+			say = "我這次離開王都就是為了前去守望要塞修復缺口……沒想到魔王軍的巡邏隊竟已深入到了要塞週邊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,11 +325,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "看来魔王也打算抓住这个千载难逢的机会有所行动。",
+			say = "看來魔王也打算抓住這個千載難逢的機會有所行動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,11 +342,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "我现在需要立刻前往要塞进行军事部署，但……也不能放着这些家园被袭击的村民不管。",
+			say = "我現在需要立刻前往要塞進行軍事部署，但……也不能放這些家園被攻擊的村民不管。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,11 +360,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "这些逃难的村民都来自缺口附近的弗里德村。",
+			say = "這些逃難的村民都來自缺口附近的弗里德村。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,11 +378,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "此时此刻，魔物应该还在弗里德村中肆虐……",
+			say = "此時此刻，魔物應該還在弗里德村中肆虐……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,11 +395,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "驱逐魔物的任务，我可以交给你们么？",
+			say = "驅逐魔物的任務，我可以交給你們嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,11 +412,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "弗里茨村村长",
+			factiontag = "弗里茨村村長",
 			dir = 1,
 			actor = 501070,
 			nameColor = "#A9F548FF",
-			say = "呜呜呜……请一定要救救飞云的村子啊，冒险者大人们！",
+			say = "嗚嗚嗚……請一定要救救飛雲的村子啊，冒險者大人們！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……驱逐魔物拯救村落……这简直就是为勇者量身定制的任务啊！",
+			say = "……驅逐魔物拯救村莊……這簡直就是為勇者量身訂做的任務啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，你怎么看？",
+			say = "指揮官，你怎麼看？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,11 +473,11 @@ return {
 			},
 			options = {
 				{
-					content = "身为正义的冒险者，义不容辞。",
+					content = "身為正義的冒險者，義不容辭。",
 					flag = 1
 				},
 				{
-					content = "只要报酬合适的话！",
+					content = "只要報酬合適的話！",
 					flag = 2
 				}
 			}
@@ -491,7 +491,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "听到了么？指挥官是这么说的。",
+			say = "聽到了嗎？指揮官是這麼說的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,12 +504,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "弗里茨村村长",
+			factiontag = "弗里茨村村長",
 			dir = 1,
 			optionFlag = 2,
 			actor = 501070,
 			nameColor = "#A9F548FF",
-			say = "当然、当然……只要能完成任务的话，报酬是不会少的！",
+			say = "當然、當然……只要能完成任務的話，報酬是不會少的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -522,12 +522,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "弗里茨村村长",
+			factiontag = "弗里茨村村長",
 			dir = 1,
 			optionFlag = 2,
 			actor = 501070,
 			nameColor = "#A9F548FF",
-			say = "只要完成任务的话……",
+			say = "只要完成任務的話……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -545,7 +545,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那这件事，就放心包在勇者抚顺的小队身上吧~",
+			say = "那這件事，就放心包在勇者撫順的小隊身上吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,11 +558,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_518",
-			factiontag = "弗里茨村村长",
+			factiontag = "弗里茨村村長",
 			dir = 1,
 			actor = 501070,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿~愿平安与守护之神庇佑各位，一路平安！",
+			say = "嘿嘿~願平安與守護之神庇佑各位，一路平安！",
 			painting = {
 				alpha = 0.3,
 				time = 1

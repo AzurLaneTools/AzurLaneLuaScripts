@@ -8,7 +8,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			bgm = "story-mmorpg",
-			say = "枯萎森林，前往中部据点的路上——",
+			say = "枯萎森林，前往中部據點的路上—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,12 +35,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "吸血鬼獵人",
 			dir = 1,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……情况有变，立刻改变计划。",
+			say = "……情況有變，立刻改變計畫。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -53,12 +53,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "吸血鬼獵人",
 			dir = 1,
 			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谢菲，发生什么事了？",
+			say = "謝菲，發生什麼事了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,12 +72,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "吸血鬼獵人",
 			dir = 1,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "中部据点此刻正在跟魔王军交战。",
+			say = "中部據點此刻正在跟魔王軍交戰。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,11 +91,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "……与魔王军交战？",
+			say = "……與魔王軍交戰？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "吸血鬼獵人",
 			dir = 1,
 			paintingNoise = true,
 			actor = 202084,
@@ -129,13 +129,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "吸血鬼獵人",
 			dir = 1,
 			paintingNoise = true,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "连续失去两座据点似乎让魔王意识到了危险，她决定派遣一个新的代理人接管中部要塞。",
+			say = "連續失去兩座據點似乎讓魔王意識到了危險，她決定派遣一個新的代理人接管中部要塞。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,12 +149,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "吸血鬼獵人",
 			dir = 1,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来这个接管过程并不顺利……总而言之，两方的军队已经打成一团了。",
+			say = "看來這個接管過程並不順利……總而言之，兩方的軍隊已經打成一團了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,7 +172,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "听上去感觉有可乘之机啊~指挥官，我们快去看看吧！",
+			say = "聽起來有可乘之機~指揮官，我們快去看看吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			bgm = "story-oldcastle-carnival",
-			say = "我们终于进入中部要塞内部时，战斗已经接近了尾声。",
+			say = "當我們終於進入中部要塞內部時，戰鬥已經接近了尾聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			actor = 404041,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳……没想到……本小姐最后会是这样的结局。",
+			say = "咳……沒想到……本小姐最後會是這樣的結局。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,12 +243,12 @@ return {
 			paintingNoise = true,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼女仆长",
+			factiontag = "吸血鬼女僕長",
 			dir = 1,
 			actor = 405041,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "别担心大小姐……我陪你一起走。",
+			say = "別擔心大小姐……我陪妳一起走。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "居、居然这么快就将两个吸血鬼都打倒了？！",
+			say = "居、居然這麼快就將兩個吸血鬼都打倒了？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			factiontag = "？？？",
 			side = 2,
 			actorName = "？？？",
-			say = "哈哈哈，汝等是碰巧路过的冒险者么？",
+			say = "哈哈哈，汝等是碰巧路過的冒險者嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			factiontag = "？？？",
 			side = 2,
 			actorName = "？？？",
-			say = "也好也好，吾如此威武的身姿若是无人见证，那就实在太可惜了。",
+			say = "也好也好，吾如此威武的身姿若是無人見證，那就實在太可惜了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,11 +315,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "……你是什么人？",
+			say = "……你是什麼人？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,14 +345,14 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			factiontag = "完美究极吸血鬼",
+			factiontag = "完美究極吸血鬼",
 			dir = 1,
 			bgName = "star_level_bg_156",
 			bgm = "login-2022401us",
 			actor = 201233,
 			nameColor = "#FF9B93",
 			live2d = "login",
-			say = "吾乃吸血鬼，名为吸血鬼的没有任何缺点的最强最完美的究极吸血鬼哦！",
+			say = "吾乃吸血鬼，名為吸血鬼的沒有任何缺點的最強最完美的究極吸血鬼哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,12 +382,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "完美究极吸血鬼",
+			factiontag = "完美究極吸血鬼",
 			dir = 1,
 			actor = 201233,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "此次依据魔王大人的命令来接管这座中部要塞。",
+			say = "這次依據魔王大人的命令來接管這座中部要塞。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,12 +401,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "完美究极吸血鬼",
+			factiontag = "完美究極吸血鬼",
 			dir = 1,
 			actor = 201233,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "没想到，这群羸弱的旧世代如此冥顽不化，吾就随手送她们解脱咯。",
+			say = "沒想到，這群羸弱的舊世代如此冥頑不化，吾就隨手送她們解脫囉。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,12 +420,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼猎人",
+			factiontag = "吸血鬼獵人",
 			dir = 1,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，这个吸血鬼确实很强。",
+			say = "指揮官，這個吸血鬼確實很強。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,12 +438,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼猎人",
+			factiontag = "吸血鬼獵人",
 			dir = 1,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是她的状态并不如她说的那么好，她已经受伤了。",
+			say = "但是她的狀態並不如她說的那麼好，她已經受傷了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,12 +457,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼猎人",
+			factiontag = "吸血鬼獵人",
 			dir = 1,
 			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，我也发现了。",
+			say = "沒錯，我也發現了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -475,12 +475,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "吸血鬼猎人",
+			factiontag = "吸血鬼獵人",
 			dir = 1,
 			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过她的恢复速度实在惊人，下手要趁早。",
+			say = "不過她的恢復速度實在驚人，下手要趁早。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			},
 			options = {
 				{
-					content = "使用“情报分析”技能",
+					content = "使用「情報分析」技能",
 					flag = 1
 				}
 			}
@@ -500,7 +500,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			say = "冒险终端显示，对面确实是一个没有任何弱点的强力吸血鬼。",
+			say = "冒險終端顯示，對面確實是個沒有任何弱點的強力吸血鬼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			say = "但现在的生命值只有最大值的一半不到。",
+			say = "但現在的生命值只有最大值的一半不到。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			say = "除此之外，情报分析技能还在房间中发现了一些其它的东西。",
+			say = "除此之外，情報分析技能還在房間中發現了一些它的東西。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,9 +547,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "（……折叠在空间中的陷阱，吸血鬼女仆在消散前放出但没来得及使用的么。）",
+			say = "（……折疊在空間中的陷阱，吸血鬼女僕在消散前放出但來不及使用的嗎。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,9 +559,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "（说不定一会用得上……）",
+			say = "（說不定等一下用得上……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,9 +571,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "——大家调整站位，准备战斗。",
+			say = "——大家調整站位，準備戰鬥。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,12 +582,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "完美究极吸血鬼",
+			factiontag = "完美究極吸血鬼",
 			dir = 1,
 			actor = 201233,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "嚯？居然敢主动挑战吾？汝等这是自寻死路！",
+			say = "嚯？居然敢主動挑戰吾？汝等這是自尋死路！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -600,12 +600,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "完美究极吸血鬼",
+			factiontag = "完美究極吸血鬼",
 			dir = 1,
 			actor = 201233,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "那就让汝等见识一下完美究极吸血鬼的力量吧——！",
+			say = "那就讓汝等見識完美究極吸血鬼的力量吧——！",
 			painting = {
 				alpha = 0.3,
 				time = 1

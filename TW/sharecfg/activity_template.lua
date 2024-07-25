@@ -11121,6 +11121,342 @@ pg.activity_template = {
 			}
 		}
 	},
+	[5260] = {
+		mark = 20240725,
+		type = 111,
+		login_pop = 0,
+		config_id = 5264,
+		is_show = 50,
+		title_res_tag = "yishijie_pt",
+		id = 5260,
+		config_data = {
+			1001,
+			1002,
+			1003,
+			1004,
+			1005
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					7,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "OtherWorldMainPage",
+			ui_name = "OtherWorldMainPage"
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10",
+			scene = "OTHERWORLD_BACKHILL"
+		}
+	},
+	[5261] = {
+		mark = 20240725,
+		page_info = "",
+		type = 89,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 5261,
+		config_data = {
+			{
+				19856,
+				19857,
+				19858,
+				19859,
+				19860,
+				19861,
+				19862,
+				19863,
+				19864,
+				19865,
+				19866,
+				19867,
+				19888,
+				19890
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					7,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			hide_task = {
+				19889
+			},
+			task_story = {
+				{
+					19867,
+					"CONGLINGKAISHIMOWANG28"
+				}
+			}
+		}
+	},
+	[5262] = {
+		mark = 20240725,
+		page_info = "",
+		type = 60,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5262,
+		config_data = {
+			457,
+			458,
+			459
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					7,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5263] = {
+		mark = 20240725,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5263,
+		config_data = {
+			19855
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					7,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5264] = {
+		mark = 20240725,
+		page_info = "",
+		type = 22,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 0,
+		title_res_tag = "",
+		id = 5264,
+		config_data = {
+			17,
+			18,
+			19
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					7,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			scene = "OTHERWORLD_BACKHILL",
+			red_tip_time = {
+				2024,
+				8,
+				8,
+				23,
+				59,
+				59
+			}
+		}
+	},
+	[5265] = {
+		mark = 20240725,
+		page_info = "",
+		type = 112,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 5265,
+		config_data = {
+			1001,
+			1002,
+			1003,
+			1004,
+			1005,
+			1006,
+			1007,
+			1008,
+			1009,
+			1010,
+			1011,
+			1012,
+			1013,
+			1014,
+			1015,
+			1016,
+			1017,
+			1018,
+			1019,
+			1020,
+			1021,
+			1022,
+			1023,
+			1024,
+			1025,
+			1026,
+			2001,
+			2002,
+			2003,
+			2004,
+			2005,
+			2006,
+			2007,
+			2008,
+			2009,
+			2010,
+			2011,
+			2012,
+			2013,
+			2014
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					7,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			open_story = "CONGLINGKAISHIMOWANG1"
+		}
+	},
 	[5266] = {
 		mark = 20240328,
 		page_info = "",
@@ -11154,6 +11490,371 @@ pg.activity_template = {
 			lastChapter = 1360005,
 			subView = "AprilFoolKinBurinSubView",
 			comStory = "JUEXINGDEHUANGJIN2"
+		}
+	},
+	[5268] = {
+		mark = 20240725,
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 402,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		title_res_tag = "",
+		id = 5268,
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					7,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5269] = {
+		mark = 20240725,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 5269,
+		config_data = {
+			19882,
+			19883,
+			19884,
+			19885,
+			19886,
+			19887
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					7,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			{
+				"S",
+				{
+					{
+						19882,
+						40000
+					},
+					{
+						19887,
+						12
+					},
+					{
+						19885,
+						33
+					},
+					{
+						19884,
+						12
+					}
+				}
+			},
+			{
+				"A",
+				{
+					{
+						19882,
+						27000
+					},
+					{
+						19887,
+						8
+					},
+					{
+						19885,
+						18
+					},
+					{
+						19884,
+						7
+					}
+				}
+			},
+			{
+				"B",
+				{
+					{
+						19882,
+						12000
+					},
+					{
+						19887,
+						4
+					},
+					{
+						19885,
+						6
+					},
+					{
+						19884,
+						4
+					}
+				}
+			},
+			{
+				"C",
+				{}
+			}
+		}
+	},
+	[5270] = {
+		mark = 20240725,
+		page_info = "",
+		type = 74,
+		login_pop = 0,
+		config_id = 5270,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5270,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					7,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5271] = {
+		mark = 20240725,
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_data = "[{31948,100}]",
+		config_client = "",
+		title_res_tag = "",
+		id = 5271,
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					7,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5272] = {
+		mark = 20240725,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5272,
+		config_data = {
+			19889
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					7,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5273] = {
+		mark = 20240725,
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		title_res_tag = "",
+		id = 5273,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					7,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 4,
+			bg = "loadingbg/bg_build_4_act",
+			buildship_tip = "{namecode:531}、努比亞、利物浦角色建造機率UP！ ",
+			rate_tip = {
+				"<color=#ffde38>超稀有艦船</color>：7%",
+				"<color=#d797ff>精銳艦船</color>：12%",
+				"<color=#3dc6ff>稀有艦船</color>：51%",
+				"普通艦船：30%",
+				"<color=#ffde38>{namecode:531}</color>： 2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>努比亞</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#d797ff>利物浦</color>：2.5%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
+	[5274] = {
+		mark = 20240725,
+		page_info = "",
+		type = 74,
+		login_pop = 0,
+		config_id = 5274,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5274,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					7,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[5295] = {
@@ -47960,6 +48661,88 @@ pg.activity_template = {
 			}
 		}
 	},
+	[45915] = {
+		mark = 20240725,
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 14,
+		title_res_tag = "CrusingDisplayAct",
+		id = 45915,
+		config_data = {
+			151,
+			152,
+			153,
+			154,
+			155,
+			156,
+			157,
+			158,
+			159
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					8,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					9,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CrusingDisplayActPage",
+			ui_name = "CrusingDisplayActPage16"
+		},
+		config_client = {
+			spine_name = "chess_dian",
+			map_name = "map_202404",
+			tips = {
+				"battlepass_main_tip_2404",
+				"battlepass_main_help_2404",
+				"cruise_task_help_2404"
+			},
+			equip_skin = {
+				{
+					9,
+					2065,
+					1
+				},
+				{
+					9,
+					2066,
+					1
+				},
+				{
+					9,
+					2067,
+					1
+				},
+				{
+					9,
+					2068,
+					1
+				}
+			}
+		}
+	},
 	get_id_list_by_type = {
 		[0] = {
 			40030,
@@ -47981,6 +48764,7 @@ pg.activity_template = {
 			5067,
 			5103,
 			5165,
+			5273,
 			40189,
 			40214,
 			40230,
@@ -48200,6 +48984,9 @@ pg.activity_template = {
 			5195,
 			5244,
 			5248,
+			5263,
+			5269,
+			5272,
 			5361,
 			5363,
 			1079,
@@ -48664,6 +49451,8 @@ pg.activity_template = {
 			5185,
 			5194,
 			5247,
+			5270,
+			5274,
 			5362,
 			1086,
 			6006,
@@ -48908,6 +49697,7 @@ pg.activity_template = {
 			5074,
 			5100,
 			5172,
+			5271,
 			40190,
 			40215,
 			40221,
@@ -49016,6 +49806,7 @@ pg.activity_template = {
 			5072,
 			5090,
 			5170,
+			5268,
 			40175,
 			40184,
 			40207,
@@ -49215,6 +50006,7 @@ pg.activity_template = {
 			4970,
 			5061,
 			5102,
+			5262,
 			40216,
 			40231,
 			40244,
@@ -49379,6 +50171,7 @@ pg.activity_template = {
 		},
 		[89] = {
 			4867,
+			5261,
 			40950
 		},
 		[30] = {
@@ -49446,6 +50239,15 @@ pg.activity_template = {
 		},
 		[92] = {
 			5186
+		},
+		[111] = {
+			5260
+		},
+		[22] = {
+			5264
+		},
+		[112] = {
+			5265
 		},
 		[113] = {
 			5322
@@ -49603,7 +50405,8 @@ pg.activity_template = {
 			45911,
 			45912,
 			45913,
-			45914
+			45914,
+			45915
 		}
 	},
 	all = {
@@ -49949,8 +50752,21 @@ pg.activity_template = {
 		5247,
 		5248,
 		5249,
+		5260,
+		5261,
+		5262,
+		5263,
+		5264,
+		5265,
 		5266,
 		5267,
+		5268,
+		5269,
+		5270,
+		5271,
+		5272,
+		5273,
+		5274,
 		5295,
 		5322,
 		5324,
@@ -51070,6 +51886,7 @@ pg.activity_template = {
 		45911,
 		45912,
 		45913,
-		45914
+		45914,
+		45915
 	}
 }

@@ -136,7 +136,7 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "theme-highseasfleet",
+		default_bgm = "theme-camelot",
 		special_bgm = "",
 		bgm = "Story-startravel"
 	},
@@ -1144,6 +1144,36 @@ pg.voice_bgm = {
 		default_bgm = "main-chunjie2",
 		special_bgm = "",
 		bgm = "main-chunjie2"
+	},
+	OtherWorldMainPage = {
+		default_bgm = "story-mmorpg",
+		special_bgm = "",
+		bgm = "story-mmorpg"
+	},
+	OtherworldTerminalLayer = {
+		default_bgm = "story-mmorpg",
+		special_bgm = "",
+		bgm = "story-mmorpg"
+	},
+	OtherworldBackHillScene = {
+		default_bgm = "Story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "Story-musicanniversary-gorgeous"
+	},
+	OtherWorldTempleScene = {
+		default_bgm = "Theme-SeaAndSun-soft",
+		special_bgm = "",
+		bgm = "Theme-SeaAndSun-soft"
+	},
+	OtherWorldTaskLayer = {
+		default_bgm = "story-mmorpg",
+		special_bgm = "",
+		bgm = "story-mmorpg"
+	},
+	OtherworldMapScene = {
+		default_bgm = "story-mmorpg",
+		special_bgm = "",
+		bgm = "story-mmorpg"
 	},
 	AprilFoolDiscovery2024Page = {
 		default_bgm = "story-battle-16bit-SFC",

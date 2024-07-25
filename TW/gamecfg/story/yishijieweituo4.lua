@@ -9,7 +9,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "接到王国军的委托前来调查魔王补给站。",
+			say = "接到王國軍的委託前來調查魔王補給站。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,7 +18,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "在魔王补给站内潜行，收集到了重要情报！",
+			say = "在魔王補給站內潛行，蒐集到了重要情報！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "可以获取委托奖励了！",
+			say = "委託終於完成了，可以回冒險者公會領獎勵了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

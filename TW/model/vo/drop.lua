@@ -63,6 +63,10 @@ slot0.getCount = function(slot0)
 	end
 end
 
+slot0.isLoveLetter = function(slot0)
+	return slot0.type == DROP_TYPE_LOVE_LETTER or slot0.type == DROP_TYPE_ITEM and slot0:getConfig("type") == Item.LOVE_LETTER_TYPE
+end
+
 slot0.getOwnedCount = function(slot0)
 	return switch(slot0.type, uv0.CountCase, uv0.CountDefault, slot0)
 end

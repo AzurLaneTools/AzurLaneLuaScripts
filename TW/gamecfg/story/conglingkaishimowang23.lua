@@ -8,7 +8,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			bgm = "story-mmorpg",
-			say = "在攻陷魔王军械库、告别了飓风海盗团后，我们乘势继续推进。",
+			say = "在攻陷魔王軍械庫、告別了颶風海盜團後，我們乘勢繼續推進。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
-			say = "很快就来到了前往魔王城前的最后一处阻碍——魔王补给站前。",
+			say = "很快就來到了前往魔王城前的最後一處阻礙——魔王補給站前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,11 +45,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "……在神圣教会收藏的古地图里，对这里的标注是港口城市施涅哈芬（Schneehafen）。",
+			say = "……在神聖教會收藏的古地圖裡，對這裡的標註是港口城市施涅哈芬（Schneehafen）。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -62,11 +62,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "在魔王出现前。曾经是王国的第二大都市……",
+			say = "在魔王出現前。曾經是王國的第二大都市……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,11 +80,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "没想到我竟然有亲眼见证这片遗迹的一天。",
+			say = "沒想到我竟然有親眼見證這片遺跡的日子。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,13 +97,13 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			factiontag = "见习神官",
+			factiontag = "見習神官",
 			dir = 1,
 			bgName = "star_level_bg_176",
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哥哥~我们侦察回来了。",
+			say = "哥哥~我們偵察回來了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼呼呼~骑着优酱翱翔的感觉真棒啊~",
+			say = "呼呼呼~騎著優醬翱翔的感覺真棒~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "从空中俯瞰的视野就是好啊~！",
+			say = "從空中俯瞰的視野就是好~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,12 +170,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "见习神官",
+			factiontag = "見習神官",
 			dir = 1,
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请说重点……",
+			say = "請說重點……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳……指挥官，我们有一个重大发现！",
+			say = "咳……指揮官，我們有一個重大發現！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "魔王补给站中驻守的魔物大军正在四散溃逃！",
+			say = "魔王補給站中駐守的魔物大軍正在四散潰逃！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,11 +225,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "……不战而逃？不会是被我们消灭戴蒙赫勒魔窟的场面吓到了吧？",
+			say = "……不戰而逃？不會是被我們消滅戴蒙赫勒魔窟的場面嚇到了吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,9 +243,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "很有可能……看来魔王军并不知道飓风海盗团已经离开了。",
+			say = "很有可能……看來魔王軍並不知道颶風海盜團已經離開了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,9 +255,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "这确实是个好机会……",
+			say = "這確實是個好機會……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,9 +267,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "我们趁乱出击，拿下补给站！",
+			say = "我們趁亂出擊，拿下補給站！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
 			bgm = "story-oldcastle-carnival",
-			say = "魔王补给站·领主大厅",
+			say = "魔王補給站·領主大廳",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_156",
-			say = "砰————（踢门声）",
+			say = "砰————（踢門聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大魔族，你在家么？勇者抚顺前来讨伐你啦！",
+			say = "大魔族，妳在家嗎？勇者撫順前來討伐你啦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦，指挥官……这里一个人都没有啊！",
+			say = "咦，指揮官……這裡一個人都沒有啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,9 +358,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "……连这里都没人？",
+			say = "……連這裡都沒人？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,12 +369,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "药剂师",
+			factiontag = "藥師",
 			dir = 1,
 			actor = 201371,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咱们一路上都没遇到什么像样的抵抗，这里的大魔族该不会是……逃跑了吧？",
+			say = "我們一路上都沒遇到什麼像樣的抵抗，這裡的大魔族該不會是……逃跑了吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……逃跑了？没想到魔王军的领主里还有这么胆小的人啊。",
+			say = "……逃跑了？沒想到魔王軍的領主裡還有這麼膽小的人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,12 +407,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "见习神官",
+			factiontag = "見習神官",
 			dir = 1,
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哥哥你看……桌子上有一封信。",
+			say = "哥哥你看……桌上有一封信。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,11 +426,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "神圣教会圣女",
+			factiontag = "神聖教會聖女",
 			dir = 1,
 			actor = 802020,
 			nameColor = "#A9F548FF",
-			say = "指挥官小心陷阱，我来开吧。",
+			say = "指揮官小心陷阱，我來開吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			actor = 406032,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "各位未曾谋面的冒险者们，你们好呀~",
+			say = "各位未曾謀面的冒險者們，你們好呀~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -486,7 +486,7 @@ return {
 			actor = 406032,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "你们在军械库弄出的动静还真是夸张。",
+			say = "你們在軍械庫弄出的動靜還真是誇張。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -506,7 +506,7 @@ return {
 			actor = 406032,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "有了这样的力量，攻下魔王城也只是时间问题吧？",
+			say = "有了這樣的力量，攻下魔王城也只是時間問題吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -526,7 +526,7 @@ return {
 			actor = 406032,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "所以——人家才不要留在这里替魔王当炮灰呢。",
+			say = "所以——人家才不要留在這裡替魔王當炮灰呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -546,7 +546,7 @@ return {
 			actor = 406032,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "就先拜拜咯~",
+			say = "就先拜拜囉~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -566,7 +566,7 @@ return {
 			actor = 406032,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "补给站从现在起就是你们的了。",
+			say = "補給站從現在起就是你們的了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -585,7 +585,7 @@ return {
 			actor = 406032,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "宝物我都装在箱子里放好了，你们可以随便拿~",
+			say = "寶物我都裝在箱子裡放好了，你們可以隨便拿~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -605,7 +605,7 @@ return {
 			actor = 406032,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "补给物资我也都封印在仓库里了，你们也可以随便拿~",
+			say = "補給物資我也都封印在倉庫裡了，你們也可以隨便拿~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -624,7 +624,7 @@ return {
 			actor = 406032,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "还有我最满意的专辑也替你们整理了一份，请务必听听哦~",
+			say = "還有我最滿意的專輯也替你們整理了一份，請務必聽聽看哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			actor = 406032,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "这些可都是{namecode:491:亚德}的Live精☆选~",
+			say = "這些可都是亞德的Live精☆選~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -664,7 +664,7 @@ return {
 			actor = 406032,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "所以你们看，{namecode:491:亚德}都这么乖了~",
+			say = "所以你們看，亞德都這麼乖了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -683,7 +683,7 @@ return {
 			actor = 406032,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "以后万一再遇到人家的话——",
+			say = "以後萬一再遇到人家的話——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -703,7 +703,7 @@ return {
 			actor = 406032,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "还请诸位念在今日的这件事上，放{namecode:491:亚德}一马哦~",
+			say = "還請諸位念在今日的這件事上，放亞德一馬哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -722,7 +722,7 @@ return {
 			actor = 406032,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——魔王军领主·大魔族·魔女偶像·好孩子·{namecode:491:亚德}，留。",
+			say = "——魔王軍領主·大魔族·魔女偶像·好孩子·亞德，留。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -741,7 +741,7 @@ return {
 			actor = 202341,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "居然真的放弃领地逃跑了啊……",
+			say = "居然真的放棄領地逃跑了啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -776,7 +776,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呃……感觉还是个挺识大体的魔族。",
+			say = "呃……感覺還是個挺識大體的魔族。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -790,12 +790,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "见习神官",
+			factiontag = "見習神官",
 			dir = 1,
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样一个大魔族跑了……对今后是个麻烦。",
+			say = "這樣一個大魔族跑了……對今後是個麻煩。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -809,9 +809,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "至少接下来，她不会阻碍我们讨伐魔王的任务了。",
+			say = "至少接下來，她不會阻礙我們討伐魔王的任務了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -821,12 +821,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "见习神官",
+			factiontag = "見習神官",
 			dir = 1,
 			actor = 236031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔嗯……哥哥说的对。",
+			say = "唔嗯……哥哥說的對。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -840,20 +840,20 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_156",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "至于等下次见到她的时候——",
+			say = "至於等下次見到她的時候——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "就放她一马好了。",
+					content = "就放她一馬好了。",
 					flag = 1
 				},
 				{
-					content = "超级加倍教训她一下！",
+					content = "超級加倍教訓她一下！",
 					flag = 2
 				}
 			}

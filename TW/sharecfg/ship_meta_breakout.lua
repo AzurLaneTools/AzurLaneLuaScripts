@@ -399,7 +399,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9701051] = {
-		breakout_view = "习得技能【逐光之焰·吸血鬼】I/鱼雷效率提高5%",
+		breakout_view = "習得技能【逐光之焰·吸血鬼】I/魚雷效率提高5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -415,7 +415,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701052] = {
-		breakout_view = "鱼雷底座+1/鱼雷预装填+1/主炮效率提高10%",
+		breakout_view = "魚雷底座+1/魚雷預裝+1/主炮效率提升10%",
 		item2 = 21001,
 		pre_id = 9701051,
 		repair = 0,
@@ -432,7 +432,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701053] = {
-		breakout_view = "【逐光之焰·吸血鬼】升级/全武器效率提高5%",
+		breakout_view = "【逐光之焰·吸血鬼】升級/全武器效率提高5%",
 		item2 = 21001,
 		pre_id = 9701052,
 		repair = 0,
@@ -448,7 +448,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9701054] = {
-		breakout_view = "无",
+		breakout_view = "無",
 		item2 = 21001,
 		pre_id = 9701053,
 		repair = 0,

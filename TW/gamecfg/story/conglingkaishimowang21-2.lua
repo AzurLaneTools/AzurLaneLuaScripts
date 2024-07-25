@@ -8,7 +8,7 @@ return {
 			side = 2,
 			soundeffect = "event:/battle/boom2",
 			bgm = "login-2022401us",
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,12 +72,12 @@ return {
 		},
 		{
 			side = 2,
-			factiontag = "完美究极吸血鬼",
+			factiontag = "完美究極吸血鬼",
 			dir = 1,
 			actor = 201233,
 			nameColor = "#FF9B93",
 			live2d = "main1",
-			say = "呵，就凭汝等这点三脚猫的功夫还想困住身为完美究极吸血鬼的吾？",
+			say = "呵，就憑汝等這點三腳貓的功夫還想困住身為完美究極吸血鬼的吾？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,12 +90,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			factiontag = "完美究极吸血鬼",
+			factiontag = "完美究極吸血鬼",
 			dir = 1,
 			actor = 201233,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "降临吧，吾的使魔们，赐予这群不知天高地厚的凡人永恒的解脱吧——！",
+			say = "降臨吧，吾的使魔們，賜下這群不知天高地厚的凡人永恆的解脫吧——！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			actorName = "有翼啾莱姆群",
+			actorName = "有翼啾萊姆群",
 			side = 2,
 			nameColor = "#A9F548FF",
 			say = "翼啾——翼啾————！",
@@ -165,8 +165,8 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
-			say = "独角兽、利物浦，注意魔法值管理，优先使用消耗少的持续性回复。",
+			factiontag = "指揮官",
+			say = "獨角獸、利物浦，注意魔法值管理，優先使用消耗少的持續性回復。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,8 +176,8 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
-			say = "努比亚人，使用群体性伤害的爆裂魔药攻击魔物群。",
+			factiontag = "指揮官",
+			say = "努比亞，使用群體性傷害的爆裂魔藥攻擊魔物群。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,8 +187,8 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
-			say = "谢菲尔德和{namecode:460:塞德利茨}，优先使用远程火力将落单的魔物逐个击杀。",
+			factiontag = "指揮官",
+			say = "謝菲爾德和塞德利茨，優先使用遠程火力將落單的魔物逐一擊殺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,8 +198,8 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
-			say = "贞德留在回复阵内，只处理突入身边的敌人。",
+			factiontag = "指揮官",
+			say = "貞德留在回復陣內，只處理突入身邊的敵人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,8 +209,8 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
-			say = "抚顺也是，注意阵型，别一个人冲得太远！",
+			factiontag = "指揮官",
+			say = "撫順也是，注意陣型，別一個人衝得太遠！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,12 +219,12 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			factiontag = "完美究极吸血鬼",
+			factiontag = "完美究極吸血鬼",
 			dir = 1,
 			actor = 201233,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "呵，还真是密不透风啊。",
+			say = "呵，還真是密不透風啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,12 +253,12 @@ return {
 		},
 		{
 			side = 2,
-			factiontag = "完美究极吸血鬼",
+			factiontag = "完美究極吸血鬼",
 			dir = 1,
 			actor = 201233,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "小队指挥……看吾先解决了汝——！",
+			say = "小隊指揮……看吾先解決了汝——！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,9 +280,9 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			nameColor = "#A9F548FF",
-			say = "——终于上钩了。",
+			say = "——終於上鉤了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,8 +309,8 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
-			say = "不枉我大声指挥了那么久。",
+			factiontag = "指揮官",
+			say = "不枉我大聲指揮了那麼久。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "就在吸血鬼向我笔直冲来之际，她触碰到了吸血鬼女仆在消散前设置的陷阱。",
+			say = "就在吸血鬼向我筆直衝來之際，她觸碰到了吸血鬼女僕在消散前設置的陷阱。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,18 +328,18 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "随即——时间停止了。",
+			say = "隨即——時間停止了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "竟然是时间停止魔法？！",
+					content = "竟然是時間停止魔法？！",
 					flag = 1
 				},
 				{
-					content = "果然是时间停止魔法！",
+					content = "果然是時間停止魔法！",
 					flag = 2
 				},
 				{
@@ -352,9 +352,9 @@ return {
 			actor = 0,
 			side = 2,
 			nameColor = "#A9F548FF",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			optionFlag = 3,
-			say = "时间啊——停止吧！",
+			say = "時間啊——停止吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,12 +362,12 @@ return {
 		},
 		{
 			side = 2,
-			factiontag = "完美究极吸血鬼",
+			factiontag = "完美究極吸血鬼",
 			dir = 1,
 			actor = 201233,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "可、可恶……身体动不了……",
+			say = "可、可惡……身體動不了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样就——结束了！",
+			say = "這樣就——結束了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,12 +413,12 @@ return {
 		},
 		{
 			side = 2,
-			factiontag = "完美究极吸血鬼",
+			factiontag = "完美究極吸血鬼",
 			dir = 1,
 			actor = 201233,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "可恶啊————！",
+			say = "可惡啊————！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			bgm = "story-mmorpg",
-			say = "就这样，魔王军的全部三座据点都被摧毁了。",
+			say = "就這樣，魔王軍的全部三座據點都被摧毀了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
-			say = "我依靠光明之加护的力量，净化了大地上的诅咒，让荒芜之地重新焕发了生机。",
+			say = "我依靠光明之加護的力量，淨化了大地上的詛咒，讓荒蕪之地重新煥發了生機。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,12 +470,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "吸血鬼獵人",
 			dir = 1,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "最开始我只是以为遇到了又一批鲁莽的冒险者……",
+			say = "最開始我只是以為遇到了又一批魯莽的冒險者……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,12 +489,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "吸血鬼獵人",
 			dir = 1,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没想到你们竟然能做到这一步……",
+			say = "沒想到你們竟然能做到這一步……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -508,12 +508,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "吸血鬼獵人",
 			dir = 1,
 			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我代表全体吸血鬼猎人，向诸位致以最诚挚的谢意。",
+			say = "我代表全體吸血鬼獵人，向諸位致上最誠摯的謝意。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -526,12 +526,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "吸血鬼獵人",
 			dir = 1,
 			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "吸血鬼猎人将永远是诸位的盟友。",
+			say = "吸血鬼獵人將永遠是各位的盟友。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -545,12 +545,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "吸血鬼獵人",
 			dir = 1,
 			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此间事毕。接下来，我们需要前往世界各地告知其他猎人王都沦陷日的真相。",
+			say = "此間事畢。接下來，我們需要前往世界各地告知其他獵人王都淪陷日的真相。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -563,12 +563,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "吸血鬼獵人",
 			dir = 1,
 			actor = 404031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们必须要暂时分别一段时间了。",
+			say = "我們必須要暫時分別一段時間了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -582,12 +582,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "吸血鬼獵人",
 			dir = 1,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……我没有什么能够代表吸血鬼猎人整体的信物能够给你们。",
+			say = "……我沒有任何事物能夠代表吸血鬼獵人整體的信物能夠給你們。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -601,12 +601,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_176",
-			factiontag = "吸血鬼猎人",
+			factiontag = "吸血鬼獵人",
 			dir = 1,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过请你们放心，当你们和魔王决战的时候——",
+			say = "不過請你們放心，當你們和魔王決戰的時候——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -617,14 +617,14 @@ return {
 			}
 		},
 		{
-			actorName = "谢菲尔德&塞德利茨",
+			actorName = "謝菲爾德&塞德利茨",
 			side = 0,
 			bgName = "star_level_bg_176",
 			hideOther = true,
 			actor = 202084,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "吸血鬼猎人一定在场！",
+			say = "吸血鬼獵人一定在場！",
 			subActors = {
 				{
 					actor = 404031,

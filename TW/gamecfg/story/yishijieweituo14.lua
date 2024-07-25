@@ -9,7 +9,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "究竟是谁的委托，居然会委托冒险者来钓鱼。",
+			say = "究竟是誰的委託，居然會委託冒險者來釣魚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,7 +18,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "在湖边钓到了好多大鱼！",
+			say = "在湖邊釣到了好多大魚！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			say = "可以获取委托奖励了！",
+			say = "委託終於完成了，可以回冒險者公會領獎勵了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
