@@ -3345,7 +3345,7 @@ pg.activity_shop_extra = {
 		commodity_id = 601102,
 		end_by_maintenance = 0,
 		id = 120,
-		order = 10,
+		order = 101,
 		scene = {
 			"crusing",
 			{}
@@ -3423,7 +3423,7 @@ pg.activity_shop_extra = {
 		end_by_maintenance = 1,
 		scene = "",
 		id = 122,
-		order = 5,
+		order = 101,
 		time = {
 			{
 				{
