@@ -26350,7 +26350,17 @@ pg.ship_l2d = {
 				},
 				{
 					8,
-					{}
+					{
+						"touch_idle12",
+						"touch_drag1",
+						"touch_drag2",
+						"touch_drag3",
+						"touch_drag4",
+						"touch_drag5",
+						"touch_drag6",
+						"touch_drag7",
+						"touch_drag8"
+					}
 				},
 				{
 					9,
@@ -26979,6 +26989,7 @@ pg.ship_l2d = {
 			type = 2
 		},
 		action_trigger_active = {
+			idle = 0,
 			enable = {},
 			ignore = {}
 		}
@@ -27023,6 +27034,7 @@ pg.ship_l2d = {
 			type = 2
 		},
 		action_trigger_active = {
+			idle = 0,
 			enable = {},
 			ignore = {}
 		}
@@ -27067,6 +27079,7 @@ pg.ship_l2d = {
 			type = 2
 		},
 		action_trigger_active = {
+			idle = 0,
 			enable = {},
 			ignore = {}
 		}
@@ -27111,6 +27124,7 @@ pg.ship_l2d = {
 			type = 2
 		},
 		action_trigger_active = {
+			idle = 0,
 			enable = {},
 			ignore = {}
 		}
@@ -27155,6 +27169,7 @@ pg.ship_l2d = {
 			type = 2
 		},
 		action_trigger_active = {
+			idle = 0,
 			enable = {},
 			ignore = {}
 		}
@@ -27199,6 +27214,7 @@ pg.ship_l2d = {
 			type = 2
 		},
 		action_trigger_active = {
+			idle = 0,
 			enable = {},
 			ignore = {}
 		}
@@ -27220,7 +27236,7 @@ pg.ship_l2d = {
 		id = 20703718,
 		offset_y = 0,
 		revert_smooth = 100,
-		limit_time = 1,
+		limit_time = 0.5,
 		parts_data = "",
 		ignore_react = 1,
 		gyro = 0,
@@ -27228,9 +27244,9 @@ pg.ship_l2d = {
 		ignore_action = 1,
 		offset_x = 0,
 		save_parameter = 0,
-		revert_idle_index = 0,
+		revert_idle_index = 1,
 		gyro_z = 0,
-		smooth = 500,
+		smooth = 180,
 		start_value = 0,
 		range_abs = 0,
 		ship_skin_id = 207037,
@@ -27318,7 +27334,7 @@ pg.ship_l2d = {
 		id = 20703719,
 		offset_y = 0,
 		revert_smooth = 100,
-		limit_time = 1,
+		limit_time = 0.5,
 		parts_data = "",
 		ignore_react = 1,
 		gyro = 0,
@@ -27326,9 +27342,9 @@ pg.ship_l2d = {
 		ignore_action = 1,
 		offset_x = 0,
 		save_parameter = 0,
-		revert_idle_index = 0,
+		revert_idle_index = 1,
 		gyro_z = 0,
-		smooth = 500,
+		smooth = 180,
 		start_value = 0,
 		range_abs = 0,
 		ship_skin_id = 207037,
@@ -27467,7 +27483,7 @@ pg.ship_l2d = {
 		ignore_action = 1,
 		offset_x = 0,
 		save_parameter = 0,
-		revert_idle_index = 0,
+		revert_idle_index = 1,
 		gyro_z = 0,
 		smooth = 150,
 		start_value = 0,
