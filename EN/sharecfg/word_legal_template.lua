@@ -876,6 +876,21 @@ temp = function()
 							}
 						}
 					}
+				},
+				a = {
+					s = {
+						b = {
+							o = {
+								u = {
+									r = {
+										g = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		},
@@ -1794,6 +1809,17 @@ temp = function()
 										}
 									}
 								}
+							}
+						}
+					}
+				}
+			},
+			p = {
+				l = {
+					e = {
+						i = {
+							x = {
+								this = true
 							}
 						}
 					}
@@ -5825,6 +5851,25 @@ temp = function()
 						}
 					}
 				}
+			},
+			A = {
+				u = {
+					d = {
+						a = {
+							c = {
+								i = {
+									e = {
+										u = {
+											x = {
+												this = true
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
 			}
 		},
 		y = {
@@ -7585,7 +7630,18 @@ temp = function()
 				u = {
 					m = {
 						i = {
-							this = true
+							this = true,
+							[" "] = {
+								M = {
+									E = {
+										T = {
+											A = {
+												this = true
+											}
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -9268,18 +9324,6 @@ temp = function()
 						}
 					}
 				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["塔"] = {
-		["什"] = {
-			["干"] = {
-				this = true
 			}
 		}
 	}

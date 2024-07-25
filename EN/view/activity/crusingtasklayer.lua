@@ -49,7 +49,7 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.btnHelp, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = i18n(uv0.activity:getConfig("config_client").tips[3])
+			helps = i18n("cruise_task_help_" .. pg.battlepass_event_pt[uv0.activity.id].map_name)
 		})
 	end, slot5)
 

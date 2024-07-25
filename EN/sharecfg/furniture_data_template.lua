@@ -143,6 +143,8 @@ pg.furniture_data_template = setmetatable({
 			278,
 			280,
 			281,
+			282,
+			283,
 			100002,
 			100003,
 			100004,
@@ -192,6 +194,7 @@ pg.furniture_data_template = setmetatable({
 			100051,
 			100052,
 			100053,
+			100064,
 			200001,
 			200002,
 			200003,
@@ -3140,6 +3143,27 @@ pg.furniture_data_template = setmetatable({
 			311114,
 			311115,
 			311116
+		},
+		[112] = {
+			312001,
+			312002,
+			312101,
+			312102,
+			312103,
+			312104,
+			312105,
+			312106,
+			312107,
+			312108,
+			312109,
+			312110,
+			312111,
+			312112,
+			312113,
+			312114,
+			312115,
+			312301,
+			312302
 		}
 	},
 	get_id_list_by_tag = {
@@ -5013,7 +5037,20 @@ pg.furniture_data_template = setmetatable({
 			311112,
 			311113,
 			311114,
-			311115
+			311115,
+			312101,
+			312102,
+			312103,
+			312104,
+			312105,
+			312106,
+			312107,
+			312108,
+			312109,
+			312110,
+			312111,
+			312112,
+			312113
 		},
 		{
 			1108,
@@ -5265,6 +5302,7 @@ pg.furniture_data_template = setmetatable({
 			274,
 			280,
 			281,
+			282,
 			100002,
 			100003,
 			100004,
@@ -5314,6 +5352,7 @@ pg.furniture_data_template = setmetatable({
 			100051,
 			100052,
 			100053,
+			100064,
 			31101,
 			54104,
 			54105
@@ -5370,7 +5409,8 @@ pg.furniture_data_template = setmetatable({
 			273,
 			275,
 			276,
-			278
+			278,
+			283
 		},
 		[7] = {
 			211,
@@ -5561,7 +5601,9 @@ pg.furniture_data_template = setmetatable({
 			308305,
 			309113,
 			310116,
-			311116
+			311116,
+			312114,
+			312115
 		},
 		[4] = {
 			1001,
@@ -5660,7 +5702,8 @@ pg.furniture_data_template = setmetatable({
 			308001,
 			309001,
 			310001,
-			311001
+			311001,
+			312001
 		},
 		[3] = {
 			1002,
@@ -5760,7 +5803,8 @@ pg.furniture_data_template = setmetatable({
 			308002,
 			309002,
 			310002,
-			311002
+			311002,
+			312002
 		},
 		[5] = {
 			1301,
@@ -6098,7 +6142,9 @@ pg.furniture_data_template = setmetatable({
 			310307,
 			310308,
 			310309,
-			310310
+			310310,
+			312301,
+			312302
 		}
 	},
 	get_id_list_by_type = {
@@ -6200,7 +6246,8 @@ pg.furniture_data_template = setmetatable({
 			308002,
 			309002,
 			310002,
-			311002
+			311002,
+			312002
 		},
 		[7] = {
 			1,
@@ -6321,6 +6368,7 @@ pg.furniture_data_template = setmetatable({
 			276,
 			278,
 			280,
+			283,
 			100002,
 			100004,
 			100005,
@@ -8231,7 +8279,21 @@ pg.furniture_data_template = setmetatable({
 			311113,
 			311114,
 			311115,
-			311116
+			311116,
+			312101,
+			312102,
+			312103,
+			312104,
+			312105,
+			312106,
+			312107,
+			312108,
+			312109,
+			312110,
+			312111,
+			312112,
+			312113,
+			312114
 		},
 		[11] = {
 			131,
@@ -8240,6 +8302,7 @@ pg.furniture_data_template = setmetatable({
 			215,
 			233,
 			281,
+			282,
 			100003,
 			100008,
 			100021,
@@ -8247,6 +8310,7 @@ pg.furniture_data_template = setmetatable({
 			100030,
 			100034,
 			100042,
+			100064,
 			30123,
 			35128,
 			37121,
@@ -8275,7 +8339,8 @@ pg.furniture_data_template = setmetatable({
 			90104,
 			90117,
 			94119,
-			301105
+			301105,
+			312115
 		},
 		[14] = {
 			214,
@@ -8397,7 +8462,8 @@ pg.furniture_data_template = setmetatable({
 			308001,
 			309001,
 			310001,
-			311001
+			311001,
+			312001
 		},
 		[5] = {
 			1101,
@@ -9039,7 +9105,8 @@ pg.furniture_data_template = setmetatable({
 			310307,
 			310308,
 			310309,
-			310310
+			310310,
+			312302
 		},
 		[8] = {
 			17121
@@ -9068,7 +9135,8 @@ pg.furniture_data_template = setmetatable({
 			310302,
 			310303,
 			310304,
-			310305
+			310305,
+			312301
 		},
 		[12] = {
 			46131
@@ -9217,6 +9285,8 @@ pg.furniture_data_template = setmetatable({
 		278,
 		280,
 		281,
+		282,
+		283,
 		100002,
 		100003,
 		100004,
@@ -9266,6 +9336,7 @@ pg.furniture_data_template = setmetatable({
 		100051,
 		100052,
 		100053,
+		100064,
 		200001,
 		200002,
 		200003,
@@ -12015,7 +12086,26 @@ pg.furniture_data_template = setmetatable({
 		311113,
 		311114,
 		311115,
-		311116
+		311116,
+		312001,
+		312002,
+		312101,
+		312102,
+		312103,
+		312104,
+		312105,
+		312106,
+		312107,
+		312108,
+		312109,
+		312110,
+		312111,
+		312112,
+		312113,
+		312114,
+		312115,
+		312301,
+		312302
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -18926,6 +19016,130 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		},
 		interAction_group = {}
 	},
+	[282] = {
+		can_rotate = 0,
+		name = "Greased Lightning",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		themeId = 0,
+		icon = "cheleidianicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "Rev up that engine and race across the track like a bolt of lightning!",
+		advice = 0,
+		id = 282,
+		tag = 6,
+		comfortable = 4,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"cheleidianB",
+				"normal",
+				nil,
+				1
+			},
+			{
+				"cheleidianT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					5.8,
+					19.8
+				},
+				{
+					192,
+					172
+				},
+				"chuanmo/cheleidian_mask"
+			},
+			{
+				-0.5,
+				-15.5
+			},
+			{
+				1,
+				1
+			},
+			0.2
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[283] = {
+		can_rotate = 0,
+		name = "Mont-Saint-Michel Miniature",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 1,
+		belong = 1,
+		rarity = 5,
+		is_3d_obj = 0,
+		tag = 8,
+		icon = "shengmixieershanicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/shengmixieershan",
+		canputon = 0,
+		count = 1,
+		describe = "A scale model of the Basilica on Mont-Saint-Michel. Made by the Tribunal. Every little tree and stone has been expertly replicated.",
+		advice = 0,
+		deblocking = 1,
+		id = 283,
+		comfortable = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		name = "Air Pump of Friendship",
 		gain_by = "",
@@ -22470,6 +22684,91 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 				"char2",
 				1
 			}
+		},
+		interAction_group = {}
+	},
+	[100064] = {
+		can_rotate = 0,
+		name = "Giant Tumbleweed",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		themeId = 0,
+		icon = "fengguncaoicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "For when you spend a long time setting up a joke only for it to fall flat.",
+		advice = 0,
+		id = 100064,
+		tag = 6,
+		comfortable = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fengguncaoB",
+				"normal"
+			},
+			{
+				"fengguncaoT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"tuozhuai2"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					15.6,
+					156.8
+				},
+				{
+					317,
+					281
+				},
+				"chuanmo/fengguncao_mask"
+			},
+			{
+				-45.7,
+				-133.5
+			},
+			{
+				1,
+				1
+			},
+			0.8
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
@@ -142995,6 +143294,850 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[312001] = {
+		can_rotate = 0,
+		name = "Racer's Café Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 4,
+		icon = "dibancar2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 112,
+		spine_action_replace = "",
+		picture = "car2/dibancar2",
+		canputon = 0,
+		count = 1,
+		describe = "Watch for speeding cars and people.",
+		advice = 0,
+		deblocking = 1,
+		id = 312001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[312002] = {
+		can_rotate = 0,
+		name = "Racer's Café Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 3,
+		icon = "qiangbicar2icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 112,
+		count = 1,
+		describe = "There's a race everywhere you look!",
+		advice = 0,
+		id = 312002,
+		deblocking = 1,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbicar2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[312101] = {
+		can_rotate = 0,
+		name = "Racer's Counter",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "bataicar2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 112,
+		count = 1,
+		describe = "Tastes like high-octane thrills with a squeeze of milk.",
+		advice = 0,
+		id = 312101,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bataicar2",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[312102] = {
+		can_rotate = 0,
+		name = "Racer's Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "chajicar2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 112,
+		spine_action_replace = "",
+		picture = "car2/chajicar2",
+		canputon = 0,
+		count = 2,
+		describe = "Ice coffee? Not on our watch! Hot or go home!",
+		advice = 0,
+		deblocking = 1,
+		id = 312102,
+		comfortable = 1,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[312103] = {
+		can_rotate = 0,
+		name = "Racer's Long Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "lianpaizhuozicar2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 112,
+		spine_action_replace = "",
+		picture = "car2/lianpaizhuozicar2",
+		canputon = 0,
+		count = 1,
+		describe = "Lined with decor to show support for your favorite racer. Please don't sit on the table.",
+		advice = 0,
+		deblocking = 1,
+		id = 312103,
+		comfortable = 3,
+		size = {
+			15,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[312104] = {
+		can_rotate = 0,
+		name = "Racer's Tire Stack",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "luntaicar2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 112,
+		spine_action_replace = "",
+		picture = "car2/luntaicar2",
+		canputon = 0,
+		count = 2,
+		describe = "Purely decorative. Don't even think about bringing these to the pit.",
+		advice = 0,
+		deblocking = 1,
+		id = 312104,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[312105] = {
+		can_rotate = 0,
+		name = "Miniature Racing Circuit",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "paodaozhuocar2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 112,
+		count = 1,
+		describe = "These cars may be toy-sized, but the race they're in is real.",
+		advice = 0,
+		id = 312105,
+		deblocking = 1,
+		comfortable = 4,
+		size = {
+			9,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"paodaozhuocar2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[312106] = {
+		can_rotate = 1,
+		name = "Finish Line Flag",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "saicheqizhicar2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 112,
+		spine_action_replace = "",
+		picture = "car2/saicheqizhicar2",
+		canputon = 0,
+		count = 2,
+		describe = "Almost there! P.S. No running inside the café.",
+		advice = 0,
+		deblocking = 1,
+		id = 312106,
+		comfortable = 1,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[312107] = {
+		can_rotate = 0,
+		name = "Racer's Cushy Couch",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "shafa1car2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "car2/shafa1car2",
+		canputon = 0,
+		themeId = 112,
+		count = 2,
+		describe = "A nice spot to rest in between races.",
+		advice = 0,
+		id = 312107,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					22.6,
+					21.4
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[312108] = {
+		can_rotate = 0,
+		name = "Racer's Stiff Couch",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "shafa2car2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 112,
+		spine_action_replace = "",
+		picture = "car2/shafa2car2",
+		canputon = 0,
+		count = 2,
+		describe = "A NOT so nice spot to rest. It's violating your backside!",
+		advice = 0,
+		deblocking = 1,
+		id = 312108,
+		comfortable = 2,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[312109] = {
+		can_rotate = 0,
+		name = "Racing Simulator",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		themeId = 112,
+		icon = "vrsaichecar2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "All the fun and thrills of a real race without the risk of a collision. Some would argue that's a downside...",
+		advice = 0,
+		id = 312109,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"vrsaichecar2B",
+				"normal"
+			},
+			{
+				"vrsaichecar2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[312110] = {
+		can_rotate = 0,
+		name = "Racer's Chair 1",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "yizi1car2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "car2/yizi1car2",
+		canputon = 0,
+		themeId = 112,
+		count = 4,
+		describe = "Sit back, sip your coffee, and enjoy the race.",
+		advice = 0,
+		id = 312110,
+		deblocking = 1,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-19.4,
+					19.2
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[312111] = {
+		can_rotate = 0,
+		name = "Racer's Chair 2",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "yizi2car2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 112,
+		spine_action_replace = "",
+		picture = "car2/yizi2car2",
+		canputon = 0,
+		count = 2,
+		describe = "Sit back, sip your coffee, and enjoy the race.",
+		advice = 0,
+		deblocking = 1,
+		id = 312111,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[312112] = {
+		can_rotate = 0,
+		name = "Racer's Checkered Chair 1",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "yizi3car2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "car2/yizi3car2",
+		canputon = 0,
+		themeId = 112,
+		count = 2,
+		describe = "The best seats in the whole joint. Get as close to the action as possible!",
+		advice = 0,
+		id = 312112,
+		deblocking = 1,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					16.2,
+					27.2
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[312113] = {
+		can_rotate = 0,
+		name = "Racer's Checkered Chair 2",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "yizi4car2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 112,
+		spine_action_replace = "",
+		picture = "car2/yizi4car2",
+		canputon = 0,
+		count = 1,
+		describe = "The best seats in the whole joint. Get as close to the action as possible!",
+		advice = 0,
+		deblocking = 1,
+		id = 312113,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[312114] = {
+		can_rotate = 0,
+		name = "Racer's Claw",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 7,
+		icon = "jixiebicar2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 112,
+		count = 1,
+		describe = "For when you need that repairing and refueling done yesterday.",
+		advice = 0,
+		id = 312114,
+		deblocking = 1,
+		comfortable = 4,
+		size = {
+			7,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jixiebicar2",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[312115] = {
+		can_rotate = 0,
+		name = "Cupid's Arrow",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		themeId = 112,
+		icon = "laoyechecar2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "Runs on love and moves as fast as a beating heart!",
+		advice = 0,
+		id = 312115,
+		tag = 7,
+		comfortable = 4,
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"laoyechecar2B",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"laoyechecar2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.5
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[312301] = {
+		can_rotate = 0,
+		name = "Racer's Menu",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "caidancar2icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 112,
+		spine_action_replace = "",
+		picture = "car2/caidancar2",
+		canputon = 0,
+		count = 1,
+		describe = "An energizing race needs an energizing drink.",
+		advice = 0,
+		deblocking = 1,
+		id = 312301,
+		comfortable = 2,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[312302] = {
+		can_rotate = 0,
+		name = "Coffee Bean Dispensers",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "kafeidoucar2icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 112,
+		spine_action_replace = "",
+		picture = "car2/kafeidoucar2",
+		canputon = 0,
+		count = 1,
+		describe = "Like an exhaust but it releases delicious, delicious coffee beans.",
+		advice = 0,
+		deblocking = 1,
+		id = 312302,
+		comfortable = 2,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	}

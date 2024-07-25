@@ -1694,8 +1694,26 @@ slot0.getNextMaxLevel = function(slot0)
 end
 
 slot0.canUpgrade = function(slot0)
-	if slot0:isMetaShip() or slot0:isBluePrintShip() then
+	if slot0:isBluePrintShip() then
 		return false
+	end
+
+	if slot0:isMetaShip() then
+		if not slot0:getMetaCharacter() then
+			return false
+		end
+
+		if not slot1:getBreakOutInfo():hasNextInfo() then
+			return false
+		end
+
+		slot3, slot4 = slot2:getLimited()
+
+		if slot0.level < slot3 then
+			return false
+		end
+
+		return true
 	else
 		assert(uv0[slot0.configId], "不存在配置" .. slot0.configId)
 

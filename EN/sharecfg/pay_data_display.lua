@@ -70,6 +70,7 @@ pg.pay_data_display = setmetatable({
 		1014,
 		1015,
 		1016,
+		1017,
 		2001,
 		2002,
 		2003,
@@ -147,7 +148,8 @@ pg.pay_data_display = setmetatable({
 		146,
 		147,
 		148,
-		149
+		149,
+		150
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -6651,6 +6653,81 @@ pg.base.pay_data_display = {
 		},
 		sub_display = {
 			7017,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1017] = {
+		extra_service = 4,
+		limit_group = 0,
+		descrip_extra = "You must complete certain missions to obtain these rewards.",
+		type = 0,
+		first_pay_double = 0,
+		name_display = "Fair Winds Cruise Pass",
+		descrip = "Purchase to immediately gain 1,500 Progress Points, and also unlock additional Fair Winds Cruise rewards.",
+		subject = "Fair Winds Cruise Pass",
+		limit_arg = 1,
+		money = 999,
+		tag = 2,
+		name = "Fair Winds Cruise Pass (2024.8)",
+		gem = 0,
+		type_order = 4,
+		limit_type = 2,
+		picture = "battlepass_1",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.passport20",
+		extra_gem = 0,
+		id = 1017,
+		airijp_id = "com.yostaren.azurlane.passport20",
+		extra_service_item = {
+			{
+				1,
+				4018,
+				1500
+			},
+			{
+				8,
+				65001,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					8,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					9,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4018,
+				1500
+			}
+		},
+		sub_display = {
+			7018,
 			1500
 		},
 		ignorePlatform = {},
@@ -13982,6 +14059,119 @@ pg.base.pay_data_display = {
 			{
 				2,
 				81403,
+				1
+			}
+		}
+	},
+	[150] = {
+		extra_service = 3,
+		limit_group = 0,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		first_pay_double = 0,
+		name_display = "High Speed Lucky Bag",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "High Speed Lucky Bag",
+		limit_arg = 1,
+		money = 2999,
+		tag = 2,
+		name = "High Speed Lucky Bag",
+		gem = 0,
+		type_order = 2,
+		limit_type = 2,
+		picture = "fudai88",
+		skin_inquire_relation = 86404,
+		id_str = "com.yostaren.azurlane.luckybag36",
+		extra_gem = 0,
+		id = 150,
+		airijp_id = "com.yostaren.azurlane.luckybag36",
+		extra_service_item = {
+			{
+				2,
+				86404,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					7,
+					25
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86404,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81404,
 				1
 			}
 		}

@@ -1358,6 +1358,16 @@ pg.equip_skin_theme_template = {
 			2074
 		}
 	},
+	[106] = {
+		id = 106,
+		name = "Cyber Era",
+		ids = {
+			2075,
+			2076,
+			2077,
+			2078
+		}
+	},
 	[199] = {
 		id = 199,
 		name = "Misc",
@@ -1439,6 +1449,7 @@ pg.equip_skin_theme_template = {
 		103,
 		104,
 		105,
+		106,
 		199
 	}
 }

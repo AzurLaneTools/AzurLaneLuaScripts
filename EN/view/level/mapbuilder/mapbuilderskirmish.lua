@@ -1,14 +1,14 @@
-slot1 = class("MapBuilderSkirmish", import(".MapBuilder"))
+slot0 = class("MapBuilderSkirmish", import(".MapBuilderPermanent"))
 
-slot1.GetType = function(slot0)
-	return uv0.TYPESKIRMISH
+slot0.GetType = function(slot0)
+	return MapBuilder.TYPESKIRMISH
 end
 
-slot1.getUIName = function(slot0)
+slot0.getUIName = function(slot0)
 	return "skirmish_levels"
 end
 
-slot1.Update = function(slot0, ...)
+slot0.UpdateView = function(slot0)
 	slot1 = slot0._tf
 	slot2 = 0.21875
 	slot1.pivot = Vector2(slot2, 1)
@@ -20,15 +20,15 @@ slot1.Update = function(slot0, ...)
 	slot6 = slot0.map.rect.width / slot0.map.rect.height < slot0._parentTf.rect.width / slot0._parentTf.rect.height and slot0._parentTf.rect.width / slot0._tf.rect.width or slot0._parentTf.rect.height / slot0._tf.rect.height
 	slot0._tf.localScale = Vector3(slot6, slot6, slot6)
 
-	uv0.super.Update(slot0, ...)
+	uv0.super.UpdateView(slot0)
 end
 
-slot2 = Vector2(-193.5, 120.6)
-slot3 = Vector2(211.3, 116.5263)
-slot4 = Vector2(0, -622)
-slot5 = Vector2(-114, -372)
+slot1 = Vector2(-193.5, 120.6)
+slot2 = Vector2(211.3, 116.5263)
+slot3 = Vector2(0, -622)
+slot4 = Vector2(-114, -372)
 
-slot1.UpdateMapItems = function(slot0)
+slot0.UpdateMapItems = function(slot0)
 	uv0.super.UpdateMapItems(slot0)
 
 	if getProxy(SkirmishProxy):TryFetchNewTask() then
@@ -100,7 +100,7 @@ slot1.UpdateMapItems = function(slot0)
 
 		slot19 = slot16:getConfig("task_id")
 
-		onButton(slot0.sceneParent, slot17, function ()
+		onButton(slot0, slot17, function ()
 			if uv0 ~= SkirmishVO.StateWorking then
 				return
 			end
@@ -109,10 +109,10 @@ slot1.UpdateMapItems = function(slot0)
 
 			if uv1:GetType() == SkirmishVO.TypeStoryOrExpedition then
 				if tonumber(slot1) then
-					slot2 = uv2.sceneParent.contextData
+					slot2 = uv2.contextData
 					slot3 = uv2
 
-					slot3:InvokeParent("emit", LevelMediator2.ON_PERFORM_COMBAT, tonumber(slot1), function ()
+					slot3:emit(LevelMediator2.ON_PERFORM_COMBAT, tonumber(slot1), function ()
 						uv0.preparedTaskList = uv0.preparedTaskList or {}
 
 						table.insert(uv0.preparedTaskList, uv1)
@@ -124,10 +124,10 @@ slot1.UpdateMapItems = function(slot0)
 				slot2 = pg.NewStoryMgr.GetInstance()
 
 				slot2:Play(slot1, function ()
-					uv0:InvokeParent("emit", LevelMediator2.ON_SUBMIT_TASK, uv1)
+					uv0:emit(LevelMediator2.ON_SUBMIT_TASK, uv1)
 				end)
 			elseif slot0 == SkirmishVO.TypeChapter then
-				uv2:InvokeParent("TrySwitchChapter", getProxy(ChapterProxy):getChapterById(tonumber(slot1)))
+				uv2:TryOpenChapterInfo(tonumber(slot1))
 			end
 		end)
 	end
@@ -142,7 +142,7 @@ slot1.UpdateMapItems = function(slot0)
 		setActive(slot5:Find("line2"), slot7 == 3)
 		setText(slot5:Find("info/position"), string.format("POSITION  %02d", slot7))
 		setText(slot5:Find("info/name"), slot6[slot7]:getConfig("name"))
-		onButton(slot0.sceneParent, slot5, function ()
+		onButton(slot0, slot5, function ()
 			triggerButton(uv0)
 		end)
 	else
@@ -159,19 +159,18 @@ slot1.UpdateMapItems = function(slot0)
 	slot0.sceneParent.skirmishBar:Find("text"):GetComponent(typeof(Text)).text = slot9 - slot10
 end
 
-slot1.OnShow = function(slot0)
+slot0.OnShow = function(slot0)
+	uv0.super.OnShow(slot0)
 	setActive(slot0.sceneParent.topChapter:Find("type_skirmish"), true)
 	setActive(slot0.sceneParent.skirmishBar, true)
 	setActive(slot0.sceneParent.leftChapter:Find("buttons"), false)
-	setActive(slot0.sceneParent.eventContainer, false)
 	setActive(slot0.sceneParent.rightChapter, false)
 end
 
-slot1.OnHide = function(slot0)
+slot0.OnHide = function(slot0)
 	setActive(slot0.sceneParent.topChapter:Find("type_skirmish"), false)
 	setActive(slot0.sceneParent.skirmishBar, false)
 	setActive(slot0.sceneParent.leftChapter:Find("buttons"), true)
-	setActive(slot0.sceneParent.eventContainer, true)
 	setActive(slot0.sceneParent.rightChapter, true)
 
 	for slot5 = 1, slot0._tf:Find("skirmish_items").childCount do
@@ -179,6 +178,15 @@ slot1.OnHide = function(slot0)
 	end
 
 	LeanTween.cancel(go(slot0._tf:Find("cloud")))
+	uv0.super.OnHide(slot0)
 end
 
-return slot1
+slot0.HideFloat = function(slot0)
+	setActive(slot0._tf:Find("skirmish_items"), false)
+end
+
+slot0.ShowFloat = function(slot0)
+	setActive(slot0._tf:Find("skirmish_items"), true)
+end
+
+return slot0

@@ -66,7 +66,10 @@ slot0.GeneralPackage = function(slot0, slot1)
 		file_check = slot9,
 		boss_hp = slot0.statistics._maxBossHP,
 		enemy_info = {},
-		data2 = {}
+		data2 = {},
+		auto_before = slot0.statistics._autoInit,
+		auto_switch_time = slot0.statistics._autoCount,
+		auto_after = math.fmod(math.fmod(slot0.statistics._autoCount, 2) + slot0.statistics._autoInit, 2)
 	}
 end
 

@@ -584,6 +584,12 @@ end
 slot0.DidEnterLevelMainUI = function(slot0, slot1)
 	slot0.viewComponent:setMap(slot1)
 
+	if slot0.contextData.openChapterId then
+		slot0.viewComponent.mapBuilder:TryOpenChapter(slot0.contextData.openChapterId)
+
+		slot0.contextData.openChapterId = nil
+	end
+
 	if slot0.contextData.chapterVO and slot2.active then
 		slot0.viewComponent:switchToChapter(slot2)
 	elseif slot0.contextData.map:isSkirmish() then
@@ -687,6 +693,7 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.COOMMANDER_EQUIP_TO_FLEET_DONE,
 		GAME.COMMANDER_ELIT_FORMATION_OP_DONE,
 		GAME.SUBMIT_TASK_DONE,
+		GAME.SUBMIT_ACTIVITY_TASK_DONE,
 		LevelUIConst.CONTINUOUS_OPERATION,
 		uv0.ON_SPITEM_CHANGED,
 		GAME.GET_REMASTER_TICKETS_DONE,
@@ -742,7 +749,7 @@ slot0.handleNotification = function(slot0, slot1)
 
 					if uv0.exittype and uv0.exittype == ChapterConst.ExitFromMap then
 						uv1.viewComponent:setChapter(nil)
-						uv1.viewComponent:updateChapterTF(slot1.id)
+						uv1.viewComponent.mapBuilder:UpdateChapterTF(slot1.id)
 						uv1:OnExitChapter(slot1, uv0.win, uv0.extendData)
 
 						return
@@ -1114,7 +1121,7 @@ slot0.handleNotification = function(slot0, slot1)
 		elseif slot2 == DailyLevelProxy.ELITE_QUOTA_UPDATE then
 			slot0.viewComponent:setEliteQuota(getProxy(DailyLevelProxy).eliteCount, pg.gameset.elite_quota.key_value)
 		elseif slot2 == ActivityProxy.ACTIVITY_OPERATION_DONE then
-			slot0.viewComponent:updateMapItems()
+			slot0.viewComponent.mapBuilder:UpdateMapItems()
 		elseif slot2 == ActivityProxy.ACTIVITY_UPDATED then
 			if slot3 and slot3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_PT_RANK then
 				slot0.viewComponent:updatePtActivity(slot3)
@@ -1133,7 +1140,7 @@ slot0.handleNotification = function(slot0, slot1)
 			slot0.viewComponent:RefreshFleetSelectView()
 		elseif slot2 == GAME.SUBMIT_TASK_DONE then
 			if slot0.contextData.map and slot0.contextData.map:isSkirmish() then
-				slot0.viewComponent:updateMapItems()
+				slot0.viewComponent.mapBuilder:UpdateMapItems()
 			end
 
 			slot4 = slot0.viewComponent
@@ -1144,6 +1151,14 @@ slot0.handleNotification = function(slot0, slot1)
 
 					uv0:sendNotification(GAME.SUBMIT_TASK, uv0.contextData.TaskToSubmit)
 				end
+
+				uv0.viewComponent.mapBuilder:OnSubmitTaskDone()
+			end)
+		elseif slot2 == GAME.SUBMIT_ACTIVITY_TASK_DONE then
+			slot4 = slot0.viewComponent
+
+			slot4:emit(BaseUI.ON_ACHIEVE, slot3.awards, function ()
+				uv0.viewComponent.mapBuilder:OnSubmitTaskDone()
 			end)
 		elseif slot2 == BagProxy.ITEM_UPDATED then
 			slot0.viewComponent:setSpecialOperationTickets(getProxy(BagProxy):getItemsByType(Item.SPECIAL_OPERATION_TICKET))

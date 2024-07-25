@@ -5332,7 +5332,61 @@ pg.activity_ins_language = setmetatable({
 		"ins_op_482_1_1",
 		"op_reply_482_1_1",
 		"ins_op_482_1_2",
-		"op_reply_482_1_2"
+		"op_reply_482_1_2",
+		"ins_483",
+		"ins_discuss_483_1",
+		"ins_reply_483_1_1",
+		"ins_reply_483_1_2",
+		"ins_reply_483_1_3",
+		"ins_reply_483_1_4",
+		"ins_discuss_483_2",
+		"ins_reply_483_2_1",
+		"ins_reply_483_2_2",
+		"ins_discuss_483_3",
+		"ins_reply_483_3_1",
+		"ins_reply_483_3_2",
+		"ins_reply_483_3_3",
+		"ins_reply_483_3_4",
+		"ins_reply_483_3_5",
+		"ins_op_483_1_1",
+		"op_reply_483_1_1",
+		"ins_op_483_1_2",
+		"op_reply_483_1_2",
+		"ins_484",
+		"ins_discuss_484_1",
+		"ins_reply_484_1_1",
+		"ins_reply_484_1_2",
+		"ins_reply_484_1_3",
+		"ins_discuss_484_2",
+		"ins_reply_484_2_1",
+		"ins_reply_484_2_2",
+		"ins_discuss_484_3",
+		"ins_reply_484_3_1",
+		"ins_reply_484_3_2",
+		"ins_reply_484_3_3",
+		"ins_reply_484_3_4",
+		"ins_op_484_1_1",
+		"op_reply_484_1_1",
+		"ins_op_484_1_2",
+		"op_reply_484_1_2",
+		"ins_485",
+		"ins_discuss_485_1",
+		"ins_reply_485_1_1",
+		"ins_reply_485_1_2",
+		"ins_discuss_485_2",
+		"ins_reply_485_2_1",
+		"ins_reply_485_2_2",
+		"ins_reply_485_2_3",
+		"ins_reply_485_2_4",
+		"ins_discuss_485_3",
+		"ins_reply_485_3_1",
+		"ins_reply_485_3_2",
+		"ins_reply_485_3_3",
+		"ins_reply_485_3_4",
+		"ins_op_485_1_1",
+		"op_reply_485_1_1",
+		"ins_op_485_1_2",
+		"op_reply_485_1_2"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -21166,168 +21220,330 @@ pg.base.activity_ins_language = {
 		value = "I've never heard of such a thing before, though it is an interesting concept."
 	},
 	ins_479 = {
-		value = ""
+		value = "Oh this is awful... The AC is completely on the fritz."
 	},
 	ins_discuss_479_1 = {
-		value = ""
+		value = "Are you that surprised, Miss? Didn't you calculate that the AC would break?"
 	},
 	ins_reply_479_1_1 = {
-		value = ""
+		value = "Well... yes I did see it coming, but experiencing it breaking firsthand is so much worse."
 	},
 	ins_reply_479_1_2 = {
-		value = ""
+		value = "If you knew it would break, why didn't you get it repaired?"
 	},
 	ins_reply_479_1_3 = {
-		value = ""
+		value = "Because calculations can't just be updated on the fly. I'll just have to ask someone to repair it again."
 	},
 	ins_discuss_479_2 = {
-		value = ""
+		value = "Weird! I thought the commander fixed that just a few days ago!"
 	},
 	ins_reply_479_2_1 = {
-		value = ""
+		value = "Some other component must have broken down. I suppose I'll ask the Commander for a hand again."
 	},
 	ins_reply_479_2_2 = {
-		value = ""
+		value = "Oh okay. But wait do air conditioners really break THAT quick???"
 	},
 	ins_discuss_479_3 = {
-		value = ""
+		value = "If it doesn't get fixed soon, the sun will turn me well done..."
 	},
 	ins_reply_479_3_1 = {
-		value = ""
+		value = "Mmm, well done... Now I'm hungry for some meat. Let's throw a barbecue party in the classroom!"
 	},
 	ins_reply_479_3_2 = {
-		value = ""
+		value = "Indoors? Then we'll have to take ventilation into account."
 	},
 	ins_reply_479_3_3 = {
-		value = ""
+		value = "Don't worry miss! I'm sure it'll be fine!"
 	},
 	ins_op_479_1_1 = {
-		value = ""
+		value = "It broke AGAIN?!"
 	},
 	op_reply_479_1_1 = {
-		value = ""
+		value = "Yes and my prediction came true. The question is, what do we do now?"
 	},
 	ins_op_479_1_2 = {
-		value = ""
+		value = "I'll bring a toolbox and be right there!"
 	},
 	op_reply_479_1_2 = {
-		value = ""
+		value = "No need to, I've got all the tools right here."
 	},
 	ins_480 = {
-		value = ""
+		value = "OMG WHERES MY PHONE???"
 	},
 	ins_discuss_480_1 = {
-		value = ""
+		value = "I feel you. It's like a part of me is missing when I don't have my phone. Wait... how are you online now?"
 	},
 	ins_reply_480_1_1 = {
-		value = ""
+		value = "it was in my pocket like a second ago how could it disappear like that..."
 	},
 	ins_reply_480_1_2 = {
-		value = ""
+		value = "Relax! I'm sure it's somewhere nearby."
 	},
 	ins_discuss_480_2 = {
-		value = ""
+		value = "I have to ask: how are you posting on Juustagram if you've lost your phone?"
 	},
 	ins_reply_480_2_1 = {
-		value = ""
+		value = "OH... right, lol im so goddamn stupid"
 	},
 	ins_reply_480_2_2 = {
-		value = ""
+		value = "This gives me an invention idea! A device that lets you browse Juustagram without a phone!"
 	},
 	ins_discuss_480_3 = {
-		value = ""
+		value = "Girl did you seriously not realize it while you were TYPING ON YOUR PHONE???"
 	},
 	ins_reply_480_3_1 = {
-		value = ""
+		value = "i wish i was joking but no"
 	},
 	ins_reply_480_3_2 = {
-		value = ""
+		value = "So both you and Liverpool couldn't figure out your phone was literally in your hands..."
 	},
 	ins_reply_480_3_3 = {
-		value = ""
+		value = "It's a normal thing okay? It's like looking for your glasses when you're already wearing them!"
 	},
 	ins_op_480_1_1 = {
-		value = ""
+		value = "Careful there. Don't wanna hit your head on the bedframe."
 	},
 	op_reply_480_1_1 = {
-		value = ""
+		value = "ty mandy ill keep that in mind"
 	},
 	ins_op_480_1_2 = {
-		value = ""
+		value = "You really didn't stop and think about it for a sec?"
 	},
 	op_reply_480_1_2 = {
-		value = ""
+		value = "lghgfoigf im so cringe....."
 	},
 	ins_481 = {
-		value = ""
+		value = "Just got done setting up a Thing to ensure the Commander's safety!"
 	},
 	ins_discuss_481_1 = {
-		value = ""
+		value = "Damn it... I was going to do that..."
 	},
 	ins_reply_481_1_1 = {
-		value = ""
+		value = "Seems a little insect has crawled her way in. I think it's time for some pest control."
 	},
 	ins_reply_481_1_2 = {
-		value = ""
+		value = "This is a necessary step to protect the Commander. That means it's 100% legal and you can't do anything about it!"
 	},
 	ins_discuss_481_2 = {
-		value = ""
+		value = "Stop playing with the office keycard. Be careful with it or you'll drop it."
 	},
 	ins_reply_481_2_1 = {
-		value = ""
+		value = "Relaaax, that's not gonna happen. I'm the Commander's personal bodyguard"
 	},
 	ins_reply_481_2_2 = {
-		value = ""
+		value = "For your sake, I sure hope so."
 	},
 	ins_op_481_1_1 = {
-		value = ""
+		value = "Is this system really as airtight as you claim?"
 	},
 	op_reply_481_1_1 = {
-		value = ""
+		value = "Don't worry, it follows every rule in the book!"
 	},
 	ins_op_481_1_2 = {
-		value = ""
+		value = "Is that a spare keycard? Thanks!"
 	},
 	op_reply_481_1_2 = {
-		value = ""
+		value = "You're welcome! Anything for you."
 	},
 	ins_482 = {
-		value = ""
+		value = "Behold as I, the rebel against evil, display my powers!"
 	},
 	ins_discuss_482_1 = {
-		value = ""
+		value = "How brave of you to show yourself, rebel! Now you must decide: will you face me, or will you flee?"
 	},
 	ins_reply_482_1_1 = {
-		value = ""
+		value = "There you are, despicable demon idol! I have no reason to flee or hide from the likes of you!"
 	},
 	ins_reply_482_1_2 = {
-		value = ""
+		value = "Well well, a new demon enters the stage. Kneel before me if you know what's good for you!"
 	},
 	ins_reply_482_1_3 = {
-		value = ""
+		value = "Never, foul hellspawn! The rebel does not bend the knee to your kin!"
 	},
 	ins_reply_482_1_4 = {
-		value = ""
+		value = "Then have at you! Three forbidden seals, I remove thee! Unleash the bewitching eyes!"
 	},
 	ins_discuss_482_2 = {
-		value = ""
+		value = "Tell me about Dark Requiem! Is it some kind of league of bad guys?"
 	},
 	ins_reply_482_2_1 = {
-		value = ""
+		value = "Indeed! They are a cunning organization dedicated to luring people to the path of darkness!"
 	},
 	ins_reply_482_2_2 = {
-		value = ""
+		value = "Then a hero's gotta liberate the world from their clutches of evil! A hero... like me! "
 	},
 	ins_op_482_1_1 = {
-		value = ""
+		value = "The outcome of this great battle is all but determined!"
 	},
 	op_reply_482_1_1 = {
-		value = ""
+		value = "Right you are. The Dark Requiem WILL fall!"
 	},
 	ins_op_482_1_2 = {
-		value = ""
+		value = "That's some pretty cool lighting."
 	},
 	op_reply_482_1_2 = {
+		value = "But of course. I labored and toiled hard in the construction of this secret base. Come and pay a visit, Commander!"
+	},
+	ins_483 = {
+		value = ""
+	},
+	ins_discuss_483_1 = {
+		value = ""
+	},
+	ins_reply_483_1_1 = {
+		value = ""
+	},
+	ins_reply_483_1_2 = {
+		value = ""
+	},
+	ins_reply_483_1_3 = {
+		value = ""
+	},
+	ins_reply_483_1_4 = {
+		value = ""
+	},
+	ins_discuss_483_2 = {
+		value = ""
+	},
+	ins_reply_483_2_1 = {
+		value = ""
+	},
+	ins_reply_483_2_2 = {
+		value = ""
+	},
+	ins_discuss_483_3 = {
+		value = ""
+	},
+	ins_reply_483_3_1 = {
+		value = ""
+	},
+	ins_reply_483_3_2 = {
+		value = ""
+	},
+	ins_reply_483_3_3 = {
+		value = ""
+	},
+	ins_reply_483_3_4 = {
+		value = ""
+	},
+	ins_reply_483_3_5 = {
+		value = ""
+	},
+	ins_op_483_1_1 = {
+		value = ""
+	},
+	op_reply_483_1_1 = {
+		value = ""
+	},
+	ins_op_483_1_2 = {
+		value = ""
+	},
+	op_reply_483_1_2 = {
+		value = ""
+	},
+	ins_484 = {
+		value = ""
+	},
+	ins_discuss_484_1 = {
+		value = ""
+	},
+	ins_reply_484_1_1 = {
+		value = ""
+	},
+	ins_reply_484_1_2 = {
+		value = ""
+	},
+	ins_reply_484_1_3 = {
+		value = ""
+	},
+	ins_discuss_484_2 = {
+		value = ""
+	},
+	ins_reply_484_2_1 = {
+		value = ""
+	},
+	ins_reply_484_2_2 = {
+		value = ""
+	},
+	ins_discuss_484_3 = {
+		value = ""
+	},
+	ins_reply_484_3_1 = {
+		value = ""
+	},
+	ins_reply_484_3_2 = {
+		value = ""
+	},
+	ins_reply_484_3_3 = {
+		value = ""
+	},
+	ins_reply_484_3_4 = {
+		value = ""
+	},
+	ins_op_484_1_1 = {
+		value = ""
+	},
+	op_reply_484_1_1 = {
+		value = ""
+	},
+	ins_op_484_1_2 = {
+		value = ""
+	},
+	op_reply_484_1_2 = {
+		value = ""
+	},
+	ins_485 = {
+		value = ""
+	},
+	ins_discuss_485_1 = {
+		value = ""
+	},
+	ins_reply_485_1_1 = {
+		value = ""
+	},
+	ins_reply_485_1_2 = {
+		value = ""
+	},
+	ins_discuss_485_2 = {
+		value = ""
+	},
+	ins_reply_485_2_1 = {
+		value = ""
+	},
+	ins_reply_485_2_2 = {
+		value = ""
+	},
+	ins_reply_485_2_3 = {
+		value = ""
+	},
+	ins_reply_485_2_4 = {
+		value = ""
+	},
+	ins_discuss_485_3 = {
+		value = ""
+	},
+	ins_reply_485_3_1 = {
+		value = ""
+	},
+	ins_reply_485_3_2 = {
+		value = ""
+	},
+	ins_reply_485_3_3 = {
+		value = ""
+	},
+	ins_reply_485_3_4 = {
+		value = ""
+	},
+	ins_op_485_1_1 = {
+		value = ""
+	},
+	op_reply_485_1_1 = {
+		value = ""
+	},
+	ins_op_485_1_2 = {
+		value = ""
+	},
+	op_reply_485_1_2 = {
 		value = ""
 	}
 }

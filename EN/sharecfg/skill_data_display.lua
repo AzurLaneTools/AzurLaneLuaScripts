@@ -1689,6 +1689,19 @@ pg.skill_data_display = setmetatable({
 		150191,
 		150201,
 		150202,
+		150210,
+		150211,
+		150212,
+		150220,
+		150221,
+		150230,
+		150231,
+		150232,
+		150240,
+		150243,
+		150246,
+		150248,
+		150251,
 		18010,
 		18040,
 		18041,
@@ -2312,6 +2325,8 @@ pg.skill_data_display = setmetatable({
 		30272,
 		30291,
 		30292,
+		30321,
+		30322,
 		39000,
 		39001,
 		39002,
@@ -2887,6 +2902,8 @@ pg.skill_data_display = setmetatable({
 		801261,
 		801262,
 		801294,
+		801321,
+		801333,
 		902201,
 		1010140,
 		1010143,
@@ -3038,6 +3055,7 @@ pg.skill_data_display = setmetatable({
 		200933,
 		200958,
 		200964,
+		200977,
 		1011540,
 		1011541,
 		1090010,
@@ -9896,6 +9914,58 @@ pg.base.skill_data_display = {
 		id = 150202,
 		name = "Danger From Below!"
 	},
+	[150210] = {
+		id = 150210,
+		name = "Office Clerk's Fury"
+	},
+	[150211] = {
+		id = 150211,
+		name = "Office Clerk's Fury"
+	},
+	[150212] = {
+		id = 150212,
+		name = "Office Clerk's Fury"
+	},
+	[150220] = {
+		id = 150220,
+		name = "Keenly Rational"
+	},
+	[150221] = {
+		id = 150221,
+		name = "Keenly Rational"
+	},
+	[150230] = {
+		id = 150230,
+		name = "Eight Virtues Charge"
+	},
+	[150231] = {
+		id = 150231,
+		name = "Eight Virtues Charge"
+	},
+	[150232] = {
+		id = 150232,
+		name = "Eight Virtues Charge"
+	},
+	[150240] = {
+		id = 150240,
+		name = "The Chevalier is Here"
+	},
+	[150243] = {
+		id = 150243,
+		name = "The Chevalier is Here"
+	},
+	[150246] = {
+		id = 150246,
+		name = "The Chevalier is Here"
+	},
+	[150248] = {
+		id = 150248,
+		name = "The Chevalier is Here"
+	},
+	[150251] = {
+		id = 150251,
+		name = "Variations on Judgment"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -12388,6 +12458,14 @@ pg.base.skill_data_display = {
 		id = 30292,
 		name = "All Out Assault II"
 	},
+	[30321] = {
+		id = 30321,
+		name = "All Out Assault I"
+	},
+	[30322] = {
+		id = 30322,
+		name = "All Out Assault II"
+	},
 	[39000] = {
 		id = 39000,
 		name = "Optimize I"
@@ -14688,6 +14766,14 @@ pg.base.skill_data_display = {
 		id = 801294,
 		name = "Council-Style MK XIII Orbital Cannon"
 	},
+	[801321] = {
+		id = 801321,
+		name = "Secluded Spiritflame"
+	},
+	[801333] = {
+		id = 801333,
+		name = "Kasumi's Protection"
+	},
 	[902201] = {
 		id = 902201,
 		name = "Fantastic Loop"
@@ -15291,6 +15377,10 @@ pg.base.skill_data_display = {
 	[200964] = {
 		id = 200964,
 		name = "Metal Gauntlet Mash!"
+	},
+	[200977] = {
+		id = 200977,
+		name = "Eagle Union Elite Damage Control"
 	},
 	[1011540] = {
 		id = 1011540,

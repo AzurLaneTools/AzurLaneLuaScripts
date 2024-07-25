@@ -46,6 +46,9 @@ slot0.didEnter = function(slot0)
 
 	slot0:showBase()
 	slot0:showInfo(false)
+	setText(slot0:findTF("panel/top/title_list/infomation/title"), i18n("words_information"))
+	setText(slot0.buttonList:Find("ok_button/Image"), i18n("text_confirm"))
+	setText(slot0.buttonList:Find("level_button/Image"), i18n("msgbox_text_upgrade"))
 end
 
 slot0.flushTypeBtn = function(slot0)

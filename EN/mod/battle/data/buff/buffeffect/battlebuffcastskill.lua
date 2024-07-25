@@ -137,7 +137,7 @@ slot1.castSkill = function(slot0, slot1, slot2, slot3)
 		return "check attach data"
 	end
 
-	if not slot0:fleetAttrRequire(slot1) then
+	if slot0._fleetAttrRequire and slot2 and not slot0:fleetAttrRequire(slot1, slot2.attr) then
 		return "check fleet attr"
 	end
 

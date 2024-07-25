@@ -6,7 +6,10 @@ slot0.execute = function(slot0, slot1)
 
 	originalPrint("loading player data: " .. slot2.id)
 
-	pg.proxyRegister = ProxyRegister.New({
+	pg.proxyRegister = ProxyRegister.New()
+	slot5 = pg.proxyRegister
+
+	slot5:RgisterProxy(slot0.facade, {
 		{
 			PlayerProxy,
 			true
@@ -235,9 +238,6 @@ slot0.execute = function(slot0, slot1)
 			true
 		}
 	})
-	slot5 = pg.proxyRegister
-
-	slot5:RgisterProxy(slot0.facade)
 
 	slot5 = pg.ConnectionMgr.GetInstance()
 
@@ -250,6 +250,7 @@ slot0.execute = function(slot0, slot1)
 	}, 11002, function (slot0)
 		originalPrint("player loaded: " .. slot0.timestamp)
 		pg.TimeMgr.GetInstance():SetServerTime(slot0.timestamp, slot0.monday_0oclock_timestamp)
+		pg.proxyRegister:Start()
 
 		slot2 = getProxy(PlayerProxy):getRawData()
 		slot3, slot4 = getProxy(ActivityProxy):isSurveyOpen()

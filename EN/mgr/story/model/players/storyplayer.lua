@@ -822,7 +822,7 @@ slot0.ClearMoveNodes = function(slot0, slot1)
 		if slot6:GetComponent(typeof(SpineAnimUI)) ~= nil then
 			PoolMgr.GetInstance():ReturnSpineChar(slot6.name, slot6.gameObject)
 		else
-			Destroy(slot6.gameObject)
+			Destroy(slot0.movePanel:GetChild(slot5 - 1))
 		end
 	end
 

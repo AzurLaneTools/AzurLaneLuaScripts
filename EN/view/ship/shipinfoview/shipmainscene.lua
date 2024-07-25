@@ -1040,7 +1040,7 @@ slot0.loadPainting = function(slot0, slot1, slot2)
 			uv0.nowPainting = uv1
 
 			LoadPaintingPrefabAsync(uv1, uv2, uv0.paintingCode, uv0.paintingFrameName or "chuanwu", function ()
-				ShipExpressionHelper.SetExpression(findTF(uv0, "fitter"):GetChild(0), uv1.paintingCode)
+				ShipExpressionHelper.SetExpression(findTF(uv1, "fitter"):GetChild(0), uv0.paintingCode, uv0:getInitmacyWords(), uv0.shipVO:getCVIntimacy())
 				uv2()
 			end)
 		end)

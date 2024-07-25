@@ -76,9 +76,9 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "login",
+		default_bgm = "story-richang-light",
 		special_bgm = "",
-		bgm = "login"
+		bgm = "story-richang-light"
 	},
 	NewMainScene = {
 		default_bgm = "main",
@@ -136,9 +136,9 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "theme-camelot",
+		default_bgm = "theme-clemenceau",
 		special_bgm = "",
-		bgm = "theme-camelot"
+		bgm = "theme-clemenceau"
 	},
 	SkinShopScene = {
 		default_bgm = "main",
@@ -1499,5 +1499,30 @@ pg.voice_bgm = {
 		default_bgm = "theme-partydress",
 		special_bgm = "",
 		bgm = "theme-partydress"
+	},
+	HuanMengMainPtHybridPage = {
+		default_bgm = "theme-clemenceau",
+		special_bgm = "",
+		bgm = "theme-clemenceau"
+	},
+	SkinMagazinePageSummerRacing = {
+		default_bgm = "story-richang-light",
+		special_bgm = "",
+		bgm = "story-richang-light"
+	},
+	MonopolyCar2024Page = {
+		default_bgm = "votefes-start",
+		special_bgm = "",
+		bgm = "votefes-start"
+	},
+	MonopolyCar2024Scene = {
+		default_bgm = "votefes-up",
+		special_bgm = "",
+		bgm = "votefes-up"
+	},
+	JamaicaSkinRePage = {
+		default_bgm = "level",
+		special_bgm = "",
+		bgm = "level"
 	}
 }

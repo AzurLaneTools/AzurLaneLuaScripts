@@ -1712,6 +1712,9 @@ pg.ship_data_group = setmetatable({
 		[90112] = {
 			481
 		},
+		[90114] = {
+			653
+		},
 		[90201] = {
 			456
 		},
@@ -1724,8 +1727,14 @@ pg.ship_data_group = setmetatable({
 		[90302] = {
 			455
 		},
+		[90303] = {
+			654
+		},
 		[90401] = {
 			352
+		},
+		[90402] = {
+			652
 		},
 		[90501] = {
 			353
@@ -2143,6 +2152,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[970304] = {
 			30035
+		},
+		[970106] = {
+			30036
 		}
 	},
 	get_id_list_by_handbook_type = {
@@ -2717,11 +2729,14 @@ pg.ship_data_group = setmetatable({
 			394,
 			556,
 			481,
+			653,
 			456,
 			598,
 			524,
 			455,
+			654,
 			352,
+			652,
 			353,
 			604,
 			418,
@@ -2866,7 +2881,8 @@ pg.ship_data_group = setmetatable({
 			30032,
 			30033,
 			30034,
-			30035
+			30035,
+			30036
 		}
 	},
 	all = {
@@ -3440,11 +3456,14 @@ pg.ship_data_group = setmetatable({
 		394,
 		556,
 		481,
+		653,
 		456,
 		598,
 		524,
 		455,
+		654,
 		352,
+		652,
 		353,
 		604,
 		418,
@@ -3583,7 +3602,8 @@ pg.ship_data_group = setmetatable({
 		30032,
 		30033,
 		30034,
-		30035
+		30035,
+		30036
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -28495,6 +28515,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[653] = {
+		nationality = 9,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 90114,
+		index_id = 573,
+		code = 653,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Interlude of Illusions",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[456] = {
 		nationality = 9,
 		type = 2,
@@ -28504,7 +28556,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90201,
-		index_id = 573,
+		index_id = 574,
 		code = 456,
 		share_group_id = {},
 		property_hexagon = {
@@ -28546,7 +28598,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90202,
-		index_id = 574,
+		index_id = 575,
 		code = 598,
 		share_group_id = {},
 		property_hexagon = {
@@ -28578,7 +28630,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90301,
-		index_id = 575,
+		index_id = 576,
 		code = 524,
 		share_group_id = {},
 		property_hexagon = {
@@ -28621,7 +28673,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90302,
-		index_id = 576,
+		index_id = 577,
 		code = 455,
 		share_group_id = {},
 		property_hexagon = {
@@ -28655,6 +28707,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[654] = {
+		nationality = 9,
+		type = 3,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 90303,
+		index_id = 578,
+		code = 654,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"C",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Interlude of Illusions",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[352] = {
 		nationality = 9,
 		type = 4,
@@ -28664,7 +28748,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90401,
-		index_id = 577,
+		index_id = 579,
 		code = 352,
 		share_group_id = {},
 		property_hexagon = {
@@ -28698,6 +28782,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[652] = {
+		nationality = 9,
+		type = 4,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 90402,
+		index_id = 580,
+		code = 652,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"D",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Interlude of Illusions",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[353] = {
 		nationality = 9,
 		type = 5,
@@ -28707,7 +28823,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90501,
-		index_id = 578,
+		index_id = 581,
 		code = 353,
 		share_group_id = {},
 		property_hexagon = {
@@ -28759,7 +28875,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90502,
-		index_id = 579,
+		index_id = 582,
 		code = 604,
 		share_group_id = {},
 		property_hexagon = {
@@ -28791,7 +28907,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90503,
-		index_id = 580,
+		index_id = 583,
 		code = 418,
 		share_group_id = {
 			99901
@@ -28836,7 +28952,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 90701,
-		index_id = 581,
+		index_id = 584,
 		code = 555,
 		share_group_id = {},
 		property_hexagon = {
@@ -28879,7 +28995,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 960001,
-		index_id = 582,
+		index_id = 585,
 		code = 571,
 		share_group_id = {},
 		property_hexagon = {
@@ -28921,7 +29037,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 960002,
-		index_id = 583,
+		index_id = 586,
 		code = 613,
 		share_group_id = {},
 		property_hexagon = {
@@ -28953,7 +29069,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 960003,
-		index_id = 584,
+		index_id = 587,
 		code = 610,
 		share_group_id = {},
 		property_hexagon = {
@@ -28985,7 +29101,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 960004,
-		index_id = 585,
+		index_id = 588,
 		code = 611,
 		share_group_id = {},
 		property_hexagon = {
@@ -29017,7 +29133,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 960005,
-		index_id = 586,
+		index_id = 589,
 		code = 614,
 		share_group_id = {},
 		property_hexagon = {
@@ -29049,7 +29165,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 960006,
-		index_id = 587,
+		index_id = 590,
 		code = 612,
 		share_group_id = {},
 		property_hexagon = {
@@ -33405,6 +33521,41 @@ pg.base.ship_data_group = {
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9703041
+					}
+				},
+				0
+			}
+		}
+	},
+	[30036] = {
+		nationality = 97,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970106,
+		index_id = 30036,
+		code = 30036,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"S",
+			"E",
+			"A",
+			"D",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Cruise Missions",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9701061
 					}
 				},
 				0

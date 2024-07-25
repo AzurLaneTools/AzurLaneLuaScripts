@@ -338,7 +338,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "PT",
-		key_value = 422
+		key_value = 426
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1923,7 +1923,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 424
+		key_value = 425
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -3683,5 +3683,9 @@ pg.gameset = {
 				2024
 			}
 		}
+	},
+	monopoly2024_bubble_time = {
+		description = "",
+		key_value = 5
 	}
 }

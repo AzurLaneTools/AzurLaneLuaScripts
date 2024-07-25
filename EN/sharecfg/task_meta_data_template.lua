@@ -242,6 +242,11 @@ pg.task_meta_data_template = setmetatable({
 		100303,
 		100304,
 		100305,
+		100311,
+		100312,
+		100313,
+		100314,
+		100315,
 		200001,
 		200002,
 		200003,
@@ -325,7 +330,11 @@ pg.task_meta_data_template = setmetatable({
 		200211,
 		200212,
 		200213,
-		200214
+		200214,
+		200221,
+		200222,
+		200223,
+		200224
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2250,6 +2259,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "Defeat a Lv. 100+ fleet with Wichita META in your fleet."
 	},
+	[100311] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970106",
+		id = 100311,
+		target_num = 1,
+		desc = "Win 1 battle with Kasumi META in your fleet."
+	},
+	[100312] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970106",
+		id = 100312,
+		target_num = 1,
+		desc = "Defeat a Lv. 30+ fleet with Kasumi META in your fleet."
+	},
+	[100313] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970106",
+		id = 100313,
+		target_num = 1,
+		desc = "Defeat a Lv. 55+ fleet with Kasumi META in your fleet."
+	},
+	[100314] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970106",
+		id = 100314,
+		target_num = 1,
+		desc = "Defeat a Lv. 80+ fleet with Kasumi META in your fleet."
+	},
+	[100315] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970106",
+		id = 100315,
+		target_num = 1,
+		desc = "Defeat a Lv. 100+ fleet with Kasumi META in your fleet."
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -2921,5 +2970,37 @@ pg.base.task_meta_data_template = {
 		id = 200214,
 		target_num = 1,
 		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Wichita META in your fleet."
+	},
+	[200221] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970106",
+		id = 200221,
+		target_num = 1,
+		desc = "Win 1 Operation Siren battle with Kasumi META in your fleet."
+	},
+	[200222] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970106",
+		id = 200222,
+		target_num = 1,
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Kasumi META in your fleet."
+	},
+	[200223] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970106",
+		id = 200223,
+		target_num = 1,
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Kasumi META in your fleet."
+	},
+	[200224] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970106",
+		id = 200224,
+		target_num = 1,
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Kasumi META in your fleet."
 	}
 }

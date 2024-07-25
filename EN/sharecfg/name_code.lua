@@ -1589,6 +1589,13 @@ pg.name_code = {
 		code = "Kongou μ",
 		nation = 0
 	},
+	[229] = {
+		name = "Kasumi META",
+		type = 1,
+		id = 229,
+		code = "Kasumi META",
+		nation = 0
+	},
 	[250] = {
 		name = "I-9",
 		type = 1,

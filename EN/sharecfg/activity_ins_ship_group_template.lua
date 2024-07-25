@@ -333,7 +333,7 @@ pg.activity_ins_ship_group_template = {
 	[50102] = {
 		ship_group = 50102,
 		name = "Fushun2",
-		sculpture = "fushun_2"
+		sculpture = "fushun"
 	},
 	[50202] = {
 		ship_group = 50202,
@@ -2495,6 +2495,31 @@ pg.activity_ins_ship_group_template = {
 		name = "Cleveland☆Knight@little",
 		sculpture = "kelifulan_younv"
 	},
+	[90402] = {
+		ship_group = 90402,
+		name = "Strasbourg",
+		sculpture = "sitelasibao"
+	},
+	[40314] = {
+		ship_group = 40314,
+		name = "Friedrich Carl",
+		sculpture = "feiteliekaer"
+	},
+	[90202] = {
+		ship_group = 90202,
+		name = "Marseillaise",
+		sculpture = "masaiqu"
+	},
+	[90303] = {
+		ship_group = 90303,
+		name = "Dupleix",
+		sculpture = "dipulaikesi"
+	},
+	[90114] = {
+		ship_group = 90114,
+		name = "L'Audacieux",
+		sculpture = "guogan"
+	},
 	all = {
 		30701,
 		30702,
@@ -2994,6 +3019,11 @@ pg.activity_ins_ship_group_template = {
 		10219,
 		10221,
 		40702,
-		10220
+		10220,
+		90402,
+		40314,
+		90202,
+		90303,
+		90114
 	}
 }

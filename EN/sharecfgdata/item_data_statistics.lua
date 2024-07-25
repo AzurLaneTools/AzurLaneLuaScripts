@@ -14806,6 +14806,37 @@ _G.pg.base.item_data_statistics[21035] = {
 }
 
 
+_G.pg.base.item_data_statistics[21036] = {
+	open_directly = 0,
+	name = "META Crystal – Kasumi META",
+	type = 4,
+	display = "An item that increases the potential of Kasumi META. Used in the META Lab during Somatic Activation.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21036",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21036,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "Crystallized Heat-Resistant Steel",
@@ -25409,6 +25440,58 @@ _G.pg.base.item_data_statistics[30421] = {
 }
 
 
+_G.pg.base.item_data_statistics[30422] = {
+	open_directly = 1,
+	name = "Random Gear Skin Box",
+	type = 11,
+	display = "Contains 1 random Cruise Mission gear skin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30422",
+	id = 30422,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2075,
+			1
+		},
+		{
+			9,
+			2076,
+			1
+		},
+		{
+			9,
+			2077,
+			1
+		},
+		{
+			9,
+			2078,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[30501] = {
 	open_directly = 0,
 	name = "Gear Skin Development Pack (Late Summer)",
@@ -34269,6 +34352,219 @@ _G.pg.base.item_data_statistics[30542] = {
 		{
 			9,
 			4018,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_data_statistics[30543] = {
+	open_directly = 0,
+	name = "Selection Gear Skin Box (LNY 2022)",
+	type = 13,
+	display = "Can be used to receive one LNY 2022 gear skin of your choosing.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxchunjiezixuan22",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30543,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			520,
+			1
+		},
+		{
+			9,
+			521,
+			1
+		},
+		{
+			9,
+			522,
+			1
+		},
+		{
+			9,
+			523,
+			1
+		},
+		{
+			9,
+			524,
+			1
+		},
+		{
+			9,
+			525,
+			1
+		},
+		{
+			9,
+			526,
+			1
+		},
+		{
+			9,
+			527,
+			1
+		},
+		{
+			9,
+			528,
+			1
+		},
+		{
+			9,
+			529,
+			1
+		},
+		{
+			9,
+			530,
+			1
+		},
+		{
+			9,
+			531,
+			1
+		},
+		{
+			9,
+			532,
+			1
+		},
+		{
+			9,
+			533,
+			1
+		},
+		{
+			9,
+			534,
+			1
+		},
+		{
+			9,
+			535,
+			1
+		},
+		{
+			9,
+			536,
+			1
+		},
+		{
+			9,
+			537,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			520,
+			1
+		},
+		{
+			9,
+			521,
+			1
+		},
+		{
+			9,
+			522,
+			1
+		},
+		{
+			9,
+			523,
+			1
+		},
+		{
+			9,
+			524,
+			1
+		},
+		{
+			9,
+			525,
+			1
+		},
+		{
+			9,
+			526,
+			1
+		},
+		{
+			9,
+			527,
+			1
+		},
+		{
+			9,
+			528,
+			1
+		},
+		{
+			9,
+			529,
+			1
+		},
+		{
+			9,
+			530,
+			1
+		},
+		{
+			9,
+			531,
+			1
+		},
+		{
+			9,
+			532,
+			1
+		},
+		{
+			9,
+			533,
+			1
+		},
+		{
+			9,
+			534,
+			1
+		},
+		{
+			9,
+			535,
+			1
+		},
+		{
+			9,
+			536,
+			1
+		},
+		{
+			9,
+			537,
 			1
 		}
 	}
@@ -93226,6 +93522,73 @@ _G.pg.base.item_data_statistics[81403] = {
 		{
 			2,
 			42056,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[81404] = {
+	open_directly = 1,
+	name = "High Speed Lucky Bag",
+	type = 17,
+	display = "Contains 1x random skin, 2x Special General Blueprints - Series 7, 2024x Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai88",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998505",
+	id = 81404,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86404,
+			1
+		},
+		{
+			1,
+			14,
+			2024
+		},
+		{
+			2,
+			42066,
 			2
 		},
 		{
