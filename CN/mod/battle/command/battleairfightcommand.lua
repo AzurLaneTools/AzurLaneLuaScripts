@@ -33,6 +33,7 @@ slot3.DoPrologue = function(slot0)
 		end, SYSTEM_AIRFIGHT)
 		uv0._dataProxy:InitAllFleetUnitsWeaponCD()
 	end)
+	slot0._dataProxy:AutoStatistics(0)
 
 	slot2 = slot0._state:GetSceneMediator()
 

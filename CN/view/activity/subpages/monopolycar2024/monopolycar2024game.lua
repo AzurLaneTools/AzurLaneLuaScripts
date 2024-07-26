@@ -605,6 +605,12 @@ slot0.CheckMove = function(slot0, slot1)
 			slot1 = uv0
 
 			slot1:emit(MonopolyCar2024Mediator.ON_MOVE, uv0.actId, function (slot0, slot1, slot2)
+				if not slot0 or not slot1 or not slot2 then
+					warning(slot0, slot1, slot2)
+
+					return
+				end
+
 				uv0 = slot1
 
 				uv1()

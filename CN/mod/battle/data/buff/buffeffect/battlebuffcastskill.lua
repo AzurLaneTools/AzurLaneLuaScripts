@@ -141,6 +141,16 @@ slot1.castSkill = function(slot0, slot1, slot2, slot3)
 		return "check fleet attr"
 	end
 
+	if slot0._fleetAttrRequire then
+		if slot2 then
+			if not slot0:fleetAttrRequire(slot1, slot2.attr) then
+				return
+			end
+		elseif not slot0:fleetAttrRequire(slot1) then
+			return "check fleet attr"
+		end
+	end
+
 	if slot0._fleetAttrDeltaRequire and slot2 and not slot0:fleetAttrDelatRequire(slot2.delta) then
 		return "check fleet attr delta"
 	end

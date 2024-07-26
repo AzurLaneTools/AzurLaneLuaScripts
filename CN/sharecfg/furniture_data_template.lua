@@ -21782,7 +21782,7 @@ pg.base.furniture_data_template = {
 	},
 	[283] = {
 		can_rotate = 0,
-		describe = "由审判庭制作的圣米歇尔山圣坛微缩模型，细致还原了山上的一草一木。",
+		describe = "由审判庭制作的圣米歇尔山圣堂微缩模型，细致还原了山上的一草一木。",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -21801,7 +21801,7 @@ pg.base.furniture_data_template = {
 		belong = 1,
 		canputon = 0,
 		count = 1,
-		name = "圣米歇尔山圣坛微缩模型",
+		name = "圣米歇尔山圣堂微缩模型",
 		advice = 0,
 		icon = "shengmixieershanicon",
 		id = 283,
