@@ -25767,7 +25767,7 @@ Any purchased Cruise Mission Vouchers will remain even after the campaign season
 
 
 _G.pg.base.gametip.battlepass_main_tip_2408 = {
-	tip = "Complete Cruise Missions between 8/1/2024 00:00 – 9/30/2024 23:59 to receive <color=#854747>La Kasumi META</color> and other rewards!"
+	tip = "Complete Cruise Missions between 8/1/2024 00:00 – 9/30/2024 23:59 to receive <color=#854747>Kasumi META</color> and other rewards!"
 }
 
 
