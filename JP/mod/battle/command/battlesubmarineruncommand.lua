@@ -35,6 +35,8 @@ slot4.DoPrologue = function(slot0)
 		uv0._dataProxy:TirggerBattleStartBuffs()
 	end
 
+	slot0._dataProxy:AutoStatistics(0)
+
 	for slot6, slot7 in ipairs(slot0._userFleet:GetUnitList()) do
 		slot7:RemoveBuff(8520)
 	end

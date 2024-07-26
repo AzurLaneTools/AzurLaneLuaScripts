@@ -4713,7 +4713,7 @@ pg.base.memory_group = {
 	},
 	[293] = {
 		title = "夢幻の間奏曲",
-		subtype = 2,
+		subtype = 1,
 		link_event = 5501,
 		type = 2,
 		id = 293,

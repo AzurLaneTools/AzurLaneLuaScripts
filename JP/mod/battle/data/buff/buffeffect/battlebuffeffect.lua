@@ -204,8 +204,9 @@ end
 slot3.fleetAttrRequire = function(slot0, slot1, slot2)
 	if slot0._fleetAttrRequire then
 		slot3, slot4 = string.find(slot0._fleetAttrRequire, "%p+")
+		slot5 = string.sub(slot0._fleetAttrRequire, 1, slot3 - 1)
 
-		if string.sub(slot0._fleetAttrRequire, 1, slot3 - 1) ~= slot2 then
+		if slot2 ~= nil and slot5 ~= slot2 then
 			return false
 		elseif slot1:GetFleetVO() then
 			return uv0.parseCompare(slot0._fleetAttrRequire, slot1:GetFleetVO():GetFleetAttr())
