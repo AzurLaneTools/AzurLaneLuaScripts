@@ -1502,13 +1502,8 @@ slot0.GetMapBuilderInBuffer = function(slot0, slot1)
 end
 
 slot0.updateMap = function(slot0, slot1)
-	slot2 = slot0.contextData.map
-
-	slot0:SwitchMapBG(slot2, slot1)
-	slot0:PlayBGM()
-
 	slot4 = nil
-	slot0.map.pivot = (slot2:getConfig("anchor") ~= "" or Vector2.zero) and Vector2(unpack(slot3))
+	slot0.map.pivot = (slot0.contextData.map:getConfig("anchor") ~= "" or Vector2.zero) and Vector2(unpack(slot3))
 	slot5 = slot2:getConfig("uifx")
 
 	for slot9 = 1, slot0.UIFXList.childCount do
@@ -1521,6 +1516,8 @@ slot0.updateMap = function(slot0, slot1)
 	slot0.mapBuilder:UpdateMapVO(slot2)
 	slot0.mapBuilder:UpdateView()
 	slot0.mapBuilder:UpdateMapItems()
+	slot0:SwitchMapBG(slot2, slot1)
+	slot0:PlayBGM()
 end
 
 slot0.UpdateSwitchMapButton = function(slot0)
