@@ -752,6 +752,14 @@ pg.battlepass_event_award = {
 			25
 		}
 	},
+	[30004] = {
+		id = 30004,
+		drop_client = {
+			2,
+			20104,
+			25
+		}
+	},
 	[31005] = {
 		id = 31005,
 		drop_client = {
