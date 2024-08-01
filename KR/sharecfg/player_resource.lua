@@ -1415,6 +1415,21 @@ pg.player_resource = {
 		name = "240627_pt",
 		itemid = 59591
 	},
+	[422] = {
+		id = 422,
+		name = "yingxiv3_pt2",
+		itemid = 59594
+	},
+	[423] = {
+		id = 423,
+		name = "yingxiur_frame_pt2",
+		itemid = 59595
+	},
+	[424] = {
+		id = 424,
+		name = "skinTicket75",
+		itemid = 59596
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1739,6 +1754,11 @@ pg.player_resource = {
 		id = 4017,
 		name = "Battlepass_17",
 		itemid = 59583
+	},
+	[4018] = {
+		id = 4018,
+		name = "Battlepass_18",
+		itemid = 59599
 	},
 	[4186] = {
 		id = 4186,
@@ -2635,6 +2655,15 @@ pg.player_resource = {
 		["240627_pt"] = {
 			421
 		},
+		yingxiv3_pt2 = {
+			422
+		},
+		yingxiur_frame_pt2 = {
+			423
+		},
+		skinTicket75 = {
+			424
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -2829,6 +2858,9 @@ pg.player_resource = {
 		},
 		Battlepass_17 = {
 			4017
+		},
+		Battlepass_18 = {
+			4018
 		},
 		skin_rerun_pt1 = {
 			4186
@@ -3142,6 +3174,9 @@ pg.player_resource = {
 		416,
 		417,
 		421,
+		422,
+		423,
+		424,
 		950,
 		951,
 		952,
@@ -3207,6 +3242,7 @@ pg.player_resource = {
 		4015,
 		4016,
 		4017,
+		4018,
 		4186,
 		4276,
 		4599,

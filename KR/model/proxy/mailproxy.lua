@@ -15,7 +15,8 @@ slot0.DEAL_CMD_LIST = {
 slot0.MailMessageBoxType = {
 	OverflowConfirm = 3,
 	ShowTips = 2,
-	ReceiveAward = 1
+	ReceiveAward = 1,
+	RewardStoreroom = 4
 }
 
 slot0.register = function(slot0)

@@ -1,7 +1,11 @@
 pg = pg or {}
 pg.battlepass_event_pt = {
 	[7001] = {
+		map_name = "2110",
 		type = 1,
+		equip_skin = "",
+		crusing_map = "CrusingMap_0",
+		spine_name = "chess_hude",
 		id = 7001,
 		pt = 59599,
 		target = {
@@ -324,7 +328,11 @@ pg.battlepass_event_pt = {
 		}
 	},
 	[7002] = {
+		map_name = "2112",
 		type = 1,
+		equip_skin = "",
+		crusing_map = "CrusingMap_1",
+		spine_name = "chess_keluoladuo",
 		id = 7002,
 		pt = 59599,
 		target = {
@@ -647,7 +655,11 @@ pg.battlepass_event_pt = {
 		}
 	},
 	[7003] = {
+		map_name = "2202",
 		type = 1,
+		equip_skin = "",
+		crusing_map = "CrusingMap_2",
+		spine_name = "chess_gelunbiya",
 		id = 7003,
 		pt = 59599,
 		target = {
@@ -970,7 +982,11 @@ pg.battlepass_event_pt = {
 		}
 	},
 	[7004] = {
+		map_name = "2204",
 		type = 1,
+		equip_skin = "",
+		crusing_map = "CrusingMap_1",
+		spine_name = "chess_qiye",
 		id = 7004,
 		pt = 59599,
 		target = {
@@ -1293,7 +1309,11 @@ pg.battlepass_event_pt = {
 		}
 	},
 	[7005] = {
+		map_name = "2206",
 		type = 1,
+		equip_skin = "",
+		crusing_map = "CrusingMap_1",
+		spine_name = "chess_xiao",
 		id = 7005,
 		pt = 59599,
 		target = {
@@ -1616,7 +1636,10 @@ pg.battlepass_event_pt = {
 		}
 	},
 	[7006] = {
+		map_name = "2208",
 		type = 1,
+		crusing_map = "CrusingMap_1",
+		spine_name = "chess_beifeng",
 		id = 7006,
 		pt = 59599,
 		target = {
@@ -1936,10 +1959,35 @@ pg.battlepass_event_pt = {
 			80,
 			90,
 			100
+		},
+		equip_skin = {
+			{
+				9,
+				2014,
+				1
+			},
+			{
+				9,
+				2015,
+				1
+			},
+			{
+				9,
+				2017,
+				1
+			},
+			{
+				9,
+				2018,
+				1
+			}
 		}
 	},
 	[7007] = {
+		map_name = "2210",
 		type = 1,
+		crusing_map = "CrusingMap_1",
+		spine_name = "chess_shuixingjinian",
 		id = 7007,
 		pt = 59599,
 		target = {
@@ -2259,10 +2307,35 @@ pg.battlepass_event_pt = {
 			80,
 			90,
 			100
+		},
+		equip_skin = {
+			{
+				9,
+				2019,
+				1
+			},
+			{
+				9,
+				2022,
+				1
+			},
+			{
+				9,
+				2023,
+				1
+			},
+			{
+				9,
+				2024,
+				1
+			}
 		}
 	},
 	[7008] = {
+		map_name = "2212",
 		type = 1,
+		crusing_map = "CrusingMap_1",
+		spine_name = "chess_kelifulan",
 		id = 7008,
 		pt = 59599,
 		target = {
@@ -2582,10 +2655,35 @@ pg.battlepass_event_pt = {
 			80,
 			90,
 			100
+		},
+		equip_skin = {
+			{
+				9,
+				2025,
+				1
+			},
+			{
+				9,
+				2026,
+				1
+			},
+			{
+				9,
+				2027,
+				1
+			},
+			{
+				9,
+				2028,
+				1
+			}
 		}
 	},
 	[7009] = {
+		map_name = "2302",
 		type = 1,
+		crusing_map = "CrusingMap_1",
+		spine_name = "chess_ximu",
 		id = 7009,
 		pt = 59599,
 		target = {
@@ -2905,10 +3003,35 @@ pg.battlepass_event_pt = {
 			80,
 			90,
 			100
+		},
+		equip_skin = {
+			{
+				9,
+				2029,
+				1
+			},
+			{
+				9,
+				2030,
+				1
+			},
+			{
+				9,
+				2031,
+				1
+			},
+			{
+				9,
+				2032,
+				1
+			}
 		}
 	},
 	[7010] = {
+		map_name = "2304",
 		type = 1,
+		crusing_map = "CrusingMap_1",
+		spine_name = "chess_wokelan",
 		id = 7010,
 		pt = 59599,
 		target = {
@@ -3228,10 +3351,35 @@ pg.battlepass_event_pt = {
 			80,
 			90,
 			100
+		},
+		equip_skin = {
+			{
+				9,
+				2035,
+				1
+			},
+			{
+				9,
+				2036,
+				1
+			},
+			{
+				9,
+				2037,
+				1
+			},
+			{
+				9,
+				2038,
+				1
+			}
 		}
 	},
 	[7011] = {
+		map_name = "2306",
 		type = 1,
+		crusing_map = "CrusingMap_2",
+		spine_name = "chess_jiahe",
 		id = 7011,
 		pt = 59599,
 		target = {
@@ -3551,10 +3699,35 @@ pg.battlepass_event_pt = {
 			80,
 			90,
 			100
+		},
+		equip_skin = {
+			{
+				9,
+				2039,
+				1
+			},
+			{
+				9,
+				2040,
+				1
+			},
+			{
+				9,
+				2041,
+				1
+			},
+			{
+				9,
+				2042,
+				1
+			}
 		}
 	},
 	[7012] = {
+		map_name = "2308",
 		type = 1,
+		crusing_map = "CrusingMap_2",
+		spine_name = "chess_fuxu",
 		id = 7012,
 		pt = 59599,
 		target = {
@@ -3874,10 +4047,35 @@ pg.battlepass_event_pt = {
 			80,
 			90,
 			100
+		},
+		equip_skin = {
+			{
+				9,
+				2043,
+				1
+			},
+			{
+				9,
+				2044,
+				1
+			},
+			{
+				9,
+				2045,
+				1
+			},
+			{
+				9,
+				2046,
+				1
+			}
 		}
 	},
 	[7013] = {
+		map_name = "2310",
 		type = 1,
+		crusing_map = "CrusingMap_2",
+		spine_name = "chess_u410",
 		id = 7013,
 		pt = 59599,
 		target = {
@@ -4197,10 +4395,35 @@ pg.battlepass_event_pt = {
 			80,
 			90,
 			100
+		},
+		equip_skin = {
+			{
+				9,
+				2049,
+				1
+			},
+			{
+				9,
+				2050,
+				1
+			},
+			{
+				9,
+				2051,
+				1
+			},
+			{
+				9,
+				2052,
+				1
+			}
 		}
 	},
 	[7014] = {
+		map_name = "2312",
 		type = 1,
+		crusing_map = "CrusingMap_1",
+		spine_name = "chess_chuchun",
 		id = 7014,
 		pt = 59599,
 		target = {
@@ -4520,10 +4743,35 @@ pg.battlepass_event_pt = {
 			80,
 			90,
 			100
+		},
+		equip_skin = {
+			{
+				9,
+				2053,
+				1
+			},
+			{
+				9,
+				2054,
+				1
+			},
+			{
+				9,
+				2055,
+				1
+			},
+			{
+				9,
+				2056,
+				1
+			}
 		}
 	},
 	[7015] = {
+		map_name = "2402",
 		type = 1,
+		crusing_map = "CrusingMap_1",
+		spine_name = "chess_shenxue",
 		id = 7015,
 		pt = 59599,
 		target = {
@@ -4843,10 +5091,35 @@ pg.battlepass_event_pt = {
 			80,
 			90,
 			100
+		},
+		equip_skin = {
+			{
+				9,
+				2061,
+				1
+			},
+			{
+				9,
+				2062,
+				1
+			},
+			{
+				9,
+				2063,
+				1
+			},
+			{
+				9,
+				2064,
+				1
+			}
 		}
 	},
 	[7016] = {
+		map_name = "2404",
 		type = 1,
+		crusing_map = "CrusingMap_1",
+		spine_name = "chess_dian",
 		id = 7016,
 		pt = 59599,
 		target = {
@@ -5166,10 +5439,35 @@ pg.battlepass_event_pt = {
 			80,
 			90,
 			100
+		},
+		equip_skin = {
+			{
+				9,
+				2065,
+				1
+			},
+			{
+				9,
+				2066,
+				1
+			},
+			{
+				9,
+				2067,
+				1
+			},
+			{
+				9,
+				2068,
+				1
+			}
 		}
 	},
 	[7017] = {
+		map_name = "2406",
 		type = 1,
+		crusing_map = "CrusingMap_1",
+		spine_name = "chess_adiliao",
 		id = 7017,
 		pt = 59599,
 		target = {
@@ -5489,10 +5787,384 @@ pg.battlepass_event_pt = {
 			80,
 			90,
 			100
+		},
+		equip_skin = {
+			{
+				9,
+				2071,
+				1
+			},
+			{
+				9,
+				2072,
+				1
+			},
+			{
+				9,
+				2073,
+				1
+			},
+			{
+				9,
+				2074,
+				1
+			}
+		}
+	},
+	[7018] = {
+		map_name = "2408",
+		type = 1,
+		crusing_map = "CrusingMap_1",
+		spine_name = "chess_luoma",
+		id = 7018,
+		pt = 59599,
+		target = {
+			100,
+			200,
+			300,
+			400,
+			500,
+			600,
+			700,
+			800,
+			900,
+			1000,
+			1100,
+			1200,
+			1300,
+			1400,
+			1500,
+			1600,
+			1700,
+			1800,
+			1900,
+			2000,
+			2100,
+			2200,
+			2300,
+			2400,
+			2500,
+			2600,
+			2700,
+			2800,
+			2900,
+			3000,
+			3100,
+			3200,
+			3300,
+			3400,
+			3500,
+			3600,
+			3700,
+			3800,
+			3900,
+			4000,
+			4100,
+			4200,
+			4300,
+			4400,
+			4500,
+			4600,
+			4700,
+			4800,
+			4900,
+			5000,
+			5100,
+			5200,
+			5300,
+			5400,
+			5500,
+			5600,
+			5700,
+			5800,
+			5900,
+			6000,
+			6100,
+			6200,
+			6300,
+			6400,
+			6500,
+			6600,
+			6700,
+			6800,
+			6900,
+			7000,
+			7100,
+			7200,
+			7300,
+			7400,
+			7500,
+			7600,
+			7700,
+			7800,
+			7900,
+			8000,
+			8100,
+			8200,
+			8300,
+			8400,
+			8500,
+			8600,
+			8700,
+			8800,
+			8900,
+			9000,
+			9100,
+			9200,
+			9300,
+			9400,
+			9500,
+			9600,
+			9700,
+			9800,
+			9900,
+			10000
+		},
+		award = {
+			1,
+			10018,
+			2,
+			31007,
+			3,
+			4,
+			2,
+			1,
+			7,
+			20018,
+			15,
+			1,
+			504,
+			7,
+			11,
+			33,
+			2,
+			8,
+			30004,
+			20018,
+			1,
+			503,
+			10018,
+			31007,
+			3,
+			7,
+			1,
+			4,
+			2,
+			6,
+			1,
+			504,
+			15,
+			7,
+			32066,
+			2,
+			30004,
+			35,
+			10,
+			20018,
+			12018,
+			1,
+			503,
+			31007,
+			3,
+			1,
+			2,
+			7,
+			4,
+			6,
+			1,
+			15,
+			504,
+			7,
+			32066,
+			8,
+			34,
+			30004,
+			2,
+			20018,
+			1,
+			504,
+			12018,
+			31007,
+			3,
+			7,
+			4,
+			1,
+			2,
+			6,
+			15,
+			1,
+			2,
+			7,
+			11,
+			36,
+			30004,
+			2,
+			11018,
+			20018,
+			29,
+			30,
+			29,
+			30,
+			31,
+			29,
+			30,
+			29,
+			30,
+			513,
+			29,
+			30,
+			29,
+			30,
+			31,
+			29,
+			30,
+			29,
+			30,
+			32
+		},
+		award_pay = {
+			23,
+			104,
+			101,
+			13018,
+			11,
+			16,
+			11018,
+			32064,
+			101,
+			103,
+			24,
+			16018,
+			101,
+			104,
+			3,
+			31007,
+			107,
+			17,
+			504,
+			103,
+			25,
+			15018,
+			104,
+			101,
+			12,
+			18,
+			32064,
+			101,
+			503,
+			21018,
+			26,
+			101,
+			14018,
+			104,
+			3,
+			19,
+			110,
+			31007,
+			504,
+			103,
+			27,
+			13018,
+			104,
+			101,
+			13,
+			32065,
+			20,
+			101,
+			503,
+			102,
+			28,
+			101,
+			16018,
+			104,
+			3,
+			21,
+			31007,
+			108,
+			504,
+			103,
+			28,
+			15018,
+			104,
+			101,
+			14,
+			21,
+			101,
+			32065,
+			504,
+			103,
+			28,
+			14018,
+			104,
+			101,
+			3,
+			31007,
+			106,
+			111,
+			21,
+			103,
+			109,
+			5,
+			105,
+			5,
+			31,
+			109,
+			5,
+			105,
+			5,
+			513,
+			109,
+			5,
+			105,
+			5,
+			31,
+			109,
+			5,
+			105,
+			5,
+			513
+		},
+		key_point_display = {
+			10,
+			20,
+			30,
+			40,
+			50,
+			60,
+			70,
+			80,
+			90,
+			100
+		},
+		equip_skin = {
+			{
+				9,
+				2075,
+				1
+			},
+			{
+				9,
+				2076,
+				1
+			},
+			{
+				9,
+				2077,
+				1
+			},
+			{
+				9,
+				2078,
+				1
+			}
 		}
 	},
 	[20873] = {
+		map_name = "2110",
 		type = 1,
+		equip_skin = "",
+		crusing_map = "CrusingMap_0",
+		spine_name = "chess_hude",
 		id = 20873,
 		pt = 59599,
 		target = {
@@ -5815,7 +6487,11 @@ pg.battlepass_event_pt = {
 		}
 	},
 	[20913] = {
+		map_name = "2112",
 		type = 1,
+		equip_skin = "",
+		crusing_map = "CrusingMap_1",
+		spine_name = "chess_keluoladuo",
 		id = 20913,
 		pt = 59599,
 		target = {
@@ -6138,7 +6814,11 @@ pg.battlepass_event_pt = {
 		}
 	},
 	[20969] = {
+		map_name = "2202",
 		type = 1,
+		equip_skin = "",
+		crusing_map = "CrusingMap_2",
+		spine_name = "chess_gelunbiya",
 		id = 20969,
 		pt = 59599,
 		target = {
@@ -6478,6 +7158,7 @@ pg.battlepass_event_pt = {
 		7015,
 		7016,
 		7017,
+		7018,
 		20873,
 		20913,
 		20969

@@ -83,6 +83,7 @@ pg.pay_data_display = setmetatable({
 		1014,
 		1015,
 		1016,
+		1017,
 		2001,
 		2002,
 		2003,
@@ -110,7 +111,8 @@ pg.pay_data_display = setmetatable({
 		2027,
 		2028,
 		2029,
-		2030
+		2030,
+		2031
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -8028,6 +8030,81 @@ pg.base.pay_data_display = {
 		limit_args = {},
 		drop_item = {}
 	},
+	[1017] = {
+		extra_service = 4,
+		limit_group = 0,
+		descrip_extra = "※ 월드 투어 클리어 시 추가 보상 획득 가능",
+		type = 0,
+		first_pay_double = 0,
+		name_display = "특허 투어 패스(24 여름)",
+		descrip = "구매 시 월드 투어의 투어 PT 1,500 획득 및 SP 보상 오픈",
+		subject = "특허 투어 패스(24 여름)",
+		limit_arg = 1,
+		money = 12000,
+		tag = 2,
+		name = "특허 투어 패스(24 여름)",
+		gem = 0,
+		type_order = 4,
+		limit_type = 2,
+		picture = "battlepass_1",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift99",
+		extra_gem = 0,
+		id = 1017,
+		airijp_id = "com.yostarjp.azurlane.seasonpass18",
+		extra_service_item = {
+			{
+				1,
+				4018,
+				1500
+			},
+			{
+				8,
+				65001,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					8,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4018,
+				1500
+			}
+		},
+		sub_display = {
+			7018,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
 	[2001] = {
 		extra_service = 3,
 		limit_group = 1,
@@ -10034,6 +10111,104 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40046,
+				1
+			}
+		}
+	},
+	[2031] = {
+		extra_service = 3,
+		limit_group = 0,
+		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
+		type = 0,
+		first_pay_double = 0,
+		name_display = "선택 가능한 UR 스킨 복주머니②",
+		descrip = "선택 가능한 스킨 티켓, 큐브, 경험치 패키지 T2 등 획득 가능",
+		subject = "선택 가능한 UR 스킨 복주머니②",
+		limit_arg = 1,
+		money = 27000,
+		tag = 2,
+		name = "선택 가능한 UR 스킨 복주머니②",
+		gem = 0,
+		type_order = 0,
+		limit_type = 2,
+		sub_display = "",
+		picture = "daofeng_package",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift98",
+		extra_gem = 0,
+		id = 2031,
+		airijp_id = "com.yostarjp.azurlane.package119",
+		extra_service_item = {
+			{
+				2,
+				59553,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				1,
+				1,
+				30000
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					8,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59553,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40047,
 				1
 			}
 		}

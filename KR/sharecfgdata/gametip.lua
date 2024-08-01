@@ -3045,6 +3045,11 @@ _G.pg.base.gametip.mail_confirm_cancel_important_flag = {
 }
 
 
+_G.pg.base.gametip.mail_confirm_delete_important_flag = {
+	tip = "중요 우편은 삭제할 수 없습니다."
+}
+
+
 _G.pg.base.gametip.mail_mail_page = {
 	tip = "우편"
 }
@@ -3167,6 +3172,11 @@ _G.pg.base.gametip.mail_move_button = {
 
 _G.pg.base.gametip.mail_delet_button = {
 	tip = "삭제"
+}
+
+
+_G.pg.base.gametip.mail_delet_button_1 = {
+	tip = "우편 삭제"
 }
 
 
@@ -14636,6 +14646,16 @@ _G.pg.base.gametip.mail_storeroom_max_2 = {
 }
 
 
+_G.pg.base.gametip.mail_storeroom_max_3 = {
+	tip = "※수령하면 연료 소지 수가 한도에 도달합니다."
+}
+
+
+_G.pg.base.gametip.mail_storeroom_max_4 = {
+	tip = "※수령하면 물자 소지 수가 한도에 도달합니다."
+}
+
+
 _G.pg.base.gametip.mail_storeroom_addgold = {
 	tip = "비축 물자:"
 }
@@ -14643,6 +14663,11 @@ _G.pg.base.gametip.mail_storeroom_addgold = {
 
 _G.pg.base.gametip.mail_storeroom_addoil = {
 	tip = "비축 연료:"
+}
+
+
+_G.pg.base.gametip.mail_storeroom_collect = {
+	tip = "수령하면 다음 아이템을 획득할 수 있습니다."
 }
 
 
@@ -28426,6 +28451,66 @@ _G.pg.base.gametip.loveletter_exchange_button = {
 
 _G.pg.base.gametip.loveletter_exchange_tip3 = {
 	tip = "변경 성공. 우편으로 이동해 확인하세요."
+}
+
+
+_G.pg.base.gametip.loveletter_recover_tip1 = {
+	tip = "우편 재발송 기능을 사용하려면 「우편 확인」을 먼저 실시해야 합니다."
+}
+
+
+_G.pg.base.gametip.loveletter_recover_tip2 = {
+	tip = "잘못된 캐릭터입니다."
+}
+
+
+_G.pg.base.gametip.loveletter_recover_tip3 = {
+	tip = "이미 밸런타인 데이 우편이 우편함/보관소에 존재합니다."
+}
+
+
+_G.pg.base.gametip.loveletter_recover_tip4 = {
+	tip = "해당 연도에는 아직 추가되지 않은 캐릭터입니다."
+}
+
+
+_G.pg.base.gametip.loveletter_recover_tip5 = {
+	tip = "우편 보관소가 가득 찼습니다. 보관소를 정리하면 우편을 재발송할 수 있습니다."
+}
+
+
+_G.pg.base.gametip.loveletter_recover_tip6 = {
+	tip = "우편 확인이 끝났습니다. $1년의 밸런타인 데이 우편을 재발송할 수 있습니다."
+}
+
+
+_G.pg.base.gametip.loveletter_recover_tip7 = {
+	tip = "우편 확인이 끝났습니다. 이미 밸런타인 데이 우편이 우편함/보관소에 존재합니다."
+}
+
+
+_G.pg.base.gametip.loveletter_recover_bottom1 = {
+	tip = "우편 확인"
+}
+
+
+_G.pg.base.gametip.loveletter_recover_bottom2 = {
+	tip = "우편 재발송"
+}
+
+
+_G.pg.base.gametip.loveletter_recover_bottom3 = {
+	tip = "$1년"
+}
+
+
+_G.pg.base.gametip.loveletter_recover_text1 = {
+	tip = "<color=#ffde38>우편 재발송</color>을 실시하면 우편 보관소에 <color=#ffde38>$1</color>년에 <color=#ffde38>$2</color>>에게 받은 밸런타인 데이 우편(첨부 아이템 미포함)이 재발송됩니다.\n*우편 재발송 기능은 기념 아이템마다 1회만 사용할 수 있습니다."
+}
+
+
+_G.pg.base.gametip.loveletter_recover_text2 = {
+	tip = "재발송을 희망하는 <color=#92fc63>연도</color>를 선택하세요. 재발송하면 우편 보관소에 <color=#ffde38>$1</color>에게 받은 밸런타인 데이 우편(첨부 아이템 미포함)이 재발송됩니다.\n*우편 재발송 기능은 기념 아이템마다 1회만 사용할 수 있습니다."
 }
 
 

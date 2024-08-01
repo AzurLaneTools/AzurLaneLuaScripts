@@ -322,3 +322,4 @@ LOCK_EQUIP_REVERT = true
 LOCK_SKIN_SHOP_ANIM_PREVIEW = false
 OPEN_EXCEPTION_TEST = false
 LOCK_NAMED = false
+MailWaterSelect = false

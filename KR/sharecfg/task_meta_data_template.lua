@@ -242,6 +242,11 @@ pg.task_meta_data_template = setmetatable({
 		100303,
 		100304,
 		100305,
+		100311,
+		100312,
+		100313,
+		100314,
+		100315,
 		200001,
 		200002,
 		200003,
@@ -325,7 +330,11 @@ pg.task_meta_data_template = setmetatable({
 		200211,
 		200212,
 		200213,
-		200214
+		200214,
+		200221,
+		200222,
+		200223,
+		200224
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2250,6 +2259,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "위치타·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
 	},
+	[100311] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970106",
+		id = 100311,
+		target_num = 1,
+		desc = "카스미·META를 편성한 함대로 전투에서 1회 승리"
+	},
+	[100312] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970106",
+		id = 100312,
+		target_num = 1,
+		desc = "카스미·META를 편성한 함대로 전투에서 Lv30 이상의 적 함대 격파"
+	},
+	[100313] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970106",
+		id = 100313,
+		target_num = 1,
+		desc = "카스미·META를 편성한 함대로 전투에서 Lv55 이상의 적 함대 격파"
+	},
+	[100314] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970106",
+		id = 100314,
+		target_num = 1,
+		desc = "카스미·META를 편성한 함대로 전투에서 Lv80 이상의 적 함대 격파"
+	},
+	[100315] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970106",
+		id = 100315,
+		target_num = 1,
+		desc = "카스미·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -2921,5 +2970,37 @@ pg.base.task_meta_data_template = {
 		id = 200214,
 		target_num = 1,
 		desc = "대형작전에서 위치타·META를 포함한 함대로 Lv100 이상의 적 격파"
+	},
+	[200221] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970106",
+		id = 200221,
+		target_num = 1,
+		desc = "대형작전에서 카스미·META를 포함한 함대로 1회 승리"
+	},
+	[200222] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970106",
+		id = 200222,
+		target_num = 1,
+		desc = "대형작전에서 카스미·META를 포함한 함대로 Lv70 이상의 적 격파"
+	},
+	[200223] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970106",
+		id = 200223,
+		target_num = 1,
+		desc = "대형작전에서 카스미·META를 포함한 함대로 Lv90 이상의 적 격파"
+	},
+	[200224] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970106",
+		id = 200224,
+		target_num = 1,
+		desc = "대형작전에서 카스미·META를 포함한 함대로 Lv100 이상의 적 격파"
 	}
 }

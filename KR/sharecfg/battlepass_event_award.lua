@@ -488,6 +488,22 @@ pg.battlepass_event_award = {
 			1
 		}
 	},
+	[10018] = {
+		id = 10018,
+		drop_client = {
+			2,
+			30332,
+			1
+		}
+	},
+	[11018] = {
+		id = 11018,
+		drop_client = {
+			2,
+			30543,
+			1
+		}
+	},
 	[12015] = {
 		id = 12015,
 		drop_client = {
@@ -512,6 +528,14 @@ pg.battlepass_event_award = {
 			1
 		}
 	},
+	[12018] = {
+		id = 12018,
+		drop_client = {
+			2,
+			30422,
+			1
+		}
+	},
 	[13015] = {
 		id = 13015,
 		drop_client = {
@@ -525,6 +549,14 @@ pg.battlepass_event_award = {
 		drop_client = {
 			9,
 			2071,
+			1
+		}
+	},
+	[13018] = {
+		id = 13018,
+		drop_client = {
+			9,
+			2075,
 			1
 		}
 	},
@@ -552,6 +584,14 @@ pg.battlepass_event_award = {
 			1
 		}
 	},
+	[14018] = {
+		id = 14018,
+		drop_client = {
+			9,
+			2076,
+			1
+		}
+	},
 	[15015] = {
 		id = 15015,
 		drop_client = {
@@ -576,6 +616,14 @@ pg.battlepass_event_award = {
 			1
 		}
 	},
+	[15018] = {
+		id = 15018,
+		drop_client = {
+			9,
+			2077,
+			1
+		}
+	},
 	[16015] = {
 		id = 16015,
 		drop_client = {
@@ -597,6 +645,14 @@ pg.battlepass_event_award = {
 		drop_client = {
 			9,
 			2074,
+			1
+		}
+	},
+	[16018] = {
+		id = 16018,
+		drop_client = {
+			9,
+			2078,
 			1
 		}
 	},
@@ -632,6 +688,14 @@ pg.battlepass_event_award = {
 			1
 		}
 	},
+	[20018] = {
+		id = 20018,
+		drop_client = {
+			4,
+			9701061,
+			1
+		}
+	},
 	[21015] = {
 		id = 21015,
 		drop_client = {
@@ -653,6 +717,14 @@ pg.battlepass_event_award = {
 		drop_client = {
 			7,
 			601102,
+			1
+		}
+	},
+	[21018] = {
+		id = 21018,
+		drop_client = {
+			7,
+			605032,
 			1
 		}
 	},
@@ -680,6 +752,14 @@ pg.battlepass_event_award = {
 			25
 		}
 	},
+	[30004] = {
+		id = 30004,
+		drop_client = {
+			2,
+			20104,
+			25
+		}
+	},
 	[31005] = {
 		id = 31005,
 		drop_client = {
@@ -693,6 +773,14 @@ pg.battlepass_event_award = {
 		drop_client = {
 			2,
 			42050,
+			5
+		}
+	},
+	[31007] = {
+		id = 31007,
+		drop_client = {
+			2,
+			42060,
 			5
 		}
 	},
@@ -741,6 +829,30 @@ pg.battlepass_event_award = {
 		drop_client = {
 			2,
 			42056,
+			5
+		}
+	},
+	[32064] = {
+		id = 32064,
+		drop_client = {
+			2,
+			42066,
+			2
+		}
+	},
+	[32065] = {
+		id = 32065,
+		drop_client = {
+			2,
+			42066,
+			3
+		}
+	},
+	[32066] = {
+		id = 32066,
+		drop_client = {
+			2,
+			42066,
 			5
 		}
 	}

@@ -917,7 +917,7 @@ slot0.changeIdleIndex = function(slot0, slot1)
 		idle = slot0.idleIndex,
 		idle_change = slot2
 	})
-	print("now idle index is " .. slot1)
+	print("now set idle index is " .. slot1)
 
 	slot0.idleIndex = slot1
 

@@ -9,6 +9,7 @@ slot1.BUTTON_RETREAT = 5
 slot1.BUTTON_PREPAGE = 6
 slot1.BUTTON_NEXTPAGE = 7
 slot1.BUTTON_BLUE_WITH_ICON = 8
+slot1.BUTTON_YELLOW = 9
 slot1.TITLE_INFORMATION = "infomation"
 slot1.TITLE_SETTING = "setting"
 slot1.TITLE_WARNING = "warning"
@@ -1004,7 +1005,7 @@ slot1.createBtn = function(slot0, slot1)
 				uv5 = nil
 			end
 		end, 1, slot8)
-		slot0.timers.delayTimer = slot7
+		slot0.timers[slot5] = slot7
 
 		slot7:Start()
 		setText(slot6, getText(slot6) .. string.format("(%d)", slot8))

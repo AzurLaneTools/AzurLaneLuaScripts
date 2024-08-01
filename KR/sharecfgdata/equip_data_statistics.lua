@@ -166655,6 +166655,62 @@ _G.pg.base.equip_data_statistics[170554] = {
 }
 
 
+_G.pg.base.equip_data_statistics[170571] = {
+	name = "构造之理-霞 I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "스킬 탄막",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 170571,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170571
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[170572] = {
+	name = "构造之理-霞 II",
+	base = 170571,
+	id = 170572,
+	weapon_id = {
+		170572,
+		170573
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[594017] = {
 	name = "美系剧情海伦娜主炮",
 	speciality = "추적",

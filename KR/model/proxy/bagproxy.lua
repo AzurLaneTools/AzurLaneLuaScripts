@@ -4,6 +4,7 @@ slot0.ITEM_UPDATED = "item updated"
 slot0.register = function(slot0)
 	slot0:on(15001, function (slot0)
 		uv0.data = {}
+		uv0.loveLetterRepairDic = {}
 
 		for slot4, slot5 in ipairs(slot0.item_list) do
 			slot6 = Item.New({
@@ -42,11 +43,21 @@ slot0.removeExtraData = function(slot0, slot1, slot2)
 	table.removebyvalue(slot0.extraItemData[slot1] or {}, slot2)
 end
 
+slot0.hasExtraData = function(slot0, slot1, slot2)
+	warning(PrintTable(slot0.extraItemData[slot1] or {}))
+
+	return table.contains(slot0.extraItemData[slot1] or {}, slot2)
+end
+
 slot0.addItemById = function(slot0, slot1, slot2, slot3)
 	assert(slot2 > 0, "count should greater than zero")
 
 	if slot1 == ITEM_ID_CUBE then
 		pg.TrackerMgr.GetInstance():Tracking(TRACKING_CUBE_ADD, slot2)
+	end
+
+	for slot7 = 1, slot2 do
+		slot0:addExtraData(slot1, slot3)
 	end
 
 	slot0:updateItem(slot1, slot2, slot3)
@@ -57,6 +68,10 @@ slot0.removeItemById = function(slot0, slot1, slot2, slot3)
 
 	if slot1 == ITEM_ID_CUBE then
 		pg.TrackerMgr.GetInstance():Tracking(TRACKING_CUBE_CONSUME, slot2)
+	end
+
+	for slot7 = 1, slot2 do
+		slot0:removeExtraData(slot1, slot3)
 	end
 
 	slot0:updateItem(slot1, -slot2, slot3)
@@ -194,22 +209,14 @@ slot0.updateItem = function(slot0, slot1, slot2, slot3)
 
 	assert(slot4.count >= 0, "item count error: " .. slot4.id)
 
-	if slot3 then
-		slot0.extraItemData[slot1] = slot0.extraItemData[slot1] or {}
-
-		for slot8 = -1, slot2, -1 do
-			assert(table.removebyvalue(slot0.extraItemData[slot1], slot3) > 0)
-		end
-
-		for slot8 = 1, slot2 do
-			table.insert(slot0.extraItemData[slot1], slot3)
-		end
-	end
-
 	slot0.data[slot4.id] = slot4
 
 	slot0.data[slot4.id]:display("updated")
-	slot0.facade:sendNotification(uv0.ITEM_UPDATED, slot4:clone())
+
+	slot5 = slot4:clone()
+	slot5.extra = slot3
+
+	slot0.facade:sendNotification(uv0.ITEM_UPDATED, slot5)
 end
 
 slot0.canUpgradeFlagShipEquip = function(slot0)
@@ -248,6 +255,14 @@ slot0.GetSkinShopDiscountItemList = function(slot0)
 	end
 
 	return slot1
+end
+
+slot0.SetLoveLetterRepairInfo = function(slot0, slot1, slot2)
+	slot0.loveLetterRepairDic[slot1] = slot2
+end
+
+slot0.GetLoveLetterRepairInfo = function(slot0, slot1)
+	return slot0.loveLetterRepairDic[slot1]
 end
 
 return slot0

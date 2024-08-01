@@ -6,9 +6,8 @@ end
 
 slot0.preload = function(slot0, slot1)
 	slot2 = getProxy(ActivityProxy)
-	slot2 = slot2:getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING)
 
-	GetSpriteFromAtlasAsync("crusingwindow/" .. slot2:getConfig("config_client").map_name, "", function (slot0)
+	GetSpriteFromAtlasAsync("crusingwindow/map_20" .. pg.battlepass_event_pt[slot2:getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING).id].map_name, "", function (slot0)
 		uv0.windowSprite = slot0
 
 		uv1()
@@ -40,7 +39,7 @@ slot0.init = function(slot0)
 			end, SFX_PANEL)
 		end
 	end)
-	slot0.itemList:align(#(getProxy(ActivityProxy):getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING):getConfig("config_client").equip_skin or {}))
+	slot0.itemList:align(#(pg.battlepass_event_pt[getProxy(ActivityProxy):getAliveActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING).id].equip_skin or {}))
 end
 
 slot0.didEnter = function(slot0)
