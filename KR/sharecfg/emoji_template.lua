@@ -420,9 +420,9 @@ pg.emoji_template = {
 		achieve = 1,
 		index = 73,
 		pic = "33",
-		desc = "<color=#92fc63>[걍악]</color>",
-		item_name = "채팅 이모티콘: 걍악",
-		item_desc = "채팅 이모티콘: 걍악, 이모티콘 선택의 「디폴트」선택치 중 해당 이모티콘을 선택 및 보낼 수 있습니다.",
+		desc = "<color=#92fc63>[경악]</color>",
+		item_name = "채팅 이모티콘: 경악",
+		item_desc = "채팅 이모티콘: 경악, 이모티콘 선택의 「디폴트」선택치 중 해당 이모티콘을 선택 및 보낼 수 있습니다.",
 		id = 33,
 		icon = "",
 		type = {

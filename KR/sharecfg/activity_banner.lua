@@ -57,7 +57,7 @@ pg.activity_banner = {
 				{
 					2024,
 					8,
-					7
+					8
 				},
 				{
 					23,
@@ -95,7 +95,7 @@ pg.activity_banner = {
 				{
 					2024,
 					8,
-					7
+					8
 				},
 				{
 					23,
@@ -201,7 +201,7 @@ pg.activity_banner = {
 				{
 					2024,
 					8,
-					7
+					8
 				},
 				{
 					23,
@@ -303,7 +303,7 @@ pg.activity_banner = {
 				{
 					2024,
 					8,
-					1
+					8
 				},
 				{
 					23,

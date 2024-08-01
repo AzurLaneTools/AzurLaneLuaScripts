@@ -12358,22 +12358,22 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「알비트」, 「Z47」 등의 등장 확률 UP!"
+	tip = "기간 한정 건조를 총 200회 실시하면, 뱅가드 100% 획득 가능! (최대 4척까지)"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「포슈」 상시 건조 추가!"
+	tip = "「{namecode:18}」, 「{namecode:62} 」 상시 건조 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「랭동타블」, 「엔터프라이즈(경순양함)」 상시 건조 추가!"
+	tip = "「{namecode:206}」, 「{namecode:150}」 상시 건조 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「조프르」 상시 건조 추가!"
+	tip = "「{namecode:18}」, 「{namecode:208}」 상시 건조 추가!"
 }
 
 
