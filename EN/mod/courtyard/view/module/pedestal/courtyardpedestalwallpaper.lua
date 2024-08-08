@@ -22,6 +22,10 @@ slot0.GetAssetPath = function(slot0)
 	end
 end
 
+slot0.GetParent = function(slot0)
+	return slot0.parent._tf:Find("paper")
+end
+
 slot0.OnLoaded = function(slot0, slot1)
 	rtf(slot1).anchorMin = Vector2(0.5, 1)
 	rtf(slot1).anchorMax = Vector2(0.5, 1)

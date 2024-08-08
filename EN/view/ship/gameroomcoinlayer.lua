@@ -11,6 +11,7 @@ slot0.init = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
+	slot0.ad = findTF(slot0._tf, "ad")
 	slot0.window = findTF(slot0._tf, "ad/window")
 	slot0.text = findTF(slot0._tf, "ad/window/text")
 	slot1 = slot0.contextData.position

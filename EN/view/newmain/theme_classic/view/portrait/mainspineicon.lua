@@ -7,7 +7,7 @@ slot0.Resume = function(slot0)
 end
 
 slot0.Pause = function(slot0)
-	if not IsNil(slot0.spineAnim) then
+	if slot0.spineAnim and not IsNil(slot0.spineAnim) and slot0.spineAnim.Pause ~= nil then
 		slot0.spineAnim:Pause()
 	end
 end

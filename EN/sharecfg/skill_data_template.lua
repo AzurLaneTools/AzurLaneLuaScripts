@@ -2254,6 +2254,7 @@ pg.skill_data_template = setmetatable({
 		902260,
 		902270,
 		902280,
+		902290,
 		1010140,
 		1010390,
 		1010410,
@@ -2311,6 +2312,7 @@ pg.skill_data_template = setmetatable({
 		1011170,
 		1010090,
 		1011590,
+		1013550,
 		1090010,
 		1090020,
 		1090030,
@@ -2337,7 +2339,8 @@ pg.skill_data_template = setmetatable({
 		1090240,
 		1090250,
 		1090260,
-		1090270
+		1090270,
+		1090280
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -143690,6 +143693,20 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[902290] = {
+		desc_get = "",
+		name = "Honed Aviation Skills - Dive Bombers",
+		type = 3,
+		max_level = 1,
+		desc = "When equipped by a ship: increases that ship's Dive Bomber gear slot efficiency by 15%.",
+		id = 902290,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[1010140] = {
 		desc_get = "",
 		name = "Eagle's Tears+",
@@ -150415,6 +150432,150 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 			}
 		}
 	},
+	[1013550] = {
+		desc_get = "",
+		name = "The Smiling Sawfish+",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this boat's TRP by $3 and Torpedo Crit Rate by #1. At the beginning of battle, fires a $2 torpedo barrage (pattern and DMG are based on the skill's level); if there are other ships afloat in your Submarine Fleet, this barrage's pattern is further improved.",
+		id = 1013550,
+		system_transform = {
+			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"4.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
 	[1090010] = {
 		desc_get = "",
 		name = "Fleet Carrier - Glorious",
@@ -153749,6 +153910,148 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 				},
 				{
 					"25.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[1090280] = {
+		desc_get = "",
+		name = "Quick Takeoff - Long Island",
+		type = 1,
+		max_level = 10,
+		desc = "When this ship launches an airstrike: $1 chance for the next airstrike to become available immediately. Every 20s: $2 chance to launch a $3 special airstrike (DMG is based on the skill's level; if this ship has Eagle Union gear equipped: improves this airstrike).",
+		id = 1090280,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5%",
+				"15%"
+			},
+			{
+				"40%",
+				"70%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70%"
 				}
 			},
 			{

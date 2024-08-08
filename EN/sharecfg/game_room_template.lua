@@ -369,11 +369,444 @@ Over 20 points: 260 Game Tickets
 			-441
 		}
 	},
+	{
+		id = 6,
+		type = 11,
+		add_base = 200,
+		add_type = 12,
+		coin_max = 5,
+		game_id = 1007,
+		icon = "dadishu",
+		order = 6,
+		unlock_time = {
+			{
+				2022,
+				4,
+				18
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		add_num = {
+			{
+				6001,
+				1.3
+			},
+			{
+				4001,
+				1.2
+			},
+			{
+				2001,
+				1.1
+			},
+			{
+				801,
+				1
+			},
+			{
+				0,
+				0.9
+			}
+		},
+		game_help = {
+			{
+				info = [[
+- Overview -
+Protect the cake from being eaten by Manjuus and Meowfficers!
+The minigame will end when the time runs out, or when the cake has been eaten three times.
+
+- How to Play -
+· When the game starts, Manjuus and Meowfficers will make their way towards the cake in the middle of the screen.
+· If a Manjuu or Meowfficer is allowed to reach the cake, they will eat the cake.
+· By tapping on a Manjuu or Meowfficer, a Specialized Bulin Custom MKIII will appear to whack it with her Kitty Kabam Hammer, protecting the cake.
+· The number of taps required to defeat each enemy depends on its type. The more difficult the enemy, the more points you will obtain.
+1) Phantom Thief Manjuu: 1 tap, 100 points.
+2) Ninjuu: 1 tap, 150 points.
+3) Kyoujuu: 2 taps, 200 points.
+4) Solid Sna-Kitty: 1 tap, 150 points.
+
+· You will fill your EX gauge upon defeating a Manjuu or Meowfficer. When your EX gauge is full, tap it to increase the attack power and range of your Bulin MKIII.
+
+· When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.
+· Refer to the following score-to-ticket values for each Credit spent:
+0-800 points: 180 Game Tickets
+801-2000 points: 200 Game Tickets
+2001-4000 points: 220 Game Tickets
+4001-6000 points: 240 Game Tickets
+Over 6000 points: 260 Game Tickets]]
+			}
+		},
+		position = {
+			0,
+			-450
+		}
+	},
+	{
+		id = 7,
+		type = 11,
+		add_base = 200,
+		add_type = 12,
+		coin_max = 5,
+		game_id = 1008,
+		icon = "jiujiupata",
+		order = 7,
+		unlock_time = {
+			{
+				2022,
+				4,
+				18
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		add_num = {
+			{
+				41,
+				1.3
+			},
+			{
+				31,
+				1.2
+			},
+			{
+				21,
+				1.1
+			},
+			{
+				11,
+				1
+			},
+			{
+				0,
+				0.9
+			}
+		},
+		game_help = {
+			{
+				info = [[
+- Overview -
+Take control of Saratoga and jump up to reach as high as you can!
+
+- How to Play -
+· Use the arrow icons and the jump button to control the chibi Saratoga, and guide her up the platforms.
+· Running into a trap, thorns, or the Manjuu at the bottom of the screen will deplete 1 life. The game will end when you run out of lives.
+· Climb more floors to earn a higher score!
+
+· When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.
+· Refer to the following score-to-ticket values for each Credit spent:
+0-10 points: 180 Game Tickets
+11-20 points: 200 Game Tickets
+21-30 points: 220 Game Tickets
+31-40 points: 240 Game Tickets
+Over 40 points: 260 Game Tickets]]
+			}
+		},
+		position = {
+			0,
+			-110
+		}
+	},
+	{
+		id = 8,
+		type = 11,
+		add_base = 200,
+		add_type = 12,
+		coin_max = 5,
+		game_id = 1009,
+		icon = "fushun2",
+		order = 8,
+		unlock_time = {
+			{
+				2022,
+				4,
+				18
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		add_num = {
+			{
+				4001,
+				1.3
+			},
+			{
+				2001,
+				1.2
+			},
+			{
+				1001,
+				1.1
+			},
+			{
+				501,
+				1
+			},
+			{
+				0,
+				0.9
+			}
+		},
+		game_help = {
+			{
+				info = [[
+- Overview -
+Take control of Fu Shun and defeat all the Nianjuus in your way!
+
+- How to Play -
+· Nianjuus move side-to-side across the screen. When an enemy is within attack range, you can attack it using the A and B buttons on the left and right.
+· The Nianjuus come in different sizes and take more or fewer attacks to defeat. The scores they grant are as follows:
+Small Nianjuu: 10 pts
+Medium Nianjuu: 20 pts
+Large Nianjuu: 30 pts
+· Defeating a Nianjuu charges the energy gauge at the bottom of the screen. When the gauge is full, you can gain a lot of score by quickly mashing the A and B buttons.
+· Fu Shun's HP will decrease if a Nianjuu gets too close to her. The game ends when her HP bar at the top of the screen reaches 0, or when you exit the minigame.
+
+· When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.
+· Refer to the following score-to-ticket values for each Credit spent:
+0-500 points: 180 Game Tickets
+501-1000 points: 200 Game Tickets
+1001-2000 points: 220 Game Tickets
+2001-4000 points: 240 Game Tickets
+Over 4001 points: 260 Game Tickets]]
+			}
+		},
+		position = {
+			0,
+			-200
+		}
+	},
+	{
+		id = 9,
+		type = 11,
+		add_base = 200,
+		add_type = 12,
+		coin_max = 5,
+		game_id = 1010,
+		icon = "zhuazhuale",
+		order = 9,
+		unlock_time = {
+			{
+				2022,
+				4,
+				18
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		add_num = {
+			{
+				2001,
+				1.3
+			},
+			{
+				1501,
+				1.2
+			},
+			{
+				1001,
+				1.1
+			},
+			{
+				501,
+				1
+			},
+			{
+				0,
+				0.9
+			}
+		},
+		game_help = {
+			{
+				info = [[
+- Overview -
+Line up three of a kind as many times as you can to rack up points!
+
+- How to Play -
+· After selecting a jewel, you have up to 7 seconds to move it. During the 7 seconds, you can drag it up, down, left, or right an unlimited distance.
+· While moving, the jewel will exchange positions with any jewels on its path. After 7 seconds or upon letting go of the jewel, the game will settle the results of that move.
+· If 3 or more jewels of the same color are adjacent either horizontally or vertically, they will be cleared from the board.
+
+· When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.
+· Refer to the following score-to-ticket values for each Credit spent:
+0-500 points: 180 Game Tickets
+501-1000 points: 200 Game Tickets
+1001-1500 points: 220 Game Tickets
+1501-2000 points: 240 Game Tickets
+Over 2001 points: 260 Game Tickets]]
+			}
+		},
+		position = {
+			150,
+			-180
+		}
+	},
+	{
+		id = 10,
+		type = 11,
+		add_base = 200,
+		add_type = 12,
+		coin_max = 5,
+		game_id = 1011,
+		icon = "wanshengjie",
+		order = 10,
+		unlock_time = {
+			{
+				2022,
+				4,
+				18
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		add_num = {
+			{
+				1201,
+				1.3
+			},
+			{
+				801,
+				1.2
+			},
+			{
+				401,
+				1.1
+			},
+			{
+				101,
+				1
+			},
+			{
+				0,
+				0.9
+			}
+		},
+		game_help = {
+			{
+				info = [[
+Event Rules:
+Control Radford and help her catch the candy falling from above!
+
+- How to Play -
+· Tap either side of the screen to move Radford in that direction.
+· If Radford hits a falling bomb, or if she doesn't catch the candy before it hits the ground, she will lose 1 HP. The game is over when her HP reaches 0.
+· Radford will be slowed down if she bumps into one of the Ghost Manjuus appear on the screen.
+· You can scare the Ghost Manjuu away by tapping the flashlight on the right side of the screen.
+
+· When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.
+· Refer to the following score-to-ticket values for each Credit spent:
+0-100 points: 180 Game Tickets
+101-400 points: 200 Game Tickets
+401-800 points: 220 Game Tickets
+801-1200 points: 240 Game Tickets
+Over 1200 points: 260 Game Tickets]]
+			}
+		},
+		position = {
+			0,
+			-300
+		}
+	},
+	{
+		id = 11,
+		type = 11,
+		add_base = 200,
+		add_type = 12,
+		coin_max = 5,
+		game_id = 1012,
+		icon = "xueqiu",
+		order = 11,
+		unlock_time = {
+			{
+				2022,
+				4,
+				18
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		add_num = {
+			{
+				3001,
+				1.3
+			},
+			{
+				1501,
+				1.2
+			},
+			{
+				601,
+				1.1
+			},
+			{
+				301,
+				1
+			},
+			{
+				0,
+				0.9
+			}
+		},
+		game_help = {
+			{
+				info = [[
+- Overview -
+Snowball fiiight! Take control of Mutsu and hit the opponents with snowballs while dodging theirs!
+
+- How to Play -
+· Tap the button on the left to move Mutsu up and avoid your opponent’s snowballs. Getting hit by a snowball will deduct 1 HP.
+· Tap on the opponents to throw snowballs at them. Hitting different opponents will give different point values.
+· Warning: You will lose points if you hit innocent passersby that randomly enter the playing field!
+· The score values are as follows:
+Kisaragi, Mutsuki, Uzuki, Fumizuki, Yuudachi, or Yukikaze: <color=#92fc63>+100 points</color>
+Ark Royal: <color=#92fc63>+200 points</color>
+Digging Manjuu or Shiratsuyu: <color=#ff5c5c>-50 points</color>
+· The support gauge on the right side of the screen will fill up over time. When the gauge is full, tap on the gauge to call in snowfall support, peltering all opponents with snowballs while clearing theirs out of the air.
+· The minigame ends either when your HP reaches 0 or when you manually exit the minigame.
+
+· When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.
+· Refer to the following score-to-ticket values for each Credit spent:
+0-300 points: 180 Game Tickets
+301-600 points: 200 Game Tickets
+601-1500 points: 220 Game Tickets
+1501-3000 points: 240 Game Tickets
+Over 3000 points: 260 Game Tickets]]
+			}
+		},
+		position = {
+			0,
+			-280
+		}
+	},
 	all = {
 		1,
 		2,
 		3,
 		4,
-		5
+		5,
+		6,
+		7,
+		8,
+		9,
+		10,
+		11
 	}
 }

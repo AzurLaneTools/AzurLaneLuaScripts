@@ -3129,6 +3129,7 @@ pg.skill_data_display = setmetatable({
 		1012320,
 		1012322,
 		1012323,
+		1013551,
 		1090020,
 		1090042,
 		1090043,
@@ -3161,7 +3162,10 @@ pg.skill_data_display = setmetatable({
 		1090243,
 		1090260,
 		1090261,
-		1090273
+		1090273,
+		1090283,
+		1090284,
+		1090285
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -15674,6 +15678,10 @@ pg.base.skill_data_display = {
 		id = 1012323,
 		name = "Gassing Breath +"
 	},
+	[1013551] = {
+		id = 1013551,
+		name = "The Smiling Sawfish+"
+	},
 	[1090020] = {
 		id = 1090020,
 		name = "Full Firepower - Karlsruhe"
@@ -15805,5 +15813,17 @@ pg.base.skill_data_display = {
 	[1090273] = {
 		id = 1090273,
 		name = "Tactical Command – Leipzig"
+	},
+	[1090283] = {
+		id = 1090283,
+		name = "Quick Takeoff - Long Island+"
+	},
+	[1090284] = {
+		id = 1090284,
+		name = "Quick Takeoff - Long Island"
+	},
+	[1090285] = {
+		id = 1090285,
+		name = "Quick Takeoff - Long Island"
 	}
 }

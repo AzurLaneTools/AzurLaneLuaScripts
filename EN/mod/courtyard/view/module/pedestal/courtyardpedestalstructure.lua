@@ -83,12 +83,16 @@ slot0.Load = function(slot0, slot1)
 		end
 
 		uv0.state = uv2
-		slot1 = Object.Instantiate(slot0, uv0.parent._tf)
+		slot1 = Object.Instantiate(slot0, uv0:GetParent())
 
 		uv0:OnLoaded(slot1)
 
 		uv0.asset = slot1
 	end), true, true)
+end
+
+slot0.GetParent = function(slot0)
+	return slot0.parent._tf
 end
 
 slot0.SetDirty = function(slot0)

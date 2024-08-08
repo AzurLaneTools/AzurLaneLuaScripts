@@ -3,16 +3,13 @@ pg.activity_link_button = {
 	{
 		param = "5505",
 		name = "event_all",
+		time = "stop",
 		text_pic = "text_event_all",
 		type = 3,
 		pic = "event_all",
 		id = 1,
 		group_id = 1,
-		order = 1,
-		time = {
-			"default",
-			5505
-		}
+		order = 1
 	},
 	{
 		param = "0",

@@ -137,7 +137,7 @@ slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == PlayerProxy.UPDATED then
-		slot0.viewComponent:setPlayer(slot3)
+		slot0.viewComponent:OnPlayerUpdate(slot3)
 	elseif slot2 == GAME.HARVEST_RES_DONE then
 		slot4 = nil
 

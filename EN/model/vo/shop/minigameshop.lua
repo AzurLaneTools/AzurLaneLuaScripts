@@ -73,7 +73,11 @@ slot0.GetCommodities = function(slot0)
 
 	table.sort(slot1, function (slot0, slot1)
 		if (slot0:CanPurchase() and 1 or 0) == (slot1:CanPurchase() and 1 or 0) then
-			return slot0:getConfig("order") < slot1:getConfig("order")
+			if slot0:getConfig("order") ~= slot1:getConfig("order") then
+				return slot0:getConfig("order") < slot1:getConfig("order")
+			else
+				return slot0:getConfig("id") < slot1:getConfig("id")
+			end
 		else
 			return slot3 < slot2
 		end
