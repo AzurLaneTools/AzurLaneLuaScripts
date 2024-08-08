@@ -459,6 +459,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「纵使身处幻梦之中，我将依然选择守护。」</color>\n「绽放于辉光之城」活动获取",
 		scene = {}
 	},
+	[331] = {
+		name = "澎湃之心 ",
+		gain_by = "",
+		time_second = 0,
+		id = 331,
+		time_limit_type = 0,
+		desc = "通过后续活动获得",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂纪念：企业",
 		gain_by = "",
@@ -763,6 +772,7 @@ pg.item_data_frame = {
 		328,
 		329,
 		330,
+		331,
 		401,
 		402,
 		404,

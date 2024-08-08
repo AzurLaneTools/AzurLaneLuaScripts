@@ -43,6 +43,9 @@ slot0.UpdateItem = function(slot0, slot1, slot2)
 end
 
 slot0.OnDestroy = function(slot0)
+	if slot0:isShowing() then
+		slot0:Hide()
+	end
 end
 
 return slot0

@@ -25,7 +25,7 @@ pm.Facade.sendNotification = function(slot0, slot1, slot2, slot3)
 			end
 		end
 
-		if HXSet.isHxSkin() and slot5 == "SkinShopMediator" then
+		if HXSet.isHxSkin() and slot5 == "NewSkinShopMediator" then
 			return
 		end
 

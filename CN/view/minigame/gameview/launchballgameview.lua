@@ -43,6 +43,8 @@ end
 slot0.initData = function(slot0)
 	LaunchBallGameVo.Init(slot0:GetMGData().id, slot0:GetMGHubData().id)
 
+	LaunchBallGameVo.game_room_flag = false
+
 	if LaunchBallGameVo.frameRate > 60 then
 		slot1 = 60
 	end

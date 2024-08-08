@@ -9,6 +9,15 @@ slot0.SetCallBack = function(slot0, slot1, slot2)
 	slot0.OnOverMapScore = slot2
 end
 
+slot0.setGameStateCallback = function(slot0, slot1, slot2)
+	slot0.startGameCalback = slot1
+	slot0.endGameCallback = slot2
+end
+
+slot0.setRoomTip = function(slot0, slot1)
+	slot0.view:setRoomTip(slot1)
+end
+
 slot0.SetUp = function(slot0, slot1)
 	slot0:NetUpdateData(slot1)
 	slot0.view:OnEnter()
@@ -33,6 +42,10 @@ slot0.StartGame = function(slot0, slot1)
 		end,
 		function (slot0)
 			uv0.map:Init(uv0.data, slot0)
+
+			if uv0.startGameCalback then
+				uv0.startGameCalback()
+			end
 		end,
 		function (slot0)
 			uv0.view:DoEnter(slot0)
@@ -207,6 +220,10 @@ slot0.ExitGame = function(slot0)
 	end
 
 	slot0.enterGame = nil
+
+	if slot0.endGameCallback then
+		slot0.endGameCallback()
+	end
 end
 
 slot0.onBackPressed = function(slot0)

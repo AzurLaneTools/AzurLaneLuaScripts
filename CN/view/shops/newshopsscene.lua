@@ -400,6 +400,16 @@ slot0.ActiveDefaultCategory = function(slot0)
 	elseif slot1 == uv0.TYPE_ACTIVITY and (not slot0.shops[uv0.TYPE_ACTIVITY] or #(slot0.shops[uv0.TYPE_ACTIVITY] or {}) <= 0) then
 		slot1 = uv0.TYPE_SHOP_STREET
 		slot2 = 1
+	elseif slot1 == uv0.TYPE_ACTIVITY and slot0.shops[uv0.TYPE_ACTIVITY] and #(slot0.shops[uv0.TYPE_ACTIVITY] or {}) > 0 and not slot0.contextData.actId then
+		slot4 = slot0.shops[slot1][1].activityId
+		slot5 = ipairs
+		slot6 = slot0.shops[slot1] or {}
+
+		for slot8, slot9 in slot5(slot6) do
+			if slot4 < slot9.activityId then
+				slot3 = slot8
+			end
+		end
 	end
 
 	slot3 = nil

@@ -54,7 +54,9 @@ end
 slot1.ContinuePlay = function(slot0)
 	slot0.isDirty = false
 
-	uv0.CriMgr.GetInstance():PlayBGM(slot0._now)
+	if slot0._now then
+		uv0.CriMgr.GetInstance():PlayBGM(slot0._now)
+	end
 end
 
 slot1.TempPlay = function(slot0, slot1)
