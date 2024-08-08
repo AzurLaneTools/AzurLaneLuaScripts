@@ -8,6 +8,39 @@ pg.recommend_shop = {
 		shop_id = 1,
 		order = 6
 	},
+	{
+		pic = "",
+		shop_type = 1,
+		id = 2,
+		shop_id = 1017,
+		order = 7,
+		time = {
+			{
+				{
+					2024,
+					8,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					7
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[5] = {
 		pic = "",
 		shop_type = 1,
@@ -175,6 +208,7 @@ pg.recommend_shop = {
 	},
 	all = {
 		1,
+		2,
 		5,
 		6,
 		7,

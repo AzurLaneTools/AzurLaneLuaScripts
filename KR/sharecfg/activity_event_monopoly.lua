@@ -2,8 +2,11 @@ pg = pg or {}
 pg.activity_event_monopoly = {
 	{
 		daily_time = 4,
+		ship_reward = "",
 		effective_times = 0,
 		reward_time = 8,
+		ship_dialog = "",
+		sum_lap_reward_show = "",
 		id = 1,
 		version = 1,
 		map = {
@@ -76,8 +79,11 @@ pg.activity_event_monopoly = {
 	},
 	{
 		daily_time = 5,
+		ship_reward = "",
 		effective_times = 0,
 		reward_time = 5,
+		ship_dialog = "",
+		sum_lap_reward_show = "",
 		id = 2,
 		version = 1,
 		map = {
@@ -136,8 +142,11 @@ pg.activity_event_monopoly = {
 	},
 	{
 		daily_time = 5,
+		ship_reward = "",
 		effective_times = 0,
 		reward_time = 0,
+		ship_dialog = "",
+		sum_lap_reward_show = "",
 		id = 3,
 		version = 1,
 		map = {
@@ -167,8 +176,11 @@ pg.activity_event_monopoly = {
 	},
 	{
 		daily_time = 5,
+		ship_reward = "",
 		effective_times = 0,
 		reward_time = 5,
+		ship_dialog = "",
+		sum_lap_reward_show = "",
 		id = 4,
 		version = 2,
 		map = {
@@ -200,8 +212,11 @@ pg.activity_event_monopoly = {
 	},
 	{
 		daily_time = 5,
+		ship_reward = "",
 		effective_times = 0,
 		reward_time = 0,
+		ship_dialog = "",
+		sum_lap_reward_show = "",
 		id = 5,
 		version = 1,
 		map = {
@@ -231,8 +246,11 @@ pg.activity_event_monopoly = {
 	},
 	{
 		daily_time = 5,
+		ship_reward = "",
 		effective_times = 35,
 		reward_time = 5,
+		ship_dialog = "",
+		sum_lap_reward_show = "",
 		id = 6,
 		version = 2,
 		map = {
@@ -264,8 +282,11 @@ pg.activity_event_monopoly = {
 	},
 	{
 		daily_time = 5,
+		ship_reward = "",
 		effective_times = 0,
 		reward_time = 0,
+		ship_dialog = "",
+		sum_lap_reward_show = "",
 		id = 7,
 		version = 1,
 		map = {
@@ -293,6 +314,198 @@ pg.activity_event_monopoly = {
 		story = {},
 		drop_times = {}
 	},
+	{
+		daily_time = 3,
+		effective_times = 0,
+		reward_time = 0,
+		id = 8,
+		version = 4,
+		map = {
+			6001,
+			6002,
+			6003,
+			6004,
+			6005,
+			6006,
+			6007,
+			6008,
+			6009,
+			6010,
+			6011,
+			6012,
+			6013,
+			6014,
+			6015,
+			6016,
+			6017,
+			6018,
+			6019,
+			6020,
+			6021,
+			6022,
+			6023,
+			6024,
+			6025,
+			6026,
+			6027,
+			6028,
+			6029,
+			6030,
+			6031,
+			6032
+		},
+		reward = {},
+		reward_extra = {},
+		story = {},
+		drop_times = {},
+		ship_reward = {
+			{
+				90402,
+				902817
+			},
+			{
+				90701,
+				902819
+			},
+			{
+				40809,
+				902818
+			}
+		},
+		ship_dialog = {
+			{
+				90402,
+				{
+					{
+						1,
+						{
+							104,
+							105
+						}
+					},
+					{
+						2,
+						{
+							106,
+							107
+						}
+					},
+					{
+						3,
+						{
+							108,
+							109
+						}
+					},
+					{
+						4,
+						{
+							102
+						}
+					},
+					{
+						5,
+						{
+							103
+						}
+					}
+				}
+			},
+			{
+				40809,
+				{
+					{
+						1,
+						{
+							114,
+							115
+						}
+					},
+					{
+						2,
+						{
+							116,
+							117
+						}
+					},
+					{
+						3,
+						{
+							118,
+							119
+						}
+					},
+					{
+						4,
+						{
+							112
+						}
+					},
+					{
+						5,
+						{
+							113
+						}
+					}
+				}
+			},
+			{
+				90701,
+				{
+					{
+						1,
+						{
+							124,
+							125
+						}
+					},
+					{
+						2,
+						{
+							126,
+							127
+						}
+					},
+					{
+						3,
+						{
+							128,
+							129
+						}
+					},
+					{
+						4,
+						{
+							122
+						}
+					},
+					{
+						5,
+						{
+							123
+						}
+					}
+				}
+			}
+		},
+		sum_lap_reward_show = {
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				200
+			},
+			{
+				5,
+				282,
+				1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -300,6 +513,7 @@ pg.activity_event_monopoly = {
 		4,
 		5,
 		6,
-		7
+		7,
+		8
 	}
 }

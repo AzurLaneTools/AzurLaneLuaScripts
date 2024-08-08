@@ -177,7 +177,7 @@ slot0.didEnter = function(slot0)
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "huanzhuangshandian", function ()
 		uv0:emit(ThirdAnniversarySquareMediator.GO_SCENE, SCENE.SKINSHOP)
 	end)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.top, false)
+	pg.UIMgr.GetInstance():OverlayPanel(slot0.top)
 end
 
 slot0.UpdateActivity = function(slot0, slot1)

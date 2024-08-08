@@ -1,6 +1,126 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_4 = {
+	[107121] = {
+		name = "넓은 바다를 달리다",
+		id = 107121,
+		desc = "모항에서 제일 빠른 건 바로 나! …하하하, 지휘관! 방금 호넷의 멋진 모습 봤어? 에헴, 보여주고 싶은 건 아직 많지만, 아무래도 시합이라 다시 하는 건 불가능…하니까, 나중에 태워줄테니까 기대하고 있어♪",
+		illustrator2 = -1,
+		ship_group = 10712,
+		group_index = 1,
+		prefab = "dahuangfengII_2",
+		painting = "dahuangfengII_2",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 6,
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "133",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70776,
+		voice_actor = 24,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2,
+			6
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.483,
+					1.215,
+					0
+				}
+			},
+			plane = {
+				{
+					1.438,
+					1.01,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.34,
+							2.37,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				-138,
+				-1223,
+				0
+			},
+			{
+				0.92
+			}
+		},
+		special_effects = {
+			"lihui_dahuangfengII_2",
+			{
+				2198,
+				-102,
+				0
+			},
+			{
+				1.7
+			}
+		}
+	},
 	[107140] = {
 		name = "타이콘데로가",
 		id = 107140,
@@ -11956,120 +12076,6 @@ pg.base.ship_skin_template_4 = {
 				{
 					1.06,
 					0.84,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.37,
-							2.38,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201261] = {
-		name = "에스코트 해주세요!",
-		id = 201261,
-		desc = "아, 지휘관 씨, 여기야 여기! 오늘 데이트는 전부 지휘관 씨한테 맡겼었지? 그럼 지휘관 씨, 나에게 멋진 모습을 하나도 빠짐없이 보여줘! 히힛~",
-		illustrator2 = -1,
-		ship_group = 20126,
-		group_index = 1,
-		prefab = "wudi_2",
-		painting = "wudi_2",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 9,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "113",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70194,
-		voice_actor = 92,
-		spine_offset = "",
-		illustrator = 40,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.002,
-					0.936,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.884,
-					0.88,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.012,
-					0.026,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.892,
-					0.876,
 					0
 				}
 			}

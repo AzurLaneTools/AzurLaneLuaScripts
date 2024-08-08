@@ -12358,7 +12358,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "기간 한정 건조를 총 200회 실시하면, 뱅가드 100% 획득 가능! (최대 4척까지)"
+	tip = "「스트라스부르」, 「듀플렉스」의 등장 확률 UP!"
 }
 
 
@@ -28529,6 +28529,11 @@ _G.pg.base.gametip.battle_text_common_3 = {
 }
 
 
+_G.pg.base.gametip.battle_text_common_4 = {
+	tip = "<color=#f1f102>적이 주는 피해량이 대폭 상승한다. 적탄이 실드를 무시하고 사선 상에 있는 모든 아군 함선에게 피해를 입힌다.</color>"
+}
+
+
 _G.pg.base.gametip.battle_text_yingxiv4_1 = {
 	tip = "전쟁의 기사가 왼쪽으로 돌진합니다!"
 }
@@ -33930,4 +33935,133 @@ _G.pg.base.gametip["202406_main_help"] = {
  ⑤ 「놀이터」에 함선을 배치하면, 배치된 함선의 컨디션 회복 속도가 상승합니다. 이벤트에서 획득 가능한 「작은 별 증축 티켓」을 사용하면, 배치 슬롯을 확장할 수 있습니다.]]
 		}
 	}
+}
+
+
+_G.pg.base.gametip.MonopolyCar2024Game_title1 = {
+	tip = "클리어 횟수"
+}
+
+
+_G.pg.base.gametip.MonopolyCar2024Game_title2 = {
+	tip = "현재 진척도"
+}
+
+
+_G.pg.base.gametip.help_monopoly_car2024 = {
+	tip = {
+		{
+			info = " ■ 플레이 방법: "
+		},
+		{
+			info = "1. 매일 로그인하면 주사위(전진 횟수)를 3개, 이벤트 일간 임무를 클리어하면 추가로 주사위를 2개 얻을 수 있습니다."
+		},
+		{
+			info = "2. 시작 지점을 통과하면 함선 3척 중에서 하나를 스태프로 고를 수 있습니다."
+		},
+		{
+			info = "3. 전진 칸 수, 또는 밟은 칸의 내용에 따라 다양한 스태프 대사가 표시됩니다."
+		},
+		{
+			info = "4. 시작 지점을 3회 통과하면 한정 가구를 얻을 수 있습니다. 다른 스태프와 함께 시작 지점을 통과하면 물자 2,000을 얻을 수 있습니다."
+		},
+		{
+			info = "5. 밟은 칸에 따라 다음 효과를 획득할 수 있습니다."
+		},
+		{
+			info = "    물자를 소량 획득할 수 있습니다.",
+			icon = {
+				posX = 0,
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				path = "jinbi"
+			}
+		},
+		{
+			info = "    연료를 소량 획득할 수 있습니다.",
+			icon = {
+				posX = 0,
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				path = "shiyou"
+			}
+		},
+		{
+			info = "    자그마한 이벤트가 발생합니다.",
+			icon = {
+				posX = 0,
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				path = "minyun"
+			}
+		},
+		{
+			info = "    무작위로 보상을 획득할 수 있습니다.",
+			icon = {
+				posX = 0,
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				path = "daoju"
+			}
+		},
+		{
+			info = "    몇 칸 정도 전진합니다.",
+			icon = {
+				posX = 0,
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				path = "jiasu"
+			}
+		}
+	}
+}
+
+
+_G.pg.base.gametip.MonopolyCar2024Game_pick_tip = {
+	tip = "시작 지점을 통과하면 스태프를 변경할 수 있으며, 스태프와 함께 클리어하면 보상 획득 가능"
+}
+
+
+_G.pg.base.gametip.MonopolyCar2024Game_sel_label = {
+	tip = "선택"
+}
+
+
+_G.pg.base.gametip.MonopolyCar2024Game_total_award_title = {
+	tip = "획득 합계"
+}
+
+
+_G.pg.base.gametip.MonopolyCar2024Game_lock_auto_tip = {
+	tip = "10회 전진하면 자동 전진 모드가 오픈됩니다. (진척 $1)"
+}
+
+
+_G.pg.base.gametip.MonopolyCar2024Game_open_auto_tip = {
+	tip = "자동 전진 모드 오픈. 시작 지점 통과 시, 스태프가 자동으로 변경됩니다."
+}
+
+
+_G.pg.base.gametip.MonopolyCar2024Game_total_num_tip = {
+	tip = "잔여 전진 횟수: $1"
+}
+
+
+_G.pg.base.gametip.sitelasibao_expup_name = {
+	tip = "경험치 가산"
+}
+
+
+_G.pg.base.gametip.sitelasibao_expup_desc = {
+	tip = "이벤트 기간 중 <color=#92fc63>스트라스부르, 로데슈, 듀플렉스, Z23, 허마이오니, 폼페오 마뇨</color>로 출격 시, 획득 경험치 <color=#92fc63>20%</color> 상승"
+}
+
+
+_G.pg.base.gametip.levelScene_tracking_error_pre_2 = {
+	tip = "$1 또는 $2 클리어 시 오픈"
 }

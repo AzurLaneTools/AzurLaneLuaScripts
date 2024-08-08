@@ -18,6 +18,16 @@ return {
 			arg_list = {
 				skill_id = 6750
 			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "USDC"
+			}
 		}
 	}
 }

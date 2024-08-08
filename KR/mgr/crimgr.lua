@@ -373,12 +373,12 @@ slot1.InitBgmCfg = function(slot0, slot1)
 		VersionMgr.Inst:WebRequest("https://pro.ip-api.com/json/?key=TShzQlq7O9KuthI", function (slot0, slot1)
 			slot2 = uv0(slot1)
 
-			print("content: " .. slot1)
-			print("country is: " .. slot2)
+			originalPrint("content: " .. slot1)
+			originalPrint("country is: " .. slot2)
 
 			uv1.isDefaultBGM = uv2(slot2)
 
-			print("IP limit: " .. tostring(uv1.isDefaultBGM))
+			originalPrint("IP limit: " .. tostring(uv1.isDefaultBGM))
 
 			if uv3 then
 				uv3()

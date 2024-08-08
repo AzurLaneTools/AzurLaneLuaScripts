@@ -32,6 +32,8 @@ slot0.StatisticsInit = function(slot0, slot1)
 		}
 		slot0._statistics[slot7.id] = slot7
 	end
+
+	slot0._statistics._autoCount = 0
 end
 
 slot0.InitAidUnitStatistics = function(slot0, slot1)
@@ -534,4 +536,12 @@ end
 
 slot0.CalcAirFightScore = function(slot0)
 	slot0._statistics._battleScore = uv0.BattleScore.S
+end
+
+slot0.AutoStatistics = function(slot0, slot1)
+	if not slot0._statistics._autoInit then
+		slot0._statistics._autoInit = not slot1 and 1 or 0
+	else
+		slot0._statistics._autoCount = slot0._statistics._autoCount + 1
+	end
 end

@@ -1,5 +1,8 @@
 slot0 = class("Live2dDrag")
 slot1 = 4
+slot2 = {
+	Live2D.DRAG_DOWN_ACTION
+}
 
 slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.live2dData = slot2
@@ -176,14 +179,11 @@ slot0.startDrag = function(slot0)
 
 	if not slot0._active then
 		slot0._active = true
-
-		print("激活，id=" .. slot0.id)
-
 		slot0.mouseInputDown = Input.mousePosition
 		slot0.mouseInputDownTime = Time.time
 		slot0.triggerActionTime = 0
 
-		if slot0.actionTrigger.type == Live2D.DRAG_DOWN_ACTION then
+		if table.contains(uv0, slot0.actionTrigger.type) then
 			slot0.actionListIndex = 1
 		end
 
@@ -286,12 +286,14 @@ slot0.onEventCallback = function(slot0, slot1, slot2, slot3)
 		slot5 = nil
 		slot6 = false
 		slot7, slot8, slot9 = nil
+		slot10 = false
 
 		if slot0.actionTrigger.action then
 			slot5 = slot0:fillterAction(slot0.actionTrigger.action)
 			slot4 = slot0.actionTriggerActive
 			slot6 = slot0.actionTrigger.focus or false
 			slot7 = slot0.actionTrigger.target or nil
+			slot10 = slot0.actionTrigger.target_focus == 1 and true or false
 
 			if (slot0.actionTrigger.circle or nil) and slot7 and slot7 == slot0.parameterTargetValue then
 				slot7 = slot0.startValue
@@ -303,30 +305,27 @@ slot0.onEventCallback = function(slot0, slot1, slot2, slot3)
 			slot0:stopDrag()
 		elseif slot0.actionTrigger.action_list then
 			slot5 = slot0:fillterAction(slot0.actionTrigger.action_list[slot0.actionListIndex].action)
+			slot4 = (not slot0.actionTriggerActive.active_list or slot0.actionListIndex > #slot0.actionTriggerActive.active_list or slot0.actionTriggerActive.active_list[slot0.actionListIndex]) and slot0.actionTriggerActive
+			slot6 = slot11.focus or true
+			slot7 = slot11.target or nil
+			slot10 = slot11.target_focus == 1 and true or false
+			slot8 = slot11.react or nil
 
-			if slot0.actionTriggerActive.active_list and slot0.actionListIndex <= #slot0.actionTriggerActive.active_list then
-				slot4 = slot0.actionTriggerActive.active_list[slot0.actionListIndex]
-			end
-
-			slot6 = slot10.focus or true
-			slot7 = slot10.target or nil
-			slot8 = slot10.react or nil
+			slot0:triggerAction()
 
 			if slot0.actionListIndex == #slot0.actionTrigger.action_list then
-				slot0:triggerAction()
 				slot0:stopDrag()
 
 				slot0.actionListIndex = 1
 			else
 				slot0.actionListIndex = slot0.actionListIndex + 1
 			end
-
-			print("id = " .. slot0.id .. " action list index = " .. slot0.actionListIndex)
 		elseif not slot0.actionTrigger.action then
 			slot5 = slot0:fillterAction(slot0.actionTrigger.action)
 			slot4 = slot0.actionTriggerActive
 			slot6 = slot0.actionTrigger.focus or false
 			slot7 = slot0.actionTrigger.target or nil
+			slot10 = slot0.actionTrigger.target_focus == 1 and true or false
 
 			if (slot0.actionTrigger.circle or nil) and slot7 and slot7 == slot0.parameterTargetValue then
 				slot7 = slot0.startValue
@@ -340,16 +339,22 @@ slot0.onEventCallback = function(slot0, slot1, slot2, slot3)
 
 		if slot4.idle then
 			if type(slot4.idle) == "number" then
-				if slot4.idle == slot0.l2dIdleIndex and not slot4.repeatFlag then
+				if slot4.idle == slot0.l2dIdleIndex and not slot4.repeat_flag then
 					return
 				end
-			elseif type(slot4.idle) == "table" and #slot4.idle == 1 and slot4.idle[1] == slot0.l2dIdleIndex and not slot4.repeatFlag then
+			elseif type(slot4.idle) == "table" and #slot4.idle == 1 and slot4.idle[1] == slot0.l2dIdleIndex and not slot4.repeat_flag then
 				return
 			end
 		end
 
+		print("执行aplly数据 id = " .. slot0.id .. "播放action = " .. tostring(slot5) .. "active idle is " .. tostring(slot4.idle))
+
 		if slot7 then
 			slot0:setTargetValue(slot7)
+
+			if slot10 then
+				slot0:setParameterValue(slot7)
+			end
 
 			if not slot5 then
 				slot0.revertResetFlag = true
@@ -370,7 +375,7 @@ slot0.onEventCallback = function(slot0, slot1, slot2, slot3)
 	elseif slot1 == Live2D.EVENT_ACTION_ABLE then
 		-- Nothing
 	elseif slot1 == Live2D.EVENT_CHANGE_IDLE_INDEX then
-		print("CHANGE idle")
+		print("change idle")
 	end
 
 	slot0._eventCallback(slot1, slot2)
@@ -378,7 +383,7 @@ end
 
 slot0.fillterAction = function(slot0, slot1)
 	if type(slot1) == "table" then
-		return slot1[math.random(1, #slot0.actionTrigger.action)]
+		return slot1[math.random(1, #slot1)]
 	else
 		return slot1
 	end
@@ -743,7 +748,7 @@ slot0.updateTrigger = function(slot0)
 		end
 	elseif slot1 == Live2D.DRAG_DOWN_ACTION then
 		if slot0._active then
-			if slot0.firstActive then
+			if not slot0.ableFalg then
 				slot0.ableFalg = true
 
 				slot0:onEventCallback(Live2D.EVENT_ACTION_ABLE, {
@@ -752,6 +757,7 @@ slot0.updateTrigger = function(slot0)
 			end
 
 			if slot3 <= Time.time - slot0.mouseInputDownTime then
+				print("触发按压动作")
 				slot0:onEventCallback(Live2D.EVENT_ACTION_ABLE, {
 					ableFlag = false
 				})
@@ -763,6 +769,16 @@ slot0.updateTrigger = function(slot0)
 						uv0:onEventNotice(Live2D.ON_ACTION_DOWN)
 					end
 				end)
+
+				if slot0.actionListIndex ~= 1 then
+					slot0:setTriggerActionFlag(false)
+				end
+
+				slot0.ableFalg = true
+
+				slot0:onEventCallback(Live2D.EVENT_ACTION_ABLE, {
+					ableFlag = true
+				})
 
 				slot0.mouseInputDownTime = Time.time
 			end
@@ -914,6 +930,7 @@ slot0.saveData = function(slot0)
 	end
 
 	if slot0.actionTrigger.type == Live2D.DRAG_CLICK_MANY then
+		print("保存actionListIndex" .. slot0.actionListIndex)
 		Live2dConst.SetDragActionIndex(slot0.id, slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id, slot0.actionListIndex)
 	end
 end

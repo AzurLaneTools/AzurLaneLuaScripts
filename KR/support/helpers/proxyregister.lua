@@ -4,7 +4,7 @@ slot0.MinuteCall = "min"
 slot0.HourCall = "hour"
 slot0.DayCall = "day"
 
-slot0.Ctor = function(slot0, slot1)
+slot0.Ctor = function(slot0)
 	slot0.data = {}
 	slot0.callDic = {
 		[uv0.SecondCall] = {},
@@ -12,13 +12,6 @@ slot0.Ctor = function(slot0, slot1)
 		[uv0.HourCall] = {},
 		[uv0.DayCall] = {}
 	}
-	slot5 = true
-	slot0.dateMark = pg.TimeMgr.GetInstance():CurrentSTimeDesc("*t", slot5)
-
-	for slot5, slot6 in ipairs(slot1) do
-		slot0:AddProxy(unpack(slot6))
-	end
-
 	slot0.timer = CoTimer.New(function ()
 		uv0:Dispatcher()
 	end, 1, -1)
@@ -38,19 +31,29 @@ slot0.AddProxy = function(slot0, slot1, slot2, ...)
 	end
 end
 
-slot0.RgisterProxy = function(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.data) do
-		slot1:registerProxy(slot6)
+slot0.RgisterProxy = function(slot0, slot1, slot2)
+	for slot6, slot7 in ipairs(slot2) do
+		slot0:AddProxy(unpack(slot7))
 	end
 
-	slot0.timer:Start()
+	for slot6, slot7 in ipairs(slot0.data) do
+		slot1:registerProxy(slot7)
+	end
 end
 
 slot0.RemoveProxy = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.data) do
 		slot1:removeProxy(slot6.__cname)
 	end
+end
 
+slot0.Start = function(slot0)
+	slot0.dateMark = pg.TimeMgr.GetInstance():CurrentSTimeDesc("*t", true)
+
+	slot0.timer:Start()
+end
+
+slot0.Stop = function(slot0)
 	slot0.timer:Stop()
 end
 

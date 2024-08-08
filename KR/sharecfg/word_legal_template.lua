@@ -217,9 +217,6 @@ temp = function()
 			},
 			["호"] = {
 				this = true
-			},
-			["센"] = {
-				this = true
 			}
 		}
 	}
@@ -518,11 +515,6 @@ temp = function()
 				["키"] = {
 					this = true
 				}
-			}
-		},
-		["루"] = {
-			["가"] = {
-				this = true
 			}
 		},
 		["트"] = {
@@ -856,16 +848,6 @@ temp = function()
 				}
 			}
 		},
-		["루"] = {
-			["츠"] = {
-				["키"] = {
-					this = true
-				}
-			},
-			["나"] = {
-				this = true
-			}
-		},
 		["타"] = {
 			["카"] = {
 				["제"] = {
@@ -878,6 +860,11 @@ temp = function()
 				this = true
 			}
 		},
+		["루"] = {
+			["나"] = {
+				this = true
+			}
+		},
 		["이"] = {
 			["티"] = {
 				["엔"] = {
@@ -885,11 +872,6 @@ temp = function()
 				}
 			},
 			["치"] = {
-				this = true
-			}
-		},
-		["쿠"] = {
-			["류"] = {
 				this = true
 			}
 		},
@@ -994,9 +976,6 @@ temp = function()
 					}
 				}
 			},
-			["기"] = {
-				this = true
-			},
 			["미"] = {
 				[" "] = {
 					["하"] = {
@@ -1081,13 +1060,6 @@ temp = function()
 		["리"] = {
 			["아"] = {
 				["케"] = {
-					this = true
-				}
-			}
-		},
-		["사"] = {
-			["나"] = {
-				["기"] = {
 					this = true
 				}
 			}
@@ -1508,34 +1480,6 @@ temp = function()
 				}
 			}
 		},
-		["오"] = {
-			["시"] = {
-				["오"] = {
-					this = true
-				}
-			},
-			["카"] = {
-				["미"] = {
-					[" "] = {
-						["미"] = {
-							["오"] = {
-								this = true
-							}
-						}
-					}
-				}
-			}
-		},
-		["이"] = {
-			["테"] = {
-				this = true
-			}
-		},
-		["와"] = {
-			["리"] = {
-				this = true
-			}
-		},
 		["토"] = {
 			[" "] = {
 				["폰"] = {
@@ -1560,6 +1504,19 @@ temp = function()
 				["보"] = {
 					["이"] = {
 						this = true
+					}
+				}
+			}
+		},
+		["오"] = {
+			["카"] = {
+				["미"] = {
+					[" "] = {
+						["미"] = {
+							["오"] = {
+								this = true
+							}
+						}
 					}
 				}
 			}
@@ -2099,23 +2056,9 @@ temp = function()
 						}
 					}
 				},
-				["아"] = {
-					["마"] = {
-						["기"] = {
-							this = true
-						}
-					}
-				},
 				["다"] = {
 					["이"] = {
 						["호"] = {
-							this = true
-						}
-					}
-				},
-				["시"] = {
-					["나"] = {
-						["노"] = {
 							this = true
 						}
 					}
@@ -2224,13 +2167,6 @@ temp = function()
 		["츠"] = {
 			["카"] = {
 				["제"] = {
-					this = true
-				}
-			}
-		},
-		["키"] = {
-			["나"] = {
-				["미"] = {
 					this = true
 				}
 			}
@@ -3048,11 +2984,6 @@ temp = function()
 				}
 			}
 		},
-		["카"] = {
-			["와"] = {
-				this = true
-			}
-		},
 		["라"] = {
 			["나"] = {
 				this = true
@@ -3158,36 +3089,13 @@ temp = function()
 				}
 			}
 		},
-		["와"] = {
-			["카"] = {
-				["제"] = {
-					this = true
-				}
-			}
-		},
 		["스"] = {
 			["미"] = {
 				this = true,
 				["·"] = {
 					["改"] = {
 						this = true
-					},
-					M = {
-						E = {
-							T = {
-								A = {
-									this = true
-								}
-							}
-						}
 					}
-				}
-			}
-		},
-		["자"] = {
-			["구"] = {
-				["모"] = {
-					this = true
 				}
 			}
 		},
@@ -3196,18 +3104,6 @@ temp = function()
 		},
 		["가"] = {
 			this = true
-		},
-		["츠"] = {
-			["라"] = {
-				["기"] = {
-					this = true
-				}
-			}
-		},
-		["시"] = {
-			["노"] = {
-				this = true
-			}
 		},
 		["를"] = {
 			["스"] = {
@@ -3375,11 +3271,6 @@ temp = function()
 		["카"] = {
 			["바"] = {
 				this = true
-			},
-			["츠"] = {
-				["키"] = {
-					this = true
-				}
 			}
 		}
 	}
@@ -4076,36 +3967,15 @@ temp = function()
 		["1"] = {
 			["9"] = {
 				this = true
-			},
-			["6"] = {
-				["8"] = {
-					this = true
-				}
 			}
 		},
 		["2"] = {
 			["6"] = {
 				this = true
-			},
-			["5"] = {
-				this = true
 			}
 		},
 		["5"] = {
 			["8"] = {
-				this = true
-			},
-			["6"] = {
-				this = true
-			}
-		},
-		["부"] = {
-			["키"] = {
-				this = true
-			}
-		},
-		["즈"] = {
-			["모"] = {
 				this = true
 			}
 		}
@@ -4127,31 +3997,7 @@ temp = function()
 			}
 		},
 		["류"] = {
-			this = true,
-			["·"] = {
-				M = {
-					E = {
-						T = {
-							A = {
-								this = true
-							}
-						}
-					}
-				}
-			}
-		},
-		["요"] = {
-			["·"] = {
-				M = {
-					E = {
-						T = {
-							A = {
-								this = true
-							}
-						}
-					}
-				}
-			}
+			this = true
 		}
 	}
 end
@@ -4423,18 +4269,6 @@ temp = function()
 				this = true
 			}
 		},
-		["미"] = {
-			["즈"] = {
-				["키"] = {
-					this = true
-				}
-			},
-			["뤼"] = {
-				["르"] = {
-					this = true
-				}
-			}
-		},
 		["루"] = {
 			["타"] = {
 				["카"] = {
@@ -4447,20 +4281,18 @@ temp = function()
 			["·"] = {
 				["改"] = {
 					this = true
-				},
-				M = {
-					E = {
-						T = {
-							A = {
-								this = true
-							}
-						}
-					}
 				}
 			}
 		},
 		["번"] = {
 			this = true
+		},
+		["미"] = {
+			["뤼"] = {
+				["르"] = {
+					this = true
+				}
+			}
 		},
 		["타"] = {
 			["미"] = {
@@ -4636,9 +4468,6 @@ temp = function()
 			["리"] = {
 				this = true
 			}
-		},
-		["라"] = {
-			this = true
 		},
 		["미"] = {
 			this = true
@@ -4839,15 +4668,7 @@ temp = function()
 				}
 			}
 		},
-		["요"] = {
-			["나"] = {
-				["미"] = {
-					this = true
-				}
-			}
-		},
 		["누"] = {
-			this = true,
 			["가"] = {
 				["사"] = {
 					this = true
@@ -4981,22 +4802,7 @@ temp()
 temp = function()
 	uv0["나"] = {
 		["가"] = {
-			["츠"] = {
-				["키"] = {
-					this = true
-				}
-			},
-			["나"] = {
-				["미"] = {
-					this = true
-				}
-			},
 			["라"] = {
-				this = true
-			}
-		},
-		["토"] = {
-			["리"] = {
 				this = true
 			}
 		},
@@ -5052,56 +4858,9 @@ end
 temp()
 
 temp = function()
-	uv0["야"] = {
-		["마"] = {
-			["카"] = {
-				["제"] = {
-					this = true
-				}
-			},
-			["시"] = {
-				["로"] = {
-					this = true,
-					["·"] = {
-						["改"] = {
-							this = true
-						},
-						M = {
-							E = {
-								T = {
-									A = {
-										this = true
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		},
-		["드"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["진"] = {
 		["츠"] = {
-			this = true,
-			["·"] = {
-				M = {
-					E = {
-						T = {
-							A = {
-								this = true
-							}
-						}
-					}
-				}
-			}
+			this = true
 		}
 	}
 end
@@ -5148,30 +4907,9 @@ end
 temp()
 
 temp = function()
-	uv0["운"] = {
-		["젠"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["콘"] = {
 		["고"] = {
-			this = true,
-			["("] = {
-				["μ"] = {
-					["장"] = {
-						["비"] = {
-							[")"] = {
-								this = true
-							}
-						}
-					}
-				}
-			}
+			this = true
 		},
 		["테"] = {
 			[" "] = {
@@ -5196,6 +4934,28 @@ end
 temp()
 
 temp = function()
+	uv0["야"] = {
+		["마"] = {
+			["시"] = {
+				["로"] = {
+					this = true,
+					["·"] = {
+						["改"] = {
+							this = true
+						}
+					}
+				}
+			}
+		},
+		["드"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["쇼"] = {
 		["호"] = {
 			this = true
@@ -5211,30 +4971,9 @@ end
 temp()
 
 temp = function()
-	uv0["류"] = {
-		["호"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["소"] = {
 		["류"] = {
-			this = true,
-			["·"] = {
-				M = {
-					E = {
-						T = {
-							A = {
-								this = true
-							}
-						}
-					}
-				}
-			}
+			this = true
 		},
 		["브"] = {
 			["라"] = {
@@ -6179,11 +5918,53 @@ end
 temp()
 
 temp = function()
+	uv0["果"] = {
+		["敢"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["迪"] = {
+		["普"] = {
+			["莱"] = {
+				["克"] = {
+					["斯"] = {
+						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["됭"] = {
 		["케"] = {
 			["르"] = {
 				["크"] = {
 					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["斯"] = {
+		["特"] = {
+			["拉"] = {
+				["斯"] = {
+					["堡"] = {
+						this = true
+					}
 				}
 			}
 		}
@@ -6408,26 +6189,6 @@ temp = function()
 					[" "] = {
 						["갤"] = {
 							["리"] = {
-								this = true
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["준"] = {
-		["요"] = {
-			["·"] = {
-				M = {
-					E = {
-						T = {
-							A = {
 								this = true
 							}
 						}

@@ -494,6 +494,162 @@ pg.soundstory_template = {
 			}
 		}
 	},
+	{
+		CV_JP = "누쿠이 유카",
+		audition_resource_CN = "ss-50602-1",
+		id = 12,
+		audition_text = "「대담해졌다 」고요? 후후후, 여기엔 우리 말고 아무도 없으니까요. 조금 정도는… 괜찮을 거 같아서요♪",
+		story_resource_CN = "soundStory12_CN",
+		story_resource_JP = "soundStory12_JP",
+		ship_id = 50602,
+		audition_resource_JP = "ss-50602-2",
+		story_pic = "",
+		overview = "화지아와 술래잡기. 다른 술래들을 피해 도망친 곳은 무려… 캐비닛?!",
+		name = "비밀스레 즐기는 둘만의 시간",
+		CV_CN = "村雨",
+		order = 2,
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					8,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		CV_JP = "야스노 키요노",
+		audition_resource_CN = "",
+		id = 13,
+		audition_text = "있잖아, 지휘관… 오늘은 계속 내 곁에 있어 줘.",
+		story_resource_CN = "",
+		story_resource_JP = "soundStory13_JP",
+		ship_id = 40314,
+		audition_resource_JP = "ss-40314-1",
+		story_pic = "",
+		overview = "뜨거운 여름밤에 프리드리히 카를과 나누는 「사랑」의 이야기.",
+		name = "취기 어린 여름의 랑데부",
+		CV_CN = "",
+		order = 2,
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					8,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		CV_JP = "다나카 아이미",
+		audition_resource_CN = "",
+		id = 14,
+		audition_text = "응? 입으로는 싫다면서 몸은 정직한걸? 어때? 맛있는 냄새가 나지?",
+		story_resource_CN = "",
+		story_resource_JP = "soundStory14_JP",
+		ship_id = 960001,
+		audition_resource_JP = "ss-960001-1",
+		story_pic = "",
+		overview = "보물찾기 중에 함정에 빠진 당신 앞에 모습을 드러낸 해적 소녀.",
+		name = "달콤한 함정에 빠져",
+		CV_CN = "",
+		order = 2,
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					8,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -505,6 +661,9 @@ pg.soundstory_template = {
 		8,
 		9,
 		10,
-		11
+		11,
+		12,
+		13,
+		14
 	}
 }

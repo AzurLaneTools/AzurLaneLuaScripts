@@ -1,30 +1,5 @@
 pg = pg or {}
 pg.enemy_data_statistics_2 = {
-	[50024] = {
-		antiaircraft_growth = 6650,
-		name = "게리온",
-		cannon_growth = 6650,
-		speed_growth = 10000,
-		torpedo_growth = 6650,
-		fog_fx = "",
-		bubble_fx = "",
-		reload_growth = 6650,
-		dodge_growth = 10000,
-		armor_growth = 0,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 50021,
-		durability_growth = 6650,
-		luck_growth = 10000,
-		hit_growth = 6650,
-		id = 50024,
-		specific_fx_scale = {},
-		appear_fx = {},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
 	[50025] = {
 		antiaircraft_growth = 7200,
 		name = "게리온",
@@ -941,5 +916,33 @@ pg.enemy_data_statistics_2 = {
 		dodge_growth = 10000,
 		reload_growth = 8850,
 		id = 50058
+	},
+	[50059] = {
+		base = 50051,
+		name = "후스피시카",
+		torpedo_growth = 9400,
+		cannon_growth = 9400,
+		hit_growth = 9400,
+		fog_fx = "",
+		durability_growth = 4500,
+		bubble_fx = "",
+		antiaircraft_growth = 9400,
+		dodge_growth = 10000,
+		reload_growth = 9400,
+		id = 50059
+	},
+	[50060] = {
+		base = 50051,
+		name = "후스피시카",
+		torpedo_growth = 10000,
+		cannon_growth = 10000,
+		hit_growth = 10000,
+		fog_fx = "",
+		durability_growth = 5000,
+		bubble_fx = "",
+		antiaircraft_growth = 10000,
+		dodge_growth = 10000,
+		reload_growth = 10000,
+		id = 50060
 	}
 }

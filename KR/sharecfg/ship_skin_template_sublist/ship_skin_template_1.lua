@@ -5137,6 +5137,120 @@ pg.base.ship_skin_template_1 = {
 			}
 		}
 	},
+	[101255] = {
+		name = "Blushing Fellow",
+		id = 101255,
+		desc = "어, 어째서 허먼이 이런 모습으로 지휘관을 응원해야 하는 건데… 꼭 이런 옷을 입어야 해…? 으으, 부끄럽지만… 그렇다고 도망치면 심즈랑 다른 함선들이 놀릴 텐데, 어떡하지… 으아?! 지, 지휘관?!",
+		illustrator2 = -1,
+		ship_group = 10125,
+		group_index = 5,
+		prefab = "haman_6",
+		painting = "haman_6",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 14,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "186",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71032,
+		voice_actor = 5,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.186,
+					1.003,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.227,
+					0.986,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.238,
+					1.005,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.389,
+							2.595,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[101259] = {
 		name = "허먼·改",
 		id = 101259,
@@ -12310,134 +12424,6 @@ pg.base.ship_skin_template_1 = {
 						{
 							-0.61,
 							0.53,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[102040] = {
-		name = "피닉스",
-		id = 102040,
-		desc = "브루클린급 순양함·피닉스 (CL-46)",
-		illustrator2 = -1,
-		ship_group = 10204,
-		group_index = 0,
-		prefab = "feinikesi",
-		painting = "feinikesi",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 64,
-		spine_offset = "",
-		illustrator = 7,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.32,
-					0.833,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.32,
-					0.833,
-					0
-				},
-				{
-					0.068,
-					0.683,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.897,
-					0.902,
-					0
-				},
-				{
-					-0.546,
-					0.902,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.54,
-							0.43,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.06,
-							0.59,
 							0
 						}
 					}

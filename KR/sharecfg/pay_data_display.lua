@@ -7784,7 +7784,7 @@ pg.base.pay_data_display = {
 					7
 				},
 				{
-					23,
+					22,
 					59,
 					59
 				}
@@ -7859,7 +7859,7 @@ pg.base.pay_data_display = {
 					7
 				},
 				{
-					23,
+					22,
 					59,
 					59
 				}
@@ -7934,7 +7934,7 @@ pg.base.pay_data_display = {
 					7
 				},
 				{
-					23,
+					22,
 					59,
 					59
 				}
@@ -8009,7 +8009,7 @@ pg.base.pay_data_display = {
 					7
 				},
 				{
-					23,
+					22,
 					59,
 					59
 				}
@@ -8084,7 +8084,7 @@ pg.base.pay_data_display = {
 					7
 				},
 				{
-					23,
+					22,
 					59,
 					59
 				}

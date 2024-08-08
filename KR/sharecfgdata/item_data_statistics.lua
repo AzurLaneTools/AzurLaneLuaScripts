@@ -34548,7 +34548,7 @@ _G.pg.base.item_data_statistics[30542] = {
 
 _G.pg.base.item_data_statistics[30543] = {
 	open_directly = 0,
-	name = "선택 장비 스킨 상자(2022 춘절)",
+	name = "선택 장비 스킨 상자 (2022 춘절)",
 	type = 13,
 	display = "사용하면 장비 스킨(2022 춘절) 중 하나를 선택해서 획득할 수 있습니다.",
 	other_resource_cost = "[]",

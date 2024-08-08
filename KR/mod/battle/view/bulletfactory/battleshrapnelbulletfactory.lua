@@ -10,6 +10,8 @@ slot5 = slot0.Battle.BattleShrapnelBulletFactory
 slot5.INHERIT_NONE = 0
 slot5.INHERIT_ANGLE = 1
 slot5.INHERIT_SPEED_NORMALIZE = 2
+slot5.FRAGILE_DAMAGE_NOT_SPLIT = 1
+slot5.FRAGILE_NOT_DAMAGE_NOT_SPLIT = 2
 
 slot5.Ctor = function(slot0)
 	uv0.super.Ctor(slot0)
@@ -45,9 +47,21 @@ slot5.onBulletHitFunc = function(slot0, slot1, slot2)
 	slot5 = slot4:GetCurrentState()
 	slot6 = slot4:GetTemplate()
 	slot7 = slot6.extra_param.shrapnel
+	slot8 = slot6.extra_param.fragile
+	slot9 = slot6.extra_param.hitSplitOnly
 
-	if slot6.extra_param.fragile and slot1 then
-		uv1.Battle.BattleCannonBulletFactory.onBulletHitFunc(slot0, slot1, slot2)
+	if not slot1 and slot9 then
+		slot3:RemoveBulletUnit(slot4:GetUniqueID())
+
+		return
+	end
+
+	if slot8 and slot1 then
+		if slot8 == uv0.FRAGILE_DAMAGE_NOT_SPLIT then
+			uv1.Battle.BattleCannonBulletFactory.onBulletHitFunc(slot0, slot1, slot2)
+		elseif slot8 == uv0.FRAGILE_NOT_DAMAGE_NOT_SPLIT then
+			slot3:RemoveBulletUnit(slot4:GetUniqueID())
+		end
 
 		return
 	end
@@ -65,20 +79,20 @@ slot5.onBulletHitFunc = function(slot0, slot1, slot2)
 	end
 
 	if slot1 ~= nil and slot2 ~= nil then
-		slot9 = nil
+		slot10 = nil
 
 		if table.contains(uv2, slot2) then
-			slot9 = uv0.GetSceneMediator():GetAircraft(slot1)
+			slot10 = uv0.GetSceneMediator():GetAircraft(slot1)
 		elseif table.contains(uv3, slot2) then
-			slot9 = uv0.GetSceneMediator():GetCharacter(slot1)
+			slot10 = uv0.GetSceneMediator():GetCharacter(slot1)
 		end
 
-		slot11 = slot9:AddFX(slot0:GetFXID())
+		slot12 = slot10:AddFX(slot0:GetFXID())
 
-		if slot9:GetUnitData():GetIFF() == slot3:GetFoeCode() then
-			slot12 = slot11.transform
-			slot13 = slot12.localRotation
-			slot12.localRotation = Vector3(slot13.x, 180, slot13.z)
+		if slot10:GetUnitData():GetIFF() == slot3:GetFoeCode() then
+			slot13 = slot12.transform
+			slot14 = slot13.localRotation
+			slot13.localRotation = Vector3(slot14.x, 180, slot14.z)
 		end
 	end
 

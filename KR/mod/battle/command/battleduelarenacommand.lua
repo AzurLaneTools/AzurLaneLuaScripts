@@ -47,6 +47,7 @@ slot3.DoPrologue = function(slot0)
 		name = slot3.name,
 		level = slot8
 	})
+	slot0._dataProxy:AutoStatistics(1)
 	slot0._uiMediator:OpeningEffect(function ()
 		uv0._state:ChangeState(uv1.Battle.BattleState.BATTLE_STATE_FIGHT)
 		uv0._weaponCommand:ActiveBot(true, false)

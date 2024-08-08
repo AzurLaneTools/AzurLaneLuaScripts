@@ -464,6 +464,14 @@ pg.battlepass_event_award = {
 			1
 		}
 	},
+	[10018] = {
+		id = 10018,
+		drop_client = {
+			2,
+			30332,
+			1
+		}
+	},
 	[11015] = {
 		id = 11015,
 		drop_client = {
@@ -485,14 +493,6 @@ pg.battlepass_event_award = {
 		drop_client = {
 			2,
 			30541,
-			1
-		}
-	},
-	[10018] = {
-		id = 10018,
-		drop_client = {
-			2,
-			30332,
 			1
 		}
 	},
