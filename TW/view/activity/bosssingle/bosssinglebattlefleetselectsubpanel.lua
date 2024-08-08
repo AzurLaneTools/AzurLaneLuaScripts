@@ -4,6 +4,12 @@ slot0.getUIName = function(slot0)
 	return "BossSingleFleetSelectView"
 end
 
+slot0.InvokeParent = function(slot0, slot1, ...)
+	if slot0.viewParent then
+		slot0.viewParent[slot1](slot0.viewParent, ...)
+	end
+end
+
 slot0.OnInit = function(slot0)
 	slot0.tfShipTpl = slot0:findTF("panel/shiptpl")
 	slot0.tfEmptyTpl = slot0:findTF("panel/emptytpl")

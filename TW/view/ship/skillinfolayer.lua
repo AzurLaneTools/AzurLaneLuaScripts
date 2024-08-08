@@ -21,6 +21,9 @@ slot0.init = function(slot0)
 	slot0.metaBtn = slot0:findTF("panel/buttonList/meta_button")
 
 	setText(slot0:findTF("Image", slot0.metaBtn), i18n("meta_skillbtn_tactics"))
+	setText(slot0:findTF("panel/top/title_list/infomation/title"), i18n("words_information"))
+	setText(slot0.buttonList:Find("ok_button/Image"), i18n("text_confirm"))
+	setText(slot0.buttonList:Find("level_button/Image"), i18n("msgbox_text_upgrade"))
 end
 
 slot0.didEnter = function(slot0)
@@ -116,6 +119,37 @@ slot0.willExit = function(slot0)
 	if slot0.contextData.onExit then
 		slot0.contextData.onExit()
 	end
+end
+
+slot0.inOutAnim = function(slot0, slot1, slot2)
+	if slot1 then
+		slot4 = slot0:findTF("panel/bg_decorations"):GetComponent(typeof(Animation))
+
+		slot4:Stop()
+		slot4:Play("anim_window_bg")
+
+		slot6 = slot0:findTF("panel/top"):GetComponent(typeof(Animation))
+
+		slot6:Stop()
+		slot6:Play("anim_top")
+
+		slot8 = slot0:findTF("panel/bg"):GetComponent(typeof(Animation))
+
+		slot8:Stop()
+		slot8:Play("anim_content")
+
+		slot10 = slot0:findTF("bg"):GetComponent(typeof(Animation))
+
+		slot10:Stop()
+		slot10:Play("anim_bg_plus")
+
+		slot12 = slot0:findTF("panel/buttonList"):GetComponent(typeof(Animation))
+
+		slot12:Stop()
+		slot12:Play("anim_button_container")
+	end
+
+	slot2()
 end
 
 return slot0

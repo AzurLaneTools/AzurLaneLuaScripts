@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"最甜蜜的发明\n\n<size=45>四　天才的意料之外</size>",
+					"最甜蜜的發明\n\n<size=45>4 天才的意料之外</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-richang-6",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "某个身心疲惫的工作日——",
+			say = "某個身心疲憊的工作日——",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -51,7 +51,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "想找“它”帮忙按摩一下，却发现“它”不见了……",
+			say = "想找「它」幫忙按摩一下，卻發現「它」不見了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官是在找“酸痛肩膀按摩机”么？",
+			say = "指揮官是在找「酸痛肩膀按摩機」嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我已经把它扔到废弃物品仓库了。",
+			say = "我已經把它丟到廢棄物品倉庫了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "陪伴了我那么多天的按摩机，居然就这么被废弃了……！",
+			say = "陪伴了我那麼多天的按摩機，居然就這麼被廢棄了……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "之前你不是觉得按摩机噪音太大影响休息，所以不太喜欢吗？",
+			say = "之前不是覺得按摩機噪音太大影響休息，所以不太喜歡嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "但它按摩效果确实非常到位，只要能解决一下噪音问题就完美了。",
+			say = "但它按摩效果確實非常到位，只要能解決噪音問題就完美了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可是降低噪音的话必然会影响到按摩效果哦，这就和我设计“酸痛肩膀按摩机”的初衷相背离了。",
+			say = "可是降低噪音的話必然會影響到按摩效果哦，這就和我設計「酸痛肩膀按摩機」的初衷相背離了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "真可惜啊，明明是个不错的发明……",
+			say = "真可惜啊，明明是個不錯的發明……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不错？",
+			say = "不錯？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦？从指挥官的使用体验上来看明明是失败的发明哦。",
+			say = "咦？從指揮官的使用體驗來看明明是失敗的發明哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "它噪音太大，影响到休息，与让人放松的意图相违背。",
+			say = "它噪音太大，影響到休息，與讓人放鬆的意圖相違背。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "……所以只要解决一下噪音问题。",
+			say = "……所以只要解決一下噪音問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以说！降低噪音的话必然会影响到按摩效果！",
+			say = "所以說！降低噪音的話必然會影響到按摩效果！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,7 +258,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就算经过改进降低了噪音，也与我原本的设计初衷不符！",
+			say = "就算經過改進降低了噪音，也與我原本的設計初衷不符！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不符合设计初衷的发明……自然是失败的发明。",
+			say = "不符合設計初衷的發明……自然是失敗的發明。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,7 +294,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯嗯！不管怎么看，它都是失败的发明，指挥官还是忘了它吧！",
+			say = "嗯嗯！不管怎麼看，它都是失敗的發明，指揮官還是忘了它吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "“不符合设计初衷的发明自然是失败的发明”么……",
+			say = "「不符合設計初衷的發明自然是失敗的發明」麼…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "看来达芬奇对于发明成功与否的定义比想象中还要刁钻，或许这就是天才的标准吧。",
+			say = "看來達文西對於發明成功與否的定義比想像中還要刁鑽，或許這就是天才的標準吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "额……指挥官你要是实在想再看看它，我带你去趟仓库就是了。",
+			say = "呃……指揮官你要是實在想再看看它，我帶你去趟倉庫就是了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -352,7 +352,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "放心，单纯被判定为失败的发明我是不会销毁的，它还完好无损的躺在某个角落呢！",
+			say = "放心，單純被判定為失敗的發明我是不會銷毀的，它還完好無損的躺在某個角落！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_148",
-			say = "与达芬奇一同来到了她的废弃物品仓库。",
+			say = "與達文西一同來到了她的廢棄物倉庫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "各式各样大小不一的“失败”发明从门口一直延伸到了目所能及的远方。",
+			say = "各式各樣大小不一的「失敗」發明從門口一直延伸到了目所能及的遠方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "虽然达芬奇认为这些是失败的发明，但以普通人的视角去看待，这里简直就是宝库。",
+			say = "雖然達文西認為這些是失敗的發明，但以一般人的視角去看待，這裡簡直就是寶庫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官你看，那边是我设计的“钢琴车”，演奏者可以一边演奏一边在室外随处移动。",
+			say = "指揮官你看，那邊是我設計的「鋼琴車」，演奏者可以一邊演奏一邊在戶外隨處移動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可惜室外太过空旷，演奏出来的效果并不好……",
+			say = "可惜室外太過空曠，演奏出來的效果並不好……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,7 +456,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "加之无法兼顾安全驾驶的原因，我就把它放在这里了。",
+			say = "加上無法兼顧安全駕駛的原因，我就把它放在這裡了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -471,7 +471,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "如果只局限于室内演奏的话，这辆钢琴车可以方便的在房间中进行转移。",
+			say = "如果只限於室內演奏的話，這輛鋼琴車可以方便的在房間中進行轉移。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "如果铺设好固定轨道的话，安全驾驶的问题能够解决，也能有不错的舞台效果……",
+			say = "如果鋪設固定軌道的話，安全駕駛的問題能夠解決，也能有不錯的舞台效果……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你说得对，但是！",
+			say = "你說得對，但是！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "随时随地在室外表演才是这项发明的设计初衷啊！",
+			say = "隨時隨地在戶外表演才是這項發明的設計初衷！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -538,7 +538,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不符合设计初衷的发明自然是失败的发明！",
+			say = "不符合設計初衷的發明自然是失敗的發明！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -559,7 +559,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "……达芬奇对发明“失败”的定义，果然异于常人。",
+			say = "……達文西對發明「失敗」的定義，果然異於常人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "……嗯？放在一旁架子上的是……“酸痛肩膀按摩机”，找到你了。",
+			say = "……嗯？放在一旁架子上的是……「酸痛肩膀按摩機」，找到你了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这明明是失败的发明，指挥官真的要把它带回去吗？",
+			say = "這明明是個失敗的發明，指揮官真的要把它帶回去嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -599,7 +599,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "对于发明者而言的失败发明，对于使用者来说却不一定哦。",
+			say = "對於發明者而言的失敗發明，對使用者來說卻不一定喔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_148",
 			hidePaintObj = true,
-			say = "走吧，我们回指挥室——",
+			say = "走吧，我們回指揮室——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,7 +624,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（明明是失败的发明，却能让指挥官念念不忘……）",
+			say = "（明明是失敗的發明，卻能讓指揮官念念不忘……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -642,7 +642,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（对于发明者而言的失败发明，对于使用者来说却不一定……）",
+			say = "（對於發明者而言的失敗發明，對使用者來說卻不一定…）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -660,7 +660,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（旁观者的看法……指挥官的看法……）",
+			say = "（旁觀者的看法……指揮官的看法……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -696,7 +696,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（我这是，在意指挥官对我发明的看法吗？）",
+			say = "（我這是，在意指揮官對我發明的看法嗎？）",
 			painting = {
 				alpha = 0.3,
 				time = 1

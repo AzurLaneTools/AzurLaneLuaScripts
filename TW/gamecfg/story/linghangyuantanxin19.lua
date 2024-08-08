@@ -14,9 +14,9 @@ return {
 			bgm = "qe-ova-12",
 			tbActor = true,
 			actor = 1101,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "说起来，我还不知道{tb}您喜欢吃什么口味的巧克力呢。",
+			say = "說起來，我還不知道{tb}您喜歡吃什麼口味的巧克力呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "怎么突然问起了这个？",
+			say = "怎麼突然問起了這個？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,9 +58,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1101,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "嗯，最近想在家里做巧克力，所以就想以您的口味为主。",
+			say = "嗯，最近想在家裡做巧克力，所以就想以您的口味為主。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "口味啊……其实我没有什么特别的偏好。",
+			say = "口味啊……其實我沒有特別的偏好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过巧克力本身作为能量补充剂的话，我倒是觉得挺好用的。",
+			say = "不過巧克力本身作為能量補充的話，我倒是覺得挺好用的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以，你可以想做什么口味就做什么口味。",
+			say = "所以，你可以想做什麼口味就做什麼口味。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1101,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
 			say = "您真是……",
 			typewriter = {
@@ -123,7 +123,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯？怎么了？",
+			say = "嗯？怎麼了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,9 +136,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1101,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "不，没什么……",
+			say = "不，沒什麼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "好奇怪，TB看起来好像有点失落？",
+			say = "好奇怪，TB看起來好像有點失落？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

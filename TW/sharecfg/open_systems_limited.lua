@@ -160,6 +160,14 @@ pg.open_systems_limited = {
 		mediator = "GameHallMediator",
 		level = 30
 	},
+	[24] = {
+		scene = "MAINUI",
+		name = "養成系統",
+		story_id = "",
+		id = 24,
+		mediator = "EducateMediator",
+		level = 30
+	},
 	all = {
 		1,
 		2,
@@ -180,6 +188,7 @@ pg.open_systems_limited = {
 		18,
 		19,
 		20,
-		21
+		21,
+		24
 	}
 }

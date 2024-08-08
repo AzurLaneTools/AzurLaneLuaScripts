@@ -12,9 +12,9 @@ return {
 			bgm = "qe-ova-10",
 			tbActor = true,
 			actor = 1201,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "……作业写完了，今天的家务也做好了。",
+			say = "……作業寫完了，今天的家事也做好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			tbActor = true,
 			actor = 1201,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
 			say = "（盯————）",
 			typewriter = {
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哦、哦……？有什么事吗，TB？",
+			say = "哦、哦……？有什麼事嗎，TB？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,9 +70,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1201,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "……一般情况下，这时候应该给一些实质性的奖励才对。",
+			say = "……一般情況下，這時候應該給一些實質的獎勵才對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哦~我明白了。这是在撒娇？",
+			say = "哦~我明白了。這是在撒嬌？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,9 +97,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1201,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "……没有，你理解错了，这才不是撒娇。",
+			say = "……沒有，你理解錯了，這不是撒嬌。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那为了犒劳今天努力的TB，我做饭给你吃怎么样？再加个煎蛋补充营养。",
+			say = "那為了犒賞今天努力的TB，我煮給妳吃怎麼樣？再加個煎蛋補充營養。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,9 +124,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1201,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "……我又不是为了你的犒劳才做这些。……不过煎蛋我要嫩一点的。",
+			say = "……我又不是為了你的犒勞才做這些。……不過煎蛋我要嫩一點的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没问题。",
+			say = "沒問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "唉，少女的心事可真是难懂。",
+			say = "唉，少女的心事可真是難懂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

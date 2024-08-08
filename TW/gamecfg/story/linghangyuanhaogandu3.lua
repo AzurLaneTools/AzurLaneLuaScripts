@@ -9,7 +9,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"心与心的交汇\n\n<size=45>三 关于你的故事</size>",
+					"心與心的交匯\n\n<size=45>3 關於你的故事</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			voice = "event:/educate/tb/educate-tb-1-talking2",
-			say = "故事，想听。",
+			say = "故事，想聽。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "最近的TB对绘本中的故事展现出了一定的热情。",
+			say = "最近的TB對繪本中的故事展現了一定的熱情。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "不过通常都是在晚上睡觉前，我才会读故事给她听。",
+			say = "不過通常都是在晚上睡覺前，我才會唸故事給她聽。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "可是，还没有到睡觉的时间哦？",
+			say = "可是，還沒到睡覺的時間哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "想听……",
+			say = "想聽……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -118,7 +118,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（难得这么执着，就满足她好了。）",
+			say = "（難得這麼執著，就滿足她好了。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_tb_room1",
-			say = "取来了TB最近常听的几本绘本，但她却对这些绘本表现得兴趣缺缺。",
+			say = "拿了幾本TB最近經常聽的繪本，但她卻對這些繪本表現得興趣缺缺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这些都，知道。",
+			say = "這些都，知道。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "想听新故事？",
+			say = "想聽新故事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，想听，新故事！",
+			say = "嗯，想聽，新故事！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,18 +230,18 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这下有点麻烦了，该给她讲什么故事才好……）",
+			say = "（這下有點麻煩了，該給她講什麼故事才好……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "关于战斗的故事",
+					content = "關於戰鬥的故事",
 					flag = 1
 				},
 				{
-					content = "关于TB的故事",
+					content = "關於TB的故事",
 					flag = 2
 				}
 			}
@@ -253,7 +253,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "（就讲讲关于战斗的故事吧！）",
+			say = "（就講講關於戰鬥的故事吧！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……不要这个。",
+			say = "……不要這個。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "（被干净利落地拒绝了！）",
+			say = "（被乾淨俐落地拒絕了！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,14 +300,14 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（看来还是换一个故事比较好啊。）",
+			say = "（看來還是換一個故事比較好。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "关于TB的故事",
+					content = "關於TB的故事",
 					flag = 2
 				}
 			}
@@ -319,7 +319,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "（那就拿TB当做原型编一个故事好了。）",
+			say = "（那就拿TB當原型編一個故事好了。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "该从什么地方讲起……",
+			say = "該從什麼地方講起……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "（有了，干脆就把领航员小姐追寻个性的故事讲给她听吧。）",
+			say = "（有了，乾脆就把領航員小姐追尋個性的故事講給她聽吧。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_tb_room1",
-			say = "随着故事的发展，TB也渐渐进入了梦乡。",
+			say = "隨著故事的發展，TB也漸漸進入了夢鄉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "TB……要像领航员小姐一样……",
+			say = "TB……要像領航員小姐一樣……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "半梦半醒间，她嘟囔着。",
+			say = "半夢半醒間，她嘟囔著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你已经很勇敢了，TB。",
+			say = "妳已經很勇敢了，TB。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -15,9 +15,9 @@ return {
 			bgm = "qe-ova-9",
 			tbActor = true,
 			actor = 1301,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "{tb}~我就直截了当地问了，你想吃巧克力吗？",
+			say = "{tb}~我就直接了當地問了，你想吃巧克力嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,9 +59,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1301,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "只要告诉我你想不想吃就好啦！",
+			say = "只要告訴我你想不想吃就好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没有特别想吃。不过，你要是买多了吃不了，我倒是可以帮你分一些。",
+			say = "沒有特別想吃。不過，妳要是買多了吃不完，我倒是可以幫妳分擔一些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,9 +86,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1301,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "才不是这个意思啦！",
+			say = "才不是這個意思啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,9 +101,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1301,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "…………如、如果是我自己做的巧克力（小声）……",
+			say = "…………如、如果是我自己做的巧克力（小聲）……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你要自己做什么？",
+			say = "妳要自己做什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,9 +128,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1301,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "算了！没什么！",
+			say = "算了！沒什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "最后，TB就没再提巧克力的话题。奇怪……到底怎么了？",
+			say = "最後，TB就沒再提巧克力的話題。奇怪……到底怎麼了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

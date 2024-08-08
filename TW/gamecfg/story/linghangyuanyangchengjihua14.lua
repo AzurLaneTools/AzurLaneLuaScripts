@@ -10,7 +10,7 @@ return {
 			bgm = "qe-ova-1",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "距离“系统升级”已经过去了一段时间。",
+			say = "距離「系統升級」已經過了一段時間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "如果说升级前的TB看上去大约有人类3岁~4岁左右，那么现在大概看上去就是7~8岁左右。",
+			say = "如果說升級前的TB看起來大約有人類3歲~4歲左右，那麼現在大概看起來就是7~8歲左右。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "虽然各种意义上的“成长”都对TB来说是一件好事，但——",
+			say = "雖然各種意義上的「成長」都對TB來說是件好事，但——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			actor = 1010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "到出发的时间了，考虑到路况和天气，有15%的迟到风险。",
+			say = "到出發的時間了，考慮到路況和天氣，有15%的遲到風險。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "变得好理性……TB可以更像小孩子一样，再任性一些也没关系。",
+			say = "變得好理性……TB可以更像小孩子一樣，再任性一點也沒關係。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			actor = 1010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我认为这样是成为“好孩子”的方式。",
+			say = "我認為這樣是成為「好孩子」的方式。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			actor = 1010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "运动会将在1小时后举行，我们必须出发了。",
+			say = "運動會將在1小時後舉行，我們必須出發了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "我偷偷叹了一口气。",
+			say = "我偷偷嘆了一口氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_705",
-			say = "来到学校后，TB就自己找到更衣室换好了运动服。",
+			say = "來到學校後，TB就自己找到更衣室換好了運動服。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_705",
 			hidePaintObj = true,
-			say = "随后就来到了跑道旁铺好的软垫上，进行热身运动。",
+			say = "隨後就來到了跑道旁鋪好的軟墊上，進行暖身運動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "水和毛巾……我就放在这里了哦，TB。",
+			say = "水和毛巾……我就放在這裡了哦，TB。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,14 +218,14 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg9",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-2-1",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，你要走了吗？",
+			say = "嗯，你要走了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
-			say = "她一边舒展着身体，一边问我问题。",
+			say = "她一邊舒展著身體，一邊問我問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,14 +252,14 @@ return {
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "家长的座位都在那边，我去那边看你比赛，给你加油。",
+			say = "家長的座位都在那邊，我去那邊看妳比賽，幫妳加油。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg9",
 			dir = 1,
@@ -281,7 +281,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
-			say = "不知为何，感觉她好像有些微妙的不开心。",
+			say = "不知為何，感覺自己好像有些微妙的不開心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,21 +293,21 @@ return {
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "家长留在这里应该不算违规吧？如果不算违规的话，我就留在这边给你加油。",
+			say = "家長留在這裡應該不算違規吧？如果不算違規的話，我就留在這邊幫妳加油。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg9",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-2-3",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，那我会拿到好成绩的。",
+			say = "嗯，那我會拿到好成績的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
-			say = "不知道是不是我的错觉，直到之前都看不出什么表情的TB，此时嘴角微微上扬了。",
+			say = "不知道是不是我的錯覺，直到之前都看不出什麼表情的TB，此時嘴角微微上揚了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg9",
 			hidePaintObj = true,
-			say = "不过，小孩子时期的TB会口是心非这一点……也挺可爱的。",
+			say = "不過，小孩子時期的TB會口是心非這一點……也挺可愛的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

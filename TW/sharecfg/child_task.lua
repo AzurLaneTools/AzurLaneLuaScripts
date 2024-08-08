@@ -2,7 +2,7 @@ pg = pg or {}
 pg.child_task = {
 	[101] = {
 		group = 1,
-		name = "等待领航员-TB回家",
+		name = "等待領航員-TB回家",
 		task_target_progress = 1,
 		type_2 = 7,
 		type_1 = 3,
@@ -31,7 +31,7 @@ pg.child_task = {
 	},
 	[102] = {
 		group = 1,
-		name = "设定成长目标",
+		name = "設定成長目標",
 		task_target_progress = 1,
 		type_2 = 6,
 		type_1 = 3,
@@ -60,7 +60,7 @@ pg.child_task = {
 	},
 	[103] = {
 		group = 1,
-		name = "完成-行程计划-1次",
+		name = "完成-行程計劃-1次",
 		task_target_progress = 1,
 		type_2 = 10,
 		type_1 = 3,
@@ -89,7 +89,7 @@ pg.child_task = {
 	},
 	[104] = {
 		group = 1,
-		name = "完成-行程计划-1次",
+		name = "完成-行程計劃-1次",
 		task_target_progress = 1,
 		type_2 = 10,
 		type_1 = 3,
@@ -118,7 +118,7 @@ pg.child_task = {
 	},
 	[105] = {
 		group = 1,
-		name = "完成-行程计划-2次",
+		name = "完成-行程計畫-2次",
 		task_target_progress = 1,
 		type_2 = 10,
 		type_1 = 3,
@@ -147,7 +147,7 @@ pg.child_task = {
 	},
 	[201] = {
 		group = 1,
-		name = "送领航员-TB入学",
+		name = "送領航員-TB入學",
 		task_target_progress = 1,
 		type_2 = 7,
 		type_1 = 3,
@@ -176,7 +176,7 @@ pg.child_task = {
 	},
 	[202] = {
 		group = 1,
-		name = "完成一次行程计划",
+		name = "完成一次行程計劃",
 		task_target_progress = 1,
 		type_2 = 10,
 		type_1 = 3,
@@ -205,7 +205,7 @@ pg.child_task = {
 	},
 	[203] = {
 		group = 1,
-		name = "出行-游乐场",
+		name = "出遊-遊樂場",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 3,
@@ -239,7 +239,7 @@ pg.child_task = {
 	},
 	[204] = {
 		group = 1,
-		name = "出行-美食坊-打工",
+		name = "出遊-美食坊-打工",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 3,
@@ -272,7 +272,7 @@ pg.child_task = {
 	},
 	[205] = {
 		group = 1,
-		name = "完成-行程计划-2次",
+		name = "完成-行程計畫-2次",
 		task_target_progress = 1,
 		type_2 = 10,
 		type_1 = 3,
@@ -301,7 +301,7 @@ pg.child_task = {
 	},
 	[206] = {
 		group = 1,
-		name = "出行-度假庄园-随便逛逛",
+		name = "出遊-渡假莊園-隨便逛逛",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 3,
@@ -334,7 +334,7 @@ pg.child_task = {
 	},
 	[207] = {
 		group = 1,
-		name = "任意商店购买商品-1个",
+		name = "任何商店購買商品-1個",
 		task_target_progress = 1,
 		type_2 = 4,
 		type_1 = 3,
@@ -392,7 +392,7 @@ pg.child_task = {
 	},
 	[209] = {
 		group = 1,
-		name = "出行-学院-校图书馆",
+		name = "出遊-學院-校圖書館",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 3,
@@ -454,7 +454,7 @@ pg.child_task = {
 	},
 	[211] = {
 		group = 1,
-		name = "出行-体育馆-体育锻炼",
+		name = "出遊-體育館-體育訓練",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 3,
@@ -516,7 +516,7 @@ pg.child_task = {
 	},
 	[213] = {
 		group = 1,
-		name = "完成第一次系统升级",
+		name = "完成第一次系統升級",
 		task_target_progress = 1,
 		type_2 = 7,
 		type_1 = 3,
@@ -574,7 +574,7 @@ pg.child_task = {
 	},
 	[215] = {
 		group = 1,
-		name = "出行-美食坊-随便逛逛",
+		name = "出遊-美食坊-隨便逛逛",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 3,
@@ -636,7 +636,7 @@ pg.child_task = {
 	},
 	[217] = {
 		group = 1,
-		name = "出行-海滨公园-随便逛逛",
+		name = "出遊-海濱公園-隨便逛逛",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 3,
@@ -669,7 +669,7 @@ pg.child_task = {
 	},
 	[218] = {
 		group = 1,
-		name = "任意商店购买商品-2个",
+		name = "任何商店購買商品-2個",
 		task_target_progress = 1,
 		type_2 = 4,
 		type_1 = 3,
@@ -727,7 +727,7 @@ pg.child_task = {
 	},
 	[220] = {
 		group = 1,
-		name = "出行-美食坊-打工",
+		name = "出遊-美食坊-打工",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 3,
@@ -760,7 +760,7 @@ pg.child_task = {
 	},
 	[221] = {
 		group = 1,
-		name = "出行-度假庄园-写生",
+		name = "出遊-渡假莊園-寫生",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 3,
@@ -822,7 +822,7 @@ pg.child_task = {
 	},
 	[223] = {
 		group = 1,
-		name = "出行-度假庄园-随便逛逛",
+		name = "出遊-渡假莊園-隨便逛逛",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 3,
@@ -855,7 +855,7 @@ pg.child_task = {
 	},
 	[224] = {
 		group = 1,
-		name = "任意商店购买商品-3个",
+		name = "任何商店購買商品-3個",
 		task_target_progress = 1,
 		type_2 = 4,
 		type_1 = 3,
@@ -884,7 +884,7 @@ pg.child_task = {
 	},
 	[225] = {
 		group = 1,
-		name = "完成-行程计划-3次",
+		name = "完成-行程計劃-3次",
 		task_target_progress = 1,
 		type_2 = 10,
 		type_1 = 3,
@@ -913,7 +913,7 @@ pg.child_task = {
 	},
 	[226] = {
 		group = 1,
-		name = "出行--美食坊-随便逛逛",
+		name = "出遊——美食坊-隨便逛逛",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 3,
@@ -975,7 +975,7 @@ pg.child_task = {
 	},
 	[228] = {
 		group = 1,
-		name = "任意商店购买商品-3个",
+		name = "任何商店購買商品-3個",
 		task_target_progress = 1,
 		type_2 = 4,
 		type_1 = 3,
@@ -1004,7 +1004,7 @@ pg.child_task = {
 	},
 	[229] = {
 		group = 1,
-		name = "出行-庄园-去露营一次",
+		name = "出遊-莊園-去露營一次",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 3,
@@ -1066,7 +1066,7 @@ pg.child_task = {
 	},
 	[231] = {
 		group = 1,
-		name = "出行-体育馆-体育锻炼",
+		name = "出遊-體育館-體育訓練",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 3,
@@ -1099,7 +1099,7 @@ pg.child_task = {
 	},
 	[232] = {
 		group = 1,
-		name = "出行-游乐场-2次",
+		name = "出遊-遊樂場-2次",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 3,
@@ -1133,7 +1133,7 @@ pg.child_task = {
 	},
 	[233] = {
 		group = 1,
-		name = "出行-美食坊-随便逛逛",
+		name = "出遊-美食坊-隨便逛逛",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 3,
@@ -1195,7 +1195,7 @@ pg.child_task = {
 	},
 	[235] = {
 		group = 1,
-		name = "完成第二次系统升级",
+		name = "完成第二次系統升級",
 		task_target_progress = 1,
 		type_2 = 7,
 		type_1 = 3,
@@ -1224,7 +1224,7 @@ pg.child_task = {
 	},
 	[236] = {
 		group = 1,
-		name = "出行-美食坊-打工",
+		name = "出遊-美食坊-打工",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 3,
@@ -1257,7 +1257,7 @@ pg.child_task = {
 	},
 	[237] = {
 		group = 1,
-		name = "任意商店购买商品-3个",
+		name = "任何商店購買商品-3個",
 		task_target_progress = 1,
 		type_2 = 4,
 		type_1 = 3,
@@ -1315,7 +1315,7 @@ pg.child_task = {
 	},
 	[239] = {
 		group = 1,
-		name = "出行-度假庄园-随便逛逛",
+		name = "出遊-渡假莊園-隨便逛逛",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 3,
@@ -1377,7 +1377,7 @@ pg.child_task = {
 	},
 	[241] = {
 		group = 1,
-		name = "出行-游乐场",
+		name = "出遊-遊樂場",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 3,
@@ -1411,7 +1411,7 @@ pg.child_task = {
 	},
 	[242] = {
 		group = 1,
-		name = "出行-商业街-随便逛逛",
+		name = "出遊-商業街-隨便逛逛",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 3,
@@ -1473,7 +1473,7 @@ pg.child_task = {
 	},
 	[244] = {
 		group = 1,
-		name = "出行-海滨公园-随便逛逛",
+		name = "出遊-海濱公園-隨便逛逛",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 3,
@@ -1506,7 +1506,7 @@ pg.child_task = {
 	},
 	[245] = {
 		group = 1,
-		name = "任意商店购买商品-2个",
+		name = "任何商店購買商品-2個",
 		task_target_progress = 1,
 		type_2 = 4,
 		type_1 = 3,
@@ -1564,7 +1564,7 @@ pg.child_task = {
 	},
 	[247] = {
 		group = 1,
-		name = "出行-度假庄园-写生",
+		name = "出遊-渡假莊園-寫生",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 3,
@@ -1626,7 +1626,7 @@ pg.child_task = {
 	},
 	[249] = {
 		group = 1,
-		name = "任意商店购买商品-3个",
+		name = "任何商店購買商品-3個",
 		task_target_progress = 1,
 		type_2 = 4,
 		type_1 = 3,
@@ -1684,7 +1684,7 @@ pg.child_task = {
 	},
 	[251] = {
 		group = 1,
-		name = "出行-美食坊-随便逛逛",
+		name = "出遊-美食坊-隨便逛逛",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 3,
@@ -1717,7 +1717,7 @@ pg.child_task = {
 	},
 	[252] = {
 		group = 1,
-		name = "任意商店购买商品-3个",
+		name = "任何商店購買商品-3個",
 		task_target_progress = 1,
 		type_2 = 4,
 		type_1 = 3,
@@ -1775,7 +1775,7 @@ pg.child_task = {
 	},
 	[254] = {
 		group = 1,
-		name = "出行-度假庄园-随便逛逛",
+		name = "出遊-渡假莊園-隨便逛逛",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 3,
@@ -1837,7 +1837,7 @@ pg.child_task = {
 	},
 	[256] = {
 		group = 1,
-		name = "出行-商业街-随便逛逛",
+		name = "出遊-商業街-隨便逛逛",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 3,
@@ -1899,7 +1899,7 @@ pg.child_task = {
 	},
 	[258] = {
 		group = 1,
-		name = "任意商店购买商品-3个",
+		name = "任何商店購買商品-3個",
 		task_target_progress = 1,
 		type_2 = 4,
 		type_1 = 3,
@@ -1928,7 +1928,7 @@ pg.child_task = {
 	},
 	[259] = {
 		group = 1,
-		name = "出行-美食坊-打工",
+		name = "出遊-美食坊-打工",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 3,
@@ -1990,7 +1990,7 @@ pg.child_task = {
 	},
 	[261] = {
 		group = 1,
-		name = "出行-度假庄园-随便逛逛",
+		name = "出遊-渡假莊園-隨便逛逛",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 3,
@@ -2052,7 +2052,7 @@ pg.child_task = {
 	},
 	[263] = {
 		group = 1,
-		name = "进行重置",
+		name = "進行重置",
 		task_target_progress = 1,
 		type_2 = 7,
 		type_1 = 3,
@@ -2081,7 +2081,7 @@ pg.child_task = {
 	},
 	[1001] = {
 		group = 2,
-		name = "体能达到30点",
+		name = "體能達到30點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -2110,7 +2110,7 @@ pg.child_task = {
 	},
 	[1002] = {
 		group = 3,
-		name = "体能达到60点",
+		name = "體能達到60點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -2139,7 +2139,7 @@ pg.child_task = {
 	},
 	[1003] = {
 		group = 6,
-		name = "智慧达到15点",
+		name = "智慧達到15點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -2168,7 +2168,7 @@ pg.child_task = {
 	},
 	[1004] = {
 		group = 7,
-		name = "气质达到15点",
+		name = "氣質達到15點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -2197,7 +2197,7 @@ pg.child_task = {
 	},
 	[1005] = {
 		group = 8,
-		name = "感知达到15点",
+		name = "感知達到15點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -2226,7 +2226,7 @@ pg.child_task = {
 	},
 	[1006] = {
 		group = 4,
-		name = "完成-行程-锻炼-5次",
+		name = "完成-行程-鍛鍊-5次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -2255,7 +2255,7 @@ pg.child_task = {
 	},
 	[1007] = {
 		group = 5,
-		name = "完成-行程-做家务-1次",
+		name = "完成-行程-做家事-1次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -2284,7 +2284,7 @@ pg.child_task = {
 	},
 	[1011] = {
 		group = 2,
-		name = "智慧达到30点",
+		name = "智慧達到30點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -2313,7 +2313,7 @@ pg.child_task = {
 	},
 	[1012] = {
 		group = 3,
-		name = "智慧达到60点",
+		name = "智慧達到60點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -2342,7 +2342,7 @@ pg.child_task = {
 	},
 	[1013] = {
 		group = 6,
-		name = "体能达到15点",
+		name = "體能達到15點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -2371,7 +2371,7 @@ pg.child_task = {
 	},
 	[1014] = {
 		group = 7,
-		name = "气质达到15点",
+		name = "氣質達到15點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -2400,7 +2400,7 @@ pg.child_task = {
 	},
 	[1015] = {
 		group = 8,
-		name = "感知达到15点",
+		name = "感知達到15點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -2429,7 +2429,7 @@ pg.child_task = {
 	},
 	[1016] = {
 		group = 4,
-		name = "完成-行程-读故事-5次",
+		name = "完成-行程-讀故事-5次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -2458,7 +2458,7 @@ pg.child_task = {
 	},
 	[1017] = {
 		group = 5,
-		name = "完成-行程-宅家睡觉-1次",
+		name = "完成-行程-宅家睡覺-1次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -2487,7 +2487,7 @@ pg.child_task = {
 	},
 	[1021] = {
 		group = 2,
-		name = "气质达到30点",
+		name = "氣質達30點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -2516,7 +2516,7 @@ pg.child_task = {
 	},
 	[1022] = {
 		group = 3,
-		name = "气质达到60点",
+		name = "氣質達到60點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -2545,7 +2545,7 @@ pg.child_task = {
 	},
 	[1023] = {
 		group = 6,
-		name = "体能达到15点",
+		name = "體能達到15點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -2574,7 +2574,7 @@ pg.child_task = {
 	},
 	[1024] = {
 		group = 7,
-		name = "智慧达到15点",
+		name = "智慧達到15點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -2603,7 +2603,7 @@ pg.child_task = {
 	},
 	[1025] = {
 		group = 8,
-		name = "感知达到15点",
+		name = "感知達到15點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -2661,7 +2661,7 @@ pg.child_task = {
 	},
 	[1027] = {
 		group = 5,
-		name = "完成-行程-宅家睡觉-1次",
+		name = "完成-行程-宅家睡覺-1次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -2690,7 +2690,7 @@ pg.child_task = {
 	},
 	[1031] = {
 		group = 2,
-		name = "感知达到30点",
+		name = "感知達到30點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -2719,7 +2719,7 @@ pg.child_task = {
 	},
 	[1032] = {
 		group = 3,
-		name = "感知达到60点",
+		name = "感知達到60點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -2748,7 +2748,7 @@ pg.child_task = {
 	},
 	[1033] = {
 		group = 6,
-		name = "体能达到15点",
+		name = "體能達到15點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -2777,7 +2777,7 @@ pg.child_task = {
 	},
 	[1034] = {
 		group = 7,
-		name = "智慧达到15点",
+		name = "智慧達到15點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -2806,7 +2806,7 @@ pg.child_task = {
 	},
 	[1035] = {
 		group = 8,
-		name = "气质达到15点",
+		name = "氣質達到15點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -2835,7 +2835,7 @@ pg.child_task = {
 	},
 	[1036] = {
 		group = 4,
-		name = "完成-行程-搭积木-5次",
+		name = "完成-行程-搭積木-5次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -2864,7 +2864,7 @@ pg.child_task = {
 	},
 	[1037] = {
 		group = 5,
-		name = "完成-行程-做家务-1次",
+		name = "完成-行程-做家事-1次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -2893,7 +2893,7 @@ pg.child_task = {
 	},
 	[2001] = {
 		group = 2,
-		name = "体能达到200点",
+		name = "體能達到200點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -2922,7 +2922,7 @@ pg.child_task = {
 	},
 	[2002] = {
 		group = 3,
-		name = "体能达到400点",
+		name = "體能達到400點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -2951,7 +2951,7 @@ pg.child_task = {
 	},
 	[2003] = {
 		group = 6,
-		name = "智慧达到150点",
+		name = "智慧達到150點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -2980,7 +2980,7 @@ pg.child_task = {
 	},
 	[2004] = {
 		group = 7,
-		name = "气质达到150点",
+		name = "氣質達到150點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -3009,7 +3009,7 @@ pg.child_task = {
 	},
 	[2005] = {
 		group = 8,
-		name = "感知达到150点",
+		name = "感知達到150點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -3038,7 +3038,7 @@ pg.child_task = {
 	},
 	[2006] = {
 		group = 4,
-		name = "完成-行程-初级体能-10次",
+		name = "完成-行程-初級體能-10次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -3067,7 +3067,7 @@ pg.child_task = {
 	},
 	[2007] = {
 		group = 5,
-		name = "完成-行程-中级体能-5次",
+		name = "完成-行程-中級體能-5次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -3096,7 +3096,7 @@ pg.child_task = {
 	},
 	[2011] = {
 		group = 2,
-		name = "智慧达到200点",
+		name = "智慧達到200點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -3125,7 +3125,7 @@ pg.child_task = {
 	},
 	[2012] = {
 		group = 3,
-		name = "智慧达到400点",
+		name = "智慧達到400點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -3154,7 +3154,7 @@ pg.child_task = {
 	},
 	[2013] = {
 		group = 6,
-		name = "体能达到150点",
+		name = "體能達到150點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -3183,7 +3183,7 @@ pg.child_task = {
 	},
 	[2014] = {
 		group = 7,
-		name = "气质达到150点",
+		name = "氣質達到150點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -3212,7 +3212,7 @@ pg.child_task = {
 	},
 	[2015] = {
 		group = 8,
-		name = "感知达到150点",
+		name = "感知達到150點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -3241,7 +3241,7 @@ pg.child_task = {
 	},
 	[2016] = {
 		group = 4,
-		name = "完成-行程-初级研修-10次",
+		name = "完成-行程-初級研修-10次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -3270,7 +3270,7 @@ pg.child_task = {
 	},
 	[2017] = {
 		group = 5,
-		name = "完成-行程-中级研修-5次",
+		name = "完成-行程-中級研修-5次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -3299,7 +3299,7 @@ pg.child_task = {
 	},
 	[2021] = {
 		group = 2,
-		name = "感知达到200点",
+		name = "感知達到200點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -3328,7 +3328,7 @@ pg.child_task = {
 	},
 	[2022] = {
 		group = 3,
-		name = "感知达到400点",
+		name = "感知達到400點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -3357,7 +3357,7 @@ pg.child_task = {
 	},
 	[2023] = {
 		group = 6,
-		name = "体能达到150点",
+		name = "體能達到150點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -3386,7 +3386,7 @@ pg.child_task = {
 	},
 	[2024] = {
 		group = 7,
-		name = "智慧达到150点",
+		name = "智慧達到150點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -3415,7 +3415,7 @@ pg.child_task = {
 	},
 	[2025] = {
 		group = 8,
-		name = "气质达到150点",
+		name = "氣質達到150點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -3444,7 +3444,7 @@ pg.child_task = {
 	},
 	[2026] = {
 		group = 4,
-		name = "完成-行程-初级手工-10次",
+		name = "完成-行程-初級手工-10次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -3473,7 +3473,7 @@ pg.child_task = {
 	},
 	[2027] = {
 		group = 5,
-		name = "完成-行程-中级手工-5次",
+		name = "完成-行程-中級手工-5次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -3502,7 +3502,7 @@ pg.child_task = {
 	},
 	[2031] = {
 		group = 2,
-		name = "气质达到200点",
+		name = "氣質達到200點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -3531,7 +3531,7 @@ pg.child_task = {
 	},
 	[2032] = {
 		group = 3,
-		name = "气质达到400点",
+		name = "氣質達400點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -3560,7 +3560,7 @@ pg.child_task = {
 	},
 	[2033] = {
 		group = 6,
-		name = "体能达到150点",
+		name = "體能達到150點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -3589,7 +3589,7 @@ pg.child_task = {
 	},
 	[2034] = {
 		group = 7,
-		name = "智慧达到150点",
+		name = "智慧達到150點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -3618,7 +3618,7 @@ pg.child_task = {
 	},
 	[2035] = {
 		group = 8,
-		name = "感知达到150点",
+		name = "感知達到150點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -3647,7 +3647,7 @@ pg.child_task = {
 	},
 	[2036] = {
 		group = 4,
-		name = "完成-行程-初级声乐-10次",
+		name = "完成-行程-初級聲樂-10次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -3676,7 +3676,7 @@ pg.child_task = {
 	},
 	[2037] = {
 		group = 5,
-		name = "完成-行程-中级声乐-5次",
+		name = "完成-行程-中級聲樂-5次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -3705,7 +3705,7 @@ pg.child_task = {
 	},
 	[3001] = {
 		group = 3,
-		name = "体能达到900点",
+		name = "體能達到900點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -3734,7 +3734,7 @@ pg.child_task = {
 	},
 	[3002] = {
 		group = 10,
-		name = "智慧达到500点",
+		name = "智慧達到500點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -3763,7 +3763,7 @@ pg.child_task = {
 	},
 	[3003] = {
 		group = 11,
-		name = "感知达到500点",
+		name = "感知達到500點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -3792,7 +3792,7 @@ pg.child_task = {
 	},
 	[3004] = {
 		group = 12,
-		name = "气质达到500点",
+		name = "氣質達到500點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -3821,7 +3821,7 @@ pg.child_task = {
 	},
 	[3005] = {
 		group = 4,
-		name = "体能达到1600点",
+		name = "體能達到1600點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -3850,7 +3850,7 @@ pg.child_task = {
 	},
 	[3006] = {
 		group = 5,
-		name = "完成-行程-中级体能-5次",
+		name = "完成-行程-中級體能-5次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -3879,7 +3879,7 @@ pg.child_task = {
 	},
 	[3007] = {
 		group = 6,
-		name = "完成-行程-高级体能-1次",
+		name = "完成-行程-高級體能-1次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -3908,7 +3908,7 @@ pg.child_task = {
 	},
 	[3008] = {
 		group = 7,
-		name = "出行--体育馆-任意行动4次",
+		name = "出遊——體育館-任意行動4次",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 2,
@@ -3951,7 +3951,7 @@ pg.child_task = {
 	},
 	[3009] = {
 		group = 8,
-		name = "运动或实践达到20点",
+		name = "運動或實踐達到20點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -3983,7 +3983,7 @@ pg.child_task = {
 	},
 	[3010] = {
 		group = 9,
-		name = "智慧、感知或气质达到800点",
+		name = "智慧、感知或氣質達到800點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -4016,7 +4016,7 @@ pg.child_task = {
 	},
 	[3011] = {
 		group = 3,
-		name = "智慧达到900点",
+		name = "智慧達到900點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -4045,7 +4045,7 @@ pg.child_task = {
 	},
 	[3012] = {
 		group = 10,
-		name = "体能达到500点",
+		name = "體能達到500點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -4074,7 +4074,7 @@ pg.child_task = {
 	},
 	[3013] = {
 		group = 11,
-		name = "感知达到500点",
+		name = "感知達到500點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -4103,7 +4103,7 @@ pg.child_task = {
 	},
 	[3014] = {
 		group = 12,
-		name = "气质达到500点",
+		name = "氣質達到500點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -4132,7 +4132,7 @@ pg.child_task = {
 	},
 	[3015] = {
 		group = 4,
-		name = "智慧达到1600点",
+		name = "智慧達到1600點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -4161,7 +4161,7 @@ pg.child_task = {
 	},
 	[3016] = {
 		group = 5,
-		name = "完成-行程-中级研修-5次",
+		name = "完成-行程-中級研修-5次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -4190,7 +4190,7 @@ pg.child_task = {
 	},
 	[3017] = {
 		group = 6,
-		name = "完成-行程-高级研修-1次",
+		name = "完成-行程-高級研修-1次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -4219,7 +4219,7 @@ pg.child_task = {
 	},
 	[3018] = {
 		group = 7,
-		name = "出行-学院-任意行动-4次",
+		name = "出遊-學院-任意行動-4次",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 2,
@@ -4276,7 +4276,7 @@ pg.child_task = {
 	},
 	[3019] = {
 		group = 8,
-		name = "实践或想象达到20点",
+		name = "實踐或想像達到20點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -4308,7 +4308,7 @@ pg.child_task = {
 	},
 	[3020] = {
 		group = 9,
-		name = "体能、感知或气质达到800点",
+		name = "體能、感知或氣質達到800點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -4341,7 +4341,7 @@ pg.child_task = {
 	},
 	[3021] = {
 		group = 3,
-		name = "气质达到900点",
+		name = "氣質達到900點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -4370,7 +4370,7 @@ pg.child_task = {
 	},
 	[3022] = {
 		group = 10,
-		name = "体能达到500点",
+		name = "體能達到500點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -4399,7 +4399,7 @@ pg.child_task = {
 	},
 	[3023] = {
 		group = 11,
-		name = "智慧达到500点",
+		name = "智慧達到500點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -4428,7 +4428,7 @@ pg.child_task = {
 	},
 	[3024] = {
 		group = 12,
-		name = "感知达到500点",
+		name = "感知達到500點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -4457,7 +4457,7 @@ pg.child_task = {
 	},
 	[3025] = {
 		group = 4,
-		name = "气质达到1600点",
+		name = "氣質達1600點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -4486,7 +4486,7 @@ pg.child_task = {
 	},
 	[3026] = {
 		group = 5,
-		name = "完成-行程-中级声乐-5次",
+		name = "完成-行程-中級聲樂-5次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -4515,7 +4515,7 @@ pg.child_task = {
 	},
 	[3027] = {
 		group = 6,
-		name = "完成-行程-高级声乐-1次",
+		name = "完成-行程-高級聲樂-1次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -4544,7 +4544,7 @@ pg.child_task = {
 	},
 	[3028] = {
 		group = 7,
-		name = "出行-海滨公园-任意行动4次",
+		name = "出遊-海濱公園-任意行動4次",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 2,
@@ -4600,7 +4600,7 @@ pg.child_task = {
 	},
 	[3029] = {
 		group = 8,
-		name = "表现或乐理达到20点",
+		name = "表現或樂理達到20點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -4632,7 +4632,7 @@ pg.child_task = {
 	},
 	[3030] = {
 		group = 9,
-		name = "智慧、体能或感知达到800点",
+		name = "智慧、體能或感知達到800點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -4665,7 +4665,7 @@ pg.child_task = {
 	},
 	[3031] = {
 		group = 3,
-		name = "感知达到900点",
+		name = "感知達到900點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -4694,7 +4694,7 @@ pg.child_task = {
 	},
 	[3032] = {
 		group = 10,
-		name = "体能达到500点",
+		name = "體能達到500點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -4723,7 +4723,7 @@ pg.child_task = {
 	},
 	[3033] = {
 		group = 11,
-		name = "智慧达到500点",
+		name = "智慧達到500點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -4752,7 +4752,7 @@ pg.child_task = {
 	},
 	[3034] = {
 		group = 12,
-		name = "气质达到500点",
+		name = "氣質達到500點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -4781,7 +4781,7 @@ pg.child_task = {
 	},
 	[3035] = {
 		group = 4,
-		name = "感知达到1600点",
+		name = "感知達到1600點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -4810,7 +4810,7 @@ pg.child_task = {
 	},
 	[3036] = {
 		group = 5,
-		name = "完成-行程-中级手工-5次",
+		name = "完成-行程-中級手工-5次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -4839,7 +4839,7 @@ pg.child_task = {
 	},
 	[3037] = {
 		group = 6,
-		name = "完成-行程-高级手工-1次",
+		name = "完成-行程-高級手工-1次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -4868,7 +4868,7 @@ pg.child_task = {
 	},
 	[3038] = {
 		group = 7,
-		name = "出行-度假庄园-任意行动4次",
+		name = "出遊-渡假莊園-任意行動4次",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 2,
@@ -4914,7 +4914,7 @@ pg.child_task = {
 	},
 	[3039] = {
 		group = 8,
-		name = "细心、想象或乐理达到20点",
+		name = "細心、想像或樂理達到20點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -4947,7 +4947,7 @@ pg.child_task = {
 	},
 	[3040] = {
 		group = 9,
-		name = "智慧、体能或气质达到800点",
+		name = "智慧、體能或氣質達800點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -4980,7 +4980,7 @@ pg.child_task = {
 	},
 	[4001] = {
 		group = 1,
-		name = "运动达到100点",
+		name = "運動達到100點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -5009,7 +5009,7 @@ pg.child_task = {
 	},
 	[4002] = {
 		group = 2,
-		name = "运动达到160点",
+		name = "運動達到160點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -5038,7 +5038,7 @@ pg.child_task = {
 	},
 	[4003] = {
 		group = 3,
-		name = "运动达到240点",
+		name = "運動達到240點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -5067,7 +5067,7 @@ pg.child_task = {
 	},
 	[4004] = {
 		group = 4,
-		name = "智慧达到1600点",
+		name = "智慧達到1600點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -5096,7 +5096,7 @@ pg.child_task = {
 	},
 	[4005] = {
 		group = 5,
-		name = "体能达到2500点",
+		name = "體能達到2500點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -5125,7 +5125,7 @@ pg.child_task = {
 	},
 	[4006] = {
 		group = 6,
-		name = "体能达到4000点",
+		name = "體能達到4000點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -5154,7 +5154,7 @@ pg.child_task = {
 	},
 	[4007] = {
 		group = 7,
-		name = "完成-行程-高级体能-10次",
+		name = "完成-行程-高級體能-10次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -5183,7 +5183,7 @@ pg.child_task = {
 	},
 	[4008] = {
 		group = 8,
-		name = "完成-行程-高级运动-10次",
+		name = "完成-行程-高級運動-10次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -5212,7 +5212,7 @@ pg.child_task = {
 	},
 	[4009] = {
 		group = 9,
-		name = "完成-行程-高级运动指导-10次",
+		name = "完成-行程-高級運動指導-10次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -5241,7 +5241,7 @@ pg.child_task = {
 	},
 	[4010] = {
 		group = 10,
-		name = "出行-体育馆-任意行动4次",
+		name = "出遊-體育館-任意行動4次",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 2,
@@ -5284,7 +5284,7 @@ pg.child_task = {
 	},
 	[4011] = {
 		group = 11,
-		name = "参加运动大赛获得第1名",
+		name = "參加運動比賽獲得第1名",
 		task_target_progress = 1,
 		type_2 = 8,
 		type_1 = 2,
@@ -5313,7 +5313,7 @@ pg.child_task = {
 	},
 	[4012] = {
 		group = 12,
-		name = "观看体育比赛1次",
+		name = "觀看運動比賽1次",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 2,
@@ -5347,7 +5347,7 @@ pg.child_task = {
 	},
 	[4021] = {
 		group = 1,
-		name = "想象达到100点",
+		name = "想像達到100點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -5376,7 +5376,7 @@ pg.child_task = {
 	},
 	[4022] = {
 		group = 2,
-		name = "想象达到160点",
+		name = "想像達到160點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -5405,7 +5405,7 @@ pg.child_task = {
 	},
 	[4023] = {
 		group = 3,
-		name = "想象达到240点",
+		name = "想像達到240點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -5434,7 +5434,7 @@ pg.child_task = {
 	},
 	[4024] = {
 		group = 4,
-		name = "感知达到2000点",
+		name = "感知達到2000點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -5463,7 +5463,7 @@ pg.child_task = {
 	},
 	[4025] = {
 		group = 5,
-		name = "智慧达到2000点",
+		name = "智慧達到2000點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -5492,7 +5492,7 @@ pg.child_task = {
 	},
 	[4026] = {
 		group = 6,
-		name = "感知达到3000点",
+		name = "感知達到3000點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -5521,7 +5521,7 @@ pg.child_task = {
 	},
 	[4027] = {
 		group = 7,
-		name = "智慧达到3000点",
+		name = "智慧達到3000點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -5550,7 +5550,7 @@ pg.child_task = {
 	},
 	[4028] = {
 		group = 8,
-		name = "完成-行程-高级美术-10次",
+		name = "完成-行程-高級美術-10次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -5579,7 +5579,7 @@ pg.child_task = {
 	},
 	[4029] = {
 		group = 9,
-		name = "完成-行程-高级写生-10次",
+		name = "完成-行程-高級寫生-10次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -5608,7 +5608,7 @@ pg.child_task = {
 	},
 	[4030] = {
 		group = 10,
-		name = "完成-行程-高级绘画-10次",
+		name = "完成-行程-高級繪畫-10次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -5637,7 +5637,7 @@ pg.child_task = {
 	},
 	[4031] = {
 		group = 11,
-		name = "出行-度假庄园-任意行动4次",
+		name = "出遊-渡假莊園-任意行動4次",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 2,
@@ -5683,7 +5683,7 @@ pg.child_task = {
 	},
 	[4032] = {
 		group = 12,
-		name = "参加绘画大奖赛获得第1名",
+		name = "參加繪畫大獎賽獲得第1名",
 		task_target_progress = 1,
 		type_2 = 8,
 		type_1 = 2,
@@ -5712,7 +5712,7 @@ pg.child_task = {
 	},
 	[4033] = {
 		group = 13,
-		name = "参加限时绘画指导1次",
+		name = "參加限時繪畫指導1次",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 2,
@@ -5745,7 +5745,7 @@ pg.child_task = {
 	},
 	[4041] = {
 		group = 1,
-		name = "细心达到100点",
+		name = "細心達到100點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -5774,7 +5774,7 @@ pg.child_task = {
 	},
 	[4042] = {
 		group = 2,
-		name = "细心达到160点",
+		name = "細心達到160點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -5803,7 +5803,7 @@ pg.child_task = {
 	},
 	[4043] = {
 		group = 3,
-		name = "细心达到240点",
+		name = "細心達到240點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -5832,7 +5832,7 @@ pg.child_task = {
 	},
 	[4044] = {
 		group = 4,
-		name = "体能达到1600点",
+		name = "體能達到1600點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -5861,7 +5861,7 @@ pg.child_task = {
 	},
 	[4045] = {
 		group = 5,
-		name = "智慧达到1600点",
+		name = "智慧達到1600點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -5890,7 +5890,7 @@ pg.child_task = {
 	},
 	[4046] = {
 		group = 6,
-		name = "感知达到2000点",
+		name = "感知達到2000點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -5919,7 +5919,7 @@ pg.child_task = {
 	},
 	[4047] = {
 		group = 7,
-		name = "感知达到3000点",
+		name = "感知達到3000點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -5948,7 +5948,7 @@ pg.child_task = {
 	},
 	[4048] = {
 		group = 8,
-		name = "完成-行程-高级手工-10次",
+		name = "完成-行程-高級手工-10次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -5977,7 +5977,7 @@ pg.child_task = {
 	},
 	[4049] = {
 		group = 9,
-		name = "完成-行程-高级烹饪-10次",
+		name = "完成-行程-高級烹飪-10次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -6006,7 +6006,7 @@ pg.child_task = {
 	},
 	[4050] = {
 		group = 10,
-		name = "完成-行程-高级书店店员-10次",
+		name = "完成-行程-高級書店店員-10次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -6035,7 +6035,7 @@ pg.child_task = {
 	},
 	[4051] = {
 		group = 11,
-		name = "出行-美食坊-任意行动4次",
+		name = "出遊-美食坊-任意行動4次",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 2,
@@ -6081,7 +6081,7 @@ pg.child_task = {
 	},
 	[4052] = {
 		group = 12,
-		name = "参加文学大奖赛获得第1名",
+		name = "參加文學大獎賽獲得第1名",
 		task_target_progress = 1,
 		type_2 = 8,
 		type_1 = 2,
@@ -6110,7 +6110,7 @@ pg.child_task = {
 	},
 	[4053] = {
 		group = 13,
-		name = "参加试吃活动1次",
+		name = "參加試吃活動1次",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 2,
@@ -6144,7 +6144,7 @@ pg.child_task = {
 	},
 	[4061] = {
 		group = 1,
-		name = "实践达到100点",
+		name = "實踐達到100點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -6173,7 +6173,7 @@ pg.child_task = {
 	},
 	[4062] = {
 		group = 2,
-		name = "实践达到160点",
+		name = "實踐達到160點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -6202,7 +6202,7 @@ pg.child_task = {
 	},
 	[4063] = {
 		group = 3,
-		name = "实践达到240点",
+		name = "實踐達到240點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -6231,7 +6231,7 @@ pg.child_task = {
 	},
 	[4064] = {
 		group = 4,
-		name = "气质达到1600点",
+		name = "氣質達1600點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -6260,7 +6260,7 @@ pg.child_task = {
 	},
 	[4065] = {
 		group = 5,
-		name = "感知达到1600点",
+		name = "感知達到1600點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -6289,7 +6289,7 @@ pg.child_task = {
 	},
 	[4066] = {
 		group = 6,
-		name = "智慧达到2500点",
+		name = "智慧達到2500點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -6318,7 +6318,7 @@ pg.child_task = {
 	},
 	[4067] = {
 		group = 7,
-		name = "智慧达到4000点",
+		name = "智慧達到4000點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -6347,7 +6347,7 @@ pg.child_task = {
 	},
 	[4068] = {
 		group = 8,
-		name = "完成-行程-高级研修-10次",
+		name = "完成-行程-高級研修-10次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -6376,7 +6376,7 @@ pg.child_task = {
 	},
 	[4069] = {
 		group = 9,
-		name = "完成-行程-高级园艺-10次",
+		name = "完成-行程-高級園藝-10次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -6405,7 +6405,7 @@ pg.child_task = {
 	},
 	[4070] = {
 		group = 10,
-		name = "完成-行程-高级庄园助手-10次",
+		name = "完成-行程-高級莊園助手-10次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -6434,7 +6434,7 @@ pg.child_task = {
 	},
 	[4071] = {
 		group = 11,
-		name = "出行-学院-任意行动4次",
+		name = "出遊-學院-任意行動4次",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 2,
@@ -6491,7 +6491,7 @@ pg.child_task = {
 	},
 	[4072] = {
 		group = 12,
-		name = "参加钓鱼达人赛获得第1名",
+		name = "參加釣魚達人賽獲得第1名",
 		task_target_progress = 1,
 		type_2 = 8,
 		type_1 = 2,
@@ -6520,7 +6520,7 @@ pg.child_task = {
 	},
 	[4073] = {
 		group = 13,
-		name = "出行-商业街-影像工作室-日常生活的照片-1次",
+		name = "出遊-商業街-影像工作室-日常生活的照片-1次",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 2,
@@ -6552,7 +6552,7 @@ pg.child_task = {
 	},
 	[4081] = {
 		group = 1,
-		name = "乐理达到100点",
+		name = "樂理達到100點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -6581,7 +6581,7 @@ pg.child_task = {
 	},
 	[4082] = {
 		group = 2,
-		name = "乐理达到160点",
+		name = "樂理達到160點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -6610,7 +6610,7 @@ pg.child_task = {
 	},
 	[4083] = {
 		group = 3,
-		name = "乐理达到240点",
+		name = "樂理達到240點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -6639,7 +6639,7 @@ pg.child_task = {
 	},
 	[4084] = {
 		group = 4,
-		name = "气质达到2000点",
+		name = "氣質達到2000點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -6668,7 +6668,7 @@ pg.child_task = {
 	},
 	[4085] = {
 		group = 5,
-		name = "感知达到2500点",
+		name = "感知達到2500點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -6697,7 +6697,7 @@ pg.child_task = {
 	},
 	[4086] = {
 		group = 6,
-		name = "气质达到3000点",
+		name = "氣質達3000點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -6726,7 +6726,7 @@ pg.child_task = {
 	},
 	[4087] = {
 		group = 7,
-		name = "感知达到4000点",
+		name = "感知達到4000點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -6755,7 +6755,7 @@ pg.child_task = {
 	},
 	[4088] = {
 		group = 8,
-		name = "完成-行程-高级声乐-10次",
+		name = "完成-行程-高級聲樂-10次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -6784,7 +6784,7 @@ pg.child_task = {
 	},
 	[4089] = {
 		group = 9,
-		name = "完成-行程-高级演奏-10次",
+		name = "完成-行程-高級演奏-10次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -6813,7 +6813,7 @@ pg.child_task = {
 	},
 	[4090] = {
 		group = 10,
-		name = "完成-行程-高级歌手活动-10次",
+		name = "完成-行程-高級歌手活動-10次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -6842,7 +6842,7 @@ pg.child_task = {
 	},
 	[4091] = {
 		group = 11,
-		name = "出行-学院-任意行动4次",
+		name = "出遊-學院-任意行動4次",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 2,
@@ -6899,7 +6899,7 @@ pg.child_task = {
 	},
 	[4092] = {
 		group = 12,
-		name = "参加歌者之声大奖赛获得第1名",
+		name = "參加歌者之聲大獎賽獲得第1名",
 		task_target_progress = 1,
 		type_2 = 8,
 		type_1 = 2,
@@ -6928,7 +6928,7 @@ pg.child_task = {
 	},
 	[4093] = {
 		group = 13,
-		name = "出行-学院-声乐教室限时指导-1次",
+		name = "出遊-學院-聲樂教室限時指導-1次",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 2,
@@ -6961,7 +6961,7 @@ pg.child_task = {
 	},
 	[4101] = {
 		group = 1,
-		name = "表现达到100点",
+		name = "表現達到100點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -6990,7 +6990,7 @@ pg.child_task = {
 	},
 	[4102] = {
 		group = 2,
-		name = "表现达到160点",
+		name = "表現達到160點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -7019,7 +7019,7 @@ pg.child_task = {
 	},
 	[4103] = {
 		group = 3,
-		name = "表现达到240点",
+		name = "表現達到240點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -7048,7 +7048,7 @@ pg.child_task = {
 	},
 	[4104] = {
 		group = 4,
-		name = "体能达到1600点",
+		name = "體能達到1600點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -7077,7 +7077,7 @@ pg.child_task = {
 	},
 	[4105] = {
 		group = 5,
-		name = "感知达到1600点",
+		name = "感知達到1600點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -7106,7 +7106,7 @@ pg.child_task = {
 	},
 	[4106] = {
 		group = 6,
-		name = "气质达到2000点",
+		name = "氣質達到2000點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -7135,7 +7135,7 @@ pg.child_task = {
 	},
 	[4107] = {
 		group = 7,
-		name = "气质达到3000点",
+		name = "氣質達3000點",
 		task_target_progress = 1,
 		type_2 = 2,
 		type_1 = 2,
@@ -7164,7 +7164,7 @@ pg.child_task = {
 	},
 	[4108] = {
 		group = 8,
-		name = "完成-行程-高级声乐-10次",
+		name = "完成-行程-高級聲樂-10次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -7193,7 +7193,7 @@ pg.child_task = {
 	},
 	[4109] = {
 		group = 9,
-		name = "完成-行程-高级戏剧-10次",
+		name = "完成-行程-高級戲劇-10次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -7222,7 +7222,7 @@ pg.child_task = {
 	},
 	[4110] = {
 		group = 10,
-		name = "完成-行程-高级舞台表演-10次",
+		name = "完成-行程-高級舞台表演-10次",
 		task_target_progress = 1,
 		type_2 = 1,
 		type_1 = 2,
@@ -7251,7 +7251,7 @@ pg.child_task = {
 	},
 	[4111] = {
 		group = 11,
-		name = "出行-海滨公园-任意行动4次",
+		name = "出遊-海濱公園-任意行動4次",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 2,
@@ -7307,7 +7307,7 @@ pg.child_task = {
 	},
 	[4112] = {
 		group = 12,
-		name = "参加明日之星获得第1名",
+		name = "參加明日之星獲得第1名",
 		task_target_progress = 1,
 		type_2 = 8,
 		type_1 = 2,
@@ -7336,7 +7336,7 @@ pg.child_task = {
 	},
 	[4113] = {
 		group = 13,
-		name = "出行-商业街-影像工作室-更突显自己的照片-1次",
+		name = "出遊-商業街-影像工作室-更突顯自己的照片-1次",
 		task_target_progress = 1,
 		type_2 = 3,
 		type_1 = 2,
@@ -7368,7 +7368,7 @@ pg.child_task = {
 	},
 	[10000] = {
 		group = 0,
-		name = "想完成任意行程",
+		name = "想完成任何行程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -7397,7 +7397,7 @@ pg.child_task = {
 	},
 	[10001] = {
 		group = 0,
-		name = "想完成任意行程",
+		name = "想完成任何行程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -7426,7 +7426,7 @@ pg.child_task = {
 	},
 	[10002] = {
 		group = 0,
-		name = "想完成任意行程",
+		name = "想完成任何行程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -7455,7 +7455,7 @@ pg.child_task = {
 	},
 	[10003] = {
 		group = 0,
-		name = "想完成任意行程",
+		name = "想完成任何行程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -7484,7 +7484,7 @@ pg.child_task = {
 	},
 	[10004] = {
 		group = 0,
-		name = "想完成任意行程",
+		name = "想完成任何行程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -7513,7 +7513,7 @@ pg.child_task = {
 	},
 	[10011] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -7556,7 +7556,7 @@ pg.child_task = {
 	},
 	[10012] = {
 		group = 0,
-		name = "想去美食坊活动",
+		name = "想去美食坊活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -7589,7 +7589,7 @@ pg.child_task = {
 	},
 	[10013] = {
 		group = 0,
-		name = "想去游乐场活动",
+		name = "想去遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -7623,7 +7623,7 @@ pg.child_task = {
 	},
 	[10014] = {
 		group = 0,
-		name = "想完成行程-初级研修/初级体能",
+		name = "想完成行程-初級研修/初級體能",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -7655,7 +7655,7 @@ pg.child_task = {
 	},
 	[10015] = {
 		group = 0,
-		name = "想完成行程-初级手工/初级声乐",
+		name = "想完成行程-初級手工/初級聲樂",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -7687,7 +7687,7 @@ pg.child_task = {
 	},
 	[10016] = {
 		group = 0,
-		name = "想完成行程-初级美术/初级形体",
+		name = "想完成行程-初級美術/初級形體",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -7719,7 +7719,7 @@ pg.child_task = {
 	},
 	[10017] = {
 		group = 0,
-		name = "想完成行程-初级表演/初级书法",
+		name = "想完成行程-初級表演/初級書法",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -7751,7 +7751,7 @@ pg.child_task = {
 	},
 	[10021] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -7794,7 +7794,7 @@ pg.child_task = {
 	},
 	[10022] = {
 		group = 0,
-		name = "想去美食坊活动",
+		name = "想去美食坊活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -7837,7 +7837,7 @@ pg.child_task = {
 	},
 	[10023] = {
 		group = 0,
-		name = "想去游乐场活动",
+		name = "想去遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -7871,7 +7871,7 @@ pg.child_task = {
 	},
 	[10024] = {
 		group = 0,
-		name = "想完成行程-初级研修/初级体能",
+		name = "想完成行程-初級研修/初級體能",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -7903,7 +7903,7 @@ pg.child_task = {
 	},
 	[10025] = {
 		group = 0,
-		name = "想完成行程-初级手工/初级声乐",
+		name = "想完成行程-初級手工/初級聲樂",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -7935,7 +7935,7 @@ pg.child_task = {
 	},
 	[10026] = {
 		group = 0,
-		name = "想完成行程-初级美术/初级形体",
+		name = "想完成行程-初級美術/初級形體",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -7967,7 +7967,7 @@ pg.child_task = {
 	},
 	[10027] = {
 		group = 0,
-		name = "想完成行程-初级表演/初级书法",
+		name = "想完成行程-初級表演/初級書法",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -7999,7 +7999,7 @@ pg.child_task = {
 	},
 	[10031] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -8042,7 +8042,7 @@ pg.child_task = {
 	},
 	[10032] = {
 		group = 0,
-		name = "想去美食坊活动",
+		name = "想去美食坊活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -8085,7 +8085,7 @@ pg.child_task = {
 	},
 	[10033] = {
 		group = 0,
-		name = "想去游乐场活动",
+		name = "想去遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -8118,7 +8118,7 @@ pg.child_task = {
 	},
 	[10034] = {
 		group = 0,
-		name = "想完成行程-初级研修/初级体能",
+		name = "想完成行程-初級研修/初級體能",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -8150,7 +8150,7 @@ pg.child_task = {
 	},
 	[10035] = {
 		group = 0,
-		name = "想完成行程-初级手工/初级声乐",
+		name = "想完成行程-初級手工/初級聲樂",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -8182,7 +8182,7 @@ pg.child_task = {
 	},
 	[10036] = {
 		group = 0,
-		name = "想完成行程-初级美术/初级形体",
+		name = "想完成行程-初級美術/初級形體",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -8214,7 +8214,7 @@ pg.child_task = {
 	},
 	[10037] = {
 		group = 0,
-		name = "想完成行程-初级表演/初级书法",
+		name = "想完成行程-初級表演/初級書法",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -8246,7 +8246,7 @@ pg.child_task = {
 	},
 	[10038] = {
 		group = 0,
-		name = "想去度假庄园活动",
+		name = "想去渡假莊園活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -8291,7 +8291,7 @@ pg.child_task = {
 	},
 	[10041] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -8334,7 +8334,7 @@ pg.child_task = {
 	},
 	[10042] = {
 		group = 0,
-		name = "想去美食坊活动",
+		name = "想去美食坊活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -8377,7 +8377,7 @@ pg.child_task = {
 	},
 	[10043] = {
 		group = 0,
-		name = "想去游乐场活动",
+		name = "想去遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -8410,7 +8410,7 @@ pg.child_task = {
 	},
 	[10044] = {
 		group = 0,
-		name = "想完成行程-初级研修/初级体能",
+		name = "想完成行程-初級研修/初級體能",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -8442,7 +8442,7 @@ pg.child_task = {
 	},
 	[10045] = {
 		group = 0,
-		name = "想完成行程-初级手工/初级声乐",
+		name = "想完成行程-初級手工/初級聲樂",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -8474,7 +8474,7 @@ pg.child_task = {
 	},
 	[10046] = {
 		group = 0,
-		name = "想完成行程-初级美术/初级形体",
+		name = "想完成行程-初級美術/初級形體",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -8506,7 +8506,7 @@ pg.child_task = {
 	},
 	[10047] = {
 		group = 0,
-		name = "想完成行程-初级表演/初级书法",
+		name = "想完成行程-初級表演/初級書法",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -8538,7 +8538,7 @@ pg.child_task = {
 	},
 	[10048] = {
 		group = 0,
-		name = "想去度假庄园活动",
+		name = "想去渡假莊園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -8583,7 +8583,7 @@ pg.child_task = {
 	},
 	[10051] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -8626,7 +8626,7 @@ pg.child_task = {
 	},
 	[10052] = {
 		group = 0,
-		name = "想去美食坊活动",
+		name = "想去美食坊活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -8669,7 +8669,7 @@ pg.child_task = {
 	},
 	[10053] = {
 		group = 0,
-		name = "想去游乐场活动",
+		name = "想去遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -8702,7 +8702,7 @@ pg.child_task = {
 	},
 	[10054] = {
 		group = 0,
-		name = "想完成行程-初级研修/初级体能",
+		name = "想完成行程-初級研修/初級體能",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -8734,7 +8734,7 @@ pg.child_task = {
 	},
 	[10055] = {
 		group = 0,
-		name = "想完成行程-初级手工/初级声乐",
+		name = "想完成行程-初級手工/初級聲樂",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -8766,7 +8766,7 @@ pg.child_task = {
 	},
 	[10056] = {
 		group = 0,
-		name = "想完成行程-初级美术/初级形体",
+		name = "想完成行程-初級美術/初級形體",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -8798,7 +8798,7 @@ pg.child_task = {
 	},
 	[10057] = {
 		group = 0,
-		name = "想完成行程-初级表演/初级书法",
+		name = "想完成行程-初級表演/初級書法",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -8830,7 +8830,7 @@ pg.child_task = {
 	},
 	[10058] = {
 		group = 0,
-		name = "想去度假庄园活动",
+		name = "想去渡假莊園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -8875,7 +8875,7 @@ pg.child_task = {
 	},
 	[10059] = {
 		group = 0,
-		name = "想去学院活动",
+		name = "想去學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -8932,7 +8932,7 @@ pg.child_task = {
 	},
 	[10061] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -8975,7 +8975,7 @@ pg.child_task = {
 	},
 	[10062] = {
 		group = 0,
-		name = "想去美食坊活动",
+		name = "想去美食坊活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -9018,7 +9018,7 @@ pg.child_task = {
 	},
 	[10063] = {
 		group = 0,
-		name = "想去游乐场活动",
+		name = "想去遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -9051,7 +9051,7 @@ pg.child_task = {
 	},
 	[10064] = {
 		group = 0,
-		name = "想完成行程-初级研修/初级体能",
+		name = "想完成行程-初級研修/初級體能",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -9083,7 +9083,7 @@ pg.child_task = {
 	},
 	[10065] = {
 		group = 0,
-		name = "想完成行程-初级手工/初级声乐",
+		name = "想完成行程-初級手工/初級聲樂",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -9115,7 +9115,7 @@ pg.child_task = {
 	},
 	[10066] = {
 		group = 0,
-		name = "想完成行程-初级美术/初级形体",
+		name = "想完成行程-初級美術/初級形體",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -9147,7 +9147,7 @@ pg.child_task = {
 	},
 	[10067] = {
 		group = 0,
-		name = "想完成行程-初级表演/初级书法",
+		name = "想完成行程-初級表演/初級書法",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -9179,7 +9179,7 @@ pg.child_task = {
 	},
 	[10068] = {
 		group = 0,
-		name = "想去度假庄园活动",
+		name = "想去渡假莊園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -9224,7 +9224,7 @@ pg.child_task = {
 	},
 	[10069] = {
 		group = 0,
-		name = "想去学院活动",
+		name = "想去學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -9281,7 +9281,7 @@ pg.child_task = {
 	},
 	[10071] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -9324,7 +9324,7 @@ pg.child_task = {
 	},
 	[10072] = {
 		group = 0,
-		name = "想去美食坊活动",
+		name = "想去美食坊活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -9367,7 +9367,7 @@ pg.child_task = {
 	},
 	[10073] = {
 		group = 0,
-		name = "想去游乐场活动",
+		name = "想去遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -9400,7 +9400,7 @@ pg.child_task = {
 	},
 	[10074] = {
 		group = 0,
-		name = "想完成行程-初级研修/初级体能",
+		name = "想完成行程-初級研修/初級體能",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -9432,7 +9432,7 @@ pg.child_task = {
 	},
 	[10075] = {
 		group = 0,
-		name = "想完成行程-初级手工/初级声乐",
+		name = "想完成行程-初級手工/初級聲樂",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -9464,7 +9464,7 @@ pg.child_task = {
 	},
 	[10076] = {
 		group = 0,
-		name = "想完成行程-初级美术/初级形体",
+		name = "想完成行程-初級美術/初級形體",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -9496,7 +9496,7 @@ pg.child_task = {
 	},
 	[10077] = {
 		group = 0,
-		name = "想完成行程-初级表演/初级书法",
+		name = "想完成行程-初級表演/初級書法",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -9528,7 +9528,7 @@ pg.child_task = {
 	},
 	[10078] = {
 		group = 0,
-		name = "想去度假庄园活动",
+		name = "想去渡假莊園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -9573,7 +9573,7 @@ pg.child_task = {
 	},
 	[10079] = {
 		group = 0,
-		name = "想去学院活动",
+		name = "想去學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -9630,7 +9630,7 @@ pg.child_task = {
 	},
 	[10080] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -9673,7 +9673,7 @@ pg.child_task = {
 	},
 	[10081] = {
 		group = 0,
-		name = "想去美食坊活动",
+		name = "想去美食坊活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -9716,7 +9716,7 @@ pg.child_task = {
 	},
 	[10082] = {
 		group = 0,
-		name = "想去游乐场活动",
+		name = "想去遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -9749,7 +9749,7 @@ pg.child_task = {
 	},
 	[10083] = {
 		group = 0,
-		name = "想完成行程-初级研修/初级体能",
+		name = "想完成行程-初級研修/初級體能",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -9781,7 +9781,7 @@ pg.child_task = {
 	},
 	[10084] = {
 		group = 0,
-		name = "想完成行程-初级手工/初级声乐",
+		name = "想完成行程-初級手工/初級聲樂",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -9813,7 +9813,7 @@ pg.child_task = {
 	},
 	[10085] = {
 		group = 0,
-		name = "想完成行程-初级美术/初级形体",
+		name = "想完成行程-初級美術/初級形體",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -9845,7 +9845,7 @@ pg.child_task = {
 	},
 	[10086] = {
 		group = 0,
-		name = "想完成行程-初级表演/初级书法",
+		name = "想完成行程-初級表演/初級書法",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -9877,7 +9877,7 @@ pg.child_task = {
 	},
 	[10087] = {
 		group = 0,
-		name = "想去度假庄园活动",
+		name = "想去渡假莊園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -9922,7 +9922,7 @@ pg.child_task = {
 	},
 	[10088] = {
 		group = 0,
-		name = "想去学院活动",
+		name = "想去學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -9979,7 +9979,7 @@ pg.child_task = {
 	},
 	[10089] = {
 		group = 0,
-		name = "想去体育馆活动",
+		name = "想去體育館活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -10022,7 +10022,7 @@ pg.child_task = {
 	},
 	[10090] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -10065,7 +10065,7 @@ pg.child_task = {
 	},
 	[10091] = {
 		group = 0,
-		name = "想去美食坊活动",
+		name = "想去美食坊活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -10108,7 +10108,7 @@ pg.child_task = {
 	},
 	[10092] = {
 		group = 0,
-		name = "想去游乐场活动",
+		name = "想去遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -10141,7 +10141,7 @@ pg.child_task = {
 	},
 	[10093] = {
 		group = 0,
-		name = "想完成行程-初级研修/初级体能",
+		name = "想完成行程-初級研修/初級體能",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -10173,7 +10173,7 @@ pg.child_task = {
 	},
 	[10094] = {
 		group = 0,
-		name = "想完成行程-初级手工/初级声乐",
+		name = "想完成行程-初級手工/初級聲樂",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -10205,7 +10205,7 @@ pg.child_task = {
 	},
 	[10095] = {
 		group = 0,
-		name = "想完成行程-初级美术/初级形体",
+		name = "想完成行程-初級美術/初級形體",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -10237,7 +10237,7 @@ pg.child_task = {
 	},
 	[10096] = {
 		group = 0,
-		name = "想完成行程-初级表演/初级书法",
+		name = "想完成行程-初級表演/初級書法",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -10269,7 +10269,7 @@ pg.child_task = {
 	},
 	[10097] = {
 		group = 0,
-		name = "想去度假庄园活动",
+		name = "想去渡假莊園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -10314,7 +10314,7 @@ pg.child_task = {
 	},
 	[10098] = {
 		group = 0,
-		name = "想去学院活动",
+		name = "想去學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -10371,7 +10371,7 @@ pg.child_task = {
 	},
 	[10099] = {
 		group = 0,
-		name = "想去体育馆活动",
+		name = "想去體育館活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -10414,7 +10414,7 @@ pg.child_task = {
 	},
 	[10111] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -10457,7 +10457,7 @@ pg.child_task = {
 	},
 	[10112] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -10503,7 +10503,7 @@ pg.child_task = {
 	},
 	[10113] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -10575,7 +10575,7 @@ pg.child_task = {
 	},
 	[10114] = {
 		group = 0,
-		name = "想完成任意初级课程",
+		name = "想完成任意初級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -10613,7 +10613,7 @@ pg.child_task = {
 	},
 	[10115] = {
 		group = 0,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "想完成行程-初級烹飪/初級園藝/初級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -10646,7 +10646,7 @@ pg.child_task = {
 	},
 	[10116] = {
 		group = 0,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "想完成行程-初級寫生/初級茶道/初級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -10679,7 +10679,7 @@ pg.child_task = {
 	},
 	[10117] = {
 		group = 0,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "想完成行程-初級演奏/初級拓展/初級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -10712,7 +10712,7 @@ pg.child_task = {
 	},
 	[10118] = {
 		group = 0,
-		name = "想完成任意初级社会活动",
+		name = "想完成任意初級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -10752,7 +10752,7 @@ pg.child_task = {
 	},
 	[10119] = {
 		group = 0,
-		name = "想去体育馆/商业街活动",
+		name = "想去體育館/商業街活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -10825,7 +10825,7 @@ pg.child_task = {
 	},
 	[10121] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -10868,7 +10868,7 @@ pg.child_task = {
 	},
 	[10122] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -10914,7 +10914,7 @@ pg.child_task = {
 	},
 	[10123] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -10986,7 +10986,7 @@ pg.child_task = {
 	},
 	[10124] = {
 		group = 0,
-		name = "想完成任意初级课程",
+		name = "想完成任意初級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -11024,7 +11024,7 @@ pg.child_task = {
 	},
 	[10125] = {
 		group = 0,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "想完成行程-初級烹飪/初級園藝/初級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -11057,7 +11057,7 @@ pg.child_task = {
 	},
 	[10126] = {
 		group = 0,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "想完成行程-初級寫生/初級茶道/初級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -11090,7 +11090,7 @@ pg.child_task = {
 	},
 	[10127] = {
 		group = 0,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "想完成行程-初級演奏/初級拓展/初級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -11123,7 +11123,7 @@ pg.child_task = {
 	},
 	[10128] = {
 		group = 0,
-		name = "想完成任意初级社会活动",
+		name = "想完成任意初級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -11163,7 +11163,7 @@ pg.child_task = {
 	},
 	[10129] = {
 		group = 0,
-		name = "想去体育馆/商业街活动",
+		name = "想去體育館/商業街活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -11236,7 +11236,7 @@ pg.child_task = {
 	},
 	[10131] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -11279,7 +11279,7 @@ pg.child_task = {
 	},
 	[10132] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -11325,7 +11325,7 @@ pg.child_task = {
 	},
 	[10133] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -11397,7 +11397,7 @@ pg.child_task = {
 	},
 	[10134] = {
 		group = 0,
-		name = "想完成任意初级课程",
+		name = "想完成任意初級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -11435,7 +11435,7 @@ pg.child_task = {
 	},
 	[10135] = {
 		group = 0,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "想完成行程-初級烹飪/初級園藝/初級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -11468,7 +11468,7 @@ pg.child_task = {
 	},
 	[10136] = {
 		group = 0,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "想完成行程-初級寫生/初級茶道/初級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -11501,7 +11501,7 @@ pg.child_task = {
 	},
 	[10137] = {
 		group = 0,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "想完成行程-初級演奏/初級拓展/初級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -11534,7 +11534,7 @@ pg.child_task = {
 	},
 	[10138] = {
 		group = 0,
-		name = "想完成任意初级社会活动",
+		name = "想完成任意初級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -11574,7 +11574,7 @@ pg.child_task = {
 	},
 	[10139] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -11673,7 +11673,7 @@ pg.child_task = {
 	},
 	[10141] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -11716,7 +11716,7 @@ pg.child_task = {
 	},
 	[10142] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -11762,7 +11762,7 @@ pg.child_task = {
 	},
 	[10143] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -11834,7 +11834,7 @@ pg.child_task = {
 	},
 	[10144] = {
 		group = 0,
-		name = "想完成任意初级课程",
+		name = "想完成任意初級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -11872,7 +11872,7 @@ pg.child_task = {
 	},
 	[10145] = {
 		group = 0,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "想完成行程-初級烹飪/初級園藝/初級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -11905,7 +11905,7 @@ pg.child_task = {
 	},
 	[10146] = {
 		group = 0,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "想完成行程-初級寫生/初級茶道/初級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -11938,7 +11938,7 @@ pg.child_task = {
 	},
 	[10147] = {
 		group = 0,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "想完成行程-初級演奏/初級拓展/初級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -11971,7 +11971,7 @@ pg.child_task = {
 	},
 	[10148] = {
 		group = 0,
-		name = "想完成任意初级社会活动",
+		name = "想完成任意初級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -12011,7 +12011,7 @@ pg.child_task = {
 	},
 	[10149] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -12110,7 +12110,7 @@ pg.child_task = {
 	},
 	[10151] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -12153,7 +12153,7 @@ pg.child_task = {
 	},
 	[10152] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -12199,7 +12199,7 @@ pg.child_task = {
 	},
 	[10153] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -12271,7 +12271,7 @@ pg.child_task = {
 	},
 	[10154] = {
 		group = 0,
-		name = "想完成任意初级课程",
+		name = "想完成任意初級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -12309,7 +12309,7 @@ pg.child_task = {
 	},
 	[10155] = {
 		group = 0,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "想完成行程-初級烹飪/初級園藝/初級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -12342,7 +12342,7 @@ pg.child_task = {
 	},
 	[10156] = {
 		group = 0,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "想完成行程-初級寫生/初級茶道/初級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -12375,7 +12375,7 @@ pg.child_task = {
 	},
 	[10157] = {
 		group = 0,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "想完成行程-初級演奏/初級拓展/初級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -12408,7 +12408,7 @@ pg.child_task = {
 	},
 	[10158] = {
 		group = 0,
-		name = "想完成任意初级社会活动",
+		name = "想完成任意初級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -12448,7 +12448,7 @@ pg.child_task = {
 	},
 	[10159] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -12547,7 +12547,7 @@ pg.child_task = {
 	},
 	[10161] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -12590,7 +12590,7 @@ pg.child_task = {
 	},
 	[10162] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -12636,7 +12636,7 @@ pg.child_task = {
 	},
 	[10163] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -12708,7 +12708,7 @@ pg.child_task = {
 	},
 	[10164] = {
 		group = 0,
-		name = "想完成任意初级课程",
+		name = "想完成任意初級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -12746,7 +12746,7 @@ pg.child_task = {
 	},
 	[10165] = {
 		group = 0,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "想完成行程-初級烹飪/初級園藝/初級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -12779,7 +12779,7 @@ pg.child_task = {
 	},
 	[10166] = {
 		group = 0,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "想完成行程-初級寫生/初級茶道/初級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -12812,7 +12812,7 @@ pg.child_task = {
 	},
 	[10167] = {
 		group = 0,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "想完成行程-初級演奏/初級拓展/初級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -12845,7 +12845,7 @@ pg.child_task = {
 	},
 	[10168] = {
 		group = 0,
-		name = "想完成任意初级社会活动",
+		name = "想完成任意初級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -12885,7 +12885,7 @@ pg.child_task = {
 	},
 	[10169] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -12984,7 +12984,7 @@ pg.child_task = {
 	},
 	[10171] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -13027,7 +13027,7 @@ pg.child_task = {
 	},
 	[10172] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -13073,7 +13073,7 @@ pg.child_task = {
 	},
 	[10173] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -13145,7 +13145,7 @@ pg.child_task = {
 	},
 	[10174] = {
 		group = 0,
-		name = "想完成任意初级课程",
+		name = "想完成任意初級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -13183,7 +13183,7 @@ pg.child_task = {
 	},
 	[10175] = {
 		group = 0,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "想完成行程-初級烹飪/初級園藝/初級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -13216,7 +13216,7 @@ pg.child_task = {
 	},
 	[10176] = {
 		group = 0,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "想完成行程-初級寫生/初級茶道/初級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -13249,7 +13249,7 @@ pg.child_task = {
 	},
 	[10177] = {
 		group = 0,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "想完成行程-初級演奏/初級拓展/初級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -13282,7 +13282,7 @@ pg.child_task = {
 	},
 	[10178] = {
 		group = 0,
-		name = "想完成任意初级社会活动",
+		name = "想完成任意初級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -13322,7 +13322,7 @@ pg.child_task = {
 	},
 	[10179] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -13421,7 +13421,7 @@ pg.child_task = {
 	},
 	[10181] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -13464,7 +13464,7 @@ pg.child_task = {
 	},
 	[10182] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -13510,7 +13510,7 @@ pg.child_task = {
 	},
 	[10183] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -13582,7 +13582,7 @@ pg.child_task = {
 	},
 	[10184] = {
 		group = 0,
-		name = "想完成任意初级课程",
+		name = "想完成任意初級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -13620,7 +13620,7 @@ pg.child_task = {
 	},
 	[10185] = {
 		group = 0,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "想完成行程-初級烹飪/初級園藝/初級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -13653,7 +13653,7 @@ pg.child_task = {
 	},
 	[10186] = {
 		group = 0,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "想完成行程-初級寫生/初級茶道/初級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -13686,7 +13686,7 @@ pg.child_task = {
 	},
 	[10187] = {
 		group = 0,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "想完成行程-初級演奏/初級拓展/初級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -13719,7 +13719,7 @@ pg.child_task = {
 	},
 	[10188] = {
 		group = 0,
-		name = "想完成任意初级社会活动",
+		name = "想完成任意初級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -13759,7 +13759,7 @@ pg.child_task = {
 	},
 	[10189] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -13858,7 +13858,7 @@ pg.child_task = {
 	},
 	[10191] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -13901,7 +13901,7 @@ pg.child_task = {
 	},
 	[10192] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -13947,7 +13947,7 @@ pg.child_task = {
 	},
 	[10193] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -14019,7 +14019,7 @@ pg.child_task = {
 	},
 	[10194] = {
 		group = 0,
-		name = "想完成任意初级课程",
+		name = "想完成任意初級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -14057,7 +14057,7 @@ pg.child_task = {
 	},
 	[10195] = {
 		group = 0,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "想完成行程-初級烹飪/初級園藝/初級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -14090,7 +14090,7 @@ pg.child_task = {
 	},
 	[10196] = {
 		group = 0,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "想完成行程-初級寫生/初級茶道/初級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -14123,7 +14123,7 @@ pg.child_task = {
 	},
 	[10197] = {
 		group = 0,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "想完成行程-初級演奏/初級拓展/初級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -14156,7 +14156,7 @@ pg.child_task = {
 	},
 	[10198] = {
 		group = 0,
-		name = "想完成任意初级社会活动",
+		name = "想完成任意初級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -14196,7 +14196,7 @@ pg.child_task = {
 	},
 	[10199] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -14295,7 +14295,7 @@ pg.child_task = {
 	},
 	[10221] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -14338,7 +14338,7 @@ pg.child_task = {
 	},
 	[10222] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -14384,7 +14384,7 @@ pg.child_task = {
 	},
 	[10223] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -14456,7 +14456,7 @@ pg.child_task = {
 	},
 	[10224] = {
 		group = 0,
-		name = "想完成任意初级课程",
+		name = "想完成任意初級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -14494,7 +14494,7 @@ pg.child_task = {
 	},
 	[10225] = {
 		group = 0,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "想完成行程-初級烹飪/初級園藝/初級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -14527,7 +14527,7 @@ pg.child_task = {
 	},
 	[10226] = {
 		group = 0,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "想完成行程-初級寫生/初級茶道/初級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -14560,7 +14560,7 @@ pg.child_task = {
 	},
 	[10227] = {
 		group = 0,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "想完成行程-初級演奏/初級拓展/初級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -14593,7 +14593,7 @@ pg.child_task = {
 	},
 	[10228] = {
 		group = 0,
-		name = "想完成任意初级社会活动",
+		name = "想完成任意初級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -14633,7 +14633,7 @@ pg.child_task = {
 	},
 	[10229] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -14732,7 +14732,7 @@ pg.child_task = {
 	},
 	[10231] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -14775,7 +14775,7 @@ pg.child_task = {
 	},
 	[10232] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -14821,7 +14821,7 @@ pg.child_task = {
 	},
 	[10233] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -14893,7 +14893,7 @@ pg.child_task = {
 	},
 	[10234] = {
 		group = 0,
-		name = "想完成任意初级课程",
+		name = "想完成任意初級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -14931,7 +14931,7 @@ pg.child_task = {
 	},
 	[10235] = {
 		group = 0,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "想完成行程-初級烹飪/初級園藝/初級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -14964,7 +14964,7 @@ pg.child_task = {
 	},
 	[10236] = {
 		group = 0,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "想完成行程-初級寫生/初級茶道/初級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -14997,7 +14997,7 @@ pg.child_task = {
 	},
 	[10237] = {
 		group = 0,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "想完成行程-初級演奏/初級拓展/初級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -15030,7 +15030,7 @@ pg.child_task = {
 	},
 	[10238] = {
 		group = 0,
-		name = "想完成任意初级社会活动",
+		name = "想完成任意初級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -15070,7 +15070,7 @@ pg.child_task = {
 	},
 	[10239] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -15169,7 +15169,7 @@ pg.child_task = {
 	},
 	[10241] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -15212,7 +15212,7 @@ pg.child_task = {
 	},
 	[10242] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -15258,7 +15258,7 @@ pg.child_task = {
 	},
 	[10243] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -15330,7 +15330,7 @@ pg.child_task = {
 	},
 	[10244] = {
 		group = 0,
-		name = "想完成任意初级课程",
+		name = "想完成任意初級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -15368,7 +15368,7 @@ pg.child_task = {
 	},
 	[10245] = {
 		group = 0,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "想完成行程-初級烹飪/初級園藝/初級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -15401,7 +15401,7 @@ pg.child_task = {
 	},
 	[10246] = {
 		group = 0,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "想完成行程-初級寫生/初級茶道/初級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -15434,7 +15434,7 @@ pg.child_task = {
 	},
 	[10247] = {
 		group = 0,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "想完成行程-初級演奏/初級拓展/初級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -15467,7 +15467,7 @@ pg.child_task = {
 	},
 	[10248] = {
 		group = 0,
-		name = "想完成任意初级社会活动",
+		name = "想完成任意初級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -15507,7 +15507,7 @@ pg.child_task = {
 	},
 	[10249] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -15606,7 +15606,7 @@ pg.child_task = {
 	},
 	[10251] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -15649,7 +15649,7 @@ pg.child_task = {
 	},
 	[10252] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -15695,7 +15695,7 @@ pg.child_task = {
 	},
 	[10253] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -15767,7 +15767,7 @@ pg.child_task = {
 	},
 	[10254] = {
 		group = 0,
-		name = "想完成任意初级课程",
+		name = "想完成任意初級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -15805,7 +15805,7 @@ pg.child_task = {
 	},
 	[10255] = {
 		group = 0,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "想完成行程-初級烹飪/初級園藝/初級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -15838,7 +15838,7 @@ pg.child_task = {
 	},
 	[10256] = {
 		group = 0,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "想完成行程-初級寫生/初級茶道/初級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -15871,7 +15871,7 @@ pg.child_task = {
 	},
 	[10257] = {
 		group = 0,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "想完成行程-初級演奏/初級拓展/初級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -15904,7 +15904,7 @@ pg.child_task = {
 	},
 	[10258] = {
 		group = 0,
-		name = "想完成任意初级社会活动",
+		name = "想完成任意初級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -15944,7 +15944,7 @@ pg.child_task = {
 	},
 	[10259] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -16043,7 +16043,7 @@ pg.child_task = {
 	},
 	[10261] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -16086,7 +16086,7 @@ pg.child_task = {
 	},
 	[10262] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -16132,7 +16132,7 @@ pg.child_task = {
 	},
 	[10263] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -16204,7 +16204,7 @@ pg.child_task = {
 	},
 	[10264] = {
 		group = 0,
-		name = "想完成任意初级课程",
+		name = "想完成任意初級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -16242,7 +16242,7 @@ pg.child_task = {
 	},
 	[10265] = {
 		group = 0,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "想完成行程-初級烹飪/初級園藝/初級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -16275,7 +16275,7 @@ pg.child_task = {
 	},
 	[10266] = {
 		group = 0,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "想完成行程-初級寫生/初級茶道/初級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -16308,7 +16308,7 @@ pg.child_task = {
 	},
 	[10267] = {
 		group = 0,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "想完成行程-初級演奏/初級拓展/初級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -16341,7 +16341,7 @@ pg.child_task = {
 	},
 	[10268] = {
 		group = 0,
-		name = "想完成任意初级社会活动",
+		name = "想完成任意初級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -16381,7 +16381,7 @@ pg.child_task = {
 	},
 	[10269] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -16480,7 +16480,7 @@ pg.child_task = {
 	},
 	[10271] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -16523,7 +16523,7 @@ pg.child_task = {
 	},
 	[10272] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -16569,7 +16569,7 @@ pg.child_task = {
 	},
 	[10273] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -16641,7 +16641,7 @@ pg.child_task = {
 	},
 	[10274] = {
 		group = 0,
-		name = "想完成任意初级课程",
+		name = "想完成任意初級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -16679,7 +16679,7 @@ pg.child_task = {
 	},
 	[10275] = {
 		group = 0,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "想完成行程-初級烹飪/初級園藝/初級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -16712,7 +16712,7 @@ pg.child_task = {
 	},
 	[10276] = {
 		group = 0,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "想完成行程-初級寫生/初級茶道/初級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -16745,7 +16745,7 @@ pg.child_task = {
 	},
 	[10277] = {
 		group = 0,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "想完成行程-初級演奏/初級拓展/初級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -16778,7 +16778,7 @@ pg.child_task = {
 	},
 	[10278] = {
 		group = 0,
-		name = "想完成任意初级社会活动",
+		name = "想完成任意初級社會活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -16818,9 +16818,9 @@ pg.child_task = {
 	},
 	[10279] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
-		type_2 = 1,
+		type_2 = 3,
 		type_1 = 1,
 		id = 10279,
 		icon = "",
@@ -16917,7 +16917,7 @@ pg.child_task = {
 	},
 	[10281] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -16960,7 +16960,7 @@ pg.child_task = {
 	},
 	[10282] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -17006,7 +17006,7 @@ pg.child_task = {
 	},
 	[10283] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -17078,7 +17078,7 @@ pg.child_task = {
 	},
 	[10284] = {
 		group = 0,
-		name = "想完成任意初级课程",
+		name = "想完成任意初級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -17116,7 +17116,7 @@ pg.child_task = {
 	},
 	[10285] = {
 		group = 0,
-		name = "想完成行程-初级烹饪/初级园艺/初级运动",
+		name = "想完成行程-初級烹飪/初級園藝/初級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -17149,7 +17149,7 @@ pg.child_task = {
 	},
 	[10286] = {
 		group = 0,
-		name = "想完成行程-初级写生/初级茶道/初级戏剧",
+		name = "想完成行程-初級寫生/初級茶道/初級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -17182,7 +17182,7 @@ pg.child_task = {
 	},
 	[10287] = {
 		group = 0,
-		name = "想完成行程-初级演奏/初级拓展/初级音乐剧",
+		name = "想完成行程-初級演奏/初級拓展/初級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -17215,7 +17215,7 @@ pg.child_task = {
 	},
 	[10288] = {
 		group = 0,
-		name = "想完成任意初级社会活动",
+		name = "想完成任意初級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -17255,7 +17255,7 @@ pg.child_task = {
 	},
 	[10289] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -17354,7 +17354,7 @@ pg.child_task = {
 	},
 	[10291] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -17397,7 +17397,7 @@ pg.child_task = {
 	},
 	[10292] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -17443,7 +17443,7 @@ pg.child_task = {
 	},
 	[10293] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -17515,7 +17515,7 @@ pg.child_task = {
 	},
 	[10294] = {
 		group = 0,
-		name = "想完成任意中级课程",
+		name = "想完成任一中級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -17553,7 +17553,7 @@ pg.child_task = {
 	},
 	[10295] = {
 		group = 0,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "想完成行程-中級烹飪/中級園藝/中級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -17586,7 +17586,7 @@ pg.child_task = {
 	},
 	[10296] = {
 		group = 0,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "想完成行程-中級寫生/中級茶道/中級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -17619,7 +17619,7 @@ pg.child_task = {
 	},
 	[10297] = {
 		group = 0,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "想完成行程-中級演奏/中級拓展/中級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -17652,7 +17652,7 @@ pg.child_task = {
 	},
 	[10298] = {
 		group = 0,
-		name = "想完成任意中级社会活动",
+		name = "想完成任一中級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -17692,7 +17692,7 @@ pg.child_task = {
 	},
 	[10299] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -17791,7 +17791,7 @@ pg.child_task = {
 	},
 	[10301] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -17834,7 +17834,7 @@ pg.child_task = {
 	},
 	[10302] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -17880,7 +17880,7 @@ pg.child_task = {
 	},
 	[10303] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -17952,7 +17952,7 @@ pg.child_task = {
 	},
 	[10304] = {
 		group = 0,
-		name = "想完成任意中级课程",
+		name = "想完成任一中級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -17990,7 +17990,7 @@ pg.child_task = {
 	},
 	[10305] = {
 		group = 0,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "想完成行程-中級烹飪/中級園藝/中級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -18023,7 +18023,7 @@ pg.child_task = {
 	},
 	[10306] = {
 		group = 0,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "想完成行程-中級寫生/中級茶道/中級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -18056,7 +18056,7 @@ pg.child_task = {
 	},
 	[10307] = {
 		group = 0,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "想完成行程-中級演奏/中級拓展/中級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -18089,7 +18089,7 @@ pg.child_task = {
 	},
 	[10308] = {
 		group = 0,
-		name = "想完成任意中级社会活动",
+		name = "想完成任一中級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -18129,7 +18129,7 @@ pg.child_task = {
 	},
 	[10309] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -18228,7 +18228,7 @@ pg.child_task = {
 	},
 	[10311] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -18271,7 +18271,7 @@ pg.child_task = {
 	},
 	[10312] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -18317,7 +18317,7 @@ pg.child_task = {
 	},
 	[10313] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -18389,7 +18389,7 @@ pg.child_task = {
 	},
 	[10314] = {
 		group = 0,
-		name = "想完成任意中级课程",
+		name = "想完成任一中級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -18427,7 +18427,7 @@ pg.child_task = {
 	},
 	[10315] = {
 		group = 0,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "想完成行程-中級烹飪/中級園藝/中級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -18460,7 +18460,7 @@ pg.child_task = {
 	},
 	[10316] = {
 		group = 0,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "想完成行程-中級寫生/中級茶道/中級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -18493,7 +18493,7 @@ pg.child_task = {
 	},
 	[10317] = {
 		group = 0,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "想完成行程-中級演奏/中級拓展/中級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -18526,7 +18526,7 @@ pg.child_task = {
 	},
 	[10318] = {
 		group = 0,
-		name = "想完成任意中级社会活动",
+		name = "想完成任一中級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -18566,7 +18566,7 @@ pg.child_task = {
 	},
 	[10319] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -18665,7 +18665,7 @@ pg.child_task = {
 	},
 	[10321] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -18708,7 +18708,7 @@ pg.child_task = {
 	},
 	[10322] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -18754,7 +18754,7 @@ pg.child_task = {
 	},
 	[10323] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -18826,7 +18826,7 @@ pg.child_task = {
 	},
 	[10324] = {
 		group = 0,
-		name = "想完成任意中级课程",
+		name = "想完成任一中級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -18864,7 +18864,7 @@ pg.child_task = {
 	},
 	[10325] = {
 		group = 0,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "想完成行程-中級烹飪/中級園藝/中級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -18897,7 +18897,7 @@ pg.child_task = {
 	},
 	[10326] = {
 		group = 0,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "想完成行程-中級寫生/中級茶道/中級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -18930,7 +18930,7 @@ pg.child_task = {
 	},
 	[10327] = {
 		group = 0,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "想完成行程-中級演奏/中級拓展/中級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -18963,7 +18963,7 @@ pg.child_task = {
 	},
 	[10328] = {
 		group = 0,
-		name = "想完成任意中级社会活动",
+		name = "想完成任一中級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -19003,7 +19003,7 @@ pg.child_task = {
 	},
 	[10329] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -19102,7 +19102,7 @@ pg.child_task = {
 	},
 	[10331] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -19145,7 +19145,7 @@ pg.child_task = {
 	},
 	[10332] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -19191,7 +19191,7 @@ pg.child_task = {
 	},
 	[10333] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -19263,7 +19263,7 @@ pg.child_task = {
 	},
 	[10334] = {
 		group = 0,
-		name = "想完成任意中级课程",
+		name = "想完成任一中級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -19301,7 +19301,7 @@ pg.child_task = {
 	},
 	[10335] = {
 		group = 0,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "想完成行程-中級烹飪/中級園藝/中級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -19334,7 +19334,7 @@ pg.child_task = {
 	},
 	[10336] = {
 		group = 0,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "想完成行程-中級寫生/中級茶道/中級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -19367,7 +19367,7 @@ pg.child_task = {
 	},
 	[10337] = {
 		group = 0,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "想完成行程-中級演奏/中級拓展/中級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -19400,7 +19400,7 @@ pg.child_task = {
 	},
 	[10338] = {
 		group = 0,
-		name = "想完成任意中级社会活动",
+		name = "想完成任一中級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -19440,7 +19440,7 @@ pg.child_task = {
 	},
 	[10339] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -19539,7 +19539,7 @@ pg.child_task = {
 	},
 	[10341] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -19582,7 +19582,7 @@ pg.child_task = {
 	},
 	[10342] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -19628,7 +19628,7 @@ pg.child_task = {
 	},
 	[10343] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -19700,7 +19700,7 @@ pg.child_task = {
 	},
 	[10344] = {
 		group = 0,
-		name = "想完成任意中级课程",
+		name = "想完成任一中級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -19738,7 +19738,7 @@ pg.child_task = {
 	},
 	[10345] = {
 		group = 0,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "想完成行程-中級烹飪/中級園藝/中級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -19771,7 +19771,7 @@ pg.child_task = {
 	},
 	[10346] = {
 		group = 0,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "想完成行程-中級寫生/中級茶道/中級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -19804,7 +19804,7 @@ pg.child_task = {
 	},
 	[10347] = {
 		group = 0,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "想完成行程-中級演奏/中級拓展/中級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -19837,7 +19837,7 @@ pg.child_task = {
 	},
 	[10348] = {
 		group = 0,
-		name = "想完成任意中级社会活动",
+		name = "想完成任一中級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -19877,7 +19877,7 @@ pg.child_task = {
 	},
 	[10349] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -19976,7 +19976,7 @@ pg.child_task = {
 	},
 	[10351] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -20019,7 +20019,7 @@ pg.child_task = {
 	},
 	[10352] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -20065,7 +20065,7 @@ pg.child_task = {
 	},
 	[10353] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -20137,7 +20137,7 @@ pg.child_task = {
 	},
 	[10354] = {
 		group = 0,
-		name = "想完成任意中级课程",
+		name = "想完成任一中級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -20175,7 +20175,7 @@ pg.child_task = {
 	},
 	[10355] = {
 		group = 0,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "想完成行程-中級烹飪/中級園藝/中級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -20208,7 +20208,7 @@ pg.child_task = {
 	},
 	[10356] = {
 		group = 0,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "想完成行程-中級寫生/中級茶道/中級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -20241,7 +20241,7 @@ pg.child_task = {
 	},
 	[10357] = {
 		group = 0,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "想完成行程-中級演奏/中級拓展/中級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -20274,7 +20274,7 @@ pg.child_task = {
 	},
 	[10358] = {
 		group = 0,
-		name = "想完成任意中级社会活动",
+		name = "想完成任一中級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -20314,9 +20314,9 @@ pg.child_task = {
 	},
 	[10359] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
-		type_2 = 1,
+		type_2 = 3,
 		type_1 = 1,
 		id = 10359,
 		icon = "",
@@ -20413,7 +20413,7 @@ pg.child_task = {
 	},
 	[10361] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -20456,7 +20456,7 @@ pg.child_task = {
 	},
 	[10362] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -20502,7 +20502,7 @@ pg.child_task = {
 	},
 	[10363] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -20574,7 +20574,7 @@ pg.child_task = {
 	},
 	[10364] = {
 		group = 0,
-		name = "想完成任意中级课程",
+		name = "想完成任一中級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -20612,7 +20612,7 @@ pg.child_task = {
 	},
 	[10365] = {
 		group = 0,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "想完成行程-中級烹飪/中級園藝/中級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -20645,7 +20645,7 @@ pg.child_task = {
 	},
 	[10366] = {
 		group = 0,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "想完成行程-中級寫生/中級茶道/中級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -20678,7 +20678,7 @@ pg.child_task = {
 	},
 	[10367] = {
 		group = 0,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "想完成行程-中級演奏/中級拓展/中級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -20711,7 +20711,7 @@ pg.child_task = {
 	},
 	[10368] = {
 		group = 0,
-		name = "想完成任意中级社会活动",
+		name = "想完成任一中級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -20751,7 +20751,7 @@ pg.child_task = {
 	},
 	[10369] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -20850,7 +20850,7 @@ pg.child_task = {
 	},
 	[10371] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -20893,7 +20893,7 @@ pg.child_task = {
 	},
 	[10372] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -20939,7 +20939,7 @@ pg.child_task = {
 	},
 	[10373] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -21011,7 +21011,7 @@ pg.child_task = {
 	},
 	[10374] = {
 		group = 0,
-		name = "想完成任意中级课程",
+		name = "想完成任一中級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -21049,7 +21049,7 @@ pg.child_task = {
 	},
 	[10375] = {
 		group = 0,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "想完成行程-中級烹飪/中級園藝/中級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -21082,7 +21082,7 @@ pg.child_task = {
 	},
 	[10376] = {
 		group = 0,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "想完成行程-中級寫生/中級茶道/中級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -21115,7 +21115,7 @@ pg.child_task = {
 	},
 	[10377] = {
 		group = 0,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "想完成行程-中級演奏/中級拓展/中級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -21148,7 +21148,7 @@ pg.child_task = {
 	},
 	[10378] = {
 		group = 0,
-		name = "想完成任意中级社会活动",
+		name = "想完成任一中級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -21188,7 +21188,7 @@ pg.child_task = {
 	},
 	[10379] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -21287,7 +21287,7 @@ pg.child_task = {
 	},
 	[10381] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -21330,7 +21330,7 @@ pg.child_task = {
 	},
 	[10382] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -21376,7 +21376,7 @@ pg.child_task = {
 	},
 	[10383] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -21448,7 +21448,7 @@ pg.child_task = {
 	},
 	[10384] = {
 		group = 0,
-		name = "想完成任意中级课程",
+		name = "想完成任一中級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -21486,7 +21486,7 @@ pg.child_task = {
 	},
 	[10385] = {
 		group = 0,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "想完成行程-中級烹飪/中級園藝/中級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -21519,7 +21519,7 @@ pg.child_task = {
 	},
 	[10386] = {
 		group = 0,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "想完成行程-中級寫生/中級茶道/中級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -21552,7 +21552,7 @@ pg.child_task = {
 	},
 	[10387] = {
 		group = 0,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "想完成行程-中級演奏/中級拓展/中級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -21585,7 +21585,7 @@ pg.child_task = {
 	},
 	[10388] = {
 		group = 0,
-		name = "想完成任意中级社会活动",
+		name = "想完成任一中級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -21625,7 +21625,7 @@ pg.child_task = {
 	},
 	[10389] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -21724,7 +21724,7 @@ pg.child_task = {
 	},
 	[10391] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -21767,7 +21767,7 @@ pg.child_task = {
 	},
 	[10392] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -21813,7 +21813,7 @@ pg.child_task = {
 	},
 	[10393] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -21885,7 +21885,7 @@ pg.child_task = {
 	},
 	[10394] = {
 		group = 0,
-		name = "想完成任意中级课程",
+		name = "想完成任一中級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -21923,7 +21923,7 @@ pg.child_task = {
 	},
 	[10395] = {
 		group = 0,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "想完成行程-中級烹飪/中級園藝/中級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -21956,7 +21956,7 @@ pg.child_task = {
 	},
 	[10396] = {
 		group = 0,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "想完成行程-中級寫生/中級茶道/中級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -21989,7 +21989,7 @@ pg.child_task = {
 	},
 	[10397] = {
 		group = 0,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "想完成行程-中級演奏/中級拓展/中級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -22022,7 +22022,7 @@ pg.child_task = {
 	},
 	[10398] = {
 		group = 0,
-		name = "想完成任意中级社会活动",
+		name = "想完成任一中級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -22062,7 +22062,7 @@ pg.child_task = {
 	},
 	[10399] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -22161,7 +22161,7 @@ pg.child_task = {
 	},
 	[10401] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -22204,7 +22204,7 @@ pg.child_task = {
 	},
 	[10402] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -22250,7 +22250,7 @@ pg.child_task = {
 	},
 	[10403] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -22322,7 +22322,7 @@ pg.child_task = {
 	},
 	[10404] = {
 		group = 0,
-		name = "想完成任意中级课程",
+		name = "想完成任一中級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -22360,7 +22360,7 @@ pg.child_task = {
 	},
 	[10405] = {
 		group = 0,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "想完成行程-中級烹飪/中級園藝/中級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -22393,7 +22393,7 @@ pg.child_task = {
 	},
 	[10406] = {
 		group = 0,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "想完成行程-中級寫生/中級茶道/中級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -22426,7 +22426,7 @@ pg.child_task = {
 	},
 	[10407] = {
 		group = 0,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "想完成行程-中級演奏/中級拓展/中級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -22459,7 +22459,7 @@ pg.child_task = {
 	},
 	[10408] = {
 		group = 0,
-		name = "想完成任意中级社会活动",
+		name = "想完成任一中級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -22499,7 +22499,7 @@ pg.child_task = {
 	},
 	[10409] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -22598,7 +22598,7 @@ pg.child_task = {
 	},
 	[10411] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -22641,7 +22641,7 @@ pg.child_task = {
 	},
 	[10412] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -22687,7 +22687,7 @@ pg.child_task = {
 	},
 	[10413] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -22759,7 +22759,7 @@ pg.child_task = {
 	},
 	[10414] = {
 		group = 0,
-		name = "想完成任意中级课程",
+		name = "想完成任一中級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -22797,7 +22797,7 @@ pg.child_task = {
 	},
 	[10415] = {
 		group = 0,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "想完成行程-中級烹飪/中級園藝/中級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -22830,7 +22830,7 @@ pg.child_task = {
 	},
 	[10416] = {
 		group = 0,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "想完成行程-中級寫生/中級茶道/中級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -22863,7 +22863,7 @@ pg.child_task = {
 	},
 	[10417] = {
 		group = 0,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "想完成行程-中級演奏/中級拓展/中級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -22896,7 +22896,7 @@ pg.child_task = {
 	},
 	[10418] = {
 		group = 0,
-		name = "想完成任意中级社会活动",
+		name = "想完成任一中級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -22936,7 +22936,7 @@ pg.child_task = {
 	},
 	[10419] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -23035,7 +23035,7 @@ pg.child_task = {
 	},
 	[10421] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -23078,7 +23078,7 @@ pg.child_task = {
 	},
 	[10422] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -23124,7 +23124,7 @@ pg.child_task = {
 	},
 	[10423] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -23196,7 +23196,7 @@ pg.child_task = {
 	},
 	[10424] = {
 		group = 0,
-		name = "想完成任意中级课程",
+		name = "想完成任一中級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -23234,7 +23234,7 @@ pg.child_task = {
 	},
 	[10425] = {
 		group = 0,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "想完成行程-中級烹飪/中級園藝/中級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -23267,7 +23267,7 @@ pg.child_task = {
 	},
 	[10426] = {
 		group = 0,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "想完成行程-中級寫生/中級茶道/中級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -23300,7 +23300,7 @@ pg.child_task = {
 	},
 	[10427] = {
 		group = 0,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "想完成行程-中級演奏/中級拓展/中級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -23333,7 +23333,7 @@ pg.child_task = {
 	},
 	[10428] = {
 		group = 0,
-		name = "想完成任意中级社会活动",
+		name = "想完成任一中級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -23373,7 +23373,7 @@ pg.child_task = {
 	},
 	[10429] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -23472,7 +23472,7 @@ pg.child_task = {
 	},
 	[10431] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -23515,7 +23515,7 @@ pg.child_task = {
 	},
 	[10432] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -23561,7 +23561,7 @@ pg.child_task = {
 	},
 	[10433] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -23633,7 +23633,7 @@ pg.child_task = {
 	},
 	[10434] = {
 		group = 0,
-		name = "想完成任意中级课程",
+		name = "想完成任一中級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -23671,7 +23671,7 @@ pg.child_task = {
 	},
 	[10435] = {
 		group = 0,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "想完成行程-中級烹飪/中級園藝/中級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -23704,7 +23704,7 @@ pg.child_task = {
 	},
 	[10436] = {
 		group = 0,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "想完成行程-中級寫生/中級茶道/中級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -23737,7 +23737,7 @@ pg.child_task = {
 	},
 	[10437] = {
 		group = 0,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "想完成行程-中級演奏/中級拓展/中級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -23770,7 +23770,7 @@ pg.child_task = {
 	},
 	[10438] = {
 		group = 0,
-		name = "想完成任意中级社会活动",
+		name = "想完成任一中級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -23810,7 +23810,7 @@ pg.child_task = {
 	},
 	[10439] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -23909,7 +23909,7 @@ pg.child_task = {
 	},
 	[10441] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -23952,7 +23952,7 @@ pg.child_task = {
 	},
 	[10442] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -23998,7 +23998,7 @@ pg.child_task = {
 	},
 	[10443] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -24070,7 +24070,7 @@ pg.child_task = {
 	},
 	[10444] = {
 		group = 0,
-		name = "想完成任意中级课程",
+		name = "想完成任一中級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -24108,7 +24108,7 @@ pg.child_task = {
 	},
 	[10445] = {
 		group = 0,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "想完成行程-中級烹飪/中級園藝/中級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -24141,7 +24141,7 @@ pg.child_task = {
 	},
 	[10446] = {
 		group = 0,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "想完成行程-中級寫生/中級茶道/中級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -24174,7 +24174,7 @@ pg.child_task = {
 	},
 	[10447] = {
 		group = 0,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "想完成行程-中級演奏/中級拓展/中級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -24207,7 +24207,7 @@ pg.child_task = {
 	},
 	[10448] = {
 		group = 0,
-		name = "想完成任意中级社会活动",
+		name = "想完成任一中級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -24247,7 +24247,7 @@ pg.child_task = {
 	},
 	[10449] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -24346,7 +24346,7 @@ pg.child_task = {
 	},
 	[10451] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -24389,7 +24389,7 @@ pg.child_task = {
 	},
 	[10452] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -24435,7 +24435,7 @@ pg.child_task = {
 	},
 	[10453] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -24507,7 +24507,7 @@ pg.child_task = {
 	},
 	[10454] = {
 		group = 0,
-		name = "想完成任意中级课程",
+		name = "想完成任一中級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -24545,7 +24545,7 @@ pg.child_task = {
 	},
 	[10455] = {
 		group = 0,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "想完成行程-中級烹飪/中級園藝/中級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -24578,7 +24578,7 @@ pg.child_task = {
 	},
 	[10456] = {
 		group = 0,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "想完成行程-中級寫生/中級茶道/中級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -24611,7 +24611,7 @@ pg.child_task = {
 	},
 	[10457] = {
 		group = 0,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "想完成行程-中級演奏/中級拓展/中級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -24644,7 +24644,7 @@ pg.child_task = {
 	},
 	[10458] = {
 		group = 0,
-		name = "想完成任意中级社会活动",
+		name = "想完成任一中級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -24684,7 +24684,7 @@ pg.child_task = {
 	},
 	[10459] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -24783,7 +24783,7 @@ pg.child_task = {
 	},
 	[10461] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -24826,7 +24826,7 @@ pg.child_task = {
 	},
 	[10462] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -24872,7 +24872,7 @@ pg.child_task = {
 	},
 	[10463] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -24944,7 +24944,7 @@ pg.child_task = {
 	},
 	[10464] = {
 		group = 0,
-		name = "想完成任意中级课程",
+		name = "想完成任一中級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -24982,7 +24982,7 @@ pg.child_task = {
 	},
 	[10465] = {
 		group = 0,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "想完成行程-中級烹飪/中級園藝/中級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -25015,7 +25015,7 @@ pg.child_task = {
 	},
 	[10466] = {
 		group = 0,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "想完成行程-中級寫生/中級茶道/中級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -25048,7 +25048,7 @@ pg.child_task = {
 	},
 	[10467] = {
 		group = 0,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "想完成行程-中級演奏/中級拓展/中級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -25081,7 +25081,7 @@ pg.child_task = {
 	},
 	[10468] = {
 		group = 0,
-		name = "想完成任意中级社会活动",
+		name = "想完成任一中級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -25121,7 +25121,7 @@ pg.child_task = {
 	},
 	[10469] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -25220,7 +25220,7 @@ pg.child_task = {
 	},
 	[10471] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -25263,7 +25263,7 @@ pg.child_task = {
 	},
 	[10472] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -25309,7 +25309,7 @@ pg.child_task = {
 	},
 	[10473] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -25381,7 +25381,7 @@ pg.child_task = {
 	},
 	[10474] = {
 		group = 0,
-		name = "想完成任意中级课程",
+		name = "想完成任一中級課程",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -25419,7 +25419,7 @@ pg.child_task = {
 	},
 	[10475] = {
 		group = 0,
-		name = "想完成行程-中级烹饪/中级园艺/中级运动",
+		name = "想完成行程-中級烹飪/中級園藝/中級運動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -25452,7 +25452,7 @@ pg.child_task = {
 	},
 	[10476] = {
 		group = 0,
-		name = "想完成行程-中级写生/中级茶道/中级戏剧",
+		name = "想完成行程-中級寫生/中級茶道/中級戲劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -25485,7 +25485,7 @@ pg.child_task = {
 	},
 	[10477] = {
 		group = 0,
-		name = "想完成行程-中级演奏/中级拓展/中级音乐剧",
+		name = "想完成行程-中級演奏/中級拓展/中級音樂劇",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -25518,7 +25518,7 @@ pg.child_task = {
 	},
 	[10478] = {
 		group = 0,
-		name = "想完成任意中级社会活动",
+		name = "想完成任一中級社會活動",
 		task_target_progress = 0,
 		type_2 = 1,
 		type_1 = 1,
@@ -25558,7 +25558,7 @@ pg.child_task = {
 	},
 	[10479] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -25657,7 +25657,7 @@ pg.child_task = {
 	},
 	[10481] = {
 		group = 0,
-		name = "想去美食坊-好味餐厅-用餐",
+		name = "想去美食坊-好味餐廳-用餐",
 		task_target_progress = 0,
 		type_2 = 4,
 		type_1 = 1,
@@ -25700,7 +25700,7 @@ pg.child_task = {
 	},
 	[10482] = {
 		group = 0,
-		name = "想去美食坊/游乐场活动",
+		name = "想去美食坊/遊樂場活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -25746,7 +25746,7 @@ pg.child_task = {
 	},
 	[10483] = {
 		group = 0,
-		name = "想去度假庄园活动/学院活动",
+		name = "想去渡假莊園活動/學院活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,
@@ -25818,7 +25818,7 @@ pg.child_task = {
 	},
 	[10484] = {
 		group = 0,
-		name = "想去体育馆/商业街/海滨公园活动",
+		name = "想去體育館/商業街/海濱公園活動",
 		task_target_progress = 0,
 		type_2 = 3,
 		type_1 = 1,

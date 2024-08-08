@@ -9,7 +9,7 @@ return {
 			bgm = "qe-ova-1",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "或许是第一次看到完整的洗漱池，TB的表情里透露出了一些好奇。",
+			say = "或許是第一次看到完整的盥洗池，TB的表情裡透露出了一些好奇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,14 +33,14 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg5",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-1-6",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有两个……",
+			say = "有兩個……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -56,21 +56,21 @@ return {
 			bgName = "bg_project_tb_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "是在说镜子里的自己吗？没错，现在有两个TB了。",
+			say = "是在說鏡子裡的自己嗎？沒錯，現在有兩個TB了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg5",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-1-7",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好像……不一样。",
+			say = "好像……不一樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_project_tb_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "镜子里看到的方向，和我们实际的方向是相反的哦。",
+			say = "鏡子裡看到的方向，和我們實際的方向是相反的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			bgName = "bg_project_tb_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不自觉就用这上这种语气了……）",
+			say = "（不自覺就用這上這種語氣了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg5",
 			hidePaintObj = true,
-			say = "真是神奇，只要和小孩子待在一起，说话口吻就会变得幼稚起来。",
+			say = "真是神奇，只要和小孩待在一起，說話口吻就會變得幼稚起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg5",
 			hidePaintObj = true,
-			say = "不过TB就算变成这种状态，也是格外乖巧的类型。",
+			say = "不過TB就算變成這種狀態，也是格外乖巧的類型。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg5",
 			hidePaintObj = true,
-			say = "不知道是因为缺乏常识和认知的缘故，还是别的什么……",
+			say = "不知道是因為缺乏常識和認知的緣故，還是別的什麼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg5",
 			hidePaintObj = true,
-			say = "算了，考虑那么多也没用，只要能和眼前的她一起成长就好。",
+			say = "算了，考慮那麼多也沒用，只要能跟眼前的她一起成長就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

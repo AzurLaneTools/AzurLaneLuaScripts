@@ -15,9 +15,9 @@ return {
 			bgm = "story-richang-flexible",
 			tbActor = true,
 			actor = 1008,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "{tb}，这道菜……好有趣。",
+			say = "{tb}，這道菜……好有趣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "她指着电视里的一档名为《料理课堂之反面素材篇》的节目。",
+			say = "她指著電視裡的一檔名為《料理課堂之反面素材篇》的節目。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "节目正在展示一份看起来相当“能够启发人创新思维”的料理。",
+			say = "節目正在展示一份看起來相當「能夠啟發人們創新思維」的料理。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,9 +69,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1008,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "想学……",
+			say = "想學……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "看着菜品的“鲜艳”颜色与“奇异”造型，我不禁擦了擦头上的冷汗。",
+			say = "看著菜色的「鮮豔」顏色與「奇異」造型，我不禁擦了擦頭上的冷汗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不，你不想。",
+			say = "不，妳不想。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "最后用动画片转移了TB的注意力。",
+			say = "最後用卡通轉移了TB的注意力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

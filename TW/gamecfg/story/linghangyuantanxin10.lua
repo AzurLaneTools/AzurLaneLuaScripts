@@ -15,9 +15,9 @@ return {
 			bgm = "qe-ova-12",
 			tbActor = true,
 			actor = 1100,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "{tb}，您现在有空吗？可以帮我选一下吗……？",
+			say = "{tb}，您現在有空嗎？可以幫我選一下嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "少女的表情看起来有些纠结，然后将一沓宣传页放在我的面前。",
+			say = "少女的表情看起來有些糾結，然後將一沓宣傳頁放在我的面前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……社团？这种时候就先选自己喜欢的吧？",
+			say = "……社團？這種時候就先選自己喜歡的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,9 +69,9 @@ return {
 			bgName = "bg_project_tb_room3",
 			tbActor = true,
 			actor = 1100,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "就是这个……我不知道该选什么才好……",
+			say = "就是這個……我不知道該選什麼才好……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,9 +84,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1100,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "准确的说，因为没有什么特别喜欢的……所以才会选不出来……",
+			say = "準確的說，因為沒有特別喜歡的……所以才會選不出來……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,9 +99,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1100,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "甚至还想每一个社团都去尝试一下……",
+			say = "甚至還想每個社團都去嘗試……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "也不是不行？都试过之后找出自己喜好，这也是一种选择。",
+			say = "也不是不行？都試過之後找出自己喜好，這也是一種選擇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "TB在纠结了一阵子后最终还是采纳了我的建议。",
+			say = "TB在糾結了一陣子後最後還是採納了我的建議。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "希望通过这次尝试，她能找到属于自己的爱好。",
+			say = "希望透過這次嘗試，她能找到屬於自己的嗜好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

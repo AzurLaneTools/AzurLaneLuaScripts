@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "游戏中已获取的道具会放在背包内",
+				text = "遊戲中已取得的道具會放在背包內",
 				mode = 2,
 				char = 1,
 				posY = -325.44,
@@ -23,7 +23,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "点击“背包”按钮",
+				text = "點擊「背包」按鈕",
 				mode = 2,
 				char = 1,
 				posY = -298.4,
@@ -45,7 +45,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "获得和购买的道具时属性加成会立刻生效，不需要在背包中使用道具哦。",
+				text = "獲得和購買的道具時屬性加成會立刻生效，不需要在背包中使用道具哦。",
 				mode = 2,
 				char = 1,
 				posY = -200.1,

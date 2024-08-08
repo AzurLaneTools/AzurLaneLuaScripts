@@ -1079,5 +1079,8 @@ pg.activity_const = {
 	},
 	ALVIT_BOSS_RUSH_ID = {
 		act_id = 5402
+	},
+	MONOPOLY_TASK_ACT_ID = {
+		act_id = 5461
 	}
 }

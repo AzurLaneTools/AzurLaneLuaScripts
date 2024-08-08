@@ -15,9 +15,9 @@ return {
 			bgm = "qe-ova-10",
 			tbActor = true,
 			actor = 1201,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "……{tb}，你喜欢吃巧克力吗？",
+			say = "……{tb}，你喜歡吃巧克力嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好突然的提问！不过怎么突然想到问这个了？",
+			say = "好突然的提問！不過怎麼突然想到問這個了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,9 +59,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1201,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "……单纯好奇而已，所以答案到底是什么？",
+			say = "……單純好奇而已，所以答案到底是什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呃……对我来说，巧克力作为能量补充剂倒是很好用。",
+			say = "呃……對我來說，巧克力作為能量補充品倒是很好用。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1201,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
 			say = "……",
 			typewriter = {
@@ -100,7 +100,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……？怎么了吗？",
+			say = "……？怎麼了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "难道说错什么了吗？",
+			say = "難道說錯什麼了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,9 +124,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1201,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "……没什么，只是突然觉得你好像很不容易。各种意味上的。",
+			say = "……沒什麼，只是突然覺得你好像很不容易。各種意味上的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "在那之后，就看到少女开始研究如何将精力饮料融入巧克力制作之中了。",
+			say = "在那之後，就看到少女開始研究如何將精力飲料融入巧克力製作之中了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

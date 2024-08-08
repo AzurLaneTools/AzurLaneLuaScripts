@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "点击空白处关闭窗口",
+				text = "點擊空白處關閉",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -24,7 +24,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "系统升级后，行动力上限也提升了哦。",
+				text = "系統升級後，行動力上限也提升了哦",
 				mode = 2,
 				char = 1,
 				posY = 274.3,
@@ -42,7 +42,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "接下来，点击<color=#39bfff>行程计划</color>按钮",
+				text = "接下來，點擊<color=#39bfff>行程計劃</color>按鈕",
 				mode = 2,
 				char = 1,
 				posY = -243.5,
@@ -63,7 +63,7 @@ return {
 			delay = 0.5,
 			alpha = 0,
 			style = {
-				text = "此时，行程计划中开放了<color=#39bfff>第二行行程格</color>，在规划行程时还请注意哦",
+				text = "此時，行程計畫中開放了<color=#39bfff>第二行行程格</color>，在規劃行程時也請注意哦",
 				mode = 2,
 				dir = -1,
 				char = 1,

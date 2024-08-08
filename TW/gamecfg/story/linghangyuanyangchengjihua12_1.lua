@@ -4,7 +4,7 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg8",
 			dir = 1,
@@ -12,7 +12,7 @@ return {
 			voice = "event:/educate/tb/educate-tb-story-1-15",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样……就是可爱吗？",
+			say = "這樣……就是可愛嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -45,7 +45,7 @@ return {
 			bgName = "bg_project_tb_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "当然。",
+			say = "當然。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg8",
 			hidePaintObj = true,
-			say = "TB看着镜子，似乎很喜欢这件连衣裙。",
+			say = "TB看著鏡子，似乎很喜歡這件洋裝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,21 +68,21 @@ return {
 			bgName = "bg_project_tb_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB……好像长高了啊。",
+			say = "TB……好像長高了啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg8",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-1-16",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "长高？嗯……TB，会长得更高。",
+			say = "長高？嗯……TB，會長得更高。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg8",
 			hidePaintObj = true,
-			say = "虽然在回应着我的话语，但TB的双眼却一刻都没有离开过全身镜。",
+			say = "雖然在回應著我說的話，但TB的雙眼卻一刻都沒有離開過全身鏡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg8",
 			hidePaintObj = true,
-			say = "就算TB还没有出现明显的情绪表达……现在也还挺好懂的。",
+			say = "就算TB還沒有出現明顯的情緒表達……現在也還蠻好懂的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg8",
 			hidePaintObj = true,
-			say = "不知道开放日的那天，TB会在台上表演什么样的节目呢？真让人期待啊。",
+			say = "不知道開放日的那天，TB會在台上表演什麼樣的節目呢？真讓人期待。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

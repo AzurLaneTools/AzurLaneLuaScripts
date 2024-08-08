@@ -4,7 +4,7 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg25",
 			dir = 1,
@@ -12,7 +12,7 @@ return {
 			voice = "event:/educate/tb/educate-tb-story-33-17",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么样，这身礼服超棒吧，优雅吧，很有品味吧？",
+			say = "怎麼樣，這套禮服超棒吧，優雅吧，很有品味吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -40,14 +40,14 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg25",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-33-18",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我可是特意挑选了好久呢！",
+			say = "我可是特地挑選了好久呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -62,7 +62,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg25",
 			hidePaintObj = true,
-			say = "一见到我，TB就迫不及待在我面前转了个圈。",
+			say = "一見到我，TB就迫不及待在我面前轉了個圈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,21 +74,21 @@ return {
 			bgName = "bg_project_tb_cg25",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没错，很适合你。",
+			say = "沒錯，很適合妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg25",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-33-19",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼~当然了！",
+			say = "哼哼~當然了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,14 +99,14 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg25",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-33-20",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过，居然让我等你这么久，等下要陪我多跳几支舞赔罪哦！",
+			say = "不過，居然讓我等你這麼久，等下要陪我多跳幾支舞賠罪哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,21 +134,21 @@ return {
 			bgName = "bg_project_tb_cg25",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "因为觉得你的毕业舞会无论如何也不能怠慢，我就多检查了几遍着装……",
+			say = "因為覺得妳的畢業舞會無論如何也不能怠慢，我就多檢查了幾遍穿搭……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg25",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-33-21",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸？原来是因为这种原因啊……那我原谅你了！",
+			say = "欸？原來是因為這種原因啊……那我原諒你了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,14 +159,14 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg25",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-33-22",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊！已经要入场了，我们快走吧！",
+			say = "啊！已經要入場了，我們快走吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,14 +177,14 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg25",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-33-23",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "手给我——！",
+			say = "手給我——！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg25",
 			hidePaintObj = true,
-			say = "她不由分说地抓住了我的手，拉着我向前奔跑。",
+			say = "她不由分說地抓住了我的手，拉著我向前奔跑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,14 +211,14 @@ return {
 			bgName = "bg_project_tb_cg25",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等等、慢一点……",
+			say = "等等、慢一點……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg25",
 			dir = 1,
@@ -240,7 +240,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg25",
 			hidePaintObj = true,
-			say = "那句想要说出口的“恭喜毕业，TB”，被淹没在少女清脆的笑声中。",
+			say = "那句話想說出口的「恭喜畢業，TB」，被淹沒在少女清脆的笑聲中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

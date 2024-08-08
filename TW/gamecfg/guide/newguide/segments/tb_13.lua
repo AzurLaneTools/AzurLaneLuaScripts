@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "解锁了新的地点，一起去看看吧",
+				text = "解鎖了新的地點，一起去看看吧",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -24,7 +24,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "请先前往度假庄园",
+				text = "請先前往渡假莊園",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -43,7 +43,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "就在度假庄园随便逛逛吧",
+				text = "就在渡假莊園隨便逛逛吧",
 				mode = 2,
 				dir = 1,
 				char = 1,

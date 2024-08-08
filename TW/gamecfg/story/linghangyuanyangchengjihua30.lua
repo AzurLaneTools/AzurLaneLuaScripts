@@ -9,7 +9,7 @@ return {
 			bgm = "story-richang-relax",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "今天就是TB的毕业舞会。",
+			say = "今天就是TB的畢業舞會。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,21 +37,21 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_115",
 			hidePaintObj = true,
-			say = "再一次检查了衣装，确认各处细节都没有问题后，我走向TB。",
+			say = "再一次檢查了衣裝，確認各處細節都沒有問題後，我走向TB。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg24",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-31-15",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "您终于来了呢，太好了。",
+			say = "您終於來了呢，太好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_project_tb_cg24",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "抱歉抱歉，等很久了吗？",
+			say = "抱歉抱歉，等很久了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,21 +96,21 @@ return {
 			bgName = "bg_project_tb_cg24",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "因为觉得你的毕业舞会，无论如何也不能怠慢，我就多检查了几遍着装……",
+			say = "因為覺得妳的畢業舞會，無論如何也不能怠慢，我就多檢查了幾遍穿搭……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg24",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-31-16",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "听到您这么说，我很开心哦。",
+			say = "聽到您這麼說，我很開心喔。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,21 +125,21 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg24",
 			hidePaintObj = true,
-			say = "她提起裙摆，伸手向我发出邀请。",
+			say = "她提起裙擺，伸手向我發出邀請。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg24",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-31-17",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不知我是否有幸与您共舞呢？",
+			say = "不知我是否有幸與您共舞？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,21 +155,21 @@ return {
 			bgName = "bg_project_tb_cg24",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等等，这是我该说的台词才对吧？",
+			say = "等等，這是我該說的台詞才對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg24",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-31-18",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵……偶尔我也会想抢先您一步嘛。",
+			say = "呵呵……偶爾我也會想搶先您一步嘛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,14 +180,14 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg24",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-31-19",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "舞会要开始了……再不入场的话，就要来不及了呢。",
+			say = "舞會要開始了……再不入場的話，就要來不及了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg24",
 			hidePaintObj = true,
-			say = "我伸出手，少女的掌心柔软而温暖。",
+			say = "我伸出手，少女的掌心柔軟而溫暖。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_project_tb_cg24",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "恭喜毕业，TB。",
+			say = "恭喜畢業，TB。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

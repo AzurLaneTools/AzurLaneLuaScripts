@@ -9,7 +9,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"心与心的交汇\n\n<size=45>二 “心愿”的力量</size>",
+					"心與心的交匯\n\n<size=45>2 「心願」的力量</size>",
 					1
 				}
 			}
@@ -79,7 +79,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "被……听到了……",
+			say = "被……聽到了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "最近因为开始接触外界，TB的逻辑思维和语言能力得到了充分的锻炼。",
+			say = "最近因為開始接觸外界，TB的邏輯思考和語言能力得到了充分的鍛鍊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "现在已经能说出相对通顺的句子。",
+			say = "現在已經能說出相對通順的句子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……找TB……有事？",
+			say = "指揮官……找TB……有事？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，想问问TB，会觉得最近的行程难吗？",
+			say = "嗯，想問TB，會覺得最近的行程很難嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……难，是什么意思……？",
+			say = "……難，是什麼意思……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "就是觉得吃力，或者不想去做的，会有吗？",
+			say = "就是覺得吃力，或不想去做的，會有嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没有……",
+			say = "沒有……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那，你刚刚在练习唱歌，也不是觉得唱歌很吃力吗？",
+			say = "那，妳剛剛在練習唱歌，也不是覺得唱歌很吃力嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还有其它……",
+			say = "還有其它……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "是在说还做了其它的练习吗？",
+			say = "是在說還做了它的練習嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "练习的话，会……满足。",
+			say = "練習的話，會……滿足。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你和TB都……满足。",
+			say = "你和TB都……滿足。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,7 +340,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "其实她应该是想说“满意”的吧？",
+			say = "其實她應該是想說「滿意」的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "不过，这样看的话，即便领航员小姐清除了数据，以这种状态进入虚拟小镇生活——",
+			say = "不過，這樣看的話，即便領航員小姐清除了數據，以這種狀態進入虛擬小鎮生活——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "她想要理解“个性”的念头也依然存在影响，成为了TB的“心愿”。",
+			say = "她想要理解「個性」的念頭也依然存在影響，成為了TB的「心願」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB，不要勉强自己哦？",
+			say = "TB，不要勉強自己哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你在……就不会……",
+			say = "你在……就不會……",
 			painting = {
 				alpha = 0.3,
 				time = 1

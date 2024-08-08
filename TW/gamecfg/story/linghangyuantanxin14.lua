@@ -15,9 +15,9 @@ return {
 			bgm = "qe-ova-9",
 			tbActor = true,
 			actor = 1300,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "{tb}~{tb}~这个东西你帮我填一下吧~",
+			say = "{tb}~{tb}~這個東西你幫我填一下~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……观察对象填表？这是什么？",
+			say = "……觀察對象填表？這是什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,9 +59,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1300,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "如你所见，就是观察表啊。学校的作业啦~作业~",
+			say = "如你所見，就是觀察表啊。學校的作業啦~作業~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我当然知道是观察表……但，你该不会想把我当成观察对象吧？",
+			say = "我當然知道是觀察表……但，妳該不會想把我當成觀察對象吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,9 +86,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1300,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "没错！这样我的观察日记就是最独特的！我真是天才！",
+			say = "沒錯！這樣我的觀察日記就是最獨特的！我真是天才！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……是很独特没错，但是人类不能成为这种作业的观察对象吧。",
+			say = "……是很獨特沒錯，但是人類不能成為這種作業的觀察對象吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,9 +113,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1300,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "咦？是明确规定不可以的吗？",
+			say = "咦？是明文規定不可以的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那、那倒也没有……",
+			say = "那、那倒也沒有……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,9 +140,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1300,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "没有说不行，那就是行的意思！未知的前方正在等着我们！",
+			say = "沒有說不行，那就是可以的意思！未知的前方正在等著我們！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "最后……还是帮她完成了作业。",
+			say = "最後……還是幫她完成作業了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

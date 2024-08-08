@@ -14,7 +14,7 @@ return {
 			bgm = "story-richang-flexible",
 			tbActor = true,
 			actor = 1007,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
 			say = "（盯——）",
 			typewriter = {
@@ -45,7 +45,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "有什么事要我帮忙么？",
+			say = "有什麼事要我幫忙嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,9 +58,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1007,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "不是……今天有新变化，{tb}，你看……",
+			say = "不是……今天有新變化，{tb}，你看……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "新变化？",
+			say = "新變化？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "仔细绕着TB看了一圈，也没有发现外表上和之前有任何区别。",
+			say = "仔細繞著TB看了一圈，也沒有發現外表上和之前有任何差別。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "难道是TB学会了什么新技能？",
+			say = "難道是TB學會了什麼新技能？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,9 +108,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1007,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "……头发比之前短了五毫米。",
+			say = "……頭髮比之前短了五公釐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "在那之后，TB就有些闷闷不乐。",
+			say = "在那之後，TB就有些悶悶不樂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

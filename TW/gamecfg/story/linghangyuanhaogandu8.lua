@@ -9,7 +9,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"心与心的交汇\n\n<size=45>六 彼此的心愿III</size>",
+					"心與心的交匯\n\n<size=45>6 彼此的心願</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			voice = "event:/educate/tb/educate-tb-33-angry2",
-			say = "我说啊……你是不是有点太迁就我了？",
+			say = "我說啊……你是不是有點太遷就我了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "眼前的少女双手叉腰，突然一副气鼓鼓的模样盯着我。",
+			say = "眼前的少女雙手叉腰，突然一副氣鼓鼓的模樣盯著我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你看，每次我想做什么的话，你都会马上带我去做……",
+			say = "你看，每次我想做什麼的話，你都會馬上帶我去做……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就算是不合理的要求也会想办法满足我——这不是迁就是什么？",
+			say = "就算不合理的要求也會想辦法滿足我——這不是遷就是什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "可是身为你的监护人，做这些事情是天经地义的啊。",
+			say = "可是身為妳的監護人，做這些事情是天經地義的啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "而且也不能说是“迁就”吧？我只是在满足你的心愿而已。",
+			say = "而且也不能說是「遷就」吧？我只是在滿足妳的心願而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊！就是这点！",
+			say = "啊！就是這點！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "每次都是你在满足我的心愿，差不多也该轮换一下了吧？",
+			say = "每次都是你在滿足我的心願，差不多也該輪替了吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "难道TB想做我的“监护人”？",
+			say = "難道TB想做我的「監護人」？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谁要做你的监护人啊！",
+			say = "誰要做你的監護人啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然，这如果是你的心愿的话，我也可以满足你~",
+			say = "當然，這如果是你的心願的話，我也可以滿足你~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我倒是没有这种心愿……",
+			say = "我倒是沒有這種心願……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "万一呢？你不说出来的话，我怎么确定你的心愿不是这个？",
+			say = "萬一呢？你不說出來的話，我怎麼確定你的心願不是這個？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "套话的技巧有待提升啊。",
+			say = "套話的技巧有待提升啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘁……被你发现了。",
+			say = "嘁……被你發現了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不用这么大费周章套话，我的心愿很简单——",
+			say = "不用這麼大費周章套話，我的心願很簡單——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "再给你讲一次睡前故事。",
+			say = "再講一次睡前故事給妳聽。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "毕竟，你长大以后几乎不听睡前故事了，对吧？",
+			say = "畢竟，妳長大以後幾乎不聽睡前故事了，對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "什么嘛！原来你这么好满足啊！",
+			say = "什麼嘛！原來你這麼好滿足啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "讲故事是可以，但是内容方面我有指定哦！",
+			say = "講故事是可以，但是內容方面我有指定！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +387,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——我要听你讲冒险和战斗的故事！就这么决定啦！",
+			say = "——我要聽你講冒險和戰鬥的故事！就這麼決定啦！",
 			painting = {
 				alpha = 0.3,
 				time = 1

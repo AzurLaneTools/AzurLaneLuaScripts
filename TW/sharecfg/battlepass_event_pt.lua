@@ -1,7 +1,11 @@
 pg = pg or {}
 pg.battlepass_event_pt = {
 	[45900] = {
+		map_name = "2110",
 		type = 1,
+		equip_skin = "",
+		crusing_map = "CrusingMap_0",
+		spine_name = "chess_hude",
 		id = 45900,
 		pt = 4001,
 		target = {
@@ -324,7 +328,11 @@ pg.battlepass_event_pt = {
 		}
 	},
 	[45901] = {
+		map_name = "2112",
 		type = 1,
+		equip_skin = "",
+		crusing_map = "CrusingMap_1",
+		spine_name = "chess_keluoladuo",
 		id = 45901,
 		pt = 4002,
 		target = {
@@ -647,7 +655,11 @@ pg.battlepass_event_pt = {
 		}
 	},
 	[45902] = {
+		map_name = "2202",
 		type = 1,
+		equip_skin = "",
+		crusing_map = "CrusingMap_2",
+		spine_name = "chess_gelunbiya",
 		id = 45902,
 		pt = 4003,
 		target = {
@@ -970,7 +982,11 @@ pg.battlepass_event_pt = {
 		}
 	},
 	[45903] = {
+		map_name = "2204",
 		type = 1,
+		equip_skin = "",
+		crusing_map = "CrusingMap_1",
+		spine_name = "chess_qiye",
 		id = 45903,
 		pt = 4004,
 		target = {
@@ -1293,7 +1309,11 @@ pg.battlepass_event_pt = {
 		}
 	},
 	[45904] = {
+		map_name = "2206",
 		type = 1,
+		equip_skin = "",
+		crusing_map = "CrusingMap_1",
+		spine_name = "chess_xiao",
 		id = 45904,
 		pt = 4005,
 		target = {
@@ -1616,7 +1636,10 @@ pg.battlepass_event_pt = {
 		}
 	},
 	[45905] = {
+		map_name = "2208",
 		type = 1,
+		crusing_map = "CrusingMap_1",
+		spine_name = "chess_beifeng",
 		id = 45905,
 		pt = 4006,
 		target = {
@@ -1936,10 +1959,35 @@ pg.battlepass_event_pt = {
 			80,
 			90,
 			100
+		},
+		equip_skin = {
+			{
+				9,
+				2014,
+				1
+			},
+			{
+				9,
+				2015,
+				1
+			},
+			{
+				9,
+				2017,
+				1
+			},
+			{
+				9,
+				2018,
+				1
+			}
 		}
 	},
 	[45906] = {
+		map_name = "2210",
 		type = 1,
+		crusing_map = "CrusingMap_1",
+		spine_name = "chess_shuixingjinian",
 		id = 45906,
 		pt = 4007,
 		target = {
@@ -2259,10 +2307,35 @@ pg.battlepass_event_pt = {
 			80,
 			90,
 			100
+		},
+		equip_skin = {
+			{
+				9,
+				2019,
+				1
+			},
+			{
+				9,
+				2022,
+				1
+			},
+			{
+				9,
+				2023,
+				1
+			},
+			{
+				9,
+				2024,
+				1
+			}
 		}
 	},
 	[45907] = {
+		map_name = "2212",
 		type = 1,
+		crusing_map = "CrusingMap_1",
+		spine_name = "chess_kelifulan",
 		id = 45907,
 		pt = 4008,
 		target = {
@@ -2582,10 +2655,35 @@ pg.battlepass_event_pt = {
 			80,
 			90,
 			100
+		},
+		equip_skin = {
+			{
+				9,
+				2025,
+				1
+			},
+			{
+				9,
+				2026,
+				1
+			},
+			{
+				9,
+				2027,
+				1
+			},
+			{
+				9,
+				2028,
+				1
+			}
 		}
 	},
 	[45908] = {
+		map_name = "2302",
 		type = 1,
+		crusing_map = "CrusingMap_1",
+		spine_name = "chess_ximu",
 		id = 45908,
 		pt = 4009,
 		target = {
@@ -2905,10 +3003,35 @@ pg.battlepass_event_pt = {
 			80,
 			90,
 			100
+		},
+		equip_skin = {
+			{
+				9,
+				2029,
+				1
+			},
+			{
+				9,
+				2030,
+				1
+			},
+			{
+				9,
+				2031,
+				1
+			},
+			{
+				9,
+				2032,
+				1
+			}
 		}
 	},
 	[45909] = {
+		map_name = "2304",
 		type = 1,
+		crusing_map = "CrusingMap_1",
+		spine_name = "chess_wokelan",
 		id = 45909,
 		pt = 4010,
 		target = {
@@ -3228,10 +3351,35 @@ pg.battlepass_event_pt = {
 			80,
 			90,
 			100
+		},
+		equip_skin = {
+			{
+				9,
+				2035,
+				1
+			},
+			{
+				9,
+				2036,
+				1
+			},
+			{
+				9,
+				2037,
+				1
+			},
+			{
+				9,
+				2038,
+				1
+			}
 		}
 	},
 	[45910] = {
+		map_name = "2306",
 		type = 1,
+		crusing_map = "CrusingMap_2",
+		spine_name = "chess_jiahe",
 		id = 45910,
 		pt = 4011,
 		target = {
@@ -3551,10 +3699,35 @@ pg.battlepass_event_pt = {
 			80,
 			90,
 			100
+		},
+		equip_skin = {
+			{
+				9,
+				2039,
+				1
+			},
+			{
+				9,
+				2040,
+				1
+			},
+			{
+				9,
+				2041,
+				1
+			},
+			{
+				9,
+				2042,
+				1
+			}
 		}
 	},
 	[45911] = {
+		map_name = "2308",
 		type = 1,
+		crusing_map = "CrusingMap_2",
+		spine_name = "chess_fuxu",
 		id = 45911,
 		pt = 4012,
 		target = {
@@ -3874,10 +4047,35 @@ pg.battlepass_event_pt = {
 			80,
 			90,
 			100
+		},
+		equip_skin = {
+			{
+				9,
+				2043,
+				1
+			},
+			{
+				9,
+				2044,
+				1
+			},
+			{
+				9,
+				2045,
+				1
+			},
+			{
+				9,
+				2046,
+				1
+			}
 		}
 	},
 	[45912] = {
+		map_name = "2310",
 		type = 1,
+		crusing_map = "CrusingMap_2",
+		spine_name = "chess_u410",
 		id = 45912,
 		pt = 4013,
 		target = {
@@ -4197,10 +4395,35 @@ pg.battlepass_event_pt = {
 			80,
 			90,
 			100
+		},
+		equip_skin = {
+			{
+				9,
+				2049,
+				1
+			},
+			{
+				9,
+				2050,
+				1
+			},
+			{
+				9,
+				2051,
+				1
+			},
+			{
+				9,
+				2052,
+				1
+			}
 		}
 	},
 	[45913] = {
+		map_name = "2312",
 		type = 1,
+		crusing_map = "CrusingMap_1",
+		spine_name = "chess_chuchun",
 		id = 45913,
 		pt = 4014,
 		target = {
@@ -4520,10 +4743,35 @@ pg.battlepass_event_pt = {
 			80,
 			90,
 			100
+		},
+		equip_skin = {
+			{
+				9,
+				2053,
+				1
+			},
+			{
+				9,
+				2054,
+				1
+			},
+			{
+				9,
+				2055,
+				1
+			},
+			{
+				9,
+				2056,
+				1
+			}
 		}
 	},
 	[45914] = {
+		map_name = "2402",
 		type = 1,
+		crusing_map = "CrusingMap_1",
+		spine_name = "chess_shenxue",
 		id = 45914,
 		pt = 59599,
 		target = {
@@ -4843,10 +5091,35 @@ pg.battlepass_event_pt = {
 			80,
 			90,
 			100
+		},
+		equip_skin = {
+			{
+				9,
+				2061,
+				1
+			},
+			{
+				9,
+				2062,
+				1
+			},
+			{
+				9,
+				2063,
+				1
+			},
+			{
+				9,
+				2064,
+				1
+			}
 		}
 	},
 	[45915] = {
+		map_name = "2404",
 		type = 1,
+		crusing_map = "CrusingMap_1",
+		spine_name = "chess_dian",
 		id = 45915,
 		pt = 59599,
 		target = {
@@ -5166,6 +5439,28 @@ pg.battlepass_event_pt = {
 			80,
 			90,
 			100
+		},
+		equip_skin = {
+			{
+				9,
+				2065,
+				1
+			},
+			{
+				9,
+				2066,
+				1
+			},
+			{
+				9,
+				2067,
+				1
+			},
+			{
+				9,
+				2068,
+				1
+			}
 		}
 	},
 	all = {

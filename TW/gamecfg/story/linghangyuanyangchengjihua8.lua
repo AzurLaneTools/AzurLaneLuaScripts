@@ -38,7 +38,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "TB看上去好像还是毫无睡意……",
+			say = "TB看起來好像還是毫無睡意……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "睡觉……？……还不想。",
+			say = "睡覺……？……還不想。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "这段时间以来，TB学会的词越来越多，表述逻辑也越来越清晰。",
+			say = "這段時間以來，TB學會的字詞越來越多，表達邏輯也越來越清晰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "可是不睡觉的话，会长不高的吧……",
+			say = "可是不睡覺的話，會長不高的吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "对了！干脆趁此机会尝试一下“哄睡”吧。",
+			say = "對了！乾脆趁此機會試試看「哄睡」吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "也许还能拉近一些……所谓的“亲子关系”？",
+			say = "也許還能拉近一些……所謂的「親子關係」？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "不过，采取哪种哄睡措施会比较好呢。",
+			say = "不過，採取哪種哄睡方式會比較好呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "读书哄睡",
+					content = "讀書哄睡",
 					flag = 2
 				}
 			}
@@ -137,7 +137,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "就用摇篮曲哄睡吧！",
+			say = "就用搖籃曲哄睡吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "就给她念绘本哄睡吧！",
+			say = "就幫她念繪本哄睡吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "在成功哄睡了TB以后，我摘下终端处理了一些港区的工作。",
+			say = "在成功哄睡了TB以後，我摘下終端機處理了一些港區的工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "多少还是有些放心不下……还是回去看一眼吧。",
+			say = "多少還是有些放心不下……還是回去看一眼吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg3",
 			hidePaintObj = true,
-			say = "或许是之前在睡梦中频繁翻身的缘故，我离开前为她盖好的被子已经滑落至床的后半。",
+			say = "或許是之前在睡夢中頻繁翻身的緣故，我離開前為她蓋好的被子已經滑落至床的後半。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg3",
 			dir = 1,
@@ -229,7 +229,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg3",
 			hidePaintObj = true,
-			say = "她紧紧抱着怀中的玩偶，呼吸平稳。",
+			say = "她緊緊抱著懷裡的玩偶，呼吸平穩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,14 +241,14 @@ return {
 			bgName = "bg_project_tb_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（话说回来……虽然TB一直抱着，但这玩偶到底是个什么物种？）",
+			say = "（話說回來……雖然TB一直抱著，但這玩偶到底是個什麼物種？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "也许是水母",
+					content = "也許是水母",
 					flag = 1
 				},
 				{
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_project_tb_cg3",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "好像有点像水母，但是仔细观察一下的话……",
+			say = "好像有點像水母，但是仔細觀察一下的話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_project_tb_cg3",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "和一般的水母差别有点太大了。",
+			say = "和一般的水母差異有點太大了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			bgName = "bg_project_tb_cg3",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "不过晴天娃娃也没有耳朵吧。",
+			say = "不過晴天娃娃也沒有耳朵吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			bgName = "bg_project_tb_cg3",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "但是这个造型……好微妙。",
+			say = "但這個造型……好微妙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			bgName = "bg_project_tb_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（算了……还挺可爱的。）",
+			say = "（算了……還挺可愛的。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg4",
 			hidePaintObj = true,
-			say = "将滑落的被子小心盖回TB的身上。",
+			say = "將滑落的被子小心蓋回TB的身上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg4",
 			hidePaintObj = true,
-			say = "她无知无觉，兀自睡得香甜。",
+			say = "她無知無覺，兀自睡得香甜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,14 +361,14 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg4",
 			hidePaintObj = true,
-			say = "月光透过薄薄的窗帘照进屋内，将这张我既熟悉又陌生的面庞照亮。",
+			say = "月光透過薄薄的窗簾照進屋內，將這張我既熟悉又陌生的臉龐照亮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg4",
 			dir = 1,
@@ -390,7 +390,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg4",
 			hidePaintObj = true,
-			say = "她小声嘟囔着什么，有些像梦话，但更像是单纯的呼吸。",
+			say = "她小聲嘟囔著什麼，有些像夢話，但更像是單純的呼吸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			bgName = "bg_project_tb_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不过……现在的你，会做怎样的梦呢？）",
+			say = "（不過……現在的妳，會做怎樣的夢呢？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

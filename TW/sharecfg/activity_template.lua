@@ -1518,6 +1518,162 @@ pg.activity_template = {
 			326
 		}
 	},
+	[4548] = {
+		mark = 20221013,
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_4548",
+		title_res_tag = "",
+		id = 4548,
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					8,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 3,
+			bg = "loadingbg/bg_build_3_act",
+			buildship_tip = "巴爾的摩、阿拉巴馬、霧島 建造追加！",
+			rate_tip = {
+				"<color=#ffde38>超稀有艦船</color>：7%",
+				"<color=#d797ff>精銳艦船</color>：12%",
+				"<color=#3dc6ff>稀有艦船</color>：51%",
+				"普通艦船：30%"
+			}
+		}
+	},
+	[4549] = {
+		mark = 20221013,
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_4549",
+		title_res_tag = "",
+		id = 4549,
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					8,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 2,
+			bg = "loadingbg/bg_build_2_act",
+			buildship_tip = "艾倫·M·桑拿、史蒂芬·波特、伯明罕等建造追加！",
+			rate_tip = {
+				"<color=#ffde38>超稀有艦船</color>：7%",
+				"<color=#d797ff>精銳艦船</color>：12%",
+				"<color=#3dc6ff>稀有艦船</color>：26%",
+				"普通艦船：55%"
+			}
+		}
+	},
+	[4550] = {
+		mark = 20221013,
+		page_info = "",
+		type = 26,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_data = "activity_drop_4550",
+		title_res_tag = "",
+		id = 4550,
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					8,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 1,
+			bg = "loadingbg/bg_build_1_act",
+			buildship_tip = "塔什干(μ兵裝)、黛朵(μ兵裝)等角色 建造機率提高！",
+			rate_tip = {
+				"<color=#ffde38>超稀有艦船</color>：7%",
+				"<color=#d797ff>精銳艦船</color>：12%",
+				"<color=#3dc6ff>稀有艦船</color>：51%",
+				"普通艦船：30%",
+				"<color=#ffde38>{namecode:190}</color>： 2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>塔什干(μ兵裝)</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>黛朵(μ兵裝)</color>：2.0%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#d797ff>大青花魚(μ兵裝)</color>：2.5%<color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#d797ff>巴爾的摩( μ兵裝)</color>：2.5%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
 	[4574] = {
 		mark = 20240321,
 		page_info = "",
@@ -4252,6 +4408,7 @@ pg.activity_template = {
 	},
 	[4729] = {
 		mark = 20240613,
+		time = "stop",
 		type = 11,
 		login_pop = 0,
 		config_id = 0,
@@ -4259,33 +4416,6 @@ pg.activity_template = {
 		title_res_tag = "collection_event_pt",
 		id = 4729,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					6,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					8,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "CollectionEventPtPage",
 			ui_name = "CollectionEventPtPage"
@@ -10923,6 +11053,7 @@ pg.activity_template = {
 	[5246] = {
 		mark = 20240718,
 		page_info = "",
+		time = "stop",
 		type = 70,
 		login_pop = 0,
 		config_id = 0,
@@ -10930,34 +11061,7 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 5246,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					7,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					8,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[5247] = {
 		mark = 20240718,
@@ -11029,6 +11133,7 @@ pg.activity_template = {
 	[5248] = {
 		mark = 20240718,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -11053,38 +11158,12 @@ pg.activity_template = {
 			19852,
 			19853,
 			19854
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					7,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					8,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5249] = {
 		mark = 20240718,
 		page_info = "",
+		time = "stop",
 		type = 58,
 		login_pop = 0,
 		config_id = 21,
@@ -11092,37 +11171,11 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 5249,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					7,
-					18
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					8,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[5260] = {
 		mark = 20240725,
+		time = "stop",
 		type = 111,
 		login_pop = 0,
 		config_id = 5264,
@@ -11136,33 +11189,6 @@ pg.activity_template = {
 			1004,
 			1005
 		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					7,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					8,
-					14
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "OtherWorldMainPage",
 			ui_name = "OtherWorldMainPage"
@@ -11175,6 +11201,7 @@ pg.activity_template = {
 	[5261] = {
 		mark = 20240725,
 		page_info = "",
+		time = "stop",
 		type = 89,
 		login_pop = 0,
 		config_id = 0,
@@ -11199,33 +11226,6 @@ pg.activity_template = {
 				19890
 			}
 		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					7,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					8,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			hide_task = {
 				19889
@@ -11241,6 +11241,7 @@ pg.activity_template = {
 	[5262] = {
 		mark = 20240725,
 		page_info = "",
+		time = "stop",
 		type = 60,
 		login_pop = 0,
 		config_id = 0,
@@ -11252,33 +11253,6 @@ pg.activity_template = {
 			457,
 			458,
 			459
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					7,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					8,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5263] = {
@@ -11378,6 +11352,7 @@ pg.activity_template = {
 	[5265] = {
 		mark = 20240725,
 		page_info = "",
+		time = "stop",
 		type = 112,
 		login_pop = 0,
 		config_id = 0,
@@ -11425,33 +11400,6 @@ pg.activity_template = {
 			2012,
 			2013,
 			2014
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					7,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					8,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			open_story = "CONGLINGKAISHIMOWANG1"
@@ -11767,6 +11715,7 @@ pg.activity_template = {
 	[5273] = {
 		mark = 20240725,
 		page_info = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
@@ -11774,33 +11723,6 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 5273,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					7,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					8,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 4,
 			bg = "loadingbg/bg_build_4_act",
@@ -49876,6 +49798,9 @@ pg.activity_template = {
 		},
 		[26] = {
 			4432,
+			4548,
+			4549,
+			4550,
 			4679,
 			4744,
 			4946,
@@ -50462,6 +50387,9 @@ pg.activity_template = {
 		4479,
 		4480,
 		4481,
+		4548,
+		4549,
+		4550,
 		4574,
 		4575,
 		4595,

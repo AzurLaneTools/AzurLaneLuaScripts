@@ -14,7 +14,7 @@ return {
 			bgm = "story-1",
 			actor = 900284,
 			nameColor = "#a9f548",
-			say = "指挥官......",
+			say = "指揮官…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,12 +25,12 @@ return {
 			}
 		},
 		{
-			actorName = "指挥官",
+			actorName = "指揮官",
 			side = 2,
 			bgName = "educate_tb_1",
 			nameColor = "#5CFFC0",
 			dir = 1,
-			say = "嗯？TB，怎么了？",
+			say = "嗯？TB，怎麼了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			bgName = "educate_tb_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "新衣服......好看？",
+			say = "新衣服……好看？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			bgName = "educate_tb_1",
 			nameColor = "#5CFFC0",
 			dir = 1,
-			say = "这是在问她穿这套新衣服好不好看吧？嗯，这种时候要多夸夸孩子",
+			say = "她是想問，穿著這身新衣服好不好看？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,12 +73,12 @@ return {
 			}
 		},
 		{
-			actorName = "指挥官",
+			actorName = "指揮官",
 			side = 1,
 			bgName = "educate_tb_1",
 			nameColor = "#5CFFC0",
 			dir = 1,
-			say = "当然，TB穿着新衣服非常好看",
+			say = "當然好看，而且穿著新衣服的TB也顯得非常可愛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			bgName = "educate_tb_1",
 			nameColor = "#a9f548",
 			dir = 1,
-			say = "......指挥官......一样",
+			say = "……指揮官……一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,12 +105,12 @@ return {
 			}
 		},
 		{
-			actorName = "指挥官",
+			actorName = "指揮官",
 			side = 2,
 			bgName = "educate_tb_1",
 			nameColor = "#5CFFC0",
 			dir = 1,
-			say = "一样是指......?",
+			say = "一樣是指……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			nameColor = "#5CFFC0",
 			dir = 1,
 			actorName = "旁白",
-			say = "不知道为什么，心里有一种莫名的感动。孩子长大了啊~",
+			say = "第一次被誇可愛，而且還是這副模樣的TB誇我可愛……無奈之餘又有些感動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,12 +154,12 @@ return {
 			}
 		},
 		{
-			actorName = "指挥官",
+			actorName = "指揮官",
 			side = 2,
 			bgName = "educate_tb_1",
 			nameColor = "#5CFFC0",
 			dir = 1,
-			say = "嗯，和TB一样呢。",
+			say = "嗯，跟TB一樣呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

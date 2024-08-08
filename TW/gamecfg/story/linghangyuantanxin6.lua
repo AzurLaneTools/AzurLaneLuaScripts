@@ -12,9 +12,9 @@ return {
 			bgm = "qe-ova-1",
 			tbActor = true,
 			actor = 1007,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "真凶我已经猜到了。",
+			say = "真兇我已經猜到了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "TB坐在电视机前，眼睛一眨不眨，肯定地说着自己的推论。",
+			say = "TB坐在電視機前，眼睛一眨不眨，肯定地說著自己的推論。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB ，作业不要紧吗？",
+			say = "TB ，作業沒關係嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,9 +67,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1007,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "分析，真凶一定存在着……所以才……",
+			say = "分析，真兇一定存在著……所以才……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "她还在沉浸在剧情里，同时说着自己的见解。",
+			say = "她還在沉浸在劇情裡，同時說出自己的見解。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "虽然分析得很有道理，但……",
+			say = "雖然分析得很有道理，但……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB……作业……",
+			say = "TB……作業……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,9 +116,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1007,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "作业看完结局再做，现在正在进行关键的资料分析。",
+			say = "作業看完結局再做，現在正在進行關鍵的資料分析。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "……唉，逃避课后作业，这难道就是成长的必经之路吗？",
+			say = "……唉，逃避課後作業，這難道就是成長的必經之路嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,7 +10,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样……就结束了？",
+			say = "這樣……就結束了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然了喵！",
+			say = "當然了喵！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等一下，{namecode:98}，你怎么过来的？！",
+			say = "等一下，明石，妳怎麼過來的？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喵呼呼~身为制作者，能出现在这里也是理所当然的喵！",
+			say = "喵呼呼~身為製作者，能出現在這裡也是理所當然的喵！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "除了刚刚那个问题，指挥官一定还有很多其它的问题想问{namecode:98:明石}吧喵？",
+			say = "除了剛剛那個問題，指揮官一定還有很多其他的問題想問明石吧喵？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "当然！",
+			say = "當然！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "培养出“个性”，有从事的职业，这对TB来说意味着什么呢？",
+			say = "培養出「個性」，有從事的職業，這對TB來說意味著什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这个问题就让领航员小姐“自己”来和指挥官聊聊吧喵！",
+			say = "這個問題就讓領航員小姐「自己」來和指揮官聊聊吧喵！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "至于为什么领航员小姐还能出现，这个就是商业机密不能透露了喵~",
+			say = "至於為什麼領航員小姐還能出現，這就是商業機密不能透露了喵~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（想问的问题完全被{namecode:98:明石}堵回去了啊……）",
+			say = "（想問的問題完全被明石堵回去了啊……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那接下来的时间就留给指挥官和领航员小姐了，{namecode:98:明石}先走一步了喵~",
+			say = "那接下來的時間就留給指揮官和領航員小姐了，明石先走一步了喵~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_tb_room3",
-			say = "{namecode:98:明石}消失后，我看向了一旁突然出现、安安静静的TB。",
+			say = "明石消失後，我看向了一旁突然出現、安靜的TB。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900284,
-			say = "指令已确认：正在进行分析……分析模式中止。",
+			say = "指令已確認：正在進行分析……分析模式中止。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900284,
-			say = "抱歉指挥官，我擅自中止了分析指令。这个问题我不想在进行分析后再回答。",
+			say = "抱歉指揮官，我擅自中止了分析指令。這個問題我不想在進行分析後再回答。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900284,
-			say = "我从您的行为中，获得了一种特别的感受。",
+			say = "我從您的行為中，獲得了一種特別的感受。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900284,
-			say = "但这种感受的来源，我无法采用数据库中已被录入的概念进行合理的解释。",
+			say = "但這種感受的來源，我無法採用資料庫中已被輸入的概念進行合理的解釋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900284,
-			say = "或许是在这里与您相处的时光，或许是无论从事哪种职业，都有您作为坚实后盾的安心感……",
+			say = "或許是在這裡與您相處的時光，或許是無論從事哪種職業，都有您作為堅實後盾的安心感……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900284,
-			say = "即使疲惫，但是有您相伴，今后就算遇到再多的困难也能够克服。谢谢您。",
+			say = "即使疲憊，但是有您相伴，今後就算遇到再多的困難也能夠克服。謝謝您。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900284,
-			say = "怎么了，指挥官？",
+			say = "怎麼了，指揮官？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "就是在感动之余又有点惊讶，你现在说话的口吻变得没那么……有人工智能感？",
+			say = "就是在感動之餘又有點驚訝，妳現在說話的口吻變得沒那麼……有人工智慧感？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900284,
-			say = "我的口吻变化，应该与您的培养行为有关。如果您不习惯，我可以调整。",
+			say = "我的口吻變化，應該與您的培養行為有關。如果您不習慣，我可以調整。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不用调整，现在这样就很好。",
+			say = "不用調整，現在這樣就很好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "虽然这么说很奇怪，但是第一次作为“你”的监护人，我肯定还有很多不足之处……",
+			say = "雖然這麼說很奇怪，但第一次身為「妳」的監護人，我肯定還有很多不足之處……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "希望“你”知道，无论你变成什么样子，我都可以是你的港湾。",
+			say = "希望「妳」知道，無論妳變成什麼樣子，我都可以是妳的港灣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900284,
-			say = "人工智能并不需要停泊。不过，您采用的应该是比喻的修辞。",
+			say = "人工智慧並不需要停泊。不過，您採用的應該是比喻的修辭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900284,
-			say = "这种修辞所代表的情感含义，我现在已经充分理解到了。——指挥官，今后的生活，也请您多关照。",
+			say = "這種修辭所代表的情感意義，我現在已經充分理解了。 ——指揮官，今後的生活，也請您多多指教。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

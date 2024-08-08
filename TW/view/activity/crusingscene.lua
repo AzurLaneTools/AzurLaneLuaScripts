@@ -16,10 +16,9 @@ slot0.preload = function(slot0, slot1)
 	slot4 = {}
 
 	table.insert(slot4, function (slot0)
-		slot2 = uv0
 		slot2 = uv1
 
-		slot2:GetPrefab("crusingmap/" .. CrusingMapInfo.VersionInfo[slot2:getConfig("config_client").map_name], "", true, function (slot0)
+		slot2:GetPrefab("crusingmap/" .. pg.battlepass_event_pt[uv0.id].crusing_map, "", true, function (slot0)
 			uv0.rtMap = tf(slot0)
 			uv0.PhaseFrame, uv0.AllFrameCount = CrusingMapInfo.GetPhaseFrame(uv1)
 
@@ -28,9 +27,8 @@ slot0.preload = function(slot0, slot1)
 	end)
 	table.insert(slot4, function (slot0)
 		slot1 = uv0
-		slot3 = uv1
 
-		slot1:GetSpineChar(slot3:getConfig("config_client").spine_name, true, function (slot0)
+		slot1:GetSpineChar(pg.battlepass_event_pt[uv1.id].spine_name, true, function (slot0)
 			uv0.rtModel = tf(slot0)
 
 			uv1()
@@ -125,7 +123,7 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.btnHelp, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = i18n(uv0.activity:getConfig("config_client").tips[2])
+			helps = i18n("battlepass_main_help_" .. pg.battlepass_event_pt[uv0.activity.id].map_name)
 		})
 	end, SFX_PANEL)
 
@@ -163,7 +161,7 @@ slot0.didEnter = function(slot0)
 		type = DROP_TYPE_VITEM,
 		id = slot0.ptId
 	}):getIcon(), ""))
-	setText(slot0.textTip, i18n(slot0.activity:getConfig("config_client").tips[1]))
+	setText(slot0.textTip, i18n("battlepass_main_tip_" .. pg.battlepass_event_pt[slot0.activity.id].map_name))
 
 	slot2 = slot0.activity.stopTime - pg.TimeMgr.GetInstance():GetServerTime()
 
@@ -216,8 +214,8 @@ slot0.willExit = function(slot0)
 	end
 
 	slot1 = PoolMgr.GetInstance()
-	slot2 = CrusingMapInfo.VersionInfo[slot0.activity:getConfig("config_client").map_name]
-	slot3 = slot0.activity:getConfig("config_client").spine_name
+	slot2 = pg.battlepass_event_pt[slot0.activity.id].crusing_map
+	slot3 = pg.battlepass_event_pt[slot0.activity.id].spine_name
 
 	for slot7, slot8 in ipairs(slot0.maps) do
 		setParent(slot8.rtLine, slot8._tf, true)

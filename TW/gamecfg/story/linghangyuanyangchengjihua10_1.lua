@@ -9,7 +9,7 @@ return {
 			bgm = "qe-ova-1",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她走近玻璃，抬着头看向里面游弋的海洋生物们。",
+			say = "她走近玻璃，抬著頭看向裡面游弋的海洋生物們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,21 +38,21 @@ return {
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你喜欢这些吗？",
+			say = "妳喜歡這些嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg6",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-1-8",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……很温暖。",
+			say = "嗯……很溫暖。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -68,7 +68,7 @@ return {
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这在某种层面上应该算是答非所问吧……不过她还小，顺着她的思路问下去比较好。）",
+			say = "（這在某種層面上應該算是答非所問吧……不過她還小，順著她的思路問下去比較好。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,21 +80,21 @@ return {
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "温暖？是说这些鱼儿吗？",
+			say = "溫暖？是說這些魚兒嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg6",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-1-9",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不……是蓝色的水。",
+			say = "不……是藍色的水。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "蓝色的水？啊……",
+			say = "藍色的水？啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
-			say = "原来是在说大海。",
+			say = "原來是在說大海。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
-			say = "即便是虚拟世界中的海水，也会让她产生亲切感吗？",
+			say = "就算是虛擬世界中的海水，也會讓她產生親切感嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这个是——“海水”。",
+			say = "這個是——「海水」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,21 +156,21 @@ return {
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB如果喜欢的话，等你再长大一点，我们就去海边玩吧。",
+			say = "TB如果喜歡的話，等妳再長大一點，我們就去海邊玩吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg6",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-1-10",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……",
+			say = "嗯…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
-			say = "她有些茫然地回应着我。",
+			say = "她有些茫然地回應我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
-			say = "也是……以她现在所具备的认知能力，要理解这些可能还是有些困难。",
+			say = "也是……以她現在所具備的認知能力，要理解這些可能還是有點困難。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "要不要去那边看看？还有很大很大的鱼。",
+			say = "要不要去那邊看看？還有很大很大的魚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg6",
 			hidePaintObj = true,
-			say = "她点了点头。",
+			say = "她點了點頭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

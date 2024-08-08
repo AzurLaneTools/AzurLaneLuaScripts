@@ -2,35 +2,10 @@ pg = pg or {}
 pg.activity_banner = {
 	{
 		param = "5260",
+		time = "stop",
 		type = 3,
 		id = 1,
-		pic = "temp1",
-		time = {
-			{
-				{
-					2024,
-					7,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					8,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "temp1"
 	},
 	{
 		type = 2,
@@ -47,8 +22,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					7,
-					25
+					8,
+					8
 				},
 				{
 					0,
@@ -60,7 +35,7 @@ pg.activity_banner = {
 				{
 					2024,
 					8,
-					8
+					15
 				},
 				{
 					23,
@@ -120,8 +95,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					7,
-					18
+					8,
+					8
 				},
 				{
 					0,
@@ -133,7 +108,7 @@ pg.activity_banner = {
 				{
 					2024,
 					8,
-					1
+					15
 				},
 				{
 					23,
@@ -247,7 +222,6 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 8,
 		pic = "temp3",
@@ -256,6 +230,32 @@ pg.activity_banner = {
 			{
 				open_remaster = true,
 				isSP = false
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					8,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},

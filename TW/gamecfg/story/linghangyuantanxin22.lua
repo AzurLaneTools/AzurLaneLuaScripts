@@ -12,9 +12,9 @@ return {
 			dynamicBgType = -2,
 			bgm = "story-richang-flexible",
 			actor = -2,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "适量……无法理解……",
+			say = "適量……無法理解……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			side = 2,
-			say = "TB正在看书，但是好像遇到了令她困惑的概念。",
+			say = "TB正在看書，但好像遇到了令她困惑的概念。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,9 +56,9 @@ return {
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
 			actor = -2,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "“适量”，到底是……",
+			say = "「適量」，到底是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
-			say = "就是正好合适，不太多也不太少？",
+			say = "就是正好合適，不太多也不太少？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
 			actor = -2,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
 			say = "好模糊……",
 			typewriter = {
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
-			say = "毕竟“适量”这个词确实相当难解答嘛……",
+			say = "畢竟「適量」這個詞確實相當難解嘛……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
-			say = "看来在这方面我也得和TB一起探究答案了。",
+			say = "看來在這方面我也得跟TB一起探究答案了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,9 +125,9 @@ return {
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
 			actor = -2,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "好吧……一起的话，可以。",
+			say = "好吧……一起的話，可以。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

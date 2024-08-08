@@ -9,7 +9,7 @@ return {
 			bgm = "qe-ova-1",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "转眼就要到TB升学考试的日子了。",
+			say = "轉眼就要到TB升學考試的日子了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（稳妥起见……还是问问她最近学习的情况吧。）",
+			say = "（穩當起見……還是問問她最近學習的情況吧。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,21 +49,21 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "在得到TB的许可后，我进入了她的房间。",
+			say = "在得到TB的許可後，我進入了她的房間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg13",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-2-17",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……",
+			say = "嗯…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,14 +91,14 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg13",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-2-18",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "完全……不知道从哪开始复习。",
+			say = "完全……不知道從哪裡開始複習。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,14 +109,14 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg13",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-2-19",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明明看过了很多书，可还是一转眼的功夫就忘记。",
+			say = "明明看過了很多書，但還是一轉眼的功夫就忘記。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,14 +127,14 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg13",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-2-20",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "老师说我偏科很厉害，几门功课的成绩差距太大了。",
+			say = "老師說我偏科很厲害，幾門課的成績差距太大了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,21 +149,21 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg13",
 			hidePaintObj = true,
-			say = "看着她桌上摆着的试卷上的分数，我忍不住笑了。",
+			say = "看著她桌上擺著的考卷上的分數，我忍不住笑了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg13",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-2-21",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这有什么好笑的……",
+			say = "這有什麼好笑的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg13",
 			hidePaintObj = true,
-			say = "她嘟囔着。",
+			say = "她碎念著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_project_tb_cg13",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "就是觉得TB居然会偏科这件事很不可思议。",
+			say = "就是覺得TB居然會偏科這件事很不可思議。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,19 +201,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg13",
 			hidePaintObj = true,
-			say = "毕竟之前几乎无所不能的领航员小姐……现在变成了考试成绩不及格的小学生。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_project_tb_cg13",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "不过刚刚笑出声是我不对，我要向你道歉。",
+			say = "畢竟之前幾乎無所不能的領航員小姐……現在變成了考試成績不及格的小學生。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +213,19 @@ return {
 			bgName = "bg_project_tb_cg13",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "接下来，我们一起复习功课吧。",
+			say = "不過剛剛笑出聲是我不對，我要向妳道歉。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_project_tb_cg13",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "接下來，我們一起複習功課吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

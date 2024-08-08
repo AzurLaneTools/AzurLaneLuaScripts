@@ -4,7 +4,7 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg19",
 			dir = 1,
@@ -12,7 +12,7 @@ return {
 			voice = "event:/educate/tb/educate-tb-story-33-4",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "锵锵——圣诞老人TB，堂堂登场！",
+			say = "鏘鏘——聖誕老人TB，堂堂登場！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -40,14 +40,14 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg19",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-33-5",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，这身打扮很有圣诞气息吧？效果不错吧？",
+			say = "嘿嘿，這身打扮很有聖誕氣息吧？效果不錯吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,21 +63,21 @@ return {
 			bgName = "bg_project_tb_cg19",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（完全是一副求夸奖的样子啊。）",
+			say = "（完全是一副求誇獎的樣子啊。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg19",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-33-6",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "给你这个！",
+			say = "給你這個！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,21 +92,21 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg19",
 			hidePaintObj = true,
-			say = "她把一个包装精美的小盒子递到我眼前。",
+			say = "她把一個包裝精美的小盒子遞到我眼前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg19",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-33-7",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "光是准备这些布置就把我攒下来的零用钱花得差不多了……剩下的部分只够买这个。",
+			say = "光是準備這些佈置就把我存下來的零用錢花得差不多了……剩下的部分只夠買這個。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,14 +117,14 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg19",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-33-8",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过这也是我精心挑选过的！可不要因为不够贵重就轻视我的心意哦？",
+			say = "不過這也是我精心挑選過的！可不要因為不夠貴重就輕視我的心意哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,14 +140,14 @@ return {
 			bgName = "bg_project_tb_cg19",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好好好……我当然不会轻视来自圣诞老人TB的珍贵礼物。",
+			say = "好好好……我當然不會輕視聖誕老人TB的珍貴禮物。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg19",
 			dir = 1,
@@ -165,7 +165,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg19",
 			dir = 1,
@@ -187,7 +187,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg19",
 			hidePaintObj = true,
-			say = "在那之后，和TB一起度过了相当热闹的圣诞节。",
+			say = "在那之後，和TB一起度過了相當熱鬧的聖誕節。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

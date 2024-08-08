@@ -14,9 +14,9 @@ return {
 			bgm = "qe-ova-10",
 			tbActor = true,
 			actor = 1200,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "……{tb}，这些。",
+			say = "……{tb}，這些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "TB将一沓宣传页放在了我的面前。",
+			say = "TB將一沓宣傳頁放在了我的面前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……这些都是社团？TB是想询问我的意见吗？",
+			say = "……這些都是社團？TB是想問我的意見嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,9 +69,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1200,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "……也不是特地想询问你的意见，只是我自己挑累了而已。",
+			say = "……也不是特地想問你的意見，只是我自己挑累了而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（还是这么不坦率啊……）",
+			say = "（還是這麼不坦率啊……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那，TB自己有没有什么特别想尝试的？先从这个方向挑起？",
+			say = "那，TB自己有沒有特別想嘗試的？先從這個方向挑起？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,9 +107,9 @@ return {
 			bgName = "bg_project_tb_room3",
 			tbActor = true,
 			actor = 1200,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "……没有。",
+			say = "……沒有。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,9 +122,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1200,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "……不过，因为“没有”，所以每个都可以试。",
+			say = "……不過，因為「沒有」，所以每個都可以嘗試。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（和长大后的TB对话有时候挺无助的……这就是所谓的个性吗？）",
+			say = "（和長大後的TB對話有時候挺無助的……這就是所謂的個性嗎？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "结果最后还是给出了全都试试的建议。",
+			say = "結果最後還是給了全都試試的建議。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

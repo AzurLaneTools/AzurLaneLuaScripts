@@ -9,7 +9,7 @@ return {
 			bgm = "story-richang-quiet",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就这样，TB的“个性”培养计划暂时告一段落——",
+			say = "就這樣，TB的「個性」培養計畫暫時告一段落——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "不过{namecode:98}说过，TB会因此走上不同的职业道路……",
+			say = "不過明石說過，TB會因此走上不同的職業道路……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "现在的她，会成长为怎样的模样呢？",
+			say = "現在的她，會成長為怎樣的模樣呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

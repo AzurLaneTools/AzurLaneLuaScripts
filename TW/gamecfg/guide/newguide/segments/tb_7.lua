@@ -6,7 +6,7 @@ return {
 			delay = 1,
 			alpha = 0.4,
 			style = {
-				text = "在养成过程内获取到的CG，会保存在<color=#39bfff>记忆</color>中。",
+				text = "在養成過程內所獲得的CG，會保存在<color=#39bfff>記憶</color>中。",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -24,7 +24,7 @@ return {
 			delay = 0.4,
 			alpha = 0.4,
 			style = {
-				text = "除此之外的剧情内容，则会保存在<color=#39bfff>回忆列表</color>中。",
+				text = "除此之外的劇情內容，則會保存在<color=#39bfff>回憶列表</color>中。",
 				mode = 2,
 				dir = 1,
 				char = 1,

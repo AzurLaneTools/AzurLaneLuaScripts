@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "请点击任务",
+				text = "請點選任務",
 				mode = 2,
 				char = 1,
 				posY = -20.06,
@@ -25,7 +25,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "请点击按钮领取奖励",
+				text = "點擊按鈕領取獎勵",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -43,7 +43,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "点击空白处关闭",
+				text = "點擊空白處關閉",
 				mode = 2,
 				char = 1,
 				posY = -358.74,
@@ -64,7 +64,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "点击返回主界面",
+				text = "點擊返回主介面",
 				mode = 2,
 				dir = -1,
 				char = 1,

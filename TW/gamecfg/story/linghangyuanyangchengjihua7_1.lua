@@ -4,7 +4,7 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg2",
 			dir = 1,
@@ -44,7 +44,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
-			say = "她用餐叉将西蓝花送到我的嘴边。",
+			say = "她用餐叉將花椰菜送到我的嘴邊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,14 +63,14 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg2",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-1-2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘴巴……张开。",
+			say = "嘴巴……張開。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -85,7 +85,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
-			say = "虽然没有多余的表情，但依然能看出她很高兴。",
+			say = "雖然沒有多餘的表情，但還是能看出她很高興。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,14 +96,14 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
-			say = "或许……模仿这种喂食行为本身，也能让TB理解到一些她想要的东西？",
+			say = "或許……模仿這種餵食行為本身，也能讓TB理解到一些她想要的東西？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg2",
 			dir = 1,
@@ -125,7 +125,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
-			say = "似乎是看我迟迟没有动作，她再一次发出声音示意我。",
+			say = "似乎是看我遲遲沒有動作，她再一次發出聲音示意我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg2",
 			hidePaintObj = true,
-			say = "我故作夸张地将食物吃掉。",
+			say = "我故作誇張地將食物吃掉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

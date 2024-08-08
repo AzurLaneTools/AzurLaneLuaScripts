@@ -12,9 +12,9 @@ return {
 			dynamicBgType = -2,
 			bgm = "story-richang-flexible",
 			actor = -2,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "想看书……但……不知道看什么……",
+			say = "想看書……但……不知道看什麼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
-			say = "那就看看课本？这种时候学习总归是没错的！",
+			say = "那就看看課本？這種時候學習總歸是沒錯的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
 			actor = -2,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
 			say = "……不要。",
 			typewriter = {
@@ -72,7 +72,7 @@ return {
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
 			actor = -2,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
 			say = "想看……有趣的。",
 			typewriter = {
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
-			say = "有趣的……现在立刻让我推荐也很难想到。",
+			say = "有趣的……現在立刻讓我推薦也很難想到。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
-			say = "要不然这样？我们之后去书店，挑你觉得名字或者封面有趣的书吧？",
+			say = "要不然這樣？我們之後就去轉角書屋，挑妳覺得名字或封面有趣的書吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,9 +113,9 @@ return {
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
 			actor = -2,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "好，说定了。",
+			say = "好，說定了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

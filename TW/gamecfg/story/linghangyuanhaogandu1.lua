@@ -9,7 +9,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"心与心的交汇\n\n<size=45>一 信任的起点？</size>",
+					"心與心的交匯\n\n<size=45>1 信任的起點？</size>",
 					1
 				}
 			}
@@ -60,7 +60,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "TB以这副模样来到这个虚拟小镇中也有一段时间了，但……",
+			say = "TB以此模樣來到這個虛擬小鎮也有一段時間了，但……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（总是这样沉默地拎着玩偶呢……)",
+			say = "（總是這樣沉默地拎著玩偶呢……)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB，可以告诉我，这个玩偶是什么吗？",
+			say = "TB，可以告訴我，這個玩偶是什麼嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "她似乎还无法理解“玩偶”的概念，看来得换个说法了。",
+			say = "她似乎還無法理解「玩偶」的概念，看來得換個說法了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "就是你手里的东西。",
+			say = "就是妳手上的東西。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这个……很熟悉，抱着……会困。",
+			say = "……這個……很熟悉，抱著……會睏。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "——得到了完全无法理解的回答！",
+			say = "——得到了完全無法理解的答案！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（彻底低估了和小孩子打交道的难度啊……）",
+			say = "（徹底低估了和小孩打交道的難度啊……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很像……你的感觉……",
+			say = "很像……你的感覺……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "欸？是说我和它长得像吗？",
+			say = "欸？是說我跟它長得像嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "她说着，将玩偶的“耳朵”塞进了我的手里。",
+			say = "她說著，將玩偶的「耳朵」塞進了我的手裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "这样做以后，TB像是接收到了什么能量似的，立刻打起了哈欠。",
+			say = "這樣做以後，TB像是接收到了什麼能量似的，立刻打起了哈欠。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（原来如此，是那种安抚性质的像啊……）",
+			say = "（原來如此，是那種安撫性質的像啊……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不过这样也就证明，TB确实是在信任和依赖我吧……太好了。）",
+			say = "（不過這樣也證明，TB確實是在信任和依賴我吧……太好了。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

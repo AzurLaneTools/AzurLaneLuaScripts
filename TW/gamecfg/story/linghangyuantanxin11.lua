@@ -15,9 +15,9 @@ return {
 			bgm = "qe-ova-9",
 			tbActor = true,
 			actor = 1300,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "{tb}~快来快来！帮我选一下！",
+			say = "{tb}~快來快來！幫我選！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "TB不由分说地将一沓宣传页塞进我手里。",
+			say = "TB不由分說地將一沓宣傳頁塞進我手中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,9 +58,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1300,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "我完全不知道选哪个好！每一个都想试试！",
+			say = "我完全不知道選哪個好！每一個都想試試！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "原来是要选社团啊……那按照你平时最喜欢做的事情来选？",
+			say = "原來是要選社團啊……那按照妳平常最喜歡做的事情來選？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,9 +85,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1300,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "哦~我懂了！不过社团里也没有看漫画的啊？我去开一个！",
+			say = "喔~我懂了！不過社團裡也沒看漫畫的啊？我去開一個！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "唯独这件事不行，你就从现有的社团里选一个吧。",
+			say = "唯獨這件事不行，你就從現有的社團裡選一個吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,9 +112,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1300,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "欸~好麻烦啊！……等下！好像也没有规定说不能每个都选吧？",
+			say = "欸~好麻煩啊！ ……等下！好像也沒有規定說不能每個都選吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,9 +127,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1300,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "嗯，那就每个社团都参加吧！就这样决定了！我可真是天才~",
+			say = "嗯，那就每個社團都參加吧！就這樣決定了！我可真是天才~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "虽然很想问她一句精力吃得消吗？但看着她兴高采烈的样子又没能问出口。",
+			say = "雖然很想問她一句精力吃得下嗎？但看著她興高采烈的樣子又沒能問出口。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "多多尝试也不是坏事，希望她能从中找到自己真正的爱好。",
+			say = "多多嘗試也不是壞事，希望她能從中找到自己真正的嗜好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

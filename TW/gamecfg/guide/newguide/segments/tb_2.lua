@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0.6,
 			style = {
-				text = "这四项是基础属性，刚刚的任务奖励也提升了这四种属性的数值。",
+				text = "這四項是基礎屬性，剛剛的任務獎勵也提升了這四種屬性的數值。",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -21,7 +21,7 @@ return {
 		{
 			alpha = 0.6,
 			style = {
-				text = "努力提升这四项属性，在帮助TB成长的同时，也能让TB在日后出现不同的“个性”。",
+				text = "努力提升這四項屬性，在幫助TB成長的同時，也能讓TB在日後出現不同的「個性」。",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -37,7 +37,7 @@ return {
 		{
 			alpha = 0.6,
 			style = {
-				text = "接下来，需要了解的是——成长目标。",
+				text = "接下來，要了解的是——成長目標。",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -62,7 +62,7 @@ return {
 			alpha = 0,
 			waitScene = "EducateTargetSetLayer",
 			style = {
-				text = "在养成过程中，不同的成长目标会产生不同的目标任务，从而影响到属性。",
+				text = "在養成過程中，不同的成長目標會產生不同的目標任務，進而影響屬性。",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -73,7 +73,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "另外，每个新的阶段，都可以重新设置成长目标。",
+				text = "另外，每個新的階段，都可以重新設定成長目標。",
 				mode = 2,
 				dir = 1,
 				char = 1,

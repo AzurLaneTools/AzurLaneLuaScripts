@@ -9,7 +9,7 @@ return {
 			bgm = "qe-ova-10",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "或许是之前在睡梦中频繁翻身的缘故，我离开前为她盖好的被子已经滑落至床的后半。",
+			say = "或許是之前在睡夢中頻繁翻身的緣故，我離開前為她蓋好的被子已經滑落至床的後半。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg3",
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg3",
 			hidePaintObj = true,
-			say = "她紧紧抱着怀中的玩偶，呼吸平稳。",
+			say = "她緊緊抱著懷裡的玩偶，呼吸平穩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,14 +67,14 @@ return {
 			bgName = "bg_project_tb_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（话说回来……虽然TB一直抱着，但这玩偶到底是个什么物种？）",
+			say = "（話說回來……雖然TB一直抱著，但這玩偶到底是個什麼物種？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "也许是水母",
+					content = "也許是水母",
 					flag = 1
 				},
 				{
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_project_tb_cg3",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "好像有点像水母，但是仔细观察一下的话……",
+			say = "好像有點像水母，但是仔細觀察一下的話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_project_tb_cg3",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "和一般的水母差别有点太大了。",
+			say = "和一般的水母差異有點太大了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_project_tb_cg3",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "不过晴天娃娃也没有耳朵吧。",
+			say = "不過晴天娃娃也沒有耳朵吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_project_tb_cg3",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "但是这个造型……好微妙。",
+			say = "但這個造型……好微妙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			bgName = "bg_project_tb_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（算了……还挺可爱的。）",
+			say = "（算了……還挺可愛的。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

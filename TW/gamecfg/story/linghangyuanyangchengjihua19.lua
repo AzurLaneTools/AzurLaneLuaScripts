@@ -9,7 +9,7 @@ return {
 			bgm = "story-richang-2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "又到了终端收集到了足够的行为数据，进行升级的周期。",
+			say = "又到了終端收集到足夠的行為數據，進行升級的週期。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这次{namecode:98}不会再跑来告诉我，有重要设定忘了和我说了吧……",
+			say = "這次明石不會再跑來告訴我，有重要設定忘了跟我說了吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "猜对了喵，不愧是指挥官喵！",
+			say = "猜對了喵，不愧是指揮官喵！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在进入到最关键的环节了喵，也就是这次计划的核心——“个性”喵！",
+			say = "現在進入到最關鍵的環節了喵，也就是這次計畫的核心——「個性」喵！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这次系统升级过后，指挥官就会看到有具体个性的领航员小姐了喵！",
+			say = "這次系統升級過後，指揮官就會看到有具體個性的領航員小姐了喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊？是不是有点太快了？我还以为会更加循序渐进一些……",
+			say = "啊？是不是有點太快了？我以為會更循序漸進一些……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明明已经很循序渐进了喵！",
+			say = "明明已經很循序漸進喵了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔，还有一点很重要喵……就是个性会影响到领航员小姐未来能从事的职业喵！",
+			say = "唔，還有一點很重要喵……就是個性會影響到領航員小姐未來能從事的職業喵！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,7 +149,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "从事的职业？",
+			say = "從事的職業？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等等{namecode:98}，这个好像不是我给你的需求吧？",
+			say = "等等明石，這個好像不是我給妳的需求吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样才足够真实喵，指挥官应该能懂的喵。",
+			say = "這樣才夠真實喵，指揮官應該能懂的喵。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么针对它的设定解说这次就算是彻底完成了喵，指挥官加油喵！",
+			say = "那麼針對它的設定解說這次就算是徹底完成了喵，指揮官加油喵！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "{namecode:98}从我的视线中消失了。",
+			say = "明石從我的視線中消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……唉，虽然被这样告知了，但还是没什么实感。",
+			say = "……唉，雖然被這樣告知了，但還是沒什麼實感。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯？升级完成了……",
+			say = "嗯？升級完成了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

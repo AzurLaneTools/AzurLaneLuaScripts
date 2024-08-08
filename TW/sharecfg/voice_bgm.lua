@@ -76,7 +76,7 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "login",
+		default_bgm = "story-richang-light",
 		special_bgm = "",
 		bgm = "login"
 	},
@@ -136,7 +136,7 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "theme-camelot",
+		default_bgm = "theme-clemenceau",
 		special_bgm = "",
 		bgm = "Story-startravel"
 	},
@@ -1144,6 +1144,41 @@ pg.voice_bgm = {
 		default_bgm = "main-chunjie2",
 		special_bgm = "",
 		bgm = "main-chunjie2"
+	},
+	EducateMemoryLayer = {
+		default_bgm = "story-richang-quiet",
+		special_bgm = "",
+		bgm = "story-richang-quiet"
+	},
+	EducatePolaroidLayer = {
+		default_bgm = "story-richang-quiet",
+		special_bgm = "",
+		bgm = "story-richang-quiet"
+	},
+	EducateEndingLayer = {
+		default_bgm = "story-richang-quiet",
+		special_bgm = "",
+		bgm = "story-richang-quiet"
+	},
+	EducateScheduleScene = {
+		default_bgm = "level",
+		special_bgm = "",
+		bgm = "level"
+	},
+	EducateMapScene = {
+		default_bgm = "votefes-start",
+		special_bgm = "",
+		bgm = "votefes-start"
+	},
+	EducateCharDockScene = {
+		default_bgm = "story-richang-8",
+		special_bgm = "",
+		bgm = "story-richang-8"
+	},
+	EducateCharProfileScene = {
+		default_bgm = "story-richang-8",
+		special_bgm = "",
+		bgm = "story-richang-8"
 	},
 	OtherWorldMainPage = {
 		default_bgm = "story-mmorpg",

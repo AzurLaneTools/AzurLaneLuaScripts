@@ -15,9 +15,9 @@ return {
 			dynamicBgType = -2,
 			bgm = "story-richang-flexible",
 			actor = -2,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "{tb}，吃饱了……",
+			say = "{tb}，吃飽了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			side = 2,
-			say = "看着桌上横七竖八的零食包装，不禁有些头疼。",
+			say = "看著桌上亂七八糟的零食包裝，不禁有些頭痛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
-			say = "只吃零食的话会营养不良的……",
+			say = "只吃零食的話會營養不良的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,9 +72,9 @@ return {
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
 			actor = -2,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "没关系。",
+			say = "沒關係。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			side = 2,
-			say = "看来这种程度的劝说完全不会起作用啊。",
+			say = "看來這種程度的勸說完全不會起作用啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
-			say = "只吃零食的话，是没办法变成大人的。",
+			say = "只吃零食的話，是沒辦法變成大人的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
 			actor = -2,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
 			say = "好吧……",
 			typewriter = {
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			side = 2,
-			say = "在那之后，TB就不再吃那么多零食了。",
+			say = "在那之後，TB就不再吃那麼多零食了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

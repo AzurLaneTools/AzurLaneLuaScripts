@@ -9,7 +9,7 @@ return {
 			bgm = "qe-ova-10",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "将滑落的被子小心盖回TB的身上。",
+			say = "將滑落的被子小心蓋回TB的身上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg4",
 			hidePaintObj = true,
-			say = "她无知无觉，兀自睡得香甜。",
+			say = "她無知無覺，兀自睡得香甜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,14 +48,14 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg4",
 			hidePaintObj = true,
-			say = "月光透过薄薄的窗帘照进屋内，将这张我既熟悉又陌生的面庞照亮。",
+			say = "月光透過薄薄的窗簾照進屋內，將這張我既熟悉又陌生的臉龐照亮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg4",
 			dir = 1,
@@ -77,7 +77,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg4",
 			hidePaintObj = true,
-			say = "她小声嘟囔着什么，有些像梦话，但更像是单纯的呼吸。",
+			say = "她小聲嘟囔著什麼，有些像夢話，但更像是單純的呼吸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_project_tb_cg4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不过……现在的你，会做怎样的梦呢？）",
+			say = "（不過……現在的妳，會做怎樣的夢呢？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

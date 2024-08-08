@@ -66,7 +66,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "TB正好奇地看着我。",
+			say = "TB正好奇地看著我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "虽然已经习惯了港区大家的目光，但被幼小的TB这么盯着，我居然有点不知所措。",
+			say = "雖然已經習慣了港區大家的目光，但被幼小的TB這麼盯著，我居然有點不知所措。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……你还记得我是谁吗？",
+			say = "嗯……妳還記得我是誰嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "之飞关……？",
+			say = "之飛關……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你是在叫我，指挥官吗？",
+			say = "你是在叫我，指揮官嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "似乎将我的疑问理解成了教导，眼前的幼小孩童再一次重复起刚刚的称呼。",
+			say = "似乎將我的疑問理解成了教導，眼前的幼小孩童再一次重複起剛剛的稱呼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			actor = 1001,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指……挥……官?",
+			say = "指……揮……官?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "虽然这次重复的很慢，但依然呈现出了惊人的语言学习能力。",
+			say = "雖然這次重複的很慢，但還是呈現了驚人的語言學習能力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "不过……让这么小的TB叫我指挥官，好像有点奇怪。",
+			say = "不過……讓這麼小的TB叫我指揮官，好像有點奇怪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "要不趁着这个机会，让她改变一下对自己的称呼吧！",
+			say = "要不趁著這個機會，讓她改變一下對自己的稱呼吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

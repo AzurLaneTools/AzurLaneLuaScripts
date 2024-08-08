@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"最甜蜜的发明\n\n<size=45>一　灵感之泉</size>",
+					"最甜蜜的發明\n\n<size=45>1 靈感之泉</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			bgm = "story-richang-6",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "某个艳阳高照的工作日——",
+			say = "某個艷陽高照的工作日—",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -54,7 +54,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，快来试试我的新发明！",
+			say = "指揮官，快來試試我的新發明吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "热情洋溢的发明家——莱昂纳多·达芬奇，拿着一台古怪的机器来到了办公室。",
+			say = "熱情洋溢的發明家——李奧納多·達文西，拿著一台古怪的機器來到了辦公室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是我发明的“酸痛肩膀按摩机”，指挥官要是累了，就来体验一下吧~",
+			say = "這是我發明的「酸痛肩膀按摩機」，指揮官要是累了，就來體驗一下吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "保证能让你神采飞扬、疲惫全无！",
+			say = "保證能讓你神采飛揚、疲勞全消！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "最近工作繁忙，肩膀确实积累了不少压力。既然如此，那就————",
+			say = "最近工作繁忙，肩膀確實累積了不少壓力。既然如此，那就————",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "如果单纯从按摩效果上来说，确实很舒服。",
+			say = "如果單純從按摩效果上來說，確實很舒服。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "只是……这噪音未免太大了吧？",
+			say = "只是……這噪音未免太大了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官你说什么？噪音太大我没听清！",
+			say = "指揮官你說什麼？噪音太大我沒聽清楚！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "我  说——这  个  按  摩  机  的  噪  音  太  大  了  ！",
+			say = "我  說——這  個  按  摩  機  的  噪  音  太  了  ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "咔嚓——（按摩机关闭的声音）",
+			say = "喀嚓——（按摩機關掉的聲音）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "……为了正常交流，还是先把机器关了吧。",
+			say = "……為了正常交流，還是先把機器關了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来如此，是在意噪音的问题啊！",
+			say = "原來如此，是在意噪音的問題啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过酸痛肩膀按摩机的设计意图是“按摩”，而不是“保持安静”哦？",
+			say = "不過酸痛肩膀按摩機的設計意圖是「按摩」，而不是「保持安靜」哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以有噪音也是正常的啦！",
+			say = "所以有噪音也是正常的囉！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,7 +317,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "用户体验在哪里……",
+					content = "使用者體驗在哪裡……",
 					flag = 2
 				}
 			}
@@ -330,7 +330,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这些问题先放一边~除了肩膀酸痛，指挥官还有其他烦恼吗？",
+			say = "這些問題先放一邊~除了肩膀酸痛，指揮官還有其他煩惱嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不管是什么样的烦恼，都可以尽管告诉我，数量的话~越多越好！嘿嘿~",
+			say = "不管是什麼樣的煩惱，都可以儘管告訴我，數量的話~越多越好！嘿嘿~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "……原来特意来探望我，是为了寻找灵感？",
+			say = "……原來特意來探望我，是為了尋找靈感？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊？哈哈……果然瞒不过指挥官呢。",
+			say = "啊？哈哈……果然瞞不過指揮官呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,7 +395,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其实最近我的灵感有些不足，需要补充，所以就来找指挥官了。",
+			say = "其實最近我的靈感有些不足，需要補充，所以我就來找指揮官了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官见识面那么广，肯定能给我提供各种各样的灵感吧？",
+			say = "指揮官見多識廣，一定能提供給我各種各樣的靈感吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "可以是可以，不过要先等今天的工作完成之后。",
+			say = "可以是可以，不過要先等今天的工作完成之後。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谢谢你，指挥官！",
+			say = "謝謝你，指揮官！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -460,7 +460,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "工作的话我也来帮忙吧，这样不仅能够减轻指挥官的负担，还能缩短工作完成的时间！",
+			say = "工作的話我也來幫忙吧，這樣不僅能夠減輕指揮官的負擔，還能縮短工作完成的時間！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -475,7 +475,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_story_task_2",
-			say = "原以为达芬奇为了尽快获得我的帮助，会以“速度优先”的方式来完成工作。",
+			say = "原以為達文西為了盡快獲得我的幫助，會以「速度優先」的方式來完成工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "没想到她仔细阅读着舰船们为了各自的需求而撰写的申请书。",
+			say = "沒想到她仔細閱讀著艦船們為了各自的需求而寫的申請書。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这申请书的内容……居然还能这样吗……",
+			say = "這申請書的內容……居然還能這樣嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那如果以这些想法作为发明灵感的话……",
+			say = "那如果以這些想法作為發明靈感的話……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -550,7 +550,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "达芬奇突然兴奋地拍桌子站了起来。",
+			say = "達文西突然興奮地拍桌子站了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……我决定了！",
+			say = "……我決定了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -588,7 +588,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我从明天开始要担任秘书舰！",
+			say = "指揮官，我從明天開始要擔任秘書艦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -632,7 +632,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样我就可以名正言顺地从申请书中收集灵感了！",
+			say = "這樣我就可以名正言順地從申請書中收集靈感了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -647,7 +647,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "可以是可以……但秘书舰的本职工作呢？",
+			say = "可以是可以……但秘書艦的本職工作呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -661,7 +661,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那、那当然是收集灵感的同时，轻松加愉快地顺便完成啦。",
+			say = "那、那當然是收集靈感的同時，輕鬆加愉快地順便完成啦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -679,7 +679,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只要我认真起来的话，工作一眨眼就能完成哦？",
+			say = "只要我認真起來的話，工作一眨眼就能完成哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官考虑一下嘛~",
+			say = "指揮官考慮一下嘛~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -722,7 +722,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "就这样，同意了达芬奇担任秘书舰的请求——",
+			say = "就這樣，同意了達文西擔任秘書艦的請求——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

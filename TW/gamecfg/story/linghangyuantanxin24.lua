@@ -15,9 +15,9 @@ return {
 			dynamicBgType = -2,
 			bgm = "story-richang-flexible",
 			actor = -2,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "{tb}，魔法……存在吗？",
+			say = "{tb}，魔法……存在嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			side = 2,
-			say = "如果直接说不存在，会不会破坏TB的梦想？",
+			say = "如果直接說不存在，會不會破壞TB的夢想？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			side = 2,
-			say = "但是说存在……好像也不太合适吧？",
+			say = "但是說存在……好像也不太適合吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
-			say = "（唉……培养孩子可真是门学问……）",
+			say = "（唉……培養孩子可真是門學問……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			side = 2,
-			say = "实在不知道怎么回答，最后用小蛋糕来蒙混过关了。",
+			say = "實在不知道怎麼回答，最後用小蛋糕來蒙混過關了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

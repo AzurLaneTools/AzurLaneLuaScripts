@@ -9,7 +9,7 @@ return {
 			bgm = "story-richang-3",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "来到了{namecode:98}的工坊。",
+			say = "來到了明石的工坊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是指挥官喵，有什么事喵。",
+			say = "是指揮官喵，有什麼事喵。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -55,14 +55,14 @@ return {
 			bgName = "star_level_bg_540",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "其实——",
+			say = "其實——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "向她解释此行的目的",
+					content = "向她解釋此行的目的",
 					flag = 1
 				}
 			}
@@ -75,7 +75,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦哦，原来如此喵。",
+			say = "哦哦，原來如此喵。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,7 +93,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官是想帮领航员小姐解决烦恼。",
+			say = "指揮官是想幫領航員小姐解決煩惱。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是因为领航员小姐只是人工智能，没办法像大家一样跑到外面来。",
+			say = "但因為領航員小姐只是人工智慧，所以沒辦法像大家一樣跑到外面來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以指挥官就想到建立一座虚拟的小镇，让她在里面生活。",
+			say = "所以指揮官就想到要建立一座虛擬的小鎮，讓她在裡面生活。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "赋予她“成长”的概念，并且在这个过程中一点点地建立和培养“个性”喵。",
+			say = "賦予她「成長」的概念，並且在這個過程中一點點地建立和培養「個性」喵。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			},
 			options = {
 				{
-					content = "这个可以实现吗？",
+					content = "這個可以實現嗎？",
 					flag = 1
 				}
 			}
@@ -204,7 +204,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "需要指挥官付出一点小小的代价喵。",
+			say = "需要指揮官付出一點小小的代價喵。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "9999999999999点物资喵！",
+			say = "9999999999999點物資喵！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			bgName = "star_level_bg_540",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "居然要这么多？！",
+			say = "居然要這麼多？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这已经是优惠价格了喵？",
+			say = "這已經是優惠價格了喵？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			bgName = "star_level_bg_540",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以真实的数字是多少？",
+			say = "所以真實的數字是多少？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_540",
 			hidePaintObj = true,
-			say = "在我问出这个“愚蠢”的问题后，她贴在我的耳边说出了一个数字。",
+			say = "在我問出這個「愚蠢」的問題後，她貼在我的耳邊說了一個數字。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			bgName = "star_level_bg_540",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "现在这个价格就很好！就这么定了！",
+			say = "現在這個價格就很好！就這麼定了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这么干脆喵？",
+			say = "這麼乾脆喵？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谢谢惠顾！",
+			say = "謝謝惠顧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一个月之后指挥官来验收就好喵！",
+			say = "一個月後指揮官來驗收就好喵！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,7 +408,7 @@ return {
 			bgName = "star_level_bg_540",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "一个月的时间也太久了。",
+			say = "一個月的時間也太久了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这可是很复杂的工作喵，一个月其实也只是勉勉强强喵？",
+			say = "這可是很複雜的工作喵，一個月其實也只是勉勉強強喵？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			bgName = "star_level_bg_540",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那我去找达芬奇或者——",
+			say = "那我去找達文西或者——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "开玩笑的喵！20天就够了，不不不，10天就够了！",
+			say = "開玩笑的喵！20天就夠了，不不不，10天就夠了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -469,7 +469,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官就等着我的好消息喵！",
+			say = "指揮官就等著我的好消息喵！",
 			painting = {
 				alpha = 0.3,
 				time = 1

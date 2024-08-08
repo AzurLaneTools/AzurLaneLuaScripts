@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.child_data = {
 	{
-		name = "领航员-TB",
+		name = "領航員-TB",
 		attr_2_add = 5,
 		default_target = 99,
 		favor_level = 7,

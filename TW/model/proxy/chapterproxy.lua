@@ -992,11 +992,9 @@ slot0.getLastMap = function(slot0, slot1)
 end
 
 slot0.IsActivitySPChapterActive = function(slot0)
-	return _.any(_.reduce(_.select(slot0:getMapsByActivities(), function (slot0)
-		return slot0:getMapType() == Map.ACT_EXTRA
-	end), {}, function (slot0, slot1)
-		return table.mergeArray(slot0, _.select(slot1:getChapters(true), function (slot0)
-			return slot0:getPlayType() == ChapterConst.TypeRange
+	return _.any(_.reduce(slot0:getMapsByActivities(), {}, function (slot0, slot1)
+		return table.mergeArray(slot0, _.select(slot1:getChapters(), function (slot0)
+			return slot0:IsSpChapter()
 		end))
 	end), function (slot0)
 		return slot0:isUnlock() and slot0:isPlayerLVUnlock() and slot0:enoughTimes2Start()

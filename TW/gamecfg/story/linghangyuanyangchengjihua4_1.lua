@@ -50,7 +50,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
-			say = "之前和TB详细阐述这个计划的时候就已经确认……",
+			say = "之前和TB詳細闡述這個計劃的時候就已經確認……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
-			say = "在这个虚拟小镇中的TB只会保留最基础的认知，原本TB的记忆和功能都会暂时停用。",
+			say = "在這個虛擬小鎮中的TB只會保留最基礎的認知，原本TB的記憶與功能都會暫時停用。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
-			say = "而这么做的理由，则是为了能够切实体验到——“成长”的过程。",
+			say = "而這麼做的理由，則是為了能夠實際體驗到——「成長」的過程。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
-			say = "但真的当小小的TB出现在我眼前的时候，我还是觉得有些惊奇。",
+			say = "但真的當小小的TB出現在我眼前的時候，我還是覺得有些驚奇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
-			say = "不过，这种惊奇的感觉很快被心中浮现的责任感替代。",
+			say = "不過，這種驚奇的感覺很快就被心中浮現的責任感所取代。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
-			say = "没错，既然已经答应了TB，就一定要帮她解决她的烦恼。",
+			say = "沒錯，既然已經答應了TB，就一定要幫她解決她的煩惱。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_project_tb_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "欢迎回家，TB。",
+			say = "歡迎回家，TB。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -14,9 +14,9 @@ return {
 			bgm = "qe-ova-12",
 			tbActor = true,
 			actor = 1101,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "{tb}，接下来还有什么需要我做的事吗？比如帮您捏捏肩，或者……",
+			say = "{tb}，接下來還有什麼需要我做的事嗎？例如幫您捏捏肩，或者……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB既写完了作业，又做了家务，现在应该好好休息一下才对吧？",
+			say = "TB既寫完了作業，又做了家務，現在應該好好休息一下才對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,9 +57,9 @@ return {
 			bgName = "bg_project_tb_room3",
 			tbActor = true,
 			actor = 1101,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "可是这些本来就应该由我来完成呀？如果不需要捏肩的话……我想想……",
+			say = "可是這些本來就該由我來完成呀？如果不需要捏肩的話……我想想看……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,9 +72,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1101,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "对了，那晚饭就由我来做吧？不过家里的食材好像不多呢，营养就靠煎蛋来平衡一下吧～",
+			say = "對了，那晚餐就由我來做吧？不過家裡的食材好像不多呢，營養就靠煎蛋來平衡一下吧～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "啊，等等！这个让我来就好！",
+			say = "啊，等等！這個讓我來就好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1101,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
 			say = "欸？可是我……",
 			typewriter = {
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "太危险了，所以让我来吧！",
+			say = "太危險了，所以讓我來吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "不过其实拦着TB，是因为对她小时候做出来的“煎蛋”依旧印象深刻。",
+			say = "不過其實攔著TB，是因為對她小時候做出來的「煎蛋」依舊印象深刻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,9 +137,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1101,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "哼……等晚饭结束后，到明天早上为止我都不会再理您了哦。",
+			say = "哼……等晚餐結束後，到明天早上為止我都不會再理您了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,9 +152,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1101,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "明明……我现在能做好的……（小声）",
+			say = "明明……我現在能做好的……（小聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "在晚饭后，TB果然不再理我。唉，少女的心事可真是难懂。",
+			say = "晚餐後，TB果然不再理我。唉，少女的心事可真是難懂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

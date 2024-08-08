@@ -9,7 +9,7 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"10天后……",
+					"10天後......",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官还记得今天是什么日子吗？",
+			say = "指揮官還記得今天是什麼日子嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -56,7 +56,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "今天是为领航员小姐打造的梦幻小镇完工的日子喵！",
+			say = "今天是為領航員小姐打造的夢幻小鎮完工的日子喵！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这个给指挥官喵。",
+			say = "這個給指揮官喵。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这是……",
+			say = "這是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是{namecode:98}工坊最新开发的沉浸式终端喵！",
+			say = "這是明石工坊最新開發的沉浸式終端喵！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只要戴上这个，就能感觉到真实的触感喵！",
+			say = "只要戴上這個，就能感覺到真實的觸感喵！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "领航员小姐虽然只是没有实体的人工智能，但是现在，只要有了这个——",
+			say = "領航員小姐雖然只是沒有實體的人工智慧，但現在，只要有了這個——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就可以打破虚拟和现实的界限喵！",
+			say = "就可以打破虛擬和現實的界限喵！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这些都是{namecode:98}你一个人完成的吗？真是辛苦了。",
+			say = "這些都是明石妳一個人完成的嗎？真是辛苦了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不止{namecode:98}一个人喵，港区的大家都伸出援手帮忙了喵！",
+			say = "不只明石一個人喵，港區的大家都伸出援手幫忙了喵！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "先不提这个了，指挥官快点进入体验一下吧喵！",
+			say = "先不提這個了，指揮官快點進入體驗一下吧喵！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -220,7 +220,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "领航员小姐马上就要来了！",
+			say = "領航員小姐馬上就要來了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等一下啊{namecode:98}……",
+			say = "等一下啊明石……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_1104",
-			say = "被{namecode:98}戴上了奇怪的装置，眼前一阵炫目的光芒闪过之后——",
+			say = "被明石戴上了奇怪的裝置，眼前一陣炫目的光芒閃過之後——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

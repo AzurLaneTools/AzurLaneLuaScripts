@@ -952,6 +952,54 @@ pg.re_map_template = {
 			}
 		}
 	},
+	[20] = {
+		id = 20,
+		name = "偶像二期常驻复刻",
+		bg = "temp_ouxiang2",
+		memory_group = 191,
+		activity_type = 2,
+		order = 20,
+		config_data = {
+			2200071,
+			2200072,
+			2200073,
+			2200074,
+			2200075
+		},
+		chapter_progress = {
+			20,
+			40,
+			60,
+			80,
+			100
+		},
+		drop_gain = {
+			{},
+			{
+				2200075,
+				3,
+				89220,
+				60
+			}
+		},
+		drop_display_sp = {},
+		drop_display = {
+			{
+				{
+					2,
+					30322
+				},
+				"SP1、SP2、SP3、SP4、SP5"
+			},
+			{
+				{
+					2,
+					11033
+				},
+				"SP5"
+			}
+		}
+	},
 	[21] = {
 		id = 21,
 		name = "微层混合常驻复刻",
@@ -1239,6 +1287,7 @@ pg.re_map_template = {
 		16,
 		17,
 		18,
+		20,
 		21,
 		22,
 		23,

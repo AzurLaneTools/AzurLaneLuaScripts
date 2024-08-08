@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "又可以领取任务奖励了。",
+				text = "又可以領取任務獎勵了。",
 				mode = 2,
 				char = 1,
 				posY = -38.32,
@@ -30,7 +30,7 @@ return {
 			alpha = 0.4,
 			waitScene = "EducateTargetLayer",
 			style = {
-				text = "又完成了一个目标呢。接下来可以继续进行行程规划了。",
+				text = "又完成了一個目標呢。接下來可以繼續進行行程規劃了。",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -52,7 +52,7 @@ return {
 			alpha = 0,
 			waitScene = "EducateAwardInfoLayer",
 			style = {
-				text = "点击空白处关闭",
+				text = "點擊空白處關閉",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -72,7 +72,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "点击空白处关闭",
+				text = "點擊空白處關閉",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -91,7 +91,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "请点打开<color=#39bfff>行程计划</color>",
+				text = "請開啟<color=#39bfff>行程計劃</color>",
 				mode = 2,
 				char = 1,
 				posY = -230.56,
@@ -111,7 +111,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "勾选这里，可以跳过行程动画，但不会跳过行程中的特殊事件哦。",
+				text = "勾選這裡，可以跳過行程動畫，但不會跳過行程中的特殊事件哦。",
 				mode = 2,
 				char = 1,
 				posY = -385.98,

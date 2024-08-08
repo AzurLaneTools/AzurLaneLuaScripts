@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "现在解锁了两个新的地点。",
+				text = "現在解鎖了2個新的地點",
 				mode = 2,
 				char = 1,
 				posY = -108.2,
@@ -17,7 +17,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击出行。  ",
+				text = "點擊出行。",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -37,7 +37,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "先前往刚刚解锁的商业街吧。",
+				text = "先前往剛解鎖的商業街吧。",
 				mode = 2,
 				char = 1,
 				posY = -320.7,
@@ -57,7 +57,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击影像工作室。  ",
+				text = "點選影像工作室。",
 				mode = 2,
 				char = 1,
 				posY = -266.23,
@@ -78,7 +78,7 @@ return {
 			delay = 0.5,
 			alpha = 0,
 			style = {
-				text = "在这里，可以通过拍摄不同主题的纪念照来影响领航员-TB的个性。",
+				text = "在這裡，可以透過拍攝不同主題的紀念照來影響領航員-TB的個性。",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -89,7 +89,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "在海滨公园的星光舞台观看不同演出，也可以影响领航员-TB的个性哦~",
+				text = "在海濱公園的星光舞台觀賞不同演出，也可以影響領航員-TB的個性~",
 				mode = 2,
 				char = 1,
 				posY = -67.43,

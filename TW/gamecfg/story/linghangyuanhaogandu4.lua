@@ -9,7 +9,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"心与心的交汇\n\n<size=45>四 情绪的价值是—</size>",
+					"心與心的交匯\n\n<size=45>4 情緒的價值是——</size>",
 					1
 				}
 			}
@@ -64,7 +64,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "怎么了，TB？",
+			say = "怎麼了，TB？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "眼前的TB闷闷不乐。",
+			say = "眼前的TB悶悶不樂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……就是说，虽然有些事情是我想去做的，但是结果不是很好。",
+			say = "……就是說，雖然有些事情是我想做的，但結果不是很好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这种情况下，是被称作“事与愿违”吗？",
+			say = "這種情況下，是被稱作「事與願違」嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯。是在因为在一些行程里发挥得不是很完美而不开心吗？",
+			say = "嗯。是因為在一些行程裡發揮得不是很完美而不開心嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那就证明你又成长了，今晚应该做些好吃的来庆祝了！",
+			say = "那就證明妳又成長了，今晚應該做些好吃的來慶祝了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为什么？",
+			say = "為什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明明没有发挥好不值得开心，为什么要庆祝？",
+			say = "明明沒有發揮好不值得開心，為什麼要慶祝？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "因为你有“情绪”了。",
+			say = "因為妳有「情緒」了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "生气也好、不开心也好，都是“情绪”。",
+			say = "生氣也好、不開心也好，都是「情緒」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB在这方面，一直都是个迟钝的孩子，对吧？",
+			say = "TB在這方面，一直都是個遲鈍的孩子，對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……是，老师也说我平时没什么情绪。",
+			say = "……是，老師也說我平常沒什麼情緒。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "就是因为TB今天会表达自己的不开心、表达出明显的情绪了，所以要庆祝一下！",
+			say = "就是因為TB今天會表達自己的不開心、表達出明顯的情緒了，所以要慶祝一下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你好像在诡辩。",
+			say = "你好像在詭辯。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "怎么可能呢，我只是在陈述事实。",
+			say = "怎麼可能呢，我只是在陳述事實。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "拥有情绪、表达情绪，在寻找“个性”的道路上，TB总算迈出了坚实的一步。",
+			say = "擁有情緒、表達情緒，在尋找「個性」的道路上，TB總算邁出了堅實的一步。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等下一起出门买些好吃的回来吧？",
+			say = "等下一起出門買好吃的回來吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

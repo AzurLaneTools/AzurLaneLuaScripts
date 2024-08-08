@@ -15,9 +15,9 @@ return {
 			bgm = "qe-ova-1",
 			tbActor = true,
 			actor = 1009,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "{tb}，你对运动方面有了解吗？",
+			say = "{tb}，你對運動方面有了解嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,9 +47,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1009,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "我在跑步训练中遇到了瓶颈，数据无法提升。",
+			say = "我在跑步訓練中遇到了瓶頸，數據無法提升。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "原来如此，怪不得今天TB看起来有点烦躁。",
+			say = "原來如此，怪不得今天TB看起來有點煩躁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "姑且先问一下，TB是喜欢跑步，还是为了能获得成绩？",
+			say = "暫且先問一下，TB是喜歡跑步，還是為了能獲得成績？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,9 +85,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1009,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "我只是认为坚持运动可以保持健康，稳定身体的各项指标。",
+			say = "我只是認為堅持運動可以保持健康，穩定身體的各項指標。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好官方的说法……不过你还是没有回答我的问题。",
+			say = "好官方的說法……不過妳還是沒有回答我的問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,9 +112,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1009,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "好吧，那应该是“跑步”这件事本身。",
+			say = "好吧，那應該是「跑步」這件事本身。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "既然你喜欢跑步，那么就不要为了数据和成绩而苦恼。",
+			say = "既然妳喜歡跑步，那就不要為了數據和成績而苦惱。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "就这么跑下去，或许会有新的收获。",
+			say = "就這麼跑下去，或許會有新的收穫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "之后，听说TB的跑步训练数据确实提升了。",
+			say = "之後，聽說TB的跑步訓練資料確實提升了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

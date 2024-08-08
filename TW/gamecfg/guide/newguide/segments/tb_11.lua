@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "行程会消耗心情值，点击查看不同心情对收益造成的影响 ",
+				text = "行程會消耗心情值，點選查看不同心情對收益造成的影響",
 				mode = 2,
 				char = 1,
 				posY = 272.56,
@@ -31,7 +31,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "当心情值降低至一定程度后，<color=#39bfff>状态便会受到影响</color>，此时便需要外出来恢复心情值。",
+				text = "當心情值降低至一定程度後，<color=#39bfff>狀態便會受到影響</color>，此時便需要外出來恢復心情值。",
 				mode = 2,
 				char = 1,
 				posY = -216.4,
@@ -43,7 +43,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "请点击确定关闭弹窗",
+				text = "請點選確定關閉跳窗",
 				mode = 2,
 				char = 1,
 				posY = -392.5,
@@ -59,7 +59,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "在每个周的周日点击<color=#39bfff>出行</color>，可以前往大地图。",
+				text = "在每個週的週日點擊<color=#39bfff>出行</color>，可以前往大地圖。",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -78,7 +78,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "随着时间的推移，今后还会解锁更多可以前往的地点。",
+				text = "隨著時間的推移，今後還會解鎖更多可以前往的地點。",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -89,7 +89,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "现在，就先前往<color=#39bfff>游乐场</color>进行心情的回复吧。",
+				text = "現在，就先前往<color=#39bfff>遊樂場</color>進行心情的回復吧。",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -108,7 +108,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "在大地图上行动会消耗<color=#39bfff>行动力</color>，出行时还请注意，其它内容就请在今后自行探索啦。",
+				text = "在大地圖上行動會消耗<color=#39bfff>行動力</color>，出行時還請注意，其它內容就請在今後自行探索啦。",
 				mode = 2,
 				dir = 1,
 				char = 1,

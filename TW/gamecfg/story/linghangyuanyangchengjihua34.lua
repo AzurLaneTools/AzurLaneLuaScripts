@@ -4,7 +4,7 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg27",
 			voice = "event:/educate/tb/educate-tb-story-32-27",
@@ -12,7 +12,7 @@ return {
 			bgm = "qe-ova-10",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……嗯？这样对眼睛不好？",
+			say = "……嗯？這樣對眼睛不好？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -23,14 +23,14 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg27",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-32-28",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……已经习惯了，所以没关系。",
+			say = "……已經習慣了，所以沒關係。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -45,7 +45,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg27",
 			hidePaintObj = true,
-			say = "毕业后的TB继续在艺术之路上探索着。",
+			say = "畢業後的TB繼續在藝術之路上探索著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg27",
 			hidePaintObj = true,
-			say = "她从家中搬了出去，在工作室中整日创作。",
+			say = "她從家中搬了出去，在工作室中整日創作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg27",
 			hidePaintObj = true,
-			say = "就连我和她之间，绝大多数时间只能通过手机联络。",
+			say = "就連我和她之間，絕大多數時間只能透過手機聯絡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,21 +79,21 @@ return {
 			bgName = "bg_project_tb_cg27",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "唉……要按时吃饭啊。",
+			say = "唉……要按時吃飯啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg27",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-32-29",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……嗯，我知道，今天我会回来住的。",
+			say = "……嗯，我知道，今天我會回來住的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg27",
 			dir = 1,
@@ -126,7 +126,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg27",
 			hidePaintObj = true,
-			say = "她小声对我承诺。",
+			say = "她小聲對我承諾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

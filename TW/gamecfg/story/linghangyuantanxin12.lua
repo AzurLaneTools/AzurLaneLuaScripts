@@ -11,7 +11,7 @@ return {
 			bgm = "qe-ova-10",
 			tbActor = true,
 			actor = 1200,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
 			say = "（盯————）",
 			typewriter = {
@@ -42,7 +42,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB，是有什么事情要找我商谈吗？",
+			say = "TB，有什麼事情要找我商談嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "少女的眼神紧紧地黏在我的身上，在这样持续了一小时后，实在忍不住开口问她。",
+			say = "少女的眼神緊緊地黏在我的身上，這樣持續了一小時後，實在忍不住開口問她。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,9 +66,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1200,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "……没有，我只是在完成学校要求的观察日记。",
+			say = "……沒有，我只是在完成學校要求的觀察日記。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等，等等……？观察日记？这个日记里的观察对象……该不会就是我吧？",
+			say = "等，等等……？觀察日記？這個日記裡的觀察對象……該不會就是我吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,9 +93,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1200,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "……没错。",
+			say = "……沒錯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "可不可以换个生物观察？比如小动物或者昆虫之类的？",
+			say = "可不可以換個生物觀察？例如小動物或昆蟲之類的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1200,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
 			say = "……不要，不方便。",
 			typewriter = {
@@ -133,7 +133,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "少女斩钉截铁地拒绝了我，并且继续着自己的观察。",
+			say = "少女斬釘截鐵地拒絕了我，並且繼續著自己的觀察。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room3",
 			hidePaintObj = true,
-			say = "好吧……往好处想，至少作业是很快就能完成了。",
+			say = "好吧……往好處想，至少作業很快就能完成了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

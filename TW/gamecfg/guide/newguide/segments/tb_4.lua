@@ -5,7 +5,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "<color=#39bfff>行程计划</color>的安排将以周为单位进行，因此需要格外关注此处的时间，合理安排行程哦。  ",
+				text = "<color=#39bfff>行程計劃</color>的安排將以週為單位進行，因此需要格外注意此處的時間，合理安排行程哦。",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -21,7 +21,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "经过总计<color=#39bfff>48周</color>后，养成计划便会暂时告一段落。",
+				text = "經過<color=#39bfff>48週</color>後，養成計畫便會暫時告一段落。",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -37,7 +37,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "请打开<color=#39bfff>行程计划</color>",
+				text = "點擊<color=#39bfff>行程計劃</color>",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -56,7 +56,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "这里的圆圈是周一至周六的行程格。点击空白的行程格后，便可添加行程。",
+				text = "這裡的圓圈是週一至週六的行程格。點選空白的行程格後，便可新增行程。",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -75,7 +75,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击此处的具体的行程条目，就可以安排进当天的行程，可以根据设定的成长目标进行程规划哦。",
+				text = "點擊此處具體的行程項目，就可以安排進當天的行程，可以根據設定的成長目標來做行程規劃哦。",
 				mode = 2,
 				char = 1,
 				posY = -118.09,
@@ -95,7 +95,7 @@ return {
 		{
 			alpha = 0.5,
 			style = {
-				text = "重要活动将不定期出现在<color=#39bfff>行程计划</color>中，此时无法使用其它行程进行替换哦。",
+				text = "特殊行程將不定期出現在<color=#39bfff>行程計劃</color>中，此時無法使用其它行程進行替換哦。",
 				mode = 2,
 				char = 1,
 				posY = 46,

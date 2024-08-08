@@ -10,7 +10,7 @@ return {
 			bgm = "qe-ova-1",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说起来，TB和我提过这段时间要去参加学校组织的露营活动来着。",
+			say = "說起來，TB和我提過這段時間要去參加學校舉辦的露營活動來著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "露营的零食已经买好了，问题是露营的便当做些什么好呢……",
+			say = "露營的點心已經買好了，問題是露營的便當做些什麼好……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "便当？",
+			say = "便當？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我想学习。",
+			say = "我想學習。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不行，你会受伤的。",
+			say = "不行，妳會受傷的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "厨房又是刀具又是明火灶具……就算TB现在长大了不少，我也不是很放心。",
+			say = "廚房又是刀具又是明火爐具……就算TB現在長大了不少，我也不是很放心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可是，在我更小的时候，你都让我帮忙了。",
+			say = "可是，在我更小的時候，你都讓我幫忙了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那是因为……",
+			say = "那是因為……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "好吧，这下确实找不出理由来阻止她了。",
+			say = "好吧，這下確實找不出理由來阻止她了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那就从煎蛋开始吧。",
+			say = "那就從煎蛋開始吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_tb_room2",
-			say = "四十分钟后——",
+			say = "四十分鐘後——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,14 +191,14 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg12",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-2-15",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那个……为什么煎蛋总是着火呢？",
+			say = "那個……為什麼煎蛋總是著火呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,21 +230,21 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg12",
 			hidePaintObj = true,
-			say = "她略带苦恼地晃动着手中的平底锅，尚未完全凝固的蛋黄就这样在晃动下变成了一滩。",
+			say = "她略帶苦惱地晃動著手中的平底鍋，尚未完全凝固的蛋黃就這樣在晃動下變成了一灘。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg12",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-2-16",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明明是按照教学步骤来做的……",
+			say = "明明是依照教學步驟來做的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_project_tb_cg12",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "油温太高了，而且……颠锅的时机也过早了。",
+			say = "油溫太高了，而且……顛鍋的時機也太早了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg12",
 			hidePaintObj = true,
-			say = "看着旁边碟子上盛着的失败的煎蛋们，我有些无奈。",
+			say = "看著旁邊碟子上盛著的失敗的煎蛋們，我有些無奈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg12",
 			hidePaintObj = true,
-			say = "虽然已经手把手教过她煎蛋了，也做好了措施保证她不会受伤……",
+			say = "雖然已經手把手教過她煎蛋了，也做好了措施保證她不會受傷……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg12",
 			hidePaintObj = true,
-			say = "不过TB完全不害怕锅里冒出来的火舌和迸出来的油星，这让我不禁担心起她感知危险的能力是否得到了正常的锻炼。",
+			say = "不過TB完全不害怕鍋裡冒出來的火舌和迸出來的油星，這讓我不禁擔心起她感知危險的能力是否得到了正常的鍛鍊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_tb_room2",
-			say = "为了避免浪费，之后把失败的煎蛋全都吃掉了。",
+			say = "為了避免浪費，之後把失敗的煎蛋全都吃掉了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "我和TB，大概都会有很长一段时间不想看到鸡蛋了……",
+			say = "我和TB，大概都會有很長一段時間不想看到雞蛋了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

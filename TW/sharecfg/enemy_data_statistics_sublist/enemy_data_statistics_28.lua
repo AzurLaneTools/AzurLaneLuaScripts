@@ -1152,7 +1152,7 @@ pg.enemy_data_statistics_28 = {
 		armor = 0,
 		friendly_cld = 1,
 		id = 90743,
-		scale = 180,
+		scale = 160,
 		prefab = "kuangfengdanchuan",
 		cannon_growth = 0,
 		pilot_ai_template_id = 20005,
@@ -1260,7 +1260,7 @@ pg.enemy_data_statistics_28 = {
 				0
 			},
 			{
-				1.25,
+				2,
 				0,
 				1.353
 			},
@@ -1814,7 +1814,7 @@ pg.enemy_data_statistics_28 = {
 		armor = 0,
 		friendly_cld = 1,
 		id = 90747,
-		scale = 200,
+		scale = 180,
 		prefab = "beiyaendanchuan",
 		cannon_growth = 0,
 		pilot_ai_template_id = 20004,

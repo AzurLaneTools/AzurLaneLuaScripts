@@ -10,7 +10,7 @@ return {
 			bgm = "qe-ova-1",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "和TB并排走在庆典街道中。",
+			say = "和TB並排走在慶典街道中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			bgName = "star_level_bg_114",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好像又长高了啊。",
+			say = "好像又長高了啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "老师说过，这是成长期的正常状态。",
+			say = "老師說過，這是成長期的正常狀態。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -70,7 +70,7 @@ return {
 			bgName = "star_level_bg_114",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……真是破坏气氛的回答。",
+			say = "……真是破壞氣氛的回答。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			actor = 1007,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "气氛？",
+			say = "氣氛？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -102,7 +102,7 @@ return {
 			bgName = "star_level_bg_114",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "面对感慨孩子成长的家长，作为被感慨的对象应该再开心一点才对吧？",
+			say = "面對感慨孩子成長的家長，身為被感慨的對象應該再開心一點才對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
-			say = "烟花适时地在空中绽放，而穿着浴衣的TB此刻微微侧过身。",
+			say = "煙火適時地在空中綻放，而穿著浴衣的TB此刻微微側過身。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,14 +137,14 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg11",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-2-8",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我很开心。",
+			say = "我很開心。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,21 +159,21 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
-			say = "——她的脸上出现了明确可以被称之为微笑的表情。",
+			say = "——她的臉上出現了明確可以被稱之為微笑的表情。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg11",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-2-9",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "今天做了那么多有趣的事情，还看到了烟花，我很开心。",
+			say = "今天做了那麼多有趣的事情，還看到了煙火，我很開心。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,7 +188,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
-			say = "虽然听起来并不符合她的年纪该有的表达……",
+			say = "雖然聽起來不符合她的年紀該有的表達……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,21 +199,21 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
-			say = "但能像这样拥有自己的情绪，或许就意味着这项计划成功了一部分。",
+			say = "但能像這樣擁有自己的情緒，或許就代表這項計畫成功了一部分。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg11",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-2-10",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果每天都是烟火大会就好了。",
+			say = "如果每天都是煙火大會就好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,14 +224,14 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg11",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-2-11",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样就可以不用上学了。",
+			say = "這樣就可以不用上學了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
-			say = "听着她重新变得幼稚起来的言语，我忍不住笑了。",
+			say = "聽著她重新變得幼稚的言語，我忍不住笑了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,14 +258,14 @@ return {
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB，不想上学就不能成为“好孩子”了哦。",
+			say = "TB，不想上學就不能成為「好孩子」了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg11",
 			dir = 1,
@@ -287,21 +287,21 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
-			say = "听起来有点失落啊……",
+			say = "聽起來有點失落啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg11",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-2-13",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那，我们以后还能再来烟火大会吗？",
+			say = "那，我們以後還能再來煙火大會嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,21 +317,21 @@ return {
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "当然。",
+			say = "當然。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg11",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-2-14",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "拉勾。",
+			say = "打勾勾。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg11",
 			hidePaintObj = true,
-			say = "我们约定在下一个夏日，再一起来看烟火大会。",
+			say = "我們約定在下一個夏日，再一起來看煙火大會。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -5853,6 +5853,330 @@ _G.pg.base.spweapon_data_statistics[10270] = {
 }
 
 
+_G.pg.base.spweapon_data_statistics[10280] = {
+	attribute_1 = "torpedo",
+	name = "一分錢​​硬幣（大量）",
+	type = 8,
+	tech = 0,
+	value_1_random = 10,
+	rarity = 4,
+	effect_id_display = 902110,
+	value_2_random = 5,
+	effect_id = 902110,
+	attribute_2 = "reload",
+	next = 10281,
+	upgrade_id = 101,
+	value_2 = 2,
+	icon = "10280",
+	value_1 = 11,
+	level = 1,
+	descrip = "由特殊兵裝核心製造出來的專屬特製兵裝",
+	uncraftable = 0,
+	unique = 40803,
+	important = 2,
+	prev = 0,
+	id = 10280,
+	usability = {
+		8
+	},
+	skill_upgrade = {
+		{
+			0,
+			1090040
+		}
+	},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[10281] = {
+	upgrade_id = 102,
+	prev = 10280,
+	next = 10282,
+	base = 10280,
+	id = 10281,
+	value_2 = 3,
+	value_1 = 12,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[10282] = {
+	upgrade_id = 103,
+	prev = 10281,
+	next = 10283,
+	base = 10280,
+	id = 10282,
+	value_2 = 3,
+	value_1 = 13,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[10283] = {
+	upgrade_id = 104,
+	prev = 10282,
+	next = 10284,
+	base = 10280,
+	id = 10283,
+	value_2 = 4,
+	value_1 = 14,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[10284] = {
+	upgrade_id = 105,
+	prev = 10283,
+	next = 10285,
+	base = 10280,
+	id = 10284,
+	value_2 = 4,
+	value_1 = 15,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[10285] = {
+	upgrade_id = 106,
+	prev = 10284,
+	next = 10286,
+	base = 10280,
+	id = 10285,
+	value_2 = 5,
+	value_1 = 16,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[10286] = {
+	upgrade_id = 107,
+	prev = 10285,
+	next = 10287,
+	base = 10280,
+	id = 10286,
+	value_2 = 5,
+	value_1 = 17,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[10287] = {
+	upgrade_id = 108,
+	prev = 10286,
+	next = 10288,
+	base = 10280,
+	id = 10287,
+	value_2 = 6,
+	value_1 = 18,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[10288] = {
+	upgrade_id = 109,
+	prev = 10287,
+	next = 10289,
+	base = 10280,
+	id = 10288,
+	value_2 = 6,
+	value_1 = 19,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[10289] = {
+	upgrade_id = 110,
+	prev = 10288,
+	next = 10290,
+	base = 10280,
+	id = 10289,
+	value_2 = 7,
+	value_1 = 20,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[10290] = {
+	id = 10290,
+	upgrade_id = 111,
+	base = 10280,
+	next = 0,
+	prev = 10289,
+	value_2 = 7,
+	value_1 = 22,
+	level = 11,
+	skill_upgrade = {
+		{
+			3611,
+			1090040
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[10300] = {
+	attribute_1 = "cannon",
+	name = "皮羅什基",
+	type = 2,
+	tech = 0,
+	value_1_random = 10,
+	rarity = 4,
+	effect_id_display = 901020,
+	value_2_random = 5,
+	effect_id = 901020,
+	attribute_2 = "dodge",
+	next = 10301,
+	upgrade_id = 101,
+	value_2 = 8,
+	icon = "10300",
+	value_1 = 11,
+	level = 1,
+	descrip = "由特殊兵裝核心製造出來的專屬特製兵裝",
+	uncraftable = 0,
+	unique = 70201,
+	important = 2,
+	prev = 0,
+	id = 10300,
+	usability = {
+		2
+	},
+	skill_upgrade = {
+		{
+			0,
+			1010510
+		}
+	},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[10301] = {
+	upgrade_id = 102,
+	prev = 10300,
+	next = 10302,
+	base = 10300,
+	id = 10301,
+	value_2 = 9,
+	value_1 = 12,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[10302] = {
+	upgrade_id = 103,
+	prev = 10301,
+	next = 10303,
+	base = 10300,
+	id = 10302,
+	value_2 = 9,
+	value_1 = 13,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[10303] = {
+	upgrade_id = 104,
+	prev = 10302,
+	next = 10304,
+	base = 10300,
+	id = 10303,
+	value_2 = 10,
+	value_1 = 14,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[10304] = {
+	upgrade_id = 105,
+	prev = 10303,
+	next = 10305,
+	base = 10300,
+	id = 10304,
+	value_2 = 10,
+	value_1 = 15,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[10305] = {
+	upgrade_id = 106,
+	prev = 10304,
+	next = 10306,
+	base = 10300,
+	id = 10305,
+	value_2 = 11,
+	value_1 = 16,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[10306] = {
+	upgrade_id = 107,
+	prev = 10305,
+	next = 10307,
+	base = 10300,
+	id = 10306,
+	value_2 = 11,
+	value_1 = 17,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[10307] = {
+	upgrade_id = 108,
+	prev = 10306,
+	next = 10308,
+	base = 10300,
+	id = 10307,
+	value_2 = 12,
+	value_1 = 18,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[10308] = {
+	upgrade_id = 109,
+	prev = 10307,
+	next = 10309,
+	base = 10300,
+	id = 10308,
+	value_2 = 13,
+	value_1 = 19,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[10309] = {
+	upgrade_id = 110,
+	prev = 10308,
+	next = 10310,
+	base = 10300,
+	id = 10309,
+	value_2 = 14,
+	value_1 = 20,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[10310] = {
+	id = 10310,
+	upgrade_id = 111,
+	base = 10300,
+	next = 0,
+	prev = 10309,
+	value_2 = 15,
+	value_1 = 22,
+	level = 11,
+	skill_upgrade = {
+		{
+			10510,
+			1010510
+		}
+	}
+}
+
+
 _G.pg.base.spweapon_data_statistics[10360] = {
 	attribute_1 = "cannon",
 	name = "閃耀夢想",

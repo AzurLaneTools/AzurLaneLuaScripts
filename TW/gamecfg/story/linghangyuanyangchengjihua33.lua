@@ -4,7 +4,7 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg26",
 			voice = "event:/educate/tb/educate-tb-story-32-22",
@@ -12,7 +12,7 @@ return {
 			bgm = "qe-ova-10",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……现在的表情和姿势可以吗？",
+			say = "……現在的表情和姿勢可以嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -27,7 +27,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg26",
 			hidePaintObj = true,
-			say = "凭借着姣好的容貌以及出色的镜头表现力，TB在毕业后成为了一名平面模特。",
+			say = "憑藉著姣好的外表以及出色的鏡頭表現力，TB在畢業後成為了平面模特兒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg26",
 			hidePaintObj = true,
-			say = "而我，则成为了帮她处理工作合约的半个经纪人。",
+			say = "而我，則成為了幫她處理工作合約的半個經紀人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,21 +49,21 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg26",
 			hidePaintObj = true,
-			say = "为什么要说是半个呢，因为——",
+			say = "為什麼要說是半個呢，因為——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg26",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-32-23",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……三小时后我还有一支广告拍摄，进度方面拜托了。",
+			say = "……三小時後我還有一支廣告拍攝，進度方面拜託了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,14 +74,14 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg26",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-32-24",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……明天上午还有一个试镜，下午还有……算了，明天下午的那份工作推掉吧。",
+			say = "……明天早上還有一個試鏡，下午還有……算了，明天下午的工作就推掉吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg26",
 			hidePaintObj = true,
-			say = "即便没有我这个“经纪人”的存在，她也能把自己的行程规划得很好。",
+			say = "即便沒有我這個「經紀人」的存在，她也能把自己的行程規劃得很好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,21 +108,21 @@ return {
 			bgName = "bg_project_tb_cg26",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这样好像也不错呢……",
+			say = "這樣好像也不錯呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg26",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-32-25",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……明天下午，一起去游乐园吧。",
+			say = "……明天下午，一起去遊樂園吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,14 +133,14 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg26",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-32-26",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……还有，哪里不错了，一点也不好。",
+			say = "……還有，哪裡不錯了，一點也不好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg26",
 			hidePaintObj = true,
-			say = "她在拍摄的间隙和我小声说着。姿势改换间，我瞥见她耳廓透出的绯红。",
+			say = "她在拍攝的間隙和我小聲說著。姿勢改換間，我瞥見她耳廓透出的緋紅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等、等一下……TB……别走那么快……",
+			say = "等等、等一下……TB……別走那麼快……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是你太缺少运动啦——！",
+			say = "是你太缺少運動啦——！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我百分之百可以确定坐完过山车之后人会非常难受这一点，绝对不是因为缺少运动！",
+			say = "我百分之百可以確定坐完雲霄飛車之後人會非常難受這一點，絕對不是因為缺少運動！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦哦！这个气势，看起来完全恢复精神了嘛！",
+			say = "哦哦！這個氣勢，看起來完全恢復精神了嘛！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来我们去玩那种漂流之类的项目吧？我超期待的！",
+			say = "接下來我們就去玩那種漂流之類的項目吧？我超期待的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,7 +123,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……我们就不能去进行一些较为温和的项目吗。",
+			say = "……我們就不能去進行一些比較溫和的項目嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "趁着眼前的少女陷入思考，我找到路边的长椅坐下，用来平复过山车带来的脱力感。",
+			say = "趁著眼前的少女陷入思考，我找到路邊的長椅坐下，用來平復雲霄飛車帶來的脫力感。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过……变得这么充满活力，还真是让人意外……",
+			say = "不過……變得這麼充滿活力，還真是讓人意外……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？你说什么？",
+			say = "嗯？你說什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……没什么，只是想问问你有没有得出结论。",
+			say = "……沒什麼，只是想問問妳有沒有結論。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我想到了——我们去坐旋转木马吧！",
+			say = "我想到了——我們去坐旋轉木馬吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,14 +225,14 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg16",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-33-1",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "焦距对准了吗——要把我拍得漂亮一点哦！",
+			say = "焦距對準了嗎——要把我拍得漂亮一點喔！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg16",
 			hidePaintObj = true,
-			say = "刚坐上旋转木马，TB就催促我拿出手机为她拍照。",
+			say = "剛坐上旋轉木馬，TB就催促我拿出手機幫她拍照。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,21 +276,21 @@ return {
 			bgName = "bg_project_tb_cg16",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "怎么变得开始喜欢拍照了？",
+			say = "怎麼變得開始喜歡拍照了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg16",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-33-2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也不是喜欢拍照啦，只是因为意义不一样嘛！",
+			say = "也不喜歡拍照啦，只是因為意義不一樣嘛！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,14 +301,14 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg16",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-33-3",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而且一起坐旋转木马这种事很难得吧？哈哈哈……",
+			say = "而且一起坐旋轉木馬這種事很難得吧？哈哈哈…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg16",
 			hidePaintObj = true,
-			say = "说着说着，她笑了起来。",
+			say = "說著說著，她笑了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg16",
 			hidePaintObj = true,
-			say = "不知道是不是因为旋转木马对我这个成年人来说空间有些局促，导致看上去比较滑稽，她才笑得这么开心。",
+			say = "不知道是不是因為旋轉木馬對我這個成年人來說空間有些局促，導致看上去比較滑稽，她才笑得這麼開心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			bgName = "bg_project_tb_cg16",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不过……能这样开心大笑也很好。）",
+			say = "（不過……能這樣開心大笑也很好。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg16",
 			hidePaintObj = true,
-			say = "咔嚓——我按下拍摄键，将眼前的这幅光景定格。",
+			say = "咔嚓——我按下拍攝鍵，將眼前的這幅光景定格。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg16",
 			hidePaintObj = true,
-			say = "之后和TB在游乐园度过了一段难忘的时光。",
+			say = "之後和TB在遊樂園度過了一段難忘的時光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

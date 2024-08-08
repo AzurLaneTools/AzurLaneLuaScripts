@@ -5,7 +5,7 @@ pg.child_item = {
 		rarity = 2,
 		type = 4,
 		is_show = 1,
-		desc = "口感醇厚，入口丝滑~",
+		desc = "口感醇厚，入口絲滑~",
 		usage = "usage_drop",
 		usage_arg = "[101]",
 		id = 1,
@@ -23,7 +23,7 @@ pg.child_item = {
 		rarity = 1,
 		type = 4,
 		is_show = 1,
-		desc = "绝对不会出错的口味。",
+		desc = "絕對不會出錯的口味。",
 		usage = "usage_drop",
 		usage_arg = "[102]",
 		id = 2,
@@ -37,11 +37,11 @@ pg.child_item = {
 		}
 	},
 	{
-		name = "柠檬蜂蜜饮",
+		name = "檸檬蜂蜜飲",
 		rarity = 2,
 		type = 4,
 		is_show = 1,
-		desc = "得在柠檬发苦之前一口气喝掉它！",
+		desc = "得在檸檬發苦之前一口氣喝掉它！",
 		usage = "usage_drop",
 		usage_arg = "[103]",
 		id = 3,
@@ -64,7 +64,7 @@ pg.child_item = {
 		rarity = 2,
 		type = 4,
 		is_show = 1,
-		desc = "香蕉与椰奶的组合，气息既独特又浓厚。",
+		desc = "香蕉與椰奶的組合，氣息既獨特又濃厚。",
 		usage = "usage_drop",
 		usage_arg = "[104]",
 		id = 4,
@@ -83,11 +83,11 @@ pg.child_item = {
 		}
 	},
 	{
-		name = "蜜瓜双球",
+		name = "蜜瓜雙球",
 		rarity = 2,
 		type = 4,
 		is_show = 1,
-		desc = "将蜜瓜的清甜与糖浆结合，是甜食爱好者的福音。",
+		desc = "將蜜瓜的清甜與糖漿結合，是甜食愛好者的福音。",
 		usage = "usage_drop",
 		usage_arg = "[105]",
 		id = 5,
@@ -106,11 +106,11 @@ pg.child_item = {
 		}
 	},
 	{
-		name = "雪顶奶昔",
+		name = "雪頂奶昔",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "先吃雪顶还是先喝奶昔？",
+		desc = "先吃雪頂還是先喝奶昔？",
 		usage = "usage_drop",
 		usage_arg = "[106]",
 		id = 6,
@@ -124,11 +124,11 @@ pg.child_item = {
 		}
 	},
 	[11] = {
-		name = "蛋包饭",
+		name = "蛋包飯",
 		rarity = 2,
 		type = 4,
 		is_show = 1,
-		desc = "软嫩的欧姆蛋和带着番茄酸甜的炒饭，美味！",
+		desc = "軟嫩的歐姆蛋和帶著番茄酸甜的炒飯，美味！",
 		usage = "usage_drop",
 		usage_arg = "[111]",
 		id = 11,
@@ -147,11 +147,11 @@ pg.child_item = {
 		}
 	},
 	[12] = {
-		name = "酥皮浓汤",
+		name = "酥皮濃湯",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "脆口的酥皮沾着温暖可口的浓汤让人赞不绝口。",
+		desc = "脆口的酥皮沾著溫熱可口的濃湯讓人讚不絕口。",
 		usage = "usage_drop",
 		usage_arg = "[112]",
 		id = 12,
@@ -165,11 +165,11 @@ pg.child_item = {
 		}
 	},
 	[13] = {
-		name = "马卡龙",
+		name = "馬卡龍",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "酥脆的甜食能让人心情变好。",
+		desc = "酥脆的甜食能讓人心情變好。",
 		usage = "usage_drop",
 		usage_arg = "[113]",
 		id = 13,
@@ -183,11 +183,11 @@ pg.child_item = {
 		}
 	},
 	[14] = {
-		name = "西瓜奶油披萨",
+		name = "西瓜奶油披薩",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "会让披萨原教旨主义震怒的创新口味。",
+		desc = "會讓披薩原教旨主義震怒的創新口味。",
 		usage = "usage_drop",
 		usage_arg = "[114]",
 		id = 14,
@@ -201,11 +201,11 @@ pg.child_item = {
 		}
 	},
 	[15] = {
-		name = "香蕉可丽饼",
+		name = "香蕉可麗餅",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "普通的香蕉奶油的可丽饼。",
+		desc = "普通的香蕉奶油的可麗餅。",
 		usage = "usage_drop",
 		usage_arg = "[115]",
 		id = 15,
@@ -223,7 +223,7 @@ pg.child_item = {
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "大块肉排加上吐司面包，汁水四溢，分量十足。",
+		desc = "大塊肉排加上吐司麵包，汁水四溢，分量十足。",
 		usage = "usage_drop",
 		usage_arg = "[116]",
 		id = 16,
@@ -237,11 +237,11 @@ pg.child_item = {
 		}
 	},
 	[17] = {
-		name = "罗勒炖肉",
+		name = "羅勒燉肉",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "浓香四溢，搭配上罗勒的香气，别是一番美味。",
+		desc = "濃香四溢，搭配上羅勒的香氣，別有一番美味。",
 		usage = "usage_drop",
 		usage_arg = "[117]",
 		id = 17,
@@ -255,11 +255,11 @@ pg.child_item = {
 		}
 	},
 	[21] = {
-		name = "初学者钓竿",
+		name = "初學者釣竿",
 		rarity = 2,
 		type = 3,
 		is_show = 1,
-		desc = "最适合初学者的钓竿。",
+		desc = "最適合初學者的釣竿。",
 		usage = "usage_drop",
 		usage_arg = "[121]",
 		id = 21,
@@ -278,11 +278,11 @@ pg.child_item = {
 		}
 	},
 	[22] = {
-		name = "铁斧头",
+		name = "鐵斧頭",
 		rarity = 2,
 		type = 3,
 		is_show = 1,
-		desc = "金斧头还是银斧头？——原来是铁斧头啊。",
+		desc = "金斧頭還是銀斧頭？——原來是鐵斧頭啊。",
 		usage = "usage_drop",
 		usage_arg = "[122]",
 		id = 22,
@@ -296,11 +296,11 @@ pg.child_item = {
 		}
 	},
 	[23] = {
-		name = "进阶者钓竿",
+		name = "進階者釣竿",
 		rarity = 3,
 		type = 3,
 		is_show = 1,
-		desc = "适合进阶者使用的钓竿，闪着微微银光。",
+		desc = "適合進階者使用的釣竿，閃著微微銀光。",
 		usage = "usage_drop",
 		usage_arg = "[123]",
 		id = 23,
@@ -319,11 +319,11 @@ pg.child_item = {
 		}
 	},
 	[24] = {
-		name = "银斧头",
+		name = "銀斧頭",
 		rarity = 3,
 		type = 3,
 		is_show = 1,
-		desc = "金斧头还是银斧头？——这次是银斧头呢！",
+		desc = "金斧頭還是銀斧頭？——這次是銀斧頭呢！",
 		usage = "usage_drop",
 		usage_arg = "[124]",
 		id = 24,
@@ -337,11 +337,11 @@ pg.child_item = {
 		}
 	},
 	[25] = {
-		name = "大师级钓竿",
+		name = "大師級釣竿",
 		rarity = 4,
 		type = 3,
 		is_show = 1,
-		desc = "只有钓鱼大师才能驾驭的王者级钓竿！",
+		desc = "只有釣魚大師才能駕馭的王者級釣竿！",
 		usage = "usage_drop",
 		usage_arg = "[125]",
 		id = 25,
@@ -355,11 +355,11 @@ pg.child_item = {
 		}
 	},
 	[26] = {
-		name = "金斧头",
+		name = "金斧頭",
 		rarity = 4,
 		type = 3,
 		is_show = 1,
-		desc = "金斧头还是银斧头？——最趁手的果然是金斧头！",
+		desc = "金斧頭還是銀斧頭？——最順手的果然是金斧頭！",
 		usage = "usage_drop",
 		usage_arg = "[126]",
 		id = 26,
@@ -373,11 +373,11 @@ pg.child_item = {
 		}
 	},
 	[31] = {
-		name = "《从零开始的皇家女仆生活》",
+		name = "《從零開始的皇家女僕生活》",
 		rarity = 1,
 		type = 1,
 		is_show = 1,
-		desc = "讲述了笨手笨脚的女仆学习料理，屡战屡败，屡败屡战的故事。",
+		desc = "講述了笨手笨腳的女僕學習料理，屢戰屢敗，屢敗屢戰的故事。",
 		usage = "usage_drop",
 		usage_arg = "[131]",
 		id = 31,
@@ -396,11 +396,11 @@ pg.child_item = {
 		}
 	},
 	[32] = {
-		name = "《十五行诗》",
+		name = "《十五行詩》",
 		rarity = 1,
 		type = 1,
 		is_show = 1,
-		desc = "经典名著，引人深思，就是行数不太对劲。",
+		desc = "經典名著，引人深思，就是行數不太對勁。",
 		usage = "usage_drop",
 		usage_arg = "[132]",
 		id = 32,
@@ -419,11 +419,11 @@ pg.child_item = {
 		}
 	},
 	[33] = {
-		name = "《舰装养护指南》",
+		name = "《艦裝養護指南》",
 		rarity = 1,
 		type = 1,
 		is_show = 1,
-		desc = "专业性极强的书籍。",
+		desc = "專業性極強的書籍。",
 		usage = "usage_drop",
 		usage_arg = "[133]",
 		id = 33,
@@ -442,11 +442,11 @@ pg.child_item = {
 		}
 	},
 	[34] = {
-		name = "《如何俘获指挥官的心？》",
+		name = "《如何擄獲指揮官的心？》",
 		rarity = 2,
 		type = 1,
 		is_show = 1,
-		desc = "书中内容简单直白，但是好像不太适合学习。",
+		desc = "書中內容簡單直白，但是好像不太適合學習。",
 		usage = "usage_drop",
 		usage_arg = "[134]",
 		id = 34,
@@ -460,11 +460,11 @@ pg.child_item = {
 		}
 	},
 	[35] = {
-		name = "《天才创造指北！》",
+		name = "《天才創造指北！》",
 		rarity = 2,
 		type = 1,
 		is_show = 1,
-		desc = "充斥着浓郁个人特色的发明指南，但感觉大部分派不上用场。",
+		desc = "充滿濃鬱個人特色的發明指南，但感覺大部分派不上用場。",
 		usage = "usage_drop",
 		usage_arg = "[135]",
 		id = 35,
@@ -478,11 +478,11 @@ pg.child_item = {
 		}
 	},
 	[36] = {
-		name = "《心动假期旅游指南》",
+		name = "《心動假期旅遊指南》",
 		rarity = 2,
 		type = 1,
 		is_show = 1,
-		desc = "罗列着各种与大海、无人岛等地点有关的旅游指南。",
+		desc = "羅列著各種與大海、無人島等地點有關的旅遊指南。",
 		usage = "usage_drop",
 		usage_arg = "[136]",
 		id = 36,
@@ -500,7 +500,7 @@ pg.child_item = {
 		rarity = 3,
 		type = 2,
 		is_show = 1,
-		desc = "一张唱片，里面收录着什么风格的音乐呢？",
+		desc = "一張唱片，裡面收錄著什麼風格的音樂呢？",
 		usage = "usage_drop",
 		usage_arg = "[141]",
 		id = 41,
@@ -514,11 +514,11 @@ pg.child_item = {
 		}
 	},
 	[42] = {
-		name = "麦克风",
+		name = "麥克風",
 		rarity = 3,
 		type = 2,
 		is_show = 1,
-		desc = "内置混响，音质饱满细腻，K歌的不二之选。",
+		desc = "內建混音，音質飽滿細膩，K歌的不二之選。",
 		usage = "usage_drop",
 		usage_arg = "[142]",
 		id = 42,
@@ -532,11 +532,11 @@ pg.child_item = {
 		}
 	},
 	[43] = {
-		name = "单簧管",
+		name = "單簧管",
 		rarity = 3,
 		type = 2,
 		is_show = 1,
-		desc = "音色嘹亮的木管乐器，据说非常难学。",
+		desc = "音色嘹亮的木管樂器，據說非常難學。",
 		usage = "usage_drop",
 		usage_arg = "[143]",
 		id = 43,
@@ -555,11 +555,11 @@ pg.child_item = {
 		}
 	},
 	[44] = {
-		name = "竖琴",
+		name = "豎琴",
 		rarity = 4,
 		type = 2,
 		is_show = 1,
-		desc = "声域宽广，余音悠长。",
+		desc = "聲域寬廣，餘音悠長。",
 		usage = "usage_drop",
 		usage_arg = "[144]",
 		id = 44,
@@ -577,7 +577,7 @@ pg.child_item = {
 		rarity = 4,
 		type = 2,
 		is_show = 1,
-		desc = "音色洪亮，张力十足。",
+		desc = "音色洪亮，張力十足。",
 		usage = "usage_drop",
 		usage_arg = "[145]",
 		id = 45,
@@ -596,11 +596,11 @@ pg.child_item = {
 		}
 	},
 	[46] = {
-		name = "钢琴",
+		name = "鋼琴",
 		rarity = 4,
 		type = 2,
 		is_show = 1,
-		desc = "高雅与优美的代名词。",
+		desc = "高雅與優美的代名詞。",
 		usage = "usage_drop",
 		usage_arg = "[146]",
 		id = 46,
@@ -614,11 +614,11 @@ pg.child_item = {
 		}
 	},
 	[47] = {
-		name = "小号",
+		name = "小號",
 		rarity = 4,
 		type = 2,
 		is_show = 1,
-		desc = "音色明亮锐利，兼具嘹亮与优美。",
+		desc = "音色明亮銳利，兼具嘹亮與優美。",
 		usage = "usage_drop",
 		usage_arg = "[147]",
 		id = 47,
@@ -641,7 +641,7 @@ pg.child_item = {
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "磨成粉的话，会不会有什么神奇美白的效果呢？",
+		desc = "磨成粉的話，會不會有什麼神奇美白的效果呢？",
 		usage = "usage_drop",
 		usage_arg = "[151]",
 		id = 51,
@@ -655,11 +655,11 @@ pg.child_item = {
 		}
 	},
 	[52] = {
-		name = "贝壳摆件",
+		name = "貝殼擺飾",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "将贝壳打磨后制成的摆件。",
+		desc = "將貝殼打磨後製成的擺飾。",
 		usage = "usage_drop",
 		usage_arg = "[152]",
 		id = 52,
@@ -673,11 +673,11 @@ pg.child_item = {
 		}
 	},
 	[53] = {
-		name = "章鱼玩偶",
+		name = "章魚玩偶",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "以“熟透了的章鱼”为设计理念制作的玩偶，真的会有人喜欢吗？",
+		desc = "以「熟透了的章魚」為設計概念製作的玩偶，真的會有人喜歡嗎？",
 		usage = "usage_drop",
 		usage_arg = "[153]",
 		id = 53,
@@ -691,11 +691,11 @@ pg.child_item = {
 		}
 	},
 	[54] = {
-		name = "许愿瓶",
+		name = "許願瓶",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "据说把愿望写好后再丢进海里，就会实现。",
+		desc = "據說把願望寫好後再丟進海裡，就會實現。",
 		usage = "usage_drop",
 		usage_arg = "[154]",
 		id = 54,
@@ -713,7 +713,7 @@ pg.child_item = {
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "为什么不问问神奇海螺呢？",
+		desc = "為什麼不問問神奇海螺呢？",
 		usage = "usage_drop",
 		usage_arg = "[155]",
 		id = 55,
@@ -736,7 +736,7 @@ pg.child_item = {
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "虽然是专卖纪念品的商店，但是也会卖卖椰子呢。",
+		desc = "雖然是專賣紀念品的商店，但是也會賣賣椰子呢。",
 		usage = "usage_drop",
 		usage_arg = "[156]",
 		id = 56,
@@ -759,7 +759,7 @@ pg.child_item = {
 		rarity = 2,
 		type = 4,
 		is_show = 1,
-		desc = "新鲜的食材，往往只需要简单的烹饪和调味。",
+		desc = "新鮮的食材，往往只需要簡單的烹飪和調味。",
 		usage = "usage_drop",
 		usage_arg = "[111215]",
 		id = 101,
@@ -773,11 +773,11 @@ pg.child_item = {
 		}
 	},
 	[102] = {
-		name = "蜜汁猪排",
+		name = "蜜汁豬排",
 		rarity = 2,
 		type = 4,
 		is_show = 1,
-		desc = "最后刷上蜂蜜，再送入烤箱……一口下去肉香四溢。",
+		desc = "最後刷上蜂蜜，再送入烤箱……一口下去肉香四溢。",
 		usage = "usage_drop",
 		usage_arg = "[111216]",
 		id = 102,
@@ -791,11 +791,11 @@ pg.child_item = {
 		}
 	},
 	[103] = {
-		name = "酥皮浓汤",
+		name = "酥皮濃湯",
 		rarity = 2,
 		type = 4,
 		is_show = 1,
-		desc = "脆口的酥皮沾着温暖可口的浓汤让人赞不绝口。",
+		desc = "脆口的酥皮沾著溫熱可口的濃湯讓人讚不絕口。",
 		usage = "usage_drop",
 		usage_arg = "[111217]",
 		id = 103,
@@ -809,11 +809,11 @@ pg.child_item = {
 		}
 	},
 	[104] = {
-		name = "饺子拼盘",
+		name = "餃子拼盤",
 		rarity = 2,
 		type = 4,
 		is_show = 1,
-		desc = "人生就像一盘饺子，你永远不知道下一颗是什么滋味。",
+		desc = "人生就像一盤餃子，你永遠不知道下一顆是什麼滋味。",
 		usage = "usage_drop",
 		usage_arg = "[111218]",
 		id = 104,
@@ -831,7 +831,7 @@ pg.child_item = {
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "人见人爱的家常料理。",
+		desc = "人見人愛的家常料理。",
 		usage = "usage_drop",
 		usage_arg = "[111219]",
 		id = 105,
@@ -845,11 +845,11 @@ pg.child_item = {
 		}
 	},
 	[106] = {
-		name = "香蕉可丽饼",
+		name = "香蕉可麗餅",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "普通的香蕉奶油的可丽饼。",
+		desc = "普通的香蕉奶油的可麗餅。",
 		usage = "usage_drop",
 		usage_arg = "[111220]",
 		id = 106,
@@ -863,11 +863,11 @@ pg.child_item = {
 		}
 	},
 	[107] = {
-		name = "杂煮锅",
+		name = "雜煮鍋",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "甜甜的汤汁、美味的蔬菜和肉，再裹上蛋液~好吃！",
+		desc = "甜甜的湯汁、美味的蔬菜和肉，再裹上蛋液~好吃！",
 		usage = "usage_drop",
 		usage_arg = "[111221]",
 		id = 107,
@@ -885,7 +885,7 @@ pg.child_item = {
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "肉质细腻，味道鲜美。",
+		desc = "肉質細膩，味道鮮美。",
 		usage = "usage_drop",
 		usage_arg = "[111222]",
 		id = 108,
@@ -903,7 +903,7 @@ pg.child_item = {
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "大块肉排加上吐司面包，汁水四溢，分量十足。",
+		desc = "大塊肉排加上吐司麵包，汁水四溢，分量十足。",
 		usage = "usage_drop",
 		usage_arg = "[111223]",
 		id = 109,
@@ -921,7 +921,7 @@ pg.child_item = {
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "在试吃之前，没人知道是什么味道。",
+		desc = "在試吃之前，沒人知道是什麼味道。",
 		usage = "usage_drop",
 		usage_arg = "[111224]",
 		id = 110,
@@ -935,11 +935,11 @@ pg.child_item = {
 		}
 	},
 	[121] = {
-		name = "画作",
+		name = "畫作",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "被仔细装裱起来的画作。",
+		desc = "被仔細裱框起來的畫作。",
 		usage = "usage_drop",
 		usage_arg = "[121109]",
 		id = 121,
@@ -953,11 +953,11 @@ pg.child_item = {
 		}
 	},
 	[131] = {
-		name = "小河虾",
+		name = "小河蝦",
 		rarity = 2,
 		type = 4,
 		is_show = 1,
-		desc = "钓上来小河虾，收获聊胜于无。",
+		desc = "釣上來的小河蝦，收獲聊勝於無。",
 		usage = "usage_drop",
 		usage_arg = "[120211]",
 		id = 131,
@@ -971,11 +971,11 @@ pg.child_item = {
 		}
 	},
 	[132] = {
-		name = "小鱼",
+		name = "小魚",
 		rarity = 2,
 		type = 4,
 		is_show = 1,
-		desc = "钓上来的小鱼，运气还不错。",
+		desc = "釣上來的小魚，運氣還不錯。",
 		usage = "usage_drop",
 		usage_arg = "[120212]",
 		id = 132,
@@ -989,11 +989,11 @@ pg.child_item = {
 		}
 	},
 	[134] = {
-		name = "大鱼",
+		name = "大魚",
 		rarity = 2,
 		type = 4,
 		is_show = 1,
-		desc = "钓上来的大鱼，可以加餐了！",
+		desc = "釣上來的大魚，可以加餐了！",
 		usage = "usage_drop",
 		usage_arg = "[120214]",
 		id = 134,
@@ -1007,11 +1007,11 @@ pg.child_item = {
 		}
 	},
 	[135] = {
-		name = "龙虾",
+		name = "龍蝦",
 		rarity = 2,
 		type = 4,
 		is_show = 1,
-		desc = "龙虾一只！不过为什么龙虾会上钩呢……？",
+		desc = "龍蝦一隻！不過為什麼龍蝦會上鉤呢……？",
 		usage = "usage_drop",
 		usage_arg = "[120215]",
 		id = 135,
@@ -1025,11 +1025,11 @@ pg.child_item = {
 		}
 	},
 	[151] = {
-		name = "写真",
+		name = "寫真",
 		rarity = 2,
 		type = 4,
 		is_show = 1,
-		desc = "特地洗出来的写真，会被放进相册里好好收藏。",
+		desc = "特地洗出來的寫真，會被放進相簿裡好好收藏。",
 		usage = "usage_drop",
 		usage_arg = "[131111]",
 		id = 151,
@@ -1043,11 +1043,11 @@ pg.child_item = {
 		}
 	},
 	[161] = {
-		name = "纪念奖章-文学大奖赛",
+		name = "紀念獎章-文學大獎賽",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "参与文学大奖赛获得的纪念奖章。",
+		desc = "參與文學大獎賽所獲得的紀念獎章。",
 		usage = "usage_drop",
 		usage_arg = "[170640]",
 		id = 161,
@@ -1055,11 +1055,11 @@ pg.child_item = {
 		display = {}
 	},
 	[162] = {
-		name = "纪念奖章-摄影大赛",
+		name = "紀念獎章-攝影比賽",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "参与摄影大赛获得的纪念奖章。",
+		desc = "參與攝影比賽獲得的紀念獎章。",
 		usage = "usage_drop",
 		usage_arg = "[130540]",
 		id = 162,
@@ -1067,11 +1067,11 @@ pg.child_item = {
 		display = {}
 	},
 	[163] = {
-		name = "纪念奖章-运动大赛",
+		name = "紀念獎章-運動比賽",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "参与运动大赛获得的纪念奖章。",
+		desc = "參與運動比賽獲得的紀念獎章。",
 		usage = "usage_drop",
 		usage_arg = "[160340]",
 		id = 163,
@@ -1079,11 +1079,11 @@ pg.child_item = {
 		display = {}
 	},
 	[164] = {
-		name = "纪念奖章-绘画大奖赛",
+		name = "紀念獎章-繪畫大獎賽",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "参与绘画大奖赛获得的纪念奖章。",
+		desc = "參與繪畫大獎賽所獲得的紀念獎章。",
 		usage = "usage_drop",
 		usage_arg = "[170740]",
 		id = 164,
@@ -1091,11 +1091,11 @@ pg.child_item = {
 		display = {}
 	},
 	[165] = {
-		name = "纪念奖章-厨神大赛",
+		name = "紀念獎章-廚神大賽",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "参与厨神大赛获得的纪念奖章。",
+		desc = "參與廚神大賽獲得的紀念獎章。",
 		usage = "usage_drop",
 		usage_arg = "[110504]",
 		id = 165,
@@ -1103,11 +1103,11 @@ pg.child_item = {
 		display = {}
 	},
 	[166] = {
-		name = "纪念奖章-钓鱼达人赛",
+		name = "紀念獎章-釣魚達人賽",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "参与钓鱼达人赛获得的纪念奖章。",
+		desc = "參與釣魚達人賽獲得的紀念獎章。",
 		usage = "usage_drop",
 		usage_arg = "[120504]",
 		id = 166,
@@ -1115,11 +1115,11 @@ pg.child_item = {
 		display = {}
 	},
 	[167] = {
-		name = "纪念奖章-歌者之声大奖赛",
+		name = "紀念獎章-歌手之聲大獎賽",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "参与歌者之声大奖赛获得的纪念奖章。",
+		desc = "參與歌手之聲大獎賽所獲得的紀念獎章。",
 		usage = "usage_drop",
 		usage_arg = "[170840]",
 		id = 167,
@@ -1127,11 +1127,11 @@ pg.child_item = {
 		display = {}
 	},
 	[168] = {
-		name = "纪念奖章-明日之星大赛",
+		name = "紀念獎章-明日之星大賽",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "参与明日之星大赛获得的纪念奖章。",
+		desc = "參與明日之星大賽所獲得的紀念獎章。",
 		usage = "usage_drop",
 		usage_arg = "[140404]",
 		id = 168,
@@ -1139,11 +1139,11 @@ pg.child_item = {
 		display = {}
 	},
 	[201] = {
-		name = "成长目标完成纪念·Ⅰ",
+		name = "成長目標完成紀念·Ⅰ",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "完成成长目标的奖励\n心情+10 金钱+60 体能+20",
+		desc = "完成成長目標的獎勵\n心情+10 金錢+60 體能+20",
 		usage = "usage_drop",
 		usage_arg = "[701]",
 		id = 201,
@@ -1167,11 +1167,11 @@ pg.child_item = {
 		}
 	},
 	[202] = {
-		name = "成长目标完成纪念·Ⅰ",
+		name = "成長目標完成紀念·Ⅰ",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "完成成长目标的奖励\n心情+10 金钱+60 智慧+20",
+		desc = "完成成長目標的獎勵\n心情+10 金錢+60 智慧+20",
 		usage = "usage_drop",
 		usage_arg = "[702]",
 		id = 202,
@@ -1195,11 +1195,11 @@ pg.child_item = {
 		}
 	},
 	[203] = {
-		name = "成长目标完成纪念·Ⅰ",
+		name = "成長目標完成紀念·Ⅰ",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "完成成长目标的奖励\n心情+10 金钱+60 气质+20",
+		desc = "完成成長目標的獎勵\n心情+10 金錢+60 氣質+20",
 		usage = "usage_drop",
 		usage_arg = "[703]",
 		id = 203,
@@ -1223,11 +1223,11 @@ pg.child_item = {
 		}
 	},
 	[204] = {
-		name = "成长目标完成纪念·Ⅰ",
+		name = "成長目標完成紀念·Ⅰ",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "完成成长目标的奖励\n心情+10 金钱+60 感知+20",
+		desc = "完成成長目標的獎勵\n心情+10 金錢+60 感知+20",
 		usage = "usage_drop",
 		usage_arg = "[704]",
 		id = 204,
@@ -1251,11 +1251,11 @@ pg.child_item = {
 		}
 	},
 	[205] = {
-		name = "成长目标完成纪念·Ⅱ",
+		name = "成長目標完成紀念·Ⅱ",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "完成成长目标的奖励\n心情+15 金钱+100 体能+100",
+		desc = "完成成長目標的獎勵\n心情+15 金錢+100 體能+100",
 		usage = "usage_drop",
 		usage_arg = "[705]",
 		id = 205,
@@ -1279,11 +1279,11 @@ pg.child_item = {
 		}
 	},
 	[206] = {
-		name = "成长目标完成纪念·Ⅱ",
+		name = "成長目標完成紀念·Ⅱ",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "完成成长目标的奖励\n心情+15 金钱+100 智慧+100",
+		desc = "完成成長目標的獎勵\n心情+15 金錢+100 智慧+100",
 		usage = "usage_drop",
 		usage_arg = "[706]",
 		id = 206,
@@ -1307,11 +1307,11 @@ pg.child_item = {
 		}
 	},
 	[207] = {
-		name = "成长目标完成纪念·Ⅱ",
+		name = "成長目標完成紀念·Ⅱ",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "完成成长目标的奖励\n心情+15 金钱+100 气质+100",
+		desc = "完成成長目標的獎勵\n心情+15 金錢+100 氣質+100",
 		usage = "usage_drop",
 		usage_arg = "[707]",
 		id = 207,
@@ -1335,11 +1335,11 @@ pg.child_item = {
 		}
 	},
 	[208] = {
-		name = "成长目标完成纪念·Ⅱ",
+		name = "成長目標完成紀念·Ⅱ",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "完成成长目标的奖励\n心情+15 金钱+100 感知+100",
+		desc = "完成成長目標的獎勵\n心情+15 金錢+100 感知+100",
 		usage = "usage_drop",
 		usage_arg = "[708]",
 		id = 208,
@@ -1363,11 +1363,11 @@ pg.child_item = {
 		}
 	},
 	[209] = {
-		name = "成长目标完成纪念·Ⅲ",
+		name = "成長目標完成紀念·Ⅲ",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "完成成长目标的奖励\n心情+20 金钱+150 运动+10 实践+5 细心+5",
+		desc = "完成成長目標的獎勵\n心情+20 金錢+150 運動+10 實踐+5 細心+5",
 		usage = "usage_drop",
 		usage_arg = "[709]",
 		id = 209,
@@ -1401,11 +1401,11 @@ pg.child_item = {
 		}
 	},
 	[210] = {
-		name = "成长目标完成纪念·Ⅲ",
+		name = "成長目標完成紀念·Ⅲ",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "完成成长目标的奖励\n心情+20 金钱+150 实践+10 想象+5 表现+5",
+		desc = "完成成長目標的獎勵\n心情+20 金錢+150 實踐+10 想像+5 表現+5",
 		usage = "usage_drop",
 		usage_arg = "[710]",
 		id = 210,
@@ -1439,11 +1439,11 @@ pg.child_item = {
 		}
 	},
 	[211] = {
-		name = "成长目标完成纪念·Ⅲ",
+		name = "成長目標完成紀念·Ⅲ",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "完成成长目标的奖励\n心情+20 金钱+150 细心+10 想象+10",
+		desc = "完成成長目標的獎勵\n心情+20 金錢+150 細心+10 想像+10",
 		usage = "usage_drop",
 		usage_arg = "[711]",
 		id = 211,
@@ -1472,11 +1472,11 @@ pg.child_item = {
 		}
 	},
 	[212] = {
-		name = "成长目标完成纪念·Ⅲ",
+		name = "成長目標完成紀念·Ⅲ",
 		rarity = 3,
 		type = 4,
 		is_show = 1,
-		desc = "完成成长目标的奖励\n心情+20 金钱+150 表现+10 乐理+10",
+		desc = "完成成長目標的獎勵\n心情+20 金錢+150 表現+10 樂理+10",
 		usage = "usage_drop",
 		usage_arg = "[712]",
 		id = 212,
@@ -1505,11 +1505,11 @@ pg.child_item = {
 		}
 	},
 	[213] = {
-		name = "成长目标完成纪念·Ⅳ",
+		name = "成長目標完成紀念·Ⅳ",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "完成成长目标的奖励\n心情+20 金钱+200 运动+30",
+		desc = "完成成長目標的獎勵\n心情+20 金錢+200 運動+30",
 		usage = "usage_drop",
 		usage_arg = "[713]",
 		id = 213,
@@ -1533,11 +1533,11 @@ pg.child_item = {
 		}
 	},
 	[214] = {
-		name = "成长目标完成纪念·Ⅳ",
+		name = "成長目標完成紀念·Ⅳ",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "完成成长目标的奖励\n心情+20 金钱+200 想象+30",
+		desc = "完成成長目標的獎勵\n心情+20 金錢+200 想像+30",
 		usage = "usage_drop",
 		usage_arg = "[715]",
 		id = 214,
@@ -1561,11 +1561,11 @@ pg.child_item = {
 		}
 	},
 	[215] = {
-		name = "成长目标完成纪念·Ⅳ",
+		name = "成長目標完成紀念·Ⅳ",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "完成成长目标的奖励\n心情+20 金钱+200 细心+30",
+		desc = "完成成長目標的獎勵\n心情+20 金錢+200 細心+30",
 		usage = "usage_drop",
 		usage_arg = "[718]",
 		id = 215,
@@ -1589,11 +1589,11 @@ pg.child_item = {
 		}
 	},
 	[216] = {
-		name = "成长目标完成纪念·Ⅳ",
+		name = "成長目標完成紀念·Ⅳ",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "完成成长目标的奖励\n心情+20 金钱+200 实践+30 ",
+		desc = "完成成長目標的獎勵\n心情+20 金錢+200 實踐+30",
 		usage = "usage_drop",
 		usage_arg = "[714]",
 		id = 216,
@@ -1617,11 +1617,11 @@ pg.child_item = {
 		}
 	},
 	[217] = {
-		name = "成长目标完成纪念·Ⅳ",
+		name = "成長目標完成紀念·Ⅳ",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "完成成长目标的奖励\n心情+20 金钱+200 乐理+30",
+		desc = "完成成長目標的獎勵\n心情+20 金錢+200 樂理+30",
 		usage = "usage_drop",
 		usage_arg = "[717]",
 		id = 217,
@@ -1645,11 +1645,11 @@ pg.child_item = {
 		}
 	},
 	[218] = {
-		name = "成长目标完成纪念·Ⅳ",
+		name = "成長目標完成紀念·Ⅳ",
 		rarity = 4,
 		type = 4,
 		is_show = 1,
-		desc = "完成成长目标的奖励\n心情+20 金钱+200 表现+30",
+		desc = "完成成長目標的獎勵\n心情+20 金錢+200 表現+30",
 		usage = "usage_drop",
 		usage_arg = "[716]",
 		id = 218,
@@ -1673,11 +1673,11 @@ pg.child_item = {
 		}
 	},
 	[301] = {
-		name = "主线目标奖章",
+		name = "主線目標獎章",
 		rarity = 1,
 		type = 4,
 		is_show = 1,
-		desc = "完成主线目标的纪念奖章，持有后全属性+1。",
+		desc = "完成主線目標的紀念獎章，持有後全屬性+1。",
 		usage = "usage_drop",
 		usage_arg = "[720]",
 		id = 301,
@@ -1706,11 +1706,11 @@ pg.child_item = {
 		}
 	},
 	[302] = {
-		name = "成长目标进度点数",
+		name = "成長目標進度點數",
 		rarity = 1,
 		type = 4,
 		is_show = 0,
-		desc = "成长目标任务的完成进度点数",
+		desc = "成長目標任務的完成進度點數",
 		usage = "usage_drop",
 		usage_arg = "[721]",
 		id = 302,

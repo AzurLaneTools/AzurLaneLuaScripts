@@ -9,7 +9,7 @@ return {
 			bgm = "qe-ova-12",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "旋转木马缓缓启动，我抓准时机，坐上了TB旁边的木马。",
+			say = "旋轉木馬緩緩啟動，我抓準時機，坐上了TB旁的木馬。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,14 +38,14 @@ return {
 			bgName = "bg_project_tb_cg15",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "TB，看这边。",
+			say = "TB，看這邊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg15",
 			dir = 1,
@@ -67,21 +67,21 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg15",
 			hidePaintObj = true,
-			say = "她看向镜头，伸出了手。",
+			say = "她看向鏡頭，伸出了手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg15",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-31-2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "您在拍摄的时候可不要手抖哦。",
+			say = "您在拍攝的時候可不要手抖哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,21 +108,21 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg15",
 			hidePaintObj = true,
-			say = "咔嚓——我按下拍摄键，将眼前的这幅光景定格。",
+			say = "咔嚓——我按下拍攝鍵，將眼前的這幅光景定格。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg15",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-31-3",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵……回去之后，把今天拍下来的照片全都打印出来吧。",
+			say = "呵呵……回去之後，把今天拍的照片全都印出來吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg15",
 			hidePaintObj = true,
-			say = "之后和TB在游乐园度过了一段难忘的时光。",
+			say = "之後和TB在遊樂園度過了一段難忘的時光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

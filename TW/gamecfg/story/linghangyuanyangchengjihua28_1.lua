@@ -4,7 +4,7 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg22",
 			dir = 1,
@@ -12,7 +12,7 @@ return {
 			voice = "event:/educate/tb/educate-tb-story-33-11",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "快看，是枫叶！",
+			say = "快看，是楓葉！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -44,7 +44,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
-			say = "她捡起温泉池水中的一片落叶，遮住了自己的一只眼睛。",
+			say = "她撿起溫泉池水中的一片落葉，遮住了自己的一隻眼睛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,21 +56,21 @@ return {
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你这是打算……？",
+			say = "妳這是打算……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg22",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-33-12",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，这种时候不是应该说那种台词嘛——",
+			say = "嘿嘿，這種時候不是應該說那種台詞嘛——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,14 +81,14 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg22",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-33-13",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "“寄宿在吾右眼中的禁忌之力啊，以这枚贤者之血铸就的红叶将汝封印……！”",
+			say = "「寄宿在吾右眼中的禁忌之力啊，以這枚賢者之血鑄就的紅葉將汝封印……！」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,14 +99,14 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg22",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-33-14",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么样？超cool的对吧？！是我从漫画书上学到的哦！",
+			say = "怎麼樣？超cool的對吧？！是我從漫畫書上學到的哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,21 +122,21 @@ return {
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不……这只是普通的中二病吧。",
+			say = "不……這只是普通的中二病吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg22",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-33-15",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是的，你这样会变成无趣的大人哦。",
+			say = "真是的，你這樣會變成無趣的大人哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,14 +152,14 @@ return {
 			bgName = "bg_project_tb_cg22",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好吧……那，看我这招！",
+			say = "好吧……那，看我這招！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg22",
 			dir = 1,

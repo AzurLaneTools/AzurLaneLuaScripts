@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "请点击空白处",
+				text = "請點擊空白處",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -23,7 +23,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "请打开<color=#39bfff>行程计划</color>",
+				text = "請打開<color=#39bfff>行程計劃</color>",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -42,7 +42,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击空白行程格。",
+				text = "點選空白行程格。",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -61,7 +61,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "新的行程解锁了。",
+				text = "新的行程解鎖了。",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -79,7 +79,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "完成课程可提升相应的属性，当完成一定次数后可以解锁<color=#39bfff>该课程的更高等级</color>。",
+				text = "課程可提升對應的屬性，當完成一定次數後還可以解鎖<color=#39bfff>該課程的更高等級</color>。",
 				mode = 2,
 				char = 1,
 				posY = -118.09,
@@ -99,7 +99,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "从现在开始，直至9月的第4周为止，领航员-TB的个性将受到行程内容的影响。",
+				text = "從現在開始，直到9月的第4週為止，領航員-TB的個性將受到行程內容的影響。",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -117,7 +117,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "领航员-TB的个性将会影响到养成计划的结局，还请好好把握这段时间哦~",
+				text = "領航員-TB的個性將會影響到養成計畫的結局，還請好好把握這段時間哦~",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -135,7 +135,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "请合理规划课程，培养出更优秀的领航员吧~",
+				text = "請合理規劃課程，培養出更優秀的領航員吧~",
 				mode = 2,
 				char = 1,
 				posY = 0,

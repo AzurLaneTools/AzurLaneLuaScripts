@@ -12,9 +12,9 @@ return {
 			bgm = "story-richang-flexible",
 			tbActor = true,
 			actor = 1002,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "窗外的云……",
+			say = "窗外的雲……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "TB的手指向窗外的云朵。",
+			say = "TB的手指向窗外的雲朵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,9 +55,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1002,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "五角星、小鱼、小马……",
+			say = "五角星、小魚、小馬……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,9 +70,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1002,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "航母……战列舰……",
+			say = "航母……戰列艦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等等，从刚才开始形状好像就不对了吧？！让我看看……",
+			say = "等等，從剛才開始形狀好像就不對了吧？！讓我看看……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "顺着TB指出的方向看去——",
+			say = "順著TB指出的方向看去——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room1",
 			hidePaintObj = true,
-			say = "还真的有！这个小镇……{namecode:98}到底是以什么基准来建造的啊？",
+			say = "還真的有！這個小鎮……明石到底是以什麼基準來建造的啊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

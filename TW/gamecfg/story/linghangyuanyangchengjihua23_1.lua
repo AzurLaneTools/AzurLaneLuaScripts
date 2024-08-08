@@ -4,7 +4,7 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg17",
 			dir = 1,
@@ -12,7 +12,7 @@ return {
 			voice = "event:/educate/tb/educate-tb-story-32-5",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在买裙子的时候，我还拜托店员准备了这个。",
+			say = "在買裙子的時候，我還拜託店員準備了這個。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -44,21 +44,21 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg17",
 			hidePaintObj = true,
-			say = "她怀里抱着一个包装精美的礼盒。",
+			say = "她懷裡抱著一個包裝精美的禮盒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg17",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-32-6",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是用攒下来的零花钱付款的。",
+			say = "是用存下來的零用錢付款的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,21 +73,21 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg17",
 			hidePaintObj = true,
-			say = "她没有看着我，而是看着别的方向。",
+			say = "她沒有看著我，而是看著別的方向。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg17",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-32-7",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "圣诞氛围……我感受到了。",
+			say = "聖誕氛圍……我感受到了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,14 +98,14 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg17",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-32-8",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也理解了你说的幸运。",
+			say = "也理解了你說的幸運。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,14 +116,14 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg17",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-32-9",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "圣诞快乐。",
+			say = "聖誕快樂。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,14 +134,14 @@ return {
 			}
 		},
 		{
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			side = 2,
 			bgName = "bg_project_tb_cg17",
 			dir = 1,
 			voice = "event:/educate/tb/educate-tb-story-32-10",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这个……送给你。",
+			say = "這個……送給你。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg17",
 			hidePaintObj = true,
-			say = "壁炉里传出柴火燃烧的噼啪声，火光为少女素来缺乏血色的面颊染上红晕。",
+			say = "壁爐裡傳出柴火燃燒的劈啪聲，火光為少女素來缺乏血色的臉頰染上紅暈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_cg17",
 			hidePaintObj = true,
-			say = "在那之后，和TB一起度过了温暖的圣诞节。",
+			say = "在那之後，和TB一起度過了溫暖的聖誕節。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

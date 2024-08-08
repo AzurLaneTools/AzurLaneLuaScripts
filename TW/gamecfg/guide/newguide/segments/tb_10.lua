@@ -6,7 +6,7 @@ return {
 			alpha = 0,
 			waitScene = "EducateAwardInfoLayer",
 			style = {
-				text = "点击空白处关闭",
+				text = "點擊空白處關閉",
 				mode = 2,
 				dir = 1,
 				char = 1,
@@ -26,7 +26,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "点击空白处关闭窗口",
+				text = "點擊空白處關閉跳窗",
 				mode = 2,
 				dir = -1,
 				char = 1,
@@ -45,7 +45,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "在养成过程中进行各种操作，都有可能获得<color=#39bfff>特殊状态</color>。",
+				text = "在養成過程中進行各種操作，都有可能獲得<color=#39bfff>特殊狀態</color>。",
 				mode = 2,
 				char = 1,
 				posY = -269.22,

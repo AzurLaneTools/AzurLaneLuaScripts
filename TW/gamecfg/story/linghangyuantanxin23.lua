@@ -15,9 +15,9 @@ return {
 			dynamicBgType = -2,
 			bgm = "story-richang-flexible",
 			actor = -2,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "{tb}……",
+			say = "{tb}…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			side = 2,
-			say = "TB看上去似乎非常沮丧。",
+			say = "TB看起來似乎非常沮喪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
-			say = "怎么了，TB？",
+			say = "怎麼了，TB？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,9 +72,9 @@ return {
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
 			actor = -2,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "钱包……弄丢了……",
+			say = "錢包……弄丟了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			side = 2,
-			say = "TB说在放学回来的时候还掏出来买过一次零食。",
+			say = "TB說放學回來的時候還掏出來買一次零食。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			side = 2,
-			say = "在那之后，回家后想要拿出钱包时发现它不见了。",
+			say = "在那之後，回家後想要拿出錢包時發現它不見了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			side = 2,
-			say = "那里面是她整整一个月的零花钱，现在全都没有了。",
+			say = "那裡面是她整整一個月的零用錢，現在全都沒有了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
-			say = "损失惨重呢……",
+			say = "損失慘重呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			side = 2,
-			say = "因为看起来实在太可怜的缘故，最后还是重新给了TB一个月零用钱。",
+			say = "因為看起來實在太可憐的緣故，最後還是重新給了TB一個月零用錢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -354,6 +354,7 @@ pg.expedition_data_by_map = setmetatable({
 		2200030,
 		2200040,
 		2200050,
+		2200070,
 		2200080,
 		2200090,
 		5100000,
@@ -16374,6 +16375,50 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		uifx = "",
 		bind_map = 2200051,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2200070] = {
+		map = 2200070,
+		name = "激唱的Universe|| ||CHAPTER EX||E.X.",
+		bgm = "idol-WISHNESS-inst",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "JICHANG1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1370001",
+		ani_controller = "",
+		cloud_suffix = "",
+		on_activity = 0,
+		ui_type = 1,
+		bg = "Map_1370001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 0,
 		clouds_pos = {
 			{
 				332,

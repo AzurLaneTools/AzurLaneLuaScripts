@@ -14,9 +14,9 @@ return {
 			bgm = "qe-ova-1",
 			tbActor = true,
 			actor = 1010,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "{tb}，真的不可以吗？",
+			say = "{tb}，真的不行嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "眼前的TB一脸严肃地盯着我看。",
+			say = "眼前的TB一臉嚴肅地盯著我看。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "也不是不可以，只是为什么要突然增加零花钱的份额……？",
+			say = "也不是不可以，只是為什麼要突然增加零用錢的數量……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,9 +69,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1010,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "我认为，成长期的孩子应该拥有自己的小金库。",
+			say = "我認為，成長期的孩子應該擁有自己的小金庫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,9 +84,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1010,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "这样可以有助于建立对货币和经济体系的认知。",
+			say = "這樣可以有助於建立對貨幣和經濟體系的認知。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……倒也不用采用这么正经的理由来说服我，只是你还小……",
+			say = "……倒也不用採用這麼正經的理由來說服我，只是妳還小……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,9 +111,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 1010,
-			actorName = "领航员-TB",
+			actorName = "領航員-TB",
 			hidePaintObj = true,
-			say = "{tb}，你是那种说着帮孩子存压岁钱零花钱，实际用掉的家长吗？",
+			say = "{tb}，你是那種說著幫孩子存壓歲錢零用錢，實際用掉的家長嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……这、这些都是你的零花钱，拿去吧！",
+			say = "……這、這些都是妳的零用錢，拿去吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_tb_room2",
 			hidePaintObj = true,
-			say = "在零花钱方面，又一次输给了TB……",
+			say = "在零用錢方面，又輸給了TB……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -265,6 +265,7 @@ slot0.UpdateFashionDetail = function(slot0, slot1)
 		setGray(slot2.confirm, true)
 	elseif slot9 then
 		setActive(slot2.change, true)
+		setGray(slot2.confirm, false)
 	elseif slot6 then
 		setActive(slot2.buy, true)
 		setGray(slot2.confirm, slot7 or slot11)

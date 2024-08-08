@@ -690,7 +690,7 @@ slot0.TrackingOption = function(slot0, slot1, slot2)
 		return
 	end
 
-	TrackConst.StoryOption(slot0:StoryName2StoryId(slot0.storyScript:GetName()), slot1 .. "_" .. slot2 or 0)
+	TrackConst.StoryOption(slot0:StoryName2StoryId(slot0.storyScript:GetName()), slot1 .. "_" .. (slot2 or 0))
 end
 
 slot0.ClearStoryEvent = function(slot0)
