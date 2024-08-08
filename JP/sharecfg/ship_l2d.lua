@@ -1025,7 +1025,7 @@ pg.ship_l2d = {
 		action_trigger = {
 			time = 0.5,
 			num = 1,
-			action = "touch_idle",
+			action = "touch_drag",
 			type = 1
 		}
 	},

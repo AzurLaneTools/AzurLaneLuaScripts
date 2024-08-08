@@ -44,7 +44,7 @@ return {
 				"onBattleBuffCount"
 			},
 			arg_list = {
-				skill_id = 30313,
+				skill_id = 30314,
 				target = "TargetSelf",
 				countType = 19840
 			}

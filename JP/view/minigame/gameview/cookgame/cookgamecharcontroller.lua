@@ -409,43 +409,43 @@ slot0.createCharData = function(slot0, slot1)
 	slot4 = {}
 	slot6 = slot2.speed_able
 	slot7 = slot0._gameData.cake_num
-	slot8 = slot2.name
+	slot9 = slot0._gameData.char_path .. "cookgame" .. slot2.name .. "_atlas"
 
 	if slot2.double_able then
-		for slot12 = 0, slot7 do
-			for slot16 = 0, slot7 do
-				slot17 = nil
+		for slot13 = 0, slot7 do
+			for slot17 = 0, slot7 do
+				slot18 = nil
 
-				if slot12 == 0 and slot16 == 0 or slot12 ~= 0 then
-					slot17 = slot8 .. "_L" .. slot12 .. "_R" .. slot16
+				if slot13 == 0 and slot17 == 0 or slot13 ~= 0 then
+					slot18 = slot8 .. "_L" .. slot13 .. "_R" .. slot17
 				end
 
-				if slot17 then
+				if slot18 then
 					table.insert(slot4, {
-						runtimeAnimator = ResourceMgr.Inst:getAssetSync(slot0._gameData.char_path .. "/" .. slot8, slot17, typeof(RuntimeAnimatorController), false, false),
-						name = slot17
+						runtimeAnimator = ResourceMgr.Inst:getAssetSync(slot9, slot18, typeof(RuntimeAnimatorController), false, false),
+						name = slot18
 					})
 				end
 			end
 		end
 	elseif slot6 then
-		for slot12 = 0, slot7 do
-			for slot16 = 0, slot0._gameData.speed_num do
-				slot17 = slot8 .. "_L" .. slot12 .. "_" .. slot16
+		for slot13 = 0, slot7 do
+			for slot17 = 0, slot0._gameData.speed_num do
+				slot18 = slot8 .. "_L" .. slot13 .. "_" .. slot17
 
 				table.insert(slot4, {
-					runtimeAnimator = ResourceMgr.Inst:getAssetSync(slot0._gameData.char_path .. "/" .. slot8, slot17, typeof(RuntimeAnimatorController), false, false),
-					name = slot17
+					runtimeAnimator = ResourceMgr.Inst:getAssetSync(slot9, slot18, typeof(RuntimeAnimatorController), false, false),
+					name = slot18
 				})
 			end
 		end
 	else
-		for slot12 = 0, slot7 do
-			slot13 = slot8 .. "_L" .. slot12
+		for slot13 = 0, slot7 do
+			slot14 = slot8 .. "_L" .. slot13
 
 			table.insert(slot4, {
-				runtimeAnimator = ResourceMgr.Inst:getAssetSync(slot0._gameData.char_path .. "/" .. slot8, slot13, typeof(RuntimeAnimatorController), false, false),
-				name = slot13
+				runtimeAnimator = ResourceMgr.Inst:getAssetSync(slot9, slot14, typeof(RuntimeAnimatorController), false, false),
+				name = slot14
 			})
 		end
 	end

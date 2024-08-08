@@ -157,7 +157,7 @@ slot0.showCountStart = function(slot0, slot1)
 
 		seriesAsync({
 			function (slot0)
-				GetSpriteFromAtlasAsync("ui/rollingBallGame_atlas", "count_" .. uv0, function (slot0)
+				GetSpriteFromAtlasAsync(RollingBallConst.ui_atlas, "count_" .. uv0, function (slot0)
 					setImageSprite(uv0, slot0, true)
 				end)
 

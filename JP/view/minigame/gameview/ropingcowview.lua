@@ -694,6 +694,7 @@ slot0.initEvent = function(slot0)
 end
 
 slot0.initData = function(slot0)
+	slot0.storylist = slot0:GetMGHubData():GetSimpleValue("story")
 	slot0.timer = Timer.New(function ()
 		uv0:onTimer()
 	end, 1 / (Application.targetFrameRate or 60), -1)
@@ -1084,6 +1085,12 @@ slot0.showSettlement = function(slot0)
 	setText(findTF(slot0.settlementUI, "ad/currentText"), slot3)
 
 	if slot0:getGameTimes() and slot0:getGameTimes() > 0 then
+		slot8 = pg.NewStoryMgr.GetInstance()
+
+		if (slot0.storylist[slot0:getGameUsedTimes() + 1] and slot0.storylist[slot7][1] or nil) and not slot8:IsPlayed(slot9) then
+			slot8:Play(slot9)
+		end
+
 		slot0.sendSuccessFlag = true
 
 		slot0:SendSuccess(0)

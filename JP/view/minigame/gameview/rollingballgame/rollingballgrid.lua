@@ -9,7 +9,7 @@ slot0.Ctor = function(slot0, slot1)
 end
 
 slot0.changeImage = function(slot0)
-	GetSpriteFromAtlasAsync("ui/rollingBallGame_atlas", "grid_" .. slot0.type, function (slot0)
+	GetSpriteFromAtlasAsync(RollingBallConst.ui_atlas, "grid_" .. slot0.type, function (slot0)
 		setImageSprite(uv0.gridTf, slot0, true)
 	end)
 end

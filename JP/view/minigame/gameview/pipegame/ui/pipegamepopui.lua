@@ -79,8 +79,14 @@ slot0.initRankUI = function(slot0)
 	slot0.rankUI = findTF(slot0._tf, "pop/RankUI")
 
 	slot0:showRank(false)
-	GetComponent(findTF(slot0.rankUI, "ad/img/score"), typeof(Image)):SetNativeSize()
-	GetComponent(findTF(slot0.rankUI, "ad/img/time"), typeof(Image)):SetNativeSize()
+
+	slot1 = GetComponent(findTF(slot0.rankUI, "ad/img/score"), typeof(Image))
+
+	slot1:SetNativeSize()
+
+	slot1 = GetComponent(findTF(slot0.rankUI, "ad/img/time"), typeof(Image))
+
+	slot1:SetNativeSize()
 
 	slot0._rankImg = findTF(slot0.rankUI, "ad/img")
 	slot0._rankBtnClose = findTF(slot0.rankUI, "ad/btnClose")
@@ -98,37 +104,6 @@ slot0.initRankUI = function(slot0)
 		uv0:showRank(false)
 	end, SFX_CANCEL)
 	setText(slot0._rankDesc, i18n(uv0.rank_tip))
-	slot0:getRankData()
-end
-
-slot0.getRankData = function(slot0)
-	pg.m02:sendNotification(GAME.MINI_GAME_FRIEND_RANK, {
-		id = uv0.game_id,
-		callback = function (slot0)
-			slot1 = {}
-
-			for slot5 = 1, #slot0 do
-				slot6 = {}
-
-				for slot10, slot11 in pairs(slot0[slot5]) do
-					slot6[slot10] = slot11
-				end
-
-				table.insert(slot1, slot6)
-			end
-
-			table.sort(slot1, function (slot0, slot1)
-				if slot0.score ~= slot1.score then
-					return slot1.score < slot0.score
-				elseif slot0.time_data ~= slot1.time_data then
-					return slot1.time_data < slot0.time_data
-				else
-					return slot0.player_id < slot1.player_id
-				end
-			end)
-			uv0:updateRankData(slot1)
-		end
-	})
 end
 
 slot0.updateRankData = function(slot0, slot1)
@@ -191,10 +166,6 @@ slot0.setChildVisible = function(slot0, slot1, slot2)
 end
 
 slot0.showRank = function(slot0, slot1)
-	if slot1 then
-		slot0:getRankData()
-	end
-
 	setActive(slot0.rankUI, slot1)
 end
 

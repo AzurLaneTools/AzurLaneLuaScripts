@@ -100,12 +100,17 @@ slot0.InitImage = function(slot0, slot1)
 		return
 	end
 
+	slot0.imgName = slot2
+
 	LoadSpriteAtlasAsync(slot0:ResPath() .. "/" .. slot2, "", function (slot0)
-		uv0.imgName = uv1
+		if IsNil(uv0.image) then
+			return
+		end
+
 		uv0.image.sprite = slot0
 
 		uv0.image:SetNativeSize()
-		uv2()
+		uv1()
 	end)
 end
 
@@ -116,12 +121,9 @@ slot0.InitSubImage = function(slot0)
 		return
 	end
 
-	LoadSpriteAtlasAsync(slot0:ResPath() .. "/" .. slot1, "", function (slot0)
-		uv0.subImgName = uv1
-		uv0.subImage.sprite = slot0
+	slot0.subImgName = slot1
 
-		uv0.subImage:SetNativeSize()
-	end)
+	GetImageSpriteFromAtlasAsync(slot0:ResPath() .. "/" .. slot1, "", slot0.subImage, true)
 end
 
 slot0.GetTipImage = function(slot0)
@@ -133,12 +135,9 @@ slot0.InitTipImage = function(slot0)
 		return
 	end
 
-	LoadSpriteAtlasAsync("LinkButton/" .. slot1, "", function (slot0)
-		uv0.tipImageName = uv1
-		uv0.tipTr.sprite = slot0
+	slot0.tipImageName = slot1
 
-		uv0.tipTr:SetNativeSize()
-	end)
+	GetImageSpriteFromAtlasAsync("LinkButton/" .. slot1, "", slot0.tipTr, true)
 end
 
 slot0.UpdatePosition = function(slot0, slot1)

@@ -450,6 +450,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「夢幻の中にいようと、守ることを選びつづける」</color>\n「赫輝のマルティリウム」に参加した指揮官に贈る",
 		scene = {}
 	},
+	[331] = {
+		name = "スプレンディド・ハート",
+		gain_by = "",
+		time_second = 0,
+		id = 331,
+		time_limit_type = 0,
+		desc = "イベントで入手可能",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂入り：エンタープライズ",
 		gain_by = "",
@@ -744,6 +753,7 @@ pg.item_data_frame = {
 		328,
 		329,
 		330,
+		331,
 		401,
 		402,
 		403,
