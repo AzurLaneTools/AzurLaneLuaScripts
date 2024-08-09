@@ -150437,7 +150437,7 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 		name = "The Smiling Sawfish+",
 		type = 1,
 		max_level = 10,
-		desc = "Increases this boat's TRP by $3 and Torpedo Crit Rate by #1. At the beginning of battle, fires a $2 torpedo barrage (pattern and DMG are based on the skill's level); if there are other ships afloat in your Submarine Fleet, this barrage's pattern is further improved.",
+		desc = "Increases this boat's TRP by $3 and Torpedo Crit Rate by $1. At the beginning of battle, fires a $2 torpedo barrage (pattern and DMG are based on the skill's level); if there are other ships afloat in your Submarine Fleet, this barrage's pattern is further improved.",
 		id = 1013550,
 		system_transform = {
 			[11.0] = 3500

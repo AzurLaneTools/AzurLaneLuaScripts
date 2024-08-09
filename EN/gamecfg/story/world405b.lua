@@ -11,7 +11,7 @@ return {
 			dir = 1,
 			bgm = "battle-boss-italy",
 			nameColor = "#a9f548",
-			say = "That’s Akagi over there, isn’t it? I can’t see clearly from this ditance though...",
+			say = "That’s Akagi over there, isn’t it? I can’t see clearly from this distance though...",
 			effects = {
 				{
 					center = true,
