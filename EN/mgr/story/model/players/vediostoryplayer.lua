@@ -8,12 +8,12 @@ slot1 = function(slot0)
 	return PathMgr.getAssetBundle("originsource/cpk/" .. slot0 .. ".cpk")
 end
 
-slot0.RegisterTrigger = function(slot0, slot1, slot2, slot3)
-	slot0:CheckAndPlay(slot2, slot2:GetVedioPath(), slot3)
+slot0.RegisetEvent = function(slot0, slot1, slot2)
+	slot0:CheckAndPlay(slot1, slot1:GetVedioPath(), slot2)
 end
 
 slot0.CheckAndPlay = function(slot0, slot1, slot2, slot3)
-	if not PathMgr.FileExists(uv0(slot2)) then
+	if not IsUnityEditor and not PathMgr.FileExists(uv0(slot2)) then
 		slot3()
 
 		return

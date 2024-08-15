@@ -72,6 +72,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Granted to all Commanders who have defended the port for five years.</color>\nEarned by participating in the 5th Anniversary limited event.",
 		scene = {}
 	},
+	[108] = {
+		name = "6th Anniversary",
+		gain_by = "",
+		time_second = 0,
+		id = 108,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>Granted to all Commanders who have defended the port for six years.</color>\nEarned by participating in the 6th Anniversary limited event.",
+		scene = {}
+	},
 	[201] = {
 		name = "Achievement Chat Bubbles",
 		gain_by = "",
@@ -465,7 +474,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 331,
 		time_limit_type = 0,
-		desc = "Obtained from an event.",
+		desc = "<color=#ffffff>A resplendent heart that never stops. A gale of iron blowing through the waves.</color> \nGiven to Commanders who participated in the Windborne Steel Wings event.",
 		scene = {}
 	},
 	[406] = {
@@ -574,6 +583,15 @@ pg.item_data_frame = {
 		id = 606,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>Feel the breeze, take in the sun, and enjoy yourself!</color> Obtained in the \"Pleasure, Leisure, and Treasure\" event.",
+		scene = {}
+	},
+	[607] = {
+		name = "A Trip to the Prairie",
+		gain_by = "",
+		time_second = 0,
+		id = 607,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>No one can escape their own story. Not even a free-spirited rider.</color> Given to Commanders who participated in the Wild West Vacation Log event.",
 		scene = {}
 	},
 	[10001] = {
@@ -693,6 +711,7 @@ pg.item_data_frame = {
 		105,
 		106,
 		107,
+		108,
 		201,
 		202,
 		203,
@@ -749,6 +768,7 @@ pg.item_data_frame = {
 		603,
 		605,
 		606,
+		607,
 		10001,
 		10002,
 		10003,

@@ -136,9 +136,9 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "main",
+		default_bgm = "story-island-soft",
 		special_bgm = "",
-		bgm = "main"
+		bgm = "story-island-soft"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
@@ -1534,5 +1534,25 @@ pg.voice_bgm = {
 		default_bgm = "theme-akagi-inside",
 		special_bgm = "",
 		bgm = "theme-akagi-inside"
+	},
+	MetalWingMainPage = {
+		default_bgm = "battle-eagleunion",
+		special_bgm = "",
+		bgm = "battle-eagleunion"
+	},
+	PittsburghPtPage = {
+		default_bgm = "theme-designfleet-VII",
+		special_bgm = "",
+		bgm = "theme-designfleet-VII"
+	},
+	CowboyTownBackHillScene = {
+		default_bgm = "story-richang-westdaily",
+		special_bgm = "",
+		bgm = "story-richang-westdaily"
+	},
+	TownScene = {
+		default_bgm = "story-richang-westdaily",
+		special_bgm = "",
+		bgm = "story-richang-westdaily"
 	}
 }

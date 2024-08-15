@@ -1,118 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_15 = {
-	[702040] = {
-		name = "Kirov",
-		id = 702040,
-		desc = "Kirov-Class cruiser—Kirov",
-		illustrator2 = -1,
-		ship_group = 70204,
-		group_index = 0,
-		prefab = "jiluofu",
-		painting = "jiluofu",
-		hand_id = 1,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 28,
-		spine_offset = "",
-		illustrator = 1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.009,
-					1.338,
-					0
-				}
-			},
-			vicegun = {
-				{
-					2.005,
-					1.364,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					2,
-					1.326,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.526,
-							2.357,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[702041] = {
 		name = "Blend R",
 		id = 702041,
@@ -9266,6 +9154,132 @@ pg.base.ship_skin_template_15 = {
 			}
 		}
 	},
+	[807022] = {
+		name = "Fresh and Fortunate",
+		id = 807022,
+		desc = "Mm... Aah, that hits the spot! I just hope my prayers are answered and it suits the Commander's tastes... Heehee, maybe if I personally feed–eep?! C-Commander? D-did you just hear that...?",
+		illustrator2 = -1,
+		ship_group = 80702,
+		group_index = 2,
+		prefab = "banerwei_3",
+		painting = "banerwei_3",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 6,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_drag_rate = "",
+		bg = "133",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71041,
+		voice_actor = 354,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.49,
+					1.229,
+					0
+				}
+			},
+			plane = {
+				{
+					1.41,
+					1.26,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.67,
+							2.28,
+							-1.85
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		ship_l2d_id = {
+			80702201,
+			80702202,
+			80702203,
+			80702204
+		}
+	},
 	[808010] = {
 		name = "Surcouf",
 		id = 808010,
@@ -11116,6 +11130,130 @@ pg.base.ship_skin_template_15 = {
 			},
 			{
 				0.44
+			}
+		}
+	},
+	[901042] = {
+		name = "A Saint's Mercy Can Do No Wrong",
+		id = 901042,
+		desc = "C-Commander, p-please hurry and stop this creature! Otherwise! You might! Get hurt! ...WoooooOOOOAH! Phew... That was a close one... Haah... Praised be the Holy Iris... Urgh...",
+		illustrator2 = -1,
+		ship_group = 90104,
+		group_index = 2,
+		prefab = "kaiersheng_3",
+		painting = "kaiersheng_3",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 25,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "176",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71039,
+		voice_actor = 380,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.53,
+					1.49,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.5,
+					1.41,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.41,
+					1.41,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				-44,
+				-939,
+				0
+			},
+			{
+				0.55
 			}
 		}
 	},

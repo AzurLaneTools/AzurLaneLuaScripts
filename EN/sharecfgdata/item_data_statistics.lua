@@ -24328,6 +24328,131 @@ _G.pg.base.item_data_statistics[30358] = {
 }
 
 
+_G.pg.base.item_data_statistics[30359] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Wild West)",
+	type = 11,
+	display = "Contains a random gear skin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxxibu",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30359",
+	id = 30359,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4021,
+			1
+		},
+		{
+			9,
+			4022,
+			1
+		},
+		{
+			9,
+			4023,
+			1
+		},
+		{
+			9,
+			4024,
+			1
+		},
+		{
+			9,
+			4025,
+			1
+		},
+		{
+			9,
+			4026,
+			1
+		},
+		{
+			9,
+			4027,
+			1
+		},
+		{
+			9,
+			4028,
+			1
+		},
+		{
+			9,
+			4029,
+			1
+		},
+		{
+			9,
+			4030,
+			1
+		},
+		{
+			9,
+			4031,
+			1
+		},
+		{
+			9,
+			4032,
+			1
+		},
+		{
+			9,
+			4033,
+			1
+		},
+		{
+			9,
+			4034,
+			1
+		},
+		{
+			9,
+			4035,
+			1
+		},
+		{
+			9,
+			4036,
+			1
+		},
+		{
+			9,
+			4037,
+			1
+		},
+		{
+			9,
+			4038,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "Random Gear Skin Box",
@@ -34565,6 +34690,219 @@ _G.pg.base.item_data_statistics[30543] = {
 		{
 			9,
 			537,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_data_statistics[30544] = {
+	open_directly = 0,
+	name = "Selection Gear Skin Box (Wild West)",
+	type = 13,
+	display = "Can be opened to receive 1 Wild West gear skin of your choosing.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxxibuzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30544,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4021,
+			1
+		},
+		{
+			9,
+			4022,
+			1
+		},
+		{
+			9,
+			4023,
+			1
+		},
+		{
+			9,
+			4024,
+			1
+		},
+		{
+			9,
+			4025,
+			1
+		},
+		{
+			9,
+			4026,
+			1
+		},
+		{
+			9,
+			4027,
+			1
+		},
+		{
+			9,
+			4028,
+			1
+		},
+		{
+			9,
+			4029,
+			1
+		},
+		{
+			9,
+			4030,
+			1
+		},
+		{
+			9,
+			4031,
+			1
+		},
+		{
+			9,
+			4032,
+			1
+		},
+		{
+			9,
+			4033,
+			1
+		},
+		{
+			9,
+			4034,
+			1
+		},
+		{
+			9,
+			4035,
+			1
+		},
+		{
+			9,
+			4036,
+			1
+		},
+		{
+			9,
+			4037,
+			1
+		},
+		{
+			9,
+			4038,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4021,
+			1
+		},
+		{
+			9,
+			4022,
+			1
+		},
+		{
+			9,
+			4023,
+			1
+		},
+		{
+			9,
+			4024,
+			1
+		},
+		{
+			9,
+			4025,
+			1
+		},
+		{
+			9,
+			4026,
+			1
+		},
+		{
+			9,
+			4027,
+			1
+		},
+		{
+			9,
+			4028,
+			1
+		},
+		{
+			9,
+			4029,
+			1
+		},
+		{
+			9,
+			4030,
+			1
+		},
+		{
+			9,
+			4031,
+			1
+		},
+		{
+			9,
+			4032,
+			1
+		},
+		{
+			9,
+			4033,
+			1
+		},
+		{
+			9,
+			4034,
+			1
+		},
+		{
+			9,
+			4035,
+			1
+		},
+		{
+			9,
+			4036,
+			1
+		},
+		{
+			9,
+			4037,
+			1
+		},
+		{
+			9,
+			4038,
 			1
 		}
 	}
@@ -84030,6 +84368,37 @@ _G.pg.base.item_data_statistics[59848] = {
 }
 
 
+_G.pg.base.item_data_statistics[59849] = {
+	open_directly = 0,
+	name = "6th Anniversary Coin",
+	type = 1,
+	display = "A coin to commemorate Azur Lane's 6th Anniversary. Keep sailing and you will always find new horizons.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "props/liuzhounian",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 59849,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[59851] = {
 	open_directly = 0,
 	name = "Seal of the Black Tortoise",
@@ -84059,6 +84428,39 @@ _G.pg.base.item_data_statistics[59851] = {
 	shiptrans_id = {
 		520044,
 		521044
+	},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[59853] = {
+	open_directly = 0,
+	name = "Wattage Amplifier",
+	type = 7,
+	display = "\"Electrical output... rising...\" – Retrofit material for Eldridge.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/electboostdevice",
+	order = 0,
+	rarity = 4,
+	max_num = 1,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 59853,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {
+		101994
 	},
 	combination_display = {}
 }
@@ -92848,6 +93250,298 @@ _G.pg.base.item_data_statistics[60499] = {
 }
 
 
+_G.pg.base.item_data_statistics[60500] = {
+	open_directly = 0,
+	name = "6th Anniversary Invitation",
+	type = 21,
+	display = "Use to receive an SR ship of your choosing as well as a commemorative note.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_invitation",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 60500,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		2601,
+		2602,
+		2603,
+		2604,
+		2605,
+		2606,
+		2607,
+		2608
+	},
+	open_ui = {
+		"login_year",
+		"t_sixth_us"
+	}
+}
+
+
+_G.pg.base.item_data_statistics[60501] = {
+	open_directly = 0,
+	name = "Reno's Gift (6th Anniversary)",
+	type = 1,
+	display = "A card from Reno. It reads: \"Happy anniversary, Commander! The last year has been amazing. So much superhero content lately... Oh, and if you've got time later, wanna come with me to the movie theater and watch some classic Westerns?\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60501,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[60502] = {
+	open_directly = 0,
+	name = "Bremerton's Gift (6th Anniversary)",
+	type = 1,
+	display = "A card from Bremerton. It reads: \"Here's to another year! A card feels a lot more fancy than a DM, doesn't it? Stop by the saloon so we can have a few drinks – helps loosen them lips if you're in need of some Bremerton-brand consultation.\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60502,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[60503] = {
+	open_directly = 0,
+	name = "Sirius's Gift (6th Anniversary)",
+	type = 1,
+	display = "A card from Sirius. It reads: \"Happy anniversary, my honourable Master. If it's not too presumptuous of me to ask, would you like to practice lasso-throwing with me? I tried it by myself, but embarrassingly, I only ended up lassoing myself...\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60503,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[60504] = {
+	open_directly = 0,
+	name = "Shoukaku's Gift (6th Anniversary)",
+	type = 1,
+	display = "A card from Shoukaku. It reads: \"A happy anniversary to you, Commander. I never thought I'd get to see the open prairie for myself, but I'm glad I got to see it with you, and I hope our next anniversary will be just as novel and unforgettable.\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60504,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[60505] = {
+	open_directly = 0,
+	name = "Bismarck's Gift (6th Anniversary)",
+	type = 1,
+	display = "A card from Bismarck. It reads: \"Happy anniversary, Commander. This has been an experience like no other, with surprises at every turn. Say, would you be willing to join me and U-556 in a game of cops and robbers? I think it'll be quite fun.\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60505,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[60506] = {
+	open_directly = 0,
+	name = "Sovetskaya Rossiya's Gift (6th Anniversary)",
+	type = 1,
+	display = "A card from Sovetskaya Rossiya. It reads: \"Comrade Commander! Happy anniversary! What a remarkable year it's been, and what a unique and fun vacation this has been. That being said, I think I've had enough hot temperatures for one year...\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60506,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[60507] = {
+	open_directly = 0,
+	name = "Jeanne d'Arc's Gift (6th Anniversary)",
+	type = 1,
+	display = "A card from Jeanne d'Arc. It reads: \"Happy anniversary, Commander, and may the Lord's blessings be with you! Let us reflect upon the past year together, remembering both the highlights and hardships alike, and thank the Lord for allowing us such a wonderful vacation!\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60507,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[60508] = {
+	open_directly = 0,
+	name = "Pola's Gift (6th Anniversary)",
+	type = 1,
+	display = "A card from Pola. It reads: \"It's been a hell of a year, hasn't it? Happy anniversary. Zara and I felt a little adventurous earlier, so we practiced riding horseback. As fun as it was, I think I'd like to ride something ELSE, if you catch my drift.\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60508,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[69959] = {
 	open_directly = 0,
 	name = "Mystery T5 Tech Pack",
@@ -93579,6 +94273,73 @@ _G.pg.base.item_data_statistics[81404] = {
 		{
 			2,
 			86404,
+			1
+		},
+		{
+			1,
+			14,
+			2024
+		},
+		{
+			2,
+			42066,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[81405] = {
+	open_directly = 1,
+	name = "6th Anniversary Lucky Barrel",
+	type = 17,
+	display = "Contains 1x random skin, 2x Special General Blueprints - Series 7, 2024x Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai89",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998506",
+	id = 81405,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86405,
 			1
 		},
 		{

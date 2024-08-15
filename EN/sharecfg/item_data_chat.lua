@@ -48,6 +48,14 @@ pg.item_data_chat = {
 		desc = "Granted to all Commanders who have defended the port for five years.\n<color=#A7A7AAFF>Earned by participating in the 5th Anniversary limited event.</color>",
 		scene = {}
 	},
+	[106] = {
+		name = "6th Anniversary",
+		time_second = 0,
+		id = 106,
+		time_limit_type = 0,
+		desc = "Granted to all Commanders who have defended the port for six years.\n<color=#A7A7AAFF>Earned by participating in the 6th Anniversary limited event.</color>",
+		scene = {}
+	},
 	[300] = {
 		name = "Leader",
 		time_second = 2592000,
@@ -86,6 +94,14 @@ pg.item_data_chat = {
 		id = 606,
 		time_limit_type = 0,
 		desc = "The waves flow and the winds blow at sea, the best place to be! \n<color=#A7A7AAFF>Obtained in the \"Pleasure, Leisure, and Treasure\" event.</color>",
+		scene = {}
+	},
+	[607] = {
+		name = "Memories from the Frontier",
+		time_second = 0,
+		id = 607,
+		time_limit_type = 0,
+		desc = "A symbol of your memories of the frontier, of pioneering, and of the Wild West.\n<color=#A7A7AAFF>Given to Commanders who participated in the Wild West Vacation Log event.</color>",
 		scene = {}
 	},
 	[10001] = {
@@ -191,11 +207,13 @@ pg.item_data_chat = {
 		103,
 		104,
 		105,
+		106,
 		300,
 		301,
 		602,
 		603,
 		606,
+		607,
 		10001,
 		10002,
 		10003,

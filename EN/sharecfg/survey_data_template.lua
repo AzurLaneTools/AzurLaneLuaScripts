@@ -20,10 +20,10 @@ pg.survey_data_template = {
 	[1002] = {
 		ios_url = "",
 		uo_url = "",
-		main_url = "http://survey.yostar.net/vm/wKrlqqF.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6",
+		main_url = "https://survey.yostar.net/vm/eOIYeHc.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6",
 		id = 1002,
-		name = "Azur Lane Light of the Martyrium Event Player Survey",
-		main_activity = "270316309",
+		name = "Azur Lane 6th Anniversary Survey",
+		main_activity = "278045828",
 		ios_activity = "",
 		uo_activity = "",
 		bonus = {

@@ -9820,6 +9820,17 @@ _G.pg.base.gametip.ship_remould_sueecss = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_101994 = {
+	tip = [[
+Completing the retrofit will have the following effects:
+<color=#92fc63>This ship will gain +1 Anti-Air Gun base and receive special ASW gear.</color>
+The skill <color=#92fc63>Operation Rainbow</color> will be upgraded into <color=#92fc63>Operation Rainbow+</color>.
+The skill <color=#92fc63>All Out Assault II</color> will be upgraded into <color=#92fc63>All Out Assault III</color>.
+Completing the retrofit will spend your <color=#92fc63>Wattage Amplifier</color>.
+Proceed with retrofit?]]
+}
+
+
 _G.pg.base.gametip.ship_remould_warning_102174 = {
 	tip = "The <color=#92fc63>Sparkling Mic</color> will be used to complete the retrofit.\nWould you like to continue? "
 }
@@ -12809,7 +12820,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for Strasbourg, Dupleix!"
+	tip = "Rate UP for Pittsburgh, Indiana, and more!"
 }
 
 
@@ -15221,7 +15232,7 @@ Event Information:
  a. Active Commander 
  b. Returning or new Commander
 2. Players who meet the following criterion are categorized as Active Commanders and are eligible for Active Commander objectives and rewards: 
-- Logged in at least once at any point between May 11th, 2023 and before the maintenance on May 25th, 2023.
+- Logged in at least once at any point between August 1st, 2024 and before the maintenance on August 15th, 2024.
 3. Players who do not meet this criterion are categorized as Returning or new Commanders and are eligible for their own set of objectives and rewards.
 4. If you are unsure whether you are an Active Commander or a Returning or new Commander, please view the information in the Returnee Missions banner. 
 5. An Active Commander's objective is to receive Returnee Points from up to 2 other players who participate in and complete Returnee Missions. Once an Active Commander has collected enough points, they can claim various nice rewards from the event banner.
@@ -29386,6 +29397,16 @@ _G.pg.base.gametip.battle_text_luodeni_3 = {
 }
 
 
+_G.pg.base.gametip.battle_text_pizibao_1 = {
+	tip = "Support has arrived! <color=#f1f102>Draw the enemy's fire</color> and protect your allies!"
+}
+
+
+_G.pg.base.gametip.battle_text_pizibao_2 = {
+	tip = "The supporting fleet <color=#f1f102>has been destroyed</color>! The battle will get tougher!"
+}
+
+
 _G.pg.base.gametip.series_enemy_mood = {
 	tip = "Low Morale"
 }
@@ -34890,4 +34911,70 @@ _G.pg.base.gametip.sitelasibao_expup_desc = {
 
 _G.pg.base.gametip.levelScene_tracking_error_pre_2 = {
 	tip = "Unlocked by clearing $1 or $2."
+}
+
+
+_G.pg.base.gametip.town_lock_level = {
+	tip = "Reach Frontier Town Lv. $1"
+}
+
+
+_G.pg.base.gametip.town_place_next_title = {
+	tip = "On the next level:"
+}
+
+
+_G.pg.base.gametip.town_unlcok_new = {
+	tip = "Unlock New Worksite"
+}
+
+
+_G.pg.base.gametip.town_unlcok_level = {
+	tip = "Level Cap Increased"
+}
+
+
+_G.pg.base.gametip["0815_main_help"] = {
+	tip = {
+		{
+			info = [[
+- Overview -
+The Wild West Vacation Log event is available between <color=#92fc63>August 15th and August 28th</color>.
+
+· Collect ingots during the event to upgrade buildings and raise your prosperity level to receive various rewards and story snippets!
+· You can also complete event missions to receive limited rewards, including a <color=#92fc63>portrait frame</color>, a <color=#92fc63>chat frame</color>, and <color=#92fc63>furniture</color> for your dorm!
+· You will receive 1 minigame point every day upon logging in until August 21st. Complete the event minigame while in possession of minigame points to earn rewards!]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.town_help = {
+	tip = {
+		{
+			info = [[
+- Overview -
+The Wild West Vacation Log event is available between <color=#92fc63>August 15th and August 28th</color>.
+
+· You will passively obtain ingots in the frontier town as time passes. You can also obtain ingots by completing event missions or tapping the chibi characters that sometimes appear in the town.
+· Ingots can be used to increase the level of your buildings. The higher your building level, the more ingots you get and the further your prosperity level increases.
+· Once the town's prosperity gets high enough, you can spend ingots to raise your town level. Increasing your town level will unlock new content, including new buildings.
+· You can set your shipgirls as pioneers. Pioneers gain additional Affinity from sorties and they may appear in the town. Tapping them will grant you a small amount of ingots.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.activity_0815_town_memory = {
+	tip = "Insufficient items. Complete event missions to unlock more event stories!"
+}
+
+
+_G.pg.base.gametip.town_gold_tip = {
+	tip = "You cannot store more ingots. If you claim more ingots, any that exceed your max capacity will be discarded. Do you wish to continue?"
+}
+
+
+_G.pg.base.gametip.award_max_warning_minigame = {
+	tip = "Any rewards that <color=#ff5c5c>exceed your max storage capacity</color> will be discarded if you claim them. Do you wish to continue?"
 }

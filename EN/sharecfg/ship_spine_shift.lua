@@ -441,5 +441,54 @@ pg.ship_spine_shift = {
 			-15,
 			2
 		}
+	},
+	fage = {
+		spine = "fage",
+		mainui_shift = {
+			0,
+			-32
+		}
+	},
+	feiyu = {
+		spine = "feiyu",
+		mainui_shift = {
+			4,
+			8
+		}
+	},
+	u556_3 = {
+		spine = "u556_3",
+		mainui_shift = {
+			-15,
+			18
+		}
+	},
+	fage_2 = {
+		spine = "fage_2",
+		mainui_shift = {
+			0,
+			-25
+		}
+	},
+	feiyu_2 = {
+		spine = "feiyu_2",
+		mainui_shift = {
+			4,
+			8
+		}
+	},
+	kaiersheng_3 = {
+		spine = "kaiersheng_3",
+		mainui_shift = {
+			0,
+			-70
+		}
+	},
+	U556 = {
+		spine = "U556",
+		mainui_shift = {
+			24,
+			0
+		}
 	}
 }

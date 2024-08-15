@@ -46,6 +46,7 @@ slot0.EVENT_CHANGE_IDLE_INDEX = "event change idle index"
 slot0.relation_type_drag_x = 101
 slot0.relation_type_drag_y = 102
 slot0.relation_type_action_index = 103
+slot0.relation_type_idle = 104
 slot6 = {
 	CubismParameterBlendMode.Override,
 	CubismParameterBlendMode.Additive,
@@ -159,7 +160,7 @@ slot11 = function(slot0, slot1, slot2)
 	if not slot0.isPlaying or slot2 then
 		slot3 = uv1.action2Id[slot1]
 
-		print("action id " .. tostring(slot1) .. " play action " .. tostring(slot3))
+		print("action id " .. tostring(slot1) .. " → 开始播放动作" .. tostring(slot3))
 
 		if slot3 then
 			slot0.playActionName = slot1
@@ -256,22 +257,22 @@ slot14 = function(slot0, slot1, slot2)
 	end
 end
 
-slot15 = function(slot0)
+slot15 = function(slot0, slot1)
 	if not slot0._l2dCharEnable then
 		return
 	end
 
-	if slot0._readlyToStop then
+	if slot0._readlyToStop and not slot1 then
 		return
 	end
 
 	slot0._listenerParametersValue = {}
 
 	if slot0._listenerStepIndex and slot0._listenerStepIndex == 0 then
-		slot0._listenerStepIndex = 10
+		slot0._listenerStepIndex = 5
 
-		for slot4, slot5 in ipairs(slot0._listenerParameters) do
-			slot0._listenerParametersValue[slot5.name] = slot5.Value
+		for slot5, slot6 in ipairs(slot0._listenerParameters) do
+			slot0._listenerParametersValue[slot6.name] = slot6.Value
 		end
 
 		slot0:onListenerHandle(Live2D.ON_ACTION_PARAMETER, {
@@ -281,43 +282,43 @@ slot15 = function(slot0)
 		slot0._listenerStepIndex = slot0._listenerStepIndex - 1
 	end
 
-	slot1 = false
-	slot2 = ReflectionHelp.RefGetField(typeof(Live2dChar), "reactPos", slot0.liveCom)
+	slot2 = false
+	slot3 = ReflectionHelp.RefGetField(typeof(Live2dChar), "reactPos", slot0.liveCom)
 
-	for slot6 = 1, #slot0.drags do
-		slot0.drags[slot6]:changeReactValue(slot2)
-		slot0.drags[slot6]:stepParameter()
+	for slot7 = 1, #slot0.drags do
+		slot0.drags[slot7]:changeReactValue(slot3)
+		slot0.drags[slot7]:stepParameter()
 
-		slot8 = slot0.drags[slot6]:getActive()
+		slot9 = slot0.drags[slot7]:getActive()
 
-		if (slot0.drags[slot6]:getParameToTargetFlag() or slot8) and slot0.drags[slot6]:getIgnoreReact() then
-			slot1 = true
-		elseif slot0.drags[slot6]:getReactCondition() then
-			slot1 = true
+		if (slot0.drags[slot7]:getParameToTargetFlag() or slot9) and slot0.drags[slot7]:getIgnoreReact() then
+			slot2 = true
+		elseif slot0.drags[slot7]:getReactCondition() then
+			slot2 = true
 		end
 
-		slot10 = slot0.drags[slot6]:getParameterUpdateFlag()
+		slot11 = slot0.drags[slot7]:getParameterUpdateFlag()
 
-		if slot0.drags[slot6]:getParameter() and slot10 and slot0.drags[slot6]:getParameterCom() then
-			slot0.liveCom:ChangeParameterData(slot11, slot9)
+		if slot0.drags[slot7]:getParameter() and slot11 and slot0.drags[slot7]:getParameterCom() then
+			slot0.liveCom:ChangeParameterData(slot12, slot10)
 		end
 
-		for slot15, slot16 in ipairs(slot0.drags[slot6]:getRelationParameterList()) do
-			if slot16.enable then
-				slot0.liveCom:ChangeParameterData(slot16.com, slot16.value)
+		for slot16, slot17 in ipairs(slot0.drags[slot7]:getRelationParameterList()) do
+			if slot17.enable then
+				slot0.liveCom:ChangeParameterData(slot17.com, slot17.value)
 			end
 		end
 	end
 
-	if slot1 ~= slot0.ignoreReact then
-		if not slot1 then
+	if slot2 ~= slot0.ignoreReact then
+		if not slot2 then
 			if not slot0.mouseInputDown then
 				if slot0.isPlaying then
 					-- Nothing
 				end
 			end
 		else
-			slot0:setReactPos(slot1)
+			slot0:setReactPos(slot2)
 		end
 	end
 end
@@ -639,7 +640,10 @@ slot0.SetVisible = function(slot0, slot1)
 		slot0:loadLive2dData()
 	else
 		slot0:saveLive2dData()
+		slot0:loadLive2dData()
 	end
+
+	uv1(slot0, true)
 
 	slot0._animator.speed = 1
 end
@@ -653,6 +657,7 @@ slot0.loadLive2dData = function(slot0)
 		if slot0.drags then
 			for slot4 = 1, #slot0.drags do
 				slot0.drags[slot4]:clearData()
+				slot0.drags[slot4]:loadL2dFinal()
 			end
 		end
 
@@ -660,8 +665,6 @@ slot0.loadLive2dData = function(slot0)
 		slot0._animator:Play("idle")
 
 		slot0.saveActionAbleId = nil
-
-		uv0(slot0)
 
 		return
 	end
@@ -717,10 +720,9 @@ slot0.loadLive2dData = function(slot0)
 	if slot0.drags then
 		for slot7 = 1, #slot0.drags do
 			slot0.drags[slot7]:loadData()
+			slot0.drags[slot7]:loadL2dFinal()
 		end
 	end
-
-	uv0(slot0)
 end
 
 slot0.saveLive2dData = function(slot0)

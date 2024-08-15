@@ -10427,6 +10427,54 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70264] = {
+		id = 70264,
+		name = "2024匹兹堡活动 EX 转阶段",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = -26,
+					z = 0
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70265] = {
+		id = 70265,
+		name = "2024匹兹堡活动 EX 攻击舰出场",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = 20,
+					z = 0
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

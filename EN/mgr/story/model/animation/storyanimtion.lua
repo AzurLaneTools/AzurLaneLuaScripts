@@ -125,6 +125,22 @@ slot0.TweenValue = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slo
 	end)
 end
 
+slot0.TweenValueWithEase = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8)
+	slot0:DelayCall(slot5, function ()
+		slot0 = LeanTween.value(go(uv0), uv1, uv2, uv3 * uv4.timeScale):setOnUpdate(System.Action_float(uv5)):setEase(uv6)
+
+		if uv7 then
+			slot0:setOnComplete(System.Action(function ()
+				if uv0 then
+					uv0()
+				end
+			end))
+		end
+
+		table.insert(uv4.tweens, uv0)
+	end)
+end
+
 slot0.TweenValueLoop = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	slot0:DelayCall(slot5, function ()
 		slot0 = LeanTween.value(go(uv0), uv1, uv2, uv3 * uv4.timeScale):setOnUpdate(System.Action_float(uv5)):setLoopClamp()

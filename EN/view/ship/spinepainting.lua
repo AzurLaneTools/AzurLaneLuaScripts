@@ -208,16 +208,7 @@ slot0.updateDragClick = function(slot0)
 		slot0.inAction = true
 	end
 
-	if slot0.shipDragData.drag_click_data.type == SpinePaintingConst.click_type_list then
-		slot0.clickActionList = Clone(slot1.list)
-		slot0.lockLayer = slot1.lock_layer
-
-		slot0:checkListAction()
-
-		return true
-	end
-
-	return false
+	return slot0:checkSpecialDrag(slot0.shipDragData.drag_click_data)
 end
 
 slot0.checkListAction = function(slot0)
@@ -238,8 +229,14 @@ slot0.displayWord = function(slot0, slot1)
 end
 
 slot0.DoDragTouch = function(slot0)
+	if slot0.inAction or slot0._displayWord then
+		return false
+	else
+		slot0.inAction = true
+	end
+
 	if slot0:isDragShip() then
-		slot0:updateDragTouch()
+		slot0:checkSpecialDrag(slot0.shipDragData.drag_data)
 	end
 end
 
@@ -251,15 +248,22 @@ slot0.isDragShip = function(slot0)
 	return false
 end
 
-slot0.updateDragTouch = function(slot0)
-	if slot0.inAction then
-		return
-	else
-		slot0.inAction = true
+slot0.checkSpecialDrag = function(slot0, slot1)
+	if slot1.type == SpinePaintingConst.drag_type_normal or slot2 == SpinePaintingConst.drag_type_rgb then
+		slot0:doDragChange(slot1)
+	elseif slot2 == SpinePaintingConst.drag_type_list then
+		slot0.clickActionList = Clone(slot1.list)
+		slot0.lockLayer = slot1.lock_layer
+
+		slot0:checkListAction()
+
+		return true
 	end
 
-	slot1 = slot0.shipDragData.drag_data
+	return false
+end
 
+slot0.doDragChange = function(slot0, slot1)
 	if not slot0.idleName or slot0.idleName ~= "ex" then
 		slot0.idleName = "ex"
 		slot3 = slot1.name

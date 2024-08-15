@@ -314,6 +314,10 @@ slot0.removeTaskById = function(slot0, slot1)
 		return
 	end
 
+	if slot2:isCircle() then
+		return
+	end
+
 	slot0.finishData[slot1] = slot0.data[slot1]:clone()
 	slot0.finishData[slot1].submitTime = pg.TimeMgr.GetInstance():GetServerTime()
 	slot0.data[slot1] = nil

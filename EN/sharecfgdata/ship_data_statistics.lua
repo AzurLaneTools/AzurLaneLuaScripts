@@ -21064,6 +21064,634 @@ _G.pg.base.ship_data_statistics[101514] = {
 }
 
 
+_G.pg.base.ship_data_statistics[101521] = {
+	nationality = 1,
+	oxy_max = 0,
+	type = 1,
+	name = "Bell",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	ammo = 0,
+	id = 101521,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "USS Bell ",
+	oxy_cost = 0,
+	skin_id = 101520,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		349,
+		16,
+		54,
+		33,
+		0,
+		77,
+		0,
+		74,
+		59,
+		42,
+		75,
+		54
+	},
+	attrs_growth = {
+		9929,
+		222,
+		725,
+		727,
+		0,
+		534,
+		0,
+		1143,
+		1095,
+		0,
+		0,
+		608
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		108,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.2,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Fletcher-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[101522] = {
+	nationality = 1,
+	oxy_max = 0,
+	type = 1,
+	name = "Bell",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	ammo = 0,
+	id = 101522,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "USS Bell ",
+	oxy_cost = 0,
+	skin_id = 101520,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		434,
+		20,
+		67,
+		41,
+		0,
+		77,
+		0,
+		74,
+		59,
+		42,
+		75,
+		67
+	},
+	attrs_growth = {
+		9929,
+		222,
+		725,
+		727,
+		0,
+		534,
+		0,
+		1143,
+		1095,
+		0,
+		0,
+		608
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		108,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.17,
+		1.22,
+		1.22
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Fletcher-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[101523] = {
+	nationality = 1,
+	oxy_max = 0,
+	type = 1,
+	name = "Bell",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	ammo = 0,
+	id = 101523,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "USS Bell ",
+	oxy_cost = 0,
+	skin_id = 101520,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		604,
+		28,
+		94,
+		57,
+		0,
+		77,
+		0,
+		74,
+		59,
+		42,
+		75,
+		94
+	},
+	attrs_growth = {
+		9929,
+		222,
+		725,
+		727,
+		0,
+		534,
+		0,
+		1143,
+		1095,
+		0,
+		0,
+		608
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		108,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.25,
+		1.25
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Fletcher-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[101524] = {
+	nationality = 1,
+	oxy_max = 0,
+	type = 1,
+	name = "Bell",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	ammo = 0,
+	id = 101524,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "USS Bell ",
+	oxy_cost = 0,
+	skin_id = 101520,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		859,
+		40,
+		134,
+		82,
+		0,
+		77,
+		0,
+		74,
+		59,
+		42,
+		75,
+		134
+	},
+	attrs_growth = {
+		9929,
+		222,
+		725,
+		727,
+		0,
+		534,
+		0,
+		1143,
+		1095,
+		0,
+		0,
+		608
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		108,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.3,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Fletcher-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[101994] = {
+	nationality = 1,
+	oxy_max = 0,
+	type = 1,
+	name = "Eldridge (Retrofit)",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 101994,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "USS Eldridge",
+	oxy_cost = 0,
+	skin_id = 101260,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		683,
+		37,
+		179,
+		84,
+		0,
+		85,
+		0,
+		71,
+		78,
+		25.2,
+		75,
+		139
+	},
+	attrs_growth = {
+		7901,
+		207,
+		919,
+		749,
+		0,
+		590,
+		0,
+		1088,
+		1440,
+		0,
+		0,
+		627
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		492
+	},
+	base_list = {
+		1,
+		2,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.3,
+		1.25
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+
 _G.pg.base.ship_data_statistics[102011] = {
 	nationality = 1,
 	oxy_max = 0,
@@ -36350,6 +36978,518 @@ _G.pg.base.ship_data_statistics[102324] = {
 }
 
 
+_G.pg.base.ship_data_statistics[102331] = {
+	nationality = 1,
+	oxy_max = 0,
+	type = 2,
+	name = "Fargo",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 102331,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "USS Fargo",
+	oxy_cost = 0,
+	skin_id = 102330,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		760,
+		32,
+		0,
+		65,
+		0,
+		72,
+		0,
+		57,
+		30,
+		32.5,
+		75,
+		25
+	},
+	attrs_growth = {
+		18857,
+		442,
+		0,
+		1371,
+		0,
+		501,
+		0,
+		840,
+		594,
+		0,
+		0,
+		309
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		0.75,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Fargo-Class",
+		"Fargo"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[102332] = {
+	nationality = 1,
+	oxy_max = 0,
+	type = 2,
+	name = "Fargo",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 102332,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "USS Fargo",
+	oxy_cost = 0,
+	skin_id = 102330,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		945,
+		40,
+		0,
+		81,
+		0,
+		72,
+		0,
+		57,
+		30,
+		32.5,
+		75,
+		31
+	},
+	attrs_growth = {
+		18857,
+		442,
+		0,
+		1371,
+		0,
+		501,
+		0,
+		840,
+		594,
+		0,
+		0,
+		309
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		0.75,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Fargo-Class",
+		"Fargo"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[102333] = {
+	nationality = 1,
+	oxy_max = 0,
+	type = 2,
+	name = "Fargo",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 102333,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "USS Fargo",
+	oxy_cost = 0,
+	skin_id = 102330,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1316,
+		56,
+		0,
+		113,
+		0,
+		72,
+		0,
+		57,
+		30,
+		32.5,
+		75,
+		44
+	},
+	attrs_growth = {
+		18857,
+		442,
+		0,
+		1371,
+		0,
+		501,
+		0,
+		840,
+		594,
+		0,
+		0,
+		309
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		0.75,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Fargo-Class",
+		"Fargo"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[102334] = {
+	nationality = 1,
+	oxy_max = 0,
+	type = 2,
+	name = "Fargo",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 102334,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "USS Fargo",
+	oxy_cost = 0,
+	skin_id = 102330,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1873,
+		79,
+		0,
+		161,
+		0,
+		72,
+		0,
+		57,
+		30,
+		32.5,
+		75,
+		63
+	},
+	attrs_growth = {
+		18857,
+		442,
+		0,
+		1371,
+		0,
+		501,
+		0,
+		840,
+		594,
+		0,
+		0,
+		309
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		0.75,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Fargo-Class",
+		"Fargo"
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[103011] = {
 	nationality = 1,
 	oxy_max = 0,
@@ -45934,6 +47074,514 @@ _G.pg.base.ship_data_statistics[103274] = {
 }
 
 
+_G.pg.base.ship_data_statistics[103281] = {
+	nationality = 1,
+	oxy_max = 0,
+	type = 3,
+	name = "Pittsburgh",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.4",
+	rarity = 5,
+	ammo = 0,
+	id = 103281,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "USS Pittsburgh",
+	oxy_cost = 0,
+	skin_id = 103280,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		867,
+		47,
+		0,
+		63,
+		0,
+		68,
+		0,
+		45,
+		9,
+		26.4,
+		72,
+		0
+	},
+	attrs_growth = {
+		21856,
+		645,
+		0,
+		1326,
+		0,
+		470,
+		0,
+		701,
+		372,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		0.65,
+		1.35
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Baltimore-Class",
+		"Pittsburgh"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[103282] = {
+	nationality = 1,
+	oxy_max = 0,
+	type = 3,
+	name = "Pittsburgh",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.4",
+	rarity = 5,
+	ammo = 0,
+	id = 103282,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "USS Pittsburgh",
+	oxy_cost = 0,
+	skin_id = 103280,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1078,
+		59,
+		0,
+		78,
+		0,
+		68,
+		0,
+		45,
+		9,
+		26.4,
+		72,
+		0
+	},
+	attrs_growth = {
+		21856,
+		645,
+		0,
+		1326,
+		0,
+		470,
+		0,
+		701,
+		372,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		0.65,
+		1.35
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Baltimore-Class",
+		"Pittsburgh"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[103283] = {
+	nationality = 1,
+	oxy_max = 0,
+	type = 3,
+	name = "Pittsburgh",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.4",
+	rarity = 5,
+	ammo = 0,
+	id = 103283,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "USS Pittsburgh",
+	oxy_cost = 0,
+	skin_id = 103280,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1501,
+		82,
+		0,
+		109,
+		0,
+		68,
+		0,
+		45,
+		9,
+		26.4,
+		72,
+		0
+	},
+	attrs_growth = {
+		21856,
+		645,
+		0,
+		1326,
+		0,
+		470,
+		0,
+		701,
+		372,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		0.65,
+		1.35
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Baltimore-Class",
+		"Pittsburgh"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[103284] = {
+	nationality = 1,
+	oxy_max = 0,
+	type = 3,
+	name = "Pittsburgh",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.4",
+	rarity = 5,
+	ammo = 0,
+	id = 103284,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "USS Pittsburgh",
+	oxy_cost = 0,
+	skin_id = 103280,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		2136,
+		117,
+		0,
+		155,
+		0,
+		68,
+		0,
+		45,
+		9,
+		26.4,
+		72,
+		0
+	},
+	attrs_growth = {
+		21856,
+		645,
+		0,
+		1326,
+		0,
+		470,
+		0,
+		701,
+		372,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		0.7,
+		1.4
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Baltimore-Class",
+		"Pittsburgh"
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[104011] = {
 	nationality = 1,
 	oxy_max = 0,
@@ -52760,6 +54408,514 @@ _G.pg.base.ship_data_statistics[105144] = {
 	tag_list = {
 		"South Dakota-Class",
 		"South Dakota"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[105151] = {
+	nationality = 1,
+	oxy_max = 0,
+	type = 5,
+	name = "Indiana",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 105151,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "USS Indiana",
+	oxy_cost = 0,
+	skin_id = 105150,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1345,
+		82,
+		0,
+		78,
+		0,
+		58,
+		0,
+		22,
+		7,
+		27.8,
+		62,
+		0
+	},
+	attrs_growth = {
+		35832,
+		958,
+		0,
+		1523,
+		0,
+		490,
+		0,
+		371,
+		205,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"South Dakota-Class",
+		"Indiana"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[105152] = {
+	nationality = 1,
+	oxy_max = 0,
+	type = 5,
+	name = "Indiana",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 105152,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "USS Indiana",
+	oxy_cost = 0,
+	skin_id = 105150,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1673,
+		102,
+		0,
+		97,
+		0,
+		58,
+		0,
+		22,
+		7,
+		27.8,
+		62,
+		0
+	},
+	attrs_growth = {
+		35832,
+		958,
+		0,
+		1523,
+		0,
+		490,
+		0,
+		371,
+		205,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"South Dakota-Class",
+		"Indiana"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[105153] = {
+	nationality = 1,
+	oxy_max = 0,
+	type = 5,
+	name = "Indiana",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 105153,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "USS Indiana",
+	oxy_cost = 0,
+	skin_id = 105150,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		2329,
+		143,
+		0,
+		135,
+		0,
+		58,
+		0,
+		22,
+		7,
+		27.8,
+		62,
+		0
+	},
+	attrs_growth = {
+		35832,
+		958,
+		0,
+		1523,
+		0,
+		490,
+		0,
+		371,
+		205,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"South Dakota-Class",
+		"Indiana"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[105154] = {
+	nationality = 1,
+	oxy_max = 0,
+	type = 5,
+	name = "Indiana",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 105154,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "USS Indiana",
+	oxy_cost = 0,
+	skin_id = 105150,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		3313,
+		204,
+		0,
+		192,
+		0,
+		58,
+		0,
+		22,
+		7,
+		27.8,
+		62,
+		0
+	},
+	attrs_growth = {
+		35832,
+		958,
+		0,
+		1523,
+		0,
+		490,
+		0,
+		371,
+		205,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"South Dakota-Class",
+		"Indiana"
 	}
 }
 
@@ -74061,6 +76217,930 @@ _G.pg.base.ship_data_statistics[108084] = {
 			{
 				1,
 				-3
+			}
+		}
+	},
+	tag_list = {
+		"Gato-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[108091] = {
+	nationality = 1,
+	oxy_max = 243,
+	type = 8,
+	name = "Herring",
+	huntingrange_level = 1,
+	star = 2,
+	oxy_recovery = 4,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 2,
+	id = 108091,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 30,
+	english_name = "USS Herring",
+	oxy_cost = 10,
+	skin_id = 108090,
+	attack_duration = 5,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 8,
+	armor_type = 1,
+	attrs = {
+		273,
+		13,
+		97,
+		0,
+		0,
+		34,
+		0,
+		67,
+		8,
+		20,
+		54,
+		0
+	},
+	attrs_growth = {
+		7768,
+		182,
+		1166,
+		0,
+		0,
+		235,
+		0,
+		991,
+		251,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		140,
+		140,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.05,
+		0.9
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				0,
+				-2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		{
+			{
+				-1,
+				-2
+			},
+			{
+				-1,
+				2
+			},
+			{
+				1,
+				-2
+			},
+			{
+				1,
+				2
+			}
+		},
+		{
+			{
+				-2,
+				-2
+			},
+			{
+				-2,
+				-1
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			}
+		},
+		{
+			{
+				-2,
+				0
+			},
+			{
+				-2,
+				1
+			},
+			{
+				2,
+				0
+			}
+		},
+		{
+			{
+				2,
+				-2
+			},
+			{
+				2,
+				-1
+			}
+		}
+	},
+	tag_list = {
+		"Gato-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[108092] = {
+	nationality = 1,
+	oxy_max = 243,
+	type = 8,
+	name = "Herring",
+	huntingrange_level = 1,
+	star = 3,
+	oxy_recovery = 4,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 2,
+	id = 108092,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 30,
+	english_name = "USS Herring",
+	oxy_cost = 10,
+	skin_id = 108090,
+	attack_duration = 5,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 8,
+	armor_type = 1,
+	attrs = {
+		340,
+		16,
+		121,
+		0,
+		0,
+		34,
+		0,
+		67,
+		8,
+		20,
+		54,
+		0
+	},
+	attrs_growth = {
+		7768,
+		182,
+		1166,
+		0,
+		0,
+		235,
+		0,
+		991,
+		251,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		140,
+		140,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.1,
+		0.9
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				0,
+				-2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		{
+			{
+				-1,
+				-2
+			},
+			{
+				-1,
+				2
+			},
+			{
+				1,
+				-2
+			},
+			{
+				1,
+				2
+			}
+		},
+		{
+			{
+				-2,
+				-2
+			},
+			{
+				-2,
+				-1
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			}
+		},
+		{
+			{
+				-2,
+				0
+			},
+			{
+				-2,
+				1
+			},
+			{
+				2,
+				0
+			}
+		},
+		{
+			{
+				2,
+				-2
+			},
+			{
+				2,
+				-1
+			}
+		}
+	},
+	tag_list = {
+		"Gato-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[108093] = {
+	nationality = 1,
+	oxy_max = 243,
+	type = 8,
+	name = "Herring",
+	huntingrange_level = 2,
+	star = 4,
+	oxy_recovery = 4,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 2,
+	id = 108093,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 30,
+	english_name = "USS Herring",
+	oxy_cost = 10,
+	skin_id = 108090,
+	attack_duration = 5,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 8,
+	armor_type = 1,
+	attrs = {
+		473,
+		23,
+		169,
+		0,
+		0,
+		34,
+		0,
+		67,
+		8,
+		20,
+		54,
+		0
+	},
+	attrs_growth = {
+		7768,
+		182,
+		1166,
+		0,
+		0,
+		235,
+		0,
+		991,
+		251,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		140,
+		140,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.1,
+		0.9
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				0,
+				-2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		{
+			{
+				-1,
+				-2
+			},
+			{
+				-1,
+				2
+			},
+			{
+				1,
+				-2
+			},
+			{
+				1,
+				2
+			}
+		},
+		{
+			{
+				-2,
+				-2
+			},
+			{
+				-2,
+				-1
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			}
+		},
+		{
+			{
+				-2,
+				0
+			},
+			{
+				-2,
+				1
+			},
+			{
+				2,
+				0
+			}
+		},
+		{
+			{
+				2,
+				-2
+			},
+			{
+				2,
+				-1
+			}
+		}
+	},
+	tag_list = {
+		"Gato-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[108094] = {
+	nationality = 1,
+	oxy_max = 243,
+	type = 8,
+	name = "Herring",
+	huntingrange_level = 2,
+	star = 5,
+	oxy_recovery = 4,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 2,
+	id = 108094,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 30,
+	english_name = "USS Herring",
+	oxy_cost = 10,
+	skin_id = 108090,
+	attack_duration = 5,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 8,
+	armor_type = 1,
+	attrs = {
+		672,
+		33,
+		242,
+		0,
+		0,
+		34,
+		0,
+		67,
+		8,
+		20,
+		54,
+		0
+	},
+	attrs_growth = {
+		7768,
+		182,
+		1166,
+		0,
+		0,
+		235,
+		0,
+		991,
+		251,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antiaircraft",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		140,
+		140,
+		100
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.2,
+		0.9
+	},
+	strategy_list = {},
+	hunting_range = {
+		{
+			{
+				-1,
+				-1
+			},
+			{
+				-1,
+				0
+			},
+			{
+				-1,
+				1
+			},
+			{
+				0,
+				-2
+			},
+			{
+				0,
+				-1
+			},
+			{
+				0,
+				0
+			},
+			{
+				0,
+				1
+			},
+			{
+				0,
+				2
+			},
+			{
+				1,
+				-1
+			},
+			{
+				1,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		{
+			{
+				-1,
+				-2
+			},
+			{
+				-1,
+				2
+			},
+			{
+				1,
+				-2
+			},
+			{
+				1,
+				2
+			}
+		},
+		{
+			{
+				-2,
+				-2
+			},
+			{
+				-2,
+				-1
+			},
+			{
+				2,
+				1
+			},
+			{
+				2,
+				2
+			}
+		},
+		{
+			{
+				-2,
+				0
+			},
+			{
+				-2,
+				1
+			},
+			{
+				2,
+				0
+			}
+		},
+		{
+			{
+				2,
+				-2
+			},
+			{
+				2,
+				-1
 			}
 		}
 	},
@@ -353224,6 +356304,388 @@ _G.pg.base.ship_data_statistics[900446] = {
 	tag_list = {
 		"Dunkerque-Class",
 		"PRE"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[900447] = {
+	nationality = 5,
+	oxy_max = 0,
+	type = 1,
+	name = "An Shan",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 900447,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "PRAN An shan",
+	oxy_cost = 0,
+	skin_id = 501010,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		904,
+		60,
+		104,
+		79,
+		0,
+		74,
+		0,
+		69,
+		61,
+		45.6,
+		81,
+		122
+	},
+	attrs_growth = {
+		10459,
+		333,
+		582,
+		701,
+		0,
+		515,
+		0,
+		1057,
+		1132,
+		0,
+		0,
+		564
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		90173,
+		45173,
+		90633
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.55,
+		1,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Qinglong",
+		"Anshan-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[900448] = {
+	nationality = 5,
+	oxy_max = 0,
+	type = 2,
+	name = "Chi An",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	ammo = 0,
+	id = 900448,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "ROC Chi An",
+	oxy_cost = 0,
+	skin_id = 502090,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1011,
+		35,
+		107,
+		56,
+		0,
+		53,
+		0,
+		54,
+		24,
+		20,
+		20,
+		43
+	},
+	attrs_growth = {
+		10179,
+		193,
+		599,
+		495,
+		0,
+		372,
+		0,
+		793,
+		444,
+		0,
+		0,
+		215
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		22293,
+		90173,
+		45173
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		0.9,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Chi An"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[900449] = {
+	nationality = 5,
+	oxy_max = 0,
+	type = 2,
+	name = "Harbin",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 900449,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "PRAN Harbin",
+	oxy_cost = 0,
+	skin_id = 599010,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		624,
+		28,
+		69,
+		78,
+		0,
+		71,
+		0,
+		57,
+		61,
+		33.4,
+		0,
+		89
+	},
+	attrs_growth = {
+		15486,
+		614,
+		1445,
+		1604,
+		0,
+		495,
+		0,
+		845,
+		939,
+		0,
+		0,
+		423
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		264
+	},
+	default_equip_list = {
+		22293,
+		45173,
+		90633
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.4,
+		1.35,
+		0.5
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Plan-Class"
 	}
 }
 

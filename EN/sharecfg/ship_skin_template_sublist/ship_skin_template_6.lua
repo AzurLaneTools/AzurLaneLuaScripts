@@ -1,6 +1,702 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_6 = {
+	[202290] = {
+		name = "Penelope",
+		id = 202290,
+		desc = "Arethusa-class light cruiser – Penelope.",
+		illustrator2 = -1,
+		ship_group = 20229,
+		group_index = 0,
+		prefab = "peineiluopo",
+		painting = "peineiluopo",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 55,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.011,
+					0.998,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.019,
+					1.013,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.005,
+					-0.012,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.001,
+					1.013,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.44,
+							2.441,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202291] = {
+		name = "Ruby-Red Boudoir",
+		id = 202291,
+		desc = "Aurora chose this outfit for me because... the Spring Festival represents a time of celebration in the Dragon Empery, and red is the color that best symbolizes that. What do you think? Does this outfit... make you feel more festive?",
+		illustrator2 = -1,
+		ship_group = 20229,
+		group_index = 1,
+		prefab = "peineiluopo_2",
+		painting = "peineiluopo_2",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 3,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "144",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70500,
+		voice_actor = 55,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.99,
+					1.01,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.988,
+					1.002,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.008,
+					-0.003,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.999,
+					0.991,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.512,
+							2.406,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202292] = {
+		name = "Salty Maid",
+		id = 202292,
+		desc = "Welcome, welcome. I've been working here as a maid, just as you told me to. Umm... Call for me only when you're ready to order.",
+		illustrator2 = -1,
+		ship_group = 20229,
+		group_index = 2,
+		prefab = "peineiluopo_3",
+		painting = "peineiluopo_3",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 17,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "150",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70642,
+		voice_actor = 55,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.17,
+					0.87,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.08,
+					0.85,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.03,
+					1.07,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.38,
+							2.406,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202300] = {
+		name = "Charybdis",
+		id = 202300,
+		desc = "Dido-class light cruiser – Charybdis.",
+		illustrator2 = -1,
+		ship_group = 20230,
+		group_index = 0,
+		prefab = "kalvbudisi",
+		painting = "kalvbudisi",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 303,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.108,
+					0.998,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.063,
+					1.013,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.01,
+					1.022,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.413,
+							2.335,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202301] = {
+		name = "Red Chamber of Healing",
+		id = 202301,
+		desc = "*Pats thighs* Master, you poor thing~ Look how hard you've been working~ Hehe, hurry and come here so that I can pamper you~",
+		illustrator2 = -1,
+		ship_group = 20230,
+		group_index = 1,
+		prefab = "kalvbudisi_2",
+		painting = "kalvbudisi_2",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 3,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "144",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70651,
+		voice_actor = 303,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {
+			1,
+			4
+		},
+		live2d_offset = {
+			47,
+			20,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.117,
+					0.971,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.019,
+					1.013,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.045,
+					1.111,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.405,
+							2.441,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		}
+	},
+	[202302] = {
+		name = "Brilliant Belle",
+		id = 202302,
+		desc = "Tis a pleasure to see you, Master. I am delighted to be your partner for today. ...Oh, I was just trying to sound prim and proper! You don't need to look at me with such pity in your eyes!",
+		illustrator2 = -1,
+		ship_group = 20230,
+		group_index = 2,
+		prefab = "kalvbudisi_3",
+		painting = "kalvbudisi_3",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 7,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "155",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "1101",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70750,
+		voice_actor = 303,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.929,
+					0.94,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.896,
+					0.921,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.108,
+					1.161,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.8,
+							1.752,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[202303] = {
 		name = "Prim Sea Breeze",
 		id = 202303,
@@ -12287,600 +12983,6 @@ pg.base.ship_skin_template_6 = {
 						{
 							-0.56,
 							2.11,
-							-0.55
-						}
-					}
-				}
-			}
-		}
-	},
-	[206050] = {
-		name = "Chaser",
-		id = 206050,
-		desc = "Attacker-class escort carrier - Chaser (D32)",
-		illustrator2 = -1,
-		ship_group = 20605,
-		group_index = 0,
-		prefab = "zhuiganzhe",
-		painting = "zhuiganzhe",
-		hand_id = 1,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 165,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			80,
-			-120,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.69,
-					0.745,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.641,
-					0.726,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.159,
-					0.053,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.837,
-					1.279,
-					0
-				}
-			},
-			plane = {
-				{
-					0.767,
-					1.231,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.481,
-							2.325,
-							-0.55
-						}
-					}
-				}
-			}
-		}
-	},
-	[206051] = {
-		name = "The Way of the Dragon Empery",
-		id = 206051,
-		desc = "Does this dress from the Dragon Empery not suit me well? Though I was born in the Eagle Union and raised by the Royal Navy, my time in the Dragon Empery also left a deep impression upon me. Why don't we have a chat about their profound culture and tea? Hehe~",
-		illustrator2 = -1,
-		ship_group = 20605,
-		group_index = 1,
-		prefab = "zhuiganzhe_2",
-		painting = "zhuiganzhe_2",
-		hand_id = 9,
-		bgm = "",
-		shop_type_id = 3,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "102",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70159,
-		voice_actor = 165,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			80,
-			-120,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.758,
-					1.146,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.758,
-					1.146,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.159,
-					0.053,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.739,
-					1.269,
-					0
-				}
-			},
-			plane = {
-				{
-					0.767,
-					1.231,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.481,
-							2.325,
-							-0.55
-						}
-					}
-				}
-			}
-		}
-	},
-	[206052] = {
-		name = "Gamer Style",
-		id = 206052,
-		desc = "Heck yeah! Another achievement down! ...Huh? Good day, Commander. Is there something wrong with my appearance? Hehe, I'm from the Eagle Union after all, of course I'd know a thing or two about entertainment~♪",
-		illustrator2 = -1,
-		ship_group = 20605,
-		group_index = 2,
-		prefab = "zhuiganzhe_3",
-		painting = "zhuiganzhe_3",
-		hand_id = 1,
-		bgm = "",
-		shop_type_id = 9,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "105",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70197,
-		voice_actor = 165,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			80,
-			-120,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.28,
-					1.19,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.012,
-					1.146,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.022,
-					0.046,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.014,
-					1.166,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.498,
-							2.586,
-							-0.55
-						}
-					}
-				}
-			}
-		}
-	},
-	[206060] = {
-		name = "Perseus ",
-		id = 206060,
-		desc = "Colossus-class light aircraft carrier – Perseus (HMS Perseus.) ",
-		illustrator2 = -1,
-		ship_group = 20606,
-		group_index = 0,
-		prefab = "yingxianzuo",
-		painting = "yingxianzuo",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 241,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			80,
-			-120,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.789,
-					1.258,
-					0
-				}
-			},
-			vicegun = {
-				{
-					2.747,
-					1.311,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					2.785,
-					1.358,
-					0
-				}
-			},
-			plane = {
-				{
-					2.785,
-					1.301,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.481,
-							2.325,
-							-0.55
-						}
-					}
-				}
-			}
-		}
-	},
-	[206061] = {
-		name = "Unfamiliar Duties",
-		id = 206061,
-		desc = "I'm Perseus, I will be your nurse today. Use this button to call for me if you need anything... Yes? Did you need something?",
-		illustrator2 = -1,
-		ship_group = 20606,
-		group_index = 1,
-		prefab = "yingxianzuo_2",
-		painting = "yingxianzuo_2",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 15,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "138",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70395,
-		voice_actor = 241,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			80,
-			-120,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.367,
-					1.065,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.349,
-					1.122,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.001,
-					-0.008,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.339,
-					1.165,
-					0
-				}
-			},
-			plane = {
-				{
-					1.353,
-					1.147,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.481,
-							2.325,
 							-0.55
 						}
 					}

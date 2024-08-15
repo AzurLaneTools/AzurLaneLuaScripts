@@ -33,7 +33,6 @@ slot0.Start = function(slot0)
 	slot0.controller:setRoomTip(slot0:getGameRoomData().game_help)
 	slot0.controller.view:SetUI(slot0._go)
 	slot0.controller:SetCallBack(function (slot0, slot1, slot2, slot3)
-		slot4 = uv0:GetMGData():GetRuntimeData("elements")
 		uv0.sendSuccessFlag = true
 
 		uv0:SendSuccess(slot0)
@@ -43,13 +42,16 @@ slot0.Start = function(slot0)
 end
 
 slot0.updateHighScore = function(slot0)
-	slot1 = slot0:GetMGData():GetRuntimeData("elements") or {}
+	slot1 = getProxy(GameRoomProxy):getRoomScore(slot0:getGameRoomData().id)
+	slot2 = {
+		slot1,
+		slot1,
+		slot1
+	} or {}
 
 	if slot0.controller then
-		-- Nothing
+		slot0.controller:updateHighScore(slot2)
 	end
-
-	slot0.controller:updateHighScore(slot1)
 end
 
 slot0.OnSendMiniGameOPDone = function(slot0, slot1)
@@ -65,9 +67,9 @@ end
 
 slot0.GetTowerClimbingPageAndScore = function(slot0)
 	return 0, 1, {
-		0,
-		0,
-		0
+		slot0,
+		slot0,
+		slot0
 	}
 end
 
@@ -78,9 +80,9 @@ slot0.GetAwardScores = function()
 end
 
 slot0.PackData = function(slot0)
-	slot4, slot5, slot6 = uv0.GetTowerClimbingPageAndScore(slot0:GetMGData():GetRuntimeData("elements"))
+	slot3, slot4, slot5 = uv0.GetTowerClimbingPageAndScore(getProxy(GameRoomProxy):getRoomScore(slot0:getGameRoomData().id))
 
-	print(slot4, "-", slot5)
+	print(slot3, "-", slot4)
 
 	return {
 		npcName = "TowerClimbingManjuu",
@@ -88,9 +90,9 @@ slot0.PackData = function(slot0)
 		shipId = 107031,
 		screenWidth = slot0._tf.rect.width,
 		screenHeight = slot0._tf.rect.height,
-		higestscore = slot4,
-		pageIndex = slot5,
-		mapScores = slot6,
+		higestscore = slot3,
+		pageIndex = slot4,
+		mapScores = slot5,
 		awards = uv0.GetAwardScores()
 	}
 end

@@ -1,6 +1,651 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_4 = {
+	[107093] = {
+		name = "Brush and Ink",
+		id = 107093,
+		desc = "The Dragon Empery's attire and tools of calligraphy... I see, just wearing this outfit makes me feel more scholarly and artistic! I shall put forth my best effort to prepare for the port's Spring Festival!",
+		illustrator2 = -1,
+		ship_group = 10709,
+		group_index = 3,
+		prefab = "aisaikesi_5",
+		painting = "aisaikesi_5",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 3,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "144",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70484,
+		voice_actor = 149,
+		spine_offset = "",
+		illustrator = 8,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.766,
+					0.999,
+					0
+				}
+			},
+			plane = {
+				{
+					1.765,
+					0.999,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.37,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[107094] = {
+		name = "Detective Essex",
+		id = 107094,
+		desc = "My eagle has gone missing... Just as Enterprise said, there's something strange going on in this port–– Wait, I definitely smell a case in the making! Commander, let's get to the bottom of this together!",
+		illustrator2 = -1,
+		ship_group = 10709,
+		group_index = 4,
+		prefab = "aisaikesi_6",
+		painting = "aisaikesi_6",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 9999,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "154",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70734,
+		voice_actor = 149,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.048,
+					1.32,
+					0
+				}
+			},
+			plane = {
+				{
+					1.368,
+					0.472,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.761,
+							1.98,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[107095] = {
+		name = "Crossbones Especial",
+		id = 107095,
+		desc = "\"Anchors aweigh! Arr, pirate aircraft carrier Essex be ready for battle! Nothing in the seven seas will escape my grasp!\" Hic... Hehehe... I wanna be a piraaate...",
+		illustrator2 = -1,
+		ship_group = 10709,
+		group_index = 5,
+		prefab = "aisaikesi_7",
+		painting = "aisaikesi_7",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 23,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "169",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70862,
+		voice_actor = 149,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2,
+			6
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.048,
+					1.32,
+					0
+				}
+			},
+			plane = {
+				{
+					1.368,
+					0.472,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.761,
+							1.98,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				57,
+				-630,
+				0
+			},
+			{
+				0.45
+			}
+		}
+	},
+	[107096] = {
+		name = "The Gale of Course 88",
+		id = 107096,
+		desc = "Cooldown lap completed! Did you see me on the racetrack, Commander? Heehee. Thanks for everything, from setting up the race to assigning racers and supporters!",
+		illustrator2 = -1,
+		ship_group = 10709,
+		group_index = 6,
+		prefab = "aisaikesi_8",
+		painting = "aisaikesi_8",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 14,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70914,
+		voice_actor = 149,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.048,
+					1.32,
+					0
+				}
+			},
+			plane = {
+				{
+					1.368,
+					0.472,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.86,
+							1.98,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[107100] = {
+		name = "Yorktown II",
+		id = 107100,
+		desc = "Essex-class aircraft carrier – Yorktown II, Hull Number CV-10.",
+		illustrator2 = -1,
+		ship_group = 10710,
+		group_index = 0,
+		prefab = "yuekechengII",
+		painting = "yuekechengII",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 0,
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 42,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.3,
+					1.4,
+					0
+				}
+			},
+			plane = {
+				{
+					1.41,
+					1.11,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.31,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				-83,
+				-1643,
+				0
+			},
+			{
+				0.88
+			}
+		},
+		special_effects = {
+			"lihui_yuekechengII",
+			{
+				2418,
+				-99,
+				0
+			},
+			{
+				2
+			}
+		}
+	},
+	[107101] = {
+		name = "Bright-Sky Mermaid",
+		id = 107101,
+		desc = "How does this look? ...Ah, it's nothing to worry about. Do you think I should adjust the string a bit...? Hmm... Eek!!! I'm so sorry, Commander... A-are you alright...?",
+		illustrator2 = -1,
+		ship_group = 10710,
+		group_index = 1,
+		prefab = "yuekechengII_2",
+		painting = "yuekechengII_2",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 6,
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "164",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "1101",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70775,
+		voice_actor = 42,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2,
+			6
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.3,
+					1.4,
+					0
+				}
+			},
+			plane = {
+				{
+					1.41,
+					1.11,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.37,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				-50,
+				-489,
+				0
+			},
+			{
+				0.62
+			}
+		},
+		special_effects = {
+			"lihui_yuekechengII_2",
+			{
+				1585,
+				-99,
+				0
+			},
+			{
+				1.3
+			}
+		}
+	},
 	[107110] = {
 		name = "Intrepid",
 		id = 107110,
@@ -4626,6 +5271,218 @@ pg.base.ship_skin_template_4 = {
 		main_UI_FX = "",
 		shop_id = 70939,
 		voice_actor = 391,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.912,
+					0.953,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.022,
+					-0.148,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.627,
+					1.245,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.157,
+							2.433,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[108090] = {
+		name = "Herring",
+		id = 108090,
+		desc = "Gato-class submarine – Herring, Hull Number SS-233.",
+		illustrator2 = -1,
+		ship_group = 10809,
+		group_index = 0,
+		prefab = "feiyu",
+		painting = "feiyu",
+		hand_id = 3,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 218,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.693,
+					1.524,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.06,
+					-0.234,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.56,
+					1.74,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.044,
+							2.443,
+							-0.16
+						}
+					}
+				}
+			}
+		}
+	},
+	[108091] = {
+		name = "The Town With No Shade",
+		id = 108091,
+		desc = "Well, well. I was wondering who owns this polite little horsy – surprise, it's you! How about you trade me 'em for a blown kiss? And if you catch up with me, you can have the rest of me for free♪ Mwah♡",
+		illustrator2 = -1,
+		ship_group = 10809,
+		group_index = 1,
+		prefab = "feiyu_2",
+		painting = "feiyu_2",
+		hand_id = 3,
+		bgm = "",
+		shop_type_id = 25,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "176",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71037,
+		voice_actor = 218,
 		spine_offset = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -11089,841 +11946,6 @@ pg.base.ship_skin_template_4 = {
 							-0.549,
 							2.179,
 							-0.4
-						}
-					}
-				}
-			}
-		}
-	},
-	[201230] = {
-		name = "Vampire",
-		id = 201230,
-		desc = "V-class destroyer ー Vampire, Hull Number D68!",
-		illustrator2 = -1,
-		ship_group = 20123,
-		group_index = 0,
-		prefab = "xixuegui",
-		painting = "xixuegui",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 89,
-		spine_offset = "",
-		illustrator = 10,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.49,
-					0.43,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.49,
-					0.43,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.41,
-					0.19,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.49,
-					0.43,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.41,
-							0.79,
-							-0.35
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.59,
-							2.36,
-							-0.18
-						}
-					}
-				}
-			}
-		}
-	},
-	[201231] = {
-		name = "The Breath of Spring",
-		id = 201231,
-		desc = "What do you think of my new outfit? You love it? Or just like it? Haha, your answer is written right on your face. Next... wait, wait, wait! I haven't put my socks on yet!",
-		illustrator2 = -1,
-		ship_group = 20123,
-		group_index = 1,
-		prefab = "xixuegui_2",
-		painting = "xixuegui_2",
-		hand_id = 15,
-		bgm = "",
-		shop_type_id = 3,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "102",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70044,
-		voice_actor = 89,
-		spine_offset = "",
-		illustrator = 10,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.65,
-					1.04,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.82,
-					1.06,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.18,
-					0.07,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.64,
-					1.06,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.54,
-							2.31,
-							-0.18
-						}
-					}
-				}
-			}
-		}
-	},
-	[201232] = {
-		name = "Little Devil in White",
-		id = 201232,
-		desc = "Commander, I am now a nurse, so thou hast no choice but to give me thy blood~! Hehe, just kidding~!",
-		illustrator2 = -1,
-		ship_group = 20123,
-		group_index = 2,
-		prefab = "xixuegui_3",
-		painting = "xixuegui_3",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 15,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 89,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.892,
-					0.64,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.913,
-					0.697,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.059,
-					0.051,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.854,
-					0.623,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.54,
-							2.31,
-							-0.18
-						}
-					}
-				}
-			}
-		}
-	},
-	[201233] = {
-		name = "Night Princess's Regalia",
-		id = 201233,
-		desc = "Commander, thou promised to go to the festival with me, right? If thou forgot, I shall have to give thee a nibble upon the neck, ehehe~",
-		illustrator2 = -1,
-		ship_group = 20123,
-		group_index = 3,
-		prefab = "xixuegui_4",
-		painting = "xixuegui_4",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 10,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "114",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70225,
-		voice_actor = 89,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		tag = {
-			1,
-			2
-		},
-		live2d_offset = {
-			55,
-			-14,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.239,
-					0.893,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.23,
-					0.834,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.205,
-					0.809,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.527,
-							2.268,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_special",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			login = 3.4
-		}
-	},
-	[201234] = {
-		name = "Night Princess Idol",
-		id = 201234,
-		desc = "Feast thine eyes upon Vampire's idol attire... is it not exquisite? Heheh, now thy gaze shall be fixed upon my performance alone~♪",
-		illustrator2 = -1,
-		ship_group = 20123,
-		group_index = 4,
-		prefab = "xixuegui_5",
-		painting = "xixuegui_5",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 11,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "120",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70440,
-		voice_actor = 89,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.535,
-					0.997,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.585,
-					1.022,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.531,
-					1.05,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.381,
-							2.446,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201235] = {
-		name = "Night Princess's Festive Feast",
-		id = 201235,
-		desc = "Why do thee look so astonished? Thou promised to have this Christmas dinner with me. Is it that thou would rather offer me fresh blood than a feast? I certainly wouldn't object to that!",
-		illustrator2 = -1,
-		ship_group = 20123,
-		group_index = 5,
-		prefab = "xixuegui_6",
-		painting = "xixuegui_6",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "125",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 89,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.43,
-					0.921,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.48,
-					0.974,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.331,
-					1.05,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.238,
-							2.484,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201238] = {
-		name = "Eloi's Blessing",
-		id = 201238,
-		desc = "Those who fall in love with vampires are bound to suffer seven times more than their infatuation. After all, love is a poison which leads to death.",
-		illustrator2 = -1,
-		ship_group = 20123,
-		group_index = 8,
-		prefab = "xixuegui_h",
-		painting = "xixuegui_h",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 9998,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 89,
-		spine_offset = "",
-		illustrator = 10,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.599,
-					0.621,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.599,
-					0.621,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.139,
-					0.066,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.599,
-					0.621,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.1,
-							0.8,
-							-0.13
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.8,
-							2.31,
-							-0.57
 						}
 					}
 				}

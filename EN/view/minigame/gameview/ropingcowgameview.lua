@@ -1,5 +1,5 @@
 slot0 = class("RopingCowGameView", import("..BaseMiniGameView"))
-slot1 = "SailAwayJustice-inst"
+slot1 = "story-richang-westdaily"
 slot2 = "event:/ui/ddldaoshu2"
 slot3 = "event:/ui/niujiao"
 slot4 = "event:/ui/taosheng"
@@ -545,6 +545,8 @@ slot0.onEventHandle = function(slot0, slot1)
 end
 
 slot0.initData = function(slot0)
+	slot0.storylist = pg.mini_game[slot0:GetMGData().id].simple_config_data.story
+
 	if (Application.targetFrameRate or 60) > 60 then
 		slot1 = 60
 	end
@@ -647,7 +649,7 @@ slot0.initUI = function(slot0)
 		updateDrop(slot10, {
 			type = slot3[slot7][1],
 			id = slot3[slot7][2],
-			amount = slot3[slot7][3]
+			count = slot3[slot7][3]
 		})
 		onButton(slot0, slot10, function ()
 			uv0:emit(BaseUI.ON_DROP, uv1)
@@ -969,9 +971,19 @@ slot0.showSettlement = function(slot0)
 	setText(findTF(slot0.settlementUI, "ad/currentText"), slot3)
 
 	if slot0:getGameTimes() and slot0:getGameTimes() > 0 then
-		slot0.sendSuccessFlag = true
+		slot8 = pg.NewStoryMgr.GetInstance()
 
-		slot0:SendSuccess(0)
+		if (slot0.storylist[slot0:getGameUsedTimes() + 1] and slot0.storylist[slot7][1] or nil) and not slot8:IsPlayed(slot9) then
+			slot0.sendSuccessFlag = true
+
+			slot8:Play(slot9, function ()
+				uv0:SendSuccess(0)
+			end)
+		else
+			slot0.sendSuccessFlag = true
+
+			slot0:SendSuccess(0)
+		end
 	end
 end
 

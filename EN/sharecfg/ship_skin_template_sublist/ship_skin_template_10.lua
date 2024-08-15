@@ -1,6 +1,355 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_10 = {
+	[303182] = {
+		name = "PJ Poker Party",
+		id = 303182,
+		desc = "Now it's your turn, Commander! Which one's it gonna be~? You suuuure you wanna pick this card? ...I hear you, Suzuya! Stop tellin' the Commander what the cards are!",
+		illustrator2 = -1,
+		ship_group = 30318,
+		group_index = 2,
+		prefab = "xiongye_3",
+		painting = "xiongye_3",
+		hand_id = 14,
+		bgm = "",
+		shop_type_id = 20,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "109",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "1101",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70610,
+		voice_actor = 181,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.127,
+					1.144,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.13,
+					1.128,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.037,
+					1.112,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.55,
+							2.329,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[303183] = {
+		name = "One Thousand and One Nights' Wishes",
+		id = 303183,
+		desc = "Tadah! Get a load of my... dancer outfit! So, whaddya think? Ahaha~♡ Hey, Commander, where are those eyes wandering? Did ya see something ya like?",
+		illustrator2 = -1,
+		ship_group = 30318,
+		group_index = 3,
+		prefab = "xiongye_4",
+		painting = "xiongye_4",
+		hand_id = 14,
+		bgm = "",
+		shop_type_id = 21,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "159",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70723,
+		voice_actor = 181,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.28,
+					0.72,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.28,
+					0.72,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.22,
+					1.09,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.79,
+							1.95,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[303190] = {
+		name = "Unzen",
+		id = 303190,
+		desc = "Heavy cruiser – Unzen.",
+		illustrator2 = -1,
+		ship_group = 30319,
+		group_index = 0,
+		prefab = "yunxian",
+		painting = "yunxian",
+		hand_id = 2,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 294,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.345,
+					1.123,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.508,
+					1.064,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					2.453,
+					1.237,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.615,
+							2.505,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				0,
+				-1529,
+				0
+			},
+			{
+				1.07
+			}
+		}
+	},
 	[303191] = {
 		name = "Sojourn Through Clear Seas",
 		id = 303191,
@@ -11981,215 +12330,6 @@ pg.base.ship_skin_template_10 = {
 						{
 							-0.45,
 							2.36,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[307039] = {
-		name = "Souryuu (Retrofit)",
-		id = 307039,
-		desc = "If I can become stronger through this... Commander, what are you staring at? Don't you still have work to do?",
-		illustrator2 = -1,
-		ship_group = 30703,
-		group_index = 9,
-		prefab = "canglong_g",
-		painting = "canglong_g",
-		hand_id = 2,
-		bgm = "",
-		shop_type_id = 9997,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 2,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 15,
-		spine_offset = "",
-		illustrator = 12,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					0.78,
-					0.969,
-					0
-				}
-			},
-			plane = {
-				{
-					1.14,
-					2.32,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.45,
-							2.36,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[307040] = {
-		name = "Hiryuu",
-		id = 307040,
-		desc = "Aircraft carrier, {namecode:94}.",
-		illustrator2 = -1,
-		ship_group = 30704,
-		group_index = 0,
-		prefab = "feilong",
-		painting = "feilong",
-		hand_id = 2,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 30,
-		spine_offset = "",
-		illustrator = 12,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					0.628,
-					0.908,
-					0
-				}
-			},
-			plane = {
-				{
-					-1.188,
-					0.832,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.456,
-							0.32,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.118,
-							0.905,
 							0
 						}
 					}

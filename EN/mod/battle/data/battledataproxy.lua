@@ -1173,7 +1173,7 @@ slot9.SpawnNPC = function(slot0, slot1, slot2)
 	slot0._unitList[slot3] = slot7
 
 	slot0._cldSystem:InitShipCld(slot7)
-	slot7:SummonSickness(uv0.SUMMONING_SICKNESS_DURATION)
+	slot7:SummonSickness(slot1.sickness or uv0.SUMMONING_SICKNESS_DURATION)
 	slot7:SetMoveCast(slot1.moveCast == true)
 
 	slot0._minionShipList[slot3] = slot7
@@ -1189,7 +1189,7 @@ slot9.SpawnNPC = function(slot0, slot1, slot2)
 		extraInfo = slot1.extraInfo
 	}))
 
-	slot11 = function(slot0)
+	slot12 = function(slot0)
 		for slot4, slot5 in ipairs(slot0) do
 			slot6, slot7 = nil
 
@@ -1205,8 +1205,8 @@ slot9.SpawnNPC = function(slot0, slot1, slot2)
 		end
 	end
 
-	slot11(slot7:GetTemplate().buff_list)
-	slot11(slot1.buffList or {})
+	slot12(slot7:GetTemplate().buff_list)
+	slot12(slot1.buffList or {})
 	slot7:CheckWeaponInitial()
 
 	return slot7

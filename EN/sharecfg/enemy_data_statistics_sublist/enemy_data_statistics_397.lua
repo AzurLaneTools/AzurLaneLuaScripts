@@ -1,1756 +1,1144 @@
 pg = pg or {}
 pg.enemy_data_statistics_397 = {
-	[295949] = {
-		cannon = 18,
-		name = "火球",
-		rarity = 1,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
+	[295118] = {
+		cannon = 326,
+		name = "Renown META",
+		torpedo = 0,
+		cannon_growth = 0,
 		air = 0,
-		id = 295949,
-		torpedo = 80,
-		luck = 0,
-		antiaircraft = 0,
-		hit_growth = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 23,
+		id = 295118,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
 		dodge_growth = 0,
-		icon = "None",
-		star = 1,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 95,
 		antisub_growth = 0,
 		air_growth = 0,
-		base = 90437,
-		durability = 2300,
+		hit_growth = 0,
+		base = 90675,
+		durability = 1000000,
 		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		fog_fx = "",
-		antisub = 0,
-		wave_fx = "",
-		prefab = "None",
-		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 10,
-		nationality = 97,
 		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 15,
-		cld_box = {
-			5.5,
-			5.5,
-			5.5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {},
-		appear_fx = {
-			"meta_fireball"
-		},
-		hp_bar = {
-			150,
-			2
-		},
-		equipment_list = {
-			1000866
-		},
+		antiaircraft = 335,
+		speed = 60,
+		luck = 23,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
 		buff_list = {
 			{
-				ID = 8992,
-				LV = 1
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50500,
+				LV = 5
 			}
 		}
 	},
-	[295950] = {
-		cannon = 20,
-		name = "火球",
-		rarity = 1,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
+	[295119] = {
+		cannon = 345,
+		name = "Renown META",
+		torpedo = 0,
+		cannon_growth = 0,
 		air = 0,
-		id = 295950,
-		torpedo = 90,
-		luck = 0,
-		antiaircraft = 0,
-		hit_growth = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 24,
+		id = 295119,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
 		dodge_growth = 0,
-		icon = "None",
-		star = 1,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 100,
 		antisub_growth = 0,
 		air_growth = 0,
-		base = 90437,
-		durability = 2400,
+		hit_growth = 0,
+		base = 90675,
+		durability = 1240000,
 		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		fog_fx = "",
-		antisub = 0,
-		wave_fx = "",
-		prefab = "None",
-		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 15,
-		nationality = 97,
 		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 15,
-		cld_box = {
-			5.5,
-			5.5,
-			5.5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {},
-		appear_fx = {
-			"meta_fireball"
-		},
-		hp_bar = {
-			150,
-			2
-		},
-		equipment_list = {
-			1000866
-		},
+		antiaircraft = 348,
+		speed = 60,
+		luck = 24,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
 		buff_list = {
 			{
-				ID = 8992,
-				LV = 1
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50500,
+				LV = 5
 			}
 		}
 	},
-	[295951] = {
-		cannon = 22,
-		name = "火球",
-		rarity = 1,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
+	[295120] = {
+		cannon = 381,
+		name = "Renown META",
+		torpedo = 0,
+		cannon_growth = 0,
 		air = 0,
-		id = 295951,
-		torpedo = 100,
-		luck = 0,
-		antiaircraft = 0,
-		hit_growth = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 25,
+		id = 295120,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
 		dodge_growth = 0,
-		icon = "None",
-		star = 1,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 110,
 		antisub_growth = 0,
 		air_growth = 0,
-		base = 90437,
-		durability = 2500,
+		hit_growth = 0,
+		base = 90675,
+		durability = 1480000,
 		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		fog_fx = "",
-		antisub = 0,
-		wave_fx = "",
-		prefab = "None",
-		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 20,
-		nationality = 97,
 		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 15,
-		cld_box = {
-			5.5,
-			5.5,
-			5.5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {},
-		appear_fx = {
-			"meta_fireball"
-		},
-		hp_bar = {
-			150,
-			2
-		},
-		equipment_list = {
-			1000866
-		},
+		antiaircraft = 368,
+		speed = 60,
+		luck = 25,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
 		buff_list = {
 			{
-				ID = 8992,
-				LV = 1
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50500,
+				LV = 5
 			}
 		}
 	},
-	[295952] = {
-		cannon = 24,
-		name = "火球",
-		rarity = 1,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
-		air = 0,
-		id = 295952,
-		torpedo = 110,
-		luck = 0,
-		antiaircraft = 0,
-		hit_growth = 0,
-		dodge_growth = 0,
-		icon = "None",
-		star = 1,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90437,
-		durability = 2600,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		fog_fx = "",
-		antisub = 0,
-		wave_fx = "",
-		prefab = "None",
+	[295121] = {
+		cannon = 149,
+		name = "Arizona META",
+		torpedo = 0,
 		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
+		air = 0,
 		reload = 150,
-		dodge = 0,
+		armor = 0,
+		dodge = 11,
+		id = 295121,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
 		reload_growth = 0,
-		hit = 25,
-		nationality = 97,
-		durability_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
 		luck_growth = 0,
-		battle_unit_type = 15,
-		cld_box = {
-			5.5,
-			5.5,
-			5.5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {},
-		appear_fx = {
-			"meta_fireball"
-		},
-		hp_bar = {
-			150,
-			2
-		},
-		equipment_list = {
-			1000867
-		},
-		buff_list = {
-			{
-				ID = 8992,
-				LV = 1
-			}
-		}
-	},
-	[295953] = {
-		cannon = 26,
-		name = "火球",
-		rarity = 1,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
-		air = 0,
-		id = 295953,
-		torpedo = 120,
-		luck = 0,
-		antiaircraft = 0,
-		hit_growth = 0,
-		dodge_growth = 0,
-		icon = "None",
-		star = 1,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90437,
-		durability = 2700,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		fog_fx = "",
-		antisub = 0,
-		wave_fx = "",
-		prefab = "None",
-		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 30,
-		nationality = 97,
-		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 15,
-		cld_box = {
-			5.5,
-			5.5,
-			5.5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {},
-		appear_fx = {
-			"meta_fireball"
-		},
-		hp_bar = {
-			150,
-			2
-		},
-		equipment_list = {
-			1000867
-		},
-		buff_list = {
-			{
-				ID = 8992,
-				LV = 1
-			}
-		}
-	},
-	[295954] = {
-		cannon = 28,
-		name = "火球",
-		rarity = 1,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
-		air = 0,
-		id = 295954,
-		torpedo = 130,
-		luck = 0,
-		antiaircraft = 0,
-		hit_growth = 0,
-		dodge_growth = 0,
-		icon = "None",
-		star = 1,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90437,
-		durability = 2800,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		fog_fx = "",
-		antisub = 0,
-		wave_fx = "",
-		prefab = "None",
-		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
 		hit = 35,
-		nationality = 97,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90718,
+		durability = 54000,
+		armor_growth = 0,
 		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 15,
-		cld_box = {
-			5.5,
-			5.5,
-			5.5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {},
-		appear_fx = {
-			"meta_fireball"
-		},
-		hp_bar = {
-			150,
-			2
-		},
-		equipment_list = {
-			1000867
-		},
+		antiaircraft = 166,
+		speed = 20,
+		luck = 15,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
 		buff_list = {
 			{
-				ID = 8992,
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
 				LV = 1
 			}
 		}
 	},
-	[295955] = {
-		cannon = 30,
-		name = "火球",
-		rarity = 1,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
-		air = 0,
-		id = 295955,
-		torpedo = 140,
-		luck = 0,
-		antiaircraft = 0,
-		hit_growth = 0,
-		dodge_growth = 0,
-		icon = "None",
-		star = 1,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90437,
-		durability = 3000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		fog_fx = "",
-		antisub = 0,
-		wave_fx = "",
-		prefab = "None",
+	[295122] = {
+		cannon = 162,
+		name = "Arizona META",
+		torpedo = 0,
 		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
+		air = 0,
 		reload = 150,
-		dodge = 0,
+		armor = 0,
+		dodge = 12,
+		id = 295122,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
 		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
 		hit = 40,
-		nationality = 97,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90718,
+		durability = 58000,
+		armor_growth = 0,
 		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 15,
-		cld_box = {
-			5.5,
-			5.5,
-			5.5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {},
-		appear_fx = {
-			"meta_fireball"
-		},
-		hp_bar = {
-			150,
-			2
-		},
-		equipment_list = {
-			1000868
-		},
+		antiaircraft = 175,
+		speed = 20,
+		luck = 15,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
 		buff_list = {
 			{
-				ID = 8992,
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
 				LV = 1
 			}
 		}
 	},
-	[295956] = {
-		cannon = 34,
-		name = "火球",
-		rarity = 1,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
-		air = 0,
-		id = 295956,
-		torpedo = 150,
-		luck = 0,
-		antiaircraft = 0,
-		hit_growth = 0,
-		dodge_growth = 0,
-		icon = "None",
-		star = 1,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90437,
-		durability = 3200,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		fog_fx = "",
-		antisub = 0,
-		wave_fx = "",
-		prefab = "None",
+	[295123] = {
+		cannon = 175,
+		name = "Arizona META",
+		torpedo = 0,
 		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
+		air = 0,
 		reload = 150,
-		dodge = 0,
+		armor = 0,
+		dodge = 13,
+		id = 295123,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
 		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
 		hit = 45,
-		nationality = 97,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90718,
+		durability = 63000,
+		armor_growth = 0,
 		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 15,
-		cld_box = {
-			5.5,
-			5.5,
-			5.5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {},
-		appear_fx = {
-			"meta_fireball"
-		},
-		hp_bar = {
-			150,
-			2
-		},
-		equipment_list = {
-			1000868
-		},
+		antiaircraft = 186,
+		speed = 20,
+		luck = 15,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
 		buff_list = {
 			{
-				ID = 8992,
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
 				LV = 1
 			}
 		}
 	},
-	[295957] = {
-		cannon = 38,
-		name = "火球",
-		rarity = 1,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
-		air = 0,
-		id = 295957,
-		torpedo = 160,
-		luck = 0,
-		antiaircraft = 0,
-		hit_growth = 0,
-		dodge_growth = 0,
-		icon = "None",
-		star = 1,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90437,
-		durability = 3400,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		fog_fx = "",
-		antisub = 0,
-		wave_fx = "",
-		prefab = "None",
+	[295124] = {
+		cannon = 188,
+		name = "Arizona META",
+		torpedo = 0,
 		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
+		air = 0,
 		reload = 150,
-		dodge = 0,
+		armor = 0,
+		dodge = 14,
+		id = 295124,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
 		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
 		hit = 50,
-		nationality = 97,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90718,
+		durability = 76000,
+		armor_growth = 0,
 		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 15,
-		cld_box = {
-			5.5,
-			5.5,
-			5.5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {},
-		appear_fx = {
-			"meta_fireball"
-		},
-		hp_bar = {
-			150,
-			2
-		},
-		equipment_list = {
-			1000868
-		},
+		antiaircraft = 196,
+		speed = 20,
+		luck = 15,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
 		buff_list = {
 			{
-				ID = 8992,
-				LV = 1
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 2
 			}
 		}
 	},
-	[295958] = {
-		cannon = 42,
-		name = "火球",
-		rarity = 1,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
+	[295125] = {
+		cannon = 203,
+		name = "Arizona META",
+		torpedo = 0,
+		cannon_growth = 0,
 		air = 0,
-		id = 295958,
-		torpedo = 170,
-		luck = 0,
-		antiaircraft = 0,
-		hit_growth = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 15,
+		id = 295125,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
 		dodge_growth = 0,
-		icon = "None",
-		star = 1,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 55,
 		antisub_growth = 0,
 		air_growth = 0,
-		base = 90437,
-		durability = 3600,
+		hit_growth = 0,
+		base = 90718,
+		durability = 120000,
 		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		fog_fx = "",
+		durability_growth = 0,
+		antiaircraft = 207,
+		speed = 20,
+		luck = 15,
+		battle_unit_type = 90,
 		antisub = 0,
-		wave_fx = "",
-		prefab = "None",
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 2
+			}
+		}
+	},
+	[295126] = {
+		cannon = 217,
+		name = "Arizona META",
+		torpedo = 0,
 		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
+		air = 0,
 		reload = 150,
-		dodge = 0,
+		armor = 0,
+		dodge = 16,
+		id = 295126,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
 		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
 		hit = 60,
-		nationality = 97,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90718,
+		durability = 160000,
+		armor_growth = 0,
 		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 15,
-		cld_box = {
-			5.5,
-			5.5,
-			5.5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {},
-		appear_fx = {
-			"meta_fireball"
-		},
-		hp_bar = {
-			150,
-			2
-		},
-		equipment_list = {
-			1000869
-		},
+		antiaircraft = 218,
+		speed = 20,
+		luck = 16,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
 		buff_list = {
 			{
-				ID = 8992,
-				LV = 1
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 2
 			}
 		}
 	},
-	[295959] = {
-		cannon = 46,
-		name = "火球",
-		rarity = 1,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
+	[295127] = {
+		cannon = 232,
+		name = "Arizona META",
+		torpedo = 0,
+		cannon_growth = 0,
 		air = 0,
-		id = 295959,
-		torpedo = 180,
-		luck = 0,
-		antiaircraft = 0,
-		hit_growth = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 17,
+		id = 295127,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
 		dodge_growth = 0,
-		icon = "None",
-		star = 1,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 65,
 		antisub_growth = 0,
 		air_growth = 0,
-		base = 90437,
-		durability = 3800,
+		hit_growth = 0,
+		base = 90718,
+		durability = 250000,
 		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		fog_fx = "",
+		durability_growth = 0,
+		antiaircraft = 230,
+		speed = 20,
+		luck = 17,
+		battle_unit_type = 90,
 		antisub = 0,
-		wave_fx = "",
-		prefab = "None",
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 3
+			}
+		}
+	},
+	[295128] = {
+		cannon = 248,
+		name = "Arizona META",
+		torpedo = 0,
 		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
+		air = 0,
 		reload = 150,
-		dodge = 0,
+		armor = 0,
+		dodge = 18,
+		id = 295128,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
 		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
 		hit = 70,
-		nationality = 97,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90718,
+		durability = 340000,
+		armor_growth = 0,
 		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 15,
-		cld_box = {
-			5.5,
-			5.5,
-			5.5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {},
-		appear_fx = {
-			"meta_fireball"
-		},
-		hp_bar = {
-			150,
-			2
-		},
-		equipment_list = {
-			1000869
-		},
+		antiaircraft = 242,
+		speed = 20,
+		luck = 18,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
 		buff_list = {
 			{
-				ID = 8992,
-				LV = 1
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 3
 			}
 		}
 	},
-	[295960] = {
-		cannon = 50,
-		name = "火球",
-		rarity = 1,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
+	[295129] = {
+		cannon = 264,
+		name = "Arizona META",
+		torpedo = 0,
+		cannon_growth = 0,
 		air = 0,
-		id = 295960,
-		torpedo = 200,
-		luck = 0,
-		antiaircraft = 0,
-		hit_growth = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 19,
+		id = 295129,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
 		dodge_growth = 0,
-		icon = "None",
-		star = 1,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 75,
 		antisub_growth = 0,
 		air_growth = 0,
-		base = 90437,
-		durability = 4000,
+		hit_growth = 0,
+		base = 90718,
+		durability = 420000,
 		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		fog_fx = "",
+		durability_growth = 0,
+		antiaircraft = 255,
+		speed = 20,
+		luck = 19,
+		battle_unit_type = 90,
 		antisub = 0,
-		wave_fx = "",
-		prefab = "None",
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 3
+			}
+		}
+	},
+	[295130] = {
+		cannon = 280,
+		name = "Arizona META",
+		torpedo = 0,
 		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
+		air = 0,
 		reload = 150,
-		dodge = 0,
+		armor = 0,
+		dodge = 20,
+		id = 295130,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
 		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
 		hit = 80,
-		nationality = 97,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90718,
+		durability = 520000,
+		armor_growth = 0,
 		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 15,
-		cld_box = {
-			5.5,
-			5.5,
-			5.5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {},
-		appear_fx = {
-			"meta_fireball"
-		},
-		hp_bar = {
-			150,
-			2
-		},
-		equipment_list = {
-			1000869
-		},
+		antiaircraft = 267,
+		speed = 20,
+		luck = 20,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
 		buff_list = {
 			{
-				ID = 8992,
-				LV = 1
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 4
 			}
 		}
 	},
-	[295961] = {
-		cannon = 12,
-		name = "Lava Flame",
-		rarity = 1,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
+	[295131] = {
+		cannon = 298,
+		name = "Arizona META",
+		torpedo = 0,
+		cannon_growth = 0,
 		air = 0,
-		id = 295961,
-		torpedo = 65,
-		luck = 0,
-		antiaircraft = 0,
-		hit_growth = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 21,
+		id = 295131,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
 		dodge_growth = 0,
-		icon = "None",
-		star = 1,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 85,
 		antisub_growth = 0,
 		air_growth = 0,
-		base = 90437,
-		durability = 2000,
+		hit_growth = 0,
+		base = 90718,
+		durability = 650000,
 		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		fog_fx = "",
-		antisub = 0,
-		wave_fx = "",
-		prefab = "None",
-		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 97,
 		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 15,
-		cld_box = {
-			5.5,
-			5.5,
-			5.5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {},
-		appear_fx = {
-			"meta_fireball"
-		},
-		hp_bar = {
-			150,
-			2
-		},
-		equipment_list = {
-			1000865
-		},
+		antiaircraft = 281,
+		speed = 20,
+		luck = 21,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
 		buff_list = {
 			{
-				ID = 8992,
-				LV = 1
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 4
 			}
 		}
 	},
-	[295962] = {
-		cannon = 14,
-		name = "Lava Flame",
-		rarity = 1,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
+	[295132] = {
+		cannon = 315,
+		name = "Arizona META",
+		torpedo = 0,
+		cannon_growth = 0,
 		air = 0,
-		id = 295962,
-		torpedo = 70,
-		luck = 0,
-		antiaircraft = 0,
-		hit_growth = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 22,
+		id = 295132,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
 		dodge_growth = 0,
-		icon = "None",
-		star = 1,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 90,
 		antisub_growth = 0,
 		air_growth = 0,
-		base = 90437,
-		durability = 2100,
+		hit_growth = 0,
+		base = 90718,
+		durability = 840000,
 		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		fog_fx = "",
-		antisub = 0,
-		wave_fx = "",
-		prefab = "None",
-		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 0,
-		nationality = 97,
 		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 15,
-		cld_box = {
-			5.5,
-			5.5,
-			5.5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {},
-		appear_fx = {
-			"meta_fireball"
-		},
-		hp_bar = {
-			150,
-			2
-		},
-		equipment_list = {
-			1000865
-		},
+		antiaircraft = 294,
+		speed = 20,
+		luck = 22,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
 		buff_list = {
 			{
-				ID = 8992,
-				LV = 1
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 4
 			}
 		}
 	},
-	[295963] = {
-		cannon = 16,
-		name = "Lava Flame",
-		rarity = 1,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
+	[295133] = {
+		cannon = 334,
+		name = "Arizona META",
+		torpedo = 0,
+		cannon_growth = 0,
 		air = 0,
-		id = 295963,
-		torpedo = 75,
-		luck = 0,
-		antiaircraft = 0,
-		hit_growth = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 23,
+		id = 295133,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
 		dodge_growth = 0,
-		icon = "None",
-		star = 1,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 95,
 		antisub_growth = 0,
 		air_growth = 0,
-		base = 90437,
-		durability = 2200,
+		hit_growth = 0,
+		base = 90718,
+		durability = 1080000,
 		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		fog_fx = "",
-		antisub = 0,
-		wave_fx = "",
-		prefab = "None",
-		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 5,
-		nationality = 97,
 		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 15,
-		cld_box = {
-			5.5,
-			5.5,
-			5.5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {},
-		appear_fx = {
-			"meta_fireball"
-		},
-		hp_bar = {
-			150,
-			2
-		},
-		equipment_list = {
-			1000865
-		},
+		antiaircraft = 308,
+		speed = 20,
+		luck = 23,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
 		buff_list = {
 			{
-				ID = 8992,
-				LV = 1
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 5
 			}
 		}
 	},
-	[295964] = {
-		cannon = 18,
-		name = "Lava Flame",
-		rarity = 1,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
+	[295134] = {
+		cannon = 353,
+		name = "Arizona META",
+		torpedo = 0,
+		cannon_growth = 0,
 		air = 0,
-		id = 295964,
-		torpedo = 80,
-		luck = 0,
-		antiaircraft = 0,
-		hit_growth = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 24,
+		id = 295134,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
 		dodge_growth = 0,
-		icon = "None",
-		star = 1,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 100,
 		antisub_growth = 0,
 		air_growth = 0,
-		base = 90437,
-		durability = 2300,
+		hit_growth = 0,
+		base = 90718,
+		durability = 1340000,
 		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		fog_fx = "",
-		antisub = 0,
-		wave_fx = "",
-		prefab = "None",
-		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 10,
-		nationality = 97,
 		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 15,
-		cld_box = {
-			5.5,
-			5.5,
-			5.5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {},
-		appear_fx = {
-			"meta_fireball"
-		},
-		hp_bar = {
-			150,
-			2
-		},
-		equipment_list = {
-			1000866
-		},
+		antiaircraft = 323,
+		speed = 20,
+		luck = 24,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
 		buff_list = {
 			{
-				ID = 8992,
-				LV = 1
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 5
 			}
 		}
 	},
-	[295965] = {
-		cannon = 20,
-		name = "Lava Flame",
-		rarity = 1,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
+	[295135] = {
+		cannon = 390,
+		name = "Arizona META",
+		torpedo = 0,
+		cannon_growth = 0,
 		air = 0,
-		id = 295965,
-		torpedo = 90,
-		luck = 0,
-		antiaircraft = 0,
-		hit_growth = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 25,
+		id = 295135,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
 		dodge_growth = 0,
-		icon = "None",
-		star = 1,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 110,
 		antisub_growth = 0,
 		air_growth = 0,
-		base = 90437,
-		durability = 2400,
+		hit_growth = 0,
+		base = 90718,
+		durability = 1600000,
 		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		fog_fx = "",
-		antisub = 0,
-		wave_fx = "",
-		prefab = "None",
-		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 15,
-		nationality = 97,
 		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 15,
-		cld_box = {
-			5.5,
-			5.5,
-			5.5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {},
-		appear_fx = {
-			"meta_fireball"
-		},
-		hp_bar = {
-			150,
-			2
-		},
-		equipment_list = {
-			1000866
-		},
+		antiaircraft = 352,
+		speed = 20,
+		luck = 25,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
 		buff_list = {
 			{
-				ID = 8992,
-				LV = 1
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 5
 			}
 		}
 	},
-	[295966] = {
-		cannon = 22,
-		name = "Lava Flame",
-		rarity = 1,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
-		air = 0,
-		id = 295966,
-		torpedo = 100,
-		luck = 0,
-		antiaircraft = 0,
-		hit_growth = 0,
-		dodge_growth = 0,
-		icon = "None",
-		star = 1,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90437,
-		durability = 2500,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		fog_fx = "",
-		antisub = 0,
-		wave_fx = "",
-		prefab = "None",
+	[295136] = {
+		cannon = 135,
+		name = "Queen Elizabeth META",
+		torpedo = 0,
 		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
+		air = 0,
 		reload = 150,
-		dodge = 0,
+		armor = 0,
+		dodge = 25,
+		id = 295136,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
 		reload_growth = 0,
-		hit = 20,
-		nationality = 97,
-		durability_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
 		luck_growth = 0,
-		battle_unit_type = 15,
-		cld_box = {
-			5.5,
-			5.5,
-			5.5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {},
-		appear_fx = {
-			"meta_fireball"
-		},
-		hp_bar = {
-			150,
-			2
-		},
-		equipment_list = {
-			1000866
-		},
-		buff_list = {
-			{
-				ID = 8992,
-				LV = 1
-			}
-		}
-	},
-	[295967] = {
-		cannon = 24,
-		name = "Lava Flame",
-		rarity = 1,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
-		air = 0,
-		id = 295967,
-		torpedo = 110,
-		luck = 0,
-		antiaircraft = 0,
-		hit_growth = 0,
-		dodge_growth = 0,
-		icon = "None",
-		star = 1,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90437,
-		durability = 2600,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		fog_fx = "",
-		antisub = 0,
-		wave_fx = "",
-		prefab = "None",
-		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 25,
-		nationality = 97,
-		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 15,
-		cld_box = {
-			5.5,
-			5.5,
-			5.5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {},
-		appear_fx = {
-			"meta_fireball"
-		},
-		hp_bar = {
-			150,
-			2
-		},
-		equipment_list = {
-			1000867
-		},
-		buff_list = {
-			{
-				ID = 8992,
-				LV = 1
-			}
-		}
-	},
-	[295968] = {
-		cannon = 26,
-		name = "Lava Flame",
-		rarity = 1,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
-		air = 0,
-		id = 295968,
-		torpedo = 120,
-		luck = 0,
-		antiaircraft = 0,
-		hit_growth = 0,
-		dodge_growth = 0,
-		icon = "None",
-		star = 1,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90437,
-		durability = 2700,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		fog_fx = "",
-		antisub = 0,
-		wave_fx = "",
-		prefab = "None",
-		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 30,
-		nationality = 97,
-		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 15,
-		cld_box = {
-			5.5,
-			5.5,
-			5.5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {},
-		appear_fx = {
-			"meta_fireball"
-		},
-		hp_bar = {
-			150,
-			2
-		},
-		equipment_list = {
-			1000867
-		},
-		buff_list = {
-			{
-				ID = 8992,
-				LV = 1
-			}
-		}
-	},
-	[295969] = {
-		cannon = 28,
-		name = "Lava Flame",
-		rarity = 1,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
-		air = 0,
-		id = 295969,
-		torpedo = 130,
-		luck = 0,
-		antiaircraft = 0,
-		hit_growth = 0,
-		dodge_growth = 0,
-		icon = "None",
-		star = 1,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90437,
-		durability = 2800,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		fog_fx = "",
-		antisub = 0,
-		wave_fx = "",
-		prefab = "None",
-		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
 		hit = 35,
-		nationality = 97,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90748,
+		durability = 54000,
+		armor_growth = 0,
 		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 15,
-		cld_box = {
-			5.5,
-			5.5,
-			5.5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {},
-		appear_fx = {
-			"meta_fireball"
-		},
-		hp_bar = {
-			150,
-			2
-		},
-		equipment_list = {
-			1000867
-		},
+		antiaircraft = 124,
+		speed = 30,
+		luck = 15,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
 		buff_list = {
 			{
-				ID = 8992,
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 1
+			},
+			{
+				ID = 200380,
 				LV = 1
 			}
 		}
 	},
-	[295970] = {
-		cannon = 30,
-		name = "Lava Flame",
-		rarity = 1,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
-		air = 0,
-		id = 295970,
-		torpedo = 140,
-		luck = 0,
-		antiaircraft = 0,
-		hit_growth = 0,
-		dodge_growth = 0,
-		icon = "None",
-		star = 1,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90437,
-		durability = 3000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		fog_fx = "",
-		antisub = 0,
-		wave_fx = "",
-		prefab = "None",
+	[295137] = {
+		cannon = 155,
+		name = "Queen Elizabeth META",
+		torpedo = 0,
 		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
+		air = 0,
 		reload = 150,
-		dodge = 0,
+		armor = 0,
+		dodge = 28,
+		id = 295137,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
 		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
 		hit = 40,
-		nationality = 97,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90748,
+		durability = 58000,
+		armor_growth = 0,
 		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 15,
-		cld_box = {
-			5.5,
-			5.5,
-			5.5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {},
-		appear_fx = {
-			"meta_fireball"
-		},
-		hp_bar = {
-			150,
-			2
-		},
-		equipment_list = {
-			1000868
-		},
+		antiaircraft = 141,
+		speed = 30,
+		luck = 15,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
 		buff_list = {
 			{
-				ID = 8992,
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 1
+			},
+			{
+				ID = 200380,
 				LV = 1
 			}
 		}
 	},
-	[295971] = {
-		cannon = 34,
-		name = "Lava Flame",
-		rarity = 1,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
-		air = 0,
-		id = 295971,
-		torpedo = 150,
-		luck = 0,
-		antiaircraft = 0,
-		hit_growth = 0,
-		dodge_growth = 0,
-		icon = "None",
-		star = 1,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90437,
-		durability = 3200,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		fog_fx = "",
-		antisub = 0,
-		wave_fx = "",
-		prefab = "None",
+	[295138] = {
+		cannon = 174,
+		name = "Queen Elizabeth META",
+		torpedo = 0,
 		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
+		air = 0,
 		reload = 150,
-		dodge = 0,
+		armor = 0,
+		dodge = 32,
+		id = 295138,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
 		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
 		hit = 45,
-		nationality = 97,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90748,
+		durability = 63000,
+		armor_growth = 0,
 		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 15,
-		cld_box = {
-			5.5,
-			5.5,
-			5.5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {},
-		appear_fx = {
-			"meta_fireball"
-		},
-		hp_bar = {
-			150,
-			2
-		},
-		equipment_list = {
-			1000868
-		},
+		antiaircraft = 159,
+		speed = 30,
+		luck = 15,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
 		buff_list = {
 			{
-				ID = 8992,
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 1
+			},
+			{
+				ID = 200380,
 				LV = 1
 			}
 		}
 	},
-	[295972] = {
-		cannon = 38,
-		name = "Lava Flame",
-		rarity = 1,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
-		air = 0,
-		id = 295972,
-		torpedo = 160,
-		luck = 0,
-		antiaircraft = 0,
-		hit_growth = 0,
-		dodge_growth = 0,
-		icon = "None",
-		star = 1,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90437,
-		durability = 3400,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		fog_fx = "",
-		antisub = 0,
-		wave_fx = "",
-		prefab = "None",
+	[295139] = {
+		cannon = 193,
+		name = "Queen Elizabeth META",
+		torpedo = 0,
 		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
+		air = 0,
 		reload = 150,
-		dodge = 0,
+		armor = 0,
+		dodge = 35,
+		id = 295139,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
 		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
 		hit = 50,
-		nationality = 97,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90748,
+		durability = 76000,
+		armor_growth = 0,
 		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 15,
-		cld_box = {
-			5.5,
-			5.5,
-			5.5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {},
-		appear_fx = {
-			"meta_fireball"
-		},
-		hp_bar = {
-			150,
-			2
-		},
-		equipment_list = {
-			1000868
-		},
+		antiaircraft = 177,
+		speed = 30,
+		luck = 15,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
 		buff_list = {
 			{
-				ID = 8992,
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 2
+			},
+			{
+				ID = 200380,
 				LV = 1
 			}
 		}
 	},
-	[295973] = {
-		cannon = 42,
-		name = "Lava Flame",
-		rarity = 1,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
+	[295140] = {
+		cannon = 213,
+		name = "Queen Elizabeth META",
+		torpedo = 0,
+		cannon_growth = 0,
 		air = 0,
-		id = 295973,
-		torpedo = 170,
-		luck = 0,
-		antiaircraft = 0,
-		hit_growth = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 39,
+		id = 295140,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
 		dodge_growth = 0,
-		icon = "None",
-		star = 1,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 55,
 		antisub_growth = 0,
 		air_growth = 0,
-		base = 90437,
-		durability = 3600,
+		hit_growth = 0,
+		base = 90748,
+		durability = 120000,
 		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		fog_fx = "",
+		durability_growth = 0,
+		antiaircraft = 194,
+		speed = 30,
+		luck = 15,
+		battle_unit_type = 90,
 		antisub = 0,
-		wave_fx = "",
-		prefab = "None",
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 2
+			},
+			{
+				ID = 200380,
+				LV = 1
+			}
+		}
+	},
+	[295141] = {
+		cannon = 232,
+		name = "Queen Elizabeth META",
+		torpedo = 0,
 		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
+		air = 0,
 		reload = 150,
-		dodge = 0,
+		armor = 0,
+		dodge = 42,
+		id = 295141,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
 		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
 		hit = 60,
-		nationality = 97,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90748,
+		durability = 160000,
+		armor_growth = 0,
 		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 15,
-		cld_box = {
-			5.5,
-			5.5,
-			5.5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {},
-		appear_fx = {
-			"meta_fireball"
-		},
-		hp_bar = {
-			150,
-			2
-		},
-		equipment_list = {
-			1000869
-		},
+		antiaircraft = 212,
+		speed = 30,
+		luck = 16,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
 		buff_list = {
 			{
-				ID = 8992,
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 2
+			},
+			{
+				ID = 200380,
 				LV = 1
 			}
 		}
 	},
-	[295974] = {
-		cannon = 46,
-		name = "Lava Flame",
-		rarity = 1,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
+	[295142] = {
+		cannon = 251,
+		name = "Queen Elizabeth META",
+		torpedo = 0,
+		cannon_growth = 0,
 		air = 0,
-		id = 295974,
-		torpedo = 180,
-		luck = 0,
-		antiaircraft = 0,
-		hit_growth = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 46,
+		id = 295142,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
 		dodge_growth = 0,
-		icon = "None",
-		star = 1,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 65,
 		antisub_growth = 0,
 		air_growth = 0,
-		base = 90437,
-		durability = 3800,
+		hit_growth = 0,
+		base = 90748,
+		durability = 250000,
 		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		fog_fx = "",
+		durability_growth = 0,
+		antiaircraft = 230,
+		speed = 30,
+		luck = 17,
+		battle_unit_type = 90,
 		antisub = 0,
-		wave_fx = "",
-		prefab = "None",
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 3
+			},
+			{
+				ID = 200380,
+				LV = 1
+			}
+		}
+	},
+	[295143] = {
+		cannon = 271,
+		name = "Queen Elizabeth META",
+		torpedo = 0,
 		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
+		air = 0,
 		reload = 150,
-		dodge = 0,
+		armor = 0,
+		dodge = 50,
+		id = 295143,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
 		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
 		hit = 70,
-		nationality = 97,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90748,
+		durability = 340000,
+		armor_growth = 0,
 		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 15,
-		cld_box = {
-			5.5,
-			5.5,
-			5.5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {},
-		appear_fx = {
-			"meta_fireball"
-		},
-		hp_bar = {
-			150,
-			2
-		},
-		equipment_list = {
-			1000869
-		},
+		antiaircraft = 248,
+		speed = 30,
+		luck = 18,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
 		buff_list = {
 			{
-				ID = 8992,
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 3
+			},
+			{
+				ID = 200380,
 				LV = 1
 			}
 		}
 	},
-	[295975] = {
-		cannon = 50,
-		name = "Lava Flame",
-		rarity = 1,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
+	[295144] = {
+		cannon = 290,
+		name = "Queen Elizabeth META",
+		torpedo = 0,
+		cannon_growth = 0,
 		air = 0,
-		id = 295975,
-		torpedo = 200,
-		luck = 0,
-		antiaircraft = 0,
-		hit_growth = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 53,
+		id = 295144,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
 		dodge_growth = 0,
-		icon = "None",
-		star = 1,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 75,
 		antisub_growth = 0,
 		air_growth = 0,
-		base = 90437,
-		durability = 4000,
+		hit_growth = 0,
+		base = 90748,
+		durability = 420000,
 		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		fog_fx = "",
-		antisub = 0,
-		wave_fx = "",
-		prefab = "None",
-		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 80,
-		nationality = 97,
 		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 15,
-		cld_box = {
-			5.5,
-			5.5,
-			5.5
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		smoke = {},
-		appear_fx = {
-			"meta_fireball"
-		},
-		hp_bar = {
-			150,
-			2
-		},
-		equipment_list = {
-			1000869
-		},
+		antiaircraft = 265,
+		speed = 30,
+		luck = 19,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
 		buff_list = {
 			{
-				ID = 8992,
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 3
+			},
+			{
+				ID = 200380,
 				LV = 1
 			}
 		}

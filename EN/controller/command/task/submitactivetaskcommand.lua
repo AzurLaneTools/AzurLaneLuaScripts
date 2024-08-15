@@ -73,31 +73,9 @@ slot0.submitActivity = function(slot0, slot1, slot2, slot3, slot4)
 			elseif table.contains(TotalTaskProxy.activity_task_type, uv0) then
 				slot1 = PlayerConst.addTranDrop(slot0.award_list, {})
 
-				for slot5 = 1, #uv1.task_ids do
-					slot7 = pg.task_data_template[uv1.task_ids[slot5]]
-					slot8 = slot7.award_display
-					slot10 = slot7.sub_type
-					slot11 = tonumber(slot7.target_id)
-					slot12 = tonumber(slot7.target_id_2)
-					slot13 = slot7.target_num
-					slot14 = getProxy(ActivityProxy):getActivityById(uv1.act_id)
-
-					if slot7.type == 6 and slot14 then
-						assert(slot14)
-
-						if not table.contains(slot14:GetFinishedTaskIds(), slot6) then
-							table.insert(slot15, slot6)
-							getProxy(ActivityProxy):updateActivity(slot14)
-						end
-					end
-
-					if slot9 == 6 and slot10 == 1006 and pg.activity_drop_type[slot11] and getProxy(ActivityProxy):getActivityById(pg.activity_drop_type[slot11].activity_id) then
-						slot16:subVitemNumber(slot12, slot13)
-						getProxy(ActivityProxy):updateActivity(slot16)
-					end
-				end
-
 				for slot5, slot6 in ipairs(uv3) do
+					uv2:updateTaskActivityData(slot6.id, uv1.act_id)
+					uv2:updateTaskBagData(slot6.id, uv1.act_id)
 					SubmitTaskCommand.OnSubmitSuccess(slot6)
 				end
 
@@ -108,6 +86,7 @@ slot0.submitActivity = function(slot0, slot1, slot2, slot3, slot4)
 				slot1 = PlayerConst.addTranDrop(slot0.award_list, {})
 
 				for slot5, slot6 in ipairs(uv3) do
+					uv2:updateTaskBagData(slot6.id, uv1.act_id)
 					SubmitTaskCommand.OnSubmitSuccess(slot6)
 				end
 
@@ -127,6 +106,49 @@ slot0.submitActivity = function(slot0, slot1, slot2, slot3, slot4)
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
 		end
 	end)
+end
+
+slot0.updateTaskActivityData = function(slot0, slot1, slot2)
+	slot3 = pg.task_data_template[slot1]
+	slot4 = slot3.type
+	slot5 = slot3.sub_type
+
+	if getProxy(ActivityProxy):getActivityById(slot2) and slot4 == 6 then
+		assert(slot6)
+
+		if not table.contains(slot6:GetFinishedTaskIds(), slot1) then
+			table.insert(slot7, slot1)
+			getProxy(ActivityProxy):updateActivity(slot6)
+		end
+	end
+end
+
+slot1 = {
+	{
+		6,
+		1006
+	},
+	{
+		16,
+		1006
+	}
+}
+
+slot0.updateTaskBagData = function(slot0, slot1, slot2)
+	slot3 = pg.task_data_template[slot1]
+	slot5 = tonumber(slot3.target_id_2)
+	slot6 = slot3.target_num
+	slot7 = slot3.type
+	slot8 = slot3.sub_type
+
+	if pg.activity_drop_type[tonumber(slot3.target_id)] then
+		for slot12, slot13 in ipairs(uv0) do
+			if slot7 == slot13[1] and slot8 == slot13[2] and getProxy(ActivityProxy):getActivityById(pg.activity_drop_type[slot4].activity_id) then
+				slot15:subVitemNumber(slot5, slot6)
+				getProxy(ActivityProxy):updateActivity(slot15)
+			end
+		end
+	end
 end
 
 slot0.filterOverflowTaskVOList = function(slot0, slot1)

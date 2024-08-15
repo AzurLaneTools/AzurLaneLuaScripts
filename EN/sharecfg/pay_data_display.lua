@@ -149,7 +149,8 @@ pg.pay_data_display = setmetatable({
 		147,
 		148,
 		149,
-		150
+		150,
+		151
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -14172,6 +14173,119 @@ pg.base.pay_data_display = {
 			{
 				2,
 				81404,
+				1
+			}
+		}
+	},
+	[151] = {
+		extra_service = 3,
+		limit_group = 0,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		first_pay_double = 0,
+		name_display = "6th Anniversary Lucky Barrel",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "6th Anniversary Lucky Barrel",
+		limit_arg = 1,
+		money = 2999,
+		tag = 2,
+		name = "6th Anniversary Lucky Barrel",
+		gem = 0,
+		type_order = 2,
+		limit_type = 2,
+		picture = "fudai89",
+		skin_inquire_relation = 86405,
+		id_str = "com.yostaren.azurlane.luckybag37",
+		extra_gem = 0,
+		id = 151,
+		airijp_id = "com.yostaren.azurlane.luckybag37",
+		extra_service_item = {
+			{
+				2,
+				86405,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					8,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					8,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86405,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81405,
 				1
 			}
 		}
