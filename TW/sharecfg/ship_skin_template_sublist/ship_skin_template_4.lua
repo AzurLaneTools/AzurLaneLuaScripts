@@ -3103,6 +3103,105 @@ pg.base.ship_skin_template_4 = {
 			}
 		}
 	},
+	[107300] = {
+		name = "聖哈辛托",
+		ship_group = 10730,
+		desc = "独立级轻型航空母舰—圣哈辛托，舷号CVL-30",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 0,
+		prefab = "shenghaxintuo",
+		painting = "shenghaxintuo",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 107300,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 392,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.443,
+					1.093,
+					0
+				}
+			},
+			plane = {
+				{
+					1.791,
+					1.759,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.327,
+							2.381,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
 	[107380] = {
 		name = "香格里拉",
 		ship_group = 10738,
@@ -11025,128 +11124,6 @@ pg.base.ship_skin_template_4 = {
 						{
 							0.3,
 							0.87,
-							-0.4
-						}
-					}
-				}
-			}
-		}
-	},
-	[201221] = {
-		name = "美味的祭典？",
-		ship_group = 20122,
-		desc = "重櫻的祭典真的好棒啊~指揮官，要不要來點{namecode:98}小姐準備的章魚燒呢？據說很好吃哦？",
-		illustrator2 = -1,
-		bg_sp = "1102",
-		group_index = 1,
-		prefab = "tianhou_2",
-		painting = "tianhou_2",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 10,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "114",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 201221,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 37,
-		spine_offset = "",
-		illustrator = 1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.43,
-					0.728,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.395,
-					0.711,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.001,
-					0.009,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.375,
-					0.757,
-					0
-				}
-			},
-			plane = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.549,
-							2.179,
 							-0.4
 						}
 					}
