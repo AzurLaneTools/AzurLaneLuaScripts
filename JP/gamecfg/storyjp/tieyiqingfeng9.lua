@@ -352,11 +352,12 @@ return {
 			}
 		},
 		{
-			actor = 900070,
-			side = 2,
+			actor = 900072,
+			nameColor = "#FFC960",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			nameColor = "#FFC960",
+			side = 2,
+			actorName = "エンタープライズ(META)",
 			say = "世間話をしに来たのか？",
 			typewriter = {
 				speed = 0.05,
@@ -378,11 +379,12 @@ return {
 			}
 		},
 		{
-			actor = 900070,
-			side = 2,
+			actor = 900072,
+			nameColor = "#FFC960",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			nameColor = "#FFC960",
+			side = 2,
+			actorName = "エンタープライズ(META)",
 			say = "ふん。それでいい",
 			typewriter = {
 				speed = 0.05,
@@ -390,11 +392,12 @@ return {
 			}
 		},
 		{
-			actor = 900070,
-			side = 2,
+			actor = 900072,
+			nameColor = "#FFC960",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			nameColor = "#FFC960",
+			side = 2,
+			actorName = "エンタープライズ(META)",
 			say = "戻れ。夢から覚める時間だ",
 			typewriter = {
 				speed = 0.05,

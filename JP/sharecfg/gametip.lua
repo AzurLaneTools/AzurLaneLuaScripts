@@ -26113,26 +26113,26 @@ cs.gametip = {
 	},
 	["0815_main_help"] = {
 		1088140,
-		915,
+		1141,
 		true
 	},
 	town_help = {
-		1089055,
+		1089281,
 		1281,
 		true
 	},
 	activity_0815_town_memory = {
-		1090336,
+		1090562,
 		189,
 		true
 	},
 	town_gold_tip = {
-		1090525,
+		1090751,
 		241,
 		true
 	},
 	award_max_warning_minigame = {
-		1090766,
+		1090992,
 		238,
 		true
 	}

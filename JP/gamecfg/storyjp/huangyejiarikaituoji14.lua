@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_176",
 			hidePaintObj = true,
-			say = "しか建物はみな扉と窓を硬く閉ざしていて、暗くなっている中でどれが宿屋かわからない。",
+			say = "しかし、建物はどこも扉と窓を硬く閉ざしていて、暗くなっている中ではどれが宿屋かわからない。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

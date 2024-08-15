@@ -340,7 +340,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "指揮官を目覚めさる役にしては上出来よ",
+			say = "指揮官を目覚めさせる役にしては上出来よ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
