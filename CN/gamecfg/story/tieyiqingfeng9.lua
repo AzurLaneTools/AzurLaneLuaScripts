@@ -352,11 +352,12 @@ return {
 			}
 		},
 		{
-			actor = 900070,
-			side = 2,
+			actor = 900072,
+			nameColor = "#FFC960",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			nameColor = "#FFC960",
+			side = 2,
+			actorName = "企业·META",
 			say = "来这里跟我谈话，你很闲么？",
 			typewriter = {
 				speed = 0.05,
@@ -378,11 +379,12 @@ return {
 			}
 		},
 		{
-			actor = 900070,
-			side = 2,
+			actor = 900072,
+			nameColor = "#FFC960",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			nameColor = "#FFC960",
+			side = 2,
+			actorName = "企业·META",
 			say = "哼，这就对了。",
 			typewriter = {
 				speed = 0.05,
@@ -390,11 +392,12 @@ return {
 			}
 		},
 		{
-			actor = 900070,
-			side = 2,
+			actor = 900072,
+			nameColor = "#FFC960",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			nameColor = "#FFC960",
+			side = 2,
+			actorName = "企业·META",
 			say = "回去吧，梦该醒了。",
 			typewriter = {
 				speed = 0.05,

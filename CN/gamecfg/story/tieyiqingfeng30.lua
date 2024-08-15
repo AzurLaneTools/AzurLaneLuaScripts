@@ -494,7 +494,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:457:约克}城姐的判断没有问题，她作为{namecode:524:圣地亚哥}司令部的负责人，在后方混乱未消时，确实应该坐镇司令部。",
+			say = "约克城姐的判断没有问题，她作为{namecode:524:圣地亚哥}司令部的负责人，在后方混乱未消时，确实应该坐镇司令部。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

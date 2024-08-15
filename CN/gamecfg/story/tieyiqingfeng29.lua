@@ -96,7 +96,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "敌情尚不明朗，预备队不动。",
+			say = "敌情尚不明朗，预备队继续待命。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

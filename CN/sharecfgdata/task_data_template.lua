@@ -104791,8 +104791,8 @@ _G.pg.base.task_data_template[20430] = {
 	scene = {
 		"LEVEL",
 		{
-			mapIdx = 1810025,
-			chapterId = 1810041
+			mapIdx = 1830025,
+			chapterId = 1830041
 		}
 	}
 }
@@ -104838,8 +104838,8 @@ _G.pg.base.task_data_template[20431] = {
 	scene = {
 		"LEVEL",
 		{
-			mapIdx = 1810026,
-			chapterId = 1810051
+			mapIdx = 1830026,
+			chapterId = 1830051
 		}
 	}
 }
@@ -104885,8 +104885,8 @@ _G.pg.base.task_data_template[20432] = {
 	scene = {
 		"LEVEL",
 		{
-			mapIdx = 1810012,
-			chapterId = 1810026
+			mapIdx = 1830012,
+			chapterId = 1830026
 		}
 	}
 }

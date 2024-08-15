@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "由撒丁帝国在此时节重新举办世界博览会，确实是一个绝妙的注意。",
+			say = "由撒丁帝国在此时节重新举办世界博览会，确实是一个绝妙的主意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

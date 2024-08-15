@@ -40,7 +40,7 @@ return {
 			actor = 107120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:457:约克}城姐……我总觉得，我们刚才是不是已经来过这片海域了！",
+			say = "约克城姐……我总觉得，我们刚才是不是已经来过这片海域了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 103260,
-			say = "{namecode:457:约克}城女士，根据导航信息，我们应该早就抵达{namecode:524:圣地亚哥}司令部了才对，",
+			say = "约克城女士，根据导航信息，我们应该早就抵达{namecode:524:圣地亚哥}司令部了才对，",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:457:约克}城姐，我立刻升空……迎……击？",
+			say = "约克城姐，我立刻升空……迎……击？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			actor = 107120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不对啊{namecode:457:约克}城姐，我这里显示飞来的是己方目标啊。",
+			say = "不对啊约克城姐，我这里显示飞来的是己方目标啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

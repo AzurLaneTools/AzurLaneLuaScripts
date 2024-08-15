@@ -1095,7 +1095,7 @@ return {
 			actor = 107020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然后，之前与我们一起举行Party的{namecode:457:约克}城女士呢？",
+			say = "然后，之前与我们一起举行Party的约克城女士呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1109,7 +1109,7 @@ return {
 			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……{namecode:457:约克}城女士，在AF海海战中，遭受到了危及心智魔方的侵蚀性损伤……伤势长期无法恢复。",
+			say = "……约克城女士，在AF海海战中，遭受到了危及心智魔方的侵蚀性损伤……伤势长期无法恢复。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

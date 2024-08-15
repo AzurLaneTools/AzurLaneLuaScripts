@@ -279,7 +279,7 @@ return {
 			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "抱歉，印第安纳，我之前好像有说过……现在是非常时期，必须是标记为优先级极高的报告才能在这时候送过来对吧。",
+			say = "抱歉，印第安纳，我之前好像有说过……现在是非常时期，必须是标记为最高优先级的报告才能在这时候送过来对吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			actor = 103070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错。这些报告都是被标记为优先级最高的。",
+			say = "没错。这些报告都是被标记为最高优先级的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -844,7 +844,7 @@ return {
 			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……没错「星桥」已经调经完毕了……穿越星桥，就能直达星海！",
+			say = "……没错「星桥」已经调整完毕了……穿越星桥，就能直达星海！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

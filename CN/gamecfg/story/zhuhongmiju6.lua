@@ -435,7 +435,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这、镇海小姐，这座光幕又是什么？！塞壬发动攻击了么？",
+			say = "……这、镇海小姐，这道光幕又是什么？！塞壬发动攻击了么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
