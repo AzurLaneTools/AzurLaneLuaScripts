@@ -163,7 +163,23 @@ slot5.bulletSplit = function(slot0, slot1)
 				end
 
 				if uv10 then
-					if uv11.Battle.BattleTargetChoise.TargetHarmNearest(uv6)[1] == nil then
+					slot6 = nil
+					slot7 = uv6:GetWeapon():GetHost()
+
+					if type(uv10) == "table" and slot7 then
+						slot8 = uv4.reaimParam
+						slot9 = nil
+
+						for slot13, slot14 in ipairs(uv10) do
+							slot9 = uv11.Battle.BattleTargetChoise[slot14](slot7, slot8, slot9)
+						end
+
+						slot6 = slot9[1]
+					else
+						slot6 = uv11.Battle.BattleTargetChoise.TargetHarmNearest(uv6)[1]
+					end
+
+					if slot6 == nil then
 						slot4:SetRotateInfo(nil, slot5, slot2)
 					else
 						slot4:SetRotateInfo(slot6:GetBeenAimedPosition(), slot5, slot2)

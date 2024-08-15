@@ -339,7 +339,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 426
+		key_value = 427
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1923,7 +1923,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 425
+		key_value = 428
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -3688,5 +3688,41 @@ pg.gameset = {
 	monopoly2024_bubble_time = {
 		description = "",
 		key_value = 5
+	},
+	activity_town_bubble = {
+		key_value = 0,
+		description = {
+			{
+				5400
+			},
+			{
+				3,
+				1500,
+				{
+					10000,
+					9000,
+					8000
+				}
+			}
+		}
+	},
+	activity_town_favor = {
+		description = "",
+		key_value = 1
+	},
+	activity_town_param = {
+		key_value = 0,
+		description = {
+			{
+				8,
+				65011
+			},
+			1000000,
+			5
+		}
+	},
+	activity_town_special_work = {
+		description = "",
+		key_value = 8
 	}
 }

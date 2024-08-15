@@ -22369,7 +22369,7 @@ _G.pg.base.spweapon_data_statistics[13230] = {
 
 _G.pg.base.spweapon_data_statistics[13240] = {
 	attribute_1 = "torpedo",
-	name = "风味特调（勿饮） ",
+	name = "风味特调（勿饮）",
 	type = 8,
 	tech = 0,
 	value_1_random = 10,

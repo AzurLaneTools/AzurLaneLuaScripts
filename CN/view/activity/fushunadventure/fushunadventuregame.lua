@@ -29,6 +29,10 @@ slot0.setRoomTip = function(slot0, slot1)
 	slot0.helpTip = slot1
 end
 
+slot0.setRoomId = function(slot0, slot1)
+	slot0.roomId = slot1
+end
+
 slot0.Init = function(slot0)
 	if slot0.state ~= uv0 then
 		return
@@ -861,6 +865,10 @@ slot0.ShowResultWindow = function(slot0, slot1)
 			uv1()
 		end
 	end, SFX_PANEL)
+
+	if slot0.roomId then
+		slot0.highestScore = getProxy(GameRoomProxy):getRoomScore(slot0.roomId)
+	end
 
 	slot0.resultHighestScoreTxt.text = slot0.highestScore
 	slot0.resultScoreTxt.text = slot0.score

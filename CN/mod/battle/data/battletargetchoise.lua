@@ -821,6 +821,12 @@ slot3.TargetPlayerLeaderShip = function(slot0, slot1, slot2)
 	}
 end
 
+slot3.TargetEnemyLeaderShip = function(slot0, slot1, slot2)
+	return {
+		ys.Battle.BattleDataProxy.GetInstance():GetFleetByIFF(slot0:GetIFF() * -1):GetLeaderShip()
+	}
+end
+
 slot3.TargetPlayerByType = function(slot0, slot1)
 	slot4 = {}
 	slot5 = slot1.shipType

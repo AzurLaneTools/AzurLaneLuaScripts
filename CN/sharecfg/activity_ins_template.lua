@@ -12493,36 +12493,141 @@ pg.activity_ins_template = {
 	[483] = {
 		ship_group = 90402,
 		name = "Strasbourg",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_483",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/20240725_IKRI2xcjasuFo1BE_sitelasibao.png",
+		is_active = 0,
 		sculpture = "sitelasibao",
 		id = 483,
 		group_id = 483,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2024,
+				7,
+				25
+			},
+			{
+				12,
+				17,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			4668,
+			4673,
+			4676
+		}
 	},
 	[484] = {
 		ship_group = 90303,
 		name = "Dupleix",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_484",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/20240725_7X97Rj0tIilh5BcH_dipulaikesi.png",
+		is_active = 0,
 		sculpture = "dipulaikesi",
 		id = 484,
 		group_id = 484,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2024,
+				7,
+				26
+			},
+			{
+				10,
+				25,
+				21
+			}
+		},
+		npc_discuss_persist = {
+			4687,
+			4691,
+			4694
+		}
 	},
 	[485] = {
 		ship_group = 60108,
 		name = "Alfredo ",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_485",
+		picture_persist = "https://line3-patch-blhx.bilibiligame.net/pic/20240725_1JfTktouCuj9WIDP_guogan.png",
+		is_active = 0,
 		sculpture = "aerfuleiduo",
 		id = 485,
 		group_id = 485,
+		time_persist = {
+			{
+				2024,
+				7,
+				27
+			},
+			{
+				14,
+				38,
+				21
+			}
+		},
+		npc_discuss_persist = {
+			4704,
+			4707,
+			4712
+		}
+	},
+	[486] = {
+		ship_group = 10233,
+		name = "Fargo",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "fage",
+		id = 486,
+		group_id = 486,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[487] = {
+		ship_group = 10328,
+		name = "Pittsburgh",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "pizibao",
+		id = 487,
+		group_id = 487,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[488] = {
+		ship_group = 10515,
+		name = "Indiana",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "yindianna",
+		id = 488,
+		group_id = 488,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[489] = {
+		ship_group = 10809,
+		name = "Herring",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "feiyu",
+		id = 489,
+		group_id = 489,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[490] = {
+		ship_group = 10152,
+		name = "Bell",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "beier",
+		id = 490,
+		group_id = 490,
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
@@ -13001,6 +13106,11 @@ pg.activity_ins_template = {
 		482,
 		483,
 		484,
-		485
+		485,
+		486,
+		487,
+		488,
+		489,
+		490
 	}
 }

@@ -243,7 +243,8 @@ end
 
 slot0.updateData = function(slot0)
 	slot0.infinite = slot0:GetMGHubData().count == 0
-	slot0.best = slot0:GetMGData():GetRuntimeData("elements") and slot2[1] or 0
+	slot2 = slot0:GetMGData():GetRuntimeData("elements")
+	slot0.best = getProxy(GameRoomProxy):getRoomScore(slot0:getGameRoomData().id)
 end
 
 slot0.index2pos = function(slot0, slot1, slot2)

@@ -499,6 +499,17 @@ slot0.InitSwitch = function()
 				end,
 				[21] = function ()
 					return nil, uv0
+				end,
+				[28] = function ()
+					return Drop.New({
+						type = uv0.type,
+						id = uv0.id,
+						count = math.floor(uv0.count / 1000)
+					}), Drop.New({
+						type = uv0.type,
+						id = uv0.id,
+						count = uv0.count - math.floor(uv0.count / 1000)
+					})
 				end
 			}, function ()
 				return uv0
@@ -761,9 +772,28 @@ slot0.InitSwitch = function()
 						slot0:updateActivity(slot1)
 					end
 				end,
+				[27] = function ()
+					if Clone(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TOWN)) and not slot1:isEnd() then
+						slot1:AddExp(uv0.count)
+						slot0:updateActivity(slot1)
+					end
+				end,
+				[28] = function ()
+					if Clone(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TOWN)) and not slot1:isEnd() then
+						slot1:AddGold(uv0.count)
+						slot0:updateActivity(slot1)
+					end
+				end,
 				[99] = function ()
 				end,
 				[100] = function ()
+				end,
+				[101] = function ()
+					if getProxy(ActivityProxy):getActivityById(uv0:getConfig("link_id")) and not slot1:isEnd() then
+						slot1.data1 = slot1.data1 + uv0.count
+
+						getProxy(ActivityProxy):updateActivity(slot1)
+					end
 				end
 			})
 		end,

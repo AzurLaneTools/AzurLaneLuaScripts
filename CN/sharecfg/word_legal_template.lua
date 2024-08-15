@@ -731,13 +731,13 @@ temp = function()
 					}
 				}
 			},
+			["滨"] = {
+				this = true
+			},
 			["福"] = {
 				["德"] = {
 					this = true
 				}
-			},
-			["滨"] = {
-				this = true
 			}
 		}
 	}
@@ -752,6 +752,11 @@ temp = function()
 				["里"] = {
 					["奇"] = {
 						this = true,
+						["."] = {
+							["改"] = {
+								this = true
+							}
+						},
 						["-"] = {
 							["幼"] = {
 								["儿"] = {
@@ -860,6 +865,7 @@ temp = function()
 			this = true
 		},
 		["尔"] = {
+			this = true,
 			["法"] = {
 				["斯"] = {
 					["特"] = {
@@ -2008,6 +2014,16 @@ end
 temp()
 
 temp = function()
+	uv0["法"] = {
+		["戈"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["彭"] = {
 		["萨"] = {
 			["科"] = {
@@ -2100,6 +2116,7 @@ temp = function()
 		["第"] = {
 			["安"] = {
 				["纳"] = {
+					this = true,
 					["波"] = {
 						["利"] = {
 							["斯"] = {
@@ -2506,6 +2523,18 @@ temp = function()
 				["世"] = {
 					this = true
 				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["匹"] = {
+		["兹"] = {
+			["堡"] = {
+				this = true
 			}
 		}
 	}
@@ -3089,6 +3118,16 @@ temp = function()
 			this = true
 		},
 		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["鲱"] = {
+		["鱼"] = {
 			this = true
 		}
 	}
@@ -7282,6 +7321,16 @@ end
 temp()
 
 temp = function()
+	uv0["滨"] = {
+		["江"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["奇"] = {
 		["尔"] = {
 			["沙"] = {
@@ -7877,16 +7926,6 @@ temp = function()
 					}
 				}
 			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["滨"] = {
-		["江"] = {
-			this = true
 		}
 	}
 end

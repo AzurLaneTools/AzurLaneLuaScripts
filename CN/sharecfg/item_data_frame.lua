@@ -612,6 +612,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>扬帆起航！豪华邮轮与心跳之旅！</color>通过参与七周年限定活动获取",
 		scene = {}
 	},
+	[607] = {
+		name = "一场荒野之旅",
+		gain_by = "",
+		time_second = 0,
+		id = 607,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>没人能逃出自己的故事，自由的牛仔也不例外。</color>通过参与「荒野假日开拓记」活动获取",
+		scene = {}
+	},
 	[10001] = {
 		name = "限界的挑战者·双子座",
 		gain_by = "",
@@ -789,6 +798,7 @@ pg.item_data_frame = {
 		604,
 		605,
 		606,
+		607,
 		10001,
 		10002,
 		10003,

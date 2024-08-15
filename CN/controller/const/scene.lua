@@ -44,7 +44,7 @@ SCENE = {
 	RESOLVESHIPS = "scene resolve ships",
 	EVENT = "scene event",
 	REFLUX = "reflux",
-	COURTYARD = "scene court yard",
+	TOWN = "TOWN",
 	SCULPTURE = "sculpture",
 	BATTLE = "scene battle",
 	VOTEENTRANCE = "scene vote entrance",
@@ -95,8 +95,10 @@ SCENE = {
 	DORM3D_AR = "DORM3D_AR",
 	DEPOTSCENE = "scene depot scene",
 	SELTECHNOLOGY = "seltechnology",
+	COURTYARD = "scene court yard",
 	INVITATION = "scene invitation",
 	UPGRADESTAR = "scene upgrade star",
+	COWBOY_TOWN_BACKHILL = "COWBOY_TOWN_BACKHILL",
 	CHARGE_MENU = "scene charge_menu",
 	HOTSPRING = "hotSpring",
 	EQUIPSCENE = "scene equip",
@@ -868,6 +870,14 @@ slot0 = {
 	[SCENE.KINDERGARTEN] = function (slot0, slot1)
 		slot0.mediator = KindergartenMediator
 		slot0.viewComponent = KindergartenScene
+	end,
+	[SCENE.TOWN] = function (slot0, slot1)
+		slot0.mediator = TownMediator
+		slot0.viewComponent = TownScene
+	end,
+	[SCENE.COWBOY_TOWN_BACKHILL] = function (slot0, slot1)
+		slot0.mediator = CowboyTownMediator
+		slot0.viewComponent = CowboyTownBackHillScene
 	end
 }
 

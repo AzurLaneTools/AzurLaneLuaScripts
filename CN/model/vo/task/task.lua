@@ -10,6 +10,7 @@ slot0.TYPE_ACTIVITY_BRANCH = 26
 slot0.TYPE_GUILD_WEEKLY = 12
 slot0.TYPE_NEW_WEEKLY = 13
 slot0.TYPE_REFLUX = 15
+slot0.TYPE_ACTIVITY_REPEAT = 16
 slot0.TYPE_ACTIVITY_WEEKLY = 46
 slot1 = {
 	"scenario",
@@ -100,6 +101,12 @@ slot0.getProgress = function(slot0)
 		slot1 = 0
 	elseif slot0:getConfig("sub_type") == TASK_SUB_TYPE_TECHNOLOGY_POINT then
 		slot1 = math.min(getProxy(TechnologyNationProxy):getNationPoint(tonumber(slot0:getConfig("target_id"))), slot0:getConfig("target_num"))
+	elseif slot0:getConfig("sub_type") == TASK_SUB_TYPE_VITEM then
+		slot3 = tonumber(slot0:getConfig("target_id_2"))
+
+		if getProxy(ActivityProxy):getActivityById(pg.activity_drop_type[tonumber(slot0:getConfig("target_id"))].activity_id) then
+			slot1 = slot5:getVitemNumber(slot3)
+		end
 	end
 
 	return slot1 or 0
@@ -111,6 +118,22 @@ end
 
 slot0.isReceive = function(slot0)
 	return slot0.submitTime > 0
+end
+
+slot0.isCircle = function(slot0)
+	if slot0:isActivityTask() then
+		if slot0:getConfig("type") == 16 and slot0:getConfig("sub_type") == 1006 then
+			return true
+		elseif slot0:getConfig("type") == 16 and slot0:getConfig("sub_type") == 20 then
+			return true
+		end
+	end
+
+	return false
+end
+
+slot0.isDaily = function(slot0)
+	return slot0:getConfig("sub_type") == 415 or slot0:getConfig("sub_type") == 412
 end
 
 slot0.getTaskStatus = function(slot0)

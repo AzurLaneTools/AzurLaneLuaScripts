@@ -387,6 +387,12 @@ pg.expedition_data_by_map = setmetatable({
 		1820002,
 		1820003,
 		1820004,
+		1830001,
+		1830002,
+		1830011,
+		1830012,
+		1830025,
+		1830026,
 		2100000,
 		2100001,
 		2100010,
@@ -18206,6 +18212,338 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		uifx = "",
 		bind_map = 1820002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1830001] = {
+		map = 1830001,
+		name = "铁翼擎风·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "battle-eagleunion",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "TIEYIQINGFENG1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1830001",
+		cloud_suffix = "",
+		on_activity = 5521,
+		ui_type = 1,
+		bg = "Map_1830001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1830011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1830002,
+					"map_1830001",
+					"effect_1830001"
+				}
+			},
+			{
+				2,
+				{
+					1830105,
+					"map_1830005",
+					"effect_1830005"
+				}
+			}
+		}
+	},
+	[1830002] = {
+		map = 1830002,
+		name = "铁翼擎风·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "battle-newwind",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "TIEYIQINGFENG19",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1830002",
+		cloud_suffix = "",
+		on_activity = 5521,
+		ui_type = 1,
+		bg = "Map_1830002",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1830012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1830004,
+					"map_1830002",
+					"effect_1830002"
+				}
+			},
+			{
+				2,
+				{
+					1830005,
+					"map_1830003",
+					"effect_1830003"
+				}
+			}
+		}
+	},
+	[1830011] = {
+		map = 1830011,
+		name = "铁翼擎风·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "battle-eagleunion",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "TIEYIQINGFENG1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1830001",
+		cloud_suffix = "",
+		on_activity = 5521,
+		ui_type = 1,
+		bg = "Map_1830001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1830001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1830022,
+					"map_1830001",
+					"effect_1830001"
+				}
+			},
+			{
+				2,
+				{
+					1830205,
+					"map_1830005",
+					"effect_1830005"
+				}
+			}
+		}
+	},
+	[1830012] = {
+		map = 1830012,
+		name = "铁翼擎风·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "battle-newwind",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "TIEYIQINGFENG19",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1830002",
+		cloud_suffix = "",
+		on_activity = 5521,
+		ui_type = 1,
+		bg = "Map_1830002",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1830002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1830024,
+					"map_1830002",
+					"effect_1830002"
+				}
+			},
+			{
+				2,
+				{
+					1830025,
+					"map_1830003",
+					"effect_1830003"
+				}
+			}
+		}
+	},
+	[1830025] = {
+		map = 1830025,
+		name = "铁翼擎风·SP|| ||CHAPTER EX||E.X.",
+		bgm = "story-island-soft",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1830005",
+		ani_controller = "",
+		cloud_suffix = "",
+		on_activity = 5521,
+		ui_type = 1,
+		bg = "Map_1830005",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1830012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1830026] = {
+		map = 1830026,
+		name = "铁翼擎风·EX|| ||CHAPTER EX||E.X.",
+		bgm = "theme-designfleet-VII",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1830004",
+		ani_controller = "",
+		cloud_suffix = "",
+		on_activity = 5521,
+		ui_type = 1,
+		bg = "Map_1830004",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1830012,
 		clouds_pos = {
 			{
 				332,

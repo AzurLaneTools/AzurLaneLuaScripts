@@ -440,6 +440,17 @@ pg.effect_offset = {
 			0
 		}
 	},
+	Bossbomb_red = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
+			0,
+			0,
+			0
+		}
+	},
 	fangkongpaohuoshe2 = {
 		mirror = false,
 		y_scale = false,
@@ -674,7 +685,7 @@ pg.effect_offset = {
 	Pojia02 = {
 		mirror = false,
 		y_scale = false,
-		container_index = -1,
+		container_index = 2,
 		top_cover_offset = false,
 		offset = {
 			0,

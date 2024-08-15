@@ -4564,6 +4564,41 @@ pg.backyard_theme_template = {
 			312302
 		}
 	},
+	[113] = {
+		Cfg_1 = 5,
+		name = "西部旅店 ",
+		desc = "旅店之内，禁止火并！ ",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 114,
+		id = 113,
+		icon = "xbthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			313001,
+			313002,
+			313101,
+			313102,
+			313103,
+			313104,
+			313105,
+			313106,
+			313107,
+			313108,
+			313109,
+			313110,
+			313111,
+			313112,
+			313301,
+			313302,
+			313303
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4668,6 +4703,7 @@ pg.backyard_theme_template = {
 		109,
 		110,
 		111,
-		112
+		112,
+		113
 	}
 }

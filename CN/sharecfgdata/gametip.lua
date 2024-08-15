@@ -9103,6 +9103,17 @@ _G.pg.base.gametip.ship_remould_sueecss = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_101994 = {
+	tip = [[
+此次改造操作将消耗<color=#92fc63>电气增幅装置</color>
+是否确认继续操作？
+改造后 <color=#92fc63>【防空炮底座+1】、【装备特殊反潜武器】</color>
+技能<color=#92fc63>【彩虹计划】</color>将升级为<color=#92fc63>【彩虹计划·改】</color>
+技能<color=#92fc63>【专属弹幕-埃尔德里奇II】</color>
+将升级为<color=#92fc63>【专属弹幕-埃尔德里奇III】</color>]]
+}
+
+
 _G.pg.base.gametip.ship_remould_warning_102174 = {
 	tip = "此次改造操作将消耗<color=#92fc63>闪耀的麦克风</color>\n是否确认继续操作？"
 }
@@ -12352,7 +12363,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "斯特拉斯堡、迪普莱克斯 建造概率UP！"
+	tip = "匹兹堡、印第安纳 等角色建造概率UP！"
 }
 
 
@@ -22768,7 +22779,7 @@ _G.pg.base.gametip.cowboy_tips = {
 		{
 			info = [[
 活动规则：
-1.<color=#92fc63>8月18日</color>为止每日0点开放<color=#92fc63>1</color>场新的套牛比赛，总计<color=#92fc63>7</color>场，可累计。完成套牛比赛可以获得丰富奖励
+1.<color=#92fc63>8月21日</color>为止每日0点开放<color=#92fc63>1</color>场新的套牛比赛，总计<color=#92fc63>7</color>场，可累计。完成套牛比赛可以获得丰富奖励
 游戏规则：
 1.屏幕自右向左会跑过不同身着布偶装的啾啾，点击右侧套绳按钮套出绳索，套索套中啾啾后可获得积分。
 2.套中不同的啾啾获得的积分不同：
@@ -28966,6 +28977,16 @@ _G.pg.base.gametip.battle_text_luodeni_3 = {
 }
 
 
+_G.pg.base.gametip.battle_text_pizibao_1 = {
+	tip = "支援舰队已就位，<color=#f1f102>引开敌方火力</color>避免其被高威力攻击命中！"
+}
+
+
+_G.pg.base.gametip.battle_text_pizibao_2 = {
+	tip = "支援舰队<color=#f1f102>已被摧毁</color>，这场战斗将变得更加艰辛！"
+}
+
+
 _G.pg.base.gametip.series_enemy_mood = {
 	tip = "心情不足"
 }
@@ -34413,4 +34434,67 @@ _G.pg.base.gametip.sitelasibao_expup_desc = {
 
 _G.pg.base.gametip.levelScene_tracking_error_pre_2 = {
 	tip = "通关$1或$2后开启 "
+}
+
+
+_G.pg.base.gametip.town_lock_level = {
+	tip = "小镇等级达到$1"
+}
+
+
+_G.pg.base.gametip.town_place_next_title = {
+	tip = "下一等级效果"
+}
+
+
+_G.pg.base.gametip.town_unlcok_new = {
+	tip = "工作地点解锁"
+}
+
+
+_G.pg.base.gametip.town_unlcok_level = {
+	tip = "等级上限提升"
+}
+
+
+_G.pg.base.gametip["0815_main_help"] = {
+	tip = {
+		{
+			info = [[
+活动规则：
+·<color=#92fc63>8.15-8.29维护</color>期间开启限时活动「荒野假日开拓记」
+·指挥官可以通过「小镇开拓」，完成活动任务，获得限定<color=#92fc63>头像框</color>、<color=#92fc63>聊天气泡</color>、<color=#92fc63>限定家具</color>等奖励
+·8.21为止，每日可获得一次「啾啾牛仔」游戏次数，参与游戏可获取活动奖励
+·指挥官可通过活动任务获取「拓荒的回忆」，用于「假日回忆」中解锁与同伴的假日回忆]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.town_help = {
+	tip = {
+		{
+			info = [[
+活动规则：
+·<color=#92fc63>8.15-8.29维护</color>期间开启限时活动「小镇开拓」
+·指挥官可以通过解锁与升级工作地点，提高「拓荒金币」的产出并获得<color=#92fc63>「小镇繁荣度」</color>
+·满足「小镇繁荣度」和「拓荒金币」需求后，可以提升小镇等级
+·放入拓荒同伴，每隔一段时间可以获得额外的拓荒金币，同时参与拓荒的同伴出击获得的好感度提升]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.activity_0815_town_memory = {
+	tip = "道具数量不足，完成活动任务可获取「拓荒的回忆」"
+}
+
+
+_G.pg.base.gametip.town_gold_tip = {
+	tip = "当前拓荒金币已达上限，继续领取会导致超出上限部分的拓荒金币消失，是否确定继续"
+}
+
+
+_G.pg.base.gametip.award_max_warning_minigame = {
+	tip = "游戏奖励因超出上限而<color=#ff5c5c>无法获得</color>，是否仍要开始游戏？"
 }
