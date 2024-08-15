@@ -12,7 +12,7 @@ return {
 			actor = 307110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:97:大凤}都说了……只要足够热烈就好了！",
+			say = "大鳳都說了……只要夠熱烈就好了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			actor = 307100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这种粗暴的模式怎么能行得通！对方肯定也会做充分准备的！",
+			say = "這種粗暴的模式怎麼行得通！對方一定也會做充分準備的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,7 +103,7 @@ return {
 			actor = 502023,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:197:博伊西}，你要不要吃口包子？是刚刚出炉的哦~",
+			say = "波夕，妳要不要吃口包子？是剛出爐的哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			actor = 102320,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼~哈~谢、谢谢……",
+			say = "呼~哈~謝、謝謝……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			actor = 304080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明明是在商讨属于舞台上的风格战术，现在的局面却变得……",
+			say = "明明是商討屬於舞台上的風格戰術，現在的局面卻變得……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			actor = 304080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是一点也不优雅！",
+			say = "真是一點也不優雅！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			actor = 801090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可是这样不也挺好的嘛？热热闹闹的~偶像就是应该带来活力的嘛~！",
+			say = "可是這樣不也挺好的嘛？熱熱鬧鬧的~偶像就是該帶來活力的嘛~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			actor = 304080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你说的对，鲁莽……",
+			say = "妳說的對，魯莽……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			actor = 801090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就是说嘛~我觉得这才是我们的特色哦~！",
+			say = "就是說嘛~我覺得這才是我們的特色哦~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			actor = 801090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "活泼、欢快，带来希望~这就是属于我们「 Cyanidin」的鲜活的生命力哦！",
+			say = "活潑、歡快，帶來希望~這就是屬於我們「 Cyanidin」的鮮活的生命力哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			actor = 801090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊哈哈……虽然「青组」的大家好像和我们的组合理念有点微妙的出入……",
+			say = "啊哈哈……雖然「青組」的大家好像和我們的組合理念有點微妙的出入……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -280,7 +280,7 @@ return {
 			actor = 801090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是也没什么关系哦，原原本本呈现自己最鲜活的状态，或许才是Live中最重要的~",
+			say = "但是也沒什麼關係哦，原原本本呈現自己最自然的狀態，或許才是Live中最重要的~",
 			painting = {
 				alpha = 0.3,
 				time = 1

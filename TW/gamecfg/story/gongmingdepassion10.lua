@@ -9,7 +9,7 @@ return {
 			bgm = "votefes-start",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			blackBg = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "猜猜我是谁~？",
+			say = "猜猜我是誰~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "正在伏案工作时，一双手从身后蒙住了我的双眼。",
+			say = "在伏案工作時，一雙手從身後蒙住了我的雙眼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "圣哈辛托，今天是你来送文件么？",
+			say = "聖哈辛托，今天是妳來送文件嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_story_task_2",
-			say = "在我说出她的名字后，眼前的“禁锢”也应声而解。",
+			say = "在我說出她的名字後，眼前的「禁錮」也應聲而解。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎呀，指挥官真是无趣，这种时候明明应该多猜几次呢~",
+			say = "哎呀，指揮官真是無趣，這種時候明明應該多猜幾次呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过算你答对咯，今天确实是由我来送文件~♪",
+			say = "不過算你答對了，今天確實是由我來送文件~♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是「青组」和「红组」近期的场地使用报告~指挥官要不要先看一下？",
+			say = "這是「青組」和「紅組」近期的場地使用報告~指揮官要不要先看一下？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,7 +172,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯。我拟好主持人名单就来看。",
+			say = "嗯。我擬好主持人名單就來看。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "主持人？不是一直都是{namecode:98:明石}么~？",
+			say = "主持人？不是一直都是明石嗎~？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这次会为「青组」和「红组」各自搭建一个舞台，所以除了{namecode:98:明石}这个总主持以外，还需要两名。",
+			say = "這次會為「青組」和「紅組」各自搭建一個舞台，所以除了明石這個總主持以外，還需要兩名。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "让我看看~嗯……「红组」主持人{namecode:224:哈尔滨}，「青组」主持人萨拉托加。",
+			say = "讓我看看~嗯……「紅組」主持人哈爾濱，「青組」主持人薩拉托加。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸~原来已经定好了啊，还以为会有把我的名字加上去的机会呢。",
+			say = "欸~原來已經定好了啊，還以為會有把我的名字加上去的機會呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯？你很想做主持人么？",
+			say = "嗯？妳很想做主持人嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那倒没有哦~只是觉得当主持人的话说不定能有更多和指挥官待在一起的可能性而已~♪",
+			say = "那倒沒有哦~只是覺得當主持人的話說不定能有更多和指揮官待在一起的可能性而已~♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，说到这个，我想起来这次的比赛机制好像有一个漏洞呢——",
+			say = "啊，說到這個，我想起來這次的比賽機制好像有一個漏洞呢——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			actor = 403150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "像现在这个比赛机制，只是看我们和我们各自招募到的人选的舞台Live，并单独打分……",
+			say = "像現在這個比賽機制，只是看我們和我們各自招募到的人選的舞台Live，並單獨打分數……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			actor = 403150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "最后合并一起看总数比高低。",
+			say = "最後合併一起看總數比高低。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			actor = 403150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果在这个过程里，对方的大组成员因为一些“意外”无法按时登台Live的话，",
+			say = "如果在這個過程裡，對方的大組成員因為一些「意外」無法準時登台Live的話，",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			actor = 403150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那我们不就稳赢了么~",
+			say = "那我們不就穩贏了嗎~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			actor = 207140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈？这种做法也太有失淑女的礼仪了吧，可畏要拒绝！",
+			say = "哈？這種做法也太有失淑女的禮儀了吧，可畏拒絕！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			actor = 403150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "别着急嘛，皇家的大小姐，我可没说过要这么做哦~？",
+			say = "別急嘛，皇家的大小姐，我可沒說過要這麼做哦~？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,7 +420,7 @@ return {
 			actor = 403150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我只是在告知大家这个比赛规则的漏洞而已。",
+			say = "我只是在告知大家這個比賽規則的漏洞而已。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			actor = 403150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过……我们不这么做，就不知道对方会不会这么做了呢。",
+			say = "不過……我們不這麼做，就不知道對方會不會這麼做了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,7 +456,7 @@ return {
 			actor = 304080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然这规则有漏洞可钻，但这种事未免也太不优雅了。",
+			say = "雖然這規則有漏洞可鑽，但這種事未免也太不優雅了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			actor = 801090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是呀是呀，而且指挥官会提出这样的新规则，一定也是为了让大家好好相处~",
+			say = "是呀是呀，而且指揮官會提出這樣的新規則，一定也是為了讓大家好好相處~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -509,7 +509,7 @@ return {
 			actor = 801090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大家一起享受舞台才是这次的核心哦！",
+			say = "大家一起享受舞台才是這次的核心！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -527,7 +527,7 @@ return {
 			actor = 102320,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那个……为了不辜负指挥官的心意……我们还是通过Live击败对手吧……",
+			say = "那個……為了不辜負指揮官的心意……我們還是透過Live擊敗對手吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -545,7 +545,7 @@ return {
 			actor = 403080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯~放心好了，就算是需要击溃的“敌人”，我也会给予相应的尊重的哦。",
+			say = "嗯~放心好了，就算是需要擊潰的「敵人」，我也會給予相應的尊重的哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -563,7 +563,7 @@ return {
 			actor = 307100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "想要不动声色让对方减员不是做不到，但……",
+			say = "想要不動聲色讓對方減員不是做不到，但…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -581,7 +581,7 @@ return {
 			actor = 307110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵呵，{namecode:97:大凤}可绝对不会做让指挥官大人伤心的事哦~",
+			say = "呵呵呵，大鳳可絕對不會做讓指揮官大人傷心的事哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1

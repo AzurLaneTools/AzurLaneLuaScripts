@@ -12,7 +12,7 @@ return {
 			bgm = "votefes-start",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			actor = 302240,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，打扰了——",
+			say = "指揮官，打擾了——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -61,7 +61,7 @@ return {
 			actor = 102320,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "打、打扰了……",
+			say = "打、打擾了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			actor = 302240,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这里是基于「Alizarin」视角的，本次的「μ兵装」演习实施报告，我已经整理好了。",
+			say = "這裡是基於「Alizarin」視角的，本次的「μ兵裝」演習實施報告，我已經整理好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			actor = 102320,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这份是「Cyanidin」的……",
+			say = "這份是「Cyanidin」的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,7 +113,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "辛苦你们整理了。",
+			say = "辛苦妳們整理了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			actor = 102320,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没、没关系……这本来就是我们该做的……呼~哈~",
+			say = "沒、沒關係……這本來就是我們該做的……呼~哈~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你们组合里的其他人呢？还在休息么？",
+			say = "妳們組合裡的其他人呢？還在休息嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			actor = 302240,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不，可畏是被光辉要求重新学习淑女的礼仪……而{namecode:427:欧根亲王}么，好像是在研究那天的共鸣现象。",
+			say = "不，可畏是被光輝要求重新學習淑女的禮儀……而歐根親王嗎，好像在研究那天的共鳴現象。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			actor = 102320,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……说到这个……那、那天真是吓了我一跳呢……",
+			say = "嗯……說到這個……那、那天真是嚇了我一跳呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（即便是已经进行到第三次实验，我们也没有自己以为的那么了解「μ兵装」的效果啊……）",
+			say = "（即便已經進行到第三次實驗，我們也沒有自己以為的那麼了解「μ兵裝」的效果啊……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（看来以后还要继续进行测试。）",
+			say = "（看來以後還要繼續進行測試。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			actor = 302240,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说起来，指挥官还要工作多久？时间差不多要到了吧？",
+			say = "說起來，指揮官還要工作多久？時間差不多要到了吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			actor = 302240,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没记错的话……等下指挥官就要去实现{namecode:91:赤城}和{namecode:97:大凤}的愿望了吧？",
+			say = "沒記錯的話……等下指揮官就要去實現赤城和大鳳的願望了吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			actor = 302240,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再之后是{namecode:427:欧根亲王}……然后是{namecode:439:罗恩}，独角兽和哈曼互相调换了顺序……",
+			say = "再來是歐根親王……然後是羅恩，獨角獸和哈曼互相調換了順序……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			actor = 302240,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔，再往后的话，光辉那边结束以后就是我了呢。",
+			say = "唔，再往後的話，光輝那邊結束以後就是我了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			actor = 302240,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还、还有{namecode:197:博伊西}……{namecode:70:金刚}和鲁莽是选在晚上……",
+			say = "還、還有波夕……金剛和魯莽是選在晚上……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,11 +329,11 @@ return {
 			},
 			options = {
 				{
-					content = "别，别说了——",
+					content = "別，別說了——",
 					flag = 1
 				},
 				{
-					content = "脑袋好痛……",
+					content = "腦袋好痛……",
 					flag = 2
 				}
 			},
@@ -355,7 +355,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "虽然我知道逃避没有用，但是……",
+			say = "雖然我知道逃避沒有用，但……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "至少现在不要提了……",
+			say = "至少現在不要提了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "光是听到这些名字，脑袋就开始痛了……",
+			say = "光是聽到這些名字，腦袋就開始痛了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也就是说……参赛的每个人的愿望……我都要实现！？",
+			say = "也就是說……參賽的每個人的願望……我都要實現！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯~不过实现愿望的事情，组委会可以代劳，只不过——",
+			say = "嗯~不過實現願望的事情，委員會可以代勞，只不過——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			bgName = "bg_ouxiangsanqi_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "只不过？",
+			say = "只不過？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要是大家的愿望都是和指挥官有关的话，组委会就算想代劳也没办法了呢……~",
+			say = "要是大家的願望都是跟指揮官有關的話，組委會就算想代勞也沒辦法了呢……~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（除了拉菲许愿要量身定制的高科技枕头，恶毒许愿想要一年不工作以外……）",
+			say = "（除了拉菲許願要量身訂做的高科技枕頭，惡毒許願想要一年不工作以外……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（没想到其他所有人的愿望……都……）",
+			say = "（沒想到其他人的願望……都……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵呵……指挥官，{namecode:91:赤城}来接你了哦……",
+			say = "呵呵呵……指揮官，赤城來接你了喔……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -547,7 +547,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:91:赤城}许下的“约会”的愿望，指挥官应该不会忘的吧？",
+			say = "赤城許下的「約會」的願望，指揮官應該不會忘的吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -565,7 +565,7 @@ return {
 			actor = 307070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等！{namecode:97:大凤}还没有和你决定好先后顺序！",
+			say = "等等！大鳳還沒跟妳決定好先後順序！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -593,7 +593,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈？明明是我先过来找指挥官的！",
+			say = "哈？明明是我先過來找指揮官的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			actor = 307070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "来得早又怎么样，{namecode:97:大凤}还没有同意呢！指挥官大人是{namecode:97:大凤}的！",
+			say = "來得早又怎麼樣，大鳳還沒有同意呢！指揮官大人是大鳳的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,7 +626,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "两道红色的身影在指挥室中迸发出激烈的争吵。",
+			say = "兩道紅色的身影在指揮室中迸發出激烈的爭吵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（在她们决定出先后顺序之前……应该还能再处理一会儿今天的工作吧。）",
+			say = "（在她們決定出先後順序之前……應該還能再處理一下子今天的工作吧。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,9 +652,9 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			actorName = "赤城＆大凤",
+			actorName = "赤城＆大鳳",
 			hidePaintObj = true,
-			say = "指挥官！\n指挥官大人！",
+			say = "指揮官！ 指揮官大人！",
 			subActors = {
 				{
 					actor = 307070,
@@ -691,9 +691,9 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 307010,
-			actorName = "赤城＆大凤",
+			actorName = "赤城＆大鳳",
 			hidePaintObj = true,
-			say = "我们决定了！我们三个，一起去约会吧！",
+			say = "我們決定了！我們三個，一起去約會吧！",
 			subActors = {
 				{
 					actor = 307070,
@@ -760,7 +760,7 @@ return {
 				},
 				{
 					1,
-					"第三期「μ兵装实验测试」·港区大型演唱会"
+					"第三期「μ兵裝實驗測試」·港區大型演唱會"
 				},
 				{
 					3,
@@ -802,21 +802,21 @@ return {
 				},
 				{
 					1,
-					"筹办组委会"
+					"籌辦籌備委員會"
 				},
 				{
 					3,
 					{
-						"（以下排名不分先后）",
+						"（以下排名不分先後）",
 						"{playername}",
-						"列克星敦",
-						"克莱蒙梭",
-						"{namecode:82:三笠}",
-						"马可·波罗",
+						"列星頓",
+						"克里蒙梭",
+						"三笠",
+						"馬可·波羅",
 						"逸仙",
-						"{namecode:463:乌尔里希·冯·胡滕}",
-						"厌战",
-						"{namecode:98:明石}"
+						"烏爾里希·馮·胡滕",
+						"厭戰",
+						"明石"
 					},
 					1,
 					"#FFFFFF"
@@ -866,12 +866,12 @@ return {
 				{
 					3,
 					{
-						"总主持",
-						"{namecode:98:明石}",
-						"「红组」主持",
-						"{namecode:224:哈尔滨}",
-						"「青组」主持",
-						"萨拉托加"
+						"總主持",
+						"明石",
+						"「紅組」主持",
+						"哈爾濱",
+						"「青組」主持",
+						"薩拉托加"
 					},
 					2
 				},
@@ -885,43 +885,43 @@ return {
 				},
 				{
 					1,
-					"参赛选手"
+					"參賽選手"
 				},
 				{
 					1,
-					"「红组」"
+					"「紅組」"
 				},
 				{
 					1,
-					"（以下排名不分先后）"
+					"（以下排名不分先後）"
 				},
 				{
 					3,
 					{
 						"「Astrum」",
-						"巴尔的摩",
+						"巴爾的摩",
 						"",
-						"光辉",
+						"光輝",
 						"",
-						"大青花鱼",
+						"大青花魚",
 						"",
 						"黛朵",
 						"",
 						"塔什干",
 						"「Alizarin」",
-						"{namecode:427:欧根亲王}",
+						"歐根親王",
 						"",
-						"{namecode:50:能代}",
+						"能代",
 						"",
 						"可畏",
 						"「Lumière」",
-						"恶毒",
-						"「无名限定」",
-						"{namecode:2:吹雪}",
+						"惡毒",
+						"「無名限定」",
+						"吹雪",
 						"",
-						"{namecode:408:Z23}",
-						"个人偶像",
-						"伊丽莎白女王",
+						"Z23",
+						"個人偶像",
+						"伊莉莎白女王",
 						"",
 						"哈曼"
 					},
@@ -938,41 +938,41 @@ return {
 				},
 				{
 					1,
-					"「青组」"
+					"「青組」"
 				},
 				{
 					1,
-					"（以下排名不分先后）"
+					"（以下排名不分先後）"
 				},
 				{
 					3,
 					{
 						"「Cyanidin」",
-						"博伊西",
+						"波夕",
 						"",
-						"{namecode:70:金刚}",
+						"金剛",
 						"",
-						"鲁莽",
+						"魯莽",
 						"「Polaris」",
-						"{namecode:91:赤城}",
+						"赤城",
 						"",
 						"加斯科涅",
 						"",
-						"克利夫兰",
+						"克里夫蘭",
 						"",
-						"{namecode:425:希佩尔海军上将}",
+						"希佩爾將軍",
 						"",
-						"谢菲尔德",
+						"謝菲爾德",
 						"「Verheerender」",
-						"{namecode:97:大凤}",
+						"大鳳",
 						"",
-						"{namecode:439:罗恩}",
-						"「东煌姐妹」",
+						"榮恩",
+						"「東煌姐妹」",
 						"平海",
 						"",
-						"宁海",
-						"个人偶像",
-						"独角兽",
+						"寧海",
+						"個人偶像",
+						"獨角獸",
 						"",
 						"拉菲"
 					},
@@ -990,16 +990,16 @@ return {
 				{
 					3,
 					{
-						"总监制",
-						"{namecode:82:三笠}",
-						"总统筹",
+						"總監制",
+						"三笠",
+						"總統籌",
 						"逸仙",
-						"总执行",
-						"厌战",
-						"音乐总监",
-						"{namecode:463:乌尔里希·冯·胡滕}",
-						"舞蹈总监",
-						"列克星敦"
+						"總執行",
+						"厭戰",
+						"音樂總監",
+						"烏爾里希·馮·胡滕",
+						"舞蹈總監",
+						"列星頓"
 					},
 					2,
 					"#FFFFFF"
@@ -1014,25 +1014,25 @@ return {
 				},
 				{
 					1,
-					"摄影/摄像部门"
+					"攝影/攝影部門"
 				},
 				{
 					3,
 					{
-						"内场导演",
-						"关岛",
-						"外场导演",
-						"企业",
-						"摄影师",
+						"內場導演",
+						"關島",
+						"外場導演",
+						"企業",
+						"攝影師",
 						"格里德利",
 						"",
-						"阿尔弗雷多·奥里亚尼",
+						"阿爾弗雷多·奧里亞尼",
 						"",
-						"{namecode:55:青叶}",
+						"青葉",
 						"",
-						"莱昂纳多·达·芬奇",
+						"李奧納多·達·文西",
 						"",
-						"领航员-TB"
+						"領航員-TB"
 					},
 					2,
 					"#FFFFFF"
@@ -1047,23 +1047,23 @@ return {
 				},
 				{
 					1,
-					"视觉统筹"
+					"視覺統籌"
 				},
 				{
 					3,
 					{
-						"视觉设计",
+						"視覺設計",
 						"普利茅斯",
 						"",
-						"{namecode:410:Z35}",
-						"动画设计",
-						"{namecode:6:绫波}",
+						"Z35",
+						"動畫設計",
+						"綾波",
 						"",
-						"水星纪念",
-						"影像制作",
-						"领航员-TB",
-						"后期处理",
-						"领航员-TB"
+						"水星紀念",
+						"影像製作",
+						"領航員-TB",
+						"後製處理",
+						"領航員-TB"
 					},
 					2,
 					"#FFFFFF"
@@ -1078,33 +1078,33 @@ return {
 				},
 				{
 					1,
-					"安保部门"
+					"保全部門"
 				},
 				{
 					3,
 					{
-						"总负责人",
+						"總負責人",
 						"喀琅施塔得",
-						"现场指挥",
-						"苏维埃贝拉罗斯",
-						"基地指挥",
+						"現場指揮",
+						"蘇維埃白俄羅斯",
+						"基地指揮",
 						"可怖",
-						"应急预案执行",
-						"领航员-TB",
-						"安保分队负责",
-						"奇尔沙治",
+						"緊急應變計畫執行",
+						"領航員-TB",
+						"保全分隊負責",
+						"奇爾沙治",
 						"",
-						"前卫",
+						"前衛",
 						"",
-						"{namecode:181:鬼怒}",
+						"鬼怒",
 						"",
-						"{namecode:486:奥丁}",
+						"奧丁",
 						"",
-						"济安",
+						"濟安",
 						"",
-						"阿布鲁奇公爵",
+						"阿布魯齊公爵",
 						"",
-						"库尔斯克",
+						"庫斯克",
 						"",
 						"拉·加利索尼埃",
 						"",
@@ -1123,23 +1123,23 @@ return {
 				},
 				{
 					1,
-					"舞台统筹"
+					"舞台統籌"
 				},
 				{
 					3,
 					{
-						"舞台监督",
-						"孟菲斯",
-						"灯光设计",
-						"{namecode:39:神通}",
-						"音响设计师",
-						"马赛曲",
-						"舞台设计师",
+						"舞台監督",
+						"曼非斯",
+						"燈光設計",
+						"神通",
+						"音響設計師",
+						"馬賽曲",
+						"舞台設計師",
 						"普利茅斯",
 						"",
-						"{namecode:410:Z35}",
-						"设备调试",
-						"海伦娜"
+						"Z35",
+						"裝置偵錯",
+						"海倫娜"
 					},
 					2,
 					"#FFFFFF"
@@ -1154,33 +1154,33 @@ return {
 				},
 				{
 					1,
-					"造型团队"
+					"造型團隊"
 				},
 				{
 					3,
 					{
-						"化妆师",
-						"{namecode:60:熊野}",
+						"化妝師",
+						"熊野",
 						"",
-						"{namecode:59:铃谷}",
+						"鈴谷",
 						"",
-						"{namecode:226:酒匂}",
+						"酒匂",
 						"",
 						"普利茅斯",
 						"",
-						"贝尔法斯特",
+						"貝爾法斯特",
 						"",
-						"纽卡斯尔",
+						"紐卡斯爾",
 						"",
-						"格罗斯特",
-						"服装设计师",
-						"伦敦",
+						"格洛斯特",
+						"服裝設計師",
+						"倫敦",
 						"",
 						"豪",
 						"",
-						"敦刻尔克",
+						"敦克爾克",
 						"",
-						"马可·波罗"
+						"馬可·波羅"
 					},
 					2,
 					"#FFFFFF"
@@ -1195,15 +1195,15 @@ return {
 				},
 				{
 					1,
-					"后勤团队"
+					"後勤團隊"
 				},
 				{
 					3,
 					{
-						"行政总务",
-						"的里雅斯特",
-						"艺人统筹",
-						"列克星敦"
+						"行政總務",
+						"的里雅斯德",
+						"藝人統籌",
+						"列星頓"
 					},
 					2,
 					"#FFFFFF"
@@ -1226,18 +1226,18 @@ return {
 				},
 				{
 					1,
-					"特别鸣谢"
+					"特別鳴謝"
 				},
 				{
 					3,
 					{
-						"μ兵装实验测试特设第一航空舰队",
-						"μ兵装实验测试特设第二航空舰队",
-						"μ兵装实验测试特设第三航空舰队",
-						"μ兵装实验测试特设第四航空舰队",
-						"μ兵装实验测试特设第六航空舰队",
-						"μ兵装实验测试特设第七航空舰队",
-						"μ兵装实验测试特设第八航空舰队"
+						"μ兵裝實驗測試特設第一航空艦隊",
+						"μ兵裝實驗測試特設第二航空艦隊",
+						"μ兵裝實驗測試特設第三航空艦隊",
+						"μ兵裝實驗測試特設第四航空艦隊",
+						"μ兵裝實驗測試特設第五航空艦隊",
+						"μ兵裝實驗測試特設第六航空艦隊",
+						"μ兵裝實驗測試特設第七航空艦隊"
 					},
 					1,
 					"#FFFFFF"

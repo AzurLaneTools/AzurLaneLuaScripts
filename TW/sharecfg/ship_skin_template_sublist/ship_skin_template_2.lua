@@ -1,114 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_2 = {
-	[101501] = {
-		name = "再一次(?)的夏日戰爭",
-		ship_group = 10150,
-		desc = "哼！哈曼是擔心你會寂寞，所以才答應你出來玩的！不要想太多了——等，等一下，你在幹什麼呀！快住手！",
-		illustrator2 = -1,
-		bg_sp = "",
-		group_index = 1,
-		prefab = "hamanII_2",
-		painting = "hamanII_2",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 6,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "106",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 101501,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 70778,
-		voice_actor = 5,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.25,
-					0.81,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.22,
-					0.73,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0.067,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.4,
-							2.33,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[102010] = {
 		name = "奧馬哈",
 		ship_group = 10201,
@@ -9473,6 +9365,121 @@ pg.base.ship_skin_template_2 = {
 			}
 		}
 	},
+	[102294] = {
+		name = "失誤的美味魔法",
+		ship_group = 10229,
+		desc = "指揮官，番茄醬沒沾到你身上吧……？抱歉……呼~呼~第一次換上這套打扮見指揮官，果然還是有點太緊張了……",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 4,
+		prefab = "boyixi_5",
+		painting = "boyixi_5",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 17,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "150",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 102294,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 71000,
+		voice_actor = 276,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.12,
+					1.06,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.13,
+					1.02,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.1,
+					1.17,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.58,
+							2.33,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[102310] = {
 		name = "休士頓II",
 		ship_group = 10231,
@@ -9503,6 +9510,112 @@ pg.base.ship_skin_template_2 = {
 		main_UI_FX = "",
 		shop_id = 0,
 		voice_actor = 7,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.72,
+					1.58,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.7,
+					1.96,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.39,
+							-0.15
+						}
+					}
+				}
+			}
+		}
+	},
+	[102320] = {
+		name = "波夕(μ兵裝)",
+		ship_group = 10232,
+		desc = "Cyanidin（花青素）所屬，輕巡洋艦波夕。呼~哈~這個打扮變得更引起指揮官的注意了嗎？……那就好……",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 0,
+		prefab = "boyixi_idol",
+		painting = "boyixi_idol",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 102320,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 276,
 		spine_offset = "",
 		illustrator = -1,
 		rarity_bg = "",

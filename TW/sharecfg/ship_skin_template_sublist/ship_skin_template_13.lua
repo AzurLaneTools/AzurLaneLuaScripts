@@ -1,6 +1,121 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_13 = {
+	[404042] = {
+		name = "請趁熱享用♪",
+		ship_group = 40404,
+		desc = "（嚼嚼）…嗯？嗯嗯？還挺好吃的？也是，東煌的菜餚一定很好吃~我也來塞給指揮官吃，快張嘴？啊——",
+		illustrator2 = -1,
+		bg_sp = "1101",
+		group_index = 2,
+		prefab = "lvzuofu_3",
+		painting = "lvzuofu_3",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 3,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "165",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 404042,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 70812,
+		voice_actor = 311,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.503,
+					1.608,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.488,
+					1.354,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.2,
+					0.06,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.345,
+					1.452,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.647,
+							2.358,
+							-0.73
+						}
+					}
+				}
+			}
+		}
+	},
 	[404048] = {
 		name = "純白的睡美人",
 		ship_group = 40404,

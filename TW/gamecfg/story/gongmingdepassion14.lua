@@ -12,7 +12,7 @@ return {
 			actor = 599010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎呀，这下有点棘手啊。",
+			say = "哎呀，這下有點棘手啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -46,7 +46,7 @@ return {
 			actor = 107039,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "让萨拉妹妹也来看看~！",
+			say = "讓薩拉妹妹也來看看~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喵呼呼~在经历了各组舰船偶像们拼尽全力的Live之后，目前「红组」和「青组」的比分情况是——",
+			say = "喵呼呼~在經歷了各組艦船偶像們拼盡全力的Live之後，目前「紅組」和「青組」的比分情況是——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "平局喵！",
+			say = "平手喵！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在压力完全来到了最后登台的两个组合身上喵~",
+			say = "現在壓力完全來到了最後登台的兩個組合身上喵~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哪一方能取得最终的胜利呢？",
+			say = "哪一方能取得最終的勝利呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			actor = 599010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——是激进、热烈，充满力量的「Alizarin」？",
+			say = "——是激進、熱烈，充滿力量的「Alizarin」？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			actor = 107039,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——还是鲜活、元气，暖阳一般的「 Cyanidin」？",
+			say = "——還是鮮活、元氣，暖陽一般的「 Cyanidin」？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就让我们拭目以待吧喵！",
+			say = "就讓我們拭目以待吧喵！",
 			painting = {
 				alpha = 0.3,
 				time = 1

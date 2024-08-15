@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_link_button = {
 	{
-		param = "5260",
+		param = "5301",
 		name = "event_all",
 		text_pic = "text_event_all",
 		type = 3,
@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5260
+			5301
 		}
 	},
 	{
@@ -38,7 +38,7 @@ pg.activity_link_button = {
 	},
 	[10] = {
 		name = "event_map",
-		text_pic = "text_event_anotherWorld",
+		text_pic = "text_event_map",
 		type = 2,
 		pic = "event_map",
 		id = 10,
@@ -46,10 +46,13 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5260
+			5301
 		},
 		param = {
-			"OTHERWORLD_MAP"
+			"scene level",
+			{
+				mapIdx = 1800001
+			}
 		}
 	},
 	[20] = {
@@ -62,10 +65,10 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5269
+			5310
 		},
 		param = {
-			"OTHERWORLD_BACKHILL"
+			"music festival 3"
 		}
 	},
 	[30] = {

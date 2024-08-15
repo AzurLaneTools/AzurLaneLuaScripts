@@ -9,7 +9,7 @@ return {
 			bgm = "votefes-start",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "一段时间前——",
+			say = "一段時間前——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "上一次我记得是由皇家提供了赞助，那……不如干脆就按照阵营轮流来提供好了？",
+			say = "上一次我記得是由皇家提供了贊助，那……不如乾脆就按照陣營輪流來提供好了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我没意见。",
+			say = "我沒意見。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,7 +86,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这次的赞助干脆就交给我们撒丁帝国吧！",
+			say = "這次的贊助乾脆就交給我們薩丁帝國吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			actor = 305110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可是……如果按照这种阵营轮流提供赞助的方式来，不知道多久才能全部轮换完。",
+			say = "可是……如果按照這種陣營輪流提供贊助的方式來，不知道多久才能全部輪替到。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那不如这次由各家联合赞助？配合这次规则的改变，把舞台和Live做得更加声势浩大一些。",
+			say = "那不如這次由各家聯合贊助？配合這次規則的改變，把舞台和Live做得更加聲勢浩大一些。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "倒是个好主意。",
+			say = "倒是個好主意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯~之后其它阵营方面就由我去传讯通知吧。",
+			say = "嗯~之後其它陣營方面就由我去傳訊通知吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			actor = 305110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "赞助方的事姑且算是定下来了，我们来讨论一下奖品要提供什么吧？",
+			say = "贊助方的事姑且算是定下來了，我們來討論一下獎品要提供什麼吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "奖品啊……你们有什么主意么？",
+			say = "獎品啊……妳們有什麼主意呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我觉得，不如把奖品设置成“最终胜出者可以让主办方实现一个愿望”这种。",
+			say = "我覺得，不如把獎品設定成「最終勝出者可以讓主辦單位實現一個願望」這種。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "把选择权交给对方——这种形式也更合理一些。",
+			say = "把選擇權交給對方——這種形式也比較合理一點。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我同意马可·波罗阁下的提议。",
+			say = "我同意馬可·波羅閣下的提議。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果大奖是指定的、某种物质上的奖励，应该很难满足所有人的诉求。",
+			say = "如果大獎是指定的、某種物質上的獎勵，應該很難滿足所有人的訴求。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是由获胜者自己许愿的话，就不会存在这种矛盾了哦~",
+			say = "但是由得獎者自己許願的話，就不會存在這種矛盾了哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			actor = 305110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "确实。而且这样由各方联合赞助，奖品的预算也可以被拔高。",
+			say = "確實。而且這樣由各方共同贊助，獎品的預算也可以被提高。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我们有两个大组，只满足第一名的愿望的话，第二名要怎么办？",
+			say = "我們有兩個大組，只滿足第一名的願望的話，第二名該怎麼辦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			actor = 305110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就从奖品预算上做区别吧！很简单的！",
+			say = "就從獎品預算上做區別吧！很簡單的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……那之后针对奖品预算方面的内容清单，就由{namecode:98:明石}出具一份吧。",
+			say = "嗯……那之後針對獎品預算方面的內容清單，就由明石整理一份吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "和预算有关的内容就放心交给{namecode:98:明石}吧喵~！",
+			say = "和預算有關的內容就放心交給明石吧喵~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "话说回来，本次的赞助方该怎么署名？直接写由各阵营联合赞助么？",
+			say = "話說回來，本次的贊助者該怎麼署名？直接寫由各陣營聯合贊助嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			actor = 305110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "各阵营联合赞助，等于是集合了港区所有的力量……也就等于是指挥官你在进行赞助……",
+			say = "各陣營聯合贊助，等於是集合了港區所有的力量……也就等於是指揮官你在進行贊助……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			actor = 305110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然如此，署名就署指挥官你的名字吧？",
+			say = "既然如此，署名就署指揮官你的名字吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等一下，总感觉中间缺少了一环逻辑……",
+			say = "等一下，總覺得中間缺少了一環邏輯……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？听下来没有什么问题哦~指挥官也不用有所顾虑。",
+			say = "嗯？聽下來沒有什麼問題~指揮官也不用有所顧慮。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -441,7 +441,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错喵，指挥官快点签字吧喵~！",
+			say = "沒錯喵，指揮官快點簽名吧喵~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,7 +456,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "之后，在众人的包围下签署了相关的所有文件。",
+			say = "之後，在眾人的包圍下簽署了相關的所有文件。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			bgName = "bg_story_outdoor",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "港区·港口",
+			say = "港區·港口",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_outdoor",
 			hidePaintObj = true,
-			say = "现在——",
+			say = "現在——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_outdoor",
 			hidePaintObj = true,
-			say = "在{namecode:98:明石}宣布赞助方后，港口的气氛突然变得空前热烈。",
+			say = "在明石宣布贊助方後，港口的氣氛突然變得空前熱烈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			actor = 403080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……由指挥官来实现一个愿望……原来有了这样的奖品啊……",
+			say = "啊……由指揮官來實現一個願望……原來有了這樣的獎品啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -554,7 +554,7 @@ return {
 			actor = 202280,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "能让主人满足黛朵一个愿望……不不不，黛朵不应该产生这样的想法，可是……",
+			say = "能讓主人滿足黛朵一個願望……不不不，黛朵不應該產生這樣的想法，可是……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -582,7 +582,7 @@ return {
 			actor = 206035,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为了得到哥哥的奖励……独角兽也要加油……",
+			say = "為了得到哥哥的獎勵……獨角獸也要加油……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -610,7 +610,7 @@ return {
 			actor = 207140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等、等一下？从宣布奖励开始，这里的氛围可畏已经搞不懂了啊？",
+			say = "等、等一下？從宣布獎勵開始，這裡的氛圍可畏已經搞不懂了啊？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -628,7 +628,7 @@ return {
 			actor = 302240,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还是先回去练习比较好吧……",
+			say = "還是先回去練習比較好吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -646,7 +646,7 @@ return {
 			actor = 403150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们不觉得现在才有“对抗赛”的氛围么？越激烈越好~",
+			say = "妳們不覺得現在才有「對抗賽」的氛圍嗎？越激烈越好~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -663,7 +663,7 @@ return {
 			actor = 102320,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼~哈~大家……因为指挥官而变得情绪高涨了……",
+			say = "呼~哈~大家……因為指揮官而變得情緒高漲了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -681,7 +681,7 @@ return {
 			actor = 801090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很好~看来我们招募成员应该会很顺利~！",
+			say = "很好~看來我們招募成員應該會很順利~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -699,7 +699,7 @@ return {
 			actor = 304080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但愿如此吧……",
+			say = "但願如此……",
 			painting = {
 				alpha = 0.3,
 				time = 1

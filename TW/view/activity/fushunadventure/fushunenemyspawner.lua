@@ -12,7 +12,6 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.targetTime = 0
 	slot0.delta = 0
 	slot0.starting = false
-	slot0.fushunLoader = slot3
 end
 
 slot0.Start = function(slot0, slot1, slot2, slot3)
@@ -64,20 +63,20 @@ slot0.Spawn = function(slot0)
 
 	assert(slot3)
 
-	slot4 = slot0.fushunLoader
+	slot4 = ResourceMgr.Inst
 
-	slot4:GetPrefab("FushunAdventure/" .. slot3.name, "", function (slot0)
-		slot0.transform:SetParent(uv0.parent, false)
+	slot4:getAssetAsync("FushunAdventure/" .. slot3.name, "", function (slot0)
+		instantiate(slot0).transform:SetParent(uv0.parent, false)
 
 		if uv0.OnSpawn then
 			uv0.OnSpawn({
-				go = slot0,
+				go = slot1,
 				config = uv1,
 				speed = uv2 == uv3 and uv1.speed or uv1.crazy_speed,
 				index = uv4
 			})
 		end
-	end, slot3.name)
+	end, true, true)
 end
 
 slot0.GetConfigByScore = function(slot0, slot1)

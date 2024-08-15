@@ -35318,6 +35318,522 @@ _G.pg.base.ship_data_statistics[102314] = {
 }
 
 
+_G.pg.base.ship_data_statistics[102321] = {
+	nationality = 1,
+	oxy_max = 0,
+	type = 2,
+	name = "波夕(μ兵裝)",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 102321,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "USS Boise",
+	oxy_cost = 0,
+	skin_id = 102320,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		612,
+		30,
+		0,
+		62,
+		0,
+		68,
+		0,
+		57,
+		28,
+		32.5,
+		70,
+		24
+	},
+	attrs_growth = {
+		15563,
+		417,
+		0,
+		1318,
+		0,
+		475,
+		0,
+		840,
+		587,
+		0,
+		0,
+		295
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		0.65,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Brooklyn-Class",
+		"μ",
+		"special"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[102322] = {
+	nationality = 1,
+	oxy_max = 0,
+	type = 2,
+	name = "波夕(μ兵裝)",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 102322,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "USS Boise",
+	oxy_cost = 0,
+	skin_id = 102320,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		761,
+		37,
+		0,
+		77,
+		0,
+		68,
+		0,
+		57,
+		28,
+		32.5,
+		70,
+		30
+	},
+	attrs_growth = {
+		15563,
+		417,
+		0,
+		1318,
+		0,
+		475,
+		0,
+		840,
+		587,
+		0,
+		0,
+		295
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		0.65,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Brooklyn-Class",
+		"μ",
+		"special"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[102323] = {
+	nationality = 1,
+	oxy_max = 0,
+	type = 2,
+	name = "波夕(μ兵裝)",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 102323,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "USS Boise",
+	oxy_cost = 0,
+	skin_id = 102320,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1060,
+		52,
+		0,
+		108,
+		0,
+		68,
+		0,
+		57,
+		28,
+		32.5,
+		70,
+		42
+	},
+	attrs_growth = {
+		15563,
+		417,
+		0,
+		1318,
+		0,
+		475,
+		0,
+		840,
+		587,
+		0,
+		0,
+		295
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		0.65,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Brooklyn-Class",
+		"μ",
+		"special"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[102324] = {
+	nationality = 1,
+	oxy_max = 0,
+	type = 2,
+	name = "波夕(μ兵裝)",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 102324,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "USS Boise",
+	oxy_cost = 0,
+	skin_id = 102320,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1508,
+		75,
+		0,
+		154,
+		0,
+		68,
+		0,
+		57,
+		28,
+		32.5,
+		70,
+		60
+	},
+	attrs_growth = {
+		15563,
+		417,
+		0,
+		1318,
+		0,
+		475,
+		0,
+		840,
+		587,
+		0,
+		0,
+		295
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		0.65,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Brooklyn-Class",
+		"μ",
+		"special"
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[103011] = {
 	nationality = 1,
 	oxy_max = 0,
@@ -125748,6 +126264,526 @@ _G.pg.base.ship_data_statistics[207134] = {
 }
 
 
+_G.pg.base.ship_data_statistics[207141] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 7,
+	name = "可畏(μ兵裝)",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 207141,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Formidable",
+	oxy_cost = 0,
+	skin_id = 207140,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1082,
+		0,
+		0,
+		54,
+		80,
+		43,
+		0,
+		31,
+		12,
+		30,
+		75,
+		0
+	},
+	attrs_growth = {
+		27721,
+		0,
+		0,
+		1159,
+		991,
+		301,
+		0,
+		458,
+		309,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		114,
+		114
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.25,
+		1.15
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Illustrious-Class",
+		"Armor-CV",
+		"μ",
+		"special",
+		"Formidable"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[207142] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 7,
+	name = "可畏(μ兵裝)",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 207142,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Formidable",
+	oxy_cost = 0,
+	skin_id = 207140,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1346,
+		0,
+		0,
+		67,
+		100,
+		43,
+		0,
+		31,
+		12,
+		30,
+		75,
+		0
+	},
+	attrs_growth = {
+		27721,
+		0,
+		0,
+		1159,
+		991,
+		301,
+		0,
+		458,
+		309,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		114,
+		114
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.12,
+		1.27,
+		1.17
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Illustrious-Class",
+		"Armor-CV",
+		"μ",
+		"special",
+		"Formidable"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[207143] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 7,
+	name = "可畏(μ兵裝)",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 207143,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Formidable",
+	oxy_cost = 0,
+	skin_id = 207140,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1874,
+		0,
+		0,
+		94,
+		139,
+		43,
+		0,
+		31,
+		12,
+		30,
+		75,
+		0
+	},
+	attrs_growth = {
+		27721,
+		0,
+		0,
+		1159,
+		991,
+		301,
+		0,
+		458,
+		309,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		114,
+		114
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.3,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Illustrious-Class",
+		"Armor-CV",
+		"μ",
+		"special",
+		"Formidable"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[207144] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 7,
+	name = "可畏(μ兵裝)",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 207144,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Formidable",
+	oxy_cost = 0,
+	skin_id = 207140,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		2665,
+		0,
+		0,
+		133,
+		199,
+		43,
+		0,
+		31,
+		12,
+		30,
+		75,
+		0
+	},
+	attrs_growth = {
+		27721,
+		0,
+		0,
+		1159,
+		991,
+		301,
+		0,
+		458,
+		309,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		113,
+		114,
+		114
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		3,
+		3
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.35,
+		1.25
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Illustrious-Class",
+		"Armor-CV",
+		"μ",
+		"special",
+		"Formidable"
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[213011] = {
 	nationality = 2,
 	oxy_max = 0,
@@ -163549,6 +164585,534 @@ _G.pg.base.ship_data_statistics[302234] = {
 }
 
 
+_G.pg.base.ship_data_statistics[302241] = {
+	nationality = 3,
+	oxy_max = 0,
+	type = 2,
+	name = "能代(μ兵裝)",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 302241,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "IJN Noshiro",
+	oxy_cost = 0,
+	skin_id = 302240,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		529,
+		33,
+		72,
+		63,
+		0,
+		66,
+		0,
+		60,
+		29,
+		35.56,
+		55,
+		20
+	},
+	attrs_growth = {
+		13605,
+		457,
+		919,
+		1337,
+		0,
+		459,
+		0,
+		884,
+		705,
+		0,
+		0,
+		244
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		321
+	},
+	default_equip_list = {
+		101,
+		107,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.55,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Agano-Class",
+		"μ",
+		"special",
+		"Noshiro"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[302242] = {
+	nationality = 3,
+	oxy_max = 0,
+	type = 2,
+	name = "能代(μ兵裝)",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 302242,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "IJN Noshiro",
+	oxy_cost = 0,
+	skin_id = 302240,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		658,
+		41,
+		90,
+		79,
+		0,
+		66,
+		0,
+		60,
+		29,
+		35.56,
+		55,
+		25
+	},
+	attrs_growth = {
+		13605,
+		457,
+		919,
+		1337,
+		0,
+		459,
+		0,
+		884,
+		705,
+		0,
+		0,
+		244
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		322
+	},
+	default_equip_list = {
+		101,
+		107,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.55,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Agano-Class",
+		"μ",
+		"special",
+		"Noshiro"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[302243] = {
+	nationality = 3,
+	oxy_max = 0,
+	type = 2,
+	name = "能代(μ兵裝)",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 302243,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "IJN Noshiro",
+	oxy_cost = 0,
+	skin_id = 302240,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		916,
+		57,
+		126,
+		110,
+		0,
+		66,
+		0,
+		60,
+		29,
+		35.56,
+		55,
+		35
+	},
+	attrs_growth = {
+		13605,
+		457,
+		919,
+		1337,
+		0,
+		459,
+		0,
+		884,
+		705,
+		0,
+		0,
+		244
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		323
+	},
+	default_equip_list = {
+		101,
+		107,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.65,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Agano-Class",
+		"μ",
+		"special",
+		"Noshiro"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[302244] = {
+	nationality = 3,
+	oxy_max = 0,
+	type = 2,
+	name = "能代(μ兵裝)",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 302244,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "IJN Noshiro",
+	oxy_cost = 0,
+	skin_id = 302240,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1304,
+		82,
+		179,
+		156,
+		0,
+		66,
+		0,
+		60,
+		29,
+		35.56,
+		55,
+		49
+	},
+	attrs_growth = {
+		13605,
+		457,
+		919,
+		1337,
+		0,
+		459,
+		0,
+		884,
+		705,
+		0,
+		0,
+		244
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		324
+	},
+	default_equip_list = {
+		101,
+		107,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.8,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Agano-Class",
+		"μ",
+		"special",
+		"Noshiro"
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[303011] = {
 	nationality = 3,
 	oxy_max = 0,
@@ -174909,6 +176473,522 @@ _G.pg.base.ship_data_statistics[304074] = {
 		"Amagi-Class",
 		"special",
 		"Little-series"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[304081] = {
+	nationality = 3,
+	oxy_max = 0,
+	type = 4,
+	name = "金剛(μ兵裝)",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 304081,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "IJN Kongō",
+	oxy_cost = 0,
+	skin_id = 304080,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1087,
+		70,
+		0,
+		51,
+		0,
+		59,
+		0,
+		22,
+		8,
+		30,
+		43,
+		0
+	},
+	attrs_growth = {
+		29852,
+		899,
+		0,
+		1108,
+		0,
+		409,
+		0,
+		388,
+		229,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		1.5,
+		0.9
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Kongo-Class",
+		"Musashi-Game",
+		"μ",
+		"special"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[304082] = {
+	nationality = 3,
+	oxy_max = 0,
+	type = 4,
+	name = "金剛(μ兵裝)",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 304082,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "IJN Kongō",
+	oxy_cost = 0,
+	skin_id = 304080,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1352,
+		87,
+		0,
+		64,
+		0,
+		59,
+		0,
+		22,
+		8,
+		30,
+		43,
+		0
+	},
+	attrs_growth = {
+		29852,
+		899,
+		0,
+		1108,
+		0,
+		409,
+		0,
+		388,
+		229,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.5,
+		0.9
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Kongo-Class",
+		"Musashi-Game",
+		"μ",
+		"special"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[304083] = {
+	nationality = 3,
+	oxy_max = 0,
+	type = 4,
+	name = "金剛(μ兵裝)",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 304083,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "IJN Kongō",
+	oxy_cost = 0,
+	skin_id = 304080,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1882,
+		122,
+		0,
+		89,
+		0,
+		59,
+		0,
+		22,
+		8,
+		30,
+		43,
+		0
+	},
+	attrs_growth = {
+		29852,
+		899,
+		0,
+		1108,
+		0,
+		409,
+		0,
+		388,
+		229,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.5,
+		0.9
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Kongo-Class",
+		"Musashi-Game",
+		"μ",
+		"special"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[304084] = {
+	nationality = 3,
+	oxy_max = 0,
+	type = 4,
+	name = "金剛(μ兵裝)",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 304084,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "IJN Kongō",
+	oxy_cost = 0,
+	skin_id = 304080,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		2678,
+		174,
+		0,
+		126,
+		0,
+		59,
+		0,
+		22,
+		8,
+		30,
+		43,
+		0
+	},
+	attrs_growth = {
+		29852,
+		899,
+		0,
+		1108,
+		0,
+		409,
+		0,
+		388,
+		229,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.5,
+		0.9
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Kongo-Class",
+		"Musashi-Game",
+		"μ",
+		"special"
 	}
 }
 
@@ -191636,6 +193716,522 @@ _G.pg.base.ship_data_statistics[307134] = {
 		"Armor-CV",
 		"special",
 		"Taiho-chan",
+		"Little-series"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[307141] = {
+	nationality = 3,
+	oxy_max = 0,
+	type = 7,
+	name = "小信濃",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 307141,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "IJN Shinano",
+	oxy_cost = 0,
+	skin_id = 307140,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1312,
+		0,
+		0,
+		55,
+		77,
+		43,
+		0,
+		27,
+		11,
+		28,
+		32,
+		0
+	},
+	attrs_growth = {
+		34156,
+		0,
+		0,
+		1187,
+		965,
+		297,
+		0,
+		398,
+		297,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		119,
+		118
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.2,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Shinano",
+		"special",
+		"Shinano-chan",
+		"Little-series"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[307142] = {
+	nationality = 3,
+	oxy_max = 0,
+	type = 7,
+	name = "小信濃",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 307142,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "IJN Shinano",
+	oxy_cost = 0,
+	skin_id = 307140,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1632,
+		0,
+		0,
+		69,
+		96,
+		43,
+		0,
+		27,
+		11,
+		28,
+		32,
+		0
+	},
+	attrs_growth = {
+		34156,
+		0,
+		0,
+		1187,
+		965,
+		297,
+		0,
+		398,
+		297,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		119,
+		118
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.25,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Shinano",
+		"special",
+		"Shinano-chan",
+		"Little-series"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[307143] = {
+	nationality = 3,
+	oxy_max = 0,
+	type = 7,
+	name = "小信濃",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 307143,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "IJN Shinano",
+	oxy_cost = 0,
+	skin_id = 307140,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		2272,
+		0,
+		0,
+		96,
+		134,
+		43,
+		0,
+		27,
+		11,
+		28,
+		32,
+		0
+	},
+	attrs_growth = {
+		34156,
+		0,
+		0,
+		1187,
+		965,
+		297,
+		0,
+		398,
+		297,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		119,
+		118
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		3
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.25,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Shinano",
+		"special",
+		"Shinano-chan",
+		"Little-series"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[307144] = {
+	nationality = 3,
+	oxy_max = 0,
+	type = 7,
+	name = "小信濃",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 307144,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "IJN Shinano",
+	oxy_cost = 0,
+	skin_id = 307140,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		3232,
+		0,
+		0,
+		136,
+		192,
+		43,
+		0,
+		27,
+		11,
+		28,
+		32,
+		0
+	},
+	attrs_growth = {
+		34156,
+		0,
+		0,
+		1187,
+		965,
+		297,
+		0,
+		398,
+		297,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		119,
+		118
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		3,
+		4
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.3,
+		1.35
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Shinano",
+		"special",
+		"Shinano-chan",
 		"Little-series"
 	}
 }
@@ -219470,6 +222066,530 @@ _G.pg.base.ship_data_statistics[403144] = {
 	},
 	tag_list = {
 		"P3"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[403151] = {
+	nationality = 4,
+	oxy_max = 0,
+	type = 3,
+	name = "歐根親王(μ兵裝)",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 403151,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "KMS Prinz Eugen",
+	oxy_cost = 0,
+	skin_id = 403150,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1087,
+		53,
+		44,
+		33,
+		0,
+		68,
+		0,
+		45,
+		9,
+		25.6,
+		78,
+		0
+	},
+	attrs_growth = {
+		26515,
+		713,
+		604,
+		724,
+		0,
+		473,
+		0,
+		660,
+		409,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		331
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.5,
+		1.1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Admiral Hipper-Class",
+		"μ",
+		"special",
+		"μPrinzEugen"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[403152] = {
+	nationality = 4,
+	oxy_max = 0,
+	type = 3,
+	name = "歐根親王(μ兵裝)",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 403152,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "KMS Prinz Eugen",
+	oxy_cost = 0,
+	skin_id = 403150,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1352,
+		66,
+		55,
+		41,
+		0,
+		68,
+		0,
+		45,
+		9,
+		25.6,
+		78,
+		0
+	},
+	attrs_growth = {
+		26515,
+		713,
+		604,
+		724,
+		0,
+		473,
+		0,
+		660,
+		409,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		332
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.17,
+		1.52,
+		1.12,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Admiral Hipper-Class",
+		"μ",
+		"special",
+		"μPrinzEugen"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[403153] = {
+	nationality = 4,
+	oxy_max = 0,
+	type = 3,
+	name = "歐根親王(μ兵裝)",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 403153,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "KMS Prinz Eugen",
+	oxy_cost = 0,
+	skin_id = 403150,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1882,
+		92,
+		76,
+		57,
+		0,
+		68,
+		0,
+		45,
+		9,
+		25.6,
+		78,
+		0
+	},
+	attrs_growth = {
+		26515,
+		713,
+		604,
+		724,
+		0,
+		473,
+		0,
+		660,
+		409,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		333
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.55,
+		1.15,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Admiral Hipper-Class",
+		"μ",
+		"special",
+		"μPrinzEugen"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[403154] = {
+	nationality = 4,
+	oxy_max = 0,
+	type = 3,
+	name = "歐根親王(μ兵裝)",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 403154,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "KMS Prinz Eugen",
+	oxy_cost = 0,
+	skin_id = 403150,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		2678,
+		131,
+		109,
+		82,
+		0,
+		68,
+		0,
+		45,
+		9,
+		25.6,
+		78,
+		0
+	},
+	attrs_growth = {
+		26515,
+		713,
+		604,
+		724,
+		0,
+		473,
+		0,
+		660,
+		409,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		334
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.6,
+		1.2,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Admiral Hipper-Class",
+		"μ",
+		"special",
+		"μPrinzEugen"
 	}
 }
 
@@ -278524,6 +281644,518 @@ _G.pg.base.ship_data_statistics[801084] = {
 	},
 	tag_list = {
 		"Vauquelin-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[801091] = {
+	nationality = 8,
+	oxy_max = 0,
+	type = 1,
+	name = "魯莽(μ兵裝)",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 801091,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "FFNF Le Téméraire",
+	oxy_cost = 0,
+	skin_id = 801090,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		261,
+		22,
+		73,
+		33,
+		0,
+		72,
+		0,
+		69,
+		70,
+		42,
+		41,
+		47
+	},
+	attrs_growth = {
+		7429,
+		305,
+		924,
+		727,
+		0,
+		503,
+		0,
+		1062,
+		1298,
+		0,
+		0,
+		544
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		0.95,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Le Hardi-Class",
+		"μ",
+		"special"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[801092] = {
+	nationality = 8,
+	oxy_max = 0,
+	type = 1,
+	name = "魯莽(μ兵裝)",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 801092,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "FFNF Le Téméraire",
+	oxy_cost = 0,
+	skin_id = 801090,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		325,
+		27,
+		91,
+		41,
+		0,
+		72,
+		0,
+		69,
+		70,
+		42,
+		41,
+		59
+	},
+	attrs_growth = {
+		7429,
+		305,
+		924,
+		727,
+		0,
+		503,
+		0,
+		1062,
+		1298,
+		0,
+		0,
+		544
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		0.95,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Le Hardi-Class",
+		"μ",
+		"special"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[801093] = {
+	nationality = 8,
+	oxy_max = 0,
+	type = 1,
+	name = "魯莽(μ兵裝)",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 801093,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "FFNF Le Téméraire",
+	oxy_cost = 0,
+	skin_id = 801090,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		452,
+		38,
+		127,
+		57,
+		0,
+		72,
+		0,
+		69,
+		70,
+		42,
+		41,
+		82
+	},
+	attrs_growth = {
+		7429,
+		305,
+		924,
+		727,
+		0,
+		503,
+		0,
+		1062,
+		1298,
+		0,
+		0,
+		544
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.05,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Le Hardi-Class",
+		"μ",
+		"special"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[801094] = {
+	nationality = 8,
+	oxy_max = 0,
+	type = 1,
+	name = "魯莽(μ兵裝)",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 801094,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "FFNF Le Téméraire",
+	oxy_cost = 0,
+	skin_id = 801090,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		643,
+		55,
+		181,
+		82,
+		0,
+		72,
+		0,
+		69,
+		70,
+		42,
+		41,
+		117
+	},
+	attrs_growth = {
+		7429,
+		305,
+		924,
+		727,
+		0,
+		503,
+		0,
+		1062,
+		1298,
+		0,
+		0,
+		544
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.1,
+		0.85
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Le Hardi-Class",
+		"μ",
+		"special"
 	}
 }
 

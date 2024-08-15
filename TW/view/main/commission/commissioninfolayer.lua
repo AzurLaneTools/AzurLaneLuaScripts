@@ -117,10 +117,6 @@ end
 
 slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.oilbubbleTF, function ()
-		if uv0.isPaying then
-			return
-		end
-
 		if not getProxy(PlayerProxy):getRawData():CanGetResource(PlayerConst.ResOil) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("player_harvestResource_error_fullBag"))
 
@@ -132,10 +128,6 @@ slot0.didEnter = function(slot0)
 		end)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.goldbubbleTF, function ()
-		if uv0.isPaying then
-			return
-		end
-
 		if not getProxy(PlayerProxy):getRawData():CanGetResource(PlayerConst.ResGold) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("player_harvestResource_error_fullBag"))
 
@@ -147,10 +139,6 @@ slot0.didEnter = function(slot0)
 		end)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.classbubbleTF, function ()
-		if uv0.isPaying then
-			return
-		end
-
 		if not getProxy(NavalAcademyProxy):GetClassVO():CanGetRes() then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("player_harvestResource_error_fullBag"))
 
@@ -215,25 +203,52 @@ end
 slot0.setPlayer = function(slot0, slot1)
 	slot0.playerVO = slot1
 
-	slot0:updateResource(slot1)
+	slot0:UpdateOilRes(slot1)
+	slot0:UpdateGoldRes(slot1)
+	slot0:UpdateClassRes()
 end
 
-slot0.updateResource = function(slot0, slot1)
-	slot3 = getProxy(NavalAcademyProxy):GetClassVO():GetGenResCnt()
+slot0.OnPlayerUpdate = function(slot0, slot1)
+	if slot1.oilField ~= slot0.playerVO.oilField then
+		slot0:UpdateOilRes(slot3)
+	end
+
+	if slot3.goldField ~= slot2.goldField then
+		slot0:UpdateOilRes(slot3)
+	end
+
+	if slot3.expField ~= slot2.expField then
+		slot0:UpdateClassRes()
+	end
+
+	slot0.playerVO = slot3
+end
+
+slot0.UpdateOilRes = function(slot0, slot1)
 	slot0.oilbubbleCG.alpha = 1
-	slot0.goldbubbleCG.alpha = 1
-	slot0.classbubbleCG.alpha = 1
 	slot0.oilbubbleTF.localScale = Vector3.one
-	slot0.goldbubbleTF.localScale = Vector3.one
-	slot0.classbubbleTF.localScale = Vector3.one
 
 	setActive(slot0.oilbubbleTF, slot1.oilField ~= 0)
-	setActive(slot0.goldbubbleTF, slot1.goldField ~= 0)
-	setActive(slot0.classbubbleTF, slot3 > 0)
 
 	slot0.oilTF.text = slot1.oilField
+end
+
+slot0.UpdateGoldRes = function(slot0, slot1)
+	slot0.goldbubbleCG.alpha = 1
+	slot0.goldbubbleTF.localScale = Vector3.one
+
+	setActive(slot0.goldbubbleTF, slot1.goldField ~= 0)
+
 	slot0.goldTF.text = slot1.goldField
-	slot0.classTF.text = slot3
+end
+
+slot0.UpdateClassRes = function(slot0)
+	slot0.classbubbleCG.alpha = 1
+	slot0.classbubbleTF.localScale = Vector3.one
+
+	setActive(slot0.classbubbleTF, getProxy(NavalAcademyProxy):GetClassVO():GetGenResCnt() > 0)
+
+	slot0.classTF.text = slot2
 end
 
 slot0.onBackPressed = function(slot0)

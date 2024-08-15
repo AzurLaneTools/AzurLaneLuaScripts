@@ -9,7 +9,7 @@ return {
 			bgm = "votefes-start",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "港区·皇家区域",
+			say = "港區·皇家區域",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			actor = 207140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？大家都愿意加入可畏这边的「红组」么？",
+			say = "嗯？大家都願意加入可畏這邊的「紅組」嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			actor = 701050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "塔什干只是被叫来帮忙的，完全不是想让同志酱满足塔什干的愿望才答应的。",
+			say = "塔什干只是被叫來幫忙的，完全不是想讓同志醬滿足塔什干的願望才答應的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			actor = 202280,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊啊，为了不让主人失望……！黛朵想再一次让主人看见在舞台上闪耀的黛朵！",
+			say = "啊啊，為了不讓主人失望……！黛朵想再一次讓主人看見在舞台上閃耀的黛朵！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			actor = 108050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，大家的兴致都很高啊~",
+			say = "嘿嘿，大家的興致都很高啊~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			actor = 108050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "完全没想到我们「Astrum」还能再一次一起登台呢！",
+			say = "完全沒想到我們「Astrum」還能再一次一起上台呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			actor = 103250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错！这次我也有所成长了，作为“偶像”应该更加游刃有余了！",
+			say = "沒錯！這次我也有所成長了，身為「偶像」應該更游刃有餘了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			actor = 207110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵……谢谢大家愿意帮我这个忙。",
+			say = "呵呵……謝謝大家願意幫我這個忙。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			actor = 207140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "光辉姐姐是为了帮可畏，所以把之前的组合成员都聚集过来了么？",
+			say = "光輝姊姊是為了幫可畏，所以把之前的組合成員都聚集過來了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			actor = 207110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一方面是为了帮忙，另一方面么……",
+			say = "一方面是為了幫忙，另一方面嘛……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			actor = 207110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其实我也有想要让指挥官帮我实现的愿望……所以……",
+			say = "其實我也有想要讓指揮官幫我實現的願望……所以……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_111",
-			say = "港区·重樱区域",
+			say = "港區·重櫻區域",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			actor = 304080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（听说「Alizarin」那边的进展很快，而且还招募到了之前很强力的「Astrum」……）",
+			say = "（聽說「Alizarin」那邊的進展很快，而且還招募到了之前很強的「Astrum」……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			actor = 304080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（虽说{namecode:91:赤城}和东煌姐妹已经答应加入「青组」了，但我们这边也必须加快进度才行。）",
+			say = "（雖然赤城和東煌姊妹已經答應加入「青組」了，但我們這邊也必須加快進度才行。）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,7 +310,7 @@ return {
 			actor = 307100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是来找我的么？",
+			say = "是來找我的嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			actor = 307100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你放心好了……我不会允许自己选择的那一方落败。",
+			say = "妳放心好了……我不會允許自己選擇的那一方落敗。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			actor = 304080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？难道你也做了准备？",
+			say = "嗯？難道妳也做了準備？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			actor = 307100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那是自然~「Polaris」的全员已经答应和我一起加入「青组」了。",
+			say = "那是自然~「Polaris」的全員已經答應跟我一起加入「青組」了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			actor = 304080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然这么说可能有些失礼……但，你应该没有强迫她们吧？",
+			say = "雖然這麼說可能有些失禮……但，妳應該沒有強迫她們吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,7 +399,7 @@ return {
 			actor = 307100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼，当然了。不信的话……喏，你看，加斯科涅本人也过来了哦~",
+			say = "哼，當然了。不信的話……喏，妳看，加斯科涅本人也過來了哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			actor = 905030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "加斯科涅，没有被胁迫。",
+			say = "加斯科涅，沒有被脅迫。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			actor = 905030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "加斯科涅，对“偶像”的定义有了新的理解，想让主人看见。",
+			say = "加斯科涅，對「偶像」的定義有了新的理解，想讓主人看見。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			actor = 304080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来如此……抱歉{namecode:91:赤城}，我为刚刚的疑问向你道歉。",
+			say = "原來如此……抱歉赤城，我為剛剛的疑問向妳道歉。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -471,7 +471,7 @@ return {
 			actor = 307100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你的歉意我就收下了。说起来，我还为我们找到了另一组帮手……",
+			say = "妳的歉意我就收下了。說起來，我還為我們找到了另一組幫手……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			actor = 307100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然多少有些不爽……但为了增加赢面，有时候和过去的对手合作也是必要的呢。",
+			say = "雖然多少有些不爽……但為了增加贏面，有時候和過去的對手合作也是必要的呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			actor = 307100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——「Verheerender」，你们可是迟到了哦？",
+			say = "——「Verheerender」，妳們可是遲到了哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -525,7 +525,7 @@ return {
 			actor = 403080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯…抱歉呢~因为一直想着如何击溃“敌人”，在练习上花了点时间。",
+			say = "嗯……抱歉呢~因為一直想著如何擊潰「敵人」，在練習上花了點時間。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -543,7 +543,7 @@ return {
 			actor = 307110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啧，要不是为了指挥官大人，{namecode:97:大凤}才不会和你们合作呢。",
+			say = "嘖，要不是為了指揮官大人，大鳳才不會跟妳們合作。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,7 +561,7 @@ return {
 			actor = 307110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等{namecode:97:大凤}赢了……就要许愿和指挥官大人……呵呵呵呵❤",
+			say = "等大鳳贏了……就要許願和指揮官大人……呵呵呵呵❤",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -589,7 +589,7 @@ return {
 			actor = 307100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那种事我可绝对不·允·许哦？指挥官只能由{namecode:91:赤城}的爱来填满！",
+			say = "那種事我可絕對不·允·許哦？指揮官只能由赤城的愛來填滿！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			actor = 403080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，“敌人”的数量又增加了呢♪",
+			say = "呵呵，「敵人」的數量又增加了呢♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -643,7 +643,7 @@ return {
 			actor = 304080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们，要不还是把门关上再聊吧……",
+			say = "妳們，要不還是把門關上再聊吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1

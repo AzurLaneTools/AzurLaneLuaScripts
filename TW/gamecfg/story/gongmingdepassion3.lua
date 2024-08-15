@@ -12,7 +12,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我拒绝。",
+			say = "我拒絕。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -47,7 +47,7 @@ return {
 			actor = 304080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可是，之前参与μ兵装实验的时候，你不是也很乐在其中吗，“{namecode:91:赤城}前辈”？",
+			say = "可是，之前參與μ兵裝實驗的時候，妳不是也很樂在其中嗎，「赤城前輩」？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那时候和现在的意义可完全不一样。还有，不要叫我“前辈”！",
+			say = "那時候和現在的意義完全不一樣。還有，不要叫我「前輩」！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然我确实参与μ兵装实验比你早，但你这么叫我感觉突然增加了不少年纪……",
+			say = "雖然我確實參與μ兵裝實驗比你早，但妳這麼叫我感覺突然增加了不少年紀……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			actor = 304080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好吧。那我要怎么做，你才愿意加入我们「青组」？",
+			say = "好吧。那我要怎麼做，妳才願意加入我們「青組」？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			actor = 207140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "光辉姐姐，你真的不打算加入「红组」吗？",
+			say = "光輝姐姐，妳真的不打算加入「紅組」嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，我只是觉得现在还不是合适的时机。",
+			say = "呵呵，我只是覺得現在還不是適當的時機。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽说一开始就从参加过μ兵装实验的、有经验的舰船中招募是个很省心的方式……",
+			say = "雖然一開始就從參加過μ兵裝實驗的、有經驗的船艦中招募是個很省心的方式……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是这次的对抗赛，目的是让更多同伴参与其中吧？",
+			say = "但這次的對抗賽，目的是讓更多同伴參與其中吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			actor = 207140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "话是这么说没错啦……",
+			say = "話是這麼說沒錯……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果最后你们的组员招募不够，到时候再来找我也不迟呀？",
+			say = "如果最後妳們的組員招募不夠，到時候再來找我也不遲呀？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喂喂——信号测试喵~",
+			say = "喂喂——訊號測試喵~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很抱歉打断大家喵，{namecode:98:明石}这边接到通知要让大家来港口集合喵~",
+			say = "很抱歉打斷大家喵，明石這邊接到通知要讓大家來港口集合喵~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是针对本次的「μ兵装实验测试」补充说明喵~",
+			say = "是針對本次的「μ兵裝實驗測試」補充說明喵~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "以上就是本次通讯的内容喵，{namecode:98:明石}在港口等着大家喵~",
+			say = "以上就是這次通訊的內容喵，明石在港口等大家喵~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			actor = 207140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真麻烦……看来我们得先去港口了呢。",
+			say = "真麻煩……看來我們得先去港口了呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可畏，注意礼仪。",
+			say = "可畏，注意禮儀。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,7 +395,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_story_outdoor",
-			say = "港区·港口",
+			say = "港區·港口",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很抱歉如此仓促地将诸位召集在此处。",
+			say = "很抱歉如此倉促地將諸位召集在此。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "相信大家一定会很在意这次分为大组对抗的理由，以及本次的赞助方究竟是谁……",
+			say = "相信大家一定會很在意這次分為大組對抗的理由，以及這次的贊助者究竟是誰……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,7 +461,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在就将为大家说明。",
+			say = "現在就將為大家說明。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			actor = 305110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈哈哈，之前也只拜托了{namecode:98:明石}通知大家新的规则，但是关键的内容都还没透露呢。",
+			say = "哈哈哈，之前也只拜託了明石通知大家新的規則，但是關鍵的內容都還沒透露呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总之，赞助方为了调动大家的积极性，会满足最终的胜出者一个愿望。",
+			say = "總之，贊助方為了調動大家的積極性，會滿足最終的勝出者一個願望。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -515,7 +515,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也就是说，可以利用这一点去……",
+			say = "也就是說，可以利用這一點去……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -533,7 +533,7 @@ return {
 			actor = 305110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳咳，关于这个愿望能做什么，就由胜出者自己去考虑吧。",
+			say = "咳咳，關於這個願望能做什麼，就由勝出者自己去考慮吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			actor = 403150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "实现一个愿望？哎呀，感觉事态要往更有趣的方向发展了呢~",
+			say = "實現一個願望？哎呀，感覺事態要往更有趣的方向發展了呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -587,7 +587,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来大家的情绪已经被奖励调动起来了喵~！现在{namecode:98:明石}就为大家公布本次的赞助方名单喵~",
+			say = "看來大家的情緒已經被獎勵調動起來了喵~！現在明石就為大家公佈本次的贊助方名單喵~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -604,7 +604,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喵呼呼，本次的赞助方是——指挥官喵~！",
+			say = "喵呼呼，本次的贊助方是——指揮官喵~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -622,7 +622,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大家可以根据这个提前思考一下愿望的范围了喵~",
+			say = "大家可以根據這個提前思考一下願望的範圍了喵~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -640,7 +640,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等……谁……？指挥官？！愿望……",
+			say = "等等……誰……？指揮官？！願望……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -668,7 +668,7 @@ return {
 			actor = 307100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵呵……{namecode:70:金刚}，我现在就同意你的邀请……！",
+			say = "呵呵呵……金剛，我現在就同意妳的邀約……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -696,7 +696,7 @@ return {
 			actor = 801090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇哦~甚至连μ兵装都突然装备上了……",
+			say = "哇哦~甚至連μ兵裝都突然裝備上了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -714,7 +714,7 @@ return {
 			actor = 307110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:97:大凤}也要参加！",
+			say = "大鳳也要參加！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -742,7 +742,7 @@ return {
 			actor = 302240,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总感觉……事态要朝着奇怪的方向变化了……",
+			say = "總感覺……事態要朝著奇怪的方向改變了……",
 			painting = {
 				alpha = 0.3,
 				time = 1

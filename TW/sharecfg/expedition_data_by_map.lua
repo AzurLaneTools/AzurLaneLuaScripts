@@ -296,6 +296,10 @@ pg.expedition_data_by_map = setmetatable({
 		1770002,
 		1770003,
 		1770004,
+		1800001,
+		1800002,
+		1800003,
+		1800004,
 		2100000,
 		2100001,
 		2100010,
@@ -13907,6 +13911,182 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		uifx = "",
 		bind_map = 1770002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1800001] = {
+		map = 1800001,
+		name = "共鳴的Passion|| ||CHAPTER EX||EX",
+		bgm = "votefes-start",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "GONGMINGDEPASSION1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1800001",
+		ani_controller = "",
+		cloud_suffix = "",
+		on_activity = 5301,
+		ui_type = 8,
+		bg = "Map_1800001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1800002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1800002] = {
+		map = 1800002,
+		name = "共鳴的Passion·進階|| ||CHAPTER EX||EX",
+		bgm = "votefes-start",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1800002",
+		ani_controller = "",
+		cloud_suffix = "",
+		on_activity = 5301,
+		ui_type = 8,
+		bg = "Map_1800002",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1800001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1800003] = {
+		map = 1800003,
+		name = "共鳴的Passion·SP|| ||CHAPTER EX||EX",
+		bgm = "song-Cyanidin-full",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1800001",
+		ani_controller = "",
+		cloud_suffix = "",
+		on_activity = 5301,
+		ui_type = 8,
+		bg = "Map_1800001",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1800002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1800004] = {
+		map = 1800004,
+		name = "共鳴的Passion·EX|| ||CHAPTER EX||EX",
+		bgm = "song-Alizarin-full",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1800002",
+		ani_controller = "",
+		cloud_suffix = "",
+		on_activity = 5301,
+		ui_type = 8,
+		bg = "Map_1800002",
+		destory_icon_suffix = "blue",
+		uifx = "",
+		bind_map = 1800002,
 		clouds_pos = {
 			{
 				332,

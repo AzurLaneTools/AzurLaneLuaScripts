@@ -158,6 +158,9 @@ pg.ship_data_group = setmetatable({
 		[10229] = {
 			514
 		},
+		[10232] = {
+			638
+		},
 		[10212] = {
 			304
 		},
@@ -722,6 +725,9 @@ pg.ship_data_group = setmetatable({
 		[20713] = {
 			589
 		},
+		[20714] = {
+			633
+		},
 		[20707] = {
 			581
 		},
@@ -953,6 +959,9 @@ pg.ship_data_group = setmetatable({
 		[30223] = {
 			324
 		},
+		[30224] = {
+			635
+		},
 		[30301] = {
 			190
 		},
@@ -1012,6 +1021,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[30407] = {
 			510
+		},
+		[30408] = {
+			636
 		},
 		[30511] = {
 			320
@@ -1108,6 +1120,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[30708] = {
 			231
+		},
+		[30714] = {
+			639
 		},
 		[30712] = {
 			520
@@ -1252,6 +1267,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[40313] = {
 			568
+		},
+		[40315] = {
+			634
 		},
 		[40401] = {
 			248
@@ -1546,6 +1564,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[80104] = {
 			395
+		},
+		[80109] = {
+			637
 		},
 		[80101] = {
 			347
@@ -2001,6 +2022,7 @@ pg.ship_data_group = setmetatable({
 			31,
 			32,
 			514,
+			638,
 			304,
 			305,
 			33,
@@ -2189,6 +2211,7 @@ pg.ship_data_group = setmetatable({
 			459,
 			480,
 			589,
+			633,
 			581,
 			149,
 			150,
@@ -2266,6 +2289,7 @@ pg.ship_data_group = setmetatable({
 			321,
 			322,
 			324,
+			635,
 			190,
 			191,
 			192,
@@ -2286,6 +2310,7 @@ pg.ship_data_group = setmetatable({
 			383,
 			367,
 			510,
+			636,
 			320,
 			208,
 			209,
@@ -2318,6 +2343,7 @@ pg.ship_data_group = setmetatable({
 			474,
 			594,
 			231,
+			639,
 			520,
 			338,
 			396,
@@ -2366,6 +2392,7 @@ pg.ship_data_group = setmetatable({
 			549,
 			546,
 			568,
+			634,
 			248,
 			249,
 			543,
@@ -2464,6 +2491,7 @@ pg.ship_data_group = setmetatable({
 			348,
 			359,
 			395,
+			637,
 			347,
 			522,
 			523,
@@ -2658,6 +2686,7 @@ pg.ship_data_group = setmetatable({
 		31,
 		32,
 		514,
+		638,
 		304,
 		305,
 		33,
@@ -2846,6 +2875,7 @@ pg.ship_data_group = setmetatable({
 		459,
 		480,
 		589,
+		633,
 		581,
 		149,
 		150,
@@ -2923,6 +2953,7 @@ pg.ship_data_group = setmetatable({
 		321,
 		322,
 		324,
+		635,
 		190,
 		191,
 		192,
@@ -2943,6 +2974,7 @@ pg.ship_data_group = setmetatable({
 		383,
 		367,
 		510,
+		636,
 		320,
 		208,
 		209,
@@ -2975,6 +3007,7 @@ pg.ship_data_group = setmetatable({
 		474,
 		594,
 		231,
+		639,
 		520,
 		338,
 		396,
@@ -3023,6 +3056,7 @@ pg.ship_data_group = setmetatable({
 		549,
 		546,
 		568,
+		634,
 		248,
 		249,
 		543,
@@ -3121,6 +3155,7 @@ pg.ship_data_group = setmetatable({
 		348,
 		359,
 		395,
+		637,
 		347,
 		522,
 		523,
@@ -5609,7 +5644,9 @@ pg.base.ship_data_group = {
 		group_type = 10229,
 		index_id = 53,
 		code = 514,
-		share_group_id = {},
+		share_group_id = {
+			10232
+		},
 		property_hexagon = {
 			"B",
 			"E",
@@ -5623,6 +5660,40 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：鏡位螺旋",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[638] = {
+		nationality = 1,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 10232,
+		index_id = 54,
+		code = 638,
+		share_group_id = {
+			10229
+		},
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：共鳴的Passion",
 				{
 					""
 				},
@@ -7283,6 +7354,17 @@ pg.base.ship_data_group = {
 				"限時活動：激唱的Universe",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行重型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -9257,6 +9339,17 @@ pg.base.ship_data_group = {
 				"限時活動：激唱的Universe",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -11928,6 +12021,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -13908,7 +14012,9 @@ pg.base.ship_data_group = {
 		group_type = 20705,
 		index_id = 244,
 		code = 147,
-		share_group_id = {},
+		share_group_id = {
+			20714
+		},
 		property_hexagon = {
 			"E",
 			"E",
@@ -14052,6 +14158,40 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：「小淑女」的禮儀課",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[633] = {
+		nationality = 2,
+		type = 7,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 20714,
+		index_id = 249,
+		code = 633,
+		share_group_id = {
+			20705
+		},
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"D",
+			"B",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：共鳴的Passion",
 				{
 					""
 				},
@@ -17166,7 +17306,9 @@ pg.base.ship_data_group = {
 		group_type = 30221,
 		index_id = 329,
 		code = 322,
-		share_group_id = {},
+		share_group_id = {
+			30224
+		},
 		property_hexagon = {
 			"C",
 			"A",
@@ -17223,6 +17365,40 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：紫絳槿嵐",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[635] = {
+		nationality = 3,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 30224,
+		index_id = 331,
+		code = 635,
+		share_group_id = {
+			30221
+		},
+		property_hexagon = {
+			"C",
+			"A",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：共鳴的Passion",
 				{
 					""
 				},
@@ -17730,7 +17906,9 @@ pg.base.ship_data_group = {
 		group_type = 30401,
 		index_id = 346,
 		code = 204,
-		share_group_id = {},
+		share_group_id = {
+			30408
+		},
 		property_hexagon = {
 			"A",
 			"E",
@@ -18000,6 +18178,40 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：小小軍師成長記",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[636] = {
+		nationality = 3,
+		type = 4,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 30408,
+		index_id = 353,
+		code = 636,
+		share_group_id = {
+			30401
+		},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：共鳴的Passion",
 				{
 					""
 				},
@@ -19235,6 +19447,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -19295,6 +19518,38 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：蝶海夢花",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[639] = {
+		nationality = 3,
+		type = 7,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 30714,
+		index_id = 387,
+		code = 639,
+		share_group_id = {},
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"B",
+			"B",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：共墜甜蜜之夢",
 				{
 					""
 				},
@@ -20880,7 +21135,9 @@ pg.base.ship_data_group = {
 		group_type = 40303,
 		index_id = 429,
 		code = 244,
-		share_group_id = {},
+		share_group_id = {
+			40315
+		},
 		property_hexagon = {
 			"B",
 			"D",
@@ -21190,6 +21447,40 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：“圍剿”小施佩伯爵",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[634] = {
+		nationality = 4,
+		type = 3,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 40315,
+		index_id = 438,
+		code = 634,
+		share_group_id = {
+			40303
+		},
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"C",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：共鳴的Passion",
 				{
 					""
 				},
@@ -23979,6 +24270,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -24616,7 +24918,9 @@ pg.base.ship_data_group = {
 		group_type = 80103,
 		index_id = 546,
 		code = 359,
-		share_group_id = {},
+		share_group_id = {
+			80109
+		},
 		property_hexagon = {
 			"C",
 			"B",
@@ -24665,6 +24969,40 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：光與影的鳶尾之華",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[637] = {
+		nationality = 8,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 80109,
+		index_id = 548,
+		code = 637,
+		share_group_id = {
+			80103
+		},
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：共鳴的Passion",
 				{
 					""
 				},

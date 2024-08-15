@@ -22574,6 +22574,131 @@ _G.pg.base.item_data_statistics[30354] = {
 }
 
 
+_G.pg.base.item_data_statistics[30355] = {
+	open_directly = 1,
+	name = "外觀裝備箱(共鳴)",
+	type = 11,
+	display = "可以獲得一件隨機的共鳴Passion風格外觀裝備",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxgongming",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30355",
+	id = 30355,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			950,
+			1
+		},
+		{
+			9,
+			951,
+			1
+		},
+		{
+			9,
+			952,
+			1
+		},
+		{
+			9,
+			953,
+			1
+		},
+		{
+			9,
+			954,
+			1
+		},
+		{
+			9,
+			955,
+			1
+		},
+		{
+			9,
+			956,
+			1
+		},
+		{
+			9,
+			957,
+			1
+		},
+		{
+			9,
+			958,
+			1
+		},
+		{
+			9,
+			959,
+			1
+		},
+		{
+			9,
+			960,
+			1
+		},
+		{
+			9,
+			961,
+			1
+		},
+		{
+			9,
+			962,
+			1
+		},
+		{
+			9,
+			963,
+			1
+		},
+		{
+			9,
+			964,
+			1
+		},
+		{
+			9,
+			965,
+			1
+		},
+		{
+			9,
+			966,
+			1
+		},
+		{
+			9,
+			967,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[30356] = {
 	open_directly = 1,
 	name = "外觀裝備箱(郵輪)",
@@ -31087,6 +31212,219 @@ _G.pg.base.item_data_statistics[30538] = {
 		{
 			9,
 			947,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_data_statistics[30539] = {
+	open_directly = 0,
+	name = "定向外觀裝備箱(共鳴)",
+	type = 13,
+	display = "使用後可從「共鳴Passion」主題外觀裝備中任意選擇一種獲得1個",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxgongmingzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30539,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			950,
+			1
+		},
+		{
+			9,
+			951,
+			1
+		},
+		{
+			9,
+			952,
+			1
+		},
+		{
+			9,
+			953,
+			1
+		},
+		{
+			9,
+			954,
+			1
+		},
+		{
+			9,
+			955,
+			1
+		},
+		{
+			9,
+			956,
+			1
+		},
+		{
+			9,
+			957,
+			1
+		},
+		{
+			9,
+			958,
+			1
+		},
+		{
+			9,
+			959,
+			1
+		},
+		{
+			9,
+			960,
+			1
+		},
+		{
+			9,
+			961,
+			1
+		},
+		{
+			9,
+			962,
+			1
+		},
+		{
+			9,
+			963,
+			1
+		},
+		{
+			9,
+			964,
+			1
+		},
+		{
+			9,
+			965,
+			1
+		},
+		{
+			9,
+			966,
+			1
+		},
+		{
+			9,
+			967,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			950,
+			1
+		},
+		{
+			9,
+			951,
+			1
+		},
+		{
+			9,
+			952,
+			1
+		},
+		{
+			9,
+			953,
+			1
+		},
+		{
+			9,
+			954,
+			1
+		},
+		{
+			9,
+			955,
+			1
+		},
+		{
+			9,
+			956,
+			1
+		},
+		{
+			9,
+			957,
+			1
+		},
+		{
+			9,
+			958,
+			1
+		},
+		{
+			9,
+			959,
+			1
+		},
+		{
+			9,
+			960,
+			1
+		},
+		{
+			9,
+			961,
+			1
+		},
+		{
+			9,
+			962,
+			1
+		},
+		{
+			9,
+			963,
+			1
+		},
+		{
+			9,
+			964,
+			1
+		},
+		{
+			9,
+			965,
+			1
+		},
+		{
+			9,
+			966,
+			1
+		},
+		{
+			9,
+			967,
 			1
 		}
 	}

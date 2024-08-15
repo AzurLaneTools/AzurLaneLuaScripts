@@ -1,218 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_11 = {
-	[306051] = {
-		name = "夜巡的魔女",
-		ship_group = 30605,
-		desc = "哇啊啊啊！糖、糖果灑出來了——！！ 為、為什麼都在追吾啊！指揮官，幫吾攔下南瓜啊啊啊——",
-		illustrator2 = -1,
-		bg_sp = "",
-		group_index = 1,
-		prefab = "xiangfeng_2",
-		painting = "xiangfeng_2",
-		hand_id = 6,
-		bgm = "",
-		shop_type_id = 8,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 306051,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 70017,
-		voice_actor = 2,
-		spine_offset = "",
-		illustrator = 24,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.16,
-					0.88,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.16,
-					0.88,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.16,
-					0.88,
-					0
-				}
-			},
-			plane = {
-				{
-					-0.16,
-					0.88,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.21,
-							2.7,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[306059] = {
-		name = "{namecode:87}.改",
-		ship_group = 30605,
-		desc = "指揮官大人，這便是吾成長後的姿態！嘻嘻，心動了嗎？吶、吶，肯定心動了吧~",
-		illustrator2 = -1,
-		bg_sp = "",
-		group_index = 9,
-		prefab = "xiangfeng_g",
-		painting = "xiangfeng_g",
-		hand_id = 14,
-		bgm = "",
-		shop_type_id = 9997,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 2,
-		id = 306059,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 2,
-		spine_offset = "",
-		illustrator = 24,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					0.53,
-					0.96,
-					0
-				}
-			},
-			plane = {
-				{
-					0.53,
-					0.96,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.55,
-							2.42,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[306060] = {
 		name = "{namecode:90}",
 		ship_group = 30606,
@@ -6092,6 +5880,105 @@ pg.base.ship_skin_template_11 = {
 			}
 		}
 	},
+	[307140] = {
+		name = "小信濃",
+		ship_group = 30714,
+		desc = "汝……就是妾身夢中所見之人吧。嗯，真好……看起來是個能讓人安心的傢伙……不過，汝看起來還有許多事情，需要妾身的指點呢……",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 0,
+		prefab = "xinnong_younv",
+		painting = "xinnong_younv",
+		hand_id = 6,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 307140,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 192,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.84,
+					0.97,
+					0
+				}
+			},
+			plane = {
+				{
+					0.83,
+					0.91,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[308010] = {
 		name = "伊19",
 		ship_group = 30801,
@@ -11120,6 +11007,274 @@ pg.base.ship_skin_template_11 = {
 							-0.37,
 							1.73,
 							-0.93
+						}
+					}
+				}
+			}
+		}
+	},
+	[401230] = {
+		name = "Z23",
+		ship_group = 40123,
+		desc = "1936A “納爾維克”型驅逐艦—Z23\n<color=#fad545>獲得後將解鎖建造</color>",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 0,
+		prefab = "z23",
+		painting = "z23",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 401230,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 3,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.16,
+					0.59,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.16,
+					0.59,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.33,
+					0.35,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.16,
+					0.59,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.531,
+							0.89,
+							-0.27
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.53,
+							2.92,
+							-0.38
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			propose = 2.5
+		}
+	},
+	[401231] = {
+		name = "哲學講師",
+		ship_group = 40123,
+		desc = "這裡是重點！（敲黑板）不乖乖記筆記的話，Z23老師就要懲罰你了哦！",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 1,
+		prefab = "z23_2",
+		painting = "z23_2",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 9999,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 401231,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 3,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.005,
+					0.804,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.005,
+					0.804,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.247,
+					0.073,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.005,
+					0.804,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.531,
+							0.89,
+							-0.27
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.53,
+							2.92,
+							-0.38
 						}
 					}
 				}

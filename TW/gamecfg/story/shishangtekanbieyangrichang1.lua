@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港区时尚特刊：别样的日常\n\n<size=45>值日时的春心萌动</size>",
+					"港區時尚特刊：別樣的日常\n\n<size=45>1 值日生的春心萌動</size>",
 					1
 				}
 			}
@@ -61,7 +61,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = "login",
-			say = "放学后空旷的教室里，那位千金大小姐踮着脚，努力擦拭着黑板。",
+			say = "放學後空曠的教室裡，那位千金大小姐踮著腳，努力擦拭黑板。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "从她认真的样子来看……应该还没注意到我的存在。",
+			say = "從她認真的樣子來看……應該還沒注意到我的存在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "正当我思考要不要出声帮忙时，大小姐更努力地踮起脚，几乎把整个身体都压在黑板上向上擦拭着。",
+			say = "正當我思考要不要出聲幫忙時，大小姐更努力地踮起腳，幾乎把整個身體都壓在黑板上向上擦拭著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "然后，擦拭的灰尘从黑板上滑落，径直落入大小姐的眼睛中。",
+			say = "然後，擦拭的灰塵從黑板上滑落，徑直落入大小姐的眼睛中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "被灰尘迷住眼睛的大小姐下意识后退，脚下一滑。",
+			say = "被灰塵迷住眼睛的大小姐下意識後退，腳下一滑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "咳、咳……",
+			say = "咳、咳…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "老、老师？！你没事吧？",
+			say = "老、老師？！你沒事吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不，不对……可畏又不重的……不应该有事……",
+			say = "不，不對……可畏又不重的……不該有事……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "不是……可畏不是那个意思……",
+			say = "不是……可畏不是那個意思……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "总、总之就是……谢谢你，老师！",
+			say = "總、總之就是……謝謝你，老師！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "（虽然知道是在拍摄，但突然被可畏喊老师还是有些不习惯……）",
+			say = "（雖然知道是在拍攝，但突然被可畏喊老師還是有些不習慣……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "没事，上面的灰尘就交给我来擦好了。你的眼睛没事吧？",
+			say = "沒事，上面的灰塵就交給我來擦好了。你的眼睛沒事吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "嗯……只是有一点痛而已，没关系的。",
+			say = "嗯……只是有一點痛而已，沒關係的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,7 +317,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我来帮你吹一下，不要乱动。",
+			say = "我來幫妳吹一下，不要亂動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "欸……？嗯……那就拜托老师了。",
+			say = "欸……？嗯……那就拜託老師了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "纵使耳根已经通红，大小姐还是努力仰着头向我凑来。",
+			say = "縱使耳根已經通紅，大小姐還是努力仰著頭向我湊來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "呜……这、这样可以么？",
+			say = "嗚……這、這樣可以嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "双唇来到了几乎相贴的距离——",
+			say = "雙唇來到了幾乎相貼的距離——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "香水甜美气息的萦绕下，少女水润的眼眸仿佛产生了某种摄人心魂的魔力。",
+			say = "香水甜美氣息的縈繞下，少女水潤的眼眸彷彿產生了某種攝人心魂的魔力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯……好像太高了点，这样就没办法吹到灰了。",
+			say = "嗯……好像太高了點，這樣就沒辦法吹到灰了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "老师……你！",
+			say = "老師……你！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "大小姐不满似的轻摆长发，缓缓蹲下身去。",
+			say = "大小姐不滿似的輕擺長髮，緩緩蹲下身去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "直到头顶的高度与我的腰间平齐。",
+			say = "直到頭頂的高度與我的腰間平齊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "老师~你该不会要说这样又太低了吧？",
+			say = "老師~你該不會要說這樣又太低了吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -529,18 +529,18 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "大小姐仰起头来，嘴角扬起，眼眸中带着些许戏谑。",
+			say = "大小姐仰起頭來，嘴角揚起，眼眸中帶著些許戲謔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "嗯，这次确实又有些太低了。",
+					content = "嗯，這次確實又有些太低了。",
 					flag = 1
 				},
 				{
-					content = "不！这次高度刚刚好。",
+					content = "不！這次高度剛好。",
 					flag = 2
 				}
 			}
@@ -554,7 +554,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "可是老师，可畏已经很累了，老师来弯腰配合可畏调整到合适的高度好么~",
+			say = "可是老師，可畏已經很累了，老師來彎腰配合可畏調整到合適的高度好麼~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -573,7 +573,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "老师想帮可畏吹掉眼睛里的灰吧？",
+			say = "老師想幫可畏吹眼裡的灰吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -593,7 +593,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "其实……你眼睛里的灰，已经随着眼泪流出来了吧。",
+			say = "其實……你眼睛裡的灰，已經隨著眼淚流出來了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "哼，到这种时候观察力就突然变好了！",
+			say = "哼，到這種時候觀察力突然變好了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -627,7 +627,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "噢~？真的么？",
+			say = "噢~？真的嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -646,7 +646,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "可是这次可畏的头距离老师的嘴比刚才更远哦？",
+			say = "可是這次可畏的頭距離老師的嘴比剛才更遠哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -665,7 +665,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "老师为什么要说刚刚好呢？",
+			say = "老師為什麼要說剛剛好呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -684,7 +684,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "很~遗~憾~可畏眼睛里的灰已经随着眼泪流出去了，不需要老师帮忙了哟~",
+			say = "很~遺~憾~可畏眼睛裡的灰已經隨著眼淚流出去了，不需要老師幫忙了喲~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -703,7 +703,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "少女一边说着，一边直起身来，在我眼前优雅地转了个圈。",
+			say = "少女一邊說著，一邊直起身來，在我眼前優雅地轉了個圈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +733,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "自动录制设备停止的声音同时响了起来。",
+			say = "自動錄製設備停止的聲音同時響了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -748,7 +748,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "呼……这样一来，拍摄就算顺利结束了？",
+			say = "呼……這樣一來，拍攝就算順利結束了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -762,7 +762,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
-			say = "顺利结束个鬼……咳，拍摄工作可能还没有结束哦，指挥官。",
+			say = "順利結束個鬼……咳，拍攝工作可能還沒結束哦，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -780,7 +780,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "因为刚才某人没有按照设计好的台本来走的缘故。",
+			say = "因為剛才某人沒有按照設計好的劇本來走的緣故。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -798,7 +798,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我们恐怕必须要重拍一次这个镜头了呢。",
+			say = "我們恐怕必須要重拍一次這個鏡頭了呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -816,7 +816,7 @@ return {
 			actor = 207053,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "时间还早，请再陪我来一遍吧，我亲爱的老师~",
+			say = "時間還早，請再陪我來一次吧，我親愛的老師~",
 			painting = {
 				alpha = 0.3,
 				time = 1

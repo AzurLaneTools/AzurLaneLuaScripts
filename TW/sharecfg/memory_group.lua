@@ -157,6 +157,8 @@ pg.memory_group = setmetatable({
 		280,
 		281,
 		282,
+		284,
+		285,
 		286,
 		288,
 		290,
@@ -3742,6 +3744,46 @@ pg.base.memory_group = {
 			3471,
 			3472,
 			3473
+		}
+	},
+	[284] = {
+		title = "共鳴的Passion",
+		subtype = 2,
+		link_event = 5301,
+		type = 2,
+		id = 284,
+		icon = "title_event",
+		memories = {
+			3500,
+			3501,
+			3502,
+			3503,
+			3504,
+			3505,
+			3506,
+			3507,
+			3508,
+			3509,
+			3510,
+			3511,
+			3512,
+			3513,
+			3514,
+			3515,
+			3516
+		}
+	},
+	[285] = {
+		title = "港區時尚特刊：別樣的日常",
+		subtype = 3,
+		link_event = 5311,
+		type = 2,
+		id = 285,
+		icon = "title_event",
+		memories = {
+			3520,
+			3521,
+			3522
 		}
 	},
 	[286] = {

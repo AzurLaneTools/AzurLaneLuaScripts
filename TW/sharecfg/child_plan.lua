@@ -3854,7 +3854,7 @@ pg.child_plan = {
 		}
 	},
 	[1212] = {
-		name = "進階寫生",
+		name = "高級寫生",
 		type = 2,
 		cost_resource2 = 5,
 		cost_resource3 = 1,

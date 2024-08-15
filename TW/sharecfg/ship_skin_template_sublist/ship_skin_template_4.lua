@@ -1,107 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_4 = {
-	[107091] = {
-		name = "66號公路之旅",
-		ship_group = 10709,
-		desc = "不為追求終點，只是欣賞沿途風景的騎行之旅，似乎也挺有意思的。指揮官，一起來感受下公路之旅的樂趣吧。",
-		illustrator2 = -1,
-		bg_sp = "",
-		group_index = 1,
-		prefab = "aisaikesi_3",
-		painting = "aisaikesi_3",
-		hand_id = 1,
-		bgm = "",
-		shop_type_id = 9,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "118",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 107091,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 70245,
-		voice_actor = 149,
-		spine_offset = "",
-		illustrator = 8,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					0.93,
-					1.151,
-					0
-				}
-			},
-			plane = {
-				{
-					0.906,
-					1.168,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.41,
-							2.37,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[107092] = {
 		name = "Craft Fairytail",
 		ship_group = 10709,
@@ -10989,6 +10888,266 @@ pg.base.ship_skin_template_4 = {
 							-0.45,
 							2.45,
 							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201220] = {
+		name = "天后",
+		ship_group = 20122,
+		desc = "J級驅逐艦—天后，舷號F46",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 0,
+		prefab = "tianhou",
+		painting = "tianhou",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 201220,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 37,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.075,
+					0.673,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.075,
+					0.673,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.216,
+					0.364,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.5,
+					0.8,
+					0
+				},
+				{
+					-0.5,
+					0.8,
+					0
+				}
+			},
+			plane = {
+				{
+					-0.5,
+					0.5,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							0.55,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.3,
+							0.87,
+							-0.4
+						}
+					}
+				}
+			}
+		}
+	},
+	[201221] = {
+		name = "美味的祭典？",
+		ship_group = 20122,
+		desc = "重櫻的祭典真的好棒啊~指揮官，要不要來點{namecode:98}小姐準備的章魚燒呢？據說很好吃哦？",
+		illustrator2 = -1,
+		bg_sp = "1102",
+		group_index = 1,
+		prefab = "tianhou_2",
+		painting = "tianhou_2",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 10,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "114",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 201221,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 37,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.43,
+					0.728,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.395,
+					0.711,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.001,
+					0.009,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.375,
+					0.757,
+					0
+				}
+			},
+			plane = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.549,
+							2.179,
+							-0.4
 						}
 					}
 				}

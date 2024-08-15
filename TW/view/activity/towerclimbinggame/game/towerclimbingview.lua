@@ -26,6 +26,7 @@ slot0.Ctor = function(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
 
 	slot0.controller = slot1
+	slot0.roomTip = pg.gametip.towerclimbing_gametip.tip
 end
 
 slot0.SetUI = function(slot0, slot1)
@@ -62,7 +63,7 @@ slot0.OnEnter = function(slot0, slot1)
 	onButton(slot0, slot0.helpBtn, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.towerclimbing_gametip.tip
+			helps = uv0.roomTip
 		})
 	end, SFX_PANEL)
 
@@ -268,6 +269,10 @@ end
 
 slot0.SetHighScore = function(slot0, slot1)
 	slot0.highScores = slot1
+end
+
+slot0.setRoomTip = function(slot0, slot1)
+	slot0.roomTip = slot1
 end
 
 slot0.ActivePanel = function(slot0, slot1, slot2)

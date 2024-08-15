@@ -136,6 +136,7 @@ pg.furniture_data_template = setmetatable({
 			266,
 			269,
 			273,
+			275,
 			278,
 			100002,
 			100003,
@@ -2814,6 +2815,36 @@ pg.furniture_data_template = setmetatable({
 			309301,
 			309302
 		},
+		[110] = {
+			310001,
+			310002,
+			310101,
+			310102,
+			310103,
+			310104,
+			310105,
+			310106,
+			310107,
+			310108,
+			310109,
+			310110,
+			310111,
+			310112,
+			310113,
+			310114,
+			310115,
+			310116,
+			310301,
+			310302,
+			310303,
+			310304,
+			310305,
+			310306,
+			310307,
+			310308,
+			310309,
+			310310
+		},
 		[111] = {
 			311001,
 			311002,
@@ -4541,6 +4572,21 @@ pg.furniture_data_template = setmetatable({
 			309111,
 			309112,
 			309114,
+			310101,
+			310102,
+			310103,
+			310104,
+			310105,
+			310106,
+			310107,
+			310108,
+			310109,
+			310110,
+			310111,
+			310112,
+			310113,
+			310114,
+			310115,
 			311101,
 			311102,
 			311103,
@@ -4861,6 +4907,7 @@ pg.furniture_data_template = setmetatable({
 			264,
 			266,
 			273,
+			275,
 			278
 		},
 		[7] = {
@@ -5026,6 +5073,7 @@ pg.furniture_data_template = setmetatable({
 			305303,
 			305304,
 			309113,
+			310116,
 			311116
 		},
 		[4] = {
@@ -5116,6 +5164,7 @@ pg.furniture_data_template = setmetatable({
 			304001,
 			305001,
 			309001,
+			310001,
 			311001
 		},
 		[3] = {
@@ -5207,6 +5256,7 @@ pg.furniture_data_template = setmetatable({
 			304002,
 			305002,
 			309002,
+			310002,
 			311002
 		},
 		[5] = {
@@ -5504,7 +5554,17 @@ pg.furniture_data_template = setmetatable({
 			305305,
 			305306,
 			309301,
-			309302
+			309302,
+			310301,
+			310302,
+			310303,
+			310304,
+			310305,
+			310306,
+			310307,
+			310308,
+			310309,
+			310310
 		}
 	},
 	get_id_list_by_type = {
@@ -5597,6 +5657,7 @@ pg.furniture_data_template = setmetatable({
 			304002,
 			305002,
 			309002,
+			310002,
 			311002
 		},
 		[7] = {
@@ -5714,6 +5775,7 @@ pg.furniture_data_template = setmetatable({
 			266,
 			269,
 			273,
+			275,
 			278,
 			100002,
 			100004,
@@ -7435,6 +7497,21 @@ pg.furniture_data_template = setmetatable({
 			309112,
 			309113,
 			309114,
+			310102,
+			310103,
+			310104,
+			310105,
+			310106,
+			310107,
+			310108,
+			310109,
+			310110,
+			310111,
+			310112,
+			310113,
+			310114,
+			310115,
+			310116,
 			311101,
 			311102,
 			311103,
@@ -7602,6 +7679,7 @@ pg.furniture_data_template = setmetatable({
 			304001,
 			305001,
 			309001,
+			310001,
 			311001
 		},
 		[5] = {
@@ -7738,7 +7816,8 @@ pg.furniture_data_template = setmetatable({
 			305108,
 			305111,
 			305119,
-			309105
+			309105,
+			310101
 		},
 		[3] = {
 			1108,
@@ -8165,7 +8244,12 @@ pg.furniture_data_template = setmetatable({
 			305304,
 			305305,
 			309301,
-			309302
+			309302,
+			310306,
+			310307,
+			310308,
+			310309,
+			310310
 		},
 		[8] = {
 			17121
@@ -8187,7 +8271,12 @@ pg.furniture_data_template = setmetatable({
 			76305,
 			98302,
 			304306,
-			305306
+			305306,
+			310301,
+			310302,
+			310303,
+			310304,
+			310305
 		},
 		[12] = {
 			46131
@@ -8329,6 +8418,7 @@ pg.furniture_data_template = setmetatable({
 		266,
 		269,
 		273,
+		275,
 		278,
 		100002,
 		100003,
@@ -10830,6 +10920,34 @@ pg.furniture_data_template = setmetatable({
 		309114,
 		309301,
 		309302,
+		310001,
+		310002,
+		310101,
+		310102,
+		310103,
+		310104,
+		310105,
+		310106,
+		310107,
+		310108,
+		310109,
+		310110,
+		310111,
+		310112,
+		310113,
+		310114,
+		310115,
+		310116,
+		310301,
+		310302,
+		310303,
+		310304,
+		310305,
+		310306,
+		310307,
+		310308,
+		310309,
+		310310,
 		311001,
 		311002,
 		311101,
@@ -17293,6 +17411,57 @@ pg.base.furniture_data_template = {
 		spine = {
 			{
 				"maoxianxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[275] = {
+		can_rotate = 0,
+		describe = "μ兵裝三期LIVE舞台的微縮模型，兩個舞台分別象徵「深紅」與「花青素」。——「共鳴的Passion」活動紀念章",
+		gain_by = "共鳴的Passion",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 8,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "共鳴舞台微縮模型",
+		advice = 0,
+		id = 275,
+		icon = "ido3xunzhangicon",
+		comfortable = 0,
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			2,
+			{
+				"song11",
+				"song12"
+			},
+			{
+				"normal",
+				"normal"
+			}
+		},
+		spine = {
+			{
+				"ido3xunzhang",
 				"normal"
 			}
 		},
@@ -127576,6 +127745,1162 @@ pg.base.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[310001] = {
+		can_rotate = 0,
+		describe = "做好準備，盛大演出即將開場！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido3/dibanido3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 110,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "星光地板",
+		advice = 0,
+		icon = "dibanido3icon",
+		id = 310001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310002] = {
+		can_rotate = 0,
+		describe = "做好準備，盛大演出即將開場！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		themeId = 110,
+		count = 1,
+		name = "星光壁紙",
+		advice = 0,
+		id = 310002,
+		icon = "qiangbiido3icon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbiido3",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[310101] = {
+		can_rotate = 0,
+		describe = "有著兔子圖案的地毯，踩上去會讓人變睏嗎？Zzz……",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido3/ditanido3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 110,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "星光地毯",
+		advice = 0,
+		icon = "ditanido3icon",
+		id = 310101,
+		comfortable = 2,
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310102] = {
+		can_rotate = 0,
+		describe = "粉紅色兔子造型的化妝台，成為毫無瑕疵的完美明星吧~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 110,
+		count = 2,
+		name = "兔兔造型桌（粉）",
+		advice = 0,
+		id = 310102,
+		icon = "huazhuangzhuohongido3icon",
+		comfortable = 3,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huazhuangzhuohongido3",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[310103] = {
+		can_rotate = 0,
+		describe = "藍色兔子造型的化妝台，檢查好妝容準備登場吧~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 110,
+		count = 1,
+		name = "兔兔造型桌（藍）",
+		advice = 0,
+		id = 310103,
+		icon = "huazhuangzhuolanido3icon",
+		comfortable = 3,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huazhuangzhuolanido3",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[310104] = {
+		can_rotate = 0,
+		describe = "好像是以Cyanidin的某位為原型設計呢！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido3/jiarenido3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 110,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "星光假人台",
+		advice = 0,
+		icon = "jiarenido3icon",
+		id = 310104,
+		comfortable = 4,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310105] = {
+		can_rotate = 0,
+		describe = "不可以拿來玩手影遊戲哦！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 110,
+		count = 2,
+		name = "彩排聚光燈",
+		advice = 0,
+		id = 310105,
+		icon = "juguangdengido3icon",
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"juguangdengido3",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[310106] = {
+		can_rotate = 0,
+		describe = "準備OK，登場吧！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido3/luodijingido3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 110,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "星光落地鏡",
+		advice = 0,
+		icon = "luodijingido3icon",
+		id = 310106,
+		comfortable = 3,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310107] = {
+		can_rotate = 0,
+		describe = "有時候也想安靜一下……不是在偷懶哦？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido3/pingfengido3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 110,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "星光屏風",
+		advice = 0,
+		icon = "pingfengido3icon",
+		id = 310107,
+		comfortable = 3,
+		size = {
+			6,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310108] = {
+		can_rotate = 0,
+		describe = "坐感舒適，可以在候場期間稍作休息。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido3/shafaido3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 110,
+		count = 1,
+		name = "後台沙發",
+		advice = 0,
+		id = 310108,
+		icon = "shafaido3icon",
+		comfortable = 3,
+		size = {
+			2,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					-27.6,
+					36.1
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310109] = {
+		can_rotate = 0,
+		describe = "登場前可別忘記拿需要的道具哦！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido3/xiangziido3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 110,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "演出道具箱",
+		advice = 0,
+		icon = "xiangziido3icon",
+		id = 310109,
+		comfortable = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310110] = {
+		can_rotate = 0,
+		describe = "演出用的鞋子都擺在這裡喔！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido3/xiejiaido3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 110,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "星光鞋架",
+		advice = 0,
+		icon = "xiejiaido3icon",
+		id = 310110,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310111] = {
+		can_rotate = 0,
+		describe = "需要多次更換演出服時就派得上用場了！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido3/yijiaido3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 110,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "堅固長衣架",
+		advice = 0,
+		icon = "yijiaido3icon",
+		id = 310111,
+		comfortable = 3,
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310112] = {
+		can_rotate = 0,
+		describe = "輕鬆調整高度，方便化妝。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido3/yizi1ido3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 110,
+		count = 2,
+		name = "兔兔造型椅1（含尾巴）",
+		advice = 0,
+		id = 310112,
+		icon = "yizi1ido3icon",
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-9.4,
+					29.6
+				},
+				{
+					-1,
+					1
+				},
+				"ido3/yizi1ido3_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310113] = {
+		can_rotate = 0,
+		describe = "輕鬆調整高度，方便化妝。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido3/yizi2ido3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 110,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "兔兔造型椅2（含尾巴）",
+		advice = 0,
+		icon = "yizi2ido3icon",
+		id = 310113,
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310114] = {
+		can_rotate = 0,
+		describe = "輕鬆調整高度，方便化妝。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido3/yizi3ido3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 110,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "兔兔造型椅3（含尾巴）",
+		advice = 0,
+		icon = "yizi3ido3icon",
+		id = 310114,
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310115] = {
+		can_rotate = 1,
+		describe = "後台重地，非請勿入哦~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 110,
+		count = 1,
+		name = "後台入口",
+		advice = 0,
+		id = 310115,
+		icon = "rukouido3icon",
+		comfortable = 4,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"rukouido3",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[310116] = {
+		can_rotate = 0,
+		describe = "方便在登場前尋找狀態的裝備，盡情展露歌喉吧~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 110,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "maikefengido3icon",
+		count = 1,
+		name = "彩排音響",
+		advice = 0,
+		id = 310116,
+		tag = 7,
+		comfortable = 4,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"maikefengido3B",
+				"normal"
+			},
+			{
+				"maikefengido3T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[310301] = {
+		can_rotate = 0,
+		describe = "只要努力，有朝一日就能把自己的海報貼滿全世界~",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido3/haibao1ido3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 110,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "演出海報1",
+		advice = 0,
+		icon = "haibao1ido3icon",
+		id = 310301,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310302] = {
+		can_rotate = 0,
+		describe = "只要努力，有朝一日就能把自己的海報貼滿全世界~",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido3/haibao2ido3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 110,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "演出海報2",
+		advice = 0,
+		icon = "haibao2ido3icon",
+		id = 310302,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310303] = {
+		can_rotate = 0,
+		describe = "只要努力，有朝一日就能把自己的海報貼滿全世界~",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido3/haibao3ido3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 110,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "演出海報3",
+		advice = 0,
+		icon = "haibao3ido3icon",
+		id = 310303,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310304] = {
+		can_rotate = 0,
+		describe = "只要努力，有朝一日就能把自己的海報貼滿全世界~",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido3/haibao4ido3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 110,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "演出海報4",
+		advice = 0,
+		icon = "haibao4ido3icon",
+		id = 310304,
+		comfortable = 1,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310305] = {
+		can_rotate = 1,
+		describe = "請認準本次演出的標誌哦！",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido3/dengpaiido3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 110,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "星光燈牌",
+		advice = 0,
+		icon = "dengpaiido3icon",
+		id = 310305,
+		comfortable = 2,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310306] = {
+		can_rotate = 0,
+		describe = "閃耀的舞台，閃耀的你！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido3/pingmuidop3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 110,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "星光牆飾1",
+		advice = 0,
+		icon = "pingmuidop3icon",
+		id = 310306,
+		comfortable = 1,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310307] = {
+		can_rotate = 0,
+		describe = "閃耀的舞台，閃耀的你！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido3/qiangshi1ido3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 110,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "星光牆飾2",
+		advice = 0,
+		icon = "qiangshi1ido3icon",
+		id = 310307,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310308] = {
+		can_rotate = 0,
+		describe = "閃耀的舞台，閃耀的你！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido3/qiangshi2ido3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 110,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "星光牆飾3",
+		advice = 0,
+		icon = "qiangshi2ido3icon",
+		id = 310308,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310309] = {
+		can_rotate = 0,
+		describe = "閃耀的舞台，閃耀的你！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ido3/qiangshi3ido3",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 110,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "星光牆飾4",
+		advice = 0,
+		icon = "qiangshi3ido3icon",
+		id = 310309,
+		comfortable = 1,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[310310] = {
+		can_rotate = 0,
+		describe = "演出用的服裝要好好掛起來，亂丟會弄皺！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		themeId = 110,
+		count = 2,
+		name = "後台掛衣架",
+		advice = 0,
+		id = 310310,
+		icon = "yijiaqiangido3icon",
+		comfortable = 3,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yijiaqiangido3",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
 		},
 		interAction_group = {}
 	},

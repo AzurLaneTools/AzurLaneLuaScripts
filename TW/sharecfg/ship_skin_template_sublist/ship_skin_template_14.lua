@@ -11863,5 +11863,120 @@ pg.base.ship_skin_template_14 = {
 				}
 			}
 		}
+	},
+	[701061] = {
+		name = "悠哉遊戲時光",
+		ship_group = 70106,
+		desc = "沒雪玩的日子有點無聊啊…算啦，好歹還有好玩的電子遊戲解解悶！指揮官，這些遊戲超好玩的，你也來陪我玩嘛！",
+		illustrator2 = -1,
+		bg_sp = "1102",
+		group_index = 1,
+		prefab = "shensu_2",
+		painting = "shensu_2",
+		hand_id = 5,
+		bgm = "",
+		shop_type_id = 20,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "109",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 701061,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 70516,
+		voice_actor = 263,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.439,
+					1.002,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.416,
+					1.01,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.394,
+					1.002,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.436,
+							2.442,
+							0
+						}
+					}
+				}
+			}
+		}
 	}
 }

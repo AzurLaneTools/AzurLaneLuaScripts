@@ -9,7 +9,7 @@ return {
 			bgm = "votefes-start",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——以上，就是「「红组」」与「青组」目前招募到的成员情况。",
+			say = "——以上，就是「紅組」與「青組」目前招募到的成員狀況。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "后续如果有成员变动，我也会第一时间来汇报。",
+			say = "後續如果有成員變動，我也會第一時間來報告。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "辛苦你了，孟菲斯。",
+			say = "辛苦妳了，曼非斯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过「青组」这边的人员构成……{namecode:91:赤城}、{namecode:97:大凤}还有{namecode:439:罗恩}……",
+			say = "不過「青組」這邊的人員組成……赤城、大鳳還有羅恩……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……算了，希望是我担心过头了。",
+			say = "……算了，希望是我擔心過頭了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "就在我忍不住叹气的时候，一道黑色的身影从门外走了进来。",
+			say = "就在我忍不住嘆氣的時候，一道黑色的身影從門外走了進來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎呀，这说不定也是一种关系变好的证明哦？",
+			say = "哎呀，這說不定也是一種關係變好的證明哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,7 +140,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "即便是为了共同的利益，想要从对手转变成合作对象也不是一件容易的事呢。",
+			say = "即便是為了共同的利益，想要從對手轉變成合作對像也不是一件容易的事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但愿是真的关系变好了吧……",
+			say = "但願是真的關係變好了吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……关于这一点，我其实有听说一些传闻。",
+			say = "嗯……關於這一點，我其實有聽說一些傳聞。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,7 +188,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "除了正常的招募方式以外，好像还出现了“威逼利诱”的情况。",
+			say = "除了正常的招募方式以外，好像還出現了「威逼利誘」的情況。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "威逼利诱？",
+			say = "威逼利誘？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "比如拿加了科技的超柔软枕头诱拐拉菲、动用女王的权威勒令大家不准加入「青组」之类的……",
+			say = "例如拿加了科技的超柔軟枕頭誘拐拉菲、動用女王的權威勒令大家不準加入「青組」之類的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没想到大家为了让指挥官满足自己的愿望可以努力到这种程度啊~",
+			say = "沒想到大家為了讓指揮官滿足自己的願望可以努力到這種程度~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这下连我也想参与看看了呢。",
+			say = "這下連我也想參與看看了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵~我开个玩笑而已，不用紧张。",
+			say = "呵呵~我開個玩笑而已，不用緊張。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "算起来，招募成员的时间也快结束了呢……",
+			say = "算起來，招募成員的時間也快結束了呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			actor = 201216,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们已经选好要去「青组」还是「红组」了吗？",
+			say = "妳們已經選好要去「青組」還是「紅組」了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			actor = 301057,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我还没有想好的说。",
+			say = "我還沒想好的說。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			actor = 401236,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "标枪呢？已经决定好了吗？",
+			say = "標槍呢？已經決定好了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			actor = 201216,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其实我也没决定好啦……所以想问问大家的意见嘛……",
+			say = "其實我也沒決定好啦……所以想問大家的意見嘛……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			actor = 101176,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「青组」的鲁莽一直来找拉菲，拉菲睡不着……",
+			say = "「青組」的魯莽一直來找拉菲，拉菲睡不著……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			actor = 201216,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸？所以拿高科技枕头诱拐你的事是真的？",
+			say = "欸？所以拿高科技枕頭誘拐妳的事是真的？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			actor = 101176,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "高科技枕头……？拉菲没见过……拉菲想要……",
+			say = "高科技枕頭……？拉菲沒見過……拉菲想要……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			actor = 101176,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过拉菲为了能好好睡一觉……已经同意她们的招募了……",
+			say = "不過拉菲為了能好好睡一覺……已經同意她們的招募了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -509,7 +509,7 @@ return {
 			actor = 301057,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好辛苦…的说，不过为了睡觉也是没办法的事的说。",
+			say = "好辛苦……的說，不過為了睡覺也是沒辦法的事的說。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			actor = 401236,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？这种时候正确的反应应该是制止对方的骚扰行为吧？！",
+			say = "嗯？這種時候正確的反應應該是制止對方的騷擾行為吧？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -562,7 +562,7 @@ return {
 			actor = 401236,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然如此的话，我要加入「红组」那边，得靠战胜「青组」给她们一点教训。",
+			say = "既然如此的話，我要加入「紅組」那邊，得靠戰勝「青組」給她們一點教訓。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -580,7 +580,7 @@ return {
 			actor = 201216,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸？可是靠加入另一组来制止对方的这个反应好像也不是很合理啊？",
+			say = "欸？可是靠加入另一組來制止對方的這個反應好像也不是很合理啊？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -598,7 +598,7 @@ return {
 			actor = 301057,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还是不要那么在意细节的说。",
+			say = "還是不要那麼在意細節的說。",
 			painting = {
 				alpha = 0.3,
 				time = 1

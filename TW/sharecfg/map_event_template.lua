@@ -20551,6 +20551,163 @@ pg.map_event_template = {
 			}
 		}
 	},
+	[903] = {
+		grid_color = "",
+		memory = 0,
+		ship_prefab = "",
+		type = 2,
+		gametip = "",
+		c_type = 0,
+		round_gametip = "",
+		preinstall = 3,
+		animation = "",
+		id = 903,
+		icon = "fazhen01",
+		address = {
+			3,
+			4
+		},
+		effect = {}
+	},
+	[904] = {
+		grid_color = "",
+		memory = 0,
+		ship_prefab = "",
+		type = 2,
+		gametip = "",
+		c_type = 0,
+		round_gametip = "",
+		preinstall = 3,
+		animation = "",
+		id = 904,
+		icon = "fazhen04",
+		address = {
+			5,
+			7
+		},
+		effect = {}
+	},
+	[905] = {
+		grid_color = "",
+		memory = 0,
+		ship_prefab = "",
+		type = 2,
+		gametip = "",
+		c_type = 0,
+		round_gametip = "",
+		preinstall = 3,
+		animation = "",
+		id = 905,
+		icon = "fazhen01",
+		address = {
+			2,
+			2
+		},
+		effect = {}
+	},
+	[906] = {
+		grid_color = "",
+		memory = 0,
+		ship_prefab = "",
+		type = 2,
+		gametip = "",
+		c_type = 0,
+		round_gametip = "",
+		preinstall = 3,
+		animation = "",
+		id = 906,
+		icon = "fazhen04",
+		address = {
+			6,
+			4
+		},
+		effect = {}
+	},
+	[907] = {
+		grid_color = "",
+		memory = 0,
+		ship_prefab = "",
+		type = 2,
+		gametip = "",
+		c_type = 0,
+		round_gametip = "",
+		preinstall = 3,
+		animation = "",
+		id = 907,
+		icon = "fazhen01",
+		address = {
+			5,
+			4
+		},
+		effect = {}
+	},
+	[908] = {
+		grid_color = "",
+		memory = 0,
+		ship_prefab = "",
+		type = 2,
+		gametip = "",
+		c_type = 0,
+		round_gametip = "",
+		preinstall = 3,
+		animation = "",
+		id = 908,
+		icon = "fazhen03",
+		address = {
+			2,
+			4
+		},
+		effect = {}
+	},
+	[909] = {
+		grid_color = "",
+		memory = 0,
+		ship_prefab = "",
+		type = 3,
+		gametip = "",
+		c_type = 0,
+		round_gametip = "",
+		preinstall = 3,
+		animation = "",
+		id = 909,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"enemy",
+				{
+					{
+						1805301,
+						{
+							5,
+							3
+						}
+					},
+					{
+						1805302,
+						{
+							3,
+							3
+						}
+					},
+					{
+						1805303,
+						{
+							5,
+							5
+						}
+					},
+					{
+						1805304,
+						{
+							3,
+							5
+						}
+					}
+				}
+			}
+		}
+	},
 	all = {
 		20,
 		21,
@@ -21413,6 +21570,13 @@ pg.map_event_template = {
 		896,
 		897,
 		898,
-		899
+		899,
+		903,
+		904,
+		905,
+		906,
+		907,
+		908,
+		909
 	}
 }

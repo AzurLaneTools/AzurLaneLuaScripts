@@ -1582,6 +1582,20 @@ pg.name_code = {
 		code = "酒匂",
 		nation = 0
 	},
+	{
+		name = "能代(μ兵裝)",
+		type = 1,
+		id = 227,
+		code = "能代(μ兵裝)",
+		nation = 0
+	},
+	{
+		name = "金剛(μ兵裝)",
+		type = 1,
+		id = 228,
+		code = "金剛(μ兵裝)",
+		nation = 0
+	},
 	[250] = {
 		name = "伊9",
 		type = 1,
@@ -2693,6 +2707,27 @@ pg.name_code = {
 		type = 1,
 		id = 531,
 		code = "腓特烈·卡爾",
+		nation = 0
+	},
+	[532] = {
+		name = "歐根親王(μ兵裝)",
+		type = 1,
+		id = 532,
+		code = "歐根親王(μ兵裝)",
+		nation = 0
+	},
+	[533] = {
+		name = "波夕(μ兵裝)",
+		type = 1,
+		id = 533,
+		code = "波夕(μ兵裝)",
+		nation = 0
+	},
+	[534] = {
+		name = "小信濃",
+		type = 1,
+		id = 534,
+		code = "小信濃",
 		nation = 0
 	},
 	[535] = {

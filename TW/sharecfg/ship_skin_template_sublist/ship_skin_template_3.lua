@@ -11426,5 +11426,106 @@ pg.base.ship_skin_template_3 = {
 				}
 			}
 		}
+	},
+	[107091] = {
+		name = "66號公路之旅",
+		ship_group = 10709,
+		desc = "不為追求終點，只是欣賞沿途風景的騎行之旅，似乎也挺有意思的。指揮官，一起來感受下公路之旅的樂趣吧。",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 1,
+		prefab = "aisaikesi_3",
+		painting = "aisaikesi_3",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 9,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "118",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 107091,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 70245,
+		voice_actor = 149,
+		spine_offset = "",
+		illustrator = 8,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.93,
+					1.151,
+					0
+				}
+			},
+			plane = {
+				{
+					0.906,
+					1.168,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.37,
+							0
+						}
+					}
+				}
+			}
+		}
 	}
 }

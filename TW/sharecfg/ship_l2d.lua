@@ -1025,7 +1025,7 @@ pg.ship_l2d = {
 		action_trigger = {
 			time = 0.5,
 			num = 1,
-			action = "touch_idle",
+			action = "touch_drag",
 			type = 1
 		}
 	},
@@ -28229,7 +28229,7 @@ pg.ship_l2d = {
 			10
 		},
 		action_trigger = {
-			action = "touch_idle13",
+			action = "touch_idle6",
 			type = 2
 		},
 		action_trigger_active = {
@@ -28967,6 +28967,49 @@ pg.ship_l2d = {
 		},
 		action_trigger = {
 			action = "touch_drag11",
+			type = 2
+		}
+	},
+	[90402122] = {
+		listener_data = "",
+		parameter = "touch_drag6",
+		gyro_y = 0,
+		action_trigger_active = "",
+		drag_direct = 0,
+		react_condition = "",
+		revert_action_index = 0,
+		draw_able_name = "TouchDrag6",
+		mode = 1,
+		react_pos_y = 0,
+		revert = 800,
+		react_pos_x = 0,
+		shop_action = 0,
+		id = 90402122,
+		offset_y = 0,
+		revert_smooth = 500,
+		limit_time = 1,
+		parts_data = "",
+		relation_parameter = "",
+		ignore_react = 1,
+		gyro = 0,
+		gyro_x = 0,
+		ignore_action = 1,
+		offset_x = 0,
+		save_parameter = 0,
+		revert_idle_index = 0,
+		gyro_z = 0,
+		smooth = 100,
+		start_value = 0,
+		range_abs = 1,
+		ship_skin_id = 904021,
+		range = {
+			0,
+			10
+		},
+		action_trigger = {
+			target_focus = 1,
+			target = 10,
+			action = "touch_drag6",
 			type = 2
 		}
 	},
@@ -31188,6 +31231,7 @@ pg.ship_l2d = {
 		90402119,
 		90402120,
 		90402121,
+		90402122,
 		90701301,
 		90701302,
 		90701303,

@@ -140,7 +140,9 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	onButton(slot0._event, findTF(slot0.menuUI, "ad/btnGameBook"), function ()
 		if isActive(uv0.bookUI) then
 			setActive(uv0.bookUI, false)
+			uv0._event:emit(BeachGuardGameView.OPEN_BOOK, false)
 		else
+			uv0._event:emit(BeachGuardGameView.OPEN_BOOK, true)
 			setActive(uv0.bookUI, true)
 		end
 	end, SFX_CANCEL)

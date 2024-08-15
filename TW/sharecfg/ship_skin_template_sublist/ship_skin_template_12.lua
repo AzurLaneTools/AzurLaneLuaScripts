@@ -1,274 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_12 = {
-	[401230] = {
-		name = "Z23",
-		ship_group = 40123,
-		desc = "1936A “納爾維克”型驅逐艦—Z23\n<color=#fad545>獲得後將解鎖建造</color>",
-		illustrator2 = -1,
-		bg_sp = "",
-		group_index = 0,
-		prefab = "z23",
-		painting = "z23",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 401230,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 3,
-		spine_offset = "",
-		illustrator = 1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.16,
-					0.59,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.16,
-					0.59,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.33,
-					0.35,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.16,
-					0.59,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.531,
-							0.89,
-							-0.27
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.53,
-							2.92,
-							-0.38
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_special",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			propose = 2.5
-		}
-	},
-	[401231] = {
-		name = "哲學講師",
-		ship_group = 40123,
-		desc = "這裡是重點！（敲黑板）不乖乖記筆記的話，Z23老師就要懲罰你了哦！",
-		illustrator2 = -1,
-		bg_sp = "",
-		group_index = 1,
-		prefab = "z23_2",
-		painting = "z23_2",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 9999,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 401231,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 3,
-		spine_offset = "",
-		illustrator = 1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.005,
-					0.804,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.005,
-					0.804,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.247,
-					0.073,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.005,
-					0.804,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.531,
-							0.89,
-							-0.27
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.53,
-							2.92,
-							-0.38
-						}
-					}
-				}
-			}
-		}
-	},
 	[401232] = {
 		name = "非正式沙灘排球賽",
 		ship_group = 40123,
@@ -7728,6 +7460,131 @@ pg.base.ship_skin_template_12 = {
 			206
 		}
 	},
+	[403036] = {
+		name = "閃耀達陣！",
+		ship_group = 40303,
+		desc = "呼……呼……四分衛歐根親王順利達陣得分。沒想到居然要由我來衝鋒……指揮官~能麻煩你幫我拿水和毛巾嗎？身上已經黏黏的了呢~",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 6,
+		prefab = "ougen_7",
+		painting = "ougen_7",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 13,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "112",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 403036,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 70996,
+		voice_actor = 21,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2,
+			6
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.47,
+					1.25,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.42,
+					1.27,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.344,
+					1.4,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.53,
+							2.38,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				126,
+				12,
+				0
+			},
+			{
+				0.34
+			}
+		}
+	},
 	[403038] = {
 		name = "命運交響曲",
 		ship_group = 40303,
@@ -10477,6 +10334,131 @@ pg.base.ship_skin_template_12 = {
 			}
 		}
 	},
+	[403112] = {
+		name = "相伴於泳池之夜",
+		ship_group = 40311,
+		desc = "裝甲巡洋艦約克，從現在起請你關照囉？至於我的裝甲嘛~當然是這身混合了輕量化理念與慾望的絕妙裝甲——呵呵呵，請別想著今天能全身而退哦♥",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 2,
+		prefab = "yueke_ger_3",
+		painting = "yueke_ger_3",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 6,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "146",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 403112,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 71002,
+		voice_actor = 313,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2,
+			6
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.708,
+					1.424,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.435,
+					1.299,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.021,
+					0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.38,
+					1.677,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.415,
+							2.269,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				-62,
+				-408,
+				0
+			},
+			{
+				0.3
+			}
+		}
+	},
 	[403120] = {
 		name = "小歐根",
 		ship_group = 40312,
@@ -10897,6 +10879,119 @@ pg.base.ship_skin_template_12 = {
 				{
 					2.32,
 					1.603,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.021,
+					0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					2.103,
+					2.005,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[403150] = {
+		name = "歐根親王(μ兵裝)",
+		ship_group = 40315,
+		desc = "我是參與這次μ艦裝實驗的重巡洋艦——歐根親王，現在是偶像歐根哦~指揮官好像對我現在的打扮感興趣嘛，嘻嘻……那就還請一如既往期待我的亮眼表現哦？",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 0,
+		prefab = "ougen_idol",
+		painting = "ougen_idol",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 403150,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 21,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.318,
+					1.469,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.215,
+					1.47,
 					0
 				}
 			},
@@ -11775,6 +11870,121 @@ pg.base.ship_skin_template_12 = {
 			}
 		}
 	},
+	[404033] = {
+		name = "街頭的清冽瞬間",
+		ship_group = 40403,
+		desc = "長官，塞德利茨向您問好！……風格煥然一新？嘿嘿，我偶爾也想嘗試下和自己完全不同的風格嘛。啊，考慮到今天的氣溫，我還準備了飲料，請喝吧！",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 3,
+		prefab = "saidelici_7",
+		painting = "saidelici_7",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 9,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "148",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 404033,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 71001,
+		voice_actor = 144,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.488,
+					0.785,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.207,
+					0.767,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.019,
+					-0.008,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.037,
+					1.166,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.837,
+							1.846,
+							-0.73
+						}
+					}
+				}
+			}
+		}
+	},
 	[404040] = {
 		name = "呂措",
 		ship_group = 40404,
@@ -12033,121 +12243,6 @@ pg.base.ship_skin_template_12 = {
 			ParamEyeBallY = {
 				-0.3,
 				0.3
-			}
-		}
-	},
-	[404042] = {
-		name = "請趁熱享用♪",
-		ship_group = 40404,
-		desc = "（嚼嚼）…嗯？嗯嗯？還挺好吃的？也是，東煌的菜餚一定很好吃~我也來塞給指揮官吃，快張嘴？啊——",
-		illustrator2 = -1,
-		bg_sp = "1101",
-		group_index = 2,
-		prefab = "lvzuofu_3",
-		painting = "lvzuofu_3",
-		hand_id = 1,
-		bgm = "",
-		shop_type_id = 3,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "165",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 404042,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 70812,
-		voice_actor = 311,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.503,
-					1.608,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.488,
-					1.354,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.2,
-					0.06,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.345,
-					1.452,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.647,
-							2.358,
-							-0.73
-						}
-					}
-				}
 			}
 		}
 	}

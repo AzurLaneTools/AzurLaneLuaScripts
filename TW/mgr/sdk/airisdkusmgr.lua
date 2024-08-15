@@ -204,7 +204,7 @@ BindYostarPassResult = function(slot0, slot1)
 			return uv0
 		end
 	}) then
-		pg.TipsMgr.GetInstance():ShowTips("Bind Success.")
+		pg.TipsMgr.GetInstance():ShowTips(i18n("new_airi_error_code_0"))
 	end
 end
 

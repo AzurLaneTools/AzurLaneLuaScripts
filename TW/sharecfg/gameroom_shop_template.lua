@@ -12,7 +12,7 @@ pg.gameroom_shop_template = {
 		goods_type = 1,
 		id = 1,
 		drop_type = 7,
-		order = 100,
+		order = 3,
 		goods = {
 			201221
 		},
@@ -55,7 +55,7 @@ pg.gameroom_shop_template = {
 		goods_type = 1,
 		id = 2,
 		drop_type = 7,
-		order = 100,
+		order = 4,
 		goods = {
 			302081
 		},
@@ -98,7 +98,7 @@ pg.gameroom_shop_template = {
 		goods_type = 1,
 		id = 3,
 		drop_type = 2,
-		order = 1000,
+		order = 111,
 		goods = {
 			30302
 		},
@@ -141,7 +141,7 @@ pg.gameroom_shop_template = {
 		goods_type = 1,
 		id = 4,
 		drop_type = 2,
-		order = 1000,
+		order = 112,
 		goods = {
 			30304
 		},
@@ -184,7 +184,7 @@ pg.gameroom_shop_template = {
 		goods_type = 1,
 		id = 5,
 		drop_type = 2,
-		order = 1000,
+		order = 113,
 		goods = {
 			30305
 		},
@@ -227,7 +227,7 @@ pg.gameroom_shop_template = {
 		goods_type = 1,
 		id = 6,
 		drop_type = 2,
-		order = 1000,
+		order = 114,
 		goods = {
 			30307
 		},
@@ -270,7 +270,7 @@ pg.gameroom_shop_template = {
 		goods_type = 1,
 		id = 7,
 		drop_type = 2,
-		order = 1000,
+		order = 115,
 		goods = {
 			30310
 		},
@@ -313,7 +313,7 @@ pg.gameroom_shop_template = {
 		goods_type = 1,
 		id = 8,
 		drop_type = 2,
-		order = 1000,
+		order = 116,
 		goods = {
 			30311
 		},
@@ -356,7 +356,7 @@ pg.gameroom_shop_template = {
 		goods_type = 1,
 		id = 9,
 		drop_type = 2,
-		order = 1000,
+		order = 117,
 		goods = {
 			30314
 		},
@@ -399,7 +399,7 @@ pg.gameroom_shop_template = {
 		goods_type = 1,
 		id = 10,
 		drop_type = 2,
-		order = 1000,
+		order = 118,
 		goods = {
 			30315
 		},
@@ -442,7 +442,7 @@ pg.gameroom_shop_template = {
 		goods_type = 1,
 		id = 11,
 		drop_type = 2,
-		order = 1000,
+		order = 119,
 		goods = {
 			30317
 		},
@@ -485,7 +485,7 @@ pg.gameroom_shop_template = {
 		goods_type = 1,
 		id = 12,
 		drop_type = 2,
-		order = 1000,
+		order = 120,
 		goods = {
 			30318
 		},

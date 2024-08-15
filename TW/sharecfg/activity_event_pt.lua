@@ -29194,8 +29194,8 @@ pg.activity_event_pt = {
 		buff_time = {
 			{
 				2024,
-				5,
-				9
+				8,
+				29
 			},
 			{
 				23,

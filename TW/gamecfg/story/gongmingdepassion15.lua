@@ -12,7 +12,7 @@ return {
 			actor = 207140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（这歌声里的情感……可畏有好好表现出来吗？）",
+			say = "（這歌聲裡的情感……可畏有好好表現出來嗎？）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -47,7 +47,7 @@ return {
 			actor = 302240,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（这里的节奏也不能错，只要按照计划来，一切都没问题。）",
+			say = "（這裡的節奏也不能錯，只要按照計畫來，一切都沒問題。）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			actor = 403150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（我可是有着不能输给她们的理由呢~嗯……接下来再认真一点也无妨~）",
+			say = "（我可是有著不能輸給她們的理由呢~嗯……接下來再認真一點也無妨~）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			actor = 801090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（哈哈！我们这边也是不会输的哦！）",
+			say = "（哈哈！我們這邊也是不會輸的哦！）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -101,7 +101,7 @@ return {
 			actor = 102320,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（呼~哈~……这就是站在舞台上的感觉……）",
+			say = "（呼~哈~……這就是站在舞台上的感覺……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			actor = 304080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（没错……就是这样，要用最优雅的姿态呈现属于我们的偶像魅力呢！）",
+			say = "（沒錯……就是這樣，要用最優雅的姿態呈現屬於我們的偶像魅力呢！）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇哇哇哇、这下又出现了不得了的情况了喵！",
+			say = "哇哇哇哇、這下又出現了不得了的情況了喵！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "两边的比分……还有「μ兵装」的数据……？！计分器要坏掉了喵！",
+			say = "兩邊的比數……還有「μ兵裝」的數據……？！計分器要壞掉了喵！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			actor = 207140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只要解放出可畏全部的感情，把它们融入在可畏的歌声里就行了！",
+			say = "只要解放出可畏全部的感情，把它們融入可畏的歌聲裡就行了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			actor = 207140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "礼仪什么的……都不如可畏现在的Live重要！",
+			say = "禮儀什麼的…都不如可畏現在的Live重要！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			actor = 207140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（指挥官……这就是最原原本本的可畏……可畏要用这种方式，向你倾诉我的一切……！）",
+			say = "（指揮官……這就是最原原本本的可畏……可畏要用這種方式，像你傾訴我的一切……！）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			actor = 403150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵……没错，就这样目不转睛地看着我吧……",
+			say = "呵呵……沒錯，就這樣目不轉睛地看著我吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			actor = 403150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这Live上的舞蹈也好、歌声也好……都是为了你而展现的哦？",
+			say = "這Live上的舞蹈也好、歌聲也好……都是為了你而展現的哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			actor = 302240,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "必须要再努力一些……再多传递一些……",
+			say = "必須要再努力一些……再多傳遞一些……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			actor = 302240,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这份感情、这份心意……一定能随着我的歌声，传达到的吧！",
+			say = "這份感情、這份心意……一定能隨著我的歌聲，傳達到的吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -308,7 +308,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎、怎么回事喵！「Alizarin」这边的状态突然提升到了夸张的程度喵！",
+			say = "怎、怎麼回事喵！「Alizarin」這邊的狀態突然提升到了誇張的程度喵！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			actor = 102320,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:197:博伊西}……认真练习了很久……所以，不会再怕了！",
+			say = "波夕……認真練習了很久……所以，不會再害怕了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			actor = 102320,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "必、必须献上最完美的演出……！",
+			say = "必、必須獻上最完美的演出……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			actor = 801090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿~这场盛大的Live，指挥官有在好好看着吗？",
+			say = "嘿嘿~這場盛大的Live，指揮官有在好好看著嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,7 +390,7 @@ return {
 			actor = 801090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "鲁莽会拼尽全力，带来最最完美和最最梦幻的Live哦~！",
+			say = "魯莽會拼盡全力，帶來最完美、最夢幻的Live喔~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -408,7 +408,7 @@ return {
 			actor = 304080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "成为偶像的理由……事到如今已经没有必要再用玩笑掩饰了呢。",
+			say = "成為偶像的理由……事到如今已經沒有必要再用玩笑掩飾了呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			actor = 304080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错……就是为了让指挥官记住我在舞台上，最优雅迷人的姿态！",
+			say = "沒錯……就是為了讓指揮官記得我在舞台上，最優雅迷人的姿態！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸、欸欸？！就连「 Cyanidin」这边也？！",
+			say = "欸、欸欸？！就連「 Cyanidin」這邊也？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不不不不好了喵！这样下去的话不光是计分器，就连舞台也要炸掉了喵——！",
+			say = "不不不不好了喵！這樣下去的話不光是計分器，連舞台也要炸掉了喵——！",
 			painting = {
 				alpha = 0.3,
 				time = 1
