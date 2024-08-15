@@ -717,7 +717,7 @@ return {
 			factiontag = "Pineapple-Loving Gunslinger",
 			dir = 1,
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "We still are, yep!",
 			typewriter = {

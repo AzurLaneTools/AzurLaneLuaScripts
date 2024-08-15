@@ -47095,7 +47095,7 @@ _G.pg.base.ship_data_statistics[103281] = {
 	attack_duration = 0,
 	oxy_recovery_surface = 0,
 	oxy_recovery_bench = 0,
-	armor_type = 1,
+	armor_type = 2,
 	attrs = {
 		867,
 		47,
@@ -47222,7 +47222,7 @@ _G.pg.base.ship_data_statistics[103282] = {
 	attack_duration = 0,
 	oxy_recovery_surface = 0,
 	oxy_recovery_bench = 0,
-	armor_type = 1,
+	armor_type = 2,
 	attrs = {
 		1078,
 		59,
@@ -47349,7 +47349,7 @@ _G.pg.base.ship_data_statistics[103283] = {
 	attack_duration = 0,
 	oxy_recovery_surface = 0,
 	oxy_recovery_bench = 0,
-	armor_type = 1,
+	armor_type = 2,
 	attrs = {
 		1501,
 		82,
@@ -47476,7 +47476,7 @@ _G.pg.base.ship_data_statistics[103284] = {
 	attack_duration = 0,
 	oxy_recovery_surface = 0,
 	oxy_recovery_bench = 0,
-	armor_type = 1,
+	armor_type = 2,
 	attrs = {
 		2136,
 		117,

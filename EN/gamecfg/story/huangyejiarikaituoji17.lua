@@ -40,7 +40,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "Wait a second. Why are you acting like you're part of the team now?",
 			typewriter = {
@@ -374,7 +374,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "Weird. It's not like it's hard to find the mine, so why haven't we bothered trying yet?",
 			typewriter = {
@@ -405,7 +405,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "Yeah! How'd I forget something so important?",
 			typewriter = {
@@ -545,7 +545,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "Calm down, Herring! The Commander knows there's no curse. That's how we got this far, right?",
 			typewriter = {
@@ -576,7 +576,7 @@ return {
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "Yeah! The Commander's words fill me with determination!",
 			typewriter = {
@@ -593,7 +593,7 @@ return {
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "Huh? You're getting cold feet NOW?",
 			typewriter = {
@@ -610,7 +610,7 @@ return {
 			optionFlag = 3,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "Commander? Are you serious right now?!",
 			typewriter = {

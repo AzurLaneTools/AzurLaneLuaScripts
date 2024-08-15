@@ -43,7 +43,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "*pant*... *pant*... So does that mean...",
 			typewriter = {
@@ -59,7 +59,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "The sandstorms, the curse, and our memory loss... Akashi was behind it all?!",
 			typewriter = {
@@ -90,7 +90,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "If we ran out of money, we'd have no choice but to stay here and live in this town!",
 			typewriter = {
@@ -718,7 +718,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "What will you do now, Commander?",
 			typewriter = {
@@ -749,7 +749,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "You as the mayor, huh... Now that would make this town legendary!",
 			typewriter = {
@@ -778,7 +778,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "Commander?",
 			typewriter = {
@@ -1019,7 +1019,7 @@ return {
 						"Script Director",
 						"Bristol",
 						"Script Support",
-						"大黄蜂",
+						"Hornet",
 						"Studio Coordination",
 						"Lexington",
 						"Financial Consulting",

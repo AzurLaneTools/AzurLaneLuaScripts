@@ -349,7 +349,7 @@ return {
 			factiontag = "Pineapple-Loving Gunslinger",
 			dir = 1,
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "Now settle down a moment, stranger. First, let's empty that cylinder...",
 			typewriter = {
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "Hm? That's... the mark of the Van der Light Gang!",
 			typewriter = {
@@ -396,7 +396,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "There's no doubt about it. The mark on the gun proves it.",
 			typewriter = {
@@ -412,7 +412,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "But the rumors say only the founder of the gang, the Commander, has a gun with that mark...",
 			typewriter = {
@@ -513,7 +513,7 @@ return {
 			optionFlag = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "That's right! This is definitely the real deal!",
 			typewriter = {
@@ -561,7 +561,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "Hmm... What brings you around to these parts anyway, Commander?",
 			typewriter = {
@@ -619,7 +619,7 @@ return {
 			factiontag = "Pineapple-Loving Gunslinger",
 			dir = 1,
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "Heheh, yep! What's more important is... Commander, how's about you join us?",
 			typewriter = {
@@ -648,7 +648,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "Ahaha! Don't worry about that! We're not inviting you to a gang!",
 			typewriter = {
@@ -739,7 +739,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "Oh, no... Another sandstorm.",
 			typewriter = {
@@ -755,7 +755,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "They've been so common lately... Forget it. Commander, can that horse still run?",
 			typewriter = {

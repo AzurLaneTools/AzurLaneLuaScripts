@@ -34942,7 +34942,7 @@ _G.pg.base.gametip["0815_main_help"] = {
 The Wild West Vacation Log event is available between <color=#92fc63>August 15th and August 28th</color>.
 
 · Collect ingots during the event to upgrade buildings and raise your prosperity level to receive various rewards and story snippets!
-· You can also complete event missions to receive limited rewards, including a <color=#92fc63>portrait frame</color>, a <color=#92fc63>chat frame</color>, and <color=#92fc63>furniture</color> for your dorm!
+· You can also complete event missions to receive limited rewards, including a <color=#92fc63>portrait frame</color>, a <color=#92fc63>chat frame</color>, and <color=#92fc63>furniture</color> for your dorm! In addition, starting from the 8th day of the event, new Oil-spending missions will be added and completing them will grant you ingots as well.
 · You will receive 1 minigame point every day upon logging in until August 21st. Complete the event minigame while in possession of minigame points to earn rewards!]]
 		}
 	}

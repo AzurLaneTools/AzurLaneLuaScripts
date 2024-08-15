@@ -81,7 +81,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "Hey there! Took you long enough, Commander. We've been waiting for ages.",
 			typewriter = {
@@ -97,7 +97,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "C'mon, get over here!",
 			typewriter = {
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "We already got dibs on the Commander! Isn't that right?!",
 			typewriter = {
@@ -341,7 +341,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "Yeah. That nun drinking tea over there would be a good fit.",
 			typewriter = {
@@ -559,7 +559,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "That's cool and all, but we don't even know where to begin.",
 			typewriter = {
@@ -575,7 +575,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "Can't exactly stray too far from town, either, given how often the sandstorms are these days.",
 			typewriter = {
@@ -591,7 +591,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "Only the pizza from this tavern can make me feel better... Mm! Yeah, every pizza needs pineapples on top!",
 			typewriter = {
@@ -631,7 +631,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "Huh? Why? If you say so, Commander... *munch*... I'll be more careful!",
 			typewriter = {
@@ -647,7 +647,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "Anyway, I'm running short on cash. Fast.",
 			typewriter = {
@@ -774,7 +774,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
-			actorName = "大黄蜂",
+			actorName = "Hornet",
 			hidePaintObj = true,
 			say = "How should I know? It's been like this since we got here, at least!",
 			typewriter = {

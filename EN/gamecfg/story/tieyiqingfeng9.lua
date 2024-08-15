@@ -352,11 +352,12 @@ return {
 			}
 		},
 		{
-			actor = 900070,
-			side = 2,
+			actor = 900072,
+			nameColor = "#FFC960",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			nameColor = "#FFC960",
+			side = 2,
+			actorName = "Enterprise·META",
 			say = "Come to have a chat, huh?",
 			typewriter = {
 				speed = 0.05,
@@ -378,11 +379,12 @@ return {
 			}
 		},
 		{
-			actor = 900070,
-			side = 2,
+			actor = 900072,
+			nameColor = "#FFC960",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			nameColor = "#FFC960",
+			side = 2,
+			actorName = "企业·META",
 			say = "Hmph. Okay.",
 			typewriter = {
 				speed = 0.05,
@@ -390,11 +392,12 @@ return {
 			}
 		},
 		{
-			actor = 900070,
-			side = 2,
+			actor = 900072,
+			nameColor = "#FFC960",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			nameColor = "#FFC960",
+			side = 2,
+			actorName = "企业·META",
 			say = "Leave. It's time to wake up.",
 			typewriter = {
 				speed = 0.05,
