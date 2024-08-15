@@ -53,6 +53,7 @@ slot0.OnSelShips = function(slot0, slot1, slot2)
 		viewComponent = DockyardScene,
 		mediator = DockyardMediator,
 		data = {
+			selectedMin = 0,
 			callbackQuit = true,
 			selectedMax = slot0.activity:GetUnlockSlotCnt(),
 			quitTeam = slot2 ~= nil,
@@ -77,70 +78,36 @@ slot0.OnSelShips = function(slot0, slot1, slot2)
 end
 
 slot0.OnSelected = function(slot0, slot1, slot2, slot3)
-	slot5 = slot0.activity
-	slot4 = Clone(slot5:GetShipIds())
-	slot7 = slot0.activity
-
-	_.each(_.range(slot7:GetUnlockSlotCnt()), function (slot0)
-		uv0[slot0] = uv0[slot0] or 0
-	end)
+	slot4 = Clone(slot0.activity:GetShipIds())
+	slot5 = {}
+	slot6 = {}
 
 	if slot2 == nil or #slot2 == 0 then
-		if slot4[slot1] > 0 then
-			slot0:ChangeShips({
-				{
+		for slot10, slot11 in ipairs(slot4) do
+			if slot11 > 0 then
+				table.insert(slot6, {
 					value = 0,
-					key = slot1
-				}
-			})
-		end
-
-		existCall(slot3)
-
-		return
-	end
-
-	table.Foreach(slot4, function (slot0, slot1)
-		if slot1 == 0 or table.contains(uv0, slot1) then
-			return
-		end
-
-		uv1[slot0] = 0
-	end)
-
-	if #_.filter(slot2, function (slot0)
-		return not table.contains(uv0, slot0)
-	end) == 1 and slot4[slot1] == 0 then
-		slot4[slot1] = slot5[1]
-	else
-		slot6 = 0
-
-		_.each(slot5, function (slot0)
-			while uv0 <= #uv1 do
-				uv0 = uv0 + 1
-
-				if uv1[uv0] == 0 then
-					break
-				end
+					key = slot10
+				})
 			end
-
-			uv1[uv0] = slot0
-		end)
+		end
+	else
+		for slot10, slot11 in ipairs(slot4) do
+			if not slot2[slot10] then
+				table.insert(slot6, {
+					value = 0,
+					key = slot10
+				})
+			elseif slot12 ~= slot11 then
+				table.insert(slot6, {
+					key = slot10,
+					value = slot12
+				})
+			end
+		end
 	end
 
-	slot7 = slot0.activity
-	slot7 = slot7:GetShipIds()
-
-	table.Foreach(slot4, function (slot0, slot1)
-		if (uv0[slot0] or 0) ~= slot1 then
-			table.insert(uv1, {
-				key = slot0,
-				value = slot1
-			})
-		end
-	end)
-
-	if #{} > 0 then
+	if #slot6 > 0 then
 		slot0:ChangeShips(slot6)
 	end
 

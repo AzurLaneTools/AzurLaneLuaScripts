@@ -99,7 +99,7 @@ return {
 			}
 		},
 		{
-			actorName = "托里拆利",
+			actor = 608010,
 			side = 2,
 			bgName = "bg_renaya",
 			hidePaintObj = true,
@@ -347,7 +347,7 @@ return {
 			}
 		},
 		{
-			actorName = "托里拆利",
+			actor = 608010,
 			side = 2,
 			bgName = "bg_firedust_5",
 			hidePaintObj = true,

@@ -77,7 +77,10 @@ pg.activity_banner = {
 		id = 3,
 		pic = "temp8",
 		param = {
-			"shipblueprint"
+			"shipblueprint",
+			{
+				shipGroupId = 19903
+			}
 		},
 		time = {
 			{

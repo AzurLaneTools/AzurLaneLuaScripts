@@ -138,7 +138,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
-			say = "少女慌乱的尖叫声突然{namecode:12:响}起，打断了我的思考。",
+			say = "少女慌乱的尖叫声突然响起，打断了我的思考。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
-			say = "熟悉的声音在身后{namecode:12:响}起。",
+			say = "熟悉的声音在身后响起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -759,7 +759,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
-			say = "就在闲聊的时候，马蹄声{namecode:12:响}了起来。",
+			say = "就在闲聊的时候，马蹄声响了起来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

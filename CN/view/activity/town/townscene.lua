@@ -184,7 +184,7 @@ end
 
 slot0.UpdateBubbles = function(slot0)
 	for slot4, slot5 in ipairs(slot0.shipIds) do
-		if slot5 > 0 then
+		if slot5 > 0 and getProxy(BayProxy):RawGetShipById(slot5) then
 			setActive(slot0:findTF(slot4 .. "/bubble", slot0.slotTFs), slot0.activity:GetBubbleCntByPos(slot4) > 0)
 
 			if slot6 > 0 then

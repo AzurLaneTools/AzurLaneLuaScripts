@@ -147,7 +147,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_544",
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			dir = 1,
 			portrait = 900315,
 			actorName = "海伦娜·META",
@@ -296,7 +296,7 @@ return {
 			actor = 9705050,
 			side = 2,
 			bgName = "bg_port_chongdong",
-			nameColor = "#A9F548FF",
+			nameColor = "#C3ABFF",
 			dir = 1,
 			say = "时间已到，迎接属于你的「终结」吧——",
 			typewriter = {

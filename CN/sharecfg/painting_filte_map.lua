@@ -1005,6 +1005,8 @@ pg.painting_filte_map = {
 			"painting/ankeleiqi_n",
 			"painting/ankeleiqi_jz2_tex",
 			"painting/ankeleiqi_jz1_tex",
+			"painting/ankeleiqi_hx_tex",
+			"painting/ankeleiqi_hx",
 			"painting/ankeleiqi"
 		}
 	},
@@ -1036,8 +1038,6 @@ pg.painting_filte_map = {
 	ankeleiqi_h = {
 		key = "ankeleiqi_h",
 		res_list = {
-			"painting/ankeleiqi_hx_tex",
-			"painting/ankeleiqi_hx",
 			"painting/ankeleiqi_h_tex",
 			"painting/ankeleiqi_h_rw_tex",
 			"painting/ankeleiqi_h_bj_tex",

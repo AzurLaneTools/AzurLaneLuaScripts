@@ -1448,7 +1448,7 @@ pg.player_resource = {
 	[428] = {
 		id = 428,
 		name = "skinTicket77",
-		itemid = 59578
+		itemid = 65013
 	},
 	[950] = {
 		id = 950,

@@ -164,39 +164,48 @@ slot0.checkAwardOverFlow = function(slot0, slot1, slot2)
 			end
 
 			if not slot17 then
-				table.insert(slot4, slot16)
+				table.insert(slot4, {
+					slot16[1],
+					slot16[2],
+					slot16[3]
+				})
 			end
 		end
 	end
 
-	slot6 = getProxy(PlayerProxy):getRawData()
-	slot9, slot10 = Task.StaticJudgeOverflow(slot6.gold, slot6.oil, LOCK_UR_SHIP and 0 or getProxy(BagProxy):GetLimitCntById(pg.gameset.urpt_chapter_max.description[1]), true, true, slot4)
+	slot5 = 0
 
-	if slot9 then
+	for slot9, slot10 in ipairs(slot4) do
+		if slot10[2] == uv0 then
+			slot5 = slot10[3]
+		end
+	end
+
+	slot6, slot7 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TOWN):IsOverGold(slot5)
+	slot8 = nil
+
+	if slot6 then
+		slot8 = {
+			id = uv0,
+			type = DROP_TYPE_VITEM,
+			count = "<color=#FF5C5CFF>" .. math.abs(slot7) .. "</color>"
+		}
+	end
+
+	slot10 = getProxy(PlayerProxy):getRawData()
+	slot13, slot14 = Task.StaticJudgeOverflow(slot10.gold, slot10.oil, LOCK_UR_SHIP and 0 or getProxy(BagProxy):GetLimitCntById(pg.gameset.urpt_chapter_max.description[1]), true, true, slot4)
+	slot14 = slot14 or {}
+
+	if slot8 then
+		table.insert(slot14, slot8)
+	end
+
+	if slot13 or slot6 then
 		table.insert(slot3, function (slot0)
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_ITEM_BOX,
 				content = i18n("award_max_warning"),
 				items = uv0,
-				onYes = slot0
-			})
-		end)
-	end
-
-	slot11 = 0
-
-	for slot15, slot16 in ipairs(slot4) do
-		if slot16[2] == uv0 then
-			slot11 = slot16[3]
-		end
-	end
-
-	slot12, slot13 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TOWN):IsOverGold(slot11)
-
-	if slot12 then
-		table.insert(slot3, function (slot0)
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("town_gold_tip"),
 				onYes = slot0
 			})
 		end)
