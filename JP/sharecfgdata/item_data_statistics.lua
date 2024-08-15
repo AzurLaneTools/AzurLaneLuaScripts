@@ -24434,6 +24434,131 @@ _G.pg.base.item_data_statistics[30358] = {
 }
 
 
+_G.pg.base.item_data_statistics[30359] = {
+	open_directly = 1,
+	name = "装備外装箱（ウェスタン昔話）",
+	type = 11,
+	display = "ランダムの装備外装を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxxibu",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30359",
+	id = 30359,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4021,
+			1
+		},
+		{
+			9,
+			4022,
+			1
+		},
+		{
+			9,
+			4023,
+			1
+		},
+		{
+			9,
+			4024,
+			1
+		},
+		{
+			9,
+			4025,
+			1
+		},
+		{
+			9,
+			4026,
+			1
+		},
+		{
+			9,
+			4027,
+			1
+		},
+		{
+			9,
+			4028,
+			1
+		},
+		{
+			9,
+			4029,
+			1
+		},
+		{
+			9,
+			4030,
+			1
+		},
+		{
+			9,
+			4031,
+			1
+		},
+		{
+			9,
+			4032,
+			1
+		},
+		{
+			9,
+			4033,
+			1
+		},
+		{
+			9,
+			4034,
+			1
+		},
+		{
+			9,
+			4035,
+			1
+		},
+		{
+			9,
+			4036,
+			1
+		},
+		{
+			9,
+			4037,
+			1
+		},
+		{
+			9,
+			4038,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "ランダム装備外装",
@@ -34671,6 +34796,219 @@ _G.pg.base.item_data_statistics[30543] = {
 		{
 			9,
 			537,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_data_statistics[30544] = {
+	open_directly = 0,
+	name = "選択装備外装箱（ウェスタン昔話）",
+	type = 13,
+	display = "使用すると、装備外装（ウェスタン昔話）から任意の装備外装を1個選択して入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxxibuzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30544,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4021,
+			1
+		},
+		{
+			9,
+			4022,
+			1
+		},
+		{
+			9,
+			4023,
+			1
+		},
+		{
+			9,
+			4024,
+			1
+		},
+		{
+			9,
+			4025,
+			1
+		},
+		{
+			9,
+			4026,
+			1
+		},
+		{
+			9,
+			4027,
+			1
+		},
+		{
+			9,
+			4028,
+			1
+		},
+		{
+			9,
+			4029,
+			1
+		},
+		{
+			9,
+			4030,
+			1
+		},
+		{
+			9,
+			4031,
+			1
+		},
+		{
+			9,
+			4032,
+			1
+		},
+		{
+			9,
+			4033,
+			1
+		},
+		{
+			9,
+			4034,
+			1
+		},
+		{
+			9,
+			4035,
+			1
+		},
+		{
+			9,
+			4036,
+			1
+		},
+		{
+			9,
+			4037,
+			1
+		},
+		{
+			9,
+			4038,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4021,
+			1
+		},
+		{
+			9,
+			4022,
+			1
+		},
+		{
+			9,
+			4023,
+			1
+		},
+		{
+			9,
+			4024,
+			1
+		},
+		{
+			9,
+			4025,
+			1
+		},
+		{
+			9,
+			4026,
+			1
+		},
+		{
+			9,
+			4027,
+			1
+		},
+		{
+			9,
+			4028,
+			1
+		},
+		{
+			9,
+			4029,
+			1
+		},
+		{
+			9,
+			4030,
+			1
+		},
+		{
+			9,
+			4031,
+			1
+		},
+		{
+			9,
+			4032,
+			1
+		},
+		{
+			9,
+			4033,
+			1
+		},
+		{
+			9,
+			4034,
+			1
+		},
+		{
+			9,
+			4035,
+			1
+		},
+		{
+			9,
+			4036,
+			1
+		},
+		{
+			9,
+			4037,
+			1
+		},
+		{
+			9,
+			4038,
 			1
 		}
 	}
@@ -93252,6 +93590,39 @@ _G.pg.base.item_data_statistics[59852] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[59853] = {
+	open_directly = 0,
+	name = "電気出力増幅装置",
+	type = 7,
+	display = "「電気……出力……増幅……中……」ーーエルドリッジの改造（近代化改修）に使う改造素材",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/electboostdevice",
+	order = 0,
+	rarity = 4,
+	max_num = 1,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 59853,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {
+		101994
+	},
 	combination_display = {}
 }
 

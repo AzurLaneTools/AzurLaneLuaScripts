@@ -42,11 +42,18 @@ pg.activity_banner_notice = {
 			"seltechnology"
 		}
 	},
+	{
+		id = 6,
+		param = {
+			"COWBOY_TOWN_BACKHILL"
+		}
+	},
 	all = {
 		1,
 		2,
 		3,
 		4,
-		5
+		5,
+		6
 	}
 }

@@ -5002,6 +5002,62 @@ _G.pg.base.equip_data_statistics[491] = {
 }
 
 
+_G.pg.base.equip_data_statistics[492] = {
+	name = "埃尔德里奇改造 自带刺猬弹（强化）",
+	speciality = "<[ASW]>",
+	type = 14,
+	tech = 0,
+	value_2 = 45,
+	icon = "1",
+	attribute_2 = "antisub",
+	descrip = "说明未填写",
+	rarity = 5,
+	damage = "186 ~ 372",
+	nationality = 1,
+	ammo = 9,
+	value_3 = 0,
+	id = 492,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			7,
+			9008
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		468
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"DC"
+	}
+}
+
+
 _G.pg.base.equip_data_statistics[500] = {
 	name = "ビーバーズエムブレム",
 	tech = 0,
@@ -135744,6 +135800,61 @@ _G.pg.base.equip_data_statistics[80332] = {
 }
 
 
+_G.pg.base.equip_data_statistics[80341] = {
+	name = "专属弹幕-法戈I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能弹幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 80341,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170581
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80342] = {
+	name = "专属弹幕-法戈II",
+	base = 80341,
+	id = 80342,
+	weapon_id = {
+		170582
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[85000] = {
 	name = "B-13 130mm連装砲B-2LM",
 	speciality = "<[LOCK]>",
@@ -163469,6 +163580,183 @@ _G.pg.base.equip_data_statistics[150351] = {
 	id = 150351,
 	value_1 = "530",
 	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150360] = {
+	name = "輸送用高速ドローン",
+	tech = 0,
+	type = 10,
+	speciality = "<[NA]>",
+	id = 150360,
+	value_2 = 8,
+	icon = "150360",
+	value_1 = "15",
+	attribute_2 = "antiaircraft",
+	rarity = 5,
+	nationality = 1,
+	descrip = "量産型の輸送用高速ドローン。高い航続力と信頼度を誇る",
+	ammo = 10,
+	value_3 = 0,
+	attribute_1 = "cannon",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60660
+	},
+	hidden_skill_id = {
+		201017
+	},
+	part_main = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		10,
+		11,
+		12,
+		13,
+		18,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		7,
+		10,
+		11,
+		12,
+		13,
+		18,
+		19,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[150361] = {
+	id = 150361,
+	value_1 = "16",
+	base = 150360
+}
+
+
+_G.pg.base.equip_data_statistics[150362] = {
+	id = 150362,
+	value_2 = 9,
+	value_1 = "17",
+	base = 150360
+}
+
+
+_G.pg.base.equip_data_statistics[150363] = {
+	id = 150363,
+	value_2 = 10,
+	value_1 = "18",
+	base = 150360
+}
+
+
+_G.pg.base.equip_data_statistics[150364] = {
+	id = 150364,
+	value_2 = 11,
+	value_1 = "19",
+	base = 150360
+}
+
+
+_G.pg.base.equip_data_statistics[150365] = {
+	id = 150365,
+	value_2 = 12,
+	value_1 = "20",
+	base = 150360
+}
+
+
+_G.pg.base.equip_data_statistics[150366] = {
+	id = 150366,
+	value_2 = 13,
+	value_1 = "21",
+	base = 150360
+}
+
+
+_G.pg.base.equip_data_statistics[150367] = {
+	id = 150367,
+	value_2 = 14,
+	value_1 = "22",
+	base = 150360
+}
+
+
+_G.pg.base.equip_data_statistics[150368] = {
+	id = 150368,
+	value_2 = 16,
+	value_1 = "23",
+	base = 150360
+}
+
+
+_G.pg.base.equip_data_statistics[150369] = {
+	id = 150369,
+	value_2 = 18,
+	value_1 = "24",
+	base = 150360
+}
+
+
+_G.pg.base.equip_data_statistics[150370] = {
+	id = 150370,
+	value_2 = 20,
+	value_1 = "25",
+	base = 150360
+}
+
+
+_G.pg.base.equip_data_statistics[150371] = {
+	id = 150371,
+	anti_siren = 100,
+	base = 150360,
+	value_2 = 22,
+	value_1 = "26"
+}
+
+
+_G.pg.base.equip_data_statistics[150372] = {
+	id = 150372,
+	anti_siren = 200,
+	base = 150360,
+	value_2 = 24,
+	value_1 = "27"
+}
+
+
+_G.pg.base.equip_data_statistics[150373] = {
+	id = 150373,
+	anti_siren = 300,
+	base = 150360,
+	value_2 = 26,
+	value_1 = "28"
 }
 
 

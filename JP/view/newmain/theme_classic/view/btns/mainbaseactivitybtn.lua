@@ -1,11 +1,12 @@
 slot0 = class("MainBaseActivityBtn")
 
-slot0.Ctor = function(slot0, slot1, slot2, slot3)
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.tpl = slot1
 
 	pg.DelegateInfo.New(slot0)
 
 	slot0.event = slot2
+	slot0.hideSubImg = slot4
 
 	if slot3 then
 		slot0._tf = slot0.tpl
@@ -115,6 +116,12 @@ slot0.InitImage = function(slot0, slot1)
 end
 
 slot0.InitSubImage = function(slot0)
+	if slot0.hideSubImg then
+		setActive(slot0.subImage.gameObject, false)
+
+		return
+	end
+
 	setActive(slot0.subImage.gameObject, slot0.config.text_pic ~= nil and slot1 ~= "")
 
 	if not slot1 or slot1 == slot0.subImgName then

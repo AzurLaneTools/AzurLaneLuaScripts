@@ -821,13 +821,73 @@ pg.mini_game = {
 		type = 2,
 		mediator_name = "MiniHubMediator",
 		config_csv_key = "",
-		simple_config_data = "",
 		config_data = "",
 		name = "啾啾牛仔",
 		config_csv = "",
 		id = 28,
-		hub_id = 21,
-		request_data = 0
+		hub_id = 56,
+		request_data = 1,
+		simple_config_data = {
+			stroy_act = 5523,
+			drop = {
+				{
+					2,
+					54006,
+					1
+				},
+				{
+					2,
+					50004,
+					5
+				},
+				{
+					1,
+					2,
+					300
+				},
+				{
+					2,
+					54034,
+					2
+				},
+				{
+					2,
+					20013,
+					1
+				},
+				{
+					2,
+					54051,
+					1
+				},
+				{
+					2,
+					30359,
+					2
+				}
+			},
+			story = {
+				{
+					"HUANGYEJIARIKAITUOJI13"
+				},
+				{
+					"HUANGYEJIARIKAITUOJI14"
+				},
+				{
+					"HUANGYEJIARIKAITUOJI15"
+				},
+				{
+					"HUANGYEJIARIKAITUOJI16"
+				},
+				{
+					"HUANGYEJIARIKAITUOJI17"
+				},
+				{
+					"HUANGYEJIARIKAITUOJI18"
+				},
+				{}
+			}
+		}
 	},
 	{
 		is_ranking = 0,

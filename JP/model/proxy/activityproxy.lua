@@ -303,6 +303,16 @@ slot0.timeCall = function(slot0)
 			end
 		end,
 		[ProxyRegister.SecondCall] = function (slot0)
+			for slot4, slot5 in pairs(uv0.data) do
+				if not slot5:isEnd() then
+					switch(slot5:getConfig("type"), {
+						[ActivityConst.ACTIVITY_TYPE_TOWN] = function ()
+							uv0:UpdateTime()
+						end
+					})
+				end
+			end
+
 			if not uv0.stopList then
 				return
 			end

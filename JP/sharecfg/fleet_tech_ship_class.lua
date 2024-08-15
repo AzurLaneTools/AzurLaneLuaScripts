@@ -64,6 +64,7 @@ pg.fleet_tech_ship_class = {
 			10142,
 			10113,
 			10111,
+			10152,
 			10143,
 			19905
 		}
@@ -207,6 +208,17 @@ pg.fleet_tech_ship_class = {
 			19901
 		}
 	},
+	[10206] = {
+		shiptype = 2,
+		name = "ファーゴ級",
+		t_level = 9,
+		id = 10206,
+		t_level_1 = 1,
+		nation = 1,
+		ships = {
+			10233
+		}
+	},
 	[10301] = {
 		shiptype = 3,
 		name = "ペンサコーラ級",
@@ -281,7 +293,8 @@ pg.fleet_tech_ship_class = {
 		nation = 1,
 		ships = {
 			10316,
-			10324
+			10324,
+			10328
 		}
 	},
 	[10307] = {
@@ -387,6 +400,7 @@ pg.fleet_tech_ship_class = {
 		nation = 1,
 		ships = {
 			10514,
+			10515,
 			10519,
 			10520
 		}
@@ -545,6 +559,7 @@ pg.fleet_tech_ship_class = {
 		nation = 1,
 		ships = {
 			10802,
+			10809,
 			10803,
 			10804,
 			10801,
@@ -3856,6 +3871,7 @@ pg.fleet_tech_ship_class = {
 		10203,
 		10204,
 		10205,
+		10206,
 		10301,
 		10302,
 		10303,

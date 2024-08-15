@@ -96,6 +96,14 @@ pg.item_data_chat = {
 		desc = "<size=28>揺れる波の中でクルーズバカンスを楽しもう！\n<color=#A7A7AAFF>イベント「休日トキメク大航海」参加で入手可能</color></size>",
 		scene = {}
 	},
+	[607] = {
+		name = "休日開拓の思い出",
+		time_second = 0,
+		id = 607,
+		time_limit_type = 0,
+		desc = "<size=28>荒野、開拓、ウェスタン的な休日な思い出。\n<color=#A7A7AAFF>イベント「荒野休日開拓記」に参加した指揮官に贈る</color></size>",
+		scene = {}
+	},
 	[10001] = {
 		name = "限界挑戦・ふたご座",
 		time_second = 0,
@@ -205,6 +213,7 @@ pg.item_data_chat = {
 		602,
 		603,
 		606,
+		607,
 		10001,
 		10002,
 		10003,

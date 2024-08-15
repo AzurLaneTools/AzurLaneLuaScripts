@@ -23,12 +23,6 @@ slot0.didEnter = function(slot0)
 	slot2 = slot0.controller
 
 	slot2:SetUp(slot0:PackData(), function (slot0, slot1)
-		if slot1 < slot0 then
-			uv0:StoreDataToServer({
-				slot0
-			})
-		end
-
 		slot2 = uv0:GetMGHubData()
 
 		uv0:SendSuccess(slot0)
@@ -42,14 +36,14 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.PackData = function(slot0)
-	slot2 = slot0:GetMGData():GetRuntimeData("elements") and slot1[1] or 0
+	slot1 = getProxy(GameRoomProxy):getRoomScore(slot0:getGameRoomData().id)
 
 	if slot0:getGameRoomData() then
 		slot0.gameHelpTip = slot0:getGameRoomData().game_help
 	end
 
 	return {
-		highestScore = slot2,
+		highestScore = slot1,
 		screen = Vector2(slot0._tf.rect.width, slot0._tf.rect.height),
 		tip = slot0.gameHelpTip
 	}

@@ -9816,6 +9816,17 @@ _G.pg.base.gametip.ship_remould_sueecss = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_101994 = {
+	tip = [[
+改造を行うと<color=#92fc63>「電気出力増幅装置」</color>が消費されます。
+続けますか？
+改造すると <color=#92fc63>【対空砲砲座+1】、【特殊対潜装備追加】</color>
+スキル<color=#92fc63>【レインボー・プラン】</color>が<color=#92fc63>【レインボー・プラン改】に強化</color>
+スキル<color=#92fc63>【特殊弾幕-エルドリッジⅡ】</color>
+が<color=#92fc63>【特殊弾幕-エルドリッジⅢ】</color>に強化されます]]
+}
+
+
 _G.pg.base.gametip.ship_remould_warning_102174 = {
 	tip = "近代化改修は<color=#92fc63>輝く☆マイク</color>を消費します。\n続けますか？"
 }
@@ -12723,7 +12734,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「ストラスブール」「デュプレクス」出現率UP！"
+	tip = "「ピッツバーグ」「インディアナ」など出現率UP!"
 }
 
 
@@ -29413,6 +29424,16 @@ _G.pg.base.gametip.battle_text_luodeni_3 = {
 }
 
 
+_G.pg.base.gametip.battle_text_pizibao_1 = {
+	tip = "支援艦隊到着！<color=#f1f102>敵の攻撃を引きつけて</color>味方を守ろう！"
+}
+
+
+_G.pg.base.gametip.battle_text_pizibao_2 = {
+	tip = "支援艦隊が<color=#f1f102>撃破された</color>！厳しい戦いになりそうだ…！"
+}
+
+
 _G.pg.base.gametip.series_enemy_mood = {
 	tip = "戦意低下"
 }
@@ -35038,4 +35059,70 @@ _G.pg.base.gametip.sitelasibao_expup_desc = {
 
 _G.pg.base.gametip.levelScene_tracking_error_pre_2 = {
 	tip = "$1か$2クリアで開放"
+}
+
+
+_G.pg.base.gametip.town_lock_level = {
+	tip = "タウンレベル$1達成"
+}
+
+
+_G.pg.base.gametip.town_place_next_title = {
+	tip = "次のレベルで"
+}
+
+
+_G.pg.base.gametip.town_unlcok_new = {
+	tip = "作業地点開放"
+}
+
+
+_G.pg.base.gametip.town_unlcok_level = {
+	tip = "レベル上限アップ"
+}
+
+
+_G.pg.base.gametip["0815_main_help"] = {
+	tip = {
+		{
+			info = [[
+遊び方：
+ 期間限定イベント「荒野休日開拓記」が<color=#92fc63>8.15（木）-8.29（木）メンテ</color>まで開催！
+
+ ·イベント期間中、「開拓タウン」で入手できる「開拓コイン」を使って施設をレベルアップし、繁栄度レベルを上げることで、様々なストーリーを開放可能！
+ ·さらに、限定任務クリアなど条件を達成することで、限定<color=#92fc63>チャットアイコン</color>、<color=#92fc63>チャットフレーム</color>、<color=#92fc63>限定家具</color>をGET！
+ ·8.21（水）まで毎日ミニゲーム回数を1回加算されます！ミニゲーム回数を所持している状態で「開拓タウン」のミニゲームをプレイすると、回数を消費し報酬をGET！]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.town_help = {
+	tip = {
+		{
+			info = [[
+遊び方：
+期間限定イベント「荒野休日開拓記」が<color=#92fc63>8.15（木）-8.29（木）メンテ</color>まで開催！
+
+  ·開拓タウンでは、時間経過で「開拓コイン」を入手できます。また、一部限定任務や出現するキャラをタップしても「開拓コイン」を入手できます。
+ ·「開拓コイン」を消費すると、施設（作業地点）のレベルを上げることができます。施設レベルが高いほど、「開拓コイン」の入手効率も上昇するほか、タウンの「繁栄度」が上昇します。
+ ·タウンの「繁栄度」が一定数値を達成すると、「開拓コイン」を消費してタウンレベルを上げる事ができます。タウンレベルが上がると、新しい施設（作業地点）などのコンテンツが開放されます。
+ ·「開拓仲間」にキャラを配置すると、配置されたキャラの出撃時に得られる好感度ボーナスが上昇します。さらにキャラが開拓タウンに出現することがあり、タップすると「開拓コイン」を少し手に入れることができます。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.activity_0815_town_memory = {
+	tip = "アイテムが不足しています。限定任務をクリアして思い出を開放しよう！"
+}
+
+
+_G.pg.base.gametip.town_gold_tip = {
+	tip = "開拓コインの所持数が上限になっています。受け取ると上限を超える分の「開拓コイン」は破棄されます。続けますか？"
+}
+
+
+_G.pg.base.gametip.award_max_warning_minigame = {
+	tip = "報酬を入手する際、<color=#ff5c5c>所持数上限を超えた部分</color>の報酬アイテムは破棄されます。続けますか？"
 }
