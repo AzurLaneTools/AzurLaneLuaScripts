@@ -501,7 +501,7 @@ return {
 			actor = 9702070,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "——「ËşÁŃśřşóˇŰËé°É」",
+			say = "ALHY AOLT HWHYA",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -699,7 +699,7 @@ return {
 			actor = 9702070,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "——「ĎűÉ˘」",
+			say = "KPZHWWLHY",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

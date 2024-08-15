@@ -384,7 +384,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
+			actorName = "Enterprise·META",
 			say = "Hmph. Okay.",
 			typewriter = {
 				speed = 0.05,
@@ -397,7 +397,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
+			actorName = "Enterprise·META",
 			say = "Leave. It's time to wake up.",
 			typewriter = {
 				speed = 0.05,

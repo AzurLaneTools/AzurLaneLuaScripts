@@ -145164,7 +145164,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		picture = "xb/guahuaxb",
 		canputon = 0,
 		count = 2,
-		describe = "It says the tavern was established a whooping one week ago.",
+		describe = "It says the tavern was established a whopping one week ago.",
 		advice = 0,
 		deblocking = 1,
 		id = 313302,
