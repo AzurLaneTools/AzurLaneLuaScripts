@@ -737,10 +737,10 @@ return {
 			}
 		},
 		{
-			stopbgm = true,
 			mode = 1,
-			bgName = "star_level_bg_539",
+			stopbgm = true,
 			asideType = 1,
+			blackBg = true,
 			bgm = "story-island-soft",
 			sequence = {
 				{

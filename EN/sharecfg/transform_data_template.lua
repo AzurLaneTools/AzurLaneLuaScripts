@@ -4076,7 +4076,7 @@ pg.base.transform_data_template = {
 	},
 	[2810] = {
 		level_limit = 75,
-		name = "Firepower Enhancement Ⅱ",
+		name = "Firepower Enhancement Ⅲ",
 		descrip = "",
 		max_level = 3,
 		skin_id = 0,
@@ -4189,7 +4189,7 @@ The skill <color=#92fc63>All Out Assault II</color> will be upgraded into <color
 	[2812] = {
 		level_limit = 90,
 		name = "Tactical Learning",
-		descrip = "习得技能【电气功率MAX！】",
+		descrip = " ",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 1,

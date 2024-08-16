@@ -26,7 +26,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			bgm = "theme-merkuriameta",
 			say = "Life in Paradise is peaceful, joyful – a beautiful dream that never ends.",
@@ -38,7 +38,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			say = "Pamiat' Merkuria META was walking down the beach when she saw some fellow dreamers. She waved at them.",
 			typewriter = {
@@ -49,7 +49,7 @@ return {
 		{
 			actor = 101380,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -62,7 +62,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
@@ -76,7 +76,7 @@ return {
 		{
 			actor = 101380,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -89,7 +89,7 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
@@ -103,7 +103,7 @@ return {
 		{
 			actor = 101390,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -116,7 +116,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
@@ -130,7 +130,7 @@ return {
 		{
 			actor = 101460,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -143,7 +143,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
@@ -157,7 +157,7 @@ return {
 		{
 			actor = 101380,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -170,7 +170,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
@@ -184,7 +184,7 @@ return {
 		{
 			actor = 101380,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -198,7 +198,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			say = "Pamiat' bid farewell to the girls. With a flick of the wrist, she materialized a bench on the beach.",
 			typewriter = {
 				speed = 0.05,
@@ -225,7 +225,7 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
@@ -239,7 +239,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
@@ -253,7 +253,7 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
@@ -267,7 +267,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
@@ -281,7 +281,7 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
@@ -295,7 +295,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
@@ -309,7 +309,7 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
@@ -323,7 +323,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
@@ -337,7 +337,7 @@ return {
 		{
 			actorName = "PA System",
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			bgm = "airraidalarm",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -367,7 +367,7 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
@@ -381,7 +381,7 @@ return {
 		{
 			actorName = "Communicator",
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			soundeffect = "event:/ui/didi",
@@ -394,7 +394,7 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 101380,
 			nameColor = "#A9F548FF",
@@ -408,7 +408,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
@@ -422,7 +422,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
@@ -437,7 +437,7 @@ return {
 			expression = 3,
 			side = 2,
 			dir = 1,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			bgm = "story-antarctica-serious",
 			actor = 9702070,
 			nameColor = "#FFC960",
@@ -468,7 +468,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
@@ -482,7 +482,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
@@ -496,7 +496,7 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#BDBDBD",
@@ -510,7 +510,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			say = "At Pamiat's beckon, hundreds upon hundreds of white tentacles appeared from under the water. They engulfed the encroaching black mist fleet in an instant.",
 			typewriter = {
@@ -521,7 +521,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
@@ -535,7 +535,7 @@ return {
 		{
 			actorName = "Communicator",
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			soundeffect = "event:/ui/didi",
@@ -548,7 +548,7 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 101380,
 			nameColor = "#A9F548FF",
@@ -562,7 +562,7 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 101390,
 			nameColor = "#A9F548FF",
@@ -576,7 +576,7 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 101460,
 			nameColor = "#A9F548FF",
@@ -590,7 +590,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
@@ -604,7 +604,7 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 101380,
 			nameColor = "#A9F548FF",
@@ -618,7 +618,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
@@ -632,7 +632,7 @@ return {
 		{
 			paintingNoise = true,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 101390,
 			nameColor = "#A9F548FF",
@@ -646,7 +646,7 @@ return {
 		{
 			actorName = "Communicator",
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			say = "......",
@@ -658,7 +658,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			say = "Pamiat' hung up and stared into the distant sky.",
 			typewriter = {
@@ -669,7 +669,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			hidePaintObj = true,
 			say = "On the horizon, she saw a formation of drones and aircraft, flying toward the boundary of her paradise.",
 			typewriter = {
@@ -680,7 +680,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
@@ -694,7 +694,7 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			bgName = "star_level_bg_531",
+			bgName = "star_level_bg_539",
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#BDBDBD",

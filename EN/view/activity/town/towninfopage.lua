@@ -93,17 +93,40 @@ slot0.OnExpUpdate = function(slot0)
 	setText(slot0.needExp, "/" .. (isMaxLv and 0 or slot2))
 end
 
-slot0.OnTownUpgrade = function(slot0)
-	slot1 = slot0.townPanel
-	slot1 = slot1:GetComponent(typeof(Animation))
+slot0.OnTownUpgrade = function(slot0, slot1)
+	slot2 = slot0.townPanel
+	slot2 = slot2:GetComponent(typeof(DftAniEvent))
 
-	slot1:Play("anim_cowboy_info_town_lvup")
-	slot0:managedTween(LeanTween.delayedCall, function ()
-		uv0:FlushTownPanel()
-	end, 0.265, nil)
-	slot0:managedTween(LeanTween.delayedCall, function ()
+	slot2:SetEndEvent(function ()
+		if uv0 then
+			uv0()
+		end
+
+		uv1.inTownAnim = false
+
+		uv2:SetEndEvent(nil)
+	end)
+	slot2:SetTriggerEvent(function ()
 		uv0:Flush()
-	end, 0.56, nil)
+		uv1:SetTriggerEvent(nil)
+	end)
+
+	slot3 = slot0.townPanel
+	slot3 = slot3:GetComponent(typeof(Animation))
+
+	slot3:Play("anim_cowboy_info_town_lvup")
+
+	slot0.inTownAnim = true
+
+	slot0:managedTween(LeanTween.delayedCall, function ()
+		uv0:FlushTownWithoutLv()
+	end, 0.265, nil)
+end
+
+slot0.OnPlaceUpgrade = function(slot0, slot1)
+	slot0.townUpgradeCb = slot1
+
+	slot0:Flush()
 end
 
 slot0.UpdateTownStatus = function(slot0)
@@ -115,7 +138,7 @@ slot0.UpdateTownStatus = function(slot0)
 		setActive(slot0, slot0.name == uv0)
 	end)
 	onButton(slot0, slot0:findTF("normal", slot0.townUpgradeTF), function ()
-		if not uv0 then
+		if not uv0 or uv1.inTownAnim then
 			return
 		end
 
@@ -130,20 +153,24 @@ slot0.UpdateTownStatus = function(slot0)
 	end
 end
 
+slot0.FlushTownWithoutLv = function(slot0)
+	slot0:OnExpUpdate()
+	setText(slot0.goldOutput, string.format("+%s/H", TownActivity.GoldToShow(slot0.activity:GetGoldOutput())))
+	setText(slot0.goldLimit, TownActivity.GoldToShow(slot0.activity:GetLimitGold()))
+
+	slot3 = TownActivity.GoldToShow(pg.activity_town_level[slot0.townLv].gold)
+
+	setText(slot0:findTF("normal/cost/Text", slot0.townUpgradeTF), slot3)
+	setText(slot0:findTF("no_exp_or_gold/cost/Text", slot0.townUpgradeTF), slot3)
+	slot0:UpdateTownStatus()
+end
+
 slot0.FlushTownPanel = function(slot0)
 	slot0.townLv = slot0.activity:GetTownLevel()
 
 	setText(slot0.townLevelNow, "LV." .. (slot0.activity:IsMaxTownLevel() and "MAX" or slot0.townLv))
 	setText(slot0.townLevelNext, "LV." .. (slot1 and "MAX" or slot0.townLv + 1))
-	slot0:OnExpUpdate()
-	setText(slot0.goldOutput, string.format("+%s/H", TownActivity.GoldToShow(slot0.activity:GetGoldOutput())))
-	setText(slot0.goldLimit, TownActivity.GoldToShow(slot0.activity:GetLimitGold()))
-
-	slot4 = TownActivity.GoldToShow(pg.activity_town_level[slot0.townLv].gold)
-
-	setText(slot0:findTF("normal/cost/Text", slot0.townUpgradeTF), slot4)
-	setText(slot0:findTF("no_exp_or_gold/cost/Text", slot0.townUpgradeTF), slot4)
-	slot0:UpdateTownStatus()
+	slot0:FlushTownWithoutLv()
 end
 
 slot0.FlushShipPanel = function(slot0)
@@ -219,7 +246,7 @@ slot0.UpdatePlaceStatus = function(slot0, slot1, slot2)
 		setActive(slot0, slot0.name == uv0)
 	end)
 	onButton(slot0, slot0:findTF("normal", slot3), function ()
-		if not uv0 then
+		if not uv0 or uv1.inPlaceAnim then
 			return
 		end
 
@@ -243,15 +270,31 @@ slot0.UpdatePlace = function(slot0, slot1, slot2)
 	seriesAsync({
 		function (slot0)
 			if uv0.upgradePlaceName and uv1.name == uv0.upgradePlaceName then
+				uv1:GetComponent(typeof(DftAniEvent)):SetEndEvent(function ()
+					if uv0.townUpgradeCb then
+						uv0.townUpgradeCb()
+
+						uv0.townUpgradeCb = nil
+					end
+
+					uv0.inPlaceAnim = false
+
+					uv1:SetEndEvent(nil)
+				end)
 				uv1:GetComponent(typeof(Animation)):Play("anim_cowboy_info_place_lvup")
+
+				uv0.inPlaceAnim = true
+
 				uv0:managedTween(LeanTween.delayedCall, function ()
 					uv0()
 				end, 0.2, nil)
 
 				uv0.upgradePlaceName = nil
-			else
-				slot0()
+
+				return
 			end
+
+			slot0()
 		end,
 		function (slot0)
 			slot2 = not uv0:GetNextId()

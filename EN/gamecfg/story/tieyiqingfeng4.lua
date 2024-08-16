@@ -270,7 +270,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "It seems our \"visitor\" was going to someone known as \"Amagi.\"",
+			say = "It seems our \"visitor\" was going to be someone known as \"Amagi.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

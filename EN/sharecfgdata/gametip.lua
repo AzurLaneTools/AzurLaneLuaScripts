@@ -1579,7 +1579,7 @@ _G.pg.base.gametip.word_primary_weapons = {
 
 
 _G.pg.base.gametip.word_main_cannons = {
-	tip = "Main Gun"
+	tip = "Main Gun "
 }
 
 

@@ -821,9 +821,10 @@ slot0.TriggerAction = function(slot0, slot1, slot2, slot3, slot4)
 
 	slot0.finishActionCB = slot2
 	slot0.animEventCB = slot4
+	slot5 = uv0(slot0, slot1, slot3)
 
-	if not uv0(slot0, slot1, slot3) and slot0.animEventCB then
-		slot0.animEventCB(false)
+	if slot0.animEventCB then
+		slot0.animEventCB(slot5)
 
 		slot0.animEventCB = nil
 	end

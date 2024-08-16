@@ -19229,7 +19229,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 	[284] = {
 		can_rotate = 0,
 		name = "Break the Storm, Sail Onward",
-		gain_by = "铁翼擎风",
+		gain_by = "Windborne Steel Wings",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
@@ -19272,7 +19272,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 	[285] = {
 		can_rotate = 0,
 		name = "Pioneers of the Prairie",
-		gain_by = "荒野假日开拓记",
+		gain_by = "Cursed Western Town",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
