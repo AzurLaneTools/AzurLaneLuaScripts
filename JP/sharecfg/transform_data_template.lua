@@ -4076,7 +4076,7 @@ pg.base.transform_data_template = {
 	},
 	[2810] = {
 		level_limit = 75,
-		name = "雷撃強化Ⅲ",
+		name = "火力強化Ⅲ",
 		descrip = "",
 		max_level = 3,
 		skin_id = 0,

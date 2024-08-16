@@ -140,9 +140,13 @@ slot0.handleNotification = function(slot0, slot1)
 	if slot1:getName() == GAME.ACTIVITY_TOWN_OP_DONE then
 		switch(slot3.cmd, {
 			[TownActivity.OPERATION.UPGRADE_TOWN] = function ()
-				slot0 = pg.activity_town_level[uv0.activity:GetTownLevel()]
+				slot1 = uv0.activity
+				slot0 = pg.activity_town_level[slot1:GetTownLevel()]
 
 				seriesAsync({
+					function (slot0)
+						uv0.viewComponent:OnTownUpgrade(slot0)
+					end,
 					function (slot0)
 						if uv0.unlock_story ~= "" then
 							pg.NewStoryMgr.GetInstance():Play(slot1, slot0)
@@ -167,10 +171,17 @@ slot0.handleNotification = function(slot0, slot1)
 					end
 				}, function ()
 				end)
-				uv0.viewComponent:OnTownUpgrade()
 			end,
 			[TownActivity.OPERATION.UPGRADE_PLACE] = function ()
-				uv0.viewComponent:UpdateInfoPage()
+				seriesAsync({
+					function (slot0)
+						uv0.viewComponent:OnPlaceUpgrade(slot0)
+					end,
+					function (slot0)
+						uv0.viewComponent:emit(BaseUI.ON_ACHIEVE, uv1.awards)
+					end
+				}, function ()
+				end)
 			end,
 			[TownActivity.OPERATION.CHANGE_SHIPS] = function ()
 				uv0.viewComponent:UpdateShips()
@@ -178,9 +189,9 @@ slot0.handleNotification = function(slot0, slot1)
 			end,
 			[TownActivity.OPERATION.CLICK_BUBBLE] = function ()
 				uv0.viewComponent:UpdateBubbles()
+				uv0.viewComponent:emit(BaseUI.ON_ACHIEVE, uv1.awards)
 			end
 		})
-		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 	elseif slot2 == ActivityProxy.ACTIVITY_UPDATED and slot3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_TOWN then
 		slot0.activity = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TOWN)
 
