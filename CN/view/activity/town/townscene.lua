@@ -267,8 +267,12 @@ slot0.OnExpUpdate = function(slot0)
 	slot0.infoPage:ExecuteAction("OnExpUpdate")
 end
 
-slot0.OnTownUpgrade = function(slot0)
-	slot0.infoPage:ExecuteAction("OnTownUpgrade")
+slot0.OnTownUpgrade = function(slot0, slot1)
+	slot0.infoPage:ExecuteAction("OnTownUpgrade", slot1)
+end
+
+slot0.OnPlaceUpgrade = function(slot0, slot1)
+	slot0.infoPage:ExecuteAction("OnPlaceUpgrade", slot1)
 end
 
 slot0.willExit = function(slot0)

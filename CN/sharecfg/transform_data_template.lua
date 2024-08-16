@@ -4076,7 +4076,7 @@ pg.base.transform_data_template = {
 	},
 	[2810] = {
 		level_limit = 75,
-		name = "炮击强化II",
+		name = "炮击强化III",
 		descrip = "炮击+5/炮击+10/炮击+15",
 		max_level = 3,
 		skin_id = 0,
