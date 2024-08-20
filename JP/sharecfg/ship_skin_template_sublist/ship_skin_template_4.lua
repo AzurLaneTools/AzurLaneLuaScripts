@@ -5350,7 +5350,7 @@ pg.base.ship_skin_template_4 = {
 		}
 	},
 	[108090] = {
-		name = "へリング",
+		name = "ヘリング",
 		id = 108090,
 		desc = "ガトー級潜水艦-ヘリング",
 		illustrator2 = -1,

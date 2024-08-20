@@ -25,7 +25,7 @@ slot0.register = function(slot0)
 		uv0:sendNotification(GAME.ACTIVITY_TOWN_OP, {
 			activity_id = uv0.activity.id,
 			cmd = TownActivity.OPERATION.CLICK_BUBBLE,
-			arg1 = slot1
+			arg_list = slot1
 		})
 	end)
 

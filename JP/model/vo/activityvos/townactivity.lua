@@ -268,7 +268,9 @@ slot0.OnChangeShips = function(slot0, slot1)
 end
 
 slot0.OnGetBubbleAward = function(slot0, slot1, slot2)
-	slot0.slotData[slot1]:ResetStartTime(slot2)
+	for slot6, slot7 in ipairs(slot1) do
+		slot0.slotData[slot7]:ResetStartTime(slot2[slot6])
+	end
 end
 
 slot0.OnSettleGold = function(slot0, slot1)

@@ -2467,6 +2467,13 @@ temp = function()
 					}
 				}
 			}
+		},
+		["リ"] = {
+			["ン"] = {
+				["グ"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -5072,20 +5079,6 @@ temp = function()
 			},
 			["マ"] = {
 				["ス"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["へ"] = {
-		["リ"] = {
-			["ン"] = {
-				["グ"] = {
 					this = true
 				}
 			}
