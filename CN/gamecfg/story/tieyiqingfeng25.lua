@@ -259,7 +259,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "企业也与{namecode:74:长门}结成{namecode:530:同盟}，为了同一个目标努力着。",
+			say = "企业也与{namecode:74:长门}结成同盟，为了同一个目标努力着。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -835,6 +835,19 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			canMarkNode = {
+				"taipingyangzhudao",
+				{
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8
+				}
 			}
 		},
 		{
@@ -1512,6 +1525,24 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			canMarkNode = {
+				"maliyanayaosai",
+				{
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10,
+					11,
+					12,
+					13
+				}
 			}
 		},
 		{

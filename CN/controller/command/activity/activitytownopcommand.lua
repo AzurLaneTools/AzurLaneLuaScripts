@@ -15,6 +15,7 @@ slot0.execute = function(slot0, slot1)
 		cmd = slot2.cmd or 0,
 		arg1 = slot2.arg1 or 0,
 		arg2 = slot2.arg2 or 0,
+		arg_list = slot2.arg_list or {},
 		kvargs1 = slot2.kvargs1
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
@@ -33,7 +34,7 @@ slot0.execute = function(slot0, slot1)
 					uv0:OnChangeShips(uv1.kvargs1)
 				end,
 				[TownActivity.OPERATION.CLICK_BUBBLE] = function ()
-					uv0:OnGetBubbleAward(uv1.arg1, uv2.number[1])
+					uv0:OnGetBubbleAward(uv1.arg_list, uv2.number)
 				end,
 				[TownActivity.OPERATION.SETTLE_GOLD] = function ()
 					uv0:OnSettleGold(uv1.number[1])

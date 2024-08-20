@@ -43,7 +43,7 @@ return {
 			actor = 107020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "萨拉，是你不是有点买太多了……",
+			say = "萨拉，你是不是有点买太多了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
