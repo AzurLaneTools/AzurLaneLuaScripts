@@ -28458,7 +28458,7 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"소형함 건조",
+				"특형함 건조",
 				{
 					"GETBOAT",
 					{
