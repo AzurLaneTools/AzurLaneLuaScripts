@@ -450,6 +450,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「설령 그것이 몽환 속이라도, 지키는 길을 계속 고르리라」</color>\n「휘광의 성에서 피어나라」 이벤트 참가 보상.",
 		scene = {}
 	},
+	[331] = {
+		name = "팽배한 마음",
+		gain_by = "",
+		time_second = 0,
+		id = 331,
+		time_limit_type = 0,
+		desc = "이벤트에서 획득 가능",
+		scene = {}
+	},
 	[401] = {
 		name = "전당 기념: 엔터프라이즈",
 		gain_by = "",
@@ -717,6 +726,7 @@ pg.item_data_frame = {
 		328,
 		329,
 		330,
+		331,
 		401,
 		402,
 		413,

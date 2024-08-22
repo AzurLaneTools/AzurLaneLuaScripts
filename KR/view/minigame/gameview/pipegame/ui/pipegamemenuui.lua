@@ -34,9 +34,11 @@ slot0.Ctor = function(slot0, slot1, slot2)
 		uv0._event:emit(PipeGameEvent.CLOSE_GAME)
 	end, SFX_CANCEL)
 	onButton(slot0._event, findTF(slot0.menuUI, "btnRule"), function ()
+		uv0._event:emit(PipeGameEvent.SHOW_RULE, true)
 		setActive(uv0.imgHelp, true)
 	end, SFX_CANCEL)
 	onButton(slot0._event, slot0.imgHelp, function ()
+		uv0._event:emit(PipeGameEvent.SHOW_RULE, false)
 		setActive(uv0.imgHelp, false)
 	end, SFX_CANCEL)
 
@@ -84,6 +86,13 @@ end
 
 slot0.show = function(slot0, slot1)
 	setActive(slot0.menuUI, slot1)
+end
+
+slot0.setGameRoomUI = function(slot0, slot1)
+	if slot1 then
+		setActive(findTF(slot0.menuUI, "lastTimes"), false)
+		setActive(findTF(slot0.menuUI, "btnRank"), false)
+	end
 end
 
 slot0.update = function(slot0, slot1)

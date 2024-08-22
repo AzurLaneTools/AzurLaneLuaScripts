@@ -195,6 +195,7 @@ pg.memory_group = setmetatable({
 		292,
 		293,
 		294,
+		295,
 		501,
 		502,
 		503,
@@ -293,6 +294,7 @@ pg.memory_group = setmetatable({
 		598,
 		599,
 		600,
+		601,
 		1000,
 		1001,
 		1002
@@ -4646,6 +4648,23 @@ pg.base.memory_group = {
 			3713
 		}
 	},
+	[295] = {
+		title = "주염단장",
+		subtype = 1,
+		link_event = 5512,
+		type = 2,
+		id = 295,
+		icon = "title_event",
+		memories = {
+			3731,
+			3732,
+			3733,
+			3734,
+			3735,
+			3736,
+			3737
+		}
+	},
 	[501] = {
 		title = "아카시의 의뢰",
 		subtype = 0,
@@ -6323,6 +6342,23 @@ pg.base.memory_group = {
 			3695,
 			3696,
 			3697
+		}
+	},
+	[601] = {
+		title = "오늘은 브레머튼 쉬는 날",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 601,
+		icon = "title_chara_bulaimodun",
+		memories = {
+			3721,
+			3722,
+			3723,
+			3724,
+			3725,
+			3726,
+			3727
 		}
 	},
 	[1000] = {

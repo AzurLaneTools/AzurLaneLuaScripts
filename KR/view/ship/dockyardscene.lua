@@ -677,9 +677,7 @@ slot0.repairWorldShip = function(slot0, slot1)
 end
 
 slot0.filter = function(slot0)
-	GetSpriteFromAtlasAsync("ui/dockyardui_atlas", slot0:isDefaultStatus() and "shaixuan_off" or "shaixuan_on", function (slot0)
-		setImageSprite(uv0.indexBtn, slot0, true)
-	end)
+	LoadImageSpriteAtlasAsync("ui/dockyardui_atlas", slot0:isDefaultStatus() and "shaixuan_off" or "shaixuan_on", slot0.indexBtn, true)
 
 	if slot0.isRemouldOrUpgradeMode then
 		slot0:filterForRemouldAndUpgrade()

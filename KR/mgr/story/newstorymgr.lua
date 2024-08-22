@@ -664,6 +664,10 @@ slot0.OnStart = function(slot0)
 end
 
 slot0.TrackingStart = function(slot0)
+	if not getProxy(PlayerProxy) or not getProxy(PlayerProxy):getRawData() then
+		return
+	end
+
 	slot0.trackFlag = false
 
 	if not slot0.storyScript then

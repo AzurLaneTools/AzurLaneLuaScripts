@@ -167,9 +167,9 @@ slot0.GetAllSkins = function(slot0)
 			shop_id = slot0
 		}, Goods.TYPE_SKIN))
 
-		slot2, slot3 = pg.TimeMgr.GetInstance():inTime(pg.shop_template[slot0].time)
+		slot4, slot5 = pg.TimeMgr.GetInstance():inTime(pg.shop_template[slot0].time)
 
-		if slot2 then
+		if (pg.shop_template[slot0].collaboration_skin_time == "" or slot2 == pg.shop_template[slot0].time) and slot4 then
 			table.insert(uv1, slot1)
 		end
 	end

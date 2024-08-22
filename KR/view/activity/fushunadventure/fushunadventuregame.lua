@@ -9,7 +9,6 @@ slot6 = 4
 slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	pg.DelegateInfo.New(slot0)
 
-	slot0.fushunLoader = AutoLoader.New()
 	slot0.state = uv0
 	slot0._go = slot1
 	slot0.gameData = slot2
@@ -26,6 +25,10 @@ slot0.SetOnLevelUpdate = function(slot0, slot1)
 	slot0.OnLevelUpdate = slot1
 end
 
+slot0.setRoomTip = function(slot0, slot1)
+	slot0.helpTip = slot1
+end
+
 slot0.Init = function(slot0)
 	if slot0.state ~= uv0 then
 		return
@@ -34,6 +37,16 @@ slot0.Init = function(slot0)
 	slot0.state = uv1
 
 	slot0:InitMainUI()
+
+	slot0.helpTip = pg.gametip.fushun_adventure_help.tip
+end
+
+slot0.loadPrefab = function(slot0, slot1, slot2)
+	slot3 = ResourceMgr.Inst
+
+	slot3:getAssetAsync(slot1, "", function (slot0)
+		uv0(instantiate(slot0))
+	end, true, true)
 end
 
 slot0.InitMainUI = function(slot0)
@@ -42,7 +55,7 @@ slot0.InitMainUI = function(slot0)
 	onButton(slot0, findTF(slot1, "btn_help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.fushun_adventure_help.tip
+			helps = uv0.helpTip
 		})
 	end, SFX_PANEL)
 	onButton(slot0, findTF(slot1, "btn_start"), function ()
@@ -231,9 +244,18 @@ slot0.DisplayeEnergy = function(slot0, slot1, slot2)
 	slot0.energyLight.sizeDelta = Vector2(slot6, slot0.energyLight.sizeDelta.y)
 end
 
+slot0.SetGameStateCallback = function(slot0, slot1, slot2)
+	slot0._startCallback = slot1
+	slot0._endCallback = slot2
+end
+
 slot0.StartGame = function(slot0)
 	if slot0.state ~= uv0 then
 		return
+	end
+
+	if slot0._startCallback then
+		slot0._startCallback()
 	end
 
 	slot0.enemys = {}
@@ -260,15 +282,15 @@ slot0.LoadScene = function(slot0, slot1)
 				setActive(uv0.gameUI, true)
 				slot0()
 			else
-				slot1 = uv0.fushunLoader
+				slot1 = uv0
 
-				slot1:LoadPrefab("ui/FushunAdventureGame", "", function (slot0)
+				slot1:loadPrefab("ui/FushunAdventureGame", function (slot0)
 					uv0.gameUI = slot0
 
 					slot0.transform:SetParent(uv0._go.transform, false)
 					uv0:InitGameUI()
 					uv1()
-				end, "FushunAdventureGame")
+				end)
 			end
 		end,
 		function (slot0)
@@ -288,15 +310,15 @@ slot0.LoadScene = function(slot0, slot1)
 					uv0:EnterAnimation(slot0)
 				end,
 				function (slot0)
-					slot1 = uv0.fushunLoader
+					slot1 = uv0
 
-					slot1:LoadPrefab("FushunAdventure/fushun", "", function (slot0)
+					slot1:loadPrefab("FushunAdventure/fushun", function (slot0)
 						uv0.fushun = FushunChar.New(slot0)
 
 						uv0.fushun:SetPosition(FushunAdventureGameConst.FUSHUN_INIT_POSITION)
 						slot0.transform:SetParent(uv0.gameUI.transform:Find("game"), false)
 						uv1()
-					end, "fushun")
+					end)
 				end
 			}, slot0)
 		end
@@ -479,14 +501,17 @@ end
 slot0.AddHitEffect = function(slot0, slot1)
 	slot6 = Vector3(slot0.gameUI.transform:InverseTransformPoint(slot1.collider2D.bounds:GetMin()).x, slot0.gameUI.transform:InverseTransformPoint(slot0.fushun.effectCollider2D.bounds.center).y, 0)
 
-	slot0.fushunLoader:GetPrefab("FushunAdventure/attack_effect", "", function (slot0)
+	slot0:loadPrefab("FushunAdventure/attack_effect", function (slot0)
 		slot0.transform:SetParent(uv0.gameUI.transform, false)
 
 		slot0.transform.localPosition = uv1
 
 		slot0:GetComponent(typeof(DftAniEvent)):SetEndEvent(function ()
 			uv0:SetEndEvent(nil)
-			uv1.fushunLoader:ReturnPrefab(uv2)
+
+			if uv1 then
+				Destroy(uv1)
+			end
 		end)
 	end)
 	slot0:ShakeScreen(slot0.gameUI)
@@ -532,14 +557,14 @@ slot0.SpawnEnemys = function(slot0)
 	slot0.spawner = FuShunEnemySpawner.New(slot0.gameUI.transform:Find("game").transform, function (slot0)
 		slot1 = slot0.config
 		slot3 = slot0.index
-		slot4 = uv0[slot1.id].New(slot0.go, slot3, slot1, uv1.fushunLoader)
-		slot6 = slot0.speed + uv2(uv1.score)
+		slot4 = uv0[slot1.id].New(slot0.go, slot3, slot1)
+		slot6 = slot0.speed + uv1(uv2.score)
 
 		uv3.LOG("  顺序 :", slot3, " id :", slot1.id, " speed :", slot6)
 		slot4:SetSpeed(slot6)
 		slot4:SetPosition(FushunAdventureGameConst.ENEMY_SPAWN_POSITION)
-		table.insert(uv1.enemys, slot4)
-	end, slot0.fushunLoader)
+		table.insert(uv2.enemys, slot4)
+	end)
 
 	slot0.spawner:NormalMode()
 end
@@ -559,23 +584,22 @@ end
 
 slot0.AddCombo = function(slot0, slot1)
 	if slot1 > 0 then
-		slot2 = slot0.fushunLoader
-
-		slot2:GetPrefab("UI/fushun_combo", "", function (slot0)
-			if not uv0.fushunLoader then
-				Destroy(slot0)
-
-				return
-			end
-
+		slot0:loadPrefab("UI/fushun_combo", function (slot0)
 			slot0.transform:SetParent(uv0.gameUI.transform:Find("UI"), false)
+
+			slot1 = nil
+
 			Timer.New(function ()
-				if not uv0.fushunLoader then
-					return
+				if uv0 then
+					Destroy(uv0)
 				end
 
-				uv0.fushunLoader:ReturnPrefab(uv1)
-			end, 2, 1):Start()
+				if uv1 then
+					uv1:Stop()
+
+					uv1 = nil
+				end
+			end, 1, 1):Start()
 		end)
 	end
 
@@ -718,6 +742,10 @@ slot0.ClearGameScene = function(slot0)
 		setActive(slot0.gameUI, false)
 		pg.BgmMgr.GetInstance():Push(slot0.__cname, FushunAdventureGameConst.BGM_NAME)
 	end
+
+	if slot0._endCallback then
+		slot0._endCallback()
+	end
 end
 
 slot0.IsStarting = function(slot0)
@@ -731,6 +759,9 @@ slot0.Dispose = function(slot0)
 		slot0.countdownTimer = nil
 	end
 
+	slot0._startCallback = nil
+	slot0._endCallback = nil
+
 	slot0:ExitGame()
 	pg.DelegateInfo.Dispose(slot0)
 
@@ -743,10 +774,6 @@ slot0.Dispose = function(slot0)
 	slot0._go = nil
 	slot0.btnSprites = nil
 	slot0.state = uv0
-
-	slot0.fushunLoader:Clear()
-
-	slot0.fushunLoader = nil
 	slot0.OnShowResult = nil
 	slot0.OnLevelUpdate = nil
 end

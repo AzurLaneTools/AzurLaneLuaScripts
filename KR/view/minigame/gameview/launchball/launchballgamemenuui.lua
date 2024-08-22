@@ -100,8 +100,13 @@ slot0.Ctor = function(slot0, slot1, slot2)
 		slot8 = uv0.player_item[slot7]
 		slot9 = findTF(slot0.menuUI, "player/" .. slot8.name)
 		slot11 = false
+		slot11 = (not LaunchBallActivityMgr.GetPlayerZhuanshuIndex(slot8.id) or LaunchBallActivityMgr.CheckZhuanShuAble(ActivityConst.MINIGAME_ZUMA, slot10)) and true
 
-		setActive(findTF(slot9, "ad/mask"), not ((not LaunchBallActivityMgr.GetPlayerZhuanshuIndex(slot8.id) or LaunchBallActivityMgr.CheckZhuanShuAble(ActivityConst.MINIGAME_ZUMA, slot10)) and true))
+		if LaunchBallGameVo.game_room_flag then
+			slot11 = true
+		end
+
+		setActive(findTF(slot9, "ad/mask"), not slot11)
 		setScrollText(findTF(slot9, "ad/skillPanel/skill1/text"), i18n(slot8.skill_1))
 		setScrollText(findTF(slot9, "ad/skillPanel/skill2/text"), i18n(slot8.skill_2))
 		setText(findTF(slot9, "ad/skillPanel/detail/img"), i18n(uv0.skill_detail_desc))

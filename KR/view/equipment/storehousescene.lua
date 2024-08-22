@@ -39,6 +39,8 @@ slot0.init = function(slot0)
 	slot0.indexBtn = slot0:findTF("buttons/index_button", slot0.topPanel)
 	slot0.sortBtn = slot0:findTF("buttons/sort_button", slot0.topPanel)
 	slot0.sortPanel = slot0:findTF("sort", slot0.topItems)
+	slot0.sortPanelTG = slot0.sortPanel:GetComponent("ToggleGroup")
+	slot0.sortPanelTG.allowSwitchOff = true
 	slot0.sortContain = slot0:findTF("adapt/mask/panel", slot0.sortPanel)
 	slot0.sortTpl = slot0:findTF("tpl", slot0.sortContain)
 
@@ -305,9 +307,14 @@ slot0.didEnter = function(slot0)
 				groupName = LayerWeightConst.GROUP_EQUIPMENTSCENE
 			})
 			setActive(uv0.sortPanel, true)
+			onNextTick(function ()
+				uv0.sortPanelTG.allowSwitchOff = false
+			end)
 		else
 			pg.UIMgr.GetInstance():UnOverlayPanel(uv0.sortPanel, uv0.topItems)
 			setActive(uv0.sortPanel, false)
+
+			uv0.sortPanelTG.allowSwitchOff = true
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.sortPanel, function ()

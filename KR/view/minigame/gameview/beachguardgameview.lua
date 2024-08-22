@@ -10,6 +10,7 @@ slot0.READY_START = "ready start"
 slot0.COUNT_DOWN = "count down"
 slot0.STORE_SERVER = "store server"
 slot0.SUBMIT_GAME_SUCCESS = "submit game success"
+slot0.OPEN_BOOK = "open book"
 slot0.RECYCLES_CHAR = "RECYCLES CHAR"
 slot0.RECYCLES_CHAR_CANCEL = "RECYCLES CHAR CANCEL"
 slot0.DRAG_CHAR = "DRAG CHAR"
@@ -121,7 +122,7 @@ slot0.initEvent = function(slot0)
 	slot0:bind(BeachGuardGameView.SHOW_RULE, function (slot0, slot1, slot2)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip[uv0.gameData.rule_tip].tip
+			helps = pg.gametip[uv0].tip
 		})
 	end)
 	slot0:bind(BeachGuardGameView.READY_START, function (slot0, slot1, slot2)

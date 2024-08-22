@@ -179,7 +179,13 @@ slot0.GetThemeName = function(slot0)
 end
 
 slot0.inTime = function(slot0)
-	return pg.TimeMgr.GetInstance():inTime(slot0:getConfig("time"))
+	slot1 = slot0:getConfig("time")
+
+	if slot0:getConfig("collaboration_furniture_time") ~= "" and slot2 ~= slot1 then
+		return false
+	end
+
+	return pg.TimeMgr.GetInstance():inTime(slot1)
 end
 
 slot0.isTimeLimit = function(slot0)

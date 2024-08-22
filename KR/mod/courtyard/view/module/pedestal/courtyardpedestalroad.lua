@@ -43,4 +43,8 @@ slot0.OnLoaded = function(slot0, slot1)
 	tf(slot1):SetSiblingIndex(0)
 end
 
+slot0.GetParent = function(slot0)
+	return slot0.parent._tf:Find("base")
+end
+
 return slot0

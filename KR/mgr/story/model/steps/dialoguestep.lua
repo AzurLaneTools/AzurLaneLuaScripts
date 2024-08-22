@@ -348,8 +348,30 @@ slot0.GetCustomActorName = function(slot0)
 	end
 end
 
+slot0.GetPortraitName = function(slot0)
+	if not slot0:ExistPortrait() then
+		return ""
+	end
+
+	if type(slot0.portrait) ~= "number" then
+		return ""
+	end
+
+	if not uv0[slot0.portrait] then
+		return ""
+	end
+
+	slot2 = ""
+
+	return (ShipGroup.getDefaultShipConfig(slot1.ship_group) or slot1.name) and Ship.getShipName(slot4.id)
+end
+
 slot0.GetName = function(slot0)
-	if (not slot0.actorName or not slot0:GetCustomActorName()) and not slot0:GetPaintingAndName() and not "" or slot1 == "" or slot0.withoutActorName then
+	if (not slot0.actorName or not slot0:GetCustomActorName()) and not slot0:GetPaintingAndName() and not "" or slot1 == "" then
+		slot1 = slot0:GetPortraitName()
+	end
+
+	if not slot1 or slot1 == "" or slot0.withoutActorName then
 		return nil
 	end
 
@@ -521,6 +543,10 @@ slot0.GetFontSize = function(slot0)
 end
 
 slot0.IsSpinePainting = function(slot0)
+	if PLATFORM_CODE == PLATFORM_CH and HXSet.isHx() then
+		return false
+	end
+
 	return tobool(slot0:GetPainting() ~= nil and slot0.spine)
 end
 
@@ -537,6 +563,10 @@ slot0.GetSpineOrderIndex = function(slot0)
 end
 
 slot0.IsLive2dPainting = function(slot0)
+	if PLATFORM_CODE == PLATFORM_CH and HXSet.isHx() then
+		return false
+	end
+
 	return tobool(slot0:GetPainting() ~= nil and slot0.live2d)
 end
 
