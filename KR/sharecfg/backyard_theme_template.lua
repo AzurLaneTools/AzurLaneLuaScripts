@@ -690,8 +690,8 @@ pg.backyard_theme_template = {
 	},
 	[20] = {
 		Cfg_1 = 5,
-		name = "만쥬 파크 ",
-		desc = "만쥬 파크에 어서 오세요!",
+		name = "쥬쥬 파크 ",
+		desc = "쥬쥬 파크에 어서 오세요!",
 		deblocking = 1,
 		new = 0,
 		hot = 0,
@@ -809,8 +809,8 @@ pg.backyard_theme_template = {
 	},
 	[23] = {
 		Cfg_1 = 5,
-		name = "만쥬 유치원",
-		desc = "유치원 개원! 이제 만쥬 수용은 걱정 없겠어!",
+		name = "쥬쥬 유치원",
+		desc = "유치원 개원! 이제 쥬쥬 수용은 걱정 없겠어!",
 		deblocking = 1,
 		new = 0,
 		hot = 0,
@@ -850,7 +850,7 @@ pg.backyard_theme_template = {
 	[24] = {
 		Cfg_1 = 5,
 		name = "고양이 카페",
-		desc = "고양이 카페에 오신 걸 환영한다냥! ",
+		desc = "「고양이 카페에 오신 걸 환영한다냥! 」",
 		deblocking = 1,
 		new = 0,
 		hot = 0,
@@ -2377,8 +2377,8 @@ pg.backyard_theme_template = {
 	},
 	[63] = {
 		Cfg_1 = 5,
-		name = "만쥬 피자헛",
-		desc = "너무 맛있다쥬쥬! ",
+		name = "쥬쥬 피자헛",
+		desc = "「너무 맛있다쥬쥬! 」",
 		deblocking = 1,
 		new = 0,
 		hot = 0,
@@ -3238,7 +3238,7 @@ pg.backyard_theme_template = {
 	},
 	[87] = {
 		Cfg_1 = 5,
-		name = "만쥬 학교2",
+		name = "쥬쥬 학교2",
 		desc = "신학기가 시작된다쥬쥬!",
 		deblocking = 1,
 		new = 0,
@@ -3400,7 +3400,7 @@ pg.backyard_theme_template = {
 	},
 	[91] = {
 		Cfg_1 = 5,
-		name = "만쥬 댄스 룸",
+		name = "쥬쥬 댄스 룸",
 		desc = "음악에 맞춰 춤추는 거다쥬쥬!",
 		deblocking = 1,
 		new = 0,
@@ -3522,8 +3522,8 @@ pg.backyard_theme_template = {
 	},
 	[94] = {
 		Cfg_1 = 5,
-		name = "만쥬 학교 축제",
-		desc = "즐거운 만쥬들의 학교 축제, 지금 개최 중!",
+		name = "쥬쥬 학교 축제",
+		desc = "즐거운 쥬쥬들의 학교 축제, 지금 개최 중!",
 		deblocking = 1,
 		new = 0,
 		hot = 0,
@@ -3612,8 +3612,8 @@ pg.backyard_theme_template = {
 	},
 	[96] = {
 		Cfg_1 = 5,
-		name = "만쥬 비치 하우스",
-		desc = "만쥬 비치 하우스에서 해변을 만끽해라쥬쥬!",
+		name = "쥬쥬 비치 하우스",
+		desc = "쥬쥬 비치 하우스에서 해변을 만끽해라쥬쥬!",
 		deblocking = 1,
 		new = 0,
 		hot = 0,
@@ -3653,7 +3653,7 @@ pg.backyard_theme_template = {
 	[97] = {
 		Cfg_1 = 5,
 		name = "이스트 글림 미식 랜드",
-		desc = "색, 향, 맛의 삼박자를 모두 갖춘 미식의 향연!",
+		desc = "「색, 향, 맛」의 삼박자를 모두 갖춘 미식의 향연!",
 		deblocking = 1,
 		new = 0,
 		hot = 0,
@@ -3753,7 +3753,7 @@ pg.backyard_theme_template = {
 	},
 	[99] = {
 		Cfg_1 = 5,
-		name = "만쥬의 숨겨진 온천",
+		name = "쥬쥬의 숨겨진 온천",
 		desc = "피어오르는 김이 왠지 철학적",
 		deblocking = 1,
 		new = 0,
@@ -3800,7 +3800,7 @@ pg.backyard_theme_template = {
 	[100] = {
 		Cfg_1 = 5,
 		name = "쥬쥬 무인도",
-		desc = "이곳에 나만의 거점을 만들어보세요!",
+		desc = "여기에 거점을 세우자!",
 		deblocking = 1,
 		new = 0,
 		hot = 1,
@@ -3887,8 +3887,8 @@ pg.backyard_theme_template = {
 	},
 	[102] = {
 		Cfg_1 = 5,
-		name = "만쥬 팰리스",
-		desc = "고풍스럽고 특별한 만쥬 팰리스. 이렇게 우아할수가!",
+		name = "쥬쥬 팰리스",
+		desc = "고풍스럽고 특별한 쥬쥬 팰리스. 이렇게 우아할수가!",
 		deblocking = 1,
 		new = 0,
 		hot = 1,
@@ -3935,8 +3935,8 @@ pg.backyard_theme_template = {
 	},
 	[103] = {
 		Cfg_1 = 5,
-		name = "요괴 온천가",
-		desc = "땅거미 질 무렵, 온천가에서 대모험을…?!",
+		name = "요괴 온천 마을",
+		desc = "땅거미 질 무렵 온천 마을에서 대모험…!?",
 		deblocking = 1,
 		new = 0,
 		hot = 1,
@@ -4320,6 +4320,41 @@ pg.backyard_theme_template = {
 			312302
 		}
 	},
+	[113] = {
+		Cfg_1 = 5,
+		name = "웨스턴 여관",
+		desc = "숙소에서는 싸움 금지다쥬쥬!",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 114,
+		id = 113,
+		icon = "xbthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			313001,
+			313002,
+			313101,
+			313102,
+			313103,
+			313104,
+			313105,
+			313106,
+			313107,
+			313108,
+			313109,
+			313110,
+			313111,
+			313112,
+			313301,
+			313302,
+			313303
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4418,6 +4453,7 @@ pg.backyard_theme_template = {
 		109,
 		110,
 		111,
-		112
+		112,
+		113
 	}
 }

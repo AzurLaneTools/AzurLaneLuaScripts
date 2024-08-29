@@ -122,6 +122,10 @@ slot0.displayBG = function(slot0, slot1)
 
 			slot3:SetParent(slot0.bg.transform, false)
 			slot3:SetAsFirstSibling()
+
+			if slot0.criBgGo:GetComponent("AspectRatioFitter") then
+				slot4.enabled = true
+			end
 		end
 	else
 		if not slot0.isCri then

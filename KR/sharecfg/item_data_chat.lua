@@ -93,7 +93,15 @@ pg.item_data_chat = {
 		time_second = 0,
 		id = 606,
 		time_limit_type = 0,
-		desc = "<size=28>일렁이는 파도를 타고 휴일 크루즈를 만끽하자!\n<color=#A7A7AAFF>이벤트 \"휴일! 심쿵! 크루즈!\" 참가 시 획득 가능</color></size>",
+		desc = "<size=28>일렁이는 파도를 타고 크루즈 바캉스를 만끽하자! \n<color=#A7A7AAFF>이벤트 「설레는 휴일의 대항해」 참가 시 획득 가능</color></size>",
+		scene = {}
+	},
+	[607] = {
+		name = "휴일 개척의 추억",
+		time_second = 0,
+		id = 607,
+		time_limit_type = 0,
+		desc = "<size=28>황야, 개척, 웨스턴 스타일 휴일의 추억. \n<color=#A7A7AAFF>이벤트 「황야 휴일 개척기」 참가 보상</color>.</size>",
 		scene = {}
 	},
 	[10001] = {
@@ -205,6 +213,7 @@ pg.item_data_chat = {
 		602,
 		603,
 		606,
+		607,
 		10001,
 		10002,
 		10003,

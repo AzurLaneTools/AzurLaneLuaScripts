@@ -69,7 +69,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 108,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>6년 동안 모항에서 분투해 온 지휘관들에게 바칩니다.</color>\n6주년 한정 이벤트에 참여하여 획득",
+		desc = "<color=#ffffff>Sixth Anniversary! </color>\n　6주년 기념 이벤트에서 오픈 가능",
 		scene = {}
 	},
 	[201] = {
@@ -451,12 +451,12 @@ pg.item_data_frame = {
 		scene = {}
 	},
 	[331] = {
-		name = "팽배한 마음",
+		name = "스플렌디드 하트",
 		gain_by = "",
 		time_second = 0,
 		id = 331,
 		time_limit_type = 0,
-		desc = "이벤트에서 획득 가능",
+		desc = "<color=#ffffff>「멈추지 않는 뜨거운 심장 박동,  파도를 가르는 강철 바람」</color>\n「강철의 날개와 바람」 이벤트 참가 보상.",
 		scene = {}
 	},
 	[401] = {
@@ -564,7 +564,16 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 606,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>돛을 올려라! 크루즈선을 타고 가슴 설레는 여행을 떠나자! </color>이벤트 \"휴일! 심쿵! 크루즈!\" 참가 시 획득 가능",
+		desc = "<color=#ffffff>돛을 올려라! 크루즈선을 타고 가슴 설레는 여행을 떠나자! </color>이벤트 「설레는 휴일의 대항해」 참가 시 획득 가능",
+		scene = {}
+	},
+	[607] = {
+		name = "어느 황야의 여행",
+		gain_by = "",
+		time_second = 0,
+		id = 607,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>누구도 자신의 이야기에서 벗어날 수 없다. 설령 그것이 자유로운 방랑자라도――</color>「황야 휴일 개척기」 이벤트 참가 보상.",
 		scene = {}
 	},
 	[10001] = {
@@ -739,6 +748,7 @@ pg.item_data_frame = {
 		603,
 		605,
 		606,
+		607,
 		10001,
 		10002,
 		10003,

@@ -9375,6 +9375,17 @@ _G.pg.base.gametip.ship_remould_sueecss = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_101994 = {
+	tip = [[
+개조를 실시하면 <color=#92fc63>「전기 출력 증폭 장치」</color>가 소모됩니다.
+계속하시겠습니까? 
+개조하면 <color=#92fc63>[대공포 포좌 +1], [특수 대잠 장비 추가]</color>
+스킬 <color=#92fc63>[레인보우 프로젝트]</color>가 <color=#92fc63>[레인보우 프로젝트改]</color>로 강화
+스킬 <color=#92fc63>[특수 탄막 - 엘드릿지Ⅱ]</color>가
+<color=#92fc63>[특수 탄막 - 엘드릿지Ⅲ]</color>으로 강화됩니다.]]
+}
+
+
 _G.pg.base.gametip.ship_remould_warning_102174 = {
 	tip = "이번 개조 과정에는 <color=#92fc63>빛나는 마이크</color>\n가 소모됩니다. 계속 진행 하시겠습니까?"
 }
@@ -12358,7 +12369,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「스트라스부르」, 「듀플렉스」의 등장 확률 UP!"
+	tip = "「피츠버그」, 「인디애나」 등의 등장 확률 UP!"
 }
 
 
@@ -28738,6 +28749,16 @@ _G.pg.base.gametip.battle_text_luodeni_3 = {
 }
 
 
+_G.pg.base.gametip.battle_text_pizibao_1 = {
+	tip = "지원 함대 도착! <color=#f1f102>적의 공격을 유도해서</color> 아군을 지키자!"
+}
+
+
+_G.pg.base.gametip.battle_text_pizibao_2 = {
+	tip = "지원 함대가 <color=#f1f102>격파 당했다</color>! 난전이 예상된다…!"
+}
+
+
 _G.pg.base.gametip.series_enemy_mood = {
 	tip = "감정 부족"
 }
@@ -34133,4 +34154,70 @@ _G.pg.base.gametip.sitelasibao_expup_desc = {
 
 _G.pg.base.gametip.levelScene_tracking_error_pre_2 = {
 	tip = "$1 또는 $2 클리어 시 오픈"
+}
+
+
+_G.pg.base.gametip.town_lock_level = {
+	tip = "마을 레벨 $1 달성"
+}
+
+
+_G.pg.base.gametip.town_place_next_title = {
+	tip = "다음 레벨 효과"
+}
+
+
+_G.pg.base.gametip.town_unlcok_new = {
+	tip = "작전 지점 오픈"
+}
+
+
+_G.pg.base.gametip.town_unlcok_level = {
+	tip = "최대 레벨 상승"
+}
+
+
+_G.pg.base.gametip["0815_main_help"] = {
+	tip = {
+		{
+			info = [[
+플레이 방법:
+ 기간 한정 이벤트 「황야 휴일 개척기」 <color=#92fc63>8.29(목) ~ 9.12(목) 점검</color>까지 진행!
+
+ ·이벤트 기간 중에 「개척 마을」에서 획득할 수 있는 「개척 코인」으로 시설을 레벨업시키고 번영도를 올리면, 다양한 스토리 오픈 가능!
+ ·또한 한정 임무 클리어 등 조건을 달성하면, 한정 <color=#92fc63>채팅 아이콘</color>, <color=#92fc63>채팅 테두리</color>, <color=#92fc63>한정 가구</color> 획득 가능!
+ ·9.4(수)까지 미니 게임 횟수가 매일 1회씩 가산됩니다! 미니 게임 횟수를 보유한 상태에서 「개척 마을」의 미니 게임을 플레이하면, 횟수를 소모하여 보상을 획득할 수 있습니다!]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.town_help = {
+	tip = {
+		{
+			info = [[
+플레이 방법:
+ 기간 한정 이벤트 「황야 휴일 개척기」 <color=#92fc63>8.29(목) ~ 9.12(목) 점검</color>까지 진행!
+
+  ·개척 마을에서는 시간이 경과함에 따라 「개척 코인」을 획득할 수 있습니다. 또한 일부 한정 임무 및 등장 캐릭터를 탭하는 것으로도 「개척 코인」을 획득할 수 있습니다.
+ ·「개척 코인」을 사용하면 시설(작업 지점)의 레벨을 올릴 수 있습니다. 시설 레벨이 높아질 수록 「개척 코인」 획득 효율이 상승하고, 마을의 「번영도」도 높아집니다.
+ ·마을의 「번영도」가 일정 수치에 달하면, 「개척 코인」을 사용하여 마을 레벨을 올릴 수 있습니다. 마을 레벨이 상승하면, 새로운 시설(작업 지점) 등의 콘텐츠가 오픈됩니다.
+ ·「개척 동료」에 캐릭터를 배치하면, 배치된 캐릭터 등장 시에 얻을 수 있는 호감도 보너스가 상승합니다. 또한 캐릭터가 개척 마을에 등장할 시, 이를 탭하면 「개척 코인」을 소량 획득할 수 있습니다.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.activity_0815_town_memory = {
+	tip = "아이템이 부족합니다. 한정 임무를 클리어하여 추억을 오픈하세요!"
+}
+
+
+_G.pg.base.gametip.town_gold_tip = {
+	tip = "개척 코인 소지 수가 한도에 도달했습니다. 수령하면 한도를 초과하는 「개척 코인」은 파기됩니다. 계속하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.award_max_warning_minigame = {
+	tip = "보상 획득 시 <color=#ff5c5c>최대 소지 한도를 초과한</color> 보상 아이템은 파기됩니다. 계속하시겠습니까?"
 }

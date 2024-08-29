@@ -27595,6 +27595,159 @@ pg.ship_strengthen_blueprint = {
 			"어뢰 보정 +15%"
 		}
 	},
+	[2931] = {
+		effect_breakout = 0,
+		effect_desc = "운 +1",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 2931,
+		need_exp = 100,
+		lv = 31,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				1
+			}
+		}
+	},
+	[2932] = {
+		effect_breakout = 0,
+		effect_desc = "운 +2",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 2932,
+		need_exp = 200,
+		lv = 32,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				2
+			}
+		}
+	},
+	[2933] = {
+		effect_breakout = 0,
+		effect_desc = "운 +3",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 2933,
+		need_exp = 300,
+		lv = 33,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				3
+			}
+		}
+	},
+	[2934] = {
+		effect_breakout = 0,
+		effect_desc = "운 +4",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 2934,
+		need_exp = 400,
+		lv = 34,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				4
+			}
+		}
+	},
+	[2935] = {
+		effect_breakout = 0,
+		effect_desc = "운+5|스킬 [용신의 위엄]이 [용신의 위엄+]로 강화",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 100,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 2935,
+		need_exp = 650,
+		lv = 35,
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				5
+			}
+		},
+		change_skill = {
+			19760,
+			18760
+		}
+	},
 	[3001] = {
 		effect_breakout = 0,
 		effect_desc = "도감 오픈: 로그인, 모항 귀환, 자기소개",
@@ -28416,6 +28569,159 @@ pg.ship_strengthen_blueprint = {
 			"특수 탄막 강화",
 			"장비 보정 +5%",
 			"설비 장착 시 능력치 상승 +30%"
+		}
+	},
+	[3031] = {
+		effect_breakout = 0,
+		effect_desc = "운 +1",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3031,
+		need_exp = 100,
+		lv = 31,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				1
+			}
+		}
+	},
+	[3032] = {
+		effect_breakout = 0,
+		effect_desc = "운 +2",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3032,
+		need_exp = 200,
+		lv = 32,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				2
+			}
+		}
+	},
+	[3033] = {
+		effect_breakout = 0,
+		effect_desc = "운 +3",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3033,
+		need_exp = 300,
+		lv = 33,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				3
+			}
+		}
+	},
+	[3034] = {
+		effect_breakout = 0,
+		effect_desc = "운 +4",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3034,
+		need_exp = 400,
+		lv = 34,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				4
+			}
+		}
+	},
+	[3035] = {
+		effect_breakout = 0,
+		effect_desc = "운 +5|스킬 [약한 자에게는 고통뿐]이 [약한 자에게는 고통뿐+]로 강화",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 100,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3035,
+		need_exp = 650,
+		lv = 35,
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				5
+			}
+		},
+		change_skill = {
+			19690,
+			18620
 		}
 	},
 	[3101] = {
@@ -30068,6 +30374,159 @@ pg.ship_strengthen_blueprint = {
 			"[안티 세이렌] 강화",
 			"주포 포좌 +1",
 			"주포 보정 +15%"
+		}
+	},
+	[3231] = {
+		effect_breakout = 0,
+		effect_desc = "운 +1",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3231,
+		need_exp = 100,
+		lv = 31,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				1
+			}
+		}
+	},
+	[3232] = {
+		effect_breakout = 0,
+		effect_desc = "운 +2",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3232,
+		need_exp = 200,
+		lv = 32,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				2
+			}
+		}
+	},
+	[3233] = {
+		effect_breakout = 0,
+		effect_desc = "운 +3",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3233,
+		need_exp = 300,
+		lv = 33,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				3
+			}
+		}
+	},
+	[3234] = {
+		effect_breakout = 0,
+		effect_desc = "운 +4",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3234,
+		need_exp = 400,
+		lv = 34,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				4
+			}
+		}
+	},
+	[3235] = {
+		effect_breakout = 0,
+		effect_desc = "운 +5|스킬 [성도의 지령 「휘장 급습」]이 [성도의 지령 「휘장 급습」+]로 강화",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 100,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 3235,
+		need_exp = 650,
+		lv = 35,
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				5
+			}
+		},
+		change_skill = {
+			19730,
+			18730
 		}
 	},
 	[3301] = {
@@ -35180,6 +35639,11 @@ pg.ship_strengthen_blueprint = {
 		2928,
 		2929,
 		2930,
+		2931,
+		2932,
+		2933,
+		2934,
+		2935,
 		3001,
 		3002,
 		3003,
@@ -35210,6 +35674,11 @@ pg.ship_strengthen_blueprint = {
 		3028,
 		3029,
 		3030,
+		3031,
+		3032,
+		3033,
+		3034,
+		3035,
 		3101,
 		3102,
 		3103,
@@ -35270,6 +35739,11 @@ pg.ship_strengthen_blueprint = {
 		3228,
 		3229,
 		3230,
+		3231,
+		3232,
+		3233,
+		3234,
+		3235,
 		3301,
 		3302,
 		3303,

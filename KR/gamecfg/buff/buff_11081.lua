@@ -48,6 +48,16 @@ return {
 				},
 				arg_list = {
 					number = 0.1,
+					attr = "DMG_TAG_EHC_T_19"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.1,
 					attr = "DMG_TAG_EHC_T_20"
 				}
 			},
@@ -112,6 +122,16 @@ return {
 				},
 				arg_list = {
 					number = 0.111,
+					attr = "DMG_TAG_EHC_T_19"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.111,
 					attr = "DMG_TAG_EHC_T_20"
 				}
 			},
@@ -176,6 +196,16 @@ return {
 				},
 				arg_list = {
 					number = 0.122,
+					attr = "DMG_TAG_EHC_T_19"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.122,
 					attr = "DMG_TAG_EHC_T_20"
 				}
 			},
@@ -240,6 +270,16 @@ return {
 				},
 				arg_list = {
 					number = 0.133,
+					attr = "DMG_TAG_EHC_T_19"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.133,
 					attr = "DMG_TAG_EHC_T_20"
 				}
 			},
@@ -304,6 +344,16 @@ return {
 				},
 				arg_list = {
 					number = 0.144,
+					attr = "DMG_TAG_EHC_T_19"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.144,
 					attr = "DMG_TAG_EHC_T_20"
 				}
 			},
@@ -368,6 +418,16 @@ return {
 				},
 				arg_list = {
 					number = 0.155,
+					attr = "DMG_TAG_EHC_T_19"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.155,
 					attr = "DMG_TAG_EHC_T_20"
 				}
 			},
@@ -432,6 +492,16 @@ return {
 				},
 				arg_list = {
 					number = 0.166,
+					attr = "DMG_TAG_EHC_T_19"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.166,
 					attr = "DMG_TAG_EHC_T_20"
 				}
 			},
@@ -496,6 +566,16 @@ return {
 				},
 				arg_list = {
 					number = 0.177,
+					attr = "DMG_TAG_EHC_T_19"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.177,
 					attr = "DMG_TAG_EHC_T_20"
 				}
 			},
@@ -560,6 +640,16 @@ return {
 				},
 				arg_list = {
 					number = 0.188,
+					attr = "DMG_TAG_EHC_T_19"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.188,
 					attr = "DMG_TAG_EHC_T_20"
 				}
 			},
@@ -615,6 +705,16 @@ return {
 				arg_list = {
 					number = 0.2,
 					attr = "DMG_TAG_EHC_T_16"
+				}
+			},
+			{
+				type = "BattleBuffAddAttr",
+				trigger = {
+					"onAttach"
+				},
+				arg_list = {
+					number = 0.2,
+					attr = "DMG_TAG_EHC_T_19"
 				}
 			},
 			{
@@ -694,6 +794,16 @@ return {
 			arg_list = {
 				number = 0.1,
 				attr = "DMG_TAG_EHC_T_16"
+			}
+		},
+		{
+			type = "BattleBuffAddAttr",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				number = 0.1,
+				attr = "DMG_TAG_EHC_T_19"
 			}
 		},
 		{

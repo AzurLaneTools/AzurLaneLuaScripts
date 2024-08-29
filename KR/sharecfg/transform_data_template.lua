@@ -70,6 +70,18 @@ pg.transform_data_template = setmetatable({
 		2709,
 		2710,
 		2711,
+		2801,
+		2802,
+		2803,
+		2804,
+		2805,
+		2806,
+		2807,
+		2808,
+		2809,
+		2810,
+		2811,
+		2812,
 		3301,
 		3302,
 		3303,
@@ -3705,6 +3717,509 @@ pg.base.transform_data_template = {
 		},
 		gear_score = {
 			50
+		}
+	},
+	[2801] = {
+		level_limit = 1,
+		name = "함체 개수Ⅰ",
+		descrip = "",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 1,
+		star_limit = 3,
+		icon = "hp_1",
+		skill_id = 0,
+		use_gold = 600,
+		id = 2801,
+		condition_id = {},
+		effect = {
+			{
+				durability = 45
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18002,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[2802] = {
+		level_limit = 5,
+		name = "기동 강화Ⅰ",
+		descrip = "",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 3,
+		icon = "dd_1",
+		skill_id = 0,
+		use_gold = 800,
+		id = 2802,
+		condition_id = {
+			2801
+		},
+		effect = {
+			{
+				dodge = 5
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18002,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[2803] = {
+		level_limit = 20,
+		name = "주포 개수Ⅰ",
+		descrip = "",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "mgup_1",
+		skill_id = 0,
+		use_gold = 1000,
+		id = 2803,
+		condition_id = {
+			2801
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18002,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[2804] = {
+		level_limit = 25,
+		name = "포격 강화Ⅰ",
+		descrip = "",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "cn_1",
+		skill_id = 0,
+		use_gold = 1500,
+		id = 2804,
+		condition_id = {
+			2803
+		},
+		effect = {
+			{
+				cannon = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18002,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[2805] = {
+		level_limit = 35,
+		name = "함체 개수Ⅱ",
+		descrip = "",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 5,
+		icon = "hp_2",
+		skill_id = 0,
+		use_gold = 1800,
+		id = 2805,
+		condition_id = {
+			2803
+		},
+		effect = {
+			{
+				durability = 45
+			},
+			{
+				durability = 75
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18002,
+					2
+				}
+			},
+			{
+				{
+					18002,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			10
+		}
+	},
+	[2806] = {
+		level_limit = 40,
+		name = "기동 강화Ⅱ",
+		descrip = "",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 5,
+		icon = "dd_2",
+		skill_id = 0,
+		use_gold = 2000,
+		id = 2806,
+		condition_id = {
+			2802,
+			2805
+		},
+		effect = {
+			{
+				dodge = 5
+			},
+			{
+				dodge = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18002,
+					2
+				}
+			},
+			{
+				{
+					18002,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			10
+		}
+	},
+	[2807] = {
+		level_limit = 50,
+		name = "주포 개수Ⅱ",
+		descrip = "",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 5,
+		icon = "mgup_2",
+		skill_id = 0,
+		use_gold = 2500,
+		id = 2807,
+		condition_id = {
+			2805
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.05
+			},
+			{
+				equipment_proficiency_1 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18003,
+					1
+				}
+			},
+			{
+				{
+					18003,
+					1
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	},
+	[2808] = {
+		level_limit = 55,
+		name = "포격 강화Ⅱ",
+		descrip = "",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 5,
+		icon = "cn_2",
+		skill_id = 0,
+		use_gold = 3000,
+		id = 2808,
+		condition_id = {
+			2807
+		},
+		effect = {
+			{
+				cannon = 5
+			},
+			{
+				cannon = 15
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18003,
+					1
+				}
+			},
+			{
+				{
+					18003,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	},
+	[2809] = {
+		level_limit = 70,
+		name = "주포 개수Ⅱ",
+		descrip = "",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 6,
+		icon = "mgup_2",
+		skill_id = 0,
+		use_gold = 4000,
+		id = 2809,
+		condition_id = {
+			2807
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.05
+			},
+			{
+				equipment_proficiency_1 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18003,
+					2
+				}
+			},
+			{
+				{
+					18003,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[2810] = {
+		level_limit = 75,
+		name = "뇌격 강화Ⅲ",
+		descrip = "",
+		max_level = 3,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 6,
+		icon = "Cn_3",
+		skill_id = 0,
+		use_gold = 5000,
+		id = 2810,
+		condition_id = {
+			2804,
+			2809
+		},
+		effect = {
+			{
+				cannon = 5
+			},
+			{
+				cannon = 10
+			},
+			{
+				cannon = 15
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18003,
+					1
+				},
+				{
+					17013,
+					10
+				}
+			},
+			{
+				{
+					18003,
+					2
+				},
+				{
+					17013,
+					20
+				}
+			},
+			{
+				{
+					18003,
+					3
+				},
+				{
+					17013,
+					30
+				}
+			}
+		},
+		gear_score = {
+			5,
+			10,
+			15
+		}
+	},
+	[2811] = {
+		level_limit = 85,
+		name = "근대화 개수",
+		descrip = [[
+개조하면 대공 +60
+대공포 포좌+1
+특수 대잠 장비 추가
+스킬 <color=#92fc63>[레인보우 프로젝트]</color>가 <color=#92fc63>[레인보우 프로젝트改]</color>로 강화
+스킬 <color=#92fc63>[특수 탄막 - 엘드릿지Ⅱ]</color>가
+<color=#92fc63>[특수 탄막 - 엘드릿지Ⅲ]</color>으로 강화됩니다.]],
+		max_level = 1,
+		skin_id = 101269,
+		use_ship = 1,
+		star_limit = 6,
+		icon = "mt_red",
+		skill_id = 0,
+		use_gold = 7500,
+		id = 2811,
+		condition_id = {
+			2809,
+			2810
+		},
+		effect = {
+			{
+				antiaircraft = 60
+			}
+		},
+		ship_id = {
+			{
+				101264,
+				101994
+			}
+		},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					59853,
+					1
+				}
+			}
+		},
+		gear_score = {
+			50
+		}
+	},
+	[2812] = {
+		level_limit = 90,
+		name = "전술 계발",
+		descrip = "习得技能【电气功率MAX！】",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 1,
+		star_limit = 6,
+		icon = "skill_red",
+		skill_id = 150320,
+		use_gold = 5000,
+		id = 2812,
+		condition_id = {
+			2808,
+			2811
+		},
+		effect = {
+			{
+				skill_id = 150320
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18003,
+					5
+				}
+			}
+		},
+		gear_score = {
+			30
 		}
 	},
 	[3301] = {

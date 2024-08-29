@@ -132,30 +132,6 @@ slot0.changeNew = function(slot0)
 	end
 end
 
-slot0.isCircle = function(slot0)
-	if slot0.actType == ActivityConst.ACTIVITY_TYPE_TASK_RYZA then
-		if slot0.type == 16 and slot0.subType == 1006 then
-			return true
-		elseif slot0:isRepeated() then
-			return true
-		end
-	end
-
-	return false
-end
-
-slot0.isRepeated = function(slot0)
-	if slot0.type == 16 and slot0.subType == 20 then
-		return true
-	end
-
-	return false
-end
-
-slot0.isDaily = function(slot0)
-	return slot0.subType == 415 or slot0.subType == 412
-end
-
 slot0.ShowOnTaskScene = function(slot0)
 	return false
 end

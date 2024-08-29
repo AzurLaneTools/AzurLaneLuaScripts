@@ -124,21 +124,29 @@ slot3.GetBuffBulletRes = function(slot0, slot1, slot2, slot3, slot4)
 	slot8(slot7.buff_list)
 	slot8(slot7.hide_buff_list)
 
-	for slot13, slot14 in ipairs(slot7.airassist_time) do
-		slot19 = slot3
+	slot9 = {}
 
-		for slot19, slot20 in ipairs(uv0.GetResFromSkill(slot14, 1, nil, slot19)) do
-			slot5[#slot5 + 1] = slot20
+	for slot13, slot14 in pairs(slot1) do
+		table.insert(slot9, slot13)
+	end
+
+	slot8(slot9)
+
+	for slot14, slot15 in ipairs(slot7.airassist_time) do
+		slot20 = slot3
+
+		for slot20, slot21 in ipairs(uv0.GetResFromSkill(slot15, 1, nil, slot20)) do
+			slot5[#slot5 + 1] = slot21
 		end
 	end
 
-	if uv0.GetShipTransformDataTemplate(slot0) and slot10.skill_id ~= 0 and pg.transform_data_template[slot10.skill_id].skill_id ~= 0 then
-		slot12 = nil
-		slot12 = (not slot1[pg.transform_data_template[slot10.skill_id].skill_id] or slot1[slot11].level) and 1
-		slot17 = slot3
+	if uv0.GetShipTransformDataTemplate(slot0) and slot11.skill_id ~= 0 and pg.transform_data_template[slot11.skill_id].skill_id ~= 0 then
+		slot13 = nil
+		slot13 = (not slot1[pg.transform_data_template[slot11.skill_id].skill_id] or slot1[slot12].level) and 1
+		slot18 = slot3
 
-		for slot17, slot18 in ipairs(uv0.GetResFromBuff(slot11, slot12, slot6, slot17)) do
-			slot5[#slot5 + 1] = slot18
+		for slot18, slot19 in ipairs(uv0.GetResFromBuff(slot12, slot13, slot6, slot18)) do
+			slot5[#slot5 + 1] = slot19
 		end
 	end
 
@@ -290,6 +298,10 @@ slot3.GetResFromSkill = function(slot0, slot1, slot2, slot3)
 
 	slot6 = function(slot0)
 		for slot4, slot5 in ipairs(slot0) do
+			if slot5.type == "BattleBuffShieldWall" then
+				print(slot5.arg_list.effect)
+			end
+
 			if slot5.type == uv0.Battle.BattleSkillGridmanFloat.__name then
 				table.insert(uv1, "UI/combatgridmanskillfloat")
 			end

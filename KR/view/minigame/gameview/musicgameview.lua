@@ -102,7 +102,7 @@ slot0.init = function(slot0)
 	slot0.selectview = slot0:findTF("Selectview")
 	slot1 = findTF(slot0.selectview, "bg")
 
-	LoadSpriteAtlasAsync("ui/musicgameother_atlas", "selectbg", function (slot0)
+	LoadSpriteAtlasAsync("ui/minigameui/musicgameother_atlas", "selectbg", function (slot0)
 		GetComponent(uv0, typeof(Image)).sprite = slot0
 
 		setActive(uv0, true)
@@ -195,7 +195,7 @@ slot0.didEnter = function(slot0)
 		uv0.game_playingflag = false
 
 		uv0:effect_play("nothing")
-		LoadSpriteAtlasAsync("ui/musicgameother_atlas", "pause_" .. uv0.musicData.picture, function (slot0)
+		LoadSpriteAtlasAsync("ui/minigameui/musicgameother_atlas", "pause_" .. uv0.musicData.picture, function (slot0)
 			setImageSprite(uv0.pauseview:Find("bottom/song"), slot0, true)
 		end)
 		GetComponent(uv0.pauseview:Find("bottom/img"), typeof(Image)):SetNativeSize()
@@ -714,7 +714,7 @@ slot0.loadSDModel = function(slot0, slot1)
 			slot9 = slot8
 
 			if slot0.musicData.ships[slot8] and slot0.musicData.ships[slot8] ~= "" and slot0.musicData.ships[slot8] ~= "none" then
-				LoadSpriteAtlasAsync("ui/musicgameother_atlas", "light" .. slot0.musicLight, function (slot0)
+				LoadSpriteAtlasAsync("ui/minigameui/musicgameother_atlas", "light" .. slot0.musicLight, function (slot0)
 					setActive(findTF(uv0._tf, "Spinelist/" .. uv1 .. "/light"), true)
 					setImageSprite(findTF(uv0._tf, "Spinelist/" .. uv1 .. "/light"), slot0, true)
 				end)
@@ -1410,7 +1410,7 @@ slot0.Firstshow = function(slot0, slot1, slot2, slot3)
 	slot0.count = 0
 
 	setActive(slot1, true)
-	LoadSpriteAtlasAsync("ui/musicgameother_atlas", "help1", function (slot0)
+	LoadSpriteAtlasAsync("ui/minigameui/musicgameother_atlas", "help1", function (slot0)
 		GetComponent(findTF(uv0.firstview, "num/img1"), typeof(Image)).sprite = slot0
 	end)
 
@@ -1418,7 +1418,7 @@ slot0.Firstshow = function(slot0, slot1, slot2, slot3)
 		GetComponent(findTF(uv0.firstview, "num/img2"), typeof(Image)).sprite = slot0
 	end
 
-	LoadSpriteAtlasAsync("ui/musicgameother_atlas", "help2", slot7)
+	LoadSpriteAtlasAsync("ui/minigameui/musicgameother_atlas", "help2", slot7)
 
 	for slot7 = 1, 2 do
 		setActive(findTF(slot1, "num/img" .. slot7), slot7 == slot3 and true or false)
@@ -1534,7 +1534,7 @@ slot0.locadScoreView = function(slot0)
 	slot6 = 0
 
 	setImageColor(findTF(slot0.scoreview, "bg"), Color(0, slot6, 0))
-	LoadSpriteAtlasAsync("ui/musicgameother_atlas", "scoreBg" .. slot0.musicBg, function (slot0)
+	LoadSpriteAtlasAsync("ui/minigameui/musicgameother_atlas", "scoreBg" .. slot0.musicBg, function (slot0)
 		if uv0 then
 			GetComponent(uv0, typeof(Image)).sprite = slot0
 
@@ -1577,8 +1577,8 @@ slot0.locadScoreView = function(slot0)
 	if MusicGameConst.painting_const_key[string.lower(slot0.painting)] then
 		slot8 = {}
 
-		PaintingConst.AddPaintingNameWithFilteMap(slot8, slot7)
-		PaintingConst.PaintingDownload({
+		PaintingGroupConst.AddPaintingNameWithFilteMap(slot8, slot7)
+		PaintingGroupConst.PaintingDownload({
 			isShowBox = false,
 			paintingNameList = slot8,
 			finishFunc = function ()

@@ -1,5 +1,5 @@
 slot0 = class("RopingCowGameView", import("..BaseMiniGameView"))
-slot1 = "SailAwayJustice-inst"
+slot1 = "story-richang-westdaily"
 slot2 = "event:/ui/ddldaoshu2"
 slot3 = "event:/ui/niujiao"
 slot4 = "event:/ui/taosheng"
@@ -545,13 +545,18 @@ slot0.onEventHandle = function(slot0, slot1)
 end
 
 slot0.initData = function(slot0)
+	slot0.storylist = pg.mini_game[slot0:GetMGData().id].simple_config_data.story
+	slot1 = pg.mini_game[slot0:GetMGData().id].simple_config_data.stroy_act
+	slot0.storyFinal = pg.activity_template[slot1].config_client.story
+	slot0.storyBefore = pg.activity_template[slot1].config_client.beforestory
+
 	if (Application.targetFrameRate or 60) > 60 then
-		slot1 = 60
+		slot2 = 60
 	end
 
 	slot0.timer = Timer.New(function ()
 		uv0:onTimer()
-	end, 1 / slot1, -1)
+	end, 1 / slot2, -1)
 end
 
 slot0.initUI = function(slot0)
@@ -622,8 +627,15 @@ slot0.initUI = function(slot0)
 		})
 	end, SFX_CANCEL)
 	onButton(slot0, findTF(slot0.menuUI, "btnStart"), function ()
-		setActive(uv0.menuUI, false)
-		uv0:readyStart()
+		if uv0:getGameTimes() > 0 then
+			uv0:checkOverflow(pg.mini_game[uv0:GetMGData().id].simple_config_data.drop[uv0:getGameUsedTimes() + 1], function ()
+				setActive(uv0.menuUI, false)
+				uv0:readyStart()
+			end)
+		else
+			setActive(uv0.menuUI, false)
+			uv0:readyStart()
+		end
 	end, SFX_CANCEL)
 
 	slot2 = findTF(slot0.menuUI, "tplBattleItem")
@@ -647,7 +659,7 @@ slot0.initUI = function(slot0)
 		updateDrop(slot10, {
 			type = slot3[slot7][1],
 			id = slot3[slot7][2],
-			amount = slot3[slot7][3]
+			count = slot3[slot7][3]
 		})
 		onButton(slot0, slot10, function ()
 			uv0:emit(BaseUI.ON_DROP, uv1)
@@ -969,9 +981,39 @@ slot0.showSettlement = function(slot0)
 	setText(findTF(slot0.settlementUI, "ad/currentText"), slot3)
 
 	if slot0:getGameTimes() and slot0:getGameTimes() > 0 then
-		slot0.sendSuccessFlag = true
+		slot8 = pg.NewStoryMgr.GetInstance()
 
-		slot0:SendSuccess(0)
+		if (slot0.storylist[slot0:getGameUsedTimes() + 1] and slot0.storylist[slot7][1] or nil) and not slot8:IsPlayed(slot9) then
+			slot0.sendSuccessFlag = true
+
+			slot8:Play(slot9, function ()
+				slot0 = true
+
+				if not uv0:IsPlayed(uv1.storyFinal[1][1]) then
+					for slot4, slot5 in ipairs(uv1.storyBefore) do
+						if not uv0:IsPlayed(slot5[1]) then
+							slot0 = false
+						end
+					end
+				else
+					slot0 = false
+				end
+
+				if slot0 then
+					slot1 = uv0
+
+					slot1:Play(uv1.storyFinal[1][1], function ()
+						uv0:SendSuccess(0)
+					end)
+				else
+					uv1:SendSuccess(0)
+				end
+			end)
+		else
+			slot0.sendSuccessFlag = true
+
+			slot0:SendSuccess(0)
+		end
 	end
 end
 
@@ -988,6 +1030,24 @@ slot0.stopGame = function(slot0)
 
 	slot0:timerStop()
 	slot0:changeSpeed(0)
+end
+
+slot0.checkOverflow = function(slot0, slot1, slot2)
+	slot4 = getProxy(PlayerProxy):getRawData()
+	slot7, slot8 = Task.StaticJudgeOverflow(slot4.gold, slot4.oil, LOCK_UR_SHIP and 0 or getProxy(BagProxy):GetLimitCntById(pg.gameset.urpt_chapter_max.description[1]), true, true, {
+		slot1
+	})
+
+	if slot7 then
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_ITEM_BOX,
+			content = i18n("award_max_warning_minigame"),
+			items = slot8,
+			onYes = slot2
+		})
+	else
+		slot2()
+	end
 end
 
 slot0.onBackPressed = function(slot0)

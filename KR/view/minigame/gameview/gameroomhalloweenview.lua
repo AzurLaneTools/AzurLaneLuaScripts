@@ -1680,14 +1680,14 @@ slot0.showSettlement = function(slot0)
 	setActive(slot0.settlementUI, true)
 	GetComponent(findTF(slot0.settlementUI, "ad"), typeof(Animator)):Play("settlement", -1, 0)
 
-	if slot0.scoreNum >= (slot0:GetMGData():GetRuntimeData("elements") and #slot2 > 0 and slot2[1] or 0) then
+	if getProxy(GameRoomProxy):getRoomScore(slot0:getGameRoomData().id) <= slot0.scoreNum then
 		slot0:StoreDataToServer({
-			slot3
+			slot2
 		})
 	end
 
-	setText(findTF(slot0.settlementUI, "ad/highText"), slot4)
-	setText(findTF(slot0.settlementUI, "ad/currentText"), slot3)
+	setText(findTF(slot0.settlementUI, "ad/highText"), slot3)
+	setText(findTF(slot0.settlementUI, "ad/currentText"), slot2)
 end
 
 slot0.lostCandy = function(slot0)

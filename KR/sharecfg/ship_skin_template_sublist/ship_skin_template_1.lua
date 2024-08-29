@@ -6284,6 +6284,120 @@ pg.base.ship_skin_template_1 = {
 			}
 		}
 	},
+	[101269] = {
+		name = "엘드릿지·改",
+		id = 101269,
+		desc = "엘드릿지… 새로운 장비로 인사… 지휘관, 지금 엘드릿지는 굉장히 강해……",
+		illustrator2 = -1,
+		ship_group = 10126,
+		group_index = 9,
+		prefab = "aierdeliqi_g",
+		painting = "aierdeliqi_g",
+		hand_id = 5,
+		bgm = "",
+		shop_type_id = 9997,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 54,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.204,
+					1.038,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.141,
+					1.017,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.63,
+							2.25,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				142,
+				4,
+				0
+			},
+			{
+				0.45
+			}
+		}
+	},
 	[101270] = {
 		name = "베일리",
 		id = 101270,
@@ -12057,6 +12171,232 @@ pg.base.ship_skin_template_1 = {
 			10151122
 		}
 	},
+	[101520] = {
+		name = "벨",
+		id = 101520,
+		desc = "플레처급 구축함 - 벨",
+		illustrator2 = -1,
+		ship_group = 10152,
+		group_index = 0,
+		prefab = "beier",
+		painting = "beier",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = true,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 424,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.89,
+					1.061,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.96,
+					1.095,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.164,
+					0.026,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.762,
+					1.145,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.274,
+							2.494,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[101521] = {
+		name = "살룬 엑시던트",
+		id = 101521,
+		desc = "주점에 오신 걸 환영…… 으앗?! 맥주잔이 떨어지겠어! 지, 지휘관… 지, 지금 온 거야…?",
+		illustrator2 = -1,
+		ship_group = 10152,
+		group_index = 1,
+		prefab = "beier_2",
+		painting = "beier_2",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 25,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "176",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71038,
+		voice_actor = 424,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.674,
+					0.853,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.623,
+					0.879,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.147,
+					0.069,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.615,
+					0.955,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.023,
+							2.486,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[102010] = {
 		name = "오마하",
 		id = 102010,
@@ -12173,257 +12513,6 @@ pg.base.ship_skin_template_1 = {
 						{
 							0.42,
 							0.51,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[102020] = {
-		name = "롤리",
-		id = 102020,
-		desc = "오마하급 경순양함·롤리 (CL-7)",
-		illustrator2 = -1,
-		ship_group = 10202,
-		group_index = 0,
-		prefab = "luoli",
-		painting = "luoli",
-		hand_id = 5,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 62,
-		spine_offset = "",
-		illustrator = 6,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.063,
-					0.526,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.15,
-					0.407,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.376,
-					0.996,
-					0
-				},
-				{
-					0.52,
-					0.827,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.53,
-							0.3,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.42,
-							0.51,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[102030] = {
-		name = "브루클린",
-		id = 102030,
-		desc = "브루클린급 순양함·브루클린 (CL-40)",
-		illustrator2 = -1,
-		ship_group = 10203,
-		group_index = 0,
-		prefab = "bulukelin",
-		painting = "bulukelin",
-		hand_id = 3,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 64,
-		spine_offset = "",
-		illustrator = 7,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.789,
-					0.501,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.789,
-					0.501,
-					0
-				},
-				{
-					-0.238,
-					0.927,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.457,
-					1.102,
-					0
-				},
-				{
-					-0.834,
-					1.234,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.39,
-							0.41,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.61,
-							0.53,
 							0
 						}
 					}

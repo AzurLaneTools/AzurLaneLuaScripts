@@ -367,6 +367,10 @@ slot0.setBg = function(slot0)
 
 		slot1:SetParent(slot0.bgImg.transform, false)
 		slot1:SetAsFirstSibling()
+
+		if slot0.criBgGo:GetComponent("AspectRatioFitter") then
+			slot2.enabled = true
+		end
 	end
 end
 

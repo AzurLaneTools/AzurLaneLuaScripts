@@ -959,32 +959,32 @@ slot0.showSettlement = function(slot0)
 	setActive(slot0.settlementUI, true)
 	GetComponent(findTF(slot0.settlementUI, "ad"), typeof(Animator)):Play("settlement", -1, 0)
 
-	slot3 = slot0.scoreNum
-	slot4 = slot0:GetMGData():GetRuntimeData("elements") and #slot2 > 0 and slot2[1] or 0
-	slot5 = slot0.otherScoreNum or 0
+	slot2 = slot0.scoreNum
+	slot3 = getProxy(GameRoomProxy):getRoomScore(slot0:getGameRoomData().id)
+	slot4 = slot0.otherScoreNum or 0
 
-	setActive(findTF(slot0.settlementUI, "ad/new"), slot4 < slot3)
+	setActive(findTF(slot0.settlementUI, "ad/new"), slot3 < slot2)
 
-	if slot4 <= slot3 then
+	if slot3 <= slot2 then
 		slot0:StoreDataToServer({
-			slot3
+			slot2
 		})
 	end
 
-	setText(findTF(slot0.settlementUI, "ad/highText"), slot4)
-	setText(findTF(slot0.settlementUI, "ad/currentText"), slot3)
-	setText(findTF(slot0.settlementUI, "ad/otherText"), slot5)
+	setText(findTF(slot0.settlementUI, "ad/highText"), slot3)
+	setText(findTF(slot0.settlementUI, "ad/currentText"), slot2)
+	setText(findTF(slot0.settlementUI, "ad/otherText"), slot4)
 
 	if slot0:getGameTimes() and slot0:getGameTimes() > 0 then
 		slot0.sendSuccessFlag = true
 
-		slot0:SendSuccess(slot3)
+		slot0:SendSuccess(slot2)
 	end
 
-	if slot5 < slot3 then
+	if slot4 < slot2 then
 		setActive(findTF(slot0.settlementUI, "ad/win"), true)
 		setActive(findTF(slot0.settlementUI, "ad/defeat"), false)
-	elseif slot3 < slot5 then
+	elseif slot2 < slot4 then
 		setActive(findTF(slot0.settlementUI, "ad/win"), false)
 		setActive(findTF(slot0.settlementUI, "ad/defeat"), true)
 	else
@@ -992,34 +992,34 @@ slot0.showSettlement = function(slot0)
 		setActive(findTF(slot0.settlementUI, "ad/defeat"), false)
 	end
 
-	slot9 = {}
+	slot8 = {}
 
-	table.insert(slot9, {
+	table.insert(slot8, {
 		name = "player",
 		char_id = uv0.playerChar
 	})
-	table.insert(slot9, {
+	table.insert(slot8, {
 		name = "partner",
 		char_id = uv0.partnerChar
 	})
-	table.insert(slot9, {
+	table.insert(slot8, {
 		name = "enemy1",
 		char_id = uv0.enemy1Char
 	})
 
-	slot13 = uv0.enemy2Char
+	slot12 = uv0.enemy2Char
 
-	table.insert(slot9, {
+	table.insert(slot8, {
 		name = "enemy2",
-		char_id = slot13
+		char_id = slot12
 	})
 
-	for slot13 = 1, #slot9 do
-		slot14 = slot9[slot13].char_id
-		slot15 = findTF(slot0.settlementUI, "ad/" .. slot9[slot13].name)
-		slot17 = slot0:getCharData(slot14, "pos")
+	for slot12 = 1, #slot8 do
+		slot13 = slot8[slot12].char_id
+		slot14 = findTF(slot0.settlementUI, "ad/" .. slot8[slot12].name)
+		slot16 = slot0:getCharData(slot13, "pos")
 
-		GetSpriteFromAtlasAsync("ui/minigameui/" .. uv1, slot0:getCharData(slot14, "icon"), function (slot0)
+		GetSpriteFromAtlasAsync("ui/minigameui/" .. uv1, slot0:getCharData(slot13, "icon"), function (slot0)
 			slot1 = findTF(uv0, "mask/img")
 
 			setActive(slot1, true)

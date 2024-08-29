@@ -18,10 +18,12 @@ slot0.execute = function(slot0, slot1)
 
 	slot7 = pg.ConnectionMgr.GetInstance()
 
-	slot7:Send(20005, {
-		id = slot6.id,
-		choice_award = {}
-	}, 20006, function (slot0)
+	slot7:Send(20205, {
+		act_id = slot6:getActId(),
+		task_ids = {
+			slot6.id
+		}
+	}, 20206, function (slot0)
 		if slot0.result == 0 then
 			slot1 = {}
 
@@ -33,12 +35,9 @@ slot0.execute = function(slot0, slot1)
 				}))
 			end
 
-			uv0.submitTime = 1
-
-			uv1:updateTask(uv0)
-			uv2:sendNotification(GAME.FETCH_NPC_SHIP_DONE, {
+			uv0:sendNotification(GAME.FETCH_NPC_SHIP_DONE, {
 				items = slot1,
-				callback = uv3
+				callback = uv1
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("task_submitTask", slot0.result))
