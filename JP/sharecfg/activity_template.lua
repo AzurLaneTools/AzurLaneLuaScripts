@@ -14529,13 +14529,14 @@ pg.activity_template = {
 		config_client = {
 			id = 1,
 			bg = "loadingbg/bg_build_1_act",
-			buildship_tip = "\n「瑞鳳」出現確率UP！",
+			buildship_tip = "「瑞鳳」出現確率UP！",
 			rate_tip = {
 				"<color=#ff5e39>Uレア</color>：1.2%",
 				"<color=#ffde38>SSレア</color>：7%",
 				"<color=#d797ff>Sレア</color>：12%",
 				"<color=#3dc6ff>レア</color>：51%",
 				"ノーマル：28.8%",
+				"",
 				"<color=#ffde38>瑞鳳</color>：1.4%<color=#92FC63>(up!)</color>"
 			}
 		}

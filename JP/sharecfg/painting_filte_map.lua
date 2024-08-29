@@ -10105,6 +10105,20 @@ pg.painting_filte_map = {
 			"painting/niulunbao_2"
 		}
 	},
+	npcchicheng = {
+		key = "npcchicheng",
+		res_list = {
+			"painting/npcchicheng_tex",
+			"painting/npcchicheng"
+		}
+	},
+	npcjiahe = {
+		key = "npcjiahe",
+		res_list = {
+			"painting/npcjiahe_tex",
+			"painting/npcjiahe"
+		}
+	},
 	npctiancheng = {
 		key = "npctiancheng",
 		res_list = {
@@ -11141,7 +11155,18 @@ pg.painting_filte_map = {
 			"painting/ruifeng_tex",
 			"painting/ruifeng_rw_tex",
 			"painting/ruifeng_n_tex",
+			"painting/ruifeng_n",
 			"painting/ruifeng"
+		}
+	},
+	ruifeng_2 = {
+		key = "ruifeng_2",
+		res_list = {
+			"painting/ruifeng_2_tex",
+			"painting/ruifeng_2_rw_tex",
+			"painting/ruifeng_2_n_tex",
+			"painting/ruifeng_2_n",
+			"painting/ruifeng_2"
 		}
 	},
 	ruihe = {
