@@ -5467,7 +5467,23 @@ pg.activity_ins_language = setmetatable({
 		"ins_op_490_1_1",
 		"op_reply_490_1_1",
 		"ins_op_490_1_2",
-		"op_reply_490_1_2"
+		"op_reply_490_1_2",
+		"ins_491",
+		"ins_discuss_491_1",
+		"ins_reply_491_1_1",
+		"ins_reply_491_1_2",
+		"ins_reply_491_1_3",
+		"ins_reply_491_1_4",
+		"ins_discuss_491_2",
+		"ins_reply_491_2_1",
+		"ins_reply_491_2_2",
+		"ins_reply_491_2_3",
+		"ins_discuss_491_3",
+		"ins_reply_491_3_1",
+		"ins_op_491_1_1",
+		"op_reply_491_1_1",
+		"ins_op_491_1_2",
+		"op_reply_491_1_2"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -21628,246 +21644,294 @@ pg.base.activity_ins_language = {
 		value = "いつ撮られたのか全く気づきませんでしたが……あ、ありがとうございます"
 	},
 	ins_486 = {
-		value = ""
+		value = "高速・便利・安心。ファーゴ運送　V（0-0）V"
 	},
 	ins_discuss_486_1 = {
-		value = ""
+		value = "V（0-0）V　。文字列の意味の理解に失敗した"
 	},
 	ins_reply_486_1_1 = {
-		value = ""
+		value = "それは感情を表わすテキストだよ。ファーゴは多分、「嬉しい」って言いたいんだと思う！"
 	},
 	ins_reply_486_1_2 = {
-		value = ""
+		value = "あと（///V///）が「恥ずかしい」、(*=V=*)　も「嬉しい」だと思う！"
 	},
 	ins_reply_486_1_3 = {
-		value = ""
+		value = "なるほど。では私も……(*=V=*)"
 	},
 	ins_reply_486_1_4 = {
-		value = ""
+		value = "V（*=V=*）V"
 	},
 	ins_discuss_486_2 = {
-		value = ""
+		value = "はあ……目覚めたらもう玄関前に届いている幸せ……外に出なくてもいい幸せ……"
 	},
 	ins_reply_486_2_1 = {
-		value = ""
+		value = "ファーゴ運送、24時間配達を承ります。お客様に最高の物流サービスをお届けします"
 	},
 	ins_reply_486_2_2 = {
-		value = ""
+		value = "24時間無休で……むむむ、昼休みもないとはさてはブラック企業かな？"
 	},
 	ins_reply_486_2_3 = {
-		value = ""
+		value = "言われてみれば私も24時間ぶっ通しで働いているわぁ……"
 	},
 	ins_reply_486_2_4 = {
-		value = ""
+		value = "……もう帰って寝てください！"
 	},
 	ins_discuss_486_3 = {
-		value = ""
+		value = "3日前に買ったのに荷物の追跡情報がぜんっぜん変わってないけど！"
 	},
 	ins_reply_486_3_1 = {
-		value = ""
+		value = "分かった！ドローンが謎の生物と丸3日戦ってたから配達どころじゃなかったんだ！"
 	},
 	ins_reply_486_3_2 = {
-		value = ""
+		value = "そうなの！？どっちが勝つかな？！"
 	},
 	ins_reply_486_3_3 = {
-		value = ""
+		value = "戦場はどこ？！ちょっと見てくる！"
 	},
 	ins_reply_486_3_4 = {
-		value = ""
+		value = "住所が間違っていたから荷物が倉庫に戻されただけよ。ちゃんと正しい住所を書いて"
 	},
 	ins_op_486_1_1 = {
-		value = ""
+		value = "ドローンの燃料は「化け物エナジー」？"
 	},
 	op_reply_486_1_1 = {
-		value = ""
+		value = "時々飲むけどドローンの燃料じゃないよ。フレーバーのオススメは必要？"
 	},
 	ins_op_486_1_2 = {
-		value = ""
+		value = "ファーゴ配達は母港を繋ぐ！"
 	},
 	op_reply_486_1_2 = {
-		value = ""
+		value = "宣伝アリガトウ。約束のディスカウントは……む。ここで言っちゃいけないね"
 	},
 	ins_487 = {
-		value = ""
+		value = "素敵な夜には、一杯やらないとね"
 	},
 	ins_discuss_487_1 = {
-		value = ""
+		value = "どこで飲んでるの？いっそのこと宴でもやらない？久しぶりに浴びるように飲みたいわ"
 	},
 	ins_reply_487_1_1 = {
-		value = ""
+		value = "ん？ピッツバーグが飲んでいるのは……ジュースだよね？"
 	},
 	ins_reply_487_1_2 = {
-		value = ""
+		value = "え？ジュース？どういうつもり？"
 	},
 	ins_reply_487_1_3 = {
-		value = ""
+		value = "ほろ酔いになりたい心があれば、何を飲んだっていいじゃない"
 	},
 	ins_discuss_487_2 = {
-		value = ""
+		value = "尾張の新鮮な果物、お買い上げあざーす！新商品のヘルシーセットもあるからよかったら注文して♪"
 	},
 	ins_reply_487_2_1 = {
-		value = ""
+		value = "どこで注文できるんだ？リンクを送ってくれ！"
 	},
 	ins_reply_487_2_2 = {
-		value = ""
+		value = "美味しくて新鮮で低カロリーのヘルシーセット、私も10回リピートしました！（宣伝してくれたらキャッシュバック♪この部分は削除しておいてね！）"
 	},
 	ins_reply_487_2_3 = {
-		value = ""
+		value = "宣伝禁止にゃ！ステマもダイマもダメにゃ！不当競争にゃ！"
 	},
 	ins_reply_487_2_4 = {
-		value = ""
+		value = "写真のグラスだって明石が宣伝してって言ったやつよ？それもステマにならないの？"
 	},
 	ins_op_487_1_1 = {
-		value = ""
+		value = "だいぶ飲んだんだな…"
 	},
 	op_reply_487_1_1 = {
-		value = ""
+		value = "ふふふ♪美味しいからつい飲みすぎちゃった……指揮官も飲んでみて♡"
 	},
 	ins_op_487_1_2 = {
-		value = ""
+		value = "今度自分も呼んでね"
 	},
 	op_reply_487_1_2 = {
-		value = ""
+		value = "「今度」じゃないわよ？これからジュースを持って指揮官の部屋に行くから♡♡♡"
 	},
 	ins_488 = {
-		value = ""
+		value = "日課をこなしたあとのプロテインだ！"
 	},
 	ins_discuss_488_1 = {
-		value = ""
+		value = "美味しいプロテインを知ってるの？おーい"
 	},
 	ins_reply_488_1_1 = {
-		value = ""
+		value = "リンクを送ったぞ。リコリッシュ、ブルーチーズにケールをミックスすればいい！"
 	},
 	ins_reply_488_1_2 = {
-		value = ""
+		value = "お。飲んでみたいからこっちにもリンクを送ってくれない？"
 	},
 	ins_reply_488_1_3 = {
-		value = ""
+		value = "それ本気で言ってるの？まさか…何か思い詰めてることでもある？"
 	},
 	ins_discuss_488_2 = {
-		value = ""
+		value = "それを飲んだら強くなれますか……？"
 	},
 	ins_reply_488_2_1 = {
-		value = ""
+		value = "ああ！8時間の筋トレと組み合わせれば、最強の騎士になれるさ！"
 	},
 	ins_reply_488_2_2 = {
-		value = ""
+		value = "それで背も伸びて……！"
 	},
 	ins_reply_488_2_3 = {
-		value = ""
+		value = "そこまで効果があるなら、もう食堂の日替わりメニューに入れたほうがよくない？"
 	},
 	ins_reply_488_2_4 = {
-		value = ""
+		value = "絶対に嫌だ！"
 	},
 	ins_reply_488_2_5 = {
-		value = ""
+		value = "筋トレ！？8時間も！？"
 	},
 	ins_op_488_1_1 = {
-		value = ""
+		value = "飲むだけで筋肉がつけばなー"
 	},
 	op_reply_488_1_1 = {
-		value = ""
+		value = "サボったら筋肉は応えてくれないぞ！"
 	},
 	ins_op_488_1_2 = {
-		value = ""
+		value = "この色……"
 	},
 	op_reply_488_1_2 = {
-		value = ""
+		value = "ムラサキキャベツも入れた。食欲が湧くだろ？"
 	},
 	ins_489 = {
-		value = ""
+		value = "アウト！NG！今回のニシン缶は全部ダメ！"
 	},
 	ins_discuss_489_1 = {
-		value = ""
+		value = "良いのと悪いのを一体どうやって判別したのですか…？だって味はほぼ変わらないんじゃ…？"
 	},
 	ins_reply_489_1_1 = {
-		value = ""
+		value = "魚の品質に塩、発酵の時間が全部味に影響するわよ。まあ食べてみれば分かるけど…"
 	},
 	ins_reply_489_1_2 = {
-		value = ""
+		value = "す、すごい！私は近くを通りかかっただけで鼻がやられたよ…"
 	},
 	ins_reply_489_1_3 = {
-		value = ""
+		value = "今日はパーシュースが保健室当番だから、具合が悪くなったらいつでも来てー"
 	},
 	ins_discuss_489_2 = {
-		value = ""
+		value = "なるほど、ニシン缶のレビューでしたか。排水管が詰まったのかと思い、メイド隊で緊急点検を行わせていただいていますが…"
 	},
 	ins_reply_489_2_1 = {
-		value = ""
+		value = "メイド長、一番前で作業に当たってたヌビアンが倒れた！"
 	},
 	ins_reply_489_2_2 = {
-		value = ""
+		value = "ヌビアンにやすらぎを。…それにしても、この威力を銃砲の弾丸に使えたら…"
 	},
 	ins_reply_489_2_3 = {
-		value = ""
+		value = "待ってシェフィ！そんなの危なすぎるから！"
 	},
 	ins_discuss_489_3 = {
-		value = ""
+		value = "リスト「台所立ち入り禁止」に追加しました"
 	},
 	ins_reply_489_3_1 = {
-		value = ""
+		value = "？"
 	},
 	ins_reply_489_3_2 = {
-		value = ""
+		value = "もう飛雲さまを許して！(泣)"
 	},
 	ins_reply_489_3_3 = {
-		value = ""
+		value = "大丈夫だよ！リストに名前が載ってても、中に入って冒険できるチャンスはきっとあるもん！"
 	},
 	ins_reply_489_3_4 = {
-		value = ""
+		value = "ニシン缶と比べれば…私の手料理のほうがまだマシだったりして……？"
 	},
 	ins_reply_489_3_5 = {
-		value = ""
+		value = "考えすぎです！"
 	},
 	ins_op_489_1_1 = {
-		value = ""
+		value = "オススメのニシン缶ブランドは…？"
 	},
 	op_reply_489_1_1 = {
-		value = ""
+		value = "今度食べさせてあげる！"
 	},
 	ins_op_489_1_2 = {
-		value = ""
+		value = "このレビューはどこに使うんだ…？"
 	},
 	op_reply_489_1_2 = {
-		value = ""
+		value = "ニシン缶の布教に決まってるじゃない！ふふん！"
 	},
 	ins_490 = {
-		value = ""
+		value = "ニンジャランってカッコいいね！勉強します！"
 	},
 	ins_discuss_490_1 = {
-		value = ""
+		value = "ニンジャランは母港にて最強、です"
 	},
 	ins_reply_490_1_1 = {
-		value = ""
+		value = "まあ科学的に言えばニンジャランは別に速くはないけどね～。ダヴィンチランを学んでみない？"
 	},
 	ins_reply_490_1_2 = {
-		value = ""
+		value = "だ、ダヴィンチラン？"
 	},
 	ins_reply_490_1_3 = {
-		value = ""
+		value = "んー。まだ発明中！"
 	},
 	ins_discuss_490_2 = {
-		value = ""
+		value = "え！本当に速くなれるのですか！島風もやってみたいです～！"
 	},
 	ins_reply_490_2_1 = {
-		value = ""
+		value = "本当でござる！格好良くて速いでござる！ただ突っ走りすぎると迷子になってしまうから気をつけるでござる！"
 	},
 	ins_reply_490_2_2 = {
-		value = ""
+		value = "迷子になるのは暁だけでしょ？"
 	},
 	ins_reply_490_2_3 = {
-		value = ""
+		value = "さっき窓の外を誰かが一瞬通り過ぎたような……もしかして島風？"
 	},
 	ins_op_490_1_1 = {
-		value = ""
+		value = "ニンジャラン！ワッショイ！"
 	},
 	op_reply_490_1_1 = {
-		value = ""
+		value = "身につけたら、最速で指揮官のそばに駆けつけられる！"
 	},
 	ins_op_490_1_2 = {
-		value = ""
+		value = "「影」になれ、ベル！"
 	},
 	op_reply_490_1_2 = {
+		value = "はい、頑張るよ！"
+	},
+	ins_491 = {
+		value = ""
+	},
+	ins_discuss_491_1 = {
+		value = ""
+	},
+	ins_reply_491_1_1 = {
+		value = ""
+	},
+	ins_reply_491_1_2 = {
+		value = ""
+	},
+	ins_reply_491_1_3 = {
+		value = ""
+	},
+	ins_reply_491_1_4 = {
+		value = ""
+	},
+	ins_discuss_491_2 = {
+		value = ""
+	},
+	ins_reply_491_2_1 = {
+		value = ""
+	},
+	ins_reply_491_2_2 = {
+		value = ""
+	},
+	ins_reply_491_2_3 = {
+		value = ""
+	},
+	ins_discuss_491_3 = {
+		value = ""
+	},
+	ins_reply_491_3_1 = {
+		value = ""
+	},
+	ins_op_491_1_1 = {
+		value = ""
+	},
+	op_reply_491_1_1 = {
+		value = ""
+	},
+	ins_op_491_1_2 = {
+		value = ""
+	},
+	op_reply_491_1_2 = {
 		value = ""
 	}
 }

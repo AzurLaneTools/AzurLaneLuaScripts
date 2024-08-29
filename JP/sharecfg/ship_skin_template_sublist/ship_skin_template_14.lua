@@ -1,6 +1,232 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_14 = {
+	[506013] = {
+		name = "翠園佳繍",
+		id = 506013,
+		desc = "あら指揮官、ここにいらっしゃったのはもしや私に会いに？ええ、見ての通り刺繍について研究をしていて――これも囲碁と同じで、自らの考えを整理でき、広い視野で見るようにね。指揮官も一度やってみてはいかがです？ふふふ……",
+		illustrator2 = -1,
+		ship_group = 50601,
+		group_index = 3,
+		prefab = "zhenhai_4",
+		painting = "zhenhai_4",
+		hand_id = 9,
+		bgm = "theme-yixian-soft-loop",
+		shop_type_id = 3,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 56,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			5
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.117,
+					1.273,
+					0
+				}
+			},
+			plane = {
+				{
+					0.924,
+					0.894,
+					0
+				}
+			},
+			cannon = {
+				{
+					1.129,
+					0.986,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.082,
+					1.029,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.805,
+							1.806,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[506019] = {
+		name = "鎮海改",
+		id = 506019,
+		desc = "鎮海、約束通り一新した姿でお伺いに参りました。ふふ…時間はたっぷりありますから、ここはおかけになって、芳茗を楽しみつつ将来の夢を馳せるのもいかが？",
+		illustrator2 = -1,
+		ship_group = 50601,
+		group_index = 9,
+		prefab = "zhenhai_g",
+		painting = "zhenhai_g",
+		hand_id = 9,
+		bgm = "",
+		shop_type_id = 9997,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 56,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.26,
+					1.52,
+					0
+				}
+			},
+			plane = {
+				{
+					1.24,
+					1.54,
+					0
+				}
+			},
+			cannon = {
+				{
+					1.49,
+					1.11,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.34,
+					1.11,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.26,
+							2.36,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[506020] = {
 		name = "華甲",
 		id = 506020,
@@ -12478,234 +12704,6 @@ pg.base.ship_skin_template_14 = {
 						{
 							-0.486,
 							2.35,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[702033] = {
-		name = "藍と燈のサマーサイト",
-		id = 702033,
-		desc = "私を探しに…？うふふ、心配させちゃってごめんなさい。少し涼しい夜風を浴びたくて…よかったら一緒にどう？",
-		illustrator2 = -1,
-		ship_group = 70203,
-		group_index = 3,
-		prefab = "qiabayefu_4",
-		painting = "qiabayefu_4",
-		hand_id = 1,
-		bgm = "",
-		shop_type_id = 10,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "114",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70692,
-		voice_actor = 223,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.076,
-					1.138,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.005,
-					1,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.001,
-					1,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.441,
-							2.327,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[702034] = {
-		name = "白騎兵のメロディヤ",
-		id = 702034,
-		desc = "どうしてこんなところまで？って、理由を聞くのは無粋ね。気分転換かもしれないし、音に引き寄せられたのかもしれないし、指揮官と私の想いが通じた……と思うとなんだか嬉しい気持ちになれるわね。ふふふ",
-		illustrator2 = -1,
-		ship_group = 70203,
-		group_index = 4,
-		prefab = "qiabayefu_5",
-		painting = "qiabayefu_5",
-		hand_id = 1,
-		bgm = "",
-		shop_type_id = 7,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "159",
-		spine_use_live2d = 0,
-		spine_action_offset = "",
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70860,
-		voice_actor = 223,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.076,
-					1.138,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.005,
-					1,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.001,
-					1,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.441,
-							2.327,
 							0
 						}
 					}

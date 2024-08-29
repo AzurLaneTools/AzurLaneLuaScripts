@@ -1623,5 +1623,9 @@ pg.voice_actor_CN = {
 	[424] = {
 		actor_name = "伊藤ゆいな",
 		code = 424
+	},
+	[425] = {
+		actor_name = "月城日花",
+		code = 425
 	}
 }

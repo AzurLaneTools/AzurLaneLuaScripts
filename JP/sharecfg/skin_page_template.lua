@@ -144,6 +144,12 @@ pg.skin_page_template = {
 		res = "xibufengqing",
 		english_name = "Wild West"
 	},
+	[26] = {
+		id = 26,
+		name = "梦幻乐园",
+		res = "menghuanleyuan",
+		english_name = "Dreamland Park "
+	},
 	[9997] = {
 		id = 9997,
 		name = "改造",
@@ -187,6 +193,7 @@ pg.skin_page_template = {
 		23,
 		24,
 		25,
+		26,
 		9997,
 		9998,
 		9999

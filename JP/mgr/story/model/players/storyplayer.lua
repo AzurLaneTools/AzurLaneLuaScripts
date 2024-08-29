@@ -1103,8 +1103,11 @@ slot0.LoadEffects = function(slot0, slot1, slot2)
 				slot0:UpdateEffectInterLayer(slot10, slot15)
 			end
 
-			if slot11 == false then
+			if not slot11 then
 				slot0:ClearEffectInterlayer(slot10)
+			elseif isActive(slot15) then
+				setActive(slot15, false)
+				setActive(slot15, true)
 			end
 
 			if slot14 then

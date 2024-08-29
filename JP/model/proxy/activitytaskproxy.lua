@@ -5,20 +5,30 @@ slot0.register = function(slot0)
 	slot0.autoSubmitTasks = {}
 end
 
-slot0.initActList = function(slot0, slot1, slot2)
+slot0.initActList = function(slot0, slot1, slot2, slot3)
 	if not slot2 then
 		return {}
 	end
 
-	slot3 = {}
+	slot4 = {}
+	slot5 = {}
 
-	for slot7, slot8 in ipairs(slot2) do
-		table.insert(slot3, slot0:createTask(slot1, slot8))
+	for slot9, slot10 in ipairs(slot2) do
+		table.insert(slot4, slot0:createTask(slot1, slot10))
+	end
+
+	if slot3 and #slot3 > 0 then
+		for slot9, slot10 in ipairs(slot3) do
+			table.insert(slot5, slot0:createTask(slot1, {
+				id = slot10
+			}))
+		end
 	end
 
 	table.insert(slot0.actTasks, {
 		actId = slot1,
-		tasks = slot3
+		tasks = slot4,
+		finish_tasks = slot5
 	})
 	slot0:checkAutoSubmit()
 end

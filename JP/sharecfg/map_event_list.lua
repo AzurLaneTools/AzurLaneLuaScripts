@@ -5117,6 +5117,150 @@ pg.map_event_list = {
 			"helpbg/battle_daofeng_3"
 		}
 	},
+	[2100404] = {
+		help_open = 1,
+		chapter_id = 2100404,
+		event_list = {
+			438,
+			439,
+			440,
+			441,
+			442,
+			443,
+			444,
+			445,
+			446,
+			447,
+			448,
+			449,
+			450
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yidaliv2"
+		}
+	},
+	[2100405] = {
+		help_open = 0,
+		chapter_id = 2100405,
+		event_list = {
+			438,
+			439,
+			440,
+			441,
+			451,
+			452,
+			453,
+			454,
+			455,
+			456,
+			457,
+			458,
+			459
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yidaliv2"
+		}
+	},
+	[2100406] = {
+		help_open = 0,
+		chapter_id = 2100406,
+		event_list = {
+			438,
+			439,
+			440,
+			441,
+			460,
+			461,
+			462,
+			463,
+			464,
+			465,
+			466,
+			467,
+			468,
+			469,
+			470,
+			471
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yidaliv2"
+		}
+	},
+	[2100414] = {
+		help_open = 1,
+		chapter_id = 2100414,
+		event_list = {
+			438,
+			439,
+			440,
+			441,
+			442,
+			443,
+			444,
+			445,
+			446,
+			447,
+			448,
+			449,
+			450
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yidaliv2"
+		}
+	},
+	[2100415] = {
+		help_open = 0,
+		chapter_id = 2100415,
+		event_list = {
+			438,
+			439,
+			440,
+			441,
+			451,
+			452,
+			453,
+			454,
+			455,
+			456,
+			457,
+			458,
+			459
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yidaliv2"
+		}
+	},
+	[2100416] = {
+		help_open = 0,
+		chapter_id = 2100416,
+		event_list = {
+			438,
+			439,
+			440,
+			441,
+			460,
+			461,
+			462,
+			463,
+			464,
+			465,
+			466,
+			467,
+			468,
+			469,
+			470,
+			471
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_yidaliv2"
+		}
+	},
 	[2200071] = {
 		help_open = 1,
 		chapter_id = 2200071,
@@ -5534,6 +5678,12 @@ pg.map_event_list = {
 		2100394,
 		2100395,
 		2100396,
+		2100404,
+		2100405,
+		2100406,
+		2100414,
+		2100415,
+		2100416,
 		2200071,
 		2200072,
 		2200073,

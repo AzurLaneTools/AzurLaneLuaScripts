@@ -7,7 +7,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.01,
+					number = 0.1,
 					attr = "cri"
 				}
 			},
@@ -17,7 +17,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.01,
+					number = 0.1,
 					attr = "criDamage"
 				}
 			}
@@ -31,7 +31,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.0111,
+					number = 0.111,
 					attr = "cri"
 				}
 			},
@@ -41,7 +41,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.0111,
+					number = 0.111,
 					attr = "criDamage"
 				}
 			}
@@ -55,7 +55,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.0122,
+					number = 0.122,
 					attr = "cri"
 				}
 			},
@@ -65,7 +65,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.0122,
+					number = 0.122,
 					attr = "criDamage"
 				}
 			}
@@ -79,7 +79,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.0133,
+					number = 0.133,
 					attr = "cri"
 				}
 			},
@@ -89,7 +89,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.0133,
+					number = 0.133,
 					attr = "criDamage"
 				}
 			}
@@ -103,7 +103,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.0144,
+					number = 0.144,
 					attr = "cri"
 				}
 			},
@@ -113,7 +113,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.0144,
+					number = 0.144,
 					attr = "criDamage"
 				}
 			}
@@ -127,7 +127,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.0155,
+					number = 0.155,
 					attr = "cri"
 				}
 			},
@@ -137,7 +137,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.0155,
+					number = 0.155,
 					attr = "criDamage"
 				}
 			}
@@ -151,7 +151,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.0166,
+					number = 0.166,
 					attr = "cri"
 				}
 			},
@@ -161,7 +161,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.0166,
+					number = 0.166,
 					attr = "criDamage"
 				}
 			}
@@ -175,7 +175,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.0177,
+					number = 0.177,
 					attr = "cri"
 				}
 			},
@@ -185,7 +185,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.0177,
+					number = 0.177,
 					attr = "criDamage"
 				}
 			}
@@ -199,7 +199,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.0188,
+					number = 0.188,
 					attr = "cri"
 				}
 			},
@@ -209,7 +209,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.0188,
+					number = 0.188,
 					attr = "criDamage"
 				}
 			}
@@ -223,7 +223,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.02,
+					number = 0.2,
 					attr = "cri"
 				}
 			},
@@ -233,7 +233,7 @@ return {
 					"onBulletCreate"
 				},
 				arg_list = {
-					number = 0.02,
+					number = 0.2,
 					attr = "criDamage"
 				}
 			}
@@ -264,7 +264,7 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				number = 0.01,
+				number = 0.1,
 				attr = "cri"
 			}
 		},
@@ -274,7 +274,7 @@ return {
 				"onBulletCreate"
 			},
 			arg_list = {
-				number = 0.01,
+				number = 0.1,
 				attr = "criDamage"
 			}
 		}

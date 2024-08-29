@@ -109219,6 +109219,424 @@ _G.pg.base.task_data_template[20497] = {
 }
 
 
+_G.pg.base.task_data_template[20498] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903099,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『瑞凤SP』剧情送装备",
+	desc = "ストーリーモードですべてのストーリーを読む",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20498,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		6243
+	},
+	open_need = {},
+	award_display = {
+		{
+			9,
+			4039,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1840001,
+			displayMode = 2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20499] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903100,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "【瑞凤SP】通关T1",
+	desc = "T1クリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20500",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20499,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1840001",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		},
+		{
+			2,
+			18032,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1840001,
+			chapterId = 1840001
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20500] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903101,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "【瑞凤SP】通关T2",
+	desc = "T2クリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20501",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20500,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1840002",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		},
+		{
+			2,
+			18032,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1840001,
+			chapterId = 1840002
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20501] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903102,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "【瑞凤SP】通关T3",
+	desc = "T3クリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20502",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20501,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1840003",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		},
+		{
+			2,
+			18033,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1840001,
+			chapterId = 1840003
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20502] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903103,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "【瑞凤SP】通关TP",
+	desc = "TPクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20502,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1840004",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			65015,
+			800
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1840001,
+			chapterId = 1840004
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20503] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903104,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "【瑞凤SP】SP1三星",
+	desc = "T1の作戦目標（星3つ）をすべて達成せよ！",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20504",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20503,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1840001",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1840001,
+			chapterId = 1840001
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20504] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903105,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "【瑞凤SP】SP1三星",
+	desc = "T2の作戦目標（星3つ）をすべて達成せよ！",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20505",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20504,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1840002",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1840001,
+			chapterId = 1840002
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20505] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903106,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "【瑞凤SP】SP1三星",
+	desc = "T3の作戦目標（星3つ）をすべて達成せよ！",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20505,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1840003",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1840001,
+			chapterId = 1840003
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[30201] = {
 	target_id_2 = "",
 	guild_coin_award = 0,

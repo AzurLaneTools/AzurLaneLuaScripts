@@ -1,4 +1,7 @@
 slot0 = class("SubmitActiveTaskCommand", pm.SimpleCommand)
+slot1 = {
+	59599
+}
 
 slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody() or {}
@@ -81,9 +84,13 @@ slot0.submitActivity = function(slot0, slot1, slot2, slot3, slot4)
 
 				uv2:sendNotification(GAME.SUBMIT_ACTIVITY_TASK_DONE, {
 					awards = slot1
-				})
+				}, uv1.task_ids)
 			elseif table.contains(TotalTaskProxy.normal_task_type, uv0) then
-				slot1 = PlayerConst.addTranDrop(slot0.award_list, {})
+				for slot5 = #PlayerConst.addTranDrop(slot0.award_list, {}), 1, -1 do
+					if table.contains(uv4, slot1[slot5].id) then
+						table.remove(slot1, slot5)
+					end
+				end
 
 				for slot5, slot6 in ipairs(uv3) do
 					uv2:updateTaskBagData(slot6.id, uv1.act_id)
@@ -92,15 +99,21 @@ slot0.submitActivity = function(slot0, slot1, slot2, slot3, slot4)
 
 				uv2:sendNotification(GAME.SUBMIT_ACTIVITY_TASK_DONE, {
 					awards = slot1
-				})
+				}, uv1.task_ids)
 			end
 
-			if uv4 then
-				uv4(true)
+			if slot1 and #slot1 >= 0 then
+				uv2:sendNotification(GAME.SUBMIT_TASK_AWARD_DOWN, {
+					awards = slot1
+				}, uv1.task_ids)
+			end
+
+			if uv5 then
+				uv5(true)
 			end
 		else
-			if uv4 then
-				uv4(false)
+			if uv5 then
+				uv5(false)
 			end
 
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))
@@ -123,7 +136,7 @@ slot0.updateTaskActivityData = function(slot0, slot1, slot2)
 	end
 end
 
-slot1 = {
+slot2 = {
 	{
 		6,
 		1006
