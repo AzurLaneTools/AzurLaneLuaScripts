@@ -2545,6 +2545,21 @@ pg.activity_ins_ship_group_template = {
 		name = "Bell",
 		sculpture = "beier"
 	},
+	[30604] = {
+		ship_group = 30604,
+		name = "Zuihō",
+		sculpture = "ruifeng"
+	},
+	[69902] = {
+		ship_group = 69902,
+		name = "Napoli",
+		sculpture = "nabulesi"
+	},
+	[10133] = {
+		ship_group = 10133,
+		name = "Bush",
+		sculpture = "bushi"
+	},
 	all = {
 		30701,
 		30702,
@@ -3054,6 +3069,9 @@ pg.activity_ins_ship_group_template = {
 		10328,
 		10515,
 		10809,
-		10152
+		10152,
+		30604,
+		69902,
+		10133
 	}
 }

@@ -124505,6 +124505,59 @@ _G.pg.base.equip_data_statistics[61102] = {
 }
 
 
+_G.pg.base.equip_data_statistics[61103] = {
+	name = "航空攻击展示-瑞凤I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 99,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "航母空袭展示用",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 61103,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		61103
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[61104] = {
+	name = "航空攻击展示-瑞凤II",
+	base = 61103,
+	id = 61104,
+	weapon_id = {
+		61104
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[61105] = {
+	name = "航空攻击展示-瑞凤III",
+	base = 61103,
+	id = 61105,
+	weapon_id = {
+		61105
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[61501] = {
 	name = "轰炸机外观预览飞机",
 	tech = 1,

@@ -461,11 +461,11 @@ pg.item_data_frame = {
 	},
 	[331] = {
 		name = "澎湃之心 ",
-		gain_by = "",
+		gain_by = "铁翼擎风",
 		time_second = 0,
 		id = 331,
 		time_limit_type = 0,
-		desc = "通过后续活动获得",
+		desc = "<color=#ffffff>「澎湃之心，永不停歇。劈风斩浪，一往无前。」</color>\n「铁翼擎风」活动获取",
 		scene = {}
 	},
 	[401] = {

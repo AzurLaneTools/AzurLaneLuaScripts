@@ -181,7 +181,7 @@ slot0._TriggerEvent = function(slot0, slot1)
 	if not slot9 then
 		slot0.actionWaiting = true
 
-		slot0.live2dChar:TriggerAction(slot10, nil, , slot3)
+		slot3(slot0.live2dChar:TriggerAction(slot10))
 	else
 		slot0.actionWaiting = true
 

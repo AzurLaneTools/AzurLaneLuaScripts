@@ -33831,7 +33831,7 @@ pg.equip_skin_template = {
 		derivate_boom = "",
 		id = 4019,
 		themeid = 47,
-		orbit_rotate = "1",
+		orbit_rotate = false,
 		mirror = 0,
 		rarity = 4,
 		orbit_slg = "",
@@ -33856,16 +33856,16 @@ pg.equip_skin_template = {
 		orbit_combat_bound = {
 			"face",
 			{
-				2.22,
-				-0.09,
+				0.26,
+				2.26,
 				-2.93
 			}
 		},
 		orbit_ui_bound = {
 			"face",
 			{
-				-10,
-				0
+				2.43,
+				-7.26
 			}
 		},
 		orbit_hidden_action = {
@@ -33885,7 +33885,7 @@ pg.equip_skin_template = {
 		derivate_boom = "",
 		id = 4020,
 		themeid = 47,
-		orbit_rotate = "1",
+		orbit_rotate = false,
 		mirror = 0,
 		rarity = 4,
 		orbit_slg = "",
@@ -33910,16 +33910,16 @@ pg.equip_skin_template = {
 		orbit_combat_bound = {
 			"face",
 			{
-				2.22,
-				-0.25,
+				0.26,
+				2.26,
 				-2.93
 			}
 		},
 		orbit_ui_bound = {
 			"face",
 			{
-				-10,
-				0
+				2.43,
+				-7.26
 			}
 		},
 		orbit_hidden_action = {
@@ -34624,6 +34624,60 @@ pg.equip_skin_template = {
 		weapon_ids = {
 			61501,
 			54014
+		}
+	},
+	[4039] = {
+		hit_sfx = "",
+		bullet_name = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "100073",
+		name = "苍蓝狐面",
+		desc = "戴上狐面，坠入苍蓝之梦。",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 4039,
+		themeid = 47,
+		orbit_rotate = false,
+		mirror = 0,
+		rarity = 4,
+		orbit_slg = "",
+		orbit_ui = "shebei_qinglanhumianui",
+		miss_sfx = "",
+		orbit_combat = "shebei_qinglanhumian",
+		orbit_combat_anima_change = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				0.26,
+				2.26,
+				-2.93
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				2.43,
+				-7.26
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
 		}
 	},
 	[1001] = {
@@ -42664,6 +42718,7 @@ pg.equip_skin_template = {
 		4036,
 		4037,
 		4038,
+		4039,
 		1001,
 		1002,
 		1003,

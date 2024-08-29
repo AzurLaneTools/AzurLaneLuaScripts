@@ -1005,8 +1005,6 @@ pg.painting_filte_map = {
 			"painting/ankeleiqi_n",
 			"painting/ankeleiqi_jz2_tex",
 			"painting/ankeleiqi_jz1_tex",
-			"painting/ankeleiqi_hx_tex",
-			"painting/ankeleiqi_hx",
 			"painting/ankeleiqi"
 		}
 	},
@@ -1038,6 +1036,8 @@ pg.painting_filte_map = {
 	ankeleiqi_h = {
 		key = "ankeleiqi_h",
 		res_list = {
+			"painting/ankeleiqi_hx_tex",
+			"painting/ankeleiqi_hx",
 			"painting/ankeleiqi_h_tex",
 			"painting/ankeleiqi_h_rw_tex",
 			"painting/ankeleiqi_h_bj_tex",
@@ -10407,11 +10407,25 @@ pg.painting_filte_map = {
 			"painting/npcchaijun_5_n"
 		}
 	},
+	npcchicheng = {
+		key = "npcchicheng",
+		res_list = {
+			"painting/npcchicheng_tex",
+			"painting/npcchicheng"
+		}
+	},
 	npcedu_4 = {
 		key = "npcedu_4",
 		res_list = {
 			"painting/npcedu_4_n_tex",
 			"painting/npcedu_4_n"
+		}
+	},
+	npcjiahe = {
+		key = "npcjiahe",
+		res_list = {
+			"painting/npcjiahe_tex",
+			"painting/npcjiahe"
 		}
 	},
 	npcmojiaduoer_2 = {
@@ -11475,7 +11489,18 @@ pg.painting_filte_map = {
 			"painting/ruifeng_tex",
 			"painting/ruifeng_rw_tex",
 			"painting/ruifeng_n_tex",
+			"painting/ruifeng_n",
 			"painting/ruifeng"
+		}
+	},
+	ruifeng_2 = {
+		key = "ruifeng_2",
+		res_list = {
+			"painting/ruifeng_2_tex",
+			"painting/ruifeng_2_rw_tex",
+			"painting/ruifeng_2_n_tex",
+			"painting/ruifeng_2_n",
+			"painting/ruifeng_2"
 		}
 	},
 	ruihe = {

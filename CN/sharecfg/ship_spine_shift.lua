@@ -354,8 +354,8 @@ pg.ship_spine_shift = {
 	aisaikesi_8 = {
 		spine = "aisaikesi_8",
 		mainui_shift = {
-			-30,
-			-15
+			0,
+			0
 		}
 	},
 	u410_3 = {

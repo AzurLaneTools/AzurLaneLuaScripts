@@ -38,8 +38,12 @@ slot0.OnInit = function(slot0)
 	slot0.branchHeadTpl = slot0._tf:Find("Story/BranchHead")
 	slot0.branchCenterTpl = slot0._tf:Find("Story/BranchCenter")
 	slot0.branchUpTpl = slot0._tf:Find("Story/BranchUp")
+	slot0.branchDownTpl = slot0._tf:Find("Story/BranchDown")
+	slot0.unionTailTpl = slot0._tf:Find("Story/UnionTail")
+	slot0.unionCenterTpl = slot0._tf:Find("Story/UnionCenter")
+	slot0.unionUpTpl = slot0._tf:Find("Story/UnionUp")
 	slot1 = slot0._tf
-	slot0.branchDownTpl = slot1:Find("Story/BranchDown")
+	slot0.unionDownTpl = slot1:Find("Story/UnionDown")
 
 	setActive(slot0.storyNodeTpl, false)
 	setActive(slot0.oneLineTpl, false)
@@ -47,6 +51,10 @@ slot0.OnInit = function(slot0)
 	setActive(slot0.branchCenterTpl, false)
 	setActive(slot0.branchUpTpl, false)
 	setActive(slot0.branchDownTpl, false)
+	setActive(slot0.unionTailTpl, false)
+	setActive(slot0.unionCenterTpl, false)
+	setActive(slot0.unionUpTpl, false)
+	setActive(slot0.unionDownTpl, false)
 
 	slot0.pools = {
 		[slot0.storyNodeTpl] = uv0.New(go(slot0.storyNodeTpl), 16),
@@ -54,7 +62,11 @@ slot0.OnInit = function(slot0)
 		[slot0.branchHeadTpl] = uv0.New(go(slot0.branchHeadTpl), 16),
 		[slot0.branchCenterTpl] = uv0.New(go(slot0.branchCenterTpl), 16),
 		[slot0.branchUpTpl] = uv0.New(go(slot0.branchUpTpl), 16),
-		[slot0.branchDownTpl] = uv0.New(go(slot0.branchDownTpl), 16)
+		[slot0.branchDownTpl] = uv0.New(go(slot0.branchDownTpl), 16),
+		[slot0.unionTailTpl] = uv0.New(go(slot0.unionTailTpl), 16),
+		[slot0.unionCenterTpl] = uv0.New(go(slot0.unionCenterTpl), 16),
+		[slot0.unionUpTpl] = uv0.New(go(slot0.unionUpTpl), 16),
+		[slot0.unionDownTpl] = uv0.New(go(slot0.unionDownTpl), 16)
 	}
 	slot0.activeItems = {}
 	slot0.displayChapterIDs = {}
@@ -93,7 +105,7 @@ slot0.UpdateButtons = function(slot0)
 	slot3 = slot0.contextData.map:isRemaster()
 	slot4 = slot0.contextData.displayMode == uv0.DISPLAY.BATTLE
 
-	setActive(slot0.sceneParent.actExchangeShopBtn, not ActivityConst.HIDE_PT_PANELS and slot4 and not slot3 and slot2)
+	setActive(slot0.sceneParent.actExchangeShopBtn, not ActivityConst.HIDE_PT_PANELS and slot4 and not slot3 and slot2 and slot0.sceneParent:IsActShopActive())
 	setActive(slot0.sceneParent.ptTotal, not ActivityConst.HIDE_PT_PANELS and slot4 and not slot3 and slot2 and slot0.sceneParent.ptActivity and not slot0.sceneParent.ptActivity:isEnd())
 end
 
@@ -111,7 +123,7 @@ slot0.UpdateMapVO = function(slot0, slot1)
 
 	slot0.activity = getProxy(ActivityProxy):getActivityById(slot1:getConfig("on_activity"))
 	slot2 = getProxy(PlayerProxy):getRawData().id
-	slot0.chapterGroups = _.map(slot0.activity:getConfig("config_client").chapterGroups, function (slot0)
+	slot0.chapterGroups = _.map(slot1:getConfig("chapterGroups"), function (slot0)
 		return {
 			list = slot0,
 			index = PlayerPrefs.GetInt("spchapter_selected_" .. uv0 .. "_" .. slot0[1], uv1.DIFFICULITY.EASY)
@@ -133,24 +145,30 @@ slot0.UpdateMapVO = function(slot0, slot1)
 end
 
 slot0.BuildStoryTree = function(slot0)
-	slot1 = slot0.activity
-	slot0.spStoryIDs = slot1:getConfig("config_client").story_id
-	slot0.spStoryNodes = _.map(slot0.spStoryIDs, function (slot0)
-		return ActivitySpStoryNode.New({
+	slot1 = slot0.data
+	slot0.spStoryIDs = slot1:getConfig("story_id")
+	slot0.spStoryNodeDict = {}
+	slot0.spStoryNodes = {}
+
+	_.each(slot0.spStoryIDs, function (slot0)
+		uv0.spStoryNodeDict[slot0] = ActivitySpStoryNode.New({
 			configId = slot0
 		})
-	end)
 
+		table.insert(uv0.spStoryNodes, uv0.spStoryNodeDict[slot0])
+	end)
 	_.each(slot0.spStoryNodes, function (slot0)
-		if slot0:GetPreEvent() == 0 then
+		if #slot0:GetPreNodes() == 0 then
 			uv0 = slot0
 
 			return
 		end
 
-		uv1[slot1] = uv1[slot1] or {}
+		_.each(slot1, function (slot0)
+			uv0[slot0] = uv0[slot0] or {}
 
-		table.insert(uv1[slot1], slot0)
+			table.insert(uv0[slot0], uv1)
+		end)
 	end)
 
 	slot0.storyTree = {
@@ -443,64 +461,54 @@ slot0.UpdateStoryNodeStatus = function(slot0)
 	slot3 = pg.NewStoryMgr.GetInstance()
 	slot4 = {}
 
-	table.Foreach(slot0.spStoryIDs, function (slot0)
-		uv0[slot0] = {}
+	table.Foreach(slot0.spStoryIDs, function (slot0, slot1)
+		uv0[slot1] = {}
 	end)
 
-	slot5 = {
-		slot0.storyTree.root
-	}
+	for slot9 = 1, #slot0.spStoryNodes do
+		slot10 = slot5[slot9]
+		slot11 = slot10:GetConfigID()
+		slot13 = false
+		slot13 = slot10:GetPreEvent() == 0 and true or slot4[slot12].status == uv0
+		slot14 = uv1
+		slot16 = false
 
-	while true do
-		if not next(slot5) then
-			break
-		end
-
-		slot6 = table.remove(slot5, 1)
-		slot7 = slot6:GetConfigID()
-		slot9 = false
-		slot9 = slot6:GetPreEvent() == 0 and true or slot4[slot8].status == uv0
-		slot10 = uv1
-		slot12 = false
-
-		if slot6:GetStoryName() and slot11 ~= "" then
-			slot1 = slot1 + (slot3:IsPlayed(slot11) and 1 or 0)
+		if slot10:GetStoryName() and slot15 ~= "" then
+			slot1 = slot1 + (slot3:IsPlayed(slot15) and 1 or 0)
 			slot2 = slot2 + 1
 		end
 
-		if not slot12 and slot9 and slot6:GetUnlockConditions() then
-			if slot13[1] == ActivitySpStoryNode.CONDITION.TIME then
-				slot9 = pg.TimeMgr.GetInstance():parseTimeFromConfig(slot13[2]) <= pg.TimeMgr.GetInstance():GetServerTime()
-			elseif slot13[1] == ActivitySpStoryNode.CONDITION.PASSCHAPTER then
-				slot9 = _.all(slot13[2], function (slot0)
-					return getProxy(ChapterProxy):getChapterById(slot0, true):isClear()
-				end)
-			elseif slot13[1] == ActivitySpStoryNode.CONDITION.PT then
-				slot15 = slot13[2][2]
-				slot16 = slot13[2][3]
-				slot17 = 0
+		if not slot16 and slot13 then
+			_.each(slot10:GetUnlockConditions(), function (slot0)
+				if slot0[1] == ActivitySpStoryNode.CONDITION.TIME then
+					uv0 = uv0 and pg.TimeMgr.GetInstance():parseTimeFromConfig(slot0[2]) <= pg.TimeMgr.GetInstance():GetServerTime()
+				elseif slot0[1] == ActivitySpStoryNode.CONDITION.PASSCHAPTER then
+					uv0 = uv0 and _.all(slot0[2], function (slot0)
+						return getProxy(ChapterProxy):getChapterById(slot0, true):isClear()
+					end)
+				elseif slot0[1] == ActivitySpStoryNode.CONDITION.PT then
+					slot2 = slot0[2][2]
+					slot3 = slot0[2][3]
+					slot4 = 0
 
-				if slot13[2][1] == DROP_TYPE_RESOURCE then
-					slot17 = getProxy(PlayerProxy):getRawData():getResource(slot13[2])
-				elseif slot14 == DROP_TYPE_ITEM then
-					slot17 = getProxy(BagProxy):getItemCountById(slot15)
+					if slot0[2][1] == DROP_TYPE_RESOURCE then
+						slot4 = getProxy(PlayerProxy):getRawData():getResource(slot0[2])
+					elseif slot1 == DROP_TYPE_ITEM then
+						slot4 = getProxy(BagProxy):getItemCountById(slot2)
+					end
+
+					uv0 = uv0 and slot3 <= slot4
 				end
-
-				slot9 = slot16 <= slot17
-			end
+			end)
 		end
 
-		if slot12 then
-			slot10 = uv0
-		elseif slot9 then
-			slot10 = uv2
+		if slot16 then
+			slot14 = uv0
+		elseif slot13 then
+			slot14 = uv2
 		end
 
-		slot4[slot7].status = slot10
-
-		_.each(slot0.storyTree.childDict[slot7] or {}, function (slot0)
-			table.insert(uv0, slot0)
-		end)
+		slot4[slot11].status = slot14
 	end
 
 	slot0.storyNodeStatus = slot4
@@ -516,110 +524,203 @@ slot0.UpdateStory = function(slot0)
 		"ffffff",
 		"ffcb5a"
 	}
-	slot2 = slot0.storyReadCount
-	slot3 = slot0.storyReadMax
-	slot4 = 0
-	slot6 = 150
-	slot7 = {
+
+	if slot0.data:getConfig("story_inactive_color") and #slot2 > 0 then
+		slot1[1] = slot2
+	end
+
+	slot3 = slot0.storyReadCount
+	slot4 = slot0.storyReadMax
+	slot5 = 0
+	slot7 = 150
+	slot8 = {
 		{
+			layer = 0,
 			node = slot0.storyTree.root,
 			nodePos = Vector2.New(150, 0)
 		}
 	}
-	slot8 = slot0.storyNodeTpl.rect.width
-	slot9 = slot0.oneLineTpl.rect.width
-	slot10 = 75
-	slot11 = 32
+	slot9 = slot0.storyNodeTpl.rect.width
+	slot10 = slot0.oneLineTpl.rect.width
+	slot11 = slot0.branchHeadTpl.rect.width
+	slot12 = slot0.branchUpTpl.rect.width
+	slot13 = slot0.branchUpTpl.rect.height
+	slot14 = slot0.unionTailTpl.rect.width
+	slot15 = 75
+	slot16 = 82
+	slot17 = 32
 
 	while true do
-		if not next(slot7) then
+		if not next(slot8) then
 			break
 		end
 
-		slot12 = table.remove(slot7, 1)
-		slot14 = slot12.node:GetConfigID()
-		slot15 = slot0.storyNodeStatus[slot14].status
-		slot16 = slot0.pools[slot0.storyNodeTpl]:Dequeue()
+		slot18 = table.remove(slot8, 1)
+		slot20 = slot18.node:GetConfigID()
+		slot21 = slot0.storyNodeStatus[slot20].status
+		slot22 = slot0:DequeItem(slot0.storyNodeTpl)
 
-		table.insert(slot0.activeItems, {
-			template = slot0.storyNodeTpl,
-			active = slot16
-		})
-		setActive(slot16, true)
-		setParent(slot16, slot0.storyContainer)
-		setAnchoredPosition(slot16, slot12.nodePos)
+		setAnchoredPosition(slot22, slot18.nodePos)
 
-		slot0.storyNodeTFsById[slot14] = {
-			nodeTF = tf(slot16)
+		slot0.storyNodeTFsById[slot20] = {
+			nodeTF = tf(slot22)
 		}
-		slot17 = slot0.storyTree.childDict[slot14] or {}
+		slot23 = slot0.storyTree.childDict[slot20] or {}
 
-		table.Ipairs(slot17, function (slot0, slot1)
+		table.Ipairs(slot23, function (slot0, slot1)
 			slot2, slot3 = nil
+			slot4 = uv0.layer
 
-			if #uv0 == 1 then
-				slot2 = uv1.pools[uv1.oneLineTpl]:Dequeue()
+			if #slot1:GetPreNodes() > 1 then
+				if uv1 == slot1:GetPreNodes()[1] then
+					slot7 = uv4:DequeItem(uv4.unionUpTpl)
 
-				table.insert(uv1.activeItems, {
-					template = uv1.oneLineTpl,
-					active = slot2
-				})
-				setActive(slot2, true)
-				setParent(slot2, uv1.storyContainer)
-				setAnchoredPosition(slot2, uv2.nodePos + Vector2.New(uv3 + uv4, 0))
+					setAnchoredPosition(slot7, uv0.nodePos + Vector2.New(uv2 + uv3, 0))
 
-				slot3 = tf(slot2).anchoredPosition + Vector2.New(uv5 + uv6, 0)
-				slot4 = uv1.storyNodeStatus[slot1:GetConfigID()].status
+					slot4 = slot4 - 1
+					slot8 = uv4.storyNodeStatus[slot1:GetConfigID()].status
+
+					eachChild(slot7, function (slot0)
+						setImageColor(slot0, Color.NewHex(uv0[uv1]))
+					end)
+
+					return
+				elseif #slot5 == 2 or uv1 == slot5[3] then
+					slot6 = uv2 + uv3
+					slot7 = uv4:DequeItem(uv4.unionDownTpl)
+
+					setAnchoredPosition(slot7, uv0.nodePos + Vector2.New(slot6, 0))
+
+					slot6 = slot6 + uv6
+					slot8 = uv4:DequeItem(uv4.unionTailTpl)
+
+					setAnchoredPosition(slot8, uv0.nodePos + Vector2.New(slot6, uv7))
+
+					slot3 = uv0.nodePos + Vector2.New(slot6 + uv8 + uv9, uv7)
+					slot4 = slot4 + 1
+					slot9 = uv4.storyNodeStatus[slot1:GetConfigID()].status
+
+					eachChild(slot7, function (slot0)
+						setImageColor(slot0, Color.NewHex(uv0[uv1]))
+					end)
+					eachChild(slot8, function (slot0)
+						setImageColor(slot0, Color.NewHex(uv0[uv1]))
+					end)
+				else
+					slot7 = uv4:DequeItem(uv4.unionCenterTpl)
+
+					setAnchoredPosition(slot7, uv0.nodePos + Vector2.New(uv2 + uv3, 0))
+
+					slot8 = uv4.storyNodeStatus[slot1:GetConfigID()].status
+
+					eachChild(slot7, function (slot0)
+						setImageColor(slot0, Color.NewHex(uv0[uv1]))
+					end)
+
+					return
+				end
+			elseif #uv10 == 1 then
+				slot2 = uv4:DequeItem(uv4.oneLineTpl)
+
+				setAnchoredPosition(slot2, uv0.nodePos + Vector2.New(uv2 + uv3, 0))
+
+				slot3 = tf(slot2).anchoredPosition + Vector2.New(uv11 + uv12, 0)
+				slot5 = uv4.storyNodeStatus[slot1:GetConfigID()].status
 
 				eachChild(slot2, function (slot0)
 					setImageColor(slot0, Color.NewHex(uv0[uv1]))
 				end)
 
-				uv1.storyNodeTFsById[uv8].lineTF = tf(slot2)
+				uv4.storyNodeTFsById[uv1].lineTF = tf(slot2)
+			elseif slot0 == 1 then
+				slot5 = uv2 + uv3
+				slot6 = uv4:DequeItem(uv4.branchHeadTpl)
+
+				setAnchoredPosition(slot6, uv0.nodePos + Vector2.New(slot5, 0))
+
+				slot5 = slot5 + uv13
+				slot7 = uv4:DequeItem(uv4.branchUpTpl)
+
+				setAnchoredPosition(slot7, uv0.nodePos + Vector2.New(slot5, 0))
+
+				slot3 = uv0.nodePos + Vector2.New(slot5 + uv6 + uv12, uv7)
+				slot4 = slot4 + 1
+				slot8 = uv4.storyNodeStatus[slot1:GetConfigID()].status
+
+				eachChild(slot7, function (slot0)
+					setImageColor(slot0, Color.NewHex(uv0[uv1]))
+				end)
+				eachChild(slot6, function (slot0)
+					setImageColor(slot0, Color.NewHex(uv0[uv1]))
+				end)
+			elseif slot0 == 3 or slot0 == 2 and #uv10 == 2 then
+				slot5 = uv2 + uv3 + uv13
+				slot6 = uv4:DequeItem(uv4.branchDownTpl)
+
+				setAnchoredPosition(slot6, uv0.nodePos + Vector2.New(slot5, 0))
+
+				slot3 = uv0.nodePos + Vector2.New(slot5 + uv6 + uv12, -uv7)
+				slot4 = slot4 - 1
+				slot7 = uv4.storyNodeStatus[slot1:GetConfigID()].status
+
+				eachChild(slot6, function (slot0)
+					setImageColor(slot0, Color.NewHex(uv0[uv1]))
+				end)
 			else
-				assert(false)
+				slot5 = uv2 + uv3 + uv13
+				slot6 = uv4:DequeItem(uv4.branchCenterTpl)
+
+				setAnchoredPosition(slot6, uv0.nodePos + Vector2.New(slot5, 0))
+
+				slot3 = uv0.nodePos + Vector2.New(slot5 + uv6 + uv12, 0)
+				slot7 = uv4.storyNodeStatus[slot1:GetConfigID()].status
+
+				eachChild(slot6, function (slot0)
+					setImageColor(slot0, Color.NewHex(uv0[uv1]))
+				end)
 			end
 
-			table.insert(uv9, {
+			table.insert(uv14, {
 				node = slot1,
-				nodePos = slot3
+				nodePos = slot3,
+				layer = slot4
 			})
 		end)
 
-		if #slot17 == 0 then
-			slot4 = slot12.nodePos.x + slot8 + slot6
+		if #slot23 == 0 then
+			slot5 = slot18.nodePos.x + slot9 + slot7
 		end
 
-		slot19 = tf(slot16):Find("info/bk/title_form/title")
+		slot25 = tf(slot22):Find("info/bk/title_form/title")
 
-		if slot15 == uv0 then
-			setScrollText(slot19, slot13:GetUnlockDesc())
-			setTextAlpha(slot19, 0.5)
+		if slot21 == uv0 then
+			setScrollText(slot25, slot19:GetUnlockDesc())
+			setTextAlpha(slot25, 0.5)
 		else
-			setScrollText(slot19, slot13:GetDisplayName())
-			setTextAlpha(slot19, 1)
+			setScrollText(slot25, slot19:GetDisplayName())
+			setTextAlpha(slot25, 1)
 		end
 
-		slot20 = slot13:GetType()
+		slot26 = slot19:GetType()
 
-		setActive(slot18:Find("circle/lock"), slot15 == uv0)
+		setActive(slot24:Find("circle/lock"), slot21 == uv0)
 
-		if slot15 == uv0 then
-			setActive(slot18:Find("circle/Story"), false)
-			setActive(slot18:Find("circle/Battle"), false)
-			setText(slot18:Find(""))
-		elseif slot20 == ActivitySpStoryNode.NODE_TYPE.STORY then
-			setActive(slot18:Find("circle/Story"), slot20 == ActivitySpStoryNode.NODE_TYPE.STORY)
-			setActive(slot18:Find("circle/Battle"), slot20 == ActivitySpStoryNode.NODE_TYPE.BATTLE)
-			setActive(slot18:Find("circle/Story/Done"), slot15 == uv1)
-		elseif slot20 == ActivitySpStoryNode.NODE_TYPE.BATTLE then
-			setActive(slot18:Find("circle/Story"), slot20 == ActivitySpStoryNode.NODE_TYPE.STORY)
-			setActive(slot18:Find("circle/Battle"), slot20 == ActivitySpStoryNode.NODE_TYPE.BATTLE)
-			setActive(slot18:Find("circle/Battle/Done"), slot15 == uv1)
+		if slot21 == uv0 then
+			setActive(slot24:Find("circle/Story"), false)
+			setActive(slot24:Find("circle/Battle"), false)
+			setText(slot24:Find(""))
+		elseif slot26 == ActivitySpStoryNode.NODE_TYPE.STORY then
+			setActive(slot24:Find("circle/Story"), slot26 == ActivitySpStoryNode.NODE_TYPE.STORY)
+			setActive(slot24:Find("circle/Battle"), slot26 == ActivitySpStoryNode.NODE_TYPE.BATTLE)
+			setActive(slot24:Find("circle/Story/Done"), slot21 == uv1)
+		elseif slot26 == ActivitySpStoryNode.NODE_TYPE.BATTLE then
+			setActive(slot24:Find("circle/Story"), slot26 == ActivitySpStoryNode.NODE_TYPE.STORY)
+			setActive(slot24:Find("circle/Battle"), slot26 == ActivitySpStoryNode.NODE_TYPE.BATTLE)
+			setActive(slot24:Find("circle/Battle/Done"), slot21 == uv1)
 		end
 
-		setActive(slot18:Find("circle/progress"), slot15 == uv1)
-		onButton(slot0, slot18, function ()
+		setActive(slot24:Find("circle/progress"), slot21 == uv1)
+		onButton(slot0, slot24, function ()
 			if uv0 == uv1 then
 				return
 			end
@@ -635,25 +736,38 @@ slot0.UpdateStory = function(slot0)
 	end
 
 	setSizeDelta(slot0.storyContainer, {
-		x = slot4
+		x = slot5
 	})
-	setText(slot0.progressText, slot2 .. "/" .. slot3)
+	setText(slot0.progressText, slot3 .. "/" .. slot4)
 	setActive(slot0.storyAward, tobool(slot0.storyTask))
 
 	if slot0.storyTask then
-		slot12 = slot0.storyTask:getConfig("award_display")
+		slot18 = slot0.storyTask:getConfig("award_display")
 
 		updateDrop(slot0.storyAward:GetChild(0), Drop.New({
-			type = slot12[1][1],
-			id = slot12[1][2],
-			count = slot12[1][3]
+			type = slot18[1][1],
+			id = slot18[1][2],
+			count = slot18[1][3]
 		}))
 		setActive(slot0.storyAward:Find("get"), slot0.storyTask:getTaskStatus() == 1)
-		setActive(slot0.storyAward:Find("got"), slot14 == 2)
+		setActive(slot0.storyAward:Find("got"), slot20 == 2)
 		onButton(slot0, slot0.storyAward, function ()
 			uv0:emit(BaseUI.ON_DROP, uv1)
 		end)
 	end
+end
+
+slot0.DequeItem = function(slot0, slot1)
+	slot2 = slot0.pools[slot1]:Dequeue()
+
+	table.insert(slot0.activeItems, {
+		template = slot1,
+		active = slot2
+	})
+	setActive(slot2, true)
+	setParent(slot2, slot0.storyContainer)
+
+	return slot2
 end
 
 slot0.Move2UnlockStory = function(slot0)
@@ -662,22 +776,13 @@ slot0.Move2UnlockStory = function(slot0)
 	end
 
 	slot0.needFocusStory = nil
-	slot1 = {
-		slot0.storyTree.root
-	}
 	slot2 = nil
 
-	while true do
-		if not next(slot1) then
+	for slot6 = #slot0.spStoryNodes, 1, -1 do
+		if uv0 < slot0.storyNodeStatus[slot1[slot6]:GetConfigID()].status then
+			slot2 = slot8
+
 			break
-		end
-
-		if uv0 < slot0.storyNodeStatus[table.remove(slot1, 1):GetConfigID()].status then
-			slot2 = slot4
-
-			_.each(slot0.storyTree.childDict[slot4] or {}, function (slot0)
-				table.insert(uv0, slot0)
-			end)
 		end
 	end
 
@@ -687,34 +792,28 @@ slot0.Move2UnlockStory = function(slot0)
 end
 
 slot0.SwitchStoryMapAndBGM = function(slot0)
-	slot1 = {
-		slot0.storyTree.root
-	}
-	slot2 = slot0.activity:getConfig("config_client").default_background
-	slot3 = slot0.activity:getConfig("config_client").default_bgm
+	slot1 = slot0.data:getConfig("default_background")
+	slot2 = slot0.data:getConfig("default_bgm")
+	slot3 = nil
 
-	while true do
-		if not next(slot1) then
+	for slot8 = 1, #slot0.spStoryNodes do
+		if slot0.storyNodeStatus[slot4[slot8]:GetConfigID()].status == uv0 then
+			slot2 = slot9:GetCleanBGM()
+			slot1 = slot9:GetCleanBG()
+			slot3 = slot9:GetCleanAnimator()
+		else
 			break
-		end
-
-		if slot0.storyNodeStatus[table.remove(slot1, 1):GetConfigID()].status == uv0 then
-			slot3 = slot4:GetCleanBGM()
-			slot2 = slot4:GetCleanBG()
-
-			_.each(slot0.storyTree.childDict[slot5] or {}, function (slot0)
-				table.insert(uv0, slot0)
-			end)
 		end
 	end
 
 	slot0.sceneParent:SwitchBG({
 		{
 			bgPrefix = "bg",
-			BG = slot2
+			BG = slot1,
+			Animator = slot3
 		}
 	})
-	pg.BgmMgr.GetInstance():Push(slot0.__cname, slot3)
+	pg.BgmMgr.GetInstance():Push(slot0.__cname, slot2)
 end
 
 slot0.TrySubmitTask = function(slot0)
@@ -764,8 +863,11 @@ slot0.PlayStory = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.UpdateStoryTask = function(slot0)
-	slot0.storyTask = getProxy(TaskProxy):getTaskVO(slot0.activity:getConfig("config_client").task_id) or Task.New({
-		submit_time = 1,
+	if not getProxy(TaskProxy):getTaskVO(slot0.activity:getConfig("config_client").task_id) then
+		errorMsg("Missing Activity Task ID : " .. slot1)
+	end
+
+	slot0.storyTask = slot2 or Task.New({
 		id = slot1
 	})
 end

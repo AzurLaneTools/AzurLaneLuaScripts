@@ -1450,6 +1450,11 @@ pg.player_resource = {
 		name = "skinTicket77",
 		itemid = 65013
 	},
+	[429] = {
+		id = 429,
+		name = "ruifeng_pt",
+		itemid = 65015
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -2696,6 +2701,9 @@ pg.player_resource = {
 		skinTicket77 = {
 			428
 		},
+		ruifeng_pt = {
+			429
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -3213,6 +3221,7 @@ pg.player_resource = {
 		426,
 		427,
 		428,
+		429,
 		950,
 		951,
 		952,

@@ -5473,6 +5473,16 @@ end
 temp()
 
 temp = function()
+	uv0["鹳"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["鹞"] = {
 		this = {
 			this = true

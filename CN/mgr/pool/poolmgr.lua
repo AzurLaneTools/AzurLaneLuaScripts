@@ -17,7 +17,7 @@ slot0.Ctor = function(slot0)
 	slot0.singleIndex = 0
 	slot0.paintingCount = 0
 	slot0.commanderPaintingCount = 0
-	slot0.preloads = {
+	slot0.preloadSprites = {
 		shiptype = {
 			"battle_hangmu",
 			"battle_qingxun",
@@ -111,10 +111,20 @@ slot0.Ctor = function(slot0)
 			"express_2",
 			"express_3",
 			"express_4"
-		},
-		shipstatus = {},
-		channel = {},
-		["painting/mat"] = {}
+		}
+	}
+	slot0.preloadAbs = {
+		"shipstatus",
+		"channel",
+		"painting/mat",
+		"ui/commonui_atlas",
+		"skinicon",
+		"attricon",
+		"artresource/effect/chuanwukuang/duang_6_mask",
+		"artresource/effect/communicationjamming/line5",
+		"artresource/effect/communicationjamming/line6",
+		"artresource/effect/wupinkuang/iconcolorfulmask",
+		"artresource/effect/wupinkuang/iconcolorfulwave01"
 	}
 	slot0.ui_tempCache = {}
 end
@@ -123,7 +133,7 @@ slot0.Init = function(slot0, slot1)
 	print("initializing pool manager...")
 
 	slot2 = 0
-	slot3 = table.getCount(slot0.preloads)
+	slot3 = table.getCount(slot0.preloadSprites) + #slot0.preloadAbs
 
 	slot4 = function()
 		uv0 = uv0 + 1
@@ -133,7 +143,7 @@ slot0.Init = function(slot0, slot1)
 		end
 	end
 
-	for slot8, slot9 in pairs(slot0.preloads) do
+	for slot8, slot9 in pairs(slot0.preloadSprites) do
 		if #slot9 > 0 then
 			slot10 = typeof(Sprite)
 			slot11 = false
@@ -141,7 +151,7 @@ slot0.Init = function(slot0, slot1)
 			slot12 = function(slot0)
 			end
 
-			buildTempAB(slot8, function (slot0)
+			AssetBundleHelper.loadAssetBundleAsync(slot8, function (slot0)
 				for slot4, slot5 in ipairs(uv0) do
 					slot6 = slot0:LoadAssetSync(slot5, uv1, uv2, false)
 					slot8 = slot5
@@ -163,11 +173,13 @@ slot0.Init = function(slot0, slot1)
 
 				uv7()
 			end)
-		else
-			buildTempAB(slot8, function (slot0)
-				uv0()
-			end)
 		end
+	end
+
+	for slot8, slot9 in ipairs(slot0.preloadAbs) do
+		AssetBundleHelper.loadAssetBundleAsync(slot9, function (slot0)
+			uv0()
+		end)
 	end
 end
 
@@ -564,7 +576,7 @@ slot0.DestroyAllSprite = function(slot0)
 	slot2 = typeof(Sprite)
 
 	for slot6, slot7 in pairs(slot0.pools_pack) do
-		if slot7.type == slot2 and not slot0.preloads[slot6] then
+		if slot7.type == slot2 and not slot0.preloadSprites[slot6] then
 			slot1[slot6] = slot7
 		end
 	end

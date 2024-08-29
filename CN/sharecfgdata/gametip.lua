@@ -12368,17 +12368,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "{namecode:18}、{namecode:62} 建造追加！"
+	tip = "维托里奥·维内托 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "{namecode:206}、{namecode:150} 建造追加！"
+	tip = "阿布鲁齐公爵 等角色建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "{namecode:18} 、{namecode:208}建造追加！"
+	tip = "天鹰 建造追加！"
 }
 
 

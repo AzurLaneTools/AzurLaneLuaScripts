@@ -38,7 +38,8 @@ slot0.listNotificationInterests = function(slot0)
 	return {
 		ActivityProxy.ACTIVITY_UPDATED,
 		BagProxy.ITEM_UPDATED,
-		GAME.SUBMIT_TASK_DONE
+		GAME.SUBMIT_TASK_DONE,
+		GAME.SUBMIT_ACTIVITY_TASK_DONE
 	}
 end
 
@@ -61,7 +62,7 @@ slot0.handleNotification = function(slot0, slot1)
 		if slot3.id == Item.QUICK_TASK_PASS_TICKET_ID then
 			slot0.viewComponent:updateItemInfo()
 		end
-	elseif slot2 == GAME.SUBMIT_TASK_DONE then
+	elseif slot2 == GAME.SUBMIT_TASK_DONE or slot2 == GAME.SUBMIT_ACTIVITY_TASK_DONE then
 		slot5 = {}
 
 		for slot9, slot10 in ipairs(slot4) do
