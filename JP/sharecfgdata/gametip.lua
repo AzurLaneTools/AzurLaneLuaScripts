@@ -12739,7 +12739,7 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「ヴィットリオ・ヴェネット」常設追加！"
+	tip = "「ヴィットリオ・ヴェネト」常設追加！"
 }
 
 
