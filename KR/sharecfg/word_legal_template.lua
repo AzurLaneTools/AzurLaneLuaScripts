@@ -912,13 +912,13 @@ temp = function()
 				this = true
 			}
 		},
-		["쿠"] = {
-			["류"] = {
+		["얼"] = {
+			["빈"] = {
 				this = true
 			}
 		},
-		["얼"] = {
-			["빈"] = {
+		["쿠"] = {
+			["류"] = {
 				this = true
 			}
 		}
@@ -1174,15 +1174,6 @@ temp = function()
 												this = true
 											}
 										}
-									}
-								}
-							}
-						},
-						["나"] = {
-							["히"] = {
-								["모"] = {
-									["프"] = {
-										this = true
 									}
 								}
 							}
@@ -6353,38 +6344,6 @@ end
 temp()
 
 temp = function()
-	uv0["鞍"] = {
-		["山"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["济"] = {
-		["安"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["哈"] = {
-		["尔"] = {
-			["滨"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["펠"] = {
 		["릭"] = {
 			["스"] = {
@@ -6409,6 +6368,41 @@ temp = function()
 				["르"] = {
 					["크"] = {
 						this = true
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["어"] = {
+		["드"] = {
+			["미"] = {
+				["럴"] = {
+					[" "] = {
+						["나"] = {
+							["히"] = {
+								["모"] = {
+									["프"] = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
+			},
+			["벤"] = {
+				["처"] = {
+					[" "] = {
+						["갤"] = {
+							["리"] = {
+								this = true
+							}
+						}
 					}
 				}
 			}
@@ -6444,26 +6438,6 @@ temp = function()
 					["인"] = {
 						["드"] = {
 							this = true
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["어"] = {
-		["드"] = {
-			["벤"] = {
-				["처"] = {
-					[" "] = {
-						["갤"] = {
-							["리"] = {
-								this = true
-							}
 						}
 					}
 				}
