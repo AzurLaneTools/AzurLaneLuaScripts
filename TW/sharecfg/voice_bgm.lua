@@ -78,7 +78,7 @@ pg.voice_bgm = {
 	LoginScene = {
 		default_bgm = "login",
 		special_bgm = "",
-		bgm = "song-Cyanidin-full"
+		bgm = "login"
 	},
 	NewMainScene = {
 		default_bgm = "main",
