@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2024,
 					8,
-					15
+					28
 				},
 				{
 					0,
@@ -24,8 +24,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					8,
-					28
+					9,
+					4
 				},
 				{
 					23,
@@ -88,7 +88,7 @@ pg.activity_banner = {
 				{
 					2024,
 					8,
-					15
+					28
 				},
 				{
 					0,
@@ -99,8 +99,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					8,
-					29
+					9,
+					5
 				},
 				{
 					23,
@@ -111,16 +111,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5301",
-		type = 3,
+		type = 2,
 		id = 4,
-		pic = "temp5",
+		pic = "temp4",
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		},
 		time = {
 			{
 				{
 					2024,
 					8,
-					15
+					28
 				},
 				{
 					0,
@@ -131,8 +136,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					8,
-					29
+					9,
+					4
 				},
 				{
 					23,
@@ -143,16 +148,18 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5314",
-		type = 3,
+		type = 2,
 		id = 5,
-		pic = "temp6",
+		pic = "temp5",
+		param = {
+			"scene court yard"
+		},
 		time = {
 			{
 				{
 					2024,
 					8,
-					15
+					28
 				},
 				{
 					0,
@@ -163,8 +170,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					8,
-					29
+					9,
+					4
 				},
 				{
 					23,
@@ -177,16 +184,19 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 6,
-		pic = "temp7",
+		pic = "temp6",
 		param = {
-			"scene court yard"
+			"metacharacter",
+			{
+				autoOpenShipConfigID = 9702051
+			}
 		},
 		time = {
 			{
 				{
 					2024,
 					8,
-					15
+					1
 				},
 				{
 					0,
@@ -197,8 +207,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					8,
-					28
+					9,
+					30
 				},
 				{
 					23,
@@ -211,19 +221,16 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 7,
-		pic = "temp8",
+		pic = "temp7",
 		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
+			"crusing"
 		},
 		time = {
 			{
 				{
 					2024,
 					8,
-					15
+					1
 				},
 				{
 					0,
@@ -234,8 +241,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					8,
-					28
+					9,
+					30
 				},
 				{
 					23,
@@ -243,59 +250,6 @@ pg.activity_banner = {
 					59
 				}
 			}
-		}
-	},
-	{
-		param = "5311",
-		type = 3,
-		id = 8,
-		pic = "temp9",
-		time = {
-			{
-				{
-					2024,
-					8,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					8,
-					28
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		time = "stop",
-		type = 2,
-		id = 9,
-		pic = "temp4",
-		param = {
-			"metacharacter",
-			{
-				autoOpenShipConfigID = 9702051
-			}
-		}
-	},
-	{
-		time = "stop",
-		type = 2,
-		id = 10,
-		pic = "temp14",
-		param = {
-			"crusing"
 		}
 	},
 	[98] = {
@@ -308,7 +262,7 @@ pg.activity_banner = {
 				{
 					2024,
 					8,
-					15
+					28
 				},
 				{
 					0,
@@ -319,8 +273,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					8,
-					28
+					9,
+					4
 				},
 				{
 					23,
@@ -340,7 +294,7 @@ pg.activity_banner = {
 				{
 					2024,
 					8,
-					15
+					28
 				},
 				{
 					0,
@@ -351,8 +305,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					8,
-					28
+					9,
+					4
 				},
 				{
 					23,
@@ -715,10 +669,10 @@ pg.activity_banner = {
 			1,
 			2,
 			3,
+			4,
+			5,
 			6,
 			7,
-			9,
-			10,
 			1000,
 			1001,
 			1002,
@@ -741,12 +695,6 @@ pg.activity_banner = {
 			1021,
 			1022,
 			1023
-		},
-		[3] = {
-			4,
-			5,
-			8,
-			1003
 		},
 		[9] = {
 			98
@@ -771,6 +719,9 @@ pg.activity_banner = {
 			203,
 			204
 		},
+		[3] = {
+			1003
+		},
 		[8] = {
 			1015
 		}
@@ -783,9 +734,6 @@ pg.activity_banner = {
 		5,
 		6,
 		7,
-		8,
-		9,
-		10,
 		98,
 		99,
 		100,

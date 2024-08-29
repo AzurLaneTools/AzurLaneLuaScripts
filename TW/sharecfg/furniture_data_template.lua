@@ -173,6 +173,7 @@ pg.furniture_data_template = setmetatable({
 			100035,
 			100036,
 			100037,
+			100038,
 			100055,
 			200001,
 			200002,
@@ -4858,6 +4859,7 @@ pg.furniture_data_template = setmetatable({
 			100035,
 			100036,
 			100037,
+			100038,
 			100055,
 			54104,
 			54105
@@ -5802,6 +5804,7 @@ pg.furniture_data_template = setmetatable({
 			100033,
 			100035,
 			100036,
+			100038,
 			100055
 		},
 		[2] = {
@@ -8455,6 +8458,7 @@ pg.furniture_data_template = setmetatable({
 		100035,
 		100036,
 		100037,
+		100038,
 		100055,
 		200001,
 		200002,
@@ -11749,7 +11753,7 @@ pg.base.furniture_data_template = {
 	},
 	[26] = {
 		can_rotate = 0,
-		describe = "特殊家具：龐培·馬格諾號驅逐艦1:100艦船模型",
+		describe = "特殊傢俱：龐培·馬格諾號驅逐艦1:100艦船模型",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -20028,6 +20032,83 @@ pg.base.furniture_data_template = {
 				},
 				"walk"
 			}
+		},
+		interAction_group = {}
+	},
+	[100038] = {
+		can_rotate = 0,
+		describe = "充滿科技感的……合成裝置？",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "zongzihechengqiicon",
+		count = 1,
+		name = "「美味」合成器",
+		advice = 0,
+		id = 100038,
+		tag = 6,
+		comfortable = 0,
+		size = {
+			4,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zongzihechengqiB",
+				"normal"
+			},
+			{
+				"zongzihechengqiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},

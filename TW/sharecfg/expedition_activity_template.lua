@@ -5294,41 +5294,45 @@ pg.expedition_activity_template = {
 	},
 	[1630013] = {
 		id = 1630013,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40751,
-				243
+				5233,
+				397,
+				0
 			}
 		}
 	},
 	[1631013] = {
 		id = 1631013,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40751,
-				243
+				5233,
+				397,
+				0
 			}
 		}
 	},
 	[1632013] = {
 		id = 1632013,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40751,
-				243
+				5233,
+				397,
+				0
 			}
 		}
 	},
 	[1633013] = {
 		id = 1633013,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				40751,
-				243
+				5233,
+				397,
+				0
 			}
 		}
 	},
@@ -5337,8 +5341,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				40751,
-				243
+				5233,
+				397,
+				0
 			}
 		}
 	},
@@ -7017,99 +7022,33 @@ pg.expedition_activity_template = {
 	},
 	[1800013] = {
 		id = 1800013,
-		bonus_time = 0,
-		pt_drop_display = {
-			{
-				5301,
-				407,
-				0
-			},
-			{
-				5315,
-				319,
-				0
-			}
-		}
+		pt_drop_display = "",
+		bonus_time = 0
 	},
 	[1801013] = {
 		id = 1801013,
-		bonus_time = 0,
-		pt_drop_display = {
-			{
-				5301,
-				407,
-				0
-			},
-			{
-				5315,
-				319,
-				0
-			}
-		}
+		pt_drop_display = "",
+		bonus_time = 0
 	},
 	[1802013] = {
 		id = 1802013,
-		bonus_time = 0,
-		pt_drop_display = {
-			{
-				5301,
-				407,
-				0
-			},
-			{
-				5315,
-				319,
-				0
-			}
-		}
+		pt_drop_display = "",
+		bonus_time = 0
 	},
 	[1803013] = {
 		id = 1803013,
-		bonus_time = 0,
-		pt_drop_display = {
-			{
-				5301,
-				407,
-				0
-			},
-			{
-				5315,
-				319,
-				0
-			}
-		}
+		pt_drop_display = "",
+		bonus_time = 0
 	},
 	[1804013] = {
 		id = 1804013,
-		bonus_time = 0,
-		pt_drop_display = {
-			{
-				5301,
-				407,
-				0
-			},
-			{
-				5315,
-				319,
-				0
-			}
-		}
+		pt_drop_display = "",
+		bonus_time = 0
 	},
 	[1805013] = {
 		id = 1805013,
-		bonus_time = 0,
-		pt_drop_display = {
-			{
-				5301,
-				407,
-				0
-			},
-			{
-				5315,
-				319,
-				0
-			}
-		}
+		pt_drop_display = "",
+		bonus_time = 0
 	},
 	[3000013] = {
 		id = 3000013,

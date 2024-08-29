@@ -82,6 +82,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.offsetDragTargetY = slot0.startValue
 	slot0.parameterComAdd = true
 	slot0.reactConditionFlag = false
+	slot0.loadL2dStep = true
 end
 
 slot0.onListenerEvent = function(slot0, slot1, slot2)
@@ -436,6 +437,8 @@ slot0.stepParameter = function(slot0)
 	slot0:updateParameterValue()
 	slot0:updateRelationValue()
 	slot0:checkReset()
+
+	slot0.loadL2dStep = false
 end
 
 slot0.updateParameterUpdateFlag = function(slot0)
@@ -593,24 +596,57 @@ slot0.updateRelationValue = function(slot0)
 	for slot4, slot5 in ipairs(slot0._relationParameterList) do
 		slot6 = slot5.data
 		slot8 = slot6.relation_value
-		slot9, slot10 = nil
+		slot9 = slot6.target
+		slot10, slot11 = nil
 
 		if slot6.type == Live2D.relation_type_drag_x then
-			slot9 = slot0.offsetDragX or slot5.start or slot0.startValue or 0
-			slot10 = true
+			slot10 = slot0.offsetDragX or slot5.start or slot0.startValue or 0
+			slot11 = true
 		elseif slot7 == Live2D.relation_type_drag_y then
-			slot9 = slot0.offsetDragY or slot5.start or slot0.startValue or 0
-			slot10 = true
+			slot10 = slot0.offsetDragY or slot5.start or slot0.startValue or 0
+			slot11 = true
 		elseif slot7 == Live2D.relation_type_action_index then
-			slot9 = slot8[slot0.actionListIndex] or 0
-			slot10 = true
+			slot10 = slot8[slot0.actionListIndex] or 0
+			slot11 = true
+		elseif slot7 == Live2D.relation_type_idle then
+			if slot0.loadL2dStep and slot0.l2dIdleIndex == slot6.idle then
+				slot11 = true
+			end
+
+			if slot0.l2dIsPlaying then
+				if slot0.l2dPlayActionName == slot0.actionTrigger.action then
+					slot0.relationActive = true
+				end
+			else
+				slot0.relationActive = false
+				slot0.relationCountTime = nil
+			end
+
+			if not slot11 and slot0.relationActive and slot0.l2dIdleIndex == slot6.idle then
+				if not slot0.relationCountTime then
+					slot0.relationCountTime = Time.GetTimestamp() + slot6.time
+				end
+
+				if slot0.relationCountTime and slot0.relationCountTime <= Time.GetTimestamp() then
+					slot11 = true
+				end
+			end
 		else
-			slot9 = slot0.parameterTargetValue
-			slot10 = false
+			slot10 = slot0.parameterTargetValue
+			slot11 = false
 		end
 
-		slot5.value, slot5.parameterSmooth = Mathf.SmoothDamp(slot5.value or slot0.startValue, slot0:fixRelationParameter(slot9, slot6), slot5.parameterSmooth or 0, slot6.smooth and slot6.smooth / 1000 or slot0.smooth)
-		slot5.enable = slot10
+		slot12, slot13 = nil
+
+		if slot9 then
+			slot12 = slot9
+		else
+			slot12, slot13 = Mathf.SmoothDamp(slot5.value or slot0.startValue, slot0:fixRelationParameter(slot10, slot6), slot5.parameterSmooth or 0, slot6.smooth and slot6.smooth / 1000 or slot0.smooth)
+		end
+
+		slot5.value = slot12
+		slot5.parameterSmooth = slot13
+		slot5.enable = slot11
 		slot5.comId = slot0.id
 	end
 end
@@ -944,6 +980,10 @@ slot0.loadData = function(slot0)
 	if slot0.actionTrigger.type == Live2D.DRAG_CLICK_MANY then
 		slot0.actionListIndex = Live2dConst.GetDragActionIndex(slot0.id, slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id) or 1
 	end
+end
+
+slot0.loadL2dFinal = function(slot0)
+	slot0.loadL2dStep = true
 end
 
 slot0.clearData = function(slot0)

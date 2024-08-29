@@ -92,6 +92,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.hideRecordIco = slot1.hideRecordIco
 	slot0.paingtingScale = slot1.actorScale
 	slot0.hidePainting = slot1.withoutPainting
+	slot0.hidePaintingWithName = slot1.hidePainting
 	slot0.actorShadow = slot1.actorShadow
 	slot0.actorAlpha = slot1.actorAlpha
 	slot0.showNPainting = slot1.hidePaintObj
@@ -109,6 +110,15 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.glitchArtForPortrait = slot1.portraitNoise
 
 	if slot0.hidePainting or slot0.actor == nil then
+		slot0.actor = nil
+		slot0.hideOtherPainting = true
+	end
+
+	if slot0.hidePaintingWithName or slot0.actor == nil then
+		if slot0.actorName == nil then
+			slot0.actorName = slot0:GetName()
+		end
+
 		slot0.actor = nil
 		slot0.hideOtherPainting = true
 	end

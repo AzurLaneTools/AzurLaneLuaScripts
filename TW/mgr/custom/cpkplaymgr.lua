@@ -69,12 +69,7 @@ slot0.PlayCpkMovie = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, s
 		if uv0._criUsm then
 			uv0._criUsm.player:SetVolume(PlayerPrefs.GetFloat("bgm_vol", DEFAULT_BGMVOLUME))
 			uv0._criUsm.player:SetShaderDispatchCallback(function (slot0, slot1)
-				if uv0._ratioFitter then
-					warning("ShaderDispatchCallback", uv0._ratioFitter.enabled)
-
-					uv0._ratioFitter.enabled = true
-				end
-
+				uv0:CheckRatioFitter()
 				uv0:checkBgmStop(slot0)
 
 				return nil
@@ -84,6 +79,7 @@ slot0.PlayCpkMovie = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, s
 		if uv0._criCpk then
 			uv0._criCpk.player:SetVolume(PlayerPrefs.GetFloat("bgm_vol", DEFAULT_BGMVOLUME))
 			uv0._criCpk.player:SetShaderDispatchCallback(function (slot0, slot1)
+				uv0:CheckRatioFitter()
 				uv0:checkBgmStop(slot0)
 
 				return nil
@@ -143,6 +139,7 @@ slot0.PlayCpkMovie = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, s
 
 			uv0._ratioTimer:Start()
 
+			uv0._ratioFitter = slot0:GetComponent("AspectRatioFitter")
 			uv0._mainTF = slot0
 
 			pg.UIMgr.GetInstance():OverlayPanel(uv0._mainTF.transform, uv1)
@@ -164,6 +161,13 @@ slot0.PlayCpkMovie = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, s
 		end)
 	else
 		slot11()
+	end
+end
+
+slot0.CheckRatioFitter = function(slot0)
+	if slot0._ratioFitter then
+		slot0._ratioFitter.enabled = true
+		slot0._ratioFitter = nil
 	end
 end
 

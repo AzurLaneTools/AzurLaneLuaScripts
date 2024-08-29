@@ -261,6 +261,93 @@ pg.expedition_constellation_challenge_template = {
 			}
 		}
 	},
+	[10010] = {
+		button_style = 7,
+		information_icon = "hailunna_constellation",
+		painting = "hailunna",
+		id = 10010,
+		dungeon_id = 5112,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"威脅感知",
+				"戰鬥中每20秒，處女座化身6秒內受到的傷害降低40%並感知自身受到的炮擊、雷擊和航空傷害，紀錄期間對自身造成傷害最多的屬性類型，之後使自身受到該類型的屬性傷害降低<color=#92fc63>40%</color>，持續至下次【威脅感知】觸發。若敵方角色攜帶SG雷達時，每場戰鬥第一次威脅感知的判定時間提前至16秒。"
+			},
+			{
+				"雷達掃描",
+				"【威脅感知】觸發後發動，處女座化身自身命中屬性提高<color=#92fc63>20%</color>，迴避率上升<color=#92fc63>20%</color>，持續10秒"
+			}
+		},
+		award_display = {
+			{
+				14,
+				204,
+				1
+			}
+		}
+	},
+	[10011] = {
+		button_style = 7,
+		information_icon = "hailunna_constellation",
+		painting = "hailunna",
+		id = 10011,
+		dungeon_id = 5111,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"威脅感知",
+				"戰鬥中每20秒，處女座化身6秒內受到的傷害降低40%並感知自身受到的炮擊、雷擊和航空傷害，紀錄期間對自身造成傷害最多的屬性類型，之後使自身受到該類型的屬性傷害降低<color=#92fc63>60%</color>，持續至下次【威脅感知】觸發。若敵方角色攜帶SG雷達時，每場戰鬥第一次威脅感知的判定時間提前至16秒。"
+			},
+			{
+				"雷達掃描",
+				"【威脅感知】觸發後發動，處女座化身自身命中屬性提高<color=#92fc63>30%</color>，迴避率上升<color=#92fc63>30%</color>，持續10秒"
+			}
+		},
+		award_display = {
+			{
+				15,
+				10004,
+				1
+			}
+		}
+	},
+	[10012] = {
+		button_style = 7,
+		information_icon = "hailunna_constellation",
+		painting = "hailunna",
+		id = 10012,
+		dungeon_id = 5110,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"威脅感知",
+				"戰鬥中每20秒，處女座化身6秒內受到的傷害降低40%並感知自身受到的炮擊、雷擊和航空傷害，紀錄期間對自身造成傷害最多的屬性類型，之後使自身受到該類型的屬性傷害降低<color=#92fc63>80%</color>，持續至下次【威脅感知】觸發。若敵方角色攜帶SG雷達時，每場戰鬥第一次威脅感知的判定時間提前至16秒。"
+			},
+			{
+				"雷達掃描",
+				"【威脅感知】觸發後發動，處女座化身自身命中屬性提高<color=#92fc63>40%</color>，迴避率上升<color=#92fc63>40%</color>，持續10秒"
+			}
+		},
+		award_display = {
+			{
+				14,
+				10004,
+				1
+			}
+		}
+	},
 	all = {
 		10001,
 		10002,
@@ -270,6 +357,9 @@ pg.expedition_constellation_challenge_template = {
 		10006,
 		10007,
 		10008,
-		10009
+		10009,
+		10010,
+		10011,
+		10012
 	}
 }

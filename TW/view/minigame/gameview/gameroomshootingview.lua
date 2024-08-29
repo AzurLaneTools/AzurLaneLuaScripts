@@ -350,9 +350,7 @@ end
 slot0.updateCount = function(slot0)
 	setText(slot0.ticketTF, slot0:GetMGHubData().count)
 
-	slot0.bestScore = checkExist(slot0:GetMGData():GetRuntimeData("elements"), {
-		1
-	}) or 0
+	slot0.bestScore = getProxy(GameRoomProxy):getRoomScore(slot0:getGameRoomData().id)
 
 	setText(slot0.bestScoreTF, slot0.bestScore)
 end

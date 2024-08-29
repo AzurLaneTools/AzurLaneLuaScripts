@@ -127,19 +127,19 @@ slot0.getGameTimes = function(slot0)
 end
 
 slot0.showScoreUI = function(slot0, slot1)
-	if slot1 > (slot0:GetMGData():GetRuntimeData("elements") and #slot2 > 0 and slot2[1] or 0) then
+	if getProxy(GameRoomProxy):getRoomScore(slot0:getGameRoomData().id) < slot1 then
 		setActive(slot0.scoreNew, true)
 	else
 		setActive(slot0.scoreNew, false)
 	end
 
-	slot3 = slot1 < slot3 and slot3 or slot1
+	slot2 = slot1 < slot2 and slot2 or slot1
 
 	setActive(slot0.scoreUI, true)
 	setText(slot0.labelCurScore, slot1)
-	setText(slot0.labelHigh, slot3)
+	setText(slot0.labelHigh, slot2)
 	slot0:StoreDataToServer({
-		slot3
+		slot2
 	})
 	slot0:SendSuccess(slot1)
 end

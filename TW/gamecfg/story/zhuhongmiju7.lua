@@ -670,7 +670,7 @@ return {
 			dir = 1,
 			actorName = "{namecode:70}",
 			hidePaintObj = true,
-			say = "虽然{namecode:82:三笠}前辈没{namecode:31:有明}说，但是你在潜意识里肯定意识到了，所以才会干脆同意，不是么？",
+			say = "虽然{namecode:82:三笠}前辈没有明说，但是你在潜意识里肯定意识到了，所以才会干脆同意，不是么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1082,5 +1082,11 @@ pg.activity_const = {
 	},
 	MONOPOLY_TASK_ACT_ID = {
 		act_id = 5461
+	},
+	SIX_YEAR_US_TASK_ACT_ID = {
+		act_id = 5534
+	},
+	SIX_YEAR_US_TASK_2_ACT_ID = {
+		act_id = 5536
 	}
 }

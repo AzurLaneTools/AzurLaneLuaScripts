@@ -2520,6 +2520,31 @@ pg.activity_ins_ship_group_template = {
 		name = "L'Audacieux",
 		sculpture = "guogan"
 	},
+	[10233] = {
+		ship_group = 10233,
+		name = "Fargo",
+		sculpture = "fage"
+	},
+	[10328] = {
+		ship_group = 10328,
+		name = "Pittsburgh",
+		sculpture = "pizibao"
+	},
+	[10515] = {
+		ship_group = 10515,
+		name = "Indiana",
+		sculpture = "yindianna"
+	},
+	[10809] = {
+		ship_group = 10809,
+		name = "Herring",
+		sculpture = "feiyu"
+	},
+	[10152] = {
+		ship_group = 10152,
+		name = "Bell",
+		sculpture = "beier"
+	},
 	all = {
 		30701,
 		30702,
@@ -3024,6 +3049,11 @@ pg.activity_ins_ship_group_template = {
 		40314,
 		90202,
 		90303,
-		90114
+		90114,
+		10233,
+		10328,
+		10515,
+		10809,
+		10152
 	}
 }

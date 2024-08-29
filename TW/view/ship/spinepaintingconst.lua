@@ -1,7 +1,7 @@
 slot0 = class("SpinePaintingConst")
 slot0.drag_type_normal = 1
 slot0.drag_type_rgb = 2
-slot0.click_type_list = 1
+slot0.drag_type_list = 3
 slot0.ship_drag_datas = {
 	gaoxiong_6 = {
 		multiple_face = {},
@@ -29,9 +29,18 @@ slot0.ship_drag_datas = {
 		drag_data = {},
 		drag_click_data = {
 			lock_layer = true,
-			type = 1,
+			type = 3,
 			list = {
 				"touch"
+			}
+		}
+	},
+	kaiersheng_3 = {
+		multiple_face = {},
+		drag_click_data = {
+			type = 1,
+			name = {
+				"kaiersheng_3"
 			}
 		}
 	}

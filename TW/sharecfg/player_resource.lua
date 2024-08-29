@@ -1440,6 +1440,16 @@ pg.player_resource = {
 		name = "sitelasibao_pt",
 		itemid = 65003
 	},
+	[427] = {
+		id = 427,
+		name = "240815_pt",
+		itemid = 65012
+	},
+	[428] = {
+		id = 428,
+		name = "skinTicket77",
+		itemid = 65013
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -2770,6 +2780,12 @@ pg.player_resource = {
 		sitelasibao_pt = {
 			426
 		},
+		["240815_pt"] = {
+			427
+		},
+		skinTicket77 = {
+			428
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -3339,6 +3355,8 @@ pg.player_resource = {
 		424,
 		425,
 		426,
+		427,
+		428,
 		950,
 		951,
 		952,

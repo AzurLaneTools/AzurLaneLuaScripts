@@ -136,9 +136,9 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "main",
+		default_bgm = "story-island-soft",
 		special_bgm = "",
-		bgm = "song-Alizarin-full-inst"
+		bgm = "story-italy"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
@@ -1174,6 +1174,21 @@ pg.voice_bgm = {
 		default_bgm = "story-richang-8",
 		special_bgm = "",
 		bgm = "story-richang-8"
+	},
+	YidaliSPMainPage = {
+		default_bgm = "battle-boss-italy",
+		special_bgm = "",
+		bgm = "battle-boss-italy"
+	},
+	YidaliSPPTPage = {
+		default_bgm = "theme-arbitrator-tower",
+		special_bgm = "",
+		bgm = "theme-arbitrator-tower"
+	},
+	YidaliSPV2LoginPage = {
+		default_bgm = "story-italy",
+		special_bgm = "",
+		bgm = "story-italy"
 	},
 	OtherWorldMainPage = {
 		default_bgm = "story-mmorpg",

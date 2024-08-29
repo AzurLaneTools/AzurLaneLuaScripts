@@ -27,9 +27,19 @@ pg.constellation_challenge_month = {
 			10009
 		}
 	},
+	[9] = {
+		id = 9,
+		constellation_icon = "Virgo",
+		stage = {
+			10010,
+			10011,
+			10012
+		}
+	},
 	all = {
 		6,
 		7,
-		8
+		8,
+		9
 	}
 }

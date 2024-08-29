@@ -170,6 +170,56 @@ pg.story_template = {
 			0.447
 		}
 	},
+	[6180] = {
+		name = "E1-1",
+		id = 6180,
+		icon = "story-wurenji",
+		story = "TIEYIQINGFENG10",
+		pos = {
+			0.65,
+			0.49
+		}
+	},
+	[6181] = {
+		name = "E1-2",
+		id = 6181,
+		icon = "story-wurenji",
+		story = "TIEYIQINGFENG11",
+		pos = {
+			0.56,
+			0.1
+		}
+	},
+	[6182] = {
+		name = "E1-3",
+		id = 6182,
+		icon = "story-wurenji",
+		story = "TIEYIQINGFENG12",
+		pos = {
+			0.73,
+			0.25
+		}
+	},
+	[6183] = {
+		name = "E1-4",
+		id = 6183,
+		icon = "story-xinghaizhuangzhi",
+		story = "TIEYIQINGFENG13",
+		pos = {
+			0.85,
+			0.4
+		}
+	},
+	[6184] = {
+		name = "E1-5",
+		id = 6184,
+		icon = "story-zhihuimao",
+		story = "TIEYIQINGFENG14",
+		pos = {
+			0.2,
+			0.4
+		}
+	},
 	all = {
 		4342,
 		4343,
@@ -187,6 +237,11 @@ pg.story_template = {
 		4371,
 		4372,
 		4373,
-		4374
+		4374,
+		6180,
+		6181,
+		6182,
+		6183,
+		6184
 	}
 }

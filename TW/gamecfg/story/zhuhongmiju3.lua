@@ -682,7 +682,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "于梦境之中随波逐流，于现实之中随波逐流……终日半梦半醒，飘荡与须臾之间。",
+			say = "于梦境之中随波逐流，于现实之中随波逐流……终日半梦半醒，飘荡于须臾之间。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

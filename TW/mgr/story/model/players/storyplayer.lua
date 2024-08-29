@@ -50,6 +50,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.locationAnim = slot0.locationTr:GetComponent(typeof(Animation))
 	slot0.locationAniEvent = slot0.locationTr:GetComponent(typeof(DftAniEvent))
 	slot0.iconImage = slot0:findTF("front/icon"):GetComponent(typeof(Image))
+	slot0.topEffectTr = slot0:findTF("top/effect")
 	slot0.dialogueWin = nil
 	slot0.bgs = {}
 	slot0.branchCodeList = {}
