@@ -915,7 +915,7 @@ end
 slot0.preload = function(slot0, slot1)
 	uv0 = {}
 
-	buildTempAB("ui/blackwhitegrid_atlas", function (slot0)
+	AssetBundleHelper.loadAssetBundleAsync("ui/blackwhitegrid_atlas", function (slot0)
 		for slot4 = 0, 4 do
 			uv0[slot4] = {}
 

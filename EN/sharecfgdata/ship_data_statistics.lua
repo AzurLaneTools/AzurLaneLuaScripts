@@ -193819,6 +193819,510 @@ _G.pg.base.ship_data_statistics[306034] = {
 }
 
 
+_G.pg.base.ship_data_statistics[306041] = {
+	nationality = 3,
+	oxy_max = 0,
+	type = 6,
+	name = "Zuihou",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 306041,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "IJN Zuihō",
+	oxy_cost = 0,
+	skin_id = 306040,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		763,
+		0,
+		0,
+		49,
+		58,
+		72,
+		0,
+		28,
+		19,
+		28,
+		55,
+		22
+	},
+	attrs_growth = {
+		20793,
+		0,
+		0,
+		1072,
+		769,
+		498,
+		0,
+		447,
+		397,
+		0,
+		0,
+		269
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		118,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.3,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Zuihou",
+		"Shouhou-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[306042] = {
+	nationality = 3,
+	oxy_max = 0,
+	type = 6,
+	name = "Zuihou",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 306042,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "IJN Zuihō",
+	oxy_cost = 0,
+	skin_id = 306040,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		949,
+		0,
+		0,
+		61,
+		72,
+		72,
+		0,
+		28,
+		19,
+		28,
+		55,
+		27
+	},
+	attrs_growth = {
+		20793,
+		0,
+		0,
+		1072,
+		769,
+		498,
+		0,
+		447,
+		397,
+		0,
+		0,
+		269
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		118,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.3,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Zuihou",
+		"Shouhou-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[306043] = {
+	nationality = 3,
+	oxy_max = 0,
+	type = 6,
+	name = "Zuihou",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 306043,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "IJN Zuihō",
+	oxy_cost = 0,
+	skin_id = 306040,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1321,
+		0,
+		0,
+		85,
+		101,
+		72,
+		0,
+		28,
+		19,
+		28,
+		55,
+		38
+	},
+	attrs_growth = {
+		20793,
+		0,
+		0,
+		1072,
+		769,
+		498,
+		0,
+		447,
+		397,
+		0,
+		0,
+		269
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		118,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		1.3,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Zuihou",
+		"Shouhou-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[306044] = {
+	nationality = 3,
+	oxy_max = 0,
+	type = 6,
+	name = "Zuihou",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 306044,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "IJN Zuihō",
+	oxy_cost = 0,
+	skin_id = 306040,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1879,
+		0,
+		0,
+		122,
+		144,
+		72,
+		0,
+		28,
+		19,
+		28,
+		55,
+		54
+	},
+	attrs_growth = {
+		20793,
+		0,
+		0,
+		1072,
+		769,
+		498,
+		0,
+		447,
+		397,
+		0,
+		0,
+		269
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		118,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		3,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		1.4,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Zuihou",
+		"Shouhou-Class"
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[306051] = {
 	nationality = 3,
 	oxy_max = 0,

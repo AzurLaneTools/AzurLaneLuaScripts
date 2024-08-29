@@ -284,7 +284,8 @@ pg.ship_skin_words_extra = setmetatable({
 		102330,
 		108090,
 		101520,
-		199030
+		199030,
+		306040
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -19950,6 +19951,94 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"Anchorage loves... Teacher's smile! I'll do my best... and protect it! So you can smile forever and ever... with Anchorage!"
+			}
+		}
+	},
+	[306040] = {
+		feeling3 = "",
+		expedition = "",
+		mission = "",
+		id = 306040,
+		skill = "",
+		unlock = "",
+		mail = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		login = {
+			{
+				1100,
+				"Commander, wasn't that rainbow we just saw simply beautiful? I'm sure something good's going to happen today!"
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"We won, Commander! I'm so happy! We're invincible as long as we're together!"
+			}
+		},
+		lose = {
+			{
+				1100,
+				"I have to at least... return to the Commander's side!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Commander?! You're back already? Ugh... I was going to pick you up, but then I took a wrong turn, and... Chirp, chirp..."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Luck isn't the only thing that matters! Hard work is just as important!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"You're the bestest, Commander!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Whee, Commander's picking me up! Oh, wow! I can see it now, from over your shoulder! Commander, what's that thing over there? Please tell me?"
+			}
+		},
+		upgrade = {
+			{
+				1100,
+				"Commander, care for some tea? Oh wow, the tea stalk's standing up straight! I'm in luck today too!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Are you heading out, Commander? Can I come with you? ...Huh? There's something you'd like me to take care of? Gladly! I'll do whatever you ask of me~♪|Commander, how could you? You went out to play while I was busy... We're not talking anymore! ...Huh? You found something shiny and sparkly outside? I wonder what it might be... Let's go check it out!|Woah, what a beautiful gemstone! ...Huh? Am I still mad at you? N-no, but next time, you have to take me with you! Promise you'll tell me if something interesting happens!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Commander's shoulder... is so cozy… Zzzz…"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Nice and warm~ Soft and fuzzy~ Did you want to touch too, Commander? That's fine by me~"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"No matter what happens, I won't give up on my desire to be with you, Commander! As long as we're together, anything is possible!"
 			}
 		}
 	}

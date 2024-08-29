@@ -7,17 +7,30 @@ slot0.register = function(slot0)
 	slot0.actTasks = {}
 end
 
-slot0.initListData = function(slot0, slot1, slot2)
+slot0.initListData = function(slot0, slot1, slot2, slot3)
 	slot0.avatarFrames = {}
-	slot3 = {}
+	slot4 = {}
+	slot5 = {}
 
-	for slot7, slot8 in ipairs(slot2) do
-		table.insert(slot3, slot0:createAvatarFrameTask(slot1, slot8))
+	for slot9, slot10 in ipairs(slot2) do
+		table.insert(slot4, slot0:createAvatarFrameTask(slot1, slot10))
+	end
+
+	if slot3 and #slot3 then
+		for slot9, slot10 in ipairs(slot3) do
+			slot11 = slot0:createAvatarFrameTask(slot1, {
+				id = slot10
+			})
+
+			slot11:setTaskFinish()
+			table.insert(slot5, slot11)
+		end
 	end
 
 	table.insert(slot0.avatarFrames, {
 		actId = slot1,
-		tasks = slot3
+		tasks = slot4,
+		finish_tasks = finishTask
 	})
 end
 

@@ -346,6 +346,7 @@ slot0.subVitemNumber = function(slot0, slot1, slot2)
 	assert(pg.item_virtual_data_statistics[slot1].link_id == slot0.id)
 
 	slot0.settleGold = math.max(0, slot0.settleGold - slot2)
+	slot0.totalGold = slot0.settleGold
 end
 
 slot0.addVitemNumber = function(slot0, slot1, slot2)

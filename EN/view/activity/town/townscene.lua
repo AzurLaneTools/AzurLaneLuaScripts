@@ -205,7 +205,7 @@ slot0.UpdateShip = function(slot0, slot1, slot2)
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("town_gold_tip"),
 				onYes = function ()
-					uv0:emit(TownMediator.CLICK_BUBBLE, uv1)
+					uv0:emit(TownMediator.CLICK_BUBBLE, uv0.bubblesPosList)
 				end
 			})
 		else

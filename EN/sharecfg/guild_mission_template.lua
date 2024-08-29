@@ -62,7 +62,7 @@ pg.guild_mission_template = {
 	},
 	{
 		id = 7,
-		name = "Complete Materials Contribution II (contribute materials 3 times) a total of 100+ times",
+		name = "Complete Materials Contribution I (contribute materials 3 times) 100 times.",
 		max_num = 100,
 		award_capital_display = 15,
 		task_scale = 1,

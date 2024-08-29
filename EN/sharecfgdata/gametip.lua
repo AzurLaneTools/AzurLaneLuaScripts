@@ -12825,17 +12825,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "Shimakaze, Chikuma added to standard build pool!"
+	tip = "Vittorio Veneto added to standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Yura, Umikaze added to standard build pool!"
+	tip = "Duca degli Abruzzi and others added to standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "Shimakaze, Katsuragi added to standard build pool!"
+	tip = "Aquila added to standard build pool!"
 }
 
 

@@ -1726,6 +1726,8 @@ pg.skill_data_display = setmetatable({
 		150353,
 		150360,
 		150391,
+		150403,
+		150411,
 		18010,
 		18040,
 		18041,
@@ -3093,6 +3095,9 @@ pg.skill_data_display = setmetatable({
 		200986,
 		200989,
 		200992,
+		201025,
+		201028,
+		201030,
 		1011540,
 		1011541,
 		1090010,
@@ -10103,6 +10108,14 @@ pg.base.skill_data_display = {
 		id = 150391,
 		name = "Fast and Reliable Drone Transport"
 	},
+	[150403] = {
+		id = 150403,
+		name = "I'll Share My Luck With You, Chirp!"
+	},
+	[150411] = {
+		id = 150411,
+		name = "Phoenix Tender"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -15570,6 +15583,18 @@ pg.base.skill_data_display = {
 	[200992] = {
 		id = 200992,
 		name = "Freezing Rain Rocket Support"
+	},
+	[201025] = {
+		id = 201025,
+		name = "Musashi's Thunder"
+	},
+	[201028] = {
+		id = 201028,
+		name = "Mikasa's Resolve"
+	},
+	[201030] = {
+		id = 201030,
+		name = "Kaga's Duty"
 	},
 	[1011540] = {
 		id = 1011540,

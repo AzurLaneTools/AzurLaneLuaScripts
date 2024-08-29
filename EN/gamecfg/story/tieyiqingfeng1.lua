@@ -460,7 +460,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "You could just have just asked me to bring you more. I'm a logistics expert, remember?",
+			say = "You could just have asked me to bring you more. I'm a logistics expert, remember?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

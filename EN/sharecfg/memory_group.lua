@@ -195,6 +195,7 @@ pg.memory_group = setmetatable({
 		295,
 		296,
 		297,
+		298,
 		501,
 		502,
 		503,
@@ -4661,6 +4662,29 @@ pg.base.memory_group = {
 			3796,
 			3797,
 			3798
+		}
+	},
+	[298] = {
+		title = "Whence Flowers Bear No Fruit",
+		subtype = 1,
+		link_event = 5541,
+		type = 2,
+		id = 298,
+		icon = "title_event",
+		memories = {
+			3811,
+			3812,
+			3813,
+			3814,
+			3815,
+			3816,
+			3817,
+			3818,
+			3819,
+			3820,
+			3821,
+			3822,
+			3823
 		}
 	},
 	[501] = {
