@@ -1039,7 +1039,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "$1. Our Commander.",
+			say = "{playername}.Our Commander.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

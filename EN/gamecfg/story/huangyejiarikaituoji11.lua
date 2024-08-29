@@ -1,7 +1,10 @@
 return {
-	id = "HUANGYEJIARIKAITUOJI11",
-	mode = 2,
 	fadeOut = 1.5,
+	mode = 2,
+	id = "HUANGYEJIARIKAITUOJI11",
+	placeholder = {
+		"playername"
+	},
 	scripts = {
 		{
 			expression = 2,
@@ -37,9 +40,12 @@ return {
 			}
 		},
 		{
+			live2d = true,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_133",
+			withoutActorName = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I turn around and see a familiar friend lying on a pool air mattress, waving at me.",
 			typewriter = {
@@ -103,12 +109,15 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			optionFlag = 1,
+			hideRecordIco = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "A date?",
 			typewriter = {
 				speed = 0.05,
@@ -148,12 +157,15 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			optionFlag = 2,
+			hideRecordIco = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "Sure am. Especially since my plans changed and gave me an unexpected moment to rest.",
 			typewriter = {
 				speed = 0.05,
@@ -161,12 +173,15 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			optionFlag = 2,
+			hideRecordIco = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "That's lucky, and even more so that I got to see you here.",
 			typewriter = {
 				speed = 0.05,
@@ -220,9 +235,12 @@ return {
 			}
 		},
 		{
+			live2d = true,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_133",
+			withoutActorName = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I step into the pool on her suggestion. The chilly water quickly overwhelms the heat.",
 			typewriter = {
@@ -231,9 +249,12 @@ return {
 			}
 		},
 		{
+			live2d = true,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_133",
+			withoutActorName = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Then, I lie on the air mattress and scoot over next to her.",
 			typewriter = {
@@ -272,9 +293,12 @@ return {
 			}
 		},
 		{
+			live2d = true,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_133",
+			withoutActorName = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Holding the parfait in one hand, she tries to wipe the cream off of her chest with the other.",
 			typewriter = {
@@ -283,11 +307,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
+			hideRecordIco = true,
+			actor = 807022,
 			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "Sure. Clean yourself up, okay?",
 			typewriter = {
 				speed = 0.05,
@@ -310,9 +337,12 @@ return {
 			}
 		},
 		{
+			live2d = true,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_133",
+			withoutActorName = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "She hands me the parfait and focuses her attention back on her chest.",
 			typewriter = {
@@ -351,9 +381,12 @@ return {
 			}
 		},
 		{
+			live2d = true,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_133",
+			withoutActorName = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "To make it easier to get off, she scoops water out of the pool and wets the affected area.",
 			typewriter = {
@@ -362,9 +395,12 @@ return {
 			}
 		},
 		{
+			live2d = true,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_133",
+			withoutActorName = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "The dripping water wets her swimsuit. The thin, white fabric sticks to her skin, becoming semi-transparent.",
 			typewriter = {
@@ -388,9 +424,12 @@ return {
 			}
 		},
 		{
+			live2d = true,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_133",
+			withoutActorName = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "After she sits back up, I return her parfait.",
 			typewriter = {
@@ -414,9 +453,12 @@ return {
 			}
 		},
 		{
+			live2d = true,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_133",
+			withoutActorName = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Painlevé smiles bashfully and blushes.",
 			typewriter = {
@@ -439,11 +481,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
+			hideRecordIco = true,
+			actor = 807022,
 			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "You wanna share?",
 			typewriter = {
 				speed = 0.05,
@@ -481,9 +526,12 @@ return {
 			}
 		},
 		{
+			live2d = true,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_133",
+			withoutActorName = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "She gives me a spoonful of it. The sweetness of strawberry and cream blesses my tongue.",
 			typewriter = {
@@ -517,12 +565,15 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			optionFlag = 1,
+			hideRecordIco = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "That is tasty.",
 			typewriter = {
 				speed = 0.05,
@@ -546,12 +597,15 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			optionFlag = 2,
+			hideRecordIco = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "I think I need another taste first.",
 			typewriter = {
 				speed = 0.05,
@@ -575,10 +629,13 @@ return {
 			}
 		},
 		{
+			live2d = true,
 			side = 2,
+			withoutActorName = true,
+			bgName = "star_level_bg_133",
+			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			bgName = "star_level_bg_133",
 			say = "Thus, the two of us share the parfait and a relaxing afternoon together.",
 			typewriter = {
 				speed = 0.05,
