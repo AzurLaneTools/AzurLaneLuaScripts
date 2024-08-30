@@ -1750,8 +1750,7 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 101,
 		nation = 3,
 		ships = {
-			30605,
-			30604
+			30605
 		}
 	},
 	[30603] = {
@@ -1784,6 +1783,7 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 102,
 		nation = 3,
 		ships = {
+			30604,
 			30607,
 			30608,
 			30609

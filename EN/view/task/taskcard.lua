@@ -57,6 +57,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.lockBg = slot0._tf:Find("lock_bg")
 	slot0.lockTxt = slot0.lockBg:Find("btn/Text"):GetComponent(typeof(Text))
 	slot0.sIconOldPosition = Vector2(0, 20)
+	slot0.framePos = slot0.frame.localPosition
 end
 
 slot0.update = function(slot0, slot1)
@@ -112,6 +113,8 @@ slot0.update = function(slot0, slot1)
 
 	setActive(slot0.frame, true)
 	setActive(slot0._go, true)
+
+	slot0.frame.transform.localPosition = slot0.framePos
 end
 
 slot0.UpdateStoryIconPosition = function(slot0, slot1)

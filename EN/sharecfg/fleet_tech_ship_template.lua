@@ -7446,15 +7446,15 @@ pg.fleet_tech_ship_template = {
 	},
 	[30604] = {
 		max_star = 6,
-		pt_level = 12,
+		pt_level = 14,
 		add_level_attr = 8,
-		pt_upgrage = 16,
+		pt_upgrage = 19,
 		add_get_attr = 12,
 		add_level_value = 2,
-		class = 30602,
+		class = 30605,
 		id = 30604,
 		add_get_value = 1,
-		pt_get = 8,
+		pt_get = 9,
 		add_get_shiptype = {
 			6
 		},
