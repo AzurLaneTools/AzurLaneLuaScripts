@@ -28,6 +28,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.acceptTime = slot1.accept_time
 	slot0.submitTime = slot1.submit_time or 0
 	slot0._actId = nil
+	slot0._autoSubmit = false
 end
 
 slot0.isClientTrigger = function(slot0)
@@ -333,6 +334,12 @@ slot0.ShowOnTaskScene = function(slot0)
 	return slot1
 end
 
+slot0.setTaskFinish = function(slot0)
+	slot0.submitTime = 1
+
+	slot0:updateProgress(slot0:getConfig("target_num"))
+end
+
 slot0.isAvatarTask = function(slot0)
 	return false
 end
@@ -347,6 +354,14 @@ end
 
 slot0.isActivityTask = function(slot0)
 	return slot0._actId and slot0._actId > 0
+end
+
+slot0.setAutoSubmit = function(slot0, slot1)
+	slot0._autoSubmit = slot1
+end
+
+slot0.getAutoSubmit = function(slot0)
+	return slot0._autoSubmit
 end
 
 return slot0

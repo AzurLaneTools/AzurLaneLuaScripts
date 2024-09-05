@@ -12,8 +12,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					8,
-					28
+					9,
+					4
 				},
 				{
 					0,
@@ -25,7 +25,7 @@ pg.activity_banner = {
 				{
 					2024,
 					9,
-					4
+					12
 				},
 				{
 					23,
@@ -36,21 +36,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "4726",
+		type = 3,
 		id = 2,
 		pic = "temp2",
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		},
 		time = {
 			{
 				{
 					2024,
-					8,
-					15
+					9,
+					4
 				},
 				{
 					0,
@@ -62,7 +57,7 @@ pg.activity_banner = {
 				{
 					2024,
 					9,
-					4
+					12
 				},
 				{
 					23,
@@ -77,18 +72,14 @@ pg.activity_banner = {
 		id = 3,
 		pic = "temp3",
 		param = {
-			"scene get boat",
-			{
-				projectName = "new",
-				page = 1
-			}
+			"equip transform"
 		},
 		time = {
 			{
 				{
 					2024,
-					8,
-					28
+					9,
+					4
 				},
 				{
 					0,
@@ -100,7 +91,7 @@ pg.activity_banner = {
 				{
 					2024,
 					9,
-					5
+					12
 				},
 				{
 					23,
@@ -115,17 +106,18 @@ pg.activity_banner = {
 		id = 4,
 		pic = "temp4",
 		param = {
-			"scene charge",
+			"scene equip",
 			{
-				wrap = 2
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
 			}
 		},
 		time = {
 			{
 				{
 					2024,
-					8,
-					28
+					9,
+					4
 				},
 				{
 					0,
@@ -137,7 +129,7 @@ pg.activity_banner = {
 				{
 					2024,
 					9,
-					4
+					12
 				},
 				{
 					23,
@@ -152,14 +144,18 @@ pg.activity_banner = {
 		id = 5,
 		pic = "temp5",
 		param = {
-			"scene court yard"
+			"scene level",
+			{
+				open_remaster = true,
+				isSP = false
+			}
 		},
 		time = {
 			{
 				{
 					2024,
-					8,
-					28
+					9,
+					4
 				},
 				{
 					0,
@@ -171,7 +167,7 @@ pg.activity_banner = {
 				{
 					2024,
 					9,
-					4
+					12
 				},
 				{
 					23,
@@ -185,6 +181,44 @@ pg.activity_banner = {
 		type = 2,
 		id = 6,
 		pic = "temp6",
+		param = {
+			"scene level",
+			{
+				open_remaster = true,
+				isSP = false
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					9,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					9,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 7,
+		pic = "temp7",
 		param = {
 			"metacharacter",
 			{
@@ -220,8 +254,8 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 7,
-		pic = "temp7",
+		id = 8,
+		pic = "temp8",
 		param = {
 			"crusing"
 		},
@@ -261,8 +295,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					8,
-					28
+					9,
+					5
 				},
 				{
 					0,
@@ -274,7 +308,7 @@ pg.activity_banner = {
 				{
 					2024,
 					9,
-					4
+					12
 				},
 				{
 					23,
@@ -286,35 +320,10 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
+		time = "stop",
 		type = 12,
 		id = 99,
-		pic = "limit_skin",
-		time = {
-			{
-				{
-					2024,
-					8,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					9,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "limit_skin"
 	},
 	[100] = {
 		param = "愛心巧克力|濃濃的愛意和巧克力更般配哦~<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
@@ -667,12 +676,12 @@ pg.activity_banner = {
 	get_id_list_by_type = {
 		[2] = {
 			1,
-			2,
 			3,
 			4,
 			5,
 			6,
 			7,
+			8,
 			1000,
 			1001,
 			1002,
@@ -695,6 +704,10 @@ pg.activity_banner = {
 			1021,
 			1022,
 			1023
+		},
+		[3] = {
+			2,
+			1003
 		},
 		[9] = {
 			98
@@ -719,9 +732,6 @@ pg.activity_banner = {
 			203,
 			204
 		},
-		[3] = {
-			1003
-		},
 		[8] = {
 			1015
 		}
@@ -734,6 +744,7 @@ pg.activity_banner = {
 		5,
 		6,
 		7,
+		8,
 		98,
 		99,
 		100,

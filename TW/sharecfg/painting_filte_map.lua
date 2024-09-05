@@ -10664,6 +10664,12 @@ pg.painting_filte_map = {
 			"painting/ruifeng_tex",
 			"painting/ruifeng_rw_tex",
 			"painting/ruifeng_n_tex",
+			"painting/ruifeng_n",
+			"painting/ruifeng_2_tex",
+			"painting/ruifeng_2_rw_tex",
+			"painting/ruifeng_2_n_tex",
+			"painting/ruifeng_2_n",
+			"painting/ruifeng_2",
 			"painting/ruifeng"
 		}
 	},

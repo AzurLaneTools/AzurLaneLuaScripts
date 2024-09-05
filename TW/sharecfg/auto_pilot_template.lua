@@ -10475,6 +10475,23 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70266] = {
+		id = 70266,
+		name = "2024瑞凤活动 TP 假面赤城召唤物跟随移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 10,
+				param = {
+					duration = 0,
+					z = 5,
+					x = 5
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

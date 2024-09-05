@@ -6719,7 +6719,7 @@ _G.pg.base.gametip.charge_limit_weekly = {
 
 
 _G.pg.base.gametip.charge_limit_monthly = {
-	tip = "本月可购买次数：$1"
+	tip = "本月可購買次數：$1"
 }
 
 
@@ -11947,17 +11947,67 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "巴爾的摩(μ兵裝) 建造追加！"
+	tip = "{namecode:199}、{namecode:182}、{namecode:80}、{namecode:195} 等角色建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "黛朵(μ兵裝)、塔什干(μ兵裝) 建造追加！"
+	tip = "{namecode:27}、{namecode:197} 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "{namecode:190}、大青花魚(μ兵裝) 建造追加！"
+	tip = "{namecode:199}、{namecode:182}、{namecode:194}、{namecode:196} 等角色建造追加！"
+}
+
+
+_G.pg.base.gametip.Normalbuild_URexchange_help = {
+	tip = {
+		{
+			info = "常駐UR兌換說明："
+		},
+		{
+			info = " ·進行常駐輕型建造池、常駐重型建造池、常駐特型建造池、不包含海上傳奇稀有度角色的活動限時建造當池建造時，每消耗1魔方，將獲得1點常駐UR兌換累計點數，點數上限為400；\n ·使用建造券進行對應建造也可以獲得點數；\n"
+		},
+		{
+			info = " ·累計400點數後，可選擇獲得任意一位已加入常規建造的海上傳奇角色，取得後該計數重設；"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.Normalbuild_URexchange_text1 = {
+	tip = "常駐UR兌換"
+}
+
+
+_G.pg.base.gametip.Normalbuild_URexchange_text2 = {
+	tip = "累計點數"
+}
+
+
+_G.pg.base.gametip.Normalbuild_URexchange_text3 = {
+	tip = "查看可兌換角色"
+}
+
+
+_G.pg.base.gametip.Normalbuild_URexchange_text4 = {
+	tip = "兌換角色"
+}
+
+
+_G.pg.base.gametip.Normalbuild_URexchange_warning1 = {
+	tip = "累計點數不足"
+}
+
+
+_G.pg.base.gametip.Normalbuild_URexchange_warning3 = {
+	tip = "常駐UR兌換點數已達上限，未兌換UR角色前繼續建造不能獲得點數，是否繼續建造？"
+}
+
+
+_G.pg.base.gametip.Normalbuild_URexchange_confirm = {
+	tip = "是否消耗400累計點數，兌換角色$1？"
 }
 
 
@@ -21001,7 +21051,7 @@ _G.pg.base.gametip.gametip_xiaotiancheng = {
 			info = "1.活動期間，玩家可獲得臨時npc角色小天城，臨時角色不可誓約、不可退役、不可被選為強化突破材料。"
 		},
 		{
-			info = "2.活動期間，擊破普通難度主線第三章及之後章節或活動地圖旗艦，可增加臨時npc角色小天城的友好度。（不包括大型作戰）"
+			info = "2.活動期間，擊破普通難度主線第三章及之後章節旗艦，可增加臨時npc角色小天城的友好度。（不包括大型作戰）"
 		},
 		{
 			info = "3.上陣小天城參與戰鬥，且未被擊沉，可增加雙倍友好度。"
@@ -24639,7 +24689,7 @@ _G.pg.base.gametip.backyard_extend_tip_4 = {
 
 
 _G.pg.base.gametip.levelScene_remaster_story_tip = {
-	tip = "劇情「$1」已全部解鎖，可以前往回憶介面查看。"
+	tip = "劇情「$1」\n已全部解鎖，可以前往回憶介面查看。"
 }
 
 
@@ -31175,7 +31225,7 @@ _G.pg.base.gametip.skin_exchange_confirm = {
 
 
 _G.pg.base.gametip.skin_purchase_confirm = {
-	tip = "是否消耗<color=#92fc63>$1*1</color>購買折扣價\n<icon name=gem w=0.6 h=0.6/><color=#FFDE38FF>$2</color>的$3造型"
+	tip = "是否消耗<color=#92fc63>$1*1</color>購買折扣價\n<icon name=gem w=0.6 h=0.6/><color=#FFDE38FF>$2</color>的<color=#92fc63 >$3</color>造型"
 }
 
 

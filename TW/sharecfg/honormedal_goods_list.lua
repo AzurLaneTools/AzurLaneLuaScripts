@@ -532,7 +532,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			102081,
 			202121,
-			202201
+			202201,
+			202041
 		}
 	},
 	{
@@ -575,7 +576,10 @@ pg.honormedal_goods_list = {
 			305111,
 			405021,
 			105121,
-			105131
+			105131,
+			304051,
+			305081,
+			405011
 		}
 	},
 	{
@@ -633,7 +637,8 @@ pg.honormedal_goods_list = {
 		goods = {
 			102081,
 			202121,
-			202201
+			202201,
+			202041
 		}
 	},
 	{
@@ -676,7 +681,10 @@ pg.honormedal_goods_list = {
 			305111,
 			405021,
 			105121,
-			105131
+			105131,
+			304051,
+			305081,
+			405011
 		}
 	},
 	{
@@ -784,6 +792,40 @@ pg.honormedal_goods_list = {
 			42046
 		}
 	},
+	{
+		goods_rarity = 4,
+		goods_purchase_limit = 1,
+		price = 80,
+		type = 4,
+		group = 20003,
+		num = 1,
+		goods_name = "SSR潛艇",
+		goods_type = 2,
+		id = 44,
+		is_ship = 0,
+		goods_icon = "Props/54000",
+		order = 0,
+		goods = {
+			408091
+		}
+	},
+	{
+		goods_rarity = 4,
+		goods_purchase_limit = 1,
+		price = 80,
+		type = 4,
+		group = 20004,
+		num = 1,
+		goods_name = "SSR潛艇",
+		goods_type = 2,
+		id = 45,
+		is_ship = 0,
+		goods_icon = "Props/54000",
+		order = 1,
+		goods = {
+			408091
+		}
+	},
 	all = {
 		1,
 		2,
@@ -827,6 +869,8 @@ pg.honormedal_goods_list = {
 		40,
 		41,
 		42,
-		43
+		43,
+		44,
+		45
 	}
 }

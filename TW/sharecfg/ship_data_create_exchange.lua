@@ -6,8 +6,7 @@ pg.ship_data_create_exchange = {
 		id = 1,
 		exchange_ship_id = {
 			105171,
-			307081,
-			301291
+			307081
 		}
 	},
 	[4620] = {

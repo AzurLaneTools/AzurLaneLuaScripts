@@ -15111,7 +15111,7 @@ pg.base.skill_data_display = {
 	},
 	[1012160] = {
 		id = 1012160,
-		name = "日不落的辉光 +"
+		name = "日不落的輝光 +"
 	},
 	[1011370] = {
 		id = 1011370,
@@ -15243,11 +15243,11 @@ pg.base.skill_data_display = {
 	},
 	[1090230] = {
 		id = 1090230,
-		name = "穿甲弹精通·{namecode:404}"
+		name = "穿甲彈精通·{namecode:404}"
 	},
 	[1090231] = {
 		id = 1090231,
-		name = "穿甲弹精通·{namecode:404}"
+		name = "穿甲彈精通·{namecode:404}"
 	},
 	[1090240] = {
 		id = 1090240,

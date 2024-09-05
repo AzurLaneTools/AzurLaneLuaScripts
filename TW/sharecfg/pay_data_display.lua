@@ -17,6 +17,10 @@ pg.pay_data_display = setmetatable({
 		22,
 		23,
 		44,
+		2021,
+		2022,
+		2023,
+		2024,
 		5001,
 		5002,
 		5003,
@@ -1224,6 +1228,323 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40921,
+				1
+			}
+		}
+	},
+	[2021] = {
+		extra_service = 3,
+		limit_group = 0,
+		descrip_extra = "*禮包將會寄到郵箱，請注意查收。",
+		type = 0,
+		first_pay_double = 0,
+		name_display = "海上傳奇支援組合包",
+		descrip = "可獲得換裝自選券、心智魔方、艦艇演習數據T2和物資獎勵！",
+		subject = "海上傳奇支援組合包",
+		limit_arg = 2,
+		money = 670,
+		tag = 2,
+		name = "海上傳奇支援組合包",
+		gem = 0,
+		type_order = 0,
+		limit_type = 2,
+		sub_display = "",
+		picture = "haishangchuanqi",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.libao115",
+		extra_gem = 0,
+		id = 2021,
+		airijp_id = "com.yostarjp.azurlane.package112",
+		extra_service_item = {
+			{
+				2,
+				59550,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				1,
+				1,
+				30000
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					9,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59550,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40030,
+				1
+			}
+		}
+	},
+	[2022] = {
+		extra_service = 3,
+		limit_group = 0,
+		descrip_extra = "*禮包將會寄到郵箱，請注意查收。",
+		type = 0,
+		first_pay_double = 0,
+		name_display = "魔方支援禮包1",
+		descrip = "可獲得心智魔方*10",
+		subject = "魔方支援禮包1",
+		limit_arg = 2,
+		money = 70,
+		tag = 2,
+		name = "魔方支援禮包1",
+		gem = 0,
+		type_order = 0,
+		limit_type = 2,
+		sub_display = "",
+		picture = "mofangzhiyuan1",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.libao116",
+		extra_gem = 0,
+		id = 2022,
+		airijp_id = "com.yostarjp.azurlane.package113",
+		extra_service_item = {
+			{
+				2,
+				20001,
+				10
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					9,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				20001,
+				10
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40031,
+				1
+			}
+		}
+	},
+	[2023] = {
+		extra_service = 3,
+		limit_group = 0,
+		descrip_extra = "*禮包將會寄到郵箱，請注意查收。",
+		type = 0,
+		first_pay_double = 0,
+		name_display = "魔方支援禮包2",
+		descrip = "可獲得心智魔方*20",
+		subject = "魔方支援禮包2",
+		limit_arg = 2,
+		money = 170,
+		tag = 2,
+		name = "魔方支援禮包2",
+		gem = 0,
+		type_order = 0,
+		limit_type = 2,
+		sub_display = "",
+		picture = "mofangzhiyuan2",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.libao117",
+		extra_gem = 0,
+		id = 2023,
+		airijp_id = "com.yostarjp.azurlane.package114",
+		extra_service_item = {
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					9,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				20001,
+				20
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40032,
+				1
+			}
+		}
+	},
+	[2024] = {
+		extra_service = 3,
+		limit_group = 0,
+		descrip_extra = "*禮包將會寄到郵箱，請注意查收。",
+		type = 0,
+		first_pay_double = 0,
+		name_display = "魔方支援禮包3",
+		descrip = "可獲得心智魔方*30",
+		subject = "魔方支援禮包3",
+		limit_arg = 2,
+		money = 280,
+		tag = 2,
+		name = "魔方支援禮包3",
+		gem = 0,
+		type_order = 0,
+		limit_type = 2,
+		sub_display = "",
+		picture = "mofangzhiyuan3",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.libao118",
+		extra_gem = 0,
+		id = 2024,
+		airijp_id = "com.yostarjp.azurlane.package115",
+		extra_service_item = {
+			{
+				2,
+				20001,
+				30
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					9,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				20001,
+				30
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40033,
 				1
 			}
 		}

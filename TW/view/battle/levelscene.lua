@@ -1110,7 +1110,7 @@ slot0.updateActivityBtns = function(slot0)
 		}) and slot6 ~= Map.ACTIVITY_HARD)
 		setActive(slot0.actNormalBtn, slot6 ~= Map.ACTIVITY_EASY)
 		setActive(slot0.actExtraRank, slot6 == Map.ACT_EXTRA)
-		setActive(slot0.actExchangeShopBtn, not ActivityConst.HIDE_PT_PANELS and not slot3 and slot2)
+		setActive(slot0.actExchangeShopBtn, not ActivityConst.HIDE_PT_PANELS and not slot3 and slot2 and slot0:IsActShopActive())
 		setActive(slot0.ptTotal, not ActivityConst.HIDE_PT_PANELS and not slot3 and slot2 and slot0.ptActivity and not slot0.ptActivity:isEnd())
 		slot0:updateActivityRes()
 	else
@@ -3334,6 +3334,22 @@ slot0.RecordLastMapOnExit = function(slot0)
 		if Map.lastMapForActivity then
 			slot1:recordLastMap(ChapterProxy.LAST_MAP_FOR_ACTIVITY, Map.lastMapForActivity)
 		end
+	end
+end
+
+slot0.IsActShopActive = function(slot0)
+	slot1 = pg.gameset.activity_res_id.key_value
+
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_LOTTERY) and not slot2:isEnd() and slot2:getConfig("config_client").resId == slot1 then
+		return true
+	end
+
+	slot4 = getProxy(ActivityProxy)
+
+	if _.detect(slot4:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
+		return not slot0:isEnd() and slot0:getConfig("config_client").pt_id == uv0
+	end) then
+		return true
 	end
 end
 

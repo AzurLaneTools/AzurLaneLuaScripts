@@ -132,7 +132,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（塞壬IV型量产型，只有在{namecode:435:俾斯麦}提供的资料中有所提及……实验场β的塞壬从未使用过这一型号。）",
+			say = "（塞壬IV型量产型，是目前已知的塞壬实验机关所使用的最先进的量产型型号。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……嗯？你们早就知道IV型的情报了么？",
+			say = "……嗯？北方联合已经向你们同步过IV型的情报了么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

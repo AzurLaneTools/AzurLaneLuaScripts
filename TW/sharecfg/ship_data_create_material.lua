@@ -11,12 +11,13 @@ pg.ship_data_create_material = {
 		number_1 = 2,
 		id = 1,
 		icon = "build_1",
-		exchange_count = 0,
+		exchange_count = 2,
 		rate_tip = {
+			"<color=#ff5e39>海上傳奇艦船</color>：1.2%",
 			"<color=#ffde38>超稀有艦船</color>：7%",
 			"<color=#d797ff>精銳艦船</color>：12%",
 			"<color=#3dc6ff>稀有艦船</color>：51%",
-			"普通艦船：30%"
+			"普通艦船：28.8%"
 		}
 	},
 	{
@@ -30,7 +31,7 @@ pg.ship_data_create_material = {
 		number_1 = 1,
 		id = 2,
 		icon = "build_2",
-		exchange_count = 0,
+		exchange_count = 1,
 		rate_tip = {
 			"<color=#ffde38>超稀有艦船</color>：7%",
 			"<color=#d797ff>精銳艦船</color>：12%",
@@ -49,12 +50,13 @@ pg.ship_data_create_material = {
 		number_1 = 2,
 		id = 3,
 		icon = "build_3",
-		exchange_count = 0,
+		exchange_count = 2,
 		rate_tip = {
+			"<color=#ff5e39>海上傳奇艦船</color>：1.2%",
 			"<color=#ffde38>超稀有艦船</color>：7%",
 			"<color=#d797ff>精銳艦船</color>：12%",
 			"<color=#3dc6ff>稀有艦船</color>：51%",
-			"普通艦船：30%"
+			"普通艦船：28.8%"
 		}
 	},
 	{
@@ -68,7 +70,7 @@ pg.ship_data_create_material = {
 		number_1 = 2,
 		id = 4,
 		icon = "build_4",
-		exchange_count = 0,
+		exchange_count = 2,
 		rate_tip = {
 			"<color=#ffde38>超稀有艦船</color>：7%",
 			"<color=#d797ff>精銳艦船</color>：12%",
@@ -94,7 +96,7 @@ pg.ship_data_create_material = {
 		number_1 = 2,
 		id = 5,
 		icon = "build_5",
-		exchange_count = 0,
+		exchange_count = 2,
 		rate_tip = {
 			"<color=#ffde38>超稀有艦船</color>：7%",
 			"<color=#d797ff>精銳艦船</color>：12%",
@@ -118,12 +120,13 @@ pg.ship_data_create_material = {
 		number_1 = 2,
 		id = 6,
 		icon = "build_6",
-		exchange_count = 0,
+		exchange_count = 2,
 		rate_tip = {
+			"<color=#ff5e39>海上傳奇艦船</color>：1.2%",
 			"<color=#ffde38>超稀有艦船</color>：7%",
 			"<color=#d797ff>精銳艦船</color>：12%",
 			"<color=#3dc6ff>稀有艦船</color>：51%",
-			"普通艦船：30%"
+			"普通艦船：28.8%"
 		}
 	},
 	{
@@ -137,7 +140,7 @@ pg.ship_data_create_material = {
 		number_1 = 1,
 		id = 7,
 		icon = "build_7",
-		exchange_count = 0,
+		exchange_count = 1,
 		rate_tip = {
 			"<color=#ffde38>超稀有艦船</color>：7%",
 			"<color=#d797ff>精銳艦船</color>：12%",
@@ -156,12 +159,13 @@ pg.ship_data_create_material = {
 		number_1 = 2,
 		id = 8,
 		icon = "build_8",
-		exchange_count = 0,
+		exchange_count = 2,
 		rate_tip = {
+			"<color=#ff5e39>海上傳奇艦船</color>：1.2%",
 			"<color=#ffde38>超稀有艦船</color>：7%",
 			"<color=#d797ff>精銳艦船</color>：12%",
 			"<color=#3dc6ff>稀有艦船</color>：51%",
-			"普通艦船：30%"
+			"普通艦船：28.8%"
 		}
 	},
 	{
@@ -175,7 +179,7 @@ pg.ship_data_create_material = {
 		number_1 = 1,
 		id = 9,
 		icon = "build_4",
-		exchange_count = 0,
+		exchange_count = 1,
 		rate_tip = {
 			"<color=#ffde38>超稀有艦船</color>：7%",
 			"<color=#d797ff>精銳艦船</color>：12%",

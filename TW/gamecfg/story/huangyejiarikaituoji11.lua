@@ -1,7 +1,10 @@
 return {
-	id = "HUANGYEJIARIKAITUOJI11",
-	mode = 2,
 	fadeOut = 1.5,
+	mode = 2,
+	id = "HUANGYEJIARIKAITUOJI11",
+	placeholder = {
+		"playername"
+	},
 	scripts = {
 		{
 			expression = 2,
@@ -37,9 +40,12 @@ return {
 			}
 		},
 		{
+			live2d = true,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_133",
+			withoutActorName = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "循着声音的方向看去，露天泳池中，一道熟悉的身影正坐在充气床上朝我打招呼。",
 			typewriter = {
@@ -103,12 +109,15 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			optionFlag = 1,
+			hideRecordIco = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "约会？",
 			typewriter = {
 				speed = 0.05,
@@ -148,12 +157,15 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			optionFlag = 2,
+			hideRecordIco = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "嗯，毕竟我也是因为工作调整，才能这个时间回来休息。",
 			typewriter = {
 				speed = 0.05,
@@ -161,12 +173,15 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			optionFlag = 2,
+			hideRecordIco = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "在这种情况下偶遇伴尔维，也算是幸运。",
 			typewriter = {
 				speed = 0.05,
@@ -220,9 +235,12 @@ return {
 			}
 		},
 		{
+			live2d = true,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_133",
+			withoutActorName = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "踏入池水，立刻带来了一片凉意，驱赶了炎热带来的不适感。",
 			typewriter = {
@@ -231,9 +249,12 @@ return {
 			}
 		},
 		{
+			live2d = true,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_133",
+			withoutActorName = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "等坐到伴尔维身边时——",
 			typewriter = {
@@ -272,9 +293,12 @@ return {
 			}
 		},
 		{
+			live2d = true,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_133",
+			withoutActorName = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "少女一手举着玻璃杯，另一只手试图擦拭着滴落在胸前的粘稠液体。",
 			typewriter = {
@@ -283,11 +307,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
+			hideRecordIco = true,
+			actor = 807022,
 			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "我帮你拿着，你先清理吧。",
 			typewriter = {
 				speed = 0.05,
@@ -310,9 +337,12 @@ return {
 			}
 		},
 		{
+			live2d = true,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_133",
+			withoutActorName = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "从伴尔维手中接过玻璃杯后，少女再度开始了清理的动作。",
 			typewriter = {
@@ -351,9 +381,12 @@ return {
 			}
 		},
 		{
+			live2d = true,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_133",
+			withoutActorName = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "少女一边说着，一边将手伸入泳池中捧了些水，洒在了自己的身上。",
 			typewriter = {
@@ -362,9 +395,12 @@ return {
 			}
 		},
 		{
+			live2d = true,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_133",
+			withoutActorName = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "轻薄的白色布料被水濡湿，以半透明的姿态紧紧包裹住少女的肌肤。",
 			typewriter = {
@@ -388,9 +424,12 @@ return {
 			}
 		},
 		{
+			live2d = true,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_133",
+			withoutActorName = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "待伴尔维清理干净，重新坐好后，将手中的草莓芭菲朝她递过去。",
 			typewriter = {
@@ -414,9 +453,12 @@ return {
 			}
 		},
 		{
+			live2d = true,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_133",
+			withoutActorName = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "少女接过芭菲后，有些羞涩地笑了笑，淡淡的红晕浮上她的面颊。",
 			typewriter = {
@@ -439,11 +481,14 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
+			hideRecordIco = true,
+			actor = 807022,
 			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "分享给我？",
 			typewriter = {
 				speed = 0.05,
@@ -481,9 +526,12 @@ return {
 			}
 		},
 		{
+			live2d = true,
 			side = 2,
-			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_133",
+			withoutActorName = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "伴随着少女的靠近，冰淇淋与草莓的香甜一同在口中化开。",
 			typewriter = {
@@ -517,12 +565,15 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			optionFlag = 1,
+			hideRecordIco = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "这个味道，我确实很喜欢",
 			typewriter = {
 				speed = 0.05,
@@ -546,12 +597,15 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			actorName = "{playername}",
 			side = 2,
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			optionFlag = 2,
+			hideRecordIco = true,
+			actor = 807022,
+			nameColor = "#A9F548FF",
+			live2d = true,
 			say = "这个味道，我还想再品味一次。",
 			typewriter = {
 				speed = 0.05,
@@ -575,10 +629,13 @@ return {
 			}
 		},
 		{
+			live2d = true,
 			side = 2,
+			withoutActorName = true,
+			bgName = "star_level_bg_133",
+			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			bgName = "star_level_bg_133",
 			say = "之后与伴尔维一同享用着幸运草莓芭菲，共同度过了难得休闲的夏日午后。",
 			typewriter = {
 				speed = 0.05,

@@ -268,7 +268,9 @@ slot0.OnChangeShips = function(slot0, slot1)
 end
 
 slot0.OnGetBubbleAward = function(slot0, slot1, slot2)
-	slot0.slotData[slot1]:ResetStartTime(slot2)
+	for slot6, slot7 in ipairs(slot1) do
+		slot0.slotData[slot7]:ResetStartTime(slot2[slot6])
+	end
 end
 
 slot0.OnSettleGold = function(slot0, slot1)
@@ -344,6 +346,7 @@ slot0.subVitemNumber = function(slot0, slot1, slot2)
 	assert(pg.item_virtual_data_statistics[slot1].link_id == slot0.id)
 
 	slot0.settleGold = math.max(0, slot0.settleGold - slot2)
+	slot0.totalGold = slot0.settleGold
 end
 
 slot0.addVitemNumber = function(slot0, slot1, slot2)

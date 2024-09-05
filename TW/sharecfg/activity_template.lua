@@ -4328,6 +4328,94 @@ pg.activity_template = {
 			ui_name = "YidaliV2LoginPage"
 		}
 	},
+	[4726] = {
+		mark = 20240905,
+		type = 74,
+		login_pop = 0,
+		config_id = 4726,
+		is_show = 30,
+		config_client = "",
+		title_res_tag = "xiaotiancheng",
+		id = 4726,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					9,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					9,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "XiaoTianChengPtPage",
+			ui_name = "xiaotianchengptpage"
+		}
+	},
+	[4727] = {
+		mark = 20240905,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 4727,
+		config_data = {
+			18388
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					9,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					9,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			npc = {
+				"",
+				18388
+			}
+		}
+	},
 	[4729] = {
 		mark = 20240613,
 		time = "stop",
@@ -10799,6 +10887,7 @@ pg.activity_template = {
 	},
 	[5233] = {
 		mark = 20240829,
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -10813,33 +10902,6 @@ pg.activity_template = {
 			1630041,
 			1630051
 		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					8,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					9,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "YidaliSPMainPage",
 			ui_name = "YidaliSPMainPage"
@@ -10851,6 +10913,7 @@ pg.activity_template = {
 	[5234] = {
 		mark = 20240829,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -10873,33 +10936,6 @@ pg.activity_template = {
 			19836,
 			19837,
 			19838
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					8,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					9,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5235] = {
@@ -11148,6 +11184,7 @@ pg.activity_template = {
 	[5240] = {
 		mark = 20240829,
 		page_info = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
@@ -11155,33 +11192,6 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 5240,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					8,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					9,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 4,
 			bg = "loadingbg/bg_build_4_act",
@@ -11204,6 +11214,7 @@ pg.activity_template = {
 	[5241] = {
 		mark = 20240829,
 		page_info = "",
+		time = "stop",
 		type = 80,
 		login_pop = 0,
 		config_id = 0,
@@ -11213,39 +11224,13 @@ pg.activity_template = {
 		config_data = {
 			4
 		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					8,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					9,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			59535
 		}
 	},
 	[5242] = {
 		mark = 20240829,
+		time = "stop",
 		type = 3,
 		login_pop = 0,
 		config_id = 53,
@@ -11254,33 +11239,6 @@ pg.activity_template = {
 		title_res_tag = "YidaliV2_login",
 		id = 5242,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					8,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					9,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "YidaliSPV2LoginPage",
 			ui_name = "YidaliSPV2LoginPage"
@@ -49905,6 +49863,7 @@ pg.activity_template = {
 			4710,
 			4717,
 			4724,
+			4727,
 			4743,
 			4748,
 			4751,
@@ -50393,6 +50352,7 @@ pg.activity_template = {
 			4676,
 			4705,
 			4720,
+			4726,
 			4742,
 			4745,
 			4750,
@@ -51534,6 +51494,8 @@ pg.activity_template = {
 		4723,
 		4724,
 		4725,
+		4726,
+		4727,
 		4729,
 		4730,
 		4732,

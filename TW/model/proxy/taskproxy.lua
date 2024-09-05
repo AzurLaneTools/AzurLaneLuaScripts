@@ -61,7 +61,6 @@ slot0.register = function(slot0)
 	end)
 	slot0:on(20103, function (slot0)
 		for slot4, slot5 in ipairs(slot0.id) do
-			print("add sub task ", slot5)
 			uv0.weekTaskProgressInfo:AddSubTask(WeekPtTask.New({
 				progress = 0,
 				id = slot5
@@ -94,29 +93,45 @@ slot0.timeCall = function(slot0)
 	}
 end
 
-slot0.initTaskInfo = function(slot0, slot1, slot2)
-	for slot6, slot7 in ipairs(slot1) do
-		if Task.New(slot7):getConfigTable() ~= nil then
-			slot8:display("loaded")
+slot0.initTaskInfo = function(slot0, slot1, slot2, slot3)
+	for slot7, slot8 in ipairs(slot1) do
+		if Task.New(slot8):getConfigTable() ~= nil then
+			slot9:display("loaded")
 
-			if slot8:getTaskStatus() ~= 2 then
-				slot0.data[slot8.id] = slot8
+			if slot9:getTaskStatus() ~= 2 then
+				slot0.data[slot9.id] = slot9
 			else
-				slot0.finishData[slot8.id] = slot8
+				slot0.finishData[slot9.id] = slot9
 			end
 
-			slot8:setActId(slot2)
+			slot9:setActId(slot2)
 		else
-			pg.TipsMgr.GetInstance():ShowTips(i18n("task_notfound_error") .. tostring(slot7.id))
-			Debugger.LogWarning("Missing Task Config, id :" .. tostring(slot7.id))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("task_notfound_error") .. tostring(slot8.id))
+			Debugger.LogWarning("Missing Task Config, id :" .. tostring(slot8.id))
+		end
+	end
+
+	if slot3 and #slot3 > 0 then
+		for slot7, slot8 in ipairs(slot3) do
+			if Task.New({
+				id = slot8
+			}):getConfigTable() ~= nil then
+				slot9:display("loaded")
+
+				slot0.finishData[slot9.id] = slot9
+
+				slot9:setActId(slot2)
+				slot9:setTaskFinish()
+			else
+				pg.TipsMgr.GetInstance():ShowTips(i18n("task_notfound_error") .. tostring(slot8.id))
+				Debugger.LogWarning("Missing Task Config, id :" .. tostring(slot8.id))
+			end
 		end
 	end
 end
 
 slot0.updateProgress = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot1) do
-		print("任务id" .. slot6.id .. "更新")
-
 		if slot0.data[slot6.id] ~= nil then
 			slot7.progress = slot6.progress
 
@@ -129,8 +144,8 @@ slot0.updateProgress = function(slot0, slot1)
 	end
 end
 
-slot0.initActData = function(slot0, slot1, slot2)
-	slot0:initTaskInfo(slot2, slot1)
+slot0.initActData = function(slot0, slot1, slot2, slot3)
+	slot0:initTaskInfo(slot2, slot1, slot3)
 end
 
 slot0.updateActProgress = function(slot0, slot1, slot2)
@@ -226,7 +241,7 @@ slot0.addTask = function(slot0, slot1)
 	slot0.data[slot1.id]:display("added")
 	slot0.data[slot1.id]:onAdded()
 	slot0.facade:sendNotification(uv0.TASK_ADDED, slot1:clone())
-	slot0:checkAutoSubmitTask(slot1)
+	slot0:checkAutoSubmitTask(slot0.data[slot1.id])
 end
 
 slot0.updateTask = function(slot0, slot1)
@@ -238,7 +253,7 @@ slot0.updateTask = function(slot0, slot1)
 
 	slot0.data[slot1.id]:display("updated")
 	slot0.facade:sendNotification(uv0.TASK_UPDATED, slot1:clone())
-	slot0:checkAutoSubmitTask(slot1)
+	slot0:checkAutoSubmitTask(slot0.data[slot1.id])
 end
 
 slot0.getTasks = function(slot0)
@@ -427,7 +442,8 @@ slot0.pushAutoSubmitTask = function(slot0)
 end
 
 slot0.checkAutoSubmitTask = function(slot0, slot1)
-	if slot1:getConfig("auto_commit") == 1 and slot1:isFinish() then
+	if slot1:getConfig("auto_commit") == 1 and slot1:isFinish() and not slot1:getAutoSubmit() then
+		slot1:setAutoSubmit(true)
 		slot0:sendNotification(GAME.SUBMIT_TASK, slot1.id)
 	end
 end

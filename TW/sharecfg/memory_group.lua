@@ -250,6 +250,7 @@ pg.memory_group = setmetatable({
 		588,
 		589,
 		591,
+		594,
 		1000,
 		1001,
 		1002
@@ -5375,6 +5376,23 @@ pg.base.memory_group = {
 			3055,
 			3056,
 			3057
+		}
+	},
+	[594] = {
+		title = "不可思議的「大危機」",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 594,
+		icon = "title_chara_fushun",
+		memories = {
+			3291,
+			3292,
+			3293,
+			3294,
+			3295,
+			3296,
+			3297
 		}
 	},
 	[1000] = {

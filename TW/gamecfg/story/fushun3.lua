@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"不可思议的“大危机”\n\n<size=45>三　废弃工厂的不可思议！</size>",
+					"不可思議的「大危機」\n\n<size=45>3 廢棄工廠的不可思議！</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			bgm = "story-richang-5",
-			say = "抚顺的“破坏力”超出了在场所有人的预料，一直到月色洒下，指挥室也还没有收拾完。",
+			say = "撫順的「破壞力」超越了在場所有人的預料，一直到月色灑下，指揮室也還沒收拾完。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,7 +30,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "而鞍山为了夜战演习不迟到，在交代了抚顺一定要把这里恢复原状后，便急匆匆离开了。",
+			say = "而鞍山為了夜戰演習不遲到，在交代了撫順一定要把這裡恢復原狀後，便急匆匆離開了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "又过了一段时间——",
+			say = "又過了一段時間——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "太原，我们也走吧！",
+			say = "太原，我們也走吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -88,7 +88,7 @@ return {
 			actor = 501040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎？不，不是说好要收拾完……书还没放回去呢……",
+			say = "哎？不，不是說好要收拾完……書還沒放回去呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官！我想请假！明天我再专门来收拾好不好？拜托了！就允许我请假吧！",
+			say = "指揮官！我想請假！明天我再專門來收拾好不好？拜託了！就允許我請假吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "可以是可以……不过你之前不是对鞍山打了包票，说会收拾完再走么？",
+			say = "可以是可以……不過妳之前不是對鞍山打了包票，說會收拾完再走麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "现在突然要走，是想起来什么要紧的事么？",
+			say = "現在突然要走，是想起來什麼要緊的事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿嘿，因为有一桩无论如何都不能错过的不可思议事件！",
+			say = "嘿嘿嘿，因為有一樁無論如何都不能錯過的不可思議事件！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "长春告诉我，天黑之后废弃工厂那边就会出现神秘的黑影，所以我想去调查看看！",
+			say = "長春告訴我，天黑之後廢棄工廠那邊就會出現神祕的黑影，所以我想去調查看看！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在时间正好~太原，我们走吧！",
+			say = "現在時間剛好~太原，我們走吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			actor = 501040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我，我也要去吗？呜……不必了吧……我，我想留下来收拾书……",
+			say = "我，我也要去嗎？嗚……不必了吧……我，我想留下來收拾書……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（以太原的个性……让她去调查不可思议事件实在有些勉强。）",
+			say = "（以太原的個性……讓她去調查不可思議事件實在有些勉強。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（而我现在也不想麻烦她继续收拾指挥室……）",
+			say = "（而我現在也不想麻煩她繼續收拾指揮室……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "太原，你先回去休息吧。",
+			say = "太原，妳先回去休息吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "至于抚顺……让你自己去调查的话，实在没办法令人放心。",
+			say = "至於撫順……讓妳自己去調查的話，實在沒辦法令人放心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这样，我和你一起去废弃工厂吧。",
+			say = "這樣，我跟妳一起去廢棄工廠吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸~居然是不信任我啊~算了算了，总之我们立刻出发吧！",
+			say = "欸~居然是不信任我啊~算了算了，總之我們立刻出發吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			bgm = "story-richang-9",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在抚顺的带领下，来到了一处远离中心地带的废弃建筑群。",
+			say = "在撫順的帶領下，來到了一處遠離中心地帶的廢棄建築群。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "杂草丛生的建筑群内漆黑一片，连月光也无法将其穿透。",
+			say = "雜草叢生的建築群內漆黑一片，連月光也無法將其穿透。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "记得这里是一处经过搬迁后留下的废弃工厂……",
+			say = "記得這裡是一處經過搬遷後留下的廢棄工廠……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看上去就很适合发生些什么不可思议的事啊……",
+			say = "看上去就很適合發生些什麼不可思議的事啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼~指挥官也这么觉得啊，果然……",
+			say = "哼哼~指揮官也這麼覺得啊，果然……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等、等一下！指挥官，不能直接进去！",
+			say = "等、等一下！指揮官，不能直接進去！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这里年久失修，也没有照明，贸然进去的话很危险哦。",
+			say = "這裡年久失修，也沒有照明，貿然進去的話很危險。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -406,7 +406,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过我准备了手电筒！锵锵——！",
+			say = "不過我準備了手電筒！鏘鏘——！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -423,7 +423,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在废弃建筑深处会发现什么呢？迷途的怪兽？飘荡的幽灵？还是说……",
+			say = "在廢棄建築深處會發現什麼呢？迷途的怪獸？飄蕩的幽靈？還是說……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -439,7 +439,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "虽然这样做确实很能增加探险的氛围感……",
+			say = "雖然這樣做確實很能增加探險的氛圍感……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但还是不要一边用手电筒从下往上打光，一边讲话了……",
+			say = "但還是不要一邊用手電筒從下往上打光，一邊講話了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，吓到了吗？",
+			say = "嘿嘿，嚇到了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
