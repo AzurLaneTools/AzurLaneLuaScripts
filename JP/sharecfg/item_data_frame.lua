@@ -456,7 +456,16 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 331,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「止まらぬスプレンディド・ハート。波を駆けるアイアン・ウィンド」</color>\n「錬翼空翔」に参加した指揮官に贈る",
+		desc = "<color=#ffffff>「止まらぬスプレンディド・ハート。波を駆けるアイアン・ウィンド」</color>「錬翼空翔」に参加した指揮官に贈る",
+		scene = {}
+	},
+	[332] = {
+		name = "蘇りし炎",
+		gain_by = "",
+		time_second = 0,
+		id = 332,
+		time_limit_type = 0,
+		desc = "今後開催するイベントで入手できます",
 		scene = {}
 	},
 	[401] = {
@@ -763,6 +772,7 @@ pg.item_data_frame = {
 		329,
 		330,
 		331,
+		332,
 		401,
 		402,
 		403,

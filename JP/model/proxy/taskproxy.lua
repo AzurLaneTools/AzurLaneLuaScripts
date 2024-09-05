@@ -61,7 +61,6 @@ slot0.register = function(slot0)
 	end)
 	slot0:on(20103, function (slot0)
 		for slot4, slot5 in ipairs(slot0.id) do
-			print("add sub task ", slot5)
 			uv0.weekTaskProgressInfo:AddSubTask(WeekPtTask.New({
 				progress = 0,
 				id = slot5
@@ -242,7 +241,7 @@ slot0.addTask = function(slot0, slot1)
 	slot0.data[slot1.id]:display("added")
 	slot0.data[slot1.id]:onAdded()
 	slot0.facade:sendNotification(uv0.TASK_ADDED, slot1:clone())
-	slot0:checkAutoSubmitTask(slot1)
+	slot0:checkAutoSubmitTask(slot0.data[slot1.id])
 end
 
 slot0.updateTask = function(slot0, slot1)
@@ -254,7 +253,7 @@ slot0.updateTask = function(slot0, slot1)
 
 	slot0.data[slot1.id]:display("updated")
 	slot0.facade:sendNotification(uv0.TASK_UPDATED, slot1:clone())
-	slot0:checkAutoSubmitTask(slot1)
+	slot0:checkAutoSubmitTask(slot0.data[slot1.id])
 end
 
 slot0.getTasks = function(slot0)

@@ -5743,7 +5743,20 @@ temp = function()
 			this = true
 		},
 		["門"] = {
-			this = true
+			this = true,
+			["("] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								[")"] = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
 		},
 		["春"] = {
 			this = true,
@@ -6789,6 +6802,9 @@ temp = function()
 	uv0["瑞"] = {
 		["鶴"] = {
 			this = true
+		},
+		["鳳"] = {
+			this = true
 		}
 	}
 end
@@ -7648,6 +7664,16 @@ temp()
 temp = function()
 	uv0["吾"] = {
 		["妻"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["陸"] = {
+		["奧"] = {
 			this = true
 		}
 	}

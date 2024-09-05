@@ -1,5 +1,44 @@
 pg = pg or {}
 pg.enemy_data_statistics_37 = {
+	[768] = {
+		cannon = 180,
+		hit_growth = 0,
+		luck = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		air = 0,
+		air_growth = 0,
+		antisub = 0,
+		battle_unit_type = 15,
+		fog_fx = "",
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 90080,
+		durability = 500,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 30,
+		armor = 0,
+		id = 768,
+		cannon_growth = 0,
+		pilot_ai_template_id = 80000,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 200,
+		torpedo = 300,
+		durability_growth = 2550,
+		antiaircraft = 0,
+		antiaircraft_growth = 0,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			300562
+		}
+	},
 	[770] = {
 		cannon = 72,
 		hit_growth = 0,
@@ -1352,75 +1391,6 @@ pg.enemy_data_statistics_37 = {
 		},
 		equipment_list = {
 			300166
-		}
-	},
-	[840] = {
-		cannon = 65,
-		name = "護衛コルベットAce",
-		hit_growth = 0,
-		speed_growth = 0,
-		antiaircraft_growth = 0,
-		air = 0,
-		reload = 150,
-		antisub = 140,
-		armor = 0,
-		rarity = 1,
-		antiaircraft = 50,
-		fog_fx = "",
-		dodge_growth = 0,
-		star = 2,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90123,
-		durability = 1350,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		luck = 0,
-		id = 840,
-		scale = 150,
-		cannon_growth = 0,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 80,
-		torpedo = 220,
-		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 30,
-		cld_box = {
-			9.75,
-			5.625,
-			6.75
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				2.6,
-				0,
-				1.353
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {
-			danchuanlanghuazhong3 = 0.75
-		},
-		equipment_list = {
-			300180,
-			300181,
-			300182
 		}
 	}
 }

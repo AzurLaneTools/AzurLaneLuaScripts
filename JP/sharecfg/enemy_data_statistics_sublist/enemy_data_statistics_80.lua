@@ -1,5 +1,49 @@
 pg = pg or {}
 pg.enemy_data_statistics_80 = {
+	[113032] = {
+		cannon = 728,
+		antisub = 0,
+		air = 490,
+		cannon_growth = 0,
+		armor = 0,
+		reload = 150,
+		base = 90262,
+		dodge = 32,
+		torpedo_growth = 0,
+		air_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		star = 5,
+		hit = 72,
+		antisub_growth = 0,
+		rarity = 4,
+		luck_growth = 0,
+		torpedo = 0,
+		durability = 20160,
+		armor_growth = 0,
+		durability_growth = 147600,
+		antiaircraft = 540,
+		speed = 28,
+		luck = 10,
+		hit_growth = 0,
+		battle_unit_type = 70,
+		id = 113032,
+		antiaircraft_growth = 0,
+		fog_fx = "",
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			1340088,
+			1340089,
+			1340005,
+			1340006,
+			1340007,
+			1340310
+		}
+	},
 	[113033] = {
 		cannon = 728,
 		antisub = 0,
@@ -1266,46 +1310,6 @@ pg.enemy_data_statistics_80 = {
 				ID = 50510,
 				LV = 1
 			}
-		}
-	},
-	[100007] = {
-		cannon = 140,
-		name = "アタゴ",
-		rarity = 6,
-		speed_growth = 0,
-		hit_growth = 210,
-		air = 0,
-		armor = 0,
-		antiaircraft_growth = 2880,
-		antiaircraft = 35,
-		id = 100007,
-		fog_fx = "",
-		dodge_growth = 156,
-		star = 6,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90208,
-		durability = 2400,
-		armor_growth = 0,
-		torpedo_growth = 2763,
-		speed = 16,
-		luck = 0,
-		antisub = 0,
-		cannon_growth = 2600,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 7,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 33,
-		durability_growth = 100000,
-		luck_growth = 0,
-		battle_unit_type = 95,
-		equipment_list = {
-			100201,
-			314066,
-			314067,
-			314068
 		}
 	}
 }

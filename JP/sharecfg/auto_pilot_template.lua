@@ -10492,6 +10492,37 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70270] = {
+		id = 70270,
+		name = "黑长门 樱花结界转圈",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 4,
+				param = {
+					radius = 25,
+					z = 53,
+					antiClockWise = true,
+					duration = 15,
+					x = -43
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 4,
+				param = {
+					radius = 25,
+					z = 53,
+					antiClockWise = false,
+					duration = 15,
+					x = -43
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

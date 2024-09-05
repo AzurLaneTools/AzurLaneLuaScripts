@@ -22024,7 +22024,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2325] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+681|対空+46|主砲補正+15%|図鑑開放：損傷大",
+		effect_desc = "耐久+681|対空+46|主砲補正+15%|図鑑開放：タッチ2、損傷大",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -22847,7 +22847,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2425] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+1032|対空+45|図鑑開放：損傷大",
+		effect_desc = "耐久+1032|対空+45|図鑑開放：タッチ2、損傷大",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -23823,7 +23823,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2525] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+457|対空+58|図鑑開放：損傷大",
+		effect_desc = "耐久+457|対空+58|図鑑開放：タッチ2、損傷大",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -24799,7 +24799,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2625] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+809|対空+44|攻撃機数+1|図鑑開放：損傷大",
+		effect_desc = "耐久+809|対空+44|攻撃機数+1|図鑑開放：タッチ2、損傷大",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 30,
@@ -25773,7 +25773,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2725] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+921|対空+35|回避+5|対空砲補正+10%|図鑑開放：損傷大",
+		effect_desc = "耐久+921|対空+35|回避+5|対空砲補正+10%|図鑑開放：タッチ2、損傷大",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -26599,7 +26599,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2825] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+1195|対空+33|主砲補正+5%|戦闘機数+1|図鑑開放：損傷大",
+		effect_desc = "耐久+1195|対空+33|主砲補正+5%|戦闘機数+1|図鑑開放：タッチ2、損傷大",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 30,
@@ -27429,7 +27429,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[2925] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+670|対空+63|対空砲補正+10%|図鑑開放：損傷大",
+		effect_desc = "耐久+670|対空+63|対空砲補正+10%|図鑑開放：タッチ2、損傷大",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -28407,7 +28407,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3025] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+403|対空+22|図鑑開放：損傷大",
+		effect_desc = "耐久+403|対空+22|図鑑開放：タッチ2、損傷大",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -29383,7 +29383,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3125] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+759|対空+32|回避+10|図鑑開放：損傷大",
+		effect_desc = "耐久+759|対空+32|回避+10|図鑑開放：タッチ2、損傷大",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -30210,7 +30210,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3225] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+1068|対空+37|主砲補正+5%|図鑑開放：損傷大",
+		effect_desc = "耐久+1068|対空+37|主砲補正+5%|図鑑開放：タッチ2、損傷大",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -31185,7 +31185,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3325] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+301|対空+24|図鑑開放：損傷大",
+		effect_desc = "耐久+301|対空+24|図鑑開放：タッチ2、損傷大",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -32004,7 +32004,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3425] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+1010|対空+35|主砲補正+5%|図鑑開放：損傷大",
+		effect_desc = "耐久+1010|対空+35|主砲補正+5%|図鑑開放：タッチ2、損傷大",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -32829,7 +32829,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3525] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+894|対空+36|回避+10|図鑑開放：損傷大",
+		effect_desc = "耐久+894|対空+36|回避+10|図鑑開放：タッチ2、損傷大",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",
@@ -33656,7 +33656,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3625] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+1180|対空+41|攻撃機補正+10%|艦載機数+1|図鑑開放：損傷大",
+		effect_desc = "耐久+1180|対空+41|攻撃機補正+10%|艦載機数+1|図鑑開放：タッチ2、損傷大",
 		extra_desc = "",
 		effect_preload = "",
 		need_lv = 30,
@@ -34485,7 +34485,7 @@ pg.ship_strengthen_blueprint = {
 	},
 	[3725] = {
 		effect_breakout = 0,
-		effect_desc = "耐久+607|対空+51|図鑑開放：損傷大",
+		effect_desc = "耐久+607|対空+51|図鑑開放：タッチ2、損傷大",
 		extra_desc = "",
 		effect_base = "",
 		effect_preload = "",

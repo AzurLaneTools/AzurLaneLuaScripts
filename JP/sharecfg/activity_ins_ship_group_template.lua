@@ -173,7 +173,7 @@ pg.activity_ins_ship_group_template = {
 	[20702] = {
 		ship_group = 20702,
 		name = "ArkRoyal_Defense",
-		sculpture = "huangjiafangzhou"
+		sculpture = "huangjiafangzhou_6"
 	},
 	[20706] = {
 		ship_group = 20706,
@@ -298,7 +298,7 @@ pg.activity_ins_ship_group_template = {
 	[30132] = {
 		ship_group = 30132,
 		name = "Mutsuki",
-		sculpture = "muyue"
+		sculpture = "muyue_5"
 	},
 	[30135] = {
 		ship_group = 30135,
@@ -2560,6 +2560,11 @@ pg.activity_ins_ship_group_template = {
 		name = "Bush",
 		sculpture = "bushi"
 	},
+	[30138] = {
+		ship_group = 30138,
+		name = "Fumizuki",
+		sculpture = "wenyue"
+	},
 	all = {
 		30701,
 		30702,
@@ -3072,6 +3077,7 @@ pg.activity_ins_ship_group_template = {
 		10152,
 		30604,
 		69902,
-		10133
+		10133,
+		30138
 	}
 }

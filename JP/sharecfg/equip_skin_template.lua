@@ -34680,6 +34680,60 @@ pg.equip_skin_template = {
 			"wash"
 		}
 	},
+	[4040] = {
+		hit_sfx = "",
+		bullet_name = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "100074",
+		name = "紅の狐面",
+		desc = "狐面を被り、紅い夢に救いを",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 4040,
+		themeid = 47,
+		orbit_rotate = false,
+		mirror = 0,
+		rarity = 4,
+		orbit_slg = "",
+		orbit_ui = "shebei_canghonghumianui",
+		miss_sfx = "",
+		orbit_combat = "shebei_canghonghumian",
+		orbit_combat_anima_change = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				0.26,
+				2.26,
+				-2.93
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				2.43,
+				-7.26
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
 	[1001] = {
 		hit_sfx = "",
 		bullet_name = "Nep_bullet_shizi",
@@ -42719,6 +42773,7 @@ pg.equip_skin_template = {
 		4037,
 		4038,
 		4039,
+		4040,
 		1001,
 		1002,
 		1003,

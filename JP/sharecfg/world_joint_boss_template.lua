@@ -299,7 +299,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "クイーン・エリザベス(META)",
 		boss_level_id = 136,
-		state = "stop",
+		state = "always",
 		item_id = 100000,
 		painting = "yilishabainvwang",
 		meta_id = 970504,
@@ -474,6 +474,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "ウィチタ(META)",
 		boss_level_id = 211,
+		state = "stop",
 		item_id = 100000,
 		painting = "weiqita",
 		meta_id = 970304,
@@ -495,12 +496,44 @@ pg.world_joint_boss_template = {
 				"戦闘終了間近に、【理事会制式MKXIII型オービタル・キャノン】を使用し、戦場全域にいるすべての目標に大ダメージを与える。"
 			}
 		},
+		p_offset = {
+			10,
+			679.8,
+			1,
+			1
+		},
+		p_offset_other = {
+			615,
+			679.8,
+			1,
+			1
+		}
+	},
+	{
+		name = "長門(META)",
+		boss_level_id = 226,
+		item_id = 100000,
+		painting = "changmen",
+		meta_id = 970506,
+		id = 16,
+		description = {
+			{
+				"月は満ち欠け",
+				1,
+				"戦場が15秒毎に<color=#92fc63>「虧月」と「盈月」の状態に入れ替わる</color>。\n「虧月」状態では、「長門(META)」が味方に与えるダメージが20％ダウン、更に味方の回復効果が50％ダウンする。\n「盈月」状態では、「長門(META)」が味方に与えるダメージが20％アップ、更に味方の回復効果が100％アップする。"
+			},
+			{
+				"花は咲き散る",
+				2,
+				"戦闘中、戦場に結界が出現し、<color=#92fc63>現在の戦場の「虧月」と「盈月」状態によって違う効果を発揮する</color>。\n「虧月」状態では、結界にいる味方艦船は耐久が減り続ける。\n「盈月」状態では、結界にいる味方艦船が敵から受けるダメージを軽減する。"
+			}
+		},
 		state = {
 			{
 				{
 					2024,
-					6,
-					13
+					9,
+					5
 				},
 				{
 					0,
@@ -511,8 +544,8 @@ pg.world_joint_boss_template = {
 			{
 				{
 					2024,
-					9,
-					5
+					12,
+					12
 				},
 				{
 					23,
@@ -522,14 +555,14 @@ pg.world_joint_boss_template = {
 			}
 		},
 		p_offset = {
-			10,
-			679.8,
+			-50,
+			680,
 			1,
 			1
 		},
 		p_offset_other = {
-			615,
-			679.8,
+			630,
+			620,
 			1,
 			1
 		}
@@ -549,6 +582,7 @@ pg.world_joint_boss_template = {
 		12,
 		13,
 		14,
-		15
+		15,
+		16
 	}
 }

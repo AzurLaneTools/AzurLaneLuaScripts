@@ -1559,5 +1559,25 @@ pg.voice_bgm = {
 		default_bgm = "story-newsakura",
 		special_bgm = "",
 		bgm = "story-newsakura"
+	},
+	DreamSignPage = {
+		default_bgm = "story-richang-quiet",
+		special_bgm = "",
+		bgm = "story-richang-quiet"
+	},
+	PlymouthTecCatchupPage = {
+		default_bgm = "theme-designshipVI",
+		special_bgm = "",
+		bgm = "theme-designshipVI"
+	},
+	AmagiACTaskPage = {
+		default_bgm = "theme-starsea-core",
+		special_bgm = "",
+		bgm = "theme-starsea-core"
+	},
+	AnniV5FramePage = {
+		default_bgm = "story-nailuo-theme",
+		special_bgm = "",
+		bgm = "story-nailuo-theme"
 	}
 }

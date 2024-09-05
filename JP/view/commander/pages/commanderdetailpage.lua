@@ -29,6 +29,9 @@ slot0.RegisterEvent = function(slot0)
 	slot0:bind(CommanderCatScene.EVENT_PREVIEW, function (slot0, slot1)
 		uv0:UpdatePreView(slot1)
 	end)
+	slot0:bind(CommanderCatScene.EVENT_PREVIEW_REVERSE, function (slot0, slot1, slot2)
+		uv0:UpdateReversePreView(slot1, slot2)
+	end)
 	slot0:bind(CommanderCatScene.EVENT_PREVIEW_PLAY, function (slot0, slot1, slot2)
 		triggerToggle(uv0.skillBtn, true)
 		triggerToggle(uv0.otherBtn, not (not slot1 or #slot1 <= 0 or slot2))
@@ -204,6 +207,13 @@ slot0.UpdatePreView = function(slot0, slot1)
 	slot0:UpdateLevel(slot1)
 end
 
+slot0.UpdateReversePreView = function(slot0, slot1, slot2)
+	slot0:_UpdateAbilitys(slot2, slot1)
+	slot0:_UpdateAbilityAddition(slot2, slot1)
+	slot0:_UpdateTalentAddition(slot2)
+	slot0:UpdateLevel(slot2)
+end
+
 slot0.UpdatePreViewWithOther = function(slot0, slot1)
 	if not slot1 or #slot1 <= 0 then
 		return
@@ -266,11 +276,15 @@ slot0.UpdateLevel = function(slot0, slot1)
 end
 
 slot0.UpdateAbilitys = function(slot0, slot1)
-	slot3 = slot0.commanderVO:getAbilitys()
+	slot0:_UpdateAbilitys(slot0.commanderVO, slot1)
+end
+
+slot0._UpdateAbilitys = function(slot0, slot1, slot2)
+	slot3 = slot1:getAbilitys()
 	slot4 = nil
 
-	if slot1 then
-		slot4 = slot1:getAbilitys()
+	if slot2 then
+		slot4 = slot2:getAbilitys()
 	end
 
 	for slot8, slot9 in pairs(slot3) do
@@ -287,11 +301,15 @@ slot0.UpdateAbilitys = function(slot0, slot1)
 end
 
 slot0.UpdateAbilityAddition = function(slot0, slot1)
-	slot3 = slot0.commanderVO:getAbilitysAddition()
+	slot0:_UpdateAbilityAddition(slot0.commanderVO, slot1)
+end
+
+slot0._UpdateAbilityAddition = function(slot0, slot1, slot2)
+	slot3 = slot1:getAbilitysAddition()
 	slot4 = nil
 
-	if slot1 then
-		slot4 = slot1:getAbilitysAddition()
+	if slot2 then
+		slot4 = slot2:getAbilitysAddition()
 	end
 
 	slot5 = 0
@@ -340,6 +358,10 @@ slot0.UpdateTalent = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.UpdateTalentAddition = function(slot0)
+	slot0:_UpdateTalentAddition(slot0.commanderVO)
+end
+
+slot0._UpdateTalentAddition = function(slot0, slot1)
 	slot2 = nil
 
 	slot0.talentAdditionList:make(function (slot0, slot1, slot2)
@@ -354,7 +376,7 @@ slot0.UpdateTalentAddition = function(slot0)
 			slot2:Find("bg"):GetComponent(typeof(Image)).enabled = slot1 % 2 ~= 0
 		end
 	end)
-	slot0.talentAdditionList:align(#_.values(slot0.commanderVO:getTalentsDesc()))
+	slot0.talentAdditionList:align(#_.values(slot1:getTalentsDesc()))
 end
 
 slot0.UpdateSkills = function(slot0)

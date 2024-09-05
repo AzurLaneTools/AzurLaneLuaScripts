@@ -1,5 +1,47 @@
 pg = pg or {}
 pg.enemy_data_statistics_295 = {
+	[16514304] = {
+		cannon = 330,
+		name = "オミッターγ",
+		torpedo = 190,
+		cannon_growth = 0,
+		air = 300,
+		reload = 150,
+		armor = 0,
+		dodge = 24,
+		id = 16514304,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 228,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 30,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 320,
+		base = 90428,
+		durability = 175000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 400,
+		speed = 18,
+		luck = 30,
+		battle_unit_type = 95,
+		antisub = 0,
+		torpedo_growth = 0,
+		fog_fx = "",
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 50500,
+				LV = 4
+			}
+		}
+	},
 	[16515001] = {
 		cannon = 8,
 		air = 0,
@@ -1022,38 +1064,6 @@ pg.enemy_data_statistics_295 = {
 			"bossguangxiao",
 			"appearQ"
 		},
-		equipment_list = {},
-		buff_list = {}
-	},
-	[16517008] = {
-		cannon = 1000,
-		air = 0,
-		torpedo = 0,
-		cannon_growth = 0,
-		id = 16517008,
-		reload = 150,
-		armor = 0,
-		dodge = 0,
-		torpedo_growth = 0,
-		hit_growth = 120,
-		reload_growth = 0,
-		dodge_growth = 0,
-		icon = "qingchuzhe",
-		speed_growth = 0,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 0,
-		luck_growth = 0,
-		base = 90535,
-		durability = 999999,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 0,
-		speed = 10,
-		luck = 0,
-		antiaircraft_growth = 0,
-		antisub = 250,
-		fog_fx = "",
 		equipment_list = {},
 		buff_list = {}
 	}

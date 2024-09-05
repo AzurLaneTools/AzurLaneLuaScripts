@@ -43500,6 +43500,291 @@ _G.pg.base.task_data_template[10179] = {
 }
 
 
+_G.pg.base.task_data_template[10180] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 94085,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "限定 特殊装備任務1",
+	desc = "デイリーチャレンジの「特殊装備(ｲﾍﾞﾝﾄ)」を1回クリア",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 10180,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			1
+		},
+		{
+			2,
+			15016,
+			10
+		},
+		{
+			2,
+			15021,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[10181] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 94085,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "限定 特殊装備任務2",
+	desc = "デイリーチャレンジの「特殊装備(ｲﾍﾞﾝﾄ)」を2回クリア",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 10181,
+	target_num = 2,
+	fix_task = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			1
+		},
+		{
+			2,
+			15016,
+			10
+		},
+		{
+			2,
+			15021,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[10182] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 94086,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "限定 特殊装備任務3",
+	desc = "デイリーチャレンジの「特殊装備(ｲﾍﾞﾝﾄ)」を3回クリア",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 10182,
+	target_num = 3,
+	fix_task = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			1
+		},
+		{
+			2,
+			15016,
+			25
+		},
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[10183] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 94087,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "限定 特殊装備任務4",
+	desc = "デイリーチャレンジの「特殊装備(ｲﾍﾞﾝﾄ)」を4回クリア",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 10183,
+	target_num = 4,
+	fix_task = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			2
+		},
+		{
+			2,
+			15016,
+			25
+		},
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[10184] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 94088,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "限定 特殊装備任務5",
+	desc = "デイリーチャレンジの「特殊装備(ｲﾍﾞﾝﾄ)」を5回クリア",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 10184,
+	target_num = 5,
+	fix_task = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			3
+		},
+		{
+			2,
+			15017,
+			5
+		},
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			4
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[10201] = {
 	target_id_2 = "",
 	guild_coin_award = 0,
@@ -109633,6 +109918,789 @@ _G.pg.base.task_data_template[20505] = {
 			mapIdx = 1840001,
 			chapterId = 1840003
 		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20510] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903107,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服周年』七周年梦幻乐园预热登录任务1",
+	desc = "不应该被看到",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20510,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60486,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20511] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903108,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服周年』七周年梦幻乐园预热登录任务2",
+	desc = "不应该被看到",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20511,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60486,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20512] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903109,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服周年』七周年梦幻乐园预热登录任务3",
+	desc = "不应该被看到",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20512,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60486,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20513] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903110,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服周年』七周年梦幻乐园预热登录任务4",
+	desc = "不应该被看到",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20513,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			60486,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20514] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903111,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『日服周年』七周年梦幻乐园预热登录任务5",
+	desc = "不应该被看到",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20514,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			7,
+			301324,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20515] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903112,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『905前哨站』七日任务1",
+	desc = "艦隊を出撃させ、10回S評価で勝利せよ！",
+	sub_type = 24,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20515,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20516] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903113,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『905前哨站』七日任务2",
+	desc = "ゲームにログインせよ！",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20516,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20517] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903114,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『905前哨站』七日任务3",
+	desc = "演習を2回行う",
+	sub_type = 27,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20517,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20518] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903115,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『905前哨站』七日任务4",
+	desc = "「軍事委託」を2回遂行する",
+	sub_type = 80,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20518,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20519] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903116,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『905前哨站』七日任务5",
+	desc = "艦を2隻「退役」して、艦隊を再編せよ！",
+	sub_type = 31,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20519,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20520] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903117,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『905前哨站』七日任务6",
+	desc = "「デイリーチャレンジ」を三回行う ",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20520,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20521] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903118,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『905前哨站』七日任务7",
+	desc = "艦を5回強化する",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20521,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20522] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903119,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『905前哨站』七日任务8",
+	desc = "戦術教室で戦術訓練を2回行う",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20522,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20523] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903120,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『905前哨站』七日任务9",
+	desc = "任意の敵艦を20隻撃破する",
+	sub_type = 11,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20523,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20524] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903121,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『905前哨站』七日任务10",
+	desc = "寮舎で食糧を5回補充する",
+	sub_type = 61,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20524,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20525] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903122,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『905前哨站』七日任务11",
+	desc = "艦を2隻「建造」せよ！",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20525,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20526] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903123,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『905前哨站』七日任务12",
+	desc = "装備箱を1個開ける",
+	sub_type = 50,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20526,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20527] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903124,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『905前哨站』七日任务13",
+	desc = "戦術教室で戦術訓練を2回遂行せよ！",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20527,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20528] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903125,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『905前哨站』七日任务14",
+	desc = "艦隊を出撃させ、敵中枢艦隊を3回撃破せよ！",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20528,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			9,
+			4040,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
 	}
 }
 

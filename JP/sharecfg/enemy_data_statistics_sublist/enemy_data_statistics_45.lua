@@ -1,5 +1,47 @@
 pg = pg or {}
 pg.enemy_data_statistics_45 = {
+	[5013] = {
+		cannon = 7,
+		name = "量産型イスズ級",
+		hit_growth = 120,
+		speed_growth = 0,
+		antiaircraft_growth = 1440,
+		air = 0,
+		antisub = 0,
+		armor = 0,
+		rarity = 1,
+		antiaircraft = 17,
+		fog_fx = "",
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90108,
+		durability = 240,
+		armor_growth = 0,
+		torpedo_growth = 1296,
+		speed = 15,
+		luck = 0,
+		id = 5013,
+		cannon_growth = 540,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 8,
+		torpedo = 16,
+		durability_growth = 9200,
+		luck_growth = 0,
+		battle_unit_type = 25,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			100337,
+			313092,
+			100407
+		}
+	},
 	[5014] = {
 		cannon = 20,
 		name = "アオバ",
@@ -1184,45 +1226,6 @@ pg.enemy_data_statistics_45 = {
 			100202,
 			100522,
 			100422
-		}
-	},
-	[5042] = {
-		cannon = 20,
-		name = "アオバ",
-		rarity = 3,
-		speed_growth = 0,
-		hit_growth = 210,
-		air = 0,
-		armor = 0,
-		antiaircraft_growth = 2340,
-		antiaircraft = 28,
-		id = 5042,
-		fog_fx = "",
-		dodge_growth = 84,
-		star = 4,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90201,
-		durability = 880,
-		armor_growth = 0,
-		torpedo_growth = 2250,
-		speed = 16,
-		luck = 0,
-		antisub = 0,
-		cannon_growth = 1638,
-		pilot_ai_template_id = 20002,
-		reload = 150,
-		dodge = 6,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 27,
-		durability_growth = 41500,
-		luck_growth = 0,
-		battle_unit_type = 60,
-		equipment_list = {
-			100202,
-			100512,
-			100412
 		}
 	}
 }

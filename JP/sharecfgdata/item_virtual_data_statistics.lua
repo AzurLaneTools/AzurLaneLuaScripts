@@ -167950,6 +167950,31 @@ _G.pg.base.item_virtual_data_statistics[60485] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[60486] = {
+	drop_gold_max = 0,
+	name = "楽園改修案",
+	display = "イベント「出航の前準備」の収集アイテム。イベント終了後に削除されます",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/60486",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 99,
+	id = 60486,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65001] = {
 	drop_gold_max = 0,
 	name = "通行证十八期对应虚拟道具",
@@ -168192,6 +168217,31 @@ _G.pg.base.item_virtual_data_statistics[65015] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 65015,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65016] = {
+	drop_gold_max = 0,
+	name = "訓練Pt",
+	display = "「作戦準備・ナラク」報酬交換用アイテム。イベント終了後に削除される。",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_20240905",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65016,
 	display_icon = {},
 	price = {},
 	index = {},

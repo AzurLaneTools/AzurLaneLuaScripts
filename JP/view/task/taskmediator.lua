@@ -260,6 +260,8 @@ slot0.handleNotification = function(slot0, slot1)
 		elseif slot2 == GAME.SUBMIT_AVATAR_TASK_DONE or slot2 == GAME.SUBMIT_ACTIVITY_TASK_DONE then
 			slot4 = function()
 				uv0.viewComponent:refreshPage()
+
+				uv0.refreshWeekTaskPageFlag = true
 			end
 
 			if #slot3.awards > 0 then
