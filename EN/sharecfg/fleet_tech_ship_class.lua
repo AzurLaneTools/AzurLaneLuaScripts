@@ -3747,6 +3747,17 @@ pg.fleet_tech_ship_class = {
 			970505
 		}
 	},
+	[970506] = {
+		shiptype = 5,
+		name = "Nagato META",
+		t_level = 5,
+		id = 970506,
+		t_level_1 = 2,
+		nation = 97,
+		ships = {
+			970506
+		}
+	},
 	[970601] = {
 		shiptype = 6,
 		name = "Hiyou META",
@@ -4171,6 +4182,7 @@ pg.fleet_tech_ship_class = {
 		970503,
 		970504,
 		970505,
+		970506,
 		970601,
 		970602,
 		970603,

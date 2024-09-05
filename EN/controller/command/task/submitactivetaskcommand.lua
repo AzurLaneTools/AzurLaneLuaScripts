@@ -18,7 +18,12 @@ slot0.execute = function(slot0, slot1)
 		end
 	elseif table.contains(TotalTaskProxy.normal_task_type, slot4) then
 		for slot9, slot10 in ipairs(slot2.task_ids) do
-			table.insert(slot5, getProxy(TaskProxy):getTaskById(slot10))
+			slot11 = getProxy(TaskProxy):getTaskById(slot10)
+
+			if not getProxy(TaskProxy):isSubmitting(slot10) then
+				getProxy(TaskProxy):addSubmittingTask(slot10)
+				table.insert(slot5, slot11)
+			end
 		end
 	end
 

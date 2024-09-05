@@ -196,6 +196,8 @@ pg.memory_group = setmetatable({
 		296,
 		297,
 		298,
+		299,
+		300,
 		501,
 		502,
 		503,
@@ -4685,6 +4687,38 @@ pg.base.memory_group = {
 			3821,
 			3822,
 			3823
+		}
+	},
+	[299] = {
+		title = "Whence the Dust Settles",
+		subtype = 1,
+		link_event = 5551,
+		type = 2,
+		id = 299,
+		icon = "title_event",
+		memories = {
+			3831,
+			3832,
+			3833,
+			3834,
+			3835,
+			3836,
+			3837
+		}
+	},
+	[300] = {
+		title = "Paradise Opens for Business",
+		subtype = 2,
+		link_event = 5548,
+		type = 2,
+		id = 300,
+		icon = "title_event",
+		memories = {
+			3841,
+			3842,
+			3843,
+			3844,
+			3845
 		}
 	},
 	[501] = {

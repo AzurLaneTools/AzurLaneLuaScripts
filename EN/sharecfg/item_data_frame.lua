@@ -477,6 +477,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>A resplendent heart that never stops. A gale of iron blowing through the waves.</color>\nGiven to Commanders who participated in the Windborne Steel Wings event.",
 		scene = {}
 	},
+	[332] = {
+		name = "Flames of Resurrection",
+		gain_by = "",
+		time_second = 0,
+		id = 332,
+		time_limit_type = 0,
+		desc = "Obtained from an event.",
+		scene = {}
+	},
 	[406] = {
 		name = "Hall of Fame: Laffey ",
 		gain_by = "",
@@ -756,6 +765,7 @@ pg.item_data_frame = {
 		329,
 		330,
 		331,
+		332,
 		406,
 		411,
 		412,

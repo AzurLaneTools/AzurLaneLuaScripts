@@ -1,5 +1,47 @@
 pg = pg or {}
 pg.enemy_data_statistics_225 = {
+	[14704203] = {
+		cannon = 145,
+		air = 320,
+		torpedo = 0,
+		cannon_growth = 1800,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		armor = 0,
+		dodge = 11,
+		torpedo_growth = 0,
+		hit_growth = 210,
+		reload_growth = 0,
+		dodge_growth = 156,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 20,
+		antisub_growth = 0,
+		air_growth = 3500,
+		battle_unit_type = 90,
+		base = 90368,
+		durability = 19820,
+		armor_growth = 0,
+		durability_growth = 312000,
+		antiaircraft = 280,
+		speed = 20,
+		luck = 20,
+		antiaircraft_growth = 3200,
+		antisub = 0,
+		id = 14704203,
+		fog_fx = "",
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			784315,
+			1101094,
+			1101119,
+			1101129,
+			1101134,
+			1101139
+		}
+	},
 	[14704301] = {
 		cannon = 330,
 		name = "Tester Incognita",
@@ -1294,50 +1336,6 @@ pg.enemy_data_statistics_225 = {
 			790107,
 			790109,
 			790111
-		}
-	},
-	[14900304] = {
-		cannon = 76,
-		air = 85,
-		torpedo = 0,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		armor = 0,
-		dodge = 11,
-		torpedo_growth = 0,
-		hit_growth = 210,
-		reload_growth = 0,
-		dodge_growth = 156,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 94,
-		base = 90239,
-		durability = 8100,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 125,
-		speed = 18,
-		luck = 0,
-		antiaircraft_growth = 0,
-		antisub = 0,
-		id = 14900304,
-		scale = 144,
-		fog_fx = "",
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			790201,
-			790202,
-			790203,
-			790206,
-			790208,
-			790210
 		}
 	}
 }

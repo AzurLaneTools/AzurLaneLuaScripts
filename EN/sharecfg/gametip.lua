@@ -26440,5 +26440,25 @@ cs.gametip = {
 		1007784,
 		226,
 		true
+	},
+	help_dorm3d_info = {
+		1008010,
+		537,
+		true
+	},
+	report_cannot_comment_level_1 = {
+		1008547,
+		151,
+		true
+	},
+	report_cannot_comment_level_2 = {
+		1008698,
+		130,
+		true
+	},
+	commander_exp_limit = {
+		1008828,
+		147,
+		true
 	}
 }

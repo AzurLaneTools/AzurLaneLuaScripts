@@ -1,5 +1,46 @@
 pg = pg or {}
 pg.enemy_data_statistics_398 = {
+	[295075] = {
+		cannon = 421,
+		name = "Gneisenau META",
+		torpedo = 214,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 25,
+		id = 295075,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 105,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90600,
+		durability = 1480000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 372,
+		speed = 30,
+		luck = 20,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 5
+			}
+		}
+	},
 	[295076] = {
 		cannon = 183,
 		name = "Scharnhorst META",
@@ -1052,47 +1093,6 @@ pg.enemy_data_statistics_398 = {
 		antiaircraft = 309,
 		speed = 30,
 		luck = 21,
-		battle_unit_type = 90,
-		antisub = 0,
-		fog_fx = "",
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50500,
-				LV = 4
-			}
-		}
-	},
-	[295102] = {
-		cannon = 308,
-		name = "Repulse META",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 22,
-		id = 295102,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 90,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 90645,
-		durability = 780000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 322,
-		speed = 30,
-		luck = 22,
 		battle_unit_type = 90,
 		antisub = 0,
 		fog_fx = "",

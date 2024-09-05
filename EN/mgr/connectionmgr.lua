@@ -203,13 +203,12 @@ slot1.onData = function(slot0)
 end
 
 slot1.onError = function(slot0)
-	uv0.UIMgr.GetInstance():LoadingOff()
-	uv1("Network Error: " .. tostring(slot0))
+	uv0("Network Error: " .. tostring(slot0))
 
-	if uv2 then
-		uv2:Dispose()
+	if uv1 then
+		uv1:Dispose()
 
-		uv2 = nil
+		uv1 = nil
 	end
 
 	slot1 = function()
@@ -226,18 +225,18 @@ slot1.onError = function(slot0)
 		slot2 = uv5
 	end
 
-	uv0.ConnectionMgr.GetInstance():CheckProxyCounter()
+	uv2.ConnectionMgr.GetInstance():CheckProxyCounter()
 
 	if uv6 and uv7 then
-		uv0.ConnectionMgr.GetInstance():stopHBTimer()
+		uv2.ConnectionMgr.GetInstance():stopHBTimer()
 
 		if table.contains({
 			"NotSocket"
 		}, slot0) then
-			uv0.ConnectionMgr.GetInstance():Reconnect(slot2)
+			uv2.ConnectionMgr.GetInstance():Reconnect(slot2)
 		else
-			uv0.MsgboxMgr.GetInstance():CloseAndHide()
-			uv0.MsgboxMgr.GetInstance():ShowMsgBox({
+			uv2.MsgboxMgr.GetInstance():CloseAndHide()
+			uv2.MsgboxMgr.GetInstance():ShowMsgBox({
 				modal = true,
 				content = i18n("reconnect_tip", slot0),
 				onYes = function ()
@@ -246,11 +245,11 @@ slot1.onError = function(slot0)
 				onNo = slot1,
 				weight = LayerWeightConst.TOP_LAYER
 			})
-			uv0.NewStoryMgr.GetInstance():Stop()
-			uv0.NewGuideMgr.GetInstance():Pause()
+			uv2.NewStoryMgr.GetInstance():Stop()
+			uv2.NewGuideMgr.GetInstance():Pause()
 		end
 	else
-		uv0.ConnectionMgr.GetInstance():ConnectByProxy()
+		uv2.ConnectionMgr.GetInstance():ConnectByProxy()
 	end
 end
 

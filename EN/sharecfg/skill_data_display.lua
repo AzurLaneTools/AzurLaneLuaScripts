@@ -2939,6 +2939,10 @@ pg.skill_data_display = setmetatable({
 		801294,
 		801321,
 		801333,
+		801363,
+		801371,
+		801373,
+		801374,
 		902201,
 		1010140,
 		1010143,
@@ -3172,6 +3176,12 @@ pg.skill_data_display = setmetatable({
 		1012322,
 		1012323,
 		1013551,
+		1012990,
+		1012993,
+		1011491,
+		1011492,
+		1011493,
+		1011496,
 		1090020,
 		1090042,
 		1090043,
@@ -3207,7 +3217,10 @@ pg.skill_data_display = setmetatable({
 		1090273,
 		1090283,
 		1090284,
-		1090285
+		1090285,
+		1090290,
+		1090291,
+		1090310
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -14960,6 +14973,22 @@ pg.base.skill_data_display = {
 		id = 801333,
 		name = "Kasumi's Protection"
 	},
+	[801363] = {
+		id = 801363,
+		name = "The Moon Waxes and Wanes"
+	},
+	[801371] = {
+		id = 801371,
+		name = "The Rain Weaves and Disperses III"
+	},
+	[801373] = {
+		id = 801373,
+		name = "The Rain Weaves and Disperses I"
+	},
+	[801374] = {
+		id = 801374,
+		name = "The Rain Weaves and Disperses II"
+	},
 	[902201] = {
 		id = 902201,
 		name = "Fantastic Loop"
@@ -15892,6 +15921,30 @@ pg.base.skill_data_display = {
 		id = 1013551,
 		name = "The Smiling Sawfish+"
 	},
+	[1012990] = {
+		id = 1012990,
+		name = "Trajectory Marking+"
+	},
+	[1012993] = {
+		id = 1012993,
+		name = "The Blue Cruiser"
+	},
+	[1011491] = {
+		id = 1011491,
+		name = "Handmade Mont Blancs"
+	},
+	[1011492] = {
+		id = 1011492,
+		name = "Handmade Donuts"
+	},
+	[1011493] = {
+		id = 1011493,
+		name = "Handmade Macarons"
+	},
+	[1011496] = {
+		id = 1011496,
+		name = "Frontal Fire+"
+	},
 	[1090020] = {
 		id = 1090020,
 		name = "Full Firepower - Karlsruhe"
@@ -16035,5 +16088,17 @@ pg.base.skill_data_display = {
 	[1090285] = {
 		id = 1090285,
 		name = "Quick Takeoff - Long Island"
+	},
+	[1090290] = {
+		id = 1090290,
+		name = "Double Torpedo - Shiranui"
+	},
+	[1090291] = {
+		id = 1090291,
+		name = "Double Torpedo - Shiranui"
+	},
+	[1090310] = {
+		id = 1090310,
+		name = "Full Firepower - Exeter"
 	}
 }

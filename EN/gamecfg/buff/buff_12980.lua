@@ -27,7 +27,16 @@ return {
 				"onStartGame"
 			},
 			arg_list = {
-				skill_id = 12980
+				skill_id = 12980,
+				quota = 1,
+				maxTargetNumber = 0,
+				target = "TargetSelf",
+				check_target = {
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"Tashkentexclusiveweapon"
+				}
 			}
 		},
 		{
@@ -40,6 +49,24 @@ return {
 				killer = "self",
 				target = "TargetSelf",
 				skill_id = 12982
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onStartGame"
+			},
+			arg_list = {
+				minTargetNumber = 1,
+				skill_id = 1012993,
+				quota = 1,
+				target = "TargetSelf",
+				check_target = {
+					"TargetShipTag"
+				},
+				ship_tag_list = {
+					"Tashkentexclusiveweapon"
+				}
 			}
 		}
 	}

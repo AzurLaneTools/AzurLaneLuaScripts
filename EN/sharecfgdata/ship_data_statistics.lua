@@ -282028,7 +282028,8 @@ _G.pg.base.ship_data_statistics[701041] = {
 	},
 	tag_list = {
 		"Tashkent",
-		"Northern Union-DD"
+		"Northern Union-DD",
+		"Tashkent1"
 	}
 }
 
@@ -282155,7 +282156,8 @@ _G.pg.base.ship_data_statistics[701042] = {
 	},
 	tag_list = {
 		"Tashkent",
-		"Northern Union-DD"
+		"Northern Union-DD",
+		"Tashkent1"
 	}
 }
 
@@ -282282,7 +282284,8 @@ _G.pg.base.ship_data_statistics[701043] = {
 	},
 	tag_list = {
 		"Tashkent",
-		"Northern Union-DD"
+		"Northern Union-DD",
+		"Tashkent1"
 	}
 }
 
@@ -282409,7 +282412,8 @@ _G.pg.base.ship_data_statistics[701044] = {
 	},
 	tag_list = {
 		"Tashkent",
-		"Northern Union-DD"
+		"Northern Union-DD",
+		"Tashkent1"
 	}
 }
 
@@ -380306,6 +380310,522 @@ _G.pg.base.ship_data_statistics[9705054] = {
 		"Big Seven",
 		"luodeni",
 		"RodneyMETA"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9705061] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 5,
+	name = "Nagato META",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 9705061,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Nagato.META",
+	oxy_cost = 0,
+	skin_id = 9705060,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1345,
+		82,
+		0,
+		34,
+		0,
+		54,
+		0,
+		17,
+		6,
+		25,
+		71,
+		0
+	},
+	attrs_growth = {
+		25474,
+		1011,
+		0,
+		463,
+		0,
+		375,
+		0,
+		295,
+		209,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		2.1,
+		1.1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Nagato-Class",
+		"NagatoMETA",
+		"Big Seven",
+		"Musashi-Game"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9705062] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 5,
+	name = "Nagato META",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 9705062,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Nagato.META",
+	oxy_cost = 0,
+	skin_id = 9705060,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1673,
+		102,
+		0,
+		42,
+		0,
+		54,
+		0,
+		17,
+		6,
+		25,
+		71,
+		0
+	},
+	attrs_growth = {
+		25474,
+		1011,
+		0,
+		463,
+		0,
+		375,
+		0,
+		295,
+		209,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		2.1,
+		1.1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Nagato-Class",
+		"NagatoMETA",
+		"Big Seven",
+		"Musashi-Game"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9705063] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 5,
+	name = "Nagato META",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 9705063,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Nagato.META",
+	oxy_cost = 0,
+	skin_id = 9705060,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		2329,
+		143,
+		0,
+		59,
+		0,
+		54,
+		0,
+		17,
+		6,
+		25,
+		71,
+		0
+	},
+	attrs_growth = {
+		25474,
+		1011,
+		0,
+		463,
+		0,
+		375,
+		0,
+		295,
+		209,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		2.1,
+		1.1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Nagato-Class",
+		"NagatoMETA",
+		"Big Seven",
+		"Musashi-Game"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9705064] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 5,
+	name = "Nagato META",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 9705064,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Nagato.META",
+	oxy_cost = 0,
+	skin_id = 9705060,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		3314,
+		204,
+		0,
+		84,
+		0,
+		54,
+		0,
+		17,
+		6,
+		25,
+		71,
+		0
+	},
+	attrs_growth = {
+		25474,
+		1011,
+		0,
+		463,
+		0,
+		375,
+		0,
+		295,
+		209,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		2.1,
+		1.1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Nagato-Class",
+		"NagatoMETA",
+		"Big Seven",
+		"Musashi-Game"
 	}
 }
 

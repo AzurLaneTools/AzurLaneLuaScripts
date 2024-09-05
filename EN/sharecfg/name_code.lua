@@ -1610,6 +1610,13 @@ pg.name_code = {
 		code = "葞",
 		nation = 0
 	},
+	[230] = {
+		name = "Nagato META",
+		type = 1,
+		id = 230,
+		code = "Nagato META",
+		nation = 0
+	},
 	[250] = {
 		name = "I-9",
 		type = 1,
