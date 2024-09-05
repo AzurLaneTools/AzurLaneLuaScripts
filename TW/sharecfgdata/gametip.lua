@@ -28406,7 +28406,7 @@ _G.pg.base.gametip.chargetip_crusing = {
 
 
 _G.pg.base.gametip.chargetip_giftpackage = {
-	tip = "購買成功！放入郵箱中"
+	tip = "購買成功！放入信箱中"
 }
 
 
