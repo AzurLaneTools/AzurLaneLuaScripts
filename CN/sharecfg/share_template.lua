@@ -316,6 +316,28 @@ pg.share_template = {
 			"UICamera/Canvas/UIMain/PizzahutSharePage(Clone)"
 		}
 	},
+	{
+		description = "#碧蓝航线#",
+		name = "3d宿舍拍照分享界面",
+		deck = 2,
+		move_comps = "",
+		camera = "OverlayCamera",
+		show_comps = "",
+		id = 19,
+		qrcode_location = {
+			-308,
+			88
+		},
+		hidden_comps = {
+			"/OverlayCamera/Overlay/UIEffect/vfx_ui_dianji01(Clone)",
+			"/OverlayCamera/Overlay/UIMain/Dorm3dPhotoShareUI(Clone)/BG",
+			"/OverlayCamera/Overlay/UIMain/Dorm3dPhotoShareUI(Clone)/PhotoImg",
+			"/OverlayCamera/Overlay/UIMain/Dorm3dPhotoShareUI(Clone)/PhotoImg",
+			"/OverlayCamera/Overlay/UIMain/Dorm3dPhotoShareUI(Clone)/ConfirmBtn",
+			"/OverlayCamera/Overlay/UIMain/Dorm3dPhotoShareUI(Clone)/ShareBtn",
+			"/OverlayCamera/Overlay/UIOverlay/TipPanel(Clone)"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -334,6 +356,7 @@ pg.share_template = {
 		15,
 		16,
 		17,
-		18
+		18,
+		19
 	}
 }

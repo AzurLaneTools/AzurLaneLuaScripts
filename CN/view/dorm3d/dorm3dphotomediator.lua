@@ -1,4 +1,6 @@
 slot0 = class("Dorm3dPhotoMediator", import("view.base.ContextMediator"))
+slot0.SHARE_PANEL = "Dorm3dPhotoMediator:SHARE_PANEL"
+slot0.Camera_Pinch_Value_Change = "Camera_Pinch_Value_Change"
 
 slot0.register = function(slot0)
 	slot1 = pg.m02
@@ -11,10 +13,10 @@ slot0.register = function(slot0)
 	slot4 = slot0.viewComponent
 
 	slot4:SetApartment(slot2:GetApartment())
-	slot0:bind(SnapshotScene.SHARE_PANEL, function (slot0, slot1, slot2)
+	slot0:bind(uv0.SHARE_PANEL, function (slot0, slot1, slot2)
 		uv0:addSubLayers(Context.New({
-			mediator = SnapshotShareMediator,
-			viewComponent = SnapshotShareLayer,
+			mediator = Dorm3dPhotoShareLayerMediator,
+			viewComponent = Dorm3dPhotoShareLayer,
 			data = {
 				photoTex = slot1,
 				photoData = slot2
@@ -25,7 +27,8 @@ end
 
 slot0.listNotificationInterests = function(slot0)
 	return {
-		ApartmentProxy.UPDATE_APARTMENT
+		ApartmentProxy.UPDATE_APARTMENT,
+		uv0.Camera_Pinch_Value_Change
 	}
 end
 
@@ -34,6 +37,8 @@ slot0.handleNotification = function(slot0, slot1)
 
 	if slot1:getName() == ApartmentProxy.UPDATE_APARTMENT then
 		-- Nothing
+	elseif slot2 == uv0.Camera_Pinch_Value_Change then
+		slot0.viewComponent:SetCamaraPinchSliderValue(slot1.body.value)
 	end
 end
 

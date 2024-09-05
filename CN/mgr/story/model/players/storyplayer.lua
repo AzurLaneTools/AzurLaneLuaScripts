@@ -234,7 +234,10 @@ slot0.Play = function(slot0, slot1, slot2, slot3)
 					uv0:SetLocation(uv1, slot0)
 				end,
 				function (slot0)
-					uv0:DispatcherEvent(uv1, slot0)
+					if uv0:DispatcherEvent(uv1, slot0) then
+						uv0.autoNext = true
+						uv2 = 0
+					end
 				end
 			}, slot0)
 		end,
@@ -427,13 +430,26 @@ slot0.DispatcherEvent = function(slot0, slot1, slot2)
 	else
 		slot2()
 	end
+
+	return slot3.nextOne
+end
+
+slot0.WaitForEvent = function(slot0)
+	return slot0.checkTimer ~= nil
 end
 
 slot0.CheckDispatcher = function(slot0, slot1, slot2)
 	slot3 = slot1:GetDispatcherRecallName()
+
+	slot0:ClearCheckDispatcher()
+
 	slot0.checkTimer = Timer.New(function ()
 		if pg.NewStoryMgr.GetInstance():CheckStoryEvent(uv0) then
-			if pg.NewStoryMgr.GetInstance():GetStoryEventArg(uv0) and slot0.optionIndex then
+			if pg.NewStoryMgr.GetInstance():GetStoryEventArg(uv0) then
+				existCall(slot0.notifiCallback)
+			end
+
+			if slot0 and slot0.optionIndex then
 				uv1:SetBranchCode(uv1.script, uv2, slot0.optionIndex)
 
 				uv1.skipOption = true
@@ -646,7 +662,7 @@ slot0.InitBranches = function(slot0, slot1, slot2, slot3, slot4)
 				if uv6:GetComponent(typeof(Animation)) then
 					uv7.blocksRaycasts = false
 
-					slot0:Play("anim_storydialogue_optiontpl_confirm")
+					slot0:Play(uv0.script:GetAnimPrefix() .. "confirm")
 					uv6:GetComponent(typeof(DftAniEvent)):SetEndEvent(function ()
 						setActive(uv0.optionsCg.gameObject, false)
 
@@ -666,6 +682,16 @@ slot0.InitBranches = function(slot0, slot1, slot2, slot3, slot4)
 			GetOrAddComponent(slot2, typeof(CanvasGroup)).alpha = slot6 and 0.5 or 1
 
 			uv2:UpdateOptionTxt(uv8, slot3, uv0[slot1 + 1][1])
+
+			if uv2.script:IsDialogueStyle2() then
+				setActive(slot3, slot1 == 0)
+
+				if slot1 > 0 then
+					LeanTween.delayedCall(0.066 * slot1, System.Action(function ()
+						setActive(uv0, true)
+					end))
+				end
+			end
 		end
 	end)
 	slot7:align(#slot2:GetOptions())
@@ -694,7 +720,7 @@ slot0.ShowBranches = function(slot0, slot1, slot2)
 
 	for slot7 = 0, slot0:GetOptionContainer(slot1).container.childCount - 1 do
 		if slot3.container:GetChild(slot7):GetComponent(typeof(Animation)) then
-			slot9:Play("anim_storydialogue_optiontpl_in")
+			slot9:Play(slot0.script:GetAnimPrefix() .. "in")
 		end
 	end
 
@@ -704,7 +730,7 @@ end
 slot0.HideBranchesWithoutSelected = function(slot0, slot1)
 	for slot6 = 0, slot0:GetOptionContainer(slot1).container.childCount - 1 do
 		if slot6 ~= slot0.selectedBranchID and slot2.container:GetChild(slot6):GetComponent(typeof(Animation)) then
-			slot8:Play("anim_storydialogue_optiontpl_unselected")
+			slot8:Play(slot0.script:GetAnimPrefix() .. "unselected")
 		end
 	end
 end
@@ -1262,7 +1288,11 @@ slot0.Reset = function(slot0, slot1, slot2, slot3)
 	setActive(slot0.spAnimPanel, false)
 	setActive(slot0.castPanel, false)
 	setActive(slot0.bgPanel, false)
-	setActive(slot0.dialoguePanel, false)
+
+	if not slot1 or not slot1:IsDialogueMode() or not slot2 or not slot2:IsDialogueMode() then
+		setActive(slot0.dialoguePanel, false)
+	end
+
 	setActive(slot0.asidePanel, false)
 	setActive(slot0.curtain, false)
 	setActive(slot0.flash, false)
@@ -1322,6 +1352,7 @@ slot0.StoryEnd = function(slot0)
 		slot0.currentVoice = nil
 	end
 
+	slot0:ClearCheckDispatcher()
 	slot0:ClearEffects()
 	slot0:Clear()
 	slot0:OnEnd()

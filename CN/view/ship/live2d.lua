@@ -492,6 +492,7 @@ slot17 = function(slot0, slot1)
 	slot0._tf.localPosition = slot0.live2dData.position
 	slot0.liveCom = slot1:GetComponent(typeof(Live2dChar))
 	slot0._animator = slot1:GetComponent(typeof(Animator))
+	slot0.cubismModelCom = slot1:GetComponent("Live2D.Cubism.Core.CubismModel")
 	slot0.animationClipNames = {}
 
 	if slot0._animator and slot0._animator.runtimeAnimatorController then
@@ -620,6 +621,8 @@ slot0.SetVisible = function(slot0, slot1)
 				uv0:setReactPos(false)
 			end
 		end, 1)
+
+		slot0.cubismModelCom.enabled = true
 	else
 		uv0(slot0, "idle", true)
 
@@ -634,6 +637,8 @@ slot0.SetVisible = function(slot0, slot1)
 				end
 			end
 		end, 3)
+
+		slot0.cubismModelCom.enabled = false
 	end
 
 	if slot1 then

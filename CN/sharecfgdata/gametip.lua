@@ -5268,7 +5268,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信标·META功能说明
 
-1. <color=#92fc63>2024.6.13-2024.9.5</color>期间限时开放「威奇塔·META」的挑战，在此期间指挥官可挑战「威奇塔·META」累计其同步值获取<color=#92fc63>「威奇塔·META」角色</color>及其他丰厚奖励
+1. <color=#92fc63>2024.9.5-2024.12.12</color>期间限时开放「{namecode:230}」的挑战，在此期间指挥官可挑战「{namecode:230}」累计其同步值获取<color=#92fc63>「{namecode:230}」角色</color>及其他丰厚奖励
 <color=#ff5c5c>注意：同步值将于时间结束后消失</color>
 
 2.「信标数据」获取与解析
@@ -5289,7 +5289,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 ·同一个信标最多能允许累计30位指挥官进行挑战
 
 5.战斗说明
-·挑战信标威奇塔·META暂不可使用指挥喵与潜艇
+·挑战信标{namecode:230}暂不可使用指挥喵与潜艇
 ·战斗结算时不会获得经验值，不会影响舰船心情值
 ·战斗中不可中途退出，如果出现网络波动导致掉线的情况：
 ①挑战自己解析的信标时将会消耗40点石油(非第一次挑战)，且不会计算已造成的伤害
@@ -5297,8 +5297,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>请在参与作战时保持网络环境畅通</color>
 
 6.火力支援
-随着信标威奇塔·META挑战的进行，从第31天开始，即2024.6.14~2024.9.5期间，舰队挑战「威奇塔·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标威奇塔·META开放的日期增加，火力支援提供的伤害也会增加。
-※此支援只会在指挥官自己发现的信标威奇塔·META战斗中出现，每次挑战均会触发。]]
+随着信标{namecode:230}挑战的进行，从第31天开始，即2024.6.14~2024.9.5期间，舰队挑战「{namecode:230}」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标{namecode:230}开放的日期增加，火力支援提供的伤害也会增加。
+※此支援只会在指挥官自己发现的信标{namecode:230}战斗中出现，每次挑战均会触发。]]
 		}
 	}
 }
@@ -21343,9 +21343,9 @@ _G.pg.base.gametip.meta_help = {
 		{
 			info = [[
 1.<color=#92fc63>资讯同步</color>
-·<color=#92fc63>2024.6.13-2024.9.5</color>期间限时开放「威奇塔·META」的「资讯同步」，通过「信标威奇塔·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「威奇塔·META」角色</color>
+·<color=#92fc63>2024.9.5-2024.12.12</color>期间限时开放「{namecode:230}」的「资讯同步」，通过「信标{namecode:230}」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「{namecode:230}」角色</color>
 ·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励
-·注意：<color=#ff5c5c>「威奇塔·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
+·注意：<color=#ff5c5c>「{namecode:230}」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
 
 2.<color=#92fc63>能量激活</color>
 ·META角色达到指定等级后可以使用对应的角色结晶进行激活。激活后可以提升角色星级
@@ -33842,12 +33842,12 @@ _G.pg.base.gametip.dorm3d_waiting = {
 
 
 _G.pg.base.gametip.dorm3d_daily_favor = {
-	tip = "今日互动默契值"
+	tip = "今日互动契合度"
 }
 
 
 _G.pg.base.gametip.dorm3d_favor_level = {
-	tip = "当前默契值等级："
+	tip = "当前契合度等级："
 }
 
 
@@ -33882,7 +33882,7 @@ _G.pg.base.gametip.dorm3d_talk = {
 
 
 _G.pg.base.gametip.dorm3d_touch = {
-	tip = "互动"
+	tip = "触摸"
 }
 
 
@@ -33893,6 +33893,16 @@ _G.pg.base.gametip.dorm3d_gift = {
 
 _G.pg.base.gametip.dorm3d_gift_owner_num = {
 	tip = "数量："
+}
+
+
+_G.pg.base.gametip.dorm3d_unlock_tips = {
+	tip = "契合度达到$1级解锁"
+}
+
+
+_G.pg.base.gametip.dorm3d_daily_favor_tips = {
+	tip = "今日互动契合度:"
 }
 
 
@@ -34498,4 +34508,19 @@ _G.pg.base.gametip.town_gold_tip = {
 
 _G.pg.base.gametip.award_max_warning_minigame = {
 	tip = "游戏奖励因超出上限而<color=#ff5c5c>无法获得</color>，是否仍要开始游戏？"
+}
+
+
+_G.pg.base.gametip.report_cannot_comment_level_1 = {
+	tip = "指挥官等级达到$1级后，才可以发送评论哦。 "
+}
+
+
+_G.pg.base.gametip.report_cannot_comment_level_2 = {
+	tip = "当前处于评论受限状态，无法发送评论！"
+}
+
+
+_G.pg.base.gametip.commander_exp_limit = {
+	tip = "该指挥喵已达最大等级，无法添加指挥喵"
 }

@@ -9,6 +9,7 @@ slot0.TYPE_META = "Meta"
 slot0.TYPE_CRUSING = "Crusing"
 slot0.TYPE_VOTE = "Vote"
 slot0.TYPE_EMOJI = "Emoji"
+slot0.TYPE_COVER = "Cover"
 slot0.ToastInfo = {
 	[slot0.TYPE_ATTIRE] = {
 		Attire = "attire_tpl"
@@ -32,6 +33,9 @@ slot0.ToastInfo = {
 	},
 	[slot0.TYPE_EMOJI] = {
 		Emoji = "emoji_tpl"
+	},
+	[slot0.TYPE_COVER] = {
+		Cover = "cover_tpl"
 	}
 }
 
@@ -482,6 +486,30 @@ slot0.UpdateVote = function(slot0, slot1, slot2, slot3)
 			uv5()
 		end
 	end))
+end
+
+slot0.UpdateCover = function(slot0, slot1, slot2, slot3)
+	slot4 = slot0:GetAndSet(slot1.type, slot0.container)
+	slot5 = slot4:GetComponent(typeof(DftAniEvent))
+
+	slot5:SetTriggerEvent(function (slot0)
+		if uv0 then
+			uv0()
+		end
+
+		uv1:SetTriggerEvent(nil)
+	end)
+	slot5:SetEndEvent(function (slot0)
+		setActive(uv0, false)
+		uv1.pools[uv2.type .. "Tpl"]:Enqueue(uv0)
+		uv3:SetEndEvent(nil)
+
+		if uv4 then
+			uv4()
+		end
+	end)
+	slot4:GetComponent(typeof(Animation)):Play("attire")
+	setText(slot4.transform:Find("bg/Text"), HXSet.hxLan(slot1.info:getConfig("name")))
 end
 
 slot0.Dispose = function(slot0)

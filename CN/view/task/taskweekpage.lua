@@ -59,8 +59,10 @@ end
 slot0.onUpdateTask = function(slot0, slot1, slot2)
 	uv0.super.onUpdateTask(slot0, slot1, slot2)
 
+	slot2.name = slot0.taskCards[slot2].taskVO.id
+
 	if slot1 == 0 then
-		slot0.taskCards[slot2].tip.anchoredPosition3D = Vector3(-5, -25)
+		slot3.tip.anchoredPosition3D = Vector3(-5, -25)
 	end
 end
 
@@ -150,13 +152,20 @@ slot0.Flush = function(slot0, slot1)
 		end
 	end
 
-	table.sort(slot0.taskVOs, function (slot0, slot1)
-		if slot0:getTaskStatus(slot0) == slot1:getTaskStatus(slot1) then
-			return (slot0.isWeekTask and 0 or 1) > (slot1.isWeekTask and 0 or 1)
-		else
-			return slot3 < slot2
+	table.sort(slot0.taskVOs, CompareFuncs({
+		function (slot0)
+			return -slot0:getTaskStatus(slot0)
+		end,
+		function (slot0)
+			return pg.NewGuideMgr.GetInstance():IsBusy() and slot0.id == getDorm3dGameset("drom3d_weekly_task")[1] and 0 or 1
+		end,
+		function (slot0)
+			return slot0.isWeekTask and 1 or 0
+		end,
+		function (slot0)
+			return slot0.id
 		end
-	end)
+	}))
 	slot0:Show()
 	slot0._scrollView:SetTotalCount(#slot0.taskVOs, -1)
 end

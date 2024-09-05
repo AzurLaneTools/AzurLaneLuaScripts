@@ -880,6 +880,17 @@ pg.effect_offset = {
 			0
 		}
 	},
+	jiejie_loop = {
+		mirror = false,
+		y_scale = false,
+		container_index = -1,
+		top_cover_offset = false,
+		offset = {
+			0,
+			0,
+			0
+		}
+	},
 	jiejie_dunpai = {
 		mirror = false,
 		y_scale = false,

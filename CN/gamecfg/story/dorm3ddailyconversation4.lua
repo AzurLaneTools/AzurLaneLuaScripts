@@ -1,27 +1,41 @@
 return {
-	hideRecord = true,
+	fadeOut = 1.5,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DDAILYCONVERSATION4",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DDAILYCONVERSATION4",
 	scripts = {
 		{
-			say = "（天狼星最近一直待在宿舍里……这样也不太好。）",
+			actor = 0,
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			say = "（这段时间天狼星都没提过什么要求……还是问问她吧。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "要出去走走吗？",
+					content = "要不要添置一些家具？",
 					flag = 1
+				},
+				{
+					content = "有没有想要的东西？",
+					flag = 2
 				}
 			}
 		},
 		{
-			say = "我很乐意，我的主人。",
+			actorName = "天狼星",
+			side = 2,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFFFFF",
+			say = "感谢您的关怀和慷慨，不过天狼星目前还不需要这些，我的主人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,50 +46,15 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "Bow",
+							name = "biaoda",
 							time = 0,
-							type = "action"
-						}
-					}
-				},
-				callbackData = {
-					hideUI = false,
-					name = STORY_EVENT.TEST_DONE
-				}
-			}
-		},
-		{
-			say = "不过，主人是觉得天狼星这里有些乏味……吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			options = {
-				{
-					content = "单纯只是想和天狼星出门",
-					flag = 1
-				},
-				{
-					content = "想要两个人一起去外面做些什么",
-					flag = 1
-				}
-			}
-		},
-		{
-			say = "您的意思，难道是……约、约会？！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			dispatcher = {
-				name = STORY_EVENT.TEST,
-				data = {
-					op_list = {
+							type = "action",
+							skip = true
+						},
 						{
-							param = "Play",
-							name = "surprise1",
-							time = 0,
-							type = "action"
+							skip = false,
+							time = 1,
+							type = "wait"
 						}
 					}
 				},
@@ -86,14 +65,12 @@ return {
 			}
 		},
 		{
-			say = "天狼星明白了，既然您也有这方面的打算……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "天狼星一定会好好侍奉主人，直到让主人彻底尽兴为止❤",
+			actorName = "天狼星",
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "只要能够留在这里，并且还能够这样侍奉您，天狼星就满足了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

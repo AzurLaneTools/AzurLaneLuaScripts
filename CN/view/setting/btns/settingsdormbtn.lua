@@ -4,6 +4,33 @@ slot0.GetDownloadGroup = function(slot0)
 	return "DORM"
 end
 
+slot0.Check = function(slot0)
+	slot0.timer = Timer.New(function ()
+		uv0:UpdateDownLoadState()
+	end, 0.5, -1)
+
+	slot0.timer:Start()
+	slot0:UpdateDownLoadState()
+
+	if BundleWizard.Inst:GetGroupMgr(slot0:GetDownloadGroup()).state == DownloadState.None then
+		slot2:CheckD()
+	end
+
+	onButton(slot0, slot0._tf, function ()
+		if DormGroupConst.IsDownloading() then
+			pg.TipsMgr.GetInstance():ShowTips("now is downloading")
+
+			return
+		end
+
+		if uv0.state == DownloadState.CheckFailure then
+			uv0:CheckD()
+		elseif slot0 == DownloadState.CheckToUpdate or slot0 == DownloadState.UpdateFailure then
+			VersionMgr.Inst:RequestUIForUpdateD(uv1, true)
+		end
+	end, SFX_PANEL)
+end
+
 slot0.GetLocaltion = function(slot0, slot1, slot2)
 	slot3 = ""
 

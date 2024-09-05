@@ -13830,6 +13830,7 @@ pg.activity_template = {
 	},
 	[5511] = {
 		mark = 20240808,
+		time = "stop",
 		type = 69,
 		login_pop = 0,
 		config_id = 27,
@@ -13837,33 +13838,6 @@ pg.activity_template = {
 		title_res_tag = "Georgia_catchup",
 		id = 5511,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					8,
-					8
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					9,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "RupprechtTecCatchupPage",
 			ui_name = "RupprechtTecCatchupPage"
@@ -13874,6 +13848,7 @@ pg.activity_template = {
 	},
 	[5512] = {
 		mark = 20240808,
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
@@ -13910,33 +13885,6 @@ pg.activity_template = {
 				20414
 			}
 		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					8,
-					8
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					9,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "OutPostTaskPage",
 			ui_name = "OutPostTaskPage"
@@ -13969,6 +13917,7 @@ pg.activity_template = {
 	},
 	[5513] = {
 		mark = 20240808,
+		time = "stop",
 		type = 87,
 		login_pop = 0,
 		config_id = 21,
@@ -13977,33 +13926,6 @@ pg.activity_template = {
 		title_res_tag = "activity",
 		id = 5513,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					8,
-					8
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					9,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "MeixiV5FramePage",
 			ui_name = "MeixiV5FramePage"
@@ -14132,6 +14054,7 @@ pg.activity_template = {
 	},
 	[5524] = {
 		mark = 20240815,
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 5524,
@@ -14140,33 +14063,6 @@ pg.activity_template = {
 		title_res_tag = "tieyiqingfeng_pt",
 		id = 5524,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					8,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					9,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "PittsburghPtPage",
 			ui_name = "PittsburghPtPage"
@@ -14674,7 +14570,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 5543,
-		is_show = 49,
+		is_show = 46,
 		config_client = "",
 		title_res_tag = "RuiFengSp",
 		id = 5543,
@@ -14839,6 +14735,389 @@ pg.activity_template = {
 				"<color=#3dc6ff>稀有舰船</color>：51%",
 				"普通舰船：28.8%",
 				"<color=#ffde38>{namecode:88}</color>：1.4%<color=#92FC63>(up!)</color>"
+			}
+		}
+	},
+	[5547] = {
+		mark = 20240905,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5547,
+		config_data = {
+			10180,
+			10181,
+			10182,
+			10183,
+			10184
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					9,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					9,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5548] = {
+		mark = 20240905,
+		type = 18,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 49,
+		title_res_tag = "dreamland_sign",
+		id = 5548,
+		config_data = {
+			{
+				20510
+			},
+			{
+				20511
+			},
+			{
+				20512
+			},
+			{
+				20513
+			},
+			{
+				20514
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					9,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DreamSignPage",
+			ui_name = "DreamSignPage"
+		},
+		config_client = {
+			story = {
+				{
+					"LEYUANDEQISHIFU1"
+				},
+				{
+					"LEYUANDEQISHIFU2"
+				},
+				{
+					"LEYUANDEQISHIFU3"
+				},
+				{
+					"LEYUANDEQISHIFU4"
+				},
+				{
+					"LEYUANDEQISHIFU5"
+				}
+			}
+		}
+	},
+	[5549] = {
+		mark = 20240815,
+		page_info = "",
+		type = 60,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5549,
+		config_data = {
+			492,
+			493
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					9,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5550] = {
+		mark = 20240905,
+		type = 69,
+		login_pop = 0,
+		config_id = 28,
+		is_show = 47,
+		title_res_tag = "Georgia_catchup",
+		id = 5550,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					9,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "PlymouthTecCatchupPage",
+			ui_name = "PlymouthTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42041
+		}
+	},
+	[5551] = {
+		mark = 20240905,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 48,
+		title_res_tag = "huijuyucianzhichen",
+		id = 5551,
+		config_data = {
+			{
+				20515,
+				20516
+			},
+			{
+				20517,
+				20518
+			},
+			{
+				20519,
+				20520
+			},
+			{
+				20521,
+				20522
+			},
+			{
+				20523,
+				20524
+			},
+			{
+				20525,
+				20526
+			},
+			{
+				20527,
+				20528
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					9,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AmagiACTaskPage",
+			ui_name = "AmagiACTaskPage"
+		},
+		config_client = {
+			story = {
+				{
+					"HUIJUYUCIANZHICHEN1"
+				},
+				{
+					"HUIJUYUCIANZHICHEN2"
+				},
+				{
+					"HUIJUYUCIANZHICHEN3"
+				},
+				{
+					"HUIJUYUCIANZHICHEN4"
+				},
+				{
+					"HUIJUYUCIANZHICHEN5"
+				},
+				{
+					"HUIJUYUCIANZHICHEN6"
+				},
+				{
+					"HUIJUYUCIANZHICHEN7"
+				}
+			}
+		}
+	},
+	[5552] = {
+		mark = 20240905,
+		type = 87,
+		login_pop = 0,
+		config_id = 22,
+		is_show = 45,
+		config_client = "",
+		title_res_tag = "activity",
+		id = 5552,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					9,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AnniV5FramePage",
+			ui_name = "AnniV5FramePage"
+		}
+	},
+	[5553] = {
+		mark = 20240905,
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 32,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5553,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					9,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					9,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
@@ -21117,6 +21396,7 @@ pg.activity_template = {
 			5534,
 			5536,
 			5542,
+			5547,
 			1079,
 			1080,
 			1081,
@@ -21159,6 +21439,8 @@ pg.activity_template = {
 			5436,
 			5512,
 			5537,
+			5548,
+			5551,
 			6000,
 			6001,
 			6002,
@@ -21395,7 +21677,8 @@ pg.activity_template = {
 			5340,
 			5369,
 			5422,
-			5513
+			5513,
+			5552
 		},
 		[58] = {
 			4908,
@@ -21412,7 +21695,8 @@ pg.activity_template = {
 			5368,
 			5421,
 			5506,
-			5514
+			5514,
+			5553
 		},
 		[10] = {
 			4910,
@@ -21460,7 +21744,8 @@ pg.activity_template = {
 			5405,
 			5502,
 			5533,
-			5545
+			5545,
+			5549
 		},
 		[46] = {
 			4922,
@@ -21509,7 +21794,8 @@ pg.activity_template = {
 			5106,
 			5210,
 			5318,
-			5511
+			5511,
+			5550
 		},
 		[104] = {
 			4963
@@ -22102,6 +22388,13 @@ pg.activity_template = {
 		5544,
 		5545,
 		5546,
+		5547,
+		5548,
+		5549,
+		5550,
+		5551,
+		5552,
+		5553,
 		7011,
 		7012,
 		7013,

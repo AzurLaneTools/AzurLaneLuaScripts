@@ -1,12 +1,12 @@
 slot0 = class("Dorm3dARScene", import("view.base.BaseUI"))
-slot1 = "dorm3d/scenesres/scenes/arscene/arscene_scene"
+slot1 = "dorm3d/scenesres/scenes/common/ar/arscene"
 
 slot0.getUIName = function(slot0)
 	return "Dorm3DARUI"
 end
 
 slot0.preload = function(slot0, slot1)
-	slot0.sceneName = "ARScene"
+	slot0.sceneName = "arscene"
 
 	seriesAsync({
 		function (slot0)
@@ -37,12 +37,14 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.willExit = function(slot0)
+	slot0.aiHelperSC:Destroy()
 	SceneOpMgr.Inst:UnloadSceneAsync(string.lower(uv0), slot0.sceneName)
 end
 
 slot0.findUI = function(slot0)
 	slot0.backBtn = slot0:findTF("BackBtn")
 	slot1 = slot0:findTF("MenuList")
+	slot0.initARBtn = slot0:findTF("InitARBtn", slot1)
 	slot0.resetBtn = slot0:findTF("ResetBtn", slot1)
 	slot0.showPlaneBtn = slot0:findTF("ShowPlaneBtn", slot1)
 	slot0.hidePlaneBtn = slot0:findTF("HidePlaneBtn", slot1)
@@ -58,12 +60,15 @@ slot0.findUI = function(slot0)
 	setActive(slot0.tipInsPrefab, false)
 	setActive(slot0.tipDistance, false)
 
-	slot0.aiHelperSC = GetComponent(GameObject.Find("ScriptHander"), "ARHelper")
+	slot0.aiHelperSC = GetComponent(GameObject.Find("ARScriptHandle"), "ARHelper")
 end
 
 slot0.addListener = function(slot0)
 	onButton(slot0, slot0.backBtn, function ()
 		uv0:closeView()
+	end, SFX_PANEL)
+	onButton(slot0, slot0.initARBtn, function ()
+		uv0.aiHelperSC:Init()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.resetBtn, function ()
 		uv0.aiHelperSC:ResetAll()
@@ -83,10 +88,14 @@ slot0.addListener = function(slot0)
 	end
 
 	slot0.aiHelperSC.distanceCB = function(slot0)
-		pg.TipsMgr.GetInstance():ShowTips("距离过近，以后会隐藏")
+		if slot0 < 0.3 then
+			warning("距离过近，以后会隐藏")
+			pg.TipsMgr.GetInstance():ShowTips("距离过近，以后会隐藏")
+		end
 	end
 
 	slot0.aiHelperSC.insPrefabFailCB = function()
+		warning("距离过近，呼出角色失败")
 		pg.TipsMgr.GetInstance():ShowTips("距离过近，呼出角色失败")
 	end
 

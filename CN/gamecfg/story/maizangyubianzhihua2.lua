@@ -933,9 +933,9 @@ return {
 			}
 		},
 		{
+			bgName = "star_level_bg_191",
 			side = 2,
 			dir = 1,
-			blackBg = true,
 			actor = 306040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -964,8 +964,8 @@ return {
 		},
 		{
 			side = 2,
+			bgName = "star_level_bg_191",
 			dir = 1,
-			blackBg = true,
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -983,8 +983,8 @@ return {
 		{
 			expression = 2,
 			side = 2,
+			bgName = "star_level_bg_191",
 			dir = 1,
-			blackBg = true,
 			actor = 306040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -997,10 +997,10 @@ return {
 		{
 			actor = 306040,
 			side = 2,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_191",
 			hidePaintObj = true,
 			dir = 1,
-			blackBg = true,
+			nameColor = "#A9F548FF",
 			say = "怎么样，调查有收获么？和我说说嘛~",
 			typewriter = {
 				speed = 0.05,
@@ -1010,10 +1010,10 @@ return {
 		{
 			actor = 307060,
 			side = 2,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_191",
 			hidePaintObj = true,
 			dir = 1,
-			blackBg = true,
+			nameColor = "#A9F548FF",
 			say = "有一些，不过这里不是说话的好地方……你来找我，是要准备下山了么？",
 			typewriter = {
 				speed = 0.05,
@@ -1023,10 +1023,10 @@ return {
 		{
 			actor = 306040,
 			side = 2,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_191",
 			hidePaintObj = true,
 			dir = 1,
-			blackBg = true,
+			nameColor = "#A9F548FF",
 			say = "嗯~{namecode:20:不知火}突然有工作要做，我就不方便继续打扰她啦。{namecode:96:瑞鹤}姐姐呢，走不走呀？",
 			typewriter = {
 				speed = 0.05,
@@ -1036,10 +1036,10 @@ return {
 		{
 			actor = 307060,
 			side = 2,
-			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_191",
 			hidePaintObj = true,
 			dir = 1,
-			blackBg = true,
+			nameColor = "#A9F548FF",
 			say = "走，我们车上聊。",
 			typewriter = {
 				speed = 0.05,

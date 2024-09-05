@@ -48,7 +48,6 @@ slot0.handleNotification = function(slot0, slot1)
 
 		if slot3 == SCENE.LOGIN then
 			pg.UIMgr.GetInstance():displayLoadingBG(false)
-			pg.UIMgr.GetInstance():LoadingOff()
 		end
 	elseif slot2 == GAME.SEND_CMD_DONE then
 		-- Nothing

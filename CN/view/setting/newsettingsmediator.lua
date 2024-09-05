@@ -37,6 +37,7 @@ slot0.handleNotification = function(slot0, slot1)
 	elseif slot2 == GAME.ON_SOCIAL_LINKED or slot2 == GAME.ON_SOCIAL_UNLINKED then
 		slot0.viewComponent:OnCheckAllAccountState()
 		slot0.viewComponent:CloseYostarAlertView()
+		pg.UIMgr.GetInstance():LoadingOff()
 	elseif slot2 == uv0.ON_SECON_PWD_STATE_CHANGE then
 		slot0.viewComponent:OnSecondPwdStateChange()
 	elseif slot2 == uv0.OPEN_YOSTAR_ALERT_VIEW then

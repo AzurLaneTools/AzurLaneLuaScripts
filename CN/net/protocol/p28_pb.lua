@@ -1,15 +1,26 @@
 slot0 = require("protobuf")
+slot1 = require("common_pb")
 
 module("p28_pb")
 
 slot2 = {
 	SC_28000_GIFTS_FIELD = slot0.FieldDescriptor(),
 	SC_28000_SHIPS_FIELD = slot0.FieldDescriptor(),
+	SC_28000_GIFT_DAILY_FIELD = slot0.FieldDescriptor(),
+	SC_28000_GIFT_PERMANENT_FIELD = slot0.FieldDescriptor(),
+	SC_28000_FURNITURE_DAILY_FIELD = slot0.FieldDescriptor(),
+	SC_28000_FURNITURE_PERMANENT_FIELD = slot0.FieldDescriptor(),
+	SC_28000_DAILY_VIGOR_MAX_FIELD = slot0.FieldDescriptor(),
+	SC_28000_ROOMS_FIELD = slot0.FieldDescriptor(),
+	CS_28001_ROOM_ID_FIELD = slot0.FieldDescriptor(),
+	SC_28002_RESULT_FIELD = slot0.FieldDescriptor(),
+	SC_28002_SHIP_FIELD = slot0.FieldDescriptor(),
 	CS_28003_SHIP_GROUP_FIELD = slot0.FieldDescriptor(),
 	CS_28003_TRIGGER_ID_FIELD = slot0.FieldDescriptor(),
 	SC_28004_RESULT_FIELD = slot0.FieldDescriptor(),
 	CS_28005_SHIP_GROUP_FIELD = slot0.FieldDescriptor(),
 	SC_28006_RESULT_FIELD = slot0.FieldDescriptor(),
+	SC_28006_DROP_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_28007_SHIP_GROUP_FIELD = slot0.FieldDescriptor(),
 	CS_28007_FURNITURES_FIELD = slot0.FieldDescriptor(),
 	SC_28008_RESULT_FIELD = slot0.FieldDescriptor(),
@@ -41,9 +52,22 @@ slot2 = {
 	APARTMENT_SHIP_SKINS_FIELD = slot0.FieldDescriptor(),
 	APARTMENT_SHIP_CUR_SKIN_FIELD = slot0.FieldDescriptor(),
 	APARTMENT_FURNITURE_FURNITURE_ID_FIELD = slot0.FieldDescriptor(),
-	APARTMENT_FURNITURE_SLOT_ID_FIELD = slot0.FieldDescriptor()
+	APARTMENT_FURNITURE_SLOT_ID_FIELD = slot0.FieldDescriptor(),
+	APARTMENT_GIFT_SHOP_GIFT_ID_FIELD = slot0.FieldDescriptor(),
+	APARTMENT_GIFT_SHOP_COUNT_FIELD = slot0.FieldDescriptor(),
+	CS_28090_TRACK_TYP_FIELD = slot0.FieldDescriptor(),
+	CS_28090_INT_ARG1_FIELD = slot0.FieldDescriptor(),
+	CS_28090_INT_ARG2_FIELD = slot0.FieldDescriptor(),
+	CS_28090_INT_ARG3_FIELD = slot0.FieldDescriptor(),
+	CS_28090_INT_ARG4_FIELD = slot0.FieldDescriptor(),
+	CS_28090_INT_ARG5_FIELD = slot0.FieldDescriptor(),
+	CS_28090_STR_ARG1_FIELD = slot0.FieldDescriptor(),
+	CS_28090_STR_ARG2_FIELD = slot0.FieldDescriptor(),
+	CS_28090_STR_ARG3_FIELD = slot0.FieldDescriptor()
 }
 SC_28000 = slot0.Descriptor()
+CS_28001 = slot0.Descriptor()
+SC_28002 = slot0.Descriptor()
 CS_28003 = slot0.Descriptor()
 SC_28004 = slot0.Descriptor()
 CS_28005 = slot0.Descriptor()
@@ -62,6 +86,8 @@ APARTMENT_GIVE_GIFT = slot0.Descriptor()
 APARTMENT_GIFT = slot0.Descriptor()
 APARTMENT_SHIP = slot0.Descriptor()
 APARTMENT_FURNITURE = slot0.Descriptor()
+APARTMENT_GIFT_SHOP = slot0.Descriptor()
+CS_28090 = slot0.Descriptor()
 slot2.SC_28000_GIFTS_FIELD.name = "gifts"
 slot2.SC_28000_GIFTS_FIELD.full_name = "p28.sc_28000.gifts"
 slot2.SC_28000_GIFTS_FIELD.number = 1
@@ -82,16 +108,127 @@ slot2.SC_28000_SHIPS_FIELD.default_value = {}
 slot2.SC_28000_SHIPS_FIELD.message_type = APARTMENT_SHIP
 slot2.SC_28000_SHIPS_FIELD.type = 11
 slot2.SC_28000_SHIPS_FIELD.cpp_type = 10
+slot2.SC_28000_GIFT_DAILY_FIELD.name = "gift_daily"
+slot2.SC_28000_GIFT_DAILY_FIELD.full_name = "p28.sc_28000.gift_daily"
+slot2.SC_28000_GIFT_DAILY_FIELD.number = 3
+slot2.SC_28000_GIFT_DAILY_FIELD.index = 2
+slot2.SC_28000_GIFT_DAILY_FIELD.label = 3
+slot2.SC_28000_GIFT_DAILY_FIELD.has_default_value = false
+slot2.SC_28000_GIFT_DAILY_FIELD.default_value = {}
+slot2.SC_28000_GIFT_DAILY_FIELD.message_type = APARTMENT_GIFT_SHOP
+slot2.SC_28000_GIFT_DAILY_FIELD.type = 11
+slot2.SC_28000_GIFT_DAILY_FIELD.cpp_type = 10
+slot2.SC_28000_GIFT_PERMANENT_FIELD.name = "gift_permanent"
+slot2.SC_28000_GIFT_PERMANENT_FIELD.full_name = "p28.sc_28000.gift_permanent"
+slot2.SC_28000_GIFT_PERMANENT_FIELD.number = 4
+slot2.SC_28000_GIFT_PERMANENT_FIELD.index = 3
+slot2.SC_28000_GIFT_PERMANENT_FIELD.label = 3
+slot2.SC_28000_GIFT_PERMANENT_FIELD.has_default_value = false
+slot2.SC_28000_GIFT_PERMANENT_FIELD.default_value = {}
+slot2.SC_28000_GIFT_PERMANENT_FIELD.message_type = APARTMENT_GIFT_SHOP
+slot2.SC_28000_GIFT_PERMANENT_FIELD.type = 11
+slot2.SC_28000_GIFT_PERMANENT_FIELD.cpp_type = 10
+slot2.SC_28000_FURNITURE_DAILY_FIELD.name = "furniture_daily"
+slot2.SC_28000_FURNITURE_DAILY_FIELD.full_name = "p28.sc_28000.furniture_daily"
+slot2.SC_28000_FURNITURE_DAILY_FIELD.number = 5
+slot2.SC_28000_FURNITURE_DAILY_FIELD.index = 4
+slot2.SC_28000_FURNITURE_DAILY_FIELD.label = 3
+slot2.SC_28000_FURNITURE_DAILY_FIELD.has_default_value = false
+slot2.SC_28000_FURNITURE_DAILY_FIELD.default_value = {}
+slot2.SC_28000_FURNITURE_DAILY_FIELD.message_type = APARTMENT_GIFT_SHOP
+slot2.SC_28000_FURNITURE_DAILY_FIELD.type = 11
+slot2.SC_28000_FURNITURE_DAILY_FIELD.cpp_type = 10
+slot2.SC_28000_FURNITURE_PERMANENT_FIELD.name = "furniture_permanent"
+slot2.SC_28000_FURNITURE_PERMANENT_FIELD.full_name = "p28.sc_28000.furniture_permanent"
+slot2.SC_28000_FURNITURE_PERMANENT_FIELD.number = 6
+slot2.SC_28000_FURNITURE_PERMANENT_FIELD.index = 5
+slot2.SC_28000_FURNITURE_PERMANENT_FIELD.label = 3
+slot2.SC_28000_FURNITURE_PERMANENT_FIELD.has_default_value = false
+slot2.SC_28000_FURNITURE_PERMANENT_FIELD.default_value = {}
+slot2.SC_28000_FURNITURE_PERMANENT_FIELD.message_type = APARTMENT_GIFT_SHOP
+slot2.SC_28000_FURNITURE_PERMANENT_FIELD.type = 11
+slot2.SC_28000_FURNITURE_PERMANENT_FIELD.cpp_type = 10
+slot2.SC_28000_DAILY_VIGOR_MAX_FIELD.name = "daily_vigor_max"
+slot2.SC_28000_DAILY_VIGOR_MAX_FIELD.full_name = "p28.sc_28000.daily_vigor_max"
+slot2.SC_28000_DAILY_VIGOR_MAX_FIELD.number = 7
+slot2.SC_28000_DAILY_VIGOR_MAX_FIELD.index = 6
+slot2.SC_28000_DAILY_VIGOR_MAX_FIELD.label = 2
+slot2.SC_28000_DAILY_VIGOR_MAX_FIELD.has_default_value = false
+slot2.SC_28000_DAILY_VIGOR_MAX_FIELD.default_value = 0
+slot2.SC_28000_DAILY_VIGOR_MAX_FIELD.type = 13
+slot2.SC_28000_DAILY_VIGOR_MAX_FIELD.cpp_type = 3
+slot2.SC_28000_ROOMS_FIELD.name = "rooms"
+slot2.SC_28000_ROOMS_FIELD.full_name = "p28.sc_28000.rooms"
+slot2.SC_28000_ROOMS_FIELD.number = 8
+slot2.SC_28000_ROOMS_FIELD.index = 7
+slot2.SC_28000_ROOMS_FIELD.label = 3
+slot2.SC_28000_ROOMS_FIELD.has_default_value = false
+slot2.SC_28000_ROOMS_FIELD.default_value = {}
+slot2.SC_28000_ROOMS_FIELD.type = 13
+slot2.SC_28000_ROOMS_FIELD.cpp_type = 3
 SC_28000.name = "sc_28000"
 SC_28000.full_name = "p28.sc_28000"
 SC_28000.nested_types = {}
 SC_28000.enum_types = {}
 SC_28000.fields = {
 	slot2.SC_28000_GIFTS_FIELD,
-	slot2.SC_28000_SHIPS_FIELD
+	slot2.SC_28000_SHIPS_FIELD,
+	slot2.SC_28000_GIFT_DAILY_FIELD,
+	slot2.SC_28000_GIFT_PERMANENT_FIELD,
+	slot2.SC_28000_FURNITURE_DAILY_FIELD,
+	slot2.SC_28000_FURNITURE_PERMANENT_FIELD,
+	slot2.SC_28000_DAILY_VIGOR_MAX_FIELD,
+	slot2.SC_28000_ROOMS_FIELD
 }
 SC_28000.is_extendable = false
 SC_28000.extensions = {}
+slot2.CS_28001_ROOM_ID_FIELD.name = "room_id"
+slot2.CS_28001_ROOM_ID_FIELD.full_name = "p28.cs_28001.room_id"
+slot2.CS_28001_ROOM_ID_FIELD.number = 1
+slot2.CS_28001_ROOM_ID_FIELD.index = 0
+slot2.CS_28001_ROOM_ID_FIELD.label = 2
+slot2.CS_28001_ROOM_ID_FIELD.has_default_value = false
+slot2.CS_28001_ROOM_ID_FIELD.default_value = 0
+slot2.CS_28001_ROOM_ID_FIELD.type = 13
+slot2.CS_28001_ROOM_ID_FIELD.cpp_type = 3
+CS_28001.name = "cs_28001"
+CS_28001.full_name = "p28.cs_28001"
+CS_28001.nested_types = {}
+CS_28001.enum_types = {}
+CS_28001.fields = {
+	slot2.CS_28001_ROOM_ID_FIELD
+}
+CS_28001.is_extendable = false
+CS_28001.extensions = {}
+slot2.SC_28002_RESULT_FIELD.name = "result"
+slot2.SC_28002_RESULT_FIELD.full_name = "p28.sc_28002.result"
+slot2.SC_28002_RESULT_FIELD.number = 1
+slot2.SC_28002_RESULT_FIELD.index = 0
+slot2.SC_28002_RESULT_FIELD.label = 2
+slot2.SC_28002_RESULT_FIELD.has_default_value = false
+slot2.SC_28002_RESULT_FIELD.default_value = 0
+slot2.SC_28002_RESULT_FIELD.type = 13
+slot2.SC_28002_RESULT_FIELD.cpp_type = 3
+slot2.SC_28002_SHIP_FIELD.name = "ship"
+slot2.SC_28002_SHIP_FIELD.full_name = "p28.sc_28002.ship"
+slot2.SC_28002_SHIP_FIELD.number = 2
+slot2.SC_28002_SHIP_FIELD.index = 1
+slot2.SC_28002_SHIP_FIELD.label = 1
+slot2.SC_28002_SHIP_FIELD.has_default_value = false
+slot2.SC_28002_SHIP_FIELD.default_value = nil
+slot2.SC_28002_SHIP_FIELD.message_type = APARTMENT_SHIP
+slot2.SC_28002_SHIP_FIELD.type = 11
+slot2.SC_28002_SHIP_FIELD.cpp_type = 10
+SC_28002.name = "sc_28002"
+SC_28002.full_name = "p28.sc_28002"
+SC_28002.nested_types = {}
+SC_28002.enum_types = {}
+SC_28002.fields = {
+	slot2.SC_28002_RESULT_FIELD,
+	slot2.SC_28002_SHIP_FIELD
+}
+SC_28002.is_extendable = false
+SC_28002.extensions = {}
 slot2.CS_28003_SHIP_GROUP_FIELD.name = "ship_group"
 slot2.CS_28003_SHIP_GROUP_FIELD.full_name = "p28.cs_28003.ship_group"
 slot2.CS_28003_SHIP_GROUP_FIELD.number = 1
@@ -165,12 +302,23 @@ slot2.SC_28006_RESULT_FIELD.has_default_value = false
 slot2.SC_28006_RESULT_FIELD.default_value = 0
 slot2.SC_28006_RESULT_FIELD.type = 13
 slot2.SC_28006_RESULT_FIELD.cpp_type = 3
+slot2.SC_28006_DROP_LIST_FIELD.name = "drop_list"
+slot2.SC_28006_DROP_LIST_FIELD.full_name = "p28.sc_28006.drop_list"
+slot2.SC_28006_DROP_LIST_FIELD.number = 2
+slot2.SC_28006_DROP_LIST_FIELD.index = 1
+slot2.SC_28006_DROP_LIST_FIELD.label = 3
+slot2.SC_28006_DROP_LIST_FIELD.has_default_value = false
+slot2.SC_28006_DROP_LIST_FIELD.default_value = {}
+slot2.SC_28006_DROP_LIST_FIELD.message_type = slot1.DROPINFO
+slot2.SC_28006_DROP_LIST_FIELD.type = 11
+slot2.SC_28006_DROP_LIST_FIELD.cpp_type = 10
 SC_28006.name = "sc_28006"
 SC_28006.full_name = "p28.sc_28006"
 SC_28006.nested_types = {}
 SC_28006.enum_types = {}
 SC_28006.fields = {
-	slot2.SC_28006_RESULT_FIELD
+	slot2.SC_28006_RESULT_FIELD,
+	slot2.SC_28006_DROP_LIST_FIELD
 }
 SC_28006.is_extendable = false
 SC_28006.extensions = {}
@@ -394,7 +542,7 @@ slot2.SC_28016_DROP_LIST_FIELD.index = 1
 slot2.SC_28016_DROP_LIST_FIELD.label = 3
 slot2.SC_28016_DROP_LIST_FIELD.has_default_value = false
 slot2.SC_28016_DROP_LIST_FIELD.default_value = {}
-slot2.SC_28016_DROP_LIST_FIELD.message_type = require("common_pb").DROPINFO
+slot2.SC_28016_DROP_LIST_FIELD.message_type = slot1.DROPINFO
 slot2.SC_28016_DROP_LIST_FIELD.type = 11
 slot2.SC_28016_DROP_LIST_FIELD.cpp_type = 10
 SC_28016.name = "sc_28016"
@@ -610,10 +758,138 @@ APARTMENT_FURNITURE.fields = {
 }
 APARTMENT_FURNITURE.is_extendable = false
 APARTMENT_FURNITURE.extensions = {}
+slot2.APARTMENT_GIFT_SHOP_GIFT_ID_FIELD.name = "gift_id"
+slot2.APARTMENT_GIFT_SHOP_GIFT_ID_FIELD.full_name = "p28.apartment_gift_shop.gift_id"
+slot2.APARTMENT_GIFT_SHOP_GIFT_ID_FIELD.number = 1
+slot2.APARTMENT_GIFT_SHOP_GIFT_ID_FIELD.index = 0
+slot2.APARTMENT_GIFT_SHOP_GIFT_ID_FIELD.label = 2
+slot2.APARTMENT_GIFT_SHOP_GIFT_ID_FIELD.has_default_value = false
+slot2.APARTMENT_GIFT_SHOP_GIFT_ID_FIELD.default_value = 0
+slot2.APARTMENT_GIFT_SHOP_GIFT_ID_FIELD.type = 13
+slot2.APARTMENT_GIFT_SHOP_GIFT_ID_FIELD.cpp_type = 3
+slot2.APARTMENT_GIFT_SHOP_COUNT_FIELD.name = "count"
+slot2.APARTMENT_GIFT_SHOP_COUNT_FIELD.full_name = "p28.apartment_gift_shop.count"
+slot2.APARTMENT_GIFT_SHOP_COUNT_FIELD.number = 2
+slot2.APARTMENT_GIFT_SHOP_COUNT_FIELD.index = 1
+slot2.APARTMENT_GIFT_SHOP_COUNT_FIELD.label = 2
+slot2.APARTMENT_GIFT_SHOP_COUNT_FIELD.has_default_value = false
+slot2.APARTMENT_GIFT_SHOP_COUNT_FIELD.default_value = 0
+slot2.APARTMENT_GIFT_SHOP_COUNT_FIELD.type = 13
+slot2.APARTMENT_GIFT_SHOP_COUNT_FIELD.cpp_type = 3
+APARTMENT_GIFT_SHOP.name = "apartment_gift_shop"
+APARTMENT_GIFT_SHOP.full_name = "p28.apartment_gift_shop"
+APARTMENT_GIFT_SHOP.nested_types = {}
+APARTMENT_GIFT_SHOP.enum_types = {}
+APARTMENT_GIFT_SHOP.fields = {
+	slot2.APARTMENT_GIFT_SHOP_GIFT_ID_FIELD,
+	slot2.APARTMENT_GIFT_SHOP_COUNT_FIELD
+}
+APARTMENT_GIFT_SHOP.is_extendable = false
+APARTMENT_GIFT_SHOP.extensions = {}
+slot2.CS_28090_TRACK_TYP_FIELD.name = "track_typ"
+slot2.CS_28090_TRACK_TYP_FIELD.full_name = "p28.cs_28090.track_typ"
+slot2.CS_28090_TRACK_TYP_FIELD.number = 1
+slot2.CS_28090_TRACK_TYP_FIELD.index = 0
+slot2.CS_28090_TRACK_TYP_FIELD.label = 2
+slot2.CS_28090_TRACK_TYP_FIELD.has_default_value = false
+slot2.CS_28090_TRACK_TYP_FIELD.default_value = 0
+slot2.CS_28090_TRACK_TYP_FIELD.type = 13
+slot2.CS_28090_TRACK_TYP_FIELD.cpp_type = 3
+slot2.CS_28090_INT_ARG1_FIELD.name = "int_arg1"
+slot2.CS_28090_INT_ARG1_FIELD.full_name = "p28.cs_28090.int_arg1"
+slot2.CS_28090_INT_ARG1_FIELD.number = 2
+slot2.CS_28090_INT_ARG1_FIELD.index = 1
+slot2.CS_28090_INT_ARG1_FIELD.label = 2
+slot2.CS_28090_INT_ARG1_FIELD.has_default_value = false
+slot2.CS_28090_INT_ARG1_FIELD.default_value = 0
+slot2.CS_28090_INT_ARG1_FIELD.type = 5
+slot2.CS_28090_INT_ARG1_FIELD.cpp_type = 1
+slot2.CS_28090_INT_ARG2_FIELD.name = "int_arg2"
+slot2.CS_28090_INT_ARG2_FIELD.full_name = "p28.cs_28090.int_arg2"
+slot2.CS_28090_INT_ARG2_FIELD.number = 3
+slot2.CS_28090_INT_ARG2_FIELD.index = 2
+slot2.CS_28090_INT_ARG2_FIELD.label = 2
+slot2.CS_28090_INT_ARG2_FIELD.has_default_value = false
+slot2.CS_28090_INT_ARG2_FIELD.default_value = 0
+slot2.CS_28090_INT_ARG2_FIELD.type = 5
+slot2.CS_28090_INT_ARG2_FIELD.cpp_type = 1
+slot2.CS_28090_INT_ARG3_FIELD.name = "int_arg3"
+slot2.CS_28090_INT_ARG3_FIELD.full_name = "p28.cs_28090.int_arg3"
+slot2.CS_28090_INT_ARG3_FIELD.number = 4
+slot2.CS_28090_INT_ARG3_FIELD.index = 3
+slot2.CS_28090_INT_ARG3_FIELD.label = 2
+slot2.CS_28090_INT_ARG3_FIELD.has_default_value = false
+slot2.CS_28090_INT_ARG3_FIELD.default_value = 0
+slot2.CS_28090_INT_ARG3_FIELD.type = 5
+slot2.CS_28090_INT_ARG3_FIELD.cpp_type = 1
+slot2.CS_28090_INT_ARG4_FIELD.name = "int_arg4"
+slot2.CS_28090_INT_ARG4_FIELD.full_name = "p28.cs_28090.int_arg4"
+slot2.CS_28090_INT_ARG4_FIELD.number = 5
+slot2.CS_28090_INT_ARG4_FIELD.index = 4
+slot2.CS_28090_INT_ARG4_FIELD.label = 2
+slot2.CS_28090_INT_ARG4_FIELD.has_default_value = false
+slot2.CS_28090_INT_ARG4_FIELD.default_value = 0
+slot2.CS_28090_INT_ARG4_FIELD.type = 5
+slot2.CS_28090_INT_ARG4_FIELD.cpp_type = 1
+slot2.CS_28090_INT_ARG5_FIELD.name = "int_arg5"
+slot2.CS_28090_INT_ARG5_FIELD.full_name = "p28.cs_28090.int_arg5"
+slot2.CS_28090_INT_ARG5_FIELD.number = 6
+slot2.CS_28090_INT_ARG5_FIELD.index = 5
+slot2.CS_28090_INT_ARG5_FIELD.label = 2
+slot2.CS_28090_INT_ARG5_FIELD.has_default_value = false
+slot2.CS_28090_INT_ARG5_FIELD.default_value = 0
+slot2.CS_28090_INT_ARG5_FIELD.type = 5
+slot2.CS_28090_INT_ARG5_FIELD.cpp_type = 1
+slot2.CS_28090_STR_ARG1_FIELD.name = "str_arg1"
+slot2.CS_28090_STR_ARG1_FIELD.full_name = "p28.cs_28090.str_arg1"
+slot2.CS_28090_STR_ARG1_FIELD.number = 7
+slot2.CS_28090_STR_ARG1_FIELD.index = 6
+slot2.CS_28090_STR_ARG1_FIELD.label = 2
+slot2.CS_28090_STR_ARG1_FIELD.has_default_value = false
+slot2.CS_28090_STR_ARG1_FIELD.default_value = ""
+slot2.CS_28090_STR_ARG1_FIELD.type = 9
+slot2.CS_28090_STR_ARG1_FIELD.cpp_type = 9
+slot2.CS_28090_STR_ARG2_FIELD.name = "str_arg2"
+slot2.CS_28090_STR_ARG2_FIELD.full_name = "p28.cs_28090.str_arg2"
+slot2.CS_28090_STR_ARG2_FIELD.number = 8
+slot2.CS_28090_STR_ARG2_FIELD.index = 7
+slot2.CS_28090_STR_ARG2_FIELD.label = 2
+slot2.CS_28090_STR_ARG2_FIELD.has_default_value = false
+slot2.CS_28090_STR_ARG2_FIELD.default_value = ""
+slot2.CS_28090_STR_ARG2_FIELD.type = 9
+slot2.CS_28090_STR_ARG2_FIELD.cpp_type = 9
+slot2.CS_28090_STR_ARG3_FIELD.name = "str_arg3"
+slot2.CS_28090_STR_ARG3_FIELD.full_name = "p28.cs_28090.str_arg3"
+slot2.CS_28090_STR_ARG3_FIELD.number = 9
+slot2.CS_28090_STR_ARG3_FIELD.index = 8
+slot2.CS_28090_STR_ARG3_FIELD.label = 2
+slot2.CS_28090_STR_ARG3_FIELD.has_default_value = false
+slot2.CS_28090_STR_ARG3_FIELD.default_value = ""
+slot2.CS_28090_STR_ARG3_FIELD.type = 9
+slot2.CS_28090_STR_ARG3_FIELD.cpp_type = 9
+CS_28090.name = "cs_28090"
+CS_28090.full_name = "p28.cs_28090"
+CS_28090.nested_types = {}
+CS_28090.enum_types = {}
+CS_28090.fields = {
+	slot2.CS_28090_TRACK_TYP_FIELD,
+	slot2.CS_28090_INT_ARG1_FIELD,
+	slot2.CS_28090_INT_ARG2_FIELD,
+	slot2.CS_28090_INT_ARG3_FIELD,
+	slot2.CS_28090_INT_ARG4_FIELD,
+	slot2.CS_28090_INT_ARG5_FIELD,
+	slot2.CS_28090_STR_ARG1_FIELD,
+	slot2.CS_28090_STR_ARG2_FIELD,
+	slot2.CS_28090_STR_ARG3_FIELD
+}
+CS_28090.is_extendable = false
+CS_28090.extensions = {}
 apartment_furniture = slot0.Message(APARTMENT_FURNITURE)
 apartment_gift = slot0.Message(APARTMENT_GIFT)
+apartment_gift_shop = slot0.Message(APARTMENT_GIFT_SHOP)
 apartment_give_gift = slot0.Message(APARTMENT_GIVE_GIFT)
 apartment_ship = slot0.Message(APARTMENT_SHIP)
+cs_28001 = slot0.Message(CS_28001)
 cs_28003 = slot0.Message(CS_28003)
 cs_28005 = slot0.Message(CS_28005)
 cs_28007 = slot0.Message(CS_28007)
@@ -621,7 +897,9 @@ cs_28009 = slot0.Message(CS_28009)
 cs_28011 = slot0.Message(CS_28011)
 cs_28013 = slot0.Message(CS_28013)
 cs_28015 = slot0.Message(CS_28015)
+cs_28090 = slot0.Message(CS_28090)
 sc_28000 = slot0.Message(SC_28000)
+sc_28002 = slot0.Message(SC_28002)
 sc_28004 = slot0.Message(SC_28004)
 sc_28006 = slot0.Message(SC_28006)
 sc_28008 = slot0.Message(SC_28008)

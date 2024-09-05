@@ -1,5 +1,51 @@
 pg = pg or {}
 pg.enemy_data_statistics_301 = {
+	[16514302] = {
+		cannon = 250,
+		name = "特制棋子-伏罗希洛夫",
+		torpedo = 260,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		armor = 0,
+		dodge = 26,
+		id = 16514302,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 312,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 35,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 330,
+		base = 90752,
+		durability = 118500,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 430,
+		speed = 20,
+		luck = 30,
+		battle_unit_type = 95,
+		antisub = 0,
+		torpedo_growth = 0,
+		air = 300,
+		fog_fx = "",
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			3059321,
+			3059322,
+			3059323,
+			3059324,
+			3059325,
+			3059326,
+			3059327,
+			3059328
+		}
+	},
 	[16514303] = {
 		cannon = 320,
 		name = "特制棋子-塞瓦斯托波尔",
@@ -1033,45 +1079,5 @@ pg.enemy_data_statistics_301 = {
 				LV = 5
 			}
 		}
-	},
-	[16517006] = {
-		cannon = 1000,
-		battle_unit_type = 95,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit_growth = 210,
-		air = 2000,
-		id = 16517006,
-		armor = 0,
-		bubble_fx = "",
-		fog_fx = "",
-		dodge_growth = 312,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90242,
-		durability = 1200000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 25,
-		luck = 0,
-		antisub = 0,
-		scale = 144,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 50,
-		torpedo = 0,
-		durability_growth = 0,
-		antiaircraft = 320,
-		antiaircraft_growth = 0,
-		specific_fx_scale = {},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {},
-		buff_list = {}
 	}
 }

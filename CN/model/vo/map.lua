@@ -230,6 +230,13 @@ slot0.GetChapterList = function(slot0)
 	return slot0.chapterIds
 end
 
+slot0.NOT_REAR_CHAPTERS = {
+	2100328,
+	2100338,
+	2100327,
+	2100337
+}
+
 slot0.GetRearChaptersOfRemaster = function(slot0)
 	if not slot0 or slot0 == 0 then
 		return
@@ -250,8 +257,8 @@ slot0.GetRearChaptersOfRemaster = function(slot0)
 			return slot0
 		end)
 
-		table.insert(uv1, _.max(_.filter(slot1, function (slot0)
-			return not uv0[slot0]
+		table.insert(uv2, _.max(_.filter(slot1, function (slot0)
+			return not uv0[slot0] and not table.contains(uv1.NOT_REAR_CHAPTERS, slot0)
 		end)))
 	end)
 

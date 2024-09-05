@@ -69,10 +69,18 @@ end
 slot1 = 0
 
 slot0.on = function(slot0, slot1)
-	setImageAlpha(slot0._tf, defaultValue(slot1, true) and 0.01 or 0)
+	slot0.displayIndicator = defaultValue(slot0.displayIndicator, true) and slot1
 
-	if not slot1 then
+	setImageAlpha(slot0._tf, slot1 and 0.01 or 0)
+
+	if not slot0.displayIndicator then
 		setActive(slot0.indicator, slot1)
+
+		if slot0.delayTimer then
+			pg.TimeMgr.GetInstance():RemoveTimer(slot0.delayTimer)
+
+			slot0.delayTimer = nil
+		end
 	elseif not slot0.delayTimer then
 		slot2 = pg.TimeMgr.GetInstance()
 		slot0.delayTimer = slot2:AddTimer("loading", 1, 0, function ()
@@ -81,29 +89,31 @@ slot0.on = function(slot0, slot1)
 		end)
 	end
 
-	uv0 = uv0 + 1
-
-	if uv0 > 0 then
+	if uv0 * (uv0 + 1) == 0 then
 		setActive(slot0._go, true)
 		slot0._go.transform:SetAsLastSibling()
 	end
+
+	uv0 = uv0 + 1
 end
 
 slot0.off = function(slot0)
-	if uv0 > 0 then
-		uv0 = uv0 - 1
+	if uv0 * (uv0 - 1) == 0 then
+		setActive(slot0._go, false)
+		setActive(slot0.indicator, false)
 
-		if uv0 == 0 then
-			setActive(slot0._go, false)
-			setActive(slot0.indicator, false)
+		slot0.displayIndicator = true
 
-			if slot0.delayTimer then
-				pg.TimeMgr.GetInstance():RemoveTimer(slot0.delayTimer)
+		if slot0.delayTimer then
+			pg.TimeMgr.GetInstance():RemoveTimer(slot0.delayTimer)
 
-				slot0.delayTimer = nil
-			end
+			slot0.delayTimer = nil
 		end
 	end
+
+	uv0 = uv0 - 1
+
+	assert(uv0 >= 0)
 end
 
 slot0.displayBG = function(slot0, slot1)

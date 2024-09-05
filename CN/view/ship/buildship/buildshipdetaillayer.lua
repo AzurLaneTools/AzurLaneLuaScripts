@@ -318,6 +318,8 @@ slot0.playGetShipAnimate = function(slot0, slot1, slot2)
 		if uv1 and uv1.build_voice ~= "" then
 			uv0:playCV(uv1.build_voice)
 		end
+
+		warning("BuildingCPK PlayCallBack", pg.CpkPlayMgr.GetInstance()._ratioFitter.enabled)
 	end, function ()
 		uv0.isPlayAnim = false
 		uv0.canvasgroup.blocksRaycasts = true

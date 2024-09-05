@@ -73,8 +73,13 @@ slot0.InitDuplication = function(slot0, slot1, slot2, slot3)
 		slot5.raycastTarget = true
 	end
 
-	if slot1:GetComponent(typeof(Animator)) then
-		slot7.enabled = false
+	for slot10, slot11 in ipairs({
+		Animator,
+		Animation
+	}) do
+		if slot1:GetComponent(typeof(slot11)) then
+			slot12.enabled = false
+		end
 	end
 
 	if uv0(slot1) or slot3.clearChildEvent then
@@ -84,8 +89,8 @@ slot0.InitDuplication = function(slot0, slot1, slot2, slot3)
 	uv2(slot1)
 
 	if not slot3.keepScrollTxt then
-		for slot12 = 1, slot1:GetComponentsInChildren(typeof(ScrollText)).Length do
-			setActive(slot8[slot12 - 1].gameObject, false)
+		for slot11 = 1, slot1:GetComponentsInChildren(typeof(ScrollText)).Length do
+			setActive(slot7[slot11 - 1].gameObject, false)
 		end
 	end
 
@@ -93,7 +98,9 @@ slot0.InitDuplication = function(slot0, slot1, slot2, slot3)
 		GetOrAddComponent(slot1, typeof(GraphicRaycaster))
 	end
 
-	slot1.sizeDelta = slot2.sizeDelta
+	slot1.anchorMax = slot1.pivot
+	slot1.anchorMin = slot1.pivot
+	slot1.sizeDelta = slot2.rect.size
 end
 
 slot0.UpdateSettings = function(slot0, slot1, slot2, slot3)

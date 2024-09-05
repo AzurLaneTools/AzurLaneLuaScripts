@@ -52,7 +52,11 @@ slot0.getName = function(slot0)
 end
 
 slot0.getIcon = function(slot0)
-	return slot0:getConfig("icon")
+	if slot0.type == DROP_TYPE_LIVINGAREA_COVER then
+		return "Props/icon_cover"
+	else
+		return slot0:getConfig("icon")
+	end
 end
 
 slot0.getCount = function(slot0)
@@ -251,14 +255,18 @@ slot0.InitSwitch = function()
 			return slot1
 		end,
 		[DROP_TYPE_DORM3D_GIFT] = function (slot0)
-			slot0.desc = ""
+			slot1 = pg.dorm3d_gift[slot0.id]
+			slot0.desc = slot1.display
 
-			return pg.dorm3d_gift[slot0.id]
+			return slot1
 		end,
 		[DROP_TYPE_DORM3D_SKIN] = function (slot0)
 			slot0.desc = ""
 
 			return pg.dorm3d_resource[slot0.id]
+		end,
+		[DROP_TYPE_LIVINGAREA_COVER] = function (slot0)
+			return pg.livingarea_cover[slot0.id]
 		end
 	}
 
@@ -333,6 +341,12 @@ slot0.InitSwitch = function()
 		end,
 		[DROP_TYPE_COMMANDER_CAT] = function (slot0)
 			return getProxy(CommanderProxy):GetSameConfigIdCommanderCount(slot0.id)
+		end,
+		[DROP_TYPE_LIVINGAREA_COVER] = function (slot0)
+			return getProxy(LivingAreaCoverProxy):GetCover(slot0.id) and slot1:IsUnlock() and 1 or 0
+		end,
+		[DROP_TYPE_DORM3D_GIFT] = function (slot0)
+			return getProxy(ApartmentProxy):getGiftCount(slot0.id), true
 		end
 	}
 
@@ -414,11 +428,14 @@ slot0.InitSwitch = function()
 		end,
 		[DROP_TYPE_WORLD_COLLECTION] = function (slot0)
 			return ItemRarity.Gold
+		end,
+		[DROP_TYPE_LIVINGAREA_COVER] = function (slot0)
+			return ItemRarity.Gold
 		end
 	}
 
 	uv0.RarityDefault = function(slot0)
-		return 1
+		return slot0:getConfig("rarity") or ItemRarity.Gray
 	end
 
 	uv0.TransCase = {
@@ -869,6 +886,13 @@ slot0.InitSwitch = function()
 		end,
 		[DROP_TYPE_COMMANDER_CAT] = function (slot0)
 		end,
+		[DROP_TYPE_DORM3D_FURNITURE] = function (slot0)
+			slot1 = getProxy(ApartmentProxy)
+			slot2 = slot1:getApartment(slot0:getConfig("char_id"))
+
+			slot2:AddFurnitureByID(slot0.id)
+			slot1:updateApartment(slot2)
+		end,
 		[DROP_TYPE_DORM3D_GIFT] = function (slot0)
 			getProxy(ApartmentProxy):changeGiftCount(slot0.id, slot0.count)
 		end,
@@ -878,6 +902,17 @@ slot0.InitSwitch = function()
 
 			slot2:addSkin(slot0.id)
 			slot1:updateApartment(slot2)
+		end,
+		[DROP_TYPE_LIVINGAREA_COVER] = function (slot0)
+			slot2 = LivingAreaCover.New({
+				isNew = true,
+				unlock = true,
+				id = slot0.id
+			})
+
+			getProxy(LivingAreaCoverProxy):UpdateCover(slot2)
+			pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_COVER, slot2)
+			pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataCover(slot0.id, 1))
 		end
 	}
 
@@ -984,9 +1019,6 @@ slot0.InitSwitch = function()
 		end,
 		[DROP_TYPE_BUFF] = function (slot0, slot1, slot2)
 			setText(slot2, slot0:getConfig("desc"))
-		end,
-		[DROP_TYPE_COMMANDER_CAT] = function (slot0, slot1, slot2)
-			setText(slot2, "")
 		end
 	}
 
@@ -994,7 +1026,7 @@ slot0.InitSwitch = function()
 		if DROP_TYPE_USE_ACTIVITY_DROP < slot0.type then
 			setText(slot2, slot0:getConfig("display"))
 		else
-			assert(false, "can not handle this type>>" .. slot0.type)
+			setText(slot2, slot0.desc or "")
 		end
 	end
 
@@ -1117,6 +1149,9 @@ slot0.InitSwitch = function()
 		end,
 		[DROP_TYPE_DORM3D_SKIN] = function (slot0, slot1, slot2)
 			updateDorm3dSkin(slot1, slot0, slot2)
+		end,
+		[DROP_TYPE_LIVINGAREA_COVER] = function (slot0, slot1, slot2)
+			updateCover(slot1, slot0, slot2)
 		end
 	}
 

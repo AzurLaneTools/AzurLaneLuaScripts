@@ -99,6 +99,7 @@ SCENE = {
 	INVITATION = "scene invitation",
 	UPGRADESTAR = "scene upgrade star",
 	COWBOY_TOWN_BACKHILL = "COWBOY_TOWN_BACKHILL",
+	DORM3D_VOLLEYBALL = "dorm 3d volleyball",
 	CHARGE_MENU = "scene charge_menu",
 	HOTSPRING = "hotSpring",
 	EQUIPSCENE = "scene equip",
@@ -815,6 +816,10 @@ slot0 = {
 		slot0.mediator = Dorm3dSceneMediator
 		slot0.viewComponent = Dorm3dScene
 	end,
+	[SCENE.DORM3D_VOLLEYBALL] = function (slot0, slot1)
+		slot0.mediator = Dorm3dGameMediatorTemplate
+		slot0.viewComponent = Dorm3dVolleyballScene
+	end,
 	[SCENE.NEWYEAR_BACKHILL_2024] = function (slot0, slot1)
 		slot0.mediator = BackHillMediatorTemplate
 		slot0.viewComponent = NewYearFestival2024Scene
@@ -1169,16 +1174,31 @@ slot1 = {
 		end
 
 		table.insert(slot2, function (slot0)
-			uv0.sceneData = getProxy(ApartmentProxy):getApartment(uv0.groupId):GetSceneData(uv0.timeIndex)
+			uv0.sceneData = getProxy(ApartmentProxy):getApartment(uv0.groupId):GetSceneData()
 
 			if not uv0.hasEnterCheck then
-				uv0.enterType = math.random(2)
+				uv0.inFurnitureName = slot1:getConfig("default_zone")
+			end
 
-				if uv0.enterType == 2 then
-					slot2 = slot1:getZoneNames()
-					uv0.enterZone = slot2[math.random(#slot2)]
-					uv0.charFurnitureName = uv0.enterZone
+			slot2 = pg.m02
+
+			slot2:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataEnter(1))
+
+			slot2 = getProxy(ApartmentProxy)
+
+			slot2:RecordEnterTime()
+
+			slot2 = uv1.context.onRemoved
+
+			uv1.context.onRemoved = function()
+				slot0 = 0
+
+				if getProxy(ApartmentProxy):GetEnterTime() then
+					slot0 = pg.TimeMgr.GetInstance():GetServerTime() - slot1
 				end
+
+				pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataEnter(2, slot0))
+				existCall(uv0)
 			end
 
 			slot0()

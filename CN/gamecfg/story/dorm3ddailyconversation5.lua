@@ -1,52 +1,20 @@
 return {
-	hideRecord = true,
+	fadeOut = 1.5,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DDAILYCONVERSATION5",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DDAILYCONVERSATION5",
 	scripts = {
 		{
-			say = "主人看上去好像状态不错，是遇到了什么开心的事吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			options = {
-				{
-					content = "因为来和天狼星见面了",
-					flag = 1
-				},
-				{
-					content = "现在就是最值得开心的事",
-					flag = 2
-				}
-			}
-		},
-		{
-			say = "……！！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "和主人见面，也是天狼星一天中最开心的事。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "尽管身为女仆还敢提出这样的请求实在是非常冒昧和逾矩……\t\t\t\t",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "但天狼星还是希望能多与您相见，我骄傲的主人。",
+			actorName = "天狼星",
+			side = 2,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFFFFF",
+			say = "听说东煌有一道叫做“剁椒鱼头”的料理，而皇家也有吃鱼的传统……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,9 +25,15 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "Bow",
+							name = "shy",
 							time = 0,
-							type = "action"
+							type = "action",
+							skip = true
+						},
+						{
+							skip = false,
+							time = 1,
+							type = "wait"
 						}
 					}
 				},
@@ -67,6 +41,54 @@ return {
 					hideUI = false,
 					name = STORY_EVENT.TEST_DONE
 				}
+			}
+		},
+		{
+			actorName = "天狼星",
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "天狼星就想将“剁椒”这种风味，融入仰望星空派。您觉得这个创意如何？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			options = {
+				{
+					content = "难度会不会太高了？",
+					flag = 1
+				},
+				{
+					content = "这个创意很好！",
+					flag = 2
+				}
+			}
+		},
+		{
+			actorName = "天狼星",
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			optionFlag = 1,
+			say = "说的也是呢……不过天狼星会努力的！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "天狼星",
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			optionFlag = 2,
+			say = "真、真的么！果然还是主人您最支持天狼星了！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
 			}
 		}
 	}

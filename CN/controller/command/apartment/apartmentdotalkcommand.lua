@@ -20,15 +20,16 @@ slot0.execute = function(slot0, slot1)
 		dialog_id = slot3
 	}, 28016, function (slot0)
 		if slot0.result == 0 then
-			uv0.talkDic[uv1] = true
+			uv0 = uv1:getApartment(uv2)
+			uv0.talkDic[uv3] = true
 
-			uv2:updateApartment(uv0)
+			uv1:updateApartment(uv0)
 
 			slot1 = PlayerConst.addTranDrop(slot0.drop_list)
 
-			existCall(uv3, slot1)
-			uv4:sendNotification(GAME.APARTMENT_DO_TALK_DONE, {
-				talkId = uv1,
+			existCall(uv4, slot1)
+			uv5:sendNotification(GAME.APARTMENT_DO_TALK_DONE, {
+				talkId = uv3,
 				awards = slot1
 			})
 		else

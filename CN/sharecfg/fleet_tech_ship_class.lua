@@ -1750,8 +1750,7 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 101,
 		nation = 3,
 		ships = {
-			30605,
-			30604
+			30605
 		}
 	},
 	[30603] = {
@@ -1784,6 +1783,7 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 102,
 		nation = 3,
 		ships = {
+			30604,
 			30607,
 			30608,
 			30609
@@ -3747,6 +3747,17 @@ pg.fleet_tech_ship_class = {
 			970505
 		}
 	},
+	[970506] = {
+		shiptype = 5,
+		name = "长门·META",
+		t_level = 5,
+		id = 970506,
+		t_level_1 = 2,
+		nation = 97,
+		ships = {
+			970506
+		}
+	},
 	[970601] = {
 		shiptype = 6,
 		name = "飞鹰·META",
@@ -4171,6 +4182,7 @@ pg.fleet_tech_ship_class = {
 		970503,
 		970504,
 		970505,
+		970506,
 		970601,
 		970602,
 		970603,

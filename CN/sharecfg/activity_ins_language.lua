@@ -5483,7 +5483,36 @@ pg.activity_ins_language = setmetatable({
 		"ins_op_491_1_1",
 		"op_reply_491_1_1",
 		"ins_op_491_1_2",
-		"op_reply_491_1_2"
+		"op_reply_491_1_2",
+		"ins_492",
+		"ins_discuss_492_1",
+		"ins_reply_492_1_1",
+		"ins_reply_492_1_2",
+		"ins_reply_492_1_3",
+		"ins_reply_492_1_4",
+		"ins_discuss_492_2",
+		"ins_reply_492_2_1",
+		"ins_discuss_492_3",
+		"ins_reply_492_3_1",
+		"ins_reply_492_3_2",
+		"ins_op_492_1_1",
+		"op_reply_492_1_1",
+		"ins_op_492_1_2",
+		"op_reply_492_1_2",
+		"ins_493",
+		"ins_discuss_493_1",
+		"ins_reply_493_1_1",
+		"ins_reply_493_1_2",
+		"ins_reply_493_1_3",
+		"ins_discuss_493_2",
+		"ins_reply_493_2_1",
+		"ins_reply_493_2_2",
+		"ins_discuss_493_3",
+		"ins_reply_493_3_1",
+		"ins_op_493_1_1",
+		"op_reply_493_1_1",
+		"ins_op_493_1_2",
+		"op_reply_493_1_2"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -21932,6 +21961,93 @@ pg.base.activity_ins_language = {
 		value = ""
 	},
 	op_reply_491_1_2 = {
+		value = ""
+	},
+	ins_492 = {
+		value = ""
+	},
+	ins_discuss_492_1 = {
+		value = ""
+	},
+	ins_reply_492_1_1 = {
+		value = ""
+	},
+	ins_reply_492_1_2 = {
+		value = ""
+	},
+	ins_reply_492_1_3 = {
+		value = ""
+	},
+	ins_reply_492_1_4 = {
+		value = ""
+	},
+	ins_discuss_492_2 = {
+		value = ""
+	},
+	ins_reply_492_2_1 = {
+		value = ""
+	},
+	ins_discuss_492_3 = {
+		value = ""
+	},
+	ins_reply_492_3_1 = {
+		value = ""
+	},
+	ins_reply_492_3_2 = {
+		value = ""
+	},
+	ins_op_492_1_1 = {
+		value = ""
+	},
+	op_reply_492_1_1 = {
+		value = ""
+	},
+	ins_op_492_1_2 = {
+		value = ""
+	},
+	op_reply_492_1_2 = {
+		value = ""
+	},
+	ins_493 = {
+		value = ""
+	},
+	ins_discuss_493_1 = {
+		value = ""
+	},
+	ins_reply_493_1_1 = {
+		value = ""
+	},
+	ins_reply_493_1_2 = {
+		value = ""
+	},
+	ins_reply_493_1_3 = {
+		value = ""
+	},
+	ins_discuss_493_2 = {
+		value = ""
+	},
+	ins_reply_493_2_1 = {
+		value = ""
+	},
+	ins_reply_493_2_2 = {
+		value = ""
+	},
+	ins_discuss_493_3 = {
+		value = ""
+	},
+	ins_reply_493_3_1 = {
+		value = ""
+	},
+	ins_op_493_1_1 = {
+		value = ""
+	},
+	op_reply_493_1_1 = {
+		value = ""
+	},
+	ins_op_493_1_2 = {
+		value = ""
+	},
+	op_reply_493_1_2 = {
 		value = ""
 	}
 }

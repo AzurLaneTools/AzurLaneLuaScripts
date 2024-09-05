@@ -33,6 +33,7 @@ end
 slot0.GetPanels = function(slot0)
 	slot1 = {
 		SettingsFpsPanle,
+		SettingsGraphicsPanle,
 		SettingsNotificationPanel,
 		SettingsWorldPanle,
 		SettingsRandomFlagShipAndSkinPanel,

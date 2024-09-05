@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.enemy_data_statistics_260 = {
+	[15803122] = {
+		cannon = 15,
+		name = "构建者β型",
+		antiaircraft_growth = 3000,
+		speed_growth = 0,
+		id = 15803122,
+		air = 0,
+		armor = 0,
+		luck_growth = 0,
+		hit_growth = 280,
+		fog_fx = "",
+		dodge_growth = 350,
+		antisub_growth = 0,
+		air_growth = 2600,
+		base = 90438,
+		durability = 3260,
+		armor_growth = 0,
+		torpedo_growth = 5200,
+		speed = 20,
+		luck = 18,
+		antisub = 0,
+		scale = 150,
+		cannon_growth = 626,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 22,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 85,
+		durability_growth = 21600,
+		antiaircraft = 180,
+		battle_unit_type = 90,
+		specific_fx_scale = {},
+		equipment_list = {
+			892600,
+			892601,
+			892602,
+			892607
+		}
+	},
 	[15803123] = {
 		cannon = 22,
 		name = "构建者γ型",
@@ -1026,52 +1066,6 @@ pg.enemy_data_statistics_260 = {
 			890010,
 			1100964,
 			1100969
-		}
-	},
-	[15804201] = {
-		cannon = 210,
-		air = 0,
-		torpedo = 100,
-		cannon_growth = 2500,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		armor = 0,
-		dodge = 11,
-		torpedo_growth = 0,
-		hit_growth = 210,
-		reload_growth = 0,
-		dodge_growth = 156,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 32,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		base = 90629,
-		durability = 23200,
-		armor_growth = 0,
-		durability_growth = 368400,
-		antiaircraft = 235,
-		speed = 20,
-		luck = 18,
-		antiaircraft_growth = 3600,
-		antisub = 0,
-		id = 15804201,
-		fog_fx = "",
-		specific_fx_scale = {},
-		equipment_list = {
-			1100549,
-			892711,
-			892712,
-			1101094,
-			1101119,
-			1100734
-		},
-		buff_list = {
-			{
-				ID = 50500,
-				LV = 5
-			}
 		}
 	}
 }

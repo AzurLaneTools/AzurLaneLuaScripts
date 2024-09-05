@@ -50,11 +50,11 @@ slot0.reloadScene = function(slot0, slot1, slot2)
 		function (slot0)
 			slot1 = pg.UIMgr.GetInstance()
 
-			slot1:LoadingOn(uv0.data.showLoading)
+			slot1:LoadingOn()
 
-			slot1 = uv1
+			slot1 = uv0
 
-			slot1:removeLayerMediator(uv2.facade, uv0, function (slot0)
+			slot1:removeLayerMediator(uv1.facade, uv2, function (slot0)
 				uv0 = slot0
 
 				uv1()
@@ -143,13 +143,13 @@ slot0.loadScene = function(slot0, slot1, slot2, slot3, slot4)
 
 	seriesAsync({
 		function (slot0)
-			pg.UIMgr.GetInstance():LoadingOn(uv0.data.showLoading)
+			pg.UIMgr.GetInstance():LoadingOn()
 
-			if uv1 ~= nil then
-				uv0:extendData({
-					fromMediatorName = uv1.mediator.__cname
+			if uv0 ~= nil then
+				uv1:extendData({
+					fromMediatorName = uv0.mediator.__cname
 				})
-				uv2:removeLayerMediator(uv3.facade, uv1, function (slot0)
+				uv2:removeLayerMediator(uv3.facade, uv0, function (slot0)
 					uv0 = slot0
 
 					uv1()
@@ -236,10 +236,10 @@ slot0.loadLayer = function(slot0, slot1, slot2, slot3, slot4)
 
 	seriesAsync({
 		function (slot0)
-			pg.UIMgr.GetInstance():LoadingOn(uv0.data.showLoading)
+			pg.UIMgr.GetInstance():LoadingOn()
 
-			if uv1 ~= nil then
-				table.ParallelIpairsAsync(uv1, function (slot0, slot1, slot2)
+			if uv0 ~= nil then
+				table.ParallelIpairsAsync(uv0, function (slot0, slot1, slot2)
 					slot3 = uv0
 
 					slot3:removeLayerMediator(uv1.facade, slot1, function (slot0)

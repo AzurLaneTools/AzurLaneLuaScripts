@@ -10,14 +10,15 @@ slot0.Load = function(slot0, slot1, slot2)
 end
 
 slot0.LoadHighLightArea = function(slot0, slot1)
-	slot0:Load(slot1.isWorld and "wShowArea" or "wShowArea1", function (slot0)
+	slot0:Load(slot1.name, function (slot0)
 		if not uv0 then
 			return
 		end
 
 		slot0.sizeDelta = uv0.sizeDelta
+		slot1 = uv0.pivot - slot0.pivot
 		slot0.pivot = uv0.pivot
-		slot0.localPosition = uv0.position
+		slot0.localPosition = uv0.position + Vector3(slot0.sizeDelta.x * slot1.x, slot0.sizeDelta.y * slot1.y, 0)
 	end)
 end
 

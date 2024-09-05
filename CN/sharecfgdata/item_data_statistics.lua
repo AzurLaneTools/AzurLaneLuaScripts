@@ -15203,6 +15203,37 @@ _G.pg.base.item_data_statistics[21036] = {
 }
 
 
+_G.pg.base.item_data_statistics[21037] = {
+	open_directly = 0,
+	name = "结晶：{namecode:230}",
+	type = 4,
+	display = "{namecode:230}的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21037",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21037,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "结晶化热强钢",
@@ -15792,6 +15823,37 @@ _G.pg.base.item_data_statistics[21915] = {
 }
 
 
+_G.pg.base.item_data_statistics[21916] = {
+	open_directly = 0,
+	name = "同步值：{namecode:230}",
+	type = 4,
+	display = "于「信标·META」战斗中收集的数据，可以提升{namecode:230}同步率。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21916",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21916,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[30001] = {
 	open_directly = 0,
 	name = "深海潜航新手装备补给箱",
@@ -15866,8 +15928,8 @@ _G.pg.base.item_data_statistics[30012] = {
 	type = 5,
 	display = [[
 包含一件稀有的白鹰阵营装备：
-较低几率获得<color=#3dc6ff>稀有装备</color>
-较高几率获得普通装备
+40%几率获得<color=#3dc6ff>稀有装备</color>
+60%几率获得普通装备
 *可消耗<color=#ffde38>5</color>个合成<color=#ffde38>1</color>个<color=#d797ff>克洛希德科技箱T3</color>]],
 	other_resource_cost = "[]",
 	replace_item = 0,
@@ -15902,7 +15964,7 @@ _G.pg.base.item_data_statistics[30013] = {
 	open_directly = 0,
 	name = "克洛希德科技箱T3",
 	type = 5,
-	display = "包含一件精锐的白鹰阵营装备：\n低几率获得<color=#d797ff>精锐装备</color>\n较高几率获得<color=#3dc6ff>稀有装备</color>",
+	display = "包含一件精锐的白鹰阵营装备：\n25%几率获得<color=#d797ff>精锐装备</color>\n75%几率获得<color=#3dc6ff>稀有装备</color>",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -15936,7 +15998,7 @@ _G.pg.base.item_data_statistics[30014] = {
 	open_directly = 0,
 	name = "克洛希德科技箱T4",
 	type = 5,
-	display = "包含一件超稀有的白鹰阵营装备：\n极低几率获得<color=#ffde38>超稀有装备</color>\n高几率获得<color=#d797ff>精锐装备</color>",
+	display = "包含一件超稀有的白鹰阵营装备：\n15%几率获得<color=#ffde38>超稀有装备</color>\n85%几率获得<color=#d797ff>精锐装备</color>",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -16040,8 +16102,8 @@ _G.pg.base.item_data_statistics[30022] = {
 	type = 5,
 	display = [[
 包含一件稀有的皇家阵营装备：
-较低几率获得<color=#3dc6ff>稀有装备</color>
-较高几率获得普通装备
+40%几率获得<color=#3dc6ff>稀有装备</color>
+60%几率获得普通装备
 *可消耗<color=#ffde38>5</color>个合成<color=#ffde38>1</color>个<color=#d797ff>威斯克科技箱T3</color>]],
 	other_resource_cost = "[]",
 	replace_item = 0,
@@ -16076,7 +16138,7 @@ _G.pg.base.item_data_statistics[30023] = {
 	open_directly = 0,
 	name = "威斯克科技箱T3",
 	type = 5,
-	display = "包含一件精锐的皇家阵营装备：\n低几率获得<color=#d797ff>精锐装备</color>\n较高几率获得<color=#3dc6ff>稀有装备</color>",
+	display = "包含一件精锐的皇家阵营装备：\n25%几率获得<color=#d797ff>精锐装备</color>\n75%几率获得<color=#3dc6ff>稀有装备</color>",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -16110,7 +16172,7 @@ _G.pg.base.item_data_statistics[30024] = {
 	open_directly = 0,
 	name = "威斯克科技箱T4",
 	type = 5,
-	display = "包含一件超稀有的皇家阵营装备：\n极低几率获得<color=#ffde38>超稀有装备</color>\n高几率获得<color=#d797ff>精锐装备</color>",
+	display = "包含一件超稀有的皇家阵营装备：\n15%几率获得<color=#ffde38>超稀有装备</color>\n85%几率获得<color=#d797ff>精锐装备</color>",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -16214,8 +16276,8 @@ _G.pg.base.item_data_statistics[30032] = {
 	type = 5,
 	display = [[
 包含一件稀有的重樱阵营装备：
-较低几率获得<color=#3dc6ff>稀有装备</color>
-较高几率获得普通装备
+40%几率获得<color=#3dc6ff>稀有装备</color>
+60%几率获得普通装备
 *可消耗<color=#ffde38>5</color>个合成<color=#ffde38>1</color>个<color=#d797ff>藏王重工科技箱T3</color>]],
 	other_resource_cost = "[]",
 	replace_item = 0,
@@ -16250,7 +16312,7 @@ _G.pg.base.item_data_statistics[30033] = {
 	open_directly = 0,
 	name = "藏王重工科技箱T3",
 	type = 5,
-	display = "包含一件精锐的重樱阵营装备：\n低几率获得<color=#d797ff>精锐装备</color>\n较高几率获得<color=#3dc6ff>稀有装备</color>",
+	display = "包含一件精锐的重樱阵营装备：\n25%几率获得<color=#d797ff>精锐装备</color>\n75%几率获得<color=#3dc6ff>稀有装备</color>",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -16284,7 +16346,7 @@ _G.pg.base.item_data_statistics[30034] = {
 	open_directly = 0,
 	name = "藏王重工科技箱T4",
 	type = 5,
-	display = "包含一件超稀有的重樱阵营装备：\n极低几率获得<color=#ffde38>超稀有装备</color>\n高几率获得<color=#d797ff>精锐装备</color>",
+	display = "包含一件超稀有的重樱阵营装备：\n15%几率获得<color=#ffde38>超稀有装备</color>\n85%几率获得<color=#d797ff>精锐装备</color>",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -16388,8 +16450,8 @@ _G.pg.base.item_data_statistics[30042] = {
 	type = 5,
 	display = [[
 包含一件稀有的铁血阵营装备：
-较低几率获得<color=#3dc6ff>稀有装备</color>
-较高几率获得普通装备
+40%几率获得<color=#3dc6ff>稀有装备</color>
+60%几率获得普通装备
 *可消耗<color=#ffde38>5</color>个合成<color=#ffde38>1</color>个<color=#d797ff>伯鲁克科技箱T3</color>]],
 	other_resource_cost = "[]",
 	replace_item = 0,
@@ -16424,7 +16486,7 @@ _G.pg.base.item_data_statistics[30043] = {
 	open_directly = 0,
 	name = "伯鲁克科技箱T3",
 	type = 5,
-	display = "包含一件精锐的铁血阵营装备：\n低几率获得<color=#d797ff>精锐装备</color>\n较高几率获得<color=#3dc6ff>稀有装备</color>",
+	display = "包含一件精锐的铁血阵营装备：\n25%几率获得<color=#d797ff>精锐装备</color>\n75%几率获得<color=#3dc6ff>稀有装备</color>",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -16458,7 +16520,7 @@ _G.pg.base.item_data_statistics[30044] = {
 	open_directly = 0,
 	name = "伯鲁克科技箱T4",
 	type = 5,
-	display = "包含一件超稀有的铁血阵营装备：\n极低几率获得<color=#ffde38>超稀有装备</color>\n高几率获得<color=#d797ff>精锐装备</color>",
+	display = "包含一件超稀有的铁血阵营装备：\n15%几率获得<color=#ffde38>超稀有装备</color>\n85%几率获得<color=#d797ff>精锐装备</color>",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -17658,6 +17720,40 @@ _G.pg.base.item_data_statistics[30205] = {
 	target_id = 0,
 	display_icon = {},
 	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[30206] = {
+	open_directly = 0,
+	name = "藏王重工科技箱T3(促销） ",
+	type = 5,
+	display = "包含一件重樱阵营装备：\n100%几率获得一件<color=#d797ff>精锐装备</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/30206",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "79721",
+	id = 30206,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		100
+	},
 	index = {},
 	shiptrans_id = {},
 	combination_display = {}
