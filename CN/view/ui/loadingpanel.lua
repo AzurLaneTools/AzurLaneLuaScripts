@@ -69,7 +69,7 @@ end
 slot1 = 0
 
 slot0.on = function(slot0, slot1)
-	slot0.displayIndicator = defaultValue(slot0.displayIndicator, true) and slot1
+	slot0.displayIndicator = defaultValue(slot0.displayIndicator, true) and defaultValue(slot1, true)
 
 	setImageAlpha(slot0._tf, slot1 and 0.01 or 0)
 

@@ -5334,6 +5334,17 @@ temp = function()
 	uv0["鲨"] = {
 		this = {
 			this = true
+		},
+		["·"] = {
+			M = {
+				E = {
+					T = {
+						A = {
+							this = true
+						}
+					}
+				}
+			}
 		}
 	}
 end
