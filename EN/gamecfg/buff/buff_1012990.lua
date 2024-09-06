@@ -33,7 +33,7 @@ return {
 		{
 			type = "BattleBuffAddBuff",
 			trigger = {
-				"onStartGame"
+				"onAttach"
 			},
 			arg_list = {
 				buff_id = 1012991
