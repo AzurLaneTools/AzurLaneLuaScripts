@@ -28,7 +28,7 @@ slot0.init = function(slot0)
 	slot0.missileStrikeTargetLine = nil
 	slot0.cellEdges = {}
 	slot0.walls = {}
-	slot0.material_Add = LoadAny("ui/commonUI_atlas", "add", typeof(Material))
+	slot0.material_Add = LoadAny("artresource/effect/common/material/add", "", typeof(Material))
 	slot0.loader = AutoLoader.New()
 end
 
