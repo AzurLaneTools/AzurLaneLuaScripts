@@ -5264,7 +5264,7 @@ _G.pg.base.gametip.levelScene_chapter_level_limit = {
 
 
 _G.pg.base.gametip.levelScene_chapter_count_tip = {
-	tip = "残り回数："
+	tip = "残り回数： "
 }
 
 
@@ -9847,6 +9847,11 @@ _G.pg.base.gametip.ship_remould_warning_105214 = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_105224 = {
+	tip = "改造（近代化改修）を行うと<color=#92fc63>【BIG SEVEN】</color>スキルが\n<color=#92fc63>【BIG SEVEN·メリーランド】に強化されます</color>"
+}
+
+
 _G.pg.base.gametip.ship_remould_warning_105234 = {
 	tip = "改造(近代化改修)終了後、スキル<color=#92fc63>【BIG SEVEN】</color>が\n<color=#92fc63>【BIG SEVEN·ウェストバージニア】</color>に強化される"
 }
@@ -12734,7 +12739,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「ピッツバーグ」「インディアナ」など出現率UP!"
+	tip = "期間限定建造を累計200回行うと「天城(空母)」を確定で入手可能！（最大4隻まで）"
 }
 
 
@@ -15165,7 +15170,7 @@ _G.pg.base.gametip.returner_help = {
 「カムバックミッション」とは、指揮官のログイン状況に応じて「現役指揮官」「カムバック・新人指揮官」に分類され、それぞれ違う報酬を入手できるイベントとなります。
 ■「現役指揮官」「カムバック・新人指揮官」について
 下記の条件を満たした指揮官は「現役指揮官」として分類され、「現役指揮官」専用の目標を達成することで報酬を入手できます。
-・2024年5月7日（火）～5月21日（火）23:59までに一度でもログインしたことがある上記の条件を満たしていない場合は「カムバック・新人指揮官」として、専用任務をクリアすることで報酬を入手することができます。
+・2024年8月29日（木）～10月2日（水）23:59までに一度でもログインしたことがある上記の条件を満たしていない場合は「カムバック・新人指揮官」として、専用任務をクリアすることで報酬を入手することができます。
 自分が「現役指揮官」「カムバック指揮官」のどちらに属しているか不明な場合は、カムバックミッションのバナーに表示される内容をご確認ください。
 ■現役指揮官の目標について
 現役指揮官は最大2人の友達に「カムバックミッション」に参加してもらうことができ、友達が専用任務をクリアすると、自分に「カムバックPt」が加算されます。
@@ -15223,7 +15228,7 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "1.「小型艦建造」「大型艦建造」「特型艦建造」から一つを選ぶことで、特別建造のベースになります。（UR艦船は「大型艦建造」「特型艦建造」にしか出現しません）"
 		},
 		{
-			info = "2.同建造で出現する艦船から2種類を選び「ピックアップ状態」（出現率がUPする状態）にできます<color=#FF5C5C>（※2024年3月20日までに常設建造になった艦しか出現しません。また、UR艦船を選択した場合、選ばれなかったUR艦船は建造から出現しません）</color>"
+			info = "2.同建造で出現する艦船から2種類を選び「ピックアップ状態」（出現率がUPする状態）にできます<color=#FF5C5C>（※2024年7月10日までに常設建造になった艦しか出現しません。また、UR艦船を選択した場合、選ばれなかったUR艦船は建造から出現しません）</color>"
 		},
 		{
 			info = "3.「選べる特別建造」において「ピックアップ」に選ばれた艦船の出現率は、レアリティに応じて下記となります\n<color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>...2%  <color=#、、d797ff>SR</color>...2.5%  <color=#3dc6ff>R...2.5%</color>  N...2.5%"
@@ -29434,6 +29439,21 @@ _G.pg.base.gametip.battle_text_pizibao_2 = {
 }
 
 
+_G.pg.base.gametip.battle_text_tianchengCV_1 = {
+	tip = "「<color=#ff8800>紅き炎</color>、<color=#5cccff>青き華</color>、此岸に降臨せん！」"
+}
+
+
+_G.pg.base.gametip.battle_text_tianchengCV_2 = {
+	tip = "「あはははは！<color=#ff1800>彼岸の華</color>よ、咲き誇れ、燃やし尽くせ！」"
+}
+
+
+_G.pg.base.gametip.battle_text_tianchengCV_3 = {
+	tip = "敵が大技を使ってきます！法陣を起動して支援攻撃を呼び出しましょう！"
+}
+
+
 _G.pg.base.gametip.series_enemy_mood = {
 	tip = "戦意低下"
 }
@@ -35140,4 +35160,217 @@ _G.pg.base.gametip.report_cannot_comment_level_2 = {
 
 _G.pg.base.gametip.commander_exp_limit = {
 	tip = "オフニャのレベルが上限に達しています。これ以上オフニャを追加できません"
+}
+
+
+_G.pg.base.gametip.dreamland_label_day = {
+	tip = "昼"
+}
+
+
+_G.pg.base.gametip.dreamland_label_dusk = {
+	tip = "夕方"
+}
+
+
+_G.pg.base.gametip.dreamland_label_night = {
+	tip = "夜"
+}
+
+
+_G.pg.base.gametip.dreamland_label_area = {
+	tip = "エリア"
+}
+
+
+_G.pg.base.gametip.dreamland_label_explore = {
+	tip = "探索"
+}
+
+
+_G.pg.base.gametip.dreamland_label_explore_award_tip = {
+	tip = "探索完了で入手"
+}
+
+
+_G.pg.base.gametip.dreamland_area_lock_tip = {
+	tip = "- エリアはストーリー閲覧後に開放されます -"
+}
+
+
+_G.pg.base.gametip.dreamland_spring_lock_tip = {
+	tip = "ストーリー閲覧後に開放されます"
+}
+
+
+_G.pg.base.gametip.dreamland_spring_tip = {
+	tip = "楽園でのコンディション回復 $1/h"
+}
+
+
+_G.pg.base.gametip.dream_land_tip = {
+	tip = {
+		{
+			info = [[
+遊び方：
+ ·<color=#92fc63>9.12-10.2 23:59</color>期間限定裏山イベント「ドリームランド・ドリームデイズ」開催！
+
+  ·楽園を探索しストーリーと新たなエリアを解放して、<color=#92fc63>限定家具</color>・<color=#92fc63>装備外装箱</color>などの報酬を入手可能！
+ ·それぞれのエリアではタップなどの操作で探索可能なポイントがあります。うまく見つからない場合はマップ上に表示される<color=#92fc63>「星」</color>や<color=#92fc63>「楽園手帳」</color>に表示されるヒントを確認しよう！楽園を探索すると、報酬として<color=#92fc63>限定家具</color>、<color=#92fc63>装備外装箱</color>などの報酬を入手可能！
+ ·一部の探索ポイントは「時間」を調整しないと出現しません。ストーリーを全部解放すると解禁される機能「時間変更」で、楽園の時間を変更できます！
+ ·「安眠の夢」に艦船を配置すると、艦船が楽園に出現できるようになり、さらにコンディション回復速度がUP！配置枠は探索エリアが増えるとともに自動的に拡張されます！]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.touch_cake_minigame_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/touchcake_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/touchcake_help2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.dreamland_main_desc = {
+	tip = "9.10-10.2、<color=#85E7FF>楽園探索</color>と<color=#85E7FF>ミニゲーム</color>で報酬を入手可能！"
+}
+
+
+_G.pg.base.gametip.dreamland_main_tip = {
+	tip = {
+		{
+			info = [[
+遊び方：
+ ·<color=#92fc63>9.12-10.2 23:59</color>期間限定裏山イベント「ドリームランド・ドリームデイズ」開催！
+
+  ★ミニゲームと招待状について
+ ·9.18まで毎日、ミニゲームのゲーム回数が加算されます。ゲーム回数を所持している状態でミニゲーム「饅頭ケーキ」をクリアすると、ゲーム回数が1回消費され、「夢のケーキ券」を1枚入手できます。
+ ·「夢のケーキ券」を7枚入手すると、イベントバナーで「七周年の招待状」を入手できます。招待状を倉庫で使用すると、下記SSR艦船から選んで入手できます：
+ 　ベルファスト
+ 　ブレマートン
+ 　シリアス
+ 　ペーター・シュトラッサー
+ 　能代
+ 　長門
+ 　ソビエツカヤ・ロシア
+ 　ジャンヌ・ダルク
+
+  ★楽園探索について
+ ·楽園を探索しストーリーと新たなエリアを解放すると、<color=#92fc63>限定家具</color>・<color=#92fc63>装備外装箱</color>などの報酬を入手可能！
+ ·それぞれのエリアではタップなどの操作で探索可能なポイントがあります。うまく見つからない場合はマップ上に表示される<color=#92fc63>「星」</color>や<color=#92fc63>「楽園手帳」</color>に表示されるヒントを確認しよう！楽園を探索すると、報酬として<color=#92fc63>限定家具</color>、<color=#92fc63>装備外装箱</color>などの報酬を入手可能！
+ ·一部の探索ポイントは「時間」を調整しないと出現しません。ストーリーを全部解放すると解禁される機能「時間変更」で、楽園の時間を変更できます！
+ ·「安眠の夢」に艦船を配置すると、艦船が楽園に出現できるようになり、さらにコンディション回復速度がUP！配置枠は探索エリアが増えるとともに自動的に拡張されます！</color>]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.no_share_skin_gametip = {
+	tip = "*$1の着せ替えは$2に適用できません"
+}
+
+
+_G.pg.base.gametip.no_share_skin_tianchenghangmu = {
+	tip = "天城(空母)"
+}
+
+
+_G.pg.base.gametip.no_share_skin_tianchengzhanlie = {
+	tip = "天城(巡洋戦艦)"
+}
+
+
+_G.pg.base.gametip.no_share_skin_jiahezhanlie = {
+	tip = "加賀(戦艦)"
+}
+
+
+_G.pg.base.gametip.no_share_skin_jiahehangmu = {
+	tip = "加賀(空母)"
+}
+
+
+_G.pg.base.gametip.ui_pack_tip1 = {
+	tip = "どれか一つしか購入できません。購入されたアイテムはメールボックスに送られます"
+}
+
+
+_G.pg.base.gametip.ui_pack_tip2 = {
+	tip = "単品"
+}
+
+
+_G.pg.base.gametip.ui_pack_tip3 = {
+	tip = "セット"
+}
+
+
+_G.pg.base.gametip.battle_ui_unlock = {
+	tip = "装飾開放"
+}
+
+
+_G.pg.base.gametip.compensate_ui_expiration_hour = {
+	tip = "$1時間後無効になります"
+}
+
+
+_G.pg.base.gametip.compensate_ui_expiration_day = {
+	tip = "$1日後無効になります"
+}
+
+
+_G.pg.base.gametip.compensate_ui_title1 = {
+	tip = "補填"
+}
+
+
+_G.pg.base.gametip.compensate_ui_title2 = {
+	tip = "Compensation"
+}
+
+
+_G.pg.base.gametip.compensate_ui_nothing1 = {
+	tip = "受け取れる補填アイテムはありません"
+}
+
+
+_G.pg.base.gametip.compensate_ui_nothing2 = {
+	tip = "No compensation received yet"
+}
+
+
+_G.pg.base.gametip.attire_combatui_preview = {
+	tip = "プレビュー"
+}
+
+
+_G.pg.base.gametip.attire_combatui_confirm = {
+	tip = "装飾"
 }

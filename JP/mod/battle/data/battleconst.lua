@@ -261,6 +261,7 @@ slot0.BuffEffectType = {
 	ON_AIRCRAFT_CREATE = "onAircraftCreate",
 	ON_INTERNAL_BULLET_CREATE = "onInternalBulletCreate",
 	ON_MANUAL_BULLET_CREATE = "onManualBulletCreate",
+	ON_BULLET_COLLIDE_BEFORE = "onBulletCollideBefore",
 	ON_BOMB_BULLET_BANG = "onBombBulletBang",
 	ON_TORPEDO_BULLET_BANG = "onTorpedoBulletBang",
 	ON_BULLET_COLLIDE = "onBulletCollide",

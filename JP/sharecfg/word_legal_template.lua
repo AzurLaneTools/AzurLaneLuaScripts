@@ -3811,7 +3811,10 @@ temp = function()
 				["ラ"] = {
 					["ン"] = {
 						["ド"] = {
-							this = true
+							this = true,
+							["改"] = {
+								this = true
+							}
 						}
 					}
 				}
@@ -5743,20 +5746,7 @@ temp = function()
 			this = true
 		},
 		["門"] = {
-			this = true,
-			["("] = {
-				M = {
-					E = {
-						T = {
-							A = {
-								[")"] = {
-									this = true
-								}
-							}
-						}
-					}
-				}
-			}
+			this = true
 		},
 		["春"] = {
 			this = true,
@@ -5806,6 +5796,11 @@ temp = function()
 		},
 		["圻"] = {
 			this = true
+		},
+		["伦"] = {
+			["娜"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -6802,9 +6797,6 @@ temp = function()
 	uv0["瑞"] = {
 		["鶴"] = {
 			this = true
-		},
-		["鳳"] = {
-			this = true
 		}
 	}
 end
@@ -7346,6 +7338,18 @@ end
 temp()
 
 temp = function()
+	uv0["孟"] = {
+		["菲"] = {
+			["斯"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["ナ"] = {
 		["ポ"] = {
 			["リ"] = {
@@ -7664,16 +7668,6 @@ temp()
 temp = function()
 	uv0["吾"] = {
 		["妻"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["陸"] = {
-		["奧"] = {
 			this = true
 		}
 	}

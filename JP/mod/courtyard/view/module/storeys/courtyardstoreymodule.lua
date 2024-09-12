@@ -266,6 +266,8 @@ slot0.UpdateFurnitureState = function(slot0, slot1, slot2, slot3)
 	else
 		slot4:OnCanPlace()
 	end
+
+	slot4:OnUpdateScale(slot1)
 end
 
 slot0.ResetFurnitureSelectedState = function(slot0, slot1)

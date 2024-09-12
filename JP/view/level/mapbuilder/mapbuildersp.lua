@@ -57,17 +57,24 @@ slot0.OnInit = function(slot0)
 	setActive(slot0.unionDownTpl, false)
 
 	slot0.pools = {
-		[slot0.storyNodeTpl] = uv0.New(go(slot0.storyNodeTpl), 16),
-		[slot0.oneLineTpl] = uv0.New(go(slot0.oneLineTpl), 16),
-		[slot0.branchHeadTpl] = uv0.New(go(slot0.branchHeadTpl), 16),
-		[slot0.branchCenterTpl] = uv0.New(go(slot0.branchCenterTpl), 16),
-		[slot0.branchUpTpl] = uv0.New(go(slot0.branchUpTpl), 16),
-		[slot0.branchDownTpl] = uv0.New(go(slot0.branchDownTpl), 16),
-		[slot0.unionTailTpl] = uv0.New(go(slot0.unionTailTpl), 16),
-		[slot0.unionCenterTpl] = uv0.New(go(slot0.unionCenterTpl), 16),
-		[slot0.unionUpTpl] = uv0.New(go(slot0.unionUpTpl), 16),
-		[slot0.unionDownTpl] = uv0.New(go(slot0.unionDownTpl), 16)
+		[slot0.storyNodeTpl] = uv0.New(go(slot0.storyNodeTpl), 0),
+		[slot0.oneLineTpl] = uv0.New(go(slot0.oneLineTpl), 0),
+		[slot0.branchHeadTpl] = uv0.New(go(slot0.branchHeadTpl), 0),
+		[slot0.branchCenterTpl] = uv0.New(go(slot0.branchCenterTpl), 0),
+		[slot0.branchUpTpl] = uv0.New(go(slot0.branchUpTpl), 0),
+		[slot0.branchDownTpl] = uv0.New(go(slot0.branchDownTpl), 0),
+		[slot0.unionTailTpl] = uv0.New(go(slot0.unionTailTpl), 0),
+		[slot0.unionCenterTpl] = uv0.New(go(slot0.unionCenterTpl), 0),
+		[slot0.unionUpTpl] = uv0.New(go(slot0.unionUpTpl), 0),
+		[slot0.unionDownTpl] = uv0.New(go(slot0.unionDownTpl), 0)
 	}
+	slot0.nodeTplWidth = slot0.storyNodeTpl.rect.width
+	slot0.oneLineWidth = slot0.oneLineTpl.rect.width
+	slot0.oneLineHeight = slot0.oneLineTpl.rect.height
+	slot0.branchHeadWidth = slot0.branchHeadTpl.rect.width
+	slot0.branchUpWidth = slot0.branchUpTpl.rect.width
+	slot0.branchUpHeight = slot0.branchUpTpl.rect.height
+	slot0.UnionTailWidth = slot0.unionTailTpl.rect.width
 	slot0.activeItems = {}
 	slot0.displayChapterIDs = {}
 	slot0.chapterTFsById = {}
@@ -149,14 +156,32 @@ slot0.BuildStoryTree = function(slot0)
 	slot0.spStoryIDs = slot1:getConfig("story_id")
 	slot0.spStoryNodeDict = {}
 	slot0.spStoryNodes = {}
+	slot1 = {}
 
 	_.each(slot0.spStoryIDs, function (slot0)
 		uv0.spStoryNodeDict[slot0] = ActivitySpStoryNode.New({
 			configId = slot0
 		})
-
-		table.insert(uv0.spStoryNodes, uv0.spStoryNodeDict[slot0])
+		uv1[uv0.spStoryNodeDict[slot0]:GetPreEvent()] = slot0
 	end)
+
+	slot2 = 0
+
+	slot3 = function()
+		if not uv0[uv1] then
+			return
+		end
+
+		uv1 = uv0[uv1]
+
+		table.insert(uv2.spStoryNodes, uv2.spStoryNodeDict[uv1])
+
+		return true
+	end
+
+	while slot3() do
+	end
+
 	_.each(slot0.spStoryNodes, function (slot0)
 		if #slot0:GetPreNodes() == 0 then
 			uv0 = slot0
@@ -199,11 +224,8 @@ slot0.UpdateView = function(slot0)
 
 	setActive(slot0._tf:Find("Battle"), slot3)
 	setActive(slot0._tf:Find("Story"), not slot3)
-
-	slot4 = getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip()
-
-	setActive(slot0.battleLayer:Find("Story/BattleTip"), slot4)
-	setActive(slot0.storyLayer:Find("Battle/BattleTip"), slot4)
+	setActive(slot0.battleLayer:Find("Story/BattleTip"), false)
+	setActive(slot0.storyLayer:Find("Battle/BattleTip"), getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip())
 	slot0:UpdateStoryTask()
 
 	if slot3 then
@@ -442,8 +464,16 @@ end
 slot0.RecyclePools = function(slot0)
 	for slot4 = #slot0.activeItems, 1, -1 do
 		slot5 = slot0.activeItems[slot4]
+		slot6 = slot0.pools[slot5.template]
 
-		slot0.pools[slot5.template]:Enqueue(slot5.active)
+		if slot5.template == slot0.oneLineTpl then
+			setSizeDelta(slot5.active, {
+				x = slot0.oneLineWidth,
+				y = slot0.oneLineHeight
+			})
+		end
+
+		slot6:Enqueue(slot5.active)
 	end
 
 	table.clean(slot0.activeItems)
@@ -529,198 +559,354 @@ slot0.UpdateStory = function(slot0)
 		slot1[1] = slot2
 	end
 
-	slot3 = slot0.storyReadCount
-	slot4 = slot0.storyReadMax
-	slot5 = 0
-	slot7 = 150
-	slot8 = {
+	slot3 = 0
+	slot5 = 150
+	slot6 = {
 		{
-			layer = 0,
 			node = slot0.storyTree.root,
 			nodePos = Vector2.New(150, 0)
 		}
 	}
-	slot9 = slot0.storyNodeTpl.rect.width
-	slot10 = slot0.oneLineTpl.rect.width
-	slot11 = slot0.branchHeadTpl.rect.width
-	slot12 = slot0.branchUpTpl.rect.width
-	slot13 = slot0.branchUpTpl.rect.height
-	slot14 = slot0.unionTailTpl.rect.width
-	slot15 = 75
-	slot16 = 82
-	slot17 = 32
+	slot7 = slot0.nodeTplWidth
+	slot8 = slot0.oneLineWidth
+	slot9 = slot0.branchHeadWidth
+	slot10 = slot0.branchUpWidth
+	slot11 = slot0.branchUpHeight
+	slot12 = slot0.UnionTailWidth
+	slot13 = 75
+	slot14 = 82
+	slot15 = 32
 
-	while true do
-		if not next(slot8) then
-			break
-		end
+	slot16 = function()
+		(function ()
+			slot0 = uv0:DequeItem(uv0.storyNodeTpl)
+			slot0.name = uv1
 
-		slot18 = table.remove(slot8, 1)
-		slot20 = slot18.node:GetConfigID()
-		slot21 = slot0.storyNodeStatus[slot20].status
-		slot22 = slot0:DequeItem(slot0.storyNodeTpl)
+			setAnchoredPosition(slot0, uv2.nodePos)
 
-		setAnchoredPosition(slot22, slot18.nodePos)
+			uv0.storyNodeTFsById[uv1] = {
+				nodeTF = tf(slot0)
+			}
+		end)()
 
-		slot0.storyNodeTFsById[slot20] = {
-			nodeTF = tf(slot22)
-		}
-		slot23 = slot0.storyTree.childDict[slot20] or {}
+		if #(uv1.storyTree.childDict[table.remove(uv0, 1).node:GetConfigID()] or {}) == 0 then
+			uv2 = slot0.nodePos.x + uv3 + uv4
+		elseif #slot4 == 1 then
+			slot5 = slot4[1]
+			slot6 = slot5:GetConfigID()
+			slot7 = uv1
+			slot7 = slot7:DequeItem(uv1.oneLineTpl)
+			slot7.name = string.format("Line%s_%s", slot2, slot6)
 
-		table.Ipairs(slot23, function (slot0, slot1)
-			slot2, slot3 = nil
-			slot4 = uv0.layer
+			setAnchoredPosition(slot7, slot0.nodePos + Vector2.New(uv3 + uv5, 0))
 
-			if #slot1:GetPreNodes() > 1 then
-				if uv1 == slot1:GetPreNodes()[1] then
-					slot7 = uv4:DequeItem(uv4.unionUpTpl)
+			nextPos = tf(slot7).anchoredPosition + Vector2.New(uv6 + uv7, 0)
+			slot8 = uv1.storyNodeStatus[slot6].status
 
-					setAnchoredPosition(slot7, uv0.nodePos + Vector2.New(uv2 + uv3, 0))
-
-					slot4 = slot4 - 1
-					slot8 = uv4.storyNodeStatus[slot1:GetConfigID()].status
-
-					eachChild(slot7, function (slot0)
-						setImageColor(slot0, Color.NewHex(uv0[uv1]))
-					end)
-
-					return
-				elseif #slot5 == 2 or uv1 == slot5[3] then
-					slot6 = uv2 + uv3
-					slot7 = uv4:DequeItem(uv4.unionDownTpl)
-
-					setAnchoredPosition(slot7, uv0.nodePos + Vector2.New(slot6, 0))
-
-					slot6 = slot6 + uv6
-					slot8 = uv4:DequeItem(uv4.unionTailTpl)
-
-					setAnchoredPosition(slot8, uv0.nodePos + Vector2.New(slot6, uv7))
-
-					slot3 = uv0.nodePos + Vector2.New(slot6 + uv8 + uv9, uv7)
-					slot4 = slot4 + 1
-					slot9 = uv4.storyNodeStatus[slot1:GetConfigID()].status
-
-					eachChild(slot7, function (slot0)
-						setImageColor(slot0, Color.NewHex(uv0[uv1]))
-					end)
-					eachChild(slot8, function (slot0)
-						setImageColor(slot0, Color.NewHex(uv0[uv1]))
-					end)
-				else
-					slot7 = uv4:DequeItem(uv4.unionCenterTpl)
-
-					setAnchoredPosition(slot7, uv0.nodePos + Vector2.New(uv2 + uv3, 0))
-
-					slot8 = uv4.storyNodeStatus[slot1:GetConfigID()].status
-
-					eachChild(slot7, function (slot0)
-						setImageColor(slot0, Color.NewHex(uv0[uv1]))
-					end)
-
-					return
-				end
-			elseif #uv10 == 1 then
-				slot2 = uv4:DequeItem(uv4.oneLineTpl)
-
-				setAnchoredPosition(slot2, uv0.nodePos + Vector2.New(uv2 + uv3, 0))
-
-				slot3 = tf(slot2).anchoredPosition + Vector2.New(uv11 + uv12, 0)
-				slot5 = uv4.storyNodeStatus[slot1:GetConfigID()].status
-
-				eachChild(slot2, function (slot0)
-					setImageColor(slot0, Color.NewHex(uv0[uv1]))
-				end)
-
-				uv4.storyNodeTFsById[uv1].lineTF = tf(slot2)
-			elseif slot0 == 1 then
-				slot5 = uv2 + uv3
-				slot6 = uv4:DequeItem(uv4.branchHeadTpl)
-
-				setAnchoredPosition(slot6, uv0.nodePos + Vector2.New(slot5, 0))
-
-				slot5 = slot5 + uv13
-				slot7 = uv4:DequeItem(uv4.branchUpTpl)
-
-				setAnchoredPosition(slot7, uv0.nodePos + Vector2.New(slot5, 0))
-
-				slot3 = uv0.nodePos + Vector2.New(slot5 + uv6 + uv12, uv7)
-				slot4 = slot4 + 1
-				slot8 = uv4.storyNodeStatus[slot1:GetConfigID()].status
-
-				eachChild(slot7, function (slot0)
-					setImageColor(slot0, Color.NewHex(uv0[uv1]))
-				end)
-				eachChild(slot6, function (slot0)
-					setImageColor(slot0, Color.NewHex(uv0[uv1]))
-				end)
-			elseif slot0 == 3 or slot0 == 2 and #uv10 == 2 then
-				slot5 = uv2 + uv3 + uv13
-				slot6 = uv4:DequeItem(uv4.branchDownTpl)
-
-				setAnchoredPosition(slot6, uv0.nodePos + Vector2.New(slot5, 0))
-
-				slot3 = uv0.nodePos + Vector2.New(slot5 + uv6 + uv12, -uv7)
-				slot4 = slot4 - 1
-				slot7 = uv4.storyNodeStatus[slot1:GetConfigID()].status
-
-				eachChild(slot6, function (slot0)
-					setImageColor(slot0, Color.NewHex(uv0[uv1]))
-				end)
-			else
-				slot5 = uv2 + uv3 + uv13
-				slot6 = uv4:DequeItem(uv4.branchCenterTpl)
-
-				setAnchoredPosition(slot6, uv0.nodePos + Vector2.New(slot5, 0))
-
-				slot3 = uv0.nodePos + Vector2.New(slot5 + uv6 + uv12, 0)
-				slot7 = uv4.storyNodeStatus[slot1:GetConfigID()].status
-
-				eachChild(slot6, function (slot0)
-					setImageColor(slot0, Color.NewHex(uv0[uv1]))
-				end)
-			end
-
-			table.insert(uv14, {
-				node = slot1,
-				nodePos = slot3,
-				layer = slot4
+			eachChild(slot7, function (slot0)
+				setImageColor(slot0, Color.NewHex(uv0[uv1]))
+			end)
+			table.insert(uv0, {
+				node = slot5,
+				nodePos = nextPos
 			})
-		end)
+		elseif #slot4 > 1 then
+			table.Ipairs(slot4, function (slot0, slot1)
+				slot2 = 0
+				slot3 = slot1
 
-		if #slot23 == 0 then
-			slot5 = slot18.nodePos.x + slot9 + slot7
+				slot4 = function()
+					uv0 = uv0 + 1
+
+					assert(#uv1.storyTree.childDict[uv2:GetConfigID()] <= 1)
+
+					if slot0[1] and #slot1:GetPreNodes() == 1 then
+						uv2 = slot1
+
+						return true
+					else
+						uv3 = slot1
+					end
+				end
+
+				while slot4() do
+				end
+
+				uv2[slot0] = slot2
+			end)
+
+			slot7 = _.max({})
+
+			(function ()
+				slot0 = uv0
+				slot0 = slot0:DequeItem(uv0.branchHeadTpl)
+
+				setAnchoredPosition(slot0, uv1)
+
+				uv1 = uv1 + Vector2.New(uv2, 0)
+				slot2 = uv3[1]
+				slot1 = uv0.storyNodeStatus[slot2:GetConfigID()].status
+
+				eachChild(slot0, function (slot0)
+					setImageColor(slot0, Color.NewHex(uv0[uv1]))
+				end)
+			end)()
+			table.Ipairs(slot4, function (slot0, slot1)
+				slot2 = uv0
+
+				if uv1[slot0] < uv2 then
+					slot3 = uv1[slot0]
+					slot2 = (uv3 - slot3 * (uv4 + uv5 + uv6)) / (slot3 + 1)
+				end
+
+				slot3 = slot1:GetConfigID()
+
+				(function ()
+					slot0 = nil
+
+					if uv0 == 1 then
+						setAnchoredPosition(uv1:DequeItem(uv1.branchUpTpl), uv2)
+
+						uv2 = uv2 + Vector2.New(uv3, uv4)
+
+						if uv5[uv0] < uv6 then
+							setSizeDelta(slot0, {
+								x = uv3 + uv7,
+								y = uv4
+							})
+
+							slot1 = tf(slot0):Find("Line_1").sizeDelta
+							slot1.x = slot1.x + uv7
+
+							setSizeDelta(tf(slot0):Find("Line_1"), slot1)
+
+							uv2 = uv2 + Vector2.New(uv7, 0)
+						end
+					elseif uv0 == 3 or uv0 == 2 and #uv8 == 2 then
+						setAnchoredPosition(uv1:DequeItem(uv1.branchDownTpl), uv2)
+
+						uv2 = uv2 + Vector2.New(uv3, -uv4)
+
+						if uv5[uv0] < uv6 then
+							setSizeDelta(slot0, {
+								x = uv3 + uv7,
+								y = uv4
+							})
+
+							slot1 = tf(slot0):Find("Line_1").sizeDelta
+							slot1.x = slot1.x + uv7
+
+							setSizeDelta(tf(slot0):Find("Line_1"), slot1)
+
+							uv2 = uv2 + Vector2.New(uv7, 0)
+						end
+					else
+						setAnchoredPosition(uv1:DequeItem(uv1.branchCenterTpl), uv2)
+
+						uv2 = uv2 + Vector2.New(uv3, 0)
+
+						if uv5[uv0] < uv6 then
+							slot1 = tf(slot0).sizeDelta
+							slot1.x = slot1.x + uv7
+
+							setSizeDelta(slot0, slot1)
+
+							uv2 = uv2 + Vector2.New(uv7, 0)
+						end
+					end
+
+					slot0.name = string.format("Branch%s_%s", uv9, uv10)
+					slot1 = uv1.storyNodeStatus[uv10].status
+
+					eachChild(slot0, function (slot0)
+						setImageColor(slot0, Color.NewHex(uv0[uv1]))
+					end)
+				end)()
+
+				slot4 = uv7 + Vector2.New(uv5, 0)
+				slot6 = uv8
+				slot6 = slot6:DequeItem(uv8.storyNodeTpl)
+				slot6.name = slot3
+
+				setAnchoredPosition(slot6, slot4)
+
+				uv8.storyNodeTFsById[slot3] = {
+					nodeTF = tf(slot6)
+				}
+				slot4 = slot4 + Vector2.New(uv4 + uv6, 0)
+				slot7 = uv8.storyTree.childDict[slot3][1]
+				slot8 = slot1
+
+				slot9 = function()
+					if not uv0 or uv0 == uv1 then
+						return
+					end
+
+					slot0 = uv2:DequeItem(uv2.oneLineTpl)
+					slot3 = uv3
+					slot0.name = string.format("Line%s_%s", slot3:GetConfigID(), uv0:GetConfigID())
+
+					setAnchoredPosition(slot0, uv4)
+
+					uv4 = uv4 + Vector2.New(uv5 + uv6, 0)
+
+					setSizeDelta(slot0, {
+						x = uv5,
+						y = uv2.oneLineHeight
+					})
+
+					slot1 = uv2.storyNodeStatus[uv0:GetConfigID()].status
+
+					eachChild(slot0, function (slot0)
+						setImageColor(slot0, Color.NewHex(uv0[uv1]))
+					end)
+
+					slot2 = uv2:DequeItem(uv2.storyNodeTpl)
+					slot2.name = uv0:GetConfigID()
+
+					setAnchoredPosition(slot2, uv4)
+
+					uv2.storyNodeTFsById[uv0:GetConfigID()] = {
+						nodeTF = tf(slot2)
+					}
+					uv4 = uv4 + Vector2.New(uv8 + uv9, 0)
+					uv3 = uv0
+					uv0 = uv2.storyTree.childDict[uv0:GetConfigID()][1]
+
+					return true
+				end
+
+				while slot9() do
+				end
+
+				if uv14 then
+					slot10 = nil
+
+					if slot0 == 1 then
+						setAnchoredPosition(uv8:DequeItem(uv8.unionUpTpl), slot4)
+
+						if uv1[slot0] < uv2 then
+							setSizeDelta(slot10, {
+								x = uv9 + slot2,
+								y = uv10
+							})
+
+							slot11 = tf(slot10):Find("Line_1").sizeDelta
+							slot11.x = slot11.x + slot2
+
+							setSizeDelta(tf(slot10):Find("Line_1"), slot11)
+
+							slot4 = slot4 + Vector2.New(slot2, 0)
+						end
+					elseif slot0 == 3 or slot0 == 2 and #uv11 == 2 then
+						setAnchoredPosition(uv8:DequeItem(uv8.unionDownTpl), slot4)
+
+						if uv1[slot0] < uv2 then
+							setSizeDelta(slot10, {
+								x = uv9 + slot2,
+								y = uv10
+							})
+
+							slot11 = tf(slot10):Find("Line_1").sizeDelta
+							slot11.x = slot11.x + slot2
+
+							setSizeDelta(tf(slot10):Find("Line_1"), slot11)
+
+							slot4 = slot4 + Vector2.New(slot2, 0)
+						end
+					else
+						setAnchoredPosition(uv8:DequeItem(uv8.unionCenterTpl), slot4)
+
+						if uv1[slot0] < uv2 then
+							slot11 = tf(slot10).sizeDelta
+							slot11.x = slot11.x + slot2
+
+							setSizeDelta(slot10, slot11)
+
+							slot4 = slot4 + Vector2.New(slot2, 0)
+						end
+					end
+
+					slot14 = uv14
+					slot10.name = string.format("Union%s_%s", slot8:GetConfigID(), slot14:GetConfigID())
+					slot12 = uv14
+					slot11 = uv8.storyNodeStatus[slot12:GetConfigID()].status
+
+					eachChild(slot10, function (slot0)
+						setImageColor(slot0, Color.NewHex(uv0[uv1]))
+					end)
+				end
+			end)
+
+			slot9 = slot0.nodePos + Vector2.New(uv3 + uv5, 0) + Vector2.New(slot7 * (uv3 + uv7 + uv5) + (slot7 - 1) * uv6 + uv10, 0)
+
+			if nil then
+				(function ()
+					uv0 = uv0 + Vector2.New(uv1, 0)
+					slot0 = uv2
+					slot0 = slot0:DequeItem(uv2.unionTailTpl)
+
+					setAnchoredPosition(slot0, uv0)
+
+					uv0 = uv0 + Vector2.New(uv3 + uv4, 0)
+					slot2 = uv5
+					slot1 = uv2.storyNodeStatus[slot2:GetConfigID()].status
+
+					eachChild(slot0, function (slot0)
+						setImageColor(slot0, Color.NewHex(uv0[uv1]))
+					end)
+				end)()
+				table.insert(uv0, {
+					node = slot6,
+					nodePos = slot9
+				})
+			else
+				uv2 = slot9 + uv4
+			end
 		end
 
-		slot25 = tf(slot22):Find("info/bk/title_form/title")
+		return next(uv0)
+	end
 
-		if slot21 == uv0 then
-			setScrollText(slot25, slot19:GetUnlockDesc())
-			setTextAlpha(slot25, 0.5)
+	while slot16() do
+	end
+
+	setSizeDelta(slot0.storyContainer, {
+		x = slot3
+	})
+
+	for slot21 = 1, #slot0.spStoryNodes do
+		slot23 = slot17[slot21]:GetConfigID()
+		slot26 = slot0.storyNodeTFsById[slot23].nodeTF:Find("info/bk/title_form/title")
+
+		if slot0.storyNodeStatus[slot23].status == uv0 then
+			setScrollText(slot26, HXSet.hxLan(slot22:GetUnlockDesc()))
+			setTextAlpha(slot26, 0.5)
 		else
-			setScrollText(slot25, slot19:GetDisplayName())
-			setTextAlpha(slot25, 1)
+			setScrollText(slot26, HXSet.hxLan(slot22:GetDisplayName()))
+			setTextAlpha(slot26, 1)
 		end
 
-		slot26 = slot19:GetType()
+		slot27 = slot22:GetType()
 
-		setActive(slot24:Find("circle/lock"), slot21 == uv0)
+		setActive(slot25:Find("circle/lock"), slot24 == uv0)
 
-		if slot21 == uv0 then
-			setActive(slot24:Find("circle/Story"), false)
-			setActive(slot24:Find("circle/Battle"), false)
-			setText(slot24:Find(""))
-		elseif slot26 == ActivitySpStoryNode.NODE_TYPE.STORY then
-			setActive(slot24:Find("circle/Story"), slot26 == ActivitySpStoryNode.NODE_TYPE.STORY)
-			setActive(slot24:Find("circle/Battle"), slot26 == ActivitySpStoryNode.NODE_TYPE.BATTLE)
-			setActive(slot24:Find("circle/Story/Done"), slot21 == uv1)
-		elseif slot26 == ActivitySpStoryNode.NODE_TYPE.BATTLE then
-			setActive(slot24:Find("circle/Story"), slot26 == ActivitySpStoryNode.NODE_TYPE.STORY)
-			setActive(slot24:Find("circle/Battle"), slot26 == ActivitySpStoryNode.NODE_TYPE.BATTLE)
-			setActive(slot24:Find("circle/Battle/Done"), slot21 == uv1)
+		if slot24 == uv0 then
+			setActive(slot25:Find("circle/Story"), false)
+			setActive(slot25:Find("circle/Battle"), false)
+			setText(slot25:Find(""))
+		elseif slot27 == ActivitySpStoryNode.NODE_TYPE.STORY then
+			setActive(slot25:Find("circle/Story"), slot27 == ActivitySpStoryNode.NODE_TYPE.STORY)
+			setActive(slot25:Find("circle/Battle"), slot27 == ActivitySpStoryNode.NODE_TYPE.BATTLE)
+			setActive(slot25:Find("circle/Story/Done"), slot24 == uv1)
+		elseif slot27 == ActivitySpStoryNode.NODE_TYPE.BATTLE then
+			setActive(slot25:Find("circle/Story"), slot27 == ActivitySpStoryNode.NODE_TYPE.STORY)
+			setActive(slot25:Find("circle/Battle"), slot27 == ActivitySpStoryNode.NODE_TYPE.BATTLE)
+			setActive(slot25:Find("circle/Battle/Done"), slot24 == uv1)
 		end
 
-		setActive(slot24:Find("circle/progress"), slot21 == uv1)
-		onButton(slot0, slot24, function ()
+		setActive(slot25:Find("circle/progress"), slot24 == uv1)
+		onButton(slot0, slot25, function ()
 			if uv0 == uv1 then
 				return
 			end
@@ -735,22 +921,19 @@ slot0.UpdateStory = function(slot0)
 		end)
 	end
 
-	setSizeDelta(slot0.storyContainer, {
-		x = slot5
-	})
-	setText(slot0.progressText, slot3 .. "/" .. slot4)
+	setText(slot0.progressText, slot0.storyReadCount .. "/" .. slot0.storyReadMax)
 	setActive(slot0.storyAward, tobool(slot0.storyTask))
 
 	if slot0.storyTask then
-		slot18 = slot0.storyTask:getConfig("award_display")
+		slot20 = slot0.storyTask:getConfig("award_display")
 
 		updateDrop(slot0.storyAward:GetChild(0), Drop.New({
-			type = slot18[1][1],
-			id = slot18[1][2],
-			count = slot18[1][3]
+			type = slot20[1][1],
+			id = slot20[1][2],
+			count = slot20[1][3]
 		}))
 		setActive(slot0.storyAward:Find("get"), slot0.storyTask:getTaskStatus() == 1)
-		setActive(slot0.storyAward:Find("got"), slot20 == 2)
+		setActive(slot0.storyAward:Find("got"), slot22 == 2)
 		onButton(slot0, slot0.storyAward, function ()
 			uv0:emit(BaseUI.ON_DROP, uv1)
 		end)

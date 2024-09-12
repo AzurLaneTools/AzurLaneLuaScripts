@@ -339,7 +339,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 429
+		key_value = 431
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1923,7 +1923,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 428
+		key_value = 432
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -3724,5 +3724,68 @@ pg.gameset = {
 	activity_town_special_work = {
 		description = "",
 		key_value = 8
+	},
+	new_login_extra_voice = {
+		key_value = 0,
+		description = {
+			"jp_7th",
+			{
+				{
+					{
+						2024,
+						9,
+						12
+					},
+					{
+						0,
+						0,
+						0
+					}
+				},
+				{
+					{
+						2024,
+						10,
+						10
+					},
+					{
+						23,
+						59,
+						59,
+						59
+					}
+				}
+			},
+			126
+		}
+	},
+	no_share_skin_tip = {
+		key_value = 0,
+		description = {
+			{
+				{
+					30405,
+					"no_share_skin_tianchengzhanlie"
+				},
+				{
+					30715,
+					"no_share_skin_tianchenghangmu"
+				}
+			},
+			{
+				{
+					30507,
+					"no_share_skin_jiahehangmu"
+				},
+				{
+					30702,
+					"no_share_skin_jiahezhanlie"
+				}
+			}
+		}
+	},
+	new_auto_unlock_combat_ui = {
+		description = "101|103",
+		key_value = 0
 	}
 }

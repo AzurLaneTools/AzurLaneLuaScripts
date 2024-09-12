@@ -1617,6 +1617,34 @@ pg.name_code = {
 		code = "長門(META)",
 		nation = 0
 	},
+	[231] = {
+		name = "渡良瀬",
+		type = 1,
+		id = 231,
+		code = "渡良瀬",
+		nation = 0
+	},
+	[232] = {
+		name = "比叡(META)",
+		type = 1,
+		id = 232,
+		code = "比叡(META)",
+		nation = 0
+	},
+	[233] = {
+		name = "綾瀬",
+		type = 1,
+		id = 233,
+		code = "綾瀬",
+		nation = 0
+	},
+	[234] = {
+		name = "涼波",
+		type = 1,
+		id = 234,
+		code = "涼波",
+		nation = 0
+	},
 	[250] = {
 		name = "伊9",
 		type = 1,

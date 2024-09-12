@@ -32,41 +32,47 @@ slot4.onBulletHitFunc = function(slot0, slot1, slot2)
 		return
 	end
 
-	slot8, slot9 = slot3:HandleDamage(slot4, slot6:GetUnitData())
-	slot10 = nil
+	slot4:BuffTrigger(uv3.Battle.BattleConst.BuffEffectType.ON_BULLET_COLLIDE_BEFORE, {
+		_bullet = slot4,
+		equipIndex = slot4:GetWeapon():GetEquipmentIndex(),
+		bulletTag = slot4:GetExtraTag()
+	})
+
+	slot9, slot10 = slot3:HandleDamage(slot4, slot6:GetUnitData())
+	slot11 = nil
 
 	if slot6:GetGO() then
-		if slot8 then
-			slot11, slot12 = uv0.GetFXPool():GetFX(slot0:GetMissFXID())
-			slot13 = slot6:GetUnitData():GetBoxSize()
+		if slot9 then
+			slot12, slot13 = uv0.GetFXPool():GetFX(slot0:GetMissFXID())
+			slot14 = slot6:GetUnitData():GetBoxSize()
 
 			if math.random(0, 1) == 0 then
-				slot14 = -1
+				slot15 = -1
 			end
 
-			pg.EffectMgr.GetInstance():PlayBattleEffect(slot11, Vector3((math.random() - 0.5) * slot13.x, 0, slot13.z * slot14):Add(slot6:GetPosition()):Add(slot12), true)
+			pg.EffectMgr.GetInstance():PlayBattleEffect(slot12, Vector3((math.random() - 0.5) * slot14.x, 0, slot14.z * slot15):Add(slot6:GetPosition()):Add(slot13), true)
 			uv3.Battle.PlayBattleSFX(slot4:GetMissSFX())
 		else
-			slot10 = slot6:AddFX(slot0:GetFXID())
+			slot11 = slot6:AddFX(slot0:GetFXID())
 
 			uv3.Battle.PlayBattleSFX(slot4:GetHitSFX())
 
-			slot12 = slot0:GetPosition() - slot6:GetPosition()
-			slot12.x = slot12.x * slot7:GetDirection()
-			slot13 = slot10.transform.localPosition
-			slot12.y = math.cos(math.deg2Rad * (uv4 * slot6:GetTf().localRotation).eulerAngles.x) * slot12.z
-			slot12.z = 0
+			slot13 = slot0:GetPosition() - slot6:GetPosition()
+			slot13.x = slot13.x * slot7:GetDirection()
+			slot14 = slot11.transform.localPosition
+			slot13.y = math.cos(math.deg2Rad * (uv4 * slot6:GetTf().localRotation).eulerAngles.x) * slot13.z
+			slot13.z = 0
 
-			slot13:Add(slot12 / slot6:GetInitScale())
+			slot14:Add(slot13 / slot6:GetInitScale())
 
-			slot10.transform.localPosition = slot13
+			slot11.transform.localPosition = slot14
 		end
 	end
 
-	if slot10 and slot7:GetIFF() == slot3:GetFoeCode() then
-		slot11 = slot10.transform
-		slot12 = slot11.localRotation
-		slot11.localRotation = Vector3(slot12.x, 180, slot12.z)
+	if slot11 and slot7:GetIFF() == slot3:GetFoeCode() then
+		slot12 = slot11.transform
+		slot13 = slot12.localRotation
+		slot12.localRotation = Vector3(slot13.x, 180, slot13.z)
 	end
 
 	if slot4:GetPierceCount() <= 0 then

@@ -110705,6 +110705,2991 @@ _G.pg.base.task_data_template[20528] = {
 }
 
 
+_G.pg.base.task_data_template[20529] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903260,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "召集者任务可获得PT：35",
+	desc = "艦隊を出撃させ、25回S評価で勝利せよ！",
+	sub_type = 24,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20529,
+	target_num = 25,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65018,
+			35
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20530] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903261,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "召集者任务可获得PT：35",
+	desc = "戦術教室で戦術訓練を6回遂行せよ",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20530,
+	target_num = 6,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65018,
+			35
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20531] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903262,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "召集者任务可获得PT：35",
+	desc = "艦隊を出撃させ、敵中枢艦隊を5回撃破せよ！",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20531,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65018,
+			35
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20532] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903263,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "召集者任务可获得PT：35",
+	desc = "演習を10回行う",
+	sub_type = 27,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20532,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65018,
+			35
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20533] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903264,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "召集者任务可获得PT：35",
+	desc = "敵艦を250隻撃沈せよ！",
+	sub_type = 11,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20533,
+	target_num = 250,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65018,
+			35
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20534] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903265,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "召集者任务可获得PT：35",
+	desc = "艦隊を出撃させ、35回S評価で勝利せよ！",
+	sub_type = 24,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20534,
+	target_num = 35,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65018,
+			35
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20535] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903266,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "召集者任务可获得PT：35",
+	desc = "軍事委託を10回遂行する",
+	sub_type = 80,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20535,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65018,
+			35
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20536] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903267,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "召集者任务可获得PT：35",
+	desc = "艦隊を出撃させ、敵中枢艦隊を8回撃破せよ！",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20536,
+	target_num = 8,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65018,
+			35
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20537] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903268,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "召集者任务可获得PT：35",
+	desc = "「強化」を20回行う",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20537,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65018,
+			35
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20538] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903269,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "召集者任务可获得PT：35",
+	desc = "敵艦を350隻撃沈せよ！",
+	sub_type = 11,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20538,
+	target_num = 350,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65018,
+			35
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20539] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903270,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "召集者任务可获得PT：35",
+	desc = "艦隊を出撃させ、45回S評価で勝利せよ！",
+	sub_type = 24,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20539,
+	target_num = 45,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65018,
+			35
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20540] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903271,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "召集者任务可获得PT：35",
+	desc = "デイリーチャレンジを3回クリアする",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20540,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65018,
+			35
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20541] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903272,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "召集者任务可获得PT：40",
+	desc = "艦隊を出撃させ、敵中枢艦隊を10回撃破せよ！",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20541,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65018,
+			40
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20542] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903273,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "召集者任务可获得PT：40",
+	desc = "敵艦を500隻撃沈せよ！",
+	sub_type = 11,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20542,
+	target_num = 500,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65018,
+			40
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20543] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903202,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "現役指揮官入手Pt：30",
+	desc = "ゲームにログインせよ！",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20543,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			14,
+			301,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20544] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903203,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "現役指揮官入手Pt：30",
+	desc = "ハードステージを3回クリアする",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20544,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30305,
+			5
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+
+_G.pg.base.task_data_template[20545] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903204,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "現役指揮官入手Pt：30",
+	desc = "1回建造する",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20545,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			42060,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20546] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903205,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "現役指揮官入手Pt：30",
+	desc = "ハードステージを3回クリアする",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20546,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+
+_G.pg.base.task_data_template[20547] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903206,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "現役指揮官入手Pt：25",
+	desc = "寮舎で食糧を5回補充する",
+	sub_type = 61,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20547,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			50005,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20548] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903207,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "現役指揮官入手Pt：25",
+	desc = "ハードステージを3回クリアする",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20548,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30310,
+			5
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+
+_G.pg.base.task_data_template[20549] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903208,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "現役指揮官入手Pt：25",
+	desc = "「デイリーチャレンジ」を三回行う ",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20549,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54034,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20550] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903209,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "現役指揮官入手Pt：25",
+	desc = "ハードステージを3回クリアする",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20550,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+
+_G.pg.base.task_data_template[20551] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903210,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "現役指揮官入手Pt：20",
+	desc = "軍事委託を3回行う",
+	sub_type = 80,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20551,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15003,
+			3
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20552] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903211,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "現役指揮官入手Pt：20",
+	desc = "ハードステージを3回クリアする",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20552,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			15,
+			301,
+			1
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+
+_G.pg.base.task_data_template[20553] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903212,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "現役指揮官入手Pt：20",
+	desc = "艦を5回強化する",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20553,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20554] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903213,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "現役指揮官入手Pt：20",
+	desc = "ハードステージを3回クリアする",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20554,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+
+_G.pg.base.task_data_template[20555] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903214,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "現役指揮官入手Pt：15",
+	desc = "演習を2回行う",
+	sub_type = 27,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20555,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			1000
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20556] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903215,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "現役指揮官入手Pt：15",
+	desc = "ハードステージを3回クリアする",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20556,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30309,
+			5
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+
+_G.pg.base.task_data_template[20557] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903216,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "現役指揮官入手Pt：15",
+	desc = "1回建造する",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20557,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			42060,
+			3
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20558] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903217,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "現役指揮官入手Pt：15",
+	desc = "ハードステージを3回クリアする",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20558,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+
+_G.pg.base.task_data_template[20559] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903218,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "現役指揮官入手Pt：15",
+	desc = "寮舎で食糧を5回補充する",
+	sub_type = 61,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20559,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			50006,
+			4
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20560] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903219,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "現役指揮官入手Pt：15",
+	desc = "ハードステージを3回クリアする",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20560,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+
+_G.pg.base.task_data_template[20561] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903220,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "現役指揮官入手Pt：15",
+	desc = "軍事委託を3回行う",
+	sub_type = 80,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20561,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15003,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20562] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903221,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "現役指揮官入手Pt：15",
+	desc = "ハードステージを3回クリアする",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20562,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			42060,
+			5
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+
+_G.pg.base.task_data_template[20563] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903222,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "現役指揮官入手Pt：10",
+	desc = "「デイリーチャレンジ」を三回行う ",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20563,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54034,
+			3
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20564] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903223,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "現役指揮官入手Pt：10",
+	desc = "ハードステージを3回クリアする",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20564,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+
+_G.pg.base.task_data_template[20565] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903224,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "現役指揮官入手Pt：10",
+	desc = "艦を5回強化する",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20565,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			10
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20566] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903225,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "現役指揮官入手Pt：10",
+	desc = "ハードステージを3回クリアする",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20566,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+
+_G.pg.base.task_data_template[20567] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903226,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "現役指揮官入手Pt：10",
+	desc = "演習を2回行う",
+	sub_type = 27,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20567,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			42060,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20568] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903227,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "現役指揮官入手Pt：10",
+	desc = "ハードステージを3回クリアする",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20568,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			200
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+
+_G.pg.base.task_data_template[20569] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903228,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "現役指揮官入手Pt：10",
+	desc = "1回建造する",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20569,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			3
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20570] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903229,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "現役指揮官入手Pt：10",
+	desc = "ハードステージを3回クリアする",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20570,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30307,
+			5
+		}
+	},
+	scene = {
+		"HARD_MAP"
+	}
+}
+
+
+_G.pg.base.task_data_template[20571] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903317,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『天城航母活动』-日常建造",
+	desc = "3回建造する",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20571,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65019,
+			300
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20572] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903318,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『天城航母活动』-日常出击",
+	desc = "艦隊を出撃させ、15回勝利せよ！",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20572,
+	target_num = 15,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65019,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20573] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903319,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『天城航母活动』-日常困难本",
+	desc = "任意のハードステージを1回クリアせよ",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20573,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65019,
+			150
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20574] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903320,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『天城航母活动』通关A1/C1",
+	desc = "イベントステージA1かC1をクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20575",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20574,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1850001,
+		1850021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			65019,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5562
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20575] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903321,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『天城航母活动』通关A2/C2",
+	desc = "イベントステージA2かC2をクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20576",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20575,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1850002,
+		1850022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			65019,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5562
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20576] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903322,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『天城航母活动』通关A3/C3",
+	desc = "イベントステージA3かC3をクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20577",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20576,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1850003,
+		1850023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			65019,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5562
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20577] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903323,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『天城航母活动』通关B1/D1",
+	desc = "イベントステージB1かD1をクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20578",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20577,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1850004,
+		1850024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			65019,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5563
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20578] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903324,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『天城航母活动』通关B2/D2",
+	desc = "イベントステージB2かD2をクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20579",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20578,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1850005,
+		1850025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			65019,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5563
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20579] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903325,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『天城航母活动』通关B3/D3",
+	desc = "イベントステージB3かD3をクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20580",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20579,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1850006,
+		1850026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			65019,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5563
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20580] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903326,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『天城航母活动』通关SP",
+	desc = "イベントステージSPをクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20580,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1850041",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1850025,
+			chapterId = 1850041
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20581] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903327,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『天城航母活动』通关EX",
+	desc = "EXステージをクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20581,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1850051,
+		1850052
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1850026,
+			chapterId = 1850051
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20582] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903328,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『天城航母活动』通关D3",
+	desc = "イベントステージD3をクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20582,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1850026",
+	open_need = {},
+	award_display = {
+		{
+			5,
+			287,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1850012,
+			chapterId = 1850026
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20583] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903329,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『天城航母活动』A1/C1的3星",
+	desc = "A1かC1の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20584",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20583,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1850001,
+		1850021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5562
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20584] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903330,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『天城航母活动』A2/C2的3星",
+	desc = "A2かC2の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20585",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20584,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1850002,
+		1850022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5562
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20585] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903331,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『天城航母活动』A3/C3的3星",
+	desc = "A3かC3の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20586",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20585,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1850003,
+		1850023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18033,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5562
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20586] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903332,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『天城航母活动』B1/D1的3星",
+	desc = "B1かD1の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20587",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20586,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1850004,
+		1850024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5563
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20587] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903333,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『天城航母活动』B2/D2的3星",
+	desc = "B2かD2の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20588",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20587,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1850005,
+		1850025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5563
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20588] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903334,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『天城航母活动』B3/D3的3星",
+	desc = "B3かD3の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20588,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1850006,
+		1850026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18033,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5563
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20589] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903335,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『天城航母活动』通关任务10次",
+	desc = "『絳染む　丹華の詠歌』特別ステージ10回クリア",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20589,
+	target_num = 10,
+	fix_task = 0,
+	target_id = {
+		1850001,
+		1850002,
+		1850003,
+		1850004,
+		1850005,
+		1850006,
+		1850021,
+		1850022,
+		1850023,
+		1850024,
+		1850025,
+		1850026,
+		1850041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65019,
+			500
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20590] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903336,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『天城航母活动』通关任务30次",
+	desc = "『絳染む　丹華の詠歌』特別ステージ30回クリア",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20590,
+	target_num = 30,
+	fix_task = 0,
+	target_id = {
+		1850001,
+		1850002,
+		1850003,
+		1850004,
+		1850005,
+		1850006,
+		1850021,
+		1850022,
+		1850023,
+		1850024,
+		1850025,
+		1850026,
+		1850041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65019,
+			1500
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20591] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903337,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『天城航母活动』通关任务60次",
+	desc = "『絳染む　丹華の詠歌』特別ステージ60回クリア",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20591,
+	target_num = 60,
+	fix_task = 0,
+	target_id = {
+		1850001,
+		1850002,
+		1850003,
+		1850004,
+		1850005,
+		1850006,
+		1850021,
+		1850022,
+		1850023,
+		1850024,
+		1850025,
+		1850026,
+		1850041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65019,
+			3000
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20592] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903338,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『天城航母活动』外观装备箱保底",
+	desc = "装備外装箱（楽園ドリーム）を20個開ける",
+	sub_type = 52,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20592,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "30360",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30545,
+			1
+		}
+	},
+	scene = {
+		"SHOP",
+		{
+			warp = "shopstreet"
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20593] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903339,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『天城航母活动』剧情模式通关",
+	desc = "ストーリーモードですべてのストーリーを読む",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20593,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		6334
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			5
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1850001,
+			displayMode = 2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20594] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903340,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『天城航母活动』登录送皮肤体验券活动",
+	desc = "ゲームにログインせよ！",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20594,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			432,
+			3
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[30201] = {
 	target_id_2 = "",
 	guild_coin_award = 0,

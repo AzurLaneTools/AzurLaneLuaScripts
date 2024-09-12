@@ -23,7 +23,7 @@ slot0.SIDE_ALIGNMENT = {
 slot1 = nil
 
 slot0.getUIName = function(slot0)
-	return "CombatUI"
+	return "CombatUI" .. ys.Battle.BattleState.GetCombatSkinKey()
 end
 
 slot0.getBGM = function(slot0)
@@ -161,10 +161,28 @@ slot0.SkillHrzPop = function(slot0, slot1, slot2, slot3, slot4)
 		end
 
 		slot6 = slot0._skillFloatCMDPool
-		slot7 = slot5:GetCommanderHrzIcon(slot3)
+
+		if ys.Battle.BattleState.GetCombatSkinKey() == "Standard" then
+			slot7 = slot5:GetCommanderHrzIcon(slot3)
+		else
+			slot7 = slot5:GetCommanderIcon(slot3)
+		end
 	else
 		slot6 = slot0._skillFloatPool
-		slot7 = (slot2:GetUnitType() ~= ys.Battle.BattleConst.UnitType.PLAYER_UNIT or slot5:GetCharacterIcon(slot4 or slot2:GetTemplate().painting)) and slot5:GetCharacterIcon(pg.enemy_data_statistics[slot2:GetTemplateID()].icon)
+
+		if slot2:GetUnitType() == ys.Battle.BattleConst.UnitType.PLAYER_UNIT then
+			slot8 = slot4 or slot2:GetTemplate().painting
+
+			if ys.Battle.BattleState.GetCombatSkinKey() == "Standard" then
+				slot7 = slot5:GetCharacterIcon(slot8)
+			else
+				slot7 = slot5:GetCharacterSquareIcon(slot8)
+			end
+		elseif ys.Battle.BattleState.GetCombatSkinKey() == "Standard" then
+			slot7 = slot5:GetCharacterIcon(pg.enemy_data_statistics[slot2:GetTemplateID()].icon)
+		else
+			slot7 = slot5:GetCharacterSquareIcon(pg.enemy_data_statistics[slot2:GetTemplateID()].icon)
+		end
 	end
 
 	slot9 = slot6:GetObject().transform
@@ -172,7 +190,7 @@ slot0.SkillHrzPop = function(slot0, slot1, slot2, slot3, slot4)
 
 	setText(findTF(slot9, "skill/skill_name/Text"), HXSet.hxLan(slot1))
 
-	findTF(slot9, "skill/icon"):GetComponent(typeof(Image)).sprite = slot7
+	findTF(slot9, "skill/icon_mask/icon"):GetComponent(typeof(Image)).sprite = slot7
 	slot12, slot13 = slot2:GetIFF()
 	slot13 = (slot2:GetIFF() ~= ys.Battle.BattleConfig.FRIENDLY_CODE or Color.New(1, 1, 1, 1)) and Color.New(1, 0.33, 0.33, 1)
 	findTF(slot9, "skill/skill_name"):GetComponent(typeof(Image)).color = slot13
@@ -326,9 +344,18 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0:findTF("PauseBtn"), function ()
 		uv0:emit(BattleMediator.ON_PAUSE)
 	end, SFX_CONFIRM)
-	onButton(slot0, slot0:findTF("chatBtn"), function ()
+
+	slot0._chatBtn = slot0:findTF("chatBtn")
+	slot2 = slot0._chatBtn:GetComponent(typeof(Animation))
+
+	onButton(slot0, slot0._chatBtn, function ()
 		uv0:emit(BattleMediator.ON_CHAT, uv0:findTF("chatContainer"))
-		setActive(uv1, false)
+
+		if not uv1 then
+			setActive(uv0._chatBtn, false)
+		else
+			uv1:Play("chatbtn_out")
+		end
 	end)
 	onToggle(slot0, slot0:findTF("AutoBtn"), function (slot0)
 		slot1 = uv0:GetBattleType()
@@ -339,7 +366,18 @@ slot0.didEnter = function(slot0)
 			system = slot1
 		})
 		uv0:ActiveBot(ys.Battle.BattleState.IsAutoBotActive(slot1))
-		setActive(uv2, uv0:ChatUseable())
+
+		if uv0:ChatUseable() then
+			setActive(uv1._chatBtn, true)
+
+			if uv2 then
+				uv2:Play("chatbtn_in")
+			end
+		elseif uv2 then
+			uv2:Play("chatbtn_out")
+		else
+			setActive(uv1._chatBtn, false)
+		end
 	end, SFX_PANEL, SFX_PANEL)
 	onButton(slot0, slot0:findTF("CardPuzzleConsole/relic/bg"), function ()
 		uv1:emit(BattleMediator.ON_PUZZLE_RELIC, {
@@ -389,7 +427,7 @@ slot0.didEnter = function(slot0)
 		triggerButton(slot0:findTF("PauseBtn"))
 	end
 
-	setActive(slot2, slot1:ChatUseable())
+	setActive(slot0._chatBtn, slot1:ChatUseable())
 end
 
 slot0.onBackPressed = function(slot0)
@@ -525,11 +563,32 @@ slot0.initPauseWindow = function(slot0)
 
 	onButton(slot0, slot0.leaveBtn, function ()
 		uv0:emit(BattleMediator.ON_LEAVE)
+
+		if uv0.leaveBtn:GetComponent(typeof(Animation)) then
+			slot0:Play("msgbox_btn_blink")
+		end
 	end)
 	onButton(slot0, slot0.continueBtn, function ()
-		setActive(uv0.pauseWindow, false)
-		pg.UIMgr.GetInstance():UnblurPanel(uv0.pauseWindow, uv0._tf)
-		uv1:Resume()
+		if uv0.continueBtn:GetComponent(typeof(Animation)) then
+			slot0:Play("msgbox_btn_blink")
+		end
+
+		if uv0.pauseWindow:GetComponent(typeof(Animation)) then
+			slot1:Play("msgbox_out")
+
+			slot2 = uv0.pauseWindow
+			slot2 = slot2:GetComponent(typeof(DftAniEvent))
+
+			slot2:SetEndEvent(function (slot0)
+				setActive(uv0.pauseWindow, false)
+				pg.UIMgr.GetInstance():UnblurPanel(uv0.pauseWindow, uv0._tf)
+				uv1:Resume()
+			end)
+		else
+			setActive(uv0.pauseWindow, false)
+			pg.UIMgr.GetInstance():UnblurPanel(uv0.pauseWindow, uv0._tf)
+			uv1:Resume()
+		end
 	end)
 	onButton(slot0, slot0:findTF("help", slot0.pauseWindow), function ()
 		if BATTLE_DEBUG and PLATFORM == 7 then
@@ -603,7 +662,19 @@ slot0.AddUIFX = function(slot0, slot1, slot2)
 end
 
 slot0.OnCloseChat = function(slot0)
-	setActive(slot0:findTF("chatBtn"), ys.Battle.BattleState.GetInstance():IsBotActive())
+	slot2 = slot0._chatBtn:GetComponent(typeof(Animation))
+
+	if ys.Battle.BattleState.GetInstance():IsBotActive() then
+		setActive(slot0._chatBtn, true)
+
+		if slot2 then
+			slot2:Play("chatbtn_in")
+		end
+	elseif slot2 then
+		slot2:Play("chatbtn_out")
+	else
+		setActive(slot0._chatBtn, false)
+	end
 end
 
 slot0.clear = function(slot0)

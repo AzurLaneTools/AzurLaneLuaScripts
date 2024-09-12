@@ -84,7 +84,7 @@ slot0.IsLegalForPlay = function(slot0, slot1, slot2, slot3, slot4)
 		return false, nil
 	end
 
-	if not slot0:CheckFullExp(slot1, slot2) then
+	if not slot0:CheckFullExp(slot1, slot2) and not slot1:isSameGroup(slot2.groupId) then
 		return false, i18n("commander_exp_limit")
 	end
 

@@ -157,6 +157,8 @@ pg.furniture_data_template = setmetatable({
 			283,
 			284,
 			285,
+			287,
+			288,
 			100002,
 			100003,
 			100004,
@@ -3186,6 +3188,23 @@ pg.furniture_data_template = setmetatable({
 			313301,
 			313302,
 			313303
+		},
+		[114] = {
+			314001,
+			314002,
+			314101,
+			314102,
+			314103,
+			314104,
+			314105,
+			314106,
+			314107,
+			314108,
+			314109,
+			314110,
+			314111,
+			314112,
+			314113
 		}
 	},
 	get_id_list_by_tag = {
@@ -5073,7 +5092,18 @@ pg.furniture_data_template = setmetatable({
 			313109,
 			313110,
 			313111,
-			313112
+			313112,
+			314101,
+			314102,
+			314103,
+			314104,
+			314105,
+			314106,
+			314107,
+			314108,
+			314109,
+			314110,
+			314111
 		},
 		{
 			1108,
@@ -5330,6 +5360,7 @@ pg.furniture_data_template = setmetatable({
 			281,
 			282,
 			285,
+			288,
 			100002,
 			100003,
 			100004,
@@ -5453,7 +5484,8 @@ pg.furniture_data_template = setmetatable({
 			276,
 			278,
 			283,
-			284
+			284,
+			287
 		},
 		[7] = {
 			223,
@@ -5645,7 +5677,8 @@ pg.furniture_data_template = setmetatable({
 			311116,
 			312114,
 			312115,
-			313113
+			313113,
+			314113
 		},
 		[4] = {
 			1001,
@@ -5745,7 +5778,8 @@ pg.furniture_data_template = setmetatable({
 			310001,
 			311001,
 			312001,
-			313001
+			313001,
+			314001
 		},
 		[3] = {
 			1002,
@@ -5846,7 +5880,8 @@ pg.furniture_data_template = setmetatable({
 			310002,
 			311002,
 			312002,
-			313002
+			313002,
+			314002
 		},
 		[5] = {
 			1301,
@@ -6188,7 +6223,8 @@ pg.furniture_data_template = setmetatable({
 			312302,
 			313301,
 			313302,
-			313303
+			313303,
+			314112
 		}
 	},
 	get_id_list_by_type = {
@@ -6291,7 +6327,8 @@ pg.furniture_data_template = setmetatable({
 			310002,
 			311002,
 			312002,
-			313002
+			313002,
+			314002
 		},
 		[7] = {
 			1,
@@ -6426,6 +6463,8 @@ pg.furniture_data_template = setmetatable({
 			283,
 			284,
 			285,
+			287,
+			288,
 			100002,
 			100004,
 			100005,
@@ -8355,7 +8394,18 @@ pg.furniture_data_template = setmetatable({
 			313110,
 			313111,
 			313112,
-			313113
+			313113,
+			314101,
+			314102,
+			314103,
+			314104,
+			314106,
+			314107,
+			314108,
+			314109,
+			314110,
+			314111,
+			314113
 		},
 		[11] = {
 			143,
@@ -8751,7 +8801,8 @@ pg.furniture_data_template = setmetatable({
 			312302,
 			313301,
 			313302,
-			313303
+			313303,
+			314112
 		},
 		[13] = {
 			100015,
@@ -8863,7 +8914,8 @@ pg.furniture_data_template = setmetatable({
 			310001,
 			311001,
 			312001,
-			313001
+			313001,
+			314001
 		},
 		[5] = {
 			1101,
@@ -9187,7 +9239,8 @@ pg.furniture_data_template = setmetatable({
 			94103,
 			97105,
 			97119,
-			307108
+			307108,
+			314105
 		},
 		[10] = {
 			28306,
@@ -9365,6 +9418,8 @@ pg.furniture_data_template = setmetatable({
 		283,
 		284,
 		285,
+		287,
+		288,
 		100002,
 		100003,
 		100004,
@@ -12193,7 +12248,22 @@ pg.furniture_data_template = setmetatable({
 		313113,
 		313301,
 		313302,
-		313303
+		313303,
+		314001,
+		314002,
+		314101,
+		314102,
+		314103,
+		314104,
+		314105,
+		314106,
+		314107,
+		314108,
+		314109,
+		314110,
+		314111,
+		314112,
+		314113
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -19866,6 +19936,119 @@ pg.base.furniture_data_template = {
 				"zhengqihuoche",
 				"normal"
 			}
+		},
+		interAction_group = {}
+	},
+	[287] = {
+		can_rotate = 0,
+		describe = "「去りし人に残された破片の景色。追憶が形作るはナラクの狭間」\n「絳染む丹華の詠歌」に参加した指揮官に贈る",
+		gain_by = "絳染む丹華の詠歌",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 8,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "ナラクの一瞬",
+		advice = 0,
+		id = 287,
+		icon = "fukongdaoxunzhangicon",
+		comfortable = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"fukongdaoxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[288] = {
+		can_rotate = 0,
+		describe = "またもややってきたおめでたい日！桂花に飾られたステージでお月さまと踊ろう！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "yuebingwutaiicon",
+		count = 1,
+		name = "月ウサギステージ",
+		advice = 0,
+		id = 288,
+		tag = 6,
+		comfortable = 2,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yuebingwutaiB",
+				"normal"
+			},
+			{
+				"yuebingwutaiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
@@ -145778,6 +145961,933 @@ pg.base.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[314001] = {
+		can_rotate = 0,
+		describe = "楽園の夢、ドリームランド！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mly/dibanmly",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 114,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "楽園ドリームの床",
+		advice = 0,
+		icon = "dibanmlyicon",
+		id = 314001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[314002] = {
+		can_rotate = 0,
+		describe = "楽園の夢、ドリームランド！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		themeId = 114,
+		count = 1,
+		name = "楽園ドリームの壁",
+		advice = 0,
+		id = 314002,
+		icon = "qiangbimlyicon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbimly",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[314101] = {
+		can_rotate = 0,
+		describe = "弾力に富んだやわらかーい長椅子。…本当のゼリーじゃないよね？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mly/changyimly",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 114,
+		count = 1,
+		name = "ゼリーの長椅子",
+		advice = 0,
+		id = 314101,
+		icon = "changyimlyicon",
+		comfortable = 2,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					23.3,
+					20.1
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[314102] = {
+		can_rotate = 0,
+		describe = "お願いをする時に星を間違えないでね！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mly/langanmly",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 114,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "星のフェンス",
+		advice = 0,
+		icon = "langanmlyicon",
+		id = 314102,
+		comfortable = 2,
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[314103] = {
+		can_rotate = 0,
+		describe = "アトラクションへの行き方を示す標識……なんか読めなくない？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mly/lubiaomly",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 114,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "楽園の道標",
+		advice = 0,
+		icon = "lubiaomlyicon",
+		id = 314103,
+		comfortable = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[314104] = {
+		can_rotate = 0,
+		describe = "列に並んでピョー！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mly/paiduijiumly",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 114,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "楽園の隊列饅頭",
+		advice = 0,
+		icon = "paiduijiumlyicon",
+		id = 314104,
+		comfortable = 3,
+		size = {
+			2,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[314105] = {
+		can_rotate = 0,
+		describe = "そろそろ開園するの？！なんかドキドキしてきた！",
+		gain_by = "",
+		type = 9,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mly/rukoumly",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 114,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		count = 1,
+		name = "楽園の入口",
+		advice = 0,
+		icon = "rukoumlyicon",
+		id = 314105,
+		comfortable = 3,
+		size = {
+			7,
+			1
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[314106] = {
+		can_rotate = 0,
+		describe = "お茶を飲みながらお菓子を食べられて、お風呂にも入れる……？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mly/yugangmly",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 114,
+		count = 1,
+		name = "楽園のカップバス",
+		advice = 0,
+		id = 314106,
+		icon = "yugangmlyicon",
+		comfortable = 3,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					2.4,
+					-87.5
+				},
+				{
+					-1,
+					1
+				},
+				"mly/yugangmly_using",
+				0,
+				{
+					{
+						2,
+						64.5
+					},
+					{
+						236.2,
+						288.1
+					},
+					"mly/yugangmly_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[314107] = {
+		can_rotate = 0,
+		describe = "頂上ではドリームランドを一望できるよ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 114,
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "motianlunmlyicon",
+		count = 1,
+		name = "ドリーム観覧車",
+		advice = 0,
+		id = 314107,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"motianlunmlyB",
+				"normal"
+			},
+			{
+				"motianlunmlyT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					16.6,
+					36.96
+				},
+				{
+					194,
+					268
+				},
+				"mly/motianlunmly_mask"
+			},
+			{
+				-22,
+				-50
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_extra = {
+			{
+				{
+					{
+						16.6,
+						36.96
+					},
+					{
+						194,
+						268
+					},
+					"mly/motianlunmly_mask"
+				},
+				{
+					-22,
+					-50
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{
+					{
+						16.6,
+						36.96
+					},
+					{
+						194,
+						268
+					},
+					"mly/motianlunmly_mask"
+				},
+				{
+					-22,
+					-50
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{
+					{
+						16.6,
+						36.96
+					},
+					{
+						194,
+						268
+					},
+					"mly/motianlunmly_mask"
+				},
+				{
+					-22,
+					-50
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char4",
+				1
+			},
+			{
+				"char3",
+				1
+			},
+			{
+				"char2",
+				1
+			},
+			{
+				"char1",
+				1
+			}
+		},
+		interAction_group = {}
+	},
+	[314108] = {
+		can_rotate = 0,
+		describe = "落ちた星が釣れるかもしれないピョ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 114,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "diaoyudianmlyicon",
+		count = 1,
+		name = "楽園の釣り堀",
+		advice = 0,
+		id = 314108,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			8,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"diaoyudianmlyB",
+				"normal"
+			},
+			{
+				"diaoyudianmlyT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[314109] = {
+		can_rotate = 0,
+		describe = "水でむせてしまうから、滑る時はあまり大きな声で叫ばないように！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 114,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "huatimlyicon",
+		count = 1,
+		name = "楽園の滑り台",
+		advice = 0,
+		id = 314109,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			7,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huatimlyB",
+				"normal"
+			},
+			{
+				"huatimlyT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit",
+						1,
+						"sit"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{
+				{
+					-100,
+					225
+				},
+				{
+					532.3,
+					413
+				},
+				"mly/huatimly_mask"
+			},
+			{
+				80,
+				-173
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[314110] = {
+		can_rotate = 0,
+		describe = "ぐるぐる…わああ！飛んでるみたい！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 114,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "mumamlyicon",
+		count = 1,
+		name = "楽園の回転木馬",
+		advice = 0,
+		id = 314110,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			7,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"mumamlyB",
+				"normal"
+			},
+			{
+				"mumamlyT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[314111] = {
+		can_rotate = 0,
+		describe = "目を閉じて願いをすれば、饅頭像がウィンクしてくれるって！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 114,
+		count = 1,
+		name = "楽園の噴水",
+		advice = 0,
+		id = 314111,
+		icon = "penquanmlyicon",
+		comfortable = 4,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"penquanmly",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[314112] = {
+		can_rotate = 0,
+		describe = "招待状を提示するように～",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		themeId = 114,
+		count = 1,
+		name = "キャッスルの入口",
+		advice = 0,
+		id = 314112,
+		icon = "chengmenmlyicon",
+		comfortable = 4,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chengmenmly",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[314113] = {
+		can_rotate = 0,
+		describe = "お腹が減った時に後ろに現れるというキッチンカー。結構美味しいと評判",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 114,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "canchemlyicon",
+		count = 1,
+		name = "お化けキッチンカー",
+		advice = 0,
+		id = 314113,
+		tag = 7,
+		comfortable = 4,
+		size = {
+			8,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"canchemly",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance1",
+						nil,
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				},
+				{
+					{
+						"dance1",
+						"dance2",
+						"dance3"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	}

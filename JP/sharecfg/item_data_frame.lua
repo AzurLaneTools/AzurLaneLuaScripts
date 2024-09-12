@@ -72,6 +72,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Sixth　Anniversary！</color>\n　六周年記念イベントで開放可能",
 		scene = {}
 	},
+	[109] = {
+		name = "七周年記念",
+		gain_by = "",
+		time_second = 0,
+		id = 109,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>7thアニバーサリーは指揮官とともにーー</color>\n7周年記念イベント二参加した指揮官に贈る",
+		scene = {}
+	},
 	[201] = {
 		name = "チャレンジャー",
 		gain_by = "",
@@ -461,11 +470,11 @@ pg.item_data_frame = {
 	},
 	[332] = {
 		name = "蘇りし炎",
-		gain_by = "",
+		gain_by = "絳染む丹華の詠歌",
 		time_second = 0,
 		id = 332,
 		time_limit_type = 0,
-		desc = "今後開催するイベントで入手できます",
+		desc = "<color=#ffffff>「狐鳴けば鳳舞い、炎を浴びて生を授かる。命は変わろうと、想いは変わらず。」</color>「絳染む丹華の詠歌」に参加した指揮官に贈る",
 		scene = {}
 	},
 	[401] = {
@@ -729,6 +738,7 @@ pg.item_data_frame = {
 		105,
 		107,
 		108,
+		109,
 		201,
 		202,
 		203,

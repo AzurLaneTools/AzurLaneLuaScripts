@@ -50,6 +50,12 @@ slot1.Queue = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	slot0:StartSend()
 end
 
+slot1.RemoveLoginPacket = function(slot0)
+	if #slot0.toSends > 0 and slot0.toSends[1][1] == 10022 then
+		table.remove(slot0.toSends, 1)
+	end
+end
+
 slot1.StartSend = function(slot0)
 	if #slot0.toSends > 0 then
 		slot0:Send(unpack(slot0.toSends[1]))

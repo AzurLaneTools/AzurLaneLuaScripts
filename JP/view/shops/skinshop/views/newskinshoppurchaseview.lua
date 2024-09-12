@@ -10,6 +10,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.toggle = slot0:findTF("frame")
 	slot0.title = slot0:findTF("frame/title")
 	slot0.text = slot0:findTF("frame/bg/Text"):GetComponent(typeof(Text))
+	slot0.tipText = slot0:findTF("frame/bg/tipText")
 	slot0.textWithGift = slot0:findTF("frame/gift_bg/Text"):GetComponent(typeof(Text))
 	slot0.dropsList = UIItemList.New(slot0:findTF("frame/gift_bg/gift/drops"), slot0:findTF("frame/gift_bg/gift/drops/item"))
 end
@@ -58,6 +59,7 @@ slot0.Flush = function(slot0, slot1)
 
 	slot0:GetText(slot3).text = i18n("skin_shop_buy_confirm", slot1:GetPrice() <= getProxy(PlayerProxy):getRawData():getChargeGem() and COLOR_GREEN or COLOR_RED, slot6, pg.ship_skin_template[slot1:getSkinId()].name)
 
+	slot0:SetTipText(slot1:getSkinId())
 	slot0:FlushGift(slot2)
 end
 
@@ -77,6 +79,36 @@ slot0.FlushGift = function(slot0, slot1)
 		end
 	end)
 	slot0.dropsList:align(#slot1)
+end
+
+slot0.SetTipText = function(slot0, slot1)
+	slot2 = pg.ship_skin_template[slot1].ship_group
+	slot4, slot5 = nil
+
+	for slot9, slot10 in ipairs(pg.gameset.no_share_skin_tip.description) do
+		for slot14, slot15 in ipairs(slot10) do
+			if slot2 == slot15[1] then
+				slot4 = slot10
+				slot5 = slot14
+
+				break
+			end
+		end
+	end
+
+	setActive(slot0.tipText, slot5)
+
+	if slot5 then
+		slot6 = ""
+
+		for slot10, slot11 in ipairs(slot4) do
+			if slot10 ~= slot5 then
+				slot6 = (slot6 ~= "" or i18n(slot11[2])) and i18n(slot11[2]) .. "、" .. i18n(slot11[2])
+			end
+		end
+
+		setText(slot0.tipText, i18n("no_share_skin_gametip", i18n(slot4[slot5][2]), slot6))
+	end
 end
 
 slot0.Hide = function(slot0)

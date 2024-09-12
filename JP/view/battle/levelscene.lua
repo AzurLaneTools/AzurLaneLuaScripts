@@ -1474,7 +1474,8 @@ slot6 = {
 	[slot5.TYPESSSS] = "MapBuilderSSSS",
 	[slot5.TYPEATELIER] = "MapBuilderAtelier",
 	[slot5.TYPESENRANKAGURA] = "MapBuilderSenrankagura",
-	[slot5.TYPESP] = "MapBuilderSP"
+	[slot5.TYPESP] = "MapBuilderSP",
+	[slot5.TYPESPFULL] = "MapBuilderSPFull"
 }
 
 slot0.SwitchMapBuilder = function(slot0, slot1)

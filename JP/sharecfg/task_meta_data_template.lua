@@ -252,6 +252,11 @@ pg.task_meta_data_template = setmetatable({
 		100323,
 		100324,
 		100325,
+		100331,
+		100332,
+		100333,
+		100334,
+		100335,
 		200001,
 		200002,
 		200003,
@@ -343,7 +348,11 @@ pg.task_meta_data_template = setmetatable({
 		200231,
 		200232,
 		200233,
-		200234
+		200234,
+		200241,
+		200242,
+		200243,
+		200244
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2348,6 +2357,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "長門(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
+	[100331] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970405",
+		id = 100331,
+		target_num = 1,
+		desc = "比叡(META)を編成した艦隊で1回戦闘を勝利する"
+	},
+	[100332] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970405",
+		id = 100332,
+		target_num = 1,
+		desc = "比叡(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+	},
+	[100333] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970405",
+		id = 100333,
+		target_num = 1,
+		desc = "比叡(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+	},
+	[100334] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970405",
+		id = 100334,
+		target_num = 1,
+		desc = "比叡(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+	},
+	[100335] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970405",
+		id = 100335,
+		target_num = 1,
+		desc = "比叡(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3083,5 +3132,37 @@ pg.base.task_meta_data_template = {
 		id = 200234,
 		target_num = 1,
 		desc = "セイレーン作戦で長門(META)を含めた艦隊でLv100+の敵を撃破"
+	},
+	[200241] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970405",
+		id = 200241,
+		target_num = 1,
+		desc = "セイレーン作戦で比叡(META)を含めた艦隊で1回勝利する"
+	},
+	[200242] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970405",
+		id = 200242,
+		target_num = 1,
+		desc = "セイレーン作戦で比叡(META)を含めた艦隊でLv70+の敵を撃破"
+	},
+	[200243] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970405",
+		id = 200243,
+		target_num = 1,
+		desc = "セイレーン作戦で比叡(META)を含めた艦隊でLv90+の敵を撃破"
+	},
+	[200244] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970405",
+		id = 200244,
+		target_num = 1,
+		desc = "セイレーン作戦で比叡(META)を含めた艦隊でLv100+の敵を撃破"
 	}
 }

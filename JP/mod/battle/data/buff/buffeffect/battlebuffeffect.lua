@@ -529,6 +529,14 @@ slot3.onBulletCollide = function(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2)
 end
 
+slot3.onBulletCollideBefore = function(slot0, slot1, slot2, slot3)
+	if not slot0:equipIndexRequire(slot3.equipIndex) then
+		return
+	end
+
+	slot0:onTrigger(slot1, slot2)
+end
+
 slot3.onBombBulletBang = function(slot0, slot1, slot2, slot3)
 	if not slot0:equipIndexRequire(slot3.equipIndex) then
 		return

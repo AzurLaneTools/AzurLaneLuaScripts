@@ -13,7 +13,7 @@ pg.activity_const = {
 		act_id = 122
 	},
 	ACTIVITY_PRAY_POOL = {
-		act_id = 5339
+		act_id = 5579
 	},
 	ACT_NPC_SHIP_ID = {
 		act_id = 5361

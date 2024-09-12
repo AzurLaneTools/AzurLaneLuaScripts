@@ -48,12 +48,19 @@ pg.activity_banner_notice = {
 			"COWBOY_TOWN_BACKHILL"
 		}
 	},
+	{
+		id = 7,
+		param = {
+			"DREAMLAND_PREVIEW"
+		}
+	},
 	all = {
 		1,
 		2,
 		3,
 		4,
 		5,
-		6
+		6,
+		7
 	}
 }

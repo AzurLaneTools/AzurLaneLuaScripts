@@ -938,6 +938,9 @@ pg.ship_data_group = setmetatable({
 		[30190] = {
 			608
 		},
+		[30191] = {
+			663
+		},
 		[30157] = {
 			296
 		},
@@ -980,6 +983,9 @@ pg.ship_data_group = setmetatable({
 		[30214] = {
 			310
 		},
+		[30226] = {
+			662
+		},
 		[30210] = {
 			188
 		},
@@ -1003,6 +1009,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[30224] = {
 			635
+		},
+		[30225] = {
+			661
 		},
 		[30301] = {
 			190
@@ -1177,6 +1186,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[30712] = {
 			520
+		},
+		[30715] = {
+			660
 		},
 		[30801] = {
 			338
@@ -2194,6 +2206,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[970506] = {
 			30037
+		},
+		[970405] = {
+			30038
 		}
 	},
 	get_id_list_by_handbook_type = {
@@ -2510,6 +2525,7 @@ pg.ship_data_group = setmetatable({
 			567,
 			607,
 			608,
+			663,
 			296,
 			297,
 			449,
@@ -2524,6 +2540,7 @@ pg.ship_data_group = setmetatable({
 			308,
 			309,
 			310,
+			662,
 			188,
 			189,
 			382,
@@ -2532,6 +2549,7 @@ pg.ship_data_group = setmetatable({
 			322,
 			324,
 			635,
+			661,
 			190,
 			191,
 			192,
@@ -2590,6 +2608,7 @@ pg.ship_data_group = setmetatable({
 			231,
 			639,
 			520,
+			660,
 			338,
 			396,
 			339,
@@ -2934,7 +2953,8 @@ pg.ship_data_group = setmetatable({
 			30034,
 			30035,
 			30036,
-			30037
+			30037,
+			30038
 		}
 	},
 	all = {
@@ -3250,6 +3270,7 @@ pg.ship_data_group = setmetatable({
 		567,
 		607,
 		608,
+		663,
 		296,
 		297,
 		449,
@@ -3264,6 +3285,7 @@ pg.ship_data_group = setmetatable({
 		308,
 		309,
 		310,
+		662,
 		188,
 		189,
 		382,
@@ -3272,6 +3294,7 @@ pg.ship_data_group = setmetatable({
 		322,
 		324,
 		635,
+		661,
 		190,
 		191,
 		192,
@@ -3330,6 +3353,7 @@ pg.ship_data_group = setmetatable({
 		231,
 		639,
 		520,
+		660,
 		338,
 		396,
 		339,
@@ -3668,7 +3692,8 @@ pg.ship_data_group = setmetatable({
 		30034,
 		30035,
 		30036,
-		30037
+		30037,
+		30038
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -8448,10 +8473,10 @@ pg.base.ship_data_group = {
 	[61] = {
 		nationality = 1,
 		type = 5,
-		trans_type = 0,
+		trans_type = 5,
 		handbook_type = 0,
 		redirect_id = 101,
-		trans_skin = 0,
+		trans_skin = 105109,
 		hide = 0,
 		group_type = 10510,
 		index_id = 104,
@@ -8465,8 +8490,17 @@ pg.base.ship_data_group = {
 			"D",
 			"A"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"B",
+			"A"
+		},
+		trans_skill = {
+			150440
+		},
 		description = {
 			{
 				"イベント：闇に堕ちた青き翼",
@@ -18016,6 +18050,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[663] = {
+		nationality = 3,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 30191,
+		index_id = 307,
+		code = 663,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：絳染む　丹華の詠歌",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[296] = {
 		nationality = 3,
 		type = 1,
@@ -18652,6 +18718,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[662] = {
+		nationality = 3,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 30226,
+		index_id = 329,
+		code = 662,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：絳染む　丹華の詠歌",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[188] = {
 		nationality = 3,
 		type = 2,
@@ -18979,6 +19077,38 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"イベント：共鳴のパッション",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[661] = {
+		nationality = 3,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 30225,
+		index_id = 337,
+		code = 661,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"A",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：絳染む　丹華の詠歌",
 				{
 					""
 				},
@@ -21443,6 +21573,38 @@ pg.base.ship_data_group = {
 						projectName = "special",
 						page = 1
 					}
+				},
+				0
+			}
+		}
+	},
+	[660] = {
+		nationality = 3,
+		type = 7,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 30715,
+		index_id = 381,
+		code = 660,
+		share_group_id = {},
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：絳染む　丹華の詠歌",
+				{
+					""
 				},
 				0
 			}
@@ -34030,6 +34192,38 @@ pg.base.ship_data_group = {
 					{
 						autoOpenShipConfigID = 9705061
 					}
+				},
+				0
+			}
+		}
+	},
+	[30038] = {
+		nationality = 97,
+		type = 5,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970405,
+		index_id = 30038,
+		code = 30038,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：絳染む　丹華の詠歌",
+				{
+					""
 				},
 				0
 			}

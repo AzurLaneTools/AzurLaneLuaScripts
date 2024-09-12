@@ -10492,6 +10492,48 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70267] = {
+		id = 70267,
+		name = "上方随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 90,
+					Z2 = 75,
+					moveCount = 240,
+					Z1 = 50,
+					duration = -1,
+					X1 = -20,
+					X2 = -5
+				}
+			}
+		}
+	},
+	[70268] = {
+		id = 70268,
+		name = "下方随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 3,
+				param = {
+					stopCount = 90,
+					Z2 = 50,
+					moveCount = 240,
+					Z1 = 25,
+					duration = -1,
+					X1 = -20,
+					X2 = -5
+				}
+			}
+		}
+	},
 	[70270] = {
 		id = 70270,
 		name = "黑长门 樱花结界转圈",
@@ -10519,6 +10561,73 @@ pg.auto_pilot_template = {
 					antiClockWise = false,
 					duration = 15,
 					x = -43
+				}
+			}
+		}
+	},
+	[70271] = {
+		id = 70271,
+		name = "2024天城航母活动 EX 上方立定",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -10,
+					z = 65
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70272] = {
+		id = 70272,
+		name = "2024天城航母活动 EX 下方立定",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -10,
+					z = 39
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70273] = {
+		id = 70273,
+		name = "2024天城航母活动 EX 转圈移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 4,
+				param = {
+					radius = 13,
+					z = 52,
+					antiClockWise = true,
+					duration = -1,
+					x = -5
 				}
 			}
 		}

@@ -27,7 +27,8 @@ slot0.InitBtns = function(slot0)
 		MainActMedalCollectionBtn.New(slot0.actBtnTpl, slot0.event),
 		MainActSenranBtn.New(slot0.actBtnTpl, slot0.event),
 		MainActBossSingleBtn.New(slot0.actBtnTpl, slot0.event),
-		MainActLayerBtn.New(slot0.actBtnTpl, slot0.event)
+		MainActLayerBtn.New(slot0.actBtnTpl, slot0.event),
+		MainActDreamlandBtn.New(slot0.actBtnTpl, slot0.event)
 	}
 	slot0.specailBtns = {
 		MainActInsBtn.New(slot0._tf, slot0.event),
@@ -36,7 +37,8 @@ slot0.InitBtns = function(slot0)
 		MainActNewServerBtn.New(slot0._tf, slot0.event),
 		MainActDelegationBtn.New(slot0._tf, slot0.event),
 		MainIslandActDelegationBtn.New(slot0._tf, slot0.event),
-		MainVoteEntranceBtn.New(slot0._tf, slot0.event)
+		MainVoteEntranceBtn.New(slot0._tf, slot0.event),
+		MainActCompensatBtn.New(slot0._tf, slot0.event)
 	}
 
 	if pg.SdkMgr.GetInstance():CheckAudit() then
@@ -63,6 +65,12 @@ slot0.Register = function(slot0)
 		uv0:Refresh()
 	end)
 	slot0:bind(GAME.ZERO_HOUR_OP_DONE, function (slot0)
+		uv0:Refresh()
+	end)
+	slot0:bind(CompensateProxy.UPDATE_ATTACHMENT_COUNT, function (slot0)
+		uv0:Refresh()
+	end)
+	slot0:bind(CompensateProxy.All_Compensate_Remove, function (slot0)
 		uv0:Refresh()
 	end)
 end

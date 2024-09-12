@@ -28,7 +28,7 @@ slot0.init = function(slot0)
 	slot0.missileStrikeTargetLine = nil
 	slot0.cellEdges = {}
 	slot0.walls = {}
-	slot0.material_Add = LoadAny("ui/commonUI_atlas", "add", typeof(Material))
+	slot0.material_Add = LoadAny("artresource/effect/common/material/add", "", typeof(Material))
 	slot0.loader = AutoLoader.New()
 end
 
@@ -78,7 +78,7 @@ slot0.AddEdgePool = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = GameObject.New(slot1)
 	slot6:AddComponent(typeof(Image)).enabled = false
 	slot0.edgePools[slot1] = uv0.New(slot6, 32)
-	slot7, slot8 = nil
+	slot7 = nil
 
 	parallelAsync({
 		function (slot0)
@@ -95,31 +95,16 @@ slot0.AddEdgePool = function(slot0, slot1, slot2, slot3, slot4, slot5)
 
 				uv1()
 			end)
-		end,
-		function (slot0)
-			if not uv0 then
-				slot0()
-
-				return
-			end
-
-			slot1 = uv1.loader
-
-			slot1:LoadReference(uv2, uv0, typeof(Material), function (slot0)
-				uv0 = slot0
-
-				uv1()
-			end)
 		end
 	}, function ()
 		slot0 = function(slot0)
 			go(slot0):GetComponent(typeof(Image)).enabled = true
 			slot1.color = type(uv0) == "table" and Color.New(unpack(uv0)) or Color.white
 			slot1.sprite = uv1 and uv2 or nil
-			slot1.material = uv3 and uv4 or nil
+			slot1.material = uv3 or nil
 		end
 
-		if uv5.edgePools[uv6].prefab then
+		if uv4.edgePools[uv5].prefab then
 			slot0(slot1.prefab)
 		end
 
@@ -129,8 +114,8 @@ slot0.AddEdgePool = function(slot0, slot1, slot2, slot3, slot4, slot5)
 			end
 		end
 
-		if uv5.cellEdges[uv6] and next(uv5.cellEdges[uv6]) then
-			for slot5, slot6 in pairs(uv5.cellEdges[uv6]) do
+		if uv4.cellEdges[uv5] and next(uv4.cellEdges[uv5]) then
+			for slot5, slot6 in pairs(uv4.cellEdges[uv5]) do
 				slot0(slot6)
 			end
 		end
@@ -187,7 +172,7 @@ slot0.initAll = function(slot0, slot1)
 				1,
 				0,
 				0
-			}, "add")
+			}, uv0.material_Add)
 			uv0:UpdateFloor()
 			uv0:updateAttachments()
 			uv0:InitWalls()

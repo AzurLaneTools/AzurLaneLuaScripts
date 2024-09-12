@@ -25,13 +25,8 @@ slot0.EQUIP_BAG_SIZE_ITEM = 59100
 slot0.SHIP_BAG_SIZE_ITEM = 59101
 slot0.COMMANDER_BAG_SIZE_ITEM = 59114
 slot0.SPWEAPON_BAG_SIZE_ITEM = 59360
-slot0.Tec_Ship_Gift_Type = 3
-slot0.Tec_Ship_Gift_Arg = {
-	High = 1,
-	Up = 3,
-	Normal = 2,
-	Show = 0
-}
+slot0.SHOW_TYPE_TECH = "tech"
+slot0.SHOW_TYPE_BATTLE_UI = "uigift"
 slot0.CUR_PACKET_ID = 27
 
 slot0.Ctor = function(slot0)
