@@ -84,7 +84,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "敦刻尔克举着一盘造型各异却又不失精致甜点，脸上笑容灿烂。",
+			say = "敦刻尔克举着一盘造型各异却又不失精致的甜点，脸上笑容灿烂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			actor = 105172,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Hoeny吃完早餐以后就来尝尝我的手工冰淇淋吧！",
+			say = "Honey吃完早餐以后就来尝尝我的手工冰淇淋吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

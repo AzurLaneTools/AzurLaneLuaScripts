@@ -32828,3 +32828,13 @@ _G.pg.base.gametip.settings_flagship_interaction = {
 _G.pg.base.gametip.settings_enter_standby_mode_time = {
 	tip = "進入待機模式所需時間"
 }
+
+
+_G.pg.base.gametip.attire_combatui_preview = {
+	tip = "前往預覽"
+}
+
+
+_G.pg.base.gametip.attire_combatui_confirm = {
+	tip = "裝扮"
+}

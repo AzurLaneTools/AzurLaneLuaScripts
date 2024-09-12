@@ -3687,6 +3687,31 @@ pg.gameset = {
 		description = "",
 		key_value = 5
 	},
+	no_share_skin_tip = {
+		key_value = 0,
+		description = {
+			{
+				{
+					30405,
+					"no_share_skin_tianchengzhanlie"
+				},
+				{
+					30715,
+					"no_share_skin_tianchenghangmu"
+				}
+			},
+			{
+				{
+					30507,
+					"no_share_skin_jiahehangmu"
+				},
+				{
+					30702,
+					"no_share_skin_jiahezhanlie"
+				}
+			}
+		}
+	},
 	new_auto_unlock_combat_ui = {
 		description = "101",
 		key_value = 0

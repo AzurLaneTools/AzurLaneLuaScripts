@@ -3,6 +3,11 @@ slot1 = Vector3(0, 1, 40)
 slot2 = Vector3(35, 1, 40)
 slot3 = Vector3(30, 0, 0)
 slot4 = Vector3(330, 0, 0)
+slot5 = Vector3(-532, 157, -675)
+slot6 = Vector3(-665, 70, -675)
+slot7 = Vector3(473, 157, -675)
+slot8 = Vector3(-791, 70, -675)
+slot9 = Vector3(464, 70, -675)
 
 slot0.Ctor = function(slot0, slot1)
 	slot0.rawImage = slot1
@@ -251,33 +256,20 @@ end
 
 slot0.updateBarPos = function(slot0)
 	if slot0.seaCharacter then
-		slot1 = Vector3(slot0.seaCharacter.transform.localPosition.x, slot0.seaCharacter.transform.localPosition.y, slot0.seaCharacter.transform.localPosition.z)
-		slot1.x = -7.88
-		slot1.y = 1.66
-		slot1.z = 0
-		slot0.heroBar.position = slot1
-		slot2 = Clone(slot1)
-		slot2.y = slot2.y - 1.5
-		slot0.flagShipMark.position = slot2
-
-		if slot0.chatPopGo.activeSelf then
-			slot3 = Clone(slot2)
-			slot3.x = slot3.x - 1.5
-			slot0.chatPop.position = slot3
-		end
+		slot0.heroBar.localPosition = uv0
+		slot0.flagShipMark.localPosition = uv1
 	end
 
 	if slot0.seaEnemy then
-		slot1 = Vector3(slot0.seaEnemy.transform.localPosition.x, slot0.seaEnemy.transform.localPosition.y, slot0.seaEnemy.transform.localPosition.z)
-		slot1.x = 7.01
-		slot1.y = 1.66
-		slot1.z = 0
-		slot0.enemyBar.position = slot1
+		slot0.enemyBar.localPosition = uv2
 	end
 end
 
 slot0.updatePopUp = function(slot0)
 	setActive(slot0.chatPop, true)
+
+	slot0.chatPop.localPosition = uv0
+
 	LeanTween.cancel(slot0.chatPop)
 
 	if slot0.chatPop.transform:GetComponent(typeof(Animation)) then
@@ -323,20 +315,11 @@ slot0.updateHPPop = function(slot0)
 		slot0._popNumBundle = slot0._popNumMgr:GetBundle()
 	end
 
-	slot2 = math.random(1, 2) > 1
-	slot3 = slot0._popNumBundle:GetPop(false, true, false, 114, {
+	slot3 = slot0._popNumBundle:GetPop(false, math.random(1, 2) > 1, false, 114, {
 		math.random(1, 4),
 		1
 	})
-	slot4 = {
-		GetReferenceVector = function ()
-			return uv0.seaEnemy.transform.localPosition
-		end
-	}
-	slot5 = Clone(slot0.enemyBar.position)
-	slot5.x = slot5.x - 1.5
-	slot5.y = slot5.y - 1.5
-	slot3._tf.position = slot5
+	slot3._tf.localPosition = uv0
 
 	slot3:Play()
 end

@@ -24845,5 +24845,15 @@ cs.gametip = {
 		881581,
 		126,
 		true
+	},
+	attire_combatui_preview = {
+		881707,
+		99,
+		true
+	},
+	attire_combatui_confirm = {
+		881806,
+		93,
+		true
 	}
 }

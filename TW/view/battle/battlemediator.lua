@@ -308,7 +308,7 @@ slot0.warnFunc = function(slot0, slot1)
 	slot3 = slot0.contextData.system
 	slot4, slot5 = nil
 
-	resumeFuncDeco = function()
+	slot8 = function()
 		if uv0 then
 			uv0()
 		end
@@ -322,12 +322,12 @@ slot0.warnFunc = function(slot0, slot1)
 		modal = true,
 		hideYes = true,
 		hideNo = true,
-		content = (not slot0.contextData.warnMsg or #slot6 <= 0 or i18n(slot6)) and (slot3 ~= SYSTEM_CHALLENGE or i18n("battle_battleMediator_clear_warning")) and (slot3 ~= SYSTEM_SIMULATION or i18n("tech_simulate_quit")) and i18n("battle_battleMediator_quest_exist"),
-		onClose = resumeFuncDeco,
+		content = (not slot0.contextData.warnMsg or #slot7 <= 0 or i18n(slot7)) and (slot3 ~= SYSTEM_CHALLENGE or i18n("battle_battleMediator_clear_warning")) and (slot3 ~= SYSTEM_SIMULATION or i18n("tech_simulate_quit")) and i18n("battle_battleMediator_quest_exist"),
+		onClose = slot8,
 		custom = {
 			{
 				text = "text_cancel",
-				onCallback = resumeFuncDeco,
+				onCallback = slot8,
 				sound = SFX_CANCEL
 			},
 			{
@@ -501,6 +501,7 @@ slot0.GenBattleData = function(slot0)
 	slot1.battleType = slot0.contextData.system
 	slot1.StageTmpId = slot0.contextData.stageId
 	slot1.CMDArgs = slot0.contextData.cmdArgs
+	slot1.isMemory = slot0.contextData.memory
 	slot1.MainUnitList = {}
 	slot1.VanguardUnitList = {}
 	slot1.SubUnitList = {}

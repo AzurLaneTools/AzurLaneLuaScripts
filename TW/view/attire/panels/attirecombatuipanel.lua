@@ -88,11 +88,11 @@ slot0.OnInit = function(slot0)
 
 	slot2 = slot0.confirmBtn
 
-	setText(slot2:Find("Text"), i18n("attire_combatui_preview"))
+	setText(slot2:Find("Text"), i18n("attire_combatui_confirm"))
 
 	slot2 = slot0.previewBtn
 
-	setText(slot2:Find("Text"), i18n("attire_combatui_confirm"))
+	setText(slot2:Find("Text"), i18n("attire_combatui_preview"))
 
 	slot2 = slot0.lockBtn
 

@@ -83,6 +83,8 @@ slot1.ConfigSkin = function(slot0, slot1)
 	slot2:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
 		SetActive(uv0._filledEffect, false)
 	end)
+
+	slot0._animtor = slot1:GetComponent(typeof(Animator))
 end
 
 slot1.GetSkin = function(slot0)
@@ -128,13 +130,25 @@ slot1.OnfilledEffect = function(slot0)
 	SetActive(slot0._filledEffect, true)
 end
 
-slot1.OnOverLoadChange = function(slot0)
+slot1.OnOverLoadChange = function(slot0, slot1)
 	if slot0._progressInfo:IsOverLoad() then
 		slot0._block:SetActive(true)
 		slot0:OnUnfill()
 	else
 		slot0._block:SetActive(false)
 		slot0:OnFilled()
+
+		if slot1 and slot1.Data and slot1.Data.preCast then
+			if slot2 == 0 then
+				quickCheckAndPlayAnimator(slot0._skin, "weapon_button_progress_filled")
+			elseif slot2 > 0 then
+				quickCheckAndPlayAnimator(slot0._skin, "weapon_button_progress_charge")
+			end
+		end
+	end
+
+	if slot1 and slot1.Data and slot1.Data.postCast then
+		quickCheckAndPlayAnimator(slot0._skin, "weapon_button_progress_use")
 	end
 
 	if slot0._progressInfo:GetTotal() > 0 then
