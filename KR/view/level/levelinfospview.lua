@@ -84,7 +84,7 @@ slot0.set = function(slot0, slot1, slot2)
 			return
 		end
 
-		if uv0 ~= 1 then
+		if uv0 ~= 1 or #uv1 == 1 then
 			return
 		end
 

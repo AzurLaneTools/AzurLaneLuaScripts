@@ -4076,7 +4076,7 @@ pg.base.transform_data_template = {
 	},
 	[2810] = {
 		level_limit = 75,
-		name = "뇌격 강화Ⅲ",
+		name = "포격 강화Ⅲ",
 		descrip = "",
 		max_level = 3,
 		skin_id = 0,
@@ -25153,7 +25153,8 @@ pg.base.transform_data_template = {
 주포 슬롯에 장착되어 있던 장비는 창고로 이동됩니다. 
 함종 변경으로 장착이 불가능해진 <color=#92fc63>[특수 장비]</color>는 창고로 돌아갑니다. 
 개조 후, <color=#92fc63>[주포 포좌+1] </color><color=#92fc63>[어뢰 장전 수 -1]</color>
-<color=#92fc63>[전탄발사Ⅱ]</color> 스킬이 <color=#92fc63>[전탄발사·改]</color>로 변경됩니다.]],
+<color=#92fc63>[전탄발사Ⅱ]</color> 스킬이 <color=#92fc63>[전탄발사·改]</color>로 변경됩니다. 
+개조 완료 후 <color=#92fc63>[대잠]</color> 능력치가 0이 되며, <color=#92fc63>소나·대잠 폭탄</color>을 장착할 수 없게 됩니다.]],
 		max_level = 1,
 		skin_id = 302109,
 		use_ship = 1,

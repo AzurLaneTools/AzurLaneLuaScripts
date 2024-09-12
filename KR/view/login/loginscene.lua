@@ -18,7 +18,7 @@ slot0.preload = function(slot0, slot1)
 
 	seriesAsync({
 		function (slot0)
-			buildTempAB("ui/LoginUI2_atlas", function (slot0)
+			AssetBundleHelper.loadAssetBundleAsync("ui/LoginUI2_atlas", function (slot0)
 				table.insert(uv0.iconSpries, slot0:LoadAssetSync("statu_green", typeof(Sprite), true, false))
 				table.insert(uv0.iconSpries, slot0:LoadAssetSync("statu_gray", typeof(Sprite), true, false))
 				table.insert(uv0.iconSpries, slot0:LoadAssetSync("statu_red", typeof(Sprite), true, false))

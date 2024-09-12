@@ -114,6 +114,11 @@ slot0.execute = function(slot0, slot1)
 				pg.m02:sendNotification(GAME.SUBMIT_TASK_DONE, slot1, {
 					uv2.id
 				})
+				pg.m02:sendNotification(GAME.SUBMIT_TASK_AWARD_DOWN, {
+					awards = slot1
+				}, {
+					uv2.id
+				})
 			else
 				pg.TipsMgr.GetInstance():ShowTips(errorTip("task_submitTask", slot0.result))
 

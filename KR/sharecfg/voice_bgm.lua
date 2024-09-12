@@ -136,9 +136,9 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "story-island-soft",
+		default_bgm = "main",
 		special_bgm = "",
-		bgm = "story-island-soft"
+		bgm = "main"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
@@ -1554,5 +1554,10 @@ pg.voice_bgm = {
 		default_bgm = "story-richang-westdaily",
 		special_bgm = "",
 		bgm = "story-richang-westdaily"
+	},
+	RuiFengSpPage = {
+		default_bgm = "story-newsakura",
+		special_bgm = "",
+		bgm = "story-newsakura"
 	}
 }

@@ -14,7 +14,7 @@ slot0.__call = function(slot0)
 			slot1 = uv0.path
 
 			xpcall(function ()
-				buildTempAB(uv0, function (slot0)
+				AssetBundleHelper.loadAssetBundleAsync(uv0, function (slot0)
 					pg.UIMgr.GetInstance():LoadingOff()
 
 					if uv0.stopped then

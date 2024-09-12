@@ -451,12 +451,12 @@ pg.item_data_frame = {
 		scene = {}
 	},
 	[331] = {
-		name = "스플렌디드 하트",
-		gain_by = "",
+		name = "팽배한 마음",
+		gain_by = "강철의 날개와 바람",
 		time_second = 0,
 		id = 331,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「멈추지 않는 뜨거운 심장 박동,  파도를 가르는 강철 바람」</color>\n「강철의 날개와 바람」 이벤트 참가 보상.",
+		desc = "<color=#ffffff>「멈추지 않는 뜨거운 심장 박동,  파도를 가르는 강철 바람」</color>\n「하늘을 가르는 강철의 날개」 이벤트 참가 보상.",
 		scene = {}
 	},
 	[401] = {

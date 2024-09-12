@@ -55,6 +55,12 @@ end
 slot0.onAdded = function(slot0)
 end
 
+slot0.setTaskFinish = function(slot0)
+	slot0.submitTime = 1
+
+	slot0:updateProgress(slot0:getConfig("target_num"))
+end
+
 slot0.updateProgress = function(slot0, slot1)
 	slot0.progress = slot1
 end

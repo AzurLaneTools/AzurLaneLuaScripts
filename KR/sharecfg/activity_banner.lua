@@ -12,8 +12,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					8,
-					29
+					9,
+					12
 				},
 				{
 					0,
@@ -25,7 +25,7 @@ pg.activity_banner = {
 				{
 					2024,
 					9,
-					11
+					25
 				},
 				{
 					23,
@@ -36,6 +36,7 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 2,
 		pic = "temp2",
@@ -44,35 +45,10 @@ pg.activity_banner = {
 			{
 				wrap = 2
 			}
-		},
-		time = {
-			{
-				{
-					2024,
-					8,
-					8
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					8,
-					28
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 3,
 		pic = "temp8",
@@ -81,36 +57,10 @@ pg.activity_banner = {
 			{
 				shipGroupId = 19903
 			}
-		},
-		time = {
-			{
-				{
-					2024,
-					8,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					9,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
-		param = "5521",
+		param = "5543",
 		type = 3,
 		id = 4,
 		pic = "temp3",
@@ -118,8 +68,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					8,
-					29
+					9,
+					12
 				},
 				{
 					0,
@@ -131,7 +81,7 @@ pg.activity_banner = {
 				{
 					2024,
 					9,
-					12
+					26
 				},
 				{
 					23,
@@ -148,7 +98,7 @@ pg.activity_banner = {
 		param = {
 			"scene get boat",
 			{
-				projectName = "new",
+				projectName = "special",
 				page = 1
 			}
 		},
@@ -156,8 +106,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					8,
-					29
+					9,
+					12
 				},
 				{
 					0,
@@ -169,7 +119,7 @@ pg.activity_banner = {
 				{
 					2024,
 					9,
-					12
+					26
 				},
 				{
 					23,
@@ -180,6 +130,7 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 6,
 		pic = "temp5",
@@ -188,57 +139,36 @@ pg.activity_banner = {
 			{
 				wrap = 2
 			}
+		}
+	},
+	{
+		type = 2,
+		id = 7,
+		pic = "temp6",
+		param = {
+			"scene level",
+			{
+				open_remaster = true
+			}
 		},
 		time = {
 			{
 				{
 					2024,
-					8,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					9,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "5537",
-		type = 3,
-		id = 7,
-		pic = "temp6",
-		time = {
-			{
-				{
-					2024,
-					8,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
 					9,
 					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					9,
+					26
 				},
 				{
 					23,
@@ -253,14 +183,15 @@ pg.activity_banner = {
 		id = 8,
 		pic = "temp7",
 		param = {
-			"COWBOY_TOWN_BACKHILL"
+			"scene skinshop",
+			{}
 		},
 		time = {
 			{
 				{
 					2024,
-					8,
-					29
+					9,
+					12
 				},
 				{
 					0,
@@ -272,7 +203,7 @@ pg.activity_banner = {
 				{
 					2024,
 					9,
-					12
+					25
 				},
 				{
 					23,
@@ -283,37 +214,12 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 9,
 		pic = "temp9",
 		param = {
 			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2024,
-					8,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					9,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[90] = {
@@ -325,8 +231,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					8,
-					29
+					9,
+					12
 				},
 				{
 					0,
@@ -338,7 +244,7 @@ pg.activity_banner = {
 				{
 					2024,
 					9,
-					11
+					25
 				},
 				{
 					23,
@@ -364,15 +270,22 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
+		time = "stop",
 		type = 12,
 		id = 99,
-		pic = "limit_skin",
+		pic = "limit_skin"
+	},
+	[100] = {
+		param = "계화꽃떡|월궁에서 따온 계수나무로 만든 떡. 향긋하고 맛있다! <color=#6dd329> (60분 동안 숙소 경험치 효율 5% 상승) </color>",
+		type = 10,
+		id = 100,
+		pic = "guihuagao",
 		time = {
 			{
 				{
 					2024,
-					8,
-					29
+					9,
+					12
 				},
 				{
 					0,
@@ -384,7 +297,7 @@ pg.activity_banner = {
 				{
 					2024,
 					9,
-					11
+					26
 				},
 				{
 					23,
@@ -393,13 +306,6 @@ pg.activity_banner = {
 				}
 			}
 		}
-	},
-	[100] = {
-		param = "饺子|广受欢迎的传统特色食物！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
-		time = "stop",
-		type = 10,
-		id = 100,
-		pic = "dumpling"
 	},
 	[200] = {
 		param = "",
@@ -422,12 +328,12 @@ pg.activity_banner = {
 			3,
 			5,
 			6,
+			7,
 			8,
 			9
 		},
 		[3] = {
-			4,
-			7
+			4
 		},
 		[9] = {
 			90,

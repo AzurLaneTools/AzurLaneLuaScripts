@@ -190,16 +190,12 @@ slot0.UpdatePage = function(slot0, slot1)
 end
 
 slot0.addTask = function(slot0, slot1)
-	print("add task " .. slot1.id)
-
 	slot0.contextData.taskVOsById[slot1.id] = slot1
 
 	slot0:UpdatePage(slot0._currentToggleType)
 end
 
 slot0.removeTask = function(slot0, slot1)
-	print("revemo task " .. slot1.id)
-
 	slot0.contextData.taskVOsById[slot1.id] = nil
 
 	slot0:UpdatePage(slot0._currentToggleType)

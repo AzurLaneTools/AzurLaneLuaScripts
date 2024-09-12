@@ -150,6 +150,7 @@ pg.furniture_data_template = setmetatable({
 			284,
 			285,
 			286,
+			288,
 			100002,
 			100003,
 			100004,
@@ -5307,6 +5308,7 @@ pg.furniture_data_template = setmetatable({
 			282,
 			285,
 			286,
+			288,
 			100002,
 			100003,
 			100004,
@@ -6390,6 +6392,7 @@ pg.furniture_data_template = setmetatable({
 			284,
 			285,
 			286,
+			288,
 			100002,
 			100004,
 			100005,
@@ -9314,6 +9317,7 @@ pg.furniture_data_template = setmetatable({
 		284,
 		285,
 		286,
+		288,
 		100002,
 		100003,
 		100004,
@@ -19602,6 +19606,76 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[288] = {
+		can_rotate = 0,
+		describe = "기념할 만한 명절에 계수나무 꽃으로 장식한 무대에서 달과 함께 춤을 춰보세요~",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "yuebingwutaiicon",
+		count = 1,
+		name = "달토끼 무대",
+		advice = 0,
+		id = 288,
+		tag = 6,
+		comfortable = 2,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yuebingwutaiB",
+				"normal"
+			},
+			{
+				"yuebingwutaiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		can_rotate = 0,
 		describe = "높이~ 더 높이 띄우자~ 에엣?! 너무 높아 너무 높이 갔어!! (QㅁQ);;;",
@@ -23363,7 +23437,7 @@ pg.base.furniture_data_template = {
 	},
 	[100054] = {
 		can_rotate = 0,
-		describe = "우주의 모든 이치를... 응... 알 것... 같아...",
+		describe = "우주의 모든 이치를… 응… 알 것… 같아…",
 		gain_by = "",
 		type = 7,
 		dir = 0,

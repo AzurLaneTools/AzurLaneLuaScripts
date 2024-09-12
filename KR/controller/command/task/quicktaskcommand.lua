@@ -49,52 +49,76 @@ slot0.execute = function(slot0, slot1)
 	end
 
 	seriesAsync(slot8, function ()
-		slot0 = pg.ConnectionMgr.GetInstance()
-		slot4 = uv0
+		slot0 = false
+		slot1 = nil
 
-		slot0:Send(20013, {
-			id = uv0.id,
-			item_cost = slot4:getConfig("quick_finish")
-		}, 20014, function (slot0)
-			uv0:removeSubmittingTask(uv1)
+		if uv0:isActivityTask() and table.contains(TotalTaskProxy.normal_task_type, pg.activity_template[uv0:getActId()].type) then
+			slot0 = true
+		end
 
-			if slot0.result == 0 then
-				getProxy(BagProxy):removeItemById(tonumber(Item.QUICK_TASK_PASS_TICKET_ID), tonumber(uv2:getConfig("quick_finish")))
-				uv3.AddGuildLivness(uv2)
+		if slot0 then
+			slot2 = pg.ConnectionMgr.GetInstance()
+			slot6 = uv0
 
-				slot4 = PlayerConst.addTranDrop(slot0.award_list, {
-					taskId = uv2.id
-				})
+			slot2:Send(20207, {
+				act_id = slot1,
+				task_id = uv0.id,
+				item_cost = slot6:getConfig("quick_finish")
+			}, 20208, function (slot0)
+				QuickTaskCommand.OnQuickTaskComplete(slot0, uv0, uv1)
+			end)
+		else
+			slot2 = pg.ConnectionMgr.GetInstance()
+			slot6 = uv0
 
-				if uv2:getConfig("type") ~= 8 then
-					uv0:removeTask(uv2)
-				else
-					uv2.submitTime = 1
-
-					uv0:updateTask(uv2)
-				end
-
-				pg.TipsMgr.GetInstance():ShowTips(i18n("battlepass_task_quickfinish3"))
-				uv4:sendNotification(GAME.SUBMIT_TASK_DONE, slot4, {
-					uv2.id
-				})
-
-				if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST_MONITOR) and not slot6:isEnd() and table.contains(slot6:getConfig("config_data")[1] or {}, uv2.id) then
-					slot5:monitorTaskList(slot6)
-				end
-
-				if uv5 then
-					uv5(true)
-				end
-			else
-				pg.TipsMgr.GetInstance():ShowTips(errorTip("task_submitTask", slot0.result))
-
-				if uv5 then
-					uv5(false)
-				end
-			end
-		end)
+			slot2:Send(20013, {
+				id = uv0.id,
+				item_cost = slot6:getConfig("quick_finish")
+			}, 20014, function (slot0)
+				QuickTaskCommand.OnQuickTaskComplete(slot0, uv0, uv1)
+			end)
+		end
 	end)
+end
+
+slot0.OnQuickTaskComplete = function(slot0, slot1, slot2)
+	getProxy(TaskProxy):removeSubmittingTask(slot1.id)
+
+	if slot0.result == 0 then
+		getProxy(BagProxy):removeItemById(tonumber(Item.QUICK_TASK_PASS_TICKET_ID), tonumber(slot1:getConfig("quick_finish")))
+		QuickTaskCommand.AddGuildLivness(slot1)
+
+		slot7 = PlayerConst.addTranDrop(slot0.award_list, {
+			taskId = slot1.id
+		})
+
+		if slot1:getConfig("type") ~= 8 then
+			slot3:removeTask(slot1)
+		else
+			slot1.submitTime = 1
+
+			slot3:updateTask(slot1)
+		end
+
+		pg.TipsMgr.GetInstance():ShowTips(i18n("battlepass_task_quickfinish3"))
+		pg.m02:sendNotification(GAME.SUBMIT_TASK_DONE, slot7, {
+			slot1.id
+		})
+
+		if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_TASK_LIST_MONITOR) and not slot9:isEnd() and table.contains(slot9:getConfig("config_data")[1] or {}, slot1.id) then
+			slot8:monitorTaskList(slot9)
+		end
+
+		if slot2 then
+			slot2(true)
+		end
+	else
+		pg.TipsMgr.GetInstance():ShowTips(errorTip("task_submitTask", slot0.result))
+
+		if slot2 then
+			slot2(false)
+		end
+	end
 end
 
 slot0.AddGuildLivness = function(slot0)

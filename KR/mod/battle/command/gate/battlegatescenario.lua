@@ -99,31 +99,36 @@ slot0.Exit = function(slot0, slot1)
 	slot6 = 0
 	slot7 = 0
 	slot8 = {}
+	slot10 = getProxy(ChapterProxy):getActiveChapter():getPlayType() == ChapterConst.TypeExtra
 
-	for slot15, slot16 in ipairs(getProxy(ChapterProxy):getActiveChapter().fleet:getShips(true)) do
-		table.insert(slot8, slot16)
+	for slot16, slot17 in ipairs(slot9.fleet:getShips(true)) do
+		table.insert(slot8, slot17)
 	end
 
-	slot13, slot14 = slot9:getFleetCost(slot10, slot0.stageId)
-	slot6 = slot14.gold
-	slot7 = slot14.oil
-	slot15 = slot9:GetExtraCostRate()
+	slot14, slot15 = slot9:getFleetCost(slot11, slot0.stageId)
+	slot6 = slot15.gold
+	slot7 = slot15.oil
+	slot16 = slot9:GetExtraCostRate()
 
 	if slot0.statistics.submarineAid then
 		if slot9:GetSubmarineFleet() then
-			slot17 = 0
-			slot21 = TeamType.Submarine
-			slot22 = true
+			slot18 = 0
+			slot22 = TeamType.Submarine
+			slot23 = true
 
-			for slot21, slot22 in ipairs(slot16:getShipsByTeam(slot21, slot22)) do
-				if slot0.statistics[slot22.id] then
-					table.insert(slot8, slot22)
+			for slot22, slot23 in ipairs(slot17:getShipsByTeam(slot22, slot23)) do
+				if slot0.statistics[slot23.id] then
+					table.insert(slot8, slot23)
 
-					slot17 = slot17 + slot22:getEndBattleExpend()
+					slot18 = slot18 + slot23:getEndBattleExpend()
 				end
 			end
 
-			slot7 = slot7 + math.min(slot17, slot9:GetLimitOilCost(true)) * slot15
+			if slot10 then
+				slot18 = 0
+			end
+
+			slot7 = slot7 + math.min(slot18, slot9:GetLimitOilCost(true)) * slot16
 		else
 			originalPrint("finish stage error: can not find submarine fleet.")
 		end
@@ -132,61 +137,61 @@ slot0.Exit = function(slot0, slot1)
 	slot9:writeBack(ys.Battle.BattleConst.BattleScore.C < slot5, slot0)
 	slot4:updateChapter(slot9)
 	slot1:SendRequest(slot1.GeneralPackage(slot0, slot8), function (slot0)
-		uv1.addShipsExp(slot0.ship_exp_list, uv2.statistics, true)
+		uv0.addShipsExp(slot0.ship_exp_list, uv1.statistics, true)
 
-		uv2.statistics.mvpShipID = slot0.mvp
-		slot3, slot4 = uv1:GeneralLoot(slot0)
+		uv1.statistics.mvpShipID = slot0.mvp
+		slot2, slot3 = uv0:GeneralLoot(slot0)
 
-		uv1.GeneralPlayerCosume(SYSTEM_SCENARIO, uv4, uv5, slot0.player_exp, uv0:getPlayType() == ChapterConst.TypeExtra)
+		uv0.GeneralPlayerCosume(SYSTEM_SCENARIO, uv4, uv5, slot0.player_exp, uv6)
 
-		slot5 = {
+		slot4 = {
 			system = SYSTEM_SCENARIO,
-			statistics = uv2.statistics,
-			score = uv6,
-			drops = slot3,
-			commanderExps = uv1.GenerateCommanderExp(slot0, uv3:getActiveChapter().fleet, uv0:GetSubmarineFleet()),
+			statistics = uv1.statistics,
+			score = uv7,
+			drops = slot2,
+			commanderExps = uv0.GenerateCommanderExp(slot0, uv2:getActiveChapter().fleet, uv3:GetSubmarineFleet()),
 			result = slot0.result,
-			extraDrops = slot4,
-			exitCallback = uv2.exitCallback
+			extraDrops = slot3,
+			exitCallback = uv1.exitCallback
 		}
 
-		uv3:updateActiveChapterShips()
+		uv2:updateActiveChapterShips()
 
-		slot6 = uv3:getActiveChapter()
+		slot5 = uv2:getActiveChapter()
 
-		slot6:writeDrops(slot3)
-		uv3:updateChapter(slot6)
+		slot5:writeDrops(slot2)
+		uv2:updateChapter(slot5)
 
-		if PlayerConst.CanDropItem(slot3) then
-			slot7 = {}
+		if PlayerConst.CanDropItem(slot2) then
+			slot6 = {}
 
-			for slot11, slot12 in ipairs(slot3) do
-				table.insert(slot7, slot12)
+			for slot10, slot11 in ipairs(slot2) do
+				table.insert(slot6, slot11)
 			end
 
-			for slot11, slot12 in ipairs(slot4) do
-				slot12.riraty = true
+			for slot10, slot11 in ipairs(slot3) do
+				slot11.riraty = true
 
-				table.insert(slot7, slot12)
+				table.insert(slot6, slot11)
 			end
 
 			if getProxy(ChapterProxy):getActiveChapter(true) then
-				if slot8:isLoop() then
-					getProxy(ChapterProxy):AddExtendChapterDataArray(slot8.id, "TotalDrops", slot7)
+				if slot7:isLoop() then
+					getProxy(ChapterProxy):AddExtendChapterDataArray(slot7.id, "TotalDrops", slot6)
 				end
 
-				slot8:writeDrops(slot7)
+				slot7:writeDrops(slot6)
 			end
 		end
 
-		slot7 = uv3:getLastUnlockMap().id
-		slot8 = uv3:getLastUnlockMap().id
+		slot6 = uv2:getLastUnlockMap().id
+		slot7 = uv2:getLastUnlockMap().id
 
-		if Map.lastMap and slot8 ~= slot7 and slot7 < slot8 then
+		if Map.lastMap and slot7 ~= slot6 and slot6 < slot7 then
 			Map.autoNextPage = true
 		end
 
-		uv1:sendNotification(GAME.CHAPTER_BATTLE_RESULT_REQUEST, {
+		uv0:sendNotification(GAME.CHAPTER_BATTLE_RESULT_REQUEST, {
 			callback = function ()
 				uv0:sendNotification(GAME.FINISH_STAGE_DONE, uv1)
 			end

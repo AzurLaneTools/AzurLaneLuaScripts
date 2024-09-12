@@ -82,7 +82,8 @@ end
 
 slot0.listNotificationInterests = function(slot0)
 	return {
-		GAME.SUBMIT_ACTIVITY_TASK_DONE
+		GAME.SUBMIT_ACTIVITY_TASK_DONE,
+		GAME.ACTIVITY_UPDATED
 	}
 end
 
@@ -107,6 +108,8 @@ slot0.handleNotification = function(slot0, slot1)
 
 			slot0.showAwards = {}
 		end
+	elseif slot2 == GAME.ACTIVITY_UPDATED then
+		slot0.viewComponent:Show()
 	end
 end
 

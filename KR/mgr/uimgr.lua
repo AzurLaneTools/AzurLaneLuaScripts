@@ -117,27 +117,6 @@ slot0.Init = function(slot0, slot1)
 	setActive(slot0.uiCamera, false)
 	seriesAsync({
 		function (slot0)
-			buildTempAB("ui/commonui_atlas", function (slot0)
-				uv0._common_ui_bundle = slot0
-
-				uv1()
-			end)
-		end,
-		function (slot0)
-			buildTempAB("skinicon", function (slot0)
-				uv0._skinicon_bundle = slot0
-
-				uv1()
-			end)
-		end,
-		function (slot0)
-			buildTempAB("attricon", function (slot0)
-				uv0._attricon_bundle = slot0
-
-				uv1()
-			end)
-		end,
-		function (slot0)
 			setActive(uv0.uiCamera, true)
 
 			uv0._loadPanel = LoadingPanel.New(slot0)

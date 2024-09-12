@@ -62,7 +62,7 @@ pg.guild_mission_template = {
 	},
 	{
 		id = 7,
-		name = "군수 준비Ⅰ",
+		name = "군수 준비Ⅰ - [군수 준비Ⅰ 임무 3회 클리어] 대함대 멤버 총 클리어 횟수 100회까지",
 		max_num = 100,
 		award_capital_display = 15,
 		task_scale = 1,

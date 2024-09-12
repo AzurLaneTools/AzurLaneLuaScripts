@@ -12374,17 +12374,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「{namecode:18}」, 「{namecode:62} 」 상시 건조 추가!"
+	tip = "「비토리오 베네토」 상시 건조 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「{namecode:206}」, 「{namecode:150}」 상시 건조 추가!"
+	tip = "「두카 델리 아브루치」 등 상시 건조 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「{namecode:18}」, 「{namecode:208}」 상시 건조 추가!"
+	tip = "「아퀼라」 상시 건조 추가!"
 }
 
 

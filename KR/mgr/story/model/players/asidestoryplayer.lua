@@ -114,7 +114,7 @@ slot0.PlayBubbleAside = function(slot0, slot1, slot2)
 		table.insert(slot6, function (slot0)
 			slot1 = cloneTplTo(uv0.item, uv0.container, uv1)
 
-			setText(slot1, uv2[uv1][1])
+			setText(slot1, HXSet.hxLan(uv2[uv1][1]))
 
 			slot2 = GetOrAddComponent(slot1, typeof(Typewriter))
 

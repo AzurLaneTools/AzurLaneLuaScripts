@@ -5264,6 +5264,23 @@ end
 temp()
 
 temp = function()
+	uv0["즈"] = {
+		["이"] = {
+			["호"] = {
+				this = true
+			},
+			["카"] = {
+				["쿠"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["쇼"] = {
 		["호"] = {
 			this = true
@@ -5353,20 +5370,6 @@ temp = function()
 							}
 						}
 					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["즈"] = {
-		["이"] = {
-			["카"] = {
-				["쿠"] = {
-					this = true
 				}
 			}
 		}
