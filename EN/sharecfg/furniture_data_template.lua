@@ -19522,7 +19522,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 	[287] = {
 		can_rotate = 0,
 		name = "An Instant of Naraka",
-		gain_by = "唤醒苍红之炎",
+		gain_by = "Ode of Everblooming Crimson",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,

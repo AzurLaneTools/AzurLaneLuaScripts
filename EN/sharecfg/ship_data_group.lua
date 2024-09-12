@@ -18120,7 +18120,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Event: 唤醒苍红之炎",
+				"Event: Ode of Everblooming Crimson",
 				{
 					""
 				},
@@ -18788,7 +18788,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Event: 唤醒苍红之炎",
+				"Event: Ode of Everblooming Crimson",
 				{
 					""
 				},
@@ -19154,7 +19154,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Event: 唤醒苍红之炎",
+				"Event: Ode of Everblooming Crimson",
 				{
 					""
 				},
@@ -21666,7 +21666,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"占坑",
+				"Event: Ode of Everblooming Crimson",
 				{
 					""
 				},
@@ -34093,7 +34093,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Event: 唤醒苍红之风",
+				"Event: Ode of Everblooming Crimson",
 				{
 					""
 				},

@@ -479,7 +479,7 @@ pg.item_data_frame = {
 	},
 	[332] = {
 		name = "Flames of Resurrection",
-		gain_by = "唤醒苍红之炎",
+		gain_by = "Ode of Everblooming Crimson",
 		time_second = 0,
 		id = 332,
 		time_limit_type = 0,

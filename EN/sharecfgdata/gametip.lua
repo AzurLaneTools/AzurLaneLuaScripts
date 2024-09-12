@@ -17493,7 +17493,7 @@ _G.pg.base.gametip.index_propose_skin = {
 
 
 _G.pg.base.gametip.index_not_obtained = {
-	tip = "Not Obtained"
+	tip = "Unacquired"
 }
 
 
@@ -29425,7 +29425,7 @@ _G.pg.base.gametip.battle_text_tianchengCV_2 = {
 
 
 _G.pg.base.gametip.battle_text_tianchengCV_3 = {
-	tip = "A powerful attack is coming! Activate the magic circle and call for support!"
+	tip = "A powerful attack is coming! Activate the <color=#f1f102>magic circle</color> and call for support!"
 }
 
 
@@ -29485,7 +29485,7 @@ _G.pg.base.gametip.series_enemy_storyunlock = {
 
 
 _G.pg.base.gametip.series_enemy_storyreward = {
-	tip = "Unlocked:"
+	tip = "Unlocked:   "
 }
 
 
@@ -34937,7 +34937,7 @@ _G.pg.base.gametip.levelScene_tracking_error_pre_2 = {
 
 
 _G.pg.base.gametip.town_lock_level = {
-	tip = "Reach Frontier Town Lv. $1"
+	tip = "This will unlock after you read the story."
 }
 
 
@@ -35110,7 +35110,7 @@ _G.pg.base.gametip.dreamland_area_lock_tip = {
 
 
 _G.pg.base.gametip.dreamland_spring_lock_tip = {
-	tip = "This will unlock after you read the story."
+	tip = "Unlocks after reading story"
 }
 
 
@@ -35266,7 +35266,7 @@ _G.pg.base.gametip.compensate_ui_nothing2 = {
 
 
 _G.pg.base.gametip.attire_combatui_preview = {
-	tip = "Check Preview"
+	tip = "Preview"
 }
 
 

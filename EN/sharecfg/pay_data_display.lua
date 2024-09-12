@@ -5446,7 +5446,7 @@ pg.base.pay_data_display = {
 	[73] = {
 		extra_gem = 0,
 		limit_group = 0,
-		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack. ",
+		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack.",
 		type = 1,
 		name = "Dreamland Lucky Bag A",
 		first_pay_double = 0,
@@ -5560,7 +5560,7 @@ pg.base.pay_data_display = {
 	[74] = {
 		extra_gem = 0,
 		limit_group = 0,
-		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack. ",
+		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack.",
 		type = 1,
 		name = "Fashion Collection Lucky Bag Rerun",
 		first_pay_double = 0,
@@ -5674,7 +5674,7 @@ pg.base.pay_data_display = {
 	[75] = {
 		extra_gem = 0,
 		limit_group = 0,
-		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack. ",
+		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack.",
 		type = 1,
 		name = "Dreamland Lucky Bag B",
 		first_pay_double = 0,
@@ -5788,7 +5788,7 @@ pg.base.pay_data_display = {
 	[76] = {
 		extra_gem = 0,
 		limit_group = 0,
-		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack. ",
+		descrip_extra = "The pack includes lots of material rewards. The Startup Pack will be sent to you via in-game mail, please check your mailbox to claim the pack.",
 		type = 1,
 		name = "Autumn Classics Lucky Box Rerun",
 		first_pay_double = 0,
@@ -13436,7 +13436,6 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "uigift",
 		limit_type = 5,
-		time = "always",
 		type_order = 2,
 		picture = "ui1",
 		skin_inquire_relation = 0,
@@ -13449,6 +13448,32 @@ pg.base.pay_data_display = {
 				31,
 				103,
 				1
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -13479,7 +13504,6 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "uigift",
 		limit_type = 5,
-		time = "always",
 		type_order = 2,
 		picture = "ui1",
 		skin_inquire_relation = 0,
@@ -13492,6 +13516,32 @@ pg.base.pay_data_display = {
 				31,
 				103,
 				1
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -13528,7 +13578,6 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "uigift",
 		limit_type = 5,
-		time = "always",
 		type_order = 2,
 		picture = "ui1",
 		skin_inquire_relation = 0,
@@ -13546,6 +13595,32 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				3060
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {

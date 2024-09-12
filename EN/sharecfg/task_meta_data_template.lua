@@ -2363,7 +2363,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970405",
 		id = 100331,
 		target_num = 1,
-		desc = "使用{namecode:232}获得1次胜利"
+		desc = "Win 1 battle with Hiei META in your fleet."
 	},
 	[100332] = {
 		target_id = "30",
@@ -2371,7 +2371,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970405",
 		id = 100332,
 		target_num = 1,
-		desc = "使用{namecode:232}击破等级＞30的敌方1次"
+		desc = "Defeat a Lv. 30+ fleet with Hiei META in your fleet."
 	},
 	[100333] = {
 		target_id = "55",
@@ -2379,7 +2379,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970405",
 		id = 100333,
 		target_num = 1,
-		desc = "使用{namecode:232}击破等级＞55的敌方1次"
+		desc = "Defeat a Lv. 55+ fleet with Hiei META in your fleet."
 	},
 	[100334] = {
 		target_id = "80",
@@ -2387,7 +2387,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970405",
 		id = 100334,
 		target_num = 1,
-		desc = "使用{namecode:232}击破等级＞80的敌方1次"
+		desc = "Defeat a Lv. 80+ fleet with Hiei META in your fleet."
 	},
 	[100335] = {
 		target_id = "100",
@@ -2395,7 +2395,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970405",
 		id = 100335,
 		target_num = 1,
-		desc = "使用{namecode:232}击破等级＞100的敌方1次"
+		desc = "Defeat a Lv. 100+ fleet with Hiei META in your fleet."
 	},
 	[200001] = {
 		target_id = "0",
@@ -3139,7 +3139,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970405",
 		id = 200241,
 		target_num = 1,
-		desc = "大型作战内使用{namecode:232}获得1次胜利"
+		desc = "Win 1 Operation Siren battle with Hiei META in your fleet."
 	},
 	[200242] = {
 		target_id = "70",
@@ -3147,7 +3147,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970405",
 		id = 200242,
 		target_num = 1,
-		desc = "大型作战内使用{namecode:232}击破等级＞70的敌方1次"
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Hiei META in your fleet."
 	},
 	[200243] = {
 		target_id = "90",
@@ -3155,7 +3155,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970405",
 		id = 200243,
 		target_num = 1,
-		desc = "大型作战内使用{namecode:232}击破等级＞90的敌方1次"
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Hiei META in your fleet."
 	},
 	[200244] = {
 		target_id = "100",
@@ -3163,6 +3163,6 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970405",
 		id = 200244,
 		target_num = 1,
-		desc = "大型作战内使用{namecode:232}击破等级＞100的敌方1次"
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Hiei META in your fleet."
 	}
 }

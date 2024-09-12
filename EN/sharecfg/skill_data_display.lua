@@ -10183,7 +10183,7 @@ pg.base.skill_data_display = {
 	},
 	[150442] = {
 		id = 150442,
-		name = ""
+		name = "Final Bound"
 	},
 	[150474] = {
 		id = 150474,

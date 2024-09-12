@@ -208,8 +208,6 @@ slot0.Ctor = function(slot0, slot1)
 		[AttireConst.TYPE_ICON_FRAME] = slot0.iconFrame,
 		[AttireConst.TYPE_CHAT_FRAME] = slot0.chatFrame
 	}
-
-	slot0:updateAttireFrame(AttireConst.TYPE_COMBAT_UI_STYLE, slot1.battle_ui or 0)
 end
 
 slot0.updateAttireFrame = function(slot0, slot1, slot2)

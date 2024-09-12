@@ -185,15 +185,6 @@ You wondered how they made a clock work like that.]],
 		}
 	},
 	{
-		{
-			"The parasol was opening and closing entirely by itself."
-		},
-		{
-			"She proclaimed that latent hero powers had awakened inside her, and this was her doing, dubbing herself \"the Parasol Paladin.\""
-		},
-		{
-			"You decided to let her have her fun. This is a dream, after all."
-		},
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -209,19 +200,21 @@ You decided to let her have her fun. This is a dream, after all.]],
 			2
 		},
 		desc = {
-			"You spotted Reno near the parasol, looking amazed."
+			{
+				"You spotted Reno near the parasol, looking amazed."
+			},
+			{
+				"The parasol was opening and closing entirely by itself."
+			},
+			{
+				"She proclaimed that latent hero powers had awakened inside her, and this was her doing, dubbing herself \"the Parasol Paladin.\""
+			},
+			{
+				"You decided to let her have her fun. This is a dream, after all."
+			}
 		}
 	},
 	{
-		{
-			"The parasol was opening and closing entirely by itself."
-		},
-		{
-			"She proclaimed that latent hero powers had awakened inside her, and this was her doing, dubbing herself \"the Parasol Paladin.\""
-		},
-		{
-			"You decided to let her have her fun. This is a dream, after all."
-		},
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -237,19 +230,21 @@ You decided to let her have her fun. This is a dream, after all.]],
 			2
 		},
 		desc = {
-			"You spotted Reno near the parasol, looking amazed."
+			{
+				"You spotted Reno near the parasol, looking amazed."
+			},
+			{
+				"The parasol was opening and closing entirely by itself."
+			},
+			{
+				"She proclaimed that latent hero powers had awakened inside her, and this was her doing, dubbing herself \"the Parasol Paladin.\""
+			},
+			{
+				"You decided to let her have her fun. This is a dream, after all."
+			}
 		}
 	},
 	{
-		{
-			"The parasol was opening and closing entirely by itself."
-		},
-		{
-			"She proclaimed that latent hero powers had awakened inside her, and this was her doing, dubbing herself \"the Parasol Paladin.\""
-		},
-		{
-			"You decided to let her have her fun. This is a dream, after all."
-		},
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -265,19 +260,21 @@ You decided to let her have her fun. This is a dream, after all.]],
 			2
 		},
 		desc = {
-			"You spotted Reno near the parasol, looking amazed."
+			{
+				"You spotted Reno near the parasol, looking amazed."
+			},
+			{
+				"The parasol was opening and closing entirely by itself."
+			},
+			{
+				"She proclaimed that latent hero powers had awakened inside her, and this was her doing, dubbing herself \"the Parasol Paladin.\""
+			},
+			{
+				"You decided to let her have her fun. This is a dream, after all."
+			}
 		}
 	},
 	{
-		{
-			"The parasol was opening and closing entirely by itself."
-		},
-		{
-			"She proclaimed that latent hero powers had awakened inside her, and this was her doing, dubbing herself \"the Parasol Paladin.\""
-		},
-		{
-			"You decided to let her have her fun. This is a dream, after all."
-		},
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -293,19 +290,21 @@ You decided to let her have her fun. This is a dream, after all.]],
 			2
 		},
 		desc = {
-			"You spotted Reno near the parasol, looking amazed."
+			{
+				"You spotted Reno near the parasol, looking amazed."
+			},
+			{
+				"The parasol was opening and closing entirely by itself."
+			},
+			{
+				"She proclaimed that latent hero powers had awakened inside her, and this was her doing, dubbing herself \"the Parasol Paladin.\""
+			},
+			{
+				"You decided to let her have her fun. This is a dream, after all."
+			}
 		}
 	},
 	{
-		{
-			"The parasol was opening and closing entirely by itself."
-		},
-		{
-			"She proclaimed that latent hero powers had awakened inside her, and this was her doing, dubbing herself \"the Parasol Paladin.\""
-		},
-		{
-			"You decided to let her have her fun. This is a dream, after all."
-		},
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -321,19 +320,21 @@ You decided to let her have her fun. This is a dream, after all.]],
 			2
 		},
 		desc = {
-			"You spotted Reno near the parasol, looking amazed."
+			{
+				"You spotted Reno near the parasol, looking amazed."
+			},
+			{
+				"The parasol was opening and closing entirely by itself."
+			},
+			{
+				"She proclaimed that latent hero powers had awakened inside her, and this was her doing, dubbing herself \"the Parasol Paladin.\""
+			},
+			{
+				"You decided to let her have her fun. This is a dream, after all."
+			}
 		}
 	},
 	{
-		{
-			"The parasol was opening and closing entirely by itself."
-		},
-		{
-			"She proclaimed that latent hero powers had awakened inside her, and this was her doing, dubbing herself \"the Parasol Paladin.\""
-		},
-		{
-			"You decided to let her have her fun. This is a dream, after all."
-		},
 		tip_special_effect = "",
 		type = 2,
 		group = 4,
@@ -349,19 +350,21 @@ You decided to let her have her fun. This is a dream, after all.]],
 			2
 		},
 		desc = {
-			"You spotted Reno near the parasol, looking amazed."
+			{
+				"You spotted Reno near the parasol, looking amazed."
+			},
+			{
+				"The parasol was opening and closing entirely by itself."
+			},
+			{
+				"She proclaimed that latent hero powers had awakened inside her, and this was her doing, dubbing herself \"the Parasol Paladin.\""
+			},
+			{
+				"You decided to let her have her fun. This is a dream, after all."
+			}
 		}
 	},
 	{
-		{
-			"She said the Ferris wheel would stop turning if a balloon flew up near it."
-		},
-		{
-			"You asked Yuubari about it, who explained that it's a safety mechanism – the Ferris wheel mistook the balloon for an aircraft."
-		},
-		{
-			"After finding out it wasn't the balloon's fault, she chirped happily and gave a lucky balloon to Yuubari as thanks."
-		},
 		tip_special_effect = "",
 		type = 2,
 		group = 5,
@@ -377,19 +380,21 @@ After finding out it wasn't the balloon's fault, she chirped happily and gave a 
 			0
 		},
 		desc = {
-			"Zuihou was at the Ferris wheel, looking troubled, so you spoke to her."
+			{
+				"Zuihou was at the Ferris wheel, looking troubled, so you spoke to her."
+			},
+			{
+				"She said the Ferris wheel would stop turning if a balloon flew up near it."
+			},
+			{
+				"You asked Yuubari about it, who explained that it's a safety mechanism – the Ferris wheel mistook the balloon for an aircraft."
+			},
+			{
+				"After finding out it wasn't the balloon's fault, she chirped happily and gave a lucky balloon to Yuubari as thanks."
+			}
 		}
 	},
 	{
-		{
-			"She said the Ferris wheel would stop turning if a balloon flew up near it."
-		},
-		{
-			"You asked Yuubari about it, who explained that it's a safety mechanism – the Ferris wheel mistook the balloon for an aircraft."
-		},
-		{
-			"After finding out it wasn't the balloon's fault, she chirped happily and gave a lucky balloon to Yuubari as thanks."
-		},
 		tip_special_effect = "",
 		type = 2,
 		group = 5,
@@ -405,19 +410,21 @@ After finding out it wasn't the balloon's fault, she chirped happily and gave a 
 			0
 		},
 		desc = {
-			"Zuihou was at the Ferris wheel, looking troubled, so you spoke to her."
+			{
+				"Zuihou was at the Ferris wheel, looking troubled, so you spoke to her."
+			},
+			{
+				"She said the Ferris wheel would stop turning if a balloon flew up near it."
+			},
+			{
+				"You asked Yuubari about it, who explained that it's a safety mechanism – the Ferris wheel mistook the balloon for an aircraft."
+			},
+			{
+				"After finding out it wasn't the balloon's fault, she chirped happily and gave a lucky balloon to Yuubari as thanks."
+			}
 		}
 	},
 	{
-		{
-			"She said the Ferris wheel would stop turning if a balloon flew up near it."
-		},
-		{
-			"You asked Yuubari about it, who explained that it's a safety mechanism – the Ferris wheel mistook the balloon for an aircraft."
-		},
-		{
-			"After finding out it wasn't the balloon's fault, she chirped happily and gave a lucky balloon to Yuubari as thanks."
-		},
 		tip_special_effect = "",
 		type = 2,
 		group = 5,
@@ -433,19 +440,21 @@ After finding out it wasn't the balloon's fault, she chirped happily and gave a 
 			0
 		},
 		desc = {
-			"Zuihou was at the Ferris wheel, looking troubled, so you spoke to her."
+			{
+				"Zuihou was at the Ferris wheel, looking troubled, so you spoke to her."
+			},
+			{
+				"She said the Ferris wheel would stop turning if a balloon flew up near it."
+			},
+			{
+				"You asked Yuubari about it, who explained that it's a safety mechanism – the Ferris wheel mistook the balloon for an aircraft."
+			},
+			{
+				"After finding out it wasn't the balloon's fault, she chirped happily and gave a lucky balloon to Yuubari as thanks."
+			}
 		}
 	},
 	{
-		{
-			"Mutsuki was upset over someone stealing her cotton candy. Ark Royal claimed nobody was near her when it happened."
-		},
-		{
-			"Excitedly, Bristol speculated: \"It was a ghost! A ghost stole her cotton candy!\""
-		},
-		{
-			"You looked all around, but failed to find any traces of a ghost."
-		},
 		tip_special_effect = "",
 		type = 1,
 		group = 6,
@@ -461,19 +470,21 @@ You looked all around, but failed to find any traces of a ghost.]],
 			3
 		},
 		desc = {
-			"You can into Ark Royal at the stalls."
+			{
+				"You can into Ark Royal at the stalls."
+			},
+			{
+				"Mutsuki was upset over someone stealing her cotton candy. Ark Royal claimed nobody was near her when it happened."
+			},
+			{
+				"Excitedly, Bristol speculated: \"It was a ghost! A ghost stole her cotton candy!\""
+			},
+			{
+				"You looked all around, but failed to find any traces of a ghost."
+			}
 		}
 	},
 	{
-		{
-			"Apparently, the slide was getting slimier and she was going faster each time she went down."
-		},
-		{
-			"You investigated, and it turned out the sunscreen she'd applied to herself was the cause."
-		},
-		{
-			"How much sunscreen does one girl need?"
-		},
 		tip_special_effect = "",
 		type = 1,
 		group = 7,
@@ -489,19 +500,21 @@ How much sunscreen does one girl need?]],
 			0
 		},
 		desc = {
-			"You found Taihou at the exit of the slide, looking confused."
+			{
+				"You found Taihou at the exit of the slide, looking confused."
+			},
+			{
+				"Apparently, the slide was getting slimier and she was going faster each time she went down."
+			},
+			{
+				"You investigated, and it turned out the sunscreen she'd applied to herself was the cause."
+			},
+			{
+				"How much sunscreen does one girl need?"
+			}
 		}
 	},
 	{
-		{
-			"Apparently, the slide was getting slimier and she was going faster each time she went down."
-		},
-		{
-			"You investigated, and it turned out the sunscreen she'd applied to herself was the cause."
-		},
-		{
-			"How much sunscreen does one girl need?"
-		},
 		tip_special_effect = "",
 		type = 1,
 		group = 7,
@@ -517,19 +530,21 @@ How much sunscreen does one girl need?]],
 			0
 		},
 		desc = {
-			"You found Taihou at the exit of the slide, looking confused."
+			{
+				"You found Taihou at the exit of the slide, looking confused."
+			},
+			{
+				"Apparently, the slide was getting slimier and she was going faster each time she went down."
+			},
+			{
+				"You investigated, and it turned out the sunscreen she'd applied to herself was the cause."
+			},
+			{
+				"How much sunscreen does one girl need?"
+			}
 		}
 	},
 	{
-		{
-			"Apparently, the slide was getting slimier and she was going faster each time she went down."
-		},
-		{
-			"You investigated, and it turned out the sunscreen she'd applied to herself was the cause."
-		},
-		{
-			"How much sunscreen does one girl need?"
-		},
 		tip_special_effect = "",
 		type = 1,
 		group = 7,
@@ -545,19 +560,21 @@ How much sunscreen does one girl need?]],
 			0
 		},
 		desc = {
-			"You found Taihou at the exit of the slide, looking confused."
+			{
+				"You found Taihou at the exit of the slide, looking confused."
+			},
+			{
+				"Apparently, the slide was getting slimier and she was going faster each time she went down."
+			},
+			{
+				"You investigated, and it turned out the sunscreen she'd applied to herself was the cause."
+			},
+			{
+				"How much sunscreen does one girl need?"
+			}
 		}
 	},
 	{
-		{
-			"Alfredo said this wasn't the first rainbow she'd seen here, but one rainbow's colors appeared in the inverse order of what they should be."
-		},
-		{
-			"The photojournalist waited for it to reappear, but the only pictures she got were of regular rainbows."
-		},
-		{
-			"She was a bit grumpy about this. Still, she insisted on her certainty in what she saw."
-		},
 		tip_special_effect = "",
 		type = 1,
 		group = 8,
@@ -574,19 +591,21 @@ She was a bit grumpy about this. Still, she insisted on her certainty in what sh
 			"mengleyuan_yumu"
 		},
 		desc = {
-			"Rainbows appeared over the water area in the afternoon."
+			{
+				"Rainbows appeared over the water area in the afternoon."
+			},
+			{
+				"Alfredo said this wasn't the first rainbow she'd seen here, but one rainbow's colors appeared in the inverse order of what they should be."
+			},
+			{
+				"The photojournalist waited for it to reappear, but the only pictures she got were of regular rainbows."
+			},
+			{
+				"She was a bit grumpy about this. Still, she insisted on her certainty in what she saw."
+			}
 		}
 	},
 	{
-		{
-			"Alfredo said this wasn't the first rainbow she'd seen here, but one rainbow's colors appeared in the inverse order of what they should be."
-		},
-		{
-			"The photojournalist waited for it to reappear, but the only pictures she got were of regular rainbows."
-		},
-		{
-			"She was a bit grumpy about this. Still, she insisted on her certainty in what she saw."
-		},
 		tip_special_effect = "",
 		type = 1,
 		group = 8,
@@ -602,16 +621,21 @@ She was a bit grumpy about this. Still, she insisted on her certainty in what sh
 			0
 		},
 		desc = {
-			"Rainbows appeared over the water area in the afternoon."
+			{
+				"Rainbows appeared over the water area in the afternoon."
+			},
+			{
+				"Alfredo said this wasn't the first rainbow she'd seen here, but one rainbow's colors appeared in the inverse order of what they should be."
+			},
+			{
+				"The photojournalist waited for it to reappear, but the only pictures she got were of regular rainbows."
+			},
+			{
+				"She was a bit grumpy about this. Still, she insisted on her certainty in what she saw."
+			}
 		}
 	},
 	{
-		{
-			"She said that the clownjuu's expression changes from time to time... but it goes back to normal when people realize it."
-		},
-		{
-			"It sounded like she's been watching too many horror movies lately."
-		},
 		tip_special_effect = "",
 		type = 2,
 		group = 9,
@@ -623,16 +647,18 @@ She was a bit grumpy about this. Still, she insisted on her certainty in what sh
 			3
 		},
 		desc = {
-			"As you passed by the circus tent, you spotted Hatsuzuki, observing the tent with marked interest."
+			{
+				"As you passed by the circus tent, you spotted Hatsuzuki, observing the tent with marked interest."
+			},
+			{
+				"She said that the clownjuu's expression changes from time to time... but it goes back to normal when people realize it."
+			},
+			{
+				"It sounded like she's been watching too many horror movies lately."
+			}
 		}
 	},
 	{
-		{
-			"She said that the clownjuu's expression changes from time to time... but it goes back to normal when people realize it."
-		},
-		{
-			"It sounded like she's been watching too many horror movies lately."
-		},
 		tip_special_effect = "",
 		type = 2,
 		group = 9,
@@ -644,16 +670,18 @@ She was a bit grumpy about this. Still, she insisted on her certainty in what sh
 			3
 		},
 		desc = {
-			"As you passed by the circus tent, you spotted Hatsuzuki, observing the tent with marked interest."
+			{
+				"As you passed by the circus tent, you spotted Hatsuzuki, observing the tent with marked interest."
+			},
+			{
+				"She said that the clownjuu's expression changes from time to time... but it goes back to normal when people realize it."
+			},
+			{
+				"It sounded like she's been watching too many horror movies lately."
+			}
 		}
 	},
 	{
-		{
-			"She said that the clownjuu's expression changes from time to time... but it goes back to normal when people realize it."
-		},
-		{
-			"It sounded like she's been watching too many horror movies lately."
-		},
 		tip_special_effect = "",
 		type = 2,
 		group = 9,
@@ -665,19 +693,18 @@ She was a bit grumpy about this. Still, she insisted on her certainty in what sh
 			3
 		},
 		desc = {
-			"As you passed by the circus tent, you spotted Hatsuzuki, observing the tent with marked interest."
+			{
+				"As you passed by the circus tent, you spotted Hatsuzuki, observing the tent with marked interest."
+			},
+			{
+				"She said that the clownjuu's expression changes from time to time... but it goes back to normal when people realize it."
+			},
+			{
+				"It sounded like she's been watching too many horror movies lately."
+			}
 		}
 	},
 	[27] = {
-		{
-			"The LED sign was working without any power – strange yet, the text on it was changing by itself."
-		},
-		{
-			"She tried to figure out what was happening and not only failed, but also was unable to screw the lights back in."
-		},
-		{
-			"You told her to talk to Amagi about it."
-		},
 		tip_special_effect = "",
 		type = 2,
 		group = 10,
@@ -693,16 +720,21 @@ You told her to talk to Amagi about it.]],
 			0
 		},
 		desc = {
-			"You found Yuubari near the stage, stunned by what she was seeing."
+			{
+				"You found Yuubari near the stage, stunned by what she was seeing."
+			},
+			{
+				"The LED sign was working without any power – strange yet, the text on it was changing by itself."
+			},
+			{
+				"She tried to figure out what was happening and not only failed, but also was unable to screw the lights back in."
+			},
+			{
+				"You told her to talk to Amagi about it."
+			}
 		}
 	},
 	[28] = {
-		{
-			"She explained: \"Foo said there are friends in the woods... Over there.\""
-		},
-		{
-			"You looked to where she pointed. There was nothing there."
-		},
 		tip_special_effect = "",
 		type = 1,
 		group = 11,
@@ -714,19 +746,18 @@ You told her to talk to Amagi about it.]],
 			0
 		},
 		desc = {
-			"You went to the foggy maze and found Kasumi, standing around idly."
+			{
+				"You went to the foggy maze and found Kasumi, standing around idly."
+			},
+			{
+				"She explained: \"Foo said there are friends in the woods... Over there.\""
+			},
+			{
+				"You looked to where she pointed. There was nothing there."
+			}
 		}
 	},
 	[29] = {
-		{
-			"She claimed that every time she tried to open the door, her hand felt strange and she couldn't do it."
-		},
-		{
-			"She exclaimed: \"It's some sort of curse! I've been cursed!\""
-		},
-		{
-			"Amagi pointed out that the strange sensation Fu Shun felt was simply static electricity."
-		},
 		tip_special_effect = "",
 		type = 1,
 		group = 12,
@@ -742,7 +773,18 @@ Amagi pointed out that the strange sensation Fu Shun felt was simply static elec
 			0
 		},
 		desc = {
-			"You arrived at the haunted house, where you found Fu Shun, scared to go inside."
+			{
+				"You arrived at the haunted house, where you found Fu Shun, scared to go inside."
+			},
+			{
+				"She claimed that every time she tried to open the door, her hand felt strange and she couldn't do it."
+			},
+			{
+				"She exclaimed: \"It's some sort of curse! I've been cursed!\""
+			},
+			{
+				"Amagi pointed out that the strange sensation Fu Shun felt was simply static electricity."
+			}
 		}
 	},
 	get_id_list_by_group = {

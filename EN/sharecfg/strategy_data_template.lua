@@ -3395,7 +3395,7 @@ The battle will initiate in challenge mode if a ship in your fleet has the Fargo
 	[201090] = {
 		buff_id = 201090,
 		name = "World Segment",
-		desc = "During battle, your Main Fleet ships take 20% less Burn DMG and their SPD increases by 5%.\nIf your fleet consists of 4 or more Sakura Empire ships, supporting barrages will fire 15s after the battle starts.",
+		desc = "During battle, your Main Fleet ships take 20% less Burn DMG and their EVA increases by 5%.\nIf your fleet consists of 4 or more Sakura Empire ships, supporting barrages will fire 15s after the battle starts.",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,

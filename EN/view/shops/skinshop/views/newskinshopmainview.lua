@@ -773,9 +773,12 @@ slot0.OnItemPurchase = function(slot0, slot1)
 		return
 	end
 
+	slot3 = slot1:getSkinId()
+
 	slot0.voucherMsgBox:ExecuteAction("Show", {
 		itemList = slot2,
-		skinName = SwitchSpecialChar(pg.ship_skin_template[slot1:getSkinId()].name, true),
+		skinId = slot3,
+		skinName = SwitchSpecialChar(pg.ship_skin_template[slot3].name, true),
 		price = slot1:GetPrice(),
 		onYes = function (slot0)
 			if slot0 then

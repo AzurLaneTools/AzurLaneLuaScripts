@@ -2848,7 +2848,30 @@ temp = function()
 						a = {
 							n = {
 								d = {
-									this = true
+									this = true,
+									[" "] = {
+										["("] = {
+											R = {
+												e = {
+													t = {
+														r = {
+															o = {
+																f = {
+																	i = {
+																		t = {
+																			[")"] = {
+																				this = true
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
 								}
 							}
 						}
@@ -7480,7 +7503,18 @@ temp = function()
 							}
 						},
 						o = {
-							this = true
+							this = true,
+							[" "] = {
+								M = {
+									E = {
+										T = {
+											A = {
+												this = true
+											}
+										}
+									}
+								}
+							}
 						}
 					},
 					n = {
@@ -9190,6 +9224,13 @@ temp = function()
 	uv0.Z = {
 		u = {
 			i = {
+				h = {
+					o = {
+						u = {
+							this = true
+						}
+					}
+				},
 				k = {
 					a = {
 						k = {

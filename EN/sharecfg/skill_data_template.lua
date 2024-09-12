@@ -1197,6 +1197,7 @@ pg.skill_data_template = setmetatable({
 		150450,
 		150460,
 		150470,
+		150475,
 		150480,
 		150490,
 		150500,
@@ -98202,7 +98203,7 @@ When this ship fires her Main Guns, the following effects activate:
 	},
 	[150440] = {
 		desc_get = "",
-		name = "",
+		name = "Final Bound",
 		type = 1,
 		max_level = 10,
 		desc = "Increases this ship's FP by $1. When the shells of a BB or BC in your fleet hits an enemy: increases this ship's ACC by $2 for 6s and fires a $3 special barrage (DMG is based on the skill's level; 20s cooldown between activations; enemies hit have their EVA decreased by 10.0% for 6s).",
@@ -98642,6 +98643,20 @@ When this ship fires her Main Guns, the following effects activate:
 			}
 		}
 	},
+	[150475] = {
+		desc_get = "",
+		name = "破一役以破全局-跨队效果",
+		type = 1,
+		max_level = 10,
+		desc = "",
+		id = 150475,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[150480] = {
 		desc_get = "",
 		name = "From Phoenixes Sistren, Flames Given",
@@ -98834,7 +98849,7 @@ When this ship fires her Main Guns, the following effects activate:
 		name = "White Rabbit's Fortune",
 		type = 3,
 		max_level = 10,
-		desc = "Increases this ship's TRP and RLD by $1. Every 20s: $2 chance to fire a $3 special torpedo barrage (DMG is based on the skill's level).",
+		desc = "Increases this ship's TRP and RLD by $1. Every 5s: $2 chance to fire a $3 special torpedo barrage (DMG is based on the skill's level).",
 		id = 150490,
 		system_transform = {},
 		world_death_mark = {
@@ -98976,7 +98991,7 @@ When this ship fires her Main Guns, the following effects activate:
 		name = "Three-Tranquilities Formation",
 		type = 2,
 		max_level = 10,
-		desc = "5s after the battle starts: lays sea mines that damage the enemy (DMG is based on the skill's level). Once per battle, when this ship's HP falls below 20.0% as a result of DMG taken: restores $2 of this ship's max HP.",
+		desc = "5s after the battle starts: lays $1 sea mines that damage the enemy (DMG is based on the skill's level). Once per battle, when this ship's HP falls below 20.0% as a result of DMG taken: restores $2 of this ship's max HP.",
 		id = 150500,
 		system_transform = {},
 		world_death_mark = {
@@ -99073,7 +99088,7 @@ When this ship fires her Main Guns, the following effects activate:
 		name = "Waves of Bitter Cold",
 		type = 1,
 		max_level = 10,
-		desc = "15s after the battle starts, and every 20s after that: fires a $1 special barrage (DMG is based on the skill's level). Enemies hit by this barrage take $2 increased torpedo DMG from this ship for 8s. When this ship's torpedoes hit an enemy: decreases that enemy's SPD by 3 for 5s.",
+		desc = "15s after the battle starts, and every 20s after that: fires a $1 special barrage (DMG is based on the skill's level). Enemies hit by this barrage take $2 increased torpedo DMG from this ship for 8s. When this ship's torpedoes hit an enemy: decreases that",
 		id = 150510,
 		system_transform = {},
 		world_death_mark = {
