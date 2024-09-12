@@ -4045,6 +4045,34 @@ _G.pg.base.shop_template[31080] = {
 }
 
 
+_G.pg.base.shop_template[31943] = {
+	group_type = 0,
+	resource_num = 7000,
+	time_second = 0,
+	type = 2,
+	type_order = 0,
+	desc = "7000物资兑换1个0912梦乐园外观装备箱",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 0,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 1,
+	id = 31943,
+	genre = "shopping_street",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		30360
+	}
+}
+
+
 _G.pg.base.shop_template[31944] = {
 	group_type = 0,
 	resource_num = 7000,
@@ -13013,6 +13041,238 @@ _G.pg.base.shop_template[60529] = {
 				2024,
 				8,
 				28
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[60530] = {
+	group_type = 0,
+	resource_num = 880,
+	time_second = 0,
+	type = 2,
+	type_order = 0,
+	desc = "880钻石购买限时建造补给(2024日服周年版本)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 60530,
+	genre = "gift_package",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40138
+	},
+	time = {
+		{
+			{
+				2024,
+				9,
+				12
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				10,
+				2
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[60531] = {
+	group_type = 0,
+	resource_num = 120,
+	time_second = 0,
+	type = 2,
+	type_order = 0,
+	desc = "120钻石购买限时攻略补给(2024日服周年版本)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 60531,
+	genre = "gift_package",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			5
+		}
+	},
+	effect_args = {
+		40117
+	},
+	time = {
+		{
+			{
+				2024,
+				9,
+				12
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				10,
+				2
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[60532] = {
+	group_type = 0,
+	resource_num = 500,
+	time_second = 0,
+	type = 2,
+	type_order = 0,
+	desc = "500钻石购买家具币礼包(2024日服周年版本)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 60532,
+	genre = "gift_package",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40106
+	},
+	time = {
+		{
+			{
+				2024,
+				9,
+				12
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				10,
+				2
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[60533] = {
+	group_type = 0,
+	resource_num = 300,
+	time_second = 0,
+	type = 2,
+	type_order = 0,
+	desc = "300钻石购买心智单元礼包(2024日服周年版本)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 60533,
+	genre = "gift_package",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40119
+	},
+	time = {
+		{
+			{
+				2024,
+				9,
+				12
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				10,
+				2
 			},
 			{
 				23,
@@ -48737,7 +48997,7 @@ _G.pg.base.shop_template[70737] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 10,
+	order = 5,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -48753,8 +49013,8 @@ _G.pg.base.shop_template[70737] = {
 		{
 			{
 				2024,
-				5,
-				21
+				9,
+				12
 			},
 			{
 				0,
@@ -48765,8 +49025,8 @@ _G.pg.base.shop_template[70737] = {
 		{
 			{
 				2024,
-				5,
-				26
+				9,
+				15
 			},
 			{
 				23,
@@ -48790,7 +49050,7 @@ _G.pg.base.shop_template[70738] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 10,
+	order = 5,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -48806,8 +49066,8 @@ _G.pg.base.shop_template[70738] = {
 		{
 			{
 				2024,
-				5,
-				21
+				9,
+				12
 			},
 			{
 				0,
@@ -48818,8 +49078,8 @@ _G.pg.base.shop_template[70738] = {
 		{
 			{
 				2024,
-				5,
-				26
+				9,
+				15
 			},
 			{
 				23,
@@ -55817,7 +56077,7 @@ _G.pg.base.shop_template[70899] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 10,
+	order = 5,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -55833,8 +56093,8 @@ _G.pg.base.shop_template[70899] = {
 		{
 			{
 				2024,
-				5,
-				21
+				9,
+				12
 			},
 			{
 				0,
@@ -55845,8 +56105,8 @@ _G.pg.base.shop_template[70899] = {
 		{
 			{
 				2024,
-				5,
-				26
+				9,
+				15
 			},
 			{
 				23,
@@ -55870,7 +56130,7 @@ _G.pg.base.shop_template[70900] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 10,
+	order = 5,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -55886,8 +56146,8 @@ _G.pg.base.shop_template[70900] = {
 		{
 			{
 				2024,
-				5,
-				21
+				9,
+				12
 			},
 			{
 				0,
@@ -55898,8 +56158,8 @@ _G.pg.base.shop_template[70900] = {
 		{
 			{
 				2024,
-				5,
-				26
+				9,
+				15
 			},
 			{
 				23,
@@ -55923,7 +56183,7 @@ _G.pg.base.shop_template[70901] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 10,
+	order = 5,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -55939,8 +56199,8 @@ _G.pg.base.shop_template[70901] = {
 		{
 			{
 				2024,
-				5,
-				21
+				9,
+				12
 			},
 			{
 				0,
@@ -55951,8 +56211,8 @@ _G.pg.base.shop_template[70901] = {
 		{
 			{
 				2024,
-				5,
-				26
+				9,
+				15
 			},
 			{
 				23,
@@ -55976,7 +56236,7 @@ _G.pg.base.shop_template[70902] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 10,
+	order = 5,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -55992,8 +56252,8 @@ _G.pg.base.shop_template[70902] = {
 		{
 			{
 				2024,
-				5,
-				21
+				9,
+				12
 			},
 			{
 				0,
@@ -56004,8 +56264,8 @@ _G.pg.base.shop_template[70902] = {
 		{
 			{
 				2024,
-				5,
-				26
+				9,
+				15
 			},
 			{
 				23,
@@ -56029,7 +56289,7 @@ _G.pg.base.shop_template[70903] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 10,
+	order = 5,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -56045,8 +56305,8 @@ _G.pg.base.shop_template[70903] = {
 		{
 			{
 				2024,
-				5,
-				21
+				9,
+				12
 			},
 			{
 				0,
@@ -56057,8 +56317,8 @@ _G.pg.base.shop_template[70903] = {
 		{
 			{
 				2024,
-				5,
-				26
+				9,
+				15
 			},
 			{
 				23,
@@ -56082,7 +56342,7 @@ _G.pg.base.shop_template[70904] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 10,
+	order = 5,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -56098,8 +56358,8 @@ _G.pg.base.shop_template[70904] = {
 		{
 			{
 				2024,
-				5,
-				21
+				9,
+				12
 			},
 			{
 				0,
@@ -56110,8 +56370,8 @@ _G.pg.base.shop_template[70904] = {
 		{
 			{
 				2024,
-				5,
-				26
+				9,
+				15
 			},
 			{
 				23,
@@ -56135,7 +56395,7 @@ _G.pg.base.shop_template[70905] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 10,
+	order = 5,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -56151,8 +56411,8 @@ _G.pg.base.shop_template[70905] = {
 		{
 			{
 				2024,
-				5,
-				21
+				9,
+				12
 			},
 			{
 				0,
@@ -56163,8 +56423,8 @@ _G.pg.base.shop_template[70905] = {
 		{
 			{
 				2024,
-				5,
-				26
+				9,
+				15
 			},
 			{
 				23,
@@ -56188,7 +56448,7 @@ _G.pg.base.shop_template[70906] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 10,
+	order = 5,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -56204,8 +56464,8 @@ _G.pg.base.shop_template[70906] = {
 		{
 			{
 				2024,
-				5,
-				21
+				9,
+				12
 			},
 			{
 				0,
@@ -56216,8 +56476,8 @@ _G.pg.base.shop_template[70906] = {
 		{
 			{
 				2024,
-				5,
-				26
+				9,
+				15
 			},
 			{
 				23,
@@ -56665,7 +56925,7 @@ _G.pg.base.shop_template[70915] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 2,
+	order = 5,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -56681,8 +56941,8 @@ _G.pg.base.shop_template[70915] = {
 		{
 			{
 				2024,
-				7,
-				18
+				9,
+				12
 			},
 			{
 				0,
@@ -56693,8 +56953,8 @@ _G.pg.base.shop_template[70915] = {
 		{
 			{
 				2024,
-				7,
-				24
+				9,
+				15
 			},
 			{
 				23,
@@ -62606,6 +62866,483 @@ _G.pg.base.shop_template[71043] = {
 				2024,
 				9,
 				11
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[71044] = {
+	group_type = 0,
+	resource_num = 1180,
+	time_second = 0,
+	type = 6,
+	type_order = 0,
+	desc = "购买皮肤:240912天城礼服",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 71044,
+	genre = "skin_shop",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		307151
+	},
+	time = {
+		{
+			{
+				2024,
+				9,
+				12
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				9,
+				15
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[71045] = {
+	group_type = 0,
+	resource_num = 1200,
+	time_second = 0,
+	type = 6,
+	type_order = 0,
+	desc = "购买皮肤:240912渡良瀬礼服",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 71045,
+	genre = "skin_shop",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		302251
+	},
+	time = {
+		{
+			{
+				2024,
+				9,
+				12
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				9,
+				15
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[71046] = {
+	group_type = 0,
+	resource_num = 980,
+	time_second = 0,
+	type = 6,
+	type_order = 0,
+	desc = "购买皮肤:240912贝尔法斯特游乐园",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 2,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 71046,
+	genre = "skin_shop",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		202127
+	},
+	time = {
+		{
+			{
+				2024,
+				9,
+				12
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				9,
+				15
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[71047] = {
+	group_type = 0,
+	resource_num = 800,
+	time_second = 0,
+	type = 6,
+	type_order = 0,
+	desc = "购买皮肤:240912皇家方舟游乐园",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 2,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 71047,
+	genre = "skin_shop",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		207025
+	},
+	time = {
+		{
+			{
+				2024,
+				9,
+				12
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				9,
+				15
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[71048] = {
+	group_type = 0,
+	resource_num = 880,
+	time_second = 0,
+	type = 6,
+	type_order = 0,
+	desc = "购买皮肤:240912绫濑睡衣",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 2,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 71048,
+	genre = "skin_shop",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		302261
+	},
+	time = {
+		{
+			{
+				2024,
+				9,
+				12
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				9,
+				15
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[71049] = {
+	group_type = 0,
+	resource_num = 800,
+	time_second = 0,
+	type = 6,
+	type_order = 0,
+	desc = "购买皮肤:240912凉波游乐园",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 71049,
+	genre = "skin_shop",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		301911
+	},
+	time = {
+		{
+			{
+				2024,
+				9,
+				12
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				9,
+				15
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[71050] = {
+	group_type = 0,
+	resource_num = 800,
+	time_second = 0,
+	type = 6,
+	type_order = 0,
+	desc = "购买皮肤:240912Z35游乐园",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 71050,
+	genre = "skin_shop",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		401353
+	},
+	time = {
+		{
+			{
+				2024,
+				9,
+				12
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				9,
+				15
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[71051] = {
+	group_type = 0,
+	resource_num = 780,
+	time_second = 0,
+	type = 6,
+	type_order = 0,
+	desc = "购买皮肤:240912谢菲尔德游乐园",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 71051,
+	genre = "skin_shop",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		202085
+	},
+	time = {
+		{
+			{
+				2024,
+				9,
+				12
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				9,
+				15
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[71052] = {
+	group_type = 0,
+	resource_num = 700,
+	time_second = 0,
+	type = 6,
+	type_order = 0,
+	desc = "购买皮肤:240912吹雪中秋节",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 2,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 71052,
+	genre = "skin_shop",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		301016
+	},
+	time = {
+		{
+			{
+				2024,
+				9,
+				12
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				9,
+				15
 			},
 			{
 				23,

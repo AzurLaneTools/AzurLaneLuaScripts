@@ -2,7 +2,7 @@ pg = pg or {}
 pg.activity_ship_create = {
 	{
 		id = 1,
-		activity_id = 5339,
+		activity_id = 5579,
 		create_id = 7,
 		pickup_num = 2,
 		pickup_list = {
@@ -72,6 +72,7 @@ pg.activity_ship_create = {
 			202281,
 			202291,
 			202301,
+			202321,
 			301011,
 			301021,
 			301051,
@@ -127,7 +128,8 @@ pg.activity_ship_create = {
 			802021,
 			901011,
 			901021,
-			901031
+			901031,
+			901131
 		},
 		ratio_display = {
 			250,
@@ -138,7 +140,7 @@ pg.activity_ship_create = {
 	},
 	{
 		id = 2,
-		activity_id = 5339,
+		activity_id = 5579,
 		create_id = 8,
 		pickup_num = 2,
 		pickup_list = {
@@ -169,6 +171,7 @@ pg.activity_ship_create = {
 			204011,
 			204021,
 			204031,
+			204041,
 			205011,
 			205021,
 			205031,
@@ -177,6 +180,7 @@ pg.activity_ship_create = {
 			213011,
 			213021,
 			213041,
+			301291,
 			303031,
 			303041,
 			303111,
@@ -184,6 +188,7 @@ pg.activity_ship_create = {
 			304021,
 			304041,
 			304061,
+			304071,
 			305031,
 			305121,
 			305141,
@@ -200,6 +205,7 @@ pg.activity_ship_create = {
 			705041,
 			705051,
 			805011,
+			903011,
 			903021,
 			904011,
 			905031
@@ -214,7 +220,7 @@ pg.activity_ship_create = {
 	},
 	{
 		id = 3,
-		activity_id = 5339,
+		activity_id = 5579,
 		create_id = 6,
 		pickup_num = 2,
 		pickup_list = {
@@ -236,7 +242,9 @@ pg.activity_ship_create = {
 			107091,
 			107111,
 			107141,
+			107231,
 			107381,
+			107991,
 			108051,
 			108061,
 			108071,
@@ -254,6 +262,8 @@ pg.activity_ship_create = {
 			207011,
 			207041,
 			207051,
+			207091,
+			301291,
 			306071,
 			306081,
 			306091,
@@ -267,6 +277,7 @@ pg.activity_ship_create = {
 			308041,
 			308051,
 			308061,
+			312011,
 			317011,
 			319011,
 			406011,
@@ -280,7 +291,8 @@ pg.activity_ship_create = {
 			408101,
 			506011,
 			506021,
-			808011
+			808011,
+			907011
 		},
 		ratio_display = {
 			250,

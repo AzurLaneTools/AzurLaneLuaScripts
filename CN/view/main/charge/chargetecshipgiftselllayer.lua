@@ -23,17 +23,17 @@ end
 slot0.initData = function(slot0)
 	slot0.showGoodVO = slot0.contextData.showGoodVO
 	slot0.chargedList = slot0.contextData.chargedList
-	slot0.goodVOList = slot0.showGoodVO:getSameGroupTecShipGift()
+	slot0.goodVOList = slot0.showGoodVO:getSameLimitGroupTecGoods()
 	slot0.normalGoodVO = nil
 	slot0.highGoodVO = nil
 	slot0.upGoodVO = nil
 
 	for slot4, slot5 in ipairs(slot0.goodVOList) do
-		if slot5:getConfig("limit_arg") == Goods.Tec_Ship_Gift_Arg.Normal then
+		if slot5:getConfig("limit_arg") == 1 then
 			slot0.normalGoodVO = slot5
-		elseif slot5:getConfig("limit_arg") == Goods.Tec_Ship_Gift_Arg.High then
+		elseif slot5:getConfig("limit_arg") == 2 then
 			slot0.highGoodVO = slot5
-		elseif slot5:getConfig("limit_arg") == Goods.Tec_Ship_Gift_Arg.Up then
+		elseif slot5:getConfig("limit_arg") == 3 then
 			slot0.upGoodVO = slot5
 		end
 	end
@@ -87,14 +87,14 @@ slot0.updateGiftTF = function(slot0, slot1, slot2)
 	slot11 = slot0:findTF("Desc1", slot1)
 	slot12 = slot0:findTF("Desc2", slot1)
 	slot13 = slot0:findTF("List", slot1)
-	slot14 = slot2:getConfig("limit_arg") == Goods.Tec_Ship_Gift_Arg.Normal
+	slot14 = slot2:getConfig("limit_arg") == 1
 	slot17 = ChargeConst.getBuyCount(slot0.chargedList, slot0.normalGoodVO.id) > 0
 
 	setActive(slot0:findTF("BG/Normal", slot1), slot14)
 	setActive(slot0:findTF("BG/Special", slot1), not slot14)
 	setActive(slot0:findTF("Buy/Normal", slot1), slot14 and not slot17)
-	setActive(slot0:findTF("Buy/Special", slot1), slot2:getConfig("limit_arg") == Goods.Tec_Ship_Gift_Arg.High)
-	setActive(slot0:findTF("Buy/Up", slot1), slot2:getConfig("limit_arg") == Goods.Tec_Ship_Gift_Arg.Up)
+	setActive(slot0:findTF("Buy/Special", slot1), slot2:getConfig("limit_arg") == 2)
+	setActive(slot0:findTF("Buy/Up", slot1), slot2:getConfig("limit_arg") == 3)
 	setActive(slot0:findTF("Buy/Disable", slot1), slot14 and slot17)
 
 	if slot14 and slot17 then

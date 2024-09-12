@@ -267,6 +267,9 @@ slot0.InitSwitch = function()
 		end,
 		[DROP_TYPE_LIVINGAREA_COVER] = function (slot0)
 			return pg.livingarea_cover[slot0.id]
+		end,
+		[DROP_TYPE_COMBAT_UI_STYLE] = function (slot0)
+			return pg.item_data_battleui[slot0.id]
 		end
 	}
 
@@ -347,6 +350,11 @@ slot0.InitSwitch = function()
 		end,
 		[DROP_TYPE_DORM3D_GIFT] = function (slot0)
 			return getProxy(ApartmentProxy):getGiftCount(slot0.id), true
+		end,
+		[DROP_TYPE_COMBAT_UI_STYLE] = function (slot0)
+			slot1 = getProxy(AttireProxy):getAttireFrame(AttireConst.TYPE_COMBAT_UI_STYLE, slot0.id)
+
+			return 1
 		end
 	}
 
@@ -431,6 +439,9 @@ slot0.InitSwitch = function()
 		end,
 		[DROP_TYPE_LIVINGAREA_COVER] = function (slot0)
 			return ItemRarity.Gold
+		end,
+		[DROP_TYPE_COMBAT_UI_STYLE] = function (slot0)
+			return slot0:getConfig("rare")
 		end
 	}
 
@@ -913,6 +924,17 @@ slot0.InitSwitch = function()
 			getProxy(LivingAreaCoverProxy):UpdateCover(slot2)
 			pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_COVER, slot2)
 			pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataCover(slot0.id, 1))
+		end,
+		[DROP_TYPE_COMBAT_UI_STYLE] = function (slot0)
+			slot2 = pg.TimeMgr.GetInstance():GetServerTime()
+			slot3 = CombatUIStyle.New({
+				id = slot0.id
+			})
+
+			slot3:setUnlock()
+			slot3:setNew()
+			getProxy(AttireProxy):addAttireFrame(slot3)
+			pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_COMBAT_UI, slot3)
 		end
 	}
 
@@ -1018,6 +1040,9 @@ slot0.InitSwitch = function()
 			setText(slot2, slot0:getConfig("display"))
 		end,
 		[DROP_TYPE_BUFF] = function (slot0, slot1, slot2)
+			setText(slot2, slot0:getConfig("desc"))
+		end,
+		[DROP_TYPE_COMBAT_UI_STYLE] = function (slot0, slot1, slot2)
 			setText(slot2, slot0:getConfig("desc"))
 		end
 	}
@@ -1152,6 +1177,9 @@ slot0.InitSwitch = function()
 		end,
 		[DROP_TYPE_LIVINGAREA_COVER] = function (slot0, slot1, slot2)
 			updateCover(slot1, slot0, slot2)
+		end,
+		[DROP_TYPE_COMBAT_UI_STYLE] = function (slot0, slot1, slot2)
+			updateAttireCombatUI(slot1, AttireConst.TYPE_ICON_FRAME, slot0:getConfigTable(), slot2)
 		end
 	}
 

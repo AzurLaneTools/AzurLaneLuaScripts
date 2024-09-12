@@ -43,6 +43,7 @@ slot0.init = function(slot0)
 	slot0._detailTitleTxt = slot0:findTF("title/title_txt/mask/scroll_txt", slot0._contentTF)
 	slot0._detailTimeTxt = slot0:findTF("title/time_txt", slot0._contentTF)
 	slot0._detailLine = slot0:findTF("line", slot0._contentTF)
+	slot0._bottom = slot0:findTF("bottom", slot0._contentTF)
 	slot0._contentContainer = slot0:findTF("content_container", slot0._contentTF)
 	slot0._contentTxtTpl = slot0:findTF("content_txt", slot0._contentTF)
 
@@ -125,24 +126,33 @@ end
 slot0.initNotices = function(slot0, slot1)
 	slot0.defaultMainTab = slot0.contextData.defaultMainTab
 	slot0.defaultSubTab = slot0.contextData.defaultSubTab
+	slot2, slot3 = nil
 
-	for slot5, slot6 in pairs(slot1) do
-		if slot0:checkNotice(slot6) then
-			table.insert(slot0._noticeDic[slot6.type], slot6)
-			table.insert(slot0._redDic[slot6.type], PlayerPrefs.HasKey(slot6.code))
+	for slot7, slot8 in pairs(slot1) do
+		if slot0:checkNotice(slot8) then
+			table.insert(slot0._noticeDic[slot8.type], slot8)
+			table.insert(slot0._redDic[slot8.type], PlayerPrefs.HasKey(slot8.code))
+
+			if not slot3 or slot3 < slot8.priority then
+				slot3 = slot8.priority
+				slot2 = slot8.type
+			end
+
+			table.insert(slot0.noticeKeys, tostring(slot8.id))
+			table.insert(slot0.noticeVersions, slot8.version)
 		else
-			Debugger.LogWarning("公告配置错误  id = " .. slot6.id)
+			Debugger.LogWarning("公告配置错误  id = " .. slot8.id)
 		end
 	end
 
-	for slot5 = 1, 3 do
-		slot6 = slot0._mainTabContainer
-		slot6 = slot6:GetChild(slot5 - 1)
-		slot7 = slot6:Find("selected")
-		slot7 = slot7:GetComponent(typeof(Animation))
+	for slot7 = 1, 3 do
+		slot8 = slot0._mainTabContainer
+		slot8 = slot8:GetChild(slot7 - 1)
+		slot9 = slot8:Find("selected")
+		slot9 = slot9:GetComponent(typeof(Animation))
 
-		setText(slot6:Find("Text"), i18n(uv0.MAIN_TAB_GAMETIP[slot5]))
-		onToggle(slot0, slot6, function (slot0)
+		setText(slot8:Find("Text"), i18n(uv0.MAIN_TAB_GAMETIP[slot7]))
+		onToggle(slot0, slot8, function (slot0)
 			if slot0 then
 				if uv0.currentMainTab and uv0.currentMainTab == uv1 then
 					return
@@ -161,27 +171,26 @@ slot0.initNotices = function(slot0, slot1)
 			end
 		end)
 
-		if #slot0._noticeDic[slot5] == 0 then
-			setActive(slot6, false)
-		else
-			slot0.defaultMainTab = slot0.defaultMainTab or slot5
+		if #slot0._noticeDic[slot7] == 0 then
+			setActive(slot8, false)
 		end
 	end
+
+	slot0.defaultMainTab = slot0.defaultMainTab or slot2
 
 	if slot0.defaultMainTab then
 		slot0.tempSubTab = slot0.defaultSubTab
 
 		triggerToggle(slot0._mainTabContainer:GetChild(slot0.defaultMainTab - 1), true)
 	end
+
+	BulletinBoardMgr.Inst:ClearCache(slot0.noticeKeys, slot0.noticeVersions)
 end
 
 slot0.setNotices = function(slot0, slot1)
 	slot0:clearTab()
 
 	for slot5, slot6 in pairs(slot1) do
-		table.insert(slot0.noticeKeys, tostring(slot6.id))
-		table.insert(slot0.noticeVersions, slot6.version)
-
 		slot7 = cloneTplTo(slot0._tabTpl, slot0._subTabContainer)
 
 		SetActive(slot7, true)
@@ -231,7 +240,6 @@ slot0.setNotices = function(slot0, slot1)
 	slot0.defaultSubTab = slot0.defaultSubTab or 1
 
 	triggerToggle(slot0._subTabList[slot0.defaultSubTab], true)
-	BulletinBoardMgr.Inst:ClearCache(slot0.noticeKeys, slot0.noticeVersions)
 end
 
 slot0.setImage = function(slot0, slot1, slot2, slot3, slot4)
@@ -284,56 +292,29 @@ slot0.setNoticeDetail = function(slot0, slot1)
 	slot0:clearLeanTween()
 	slot0:clearContent()
 
-	if slot1.paramType or slot1.link then
+	if slot1.paramType then
 		setActive(slot0._detailTitle, false)
 		setActive(slot0._detailLine, false)
 		setActive(slot0._contentContainer, false)
+		setActive(slot0._bottom, false)
 
 		slot0._detailTitleImgLayoutElement.preferredHeight = uv0.TITLE_IMAGE_HEIGHT_FULL
 
 		slot0:setImage(slot1.id, slot1.version, slot1.titleImage, slot0._detailTitleImg)
 		onButton(slot0, slot0._detailTitleImg, function ()
-			if uv0.link then
-				if uv0.link == "activity" then
-					uv1:emit(NewBulletinBoardMediator.GO_SCENE, SCENE.ACTIVITY)
-				elseif uv0.link == "build" then
-					uv1:emit(NewBulletinBoardMediator.GO_SCENE, SCENE.GETBOAT)
-				elseif uv0.link == "furniture" then
-					uv1:emit(NewBulletinBoardMediator.GO_SCENE, SCENE.COURTYARD, {
-						OpenShop = true
-					})
-				elseif uv0.link == "skin" then
-					uv1:emit(NewBulletinBoardMediator.GO_SCENE, SCENE.SKINSHOP)
-				elseif uv0.link == "shop" then
-					uv1:emit(NewBulletinBoardMediator.GO_SCENE, SCENE.SHOP)
-				elseif uv0.link == "dewenjun" then
-					uv1:emit(NewBulletinBoardMediator.GO_SCENE, SCENE.OTHERWORLD_MAP, {
-						openTerminal = true,
-						terminalPage = OtherworldTerminalLayer.PAGE_ADVENTURE
-					})
-				else
-					Application.OpenURL(uv0.link)
-					uv1:emit(NewBulletinBoardMediator.TRACK_OPEN_URL, uv0.track)
-				end
+			if uv0.paramType == 1 then
+				Application.OpenURL(uv0.param)
+				uv1:emit(NewBulletinBoardMediator.TRACK_OPEN_URL, uv0.track)
+			elseif uv0.paramType == 2 then
+				uv1:emit(NewBulletinBoardMediator.GO_SCENE, uv0.param)
+			elseif uv0.paramType == 3 then
+				uv1:emit(NewBulletinBoardMediator.GO_SCENE, SCENE.ACTIVITY, {
+					id = uv0.param
+				})
+			elseif uv0.paramType == 4 then
+				slot0 = pg.activity_banner_notice[uv0.param].param
 
-				Debugger.LogWarning("使用了旧的跳转配置格式 id = " .. uv0.id)
-			end
-
-			if uv0.paramType then
-				if uv0.paramType == 1 then
-					Application.OpenURL(uv0.param)
-					uv1:emit(NewBulletinBoardMediator.TRACK_OPEN_URL, uv0.track)
-				elseif uv0.paramType == 2 then
-					uv1:emit(NewBulletinBoardMediator.GO_SCENE, uv0.param)
-				elseif uv0.paramType == 3 then
-					uv1:emit(NewBulletinBoardMediator.GO_SCENE, SCENE.ACTIVITY, {
-						id = uv0.param
-					})
-				elseif uv0.paramType == 4 then
-					slot0 = pg.activity_banner_notice[uv0.param].param
-
-					uv1:emit(NewBulletinBoardMediator.GO_SCENE, slot0[1], slot0[2])
-				end
+				uv1:emit(NewBulletinBoardMediator.GO_SCENE, slot0[1], slot0[2])
 			end
 
 			uv1.contextData.defaultMainTab = uv1.currentMainTab
@@ -343,51 +324,64 @@ slot0.setNoticeDetail = function(slot0, slot1)
 		setActive(slot0._detailTitle, true)
 		setActive(slot0._detailLine, true)
 		setActive(slot0._contentContainer, true)
+		setActive(slot0._bottom, true)
 		setScrollText(slot0._detailTitleTxt, slot1.pageTitle)
 		setText(slot0._detailTimeTxt, slot1.timeDes)
 
 		slot0._detailTitleImgLayoutElement.preferredHeight = uv0.TITLE_IMAGE_HEIGHT_DEFAULT
-		slot8 = slot1.titleImage
+		slot9 = slot0._detailTitleImg
 
-		slot0:setImage(slot1.id, slot1.version, slot8, slot0._detailTitleImg)
+		slot0:setImage(slot1.id, slot1.version, slot1.titleImage, slot9)
 		removeOnButton(slot0._detailTitleImg)
 
+		slot4 = function(slot0)
+			slot1 = #slot0
+
+			if #slot0 == 0 then
+				return ""
+			end
+
+			slot2, slot3 = string.find(slot0, "^[ ]*\n")
+
+			return string.sub(slot0, (slot3 or 0) + 1, (string.find(slot0, "\n[ ]*$") or slot1 + 1) - 1)
+		end
+
 		slot0._contentInfo = {}
-		slot4 = 1
+		slot5 = 1
 
-		for slot8 in string.gmatch(slot1.content, "<banner>%S-</banner>") do
-			slot9, slot10 = string.find(slot8, "<banner>")
-			slot11, slot12 = string.find(slot8, "</banner>")
-			slot13 = string.sub(slot8, slot10 + 1, slot11 - 1)
-			slot14, slot15 = string.find(slot1.content, slot8, slot4, true)
+		for slot9 in string.gmatch(slot1.content, "<banner>%S-</banner>") do
+			slot10, slot11 = string.find(slot9, "<banner>")
+			slot12, slot13 = string.find(slot9, "</banner>")
+			slot14 = string.sub(slot9, slot11 + 1, slot12 - 1)
+			slot15, slot16 = string.find(slot1.content, slot9, slot5, true)
 
-			if slot14 ~= nil and #string.sub(slot1.content, slot4, slot14 - 1) > 0 then
+			if slot15 ~= nil and #slot4(string.sub(slot1.content, slot5, slot15 - 1)) > 0 then
 				table.insert(slot0._contentInfo, {
 					type = uv0.CONTENT_TYPE.RICHTEXT,
-					text = slot16
+					text = slot17
 				})
 			end
 
 			table.insert(slot0._contentInfo, {
 				type = uv0.CONTENT_TYPE.BANNER,
-				text = slot13
+				text = slot14
 			})
 
-			slot4 = slot15 + 1
+			slot5 = slot16 + 1
 		end
 
-		if slot4 < #slot1.content then
+		if slot5 < #slot1.content then
 			table.insert(slot0._contentInfo, {
 				type = uv0.CONTENT_TYPE.RICHTEXT,
-				text = string.sub(slot1.content, slot4, #slot1.content)
+				text = slot4(string.sub(slot1.content, slot5, #slot1.content))
 			})
 		end
 
-		for slot8, slot9 in pairs(slot0._contentInfo) do
-			if slot9.type == uv0.CONTENT_TYPE.RICHTEXT then
-				slot3(slot9.text)
-			elseif slot9.type == uv0.CONTENT_TYPE.BANNER then
-				slot2(slot9.text)
+		for slot9, slot10 in pairs(slot0._contentInfo) do
+			if slot10.type == uv0.CONTENT_TYPE.RICHTEXT then
+				slot3(slot10.text)
+			elseif slot10.type == uv0.CONTENT_TYPE.BANNER then
+				slot2(slot10.text)
 			end
 		end
 

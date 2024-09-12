@@ -360,6 +360,7 @@ slot3.GetResFromSkill = function(slot0, slot1, slot2, slot3)
 
 	if type(uv0.GetSkillTemplate(slot0, slot1 or 1).painting) == "string" then
 		slot4[#slot4 + 1] = uv1.Battle.BattleResourceManager.GetHrzIcon(slot5.painting)
+		slot4[#slot4 + 1] = uv1.Battle.BattleResourceManager.GetSquareIcon(slot5.painting)
 	end
 
 	if type(slot5.castCV) == "table" then

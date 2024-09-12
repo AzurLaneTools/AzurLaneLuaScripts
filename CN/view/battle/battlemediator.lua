@@ -308,16 +308,26 @@ slot0.warnFunc = function(slot0, slot1)
 	slot3 = slot0.contextData.system
 	slot4, slot5 = nil
 
+	resumeFuncDeco = function()
+		if uv0 then
+			uv0()
+		end
+
+		if uv1.viewComponent.leaveBtn:GetComponent(typeof(Animation)) then
+			slot0:Play("msgbox_btn_into")
+		end
+	end
+
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		modal = true,
 		hideYes = true,
 		hideNo = true,
 		content = (not slot0.contextData.warnMsg or #slot6 <= 0 or i18n(slot6)) and (slot3 ~= SYSTEM_CHALLENGE or i18n("battle_battleMediator_clear_warning")) and (slot3 ~= SYSTEM_SIMULATION or i18n("tech_simulate_quit")) and i18n("battle_battleMediator_quest_exist"),
-		onClose = slot1,
+		onClose = resumeFuncDeco,
 		custom = {
 			{
 				text = "text_cancel",
-				onCallback = slot1,
+				onCallback = resumeFuncDeco,
 				sound = SFX_CANCEL
 			},
 			{

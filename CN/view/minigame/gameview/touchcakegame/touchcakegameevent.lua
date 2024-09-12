@@ -1,0 +1,23 @@
+this = class("TouchCakeGameEvent")
+this.LEVEL_GAME = "leavel game"
+this.PAUSE_GAME = "pause game "
+this.OPEN_PAUSE_UI = "open pause ui"
+this.OPEN_LEVEL_UI = "open leave ui"
+this.BACK_MENU = "back menu"
+this.OPEN_EQUIP_UI = "open equip ui"
+this.ON_HOME = "on home"
+this.CLOSE_GAME = "close game"
+this.SHOW_RULE = "show rule"
+this.SHOW_RANK = "show rank"
+this.READY_START = "ready start"
+this.COUNT_DOWN = "count down"
+this.STORE_SERVER = "store server"
+this.SUBMIT_GAME_SUCCESS = "submit game success"
+this.GAME_OVER = "game over"
+this.PRESS_DIRECT = "press direct"
+this.ADD_SCORE = "add score"
+this.ADD_COMBO = "add combo"
+this.PLAYER_DIZZI = "player dizzi"
+this.PLAYER_BOOM = "player boom"
+
+return this

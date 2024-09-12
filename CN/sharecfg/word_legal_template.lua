@@ -1154,7 +1154,12 @@ temp = function()
 		},
 		["里"] = {
 			["兰"] = {
-				this = true
+				this = true,
+				["·"] = {
+					["改"] = {
+						this = true
+					}
+				}
 			}
 		},
 		["萨"] = {
@@ -4861,6 +4866,16 @@ end
 temp()
 
 temp = function()
+	uv0["椋"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["貊"] = {
 		this = {
 			this = true
@@ -4987,6 +5002,16 @@ end
 temp()
 
 temp = function()
+	uv0["狑"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["豼"] = {
 		this = {
 			this = true
@@ -5019,6 +5044,16 @@ temp()
 
 temp = function()
 	uv0["貄"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["獭"] = {
 		this = {
 			this = true
 		}
@@ -5212,6 +5247,17 @@ temp = function()
 	uv0["鲟"] = {
 		this = {
 			this = true
+		},
+		["·"] = {
+			M = {
+				E = {
+					T = {
+						A = {
+							this = true
+						}
+					}
+				}
+			}
 		}
 	}
 end

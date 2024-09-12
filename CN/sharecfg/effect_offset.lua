@@ -2078,5 +2078,27 @@ pg.effect_offset = {
 			5,
 			0
 		}
+	},
+	tiancheng_fenghuang1 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			1.5,
+			3,
+			0
+		}
+	},
+	tiancheng_fenghuang2 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			1.5,
+			3,
+			0
+		}
 	}
 }

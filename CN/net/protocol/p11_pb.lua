@@ -58,6 +58,8 @@ slot2 = {
 	SC_11003_CHILD_DISPLAY_FIELD = slot0.FieldDescriptor(),
 	SC_11003_COVER_FIELD = slot0.FieldDescriptor(),
 	SC_11003_MAIL_STOREROOM_LV_FIELD = slot0.FieldDescriptor(),
+	SC_11003_BATTLE_UI_LIST_FIELD = slot0.FieldDescriptor(),
+	SC_11003_BATTLE_UI_FIELD = slot0.FieldDescriptor(),
 	SC_11004_RESOURCE_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_11005_TYPE_FIELD = slot0.FieldDescriptor(),
 	CS_11005_ID_FIELD = slot0.FieldDescriptor(),
@@ -217,6 +219,7 @@ slot2 = {
 	NOTICEINFO_TAG_TYPE_FIELD = slot0.FieldDescriptor(),
 	NOTICEINFO_ICON_FIELD = slot0.FieldDescriptor(),
 	NOTICEINFO_TRACK_FIELD = slot0.FieldDescriptor(),
+	NOTICEINFO_PRIORITY_FIELD = slot0.FieldDescriptor(),
 	CARDINFO_TYPE_FIELD = slot0.FieldDescriptor(),
 	CARDINFO_LEFT_DATE_FIELD = slot0.FieldDescriptor(),
 	RESOURCE_TYPE_FIELD = slot0.FieldDescriptor(),
@@ -916,6 +919,24 @@ slot2.SC_11003_MAIL_STOREROOM_LV_FIELD.has_default_value = false
 slot2.SC_11003_MAIL_STOREROOM_LV_FIELD.default_value = 0
 slot2.SC_11003_MAIL_STOREROOM_LV_FIELD.type = 13
 slot2.SC_11003_MAIL_STOREROOM_LV_FIELD.cpp_type = 3
+slot2.SC_11003_BATTLE_UI_LIST_FIELD.name = "battle_ui_list"
+slot2.SC_11003_BATTLE_UI_LIST_FIELD.full_name = "p11.sc_11003.battle_ui_list"
+slot2.SC_11003_BATTLE_UI_LIST_FIELD.number = 49
+slot2.SC_11003_BATTLE_UI_LIST_FIELD.index = 48
+slot2.SC_11003_BATTLE_UI_LIST_FIELD.label = 3
+slot2.SC_11003_BATTLE_UI_LIST_FIELD.has_default_value = false
+slot2.SC_11003_BATTLE_UI_LIST_FIELD.default_value = {}
+slot2.SC_11003_BATTLE_UI_LIST_FIELD.type = 13
+slot2.SC_11003_BATTLE_UI_LIST_FIELD.cpp_type = 3
+slot2.SC_11003_BATTLE_UI_FIELD.name = "battle_ui"
+slot2.SC_11003_BATTLE_UI_FIELD.full_name = "p11.sc_11003.battle_ui"
+slot2.SC_11003_BATTLE_UI_FIELD.number = 50
+slot2.SC_11003_BATTLE_UI_FIELD.index = 49
+slot2.SC_11003_BATTLE_UI_FIELD.label = 2
+slot2.SC_11003_BATTLE_UI_FIELD.has_default_value = false
+slot2.SC_11003_BATTLE_UI_FIELD.default_value = 0
+slot2.SC_11003_BATTLE_UI_FIELD.type = 13
+slot2.SC_11003_BATTLE_UI_FIELD.cpp_type = 3
 SC_11003.name = "sc_11003"
 SC_11003.full_name = "p11.sc_11003"
 SC_11003.nested_types = {}
@@ -968,7 +989,9 @@ SC_11003.fields = {
 	slot2.SC_11003_SOUNDSTORY_FIELD,
 	slot2.SC_11003_CHILD_DISPLAY_FIELD,
 	slot2.SC_11003_COVER_FIELD,
-	slot2.SC_11003_MAIL_STOREROOM_LV_FIELD
+	slot2.SC_11003_MAIL_STOREROOM_LV_FIELD,
+	slot2.SC_11003_BATTLE_UI_LIST_FIELD,
+	slot2.SC_11003_BATTLE_UI_FIELD
 }
 SC_11003.is_extendable = false
 SC_11003.extensions = {}
@@ -3142,6 +3165,15 @@ slot2.NOTICEINFO_TRACK_FIELD.has_default_value = false
 slot2.NOTICEINFO_TRACK_FIELD.default_value = ""
 slot2.NOTICEINFO_TRACK_FIELD.type = 9
 slot2.NOTICEINFO_TRACK_FIELD.cpp_type = 9
+slot2.NOTICEINFO_PRIORITY_FIELD.name = "priority"
+slot2.NOTICEINFO_PRIORITY_FIELD.full_name = "p11.noticeinfo.priority"
+slot2.NOTICEINFO_PRIORITY_FIELD.number = 11
+slot2.NOTICEINFO_PRIORITY_FIELD.index = 10
+slot2.NOTICEINFO_PRIORITY_FIELD.label = 2
+slot2.NOTICEINFO_PRIORITY_FIELD.has_default_value = false
+slot2.NOTICEINFO_PRIORITY_FIELD.default_value = 0
+slot2.NOTICEINFO_PRIORITY_FIELD.type = 13
+slot2.NOTICEINFO_PRIORITY_FIELD.cpp_type = 3
 NOTICEINFO.name = "noticeinfo"
 NOTICEINFO.full_name = "p11.noticeinfo"
 NOTICEINFO.nested_types = {}
@@ -3156,7 +3188,8 @@ NOTICEINFO.fields = {
 	slot2.NOTICEINFO_CONTENT_FIELD,
 	slot2.NOTICEINFO_TAG_TYPE_FIELD,
 	slot2.NOTICEINFO_ICON_FIELD,
-	slot2.NOTICEINFO_TRACK_FIELD
+	slot2.NOTICEINFO_TRACK_FIELD,
+	slot2.NOTICEINFO_PRIORITY_FIELD
 }
 NOTICEINFO.is_extendable = false
 NOTICEINFO.extensions = {}

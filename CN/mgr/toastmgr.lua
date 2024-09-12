@@ -10,6 +10,7 @@ slot0.TYPE_CRUSING = "Crusing"
 slot0.TYPE_VOTE = "Vote"
 slot0.TYPE_EMOJI = "Emoji"
 slot0.TYPE_COVER = "Cover"
+slot0.TYPE_COMBAT_UI = "CombatUI"
 slot0.ToastInfo = {
 	[slot0.TYPE_ATTIRE] = {
 		Attire = "attire_tpl"
@@ -36,6 +37,9 @@ slot0.ToastInfo = {
 	},
 	[slot0.TYPE_COVER] = {
 		Cover = "cover_tpl"
+	},
+	[slot0.TYPE_COMBAT_UI] = {
+		CombatUI = "combatui_tpl"
 	}
 }
 
@@ -179,6 +183,32 @@ slot0.UpdateAttire = function(slot0, slot1, slot2, slot3)
 	setActive(slot4.transform:Find("bg/icon_frame"), slot6:getType() == AttireConst.TYPE_ICON_FRAME)
 	setActive(slot4.transform:Find("bg/chat_frame"), slot7 == AttireConst.TYPE_CHAT_FRAME)
 	setText(slot4.transform:Find("bg/Text"), HXSet.hxLan(slot6:getConfig("name")))
+end
+
+slot0.UpdateCombatUI = function(slot0, slot1, slot2, slot3)
+	slot4 = slot0:GetAndSet(slot1.type, slot0.container)
+	slot5 = pg.item_data_battleui[slot1.info.id]
+
+	LoadImageSpriteAsync("Props/" .. slot5.display_icon, slot4.transform:Find("content/icon"), true)
+	setText(slot4.transform:Find("content/name"), slot5.name)
+	setText(slot4.transform:Find("content/label"), i18n("battle_ui_unlock"))
+
+	slot6 = slot4.transform:Find("content")
+	slot6.anchoredPosition = Vector2(-550, 0)
+
+	LeanTween.moveX(rtf(slot6), 0, 0.5)
+	LeanTween.moveX(rtf(slot6), -550, 0.5):setDelay(5):setOnComplete(System.Action(function ()
+		setActive(uv0, false)
+		uv1.pools[uv2.type .. "Tpl"]:Enqueue(uv0)
+
+		if uv3 then
+			uv3()
+		end
+	end))
+
+	if slot2 then
+		slot2()
+	end
 end
 
 slot0.UpdateEmoji = function(slot0, slot1, slot2, slot3)

@@ -11,6 +11,7 @@ slot0.OPEN_CHARGE_BIRTHDAY = "ChargeMediator:OPEN_CHARGE_BIRTHDAY"
 slot0.OPEN_USER_AGREE = "ChargeMediator:OPEN_USER_AGREE"
 slot0.VIEW_SKIN_PROBABILITY = "ChargeMediator:VIEW_SKIN_PROBABILITY"
 slot0.OPEN_TEC_SHIP_GIFT_SELL_LAYER = "ChargeMediator:OPEN_TEC_SHIP_GIFT_SELL_LAYER"
+slot0.OPEN_BATTLE_UI_SELL_LAYER = "ChargeMediator:OPEN_BATTLE_UI_SELL_LAYER"
 
 slot0.register = function(slot0)
 	slot1 = getProxy(PlayerProxy)
@@ -89,6 +90,16 @@ slot0.register = function(slot0)
 		uv0:addSubLayers(Context.New({
 			mediator = ChargeTecShipGiftSellMediator,
 			viewComponent = ChargeTecShipGiftSellLayer,
+			data = {
+				showGoodVO = slot1,
+				chargedList = slot2
+			}
+		}))
+	end)
+	slot0:bind(uv0.OPEN_BATTLE_UI_SELL_LAYER, function (slot0, slot1, slot2)
+		uv0:addSubLayers(Context.New({
+			mediator = ChargeBattleUISellMediator,
+			viewComponent = ChargeBattleUISellLayer,
 			data = {
 				showGoodVO = slot1,
 				chargedList = slot2

@@ -5297,7 +5297,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>请在参与作战时保持网络环境畅通</color>
 
 6.火力支援
-随着信标{namecode:230}挑战的进行，从第31天开始，即2024.6.14~2024.9.5期间，舰队挑战「{namecode:230}」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标{namecode:230}开放的日期增加，火力支援提供的伤害也会增加。
+随着信标{namecode:230}挑战的进行，从第31天开始，即2024.10.12~2024.12.12期间，舰队挑战「{namecode:230}」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标{namecode:230}开放的日期增加，火力支援提供的伤害也会增加。
 ※此支援只会在指挥官自己发现的信标{namecode:230}战斗中出现，每次挑战均会触发。]]
 		}
 	}
@@ -9134,6 +9134,11 @@ _G.pg.base.gametip.ship_remould_warning_105214 = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_105224 = {
+	tip = "此次改造操作后<color=#92fc63>【BIG SEVEN】</color>技能\n将升级为<color=#92fc63>【BIG SEVEN·马里兰】</color>"
+}
+
+
 _G.pg.base.gametip.ship_remould_warning_105234 = {
 	tip = "此次改造操作后<color=#92fc63>【BIG SEVEN】</color>技能\n将升级为<color=#92fc63>【BIG SEVEN·西弗吉尼亚】</color>"
 }
@@ -12363,7 +12368,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "匹兹堡、印第安纳 等角色建造概率UP！"
+	tip = "每累计建造200次可获得海上传奇舰船 {namecode:161}(最多4次)"
 }
 
 
@@ -14820,13 +14825,13 @@ _G.pg.base.gametip.returner_help = {
 
 被邀请者：
 回归指挥官：
-在2024年5月7日至5月21日维护期间没有过登录行为的
+在2024年8月29日至9月12日维护期间没有过登录行为的
 指挥官
 新人指挥官：
-在2024年5月21日至6月13日维护期间新注册的指挥官
+在2024年9月12日至10月2日24时期间新注册的指挥官
 满足被邀请资格的指挥官在活动期间登录可在特别活动页内输入邀请者的UID参与活动
 邀请者：
-2024年5月7日至5月21日维护前有过登录行为的指挥官
+2024年8月29日至9月12日维护前有过登录行为的指挥官
 邀请者可以使用自己的UID邀请满足被邀请资格的指挥官参与活动
 召集指挥官：
 单个邀请者最多可邀请两位指挥官，在其完成专属任务后可获得集结积分。召集信号发布后还可以解锁邀请者专属任务，完成任务后也可获得集结积分。集结积分达到指定数值后可以获得丰富奖励。
@@ -14906,7 +14911,7 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "4.指挥官可以从中选择2名角色作为祈愿角色，其中仅能最多选择1名<color=#ff5e39>海上传奇舰船</color>角色"
 		},
 		{
-			info = "5.可选名单仅包含3月21日前常驻加入对应建造的角色"
+			info = "5.可选名单仅包含7月10日前常驻加入对应建造的角色"
 		},
 		{
 			info = "6.有建造解锁条件的角色无法被选为祈愿角色，\n不会在祈愿建造中出现。"
@@ -28987,6 +28992,21 @@ _G.pg.base.gametip.battle_text_pizibao_2 = {
 }
 
 
+_G.pg.base.gametip.battle_text_tianchengCV_1 = {
+	tip = "「<color=#ff8800>苍红之风</color>，<color=#5cccff>青蓝之花</color>，一同降临于此岸吧！」"
+}
+
+
+_G.pg.base.gametip.battle_text_tianchengCV_2 = {
+	tip = "「啊——<color=#ff1800>彼岸之花</color>，尽情燃烧吧！」"
+}
+
+
+_G.pg.base.gametip.battle_text_tianchengCV_3 = {
+	tip = "敌人正在积蓄力量，请依次<color=#f1f102>触碰场上的阵法</color>为我方充能"
+}
+
+
 _G.pg.base.gametip.series_enemy_mood = {
 	tip = "心情不足"
 }
@@ -34523,4 +34543,194 @@ _G.pg.base.gametip.report_cannot_comment_level_2 = {
 
 _G.pg.base.gametip.commander_exp_limit = {
 	tip = "该指挥喵已达最大等级，无法添加指挥喵"
+}
+
+
+_G.pg.base.gametip.dreamland_label_day = {
+	tip = "白天"
+}
+
+
+_G.pg.base.gametip.dreamland_label_dusk = {
+	tip = "傍晚"
+}
+
+
+_G.pg.base.gametip.dreamland_label_night = {
+	tip = "夜晚"
+}
+
+
+_G.pg.base.gametip.dreamland_label_area = {
+	tip = "区域"
+}
+
+
+_G.pg.base.gametip.dreamland_label_explore = {
+	tip = "探索"
+}
+
+
+_G.pg.base.gametip.dreamland_label_explore_award_tip = {
+	tip = "完成该区域探索奖励"
+}
+
+
+_G.pg.base.gametip.dreamland_area_lock_tip = {
+	tip = "- 该区域尚未解锁 请继续阅读剧情 -"
+}
+
+
+_G.pg.base.gametip.dreamland_spring_lock_tip = {
+	tip = "阅读后续剧情解锁"
+}
+
+
+_G.pg.base.gametip.dreamland_spring_tip = {
+	tip = "邀请角色入梦恢复心情 $1/h"
+}
+
+
+_G.pg.base.gametip.dream_land_tip = {
+	tip = {
+		{
+			info = [[
+活动规则：
+·<color=#92fc63>9.12-10.2</color>期间开启限时活动「梦幻乐园的梦幻假日」
+·随剧情解锁梦幻乐园的各个区域，获得<color=#92fc63>限定家具</color>、<color=#92fc63>外观装备箱</color>等奖励
+·梦幻乐园各区域地图上均有可交互的探索点。指挥官在享受梦幻假日的同时，可通过留意地图上的<color=#92fc63>「星星」</color>指引及<color=#92fc63>乐园手册</color>中的探索指引，进行梦幻乐园探索，获得<color=#92fc63>限定家具</color>、<color=#92fc63>外观装备箱</color>等奖励
+·部分探索仅在特殊时间内触发，在完成「梦幻乐园的梦幻假日」全部剧情后，可以通过<color=#92fc63>时间转换</color>调整梦幻乐园时间
+·邀请角色进入安眠梦境，加快心情回复。安眠梦境随梦幻乐园区域解锁扩展]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.touch_cake_minigame_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/touchcake_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/touchcake_help2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.dreamland_main_desc = {
+	tip = "9.12~10.2，活动期间完成<color=#85E7FF>梦幻乐园探索</color>与<color=#85E7FF>啾啾蛋糕塔</color>获得丰厚奖励"
+}
+
+
+_G.pg.base.gametip.dreamland_main_tip = {
+	tip = {
+		{
+			info = [[
+活动规则：
+·<color=#92fc63>9.12-10.2</color>期间开启限时活动「梦幻乐园的梦幻假日」
+·随剧情解锁梦幻乐园的各个区域，获得<color=#92fc63>限定家具</color>、<color=#92fc63>外观装备箱</color>等奖励
+·梦幻乐园各区域地图上均有可交互的探索点。指挥官在享受梦幻假日的同时，可通过留意地图上的<color=#92fc63>「星星」</color>指引及<color=#92fc63>乐园手册</color>中的探索指引，进行梦幻乐园探索，获得<color=#92fc63>限定家具</color>、<color=#92fc63>外观装备箱</color>等奖励
+·部分探索仅在特殊时间内触发，在完成「梦幻乐园的梦幻假日」全部剧情后，可以通过<color=#92fc63>时间转换</color>调整梦幻乐园时间
+·邀请角色进入安眠梦境，加快心情回复。安眠梦境随梦幻乐园区域解锁扩展
+·9.18为止，每日可获得一次「啾啾蛋糕塔」游戏次数，参与游戏可获取「梦幻蛋糕券」
+·累计7张「梦幻蛋糕券」可获得限定道具<color=#92fc63>「庆典邀请函」</color>]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.no_share_skin_gametip = {
+	tip = "*该换装为$1换装，无法与$2共享使用"
+}
+
+
+_G.pg.base.gametip.no_share_skin_tianchenghangmu = {
+	tip = "{namecode:161}(航母)"
+}
+
+
+_G.pg.base.gametip.no_share_skin_tianchengzhanlie = {
+	tip = "{namecode:161}(战列)"
+}
+
+
+_G.pg.base.gametip.no_share_skin_jiahezhanlie = {
+	tip = "{namecode:92}(战列)"
+}
+
+
+_G.pg.base.gametip.no_share_skin_jiahehangmu = {
+	tip = "{namecode:92}(航母)"
+}
+
+
+_G.pg.base.gametip.ui_pack_tip1 = {
+	tip = "只能购买一个档位，礼包将发送到邮箱请注意查收"
+}
+
+
+_G.pg.base.gametip.ui_pack_tip2 = {
+	tip = "基础版"
+}
+
+
+_G.pg.base.gametip.ui_pack_tip3 = {
+	tip = "豪华版"
+}
+
+
+_G.pg.base.gametip.battle_ui_unlock = {
+	tip = "装扮解锁"
+}
+
+
+_G.pg.base.gametip.compensate_ui_expiration_hour = {
+	tip = "$1时后过期"
+}
+
+
+_G.pg.base.gametip.compensate_ui_expiration_day = {
+	tip = "$1天后过期"
+}
+
+
+_G.pg.base.gametip.compensate_ui_title1 = {
+	tip = "补偿"
+}
+
+
+_G.pg.base.gametip.compensate_ui_title2 = {
+	tip = "compensate"
+}
+
+
+_G.pg.base.gametip.compensate_ui_nothing1 = {
+	tip = "暂未收到任何补偿"
+}
+
+
+_G.pg.base.gametip.compensate_ui_nothing2 = {
+	tip = "No compensation received yet"
 }

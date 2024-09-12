@@ -2291,6 +2291,59 @@ pg.mini_game = {
 			}
 		}
 	},
+	{
+		is_ranking = 1,
+		view_name = "TouchCakeGameView",
+		game_room = 0,
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		name = "啾啾蛋糕塔",
+		config_csv = "",
+		id = 66,
+		hub_id = 57,
+		request_data = 1,
+		simple_config_data = {
+			drop_ids = {
+				{
+					2,
+					54050,
+					2
+				},
+				{
+					1,
+					1,
+					300
+				},
+				{
+					2,
+					54051,
+					1
+				},
+				{
+					1,
+					1,
+					300
+				},
+				{
+					2,
+					50004,
+					5
+				},
+				{
+					2,
+					20012,
+					2
+				},
+				{
+					2,
+					30347,
+					2
+				}
+			}
+		}
+	},
 	[1001] = {
 		is_ranking = 0,
 		view_name = "GameRoomFushun3View",
@@ -2885,6 +2938,7 @@ pg.mini_game = {
 		63,
 		64,
 		65,
+		66,
 		1001,
 		1002,
 		1003,

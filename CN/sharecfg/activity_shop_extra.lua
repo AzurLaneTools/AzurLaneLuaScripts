@@ -4222,11 +4222,11 @@ pg.activity_shop_extra = {
 	},
 	[124] = {
 		num_limit = 1,
-		activity = 5546,
+		activity = 5548,
 		commodity_type = 7,
 		num = 1,
 		commodity_id = 301324,
-		end_by_maintenance = 1,
+		end_by_maintenance = 0,
 		scene = "",
 		id = 124,
 		order = 5,
@@ -4234,8 +4234,8 @@ pg.activity_shop_extra = {
 			{
 				{
 					2024,
-					8,
-					1
+					9,
+					5
 				},
 				{
 					0,
@@ -4246,8 +4246,8 @@ pg.activity_shop_extra = {
 			{
 				{
 					2024,
-					9,
-					30
+					10,
+					2
 				},
 				{
 					23,

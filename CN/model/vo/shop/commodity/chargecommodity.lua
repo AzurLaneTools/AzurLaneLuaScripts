@@ -67,7 +67,7 @@ slot0.GetDropList = function(slot0)
 end
 
 slot0.GetExtraServiceItem = function(slot0)
-	slot1 = {}
+	slot1 = nil
 	slot1 = (not slot0:isPassItem() or PlayerConst.MergePassItemDrop(underscore.map(pg.battlepass_event_pt[slot0:getConfig("sub_display")[1]].award_pay, function (slot0)
 		return Drop.Create(pg.battlepass_event_award[slot0].drop_client)
 	end))) and underscore.map(slot0:getConfig("extra_service_item"), function (slot0)
@@ -87,17 +87,15 @@ slot0.GetExtraServiceItem = function(slot0)
 end
 
 slot0.GetBonusItem = function(slot0)
-	slot1 = nil
-
 	if slot0:isMonthCard() then
-		slot1 = {
-			id = 4,
-			type = 1,
+		return Drop.New({
+			type = DROP_TYPE_RESOURCE,
+			id = PlayerConst.ResDiamond,
 			count = slot0:GetGemCnt()
-		}
+		})
 	end
 
-	return slot1
+	return nil
 end
 
 slot0.GetChargeTip = function(slot0)
@@ -119,13 +117,12 @@ slot0.GetExtraDrop = function(slot0)
 	slot1 = nil
 
 	if slot0:isPassItem() then
-		slot2 = slot0:getConfig("sub_display")
-		slot3 = slot2[1]
-		slot4 = pg.battlepass_event_pt[slot3].pt
+		slot2, slot3 = unpack(slot0:getConfig("sub_display"))
+		slot4 = pg.battlepass_event_pt[slot2].pt
 		slot1 = Drop.New({
 			type = DROP_TYPE_VITEM,
-			id = pg.battlepass_event_pt[slot3].pt,
-			count = slot2[2]
+			id = pg.battlepass_event_pt[slot2].pt,
+			count = slot3
 		})
 	end
 
@@ -176,36 +173,24 @@ slot0.getLevelLimit = function(slot0)
 	return 0
 end
 
-slot0.isTecShipGift = function(slot0)
-	if slot0:getConfig("limit_type") == Goods.Tec_Ship_Gift_Type then
-		return true
-	else
-		return false
-	end
-end
-
-slot0.isTecShipShowGift = function(slot0)
-	if slot0:isTecShipGift() then
-		if slot0:getConfig("limit_arg") == Goods.Tec_Ship_Gift_Arg.Show then
-			return true
-		else
-			return false
-		end
-	else
-		return false
-	end
-end
-
-slot0.getSameGroupTecShipGift = function(slot0)
+slot0.getSameLimitGroupTecGoods = function(slot0)
 	slot1 = {}
 	slot2 = slot0:getConfig("limit_group")
 
 	for slot7, slot8 in ipairs(slot0:bindConfigTable().all) do
-		if slot3[slot8].limit_type == Goods.Tec_Ship_Gift_Type and slot9.limit_group == slot2 then
+		if slot3[slot8].limit_group == slot2 then
 			table.insert(slot1, Goods.Create({
 				shop_id = slot8
 			}, Goods.TYPE_CHARGE))
 		end
+	end
+
+	return slot1
+end
+
+slot0.getShowType = function(slot0)
+	if slot0:getConfig("show_group") == "" then
+		-- Nothing
 	end
 
 	return slot1

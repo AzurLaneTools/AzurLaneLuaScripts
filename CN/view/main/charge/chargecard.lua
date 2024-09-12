@@ -50,7 +50,7 @@ end
 
 slot0.update = function(slot0, slot1, slot2, slot3)
 	slot0.goods = slot1
-	slot4 = slot1:isChargeType() and slot1:isTecShipShowGift()
+	slot4 = slot1:isChargeType() and slot1:getShowType() ~= ""
 
 	setActive(slot0.desc, true)
 	setText(slot0.desc, "")

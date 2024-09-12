@@ -470,11 +470,11 @@ pg.item_data_frame = {
 	},
 	[332] = {
 		name = "新生之炎",
-		gain_by = "",
+		gain_by = "唤醒苍红之炎",
 		time_second = 0,
 		id = 332,
 		time_limit_type = 0,
-		desc = "通过后续活动获得",
+		desc = "<color=#ffffff>「狐鸣凤影，烈火浴心。虽为新生，亦续前缘。」</color>\n「唤醒苍红之炎」活动获取",
 		scene = {}
 	},
 	[401] = {
