@@ -195,7 +195,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "$1 is just here as a witness. I'm the one you should be talking to.",
+			say = "{playername} is just here as a witness. I'm the one you should be talking to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "Do you even know why I brought $1 with me?",
+			say = "Do you even know why I brought {playername} with me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

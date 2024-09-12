@@ -535,7 +535,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "$1, you say you want to save me and Kaga. What exactly does that entail?",
+			say = "{playername}, you say you want to save me and Kaga. What exactly does that entail?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1313,7 +1313,7 @@ return {
 			actor = 304050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "$1, I must ask – have we ever met before?",
+			say = "{playername}, I must ask – have we ever met before?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

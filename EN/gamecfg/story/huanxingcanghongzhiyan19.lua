@@ -1469,7 +1469,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "...It'll be okay. I trust $1.",
+			say = "...It'll be okay. I trust {playername}.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
