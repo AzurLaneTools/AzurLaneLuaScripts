@@ -19,6 +19,13 @@ slot1.ConfigSkin = function(slot0, slot1)
 	slot0._filledEffect.gameObject:SetActive(false)
 end
 
+slot1.ConfigCallback = function(slot0, slot1, slot2, slot3, slot4)
+	uv0.super.ConfigCallback(slot0, slot1, function ()
+		uv0()
+		quickCheckAndPlayAnimator(uv1._skin, "weapon_button_use")
+	end, slot3, slot4)
+end
+
 slot1.Update = function(slot0)
 end
 

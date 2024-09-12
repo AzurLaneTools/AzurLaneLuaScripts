@@ -28,6 +28,9 @@ slot2 = function(slot0)
 		end,
 		UpdateSelected = function (slot0, slot1)
 			setActive(slot0.selected, slot1)
+		end,
+		IsOwned = function (slot0)
+			return slot0.uiStyle:isOwned()
 		end
 	}
 
@@ -61,6 +64,7 @@ slot0.OnInit = function(slot0)
 	slot0.scolrect = slot1:GetComponent("LScrollRect")
 	slot0.confirmBtn = slot0:findTF("confirm", slot0.listPanel)
 	slot0.previewBtn = slot0:findTF("preview", slot0.listPanel)
+	slot0.lockBtn = slot0:findTF("lock", slot0.listPanel)
 
 	slot0.scolrect.onInitItem = function(slot0)
 		uv0:OnInitItem(slot0)
@@ -81,6 +85,18 @@ slot0.OnInit = function(slot0)
 	slot2 = slot0.preview
 
 	setText(slot2:Find("bg/title/Image"), i18n("word_preview"))
+
+	slot2 = slot0.confirmBtn
+
+	setText(slot2:Find("Text"), i18n("attire_combatui_confirm"))
+
+	slot2 = slot0.previewBtn
+
+	setText(slot2:Find("Text"), i18n("attire_combatui_preview"))
+
+	slot2 = slot0.lockBtn
+
+	setText(slot2:Find("Text"), i18n("index_not_obtained"))
 	setActive(slot0.preview, false)
 	setActive(slot0.rawImage, false)
 	onButton(slot0, slot0.preview, function ()
@@ -112,6 +128,14 @@ slot0.OnInitItem = function(slot0, slot1)
 			uv0:UpdateSelected(true)
 
 			uv1.card = uv0
+
+			if uv0:IsOwned() then
+				setActive(uv1.confirmBtn, true)
+				setActive(uv1.lockBtn, false)
+			else
+				setActive(uv1.confirmBtn, false)
+				setActive(uv1.lockBtn, true)
+			end
 		end
 	end, SFX_PANEL)
 end

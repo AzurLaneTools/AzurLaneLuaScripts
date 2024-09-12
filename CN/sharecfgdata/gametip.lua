@@ -34734,3 +34734,13 @@ _G.pg.base.gametip.compensate_ui_nothing1 = {
 _G.pg.base.gametip.compensate_ui_nothing2 = {
 	tip = "No compensation received yet"
 }
+
+
+_G.pg.base.gametip.attire_combatui_preview = {
+	tip = "前往预览"
+}
+
+
+_G.pg.base.gametip.attire_combatui_confirm = {
+	tip = "装扮"
+}

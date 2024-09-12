@@ -513,7 +513,7 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			dir = 1,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			say = "不用继续追击了？",
 			typewriter = {
 				speed = 0.05,
