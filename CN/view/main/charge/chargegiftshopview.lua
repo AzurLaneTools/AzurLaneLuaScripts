@@ -363,9 +363,9 @@ slot0.filterLimitTypeGoods = function(slot0, slot1)
 
 			for slot6, slot7 in ipairs(uv0:getSameLimitGroupTecGoods()) do
 				if slot7:getConfig("limit_arg") == 1 then
-					slot0 = slot7
-				elseif slot7:getConfig("limit_arg") == 2 then
 					slot1 = slot7
+				elseif slot7:getConfig("limit_arg") == 2 then
+					slot0 = slot7
 				elseif slot7:getConfig("limit_arg") == 3 then
 					slot2 = slot7
 				end

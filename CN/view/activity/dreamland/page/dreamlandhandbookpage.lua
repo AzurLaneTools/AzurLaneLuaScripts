@@ -146,7 +146,7 @@ slot0.InitArea = function(slot0, slot1, slot2)
 end
 
 slot0.GetLineCunt = function(slot0, slot1)
-	return math.max(math.ceil(slot1.gameObject.transform.sizeDelta.y / 48), 4)
+	return math.max(math.ceil(slot1.gameObject.transform.sizeDelta.y / slot0.lineUIList.container:GetComponent(typeof(VerticalLayoutGroup)).spacing), 4)
 end
 
 slot0.UpdateArea = function(slot0, slot1)

@@ -46,7 +46,7 @@ slot1.DoWave = function(slot0)
 			else
 				uv0:doPass(slot1)
 			end
-		end, slot2)
+		end, slot2, uv1.Battle.BattleDataProxy.GetInstance():GetInitData().isMemory)
 		gcAll()
 	else
 		slot0:doPass()

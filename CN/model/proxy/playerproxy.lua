@@ -28,6 +28,8 @@ slot0.register = function(slot0)
 		elseif uv0.data:GetDaysFromRegister() == 6 then
 			pg.TrackerMgr.GetInstance():Tracking(TRACKING_7D_RETENTION)
 		end
+
+		slot1:updateAttireFrame(AttireConst.TYPE_COMBAT_UI_STYLE, slot0.battle_ui or 0)
 	end)
 	slot0:on(11004, function (slot0)
 		if not uv0.data then
