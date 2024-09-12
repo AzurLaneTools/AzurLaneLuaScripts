@@ -39,19 +39,21 @@ slot1.SetJam = function(slot0, slot1)
 	SetActive(slot0._progress, not slot1)
 end
 
-slot1.SwitchIcon = function(slot0, slot1)
+slot1.SwitchIcon = function(slot0, slot1, slot2)
 	slot0._iconIndex = slot1
-	slot2 = uv0.ICON_BY_INDEX[slot1]
+	slot3 = uv0.ICON_BY_INDEX[slot1]
+	slot4 = slot2 or uv1.Battle.BattleState.GetCombatSkinKey()
 
-	setImageSprite(slot0._unfill, LoadSprite("ui/CombatUI_atlas", "weapon_unfill_" .. slot2))
-	setImageSprite(slot0._filled, LoadSprite("ui/CombatUI_atlas", "filled_combined_" .. slot2))
+	setImageSprite(slot0._unfill, LoadSprite("ui/CombatUI" .. slot4 .. "_atlas", "weapon_unfill_" .. slot3))
+	setImageSprite(slot0._filled, LoadSprite("ui/CombatUI" .. slot4 .. "_atlas", "filled_combined_" .. slot3))
 end
 
-slot1.SwitchIconEffect = function(slot0, slot1)
-	slot2 = uv0.ICON_BY_INDEX[slot1]
+slot1.SwitchIconEffect = function(slot0, slot1, slot2)
+	slot3 = uv0.ICON_BY_INDEX[slot1]
+	slot4 = slot2 or uv1.Battle.BattleState.GetCombatSkinKey()
 
-	setImageSprite(slot0._filledEffect, LoadSprite("ui/CombatUI_atlas", "filled_effect_" .. slot2), true)
-	setImageSprite(slot0._jam, LoadSprite("ui/CombatUI_atlas", "skill_jam_" .. slot2), true)
+	setImageSprite(slot0._filledEffect, LoadSprite("ui/CombatUI" .. slot4 .. "_atlas", "filled_effect_" .. slot3), true)
+	setImageSprite(slot0._jam, LoadSprite("ui/CombatUI" .. slot4 .. "_atlas", "skill_jam_" .. slot3), true)
 end
 
 slot1.ConfigSkin = function(slot0, slot1)
@@ -262,6 +264,22 @@ slot1.Update = function(slot0)
 
 	if slot0._progressInfo:GetTotal() > 0 and slot1 < slot2 then
 		slot0:updateProgressBar()
+	end
+end
+
+slot1.SetToCombatUIPreview = function(slot0, slot1)
+	if slot1 then
+		SetActive(slot0._filled, true)
+		SetActive(slot0._unfill, false)
+
+		slot0._progressBar.fillAmount = 1
+		slot0._countTxt.text = "1/1"
+	else
+		SetActive(slot0._unfill, true)
+		SetActive(slot0._filled, false)
+
+		slot0._progressBar.fillAmount = 0
+		slot0._countTxt.text = "0/0"
 	end
 end
 

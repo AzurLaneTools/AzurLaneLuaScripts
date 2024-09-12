@@ -14225,6 +14225,37 @@ _G.pg.base.item_data_statistics[21027] = {
 }
 
 
+_G.pg.base.item_data_statistics[21028] = {
+	open_directly = 0,
+	name = "結晶：基洛夫·META",
+	type = 4,
+	display = "基洛夫·META的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21028",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21028,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[21029] = {
 	open_directly = 0,
 	name = "結晶：金伯利·META",
@@ -14773,6 +14804,37 @@ _G.pg.base.item_data_statistics[21912] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21912,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[21913] = {
+	open_directly = 0,
+	name = "同步值：基洛夫·META",
+	type = 4,
+	display = "於「信標·META」戰鬥中收集的數據，可以提升基洛夫·META同步率。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21913",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21913,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},

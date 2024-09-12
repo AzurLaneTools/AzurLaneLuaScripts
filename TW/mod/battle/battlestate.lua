@@ -88,6 +88,10 @@ slot2.Ctor = function(slot0)
 	slot0:ChangeState(uv0.BATTLE_STATE_IDLE)
 end
 
+slot2.GetCombatSkinKey = function()
+	return COMBAT_SKIN_KEY or "Standard"
+end
+
 slot2.IsAutoBotActive = function(slot0)
 	return PlayerPrefs.GetInt("autoBotIsAcitve" .. AutoBotCommand.GetAutoBotMark(slot0), 0) == 1 and AutoBotCommand.autoBotSatisfied()
 end

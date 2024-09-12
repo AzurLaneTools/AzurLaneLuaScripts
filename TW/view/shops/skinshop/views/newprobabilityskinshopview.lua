@@ -80,21 +80,6 @@ end
 
 slot0.OnCharge = function(slot0, slot1)
 	slot2 = slot1
-	slot3 = underscore.map(slot2:getConfig("extra_service_item"), function (slot0)
-		return {
-			type = slot0[1],
-			id = slot0[2],
-			count = slot0[3]
-		}
-	end)
-
-	if slot2:getConfig("gem") + slot2:getConfig("extra_gem") > 0 then
-		table.insert(slot3, {
-			id = 4,
-			type = 1,
-			count = slot4
-		})
-	end
 
 	slot0:emit(NewProbabilitySkinShopMediator.OPEN_CHARGE_ITEM_PANEL, {
 		isChargeType = true,
@@ -102,7 +87,7 @@ slot0.OnCharge = function(slot0, slot1)
 		icon = "chargeicon/" .. slot2:getConfig("picture"),
 		name = slot2:getConfig("name_display"),
 		tipExtra = i18n("charge_title_getitem"),
-		extraItems = slot3,
+		extraItems = slot2:GetExtraServiceItem(),
 		price = slot2:getConfig("money"),
 		isLocalPrice = slot2:IsLocalPrice(),
 		tagType = slot2:getConfig("tag"),

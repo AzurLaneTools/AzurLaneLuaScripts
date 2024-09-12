@@ -13,7 +13,7 @@ return {
 			bgm = "battle-pacific",
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "薄云阻挡了月光，天守阁内顿时暗了下来。",
+			say = "薄雲阻擋了月光，天守閣內頓時暗了下來。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -35,7 +35,7 @@ return {
 			actor = 302230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在那之后不久，{namecode:74}大人她便向外宣布了辞去总旗舰之位，同时举行演习的事。",
+			say = "在那之後不久，長門大人她便向外宣布了辭去總旗艦之位，同時舉行演習的事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你的意思是说，神秘访客的到来和后面发生的事，有些关联？",
+			say = "妳的意思是說，神秘訪客的到來和後面發生的事，有些關聯？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			actor = 302230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不不不，这些都是我们瞎猜的……",
+			say = "不不不，這些都是我們瞎猜的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			actor = 302230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其实在{namecode:74}大人她对外宣布消息之前，曾有段时间外出巡游。",
+			say = "其實在長門大人她對外宣布消息之前，曾有一段時間外出巡遊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,71 +100,7 @@ return {
 			actor = 302230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可奇怪的是，没人在重樱的其他地方见到过{namecode:74}大人。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_508",
-			dir = 1,
-			actor = 302230,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "但其实……",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_508",
-			hidePaintObj = true,
-			say = "{namecode:226}忽然压低了声音，整个人也变得正襟危坐起来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_508",
-			dir = 1,
-			actor = 302230,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "但其实，那个时候的{namecode:74}大人是去了某个圣域。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "star_level_bg_508",
-			dir = 1,
-			actor = 302230,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "那个时候陪同{namecode:74}大人前往的人之中，就有{namecode:84}大人。",
+			say = "可奇怪的是，沒人在重櫻的其他地方見過長門大人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +118,36 @@ return {
 			actor = 302230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而我则是作为{namecode:84}大人的护卫随行的成员之一……",
+			say = "但其實……",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_508",
+			hidePaintObj = true,
+			say = "酒匂忽然壓低了聲音，整個人也變得正襟危坐起來。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_508",
+			dir = 1,
+			actor = 302230,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "但其實，那時候的長門大人是去了某個聖域。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +164,7 @@ return {
 			actor = 302230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但我也只是略知一二啦，因为随行的队伍都被留在了圣域外部待命。",
+			say = "那時陪同長門大人前往的人之中，就有武藏大人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +182,42 @@ return {
 			actor = 302230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "陪同{namecode:74}大人进入圣域的，只有{namecode:84}大人和{namecode:74}大人还有那个神秘的访客。",
+			say = "而我則是身為武藏大人的護衛隨行的成員之一……",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "star_level_bg_508",
+			dir = 1,
+			actor = 302230,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "但我也只是略知一二啦，因為隨行的隊伍都被留在了聖域外部待命。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_508",
+			dir = 1,
+			actor = 302230,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "陪同長門大人進入聖域的，只有武藏大人和長門大人還有那個神祕的訪客。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			actor = 302230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这就是我知道的全部了。",
+			say = "……這就是我知道的全部了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "今夜，{namecode:84}大人不告而别，是去找{namecode:74}大人了吗？",
+			say = "今夜，武藏大人不告而別，是去找長門大人了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84}大人她最近是否与你谈起过和梦境有关的话题？",
+			say = "武藏大人她最近是否與你談過和夢境有關的話題？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			actor = 302230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这倒是没有，不过，近几日{namecode:84}大人的面色不佳……",
+			say = "這倒是沒有，不過，近幾日武藏大人的面色不佳……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			actor = 302230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "难道说，您也是因为噩梦才无法入眠的吗？",
+			say = "難道說，您也是因為惡夢才無法入眠的嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "薄云散去，晴朗的夜空中忽然传出几声低沉的雷鸣。",
+			say = "薄雲散去，晴朗的夜空中忽然傳出幾聲低沉的雷鳴。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "一道细长的紫电劈向地面，不一会儿，隆隆的雷声便消失了。",
+			say = "一道細長的紫電劈向地面，不一會兒，隆隆的雷聲便消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "是{namecode:84}大人的信号，我该动身出发了。",
+			say = "是武藏大人的訊號，我該動身出發了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哦，对了，这个送你。",
+			say = "哦，對了，這個送妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好久没有人和我像这样说话了，谢谢你。",
+			say = "好久沒有人跟我這樣說話了，謝謝妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "她将什么东西放入了{namecode:226}的手中，转身离去。",
+			say = "她將什麼東西放入了酒匂的手中，轉身離去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			actor = 302230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是……折纸？",
+			say = "這是……摺紙？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "摊开手掌，手中的折纸像是一张可爱的人脸。",
+			say = "攤開手掌，手中的摺紙像是可愛的臉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "只不过在头上的地方，有两个像是角的凸起。",
+			say = "只不過在頭上的地方，有兩個像是角的凸起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			actor = 302230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦？这……难道是我吗？",
+			say = "咦？這……難道是我嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "她握着手中的折纸，望向夜空中的明月。",
+			say = "她握著手中的摺紙，望向夜空中的明月。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			actor = 302230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请神明保佑。",
+			say = "請神明保佑。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -528,7 +528,7 @@ return {
 			actor = 302230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一定要让大家平安归来……",
+			say = "一定要讓大家平安歸來……",
 			painting = {
 				alpha = 0.3,
 				time = 1

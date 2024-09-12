@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"守护之刃需守护\n\n<size=45>一　守护之刃的另一面</size>",
+					"守護之刃需守護\n\n<size=45>1 守護之刃的另一面</size>",
 					1
 				}
 			}
@@ -24,7 +24,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，刚才给你的文件有什么需要修改的地方吗？",
+			say = "指揮官，剛才給你的文件有什麼需要修改的地方嗎？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -59,7 +59,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没有的话，我就继续按照这个节奏继续工作了。",
+			say = "沒有的話，我就繼續按照這個節奏繼續工作了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -74,7 +74,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "隶属于鸢尾的空想级驱逐舰恶毒，从今天开始担任秘书舰一职。",
+			say = "隸屬於鳶尾的空想級驅逐艦惡毒，從今天開始擔任秘書艦一職。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "她见微知著、八面玲珑，工作效率高，沟通起来也很自然。",
+			say = "她見微知著、八面玲瓏，工作效率高，溝通起來也很自然。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？指挥官你要出门吗？",
+			say = "嗯？指揮官你要出門嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "需要出去处理一点事情。",
+			say = "需要出去處理一點事情。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我明白了，我会在办公室处理完剩下的工作，请指挥官放心外出。",
+			say = "我明白了，我會在辦公室處理完剩下的工作，請指揮官放心外出。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈啊……不行，太困了。",
+			say = "哈啊……不行，太睏了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "刚才一直在指挥官面前认真工作，已经累的不行了……",
+			say = "剛才一直在指揮官面前認真工作，已經累的不行了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还是先在沙发上躺一会吧……真舒服……",
+			say = "還是先在沙發上躺一下吧……真舒服……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "处理完事情后回到办公室，便看见了正躺在沙发上无精打采的恶毒。",
+			say = "處理完事情後回到辦公室，便看見了正躺在沙發上無精打采的惡毒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "总感觉，现在的她和平时很不一样。",
+			say = "總感覺，現在的她和平時很不一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一直保持端庄优雅的样子真是累死了……",
+			say = "一直保持端莊優雅的樣子真是累死了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "平常这个时候，我都还躺在床上懒得起来呢。",
+			say = "平常這個時候，我都還躺在床上懶得起來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "得趁指挥官不在好好眯一会才行，不然下午肯定撑不下去了……",
+			say = "得趁指揮官不在好好瞇一下才行，不然下午一定撐不下去了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……咦？指、指挥官？！",
+			say = "……咦？指、指揮官？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "刚才的……你都看见了？",
+			say = "剛才的……你都看見了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,11 +332,11 @@ return {
 			},
 			options = {
 				{
-					content = "什么也没看见。",
+					content = "什麼也沒看見。",
 					flag = 1
 				},
 				{
-					content = "全都看见了。",
+					content = "全都看見了。",
 					flag = 2
 				}
 			},
@@ -360,7 +360,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "太好啦，原来什么没看见——",
+			say = "太好啦，原來什麼沒看見──",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,7 +378,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你以为我会这么说吗？",
+			say = "妳以為我會這麼說嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "全、全都看见了……",
+			say = "全、全都看見了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -414,7 +414,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……唉，我还以为能瞒到秘书舰任期结束呢，没想到这么快就暴露了。",
+			say = "……唉，我還以為能瞞到秘書艦任期結束呢，沒想到這麼快就暴露了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -432,7 +432,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然被指挥官你知道，那我也不隐瞒了——",
+			say = "既然被指揮官你知道，那我也不隱瞞了——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -449,7 +449,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，你现在看见的我，才是真正的我。",
+			say = "沒錯，你現在看見的我，才是真正的我。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "平时端庄优雅的样子，那都是我的演技。",
+			say = "平常端莊優雅的樣子，那都是我的演技。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不用说出来我也明白，一直信任的同伴居然有不为人知的另一面什么的……",
+			say = "不用說出來我也明白，一直信任的同伴居然有不為人知的另一面什麼的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,7 +518,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那今后安排给你的工作就减少一点好了。",
+			say = "那今後安排給妳的工作就減少一點好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……诶？",
+			say = "……欸？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,7 +549,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我骗了你，你不生气吗？",
+			say = "指揮官，我騙了你，你不生氣嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -565,7 +565,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "每个人都有不愿在他人面前展露出的一面。",
+			say = "每個人都有不願意在他人面前展現的一面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "想要向他人展现出美好的一面并不是一件需要道歉的事。",
+			say = "想要向他人展現美好的一面並不是一件需要道歉的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "如果真要道歉的话，也是偶然间看到这些场景的我才是？",
+			say = "如果真要道歉的話，也是偶然間看到這些場景的我才是？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,7 +602,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（不仅没有因为我的伪装而对我生气失望，还愿意给我安排更少的工作……甚至还想道歉……）",
+			say = "（不僅沒有因為我的偽裝而對我生氣失望，還願意給我安排更少的工作……甚至還想道歉……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,7 +620,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谢谢你，指挥官，你果然很不一样呢。",
+			say = "謝謝你，指揮官，你果然很不一樣呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,7 +638,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过，我还是要拒绝你的提议。",
+			say = "不過，我還是要拒絕你的提議。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -655,7 +655,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然减少工作安排这点非常诱人，但我身为秘书舰，协助指挥官是我的职责所在。",
+			say = "雖然減少工作安排這點非常誘人，但我身為秘書艦，協助指揮官是我的職責所在。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -673,7 +673,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "身为辅助指挥官的守护之刃，却反过来让指挥官照顾，这可是本末倒置。",
+			say = "身為輔助指揮官的守護之刃，卻反過來讓指揮官照顧，這可是本末倒置。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -690,7 +690,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再说，在工作的时候偷懒休息，和没有工作就休息……效果是完全不一样的！",
+			say = "再說，在工作的時候偷懶休息，跟沒有工作就休息……效果是完全不一樣的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -708,7 +708,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还请指挥官像之前那样给我安排工作就好！",
+			say = "還請指揮官像之前那樣安排工作給我就好！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -723,7 +723,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_story_task_2",
-			say = "那之后——",
+			say = "那之後——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,7 +754,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "话是这么说……但这未免也太多了吧？！",
+			say = "話是這麼說……但這未免也太多了吧？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -781,7 +781,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "丢一部分给您处理吗？那倒不至于……",
+			say = "丟一部分給您處理嗎？那倒不至於……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -799,7 +799,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我只是嘴上抱怨一下而已，该做还是会做的啦。",
+			say = "我只是嘴上抱怨一下而已，該做還是會做的啦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -814,7 +814,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "那之后，恶毒不再掩饰自己的本性，偶尔会发出对工作的抱怨。",
+			say = "那之後，惡毒不再掩飾自己的本性，偶爾會發出對工作的抱怨。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -825,7 +825,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "指挥室中开始变得热闹起来了——",
+			say = "指揮室中開始變得熱鬧起來了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

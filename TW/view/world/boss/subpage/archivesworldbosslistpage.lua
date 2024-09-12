@@ -176,6 +176,7 @@ slot0.OnInitItem = function(slot0, slot1)
 		uv0:ClickCard(uv1.data)
 
 		uv0.prevCard = uv1
+		uv0.prevBossId = uv1.bossId
 	end, SFX_PANEL)
 
 	slot0.cards[slot1] = slot2
@@ -189,6 +190,12 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	end
 
 	slot3:Update(slot0.displays[slot1 + 1])
+
+	if slot0.prevBossId and slot0.prevBossId == slot3.bossId then
+		slot3:Select()
+	else
+		slot3:UnSelect()
+	end
 
 	if slot1 == 0 and not slot0.isInit then
 		triggerButton(slot3._tf)

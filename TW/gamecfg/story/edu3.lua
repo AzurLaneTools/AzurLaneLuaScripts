@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"守护之刃需守护\n\n<size=45>三　偷懒需借口</size>",
+					"守護之刃需守護\n\n<size=45>3 偷懶需藉口</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgm = "story-richang-2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "某天，看见了坐在路边椅子上的恶毒。",
+			say = "某天，看見了坐在路邊椅子上的惡毒。",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -68,7 +68,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			hidePaintObj = true,
-			say = "她正一脸疲惫地按压着自己的小腿。",
+			say = "她正一臉疲憊地按壓著自己的小腿。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这次的出航任务真折腾人，我双腿都快要累断了。",
+			say = "這次的出航任務真折磨人，我雙腿都快要累斷了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "下次再有这样的任务，我得找个理由请假才行。",
+			say = "下次再有這樣的任務，我得找個理由請假才行。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……不行，请假肯定会引起指挥官的注意，出航任务还是得好好干吧……",
+			say = "……不行，請假一定會引起指揮官的注意，出航任務還是得好好幹吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好不容易回来得早了些，在去述职之前，我得好好休息休息才行……",
+			say = "好不容易回來得早了些，在去述職之前，我得好好休息休息才行……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……这里就挺好。",
+			say = "嗯……這裡就很好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "安静，而且不会有人经过……吧？",
+			say = "安靜，而且不會有人經過……吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,7 +186,7 @@ return {
 			actor = 803010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "恶毒？你怎么在这里。",
+			say = "惡毒？妳怎麼在這裡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +204,7 @@ return {
 			actor = 803010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "刚完成远征任务回来么？",
+			say = "剛完成遠征任務回來嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……絮弗伦，你怎么在这里？",
+			say = "……絮弗倫，妳怎麼在這裡？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			actor = 803010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我正打算去演习场啦~你好好休息，不打扰你了。",
+			say = "我正打算去演習場啦~妳好好休息，不打擾你了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也……没在休息啦。",
+			say = "也……沒在休息啦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,7 +299,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "身为鸢尾的守护之刃，这种程度的任务对我而言一点也不辛苦。",
+			say = "身為鳶尾花的守護之刃，這種程度的任務對我而言一點也不辛苦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,7 +316,7 @@ return {
 			actor = 803010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇哦~不愧是恶毒，真厉害！那我就先走啦~",
+			say = "哇哦~不愧是惡毒，真厲害！那我就先走啦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			hidePaintObj = true,
-			say = "絮弗伦的突然出现让恶毒马上换回了平时优雅、端庄的姿态。",
+			say = "絮弗倫的突然出現讓惡毒馬上換回了平時優雅、端莊的姿態。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			hidePaintObj = true,
-			say = "而在絮弗伦走后，恶毒又马上恢复了原样。",
+			say = "而在絮弗倫走後，惡毒又馬上恢復了原樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……看来还是得回到房间才能放松休息。",
+			say = "……看來還是得回到房間放鬆休息。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,7 +373,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可双腿还是很累，要是勉强自己走回去，明天起床肯定会酸痛的吧。",
+			say = "但雙腿還是很累，如果勉強自己走回去，明天起床一定會酸痛的吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,7 +390,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "该怎么办呢？",
+			say = "怎麼辦呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -406,7 +406,7 @@ return {
 			bgName = "bg_main_day",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（恶毒看上去有些困扰，还是过去看看吧。）",
+			say = "（惡毒看起來有些困擾，還是過去看看吧。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官？真巧啊，你也是走累了想要休息么？",
+			say = "指揮官？真巧啊，你也是走累了想要休息麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -454,7 +454,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？看我很困扰的样子？",
+			say = "嗯？看我很困擾的樣子？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -472,7 +472,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "面对乐于助人的指挥官，我就不客气了。",
+			say = "面對樂於助人的指揮官，我就不客氣了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,7 +487,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_main_day",
 			hidePaintObj = true,
-			say = "恶毒自然地张开了双臂。",
+			say = "惡毒自然地張開了雙臂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,22 +499,22 @@ return {
 			bgName = "bg_main_day",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这时候应该……）",
+			say = "（這時候應該……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "给医务室打电话",
+					content = "打電話給醫務室",
 					flag = 1
 				},
 				{
-					content = "提议将她抱回去",
+					content = "提議將她抱回去",
 					flag = 2
 				},
 				{
-					content = "提议将她背回去",
+					content = "提議將她背回去",
 					flag = 3
 				}
 			}
@@ -546,7 +546,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这时候应该是给医务室打电话么……？",
+			say = "這時候應該是打電話給醫務室呢……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……虽然被抱起来也很舒服。",
+			say = "嗯……雖然被抱起來也很舒服。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,7 +626,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是被人看到就相当不妙了……",
+			say = "但是被人看到就相當不妙了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -645,7 +645,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……背我回去就好啦！",
+			say = "嗯……背我回去就好！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -664,7 +664,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不愧是指挥官，理解得真快~",
+			say = "不愧是指揮官，理解得真快~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -683,7 +683,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就拜托啦——",
+			say = "那就拜託啦——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -701,7 +701,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不对……等等等等。",
+			say = "不對……等等等等。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -718,7 +718,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就算是背着，被人看到也相当不妙。",
+			say = "就算是背著，被人看到也相當不妙。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -736,7 +736,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "需要一个合理的借口才行……",
+			say = "需要一個合理的藉口才行……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -752,7 +752,7 @@ return {
 			bgName = "bg_main_day",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "恶毒在远征回来后，因为腿部受伤所以要被人背着去医务室，这样如何？",
+			say = "惡毒在遠征回來後，因為腿部受傷所以要被人背著去醫務室，這樣如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,7 +766,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，真的是天才啊！",
+			say = "指揮官，真的是天才啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -784,7 +784,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这比起“单纯因为累而不愿意走动”听起来正义多了！",
+			say = "這比起「單純因為累而不願意走動」聽起來正義多了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -802,7 +802,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就拜托你了，指挥官。",
+			say = "那就拜託你了，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -817,7 +817,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_main_day",
-			say = "将恶毒背在身上，清新芳香扑鼻而来，背上更传来了奇妙的触感。",
+			say = "將惡毒背在身上，清新芳香撲鼻而來，背上更傳來了奇妙的觸感。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -847,7 +847,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（唔……虽然现在才反应过来已经有点太晚了，但是……）",
+			say = "（唔……雖然現在才反應過來已經有點太晚了，但是……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -865,7 +865,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（仔细想想，这不就是和指挥官亲密接触吗！）",
+			say = "（仔細想想，這不就是和指揮官親密接觸嗎！）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -888,7 +888,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（而且还是在公众场合上！）",
+			say = "（而且還是在公眾場合上！）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -911,7 +911,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（还、还是把脸藏在指挥官的后颈旁吧……）",
+			say = "（還、還是把臉藏在指揮官的後頸旁吧……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -928,7 +928,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（唔……这是，指挥官的气息？）",
+			say = "（嗯……這是，指揮官的氣息？）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -946,7 +946,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（脸上火热热的，现在的脸，实在不想被其他人看到……）",
+			say = "（臉上火熱熱的，現在的臉，實在不想被其他人看到……）",
 			painting = {
 				alpha = 0.3,
 				time = 1

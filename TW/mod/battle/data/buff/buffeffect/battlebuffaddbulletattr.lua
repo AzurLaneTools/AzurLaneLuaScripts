@@ -16,6 +16,7 @@ slot1.SetArgs = function(slot0, slot1, slot2)
 	slot0._weaponIndexList = slot0._tempData.arg_list.index
 	slot0._numberBase = slot0._number
 	slot0._displacementConvert = slot0._tempData.arg_list.displacement_convert
+	slot0._displacementDynamic = slot0._tempData.arg_list.displacement_convert_dynamic
 end
 
 slot1.onStack = function(slot0, slot1, slot2)
@@ -46,12 +47,12 @@ slot1.onManualBulletCreate = function(slot0, slot1, slot2, slot3)
 	slot0:calcBulletAttr(slot3)
 end
 
-slot1.onBulletCollide = function(slot0, slot1, slot2, slot3)
+slot1.onBulletCollideBefore = function(slot0, slot1, slot2, slot3)
 	if not slot0:equipIndexRequire(slot3.equipIndex) then
 		return
 	end
 
-	slot0:displacementConvert(slot3)
+	slot0:displacementConvert(slot3, slot1)
 	slot0:calcBulletAttr(slot3)
 end
 
@@ -60,7 +61,7 @@ slot1.onBombBulletBang = function(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	slot0:displacementConvert(slot3)
+	slot0:displacementConvert(slot3, slot1)
 	slot0:calcBulletAttr(slot3)
 end
 
@@ -69,21 +70,35 @@ slot1.onTorpedoBulletBang = function(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	slot0:displacementConvert(slot3)
+	slot0:displacementConvert(slot3, slot1)
 	slot0:calcBulletAttr(slot3)
 end
 
-slot1.displacementConvert = function(slot0, slot1)
-	slot3 = slot1._bullet:GetCurrentDistance()
-	slot4 = slot0._displacementConvert.base
-	slot6 = slot0._displacementConvert.max
+slot1.displacementConvert = function(slot0, slot1, slot2)
+	slot3 = slot1._bullet
 
-	if slot0._displacementConvert.rate > 0 then
-		slot0._number = math.min(math.max(slot3 - slot4, 0) * slot5, slot6)
-	elseif slot5 < 0 then
-		slot0._number = math.min(math.max(0, slot6 + (slot3 - slot4) * slot5), slot6)
-	elseif slot5 == 0 then
-		slot0._number = 0
+	if slot0._displacementConvert then
+		slot4 = slot3:GetCurrentDistance()
+		slot5 = slot0._displacementConvert.base
+		slot7 = slot0._displacementConvert.max
+
+		if slot0._displacementConvert.rate > 0 then
+			slot0._number = math.min(math.max(slot4 - slot5, 0) * slot6, slot7)
+		elseif slot6 < 0 then
+			slot0._number = math.min(math.max(0, slot7 + (slot4 - slot5) * slot6), slot7)
+		elseif slot6 == 0 then
+			slot0._number = 0
+		end
+	elseif slot0._displacementDynamic then
+		slot5 = slot0._displacementDynamic.base
+		slot6 = slot0._displacementDynamic.rate
+		slot7 = slot0._displacementDynamic.max
+
+		if slot0:getTargetList(slot2, slot0._displacementDynamic.check_caster, slot0._displacementDynamic) and #slot8 > 0 then
+			slot0._number = math.min(math.max(Vector3.Distance(slot8[1]:GetPosition(), slot3:GetPosition()) - slot5, 0) * slot6, slot7)
+		else
+			slot0._number = 0
+		end
 	end
 end
 

@@ -17,6 +17,7 @@ slot0.GO_SINGLE_ACTIVITY = "NewMainMediator:GO_SINGLE_ACTIVITY"
 slot0.REFRESH_VIEW = "NewMainMediator:REFRESH_VIEW"
 slot0.OPEN_DORM_SELECT_LAYER = "NewMainMediator.OPEN_DORM_SELECT_LAYER"
 slot0.OPEN_KINK_BUTTON_LAYER = "NewMainMediator.OPEN_KINK_BUTTON_LAYER"
+slot0.OPEN_Compensate = "NewMainMediator:OPEN_Compensate"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.GO_SINGLE_ACTIVITY, function (slot0, slot1)
@@ -110,6 +111,9 @@ slot0.register = function(slot0)
 			uv0:sendNotification(GAME.GO_SCENE, SCENE.MAIL)
 		end
 	end)
+	slot0:bind(uv0.OPEN_Compensate, function (slot0)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.Compensate)
+	end)
 	slot0:bind(uv0.OPEN_NOTICE, function (slot0)
 		uv0:addSubLayers(Context.New({
 			mediator = NewBulletinBoardMediator,
@@ -168,7 +172,10 @@ slot0.listNotificationInterests = function(slot0)
 		TaskProxy.TASK_ADDED,
 		TechnologyConst.UPDATE_REDPOINT_ON_TOP,
 		MiniGameProxy.ON_HUB_DATA_UPDATE,
-		uv0.REFRESH_VIEW
+		uv0.REFRESH_VIEW,
+		GAME.CHANGE_LIVINGAREA_COVER_DONE,
+		CompensateProxy.UPDATE_ATTACHMENT_COUNT,
+		CompensateProxy.All_Compensate_Remove
 	}
 
 	for slot5, slot6 in pairs(pg.redDotHelper:GetNotifyType()) do

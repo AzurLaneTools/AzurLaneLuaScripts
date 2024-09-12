@@ -146,6 +146,7 @@ pg.memory_group = setmetatable({
 		253,
 		254,
 		255,
+		256,
 		259,
 		262,
 		263,
@@ -162,6 +163,7 @@ pg.memory_group = setmetatable({
 		286,
 		288,
 		290,
+		300,
 		501,
 		502,
 		503,
@@ -249,6 +251,7 @@ pg.memory_group = setmetatable({
 		587,
 		588,
 		589,
+		590,
 		591,
 		594,
 		1000,
@@ -3474,6 +3477,23 @@ pg.base.memory_group = {
 			2923
 		}
 	},
+	[256] = {
+		title = "月夜未央",
+		subtype = 1,
+		link_event = 4974,
+		type = 2,
+		id = 256,
+		icon = "title_event",
+		memories = {
+			2951,
+			2952,
+			2953,
+			2954,
+			2955,
+			2956,
+			2957
+		}
+	},
 	[259] = {
 		title = "渡假村神秘事件調查",
 		subtype = 2,
@@ -3867,6 +3887,21 @@ pg.base.memory_group = {
 		icon = "title_event",
 		memories = {
 			3651
+		}
+	},
+	[300] = {
+		title = "樂園的起始符",
+		subtype = 2,
+		link_event = 5548,
+		type = 2,
+		id = 300,
+		icon = "title_event",
+		memories = {
+			3841,
+			3842,
+			3843,
+			3844,
+			3845
 		}
 	},
 	[501] = {
@@ -5359,6 +5394,23 @@ pg.base.memory_group = {
 			2835,
 			2836,
 			2837
+		}
+	},
+	[590] = {
+		title = "守護之刃需守護",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 590,
+		icon = "title_chara_edu",
+		memories = {
+			2941,
+			2942,
+			2943,
+			2944,
+			2945,
+			2946,
+			2947
 		}
 	},
 	[591] = {

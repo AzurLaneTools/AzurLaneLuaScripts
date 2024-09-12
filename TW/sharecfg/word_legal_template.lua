@@ -6159,7 +6159,18 @@ temp = function()
 	uv0["基"] = {
 		["洛"] = {
 			["夫"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		},
 		["輔"] = {

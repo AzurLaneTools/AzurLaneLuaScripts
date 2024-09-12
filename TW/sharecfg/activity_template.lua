@@ -7886,9 +7886,8 @@ pg.activity_template = {
 		}
 	},
 	[4972] = {
-		mark = 20240104,
+		mark = 20240912,
 		page_info = "",
-		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -7902,6 +7901,253 @@ pg.activity_template = {
 			10162,
 			10163,
 			10164
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					9,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[4973] = {
+		mark = 20240912,
+		type = 87,
+		login_pop = 0,
+		config_id = 12,
+		is_show = 40,
+		config_client = "",
+		title_res_tag = "activity",
+		id = 4973,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ChongYingFramePage",
+			ui_name = "ChongYingFramePage"
+		}
+	},
+	[4974] = {
+		mark = 20240912,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 39,
+		title_res_tag = "yueyeweiyang",
+		id = 4974,
+		config_data = {
+			{
+				19171,
+				19172
+			},
+			{
+				19173,
+				19174
+			},
+			{
+				19175,
+				19176
+			},
+			{
+				19177,
+				19178
+			},
+			{
+				19179,
+				19180
+			},
+			{
+				19181,
+				19182
+			},
+			{
+				19183,
+				19184
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "YueYeWeiYangPage",
+			ui_name = "YueYeWeiYangPage"
+		},
+		config_client = {
+			story = {
+				{
+					"YUEYEWEIYANG1"
+				},
+				{
+					"YUEYEWEIYANG2"
+				},
+				{
+					"YUEYEWEIYANG3"
+				},
+				{
+					"YUEYEWEIYANG4"
+				},
+				{
+					"YUEYEWEIYANG5"
+				},
+				{
+					"YUEYEWEIYANG6"
+				},
+				{
+					"YUEYEWEIYANG7"
+				}
+			}
+		}
+	},
+	[4975] = {
+		mark = 20240912,
+		type = 69,
+		login_pop = 0,
+		config_id = 23,
+		is_show = 38,
+		title_res_tag = "Georgia_catchup",
+		id = 4975,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "HakuryuuTecCatchupPage",
+			ui_name = "HakuryuuTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42032
+		}
+	},
+	[4976] = {
+		mark = 20240912,
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 26,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 4976,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					9,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[5017] = {
@@ -13150,6 +13396,82 @@ pg.activity_template = {
 		id = 5363,
 		config_data = {
 			20191
+		}
+	},
+	[5548] = {
+		mark = 20240912,
+		type = 18,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 48,
+		title_res_tag = "dreamland_sign",
+		id = 5548,
+		config_data = {
+			{
+				20510
+			},
+			{
+				20511
+			},
+			{
+				20512
+			},
+			{
+				20513
+			},
+			{
+				20514
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DreamSignPage",
+			ui_name = "DreamSignPage"
+		},
+		config_client = {
+			story = {
+				{
+					"LEYUANDEQISHIFU1"
+				},
+				{
+					"LEYUANDEQISHIFU2"
+				},
+				{
+					"LEYUANDEQISHIFU3"
+				},
+				{
+					"LEYUANDEQISHIFU4"
+				},
+				{
+					"LEYUANDEQISHIFU5"
+				}
+			}
 		}
 	},
 	[8009] = {
@@ -50153,10 +50475,12 @@ pg.activity_template = {
 			4951,
 			4960,
 			4971,
+			4974,
 			5017,
 			5023,
 			5324,
 			5360,
+			5548,
 			6000,
 			6001,
 			6002,
@@ -50850,6 +51174,7 @@ pg.activity_template = {
 			4690,
 			4793,
 			4950,
+			4975,
 			40400,
 			40489,
 			40557,
@@ -50874,6 +51199,7 @@ pg.activity_template = {
 			4790,
 			4903,
 			4948,
+			4973,
 			5064,
 			5162,
 			40724,
@@ -50900,6 +51226,7 @@ pg.activity_template = {
 			4791,
 			4908,
 			4949,
+			4976,
 			5063,
 			5161,
 			5249,
@@ -51614,6 +51941,10 @@ pg.activity_template = {
 		4970,
 		4971,
 		4972,
+		4973,
+		4974,
+		4975,
+		4976,
 		5017,
 		5023,
 		5047,
@@ -51746,6 +52077,7 @@ pg.activity_template = {
 		5361,
 		5362,
 		5363,
+		5548,
 		8009,
 		8010,
 		8019,

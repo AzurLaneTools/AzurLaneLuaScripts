@@ -98,6 +98,22 @@ slot0.execute = function(slot0, slot1)
 
 				return
 			end
+
+			if type(slot17) == "table" and (slot5.type == DROP_TYPE_DORM3D_FURNITURE or slot5.type == DROP_TYPE_DORM3D_GIFT) and (slot18[1] == "dailycount" or slot18[1] == "count") then
+				slot19 = 0
+
+				if slot5.type == DROP_TYPE_DORM3D_FURNITURE then
+					slot19 = getProxy(ApartmentProxy):GetFurnitureShopCount(slot5.effect_args[1])
+				elseif slot5.type == DROP_TYPE_DORM3D_GIFT then
+					slot19 = getProxy(ApartmentProxy):GetGiftShopCount(slot5.effect_args[1])
+				end
+
+				if slot18[3] <= slot19 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
+
+					return
+				end
+			end
 		end
 	end
 
@@ -278,6 +294,26 @@ slot0.execute = function(slot0, slot1)
 						pg.TipsMgr.GetInstance():ShowTips(i18n("shop_spweapon_success"))
 					end
 				})
+
+				if uv0.limit_args then
+					for slot7, slot8 in ipairs(uv0.limit_args) do
+						if type(slot8) == "table" and (uv0.type == DROP_TYPE_DORM3D_FURNITURE or uv0.type == DROP_TYPE_DORM3D_GIFT) then
+							if slot8[1] == "count" then
+								if uv0.type == DROP_TYPE_DORM3D_FURNITURE then
+									getProxy(ApartmentProxy):AddDailyFurnitureShopCount(uv0.effect_args[1], uv0.effect_args[2] or 1)
+								elseif uv0.type == DROP_TYPE_DORM3D_GIFT then
+									getProxy(ApartmentProxy):AddDailyGiftShopCount(uv0.effect_args[1], uv0.effect_args[2] or 1)
+								end
+							elseif slot8[1] == "dailycount" then
+								if uv0.type == DROP_TYPE_DORM3D_FURNITURE then
+									getProxy(ApartmentProxy):AddPermanentFurnitureShopCount(uv0.effect_args[1], uv0.effect_args[2] or 1)
+								elseif uv0.type == DROP_TYPE_DORM3D_GIFT then
+									getProxy(ApartmentProxy):AddPermanentGiftShopCount(uv0.effect_args[1], uv0.effect_args[2] or 1)
+								end
+							end
+						end
+					end
+				end
 
 				if not uv8.isQuickShopping then
 					uv1:sendNotification(GAME.SHOPPING_DONE, {

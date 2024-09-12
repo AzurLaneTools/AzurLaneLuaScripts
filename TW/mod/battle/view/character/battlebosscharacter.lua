@@ -210,8 +210,8 @@ slot2.UpdateHpBar = function(slot0)
 	slot0._bossBarInfoList[slot2].progressImage.fillAmount = slot3
 
 	if slot0._activeVernier then
-		slot0._vernier.anchorMin = Vector2(currentRate, 0.5)
-		slot0._vernier.anchorMax = Vector2(currentRate, 0.5)
+		slot0._vernier.anchorMin = Vector2(slot3, 0.5)
+		slot0._vernier.anchorMax = Vector2(slot3, 0.5)
 	end
 
 	slot0:SetHPBarCountText(slot4)

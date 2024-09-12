@@ -155895,6 +155895,132 @@ _G.pg.base.equip_data_statistics[100000] = {
 }
 
 
+_G.pg.base.equip_data_statistics[150000] = {
+	name = "刺繡錦囊",
+	tech = 0,
+	type = 10,
+	speciality = "<[NA]>",
+	attribute_1 = "durability",
+	value_2 = 0,
+	icon = "150000",
+	value_1 = "200",
+	rarity = 4,
+	descrip = "说明未填写",
+	nationality = 3,
+	ammo = 10,
+	value_3 = 0,
+	id = 150000,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60430
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"IJN",
+		"DEV"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[150001] = {
+	id = 150001,
+	value_1 = "230",
+	base = 150000,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150002] = {
+	id = 150002,
+	value_1 = "260",
+	base = 150000,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150003] = {
+	id = 150003,
+	value_1 = "290",
+	base = 150000,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150004] = {
+	id = 150004,
+	value_1 = "320",
+	base = 150000,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150005] = {
+	id = 150005,
+	value_1 = "350",
+	base = 150000,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150006] = {
+	id = 150006,
+	value_1 = "380",
+	base = 150000,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150007] = {
+	id = 150007,
+	value_1 = "410",
+	base = 150000,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150008] = {
+	id = 150008,
+	value_1 = "440",
+	base = 150000,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150009] = {
+	id = 150009,
+	value_1 = "470",
+	base = 150000,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150010] = {
+	id = 150010,
+	value_1 = "500",
+	base = 150000,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150011] = {
+	anti_siren = 100,
+	base = 150000,
+	id = 150011,
+	value_1 = "530",
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[150020] = {
 	name = "颶風旗",
 	tech = 0,

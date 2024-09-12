@@ -98,22 +98,21 @@ slot1.SetErrorCB = function(slot0, slot1)
 end
 
 slot1.onError = function(slot0)
-	uv0.UIMgr.GetInstance():LoadingOff()
-	uv1.stopTimer()
-	uv2("Simple Network Error: " .. tostring(slot0))
+	uv0.stopTimer()
+	uv1("Simple Network Error: " .. tostring(slot0))
+
+	if uv2 then
+		uv2:Dispose()
+
+		uv2 = nil
+	end
 
 	if uv3 then
-		uv3:Dispose()
-
-		uv3 = nil
+		uv3 = false
 	end
 
-	if uv4 then
-		uv4 = false
-	end
-
-	if uv1.errorCB then
-		uv1.errorCB()
+	if uv0.errorCB then
+		uv0.errorCB()
 	end
 end
 

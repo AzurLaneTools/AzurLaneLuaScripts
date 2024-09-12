@@ -13,7 +13,7 @@ return {
 			bgm = "battle-pacific",
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "清晨的微风掠过树木繁密的枝干，轻轻抖落粉色的花瓣。",
+			say = "清晨的微風掠過樹木繁密的枝幹，輕輕抖落粉紅色的花瓣。",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -36,7 +36,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是……",
+			say = "這是……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -51,7 +51,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "一眼望不到头的上坡道两侧樱花盛开，飘落的花瓣铺满了道路。",
+			say = "一眼望不到頭的上坡道兩側櫻花盛開，飄落的花瓣鋪滿了道路。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "在一棵树下驻足观望，伸手轻轻触摸——",
+			say = "在一棵樹下駐足觀望，伸手輕輕觸摸——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_508",
-			say = "重樱群岛·某处",
+			say = "重櫻群島·某處",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "华贵的房间中，灯影摇曳。",
+			say = "華貴的房間中，燈影搖曳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是梦啊……",
+			say = "是夢啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可是为何，吾却依旧能感受到那种刺痛。",
+			say = "可是為何，吾卻依舊能感受到那種刺痛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "神木在不洁的黑雾之下分崩离析，于黑暗中摇摇欲坠，奄奄一息。",
+			say = "神木在不潔的黑霧下分崩離析，於黑暗中搖搖欲墜，奄奄一息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "万物凋敝，生灵涂炭，那是一生都无法忘却的破灭景象。",
+			say = "萬物凋敝，生靈塗炭，那是一生都無法忘卻的破滅景象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "轻轻的叩门声打断了{namecode:74}的回忆。",
+			say = "輕輕的叩門聲打斷了長門的回憶。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:158}？进来吧。",
+			say = "江風？進來吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "伴随着推拉门滑动的声响，一个白衣白发的身影正坐在门前。",
+			say = "伴隨著拉門滑動的聲響，一個白衣白髮的身影正坐在門前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			actor = 301490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "十分抱歉，{namecode:74}大人，打扰到您了。",
+			say = "十分抱歉，長門大人，打擾到您了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "无妨，吾正好有一事不明。",
+			say = "無妨，吾正好有一事不明。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "近日有关各地神木枯萎的报告，是否属实？",
+			say = "近日有關各地神木枯萎的報告，是否屬實？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			actor = 301490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "回{namecode:74}大人，有关神木枯萎的报告已全部核实完毕，所述内容……准确无误。",
+			say = "回長門大人，有關神木枯萎的報告已全部核實完畢，所述內容……準確無誤。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这么说，那并不是单纯的梦境……",
+			say = "這麼說，那並不是單純的夢境……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "神木的枯萎从都城往外扩散了吗……",
+			say = "神木的枯萎從都城往外擴散了嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "{namecode:74}简单地整理着身上的衣物，跪坐在门边的{namecode:158}顺势起身，将门窗关闭。",
+			say = "長門簡單地整理著身上的衣物，跪坐在門邊的江風順勢起身，將門窗關閉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "镌刻着花纹的屏风被展开，半透的薄纱上映着少女的身姿。",
+			say = "錒刻著花紋的屏風被展開，半透的薄紗上映著少女的身姿。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "灯火摇曳，长发舒展的影子落在屏风上，留下点点晕散的倩影。",
+			say = "燈火搖曳，長髮舒展的影子落在屏風上，留下點點暈散的倩影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "舀一瓢水从她的脖颈处流下，水声汩汩——",
+			say = "舀一瓢水從她的脖頸處流下，水聲汩汩——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:158}，给{namecode:84}发信，吾会在今日日出之时登门拜访。",
+			say = "江風，發信給武藏，吾會在今日日出之時登門拜訪。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			actor = 301490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:74}大人，其实……",
+			say = "長門大人，其實……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			actor = 301490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:84}大人她已经在门厅等候多时了。",
+			say = "武藏大人她已經在門廳等候多時了。",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -241,7 +241,7 @@ slot0.AMMO_DAMAGE_ENHANCE = {
 	"damageRatioByAmmoType_1",
 	"damageRatioByAmmoType_2",
 	"damageRatioByAmmoType_3",
-	nil,
+	"damageRatioByAmmoType_4",
 	nil,
 	nil,
 	"damageRatioByAmmoType_7"

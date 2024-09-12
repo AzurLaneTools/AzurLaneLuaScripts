@@ -777,7 +777,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9702061] = {
-		breakout_view = "习得技能【逐光之焰·基洛夫】/主炮效率提高5%",
+		breakout_view = "習得技能【逐光之焰·基洛夫】/主炮效率提高5%",
 		item2 = 21028,
 		pre_id = 0,
 		repair = 0,
@@ -793,7 +793,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702062] = {
-		breakout_view = "鱼雷底座+1/鱼雷预装填+1/主炮效率提高10%",
+		breakout_view = "魚雷底座+1/魚雷預裝+1/主炮效率提升10%",
 		item2 = 21028,
 		pre_id = 9702061,
 		repair = 0,
@@ -810,7 +810,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702063] = {
-		breakout_view = "【逐光之焰·基洛夫】升级/主炮效率提高15%",
+		breakout_view = "【逐光之焰·基洛夫】升級/主炮效率提高15%",
 		item2 = 21028,
 		pre_id = 9702062,
 		repair = 0,
@@ -826,7 +826,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702064] = {
-		breakout_view = "无",
+		breakout_view = "無",
 		item2 = 21028,
 		pre_id = 9702063,
 		repair = 0,

@@ -3686,5 +3686,9 @@ pg.gameset = {
 	monopoly2024_bubble_time = {
 		description = "",
 		key_value = 5
+	},
+	new_auto_unlock_combat_ui = {
+		description = "101",
+		key_value = 0
 	}
 }

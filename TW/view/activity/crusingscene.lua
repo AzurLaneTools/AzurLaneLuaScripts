@@ -472,44 +472,20 @@ slot0.openBuyPanel = function(slot0)
 	slot2 = Goods.Create({
 		shop_id = slot0:getPassID()
 	}, Goods.TYPE_CHARGE)
-	slot3 = slot2:getConfig("tag")
-	slot4 = underscore.map(slot2:getConfig("extra_service_item"), function (slot0)
-		return Drop.Create(slot0)
-	end)
-	slot5 = nil
-	slot6 = slot2:getConfig("sub_display")
-	slot7 = slot6[1]
-	slot5 = Drop.New({
-		type = DROP_TYPE_VITEM,
-		id = pg.battlepass_event_pt[slot7].pt,
-		count = slot6[2]
-	})
-	slot4 = PlayerConst.MergePassItemDrop(underscore.map(pg.battlepass_event_pt[slot7].award_pay, function (slot0)
-		return Drop.Create(pg.battlepass_event_award[slot0].drop_client)
-	end))
-	slot10 = nil
-
-	if slot2:getConfig("gem") + slot2:getConfig("extra_gem") > 0 then
-		table.insert(slot4, Drop.New({
-			type = DROP_TYPE_RESOURCE,
-			id = PlayerConst.ResDiamond,
-			count = slot9
-		}))
-	end
 
 	slot0:emit(CrusingMediator.EVENT_GO_CHARGE, {
 		isChargeType = true,
 		icon = "chargeicon/" .. slot2:getConfig("picture"),
 		name = slot2:getConfig("name_display"),
 		tipExtra = i18n("battlepass_pay_tip"),
-		extraItems = slot4,
+		extraItems = slot2:GetExtraServiceItem(),
 		price = slot2:getConfig("money"),
 		isLocalPrice = slot2:IsLocalPrice(),
-		tagType = slot3,
+		tagType = slot2:getConfig("tag"),
 		isMonthCard = slot2:isMonthCard(),
 		tipBonus = nil,
-		bonusItem = slot10,
-		extraDrop = slot5,
+		bonusItem = nil,
+		extraDrop = slot2:GetExtraDrop(),
 		descExtra = slot2:getConfig("descrip_extra"),
 		onYes = function ()
 			if ChargeConst.isNeedSetBirth() then

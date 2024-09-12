@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"守护之刃需守护\n\n<size=45>五　疲劳需舒缓</size>",
+					"守護之刃需守護\n\n<size=45>5 疲勞需舒緩</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgm = "story-richang-2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "外出忙碌了半天后，终于回到了指挥室——",
+			say = "外出忙碌了半天後，終於回到了指揮室——",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -68,7 +68,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "一进门，恶毒就如被吸引的磁铁一般平贴到了沙发上。",
+			say = "一進門，惡毒就如被吸引的磁鐵一般平貼到了沙發上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "体力值归零，精神力归零……真是一场残酷的远征。",
+			say = "體力值歸零，精神力歸零……真是一場殘酷的遠徵。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在的我已经累得没法动了，希望指挥官暂时不要给我下任何指示。",
+			say = "現在的我已經累得沒法動了，希望指揮官暫時不要給我任何指示。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "否则的话……你就会看见一脸疲相的恶毒，在低效地处理着工作哦——",
+			say = "否則的話……你就會看見一臉疲相的惡毒，在低效地處理著工作哦——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来明天起床的时候，这两个地方都会痛得不行，不知道这样能不能请个病假……",
+			say = "看來明天起床的時候，這兩個地方都會痛得不行，不知道這樣能不能請病假……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -170,7 +170,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "算了，明天的事情明天再说。",
+			say = "算了，明天的事明天再說。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在就先让我睡一下吧……",
+			say = "現在就先讓我睡一下吧…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,18 +202,18 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "看来今天的恶毒是真的累到了，呼吸声都比以往沉了很多。",
+			say = "看來今天的惡毒是真的累到了，呼吸聲都比以往沉了很多。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "替恶毒按摩手臂",
+					content = "替惡毒按摩手臂",
 					flag = 1
 				},
 				{
-					content = "替恶毒按摩小腿",
+					content = "替惡毒按摩小腿",
 					flag = 2
 				}
 			}
@@ -245,7 +245,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……",
+			say = "唔…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "手臂……很温暖……很舒服……",
+			say = "手臂……很溫暖……很舒服……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……",
+			say = "唔…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "小腿……很温暖……很舒服……",
+			say = "小腿……很溫暖……很舒服……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……嗯？指挥官的按摩……？",
+			say = "……嗯？指揮官的按摩……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不、不太好吧……",
+			say = "不、不太好……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -372,7 +372,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过好舒服……",
+			say = "不過好舒服……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,7 +390,7 @@ return {
 			actor = 901110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "算了，也没什么不好的……",
+			say = "算了，也沒什麼不好的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "按了不到三分钟，恶毒就进入了甜美的梦乡。",
+			say = "按了不到三分鐘，惡毒就進入了甜美的夢鄉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "该开始处理剩下的工作了（叹气）。",
+			say = "該開始處理剩下的工作了（嘆氣）。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

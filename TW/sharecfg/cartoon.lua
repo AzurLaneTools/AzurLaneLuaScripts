@@ -1224,6 +1224,36 @@ pg.cartoon = {
 		mark = 23,
 		resource = "204"
 	},
+	{
+		id = 205,
+		cartoon_id = 205,
+		mark = 24,
+		resource = "205"
+	},
+	{
+		id = 206,
+		cartoon_id = 206,
+		mark = 24,
+		resource = "206"
+	},
+	{
+		id = 207,
+		cartoon_id = 207,
+		mark = 24,
+		resource = "207"
+	},
+	{
+		id = 208,
+		cartoon_id = 208,
+		mark = 24,
+		resource = "208"
+	},
+	{
+		id = 209,
+		cartoon_id = 209,
+		mark = 24,
+		resource = "209"
+	},
 	all = {
 		1,
 		2,
@@ -1428,6 +1458,11 @@ pg.cartoon = {
 		201,
 		202,
 		203,
-		204
+		204,
+		205,
+		206,
+		207,
+		208,
+		209
 	}
 }

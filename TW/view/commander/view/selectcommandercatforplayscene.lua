@@ -84,6 +84,34 @@ slot0.IsLegalForPlay = function(slot0, slot1, slot2, slot3, slot4)
 		return false, nil
 	end
 
+	if not slot0:CheckFullExp(slot1, slot2) and not slot1:isSameGroup(slot2.groupId) then
+		return false, i18n("commander_exp_limit")
+	end
+
+	return true
+end
+
+slot0.SimulateAddCommanderExp = function(slot0, slot1, slot2)
+	slot3 = Clone(slot1)
+
+	slot3:addExp(slot2)
+
+	return slot3, slot1
+end
+
+slot0.CheckFullExp = function(slot0, slot1, slot2)
+	slot3 = {}
+
+	if slot0.pages[CommanderCatScene.PAGE_DOCK] and slot4.selectedList then
+		slot3 = slot4.selectedList
+	end
+
+	slot5, slot6 = CommanderCatUtil.GetSkillExpAndCommanderExp(slot1, slot3)
+
+	if slot0:SimulateAddCommanderExp(slot1, slot5):isMaxLevel() then
+		return false
+	end
+
 	return true
 end
 

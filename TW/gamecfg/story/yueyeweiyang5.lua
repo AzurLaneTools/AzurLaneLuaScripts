@@ -13,7 +13,7 @@ return {
 			bgm = "story-tiancheng",
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "重樱群岛·？？年前",
+			say = "重櫻群島·？？年前",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -33,7 +33,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "清晨的微风掠过树木繁密的枝干，轻轻抖落粉色的花瓣。",
+			say = "清晨的微風掠過樹木繁密的枝幹，輕輕抖落粉紅色的花瓣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,75 +44,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "一眼望不到头的上坡道两侧樱花盛开，飘落的花瓣铺满了道路。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "star_level_bg_509",
-			dir = 1,
-			actor = 301650,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "{namecode:16}？早上好哦。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "star_level_bg_509",
-			dir = 1,
-			actor = 301140,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "早上好，樱花开了可真漂亮呀。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "star_level_bg_509",
-			dir = 1,
-			actor = 301140,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "咦，平时这个时候，你不是应该在庭院打扫吗？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "star_level_bg_509",
-			dir = 1,
-			actor = 301140,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "难道是偷偷跑出来赏樱的？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
+			say = "一眼望不到頭的上坡道兩側櫻花盛開，飄落的花瓣鋪滿了道路。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +57,58 @@ return {
 			actor = 301650,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "打扫的工作一早就完成啦。",
+			say = "夕立？早上好哦。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "star_level_bg_509",
+			dir = 1,
+			actor = 301140,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "早安，櫻花開了可真漂亮呀。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "star_level_bg_509",
+			dir = 1,
+			actor = 301140,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "咦，平常這個時候，不是應該在庭院打掃嗎？",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "star_level_bg_509",
+			dir = 1,
+			actor = 301140,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "難道是偷偷跑出來賞櫻的？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +125,24 @@ return {
 			actor = 301650,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:75}大人说今天有重要的客人要来拜访，就让咱先回来了。",
+			say = "打掃的工作一早就完成囉。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "star_level_bg_509",
+			dir = 1,
+			actor = 301650,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "陸奧大人說今天有重要的客人要來拜訪，就讓咱先回來了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			actor = 301140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:74}大人的重要客人？",
+			say = "長門大人的重要客人？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			actor = 301650,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过，既然{namecode:75}大人没有透露，我们也就不要瞎猜了吧。",
+			say = "不過，既然陸奧大人沒有透露，我們也就不要瞎猜了吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			actor = 301650,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦对了，昨天我做了樱花饼——",
+			say = "喔對了，昨天我做了櫻花餅——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			actor = 301140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真的吗？！{namecode:147}做的樱花饼最好吃了，我们快找个地方休息一下吧！",
+			say = "真的嗎？！滿潮做的櫻花餅最好吃了，我們快找個地方休息一下吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			actor = 301650,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:16}你太着急啦，想要品尝美味，美景也是必不可少的。",
+			say = "夕立妳太著急啦，想要品嚐美味，美景也是必不可少的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			actor = 301650,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有想好去哪里了吗？",
+			say = "有想好去哪裡了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			actor = 301140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要不……偷偷去{namecode:74}大人的庭院里……",
+			say = "不然……偷偷去長門大人的庭院……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			actor = 301650,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样可不行呀！",
+			say = "這樣可不行呀！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			actor = 301140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要不就前面的空地吧，草地樱花还有美食，太完美了！",
+			say = "不然就前面的空地吧，草地櫻花還有美食，太完美了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			actor = 301650,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那你就先去那里，咱回去将食盒取来——",
+			say = "那妳就先去那裡，咱回去將食盒拿來——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,7 +376,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "将猛然转身却与自己撞了个满怀的{namecode:147}扶起后，那人伸出手，轻轻为{namecode:147}拂去落在头上的花瓣",
+			say = "將猛然轉身卻與自己撞了個滿懷的滿潮扶起後，那人伸出手，輕輕為滿朝拂去落在頭上的花瓣",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "她身着白色的衣装，袖口内还能看到紫色的内衬。兜帽遮住了她的面容，让人无法分辨。",
+			say = "她穿著白色的衣裝，袖口內還能看到紫色的襯裡。兜帽遮住了她的面容，讓人無法分辨。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "自觉冒犯的{namecode:147}只是抬头撇了一眼，就又连忙低下头去。",
+			say = "自覺冒犯的滿朝只是抬頭撇了一眼，就又連忙低下頭去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			actor = 301650,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对、对不起！那、那个…都怪咱走神了。",
+			say = "對、對不起！那、那個……都怪咱走神了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -436,7 +436,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "然而，{namecode:147}迟迟没有得到回应。",
+			say = "然而，滿朝遲遲沒有得到回應。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "在她紧张地抬起头时，为她拂去花瓣的人，却已经不见踪影——",
+			say = "在她緊張地抬起頭時，為她拂去花瓣的人，卻已經不見蹤影——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			actor = 301140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:147}！我找到好位置了！",
+			say = "滿潮！我找到好位置了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -475,7 +475,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_509",
 			hidePaintObj = true,
-			say = "远处，{namecode:16}正在朝着{namecode:147}的方向挥手呼唤。",
+			say = "遠處，夕立正朝著滿潮的方向揮手呼喚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			actor = 301650,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好，好的，咱，咱马上就来。",
+			say = "好，好的，咱，咱馬上就來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -505,7 +505,7 @@ return {
 			actor = 301650,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（那个大姐姐，真是好奇怪的人呀……）",
+			say = "（那個大姐姐，真是好奇怪的人呀……）",
 			painting = {
 				alpha = 0.3,
 				time = 1

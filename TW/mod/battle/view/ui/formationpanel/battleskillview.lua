@@ -137,7 +137,7 @@ slot2.InitBtns = function(slot0)
 	if slot0._fleetVO._submarineVO:GetUseable() and slot23:GetCount() > 0 then
 		slot0._subStriveBtn = slot0:generateSubmarineButton(4)
 
-		slot0:setSkillButtonPreferences(slot0._subStriveBtn:GetSkin(), 4)
+		slot0.SetSkillButtonPreferences(slot0._subStriveBtn:GetSkin(), 4)
 		slot0._subStriveBtn:ConfigCallback(slot2, function ()
 			uv0._mediator._dataProxy:SubmarineStrike(uv1.Battle.BattleConfig.FRIENDLY_CODE)
 		end, slot2, slot1)
@@ -148,7 +148,7 @@ slot2.InitBtns = function(slot0)
 	slot24 = uv0.Battle.BattleWeaponButton.New()
 	slot25 = cloneTplTo(slot0._progressSkin, slot0._buttonContainer)
 
-	slot0:setSkillButtonPreferences(slot25, 2)
+	slot0.SetSkillButtonPreferences(slot25, 2)
 	slot24:ConfigSkin(slot25)
 	slot24:SwitchIcon(10)
 	slot24:SwitchIconEffect(2)
@@ -169,7 +169,7 @@ slot2.generateCommonButton = function(slot0, slot1)
 	slot3 = cloneTplTo(slot0._progressSkin, slot0._buttonContainer)
 	slot3.name = "Skill_" .. slot1
 
-	slot0:setSkillButtonPreferences(slot3, slot1)
+	slot0.SetSkillButtonPreferences(slot3, slot1)
 	slot2:ConfigSkin(slot3)
 	slot2:SwitchIcon(slot1)
 	slot2:SwitchIconEffect(slot1)
@@ -268,11 +268,11 @@ slot2.SubRoutineButton = function(slot0)
 	table.insert(slot0._delayAnimaList, slot0._torpedoBtn)
 	table.insert(slot0._delayAnimaList, slot0._shiftBtn)
 	table.insert(slot0._delayAnimaList, slot0._specialBtn)
-	slot0:setSkillButtonPreferences(slot0._diveBtn:GetSkin(), 1)
-	slot0:setSkillButtonPreferences(slot0._floatBtn:GetSkin(), 1)
-	slot0:setSkillButtonPreferences(slot0._torpedoBtn:GetSkin(), 2)
-	slot0:setSkillButtonPreferences(slot0._shiftBtn:GetSkin(), 3)
-	slot0:setSkillButtonPreferences(slot0._specialBtn:GetSkin(), 4)
+	slot0.SetSkillButtonPreferences(slot0._diveBtn:GetSkin(), 1)
+	slot0.SetSkillButtonPreferences(slot0._floatBtn:GetSkin(), 1)
+	slot0.SetSkillButtonPreferences(slot0._torpedoBtn:GetSkin(), 2)
+	slot0.SetSkillButtonPreferences(slot0._shiftBtn:GetSkin(), 3)
+	slot0.SetSkillButtonPreferences(slot0._specialBtn:GetSkin(), 4)
 end
 
 slot2.AirFightButton = function(slot0)
@@ -287,7 +287,7 @@ slot2.AirFightButton = function(slot0)
 
 		if slot7 then
 			table.insert(slot0._activeBtnList, slot6)
-			slot0:setSkillButtonPreferences(slot6:GetSkin(), slot7)
+			slot0.SetSkillButtonPreferences(slot6:GetSkin(), slot7)
 		end
 	end
 end
@@ -350,13 +350,13 @@ slot2.Update = function(slot0)
 	end
 end
 
-slot2.setSkillButtonPreferences = function(slot0, slot1, slot2)
-	slot3 = uv0.SKILL_BUTTON_DEFAULT_PREFERENCE[slot2]
-	slot4 = PlayerPrefs.GetFloat("skill_" .. slot2 .. "_scale", slot3.scale)
-	slot5 = PlayerPrefs.GetFloat("skill_" .. slot2 .. "_anchorX", slot3.x)
-	slot6 = PlayerPrefs.GetFloat("skill_" .. slot2 .. "_anchorY", slot3.y)
-	slot7 = slot1.transform
-	slot7.localScale = Vector3(slot4, slot4, 0)
-	slot7.anchorMin = Vector2(slot5, slot6)
-	slot7.anchorMax = Vector2(slot5, slot6)
+slot2.SetSkillButtonPreferences = function(slot0, slot1)
+	slot2 = uv0.SKILL_BUTTON_DEFAULT_PREFERENCE[slot1]
+	slot3 = PlayerPrefs.GetFloat("skill_" .. slot1 .. "_scale", slot2.scale)
+	slot4 = PlayerPrefs.GetFloat("skill_" .. slot1 .. "_anchorX", slot2.x)
+	slot5 = PlayerPrefs.GetFloat("skill_" .. slot1 .. "_anchorY", slot2.y)
+	slot6 = slot0.transform
+	slot6.localScale = Vector3(slot3, slot3, 0)
+	slot6.anchorMin = Vector2(slot4, slot5)
+	slot6.anchorMax = Vector2(slot4, slot5)
 end

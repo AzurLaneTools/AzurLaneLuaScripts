@@ -1,19 +1,16 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		type = 2,
+		param = "4974",
+		type = 3,
 		id = 1,
 		pic = "temp1",
-		param = {
-			"scene skinshop",
-			{}
-		},
 		time = {
 			{
 				{
 					2024,
 					9,
-					4
+					12
 				},
 				{
 					0,
@@ -24,8 +21,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					9,
-					12
+					10,
+					16
 				},
 				{
 					23,
@@ -36,7 +33,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "4726",
+		param = "4973",
 		type = 3,
 		id = 2,
 		pic = "temp2",
@@ -45,7 +42,7 @@ pg.activity_banner = {
 				{
 					2024,
 					9,
-					4
+					12
 				},
 				{
 					0,
@@ -56,8 +53,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					9,
-					12
+					10,
+					16
 				},
 				{
 					23,
@@ -68,18 +65,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "5548",
+		type = 3,
 		id = 3,
 		pic = "temp3",
-		param = {
-			"equip transform"
-		},
 		time = {
 			{
 				{
 					2024,
 					9,
-					4
+					12
 				},
 				{
 					0,
@@ -90,8 +85,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					9,
-					12
+					10,
+					9
 				},
 				{
 					23,
@@ -106,18 +101,15 @@ pg.activity_banner = {
 		id = 4,
 		pic = "temp4",
 		param = {
-			"scene equip",
-			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
-			}
+			"scene dailylevel",
+			{}
 		},
 		time = {
 			{
 				{
 					2024,
 					9,
-					4
+					12
 				},
 				{
 					0,
@@ -129,7 +121,7 @@ pg.activity_banner = {
 				{
 					2024,
 					9,
-					12
+					18
 				},
 				{
 					23,
@@ -140,22 +132,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "4975",
+		type = 3,
 		id = 5,
 		pic = "temp5",
-		param = {
-			"scene level",
-			{
-				open_remaster = true,
-				isSP = false
-			}
-		},
 		time = {
 			{
 				{
 					2024,
 					9,
-					4
+					12
 				},
 				{
 					0,
@@ -166,8 +152,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					9,
-					12
+					10,
+					16
 				},
 				{
 					23,
@@ -182,10 +168,10 @@ pg.activity_banner = {
 		id = 6,
 		pic = "temp6",
 		param = {
-			"scene level",
+			"scene equip",
 			{
-				open_remaster = true,
-				isSP = false
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
 			}
 		},
 		time = {
@@ -193,7 +179,7 @@ pg.activity_banner = {
 				{
 					2024,
 					9,
-					4
+					12
 				},
 				{
 					0,
@@ -204,8 +190,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					9,
-					12
+					10,
+					16
 				},
 				{
 					23,
@@ -222,15 +208,15 @@ pg.activity_banner = {
 		param = {
 			"metacharacter",
 			{
-				autoOpenShipConfigID = 9702051
+				autoOpenShipConfigID = 9702061
 			}
 		},
 		time = {
 			{
 				{
 					2024,
-					8,
-					1
+					9,
+					12
 				},
 				{
 					0,
@@ -241,8 +227,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					9,
-					30
+					10,
+					16
 				},
 				{
 					23,
@@ -253,18 +239,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "4726",
+		type = 3,
 		id = 8,
 		pic = "temp8",
-		param = {
-			"crusing"
-		},
 		time = {
 			{
 				{
 					2024,
-					8,
-					1
+					9,
+					12
 				},
 				{
 					0,
@@ -276,7 +260,7 @@ pg.activity_banner = {
 				{
 					2024,
 					9,
-					30
+					19
 				},
 				{
 					23,
@@ -296,7 +280,7 @@ pg.activity_banner = {
 				{
 					2024,
 					9,
-					5
+					12
 				},
 				{
 					0,
@@ -307,8 +291,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					9,
-					12
+					10,
+					9
 				},
 				{
 					23,
@@ -341,10 +325,35 @@ pg.activity_banner = {
 	},
 	[102] = {
 		param = "桂花糕|用相傳從月宮裡摘下來的桂花製成的糕點，香甜可口！<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
-		time = "stop",
 		type = 10,
 		id = 102,
-		pic = "guihuagao"
+		pic = "guihuagao",
+		time = {
+			{
+				{
+					2024,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					9,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[103] = {
 		param = "鏡餅|要開了才能吃哦？<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
@@ -674,14 +683,18 @@ pg.activity_banner = {
 		}
 	},
 	get_id_list_by_type = {
-		[2] = {
+		[3] = {
 			1,
+			2,
 			3,
-			4,
 			5,
+			8,
+			1003
+		},
+		[2] = {
+			4,
 			6,
 			7,
-			8,
 			1000,
 			1001,
 			1002,
@@ -704,10 +717,6 @@ pg.activity_banner = {
 			1021,
 			1022,
 			1023
-		},
-		[3] = {
-			2,
-			1003
 		},
 		[9] = {
 			98

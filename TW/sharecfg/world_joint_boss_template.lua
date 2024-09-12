@@ -365,6 +365,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "神通·META",
 		boss_level_id = 166,
+		state = "stop",
 		item_id = 100000,
 		painting = "shentong",
 		meta_id = 970205,
@@ -386,12 +387,44 @@ pg.world_joint_boss_template = {
 				"戰鬥開始50秒後，自身會隨著時間流逝逐漸變得虛弱，<color=#92fc63>受到的傷害逐步提升</color>，每過4秒增加10%。"
 			}
 		},
+		p_offset = {
+			-118.8,
+			585.5,
+			0.8,
+			0.8
+		},
+		p_offset_other = {
+			426,
+			587.7,
+			0.8,
+			0.8
+		}
+	},
+	{
+		name = "基洛夫·META",
+		boss_level_id = 181,
+		item_id = 100000,
+		painting = "jiluofu",
+		meta_id = 970206,
+		id = 13,
+		description = {
+			{
+				"機械支援協議",
+				2,
+				"基洛夫·META會部署名為「閃流」與「彗星」的兩台戰鬥機械協同作戰。\n<color=#92fc63>「閃流」擁有重型裝甲</color>，裝備了近距離持續電擊武器與磁能榴彈，自身會額外受到更多雷擊傷害；<color=#92fc63>「彗星」擁有中型裝甲</color>，裝備了遠距離光束武器與冷凍炸彈，自身會額外受到更多炮擊傷害。\n若戰鬥機械被消滅，支援協議會在3秒後將其<color=#92fc63>重新部署至戰場</color>。"
+			},
+			{
+				"聯合戰鬥框架",
+				1,
+				"每台戰鬥機械存活時，都能為基洛夫·META提供一定的炮擊、雷擊、命中加成。每消滅一台戰鬥機械，都會使基洛夫·META自身<color=#92fc63>防禦力永久下降</color>。"
+			}
+		},
 		state = {
 			{
 				{
 					2024,
-					6,
-					6
+					9,
+					12
 				},
 				{
 					0,
@@ -402,8 +435,8 @@ pg.world_joint_boss_template = {
 			{
 				{
 					2024,
-					9,
-					12
+					12,
+					19
 				},
 				{
 					23,
@@ -414,13 +447,13 @@ pg.world_joint_boss_template = {
 		},
 		p_offset = {
 			-118.8,
-			585.5,
+			545.7,
 			0.8,
 			0.8
 		},
 		p_offset_other = {
 			426,
-			587.7,
+			545.7,
 			0.8,
 			0.8
 		}
@@ -437,6 +470,7 @@ pg.world_joint_boss_template = {
 		9,
 		10,
 		11,
-		12
+		12,
+		13
 	}
 }
