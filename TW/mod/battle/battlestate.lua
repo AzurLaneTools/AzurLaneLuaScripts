@@ -89,6 +89,12 @@ slot2.Ctor = function(slot0)
 end
 
 slot2.GetCombatSkinKey = function()
+	if COMBAT_SKIN_KEY then
+		originalPrint("~~~~~~~~~~~combat get" .. COMBAT_SKIN_KEY)
+	else
+		originalPrint("~~~~~~~~~~~combat get empty")
+	end
+
 	return COMBAT_SKIN_KEY or "Standard"
 end
 
