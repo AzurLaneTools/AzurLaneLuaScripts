@@ -12,6 +12,9 @@ slot0.OnLoaded = function(slot0)
 	slot0.discountPriceBtn = slot0:findTF("window/button_container/discount_price")
 
 	setText(slot0._tf:Find("window/top/bg/infomation/title"), i18n("title_info"))
+
+	slot0.tipBar = slot0:findTF("window/frame/tipBar")
+	slot0.tipText = slot0:findTF("Text", slot0.tipBar)
 end
 
 slot0.RegisterBtn = function(slot0, slot1)
@@ -47,6 +50,7 @@ slot0.UpdateContent = function(slot0, slot1)
 
 	setActive(slot0.realPriceBtn, not slot0.prevSelId)
 	setActive(slot0.discountPriceBtn, slot0.prevSelId)
+	slot0:SetTipText(slot1.skinId)
 end
 
 slot0.UpdateItem = function(slot0, slot1)
@@ -106,6 +110,36 @@ slot0.Hide = function(slot0)
 	for slot4, slot5 in pairs(slot0.itemTrs) do
 		removeOnToggle(slot5)
 		triggerToggle(slot5, false)
+	end
+end
+
+slot0.SetTipText = function(slot0, slot1)
+	slot2 = pg.ship_skin_template[slot1].ship_group
+	slot4, slot5 = nil
+
+	for slot9, slot10 in ipairs(pg.gameset.no_share_skin_tip.description) do
+		for slot14, slot15 in ipairs(slot10) do
+			if slot2 == slot15[1] then
+				slot4 = slot10
+				slot5 = slot14
+
+				break
+			end
+		end
+	end
+
+	setActive(slot0.tipBar, slot5)
+
+	if slot5 then
+		slot6 = ""
+
+		for slot10, slot11 in ipairs(slot4) do
+			if slot10 ~= slot5 then
+				slot6 = (slot6 ~= "" or i18n(slot11[2])) and i18n(slot11[2]) .. "、" .. i18n(slot11[2])
+			end
+		end
+
+		setText(slot0.tipText, i18n("no_share_skin_gametip", i18n(slot4[slot5][2]), slot6))
 	end
 end
 
