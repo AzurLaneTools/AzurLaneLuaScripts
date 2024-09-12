@@ -1194,6 +1194,7 @@ pg.skill_data_template = setmetatable({
 		150450,
 		150460,
 		150470,
+		150475,
 		150480,
 		150490,
 		150500,
@@ -98599,6 +98600,20 @@ pg.base.skill_data_template = {
 			}
 		}
 	},
+	[150475] = {
+		desc_get = "",
+		name = "破一役以破全局-跨队效果",
+		type = 1,
+		max_level = 10,
+		desc = "",
+		id = 150475,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[150480] = {
 		desc_get = "",
 		name = "丹鳥火離、扶翼を供す",
@@ -98791,7 +98806,7 @@ pg.base.skill_data_template = {
 		name = "イナバの幸運",
 		type = 3,
 		max_level = 10,
-		desc = "戦闘開始時、自身の雷装・装填が$1アップ。戦闘中20秒毎に$2で発動、魚雷弾幕$3を展開する（威力はスキルレベルによる）",
+		desc = "戦闘開始時、自身の雷装・装填が$1アップ。戦闘中5秒毎に$2で発動、魚雷弾幕$3を展開する（威力はスキルレベルによる）",
 		id = 150490,
 		system_transform = {},
 		world_death_mark = {

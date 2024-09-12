@@ -1960,7 +1960,6 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/birui_alter_tex",
 			"painting/birui_alter_rw_tex",
-			"painting/birui_alter_pt_tex",
 			"painting/birui_alter_n_tex",
 			"painting/birui_alter_n",
 			"painting/birui_alter"
