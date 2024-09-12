@@ -138,7 +138,7 @@ slot1.OnOverLoadChange = function(slot0, slot1)
 		slot0._block:SetActive(false)
 		slot0:OnFilled()
 
-		if slot1 and slot1.Data.preCast then
+		if slot1 and slot1.Data and slot1.Data.preCast then
 			if slot2 == 0 then
 				quickCheckAndPlayAnimator(slot0._skin, "weapon_button_progress_filled")
 			elseif slot2 > 0 then
@@ -147,7 +147,7 @@ slot1.OnOverLoadChange = function(slot0, slot1)
 		end
 	end
 
-	if slot1 and slot1.Data.postCast then
+	if slot1 and slot1.Data and slot1.Data.postCast then
 		quickCheckAndPlayAnimator(slot0._skin, "weapon_button_progress_use")
 	end
 
