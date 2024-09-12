@@ -52,7 +52,7 @@ return {
 			actor = 202127,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官大人，欢迎回来。",
+			say = "主人，欢迎回来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			actor = 202127,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官大人，请您退后一些。",
+			say = "主人，请您退后一些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			actor = 202127,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官大人，您的汽水，请品尝。",
+			say = "主人，您的汽水，请品尝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			actor = 202127,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，我并不累，指挥官大人。这是我作为女仆的职责。",
+			say = "呵呵，我并不累，主人。这是我作为女仆的职责。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			actor = 202127,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "干杯，指挥官大人，祝您今日在游乐园中玩得开心。",
+			say = "干杯，主人，祝您今日在游乐园中玩得开心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

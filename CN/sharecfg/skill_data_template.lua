@@ -1197,6 +1197,7 @@ pg.skill_data_template = setmetatable({
 		150450,
 		150460,
 		150470,
+		150475,
 		150480,
 		150490,
 		150500,
@@ -98616,6 +98617,20 @@ pg.base.skill_data_template = {
 			}
 		}
 	},
+	[150475] = {
+		desc_get = "",
+		name = "破一役以破全局-跨队效果",
+		type = 1,
+		max_level = 10,
+		desc = "",
+		id = 150475,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[150480] = {
 		desc_get = "",
 		name = "凤与凰",
@@ -98808,7 +98823,7 @@ pg.base.skill_data_template = {
 		name = "幸运的白兔",
 		type = 3,
 		max_level = 10,
-		desc = "战斗开始时，自身雷击和装填属性提高$1，战斗中每20秒，有$2概率触发一轮鱼雷弹幕$3(威力依据技能等级)",
+		desc = "战斗开始时，自身雷击和装填属性提高$1，战斗中每5秒，有$2概率触发一轮鱼雷弹幕$3(威力依据技能等级)",
 		id = 150490,
 		system_transform = {},
 		world_death_mark = {
