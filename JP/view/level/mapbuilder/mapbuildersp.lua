@@ -1034,7 +1034,7 @@ slot0.PlayStory = function(slot0, slot1, slot2, slot3)
 			end
 
 			if tonumber(uv2) and slot1 > 0 then
-				uv3:emit(LevelMediator2.ON_PERFORM_COMBAT, slot1)
+				uv3:emit(LevelMediator2.ON_PERFORM_COMBAT, slot1, nil, uv0)
 			else
 				uv4:Play(uv2, slot0, uv1)
 			end

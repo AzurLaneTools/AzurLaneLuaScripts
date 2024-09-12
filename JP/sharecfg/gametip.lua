@@ -26233,91 +26233,91 @@ cs.gametip = {
 	},
 	dreamland_main_tip = {
 		1095507,
-		2102,
+		2094,
 		true
 	},
 	no_share_skin_gametip = {
-		1097609,
+		1097601,
 		133,
 		true
 	},
 	no_share_skin_tianchenghangmu = {
-		1097742,
+		1097734,
 		107,
 		true
 	},
 	no_share_skin_tianchengzhanlie = {
-		1097849,
+		1097841,
 		114,
 		true
 	},
 	no_share_skin_jiahezhanlie = {
-		1097963,
+		1097955,
 		104,
 		true
 	},
 	no_share_skin_jiahehangmu = {
-		1098067,
+		1098059,
 		103,
 		true
 	},
 	ui_pack_tip1 = {
-		1098170,
+		1098162,
 		191,
 		true
 	},
 	ui_pack_tip2 = {
-		1098361,
+		1098353,
 		82,
 		true
 	},
 	ui_pack_tip3 = {
-		1098443,
+		1098435,
 		85,
 		true
 	},
 	battle_ui_unlock = {
-		1098528,
+		1098520,
 		92,
 		true
 	},
 	compensate_ui_expiration_hour = {
-		1098620,
+		1098612,
 		125,
 		true
 	},
 	compensate_ui_expiration_day = {
-		1098745,
+		1098737,
 		121,
 		true
 	},
 	compensate_ui_title1 = {
-		1098866,
+		1098858,
 		90,
 		true
 	},
 	compensate_ui_title2 = {
-		1098956,
+		1098948,
 		96,
 		true
 	},
 	compensate_ui_nothing1 = {
-		1099052,
+		1099044,
 		138,
 		true
 	},
 	compensate_ui_nothing2 = {
-		1099190,
+		1099182,
 		114,
 		true
 	},
 	attire_combatui_preview = {
-		1099304,
+		1099296,
 		102,
 		true
 	},
 	attire_combatui_confirm = {
-		1099406,
+		1099398,
 		93,
 		true
 	}

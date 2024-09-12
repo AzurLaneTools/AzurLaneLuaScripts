@@ -923,7 +923,7 @@ return {
 			bgm = "story-fantasyland-light",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "ゴンドラがゆっくりと最高点に昇ると――",
+			say = "ゴンドラがゆっくりと頂上まで昇ると――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

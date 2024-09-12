@@ -501,6 +501,7 @@ slot0.GenBattleData = function(slot0)
 	slot1.battleType = slot0.contextData.system
 	slot1.StageTmpId = slot0.contextData.stageId
 	slot1.CMDArgs = slot0.contextData.cmdArgs
+	slot1.isMemory = slot0.contextData.memory
 	slot1.MainUnitList = {}
 	slot1.VanguardUnitList = {}
 	slot1.SubUnitList = {}
