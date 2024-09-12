@@ -4,7 +4,8 @@ slot0.ATTIREFRAME_ADDED = "AttireProxy:ATTIREFRAME_ADDED"
 slot0.ATTIREFRAME_EXPIRED = "AttireProxy:ATTIREFRAME_EXPIRED"
 slot1 = pg.item_data_frame
 slot2 = pg.item_data_chat
-slot3 = false
+slot3 = pg.item_data_battleui
+slot4 = false
 
 slot0.register = function(slot0)
 	slot0.data = {}
@@ -12,6 +13,7 @@ slot0.register = function(slot0)
 	slot0.expiredChaces = {}
 	slot0.data.iconFrames = {}
 	slot0.data.chatFrames = {}
+	slot0.data.combatUIStyles = {}
 
 	for slot4, slot5 in ipairs(uv0.all) do
 		if slot5 == 0 then
@@ -39,6 +41,19 @@ slot0.register = function(slot0)
 		end
 	end
 
+	for slot4, slot5 in ipairs(uv2.all) do
+		slot0.data.combatUIStyles[slot5] = CombatUIStyle.New({
+			id = slot5
+		})
+	end
+
+	if pg.gameset.new_auto_unlock_combat_ui.description ~= PlayerPrefs.GetString("new_auto_unlock_combat_ui") then
+		for slot6, slot7 in ipairs(string.split(pg.gameset.new_auto_unlock_combat_ui.description, "|")) do
+			slot0.data.combatUIStyles[tonumber(slot7)]:setNew()
+		end
+	end
+
+	PlayerPrefs.SetString("new_auto_unlock_combat_ui", pg.gameset.new_auto_unlock_combat_ui.description)
 	slot0:on(11003, function (slot0)
 		for slot4, slot5 in ipairs(slot0.icon_frame_list) do
 			slot6 = uv0.data.iconFrames[slot5.id]
@@ -58,9 +73,26 @@ slot0.register = function(slot0)
 			uv0:updateAttireFrame(slot6)
 			uv0:addExpiredTimer(slot6)
 		end
+
+		slot1 = ipairs
+		slot2 = slot0.battle_ui_list or {}
+
+		for slot4, slot5 in slot1(slot2) do
+			slot6 = uv0.data.combatUIStyles[slot5]
+
+			slot6:setUnlock()
+			uv0:updateAttireFrame(slot6)
+			uv0:addExpiredTimer(slot6)
+		end
+
+		for slot4, slot5 in pairs(uv0.data.combatUIStyles) do
+			if not slot5:isOwned() then
+				slot5:setLock()
+			end
+		end
 	end)
 
-	if uv2 then
+	if uv3 then
 		slot0.timer = Timer.New(function ()
 			slot0 = {}
 			slot1 = {
@@ -115,6 +147,10 @@ slot0.clearNew = function(slot0)
 	for slot4, slot5 in pairs(slot0.data.chatFrames) do
 		slot5:clearNew()
 	end
+
+	for slot4, slot5 in pairs(slot0.data.combatUIStyles) do
+		slot5:clearNew()
+	end
 end
 
 slot0.getExpiredChaces = function(slot0)
@@ -136,6 +172,8 @@ slot0.getAttireFrame = function(slot0, slot1, slot2)
 		slot3 = slot0.data.iconFrames[slot2]
 	elseif slot1 == AttireConst.TYPE_CHAT_FRAME then
 		slot3 = slot0.data.chatFrames[slot2]
+	elseif slot1 == AttireConst.TYPE_COMBAT_UI_STYLE then
+		slot3 = slot0.data.combatUIStyles[slot2]
 	end
 
 	return slot3
@@ -152,6 +190,8 @@ slot0.addAttireFrame = function(slot0, slot1)
 		slot0.data.iconFrames[slot1.id] = slot1
 	elseif slot2 == AttireConst.TYPE_CHAT_FRAME then
 		slot0.data.chatFrames[slot1.id] = slot1
+	elseif slot2 == AttireConst.TYPE_COMBAT_UI_STYLE then
+		slot0.data.combatUIStyles[slot1.id] = slot1
 	end
 
 	slot0:addExpiredTimer(slot1)
@@ -167,6 +207,10 @@ slot0.updateAttireFrame = function(slot0, slot1)
 		assert(slot0.data.chatFrames[slot1.id])
 
 		slot0.data.chatFrames[slot1.id] = slot1
+	elseif slot2 == AttireConst.TYPE_COMBAT_UI_STYLE then
+		assert(slot0.data.combatUIStyles[slot1.id])
+
+		slot0.data.combatUIStyles[slot1.id] = slot1
 	end
 
 	slot0:sendNotification(uv0.ATTIREFRAME_UPDATED, slot1:clone())
@@ -218,11 +262,11 @@ slot0.remove = function(slot0)
 	slot0.timers = {}
 end
 
-slot0.needTip = function(slot0)
-	slot1 = {}
-	slot2 = slot0:getDataAndTrophys()
+slot0.needTip = function(slot0, slot1)
+	slot2 = {}
+	slot3 = slot1 or slot0:getDataAndTrophys()
 
-	slot4 = function(slot0)
+	slot5 = function(slot0)
 		slot1 = false
 
 		for slot5, slot6 in pairs(slot0) do
@@ -236,19 +280,20 @@ slot0.needTip = function(slot0)
 		return slot1
 	end
 
-	for slot8, slot9 in ipairs({
-		slot2.iconFrames,
-		slot2.chatFrames,
-		slot2.trophys
+	for slot9, slot10 in ipairs({
+		slot3.iconFrames,
+		slot3.chatFrames,
+		slot3.trophys,
+		slot3.combatUIStyles
 	}) do
-		if slot8 == 1 or slot8 == 2 then
-			table.insert(slot1, slot4(slot9))
+		if slot9 == 3 then
+			table.insert(slot2, false)
 		else
-			table.insert(slot1, false)
+			table.insert(slot2, slot5(slot10))
 		end
 	end
 
-	return slot1
+	return slot2
 end
 
 slot0.IsShowRedDot = function(slot0)

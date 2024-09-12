@@ -1455,6 +1455,21 @@ pg.player_resource = {
 		name = "ruifeng_pt",
 		itemid = 65015
 	},
+	[430] = {
+		id = 430,
+		name = "union12_pt",
+		itemid = 65018
+	},
+	[431] = {
+		id = 431,
+		name = "240912_pt",
+		itemid = 65019
+	},
+	[432] = {
+		id = 432,
+		name = "skinTicket78",
+		itemid = 65020
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -2709,6 +2724,15 @@ pg.player_resource = {
 		ruifeng_pt = {
 			429
 		},
+		union12_pt = {
+			430
+		},
+		["240912_pt"] = {
+			431
+		},
+		skinTicket78 = {
+			432
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -3230,6 +3254,9 @@ pg.player_resource = {
 		427,
 		428,
 		429,
+		430,
+		431,
+		432,
 		950,
 		951,
 		952,

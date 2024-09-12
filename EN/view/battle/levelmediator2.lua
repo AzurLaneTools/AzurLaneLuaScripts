@@ -454,11 +454,12 @@ slot0.register = function(slot0)
 			}
 		}))
 	end)
-	slot0:bind(uv0.ON_PERFORM_COMBAT, function (slot0, slot1, slot2)
+	slot0:bind(uv0.ON_PERFORM_COMBAT, function (slot0, slot1, slot2, slot3)
 		uv0:sendNotification(GAME.BEGIN_STAGE, {
 			system = SYSTEM_PERFORM,
 			stageId = slot1,
-			exitCallback = slot2
+			exitCallback = slot2,
+			memory = slot3
 		})
 	end)
 	slot0:bind(uv0.ON_CLICK_RECEIVE_REMASTER_TICKETS_BTN, function (slot0)

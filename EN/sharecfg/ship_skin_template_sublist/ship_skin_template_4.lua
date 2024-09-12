@@ -1,206 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_4 = {
-	[107093] = {
-		name = "Brush and Ink",
-		id = 107093,
-		desc = "The Dragon Empery's attire and tools of calligraphy... I see, just wearing this outfit makes me feel more scholarly and artistic! I shall put forth my best effort to prepare for the port's Spring Festival!",
-		illustrator2 = -1,
-		ship_group = 10709,
-		group_index = 3,
-		prefab = "aisaikesi_5",
-		painting = "aisaikesi_5",
-		hand_id = 1,
-		bgm = "",
-		shop_type_id = 3,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "144",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70484,
-		voice_actor = 149,
-		spine_offset = "",
-		illustrator = 8,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.766,
-					0.999,
-					0
-				}
-			},
-			plane = {
-				{
-					1.765,
-					0.999,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.41,
-							2.37,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[107094] = {
-		name = "Detective Essex",
-		id = 107094,
-		desc = "My eagle has gone missing... Just as Enterprise said, there's something strange going on in this port–– Wait, I definitely smell a case in the making! Commander, let's get to the bottom of this together!",
-		illustrator2 = -1,
-		ship_group = 10709,
-		group_index = 4,
-		prefab = "aisaikesi_6",
-		painting = "aisaikesi_6",
-		hand_id = 1,
-		bgm = "",
-		shop_type_id = 9999,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "154",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "1102",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70734,
-		voice_actor = 149,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.048,
-					1.32,
-					0
-				}
-			},
-			plane = {
-				{
-					1.368,
-					0.472,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.761,
-							1.98,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[107095] = {
 		name = "Crossbones Especial",
 		id = 107095,
@@ -11946,6 +11746,357 @@ pg.base.ship_skin_template_4 = {
 							-0.549,
 							2.179,
 							-0.4
+						}
+					}
+				}
+			}
+		}
+	},
+	[201230] = {
+		name = "Vampire",
+		id = 201230,
+		desc = "V-class destroyer ー Vampire, Hull Number D68!",
+		illustrator2 = -1,
+		ship_group = 20123,
+		group_index = 0,
+		prefab = "xixuegui",
+		painting = "xixuegui",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 89,
+		spine_offset = "",
+		illustrator = 10,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.49,
+					0.43,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.49,
+					0.43,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.41,
+					0.19,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.49,
+					0.43,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							0.79,
+							-0.35
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.59,
+							2.36,
+							-0.18
+						}
+					}
+				}
+			}
+		}
+	},
+	[201231] = {
+		name = "The Breath of Spring",
+		id = 201231,
+		desc = "What do you think of my new outfit? You love it? Or just like it? Haha, your answer is written right on your face. Next... wait, wait, wait! I haven't put my socks on yet!",
+		illustrator2 = -1,
+		ship_group = 20123,
+		group_index = 1,
+		prefab = "xixuegui_2",
+		painting = "xixuegui_2",
+		hand_id = 15,
+		bgm = "",
+		shop_type_id = 3,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "102",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70044,
+		voice_actor = 89,
+		spine_offset = "",
+		illustrator = 10,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.65,
+					1.04,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.82,
+					1.06,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.07,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.64,
+					1.06,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.54,
+							2.31,
+							-0.18
+						}
+					}
+				}
+			}
+		}
+	},
+	[201232] = {
+		name = "Little Devil in White",
+		id = 201232,
+		desc = "Commander, I am now a nurse, so thou hast no choice but to give me thy blood~! Hehe, just kidding~!",
+		illustrator2 = -1,
+		ship_group = 20123,
+		group_index = 2,
+		prefab = "xixuegui_3",
+		painting = "xixuegui_3",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 15,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 89,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.892,
+					0.64,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.913,
+					0.697,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.059,
+					0.051,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.854,
+					0.623,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.54,
+							2.31,
+							-0.18
 						}
 					}
 				}

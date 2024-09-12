@@ -14868,6 +14868,37 @@ _G.pg.base.item_data_statistics[21037] = {
 }
 
 
+_G.pg.base.item_data_statistics[21038] = {
+	open_directly = 0,
+	name = "META Crystal – Hiei META",
+	type = 4,
+	display = "An item that increases the potential of Hiei META. Used in the META Lab during Somatic Activation.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21038",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21038,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "Crystallized Heat-Resistant Steel",
@@ -24536,6 +24567,131 @@ _G.pg.base.item_data_statistics[30359] = {
 		{
 			9,
 			4038,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[30360] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Dream Park)",
+	type = 11,
+	display = "Contains a random gear skin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxmenghuanleyuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30360",
+	id = 30360,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4041,
+			1
+		},
+		{
+			9,
+			4042,
+			1
+		},
+		{
+			9,
+			4043,
+			1
+		},
+		{
+			9,
+			4044,
+			1
+		},
+		{
+			9,
+			4045,
+			1
+		},
+		{
+			9,
+			4046,
+			1
+		},
+		{
+			9,
+			4047,
+			1
+		},
+		{
+			9,
+			4048,
+			1
+		},
+		{
+			9,
+			4049,
+			1
+		},
+		{
+			9,
+			4050,
+			1
+		},
+		{
+			9,
+			4051,
+			1
+		},
+		{
+			9,
+			4052,
+			1
+		},
+		{
+			9,
+			4053,
+			1
+		},
+		{
+			9,
+			4054,
+			1
+		},
+		{
+			9,
+			4055,
+			1
+		},
+		{
+			9,
+			4056,
+			1
+		},
+		{
+			9,
+			4057,
+			1
+		},
+		{
+			9,
+			4058,
 			1
 		}
 	},
@@ -35005,6 +35161,219 @@ _G.pg.base.item_data_statistics[30544] = {
 }
 
 
+_G.pg.base.item_data_statistics[30545] = {
+	open_directly = 0,
+	name = "Selection Gear Skin Box (Dream Park)",
+	type = 13,
+	display = "Can be opened to receive 1 Dream Park gear skin of your choosing.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxmenghuanleyuanzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30545,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4041,
+			1
+		},
+		{
+			9,
+			4042,
+			1
+		},
+		{
+			9,
+			4043,
+			1
+		},
+		{
+			9,
+			4044,
+			1
+		},
+		{
+			9,
+			4045,
+			1
+		},
+		{
+			9,
+			4046,
+			1
+		},
+		{
+			9,
+			4047,
+			1
+		},
+		{
+			9,
+			4048,
+			1
+		},
+		{
+			9,
+			4049,
+			1
+		},
+		{
+			9,
+			4050,
+			1
+		},
+		{
+			9,
+			4051,
+			1
+		},
+		{
+			9,
+			4052,
+			1
+		},
+		{
+			9,
+			4053,
+			1
+		},
+		{
+			9,
+			4054,
+			1
+		},
+		{
+			9,
+			4055,
+			1
+		},
+		{
+			9,
+			4056,
+			1
+		},
+		{
+			9,
+			4057,
+			1
+		},
+		{
+			9,
+			4058,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4041,
+			1
+		},
+		{
+			9,
+			4042,
+			1
+		},
+		{
+			9,
+			4043,
+			1
+		},
+		{
+			9,
+			4044,
+			1
+		},
+		{
+			9,
+			4045,
+			1
+		},
+		{
+			9,
+			4046,
+			1
+		},
+		{
+			9,
+			4047,
+			1
+		},
+		{
+			9,
+			4048,
+			1
+		},
+		{
+			9,
+			4049,
+			1
+		},
+		{
+			9,
+			4050,
+			1
+		},
+		{
+			9,
+			4051,
+			1
+		},
+		{
+			9,
+			4052,
+			1
+		},
+		{
+			9,
+			4053,
+			1
+		},
+		{
+			9,
+			4054,
+			1
+		},
+		{
+			9,
+			4055,
+			1
+		},
+		{
+			9,
+			4056,
+			1
+		},
+		{
+			9,
+			4057,
+			1
+		},
+		{
+			9,
+			4058,
+			1
+		}
+	}
+}
+
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "Universal T4 Part",
@@ -37939,6 +38308,85 @@ _G.pg.base.item_data_statistics[40047] = {
 			2,
 			16502,
 			50
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[40048] = {
+	open_directly = 1,
+	name = "Iridescent Fantasy Pack (Basic)",
+	type = 17,
+	display = "Contains a new combat UI theme.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui1",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4050",
+	id = 40048,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			103,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[40049] = {
+	open_directly = 1,
+	name = "Iridescent Fantasy Pack (Premium)",
+	type = 17,
+	display = "Contains a new combat UI theme and Gems x 3,060.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui1",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4051",
+	id = 40049,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			103,
+			1
+		},
+		{
+			1,
+			14,
+			3060
 		}
 	},
 	price = {},
@@ -94044,6 +94492,73 @@ _G.pg.base.item_data_statistics[81205] = {
 		{
 			2,
 			42056,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[81206] = {
+	open_directly = 1,
+	name = "Dreamland Lucky Bag A",
+	type = 17,
+	display = "Contains 1 random Dreamland A skin, 2x Special General Blueprints - Series 7, 2024x Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai15",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998306",
+	id = 81206,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86206,
+			1
+		},
+		{
+			1,
+			14,
+			2024
+		},
+		{
+			2,
+			42066,
 			2
 		},
 		{

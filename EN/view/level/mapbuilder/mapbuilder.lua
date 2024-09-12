@@ -8,6 +8,7 @@ slot0.TYPESSSS = 6
 slot0.TYPEATELIER = 7
 slot0.TYPESENRANKAGURA = 8
 slot0.TYPESP = 9
+slot0.TYPESPFULL = 10
 
 slot0.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2.event, slot2.contextData)

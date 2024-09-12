@@ -255,7 +255,7 @@ slot3.Plus = function(slot0, slot1)
 	slot0._readyList[#slot0._readyList + 1] = slot1
 
 	slot0:DispatchEvent(uv0.Event.New(uv0.Battle.BattleEvent.WEAPON_COUNT_PLUS))
-	slot0:DispatchOverLoadChange()
+	slot0:DispatchOverLoadChange(slot0._count)
 end
 
 slot3.Deduct = function(slot0, slot1)
@@ -273,7 +273,7 @@ slot3.Deduct = function(slot0, slot1)
 		slot0._current = 0
 	end
 
-	slot0:DispatchOverLoadChange()
+	slot0:DispatchOverLoadChange(nil, true)
 end
 
 slot3.InitialDeduct = function(slot0, slot1)
@@ -336,8 +336,11 @@ slot3.DispatchTotalChange = function(slot0, slot1)
 	}))
 end
 
-slot3.DispatchOverLoadChange = function(slot0)
-	slot0:DispatchEvent(uv0.Event.New(uv0.Battle.BattleEvent.OVER_LOAD_CHANGE))
+slot3.DispatchOverLoadChange = function(slot0, slot1, slot2)
+	slot0:DispatchEvent(uv0.Event.New(uv0.Battle.BattleEvent.OVER_LOAD_CHANGE, {
+		preCast = slot1,
+		postCast = slot2
+	}))
 end
 
 slot3.DispatchCountChange = function(slot0)

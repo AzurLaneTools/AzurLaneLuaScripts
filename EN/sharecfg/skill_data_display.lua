@@ -1728,6 +1728,17 @@ pg.skill_data_display = setmetatable({
 		150391,
 		150403,
 		150411,
+		150420,
+		150422,
+		150430,
+		150431,
+		150433,
+		150442,
+		150474,
+		150481,
+		150492,
+		150501,
+		150502,
 		18010,
 		18040,
 		18041,
@@ -2362,6 +2373,8 @@ pg.skill_data_display = setmetatable({
 		30322,
 		30331,
 		30332,
+		30341,
+		30342,
 		39000,
 		39001,
 		39002,
@@ -2943,6 +2956,14 @@ pg.skill_data_display = setmetatable({
 		801371,
 		801373,
 		801374,
+		801390,
+		801391,
+		801392,
+		801393,
+		801401,
+		801402,
+		801410,
+		801411,
 		902201,
 		1010140,
 		1010143,
@@ -3102,6 +3123,17 @@ pg.skill_data_display = setmetatable({
 		201025,
 		201028,
 		201030,
+		201091,
+		201092,
+		201093,
+		201097,
+		201098,
+		201099,
+		201117,
+		201132,
+		201133,
+		201135,
+		201136,
 		1011540,
 		1011541,
 		1090010,
@@ -10129,6 +10161,50 @@ pg.base.skill_data_display = {
 		id = 150411,
 		name = "Phoenix Tender"
 	},
+	[150420] = {
+		id = 150420,
+		name = "Wavesplitter's Edge"
+	},
+	[150422] = {
+		id = 150422,
+		name = "Wavesplitter's Edge"
+	},
+	[150430] = {
+		id = 150430,
+		name = "Amidst Flowing Shadows"
+	},
+	[150431] = {
+		id = 150431,
+		name = "Amidst Flowing Shadows"
+	},
+	[150433] = {
+		id = 150433,
+		name = "Amidst Flowing Shadows"
+	},
+	[150442] = {
+		id = 150442,
+		name = ""
+	},
+	[150474] = {
+		id = 150474,
+		name = "From Advantage Seized, Victory Bequeathed"
+	},
+	[150481] = {
+		id = 150481,
+		name = "Preemptive Strike"
+	},
+	[150492] = {
+		id = 150492,
+		name = "White Rabbit's Fortune"
+	},
+	[150501] = {
+		id = 150501,
+		name = "Three-Tranquilities Formation"
+	},
+	[150502] = {
+		id = 150502,
+		name = "Three-Tranquilities Formation"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -12665,6 +12741,14 @@ pg.base.skill_data_display = {
 		id = 30332,
 		name = "All Out Assault II"
 	},
+	[30341] = {
+		id = 30341,
+		name = "All Out Assault I"
+	},
+	[30342] = {
+		id = 30342,
+		name = "All Out Assault II"
+	},
 	[39000] = {
 		id = 39000,
 		name = "Optimize I"
@@ -14989,6 +15073,38 @@ pg.base.skill_data_display = {
 		id = 801374,
 		name = "The Rain Weaves and Disperses II"
 	},
+	[801390] = {
+		id = 801390,
+		name = "Skysieging Slash"
+	},
+	[801391] = {
+		id = 801391,
+		name = "Skysieging Slash"
+	},
+	[801392] = {
+		id = 801392,
+		name = "Skysieging Slash"
+	},
+	[801393] = {
+		id = 801393,
+		name = "Skysieging Slash"
+	},
+	[801401] = {
+		id = 801401,
+		name = "Shadowscattering Shimmer"
+	},
+	[801402] = {
+		id = 801402,
+		name = "Shadowscattering Shimmer"
+	},
+	[801410] = {
+		id = 801410,
+		name = "Bravery Begets Boons"
+	},
+	[801411] = {
+		id = 801411,
+		name = "Bravery Begets Boons"
+	},
 	[902201] = {
 		id = 902201,
 		name = "Fantastic Loop"
@@ -15624,6 +15740,50 @@ pg.base.skill_data_display = {
 	[201030] = {
 		id = 201030,
 		name = "Kaga's Duty"
+	},
+	[201091] = {
+		id = 201091,
+		name = "World Segment"
+	},
+	[201092] = {
+		id = 201092,
+		name = "World Segment"
+	},
+	[201093] = {
+		id = 201093,
+		name = "World Segment"
+	},
+	[201097] = {
+		id = 201097,
+		name = "Twinflamed Inferno"
+	},
+	[201098] = {
+		id = 201098,
+		name = "Twinflamed Inferno"
+	},
+	[201099] = {
+		id = 201099,
+		name = "Twinflamed Inferno"
+	},
+	[201117] = {
+		id = 201117,
+		name = "Crimson Flames of Resurrection"
+	},
+	[201132] = {
+		id = 201132,
+		name = "Disappear Like the Clouds"
+	},
+	[201133] = {
+		id = 201133,
+		name = "Blooming of the Red Spider Lilies"
+	},
+	[201135] = {
+		id = 201135,
+		name = "Thundering Fox"
+	},
+	[201136] = {
+		id = 201136,
+		name = "Flames of Resurrection"
 	},
 	[1011540] = {
 		id = 1011540,

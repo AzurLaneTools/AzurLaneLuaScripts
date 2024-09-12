@@ -1,357 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_5 = {
-	[201230] = {
-		name = "Vampire",
-		id = 201230,
-		desc = "V-class destroyer ー Vampire, Hull Number D68!",
-		illustrator2 = -1,
-		ship_group = 20123,
-		group_index = 0,
-		prefab = "xixuegui",
-		painting = "xixuegui",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 89,
-		spine_offset = "",
-		illustrator = 10,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.49,
-					0.43,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.49,
-					0.43,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.41,
-					0.19,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.49,
-					0.43,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.41,
-							0.79,
-							-0.35
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.59,
-							2.36,
-							-0.18
-						}
-					}
-				}
-			}
-		}
-	},
-	[201231] = {
-		name = "The Breath of Spring",
-		id = 201231,
-		desc = "What do you think of my new outfit? You love it? Or just like it? Haha, your answer is written right on your face. Next... wait, wait, wait! I haven't put my socks on yet!",
-		illustrator2 = -1,
-		ship_group = 20123,
-		group_index = 1,
-		prefab = "xixuegui_2",
-		painting = "xixuegui_2",
-		hand_id = 15,
-		bgm = "",
-		shop_type_id = 3,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "102",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70044,
-		voice_actor = 89,
-		spine_offset = "",
-		illustrator = 10,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.65,
-					1.04,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.82,
-					1.06,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.18,
-					0.07,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.64,
-					1.06,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.54,
-							2.31,
-							-0.18
-						}
-					}
-				}
-			}
-		}
-	},
-	[201232] = {
-		name = "Little Devil in White",
-		id = 201232,
-		desc = "Commander, I am now a nurse, so thou hast no choice but to give me thy blood~! Hehe, just kidding~!",
-		illustrator2 = -1,
-		ship_group = 20123,
-		group_index = 2,
-		prefab = "xixuegui_3",
-		painting = "xixuegui_3",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 15,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 89,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.892,
-					0.64,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.913,
-					0.697,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.059,
-					0.051,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.854,
-					0.623,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.54,
-							2.31,
-							-0.18
-						}
-					}
-				}
-			}
-		}
-	},
 	[201233] = {
 		name = "Night Princess's Regalia",
 		id = 201233,
@@ -5637,6 +5286,120 @@ pg.base.ship_skin_template_5 = {
 			}
 		}
 	},
+	[202085] = {
+		name = "Occult Clash",
+		id = 202085,
+		desc = "(Bang!) As usual, you fail to guard your back. This may just be a game, but I won't abide carelessness, Master. Let's clean this zone and hurry to the next.",
+		illustrator2 = -1,
+		ship_group = 20208,
+		group_index = 5,
+		prefab = "xiefeierde_6",
+		painting = "xiefeierde_6",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 26,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "177",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71051,
+		voice_actor = 88,
+		spine_offset = "",
+		illustrator = 20,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.095,
+					1.123,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.882,
+					1.022,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.058,
+					0.026,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.021,
+					1.293,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.548,
+							2.238,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[202090] = {
 		name = "Manchester",
 		id = 202090,
@@ -7386,6 +7149,130 @@ pg.base.ship_skin_template_5 = {
 						}
 					}
 				}
+			}
+		}
+	},
+	[202127] = {
+		name = "Blissful Service",
+		id = 202127,
+		desc = "Heehee. How do you do, Master? The temperatures just won't go down this summer, so I brought cold, carbonated drinks for you to fend off heat stroke. Go on, have a drink.",
+		illustrator2 = -1,
+		ship_group = 20212,
+		group_index = 7,
+		prefab = "beierfasite_9",
+		painting = "beierfasite_9",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 26,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "150",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71046,
+		voice_actor = 39,
+		illustrator = 20,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.147,
+					1.013,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.15,
+					1.012,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.148,
+					1.04,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.423,
+							2.576,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				156,
+				-748,
+				0
+			},
+			{
+				0.52
 			}
 		}
 	},
@@ -12829,6 +12716,232 @@ pg.base.ship_skin_template_5 = {
 						{
 							-0.39,
 							2.376,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202290] = {
+		name = "Penelope",
+		id = 202290,
+		desc = "Arethusa-class light cruiser – Penelope.",
+		illustrator2 = -1,
+		ship_group = 20229,
+		group_index = 0,
+		prefab = "peineiluopo",
+		painting = "peineiluopo",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 55,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.011,
+					0.998,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.019,
+					1.013,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.005,
+					-0.012,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.001,
+					1.013,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.44,
+							2.441,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202291] = {
+		name = "Ruby-Red Boudoir",
+		id = 202291,
+		desc = "Aurora chose this outfit for me because... the Spring Festival represents a time of celebration in the Dragon Empery, and red is the color that best symbolizes that. What do you think? Does this outfit... make you feel more festive?",
+		illustrator2 = -1,
+		ship_group = 20229,
+		group_index = 1,
+		prefab = "peineiluopo_2",
+		painting = "peineiluopo_2",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 3,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "144",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70500,
+		voice_actor = 55,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.99,
+					1.01,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.988,
+					1.002,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.008,
+					-0.003,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.999,
+					0.991,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.512,
+							2.406,
 							0
 						}
 					}

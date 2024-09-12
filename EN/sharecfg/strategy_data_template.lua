@@ -275,7 +275,16 @@ pg.strategy_data_template = setmetatable({
 		201022,
 		201024,
 		201027,
-		201029
+		201029,
+		201090,
+		201094,
+		201097,
+		201100,
+		205001,
+		205002,
+		205003,
+		205004,
+		205005
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3381,6 +3390,110 @@ The battle will initiate in challenge mode if a ship in your fleet has the Fargo
 		buff_type = 0,
 		id = 201029,
 		icon = "201029",
+		arg = {}
+	},
+	[201090] = {
+		buff_id = 201090,
+		name = "World Segment",
+		desc = "During battle, your Main Fleet ships take 20% less Burn DMG and their SPD increases by 5%.\nIf your fleet consists of 4 or more Sakura Empire ships, supporting barrages will fire 15s after the battle starts.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201090,
+		icon = "201090",
+		arg = {}
+	},
+	[201094] = {
+		buff_id = 201094,
+		name = "Naraka's Depths",
+		desc = "During battle, your META ships deal 10% more DMG and receive 10% additional healing, but all non-META ships take 5% more DMG and receive 8% less healing.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201094,
+		icon = "201094",
+		arg = {}
+	},
+	[201097] = {
+		buff_id = 201097,
+		name = "Twinflamed Inferno",
+		desc = "During battle, supporting barrages will be launched, inflicting all enemies hit with a special Burn ailment that deals DMG based on their max HP.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201097,
+		icon = "201097",
+		arg = {}
+	},
+	[201100] = {
+		buff_id = 0,
+		name = "Challenge Conditions",
+		desc = [[
+- Hard Mode Details -
+Enemies deal significantly more DMG. Their shells ignore shields and penetrate through targets.
+· During battle, Jadeite Shadows and Crimson Shadows take significantly less DMG from AP ammo, semi-AP ammo, and torpedoes, but their Burn DMG taken is increased.
+· When the enemy's HP drops below a set value, a magic circle will spawn on the field. Activating all magic circles will provide your fleet with supporting attacks.
+· The skills "Operation Rainbow" and "Fiercer When Cornered" are rendered ineffective.]],
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201100,
+		icon = "200908",
+		arg = {}
+	},
+	[205001] = {
+		buff_id = 205001,
+		name = "活动关卡标志A",
+		desc = "仅用作标记",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 205001,
+		icon = "",
+		arg = {}
+	},
+	[205002] = {
+		buff_id = 205002,
+		name = "活动关卡标志B",
+		desc = "仅用作标记",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 205002,
+		icon = "",
+		arg = {}
+	},
+	[205003] = {
+		buff_id = 205003,
+		name = "活动关卡标志C",
+		desc = "仅用作标记",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 205003,
+		icon = "",
+		arg = {}
+	},
+	[205004] = {
+		buff_id = 205004,
+		name = "活动关卡标志D",
+		desc = "仅用作标记",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 205004,
+		icon = "",
+		arg = {}
+	},
+	[205005] = {
+		buff_id = 205005,
+		name = "活动关卡标志SP",
+		desc = "仅用作标记",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 205005,
+		icon = "",
 		arg = {}
 	}
 }

@@ -1,6 +1,104 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_11 = {
+	[307028] = {
+		name = "Sacred Blue Lily",
+		id = 307028,
+		desc = "\"To hold one's hand and grow old together with him\"... If it is to be with you, then it won't so bad.",
+		illustrator2 = -1,
+		ship_group = 30702,
+		group_index = 8,
+		prefab = "jiahe_h",
+		painting = "jiahe_h",
+		hand_id = 2,
+		bgm = "",
+		shop_type_id = 9998,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 1,
+		bg_sp = "",
+		voice_actor_2 = 137,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 9,
+		spine_offset = "",
+		illustrator = 8,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.91,
+					1.14,
+					0
+				}
+			},
+			plane = {
+				{
+					0.91,
+					1.14,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[307030] = {
 		name = "Souryuu",
 		id = 307030,
@@ -3532,6 +3630,263 @@ pg.base.ship_skin_template_11 = {
 					}
 				}
 			}
+		}
+	},
+	[307150] = {
+		name = "Amagi(CV)",
+		id = 307150,
+		desc = "Aircraft carrier – Amagi.",
+		illustrator2 = -1,
+		ship_group = 30715,
+		group_index = 0,
+		prefab = "tiancheng_cv",
+		painting = "tiancheng_cv",
+		hand_id = 2,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 104,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.481,
+					1.049,
+					0
+				}
+			},
+			plane = {
+				{
+					1.48,
+					1.081,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				-9,
+				-1130,
+				0
+			},
+			{
+				0.8
+			}
+		}
+	},
+	[307151] = {
+		name = "Throne of Fallen Petals",
+		id = 307151,
+		desc = "So you've finally come, Commander. I have been waiting for you— Ahem. Heehee, please step forward. In this castle of dreams, this throne... belongs to you and me equally.",
+		illustrator2 = -1,
+		ship_group = 30715,
+		group_index = 1,
+		prefab = "tiancheng_cv_2",
+		painting = "tiancheng_cv_2",
+		hand_id = 2,
+		bgm = "",
+		shop_type_id = 7,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		bg = "177",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71044,
+		voice_actor = 104,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			65,
+			105,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.481,
+					1.049,
+					0
+				}
+			},
+			plane = {
+				{
+					1.48,
+					1.081,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				0,
+				30
+			},
+			ParamNeckZ = {
+				-10,
+				10
+			}
+		},
+		ship_l2d_id = {
+			30715101,
+			30715102,
+			30715103,
+			30715104,
+			30715105,
+			30715106,
+			30715107,
+			30715108,
+			30715109,
+			30715110,
+			30715111,
+			30715112,
+			30715113,
+			30715114,
+			30715115,
+			30715116,
+			30715117,
+			30715118,
+			30715119,
+			30715120
+		},
+		l2d_drag_rate = {
+			0.33,
+			0.33,
+			0.33
 		}
 	},
 	[308010] = {
@@ -11304,6 +11659,120 @@ pg.base.ship_skin_template_11 = {
 			}
 		}
 	},
+	[401353] = {
+		name = "Himmel: Beyond Love's Boundaries",
+		id = 401353,
+		desc = "In pursuit of being an even greater idol, I prepared this new outfit! \"With my magic and passionate heart, I'll bring you joy☆\" Heheh, did you like that one, Commander?",
+		illustrator2 = -1,
+		ship_group = 40135,
+		group_index = 3,
+		prefab = "z35_4",
+		painting = "z35_4",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 26,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "181",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71050,
+		voice_actor = 123,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.619,
+					0.733,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.714,
+					0.666,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.042,
+					0.034,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.4,
+					0.8,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.058,
+							2.326,
+							-1.05
+						}
+					}
+				}
+			}
+		}
+	},
 	[401360] = {
 		name = "Z36",
 		id = 401360,
@@ -12053,362 +12522,6 @@ pg.base.ship_skin_template_11 = {
 		},
 		l2d_voice_calibrate = {
 			login = 0.67
-		}
-	},
-	[401463] = {
-		name = "Star-Lit★Chocolate",
-		id = 401463,
-		desc = "Dancing beams of light, shimmering on-stage; uplifted voices, joined as one by song... Upon this unknown stage, my heart doth flutter... Yet this sensation, is quite refreshing.",
-		illustrator2 = -1,
-		ship_group = 40146,
-		group_index = 3,
-		prefab = "Z46_4",
-		painting = "Z46_4",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 11,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "120",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70436,
-		voice_actor = 60,
-		spine_offset = "",
-		illustrator = 5,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			1,
-			4
-		},
-		live2d_offset = {
-			0,
-			-65,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.633,
-					1.34,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.596,
-					1.389,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0.225,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.596,
-					1.399,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.523,
-							2.645,
-							-1.05
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		}
-	},
-	[401464] = {
-		name = "Jianzhi Fantasia",
-		id = 401464,
-		desc = "\"Jianzhi,\" the art of breathing life into works of cut paper... is a world beyond my imagination. If these decorations are said to usher in blessings... are they akin to a coat-of-arms or a holy seal?",
-		illustrator2 = -1,
-		ship_group = 40146,
-		group_index = 4,
-		prefab = "Z46_5",
-		painting = "Z46_5",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 3,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "144",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70483,
-		voice_actor = 60,
-		spine_offset = "",
-		illustrator = 5,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			-65,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.393,
-					1.009,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.41,
-					1,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0.005,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.422,
-					1.004,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.432,
-							2.471,
-							-1.05
-						}
-					}
-				}
-			}
-		}
-	},
-	[401465] = {
-		name = "Chronicles of the Dust Wars",
-		id = 401465,
-		desc = "Cast your eyes upon this bit of dust. As I was entrusted with the cleaning, I shall not allow this dust to remain. Will you also join me in this battle?",
-		illustrator2 = -1,
-		ship_group = 40146,
-		group_index = 5,
-		prefab = "z46_6",
-		painting = "z46_6",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 17,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "150",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70637,
-		voice_actor = 60,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.45,
-					1.07,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.34,
-					1.07,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0.005,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.33,
-					1.14,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.53,
-							2.38,
-							-1.05
-						}
-					}
-				}
-			}
 		}
 	}
 }

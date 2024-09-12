@@ -12398,5 +12398,128 @@ pg.base.ship_skin_template_1 = {
 				}
 			}
 		}
+	},
+	[102010] = {
+		name = "Omaha",
+		id = 102010,
+		desc = "Omaha-class light cruiser – Omaha, Hull Number CL-4!",
+		illustrator2 = -1,
+		ship_group = 10201,
+		group_index = 0,
+		prefab = "aomaha",
+		painting = "aomaha",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 62,
+		spine_offset = "",
+		illustrator = 6,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.317,
+					0.665,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.016,
+					0.582,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.59,
+					1.125,
+					0
+				},
+				{
+					0.429,
+					0.906,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.559,
+							0.397,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.42,
+							0.51,
+							0
+						}
+					}
+				}
+			}
+		}
 	}
 }

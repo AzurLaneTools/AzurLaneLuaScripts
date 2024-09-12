@@ -1617,6 +1617,34 @@ pg.name_code = {
 		code = "Nagato META",
 		nation = 0
 	},
+	[231] = {
+		name = "Watarase",
+		type = 1,
+		id = 231,
+		code = "Watarase",
+		nation = 0
+	},
+	[232] = {
+		name = "Hiei META",
+		type = 1,
+		id = 232,
+		code = "Hiei META",
+		nation = 0
+	},
+	[233] = {
+		name = "Ayase",
+		type = 1,
+		id = 233,
+		code = "Ayase",
+		nation = 0
+	},
+	[234] = {
+		name = "Suzunami",
+		type = 1,
+		id = 234,
+		code = "Suzunami",
+		nation = 0
+	},
 	[250] = {
 		name = "I-9",
 		type = 1,

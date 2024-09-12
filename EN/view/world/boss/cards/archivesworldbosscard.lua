@@ -92,6 +92,7 @@ slot0.Flush = function(slot0)
 end
 
 slot0.Select = function(slot0)
+	slot0:UnSelect()
 	setActive(slot0.arrTr, true)
 	LeanTween.value(slot0.arrTr.gameObject, slot0.arrLpos.x, slot0.arrLpos.x - 20, 0.9):setOnUpdate(System.Action_float(function (slot0)
 		uv0.arrTr.localPosition = Vector3(slot0, uv0.arrLpos.y, 0)

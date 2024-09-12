@@ -186,37 +186,19 @@ end
 
 slot0.OnCharge = function(slot0, slot1)
 	if slot1:isChargeType() then
-		slot2 = slot1:getConfig("tag")
-		slot3 = underscore.map(slot1:getConfig("extra_service_item"), function (slot0)
-			return {
-				type = slot0[1],
-				id = slot0[2],
-				count = slot0[3]
-			}
-		end)
-		slot4, slot5 = nil
-
-		if slot1:getConfig("gem") + slot1:getConfig("extra_gem") > 0 then
-			table.insert(slot3, {
-				id = 4,
-				type = 1,
-				count = slot6
-			})
-		end
-
 		slot0:emit(ActivityMediator.OPEN_CHARGE_ITEM_PANEL, {
 			isChargeType = true,
 			icon = "chargeicon/" .. slot1:getConfig("picture"),
 			name = slot1:getConfig("name_display"),
 			tipExtra = i18n("charge_title_getitem"),
-			extraItems = slot3,
+			extraItems = slot1:GetExtraServiceItem(),
 			price = slot1:getConfig("money"),
 			isLocalPrice = slot1:IsLocalPrice(),
-			tagType = slot2,
+			tagType = slot1:getConfig("tag"),
 			isMonthCard = slot1:isMonthCard(),
 			tipBonus = nil,
-			bonusItem = slot5,
-			extraDrop = slot4,
+			bonusItem = nil,
+			extraDrop = nil,
 			descExtra = slot1:getConfig("descrip_extra"),
 			limitArgs = slot1:getConfig("limit_args"),
 			onYes = function ()

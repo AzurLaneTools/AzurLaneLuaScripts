@@ -1,251 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_8 = {
-	[301161] = {
-		name = "Sovereign of the Swing",
-		id = 301161,
-		desc = "Wa ha ha! My \"universal-as-long-as-there-is-a-ceiling\" swing set is finally complete! Commander, are you jealous? Want to give it a try? Too~ bad~! This seat is reserved only for the noble and elegant Yukikaze!",
-		illustrator2 = -1,
-		ship_group = 30116,
-		group_index = 1,
-		prefab = "xuefeng_2",
-		painting = "xuefeng_2",
-		hand_id = 14,
-		bgm = "",
-		shop_type_id = 9999,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70057,
-		voice_actor = 42,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.02,
-					0.6,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.02,
-					0.6,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.02,
-					0.6,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.266,
-							0.329,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.436,
-							2.45,
-							-0.16
-						}
-					}
-				}
-			}
-		}
-	},
-	[301162] = {
-		name = "Winter's Snowy Wind",
-		id = 301162,
-		desc = "Wa ha ha~! Did your heart skip a beat from seeing the charming Yukikaze? Hmph... Well, looks like the Dragon Empery girls are setting off firecrackers... let's go join them! Here, make sure to hold on to my hand!",
-		illustrator2 = -1,
-		ship_group = 30116,
-		group_index = 2,
-		prefab = "xuefeng_3",
-		painting = "xuefeng_3",
-		hand_id = 14,
-		bgm = "",
-		shop_type_id = 3,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "127",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70301,
-		voice_actor = 42,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		tag = {
-			1,
-			4
-		},
-		live2d_offset = {
-			-19.9,
-			-52.5,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.12,
-					1.18,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.02,
-					0.049,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.17,
-					1.34,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.52,
-							2.29,
-							-0.16
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_special",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			mail = 0.3,
-			expedition = 0.3,
-			mission_complete = 0.26,
-			touch2 = 0.33
-		}
-	},
 	[301168] = {
 		name = "The Warmth of Spring",
 		id = 301168,
@@ -12497,6 +12252,344 @@ pg.base.ship_skin_template_8 = {
 						{
 							-0.417,
 							2.504,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301819] = {
+		name = "Kasumi (Retrofit)",
+		id = 301819,
+		desc = "Kasumi thinks that her outfit has gotten a bit breezier. Foo said the same thing.",
+		illustrator2 = -1,
+		ship_group = 30181,
+		group_index = 9,
+		prefab = "xia_g",
+		painting = "xia_g",
+		hand_id = 6,
+		bgm = "",
+		shop_type_id = 9997,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 216,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.346,
+					1.001,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.367,
+					1.001,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.002,
+					-0.004,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.338,
+					1.001,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.341,
+							2.547,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301820] = {
+		name = "Hanazuki",
+		id = 301820,
+		desc = "Akizuki-class destroyer number thirteen – Hanazuki.",
+		illustrator2 = -1,
+		ship_group = 30182,
+		group_index = 0,
+		prefab = "huayue",
+		painting = "huayue",
+		hand_id = 14,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 232,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.338,
+					1.155,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.238,
+					1.188,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.005,
+					-0.025,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.215,
+					1.193,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.39,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301821] = {
+		name = "Morning Moon, Beachside Flower",
+		id = 301821,
+		desc = "I've heard some say that summer is the season of cherry blossoms, lotus petals, and sunflowers, but... If you ask me, being able to leisurely enjoy the breeze with you feels pretty good too. Hehe~",
+		illustrator2 = -1,
+		ship_group = 30182,
+		group_index = 1,
+		prefab = "huayue_3",
+		painting = "huayue_3",
+		hand_id = 14,
+		bgm = "",
+		shop_type_id = 6,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "106",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70346,
+		voice_actor = 232,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.24,
+					1.182,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.179,
+					1.246,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.005,
+					0.008,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.228,
+					1.349,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.39,
 							0
 						}
 					}

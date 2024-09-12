@@ -5962,7 +5962,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 - META Showdown Overview -
 
-From <color=#92fc63>9/5/24 to 12/12/24</color>, challenge Nagato META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Nagato META</color> as well as other great rewards.
+From <color=#92fc63>9/5/24 to 12/12/24</color>, challengeNagato METAto earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Nagato META</color> as well as other great rewards.
 <color=#ff5c5c>Note: Sync Points will expire after the event period ends.</color>
 
 - Acquiring and Analyzing META Coordinates -
@@ -5974,7 +5974,9 @@ From <color=#92fc63>9/5/24 to 12/12/24</color>, challenge Nagato META to earn Sy
 · Your first time challenging a META boss that you spawned will not require Oil. From the second attempt onwards, cost of each attempt will gradually drop from <color=#92fc63>40</color> Oil to <color=#92fc63>0</color> Oil. (Will not consume a challenge attempt).
 · When a META Showdown boss reaches 0 HP, they will be defeated. Participants will be able to collect rewards, including a large amount of Sync Points.
 · Each META Showdown will only last for <color=#92fc63>24 hours</color>, after which it will disappear. Use Request Support if you need help.
-· After defeating a META boss, the difficulty of subsequent META Showdowns will increase by 1 level, up to a maximum of 15.
+· After defeating a META boss, the difficulty
+of subsequent META Showdowns will increase by
+1 level, up to a maximum of 15.
 
 - Fighting Others' Bosses -
 · In the Boss List menu, you can see requests that other Commanders have sent. When fighting another Commander's boss, you will immediately gain Sync Points based upon the <color=#92fc63>amount of DMG</color> you dealt.
@@ -9856,6 +9858,11 @@ _G.pg.base.gametip.ship_remould_warning_105214 = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_105224 = {
+	tip = "Completing the retrofit will change the skill <color=#92fc63>Big Seven</color> into <color=#92fc63>Big Seven - Maryland</color>."
+}
+
+
 _G.pg.base.gametip.ship_remould_warning_105234 = {
 	tip = "Completing the retrofit will upgrade this ship's <color=#92fc63>Big Seven</color> skill into\n<color=#92fc63>Big Seven - West Virginia</color>."
 }
@@ -12820,7 +12827,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for Pittsburgh, Indiana, and more!"
+	tip = "Get Amagi(CV) guaranteed with every 200 event builds (can be done up to 4 times)!"
 }
 
 
@@ -29407,6 +29414,21 @@ _G.pg.base.gametip.battle_text_pizibao_2 = {
 }
 
 
+_G.pg.base.gametip.battle_text_tianchengCV_1 = {
+	tip = "\"<color=#ff8800>Crimson flame</color> and <color=#5cccff>azure blossom</color>, descend upon the world!\""
+}
+
+
+_G.pg.base.gametip.battle_text_tianchengCV_2 = {
+	tip = "\"Ahahahaha! <color=#ff1800>Red spider lilies</color>, bloom and burn them to ashes!\""
+}
+
+
+_G.pg.base.gametip.battle_text_tianchengCV_3 = {
+	tip = "A powerful attack is coming! Activate the magic circle and call for support!"
+}
+
+
 _G.pg.base.gametip.series_enemy_mood = {
 	tip = "Low Morale"
 }
@@ -35049,4 +35071,205 @@ _G.pg.base.gametip.report_cannot_comment_level_2 = {
 
 _G.pg.base.gametip.commander_exp_limit = {
 	tip = "This Meowfficer has reached max level and cannot be added here."
+}
+
+
+_G.pg.base.gametip.dreamland_label_day = {
+	tip = "Day"
+}
+
+
+_G.pg.base.gametip.dreamland_label_dusk = {
+	tip = "Evening"
+}
+
+
+_G.pg.base.gametip.dreamland_label_night = {
+	tip = "Night"
+}
+
+
+_G.pg.base.gametip.dreamland_label_area = {
+	tip = "Area"
+}
+
+
+_G.pg.base.gametip.dreamland_label_explore = {
+	tip = "Explore"
+}
+
+
+_G.pg.base.gametip.dreamland_label_explore_award_tip = {
+	tip = "Area Exploration Reward"
+}
+
+
+_G.pg.base.gametip.dreamland_area_lock_tip = {
+	tip = "- Area unlocks after reading the story -"
+}
+
+
+_G.pg.base.gametip.dreamland_spring_lock_tip = {
+	tip = "This will unlock after you read the story."
+}
+
+
+_G.pg.base.gametip.dreamland_spring_tip = {
+	tip = "Dream Park Morale Recovery: $1/h"
+}
+
+
+_G.pg.base.gametip.dream_land_tip = {
+	tip = {
+		{
+			info = [[
+- Overview -
+The Dreamy Day in Dream Park event is available between <color=#92fc63>September 12th and October 2nd</color>.
+
+· Explore the park to unlock new areas and receive rewards, including <color=#92fc63>limited furniture</color> and <color=#92fc63>gear skin boxes</color>!
+· Each area contains its own interactable elements. If you're unable to find them, you can check <color=#92fc63>the stars displayed on the map</color> or your <color=#92fc63>Dreamland Guidebook</color> to receive a hint.
+· Some elements can only be interacted with at the right time of day. Finish the event story to unlock the Change Time option, letting you alter the park's time at will.
+· Let your shipgirls relax under the Sweet Dreams tab and they'll both recover Morale faster and appear inside the park. You'll unlock more slots as you gain access to more areas to explore.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.touch_cake_minigame_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/touchcake_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/touchcake_help2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.dreamland_main_desc = {
+	tip = "Obtain rewards between September 12th and October 2nd by <color=#85E7FF>exploring the park</color> and <color=#85E7FF>playing the minigame</color>!"
+}
+
+
+_G.pg.base.gametip.dreamland_main_tip = {
+	tip = {
+		{
+			info = [[
+- Overview -
+The Dreamy Day in Dream Park event is available between <color=#92fc63>September 12th and October 2nd</color>.
+
+- Exploring Dream Park -
+· Explore the park to unlock new areas and story chapters and receive rewards, including <color=#92fc63>limited furniture</color> and <color=#92fc63>gear skin boxes</color>!
+· Each area contains its own interactable elements. If you're unable to find them, you can check <color=#92fc63>the stars displayed on the map</color> or your <color=#92fc63>Dreamland Guidebook</color> to receive a hint.
+· Some elements can only be interacted with at the right time of day. Finish the event story to unlock the Change Time option, letting you alter the park's time at will.
+· Let your shipgirls relax under the Sweet Dreams tab and they'll both recover Morale faster and appear inside the park. You'll unlock more slots as you gain access to more areas to explore.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.no_share_skin_gametip = {
+	tip = "*$1's skin cannot be applied to $2."
+}
+
+
+_G.pg.base.gametip.no_share_skin_tianchenghangmu = {
+	tip = "Amagi(CV)"
+}
+
+
+_G.pg.base.gametip.no_share_skin_tianchengzhanlie = {
+	tip = "Amagi(BC)"
+}
+
+
+_G.pg.base.gametip.no_share_skin_jiahezhanlie = {
+	tip = "Kaga(BB)"
+}
+
+
+_G.pg.base.gametip.no_share_skin_jiahehangmu = {
+	tip = "Kaga(CV)"
+}
+
+
+_G.pg.base.gametip.ui_pack_tip1 = {
+	tip = "* You can only choose to buy ONE version. The purchased item(s) will be sent to your mail."
+}
+
+
+_G.pg.base.gametip.ui_pack_tip2 = {
+	tip = "Basic"
+}
+
+
+_G.pg.base.gametip.ui_pack_tip3 = {
+	tip = "Premium"
+}
+
+
+_G.pg.base.gametip.battle_ui_unlock = {
+	tip = "Unlock Battle UI"
+}
+
+
+_G.pg.base.gametip.compensate_ui_expiration_hour = {
+	tip = "Expires in $1 hour(s)"
+}
+
+
+_G.pg.base.gametip.compensate_ui_expiration_day = {
+	tip = "Expires in $1 day(s)"
+}
+
+
+_G.pg.base.gametip.compensate_ui_title1 = {
+	tip = "Comp."
+}
+
+
+_G.pg.base.gametip.compensate_ui_title2 = {
+	tip = "compensate"
+}
+
+
+_G.pg.base.gametip.compensate_ui_nothing1 = {
+	tip = "No compensation received yet."
+}
+
+
+_G.pg.base.gametip.compensate_ui_nothing2 = {
+	tip = "No compensation received yet"
+}
+
+
+_G.pg.base.gametip.attire_combatui_preview = {
+	tip = "Check Preview"
+}
+
+
+_G.pg.base.gametip.attire_combatui_confirm = {
+	tip = "Apply"
 }

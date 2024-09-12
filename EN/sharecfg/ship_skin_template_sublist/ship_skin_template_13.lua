@@ -1,6 +1,206 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_13 = {
+	[406031] = {
+		name = "A Lick of Summer",
+		id = 406031,
+		desc = "*lick*... Hmm. The fact that you can just stand there must mean that you don't mind the heat. It's okay, though. If you don't come in, I'm more than happy to have this pool all to myself~♪",
+		illustrator2 = -1,
+		ship_group = 40603,
+		group_index = 1,
+		prefab = "yade_2",
+		painting = "yade_2",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 6,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "168",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70845,
+		voice_actor = 363,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.53,
+					1.37,
+					0
+				}
+			},
+			plane = {
+				{
+					1.49,
+					1.43,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.36,
+							2.36,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[406032] = {
+		name = "A Good Girl's Magic",
+		id = 406032,
+		desc = "That's right, I'm the witch Jade, the most famous idol in all the world! Did you come running when you heard my name, hero? I was just about to broadcast my new song, so you'll be the perfect helper. Heheh♪",
+		illustrator2 = -1,
+		ship_group = 40603,
+		group_index = 2,
+		prefab = "yade_3",
+		painting = "yade_3",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 24,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "174",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70993,
+		voice_actor = 363,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.53,
+					1.37,
+					0
+				}
+			},
+			plane = {
+				{
+					1.49,
+					1.43,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.36,
+							2.36,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[407010] = {
 		name = "Graf Zeppelin",
 		id = 407010,
@@ -12093,120 +12293,6 @@ pg.base.ship_skin_template_13 = {
 						{
 							-0.514,
 							2.328,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[506012] = {
-		name = "Cerulean Ripples",
-		id = 506012,
-		desc = "Oh my, if it isn't the Commander... Have you also come to escape the heat? What a serendipitous meeting... Or, did you perhaps have some other goal in mind? Heehee...",
-		illustrator2 = -1,
-		ship_group = 50601,
-		group_index = 2,
-		prefab = "zhenhai_3",
-		painting = "zhenhai_3",
-		hand_id = 9,
-		bgm = "",
-		shop_type_id = 7,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "161",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70754,
-		voice_actor = 56,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.117,
-					1.273,
-					0
-				}
-			},
-			plane = {
-				{
-					0.924,
-					0.894,
-					0
-				}
-			},
-			cannon = {
-				{
-					1.129,
-					0.986,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.082,
-					1.029,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.805,
-							1.806,
 							0
 						}
 					}

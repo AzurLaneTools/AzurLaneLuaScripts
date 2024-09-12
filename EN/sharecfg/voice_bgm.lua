@@ -136,9 +136,9 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "main",
+		default_bgm = "story-flowerdust-soft",
 		special_bgm = "",
-		bgm = "main"
+		bgm = "story-flowerdust-soft"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
@@ -1579,5 +1579,30 @@ pg.voice_bgm = {
 		default_bgm = "story-nailuo-theme",
 		special_bgm = "",
 		bgm = "story-nailuo-theme"
+	},
+	Japan2024AnniversaryMainPage = {
+		default_bgm = "theme-amagi-cv",
+		special_bgm = "",
+		bgm = "theme-amagi-cv"
+	},
+	Jp7thPtPage = {
+		default_bgm = "story-newsakura",
+		special_bgm = "",
+		bgm = "story-newsakura"
+	},
+	DreamlandFullPreviewScene = {
+		default_bgm = "story-fantasyland-summer",
+		special_bgm = "",
+		bgm = "story-fantasyland-summer"
+	},
+	SeventhInviteJPPage = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "story-musicanniversary-gorgeous"
+	},
+	AnniversarySevenLoginJPPage = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "story-musicanniversary-gorgeous"
 	}
 }

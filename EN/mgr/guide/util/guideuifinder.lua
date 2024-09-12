@@ -51,14 +51,19 @@ slot1 = function(slot0, slot1)
 end
 
 slot2 = function(slot0)
-	if GameObject.Find(slot0.path) and slot0.childIndex and slot0.childIndex == "#" then
-		return uv0(slot1.transform)
-	elseif slot1 and slot0.childIndex and slot0.childIndex == -999 then
-		return uv0(slot1.transform, 0)
-	elseif slot1 and slot0.childIndex and slot0.childIndex >= 0 then
-		return uv0(slot1.transform, slot0.childIndex)
-	elseif slot1 then
-		return slot1.transform
+	if string.match(slot0.path, "/CombatUI%(Clone%)/") then
+		slot2 = slot1
+		slot1 = string.gsub(slot1, "CombatUI%(Clone%)", "CombatUI" .. ys.Battle.BattleState.GetCombatSkinKey() .. "(Clone)")
+	end
+
+	if GameObject.Find(slot1) and slot0.childIndex and slot0.childIndex == "#" then
+		return uv0(slot2.transform)
+	elseif slot2 and slot0.childIndex and slot0.childIndex == -999 then
+		return uv0(slot2.transform, 0)
+	elseif slot2 and slot0.childIndex and slot0.childIndex >= 0 then
+		return uv0(slot2.transform, slot0.childIndex)
+	elseif slot2 then
+		return slot2.transform
 	end
 
 	return nil

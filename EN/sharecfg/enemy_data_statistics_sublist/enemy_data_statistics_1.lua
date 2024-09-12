@@ -1126,5 +1126,30 @@ pg.enemy_data_statistics_1 = {
 		random_equipment_list = {},
 		random_nub = {},
 		buff_list = {}
+	},
+	[50025] = {
+		antiaircraft_growth = 7200,
+		name = "Geryon",
+		cannon_growth = 7200,
+		speed_growth = 10000,
+		torpedo_growth = 7200,
+		fog_fx = "",
+		bubble_fx = "",
+		reload_growth = 7200,
+		dodge_growth = 10000,
+		armor_growth = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 50021,
+		durability_growth = 7200,
+		luck_growth = 10000,
+		hit_growth = 7200,
+		id = 50025,
+		specific_fx_scale = {},
+		appear_fx = {},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
 	}
 }

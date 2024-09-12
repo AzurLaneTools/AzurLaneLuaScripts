@@ -70,64 +70,32 @@ slot0.confirm = function(slot0, slot1)
 		slot4 = (table.contains(slot0.firstChargeIds, slot1.id) or slot1:firstPayDouble()) and 4 or slot1:getConfig("tag")
 
 		if slot1:isMonthCard() or slot1:isGiftBox() or slot1:isItemBox() or slot1:isPassItem() then
-			slot5 = underscore.map(slot1:getConfig("extra_service_item"), function (slot0)
-				return Drop.Create(slot0)
-			end)
-			slot6 = nil
+			slot5 = slot1:GetExtraServiceItem()
+			slot6 = slot1:GetExtraDrop()
+			slot7 = slot1:GetBonusItem()
+			slot8, slot9 = nil
 
 			if slot1:isPassItem() then
-				slot7 = slot1:getConfig("sub_display")
-				slot8 = slot7[1]
-				slot6 = Drop.New({
-					type = DROP_TYPE_VITEM,
-					id = pg.battlepass_event_pt[slot8].pt,
-					count = slot7[2]
-				})
-				slot5 = PlayerConst.MergePassItemDrop(underscore.map(pg.battlepass_event_pt[slot8].award_pay, function (slot0)
-					return Drop.Create(pg.battlepass_event_award[slot0].drop_client)
-				end))
-			end
-
-			slot7 = slot1:getConfig("gem") + slot1:getConfig("extra_gem")
-			slot8 = nil
-
-			if slot1:isMonthCard() then
-				slot8 = Drop.New({
-					type = DROP_TYPE_RESOURCE,
-					id = PlayerConst.ResDiamond,
-					count = slot7
-				})
-			elseif slot7 > 0 then
-				table.insert(slot5, Drop.New({
-					type = DROP_TYPE_RESOURCE,
-					id = PlayerConst.ResDiamond,
-					count = slot7
-				}))
-			end
-
-			slot9, slot10 = nil
-
-			if slot1:isPassItem() then
-				slot9 = i18n("battlepass_pay_tip")
+				slot8 = i18n("battlepass_pay_tip")
 			elseif slot1:isMonthCard() then
-				slot9 = i18n("charge_title_getitem_month")
-				slot10 = i18n("charge_title_getitem_soon")
+				slot8 = i18n("charge_title_getitem_month")
+				slot9 = i18n("charge_title_getitem_soon")
 			else
-				slot9 = i18n("charge_title_getitem")
+				slot8 = i18n("charge_title_getitem")
 			end
 
 			slot0:emit(ChargeMediator.OPEN_CHARGE_ITEM_PANEL, {
 				isChargeType = true,
 				icon = "chargeicon/" .. slot1:getConfig("picture"),
 				name = slot1:getConfig("name_display"),
-				tipExtra = slot9,
+				tipExtra = slot8,
 				extraItems = slot5,
 				price = slot1:getConfig("money"),
 				isLocalPrice = slot1:IsLocalPrice(),
 				tagType = slot4,
 				isMonthCard = slot1:isMonthCard(),
-				tipBonus = slot10,
-				bonusItem = slot8,
+				tipBonus = slot9,
+				bonusItem = slot7,
 				extraDrop = slot6,
 				descExtra = slot1:getConfig("descrip_extra"),
 				onYes = function ()

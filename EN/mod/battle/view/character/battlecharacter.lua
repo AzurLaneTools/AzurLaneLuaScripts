@@ -1420,37 +1420,65 @@ slot6.SetPopup = function(slot0, slot1, slot2, slot3)
 
 	if slot0._popGO then
 		LeanTween.cancel(slot0._popGO)
-		LeanTween.scale(rtf(slot0._popGO.gameObject), Vector3.New(0, 0, 1), 0.1):setEase(LeanTweenType.easeInBack):setOnComplete(System.Action(function ()
-			uv0:chatPop(uv1, uv2)
-		end))
+
+		if slot0._popGO.transform:GetComponent(typeof(Animation)) then
+			slot4:Play("popup_out")
+			slot0._popGO:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
+				uv0.ChatPopAnimation(uv0._popGO, uv1, uv2)
+			end)
+		else
+			LeanTween.cancel(slot0._popGO)
+			LeanTween.scale(rtf(slot0._popGO.gameObject), Vector3.New(0, 0, 1), 0.1):setEase(LeanTweenType.easeInBack):setOnComplete(System.Action(function ()
+				uv0.ChatPop(uv0._popGO, uv1, uv2)
+			end))
+		end
 	else
 		slot0._popGO = slot0._factory:MakePopup()
 		slot0._popTF = slot0._popGO.transform
-		slot0._popTF.localScale = Vector3(0, 0, 0)
 
-		slot0:chatPop(slot1, slot2)
+		if slot0._popGO.transform:GetComponent(typeof(Animation)) then
+			slot0.ChatPopAnimation(slot0._popGO, slot1, slot2)
+		else
+			slot0._popTF.localScale = Vector3(0, 0, 0)
+
+			slot0.ChatPop(slot0._popGO, slot1, slot2)
+		end
 	end
 
 	SetActive(slot0._popGO, true)
 end
 
-slot6.chatPop = function(slot0, slot1, slot2)
+slot6.ChatPopAnimation = function(slot0, slot1, slot2)
+	uv0.setChatText(slot0, slot1)
+	slot0.transform:GetComponent(typeof(Animation)):Play("popup_in")
+	LeanTween.delayedCall(slot0.gameObject, slot2, System.Action(function ()
+		uv0:Play("popup_out")
+		uv1:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
+			SetActive(uv0, false)
+		end)
+	end))
+end
+
+slot6.ChatPop = function(slot0, slot1, slot2)
 	slot2 = slot2 or 2.5
-	slot3 = findTF(slot0._popGO, "Text"):GetComponent(typeof(Text))
 
-	setTextEN(slot3, slot1)
-
-	if CHAT_POP_STR_LEN < #slot3.text then
-		slot3.alignment = TextAnchor.MiddleLeft
-	else
-		slot3.alignment = TextAnchor.MiddleCenter
-	end
-
-	LeanTween.scale(rtf(slot0._popGO.gameObject), Vector3.New(1, 1, 1), 0.3):setEase(LeanTweenType.easeOutBack):setOnComplete(System.Action(function ()
-		LeanTween.scale(rtf(uv0._popGO.gameObject), Vector3.New(0, 0, 1), 0.3):setEase(LeanTweenType.easeInBack):setDelay(uv1):setOnComplete(System.Action(function ()
-			SetActive(uv0._popGO, false)
+	uv0.setChatText(slot0, slot1)
+	LeanTween.scale(rtf(slot0.gameObject), Vector3.New(1, 1, 1), 0.3):setEase(LeanTweenType.easeOutBack):setOnComplete(System.Action(function ()
+		LeanTween.scale(rtf(uv0.gameObject), Vector3.New(0, 0, 1), 0.3):setEase(LeanTweenType.easeInBack):setDelay(uv1):setOnComplete(System.Action(function ()
+			SetActive(uv0, false)
 		end))
 	end))
+end
+
+slot6.setChatText = function(slot0, slot1)
+	slot2 = findTF(slot0, "Text"):GetComponent(typeof(Text))
+	slot2.text = slot1
+
+	if CHAT_POP_STR_LEN < #slot2.text then
+		slot2.alignment = TextAnchor.MiddleLeft
+	else
+		slot2.alignment = TextAnchor.MiddleCenter
+	end
 end
 
 slot6.Voice = function(slot0, slot1, slot2)
