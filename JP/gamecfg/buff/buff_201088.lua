@@ -11,7 +11,7 @@ return {
 		{
 			type = "BattleBuffCleanse",
 			trigger = {
-				"onRemove"
+				"onAttach"
 			},
 			arg_list = {
 				buff_id_list = {
