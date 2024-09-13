@@ -103,24 +103,14 @@ slot7.OpeningEffect = function(slot0, slot1, slot2)
 		slot0._skillView:CustomButton(slot0._dataProxy:GetDungeonData().skill_hide or {})
 	end
 
-	if slot0._ui._go:GetComponent("DftAniEvent") then
-		slot3:SetEndEvent(function (slot0)
-			uv0._uiMGR:SetActive(true)
-			uv0:EnableComponent(true)
+	LeanTween.delayedCall(uv0.COMBAT_DELAY_ACTIVE, System.Action(function ()
+		uv0._uiMGR:SetActive(true)
+		uv0:EnableComponent(true)
 
-			if uv1 then
-				uv1()
-			end
-		end)
-	else
-		slot0._uiMGR:SetActive(true)
-		slot0:EnableComponent(true)
-
-		if slot1 then
-			slot1()
+		if uv1 then
+			uv1()
 		end
-	end
-
+	end))
 	SetActive(slot0._ui._go, true)
 	slot0._skillView:ButtonInitialAnima()
 end
