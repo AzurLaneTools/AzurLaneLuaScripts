@@ -1513,12 +1513,12 @@ slot0.updateMap = function(slot0, slot1)
 		setActive(slot10, slot10.name == slot5)
 	end
 
+	slot0:SwitchMapBG(slot2, slot1)
+	slot0:PlayBGM()
 	slot0:SwitchMapBuilder(slot0.contextData.map:getConfig("ui_type"))
 	slot0.mapBuilder:UpdateMapVO(slot2)
 	slot0.mapBuilder:UpdateView()
 	slot0.mapBuilder:UpdateMapItems()
-	slot0:SwitchMapBG(slot2, slot1)
-	slot0:PlayBGM()
 end
 
 slot0.UpdateSwitchMapButton = function(slot0)
@@ -2108,10 +2108,10 @@ slot0.switchToMap = function(slot0, slot1)
 	end
 
 	slot0:SwitchMapBG(slot0.contextData.map)
+	slot0:PlayBGM()
 	slot0.mapBuilder:Show()
 	slot0.mapBuilder:UpdateView()
 	slot0.mapBuilder:UpdateMapItems()
-	slot0:PlayBGM()
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.topPanel, slot0._tf)
 	pg.playerResUI:SetActive({
 		active = false

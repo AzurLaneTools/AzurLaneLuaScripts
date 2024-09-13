@@ -1,7 +1,7 @@
 return {
 	init_effect = "",
 	name = "2024天城航母活动 B3 赤城meta 监听召唤物存活情况",
-	time = 0.5,
+	time = 0.1,
 	picture = "",
 	desc = "",
 	stack = 99,

@@ -19,7 +19,7 @@ end
 
 slot0.OnLoaded = function(slot0)
 	setParent(slot0._tf, slot0._parentTf)
-	slot0._tf:SetSiblingIndex(5)
+	slot0._tf:SetSiblingIndex(4)
 end
 
 slot0.OnInit = function(slot0)
