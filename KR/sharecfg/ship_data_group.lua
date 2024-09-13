@@ -25130,7 +25130,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"이벤트: 저편에 묻혀진 꽃",
+				"한정 이벤트: 부흥의 찬송가",
 				{
 					""
 				},
@@ -25205,7 +25205,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"이벤트: 저편에 묻혀진 꽃",
+				"한정 이벤트: 부흥의 찬송가",
 				{
 					""
 				},
@@ -25248,7 +25248,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"이벤트: 저편에 묻혀진 꽃",
+				"한정 이벤트: 부흥의 찬송가",
 				{
 					""
 				},
@@ -25430,7 +25430,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"이벤트: 저편에 묻혀진 꽃",
+				"한정 이벤트: 부흥의 찬송가",
 				{
 					""
 				},
@@ -25729,7 +25729,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"이벤트: 저편에 묻혀진 꽃",
+				"한정 이벤트: 부흥의 찬송가",
 				{
 					""
 				},
@@ -25964,7 +25964,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"이벤트: 저편에 묻혀진 꽃",
+				"한정 이벤트: 부흥의 찬송가",
 				{
 					""
 				},
@@ -26039,7 +26039,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"이벤트: 저편에 묻혀진 꽃",
+				"한정 이벤트: 부흥의 찬송가",
 				{
 					""
 				},
