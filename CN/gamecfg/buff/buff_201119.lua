@@ -17,7 +17,7 @@ return {
 				"onStack"
 			},
 			arg_list = {
-				maxHPRatio = -0.05
+				maxHPRatio = -0.07
 			}
 		}
 	}
