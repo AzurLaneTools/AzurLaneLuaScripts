@@ -63,6 +63,7 @@ slot0.UpdateView = function(slot0)
 
 	setActive(slot0:findTF("dreamland", slot0.dreamlandBtn), slot0.isFinishPre)
 	setActive(slot0:findTF("pre_act", slot0.dreamlandBtn), not slot0.isFinishPre)
+	setActive(slot0:findTF("pre_act/tip", slot0.dreamlandBtn), uv0.ActivityTip(getProxy(ActivityProxy):getActivityById(slot0.preActId)))
 end
 
 slot0.MiniGameTip = function()
@@ -71,6 +72,20 @@ end
 
 slot0.DreamlandTip = function()
 	return DreamlandData.New(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_DREAMLAND), getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_HOTSPRING_2)):ExistAnyMapOrExploreAward()
+end
+
+slot0.ActivityTip = function(slot0)
+	if not slot0 or slot0:isEnd() then
+		return false
+	end
+
+	slot7 = math.min(slot0:getDayIndex(), #slot2) - slot3
+
+	if (getProxy(TaskProxy):getTaskById(underscore.flatten(slot0:getConfig("config_data"))[slot0.data3]) or slot1:getFinishTaskById(slot4)):getTaskStatus() == 1 then
+		slot7 = slot7 + 1
+	end
+
+	return slot7 > 0
 end
 
 slot0.IsShowMainTip = function(slot0)

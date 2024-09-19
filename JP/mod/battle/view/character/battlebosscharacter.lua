@@ -87,9 +87,8 @@ slot2.SetTemplateInfo = function(slot0)
 		slot2 = slot1.name
 	end
 
-	changeToScrollText(slot0._HPBarTf:Find("BossName"), slot2)
-
-	slot0._HPBarTf:Find("BossLv"):GetComponent(typeof(Text)).text = "Lv." .. slot0._unitData:GetLevel()
+	slot0._HPBarTf:Find("BossNameBG/BossName"):GetComponent(typeof(Text)).text = slot2
+	slot0._HPBarTf:Find("BossNameBG/BossLv"):GetComponent(typeof(Text)).text = "Lv." .. slot0._unitData:GetLevel()
 
 	setImageSprite(slot0._HPBarTf:Find("BossIcon/typeIcon/icon"), GetSpriteFromAtlas("shiptype", shipType2Battleprint(pg.enemy_data_by_type[slot1.type].type)), true)
 	setImageSprite(findTF(slot0._HPBarTf, "BossIcon/icon"), uv0.Battle.BattleResourceManager.GetInstance():GetCharacterSquareIcon(slot0._bossIcon))

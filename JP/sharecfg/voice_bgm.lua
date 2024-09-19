@@ -1604,5 +1604,10 @@ pg.voice_bgm = {
 		default_bgm = "story-musicanniversary-gorgeous",
 		special_bgm = "",
 		bgm = "story-musicanniversary-gorgeous"
+	},
+	TianlangxingEmojiPage = {
+		default_bgm = "story-fantasyland-light",
+		special_bgm = "",
+		bgm = "story-fantasyland-light"
 	}
 }

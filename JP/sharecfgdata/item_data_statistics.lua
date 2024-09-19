@@ -103117,6 +103117,73 @@ _G.pg.base.item_data_statistics[81206] = {
 }
 
 
+_G.pg.base.item_data_statistics[81207] = {
+	open_directly = 1,
+	name = "七周年福袋② ",
+	type = 17,
+	display = "ランダムな（ランダム7周年衣装Ⅱの）着せ替え衣装、上級指向型強化ユニット・七期目×2、ダイヤ×2024、メンタルユニット×50、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai16",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998307",
+	id = 81207,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86207,
+			1
+		},
+		{
+			1,
+			14,
+			2024
+		},
+		{
+			2,
+			42066,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[99981] = {
 	open_directly = 0,
 	name = "装備外装箱(春節2022)",

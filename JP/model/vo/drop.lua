@@ -464,6 +464,9 @@ slot0.InitSwitch = function()
 
 			return slot0
 		end,
+		[DROP_TYPE_EMOJI] = function (slot0)
+			return nil, slot0
+		end,
 		[DROP_TYPE_VITEM] = function (slot0, slot1, slot2)
 			assert(slot0:getConfig("type") == 0, "item type error:must be virtual type from " .. slot0.id)
 

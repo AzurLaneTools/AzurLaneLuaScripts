@@ -336,7 +336,9 @@ slot0.changeSpecialIdle = function(slot0, slot1)
 end
 
 slot0.SetAction = function(slot0, slot1, slot2, slot3)
-	if slot0:getMultipFaceFlag() then
+	slot4, slot5 = slot0:getMultipFaceFlag()
+
+	if slot4 then
 		slot1 = slot0:getMultipFaceAction(slot1, slot2)
 	end
 
@@ -352,8 +354,8 @@ slot0.SetAction = function(slot0, slot1, slot2, slot3)
 		slot1 = slot0.idleName
 	end
 
-	for slot7, slot8 in ipairs(slot0.spineAnimList) do
-		slot8:SetAction(slot1, slot2)
+	for slot9, slot10 in ipairs(slot0.spineAnimList) do
+		slot10:SetAction(slot1, slot2)
 	end
 end
 
@@ -389,21 +391,30 @@ slot0.SetEmptyAction = function(slot0, slot1)
 end
 
 slot0.getMultipFaceFlag = function(slot0)
+	slot1 = false
+	slot2 = 0
+
 	if slot0.shipDragData and slot0.shipDragData.multiple_face then
-		return table.contains(slot0.shipDragData.multiple_face, slot0.mainSpineAnim.name)
+		slot1 = table.contains(slot0.shipDragData.multiple_face, slot0.mainSpineAnim.name)
 	end
 
-	return false
+	if slot0.shipDragData and slot0.shipDragData.multiple_count then
+		slot2 = slot0.shipDragData.multiple_count
+	end
+
+	return slot1, slot2
 end
 
 slot0.getMultipFaceAction = function(slot0, slot1, slot2)
-	if slot0:getMultipFaceFlag() and slot0.idleName == "ex" and slot2 == 1 then
+	slot3, slot4 = slot0:getMultipFaceFlag()
+
+	if slot3 and slot0.idleName == "ex" and slot2 == 1 then
 		if slot0.inAction then
 			return nil
 		end
 
 		if tonumber(slot1) then
-			slot1 = tostring(slot3 + 5)
+			slot1 = tostring(slot5 + slot4)
 		end
 	end
 

@@ -168350,6 +168350,31 @@ _G.pg.base.item_virtual_data_statistics[65020] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65024] = {
+	drop_gold_max = 0,
+	name = "スタンプシリーズ「シリアスの多彩多様」",
+	display = "入手するとチャットスタンプ「シリアスの多彩多様」（全6種類）を開放できます。\n チャットの「スタンプ-デフォルト」で使\n用することができます",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/65024",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65024,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[69000] = {
 	drop_gold_max = 0,
 	name = "伤害值",
@@ -174794,6 +174819,64 @@ _G.pg.base.item_virtual_data_statistics[86206] = {
 		},
 		{
 			202085,
+			1270
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86207] = {
+	drop_gold_max = 0,
+	name = "ランダム7周年衣装Ⅱ",
+	display = "不会被看到",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86207,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			305102,
+			1200
+		},
+		{
+			202204,
+			1200
+		},
+		{
+			103245,
+			1200
+		},
+		{
+			319014,
+			1200
+		},
+		{
+			202102,
+			1200
+		},
+		{
+			499072,
+			1430
+		},
+		{
+			306063,
+			1300
+		},
+		{
+			519012,
 			1270
 		}
 	}

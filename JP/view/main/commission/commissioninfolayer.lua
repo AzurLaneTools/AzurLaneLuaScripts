@@ -214,7 +214,7 @@ slot0.OnPlayerUpdate = function(slot0, slot1)
 	end
 
 	if slot3.goldField ~= slot2.goldField then
-		slot0:UpdateOilRes(slot3)
+		slot0:UpdateGoldRes(slot3)
 	end
 
 	if slot3.expField ~= slot2.expField then

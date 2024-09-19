@@ -11,6 +11,7 @@ slot0.OnInit = function(slot0)
 	slot0.lock = slot0:findTF("lock", slot0.signTF)
 	slot0.countText = slot0:findTF("count", slot0.signBtn)
 	slot0.signRed = slot0:findTF("tip", slot0.signBtn)
+	slot0.dreamRed = slot0:findTF("tip", slot0.goBtn)
 end
 
 slot0.OnDataSetting = function(slot0)
@@ -93,6 +94,7 @@ slot0.OnUpdateFlush = function(slot0)
 	setActive(slot0.goBtn, slot3)
 	setActive(slot0.lock, slot3 and slot0:IsLock())
 	setActive(slot0.signRed, slot0.remainCnt > 0)
+	setActive(slot0.dreamRed, DreamlandFullPreviewScene.DreamlandTip())
 	setText(slot0.countText, i18n("liner_sign_cnt_tip") .. slot0.remainCnt)
 	slot0.uilist:align(#slot0.taskGroup)
 end

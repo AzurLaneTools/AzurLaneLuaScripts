@@ -118,7 +118,7 @@ pg.activity_ins_ship_group_template = {
 	[20220] = {
 		ship_group = 20220,
 		name = "forMaster_Sirius",
-		sculpture = "tianlangxing"
+		sculpture = "tianlangxing_5"
 	},
 	[20211] = {
 		ship_group = 20211,
@@ -1078,7 +1078,7 @@ pg.activity_ins_ship_group_template = {
 	[30606] = {
 		ship_group = 30606,
 		name = "Ryūjō",
-		sculpture = "longxiang"
+		sculpture = "longxiang_4"
 	},
 	[40128] = {
 		ship_group = 40128,
@@ -1198,7 +1198,7 @@ pg.activity_ins_ship_group_template = {
 	[31901] = {
 		ship_group = 31901,
 		name = "Kashino",
-		sculpture = "jianye"
+		sculpture = "jianye_5"
 	},
 	[60303] = {
 		ship_group = 60303,
@@ -1848,7 +1848,7 @@ pg.activity_ins_ship_group_template = {
 	[30510] = {
 		ship_group = 30510,
 		name = "Musashi",
-		sculpture = "wuzang"
+		sculpture = "wuzang_3"
 	},
 	[30187] = {
 		ship_group = 30187,
