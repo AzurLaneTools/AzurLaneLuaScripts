@@ -732,7 +732,7 @@ pg.mini_game_hub = {
 		signet_reward = {}
 	},
 	{
-		reward = 903194,
+		reward = 0,
 		reward_need = 7,
 		reborn_times = 1,
 		reward_target = 0,

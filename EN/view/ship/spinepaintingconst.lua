@@ -12,7 +12,17 @@ slot0.ship_drag_datas = {
 			}
 		}
 	},
+	jianye_5 = {
+		multiple_face = {},
+		drag_data = {
+			type = 1,
+			name = {
+				"jianye_5"
+			}
+		}
+	},
 	aimudeng_4 = {
+		multiple_count = 5,
 		multiple_face = {
 			"aimudeng_4",
 			"aimudeng_4M"

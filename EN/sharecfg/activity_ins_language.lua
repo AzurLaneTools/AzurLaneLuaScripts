@@ -5600,7 +5600,68 @@ pg.activity_ins_language = setmetatable({
 		"ins_op_499_1_1",
 		"op_reply_499_1_1",
 		"ins_op_499_1_2",
-		"op_reply_499_1_2"
+		"op_reply_499_1_2",
+		"ins_500",
+		"ins_discuss_500_1",
+		"ins_reply_500_1_1",
+		"ins_reply_500_1_2",
+		"ins_reply_500_1_3",
+		"ins_reply_500_1_4",
+		"ins_discuss_500_2",
+		"ins_reply_500_2_1",
+		"ins_reply_500_2_2",
+		"ins_reply_500_2_3",
+		"ins_op_500_1_1",
+		"op_reply_500_1_1",
+		"ins_op_500_1_2",
+		"op_reply_500_1_2",
+		"ins_501",
+		"ins_discuss_501_1",
+		"ins_reply_501_1_1",
+		"ins_reply_501_1_2",
+		"ins_reply_501_1_3",
+		"ins_reply_501_1_4",
+		"ins_reply_501_1_5",
+		"ins_discuss_501_2",
+		"ins_reply_501_2_1",
+		"ins_reply_501_2_2",
+		"ins_discuss_501_3",
+		"ins_reply_501_3_1",
+		"ins_reply_501_3_2",
+		"ins_op_501_1_1",
+		"op_reply_501_1_1",
+		"ins_op_501_1_2",
+		"op_reply_501_1_2",
+		"ins_502",
+		"ins_discuss_502_1",
+		"ins_reply_502_1_1",
+		"ins_reply_502_1_2",
+		"ins_reply_502_1_3",
+		"ins_discuss_502_2",
+		"ins_reply_502_2_1",
+		"ins_reply_502_2_2",
+		"ins_reply_502_2_3",
+		"ins_reply_502_2_4",
+		"ins_op_502_1_1",
+		"op_reply_502_1_1",
+		"ins_op_502_1_2",
+		"op_reply_502_1_2",
+		"ins_503",
+		"ins_discuss_503_1",
+		"ins_reply_503_1_1",
+		"ins_reply_503_1_2",
+		"ins_reply_503_1_3",
+		"ins_reply_503_1_4",
+		"ins_reply_503_1_5",
+		"ins_discuss_503_2",
+		"ins_reply_503_2_1",
+		"ins_reply_503_2_2",
+		"ins_reply_503_2_3",
+		"ins_reply_503_2_4",
+		"ins_op_503_1_1",
+		"op_reply_503_1_1",
+		"ins_op_503_1_2",
+		"op_reply_503_1_2"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -22004,52 +22065,52 @@ pg.base.activity_ins_language = {
 		value = "I wish! I'll try at least."
 	},
 	ins_491 = {
-		value = ""
+		value = "I like to draw when mr sun is shining bright so look at these birdies ( ๑╹ ꇴ╹)"
 	},
 	ins_discuss_491_1 = {
-		value = ""
+		value = "I draw stuff too! Master hai tien taught me how to draw a bird!"
 	},
 	ins_reply_491_1_1 = {
-		value = ""
+		value = "That was supposed to be a bird? Sheesh she's got her work cut out for her..."
 	},
 	ins_reply_491_1_2 = {
-		value = ""
+		value = "I wanna draw too with friends!"
 	},
 	ins_reply_491_1_3 = {
-		value = ""
+		value = "I'll bring a canvas so we can draw outdoors!"
 	},
 	ins_reply_491_1_4 = {
-		value = ""
+		value = "Okie dokie just be quick while mr sun is still out!"
 	},
 	ins_discuss_491_2 = {
-		value = ""
+		value = "That scenery is beautiful. Where are you? I'd like to see it in person."
 	},
 	ins_reply_491_2_1 = {
-		value = ""
+		value = "Ummmm... it's so sunny I don't really know where I am..."
 	},
 	ins_reply_491_2_2 = {
-		value = ""
+		value = "Aw, that's unfortunate. I'm not quite sure where I am, either."
 	},
 	ins_reply_491_2_3 = {
-		value = ""
+		value = "Both of you stay where you are. I'll come get you."
 	},
 	ins_discuss_491_3 = {
-		value = ""
+		value = "Oh lawd are those dango? Now I'm hungry! Especially for some of them delicious meals you make."
 	},
 	ins_reply_491_3_1 = {
-		value = ""
+		value = "Okay we'll eat dinner together when mr sun sets!"
 	},
 	ins_op_491_1_1 = {
-		value = ""
+		value = "What adorable little birdies."
 	},
 	op_reply_491_1_1 = {
-		value = ""
+		value = "Hehe thanks! You can have my drawing!"
 	},
 	ins_op_491_1_2 = {
-		value = ""
+		value = "I'll go to where you are, so just stay there."
 	},
 	op_reply_491_1_2 = {
-		value = ""
+		value = "Okay! I've got pencils for you so we can draw together!"
 	},
 	ins_492 = {
 		value = ""
@@ -22400,6 +22461,189 @@ pg.base.activity_ins_language = {
 		value = ""
 	},
 	op_reply_499_1_2 = {
+		value = ""
+	},
+	ins_500 = {
+		value = ""
+	},
+	ins_discuss_500_1 = {
+		value = ""
+	},
+	ins_reply_500_1_1 = {
+		value = ""
+	},
+	ins_reply_500_1_2 = {
+		value = ""
+	},
+	ins_reply_500_1_3 = {
+		value = ""
+	},
+	ins_reply_500_1_4 = {
+		value = ""
+	},
+	ins_discuss_500_2 = {
+		value = ""
+	},
+	ins_reply_500_2_1 = {
+		value = ""
+	},
+	ins_reply_500_2_2 = {
+		value = ""
+	},
+	ins_reply_500_2_3 = {
+		value = ""
+	},
+	ins_op_500_1_1 = {
+		value = ""
+	},
+	op_reply_500_1_1 = {
+		value = ""
+	},
+	ins_op_500_1_2 = {
+		value = ""
+	},
+	op_reply_500_1_2 = {
+		value = ""
+	},
+	ins_501 = {
+		value = ""
+	},
+	ins_discuss_501_1 = {
+		value = ""
+	},
+	ins_reply_501_1_1 = {
+		value = ""
+	},
+	ins_reply_501_1_2 = {
+		value = ""
+	},
+	ins_reply_501_1_3 = {
+		value = ""
+	},
+	ins_reply_501_1_4 = {
+		value = ""
+	},
+	ins_reply_501_1_5 = {
+		value = ""
+	},
+	ins_discuss_501_2 = {
+		value = ""
+	},
+	ins_reply_501_2_1 = {
+		value = ""
+	},
+	ins_reply_501_2_2 = {
+		value = ""
+	},
+	ins_discuss_501_3 = {
+		value = ""
+	},
+	ins_reply_501_3_1 = {
+		value = ""
+	},
+	ins_reply_501_3_2 = {
+		value = ""
+	},
+	ins_op_501_1_1 = {
+		value = ""
+	},
+	op_reply_501_1_1 = {
+		value = ""
+	},
+	ins_op_501_1_2 = {
+		value = ""
+	},
+	op_reply_501_1_2 = {
+		value = ""
+	},
+	ins_502 = {
+		value = ""
+	},
+	ins_discuss_502_1 = {
+		value = ""
+	},
+	ins_reply_502_1_1 = {
+		value = ""
+	},
+	ins_reply_502_1_2 = {
+		value = ""
+	},
+	ins_reply_502_1_3 = {
+		value = ""
+	},
+	ins_discuss_502_2 = {
+		value = ""
+	},
+	ins_reply_502_2_1 = {
+		value = ""
+	},
+	ins_reply_502_2_2 = {
+		value = ""
+	},
+	ins_reply_502_2_3 = {
+		value = ""
+	},
+	ins_reply_502_2_4 = {
+		value = ""
+	},
+	ins_op_502_1_1 = {
+		value = ""
+	},
+	op_reply_502_1_1 = {
+		value = ""
+	},
+	ins_op_502_1_2 = {
+		value = ""
+	},
+	op_reply_502_1_2 = {
+		value = ""
+	},
+	ins_503 = {
+		value = ""
+	},
+	ins_discuss_503_1 = {
+		value = ""
+	},
+	ins_reply_503_1_1 = {
+		value = ""
+	},
+	ins_reply_503_1_2 = {
+		value = ""
+	},
+	ins_reply_503_1_3 = {
+		value = ""
+	},
+	ins_reply_503_1_4 = {
+		value = ""
+	},
+	ins_reply_503_1_5 = {
+		value = ""
+	},
+	ins_discuss_503_2 = {
+		value = ""
+	},
+	ins_reply_503_2_1 = {
+		value = ""
+	},
+	ins_reply_503_2_2 = {
+		value = ""
+	},
+	ins_reply_503_2_3 = {
+		value = ""
+	},
+	ins_reply_503_2_4 = {
+		value = ""
+	},
+	ins_op_503_1_1 = {
+		value = ""
+	},
+	op_reply_503_1_1 = {
+		value = ""
+	},
+	ins_op_503_1_2 = {
+		value = ""
+	},
+	op_reply_503_1_2 = {
 		value = ""
 	}
 }

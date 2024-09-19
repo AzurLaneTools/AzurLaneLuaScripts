@@ -200,6 +200,7 @@ pg.memory_group = setmetatable({
 		300,
 		301,
 		302,
+		303,
 		501,
 		502,
 		503,
@@ -299,6 +300,7 @@ pg.memory_group = setmetatable({
 		599,
 		600,
 		601,
+		602,
 		1000,
 		1001,
 		1002
@@ -4799,6 +4801,17 @@ pg.base.memory_group = {
 			3907
 		}
 	},
+	[303] = {
+		title = "Dancing Her Heart Out",
+		subtype = 3,
+		link_event = 5581,
+		type = 2,
+		id = 303,
+		icon = "title_event",
+		memories = {
+			3908
+		}
+	},
 	[501] = {
 		title = "{namecode:98}'s Commission",
 		subtype = 0,
@@ -6493,6 +6506,23 @@ pg.base.memory_group = {
 			3725,
 			3726,
 			3727
+		}
+	},
+	[602] = {
+		title = "A Study in Takao",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 602,
+		icon = "title_chara_gaoxiong",
+		memories = {
+			3911,
+			3912,
+			3913,
+			3914,
+			3915,
+			3916,
+			3917
 		}
 	},
 	[1000] = {

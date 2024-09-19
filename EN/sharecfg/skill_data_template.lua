@@ -99088,7 +99088,7 @@ When this ship fires her Main Guns, the following effects activate:
 		name = "Waves of Bitter Cold",
 		type = 1,
 		max_level = 10,
-		desc = "15s after the battle starts, and every 20s after that: fires a $1 special barrage (DMG is based on the skill's level). Enemies hit by this barrage take $2 increased torpedo DMG from this ship for 8s. When this ship's torpedoes hit an enemy: decreases that",
+		desc = "15s after the battle starts, and every 20s after that: fires a $1 special barrage (DMG is based on the skill's level). Enemies hit by this barrage take $2 increased torpedo DMG from this ship for 8s. When this ship's torpedoes hit an enemy: decreases that enemy's SPD by $3 for 5s.",
 		id = 150510,
 		system_transform = {},
 		world_death_mark = {

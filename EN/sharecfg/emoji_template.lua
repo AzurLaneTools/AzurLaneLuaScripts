@@ -975,6 +975,84 @@ pg.emoji_template = {
 			3
 		}
 	},
+	[241] = {
+		achieve = 1,
+		index = 77,
+		pic = "241",
+		desc = "<color=#92fc63>[Time for Elevenses]</color>",
+		item_name = "Sticker: Time for Elevenses",
+		item_desc = "Sticker: Time for Elevenses. This sticker can be found in the default tab of the chat stickers menu.",
+		id = 241,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	[242] = {
+		achieve = 1,
+		index = 78,
+		pic = "242",
+		desc = "<color=#92fc63>[Dazzling Entrance]</color>",
+		item_name = "Sticker: Dazzling Entrance",
+		item_desc = "Sticker: Dazzling Entrance. This sticker can be found in the default tab of the chat stickers menu.",
+		id = 242,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	[243] = {
+		achieve = 1,
+		index = 79,
+		pic = "243",
+		desc = "<color=#92fc63>[What to Eat?]</color>",
+		item_name = "Sticker: What to Eat?",
+		item_desc = "Sticker: What to Eat? This sticker can be found in the default tab of the chat stickers menu.",
+		id = 243,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	[244] = {
+		achieve = 1,
+		index = 80,
+		pic = "244",
+		desc = "<color=#92fc63>[Let Me Take a Look]</color>",
+		item_name = "Sticker: Let Me Take a Look",
+		item_desc = "Sticker: Let Me Take a Look. This sticker can be found in the default tab of the chat stickers menu.",
+		id = 244,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	[245] = {
+		achieve = 1,
+		index = 81,
+		pic = "245",
+		desc = "<color=#92fc63>[Butter My Biscuit]</color>",
+		item_name = "Sticker: Butter My Biscuit",
+		item_desc = "Sticker: Butter My Biscuit. This sticker can be found in the default tab of the chat stickers menu.",
+		id = 245,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	[246] = {
+		achieve = 1,
+		index = 82,
+		pic = "246",
+		desc = "<color=#92fc63>[Well-Behaved]</color>",
+		item_name = "Sticker: Well-Behaved",
+		item_desc = "Sticker: Well-Behaved. This sticker can be found in the default tab of the chat stickers menu.",
+		id = 246,
+		icon = "",
+		type = {
+			1
+		}
+	},
 	[301] = {
 		achieve = 0,
 		index = 970,
@@ -1675,6 +1753,12 @@ pg.emoji_template = {
 		112,
 		113,
 		114,
+		241,
+		242,
+		243,
+		244,
+		245,
+		246,
 		301,
 		302,
 		303,

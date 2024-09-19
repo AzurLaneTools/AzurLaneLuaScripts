@@ -53,13 +53,16 @@ slot0.Load = function(slot0)
 	end
 
 	slot0._state = uv0.STATES.LOADING
+	slot1 = pg.UIMgr.GetInstance()
 
-	pg.UIMgr.GetInstance():LoadingOn()
-	PoolMgr.GetInstance():GetUI(slot0:getUIName(), false, function (slot0)
-		uv0 = slot0
+	slot1:LoadingOn()
+
+	slot1 = PoolMgr.GetInstance()
+
+	slot1:GetUI(slot0:getUIName(), true, function (slot0)
+		uv0:Loaded(slot0)
+		uv0:Init()
 	end)
-	slot0:Loaded(nil)
-	slot0:Init()
 end
 
 slot0.isfrozen = function(slot0)

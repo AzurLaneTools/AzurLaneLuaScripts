@@ -166119,6 +166119,31 @@ _G.pg.base.item_virtual_data_statistics[65020] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65024] = {
+	drop_gold_max = 0,
+	name = "Joyous Moments with Sirius",
+	display = "This item will automatically be applied when obtained. Upon use, you will obtain all 6 pieces of \"Joyous Moments with Sirius\" chat sticker pack.\nYou can find these stickers in the default tab of the chat stickers menu.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/65024",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65024,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[69000] = {
 	drop_gold_max = 0,
 	name = "Damage Rating ",
@@ -173757,6 +173782,64 @@ _G.pg.base.item_virtual_data_statistics[86206] = {
 		},
 		{
 			202085,
+			1270
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86207] = {
+	drop_gold_max = 0,
+	name = "Random Dreamland Skin B",
+	display = "不会被看到",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86207,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			305102,
+			1200
+		},
+		{
+			202204,
+			1200
+		},
+		{
+			103245,
+			1200
+		},
+		{
+			319014,
+			1200
+		},
+		{
+			202102,
+			1200
+		},
+		{
+			499072,
+			1430
+		},
+		{
+			306063,
+			1300
+		},
+		{
+			519012,
 			1270
 		}
 	}

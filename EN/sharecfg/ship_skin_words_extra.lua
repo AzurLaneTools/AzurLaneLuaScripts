@@ -289,7 +289,8 @@ pg.ship_skin_words_extra = setmetatable({
 		307150,
 		302250,
 		302260,
-		301910
+		301910,
+		304050
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -20320,6 +20321,59 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"I can't go back to my old ways... I can't be away from your warmth, and I can't suppress this urge of always wanting to be with you. I'm very selfish, aren't I?"
+			}
+		}
+	},
+	[304050] = {
+		touch = "",
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		mission = "",
+		id = 304050,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Commander, I've prepared today's operational itinerary. Please take a look, heehee~"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Commander, please enjoy these snacks that Houshou brought over. Heehee, don't you think they're... a bit too cute?|Plan carefully before taking action, and know what your limits are. I do wonder, Commander—what sort of decisions will you ultimately make?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Commander, if you do this, my body will..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"When I see your face, it feels as if even illness cannot knock me down. *cough* *cough*... Heh... Heehee~ For your sake, Commander, I will do everything in my power to live on."
+			}
+		},
+		hp_warning = {
+			{
+				1100,
+				"Commander... is still waiting for news of our victory!"
 			}
 		}
 	}

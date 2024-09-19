@@ -68,10 +68,12 @@ slot0.execute = function(slot0, slot1)
 			data = slot2
 		}),
 		callback = function ()
-			pg.proxyRegister:Stop()
-			pg.proxyRegister:RemoveProxy(uv0.facade)
+			if pg.proxyRegister then
+				pg.proxyRegister:Stop()
+				pg.proxyRegister:RemoveProxy(uv0.facade)
 
-			pg.proxyRegister = nil
+				pg.proxyRegister = nil
+			end
 
 			uv0.facade:removeCommand(GAME.LOAD_SCENE_DONE)
 		end
