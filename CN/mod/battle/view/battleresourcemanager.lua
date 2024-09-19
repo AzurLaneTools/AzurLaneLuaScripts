@@ -830,8 +830,10 @@ slot5.GetEnemyResource = function(slot0)
 			if slot6.arg_list.skill_id then
 				if uv0.Battle.BattleDataFunction.GetSkillTemplate(slot7).painting == 1 then
 					uv1[#uv1 + 1] = uv2.GetHrzIcon(uv3.icon)
+					uv1[#uv1 + 1] = uv2.GetSquareIcon(uv3.icon)
 				elseif type(slot9) == "string" then
 					uv1[#uv1 + 1] = uv2.GetHrzIcon(slot9)
+					uv1[#uv1 + 1] = uv2.GetSquareIcon(slot9)
 				end
 			end
 
