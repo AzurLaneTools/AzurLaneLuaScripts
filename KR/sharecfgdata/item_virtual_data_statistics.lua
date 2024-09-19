@@ -167465,6 +167465,31 @@ _G.pg.base.item_virtual_data_statistics[60485] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[60486] = {
+	drop_gold_max = 0,
+	name = "乐园改造方案",
+	display = "用于「乐园的起始符」活动中的进度记录",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/60486",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 99,
+	id = 60486,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65001] = {
 	drop_gold_max = 0,
 	name = "通行证十八期对应虚拟道具",
@@ -167707,6 +167732,31 @@ _G.pg.base.item_virtual_data_statistics[65015] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 65015,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65016] = {
+	drop_gold_max = 0,
+	name = "训练点数",
+	display = "用于头像框活动兑换，活动结束后将会消失",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_20240905",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65016,
 	display_icon = {},
 	price = {},
 	index = {},

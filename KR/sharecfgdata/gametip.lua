@@ -34221,3 +34221,18 @@ _G.pg.base.gametip.town_gold_tip = {
 _G.pg.base.gametip.award_max_warning_minigame = {
 	tip = "보상 획득 시 <color=#ff5c5c>최대 소지 한도를 초과한</color> 보상 아이템은 파기됩니다. 계속하시겠습니까?"
 }
+
+
+_G.pg.base.gametip.report_cannot_comment_level_1 = {
+	tip = "指挥官等级达到$1级后，才可以发送评论哦。 "
+}
+
+
+_G.pg.base.gametip.report_cannot_comment_level_2 = {
+	tip = "当前处于评论受限状态，无法发送评论！"
+}
+
+
+_G.pg.base.gametip.commander_exp_limit = {
+	tip = "该指挥喵已达最大等级，无法添加指挥喵"
+}

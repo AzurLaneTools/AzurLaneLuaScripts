@@ -211,7 +211,7 @@ end
 slot0.UpdateCommanderTF = function(slot0, slot1)
 	slot2, slot3 = slot0:SimulateAddCommanderExp(slot1)
 
-	slot0:emit(CommanderCatScene.EVENT_PREVIEW, slot2)
+	slot0:emit(CommanderCatScene.EVENT_PREVIEW_REVERSE, slot3, slot2)
 
 	slot0.commanderLvTxt.text = "LV." .. slot3.level
 

@@ -23,7 +23,10 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.ShowSingleItemBox = function(slot0, slot1)
-	updateDrop(slot0._tf:Find("Window/Icon"), slot1.drop)
+	slot2 = slot0._tf:Find("Window/Icon")
+
+	updateDrop(slot2, slot1.drop)
+	GetImageSpriteFromAtlasAsync("weaponframes", "dorm3d_" .. ItemRarity.Rarity2Print(slot1.drop:getConfig("rarity")), slot2)
 	setText(slot0._tf:Find("Window/Name"), slot1.name or slot1.drop.cfg.name or "")
 	setText(slot0._tf:Find("Window/Count"), i18n("child_msg_owned", setColorStr(slot1.drop.count, "#39bfff")))
 	setText(slot0._tf:Find("Window/Content"), slot1.drop.cfg.desc)

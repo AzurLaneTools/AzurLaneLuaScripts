@@ -139,6 +139,10 @@ slot1.CheckFModeEvent = function(slot0, slot1, slot2, slot3)
 		uv0 = "educate-" .. slot0
 		uv1 = slot1
 	end)
+	string.gsub(slot1, "event:/dorm/(.+)/(.+)", function (slot0, slot1)
+		uv0 = slot0
+		uv1 = slot1
+	end)
 
 	if string.find(slot1, "event:/educate%-cv/") then
 		slot6 = string.split(slot1, "/")

@@ -25675,5 +25675,20 @@ cs.gametip = {
 		1050993,
 		229,
 		true
+	},
+	report_cannot_comment_level_1 = {
+		1051222,
+		154,
+		true
+	},
+	report_cannot_comment_level_2 = {
+		1051376,
+		148,
+		true
+	},
+	commander_exp_limit = {
+		1051524,
+		138,
+		true
 	}
 }

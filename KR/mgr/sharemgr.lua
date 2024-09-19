@@ -22,6 +22,7 @@ slot1.TypeValentineQte = 17
 slot1.TypeBossRushEX = 18
 slot1.TypeTWCelebrationShare = 5000
 slot1.TypeCardTower = 17
+slot1.TypeDorm3dPhoto = 19
 slot1.PANEL_TYPE_BLACK = 1
 slot1.PANEL_TYPE_PINK = 2
 slot1.ANCHORS_TYPE = {
@@ -64,6 +65,9 @@ slot1.Init = function(slot0)
 		uv0.go:SetActive(false)
 
 		uv0.tr = slot0.transform
+
+		setParent(uv0.tr, uv1.UIMgr.GetInstance().OverlayMain.transform, false)
+
 		uv0.panelBlack = uv0.tr:Find("panel")
 		uv0.panelPink = uv0.tr:Find("panel_pink")
 		uv0.deckTF = uv0.tr:Find("deck")
@@ -74,15 +78,33 @@ slot1.Init = function(slot0)
 		uv0.logo = uv0.tr:Find("deck/logo")
 
 		GetComponent(uv0.logo, "Image"):SetNativeSize()
+		uv1.DelegateInfo.New(uv0)
 	end)
 
-	slot0.screenshot = Application.persistentDataPath .. "/screen_scratch/last_picture_for_share.jpg"
+	slot0.screenshotPath = Application.persistentDataPath .. "/screen_scratch/last_picture_for_share.jpg"
 	slot0.cacheComps = {}
 	slot0.cacheShowComps = {}
 	slot0.cacheMoveComps = {}
 end
 
-slot1.Share = function(slot0, slot1, slot2, slot3)
+slot1.UpdateDeck = function(slot0, slot1)
+	slot2 = getProxy(PlayerProxy):getRawData()
+	slot4 = getProxy(ServerProxy):getRawData()[getProxy(UserProxy):getRawData() and slot3.server or 0]
+
+	setText(slot1:Find("name/value"), slot2 and slot2.name or "")
+	setText(slot1:Find("server/value"), slot4 and slot4.name or "")
+	setText(slot1:Find("lv/value"), slot2.level)
+
+	if PLATFORM_CODE == PLATFORM_CHT or PLATFORM_CODE == PLATFORM_CH then
+		setActive(slot1:Find("code_bg"), true)
+	else
+		setActive(slot1:Find("code_bg"), false)
+	end
+end
+
+slot1.Share = function(slot0, slot1, slot2, slot3, slot4)
+	slot0.noBlur = slot4
+
 	if PLATFORM_CODE == PLATFORM_CHT and not CheckPermissionGranted(ANDROID_WRITE_EXTERNAL_PERMISSION) then
 		uv0.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n1("指揮官，碧藍航線需要存儲權限才能分享是否打開？"),
@@ -96,66 +118,46 @@ slot1.Share = function(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	slot4 = LuaHelper.GetCHPackageType()
+	slot5 = LuaHelper.GetCHPackageType()
 
-	if not IsUnityEditor and PLATFORM_CODE == PLATFORM_CH and slot4 ~= PACKAGE_TYPE_BILI then
+	if not IsUnityEditor and PLATFORM_CODE == PLATFORM_CH and slot5 ~= PACKAGE_TYPE_BILI then
 		uv0.TipsMgr.GetInstance():ShowTips("指挥官，当前平台不支持分享功能哦")
 
 		return
 	end
 
-	if IsNil(slot0.go) then
-		slot0:Init()
-	end
+	slot0:Init()
 
-	if (slot2 or uv1.PANEL_TYPE_BLACK) == uv1.PANEL_TYPE_BLACK then
-		slot0.panel = slot0.panelBlack
-	elseif slot2 == uv1.PANEL_TYPE_PINK then
-		slot0.panel = slot0.panelPink
-	end
+	slot6 = uv0.share_template[slot1]
 
-	setActive(slot0.panelBlack, slot2 == uv1.PANEL_TYPE_BLACK)
-	setActive(slot0.panelPink, slot2 == uv1.PANEL_TYPE_PINK)
-	assert(uv0.share_template[slot1], "share_template not exist: " .. slot1)
+	assert(slot6, "share_template not exist: " .. slot1)
 
-	slot6 = getProxy(PlayerProxy):getRawData()
-	slot8 = getProxy(ServerProxy):getRawData()[getProxy(UserProxy):getRawData() and slot7.server or 0]
-	slot11 = slot0.deckTF
-	slot12 = slot0.ANCHORS_TYPE[slot5.deck] or {
+	slot7 = slot0.deckTF
+	slot8 = slot0.ANCHORS_TYPE[slot6.deck] or {
 		0.5,
 		0.5,
 		0.5,
 		0.5
 	}
-	slot11.anchorMin = Vector2(slot12[1], slot12[2])
-	slot11.anchorMax = Vector2(slot12[3], slot12[4])
+	slot7.anchorMin = Vector2(slot8[1], slot8[2])
+	slot7.anchorMax = Vector2(slot8[3], slot8[4])
+	slot7.anchoredPosition3D = Vector3(slot6.qrcode_location[1], slot6.qrcode_location[2], -100)
+	slot7.anchoredPosition = Vector2(slot6.qrcode_location[1], slot6.qrcode_location[2])
 
-	setText(slot11:Find("name/value"), slot6 and slot6.name or "")
-	setText(slot11:Find("server/value"), slot8 and slot8.name or "")
-	setText(slot11:Find("lv/value"), slot6.level)
-
-	if PLATFORM_CODE == PLATFORM_CHT or PLATFORM_CODE == PLATFORM_CH then
-		setActive(slot11:Find("code_bg"), true)
-	else
-		setActive(slot11:Find("code_bg"), false)
-	end
-
-	slot11.anchoredPosition3D = Vector3(slot5.qrcode_location[1], slot5.qrcode_location[2], -100)
-	slot11.anchoredPosition = Vector2(slot5.qrcode_location[1], slot5.qrcode_location[2])
-
-	_.each(slot5.hidden_comps, function (slot0)
+	slot0:UpdateDeck(slot7)
+	_.each(slot6.hidden_comps, function (slot0)
 		if not IsNil(GameObject.Find(slot0)) and slot1.activeSelf then
 			table.insert(uv0.cacheComps, slot1)
 			slot1:SetActive(false)
 		end
 	end)
-	_.each(slot5.show_comps, function (slot0)
+	_.each(slot6.show_comps, function (slot0)
 		if not IsNil(GameObject.Find(slot0)) and not slot1.activeSelf then
 			table.insert(uv0.cacheShowComps, slot1)
 			slot1:SetActive(true)
 		end
 	end)
-	_.each(slot5.move_comps, function (slot0)
+	_.each(slot6.move_comps, function (slot0)
 		if not IsNil(GameObject.Find(slot0.path)) then
 			table.insert(uv0.cacheMoveComps, {
 				slot1,
@@ -168,35 +170,10 @@ slot1.Share = function(slot0, slot1, slot2, slot3)
 			})
 		end
 	end)
-	SetParent(slot11, GameObject.Find(slot5.camera):GetComponent(typeof(Camera)).transform:GetChild(0), false)
-	slot11:SetAsLastSibling()
-
-	slot15 = ScreenShooter.New(Screen.width, Screen.height, TextureFormat.ARGB32)
-
-	if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and uv0.SdkMgr.GetInstance():GetIsPlatform() then
-		uv0.SdkMgr.GetInstance():GameShare(slot5.description, slot0:TakeTexture(slot1, slot15, slot13))
-		uv0.UIMgr.GetInstance():LoadingOn()
-		onDelayTick(function ()
-			uv0.UIMgr.GetInstance():LoadingOff()
-		end, 2)
-	elseif PLATFORM_CODE == PLATFORM_CHT then
-		slot0:TakePhoto(slot1, slot15, slot13)
-		uv0.SdkMgr.GetInstance():ShareImg(slot0.screenshot, function ()
-		end)
-	elseif PLATFORM_CODE == PLATFORM_CH and slot4 == PACKAGE_TYPE_BILI then
-		if slot0:TakePhoto(slot1, slot15, slot13) then
-			uv0.SdkMgr.GetInstance():GameShare(slot5.description, slot0.screenshot)
-		end
-	elseif slot0:TakePhoto(slot1, slot15, slot13) then
-		print("截图位置: " .. slot0.screenshot)
-		slot0:Show(slot5, slot3)
-	elseif PLATFORM_CODE == PLATFORM_CHT then
-		uv0.TipsMgr.GetInstance():ShowTips("截圖失敗")
-	else
-		uv0.TipsMgr.GetInstance():ShowTips("截图失败")
-	end
-
-	SetParent(slot11, slot0.tr, false)
+	SetParent(slot7, GameObject.Find(slot6.camera):GetComponent(typeof(Camera)).transform:GetChild(0), false)
+	slot7:SetAsLastSibling()
+	slot0:ShotAndSave(slot1)
+	SetParent(slot7, slot0.tr, false)
 	_.each(slot0.cacheComps, function (slot0)
 		slot0:SetActive(true)
 	end)
@@ -217,6 +194,68 @@ slot1.Share = function(slot0, slot1, slot2, slot3)
 	end)
 
 	slot0.cacheMoveComps = {}
+
+	if not slot0:ShowSharePanel(slot1, slot2, slot3, slot4) then
+		slot0:Dispose()
+	end
+end
+
+slot1.ShotAndSave = function(slot0, slot1)
+	slot2 = uv0.share_template[slot1]
+
+	assert(slot2, "share_template not exist: " .. slot1)
+
+	slot3 = LuaHelper.GetCHPackageType()
+	slot4 = GameObject.Find(slot2.camera):GetComponent(typeof(Camera))
+	slot5 = ScreenShooter.New(Screen.width, Screen.height, TextureFormat.ARGB32)
+
+	if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and uv0.SdkMgr.GetInstance():GetIsPlatform() then
+		slot0:SaveImageWithBytes(slot0:TakeTexture(slot1, slot5, slot4):EncodeToJPG())
+
+		return true
+	elseif PLATFORM_CODE == PLATFORM_CHT then
+		if slot0:TakePhoto(slot1, slot5, slot4) then
+			return true
+		end
+	elseif PLATFORM_CODE == PLATFORM_CH and slot3 == PACKAGE_TYPE_BILI then
+		if slot0:TakePhoto(slot1, slot5, slot4) then
+			return true
+		end
+	elseif slot0:TakePhoto(slot1, slot5, slot4) then
+		return true
+	elseif PLATFORM_CODE == PLATFORM_CHT then
+		uv0.TipsMgr.GetInstance():ShowTips("截圖失敗")
+	else
+		uv0.TipsMgr.GetInstance():ShowTips("截图失败")
+	end
+end
+
+slot1.ShowSharePanel = function(slot0, slot1, slot2, slot3, slot4)
+	slot0.noBlur = slot4
+
+	assert(uv0.share_template[slot1], "share_template not exist: " .. slot1)
+
+	slot6 = LuaHelper.GetCHPackageType()
+
+	if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and uv0.SdkMgr.GetInstance():GetIsPlatform() then
+		slot8 = UnityEngine.Texture2D.New(Screen.width, Screen.height, TextureFormat.ARGB32, false)
+
+		slot8:LoadImage(System.IO.File.ReadAllBytes(slot0.screenshotPath))
+		uv0.SdkMgr.GetInstance():GameShare(slot5.description, slot8)
+		uv0.UIMgr.GetInstance():LoadingOn()
+		onDelayTick(function ()
+			uv0.UIMgr.GetInstance():LoadingOff()
+		end, 2)
+	elseif PLATFORM_CODE == PLATFORM_CHT then
+		uv0.SdkMgr.GetInstance():ShareImg(slot0.screenshotPath, function ()
+		end)
+	elseif PLATFORM_CODE == PLATFORM_CH and slot6 == PACKAGE_TYPE_BILI then
+		uv0.SdkMgr.GetInstance():GameShare(slot5.description, slot0.screenshotPath)
+	else
+		slot0:ShowOwnUI(slot1, slot2, slot3, slot4)
+
+		return true
+	end
 end
 
 slot1.TakeTexture = function(slot0, slot1, slot2, slot3)
@@ -239,25 +278,34 @@ slot1.TakePhoto = function(slot0, slot1, slot2, slot3)
 		slot4:Add(GameObject.Find("UICamera"):GetComponent(typeof(Camera)))
 		slot4:Add(GameObject.Find("OverlayCamera"):GetComponent(typeof(Camera)))
 
-		return slot2:TakeMultiCam(slot4, slot0.screenshot)
+		return slot2:TakeMultiCam(slot4, slot0.screenshotPath)
 	else
-		return slot2:Take(slot3, slot0.screenshot)
+		return slot2:Take(slot3, slot0.screenshotPath)
 	end
 end
 
-slot1.Show = function(slot0, slot1, slot2)
-	slot0.go:SetActive(true)
-	uv0.UIMgr.GetInstance():BlurPanel(slot0.panel, true, slot2)
-	uv0.DelegateInfo.New(slot0)
-	onButton(slot0, slot0.panel:Find("main/top/btnBack"), function ()
-		uv0.go:SetActive(false)
-		uv1.UIMgr.GetInstance():UnblurPanel(uv0.panel, uv0.tr)
-		PoolMgr.GetInstance():ReturnUI("ShareUI", uv0.go)
-		uv1.DelegateInfo.Dispose(uv0)
+slot1.ShowOwnUI = function(slot0, slot1, slot2, slot3, slot4)
+	slot0.noBlur = slot4
 
-		uv0.go = nil
-		uv0.tr = nil
-		uv0.panel = nil
+	assert(uv0.share_template[slot1], "share_template not exist: " .. slot1)
+	slot0.go:SetActive(true)
+	setActive(slot0.deckTF, false)
+
+	if (slot2 or uv1.PANEL_TYPE_BLACK) == uv1.PANEL_TYPE_BLACK then
+		slot0.panel = slot0.panelBlack
+	elseif slot2 == uv1.PANEL_TYPE_PINK then
+		slot0.panel = slot0.panelPink
+	end
+
+	setActive(slot0.panelBlack, slot2 == uv1.PANEL_TYPE_BLACK)
+	setActive(slot0.panelPink, slot2 == uv1.PANEL_TYPE_PINK)
+
+	if not slot4 then
+		uv0.UIMgr.GetInstance():BlurPanel(slot0.panel, true, slot3)
+	end
+
+	onButton(slot0, slot0.panel:Find("main/top/btnBack"), function ()
+		uv0:Dispose()
 	end)
 	onButton(slot0, slot0.panel:Find("main/buttons/weibo"), function ()
 		uv0()
@@ -268,7 +316,7 @@ slot1.Show = function(slot0, slot1, slot2)
 
 	if PLATFORM_CODE == PLATFORM_KR then
 		onButton(slot0, slot0.panel:Find("main/buttons/facebook"), function ()
-			uv0.SdkMgr.GetInstance():ShareImg(uv1.screenshot, function (slot0, slot1)
+			uv0.SdkMgr.GetInstance():ShareImg(uv1.screenshotPath, function (slot0, slot1)
 				if slot0 and slot1 == 0 then
 					uv0.TipsMgr.GetInstance():ShowTips(i18n("share_success"))
 				end
@@ -276,4 +324,23 @@ slot1.Show = function(slot0, slot1, slot2)
 			uv2()
 		end)
 	end
+end
+
+slot1.Dispose = function(slot0)
+	slot0.go:SetActive(false)
+
+	if not slot0.noBlur then
+		uv0.UIMgr.GetInstance():UnblurPanel(slot0.panel, slot0.tr)
+	end
+
+	PoolMgr.GetInstance():ReturnUI("ShareUI", slot0.go)
+	uv0.DelegateInfo.Dispose(slot0)
+
+	slot0.go = nil
+	slot0.tr = nil
+	slot0.panel = nil
+end
+
+slot1.SaveImageWithBytes = function(slot0, slot1)
+	System.IO.File.WriteAllBytes(slot0.screenshotPath, slot1)
 end

@@ -21,6 +21,7 @@ slot1 = {
 	CS_17103_CONTEXT_FIELD = slot0.FieldDescriptor(),
 	SC_17104_RESULT_FIELD = slot0.FieldDescriptor(),
 	SC_17104_SHIP_DISCUSS_FIELD = slot0.FieldDescriptor(),
+	SC_17104_NEED_LEVEL_FIELD = slot0.FieldDescriptor(),
 	CS_17105_SHIP_GROUP_ID_FIELD = slot0.FieldDescriptor(),
 	CS_17105_DISCUSS_ID_FIELD = slot0.FieldDescriptor(),
 	CS_17105_GOOD_OR_BAD_FIELD = slot0.FieldDescriptor(),
@@ -419,13 +420,23 @@ slot1.SC_17104_SHIP_DISCUSS_FIELD.default_value = nil
 slot1.SC_17104_SHIP_DISCUSS_FIELD.message_type = SHIP_DISCUSS_INFO
 slot1.SC_17104_SHIP_DISCUSS_FIELD.type = 11
 slot1.SC_17104_SHIP_DISCUSS_FIELD.cpp_type = 10
+slot1.SC_17104_NEED_LEVEL_FIELD.name = "need_level"
+slot1.SC_17104_NEED_LEVEL_FIELD.full_name = "p17.sc_17104.need_level"
+slot1.SC_17104_NEED_LEVEL_FIELD.number = 3
+slot1.SC_17104_NEED_LEVEL_FIELD.index = 2
+slot1.SC_17104_NEED_LEVEL_FIELD.label = 2
+slot1.SC_17104_NEED_LEVEL_FIELD.has_default_value = false
+slot1.SC_17104_NEED_LEVEL_FIELD.default_value = 0
+slot1.SC_17104_NEED_LEVEL_FIELD.type = 13
+slot1.SC_17104_NEED_LEVEL_FIELD.cpp_type = 3
 SC_17104.name = "sc_17104"
 SC_17104.full_name = "p17.sc_17104"
 SC_17104.nested_types = {}
 SC_17104.enum_types = {}
 SC_17104.fields = {
 	slot1.SC_17104_RESULT_FIELD,
-	slot1.SC_17104_SHIP_DISCUSS_FIELD
+	slot1.SC_17104_SHIP_DISCUSS_FIELD,
+	slot1.SC_17104_NEED_LEVEL_FIELD
 }
 SC_17104.is_extendable = false
 SC_17104.extensions = {}

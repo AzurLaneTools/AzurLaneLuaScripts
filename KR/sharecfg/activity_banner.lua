@@ -1,8 +1,170 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		type = 2,
+		param = "5548",
+		type = 3,
 		id = 1,
+		pic = "temp3",
+		time = {
+			{
+				{
+					2024,
+					9,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "5551",
+		type = 3,
+		id = 2,
+		pic = "temp4",
+		time = {
+			{
+				{
+					2024,
+					9,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "5550",
+		type = 3,
+		id = 3,
+		pic = "temp5",
+		time = {
+			{
+				{
+					2024,
+					9,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "5552",
+		type = 3,
+		id = 4,
+		pic = "temp6",
+		time = {
+			{
+				{
+					2024,
+					9,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 5,
+		pic = "temp7",
+		param = {
+			"scene dailylevel"
+		},
+		time = {
+			{
+				{
+					2024,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					9,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 6,
 		pic = "temp1",
 		param = {
 			"scene skinshop",
@@ -36,121 +198,10 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
-		type = 2,
-		id = 2,
-		pic = "temp2",
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		}
-	},
-	{
-		time = "stop",
-		type = 2,
-		id = 3,
-		pic = "temp8",
-		param = {
-			"shipblueprint",
-			{
-				shipGroupId = 19903
-			}
-		}
-	},
-	{
 		param = "5543",
 		type = 3,
-		id = 4,
-		pic = "temp3",
-		time = {
-			{
-				{
-					2024,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					9,
-					26
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 5,
-		pic = "temp4",
-		param = {
-			"scene get boat",
-			{
-				projectName = "special",
-				page = 1
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					9,
-					26
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		time = "stop",
-		type = 2,
-		id = 6,
-		pic = "temp5",
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		}
-	},
-	{
-		type = 2,
 		id = 7,
-		pic = "temp6",
-		param = {
-			"scene level",
-			{
-				open_remaster = true
-			}
-		},
+		pic = "temp2",
 		time = {
 			{
 				{
@@ -181,10 +232,9 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 8,
-		pic = "temp7",
+		pic = "temp8",
 		param = {
-			"scene skinshop",
-			{}
+			"metacharacter"
 		},
 		time = {
 			{
@@ -203,7 +253,7 @@ pg.activity_banner = {
 				{
 					2024,
 					9,
-					25
+					26
 				},
 				{
 					23,
@@ -214,12 +264,41 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 9,
 		pic = "temp9",
 		param = {
-			"scene court yard"
+			"scene equip",
+			{
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					9,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[90] = {
@@ -276,36 +355,11 @@ pg.activity_banner = {
 		pic = "limit_skin"
 	},
 	[100] = {
-		param = "계화꽃떡|월궁에서 따온 계수나무로 만든 떡. 향긋하고 맛있다! <color=#6dd329> (60분 동안 숙소 경험치 효율 5% 상승) </color>",
+		param = "饺子|广受欢迎的传统特色食物！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
+		time = "stop",
 		type = 10,
 		id = 100,
-		pic = "guihuagao",
-		time = {
-			{
-				{
-					2024,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					9,
-					26
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "dumpling"
 	},
 	[200] = {
 		param = "",
@@ -322,18 +376,18 @@ pg.activity_banner = {
 		pic = "summer"
 	},
 	get_id_list_by_type = {
-		[2] = {
+		[3] = {
 			1,
 			2,
 			3,
+			4,
+			7
+		},
+		[2] = {
 			5,
 			6,
-			7,
 			8,
 			9
-		},
-		[3] = {
-			4
 		},
 		[9] = {
 			90,

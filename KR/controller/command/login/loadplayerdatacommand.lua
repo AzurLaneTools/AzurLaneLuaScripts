@@ -236,6 +236,10 @@ slot0.execute = function(slot0, slot1)
 		{
 			ApartmentProxy,
 			true
+		},
+		{
+			LivingAreaCoverProxy,
+			true
 		}
 	})
 

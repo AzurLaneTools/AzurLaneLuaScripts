@@ -18,30 +18,30 @@ slot1.Connect = function(slot0, slot1, slot2, slot3, slot4)
 	uv3.UIMgr.GetInstance():LoadingOn()
 	uv2.onConnected:AddListener(function ()
 		uv0.UIMgr.GetInstance():LoadingOff()
-		uv1("Network Connected.")
+		originalPrint("Network Connected.")
 
-		uv2 = uv3
-		uv4 = uv5
-		uv6 = uv6 or uv0.SendWindow.New(uv7, 0)
+		uv1 = uv2
+		uv3 = uv4
+		uv5 = uv5 or uv0.SendWindow.New(uv6, 0)
 
-		uv8.onData:AddListener(uv6.onData)
+		uv7.onData:AddListener(uv5.onData)
 
 		if PLATFORM_CODE == PLATFORM_CHT then
-			uv9 = uv0.IPAddress.New()
+			uv8 = uv0.IPAddress.New()
 		end
 
 		pingDelay = -1
-		uv10 = true
-		uv11 = false
+		uv9 = true
+		uv10 = false
 
-		uv12()
-		uv7:resetHBTimer()
+		uv11()
+		uv6:resetHBTimer()
 	end)
 	uv2.onData:AddListener(slot0.onData)
 	uv2.onError:AddListener(slot0.onError)
 	uv2.onDisconnected:AddListener(slot0.onDisconnected)
 
-	uv10 = true
+	uv9 = true
 
 	uv2:Connect()
 	originalPrint("connect to - " .. slot1 .. ":" .. slot2)
@@ -125,10 +125,11 @@ slot1.Reconnect = function(slot0, slot1)
 
 				uv1:setLastLogin(uv0)
 				uv2()
+				uv3:RemoveLoginPacket()
 
-				if uv3 ~= DISCONNECT_TIME_OUT and uv4:getPacketIdx() > 0 then
+				if uv4 ~= DISCONNECT_TIME_OUT and uv3:getPacketIdx() > 0 then
 					uv5.needStartSend = false
-					slot1 = uv4
+					slot1 = uv3
 
 					slot1:Send(11001, {
 						timestamp = 1
@@ -143,10 +144,10 @@ slot1.Reconnect = function(slot0, slot1)
 				elseif uv5.needStartSend then
 					uv5.needStartSend = false
 
-					uv4:StartSend()
+					uv3:StartSend()
 				end
 
-				uv3 = nil
+				uv4 = nil
 
 				if getProxy(PlayerProxy) and slot1:getInited() then
 					uv6.SecondaryPWDMgr.GetInstance():FetchData()
@@ -166,29 +167,29 @@ slot1.Reconnect = function(slot0, slot1)
 end
 
 slot1.onDisconnected = function(slot0, slot1)
-	uv0("Network onDisconnected: " .. tostring(slot0))
+	originalPrint("Network onDisconnected: " .. tostring(slot0))
 
-	uv1 = slot1
+	uv0 = slot1
 
-	if uv2 then
+	if uv1 then
 		if not slot0 then
-			uv2.onDisconnected:RemoveAllListeners()
+			uv1.onDisconnected:RemoveAllListeners()
 		end
 
-		uv2:Dispose()
+		uv1:Dispose()
 
-		uv2 = nil
+		uv1 = nil
 	end
 
 	if slot0 then
-		uv3 = false
+		uv2 = false
 	end
 
-	if uv4 then
-		uv5.UIMgr.GetInstance():LoadingOff()
+	if uv3 then
+		uv4.UIMgr.GetInstance():LoadingOff()
 	end
 
-	uv4 = false
+	uv3 = false
 end
 
 slot1.onData = function(slot0)
@@ -203,13 +204,12 @@ slot1.onData = function(slot0)
 end
 
 slot1.onError = function(slot0)
-	uv0.UIMgr.GetInstance():LoadingOff()
-	uv1("Network Error: " .. tostring(slot0))
+	originalPrint("Network Error: " .. tostring(slot0))
 
-	if uv2 then
-		uv2:Dispose()
+	if uv0 then
+		uv0:Dispose()
 
-		uv2 = nil
+		uv0 = nil
 	end
 
 	slot1 = function()
@@ -221,23 +221,23 @@ slot1.onError = function(slot0)
 	slot2 = function()
 	end
 
-	if uv4 then
-		uv4 = false
-		slot2 = uv5
+	if uv3 then
+		uv3 = false
+		slot2 = uv4
 	end
 
-	uv0.ConnectionMgr.GetInstance():CheckProxyCounter()
+	uv1.ConnectionMgr.GetInstance():CheckProxyCounter()
 
-	if uv6 and uv7 then
-		uv0.ConnectionMgr.GetInstance():stopHBTimer()
+	if uv5 and uv6 then
+		uv1.ConnectionMgr.GetInstance():stopHBTimer()
 
 		if table.contains({
 			"NotSocket"
 		}, slot0) then
-			uv0.ConnectionMgr.GetInstance():Reconnect(slot2)
+			uv1.ConnectionMgr.GetInstance():Reconnect(slot2)
 		else
-			uv0.MsgboxMgr.GetInstance():CloseAndHide()
-			uv0.MsgboxMgr.GetInstance():ShowMsgBox({
+			uv1.MsgboxMgr.GetInstance():CloseAndHide()
+			uv1.MsgboxMgr.GetInstance():ShowMsgBox({
 				modal = true,
 				content = i18n("reconnect_tip", slot0),
 				onYes = function ()
@@ -246,11 +246,11 @@ slot1.onError = function(slot0)
 				onNo = slot1,
 				weight = LayerWeightConst.TOP_LAYER
 			})
-			uv0.NewStoryMgr.GetInstance():Stop()
-			uv0.NewGuideMgr.GetInstance():Pause()
+			uv1.NewStoryMgr.GetInstance():Stop()
+			uv1.NewGuideMgr.GetInstance():Pause()
 		end
 	else
-		uv0.ConnectionMgr.GetInstance():ConnectByProxy()
+		uv1.ConnectionMgr.GetInstance():ConnectByProxy()
 	end
 end
 
@@ -310,20 +310,20 @@ slot1.Disconnect = function(slot0)
 
 	uv0 = {}
 
-	uv1("Manually Disconnect !!!")
+	originalPrint("Manually Disconnect !!!")
 
-	if uv2 then
-		uv2:Dispose()
+	if uv1 then
+		uv1:Dispose()
 
-		uv2 = nil
+		uv1 = nil
 	end
 
+	uv2 = nil
 	uv3 = nil
-	uv4 = nil
 	lastProxyHost = nil
 	lastProxyPort = nil
-	uv5 = nil
-	uv6 = false
+	uv4 = nil
+	uv5 = false
 end
 
 slot1.getConnection = function(slot0)

@@ -5,19 +5,35 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
-	onButton(slot0, slot0._tf:Find("btn_back"), function ()
+	slot5 = function()
 		uv0:closeView()
-	end, SFX_CANCEL)
+	end
+
+	slot6 = SFX_CANCEL
+
+	onButton(slot0, slot0._tf:Find("btn_back"), slot5, slot6)
 
 	slot0.rtGiftPanel = slot0._tf:Find("gift_panel")
 
-	eachChild(slot0.rtGiftPanel:Find("content/toggles"), function (slot0)
-		onToggle(uv0, slot0, function (slot0)
+	for slot5, slot6 in ipairs({
+		"all",
+		"normal",
+		"pro"
+	}) do
+		slot9 = slot0.rtGiftPanel
+
+		onToggle(slot0, slot9:Find("content/toggles/" .. slot6), function (slot0)
 			if slot0 then
-				uv0:UpdateSelectToggle(uv1.name)
+				if uv0.afterFirst then
+					quickPlayAnimation(uv0.rtGiftPanel, "anim_dorm3d_giftui_change")
+				else
+					uv0.afterFirst = true
+				end
+
+				uv0:UpdateSelectToggle(uv1)
 			end
 		end, SFX_PANEL)
-	end)
+	end
 
 	slot2 = slot0.rtGiftPanel:Find("content/view/container")
 	slot0.giftItemList = UIItemList.New(slot2, slot2:Find("tpl"))
@@ -30,13 +46,18 @@ slot0.init = function(slot0)
 		end
 	end)
 
+	slot0.showedGiftRecords = {}
+
+	onScroll(slot0, slot2, function (slot0)
+		uv0:OnGiftListScroll(slot0)
+	end)
+
 	slot0.btnConfirm = slot0.rtGiftPanel:Find("bottom/btn_confirm")
 
 	onButton(slot0, slot0.btnConfirm, function ()
 		uv0:ConfirmGiveGifts()
 	end, SFX_CONFIRM)
 
-	slot0.rtFavorPanel = slot0._tf:Find("favor_panel")
 	slot0.rtInfoWindow = slot0._tf:Find("info_window")
 
 	onButton(slot0, slot0.rtInfoWindow:Find("bg"), function ()
@@ -54,11 +75,11 @@ slot0.init = function(slot0)
 	onButton(slot0, slot0.rtLackWindow:Find("panel/title/btn_close"), function ()
 		uv0:HideLackWindow()
 	end, SFX_CANCEL)
-	pg.UIMgr.GetInstance():OverlayPanelPB(slot0._tf, {
+	pg.UIMgr.GetInstance():TempOverlayPanelPB(slot0.rtGiftPanel, {
 		pbList = {
 			slot0.rtGiftPanel
 		},
-		weight = LayerWeightConst.SECOND_LAYER,
+		baseCamera = slot0.contextData.baseCamera,
 		groupName = LayerWeightConst.GROUP_DORM3D
 	})
 end
@@ -71,7 +92,6 @@ end
 
 slot0.didEnter = function(slot0)
 	triggerToggle(slot0.rtGiftPanel:Find("content/toggles/all"), true)
-	slot0:UpdateFavorPanel()
 	slot0:UpdateConfirmBtn()
 end
 
@@ -99,40 +119,64 @@ slot0.UpdateSelectToggle = function(slot0, slot1)
 	slot0.giftItemList:align(#slot0.filterGiftIds)
 end
 
-slot0.UpdateGift = function(slot0, slot1, slot2)
-	slot3 = slot1:Find("base")
-	slot4 = Drop.New({
+slot0.UpdateGift = function(slot0, slot1, slot2, slot3)
+	slot1.name = slot2
+	slot4 = slot1:Find("base")
+	slot5 = Drop.New({
 		type = DROP_TYPE_DORM3D_GIFT,
 		id = slot2,
 		count = slot0.proxy:getGiftCount(slot2)
 	})
 
-	updateDorm3dIcon(slot3:Find("Dorm3dIconTpl"), slot4)
-	setText(slot3:Find("info/name"), slot4:getName())
+	updateDorm3dIcon(slot4:Find("Dorm3dIconTpl"), slot5)
+	setText(slot4:Find("info/name"), slot5:getName())
 
-	slot5 = slot4:getConfig("ship_group_id") ~= 0
+	slot6 = slot5:getConfig("ship_group_id") ~= 0
 
-	setActive(slot3:Find("mark"), slot5)
-	setActive(slot3:Find("bg/normal"), not slot5)
-	setActive(slot3:Find("bg/pro"), slot5)
-	setText(slot3:Find("info/Text"), i18n("dorm3d_gift_owner_num") .. string.format("%d", slot4.count))
+	setActive(slot4:Find("mark"), slot6)
+	setActive(slot4:Find("bg/normal"), not slot6)
+	setActive(slot4:Find("bg/pro"), slot6)
+	setText(slot4:Find("info/Text"), i18n("dorm3d_gift_owner_num") .. string.format("%d", slot5.count))
 
-	slot6 = slot3:Find("info/effect")
+	slot7 = slot4:Find("info/effect")
 
-	setActive(slot6:Find("favor"), true)
-	setText(slot6:Find("favor/number"), "+" .. pg.dorm3d_favor_trigger[slot4.cfg.favor_trigger_id].num)
-	setActive(slot6:Find("story"), slot5)
-	onButton(slot0, slot3:Find("info/btn_info"), function ()
-		uv0:OpenInfoWindow(uv1)
-	end, SFX_PANEL)
-
-	slot8 = slot5 and slot0.proxy:isGiveGiftDone(slot2)
-
-	setActive(slot3:Find("info/lack"), slot4.count == 0 and not slot8)
-	onButton(slot0, slot3:Find("info/lack"), function ()
+	setActive(slot7:Find("favor"), true)
+	setText(slot7:Find("favor/number"), "+" .. pg.dorm3d_favor_trigger[slot5.cfg.favor_trigger_id].num)
+	setActive(slot7:Find("story"), slot6)
+	onButton(slot0, slot4:Find("info/btn_info"), function ()
 		uv0:OpenLackWindow(uv1)
 	end, SFX_PANEL)
-	setActive(slot1:Find("mask"), slot8)
+
+	slot9 = slot6 and slot0.proxy:isGiveGiftDone(slot2)
+	slot12 = Dorm3dGift.New({
+		configId = slot2
+	}):GetShopID() and pg.shop_template[slot11]
+
+	setActive(slot4:Find("info/lack"), tobool(slot11))
+	setActive(slot4:Find("info/lack/tip"), slot6 and Dorm3dGift.NeedViewTip(slot0.apartment:GetConfigID()))
+	onButton(slot0, slot4:Find("info/lack"), function ()
+		slot0 = ""
+
+		if uv0.resource_type == 4 or uv0.resource_type == 14 then
+			slot0 = "diamond"
+		elseif uv0.resource_type == 1 then
+			slot0 = "gold"
+		end
+
+		uv1:emit(Dorm3dGiftMediator.SHOW_SHOPPING_CONFIRM_WINDOW, {
+			content = i18n("dorm3d_shop_gift", "<icon name=" .. slot0 .. " w=1.1 h=1.1/>", setColorStr("x" .. uv0.resource_num, "#169fff"), setColorStr(uv2:getConfig("name"), "#169fff")),
+			tip = i18n("dorm3d_shop_gift_tip"),
+			drop = uv3,
+			onYes = function ()
+				uv0:emit(GAME.SHOPPING, {
+					silentTip = true,
+					count = 1,
+					shopId = uv1
+				})
+			end
+		})
+	end, SFX_PANEL)
+	setActive(slot1:Find("mask"), slot9)
 	setText(slot1:Find("mask/Image/Text"), "is Done")
 	onToggle(slot0, slot1, function (slot0)
 		if slot0 then
@@ -145,13 +189,28 @@ slot0.UpdateGift = function(slot0, slot1, slot2)
 			uv0:UpdateConfirmBtn()
 		end
 	end, SFX_PANEL)
-	setToggleEnabled(slot1, not slot8)
-	triggerToggle(slot1, false)
+	setToggleEnabled(slot1, not slot9)
+	triggerToggle(slot1, slot3)
 end
 
 slot0.SingleUpdateGift = function(slot0, slot1)
 	if table.indexof(slot0.filterGiftIds, slot1) > 0 then
-		slot0:UpdateGift(slot0.giftItemList.container:GetChild(slot2 - 1), slot1)
+		slot0:UpdateGift(slot0.giftItemList.container:GetChild(slot2 - 1), slot1, true)
+	end
+end
+
+slot0.OnGiftListScroll = function(slot0, slot1)
+	slot2 = slot0.rtGiftPanel:Find("content/view/container")
+	slot3 = GetComponent(slot2, typeof(VerticalLayoutGroup))
+	slot6 = slot2:GetChild(0).rect.height + slot3.spacing
+	slot7 = slot2.anchoredPosition.y
+	slot14 = math.ceil((slot7 + slot2.rect.height - slot3.padding.top) / slot6)
+
+	for slot14 = math.max(1, math.floor((slot7 - slot3.padding.top) / slot6)), math.min(#slot0.filterGiftIds, slot14) do
+		if not slot0.showedGiftRecords[slot0.filterGiftIds[slot14]] then
+			slot0.showedGiftRecords[slot15] = true
+			slot16 = Dorm3dGift.SetViewedFlag(slot15)
+		end
 	end
 end
 
@@ -162,9 +221,9 @@ end
 slot0.ConfirmGiveGifts = function(slot0)
 	if slot0.proxy:getGiftCount(slot0.selectGiftId) == 0 then
 		if pg.dorm3d_gift[slot0.selectGiftId].ship_group_id > 0 and slot0.proxy:isGiveGiftDone(slot0.selectGiftId) then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("该礼物已赠送"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_shop_gift_already_given"))
 		else
-			pg.TipsMgr.GetInstance():ShowTips(i18n("当前未拥有该礼物"))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_shop_gift_not_owned"))
 		end
 
 		return
@@ -174,33 +233,35 @@ slot0.ConfirmGiveGifts = function(slot0)
 end
 
 slot0.AfterGiveGift = function(slot0, slot1)
-	slot3 = {}
+	if table.indexof(slot0.filterGiftIds, slot1.giftId) > 0 then
+		quickPlayAnimation(slot0.giftItemList.container:GetChild(slot3 - 1), "anim_dorm3d_giftui_Select")
+	end
 
-	if pg.dorm3d_gift[slot1].reply_dialogue_id ~= 0 then
-		table.insert(slot3, function (slot0)
+	slot5 = {}
+
+	if pg.dorm3d_gift[slot2].reply_dialogue_id ~= 0 and slot0.apartment:checkUnlockConfig(pg.dorm3d_dialogue_group[slot4.reply_dialogue_id].unlock) then
+		table.insert(slot5, function (slot0)
 			uv0:emit(Dorm3dGiftMediator.DO_TALK, uv1.reply_dialogue_id, slot0)
 		end)
 	end
 
-	if slot0.proxy:getGiftUnlockTalk(slot0.apartment.configId, slot1) then
-		table.insert(slot3, function (slot0)
-			pg.TipsMgr.GetInstance():ShowTips(string.format("talk %d is unlocked", uv0))
+	if slot4.unlock_dialogue_id > 0 then
+		slot0:emit()
+		table.insert(slot5, function (slot0)
+			pg.TipsMgr.GetInstance():ShowTips(string.format("talk %d is unlocked", talkId))
 			slot0()
 		end)
 	end
 
-	seriesAsync(slot3, function ()
-		uv0:emit(Dorm3dGiftMediator.CHECK_LEVEL_UP)
+	seriesAsync(slot5, function ()
+		uv0:CheckLevelUp()
 	end)
 end
 
-slot0.UpdateFavorPanel = function(slot0)
-	slot1 = slot0.apartment.favor
-	slot2 = slot0.apartment:getNextExp()
-
-	setText(slot0.rtFavorPanel:Find("info/Text"), string.format("Lv.%d", slot0.apartment.level))
-	setText(slot0.rtFavorPanel:Find("info/Text_1"), string.format("<color=#FFFFFF>%d</color>/%d", slot1, slot2))
-	setSlider(slot0.rtFavorPanel:Find("slider"), 0, slot2, slot1)
+slot0.CheckLevelUp = function(slot0)
+	if slot0.apartment:getNextExp() <= slot0.apartment.favor then
+		slot0:emit(Dorm3dSceneMediator.FAVOR_LEVEL_UP, slot0.apartment.configId)
+	end
 end
 
 slot0.OpenInfoWindow = function(slot0, slot1)
@@ -300,7 +361,7 @@ slot0.willExit = function(slot0)
 		slot0:HideLackWindow()
 	end
 
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	pg.UIMgr.GetInstance():TempUnblurPanel(slot0.rtGiftPanel, slot0._tf)
 end
 
 return slot0

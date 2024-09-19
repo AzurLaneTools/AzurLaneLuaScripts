@@ -1076,5 +1076,8 @@ pg.activity_const = {
 	},
 	SIX_YEAR_US_TASK_2_ACT_ID = {
 		act_id = 5536
+	},
+	DREAMLAND_JP_ID = {
+		act_id = 5560
 	}
 }

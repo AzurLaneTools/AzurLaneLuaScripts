@@ -12,8 +12,10 @@ slot0.Ctor = function(slot0, slot1)
 			configId = slot0
 		})
 	end)
+	slot0.specialFurnitureDic = {}
 	slot0.specialAnims = _.map(slot0:GetSpecialFurnitureIDList(), function (slot0)
 		slot1 = slot0[1]
+		uv0.specialFurnitureDic[slot1] = true
 		slot4 = uv0
 
 		return {
@@ -52,6 +54,37 @@ slot0.GetSpecialFurnitureIDList = function(slot0)
 	return slot0:getConfig("special_furniture") or {}
 end
 
+slot0.GetAllSpecialList = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(pg.dorm3d_camera_anim_template.get_id_list_by_furniture_id) do
+		if slot5 ~= 0 and not slot0.specialFurnitureDic[slot5] then
+			slot7 = {}
+
+			for slot11, slot12 in ipairs(slot6) do
+				table.insert(slot7, Dorm3dCameraAnim.New({
+					configId = slot12
+				}))
+			end
+
+			table.insert(slot1, {
+				furnitureId = slot5,
+				anims = slot7
+			})
+		end
+	end
+
+	for slot5, slot6 in ipairs(slot0.specialAnims) do
+		table.insert(slot1, slot5, slot6)
+	end
+
+	return slot1
+end
+
+slot0.CheckFurnitureIdInZone = function(slot0, slot1)
+	return slot0.specialFurnitureDic[slot1]
+end
+
 slot0.GetSpecialAnimIDListByFurnitureID = function(slot0, slot1)
 	return pg.dorm3d_camera_anim_template.get_id_list_by_furniture_id[slot1] or {}
 end
@@ -62,10 +95,6 @@ end
 
 slot0.GetAnimSpeeds = function(slot0)
 	return slot0:getConfig("anim_speeds")
-end
-
-slot0.Get = function(slot0)
-	return slot0:getConfig("")
 end
 
 slot0.GetRecordTime = function(slot0)

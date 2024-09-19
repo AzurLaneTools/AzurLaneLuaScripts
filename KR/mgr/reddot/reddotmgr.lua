@@ -22,11 +22,13 @@ slot0.TYPES = {
 	ISLAND = 22,
 	SERVER = 12,
 	BLUEPRINT = 14,
+	DORM3D_GIFT = 23,
 	ACT_NEWBIE = 17,
 	EVENT = 15,
 	ATTIRE = 6,
 	FRIEND = 8,
 	NEW_SERVER = 20,
+	DORM3D_FURNITURE = 24,
 	TASK = 2,
 	MAIL = 3,
 	BUILD = 4,
@@ -132,6 +134,8 @@ slot0.BindConditions = function(slot0)
 	slot0:BindCondition(uv0.TYPES.ISLAND, function ()
 		return Activity.IsActivityReady(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ISLAND))
 	end)
+	slot0:BindCondition(uv0.TYPES.DORM3D_GIFT, Dorm3dGift.NeedViewTip)
+	slot0:BindCondition(uv0.TYPES.DORM3D_FURNITURE, Dorm3dFurniture.NeedViewTip)
 end
 
 slot0.BindCondition = function(slot0, slot1, slot2)

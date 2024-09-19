@@ -1,5 +1,41 @@
 pg = pg or {}
 pg.enemy_data_statistics_395 = {
+	[295015] = {
+		cannon = 235,
+		name = "히류.META(Tier.15)",
+		torpedo = 0,
+		cannon_growth = 0,
+		air = 484,
+		reload = 150,
+		armor = 0,
+		dodge = 15,
+		id = 295015,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 100,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90494,
+		durability = 1420000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 386,
+		speed = 30,
+		luck = 20,
+		fog_fx = "",
+		antisub = 0,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
 	[295016] = {
 		cannon = 95,
 		name = "아크 로열·META(Tier.1)",
@@ -927,42 +963,6 @@ pg.enemy_data_statistics_395 = {
 		antiaircraft = 336,
 		speed = 60,
 		luck = 16,
-		fog_fx = "",
-		antisub = 0,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			}
-		}
-	},
-	[295042] = {
-		cannon = 250,
-		name = "헬레나·META(Tier.12)",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 333,
-		reload = 150,
-		armor = 0,
-		dodge = 36,
-		id = 295042,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 85,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 90541,
-		durability = 740000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 351,
-		speed = 60,
-		luck = 17,
 		fog_fx = "",
 		antisub = 0,
 		buff_list = {

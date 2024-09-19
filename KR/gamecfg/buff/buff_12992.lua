@@ -27,7 +27,7 @@ return {
 						"TargetShipTag"
 					},
 					ship_tag_list = {
-						"Tashkent"
+						"Tashkent1"
 					}
 				}
 			}
@@ -61,7 +61,7 @@ return {
 						"TargetShipTag"
 					},
 					ship_tag_list = {
-						"Tashkent"
+						"Tashkent1"
 					}
 				}
 			}
@@ -95,7 +95,7 @@ return {
 						"TargetShipTag"
 					},
 					ship_tag_list = {
-						"Tashkent"
+						"Tashkent1"
 					}
 				}
 			}
@@ -129,7 +129,7 @@ return {
 						"TargetShipTag"
 					},
 					ship_tag_list = {
-						"Tashkent"
+						"Tashkent1"
 					}
 				}
 			}
@@ -163,7 +163,7 @@ return {
 						"TargetShipTag"
 					},
 					ship_tag_list = {
-						"Tashkent"
+						"Tashkent1"
 					}
 				}
 			}
@@ -197,7 +197,7 @@ return {
 						"TargetShipTag"
 					},
 					ship_tag_list = {
-						"Tashkent"
+						"Tashkent1"
 					}
 				}
 			}
@@ -231,7 +231,7 @@ return {
 						"TargetShipTag"
 					},
 					ship_tag_list = {
-						"Tashkent"
+						"Tashkent1"
 					}
 				}
 			}
@@ -265,7 +265,7 @@ return {
 						"TargetShipTag"
 					},
 					ship_tag_list = {
-						"Tashkent"
+						"Tashkent1"
 					}
 				}
 			}
@@ -299,7 +299,7 @@ return {
 						"TargetShipTag"
 					},
 					ship_tag_list = {
-						"Tashkent"
+						"Tashkent1"
 					}
 				}
 			}
@@ -333,7 +333,7 @@ return {
 						"TargetShipTag"
 					},
 					ship_tag_list = {
-						"Tashkent"
+						"Tashkent1"
 					}
 				}
 			}

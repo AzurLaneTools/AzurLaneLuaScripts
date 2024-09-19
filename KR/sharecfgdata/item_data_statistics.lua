@@ -15102,6 +15102,37 @@ _G.pg.base.item_data_statistics[21036] = {
 }
 
 
+_G.pg.base.item_data_statistics[21037] = {
+	open_directly = 0,
+	name = "结晶：{namecode:230}",
+	type = 4,
+	display = "{namecode:230}的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21037",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21037,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "결정화 내열강",
@@ -15681,6 +15712,37 @@ _G.pg.base.item_data_statistics[21915] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21915,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[21916] = {
+	open_directly = 0,
+	name = "同步值：{namecode:230}",
+	type = 4,
+	display = "于「信标·META」战斗中收集的数据，可以提升{namecode:230}同步率。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21916",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21916,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
@@ -17541,6 +17603,40 @@ _G.pg.base.item_data_statistics[30205] = {
 	target_id = 0,
 	display_icon = {},
 	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[30206] = {
+	open_directly = 0,
+	name = "藏王重工科技箱T3(促销） ",
+	type = 5,
+	display = "包含一件重樱阵营装备：\n100%几率获得一件<color=#d797ff>精锐装备</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/30206",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "79721",
+	id = 30206,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		100
+	},
 	index = {},
 	shiptrans_id = {},
 	combination_display = {}

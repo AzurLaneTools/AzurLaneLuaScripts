@@ -29,6 +29,10 @@ slot1.SetBlackboradValue = function(slot0, slot1, slot2, slot3)
 	end
 end
 
+slot1.GetBlackboradValue = function(slot0, slot1, slot2)
+	return (slot2 or slot0.mainBlackboard):GetVariable(slot1).value
+end
+
 slot1.SendEvent = function(slot0, slot1, slot2, slot3)
 	slot3 = slot3 or slot0.mainOwner
 

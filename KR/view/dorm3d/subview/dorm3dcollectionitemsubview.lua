@@ -21,17 +21,20 @@ slot0.OnLoaded = function(slot0)
 
 			setActive(slot2:Find("content/lock"), not slot6)
 			setActive(slot2:Find("content/mark"), slot6 and not slot5)
-			setText(slot2:Find("content/name"), slot5 and slot4.name or string.format("locked:%s", slot3))
+			setText(slot2:Find("content/name"), slot5 and slot4.name or slot6 and i18n("dorm3d_collect_not_found", i18n(slot4.text)) or i18n("dorm3d_collect_locked", slot4.unlock[2]))
 			onToggle(uv0, slot2, function (slot0)
 				if slot0 then
 					uv0:UpdateDisplay(uv1, uv2)
 				end
 
-				setTextColor(uv3:Find("content/name"), Color.NewHex(not uv4 and "a9a9a9" or slot0 and "2d1dfc" or "393a3c"))
-				eachChild(uv3:Find("num"), function (slot0)
+				uv3(slot0)
+			end, SFX_PANEL)
+			(function (slot0)
+				setTextColor(uv0:Find("content/name"), Color.NewHex(not uv1 and "a9a9a9" or slot0 and "2d1dfc" or "393a3c"))
+				eachChild(uv0:Find("num"), function (slot0)
 					setImageColor(slot0, Color.NewHex(uv0 and "2d1dfd" or "393a3c"))
 				end)
-			end, SFX_PANEL)
+			end)()
 		end
 	end)
 
@@ -42,12 +45,21 @@ end
 slot0.OnInit = function(slot0)
 	slot1 = slot0.contextData.apartment
 	slot0.unlockDic = slot1.collectItemDic
+	slot0.ids = Clone(pg.dorm3d_collection_template.get_id_list_by_dorm3d_belong[slot1.configId])
 
-	setText(slot0.rtInfo:Find("count"), string.format("<color=#2d1dfc>%d</color>/%d", table.getCount(slot0.unlockDic), #slot1:getCollectConfig("recall_list")))
-	setText(slot0.rtInfo:Find("empty"), "with out anything")
+	table.sort(slot0.ids, function (slot0, slot1)
+		if uv0.unlockDic[slot0] ~= uv0.unlockDic[slot1] then
+			return slot2
+		end
 
-	slot0.ids = slot1:getCollectConfig("collection_template_list")
+		if uv0.contextData.apartment:checkUnlockConfig(pg.dorm3d_collection_template[slot0].unlock) ~= uv0.contextData.apartment:checkUnlockConfig(pg.dorm3d_collection_template[slot1].unlock) then
+			return slot6
+		end
 
+		return slot0 < slot1
+	end)
+	setText(slot0.rtInfo:Find("count"), string.format("<color=#2d1dfc>%d</color>/%d", table.getCount(slot0.unlockDic), #slot0.ids))
+	setText(slot0.rtInfo:Find("empty"), i18n("dorm3d_collect_nothing"))
 	slot0.itemList:align(#slot0.ids)
 	triggerToggle(slot0.itemList.container:GetChild(0), true)
 end
@@ -64,10 +76,10 @@ slot0.UpdateDisplay = function(slot0, slot1, slot2)
 
 	slot5 = pg.dorm3d_collection_template[slot2]
 
-	GetImageSpriteFromAtlasAsync("dorm3dcollection/" .. slot5.model, "", slot4:Find("icon"), true)
+	GetImageSpriteFromAtlasAsync("dorm3dcollection/" .. slot5.icon, "", slot4:Find("icon"), true)
 	setText(slot4:Find("name/Text"), slot5.name)
 	setText(slot4:Find("desc"), slot5.desc)
-	setText(slot4:Find("favor/Text"), string.format("favor plus:%d", pg.dorm3d_favor_trigger[slot5.award].num))
+	setText(slot4:Find("favor/Text"), i18n("dorm3d_collect_favor_plus") .. pg.dorm3d_favor_trigger[slot5.award].num)
 end
 
 slot0.OnDestroy = function(slot0)

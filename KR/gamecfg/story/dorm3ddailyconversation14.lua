@@ -1,14 +1,20 @@
 return {
-	hideRecord = true,
+	fadeOut = 1.5,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DDAILYCONVERSATION14",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DDAILYCONVERSATION14",
 	scripts = {
 		{
-			say = "主、主人？！今天天气不好，天狼星本来以为您不会来的，完全没来得及准备茶点……",
+			actorName = "天狼星",
+			side = 2,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFFFFF",
+			say = "主人，天狼星有个不情之请……能请您能陪天狼星一起练习化妆技术么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,60 +24,62 @@ return {
 				data = {
 					op_list = {
 						{
+							param = "Play",
+							name = "shy",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
 							skip = false,
-							name = "Bow",
-							type = "action"
+							time = 1,
+							type = "wait"
 						}
 					}
 				},
 				callbackData = {
-					hideUI = true,
+					hideUI = false,
 					name = STORY_EVENT.TEST_DONE
 				}
-			},
-			options = {
-				{
-					content = "没关系。主要是今天拍到了彩虹，想分享给天狼星看看。？",
-					flag = 1
-				}
 			}
 		},
 		{
-			say = "好漂亮……对着它许愿的话，大概也会被实现吧。",
+			actorName = "天狼星",
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "尽管练习了很多次，我的化妆技术却一直没有精进呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "听说对着彩虹许愿就会实现，要试试吗？",
+					content = "你无论什么时候都很好看。",
 					flag = 1
 				}
 			}
 		},
 		{
-			say = "嗯……",
+			actorName = "天狼星",
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "可是……在您的面前，天狼星还是想要尽可能的……再美丽一些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "天狼星希望能和主人……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "对了……天狼星想起来了，愿望要默念才会实现，不可以被其他人听到。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "所以，还请主人原谅天狼星在这一点上暂时对您保密哦。",
+			actorName = "天狼星",
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "我们就从……涂口红开始，可以吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -459,6 +459,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「멈추지 않는 뜨거운 심장 박동,  파도를 가르는 강철 바람」</color>\n「하늘을 가르는 강철의 날개」 이벤트 참가 보상.",
 		scene = {}
 	},
+	[332] = {
+		name = "新生之炎",
+		gain_by = "",
+		time_second = 0,
+		id = 332,
+		time_limit_type = 0,
+		desc = "通过后续活动获得",
+		scene = {}
+	},
 	[401] = {
 		name = "전당 기념: 엔터프라이즈",
 		gain_by = "",
@@ -736,6 +745,7 @@ pg.item_data_frame = {
 		329,
 		330,
 		331,
+		332,
 		401,
 		402,
 		413,

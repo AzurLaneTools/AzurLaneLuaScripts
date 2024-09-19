@@ -1555,9 +1555,39 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "story-richang-westdaily"
 	},
+	Dorm3dVolleyballScene = {
+		default_bgm = "main-SeaAndSun",
+		special_bgm = "",
+		bgm = "main-SeaAndSun"
+	},
+	Dorm3dScene = {
+		default_bgm = "story-room-sirius",
+		special_bgm = "",
+		bgm = "story-room-sirius"
+	},
 	RuiFengSpPage = {
 		default_bgm = "story-newsakura",
 		special_bgm = "",
 		bgm = "story-newsakura"
+	},
+	DreamSignPage = {
+		default_bgm = "story-richang-quiet",
+		special_bgm = "",
+		bgm = "story-richang-quiet"
+	},
+	PlymouthTecCatchupPage = {
+		default_bgm = "theme-designshipVI",
+		special_bgm = "",
+		bgm = "theme-designshipVI"
+	},
+	AmagiACTaskPage = {
+		default_bgm = "theme-starsea-core",
+		special_bgm = "",
+		bgm = "theme-starsea-core"
+	},
+	AnniV5FramePage = {
+		default_bgm = "story-nailuo-theme",
+		special_bgm = "",
+		bgm = "story-nailuo-theme"
 	}
 }

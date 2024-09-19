@@ -35,6 +35,7 @@ slot0.OnStart = function(slot0, slot1)
 	slot0.conentTxt = slot0:findTF("content", slot0.dialogueWin):GetComponent(typeof(Text))
 	slot0.typewriter = slot0:findTF("content", slot0.dialogueWin):GetComponent(typeof(Typewriter))
 	slot0.nameTr = slot0:findTF("content/name", slot0.dialogueWin)
+	slot0.tag4Dialog2 = slot0:findTF("content/tag", slot0.dialogueWin)
 	slot0.nameTxt = slot0:findTF("Text", slot0.nameTr):GetComponent(typeof(Text))
 	slot0.portraitTr = slot0:findTF("portrait", slot0.dialogueWin)
 	slot2 = slot0.portraitTr
@@ -1199,20 +1200,26 @@ slot0.UpdateContent = function(slot0, slot1, slot2)
 		slot3()
 	end
 
-	slot6, slot7, slot8, slot9 = slot0:GetSideTF(slot1:GetSide())
+	slot6 = false
+	slot7, slot8, slot9, slot10 = slot0:GetSideTF(slot1:GetSide())
 
-	if slot7 then
-		slot11 = slot1:GetNameWithColor() and slot10 ~= ""
+	if slot8 then
+		slot12 = slot1:GetNameWithColor() and slot11 ~= ""
+		slot6 = slot12
 
-		setActive(slot7, slot11)
+		setActive(slot8, slot12)
 
-		if slot11 then
-			slot7:Find("Text"):GetComponent(typeof(Outline)).effectColor = Color.NewHex(slot1:GetNameColorCode())
+		if slot12 then
+			slot8:Find("Text"):GetComponent(typeof(Outline)).effectColor = Color.NewHex(slot1:GetNameColorCode())
 		end
 
-		slot8.text = slot10
+		slot9.text = slot11
 
-		setText(slot8.gameObject.transform:Find("subText"), slot1:GetSubActorName())
+		setText(slot9.gameObject.transform:Find("subText"), slot1:GetSubActorName())
+	end
+
+	if slot0.script:IsDialogueStyle2() then
+		setActive(slot0.tag4Dialog2, not slot6)
 	end
 end
 

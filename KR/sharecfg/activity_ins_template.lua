@@ -12715,6 +12715,30 @@ pg.activity_ins_template = {
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
+	[492] = {
+		ship_group = 20702,
+		name = "ArkRoyal_Defense",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "huangjiafangzhou_6",
+		id = 492,
+		group_id = 492,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[493] = {
+		ship_group = 30132,
+		name = "Mutsuki",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "muyue_5",
+		id = 493,
+		group_id = 493,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -13196,6 +13220,8 @@ pg.activity_ins_template = {
 		488,
 		489,
 		490,
-		491
+		491,
+		492,
+		493
 	}
 }

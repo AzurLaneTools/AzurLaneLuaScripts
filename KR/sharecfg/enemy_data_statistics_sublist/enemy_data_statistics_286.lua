@@ -1,5 +1,51 @@
 pg = pg or {}
 pg.enemy_data_statistics_286 = {
+	[16306001] = {
+		cannon = 750,
+		name = "수수께끼의 적!",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		id = 16306001,
+		air = 0,
+		armor = 0,
+		luck_growth = 0,
+		hit_growth = 210,
+		fog_fx = "",
+		dodge_growth = 198,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90716,
+		durability = 500000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 25,
+		luck = 0,
+		antisub = 0,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 9999,
+		torpedo = 500,
+		durability_growth = 0,
+		antiaircraft = 600,
+		battle_unit_type = 95,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {}
+	},
 	[16306002] = {
 		cannon = 750,
 		name = "고대 유적 수호자 POWERMAX형",
@@ -1224,44 +1270,6 @@ pg.enemy_data_statistics_286 = {
 		equipment_list = {
 			1006001,
 			1006006,
-			1006011
-		}
-	},
-	[16401002] = {
-		cannon = 10,
-		antisub = 0,
-		air = 0,
-		cannon_growth = 800,
-		armor = 0,
-		reload = 150,
-		base = 90720,
-		dodge = 0,
-		torpedo_growth = 2000,
-		air_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		star = 2,
-		hit = 10,
-		antisub_growth = 0,
-		rarity = 2,
-		luck_growth = 0,
-		torpedo = 22,
-		durability = 180,
-		armor_growth = 0,
-		durability_growth = 5920,
-		antiaircraft = 45,
-		speed = 15,
-		luck = 0,
-		hit_growth = 144,
-		battle_unit_type = 30,
-		id = 16401002,
-		antiaircraft_growth = 1600,
-		fog_fx = "",
-		equipment_list = {
-			1006016,
-			1006021,
-			1006031,
 			1006011
 		}
 	}

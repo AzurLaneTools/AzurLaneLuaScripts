@@ -81,7 +81,7 @@ slot0.onRegister = function(slot0)
 		slot2 = {}
 
 		if _.all(slot1.items, function (slot0)
-			return slot0.type == DROP_TYPE_ICON_FRAME or slot0.type == DROP_TYPE_CHAT_FRAME
+			return slot0.type == DROP_TYPE_ICON_FRAME or slot0.type == DROP_TYPE_CHAT_FRAME or slot0.type == DROP_TYPE_LIVINGAREA_COVER
 		end) then
 			table.insert(slot2, function (slot0)
 				onNextTick(slot0)
@@ -431,6 +431,13 @@ slot0.commonBind = function(slot0)
 				mediator = EquipmentInfoMediator,
 				viewComponent = EquipmentInfoLayer,
 				data = slot2
+			}))
+		end,
+		[BaseUI.ON_NEW_DROP] = function (slot0, slot1, slot2)
+			pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_DROP, setmetatable(slot2, {
+				__index = {
+					weight = LayerWeightConst.TOP_LAYER
+				}
 			}))
 		end
 	}

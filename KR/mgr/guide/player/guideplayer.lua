@@ -218,23 +218,29 @@ slot0.UpdateDialogue = function(slot0, slot1, slot2, slot3)
 		slot5.eulerAngles = slot4.handAngle
 	end
 
-	slot6 = slot4.counsellor
+	if slot4.counsellor then
+		seriesAsync({
+			function (slot0)
+				uv0:LoadCounsellor(uv1.name, slot0)
+			end,
+			function (slot0)
+				slot1 = uv0.counsellors[uv1.name]
 
-	seriesAsync({
-		function (slot0)
-			uv0:LoadCounsellor(uv1.name, slot0)
-		end,
-		function (slot0)
-			slot1 = uv0.counsellors[uv1.name]
+				setActive(slot1, true)
 
-			setActive(slot1, true)
+				slot1.localPosition = uv2.localPosition + Vector3(uv1.position.x, uv1.position.y, 0)
+				slot1.localScale = Vector3(uv1.scale.x, uv1.scale.y, 1)
 
-			slot1.localPosition = uv2.localPosition + Vector3(uv1.position.x, uv1.position.y, 0)
-			slot1.localScale = Vector3(uv1.scale.x, uv1.scale.y, 1)
-
-			slot0()
+				slot0()
+			end
+		}, slot3)
+	else
+		for slot10, slot11 in pairs(slot0.counsellors) do
+			setActive(slot11, false)
 		end
-	}, slot3)
+
+		slot3()
+	end
 end
 
 slot0.LoadCounsellor = function(slot0, slot1, slot2)
@@ -289,14 +295,14 @@ slot2 = function(slot0, slot1, slot2, slot3)
 			clearAllEvent = true
 		})
 	elseif slot3.type == GuideStep.HIGH_TYPE_LINE then
-		slot4 = slot1.isWorld and 15 or 55
+		slot4 = slot1:GetHighlightLength()
 		slot5 = slot0._tf:InverseTransformPoint(slot2.position)
 
 		slot0.uiLoader:LoadHighLightArea({
 			position = Vector3(slot5.x, slot5.y, 0) + Vector3((slot2.pivot.x - 0.5) * slot4, (slot2.pivot.y - 0.5) * slot4, 0),
 			sizeDelta = Vector2(slot2.sizeDelta.x + slot4, slot2.sizeDelta.y + slot4),
 			pivot = slot2.pivot,
-			isWorld = slot1.isWorld
+			name = slot1:GetHighlightName()
 		})
 	end
 end

@@ -8,10 +8,40 @@ return {
 	hideAuto = true,
 	scripts = {
 		{
-			say = "主人，外面好像很热闹的样子。天狼星猜是主人您又有了新的际遇吧，当然，天狼星也会继续追随您前进的步伐。",
+			nameColor = "#FFFFFF",
+			actorName = "天狼星",
+			say = "为了迎接主人的到来，天狼星今天努力为您准备了充满天狼星爱意的点心……！虽然卖相可能很差，但应该还是可以吃的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			dispatcher = {
+				name = STORY_EVENT.TEST,
+				data = {
+					op_list = {
+						{
+							skip = true,
+							name = "Bow",
+							type = "action"
+						},
+						{
+							param = "Play",
+							name = "Face_weixiao",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							skip = false,
+							time = 1,
+							type = "wait"
+						}
+					}
+				},
+				callbackData = {
+					hideUI = false,
+					name = STORY_EVENT.TEST_DONE
+				}
 			}
 		}
 	}
