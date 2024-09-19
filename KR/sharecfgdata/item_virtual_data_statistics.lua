@@ -167467,8 +167467,8 @@ _G.pg.base.item_virtual_data_statistics[60485] = {
 
 _G.pg.base.item_virtual_data_statistics[60486] = {
 	drop_gold_max = 0,
-	name = "乐园改造方案",
-	display = "用于「乐园的起始符」活动中的进度记录",
+	name = "낙원 리모델링 방안",
+	display = "이벤트 「낙원의 시작부」의 수집 아이템 이벤트 종료 후에 제거됩니다.",
 	type = 0,
 	is_world = 0,
 	shop_id = -1,
@@ -167742,8 +167742,8 @@ _G.pg.base.item_virtual_data_statistics[65015] = {
 
 _G.pg.base.item_virtual_data_statistics[65016] = {
 	drop_gold_max = 0,
-	name = "训练点数",
-	display = "用于头像框活动兑换，活动结束后将会消失",
+	name = "훈련 PT",
+	display = "「작전 준비·나락」 보상 교환용 아이템. 이벤트 종료 후에 제거됩니다.",
 	type = 98,
 	is_world = 0,
 	shop_id = 1,

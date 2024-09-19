@@ -1841,7 +1841,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705062] = {
-		breakout_view = "副炮底座+2/主炮效率提高10%",
+		breakout_view = "부포 포좌 +2 / 주포 보정 +10%",
 		item2 = 21001,
 		pre_id = 9705061,
 		repair = 0,
@@ -1877,7 +1877,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705064] = {
-		breakout_view = "无",
+		breakout_view = "없음",
 		item2 = 21001,
 		pre_id = 9705063,
 		repair = 0,

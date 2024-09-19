@@ -4772,7 +4772,7 @@ pg.base.memory_group = {
 		}
 	},
 	[299] = {
-		title = "차안에 모여드는 먼지",
+		title = "현세로 날려드는 먼지",
 		subtype = 1,
 		link_event = 5551,
 		type = 2,

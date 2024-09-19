@@ -15104,9 +15104,9 @@ _G.pg.base.item_data_statistics[21036] = {
 
 _G.pg.base.item_data_statistics[21037] = {
 	open_directly = 0,
-	name = "结晶：{namecode:230}",
+	name = "결정: 나가토·META",
 	type = 4,
-	display = "{namecode:230}的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	display = "나가토·META의 능력을 상승시키는 아이템. META 연구실의 한계돌파에서 사용 가능",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -15724,9 +15724,9 @@ _G.pg.base.item_data_statistics[21915] = {
 
 _G.pg.base.item_data_statistics[21916] = {
 	open_directly = 0,
-	name = "同步值：{namecode:230}",
+	name = "나가토·META 동기화 수치",
 	type = 4,
-	display = "于「信标·META」战斗中收集的数据，可以提升{namecode:230}同步率。",
+	display = "나가토·META의 동기화 수치",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -15825,7 +15825,11 @@ _G.pg.base.item_data_statistics[30012] = {
 	open_directly = 0,
 	name = "크록히드 장비상자 T2",
 	type = 5,
-	display = "이글 유니온(USS) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#d797ff>크록히드 장비상자 T3</color>로 합성 가능.",
+	display = [[
+이글 유니온 장비를 무작위로 하나 획득한다.
+40%의 확률로 <color=#3dc6ff>R 장비</color> 획득
+60%의 확률로 노멀 장비 획득
+*<color=#ffde38>5개</color>로 <color=#d797ff>크록히드 장비상자 T3</color> 합성 가능]],
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -15859,7 +15863,7 @@ _G.pg.base.item_data_statistics[30013] = {
 	open_directly = 0,
 	name = "크록히드 장비상자 T3",
 	type = 5,
-	display = "이글 유니온(USS) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.",
+	display = "이글 유니온 장비를 무작위로 하나 획득한다.\n25%의 확률로 <color=#d797ff>SR 장비</color> 획득\n75%의 확률로 <color=#3dc6ff>R 장비</color> 획득",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -15893,7 +15897,7 @@ _G.pg.base.item_data_statistics[30014] = {
 	open_directly = 0,
 	name = "크록히드 장비상자 T4",
 	type = 5,
-	display = "이글 유니온(USS) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#ffde38>SS Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.",
+	display = "이글 유니온 장비를 무작위로 하나 획득한다.\n15%의 확률로 <color=#ffde38>SSR 장비</color> 획득\n85%의 확률로 <color=#d797ff>SR 장비</color> 획득",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -15995,7 +15999,11 @@ _G.pg.base.item_data_statistics[30022] = {
 	open_directly = 0,
 	name = "비스커 장비상자 T2",
 	type = 5,
-	display = "로열 네이비(HMS) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#d797ff>비스커 장비상자 T3</color>로 합성 가능.",
+	display = [[
+로열 네이비 장비를 무작위로 하나 획득한다.
+40%의 확률로 <color=#3dc6ff>R 장비</color> 획득
+60%의 확률로 노멀 장비 획득
+*<color=#ffde38>5개</color>로 <color=#d797ff>비스커 장비상자 T3</color> 합성 가능]],
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -16029,7 +16037,7 @@ _G.pg.base.item_data_statistics[30023] = {
 	open_directly = 0,
 	name = "비스커 장비상자 T3",
 	type = 5,
-	display = "로열 네이비(HMS) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.",
+	display = "로열 네이비 장비를 무작위로 하나 획득한다.\n25%의 확률로 <color=#d797ff>SR 장비</color> 획득\n75%의 확률로 <color=#3dc6ff>R 장비</color> 획득",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -16063,7 +16071,7 @@ _G.pg.base.item_data_statistics[30024] = {
 	open_directly = 0,
 	name = "비스커 장비상자 T4",
 	type = 5,
-	display = "로열 네이비(HMS) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#ffde38>SS Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.",
+	display = "로열 네이비 장비를 무작위로 하나 획득한다.\n15%의 확률로 <color=#ffde38>SSR 장비</color> 획득\n85%의 확률로 <color=#d797ff>SR 장비</color> 획득",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -16165,7 +16173,11 @@ _G.pg.base.item_data_statistics[30032] = {
 	open_directly = 0,
 	name = "자오중공 장비상자 T2",
 	type = 5,
-	display = "사쿠라 엠파이어(IJN) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#d797ff>자오중공 장비상자 T3</color>로 합성 가능.",
+	display = [[
+사쿠라 엠파이어 장비를 무작위로 하나 획득한다.
+40%의 확률로 <color=#3dc6ff>R 장비</color> 획득
+60%의 확률로 노멀 장비 획득
+*<color=#ffde38>5개</color>로 <color=#d797ff>자오중공 장비상자 T3</color> 합성 가능]],
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -16199,7 +16211,7 @@ _G.pg.base.item_data_statistics[30033] = {
 	open_directly = 0,
 	name = "자오중공 장비상자 T3",
 	type = 5,
-	display = "사쿠라 엠파이어(IJN) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.",
+	display = "사쿠라 엠파이어 장비를 무작위로 하나 획득한다.\n25%의 확률로 <color=#d797ff>SR 장비</color> 획득\n75%의 확률로 <color=#3dc6ff>R 장비</color> 획득",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -16233,7 +16245,7 @@ _G.pg.base.item_data_statistics[30034] = {
 	open_directly = 0,
 	name = "자오중공 장비상자 T4",
 	type = 5,
-	display = "사쿠라 엠파이어(IJN) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#ffde38>SS Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.",
+	display = "사쿠라 엠파이어 장비를 무작위로 하나 획득한다.\n15%의 확률로 <color=#ffde38>SSR 장비</color> 획득\n85%의 확률로 <color=#d797ff>SR 장비</color> 획득",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -16301,7 +16313,7 @@ _G.pg.base.item_data_statistics[30041] = {
 	open_directly = 0,
 	name = "크라프 장비상자 T1",
 	type = 5,
-	display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능\nNormal 등급 장비가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#3dc6ff>크라프 장비상자 T2</color>로 합성 가능.",
+	display = "메탈 블러드 장비가 무작위로 하나 출현한다\n노멀 장비 출현\n*<color=#ffde38>5개</color>로 <color=#3dc6ff>크라프 장비상자 T2</color> 합성 가능",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -16335,7 +16347,11 @@ _G.pg.base.item_data_statistics[30042] = {
 	open_directly = 0,
 	name = "크라프 장비상자 T2",
 	type = 5,
-	display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.\n*<color=#ffde38>5개</color>를 모아 <color=#d797ff>크라프 장비상자 T3</color>로 합성 가능.",
+	display = [[
+메탈 블러드 장비를 무작위로 하나 획득한다.
+40%의 확률로 <color=#3dc6ff>R 장비</color> 획득
+60%의 확률로 노멀 장비 획득
+*<color=#ffde38>5개</color>로 <color=#d797ff>크라프 장비상자 T3</color> 합성 가능]],
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -16369,7 +16385,7 @@ _G.pg.base.item_data_statistics[30043] = {
 	open_directly = 0,
 	name = "크라프 장비상자 T3",
 	type = 5,
-	display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#3dc6ff>Rare 등급 장비</color>가 출현한다.",
+	display = "메탈 블러드 장비를 무작위로 하나 획득한다.\n25%의 확률로 <color=#d797ff>SR 장비</color> 획득\n75%의 확률로 <color=#3dc6ff>R 장비</color> 획득",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -16403,7 +16419,7 @@ _G.pg.base.item_data_statistics[30044] = {
 	open_directly = 0,
 	name = "크라프 장비상자 T4",
 	type = 5,
-	display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능\n낮은 확률로 <color=#ffde38>SS Rare 등급 장비</color>가 출현한다.\n높은 확률로 <color=#d797ff>S Rare 등급 장비</color>가 출현한다.",
+	display = "메탈 블러드 장비를 무작위로 하나 획득한다.\n15%의 확률로 <color=#ffde38>SSR 장비</color> 획득\n85%의 확률로 <color=#d797ff>SR 장비</color> 획득",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -16437,7 +16453,7 @@ _G.pg.base.item_data_statistics[30045] = {
 	open_directly = 0,
 	name = "크라프 장비상자 T5",
 	type = 5,
-	display = "메탈 블러드(KMS) 장비를 랜덤으로 1개 획득 가능\n<color=#ffde38>SS Rare 등급 장비</color>가 출현한다.",
+	display = "메탈 블러드 장비가 무작위로 하나 출현한다.\n<color=#ffde38>SSR 장비</color> 출현",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -17611,9 +17627,9 @@ _G.pg.base.item_data_statistics[30205] = {
 
 _G.pg.base.item_data_statistics[30206] = {
 	open_directly = 0,
-	name = "藏王重工科技箱T3(促销） ",
+	name = "자오중공 장비상자 T3 (판촉용 더미)",
 	type = 5,
-	display = "包含一件重樱阵营装备：\n100%几率获得一件<color=#d797ff>精锐装备</color>",
+	display = "사용하면 사쿠라 엠파이어 장비 획득 가능\n<color=#d797ff>SR</color> 장비 100% 획득 가능",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",

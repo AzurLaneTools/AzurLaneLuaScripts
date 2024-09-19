@@ -3599,10 +3599,61 @@ pg.gameset = {
 			}
 		}
 	},
+	boss_single_daily = {
+		key_value = 0,
+		description = {
+			5261,
+			3
+		}
+	},
+	main_scene_silent_time = {
+		description = "",
+		key_value = 60
+	},
 	unoccupied_ship_nationality = {
 		key_value = 0,
 		description = {
 			97
+		}
+	},
+	loveletter_item_new = {
+		key_value = 0,
+		description = {
+			{
+				2018,
+				44011,
+				73
+			},
+			{
+				2019,
+				44012,
+				241
+			},
+			{
+				2020,
+				44013,
+				490
+			},
+			{
+				2021,
+				44014,
+				871
+			},
+			{
+				2022,
+				44015,
+				4254
+			},
+			{
+				2023,
+				44016,
+				4686
+			},
+			{
+				2024,
+				44017,
+				5201
+			}
 		}
 	},
 	loveletter_item_old_year = {
@@ -3620,5 +3671,45 @@ pg.gameset = {
 				2024
 			}
 		}
+	},
+	monopoly2024_bubble_time = {
+		description = "",
+		key_value = 5
+	},
+	activity_town_bubble = {
+		key_value = 0,
+		description = {
+			{
+				5400
+			},
+			{
+				3,
+				1500,
+				{
+					10000,
+					9000,
+					8000
+				}
+			}
+		}
+	},
+	activity_town_favor = {
+		description = "",
+		key_value = 1
+	},
+	activity_town_param = {
+		key_value = 0,
+		description = {
+			{
+				8,
+				65011
+			},
+			1000000,
+			5
+		}
+	},
+	activity_town_special_work = {
+		description = "",
+		key_value = 8
 	}
 }

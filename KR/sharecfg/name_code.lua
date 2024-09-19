@@ -1611,10 +1611,10 @@ pg.name_code = {
 		nation = 0
 	},
 	[230] = {
-		name = "长门·META",
+		name = "나가토·META",
 		type = 1,
 		id = 230,
-		code = "鲨·META",
+		code = "나가토·META",
 		nation = 0
 	},
 	[250] = {

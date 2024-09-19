@@ -3749,7 +3749,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970506] = {
 		shiptype = 5,
-		name = "长门·META",
+		name = "나가토·META",
 		t_level = 5,
 		id = 970506,
 		t_level_1 = 2,

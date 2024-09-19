@@ -7440,9 +7440,9 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900452] = {
-		name = "皇家方舟",
+		name = "아크로열",
 		id = 900452,
-		desc = "无描述",
+		desc = "설명 없음",
 		illustrator2 = -1,
 		ship_group = 900452,
 		group_index = 0,

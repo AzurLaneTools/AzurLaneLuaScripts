@@ -3122,7 +3122,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295226] = {
 		cannon = 135,
-		name = "鲨·META(Tier.1)",
+		name = "나가토·META-Tier.1",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
@@ -3153,7 +3153,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295227] = {
 		cannon = 154,
-		name = "鲨·META(Tier.2)",
+		name = "나가토·META-Tier.2",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
@@ -3184,7 +3184,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295228] = {
 		cannon = 174,
-		name = "鲨·META(Tier.3)",
+		name = "나가토·META-Tier.3",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
@@ -3215,7 +3215,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295229] = {
 		cannon = 193,
-		name = "鲨·META(Tier.4)",
+		name = "나가토·META-Tier.4",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
@@ -3246,7 +3246,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295230] = {
 		cannon = 212,
-		name = "鲨·META(Tier.5)",
+		name = "나가토·META-Tier.5",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
@@ -3277,7 +3277,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295231] = {
 		cannon = 232,
-		name = "鲨·META(Tier.6)",
+		name = "나가토·META-Tier.6",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
@@ -3308,7 +3308,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295232] = {
 		cannon = 251,
-		name = "鲨·META(Tier.7)",
+		name = "나가토·META-Tier.7",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
@@ -3339,7 +3339,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295233] = {
 		cannon = 270,
-		name = "鲨·META(Tier.8)",
+		name = "나가토·META-Tier.8",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
@@ -3370,7 +3370,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295234] = {
 		cannon = 290,
-		name = "鲨·META(Tier.9)",
+		name = "나가토·META-Tier.9",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
@@ -3401,7 +3401,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295235] = {
 		cannon = 309,
-		name = "鲨·META(Tier.10)",
+		name = "나가토·META-Tier.10",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
@@ -3432,7 +3432,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295236] = {
 		cannon = 328,
-		name = "鲨·META(Tier.11)",
+		name = "나가토·META-Tier.11",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
@@ -3463,7 +3463,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295237] = {
 		cannon = 348,
-		name = "鲨·META(Tier.12)",
+		name = "나가토·META-Tier.12",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
@@ -3494,7 +3494,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295238] = {
 		cannon = 367,
-		name = "鲨·META(Tier.13)",
+		name = "나가토·META-Tier.13",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
@@ -3525,7 +3525,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295239] = {
 		cannon = 386,
-		name = "鲨·META(Tier.14)",
+		name = "나가토·META-Tier.14",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
@@ -3556,7 +3556,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295240] = {
 		cannon = 406,
-		name = "鲨·META(Tier.15)",
+		name = "나가토·META-Tier.15",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,

@@ -5623,8 +5623,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
 	tip = {
 		{
 			info = [[
-<color=#92fc63>2024.6.27 ~ 2024.9.29</color>
-META전 위치타·META가 진행 중입니다. META전에서는 동기화 수치를 모아 META 함선을 획득할 수 있습니다.
+<color=#92fc63>2024.9.19 ~ 2024.12.26</color>
+META전 나가토·META가 진행 중입니다. META전에서는 동기화 수치를 모아 META 함선을 획득할 수 있습니다.
 (※<color=#ff5c5c>동기화 수치 및 동기화 수치 획득 합계 보상은 진행 기간이 종료된 후에 초기화됩니다.</color>)
 
 ■ META전에 대해
@@ -21191,7 +21191,7 @@ META 연구실에서는 다음 조작을 실시할 수 있습니다.
 ・동기화 수치가 일정 수준에 도달하면 「META 함선」을 획득할 수 있습니다.
 ・「META」 함선을 이미 획득한 상태라면, 함선의 조작 화면에서 「정보 동기화」로 동기화 수치 관련 정보를 확인할 수 있습니다.
 
-※<color=#92fc63>2024.6.13 ~ 2024.9.5</color> 위치타·META　META전 오픈 기간에는 「위치타·META」의 동기화 수치를 획득할 수 있습니다.
+※<color=#92fc63>2024.9.19 ~ 2024.12.26</color> 나가토·META　META전 오픈 기간에는 「나가토·META」의 동기화 수치를 획득할 수 있습니다.
  동기화 수치 및 동기화 수치 총 획득 수 보상은 진행 기간 종료 후에 초기화됩니다.
 
 ■ 「META」 함선의 의장 강화
@@ -34224,15 +34224,15 @@ _G.pg.base.gametip.award_max_warning_minigame = {
 
 
 _G.pg.base.gametip.report_cannot_comment_level_1 = {
-	tip = "指挥官等级达到$1级后，才可以发送评论哦。 "
+	tip = "지휘관 레벨 $1 달성 시 코멘트를 쓸 수 있습니다."
 }
 
 
 _G.pg.base.gametip.report_cannot_comment_level_2 = {
-	tip = "当前处于评论受限状态，无法发送评论！"
+	tip = "지금은 코멘트를 쓸 수 없습니다."
 }
 
 
 _G.pg.base.gametip.commander_exp_limit = {
-	tip = "该指挥喵已达最大等级，无法添加指挥喵"
+	tip = "지휘냥 레벨이 최대치에 달했습니다. 더 이상 지휘냥을 추가할 수 없습니다."
 }
