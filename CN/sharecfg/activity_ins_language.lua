@@ -5600,7 +5600,68 @@ pg.activity_ins_language = setmetatable({
 		"ins_op_499_1_1",
 		"op_reply_499_1_1",
 		"ins_op_499_1_2",
-		"op_reply_499_1_2"
+		"op_reply_499_1_2",
+		"ins_500",
+		"ins_discuss_500_1",
+		"ins_reply_500_1_1",
+		"ins_reply_500_1_2",
+		"ins_reply_500_1_3",
+		"ins_reply_500_1_4",
+		"ins_discuss_500_2",
+		"ins_reply_500_2_1",
+		"ins_reply_500_2_2",
+		"ins_reply_500_2_3",
+		"ins_op_500_1_1",
+		"op_reply_500_1_1",
+		"ins_op_500_1_2",
+		"op_reply_500_1_2",
+		"ins_501",
+		"ins_discuss_501_1",
+		"ins_reply_501_1_1",
+		"ins_reply_501_1_2",
+		"ins_reply_501_1_3",
+		"ins_reply_501_1_4",
+		"ins_reply_501_1_5",
+		"ins_discuss_501_2",
+		"ins_reply_501_2_1",
+		"ins_reply_501_2_2",
+		"ins_discuss_501_3",
+		"ins_reply_501_3_1",
+		"ins_reply_501_3_2",
+		"ins_op_501_1_1",
+		"op_reply_501_1_1",
+		"ins_op_501_1_2",
+		"op_reply_501_1_2",
+		"ins_502",
+		"ins_discuss_502_1",
+		"ins_reply_502_1_1",
+		"ins_reply_502_1_2",
+		"ins_reply_502_1_3",
+		"ins_discuss_502_2",
+		"ins_reply_502_2_1",
+		"ins_reply_502_2_2",
+		"ins_reply_502_2_3",
+		"ins_reply_502_2_4",
+		"ins_op_502_1_1",
+		"op_reply_502_1_1",
+		"ins_op_502_1_2",
+		"op_reply_502_1_2",
+		"ins_503",
+		"ins_discuss_503_1",
+		"ins_reply_503_1_1",
+		"ins_reply_503_1_2",
+		"ins_reply_503_1_3",
+		"ins_reply_503_1_4",
+		"ins_reply_503_1_5",
+		"ins_discuss_503_2",
+		"ins_reply_503_2_1",
+		"ins_reply_503_2_2",
+		"ins_reply_503_2_3",
+		"ins_reply_503_2_4",
+		"ins_op_503_1_1",
+		"op_reply_503_1_1",
+		"ins_op_503_1_2",
+		"op_reply_503_1_2"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -22004,52 +22065,52 @@ pg.base.activity_ins_language = {
 		value = "好，我一定会努力的！"
 	},
 	ins_491 = {
-		value = ""
+		value = "太阳好好，出来画画啦( ๑╹ U╹)！"
 	},
 	ins_discuss_491_1 = {
-		value = ""
+		value = "飞云大人也要来画画！海天老师教了我怎么画小鸟！"
 	},
 	ins_reply_491_1_1 = {
-		value = ""
+		value = "那个居然是小鸟……？海天姐姐也是不容易啊……"
 	},
 	ins_reply_491_1_2 = {
-		value = ""
+		value = "安克雷奇……也要……画画！一起！"
 	},
 	ins_reply_491_1_3 = {
-		value = ""
+		value = "我已经带着画册出发了！"
 	},
 	ins_reply_491_1_4 = {
-		value = ""
+		value = "嘿嘿~快点来吧，趁着太阳还没下山！"
 	},
 	ins_discuss_491_2 = {
-		value = ""
+		value = "这景色很美，是在哪里呢？我也去看看吧。"
 	},
 	ins_reply_491_2_1 = {
-		value = ""
+		value = "是在……我想想，阳光亮晶晶的，感觉有些分不清方向……"
 	},
 	ins_reply_491_2_2 = {
-		value = ""
+		value = "这样啊，可惜了……不过我也不知道我现在在哪里……"
 	},
 	ins_reply_491_2_3 = {
-		value = ""
+		value = "你们站在原地不要动，我这就去找你们。"
 	},
 	ins_discuss_491_3 = {
-		value = ""
+		value = "团子串……看饿了！吾想吃{namecode:88}做的饭了！"
 	},
 	ins_reply_491_3_1 = {
-		value = ""
+		value = "好，等太阳下山了，我们就一起吃饭吧~"
 	},
 	ins_op_491_1_1 = {
-		value = ""
+		value = "小鸟画得很可爱。"
 	},
 	op_reply_491_1_1 = {
-		value = ""
+		value = "嘿嘿~送给指挥官呢！"
 	},
 	ins_op_491_1_2 = {
-		value = ""
+		value = "我来找你，别迷路了。"
 	},
 	op_reply_491_1_2 = {
-		value = ""
+		value = "好啊，那我也给指挥官准备画笔，一起来画画吧~"
 	},
 	ins_492 = {
 		value = ""
@@ -22400,6 +22461,189 @@ pg.base.activity_ins_language = {
 		value = ""
 	},
 	op_reply_499_1_2 = {
+		value = ""
+	},
+	ins_500 = {
+		value = ""
+	},
+	ins_discuss_500_1 = {
+		value = ""
+	},
+	ins_reply_500_1_1 = {
+		value = ""
+	},
+	ins_reply_500_1_2 = {
+		value = ""
+	},
+	ins_reply_500_1_3 = {
+		value = ""
+	},
+	ins_reply_500_1_4 = {
+		value = ""
+	},
+	ins_discuss_500_2 = {
+		value = ""
+	},
+	ins_reply_500_2_1 = {
+		value = ""
+	},
+	ins_reply_500_2_2 = {
+		value = ""
+	},
+	ins_reply_500_2_3 = {
+		value = ""
+	},
+	ins_op_500_1_1 = {
+		value = ""
+	},
+	op_reply_500_1_1 = {
+		value = ""
+	},
+	ins_op_500_1_2 = {
+		value = ""
+	},
+	op_reply_500_1_2 = {
+		value = ""
+	},
+	ins_501 = {
+		value = ""
+	},
+	ins_discuss_501_1 = {
+		value = ""
+	},
+	ins_reply_501_1_1 = {
+		value = ""
+	},
+	ins_reply_501_1_2 = {
+		value = ""
+	},
+	ins_reply_501_1_3 = {
+		value = ""
+	},
+	ins_reply_501_1_4 = {
+		value = ""
+	},
+	ins_reply_501_1_5 = {
+		value = ""
+	},
+	ins_discuss_501_2 = {
+		value = ""
+	},
+	ins_reply_501_2_1 = {
+		value = ""
+	},
+	ins_reply_501_2_2 = {
+		value = ""
+	},
+	ins_discuss_501_3 = {
+		value = ""
+	},
+	ins_reply_501_3_1 = {
+		value = ""
+	},
+	ins_reply_501_3_2 = {
+		value = ""
+	},
+	ins_op_501_1_1 = {
+		value = ""
+	},
+	op_reply_501_1_1 = {
+		value = ""
+	},
+	ins_op_501_1_2 = {
+		value = ""
+	},
+	op_reply_501_1_2 = {
+		value = ""
+	},
+	ins_502 = {
+		value = ""
+	},
+	ins_discuss_502_1 = {
+		value = ""
+	},
+	ins_reply_502_1_1 = {
+		value = ""
+	},
+	ins_reply_502_1_2 = {
+		value = ""
+	},
+	ins_reply_502_1_3 = {
+		value = ""
+	},
+	ins_discuss_502_2 = {
+		value = ""
+	},
+	ins_reply_502_2_1 = {
+		value = ""
+	},
+	ins_reply_502_2_2 = {
+		value = ""
+	},
+	ins_reply_502_2_3 = {
+		value = ""
+	},
+	ins_reply_502_2_4 = {
+		value = ""
+	},
+	ins_op_502_1_1 = {
+		value = ""
+	},
+	op_reply_502_1_1 = {
+		value = ""
+	},
+	ins_op_502_1_2 = {
+		value = ""
+	},
+	op_reply_502_1_2 = {
+		value = ""
+	},
+	ins_503 = {
+		value = ""
+	},
+	ins_discuss_503_1 = {
+		value = ""
+	},
+	ins_reply_503_1_1 = {
+		value = ""
+	},
+	ins_reply_503_1_2 = {
+		value = ""
+	},
+	ins_reply_503_1_3 = {
+		value = ""
+	},
+	ins_reply_503_1_4 = {
+		value = ""
+	},
+	ins_reply_503_1_5 = {
+		value = ""
+	},
+	ins_discuss_503_2 = {
+		value = ""
+	},
+	ins_reply_503_2_1 = {
+		value = ""
+	},
+	ins_reply_503_2_2 = {
+		value = ""
+	},
+	ins_reply_503_2_3 = {
+		value = ""
+	},
+	ins_reply_503_2_4 = {
+		value = ""
+	},
+	ins_op_503_1_1 = {
+		value = ""
+	},
+	op_reply_503_1_1 = {
+		value = ""
+	},
+	ins_op_503_1_2 = {
+		value = ""
+	},
+	op_reply_503_1_2 = {
 		value = ""
 	}
 }

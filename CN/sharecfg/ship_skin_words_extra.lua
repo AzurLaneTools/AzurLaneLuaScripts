@@ -291,7 +291,8 @@ pg.ship_skin_words_extra = setmetatable({
 		307150,
 		302250,
 		302260,
-		301910
+		301910,
+		304050
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -20338,6 +20339,59 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"指挥官，我好像已经无法适应独自一人的生活了……无法离开温暖的您……无法抑制想与您一直、一直在一起的想法……这样会很任性么……？"
+			}
+		}
+	},
+	[304050] = {
+		touch = "",
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		mission = "",
+		id = 304050,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"主上，今天的作战方案，请过目~"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"主上，请用。这是凤翔给我的点心，真是……太可爱了。|谋定而后动，知止而有得。主上，您又会如何决定舍与得呢？"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"主上，这样的话{namecode:161}的身体会……"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"看着主上的脸，感觉就连病痛都减弱了不少……咳，呼……就算是为了主上，{namecode:161}都会多支撑一段时间的。"
+			}
+		},
+		hp_warning = {
+			{
+				1100,
+				"主上……还在等着胜利的消息！"
 			}
 		}
 	}

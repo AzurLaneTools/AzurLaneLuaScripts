@@ -72,6 +72,8 @@ pg.pay_data_display = setmetatable({
 		72,
 		73,
 		74,
+		75,
+		76,
 		1000,
 		1001,
 		1002,
@@ -7260,7 +7262,7 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "",
 		limit_type = 2,
-		type_order = 2,
+		type_order = 3,
 		picture = "fudai15",
 		skin_inquire_relation = 86206,
 		id_str = "com.bilibili.blhx.zuanshi173",
@@ -7374,7 +7376,7 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "",
 		limit_type = 2,
-		type_order = 2,
+		type_order = 3,
 		picture = "lihejp6ss_l",
 		skin_inquire_relation = 69928,
 		id_str = "com.bilibili.blhx.zuanshi174",
@@ -7468,6 +7470,234 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40928,
+				1
+			}
+		}
+	},
+	[75] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		type = 1,
+		name = "梦幻乐园换装礼盒II",
+		first_pay_double = 0,
+		name_display = "梦幻乐园换装礼盒II",
+		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
+		subject = "梦幻乐园换装礼盒II",
+		money = 198,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai16",
+		skin_inquire_relation = 86207,
+		id_str = "com.bilibili.blhx.zuanshi175",
+		extra_service = 3,
+		id = 75,
+		airijp_id = "com.yostarjp.azurlane.diamond163",
+		extra_service_item = {
+			{
+				2,
+				86207,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					9,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86207,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81207,
+				1
+			}
+		}
+	},
+	[76] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		type = 1,
+		name = "金秋庆典礼盒(2023)复刻",
+		first_pay_double = 0,
+		name_display = "金秋庆典礼盒(2023)复刻",
+		descrip = "可获得一件角色换装，2023钻，和大量其他奖励",
+		subject = "金秋庆典礼盒(2023)复刻",
+		money = 198,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "lihejp6lf_l",
+		skin_inquire_relation = 69929,
+		id_str = "com.bilibili.blhx.zuanshi176",
+		extra_service = 3,
+		id = 76,
+		airijp_id = "com.yostarjp.azurlane.diamond164",
+		extra_service_item = {
+			{
+				2,
+				69929,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					9,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69929,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40929,
 				1
 			}
 		}
@@ -8780,7 +9010,7 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "",
 		limit_type = 2,
-		type_order = 4,
+		type_order = 5,
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.battlepass19",
@@ -9317,7 +9547,7 @@ pg.base.pay_data_display = {
 		show_group = "",
 		limit_type = 2,
 		time = "always",
-		type_order = 3,
+		type_order = 5,
 		picture = "lv_70",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.libao104",
@@ -11211,7 +11441,7 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "uigift",
 		limit_type = 5,
-		type_order = 2,
+		type_order = 4,
 		picture = "ui1",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.ui",
@@ -11279,7 +11509,7 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "uigift",
 		limit_type = 5,
-		type_order = 2,
+		type_order = 4,
 		picture = "ui1",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.ui1",
@@ -11353,7 +11583,7 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "uigift",
 		limit_type = 5,
-		type_order = 2,
+		type_order = 4,
 		picture = "ui1",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.ui2",

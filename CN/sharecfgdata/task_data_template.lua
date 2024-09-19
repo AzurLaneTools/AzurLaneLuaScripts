@@ -111987,6 +111987,584 @@ _G.pg.base.task_data_template[20593] = {
 }
 
 
+_G.pg.base.task_data_template[20596] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903350,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送天狼星表情包活动1",
+	desc = "舰队出征，以S评价通关10次",
+	sub_type = 24,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20596,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20597] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903351,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送天狼星表情包活动2",
+	desc = "登录游戏",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20597,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20598] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903352,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送天狼星表情包活动3",
+	desc = "完成军事委托2次",
+	sub_type = 80,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20598,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20599] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903353,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送天狼星表情包活动4",
+	desc = "进行2次演习",
+	sub_type = 27,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20599,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20600] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903354,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送天狼星表情包活动5",
+	desc = "完成3次每日挑战",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20600,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20601] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903355,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送天狼星表情包活动6",
+	desc = "舰船退役2次",
+	sub_type = 31,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20601,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20602] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903356,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送天狼星表情包活动7",
+	desc = "进行战术训练2次",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20602,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20603] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903357,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送天狼星表情包活动8",
+	desc = "舰船强化5次",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20603,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20604] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903358,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送天狼星表情包活动9",
+	desc = "击沉任意敌人20艘",
+	sub_type = 11,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20604,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20605] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903359,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送天狼星表情包活动10",
+	desc = "后宅补充食物5次",
+	sub_type = 61,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20605,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20606] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903360,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送天狼星表情包活动11",
+	desc = "打开任意科技箱1个",
+	sub_type = 50,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20606,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20607] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903361,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送天狼星表情包活动12",
+	desc = "建造舰船2次",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20607,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20608] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903362,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送天狼星表情包活动13",
+	desc = "进行2次战术训练",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20608,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20609] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903363,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送天狼星表情包活动14",
+	desc = "击败旗舰3次 ",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20609,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65024,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
 _G.pg.base.task_data_template[31017] = {
 	target_id_2 = "",
 	guild_coin_award = 0,
@@ -197320,6 +197898,325 @@ _G.pg.base.task_data_template[500037] = {
 	target_num = 100,
 	fix_task = 0,
 	target_id = "10324",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18013,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500041] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500041,
+	type = 5,
+	is_head = 1,
+	count_inherit = 0,
+	name = "苦恼的事",
+	desc = "提交3个《鱼雷天妇罗》",
+	sub_type = 1000,
+	task_fold = 0,
+	story_icon = "gaoxiong",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500042",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "GAOXIONG1",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500041,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "50003",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+
+_G.pg.base.task_data_template[500042] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500042,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "不同往常的训练",
+	desc = "强化任意角色10次",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "gaoxiong",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500043",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "GAOXIONG2",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500042,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500043] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500043,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "修行中的意外",
+	desc = "{namecode:66}上阵出击(关卡)胜利20次",
+	sub_type = 18,
+	task_fold = 0,
+	story_icon = "gaoxiong",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500044",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "GAOXIONG3",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500043,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "30311",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500044] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500044,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "阶段性成果",
+	desc = "累计消耗石油500",
+	sub_type = 121,
+	task_fold = 0,
+	story_icon = "gaoxiong",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500045",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "GAOXIONG4",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500044,
+	target_num = 500,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500045] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500045,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "预料外的协作",
+	desc = "{namecode:66}好感度达到100",
+	sub_type = 1012,
+	task_fold = 0,
+	story_icon = "gaoxiong",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500046",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "GAOXIONG5",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500045,
+	target_num = 10000,
+	fix_task = 0,
+	target_id = "30311",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16002,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500046] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500046,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "修行的真意",
+	desc = "{namecode:66}突破至满星",
+	sub_type = 33,
+	task_fold = 0,
+	story_icon = "gaoxiong",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500047",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "GAOXIONG6",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500046,
+	target_num = 6,
+	fix_task = 0,
+	target_id = "30311",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18012,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500047] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500047,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "最后的修行",
+	desc = "{namecode:66}等级达到100",
+	sub_type = 1013,
+	task_fold = 0,
+	story_icon = "gaoxiong",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "GAOXIONG7",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500047,
+	target_num = 100,
+	fix_task = 0,
+	target_id = "30311",
 	open_need = {},
 	award_display = {
 		{

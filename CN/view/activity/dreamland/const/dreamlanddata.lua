@@ -326,7 +326,7 @@ slot0.ExistAnyExploreAward = function(slot0)
 end
 
 slot0.ExistAnyMapOrExploreAward = function(slot0)
-	return slot0:ExistAnyMapAward() or slot0:ExistAnyExploreAward()
+	return slot0:ExistAnyMapAward() or slot0:ExistAnyExploreAward() or slot0:IsFirstEvent()
 end
 
 return slot0
