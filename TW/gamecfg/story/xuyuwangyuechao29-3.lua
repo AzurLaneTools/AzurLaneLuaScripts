@@ -15,7 +15,7 @@ return {
 			actor = 399010,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "大贤者。",
+			say = "大賢者。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -49,7 +49,7 @@ return {
 			actor = 399010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在此别过——",
+			say = "在此別過——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "黑色的气息将{namecode:152}吞噬。",
+			say = "黑色的氣息將伊吹吞噬。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "{namecode:294}的身边已经空无一人。",
+			say = "雲仙的身邊已經空無一人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg4",
 			hidePaintObj = true,
-			say = "气息构成的巨兽带着神明般的蔑视，注视着下方那个不断接近的微小光点。",
+			say = "氣息構成的巨獸帶著神明般的蔑視，注視著下方那個不斷接近的微小光點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,67 +124,21 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg4",
 			hidePaintObj = true,
-			say = "「此为徒劳——」",
+			say = "此為徒勞無功——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:294}",
-			side = 2,
-			bgName = "bg_yunxian_cg4",
-			factiontag = "海若之心",
-			dir = 1,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "这句话我已听了千百遍。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_yunxian_cg4",
-			hidePaintObj = true,
-			say = "「此为徒劳——」",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "{namecode:294}",
-			side = 2,
-			bgName = "bg_yunxian_cg4",
-			dir = 1,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "何为徒劳？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "{namecode:294}",
+			actorName = "雲仙",
 			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "海若之心",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我曾见证万千世界的毁灭。",
+			say = "這句話我已聽了千百遍。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,14 +149,42 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:294}",
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_yunxian_cg4",
+			hidePaintObj = true,
+			say = "此為徒勞無功——",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "雲仙",
+			side = 2,
+			bgName = "bg_yunxian_cg4",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "何為徒勞？",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "雲仙",
 			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "海若之心",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在每一次的命运中，“我”都做出了相同的抉择。",
+			say = "我曾見證千萬世界的毀滅。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,14 +195,14 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:294}",
+			actorName = "雲仙",
 			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "海若之心",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "与你一起湮灭，便是我的宿命么？",
+			say = "在每一次的命運中，「我」都做出了相同的抉擇。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,14 +213,14 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:294}",
+			actorName = "雲仙",
 			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "海若之心",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我……究竟为何而生？",
+			say = "與妳一起湮滅，便是我的宿命嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,14 +231,14 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:294}",
+			actorName = "雲仙",
 			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "海若之心",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是为此而生的么？",
+			say = "我……究竟為何而生？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,25 +249,14 @@ return {
 			}
 		},
 		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_yunxian_cg4",
-			hidePaintObj = true,
-			say = "「此为徒劳——」",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "{namecode:294}",
+			actorName = "雲仙",
 			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "海若之心",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在那湮灭的一击之中，我斩断了所有的杂念。",
+			say = "是為此而生的嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,14 +267,25 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:294}",
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_yunxian_cg4",
+			hidePaintObj = true,
+			say = "此為徒勞無功——",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "雲仙",
 			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "海若之心",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但我错了！",
+			say = "在那湮滅的一擊之中，我斬斷了所有的雜念。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,14 +296,14 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:294}",
+			actorName = "雲仙",
 			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "海若之心",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "眷恋与不舍。",
+			say = "但我錯了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,14 +314,14 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:294}",
+			actorName = "雲仙",
 			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "海若之心",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "迷惘与踌躇。",
+			say = "眷戀與不捨。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,14 +332,14 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:294}",
+			actorName = "雲仙",
 			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "海若之心",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这所有的一切。",
+			say = "迷惘與躊躇。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,14 +350,14 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:294}",
+			actorName = "雲仙",
 			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "海若之心",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "正是我为人的证明。",
+			say = "這所有的一切。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +368,25 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:294}",
+			actorName = "雲仙",
+			side = 2,
+			bgName = "bg_yunxian_cg4",
+			factiontag = "海若之心",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "正是我為人的證明。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "雲仙",
 			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "海若之心",
@@ -404,7 +404,7 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:294}",
+			actorName = "雲仙",
 			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "海若之心",
@@ -422,7 +422,7 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:294}",
+			actorName = "雲仙",
 			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "海若之心",
@@ -440,14 +440,14 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:294}",
+			actorName = "雲仙",
 			side = 2,
 			bgName = "bg_yunxian_cg4",
 			factiontag = "海若之心",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你也不是！",
+			say = "妳也不是！",
 			painting = {
 				alpha = 0.3,
 				time = 1

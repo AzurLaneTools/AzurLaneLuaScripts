@@ -16,7 +16,7 @@ return {
 			actor = 301890,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "斩——！",
+			say = "斬——！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -33,7 +33,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "刀光劈开不定形的气息，让它们暂时退缩。",
+			say = "刀光劈開不定形的氣息，讓它們暫時退縮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "但很快，这些诡异的怪物便卷土重来。",
+			say = "但很快，這些詭異的怪物便捲土重來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			actor = 301900,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这到底是些什么东西呀！",
+			say = "這到底是些什麼東西呀！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "火炮向着四周开火，烟尘弥漫。",
+			say = "火炮向著四周開火，煙塵瀰漫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "斩——！",
+			say = "斬——！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "挥动手中的刀刃，但这一击竟被挡下。",
+			say = "揮動手中的刀刃，但這一擊竟被擋下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "什么？！",
+			say = "什麼？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "气息在与其接触的那个部分，仿佛在瞬间发生了物质特性的转变。",
+			say = "氣息在與其接觸的那部分，彷彿在瞬間發生了物質特性的轉變。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "像是劈砍到某种光滑坚硬的表面，刀刃被猛地弹开。",
+			say = "像是劈砍到某種光滑堅硬的表面，刀刃被猛地彈開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么这样……！",
+			say = "怎麼這樣……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			actor = 302060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:189}，我们被包围了！",
+			say = "初月，我們被包圍了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			actor = 301900,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这些害虫！",
+			say = "這些害蟲！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			actor = 301900,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "鱼雷！主炮！都给我齐射啊！",
+			say = "魚雷！主炮！都給我齊射啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:298}你冷静点……",
+			say = "朝凪妳冷靜點……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "弹药快见底了，既然此路不通，那还是去找别的突破口吧。",
+			say = "彈藥快見底了，既然此路不通，還是去找別的突破口吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,7 +310,7 @@ return {
 			actor = 301900,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哪还有别的突破口啊！",
+			say = "哪裡還有別的突破口啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			actor = 301900,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "信号弹呢，快发信号弹！",
+			say = "信號彈呢，快發信號彈！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			actor = 301900,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果能被其他人看到，或许还能和我们汇合！",
+			say = "如果能被其他人看到，或許還能和我們匯合！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			actor = 302060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我来吧！",
+			say = "我來吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "主炮口向上抬起，炮弹在众人的上方爆炸。",
+			say = "主炮口向上抬起，炮彈在眾人的上方爆炸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "那团闪烁的微光成了这黑暗虚空中唯一的星辰。",
+			say = "那團閃爍的微光成了這黑暗虛空中唯一的星辰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			actor = 301900,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "弹药告罄……",
+			say = "彈藥告罄……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,9 +420,9 @@ return {
 			bgName = "bg_yunxian_3",
 			dir = 1,
 			actor = 301890,
-			actorName = "{namecode:189}",
+			actorName = "初月",
 			hidePaintObj = true,
-			say = "愿神明护佑。",
+			say = "願神明護佑。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,9 +438,9 @@ return {
 			bgName = "bg_yunxian_3",
 			dir = 1,
 			actor = 301890,
-			actorName = "{namecode:189}",
+			actorName = "初月",
 			hidePaintObj = true,
-			say = "我们要战斗到最后一刻！",
+			say = "我們要戰鬥到最後一刻！",
 			painting = {
 				alpha = 0.3,
 				time = 1

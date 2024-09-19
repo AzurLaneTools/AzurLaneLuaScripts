@@ -15,7 +15,7 @@ return {
 			actor = 303030,
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "港区时尚特刊——",
+			say = "港區時尚特刊——",
 			flashin = {
 				delay = 1,
 				dur = 1,
@@ -58,7 +58,7 @@ return {
 			actor = 101050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "港区，时尚特刊！",
+			say = "港區，時尚特刊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "港区——时尚特刊！",
+			say = "港區，時尚特刊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			hideOther = true,
 			actorName = "三人一同",
 			hidePaintObj = true,
-			say = "发售啦——————！",
+			say = "發售囉——————！",
 			subActors = {
 				{
 					actor = 303030,
@@ -130,7 +130,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……《港区时尚特刊》？",
+			say = "……《港區時尚特刊》？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			actor = 101050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼，这是我们三人合作创作的期刊哦！",
+			say = "哼哼，這是我們三人合作創作的期刊哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			actor = 303030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "内容主要是图文结合的介绍一下近期港区的潮流服饰。",
+			say = "內容主要是圖文結合的介紹一下近期港區的潮流服飾。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			actor = 303030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过偶尔也会有些其他的东西~",
+			say = "不過偶爾也會有些其他的東西~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:55}负责联系采访，格里德利负责拍照，文章则是我们三人共同负责！",
+			say = "青葉負責聯絡採訪，格里德利負責拍照，文章則是我們三人共同負責！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "至于拍照的模特——当然是穿上新衣的同伴们啦！",
+			say = "至於拍照的模特兒——當然是穿上新衣的同伴們啦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			actor = 101050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "视情况而定我们三个也会在杂志里登场哦！",
+			say = "視情況而定我們三個也會在雜誌裡登場哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			actor = 303030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "目前的计划是每月出一期。",
+			say = "目前的計劃是每月出一期。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			actor = 303030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过销量火爆的话，也会考虑不定期加刊就是了~",
+			say = "不過銷量火爆的話，也會考慮不定期加刊就是了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			actor = 303030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还请指挥官千万不要错过~",
+			say = "還請指揮官千萬不要錯過~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			actor = 101050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "牢牢把握住港区时尚潮流的话，对于指挥官也会有诸多好处吧？",
+			say = "牢牢把握住港區時尚潮流的話，對於指揮官也會有諸多好處吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,7 +316,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以不要犹豫，立刻买一本！",
+			say = "所以不要猶豫，立刻買一本！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -334,7 +334,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "让我们的时尚风潮，在港区席卷吧！",
+			say = "讓我們的時尚風潮，在港區席捲吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1

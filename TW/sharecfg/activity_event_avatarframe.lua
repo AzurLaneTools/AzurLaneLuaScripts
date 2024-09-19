@@ -1202,9 +1202,20 @@ pg.activity_event_avatarframe = {
 		link_event = 5001,
 		icon_frame = 327,
 		target = 2800,
-		start_time = "stop",
 		id = 12,
 		pt_id = 59484,
+		start_time = {
+			{
+				2024,
+				9,
+				19
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
 		task_level = {
 			{
 				1,

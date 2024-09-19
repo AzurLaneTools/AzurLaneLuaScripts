@@ -54,6 +54,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>獻給所有四年間持續奮鬥在港區的指揮官們</color>\n通過參與四週年限定活動獲取",
 		scene = {}
 	},
+	[107] = {
+		name = "五週年紀念",
+		gain_by = "",
+		time_second = 0,
+		id = 107,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>獻給所有五年間持續奮鬥在港區的指揮官們</color>\n通過參與五週年限定活動獲取",
+		scene = {}
+	},
 	[201] = {
 		name = "限界的挑戰者",
 		gain_by = "",
@@ -398,11 +407,11 @@ pg.item_data_frame = {
 	},
 	[327] = {
 		name = "紫藤花冠",
-		gain_by = "须臾望月抄",
+		gain_by = "須臾望月抄",
 		time_second = 0,
 		id = 327,
 		time_limit_type = 0,
-		desc = "透過後續活動獲得",
+		desc = "<color=#ffffff>「人生須臾，不可辜負。」</color>\n「須臾望月抄」活動獲取",
 		scene = {}
 	},
 	[401] = {
@@ -574,6 +583,7 @@ pg.item_data_frame = {
 		103,
 		104,
 		105,
+		107,
 		201,
 		202,
 		203,

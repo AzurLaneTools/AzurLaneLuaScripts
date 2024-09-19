@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgm = "theme-unzen",
-			say = "轻轻走近。",
+			say = "輕輕走近。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "？？？",
-			say = "重樱的餐食您还满意吗，来访者。",
+			say = "重櫻的餐點您還滿意嗎，來訪者。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,10 +36,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_510",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "抱歉，我无意闯入……只是四处闲逛时发现了这里。",
+			say = "抱歉，我無意闖入……只是四處閒逛時發現了這裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "？？？",
-			say = "这宅邸之内，路线复杂，您不但撞破了结界……",
+			say = "這宅邸之內，路線複雜，您不但撞破了結界……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "？？？",
-			say = "还能穿过所有的可能性到达这里。",
+			say = "還能穿過所有的可能性到達這裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "？？？",
-			say = "这便是缘吧？",
+			say = "這便是緣吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "悄悄打量着眼前的人。",
+			say = "悄悄打量著眼前的人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "？？？",
-			say = "您在思考，我是否也和她们一样？",
+			say = "您在思考，我是否也和她們一樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,10 +112,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_510",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "被你发现了啊……",
+			say = "被你發現了啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "？？？",
-			say = "我倒是能感受到，您身上与众不同的气息。",
+			say = "我倒是能感受到，您身上與眾不同的氣息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_510",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			say = "我也是。",
@@ -154,7 +154,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "？？？",
-			say = "您也能感受到吗？",
+			say = "您也能感受到嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "她的脸上闪过一丝错愕。",
+			say = "她的臉上閃過一絲錯愕。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "回首时，我俩四目相对。",
+			say = "回首時，我倆四目相對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "她的眼神温润如水。",
+			say = "她的眼神溫潤如水。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_510",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			say = "……",
@@ -211,7 +211,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "我转过脸去。",
+			say = "我轉過臉去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,20 +222,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "没想到是我先败下阵来……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_510",
-			factiontag = "指挥官",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "咳……",
+			say = "沒想到是我先敗下陣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,10 +232,23 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_510",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这么晚了，你是在这里等人吗？",
+			say = "咳…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_510",
+			factiontag = "指揮官",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "這麼晚了，你在這裡等人嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "为了掩饰尴尬，我开始转移话题。",
+			say = "為了掩飾尷尬，我開始轉移話題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,10 +282,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_510",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你有什么烦恼吗？",
+			say = "有什麼煩惱嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_510",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			say = "借景消愁？",
@@ -309,7 +309,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "意识到自己连珠炮似的提问有些失礼，我稍微停顿了一下。",
+			say = "意識到自己連珠炮似的提問有些失禮，我稍微停頓了一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "今日的晚宴过后，在重樱的访问之旅也就画上了句号。",
+			say = "今天的晚宴過後，在重櫻的訪問之旅也就畫上了句點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "再休息几日，我便要再次启程前往下一个目的地。",
+			say = "再休息幾日，我便要再次啟程前往下一個目的地。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "人生中的无数过客，有时离别便是永诀。",
+			say = "人生中無數的過客，有時離別是永訣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,10 +352,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_510",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "若是还能见面就好了。",
+			say = "若是還能見面就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "？？？",
-			say = "您说什么？",
+			say = "您說什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,10 +378,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_510",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "以后，要是我们还能在某处相见就好了。",
+			say = "以後，要是我們還能在某處相見就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "？？？",
-			say = "人生无常，有时候，须臾便是永恒。",
+			say = "人生無常，有時候，須臾便是永恆。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,10 +404,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_510",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但我还是遇见了你，不是吗？",
+			say = "但我還是遇見了妳，不是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,10 +417,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_510",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "在所有可能性的尽头，我找到了你。",
+			say = "在所有可能性的盡頭，我找到了妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "她转过脸去，不再说话。",
+			say = "她轉過臉去，不再說話。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "我们沐浴在月光下，时间缓缓流动。",
+			say = "我們沐浴在月光下，時間緩緩流動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "我多希望时间能够再慢一些。",
+			say = "我多希望時間能夠再慢一點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "转身准备离开，我的手却被她轻轻捉住。",
+			say = "轉身準備離開，我的手被她輕輕捉住。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "她看向我，引导着我的视线，看向空中的明月。",
+			say = "她看向我，引導我的視線，看向空中的明月。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "她的笑颜就这样永远地定格在了我的记忆中。",
+			say = "她的笑顏就這樣永遠定格在了我的記憶中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官？",
+			say = "指揮官？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -560,7 +560,7 @@ return {
 			actor = 107090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，飞机快要降落了哦？",
+			say = "指揮官，飛機快降落了哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			actor = 107380,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "埃塞克斯，你怎么还在这里？",
+			say = "艾塞克斯，妳怎麼還在這裡？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -595,7 +595,7 @@ return {
 			actor = 107380,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你身为白鹰代表，要出席黎塞留主教加冕仪式，可不能如此马虎。",
+			say = "妳身為白鷹代表，要出席黎胥留主教加冕儀式，可不能如此馬虎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -613,7 +613,7 @@ return {
 			actor = 107380,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "快点，跟我去换一身新衣服。",
+			say = "快點，跟我去換一套新衣服。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -630,7 +630,7 @@ return {
 			actor = 107380,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官也是，要赶紧起床准备出席仪式。",
+			say = "指揮官也是，要趕緊起床準備出席儀式。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -645,7 +645,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
-			say = "说话声渐行渐远。",
+			say = "說話聲漸行漸遠。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_aircraft_future",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			say = "……",
@@ -668,10 +668,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_aircraft_future",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "似乎陷入了一段久远的回忆之中。",
+			say = "似乎陷入了一段久遠的回憶。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,10 +681,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_aircraft_future",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "现在的我正在欧罗巴……的某处。",
+			say = "現在的我正在歐羅巴……的某處。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -695,7 +695,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
-			say = "耳边传来隆隆声，飞机平稳落地。",
+			say = "耳邊傳來隆隆聲，飛機平穩落地。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -706,42 +706,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
-			say = "稍微回想了一下今天的工作安排，不由得浑身一颤。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_aircraft_future",
-			factiontag = "指挥官",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "看来还要在欧罗巴这里忙活一阵子了……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
-			say = "翻了个身，享受着最后的安逸睡眠。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_aircraft_future",
-			hidePaintObj = true,
-			say = "方才的梦境再一次出现在我的眼前。",
+			say = "稍微回想了一下今天的工作安排，不禁全身一顫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -751,10 +716,32 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_aircraft_future",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（若是有缘，我们还会再次相见吧。）",
+			say = "看來還要在歐羅巴這裡忙碌一陣子了……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_aircraft_future",
+			hidePaintObj = true,
+			say = "翻了個身，享受最後的安逸睡眠。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_aircraft_future",
+			hidePaintObj = true,
+			say = "方才的夢境再一次出現在我的眼前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -764,10 +751,23 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_aircraft_future",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（重樱的大贤者。）",
+			say = "（若是有緣，我們還會再見面吧。）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_aircraft_future",
+			factiontag = "指揮官",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "（重櫻的大賢者。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -785,7 +785,7 @@ return {
 					2
 				},
 				{
-					"「往昔之半影虽已消弭。」",
+					"「往昔之半影雖已消弭。」",
 					4
 				},
 				{
@@ -793,11 +793,11 @@ return {
 					6
 				},
 				{
-					"「树欲静，而风不止。」",
+					"「樹欲靜，而風不止。」",
 					8
 				},
 				{
-					"「汝，将为之奈何？」",
+					"「汝，將為之奈何？」",
 					10
 				}
 			}

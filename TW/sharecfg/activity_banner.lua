@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "4974",
+		param = "5001",
 		type = 3,
 		id = 1,
 		pic = "temp1",
@@ -10,71 +10,7 @@ pg.activity_banner = {
 				{
 					2024,
 					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					10,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "4973",
-		type = 3,
-		id = 2,
-		pic = "temp2",
-		time = {
-			{
-				{
-					2024,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					10,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "5548",
-		type = 3,
-		id = 3,
-		pic = "temp3",
-		time = {
-			{
-				{
-					2024,
-					9,
-					12
+					19
 				},
 				{
 					0,
@@ -98,50 +34,21 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 4,
-		pic = "temp4",
+		id = 2,
+		pic = "temp2",
 		param = {
-			"scene dailylevel",
-			{}
+			"scene get boat",
+			{
+				projectName = "new",
+				page = 1
+			}
 		},
 		time = {
 			{
 				{
 					2024,
 					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					9,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "4975",
-		type = 3,
-		id = 5,
-		pic = "temp5",
-		time = {
-			{
-				{
-					2024,
-					9,
-					12
+					19
 				},
 				{
 					0,
@@ -153,7 +60,108 @@ pg.activity_banner = {
 				{
 					2024,
 					10,
-					16
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 3,
+		pic = "temp3",
+		param = {
+			"scene skinshop",
+			{}
+		},
+		time = {
+			{
+				{
+					2024,
+					9,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "5015",
+		type = 3,
+		id = 4,
+		pic = "temp4",
+		time = {
+			{
+				{
+					2024,
+					9,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 5,
+		pic = "temp5",
+		param = {
+			"scene court yard"
+		},
+		time = {
+			{
+				{
+					2024,
+					9,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					9
 				},
 				{
 					23,
@@ -168,10 +176,9 @@ pg.activity_banner = {
 		id = 6,
 		pic = "temp6",
 		param = {
-			"scene equip",
+			"scene get boat",
 			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
+				page = BuildShipScene.PAGE_PRAY
 			}
 		},
 		time = {
@@ -179,7 +186,7 @@ pg.activity_banner = {
 				{
 					2024,
 					9,
-					12
+					19
 				},
 				{
 					0,
@@ -191,7 +198,39 @@ pg.activity_banner = {
 				{
 					2024,
 					10,
-					16
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "5568",
+		type = 3,
+		id = 7,
+		pic = "temp7",
+		time = {
+			{
+				{
+					2024,
+					9,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					9
 				},
 				{
 					23,
@@ -203,12 +242,12 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 7,
-		pic = "temp7",
+		id = 8,
+		pic = "temp8",
 		param = {
-			"metacharacter",
+			"scene charge",
 			{
-				autoOpenShipConfigID = 9702061
+				wrap = 2
 			}
 		},
 		time = {
@@ -216,7 +255,7 @@ pg.activity_banner = {
 				{
 					2024,
 					9,
-					12
+					19
 				},
 				{
 					0,
@@ -228,39 +267,7 @@ pg.activity_banner = {
 				{
 					2024,
 					10,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "4726",
-		type = 3,
-		id = 8,
-		pic = "temp8",
-		time = {
-			{
-				{
-					2024,
-					9,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					9,
-					19
+					9
 				},
 				{
 					23,
@@ -280,7 +287,7 @@ pg.activity_banner = {
 				{
 					2024,
 					9,
-					12
+					19
 				},
 				{
 					0,
@@ -304,10 +311,35 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
-		time = "stop",
 		type = 12,
 		id = 99,
-		pic = "limit_skin"
+		pic = "limit_skin",
+		time = {
+			{
+				{
+					2024,
+					9,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[100] = {
 		param = "愛心巧克力|濃濃的愛意和巧克力更般配哦~<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
@@ -685,16 +717,16 @@ pg.activity_banner = {
 	get_id_list_by_type = {
 		[3] = {
 			1,
-			2,
-			3,
-			5,
-			8,
+			4,
+			7,
 			1003
 		},
 		[2] = {
-			4,
+			2,
+			3,
+			5,
 			6,
-			7,
+			8,
 			1000,
 			1001,
 			1002,

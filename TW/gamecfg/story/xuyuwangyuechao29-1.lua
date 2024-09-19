@@ -10,7 +10,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "刀光闪动，阻挡在前方的气息被一并驱散。",
+			say = "刀光閃動，阻擋在前方的氣息被一併驅散。",
 			flashN = {
 				color = {
 					1,
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:152}，前来助阵。",
+			say = "伊吹，前來助陣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			actor = 399060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:152}……？",
+			say = "伊吹……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我云游四方，循着异样的气息前来此处，却无法再前行一步。",
+			say = "我雲遊四方，循著異樣的氣息前來此處，卻無法再前進一步。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "忽然之间大地摇动，空无一物的海面之上竟然出现了一座充满异像的岛屿。",
+			say = "忽然之間大地搖動，空無一物的海面之上竟然出現了一座充滿異象的島嶼。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如此这般，我便一路赶了过来。",
+			say = "如此這般，我便一路趕了過來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "多说无用。",
+			say = "多說無用。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:294}大人，您的身侧交给我们便是！",
+			say = "雲仙大人，您的身側交給我們就是！",
 			painting = {
 				alpha = 0.3,
 				time = 1

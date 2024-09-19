@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
-			say = "循着枪声来到了射击游戏摊位附近。",
+			say = "循著槍聲來到了射擊遊戲攤位附近。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
-			say = "摊位上，{namecode:84:武藏}正举着道具枪，每发子弹都正中移动靶的靶心。",
+			say = "攤位上，武藏正舉著道具槍，每發子彈都正中移動靶的靶心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是指挥官啊，来得正好。",
+			say = "是指揮官啊，來得正好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
-			say = "少女身旁两侧，是两摞高高垒起的布偶。",
+			say = "少女身旁兩側，是兩疊高高壘起的布偶。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
-			say = "大约是意识到了我的视线，少女再度开了口。",
+			say = "大約是意識到了我的視線，少女再度開了口。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			actor = 900458,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这些是孩子们想要的礼物，我都赢回来了。",
+			say = "這些都是孩子們想要的禮物，我都贏回來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			actor = 900458,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官呢？有什么想要的礼物么？",
+			say = "指揮官呢？有什麼想要的禮物呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我没什么想要的，都给她们就好。",
+			say = "我沒什麼想要的，都給她們就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 900458,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那……本日的射击游戏就到此结束了啊……",
+			say = "那……本日的射擊遊戲就到此結束了啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（{namecode:84:武藏}似乎有些意犹未尽的样子……嗯……）",
+			say = "（武藏似乎有些意猶未盡的樣子……嗯……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等等。虽然我没什么想要的礼物，但我们可以比试一场？",
+			say = "等等。雖然我沒什麼想要的禮物，但我們可以比試一場？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			actor = 900458,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这倒是不错的提议，不过……如果只是单纯的比试，还是有些平淡了……",
+			say = "這倒是不錯的提議，不過……如果只是單純的比試，還是有些平淡了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			actor = 900458,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不如来个小小的赌局？",
+			say = "不如來個小小的賭局？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "赌什么？",
+			say = "賭什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			actor = 900458,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "输家答应赢家的一个要求，如何？",
+			say = "輸家答應贏家的一個要求，如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没问题。",
+			say = "沒問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过我要先熟悉一下这枪的手感，打靶就由你先开始吧？",
+			say = "不過我要先熟悉一下這槍的手感，打靶就由妳先開始吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			actor = 900458,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵~好，那便由我先开始。",
+			say = "呵呵~好，那便由我先開始。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_178",
-			say = "又是一轮标靶刷新后，彼此的得分依旧难分上下。",
+			say = "又是一輪標靶刷新後，彼此的得分依舊難分上下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
-			say = "砰砰砰——伴随着射击的声音，转眼间只剩最后一个标靶。",
+			say = "砰砰砰——伴隨著射擊的聲音，轉眼間只剩下最後一個標靶。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
-			say = "最终的胜负将依据这次的得分决定。",
+			say = "最終的勝負將依據這次的得分決定。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			actor = 900458,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，加油。",
+			say = "指揮官，加油。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "瞄准靶心，扣下扳机，子弹穿过靶心的瞬间，赢下了这局比赛。",
+			say = "瞄準靶心，扣下板機，子彈穿過靶心的瞬間，贏下了這局比賽。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			actor = 900458,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，恭喜，赢得漂亮。",
+			say = "指揮官，恭喜，贏得漂亮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			actor = 900458,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "依照之前的约定，你可以向我提出一个要求。",
+			say = "依照先前的約定，你可以向我提出一個要求。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			actor = 900458,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "无论是什么，我都会答应你的。",
+			say = "無論是什麼，我都會答應你的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "（似乎也没什么特别的要求，不如就将这个权利交给提议者吧。）",
+			say = "（似乎也沒什麼特別的要求，不如就將這個權利交給提議者吧。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "我的要求是……{namecode:84:武藏}可以对我提出一个要求。",
+			say = "我的要求是……武藏可以對我提出一個要求。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "无论是什么，我都会答应你的。",
+			say = "無論是什麼，我都會答應你的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "{namecode:84:武藏}露出了些许惊讶的表情，之后又转为温柔的微笑。",
+			say = "武藏露出了些許驚訝的表情，之後又轉為溫柔的微笑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			actor = 900458,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来如此……好，那我便提要求了。",
+			say = "原來如此……好，那我便提要求了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "子弹偏离了靶心，最终的总分不如{namecode:84:武藏}，这场比赛输了。",
+			say = "子彈偏離了靶心，最終的總分不如武藏，這場比賽輸了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "是我输了。",
+			say = "是我輸了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "{namecode:84:武藏}的目光从靶子上移到我身上，露出了温柔的微笑。",
+			say = "武藏的目光從靶子上移到我身上，露出了溫柔的微笑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			actor = 900458,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明明枪法如此精准，却偏偏在最后一个靶子打偏，输给了我……",
+			say = "明明槍法如此精準，卻偏偏在最後一個靶子打偏，輸給了我……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			actor = 900458,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这……还真是令人意想不到……对吧？呵呵~",
+			say = "這……還真是令人意想不到……對吧？呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			actor = 900458,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过，“输给我”这份心意，我便接受了。",
+			say = "不過，「輸給我」這份心意，我便接受了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -546,7 +546,7 @@ return {
 			actor = 900458,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我赢了，可以向指挥官提出一个要求……",
+			say = "我贏了，可以向指揮官提出一個要求……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,7 +569,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
-			say = "或许是少女身旁有着过多的毛绒玩偶的原因，又或许是这游乐园中特殊的氛围所致。",
+			say = "或許是少女身旁有著過多的毛絨玩偶的原因，又或許是這遊樂園中特殊的氛圍所致。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
-			say = "{namecode:84:武藏}脸上的笑容在此时此刻显得有些孩子气。",
+			say = "武藏臉上的笑容在此時此刻顯得有些孩子氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,7 +594,7 @@ return {
 			actor = 900458,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么，接下来的时间，就请陪伴着我，在这游乐园中尽情游玩吧。",
+			say = "那麼，接下來的時間，就請陪伴我，在這遊樂園中盡情遊玩吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

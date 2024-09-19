@@ -70,6 +70,7 @@ pg.pay_data_display = setmetatable({
 		4040,
 		4041,
 		4042,
+		4043,
 		4850,
 		4851,
 		4852,
@@ -6587,6 +6588,120 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[4043] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		type = 1,
+		name = "金秋禮盒",
+		first_pay_double = 0,
+		name_display = "金秋禮盒",
+		descrip = "可獲得一件角色換裝，2024鑽，和大量其他獎勵",
+		subject = "金秋禮盒",
+		money = 990,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "twfudai01",
+		skin_inquire_relation = 86010,
+		id_str = "com.hkmanjuu.azurlane.package44",
+		extra_service = 3,
+		id = 4043,
+		airijp_id = "com.hkmanjuu.azurlane.package44",
+		extra_service_item = {
+			{
+				2,
+				86010,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					9,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86010,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81015,
+				1
+			}
+		}
+	},
 	[4850] = {
 		extra_gem = 0,
 		limit_group = 1,
@@ -7059,12 +7174,12 @@ pg.base.pay_data_display = {
 		subject = "即刻出戰禮包",
 		money = 170,
 		limit_arg = 1,
-		tag = 1,
+		tag = 2,
 		gem = 0,
 		show_group = "",
 		limit_type = 2,
 		time = "always",
-		type_order = 0,
+		type_order = 3,
 		picture = "lv_70",
 		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.libao104",

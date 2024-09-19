@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgm = "battle-pacific",
-			say = "重樱群岛·某处",
+			say = "重櫻群島·某處",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
-			say = "夜幕之下，众人在薄雾中缓缓航行。",
+			say = "夜幕之下，眾人在薄霧中緩緩航行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "气温下降了。",
+			say = "氣溫下降了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -55,7 +55,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明明还在重樱群岛周围，现在却像是进入了极寒的北方。",
+			say = "明明還在重櫻群島周圍，現在卻像是進入了極寒的北方。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……本该存在的温暖消失了。",
+			say = "……本該存在的溫暖消失了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这么说，大神木果然……",
+			say = "這麼說，大神木果然……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
-			say = "{namecode:74}停住步伐，俯身用双手捧起海水。",
+			say = "長門停住步伐，俯身用雙手捧起海水。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
-			say = "冰冷的海水从{namecode:74}指间逃离。",
+			say = "冰冷的海水從長門指間逃離。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:84}，现在回想起来，那梦中还隐藏着别的异像。",
+			say = "武藏，現在回想起來，那夢中還隱藏著別的異象。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在所有的梦境中，我们都只看到了破灭的结局。",
+			say = "在所有的夢境中，我們都只看到了破滅的結局。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "却唯独没有看见大贤者的身影。",
+			say = "卻唯獨沒有看見大賢者的身影。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "简直就像是那时的重现……",
+			say = "簡直就像是那時的重現……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "或许应该派遣一支舰队守护圣域的安全。",
+			say = "或許應該派遣一支艦隊守護聖域的安全。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "吾的确安排过相关事项，但守卫的舰队也不过是在圣域旁徘徊。",
+			say = "吾的確安排過相關事項，但守衛的艦隊也不過是在聖域旁徘徊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "至于位于深处的大神木，因为有结界庇护，常人根本无法接近。",
+			say = "至於位於深處的大神木，因為有結界庇護，常人根本無法接近。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
-			say = "雾气渐浓，黑暗笼罩了航路。",
+			say = "霧氣漸濃，黑暗籠罩了航路。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:84}，虽说距离上一次并肩作战已过去许久，但现在一切仍历历在目。",
+			say = "武藏，雖說距離上一次並肩作戰已過許久，但現在一切仍歷歷在目。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:74}大人，您那时候留下的伤……",
+			say = "長門大人，您那時留下的傷……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "早已痊愈，不过有时依然会隐隐作痛。",
+			say = "早已痊癒，不過有時依然會隱隱作痛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这或许是心病吧。",
+			say = "這或許是心病吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
-			say = "三道航迹继续向着远方绵延。",
+			say = "三道航跡繼續向遠方綿延。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
-			say = "然而在某个瞬间，世界忽然陷入了一片死寂。",
+			say = "然而在某個瞬間，世界忽然陷入了一片死寂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
-			say = "仿佛整个区域变成了真空一般，周围本该存在的声响在这一刻完全消失了。",
+			say = "彷彿整個區域變成了真空一般，周圍本該存在的聲響在這一刻完全消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_mirror",
 			hidePaintObj = true,
-			say = "强烈的不适感笼罩着众人，但好在，这种状况并没有持续太久——",
+			say = "強烈的不適感籠罩著眾人，但好在，這種狀況並沒有持續太久——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们到了。",
+			say = "我們到了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,7 +447,7 @@ return {
 			bgm = "theme-unzen",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "笼罩航路的黑暗于某处崩裂，光明从中喷薄而出，刺眼的光芒让众人下意识地抬手遮挡。",
+			say = "籠罩航路的黑暗於某處崩裂，光明從中噴薄而出，刺眼的光芒讓眾人下意識地抬手遮擋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackFg = 1,
 			hidePaintObj = true,
-			say = "但这光芒所散发出的温暖如同邀请，无声地催促着众人投身于这光芒背后的桃源。",
+			say = "但這光芒所散發出的溫暖如同邀請，無聲地催促著眾人投身於這光芒背後的桃源。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackFg = 1,
 			hidePaintObj = true,
-			say = "只是愣神的功夫，黑暗形成的大幕便在众人的身后合拢，重新笼罩住外界的航路。",
+			say = "只是恍神的瞬間，黑暗形成的大幕便在眾人的身後合攏，重新籠罩住外界的航路。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……圣域。",
+			say = "……聖域。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
-			say = "柔和的光芒自茂盛的枝叶间落下，在少女的脸上投下斑驳的影迹。",
+			say = "柔和的光芒自茂盛的枝葉間落下，在少女的臉上投下斑駁的影跡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -525,7 +525,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
-			say = "众人带着期冀眺望，在樱色的天空下，远处宏伟的瀑布自高处滚滚而下。",
+			say = "眾人帶著期冀眺望，在櫻色的天空下，遠處宏偉的瀑布自高處滾滾而下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
-			say = "笼罩在黑暗海面上的冰冷雾气，也在此处变成了脚边浮动的仙云。",
+			say = "籠罩在黑暗海面上的冰冷霧氣，也在此處變成了腳邊浮動的仙雲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "尽管那么多年过去，这里却没有任何改变。就像时间停滞了一般……",
+			say = "儘管那麼多年過去，這裡卻沒有任何改變。就像時間停滯了一般…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -568,7 +568,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "吾依然记得，那时候与大贤者的对话——",
+			say = "吾依然記得，那時與大賢者的對話——",
 			painting = {
 				alpha = 0.3,
 				time = 1

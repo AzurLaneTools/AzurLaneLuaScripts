@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgm = "battle-unzen-2",
-			say = "与此同时——",
+			say = "同時——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "重樱群岛·{namecode:74}宅邸",
+			say = "重櫻群島·長門宅邸",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "黎明将至，依照指示，{namecode:75}从怀中拿出锦囊。",
+			say = "黎明將至，依照指示，陸奧從懷中拿出錦囊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "锦囊之中是一个小小的纸卷。",
+			say = "錦囊之中是一個小小的紙捲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "上面也只有寥寥几笔。",
+			say = "上面也只有寥寥幾筆。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			actor = 301490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:75}大人，您要去哪里？",
+			say = "陸奧大人，您要去哪裡？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			actor = 305060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "快，快去准备！",
+			say = "快，快去準備！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			actor = 305060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们必须马上放飞天灯！",
+			say = "我們必須馬上放飛天燈！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,7 +136,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "不消片刻，巨大的天灯伴随着摇曳的烛火缓慢升空。",
+			say = "不消片刻，巨大的天燈伴隨著搖曳的燭火緩慢升空。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "它赶在黎明之前，成为了夜空中最亮的星辰。",
+			say = "它趕在黎明之前，成為了夜空中最亮的星辰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_508",
-			say = "彻夜未眠的{namecode:226}注意到了天空中忽然出现的亮点。",
+			say = "徹夜未眠的酒豈注意到了天空中忽然出現的亮點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "紧接着，她匆忙跑向楼下。",
+			say = "緊接著，她匆匆跑向樓下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			actor = 302230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "都城的天灯已被点燃！",
+			say = "都城的天燈已點燃！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "惊呼的{namecode:226}撞上了门口的{namecode:80}。",
+			say = "驚呼的酒匂撞上了門口的紀伊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			actor = 302230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "都城的天灯已被点燃！！",
+			say = "都城的天燈已點燃！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			actor = 302230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是神子在请求援助！",
+			say = "是神子在請求援助！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			actor = 305120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么……吾等将会响应。",
+			say = "那麼……吾等將會響應。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			actor = 305120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "点燃天灯！",
+			say = "點燃天燈！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,7 +316,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "另一盏天灯从{namecode:84}宅邸的上空升起。",
+			say = "另一盞天燈從武藏宅邸的上空升起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "越来越多的光点出现，它们向着地平线不断延伸。",
+			say = "越來越多的光點出現，它們向著地平線不斷延伸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "仿佛连成了一条长龙。",
+			say = "彷彿連成了一條長龍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "天灯犹如烽火，将最紧急的讯息传递到重樱的每个角落。",
+			say = "天燈如烽火，將最緊急的訊息傳遞到重櫻的每個角落。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "都城枯萎的神木之下，{namecode:75}默默祈福。",
+			say = "在都城枯萎的神木之下，陸奧默默祈福。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "信仰的洪流向重樱各处的神木汇聚。",
+			say = "信仰的洪流向重櫻各處的神木匯聚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "看不见的根系似乎正在极速生长。",
+			say = "看不見的根系似乎正在極速生長。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "像一双双温柔的手，握住尽头处那已经枯死的大神木枝干，为其重新注入活力。",
+			say = "像一雙雙溫柔的手，握住盡頭處那已經枯死的大神木枝幹，為其重新注入活力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			actor = 305060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "愿这条信仰之河。",
+			say = "願這條信仰之河。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,7 +474,7 @@ return {
 			actor = 305060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "能助你们渡过难关。",
+			say = "能助妳們渡過難關。",
 			painting = {
 				alpha = 0.3,
 				time = 1

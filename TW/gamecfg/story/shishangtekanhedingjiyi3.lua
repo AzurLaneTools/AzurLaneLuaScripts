@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港区时尚特刊：合订集[1]\n\n<size=45>波光潋滟</size>",
+					"港區時尚特刊：合訂集[1]\n\n<size=45>波光瀲灩</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			bgm = "story-richang-6",
-			say = "烈日炎炎，波光粼粼，海面就像一块巨大的镜子，将蓝天白云毫无保留地呈现。",
+			say = "烈日炎炎，波光粼粼，海面就像一塊巨大的鏡子，將藍天白雲毫無保留地呈現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			actor = 305131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，你看到了吗！你觉得我这特意为你准备的“惊喜”怎么样？",
+			say = "指揮官，你看到了嗎！你覺得我這特意為你準備的「驚喜」怎麼樣？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -49,11 +49,11 @@ return {
 			},
 			options = {
 				{
-					content = "“惊喜”，是指穿泳装的{namecode:295}么？",
+					content = "「驚喜」，是指穿泳裝的尾張嗎？",
 					flag = 1
 				},
 				{
-					content = "“惊喜”，是指这张水床么？",
+					content = "「驚喜」，是指這張水床嗎？",
 					flag = 2
 				}
 			}
@@ -69,7 +69,7 @@ return {
 			actor = 305131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "才不是啦，不过……嘿嘿，原来指挥官是这样看我的，感觉超棒！",
+			say = "才不是啦，不過……嘿嘿，原來指揮官是這樣看我的，感覺超棒！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			actor = 305131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，“惊喜”是指这张水床啦~",
+			say = "指揮官，「驚喜」是指這張水床啦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			actor = 305131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不愧是指挥官，马上就猜到了呢！",
+			say = "不愧是指揮官，馬上就猜到了呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			actor = 305131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这水床是我一个人亲自造的！",
+			say = "這水床是我一個人親自做的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			actor = 305131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "期间请教了{namecode:175}，还拜托了{namecode:80}来帮忙……",
+			say = "期間請教了駿河，還拜託了紀伊來幫忙……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -171,7 +171,7 @@ return {
 			actor = 305131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？这还算是我一个人造的吗？",
+			say = "嗯？這還算是我一個人做的嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			actor = 305131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这种细枝末节就没必要纠结了！",
+			say = "這種細枝末節就沒必要糾結了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			actor = 305131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总之，指挥官快点来水床上好好享受吧！",
+			say = "總之，指揮官快點來水床上好好享受吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			actor = 305131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既能消除身体的疲劳，又能让心情焕然一新，摇荡在波浪间超舒服！",
+			say = "既能消除身體的疲勞，又能讓心情煥然一新，搖晃在波浪間超舒服！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			actor = 305131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对了，我还做了几样小菜，食材都是今天刚收上来的呢。",
+			say = "對了，我還做了幾樣小菜，食材都是今天剛收上來的呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,46 +268,7 @@ return {
 			actor = 305131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不仅新鲜有营养，还充满了我的心意！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "star_level_bg_133",
-			spine = true,
-			dir = 1,
-			spineOrderIndex = 1,
-			actor = 305131,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "以我和指挥官的羁绊，指挥官肯定能够尝得出来！",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			spineOrderIndex = 1,
-			side = 2,
-			bgName = "star_level_bg_133",
-			spine = true,
-			dir = 1,
-			actor = 305131,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "哈哈哈，指挥官你吃得太急啦~",
+			say = "不僅新鮮有營養，還充滿了我的心意！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +288,7 @@ return {
 			actor = 305131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不着急不着急，吃完了我再做就是。",
+			say = "以我和指揮官的羈絆，指揮官一定能夠嚐得出來！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +307,27 @@ return {
 			actor = 305131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为什么要费这么多心思？",
+			say = "哈哈哈，指揮官你吃得太急啦~",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "star_level_bg_133",
+			spine = true,
+			dir = 1,
+			spineOrderIndex = 1,
+			actor = 305131,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "不急不急，吃完了我再做就是。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +346,26 @@ return {
 			actor = 305131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那当然是因为指挥官是我心中最重要的人啊？",
+			say = "為什麼要費這麼多心思？",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			spineOrderIndex = 1,
+			side = 2,
+			bgName = "star_level_bg_133",
+			spine = true,
+			dir = 1,
+			actor = 305131,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "那當然是因為指揮官是我心中最重要的人啊？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			actor = 305131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "让重要的人开心不是理所当然的事情嘛~",
+			say = "讓重要的人開心不是理所當然的事喔~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -404,7 +404,7 @@ return {
 			actor = 305131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "另外，可不止这些哦，指挥官~",
+			say = "另外，可不止這些哦，指揮官~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -424,7 +424,7 @@ return {
 			actor = 305131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然我不擅长思考，在你身边时更是感觉大脑一片混乱……",
+			say = "雖然我不擅長思考，在你身邊時更是感覺大腦一片混亂……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			actor = 305131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但直觉告诉我，现在就该这样做——",
+			say = "但直覺告訴我，現在就該這樣做——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -482,7 +482,7 @@ return {
 			actor = 305131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "诶嘿嘿，抱上来了~",
+			say = "欸嘿嘿，抱上來了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			actor = 305131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "吃完了饭，接下来就该午睡了对吧？",
+			say = "吃完了飯，接下來就該午睡了對吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -522,7 +522,7 @@ return {
 			actor = 305131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一起来休息吧，指挥官~！",
+			say = "一起來休息吧，指揮官~！",
 			painting = {
 				alpha = 0.3,
 				time = 1

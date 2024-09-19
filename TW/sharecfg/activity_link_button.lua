@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_link_button = {
 	{
-		param = "5233",
+		param = "5001",
 		name = "event_all",
 		text_pic = "text_event_all",
 		type = 3,
@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5233
+			5001
 		}
 	},
 	{
@@ -46,12 +46,12 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5233
+			5001
 		},
 		param = {
 			"scene level",
 			{
-				mapIdx = 1630001
+				mapIdx = 1750001
 			}
 		}
 	},
@@ -65,10 +65,10 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5310
+			5560
 		},
 		param = {
-			"music festival 3"
+			"DREAMLAND_PREVIEW"
 		}
 	},
 	[30] = {

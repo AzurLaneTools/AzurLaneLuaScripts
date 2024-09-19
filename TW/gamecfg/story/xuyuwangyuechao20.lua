@@ -14,9 +14,9 @@ return {
 			stopbgm = true,
 			bgm = "battle-unknown-approaching",
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			hidePaintObj = true,
-			say = "火力掩护。",
+			say = "火力掩護。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900402,
-			say = "我还有一些侦查型号的飞机可以伴飞！",
+			say = "我還有一些偵查型號的飛機可以伴飛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,8 +53,8 @@ return {
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
-			say = "跟紧我。",
+			actorName = "大賢者",
+			say = "跟緊我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "二人跟在她的身后，距离枯木之上的光团越来越近。",
+			say = "二人跟在她的身後，距離枯木之上的光團越來越近。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我是看错了吗，怎么感觉那里的光越来越黯淡了。",
+			say = "我是看錯了嗎，怎麼感覺那裡的光越來越黯淡了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "躲避敌袭，差点失去平衡。",
+			say = "躲避敵襲，差點失去平衡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这，这根本打不完啊！",
+			say = "這，這根本打不完啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900402,
-			say = "外面还有更多，都往这里围过来了！",
+			say = "外面還有更多，都往這裡圍過來了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,8 +149,8 @@ return {
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
-			say = "它们是冲着我来的。",
+			actorName = "大賢者",
+			say = "它們是衝著我來的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "她突然停了下来。",
+			say = "她突然停了下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "刀刃出鞘，寒光斩断了周围的气息，为众人争取到了一点时间。",
+			say = "刀刃出鞘，寒光斬斷了周圍的氣息，為眾人爭取到了一點時間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,9 +184,9 @@ return {
 			bgName = "bg_yunxian_3",
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			hidePaintObj = true,
-			say = "这个距离应该足够了。",
+			say = "這個距離應該就夠了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "大姐姐，你要做什么？",
+			say = "大姐姐，妳要做什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			hidePaintEquip = true,
 			withoutActorName = true,
 			side = 2,
-			say = "头顶的光柱再次出现，但其展开的方式似乎有些艰难。",
+			say = "頭頂的光柱再次出現，但其展開的方式似乎有些艱難。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			hidePaintEquip = true,
 			withoutActorName = true,
 			side = 2,
-			say = "当光柱将二人完全笼罩之后。",
+			say = "當光柱將二人完全籠罩之後。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			hidePaintEquip = true,
 			withoutActorName = true,
 			side = 2,
-			say = "她走近，与她们隔着光幕。",
+			say = "她走近，與她們隔著光幕。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			hidePaintEquip = true,
 			withoutActorName = true,
 			side = 2,
-			say = "她微笑着道别，转身再次进入了黑色的深渊之中。",
+			say = "她微笑著道別，轉身再次進入了黑色的深淵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

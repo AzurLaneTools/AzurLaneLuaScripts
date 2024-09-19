@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgm = "story-unzen-heart",
-			say = "刀刃抵住黑暗的侵袭，她纵身跃起。",
+			say = "刀刃抵住黑暗的侵襲，她縱身躍起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "一点寒光刺入其中，将它撕裂驱散。",
+			say = "一點寒光刺入其中，將它撕裂驅散。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "黑气凝聚，扭曲的人形缓缓升起。",
+			say = "黑氣凝聚，扭曲的人形緩緩升起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "那是个黑影，映照出和她相同的样貌。",
+			say = "那是個黑影，映照出和她相同的樣貌。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -72,7 +72,7 @@ return {
 			hidePaintEquip = true,
 			withoutActorName = true,
 			side = 2,
-			say = "同时发力前冲，刀刃摩擦生出火光。",
+			say = "同時發力前衝，刀刃摩擦生出火光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			hidePaintEquip = true,
 			withoutActorName = true,
 			side = 2,
-			say = "弯腰侧身，收刀入鞘，后退半步和它拉开距离。",
+			say = "彎腰側身，收刀入鞘，後退半步和它拉開距離。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			hidePaintEquip = true,
 			withoutActorName = true,
 			side = 2,
-			say = "黑影却慢了半拍。",
+			say = "黑影卻慢了半拍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,9 +110,9 @@ return {
 			bgName = "bg_yunxian_5",
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			hidePaintObj = true,
-			say = "斩——！",
+			say = "斬——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			withoutActorName = true,
 			hidePaintEquip = true,
 			actor = 303190,
-			say = "横刀出鞘，在身前劈出一轮新月。",
+			say = "橫刀出鞘，在身前劈出一輪新月。",
 			flashN = {
 				color = {
 					1,
@@ -175,7 +175,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "消散的黑影中，传出放肆的笑声。",
+			say = "消散的黑影中，傳出放肆的笑聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "「此为徒劳——」",
+			say = "此為徒勞無功——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "气息汇聚成无数人形，向着中央的她发起攻势。",
+			say = "氣息匯聚成無數人形，向著中央的她發動攻勢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			hidePaintEquip = true,
 			withoutActorName = true,
 			side = 2,
-			say = "垫步上跳，冲刺的黑影互相碰撞，爆发出巨大的冲击。",
+			say = "墊步上跳，衝刺的黑影互相碰撞，爆發出巨大的衝擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hidePaintEquip = true,
 			withoutActorName = true,
 			side = 2,
-			say = "跳动的黑影接连不断朝着她袭来，却连触碰她都做不到。",
+			say = "跳動的黑影接連不斷朝著她襲來，卻連觸碰她都做不到。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "「此为徒劳——」",
+			say = "此為徒勞無功——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "从黑影穿梭产生的空隙中，她看到远处的那一点红光。",
+			say = "從黑影穿梭產生的空隙中，她看到遠處的那一點紅光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,8 +268,8 @@ return {
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
-			say = "找到你了。",
+			actorName = "大賢者",
+			say = "找到妳了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "瞬间加速，那个独特的黑影将刀尖对准了前方。",
+			say = "瞬間加速，那個獨特的黑影將刀尖對準了前方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,9 +292,9 @@ return {
 			bgName = "bg_yunxian_5",
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			hidePaintObj = true,
-			say = "湮灭……",
+			say = "湮滅…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			hidePaintEquip = true,
 			withoutActorName = true,
 			side = 2,
-			say = "她用尽全力刺向那一点红色，但却有一股力量在阻止刀尖的推进。",
+			say = "她用盡全力刺向那一點紅色，但卻有一股力量在阻止刀尖的推進。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,9 +319,9 @@ return {
 			bgName = "bg_yunxian_5",
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			hidePaintObj = true,
-			say = "这……便是……",
+			say = "這……便是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "暴虐的气息从黑影的伤口喷发。",
+			say = "暴虐的氣息從黑影的傷口噴發。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "黑影用双手握住刀刃，发出骇人的吼叫。",
+			say = "黑影用雙手握住刀刃，發出駭人的吼叫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,9 +355,9 @@ return {
 			bgName = "bg_yunxian_5",
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			hidePaintObj = true,
-			say = "我的终局……",
+			say = "我的終局……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			hidePaintEquip = true,
 			withoutActorName = true,
 			side = 2,
-			say = "更多的手臂从黑影中生出，死死握住刀刃，试图将其拔出。",
+			say = "更多的手臂從黑影中生出，死死握住刀刃，試圖將其拔出。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "「不——！」",
+			say = "不——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "刀刃断裂，黑色的冲击震荡了整个空间。",
+			say = "刀刃斷裂，黑色的衝擊震盪了整個空間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "她像一具断线的木偶，翻转着跌落到某座浮岛之上。",
+			say = "她像一具斷線的木偶，翻轉著跌落到某座浮島之上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "那一点红色再次被气息包裹，它们凝聚成巨大的怪物，怒吼着张开巨口。",
+			say = "那一點紅色再次被氣息包裹，它們凝聚成巨大的怪物，怒吼著張開巨口。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			say = "……",
 			typewriter = {
 				speed = 0.05,

@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgm = "theme-unzen",
-			say = "纯白的空间之中，两人站立——",
+			say = "純白的空間之中，兩人站立——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,62 +25,8 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			side = 0,
-			actorName = "大贤者",
-			say = "所谓湮灭，即是一切归于虚无。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 0,
-			bgName = "star_level_bg_1104",
-			nameColor = "#A9F548FF",
-			actor = 303190,
-			actorName = "大贤者",
-			hidePaintObj = true,
-			say = "正与负的对撞，不留一丝痕迹。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 303190,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
-			side = 0,
-			actorName = "大贤者",
-			say = "仿佛从未存在。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 0,
-			bgName = "star_level_bg_1104",
-			nameColor = "#A9F548FF",
-			actor = 303190,
-			actorName = "大贤者",
-			hidePaintObj = true,
-			say = "这便是你我的终局。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 303190,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_1104",
-			hidePaintObj = true,
-			side = 0,
-			actorName = "大贤者",
-			say = "不……从来没有什么你我，你就是我。",
+			actorName = "大賢者",
+			say = "所謂湮滅，就是一切歸於虛無。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,9 +38,22 @@ return {
 			bgName = "star_level_bg_1104",
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			hidePaintObj = true,
-			say = "我只是眷恋的投影，承载着所有的不舍与不甘。",
+			say = "正與負的對撞，不留一絲痕跡。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 303190,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_1104",
+			hidePaintObj = true,
+			side = 0,
+			actorName = "大賢者",
+			say = "彷彿從未存在過。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,9 +65,50 @@ return {
 			bgName = "star_level_bg_1104",
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			hidePaintObj = true,
-			say = "我在等待什么？",
+			say = "這便是妳我的終局。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 303190,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_1104",
+			hidePaintObj = true,
+			side = 0,
+			actorName = "大賢者",
+			say = "不……從來沒有什麼妳我，妳就是我。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 0,
+			bgName = "star_level_bg_1104",
+			nameColor = "#A9F548FF",
+			actor = 303190,
+			actorName = "大賢者",
+			hidePaintObj = true,
+			say = "我只是眷戀的投影，承載著所有的不捨與不甘。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 0,
+			bgName = "star_level_bg_1104",
+			nameColor = "#A9F548FF",
+			actor = 303190,
+			actorName = "大賢者",
+			hidePaintObj = true,
+			say = "我在等待什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			side = 1,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -133,9 +133,9 @@ return {
 			bgName = "star_level_bg_1104",
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			hidePaintObj = true,
-			say = "我还是无法忘记，那时在那个庭院所见之人。",
+			say = "我還是無法忘記，那時在那個庭院所見之人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,9 +147,9 @@ return {
 			bgName = "star_level_bg_1104",
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			hidePaintObj = true,
-			say = "我曾见过万千世界在眼前灰飞烟灭。",
+			say = "我曾見過千萬世界在眼前灰飛煙滅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,9 +161,9 @@ return {
 			bgName = "star_level_bg_1104",
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			hidePaintObj = true,
-			say = "我终于参悟那唯一的可能性。",
+			say = "我終於參悟那唯一的可能性。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,8 +175,8 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			side = 1,
-			actorName = "大贤者",
-			say = "除了湮灭，别无他法。",
+			actorName = "大賢者",
+			say = "除了湮滅，別無他法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			bgName = "star_level_bg_1104",
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			hidePaintObj = true,
 			say = "我一直都明白。",
 			typewriter = {
@@ -202,7 +202,7 @@ return {
 			bgName = "star_level_bg_1104",
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			hidePaintObj = true,
 			say = "我明白。",
 			typewriter = {
@@ -216,9 +216,9 @@ return {
 			bgName = "star_level_bg_1104",
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			hidePaintObj = true,
-			say = "那是我的终局，早已确定。",
+			say = "那是我的終局，早已確定。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,9 +230,9 @@ return {
 			bgName = "star_level_bg_1104",
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			hidePaintObj = true,
-			say = "我是直面命运的决心，不容动摇。",
+			say = "我是直面命運的決心，不容動搖。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,9 +244,9 @@ return {
 			bgName = "star_level_bg_1104",
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			hidePaintObj = true,
-			say = "若决心不曾动摇，我将不会存在。",
+			say = "若決心不曾動搖，我將不會存在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,9 +258,9 @@ return {
 			bgName = "star_level_bg_1104",
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			hidePaintObj = true,
-			say = "我深爱的这个世界，我希望在和煦的阳光中沐浴四季的气息。",
+			say = "我深愛的這個世界，我希望在和煦的陽光中沐浴四季的氣息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,9 +272,9 @@ return {
 			bgName = "star_level_bg_1104",
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			hidePaintObj = true,
-			say = "我想看到人们的笑容。",
+			say = "我想看到人們的笑容。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,8 +286,8 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			side = 0,
-			actorName = "大贤者",
-			say = "在那樱花雨中，细细品尝所有的美好。",
+			actorName = "大賢者",
+			say = "在那櫻花雨中，細細品嚐所有的美好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,9 +299,9 @@ return {
 			bgName = "star_level_bg_1104",
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			hidePaintObj = true,
-			say = "在月下，再次和牵挂之人相遇。",
+			say = "在月下，再次和牽掛之人相遇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,8 +313,8 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			side = 0,
-			actorName = "大贤者",
-			say = "正因如此，我才会在这里等候。",
+			actorName = "大賢者",
+			say = "正因如此，我才會在這裡等候。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,9 +326,9 @@ return {
 			bgName = "star_level_bg_1104",
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			hidePaintObj = true,
-			say = "时间定格于此，徒劳地等待那不可能的奇迹",
+			say = "時間定格於此，徒勞地等待那不可能的奇蹟",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			bgName = "star_level_bg_1104",
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			hidePaintObj = true,
 			say = "只需一面，哪怕只有一面……",
 			typewriter = {
@@ -354,7 +354,7 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			side = 0,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			say = "我想……",
 			typewriter = {
 				speed = 0.05,
@@ -367,9 +367,9 @@ return {
 			bgName = "star_level_bg_1104",
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			hidePaintObj = true,
-			say = "够了。",
+			say = "夠了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,9 +381,9 @@ return {
 			bgName = "star_level_bg_1104",
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			hidePaintObj = true,
-			say = "闯入的孩子们已经安全了么？",
+			say = "闖入的孩子們已經安全了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
 			side = 1,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -408,7 +408,7 @@ return {
 			bgName = "star_level_bg_1104",
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			hidePaintObj = true,
 			say = "那便好。",
 			typewriter = {
@@ -422,9 +422,9 @@ return {
 			bgName = "star_level_bg_1104",
 			nameColor = "#A9F548FF",
 			actor = 303190,
-			actorName = "大贤者",
+			actorName = "大賢者",
 			hidePaintObj = true,
-			say = "我决心已定——",
+			say = "我決心已定——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

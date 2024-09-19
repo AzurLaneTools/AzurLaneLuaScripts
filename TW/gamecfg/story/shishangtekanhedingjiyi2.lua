@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港区时尚特刊：合订集[1]\n\n<size=45>九月恋夏</size>",
+					"港區時尚特刊：合訂集[1]\n\n<size=45>九月戀夏</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "诶嘿嘿，终于来了呢，指挥官~",
+			say = "欸嘿嘿，終於來了呢，指揮官~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -43,7 +43,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "{namecode:189}可是在这里等你好——久了。",
+			say = "初月可是在這裡等你好——久了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -61,7 +61,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "作为惩罚，指挥官今天一整天都要陪{namecode:189}哦~",
+			say = "作為懲罰，指揮官今天一整天都要陪初月~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "由于{namecode:189}的一时兴起，在艳阳高照的某个夏日，我们来到了水上乐园。",
+			say = "由於初月的一時興起，在艷陽高照的某個夏日，我們來到了水上樂園。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
-			say = "对了，指挥官还没告诉我泳装的感想呢。",
+			say = "對了，指揮官還沒告訴我泳裝的感想。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = "home",
-			say = "指挥官快看快看，这可是{namecode:189}特意挑的~",
+			say = "指揮官快看快看，這可是初月特意挑的~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,11 +122,11 @@ return {
 			},
 			options = {
 				{
-					content = "太可爱了！",
+					content = "太可愛了！",
 					flag = 1
 				},
 				{
-					content = "彻底迷上了！",
+					content = "徹底迷上了！",
 					flag = 2
 				}
 			}
@@ -140,7 +140,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "对吧对吧！",
+			say = "對吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "虽然被{namecode:225}说款式太成熟不合适，但{namecode:189}的选择果然没错！",
+			say = "雖然被若月說款式太成熟不合適，但初月的選擇果然沒錯！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "彻、彻底迷上！？",
+			say = "徹、徹底迷上！？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "（呜哇哇，这也太直球了吧！）",
+			say = "（嗚哇哇，這也太直球了吧！）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "咳、咳咳！毕竟我长得这么可爱，指挥官会迷上我也是自然……",
+			say = "咳、咳咳！畢竟我長得這麼可愛，指揮官會迷上我也是自然……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "嗯？指挥官，你的脸怎么这么红？",
+			say = "嗯？指揮官，你的臉怎麼這麼紅？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "啊呀，难道……你害羞了？",
+			say = "啊呀，難道……你害羞了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "哈哈哈，看来{namecode:189}这身泳装对指挥官的冲击力太大了呢~",
+			say = "哈哈哈，看來初月這身泳裝對指揮官的衝擊力太大了呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "来，指挥官，既然你这么喜欢，快给{namecode:189}多拍几张照片吧！",
+			say = "來，指揮官，既然你這麼喜歡，快幫初月多拍幾張照片吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "拍完后，可要将这些照片设定为你的屏保哦，不同的通讯器要各设一张呢。",
+			say = "拍完後，可要將這些照片設定為你的桌布哦，不同的通訊器要各設一張呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:189}边说着，一边努力摆出模特杂志中才会看见的专业姿势——",
+			say = "初月邊說著，一邊努力擺出模特兒雜誌才會看見的專業姿勢──",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "怎样？{namecode:189}够可爱吗？",
+			say = "怎樣？初月夠可愛嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "还是说，指挥官有想要指定的姿势~？",
+			say = "還是說，指揮官有想要指定的姿勢~？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "{namecode:189}的身体可是很柔软呢，你看，连这种姿势都能摆出……哇！",
+			say = "初月的身體可是很柔軟呢，你看，連這種姿勢都能擺出……哇！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "千钧一发之际，抱住了即将失去平衡的{namecode:189}。",
+			say = "千鈞一髮之際，就抱住了即將失去平衡的初月。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "（手、手碰到了！不、不仅是手，其他地方也……）",
+			say = "（手、手碰到了！不、不只是手，其他地方也……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			bgName = "star_level_bg_117",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:189}，你没受伤吧？",
+			say = "初月，你沒受傷吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			actor = 301891,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "小、小女子不才，请您多多指教！！！！！！！！！！！",
+			say = "小、小女子不才，請多多指教！！！！！！！！！！！",
 			painting = {
 				alpha = 0.3,
 				time = 1

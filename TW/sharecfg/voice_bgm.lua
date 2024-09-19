@@ -138,7 +138,7 @@ pg.voice_bgm = {
 	NewShopsScene = {
 		default_bgm = "story-flowerdust-soft",
 		special_bgm = "",
-		bgm = "story-italy"
+		bgm = "main"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
@@ -1140,6 +1140,11 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "main-chunjie2"
 	},
+	ActivityBossHuanChangScene = {
+		default_bgm = "main-chunjie5-1",
+		special_bgm = "",
+		bgm = "main-chunjie5-1"
+	},
 	EducateMemoryLayer = {
 		default_bgm = "story-richang-quiet",
 		special_bgm = "",
@@ -1175,6 +1180,46 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "story-richang-8"
 	},
+	SkinMagazineSpringPage2 = {
+		default_bgm = "Main-chunjie4-2",
+		special_bgm = "",
+		bgm = "Main-chunjie4-2"
+	},
+	LanternFestivalView = {
+		default_bgm = "story-china",
+		special_bgm = "",
+		bgm = "story-china"
+	},
+	ChkalovTecCatchupPage = {
+		default_bgm = "theme-designshipVI",
+		special_bgm = "",
+		bgm = "theme-designshipVI"
+	},
+	MaoxiV4FramePage = {
+		default_bgm = "story-richang-sooth",
+		special_bgm = "",
+		bgm = "story-richang-sooth"
+	},
+	MaoxiV4TaskPage = {
+		default_bgm = "story-richang-sooth",
+		special_bgm = "",
+		bgm = "story-richang-sooth"
+	},
+	MaoxiV4MainPage = {
+		default_bgm = "theme-antarctica",
+		special_bgm = "",
+		bgm = "theme-antarctica"
+	},
+	MaoxiV4PtPage = {
+		default_bgm = "story-antarctica-serious",
+		special_bgm = "",
+		bgm = "story-antarctica-serious"
+	},
+	SleeplessCityPage = {
+		default_bgm = "story-nonightcity",
+		special_bgm = "",
+		bgm = "story-nonightcity"
+	},
 	YidaliSPMainPage = {
 		default_bgm = "battle-boss-italy",
 		special_bgm = "",
@@ -1189,6 +1234,16 @@ pg.voice_bgm = {
 		default_bgm = "story-italy",
 		special_bgm = "",
 		bgm = "story-italy"
+	},
+	MonopolyPtPage = {
+		default_bgm = "story-richang-2",
+		special_bgm = "",
+		bgm = "story-richang-2"
+	},
+	MonopolyPtScene = {
+		default_bgm = "story-richang-3",
+		special_bgm = "",
+		bgm = "story-richang-3"
 	},
 	OtherWorldMainPage = {
 		default_bgm = "story-mmorpg",
@@ -1225,6 +1280,41 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "story-battle-16bit-SFC"
 	},
+	MaoxiV3MainPage = {
+		default_bgm = "battle-deepecho",
+		special_bgm = "",
+		bgm = "battle-deepecho"
+	},
+	MaoxiV3PtPage = {
+		default_bgm = "battle-deepecho",
+		special_bgm = "",
+		bgm = "battle-deepecho"
+	},
+	LoginSignRe1Page = {
+		default_bgm = "battle-boss-deepecho",
+		special_bgm = "",
+		bgm = "battle-boss-deepecho"
+	},
+	MaoxiV3FrameLightPage = {
+		default_bgm = "bgm-cccp2",
+		special_bgm = "",
+		bgm = "bgm-cccp2"
+	},
+	VotingResulitAwardPage = {
+		default_bgm = "votefes-up",
+		special_bgm = "",
+		bgm = "votefes-up"
+	},
+	LittleChaijunRePage = {
+		default_bgm = "bar-soft",
+		special_bgm = "",
+		bgm = "bar-soft"
+	},
+	LycorisActivationPage = {
+		default_bgm = "theme-akagi-inside",
+		special_bgm = "",
+		bgm = "theme-akagi-inside"
+	},
 	IdolV3MainPage = {
 		default_bgm = "song-Alizarin-full",
 		special_bgm = "",
@@ -1255,10 +1345,30 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "song-Alizarin-full-inst"
 	},
+	LittleSpeeRePage = {
+		default_bgm = "story-richang-12",
+		special_bgm = "",
+		bgm = "story-richang-12"
+	},
+	BrestTecCatchupPage = {
+		default_bgm = "theme-designshipVI",
+		special_bgm = "",
+		bgm = "theme-designshipVI"
+	},
 	LinerSignPage = {
 		default_bgm = "story-richang-10",
 		special_bgm = "",
 		bgm = "story-richang-10"
+	},
+	FaxiV4FramePage = {
+		default_bgm = "theme-schoolfuture",
+		special_bgm = "",
+		bgm = "theme-schoolfuture"
+	},
+	LuodeniTaskPage = {
+		default_bgm = "theme-starsea-core",
+		special_bgm = "",
+		bgm = "theme-starsea-core"
 	},
 	SeventhAnniversaryMainPage = {
 		default_bgm = "theme-lightheven",
@@ -1290,6 +1400,11 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "level02"
 	},
+	UrExchangeMogadorPage = {
+		default_bgm = "theme-vichy-church",
+		special_bgm = "",
+		bgm = "theme-vichy-church"
+	},
 	SeventhInvitePage = {
 		default_bgm = "story-musicanniversary-gorgeous",
 		special_bgm = "",
@@ -1304,5 +1419,200 @@ pg.voice_bgm = {
 		default_bgm = "theme-yixian-soft-loop",
 		special_bgm = "",
 		bgm = "theme-yixian-soft-loop"
+	},
+	LongwuSkinPage = {
+		default_bgm = "story-richang-7",
+		special_bgm = "",
+		bgm = "story-richang-7"
+	},
+	KelifulanSkinRePage = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "story-musicanniversary-gorgeous"
+	},
+	GonghaiLoginPage = {
+		default_bgm = "battle-highseasfleet-reborn",
+		special_bgm = "",
+		bgm = "battle-highseasfleet-reborn"
+	},
+	GongHaiMainPage = {
+		default_bgm = "battle-highseasfleet-reborn",
+		special_bgm = "",
+		bgm = "battle-highseasfleet-reborn"
+	},
+	GongHaiPtRePage = {
+		default_bgm = "theme-highseasfleet",
+		special_bgm = "",
+		bgm = "theme-highseasfleet"
+	},
+	DexiV4FrameReRePage = {
+		default_bgm = "theme-frederick",
+		special_bgm = "",
+		bgm = "theme-frederick"
+	},
+	ChildishnessMainPage = {
+		default_bgm = "story-richang-7",
+		special_bgm = "",
+		bgm = "story-richang-7"
+	},
+	KindergartenScene = {
+		default_bgm = "story-richang-9",
+		special_bgm = "",
+		bgm = "story-richang-9"
+	},
+	TongXinSpringLayer = {
+		default_bgm = "story-richang-10",
+		special_bgm = "",
+		bgm = "story-richang-10"
+	},
+	BossRushAlvitScene = {
+		default_bgm = "story-richang-12",
+		special_bgm = "",
+		bgm = "story-richang-12"
+	},
+	HaitianSkinPage = {
+		default_bgm = "story-china",
+		special_bgm = "",
+		bgm = "story-china"
+	},
+	YingxiV3MainPage = {
+		default_bgm = "theme-vanguard",
+		special_bgm = "",
+		bgm = "theme-vanguard"
+	},
+	YingxiV3PtRePage = {
+		default_bgm = "theme-royalknights-battle",
+		special_bgm = "",
+		bgm = "theme-royalknights-battle"
+	},
+	YingxiV3FrameRePage = {
+		default_bgm = "level03",
+		special_bgm = "",
+		bgm = "level03"
+	},
+	LoginSignRe2Page = {
+		default_bgm = "theme-partydress",
+		special_bgm = "",
+		bgm = "theme-partydress"
+	},
+	HuanMengMainPtHybridPage = {
+		default_bgm = "theme-clemenceau",
+		special_bgm = "",
+		bgm = "theme-clemenceau"
+	},
+	SkinMagazinePageSummerRacing = {
+		default_bgm = "story-richang-light",
+		special_bgm = "",
+		bgm = "story-richang-light"
+	},
+	MonopolyCar2024Page = {
+		default_bgm = "votefes-start",
+		special_bgm = "",
+		bgm = "votefes-start"
+	},
+	MonopolyCar2024Scene = {
+		default_bgm = "votefes-up",
+		special_bgm = "",
+		bgm = "votefes-up"
+	},
+	JamaicaSkinRePage = {
+		default_bgm = "level",
+		special_bgm = "",
+		bgm = "level"
+	},
+	RupprechtTecCatchupPage = {
+		default_bgm = "theme-designshipVI",
+		special_bgm = "",
+		bgm = "theme-designshipVI"
+	},
+	OutPostTaskPage = {
+		default_bgm = "theme-akagi-inside",
+		special_bgm = "",
+		bgm = "theme-akagi-inside"
+	},
+	MeixiV5FramePage = {
+		default_bgm = "theme-akagi-inside",
+		special_bgm = "",
+		bgm = "theme-akagi-inside"
+	},
+	MetalWingMainPage = {
+		default_bgm = "battle-eagleunion",
+		special_bgm = "",
+		bgm = "battle-eagleunion"
+	},
+	PittsburghPtPage = {
+		default_bgm = "theme-designfleet-VII",
+		special_bgm = "",
+		bgm = "theme-designfleet-VII"
+	},
+	CowboyTownBackHillScene = {
+		default_bgm = "story-richang-westdaily",
+		special_bgm = "",
+		bgm = "story-richang-westdaily"
+	},
+	TownScene = {
+		default_bgm = "story-richang-westdaily",
+		special_bgm = "",
+		bgm = "story-richang-westdaily"
+	},
+	RuiFengSpPage = {
+		default_bgm = "story-newsakura",
+		special_bgm = "",
+		bgm = "story-newsakura"
+	},
+	DreamSignPage = {
+		default_bgm = "story-richang-quiet",
+		special_bgm = "",
+		bgm = "story-richang-quiet"
+	},
+	PlymouthTecCatchupPage = {
+		default_bgm = "theme-designshipVI",
+		special_bgm = "",
+		bgm = "theme-designshipVI"
+	},
+	AmagiACTaskPage = {
+		default_bgm = "theme-starsea-core",
+		special_bgm = "",
+		bgm = "theme-starsea-core"
+	},
+	AnniV5FramePage = {
+		default_bgm = "story-nailuo-theme",
+		special_bgm = "",
+		bgm = "story-nailuo-theme"
+	},
+	Japan2024AnniversaryMainPage = {
+		default_bgm = "theme-amagi-cv",
+		special_bgm = "",
+		bgm = "theme-amagi-cv"
+	},
+	Jp7thPtPage = {
+		default_bgm = "story-newsakura",
+		special_bgm = "",
+		bgm = "story-newsakura"
+	},
+	DreamlandFullPreviewScene = {
+		default_bgm = "story-fantasyland-summer",
+		special_bgm = "",
+		bgm = "story-fantasyland-summer"
+	},
+	SeventhInviteJPPage = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "story-musicanniversary-gorgeous"
+	},
+	AnniversarySevenLoginJPPage = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "story-musicanniversary-gorgeous"
+	},
+	Dorm3dVolleyballScene = {
+		default_bgm = "main-SeaAndSun",
+		special_bgm = "",
+		bgm = "main-SeaAndSun"
+	},
+	Dorm3dScene = {
+		default_bgm = "story-room-sirius",
+		special_bgm = "",
+		bgm = "story-room-sirius"
 	}
 }

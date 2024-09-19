@@ -79109,6 +79109,214 @@ _G.pg.base.equip_data_statistics[33113] = {
 }
 
 
+_G.pg.base.equip_data_statistics[33120] = {
+	name = "試作型203mm/55三連裝主炮",
+	speciality = "<[LOCK]>",
+	type = 3,
+	tech = 0,
+	value_2 = 65,
+	icon = "33120",
+	attribute_2 = "cannon",
+	descrip = "由重櫻開發的試作型三聯裝203mm重巡主炮",
+	rarity = 6,
+	damage = "30 x 6",
+	nationality = 3,
+	ammo = 2,
+	value_3 = 0,
+	id = 33120,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		3
+	},
+	ammo_info = {
+		{
+			1,
+			1428
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1428
+		},
+		{
+			4,
+			1215
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		33120
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		3,
+		18
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"IJN",
+		"CA",
+		"MG",
+		"HE"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[33121] = {
+	damage = "32 x 6",
+	base = 33120,
+	id = 33121,
+	weapon_id = {
+		33121
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[33122] = {
+	damage = "34 x 6",
+	base = 33120,
+	id = 33122,
+	weapon_id = {
+		33122
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[33123] = {
+	damage = "36 x 6",
+	base = 33120,
+	id = 33123,
+	weapon_id = {
+		33123
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[33124] = {
+	damage = "38 x 6",
+	base = 33120,
+	id = 33124,
+	weapon_id = {
+		33124
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[33125] = {
+	damage = "40 x 6",
+	base = 33120,
+	id = 33125,
+	weapon_id = {
+		33125
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[33126] = {
+	damage = "42 x 6",
+	base = 33120,
+	id = 33126,
+	weapon_id = {
+		33126
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[33127] = {
+	damage = "44 x 6",
+	base = 33120,
+	id = 33127,
+	weapon_id = {
+		33127
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[33128] = {
+	damage = "46 x 6",
+	base = 33120,
+	id = 33128,
+	weapon_id = {
+		33128
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[33129] = {
+	damage = "48 x 6",
+	base = 33120,
+	id = 33129,
+	weapon_id = {
+		33129
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[33130] = {
+	damage = "50 x 6",
+	base = 33120,
+	id = 33130,
+	weapon_id = {
+		33130
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[33131] = {
+	anti_siren = 100,
+	damage = "50 x 6",
+	base = 33120,
+	id = 33131,
+	weapon_id = {
+		33131
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[33132] = {
+	anti_siren = 200,
+	damage = "50 x 6",
+	base = 33120,
+	id = 33132,
+	weapon_id = {
+		33132
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[33133] = {
+	anti_siren = 300,
+	damage = "50 x 6",
+	base = 33120,
+	id = 33133,
+	weapon_id = {
+		33133
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[34000] = {
 	name = "356mm連裝炮",
 	speciality = "<[VOL]>",
@@ -132514,7 +132722,7 @@ _G.pg.base.equip_data_statistics[80042] = {
 
 
 _G.pg.base.equip_data_statistics[80051] = {
-	name = "专属弹幕-云仙I",
+	name = "專屬彈幕-雲仙I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -132522,7 +132730,7 @@ _G.pg.base.equip_data_statistics[80051] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "技能弹幕",
+	descrip = "技能彈幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -132558,7 +132766,8 @@ _G.pg.base.equip_data_statistics[80051] = {
 
 
 _G.pg.base.equip_data_statistics[80052] = {
-	name = "专属弹幕-云仙II",
+	descrip = "技能彈幕",
+	name = "專屬彈幕-雲仙II",
 	base = 80051,
 	id = 80052,
 	weapon_id = {
@@ -132569,7 +132778,7 @@ _G.pg.base.equip_data_statistics[80052] = {
 
 
 _G.pg.base.equip_data_statistics[80061] = {
-	name = "专属弹幕-初月I",
+	name = "專屬彈幕-初月I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -132577,7 +132786,7 @@ _G.pg.base.equip_data_statistics[80061] = {
 	value_2 = 0,
 	icon = "1",
 	value_1 = "0",
-	descrip = "技能弹幕",
+	descrip = "技能彈幕",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,
@@ -132613,7 +132822,8 @@ _G.pg.base.equip_data_statistics[80061] = {
 
 
 _G.pg.base.equip_data_statistics[80062] = {
-	name = "专属弹幕-初月II",
+	descrip = "技能彈幕",
+	name = "專屬彈幕-初月II",
 	base = 80061,
 	id = 80062,
 	weapon_id = {

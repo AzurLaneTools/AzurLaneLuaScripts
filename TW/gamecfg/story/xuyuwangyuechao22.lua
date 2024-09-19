@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			blackFg = 1,
 			bgm = "story-unzen-heart",
-			say = "世界天旋地转，{namecode:84}在黑暗中迷失了方向。",
+			say = "世界天旋地轉，武藏在黑暗中迷失了方向。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackFg = 1,
 			hidePaintObj = true,
-			say = "直到熟悉的光在她身边亮起，黑暗中出现了一道裂隙。",
+			say = "直到熟悉的光在她身邊亮起，黑暗中出現了一道裂隙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#A9F548FF",
 			blackFg = 1,
 			hidePaintObj = true,
-			say = "光芒中有一只手向她伸出。",
+			say = "光芒中有一隻手向她伸出。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:74}大人？",
+			say = "長門大人？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,7 +84,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "吾来晚了。",
+			say = "吾來晚了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -101,7 +101,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "能确定其他人的位置吗？",
+			say = "能確定其他人的位置嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "无法确定，但如果大贤者依然存在……",
+			say = "無法確定，但如果大賢者依然存在……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,7 +137,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她们能去的只有一个地方。",
+			say = "她們能去的只有一個地方。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,7 +172,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我去那里找她们，然后搜索大贤者的踪迹。",
+			say = "我去那裡找她們，然後搜索大賢者的蹤跡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "仪式即将展开，吾无法脱身。",
+			say = "儀式即將展開，吾無法脫身。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,42 +207,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她们……就托付给汝了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_yunxian_3",
-			dir = 1,
-			actor = 305050,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "这张符咒，汝收好。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_yunxian_3",
-			dir = 1,
-			actor = 305050,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "当汝找到她们，就将符咒点燃，吾感应到后便会启动仪式。",
+			say = "她們……就託付給汝了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +225,42 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "想要彻底阻止“息”逃离，唯有使用贤者术式一途。",
+			say = "這張符咒，汝收好。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_yunxian_3",
+			dir = 1,
+			actor = 305050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "當汝找到她們，就將符咒點燃，吾感應到後便會啟動儀式。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_yunxian_3",
+			dir = 1,
+			actor = 305050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "想要徹底阻止「息」逃離，唯有使用賢者術式一途。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但即便是吾，也无法驱动那样的术式太久。",
+			say = "但即便是吾，也無法驅動那樣的術式太久。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以，时机非常关键。",
+			say = "所以，時機非常關鍵。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:74}大人，您的意思是？",
+			say = "長門大人，您的意思是？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "通过贤者术式，吾可以将汝等传送出这片区域。",
+			say = "透過賢者術式，吾可以將汝等傳送出這片區域。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "待转移完成，吾再施加结界。",
+			say = "待轉移完成，吾再施加結界。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只是……请在吾无力支撑之前，务必找到大贤者。",
+			say = "只是……請在吾無力支撐之前，務必找到大賢者。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因为在吾看来，她的力量恐怕也所剩无几了。",
+			say = "因為在吾看來，她的力量恐怕也所剩無幾了。",
 			painting = {
 				alpha = 0.3,
 				time = 1

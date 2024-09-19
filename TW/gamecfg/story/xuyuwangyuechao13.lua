@@ -14,7 +14,7 @@ return {
 			bgm = "battle-unknown-approaching",
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "呜哇——！",
+			say = "嗚嗚嗚——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呜哇——啊——！",
+			say = "嗚哇——啊——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "奇怪的呼喊声回荡在{namecode:295}的耳边。",
+			say = "奇怪的呼喊聲迴盪在尾張的耳邊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,11 +47,11 @@ return {
 			portrait = 305130,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			actorName = "{namecode:295}",
+			actorName = "尾張",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这个声音是……{namecode:88}？",
+			say = "這個聲音是……瑞鳳？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,11 +65,11 @@ return {
 			portrait = 305130,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			actorName = "{namecode:295}",
+			actorName = "尾張",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不对不对，一定是我摔坏脑袋了。",
+			say = "不對不對，一定是我摔壞腦袋了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,11 +83,11 @@ return {
 			portrait = 305130,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			actorName = "{namecode:295}",
+			actorName = "尾張",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这声音听起来像是{namecode:88}在天上飞……",
+			say = "這聲音聽起來像是瑞鳳在天上飛……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			actor = 900402,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜哇——！",
+			say = "嗚嗚嗚——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			actor = 900402,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:295}————！",
+			say = "尾——張——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			portrait = 305130,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			actorName = "{namecode:295}",
+			actorName = "尾張",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -165,7 +165,7 @@ return {
 			portrait = 305130,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			actorName = "{namecode:295}",
+			actorName = "尾張",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -183,11 +183,11 @@ return {
 			portrait = 305130,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			actorName = "{namecode:295}",
+			actorName = "尾張",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "诶诶诶？真的是{namecode:88}？！",
+			say = "欸欸？真的是瑞鳳？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,7 +204,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900402,
-			say = "快——帮我——一把！",
+			say = "快——幫我——一把！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,11 +214,11 @@ return {
 			portrait = 305130,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			actorName = "{namecode:295}",
+			actorName = "尾張",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你怎么真的在天上飞？！",
+			say = "妳怎麼真的在天上飛？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "举目四顾寻找合适的道具，不小心瞥见了舰装之上的锁链。",
+			say = "舉目四顧尋找合適的道具，不小心瞥見了艦裝之上的鎖鏈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,11 +256,11 @@ return {
 			portrait = 305130,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			actorName = "{namecode:295}",
+			actorName = "尾張",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喝啊！舰装——！岂是如此不便之物！",
+			say = "喝啊！艦裝——！豈是如此不便之物！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -275,7 +275,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "徒手将锁链拆下——",
+			say = "徒手將鎖鏈拆下—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "将锁链缠绕在一起，用船锚做牵引，抛向被乱流吞没的{namecode:88}。",
+			say = "將鎖鏈纏繞在一起，用船錨做牽引，拋向被亂流吞沒的瑞鳳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,11 +296,11 @@ return {
 			portrait = 305130,
 			side = 2,
 			bgName = "bg_yunxian_3",
-			actorName = "{namecode:295}",
+			actorName = "尾張",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "抓紧了！",
+			say = "抓緊了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "奋力将{namecode:88}拖出受到影响的区域，巨大的惯性让{namecode:295}和她撞了个满怀。",
+			say = "奮力將瑞鳳拖出受到影響的區域，巨大的慣性讓尾張和她撞了個滿懷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900402,
-			say = "呜呜……",
+			say = "嗚嗚嗚……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900402,
-			say = "呜呜呜呜呜呜……",
+			say = "嗚嗚嗚……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,20 +382,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "从{namecode:295}的身上起来之后，{namecode:88}在一旁哭了起来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			nameColor = "#A9F548FF",
-			bgName = "bg_yunxian_3",
-			hidePaintObj = true,
-			side = 2,
-			actor = 900402,
-			say = "好可怕呜呜呜呜呜……",
+			say = "從尾張的身上起來之後，瑞鳳在一旁哭了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +395,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900402,
-			say = "{namecode:84}大人，{namecode:84}大人她……",
+			say = "好可怕嗚嗚嗚……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			nameColor = "#A9F548FF",
+			bgName = "bg_yunxian_3",
+			hidePaintObj = true,
+			side = 2,
+			actor = 900402,
+			say = "{namecode:84}大人，武藏大人，武藏大人她……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "大地摇晃，她们所在的竟是一座浮空的小岛，这座小岛正在围绕中心缓慢公转。",
+			say = "大地搖晃，她們所在的竟是一座浮空的小島，這座小島正圍繞著中心緩慢公轉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:84}大人？她也来这里了？",
+			say = "武藏大人？她也來這裡了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "一向冷静沉着的{namecode:88}居然放声大哭。",
+			say = "一向冷靜沉著的瑞鳳居然放聲大哭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "虽然有一堆话想问，但很明显现在的时机不对。",
+			say = "雖然有一堆話想問，但很明顯現在的時機不對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总之——",
+			say = "總之——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "先找个安全的地方……",
+			say = "先找個安全的地方……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -509,7 +509,7 @@ return {
 			actor = 305130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "剩下的之后再说！",
+			say = "剩下的之後再說！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -524,7 +524,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "{namecode:295}不由分说地扛起{namecode:88}，向着远离中心的方向加速逃离。",
+			say = "尾張不由分說地扛起瑞鳳，朝著遠離中心的方向加速逃離。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

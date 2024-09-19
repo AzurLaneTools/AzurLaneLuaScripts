@@ -9,7 +9,7 @@ return {
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
 			bgm = "story-fantasyland-light",
-			say = "在游乐园中走动时，不知不觉便来到了{namecode:188:樫野}的牛奶小摊。",
+			say = "在遊樂園中走動時，不知不覺便來到了樫野的牛奶小攤。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -23,7 +23,7 @@ return {
 			actor = 900453,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官~早上好。",
+			say = "指揮官~早上好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "着装清凉的少女有些羞涩地笑着打招呼，手中还拿着牛奶小摊的招牌。",
+			say = "穿著清涼的少女有些羞澀地笑著打招呼，手中還拿著牛奶小攤的招牌。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			actor = 900453,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官要不要来一瓶冰牛奶？",
+			say = "指揮官要不要來一瓶冰牛奶？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actor = 900453,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "都是今早新鲜现挤后冰镇的，很好喝的哦。",
+			say = "都是今早新鮮現擠後冰的，很好喝的哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好，那就来一瓶。",
+			say = "好，那就來一瓶。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "{namecode:188:樫野}放下了手中的招牌，走到小摊前准备分装牛奶。",
+			say = "樫野放下了手中的招牌，走到小攤前準備分裝牛奶。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			actor = 900453,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呀——疼疼疼……",
+			say = "呀——痛痛痛……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "少女在转身取牛奶时，似乎被什么东西绊了一下。",
+			say = "少女在轉身拿牛奶時，似乎被什麼東西絆了一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "牛奶也因这意外的动作尽数被打翻。",
+			say = "牛奶也因這意外的動作盡數被打翻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,18 +132,18 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "在少女慌张地试图补救时，她的身体彻底失去了平衡，倒向了一旁。",
+			say = "當少女慌張地試圖補救時，她的身體徹底失去了平衡，倒向了一旁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "靠近{namecode:188:樫野}",
+					content = "靠近樫野",
 					flag = 1
 				},
 				{
-					content = "扶住{namecode:188:樫野}",
+					content = "扶住樫野",
 					flag = 2
 				}
 			}
@@ -154,7 +154,7 @@ return {
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "迅速走到了{namecode:188:樫野}身边，接住了摇摇晃晃的她。",
+			say = "迅速走到了樫野身邊，接住了搖搖晃晃的她。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "迅速靠了过去，伸手搂住了摇摇晃晃的她。",
+			say = "迅速靠了過去，伸手摟住了搖搖晃晃的她。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "柔软的身体落入怀中，指尖所触摸到的少女裸露在外的肌肤正因日晒而微微发烫。",
+			say = "柔軟的身體落入懷中，指尖所觸摸到的少女裸露在外的肌膚正因日曬而微微發燙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "她倚靠着我稳住了身形，然后抬起了头。",
+			say = "她倚靠著我穩住了身形，然後抬起了頭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "似乎是由于距离过近的缘故，浅色的红晕落在她的面庞，蔓延至耳朵尖。",
+			say = "似乎是由於距離過近的緣故，淺色的紅暈落在她的面龐，蔓延至耳朵尖。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			actor = 900453,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谢、谢谢指挥官……",
+			say = "謝、謝謝指揮官……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,14 +227,14 @@ return {
 			actor = 900453,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "摊位有些太小了，视线又总是容易被挡住……一不注意就很容易碰倒什么东西……",
+			say = "攤位有些太小了，視線又總是容易被擋住……一不注意就很容易碰倒什麼東西……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你没事就好",
+					content = "妳沒事就好",
 					flag = 1
 				},
 				{
@@ -252,7 +252,7 @@ return {
 			actor = 900453,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，多亏了有指挥官扶住我……！",
+			say = "嗯，多虧了有指揮官扶住我……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "要是摔倒受伤就不好了。",
+			say = "要是摔倒受傷就不好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			actor = 900453,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，我下次会注意的……努力不摔倒……！",
+			say = "嗯，我下次會注意的……努力不跌倒……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			actor = 900453,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……总之我先收拾一下刚刚洒出来的牛奶哦……",
+			say = "呼……總之我先收拾一下剛剛灑出來的牛奶喔……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "{namecode:188:樫野}红着脸拉开了距离，重新靠近了变得凌乱的小摊，准备开始收拾。",
+			say = "樫野紅著臉拉開了距離，重新靠近了變得凌亂的小攤，準備開始收拾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我来帮你。",
+			say = "我來幫妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			actor = 900453,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……我自己来就好的，不用麻烦指挥官！",
+			say = "啊……我自己來就好的，不用麻煩指揮官！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "摇了摇头表示拒绝后，我拿起一旁的抹布，很快帮{namecode:188:樫野}收拾好了打翻的牛奶。",
+			say = "搖了搖頭表示拒絕後，我拿起一旁的抹布，很快幫樫野收拾好了打翻的牛奶。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_181",
-			say = "将小摊重新整理好后，{namecode:188:樫野}取了新瓶子，将新鲜的冰牛奶灌入其中。",
+			say = "將小攤重新整理好後，樫野拿了新瓶子，將新鮮的冰牛奶灌入其中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "在递给我之前，又在瓶口处用丝带打上了漂亮的蝴蝶结。",
+			say = "在遞給我之前，又在瓶口處用絲帶打上了漂亮的蝴蝶結。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			actor = 900453,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样就好啦~♪",
+			say = "這樣就好啦~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			actor = 900453,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，给你，冰牛奶~",
+			say = "指揮官，給你，冰牛奶~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "接过冰牛奶，入口时只觉夏日的热意通通被驱赶，很快便喝完了。",
+			say = "接過冰牛奶，入口時只覺夏日的熱意通被驅趕，很快便喝完了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			actor = 900453,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……指挥官喜欢真是太好了！",
+			say = "呼……指揮官喜歡真是太好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,
-			say = "少女的脸上露出了满足的笑容，方才因为失误而拘谨不安的神情一扫而空。",
+			say = "少女的臉上露出了滿足的笑容，方才因為失誤而拘謹不安的神情一掃而空。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			actor = 900453,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "之后在游乐园里玩累了……或者是渴了……随时欢迎回来喝冰牛奶哦♪~",
+			say = "之後在遊樂園玩累了……或是渴了……隨時歡迎回來喝冰牛奶哦♪~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

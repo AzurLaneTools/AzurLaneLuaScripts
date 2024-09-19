@@ -101,7 +101,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg5",
 			hidePaintObj = true,
-			say = "升腾的剑气直冲天际。",
+			say = "升騰的劍氣直衝天際。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg5",
 			hidePaintObj = true,
-			say = "如神迹般令天空一分为二。",
+			say = "如神跡般令天空一分為二。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg5",
 			hidePaintObj = true,
-			say = "巨兽扭动着、哀嚎着。",
+			say = "巨獸扭動著、哀嚎著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg5",
 			hidePaintObj = true,
-			say = "黑色的气息正在向某处汇聚。",
+			say = "黑色的氣息正在向某處匯聚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,20 +145,20 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg5",
 			hidePaintObj = true,
-			say = "但与之前不同的是，肆虐的气息并非是要发起新一轮的攻击，而是正在企图逃离。",
+			say = "但與之前不同的是，肆虐的氣息並非要發動新一輪的攻擊，而是正在企圖逃離。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:292}",
+			actorName = "四萬十",
 			side = 2,
 			bgName = "bg_yunxian_cg5",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:294}大人！",
+			say = "雲仙大人！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,13 +169,13 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:152}",
+			actorName = "伊吹",
 			side = 2,
 			bgName = "bg_yunxian_cg5",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:292}！",
+			say = "四萬十！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,13 +186,13 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:292}",
+			actorName = "四萬十",
 			side = 2,
 			bgName = "bg_yunxian_cg5",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我没事……",
+			say = "我沒事……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,14 +203,14 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:294}",
+			actorName = "雲仙",
 			side = 2,
 			bgName = "bg_yunxian_cg5",
 			factiontag = "海若之心",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当心，不能被它逃了。",
+			say = "當心，不能被它逃走了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -225,14 +225,14 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg5",
 			hidePaintObj = true,
-			say = "一团气息奋力逃出，径直掠过众人的上方。",
+			say = "一團氣息奮力逃出，徑直掠過眾人的上方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:152}",
+			actorName = "伊吹",
 			side = 2,
 			bgName = "bg_yunxian_cg5",
 			dir = 1,
@@ -249,14 +249,14 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:294}",
+			actorName = "雲仙",
 			side = 2,
 			bgName = "bg_yunxian_cg5",
 			factiontag = "海若之心",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "来不及追上了……",
+			say = "來不及追上了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg5",
 			hidePaintObj = true,
-			say = "云开雾散，浓密云层被光线刺穿。",
+			say = "雲開霧散，濃密雲層被光線刺穿。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg5",
 			hidePaintObj = true,
-			say = "大圣域外围的景色终于映入眼帘。",
+			say = "大聖域外圍的景色終於映入眼簾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,14 +293,14 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg5",
 			hidePaintObj = true,
-			say = "因为结界的保护，爆炸区域形成了明确的界限。",
+			say = "因為結界的保護，爆炸區域形成了明確的界線。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:294}",
+			actorName = "雲仙",
 			side = 2,
 			bgName = "bg_yunxian_cg5",
 			factiontag = "海若之心",
@@ -308,7 +308,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "开火！",
+			say = "開火！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
 			bgm = "theme-unzen",
-			say = "将舰装唤出，朝着气息逃离的方向开火，却无一命中。",
+			say = "將艦裝喚出，朝著氣息逃離的方向開火，卻無一命中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "距离它完全脱逃只差分毫——",
+			say = "距離它完全脫逃只差分毫——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "发光的术式纹路彻底封死了它的去路。",
+			say = "發光的術式紋路徹底封死了它的去路。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "被激活的结界纹路像是水上的波纹一般向四周扩散。",
+			say = "被啟動的結界紋路像是水上的波紋一般向四周擴散。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "然后，结界忽然向内收缩，爆炸区内的时光仿佛倒流，破碎的大地重新聚合。",
+			say = "然後，結界忽然向內收縮，爆炸區內的時光彷彿倒流，破碎的大地重新聚合。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "空间中所有的黑色气息都被挤压到一处——",
+			say = "空間中所有的黑色氣息都被擠壓到一處——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "大神木下方的那个光点之内。",
+			say = "大神木下方的那光點之內。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			actor = 399010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:74}大人！",
+			say = "長門大人！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -477,7 +477,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "赶、赶上了……",
+			say = "趕、趕上了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -495,7 +495,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大贤者，结界已经修复完毕……",
+			say = "大賢者，結界已經修復完畢…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -510,7 +510,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "说罢，{namecode:74}便在众人的眼前倒了下去。",
+			say = "說罷，長門便在眾人的眼前倒了下去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "无处遁形的气息重新被那股力量捕获，瞬间被拉回中心。",
+			say = "無所遁形的氣息重新被那股力量捕獲，瞬間被拉回中心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			actor = 399010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:74}大人！",
+			say = "長門大人！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,7 +549,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "{namecode:152}将其扶起。",
+			say = "伊吹將其扶起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			actor = 399010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好像只是劳累过度。",
+			say = "好像只是勞累過度。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -580,7 +580,7 @@ return {
 			actor = 399060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "施展这种级别的术式简直就是乱来……",
+			say = "施展這種等級的術式簡直就是亂來……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -598,7 +598,7 @@ return {
 			actor = 399060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这就是重樱的神子吗……",
+			say = "這就是重櫻的神子嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -616,7 +616,7 @@ return {
 			actor = 399060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……我还差得远呢……",
+			say = "嗯……我還差得遠呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -631,7 +631,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "精疲力尽的{namecode:292}瘫倒在地。",
+			say = "精疲力盡的四萬十癱倒在地。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,7 +646,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "能与你们并肩作战，实感荣幸。",
+			say = "能與妳們並肩作戰，實感榮幸。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -661,7 +661,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "{namecode:294}将刀刃插进土中，刀刃散发着光芒，不一会儿便破碎消失了。",
+			say = "雲仙將刀刃插進土中，刀刃散發著光芒，沒過一陣子便破碎消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -676,7 +676,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "时机已至……",
+			say = "時機已至……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -691,7 +691,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "一只蓝色的蝴蝶停在了{namecode:294}指尖，随后是数百、数千只。",
+			say = "一隻藍色的蝴蝶停在了雲仙指尖，接著是數百、數千隻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -702,7 +702,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "它们汇聚成发光的丝带，向着大神木之下的光点飘近。",
+			say = "它們匯聚成發光的絲帶，向著大神木下的光點飄近。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,7 +713,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "远处传来众人的呼唤声。",
+			say = "遠處傳來眾人的呼喚聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -724,7 +724,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "但片刻之前{namecode:294}所站之处，此时已无人可以回应。",
+			say = "但片刻之前雲仙所站之處，此時已無人可以回應。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -735,7 +735,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "在漫天的樱花雨中，大神木也随之消散。",
+			say = "在漫天的花雨之中，大神木也隨之消散。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -746,7 +746,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "花瓣汇聚成河，飘向那未知的远方。",
+			say = "花瓣匯聚成河，飄向那未知的遠方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

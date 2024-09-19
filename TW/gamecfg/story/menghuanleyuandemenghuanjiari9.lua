@@ -9,7 +9,7 @@ return {
 			bgm = "story-fantasyland-light",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "来到中心城堡附近时，烟花表演正上演到最高潮。",
+			say = "來到中心城堡區時，煙火表演正上演到最高潮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "一朵朵烟花划破夜空，在漆黑的天幕上绽放出绚丽的光芒。",
+			say = "一朵朵煙火劃破夜空，在漆黑的天幕上綻放出絢麗的光芒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "红色、金色的火花如同光焰般向四周扩散、下坠。",
+			say = "紅色、金色的火花如同光焰般向四周擴散、墜落。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……就像是星星掉下来了一样。",
+			say = "……就像是星星掉下來了一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？这个比喻倒是不错。",
+			say = "嗯？這個比喻倒是不錯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然等下还有第二轮、第三轮烟花表演，不过果然还是第一轮更让人激动~！",
+			say = "雖然等下還有第二輪、第三輪煙火表演，不過果然還是第一輪更讓人興奮~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			actor = 305060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错没错！",
+			say = "沒錯沒錯！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			actor = 305060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:74:长门}姐姐你看那边！好好看！",
+			say = "長門姐姐妳看那邊！好好看！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，的确很好看。",
+			say = "嗯，的確很好看。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "站在我身侧的娇小少女抬头看着夜空中的色彩，唇角微微上扬。",
+			say = "站在我身側的嬌小少女抬頭看著夜空中的色彩，唇角微微上揚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼~{namecode:74:长门}小姐笑起来的样子很可爱哦！",
+			say = "哼哼~長門小姐笑起來的樣子很可愛喔！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "靠拍立得也能拍出这么完美的照片，真不愧是我！",
+			say = "靠拍立得也能拍出這麼完美的照片，真不愧是我！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官也看看~！",
+			say = "指揮官也看看~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,18 +243,18 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "阿尔弗雷多晃了晃手中的拍立得，然后将打印出来的相纸塞到了我的手里。",
+			say = "阿爾弗雷多晃了晃手中的拍立得，然後將印出來的相片塞到了我的手裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "的确很可爱",
+					content = "的確很可愛",
 					flag = 1
 				},
 				{
-					content = "的确很完美",
+					content = "的確很完美",
 					flag = 2
 				}
 			}
@@ -266,7 +266,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，我就说嘛~！",
+			say = "嘿嘿，我就說嘛~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，汝……汝真是……///",
+			say = "指揮官，汝……汝真是……///",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不过，这仍在梦境之中……照片应该是无法带出吧？）",
+			say = "（不過，這仍在夢境之中……照片應該是無法帶出去的吧？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "这样想着，看了一眼{namecode:161:天城}。而少女流露出几分惋惜的神色，随即点了点头。",
+			say = "這樣想著，看了一眼天城。而少女流露出幾分惋惜的神色，隨即點了點頭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "不知不觉间，烟花表演接近尾声。",
+			say = "不知不覺間，煙火表演接近尾聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "密集的烟花齐齐升空，在夜空中绘制出一幅壮观的画卷。",
+			say = "密集的煙火齊齊升空，在夜空中繪製出一幅壯觀的畫卷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦，只有烟花么？萨拉妹妹记得好像还有灯光秀？",
+			say = "咦，只有煙火嗎？薩拉妹妹記得好像還有燈光秀？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唔姆，本王也记得还有灯光秀。",
+			say = "唔姆，本王也記得還有燈光秀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "游乐园中的灯光突然间全都暗淡了下来，除了城堡周围。",
+			say = "遊樂園中的燈光突然間全都暗淡了下來，除了城堡周圍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "光影在城堡表面跳跃，勾勒出一段段记忆中熟悉的画面。",
+			say = "光影在城堡表面跳躍，勾勒出一段段記憶中熟悉的畫面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这是……我们一同经历过的那些时光？",
+			say = "這是……我們一同經歷過的那些時光？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "新年、情人节、夏日祭、万圣夜、海岛、温泉、极光、西部……还有……",
+			say = "海島、溫泉、極光……還有……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，筹划灯光秀的人倒是费了些心思呢。",
+			say = "呵呵，籌劃燈光秀的人倒是費了些心思。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			actor = 108080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜……都是松鲷珍贵的回忆……呜呜呜……",
+			say = "嗚……都是松鯛珍貴的回憶……嗚嗚嗚……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "别、别哭……呜……重剑也要哭了……",
+			say = "別、別哭……嗚……鈍劍也要哭了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,10 +479,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_182",
 			dir = 1,
-			actor = 118021,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸嘿嘿，之前记录下来的日常，就是要在这种时候发挥作用呢~",
+			say = "欸嘿嘿，之前紀錄下來的日常，就是要在這種時候發揮作用呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,10 +493,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_182",
 			dir = 1,
-			actor = 118021,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在尽情玩乐之余，回顾一下我们一起度过的每一天！",
+			say = "在盡情玩樂之餘，回顧我們一起度過的每一天！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,10 +507,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_182",
 			dir = 1,
-			actor = 307151,
+			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……虽说是日常，倒也是我们与指挥官之间弥足珍贵的回忆呢。",
+			say = "嗯……雖說是日常，反而是我們與指揮官之間彌足珍貴的回憶。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "城堡上的光影仍在变幻，音乐与灯光完美的结合在一起，讲述着过去所经历的一个个故事。",
+			say = "城堡上的光影仍在變幻，音樂與燈光完美的結合在一起，講述過去所經歷的一個故事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "四周的氛围灯缓缓亮起，温和的淡色光芒将这片区域笼罩，亦照亮了大家脸上的笑容。",
+			say = "四周的氛圍燈緩緩亮起，溫和的淡色光芒將這片區域籠罩，亦照亮了大家臉上的笑容。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "最后，一朵宣告着灯光秀结束的特别的烟花在空中绽放，为整场表演画上了完美的句号。",
+			say = "最後，一朵宣告著燈光秀結束的特別的煙火在空中綻放，為整場表演畫上了完美的句點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,7 +556,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是不可思议……",
+			say = "真是不可思議……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，果然是只有看第一轮表演才会有这种特殊的感觉呢。",
+			say = "呵呵，果然是只有看第一輪表演才會有這種特殊的感覺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过第二轮和第三轮我也不打算错过，这些烟花的形状给了我一些灵感~",
+			say = "不過第二輪和第三輪我也不打算錯過，這些煙火的形狀給了我一些靈感~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那接下来就是自由行动时间了？",
+			say = "那接下來就是自由行動時間了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好呀好呀~而且我也想再看一轮表演，这次要占个视野更好的位置呢！",
+			say = "好呀好呀~而且我也想再看一輪表演，這次要佔個視野更好的位置呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊，我有一个好主意哦——",
+			say = "啊，我有一個好主意哦——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,7 +634,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "什么好主意？我也要听我也要听！",
+			say = "什麼好主意？我也要聽我也要聽！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_182",
-			say = "少女们讨论着在闭园前还要做的事情，各自结伴而行。",
+			say = "少女們討論著在閉園前還要做的事情，各自結伴而行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "中心城堡附近就只剩下了——",
+			say = "中心城堡區域就只剩下了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -697,7 +697,7 @@ return {
 			actor = 301324,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官~{namecode:33:睦月}还想玩好玩哒！",
+			say = "指揮官~睦月還想玩好玩噠！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -719,7 +719,7 @@ return {
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:33:睦月}不累么？",
+			say = "睦月不累嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +733,7 @@ return {
 			actor = 301324,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不累哦！因为游乐园很好玩！",
+			say = "不累哦！因為遊樂園很好玩！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -755,7 +755,7 @@ return {
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "让我想想。",
+			say = "讓我想想。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -767,7 +767,7 @@ return {
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（构筑梦境必然消耗了{namecode:161:天城}的精力，而{namecode:91:赤城}先前又在噩梦之中被困住……）",
+			say = "（構築夢境必然消耗了天城的精力，而赤城先前又在惡夢之中被困住……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -779,7 +779,7 @@ return {
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不知道她们还有没有精力继续游玩？）",
+			say = "（不知道她們還有沒有精力繼續遊玩？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -790,10 +790,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_182",
 			dir = 1,
-			actor = 307151,
+			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看主上这副模样，是在担心我与{namecode:91:赤城}吃不消么？",
+			say = "看主上這副模樣，是在擔心我與赤城吃不消？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -804,10 +804,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_182",
 			dir = 1,
-			actor = 307151,
+			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "主上大可放心，而且{namecode:161:天城}自己也想再玩一会儿。",
+			say = "主上大可放心，天城自己也想再玩一陣子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -820,7 +820,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也是，感觉还没尽兴呢。",
+			say = "我也是，感覺還沒盡興。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -855,7 +855,7 @@ return {
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯……就算要继续玩，也得找一个比较轻松的项目。）",
+			say = "（嗯……就算要繼續玩，也要找一個比較輕鬆的項目。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -866,7 +866,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
-			say = "回忆了一下在游乐园中见过的所有设施，心中突然有了主意。",
+			say = "回憶了一下在遊樂園中見過的所有設施，心中突然有了主意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -878,7 +878,7 @@ return {
 			bgName = "star_level_bg_182",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "有了。我们去玩那个吧——",
+			say = "有了。我們去玩那個吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

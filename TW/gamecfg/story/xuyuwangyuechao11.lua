@@ -14,7 +14,7 @@ return {
 			bgm = "theme-sakuraholyplace",
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "“……到大圣域来。”",
+			say = "「……到大聖域來。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "“在大神木的见证下，我将向你们揭示真相。”",
+			say = "「在大神木的見證下，我將向妳們揭示真相。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,9 +38,9 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			blackBg = true,
-			actorName = "{namecode:295}",
+			actorName = "尾張",
 			hidePaintObj = true,
-			say = "那究竟是谁在呼唤……？",
+			say = "那究竟是誰在呼喚……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -56,9 +56,9 @@ return {
 			bgName = "bg_yunxian_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "{namecode:295}",
+			actorName = "尾張",
 			hidePaintObj = true,
-			say = "大贤者……？",
+			say = "大賢者……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
-			say = "陌生的名号出现在了脑海中。",
+			say = "陌生的名號出現在了腦海中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,9 +85,9 @@ return {
 			bgName = "bg_yunxian_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "{namecode:295}",
+			actorName = "尾張",
 			hidePaintObj = true,
-			say = "大神木乃至圣之地，神子曾在此设下结界，外人无法靠近半步。",
+			say = "大神木乃至聖之地，神子曾在此設下結界，外人無法靠近半步。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,9 +103,9 @@ return {
 			bgName = "bg_yunxian_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "{namecode:295}",
+			actorName = "尾張",
 			hidePaintObj = true,
-			say = "可是怎么会……",
+			say = "可是怎麼會……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
-			say = "{namecode:295}看着自己的掌心，似乎回忆起了什么。",
+			say = "尾張看著自己的掌心，似乎回想起了什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,9 +132,9 @@ return {
 			bgName = "bg_yunxian_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "{namecode:295}",
+			actorName = "尾張",
 			hidePaintObj = true,
-			say = "是我在做梦吗，总感觉昨夜好像亲手触摸过大神木，而在那之后便陷入了梦魇之中……",
+			say = "是我在做夢嗎，總覺得昨夜好像親手觸摸過大神木，而在那之後便陷入了夢魘之中……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_yunxian_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "{namecode:295}",
+			actorName = "尾張",
 			hidePaintObj = true,
 			say = "咳——！",
 			painting = {
@@ -178,7 +178,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
-			say = "稍稍凝视大神木，目中所视竟带着刺痛感，开始闪烁跳动。",
+			say = "稍微凝視大神木，目中所視竟帶著刺痛感，開始閃爍跳動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
-			say = "破碎的发光纹路在大神木上若隐若现，最后完全熄灭。",
+			say = "破碎的發光紋路在大神木上若隱若現，最後完全熄滅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_2",
 			hidePaintObj = true,
-			say = "隆隆的震动从脚下传来。",
+			say = "隆隆的震動從腳下傳來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			side = 2,
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "结界破碎了。",
+			say = "結界破碎了。",
 			flashN = {
 				color = {
 					1,

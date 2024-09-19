@@ -1,130 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_2 = {
-	[102020] = {
-		name = "羅利",
-		ship_group = 10202,
-		desc = "奧馬哈級輕巡洋艦—羅利，舷號CL-7",
-		illustrator2 = -1,
-		bg_sp = "",
-		group_index = 0,
-		prefab = "luoli",
-		painting = "luoli",
-		hand_id = 5,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 102020,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 62,
-		spine_offset = "",
-		illustrator = 6,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.063,
-					0.526,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.15,
-					0.407,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.376,
-					0.996,
-					0
-				},
-				{
-					0.52,
-					0.827,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.53,
-							0.3,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.42,
-							0.51,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[102030] = {
 		name = "布魯克林",
 		ship_group = 10203,
@@ -12061,6 +11937,220 @@ pg.base.ship_skin_template_2 = {
 						{
 							-0.401,
 							2.602,
+							0.14
+						}
+					}
+				}
+			}
+		}
+	},
+	[103120] = {
+		name = "紐奧良",
+		ship_group = 10312,
+		desc = "紐奧良級重巡洋艦——紐奧良，舷號CA-32",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 0,
+		prefab = "xinaoerliang",
+		painting = "xinaoerliang",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 103120,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 289,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.5,
+					1.22,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.4,
+					0.99,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.155,
+					0.084,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.59,
+							2.3,
+							0.14
+						}
+					}
+				}
+			}
+		}
+	},
+	[103121] = {
+		name = "沉醉的乾杯之夜",
+		ship_group = 10312,
+		desc = "為指揮官的榮光與勝利乾杯~呵呵，今晚還挺想喝點什麼的呢。指揮官方便的話，再陪我一下吧？",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 1,
+		prefab = "xinaoerliang_2",
+		painting = "xinaoerliang_2",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 16,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "145",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 103121,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 70625,
+		voice_actor = 289,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.323,
+					1.22,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.301,
+					0.99,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.116,
+					0.045,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.57,
+							2.379,
 							0.14
 						}
 					}

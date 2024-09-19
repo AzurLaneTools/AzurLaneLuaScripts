@@ -160726,8 +160726,8 @@ _G.pg.base.item_virtual_data_statistics[59484] = {
 
 _G.pg.base.item_virtual_data_statistics[59485] = {
 	drop_gold_max = 0,
-	name = "樱花签",
-	display = "用于「须臾望月抄」活动兑换，活动结束后将会消失",
+	name = "櫻花簽",
+	display = "用於「須臾望月抄」活動兌換，活動結束後將會消失",
 	type = 98,
 	is_world = 0,
 	shop_id = -1,
@@ -169124,6 +169124,31 @@ _G.pg.base.item_virtual_data_statistics[60486] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65017] = {
+	drop_gold_max = 0,
+	name = "夢幻蛋糕券",
+	display = "參與「啾啾蛋糕塔」獲得的紀念票，收集7張後可以兌換限定道具「慶典邀請函(2024.9)」",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/65017",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 99,
+	id = 65017,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[69000] = {
 	drop_gold_max = 0,
 	name = "伤害值",
@@ -176691,6 +176716,68 @@ _G.pg.base.item_virtual_data_statistics[86009] = {
 		{
 			202092,
 			950
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86010] = {
+	drop_gold_max = 0,
+	name = "隨機金秋換裝",
+	display = "不会被看到",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86010,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			303191,
+			1200
+		},
+		{
+			301891,
+			1200
+		},
+		{
+			305131,
+			1200
+		},
+		{
+			202127,
+			1200
+		},
+		{
+			307122,
+			1130
+		},
+		{
+			207025,
+			1040
+		},
+		{
+			302061,
+			1010
+		},
+		{
+			301901,
+			1010
+		},
+		{
+			108072,
+			1010
 		}
 	}
 }

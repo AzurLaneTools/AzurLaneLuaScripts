@@ -129,6 +129,7 @@ pg.furniture_data_template = setmetatable({
 			256,
 			257,
 			258,
+			259,
 			260,
 			263,
 			264,
@@ -138,6 +139,7 @@ pg.furniture_data_template = setmetatable({
 			273,
 			275,
 			278,
+			288,
 			100002,
 			100003,
 			100004,
@@ -2865,6 +2867,23 @@ pg.furniture_data_template = setmetatable({
 			311114,
 			311115,
 			311116
+		},
+		[114] = {
+			314001,
+			314002,
+			314101,
+			314102,
+			314103,
+			314104,
+			314105,
+			314106,
+			314107,
+			314108,
+			314109,
+			314110,
+			314111,
+			314112,
+			314113
 		}
 	},
 	get_id_list_by_tag = {
@@ -4602,7 +4621,18 @@ pg.furniture_data_template = setmetatable({
 			311112,
 			311113,
 			311114,
-			311115
+			311115,
+			314101,
+			314102,
+			314103,
+			314104,
+			314105,
+			314106,
+			314107,
+			314108,
+			314109,
+			314110,
+			314111
 		},
 		{
 			1108,
@@ -4824,6 +4854,7 @@ pg.furniture_data_template = setmetatable({
 			263,
 			265,
 			269,
+			288,
 			100002,
 			100003,
 			100004,
@@ -4906,6 +4937,7 @@ pg.furniture_data_template = setmetatable({
 			248,
 			256,
 			257,
+			259,
 			264,
 			266,
 			273,
@@ -5076,7 +5108,8 @@ pg.furniture_data_template = setmetatable({
 			305304,
 			309113,
 			310116,
-			311116
+			311116,
+			314113
 		},
 		[4] = {
 			1001,
@@ -5167,7 +5200,8 @@ pg.furniture_data_template = setmetatable({
 			305001,
 			309001,
 			310001,
-			311001
+			311001,
+			314001
 		},
 		[3] = {
 			1002,
@@ -5259,7 +5293,8 @@ pg.furniture_data_template = setmetatable({
 			305002,
 			309002,
 			310002,
-			311002
+			311002,
+			314002
 		},
 		[5] = {
 			1301,
@@ -5566,7 +5601,8 @@ pg.furniture_data_template = setmetatable({
 			310307,
 			310308,
 			310309,
-			310310
+			310310,
+			314112
 		}
 	},
 	get_id_list_by_type = {
@@ -5660,7 +5696,8 @@ pg.furniture_data_template = setmetatable({
 			305002,
 			309002,
 			310002,
-			311002
+			311002,
+			314002
 		},
 		[7] = {
 			1,
@@ -5770,6 +5807,7 @@ pg.furniture_data_template = setmetatable({
 			256,
 			257,
 			258,
+			259,
 			260,
 			263,
 			264,
@@ -5779,6 +5817,7 @@ pg.furniture_data_template = setmetatable({
 			273,
 			275,
 			278,
+			288,
 			100002,
 			100004,
 			100005,
@@ -7530,7 +7569,18 @@ pg.furniture_data_template = setmetatable({
 			311113,
 			311114,
 			311115,
-			311116
+			311116,
+			314101,
+			314102,
+			314103,
+			314104,
+			314106,
+			314107,
+			314108,
+			314109,
+			314110,
+			314111,
+			314113
 		},
 		[11] = {
 			131,
@@ -7683,7 +7733,8 @@ pg.furniture_data_template = setmetatable({
 			305001,
 			309001,
 			310001,
-			311001
+			311001,
+			314001
 		},
 		[5] = {
 			1101,
@@ -8252,7 +8303,8 @@ pg.furniture_data_template = setmetatable({
 			310307,
 			310308,
 			310309,
-			310310
+			310310,
+			314112
 		},
 		[8] = {
 			17121
@@ -8265,7 +8317,8 @@ pg.furniture_data_template = setmetatable({
 			62112,
 			94103,
 			97105,
-			97119
+			97119,
+			314105
 		},
 		[10] = {
 			28306,
@@ -8414,6 +8467,7 @@ pg.furniture_data_template = setmetatable({
 		256,
 		257,
 		258,
+		259,
 		260,
 		263,
 		264,
@@ -8423,6 +8477,7 @@ pg.furniture_data_template = setmetatable({
 		273,
 		275,
 		278,
+		288,
 		100002,
 		100003,
 		100004,
@@ -10969,7 +11024,22 @@ pg.furniture_data_template = setmetatable({
 		311113,
 		311114,
 		311115,
-		311116
+		311116,
+		314001,
+		314002,
+		314101,
+		314102,
+		314103,
+		314104,
+		314105,
+		314106,
+		314107,
+		314108,
+		314109,
+		314110,
+		314111,
+		314112,
+		314113
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -17008,6 +17078,43 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[259] = {
+		can_rotate = 0,
+		describe = "傳說中的重櫻大御神木的微縮模型，綻放的花朵和清澈的水晶熠熠生輝——授予在「須臾望月抄」行動中獲得傑出成就者的紀念章。",
+		gain_by = "須臾望月抄",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/yunxianxunzhang",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 8,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "大神木紀念章",
+		advice = 0,
+		icon = "yunxianxunzhangicon",
+		id = 259,
+		comfortable = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
 	[260] = {
 		can_rotate = 0,
 		describe = "夢裡也許會有玉兔送來月餅！？",
@@ -17511,6 +17618,76 @@ pg.base.furniture_data_template = {
 				"youlunxunzhang",
 				"normal"
 			}
+		},
+		interAction_group = {}
+	},
+	[288] = {
+		can_rotate = 0,
+		describe = "又到了值得紀念的節日，在點綴著桂花的舞台上，來一場與月亮的共舞吧~",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "yuebingwutaiicon",
+		count = 1,
+		name = "月兔舞台",
+		advice = 0,
+		id = 288,
+		tag = 6,
+		comfortable = 2,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yuebingwutaiB",
+				"normal"
+			},
+			{
+				"yuebingwutaiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
@@ -129826,6 +130003,933 @@ pg.base.furniture_data_template = {
 			{
 				1,
 				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[314001] = {
+		can_rotate = 0,
+		describe = "歡迎來到，夢幻樂園！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mly/dibanmly",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 114,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "夢幻樂園地板",
+		advice = 0,
+		icon = "dibanmlyicon",
+		id = 314001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[314002] = {
+		can_rotate = 0,
+		describe = "歡迎來到，夢幻樂園！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		themeId = 114,
+		count = 1,
+		name = "夢幻樂園壁紙",
+		advice = 0,
+		id = 314002,
+		icon = "qiangbimlyicon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbimly",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[314101] = {
+		can_rotate = 0,
+		describe = "富有彈性的軟軟長椅，但應該不是真的果凍吧！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mly/changyimly",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 114,
+		count = 1,
+		name = "樂園果凍長椅",
+		advice = 0,
+		id = 314101,
+		icon = "changyimlyicon",
+		comfortable = 2,
+		size = {
+			1,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					23.3,
+					20.1
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[314102] = {
+		can_rotate = 0,
+		describe = "許願的時候可不要弄錯了星星哦！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mly/langanmly",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 114,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "樂園星星欄桿",
+		advice = 0,
+		icon = "langanmlyicon",
+		id = 314102,
+		comfortable = 2,
+		size = {
+			1,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[314103] = {
+		can_rotate = 0,
+		describe = "樂園裡提供指引的路標……嗯？怎麼看不懂？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mly/lubiaomly",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 114,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "樂園路標",
+		advice = 0,
+		icon = "lubiaomlyicon",
+		id = 314103,
+		comfortable = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[314104] = {
+		can_rotate = 0,
+		describe = "大家要好好排隊，保持秩序啾。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mly/paiduijiumly",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 114,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "樂園排隊啾",
+		advice = 0,
+		icon = "paiduijiumlyicon",
+		id = 314104,
+		comfortable = 3,
+		size = {
+			2,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[314105] = {
+		can_rotate = 0,
+		describe = "馬上要開始了嗎？心情都緊張起來了！",
+		gain_by = "",
+		type = 9,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mly/rukoumly",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 114,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 1,
+		count = 1,
+		name = "樂園入口門",
+		advice = 0,
+		icon = "rukoumlyicon",
+		id = 314105,
+		comfortable = 3,
+		size = {
+			7,
+			1
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			},
+			{
+				5,
+				0
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[314106] = {
+		can_rotate = 0,
+		describe = "可以一邊喝茶……一邊吃點心……一邊泡澡？？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "mly/yugangmly",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 114,
+		count = 1,
+		name = "樂園茶杯浴缸",
+		advice = 0,
+		id = 314106,
+		icon = "yugangmlyicon",
+		comfortable = 3,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					2.4,
+					-87.5
+				},
+				{
+					-1,
+					1
+				},
+				"mly/yugangmly_using",
+				0,
+				{
+					{
+						2,
+						64.5
+					},
+					{
+						236.2,
+						288.1
+					},
+					"mly/yugangmly_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[314107] = {
+		can_rotate = 0,
+		describe = "在摩天輪最高點，可以看見樂園的全貌哦。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 114,
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "motianlunmlyicon",
+		count = 1,
+		name = "夢幻摩天輪",
+		advice = 0,
+		id = 314107,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"motianlunmlyB",
+				"normal"
+			},
+			{
+				"motianlunmlyT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					16.6,
+					36.96
+				},
+				{
+					194,
+					268
+				},
+				"mly/motianlunmly_mask"
+			},
+			{
+				-22,
+				-50
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_extra = {
+			{
+				{
+					{
+						16.6,
+						36.96
+					},
+					{
+						194,
+						268
+					},
+					"mly/motianlunmly_mask"
+				},
+				{
+					-22,
+					-50
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{
+					{
+						16.6,
+						36.96
+					},
+					{
+						194,
+						268
+					},
+					"mly/motianlunmly_mask"
+				},
+				{
+					-22,
+					-50
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{
+					{
+						16.6,
+						36.96
+					},
+					{
+						194,
+						268
+					},
+					"mly/motianlunmly_mask"
+				},
+				{
+					-22,
+					-50
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char4",
+				1
+			},
+			{
+				"char3",
+				1
+			},
+			{
+				"char2",
+				1
+			},
+			{
+				"char1",
+				1
+			}
+		},
+		interAction_group = {}
+	},
+	[314108] = {
+		can_rotate = 0,
+		describe = "說不定可以釣到墜落的星星喔~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 114,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "diaoyudianmlyicon",
+		count = 1,
+		name = "樂園神奇釣點",
+		advice = 0,
+		id = 314108,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			8,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"diaoyudianmlyB",
+				"normal"
+			},
+			{
+				"diaoyudianmlyT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[314109] = {
+		can_rotate = 0,
+		describe = "滑下去的時候記得不要喊太大聲，嘴巴會嗆到水哦！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 114,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "huatimlyicon",
+		count = 1,
+		name = "樂園溜滑梯",
+		advice = 0,
+		id = 314109,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			7,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huatimlyB",
+				"normal"
+			},
+			{
+				"huatimlyT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit",
+						1,
+						"sit"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{
+				{
+					-100,
+					225
+				},
+				{
+					532.3,
+					413
+				},
+				"mly/huatimly_mask"
+			},
+			{
+				80,
+				-173
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[314110] = {
+		can_rotate = 0,
+		describe = "轉啊，轉轉轉，哇……感覺像是飛起來了！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 114,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "mumamlyicon",
+		count = 1,
+		name = "樂園木馬",
+		advice = 0,
+		id = 314110,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			7,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"mumamlyB",
+				"normal"
+			},
+			{
+				"mumamlyT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[314111] = {
+		can_rotate = 0,
+		describe = "聽說在閉眼許願時啾啾雕像會偷偷眨眼哦！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 114,
+		count = 1,
+		name = "啾啾許願噴泉",
+		advice = 0,
+		id = 314111,
+		icon = "penquanmlyicon",
+		comfortable = 4,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"penquanmly",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[314112] = {
+		can_rotate = 0,
+		describe = "進入時記得拿好邀請函~",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		themeId = 114,
+		count = 1,
+		name = "樂園城堡大門",
+		advice = 0,
+		id = 314112,
+		icon = "chengmenmlyicon",
+		comfortable = 4,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chengmenmly",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[314113] = {
+		can_rotate = 0,
+		describe = "只要肚子餓了就會出現在背後的餐車，據說味道很不錯。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 114,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "canchemlyicon",
+		count = 1,
+		name = "樂園幽靈餐車",
+		advice = 0,
+		id = 314113,
+		tag = 7,
+		comfortable = 4,
+		size = {
+			8,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"canchemly",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance1",
+						nil,
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				},
+				{
+					{
+						"dance1",
+						"dance2",
+						"dance3"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
 			}
 		},
 		followBone = {

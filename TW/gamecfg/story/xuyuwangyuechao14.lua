@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgm = "battle-unknown-approaching",
-			say = "三人紧紧相拥以应对肆虐的风暴。",
+			say = "三人緊緊相擁以應對肆虐的風暴。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "因为之前的冲击，众人被推到外围。",
+			say = "因為之前的衝擊，眾人被推到外圍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "艰难地调整身形，脚尖好像触到了什么物体柔软的表面。",
+			say = "艱難地調整身形，腳尖好像碰到了什麼物體柔軟的表面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			actor = 302060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "脚下好像有什么东西！",
+			say = "腳下好像有東西！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "向下望去，只有映射着宇宙星云般的巨大空洞。",
+			say = "向下望去，只有映射著宇宙星雲般的巨大空洞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "但若仔细观察，竟然可以看见随着脚部移动形成的微小涟漪。",
+			say = "但若仔細觀察，竟然可以看見隨著腳部移動形成的微小漣漪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "缓缓降落到看似空无一物的虚空之上。",
+			say = "緩緩降落到看似空無一物的虛空之上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			actor = 301900,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "脚下的触感好奇怪啊……",
+			say = "腳下的觸感好奇怪啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			actor = 302060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "像是软绵绵的床垫一样。",
+			say = "像是軟綿綿的床墊一樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			actor = 301900,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一不小心就会陷进去的感觉。",
+			say = "一不小心就會陷進去的感覺。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们站成一排航行看看。",
+			say = "我們站成一排航行看看。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,7 +188,7 @@ return {
 			actor = 302060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是什么原理？",
+			say = "這是什麼原理？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这时候就别纠结这些了吧。",
+			say = "這時候就別糾結這些了吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对了，得先去找到{namecode:88}，还有……",
+			say = "對了，得先去找到瑞鳳，還有……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			actor = 301900,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:84}大人……",
+			say = "武藏大人……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			actor = 301900,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不可能的！那种东西怎么可能伤到{namecode:84}大人半分！",
+			say = "不可能的！那種東西怎麼可能傷到武藏大人半分！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			actor = 301900,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怪物现在肯定已经被{namecode:84}大人给斩杀掉了！",
+			say = "怪物現在肯定已經被武藏大人斬殺了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "通讯器有反应吗？",
+			say = "通訊器有反應嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "试着呼叫看看？",
+			say = "試著呼叫看看？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "回应她们的只有嗞嗞的杂音。",
+			say = "回應她們的只有嗞嗞的雜音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_yunxian_3",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰——！",
+			say = "轟——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "黑色的气息向众人逼近。",
+			say = "黑色的氣息向眾人逼近。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "它们没有固定的形状，有时像是塞壬的量产型，有时又像是众人们自己的影子。",
+			say = "它們沒有固定的形狀，有時像是塞壬的量產型，有時又像是眾人們自己的影子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "它们的样貌好像每时每刻都在改变。",
+			say = "它們的樣貌好像每時每刻都在改變。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "抽出武器，摆开战斗的架势——",
+			say = "抽出武器，擺開戰鬥的架勢——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在只能靠我们自己了。",
+			say = "現在只能靠我們自己了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			actor = 301890,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "出击！",
+			say = "出擊！",
 			painting = {
 				alpha = 0.3,
 				time = 1

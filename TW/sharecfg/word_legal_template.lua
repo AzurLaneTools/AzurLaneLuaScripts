@@ -4203,6 +4203,9 @@ temp = function()
 		},
 		["霜"] = {
 			this = true
+		},
+		["月"] = {
+			this = true
 		}
 	}
 end
@@ -4433,6 +4436,9 @@ temp()
 temp = function()
 	uv0["朝"] = {
 		["潮"] = {
+			this = true
+		},
+		["凪"] = {
 			this = true
 		}
 	}
@@ -6999,6 +7005,36 @@ temp = function()
 			["亞"] = {
 				this = true
 			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["名"] = {
+		["取"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["雲"] = {
+		["仙"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["尾"] = {
+		["張"] = {
+			this = true
 		}
 	}
 end

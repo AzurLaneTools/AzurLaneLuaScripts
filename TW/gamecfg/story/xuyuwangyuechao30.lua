@@ -13,7 +13,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			bgm = "deepblue-image",
-			say = "重樱群岛·某处",
+			say = "重櫻群島·某處",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:74}大人的情况如何？",
+			say = "長門大人的情況如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -55,7 +55,7 @@ return {
 			actor = 305120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "似乎已在大神木中沉睡，并无大碍。",
+			say = "似乎已在大神木中沉睡，並無大礙。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			actor = 305120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:84}大人，御神木它竟然还有这种功能吗……",
+			say = "武藏大人，御神木它竟然還有這種功能嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此为禁忌，莫再提及。",
+			say = "此為禁忌，莫再提及。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			actor = 305120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "属下明白。",
+			say = "屬下明白。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			actor = 305120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只是，{namecode:84}大人……",
+			say = "只是，武藏大人……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			actor = 305120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:74}大人突然宣布退位，这一段应当如何记述？",
+			say = "長門大人突然宣布退位，這段經文該如何記述？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:74}大人曾经交代过……",
+			say = "長門大人曾經交代過……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不可将她受伤的真相传播出去。",
+			say = "不可將她受傷的真相傳出去。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你便按照她的意思处理吧。",
+			say = "妳就照她的意思處理吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "{namecode:80}退出了房间。",
+			say = "紀伊退出了房間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			hidePaintObj = true,
-			say = "罗帐前，有一个娇小的身影正襟危坐。",
+			say = "羅帳前，有一個嬌小的身影正襟危坐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			actor = 301370,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「对大贤者所托之物，研究如何？」",
+			say = "「對大賢者所託之物，研究如何？」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我已成功制造出海若神石的仿品，虽不完善……",
+			say = "我已成功製造出海若神石的仿品，雖不完善……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但其展现的全新特性，已经完全超乎我的想象。",
+			say = "但其展現的全新特性，已完全超乎我的想像。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			actor = 301370,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「{namecode:182}的情况呢？」",
+			say = "「信濃的情況呢？」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "已有小成，{namecode:182}她……似乎继承了大贤者的部分力量。",
+			say = "已有小成，信濃她……似乎繼承了大賢者的部分力量。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,7 +322,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她于梦境中穿梭，却也因此长睡不醒。",
+			say = "她於夢境中穿梭，卻也因此長睡不醒。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			actor = 301370,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「将{namecode:182}转移至天岩岛。那里远离本岛，也远离漩涡的中心。」",
+			say = "「將信濃轉移至天岩島。那裡遠離本島，也遠離漩渦的中心。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			actor = 301370,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「待她苏醒之时……汝就代吾向她送去祝福吧。」",
+			say = "「待她甦醒之時……汝就代吾向她送去祝福吧。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,7 +390,7 @@ return {
 			actor = 301370,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……{namecode:84}大人，已经结束了。",
+			say = "……武藏大人，已經結束了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			actor = 301370,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么我就先行告退……",
+			say = "那我就先行告退……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -442,7 +442,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此行辛苦了，{namecode:133}。",
+			say = "此行辛苦了，水無月。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -460,7 +460,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果这就是汝之计划的话……",
+			say = "如果這是汝之計畫的話……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -494,7 +494,7 @@ return {
 			actor = 305100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……{namecode:83}。",
+			say = "如果這是汝之計畫的話……",
 			painting = {
 				alpha = 0.3,
 				time = 1

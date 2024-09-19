@@ -11942,7 +11942,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累計建造200次可獲得海上傳奇艦船 {namecode:463}(最多4次)"
+	tip = "每累計建造200次可獲得海上傳奇艦船 {namecode:294}(最多4次)"
 }
 
 
@@ -14221,7 +14221,7 @@ _G.pg.base.gametip.limit_skin_time_before_maintenance = {
 
 
 _G.pg.base.gametip.award_window_pt_title = {
-	tip = "當前啾啾："
+	tip = "當前PT："
 }
 
 
@@ -14258,13 +14258,13 @@ _G.pg.base.gametip.returner_help = {
 
 被邀請者：
 回歸指揮官：
-在2023年9月1日至9月14日維護期間沒有過登入行為的
+在2024年9月1日至9月19日維護期間沒有過登入行為的
 指揮官
 新人指揮官：
-在2023年9月14日至10月4日23:59期間新註冊的指揮官
+在2024年9月19日至10月9日23:59期間新註冊的指揮官
 滿足被邀請資格的指揮官在活動期間登入可在特別活動頁內輸入邀請者的UID參與活動
 邀請者：
-2023年9月1日至9月14日維護前有過登入行為的指揮官
+2024年9月1日至9月19日維護前有過登入行為的指揮官
 邀請者可以使用自己的UID邀請滿足被邀請資格的指揮官參與活動
 召集指揮官：
 單個邀請者最多可邀請兩位指揮官，在其完成專屬任務後可獲得集結積分。召集訊號發布後還可以解鎖邀請者專屬任務，完成任務後也可獲得集結積分。集結積分達到指定數值後可以獲得豐富獎勵。
@@ -14332,37 +14332,40 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "輕型建造:<color=#ffde38>超稀有</color>:7% <color=#d797ff>精銳</color>:12% <color=#3dc6ff>稀有</color>:26% 普通:55%"
 		},
 		{
-			info = "重型建造:<color=#ffde38>超稀有</color>:7% <color=#d797ff>精銳</color>:12% <color=#3dc6ff>稀有</color>:51% 普通:30%"
+			info = "重型建造:<color=#ff5e39>海上傳奇艦船</color>：1.2% <color=#ffde38>超稀有艦船</color>：7% <color=#d797ff>精銳艦船</color>：12% <color=#3dc6ff>稀有艦船</color>：51% 普通艦船：28.8%"
 		},
 		{
-			info = "特型建造:<color=#ffde38>超稀有</color>:7% <color=#d797ff>精銳</color>:12% <color=#3dc6ff>稀有</color>:51% 普通:30%"
+			info = "特型建造:<color=#ff5e39>海上傳奇艦船</color>：1.2% <color=#ffde38>超稀有艦船</color>：7% <color=#d797ff>精銳艦船</color>：12% <color=#3dc6ff>稀有艦船</color>：51% 普通艦船：28.8%"
 		},
 		{
-			info = "3.構建時指揮官可以查看該建造中所有可出現角色列表"
+			info = "3.建造時指揮官可以查看該建造中所有可出現角色列表，僅有重型建造及特型建造內包含<color=#ff5e39>海上傳奇艦船</color>角色"
 		},
 		{
-			info = "4.指揮官可以從中選擇2名角色作為祈願角色"
+			info = "4.指揮官可以從中選擇2個角色作為祈願角色，其中僅能最多選擇1名<color=#ff5e39>海上傳奇艦船</color>角色"
 		},
 		{
-			info = "5.可選名單僅包含3月21日前常駐加入對應建造的角色"
+			info = "5.可選名單僅包含7月17日前常駐加入對應建造的角色"
 		},
 		{
-			info = "6.有建造解鎖條件的角色無法被選為祈願角色，\n不會在祈願建造中出現。 "
+			info = "6.有建造解鎖條件的角色無法被選為祈願角色，\n不會在祈願建造中出現。"
 		},
 		{
 			info = "7.所選祈願角色的建造機率因稀有度差異而有所不同"
 		},
 		{
-			info = "<color=#ffde38>超稀有</color>:2.0% <color=#d797ff>精銳</color>:2.5% <color=#3dc6ff>稀有</color>:2.5% 普通:2.5%"
+			info = "<color=#ff5e39>海上傳奇艦船</color>：1.2% <color=#ffde38>超稀有</color>:2.0% <color=#d797ff>精銳</color>:2.5% <color=#3dc6ff>稀有</color>:2.5% 普通:2.5%"
 		},
 		{
-			info = "8.選擇完2名角色後，才算構建祈願建造成功"
+			info = "8.選擇完2名角色後，才算建構祈願建造成功"
 		},
 		{
 			info = "9.祈願建造構建完成後，活動期間內不可進行修改"
 		},
 		{
 			info = "10.祈願建造的消耗與所選建造的消耗相同建造後的\n角色進入隊列等待，可以使用快速完成工具"
+		},
+		{
+			info = "11.進行祈願建造也可以累積常駐UR兌換點數"
 		}
 	}
 }
@@ -27688,6 +27691,21 @@ _G.pg.base.gametip.battle_text_bisimaiz_10 = {
 }
 
 
+_G.pg.base.gametip.battle_text_yunxian_1 = {
+	tip = "無形投影正在不斷汲取力量，攻擊<color=#f1f102>黑色氣息的源頭</color>可將其削弱"
+}
+
+
+_G.pg.base.gametip.battle_text_yunxian_2 = {
+	tip = "驅除部分黑色氣息，無形投影的<color=#f1f102>防禦永久下降</color>了！"
+}
+
+
+_G.pg.base.gametip.battle_text_yunxian_3 = {
+	tip = "黑色氣息的源頭已被斬斷，投影即將崩潰……"
+}
+
+
 _G.pg.base.gametip.battle_text_haidao_1 = {
 	tip = "<color=#f1f102>/// 警告：偵測到非「颶風」船 ///</color>"
 }
@@ -32827,6 +32845,201 @@ _G.pg.base.gametip.settings_flagship_interaction = {
 
 _G.pg.base.gametip.settings_enter_standby_mode_time = {
 	tip = "進入待機模式所需時間"
+}
+
+
+_G.pg.base.gametip.commander_exp_limit = {
+	tip = "此指揮喵已達最大等級，無法新增指揮喵"
+}
+
+
+_G.pg.base.gametip.dreamland_label_day = {
+	tip = "白天"
+}
+
+
+_G.pg.base.gametip.dreamland_label_dusk = {
+	tip = "傍晚"
+}
+
+
+_G.pg.base.gametip.dreamland_label_night = {
+	tip = "夜晚"
+}
+
+
+_G.pg.base.gametip.dreamland_label_area = {
+	tip = "區域"
+}
+
+
+_G.pg.base.gametip.dreamland_label_explore = {
+	tip = "探索"
+}
+
+
+_G.pg.base.gametip.dreamland_label_explore_award_tip = {
+	tip = "完成該區域探索獎勵"
+}
+
+
+_G.pg.base.gametip.dreamland_area_lock_tip = {
+	tip = "- 該區域尚未解鎖 請繼續閱讀劇情 -"
+}
+
+
+_G.pg.base.gametip.dreamland_spring_lock_tip = {
+	tip = "閱讀後續劇情解鎖"
+}
+
+
+_G.pg.base.gametip.dreamland_spring_tip = {
+	tip = "邀請角色入夢恢復心情 $1/h"
+}
+
+
+_G.pg.base.gametip.dream_land_tip = {
+	tip = {
+		{
+			info = [[
+活動規則：
+·<color=#92fc63>9.19-10.9</color>期間開啟限時活動「夢幻樂園的夢幻假日」
+·隨劇情解鎖夢幻樂園的各個區域，獲得<color=#92fc63>限定傢俱</color>、<color=#92fc63>外觀裝備箱</color>等獎勵
+·夢幻樂園各區域地圖上均有可互動的探索點。指揮官在享受夢幻假日的同時，可透過留意地圖上的<color=#92fc63>「星星」</color>指引及<color=#92fc63>樂園手冊</color>中的探索指引，進行夢幻樂園探索，獲得<color=#92fc63>限定傢俱</color>、<color=#92fc63>外觀裝備箱</color>等獎勵
+·部分探索僅在特殊時間內觸發，在完成「夢幻樂園的夢幻假期」全部劇情後，可以透過<color=#92fc63>時間轉換</color>調整夢幻樂園時間
+·邀請角色進入安眠夢境，加快心情回復。安眠夢境隨夢幻樂園區域解鎖擴充]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.touch_cake_minigame_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/touchcake_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/touchcake_help2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.dreamland_main_desc = {
+	tip = "9.19~10.9，活動期間完成<color=#85E7FF>夢幻樂園探索</color>與<color=#85E7FF>啾啾蛋糕塔</color>獲得豐厚獎勵"
+}
+
+
+_G.pg.base.gametip.dreamland_main_tip = {
+	tip = {
+		{
+			info = [[
+活動規則：
+·<color=#92fc63>9.19-10.9</color>期間開啟限時活動「夢幻樂園的夢幻假日」
+·隨劇情解鎖夢幻樂園的各個區域，獲得<color=#92fc63>限定傢俱</color>、<color=#92fc63>外觀裝備箱</color>等獎勵
+·夢幻樂園各區域地圖上均有可互動的探索點。指揮官在享受夢幻假日的同時，可透過留意地圖上的<color=#92fc63>「星星」</color>指引及<color=#92fc63>樂園手冊</color>中的探索指引，進行夢幻樂園探索，獲得<color=#92fc63>限定傢俱</color>、<color=#92fc63>外觀裝備箱</color>等獎勵
+·部分探索僅在特殊時間內觸發，在完成「夢幻樂園的夢幻假期」全部劇情後，可以透過<color=#92fc63>時間轉換</color>調整夢幻樂園時間
+·邀請角色進入安眠夢境，加快心情回復。安眠夢境隨夢幻樂園區域解鎖擴充
+·9.25為止，每日可獲得一次「啾啾蛋糕塔」遊戲次數，參與遊戲可取得「夢幻蛋糕券」
+·累計7張「夢幻蛋糕券」可獲得限定道具<color=#92fc63>「慶典邀請函」</color>]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.no_share_skin_gametip = {
+	tip = "*該換裝為$1換裝，無法與$2共享使用"
+}
+
+
+_G.pg.base.gametip.no_share_skin_tianchenghangmu = {
+	tip = "{namecode:161}(航母)"
+}
+
+
+_G.pg.base.gametip.no_share_skin_tianchengzhanlie = {
+	tip = "{namecode:161}(戰列)"
+}
+
+
+_G.pg.base.gametip.no_share_skin_jiahezhanlie = {
+	tip = "{namecode:92}(戰列)"
+}
+
+
+_G.pg.base.gametip.no_share_skin_jiahehangmu = {
+	tip = "{namecode:92}(航母)"
+}
+
+
+_G.pg.base.gametip.ui_pack_tip1 = {
+	tip = "只能購買一個檔位，禮包會寄到信箱請注意查收"
+}
+
+
+_G.pg.base.gametip.ui_pack_tip2 = {
+	tip = "基礎版"
+}
+
+
+_G.pg.base.gametip.ui_pack_tip3 = {
+	tip = "豪華版"
+}
+
+
+_G.pg.base.gametip.battle_ui_unlock = {
+	tip = "裝扮解鎖"
+}
+
+
+_G.pg.base.gametip.compensate_ui_expiration_hour = {
+	tip = "$1時後過期"
+}
+
+
+_G.pg.base.gametip.compensate_ui_expiration_day = {
+	tip = "$1天後過期"
+}
+
+
+_G.pg.base.gametip.compensate_ui_title1 = {
+	tip = "補償"
+}
+
+
+_G.pg.base.gametip.compensate_ui_title2 = {
+	tip = "compensate"
+}
+
+
+_G.pg.base.gametip.compensate_ui_nothing1 = {
+	tip = "暫未收到任何補償"
+}
+
+
+_G.pg.base.gametip.compensate_ui_nothing2 = {
+	tip = "No compensation received yet"
 }
 
 

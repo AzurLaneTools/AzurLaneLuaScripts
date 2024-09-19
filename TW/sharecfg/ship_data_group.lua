@@ -899,6 +899,12 @@ pg.ship_data_group = setmetatable({
 		[30188] = {
 			567
 		},
+		[30189] = {
+			607
+		},
+		[30190] = {
+			608
+		},
 		[30157] = {
 			296
 		},
@@ -916,6 +922,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[30205] = {
 			183
+		},
+		[30206] = {
+			184
 		},
 		[30207] = {
 			185
@@ -1001,6 +1010,9 @@ pg.ship_data_group = setmetatable({
 		[30314] = {
 			203
 		},
+		[30319] = {
+			605
+		},
 		[30401] = {
 			204
 		},
@@ -1054,6 +1066,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[30512] = {
 			214
+		},
+		[30513] = {
+			606
 		},
 		[30514] = {
 			425
@@ -2272,12 +2287,15 @@ pg.ship_data_group = setmetatable({
 			468,
 			295,
 			567,
+			607,
+			608,
 			296,
 			297,
 			449,
 			268,
 			182,
 			183,
+			184,
 			185,
 			186,
 			187,
@@ -2306,6 +2324,7 @@ pg.ship_data_group = setmetatable({
 			201,
 			202,
 			203,
+			605,
 			204,
 			205,
 			206,
@@ -2324,6 +2343,7 @@ pg.ship_data_group = setmetatable({
 			368,
 			215,
 			214,
+			606,
 			425,
 			217,
 			218,
@@ -2937,12 +2957,15 @@ pg.ship_data_group = setmetatable({
 		468,
 		295,
 		567,
+		607,
+		608,
 		296,
 		297,
 		449,
 		268,
 		182,
 		183,
+		184,
 		185,
 		186,
 		187,
@@ -2971,6 +2994,7 @@ pg.ship_data_group = setmetatable({
 		201,
 		202,
 		203,
+		605,
 		204,
 		205,
 		206,
@@ -2989,6 +3013,7 @@ pg.ship_data_group = setmetatable({
 		368,
 		215,
 		214,
+		606,
 		425,
 		217,
 		218,
@@ -16672,6 +16697,70 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[607] = {
+		nationality = 3,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 30189,
+		index_id = 313,
+		code = 607,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"A",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：須臾望月抄",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[608] = {
+		nationality = 3,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 30190,
+		index_id = 314,
+		code = 608,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"B",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：須臾望月抄",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[296] = {
 		nationality = 3,
 		type = 1,
@@ -16935,6 +17024,38 @@ pg.base.ship_data_group = {
 					{
 						chapterid = 703
 					}
+				},
+				0
+			}
+		}
+	},
+	[184] = {
+		nationality = 3,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 30206,
+		index_id = 321,
+		code = 184,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：須臾望月抄",
+				{
+					""
 				},
 				0
 			}
@@ -17802,7 +17923,7 @@ pg.base.ship_data_group = {
 		trans_type = 3,
 		handbook_type = 0,
 		redirect_id = 101,
-		trans_skin = 0,
+		trans_skin = 303089,
 		hide = 0,
 		group_type = 30308,
 		index_id = 343,
@@ -17816,8 +17937,17 @@ pg.base.ship_data_group = {
 			"C",
 			"A"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		trans_skill = {
+			1052
+		},
 		description = {
 			{
 				"推薦探索關卡8-3",
@@ -18062,6 +18192,38 @@ pg.base.ship_data_group = {
 					{
 						chapterid = 1204
 					}
+				},
+				0
+			}
+		}
+	},
+	[605] = {
+		nationality = 3,
+		type = 3,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 30319,
+		index_id = 350,
+		code = 605,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"A",
+			"E",
+			"C",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：須臾望月抄",
+				{
+					""
 				},
 				0
 			}
@@ -18841,6 +19003,38 @@ pg.base.ship_data_group = {
 						projectName = "heavy",
 						page = 1
 					}
+				},
+				0
+			}
+		}
+	},
+	[606] = {
+		nationality = 3,
+		type = 5,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 30513,
+		index_id = 369,
+		code = 606,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"D",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：須臾望月抄",
+				{
+					""
 				},
 				0
 			}

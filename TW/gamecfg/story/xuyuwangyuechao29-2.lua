@@ -12,7 +12,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgm = "theme-unzen",
-			say = "将手放到腰间。",
+			say = "將手放到腰間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,7 +22,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "无数光点汇聚成刀刃的形状。",
+			say = "無數光點匯聚成刀刃的形狀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,7 +32,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那柄断裂的刀似乎又重新回到了{namecode:294}的手中。",
+			say = "那柄斷裂的刀似乎又回到了雲仙的手中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg3_hx",
 			hidePaintObj = true,
-			say = "光点还在聚集。",
+			say = "光點還在聚集。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,14 +81,14 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg3_hx",
 			hidePaintObj = true,
-			say = "聚集成更多发光的刀刃，仿佛为{namecode:294}筑起了一道铁壁。",
+			say = "聚集成更多發光的刀刃，彷彿為雲仙築起了一道鐵壁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:294}",
+			actorName = "雲仙",
 			side = 2,
 			bgName = "bg_yunxian_cg3_hx",
 			factiontag = "海若之心",
@@ -106,7 +106,7 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:294}",
+			actorName = "雲仙",
 			side = 2,
 			bgName = "bg_yunxian_cg3_hx",
 			factiontag = "海若之心",
@@ -128,7 +128,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg3_hx",
 			hidePaintObj = true,
-			say = "口中默念着，躲避开气息的进攻。",
+			say = "口中默念著，躲避開氣息的進攻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg3_hx",
 			hidePaintObj = true,
-			say = "不管敌人使出何种攻击。",
+			say = "不管敵人使出何種攻擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg3_hx",
 			hidePaintObj = true,
-			say = "{namecode:292}与{namecode:152}始终伴行左右。",
+			say = "四萬十與伊吹始終伴行左右。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,20 +161,20 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg3_hx",
 			hidePaintObj = true,
-			say = "刀光与火光交叠，从未停歇。",
+			say = "刀光與火光交疊，從未停歇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:292}",
+			actorName = "四萬十",
 			side = 2,
 			bgName = "bg_yunxian_cg3_hx",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:294}大人。",
+			say = "雲仙大人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,13 +185,13 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:292}",
+			actorName = "四萬十",
 			side = 2,
 			bgName = "bg_yunxian_cg3_hx",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们快要支撑不住了！",
+			say = "我們快要支撐不住了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,13 +202,13 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:152}",
+			actorName = "伊吹",
 			side = 2,
 			bgName = "bg_yunxian_cg3_hx",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:294}大人。",
+			say = "雲仙大人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,41 +219,13 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:152}",
+			actorName = "伊吹",
 			side = 2,
 			bgName = "bg_yunxian_cg3_hx",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再往前恐怕就只能靠您自己了。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_yunxian_cg3_hx",
-			hidePaintObj = true,
-			say = "纸龙已经开始燃烧，但它依然拼尽全力护在众人周围。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "{namecode:152}",
-			side = 2,
-			bgName = "bg_yunxian_cg3_hx",
-			dir = 1,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "刀身已经破损……",
+			say = "再往前恐怕就只能靠自己了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,14 +240,42 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_cg3_hx",
 			hidePaintObj = true,
-			say = "{namecode:152}瞥了一眼刃上的缺口，义无反顾地向前冲去。",
+			say = "紙龍已經開始燃燒，但它依然拼盡全力護在眾人周圍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:294}",
+			actorName = "伊吹",
+			side = 2,
+			bgName = "bg_yunxian_cg3_hx",
+			dir = 1,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "刀身已經破損……",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_yunxian_cg3_hx",
+			hidePaintObj = true,
+			say = "伊吹瞥了一眼刃上的缺口，義無反顧地向前衝。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "雲仙",
 			side = 2,
 			bgName = "bg_yunxian_cg3_hx",
 			factiontag = "海若之心",
@@ -293,7 +293,7 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:294}",
+			actorName = "雲仙",
 			side = 2,
 			bgName = "bg_yunxian_cg3_hx",
 			factiontag = "海若之心",

@@ -7,7 +7,7 @@ return {
 	},
 	scripts = {
 		{
-			portrait = 302251,
+			portrait = 302250,
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_542",
@@ -15,7 +15,7 @@ return {
 			hidePainting = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，总算找到你啦~",
+			say = "指揮官，總算找到你啦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,10 +43,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			withoutActorName = true,
-			actor = 302251,
+			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "伴随着车轮停留时发出的响动，少女温柔的声音自身后传来。",
+			say = "伴隨著車輪停留時發出的響動，少女溫柔的聲音本身後傳來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,21 +57,21 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			withoutActorName = true,
-			actor = 302251,
+			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "回头看去，{namecode:231:渡良濑}正坐在半透明的南瓜马车上。",
+			say = "回頭看去，渡良瀨正坐在半透明的南瓜馬車上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "怎么了？有事找我吗？",
+					content = "怎麼了？有事找我嗎？",
 					flag = 1
 				},
 				{
-					content = "来得正好，一起看烟花么？",
+					content = "來得正好，一起看煙火呢？",
 					flag = 2
 				}
 			}
@@ -83,10 +83,10 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
-			actor = 302251,
+			actor = 302250,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯，来找指挥官你一起看烟花。",
+			say = "嗯，來找指揮官你一起看煙火。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,10 +99,10 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
-			actor = 302251,
+			actor = 302250,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "当然，我正有此意。",
+			say = "當然，我正有此意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,10 +114,10 @@ return {
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			dir = 1,
-			actor = 302251,
+			actor = 302250,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "幸好在这边找到你了~不然这样的美景没办法和指挥官一起分享，就太可惜了。",
+			say = "不然這樣的美景沒辦法和指揮官一起分享，就太可惜了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,10 +128,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			dir = 1,
-			actor = 302251,
+			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对了，指挥官是特地来露台上看烟花表演的吗？",
+			say = "對了，指揮官是特地來露台上看煙火的表演嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,10 +142,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			nameColor = "#A9F548FF",
-			actor = 302251,
+			actor = 302250,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "只是恰巧路过这里时，烟花表演开始了。",
+			say = "只是恰巧路過這裡時，煙火表演開始了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,10 +156,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			nameColor = "#A9F548FF",
-			actor = 302251,
+			actor = 302250,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "虽然这里有些偏僻，但视野却是不错。",
+			say = "雖然這裡有些偏僻，但視野卻是不錯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,10 +171,10 @@ return {
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			dir = 1,
-			actor = 302251,
+			actor = 302250,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "呵呵，看来指挥官的运气很好呢~",
+			say = "呵呵，看來指揮官的運氣很好呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,10 +185,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			dir = 1,
-			actor = 302251,
+			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，不过站着看多累啊，要不来马车里坐下、稍作休息如何？",
+			say = "啊，不過站著看多累啊，要不要來馬車裡坐下、稍作休息如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,10 +199,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			nameColor = "#A9F548FF",
-			actor = 302251,
+			actor = 302250,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "说到马车……我刚刚其实想问你，它是怎么上来的？",
+			say = "說到馬車……我剛剛其實想問妳，它是怎麼上來的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,10 +213,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			dir = 1,
-			actor = 302251,
+			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只要我想，它就可以哦~毕竟这里是“梦幻乐园”嘛。",
+			say = "只要我想，它就可以哦~畢竟這裡是「夢幻樂園」嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,10 +228,10 @@ return {
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			dir = 1,
-			actor = 302251,
+			actor = 302250,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "快过来吧，指挥官，我在车上铺了软垫，很舒服的哦~还有些饮品可以解渴。",
+			say = "快過來吧，指揮官，我在車上鋪了軟墊，很舒服的哦~還有些飲料可以解渴。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			nameColor = "#A9F548FF",
-			actor = 302251,
+			actor = 302250,
 			actorName = "{playername}",
 			hidePaintObj = true,
 			say = "好。",
@@ -256,10 +256,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			withoutActorName = true,
-			actor = 302251,
+			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "走到精致的透明南瓜马车旁，车内的少女笑着伸出了手。",
+			say = "走到精緻的透明南瓜馬車旁，車內的少女笑著伸出了手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,17 +271,17 @@ return {
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			dir = 1,
-			actor = 302251,
+			actor = 302250,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "来，抓着我的手上来吧~",
+			say = "來，抓著我的手上來吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "握住{namecode:231:渡良濑}的手",
+					content = "握住渡良瀨的手",
 					flag = 1
 				}
 			}
@@ -291,10 +291,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			withoutActorName = true,
-			actor = 302251,
+			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "握着{namecode:231:渡良濑}的手上了马车，她朝座椅的一侧挪了挪，在另一侧留下了空位。",
+			say = "握著渡良瀨的手上了馬車，她朝座椅的一側挪了挪，在另一側留下了空位。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,10 +305,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			dir = 1,
-			actor = 302251,
+			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……空间有些小呢，只能暂时委屈指挥官跟我挤一挤了。",
+			say = "嗯……空間有些小呢，只能暫時委屈指揮官跟我擠一擠了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,10 +320,10 @@ return {
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			dir = 1,
-			actor = 302251,
+			actor = 302250,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "下次，我一定会注意空间大小这一块的设计的~！",
+			say = "下次，我一定會注意到空間大小這一塊的設計的~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,10 +334,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			nameColor = "#A9F548FF",
-			actor = 302251,
+			actor = 302250,
 			actorName = "{playername}",
 			hidePaintObj = true,
-			say = "没关系，其实已经够用了。",
+			say = "沒關係，其實已經夠用了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,10 +348,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			withoutActorName = true,
-			actor = 302251,
+			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在{namecode:231:渡良濑}让出的空位坐下后，略微有些狭小的空间使得少女的手臂与我紧紧相贴。",
+			say = "在渡良瀨讓出的空位坐下後，略微有些狹小的空間使得少女的手臂與我緊緊相貼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,10 +362,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			dir = 1,
-			actor = 302251,
+			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……这样还真是有些害羞呢……",
+			say = "呼……這樣還真是有些害羞呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,10 +376,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			withoutActorName = true,
-			actor = 302251,
+			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女说着将杯中的红色液体一饮而尽，然后伸手环绕住了我的腰。",
+			say = "少女說著將杯中的紅色液體一飲而盡，然後伸手環繞住了我的腰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,10 +390,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			dir = 1,
-			actor = 302251,
+			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔，有点头晕了……让我靠一靠吧，指挥官。",
+			say = "唔，有點頭暈了……讓我靠一下吧，指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,10 +404,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			withoutActorName = true,
-			actor = 302251,
+			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "似乎是由于一口气喝太快的缘故，她的声音变得有点闷闷的。",
+			say = "似乎是由於一口氣喝太快的緣故，她的聲音變得有點悶悶的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,10 +418,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			withoutActorName = true,
-			actor = 302251,
+			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "属于零点的烟花“簌”地升空，绚丽的色彩再度点燃了夜空，也照亮了少女的面庞。",
+			say = "屬於零點的煙火「簌」地升空，絢麗的色彩再度點燃了夜空，也照亮了少女的面龐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,10 +433,10 @@ return {
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			dir = 1,
-			actor = 302251,
+			actor = 302250,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "这般独占着指挥官，看着绚丽多彩的烟火，美好得就像在做梦一样……",
+			say = "這般獨佔著指揮官，看著絢麗多彩的煙火，美好得就像在做夢一樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,10 +447,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			dir = 1,
-			actor = 302251,
+			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要是永远都不会醒来就好了呢。",
+			say = "要是永遠都不會醒來就好了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,10 +461,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_542",
 			withoutActorName = true,
-			actor = 302251,
+			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女轻声呢喃着，呼吸逐渐变得平稳而绵长。",
+			say = "少女輕聲呢喃著，呼吸逐漸變得平穩而綿長。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,10 +476,10 @@ return {
 			bgName = "star_level_bg_542",
 			hidePaintObj = true,
 			dir = 1,
-			actor = 302251,
+			actor = 302250,
 			nameColor = "#A9F548FF",
 			live2d = "main4",
-			say = "指挥官……你也要……做个好梦……zZZ……",
+			say = "指揮官……你也要……做個好夢……zZZ……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

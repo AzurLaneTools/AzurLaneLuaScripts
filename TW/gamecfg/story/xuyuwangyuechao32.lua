@@ -14,7 +14,7 @@ return {
 			bgm = "story-afterrain-soft",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "重樱群岛·{namecode:74}宅邸",
+			say = "重櫻群島·長門宅邸",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "世界海军学院的访问活动仍在进行当中。",
+			say = "世界海軍學院的訪問活動仍在進行當中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "通过云游四方，访问各国了解各地的风土人情，的确是难得的体验。",
+			say = "透過雲遊四方，訪問各國了解各地的風土人情，的確是難得的體驗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "作为未来战场的指挥官，越发觉得自己任重而道远。",
+			say = "身為未來戰場的指揮官，越發覺得自己任重道遠。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "翻阅手中的行程安排。",
+			say = "翻閱手中的行程安排。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "满满的注释与时间表看得人头皮发麻。",
+			say = "滿滿的註釋與時間表看得人頭皮發麻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "赶紧将其合上，捏了捏鼻梁。",
+			say = "趕緊將其闔上，捏了捏鼻樑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "距离下一项安排还有点时间。",
+			say = "距離下一項安排還有一點時間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "趁这个空隙稍微休息一下吧。",
+			say = "趁這個空隙稍微休息一下吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "这些天来，跟随重樱的向导，参观了都城中各种名胜古迹。",
+			say = "這些天來，跟隨重櫻的嚮導，參觀了都城中各種名勝古蹟。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "这个环节还是挺惬意的。",
+			say = "這個環節還挺愜意的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "直到开始那冗长无聊的会议环节……",
+			say = "直到開始那冗長無聊的會議環節……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "而我作为主发言人，又不得不全神贯注。",
+			say = "而我作為主發言人，又不得不全神貫注。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "不知不觉，休息的时间已经过半。",
+			say = "不知不覺，休息的時間已經過半。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_515",
 			hidePaintObj = true,
-			say = "我整理了一下衣装，推开门前往晚宴的举办地。",
+			say = "我整理了一下衣裝，並推開門前往晚宴的舉辦地點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -9,7 +9,7 @@ return {
 			bgm = "story-darkplan",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "来到了入园时路过的小吃摊位附近时，却发现这里不知何时多出了一个隧道。",
+			say = "來到了入園時經過的小吃攤位附近時，卻發現這裡不知何時多出了一個隧道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这次的异常倒是很明显嘛！",
+			say = "這次的異常倒是很明顯嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "通向更深的黑暗的、连光都无法穿透的隧道，而那黑暗中潜藏着难以言喻的恐怖！",
+			say = "通往更深的黑暗的、連光都無法穿透的隧道，而那黑暗中潛藏著難以言喻的恐怖！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "每前行一步都可能导向永恒的疯狂……！",
+			say = "每前行一步都可能導向永恆的瘋狂……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			actor = 301900,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……就、就一定要说的这么吓人么！",
+			say = "……就、就一定要說的這麼嚇人嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			actor = 301350,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇啊啊，我不听我不听！！呜呜……我要回家！",
+			say = "哇啊啊，我不聽我不聽！！嗚嗚嗚……我要回家！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			actor = 207025,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大家，不用害怕！布里斯托尔只是说着玩的。对吧，指挥官！",
+			say = "大家，不用害怕！布里斯托爾只是說著玩的。對吧，指揮官！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没错。",
+			say = "沒錯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			actor = 901060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可、可是……之前重樱的{namecode:74:长门}小姐她们……",
+			say = "可、可是……之前重櫻的長門小姐她們……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			actor = 901060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她们进去了到现在都还没出来……",
+			say = "她們進去了到現在都還沒出來……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？她们进这个隧道做什么？",
+			say = "嗯？她們進這個隧道做什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			actor = 207025,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是这样的。临近黄昏的时候，本人带驱逐舰妹妹们来一起坐游乐园的观光小火车。",
+			say = "是這樣的。接近黃昏的時候，本人帶著驅逐艦妹妹們一起來搭遊樂園的觀光小火車。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			actor = 207025,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然后遇到了同样是来坐车的{namecode:74:长门}小姐她们。",
+			say = "然後遇到了同樣是來坐車的長門小姐她們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是在钟声敲响之后，这里突然多了个隧道。",
+			say = "但是在鐘聲敲響之後，這裡突然多了個隧道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			actor = 207025,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她们觉得事有蹊跷，便先坐上小火车进去查探了，让本人带着其他驱逐舰妹妹在这里等消息。",
+			say = "她們覺得事有蹊蹺，便先坐上小火車進去查探了，讓本人帶著其他驅逐艦妹妹在這裡等消息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "伴随着音响中传来的一声失真的汽笛声，小火车缓缓驶出隧道。",
+			say = "伴隨著音響中傳來的一聲失真的汽笛聲，小火車緩緩駛出隧道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			actor = 901060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是她们回来了么……！",
+			say = "是她們回來了嗎……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,10 +273,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_543",
 			dir = 1,
-			actor = 307151,
+			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……车内无人。",
+			say = "嗯……車內無人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看来隧道内恐怕也有和先前困住{namecode:91:赤城}一样的“噩梦”。",
+			say = "看來隧道內恐怕也有和先前困住赤城一樣的「惡夢」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "皇家方舟，你继续留在这里照顾驱逐舰们。我们进去。",
+			say = "皇家方舟，妳繼續留在這裡照顧驅逐艦們。我們進去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			actor = 207025,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不，请允许本人拒绝。我想跟你们一起去，眼下解决问题最为要紧。",
+			say = "不，請允許本人拒絕。我想跟你們一起去，眼下解決問題最為要緊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			actor = 207025,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "至于留下来照顾其他驱逐舰妹妹的人选么……",
+			say = "至於留下來照顧其他驅逐艦妹妹的人選嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			actor = 901070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯哼……虽然人家也是驱逐舰，但是照顾其他人没问题哦……",
+			say = "嗯哼……雖然人家也是驅逐艦，但是照顧其他人沒問題喔……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "将照顾其他驱逐舰的任务交给莫加多尔后，皇家方舟也跟着一起登上了空荡无人的小火车。",
+			say = "將照顧其他驅逐艦的任務交給莫加多爾後，皇家方舟也跟著一起登上了空蕩無人的小火車。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "扭曲失真的汽笛声再度响起，小火车载着我们一行人朝着黑暗的隧道中驶去。",
+			say = "扭曲失真的汽笛聲再度響起，小火車載著我們一行人朝著黑暗的隧道中駛去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_543",
-			say = "进入隧道后，原本在外能看到的、铁轨两旁的灯光突兀熄灭。",
+			say = "進入隧道後，原本在外看得到的、鐵軌兩旁的燈光突兀熄滅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "周围瞬间变得漆黑一片，而火车的车速也明显慢了下来，仿佛在黑暗中摸索前进。",
+			say = "周圍瞬間變得漆黑一片，而火車的車速也明顯慢了下來，彷彿在黑暗中摸索前進。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇，好黑啊！不过这种氛围倒是正好适合讲怪谈呢~",
+			say = "哇，好黑啊！不過這種氛圍倒是正好適合講怪談呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "布里斯托尔说着点亮了手中的提灯，从下往上为自己打光。",
+			say = "布里斯托爾說著點亮了手中的提燈，從下往上為自己打光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "漆黑的夜里，老旧的木地板上发出令人毛骨悚然的吱呀声……",
+			say = "漆黑的夜裡，老舊的木地板上發出令人毛骨悚然的吱呀聲……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不准讲！",
+			say = "不准講！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "难道抚顺你也害怕了？",
+			say = "難道撫順妳也害怕了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -492,7 +492,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我、我怎么可能会害怕？我只是觉得做正事要紧！",
+			say = "我、我怎麼可能會害怕？我只是覺得做正事要緊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好吧好吧~指挥官，我们现在要下去么？",
+			say = "好吧好吧~指揮官，我們現在要下去嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "布里斯托尔手中的提灯随着她的动作轻轻晃动，随即——",
+			say = "布里斯托爾手中的提燈隨著她的動作輕輕晃動，隨即——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "怎么感觉车身晃了一下？",
+			say = "怎麼感覺車身晃了一下？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我也感觉到了。",
+			say = "我也感覺到了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯……？布里斯托尔手里的灯晃了一下，小火车就跟着晃动，巧合么？）",
+			say = "（嗯……？布里斯托爾手上的燈晃了一下，小火車就跟著晃動，巧合嗎？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "布里斯托尔，把你手中的提灯挪个方向。",
+			say = "布里斯托爾，把妳手中的提燈換個方向。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦哦！好嘞！",
+			say = "哦哦！好的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,7 +601,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "在布里斯托尔将手中的提灯方向转变之后，能感觉到小火车的车头方向也跟着移动了。",
+			say = "在布里斯托爾將手中的提燈方向轉變之後，能感覺到小火車的車頭方向也跟著移動了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -625,7 +625,7 @@ return {
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过这个程度的光还是太微弱了……无法让小火车继续前进。",
+			say = "不過這個程度的光還是太微弱了……無法讓小火車繼續前進。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,10 +636,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_543",
 			dir = 1,
-			actor = 307151,
+			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这么看来，或许只要点亮这片黑暗的隧道，就能驱散了噩梦呢。",
+			say = "這麼看來，或許只要點亮這片黑暗的隧道，就能驅散了惡夢呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "就在这时，小火车突然停了下来。",
+			say = "就在這時，小火車突然停了下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -661,7 +661,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "车门无声地打开了，隧道内黑暗冰冷的空气涌入车厢。",
+			say = "車門無聲地打開了，隧道內黑暗冰冷的空氣湧入車廂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "借助布里斯托尔手中提灯的光亮，在黑暗的隧道中找到了引燃纸符作为光源的{namecode:74:长门}等人。",
+			say = "借助布里斯托爾手中提燈的光亮，在黑暗的隧道中找到了引燃紙符作為光源的長門等人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,7 +698,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，是汝啊。还有……",
+			say = "指揮官，是汝啊。還有……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -709,19 +709,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "之后，{namecode:74:长门}一行将她们在隧道中的发现告知了我们。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_543",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "需要乘小火车才能离开，但又无法为整个隧道提供光源。",
+			say = "之後，長門一行人將她們在隧道中的發現告知了我們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +721,19 @@ return {
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这样一来，小火车无法继续前行，所以你们就无法离开……",
+			say = "需要搭小火車才能離開，但又無法為整個隧道提供光源。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_543",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "這樣一來，小火車無法繼續前行，所以妳們就無法離開……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -746,7 +746,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然没办法离开这个隧道，但是我们在四处走的时候，发现了一块很特殊的地方哦！",
+			say = "雖然沒辦法離開這個隧道，但是我們在四處走的時候，發現了一塊很特別的地方喔！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,7 +760,7 @@ return {
 			actor = 399060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……不论采用了什么方法，都没办法照亮那里。",
+			say = "嗯……不論採用了什麼方法，都沒辦法照亮那裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -774,7 +774,7 @@ return {
 			actor = 399060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但隐约能看出有个圆形的轮廓……",
+			say = "但隱約能看出有個圓形的輪廓……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -788,7 +788,7 @@ return {
 			actor = 399060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，随我们过去吧。你一看便知。",
+			say = "指揮官，隨我們過去吧。你一看便知。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -811,7 +811,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "跟着{namecode:292:四万十}来到了那团据她们所说的、无法被光源照亮的黑暗所在之处。",
+			say = "跟著四萬十來到了那團據她們所說的、無法被光源照亮的黑暗所在之處。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -822,7 +822,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "被诡异光芒缠绕的球状物明灭起伏，其中狐耳少女的身影隐约可见。",
+			say = "被詭異光芒纏繞的球狀物明滅起伏，其中狐耳少女的身影隱約可見。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -834,7 +834,7 @@ return {
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这次竟是{namecode:92:加贺}被困住了么。",
+			say = "這次竟是加賀被困住了嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -847,7 +847,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯？汝能看穿这黑暗么？",
+			say = "嗯？汝能看穿這黑暗嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -858,7 +858,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "在熟练地向{namecode:74:长门}一行解释了眼下的情况后，便开始着手解救被噩梦困住的{namecode:92:加贺}。",
+			say = "在熟練地向長門一行解釋了眼下的情況後，便開始著手解救被噩夢困住的加賀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -871,7 +871,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个我们熟~只要用积极的情绪地把美梦的碎片吸引过来就好了嘛~",
+			say = "這個我們熟~只要用正面的情緒地把美夢的碎片吸引過來就好了啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -885,7 +885,7 @@ return {
 			actor = 207025,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这么简单么？那本人现在就想想高兴的事情！",
+			say = "這麼簡單嗎？那本人現在就想想高興的事！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -898,7 +898,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大冒险真是开心啊！我最喜欢大冒险了！",
+			say = "大冒險真是開心啊！我最喜歡大冒險了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -921,7 +921,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咦，怎么这次没碎片？难道是我不够开心？？",
+			say = "咦，怎麼這次沒碎片？難道是我不夠開心？？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -932,7 +932,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "隧道内依旧漆黑一片，没有任何美梦的碎片出现的迹象。",
+			say = "隧道內依舊漆黑一片，沒有任何美夢的碎片出現的跡象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -946,7 +946,7 @@ return {
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这好像和之前困住{namecode:91:赤城}的情况不一样欸。",
+			say = "這好像和之前困住赤城的情況不一樣欸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -957,10 +957,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_543",
 			dir = 1,
-			actor = 307151,
+			actor = 307150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "的确……",
+			say = "的確……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -972,7 +972,7 @@ return {
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "既然如此，只能想办法将{namecode:92:加贺}从噩梦中唤醒了。",
+			say = "既然如此，只能想辦法將加賀從惡夢中喚醒了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -983,7 +983,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "被困的狐耳少女此刻双目紧闭，眉头皱起，似乎是梦到了什么讨厌的东西。",
+			say = "被困的狐耳少女此刻雙眼緊閉，眉頭皺起，似乎是夢到了什麼討厭的東西。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -994,7 +994,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "缠绕在外的诡异光芒也闪烁得更为急促。",
+			say = "纏繞在外的詭異光芒也閃爍得更為急促。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1005,7 +1005,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "与此同时，隧道中的黑暗又浓重了一分。",
+			say = "同時，隧道中的黑暗又濃重了一分。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1019,7 +1019,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说起来……我在睡着的时候，隐约能听到一些声音，只是不够真切。",
+			say = "說起來……我在睡著的時候，隱約能聽到一些聲音，只是不夠真切。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1032,7 +1032,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "或许{namecode:92:加贺}也能听到我们说话的声音？",
+			say = "或許加賀也能聽到我們說話的聲音？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1044,7 +1044,7 @@ return {
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "能听到声音的话，就好办了。",
+			say = "能聽到聲音的話，就好辦了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1055,7 +1055,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "让其他人后退之后，慢慢靠近了困住{namecode:92:加贺}的“噩梦”。",
+			say = "讓其他人後退之後，慢慢靠近了困住加賀的「惡夢」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1067,7 +1067,7 @@ return {
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:92:加贺}，还记得……",
+			say = "加賀，還記得……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1079,7 +1079,7 @@ return {
 			bgm = "story-fantasyland-light",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "随着过往美好回忆的讲述，{namecode:92:加贺}的表情也越来越平和。",
+			say = "隨著過往美好回憶的敘述，加賀的表情也越來越平和。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1107,7 +1107,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "直至隧道和黑暗一齐消失，夕阳的余晖毫无遮挡地洒下时，{namecode:92:加贺}也睁开了双眼。",
+			say = "直到隧道和黑暗一齊消失，夕陽的餘暉毫無遮擋地灑下時，加賀也睜開了雙眼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1121,7 +1121,7 @@ return {
 			actor = 307020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是一个讨厌的噩梦……",
+			say = "真是個討厭的惡夢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1135,7 +1135,7 @@ return {
 			actor = 307020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过……就在心烦意乱的时候，我听到了你的声音。",
+			say = "不過……就在心煩意亂的時候，我聽到了你的聲音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1148,7 +1148,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，托你的福，我又做了个好梦。",
+			say = "指揮官，託你的福，我又做了個好夢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1159,7 +1159,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
-			say = "少女的面颊被夕日镀上柔和的晕影，嘴角浮现出一丝笑意。",
+			say = "少女的臉頰被夕日染上柔和的暈影，嘴角浮現出一絲笑意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
