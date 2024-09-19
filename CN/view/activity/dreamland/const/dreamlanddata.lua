@@ -319,10 +319,27 @@ slot0.ExistAnyMapAward = function(slot0)
 	end)
 end
 
+slot2 = "DREAMLAND_KEY"
+
+slot0.FirstTimeExplore = function(slot0)
+	return PlayerPrefs.GetInt(uv0 .. getProxy(PlayerProxy):getRawData().id, 0) == 0 and #slot0:FindUnlockMaps() > 0 and table.getCount(slot0.exploreAwards) == 0
+end
+
 slot0.ExistAnyExploreAward = function(slot0)
 	return _.any(slot0:GetAllMapId(), function (slot0)
 		return uv0:IsFinishMapExplore(slot0) and not uv0:IsReceiveExploreAward(slot0)
-	end)
+	end) or slot0:FirstTimeExplore()
+end
+
+slot0.MarkExploreState = function(slot0)
+	if slot0:FirstTimeExplore() then
+		PlayerPrefs.SetInt(uv0 .. getProxy(PlayerProxy):getRawData().id, 1)
+		PlayerPrefs.Save()
+
+		return true
+	end
+
+	return false
 end
 
 slot0.ExistAnyMapOrExploreAward = function(slot0)

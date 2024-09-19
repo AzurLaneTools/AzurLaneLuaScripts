@@ -247,7 +247,7 @@ return {
 			actor = 9705010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "请远离神石，远离梦境，此中之物是不您应该深入探究的。",
+			say = "请远离神石，远离梦境，此中之物不是您应该深入探究的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
