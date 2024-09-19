@@ -581,7 +581,7 @@ return {
 			}
 		},
 		{
-			actor = 103281,
+			actor = 103280,
 			side = 2,
 			bgName = "star_level_bg_181",
 			hidePaintObj = true,

@@ -132,7 +132,7 @@ return {
 			actor = 303190,
 			actorName = "大賢者",
 			hidePaintObj = true,
-			say = "你錯了。",
+			say = "妳錯了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

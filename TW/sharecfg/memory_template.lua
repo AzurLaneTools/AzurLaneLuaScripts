@@ -29444,7 +29444,7 @@ pg.base.memory_template = {
 		condition = "完成「港區時尚特刊：合訂集[1]」雲仙的簽到",
 		story = "SHISHANGTEKANHEDINGJIER2",
 		id = 3032,
-		icon = "memory_shishangtekanhedingji2",
+		icon = "memory_shishangtekanhedingji1",
 		is_open = 0
 	},
 	[3051] = {

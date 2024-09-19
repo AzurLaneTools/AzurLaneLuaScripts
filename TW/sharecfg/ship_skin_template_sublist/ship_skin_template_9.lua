@@ -4478,7 +4478,7 @@ pg.base.ship_skin_template_9 = {
 		}
 	},
 	[301910] = {
-		name = "綾瀨",
+		name = "涼波",
 		ship_group = 30191,
 		desc = "{namecode:35}级驱逐舰—{namecode:234}",
 		illustrator2 = -1,
@@ -10562,7 +10562,7 @@ pg.base.ship_skin_template_9 = {
 		}
 	},
 	[302260] = {
-		name = "凉波",
+		name = "綾瀨",
 		ship_group = 30226,
 		desc = "{namecode:38}级轻巡洋舰—{namecode:233}",
 		illustrator2 = -1,

@@ -90,7 +90,7 @@ return {
 			actor = 303191,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "茶雖然清淡，但細部之下，能感受到雲仙獨特的風味。",
+			say = "茶雖然清淡，但細品之下，能感受到雲仙獨特的風味。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

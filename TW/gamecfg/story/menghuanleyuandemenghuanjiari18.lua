@@ -7,11 +7,10 @@ return {
 	},
 	scripts = {
 		{
-			portrait = 302250,
+			actorName = "？？？",
 			side = 2,
 			dir = 1,
 			bgName = "star_level_bg_542",
-			actorName = "？？？",
 			hidePainting = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,

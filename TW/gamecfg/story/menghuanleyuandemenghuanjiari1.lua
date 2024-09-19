@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"梦幻乐园的梦幻假日\n\n<size=45>夢境的入口</size>",
+					"夢幻樂園的夢幻假日\n\n<size=45>夢境的入口</size>",
 					1
 				}
 			}

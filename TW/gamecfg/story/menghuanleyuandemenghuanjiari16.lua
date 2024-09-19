@@ -558,7 +558,7 @@ return {
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，你提吧。",
+			say = "嗯，妳提吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -309,10 +309,9 @@ return {
 			}
 		},
 		{
-			portrait = 307150,
+			hidePainting = true,
 			side = 2,
 			bgName = "star_level_bg_506",
-			hidePainting = true,
 			dir = 1,
 			actor = 304050,
 			nameColor = "#A9F548FF",

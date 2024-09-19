@@ -158,7 +158,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_508",
-			say = "徹夜未眠的酒豈注意到了天空中忽然出現的亮點。",
+			say = "徹夜未眠的酒匂注意到了天空中忽然出現的亮點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -141,7 +141,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如此……甚好。對了，指揮官可有什麼想去玩的設施麼？",
+			say = "如此……甚好。對了，指揮官可有什麼想去玩的設施嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 			actor = 900457,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？主人……還有重櫻的各位，都是來乘坐旋轉木馬的麼。",
+			say = "嗯？主人……還有重櫻的各位，都是來乘坐旋轉木馬的嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -695,7 +695,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是麼？我倒是覺得這個方式還蠻有趣的。",
+			say = "是嗎？我倒是覺得這個方式還蠻有趣的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
