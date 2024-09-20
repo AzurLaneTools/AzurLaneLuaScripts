@@ -250,10 +250,8 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_601",
-			dir = 1,
-			actor = 303110,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			say = "Takao slowly opened her eyes and looked at me. Her lips turned upward into a little smile.",
 			typewriter = {
