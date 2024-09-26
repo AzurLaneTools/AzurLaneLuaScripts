@@ -35547,9 +35547,9 @@ _G.pg.base.item_data_statistics[30545] = {
 
 _G.pg.base.item_data_statistics[30546] = {
 	open_directly = 0,
-	name = "定向外观装备箱(红月)",
+	name = "Selection Gear Box (Blood Moon)",
 	type = 13,
-	display = "使用后可从「红月之夜」主题外观装备中任意选择一种获得1个",
+	display = "Can be used to receive one Blood Moon-themed gear skin of your choosing.",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop_appointed",

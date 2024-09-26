@@ -318,10 +318,35 @@ pg.activity_banner = {
 	},
 	[90] = {
 		param = "",
-		time = "stop",
 		type = 9,
 		id = 90,
-		pic = "temp99"
+		pic = "temp99",
+		time = {
+			{
+				{
+					2024,
+					9,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[91] = {
 		param = "",
@@ -339,10 +364,35 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
-		time = "stop",
 		type = 12,
 		id = 99,
-		pic = "limit_skin"
+		pic = "limit_skin",
+		time = {
+			{
+				{
+					2024,
+					9,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[100] = {
 		param = "Osmanthus Cake|A sweet and aromatic cake said to have come from the Moon Palace! Delicious! <color=#6dd329>(Increase EXP by 5 for 60 minutes)</color>",

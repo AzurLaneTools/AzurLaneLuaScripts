@@ -4814,7 +4814,7 @@ pg.base.memory_group = {
 		}
 	},
 	[304] = {
-		title = "宿舍焕新计划！",
+		title = "The Dorm Extension Project",
 		subtype = 3,
 		link_event = 0,
 		type = 2,
