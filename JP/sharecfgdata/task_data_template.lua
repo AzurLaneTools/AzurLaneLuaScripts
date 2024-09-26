@@ -41968,8 +41968,8 @@ _G.pg.base.task_data_template[7311] = {
 	award_display = {
 		{
 			27,
-			1021002,
-			1
+			1021001,
+			4
 		}
 	}
 }

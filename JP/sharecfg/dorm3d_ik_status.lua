@@ -1731,6 +1731,7 @@ pg.dorm3d_ik_status = {
 		head_track = {
 			1,
 			0,
+			0,
 			0
 		}
 	},
@@ -1759,7 +1760,7 @@ pg.dorm3d_ik_status = {
 				{
 					4,
 					0.3,
-					1018
+					1017
 				}
 			}
 		},
@@ -2126,10 +2127,7 @@ pg.dorm3d_ik_status = {
 		},
 		cloth_colliders = {},
 		head_track = {
-			1,
-			0,
-			0,
-			0
+			1
 		}
 	},
 	[115020] = {
@@ -2591,7 +2589,7 @@ pg.dorm3d_ik_status = {
 		base = 100310,
 		camera_group = 11030,
 		skin_id = 202202,
-		character_position = "Pos100310",
+		character_position = "Pos110310",
 		id = 110310,
 		character_id = 20220,
 		ik_id = {
@@ -2634,7 +2632,7 @@ pg.dorm3d_ik_status = {
 		base = 100320,
 		camera_group = 11030,
 		skin_id = 202202,
-		character_position = "Pos100320",
+		character_position = "Pos110310",
 		id = 110320,
 		character_id = 20220,
 		ik_id = {
@@ -2668,7 +2666,7 @@ pg.dorm3d_ik_status = {
 		base = 100330,
 		camera_group = 11030,
 		skin_id = 202202,
-		character_position = "Pos100330",
+		character_position = "Pos110310",
 		id = 110330,
 		character_id = 20220,
 		ik_id = {
@@ -2829,6 +2827,7 @@ pg.dorm3d_ik_status = {
 		head_track = {
 			1,
 			0,
+			0,
 			0
 		}
 	},
@@ -2849,15 +2848,6 @@ pg.dorm3d_ik_status = {
 					1,
 					110711,
 					"chuang_beibu_1_start"
-				}
-			},
-			{
-				11071001,
-				0,
-				{
-					4,
-					0.3,
-					1018
 				}
 			}
 		},

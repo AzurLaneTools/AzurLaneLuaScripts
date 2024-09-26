@@ -448,7 +448,7 @@ slot0.init = function(slot0)
 	setText(slot0.rtRole:Find("Volleyball/bg/Text"), i18n("dorm3d_volleyball_button"))
 	onButton(slot0, slot0.rtRole:Find("Performance"), function ()
 		uv0:PerformanceQueue("DormLvPerformance02", function ()
-			pg.TipsMgr.GetInstance():ShowTips("Success!")
+			pg.TipsMgr.GetInstance():ShowTips("完了しました")
 		end)
 	end, "ui-dorm_click_v2")
 

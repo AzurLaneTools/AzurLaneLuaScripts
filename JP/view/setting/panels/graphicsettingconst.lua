@@ -149,6 +149,12 @@ slot0.settings = {
 			On = 2,
 			Off = 1,
 			HighQuality = 3
+		},
+		childList = {
+			16,
+			17,
+			18,
+			19
 		}
 	},
 	{
@@ -189,7 +195,7 @@ slot0.HandleCustomSetting = function()
 		slot8 = pg.dorm3d_graphic_setting[slot7.cfgId]
 
 		if PlayerPrefs.GetInt(slot7.playerPrefsname, 0) ~= 0 then
-			if slot7.displayType == uv1.toggle then
+			if slot8.displayType == uv1.toggle then
 				slot9 = slot9 == 2 and true or false
 			end
 		else
@@ -197,15 +203,19 @@ slot0.HandleCustomSetting = function()
 		end
 
 		if slot8.displayType == uv1.select then
-			for slot13, slot14 in pairs(slot7.Enum) do
-				if slot14 == slot9 then
-					slot9 = slot13
+			if slot7.childList ~= nil and slot9 == 1 then
+				print(123)
+			else
+				for slot13, slot14 in pairs(slot7.Enum) do
+					if slot14 == slot9 then
+						slot9 = slot13
 
-					break
+						break
+					end
 				end
-			end
 
-			ReflectionHelp.RefSetField(slot2:GetType(), slot7.CsharpValue, slot2, ReflectionHelp.RefGetField(typeof("BLHX.Rendering." .. slot7.EnumType), tostring(slot9), nil))
+				ReflectionHelp.RefSetField(slot2:GetType(), slot7.CsharpValue, slot2, ReflectionHelp.RefGetField(typeof("BLHX.Rendering." .. slot7.EnumType), tostring(slot9), nil))
+			end
 		else
 			ReflectionHelp.RefSetField(slot2:GetType(), slot7.CsharpValue, slot2, slot9)
 		end

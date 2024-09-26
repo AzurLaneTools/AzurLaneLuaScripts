@@ -348,7 +348,7 @@ slot0.InitCardTrigger = function(slot0, slot1)
 						end
 
 						DormGroupConst.DelDir("dorm3d/character/" .. string.lower(uv0:getConfig("resource_name")))
-						pg.TipsMgr.GetInstance():ShowTips("delete finish !")
+						pg.TipsMgr.GetInstance():ShowTips("アセット削除が完了しました!")
 					end
 				})
 			end)
@@ -490,17 +490,10 @@ slot0.AfterRoomUnlock = function(slot0, slot1)
 end
 
 slot0.ShowIconTipWindow = function(slot0, slot1, slot2)
-	slot4 = slot0.rtIconTip
-	slot5 = slot0.rtIconTip
+	setLocalPosition(slot0.rtIconTip:Find("window"), slot0.rtIconTip:InverseTransformPoint(slot2.position))
+	removeAllChildren(slot0.rtIconTip:Find("window/icon"))
 
-	setLocalPosition(slot4:Find("window"), slot5:InverseTransformPoint(slot2.position))
-
-	slot4 = slot0.rtIconTip
-
-	removeAllChildren(slot4:Find("window/icon"))
-
-	slot5 = slot0.rtIconTip
-	slot2 = cloneTplTo(slot2, slot5:Find("window/icon"))
+	slot2 = cloneTplTo(slot2, slot0.rtIconTip:Find("window/icon"))
 
 	slot0:UpdateShowIcon(slot1, slot2)
 	setAnchoredPosition(slot2, Vector2.zero)
@@ -508,15 +501,10 @@ slot0.ShowIconTipWindow = function(slot0, slot1, slot2)
 	slot3 = ApartmentRoom.New({
 		id = slot1
 	})
-	slot4, slot5 = slot3:getDownloadNameList()
-	slot7, slot8 = DormGroupConst.CalcDormListSize(table.mergeArray(slot4, slot5))
-	slot10 = slot0.rtIconTip
+	slot4, slot5 = slot3:getDownloadNeedSize()
 
-	setText(slot10:Find("window/Text"), i18n("dorm3d_role_assets_download", ShipGroup.getDefaultShipNameByGroupID(slot3:getPersonalGroupId()), slot8))
-
-	slot11 = slot0.rtIconTip
-
-	onButton(slot0, slot11:Find("window/btn_confirm"), function ()
+	setText(slot0.rtIconTip:Find("window/Text"), i18n("dorm3d_role_assets_download", ShipGroup.getDefaultShipNameByGroupID(slot3:getPersonalGroupId()), slot3:needDownload() and slot5 or "0B"))
+	onButton(slot0, slot0.rtIconTip:Find("window/btn_confirm"), function ()
 		uv0:emit(SelectDorm3DMediator.ON_UNLOCK_DORM_ROOM, uv1)
 	end, SFX_CONFIRM)
 	setActive(slot0.rtIconTip, true)
@@ -565,7 +553,7 @@ end
 
 slot0.TryDownloadResource = function(slot0, slot1, slot2)
 	if DormGroupConst.IsDownloading() then
-		pg.TipsMgr.GetInstance():ShowTips("now is downloading")
+		pg.TipsMgr.GetInstance():ShowTips("アセットダウンロード中です")
 
 		return
 	end
@@ -578,7 +566,7 @@ slot0.TryDownloadResource = function(slot0, slot1, slot2)
 			fileList = table.mergeArray(slot4, slot5),
 			finishFunc = function (slot0)
 				if slot0 then
-					pg.TipsMgr.GetInstance():ShowTips("dorm resource download complete !")
+					pg.TipsMgr.GetInstance():ShowTips("宿舎アセットのダウンロードはまだ完了していません!")
 				end
 
 				if uv0.roomDic[uv1.configId] then

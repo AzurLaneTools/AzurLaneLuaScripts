@@ -33,6 +33,36 @@ slot0.OnInit = function(slot0)
 	end)
 end
 
+slot0.JumpToCustomSettingSetChild = function(slot0, slot1)
+	slot5 = Dorm3dTrackCommand.BuildDataGraphics
+	slot6 = 4
+
+	pg.m02:sendNotification(GAME.APARTMENT_TRACK, slot5(slot6))
+	PlayerPrefs.SetInt("dorm3d_graphics_settings", 4)
+
+	for slot5, slot6 in ipairs(slot0.playerSettingPlaySet) do
+		slot7 = nil
+
+		if slot6.type == uv0.toggle then
+			slot7 = slot6.value and 2 or 1
+
+			if slot6.hasParent then
+				slot7 = 1
+			end
+		else
+			slot7 = slot6.value
+		end
+
+		if slot1 ~= nil and slot6.name == slot1.name then
+			PlayerPrefs.SetInt(slot1.name, slot1.value)
+		else
+			PlayerPrefs.SetInt(slot6.name, slot7)
+		end
+	end
+
+	pg.m02:sendNotification(NewSettingsMediator.SelectCustomGraphicSetting)
+end
+
 slot0.JumpToCustomSetting = function(slot0, slot1)
 	slot5 = Dorm3dTrackCommand.BuildDataGraphics
 	slot6 = 4
@@ -124,7 +154,8 @@ slot0.UpdateItem = function(slot0, slot1, slot2)
 		table.insert(slot0.playerSettingPlaySet, {
 			name = slot3.playerPrefsname,
 			value = slot14,
-			type = slot4.displayType
+			type = slot4.displayType,
+			hasParent = slot3.parentSetting ~= nil
 		})
 
 		return
@@ -143,10 +174,18 @@ slot0.UpdateItem = function(slot0, slot1, slot2)
 		uv0 = uv0 - 1
 
 		uv1()
-		uv2:JumpToCustomSetting({
-			name = uv3.playerPrefsname,
-			value = uv0
-		})
+
+		if uv2.childList and uv0 == 1 then
+			uv3:JumpToCustomSettingSetChild({
+				name = uv2.playerPrefsname,
+				value = uv0
+			})
+		else
+			uv3:JumpToCustomSetting({
+				name = uv2.playerPrefsname,
+				value = uv0
+			})
+		end
 	end)
 	onButton(slot0, slot8:Find("rightbu"), function ()
 		uv0 = uv0 + 1

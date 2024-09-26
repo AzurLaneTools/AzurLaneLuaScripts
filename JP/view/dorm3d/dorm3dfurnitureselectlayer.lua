@@ -695,6 +695,7 @@ slot0.AutoReplaceFurniture = function(slot0)
 			furnitureId = slot4:GetConfigID()
 		})
 	end)
+	slot0:UpdateDataDisplayFurnitures()
 	slot0:UpdateView()
 end
 

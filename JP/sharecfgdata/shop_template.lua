@@ -69864,7 +69864,7 @@ _G.pg.base.shop_template[260201] = {
 	type = 27,
 	type_order = 0,
 	desc = "宿舍30钻石购买蛋糕礼盒",
-	group_limit = 1,
+	group_limit = 3,
 	group_buy_count = 1,
 	tag = 0,
 	limit_args2 = "",
@@ -69892,7 +69892,7 @@ _G.pg.base.shop_template[260202] = {
 	type = 27,
 	type_order = 0,
 	desc = "宿舍60钻石购买蛋糕礼盒",
-	group_limit = 2,
+	group_limit = 5,
 	group_buy_count = 1,
 	tag = 0,
 	limit_args2 = "",
@@ -69949,11 +69949,11 @@ _G.pg.base.shop_template[260301] = {
 
 _G.pg.base.shop_template[270101] = {
 	group_type = 0,
-	resource_num = 400,
+	resource_num = 480,
 	time_second = 0,
 	type = 26,
 	type_order = 0,
-	desc = "宿舍400钻石购买床2",
+	desc = "宿舍480钻石购买甜蜜心事",
 	group_limit = 0,
 	group_buy_count = 0,
 	tag = 0,
@@ -70036,31 +70036,6 @@ _G.pg.base.shop_template[270110] = {
 	resource_type = 14,
 	id = 270110,
 	genre = "",
-	discount_time = {
-		{
-			{
-				2018,
-				5,
-				24
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2024,
-				10,
-				1
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
-	},
+	discount_time = "always",
 	limit_args = {}
 }

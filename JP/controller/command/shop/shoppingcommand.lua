@@ -117,6 +117,22 @@ slot0.execute = function(slot0, slot1)
 		end
 	end
 
+	if slot5.group_limit > 0 and (slot5.type == DROP_TYPE_DORM3D_FURNITURE or slot5.type == DROP_TYPE_DORM3D_GIFT) then
+		slot13 = 0
+
+		if slot5.type == DROP_TYPE_DORM3D_FURNITURE then
+			slot13 = getProxy(ApartmentProxy):GetFurnitureShopCount(slot5.effect_args[1])
+		elseif slot5.type == DROP_TYPE_DORM3D_GIFT then
+			slot13 = getProxy(ApartmentProxy):GetGiftShopCount(slot5.effect_args[1])
+		end
+
+		if slot5.group_limit <= slot13 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
+
+			return
+		end
+	end
+
 	if slot5.discount ~= 0 and CommonCommodity.InCommodityDiscountTime(slot5.id) then
 		slot11 = slot11 * (100 - slot5.discount) / 100
 	end
@@ -310,13 +326,13 @@ slot0.execute = function(slot0, slot1)
 				if uv0.limit_args then
 					for slot7, slot8 in ipairs(uv0.limit_args) do
 						if type(slot8) == "table" and (uv0.type == DROP_TYPE_DORM3D_FURNITURE or uv0.type == DROP_TYPE_DORM3D_GIFT) then
-							if slot8[1] == "count" then
+							if slot8[1] == "dailycount" then
 								if uv0.type == DROP_TYPE_DORM3D_FURNITURE then
 									getProxy(ApartmentProxy):AddDailyFurnitureShopCount(uv0.effect_args[1], uv0.effect_args[2] or 1)
 								elseif uv0.type == DROP_TYPE_DORM3D_GIFT then
 									getProxy(ApartmentProxy):AddDailyGiftShopCount(uv0.effect_args[1], uv0.effect_args[2] or 1)
 								end
-							elseif slot8[1] == "dailycount" then
+							elseif slot8[1] == "count" then
 								if uv0.type == DROP_TYPE_DORM3D_FURNITURE then
 									getProxy(ApartmentProxy):AddPermanentFurnitureShopCount(uv0.effect_args[1], uv0.effect_args[2] or 1)
 								elseif uv0.type == DROP_TYPE_DORM3D_GIFT then
@@ -324,6 +340,14 @@ slot0.execute = function(slot0, slot1)
 								end
 							end
 						end
+					end
+				end
+
+				if uv0.group_limit > 0 and (uv0.type == DROP_TYPE_DORM3D_FURNITURE or uv0.type == DROP_TYPE_DORM3D_GIFT) then
+					if uv0.type == DROP_TYPE_DORM3D_FURNITURE then
+						getProxy(ApartmentProxy):AddDailyFurnitureShopCount(uv0.effect_args[1], uv0.effect_args[2] or 1)
+					elseif uv0.type == DROP_TYPE_DORM3D_GIFT then
+						getProxy(ApartmentProxy):AddDailyGiftShopCount(uv0.effect_args[1], uv0.effect_args[2] or 1)
 					end
 				end
 

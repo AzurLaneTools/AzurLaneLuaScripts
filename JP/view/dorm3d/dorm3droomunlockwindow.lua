@@ -67,10 +67,14 @@ slot0.didEnter = function(slot0)
 			return string.format("%s*%d", slot1:getName(), slot1.count)
 		end)), "、"))
 
-		slot2, slot3 = slot1:getDownloadNameList()
-		slot5, slot6 = DormGroupConst.CalcDormListSize(table.mergeArray(slot2, slot3))
+		if slot1:needDownload() then
+			slot2, slot3 = slot1:getDownloadNeedSize()
 
-		setText(slot0._tf:Find("Window/Download"), i18n("dorm3d_beach_download", slot5))
+			setText(slot0._tf:Find("Window/Download"), i18n("dorm3d_beach_download", slot2))
+		else
+			setText(slot0._tf:Find("Window/Download"), "")
+		end
+
 		GetImageSpriteFromAtlasAsync("dorm3dbanner/" .. string.lower(slot1:getConfig("assets_prefix")), "", slot0._tf:Find("Window/Preview/Image"))
 	end
 

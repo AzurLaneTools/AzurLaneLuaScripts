@@ -186,7 +186,7 @@ pg.open_systems_limited = {
 	},
 	[25] = {
 		scene = "MAINUI",
-		name = "交流",
+		name = "交流宿舎",
 		story_id = "",
 		id = 25,
 		mediator = "SelectDorm3DMediator",

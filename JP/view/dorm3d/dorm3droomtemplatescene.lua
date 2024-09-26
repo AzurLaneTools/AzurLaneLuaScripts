@@ -994,6 +994,11 @@ slot0.InitCharacter = function(slot0, slot1)
 
 	slot5 = slot0.lady
 	slot0.ladyIKRoot = slot5:Find("IKLayers")
+
+	eachChild(slot0.ladyIKRoot, function (slot0)
+		setActive(slot0, false)
+	end)
+
 	slot5 = GetComponent(slot0.lady, typeof(EventTriggerListener))
 
 	slot5:AddPointClickFunc(function (slot0, slot1)
@@ -1522,14 +1527,10 @@ slot0.RefreshSlots = function(slot0, slot1)
 
 	slot0:emit(uv0.SHOW_BLOCK)
 	table.ParallelIpairsAsync(slot1:GetSlots(), function (slot0, slot1, slot2)
-		if uv1.slotDict[slot1:GetConfigID()].displayModelName == (_.detect(uv0, function (slot0)
+		slot3 = slot1:GetConfigID()
+		slot5 = _.detect(uv0, function (slot0)
 			return slot0:GetSlotID() == uv0
-		end) and slot4:GetModel() or false) then
-			slot2()
-
-			return
-		end
-
+		end) and slot4:GetModel() or false
 		slot6 = uv1.slotDict[slot3].model
 		uv1.slotDict[slot3].displayModelName = slot5
 
@@ -1547,7 +1548,7 @@ slot0.RefreshSlots = function(slot0, slot1)
 
 		slot7 = uv1.slotDict[slot3].trans
 
-		uv1.loader:GetPrefab("dorm3d/furniture/prefabs/" .. slot5, "", function (slot0)
+		uv1.loader:GetPrefabBYStopLoading("dorm3d/furniture/prefabs/" .. slot5, "", function (slot0)
 			uv0()
 			assert(slot0)
 			setParent(slot0, uv1)
@@ -1902,6 +1903,9 @@ slot0.ExitIKStatus = function(slot0, slot1, slot2)
 	table.clear(slot0.cacheIKInfos)
 	table.clear(slot0.activeIKLayers)
 	table.clear(slot0.holdingStatus)
+	eachChild(slot0.ladyIKRoot, function (slot0)
+		setActive(slot0, false)
+	end)
 	setActive(slot0:GetIKTipsRootTF(), false)
 	slot0:RevertCameraOrbit()
 	setActive(slot0.cameras[uv0.CAMERA.IK_WATCH], false)

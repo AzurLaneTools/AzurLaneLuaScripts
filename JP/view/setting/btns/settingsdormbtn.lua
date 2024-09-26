@@ -18,7 +18,7 @@ slot0.Check = function(slot0)
 
 	onButton(slot0, slot0._tf, function ()
 		if DormGroupConst.IsDownloading() then
-			pg.TipsMgr.GetInstance():ShowTips("now is downloading")
+			pg.TipsMgr.GetInstance():ShowTips("アセットダウンロード中です")
 
 			return
 		end
