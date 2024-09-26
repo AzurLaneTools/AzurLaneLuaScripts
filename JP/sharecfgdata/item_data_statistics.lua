@@ -10830,9 +10830,9 @@ _G.pg.base.item_data_statistics[15021] = {
 
 _G.pg.base.item_data_statistics[15022] = {
 	open_directly = 0,
-	name = "ビーチエリア使用許可書",
+	name = "ビーチ開放チケット",
 	type = 100,
-	display = "指揮官の許可書さえあれば、すぐにでも着工するにゃ～",
+	display = "宿舎の公共エリア「ビーチ」を開放するのに必要なチケット",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",

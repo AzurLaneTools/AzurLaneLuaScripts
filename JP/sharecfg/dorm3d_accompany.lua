@@ -36,7 +36,11 @@ pg.dorm3d_accompany = {
 			}
 		},
 		jump_trigger = {},
-		unlock = {}
+		unlock = {
+			5,
+			4,
+			20220
+		}
 	},
 	get_id_list_by_ship_id = {
 		[20220] = {

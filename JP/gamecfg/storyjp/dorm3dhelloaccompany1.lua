@@ -15,7 +15,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_wait_table1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "\"唔……主人？\n不，天狼星没有睡着哦？\"",
+			say = "\"ええと…ご主人様？\nいいえっ、シリアスは寝ておりませんよ？\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

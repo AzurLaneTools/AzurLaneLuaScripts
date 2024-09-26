@@ -12,7 +12,7 @@ return {
 			side = 0,
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "!!!!!选项放第一句 say是什么呢？!!!!!!",
+			say = "（気分転換に外にでも出かけようかな。）",
 			options = {
 				{
 					content = "――少し外に出かけない？",

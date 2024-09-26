@@ -347,7 +347,7 @@ slot0.InitCardTrigger = function(slot0, slot1)
 							return
 						end
 
-						DormGroupConst.DelDir("dorm3d/character/" .. string.lower(getProxy(ApartmentProxy):getApartment(uv0:getPersonalGroupId()):getConfig("resource_name")))
+						DormGroupConst.DelDir("dorm3d/character/" .. string.lower(uv0:getConfig("resource_name")))
 						pg.TipsMgr.GetInstance():ShowTips("delete finish !")
 					end
 				})

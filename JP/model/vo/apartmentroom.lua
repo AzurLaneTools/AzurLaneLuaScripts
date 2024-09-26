@@ -224,14 +224,8 @@ slot0.UpdateFurnitureReplaceConfig = function(slot0)
 	for slot5, slot6 in pairs(slot0.zoneDic) do
 		if slot5 ~= "" then
 			for slot10, slot11 in ipairs(slot6:GetSlots()) do
-				if slot1[slot11.configId] then
-					if slot12:getConfig("touch_id") ~= "" then
-						slot0.zoneReplaceDic[slot5].touch_id = slot12:getConfig("touch_id")
-					end
-
-					if slot12:getConfig("lazy_action") ~= "" then
-						slot0.zoneReplaceDic[slot5].lazy_action = slot12:getConfig("lazy_action")
-					end
+				if slot1[slot11.configId] and slot12:getConfig("touch_id") ~= "" then
+					slot0.zoneReplaceDic[slot5].touch_id = slot12:getConfig("touch_id")
 				end
 			end
 		end

@@ -116,7 +116,7 @@ pg.base.dorm3d_collection_template = {
 		award = 0,
 		time = 0,
 		room_id = 1,
-		desc = "シリアスは毎朝のコーヒーを用意するのに使うコーヒーマシン。機械には彼女の指が触れた痕跡が残っている。",
+		desc = "シリアスが毎朝のコーヒーを用意するのに使うコーヒーマシン。機械には彼女の指が触れた痕跡が残っている。",
 		text = "dorm3d_sirius_table",
 		id = 2,
 		icon = "3Ddrom_tianlangxing_item6",
@@ -448,7 +448,7 @@ pg.base.dorm3d_collection_template = {
 		}
 	},
 	{
-		name = "生花の習作・II",
+		name = "生け花の習作・II",
 		award = 0,
 		time = 0,
 		room_id = 1,
@@ -830,7 +830,7 @@ pg.base.dorm3d_collection_template = {
 		award = 0,
 		time = 0,
 		room_id = 4,
-		desc = "小さくて可愛らしいクーラーボックス。中には何かのパーティーのためのものなのか、様々な飲み物やおやつがぎっりりと詰め込まれている。それにしても持ち主はどこに行ったのだろう。",
+		desc = "小さくて可愛らしいクーラーボックス。中には何かのパーティーのためのものなのか、様々な飲み物やおやつがぎっちりと詰め込まれている。それにしても持ち主はどこに行ったのだろう。",
 		text = "dorm3d_collection_beach",
 		id = 36,
 		icon = "3Ddrom_beach_item6",

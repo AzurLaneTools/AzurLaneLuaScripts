@@ -269,6 +269,7 @@ slot0.init = function(slot0)
 						end,
 						function (slot0)
 							uv0.SwitchCharacterSkin(uv1, uv2, uv3)
+							uv0:SwitchIKConfig(uv1, uv1.ikConfig.id)
 							uv0:SetIKState(true, slot0)
 						end,
 						uv6
@@ -1007,6 +1008,11 @@ slot0.ExitTouchMode = function(slot0)
 	else
 		table.insert(slot2, function (slot0)
 			uv0:emit(uv0.SHOW_BLOCK)
+
+			if uv0.touchConfig.default_favor > 0 then
+				uv0:emit(Dorm3dRoomMediator.TRIGGER_FAVOR, uv0.apartment.configId, slot1)
+			end
+
 			Shader.SetGlobalFloat("_ScreenClipOff", 1)
 			slot0()
 		end)
@@ -1442,7 +1448,7 @@ slot0.DoTalk = function(slot0, slot1, slot2)
 
 	slot4 = {}
 
-	if slot0.ladyDict[slot0.apartment:GetConfigID()]:GetBlackboardValue("inLazy") or slot5:GetBlackboardValue("inPending") then
+	if slot0.ladyDict[slot0.apartment:GetConfigID()]:GetBlackboardValue("inPending") then
 		table.insert(slot4, function (slot0)
 			uv0:OutOfLazy(uv0.apartment:GetConfigID(), slot0)
 		end)
@@ -1681,27 +1687,6 @@ slot0.DoShortWait = function(slot0, slot1)
 	slot2:PlaySingleAction(slot5)
 end
 
-slot0.DoLongWait = function(slot0, slot1)
-	slot2 = slot0.ladyDict[slot1]
-
-	assert(not slot2:GetBlackboardValue("inLazy"))
-
-	if not slot0.room:getApartmentZoneConfig(slot2.ladyBaseZone, "lazy_action", slot1) or #slot3 == 0 then
-		return
-	end
-
-	slot2:SetBlackboardValue("inLazy", true)
-	slot2:PlaySingleAction(slot3[1])
-end
-
-slot0.DoWatchLongWait = function(slot0, slot1)
-	if #(slot0.room:getApartmentZoneConfig(slot0.ladyDict[slot1].ladyBaseZone, "special_talk", slot1) and slot0.apartment:filterUnlockTalkList(slot3) or {}) == 0 then
-		return
-	end
-
-	slot0:DoTalk(slot3[math.random(#slot3)])
-end
-
 slot0.OutOfLazy = function(slot0, slot1, slot2)
 	slot4 = {}
 
@@ -1710,24 +1695,6 @@ slot0.OutOfLazy = function(slot0, slot1, slot2)
 			uv0.shiftLady = uv1
 
 			uv0:ShiftZone(uv2.ladyBaseZone, slot0)
-		end)
-	elseif slot3:GetBlackboardValue("inLazy") then
-		slot5 = slot0.room
-		slot5 = slot5:getApartmentZoneConfig(slot3.ladyBaseZone, "lazy_action", slot1)[2]
-
-		table.insert(slot4, function (slot0)
-			slot1 = uv0
-
-			slot1:emit(uv0.SHOW_BLOCK)
-
-			slot2 = uv0.apartment
-			slot1 = uv0.ladyDict[slot2:GetConfigID()]
-
-			slot1:PlaySingleAction(uv1, function ()
-				uv0:SetBlackboardValue("inLazy", false)
-				uv1:emit(uv1.HIDE_BLOCK)
-				uv2()
-			end)
 		end)
 	end
 
@@ -2387,7 +2354,7 @@ slot0.didEnterCheck = function(slot0)
 			slot0.ladyDict[slot5]:SetInPending(slot6)
 		end
 
-		slot0.contextData.pendingDic = nil
+		slot0.contextData.pendingDic = {}
 
 		slot0:FinishEnterResume()
 		slot0:CheckQueue()

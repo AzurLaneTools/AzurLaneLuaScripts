@@ -48,7 +48,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "――ん？シュークリームのパイ生地は結構焼きづらいはずだけど…シリアスはもう焼き方を把握しているか？",
+			say = "――ん？シュークリームの生地は難しいはずだけど…シリアスはもう焼き方を把握しているの？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

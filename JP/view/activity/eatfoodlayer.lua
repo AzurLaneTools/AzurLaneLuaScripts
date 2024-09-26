@@ -531,32 +531,17 @@ slot0.showSettlement = function(slot0)
 	})
 	setActive(slot0.settlementUI, true)
 
-	slot2 = slot0.scoreNum
-	slot3 = slot0:getMiniGameData():GetRuntimeData("elements") and #slot1 > 0 and slot1[1] or 0
+	slot1 = slot0.scoreNum
+	slot3 = PlayerPrefs.GetInt("mg_score_" .. tostring(getProxy(PlayerProxy):getPlayerId()) .. "_" .. uv1) or 0
 
-	setActive(findTF(slot0.settlementUI, "ad/new"), slot3 < slot2)
+	setActive(findTF(slot0.settlementUI, "ad/new"), slot3 < slot1)
 
-	if slot3 <= slot2 then
-		slot3 = slot2
-
-		if slot0:getMiniGameData():getConfig("type") == MiniGameConst.MG_TYPE_2 then
-			slot5 = {
-				slot0:getMiniGameData():getConfig("id"),
-				2
-			}
-
-			table.insertto(slot5, {
-				slot3
-			})
-			slot0:getMiniGameData():SetRuntimeData("elements", {
-				slot3
-			})
-			slot0:emit(BaseMiniGameMediator.MINI_GAME_OPERATOR, MiniGameOPCommand.CMD_SPECIAL_GAME, slot5)
-		end
+	if slot3 <= slot1 then
+		PlayerPrefs.SetInt("mg_score_" .. tostring(slot2) .. "_" .. uv1, slot1)
 	end
 
 	setText(findTF(slot0.settlementUI, "ad/highText"), slot3)
-	setText(findTF(slot0.settlementUI, "ad/currentText"), slot2)
+	setText(findTF(slot0.settlementUI, "ad/currentText"), slot1)
 end
 
 slot0.resumeGame = function(slot0)

@@ -303,7 +303,7 @@ pg.dorm3d_ik_status = {
 		}
 	},
 	[7] = {
-		ik_camera = "not_found",
+		ik_camera = "BedIKCamera",
 		character_action = "sikao_loop",
 		base = 7,
 		camera_group = 3,
@@ -1226,6 +1226,7 @@ pg.dorm3d_ik_status = {
 			}
 		},
 		use_cloth = {
+			0,
 			1,
 			1,
 			1,
@@ -1277,6 +1278,7 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
+			0,
 			1,
 			1,
 			1,
@@ -1347,6 +1349,7 @@ pg.dorm3d_ik_status = {
 			}
 		},
 		use_cloth = {
+			0,
 			1,
 			1,
 			1,
@@ -1410,6 +1413,7 @@ pg.dorm3d_ik_status = {
 			0,
 			1,
 			1,
+			1,
 			1
 		},
 		cloth_colliders = {
@@ -1459,6 +1463,7 @@ pg.dorm3d_ik_status = {
 		touch_data = {},
 		use_cloth = {
 			0,
+			1,
 			1,
 			1,
 			1
@@ -1564,7 +1569,7 @@ pg.dorm3d_ik_status = {
 				{
 					4,
 					0.3,
-					1010
+					1011
 				}
 			}
 		},
@@ -1575,12 +1580,13 @@ pg.dorm3d_ik_status = {
 				{
 					4,
 					0.3,
-					1010
+					1009
 				}
 			}
 		},
 		use_cloth = {
 			0,
+			1,
 			1,
 			1,
 			1
@@ -1634,6 +1640,7 @@ pg.dorm3d_ik_status = {
 		touch_data = {},
 		use_cloth = {
 			0,
+			1,
 			1,
 			1,
 			1
@@ -1696,6 +1703,7 @@ pg.dorm3d_ik_status = {
 		touch_data = {},
 		use_cloth = {
 			0,
+			1,
 			1,
 			1,
 			1
@@ -1768,6 +1776,7 @@ pg.dorm3d_ik_status = {
 		},
 		use_cloth = {
 			0,
+			1,
 			1,
 			1,
 			1
@@ -1877,6 +1886,7 @@ pg.dorm3d_ik_status = {
 			0,
 			1,
 			1,
+			1,
 			1
 		},
 		cloth_colliders = {
@@ -1939,24 +1949,25 @@ pg.dorm3d_ik_status = {
 			0,
 			1,
 			1,
+			1,
 			1
 		},
 		cloth_colliders = {
 			{
 				"Magica Capsule Collider (Bip001 L Thigh)",
-				0,
+				1,
 				0.045,
 				0.07
 			},
 			{
 				"Magica Capsule Collider (Bip001 R Thigh)",
-				0,
+				1,
 				0.045,
 				0.07
 			},
 			{
 				"Magica Capsule Collider (Bip001 Pelvis)",
-				0,
+				1,
 				0.09,
 				0.09
 			}
@@ -2046,6 +2057,7 @@ pg.dorm3d_ik_status = {
 			0,
 			1,
 			1,
+			1,
 			1
 		},
 		cloth_colliders = {
@@ -2088,18 +2100,18 @@ pg.dorm3d_ik_status = {
 				11501001,
 				0,
 				{
-					3,
+					4,
 					0.3,
-					"swim01_tou"
+					1002
 				}
 			},
 			{
 				11501002,
 				0,
 				{
-					3,
+					4,
 					0.3,
-					"swim01_tui"
+					1003
 				}
 			}
 		},
@@ -2109,30 +2121,15 @@ pg.dorm3d_ik_status = {
 			1,
 			1,
 			1,
+			1,
 			1
 		},
-		cloth_colliders = {
-			{
-				"Magica Capsule Collider (Bip001 L Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 R Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 Pelvis)",
-				1,
-				0.09,
-				0.09
-			}
-		},
+		cloth_colliders = {},
 		head_track = {
-			1
+			1,
+			0,
+			0,
+			0
 		}
 	},
 	[115020] = {
@@ -2170,30 +2167,15 @@ pg.dorm3d_ik_status = {
 			1,
 			1,
 			1,
+			1,
 			1
 		},
-		cloth_colliders = {
-			{
-				"Magica Capsule Collider (Bip001 L Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 R Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 Pelvis)",
-				1,
-				0.09,
-				0.09
-			}
-		},
+		cloth_colliders = {},
 		head_track = {
-			1
+			1,
+			0,
+			0,
+			0
 		}
 	},
 	[115030] = {
@@ -2231,30 +2213,15 @@ pg.dorm3d_ik_status = {
 			1,
 			1,
 			1,
+			1,
 			1
 		},
-		cloth_colliders = {
-			{
-				"Magica Capsule Collider (Bip001 L Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 R Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 Pelvis)",
-				1,
-				0.09,
-				0.09
-			}
-		},
+		cloth_colliders = {},
 		head_track = {
-			1
+			1,
+			0,
+			0,
+			0
 		}
 	},
 	[115040] = {
@@ -2292,30 +2259,15 @@ pg.dorm3d_ik_status = {
 			1,
 			1,
 			1,
+			1,
 			1
 		},
-		cloth_colliders = {
-			{
-				"Magica Capsule Collider (Bip001 L Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 R Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 Pelvis)",
-				1,
-				0.09,
-				0.09
-			}
-		},
+		cloth_colliders = {},
 		head_track = {
-			1
+			1,
+			0,
+			0,
+			0
 		}
 	},
 	[115050] = {
@@ -2332,18 +2284,18 @@ pg.dorm3d_ik_status = {
 				11505001,
 				0,
 				{
-					3,
+					4,
 					0.3,
-					"swim02_tou"
+					1001
 				}
 			},
 			{
 				11505002,
 				0,
 				{
-					3,
+					4,
 					0.3,
-					"swim02_jian"
+					1004
 				}
 			}
 		},
@@ -2353,30 +2305,15 @@ pg.dorm3d_ik_status = {
 			1,
 			1,
 			1,
+			1,
 			1
 		},
-		cloth_colliders = {
-			{
-				"Magica Capsule Collider (Bip001 L Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 R Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 Pelvis)",
-				1,
-				0.09,
-				0.09
-			}
-		},
+		cloth_colliders = {},
 		head_track = {
-			1
+			1,
+			0,
+			0,
+			0
 		}
 	},
 	[115060] = {
@@ -2414,30 +2351,15 @@ pg.dorm3d_ik_status = {
 			1,
 			1,
 			1,
+			1,
 			1
 		},
-		cloth_colliders = {
-			{
-				"Magica Capsule Collider (Bip001 L Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 R Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 Pelvis)",
-				1,
-				0.09,
-				0.09
-			}
-		},
+		cloth_colliders = {},
 		head_track = {
-			1
+			1,
+			0,
+			0,
+			0
 		}
 	},
 	[115070] = {
@@ -2475,30 +2397,15 @@ pg.dorm3d_ik_status = {
 			1,
 			1,
 			1,
+			1,
 			1
 		},
-		cloth_colliders = {
-			{
-				"Magica Capsule Collider (Bip001 L Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 R Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 Pelvis)",
-				1,
-				0.09,
-				0.09
-			}
-		},
+		cloth_colliders = {},
 		head_track = {
-			1
+			1,
+			0,
+			0,
+			0
 		}
 	},
 	[115080] = {
@@ -2536,30 +2443,15 @@ pg.dorm3d_ik_status = {
 			1,
 			1,
 			1,
+			1,
 			1
 		},
-		cloth_colliders = {
-			{
-				"Magica Capsule Collider (Bip001 L Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 R Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 Pelvis)",
-				1,
-				0.09,
-				0.09
-			}
-		},
+		cloth_colliders = {},
 		head_track = {
-			1
+			1,
+			0,
+			0,
+			0
 		}
 	},
 	[110110] = {
@@ -2598,28 +2490,10 @@ pg.dorm3d_ik_status = {
 			1,
 			1,
 			1,
+			1,
 			1
 		},
-		cloth_colliders = {
-			{
-				"Magica Capsule Collider (Bip001 L Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 R Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 Pelvis)",
-				1,
-				0.09,
-				0.09
-			}
-		},
+		cloth_colliders = {},
 		head_track = {
 			1
 		}
@@ -2650,28 +2524,10 @@ pg.dorm3d_ik_status = {
 			1,
 			1,
 			1,
+			1,
 			1
 		},
-		cloth_colliders = {
-			{
-				"Magica Capsule Collider (Bip001 L Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 R Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 Pelvis)",
-				1,
-				0.09,
-				0.09
-			}
-		},
+		cloth_colliders = {},
 		head_track = {
 			1
 		}
@@ -2718,6 +2574,10 @@ pg.dorm3d_ik_status = {
 		},
 		use_cloth = {
 			1,
+			1,
+			1,
+			1,
+			1,
 			1
 		},
 		cloth_colliders = {},
@@ -2760,28 +2620,10 @@ pg.dorm3d_ik_status = {
 			1,
 			1,
 			1,
+			1,
 			1
 		},
-		cloth_colliders = {
-			{
-				"Magica Capsule Collider (Bip001 L Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 R Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 Pelvis)",
-				1,
-				0.09,
-				0.09
-			}
-		},
+		cloth_colliders = {},
 		head_track = {
 			1
 		}
@@ -2812,28 +2654,10 @@ pg.dorm3d_ik_status = {
 			1,
 			1,
 			1,
+			1,
 			1
 		},
-		cloth_colliders = {
-			{
-				"Magica Capsule Collider (Bip001 L Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 R Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 Pelvis)",
-				1,
-				0.09,
-				0.09
-			}
-		},
+		cloth_colliders = {},
 		head_track = {
 			1
 		}
@@ -2873,28 +2697,10 @@ pg.dorm3d_ik_status = {
 			1,
 			1,
 			1,
+			1,
 			1
 		},
-		cloth_colliders = {
-			{
-				"Magica Capsule Collider (Bip001 L Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 R Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 Pelvis)",
-				1,
-				0.09,
-				0.09
-			}
-		},
+		cloth_colliders = {},
 		head_track = {
 			1
 		}
@@ -2915,7 +2721,7 @@ pg.dorm3d_ik_status = {
 				{
 					4,
 					0.3,
-					1010
+					1011
 				}
 			}
 		},
@@ -2926,7 +2732,7 @@ pg.dorm3d_ik_status = {
 				{
 					4,
 					0.3,
-					1010
+					1009
 				}
 			}
 		},
@@ -2935,30 +2741,14 @@ pg.dorm3d_ik_status = {
 			1,
 			1,
 			1,
+			1,
 			1
 		},
-		cloth_colliders = {
-			{
-				"Magica Capsule Collider (Bip001 L Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 R Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 Pelvis)",
-				1,
-				0.09,
-				0.09
-			}
-		},
+		cloth_colliders = {},
 		head_track = {
-			1
+			1,
+			0,
+			0
 		}
 	},
 	[110420] = {
@@ -2987,30 +2777,14 @@ pg.dorm3d_ik_status = {
 			1,
 			1,
 			1,
+			1,
 			1
 		},
-		cloth_colliders = {
-			{
-				"Magica Capsule Collider (Bip001 L Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 R Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 Pelvis)",
-				1,
-				0.09,
-				0.09
-			}
-		},
+		cloth_colliders = {},
 		head_track = {
-			1
+			1,
+			0,
+			0
 		}
 	},
 	[110430] = {
@@ -3048,30 +2822,14 @@ pg.dorm3d_ik_status = {
 			1,
 			1,
 			1,
+			1,
 			1
 		},
-		cloth_colliders = {
-			{
-				"Magica Capsule Collider (Bip001 L Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 R Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 Pelvis)",
-				1,
-				0.09,
-				0.09
-			}
-		},
+		cloth_colliders = {},
 		head_track = {
-			1
+			1,
+			0,
+			0
 		}
 	},
 	[110710] = {
@@ -3092,18 +2850,18 @@ pg.dorm3d_ik_status = {
 					110711,
 					"chuang_beibu_1_start"
 				}
-			}
-		},
-		touch_data = {
+			},
 			{
-				1107102,
+				11071001,
 				0,
 				{
 					4,
 					0.3,
 					1018
 				}
-			},
+			}
+		},
+		touch_data = {
 			{
 				1007101,
 				0,
@@ -3119,30 +2877,14 @@ pg.dorm3d_ik_status = {
 			1,
 			1,
 			1,
+			1,
 			1
 		},
-		cloth_colliders = {
-			{
-				"Magica Capsule Collider (Bip001 L Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 R Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 Pelvis)",
-				1,
-				0.09,
-				0.09
-			}
-		},
+		cloth_colliders = {},
 		head_track = {
-			1
+			1,
+			0,
+			0
 		}
 	},
 	[110720] = {
@@ -3171,30 +2913,14 @@ pg.dorm3d_ik_status = {
 			1,
 			1,
 			1,
+			1,
 			1
 		},
-		cloth_colliders = {
-			{
-				"Magica Capsule Collider (Bip001 L Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 R Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 Pelvis)",
-				1,
-				0.09,
-				0.09
-			}
-		},
+		cloth_colliders = {},
 		head_track = {
-			1
+			1,
+			0,
+			0
 		}
 	},
 	[110730] = {
@@ -3223,30 +2949,14 @@ pg.dorm3d_ik_status = {
 			1,
 			1,
 			1,
+			1,
 			1
 		},
-		cloth_colliders = {
-			{
-				"Magica Capsule Collider (Bip001 L Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 R Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 Pelvis)",
-				1,
-				0.09,
-				0.09
-			}
-		},
+		cloth_colliders = {},
 		head_track = {
-			1
+			1,
+			0,
+			0
 		}
 	},
 	[110711] = {
@@ -3280,34 +2990,18 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
-			0,
-			0,
-			0,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
 			0,
 			0
-		},
-		cloth_colliders = {
-			{
-				"Magica Capsule Collider (Bip001 L Thigh)",
-				0,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 R Thigh)",
-				0,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 Pelvis)",
-				0,
-				0.09,
-				0.09
-			}
-		},
-		head_track = {
-			1
 		}
 	},
 	[110721] = {
@@ -3336,30 +3030,14 @@ pg.dorm3d_ik_status = {
 			1,
 			1,
 			1,
+			1,
 			1
 		},
-		cloth_colliders = {
-			{
-				"Magica Capsule Collider (Bip001 L Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 R Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 Pelvis)",
-				1,
-				0.09,
-				0.09
-			}
-		},
+		cloth_colliders = {},
 		head_track = {
-			1
+			1,
+			0,
+			0
 		}
 	},
 	[110731] = {
@@ -3388,30 +3066,14 @@ pg.dorm3d_ik_status = {
 			1,
 			1,
 			1,
+			1,
 			1
 		},
-		cloth_colliders = {
-			{
-				"Magica Capsule Collider (Bip001 L Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 R Thigh)",
-				1,
-				0.045,
-				0.07
-			},
-			{
-				"Magica Capsule Collider (Bip001 Pelvis)",
-				1,
-				0.09,
-				0.09
-			}
-		},
+		cloth_colliders = {},
 		head_track = {
-			1
+			1,
+			0,
+			0
 		}
 	},
 	get_id_list_by_camera_group = {

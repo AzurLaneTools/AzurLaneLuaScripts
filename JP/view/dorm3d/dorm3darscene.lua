@@ -326,7 +326,6 @@ slot0.InitARPlane = function(slot0)
 	end
 
 	if PLATFORM == PLATFORM_WINDOWSEDITOR then
-		slot0.aiHelperSC:StopPlaneCheck()
 		slot0:InitARFinish()
 	end
 end
@@ -361,7 +360,6 @@ end
 
 slot0.willExit = function(slot0)
 	slot0.loader:Clear()
-	slot0.aiHelperSC:ResetAll()
 	slot0.aiHelperSC:Destroy()
 
 	slot1, slot2 = unpack(string.split(string.lower(uv0), "|"))

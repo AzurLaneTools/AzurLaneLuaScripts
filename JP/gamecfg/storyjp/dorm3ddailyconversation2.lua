@@ -48,7 +48,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "――もっと大きな冷蔵庫にしましょうか？",
+			say = "――もっと大きな冷蔵庫にしようか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

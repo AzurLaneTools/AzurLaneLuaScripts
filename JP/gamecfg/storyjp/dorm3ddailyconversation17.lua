@@ -12,7 +12,7 @@ return {
 			side = 0,
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "!!!!!选项放第一句 say是什么呢？!!!!!!",
+			say = "（シリアスは何か考え込んでいるようだ。）",
 			options = {
 				{
 					content = "――シリアス、何か考え込んでいる？",

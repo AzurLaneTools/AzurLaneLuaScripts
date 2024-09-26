@@ -54,7 +54,7 @@ return {
 			},
 			options = {
 				{
-					content = "どうかしました？",
+					content = "――どうしたの？",
 					flag = 1
 				},
 				{

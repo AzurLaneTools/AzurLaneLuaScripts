@@ -1,23 +1,20 @@
 pg = pg or {}
 pg.dorm3d_zone_template = {
 	[1000] = {
-		special_action = "",
-		name = "一覧",
-		lazy_action = "",
-		special_talk = "",
-		room_id = 1,
 		is_global = 1,
+		name = "一覧",
 		type_prioritys = "",
-		id = 1000,
 		touch_id = "",
-		watch_camera = ""
+		id = 1000,
+		room_id = 1,
+		watch_camera = "",
+		special_action = ""
 	},
 	[1001] = {
-		name = "寝室",
-		lazy_action = "",
-		room_id = 1,
 		is_global = 0,
+		name = "寝室",
 		id = 1001,
+		room_id = 1,
 		watch_camera = "Bed",
 		type_prioritys = {
 			4,
@@ -39,25 +36,14 @@ pg.dorm3d_zone_template = {
 					"dianshouzhi"
 				}
 			}
-		},
-		special_talk = {
-			{
-				20220,
-				{
-					1301,
-					1302,
-					1303
-				}
-			}
 		}
 	},
 	[1002] = {
-		name = "ダイニング",
-		lazy_action = "",
-		room_id = 1,
 		is_global = 0,
+		name = "ダイニング",
 		type_prioritys = "",
 		id = 1002,
+		room_id = 1,
 		watch_camera = "Table",
 		touch_id = {
 			{
@@ -73,24 +59,14 @@ pg.dorm3d_zone_template = {
 					"dianshouzhi"
 				}
 			}
-		},
-		special_talk = {
-			{
-				20220,
-				{
-					1301,
-					1302,
-					1303
-				}
-			}
 		}
 	},
 	[1003] = {
-		name = "リビング",
-		room_id = 1,
 		is_global = 0,
+		name = "リビング",
 		type_prioritys = "",
 		id = 1003,
+		room_id = 1,
 		watch_camera = "Chair",
 		touch_id = {
 			{
@@ -106,35 +82,14 @@ pg.dorm3d_zone_template = {
 					"dianshouzhi"
 				}
 			}
-		},
-		special_talk = {
-			{
-				20220,
-				{
-					1301,
-					1302,
-					1303
-				}
-			}
-		},
-		lazy_action = {
-			{
-				20220,
-				{
-					"SitStart",
-					"SitEnd",
-					"Sit"
-				}
-			}
 		}
 	},
 	[4001] = {
-		name = "玄関",
-		lazy_action = "",
-		room_id = 4,
 		is_global = 0,
+		name = "玄関",
 		type_prioritys = "",
 		id = 4001,
+		room_id = 4,
 		watch_camera = "Default",
 		touch_id = {
 			{
@@ -150,25 +105,14 @@ pg.dorm3d_zone_template = {
 					"dianshouzhi"
 				}
 			}
-		},
-		special_talk = {
-			{
-				20220,
-				{
-					1301,
-					1302,
-					1303
-				}
-			}
 		}
 	},
 	[4002] = {
-		name = "ビーチチェア",
-		lazy_action = "",
-		room_id = 4,
 		is_global = 0,
+		name = "ビーチチェア",
 		type_prioritys = "",
 		id = 4002,
+		room_id = 4,
 		watch_camera = "Tianlangxing",
 		touch_id = {
 			{
@@ -182,16 +126,6 @@ pg.dorm3d_zone_template = {
 				{
 					"jinzhang",
 					"dianshouzhi"
-				}
-			}
-		},
-		special_talk = {
-			{
-				20220,
-				{
-					1301,
-					1302,
-					1303
 				}
 			}
 		}
