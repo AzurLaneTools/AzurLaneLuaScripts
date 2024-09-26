@@ -29,10 +29,42 @@ slot0.register = function(slot0)
 			return
 		end
 
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.DORM3D_AR, {
-			ARCheckState = slot1,
-			roomId = uv1.room:GetConfigID(),
-			groupId = uv1.apartment:GetConfigID()
+		if pg.SdkMgr.GetInstance():IsYunPackage() then
+			pg.TipsMgr.GetInstance():ShowTips("指挥官，当前平台不支持该功能哦")
+
+			return
+		end
+
+		slot2, slot3 = nil
+
+		slot2 = function()
+			uv0:sendNotification(GAME.GO_SCENE, SCENE.DORM3D_AR, {
+				ARCheckState = uv1,
+				roomId = uv2.room:GetConfigID(),
+				groupId = uv2.apartment:GetConfigID()
+			})
+		end
+
+		slot3 = function()
+			if CameraHelper.IsAndroid() then
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("apply_permission_camera_tip3"),
+					onYes = function ()
+						CameraHelper.RequestCamera(uv0, uv1)
+					end
+				})
+			elseif CameraHelper.IsIOS() then
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("apply_permission_camera_tip2")
+				})
+			end
+		end
+
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			content = i18n("apply_permission_camera_tip1"),
+			onYes = function ()
+				CameraHelper.RequestCamera(uv0, uv1)
+			end
 		})
 	end)
 end

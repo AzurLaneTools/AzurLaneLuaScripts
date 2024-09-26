@@ -165,7 +165,7 @@ slot0.ShowSelectPanel = function(slot0)
 end
 
 slot0.UpdateSelectableCard = function(slot0, slot1, slot2, slot3)
-	GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_apartment_%d", slot2), "", slot1:Find("Image"))
+	GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_apartment_%d_%d", slot2, slot0.contextData.roomId), "", slot1:Find("Image"))
 	GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_apartment_name_%d", slot2), "", slot1:Find("name"))
 
 	slot5 = not getProxy(ApartmentProxy):getApartment(slot2) or slot4:needDownload()

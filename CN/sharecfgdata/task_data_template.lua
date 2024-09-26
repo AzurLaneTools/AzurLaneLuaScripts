@@ -41942,7 +41942,7 @@ _G.pg.base.task_data_template[7311] = {
 	is_head = 1,
 	count_inherit = 0,
 	name = "宿舍礼品任务",
-	desc = "与宿舍中的任意舰船对话或触摸3次",
+	desc = "在「宿舍计划」中与角色互动累计三天",
 	sub_type = 500,
 	task_fold = 0,
 	story_icon = "",
@@ -41968,8 +41968,8 @@ _G.pg.base.task_data_template[7311] = {
 	award_display = {
 		{
 			27,
-			1021002,
-			1
+			1021001,
+			4
 		}
 	}
 }

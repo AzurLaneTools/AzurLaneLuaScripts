@@ -181,18 +181,11 @@ pg.dorm3d_camera_zone_template = {
 		id = 4001,
 		watch_camera = "Tianlangxing",
 		regular_anim = {
-			1001,
-			1002,
-			1003,
-			1004,
-			1005,
-			1006,
-			1007,
-			1008,
-			1009,
-			1010,
-			1011,
-			1012
+			4001,
+			4002,
+			4003,
+			4004,
+			4005
 		},
 		special_furniture = {},
 		anim_speeds = {

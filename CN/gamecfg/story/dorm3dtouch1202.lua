@@ -21,7 +21,7 @@ return {
 					op_list = {
 						{
 							skip = true,
-							name = "zuo_haixiu",
+							name = "zuo_hudong_tou",
 							type = "action"
 						},
 						{

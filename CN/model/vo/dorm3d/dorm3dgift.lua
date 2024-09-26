@@ -28,10 +28,16 @@ slot0.GetShopID = function(slot0)
 	slot2 = getProxy(ApartmentProxy):GetGiftShopCount(slot0.configId)
 
 	for slot6 = 1, #slot0:getConfig("shop_id") - 1 do
-		if not pg.shop_template[slot1[slot6]].limit_args[1] then
+		if not pg.shop_template[slot1[slot6]].limit_args[1] and slot8.group_type == 0 then
 			return slot7
-		elseif slot9[1] == "dailycount" or slot9[1] == "count" then
+		elseif slot9 and (slot9[1] == "dailycount" or slot9[1] == "count") then
 			if slot2 < slot9[3] then
+				return slot7
+			end
+		elseif slot8.group_type == 2 then
+			warning(slot2, slot8.group_limit)
+
+			if slot2 < slot8.group_limit then
 				return slot7
 			end
 		else

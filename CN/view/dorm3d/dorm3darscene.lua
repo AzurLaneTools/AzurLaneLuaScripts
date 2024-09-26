@@ -324,9 +324,25 @@ slot0.InitARPlane = function(slot0)
 		slot0:InitARFinish()
 		slot0:EnabledDrag()
 	end
+
+	if PLATFORM == PLATFORM_WINDOWSEDITOR then
+		slot0:InitARFinish()
+	end
+end
+
+slot0.Reset = function(slot0)
+	slot0._initState = true
+
+	if slot0.lady then
+		setActive(slot0.lady, false)
+	end
+
+	slot0:SetARUIActiveWhenInit(false)
+	slot0.aiHelperSC:ResetAll()
 end
 
 slot0.InitARFinish = function(slot0)
+	setActive(slot0.tipsLabel, false)
 	slot0:emit(Dorm3dARMediator.AR_INIT_FINISH)
 	slot0:InitCharacter(slot0.contextData.groupId)
 
@@ -349,7 +365,10 @@ slot0.willExit = function(slot0)
 	slot1, slot2 = unpack(string.split(string.lower(uv0), "|"))
 
 	SceneOpMgr.Inst:UnloadSceneAsync(slot2, slot1)
-	LateUpdateBeat:RemoveListener(slot0.luHandle)
+
+	if slot0.luHandle then
+		LateUpdateBeat:RemoveListener(slot0.luHandle)
+	end
 end
 
 slot0.findUI = function(slot0)
@@ -379,8 +398,7 @@ slot0.addListener = function(slot0)
 		uv0:closeView()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.resetBtn, function ()
-		uv0.aiHelperSC:ResetAll()
-		uv0:InitARPlane()
+		uv0:Reset()
 	end, SFX_PANEL)
 
 	slot0.aiHelperSC.planeCountCB = function(slot0, slot1)
@@ -391,12 +409,8 @@ slot0.addListener = function(slot0)
 			setText(uv0.tipsText, i18n("AR_plane_check"))
 		elseif not slot1 then
 			setText(uv0.tipsText, i18n("AR_plane_long_press_to_summon"))
-		else
-			if uv0._initState then
-				uv0:InitARFinish()
-			end
-
-			setActive(uv0.tipsLabel, false)
+		elseif uv0._initState then
+			uv0:InitARFinish()
 		end
 	end
 
@@ -405,8 +419,10 @@ slot0.addListener = function(slot0)
 			uv0.distanceFlag = true
 
 			setActive(uv0.lady, false)
-			pg.TipsMgr.GetInstance():ShowTips(i18n("AR_plane_distance_near"))
+			setActive(uv0.tipsLabel, true)
+			setText(uv0.tipsText, i18n("AR_plane_distance_near"))
 		elseif uv0.distanceFlag then
+			setActive(uv0.tipsLabel, false)
 			setActive(uv0.lady, true)
 
 			uv0.distanceFlag = false

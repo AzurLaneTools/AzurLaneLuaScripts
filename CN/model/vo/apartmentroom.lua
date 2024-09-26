@@ -85,17 +85,26 @@ slot0.getDownloadNameList = function(slot0)
 	end
 end
 
+slot0.needDownload = function(slot0)
+	slot1, slot2 = slot0:getDownloadNameList()
+
+	return #slot1 > 0 or #slot2 > 0
+end
+
+slot0.getDownloadNeedSize = function(slot0)
+	slot1, slot2 = slot0:getDownloadNameList()
+	slot4, slot5 = DormGroupConst.CalcDormListSize(table.mergeArray(slot1, slot2))
+
+	return slot1, slot2
+end
+
 slot0.getState = function(slot0)
 	if DormGroupConst.DormDownloadLock and DormGroupConst.DormDownloadLock.roomId == slot0.configId then
 		return "loading"
+	elseif slot0:needDownload() then
+		return "download"
 	else
-		slot1, slot2 = slot0:getDownloadNameList()
-
-		if #slot1 > 0 or #slot2 > 0 then
-			return "download"
-		else
-			return "complete"
-		end
+		return "complete"
 	end
 end
 
@@ -224,14 +233,8 @@ slot0.UpdateFurnitureReplaceConfig = function(slot0)
 	for slot5, slot6 in pairs(slot0.zoneDic) do
 		if slot5 ~= "" then
 			for slot10, slot11 in ipairs(slot6:GetSlots()) do
-				if slot1[slot11.configId] then
-					if slot12:getConfig("touch_id") ~= "" then
-						slot0.zoneReplaceDic[slot5].touch_id = slot12:getConfig("touch_id")
-					end
-
-					if slot12:getConfig("lazy_action") ~= "" then
-						slot0.zoneReplaceDic[slot5].lazy_action = slot12:getConfig("lazy_action")
-					end
+				if slot1[slot11.configId] and slot12:getConfig("touch_id") ~= "" then
+					slot0.zoneReplaceDic[slot5].touch_id = slot12:getConfig("touch_id")
 				end
 			end
 		end

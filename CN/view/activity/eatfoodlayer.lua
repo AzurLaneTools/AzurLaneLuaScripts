@@ -1,19 +1,24 @@
 slot0 = class("EatFoodLayer", import("..base.BaseUI"))
 slot1 = {
-	"ui-paishou",
+	"ui-mini_throw",
 	"ui-paishou_qing",
-	"ui-mini_throw"
+	"ui-paishou"
 }
-slot2 = 60
-slot3 = "ui/eatfoodgameui_atlas"
-slot4 = 67
-slot5 = 4
-slot6 = 3
-slot7 = {
+slot2 = {
+	0,
+	0,
+	0
+}
+slot3 = 60
+slot4 = "ui/eatfoodgameui_atlas"
+slot5 = 67
+slot6 = 4
+slot7 = 3
+slot8 = {
 	0,
 	630
 }
-slot8 = {
+slot9 = {
 	150,
 	120,
 	100,
@@ -30,7 +35,7 @@ slot8 = {
 	100,
 	70
 }
-slot9 = {
+slot10 = {
 	8,
 	10,
 	15,
@@ -50,7 +55,7 @@ slot9 = {
 	18,
 	20
 }
-slot10 = {
+slot11 = {
 	{
 		-50,
 		50
@@ -112,31 +117,31 @@ slot10 = {
 		90
 	}
 }
-slot11 = 400
-slot12 = 0
-slot13 = "event touch"
-slot14 = {
+slot12 = 400
+slot13 = 0
+slot14 = "event touch"
+slot15 = {
 	35,
 	100
 }
-slot15 = {
+slot16 = {
 	300,
 	10
 }
-slot16 = {
+slot17 = {
 	"add_1",
 	"add_2"
 }
-slot17 = {
+slot18 = {
 	1000
 }
-slot18 = {
+slot19 = {
 	-100
 }
-slot19 = {
+slot20 = {
 	"sub_1"
 }
-slot20 = {
+slot21 = {
 	{
 		126,
 		530,
@@ -153,22 +158,22 @@ slot20 = {
 		3
 	}
 }
-slot21 = {
+slot22 = {
 	300,
 	10,
 	-100
 }
-slot22 = {
+slot23 = {
 	"add_1",
 	"add_2",
 	"sub_1"
 }
-slot23 = 0.8
-slot24 = 0.05
-slot25 = 1.4
-slot26 = 100
+slot24 = 0.8
+slot25 = 0.05
+slot26 = 1.4
+slot27 = 100
 
-slot27 = function(slot0, slot1)
+slot28 = function(slot0, slot1)
 	slot2 = {
 		ctor = function (slot0)
 			slot0._tf = uv0
@@ -531,32 +536,17 @@ slot0.showSettlement = function(slot0)
 	})
 	setActive(slot0.settlementUI, true)
 
-	slot2 = slot0.scoreNum
-	slot3 = slot0:getMiniGameData():GetRuntimeData("elements") and #slot1 > 0 and slot1[1] or 0
+	slot1 = slot0.scoreNum
+	slot3 = PlayerPrefs.GetInt("mg_score_" .. tostring(getProxy(PlayerProxy):getPlayerId()) .. "_" .. uv1) or 0
 
-	setActive(findTF(slot0.settlementUI, "ad/new"), slot3 < slot2)
+	setActive(findTF(slot0.settlementUI, "ad/new"), slot3 < slot1)
 
-	if slot3 <= slot2 then
-		slot3 = slot2
-
-		if slot0:getMiniGameData():getConfig("type") == MiniGameConst.MG_TYPE_2 then
-			slot5 = {
-				slot0:getMiniGameData():getConfig("id"),
-				2
-			}
-
-			table.insertto(slot5, {
-				slot3
-			})
-			slot0:getMiniGameData():SetRuntimeData("elements", {
-				slot3
-			})
-			slot0:emit(BaseMiniGameMediator.MINI_GAME_OPERATOR, MiniGameOPCommand.CMD_SPECIAL_GAME, slot5)
-		end
+	if slot3 <= slot1 then
+		PlayerPrefs.SetInt("mg_score_" .. tostring(slot2) .. "_" .. uv1, slot1)
 	end
 
 	setText(findTF(slot0.settlementUI, "ad/highText"), slot3)
-	setText(findTF(slot0.settlementUI, "ad/currentText"), slot2)
+	setText(findTF(slot0.settlementUI, "ad/currentText"), slot1)
 end
 
 slot0.resumeGame = function(slot0)

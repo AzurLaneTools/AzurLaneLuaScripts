@@ -69,19 +69,7 @@ end
 slot0.GetShopID = function(slot0)
 	slot2 = getProxy(ApartmentProxy):GetFurnitureShopCount(slot0:GetConfigID())
 
-	for slot6 = 1, #slot0:getConfig("shop_id") - 1 do
-		if not pg.shop_template[slot1[slot6]].limit_args[1] then
-			return slot7
-		elseif slot9[1] == "dailycount" or slot9[1] == "count" then
-			if slot2 < slot9[3] then
-				return slot7
-			end
-		else
-			return slot7
-		end
-	end
-
-	return slot1[#slot1]
+	return slot0:getConfig("shop_id")[1]
 end
 
 slot0.IsValuable = function(slot0)

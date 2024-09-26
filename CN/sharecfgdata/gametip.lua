@@ -34872,7 +34872,7 @@ _G.pg.base.gametip.volleyball_end_tip = {
 
 
 _G.pg.base.gametip.volleyball_end_award = {
-	tip = "精力-1，天狼星契合度+20"
+	tip = "精力-1，天狼星契合度+40"
 }
 
 
@@ -35004,7 +35004,7 @@ _G.pg.base.gametip.dorm3d_furniture_save_success = {
 
 
 _G.pg.base.gametip.dorm3d_removable = {
-	tip = "(滑动屏幕左侧移动，靠近角色吧）"
+	tip = "(拖动屏幕左侧移动，靠近角色吧）"
 }
 
 
@@ -35414,7 +35414,7 @@ _G.pg.base.gametip.cruise_shop_title = {
 
 
 _G.pg.base.gametip.dorm3d_favor_level_story = {
-	tip = "特殊剧情"
+	tip = "契合度剧情"
 }
 
 
@@ -35494,7 +35494,7 @@ _G.pg.base.gametip.dorm3d_gift_maximum = {
 
 
 _G.pg.base.gametip.dorm3d_need_construct_item = {
-	tip = "缺少建设开发券"
+	tip = "缺少建设券"
 }
 
 
@@ -35520,4 +35520,9 @@ _G.pg.base.gametip.AR_plane_summon_fail_by_near = {
 
 _G.pg.base.gametip.AR_plane_summon_success = {
 	tip = "呼出角色成功"
+}
+
+
+_G.pg.base.gametip.dorm3d_day_night_switching = {
+	tip = "当前已经为$1"
 }

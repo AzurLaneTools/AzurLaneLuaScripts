@@ -84,6 +84,11 @@ slot0.initNotificationHandleDic = function(slot0)
 		end,
 		[Dorm3dInviteMediator.ON_DORM] = function (slot0, slot1)
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.DORM3D_ROOM, slot1:getBody())
+		end,
+		[ApartmentProxy.ZERO_HOUR_REFRESH] = function (slot0, slot1)
+			slot2 = slot1:getBody()
+
+			slot0.viewComponent:UpdateStamina()
 		end
 	}
 end

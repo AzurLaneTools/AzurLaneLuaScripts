@@ -16,7 +16,7 @@ return {
 				type = 2,
 				signList = {
 					{
-						signType = 7,
+						signType = 8,
 						pos = {
 							-23,
 							-97,

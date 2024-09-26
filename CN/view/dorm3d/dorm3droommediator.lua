@@ -272,6 +272,11 @@ slot0.initNotificationHandleDic = function(slot0)
 		end,
 		[EatFoodMediator.LEAVE_GAME] = function (slot0, slot1)
 			slot0.viewComponent:HandleGameNotification(EatFoodMediator.LEAVE_GAME, slot1:getBody())
+		end,
+		[ApartmentProxy.ZERO_HOUR_REFRESH] = function (slot0, slot1)
+			slot2 = slot1:getBody()
+
+			slot0.viewComponent:UpdateFavorDisplay()
 		end
 	}
 end

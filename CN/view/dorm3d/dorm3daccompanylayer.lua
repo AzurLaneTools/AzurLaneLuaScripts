@@ -28,9 +28,7 @@ end
 slot0.didEnter = function(slot0)
 	slot1 = getProxy(ApartmentProxy)
 	slot0.room = slot1:getRoom(slot0.contextData.roomId)
-	slot1 = underscore.filter(pg.dorm3d_accompany.get_id_list_by_ship_id[slot0.contextData.groupId], function (slot0)
-		return ApartmentProxy.CheckUnlockConfig(pg.dorm3d_accompany[slot0].unlock)
-	end)
+	slot1 = pg.dorm3d_accompany.get_id_list_by_ship_id[slot0.contextData.groupId]
 	slot2 = slot0.rtPanel
 	slot2 = slot2:Find("window/content")
 
@@ -44,10 +42,19 @@ slot0.didEnter = function(slot0)
 			setActive(slot2:Find("Image"), slot3)
 
 			if slot3 then
-				GetImageSpriteFromAtlasAsync("dorm3daccompany/" .. pg.dorm3d_accompany[slot3].image, "", slot2:Find("Image"))
+				slot4 = pg.dorm3d_accompany[slot3]
+				slot5, slot6 = ApartmentProxy.CheckUnlockConfig(slot4.unlock)
+
+				GetImageSpriteFromAtlasAsync("dorm3daccompany/" .. slot4.image, "", slot2:Find("Image"))
+				setGray(slot2:Find("Image"), not slot5, false)
+				setActive(slot2:Find("Image/mask"), not slot5)
 				onButton(uv1, slot2:Find("Image"), function ()
-					uv0.contextData.confirmFunc(uv1)
-					uv0:closeView()
+					if uv0 then
+						uv1.contextData.confirmFunc(uv2)
+						uv1:closeView()
+					else
+						pg.TipsMgr.GetInstance():ShowTips(uv3)
+					end
 				end, SFX_CONFIRM)
 				setText(uv1.rtPanel:Find("window/Text"), i18n("dorm3d_collection_cost_tip"))
 			else

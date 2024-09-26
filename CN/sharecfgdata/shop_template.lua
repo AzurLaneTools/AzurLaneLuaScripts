@@ -76238,7 +76238,7 @@ _G.pg.base.shop_template[105001] = {
 		},
 		{
 			{
-				2224,
+				2034,
 				10,
 				1
 			},
@@ -76296,7 +76296,7 @@ _G.pg.base.shop_template[105002] = {
 		},
 		{
 			{
-				2224,
+				2034,
 				10,
 				1
 			},
@@ -76354,7 +76354,7 @@ _G.pg.base.shop_template[105003] = {
 		},
 		{
 			{
-				2224,
+				2034,
 				10,
 				1
 			},
@@ -76412,7 +76412,7 @@ _G.pg.base.shop_template[106001] = {
 		},
 		{
 			{
-				2224,
+				2034,
 				10,
 				1
 			},
@@ -76470,7 +76470,7 @@ _G.pg.base.shop_template[106002] = {
 		},
 		{
 			{
-				2224,
+				2034,
 				10,
 				1
 			},
@@ -76528,7 +76528,7 @@ _G.pg.base.shop_template[106003] = {
 		},
 		{
 			{
-				2224,
+				2034,
 				10,
 				1
 			},
@@ -76586,7 +76586,7 @@ _G.pg.base.shop_template[106004] = {
 		},
 		{
 			{
-				2224,
+				2034,
 				10,
 				1
 			},
@@ -76614,7 +76614,7 @@ _G.pg.base.shop_template[260101] = {
 	collaboration_skin_time = "",
 	order = 1,
 	time = "always",
-	group = 0,
+	group = 8,
 	num = 4,
 	discount = 0,
 	resource_type = 1,
@@ -76635,14 +76635,14 @@ _G.pg.base.shop_template[260102] = {
 	type = 27,
 	type_order = 0,
 	desc = "宿舍2000物资购买花束",
-	group_limit = 1,
+	group_limit = 5,
 	group_buy_count = 1,
 	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 1,
 	time = "always",
-	group = 0,
+	group = 8,
 	num = 1,
 	discount = 0,
 	resource_type = 1,
@@ -76663,14 +76663,14 @@ _G.pg.base.shop_template[260103] = {
 	type = 27,
 	type_order = 0,
 	desc = "宿舍4000物资购买花束",
-	group_limit = 1,
+	group_limit = 6,
 	group_buy_count = 1,
 	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 1,
 	time = "always",
-	group = 0,
+	group = 8,
 	num = 1,
 	discount = 0,
 	resource_type = 1,
@@ -76691,14 +76691,14 @@ _G.pg.base.shop_template[260104] = {
 	type = 27,
 	type_order = 0,
 	desc = "宿舍6000物资购买花束",
-	group_limit = 1,
+	group_limit = 7,
 	group_buy_count = 1,
 	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 1,
 	time = "always",
-	group = 0,
+	group = 8,
 	num = 1,
 	discount = 0,
 	resource_type = 1,
@@ -76719,14 +76719,14 @@ _G.pg.base.shop_template[260105] = {
 	type = 27,
 	type_order = 0,
 	desc = "宿舍8000物资购买花束",
-	group_limit = 1,
+	group_limit = 8,
 	group_buy_count = 1,
 	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 1,
 	time = "always",
-	group = 0,
+	group = 8,
 	num = 1,
 	discount = 0,
 	resource_type = 1,
@@ -76747,14 +76747,14 @@ _G.pg.base.shop_template[260201] = {
 	type = 27,
 	type_order = 0,
 	desc = "宿舍30钻石购买蛋糕礼盒",
-	group_limit = 1,
+	group_limit = 3,
 	group_buy_count = 1,
 	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 1,
 	time = "always",
-	group = 0,
+	group = 9,
 	num = 1,
 	discount = 0,
 	resource_type = 14,
@@ -76775,14 +76775,14 @@ _G.pg.base.shop_template[260202] = {
 	type = 27,
 	type_order = 0,
 	desc = "宿舍60钻石购买蛋糕礼盒",
-	group_limit = 1,
+	group_limit = 5,
 	group_buy_count = 1,
 	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 1,
 	time = "always",
-	group = 0,
+	group = 9,
 	num = 1,
 	discount = 0,
 	resource_type = 14,
@@ -76832,11 +76832,11 @@ _G.pg.base.shop_template[260301] = {
 
 _G.pg.base.shop_template[270101] = {
 	group_type = 0,
-	resource_num = 400,
+	resource_num = 480,
 	time_second = 0,
 	type = 26,
 	type_order = 0,
-	desc = "宿舍400钻石购买床2",
+	desc = "宿舍480钻石购买甜蜜心事",
 	group_limit = 0,
 	group_buy_count = 0,
 	tag = 0,

@@ -84,7 +84,7 @@ pg.dorm3d_welcome = {
 	},
 	[202200107] = {
 		item_prefab = "",
-		weight = 0,
+		weight = 20,
 		welcome_talk = 1322,
 		welcome_staypoint = "changdaiji_beach_1",
 		room_id = 4,

@@ -40,7 +40,9 @@ pg.activity_banner = {
 		pic = "temp5",
 		param = {
 			"scene dockyard",
-			{}
+			{
+				mode = "overview"
+			}
 		},
 		time = {
 			{

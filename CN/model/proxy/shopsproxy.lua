@@ -498,4 +498,14 @@ slot0.GetGiftCommodity = function(slot0, slot1, slot2)
 	return slot3
 end
 
+slot0.GetGroupPayCount = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.normalGroupList) do
+		if slot6.shop_id == slot1 then
+			return slot0.normalGroupList[slot5].pay_count or 0
+		end
+	end
+
+	return 0
+end
+
 return slot0

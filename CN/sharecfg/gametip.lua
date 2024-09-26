@@ -26288,112 +26288,117 @@ cs.gametip = {
 	},
 	dorm3d_favor_level_story = {
 		952765,
-		100,
+		103,
 		true
 	},
 	dorm3d_already_gifted = {
-		952865,
+		952868,
 		94,
 		true
 	},
 	dorm3d_story_unlock_tip = {
-		952959,
+		952962,
 		102,
 		true
 	},
 	dorm3d_skin_locked = {
-		953061,
+		953064,
 		97,
 		true
 	},
 	dorm3d_photo_no_role = {
-		953158,
+		953161,
 		99,
 		true
 	},
 	dorm3d_furniture_locked = {
-		953257,
+		953260,
 		105,
 		true
 	},
 	dorm3d_accompany_locked = {
-		953362,
+		953365,
 		96,
 		true
 	},
 	dorm3d_role_locked = {
-		953458,
+		953461,
 		106,
 		true
 	},
 	dorm3d_volleyball_button = {
-		953564,
+		953567,
 		100,
 		true
 	},
 	dorm3d_minigame_button1 = {
-		953664,
+		953667,
 		93,
 		true
 	},
 	dorm3d_collection_title_en = {
-		953757,
+		953760,
 		99,
 		true
 	},
 	dorm3d_collection_cost_tip = {
-		953856,
+		953859,
 		182,
 		true
 	},
 	dorm3d_gift_story_unlock = {
-		954038,
+		954041,
 		109,
 		true
 	},
 	dorm3d_furniture_replace_tip = {
-		954147,
+		954150,
 		113,
 		true
 	},
 	dorm3d_recall_locked = {
-		954260,
+		954263,
 		111,
 		true
 	},
 	dorm3d_gift_maximum = {
-		954371,
+		954374,
 		110,
 		true
 	},
 	dorm3d_need_construct_item = {
-		954481,
-		111,
+		954484,
+		105,
 		true
 	},
 	AR_plane_check = {
-		954592,
+		954589,
 		99,
 		true
 	},
 	AR_plane_long_press_to_summon = {
-		954691,
+		954688,
 		117,
 		true
 	},
 	AR_plane_distance_near = {
-		954808,
+		954805,
 		116,
 		true
 	},
 	AR_plane_summon_fail_by_near = {
-		954924,
+		954921,
 		122,
 		true
 	},
 	AR_plane_summon_success = {
-		955046,
+		955043,
 		105,
+		true
+	},
+	dorm3d_day_night_switching = {
+		955148,
+		107,
 		true
 	}
 }

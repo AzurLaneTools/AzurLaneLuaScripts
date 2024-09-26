@@ -190,7 +190,8 @@ slot0.didEnter = function(slot0)
 		if not uv0.recordState then
 			slot1 = function(slot0)
 				if slot0 ~= -1 then
-					LeanTween.moveX(uv0.stopRecBtn, uv0.stopRecBtn.rect.width, 0.15)
+					uv0(true)
+					LeanTween.moveX(uv1.stopRecBtn, uv1.stopRecBtn.rect.width, 0.15)
 				end
 			end
 
@@ -289,8 +290,6 @@ slot0.didEnter = function(slot0)
 	slot4 = slot0._tf
 
 	onButton(slot0, slot4:Find("RightTop/Shot/Shot"), function ()
-		uv0:emit(Dorm3dPhotoARMediator.ACTIVE_AR_UI, false)
-
 		slot0 = function(slot0)
 			setActive(uv0.centerPanel, slot0)
 			setActive(uv0._tf:Find("RightTop"), slot0)
