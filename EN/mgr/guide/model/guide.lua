@@ -22,13 +22,11 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.steps = {}
 
 	for slot5, slot6 in ipairs(slot1.events) do
-		slot7 = slot0:Data2GuideStep(slot6)
-
 		if slot1.isWorld ~= nil then
-			slot7:UpdateIsWorld(slot1.isWorld)
+			slot6.isWorld = slot1.isWorld
 		end
 
-		table.insert(slot0.steps, slot7)
+		table.insert(slot0.steps, slot0:Data2GuideStep(slot6))
 	end
 end
 

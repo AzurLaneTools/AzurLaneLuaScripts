@@ -1,8 +1,4 @@
 slot0 = class("Apartment", import(".BaseVO"))
-slot0.TRIGGER_TOUCH = 1001
-slot0.TRIGGER_TALK = 1002
-slot0.TRIGGER_OWNER = 1007
-slot0.TRIGGER_PROPOSE = 1008
 
 slot0.Ctor = function(slot0, slot1)
 	slot0.configId = slot1.ship_group
@@ -11,93 +7,36 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.daily = slot1.daily_favor
 	slot0.skinId = slot1.cur_skin
 	slot0.skinList = {}
-	slot5 = slot0
-	slot6 = "skin_model"
 
-	table.insert(slot0.skinList, slot0.getConfig(slot5, slot6))
+	table.insert(slot0.skinList, slot0:getConfig("skin_model"))
 
-	for slot5, slot6 in ipairs(slot1.skins) do
+	slot2 = ipairs
+	slot3 = slot1.skins or {}
+
+	for slot5, slot6 in slot2(slot3) do
 		table.insert(slot0.skinList, slot6)
 	end
 
 	table.sort(slot0.skinList)
 
-	slot5 = function(slot0, slot1)
-		return 0
-	end
-
 	slot0.triggerCountDic = setmetatable({}, {
-		__index = slot5
+		__index = function (slot0, slot1)
+			return 0
+		end
 	})
+	slot2 = ipairs
+	slot3 = slot1.regular_trigger or {}
 
-	for slot5, slot6 in ipairs(slot1.regular_trigger) do
+	for slot5, slot6 in slot2(slot3) do
 		slot0.triggerCountDic[slot6] = slot0.triggerCountDic[slot6] + 1
 	end
 
-	slot0.furnitures = {}
-
-	table.Ipairs(slot1.furnitures, function (slot0, slot1)
-		uv0.furnitures[slot0] = Dorm3dFurniture.New({
-			configId = slot1.furniture_id,
-			slotId = slot1.slot_id
-		})
-	end)
-
-	slot0.slots = {}
-
-	table.Ipairs(slot0:GetSlotIDList(), function (slot0, slot1)
-		uv0.slots[slot0] = Dorm3dFurnitureSlot.New({
-			configId = slot1
-		})
-	end)
-
-	slot0.zones = {}
-
-	table.Ipairs(slot0:GetZoneIDList(), function (slot0, slot1)
-		slot2 = Dorm3dZone.New({
-			configId = slot1
-		})
-		uv0.zones[slot0] = slot2
-
-		slot2:SetSlots(_.map(slot2:GetSlotIDList(), function (slot0)
-			return _.detect(uv0.slots, function (slot0)
-				return slot0:GetConfigID() == uv0
-			end)
-		end))
-	end)
-
-	slot0.globalZones = {}
-	slot0.normalZones = {}
-
-	_.each(slot0.zones, function (slot0)
-		table.insert(slot0:IsGlobal() and uv0.globalZones or uv0.normalZones, slot0)
-	end)
-
-	slot0.cameraZones = _.map(slot0:GetCameraZoneIDList(), function (slot0)
-		return Dorm3dCameraZone.New({
-			configId = slot0
-		})
-	end)
 	slot0.talkDic = {}
+	slot2 = ipairs
+	slot3 = slot1.dialogues or {}
 
-	for slot5, slot6 in ipairs(slot1.dialogues) do
+	for slot5, slot6 in slot2(slot3) do
 		slot0.talkDic[slot6] = true
-	end
-
-	slot0.collectItemDic = {}
-
-	for slot5, slot6 in ipairs(slot1.collections) do
-		slot0.collectItemDic[slot6] = true
-	end
-
-	slot0.zoneDic = {}
-
-	for slot5, slot6 in ipairs(pg.dorm3d_zone_template.get_id_list_by_char_id[slot0.configId]) do
-		if Dorm3dZone.New({
-			configId = slot6
-		}):GetWatchCameraName() and slot8 ~= "" then
-			slot0.zoneDic[slot8] = slot7
-		end
 	end
 end
 
@@ -109,26 +48,44 @@ slot0.getFavorConfig = function(slot0, slot1, slot2)
 	return pg.dorm3d_favor[pg.dorm3d_favor.get_id_list_by_char_id[slot0.configId][slot2 or slot0.level]][slot1]
 end
 
-slot0.addFavor = function(slot0, slot1)
-	slot2 = pg.dorm3d_favor_trigger[slot1]
-	slot3 = slot2.num
-
-	if slot2.is_repeat > 0 then
-		slot0.daily = slot0.daily + math.min(slot3, getDorm3dGameset("daily_exp_max")[1] - slot0.daily)
-	end
-
-	slot0.favor = slot0.favor + slot3
-	slot0.triggerCountDic[slot1] = slot0.triggerCountDic[slot1] + 1
-
-	return slot3
+slot0.getFavor = function(slot0)
+	return slot0.favor, slot0:getNextFavor()
 end
 
-slot0.getDailyFavor = function(slot0)
-	return slot0.daily, getDorm3dGameset("daily_exp_max")[1]
+slot0.getNextFavor = function(slot0)
+	if slot0.level < getDorm3dGameset("favor_level")[1] then
+		return slot0:getFavorConfig("favor_exp", slot0.level + 1)
+	else
+		return 2147483647
+	end
+end
+
+slot0.getMaxFavor = function(slot0)
+	slot1 = 0
+
+	for slot5 = slot0.level + 1, getDorm3dGameset("favor_level")[1] do
+		slot1 = slot1 + slot0:getFavorConfig("favor_exp", slot5)
+	end
+
+	return slot1
+end
+
+slot0.isMaxFavor = function(slot0)
+	return getDorm3dGameset("favor_level")[1] <= slot0.level or slot0:getMaxFavor() <= slot0.favor
+end
+
+slot0.getLevel = function(slot0)
+	return slot0.level, getDorm3dGameset("favor_level")[1]
+end
+
+slot0.canLevelUp = function(slot0)
+	return slot0.level < getDorm3dGameset("favor_level")[1] and slot0:getNextFavor() <= slot0.favor
 end
 
 slot0.addLevel = function(slot0)
-	slot0.favor = slot0.favor - slot0:getNextExp()
+	assert(slot0:canLevelUp())
+
+	slot0.favor = slot0.favor - slot0:getNextFavor()
 	slot0.level = slot0.level + 1
 end
 
@@ -145,256 +102,177 @@ slot0.getSkinId = function(slot0)
 	end
 end
 
-slot0.getStageRank = function(slot0)
-	if not uv0.stageDic then
-		uv0.stageDic = {}
+slot0.GetSkinModelID = function(slot0, slot1)
+	slot2 = slot0:getConfig("skin_model")
 
-		for slot4, slot5 in ipairs(getDorm3dGameset("stage_level")[2]) do
-			for slot9, slot10 in ipairs(slot5) do
-				uv0.stageDic[slot10] = slot4
+	if slot1 and slot1 ~= "" then
+		slot2 = underscore.detect(pg.dorm3d_resource.get_id_list_by_ship_group[slot0.configId], function (slot0)
+			return table.contains(pg.dorm3d_resource[slot0].tags, uv0)
+		end)
+	end
+
+	return slot2
+end
+
+slot0.getTalkingList = function(slot0, slot1)
+	return underscore.filter(pg.dorm3d_dialogue_group.get_id_list_by_char_id[slot0.configId], function (slot0)
+		slot1 = pg.dorm3d_dialogue_group[slot0]
+
+		return (not uv0.typeDic or tobool(uv0.typeDic[slot1.type])) and (not uv0.roomId or slot1.room_id == 0 or uv0.roomId == slot1.room_id) and (not uv0.unplay or not uv1.talkDic[slot0]) and (not uv0.unlock or ApartmentProxy.CheckUnlockConfig(slot1.unlock))
+	end)
+end
+
+slot0.getForceEnterTalking = function(slot0, slot1)
+	return slot0:getTalkingList({
+		unplay = true,
+		unlock = true,
+		typeDic = {
+			[100.0] = true
+		},
+		roomId = slot1
+	})
+end
+
+slot0.ENTER_TALK_TYPE_DIC = {
+	[101] = function (slot0, slot1)
+		return PlayerPrefs.GetString("DORM3D_DAILY_ENTER", "") ~= pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d")
+	end,
+	[102] = function (slot0, slot1)
+		return underscore.any(slot0, function (slot0)
+			return getProxy(ActivityProxy):IsActivityNotEnd(slot0)
+		end)
+	end,
+	[103] = function (slot0, slot1)
+		return slot0[1] < PlayerPrefs.GetInt("dorm3d_enter_count_" .. slot1, 0)
+	end,
+	[104] = function (slot0, slot1)
+		return true
+	end
+}
+
+slot0.getEnterTalking = function(slot0, slot1)
+	slot2 = nil
+	slot6 = {
+		unlock = true,
+		typeDic = slot7,
+		roomId = slot1
+	}
+	slot7 = uv0.ENTER_TALK_TYPE_DIC
+
+	for slot6, slot7 in ipairs(slot0:getTalkingList(slot6)) do
+		slot8 = pg.dorm3d_dialogue_group[slot7]
+
+		if switch(slot8.type, uv0.ENTER_TALK_TYPE_DIC, function (slot0)
+			return false
+		end, slot8.trigger_config, slot0.configId) then
+			if not slot2 or slot8.type < pg.dorm3d_dialogue_group[slot2[1]].type then
+				slot2 = {
+					slot7
+				}
+			elseif slot8.type == pg.dorm3d_dialogue_group[slot2[1]].type then
+				table.insert(slot2, slot7)
 			end
 		end
 	end
 
-	return uv0.stageDic[slot0.level]
+	return slot2 or {}
 end
 
-slot0.getStageText = function(slot0)
-	return getDorm3dGameset("stage_name")[2][slot0:getStageRank()][1]
-end
-
-slot0.getNextExp = function(slot0)
-	if slot0.level < getDorm3dGameset("favor_level")[1] then
-		return slot0:getFavorConfig("favor_exp", slot0.level + 1)
-	else
-		return 0
-	end
-end
-
-slot0.GetScene = function(slot0)
-	return slot0:getConfig("scene")
-end
-
-slot0.GetBaseScene = function(slot0)
-	return slot0:getConfig("scene_base")
-end
-
-slot0.GetSceneRootName = function(slot0)
-	return slot0:getConfig("scene_parent")
-end
-
-slot0.GetAssetName = function(slot0)
-	return slot0:getConfig("asset_name")
-end
-
-slot0.GetBaseModelName = function(slot0)
-	return slot0:getConfig("base_model")
-end
-
-slot0.GetSceneData = function(slot0, slot1)
-	return {
-		sceneName = slot0:getConfig("scene")[slot1],
-		baseSceneName = slot0:getConfig("scene_base")[slot1],
-		modelName = slot0:GetSkinModelName()
-	}
-end
-
-slot0.GetSkinModelName = function(slot0)
-	if slot0.skinId == 0 then
-		slot1 = slot0:getConfig("skin_model")
-	end
-
-	assert(underscore.any(pg.dorm3d_resource.get_id_list_by_ship_group[slot0.configId], function (slot0)
-		return uv0 == slot0
-	end))
-
-	return pg.dorm3d_resource[slot1].model_id
-end
-
-slot0.GetZoneIDList = function(slot0)
-	return pg.dorm3d_zone_template.get_id_list_by_char_id[slot0.configId]
-end
-
-slot0.GetSlotIDList = function(slot0)
-	return pg.dorm3d_furniture_slot_template.get_id_list_by_char_id[slot0.configId]
-end
-
-slot0.GetCameraZoneIDList = function(slot0)
-	return pg.dorm3d_camera_zone_template.get_id_list_by_char_id[slot0.configId]
-end
-
-slot0.GetZones = function(slot0)
-	return slot0.zones
-end
-
-slot0.GetGlobalZones = function(slot0)
-	return slot0.globalZones
-end
-
-slot0.GetNormalZones = function(slot0)
-	return slot0.normalZones
-end
-
-slot0.GetCameraZones = function(slot0)
-	return slot0.cameraZones
-end
-
-slot0.GetSlots = function(slot0)
-	return slot0.slots
-end
-
-slot0.GetFurnitures = function(slot0)
-	return slot0.furnitures
-end
-
-slot0.ReplaceFurnitures = function(slot0, slot1)
-	_.each(slot1, function (slot0)
-		uv0:ReplaceFurniture(slot0.slotId, slot0.furnitureId)
+slot0.getFurnitureTalking = function(slot0, slot1, slot2)
+	return underscore.filter(slot0:getTalkingList({
+		unlock = true,
+		typeDic = {
+			[200.0] = true
+		},
+		roomId = slot1
+	}), function (slot0)
+		return pg.dorm3d_dialogue_group[slot0].trigger_config == "" or slot1.trigger_config == uv0
 	end)
 end
 
-slot0.ReplaceFurniture = function(slot0, slot1, slot2)
-	if _.detect(slot0.furnitures, function (slot0)
-		return slot0:GetSlotID() == uv0
-	end) then
-		slot3:SetSlotID(0)
-	end
-
-	if _.detect(slot0.furnitures, function (slot0)
-		return slot0:GetConfigID() == uv0 and slot0:GetSlotID() == 0
-	end) then
-		slot4:SetSlotID(slot1)
-	end
-end
-
-slot0.getTalkingList = function(slot0)
-	return pg.dorm3d_dialogue_group.get_id_list_by_char_id[slot0.configId]
-end
-
-slot0.ENTER_TALK_TYPE = {
-	[101.0] = true,
-	[102.0] = true,
-	[104.0] = true,
-	[103.0] = true,
-	[105.0] = true
-}
-
-slot0.getEnterTalking = function(slot0)
-	return underscore.filter(slot0:getTalkingList(), function (slot0)
-		return uv0.ENTER_TALK_TYPE[pg.dorm3d_dialogue_group[slot0].type] and uv1:checkUnlockConfig(slot1.unlock)
+slot0.getZoneTalking = function(slot0, slot1, slot2)
+	return underscore.filter(slot0:getTalkingList({
+		unplay = true,
+		unlock = true,
+		typeDic = {
+			[300.0] = true
+		},
+		roomId = slot1
+	}), function (slot0)
+		return pg.dorm3d_dialogue_group[slot0].trigger_config == uv0
 	end)
 end
 
-slot0.getFurnitureTalking = function(slot0, slot1)
-	return underscore.filter(slot0:getTalkingList(), function (slot0)
-		return pg.dorm3d_dialogue_group[slot0].type == 200 and slot1.trigger_config == uv0 and uv1:checkUnlockConfig(slot1.unlock)
+slot0.getDistanceTalking = function(slot0, slot1, slot2)
+	return underscore.filter(slot0:getTalkingList({
+		unplay = true,
+		unlock = true,
+		typeDic = {
+			[550.0] = true
+		},
+		roomId = slot1
+	}), function (slot0)
+		return pg.dorm3d_dialogue_group[slot0].trigger_config == uv0
 	end)
 end
 
-slot0.getTouchConfig = function(slot0, slot1)
-	slot2 = nil
-	slot3 = {}
-
-	for slot7, slot8 in ipairs(pg.dorm3d_touch_data.get_id_list_by_char_id[slot0.configId]) do
-		if slot1 == pg.dorm3d_touch_data[slot8].trigger_area then
-			slot2 = pg.dorm3d_touch_data[slot8]
-
-			break
-		end
-	end
-
-	slot4 = slot0:getStageRank()
-
-	if not slot2 then
-		return
-	end
-
-	for slot8, slot9 in ipairs(slot2.stage_unlock) do
-		if slot4 < slot8 then
-			break
-		else
-			slot3 = table.mergeArray(slot3, slot9)
-		end
-	end
-
-	envFunc(({
-		[0] = {}
-	})[0], function ()
-		up, donw, left, right, zoom_in, zoom_out = unpack(uv0.camera_trigger[uv1])
-	end)
-
-	for slot9, slot10 in ipairs(slot3) do
-		slot11 = pg.dorm3d_touch_trigger[slot10]
-		slot5[slot11.touch_type] = slot5[slot11.touch_type] or {}
-		slot5[slot11.touch_type][slot11.body_area] = slot10
-	end
-
-	return slot2, slot5
+slot0.getSpecialTalking = function(slot0, slot1)
+	return slot0:getTalkingList({
+		unplay = true,
+		unlock = true,
+		typeDic = {
+			[700.0] = true
+		},
+		roomId = slot1
+	})
 end
 
 slot0.getGiftIds = function(slot0)
 	slot1 = pg.dorm3d_gift.get_id_list_by_ship_group_id
 
-	return table.mergeArray(slot1[0], slot1[slot0.configId])
+	return table.mergeArray(slot1[0], slot1[slot0.configId] or {})
 end
 
-slot0.getCollectConfig = function(slot0, slot1)
-	return pg.dorm3D_collect[slot0.configId] and slot2[slot1] or nil
+slot0.needDownload = function(slot0)
+	slot2, slot3 = ApartmentRoom.New({
+		id = slot0:getConfig("bind_room")
+	}):getDownloadNameList()
+
+	return #slot2 > 0 or #slot3 > 0
 end
 
-slot0.getTriggerableCollectItems = function(slot0)
-	slot1 = {}
-	slot5 = "collection_template_list"
-
-	for slot5, slot6 in ipairs(slot0:getCollectConfig(slot5)) do
-		slot7 = pg.dorm3d_collection_template[slot6]
-
-		if not slot0.collectItemDic[slot6] and slot0:checkUnlockConfig(slot7.unlock) then
-			table.insert(slot1, slot6)
-		end
-	end
-
-	return slot1
-end
-
-slot0.checkUnlockConfig = function(slot0, slot1)
-	slot2, slot3 = unpack(slot1)
-
-	return switch(slot2, {
-		function ()
-			if uv1 <= uv0.level then
-				return true
-			else
-				return false, string.format("apartment level unenough:%d", uv1)
-			end
-		end,
-		function ()
-			if underscore.any(uv0.furnitures, function (slot0)
-				return slot0.configId == uv0
-			end) then
-				return true
-			else
-				return false, string.format("without dorm furniture:%d", uv1)
-			end
-		end,
-		function ()
-			if getProxy(ApartmentProxy):isGiveGiftDone(uv0) then
-				return true
-			else
-				return false, string.format("gift:%d didn't had given", uv0)
-			end
-		end
-	}, function ()
-		return false, string.format("without unlock type:%d", uv0)
+slot0.filterUnlockTalkList = function(slot0, slot1)
+	return underscore.filter(slot1, function (slot0)
+		return ApartmentProxy.CheckUnlockConfig(pg.dorm3d_dialogue_group[slot0].unlock)
 	end)
 end
 
-slot0.getZone = function(slot0, slot1)
-	return slot0.zoneDic[slot1]
+slot0.getIconTip = function(slot0, slot1)
+	if #slot0:getForceEnterTalking(slot1) > 0 then
+		return "main"
+	elseif getProxy(ApartmentProxy):getApartmentGiftCount(slot0.configId) then
+		return "gift"
+	elseif false then
+		return "furnitrue"
+	elseif false then
+		return "talk"
+	else
+		return nil
+	end
 end
 
-slot0.getZoneNames = function(slot0)
-	return underscore.keys(slot0.zoneDic)
+slot0.getGroupConfig = function(slot0, slot1)
+	if not slot1 or slot1 == "" then
+		return nil
+	end
+
+	for slot5, slot6 in ipairs(slot1) do
+		if slot6[1] == slot0 then
+			return slot6[2]
+		end
+	end
+
+	return nil
 end
 
 return slot0

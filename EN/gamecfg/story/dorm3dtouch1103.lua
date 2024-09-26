@@ -8,7 +8,9 @@ return {
 	hideAuto = true,
 	scripts = {
 		{
-			say = "淑女的礼仪，天狼星也记得呢。",
+			nameColor = "#FFFFFF",
+			actorName = "Sirius",
+			say = "Th-that tickles...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,14 +20,26 @@ return {
 				data = {
 					op_list = {
 						{
-							skip = false,
-							name = "surprise1",
+							skip = true,
+							name = "swim01_tui",
 							type = "action"
+						},
+						{
+							param = "Play",
+							name = "Face_haixiu",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							skip = false,
+							time = 2,
+							type = "wait"
 						}
 					}
 				},
 				callbackData = {
-					hideUI = true,
+					hideUI = false,
 					name = STORY_EVENT.TEST_DONE
 				}
 			}

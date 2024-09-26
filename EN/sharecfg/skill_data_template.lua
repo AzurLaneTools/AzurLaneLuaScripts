@@ -2275,6 +2275,12 @@ pg.skill_data_template = setmetatable({
 		801422,
 		801425,
 		801427,
+		801430,
+		801440,
+		801451,
+		801452,
+		801455,
+		801457,
 		901010,
 		901020,
 		902010,
@@ -148064,6 +148070,228 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 		id = 801427,
 		system_transform = {
 			[51.0] = 801427
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801430] = {
+		desc_get = "",
+		name = "Harken, the Din of Destruction",
+		type = 1,
+		max_level = 10,
+		desc = "Every 20s: $1 chance to launch a $2 special airstrike; if this airstrike does not launch, instead performs a $2 special attack (DMG of both of these attacks is based on the skill's level and this ship's AVI stat).",
+		id = 801430,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[801440] = {
+		desc_get = "",
+		name = "Resound, the Refrain of Reversal",
+		type = 3,
+		max_level = 10,
+		desc = "When this ship finishes loading an airstrike: increases your CVs' AVI by $1 for 8s; each time this effect activates, increases this ship's AVI and AA by 5.0% until the battle ends (can stack up to 3 times).",
+		id = 801440,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[801451] = {
+		desc_get = "",
+		name = "Smoldering Core - Houshou I",
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 2.0%.",
+		id = 801451,
+		system_transform = {
+			[51.0] = 801455
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801452] = {
+		desc_get = "",
+		name = "Smoldering Core - Houshou II",
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 6.0%.",
+		id = 801452,
+		system_transform = {
+			[51.0] = 801457
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801455] = {
+		desc_get = "",
+		name = "湮烬之核·{namecode:89}I",
+		type = 3,
+		max_level = 1,
+		desc = "【大型作战效果】\n与精英舰队或BOSS舰队交战时，自身受到的所有伤害降低2%",
+		id = 801455,
+		system_transform = {
+			[51.0] = 801455
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801457] = {
+		desc_get = "",
+		name = "湮烬之核·{namecode:89}II",
+		type = 3,
+		max_level = 1,
+		desc = "【大型作战效果】\n与精英舰队或BOSS舰队交战时，自身受到的所有伤害降低6%",
+		id = 801457,
+		system_transform = {
+			[51.0] = 801457
 		},
 		world_death_mark = {
 			1

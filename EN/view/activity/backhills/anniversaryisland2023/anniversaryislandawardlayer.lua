@@ -21,7 +21,7 @@ slot0.didEnter = function(slot0)
 	end)
 
 	slot0.awards = _.select(slot0.contextData.items or {}, function (slot0)
-		return slot0.type ~= DROP_TYPE_ICON_FRAME and slot0.type ~= DROP_TYPE_CHAT_FRAME
+		return slot0.type ~= DROP_TYPE_ICON_FRAME and slot0.type ~= DROP_TYPE_CHAT_FRAME and slot0.type ~= DROP_TYPE_LIVINGAREA_COVER
 	end)
 
 	UIItemList.StaticAlign(slot0.window:Find("Materials"), slot0.window:Find("Materials"):GetChild(0), #slot0.awards, function (slot0, slot1, slot2)

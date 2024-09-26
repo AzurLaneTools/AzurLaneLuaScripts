@@ -20,16 +20,21 @@ slot0.execute = function(slot0, slot1)
 		dialog_id = slot3
 	}, 28016, function (slot0)
 		if slot0.result == 0 then
-			uv0.talkDic[uv1] = true
+			if pg.dorm3d_recall.get_id_list_by_story_id[uv0] and not uv1.talkDic[uv0] then
+				PlayerPrefs.SetInt("apartment_collection_recall", uv0)
+			end
 
-			uv2:updateApartment(uv0)
+			uv1 = uv2:getApartment(uv3)
+			uv1.talkDic[uv0] = true
 
-			slot1 = PlayerConst.addTranDrop(slot0.drop_list)
+			uv2:updateApartment(uv1)
 
-			existCall(uv3, slot1)
-			uv4:sendNotification(GAME.APARTMENT_DO_TALK_DONE, {
-				talkId = uv1,
-				awards = slot1
+			slot2 = PlayerConst.addTranDrop(slot0.drop_list)
+
+			existCall(uv4, slot2)
+			uv5:sendNotification(GAME.APARTMENT_DO_TALK_DONE, {
+				talkId = uv0,
+				awards = slot2
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)

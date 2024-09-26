@@ -142,6 +142,15 @@ slot1 = {
 		args = function ()
 			return {}
 		end
+	},
+	{
+		id = "DORM3D_GUIDE_01",
+		condition = function ()
+			return not LOCK_DORM3D_SYSTEM and pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "SelectDorm3DMediator")
+		end,
+		args = function ()
+			return {}
+		end
 	}
 }
 
@@ -177,19 +186,25 @@ slot0.Execute = function(slot0, slot1)
 		return
 	end
 
-	slot6 = pg.m02
-
-	slot6:sendNotification(GAME.STORY_UPDATE, {
+	pg.m02:sendNotification(GAME.STORY_UPDATE, {
 		storyId = slot3
 	})
+
+	if slot3 == "DORM3D_GUIDE_01" then
+		pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataGuide(1, pg.NewStoryMgr.GetInstance():StoryName2StoryId(slot3)))
+	end
 
 	slot6 = pg.NewGuideMgr.GetInstance()
 
 	slot6:Play(slot3, slot5, function ()
-		if uv0.nextOne then
-			slot0, slot1 = uv0.nextOne()
+		if uv0 == "DORM3D_GUIDE_01" then
+			pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataGuide(2, pg.NewStoryMgr.GetInstance():StoryName2StoryId(uv0)))
+		end
 
-			uv1:PlayNextOne(slot0, slot1)
+		if uv1.nextOne then
+			slot0, slot1 = uv1.nextOne()
+
+			uv2:PlayNextOne(slot0, slot1)
 		end
 	end, slot1)
 end

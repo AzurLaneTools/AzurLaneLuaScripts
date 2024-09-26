@@ -233,20 +233,9 @@ slot0.initShip = function(slot0)
 	slot0.chatBg = slot0:findTF("main/character/chat/chatbgtop")
 	slot0.chatText = slot0:findTF("Text", slot0.chat)
 	rtf(slot0.chat).localScale = Vector3.New(0, 0, 1)
-	slot0.initChatBgH = slot0.chatText.sizeDelta.y
-	slot0.initfontSize = slot0.chatText:GetComponent(typeof(Text)).fontSize
+	slot0.initChatBgH = slot0.chatBg.sizeDelta.y
 	slot0.initChatTextH = slot0.chatText.sizeDelta.y
 	slot0.initfontSize = slot0.chatText:GetComponent(typeof(Text)).fontSize
-
-	if PLATFORM_CODE == PLATFORM_US then
-		slot1 = GetComponent(slot0.chatText, typeof(Text))
-		slot1.lineSpacing = 1.1
-		slot1.fontSize = 25
-	end
-
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.chat, {
-		groupName = LayerWeightConst.GROUP_SHIPINFOUI
-	})
 end
 
 slot0.initPages = function(slot0)
@@ -459,6 +448,9 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.energyTF, function ()
 		uv0:showEnergyDesc()
 	end)
+	pg.UIMgr.GetInstance():OverlayPanel(slot0.chat, {
+		groupName = LayerWeightConst.GROUP_SHIPINFOUI
+	})
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
 		groupName = LayerWeightConst.GROUP_SHIPINFOUI
 	})
@@ -672,48 +664,46 @@ slot0.displayShipWord = function(slot0, slot1, slot2)
 
 		slot0.chat:SetAsLastSibling()
 
-		slot4 = slot0.chatText:GetComponent(typeof(Text))
-
 		if findTF(slot0.nowPainting, "fitter").childCount > 0 then
 			ShipExpressionHelper.SetExpression(findTF(slot0.nowPainting, "fitter"):GetChild(0), slot0.paintingCode, slot1, slot3)
 		end
 
-		slot5, slot6, slot7 = ShipWordHelper.GetWordAndCV(slot0.shipVO.skinId, slot1, nil, , slot3)
-		slot8 = slot0.chatText:GetComponent(typeof(Text))
+		slot4, slot5, slot6 = ShipWordHelper.GetWordAndCV(slot0.shipVO.skinId, slot1, nil, , slot3)
+		slot7 = slot0.chatText:GetComponent(typeof(Text))
 
 		if PLATFORM_CODE ~= PLATFORM_US then
-			setText(slot0.chatText, SwitchSpecialChar(slot7))
+			setText(slot0.chatText, SwitchSpecialChar(slot6))
 		else
-			slot8.fontSize = slot0.initfontSize
+			slot7.fontSize = slot0.initfontSize
 
-			setTextEN(slot0.chatText, slot7)
+			setTextEN(slot0.chatText, slot6)
 
-			while slot0.initChatTextH < slot8.preferredHeight do
-				slot8.fontSize = slot8.fontSize - 2
+			while slot0.initChatTextH < slot7.preferredHeight do
+				slot7.fontSize = slot7.fontSize - 2
 
-				setTextEN(slot0.chatText, slot7)
+				setTextEN(slot0.chatText, slot6)
 
-				if slot8.fontSize < 20 then
+				if slot7.fontSize < 20 then
 					break
 				end
 			end
 		end
 
-		if CHAT_POP_STR_LEN < #slot8.text then
-			slot8.alignment = TextAnchor.MiddleLeft
+		if CHAT_POP_STR_LEN < #slot7.text then
+			slot7.alignment = TextAnchor.MiddleLeft
 		else
-			slot8.alignment = TextAnchor.MiddleCenter
+			slot7.alignment = TextAnchor.MiddleCenter
 		end
 
-		if slot0.initChatBgH < slot8.preferredHeight + 120 then
-			slot0.chatBg.sizeDelta = Vector2.New(slot0.chatBg.sizeDelta.x, slot9)
+		if slot0.initChatBgH < slot7.preferredHeight + 120 then
+			slot0.chatBg.sizeDelta = Vector2.New(slot0.chatBg.sizeDelta.x, slot8)
 		else
 			slot0.chatBg.sizeDelta = Vector2.New(slot0.chatBg.sizeDelta.x, slot0.initChatBgH)
 		end
 
-		slot10 = uv0
+		slot9 = uv0
 
-		slot11 = function()
+		slot10 = function()
 			if uv0.chatFlag then
 				if uv0.chatani1Id then
 					LeanTween.cancel(uv0.chatani1Id)
@@ -736,12 +726,12 @@ slot0.displayShipWord = function(slot0, slot1, slot2)
 			end)).uniqueId
 		end
 
-		if slot6 then
+		if slot5 then
 			slot0:StopPreVoice()
 
-			slot12 = pg.CriMgr.GetInstance()
+			slot11 = pg.CriMgr.GetInstance()
 
-			slot12:PlaySoundEffect_V3(slot6, function (slot0)
+			slot11:PlaySoundEffect_V3(slot5, function (slot0)
 				if slot0 then
 					uv0 = slot0:GetLength() * 0.001
 				end
@@ -749,9 +739,9 @@ slot0.displayShipWord = function(slot0, slot1, slot2)
 				uv1()
 			end)
 
-			slot0.preVoiceContent = slot6
+			slot0.preVoiceContent = slot5
 		else
-			slot11()
+			slot10()
 		end
 	end
 end
@@ -997,7 +987,7 @@ slot0.loadPainting = function(slot0, slot1, slot2)
 		slot8.localScale = Vector3(1, 1, 1)
 	end
 
-	if slot0.LoadShipVOId and not slot2 and slot0.LoadShipVOId == slot0.shipVO.id and slot0.LoadPaintingCode == slot1 then
+	if slot0.LoadShipVOId and not slot2 and slot0.LoadShipVOId == slot0.shipVO.id and slot0.LoadPaintingCode == slot1 and not slot2 then
 		return
 	end
 
@@ -1087,10 +1077,8 @@ slot0.loadSkinBg = function(slot0, slot1, slot2, slot3, slot4)
 		slot0.isMeta = slot3
 
 		if slot0.isDesign then
-			if slot0.bgEffect then
-				for slot8, slot9 in pairs(slot0.bgEffect) do
-					setActive(slot9, false)
-				end
+			if slot0.metaBg then
+				setActive(slot0.metaBg, false)
 			end
 
 			if slot0.bgEffect then

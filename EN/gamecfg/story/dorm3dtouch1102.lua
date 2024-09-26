@@ -8,7 +8,9 @@ return {
 	hideAuto = true,
 	scripts = {
 		{
-			say = "主人想让天狼星提供怎样的侍奉呢？",
+			nameColor = "#FFFFFF",
+			actorName = "Sirius",
+			say = "My honourable Master, are you drawn to my attire?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,14 +20,26 @@ return {
 				data = {
 					op_list = {
 						{
-							skip = false,
-							name = "Bow",
+							skip = true,
+							name = "swim01_tou",
 							type = "action"
+						},
+						{
+							param = "Play",
+							name = "Face_danxin",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							skip = false,
+							time = 2,
+							type = "wait"
 						}
 					}
 				},
 				callbackData = {
-					hideUI = true,
+					hideUI = false,
 					name = STORY_EVENT.TEST_DONE
 				}
 			}

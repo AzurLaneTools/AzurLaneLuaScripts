@@ -8,10 +8,42 @@ return {
 	hideAuto = true,
 	scripts = {
 		{
-			say = "那个……感觉，有点奇怪……",
+			nameColor = "#FFFFFF",
+			actorName = "Sirius",
+			say = "Would you mind patting my head more, my honourable Master? It makes me feel loved.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			dispatcher = {
+				name = STORY_EVENT.TEST,
+				data = {
+					op_list = {
+						{
+							param = "Play",
+							name = "G_zuo_hudong_tou",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							param = "Play",
+							name = "Face_gaoxing",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							skip = false,
+							time = 5,
+							type = "wait"
+						}
+					}
+				},
+				callbackData = {
+					hideUI = false,
+					name = STORY_EVENT.TEST_DONE
+				}
 			}
 		}
 	}

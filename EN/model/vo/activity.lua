@@ -707,7 +707,8 @@ slot0.IsShowTipById = function(slot0)
 		[ActivityConst.WWF_TASK_ID] = WWFPtPage.IsShowRed,
 		[ActivityConst.NEWMEIXIV4_SKIRMISH_ID] = NewMeixiV4SkirmishPage.IsShowRed,
 		[ActivityConst.JIUJIU_YOYO_ID] = JiujiuYoyoPage.IsShowRed,
-		[ActivityConst.SENRANKAGURA_TRAIN_ACT_ID] = SenrankaguraTrainScene.IsShowRed
+		[ActivityConst.SENRANKAGURA_TRAIN_ACT_ID] = SenrankaguraTrainScene.IsShowRed,
+		[ActivityConst.DORM_SIGN_ID] = DormSignPage.IsShowRed
 	}
 	slot1 = uv0.ShowTipTableById[slot0.id]
 
@@ -743,6 +744,10 @@ slot0.isShow = function(slot0)
 		return slot3 > slot3 - _.reduce(slot1.goodsId, 0, function (slot0, slot1)
 			return slot0 + getProxy(ShopsProxy):getActivityShopById(uv0.shopId):GetCommodityById(slot1):GetPurchasableCnt()
 		end)
+	elseif slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_TASK_RYZA and table.contains({
+		ActivityConst.DORM_SIGN_ID
+	}, slot0:getConfig("id")) then
+		return #getProxy(ActivityProxy):getActivityById(slot0:getConfig("id")):getConfig("config_data") ~= #getProxy(ActivityTaskProxy):getFinishTaskById(slot0:getConfig("id"))
 	end
 
 	return true

@@ -30,15 +30,15 @@ slot0.init = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	slot3 = slot0.itemContainer
-
-	UIItemList.StaticAlign(slot0.itemContainer, slot3:Find("tpl"), #slot0.contextData.items, function (slot0, slot1, slot2)
+	UIItemList.StaticAlign(slot0.itemContainer, slot0.itemContainer:Find("tpl"), #slot0.contextData.items, function (slot0, slot1, slot2)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
 			updateDorm3dIcon(slot2, uv0.contextData.items[slot1])
 			onButton(uv0, slot2, function ()
-				uv0:emit(BaseUI.ON_DROP, uv1)
+				uv0:emit(BaseUI.ON_NEW_DROP, {
+					drop = uv1
+				})
 			end, SFX_PANEL)
 		end
 	end)
@@ -59,12 +59,11 @@ slot0.didEnter = function(slot0)
 		end
 	end)
 	seriesAsync(slot1, function ()
-		slot0 = uv0
-
-		slot0:managedTween(LeanTween.delayedCall, function ()
+		uv0:managedTween(LeanTween.delayedCall, function ()
 			uv0.inAnimPlaying = false
 		end, 0.066, nil)
 	end)
+	pg.CriMgr.GetInstance():PlaySE_V3("ui-dorm_reward")
 end
 
 slot0.onBackPressed = function(slot0)

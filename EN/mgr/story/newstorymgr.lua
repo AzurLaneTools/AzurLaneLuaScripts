@@ -325,6 +325,10 @@ slot0.Stop = function(slot0)
 		return
 	end
 
+	if slot0.currPlayer and slot0.currPlayer:WaitForEvent() then
+		return
+	end
+
 	slot0.state = uv2
 
 	for slot4, slot5 in ipairs(slot0.players) do
@@ -602,8 +606,10 @@ end
 slot0.ForEscPress = function(slot0)
 	if slot0.recordPanel:IsShowing() then
 		slot0.recordPanel:Hide()
-	else
-		slot0:TriggerSkipBtn()
+	elseif not slot0.currPlayer or not slot0.currPlayer:WaitForEvent() then
+		if not slot0.currPlayer or not slot0.storyScript or not slot0.storyScript.hideSkip then
+			slot0:TriggerSkipBtn()
+		end
 	end
 end
 
@@ -880,8 +886,13 @@ slot0.Quit = function(slot0)
 	slot0.recordPanel:Dispose()
 	slot0.setSpeedPanel:Dispose()
 
+	if slot0.currPlayer and slot0.currPlayer:WaitForEvent() then
+		slot0:Clear()
+	end
+
 	slot0.state = uv0
 	slot0.storyScript = nil
+	slot0.currPlayer = nil
 	slot0.playQueue = {}
 	slot0.playedList = {}
 	slot0.scenes = {}

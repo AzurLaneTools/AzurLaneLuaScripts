@@ -2343,6 +2343,59 @@ pg.mini_game = {
 			}
 		}
 	},
+	{
+		is_ranking = 0,
+		view_name = "EatFoodGameView",
+		game_room = 0,
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		name = "宿舍拍手小游戏(用于存分数",
+		config_csv = "",
+		id = 67,
+		hub_id = 45,
+		request_data = 0,
+		simple_config_data = {
+			drop_ids = {
+				{
+					2,
+					54050,
+					2
+				},
+				{
+					1,
+					1,
+					300
+				},
+				{
+					2,
+					54051,
+					1
+				},
+				{
+					1,
+					1,
+					300
+				},
+				{
+					2,
+					50004,
+					5
+				},
+				{
+					2,
+					20012,
+					2
+				},
+				{
+					2,
+					30347,
+					2
+				}
+			}
+		}
+	},
 	[1001] = {
 		is_ranking = 0,
 		view_name = "GameRoomFushun3View",
@@ -2938,6 +2991,7 @@ pg.mini_game = {
 		64,
 		65,
 		66,
+		67,
 		1001,
 		1002,
 		1003,

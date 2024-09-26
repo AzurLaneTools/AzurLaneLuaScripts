@@ -10,10 +10,53 @@ slot0.OptimizedBlur = 1
 slot0.StaticBlur = 2
 slot0.PartialBlur = 3
 
+slot2 = function(slot0)
+	if slot0 == nil then
+		return
+	end
+
+	slot0.downsample = 2
+	slot0.blurSize = 4
+	slot0.blurIterations = 2
+end
+
+slot3 = function(slot0)
+	if slot0 == nil then
+		return
+	end
+
+	slot0.downsample = 2
+	slot0.blurSize = 1.5
+	slot0.blurIteration = 4
+end
+
+slot4 = function(slot0)
+	if slot0 == nil then
+		return
+	end
+
+	slot0.downsample = 2
+	slot0.blurSize = 4
+	slot0.blurIterations = 1
+end
+
+slot5 = function(slot0)
+	if slot0 == nil then
+		return
+	end
+
+	slot0.downsample = 2
+	slot0.blurSize = 1.5
+	slot0.blurIteration = 1
+end
+
 slot0.Init = function(slot0, slot1)
 	print("initializing ui manager...")
 
 	slot0.mainCamera = GameObject.Find("MainCamera")
+
+	setActive(slot0.mainCamera, false)
+
 	slot0.mainCameraComp = slot0.mainCamera:GetComponent("Camera")
 	slot0.uiCamera = tf(GameObject.Find("UICamera"))
 	slot0.uiCameraComp = slot0.uiCamera:GetComponent("Camera")
@@ -36,6 +79,9 @@ slot0.Init = function(slot0, slot1)
 	ReflectionHelp.RefCallMethod(typeof("UIPartialBlur"), "Cleanup", slot0._levelCameraPartial)
 
 	slot0._levelCameraPartial.blurCam = slot0.levelCameraComp
+	slot5 = slot0.overlayCamera
+	slot6 = slot5
+	slot7 = "UIStaticBlur"
 	slot0.cameraBlurs = {
 		[uv0.CameraUI] = {
 			slot0.uiCamera:GetComponent("BlurOptimized"),
@@ -49,7 +95,7 @@ slot0.Init = function(slot0, slot1)
 		},
 		[uv0.CameraOverlay] = {
 			slot0.overlayCamera:GetComponent("BlurOptimized"),
-			slot0.overlayCamera:GetComponent("UIStaticBlur")
+			slot5.GetComponent(slot6, slot7)
 		}
 	}
 	slot0.camLockStatus = {
@@ -57,56 +103,15 @@ slot0.Init = function(slot0, slot1)
 		[uv0.CameraLevel] = false,
 		[uv0.CameraOverlay] = false
 	}
+	slot2 = DevicePerformanceUtil.GetDeviceLevel()
 
-	slot2 = function(slot0)
-		if slot0 == nil then
-			return
-		end
-
-		slot0.downsample = 2
-		slot0.blurSize = 4
-		slot0.blurIterations = 2
-	end
-
-	slot3 = function(slot0)
-		if slot0 == nil then
-			return
-		end
-
-		slot0.downsample = 2
-		slot0.blurSize = 1.5
-		slot0.blurIteration = 4
-	end
-
-	slot4 = function(slot0)
-		if slot0 == nil then
-			return
-		end
-
-		slot0.downsample = 2
-		slot0.blurSize = 4
-		slot0.blurIterations = 1
-	end
-
-	slot5 = function(slot0)
-		if slot0 == nil then
-			return
-		end
-
-		slot0.downsample = 2
-		slot0.blurSize = 1.5
-		slot0.blurIteration = 1
-	end
-
-	slot6 = DevicePerformanceUtil.GetDeviceLevel()
-
-	for slot10, slot11 in ipairs(slot0.cameraBlurs) do
-		if slot6 == DevicePerformanceLevel.Low then
-			slot4(slot11[uv0.OptimizedBlur])
-			slot5(slot11[uv0.PartialBlur])
+	for slot6, slot7 in ipairs(slot0.cameraBlurs) do
+		if slot2 == DevicePerformanceLevel.Low then
+			uv1(slot7[uv0.OptimizedBlur])
+			uv2(slot7[uv0.PartialBlur])
 		else
-			slot2(slot11[uv0.OptimizedBlur])
-			slot3(slot11[uv0.PartialBlur])
+			uv3(slot7[uv0.OptimizedBlur])
+			uv4(slot7[uv0.PartialBlur])
 		end
 	end
 
@@ -120,13 +125,6 @@ slot0.Init = function(slot0, slot1)
 			setActive(uv0.uiCamera, true)
 
 			uv0._loadPanel = LoadingPanel.New(slot0)
-		end,
-		function (slot0)
-			PoolMgr.GetInstance():GetUI("ClickEffect", true, function (slot0)
-				setParent(slot0, uv0.OverlayEffect)
-				SetActive(uv0.OverlayEffect, PlayerPrefs.GetInt(SHOW_TOUCH_EFFECT, 1) > 0)
-				uv1()
-			end)
 		end
 	}, slot1)
 end
@@ -140,7 +138,19 @@ slot0.LoadingOn = function(slot0, slot1)
 end
 
 slot0.displayLoadingBG = function(slot0, slot1)
+	if tobool(slot0.showBG) == slot1 then
+		return
+	end
+
 	slot0._loadPanel:displayBG(slot1)
+
+	slot0.showBG = slot1
+
+	if slot0.showBG then
+		uv0.UIMgr.GetInstance():LoadingOn()
+	else
+		uv0.UIMgr.GetInstance():LoadingOff()
+	end
 end
 
 slot0.LoadingOff = function(slot0)
@@ -284,8 +294,8 @@ slot0.ClearStick = function(slot0)
 	slot0._stickCom = nil
 end
 
-slot2 = {}
-slot3 = false
+slot6 = {}
+slot7 = false
 
 slot0.OverlayPanel = function(slot0, slot1, slot2)
 	slot2 = slot2 or {}
@@ -342,15 +352,15 @@ slot0.RevertPBMaterial = function(slot0, slot1)
 end
 
 slot0.UpdatePBEnable = function(slot0, slot1)
-	if slot1 then
-		if uv0 ~= nil then
-			for slot5, slot6 in ipairs(uv0) do
-				assert(slot6:GetComponent(typeof(Image)), "mask should be an image.")
+	if uv0 ~= nil then
+		for slot5, slot6 in ipairs(uv0) do
+			assert(slot6:GetComponent(typeof(Image)), "mask should be an image.")
 
-				slot7.material = slot1 and slot0.partialBlurMaterial or nil
-			end
+			slot7.material = slot1 and slot0.partialBlurMaterial or nil
 		end
+	end
 
+	if slot1 then
 		if slot0.levelCameraComp.enabled then
 			slot0.cameraBlurs[uv1.CameraLevel][uv1.PartialBlur].enabled = true
 			slot0.cameraBlurs[uv1.CameraUI][uv1.PartialBlur].enabled = false
@@ -365,6 +375,61 @@ slot0.UpdatePBEnable = function(slot0, slot1)
 			end
 		end
 	end
+end
+
+slot8 = nil
+
+slot0.TempOverlayPanelPB = function(slot0, slot1, slot2)
+	slot0:OverlayPanel(slot1, setmetatable({}, {
+		__index = function (slot0, slot1)
+			if slot1 == "pbList" then
+				return nil
+			end
+
+			return uv0[slot1]
+		end
+	}))
+
+	uv0 = slot2.pbList
+	slot3 = slot2.baseCamera
+	uv1 = {
+		slot3:GetComponent("BlurOptimized"),
+		slot3:GetComponent("UIStaticBlur"),
+		slot3:GetComponent("UIPartialBlur")
+	}
+
+	if DevicePerformanceUtil.GetDeviceLevel() == DevicePerformanceLevel.Low then
+		uv2(uv1[uv3.OptimizedBlur])
+		uv4(uv1[uv3.PartialBlur])
+	else
+		uv5(uv1[uv3.OptimizedBlur])
+		uv6(uv1[uv3.PartialBlur])
+	end
+
+	uv1[uv3.PartialBlur].maskCam = slot0.overlayCamera:GetComponent("Camera")
+
+	slot0:UpdateOtherPBEnable(true, uv1)
+end
+
+slot0.TempUnblurPanel = function(slot0, slot1, slot2)
+	slot0:UnOverlayPanel(slot1, slot2)
+	slot0:UpdateOtherPBEnable(false, uv0)
+
+	uv0 = nil
+
+	setParent(slot1, slot2)
+end
+
+slot0.UpdateOtherPBEnable = function(slot0, slot1, slot2)
+	if uv0 ~= nil then
+		for slot6, slot7 in ipairs(uv0) do
+			assert(slot7:GetComponent(typeof(Image)), "mask should be an image.")
+
+			slot8.material = slot1 and slot0.partialBlurMaterial or nil
+		end
+	end
+
+	slot2[uv1.PartialBlur].enabled = slot1
 end
 
 slot0.BlurCamera = function(slot0, slot1, slot2, slot3)

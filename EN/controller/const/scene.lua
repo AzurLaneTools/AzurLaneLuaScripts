@@ -75,35 +75,36 @@ SCENE = {
 	SPRING_FESTIVAL_BACKHILL_2023 = "SPRING FESTIVAL BackHill 2023",
 	SENRANKAGURA_MEDAL = "senrankagura medal",
 	SECRET_SHIPYARD = "SECRET_SHIPYARD",
-	DORM3D = "dorm 3d",
 	SPRING_FESTIVAL_BACKHILL_2024 = "SPRING_FESTIVAL_BACKHILL_2024",
+	HOLOLIVE_LINKLINK_SELECT_SCENE = "hololive linklink select scene",
 	TRANSITION = "scene transition",
 	DOCKYARD = "scene dockyard",
 	TASK = "scene task",
 	SPWEAPON_STOREHOUSE = "spweapon storehouse",
-	HOLOLIVE_LINKLINK_SELECT_SCENE = "hololive linklink select scene",
 	EDUCATE_DOCK = "EDUCATE_DOCK",
+	EDUCATE_PROFILE = "EDUCATE_PROFILE",
 	SENRANKAGURA_TRAIN = "senrankagura train",
 	CHALLENGE_MAIN_SCENE = "challenge main scene",
 	OTHERWORLD_BACKHILL = "OTHERWORLD_BACKHILL",
 	ISLAND_TASK = "island task",
-	EDUCATE_PROFILE = "EDUCATE_PROFILE",
 	OTHERWORLD_MAP = "OTHERWORLD_MAP",
 	MUSIC_FESTIVAL3 = "music festival 3",
+	LINER_BACKHILL = "LINER_BACKHILL",
 	WORLD_COLLECTION = "world collection",
 	SNAPSHOT = "snapshot",
 	DORM3D_AR = "DORM3D_AR",
-	LINER_BACKHILL = "LINER_BACKHILL",
-	SELTECHNOLOGY = "seltechnology",
 	MAINUI = "scene mainUI",
+	SELTECHNOLOGY = "seltechnology",
+	SHIPINFO = "scene shipinfo",
 	INVITATION = "scene invitation",
 	UPGRADESTAR = "scene upgrade star",
-	SHIPINFO = "scene shipinfo",
 	COWBOY_TOWN_BACKHILL = "COWBOY_TOWN_BACKHILL",
+	CASTLE_MAIN = "CASTLE_MAIN",
 	CHARGE_MENU = "scene charge_menu",
 	HOTSPRING = "hotSpring",
 	EQUIPSCENE = "scene equip",
-	CASTLE_MAIN = "CASTLE_MAIN",
+	DORM3D_VOLLEYBALL = "dorm 3d volleyball",
+	DORM3D_ROOM = "dorm 3d room",
 	TECHNOLOGY_TREE_SCENE = "technology tree scene",
 	FEAST = "scene Feast",
 	NEWYEAR_BACKHILL_2023 = "NEWYEAR BACKHILL 2023",
@@ -636,8 +637,8 @@ slot0 = {
 		slot0.viewComponent = IdolMasterMedalCollectionView
 	end,
 	[SCENE.CRUSING] = function (slot0, slot1)
-		slot0.mediator = CrusingMediator
-		slot0.viewComponent = CrusingScene
+		slot0.mediator = WorldCruiseMediator
+		slot0.viewComponent = WorldCruiseScene
 	end,
 	[SCENE.SSSS_ACADEMY] = function (slot0, slot1)
 		slot0.mediator = BackHillMediatorTemplate
@@ -822,9 +823,14 @@ slot0 = {
 		slot0.mediator = BackHillMediatorTemplate
 		slot0.viewComponent = SenrankaguraBackHillScene
 	end,
-	[SCENE.DORM3D] = function (slot0, slot1)
-		slot0.mediator = Dorm3dSceneMediator
-		slot0.viewComponent = Dorm3dScene
+	[SCENE.DORM3D_ROOM] = function (slot0, slot1)
+		slot0.mediator = Dorm3dRoomMediator
+		slot0.viewComponent = Dorm3dRoomScene
+		slot0.cleanChild = true
+	end,
+	[SCENE.DORM3D_VOLLEYBALL] = function (slot0, slot1)
+		slot0.mediator = Dorm3dGameMediatorTemplate
+		slot0.viewComponent = Dorm3dVolleyballScene
 	end,
 	[SCENE.NEWYEAR_BACKHILL_2024] = function (slot0, slot1)
 		slot0.mediator = BackHillMediatorTemplate
@@ -865,6 +871,7 @@ slot0 = {
 	[SCENE.DORM3DSELECT] = function (slot0, slot1)
 		slot0.mediator = SelectDorm3DMediator
 		slot0.viewComponent = SelectDorm3DScene
+		slot0.cleanChild = true
 	end,
 	[SCENE.DORM3D_AR] = function (slot0, slot1)
 		slot0.mediator = Dorm3dARMediator
@@ -1184,42 +1191,72 @@ slot1 = {
 
 		slot1()
 	end,
-	Dorm3dSceneMediator = function (slot0, slot1)
-		slot2 = {}
-
+	Dorm3dRoomMediator = function (slot0, slot1)
 		if not slot0.context.data.timeIndex then
-			table.insert(slot2, function (slot0)
-				if PlayerPrefs.GetInt("DORM3D_SCENE_LOCK_TIME", 0) == 0 then
-					slot1 = ApartmentProxy.GetTimeIndex(tonumber(pg.TimeMgr.GetInstance():CurrentSTimeDesc("%H")))
+			if slot2.roomId == 1 then
+				if PlayerPrefs.GetInt(ApartmentProxy.GetTimePPName(), 1) == 0 then
+					slot3 = ApartmentProxy.GetTimeIndex(tonumber(pg.TimeMgr.GetInstance():CurrentSTimeDesc("%H")))
 				end
 
-				uv0.timeIndex = slot1
-
-				slot0()
-			end)
-		end
-
-		table.insert(slot2, function (slot0)
-			uv0.sceneData = getProxy(ApartmentProxy):getApartment(uv0.groupId):GetSceneData(uv0.timeIndex)
-
-			if not uv0.hasEnterCheck then
-				uv0.enterType = math.random(2)
-
-				if uv0.enterType == 2 then
-					slot2 = slot1:getZoneNames()
-					uv0.enterZone = slot2[math.random(#slot2)]
-					uv0.charFurnitureName = uv0.enterZone
-				end
+				slot2.timeIndex = slot3
+			else
+				slot2.timeIndex = 1
 			end
 
-			slot0()
-		end)
-		seriesAsync(slot2, slot1)
+			slot2.pendingDic = ApartmentProxy.PendingRandom(slot2.roomId, slot2.groupIds)
+		end
+
+		slot3 = pg.m02
+
+		slot3:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataEnter(1))
+
+		slot3 = getProxy(ApartmentProxy)
+
+		slot3:RecordEnterTime()
+
+		slot3 = slot0.context.onRemoved
+
+		slot0.context.onRemoved = function()
+			slot0 = 0
+
+			if getProxy(ApartmentProxy):GetEnterTime() then
+				slot0 = pg.TimeMgr.GetInstance():GetServerTime() - slot1
+			end
+
+			pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataEnter(2, slot0))
+			existCall(uv0)
+		end
+
+		slot1()
+	end,
+	SelectDorm3DMediator = function (slot0, slot1)
+		if LOCK_DORM3D_SYSTEM then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_system_switch"))
+		else
+			slot1()
+		end
 	end
 }
 
 SCENE.CheckPreloadData = function(slot0, slot1)
-	switch(slot0.context.mediator.__cname, uv0, function (slot0, slot1)
-		slot1()
-	end, slot0, slot1)
+	table.insert({}, function (slot0)
+		switch(uv0.context.mediator.__cname, uv1, function (slot0, slot1)
+			slot1()
+		end, uv0, slot0)
+	end)
+
+	if slot0.context.viewComponent:loadingQueue() then
+		table.insert(slot2, function (slot0)
+			slot1 = uv0.context.data
+			uv0.context.irregularSequence = true
+
+			uv1(function (slot0)
+				uv0.resumeCallback = slot0
+
+				uv1()
+			end)
+		end)
+	end
+
+	seriesAsync(slot2, slot1)
 end

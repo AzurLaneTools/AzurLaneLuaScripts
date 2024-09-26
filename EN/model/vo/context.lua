@@ -11,6 +11,8 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.scene = slot1.scene
 	slot0.onRemoved = slot1.onRemoved
 	slot0.cleanStack = defaultValue(slot1.cleanStack, false)
+	slot0.cleanChild = defaultValue(slot1.cleanChild, false)
+	slot0.irregularSequence = defaultValue(slot1.irregularSequence, false)
 	slot0.data = slot1.data or {}
 	slot0.parent = slot1.parent
 	slot0.children = {}
@@ -64,9 +66,7 @@ end
 
 slot0.retriveLastChild = function(slot0)
 	for slot4 = #slot0.children, 1, -1 do
-		if not slot0.children[slot4].data.isSubView then
-			return slot0.children[slot4]:retriveLastChild()
-		end
+		return slot0.children[slot4]:retriveLastChild()
 	end
 
 	return slot0

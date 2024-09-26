@@ -8,10 +8,40 @@ return {
 	hideAuto = true,
 	scripts = {
 		{
-			say = "主人，能够见到您真是太好了。以这身体和灵魂宣言，今天天狼星也会全力侍奉您。",
+			nameColor = "#FFFFFF",
+			actorName = "Sirius",
+			say = "Your coming is the greatest praise a maid can ask for. My honourable Master, I swear that I will not disappoint you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			dispatcher = {
+				name = STORY_EVENT.TEST,
+				data = {
+					op_list = {
+						{
+							skip = true,
+							name = "Bow",
+							type = "action"
+						},
+						{
+							param = "Play",
+							name = "Face_weixiao",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							skip = false,
+							time = 1,
+							type = "wait"
+						}
+					}
+				},
+				callbackData = {
+					hideUI = false,
+					name = STORY_EVENT.TEST_DONE
+				}
 			}
 		}
 	}

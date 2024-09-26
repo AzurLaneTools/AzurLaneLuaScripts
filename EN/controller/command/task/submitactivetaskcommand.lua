@@ -132,12 +132,7 @@ slot0.updateTaskActivityData = function(slot0, slot1, slot2)
 	slot5 = slot3.sub_type
 
 	if getProxy(ActivityProxy):getActivityById(slot2) and slot4 == 6 then
-		assert(slot6)
-
-		if not table.contains(slot6:GetFinishedTaskIds(), slot1) then
-			table.insert(slot7, slot1)
-			getProxy(ActivityProxy):updateActivity(slot6)
-		end
+		getProxy(ActivityTaskProxy):finishActTask(slot2, slot1)
 	end
 end
 

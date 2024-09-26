@@ -1,30 +1,20 @@
 return {
-	hideRecord = true,
+	fadeOut = 1.5,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DDAILYCONVERSATION2",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DDAILYCONVERSATION2",
 	scripts = {
 		{
-			say = "主人，请您不要乱动。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			nameColor = "#a9f548",
-			actorName = "指挥官",
-			say = "……？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "主人的眼睛，果然很漂亮呢。",
+			actorName = "Sirius",
+			side = 2,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFFFFF",
+			say = "My refrigerator has been quite cramped as of late – most of the space is occupied by ingredients.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,9 +25,15 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "surprise1",
+							name = "dianshouzhi",
 							time = 0,
-							type = "action"
+							type = "action",
+							skip = true
+						},
+						{
+							skip = false,
+							time = 1,
+							type = "wait"
 						}
 					}
 				},
@@ -48,38 +44,26 @@ return {
 			}
 		},
 		{
-			say = "只是这样看着……就让人忍不住沉溺在您的目光之中了。",
+			actor = 0,
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			say = "Want me to get you a bigger one?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "那么，就请允许天狼星用这种方式来开启全新的一天吧，还请您闭上眼……",
+			actorName = "Sirius",
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "My honourable Master... I would rather clear space by practicing cooking, and I'd like you to help with it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
-			}
-		},
-		{
-			mode = 1,
-			stopbgm = true,
-			sequence = {
-				{
-					"你闭上了双眼\n\n天狼星：我骄傲的主人……（亲吻声）",
-					1
-				}
-			}
-		},
-		{
-			flashin = {
-				delay = 1,
-				dur = 1,
-				black = true,
-				alpha = {
-					1,
-					0
-				}
 			}
 		}
 	}

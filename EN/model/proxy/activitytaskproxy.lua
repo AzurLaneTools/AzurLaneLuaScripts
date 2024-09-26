@@ -33,6 +33,16 @@ slot0.initActList = function(slot0, slot1, slot2, slot3)
 	slot0:checkAutoSubmit()
 end
 
+slot0.finishActTask = function(slot0, slot1, slot2)
+	for slot6 = 1, #slot0.actTasks do
+		if slot0.actTasks[slot6].actId == slot1 then
+			table.insert(slot0.actTasks[slot6].finish_tasks, slot0:createTask(slot1, {
+				id = slot2
+			}))
+		end
+	end
+end
+
 slot0.updateActList = function(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot2) do
 		for slot11 = 1, #slot0.actTasks do
@@ -120,6 +130,22 @@ slot0.getTaskById = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.actTasks) do
 		if slot6.actId == slot1 then
 			return Clone(slot6.tasks)
+		end
+	end
+
+	return {}
+end
+
+slot0.getFinishTaskById = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.actTasks) do
+		if slot6.actId == slot1 then
+			slot7 = Clone(slot6.finish_tasks)
+
+			_.each(slot7, function (slot0)
+				slot0:setOver()
+			end)
+
+			return slot7
 		end
 	end
 

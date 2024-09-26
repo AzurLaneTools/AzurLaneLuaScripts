@@ -8,10 +8,40 @@ return {
 	hideAuto = true,
 	scripts = {
 		{
-			say = "主人的到来是对天狼星最大的认可。我骄傲的主人，天狼星不会让您失望。",
+			nameColor = "#FFFFFF",
+			actorName = "Sirius",
+			say = "Heehee, I knew you'd be here at this time, so I already made preparations to serve you. Hmm... How do I put this? It may be a sort of... unspoken communication between the two of us.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			dispatcher = {
+				name = STORY_EVENT.TEST,
+				data = {
+					op_list = {
+						{
+							skip = true,
+							name = "Bow",
+							type = "action"
+						},
+						{
+							param = "Play",
+							name = "Face_weixiao",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							skip = false,
+							time = 1,
+							type = "wait"
+						}
+					}
+				},
+				callbackData = {
+					hideUI = false,
+					name = STORY_EVENT.TEST_DONE
+				}
 			}
 		}
 	}

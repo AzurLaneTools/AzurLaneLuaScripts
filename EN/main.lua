@@ -32,6 +32,10 @@ end
 
 QualitySettings.vSyncCount = 0
 
+UnityEngine.Physics.IgnoreLayerCollision(21, LayerMask.NameToLayer("Default"))
+tolua.loadassembly("com.blhx.builtin-pipeline.runtime")
+Dorm3dRoomTemplateScene.InitDefautQuality()
+Dorm3dRoomTemplateScene.SettingQuality()
 ReflectionHelp.RefSetField(typeof("ResourceMgr"), "_asyncMax", ResourceMgr.Inst, 30)
 
 tf(GameObject.Find("EventSystem")):GetComponent(typeof(EventSystem)).sendNavigationEvents = false
@@ -177,8 +181,16 @@ OnApplicationExit = function()
 		return
 	end
 
-	if nowWorld() and slot16.staminaMgr:IsShowing() then
-		slot16.staminaMgr:Hide()
+	if checkExist(pg.NewStyleMsgboxMgr.GetInstance(), {
+		"_tf"
+	}) and isActive(slot16) then
+		pg.NewStyleMsgboxMgr.GetInstance():Hide()
+
+		return
+	end
+
+	if nowWorld() and slot17.staminaMgr:IsShowing() then
+		slot17.staminaMgr:Hide()
 
 		return
 	end
@@ -232,6 +244,9 @@ seriesAsync({
 			end,
 			function (slot0)
 				pg.MsgboxMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.NewStyleMsgboxMgr.GetInstance():Init(slot0)
 			end,
 			function (slot0)
 				pg.SystemOpenMgr.GetInstance():Init(slot0)
@@ -292,6 +307,12 @@ seriesAsync({
 			end,
 			function (slot0)
 				pg.PerformMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.ClickEffectMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.CameraRTMgr.GetInstance():Init(slot0)
 			end
 		}, slot0)
 	end
@@ -307,7 +328,6 @@ seriesAsync({
 	Screen.sleepTimeout = SleepTimeout.SystemSetting
 
 	pg.UIMgr.GetInstance():displayLoadingBG(true)
-	pg.UIMgr.GetInstance():LoadingOn()
 
 	if slot0 then
 		pg.UIMgr.GetInstance():Loading(slot0)
@@ -316,14 +336,33 @@ seriesAsync({
 		return
 	end
 
-	pg.SdkMgr.GetInstance():BindCPU()
+	slot2 = pg.SdkMgr.GetInstance()
+
+	slot2:BindCPU()
 
 	pg.m02 = pm.Facade.getInstance("m02")
+	slot2 = pg.m02
 
-	pg.m02:registerCommand(GAME.STARTUP, StartupCommand)
-	pg.m02:sendNotification(GAME.STARTUP)
+	slot2:registerCommand(GAME.STARTUP, StartupCommand)
+
+	slot2 = pg.m02
+
+	slot2:sendNotification(GAME.STARTUP)
 
 	pg.playerResUI = PlayerResUI.New()
+	slot2 = pg.SdkMgr.GetInstance()
 
-	pg.SdkMgr.GetInstance():GoSDkLoginScene()
+	slot2:GoSDkLoginScene()
+
+	slot2 = pg.UIMgr.GetInstance()
+
+	slot2:AddDebugButton("Device Info", function ()
+		originalPrint("+++++++++++graphicsDeviceVendorID:" .. SystemInfo.graphicsDeviceVendorID)
+		DevicePerformanceUtil.GetDevicePerformanceLevel()
+		originalPrint("CPU核心:" .. SystemInfo.processorCount)
+		originalPrint("显存:" .. SystemInfo.graphicsMemorySize)
+		originalPrint("内存:" .. SystemInfo.systemMemorySize)
+		originalPrint("主频:" .. SystemInfo.processorFrequency)
+		originalPrint("+++++++++++")
+	end)
 end)

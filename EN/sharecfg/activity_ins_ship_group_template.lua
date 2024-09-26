@@ -1573,7 +1573,7 @@ pg.activity_ins_ship_group_template = {
 	[39905] = {
 		ship_group = 39905,
 		name = "Hakuryū",
-		sculpture = "bailong_2"
+		sculpture = "bailong_4"
 	},
 	[20229] = {
 		ship_group = 20229,

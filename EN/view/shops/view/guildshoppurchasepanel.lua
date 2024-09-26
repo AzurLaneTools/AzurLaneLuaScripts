@@ -61,6 +61,9 @@ end
 
 slot0.UpdateValue = function(slot0)
 	slot0.exchagneCnt.text = (slot0.maxCnt - #slot0.selectedList > 0 and "<color=#92FC63FF>" .. slot1 .. "</color>/" or "<color=#FF5C5CFF>" .. slot1 .. "</color>/") .. slot0.maxCnt
+
+	setActive(slot0:findTF("got/top/exchange"), slot0.maxCnt ~= 0)
+
 	slot0.consumeCnt.text = slot0.data.price * #slot0.selectedList
 end
 
@@ -157,7 +160,7 @@ slot0.PressMinusBtn = function(slot0, slot1, slot2)
 end
 
 slot0.PressAddBtn = function(slot0, slot1, slot2)
-	if #slot0.selectedList == slot0.maxCnt then
+	if #slot0.selectedList == slot0.maxCnt and slot0.maxCnt ~= 0 then
 		return
 	end
 

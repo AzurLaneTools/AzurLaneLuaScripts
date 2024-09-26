@@ -8,7 +8,7 @@ return {
 	hideAuto = true,
 	scripts = {
 		{
-			say = "主人，您是对天狼星的头顶比较在意吗？",
+			say = "主人，您是对Sirius的头顶比较在意吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

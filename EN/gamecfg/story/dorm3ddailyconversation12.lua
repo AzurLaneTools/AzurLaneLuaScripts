@@ -1,23 +1,20 @@
 return {
-	hideRecord = true,
+	fadeOut = 1.5,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DDAILYCONVERSATION12",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DDAILYCONVERSATION12",
 	scripts = {
 		{
-			nameColor = "#a9f548",
-			actorName = "指挥官",
-			say = "（机会难得，对天狼星进行一下恶作剧好了……）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "主人……？您这样恶作剧的话，很容易受伤的。",
+			actorName = "Sirius",
+			side = 2,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFFFFF",
+			say = "My honourable Master! Thanks to Belfast's assistance, I believe I have now cultivated some skill in cooking!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,53 +24,44 @@ return {
 				data = {
 					op_list = {
 						{
+							param = "Play",
+							name = "biaoda",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
 							skip = false,
-							name = "surprise1",
-							type = "action"
+							time = 1,
+							type = "wait"
 						}
 					}
 				},
 				callbackData = {
-					hideUI = true,
+					hideUI = false,
 					name = STORY_EVENT.TEST_DONE
 				}
-			},
-			options = {
-				{
-					content = "还没靠近就被发现了……",
-					flag = 1
-				}
 			}
 		},
 		{
-			say = "如果这么近的距离下，还察觉不到有人靠近的话，那警备工作未免太失职了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			options = {
-				{
-					content = "天狼星好敏锐……！",
-					flag = 1
-				}
-			}
-		},
-		{
-			say = "您的气息，对于天狼星而言实在是太好辨别了。",
+			actorName = "Sirius",
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "Having said that... whenever I practice by myself, I always end up feeling anxious.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "幸好第一时间发觉是您，不然差点就要把您的胳膊拧断了……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "啊！不过主人还想要恶作剧的话，下次可以提前告诉天狼星，天狼星会努力配合您的！",
+			actorName = "Sirius",
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "I'm working on overcoming my anxiety! Furthermore, I'll try my hardest to one day make a meal worthy of your palate!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

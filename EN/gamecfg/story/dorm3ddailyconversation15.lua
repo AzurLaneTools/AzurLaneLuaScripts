@@ -1,47 +1,20 @@
 return {
-	hideRecord = true,
+	fadeOut = 1.5,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DDAILYCONVERSATION15",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DDAILYCONVERSATION15",
 	scripts = {
 		{
-			say = "泡芙和可丽饼，您更喜欢哪一种呢？我的主人。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			options = {
-				{
-					content = "天狼星要下厨吗？",
-					flag = 1
-				}
-			}
-		},
-		{
-			say = "其实是在请教了女仆长以后，天狼星觉得用泡芙招待您应该不会出错……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "只需要把裱花嘴放进去，把内部的孔洞填满后不断注入奶油，直到溢出就可以了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			options = {
-				{
-					content = "可是泡芙的酥皮谁来做呢？",
-					flag = 1
-				}
-			}
-		},
-		{
-			say = "欸？酥皮……？",
+			actorName = "Sirius",
+			side = 2,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFFFFF",
+			say = "My honourable Master, you seem to be rather listless. Your work must have taken a toll on you, I assume.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,20 +24,62 @@ return {
 				data = {
 					op_list = {
 						{
+							param = "Play",
+							name = "shy",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
 							skip = false,
-							name = "surprise1",
-							type = "action"
+							time = 1,
+							type = "wait"
 						}
 					}
 				},
 				callbackData = {
-					hideUI = true,
+					hideUI = false,
 					name = STORY_EVENT.TEST_DONE
 				}
 			}
 		},
 		{
-			say = "（好吧，看来是完全没有理解女仆长的教导呢……）",
+			actorName = "Sirius",
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "I know just the thing that could raise your spirits!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			options = {
+				{
+					content = "What would that be?",
+					flag = 1
+				}
+			}
+		},
+		{
+			actorName = "Sirius",
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "A bath! Bathing is the quickest way to relieve fatigue!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "Sirius",
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "I shall prepare a bath for you right away! Let's start by undressing you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

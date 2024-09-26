@@ -53,7 +53,7 @@ slot0.Open = function(slot0, slot1, slot2)
 
 		uv3:Hide()
 	end, SFX_CANCEL)
-	slot0:Show(slot1:getConfig("commodity_id"))
+	slot0:Show(slot1:getConfig("commodity_id") or slot1:getConfig("effect_args")[1])
 end
 
 slot0.UpdateSkinView = function(slot0, slot1)

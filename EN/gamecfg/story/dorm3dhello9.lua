@@ -8,10 +8,40 @@ return {
 	hideAuto = true,
 	scripts = {
 		{
-			say = "能够见到主人是天狼星的荣幸。听说今天好像有特别的任务，我骄傲的主人，您一定再次摘下了胜利的桂环！",
+			nameColor = "#FFFFFF",
+			actorName = "Sirius",
+			say = "You're finally here, honourable Master. I always look forward to our time together. Shall I relieve your exhaustion with a massage first?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			dispatcher = {
+				name = STORY_EVENT.TEST,
+				data = {
+					op_list = {
+						{
+							skip = true,
+							name = "Bow",
+							type = "action"
+						},
+						{
+							param = "Play",
+							name = "Face_weixiao",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							skip = false,
+							time = 1,
+							type = "wait"
+						}
+					}
+				},
+				callbackData = {
+					hideUI = false,
+					name = STORY_EVENT.TEST_DONE
+				}
 			}
 		}
 	}

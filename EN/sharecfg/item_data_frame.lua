@@ -603,6 +603,24 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>No one can escape their own story. Not even a free-spirited rider.</color> Given to Commanders who participated in the Wild West Vacation Log event.",
 		scene = {}
 	},
+	[1001] = {
+		name = "Sweet Rendezvous",
+		gain_by = "",
+		time_second = 0,
+		id = 1001,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>In every bite, a sweet and delectable memory.</color>\nObtained by raising Intimacy Level with Sirius in Private Quarters.",
+		scene = {}
+	},
+	[1002] = {
+		name = "Afternoon Tea",
+		gain_by = "",
+		time_second = 0,
+		id = 1002,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>Whatever happens, there will always be a cup of warm tea quietly waiting for you.</color>\nObtained by raising Intimacy Level with Sirius in Private Quarters.",
+		scene = {}
+	},
 	[10001] = {
 		name = "Extreme Challenge - Gemini",
 		gain_by = "",
@@ -779,6 +797,8 @@ pg.item_data_frame = {
 		605,
 		606,
 		607,
+		1001,
+		1002,
 		10001,
 		10002,
 		10003,

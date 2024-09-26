@@ -1,52 +1,20 @@
 return {
-	hideRecord = true,
+	fadeOut = 1.5,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DDAILYCONVERSATION5",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DDAILYCONVERSATION5",
 	scripts = {
 		{
-			say = "主人看上去好像状态不错，是遇到了什么开心的事吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			options = {
-				{
-					content = "因为来和天狼星见面了",
-					flag = 1
-				},
-				{
-					content = "现在就是最值得开心的事",
-					flag = 2
-				}
-			}
-		},
-		{
-			say = "……！！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "和主人见面，也是天狼星一天中最开心的事。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "尽管身为女仆还敢提出这样的请求实在是非常冒昧和逾矩……\t\t\t\t",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "但天狼星还是希望能多与您相见，我骄傲的主人。",
+			actorName = "Sirius",
+			side = 2,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFFFFF",
+			say = "The Dragon Empery has a dish called \"duo jiao yu tou,\" which is fish head with chopped peppers, and the Royal Islands are traditionally a nation that loves fish...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,9 +25,15 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "Bow",
+							name = "shy",
 							time = 0,
-							type = "action"
+							type = "action",
+							skip = true
+						},
+						{
+							skip = false,
+							time = 1,
+							type = "wait"
 						}
 					}
 				},
@@ -67,6 +41,54 @@ return {
 					hideUI = false,
 					name = STORY_EVENT.TEST_DONE
 				}
+			}
+		},
+		{
+			actorName = "Sirius",
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "So what I want to try is to incorporate the flavour of chopped peppers into stargazy pie. What do you think of that idea?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			options = {
+				{
+					content = "Sounds awfully difficult, doesn't it?",
+					flag = 1
+				},
+				{
+					content = "That's a great idea!",
+					flag = 2
+				}
+			}
+		},
+		{
+			actorName = "Sirius",
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			optionFlag = 1,
+			say = "That it does... However, I will still try my best!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "Sirius",
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			optionFlag = 2,
+			say = "R-really? Of course – I can always count on you to support me, Master!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
 			}
 		}
 	}

@@ -71,7 +71,7 @@ slot0.execute = function(slot0, slot1)
 				getProxy(GatewayNoticeProxy):setGatewayNotices(slot0.notice_list)
 				uv1.facade:sendNotification(GAME.USER_LOGIN_SUCCESS, uv0)
 				pg.PushNotificationMgr.GetInstance():cancelAll()
-				originalPrint("user logined............", #slot2)
+				originalPrint("user logined.............", #slot2)
 				pg.SdkMgr.GetInstance():SdkGateWayLogined()
 			else
 				pg.SdkMgr.GetInstance():SdkLoginGetaWayFailed()

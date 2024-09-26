@@ -8,10 +8,40 @@ return {
 	hideAuto = true,
 	scripts = {
 		{
-			say = "天狼星知道主人会在这个时候来，怎么说呢，想必这是我和主人的默契吧。",
+			nameColor = "#FFFFFF",
+			actorName = "Sirius",
+			say = "My honourable Master, I just brewed some black tea. Would you like to partake? After you've had a drink, I'd be happy to provide you with further service.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			dispatcher = {
+				name = STORY_EVENT.TEST,
+				data = {
+					op_list = {
+						{
+							skip = true,
+							name = "Bow",
+							type = "action"
+						},
+						{
+							param = "Play",
+							name = "Face_weixiao",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							skip = false,
+							time = 1,
+							type = "wait"
+						}
+					}
+				},
+				callbackData = {
+					hideUI = false,
+					name = STORY_EVENT.TEST_DONE
+				}
 			}
 		}
 	}

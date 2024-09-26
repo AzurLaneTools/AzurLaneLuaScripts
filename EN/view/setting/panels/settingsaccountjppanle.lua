@@ -20,6 +20,9 @@ slot0.OnInit = function(slot0)
 	slot0.twitterBtn = findTF(slot3, "bind_twitter")
 	slot0.twitterUnlinkBtn = findTF(slot3, "unlink_twitter")
 	slot0.twitterLinkSign = findTF(slot3, "twitter_status")
+
+	setActive(slot3, false)
+
 	slot4 = findTF(slot0.accountTwitterUI, "btn_layout/apple_con")
 	slot0.appleBtn = findTF(slot4, "bind_apple")
 	slot0.appleUnlinkBtn = findTF(slot4, "unlink_apple")
@@ -142,6 +145,9 @@ slot0.checkAccountTwitterView = function(slot0)
 	setActive(slot0.twitterUnlinkBtn, slot1)
 	setActive(slot0.twitterLinkSign, slot1)
 	setActive(slot0.twitterBtn, not slot1)
+	setActive(slot0.twitterUnlinkBtn, false)
+	setActive(slot0.twitterLinkSign, false)
+	setActive(slot0.twitterBtn, false)
 
 	if slot1 then
 		setText(slot0.twitterLinkSign, i18n("twitter_link_title", pg.SdkMgr.GetInstance():GetSocialName(AIRI_PLATFORM_TWITTER)))

@@ -8,10 +8,42 @@ return {
 	hideAuto = true,
 	scripts = {
 		{
-			say = "呵呵，天狼星很开心。",
+			nameColor = "#FFFFFF",
+			actorName = "Sirius",
+			say = "Would you say that you're fond of these?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			dispatcher = {
+				name = STORY_EVENT.TEST,
+				data = {
+					op_list = {
+						{
+							param = "Play",
+							name = "G_zuo_hudong_jiao",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							param = "Play",
+							name = "Face_yihuo",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							skip = false,
+							time = 2,
+							type = "wait"
+						}
+					}
+				},
+				callbackData = {
+					hideUI = false,
+					name = STORY_EVENT.TEST_DONE
+				}
 			}
 		}
 	}
