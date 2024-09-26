@@ -14932,9 +14932,9 @@ _G.pg.base.item_data_statistics[21038] = {
 
 _G.pg.base.item_data_statistics[21039] = {
 	open_directly = 0,
-	name = "结晶：{namecode:237}",
+	name = "META Crystal – Houshou META",
 	type = 4,
-	display = "{namecode:237}的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	display = "An item that increases the potential of Houshou META. Used in the META Lab during Somatic Activation.",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -25933,9 +25933,9 @@ _G.pg.base.item_data_statistics[30422] = {
 
 _G.pg.base.item_data_statistics[30423] = {
 	open_directly = 1,
-	name = "外观装备箱(世界巡游)",
+	name = "Random Gear Skin Box",
 	type = 11,
-	display = "可以随机获得一件本次世界巡游限定外观装备",
+	display = "Contains 1 random Cruise Mission gear skin.",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -25995,9 +25995,9 @@ _G.pg.base.item_data_statistics[30423] = {
 
 _G.pg.base.item_data_statistics[30424] = {
 	open_directly = 1,
-	name = "先锋无人机",
+	name = "Forerunner UAV",
 	type = 11,
-	display = "可以获得先锋无人机(鱼雷)、先锋无人机(战斗)、先锋无人机(轰炸)外观装备各一件",
+	display = "Lets you choose one of the following gear skins: Forerunner UAV (Torpedo), Forerunner UAV (Fighter), Forerunner UAV (Bomber).",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",

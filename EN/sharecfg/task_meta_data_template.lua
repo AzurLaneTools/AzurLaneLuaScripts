@@ -2412,7 +2412,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970604",
 		id = 100341,
 		target_num = 1,
-		desc = "使用{namecode:237}获得1次胜利"
+		desc = "Win 1 battle with Houshou META in your fleet."
 	},
 	[100342] = {
 		target_id = "30",
@@ -2420,7 +2420,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970604",
 		id = 100342,
 		target_num = 1,
-		desc = "使用{namecode:237}击破等级＞30的敌方1次"
+		desc = "Defeat a Lv. 30+ fleet with Houshou META in your fleet."
 	},
 	[100343] = {
 		target_id = "55",
@@ -2428,7 +2428,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970604",
 		id = 100343,
 		target_num = 1,
-		desc = "使用{namecode:237}击破等级＞55的敌方1次"
+		desc = "Defeat a Lv. 55+ fleet with Houshou META in your fleet."
 	},
 	[100344] = {
 		target_id = "80",
@@ -2436,7 +2436,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970604",
 		id = 100344,
 		target_num = 1,
-		desc = "使用{namecode:237}击破等级＞80的敌方1次"
+		desc = "Defeat a Lv. 80+ fleet with Houshou META in your fleet."
 	},
 	[100345] = {
 		target_id = "100",
@@ -2444,7 +2444,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970604",
 		id = 100345,
 		target_num = 1,
-		desc = "使用{namecode:237}击破等级＞100的敌方1次"
+		desc = "Defeat a Lv. 100+ fleet with Houshou META in your fleet."
 	},
 	[200001] = {
 		target_id = "0",
@@ -3220,7 +3220,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970604",
 		id = 200251,
 		target_num = 1,
-		desc = "大型作战内使用{namecode:237}获得1次胜利"
+		desc = "Win 1 Operation Siren battle with Houshou META in your fleet."
 	},
 	[200252] = {
 		target_id = "70",
@@ -3228,7 +3228,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970604",
 		id = 200252,
 		target_num = 1,
-		desc = "大型作战内使用{namecode:237}击破等级＞70的敌方1次"
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Houshou META in your fleet."
 	},
 	[200253] = {
 		target_id = "90",
@@ -3236,7 +3236,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970604",
 		id = 200253,
 		target_num = 1,
-		desc = "大型作战内使用{namecode:237}击破等级＞90的敌方1次"
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Houshou META in your fleet."
 	},
 	[200254] = {
 		target_id = "100",
@@ -3244,6 +3244,6 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970604",
 		id = 200254,
 		target_num = 1,
-		desc = "大型作战内使用{namecode:237}击破等级＞100的敌方1次"
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Houshou META in your fleet."
 	}
 }

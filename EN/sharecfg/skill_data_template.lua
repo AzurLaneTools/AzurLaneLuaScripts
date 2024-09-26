@@ -148269,10 +148269,10 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 	},
 	[801455] = {
 		desc_get = "",
-		name = "湮烬之核·{namecode:89}I",
+		name = "Smoldering Core - Houshou I",
 		type = 3,
 		max_level = 1,
-		desc = "【大型作战效果】\n与精英舰队或BOSS舰队交战时，自身受到的所有伤害降低2%",
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 2.0%.",
 		id = 801455,
 		system_transform = {
 			[51.0] = 801455
@@ -148285,10 +148285,10 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 	},
 	[801457] = {
 		desc_get = "",
-		name = "湮烬之核·{namecode:89}II",
+		name = "Smoldering Core - Houshou II",
 		type = 3,
 		max_level = 1,
-		desc = "【大型作战效果】\n与精英舰队或BOSS舰队交战时，自身受到的所有伤害降低6%",
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 6.0%.",
 		id = 801457,
 		system_transform = {
 			[51.0] = 801457

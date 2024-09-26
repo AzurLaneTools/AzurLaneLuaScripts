@@ -30571,7 +30571,7 @@ _G.pg.base.gametip.pre_combat_consume = {
 
 
 _G.pg.base.gametip.file_down_msgbox = {
-	tip = "Assets needed for the game's bootup are missing. Would you like to download <color=#92fc63>$1</color> of data?"
+	tip = "Assets needed for the game's bootup are missing. \nWould you like to download <color=#92fc63>$1</color> of data?"
 }
 
 
@@ -35889,7 +35889,7 @@ _G.pg.base.gametip.dorm3d_invite_confirm_discount = {
 
 
 _G.pg.base.gametip.dorm3d_invite_confirm_free = {
-	tip = "Would you like to obtain $4's placement in the <color=#39bfff>$3</color> $1 <color=#fc4670><size=34>for free</size></color> ($2 before discount)?"
+	tip = "Would you like to obtain <color=#39bfff>$3</color>'s placement in the $4 $1<color=#fc4670><size=34>for free</size></color> ($2 before discount)?"
 }
 
 
