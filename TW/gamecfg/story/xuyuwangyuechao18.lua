@@ -24,7 +24,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_3",
 			hidePaintObj = true,
-			say = "{namecode:295}带着{namecode:88}暂时躲到了一处破碎的小丘后方。",
+			say = "尾張帶著瑞鳳暫時躲到了一處破碎的小丘後方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

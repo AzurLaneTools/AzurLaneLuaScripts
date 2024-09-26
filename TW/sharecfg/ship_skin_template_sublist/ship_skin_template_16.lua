@@ -1,121 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_16 = {
-	[901032] = {
-		name = "全自動交響樂？",
-		ship_group = 90103,
-		desc = "嗯嗯，我聽到了哦，這個祝福的旋律~接下來，跟隨我的指揮繼續升調——指揮官？你問我在做什麼…呃…那什麼…啊哈哈哈…",
-		illustrator2 = -1,
-		bg_sp = "1102",
-		group_index = 2,
-		prefab = "wokelan_3",
-		painting = "wokelan_3",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 7,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "146",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 901032,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 70603,
-		voice_actor = 234,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.25,
-					1.13,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.13,
-					1.11,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.38,
-					1.33,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.44,
-							2.5,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[901033] = {
 		name = "異世界的“不速之客”",
 		ship_group = 90103,
@@ -12381,6 +12266,244 @@ pg.base.ship_skin_template_16 = {
 							-0.14,
 							0.832,
 							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[900191] = {
+		name = "仲裁者·恩普雷斯·III",
+		ship_group = 900191,
+		desc = "塞壬仲裁机关",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 0,
+		prefab = "empress",
+		painting = "empress",
+		hand_id = 0,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 900191,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 31,
+		spine_offset = "",
+		illustrator = 8,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					-0.34,
+					0.39,
+					0
+				}
+			},
+			plane = {
+				{
+					-0.37,
+					0.39,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.967,
+							0.38,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.14,
+							0.832,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[900192] = {
+		name = "{namecode:66}",
+		ship_group = 900192,
+		desc = "{namecode:66}级重巡洋舰一番舰—{namecode:66}",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 0,
+		prefab = "gaoxiong_alter",
+		painting = "gaoxiong_dark",
+		hand_id = 2,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 900192,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 8,
+		spine_offset = "",
+		illustrator = 21,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.89,
+					0.44,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.89,
+					0.44,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.23,
+					0.19,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.89,
+					0.44,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.81,
+							0.78,
+							0.26
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.68,
+							2.55,
+							-0.44
 						}
 					}
 				}

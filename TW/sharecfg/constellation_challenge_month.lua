@@ -36,10 +36,20 @@ pg.constellation_challenge_month = {
 			10012
 		}
 	},
+	[10] = {
+		id = 10,
+		constellation_icon = "Libra",
+		stage = {
+			10013,
+			10014,
+			10015
+		}
+	},
 	all = {
 		6,
 		7,
 		8,
-		9
+		9,
+		10
 	}
 }

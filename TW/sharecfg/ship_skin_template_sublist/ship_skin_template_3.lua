@@ -1,220 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_3 = {
-	[103130] = {
-		name = "明尼亞波利斯",
-		ship_group = 10313,
-		desc = "紐奧良級重巡洋艦—明尼亞波利斯，舷號CA-36",
-		illustrator2 = -1,
-		bg_sp = "",
-		group_index = 0,
-		prefab = "mingniabolisi",
-		painting = "mingniabolisi",
-		hand_id = 16,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 103130,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 153,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.619,
-					0.953,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.654,
-					1.041,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.155,
-					0.084,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.625,
-							2.427,
-							0.14
-						}
-					}
-				}
-			}
-		}
-	},
-	[103131] = {
-		name = "野性派學生",
-		ship_group = 10313,
-		desc = "課本、鉛筆、橡皮擦…唔，學生就一定要待在教室認真聽課嗎…指揮官，能不能多安排一些課外實踐的活動啊？",
-		illustrator2 = -1,
-		bg_sp = "",
-		group_index = 1,
-		prefab = "mingniabolisi_2",
-		painting = "mingniabolisi_2",
-		hand_id = 16,
-		bgm = "",
-		shop_type_id = 4,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "103",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 103131,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 70113,
-		voice_actor = 153,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.95,
-					0.91,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.91,
-					0.94,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.17,
-					0.04,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.33,
-							0.14
-						}
-					}
-				}
-			}
-		}
-	},
 	[103132] = {
 		name = "極限運動X",
 		ship_group = 10313,
@@ -2160,6 +1946,124 @@ pg.base.ship_skin_template_3 = {
 			ParamEyeBallY = {
 				-0.1,
 				0.1
+			}
+		}
+	},
+	[103245] = {
+		name = "特別的治癒時間",
+		ship_group = 10324,
+		desc = "指揮官，不要再亂動啦～這個姿勢如果你不放鬆的話我也無法好好操作哦，所以就乖乖地把疲憊的身體交給我吧――嗯，從手到胳膊，再到脖子和肩膀，用力地按下去！",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 5,
+		prefab = "bulaimodun_6",
+		painting = "bulaimodun_6",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 26,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "180",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 103245,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 71055,
+		voice_actor = 134,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.202,
+					1.03,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.22,
+					1.132,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.009,
+					-0.004,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.47,
+							2.213,
+							0.14
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				2,
+				-369,
+				0
+			},
+			{
+				0.37
 			}
 		}
 	},
@@ -11767,6 +11671,223 @@ pg.base.ship_skin_template_3 = {
 			},
 			{
 				0.45
+			}
+		}
+	},
+	[107096] = {
+		name = "賽道88之風",
+		ship_group = 10709,
+		desc = "艾塞克斯，感謝繞場順利結束！指揮官看到我的活躍了嗎？欸嘿嘿，真是太感謝你為比賽提供的各種幫助了！",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 6,
+		prefab = "aisaikesi_8",
+		painting = "aisaikesi_8",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 14,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 107096,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 70914,
+		voice_actor = 149,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.048,
+					1.32,
+					0
+				}
+			},
+			plane = {
+				{
+					1.368,
+					0.472,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.86,
+							1.98,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[107100] = {
+		name = "約克鎮II",
+		ship_group = 10710,
+		desc = "艾塞克斯級航空母艦—約克鎮II，舷號CV-10",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 0,
+		prefab = "yuekechengII",
+		painting = "yuekechengII",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 0,
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 107100,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 42,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.3,
+					1.4,
+					0
+				}
+			},
+			plane = {
+				{
+					1.41,
+					1.11,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.31,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				-83,
+				-1643,
+				0
+			},
+			{
+				0.88
+			}
+		},
+		special_effects = {
+			"lihui_yuekechengII",
+			{
+				2418,
+				-99,
+				0
+			},
+			{
+				2
 			}
 		}
 	}

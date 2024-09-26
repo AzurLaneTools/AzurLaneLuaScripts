@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港区时尚特刊：合订集[1]\n\n<size=45>丝竹喧阗</size>",
+					"港區時尚特刊：合訂集[2]\n\n<size=45>絲竹喧闐</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "刀刀刀刀刀刀！？呜呜，我的刀跑到哪里去了……！？",
+			say = "刀刀刀刀刀刀！？嗚嗚嗚，我的刀跑到哪裡去了……！？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -43,7 +43,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "真是的，指挥官马上就要来了，这怎么会找不到的……！",
+			say = "真是的，指揮官馬上就要來了，這怎麼會找不到的……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -61,7 +61,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "（把、把刀藏起来的明明是我自己啊……！）",
+			say = "（把、把刀藏起來的明明是我自己啊……！）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "呜哇！？",
+			say = "嗚哇！？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "啊疼疼疼，指挥官？！你、你怎么来的这么早啊……",
+			say = "啊痛痛痛，指揮官？！你、你怎麼來的這麼早啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（从{namecode:204}眼泪汪汪的表情判断，应该是她的刀又找不到了。）",
+			say = "（從白龍眼淚汪汪的表情判斷，應該是她的刀又找不到了。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "指挥官～我的刀不见了……！",
+			say = "指揮官～我的刀不見了……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "明明是我自己藏起来的，结果想不起藏到哪里去了！",
+			say = "明明是我自己藏起來的，結果想不起藏到哪裡去了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "找不到刀……没法开始练习乐器啊，呜呜呜……",
+			say = "找不到刀……沒辦法開始練習樂器啊，嗚嗚嗚……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一边说着，{namecode:204}一边将座位腾出来一部分，示意我上前帮她一起找。",
+			say = "一邊說著，白龍一邊將座位騰出來一部分，示意我上前幫她一起找。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然一时找不到刀的{namecode:204}表现出的反差感很有趣。",
+			say = "雖然一時找不到刀的白龍表現出的反差感很有趣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过还是尽快帮她恢复状态，开始演奏练习吧——",
+			say = "不過還是盡快幫她恢復狀態，開始演奏練習吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "周边区域、座位下方、还有屏风前后都找过了，完全没有发现刀的位置。",
+			say = "週邊區域、座位下方、還有屏風前後都找過了，完全沒有發現刀的位置。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "剩下没有寻找的地方只有——",
+			say = "剩下沒有尋找的地方只有——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,11 +297,11 @@ return {
 			},
 			options = {
 				{
-					content = "藏在乐器里？",
+					content = "藏在樂器裡？",
 					flag = 1
 				},
 				{
-					content = "藏在衣服里？",
+					content = "藏在衣服裡？",
 					flag = 2
 				}
 			}
@@ -315,7 +315,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "重樱的剑客里似乎确实有人做出过把武器藏在乐器中的事。",
+			say = "重櫻的劍客裡似乎確實有人做出過把武器藏在樂器裡的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "噢！确实有可能！",
+			say = "噢！確實有可能！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:204}仔细抚摸着乐器，似乎是在感受着什么。",
+			say = "白龍仔細撫摸著樂器，似乎在感受著什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "指挥官也来帮一下忙吧……像这里、还有这里……",
+			say = "指揮官也來幫一下忙吧……像這裡、還有這裡……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "或许今天的刀是一把短刀，这样没准就可以藏在——",
+			say = "或許今天的刀是一把短刀，這樣沒準就可以藏在——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "哇哇哇！？指挥官要做什么！？",
+			say = "哇哇哇！？指揮官要做什麼！？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……这样坐不稳啦……",
+			say = "……這樣坐不穩啦……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,7 +474,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "呜呜呜……指挥官，请温柔一点……",
+			say = "嗚嗚嗚……指揮官，請溫柔一點……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -493,7 +493,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "……嗯？这个感觉是？",
+			say = "……嗯？這個感覺是？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,7 +511,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "等等……你这家伙又想趁人之危吗！？",
+			say = "等等……你這傢伙又想趁人之危嗎！？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -529,7 +529,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "和{namecode:204}紧贴着身体四处摩挲了一番，突然{namecode:204}性情大变（？），一把抓住了我的手。",
+			say = "和白龍緊貼著身體四處摩挲了一番，突然白龍性情大變（？），一把抓住了我的手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过不知道什么原因，这手上并没有多少力气……",
+			say = "不過不知道什麼原因，這手上並沒有太多力氣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "总、总之！刀已经找到了你就不要靠的那么近了！",
+			say = "總、總之！刀已經找到了你就不要靠的那麼近了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "快回去快回去，坐到观众席去！",
+			say = "快回去快回去，坐到觀眾席！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -593,7 +593,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "哼，今天本来是想请你听一下乐器练习的，没想到会发生这种事……",
+			say = "哼，今天本來是想請你聽一下樂器練習的，沒想到會發生這種事…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "刀究竟藏在哪里……？",
+			say = "刀究竟藏在哪裡……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -629,7 +629,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "这个你不是刚才摸到了…………",
+			say = "這個你不是剛才摸到了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -647,7 +647,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "仔细回想了一下。只记得双手触碰到的都是温软的感觉，至于刀……",
+			say = "仔細回想了一下。只記得雙手觸碰到的都是溫軟的感覺，至於刀……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -661,7 +661,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "不、不能告诉你！",
+			say = "不、不能告訴你！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "该开始练习了！练、练习！",
+			say = "該開始練習了！練、練習！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -715,7 +715,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "杂乱的乐声唐突响起。",
+			say = "雜亂的樂聲唐突響起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -729,7 +729,7 @@ return {
 			actor = 399052,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来{namecode:204}的刀究竟藏在哪里，要成为未解之谜了……",
+			say = "看來白龍的刀究竟藏在哪裡，要成為未解之謎了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

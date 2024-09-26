@@ -1592,6 +1592,7 @@ ThirdAnniversarySignPageKR = import("view.activity.subPages.ThirdAnniversarySign
 TianChengPTRePage = import("view.activity.subPages.TianChengPTRePage")
 TianChengReMainPage = import("view.activity.subPages.TianChengReMainPage")
 TianHouSkinPage = import("view.activity.subPages.TianHouSkinPage")
+TianlangxingEmojiPage = import("view.activity.subPages.TianlangxingEmojiPage")
 TowerClimbingSignPage = import("view.activity.subPages.TowerClimbingSignPage")
 TW7dayLoginPage = import("view.activity.subPages.TW7dayLoginPage")
 TWCelebrationPage1 = import("view.activity.subPages.TWCelebrationPage1")

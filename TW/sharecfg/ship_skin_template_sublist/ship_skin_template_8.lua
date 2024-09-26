@@ -1,220 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_8 = {
-	[301144] = {
-		name = "美夢環繞聖誕夜",
-		ship_group = 30114,
-		desc = "“聖誕”就是那個“聖誕老人”會來送禮物的日子對吧！好期待啊~指揮官也是吧？也同樣期待著禮物沒錯吧！",
-		illustrator2 = -1,
-		bg_sp = "",
-		group_index = 4,
-		prefab = "xili_5",
-		painting = "xili_5",
-		hand_id = 14,
-		bgm = "",
-		shop_type_id = 1,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "125",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 301144,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 70452,
-		voice_actor = 17,
-		spine_offset = "",
-		illustrator = 10,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.301,
-					1.012,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.008,
-					-0.003,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.309,
-					1.038,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							2.521,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301148] = {
-		name = "所羅門的新娘",
-		ship_group = 30114,
-		desc = "指揮官，你看你看，這個叫白什麼的新衣服，紅紅的又白白的，我超喜歡的！不過，穿這個是要幹什麼來著？",
-		illustrator2 = -1,
-		bg_sp = "",
-		group_index = 8,
-		prefab = "xili_h",
-		painting = "xili_h",
-		hand_id = 14,
-		bgm = "",
-		shop_type_id = 9998,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 1,
-		id = 301148,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 17,
-		spine_offset = "",
-		illustrator = 10,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.62,
-					1.06,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.05,
-					0.1,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.62,
-					1.06,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							2.42,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[301149] = {
 		name = "{namecode:16}.改",
 		ship_group = 30114,
@@ -11940,6 +11726,330 @@ pg.base.ship_skin_template_8 = {
 						{
 							-0.533,
 							2.416,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301642] = {
+		name = "夜宴微醺",
+		ship_group = 30164,
+		desc = "難得的慶典～今天可要好好的玩哦？我也會邊遠遠的看著可愛的女孩子邊享受宴會的～指揮官，請自便～",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 2,
+		prefab = "dachao_3",
+		painting = "dachao_3",
+		hand_id = 14,
+		bgm = "",
+		shop_type_id = 7,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "115",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 301642,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 135,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.683,
+					0.476,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.678,
+					0.498,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.684,
+					0.519,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.533,
+							2.416,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301643] = {
+		name = "新春福至",
+		ship_group = 30164,
+		desc = "這個“福”字裝飾應該放在這裡…嗯？指揮官，是來向{namecode:146}要春節禮物的嗎？開玩笑的~{namecode:146}在給房間做春節風的裝飾哦，總之，新春快樂~",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 3,
+		prefab = "dachao_4",
+		painting = "dachao_4",
+		hand_id = 14,
+		bgm = "",
+		shop_type_id = 3,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "144",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 301643,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 70491,
+		voice_actor = 135,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.224,
+					1.012,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.001,
+					0.002,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.254,
+					1.026,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.409,
+							2.568,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301644] = {
+		name = "午餐的邀約？",
+		ship_group = 30164,
+		desc = "早上的課終於結束了~指揮官，要一起吃午飯嗎？呵呵，是不是很在意便當裡有什麼菜？敬請期待哦~",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 4,
+		prefab = "dachao_5",
+		painting = "dachao_5",
+		hand_id = 14,
+		bgm = "",
+		shop_type_id = 4,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "147",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 301644,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 70682,
+		voice_actor = 135,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.18,
+					0.88,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.001,
+					0.002,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.18,
+					1.04,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.38,
+							2.29,
 							0
 						}
 					}

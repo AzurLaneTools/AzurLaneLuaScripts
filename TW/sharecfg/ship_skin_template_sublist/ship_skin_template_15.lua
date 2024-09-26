@@ -12157,5 +12157,120 @@ pg.base.ship_skin_template_15 = {
 				}
 			}
 		}
+	},
+	[901032] = {
+		name = "全自動交響樂？",
+		ship_group = 90103,
+		desc = "嗯嗯，我聽到了哦，這個祝福的旋律~接下來，跟隨我的指揮繼續升調——指揮官？你問我在做什麼…呃…那什麼…啊哈哈哈…",
+		illustrator2 = -1,
+		bg_sp = "1102",
+		group_index = 2,
+		prefab = "wokelan_3",
+		painting = "wokelan_3",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 7,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "146",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 901032,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 70603,
+		voice_actor = 234,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.25,
+					1.13,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.13,
+					1.11,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.38,
+					1.33,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.44,
+							2.5,
+							0
+						}
+					}
+				}
+			}
+		}
 	}
 }

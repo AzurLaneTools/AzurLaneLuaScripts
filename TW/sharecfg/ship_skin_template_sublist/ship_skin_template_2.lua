@@ -1,135 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_2 = {
-	[102030] = {
-		name = "布魯克林",
-		ship_group = 10203,
-		desc = "布魯克林級輕巡洋艦—布魯克林，舷號CL-40",
-		illustrator2 = -1,
-		bg_sp = "",
-		group_index = 0,
-		prefab = "bulukelin",
-		painting = "bulukelin",
-		hand_id = 3,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 102030,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 64,
-		spine_offset = "",
-		illustrator = 7,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.789,
-					0.501,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.789,
-					0.501,
-					0
-				},
-				{
-					-0.238,
-					0.927,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.457,
-					1.102,
-					0
-				},
-				{
-					-0.834,
-					1.234,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.39,
-							0.41,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.61,
-							0.53,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[102040] = {
 		name = "菲尼克斯",
 		ship_group = 10204,
@@ -12151,6 +12022,220 @@ pg.base.ship_skin_template_2 = {
 						{
 							-0.57,
 							2.379,
+							0.14
+						}
+					}
+				}
+			}
+		}
+	},
+	[103130] = {
+		name = "明尼亞波利斯",
+		ship_group = 10313,
+		desc = "紐奧良級重巡洋艦—明尼亞波利斯，舷號CA-36",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 0,
+		prefab = "mingniabolisi",
+		painting = "mingniabolisi",
+		hand_id = 16,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 103130,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 153,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.619,
+					0.953,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.654,
+					1.041,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.155,
+					0.084,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.625,
+							2.427,
+							0.14
+						}
+					}
+				}
+			}
+		}
+	},
+	[103131] = {
+		name = "野性派學生",
+		ship_group = 10313,
+		desc = "課本、鉛筆、橡皮擦…唔，學生就一定要待在教室認真聽課嗎…指揮官，能不能多安排一些課外實踐的活動啊？",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 1,
+		prefab = "mingniabolisi_2",
+		painting = "mingniabolisi_2",
+		hand_id = 16,
+		bgm = "",
+		shop_type_id = 4,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "103",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 103131,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 70113,
+		voice_actor = 153,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.95,
+					0.91,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.91,
+					0.94,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.17,
+					0.04,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.33,
 							0.14
 						}
 					}

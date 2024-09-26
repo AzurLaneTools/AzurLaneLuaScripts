@@ -162124,6 +162124,56 @@ _G.pg.base.item_virtual_data_statistics[59582] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[59583] = {
+	drop_gold_max = 0,
+	name = "巡遊點數",
+	display = "參與「世界巡遊」(2024.10.1~2024.11.30)獲得的點數，累計一定程度可以領取獎勵，活動結束後將會消失",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "props/battlepass_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 59583,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[59584] = {
+	drop_gold_max = 0,
+	name = "通行证十七期礼包商店购买支付标记",
+	display = "不该被看到",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 45916,
+	icon = "props/summer_stamp",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 21,
+	id = 59584,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[59585] = {
 	drop_gold_max = 0,
 	name = "友好度-{namecode:535}",
@@ -169141,6 +169191,31 @@ _G.pg.base.item_virtual_data_statistics[65017] = {
 	drop_oil_max = 0,
 	virtual_type = 99,
 	id = 65017,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65024] = {
+	drop_gold_max = 0,
+	name = "多彩時刻表情組",
+	display = "取得後立刻自動開啟，開啟可獲得天狼星多彩時刻系列限定表情（6個）\n可在表情選項的「預設」標籤中找到並發出此系列表情",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/65024",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65024,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -176778,6 +176853,76 @@ _G.pg.base.item_virtual_data_statistics[86010] = {
 		{
 			108072,
 			1010
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86011] = {
+	drop_gold_max = 0,
+	name = "隨機五週年換裝",
+	display = "不会被看到",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86011,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			305102,
+			1000
+		},
+		{
+			202204,
+			1000
+		},
+		{
+			103245,
+			1000
+		},
+		{
+			319014,
+			1000
+		},
+		{
+			202102,
+			1000
+		},
+		{
+			499072,
+			920
+		},
+		{
+			306063,
+			840
+		},
+		{
+			401353,
+			840
+		},
+		{
+			202085,
+			800
+		},
+		{
+			519012,
+			800
+		},
+		{
+			206022,
+			800
 		}
 	}
 }

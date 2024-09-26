@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港区时尚特刊：Race Begins！\n\n<size=45>轰鸣的银轮</size>",
+					"港區時尚特刊：Race Begins！\n\n<size=45>轟鳴的銀輪</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 307082,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "……指挥官，妾身现在这样的姿势。",
+			say = "……指揮官，妾身現在這樣的姿勢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -59,7 +59,7 @@ return {
 			bgName = "star_level_bg_132",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "感觉已经到位了。不过，或许选用这个姿势的话……效果会更好。",
+			say = "感覺已經到位了。不過，或許選用這個姿勢的話……效果會更好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 307082,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "唔……确如汝所言。那就——",
+			say = "唔……確如汝所言。那就——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			actor = 307082,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此刻，身着赛车女郎服的{namecode:182}正趴在车顶小心调整着姿势。",
+			say = "此刻，身著賽車女郎服的信濃正趴在車頂小心調整姿勢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			actor = 307082,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而我则手持相机立于一旁。",
+			say = "而我則手持相機立於一旁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			actor = 307082,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要问事情为什么会变成这样……",
+			say = "要問事情為什麼會變成這樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 307082,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还要从同意前来应援的{namecode:182}，以及拍照到一半因为急事离开的{namecode:55}开始说了……",
+			say = "還要從同意前來應援的信濃，以及拍照到一半因為急事離開的青葉開始說了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			actor = 307082,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "这个姿势……汝觉得如何？",
+			say = "這個姿勢……汝覺得如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			actor = 307082,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "似乎，{namecode:182}终于选定了拍照的姿势。",
+			say = "似乎，信濃終於選定了拍照的姿勢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			actor = 307082,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "可如{namecode:55}所给的参考图上一般？",
+			say = "可如青葉所給的參考圖上一般？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			actor = 307082,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "呼……汝能喜欢就好。",
+			say = "呼……汝能喜歡就好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			actor = 307082,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不过……这般姿势，稍微有些害羞呢……",
+			say = "不過……這般姿勢，稍微有些害羞呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			actor = 307082,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "也罢……既同意了应援之事，妾身必定全力以赴……",
+			say = "也罷……既同意了應援之事，妾身必定全力以赴……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么，我们就先试着拍几张吧？",
+			say = "那麼，我們就先試著拍幾張吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			actor = 307082,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "嗯……汝尽管拍吧！",
+			say = "嗯……汝儘管拍吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			actor = 307082,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不知为何，{namecode:182}突然鼓起了一股气势。",
+			say = "不知為何，信濃突然鼓起了一股氣勢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			actor = 307082,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也因此，抓到了一个不错的镜头呢——",
+			say = "也因此，抓到了一個不錯的鏡頭呢——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

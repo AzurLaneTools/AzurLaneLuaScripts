@@ -71,6 +71,8 @@ pg.pay_data_display = setmetatable({
 		4041,
 		4042,
 		4043,
+		4044,
+		4045,
 		4850,
 		4851,
 		4852,
@@ -102,7 +104,8 @@ pg.pay_data_display = setmetatable({
 		4912,
 		4913,
 		4914,
-		4915
+		4915,
+		4916
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -6702,6 +6705,234 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[4044] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		type = 1,
+		name = "五週年禮盒",
+		first_pay_double = 0,
+		name_display = "五週年禮盒",
+		descrip = "可獲得一件角色換裝，2024鑽，和大量其他獎勵",
+		subject = "五週年禮盒",
+		money = 990,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "twfudai02",
+		skin_inquire_relation = 86011,
+		id_str = "com.hkmanjuu.azurlane.package45",
+		extra_service = 3,
+		id = 4044,
+		airijp_id = "com.hkmanjuu.azurlane.package45",
+		extra_service_item = {
+			{
+				2,
+				86011,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86011,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81016,
+				1
+			}
+		}
+	},
+	[4045] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		type = 1,
+		name = "四週年禮盒·復刻",
+		first_pay_double = 0,
+		name_display = "四週年禮盒·復刻",
+		descrip = "可獲得一件角色換裝，2023鑽，和大量其他獎勵",
+		subject = "四週年禮盒·復刻",
+		money = 990,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "lihejp6lf_l",
+		skin_inquire_relation = 86007,
+		id_str = "com.hkmanjuu.azurlane.package46",
+		extra_service = 3,
+		id = 4045,
+		airijp_id = "com.hkmanjuu.azurlane.package46",
+		extra_service_item = {
+			{
+				2,
+				86007,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86007,
+				1
+			},
+			{
+				1,
+				14,
+				2023
+			},
+			{
+				2,
+				42046,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81007,
+				1
+			}
+		}
+	},
 	[4850] = {
 		extra_gem = 0,
 		limit_group = 1,
@@ -9013,6 +9244,82 @@ pg.base.pay_data_display = {
 		},
 		sub_display = {
 			45915,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[4916] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*需要通過任務達成對應巡遊進度後才可獲取",
+		type = 0,
+		name = "特許巡遊憑證（十七期）",
+		first_pay_double = 0,
+		name_display = "特許巡遊憑證",
+		descrip = "可獲得1500巡遊點數，同時解鎖特許巡遊獎勵·阿蒂利奧·雷戈洛限定換裝和其他獎勵",
+		subject = "特許巡遊憑證",
+		money = 330,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 4,
+		picture = "battlepass_1",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.battlepass17",
+		extra_service = 4,
+		id = 4916,
+		airijp_id = "com.hkmanjuu.azurlane.battlepass17",
+		extra_service_item = {
+			{
+				1,
+				4017,
+				1500
+			},
+			{
+				8,
+				59584,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					11,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4017,
+				1500
+			}
+		},
+		sub_display = {
+			45916,
 			1500
 		},
 		ignorePlatform = {},

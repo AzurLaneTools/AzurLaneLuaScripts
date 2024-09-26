@@ -258,7 +258,8 @@ pg.ship_skin_words_extra = setmetatable({
 		207053,
 		307140,
 		403140,
-		405060
+		405060,
+		304050
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -17791,6 +17792,59 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"接納你的全部，可不是漂亮話哦……所以、盡情、盡情地把一切都交給我吧……我會把它們，放在我心靈中最珍貴的角落……唔呼呼…… …"
+			}
+		}
+	},
+	[304050] = {
+		touch = "",
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		mission = "",
+		id = 304050,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"主上，今天的作戰方案，請過目~"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"主上，請用。這是鳳翔給我的點心，真是……太可愛了。|謀定而後動，知止而有得。主上，您又會如何決定捨與得呢？"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"主上，這樣的話{namecode:161}的身體會……"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"看著主上的臉，感覺就連病痛都減弱了不少……咳，呼……就算是為了主上，{namecode:161}都會多支撐一段時間的。"
+			}
+		},
+		hp_warning = {
+			{
+				1100,
+				"主上……還在等待勝利的消息！"
 			}
 		}
 	}

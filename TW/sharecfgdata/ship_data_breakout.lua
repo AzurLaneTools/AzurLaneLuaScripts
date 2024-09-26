@@ -42583,8 +42583,7 @@ _G.pg.base.ship_data_breakout[11000072] = {
 	level = 30,
 	use_item = {},
 	weapon_ids = {
-		106,
-		106
+		33000
 	}
 }
 
@@ -42601,7 +42600,7 @@ _G.pg.base.ship_data_breakout[11000073] = {
 	level = 70,
 	use_item = {},
 	weapon_ids = {
-		106,
+		33000,
 		106
 	}
 }

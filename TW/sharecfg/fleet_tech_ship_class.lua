@@ -3396,6 +3396,17 @@ pg.fleet_tech_ship_class = {
 			970302
 		}
 	},
+	[970303] = {
+		shiptype = 3,
+		name = "福煦·META",
+		t_level = 3,
+		id = 970303,
+		t_level_1 = 10,
+		nation = 97,
+		ships = {
+			970303
+		}
+	},
 	[970401] = {
 		shiptype = 4,
 		name = "格奈森瑙·META",
@@ -3867,6 +3878,7 @@ pg.fleet_tech_ship_class = {
 		970206,
 		970301,
 		970302,
+		970303,
 		970401,
 		970402,
 		970403,

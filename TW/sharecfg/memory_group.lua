@@ -148,8 +148,10 @@ pg.memory_group = setmetatable({
 		255,
 		256,
 		257,
+		258,
 		259,
 		260,
+		261,
 		262,
 		263,
 		264,
@@ -167,6 +169,7 @@ pg.memory_group = setmetatable({
 		290,
 		300,
 		301,
+		303,
 		501,
 		502,
 		503,
@@ -3541,6 +3544,20 @@ pg.base.memory_group = {
 			2994
 		}
 	},
+	[258] = {
+		title = "港區時尚特刊：合訂集[2]",
+		subtype = 3,
+		link_event = 5009,
+		type = 2,
+		id = 258,
+		icon = "title_event",
+		memories = {
+			3031,
+			3033,
+			3005,
+			3004
+		}
+	},
 	[259] = {
 		title = "渡假村神秘事件調查",
 		subtype = 2,
@@ -3575,6 +3592,21 @@ pg.base.memory_group = {
 			3002,
 			3003,
 			3032
+		}
+	},
+	[261] = {
+		title = "港區時尚特刊：Race Begins！",
+		subtype = 3,
+		link_event = 5019,
+		type = 2,
+		id = 261,
+		icon = "title_event",
+		memories = {
+			3041,
+			3042,
+			3043,
+			3044,
+			3045
 		}
 	},
 	[262] = {
@@ -3992,6 +4024,17 @@ pg.base.memory_group = {
 			3867,
 			3868,
 			3869
+		}
+	},
+	[303] = {
+		title = "環繞心間之舞",
+		subtype = 3,
+		link_event = 5581,
+		type = 2,
+		id = 303,
+		icon = "title_event",
+		memories = {
+			3908
 		}
 	},
 	[501] = {

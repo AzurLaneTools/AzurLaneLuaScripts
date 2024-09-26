@@ -644,7 +644,7 @@ return {
 			dir = 1,
 			actorName = "名取",
 			hidePaintObj = true,
-			say = "{namecode:189}……{namecode:88}……你们在哪？",
+			say = "初月……瑞鳳……妳們在哪裡？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -879,7 +879,7 @@ return {
 			actor = 302060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "诶？{namecode:74}、{namecode:74}大人……？",
+			say = "欸？長、長門大人……？",
 			painting = {
 				alpha = 0.3,
 				time = 1

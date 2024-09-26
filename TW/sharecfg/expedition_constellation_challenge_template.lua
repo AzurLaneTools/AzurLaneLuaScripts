@@ -348,6 +348,93 @@ pg.expedition_constellation_challenge_template = {
 			}
 		}
 	},
+	[10013] = {
+		button_style = 7,
+		information_icon = "qiye_constellation",
+		painting = "qiye",
+		id = 10013,
+		dungeon_id = 5115,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"平衡砝碼",
+				"天秤座化身在戰鬥開始後18秒及之後每40秒召喚紅色與藍色兩種砝碼，同時天秤座化身進入隱身狀態，迴避所有傷害，持續8秒"
+			},
+			{
+				"保持均衡",
+				"【平衡砝碼】觸發後15秒發動，根據場地上的失衡砝碼的數量（兩種砝碼數量差值）降低自身受到的傷害並清除場地中的剩餘砝碼，每個失衡砝碼會提供<color=#92fc63>10%</color>減傷效果（最多降低<color=#92fc63>30%</color>），持續至下次【平衡砝碼】觸發"
+			}
+		},
+		award_display = {
+			{
+				14,
+				205,
+				1
+			}
+		}
+	},
+	[10014] = {
+		button_style = 7,
+		information_icon = "qiye_constellation",
+		painting = "qiye",
+		id = 10014,
+		dungeon_id = 5114,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"平衡砝碼",
+				"天秤座化身在戰鬥開始後18秒及之後每40秒召喚紅色與藍色兩種砝碼，同時天秤座化身進入隱身狀態，迴避所有傷害，持續8秒"
+			},
+			{
+				"保持均衡",
+				"【平衡砝碼】觸發後15秒發動，根據場地上的失衡砝碼的數量（兩種砝碼數量差值）降低自身受到的傷害並清除場地中的剩餘砝碼，每個失衡砝碼會提供<color=#92fc63>20%</color>減傷效果（最多降低<color=#92fc63>60%</color>），持續至下次【平衡砝碼】觸發"
+			}
+		},
+		award_display = {
+			{
+				15,
+				10005,
+				1
+			}
+		}
+	},
+	[10015] = {
+		button_style = 7,
+		information_icon = "qiye_constellation",
+		painting = "qiye",
+		id = 10015,
+		dungeon_id = 5113,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"平衡砝碼",
+				"天秤座化身在戰鬥開始後18秒及之後每40秒召喚紅色與藍色兩種砝碼，同時天秤座化身進入隱身狀態，迴避所有傷害，持續8秒"
+			},
+			{
+				"保持均衡",
+				"【平衡砝碼】觸發後15秒發動，根據場地上的失衡砝碼的數量（兩種砝碼數量差值）降低自身受到的傷害並清除場地中的剩餘砝碼，每個失衡砝碼會提供<color=#92fc63>30%</color>減傷效果（最多降低<color=#92fc63>90%</color>），持續至下次【平衡砝碼】觸發"
+			}
+		},
+		award_display = {
+			{
+				14,
+				10005,
+				1
+			}
+		}
+	},
 	all = {
 		10001,
 		10002,
@@ -360,6 +447,9 @@ pg.expedition_constellation_challenge_template = {
 		10009,
 		10010,
 		10011,
-		10012
+		10012,
+		10013,
+		10014,
+		10015
 	}
 }

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港区时尚特刊：Race Begins！\n\n<size=45>一骑绝尘</size>",
+					"港區時尚特刊：Race Begins！\n\n<size=45>一騎絕塵</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "……那么，愿诸位能在比赛中获得心仪的名次。",
+			say = "……那麼，願諸位能在比賽中獲得心儀的名次。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -43,7 +43,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:465}刚刚结束一场赛前动员。",
+			say = "胡滕剛剛結束一場賽前動員。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,14 +57,14 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "代表着铁血的旗帜在空中飞扬，而穿着黑红应援服的{namecode:465}仿佛就是胜利的象征。",
+			say = "代表著鐵血的旗幟在空中飛揚，而穿著黑紅應援服的胡滕彷彿就是勝利的象徵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "完美的赛前动员演讲。",
+					content = "完美的賽前動員演講。",
 					flag = 1
 				}
 			}
@@ -77,7 +77,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "多谢夸奖。",
+			say = "多謝誇獎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……原来是指挥官啊，什么风把你这个大忙人吹到我这边来了？",
+			say = "……原來是指揮官啊，什麼風把你這個大忙人吹到我這邊來了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			bgName = "star_level_bg_132",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "只是偶然路过，没想到能看到一场出色的“战前动员”。",
+			say = "只是偶然路過，沒想到能看到一場出色的「戰前動員」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "一场优秀的动员可以激发起参赛队员的斗志，从而增加获胜的几率。",
+			say = "一場優秀的動員可以激發起參賽隊員的鬥志，從而增加獲勝的幾率。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "当然，这身衣服的贡献也必不可少。",
+			say = "當然，這套衣服的貢獻也不可或缺。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不但激起了参赛的同伴们的热情，也让观众席的氛围热烈了不少。",
+			say = "不但激起了參賽的同伴們的熱情，也讓觀眾席的氛圍熱烈了不少。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯——也让指挥官的热情提高了不少呢。",
+			say = "嗯——也讓指揮官的熱情提高了不少呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "呵呵，不用移开视线，光明正大的欣赏就好。",
+			say = "呵呵，不用移開視線，光明正大的欣賞就好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "如果我有不想让你看的意思在的话，今天就不会穿这身衣服出来了。",
+			say = "如果我有不想讓你看的意思在的話，今天就不會穿這套衣服出來了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -233,7 +233,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "其他的同伴肯定也是一样的，所以不用过于在意。",
+			say = "其他的同伴一定也是一樣的，所以不用太在意。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "堂堂正正地欣赏，然后给予夸奖的话语就好。",
+			say = "堂堂正正地欣賞，然後給予誇獎的話語就好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -269,7 +269,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯~很好，这就对了。",
+			say = "嗯~很好，這就對了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "不过，夸奖的话语虽然可以分享，不过比赛的胜者只能有一家。",
+			say = "不過，誇獎的話語雖然可以分享，不過比賽的勝者只能有一家。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "指挥官觉得今天比赛，谁会成为最后的赢家？",
+			say = "指揮官覺得今天比賽，誰會成為最後的贏家？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这一点倒还没什么头绪……毕竟各支队伍都看上去干劲满满。",
+			say = "這一點倒還沒什麼頭緒……畢竟各隊都看起來幹勁滿滿。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "哦？指挥官是觉得我们铁血队有输给其他队伍的可能性么？",
+			say = "哦？指揮官是覺得我們鐵血隊有輸給其他隊伍的可能性嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来{namecode:465}对于铁血车队的实力充满自信。",
+			say = "看來胡滕對於鐵血車隊的實力充滿自信。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "所谓的胜利不过是排除了极小概率事件后，经由一系列的精密计算而得出的必然结果。",
+			say = "所謂的勝利不過是排除了極小機率事件後，經由一系列的精密計算而得出的必然結果。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			bgName = "star_level_bg_132",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但是极小概率并不等于概率为零。结果的难以预测性，不正是欣赏比赛一大乐趣么？",
+			say = "但是極小機率並不等於機率為零。結果的難以預測性，不正是欣賞比賽的一大樂趣嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "一般论的话，确实是这样。",
+			say = "一般論的話，確實是這樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不过等你了解铁血车队的实力之后，就会明白我的自信来源于何处了。",
+			say = "不過等你了解鐵血車隊的實力之後，就會明白我的自信來自何處了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,37 +453,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯……指挥官，接下来你有两小时左右的空闲时间么？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_132",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "两、两小时？！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			hidePaintObj = true,
-			side = 2,
-			bgName = "star_level_bg_132",
-			dir = 1,
-			actor = 405032,
-			nameColor = "#A9F548FF",
-			live2d = true,
-			say = "如果要将这些事情讲明白的话，我认为至少需要两个小时。",
+			say = "嗯……指揮官，接下來你有兩小時左右的空閒時間嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +469,37 @@ return {
 			bgName = "star_level_bg_132",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "还、还请手下留情……",
+			say = "兩、兩小時？！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			hidePaintObj = true,
+			side = 2,
+			bgName = "star_level_bg_132",
+			dir = 1,
+			actor = 405032,
+			nameColor = "#A9F548FF",
+			live2d = true,
+			say = "如果要將這些事情講明白的話，我認為至少需要兩個小時。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_132",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "還、還請手下留情……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "……也是，如果在这里听我唠叨两个小时，精彩的比赛就要全错过去了。",
+			say = "……也是，如果在這裡聽我嘮叨兩個小時，精彩的比賽就要全錯過了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -531,7 +531,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "抱歉指挥官，前言撤回，是我的提案考虑不周。",
+			say = "抱歉指揮官，前言撤回，是我的提案考慮不周。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,7 +549,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯……这样好了。",
+			say = "嗯……這樣好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -567,7 +567,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "比赛之后，指挥官有时间么？",
+			say = "比賽之後，指揮官有時間嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -583,7 +583,7 @@ return {
 			bgName = "star_level_bg_132",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……继续进行为时两小时的讲解？",
+			say = "……繼續進行為時兩小時的講解？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "不仅如此。我们还可以一起去训练的地方看一下。",
+			say = "不僅如此。我們還可以一起去訓練的地方看一下。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -615,7 +615,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "边看边听，比听我干讲效果更好。",
+			say = "邊看邊聽，比光聽我講效果更好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -633,7 +633,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "而且……除了训练设施之外，我们还可以去一下后勤部门。",
+			say = "而且……除了訓練設施之外，我們還可以去後勤部門。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -651,7 +651,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "铁血驯服这些“机械”的技巧，指挥官就不想了解一下么？",
+			say = "鐵血馴服這些「機械」的技巧，指揮官就不想了解一下嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -669,7 +669,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "只是……这样两个小时就似乎有些不太够了呢。",
+			say = "只是……這樣兩個小時就似乎有些不太夠了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -687,7 +687,7 @@ return {
 			actor = 405032,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "怎么样，今晚能抽出更多时间来么，指挥官————",
+			say = "怎麼樣，今晚能抽出更多時間來嗎，指揮官————",
 			painting = {
 				alpha = 0.3,
 				time = 1

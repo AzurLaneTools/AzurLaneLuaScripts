@@ -120,6 +120,14 @@ pg.item_data_chat = {
 		desc = "<color=#ffffff>獻給勇於挑戰極限的指揮官！</color>\n<color=#A7A7AAFF>透過參與「限界挑戰」取得 </color>",
 		scene = {}
 	},
+	[10005] = {
+		name = "極限的挑戰者·天秤座",
+		time_second = 0,
+		id = 10005,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>獻給勇於挑戰極限的指揮官！</color>\n<color=#A7A7AAFF>透過參與「限界挑戰」取得 </color>",
+		scene = {}
+	},
 	[1001] = {
 		name = "開服紀念",
 		time_second = 0,
@@ -144,6 +152,7 @@ pg.item_data_chat = {
 		10002,
 		10003,
 		10004,
+		10005,
 		1001
 	}
 }

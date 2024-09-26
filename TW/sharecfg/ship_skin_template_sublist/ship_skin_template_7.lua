@@ -1,128 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_7 = {
-	[206036] = {
-		name = "清涼閱讀時光",
-		ship_group = 20603,
-		desc = "啊…哥哥，獨角獸在看書哦。嗯…一邊吃冰棒，哥哥…也要來一口嗎？",
-		illustrator2 = -1,
-		bg_sp = "",
-		group_index = 6,
-		prefab = "dujiaoshou_7",
-		painting = "dujiaoshou_7",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 20,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "109",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 206036,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 70552,
-		voice_actor = 8,
-		spine_offset = "",
-		illustrator = 1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.27,
-					1.44,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.3,
-					1.31,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.26,
-					1.26,
-					0
-				}
-			},
-			plane = {
-				{
-					1.21,
-					1.17,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.49,
-							2.39,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[206037] = {
 		name = "天使的照顧時間",
 		ship_group = 20603,
@@ -11921,6 +11799,220 @@ pg.base.ship_skin_template_7 = {
 				{
 					1.1,
 					0.347,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.42,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301144] = {
+		name = "美夢環繞聖誕夜",
+		ship_group = 30114,
+		desc = "“聖誕”就是那個“聖誕老人”會來送禮物的日子對吧！好期待啊~指揮官也是吧？也同樣期待著禮物沒錯吧！",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 4,
+		prefab = "xili_5",
+		painting = "xili_5",
+		hand_id = 14,
+		bgm = "",
+		shop_type_id = 1,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "125",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 301144,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 70452,
+		voice_actor = 17,
+		spine_offset = "",
+		illustrator = 10,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.301,
+					1.012,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.008,
+					-0.003,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.309,
+					1.038,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.521,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301148] = {
+		name = "所羅門的新娘",
+		ship_group = 30114,
+		desc = "指揮官，你看你看，這個叫白什麼的新衣服，紅紅的又白白的，我超喜歡的！不過，穿這個是要幹什麼來著？",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 8,
+		prefab = "xili_h",
+		painting = "xili_h",
+		hand_id = 14,
+		bgm = "",
+		shop_type_id = 9998,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 1,
+		id = 301148,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 17,
+		spine_offset = "",
+		illustrator = 10,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.62,
+					1.06,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.05,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.62,
+					1.06,
 					0
 				}
 			}

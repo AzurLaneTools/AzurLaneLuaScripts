@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港区时尚特刊：Race Begins！\n\n<size=45>Wind Catcher</size>",
+					"港區時尚特刊：Race Begins！\n\n<size=45>Wind Catcher</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不远处，看到了正在为白鹰队加油的企业。",
+			say = "不遠處，看到了正在為白鷹隊加油的企業。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
-			say = "指挥官，上午好。",
+			say = "指揮官，上午好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "刚刚结束的那场对决真是精彩，让人充分感受到了竞速比赛的魅力。",
+			say = "剛剛結束的那場對決真是精彩，讓人充分感受到了競速比賽的魅力。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "指挥官，明年的这个时候我们再办一场吧？",
+			say = "指揮官，明年的這個時候我們再辦一場吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,7 +91,7 @@ return {
 			bgName = "star_level_bg_132",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看会场同伴们的反响，这件事应该是没问题的。",
+			say = "看會場同伴們的反響，這件事應該是沒問題的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,14 +103,14 @@ return {
 			bgName = "star_level_bg_132",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（只是不过……这个拉链。）",
+			say = "（只是不過……這個拉鍊。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "邀请企业去观众席观赛",
+					content = "邀請企業到觀眾席觀賽",
 					flag = 1
 				}
 			}
@@ -123,7 +123,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "感谢您的关心，指挥官。",
+			say = "感謝您的關心，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "虽然我很想答应，但是很可惜，今天的我还有职责在身。",
+			say = "雖然我很想答應，但是很可惜，今天的我還有職責在身。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -159,7 +159,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我已经答应了同伴们会在这里为她们应援，这身应援服就是证明。",
+			say = "我已經答應了同伴們會在這裡為她們應援，這套應援服就是證明。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "至于烈日的话，指挥官不用担心，我准备了伞。",
+			say = "至於烈日的話，指揮官不用擔心，我準備了傘。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "要是有机会的话，我也想在赛场上尽情驰骋一番。",
+			say = "要是有機會的話，我也想在賽場上盡情馳騁一番。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "那应该是与在海面上驰骋所截然不同的感受吧。",
+			say = "那應該是與在海面上馳騁所截然不同的感受吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "不过此时此刻，我还是要扮演好自己的角色才行。",
+			say = "不過此時此刻，我還是要扮演好自己的角色才行。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "似乎为了证明自己是认真接受了为同伴们应援的委托。",
+			say = "似乎為了證明自己是認真接受了為同伴們應援的委託。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "企业摆出了一连串帅气的姿势。",
+			say = "企業擺出了一連串帥氣的姿勢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而那个拉链也……",
+			say = "而那個拉鍊也……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "star_level_bg_132",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "变得愈发危险了啊……",
+			say = "變得愈發危險了啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯？指挥官是在担心我的驾驶技术么？",
+			say = "嗯？指揮官是在擔心我的駕駛技術麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "放心，如果真要上场的话，我会进行必要的技能训练的。",
+			say = "放心，如果真要上場的話，我會進行必要的技能訓練的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			bgName = "star_level_bg_132",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不，我不是这个意思……你的衣服……",
+			say = "不，我不是這個意思……妳的衣服……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "……衣服？啊~是在说今天的这身打扮？",
+			say = "……衣服？啊~是在說今天的這套打扮？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯…确实有点夸张。",
+			say = "嗯…確實有點誇張。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -387,7 +387,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "但毕竟被后辈们那样拜托了，而且她们看起来相当高兴的样子……指挥官是觉得不合身吗？",
+			say = "但畢竟被後輩們那樣拜託了，而且她們看起來相當高興的樣子……指揮官是覺得不合身嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			},
 			options = {
 				{
-					content = "拉链……！",
+					content = "拉鍊……！",
 					flag = 1
 				}
 			}
@@ -423,7 +423,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "周围响起一阵欢呼声，比赛已经在不知不觉间进入了白热化阶段。",
+			say = "周圍響起一陣歡呼聲，比賽已經在不知不覺間進入了白熱化階段。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "企业也立刻进入了全神贯注的应援状态。",
+			say = "企業也立刻進入了全神貫注的應援狀態。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而那条拉链……也不出所料地开始一点点加速下滑。",
+			say = "而那條拉鍊……也不出所料地開始一點點加速下滑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯？指挥官刚才是在说拉链么？拉链怎么了？",
+			say = "嗯？指揮官剛才是在說拉鍊嗎？拉鍊怎麼了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "显然，认真关注赛况的企业小姐并没有好好关注自己。",
+			say = "顯然，認真關注賽況的企業小姐並沒有好好關注自己。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她完全没有理解我的意思，依旧在进行着危险的大幅度动作。",
+			say = "她完全沒有理解我的意思，依舊在進行著危險的大幅度動作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			bgName = "star_level_bg_132",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不行，再这样下去企业就危险了！）",
+			say = "（不行，再這樣下去企業就危險了！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "诶？？？指、指挥官？！",
+			say = "欸？？？指、指揮官？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -555,7 +555,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "将手伸向拉链——",
+			say = "將手伸向拉鍊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -569,7 +569,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "在、在这里？！我、额……",
+			say = "在、在這裡？！我、呃……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -587,7 +587,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "事情似乎在一瞬间，变得更加混乱了。",
+			say = "事情似乎在一瞬間，變得更加混亂了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,7 +601,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过最终，企业小姐成功认识到了自己的拉链是多么的千钧一发。",
+			say = "不過最終，企業小姐成功體認到了自己的拉鍊是多麼的千鈞一髮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			actor = 107066,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "之后就是一阵手忙脚乱……至于比赛的优胜者，已经一点印象都没有了——",
+			say = "之後就是一陣手忙腳亂……至於比賽的優勝者，已經一點印象都沒有了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

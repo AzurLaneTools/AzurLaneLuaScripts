@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港区时尚特刊：合订集[1]\n\n<size=45>花绽之乐章</size>",
+					"港區時尚特刊：合訂集[2]\n\n<size=45>花綻之樂章</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
 			bgm = "newyear2",
-			say = "还未靠近，阵阵略显生涩的乐声便传入耳中，还杂着些许叹息。",
+			say = "還未靠近，陣陣略顯生澀的樂聲便傳入耳中，還雜著些許嘆息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,7 +36,7 @@ return {
 			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "果然还是不太行呢……唉。",
+			say = "果然還是不太行呢……唉。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -54,7 +54,7 @@ return {
 			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "咦，指挥官？您怎么走到这里来了。",
+			say = "咦，指揮官？您怎麼走到這裡來了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "听到了音乐声……？",
+			say = "聽到了音樂聲……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "啊哈哈……真是抱歉，让您听到我不熟练的弹奏了……",
+			say = "啊哈哈……真抱歉，讓您聽到我不熟練的彈奏了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "明明按照学到的弹法弹奏了，为什么还是会跑调呢……",
+			say = "明明依照學到的彈法彈奏了，為什麼還是會走音呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			actor = 319013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看向坐在不远处的{namecode:188}，然后看向其怀中的琴。",
+			say = "看向坐在不遠處的樫野，然後看向其懷中的琴。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			actor = 319013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "思考着二者之与彼此的定位，并审视着二者之间的实际关系。",
+			say = "思考著二者之與彼此的定位，並檢視著二者之間的實際關係。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,14 +170,14 @@ return {
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（根据牛顿第三定律，跑调的原因或许是……）",
+			say = "（根據牛頓第三定律，走音的原因或許是……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "让樫野再弹一次",
+					content = "讓樫野再彈一次",
 					flag = 1
 				}
 			}
@@ -191,7 +191,7 @@ return {
 			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "您愿意帮我寻找问题么？！太好了~",
+			say = "您願意幫我找出問題嗎？！太好了~~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "请稍等片刻哦！",
+			say = "請稍等片刻哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			actor = 319013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:188}摆正了姿势，左手按弦，右手执拨，奏响了第一个音符。",
+			say = "樫野擺正了姿勢，左手按弦，右手執撥，奏響了第一個音符。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			actor = 319013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "直至一曲奏毕——",
+			say = "直至一曲奏畢——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "诶嘿嘿，有指挥官看着，感觉比以前要好了一些，",
+			say = "欸嘿嘿，有指揮官看著，感覺比以前好了一些，",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -293,7 +293,7 @@ return {
 			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "但又觉得好像没什么变化…到底是哪里的音偏了呢……？",
+			say = "但又覺得好像沒什麼變化……到底是哪裡的音跑掉了呢……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "指挥官，您有看到问题出在哪儿么？",
+			say = "指揮官，您有看到問題出在哪裡嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯，我已经逐渐理解了一切。）",
+			say = "（嗯，我已經逐漸理解了一切。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "呜，果然是我的演奏技巧有所欠缺么……",
+			say = "嗚，果然是我的演奏技巧有所欠缺嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,7 +357,7 @@ return {
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:188}——",
+			say = "樫野——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "将乐器……稍微拿远一些。",
+			say = "將樂器……稍微拿遠一些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "远一些……吗？我试试看！",
+			say = "遠一點……嗎？我試試看！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……虽然不明白原理，但曲调真的变了！",
+			say = "……雖然不明白原理，但曲調真的變了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "不愧是指挥官呢！",
+			say = "不愧是指揮官呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "可是维持这样的动作演奏……稍微有些困难。",
+			say = "可是維持這樣的動作演奏……稍微有點困難。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "还有没有什么别的方法……",
+			say = "還有沒有別的方法…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,7 +521,7 @@ return {
 			actor = 319013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再次看向坐在不远处的{namecode:188}，然后看向其身前的琴。",
+			say = "再一次看向坐在不遠處的樫野，然後看向其身前的琴。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			actor = 319013,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再次思考着二者之与彼此的定位，并审视着二者之间的实际关系。",
+			say = "再次思考二者之於彼此的定位，並檢視著二者之間的實際關係。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			bgName = "star_level_bg_172",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "大概，没有别的办法了。",
+			say = "大概，沒有別的辦法了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "欸、指、指挥官！",
+			say = "欸、指、指揮官！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -579,7 +579,7 @@ return {
 			actor = 319013,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "指挥官——————",
+			say = "指揮官————",
 			painting = {
 				alpha = 0.3,
 				time = 1

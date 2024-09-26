@@ -1605,14 +1605,9 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "story-musicanniversary-gorgeous"
 	},
-	Dorm3dVolleyballScene = {
-		default_bgm = "main-SeaAndSun",
+	TianlangxingEmojiPage = {
+		default_bgm = "story-fantasyland-light",
 		special_bgm = "",
-		bgm = "main-SeaAndSun"
-	},
-	Dorm3dScene = {
-		default_bgm = "story-room-sirius",
-		special_bgm = "",
-		bgm = "story-room-sirius"
+		bgm = "story-fantasyland-light"
 	}
 }

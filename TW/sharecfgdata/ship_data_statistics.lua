@@ -355358,6 +355358,518 @@ _G.pg.base.ship_data_statistics[9703024] = {
 }
 
 
+_G.pg.base.ship_data_statistics[9703031] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 3,
+	name = "福煦·META",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9703031,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Foch.META",
+	oxy_cost = 0,
+	skin_id = 9703030,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		693,
+		45,
+		48,
+		47,
+		0,
+		66,
+		0,
+		34,
+		7,
+		26,
+		45,
+		0
+	},
+	attrs_growth = {
+		11926,
+		623,
+		661,
+		631,
+		0,
+		459,
+		0,
+		483,
+		343,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		321
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.4,
+		0.9,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"FochMETA"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9703032] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 3,
+	name = "福煦·META",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9703032,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Foch.META",
+	oxy_cost = 0,
+	skin_id = 9703030,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		862,
+		56,
+		60,
+		58,
+		0,
+		66,
+		0,
+		34,
+		7,
+		26,
+		45,
+		0
+	},
+	attrs_growth = {
+		11926,
+		623,
+		661,
+		631,
+		0,
+		459,
+		0,
+		483,
+		343,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		322
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.4,
+		0.9,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"FochMETA"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9703033] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 3,
+	name = "福煦·META",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9703033,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Foch.META",
+	oxy_cost = 0,
+	skin_id = 9703030,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1200,
+		78,
+		84,
+		81,
+		0,
+		66,
+		0,
+		34,
+		7,
+		26,
+		45,
+		0
+	},
+	attrs_growth = {
+		11926,
+		623,
+		661,
+		631,
+		0,
+		459,
+		0,
+		483,
+		343,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		323
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.5,
+		0.9,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"FochMETA"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9703034] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 3,
+	name = "福煦·META",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9703034,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Foch.META",
+	oxy_cost = 0,
+	skin_id = 9703030,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1707,
+		112,
+		120,
+		115,
+		0,
+		66,
+		0,
+		34,
+		7,
+		26,
+		45,
+		0
+	},
+	attrs_growth = {
+		11926,
+		623,
+		661,
+		631,
+		0,
+		459,
+		0,
+		483,
+		343,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		324
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.65,
+		0.9,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"FochMETA"
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[9704011] = {
 	nationality = 97,
 	oxy_max = 0,

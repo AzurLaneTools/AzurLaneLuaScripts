@@ -133320,6 +133320,62 @@ _G.pg.base.equip_data_statistics[80253] = {
 }
 
 
+_G.pg.base.equip_data_statistics[80281] = {
+	name = "專屬彈幕-福煦METAI",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能彈幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 80281,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170501
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80282] = {
+	descrip = "技能彈幕",
+	name = "專屬彈幕-福煦METAII",
+	base = 80281,
+	id = 80282,
+	weapon_id = {
+		170502
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[85000] = {
 	name = "B-13 雙聯裝130mm主炮B-2LM",
 	speciality = "<[LOCK]>",

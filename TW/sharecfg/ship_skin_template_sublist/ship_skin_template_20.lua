@@ -1,330 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_20 = {
-	[10800071] = {
-		name = "金色的步行道",
-		ship_group = 1080007,
-		desc = "指揮官也剛準備回去？那，一起走一段路吧。順路可以看看銀杏……",
-		illustrator2 = -1,
-		bg_sp = "1101",
-		group_index = 1,
-		prefab = "he_2",
-		painting = "he_2",
-		hand_id = 2,
-		bgm = "ssss-az-story",
-		shop_type_id = 9,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "105",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 10800071,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 70622,
-		voice_actor = 86,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2,
-			5
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.45,
-					1.07,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.14,
-					1.33,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.43,
-							2.5,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[10800080] = {
-		name = "第二代",
-		ship_group = 1080008,
-		desc = "嗯，這裡到底是…啊，初次見面。我是第二代怪獸少女。也就是古立特騎士同盟的…啊在這可能沒什麼關係呢。",
-		illustrator2 = -1,
-		bg_sp = "",
-		group_index = 0,
-		prefab = "erdaimu",
-		painting = "erdaimu",
-		hand_id = 2,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 10800080,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 376,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.48,
-					1.98,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					2.46,
-					2.13,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							0.64,
-							2.2,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[10800081] = {
-		name = "私人時間",
-		ship_group = 1080008,
-		desc = "可以稍等我一下嗎？就差這個報告了。指揮官也喝咖啡就好嗎？啊…抱歉，杯子只有這個…可以共用嗎？",
-		illustrator2 = -1,
-		bg_sp = "",
-		group_index = 1,
-		prefab = "erdaimu_2",
-		painting = "erdaimu_2",
-		hand_id = 2,
-		bgm = "ssss-az-story",
-		shop_type_id = 20,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "109",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 10800081,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 70869,
-		voice_actor = 376,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2,
-			5
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.48,
-					1.98,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					2.46,
-					2.13,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							0.64,
-							2.2,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[10800090] = {
 		name = "公主",
 		ship_group = 1080009,
@@ -10154,6 +9830,107 @@ pg.base.ship_skin_template_20 = {
 			3990527
 		}
 	},
+	[399053] = {
+		name = "龍雕百煉",
+		ship_group = 39905,
+		desc = "哈哈哈！這正是一把配得上本{namecode:204}的刀！只有精湛工藝才能打造出如此美麗的外形、刀柄、刀身，以及鋒利的刀口——來，試著揮一揮吧！",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 3,
+		prefab = "bailong_4",
+		painting = "bailong_4",
+		hand_id = 2,
+		bgm = "",
+		shop_type_id = 2,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 399053,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 71061,
+		voice_actor = 109,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					2.035,
+					1.012,
+					0
+				}
+			},
+			plane = {
+				{
+					2.021,
+					1.013,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.441,
+							2.515,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[499050] = {
 		name = "埃吉爾",
 		ship_group = 49905,
@@ -11482,6 +11259,121 @@ pg.base.ship_skin_template_20 = {
 		},
 		ship_l2d_id = {
 			4990711
+		}
+	},
+	[499072] = {
+		name = "Midnight Pearl",
+		ship_group = 49907,
+		desc = "太慢了！到底要讓我等多久啊！你說我們並沒有約好一起玩……？我說約好了就是約好了！……總之無論如何都是你的錯！這是理所當然的事吧！",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 2,
+		prefab = "lupuleixite_3",
+		painting = "lupuleixite_3",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 26,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "180",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 499072,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 71054,
+		voice_actor = 328,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.81,
+					1.44,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.66,
+					1.37,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.6,
+					1.94,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.92,
+							1.91,
+							-0.16
+						}
+					}
+				}
+			}
 		}
 	},
 	[599010] = {

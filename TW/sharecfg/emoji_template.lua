@@ -1456,6 +1456,84 @@ pg.emoji_template = {
 			1
 		}
 	},
+	[241] = {
+		achieve = 1,
+		index = 77,
+		pic = "241",
+		desc = "<color=#92fc63>[開飯啦]</color>",
+		item_name = "聊天表情：開飯啦",
+		item_desc = "聊天表情：開飯啦，可以在表情選項的「預設」標籤中找到並發出此表情。",
+		id = 241,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	[242] = {
+		achieve = 1,
+		index = 78,
+		pic = "242",
+		desc = "<color=#92fc63>[閃亮登場]</color>",
+		item_name = "聊天表情：閃亮登場",
+		item_desc = "聊天表情：閃亮登場，可以在表情選項的「預設」標籤中找到並發出此表情。",
+		id = 242,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	[243] = {
+		achieve = 1,
+		index = 79,
+		pic = "243",
+		desc = "<color=#92fc63>[吃什麼呢？]</color>",
+		item_name = "聊天表情：吃什麼呢？",
+		item_desc = "聊天表情：吃什麼呢，可以在表情選項的「預設」標籤中找到並發出此表情。",
+		id = 243,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	[244] = {
+		achieve = 1,
+		index = 80,
+		pic = "244",
+		desc = "<color=#92fc63>[讓我看看]</color>",
+		item_name = "聊天表情：讓我看看",
+		item_desc = "聊天表情：讓我看看，可以在表情選項的「預設」標籤中找到並發出此表情。",
+		id = 244,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	[245] = {
+		achieve = 1,
+		index = 81,
+		pic = "245",
+		desc = "<color=#92fc63>[按摩按摩]</color>",
+		item_name = "聊天表情：按摩按摩",
+		item_desc = "聊天表情：按摩按摩，可以在表情選項的「預設」標籤中找到並發出此表情。",
+		id = 245,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	[246] = {
+		achieve = 1,
+		index = 82,
+		pic = "246",
+		desc = "<color=#92fc63>[乖巧]</color>",
+		item_name = "聊天表情：乖巧",
+		item_desc = "聊天表情：乖巧，可以在表情選項的「預設」標籤中找到並發出此表情。",
+		id = 246,
+		icon = "",
+		type = {
+			1
+		}
+	},
 	[301] = {
 		achieve = 0,
 		index = 970,
@@ -2193,6 +2271,12 @@ pg.emoji_template = {
 		238,
 		239,
 		240,
+		241,
+		242,
+		243,
+		244,
+		245,
+		246,
 		301,
 		302,
 		303,

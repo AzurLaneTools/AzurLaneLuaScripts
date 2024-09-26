@@ -119,6 +119,10 @@ slot0.SwitchPage = function(slot0, slot1)
 	elseif slot1 == uv1 then
 		slot0:HideTip()
 		slot0:UpdateExplorePage()
+
+		if slot0.gameData:MarkExploreState() then
+			slot0:UpdateTip()
+		end
 	end
 end
 

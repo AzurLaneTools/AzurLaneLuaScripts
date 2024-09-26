@@ -2176,7 +2176,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970303",
 		id = 100201,
 		target_num = 1,
-		desc = "使用福煦·META获得1次胜利"
+		desc = "使用福煦·META獲得1次勝利"
 	},
 	[100202] = {
 		target_id = "30",
@@ -2184,7 +2184,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970303",
 		id = 100202,
 		target_num = 1,
-		desc = "使用福煦·META击破等级＞30的敌方1次"
+		desc = "使用福煦·META擊破等級＞30的敵方1次"
 	},
 	[100203] = {
 		target_id = "55",
@@ -2192,7 +2192,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970303",
 		id = 100203,
 		target_num = 1,
-		desc = "使用福煦·META击破等级＞55的敌方1次"
+		desc = "使用福煦·META擊破等級＞55的敵方1次"
 	},
 	[100204] = {
 		target_id = "80",
@@ -2200,7 +2200,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970303",
 		id = 100204,
 		target_num = 1,
-		desc = "使用福煦·META击破等级＞80的敌方1次"
+		desc = "使用福煦·META擊破等級＞80的敵方1次"
 	},
 	[100205] = {
 		target_id = "100",
@@ -2208,7 +2208,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970303",
 		id = 100205,
 		target_num = 1,
-		desc = "使用福煦·META击破等级＞100的敌方1次"
+		desc = "使用福煦·META擊破等級＞100的敵方1次"
 	},
 	[100301] = {
 		target_id = "0",
@@ -2864,7 +2864,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970303",
 		id = 200201,
 		target_num = 1,
-		desc = "大型作战内使用福煦·META获得1次胜利"
+		desc = "大型作戰內使用福煦·META獲得1次勝利"
 	},
 	[200202] = {
 		target_id = "70",
@@ -2872,7 +2872,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970303",
 		id = 200202,
 		target_num = 1,
-		desc = "大型作战内使用福煦·META击破等级＞70的敌方1次"
+		desc = "大型作戰內使用福煦·META擊破等級＞70的敵方1次"
 	},
 	[200203] = {
 		target_id = "90",
@@ -2880,7 +2880,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970303",
 		id = 200203,
 		target_num = 1,
-		desc = "大型作战内使用福煦·META击破等级＞90的敌方1次"
+		desc = "大型作戰內使用福煦·META擊破等級＞90的敵方1次"
 	},
 	[200204] = {
 		target_id = "100",
@@ -2888,7 +2888,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970303",
 		id = 200204,
 		target_num = 1,
-		desc = "大型作战内使用福煦·META击破等级＞100的敌方1次"
+		desc = "大型作戰內使用福煦·META擊破等級＞100的敵方1次"
 	},
 	[200211] = {
 		target_id = "0",

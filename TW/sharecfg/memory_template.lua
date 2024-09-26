@@ -2410,6 +2410,8 @@ pg.memory_template = setmetatable({
 		3001,
 		3002,
 		3003,
+		3004,
+		3005,
 		3011,
 		3012,
 		3013,
@@ -2422,7 +2424,14 @@ pg.memory_template = setmetatable({
 		3020,
 		3021,
 		3022,
+		3031,
 		3032,
+		3033,
+		3041,
+		3042,
+		3043,
+		3044,
+		3045,
 		3051,
 		3052,
 		3053,
@@ -2692,6 +2701,7 @@ pg.memory_template = setmetatable({
 		3867,
 		3868,
 		3869,
+		3908,
 		10011,
 		10012,
 		10013,
@@ -29304,6 +29314,28 @@ pg.base.memory_template = {
 		icon = "memory_shishangtekanhedingji1",
 		is_open = 0
 	},
+	[3004] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "花綻之樂章",
+		condition = "完成「港區時尚特刊：合訂集[2]」樫野的簽到",
+		story = "SHISHANGTEKANHEDINGJIYI4",
+		id = 3004,
+		icon = "memory_shishangtekanhedingji2",
+		is_open = 0
+	},
+	[3005] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "絲竹喧闐",
+		condition = "完成「港區時尚特刊：合訂集[2]」白龍的簽到",
+		story = "SHISHANGTEKANHEDINGJIYI5",
+		id = 3005,
+		icon = "memory_shishangtekanhedingji2",
+		is_open = 0
+	},
 	[3011] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -29436,6 +29468,17 @@ pg.base.memory_template = {
 		icon = "memory_dujiacunshenmishijiandiaocha",
 		is_open = 0
 	},
+	[3031] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "水色與雲中之夢",
+		condition = "完成「港區時尚特刊：合訂集[2]」信濃的簽到",
+		story = "SHISHANGTEKANHEDINGJIER1",
+		id = 3031,
+		icon = "memory_shishangtekanhedingji2",
+		is_open = 0
+	},
 	[3032] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -29445,6 +29488,72 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJIER2",
 		id = 3032,
 		icon = "memory_shishangtekanhedingji1",
+		is_open = 0
+	},
+	[3033] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "冰雪公主",
+		condition = "完成「港區時尚特刊：合訂集[2]」柴郡的簽到",
+		story = "SHISHANGTEKANHEDINGJIER3",
+		id = 3033,
+		icon = "memory_shishangtekanhedingji2",
+		is_open = 0
+	},
+	[3041] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "轟鳴的銀輪",
+		condition = "完成「港區時尚特刊：Race Begins！」信濃的簽到",
+		story = "SHISHANGTEKANSAICHE1",
+		id = 3041,
+		icon = "memory_shishangtekansaiche",
+		is_open = 0
+	},
+	[3042] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "迅疾的藍星",
+		condition = "完成「港區時尚特刊：Race Begins！」巴爾的摩的簽到",
+		story = "SHISHANGTEKANSAICHE2",
+		id = 3042,
+		icon = "memory_shishangtekansaiche",
+		is_open = 0
+	},
+	[3043] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "Final Lap",
+		condition = "完成「港區時尚特刊：Race Begins！」歐根親王的簽到",
+		story = "SHISHANGTEKANSAICHE3",
+		id = 3043,
+		icon = "memory_shishangtekansaiche",
+		is_open = 0
+	},
+	[3044] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "Wind Catcher",
+		condition = "完成「港區時尚特刊：Race Begins！」企業的簽到",
+		story = "SHISHANGTEKANSAICHE4",
+		id = 3044,
+		icon = "memory_shishangtekansaiche",
+		is_open = 0
+	},
+	[3045] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "一騎絕塵",
+		condition = "完成「港區時尚特刊：Race Begins！」烏爾里希·馮·胡滕的簽到",
+		story = "SHISHANGTEKANSAICHE5",
+		id = 3045,
+		icon = "memory_shishangtekansaiche",
 		is_open = 0
 	},
 	[3051] = {
@@ -32404,6 +32513,17 @@ pg.base.memory_template = {
 		story = "MENGHUANLEYUANDEMENGHUANJIARI19",
 		id = 3869,
 		icon = "memory_menghuanleyuan4",
+		is_open = 0
+	},
+	[3908] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "環繞心間之舞",
+		condition = "開始「天狼星的多彩時刻」活動",
+		story = "HUANRAOXINJIANZHIWU",
+		id = 3908,
+		icon = "memory_huanrao",
 		is_open = 0
 	},
 	[10011] = {

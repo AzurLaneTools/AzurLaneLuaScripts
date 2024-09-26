@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港区时尚特刊：合订集[2]\n\n<size=45>水色与云中之梦</size>",
+					"港區時尚特刊：合訂集[2]\n\n<size=45>水色與雲中之夢</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
 			bgm = "story-richang-7",
-			say = "夜深了。为了保证明日的工作效率，早点入睡吧。",
+			say = "夜深了。為了保證明日的工作效率，早點入睡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 			bgName = "star_level_bg_133",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔嗯……这可，如何是好……",
+			say = "唔嗯……這可，如何是好……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -67,7 +67,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
-			say = "少女困惑的声音从耳边传来。",
+			say = "少女困惑的聲音從耳邊傳來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			actor = 307083,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "睁开双眼，碧海蓝天下，身穿泳装的{namecode:182}近在咫尺。",
+			say = "睜開雙眼，碧海藍天下，身穿泳裝的信濃近在咫尺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			actor = 307083,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "正巧，妾身正被恶物所扰，汝愿伸出援手吗？",
+			say = "正巧，妾身正被惡物所擾，汝願伸出援手嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,11 +141,11 @@ return {
 			},
 			options = {
 				{
-					content = "告诉{namecode:182}该怎么做",
+					content = "告訴信濃該怎麼做",
 					flag = 1
 				},
 				{
-					content = "上前手把手协助",
+					content = "上前手把手協助",
 					flag = 2
 				}
 			}
@@ -159,7 +159,7 @@ return {
 			actor = 307083,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "谢谢汝，这样做即可么……",
+			say = "謝謝汝，這樣做即可嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			actor = 307083,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯……衣服凌乱、有失体统，还请汝莫见怪。",
+			say = "嗯……衣服凌亂、有失體統，還請汝莫見怪。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			actor = 307083,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "谢、谢谢汝，可是这样肌肤相接实在是……",
+			say = "謝、謝謝汝，可是這樣肌膚相接實在是……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			actor = 307083,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……不，请汝继续，妾身并不介意。",
+			say = "……不，請汝繼續，妾身並不介意。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			actor = 307083,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一番努力下，黏在泳装身上的海星终于被成功赶走了。",
+			say = "一番努力下，黏在泳裝身上的海星終於被成功趕走了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			actor = 307083,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "呼……多亏汝及时出现，感激万分。",
+			say = "呼……多虧汝及時出現，感激萬分。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			actor = 307083,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "此为何处？",
+			say = "此為何處？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			actor = 307083,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "呵呵……此外梦境，反应汝之所思所想的……梦境。",
+			say = "呵呵……此為夢境，反應汝之所思所想的……夢境。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			actor = 307083,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "妾身此身令人脸红耳赤的装扮，以及方才的海星，皆是汝所期望才会出现的……",
+			say = "妾身此身令人臉紅耳赤的裝扮，以及方才的海星，皆是汝所期望才會出現的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -320,7 +320,7 @@ return {
 			actor = 307083,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "汝之想法，可谓异乎寻常呢。",
+			say = "汝之想法，可謂異乎尋常呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			actor = 307083,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "呵呵，汝无需愧疚。",
+			say = "呵呵，汝無需愧疚。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -356,7 +356,7 @@ return {
 			actor = 307083,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "从心所欲有何不可？",
+			say = "從心所欲有何不可？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -374,7 +374,7 @@ return {
 			actor = 307083,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "难得良缘天赐，与汝于梦中相会。",
+			say = "難得良緣天賜，與汝於夢中相會。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			actor = 307083,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "幸福转眼即逝，需得好好珍惜才是。",
+			say = "幸福轉眼即逝，需得好好珍惜才是。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			actor = 307083,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "恋火难却……恰逢南柯一梦。",
+			say = "戀火難卻……恰逢南柯一夢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			actor = 307083,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "何不暂时遗忘现世的规矩，于梦中如愿以偿？",
+			say = "何不暫時遺忘現世的規矩，於夢中如願以償？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,7 +464,7 @@ return {
 			actor = 307083,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "妾身，失礼了——",
+			say = "妾身，失禮了——",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -584,7 +584,7 @@ return {
 			hidePaintObj = true,
 			withoutActorName = true,
 			side = 2,
-			say = "{namecode:84}从袖口掏出一张纸条递给{namecode:88}。",
+			say = "武藏從袖口掏出一張紙條遞給瑞鳳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

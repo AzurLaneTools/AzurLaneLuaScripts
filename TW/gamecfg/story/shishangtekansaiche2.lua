@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港区时尚特刊：Race Begins！\n\n<size=45>迅疾的蓝星</size>",
+					"港區時尚特刊：Race Begins！\n\n<size=45>迅疾的藍星</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = "login",
-			say = "……以上就是我们所有参赛选手！",
+			say = "……以上就是我們所有參賽者！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -43,7 +43,7 @@ return {
 			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不知道今天她们会为这个赛场带来怎样的精彩与刺激呢？",
+			say = "不知道今天她們會為這個賽場帶來怎樣的精彩與刺激呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -61,7 +61,7 @@ return {
 			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "现在我宣布——比赛正式开始！！！",
+			say = "現在我宣布——比賽正式開始！！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			actor = 103165,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "五彩缤纷的礼花漫天飘扬，台上的少女用力一挥手中的旗帜，瞬间点燃了赛场。",
+			say = "五彩繽紛的禮花漫天飄揚，台上的少女用力一揮手中的旗幟，瞬間點燃了賽場。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "辛苦了，巴尔的摩。来喝点水、擦擦汗吧。",
+			say = "辛苦了，巴爾的摩。來喝點水、擦汗吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "呼~谢啦，指挥官。快渴死我了~",
+			say = "呼~呼~謝啦，指揮官。快渴死我了~~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			bgName = "star_level_bg_132",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "毕竟作为开场主持人说了不少话呢……（略微移开视线）",
+			say = "畢竟作為開場主持人說了不少話呢……（略微移開視線）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "哈哈~还好还好。指挥官觉得我刚才的开场词说得怎么样？",
+			say = "哈哈~哈哈~還好還好。指揮官覺得我剛才的開場詞說得怎麼樣？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			bgName = "star_level_bg_132",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "效果非常好，感觉整个赛场都被点燃了……（略微移开视线）",
+			say = "效果非常好，感覺整個賽場都被點燃了……（略微移開視線）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "嘿嘿~偷偷告诉你，其实我开场前练习了好久哦~",
+			say = "嘿嘿~偷偷告訴你，其實我開場前練習了好久~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "看来努力还是能得到回报的。",
+			say = "看來努力還是能得到回報的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			actor = 103165,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因为疲惫，巴尔的摩坐在轮胎上的身体微微后倾。",
+			say = "因為疲憊，巴爾的摩坐在輪胎上的身體微微後傾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			actor = 103165,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "用手擦下额头的汗水后，重重叹了口气。",
+			say = "用手擦下額頭的汗水後，重重嘆了口氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
-			say = "毕竟是我自己提出要来帮忙的嘛，既然做了就要尽到全力不留遗憾才行！",
+			say = "畢竟是我自己提出要來幫忙的嘛，既然做了就要盡到全力不留遺憾才行！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……话说，从刚才开始指挥官就一直没有好好看着我的眼睛说话呢？",
+			say = "……話說，從剛才開始指揮官就一直沒有好好看著我的眼睛說話呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我身上是有什么不对劲的地方吗？",
+			say = "我身上是有什麼不對勁的地方嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			bgName = "star_level_bg_132",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……没什么（略微移开视线）",
+			say = "……沒什麼（稍微移開視線）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "啊~莫非是在意这身打扮？",
+			say = "啊~莫非是在意這套打扮？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "这身衣服可是我托人特意改过的呢~",
+			say = "這套衣服可是我託人特意改過的呢~~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,7 +371,7 @@ return {
 			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "原本的衣服绷太紧了，要做大幅度动作的话实在活动不开。",
+			say = "原本的衣服繃太緊了，要做大幅度動作的話實在活動不開。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "现在嘛，虽然露出度高了一些。",
+			say = "現在嘛，雖然露出度高了一些。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不过————",
+			say = "不過————",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -425,7 +425,7 @@ return {
 			actor = 103165,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "艳阳下，一身蔚蓝的少女扛着黑白的旗帜原地转了一圈，大方地展示着自己的新衣服。",
+			say = "艷陽下，一身蔚藍的少女扛著黑白的旗幟原地轉了一圈，大方地展示著自己的新衣服。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "我自己倒还是挺满意的，难道指挥官觉得不合身吗？",
+			say = "我自己倒還是狠滿意的，難道指揮官覺得不合身嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			actor = 103165,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "巴尔的摩突然凑到眼前——",
+			say = "巴爾的摩突然湊近倒眼前——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "虽然已经让场子“燃起来”了，不过不知道有没有让指挥官的心·燃·起·来·呢~？",
+			say = "雖然已經讓場子「燃起來」了，不過不知道有沒有讓指揮官的心·燃·起·來·呢~？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -513,7 +513,7 @@ return {
 			actor = 103165,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "比赛后需要我单独为你应援吗？指挥官~",
+			say = "比賽後需要我單獨為你應援嗎？指揮官~~",
 			painting = {
 				alpha = 0.3,
 				time = 1
