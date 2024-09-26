@@ -35,8 +35,6 @@ slot0.GetShopID = function(slot0)
 				return slot7
 			end
 		elseif slot8.group_type == 2 then
-			warning(slot2, slot8.group_limit)
-
 			if slot2 < slot8.group_limit then
 				return slot7
 			end

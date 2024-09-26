@@ -3,6 +3,7 @@ return {
 	events = {
 		{
 			is3dDorm = true,
+			delay = 0.5,
 			alpha = 0.4,
 			style = {
 				text = "点击此处，打开契合度面板",
@@ -20,6 +21,7 @@ return {
 		},
 		{
 			is3dDorm = true,
+			delay = 0.8,
 			alpha = 0.4,
 			style = {
 				text = "点击此处，打开昼夜切换界面",
@@ -46,6 +48,7 @@ return {
 			}
 		},
 		{
+			delay = 0.2,
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {

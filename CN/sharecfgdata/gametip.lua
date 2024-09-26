@@ -35523,6 +35523,31 @@ _G.pg.base.gametip.AR_plane_summon_success = {
 }
 
 
-_G.pg.base.gametip.dorm3d_day_night_switching = {
-	tip = "当前已经为$1"
+_G.pg.base.gametip.dorm3d_day_night_switching1 = {
+	tip = "当前已经为白天"
+}
+
+
+_G.pg.base.gametip.dorm3d_day_night_switching2 = {
+	tip = "当前已经为夜晚"
+}
+
+
+_G.pg.base.gametip.dorm3d_download_complete = {
+	tip = "资源下载成功"
+}
+
+
+_G.pg.base.gametip.dorm3d_resource_downloading = {
+	tip = "资源正在下载中"
+}
+
+
+_G.pg.base.gametip.dorm3d_resource_delete = {
+	tip = "资源删除成功"
+}
+
+
+_G.pg.base.gametip.dorm3d_favor_maximize = {
+	tip = "契合度已满，是否继续赠礼？"
 }

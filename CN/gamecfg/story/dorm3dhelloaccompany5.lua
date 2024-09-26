@@ -12,7 +12,7 @@ return {
 			actorName = "天狼星",
 			side = 2,
 			dir = 1,
-			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_wait_table1",
+			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_wait_chair1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			say = "主人好像会用这个抱枕……\n所以抱枕上面也有主人的气味了。",

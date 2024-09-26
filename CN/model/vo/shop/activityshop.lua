@@ -44,7 +44,7 @@ slot0.getSortGoods = function(slot0)
 
 	table.sort(slot1, CompareFuncs({
 		function (slot0)
-			return (slot0:canPurchase() or slot0:CheckArgLimit()) and 0 or 1
+			return (slot0:canPurchase() or slot0:CheckArgLimit()) and slot0:CheckCntLimit() and 0 or 1
 		end,
 		function (slot0)
 			slot1, slot2, slot3 = slot0:CheckTimeLimit()
