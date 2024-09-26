@@ -126,6 +126,51 @@ pg.dorm3d_favor_trigger = {
 		is_repeat = 1,
 		is_daily_max = 1
 	},
+	[1015] = {
+		param = 0,
+		effect = "uifx_dorm3d_yinfu01",
+		num = 10,
+		type = 1,
+		id = 1015,
+		is_repeat = 1,
+		is_daily_max = 1
+	},
+	[1016] = {
+		param = 0,
+		effect = "uifx_dorm3d_yinfu01",
+		num = 20,
+		type = 1,
+		id = 1016,
+		is_repeat = 1,
+		is_daily_max = 2
+	},
+	[1017] = {
+		param = 0,
+		effect = "uifx_dorm3d_yinfu01",
+		num = 30,
+		type = 1,
+		id = 1017,
+		is_repeat = 1,
+		is_daily_max = 3
+	},
+	[1018] = {
+		param = 0,
+		effect = "uifx_dorm3d_yinfu01",
+		num = 240,
+		type = 3,
+		id = 1018,
+		is_repeat = 1,
+		is_daily_max = 0
+	},
+	[1019] = {
+		param = 0,
+		effect = "uifx_dorm3d_yinfu01",
+		num = 600,
+		type = 3,
+		id = 1019,
+		is_repeat = 1,
+		is_daily_max = 0
+	},
 	all = {
 		1001,
 		1002,
@@ -140,6 +185,11 @@ pg.dorm3d_favor_trigger = {
 		1011,
 		1012,
 		1013,
-		1014
+		1014,
+		1015,
+		1016,
+		1017,
+		1018,
+		1019
 	}
 }

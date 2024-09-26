@@ -16,7 +16,7 @@ slot0.init = function(slot0)
 	setActive(slot0.zoneList, false)
 
 	slot1 = slot0._tf:Find("Right/Panel/Container/Furnitures")
-	slot0.furnitureScroll = slot1:Find("Scroll"):GetComponent("LScrollRect")
+	slot0.furnitureScroll = slot1:Find("Scroll/Content"):GetComponent("LScrollRect")
 	slot0.furnitureEmpty = slot1:Find("Empty")
 	slot0.lableTrans = slot0._tf:Find("Main/Label")
 
@@ -32,12 +32,12 @@ slot0.SetSceneRoot = function(slot0, slot1)
 	slot0.scene = slot1
 end
 
-slot0.SetApartment = function(slot0, slot1)
-	slot0.apartment = slot1:clone()
+slot0.SetRoom = function(slot0, slot1)
+	slot0.room = slot1:clone()
 end
 
 slot0.didEnter = function(slot0)
-	slot0.allZones = slot0.apartment:GetFurnitureZones()
+	slot0.allZones = slot0.room:GetFurnitureZones()
 	slot0.globalZones = _.select(slot0.allZones, function (slot0)
 		return slot0:IsGlobal()
 	end)
@@ -55,17 +55,31 @@ slot0.didEnter = function(slot0)
 		end)
 	end
 
-	onButton(slot0, slot0._tf:Find("Right/Panel/Container/Zone/ZoneContainer/Switch"), function ()
+	slot6 = slot0._tf
+
+	onButton(slot0, slot6:Find("Right/Panel/Container/Zone/ZoneContainer/Switch"), function ()
 		setActive(uv0.zoneList, true)
 	end, SFX_PANEL)
-	setActive(slot0._tf:Find("Right/Panel/Container/Zone/ZoneContainer/Switch/New"), false)
-	onButton(slot0, slot0.zoneList:Find("Mask"), function ()
+
+	slot5 = slot0._tf
+
+	setActive(slot5:Find("Right/Panel/Container/Zone/ZoneContainer/Switch/New"), false)
+
+	slot6 = slot0.zoneList
+
+	onButton(slot0, slot6:Find("Mask"), function ()
 		setActive(uv0.zoneList, false)
 	end)
-	onButton(slot0, slot0._tf:Find("Top/Back"), function ()
+
+	slot6 = slot0._tf
+
+	onButton(slot0, slot6:Find("Top/Back"), function ()
 		uv0:onBackPressed()
 	end)
-	onButton(slot0, slot0._tf:Find("Right/Save"), function ()
+
+	slot6 = slot0._tf
+
+	onButton(slot0, slot6:Find("Right/Save"), function ()
 		uv0:ShowReplaceWindow()
 	end, SFX_PANEL)
 
@@ -80,16 +94,27 @@ slot0.didEnter = function(slot0)
 		end
 	end
 
-	slot0._tf:Find("Right/Popup"):GetComponent(typeof(Image)).raycastTarget = false
-	slot0._tf:Find("Right/Collapse"):GetComponent(typeof(Image)).raycastTarget = true
+	slot5 = slot0._tf
+	slot5 = slot5:Find("Right/Popup")
+	slot5:GetComponent(typeof(Image)).raycastTarget = false
+	slot5 = slot0._tf
+	slot5 = slot5:Find("Right/Collapse")
+	slot5:GetComponent(typeof(Image)).raycastTarget = true
+	slot7 = slot0._tf
 
-	onButton(slot0, slot0._tf:Find("Right/Popup"), function ()
+	onButton(slot0, slot7:Find("Right/Popup"), function ()
 		uv0(true)
 	end, SFX_PANEL)
-	onButton(slot0, slot0._tf:Find("Right/Collapse"), function ()
+
+	slot7 = slot0._tf
+
+	onButton(slot0, slot7:Find("Right/Collapse"), function ()
 		uv0(false)
 	end, SFX_PANEL)
-	onButton(slot0, slot0._tf:Find("Right/Auto"), function ()
+
+	slot7 = slot0._tf
+
+	onButton(slot0, slot7:Find("Right/Auto"), function ()
 		uv0:AutoReplaceFurniture()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.lableTrans, function ()
@@ -110,10 +135,19 @@ slot0.didEnter = function(slot0)
 	slot0:UpdateDataZone()
 	slot0:InitViewZoneList()
 	slot0:InitViewTypeList()
-	slot0.scene:EnterFurnitureWatchMode()
-	slot0.scene:SwitchFurnitureZone(slot0.normalZones[slot0.zoneIndex])
-	slot0:UpdateView()
-	quickPlayAnimation(slot0._tf, "anim_dorm3d_furniture_change")
+
+	slot5 = slot0.scene
+
+	slot5:EnterFurnitureWatchMode()
+
+	slot5 = slot0.scene
+
+	slot5:SwitchFurnitureZone(slot0.normalZones[slot0.zoneIndex])
+	onNextTick(function ()
+		uv0.furnitureScroll.enabled = true
+
+		uv0:UpdateView()
+	end)
 end
 
 slot0.UpdateDataZone = function(slot0)
@@ -142,7 +176,7 @@ slot0.UpdateDataZone = function(slot0)
 end
 
 slot0.UpdateDataDisplayFurnitures = function(slot0)
-	slot1 = slot0.apartment
+	slot1 = slot0.room
 	slot2 = slot0.furnitureType
 	slot0.selectMode = uv0.SELECT_MODE.NONE
 	slot0.selectFurnitureId = nil
@@ -304,12 +338,7 @@ slot0.UpdateView = function(slot0)
 		setActive(slot2:Find("New"), false)
 	end)
 	(function ()
-		slot1 = _.map(uv0.apartment:GetFurnitureIDList(), function (slot0)
-			return Dorm3dFurniture.New({
-				configId = slot0
-			})
-		end)
-		slot2 = uv0.apartment:GetFurnitures()
+		slot0 = uv0.room:GetFurnitures()
 
 		table.Ipairs(uv0.normalZones, function (slot0, slot1)
 			slot2 = false
@@ -317,24 +346,18 @@ slot0.UpdateView = function(slot0)
 			if slot1 ~= uv0 then
 				slot2 = _.any(slot1:GetSlots(), function (slot0)
 					return _.any(uv0, function (slot0)
-						if not slot0:GetShopID() then
-							return
-						end
-
 						if not uv0:CanUseFurniture(slot0) then
 							return
 						end
 
-						return not _.detect(uv1, function (slot0)
-							return slot0:GetConfigID() == uv0:GetConfigID()
-						end) and Dorm3dFurniture.GetViewedFlag(slot0:GetConfigID()) == 0
+						return Dorm3dFurniture.GetViewedFlag(slot0:GetConfigID()) == 0
 					end)
 				end)
 			end
 
-			setActive(uv3.zoneList:Find("List"):GetChild(slot0 - 1):Find("New"), slot2)
+			setActive(uv2.zoneList:Find("List"):GetChild(slot0 - 1):Find("New"), slot2)
 
-			uv4 = uv4 or slot2
+			uv3 = uv3 or slot2
 		end)
 		setActive(uv0._tf:Find("Right/Panel/Container/Zone/ZoneContainer/Switch/New"), false)
 	end)()
@@ -381,7 +404,7 @@ slot0.UpdateView = function(slot0)
 		if Dorm3dFurnitureSlot.New({
 			configId = slot0.selectSlotId
 		}):GetType() == Dorm3dFurniture.TYPE.DECORATION then
-			slot10 = slot0.apartment
+			slot10 = slot0.room
 
 			if _.detect(slot10:GetFurnitures(), function (slot0)
 				return slot0:GetSlotID() == uv0:GetConfigID()
@@ -398,7 +421,7 @@ slot0.UpdateView = function(slot0)
 		return slot0:GetConfigID()
 	end))
 	slot0.scene:UpdateDisplaySlots(slot4)
-	slot0.scene:RefreshSlots(slot0.apartment)
+	slot0.scene:RefreshSlots(slot0.room)
 end
 
 slot0.UpdateViewFurnitureItem = function(slot0, slot1)
@@ -454,7 +477,13 @@ slot0.UpdateViewFurnitureItem = function(slot0, slot1)
 			list = uv1.template:GetAcesses()
 		})
 	end, SFX_PANEL)
+	setActive(slot4:Find("Item/New"), slot3.count > 0 and Dorm3dFurniture.GetViewedFlag(slot3.id) == 0)
 	onButton(slot0, slot4, function ()
+		if uv0.count > 0 then
+			Dorm3dFurniture.SetViewedFlag(uv0.id)
+			setActive(uv1:Find("Item/New"), false)
+		end
+
 		slot0 = uv0.template:GetType()
 
 		slot1 = function()
@@ -464,7 +493,7 @@ slot0.UpdateViewFurnitureItem = function(slot0, slot1)
 				return
 			end
 
-			uv0.apartment:ReplaceFurniture(slot0:GetConfigID(), uv2.id)
+			uv0.room:ReplaceFurniture(slot0:GetConfigID(), uv2.id)
 			table.insert(uv0.replaceFurnitures, {
 				slotId = slot0:GetConfigID(),
 				furnitureId = uv2.id
@@ -473,49 +502,49 @@ slot0.UpdateViewFurnitureItem = function(slot0, slot1)
 			pg.CriMgr.GetInstance():PlaySE_V3("ui-dorm_furniture_placement")
 		end
 
-		if uv1.selectMode == uv2.SELECT_MODE.NONE then
+		if uv2.selectMode == uv3.SELECT_MODE.NONE then
 			if uv0.useable > 0 then
 				if slot0 == Dorm3dFurniture.TYPE.FLOOR or slot0 == Dorm3dFurniture.TYPE.WALLPAPER then
 					slot1()
 				else
-					uv1.selectMode = uv2.SELECT_MODE.FURNITURE
-					uv1.selectFurnitureId = uv0.id
+					uv2.selectMode = uv3.SELECT_MODE.FURNITURE
+					uv2.selectFurnitureId = uv0.id
 				end
 
-				uv1:UpdateView()
+				uv2:UpdateView()
 			end
 
 			return
 		end
 
-		if uv1.selectMode == uv2.SELECT_MODE.SLOT then
+		if uv2.selectMode == uv3.SELECT_MODE.SLOT then
 			if uv0.fit and uv0.useable > 0 then
-				uv1.apartment:ReplaceFurniture(uv1.selectSlotId, uv0.id)
-				table.insert(uv1.replaceFurnitures, {
-					slotId = uv1.selectSlotId,
+				uv2.room:ReplaceFurniture(uv2.selectSlotId, uv0.id)
+				table.insert(uv2.replaceFurnitures, {
+					slotId = uv2.selectSlotId,
 					furnitureId = uv0.id
 				})
-				uv1:UpdateDataDisplayFurnitures()
-				uv1:UpdateView()
+				uv2:UpdateDataDisplayFurnitures()
+				uv2:UpdateView()
 				pg.CriMgr.GetInstance():PlaySE_V3("ui-dorm_furniture_placement")
 			end
 
 			return
 		end
 
-		if uv1.selectMode == uv2.SELECT_MODE.FURNITURE then
-			if uv1.selectFurnitureId == uv0.id then
-				uv1.selectMode = uv2.SELECT_MODE.NONE
-				uv1.selectFurnitureId = nil
+		if uv2.selectMode == uv3.SELECT_MODE.FURNITURE then
+			if uv2.selectFurnitureId == uv0.id then
+				uv2.selectMode = uv3.SELECT_MODE.NONE
+				uv2.selectFurnitureId = nil
 
-				uv1:UpdateView()
+				uv2:UpdateView()
 			elseif uv0.useable > 0 then
 				if slot0 == Dorm3dFurniture.TYPE.FLOOR or slot0 == Dorm3dFurniture.TYPE.WALLPAPER then
 					slot1()
 				else
-					uv1.selectFurnitureId = uv0.id
+					uv2.selectFurnitureId = uv0.id
 
-					uv1:UpdateView()
+					uv2:UpdateView()
 				end
 			end
 
@@ -526,25 +555,30 @@ slot0.UpdateViewFurnitureItem = function(slot0, slot1)
 	slot9 = slot3.template:GetShopID()
 
 	setActive(slot4:Find("GO"), slot9)
-	setActive(slot4:Find("GO/New"), slot9 and slot3.template:GetShipGroupId() > 0 and Dorm3dFurniture.GetViewedFlag(slot3.id) == 0 and slot3.useable == 0)
-	Dorm3dFurniture.SetViewedFlag(slot3.id)
 
 	if slot9 then
-		slot10 = pg.shop_template[slot9]
+		slot10 = CommonCommodity.New({
+			id = slot9
+		}, Goods.TYPE_SHOPSTREET)
+		slot11, slot12, slot13 = slot10:GetPrice()
+		slot14 = Drop.New({
+			type = DROP_TYPE_RESOURCE,
+			id = slot10:GetResType(),
+			count = slot11
+		})
+		slot15 = pg.shop_template[slot9]
 
 		onButton(slot0, slot4:Find("GO"), function ()
-			slot0 = ""
-
-			if uv0.resource_type == 4 or uv0.resource_type == 14 then
-				slot0 = "diamond"
-			elseif uv0.resource_type == 1 then
-				slot0 = "gold"
-			end
-
-			uv1:emit(Dorm3dFurnitureSelectMediator.SHOW_SHOPPING_CONFIRM_WINDOW, {
-				content = i18n("dorm3d_shop_gift", "<icon name=" .. slot0 .. " w=1.1 h=1.1/>", setColorStr("x" .. uv0.resource_num, "#169fff"), setColorStr(uv2.template:GetName(), "#169fff")),
+			uv0:emit(Dorm3dFurnitureSelectMediator.SHOW_SHOPPING_CONFIRM_WINDOW, {
+				content = {
+					icon = "<icon name=" .. uv1:GetResIcon() .. " w=1.1 h=1.1/>",
+					off = uv2,
+					cost = "x" .. uv3.count,
+					old = uv4,
+					name = uv5.template:GetName()
+				},
 				tip = i18n("dorm3d_shop_gift_tip"),
-				drop = uv2.template,
+				drop = uv5.template,
 				onYes = function ()
 					uv0:emit(GAME.SHOPPING, {
 						silentTip = true,
@@ -566,7 +600,7 @@ slot0.OnClickFurnitureSlot = function(slot0, slot1)
 		if _.detect(slot0.displayFurnitures, function (slot0)
 			return slot0.id == uv0.selectFurnitureId
 		end) and slot2.useable > 0 and slot3:CanUseFurniture(slot2.template) then
-			slot0.apartment:ReplaceFurniture(slot1, slot2.id)
+			slot0.room:ReplaceFurniture(slot1, slot2.id)
 			table.insert(slot0.replaceFurnitures, {
 				slotId = slot1,
 				furnitureId = slot2.id
@@ -602,7 +636,7 @@ slot0.CleanSlot = function(slot0)
 
 	slot1 = slot0.selectSlotId
 
-	slot0.apartment:ReplaceFurniture(slot1, 0)
+	slot0.room:ReplaceFurniture(slot1, 0)
 	table.insert(slot0.replaceFurnitures, {
 		furnitureId = 0,
 		slotId = slot1
@@ -629,7 +663,7 @@ slot0.AutoReplaceFurniture = function(slot0)
 			return
 		end
 
-		slot1 = uv0.apartment
+		slot1 = uv0.room
 
 		if _.detect(slot1:GetFurnitures(), function (slot0)
 			return slot0:GetSlotID() == uv0:GetConfigID()
@@ -655,7 +689,7 @@ slot0.AutoReplaceFurniture = function(slot0)
 			return
 		end
 
-		uv0.apartment:ReplaceFurniture(slot0:GetConfigID(), slot4:GetConfigID())
+		uv0.room:ReplaceFurniture(slot0:GetConfigID(), slot4:GetConfigID())
 		table.insert(uv0.replaceFurnitures, {
 			slotId = slot0:GetConfigID(),
 			furnitureId = slot4:GetConfigID()
@@ -674,7 +708,7 @@ slot0.ShowReplaceWindow = function(slot0, slot1, slot2)
 		content = i18n("dorm3d_furniture_sure_save"),
 		onYes = function ()
 			uv0:emit(GAME.APARTMENT_REPLACE_FURNITURE, {
-				shipGroupId = uv0.apartment:GetConfigID(),
+				roomId = uv0.room:GetConfigID(),
 				furnitures = uv1
 			})
 

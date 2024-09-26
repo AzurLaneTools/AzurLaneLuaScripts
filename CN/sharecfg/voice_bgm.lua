@@ -1609,5 +1609,45 @@ pg.voice_bgm = {
 		default_bgm = "story-fantasyland-light",
 		special_bgm = "",
 		bgm = "story-fantasyland-light"
+	},
+	Dorm3dVolleyballScene = {
+		default_bgm = "main-SeaAndSun",
+		special_bgm = "",
+		bgm = "main-SeaAndSun"
+	},
+	Dorm3dRoomScene = {
+		default_bgm = "story-room-sirius",
+		special_bgm = "",
+		bgm = "story-room-sirius"
+	},
+	DormSignPage = {
+		default_bgm = "story-room-sirius",
+		special_bgm = "",
+		bgm = "story-room-sirius"
+	},
+	JavelinDressSkinPage = {
+		default_bgm = "theme-partydress",
+		special_bgm = "",
+		bgm = "theme-partydress"
+	},
+	WorldCruiseTaskPage = {
+		default_bgm = "blueocean-image",
+		special_bgm = "",
+		bgm = "blueocean-image"
+	},
+	WorldCruiseShopPage = {
+		default_bgm = "theme-SeaAndSun-soft",
+		special_bgm = "",
+		bgm = "theme-SeaAndSun-soft"
+	},
+	WorldCruiseAwardPage = {
+		default_bgm = "blueocean-image",
+		special_bgm = "",
+		bgm = "blueocean-image"
+	},
+	EatFoodLayer = {
+		default_bgm = "bar-soft",
+		special_bgm = "",
+		bgm = "bar-soft"
 	}
 }

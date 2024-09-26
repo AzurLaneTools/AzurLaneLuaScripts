@@ -19,9 +19,6 @@ slot0.OnLoaded = function(slot0)
 
 	slot0.timeCfg = pg.gameset.main_live_area_time.description
 	slot0._coverBtn = slot0:findTF("cover_btn")
-
-	setActive(slot0._coverBtn, not LOCK_DORM3D_SYSTEM)
-
 	slot0._academyBtn = slot0:findTF("school_btn")
 	slot0._haremBtn = slot0:findTF("backyard_btn")
 	slot0._commanderBtn = slot0:findTF("commander_btn")
@@ -71,51 +68,23 @@ slot0.OnInit = function(slot0)
 		uv0:emit(NewMainMediator.GO_SCENE, SCENE.NAVALACADEMYSCENE)
 		uv0:Hide()
 	end, SFX_MAIN)
+	onButton(slot0, slot0._educateBtn, function ()
+		if LOCK_EDUCATE_SYSTEM then
+			return
+		end
 
-	if LOCK_DORM3D_SYSTEM then
-		SetCompomentEnabled(slot0._educateBtn, typeof(Image), false)
-
-		slot2 = slot0._educateBtn
-
-		setActive(slot2:Find("lock"), true)
-		SetCompomentEnabled(slot0._dormBtn, typeof(Image), false)
-
-		slot2 = slot0._dormBtn
-
-		setActive(slot2:Find("lock"), true)
-
-		slot3 = slot0._dormBtn
-
-		onButton(slot0, slot3:Find("lock"), function ()
-			if LOCK_EDUCATE_SYSTEM then
-				return
-			end
-
-			uv0:emit(NewMainMediator.GO_SCENE, SCENE.EDUCATE, {
-				isMainEnter = true
-			})
-			uv0:Hide()
-		end, SFX_MAIN)
-	else
-		onButton(slot0, slot0._educateBtn, function ()
-			if LOCK_EDUCATE_SYSTEM then
-				return
-			end
-
-			uv0:emit(NewMainMediator.GO_SCENE, SCENE.EDUCATE, {
-				isMainEnter = true
-			})
-			uv0:Hide()
-		end, SFX_MAIN)
-		onButton(slot0, slot0._dormBtn, function ()
-			uv0:emit(NewMainMediator.OPEN_DORM_SELECT_LAYER)
-			uv0:Hide()
-		end, SFX_MAIN)
-	end
-
-	slot3 = slot0._tf
-
-	onButton(slot0, slot3:Find("_bg"), function ()
+		uv0:emit(NewMainMediator.GO_SCENE, SCENE.EDUCATE, {
+			isMainEnter = true
+		})
+		uv0:Hide()
+	end, SFX_MAIN)
+	onButton(slot0, slot0._islandBtn, function ()
+	end, SFX_MAIN)
+	onButton(slot0, slot0._dormBtn, function ()
+		uv0:emit(NewMainMediator.OPEN_DORM_SELECT_LAYER)
+		uv0:Hide()
+	end, SFX_MAIN)
+	onButton(slot0, slot0._tf, function ()
 		uv0:Hide()
 	end, SFX_PANEL)
 end

@@ -102,25 +102,11 @@ slot1.UpdateDeck = function(slot0, slot1)
 	end
 end
 
-slot1.Share = function(slot0, slot1, slot2, slot3, slot4)
+slot1.Share = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot0.noBlur = slot4
+	slot7 = LuaHelper.GetCHPackageType()
 
-	if PLATFORM_CODE == PLATFORM_CHT and not CheckPermissionGranted(ANDROID_WRITE_EXTERNAL_PERMISSION) then
-		uv0.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n1("指揮官，碧藍航線需要存儲權限才能分享是否打開？"),
-			onYes = function ()
-				ApplyPermission({
-					ANDROID_WRITE_EXTERNAL_PERMISSION
-				})
-			end
-		})
-
-		return
-	end
-
-	slot5 = LuaHelper.GetCHPackageType()
-
-	if not IsUnityEditor and PLATFORM_CODE == PLATFORM_CH and slot5 ~= PACKAGE_TYPE_BILI then
+	if not IsUnityEditor and PLATFORM_CODE == PLATFORM_CH and slot7 ~= PACKAGE_TYPE_BILI then
 		uv0.TipsMgr.GetInstance():ShowTips("指挥官，当前平台不支持分享功能哦")
 
 		return
@@ -128,36 +114,52 @@ slot1.Share = function(slot0, slot1, slot2, slot3, slot4)
 
 	slot0:Init()
 
-	slot6 = uv0.share_template[slot1]
+	slot8 = uv0.share_template[slot1]
 
-	assert(slot6, "share_template not exist: " .. slot1)
+	assert(slot8, "share_template not exist: " .. slot1)
 
-	slot7 = slot0.deckTF
-	slot8 = slot0.ANCHORS_TYPE[slot6.deck] or {
+	slot9 = slot0.deckTF
+	slot10 = slot0.ANCHORS_TYPE[slot8.deck] or {
 		0.5,
 		0.5,
 		0.5,
 		0.5
 	}
-	slot7.anchorMin = Vector2(slot8[1], slot8[2])
-	slot7.anchorMax = Vector2(slot8[3], slot8[4])
-	slot7.anchoredPosition3D = Vector3(slot6.qrcode_location[1], slot6.qrcode_location[2], -100)
-	slot7.anchoredPosition = Vector2(slot6.qrcode_location[1], slot6.qrcode_location[2])
+	slot9.anchorMin = Vector2(slot10[1], slot10[2])
+	slot9.anchorMax = Vector2(slot10[3], slot10[4])
+	slot9.anchoredPosition3D = Vector3(slot8.qrcode_location[1], slot8.qrcode_location[2], -100)
+	slot9.anchoredPosition = Vector2(slot8.qrcode_location[1], slot8.qrcode_location[2])
+	slot12 = GameObject.Find(slot8.camera):GetComponent(typeof(Camera)).transform:GetChild(0)
 
-	slot0:UpdateDeck(slot7)
-	_.each(slot6.hidden_comps, function (slot0)
+	if slot5 then
+		slot13 = (slot12.sizeDelta.x - slot5.x) / 2
+		slot14 = (slot12.sizeDelta.y - slot5.y) / 2
+
+		(function ()
+			if uv0 then
+				uv1 = uv1 + uv0[1]
+				uv2 = uv2 + uv0[2]
+			end
+		end)()
+
+		slot9.anchoredPosition3D = Vector3(slot8.qrcode_location[1] - slot13, slot8.qrcode_location[2] + slot14, -100)
+		slot9.anchoredPosition = Vector2(slot8.qrcode_location[1] - slot13, slot8.qrcode_location[2] + slot14)
+	end
+
+	slot0:UpdateDeck(slot9)
+	_.each(slot8.hidden_comps, function (slot0)
 		if not IsNil(GameObject.Find(slot0)) and slot1.activeSelf then
 			table.insert(uv0.cacheComps, slot1)
 			slot1:SetActive(false)
 		end
 	end)
-	_.each(slot6.show_comps, function (slot0)
+	_.each(slot8.show_comps, function (slot0)
 		if not IsNil(GameObject.Find(slot0)) and not slot1.activeSelf then
 			table.insert(uv0.cacheShowComps, slot1)
 			slot1:SetActive(true)
 		end
 	end)
-	_.each(slot6.move_comps, function (slot0)
+	_.each(slot8.move_comps, function (slot0)
 		if not IsNil(GameObject.Find(slot0.path)) then
 			table.insert(uv0.cacheMoveComps, {
 				slot1,
@@ -170,10 +172,10 @@ slot1.Share = function(slot0, slot1, slot2, slot3, slot4)
 			})
 		end
 	end)
-	SetParent(slot7, GameObject.Find(slot6.camera):GetComponent(typeof(Camera)).transform:GetChild(0), false)
-	slot7:SetAsLastSibling()
-	slot0:ShotAndSave(slot1)
-	SetParent(slot7, slot0.tr, false)
+	SetParent(slot9, slot12, false)
+	slot9:SetAsLastSibling()
+	slot0:ShotAndSave(slot1, slot5, slot12)
+	SetParent(slot9, slot0.tr, false)
 	_.each(slot0.cacheComps, function (slot0)
 		slot0:SetActive(true)
 	end)
@@ -200,34 +202,32 @@ slot1.Share = function(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-slot1.ShotAndSave = function(slot0, slot1)
-	slot2 = uv0.share_template[slot1]
+slot1.ShotAndSave = function(slot0, slot1, slot2, slot3)
+	slot4 = uv0.share_template[slot1]
 
-	assert(slot2, "share_template not exist: " .. slot1)
+	assert(slot4, "share_template not exist: " .. slot1)
 
-	slot3 = LuaHelper.GetCHPackageType()
-	slot4 = GameObject.Find(slot2.camera):GetComponent(typeof(Camera))
-	slot5 = ScreenShooter.New(Screen.width, Screen.height, TextureFormat.ARGB32)
+	slot5 = LuaHelper.GetCHPackageType()
+	slot8 = slot0:TakeTexture(slot1, ScreenShooter.New(Screen.width, Screen.height, TextureFormat.ARGB32), GameObject.Find(slot4.camera):GetComponent(typeof(Camera)))
 
-	if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and uv0.SdkMgr.GetInstance():GetIsPlatform() then
-		slot0:SaveImageWithBytes(Tex2DExtension.EncodeToJPG(slot0:TakeTexture(slot1, slot5, slot4)))
+	slot9 = function(slot0, slot1)
+		slot2 = slot1.x / uv0.sizeDelta.x * Screen.width
+		slot3 = slot1.y / uv0.sizeDelta.y * Screen.height
+		slot7 = UnityEngine.Texture2D.New(slot2, slot3)
 
-		return true
-	elseif PLATFORM_CODE == PLATFORM_CHT then
-		if slot0:TakePhoto(slot1, slot5, slot4) then
-			return true
-		end
-	elseif PLATFORM_CODE == PLATFORM_CH and slot3 == PACKAGE_TYPE_BILI then
-		if slot0:TakePhoto(slot1, slot5, slot4) then
-			return true
-		end
-	elseif slot0:TakePhoto(slot1, slot5, slot4) then
-		return true
-	elseif PLATFORM_CODE == PLATFORM_CHT then
-		uv0.TipsMgr.GetInstance():ShowTips("截圖失敗")
-	else
-		uv0.TipsMgr.GetInstance():ShowTips("截图失败")
+		slot7:SetPixels(slot0:GetPixels((Screen.width - slot2) / 2, (Screen.height - slot3) / 2, slot2, slot3))
+		slot7:Apply()
+
+		return slot7
 	end
+
+	if slot2 then
+		slot8 = slot9(slot8, slot2)
+	end
+
+	slot0:SaveImageWithBytes(Tex2DExtension.EncodeToJPG(slot8))
+
+	return true
 end
 
 slot1.ShowSharePanel = function(slot0, slot1, slot2, slot3, slot4)

@@ -16,61 +16,19 @@ return {
 				data = {
 					op_list = {
 						{
-							sceneRoot = "Common/Bathroom",
-							name = "Tianlangxing04_Yushicahan",
+							skip = false,
+							name = "Qihe_chakanqinkuang",
 							time = 0,
 							type = "timeline",
-							scene = "map_bathroom_01",
-							skip = false,
 							options = {
 								{
 									{
-										content = "咳、不用了……"
-									},
-									{
-										content = "还是先坐下吧……"
-									}
-								},
-								{
-									{
-										content = "不舒服吗？"
-									}
-								},
-								{
-									{
-										content = "没关系"
-									},
-									{
-										content = "我并不介意"
+										content = "让我看看有没有烫伤"
 									}
 								}
 							},
 							touchs = {
-								{
-									{
-										pos = {
-											0,
-											0
-										}
-									}
-								},
-								{
-									{
-										pos = {
-											0,
-											0
-										}
-									}
-								},
-								{
-									{
-										pos = {
-											0,
-											0
-										}
-									}
-								},
-								{
+								[2] = {
 									{
 										pos = {
 											0,

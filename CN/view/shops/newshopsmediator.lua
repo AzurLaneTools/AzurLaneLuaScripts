@@ -23,12 +23,13 @@ slot0.MINI_GAME_SHOP_BUY_DONE = "NewShopsMediator:MINI_GAME_SHOP_BUY_DONE"
 slot0.UR_EXCHANGE_TRACKING = "NewShopsMediator:UR_EXCHANGE_TRACKING"
 
 slot0.register = function(slot0)
-	slot0:bind(uv0.ON_META_SHOP, function (slot0, slot1, slot2, slot3, slot4)
+	slot0:bind(uv0.ON_META_SHOP, function (slot0, slot1, slot2, slot3, slot4, slot5)
 		uv0:sendNotification(GAME.ON_META_SHOPPING, {
 			activity_id = slot1,
 			cmd = slot2,
 			arg1 = slot3,
-			arg2 = slot4
+			arg2 = slot4,
+			kvargs1 = slot5
 		})
 	end)
 	slot0:bind(uv0.ON_GUILD_SHOPPING, function (slot0, slot1, slot2)

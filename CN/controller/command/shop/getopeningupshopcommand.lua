@@ -197,7 +197,7 @@ slot0.GetMetaShops = function(slot0, slot1)
 
 	if not slot0.shopsProxy:GetMetaShop() then
 		table.insert(slot2, function (slot0)
-			for slot5, slot6 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP)) do
+			for slot5, slot6 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP_SELECTABLE)) do
 				if slot6 and not slot6:isEnd() and slot6:getConfig("config_id") == 1 then
 					uv0.shopsProxy:AddMetaShop(MetaShop.New(slot6))
 

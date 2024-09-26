@@ -45,7 +45,8 @@ slot0.execute = function(slot0, slot1)
 		cmd = slot2.cmd,
 		arg1 = slot2.arg1,
 		arg2 = slot2.arg2,
-		arg_list = {}
+		arg_list = {},
+		kvargs1 = slot2.kvargs1 or {}
 	}, 11203, function (slot0)
 		if slot0.result == 0 then
 			slot1 = uv0:GetMetaShop()

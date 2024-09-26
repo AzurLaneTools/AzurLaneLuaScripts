@@ -1,44 +1,42 @@
 slot0 = class("SettingsGraphicsPanle", import(".SettingsBasePanel"))
+slot0.EVT_UPDTAE = "SettingsGraphicsPanle:EVT_UPDTAE"
 
 slot0.GetUIName = function(slot0)
 	return "SettingsStorySpeed"
 end
 
 slot0.GetTitle = function(slot0)
-	return "3d宿舍画质设置"
+	return i18n("grapihcs3d_setting_quality")
 end
 
 slot0.GetTitleEn = function(slot0)
-	return "  / GRAPHICS SETTING"
+	return "  / STANDBY MODE SETTINGS"
 end
 
 slot0.OnInit = function(slot0)
-	slot1 = CustomIndexLayer.Clone2Full(slot0._tf:Find("speeds"), 3)
+	slot1 = CustomIndexLayer.Clone2Full(slot0._tf:Find("speeds"), 4)
 	slot0.lowToggle = slot1[1]
 	slot0.mediumToggle = slot1[2]
 	slot0.highToggle = slot1[3]
+	slot0.playerToggle = slot1[4]
 
-	onToggle(slot0, slot0.lowToggle, function (slot0)
-		if slot0 then
-			PlayerPrefs.SetInt("dorm3d_graphics_settings", 1)
-			Dorm3dScene.SettingQuality()
-		end
-	end, SFX_UI_TAG, SFX_UI_TAG)
-	onToggle(slot0, slot0.mediumToggle, function (slot0)
-		if slot0 then
-			PlayerPrefs.SetInt("dorm3d_graphics_settings", 2)
-			Dorm3dScene.SettingQuality()
-		end
-	end, SFX_UI_TAG, SFX_UI_TAG)
-	onToggle(slot0, slot0.highToggle, function (slot0)
-		if slot0 then
-			PlayerPrefs.SetInt("dorm3d_graphics_settings", 3)
-			Dorm3dScene.SettingQuality()
-		end
-	end, SFX_UI_TAG, SFX_UI_TAG)
-	setText(slot0.lowToggle:Find("Text"), "低画质720p")
-	setText(slot0.mediumToggle:Find("Text"), "中画质1080p")
-	setText(slot0.highToggle:Find("Text"), "高画质2k")
+	for slot5 = 1, 4 do
+		onToggle(slot0, slot1[slot5], function (slot0)
+			if slot0 then
+				if PlayerPrefs.GetInt("dorm3d_graphics_settings", 0) ~= uv0 then
+					pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataGraphics(uv0))
+					PlayerPrefs.SetInt("dorm3d_graphics_settings", uv0)
+				end
+
+				pg.m02:sendNotification(NewSettingsMediator.SelectGraphicSettingLevel)
+			end
+		end, SFX_UI_TAG, SFX_UI_TAG)
+	end
+
+	setText(slot0.lowToggle:Find("Text"), i18n("grapihcs3d_setting_quality_option_low"))
+	setText(slot0.mediumToggle:Find("Text"), i18n("grapihcs3d_setting_quality_option_medium"))
+	setText(slot0.highToggle:Find("Text"), i18n("grapihcs3d_setting_quality_option_high"))
+	setText(slot0.playerToggle:Find("Text"), i18n("grapihcs3d_setting_quality_option_custom"))
 end
 
 slot0.OnUpdate = function(slot0)
@@ -48,6 +46,8 @@ slot0.OnUpdate = function(slot0)
 		triggerToggle(slot0.mediumToggle, true)
 	elseif slot1 == 3 then
 		triggerToggle(slot0.highToggle, true)
+	else
+		triggerToggle(slot0.playerToggle, true)
 	end
 end
 

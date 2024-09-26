@@ -91,9 +91,13 @@ slot0.Request3DDorm = function(slot0, slot1)
 			end
 		end)
 	elseif uv0.IsIOS() then
+		warning("ios开始录像权限判断")
+
 		slot4 = uv1
 
 		slot4:RequestSingle("camera", function (slot0, slot1)
+			warning("ios返回的isGranted" .. tostring(slot1))
+
 			if slot1 then
 				if uv0 then
 					uv0()

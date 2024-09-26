@@ -3,9 +3,11 @@ slot1 = singletonClass("NewStyleMsgboxMgr")
 pg.NewStyleMsgboxMgr = slot1
 slot1.TYPE_MSGBOX = 1
 slot1.TYPE_DROP = 2
+slot1.TYPE_DROP_CLIENT = 3
 slot1.UI_NAME_DIC = {
 	[slot1.TYPE_MSGBOX] = "DormStyleMsgboxUI",
-	[slot1.TYPE_DROP] = "DormStyleDropMsgboxUI"
+	[slot1.TYPE_DROP] = "DormStyleDropMsgboxUI",
+	[slot1.TYPE_DROP_CLIENT] = "DormStyleDropMsgboxUI"
 }
 slot1.BUTTON_TYPE = {
 	confirm = "btn_confirm",
@@ -174,6 +176,18 @@ slot1.DisplaySetting = function(slot0, slot1, slot2)
 			if slot4 then
 				setText(slot2:Find("info/count"), i18n("dorm3d_item_num") .. string.format("<color=#39bfff>%d</color>", slot3))
 			end
+		end,
+		[uv0.TYPE_DROP_CLIENT] = function (slot0)
+			slot1 = uv0._tf:Find("window/middle")
+
+			Dorm3dIconHelper.UpdateDorm3dIcon(slot1:Find("Dorm3dIconTpl"), slot0.data)
+			setActive(slot1:Find("info/count"), false)
+			setActive(slot1:Find("Dorm3dIconTpl/count"), false)
+
+			slot2 = Dorm3dIconHelper.Data2Config(slot0.data)
+
+			setText(slot1:Find("info/name"), slot2.name)
+			setText(slot1:Find("info/desc"), slot2.desc)
 		end
 	}, nil, slot2)
 end

@@ -148,36 +148,50 @@ slot0.UpdateGift = function(slot0, slot1, slot2, slot3)
 	end, SFX_PANEL)
 
 	slot9 = slot6 and slot0.proxy:isGiveGiftDone(slot2)
-	slot12 = Dorm3dGift.New({
+	slot11 = Dorm3dGift.New({
 		configId = slot2
-	}):GetShopID() and pg.shop_template[slot11]
+	}):GetShopID()
 
 	setActive(slot4:Find("info/lack"), tobool(slot11))
-	setActive(slot4:Find("info/lack/tip"), slot6 and Dorm3dGift.NeedViewTip(slot0.apartment:GetConfigID()))
-	onButton(slot0, slot4:Find("info/lack"), function ()
-		slot0 = ""
 
-		if uv0.resource_type == 4 or uv0.resource_type == 14 then
-			slot0 = "diamond"
-		elseif uv0.resource_type == 1 then
-			slot0 = "gold"
-		end
-
-		uv1:emit(Dorm3dGiftMediator.SHOW_SHOPPING_CONFIRM_WINDOW, {
-			content = i18n("dorm3d_shop_gift", "<icon name=" .. slot0 .. " w=1.1 h=1.1/>", setColorStr("x" .. uv0.resource_num, "#169fff"), setColorStr(uv2:getConfig("name"), "#169fff")),
-			tip = i18n("dorm3d_shop_gift_tip"),
-			drop = uv3,
-			onYes = function ()
-				uv0:emit(GAME.SHOPPING, {
-					silentTip = true,
-					count = 1,
-					shopId = uv1
-				})
-			end
+	if slot11 then
+		slot12 = CommonCommodity.New({
+			id = slot11
+		}, Goods.TYPE_SHOPSTREET)
+		slot13, slot14, slot15 = slot12:GetPrice()
+		slot16 = Drop.New({
+			type = DROP_TYPE_RESOURCE,
+			id = slot12:GetResType(),
+			count = slot13
 		})
-	end, SFX_PANEL)
+
+		setActive(slot4:Find("info/lack/tip"), slot6 and not slot9 and Dorm3dGift.GetViewedFlag(slot2) == 0)
+		onButton(slot0, slot4:Find("info/lack"), function ()
+			Dorm3dGift.SetViewedFlag(uv0)
+			setActive(uv1:Find("info/lack/tip"), false)
+			uv2:emit(Dorm3dGiftMediator.SHOW_SHOPPING_CONFIRM_WINDOW, {
+				content = {
+					icon = "<icon name=" .. uv3:GetResIcon() .. " w=1.1 h=1.1/>",
+					off = uv4,
+					cost = "x" .. uv5.count,
+					old = uv6,
+					name = uv7:getConfig("name")
+				},
+				tip = i18n("dorm3d_shop_gift_tip"),
+				drop = uv8,
+				onYes = function ()
+					uv0:emit(GAME.SHOPPING, {
+						silentTip = true,
+						count = 1,
+						shopId = uv1
+					})
+				end
+			})
+		end, SFX_PANEL)
+	end
+
 	setActive(slot1:Find("mask"), slot9)
-	setText(slot1:Find("mask/Image/Text"), "is Done")
+	setText(slot1:Find("mask/Image/Text"), i18n("dorm3d_already_gifted"))
 	onToggle(slot0, slot1, function (slot0)
 		if slot0 then
 			uv0.selectGiftId = uv1
@@ -229,7 +243,20 @@ slot0.ConfirmGiveGifts = function(slot0)
 		return
 	end
 
-	slot0:emit(Dorm3dGiftMediator.GIVE_GIFT, slot0.selectGiftId)
+	slot1 = {}
+
+	if slot0.apartment:isMaxFavor() then
+		table.insert(slot1, function (slot0)
+			pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_MSGBOX, {
+				contentText = "apartment level is max, are you continue ?",
+				onConfirm = slot0
+			})
+		end)
+	end
+
+	seriesAsync(slot1, function ()
+		uv0:emit(Dorm3dGiftMediator.GIVE_GIFT, uv0.selectGiftId)
+	end)
 end
 
 slot0.AfterGiveGift = function(slot0, slot1)
@@ -239,16 +266,15 @@ slot0.AfterGiveGift = function(slot0, slot1)
 
 	slot5 = {}
 
-	if pg.dorm3d_gift[slot2].reply_dialogue_id ~= 0 and slot0.apartment:checkUnlockConfig(pg.dorm3d_dialogue_group[slot4.reply_dialogue_id].unlock) then
+	if pg.dorm3d_gift[slot2].reply_dialogue_id ~= 0 and ApartmentProxy.CheckUnlockConfig(pg.dorm3d_dialogue_group[slot4.reply_dialogue_id].unlock) then
 		table.insert(slot5, function (slot0)
 			uv0:emit(Dorm3dGiftMediator.DO_TALK, uv1.reply_dialogue_id, slot0)
 		end)
 	end
 
 	if slot4.unlock_dialogue_id > 0 then
-		slot0:emit()
 		table.insert(slot5, function (slot0)
-			pg.TipsMgr.GetInstance():ShowTips(string.format("talk %d is unlocked", talkId))
+			pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_gift_story_unlock"))
 			slot0()
 		end)
 	end
@@ -259,8 +285,8 @@ slot0.AfterGiveGift = function(slot0, slot1)
 end
 
 slot0.CheckLevelUp = function(slot0)
-	if slot0.apartment:getNextExp() <= slot0.apartment.favor then
-		slot0:emit(Dorm3dSceneMediator.FAVOR_LEVEL_UP, slot0.apartment.configId)
+	if slot0.apartment:canLevelUp() then
+		slot0:emit(Dorm3dRoomMediator.FAVOR_LEVEL_UP, slot0.apartment.configId)
 	end
 end
 

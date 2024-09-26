@@ -539,7 +539,7 @@ slot0.UpdateCover = function(slot0, slot1, slot2, slot3)
 		end
 	end)
 	slot4:GetComponent(typeof(Animation)):Play("attire")
-	setText(slot4.transform:Find("bg/Text"), HXSet.hxLan(slot1.info:getConfig("name")))
+	setText(slot4.transform:Find("bg/Text"), HXSet.hxLan(slot1.info:getConfig("get_tips")))
 end
 
 slot0.Dispose = function(slot0)

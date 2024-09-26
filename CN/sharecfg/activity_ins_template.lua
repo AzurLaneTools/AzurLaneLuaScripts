@@ -12874,6 +12874,18 @@ pg.activity_ins_template = {
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
+	[504] = {
+		ship_group = 39905,
+		name = "Hakuryū",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "bailong_4",
+		id = 504,
+		group_id = 504,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -13367,6 +13379,7 @@ pg.activity_ins_template = {
 		500,
 		501,
 		502,
-		503
+		503,
+		504
 	}
 }

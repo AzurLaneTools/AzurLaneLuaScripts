@@ -1,6 +1,6 @@
 slot0 = class("ApartmentProxy", import(".NetProxy"))
 slot0.UPDATE_APARTMENT = "ApartmentProxy.UPDATE_APARTMENT"
-slot0.UPDATE_PUBLIC_ROOM = "ApartmentProxy.UPDATE_PUBLIC_ROOM"
+slot0.UPDATE_ROOM = "ApartmentProxy.UPDATE_ROOM"
 slot0.UPDATE_GIFT_COUNT = "ApartmentProxy.UPDATE_GIFT_COUNT"
 
 slot0.register = function(slot0)
@@ -26,13 +26,12 @@ slot0.register = function(slot0)
 
 		for slot4, slot5 in ipairs(slot0.ships) do
 			slot6 = Apartment.New(slot5)
-			uv0.data[slot6.configId] = slot6
+			uv0.data[slot6:GetConfigID()] = slot6
 		end
 
 		for slot4, slot5 in ipairs(slot0.rooms) do
-			uv0.roomData[slot5] = ApartmentRoom.New({
-				id = slot5
-			})
+			slot6 = ApartmentRoom.New(slot5)
+			uv0.roomData[slot6:GetConfigID()] = slot6
 		end
 
 		slot1 = function(slot0, slot1)
@@ -52,6 +51,8 @@ slot0.timeCall = function(slot0)
 	return {
 		[ProxyRegister.DayCall] = function (slot0, slot1)
 			uv0:ResetDailyShopCount()
+
+			uv0.stamina = getDorm3dGameset("daily_vigor_max")[1]
 		end
 	}
 end
@@ -65,25 +66,27 @@ end
 slot0.updateRoom = function(slot0, slot1)
 	slot0.roomData[slot1.configId] = slot1:clone()
 
-	slot0:sendNotification(uv0.UPDATE_PUBLIC_ROOM, slot1)
+	slot0:sendNotification(uv0.UPDATE_ROOM, slot1)
 end
 
 slot0.triggerFavor = function(slot0, slot1, slot2)
 	slot3 = slot0.data[slot1]
-	slot4 = 0
+	slot5 = 0
+	slot6 = 0
 
-	if pg.dorm3d_favor_trigger[slot2].is_daily_max == 0 or slot0.stamina > 0 then
-		slot0.stamina = slot0.stamina - slot5.is_daily_max
-		slot4 = slot5.num
+	if pg.dorm3d_favor_trigger[slot2].is_daily_max <= slot0.stamina and not slot3:isMaxFavor() then
+		slot6 = slot4.is_daily_max
+		slot5 = math.min(slot4.num, slot3:getMaxFavor())
 	end
 
-	slot3.favor = slot3.favor + slot4
+	slot0.stamina = slot0.stamina - slot6
+	slot3.favor = slot3.favor + slot5
 	slot3.triggerCountDic[slot2] = slot3.triggerCountDic[slot2] + 1
 
-	pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataFavor(slot1, slot4, slot3.favor, slot5.type, table.CastToString(slot5.param)))
+	pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataFavor(slot1, slot5, slot3.favor, slot4.type, table.CastToString(slot4.param)))
 	slot0:updateApartment(slot3)
 
-	return slot4
+	return slot5, slot6
 end
 
 slot0.getStamina = function(slot0)
@@ -128,14 +131,6 @@ slot0.isGiveGiftDone = function(slot0, slot1)
 	return slot0.giftGiveCount[slot1] > 0
 end
 
-slot0.getGiftUnlockTalk = function(slot0, slot1, slot2)
-	for slot6, slot7 in ipairs(pg.dorm3d_dialogue_group.get_id_list_by_char_id[20220]) do
-		if pg.dorm3d_dialogue_group[slot7].type == 401 and slot0.data[slot1]:checkUnlockConfig(slot8.unlock) then
-			return slot7
-		end
-	end
-end
-
 slot0.GetGiftShopCount = function(slot0, slot1)
 	return slot0.shopCount.dailyGift[slot1] or slot0.shopCount.permanentGift[slot1] or 0
 end
@@ -173,6 +168,14 @@ slot0.GetEnterTime = function(slot0)
 	return slot0.dormEnterTimeStamp
 end
 
+slot0.RecordAccompanyTime = function(slot0)
+	slot0.dormAccompanyTimeStamp = pg.TimeMgr.GetInstance():GetServerTime()
+end
+
+slot0.GetAccompanyTime = function(slot0)
+	return slot0.dormAccompanyTimeStamp
+end
+
 slot1 = {
 	6,
 	18
@@ -190,6 +193,98 @@ slot0.GetTimeIndex = function(slot0)
 	end
 
 	return slot1
+end
+
+slot0.GetTimePPName = function()
+	return "DORM3D_SCENE_LOCK_TIME_IN_PLAYER:" .. getProxy(PlayerProxy):getRawData().id
+end
+
+slot0.CheckUnlockConfig = function(slot0)
+	if slot0 == nil or slot0 == "" or #slot0 == 0 then
+		return true
+	end
+
+	return switch(slot0[1], {
+		function (slot0, slot1, slot2)
+			if getProxy(ApartmentProxy):getApartment(slot1) and slot2 <= slot3.level then
+				return true
+			else
+				return false, i18n("apartment_level_unenough", slot2)
+			end
+		end,
+		function (slot0, slot1)
+			if getProxy(ApartmentProxy):getRoom(pg.dorm3d_furniture_template[slot1].room_id) and underscore.any(slot2.furnitures, function (slot0)
+				return slot0.configId == uv0
+			end) then
+				return true
+			else
+				return false, string.format("without dorm furniture:%d", slot1)
+			end
+		end,
+		function (slot0, slot1)
+			if getProxy(ApartmentProxy):isGiveGiftDone(slot1) then
+				return true
+			else
+				return false, string.format("gift:%d didn't had given", slot1)
+			end
+		end,
+		function (slot0, slot1)
+			if getProxy(CollectionProxy):getShipGroup(slot1) and slot2.married > 0 then
+				return true
+			else
+				return false, string.format("ship:%d was not married", slot1)
+			end
+		end,
+		function (slot0, slot1, slot2)
+			return getProxy(ApartmentProxy):getRoom(slot1) and slot3.unlockCharacter[slot2], i18n("dorm3d_skin_locked")
+		end
+	}, function (slot0)
+		return false, string.format("without unlock type:%d", slot0)
+	end, unpack(slot0))
+end
+
+slot0.PendingRandom = function(slot0, slot1)
+	slot2 = {}
+
+	for slot6, slot7 in ipairs(slot1) do
+		if underscore.detect(pg.dorm3d_rooms[slot0].character_welcome, function (slot0)
+			return slot0[1] == uv0
+		end)[2] > math.random() * 10000 then
+			slot2[slot7] = {}
+		end
+	end
+
+	slot3 = ipairs
+	slot4 = pg.dorm3d_welcome.get_id_list_by_room_id[slot0] or {}
+
+	for slot6, slot7 in slot3(slot4) do
+		if slot2[pg.dorm3d_welcome[slot7].ship_id] then
+			table.insert(slot2[slot8.ship_id], slot7)
+		end
+	end
+
+	slot3 = {}
+
+	for slot7, slot8 in pairs(slot2) do
+		slot9 = 0
+		slot10 = 0
+
+		for slot14, slot15 in ipairs(slot8) do
+			slot10 = slot10 + pg.dorm3d_welcome[slot15].weight
+		end
+
+		slot11 = math.random() * slot10
+
+		for slot15, slot16 in ipairs(slot8) do
+			if slot11 < slot9 + pg.dorm3d_welcome[slot16].weight then
+				slot3[slot7] = slot16
+
+				break
+			end
+		end
+	end
+
+	return slot3
 end
 
 return slot0

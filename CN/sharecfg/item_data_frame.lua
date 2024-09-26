@@ -630,6 +630,24 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>没人能逃出自己的故事，自由的牛仔也不例外。</color>通过参与「荒野假日开拓记」活动获取",
 		scene = {}
 	},
+	[1001] = {
+		name = "甜蜜邀约",
+		gain_by = "",
+		time_second = 0,
+		id = 1001,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>每一口都充满甜蜜的回忆。</color>\n通过提升「宿舍计划」中天狼星的契合度等级获取",
+		scene = {}
+	},
+	[1002] = {
+		name = "悠然下午茶",
+		gain_by = "",
+		time_second = 0,
+		id = 1002,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>不论何时，总有一杯冒着热气的红茶在静静等候。</color>\n通过提升「宿舍计划」中天狼星的契合度等级获取",
+		scene = {}
+	},
 	[10001] = {
 		name = "限界的挑战者·双子座",
 		gain_by = "",
@@ -809,6 +827,8 @@ pg.item_data_frame = {
 		605,
 		606,
 		607,
+		1001,
+		1002,
 		10001,
 		10002,
 		10003,

@@ -25655,7 +25655,7 @@ _G.pg.base.gametip.battlepass_main_help_2408 = {
 
 ·<color=#92fc63>奖励规则</color>
 巡游进度奖励分为两种：
-（1）基础巡游奖励：包含<color=#ff5c5c>「蕸·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·六期</color>等奖励；
+（1）基础巡游奖励：包含<color=#ff5c5c>「蕸·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·七期</color>等奖励；
     当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
 （2）特许巡游奖励：包含<color=#ff5c5c>罗马换装「罗马的假日 </color>」、<color=#ff5c5c>钻石</color>等奖励；
     购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
@@ -25695,6 +25695,86 @@ _G.pg.base.gametip.cruise_task_help_2408 = {
 
 ·<color=#92fc63>开放时间</color>
     2024.7.31 0点 ~ 2024.9.31 23:59:59
+
+·<color=#92fc63>巡游任务分为两种</color>
+（1）每周任务
+    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务。
+（2）S.P.任务
+    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成每周巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的「巡游任务快速完成券」数量和其提供的「巡游点数」相关，与当前任务进度无关
+（4）「巡游任务快速完成券」<color=#92fc63>不会随本期活动结束而消失</color>]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.battlepass_main_tip_2410 = {
+	tip = "2024/10/1-2024/11/30期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「{namecode:237}」</color>在内的丰富奖励"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2410 = {
+	tip = {
+		{
+			info = [[
+世界巡游(2024.10.1-2024.11.30)
+
+·<color=#92fc63>开放时间</color>
+    2024.10.1 0点 ~ 2024.11.30 23:59:59
+
+·<color=#92fc63>巡游进度说明</color>
+（1）活动期间，指挥官通过完成巡游任务，可获取「巡游点数」。
+（2）巡游任务随时间开放解锁。
+（3）每获取100点「巡游点数」即可增加1巡游进度
+（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达100。
+
+·<color=#92fc63>奖励规则</color>
+巡游进度奖励分为两种：
+（1）基础巡游奖励：包含<color=#ff5c5c>「{namecode:237}」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·七期</color>等奖励；
+    当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
+（2）特许巡游奖励：包含<color=#ff5c5c>絮弗伦换装「华美无双 </color>」、<color=#ff5c5c>钻石</color>等奖励；
+    购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
+    注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。
+
+·<color=#92fc63>「特许巡游凭证」说明</color>
+（1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。
+（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即11.30 22:59:59停止)，请指挥官注意购买时间。
+
+·<color=#92fc63>任务说明</color>
+巡游任务分为两种：
+（1）每周任务 
+    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务
+（2）S.P.任务
+    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成大部分巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的完成券数量固定，与当前任务进度无关
+（4）「巡游任务快速完成券」不会随本期活动结束而消失
+
+·<color=#ff5c5c>特别提示</color>
+（1）在本期世界巡游活动结束后，所有巡游任务将会无法继续完成，所有巡游奖励将会无法继续领取，请各位指挥官务必注意活动结束时间，提前领取奖励。
+（2）巡游进度、[特许巡游凭证]仅对本期世界巡游活动生效]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2410 = {
+	tip = {
+		{
+			info = [[
+巡游任务说明
+
+·<color=#92fc63>开放时间</color>
+    2024.10.1 0点 ~ 2024.11.30 23:59:59
 
 ·<color=#92fc63>巡游任务分为两种</color>
 （1）每周任务
@@ -34531,6 +34611,403 @@ _G.pg.base.gametip.award_max_warning_minigame = {
 }
 
 
+_G.pg.base.gametip.dorm3d_photo_len = {
+	tip = "镜头"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_depthoffield = {
+	tip = "镜头虚化"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_focusdistance = {
+	tip = "虚化距离"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_focusstrength = {
+	tip = "虚化强度"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_paramaters = {
+	tip = "参数"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_postexposure = {
+	tip = "曝光度"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_saturation = {
+	tip = "饱和度"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_contrast = {
+	tip = "对比度"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_Others = {
+	tip = "其它"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_hidecharacter = {
+	tip = "隐藏角色"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_facecamera = {
+	tip = "面向镜头"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_lighting = {
+	tip = "灯光"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_filter = {
+	tip = "滤镜"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_alpha = {
+	tip = "透明度"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_strength = {
+	tip = "强度"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_regular_anim = {
+	tip = "基础"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_special_anim = {
+	tip = "特殊"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_animspeed = {
+	tip = "动作$1x"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_furniture_lock = {
+	tip = "dorm3d_photo_furniture_lock"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_gift = {
+	tip = "是否花费$1 <color=#169fff>$2</color> 购买<color=#169fff>$3</color>"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_gift_tip = {
+	tip = "<color=#7c7e81>赠送后可解锁角色<color=#169fff>专属剧情</color></color>"
+}
+
+
+_G.pg.base.gametip.word_unlock = {
+	tip = "已解锁"
+}
+
+
+_G.pg.base.gametip.word_lock = {
+	tip = "未解锁"
+}
+
+
+_G.pg.base.gametip.dorm3d_collect_favor_plus = {
+	tip = "奖励：契合度+"
+}
+
+
+_G.pg.base.gametip.dorm3d_collect_nothing = {
+	tip = "- 暂未获取该物品 -"
+}
+
+
+_G.pg.base.gametip.dorm3d_collect_locked = {
+	tip = "契合度$1级解锁"
+}
+
+
+_G.pg.base.gametip.dorm3d_collect_not_found = {
+	tip = "前往$1获取"
+}
+
+
+_G.pg.base.gametip.dorm3d_sirius_table = {
+	tip = "餐厅"
+}
+
+
+_G.pg.base.gametip.dorm3d_sirius_chair = {
+	tip = "客厅"
+}
+
+
+_G.pg.base.gametip.dorm3d_sirius_bed = {
+	tip = "卧室"
+}
+
+
+_G.pg.base.gametip.dorm3d_sirius_bath = {
+	tip = "换衣间"
+}
+
+
+_G.pg.base.gametip.dorm3d_collection_beach = {
+	tip = "沙滩"
+}
+
+
+_G.pg.base.gametip.dorm3d_reload_unlock = {
+	tip = "- 待解锁 -"
+}
+
+
+_G.pg.base.gametip.dorm3d_reload_unlock_name = {
+	tip = "?????"
+}
+
+
+_G.pg.base.gametip.dorm3d_reload_favor = {
+	tip = "契合度剧情"
+}
+
+
+_G.pg.base.gametip.dorm3d_reload_gift = {
+	tip = "专属礼物剧情"
+}
+
+
+_G.pg.base.gametip.dorm3d_collect_unlock = {
+	tip = "- 待解锁 -"
+}
+
+
+_G.pg.base.gametip.dorm3d_pledge_favor = {
+	tip = "和角色进行誓约，增加100点契合度"
+}
+
+
+_G.pg.base.gametip.dorm3d_own_favor = {
+	tip = "拥有该角色，增加100点契合度"
+}
+
+
+_G.pg.base.gametip.dorm3d_role_choose = {
+	tip = "选择宿舍"
+}
+
+
+_G.pg.base.gametip.dorm3d_beach_buy = {
+	tip = "是否消耗<color=#39bfff>$1</color> 解锁 <color=#169fff>沙滩</color>"
+}
+
+
+_G.pg.base.gametip.dorm3d_beach_role = {
+	tip = "解锁后可以与<color=#39bfff>$1</color>进行互动"
+}
+
+
+_G.pg.base.gametip.dorm3d_beach_download = {
+	tip = "需要下载$1M的资源"
+}
+
+
+_G.pg.base.gametip.dorm3d_role_check_in = {
+	tip = "是否让<color=#39bfff>$1</color>入住该房间"
+}
+
+
+_G.pg.base.gametip.dorm3d_data_choose = {
+	tip = "约会选择"
+}
+
+
+_G.pg.base.gametip.dorm3d_role_manage = {
+	tip = "宿舍管理"
+}
+
+
+_G.pg.base.gametip.dorm3d_role_manage_role = {
+	tip = "角色"
+}
+
+
+_G.pg.base.gametip.dorm3d_role_manage_public_area = {
+	tip = "公共区域"
+}
+
+
+_G.pg.base.gametip.dorm3d_data_go = {
+	tip = "请选择一起前往<color=#39bfff>$1</color>的角色"
+}
+
+
+_G.pg.base.gametip.dorm3d_role_assets_delete = {
+	tip = "是否确认删除<color=#39bfff>$1</color>的全部资源"
+}
+
+
+_G.pg.base.gametip.dorm3d_role_assets_download = {
+	tip = "是否让<color=#39bfff>$1</color>入住该房间\n<color=#848484>需要下载$2的资源</color>"
+}
+
+
+_G.pg.base.gametip.volleyball_end_tip = {
+	tip = "和天狼星度过了美好的下午"
+}
+
+
+_G.pg.base.gametip.volleyball_end_award = {
+	tip = "精力-1，天狼星契合度+20"
+}
+
+
+_G.pg.base.gametip.sure_exit_volleyball = {
+	tip = "是否确认退出沙滩排球"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_active_zone = {
+	tip = "$1区域专属"
+}
+
+
+_G.pg.base.gametip.apartment_level_unenough = {
+	tip = "等级$1解锁"
+}
+
+
+_G.pg.base.gametip.help_dorm3d_info = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/3ddorm_1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/3ddorm_2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/3ddorm_3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/3ddorm_4"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/3ddorm_5"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/3ddorm_6"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_gift_already_given = {
+	tip = "该礼物已赠送"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_gift_not_owned = {
+	tip = "当前未拥有该礼物 "
+}
+
+
+_G.pg.base.gametip.dorm3d_select_tip = {
+	tip = "公共房间邀请"
+}
+
+
+_G.pg.base.gametip.dorm3d_volleyball_title = {
+	tip = "沙滩"
+}
+
+
+_G.pg.base.gametip.dorm3d_minigame_again = {
+	tip = "再来一局"
+}
+
+
+_G.pg.base.gametip.dorm3d_minigame_close = {
+	tip = "关闭"
+}
+
+
+_G.pg.base.gametip.dorm3d_data_Invite_lack = {
+	tip = "邀请角色数量不足"
+}
+
+
+_G.pg.base.gametip.dorm3d_item_num = {
+	tip = "已拥有："
+}
+
+
+_G.pg.base.gametip.dorm3d_collect_not_owned = {
+	tip = "暂未收集到该物品"
+}
+
+
+_G.pg.base.gametip.dorm3d_furniture_sure_save = {
+	tip = "是否确认保存家具"
+}
+
+
+_G.pg.base.gametip.dorm3d_furniture_save_success = {
+	tip = "家具保存成功"
+}
+
+
+_G.pg.base.gametip.dorm3d_removable = {
+	tip = "(滑动屏幕左侧移动，靠近角色吧）"
+}
+
+
 _G.pg.base.gametip.report_cannot_comment_level_1 = {
 	tip = "指挥官等级达到$1级后，才可以发送评论哦。 "
 }
@@ -34743,4 +35220,304 @@ _G.pg.base.gametip.attire_combatui_preview = {
 
 _G.pg.base.gametip.attire_combatui_confirm = {
 	tip = "装扮"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_quality = {
+	tip = "画质品质"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_quality_option_low = {
+	tip = "低画质"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_quality_option_medium = {
+	tip = "中画质"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_quality_option_high = {
+	tip = "高画质"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_quality_option_custom = {
+	tip = "自定义"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_universal = {
+	tip = "通用3D设置"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_gpgpu_warning = {
+	tip = "开启该选项，有可能导致部分机型闪退"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_tag1 = {
+	tip = "解锁专属互动动作"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_tag2 = {
+	tip = "解锁特殊拍照姿势"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_tag3 = {
+	tip = "解锁心动模式新互动"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_tag4 = {
+	tip = "解锁专属剧情"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_tag5 = {
+	tip = "解锁额外对话内容"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_tag6 = {
+	tip = "解锁互动游戏"
+}
+
+
+_G.pg.base.gametip.dorm3d_system_switch = {
+	tip = "宿舍维护中……"
+}
+
+
+_G.pg.base.gametip.dorm3d_beach_switch = {
+	tip = "沙滩维护中……"
+}
+
+
+_G.pg.base.gametip.dorm3d_AR_switch = {
+	tip = "AR维护中……"
+}
+
+
+_G.pg.base.gametip.dorm3d_invite_confirm_original = {
+	tip = "是否消耗$1<color=#39bfff>$2</color>解锁<color=#39bfff>$3</color>的$4邀约"
+}
+
+
+_G.pg.base.gametip.dorm3d_invite_confirm_discount = {
+	tip = "是否消耗$1<color=#39bfff>$2</color>(原价$3)解锁<color=#39bfff>$4</color>的$5邀约"
+}
+
+
+_G.pg.base.gametip.dorm3d_invite_confirm_free = {
+	tip = "$1<color=#fc4670><size=34>免费</size></color>(原价$2)解锁<color=#39bfff>$3</color>的$4邀约"
+}
+
+
+_G.pg.base.gametip.dorm3d_purchase_confirm_original = {
+	tip = "是否消耗$1<color=#39bfff>$2</color>购买<color=#39bfff>$3</color>"
+}
+
+
+_G.pg.base.gametip.dorm3d_purchase_confirm_discount = {
+	tip = "是否消耗$1<color=#39bfff>$2</color>(原价$3)购买<color=#39bfff>$4</color>"
+}
+
+
+_G.pg.base.gametip.dorm3d_purchase_confirm_free = {
+	tip = "$1<color=#fc4670><size=34>免费</size></color>(原价$2)购买<color=#39bfff>$3</color>"
+}
+
+
+_G.pg.base.gametip.dorm3d_purchase_confirm_tip = {
+	tip = "专属"
+}
+
+
+_G.pg.base.gametip.cruise_phase_title = {
+	tip = "阶段"
+}
+
+
+_G.pg.base.gametip.cruise_title_2410 = {
+	tip = "世界巡游·十九期"
+}
+
+
+_G.pg.base.gametip.battlepass_main_time_title = {
+	tip = "本期剩余时间："
+}
+
+
+_G.pg.base.gametip.cruise_shop_no_open = {
+	tip = "10月1日0点后开放"
+}
+
+
+_G.pg.base.gametip.cruise_btn_pay = {
+	tip = "解锁特许巡游奖励"
+}
+
+
+_G.pg.base.gametip.cruise_btn_all = {
+	tip = "全部领取"
+}
+
+
+_G.pg.base.gametip.task_go = {
+	tip = "前往"
+}
+
+
+_G.pg.base.gametip.task_got = {
+	tip = "已完成"
+}
+
+
+_G.pg.base.gametip.cruise_shop_title_skin = {
+	tip = "换装"
+}
+
+
+_G.pg.base.gametip.cruise_shop_title_equip_skin = {
+	tip = "外观"
+}
+
+
+_G.pg.base.gametip.cruise_shop_lock_tip = {
+	tip = "当期世界巡游等级达到50"
+}
+
+
+_G.pg.base.gametip.cruise_shop_limit_tip = {
+	tip = "本月剩余可购买数量："
+}
+
+
+_G.pg.base.gametip.cruise_limit_count = {
+	tip = "已达本月可购买数量上限"
+}
+
+
+_G.pg.base.gametip.cruise_title_2408 = {
+	tip = "世界巡游·十八期"
+}
+
+
+_G.pg.base.gametip.cruise_shop_title = {
+	tip = "往期商店"
+}
+
+
+_G.pg.base.gametip.dorm3d_favor_level_story = {
+	tip = "特殊剧情"
+}
+
+
+_G.pg.base.gametip.dorm3d_already_gifted = {
+	tip = "已赠送"
+}
+
+
+_G.pg.base.gametip.dorm3d_story_unlock_tip = {
+	tip = "已解锁剧情"
+}
+
+
+_G.pg.base.gametip.dorm3d_skin_locked = {
+	tip = "未解锁换装"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_no_role = {
+	tip = "未邀约角色"
+}
+
+
+_G.pg.base.gametip.dorm3d_furniture_locked = {
+	tip = "未解锁该家具"
+}
+
+
+_G.pg.base.gametip.dorm3d_accompany_locked = {
+	tip = "未开放"
+}
+
+
+_G.pg.base.gametip.dorm3d_role_locked = {
+	tip = "请先解锁角色房间"
+}
+
+
+_G.pg.base.gametip.dorm3d_volleyball_button = {
+	tip = "沙滩排球"
+}
+
+
+_G.pg.base.gametip.dorm3d_minigame_button1 = {
+	tip = "游戏"
+}
+
+
+_G.pg.base.gametip.dorm3d_collection_title_en = {
+	tip = "Azur Lane"
+}
+
+
+_G.pg.base.gametip.dorm3d_collection_cost_tip = {
+	tip = "相伴5分钟，<icon name=stamina/>精力-1，天狼星契合度<color=#fc4670>+40</color>"
+}
+
+
+_G.pg.base.gametip.dorm3d_gift_story_unlock = {
+	tip = "已解锁专属剧情"
+}
+
+
+_G.pg.base.gametip.dorm3d_furniture_replace_tip = {
+	tip = "请更换对应家具"
+}
+
+
+_G.pg.base.gametip.dorm3d_recall_locked = {
+	tip = "待解锁？？？？？？"
+}
+
+
+_G.pg.base.gametip.dorm3d_gift_maximum = {
+	tip = "已达到最大数量限制"
+}
+
+
+_G.pg.base.gametip.dorm3d_need_construct_item = {
+	tip = "缺少建设开发券"
+}
+
+
+_G.pg.base.gametip.AR_plane_check = {
+	tip = "请检测一个平面"
+}
+
+
+_G.pg.base.gametip.AR_plane_long_press_to_summon = {
+	tip = "长按平面呼出角色"
+}
+
+
+_G.pg.base.gametip.AR_plane_distance_near = {
+	tip = "距离过近角色将会隐藏"
+}
+
+
+_G.pg.base.gametip.AR_plane_summon_fail_by_near = {
+	tip = "距离过近呼出角色失败"
+}
+
+
+_G.pg.base.gametip.AR_plane_summon_success = {
+	tip = "呼出角色成功"
 }

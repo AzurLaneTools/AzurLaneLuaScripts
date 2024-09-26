@@ -297,6 +297,12 @@ slot0.selectActivity = function(slot0, slot1)
 	end
 end
 
+slot0.checkAutoHideActivity = function(slot0)
+	if slot0.activity and not slot0.activity:isShow() then
+		slot0:removeActivity(slot0.activity.id)
+	end
+end
+
 slot0.verifyTabs = function(slot0, slot1)
 	triggerToggle(slot0.tabs:GetChild((slot0:getActivityIndex(slot1) or 1) - 1), true)
 end

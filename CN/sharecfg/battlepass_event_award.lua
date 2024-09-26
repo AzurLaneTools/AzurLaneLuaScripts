@@ -288,6 +288,22 @@ pg.battlepass_event_award = {
 			3
 		}
 	},
+	{
+		id = 37,
+		drop_client = {
+			2,
+			20001,
+			7
+		}
+	},
+	{
+		id = 38,
+		drop_client = {
+			2,
+			20001,
+			8
+		}
+	},
 	[101] = {
 		id = 101,
 		drop_client = {
@@ -472,6 +488,14 @@ pg.battlepass_event_award = {
 			1
 		}
 	},
+	[10019] = {
+		id = 10019,
+		drop_client = {
+			2,
+			30333,
+			1
+		}
+	},
 	[11015] = {
 		id = 11015,
 		drop_client = {
@@ -501,6 +525,14 @@ pg.battlepass_event_award = {
 		drop_client = {
 			2,
 			30543,
+			1
+		}
+	},
+	[11019] = {
+		id = 11019,
+		drop_client = {
+			2,
+			30546,
 			1
 		}
 	},
@@ -536,6 +568,14 @@ pg.battlepass_event_award = {
 			1
 		}
 	},
+	[12019] = {
+		id = 12019,
+		drop_client = {
+			2,
+			30423,
+			1
+		}
+	},
 	[13015] = {
 		id = 13015,
 		drop_client = {
@@ -557,6 +597,14 @@ pg.battlepass_event_award = {
 		drop_client = {
 			9,
 			2075,
+			1
+		}
+	},
+	[13019] = {
+		id = 13019,
+		drop_client = {
+			9,
+			2079,
 			1
 		}
 	},
@@ -592,6 +640,14 @@ pg.battlepass_event_award = {
 			1
 		}
 	},
+	[14019] = {
+		id = 14019,
+		drop_client = {
+			9,
+			2080,
+			1
+		}
+	},
 	[15015] = {
 		id = 15015,
 		drop_client = {
@@ -621,6 +677,14 @@ pg.battlepass_event_award = {
 		drop_client = {
 			9,
 			2077,
+			1
+		}
+	},
+	[15019] = {
+		id = 15019,
+		drop_client = {
+			9,
+			2081,
 			1
 		}
 	},
@@ -656,11 +720,27 @@ pg.battlepass_event_award = {
 			1
 		}
 	},
+	[16019] = {
+		id = 16019,
+		drop_client = {
+			9,
+			2078,
+			1
+		}
+	},
 	[17016] = {
 		id = 17016,
 		drop_client = {
 			2,
 			30419,
+			1
+		}
+	},
+	[17019] = {
+		id = 17019,
+		drop_client = {
+			2,
+			30424,
 			1
 		}
 	},
@@ -696,6 +776,14 @@ pg.battlepass_event_award = {
 			1
 		}
 	},
+	[20019] = {
+		id = 20019,
+		drop_client = {
+			4,
+			9706041,
+			1
+		}
+	},
 	[21015] = {
 		id = 21015,
 		drop_client = {
@@ -725,6 +813,14 @@ pg.battlepass_event_award = {
 		drop_client = {
 			7,
 			605032,
+			1
+		}
+	},
+	[21019] = {
+		id = 21019,
+		drop_client = {
+			7,
+			803012,
 			1
 		}
 	},
@@ -854,6 +950,14 @@ pg.battlepass_event_award = {
 			2,
 			42066,
 			5
+		}
+	},
+	[40019] = {
+		id = 40019,
+		drop_client = {
+			31,
+			102,
+			1
 		}
 	}
 }

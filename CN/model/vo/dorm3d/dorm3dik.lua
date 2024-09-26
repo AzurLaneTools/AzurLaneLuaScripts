@@ -20,7 +20,7 @@ slot0.GetShipGroupId = function(slot0)
 	return slot0:getConfig("char_id")
 end
 
-slot0.GetControllerName = function(slot0)
+slot0.GetControllerPath = function(slot0)
 	return slot0:getConfig("controller")
 end
 
@@ -66,6 +66,38 @@ end
 
 slot0.GetTriggerRect = function(slot0)
 	return UnityEngine.Rect.New(unpack(slot0:getConfig("trigger_rect")))
+end
+
+slot0.GetPlaneRotations = function(slot0)
+	return _.map(slot0:getConfig("plane_rotation"), function (slot0)
+		return Quaternion.New(unpack(slot0))
+	end)
+end
+
+slot0.GetPlaneScales = function(slot0)
+	return _.map(slot0:getConfig("plane_scale"), function (slot0)
+		return Vector3.New(unpack(slot0))
+	end)
+end
+
+slot0.GetRevertTime = function(slot0)
+	return slot0:getConfig("back_time")
+end
+
+slot0.GetHeadTrackPath = function(slot0)
+	return slot0:getConfig("head_track")
+end
+
+slot0.GetTriggerFaceAnim = function(slot0)
+	return slot0:getConfig("action_emote")
+end
+
+slot0.GetIKTipOffset = function(slot0)
+	if type(slot0:getConfig("tip_offset")) ~= "table" then
+		return Vector2.zero
+	end
+
+	return Vector2.New(unpack(slot1))
 end
 
 return slot0

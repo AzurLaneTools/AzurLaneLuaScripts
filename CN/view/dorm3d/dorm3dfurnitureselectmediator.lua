@@ -47,15 +47,15 @@ slot0.register = function(slot0)
 		}))
 	end)
 
-	slot2 = pg.m02:retrieveMediator(Dorm3dSceneMediator.__cname):getViewComponent()
+	slot2 = pg.m02:retrieveMediator(Dorm3dRoomMediator.__cname):getViewComponent()
 
 	slot0.viewComponent:SetSceneRoot(slot2)
-	slot0.viewComponent:SetApartment(slot2:GetApartment())
+	slot0.viewComponent:SetRoom(slot2.room)
 end
 
 slot0.listNotificationInterests = function(slot0)
 	return {
-		Dorm3dSceneMediator.ON_CLICK_FURNITURE_SLOT,
+		Dorm3dRoomMediator.ON_CLICK_FURNITURE_SLOT,
 		GAME.APARTMENT_REPLACE_FURNITURE_DONE,
 		GAME.APARTMENT_REPLACE_FURNITURE_ERROR,
 		GAME.SHOPPING_DONE
@@ -65,16 +65,22 @@ end
 slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
-	if slot1:getName() == ApartmentProxy.UPDATE_APARTMENT then
+	if slot1:getName() == ApartmentProxy.UPDATE_ROOM then
 		-- Nothing
-	elseif slot2 == Dorm3dSceneMediator.ON_CLICK_FURNITURE_SLOT then
+	elseif slot2 == Dorm3dRoomMediator.ON_CLICK_FURNITURE_SLOT then
 		slot0.viewComponent:OnClickFurnitureSlot(slot3)
 	elseif slot2 == GAME.APARTMENT_REPLACE_FURNITURE_DONE then
 		slot0.viewComponent:OnReplaceFurnitureDone()
 	elseif slot2 == GAME.APARTMENT_REPLACE_FURNITURE_ERROR then
 		slot0.viewComponent:OnReplaceFurnitureError()
 	elseif slot2 == GAME.SHOPPING_DONE and slot3.awards and #slot4 > 0 then
-		slot0.viewComponent:emit(uv0.OPEN_DROP_LAYER, slot4)
+		slot5 = slot0.viewComponent
+
+		slot5:emit(uv0.OPEN_DROP_LAYER, slot4, function ()
+			uv1.viewComponent.room:AddFurnitureByID(pg.shop_template[uv0:getBody().id].effect_args[1])
+			uv1.viewComponent:UpdateDataDisplayFurnitures()
+			uv1.viewComponent:UpdateView()
+		end)
 	end
 end
 

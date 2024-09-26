@@ -494,6 +494,7 @@ slot0.execute = function(slot0, slot1)
 	slot0.facade:registerCommand(GAME.SINGLE_EVENT_TRIGGER, SingleEventTriggerCommand)
 	slot0.facade:registerCommand(GAME.SINGLE_EVENT_REFRESH, SingleEventRefreshCommand)
 	slot0.facade:registerCommand(GAME.APARTMENT_ROOM_UNLOCK, ApartmentRoomUnlockCommand)
+	slot0.facade:registerCommand(GAME.APARTMENT_ROOM_INVITE_UNLOCK, ApartmentRoomInviteUnlockCommand)
 	slot0.facade:registerCommand(GAME.APARTMENT_TRIGGER_FAVOR, ApartmentTriggerFavorCommand)
 	slot0.facade:registerCommand(GAME.APARTMENT_LEVEL_UP, ApartmentLevelUpCommand)
 	slot0.facade:registerCommand(GAME.APARTMENT_GIVE_GIFT, ApartmentGiveGiftCommand)
@@ -502,6 +503,7 @@ slot0.execute = function(slot0, slot1)
 	slot0.facade:registerCommand(GAME.APARTMENT_DO_TALK, ApartmentDoTalkCommand)
 	slot0.facade:registerCommand(GAME.APARTMENT_COLLECTION_ITEM, ApartmentCollectionItemCommand)
 	slot0.facade:registerCommand(GAME.APARTMENT_TRACK, Dorm3dTrackCommand)
+	slot0.facade:registerCommand(GAME.SELECT_DORM_ENTER, SelectDorm3dEnterCommand)
 end
 
 return slot0

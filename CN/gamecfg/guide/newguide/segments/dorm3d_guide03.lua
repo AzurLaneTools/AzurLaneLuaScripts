@@ -34,7 +34,7 @@ return {
 			alpha = 0,
 			notifies = {
 				{
-					notify = "Dorm3dSceneMediator.GUIDE_CLICK_LADY",
+					notify = "Dorm3dRoomMediator.GUIDE_CLICK_LADY",
 					body = {}
 				}
 			}

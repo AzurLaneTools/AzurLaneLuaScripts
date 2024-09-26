@@ -21,12 +21,12 @@ return {
 					op_list = {
 						{
 							skip = true,
-							name = "zuo_hudong_jianbang",
+							name = "zuo_haixiu",
 							type = "action"
 						},
 						{
 							param = "Play",
-							name = "Face_weixiao",
+							name = "Face_haixiu",
 							time = 0,
 							type = "action",
 							skip = true

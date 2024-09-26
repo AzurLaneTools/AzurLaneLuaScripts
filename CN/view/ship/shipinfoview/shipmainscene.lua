@@ -236,10 +236,6 @@ slot0.initShip = function(slot0)
 	slot0.initChatBgH = slot0.chatBg.sizeDelta.y
 	slot0.initChatTextH = slot0.chatText.sizeDelta.y
 	slot0.initfontSize = slot0.chatText:GetComponent(typeof(Text)).fontSize
-
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.chat, {
-		groupName = LayerWeightConst.GROUP_SHIPINFOUI
-	})
 end
 
 slot0.initPages = function(slot0)
@@ -452,6 +448,9 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.energyTF, function ()
 		uv0:showEnergyDesc()
 	end)
+	pg.UIMgr.GetInstance():OverlayPanel(slot0.chat, {
+		groupName = LayerWeightConst.GROUP_SHIPINFOUI
+	})
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel, {
 		groupName = LayerWeightConst.GROUP_SHIPINFOUI
 	})

@@ -64,7 +64,7 @@ return {
 		{
 			notifies = {
 				{
-					notify = "Dorm3dSceneMediator.GUIDE_CHECK_GUIDE",
+					notify = "Dorm3dRoomMediator.GUIDE_CHECK_GUIDE",
 					body = {}
 				}
 			}

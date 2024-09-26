@@ -2215,6 +2215,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[970405] = {
 			30038
+		},
+		[970604] = {
+			30039
 		}
 	},
 	get_id_list_by_handbook_type = {
@@ -2962,7 +2965,8 @@ pg.ship_data_group = setmetatable({
 			30035,
 			30036,
 			30037,
-			30038
+			30038,
+			30039
 		}
 	},
 	all = {
@@ -3703,7 +3707,8 @@ pg.ship_data_group = setmetatable({
 		30035,
 		30036,
 		30037,
-		30038
+		30038,
+		30039
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -33953,6 +33958,41 @@ pg.base.ship_data_group = {
 				"限时活动：唤醒苍红之炎",
 				{
 					""
+				},
+				0
+			}
+		}
+	},
+	[30039] = {
+		nationality = 97,
+		type = 6,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970604,
+		index_id = 30039,
+		code = 30039,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"E",
+			"B",
+			"D",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：世界巡游",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9706041
+					}
 				},
 				0
 			}

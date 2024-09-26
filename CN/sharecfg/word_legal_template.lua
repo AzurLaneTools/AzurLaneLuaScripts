@@ -5523,6 +5523,17 @@ temp = function()
 	uv0["凤"] = {
 		this = {
 			this = true
+		},
+		["·"] = {
+			M = {
+				E = {
+					T = {
+						A = {
+							this = true
+						}
+					}
+				}
+			}
 		}
 	}
 end

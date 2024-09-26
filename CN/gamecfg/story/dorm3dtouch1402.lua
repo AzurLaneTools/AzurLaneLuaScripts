@@ -28,7 +28,7 @@ return {
 						},
 						{
 							param = "Play",
-							name = "Face_renzhen",
+							name = "Face_gaoxing",
 							time = 0,
 							type = "action",
 							skip = true

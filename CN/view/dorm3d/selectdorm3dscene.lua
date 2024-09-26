@@ -45,6 +45,8 @@ slot0.init = function(slot0)
 	slot3 = slot0.rtMain
 
 	onButton(slot0, slot3:Find("btn_back"), function ()
+		uv0.clearSceneCache = true
+
 		uv0:closeView()
 	end, SFX_CANCEL)
 
@@ -68,42 +70,6 @@ slot0.init = function(slot0)
 
 	slot1 = slot0._tf
 	slot0.rtLayer = slot1:Find("Layer")
-	slot1 = slot0.rtLayer
-	slot0.rtInvitePanel = slot1:Find("invite_panel")
-	slot2 = slot0.rtInvitePanel
-
-	setText(slot2:Find("window/Text"), i18n("dorm3d_invite_beach_tip"))
-
-	slot2 = slot0.rtInvitePanel
-
-	setText(slot2:Find("window/btn_confirm/Text"), i18n("text_confirm"))
-
-	slot3 = slot0.rtInvitePanel
-
-	onButton(slot0, slot3:Find("window/btn_close"), function ()
-		uv0:HideInvitePanel()
-	end, SFX_CANCEL)
-
-	slot1 = slot0.rtLayer
-	slot0.rtSelectPanel = slot1:Find("select_panel")
-	slot2 = slot0.rtSelectPanel
-
-	setText(slot2:Find("window/character/title"), i18n("dorm3d_select_tip"))
-
-	slot3 = slot0.rtSelectPanel
-
-	onButton(slot0, slot3:Find("bg"), function ()
-		uv0:HideSelectPanel()
-	end, SFX_CANCEL)
-
-	slot2 = slot0.rtSelectPanel
-
-	setText(slot2:Find("window/title/Text"), i18n("dorm3d_data_choose"))
-
-	slot2 = slot0.rtSelectPanel
-
-	setText(slot2:Find("window/bottom/container/btn_confirm/Text"), i18n("text_confirm"))
-
 	slot1 = slot0.rtLayer
 	slot0.rtMgrPanel = slot1:Find("mgr_panel")
 	slot3 = slot0.rtMgrPanel
@@ -181,6 +147,7 @@ slot0.didEnter = function(slot0)
 
 	slot0:SetFloor(slot0.contextData.floorName)
 	setText(slot0.rtStamina:Find("Text"), string.format("%d/%d", getProxy(ApartmentProxy):getStamina()))
+	slot0:CheckGuide("DORM3D_GUIDE_02")
 end
 
 slot0.SetFloor = function(slot0, slot1)
@@ -210,6 +177,12 @@ slot0.InitIconTrigger = function(slot0, slot1)
 
 	GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_icon_%s", string.lower(pg.dorm3d_rooms[slot1].assets_prefix)), "", slot2:Find("icon"))
 	onButton(slot0, slot2, function ()
+		if BLOCK_DORM3D_ROOMS and table.contains(BLOCK_DORM3D_ROOMS, uv0) then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_system_switch"))
+
+			return
+		end
+
 		slot0 = getProxy(ApartmentProxy):getRoom(uv0)
 
 		if pg.dorm3d_rooms[uv0].type == 1 then
@@ -222,7 +195,15 @@ slot0.InitIconTrigger = function(slot0, slot1)
 					click = true,
 					roomId = uv0
 				}, function ()
-					uv0:ShowInvitePanel(uv1)
+					slot0 = underscore.map(string.split(PlayerPrefs.GetString(string.format("room%d_invite_list", uv0), ""), "|"), function (slot0)
+						return tonumber(slot0)
+					end)
+
+					if uv1:CheckGuide("DORM3D_GUIDE_06") then
+						slot0 = {}
+					end
+
+					uv1:emit(SelectDorm3DMediator.OPEN_INVITE_LAYER, uv0, slot0)
 				end)
 			end
 		elseif slot1 == 2 then
@@ -235,8 +216,9 @@ slot0.InitIconTrigger = function(slot0, slot1)
 					click = true,
 					roomId = uv0
 				}, function ()
-					uv0:emit(SelectDorm3DMediator.ON_DORM, uv1, {
-						groupId = uv2:getConfig("character")[1]
+					uv0:emit(SelectDorm3DMediator.ON_DORM, {
+						roomId = uv1.id,
+						groupIds = uv1:getInviteList()
 					})
 				end)
 			end
@@ -261,20 +243,18 @@ slot0.UpdateIconState = function(slot0, slot1)
 			setSlider(uv0:Find("front/loading/progress"), 0, slot0.totalSize, slot0.curSize)
 		end,
 		complete = function ()
-			eachChild(uv0:Find("front/complete"), function (slot0)
-				setActive(slot0, uv0)
-			end)
+			slot1 = uv1:isPersonalRoom()
 
-			if uv1:getConfig("type") == 2 then
-				slot2 = uv1:getApartment()
+			setActive(uv0:Find("front/complete"), slot1)
 
-				setText(slot0:Find("favor/Text"), slot2.level)
-
-				slot3 = slot2:getIconTip()
+			if slot1 then
+				slot2 = getProxy(ApartmentProxy):getApartment(uv1:getPersonalGroupId())
+				slot3 = slot2:getIconTip(uv1:GetConfigID())
 
 				eachChild(slot0:Find("tip"), function (slot0)
 					setActive(slot0, slot0.name == uv0)
 				end)
+				setText(slot0:Find("favor/Text"), slot2.level)
 			end
 		end
 	})
@@ -312,30 +292,23 @@ slot0.ReplaceSpecialRoomIcon = function(slot0)
 			setActive(slot0, slot0.name == "main")
 		end)
 		table.sort(slot6)
-		onButton(slot0, slot7, function ()
-			slot0, slot1, slot2 = unpack(pg.dorm3d_dialogue_group[uv0[1]].trigger_config)
-			slot3 = getProxy(ApartmentProxy)
-			slot3 = slot3:getRoom(slot1)
-			slot4 = slot3:getConfig("type")
-			slot5 = uv1
 
-			slot5:TryDownloadResource({
+		slot9 = pg.dorm3d_dialogue_group[slot6[1]]
+
+		onButton(slot0, slot7, function ()
+			slot0 = uv0
+
+			slot0:TryDownloadResource({
 				click = true,
-				roomId = slot1
+				roomId = uv1.room_id
 			}, function ()
-				uv0:emit(SelectDorm3DMediator.ON_DORM, uv1, switch(uv1, {
-					function ()
-						return {
-							groupIds = {}
-						}
-					end,
-					function ()
-						return {
-							groupId = uv0:getApartmentId(),
-							specialId = uv1[1]
-						}
-					end
-				}))
+				uv0:emit(SelectDorm3DMediator.ON_DORM, {
+					roomId = uv1.room_id,
+					groupIds = {
+						uv1.char_id
+					},
+					specialId = uv2
+				})
 			end)
 		end, SFX_PANEL)
 	end
@@ -349,60 +322,58 @@ slot0.InitCardTrigger = function(slot0, slot1)
 	slot3 = slot0.cardDic[slot1]
 	slot4 = slot2:getConfig("assets_prefix")
 
-	if slot2:getConfig("type") == 1 then
-		GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_%s", string.lower(slot4)), "", slot3:Find("Image"))
-		removeOnButton(slot3)
-	else
-		if slot5 == 2 then
-			slot6 = slot2:getApartmentId()
+	if slot2:isPersonalRoom() then
+		slot5 = slot2:getPersonalGroupId()
 
-			GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_apartment_%d", slot6), "", slot3:Find("Image"))
-			GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_apartment_name_%d", slot6), "", slot3:Find("name"))
-			onButton(slot0, slot3, function ()
-				slot0 = uv0
+		GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_apartment_%d", slot5), "", slot3:Find("Image"))
+		GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_apartment_name_%d", slot5), "", slot3:Find("name"))
+		onButton(slot0, slot3, function ()
+			slot0 = uv0
 
-				slot0:TryDownloadResource({
-					click = true,
-					roomId = uv1
-				}, function ()
-					pg.MsgboxMgr.GetInstance():ShowMsgBox({
-						content = i18n("dorm3d_role_assets_delete", ShipGroup.getDefaultShipNameByGroupID(uv0)),
-						onYes = function ()
-							if IsUnityEditor then
-								pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_open"))
+			slot0:TryDownloadResource({
+				click = true,
+				roomId = uv1
+			}, function ()
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("dorm3d_role_assets_delete", ShipGroup.getDefaultShipNameByGroupID(uv0)),
+					onYes = function ()
+						if IsUnityEditor then
+							pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_open"))
 
-								return
-							end
-
-							DormGroupConst.DelDir("dorm3d/character/" .. string.lower(uv0:getApartment():getConfig("resource_name")))
-							pg.TipsMgr.GetInstance():ShowTips("delete finish !")
+							return
 						end
-					})
-				end)
-			end, SFX_PANEL)
 
-			return
-		end
+						DormGroupConst.DelDir("dorm3d/character/" .. string.lower(getProxy(ApartmentProxy):getApartment(uv0:getPersonalGroupId()):getConfig("resource_name")))
+						pg.TipsMgr.GetInstance():ShowTips("delete finish !")
+					end
+				})
+			end)
+		end, SFX_PANEL)
 
-		assert(false)
+		return
 	end
+
+	GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_%s", string.lower(slot4)), "", slot3:Find("Image"))
+	removeOnButton(slot3)
 end
 
 slot0.UpdateCardState = function(slot0, slot1)
 	slot2 = getProxy(ApartmentProxy):getRoom(slot1)
 	slot3 = slot0.cardDic[slot1]
 	slot4 = slot2:getState()
-	slot5 = slot2:getConfig("type")
 
-	if slot2:getConfig("type") == 2 then
+	if slot2:isPersonalRoom() then
 		setActive(slot3:Find("lock"), slot4 ~= "complete")
 		setActive(slot3:Find("unlock"), slot4 == "complete")
-		setText(slot3:Find("favor_level/Text"), slot2:getApartment() and slot6.level or "?")
+		setText(slot3:Find("favor_level/Text"), getProxy(ApartmentProxy):getApartment(slot2:getPersonalGroupId()) and slot5.level or "?")
 	end
 
-	eachChild(slot3:Find("operation"), function (slot0)
+	slot5 = slot3:Find("operation")
+
+	eachChild(slot5, function (slot0)
 		setActive(slot0, slot0.name == uv0)
 	end)
+	setImageAlpha(slot5:Find("complete"), slot2:isPersonalRoom() and 1 or 0)
 
 	if DormGroupConst.DormDownloadLock and DormGroupConst.DormDownloadLock.roomId == slot1 then
 		slot0:UpdateCardProgess()
@@ -482,6 +453,8 @@ slot0.DownloadUpdate = function(slot0, slot1, slot2)
 						uv0:UpdateCardState(slot3)
 					end
 				end
+			else
+				uv0:CheckGuide("DORM3D_GUIDE_02")
 			end
 		end
 	})
@@ -500,9 +473,15 @@ slot0.AfterRoomUnlock = function(slot0, slot1)
 		setActive(slot0, true)
 	end)
 	quickPlayAnimation(slot0.roomDic[slot2], "anim_Dorm3d_selectDorm_icon_unlock")
+
+	slot3 = pg.UIMgr.GetInstance()
+
+	slot3:LoadingOn(false)
 	LeanTween.delayedCall(1.2333333333333334, System.Action(function ()
+		pg.UIMgr.GetInstance():LoadingOff(false)
 		uv0:UpdateIconState(uv1)
 		uv0:TryDownloadResource(uv2)
+		uv0:CheckGuide("DORM3D_GUIDE_02")
 	end))
 end
 
@@ -529,7 +508,7 @@ slot0.ShowIconTipWindow = function(slot0, slot1, slot2)
 	slot7, slot8 = DormGroupConst.CalcDormListSize(table.mergeArray(slot4, slot5))
 	slot10 = slot0.rtIconTip
 
-	setText(slot10:Find("window/Text"), i18n("dorm3d_role_assets_download", ShipGroup.getDefaultShipNameByGroupID(slot3:getApartmentId()), slot8))
+	setText(slot10:Find("window/Text"), i18n("dorm3d_role_assets_download", ShipGroup.getDefaultShipNameByGroupID(slot3:getPersonalGroupId()), slot8))
 
 	slot11 = slot0.rtIconTip
 
@@ -578,124 +557,6 @@ slot0.HideMgrPanel = function(slot0)
 
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.rtMgrPanel, slot0.rtLayer)
 	setActive(slot0.rtMgrPanel, false)
-end
-
-slot0.ShowInvitePanel = function(slot0, slot1)
-	GetImageSpriteFromAtlasAsync("dorm3dselect/room_invite_" .. slot1:getConfig("assets_prefix"), "", slot0.rtInvitePanel:Find("window/Image"))
-	setText(slot0.rtInvitePanel:Find("window/Text"), i18n("dorm3d_data_go", slot1:getRoomName()))
-
-	slot0.selectIds = {}
-	slot2, slot3 = slot1:getInteractRange()
-	slot4 = slot0.rtInvitePanel:Find("window/container")
-	slot5 = nil
-
-	(function ()
-		UIItemList.StaticAlign(uv0, uv0:GetChild(0), uv1, function (slot0, slot1, slot2)
-			slot1 = slot1 + 1
-
-			if slot0 == UIItemList.EventUpdate then
-				slot3 = uv0.selectIds[slot1]
-
-				setActive(slot2:Find("empty"), not slot3)
-				setActive(slot2:Find("ship"), slot3)
-
-				if slot3 then
-					GetImageSpriteFromAtlasAsync(pg.dorm3d_resource[pg.dorm3d_resource.get_id_list_by_ship_group[slot3][1]].head_Icon, "", slot2:Find("ship"), true)
-				end
-
-				onButton(uv0, slot2, function ()
-					uv0:ShowSelectPanel(uv1, function (slot0)
-						uv0.selectIds = slot0
-
-						uv1()
-					end)
-				end, SFX_PANEL)
-			end
-		end)
-	end)()
-	onButton(slot0, slot0.rtInvitePanel:Find("window/btn_confirm"), function ()
-		if #uv0.selectIds < uv1 or uv2 < #uv0.selectIds then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_data_Invite_lack"))
-
-			return
-		end
-
-		uv0:emit(SelectDorm3DMediator.ON_DORM, uv3:getConfig("type"), {
-			groupIds = underscore.rest(uv0.selectIds, 1),
-			roomId = uv3.id
-		})
-		uv0:HideInvitePanel()
-	end, SFX_CONFIRM)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0.rtInvitePanel, {
-		force = true
-	})
-	setActive(slot0.rtInvitePanel, true)
-	pg.CriMgr.GetInstance():PlaySE_V3("ui-dorm_sidebar")
-end
-
-slot0.HideInvitePanel = function(slot0)
-	slot0.selectIds = nil
-
-	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.rtInvitePanel, slot0.rtLayer)
-	setActive(slot0.rtInvitePanel, false)
-end
-
-slot0.ShowSelectPanel = function(slot0, slot1, slot2)
-	slot4, slot5 = slot1:getInteractRange()
-	slot6 = {}
-	slot7 = slot0.rtSelectPanel:Find("window/character/container")
-
-	UIItemList.StaticAlign(slot7, slot7:GetChild(0), #slot1:getConfig("character"), function (slot0, slot1, slot2)
-		slot1 = slot1 + 1
-
-		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0[slot1]
-
-			setActive(slot2:Find("base"), slot3)
-			setActive(slot2:Find("empty"), not slot3)
-
-			if not slot3 then
-				slot2.name = "null"
-
-				setText(slot2:Find("empty/Text"), i18n("dorm3d_waiting"))
-			else
-				slot2.name = tostring(slot3)
-
-				uv1:UpdateSelectableCard(slot2:Find("base"), slot3, function (slot0)
-					table.removebyvalue(uv0, uv1, true)
-
-					if slot0 then
-						table.insert(uv0, uv1)
-					end
-
-					setText(uv2.rtSelectPanel:Find("window/bottom/title/Text"), i18n("dorm3d_select_tip") .. #uv0 .. "/" .. uv3)
-				end)
-				triggerToggle(slot2:Find("base"), table.contains(uv1.selectIds, slot3))
-			end
-		end
-	end)
-	onButton(slot0, slot0.rtSelectPanel:Find("window/bottom/container/btn_confirm"), function ()
-		if uv1 < #uv0 then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_data_Invite_lack"))
-
-			return
-		end
-
-		uv2(uv0)
-		uv3:HideSelectPanel()
-	end, SFX_CONFIRM)
-	pg.UIMgr.GetInstance():OverlayPanelPB(slot0.rtSelectPanel, {
-		force = true,
-		pbList = {
-			slot0.rtSelectPanel:Find("window")
-		}
-	})
-	setActive(slot0.rtSelectPanel, true)
-end
-
-slot0.HideSelectPanel = function(slot0)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.rtSelectPanel, slot0.rtLayer)
-	setActive(slot0.rtSelectPanel, false)
 end
 
 slot0.TryDownloadResource = function(slot0, slot1, slot2)
@@ -769,16 +630,76 @@ slot0.UpdateWeekTask = function(slot0)
 			})
 		end
 	end, SFX_CONFIRM)
+	setActive(slot5:Find("Dorm3dIconTpl/get"), not slot3 and slot2:isFinish())
 	setGray(slot5:Find("Dorm3dIconTpl"), slot3)
+	onButton(slot0, slot0._tf:Find("Main/task_done"), function ()
+		setActive(uv0.rtWeekTask, true)
+		setActive(uv0._tf:Find("Main/task_done"), false)
+	end)
+	onButton(slot0, slot0.rtWeekTask:Find("title"), function ()
+		if uv0 then
+			setActive(uv1.rtWeekTask, false)
+			setActive(uv1._tf:Find("Main/task_done"), true)
+		end
+	end)
+end
+
+slot0.CheckGuide = function(slot0, slot1)
+	if pg.NewStoryMgr.GetInstance():IsPlayed(slot1) then
+		return
+	end
+
+	return switch(slot1, {
+		DORM3D_GUIDE_02 = function ()
+			if getProxy(ApartmentProxy):getApartment(20220) and not slot0:needDownload() then
+				slot1 = pg.m02
+
+				slot1:sendNotification(GAME.STORY_UPDATE, {
+					storyId = uv0
+				})
+
+				slot1 = pg.m02
+				slot6 = pg.NewStoryMgr.GetInstance()
+
+				slot1:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataGuide(1, slot6:StoryName2StoryId(uv0)))
+
+				slot1 = pg.NewGuideMgr.GetInstance()
+
+				slot1:Play(uv0, nil, function ()
+					pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataGuide(2, pg.NewStoryMgr.GetInstance():StoryName2StoryId(uv0)))
+				end)
+
+				return true
+			end
+		end,
+		DORM3D_GUIDE_06 = function ()
+			slot0 = pg.m02
+
+			slot0:sendNotification(GAME.STORY_UPDATE, {
+				storyId = uv0
+			})
+
+			slot0 = pg.m02
+			slot5 = pg.NewStoryMgr.GetInstance()
+
+			slot0:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataGuide(1, slot5:StoryName2StoryId(uv0)))
+
+			slot0 = pg.NewGuideMgr.GetInstance()
+
+			slot0:Play(uv0, nil, function ()
+				pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataGuide(2, pg.NewStoryMgr.GetInstance():StoryName2StoryId(uv0)))
+			end)
+
+			return true
+		end
+	}, function ()
+		return false
+	end)
 end
 
 slot0.onBackPressed = function(slot0)
 	if isActive(slot0.rtMgrPanel) then
 		slot0:HideMgrPanel()
-	elseif isActive(slot0.rtSelectPanel) then
-		slot0:HideSelectPanel()
-	elseif isActive(slot0.rtInvitePanel) then
-		slot0:HideInvitePanel()
 	elseif isActive(slot0.rtIconTip) then
 		slot0:HideIconTipWindow()
 	else
@@ -791,16 +712,16 @@ slot0.willExit = function(slot0)
 		slot0:HideMgrPanel()
 	end
 
-	if isActive(slot0.rtSelectPanel) then
-		slot0:HideSelectPanel()
-	end
-
-	if isActive(slot0.rtInvitePanel) then
-		slot0:HideInvitePanel()
-	end
-
 	if isActive(slot0.rtIconTip) then
 		slot0:HideIconTipWindow()
+	end
+
+	if slot0.clearSceneCache then
+		BLHX.Rendering.EngineCore.TryDispose(true)
+
+		slot1 = typeof("BLHX.Rendering.Executor")
+
+		ReflectionHelp.RefCallMethod(slot1, "TryHandleWaitLinkList", ReflectionHelp.RefGetProperty(slot1, "Instance", nil))
 	end
 end
 

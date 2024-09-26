@@ -210,6 +210,7 @@ pg.memory_group = setmetatable({
 		301,
 		302,
 		303,
+		304,
 		501,
 		502,
 		503,
@@ -5002,6 +5003,17 @@ pg.base.memory_group = {
 		icon = "title_event",
 		memories = {
 			3908
+		}
+	},
+	[304] = {
+		title = "宿舍焕新计划！",
+		subtype = 3,
+		link_event = 0,
+		type = 2,
+		id = 304,
+		icon = "title_event",
+		memories = {
+			3921
 		}
 	},
 	[501] = {

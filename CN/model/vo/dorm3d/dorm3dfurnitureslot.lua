@@ -12,10 +12,6 @@ slot0.GetType = function(slot0)
 	return slot0:getConfig("type")
 end
 
-slot0.GetShipGroupId = function(slot0)
-	return slot0:getConfig("char_id")
-end
-
 slot0.GetZoneID = function(slot0)
 	return slot0:getConfig("zone_id")
 end

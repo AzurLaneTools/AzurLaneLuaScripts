@@ -34,10 +34,6 @@ slot0.GetName = function(slot0)
 	return slot0:getConfig("name")
 end
 
-slot0.GetShipGroupId = function(slot0)
-	return slot0:getConfig("char_id")
-end
-
 slot0.GetWatchCameraName = function(slot0)
 	return slot0:getConfig("watch_camera")
 end
@@ -54,31 +50,41 @@ slot0.GetSpecialFurnitureIDList = function(slot0)
 	return slot0:getConfig("special_furniture") or {}
 end
 
-slot0.GetAllSpecialList = function(slot0)
-	slot1 = {}
+slot0.GetAllSpecialList = function(slot0, slot1)
+	slot2 = {}
 
-	for slot5, slot6 in pairs(pg.dorm3d_camera_anim_template.get_id_list_by_furniture_id) do
-		if slot5 ~= 0 and not slot0.specialFurnitureDic[slot5] then
-			slot7 = {}
+	for slot6, slot7 in pairs(pg.dorm3d_camera_anim_template.get_id_list_by_furniture_id) do
+		slot8 = function(slot0)
+			if pg.dorm3d_furniture_template[slot0].room_id == uv0 then
+				return true
+			end
 
-			for slot11, slot12 in ipairs(slot6) do
-				table.insert(slot7, Dorm3dCameraAnim.New({
-					configId = slot12
+			return false
+		end
+
+		if slot6 ~= 0 and slot8(slot6) and not slot0.specialFurnitureDic[slot6] then
+			slot9 = {}
+
+			for slot13, slot14 in ipairs(slot7) do
+				table.insert(slot9, Dorm3dCameraAnim.New({
+					configId = slot14
 				}))
 			end
 
-			table.insert(slot1, {
-				furnitureId = slot5,
-				anims = slot7
+			table.insert(slot2, {
+				furnitureId = slot6,
+				anims = slot9
 			})
 		end
 	end
 
-	for slot5, slot6 in ipairs(slot0.specialAnims) do
-		table.insert(slot1, slot5, slot6)
+	if slot0.specialAnims then
+		for slot6, slot7 in ipairs(slot0.specialAnims) do
+			table.insert(slot2, slot6, slot7)
+		end
 	end
 
-	return slot1
+	return slot2
 end
 
 slot0.CheckFurnitureIdInZone = function(slot0, slot1)

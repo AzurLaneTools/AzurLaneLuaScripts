@@ -52,8 +52,8 @@ slot0.getName = function(slot0)
 end
 
 slot0.getIcon = function(slot0)
-	if slot0.type == DROP_TYPE_LIVINGAREA_COVER then
-		return "Props/icon_cover"
+	if slot0.type == DROP_TYPE_ICON_FRAME then
+		return "Props/icon_frame"
 	else
 		return slot0:getConfig("icon")
 	end
@@ -81,6 +81,10 @@ end
 
 slot0.getDropRarity = function(slot0)
 	return switch(slot0.type, uv0.RarityCase, uv0.RarityDefault, slot0)
+end
+
+slot0.getDropRarityDorm = function(slot0)
+	return switch(slot0.type, uv0.RarityCase, uv0.RarityDefaultDorm, slot0)
 end
 
 slot0.DropTrans = function(slot0, ...)
@@ -178,7 +182,10 @@ slot0.InitSwitch = function()
 			return slot1
 		end,
 		[DROP_TYPE_ICON_FRAME] = function (slot0)
-			return pg.item_data_frame[slot0.id]
+			slot1 = pg.item_data_frame[slot0.id]
+			slot0.desc = slot1.desc
+
+			return slot1
 		end,
 		[DROP_TYPE_CHAT_FRAME] = function (slot0)
 			return pg.item_data_chat[slot0.id]
@@ -266,7 +273,10 @@ slot0.InitSwitch = function()
 			return pg.dorm3d_resource[slot0.id]
 		end,
 		[DROP_TYPE_LIVINGAREA_COVER] = function (slot0)
-			return pg.livingarea_cover[slot0.id]
+			slot1 = pg.livingarea_cover[slot0.id]
+			slot0.desc = slot1.desc
+
+			return slot1
 		end,
 		[DROP_TYPE_COMBAT_UI_STYLE] = function (slot0)
 			return pg.item_data_battleui[slot0.id]
@@ -437,9 +447,6 @@ slot0.InitSwitch = function()
 		[DROP_TYPE_WORLD_COLLECTION] = function (slot0)
 			return ItemRarity.Gold
 		end,
-		[DROP_TYPE_LIVINGAREA_COVER] = function (slot0)
-			return ItemRarity.Gold
-		end,
 		[DROP_TYPE_COMBAT_UI_STYLE] = function (slot0)
 			return slot0:getConfig("rare")
 		end
@@ -447,6 +454,10 @@ slot0.InitSwitch = function()
 
 	uv0.RarityDefault = function(slot0)
 		return slot0:getConfig("rarity") or ItemRarity.Gray
+	end
+
+	uv0.RarityDefaultDorm = function(slot0)
+		return slot0:getConfig("rarity") or ItemRarity.Purple
 	end
 
 	uv0.TransCase = {
@@ -902,10 +913,10 @@ slot0.InitSwitch = function()
 		end,
 		[DROP_TYPE_DORM3D_FURNITURE] = function (slot0)
 			slot1 = getProxy(ApartmentProxy)
-			slot2 = slot1:getApartment(slot0:getConfig("char_id"))
+			slot2 = slot1:getRoom(slot0:getConfig("room_id"))
 
 			slot2:AddFurnitureByID(slot0.id)
-			slot1:updateApartment(slot2)
+			slot1:updateRoom(slot2)
 		end,
 		[DROP_TYPE_DORM3D_GIFT] = function (slot0)
 			getProxy(ApartmentProxy):changeGiftCount(slot0.id, slot0.count)
@@ -1046,6 +1057,9 @@ slot0.InitSwitch = function()
 			setText(slot2, slot0:getConfig("desc"))
 		end,
 		[DROP_TYPE_COMBAT_UI_STYLE] = function (slot0, slot1, slot2)
+			setText(slot2, slot0:getConfig("desc"))
+		end,
+		[DROP_TYPE_LIVINGAREA_COVER] = function (slot0, slot1, slot2)
 			setText(slot2, slot0:getConfig("desc"))
 		end
 	}

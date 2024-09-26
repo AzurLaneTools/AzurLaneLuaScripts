@@ -58,6 +58,17 @@ slot3 = function(slot0)
 	end)
 end
 
+slot4 = function(slot0)
+	for slot4, slot5 in ipairs({
+		Animator,
+		Animation
+	}) do
+		for slot10 = 1, slot0:GetComponentsInChildren(typeof(slot5)).Length do
+			slot6[slot10 - 1].enabled = false
+		end
+	end
+end
+
 slot0.InitDuplication = function(slot0, slot1, slot2, slot3)
 	if slot1:GetComponent(typeof(CanvasGroup)) then
 		slot4.alpha = 1
@@ -73,20 +84,13 @@ slot0.InitDuplication = function(slot0, slot1, slot2, slot3)
 		slot5.raycastTarget = true
 	end
 
-	for slot10, slot11 in ipairs({
-		Animator,
-		Animation
-	}) do
-		if slot1:GetComponent(typeof(slot11)) then
-			slot12.enabled = false
-		end
+	uv0(slot1)
+
+	if uv1(slot1) or slot3.clearChildEvent then
+		uv2(slot1)
 	end
 
-	if uv0(slot1) or slot3.clearChildEvent then
-		uv1(slot1)
-	end
-
-	uv2(slot1)
+	uv3(slot1)
 
 	if not slot3.keepScrollTxt then
 		for slot11 = 1, slot1:GetComponentsInChildren(typeof(ScrollText)).Length do
@@ -130,14 +134,14 @@ slot0.SetCustomPosition = function(slot0, slot1, slot2, slot3)
 	slot1.eulerAngles = slot3.eulerAngles and Vector3(slot3.eulerAngles[1], slot3.eulerAngles[2], slot3.eulerAngles[3]) or Vector3(0, 0, 0)
 end
 
-slot4 = function(slot0, slot1, slot2, slot3)
+slot5 = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0.root:InverseTransformPoint(slot2.transform.position)
 	slot1.localPosition = Vector3(slot4.x, slot4.y, 0)
 	slot5 = slot2.transform.localScale
 	slot1.localScale = Vector3(slot5.x, slot5.y, slot5.z)
 end
 
-slot5 = function(slot0, slot1, slot2)
+slot6 = function(slot0, slot1, slot2)
 	slot3, slot4 = nil
 	slot4 = slot2.image.isRelative and (slot2.image.target == "" and slot0 or slot0:Find(slot2.image.target)) or GameObject.Find(slot2.image.target)
 

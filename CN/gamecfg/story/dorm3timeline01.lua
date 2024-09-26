@@ -17,34 +17,16 @@ return {
 					op_list = {
 						{
 							skip = false,
-							name = "Tianlangxing01_Jinmenjieshao",
+							name = "Qihe_Jinmenjieshao",
 							time = 0,
 							type = "timeline",
 							options = {
-								{
-									{
-										content = "没关系"
-									}
-								},
-								{
-									{
-										content = "把房间打扫得这么整洁，一定很辛苦吧？"
-									}
-								},
-								{
-									{
-										content = "万全准备？"
-									},
-									{
-										content = "都做了什么准备？"
-									}
-								},
-								{
+								[4] = {
 									{
 										content = "先好好休息一下吧"
 									}
 								},
-								{
+								[5] = {
 									{
 										content = "不是那个意思……"
 									},

@@ -10,7 +10,7 @@ slot0.OnLoaded = function(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0.ids[slot1]
 			slot5 = uv0.unlockDic[slot3]
-			slot6 = uv0.contextData.apartment:checkUnlockConfig(pg.dorm3d_collection_template[slot3].unlock)
+			slot6 = ApartmentProxy.CheckUnlockConfig(pg.dorm3d_collection_template[slot3].unlock)
 			slot7 = slot1
 
 			for slot11 = 1, 2 do
@@ -43,21 +43,21 @@ slot0.OnLoaded = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot1 = slot0.contextData.apartment
+	slot1 = getProxy(ApartmentProxy):getRoom(slot0.contextData.roomId)
 	slot0.unlockDic = slot1.collectItemDic
-	slot0.ids = Clone(pg.dorm3d_collection_template.get_id_list_by_dorm3d_belong[slot1.configId])
+	slot0.ids = Clone(pg.dorm3d_collection_template.get_id_list_by_room_id[slot1:GetConfigID()] or {})
 
-	table.sort(slot0.ids, function (slot0, slot1)
-		if uv0.unlockDic[slot0] ~= uv0.unlockDic[slot1] then
-			return slot2
+	table.sort(slot0.ids, CompareFuncs({
+		function (slot0)
+			return uv0.unlockDic[slot0] and 0 or 1
+		end,
+		function (slot0)
+			return ApartmentProxy.CheckUnlockConfig(pg.dorm3d_collection_template[slot0].unlock) and 0 or 1
+		end,
+		function (slot0)
+			return slot0
 		end
-
-		if uv0.contextData.apartment:checkUnlockConfig(pg.dorm3d_collection_template[slot0].unlock) ~= uv0.contextData.apartment:checkUnlockConfig(pg.dorm3d_collection_template[slot1].unlock) then
-			return slot6
-		end
-
-		return slot0 < slot1
-	end)
+	}))
 	setText(slot0.rtInfo:Find("count"), string.format("<color=#2d1dfc>%d</color>/%d", table.getCount(slot0.unlockDic), #slot0.ids))
 	setText(slot0.rtInfo:Find("empty"), i18n("dorm3d_collect_nothing"))
 	slot0.itemList:align(#slot0.ids)
@@ -79,7 +79,11 @@ slot0.UpdateDisplay = function(slot0, slot1, slot2)
 	GetImageSpriteFromAtlasAsync("dorm3dcollection/" .. slot5.icon, "", slot4:Find("icon"), true)
 	setText(slot4:Find("name/Text"), slot5.name)
 	setText(slot4:Find("desc"), slot5.desc)
-	setText(slot4:Find("favor/Text"), i18n("dorm3d_collect_favor_plus") .. pg.dorm3d_favor_trigger[slot5.award].num)
+	setActive(slot4:Find("favor"), slot5.award > 0)
+
+	if slot5.award > 0 then
+		setText(slot4:Find("favor/Text"), i18n("dorm3d_collect_favor_plus") .. pg.dorm3d_favor_trigger[slot5.award].num)
+	end
 end
 
 slot0.OnDestroy = function(slot0)

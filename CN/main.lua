@@ -33,7 +33,9 @@ end
 QualitySettings.vSyncCount = 0
 
 UnityEngine.Physics.IgnoreLayerCollision(21, LayerMask.NameToLayer("Default"))
-Dorm3dScene.SettingQuality()
+tolua.loadassembly("com.blhx.builtin-pipeline.runtime")
+Dorm3dRoomTemplateScene.InitDefautQuality()
+Dorm3dRoomTemplateScene.SettingQuality()
 ReflectionHelp.RefSetField(typeof("ResourceMgr"), "_asyncMax", ResourceMgr.Inst, 30)
 
 tf(GameObject.Find("EventSystem")):GetComponent(typeof(EventSystem)).sendNavigationEvents = false

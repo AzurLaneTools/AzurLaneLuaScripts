@@ -27,12 +27,18 @@ slot0.execute = function(slot0, slot1)
 				reducePlayerOwn(slot5)
 			end
 
-			uv1:updateRoom(ApartmentRoom.New({
-				id = uv2
-			}))
+			slot1 = ApartmentRoom.New(slot0.room)
 
-			if uv3.type == 2 then
-				uv1:updateApartment(Apartment.New(slot0.ship))
+			uv1:updateRoom(slot1)
+
+			if slot1:isPersonalRoom() then
+				uv1:updateApartment(Apartment.New({
+					daily_favor = 0,
+					favor_lv = 1,
+					cur_skin = 0,
+					favor_exp = 0,
+					ship_group = slot1:getPersonalGroupId()
+				}))
 			end
 
 			(function ()
@@ -47,7 +53,7 @@ slot0.execute = function(slot0, slot1)
 				pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataRoom(uv1, slot1, slot2))
 			end)()
 			uv4:sendNotification(GAME.APARTMENT_ROOM_UNLOCK_DONE, {
-				roomId = uv2
+				roomId = uv3
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)

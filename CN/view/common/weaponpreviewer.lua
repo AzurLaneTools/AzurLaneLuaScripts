@@ -488,7 +488,7 @@ slot0.createEmitterCannon = function(slot0, slot1, slot2, slot3)
 		slot9:SetBulletData(slot6)
 
 		slot10 = function(slot0)
-			uv0:SetGO(slot0)
+			uv0:AddModel(slot0)
 			uv0:AddRotateScript()
 
 			if tf(slot0).parent then

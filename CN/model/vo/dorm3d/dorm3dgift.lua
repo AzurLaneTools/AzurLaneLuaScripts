@@ -43,33 +43,33 @@ slot0.GetShopID = function(slot0)
 end
 
 slot0.NeedViewTip = function(slot0)
-	slot3 = uv0.GetViewedFlag()
-
 	return _.any(_.keys(uv0.bindConfigTable().get_id_list_by_ship_group_id), function (slot0)
 		if slot0 == 0 then
-			return false
+			return
 		end
 
 		if uv0 and uv0 > 0 and slot0 ~= uv0 then
-			return false
+			return
 		end
 
-		slot1 = uv1.get_id_list_by_ship_group_id[slot0]
-
-		return uv2 < slot1[#slot1]
+		return _.any(uv1.get_id_list_by_ship_group_id[slot0], function (slot0)
+			return Dorm3dGift.New({
+				configId = slot0
+			}):GetShopID() and not getProxy(ApartmentProxy):isGiveGiftDone(slot0) and Dorm3dGift.GetViewedFlag(slot0) == 0
+		end)
 	end)
 end
 
-slot0.GetViewedFlag = function()
-	return PlayerPrefs.GetInt(getProxy(PlayerProxy):getRawData().id .. "_dorm3dGiftViewed", 0)
+slot0.GetViewedFlag = function(slot0)
+	return PlayerPrefs.GetInt(getProxy(PlayerProxy):getRawData().id .. "_dorm3dGiftViewed_" .. slot0, 0)
 end
 
 slot0.SetViewedFlag = function(slot0)
-	if slot0 <= uv0.GetViewedFlag() then
+	if uv0.GetViewedFlag(slot0) > 0 then
 		return
 	end
 
-	PlayerPrefs.SetInt(getProxy(PlayerProxy):getRawData().id .. "_dorm3dGiftViewed", slot0)
+	PlayerPrefs.SetInt(getProxy(PlayerProxy):getRawData().id .. "_dorm3dGiftViewed_" .. slot0, 1)
 
 	return true
 end

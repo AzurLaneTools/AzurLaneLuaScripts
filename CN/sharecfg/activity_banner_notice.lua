@@ -54,6 +54,12 @@ pg.activity_banner_notice = {
 			"DREAMLAND_PREVIEW"
 		}
 	},
+	{
+		id = 8,
+		param = {
+			"dorm 3d select"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -61,6 +67,7 @@ pg.activity_banner_notice = {
 		4,
 		5,
 		6,
-		7
+		7,
+		8
 	}
 }

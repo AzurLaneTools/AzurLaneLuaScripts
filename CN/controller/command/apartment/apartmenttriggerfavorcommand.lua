@@ -15,11 +15,13 @@ slot0.execute = function(slot0, slot1)
 		trigger_id = slot4
 	}, 28004, function (slot0)
 		if slot0.result == 0 then
+			slot1, slot2 = uv0:triggerFavor(uv1, uv2)
+
 			uv3:sendNotification(GAME.APARTMENT_TRIGGER_FAVOR_DONE, {
 				triggerId = uv2,
-				cost = uv4.is_daily_max,
-				delta = uv0:triggerFavor(uv1, uv2),
-				apartment = uv5
+				cost = slot2,
+				delta = slot1,
+				apartment = uv4
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)

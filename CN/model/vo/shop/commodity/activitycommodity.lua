@@ -31,6 +31,10 @@ slot0.CheckArgLimit = function(slot0)
 			if not pg.TimeMgr.GetInstance():passTime(slot9) then
 				return slot2, slot8, i18n("meta_shop_exchange_limit_2"), slot9
 			end
+		elseif slot8 == ShopArgs.LIMIT_ARGS_UNIQUE_SHIP then
+			if not (getProxy(BayProxy):findShipByGroup(slot9) == nil) then
+				return slot2, slot8, i18n("quota_shop_good_limit"), slot9
+			end
 		elseif slot8 == "pass" and not (getProxy(ChapterProxy):getChapterById(slot9) and slot11:isClear()) then
 			return slot2, slot8, slot10, slot9
 		end
@@ -80,18 +84,24 @@ slot0.CheckTimeLimit = function(slot0)
 	slot1 = false
 	slot2 = false
 	slot3 = false
-	slot6 = Item.getConfigData(slot0:getConfig("commodity_id"))
+	slot4 = slot0:getConfig("commodity_type")
 
-	if slot0:getConfig("commodity_type") == DROP_TYPE_VITEM and slot6.virtual_type == 22 then
-		slot1 = true
-		slot3 = true
+	if slot0:getConfig("commodity_id") == 0 then
+		-- Nothing
+	else
+		slot6 = Item.getConfigData(slot5)
 
-		if getProxy(ActivityProxy):getActivityById(slot6.link_id) and not slot8:isEnd() then
+		if slot4 == DROP_TYPE_VITEM and slot6.virtual_type == 22 then
+			slot1 = true
+			slot3 = true
+
+			if getProxy(ActivityProxy):getActivityById(slot6.link_id) and not slot8:isEnd() then
+				slot2 = true
+			end
+		elseif slot4 == DROP_TYPE_ITEM and slot6.time_limit == 1 then
+			slot1 = false
 			slot2 = true
 		end
-	elseif slot4 == DROP_TYPE_ITEM and slot6.time_limit == 1 then
-		slot1 = false
-		slot2 = true
 	end
 
 	return slot1, slot2, slot3
@@ -154,6 +164,10 @@ slot0.GetConsume = function(slot0)
 		id = slot0:getConfig("resource_type"),
 		count = slot0:getConfig("resource_num")
 	})
+end
+
+slot0.Selectable = function(slot0)
+	return false
 end
 
 return slot0

@@ -20,13 +20,13 @@ slot0.register = function(slot0)
 		})
 	end)
 	slot0:bind(uv0.DO_TALK, function (slot0, slot1, slot2)
-		uv0:sendNotification(Dorm3dSceneMediator.OTHER_DO_TALK, {
+		uv0:sendNotification(Dorm3dRoomMediator.OTHER_DO_TALK, {
 			talkId = slot1,
 			callback = slot2
 		})
 	end)
 	slot0:bind(uv0.CHECK_LEVEL_UP, function (slot0)
-		uv0:sendNotification(Dorm3dSceneMediator.GUIDE_CHECK_LEVEL_UP)
+		uv0:sendNotification(Dorm3dRoomMediator.GUIDE_CHECK_LEVEL_UP)
 	end)
 	slot0:bind(uv0.SHOW_SHOPPING_CONFIRM_WINDOW, function (slot0, slot1)
 		uv0:addSubLayers(Context.New({
@@ -52,10 +52,7 @@ slot0.register = function(slot0)
 			onRemoved = slot2
 		}))
 	end)
-	slot0:bind(Dorm3dSceneMediator.ON_SCENE_EVENT, function (slot0, ...)
-		uv0:sendNotification(Dorm3dSceneMediator.ON_SCENE_EVENT, packEx(...))
-	end)
-	slot0.viewComponent:SetApartment(getProxy(ApartmentProxy):getApartment(slot0.contextData.groupId))
+	slot0.viewComponent:SetApartment(slot0.contextData.apartment)
 end
 
 slot0.initNotificationHandleDic = function(slot0)
@@ -80,7 +77,7 @@ slot0.initNotificationHandleDic = function(slot0)
 				end)
 			end
 		end,
-		[Dorm3dSceneMediator.ON_LEVEL_UP_FINISH] = function (slot0, slot1)
+		[Dorm3dRoomMediator.ON_LEVEL_UP_FINISH] = function (slot0, slot1)
 			slot0.viewComponent:CheckLevelUp()
 		end
 	}
