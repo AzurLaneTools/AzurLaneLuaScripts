@@ -9407,7 +9407,7 @@ _G.pg.base.gametip.ship_remould_warning_105214 = {
 
 
 _G.pg.base.gametip.ship_remould_warning_105224 = {
-	tip = "此次改造操作后<color=#92fc63>【BIG SEVEN】</color>技能\n将升级为<color=#92fc63>【BIG SEVEN·马里兰】</color>"
+	tip = "개조(근대화 개수)를 실시하면 <color=#92fc63>[BIG SEVEN]</color> 스킬이\n<color=#92fc63>[BIG SEVEN·메릴랜드]로 강화됨</color>"
 }
 
 
@@ -12374,7 +12374,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「피츠버그」, 「인디애나」 등의 등장 확률 UP!"
+	tip = "기간 한정 건조를 총 200회 실시하면, 아마기(항공모함) 100% 획득 가능! (최대 4척까지)"
 }
 
 
@@ -25529,7 +25529,7 @@ _G.pg.base.gametip.cruise_task_help_2408 = {
 
 
 _G.pg.base.gametip.battlepass_main_tip_2410 = {
-	tip = "2024/10/1-2024/11/30期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「{namecode:237}」</color>在内的丰富奖励"
+	tip = "2024/10/8-2024/12/7 이벤트 기간 중에 월드 투어 임무 완성하여 <icon name=pt w=0.5 h=0.5/>누적하면 <color=#854747>「호쇼·META」</color> 등 보상 획득 가능! "
 }
 
 
@@ -25537,46 +25537,40 @@ _G.pg.base.gametip.battlepass_main_help_2410 = {
 	tip = {
 		{
 			info = [[
-世界巡游(2024.10.1-2024.11.30)
+■ 이벤트 진행 기간
+ 2024.10.8 0:00 ~ 2024.12.7 23:59
 
-·<color=#92fc63>开放时间</color>
-    2024.10.1 0点 ~ 2024.11.30 23:59:59
+■ 개요
+"월드 투어"란, 이벤트 진행 중에 임무를 클리어하고 "투어 PT"를 모아, 획득한 투어 PT 합계에 따라 보상을 얻을 수 있는 이벤트입니다. 
+또한, 기본 투어 보상에는 추가적으로 "특허 투어 보상"이 존재하며, 상점 아이템 "특허 투어 패스"를 구매하면 특허 투어 보상을 획득할 수 있습니다. 
+기본 투어 보상으로는 함선 "호쇼·META", 특허 투어 보상으로는 "쉬프랑"의 한정 스킨인 "화려함의 극치"를 획득할 수 있습니다. 
 
-·<color=#92fc63>巡游进度说明</color>
-（1）活动期间，指挥官通过完成巡游任务，可获取「巡游点数」。
-（2）巡游任务随时间开放解锁。
-（3）每获取100点「巡游点数」即可增加1巡游进度
-（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达100。
+■플레이 방법
+・"월드 투어" 이벤트 시작과 동시에 임무 두 종류가 오픈됩니다. 
+　①주간 오픈 임무
+　이벤트 시작 시와 이벤트 기간 중 7일이 경과할 때마다 오픈되는 임무. 총 8그룹
+　②전체 기간 임무
+　처음부터 모두 오픈되는 임무. 총 1그룹
+・상기 "월드 투어"는 모두 자동적으로 수령이 완료되고, "월드 투어" 화면으로 이동 시에 이미 완료 조건을 충족한 임무는 클리어로 처리되며, "투어 PT"를 자동으로 획득할 수 있습니다. 
+　또한, "특허 투어 패스"를 구매하면, 15단계 분량의 보상(투어 PT 1,500)을 획득할 수 있습니다. 
+・"투어 PT"의 합계에 따라 투어 보상을 얻을 수 있습니다. 투어 보상은 두 가지가 있습니다. 
+　①기본 투어 보상
+　"투어 PT"의 획득 수에 따라 얻을 수 있는 보상. 총 100단계가 있습니다.
+　②특허 투어 보상
+　"특허 투어 패스"를 구매하면 오픈되는 추가 보상. 기본 투어 보상과 동일하게 총 100단계가 있으며, 기본 투어 보상과 같은 단계의 특허 투어 보상을 획득할 수 있습니다. 
+・이벤트가 종료되면 획득한 투어 PT는 초기화됩니다. 
 
-·<color=#92fc63>奖励规则</color>
-巡游进度奖励分为两种：
-（1）基础巡游奖励：包含<color=#ff5c5c>「{namecode:237}」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·六期</color>等奖励；
-    当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
-（2）特许巡游奖励：包含<color=#ff5c5c>絮弗伦换装「华美无双 </color>」、<color=#ff5c5c>钻石</color>等奖励；
-    购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
-    注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。
+■ Tips
+・플레이 스타일
+　월드 투어에는 총 100단계가 있으며, 단숨에 마지막 단계까지 클리어할 수 없도록 만들어져 있습니다. 평소대로 퀘스트를 클리어하면서 임무를 처리하거나, 원하는 보상을 정해 신속하게 클리어하는 등, 자신의 플레이 스타일에 따라 즐기는 것을 추천합니다. 
 
-·<color=#92fc63>「特许巡游凭证」说明</color>
-（1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。
-（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即11.30 22:59:59停止)，请指挥官注意购买时间。
+・특허 투어 패스
+　상점에서 "특허 투어 패스"를 구매하면, 특별한 아이템과 함께 "투어 PT"를 1,500PT 획득할 수 있습니다. 또한, 추가 한정 스킨은 "특허 투어 패스" 구매로 오픈되는 "특허 투어 보상"으로만 획득할 수 있습니다. 이 점 주의하시기 바랍니다. 
 
-·<color=#92fc63>任务说明</color>
-巡游任务分为两种：
-（1）每周任务 
-    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务
-（2）S.P.任务
-    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
-（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。
-
-·<color=#92fc63>「巡游任务快速完成券」说明</color>
-（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成大部分巡游任务
-（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
-（3）每个巡游任务需要消耗的完成券数量固定，与当前任务进度无关
-（4）「巡游任务快速完成券」不会随本期活动结束而消失
-
-·<color=#ff5c5c>特别提示</color>
-（1）在本期世界巡游活动结束后，所有巡游任务将会无法继续完成，所有巡游奖励将会无法继续领取，请各位指挥官务必注意活动结束时间，提前领取奖励。
-（2）巡游进度、[特许巡游凭证]仅对本期世界巡游活动生效]]
+・임무 스킵(추천하지 않습니다)
+　"월드 투어"의 "임무 목록" 화면에서 각 임무 우측의 화살표 버튼을 탭하면, 임무를 자동으로 스킵(클리어 처리)하고, 투어 PT를 획득할 수 있는 "월드 투어 티켓"을 구입하거나 사용할 수 있습니다. 
+　다이아가 소모되므로, 추천하지 않습니다.
+　"월드 투어 티켓"은 이벤트가 종료된 후에도 계속 소지할 수 있습니다. ]]
 		}
 	}
 }
@@ -25586,23 +25580,18 @@ _G.pg.base.gametip.cruise_task_help_2410 = {
 	tip = {
 		{
 			info = [[
-巡游任务说明
+■ 월드 투어에 대해
+・"월드 투어" 이벤트 시작과 동시에 임무 두 종류가 오픈됩니다. 
+　①주간 오픈 임무
+　이벤트 시작 시와 이벤트 기간 중 7일이 경과할 때마다 오픈되는 임무. 총 8그룹
+　②전체 기간 임무
+　처음부터 모두 오픈되는 임무. 총 1그룹
 
-·<color=#92fc63>开放时间</color>
-    2024.10.1 0点 ~ 2024.11.30 23:59:59
+・"월드 투어"는 모두 자동적으로 수령이 완료되고, "월드 투어" 화면으로 이동 시에 이미 완료 조건을 충족한 임무는 클리어로 처리되며, "투어 PT"를 자동으로 획득할 수 있습니다. 
 
-·<color=#92fc63>巡游任务分为两种</color>
-（1）每周任务
-    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务。
-（2）S.P.任务
-    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
-（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励
-
-·<color=#92fc63>「巡游任务快速完成券」说明</color>
-（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成每周巡游任务
-（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
-（3）每个巡游任务需要消耗的「巡游任务快速完成券」数量和其提供的「巡游点数」相关，与当前任务进度无关
-（4）「巡游任务快速完成券」<color=#92fc63>不会随本期活动结束而消失</color>]]
+・"월드 투어"의 "임무 목록" 화면에서 각 임무 우측의 화살표 버튼을 탭하면, 임무를 자동으로 스킵(클리어 처리)하고, 투어 PT를 획득할 수 있는 "월드 투어 티켓"을 구입하거나 사용할 수 있습니다. 
+　다이아가 소모되므로, 추천하지 않습니다……
+　"월드 투어 티켓"은 이벤트가 종료된 후에도 계속 소지할 수 있습니다. ]]
 		}
 	}
 }
@@ -28845,17 +28834,17 @@ _G.pg.base.gametip.battle_text_pizibao_2 = {
 
 
 _G.pg.base.gametip.battle_text_tianchengCV_1 = {
-	tip = "「<color=#ff8800>苍红之风</color>，<color=#5cccff>青蓝之花</color>，一同降临于此岸吧！」"
+	tip = "「<color=#ff8800>붉은 화염</color>, <color=#5cccff>푸른 꽃</color>, 피안에 강림하라! 」"
 }
 
 
 _G.pg.base.gametip.battle_text_tianchengCV_2 = {
-	tip = "「啊——<color=#ff1800>彼岸之花</color>，尽情燃烧吧！」"
+	tip = "「아하하하하! <color=#ff1800>피안의 꽃</color>이여, 가득 피어나 온 세상을 불태워라! 」"
 }
 
 
 _G.pg.base.gametip.battle_text_tianchengCV_3 = {
-	tip = "敌人正在积蓄力量，请依次<color=#f1f102>触碰场上的阵法</color>为我方充能"
+	tip = "적이 큰 기술을 펼치려고 합니다! 법진을 기동하여 지원 공격을 부르세요!"
 }
 
 
@@ -34339,47 +34328,47 @@ _G.pg.base.gametip.commander_exp_limit = {
 
 
 _G.pg.base.gametip.dreamland_label_day = {
-	tip = "白天"
+	tip = "낮"
 }
 
 
 _G.pg.base.gametip.dreamland_label_dusk = {
-	tip = "傍晚"
+	tip = "저녁"
 }
 
 
 _G.pg.base.gametip.dreamland_label_night = {
-	tip = "夜晚"
+	tip = "밤"
 }
 
 
 _G.pg.base.gametip.dreamland_label_area = {
-	tip = "区域"
+	tip = "구역"
 }
 
 
 _G.pg.base.gametip.dreamland_label_explore = {
-	tip = "探索"
+	tip = "탐색"
 }
 
 
 _G.pg.base.gametip.dreamland_label_explore_award_tip = {
-	tip = "完成该区域探索奖励"
+	tip = "탐색 완료 후 획득"
 }
 
 
 _G.pg.base.gametip.dreamland_area_lock_tip = {
-	tip = "- 该区域尚未解锁 请继续阅读剧情 -"
+	tip = "- 구역은 스토리 열람 후에 오픈됩니다 -"
 }
 
 
 _G.pg.base.gametip.dreamland_spring_lock_tip = {
-	tip = "阅读后续剧情解锁"
+	tip = "스토리 열람 후에 오픈됩니다"
 }
 
 
 _G.pg.base.gametip.dreamland_spring_tip = {
-	tip = "邀请角色入梦恢复心情 $1/h"
+	tip = "낙원에서 컨디션 회복 $1/h"
 }
 
 
@@ -34387,12 +34376,13 @@ _G.pg.base.gametip.dream_land_tip = {
 	tip = {
 		{
 			info = [[
-活动规则：
-·<color=#92fc63>9.12-10.2</color>期间开启限时活动「梦幻乐园的梦幻假日」
-·随剧情解锁梦幻乐园的各个区域，获得<color=#92fc63>限定家具</color>、<color=#92fc63>外观装备箱</color>等奖励
-·梦幻乐园各区域地图上均有可交互的探索点。指挥官在享受梦幻假日的同时，可通过留意地图上的<color=#92fc63>「星星」</color>指引及<color=#92fc63>乐园手册</color>中的探索指引，进行梦幻乐园探索，获得<color=#92fc63>限定家具</color>、<color=#92fc63>外观装备箱</color>等奖励
-·部分探索仅在特殊时间内触发，在完成「梦幻乐园的梦幻假日」全部剧情后，可以通过<color=#92fc63>时间转换</color>调整梦幻乐园时间
-·邀请角色进入安眠梦境，加快心情回复。安眠梦境随梦幻乐园区域解锁扩展]]
+플레이 방법:
+ ·<color=#92fc63>9.26 ~ 10.16 23:59</color>기간 한정 뒷산 이벤트 「드림 랜드의 드림 휴일」 진행!
+
+  ·낙원을 탐색하고, 스토리와 새로운 구역을 개방하면 <color=#92fc63>한정 가구</color> 및 <color=#92fc63>장비 스킨 상자</color> 등의 보상 획득 가능!
+ ·각 구역에는 탭 등의 조작으로 탐색할 수 있는 지점이 있습니다. 찾기 어려운 경우에는 지도 상에 표시되는 <color=#92fc63>「별」</color>이나 <color=#92fc63>「낙원 수첩」</color>에 표시되는 힌트를 확인하세요! 낙원을 탐색하면, 보상으로 <color=#92fc63>한정 가구</color>, <color=#92fc63>장비 스킨 상자</color> 등의 보상 획득 가능!
+ ·일부 탐색 지점은 특정 「시간」에만 나타납니다. 스토리를 전부 개방하면 오픈되는 「시간 변경」 기능으로 낙원의 시간을 변경할 수 있습니다.
+ ·「숙면」에 배치한 함선은 낙원에 등장하지 않지만, 컨디션 회복 속도가 더욱 상승합니다! 배치 슬롯은 탐색 구역이 늘어남에 따라 자동으로 확장됩니다! ]]
 		}
 	}
 }
@@ -34432,7 +34422,7 @@ _G.pg.base.gametip.touch_cake_minigame_help = {
 
 
 _G.pg.base.gametip.dreamland_main_desc = {
-	tip = "9.12~10.2，活动期间完成<color=#85E7FF>梦幻乐园探索</color>与<color=#85E7FF>啾啾蛋糕塔</color>获得丰厚奖励"
+	tip = "9.26 ~ 10.16, <color=#85E7FF>낙원 탐색</color>과 <color=#85E7FF>미니 게임</color>으로 보상 획득 가능!"
 }
 
 
@@ -34440,76 +34430,88 @@ _G.pg.base.gametip.dreamland_main_tip = {
 	tip = {
 		{
 			info = [[
-活动规则：
-·<color=#92fc63>9.12-10.2</color>期间开启限时活动「梦幻乐园的梦幻假日」
-·随剧情解锁梦幻乐园的各个区域，获得<color=#92fc63>限定家具</color>、<color=#92fc63>外观装备箱</color>等奖励
-·梦幻乐园各区域地图上均有可交互的探索点。指挥官在享受梦幻假日的同时，可通过留意地图上的<color=#92fc63>「星星」</color>指引及<color=#92fc63>乐园手册</color>中的探索指引，进行梦幻乐园探索，获得<color=#92fc63>限定家具</color>、<color=#92fc63>外观装备箱</color>等奖励
-·部分探索仅在特殊时间内触发，在完成「梦幻乐园的梦幻假日」全部剧情后，可以通过<color=#92fc63>时间转换</color>调整梦幻乐园时间
-·邀请角色进入安眠梦境，加快心情回复。安眠梦境随梦幻乐园区域解锁扩展
-·9.18为止，每日可获得一次「啾啾蛋糕塔」游戏次数，参与游戏可获取「梦幻蛋糕券」
-·累计7张「梦幻蛋糕券」可获得限定道具<color=#92fc63>「庆典邀请函」</color>]]
+플레이 방법:
+ ·<color=#92fc63>9.26 ~ 10.16 23:59</color>기간 한정 뒷산 이벤트 「드림 랜드의 드림 휴일」 진행!
+
+  ★ 미니 게임과 초대장에 대해
+ ·10.2까지 매일 미니 게임의 게임 횟수가 가산됩니다. 게임 횟수를 소지한 상태로 미니 게임 「쥬쥬 케이크 타워」를 클리어하면, 횟수를 소비함으로써 「꿈의 케이크권」을 1장 획득할 수 있습니다.
+ ·「꿈의 케이크권」을 7장 모으면, 이벤트 배너에서 「특별 초대장」을 획득할 수 있습니다. 초대장을 창고에서 사용하면, 다음 SSR 함선 중 하나를 골라 획득할 수 있습니다.
+ 　벨파스트
+ 　브레머튼
+ 　시리우스
+ 　페터 슈트라서
+ 　노시로
+ 　나가토
+ 　소비에츠카야 러시아
+ 　잔 다르크
+
+  ★ 낙원 탐색에 대해
+ ·낙원을 탐색하여 스토리와 새로운 구역을 개방하면 <color=#92fc63>한정 가구</color> 및 <color=#92fc63>장비 스킨 상자</color> 등의 보상 획득 가능!
+ ·각 구역에는 탭 등의 조작으로 탐색할 수 있는 지점이 있습니다. 찾기 어려운 경우에는 지도 상에 표시되는 <color=#92fc63>「별」</color>이나 <color=#92fc63>「낙원 수첩」</color>에 표시되는 힌트를 확인하세요! 낙원을 탐색하면, 보상으로 <color=#92fc63>한정 가구</color>, <color=#92fc63>장비 스킨 상자</color> 등의 보상 획득 가능!
+ ·일부 탐색 지점은 특정 「시간」에만 나타납니다. 스토리를 전부 개방하면 오픈되는 「시간 변경」 기능으로 낙원의 시간을 변경할 수 있습니다.
+ ·「숙면」에 배치한 함선은 낙원에 등장하지 않지만, 컨디션 회복 속도가 더욱 상승합니다! 배치 슬롯은 탐색 구역이 늘어남에 따라 자동으로 확장됩니다! ]]
 		}
 	}
 }
 
 
 _G.pg.base.gametip.no_share_skin_gametip = {
-	tip = "*该换装为$1换装，无法与$2共享使用"
+	tip = "*$1의 스킨은 $2에 적용할 수 없습니다."
 }
 
 
 _G.pg.base.gametip.no_share_skin_tianchenghangmu = {
-	tip = "{namecode:161}(航母)"
+	tip = "아마기(항공모함)"
 }
 
 
 _G.pg.base.gametip.no_share_skin_tianchengzhanlie = {
-	tip = "{namecode:161}(战列)"
+	tip = "아마기(순양전함)"
 }
 
 
 _G.pg.base.gametip.no_share_skin_jiahezhanlie = {
-	tip = "{namecode:92}(战列)"
+	tip = "카가(전함)"
 }
 
 
 _G.pg.base.gametip.no_share_skin_jiahehangmu = {
-	tip = "{namecode:92}(航母)"
+	tip = "카가(항공모함)"
 }
 
 
 _G.pg.base.gametip.ui_pack_tip1 = {
-	tip = "只能购买一个档位，礼包将发送到邮箱请注意查收"
+	tip = "이 중 하나만 구매할 수 있습니다. 구매한 아이템은 우편함으로 발송됩니다."
 }
 
 
 _G.pg.base.gametip.ui_pack_tip2 = {
-	tip = "基础版"
+	tip = "기초"
 }
 
 
 _G.pg.base.gametip.ui_pack_tip3 = {
-	tip = "豪华版"
+	tip = "럭셔리"
 }
 
 
 _G.pg.base.gametip.battle_ui_unlock = {
-	tip = "装扮解锁"
+	tip = "장식 오픈"
 }
 
 
 _G.pg.base.gametip.compensate_ui_expiration_hour = {
-	tip = "$1时后过期"
+	tip = "$1시간 후 무효화됩니다."
 }
 
 
 _G.pg.base.gametip.compensate_ui_expiration_day = {
-	tip = "$1天后过期"
+	tip = "$1일 후에 무효화됩니다."
 }
 
 
 _G.pg.base.gametip.compensate_ui_title1 = {
-	tip = "补偿"
+	tip = "보상"
 }
 
 
@@ -34519,7 +34521,7 @@ _G.pg.base.gametip.compensate_ui_title2 = {
 
 
 _G.pg.base.gametip.compensate_ui_nothing1 = {
-	tip = "暂未收到任何补偿"
+	tip = "수령 가능한 보상 아이템이 없습니다."
 }
 
 
@@ -34529,85 +34531,85 @@ _G.pg.base.gametip.compensate_ui_nothing2 = {
 
 
 _G.pg.base.gametip.attire_combatui_preview = {
-	tip = "前往预览"
+	tip = "미리보기"
 }
 
 
 _G.pg.base.gametip.attire_combatui_confirm = {
-	tip = "装扮"
+	tip = "장식"
 }
 
 
 _G.pg.base.gametip.cruise_phase_title = {
-	tip = "阶段"
+	tip = "단계"
 }
 
 
 _G.pg.base.gametip.cruise_title_2410 = {
-	tip = "世界巡游·十九期"
+	tip = "월드 투어·19기"
 }
 
 
 _G.pg.base.gametip.battlepass_main_time_title = {
-	tip = "本期剩余时间："
+	tip = "이번 남은 시간 :"
 }
 
 
 _G.pg.base.gametip.cruise_shop_no_open = {
-	tip = "10月1日0点后开放"
+	tip = "10월 8일 0시 이후 개방"
 }
 
 
 _G.pg.base.gametip.cruise_btn_pay = {
-	tip = "解锁特许巡游奖励"
+	tip = "특허 투어 보상 해제"
 }
 
 
 _G.pg.base.gametip.cruise_btn_all = {
-	tip = "全部领取"
+	tip = "전부 수령"
 }
 
 
 _G.pg.base.gametip.task_go = {
-	tip = "前往"
+	tip = "이동"
 }
 
 
 _G.pg.base.gametip.task_got = {
-	tip = "已完成"
+	tip = "완성함"
 }
 
 
 _G.pg.base.gametip.cruise_shop_title_skin = {
-	tip = "换装"
+	tip = "스킨"
 }
 
 
 _G.pg.base.gametip.cruise_shop_title_equip_skin = {
-	tip = "外观"
+	tip = "장비 스킨"
 }
 
 
 _G.pg.base.gametip.cruise_shop_lock_tip = {
-	tip = "当期世界巡游等级达到50"
+	tip = "이번 월드 투어 레벨 50 도달"
 }
 
 
 _G.pg.base.gametip.cruise_shop_limit_tip = {
-	tip = "本月剩余可购买数量："
+	tip = "이번 달 남은 구매 가능 횟수:"
 }
 
 
 _G.pg.base.gametip.cruise_limit_count = {
-	tip = "已达本月可购买数量上限"
+	tip = "이번 달 구매 가능 횟수 상한 도달"
 }
 
 
 _G.pg.base.gametip.cruise_title_2408 = {
-	tip = "世界巡游·十八期"
+	tip = "월드 투어·18기"
 }
 
 
 _G.pg.base.gametip.cruise_shop_title = {
-	tip = "往期商店"
+	tip = "이전 상점"
 }

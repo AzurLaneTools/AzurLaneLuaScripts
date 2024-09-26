@@ -2,7 +2,7 @@ pg = pg or {}
 pg.enemy_data_statistics_34 = {
 	[90986] = {
 		cannon = 0,
-		name = "「朱红之息-九尾幻狐」",
+		name = "부정한 그림자『식귀·붉은 구미호』",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -144,7 +144,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[90987] = {
 		cannon = 0,
-		name = "苍蓝之影",
+		name = "푸른 그림자",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -300,7 +300,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[90988] = {
 		cannon = 0,
-		name = "苍红之影",
+		name = "붉은 그림자",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -456,7 +456,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[90989] = {
 		cannon = 0,
-		name = "凰·META",
+		name = "아카기·META",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

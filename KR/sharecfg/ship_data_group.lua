@@ -16756,9 +16756,20 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 맑고 푸른 바다",
+				"이벤트: 맑고 푸른 바다",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -16788,9 +16799,19 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 맑고 푸른 바다",
+				"이벤트: 맑고 푸른 바다",
 				{
 					""
+				},
+				0
+			},
+			{
+				"특별 보급(랜덤 출현)",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -17883,7 +17904,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：唤醒苍红之炎",
+				"이벤트: 깨워라 창홍의 바람",
 				{
 					""
 				},
@@ -18076,6 +18097,28 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"대형함 건조·특형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			},
+			{
+				"상설 UR 함선 교환",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -18215,9 +18258,20 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 맑고 푸른 바다",
+				"이벤트: 맑고 푸른 바다",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -18518,7 +18572,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：唤醒苍红之炎",
+				"이벤트: 깨워라 창홍의 바람",
 				{
 					""
 				},
@@ -18876,7 +18930,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：唤醒苍红之炎",
+				"이벤트: 깨워라 창홍의 바람",
 				{
 					""
 				},
@@ -19068,9 +19122,20 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 맑고 푸른 바다",
+				"이벤트: 맑고 푸른 바다",
 				{
 					""
+				},
+				0
+			},
+			{
+				"대형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -21299,9 +21364,20 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 맑고 푸른 바다",
+				"이벤트: 맑고 푸른 바다",
 				{
 					""
+				},
+				0
+			},
+			{
+				"특형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -21331,7 +21407,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：唤醒苍红之炎",
+				"이벤트: 깨워라 창홍의 바람",
 				{
 					""
 				},
@@ -33764,7 +33840,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：唤醒苍红之炎",
+				"이벤트: 깨워라 창홍의 바람",
 				{
 					""
 				},
@@ -33796,7 +33872,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：世界巡游",
+				"한정 이벤트：월드 투어",
 				{
 					"METACHARACTER",
 					{

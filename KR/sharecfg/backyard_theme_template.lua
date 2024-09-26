@@ -4357,8 +4357,8 @@ pg.backyard_theme_template = {
 	},
 	[114] = {
 		Cfg_1 = 5,
-		name = "梦幻乐园 ",
-		desc = "欢迎来到，梦幻乐园！ ",
+		name = "드림 랜드",
+		desc = "낙원의 꿈, 드림랜드!",
 		deblocking = 1,
 		new = 1,
 		hot = 1,

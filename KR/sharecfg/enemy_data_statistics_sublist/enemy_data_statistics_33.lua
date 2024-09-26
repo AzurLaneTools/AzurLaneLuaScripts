@@ -3860,7 +3860,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[90984] = {
 		cannon = 0,
-		name = "「自在之息-九尾天狐」",
+		name = "부정한 그림자『자유로운 천호』",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -4002,7 +4002,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[90985] = {
 		cannon = 0,
-		name = "「青蓝之息-九尾幻狐」",
+		name = "부정한 그림자『식귀·푸른 구미호』",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

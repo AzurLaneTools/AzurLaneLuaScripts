@@ -1332,7 +1332,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 60,
-		name = "梦幻乐园",
+		name = "드림 랜드",
 		ids = {
 			4041,
 			4042,

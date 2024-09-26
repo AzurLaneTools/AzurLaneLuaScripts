@@ -1649,11 +1649,11 @@ pg.voice_actor_CN = {
 		code = 425
 	},
 	[426] = {
-		actor_name = "直田姬奈",
+		actor_name = "스구타 히나",
 		code = 426
 	},
 	[427] = {
-		actor_name = "涩谷彩乃",
+		actor_name = "시부야 아야노",
 		code = 427
 	}
 }

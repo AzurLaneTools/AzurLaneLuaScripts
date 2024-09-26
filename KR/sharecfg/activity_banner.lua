@@ -600,10 +600,10 @@ pg.activity_banner = {
 			}
 		}
 	},
-	[101] = {
+	[98] = {
 		param = "",
 		type = 12,
-		id = 101,
+		id = 98,
 		pic = "limit_skin_2",
 		time = {
 			{
@@ -707,7 +707,7 @@ pg.activity_banner = {
 		},
 		[12] = {
 			99,
-			101
+			98
 		},
 		[10] = {
 			100
@@ -737,7 +737,7 @@ pg.activity_banner = {
 		91,
 		95,
 		99,
-		101,
+		98,
 		100,
 		200,
 		201

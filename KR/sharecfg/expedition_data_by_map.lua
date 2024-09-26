@@ -20301,7 +20301,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1850001] = {
 		map = 1850001,
-		name = "唤醒苍红之炎·上篇|| ||CHAPTER EX||E.X.",
+		name = "깨워라 창홍의 바람·상편|| ||CHAPTER EX||E.X.",
 		bgm = "theme-amagi-cv",
 		type = 4,
 		anchor = "",
@@ -20398,7 +20398,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1850002] = {
 		map = 1850002,
-		name = "唤醒苍红之炎·下篇|| ||CHAPTER EX||E.X.",
+		name = "깨워라 창홍의 바람·하편|| ||CHAPTER EX||E.X.",
 		bgm = "story-nailuo-theme",
 		type = 4,
 		anchor = "",
@@ -20495,7 +20495,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1850011] = {
 		map = 1850011,
-		name = "唤醒苍红之炎·上篇|| ||CHAPTER EX||E.X.",
+		name = "깨워라 창홍의 바람·상편|| ||CHAPTER EX||E.X.",
 		bgm = "theme-amagi-cv",
 		type = 5,
 		anchor = "",
@@ -20592,7 +20592,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1850012] = {
 		map = 1850012,
-		name = "唤醒苍红之炎·下篇|| ||CHAPTER EX||E.X.",
+		name = "깨워라 창홍의 바람·하편|| ||CHAPTER EX||E.X.",
 		bgm = "story-nailuo-theme",
 		type = 5,
 		anchor = "",
@@ -20689,7 +20689,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1850025] = {
 		map = 1850025,
-		name = "唤醒苍红之炎·SP|| ||CHAPTER EX||E.X.",
+		name = "깨워라 창홍의 바람·SP|| ||CHAPTER EX||E.X.",
 		bgm = "theme-arbitrator-tower",
 		type = 8,
 		anchor = "",
@@ -20780,7 +20780,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1850026] = {
 		map = 1850026,
-		name = "唤醒苍红之炎·EX|| ||CHAPTER EX||E.X.",
+		name = "깨워라 창홍의 바람·EX|| ||CHAPTER EX||E.X.",
 		bgm = "theme-akagi-meta",
 		type = 8,
 		anchor = "",

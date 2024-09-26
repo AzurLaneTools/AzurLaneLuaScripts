@@ -13,7 +13,7 @@ return {
 			actor = 900459,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "最后的失误……主人那么细心，肯定已经发现了吧…",
+			say = "마지막 부분의 실수… 자랑스러운 주인님께서는 눈치채셨겠지…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			actor = 900459,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "之后要好好练习，下次要给主人送上最完美的表演。",
+			say = "제대로 연습해서 다음에는 반드시 주인님께 최고의 공연을……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			actor = 900459,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是天狼星作为女仆的职责……！嗯！",
+			say = "이것은 시리우스의… 주인님의 메이드로서의 책무야…! 그래!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			bgm = "story-richang-relax",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "演出结束后，来到落下帷幕的舞台上，见到挂在金属环上的天狼星。",
+			say = "공연이 끝나 무대 곁으로 가니, 아직 바퀴에 몸을 구부려 넣고 있는 시리우스의 모습이 보였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,18 +100,18 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
-			say = "她没有注意到我的到来，仍在喃喃自语。",
+			say = "내가 근처에 온 것을 눈치채지 못한 건지, 시리우스는 혼잣말을 계속하고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "天狼星？",
+					content = "시리우스…?",
 					flag = 1
 				},
 				{
-					content = "天狼星！",
+					content = "시리우스!",
 					flag = 2
 				}
 			}
@@ -124,7 +124,7 @@ return {
 			actor = 900459,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——？！主人！您什么时候到这里来的……？",
+			say = "――?! 자랑스러운 주인님! 언제 오신 거죠……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			actor = 900459,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不……区区女仆不应该询问这些……",
+			say = "아니, 저 같은 미천한 메이드가 드릴 수 있는 질문은 아니군요…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			actor = 900459,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "刚刚的表演您觉得怎么样……？",
+			say = "방금 공연은 어떠셨나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,18 +176,18 @@ return {
 			actor = 900459,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是否喜欢天狼星为您献上的舞蹈……？",
+			say = "주인님께 바치는 춤이었는데… 마음에 드셨는지요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我很喜欢。",
+					content = "마음에 들었어",
 					flag = 1
 				},
 				{
-					content = "真是，厉害的舞蹈！",
+					content = "굉장했어",
 					flag = 2
 				}
 			}
@@ -200,7 +200,7 @@ return {
 			actor = 900459,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……能够得到主人的认可，是天狼星的荣幸。",
+			say = "아아… 자랑스러운 주인님께 인정을 받다니, 영광입니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,19 +211,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
-			say = "天狼星仰着头看着我，悬空的身体微微晃动着。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_159",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "维持这样的姿势应该很困难吧？",
+			say = "공연 때 자세 그대로 시리우스는 희미하게 흔들리면서 내쪽으로 방향을 틀었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +223,19 @@ return {
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……怎么不先从金属环上下来？",
+			say = "――계속 그러고 있으면 피곤하지 않아?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_159",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "――……이제 공연도 끝났으니, 내려오는 게 어때?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			actor = 900459,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其实……",
+			say = "사실……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			actor = 900459,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "刚刚在舞台上，最后迎上主人您的目光时，我有些太紧张了。",
+			say = "방금 공연 마지막에서 주인님과 눈이 마주쳐서, 긴장한 탓에 불필요한 움직임을 해버렸는데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			actor = 900459,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当时做了些多余的动作，丝带缠在一起，现在解不开了……",
+			say = "그래서… 끈이 엉켜서… 아무리 풀려고 해도 풀리지가……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,18 +291,18 @@ return {
 			actor = 900459,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过不要紧！天狼星很快就能处理好，主人不用担心！",
+			say = "괜찮습니다! 시리우스가 어떻게든 해결할 테니, 걱정하실 필요 없습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "上前帮忙",
+					content = "시리우스를 돕는다",
 					flag = 1
 				},
 				{
-					content = "果断上前帮忙",
+					content = "당장 시리우스를 돕는다",
 					flag = 2
 				}
 			},
@@ -322,7 +322,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
-			say = "此时，自然应该去帮天狼星解开缠绕在身上的丝带。",
+			say = "상황이 상황이라 시리우스에게 얽힌 끈을 풀어주기로 했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			actor = 900459,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我骄傲的主人……您不必亲自……",
+			say = "자랑스러운 주인님을…… 번거롭게 할 수는…….",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			actor = 900459,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好、好吧……谢谢您……都怪我是如此笨拙的女仆，才需要麻烦您……",
+			say = "아, 네… 감사합니다…… 이런 모자란 메이드라 죄송합니다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
-			say = "随着我的动作，缺乏支撑点的天狼星在空中晃动着。",
+			say = "내 움직임에 맞추어, 허공에 매달린 시리우스의 몸이 같이 흔들리고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
-			say = "这使解开绳结的过程变得困难了起来。",
+			say = "상당히 복잡하게 얽힌 건지, 끈은 생각만큼 잘 풀리지 않았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,18 +386,18 @@ return {
 			actor = 900459,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "主人，这样乱晃是不是很不方便……？天狼星可以先抓住您的上衣么？",
+			say = "주인님, 계속 흔들려서 풀기 어려우시죠…? 잠깐 지휘관님의 옷자락을 잡고 있어도 괜찮을까요…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "没问题。",
+					content = "괜찮아",
 					flag = 1
 				},
 				{
-					content = "自然没问题！",
+					content = "당연하지!",
 					flag = 2
 				}
 			},
@@ -420,7 +420,7 @@ return {
 			actor = 900459,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么失礼了……！",
+			say = "그럼, 실례하겠습니다…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
-			say = "天狼星伸出尚未被丝带束缚住的手，抓住了我的衣角。",
+			say = "시리우스는 끈에 얽히지 않은 손을 뻗어 내 옷자락을 부여잡았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
-			say = "晃动的弧度随之变小，而她与我的距离也随之拉近，而后稳定了下来。",
+			say = "확실히 흔들림은 적어졌지만, 그녀와의 거리 또한 더 좁혀졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			actor = 900459,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "主人，这、这样子的距离会不会太近了些……？",
+			say = "자랑스러운 주인님… 너, 너무 가깝지 않으신가요……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			actor = 900459,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还是说，这样子就可以？",
+			say = "이렇게 가까이 있어도 괜찮으신가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			actor = 900459,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "主人不说话……就表示默认了。",
+			say = "아무 말씀도 없으시다는 건… 묵인으로 봐도 괜찮을까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			actor = 900459,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来这样子……是可以的呢。",
+			say = "아, 이렇게 하면 더…… 잘 푸실 수 있을지도 몰라요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
-			say = "衣角传来的力度瞬间消失，原本稳定的圆环陡然晃动。",
+			say = "그렇게 말하며 시리우스는 옷을 잡은 손을 놓았고, 잠시나마 안정되었던 고리는 다시 흔들리기 시작했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
-			say = "不过紧随其后，一股温暖的感觉从腰后环绕而过，晃动也再次停止了下来。",
+			say = "그리고 다음 순간, 허리에서 따뜻한 감촉이 느껴졌다. 시리우스가 양팔로 내 허리를 감싸안은 것이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
-			say = "只是这次，我与天狼星的距离变得更近了，比之前都要近。",
+			say = "그녀와의 거리는 아까보다 더 가까워졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
-			say = "自然——本已整理好的丝带也因这场突然的变故再次混乱起来。",
+			say = "그러나… 겨우 풀리기 시작한 끈은 아까보다 더 엉키고 말았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			bgName = "star_level_bg_159",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看来要想理清现状，需要多花些时间了啊。",
+			say = "――이걸 풀려면 아직 시간이 더 걸릴 것 같네……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			actor = 900459,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……抱歉，主人。是天狼星太笨手笨脚了。",
+			say = "…죄송합니다. 시리우스가 또 실수를……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +582,7 @@ return {
 			actor = 900459,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过……天狼星并没有感受到主人生气的气息。",
+			say = "하지만…… 지휘관님께서 화를 내지 않으셨다는 것은…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			actor = 900459,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来……多维持一下现在的状态，似乎也不错……",
+			say = "이대로 시리우스와… 이 자세로 조금 더 있고 싶다는… 뜻이겠지요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			actor = 900459,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——对么，我骄傲的主人？",
+			say = "제 생각이… 맞나요? 자랑스러운 주인님…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

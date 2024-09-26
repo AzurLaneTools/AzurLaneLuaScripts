@@ -7333,7 +7333,7 @@ pg.base.transform_data_template = {
 	},
 	[6101] = {
 		level_limit = 1,
-		name = "舰体改良I",
+		name = "함체 개수Ⅰ",
 		descrip = "",
 		max_level = 1,
 		skin_id = 0,
@@ -7365,7 +7365,7 @@ pg.base.transform_data_template = {
 	},
 	[6102] = {
 		level_limit = 5,
-		name = "命中强化I",
+		name = "명중 강화Ⅰ",
 		descrip = "",
 		max_level = 1,
 		skin_id = 0,
@@ -7399,7 +7399,7 @@ pg.base.transform_data_template = {
 	},
 	[6103] = {
 		level_limit = 20,
-		name = "主炮改良I",
+		name = "주포 개수Ⅰ",
 		descrip = "",
 		max_level = 1,
 		skin_id = 0,
@@ -7433,7 +7433,7 @@ pg.base.transform_data_template = {
 	},
 	[6104] = {
 		level_limit = 25,
-		name = "炮击强化I",
+		name = "포격 강화Ⅰ",
 		descrip = "",
 		max_level = 1,
 		skin_id = 0,
@@ -7467,7 +7467,7 @@ pg.base.transform_data_template = {
 	},
 	[6105] = {
 		level_limit = 35,
-		name = "防空炮改良I",
+		name = "대공포 강화Ⅰ",
 		descrip = "",
 		max_level = 1,
 		skin_id = 0,
@@ -7501,7 +7501,7 @@ pg.base.transform_data_template = {
 	},
 	[6106] = {
 		level_limit = 40,
-		name = "防空强化I",
+		name = "대공 강화Ⅰ",
 		descrip = "",
 		max_level = 1,
 		skin_id = 0,
@@ -7535,7 +7535,7 @@ pg.base.transform_data_template = {
 	},
 	[6107] = {
 		level_limit = 50,
-		name = "舰体改良II",
+		name = "함체 개수Ⅱ",
 		descrip = "",
 		max_level = 2,
 		skin_id = 0,
@@ -7579,7 +7579,7 @@ pg.base.transform_data_template = {
 	},
 	[6108] = {
 		level_limit = 55,
-		name = "命中强化II",
+		name = "명중 강화Ⅱ",
 		descrip = "",
 		max_level = 2,
 		skin_id = 0,
@@ -7624,7 +7624,7 @@ pg.base.transform_data_template = {
 	},
 	[6109] = {
 		level_limit = 70,
-		name = "主炮改良II",
+		name = "주포 개수Ⅱ",
 		descrip = "",
 		max_level = 2,
 		skin_id = 0,
@@ -7668,7 +7668,7 @@ pg.base.transform_data_template = {
 	},
 	[6110] = {
 		level_limit = 75,
-		name = "炮击强化II",
+		name = "포격 강화Ⅱ",
 		descrip = "",
 		max_level = 2,
 		skin_id = 0,
@@ -7721,7 +7721,7 @@ pg.base.transform_data_template = {
 	},
 	[6111] = {
 		level_limit = 85,
-		name = "近代化改造",
+		name = "근대화 개수",
 		descrip = "",
 		max_level = 1,
 		skin_id = 105109,
@@ -7762,7 +7762,7 @@ pg.base.transform_data_template = {
 	},
 	[6112] = {
 		level_limit = 90,
-		name = "战术启发",
+		name = "전술 계발",
 		descrip = "",
 		max_level = 1,
 		skin_id = 0,

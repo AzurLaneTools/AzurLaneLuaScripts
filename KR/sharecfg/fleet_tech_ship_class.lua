@@ -1519,7 +1519,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30207] = {
 		shiptype = 2,
-		name = "渡良濑",
+		name = "와타라세",
 		t_level = 6,
 		id = 30207,
 		t_level_1 = 87,
@@ -1904,7 +1904,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[30710] = {
 		shiptype = 7,
-		name = "天城",
+		name = "아마기",
 		t_level = 7,
 		id = 30710,
 		t_level_1 = 104,
@@ -3718,7 +3718,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[970405] = {
 		shiptype = 4,
-		name = "比叡·META",
+		name = "히에이·META",
 		t_level = 3,
 		id = 970405,
 		t_level_1 = 11,

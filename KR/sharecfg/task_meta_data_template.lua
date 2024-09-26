@@ -2372,7 +2372,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970405",
 		id = 100331,
 		target_num = 1,
-		desc = "使用{namecode:232}获得1次胜利"
+		desc = "히에이·META를 편성한 함대로 전투에서 1회 승리"
 	},
 	[100332] = {
 		target_id = "30",
@@ -2380,7 +2380,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970405",
 		id = 100332,
 		target_num = 1,
-		desc = "使用{namecode:232}击破等级＞30的敌方1次"
+		desc = "히에이·META를 편성한 함대로 전투에서 Lv30 이상의 적 함대 격파"
 	},
 	[100333] = {
 		target_id = "55",
@@ -2388,7 +2388,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970405",
 		id = 100333,
 		target_num = 1,
-		desc = "使用{namecode:232}击破等级＞55的敌方1次"
+		desc = "히에이·META를 편성한 함대로 전투에서 Lv55 이상의 적 함대 격파"
 	},
 	[100334] = {
 		target_id = "80",
@@ -2396,7 +2396,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970405",
 		id = 100334,
 		target_num = 1,
-		desc = "使用{namecode:232}击破等级＞80的敌方1次"
+		desc = "히에이·META를 편성한 함대로 전투에서 Lv80 이상의 적 함대 격파"
 	},
 	[100335] = {
 		target_id = "100",
@@ -2404,7 +2404,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970405",
 		id = 100335,
 		target_num = 1,
-		desc = "使用{namecode:232}击破等级＞100的敌方1次"
+		desc = "히에이·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
 	},
 	[100341] = {
 		target_id = "0",
@@ -3188,7 +3188,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970405",
 		id = 200241,
 		target_num = 1,
-		desc = "大型作战内使用{namecode:232}获得1次胜利"
+		desc = "대형작전에서 히에이·META를 포함한 함대로 1회 승리"
 	},
 	[200242] = {
 		target_id = "70",
@@ -3196,7 +3196,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970405",
 		id = 200242,
 		target_num = 1,
-		desc = "大型作战内使用{namecode:232}击破等级＞70的敌方1次"
+		desc = "대형작전에서 히에이·META를 포함한 함대로 Lv70 이상의 적 격파"
 	},
 	[200243] = {
 		target_id = "90",
@@ -3204,7 +3204,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970405",
 		id = 200243,
 		target_num = 1,
-		desc = "大型作战内使用{namecode:232}击破等级＞90的敌方1次"
+		desc = "대형작전에서 히에이·META를 포함한 함대로 Lv90 이상의 적 격파"
 	},
 	[200244] = {
 		target_id = "100",
@@ -3212,7 +3212,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970405",
 		id = 200244,
 		target_num = 1,
-		desc = "大型作战内使用{namecode:232}击破等级＞100的敌方1次"
+		desc = "대형작전에서 히에이·META를 포함한 함대로 Lv100 이상의 적 격파"
 	},
 	[200251] = {
 		target_id = "0",
