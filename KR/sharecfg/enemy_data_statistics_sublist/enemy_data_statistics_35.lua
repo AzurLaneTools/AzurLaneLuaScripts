@@ -425,7 +425,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[90983] = {
 		cannon = 0,
-		name = "나가토·META",
+		name = "长门·META",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

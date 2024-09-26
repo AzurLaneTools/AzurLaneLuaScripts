@@ -2314,7 +2314,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970506",
 		id = 100321,
 		target_num = 1,
-		desc = "나가토·META를 편성한 함대로 전투에서 1회 승리"
+		desc = "使用{namecode:230}获得1次胜利"
 	},
 	[100322] = {
 		target_id = "30",
@@ -2322,7 +2322,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970506",
 		id = 100322,
 		target_num = 1,
-		desc = "나가토·META를 편성한 함대로 전투에서 Lv30 이상의 적 함대 격파"
+		desc = "使用{namecode:230}击破等级＞30的敌方1次"
 	},
 	[100323] = {
 		target_id = "55",
@@ -2330,7 +2330,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970506",
 		id = 100323,
 		target_num = 1,
-		desc = "나가토·META를 편성한 함대로 전투에서 Lv55 이상의 적 함대 격파"
+		desc = "使用{namecode:230}击破等级＞55的敌方1次"
 	},
 	[100324] = {
 		target_id = "80",
@@ -2338,7 +2338,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970506",
 		id = 100324,
 		target_num = 1,
-		desc = "나가토·META를 편성한 함대로 전투에서 Lv80 이상의 적 함대 격파"
+		desc = "使用{namecode:230}击破等级＞80的敌方1次"
 	},
 	[100325] = {
 		target_id = "100",
@@ -2346,7 +2346,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970506",
 		id = 100325,
 		target_num = 1,
-		desc = "나가토·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
+		desc = "使用{namecode:230}击破等级＞100的敌方1次"
 	},
 	[200001] = {
 		target_id = "0",
@@ -3058,7 +3058,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970506",
 		id = 200231,
 		target_num = 1,
-		desc = "대형작전에서 나가토·META를 포함한 함대로 1회 승리"
+		desc = "大型作战内使用{namecode:230}获得1次胜利"
 	},
 	[200232] = {
 		target_id = "70",
@@ -3066,7 +3066,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970506",
 		id = 200232,
 		target_num = 1,
-		desc = "대형작전에서 나가토·META를 포함한 함대로 Lv70 이상의 적 격파"
+		desc = "大型作战内使用{namecode:230}击破等级＞70的敌方1次"
 	},
 	[200233] = {
 		target_id = "90",
@@ -3074,7 +3074,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970506",
 		id = 200233,
 		target_num = 1,
-		desc = "대형작전에서 나가토·META를 포함한 함대로 Lv90 이상의 적 격파"
+		desc = "大型作战内使用{namecode:230}击破等级＞90的敌方1次"
 	},
 	[200234] = {
 		target_id = "100",
@@ -3082,6 +3082,6 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970506",
 		id = 200234,
 		target_num = 1,
-		desc = "대형작전에서 나가토·META를 포함한 함대로 Lv100 이상의 적 격파"
+		desc = "大型作战内使用{namecode:230}击破等级＞100的敌方1次"
 	}
 }

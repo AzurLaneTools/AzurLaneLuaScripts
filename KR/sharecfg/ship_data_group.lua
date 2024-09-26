@@ -33562,7 +33562,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"META 연구실·정보 동기화",
+				"限时活动：META研究室-资讯同步",
 				{
 					"METACHARACTER",
 					{

@@ -460,12 +460,12 @@ pg.item_data_frame = {
 		scene = {}
 	},
 	[332] = {
-		name = "소생의 불꽃",
+		name = "新生之炎",
 		gain_by = "",
 		time_second = 0,
 		id = 332,
 		time_limit_type = 0,
-		desc = "앞으로 진행되는 이벤트에서 획득할 수 있습니다.",
+		desc = "通过后续活动获得",
 		scene = {}
 	},
 	[401] = {
