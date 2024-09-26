@@ -113,6 +113,10 @@ slot5.GetCommanderHrzIconPath = function(slot0)
 	return "commanderhrz/" .. slot0
 end
 
+slot5.GetCommanderIconPath = function(slot0)
+	return "commandericon/" .. slot0
+end
+
 slot5.GetShipTypeIconPath = function(slot0)
 	return "shiptype/" .. slot0
 end
@@ -422,6 +426,10 @@ slot5.GetCommanderHrzIcon = function(slot0, slot1)
 	return slot0._resCacheList[uv0.GetCommanderHrzIconPath(slot1)]
 end
 
+slot5.GetCommanderIcon = function(slot0, slot1)
+	return slot0._resCacheList[uv0.GetCommanderIconPath(slot1)]
+end
+
 slot5.GetShader = function(slot0, slot1)
 	return pg.ShaderMgr.GetInstance():GetShader(uv0.BATTLE_SHADER[slot1])
 end
@@ -483,7 +491,7 @@ slot5.StartPreload = function(slot0, slot1, slot2)
 	for slot9, slot10 in pairs(slot0._preloadList) do
 		if slot0.GetResName(slot9) == "" or slot0._resCacheList[slot9] ~= nil then
 			slot5()
-		elseif string.find(slot9, "herohrzicon/") or string.find(slot9, "qicon/") or string.find(slot9, "squareicon/") or string.find(slot9, "commanderhrz/") or string.find(slot9, "AircraftIcon/") then
+		elseif string.find(slot9, "herohrzicon/") or string.find(slot9, "qicon/") or string.find(slot9, "squareicon/") or string.find(slot9, "commanderhrz/") or string.find(slot9, "commandericon/") or string.find(slot9, "AircraftIcon/") then
 			slot12, slot13 = HXSet.autoHxShiftPath(slot9, slot11)
 
 			ResourceMgr.Inst:getAssetAsync(slot12, "", typeof(Sprite), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
@@ -692,9 +700,9 @@ slot5.InitPool = function(slot0, slot1, slot2)
 		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 7, 20, false, false):InitSize()
 	elseif slot1 == "UI/combatgridmanskillfloat" then
 		slot0._allPool[slot1] = pg.Pool.New(slot3, slot2, 1, 20, false, false):InitSize()
-	elseif slot1 == "UI/CombatHPBar" then
+	elseif slot1 == "UI/CombatHPBar" .. uv1.Battle.BattleState.GetCombatSkinKey() then
 		uv1.Battle.BattleHPBarManager.GetInstance():Init(slot2, slot3)
-	elseif slot1 == "UI/CombatHPPop" then
+	elseif string.find(slot1, "UI/CombatHPPop") then
 		uv1.Battle.BattlePopNumManager.GetInstance():Init(slot2, slot3)
 	end
 end
@@ -730,8 +738,8 @@ slot5.GetCommonResource = function()
 		uv0.GetFXPath("weaponrange"),
 		uv0.GetUIPath("SkillPainting"),
 		uv0.GetUIPath("MonsterAppearUI"),
-		uv0.GetUIPath("CombatHPBar"),
-		uv0.GetUIPath("CombatHPPop")
+		uv0.GetUIPath("CombatHPBar" .. uv1.Battle.BattleState.GetCombatSkinKey()),
+		uv0.GetUIPath("CombatHPPop" .. uv1.Battle.BattleState.GetCombatSkinKey())
 	}
 end
 
@@ -823,8 +831,10 @@ slot5.GetEnemyResource = function(slot0)
 			if slot6.arg_list.skill_id then
 				if uv0.Battle.BattleDataFunction.GetSkillTemplate(slot7).painting == 1 then
 					uv1[#uv1 + 1] = uv2.GetHrzIcon(uv3.icon)
+					uv1[#uv1 + 1] = uv2.GetSquareIcon(uv3.icon)
 				elseif type(slot9) == "string" then
 					uv1[#uv1 + 1] = uv2.GetHrzIcon(slot9)
+					uv1[#uv1 + 1] = uv2.GetSquareIcon(slot9)
 				end
 			end
 
@@ -1043,6 +1053,7 @@ slot5.GetCommanderResource = function(slot0)
 	slot1 = {}
 	slot2 = slot0[1]
 	slot1[#slot1 + 1] = uv0.GetCommanderHrzIconPath(slot2:getPainting())
+	slot1[#slot1 + 1] = uv0.GetCommanderIconPath(slot2:getPainting())
 	slot3 = slot2:getSkills()[1]:getLevel()
 
 	for slot7, slot8 in ipairs(slot0[2]) do

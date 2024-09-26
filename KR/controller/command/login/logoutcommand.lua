@@ -43,6 +43,7 @@ slot0.execute = function(slot0, slot1)
 	LevelMediator2.prevRefreshBossTimeTime = nil
 	ActivityMainScene.FetchReturnersTime = nil
 	ActivityMainScene.Data2Time = nil
+	COMBAT_SKIN_KEY = nil
 
 	pg.BrightnessMgr.GetInstance():ExitManualMode()
 	pg.SeriesGuideMgr.GetInstance():dispose()
@@ -67,10 +68,12 @@ slot0.execute = function(slot0, slot1)
 			data = slot2
 		}),
 		callback = function ()
-			pg.proxyRegister:Stop()
-			pg.proxyRegister:RemoveProxy(uv0.facade)
+			if pg.proxyRegister then
+				pg.proxyRegister:Stop()
+				pg.proxyRegister:RemoveProxy(uv0.facade)
 
-			pg.proxyRegister = nil
+				pg.proxyRegister = nil
+			end
 
 			uv0.facade:removeCommand(GAME.LOAD_SCENE_DONE)
 		end

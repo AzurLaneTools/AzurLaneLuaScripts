@@ -211,6 +211,10 @@ end
 
 slot0.updateAttireFrame = function(slot0, slot1, slot2)
 	slot0.attireInfo[slot1] = slot2
+
+	if slot1 == AttireConst.TYPE_COMBAT_UI_STYLE then
+		COMBAT_SKIN_KEY = pg.item_data_battleui[slot2].key
+	end
 end
 
 slot0.getAttireByType = function(slot0, slot1)

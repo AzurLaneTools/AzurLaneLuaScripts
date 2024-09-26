@@ -32,7 +32,7 @@ slot0.update = function(slot0, slot1, slot2, slot3)
 	end
 
 	LoadSpriteAsync("chargeicon/" .. slot1:getConfig("picture"), function (slot0)
-		if slot0 then
+		if slot0 and not IsNil(uv0.iconImg) then
 			setImageSprite(uv0.iconImg, slot0, true)
 		end
 	end)

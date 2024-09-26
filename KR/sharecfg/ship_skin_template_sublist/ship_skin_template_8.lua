@@ -3705,7 +3705,7 @@ pg.base.ship_skin_template_8 = {
 		}
 	},
 	[301324] = {
-		name = "낙원, 추억과 솜사탕",
+		name = "솜사탕과 어른의 꿈",
 		id = 301324,
 		desc = "지히간~ 정신 바짝 차려야 해. 우리, 이짜나~ 케이크 먹구, 바께서 핫도그도 먹구, 커피컵도 타구, 유령의 집에도 가구… 또 뭐가 있드라…? 에헤헤, 손 잡고 빨리 가자~♪",
 		illustrator2 = -1,
@@ -12722,6 +12722,120 @@ pg.base.ship_skin_template_8 = {
 						{
 							-0.499,
 							2.417,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301861] = {
+		name = "방과후의 은은한 멜로디",
+		id = 301861,
+		desc = "후... 앗? 지휘관?! 몰래 리코더 연습하는 걸 들켰나... 윽, 다른 사람에게는 알리지 말아줘...",
+		illustrator2 = -1,
+		ship_group = 30186,
+		group_index = 1,
+		prefab = "fengyun_3",
+		painting = "fengyun_3",
+		hand_id = 6,
+		bgm = "",
+		shop_type_id = 4,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "103",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70561,
+		voice_actor = 279,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.402,
+					1.008,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.431,
+					1.023,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.46,
+					1.022,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.512,
+							2.459,
 							0
 						}
 					}

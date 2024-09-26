@@ -136,9 +136,9 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "main",
+		default_bgm = "story-flowerdust-soft",
 		special_bgm = "",
-		bgm = "main"
+		bgm = "story-flowerdust-soft"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
@@ -1555,16 +1555,6 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "story-richang-westdaily"
 	},
-	Dorm3dVolleyballScene = {
-		default_bgm = "main-SeaAndSun",
-		special_bgm = "",
-		bgm = "main-SeaAndSun"
-	},
-	Dorm3dScene = {
-		default_bgm = "story-room-sirius",
-		special_bgm = "",
-		bgm = "story-room-sirius"
-	},
 	RuiFengSpPage = {
 		default_bgm = "story-newsakura",
 		special_bgm = "",
@@ -1589,5 +1579,75 @@ pg.voice_bgm = {
 		default_bgm = "story-nailuo-theme",
 		special_bgm = "",
 		bgm = "story-nailuo-theme"
+	},
+	Japan2024AnniversaryMainPage = {
+		default_bgm = "theme-amagi-cv",
+		special_bgm = "",
+		bgm = "theme-amagi-cv"
+	},
+	Jp7thPtPage = {
+		default_bgm = "story-newsakura",
+		special_bgm = "",
+		bgm = "story-newsakura"
+	},
+	DreamlandFullPreviewScene = {
+		default_bgm = "story-fantasyland-summer",
+		special_bgm = "",
+		bgm = "story-fantasyland-summer"
+	},
+	SeventhInviteJPPage = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "story-musicanniversary-gorgeous"
+	},
+	AnniversarySevenLoginJPPage = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "story-musicanniversary-gorgeous"
+	},
+	TianlangxingEmojiPage = {
+		default_bgm = "story-fantasyland-light",
+		special_bgm = "",
+		bgm = "story-fantasyland-light"
+	},
+	Dorm3dVolleyballScene = {
+		default_bgm = "main-SeaAndSun",
+		special_bgm = "",
+		bgm = "main-SeaAndSun"
+	},
+	Dorm3dRoomScene = {
+		default_bgm = "story-room-sirius",
+		special_bgm = "",
+		bgm = "story-room-sirius"
+	},
+	DormSignPage = {
+		default_bgm = "story-room-sirius",
+		special_bgm = "",
+		bgm = "story-room-sirius"
+	},
+	JavelinDressSkinPage = {
+		default_bgm = "theme-partydress",
+		special_bgm = "",
+		bgm = "theme-partydress"
+	},
+	WorldCruiseTaskPage = {
+		default_bgm = "blueocean-image",
+		special_bgm = "",
+		bgm = "blueocean-image"
+	},
+	WorldCruiseShopPage = {
+		default_bgm = "theme-SeaAndSun-soft",
+		special_bgm = "",
+		bgm = "theme-SeaAndSun-soft"
+	},
+	WorldCruiseAwardPage = {
+		default_bgm = "blueocean-image",
+		special_bgm = "",
+		bgm = "blueocean-image"
+	},
+	Dorm3dScene = {
+		default_bgm = "story-room-sirius",
+		special_bgm = "",
+		bgm = "story-room-sirius"
 	}
 }

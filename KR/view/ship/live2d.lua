@@ -13,6 +13,8 @@ slot0.DRAG_RELATION_XY = 4
 slot0.DRAG_RELATION_IDLE = 5
 slot0.DRAG_CLICK_MANY = 6
 slot0.DRAG_LISTENER_EVENT = 7
+slot0.DRAG_DOWN_TOUCH = 8
+slot0.DRAG_CLICK_PARAMETER = 9
 slot0.ON_ACTION_PLAY = 1
 slot0.ON_ACTION_DRAG_CLICK = 2
 slot0.ON_ACTION_CHANGE_IDLE = 3
@@ -43,6 +45,7 @@ slot0.EVENT_ACTION_ABLE = "event action able"
 slot0.EVENT_ADD_PARAMETER_COM = "event add parameter com "
 slot0.EVENT_REMOVE_PARAMETER_COM = "event remove parameter com "
 slot0.EVENT_CHANGE_IDLE_INDEX = "event change idle index"
+slot0.EVENT_GET_PARAMETER = "event get parameter num"
 slot0.relation_type_drag_x = 101
 slot0.relation_type_drag_y = 102
 slot0.relation_type_action_index = 103
@@ -158,11 +161,9 @@ slot11 = function(slot0, slot1, slot2)
 	end
 
 	if not slot0.isPlaying or slot2 then
-		slot3 = uv1.action2Id[slot1]
+		print(" 开始播放动作id = " .. tostring(slot1))
 
-		print("action id " .. tostring(slot1) .. " → 开始播放动作" .. tostring(slot3))
-
-		if slot3 then
+		if uv1.action2Id[slot1] then
 			slot0.playActionName = slot1
 
 			slot0.liveCom:SetAction(slot3)
@@ -207,10 +208,6 @@ slot14 = function(slot0, slot1, slot2)
 				slot0:setReactPos(tobool(slot9))
 			end
 
-			slot0:onListenerHandle(Live2D.ON_ACTION_PLAY, {
-				action = slot4
-			})
-
 			if slot10 and slot10 == 1 and (not slot4 or slot4 == "") then
 				slot4 = "idle"
 
@@ -218,10 +215,15 @@ slot14 = function(slot0, slot1, slot2)
 			end
 
 			if uv1(slot0, slot4, slot8 or false) then
+				slot0:onListenerHandle(Live2D.ON_ACTION_PLAY, {
+					action = slot4
+				})
 				slot0:applyActiveData(slot2)
 			end
 
 			if slot10 and slot10 == 1 then
+				slot0:live2dActionChange(false)
+			elseif slot4 == "idle" then
 				slot0:live2dActionChange(false)
 			end
 
@@ -235,14 +237,13 @@ slot14 = function(slot0, slot1, slot2)
 
 			if slot2.ableFlag then
 				slot0.tempEnable = slot0.enablePlayActions
-				slot0.enablePlayActions = {
+
+				slot0:setEnableActions({
 					"none action apply"
-				}
+				})
 			else
-				slot0.enablePlayActions = slot0.tempEnable
+				slot0:setEnableActions(slot0.tempEnable or {})
 			end
-		else
-			print("able flag 相同，不执行操作")
 		end
 
 		if slot2.callback then
@@ -254,6 +255,16 @@ slot14 = function(slot0, slot1, slot2)
 		slot0.liveCom:removeParameterValue(slot2.com)
 	elseif slot1 == Live2D.EVENT_CHANGE_IDLE_INDEX then
 		slot0:applyActiveData(slot2)
+	elseif slot1 == Live2D.EVENT_GET_PARAMETER then
+		slot3 = 0
+
+		if slot0.liveCom:GetCubismParameter(slot2.name) then
+			slot3 = slot4.Value
+		end
+
+		if slot2.callback then
+			slot2.callback(slot3)
+		end
 	end
 end
 
@@ -269,7 +280,7 @@ slot15 = function(slot0, slot1)
 	slot0._listenerParametersValue = {}
 
 	if slot0._listenerStepIndex and slot0._listenerStepIndex == 0 then
-		slot0._listenerStepIndex = 5
+		slot0._listenerStepIndex = 3
 
 		for slot5, slot6 in ipairs(slot0._listenerParameters) do
 			slot0._listenerParametersValue[slot6.name] = slot6.Value
@@ -569,9 +580,8 @@ slot17 = function(slot0, slot1)
 		slot0.delayChangeParamater = nil
 	end
 
-	slot0.enablePlayActions = {}
-	slot0.ignorePlayActions = {}
-
+	slot0:setEnableActions({})
+	slot0:setIgnoreActions({})
 	slot0:changeIdleIndex(0)
 	slot0:loadLive2dData()
 end
@@ -696,30 +706,30 @@ slot0.loadLive2dData = function(slot0)
 			if slot1 and slot4.idle_enable and #slot4.idle_enable > 0 then
 				for slot8, slot9 in ipairs(slot4.idle_enable) do
 					if slot9[1] == slot1 then
-						slot0.enablePlayActions = slot9[2]
+						slot0:setEnableActions(slot9[2])
 					end
 				end
 			elseif slot3 and slot3 >= 1 and slot4.active_list then
-				slot0.enablePlayActions = slot4.active_list[slot3].enable and slot4.active_list[slot3].enable or {}
+				slot0:setEnableActions(slot4.active_list[slot3].enable and slot4.active_list[slot3].enable or {})
 			else
-				slot0.enablePlayActions = slot4.enable and slot4.enable or {}
+				slot0:setEnableActions(slot4.enable and slot4.enable or {})
 			end
 
 			if slot1 and slot4.idle_ignore and #slot4.idle_ignore > 0 then
 				for slot8, slot9 in ipairs(slot4.idle_ignore) do
 					if slot9[1] == slot1 then
-						slot0.ignorePlayActions = slot9[2]
+						slot0:setIgnoreActions(slot9[2])
 					end
 				end
 			elseif slot3 and slot3 >= 1 and slot4.active_list then
-				slot0.ignorePlayActions = slot4.active_list[slot3].ignore and slot4.active_list[slot3].ignore or {}
+				slot0:setIgnoreActions(slot4.active_list[slot3].ignore and slot4.active_list[slot3].ignore or {})
 			else
-				slot0.ignorePlayActions = slot4.ignore and slot4.ignore or {}
+				slot0:setIgnoreActions(slot4.ignore and slot4.ignore or {})
 			end
 		end
 	else
-		slot0.enablePlayActions = {}
-		slot0.ignorePlayActions = {}
+		slot0:setEnableActions({})
+		slot0:setIgnoreActions({})
 	end
 
 	if slot0.drags then
@@ -824,17 +834,19 @@ end
 slot0.TriggerAction = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:CheckStopDrag()
 
-	slot0.finishActionCB = slot2
-	slot0.animEventCB = slot4
+	if uv0(slot0, slot1, slot3) then
+		slot0.finishActionCB = slot2
+		slot0.animEventCB = slot4
+	end
 
-	return uv0(slot0, slot1, slot3)
+	return slot5
 end
 
 slot0.Reset = function(slot0)
 	slot0:live2dActionChange(false)
+	slot0:setEnableActions({})
+	slot0:setIgnoreActions({})
 
-	slot0.enablePlayActions = {}
-	slot0.ignorePlayActions = {}
 	slot0.ableFlag = nil
 end
 
@@ -866,27 +878,25 @@ slot0.applyActiveData = function(slot0, slot1)
 	slot4 = slot2.idle_enable
 	slot5 = slot2.idle_ignore
 	slot6 = slot2.ignore
-
-	print("active data idle = " .. tostring(slot2.idle and slot2.idle or slot1.idle))
-
+	slot7 = slot2.idle and slot2.idle or slot1.idle
 	slot8 = slot2.repeatFlag
 
 	if slot2.enable and #slot3 >= 0 then
-		slot0.enablePlayActions = slot3
+		slot0:setEnableActions(slot3)
 	elseif slot4 and #slot4 > 0 then
 		for slot12, slot13 in ipairs(slot4) do
 			if slot13[1] == slot7 then
-				slot0.enablePlayActions = slot13[2]
+				slot0:setEnableActions(slot13[2])
 			end
 		end
 	end
 
 	if slot6 and #slot6 >= 0 then
-		slot0.ignorePlayActions = slot6
+		slot0:setIgnoreActions(slot6)
 	elseif slot5 and #slot5 > 0 then
 		for slot12, slot13 in ipairs(slot5) do
 			if slot13[1] == slot7 then
-				slot0.ignorePlayActions = slot13[2]
+				slot0:setIgnoreActions(slot13[2])
 			end
 		end
 	end
@@ -922,6 +932,14 @@ slot0.applyActiveData = function(slot0, slot1)
 
 		slot0:saveLive2dData()
 	end
+end
+
+slot0.setIgnoreActions = function(slot0, slot1)
+	slot0.ignorePlayActions = slot1 and slot1 or {}
+end
+
+slot0.setEnableActions = function(slot0, slot1)
+	slot0.enablePlayActions = slot1 and slot1 or {}
 end
 
 slot0.changeIdleIndex = function(slot0, slot1)

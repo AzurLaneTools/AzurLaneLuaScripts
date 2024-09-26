@@ -1647,5 +1647,13 @@ pg.voice_actor_CN = {
 	[425] = {
 		actor_name = "츠키시로 히카",
 		code = 425
+	},
+	[426] = {
+		actor_name = "直田姬奈",
+		code = 426
+	},
+	[427] = {
+		actor_name = "涩谷彩乃",
+		code = 427
 	}
 }

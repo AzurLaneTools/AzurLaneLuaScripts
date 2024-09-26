@@ -191,7 +191,9 @@ slot0._TriggerEvent = function(slot0, slot1)
 			slot3(true)
 		end
 
-		slot0.live2dChar:TriggerAction(slot10, nil, , slot3)
+		if not slot0.live2dChar:TriggerAction(slot10, nil, , slot3) then
+			slot0.actionWaiting = false
+		end
 	end
 end
 

@@ -1474,18 +1474,19 @@ slot6 = {
 	[slot5.TYPESSSS] = "MapBuilderSSSS",
 	[slot5.TYPEATELIER] = "MapBuilderAtelier",
 	[slot5.TYPESENRANKAGURA] = "MapBuilderSenrankagura",
-	[slot5.TYPESP] = "MapBuilderSP"
+	[slot5.TYPESP] = "MapBuilderSP",
+	[slot5.TYPESPFULL] = "MapBuilderSPFull"
 }
 
 slot0.SwitchMapBuilder = function(slot0, slot1)
 	if slot0.mapBuilder and slot0.mapBuilder:GetType() ~= slot1 then
-		slot0.mapBuilder:Hide()
+		slot0.mapBuilder.buffer:Hide()
 	end
 
 	slot2 = slot0:GetMapBuilderInBuffer(slot1)
 	slot0.mapBuilder = slot2
 
-	slot2:Show()
+	slot2.buffer:Show()
 end
 
 slot0.GetMapBuilderInBuffer = function(slot0, slot1)
@@ -1512,12 +1513,22 @@ slot0.updateMap = function(slot0, slot1)
 		setActive(slot10, slot10.name == slot5)
 	end
 
-	slot0:SwitchMapBuilder(slot0.contextData.map:getConfig("ui_type"))
-	slot0.mapBuilder:UpdateMapVO(slot2)
-	slot0.mapBuilder:UpdateView()
-	slot0.mapBuilder:UpdateMapItems()
 	slot0:SwitchMapBG(slot2, slot1)
 	slot0:PlayBGM()
+
+	slot6 = slot0.contextData.map
+
+	slot0:SwitchMapBuilder(slot6:getConfig("ui_type"))
+	seriesAsync({
+		function (slot0)
+			uv0.mapBuilder:CallbackInvoke(slot0)
+		end,
+		function (slot0)
+			uv0.mapBuilder:UpdateMapVO(uv1)
+			uv0.mapBuilder:UpdateView()
+			uv0.mapBuilder:UpdateMapItems()
+		end
+	})
 end
 
 slot0.UpdateSwitchMapButton = function(slot0)
@@ -1899,8 +1910,6 @@ slot0.switchToChapter = function(slot0, slot1)
 	end
 
 	slot0:setChapter(slot1)
-	setActive(slot0.clouds, false)
-	slot0.mapBuilder:HideFloat()
 
 	slot0.leftCanvasGroup.blocksRaycasts = false
 	slot0.rightCanvasGroup.blocksRaycasts = false
@@ -1920,6 +1929,11 @@ slot0.switchToChapter = function(slot0, slot1)
 	slot0.levelStageView:ActionInvoke("SetSeriesOperation", function ()
 		seriesAsync({
 			function (slot0)
+				uv0.mapBuilder:CallbackInvoke(slot0)
+			end,
+			function (slot0)
+				setActive(uv0.clouds, false)
+				uv0.mapBuilder:HideFloat()
 				pg.UIMgr.GetInstance():BlurPanel(uv0.topPanel, false, {
 					blurCamList = {
 						pg.UIMgr.CameraUI
@@ -2107,10 +2121,17 @@ slot0.switchToMap = function(slot0, slot1)
 	end
 
 	slot0:SwitchMapBG(slot0.contextData.map)
-	slot0.mapBuilder:Show()
-	slot0.mapBuilder:UpdateView()
-	slot0.mapBuilder:UpdateMapItems()
 	slot0:PlayBGM()
+	seriesAsync({
+		function (slot0)
+			uv0.mapBuilder:CallbackInvoke(slot0)
+		end,
+		function (slot0)
+			uv0.mapBuilder:Show()
+			uv0.mapBuilder:UpdateView()
+			uv0.mapBuilder:UpdateMapItems()
+		end
+	})
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.topPanel, slot0._tf)
 	pg.playerResUI:SetActive({
 		active = false

@@ -339,7 +339,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 429
+		key_value = 431
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1910,7 +1910,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 428
+		key_value = 432
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -3599,10 +3599,61 @@ pg.gameset = {
 			}
 		}
 	},
+	boss_single_daily = {
+		key_value = 0,
+		description = {
+			5261,
+			3
+		}
+	},
+	main_scene_silent_time = {
+		description = "",
+		key_value = 60
+	},
 	unoccupied_ship_nationality = {
 		key_value = 0,
 		description = {
 			97
+		}
+	},
+	loveletter_item_new = {
+		key_value = 0,
+		description = {
+			{
+				2018,
+				44011,
+				73
+			},
+			{
+				2019,
+				44012,
+				241
+			},
+			{
+				2020,
+				44013,
+				490
+			},
+			{
+				2021,
+				44014,
+				871
+			},
+			{
+				2022,
+				44015,
+				4254
+			},
+			{
+				2023,
+				44016,
+				4686
+			},
+			{
+				2024,
+				44017,
+				5201
+			}
 		}
 	},
 	loveletter_item_old_year = {
@@ -3620,5 +3671,82 @@ pg.gameset = {
 				2024
 			}
 		}
+	},
+	monopoly2024_bubble_time = {
+		description = "",
+		key_value = 5
+	},
+	activity_town_bubble = {
+		key_value = 0,
+		description = {
+			{
+				5400
+			},
+			{
+				3,
+				1500,
+				{
+					10000,
+					9000,
+					8000
+				}
+			}
+		}
+	},
+	activity_town_favor = {
+		description = "",
+		key_value = 1
+	},
+	activity_town_param = {
+		key_value = 0,
+		description = {
+			{
+				8,
+				65011
+			},
+			1000000,
+			5
+		}
+	},
+	activity_town_special_work = {
+		description = "",
+		key_value = 8
+	},
+	no_share_skin_tip = {
+		key_value = 0,
+		description = {
+			{
+				{
+					30405,
+					"no_share_skin_tianchengzhanlie"
+				},
+				{
+					30715,
+					"no_share_skin_tianchenghangmu"
+				}
+			},
+			{
+				{
+					30507,
+					"no_share_skin_jiahehangmu"
+				},
+				{
+					30702,
+					"no_share_skin_jiahezhanlie"
+				}
+			}
+		}
+	},
+	new_auto_unlock_combat_ui = {
+		description = "101|103",
+		key_value = 0
+	},
+	cuise_shop_type2_limit_num = {
+		description = "",
+		key_value = 4
+	},
+	battlepass_level = {
+		description = "",
+		key_value = 50
 	}
 }

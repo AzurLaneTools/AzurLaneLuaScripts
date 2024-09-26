@@ -1611,10 +1611,45 @@ pg.name_code = {
 		nation = 0
 	},
 	[230] = {
-		name = "长门·META",
+		name = "나가토·META",
 		type = 1,
 		id = 230,
-		code = "鲨·META",
+		code = "나가토·META",
+		nation = 0
+	},
+	[231] = {
+		name = "渡良濑",
+		type = 1,
+		id = 231,
+		code = "獭",
+		nation = 0
+	},
+	[232] = {
+		name = "比叡·META",
+		type = 1,
+		id = 232,
+		code = "鲟·META",
+		nation = 0
+	},
+	[233] = {
+		name = "绫濑",
+		type = 1,
+		id = 233,
+		code = "狑",
+		nation = 0
+	},
+	[234] = {
+		name = "凉波",
+		type = 1,
+		id = 234,
+		code = "椋",
+		nation = 0
+	},
+	[237] = {
+		name = "凤翔·META",
+		type = 1,
+		id = 237,
+		code = "凤·META",
 		nation = 0
 	},
 	[250] = {

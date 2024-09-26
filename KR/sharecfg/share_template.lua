@@ -317,7 +317,7 @@ pg.share_template = {
 		}
 	},
 	{
-		description = "#碧蓝航线#",
+		description = "#벽람항로#",
 		name = "3d宿舍拍照分享界面",
 		deck = 2,
 		move_comps = "",

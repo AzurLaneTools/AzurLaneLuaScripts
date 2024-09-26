@@ -272,6 +272,12 @@ slot0.execute = function(slot0, slot1)
 									count = uv1
 								}
 							})
+						end,
+						[ShopArgs.CruiseSkin] = function ()
+							uv0:GetNormalByID(uv1):increaseBuyCount()
+						end,
+						[ShopArgs.CruiseGearSkin] = function ()
+							uv0:GetNormalByID(uv1):increaseBuyCount()
 						end
 					})
 				end
@@ -280,6 +286,10 @@ slot0.execute = function(slot0, slot1)
 
 				if uv0.group > 0 then
 					uv8:updateNormalGroupList(uv0.group, uv0.group_buy_count)
+				end
+
+				if uv0.genre == ShopArgs.CruiseSkin or uv0.genre == ShopArgs.CruiseGearSkin then
+					uv8:UpdateCruiseShop()
 				end
 
 				switch(uv0.effect_args, {

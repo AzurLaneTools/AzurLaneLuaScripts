@@ -46,8 +46,19 @@ slot0.initScrollRect = function(slot0, slot1, slot2, slot3)
 		slot1 = ChargeCard.New(slot0)
 
 		onButton(uv0, slot1.tr, function ()
-			if uv0.goods:isChargeType() and uv0.goods:isTecShipShowGift() then
-				uv1:emit(ChargeMediator.OPEN_TEC_SHIP_GIFT_SELL_LAYER, uv0.goods, uv1.chargedList)
+			if uv0.goods:isChargeType() then
+				slot1 = uv0.goods
+
+				switch(slot1:getShowType(), {
+					[Goods.SHOW_TYPE_TECH] = function ()
+						uv0:emit(ChargeMediator.OPEN_TEC_SHIP_GIFT_SELL_LAYER, uv1.goods, uv0.chargedList)
+					end,
+					[Goods.SHOW_TYPE_BATTLE_UI] = function ()
+						uv0:emit(ChargeMediator.OPEN_BATTLE_UI_SELL_LAYER, uv1.goods, uv0.chargedList)
+					end
+				}, function ()
+					uv0:confirm(uv1.goods)
+				end)
 			else
 				uv1:confirm(uv0.goods)
 			end
@@ -96,64 +107,32 @@ slot0.confirm = function(slot0, slot1)
 		slot4 = (table.contains(slot0.firstChargeIds, slot1.id) or slot1:firstPayDouble()) and 4 or slot1:getConfig("tag")
 
 		if slot1:isMonthCard() or slot1:isGiftBox() or slot1:isItemBox() or slot1:isPassItem() then
-			slot5 = underscore.map(slot1:getConfig("extra_service_item"), function (slot0)
-				return Drop.Create(slot0)
-			end)
-			slot6 = nil
+			slot5 = slot1:GetExtraServiceItem()
+			slot6 = slot1:GetExtraDrop()
+			slot7 = slot1:GetBonusItem()
+			slot8, slot9 = nil
 
 			if slot1:isPassItem() then
-				slot7 = slot1:getConfig("sub_display")
-				slot8 = slot7[1]
-				slot6 = Drop.New({
-					type = DROP_TYPE_VITEM,
-					id = pg.battlepass_event_pt[slot8].pt,
-					count = slot7[2]
-				})
-				slot5 = PlayerConst.MergePassItemDrop(underscore.map(pg.battlepass_event_pt[slot8].award_pay, function (slot0)
-					return Drop.Create(pg.battlepass_event_award[slot0].drop_client)
-				end))
-			end
-
-			slot7 = slot1:getConfig("gem") + slot1:getConfig("extra_gem")
-			slot8 = nil
-
-			if slot1:isMonthCard() then
-				slot8 = Drop.New({
-					type = DROP_TYPE_RESOURCE,
-					id = PlayerConst.ResDiamond,
-					count = slot7
-				})
-			elseif slot7 > 0 then
-				table.insert(slot5, Drop.New({
-					type = DROP_TYPE_RESOURCE,
-					id = PlayerConst.ResDiamond,
-					count = slot7
-				}))
-			end
-
-			slot9, slot10 = nil
-
-			if slot1:isPassItem() then
-				slot9 = i18n("battlepass_pay_tip")
+				slot8 = i18n("battlepass_pay_tip")
 			elseif slot1:isMonthCard() then
-				slot9 = i18n("charge_title_getitem_month")
-				slot10 = i18n("charge_title_getitem_soon")
+				slot8 = i18n("charge_title_getitem_month")
+				slot9 = i18n("charge_title_getitem_soon")
 			else
-				slot9 = i18n("charge_title_getitem")
+				slot8 = i18n("charge_title_getitem")
 			end
 
 			slot0:emit(ChargeMediator.OPEN_CHARGE_ITEM_PANEL, {
 				isChargeType = true,
 				icon = "chargeicon/" .. slot1:getConfig("picture"),
 				name = slot1:getConfig("name_display"),
-				tipExtra = slot9,
+				tipExtra = slot8,
 				extraItems = slot5,
 				price = slot1:getConfig("money"),
 				isLocalPrice = slot1:IsLocalPrice(),
 				tagType = slot4,
 				isMonthCard = slot1:isMonthCard(),
-				tipBonus = slot10,
-				bonusItem = slot8,
+				tipBonus = slot9,
+				bonusItem = slot7,
 				extraDrop = slot6,
 				descExtra = slot1:getConfig("descrip_extra"),
 				limitArgs = slot1:getConfig("limit_args"),
@@ -225,16 +204,10 @@ slot0.updateGiftGoodsVOList = function(slot0)
 	slot1 = RefluxShopView.getAllRefluxPackID()
 
 	for slot6, slot7 in pairs(pg.pay_data_display.all) do
-		if not table.contains(slot1, slot7) and (slot2[slot7].extra_service == Goods.ITEM_BOX or slot9 == Goods.PASS_ITEM) then
-			if Goods.Create({
-				shop_id = slot7
-			}, Goods.TYPE_CHARGE):isTecShipGift() then
-				if slot10:isTecShipShowGift() and slot0:fliteTecShipGift(slot10) then
-					table.insert(slot0.giftGoodsVOList, slot10)
-				end
-			else
-				table.insert(slot0.giftGoodsVOList, slot10)
-			end
+		if not table.contains(slot1, slot7) and (slot2[slot7].extra_service == Goods.ITEM_BOX or slot9 == Goods.PASS_ITEM) and slot0:filterLimitTypeGoods(Goods.Create({
+			shop_id = slot7
+		}, Goods.TYPE_CHARGE)) then
+			table.insert(slot0.giftGoodsVOList, slot10)
 		end
 	end
 
@@ -379,37 +352,52 @@ slot0.reUpdateAll = function(slot0)
 	slot0:updateScrollRect()
 end
 
-slot0.fliteTecShipGift = function(slot0, slot1)
-	if slot1:isChargeType() and slot1:isTecShipShowGift() then
-		if slot1:isLevelLimit(slot0.player.level, true) then
-			return false
-		end
-
-		slot3, slot4, slot5 = nil
-
-		for slot9, slot10 in ipairs(slot1:getSameGroupTecShipGift()) do
-			if slot10:getConfig("limit_arg") == Goods.Tec_Ship_Gift_Arg.Normal then
-				slot3 = slot10
-			elseif slot10:getConfig("limit_arg") == Goods.Tec_Ship_Gift_Arg.High then
-				slot4 = slot10
-			elseif slot10:getConfig("limit_arg") == Goods.Tec_Ship_Gift_Arg.Up then
-				slot5 = slot10
+slot0.filterLimitTypeGoods = function(slot0, slot1)
+	return switch(slot1:getConfig("limit_type"), {
+		[3] = function ()
+			if uv0:getConfig("limit_arg") ~= 0 or uv0:isLevelLimit(uv1.player.level, true) then
+				return false
 			end
-		end
 
-		slot6 = ChargeConst.getBuyCount(slot0.chargedList, slot3.id)
-		slot8 = ChargeConst.getBuyCount(slot0.chargedList, slot5.id)
+			slot0, slot1, slot2 = nil
 
-		if ChargeConst.getBuyCount(slot0.chargedList, slot4.id) > 0 then
-			return false
-		elseif slot6 > 0 and slot8 > 0 then
-			return false
-		else
+			for slot6, slot7 in ipairs(uv0:getSameLimitGroupTecGoods()) do
+				if slot7:getConfig("limit_arg") == 1 then
+					slot1 = slot7
+				elseif slot7:getConfig("limit_arg") == 2 then
+					slot0 = slot7
+				elseif slot7:getConfig("limit_arg") == 3 then
+					slot2 = slot7
+				end
+			end
+
+			slot3 = ChargeConst.getBuyCount(uv1.chargedList, slot0.id)
+			slot5 = ChargeConst.getBuyCount(uv1.chargedList, slot2.id)
+
+			if ChargeConst.getBuyCount(uv1.chargedList, slot1.id) > 0 then
+				return false
+			elseif slot3 > 0 and slot5 > 0 then
+				return false
+			else
+				return true
+			end
+		end,
+		[5] = function ()
+			if uv0:getConfig("limit_arg") ~= 0 or uv0:isLevelLimit(uv1.player.level, true) then
+				return false
+			end
+
+			for slot3, slot4 in ipairs(uv0:getSameLimitGroupTecGoods()) do
+				if slot4:getConfig("limit_arg") ~= 0 and ChargeConst.getBuyCount(uv1.chargedList, slot4.id) > 0 then
+					return false
+				end
+			end
+
 			return true
 		end
-	else
+	}, function ()
 		return true
-	end
+	end)
 end
 
 return slot0

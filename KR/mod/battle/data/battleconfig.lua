@@ -1,5 +1,6 @@
 ys.Battle.BattleConfig = ys.Battle.BattleConfig or {}
 slot0 = ys.Battle.BattleConfig
+slot0.COMBAT_DELAY_ACTIVE = 0.6
 slot0.calcFPS = 30
 slot0.viewFPS = 30
 slot0.AIFPS = 10
@@ -241,7 +242,7 @@ slot0.AMMO_DAMAGE_ENHANCE = {
 	"damageRatioByAmmoType_1",
 	"damageRatioByAmmoType_2",
 	"damageRatioByAmmoType_3",
-	nil,
+	"damageRatioByAmmoType_4",
 	nil,
 	nil,
 	"damageRatioByAmmoType_7"

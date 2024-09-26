@@ -565,12 +565,46 @@ slot0.InitPrivateAndLicence = function(slot0)
 	end
 end
 
-slot0.playExtraVoice = function(slot0)
-	if pg.gameset.login_extra_voice.description and #slot1 > 0 then
-		slot4 = "cv-" .. slot1[math.clamp(math.floor(math.random() * #slot1) + 1, 1, #slot1)]
-		slot0.loginCueSheet = slot4
+slot2 = function()
+	if pg.gameset.login_extra_voice.description and #slot0 > 0 then
+		return "cv-" .. slot0[math.clamp(math.floor(math.random() * #slot0) + 1, 1, #slot0)], "extra"
+	end
 
-		pg.CriMgr.GetInstance():PlayCV_V3(slot4, "extra")
+	return nil, 
+end
+
+slot3 = function(slot0)
+	slot1 = slot0.description[1]
+	slot3 = slot0.description[3]
+
+	if pg.TimeMgr.GetInstance():inTime(slot0.description[2]) then
+		return slot1, "extra" .. math.random(1, slot3)
+	end
+
+	return nil, 
+end
+
+slot0.GetExtraVoiceSheetAndCue = function(slot0)
+	slot1, slot2 = nil
+
+	if pg.gameset.new_login_extra_voice then
+		slot1, slot2 = uv0(slot3)
+	end
+
+	if not slot1 or not slot2 then
+		slot1, slot2 = uv1()
+	end
+
+	return slot1, slot2
+end
+
+slot0.playExtraVoice = function(slot0)
+	slot1, slot2 = slot0:GetExtraVoiceSheetAndCue()
+
+	if slot1 and slot2 then
+		slot0.loginCueSheet = slot1
+
+		pg.CriMgr.GetInstance():PlayCV_V3(slot1, slot2)
 	end
 end
 
@@ -598,7 +632,7 @@ slot0.autoLogin = function(slot0)
 	end
 end
 
-slot2 = {
+slot4 = {
 	{
 		0.403921568627451,
 		1,

@@ -3,21 +3,21 @@ SCENE = {
 	WORLDBOSS = "scene worldboss",
 	ANNIVERSARY_ISLAND_BACKHILL_2023 = "anniversary island 2023",
 	EQUIPMENT_TRANSFORM = "equip transform",
-	NEWMEIXIV4_SKIRMISH = "newmeixiv4 skirmish",
+	DOALINK_ISLAND = "scene DOALink Island",
 	ROGUE_FINAL_REWARD = "ROGUE_FINAL_REWARD",
 	COMMANDERCAT = "scene commander cat room",
 	COMBATLOAD = "scene combat load",
 	KINDERGARTEN = "KINDERGARTEN",
-	MAINUI = "scene mainUI",
+	THIRD_ANNIVERSARY_AKIBA = "third anniversary Akiba",
 	SKINATALAS = "scene skinatals",
-	PROPINFO = "scene prop info",
 	VOTESCHEDULE = "scene vote schedule",
-	PLAYER_INFO = "scene player info",
+	JIUJIU_EXPEDITION = "jiujiu expedition ",
+	Compensate = "compensate",
 	SETTINGS = "scene settings",
 	MONOPOLY_WORLD = "MONOPOLY WORLD",
 	MUSIC_FESTIVAL = "music festival",
 	CRUSING = "crusing",
-	SHIPINFO = "scene shipinfo",
+	RESOLVESHIPS = "scene resolve ships",
 	SUMMARY = "summary",
 	MAIL = "mail",
 	SPRING_TOWN = "springfestival town",
@@ -28,10 +28,10 @@ SCENE = {
 	MONOPOLY_PT = "MONOPOLY_PT",
 	DAILYLEVEL = "scene dailylevel",
 	ANNIVERSARY_ISLAND_SPRING = "anniversary island spring",
-	JIUJIU_EXPEDITION = "jiujiu expedition ",
+	PLAYER_INFO = "scene player info",
 	IDOL_MEDAL_COLLECTION_SCENE2 = "IDOL_MEDAL_COLLECTION_SCENE2",
 	NAVALTACTICS = "naval tactics",
-	THIRD_ANNIVERSARY_AKIBA = "third anniversary Akiba",
+	PROPINFO = "scene prop info",
 	GUILD = "scene guild",
 	SHIP_PROFILE = "ship profile",
 	SIXTH_ANNIVERSARY_JP_HOTSPRING = "SIXTH_ANNIVERSARY_JP_HOTSPRING",
@@ -40,75 +40,78 @@ SCENE = {
 	BACKHILL_FIFTH_ANNIVERSARY = "BACKHILL FIFTH ANNIVERSARY",
 	NEWGUILD = "scene newguild",
 	EQUIP_CODE = "equip code",
-	PUBLIC_GUILD = "public guild",
-	RESOLVESHIPS = "scene resolve ships",
+	AMUSEMENT_PARK = "amusement park",
+	NEWMEIXIV4_SKIRMISH = "newmeixiv4 skirmish",
 	EVENT = "scene event",
 	REFLUX = "reflux",
 	TOWN = "TOWN",
-	SCULPTURE = "sculpture",
+	COURTYARD = "scene court yard",
 	BATTLE = "scene battle",
 	VOTEENTRANCE = "scene vote entrance",
-	ISLAND_TASK = "island task",
+	SCULPTURE = "sculpture",
 	OTHER_WORLD_TEMPLE_SCENE = "other world temple scene",
+	CARD_TOWER_MODE_SELECT = "CARD_TOWER_MODE_SELECT",
 	CARD_TOWER_DIFFICULTY_SELECT = "CARD_TOWER_DIFFICULTY_SELECT",
 	CARD_TOWER_CHARACTER_SELECT_DETAIL = "CARD_TOWER_CHARACTER_SELECT_DETAIL",
-	CARD_TOWER_CELL_SELECT = "CARD_TOWER_CELL_SELECT",
 	DOA_MEDAL_COLLECTION_SCENE = "scene doa medal collection",
+	CARD_TOWER_CELL_SELECT = "CARD_TOWER_CELL_SELECT",
 	REDPACKEY = "scene RED PACKEY",
-	MEDIA_COLLECTION_ENTRANCE = "media collection entrance",
 	ACTIVITY = "scene activity",
 	REDPACKEYLOTTERY = "scene RED PACKEY LOTTERY",
 	BULLETINBOARD = "scene bulletinboard",
-	CRYPTOLALIA = "scene Cryptolalia",
+	MEDIA_COLLECTION_ENTRANCE = "media collection entrance",
 	IDOL_MEDAL_COLLECTION_SCENE = "idol medal collection scene",
-	US_CASTLE_2023 = "US_CASTLE_2023",
+	CRYPTOLALIA = "scene Cryptolalia",
 	BACKYARD = "scene court yard",
-	DOALINK_ISLAND = "scene DOALink Island",
+	US_CASTLE_2023 = "US_CASTLE_2023",
 	RYZA_URBAN_AREA = "RYZA_URBAN_AREA",
+	DEPOTSCENE = "scene depot scene",
 	LAUNCH_BALL_TASK = "LAUNCH_BALL_TASK",
 	HARBOR_BACKHILL = "HARBOR_BACKHILL",
-	TEMPESTA_MEDAL_COLLECTION = "tempesta medal collection",
 	NEWYEAR_BACKHILL = "scene NEWYEAR BACKHILL",
-	CASTLE_MAIN = "CASTLE_MAIN",
+	TEMPESTA_MEDAL_COLLECTION = "tempesta medal collection",
 	WORLD_FLEET_SELECT = "world fleet select",
-	SENRANKAGURA_MEDAL = "senrankagura medal",
+	DREAMLAND_PREVIEW = "DREAMLAND_PREVIEW",
 	SPRING_FESTIVAL_BACKHILL_2023 = "SPRING FESTIVAL BackHill 2023",
-	DORM3D = "dorm 3d",
+	SENRANKAGURA_MEDAL = "senrankagura medal",
 	SECRET_SHIPYARD = "SECRET_SHIPYARD",
+	DORM3D = "dorm 3d",
 	SPRING_FESTIVAL_BACKHILL_2024 = "SPRING_FESTIVAL_BACKHILL_2024",
-	HOLOLIVE_LINKLINK_SELECT_SCENE = "hololive linklink select scene",
 	TRANSITION = "scene transition",
 	DOCKYARD = "scene dockyard",
 	TASK = "scene task",
 	SPWEAPON_STOREHOUSE = "spweapon storehouse",
+	HOLOLIVE_LINKLINK_SELECT_SCENE = "hololive linklink select scene",
 	EDUCATE_DOCK = "EDUCATE_DOCK",
-	EDUCATE_PROFILE = "EDUCATE_PROFILE",
 	SENRANKAGURA_TRAIN = "senrankagura train",
 	CHALLENGE_MAIN_SCENE = "challenge main scene",
 	OTHERWORLD_BACKHILL = "OTHERWORLD_BACKHILL",
-	CARD_TOWER_MODE_SELECT = "CARD_TOWER_MODE_SELECT",
+	ISLAND_TASK = "island task",
+	EDUCATE_PROFILE = "EDUCATE_PROFILE",
 	OTHERWORLD_MAP = "OTHERWORLD_MAP",
 	MUSIC_FESTIVAL3 = "music festival 3",
-	LINER_BACKHILL = "LINER_BACKHILL",
 	WORLD_COLLECTION = "world collection",
 	SNAPSHOT = "snapshot",
 	DORM3D_AR = "DORM3D_AR",
-	DEPOTSCENE = "scene depot scene",
+	LINER_BACKHILL = "LINER_BACKHILL",
 	SELTECHNOLOGY = "seltechnology",
-	COURTYARD = "scene court yard",
+	MAINUI = "scene mainUI",
 	INVITATION = "scene invitation",
 	UPGRADESTAR = "scene upgrade star",
+	SHIPINFO = "scene shipinfo",
 	COWBOY_TOWN_BACKHILL = "COWBOY_TOWN_BACKHILL",
-	DORM3D_VOLLEYBALL = "dorm 3d volleyball",
 	CHARGE_MENU = "scene charge_menu",
 	HOTSPRING = "hotSpring",
 	EQUIPSCENE = "scene equip",
+	CASTLE_MAIN = "CASTLE_MAIN",
+	DORM3D_VOLLEYBALL = "dorm 3d volleyball",
 	TECHNOLOGY_TREE_SCENE = "technology tree scene",
 	FEAST = "scene Feast",
 	NEWYEAR_BACKHILL_2023 = "NEWYEAR BACKHILL 2023",
 	EXERCISEFORMATION = "scene exerciseformation",
 	HOTSPRING_REDPACKET = "hotSpring redpacket",
 	BILLBOARD = "scene billboard",
+	DREAMLAND = "DREAMLAND",
 	ROGUE_FINAL_RESULT = "ROGUE_FINAL_RESULT",
 	OTHER_WORLD_TASK_LAYER = "other world task scene",
 	SHOP = "scene shop",
@@ -157,7 +160,7 @@ SCENE = {
 	SIXTH_ANNIVERSARY_JP = "SIXTH_ANNIVERSARY_JP",
 	COLORING = "scene coloring",
 	SENRANKAGURA_BACKHILL = "SENRANKAGURA_BACKHILL",
-	AMUSEMENT_PARK = "amusement park",
+	PUBLIC_GUILD = "public guild",
 	ACT_BOSS_BATTLE = "act boss battle",
 	NEW_SERVER_CARNIVAL = "new server carnival",
 	CARD_PAIRS = "card pairs",
@@ -181,6 +184,10 @@ SCENE = {
 	AMUSEMENT_PARK2 = "amusement park 2"
 }
 slot0 = {
+	[SCENE.DREAMLAND] = function (slot0, slot1)
+		slot0.mediator = DreamlandMediator
+		slot0.viewComponent = DreamlandScene
+	end,
 	[SCENE.EDUCATE_PROFILE] = function (slot0, slot1)
 		slot0.mediator = EducateCharProfileMediator
 		slot0.viewComponent = EducateCharProfileScene
@@ -630,8 +637,8 @@ slot0 = {
 		slot0.viewComponent = IdolMasterMedalCollectionView
 	end,
 	[SCENE.CRUSING] = function (slot0, slot1)
-		slot0.mediator = CrusingMediator
-		slot0.viewComponent = CrusingScene
+		slot0.mediator = WorldCruiseMediator
+		slot0.viewComponent = WorldCruiseScene
 	end,
 	[SCENE.SSSS_ACADEMY] = function (slot0, slot1)
 		slot0.mediator = BackHillMediatorTemplate
@@ -792,6 +799,10 @@ slot0 = {
 		slot0.mediator = MailMediator
 		slot0.viewComponent = MailScene
 	end,
+	[SCENE.Compensate] = function (slot0, slot1)
+		slot0.mediator = CompensateMediator
+		slot0.viewComponent = CompensateScene
+	end,
 	[SCENE.HARBOR_BACKHILL] = function (slot0, slot1)
 		slot0.mediator = BackHillMediatorTemplate
 		slot0.viewComponent = HarborBackHillScene
@@ -883,6 +894,10 @@ slot0 = {
 	[SCENE.COWBOY_TOWN_BACKHILL] = function (slot0, slot1)
 		slot0.mediator = CowboyTownMediator
 		slot0.viewComponent = CowboyTownBackHillScene
+	end,
+	[SCENE.DREAMLAND_PREVIEW] = function (slot0, slot1)
+		slot0.mediator = FullPreviewMediatorTemplate
+		slot0.viewComponent = DreamlandFullPreviewScene
 	end
 }
 
@@ -1029,6 +1044,22 @@ slot1 = {
 					cmd = "new",
 					callback = slot0
 				})
+			end)
+		end
+
+		seriesAsync(slot2, slot1)
+	end,
+	CompensateMediator = function (slot0, slot1)
+		table.insert({}, function (slot0)
+			WorldConst.ReqWorldCheck(slot0)
+		end)
+
+		if getProxy(CompensateProxy):IsDirty() then
+			table.insert(slot2, function (slot0)
+				pg.m02:sendNotification(GAME.GET_COMPENSATE_LIST, {
+					callback = slot0
+				})
+				uv0:SetDirty(false)
 			end)
 		end
 

@@ -15,6 +15,7 @@ slot0.ACTIVITY_SHOP_GOODS_UPDATED = "ShopsProxy:ACTIVITY_SHOP_GOODS_UPDATED"
 slot0.META_SHOP_GOODS_UPDATED = "ShopsProxy:META_SHOP_GOODS_UPDATED"
 slot0.MEDAL_SHOP_UPDATED = "ShopsProxy:MEDAL_SHOP_UPDATED"
 slot0.QUOTA_SHOP_UPDATED = "ShopsProxy:QUOTA_SHOP_UPDATED"
+slot0.CRUISE_SHOP_UPDATED = "ShopsProxy:CRUISE_SHOP_UPDATED"
 
 slot0.register = function(slot0)
 	slot0.shopStreet = nil
@@ -428,6 +429,22 @@ slot0.updateQuotaShop = function(slot0, slot1, slot2)
 		shop = slot0.quotaShop,
 		reset = slot2
 	})
+end
+
+slot0.SetCruiseShop = function(slot0, slot1)
+	slot0.cruiseShop = slot1
+end
+
+slot0.UpdateCruiseShop = function(slot0)
+	slot0.cruiseShop = CruiseShop.New(slot0:GetNormalList(), slot0:GetNormalGroupList())
+
+	slot0:sendNotification(uv0.CRUISE_SHOP_UPDATED, {
+		shop = slot0.cruiseShop
+	})
+end
+
+slot0.GetCruiseShop = function(slot0)
+	return slot0.cruiseShop
 end
 
 slot0.remove = function(slot0)

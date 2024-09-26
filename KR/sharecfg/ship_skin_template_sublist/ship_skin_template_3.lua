@@ -1,216 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_3 = {
-	[103138] = {
-		name = "Trapper white",
-		id = 103138,
-		desc = "퀸시 녀석, 왜 내가 이렇게 입은 모습을 그렇게 좋아하는 거야? 움직이기도 불편하고, 자질구레한 장식들 때문에 사냥도 못하겠는데... 지휘관을 위해서 입긴 했지만, 정말 괜찮은건가...?",
-		illustrator2 = -1,
-		ship_group = 10313,
-		group_index = 8,
-		prefab = "mingniabolisi_h",
-		painting = "mingniabolisi_h",
-		hand_id = 16,
-		bgm = "",
-		shop_type_id = 9998,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 153,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.584,
-					1.047,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.654,
-					1.041,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.003,
-					-0.004,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.625,
-							2.427,
-							0.14
-						}
-					}
-				}
-			}
-		}
-	},
-	[103140] = {
-		name = "샌프란시스코",
-		id = 103140,
-		desc = "뉴올리언스급 중순양함——{namecode:195}, 현호 CA-38",
-		illustrator2 = -1,
-		ship_group = 10314,
-		group_index = 0,
-		prefab = "jiujinshan",
-		painting = "jiujinshan",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 275,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.266,
-					1.151,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.301,
-					1.144,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.03,
-					0.003,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.596,
-							2.323,
-							0.14
-						}
-					}
-				}
-			}
-		}
-	},
 	[103141] = {
 		name = "Funny Bunny！",
 		id = 103141,
@@ -1715,6 +1505,123 @@ pg.base.ship_skin_template_3 = {
 			ParamEyeBallY = {
 				-0.1,
 				0.1
+			}
+		}
+	},
+	[103245] = {
+		name = "필로 컨설팅",
+		id = 103245,
+		desc = "지휘관, 움직이지 마~ 지금 자세에서는 힘을 안 빼면 나도 움직이기 힘들다구. 순순히 지친 몸을 나한테 맡겨… 좋아, 손에서 팔, 목덜미에서 어깨까지 꾹꾹 눌러줄게!",
+		illustrator2 = -1,
+		ship_group = 10324,
+		group_index = 5,
+		prefab = "bulaimodun_6",
+		painting = "bulaimodun_6",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 26,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "180",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71055,
+		voice_actor = 134,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.202,
+					1.03,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.22,
+					1.132,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.009,
+					-0.004,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.47,
+							2.213,
+							0.14
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				2,
+				-369,
+				0
+			},
+			{
+				0.37
 			}
 		}
 	},
@@ -4884,6 +4791,111 @@ pg.base.ship_skin_template_3 = {
 						{
 							-0.592,
 							2.35,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[105109] = {
+		name = "메릴랜드·改",
+		id = 105109,
+		desc = "메릴랜드, 개조 완료! 흠, 어디가 바뀐 건지는 대충 알았으니, 자세한 건 직접 싸워서 확인해 보면 되겠지! 네 생각도 그렇지?",
+		illustrator2 = -1,
+		ship_group = 10510,
+		group_index = 9,
+		prefab = "malilan_g",
+		painting = "malilan_g",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 162,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.46,
+					1.14,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.46,
+					1.14,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.46,
+					1.14,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.72,
+							2.341,
 							0
 						}
 					}
@@ -12679,6 +12691,104 @@ pg.base.ship_skin_template_3 = {
 			},
 			{
 				1.3
+			}
+		}
+	},
+	[107110] = {
+		name = "인트레피드 ",
+		id = 107110,
+		desc = "에식스급 항공모함—인트레피드, 현호 CV-11 ",
+		illustrator2 = -1,
+		ship_group = 10711,
+		group_index = 0,
+		prefab = "wuwei",
+		painting = "wuwei",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 225,
+		spine_offset = "",
+		illustrator = 8,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.483,
+					1.215,
+					0
+				}
+			},
+			plane = {
+				{
+					1.438,
+					1.204,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.37,
+							0
+						}
+					}
+				}
 			}
 		}
 	}

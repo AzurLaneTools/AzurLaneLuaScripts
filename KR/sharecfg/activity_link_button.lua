@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_link_button = {
 	{
-		param = "0",
+		param = "5562",
 		name = "event_all",
 		text_pic = "text_event_all",
 		type = 3,
@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5543
+			5562
 		}
 	},
 	{
@@ -59,10 +59,10 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5523
+			5560
 		},
 		param = {
-			"COWBOY_TOWN_BACKHILL"
+			"DREAMLAND_PREVIEW"
 		}
 	},
 	[30] = {
@@ -189,6 +189,19 @@ pg.activity_link_button = {
 		group_id = 4,
 		order = 1
 	},
+	[103] = {
+		name = "event_dreamland",
+		time = "stop",
+		text_pic = "text_event_minigame",
+		type = 2,
+		pic = "event_minigame",
+		id = 103,
+		group_id = 9,
+		order = 1,
+		param = {
+			"DREAMLAND"
+		}
+	},
 	[104] = {
 		name = "event_layer",
 		text_pic = "text_event_layer",
@@ -245,6 +258,9 @@ pg.activity_link_button = {
 		event_boss_single = {
 			102
 		},
+		event_dreamland = {
+			103
+		},
 		event_layer = {
 			104
 		}
@@ -264,6 +280,7 @@ pg.activity_link_button = {
 		100,
 		101,
 		102,
+		103,
 		104
 	}
 }

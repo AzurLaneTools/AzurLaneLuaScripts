@@ -201,6 +201,9 @@ pg.memory_group = setmetatable({
 		298,
 		299,
 		300,
+		301,
+		302,
+		303,
 		501,
 		502,
 		503,
@@ -300,6 +303,7 @@ pg.memory_group = setmetatable({
 		599,
 		600,
 		601,
+		602,
 		1000,
 		1001,
 		1002
@@ -4772,7 +4776,7 @@ pg.base.memory_group = {
 		}
 	},
 	[299] = {
-		title = "차안에 모여드는 먼지",
+		title = "현세로 날려드는 먼지",
 		subtype = 1,
 		link_event = 5551,
 		type = 2,
@@ -4801,6 +4805,55 @@ pg.base.memory_group = {
 			3843,
 			3844,
 			3845
+		}
+	},
+	[301] = {
+		title = "드림 랜드의 드림 휴일",
+		subtype = 2,
+		link_event = 5560,
+		type = 2,
+		id = 301,
+		icon = "title_event",
+		memories = {
+			3851,
+			3852,
+			3853,
+			3854,
+			3855,
+			3856,
+			3857,
+			3858,
+			3859,
+			3860,
+			3861,
+			3862,
+			3863,
+			3864,
+			3865,
+			3866,
+			3867,
+			3868,
+			3869
+		}
+	},
+	[302] = {
+		title = "깨워라",
+		subtype = 1,
+		link_event = 5562,
+		type = 2,
+		id = 302,
+		icon = "title_event",
+		memories = " 창홍의 바람"
+	},
+	[303] = {
+		title = "环绕心间之舞",
+		subtype = 3,
+		link_event = 5581,
+		type = 2,
+		id = 303,
+		icon = "title_event",
+		memories = {
+			3908
 		}
 	},
 	[501] = {
@@ -6497,6 +6550,23 @@ pg.base.memory_group = {
 			3725,
 			3726,
 			3727
+		}
+	},
+	[602] = {
+		title = "",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 602,
+		icon = "title_chara_gaoxiong",
+		memories = {
+			3911,
+			3912,
+			3913,
+			3914,
+			3915,
+			3916,
+			3917
 		}
 	},
 	[1000] = {

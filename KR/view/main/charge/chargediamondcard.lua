@@ -57,7 +57,7 @@ slot0.update = function(slot0, slot1, slot2, slot3)
 	end
 
 	LoadSpriteAsync("chargeicon/" .. slot1:getConfig("picture"), function (slot0)
-		if slot0 then
+		if slot0 and not IsNil(uv0.iconImg) then
 			setImageSprite(uv0.iconImg, slot0, true)
 		end
 	end)
@@ -79,29 +79,15 @@ slot0.updateForMonthTF = function(slot0, slot1, slot2)
 		setActive(slot10, not slot1:IsLocalPrice())
 	end
 
-	if #slot1:getConfig("display") == 0 then
-		slot12 = slot1:getConfig("extra_service_item")
-	end
+	if #slot1:GetDropList() > 0 then
+		slot13 = UIItemList.New(slot7, slot6)
 
-	if slot12 and #slot12 > 0 then
-		slot13 = {}
-
-		for slot17, slot18 in ipairs(slot12) do
-			table.insert(slot13, {
-				type = slot18[1],
-				id = slot18[2],
-				count = slot18[3]
-			})
-		end
-
-		slot14 = UIItemList.New(slot7, slot6)
-
-		slot14:make(function (slot0, slot1, slot2)
+		slot13:make(function (slot0, slot1, slot2)
 			if slot0 == UIItemList.EventUpdate then
 				updateDrop(slot2, uv0[slot1 + 1])
 			end
 		end)
-		slot14:align(#slot13)
+		slot13:align(#slot12)
 	end
 
 	if slot2:getCardById(VipCard.MONTH) and not slot13:isExpire() then

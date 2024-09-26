@@ -661,6 +661,106 @@ pg.base.ship_skin_template_7 = {
 			}
 		}
 	},
+	[207025] = {
+		name = "오더 오브 어뮤즈먼트",
+		id = 207025,
+		desc = "각하! 놀러 온 건가? 나는 지금 유원지의 질서 유지를 담당하고 있지! 재밌을 것 같다고…? 그럼 각하, 마음껏 견학해라!",
+		illustrator2 = -1,
+		ship_group = 20702,
+		group_index = 5,
+		prefab = "huangjiafangzhou_6",
+		painting = "huangjiafangzhou_6",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 26,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "181",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71047,
+		voice_actor = 5,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.96,
+					1.144,
+					0
+				}
+			},
+			plane = {
+				{
+					0.94,
+					1.131,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.24,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[207028] = {
 		name = "순백의 수호자",
 		id = 207028,

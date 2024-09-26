@@ -490,5 +490,12 @@ pg.ship_spine_shift = {
 			24,
 			0
 		}
+	},
+	geluosite_3 = {
+		spine = "geluosite_3",
+		mainui_shift = {
+			0,
+			-60
+		}
 	}
 }

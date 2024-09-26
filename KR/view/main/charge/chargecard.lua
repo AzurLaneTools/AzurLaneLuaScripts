@@ -50,7 +50,7 @@ end
 
 slot0.update = function(slot0, slot1, slot2, slot3)
 	slot0.goods = slot1
-	slot4 = slot1:isChargeType() and slot1:isTecShipShowGift()
+	slot4 = slot1:isChargeType() and slot1:getShowType() ~= ""
 
 	setActive(slot0.desc, true)
 	setText(slot0.desc, "")
@@ -220,7 +220,7 @@ slot0.updateCharge = function(slot0, slot1, slot2, slot3)
 	slot0.iconTF.sprite = GetSpriteFromAtlas("chargeicon/1", "")
 
 	LoadSpriteAsync("chargeicon/" .. slot1:getConfig("picture"), function (slot0)
-		if slot0 then
+		if slot0 and not IsNil(uv0.iconTF) then
 			uv0.iconTF.sprite = slot0
 
 			uv0.iconTF:SetNativeSize()
@@ -337,7 +337,7 @@ slot0.updateGemItem = function(slot0, slot1, slot2)
 		slot0.iconTF.sprite = GetSpriteFromAtlas("chargeicon/1", "")
 
 		LoadSpriteAsync(slot10.icon, function (slot0)
-			if slot0 then
+			if slot0 and not IsNil(uv0.iconTF) then
 				uv0.iconTF.sprite = slot0
 
 				uv0.iconTF:SetNativeSize()

@@ -1,6 +1,684 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_15 = {
+	[705040] = {
+		name = "소비에츠카야 벨로루시아",
+		id = 705040,
+		desc = "소비에츠키 소유즈급 전함—소비에츠카야 벨로루시아",
+		illustrator2 = -1,
+		ship_group = 70504,
+		group_index = 0,
+		prefab = "suweiaibeilaluosi",
+		painting = "suweiaibeilaluosi",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 106,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.068,
+					0.997,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.084,
+					1.006,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					2.092,
+					1.003,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							2.346,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[705041] = {
+		name = "시간을 보내는 방법",
+		id = 705041,
+		desc = "자발적으로 책을 읽으며 시간을 보내도 좋고, 수동적으로 손님이 오기를 기다려도 좋고... 좋은 아침이다, 지휘관 동지. 네가 올 줄 알고 있었지, 하하하~",
+		illustrator2 = -1,
+		ship_group = 70504,
+		group_index = 1,
+		prefab = "suweiaibeilaluosi_2",
+		painting = "suweiaibeilaluosi_2",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 20,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "136",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "1101",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70506,
+		voice_actor = 106,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.436,
+					1.004,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.469,
+					0.999,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.453,
+					1.005,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.462,
+							2.446,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[705050] = {
+		name = "소비에츠카야 러시아 ",
+		id = 705050,
+		desc = "소련급 전함—소비에츠카야 러시아 ",
+		illustrator2 = -1,
+		ship_group = 70505,
+		group_index = 0,
+		prefab = "suweiailuoxiya",
+		painting = "suweiailuoxiya",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 85,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.702,
+					1.074,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.691,
+					1.094,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.013,
+					0.032,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.643,
+					1.075,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.38,
+							2.186,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[705051] = {
+		name = "게으른 감시자",
+		id = 705051,
+		desc = "‘설비 구역 이상 없음’——아, 너인가. 민스크와 연락을 하던 중이었다. 무슨 일이라도?",
+		illustrator2 = -1,
+		ship_group = 70505,
+		group_index = 1,
+		prefab = "suweiailuoxiya_2",
+		painting = "suweiailuoxiya_2",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 12,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "130",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70320,
+		voice_actor = 85,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.722,
+					1.026,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.729,
+					1.056,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.016,
+					0.032,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.72,
+					1.056,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.553,
+							2.35,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[705060] = {
+		name = "아르한겔스크",
+		id = 705060,
+		desc = "R급 전함—아르한겔스크",
+		illustrator2 = -1,
+		ship_group = 70506,
+		group_index = 0,
+		prefab = "aerhangeersike",
+		painting = "aerhangeersike",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 306,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.506,
+					1.277,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.426,
+					1.201,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.364,
+					1.116,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.423,
+							2.288,
+							0.53
+						}
+					}
+				}
+			}
+		}
+	},
+	[705061] = {
+		name = "플라이 어나더 데이",
+		id = 705061,
+		desc = "괴도 아르한겔스크가 당신의 보물을 우아하게 가져가 줄게! 나를 잡고 싶으면…… 가만히 보고만 있지 말고 어서 따라와♪",
+		illustrator2 = -1,
+		ship_group = 70506,
+		group_index = 1,
+		prefab = "aerhangeersike_2",
+		painting = "aerhangeersike_2",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 12,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "154",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70671,
+		voice_actor = 306,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.569,
+					1.449,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.498,
+					1.255,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.418,
+					1.46,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.369,
+							2.343,
+							0.53
+						}
+					}
+				}
+			}
+		}
+	},
 	[705062] = {
 		name = "마도 파티시펀트",
 		id = 705062,
@@ -4484,6 +5162,120 @@ pg.base.ship_skin_template_15 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		shop_id = 70894,
+		voice_actor = 379,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.657,
+					1.205,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.623,
+					1.239,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.58,
+					1.203,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[803012] = {
+		name = "화려함의 극치",
+		id = 803012,
+		desc = "아, 지휘관? 혹시 누나를 기다린 거야? 모처럼 드레스를 입었으니 시간을 들여서 몸단장해야지~ 후훗, 지금이야말로 우아하고 귀여운 누나의 모습을 보여줘서…… 어, 어라? 여긴 어떻게 묶는 거지…?",
+		illustrator2 = -1,
+		ship_group = 80301,
+		group_index = 2,
+		prefab = "xufulun_3",
+		painting = "xufulun_3",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 7,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
 		voice_actor = 379,
 		spine_offset = "",
 		illustrator = -1,
@@ -12437,758 +13229,6 @@ pg.base.ship_skin_template_15 = {
 							-0.6,
 							2.26,
 							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[905011] = {
-		name = "자유의 BloodStone",
-		id = 905011,
-		desc = "오늘의 주역이라면 이런 구석에서 술을 마시는 녀석을 찾아서는 안된다고——어차피 왔으니 한 잔 할건가?",
-		illustrator2 = -1,
-		ship_group = 90501,
-		group_index = 1,
-		prefab = "rangbaer_2",
-		painting = "rangbaer_2",
-		hand_id = 1,
-		bgm = "",
-		shop_type_id = 7,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "115",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70243,
-		voice_actor = 148,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.67,
-					0.91,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.66,
-					0.94,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.66,
-					0.97,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.26,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[905012] = {
-		name = "비밀의 Après midi",
-		id = 905012,
-		desc = "네 녀석, 해적의 비밀 기지에 무단 침입하면 어떤 결과가 있을지는 알고 있겠지? ...... 흥, 좋다, 나도 이 곳을 우연히 발견한 것이니. 다른 사람에겐 말하지마.",
-		illustrator2 = -1,
-		ship_group = 90501,
-		group_index = 2,
-		prefab = "rangbaer_3",
-		painting = "rangbaer_3",
-		hand_id = 1,
-		bgm = "",
-		shop_type_id = 6,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "133",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70358,
-		voice_actor = 148,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		tag = {
-			1,
-			2
-		},
-		live2d_offset = {
-			-20,
-			-70,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.392,
-					0.626,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.366,
-					0.63,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.445,
-					0.649,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.26,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			login = 4.1,
-			touch2 = 0.3
-		}
-	},
-	[905013] = {
-		name = "박도 Première neige",
-		id = 905013,
-		desc = "Bonne année... 음, 이런 상황에서는 새해 인사를 해야 맞겠지. 또 무사히 새해를 맞았구나... 너의 지난 1년 간의 노력에 감사할게.",
-		illustrator2 = -1,
-		ship_group = 90501,
-		group_index = 3,
-		prefab = "rangbaer_4",
-		painting = "rangbaer_4",
-		hand_id = 1,
-		bgm = "",
-		shop_type_id = 2,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "126",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70460,
-		voice_actor = 148,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		tag = {
-			1,
-			2
-		},
-		live2d_offset = {
-			-20,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.704,
-					1.064,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.708,
-					1.068,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					-0.006,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.703,
-					1.093,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.534,
-							2.44,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			touch2 = 0.3,
-			mail = 0.3,
-			main_1 = 0.3,
-			login = 7.17,
-			mission_complete = 0.3
-		},
-		l2d_para_range = {
-			ParamAngleX = {
-				-30,
-				6
-			},
-			ParamBodyAngleX = {
-				-10,
-				2
-			},
-			ParamBodyAngleX = {
-				-10,
-				2
-			}
-		}
-	},
-	[905020] = {
-		name = "클레망소",
-		id = 905020,
-		desc = "리슐리외급 전함 - 클레망소",
-		illustrator2 = -1,
-		ship_group = 90502,
-		group_index = 0,
-		prefab = "kelaimengsuo",
-		painting = "kelaimengsuo",
-		hand_id = 1,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 377,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.19,
-					1.26,
-					0
-				}
-			},
-			vicegun = {
-				{
-					2.2,
-					1.27,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					2.2,
-					1.35,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.57,
-							2.28,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[905021] = {
-		name = "브리즈 스플렌디드",
-		id = 905021,
-		desc = "날씨는 맑고, 풍속도 괜찮아. 골프 치기 딱 좋은 날이네. …지휘관? 내가 여기서 경치나 감상하라고 초대한 거 같아? 오늘 하루 이 클레망소와 함께할 각오, 단단히 해둬.",
-		illustrator2 = -1,
-		ship_group = 90502,
-		group_index = 1,
-		prefab = "kelaimengsuo_2",
-		painting = "kelaimengsuo_2",
-		hand_id = 1,
-		bgm = "",
-		shop_type_id = 13,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		bg = "118",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70890,
-		voice_actor = 377,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		tag = {
-			1,
-			2
-		},
-		live2d_offset = {
-			60,
-			-40,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.37,
-					0.91,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.42,
-					0.94,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.43,
-					0.92,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.34,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			use_event = true
-		},
-		l2d_para_range = {
-			ParamAngleX = {
-				-15,
-				15
-			}
-		},
-		ship_l2d_id = {
-			9050211,
-			9050212,
-			9050213
-		},
-		l2d_drag_rate = {
-			0.5,
-			1,
-			1
-		}
-	},
-	[905030] = {
-		name = "가스코뉴(μ장비)",
-		id = 905030,
-		desc = "가스코뉴, 모듈 변경 완료. 명령 변경: 모든 이들에게 노래를——주인의 소망대로.",
-		illustrator2 = -1,
-		ship_group = 90503,
-		group_index = 0,
-		prefab = "jiasikenie_idol",
-		painting = "jiasikenie_idol",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "121",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 98,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.114,
-					0.924,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.02,
-					-0.02,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.135,
-					0.929,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.51,
-							2.33,
-							-0.16
 						}
 					}
 				}

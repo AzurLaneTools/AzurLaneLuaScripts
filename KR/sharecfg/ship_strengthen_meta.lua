@@ -4,7 +4,7 @@ pg.ship_strengthen_meta = {
 		ship_id = 9707011,
 		type = 1,
 		synchronize = 5000,
-		activity_id = 20621,
+		activity_id = 802,
 		repair_total_exp = 5000,
 		itemid = 21901,
 		id = 970701,
@@ -456,7 +456,7 @@ pg.ship_strengthen_meta = {
 		ship_id = 9707021,
 		type = 1,
 		synchronize = 5000,
-		activity_id = 20728,
+		activity_id = 920,
 		repair_total_exp = 5000,
 		itemid = 21902,
 		id = 970702,
@@ -908,7 +908,7 @@ pg.ship_strengthen_meta = {
 		ship_id = 9702011,
 		type = 1,
 		synchronize = 5000,
-		activity_id = 20799,
+		activity_id = 4008,
 		repair_total_exp = 5000,
 		itemid = 21903,
 		id = 970201,
@@ -1360,7 +1360,7 @@ pg.ship_strengthen_meta = {
 		ship_id = 9705011,
 		type = 3,
 		synchronize = 0,
-		activity_id = 20873,
+		activity_id = 7001,
 		repair_total_exp = 5000,
 		itemid = 0,
 		id = 970501,
@@ -1467,7 +1467,7 @@ pg.ship_strengthen_meta = {
 		ship_id = 9707031,
 		type = 1,
 		synchronize = 5000,
-		activity_id = 20874,
+		activity_id = 4100,
 		repair_total_exp = 5000,
 		itemid = 21904,
 		id = 970703,
@@ -1975,7 +1975,7 @@ pg.ship_strengthen_meta = {
 		ship_id = 9706011,
 		type = 3,
 		synchronize = 0,
-		activity_id = 20913,
+		activity_id = 7002,
 		repair_total_exp = 5000,
 		itemid = 0,
 		id = 970601,
@@ -2082,7 +2082,7 @@ pg.ship_strengthen_meta = {
 		ship_id = 9704011,
 		type = 1,
 		synchronize = 5000,
-		activity_id = 20945,
+		activity_id = 4180,
 		repair_total_exp = 6000,
 		itemid = 21905,
 		id = 970401,
@@ -2601,7 +2601,7 @@ pg.ship_strengthen_meta = {
 		ship_id = 9706021,
 		type = 3,
 		synchronize = 0,
-		activity_id = 20969,
+		activity_id = 7003,
 		repair_total_exp = 5000,
 		itemid = 0,
 		id = 970602,
@@ -10228,6 +10228,219 @@ pg.ship_strengthen_meta = {
 			-10
 		}
 	},
+	[970405] = {
+		ship_id = 9704051,
+		type = 2,
+		synchronize = 0,
+		activity_id = 5573,
+		repair_total_exp = 5000,
+		itemid = 0,
+		id = 970405,
+		target = {},
+		award_display = {},
+		unlock_story = {},
+		repair_cannon = {
+			38101,
+			38102,
+			38103,
+			38104,
+			38105,
+			38106,
+			38107,
+			38108,
+			38109,
+			38110,
+			38111,
+			38112,
+			38113,
+			38114,
+			38115,
+			38116,
+			38117,
+			38118,
+			38119,
+			38120,
+			38121,
+			38122,
+			38123,
+			38124,
+			38125,
+			38126,
+			38127,
+			38128,
+			38129,
+			38130
+		},
+		repair_torpedo = {},
+		repair_air = {},
+		repair_reload = {
+			38401,
+			38402,
+			38403,
+			38404,
+			38405,
+			38406,
+			38407,
+			38408,
+			38409,
+			38410,
+			38411,
+			38412,
+			38413,
+			38414,
+			38415,
+			38416,
+			38417,
+			38418,
+			38419,
+			38420
+		},
+		repair_effect = {
+			{
+				10,
+				3801
+			},
+			{
+				25,
+				3802
+			},
+			{
+				45,
+				3803
+			},
+			{
+				70,
+				3804
+			},
+			{
+				100,
+				3805
+			}
+		},
+		buff_list_task = {
+			801390,
+			801400,
+			801410
+		},
+		uiconfig = {
+			6,
+			10,
+			1.1,
+			1.1,
+			-305,
+			-10,
+			-380,
+			-10,
+			-380,
+			-10
+		}
+	},
+	[970604] = {
+		ship_id = 9706041,
+		type = 3,
+		synchronize = 0,
+		activity_id = 7019,
+		repair_total_exp = 5000,
+		itemid = 0,
+		id = 970604,
+		target = {},
+		award_display = {},
+		unlock_story = {},
+		repair_cannon = {},
+		repair_torpedo = {},
+		repair_air = {
+			39301,
+			39302,
+			39303,
+			39304,
+			39305,
+			39306,
+			39307,
+			39308,
+			39309,
+			39310,
+			39311,
+			39312,
+			39313,
+			39314,
+			39315,
+			39316,
+			39317,
+			39318,
+			39319,
+			39320,
+			39321,
+			39322,
+			39323,
+			39324,
+			39325,
+			39326,
+			39327,
+			39328,
+			39329,
+			39330
+		},
+		repair_reload = {
+			39401,
+			39402,
+			39403,
+			39404,
+			39405,
+			39406,
+			39407,
+			39408,
+			39409,
+			39410,
+			39411,
+			39412,
+			39413,
+			39414,
+			39415,
+			39416,
+			39417,
+			39418,
+			39419,
+			39420
+		},
+		repair_effect = {
+			{
+				10,
+				3901
+			},
+			{
+				25,
+				3902
+			},
+			{
+				45,
+				3903
+			},
+			{
+				70,
+				3904
+			},
+			{
+				100,
+				3905
+			}
+		},
+		buff_list_task = {
+			801430,
+			801440
+		},
+		uiconfig = {
+			40,
+			103,
+			1.1,
+			1.1,
+			-311,
+			100,
+			-311,
+			100,
+			-311,
+			-100
+		}
+	},
 	all = {
 		970701,
 		970702,
@@ -10265,6 +10478,8 @@ pg.ship_strengthen_meta = {
 		970303,
 		970304,
 		970106,
-		970506
+		970506,
+		970405,
+		970604
 	}
 }

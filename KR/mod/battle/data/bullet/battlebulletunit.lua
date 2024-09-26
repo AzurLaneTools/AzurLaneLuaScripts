@@ -7,14 +7,15 @@ slot4 = slot0.Battle.BattleVariable
 slot6 = slot0.Battle.BattleTargetChoise
 slot8 = 1 / slot0.Battle.BattleConfig.viewFPS
 slot9 = slot0.Battle.BattleConst
+slot10 = slot0.Battle.BattleConst.AircraftUnitType
 slot0.Battle.BattleBulletUnit = class("BattleBulletUnit")
 slot0.Battle.BattleBulletUnit.__name = "BattleBulletUnit"
-slot10 = slot0.Battle.BattleBulletUnit
-slot10.ACC_INTERVAL = slot0.Battle.BattleConfig.calcInterval
-slot10.TRACKER_ANGLE = math.cos(math.deg2Rad * 10)
-slot10.MIRROR_RES = "_mirror"
+slot11 = slot0.Battle.BattleBulletUnit
+slot11.ACC_INTERVAL = slot0.Battle.BattleConfig.calcInterval
+slot11.TRACKER_ANGLE = math.cos(math.deg2Rad * 10)
+slot11.MIRROR_RES = "_mirror"
 
-slot10.doAccelerate = function(slot0, slot1)
+slot11.doAccelerate = function(slot0, slot1)
 	slot2, slot3 = slot0:GetAcceleration(slot1)
 
 	if slot2 == 0 and slot3 == 0 then
@@ -36,7 +37,7 @@ slot10.doAccelerate = function(slot0, slot1)
 	slot0._speedCross:Copy(slot0._speedNormal):Cross2(uv0)
 end
 
-slot10.doTrack = function(slot0)
+slot11.doTrack = function(slot0)
 	if slot0:getTrackingTarget() == nil and uv0.TargetHarmNearest(slot0)[1] ~= nil and slot0:GetDistance(slot1) <= slot0._trackRange then
 		slot0:setTrackingTarget(slot1)
 	end
@@ -81,7 +82,7 @@ slot10.doTrack = function(slot0)
 	slot0._speed:Set(slot0._speed.x * slot10 + slot0._speed.z * slot11, 0, slot0._speed.z * slot10 - slot0._speed.x * slot11)
 end
 
-slot10.doOrbit = function(slot0)
+slot11.doOrbit = function(slot0)
 	slot1 = pg.Tool.FilterY(slot0._weapon:GetPosition())
 	slot2 = pg.Tool.FilterY(slot0:GetPosition())
 	slot4 = (slot1 - slot2).normalized
@@ -89,14 +90,14 @@ slot10.doOrbit = function(slot0)
 	slot0._speed = ((slot2 - slot1).magnitude <= 10 or (slot4 + slot0._speed.normalized).normalized) and (Vector3(-slot4.z, 0, slot4.x) + slot0._speed.normalized).normalized
 end
 
-slot10.RotateY = function(slot0, slot1)
+slot11.RotateY = function(slot0, slot1)
 	slot2 = math.cos(slot1)
 	slot3 = math.sin(slot1)
 
 	return Vector3(slot0.x * slot2 + slot0.z * slot3, slot0.y, slot0.z * slot2 - slot0.x * slot3)
 end
 
-slot10.doCircle = function(slot0)
+slot11.doCircle = function(slot0)
 	if not slot0._originPos then
 		return
 	end
@@ -111,13 +112,13 @@ slot10.doCircle = function(slot0)
 	slot0._speed = slot0.RotateY(slot2, slot3 / slot4 * (slot0._circleAntiClockwise and 1 or -1) * slot1):Mul(slot5 / slot4):Sub(slot2)
 end
 
-slot10.doNothing = function(slot0)
+slot11.doNothing = function(slot0)
 	if slot0._gravity ~= 0 then
 		slot0._verticalSpeed = slot0._verticalSpeed + slot0._gravity * slot0:GetSpeedRatio()
 	end
 end
 
-slot10.Ctor = function(slot0, slot1, slot2)
+slot11.Ctor = function(slot0, slot1, slot2)
 	uv0.EventDispatcher.AttachEventDispatcher(slot0)
 
 	slot0._battleProxy = uv0.Battle.BattleDataProxy.GetInstance()
@@ -135,7 +136,7 @@ slot10.Ctor = function(slot0, slot1, slot2)
 	slot0._damageList = {}
 end
 
-slot10.Update = function(slot0, slot1)
+slot11.Update = function(slot0, slot1)
 	slot2 = slot0:GetSpeedRatio()
 
 	slot0:updateSpeed(slot1)
@@ -155,19 +156,19 @@ slot10.Update = function(slot0, slot1)
 	end
 end
 
-slot10.ActiveCldBox = function(slot0)
+slot11.ActiveCldBox = function(slot0)
 	slot0._cldComponent:SetActive(true)
 end
 
-slot10.DeactiveCldBox = function(slot0)
+slot11.DeactiveCldBox = function(slot0)
 	slot0._cldComponent:SetActive(false)
 end
 
-slot10.SetStartTimeStamp = function(slot0, slot1)
+slot11.SetStartTimeStamp = function(slot0, slot1)
 	slot0._timeStamp = slot1
 end
 
-slot10.Hit = function(slot0, slot1, slot2)
+slot11.Hit = function(slot0, slot1, slot2)
 	slot0._collidedList[slot1] = true
 
 	slot0:DispatchEvent(uv0.Event.New(uv1.HIT, {
@@ -176,15 +177,15 @@ slot10.Hit = function(slot0, slot1, slot2)
 	}))
 end
 
-slot10.Intercepted = function(slot0)
+slot11.Intercepted = function(slot0)
 	slot0:DispatchEvent(uv0.Event.New(uv1.INTERCEPTED, {}))
 end
 
-slot10.Reflected = function(slot0)
+slot11.Reflected = function(slot0)
 	slot0._speed.x = -slot0._speed.x
 end
 
-slot10.ResetVelocity = function(slot0, slot1)
+slot11.ResetVelocity = function(slot0, slot1)
 	slot2 = slot0._tempData
 	slot3 = slot0:GetTemplate().extra_param
 
@@ -202,7 +203,7 @@ slot10.ResetVelocity = function(slot0, slot1)
 	slot0._convertedVelocity = uv0.ConvertBulletSpeed(slot0._velocity)
 end
 
-slot10.SetTemplateData = function(slot0, slot1)
+slot11.SetTemplateData = function(slot0, slot1)
 	slot0._tempData = setmetatable({}, {
 		__index = slot1
 	})
@@ -231,17 +232,17 @@ slot10.SetTemplateData = function(slot0, slot1)
 	slot0:SetDiverFilter()
 end
 
-slot10.GetModleID = function(slot0)
+slot11.GetModleID = function(slot0)
 	slot2 = nil
 
 	return (slot0._IFF ~= uv0.FOE_CODE or slot0._mirrorSkin == uv1.MIRROR_SKIN_RES and slot0._modleID .. uv1.MIRROR_RES or slot0._mirrorSkin == uv1.ORIGNAL_RES and slot0:GetTemplate().extra_param.mirror == true and slot0._modleID .. uv1.MIRROR_RES or slot0._modleID) and slot0._modleID
 end
 
-slot10.ORIGNAL_RES = -1
-slot10.SKIN_RES = 0
-slot10.MIRROR_SKIN_RES = 1
+slot11.ORIGNAL_RES = -1
+slot11.SKIN_RES = 0
+slot11.MIRROR_SKIN_RES = 1
 
-slot10.SetModleID = function(slot0, slot1, slot2, slot3)
+slot11.SetModleID = function(slot0, slot1, slot2, slot3)
 	slot0._modleID = slot1
 	slot0._mirrorSkin = slot2
 
@@ -250,7 +251,7 @@ slot10.SetModleID = function(slot0, slot1, slot2, slot3)
 	end
 end
 
-slot10.SetSFXID = function(slot0, slot1, slot2)
+slot11.SetSFXID = function(slot0, slot1, slot2)
 	if slot1 then
 		slot0._hitSFX = slot1
 	end
@@ -260,7 +261,7 @@ slot10.SetSFXID = function(slot0, slot1, slot2)
 	end
 end
 
-slot10.SetShiftInfo = function(slot0, slot1, slot2)
+slot11.SetShiftInfo = function(slot0, slot1, slot2)
 	slot3 = 0
 	slot4 = 0
 
@@ -276,7 +277,7 @@ slot10.SetShiftInfo = function(slot0, slot1, slot2)
 	slot0._offsetZ = slot2 + slot4
 end
 
-slot10.SetRotateInfo = function(slot0, slot1, slot2, slot3)
+slot11.SetRotateInfo = function(slot0, slot1, slot2, slot3)
 	slot0._targetPos = slot1
 	slot0._baseAngle = slot2
 	slot0._barrageAngle = slot3
@@ -290,27 +291,27 @@ slot10.SetRotateInfo = function(slot0, slot1, slot2, slot3)
 	end
 end
 
-slot10.SetBarrageTransformTempate = function(slot0, slot1)
+slot11.SetBarrageTransformTempate = function(slot0, slot1)
 	if #slot1 > 0 then
 		slot0._barrageTransData = slot1
 	end
 end
 
-slot10.SetAttr = function(slot0, slot1)
+slot11.SetAttr = function(slot0, slot1)
 	uv0.Battle.BattleAttr.SetAttr(slot0, slot1)
 end
 
-slot10.GetAttr = function(slot0)
+slot11.GetAttr = function(slot0)
 	return uv0.Battle.BattleAttr.GetAttr(slot0)
 end
 
-slot10.SetStandHostAttr = function(slot0, slot1)
+slot11.SetStandHostAttr = function(slot0, slot1)
 	slot0._standUnit = {}
 
 	uv0.Battle.BattleAttr.SetAttr(slot0._standUnit, slot1)
 end
 
-slot10.GetWeaponHostAttr = function(slot0)
+slot11.GetWeaponHostAttr = function(slot0)
 	if slot0._standUnit then
 		return uv0.Battle.BattleAttr.GetAttr(slot0._standUnit)
 	else
@@ -318,108 +319,112 @@ slot10.GetWeaponHostAttr = function(slot0)
 	end
 end
 
-slot10.GetWeaponAtkAttr = function(slot0)
+slot11.GetWeaponAtkAttr = function(slot0)
 	slot2 = nil
 
 	return slot0._weapon:GetAtkAttrTrasnform(slot0:GetWeaponHostAttr()) and slot3 or uv0.Battle.BattleAttr.GetAtkAttrByType(slot1, slot0:GetWeaponTempData().attack_attribute)
 end
 
-slot10.GetWeaponCardPuzzleEnhance = function(slot0)
+slot11.GetWeaponCardPuzzleEnhance = function(slot0)
 	return slot0._weapon:GetCardPuzzleDamageEnhance()
 end
 
-slot10.SetDamageEnhance = function(slot0, slot1)
+slot11.SetDamageEnhance = function(slot0, slot1)
 	slot0._dmgEnhanceRate = slot1
 end
 
-slot10.GetDamageEnhance = function(slot0)
+slot11.GetDamageEnhance = function(slot0)
 	return slot0._dmgEnhanceRate
 end
 
-slot10.GetAttrByName = function(slot0, slot1)
+slot11.GetAttrByName = function(slot0, slot1)
 	return uv0.Battle.BattleAttr.GetCurrent(slot0, slot1)
 end
 
-slot10.GetVerticalSpeed = function(slot0)
+slot11.GetVerticalSpeed = function(slot0)
 	return slot0._verticalSpeed
 end
 
-slot10.IsGravitate = function(slot0)
+slot11.IsGravitate = function(slot0)
 	return slot0._gravity ~= 0
 end
 
-slot10.SetBuffTrigger = function(slot0, slot1)
+slot11.SetBuffTrigger = function(slot0, slot1)
 	slot0._host = slot1
 	slot0._buffTriggerFun = {}
 end
 
-slot10.SetBuffFun = function(slot0, slot1, slot2)
+slot11.SetBuffFun = function(slot0, slot1, slot2)
 	slot3 = slot0._buffTriggerFun[slot1] or {}
 	slot3[#slot3 + 1] = slot2
 	slot0._buffTriggerFun[slot1] = slot3
 end
 
-slot10.BuffTrigger = function(slot0, slot1, slot2)
-	if slot0._host and slot3:IsAlive() then
-		slot0._host:TriggerBuff(slot1, slot2)
+slot11.BuffTrigger = function(slot0, slot1, slot2)
+	if slot0._host then
+		if table.contains(uv0, slot3:GetUnitType()) then
+			slot0._host:TriggerBuff(slot1, slot2)
+		elseif slot3:IsAlive() then
+			slot0._host:TriggerBuff(slot1, slot2)
 
-		if slot0._buffTriggerFun[slot1] then
-			for slot8, slot9 in ipairs(slot4) do
-				slot9(slot0._host, slot2)
+			if slot0._buffTriggerFun[slot1] then
+				for slot8, slot9 in ipairs(slot4) do
+					slot9(slot0._host, slot2)
+				end
 			end
 		end
 	end
 end
 
-slot10.SetIsCld = function(slot0, slot1)
+slot11.SetIsCld = function(slot0, slot1)
 	slot0._needCld = slot1
 end
 
-slot10.GetIsCld = function(slot0)
+slot11.GetIsCld = function(slot0)
 	return slot0._needCld
 end
 
-slot10.IsIngoreCld = function(slot0)
+slot11.IsIngoreCld = function(slot0)
 	return slot0._tempData.extra_param.ingoreCld
 end
 
-slot10.IsFragile = function(slot0)
+slot11.IsFragile = function(slot0)
 	return slot0._tempData.extra_param.fragile
 end
 
-slot10.IsIndiscriminate = function(slot0)
+slot11.IsIndiscriminate = function(slot0)
 	return slot0._tempData.extra_param.indiscriminate
 end
 
-slot10.GetExtraTag = function(slot0)
+slot11.GetExtraTag = function(slot0)
 	return slot0._tempData.extra_param.tag
 end
 
-slot10.AppendDamageUnit = function(slot0, slot1)
+slot11.AppendDamageUnit = function(slot0, slot1)
 	slot0._damageList[#slot0._damageList + 1] = slot1
 end
 
-slot10.DamageUnitListWriteback = function(slot0)
+slot11.DamageUnitListWriteback = function(slot0)
 	slot0._weapon:UpdateCombo(slot0._damageList)
 end
 
-slot10.HasAcceleration = function(slot0)
+slot11.HasAcceleration = function(slot0)
 	return #slot0._accTable ~= 0
 end
 
-slot10.IsTracker = function(slot0)
+slot11.IsTracker = function(slot0)
 	return slot0._accTable.tracker
 end
 
-slot10.IsOrbit = function(slot0)
+slot11.IsOrbit = function(slot0)
 	return slot0._accTable.orbit
 end
 
-slot10.IsCircle = function(slot0)
+slot11.IsCircle = function(slot0)
 	return slot0._accTable.circle
 end
 
-slot10.GetAcceleration = function(slot0, slot1)
+slot11.GetAcceleration = function(slot0, slot1)
 	slot0._lastAccTime = slot0._lastAccTime or slot0._timeStamp
 	slot0._lastAccTime = slot0._lastAccTime + uv0.ACC_INTERVAL * math.modf((slot1 - slot0._lastAccTime) / uv0.ACC_INTERVAL)
 	slot3 = slot1 - slot0._timeStamp
@@ -436,13 +441,13 @@ slot10.GetAcceleration = function(slot0, slot1)
 	return 0, 0
 end
 
-slot10.reverseAcceleration = function(slot0)
+slot11.reverseAcceleration = function(slot0)
 	for slot4, slot5 in ipairs(slot0._accTable) do
 		slot5.u = slot5.u * -1
 	end
 end
 
-slot10.GetDistance = function(slot0, slot1)
+slot11.GetDistance = function(slot0, slot1)
 	if slot0._frame ~= slot0._battleProxy.FrameIndex then
 		slot0._distanceBackup = {}
 		slot0._frame = slot2
@@ -458,7 +463,7 @@ slot10.GetDistance = function(slot0, slot1)
 	return slot3
 end
 
-slot10.backupDistance = function(slot0, slot1, slot2)
+slot11.backupDistance = function(slot0, slot1, slot2)
 	if slot0._frame ~= slot0._battleProxy.FrameIndex then
 		slot0._distanceBackup = {}
 		slot0._frame = slot3
@@ -467,15 +472,15 @@ slot10.backupDistance = function(slot0, slot1, slot2)
 	slot0._distanceBackup[slot1] = slot2
 end
 
-slot10.getTrackingTarget = function(slot0)
+slot11.getTrackingTarget = function(slot0)
 	return slot0._tarckingTarget
 end
 
-slot10.setTrackingTarget = function(slot0, slot1)
+slot11.setTrackingTarget = function(slot0, slot1)
 	slot0._tarckingTarget = slot1
 end
 
-slot10.SetWeapon = function(slot0, slot1)
+slot11.SetWeapon = function(slot0, slot1)
 	slot0._weapon = slot1
 
 	if slot1 then
@@ -483,27 +488,27 @@ slot10.SetWeapon = function(slot0, slot1)
 	end
 end
 
-slot10.GetWeapon = function(slot0)
+slot11.GetWeapon = function(slot0)
 	return slot0._weapon
 end
 
-slot10.GetCorrectedDMG = function(slot0)
+slot11.GetCorrectedDMG = function(slot0)
 	return slot0._correctedDMG
 end
 
-slot10.OverrideCorrectedDMG = function(slot0, slot1)
+slot11.OverrideCorrectedDMG = function(slot0, slot1)
 	slot0._correctedDMG = uv0.WeaponDamagePreCorrection(slot0._weapon, slot1)
 end
 
-slot10.GetWeaponTempData = function(slot0)
+slot11.GetWeaponTempData = function(slot0)
 	return slot0._weapon:GetTemplateData()
 end
 
-slot10.GetPosition = function(slot0)
+slot11.GetPosition = function(slot0)
 	return slot0._position or Vector3.zero
 end
 
-slot10.SetSpawnPosition = function(slot0, slot1)
+slot11.SetSpawnPosition = function(slot0, slot1)
 	slot0._spawnPos = slot1
 	slot0._position = slot1:Clone()
 
@@ -517,63 +522,63 @@ slot10.SetSpawnPosition = function(slot0, slot1)
 	end
 end
 
-slot10.GetSpawnPosition = function(slot0)
+slot11.GetSpawnPosition = function(slot0)
 	return slot0._spawnPos
 end
 
-slot10.GetTemplate = function(slot0)
+slot11.GetTemplate = function(slot0)
 	return slot0._tempData
 end
 
-slot10.GetType = function(slot0)
+slot11.GetType = function(slot0)
 	return slot0._tempData.type
 end
 
-slot10.GetHitSFX = function(slot0)
+slot11.GetHitSFX = function(slot0)
 	return slot0._hitSFX
 end
 
-slot10.GetMissSFX = function(slot0)
+slot11.GetMissSFX = function(slot0)
 	return slot0._missSFX
 end
 
-slot10.GetOutBound = function(slot0)
+slot11.GetOutBound = function(slot0)
 	return slot0._tempData.out_bound
 end
 
-slot10.GetUniqueID = function(slot0)
+slot11.GetUniqueID = function(slot0)
 	return slot0._uniqueID
 end
 
-slot10.GetOffset = function(slot0)
+slot11.GetOffset = function(slot0)
 	return slot0._offsetX, slot0._offsetZ, slot0._isOffsetPriority
 end
 
-slot10.GetRotateInfo = function(slot0)
+slot11.GetRotateInfo = function(slot0)
 	return slot0._targetPos, slot0._baseAngle, slot0._barrageAngle
 end
 
-slot10.IsOutRange = function(slot0)
+slot11.IsOutRange = function(slot0)
 	return slot0._reachDestFlag
 end
 
-slot10.SetYAngle = function(slot0, slot1)
+slot11.SetYAngle = function(slot0, slot1)
 	slot0._yAngle = slot1
 end
 
-slot10.SetOffsetPriority = function(slot0, slot1)
+slot11.SetOffsetPriority = function(slot0, slot1)
 	slot0._isOffsetPriority = slot1 or false
 end
 
-slot10.GetOffsetPriority = function(slot0)
+slot11.GetOffsetPriority = function(slot0)
 	return slot0._isOffsetPriority
 end
 
-slot10.GetYAngle = function(slot0)
+slot11.GetYAngle = function(slot0)
 	return slot0._yAngle
 end
 
-slot10.GetCurrentYAngle = function(slot0)
+slot11.GetCurrentYAngle = function(slot0)
 	slot1 = Vector3.Normalize(slot0._speed)
 	slot2 = math.acos(slot1.x) / math.deg2Rad
 
@@ -584,31 +589,31 @@ slot10.GetCurrentYAngle = function(slot0)
 	return slot2
 end
 
-slot10.GetIFF = function(slot0)
+slot11.GetIFF = function(slot0)
 	return slot0._IFF
 end
 
-slot10.GetHost = function(slot0)
+slot11.GetHost = function(slot0)
 	return slot0._host
 end
 
-slot10.GetPierceCount = function(slot0)
+slot11.GetPierceCount = function(slot0)
 	return slot0._pierceCount
 end
 
-slot10.AppendAttachBuff = function(slot0, slot1)
+slot11.AppendAttachBuff = function(slot0, slot1)
 	slot0._attachBuffList = slot0._attachBuffList or slot0:generateAttachBuffList()
 
 	table.insert(slot0._attachBuffList, slot1)
 end
 
-slot10.GetAttachBuff = function(slot0)
+slot11.GetAttachBuff = function(slot0)
 	slot0._attachBuffList = slot0._attachBuffList or slot0:generateAttachBuffList()
 
 	return slot0._attachBuffList
 end
 
-slot10.generateAttachBuffList = function(slot0)
+slot11.generateAttachBuffList = function(slot0)
 	slot1 = {}
 	slot2 = slot0:GetTemplate().attach_buff or {}
 
@@ -624,11 +629,11 @@ slot10.generateAttachBuffList = function(slot0)
 	return slot1
 end
 
-slot10.GetEffectField = function(slot0)
+slot11.GetEffectField = function(slot0)
 	return slot0._field
 end
 
-slot10.SetDiverFilter = function(slot0, slot1)
+slot11.SetDiverFilter = function(slot0, slot1)
 	if slot1 == nil then
 		slot0._diveFilter = slot0._tempData.extra_param.diveFilter or {
 			2
@@ -638,53 +643,53 @@ slot10.SetDiverFilter = function(slot0, slot1)
 	end
 end
 
-slot10.GetDiveFilter = function(slot0)
+slot11.GetDiveFilter = function(slot0)
 	return slot0._diveFilter
 end
 
-slot10.GetVelocity = function(slot0)
+slot11.GetVelocity = function(slot0)
 	return slot0._velocity
 end
 
-slot10.GetConvertedVelocity = function(slot0)
+slot11.GetConvertedVelocity = function(slot0)
 	return slot0._convertedVelocity
 end
 
-slot10.GetSpeedExemptKey = function(slot0)
+slot11.GetSpeedExemptKey = function(slot0)
 	return slot0._speedExemptKey
 end
 
-slot10.IsCollided = function(slot0, slot1)
+slot11.IsCollided = function(slot0, slot1)
 	return slot0._collidedList[slot1]
 end
 
-slot10.GetExist = function(slot0)
+slot11.GetExist = function(slot0)
 	return slot0._exist
 end
 
-slot10.SetExist = function(slot0, slot1)
+slot11.SetExist = function(slot0, slot1)
 	slot0._exist = slot1
 end
 
-slot10.GetIgnoreShield = function(slot0)
+slot11.GetIgnoreShield = function(slot0)
 	return slot0._ignoreShield
 end
 
-slot10.SetIgnoreShield = function(slot0, slot1)
+slot11.SetIgnoreShield = function(slot0, slot1)
 	slot0._ignoreShield = slot1
 end
 
-slot10.IsAutoRotate = function(slot0)
+slot11.IsAutoRotate = function(slot0)
 	return slot0._autoRotate
 end
 
-slot10.Dispose = function(slot0)
+slot11.Dispose = function(slot0)
 	slot0._dataProxy = nil
 
 	uv0.EventDispatcher.DetachEventDispatcher(slot0)
 end
 
-slot10.InitCldComponent = function(slot0)
+slot11.InitCldComponent = function(slot0)
 	slot1 = slot0:GetTemplate().cld_box
 	slot3 = slot0:GetTemplate().cld_offset[1]
 
@@ -701,7 +706,7 @@ slot10.InitCldComponent = function(slot0)
 	})
 end
 
-slot10.ResetCldSurface = function(slot0)
+slot11.ResetCldSurface = function(slot0)
 	if slot0:GetDiveFilter() and #slot1 == 0 then
 		slot0:GetCldData().Surface = uv0.OXY_STATE.DIVE
 	else
@@ -709,27 +714,27 @@ slot10.ResetCldSurface = function(slot0)
 	end
 end
 
-slot10.GetBoxSize = function(slot0)
+slot11.GetBoxSize = function(slot0)
 	return slot0._cldComponent:GetCldBoxSize()
 end
 
-slot10.GetCldBox = function(slot0)
+slot11.GetCldBox = function(slot0)
 	return slot0._cldComponent:GetCldBox(slot0:GetPosition())
 end
 
-slot10.GetCldData = function(slot0)
+slot11.GetCldData = function(slot0)
 	return slot0._cldComponent:GetCldData()
 end
 
-slot10.GetSpeed = function(slot0)
+slot11.GetSpeed = function(slot0)
 	return slot0._speed
 end
 
-slot10.GetSpeedRatio = function(slot0)
+slot11.GetSpeedRatio = function(slot0)
 	return uv0.GetSpeedRatio(slot0._speedExemptKey, slot0._IFF)
 end
 
-slot10.InitSpeed = function(slot0, slot1)
+slot11.InitSpeed = function(slot0, slot1)
 	if slot0._yAngle == nil then
 		slot0._yAngle = (slot1 or slot0._baseAngle) + slot0._barrageAngle
 	end
@@ -761,13 +766,13 @@ slot10.InitSpeed = function(slot0, slot1)
 	end
 end
 
-slot10.calcSpeed = function(slot0)
+slot11.calcSpeed = function(slot0)
 	slot2 = uv1.ConvertBulletSpeed(slot0._velocity * (1 + uv0.Battle.BattleAttr.GetCurrent(slot0, "bulletSpeedRatio")))
 	slot3 = math.deg2Rad * slot0._yAngle
 	slot0._speed = Vector3(slot2 * math.cos(slot3), 0, slot2 * math.sin(slot3))
 end
 
-slot10.updateBarrageTransform = function(slot0, slot1)
+slot11.updateBarrageTransform = function(slot0, slot1)
 	if not slot0._barrageTransData or #slot0._barrageTransData == 0 then
 		return
 	end
@@ -788,20 +793,20 @@ slot10.updateBarrageTransform = function(slot0, slot1)
 	end
 end
 
-slot10.GetCurrentDistance = function(slot0)
+slot11.GetCurrentDistance = function(slot0)
 	return Vector3.Distance(slot0._spawnPos, slot0._position)
 end
 
-slot10.SetOutRangeCallback = function(slot0, slot1)
+slot11.SetOutRangeCallback = function(slot0, slot1)
 	slot0._outRangeFunc = slot1
 end
 
-slot10.OutRange = function(slot0)
+slot11.OutRange = function(slot0)
 	slot0:DispatchEvent(uv0.Event.New(uv1.OUT_RANGE, {}))
 	slot0:_outRangeFunc()
 end
 
-slot10.FixRange = function(slot0, slot1, slot2)
+slot11.FixRange = function(slot0, slot1, slot2)
 	slot1 = slot1 or slot0._tempData.range
 	slot2 = slot2 or 0
 
@@ -815,14 +820,14 @@ slot10.FixRange = function(slot0, slot1, slot2)
 	slot0._sqrRange = slot0._range * slot0._range
 end
 
-slot10.ImmuneBombCLS = function(slot0)
+slot11.ImmuneBombCLS = function(slot0)
 	return slot0:GetTemplate().extra_param.ignoreB
 end
 
-slot10.ImmuneCLS = function(slot0)
+slot11.ImmuneCLS = function(slot0)
 	return slot0._immuneCLS
 end
 
-slot10.SetImmuneCLS = function(slot0, slot1)
+slot11.SetImmuneCLS = function(slot0, slot1)
 	slot0._immuneCLS = slot1
 end

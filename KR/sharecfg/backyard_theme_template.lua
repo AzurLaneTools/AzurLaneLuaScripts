@@ -4355,6 +4355,36 @@ pg.backyard_theme_template = {
 			313303
 		}
 	},
+	[114] = {
+		Cfg_1 = 5,
+		name = "梦幻乐园 ",
+		desc = "欢迎来到，梦幻乐园！ ",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 115,
+		id = 114,
+		icon = "mlythemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			314001,
+			314002,
+			314101,
+			314102,
+			314103,
+			314104,
+			314105,
+			314107,
+			314108,
+			314109,
+			314110,
+			314111
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4454,6 +4484,7 @@ pg.backyard_theme_template = {
 		110,
 		111,
 		112,
-		113
+		113,
+		114
 	}
 }

@@ -8,6 +8,7 @@ slot0.TYPESSSS = 6
 slot0.TYPEATELIER = 7
 slot0.TYPESENRANKAGURA = 8
 slot0.TYPESP = 9
+slot0.TYPESPFULL = 10
 
 slot0.Ctor = function(slot0, slot1, slot2)
 	uv0.super.Ctor(slot0, slot1, slot2.event, slot2.contextData)
@@ -52,13 +53,16 @@ slot0.Load = function(slot0)
 	end
 
 	slot0._state = uv0.STATES.LOADING
+	slot1 = pg.UIMgr.GetInstance()
 
-	pg.UIMgr.GetInstance():LoadingOn()
-	PoolMgr.GetInstance():GetUI(slot0:getUIName(), false, function (slot0)
-		uv0 = slot0
+	slot1:LoadingOn()
+
+	slot1 = PoolMgr.GetInstance()
+
+	slot1:GetUI(slot0:getUIName(), true, function (slot0)
+		uv0:Loaded(slot0)
+		uv0:Init()
 	end)
-	slot0:Loaded(nil)
-	slot0:Init()
 end
 
 slot0.isfrozen = function(slot0)

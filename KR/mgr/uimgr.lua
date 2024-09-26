@@ -205,6 +205,7 @@ slot0.AttachStickOb = function(slot0, slot1)
 
 	slot0._firstPos = slot2.localPosition
 	slot0.vtc = 0
+	slot0._stickTailPS = slot0._stick:Find("tailGizmos")
 
 	slot0:SetActive(true)
 end
@@ -226,6 +227,16 @@ end
 slot0.UpdateStick = function(slot0, slot1, slot2)
 	if not slot0._stickActive then
 		return
+	end
+
+	if slot0._stickTailPS then
+		if slot2 == -1 then
+			if slot2 ~= slot0.fingerId then
+				setActive(slot0._stickTailPS, false)
+			end
+		elseif slot2 > 0 and slot2 ~= slot0.fingerId then
+			setActive(slot0._stickTailPS, true)
+		end
 	end
 
 	if slot2 == -2 then

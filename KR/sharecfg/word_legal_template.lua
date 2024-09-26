@@ -3051,7 +3051,12 @@ temp = function()
 		["릴"] = {
 			["랜"] = {
 				["드"] = {
-					this = true
+					this = true,
+					["·"] = {
+						["改"] = {
+							this = true
+						}
+					}
 				}
 			}
 		},
@@ -5061,6 +5066,19 @@ temp = function()
 			},
 			["라"] = {
 				this = true
+			},
+			["토"] = {
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		},
 		["토"] = {
@@ -6339,6 +6357,30 @@ temp = function()
 						}
 					}
 				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["孟"] = {
+		["菲"] = {
+			["斯"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["海"] = {
+		["伦"] = {
+			["娜"] = {
+				this = true
 			}
 		}
 	}

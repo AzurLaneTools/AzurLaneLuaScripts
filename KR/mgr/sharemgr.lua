@@ -210,7 +210,7 @@ slot1.ShotAndSave = function(slot0, slot1)
 	slot5 = ScreenShooter.New(Screen.width, Screen.height, TextureFormat.ARGB32)
 
 	if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and uv0.SdkMgr.GetInstance():GetIsPlatform() then
-		slot0:SaveImageWithBytes(slot0:TakeTexture(slot1, slot5, slot4):EncodeToJPG())
+		slot0:SaveImageWithBytes(Tex2DExtension.EncodeToJPG(slot0:TakeTexture(slot1, slot5, slot4)))
 
 		return true
 	elseif PLATFORM_CODE == PLATFORM_CHT then
@@ -240,7 +240,7 @@ slot1.ShowSharePanel = function(slot0, slot1, slot2, slot3, slot4)
 	if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and uv0.SdkMgr.GetInstance():GetIsPlatform() then
 		slot8 = UnityEngine.Texture2D.New(Screen.width, Screen.height, TextureFormat.ARGB32, false)
 
-		slot8:LoadImage(System.IO.File.ReadAllBytes(slot0.screenshotPath))
+		Tex2DExtension.LoadImage(slot8, System.IO.File.ReadAllBytes(slot0.screenshotPath))
 		uv0.SdkMgr.GetInstance():GameShare(slot5.description, slot8)
 		uv0.UIMgr.GetInstance():LoadingOn()
 		onDelayTick(function ()
@@ -329,7 +329,7 @@ end
 slot1.Dispose = function(slot0)
 	slot0.go:SetActive(false)
 
-	if not slot0.noBlur then
+	if slot0.panel and not slot0.noBlur then
 		uv0.UIMgr.GetInstance():UnblurPanel(slot0.panel, slot0.tr)
 	end
 
@@ -342,5 +342,6 @@ slot1.Dispose = function(slot0)
 end
 
 slot1.SaveImageWithBytes = function(slot0, slot1)
+	BackYardThemeTempalteUtil.CheckSaveDirectory()
 	System.IO.File.WriteAllBytes(slot0.screenshotPath, slot1)
 end

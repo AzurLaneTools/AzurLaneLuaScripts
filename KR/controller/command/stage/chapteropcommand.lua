@@ -239,14 +239,14 @@ slot0.PrepareChapterRetreat = function(slot0)
 	}, slot0)
 end
 
-slot0.PlayChapterStory = function(slot0, slot1, slot2)
-	pg.NewStoryMgr.GetInstance():Play(slot0, slot1)
+slot0.PlayChapterStory = function(slot0, slot1, slot2, slot3)
+	pg.NewStoryMgr.GetInstance():Play(slot0, slot1, slot3)
 
-	if not getProxy(SettingsProxy):GetStoryAutoPlayFlag() and slot2 and slot3:IsRunning() then
-		slot3:Puase()
+	if not getProxy(SettingsProxy):GetStoryAutoPlayFlag() and slot2 and slot4:IsRunning() then
+		slot4:Puase()
 		pg.MsgboxMgr:GetInstance():ShowMsgBox({
 			hideYes = true,
-			parent = rtf(slot3._tf),
+			parent = rtf(slot4._tf),
 			type = MSGBOX_TYPE_STORY_CANCEL_TIP,
 			onYes = function ()
 				uv0()

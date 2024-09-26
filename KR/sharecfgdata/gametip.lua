@@ -5623,8 +5623,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
 	tip = {
 		{
 			info = [[
-<color=#92fc63>2024.6.27 ~ 2024.9.29</color>
-META전 위치타·META가 진행 중입니다. META전에서는 동기화 수치를 모아 META 함선을 획득할 수 있습니다.
+<color=#92fc63>2024.9.19 ~ 2024.12.26</color>
+META전 나가토·META가 진행 중입니다. META전에서는 동기화 수치를 모아 META 함선을 획득할 수 있습니다.
 (※<color=#ff5c5c>동기화 수치 및 동기화 수치 획득 합계 보상은 진행 기간이 종료된 후에 초기화됩니다.</color>)
 
 ■ META전에 대해
@@ -9403,6 +9403,11 @@ _G.pg.base.gametip.ship_remould_warning_102304 = {
 
 _G.pg.base.gametip.ship_remould_warning_105214 = {
 	tip = "개조(근대화 개수)하면, 스킬\n<color=#92fc63>[BIG SEVEN]</color>이 스킬 <color=#92fc63>[BIG SEVEN·콜로라도]</color>로 강화됨"
+}
+
+
+_G.pg.base.gametip.ship_remould_warning_105224 = {
+	tip = "此次改造操作后<color=#92fc63>【BIG SEVEN】</color>技能\n将升级为<color=#92fc63>【BIG SEVEN·马里兰】</color>"
 }
 
 
@@ -21191,7 +21196,7 @@ META 연구실에서는 다음 조작을 실시할 수 있습니다.
 ・동기화 수치가 일정 수준에 도달하면 「META 함선」을 획득할 수 있습니다.
 ・「META」 함선을 이미 획득한 상태라면, 함선의 조작 화면에서 「정보 동기화」로 동기화 수치 관련 정보를 확인할 수 있습니다.
 
-※<color=#92fc63>2024.6.13 ~ 2024.9.5</color> 위치타·META　META전 오픈 기간에는 「위치타·META」의 동기화 수치를 획득할 수 있습니다.
+※<color=#92fc63>2024.9.19 ~ 2024.12.26</color> 나가토·META　META전 오픈 기간에는 「나가토·META」의 동기화 수치를 획득할 수 있습니다.
  동기화 수치 및 동기화 수치 총 획득 수 보상은 진행 기간 종료 후에 초기화됩니다.
 
 ■ 「META」 함선의 의장 강화
@@ -25523,6 +25528,86 @@ _G.pg.base.gametip.cruise_task_help_2408 = {
 }
 
 
+_G.pg.base.gametip.battlepass_main_tip_2410 = {
+	tip = "2024/10/1-2024/11/30期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「{namecode:237}」</color>在内的丰富奖励"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2410 = {
+	tip = {
+		{
+			info = [[
+世界巡游(2024.10.1-2024.11.30)
+
+·<color=#92fc63>开放时间</color>
+    2024.10.1 0点 ~ 2024.11.30 23:59:59
+
+·<color=#92fc63>巡游进度说明</color>
+（1）活动期间，指挥官通过完成巡游任务，可获取「巡游点数」。
+（2）巡游任务随时间开放解锁。
+（3）每获取100点「巡游点数」即可增加1巡游进度
+（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达100。
+
+·<color=#92fc63>奖励规则</color>
+巡游进度奖励分为两种：
+（1）基础巡游奖励：包含<color=#ff5c5c>「{namecode:237}」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·六期</color>等奖励；
+    当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
+（2）特许巡游奖励：包含<color=#ff5c5c>絮弗伦换装「华美无双 </color>」、<color=#ff5c5c>钻石</color>等奖励；
+    购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
+    注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。
+
+·<color=#92fc63>「特许巡游凭证」说明</color>
+（1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。
+（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即11.30 22:59:59停止)，请指挥官注意购买时间。
+
+·<color=#92fc63>任务说明</color>
+巡游任务分为两种：
+（1）每周任务 
+    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务
+（2）S.P.任务
+    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成大部分巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的完成券数量固定，与当前任务进度无关
+（4）「巡游任务快速完成券」不会随本期活动结束而消失
+
+·<color=#ff5c5c>特别提示</color>
+（1）在本期世界巡游活动结束后，所有巡游任务将会无法继续完成，所有巡游奖励将会无法继续领取，请各位指挥官务必注意活动结束时间，提前领取奖励。
+（2）巡游进度、[特许巡游凭证]仅对本期世界巡游活动生效]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2410 = {
+	tip = {
+		{
+			info = [[
+巡游任务说明
+
+·<color=#92fc63>开放时间</color>
+    2024.10.1 0点 ~ 2024.11.30 23:59:59
+
+·<color=#92fc63>巡游任务分为两种</color>
+（1）每周任务
+    巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务。
+（2）S.P.任务
+    S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成每周巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的「巡游任务快速完成券」数量和其提供的「巡游点数」相关，与当前任务进度无关
+（4）「巡游任务快速完成券」<color=#92fc63>不会随本期活动结束而消失</color>]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "초기화"
 }
@@ -28756,6 +28841,21 @@ _G.pg.base.gametip.battle_text_pizibao_1 = {
 
 _G.pg.base.gametip.battle_text_pizibao_2 = {
 	tip = "지원 함대가 <color=#f1f102>격파 당했다</color>! 난전이 예상된다…!"
+}
+
+
+_G.pg.base.gametip.battle_text_tianchengCV_1 = {
+	tip = "「<color=#ff8800>苍红之风</color>，<color=#5cccff>青蓝之花</color>，一同降临于此岸吧！」"
+}
+
+
+_G.pg.base.gametip.battle_text_tianchengCV_2 = {
+	tip = "「啊——<color=#ff1800>彼岸之花</color>，尽情燃烧吧！」"
+}
+
+
+_G.pg.base.gametip.battle_text_tianchengCV_3 = {
+	tip = "敌人正在积蓄力量，请依次<color=#f1f102>触碰场上的阵法</color>为我方充能"
 }
 
 
@@ -34224,15 +34324,290 @@ _G.pg.base.gametip.award_max_warning_minigame = {
 
 
 _G.pg.base.gametip.report_cannot_comment_level_1 = {
-	tip = "指挥官等级达到$1级后，才可以发送评论哦。 "
+	tip = "지휘관 레벨 $1 달성 시 코멘트를 쓸 수 있습니다."
 }
 
 
 _G.pg.base.gametip.report_cannot_comment_level_2 = {
-	tip = "当前处于评论受限状态，无法发送评论！"
+	tip = "지금은 코멘트를 쓸 수 없습니다."
 }
 
 
 _G.pg.base.gametip.commander_exp_limit = {
-	tip = "该指挥喵已达最大等级，无法添加指挥喵"
+	tip = "지휘냥 레벨이 최대치에 달했습니다. 더 이상 지휘냥을 추가할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.dreamland_label_day = {
+	tip = "白天"
+}
+
+
+_G.pg.base.gametip.dreamland_label_dusk = {
+	tip = "傍晚"
+}
+
+
+_G.pg.base.gametip.dreamland_label_night = {
+	tip = "夜晚"
+}
+
+
+_G.pg.base.gametip.dreamland_label_area = {
+	tip = "区域"
+}
+
+
+_G.pg.base.gametip.dreamland_label_explore = {
+	tip = "探索"
+}
+
+
+_G.pg.base.gametip.dreamland_label_explore_award_tip = {
+	tip = "完成该区域探索奖励"
+}
+
+
+_G.pg.base.gametip.dreamland_area_lock_tip = {
+	tip = "- 该区域尚未解锁 请继续阅读剧情 -"
+}
+
+
+_G.pg.base.gametip.dreamland_spring_lock_tip = {
+	tip = "阅读后续剧情解锁"
+}
+
+
+_G.pg.base.gametip.dreamland_spring_tip = {
+	tip = "邀请角色入梦恢复心情 $1/h"
+}
+
+
+_G.pg.base.gametip.dream_land_tip = {
+	tip = {
+		{
+			info = [[
+活动规则：
+·<color=#92fc63>9.12-10.2</color>期间开启限时活动「梦幻乐园的梦幻假日」
+·随剧情解锁梦幻乐园的各个区域，获得<color=#92fc63>限定家具</color>、<color=#92fc63>外观装备箱</color>等奖励
+·梦幻乐园各区域地图上均有可交互的探索点。指挥官在享受梦幻假日的同时，可通过留意地图上的<color=#92fc63>「星星」</color>指引及<color=#92fc63>乐园手册</color>中的探索指引，进行梦幻乐园探索，获得<color=#92fc63>限定家具</color>、<color=#92fc63>外观装备箱</color>等奖励
+·部分探索仅在特殊时间内触发，在完成「梦幻乐园的梦幻假日」全部剧情后，可以通过<color=#92fc63>时间转换</color>调整梦幻乐园时间
+·邀请角色进入安眠梦境，加快心情回复。安眠梦境随梦幻乐园区域解锁扩展]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.touch_cake_minigame_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/touchcake_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/touchcake_help2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.dreamland_main_desc = {
+	tip = "9.12~10.2，活动期间完成<color=#85E7FF>梦幻乐园探索</color>与<color=#85E7FF>啾啾蛋糕塔</color>获得丰厚奖励"
+}
+
+
+_G.pg.base.gametip.dreamland_main_tip = {
+	tip = {
+		{
+			info = [[
+活动规则：
+·<color=#92fc63>9.12-10.2</color>期间开启限时活动「梦幻乐园的梦幻假日」
+·随剧情解锁梦幻乐园的各个区域，获得<color=#92fc63>限定家具</color>、<color=#92fc63>外观装备箱</color>等奖励
+·梦幻乐园各区域地图上均有可交互的探索点。指挥官在享受梦幻假日的同时，可通过留意地图上的<color=#92fc63>「星星」</color>指引及<color=#92fc63>乐园手册</color>中的探索指引，进行梦幻乐园探索，获得<color=#92fc63>限定家具</color>、<color=#92fc63>外观装备箱</color>等奖励
+·部分探索仅在特殊时间内触发，在完成「梦幻乐园的梦幻假日」全部剧情后，可以通过<color=#92fc63>时间转换</color>调整梦幻乐园时间
+·邀请角色进入安眠梦境，加快心情回复。安眠梦境随梦幻乐园区域解锁扩展
+·9.18为止，每日可获得一次「啾啾蛋糕塔」游戏次数，参与游戏可获取「梦幻蛋糕券」
+·累计7张「梦幻蛋糕券」可获得限定道具<color=#92fc63>「庆典邀请函」</color>]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.no_share_skin_gametip = {
+	tip = "*该换装为$1换装，无法与$2共享使用"
+}
+
+
+_G.pg.base.gametip.no_share_skin_tianchenghangmu = {
+	tip = "{namecode:161}(航母)"
+}
+
+
+_G.pg.base.gametip.no_share_skin_tianchengzhanlie = {
+	tip = "{namecode:161}(战列)"
+}
+
+
+_G.pg.base.gametip.no_share_skin_jiahezhanlie = {
+	tip = "{namecode:92}(战列)"
+}
+
+
+_G.pg.base.gametip.no_share_skin_jiahehangmu = {
+	tip = "{namecode:92}(航母)"
+}
+
+
+_G.pg.base.gametip.ui_pack_tip1 = {
+	tip = "只能购买一个档位，礼包将发送到邮箱请注意查收"
+}
+
+
+_G.pg.base.gametip.ui_pack_tip2 = {
+	tip = "基础版"
+}
+
+
+_G.pg.base.gametip.ui_pack_tip3 = {
+	tip = "豪华版"
+}
+
+
+_G.pg.base.gametip.battle_ui_unlock = {
+	tip = "装扮解锁"
+}
+
+
+_G.pg.base.gametip.compensate_ui_expiration_hour = {
+	tip = "$1时后过期"
+}
+
+
+_G.pg.base.gametip.compensate_ui_expiration_day = {
+	tip = "$1天后过期"
+}
+
+
+_G.pg.base.gametip.compensate_ui_title1 = {
+	tip = "补偿"
+}
+
+
+_G.pg.base.gametip.compensate_ui_title2 = {
+	tip = "compensate"
+}
+
+
+_G.pg.base.gametip.compensate_ui_nothing1 = {
+	tip = "暂未收到任何补偿"
+}
+
+
+_G.pg.base.gametip.compensate_ui_nothing2 = {
+	tip = "No compensation received yet"
+}
+
+
+_G.pg.base.gametip.attire_combatui_preview = {
+	tip = "前往预览"
+}
+
+
+_G.pg.base.gametip.attire_combatui_confirm = {
+	tip = "装扮"
+}
+
+
+_G.pg.base.gametip.cruise_phase_title = {
+	tip = "阶段"
+}
+
+
+_G.pg.base.gametip.cruise_title_2410 = {
+	tip = "世界巡游·十九期"
+}
+
+
+_G.pg.base.gametip.battlepass_main_time_title = {
+	tip = "本期剩余时间："
+}
+
+
+_G.pg.base.gametip.cruise_shop_no_open = {
+	tip = "10月1日0点后开放"
+}
+
+
+_G.pg.base.gametip.cruise_btn_pay = {
+	tip = "解锁特许巡游奖励"
+}
+
+
+_G.pg.base.gametip.cruise_btn_all = {
+	tip = "全部领取"
+}
+
+
+_G.pg.base.gametip.task_go = {
+	tip = "前往"
+}
+
+
+_G.pg.base.gametip.task_got = {
+	tip = "已完成"
+}
+
+
+_G.pg.base.gametip.cruise_shop_title_skin = {
+	tip = "换装"
+}
+
+
+_G.pg.base.gametip.cruise_shop_title_equip_skin = {
+	tip = "外观"
+}
+
+
+_G.pg.base.gametip.cruise_shop_lock_tip = {
+	tip = "当期世界巡游等级达到50"
+}
+
+
+_G.pg.base.gametip.cruise_shop_limit_tip = {
+	tip = "本月剩余可购买数量："
+}
+
+
+_G.pg.base.gametip.cruise_limit_count = {
+	tip = "已达本月可购买数量上限"
+}
+
+
+_G.pg.base.gametip.cruise_title_2408 = {
+	tip = "世界巡游·十八期"
+}
+
+
+_G.pg.base.gametip.cruise_shop_title = {
+	tip = "往期商店"
 }

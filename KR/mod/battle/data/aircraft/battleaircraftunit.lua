@@ -472,7 +472,16 @@ slot6.GetDeadFX = function(slot0)
 	return slot0._deadFX
 end
 
+slot6.AIRCRAFT_TRIGGER = {
+	slot0.Battle.BattleConst.BuffEffectType.ON_BULLET_COLLIDE_BEFORE,
+	slot0.Battle.BattleConst.BuffEffectType.ON_BOMB_BULLET_BANG,
+	slot0.Battle.BattleConst.BuffEffectType.ON_TORPEDO_BULLET_BANG
+}
+
 slot6.TriggerBuff = function(slot0, slot1, slot2)
+	if table.contains(uv0.AIRCRAFT_TRIGGER, slot1) and slot0._motherUnit and slot0._motherUnit:IsAlive() then
+		slot0._motherUnit:TriggerBuff(slot1, slot2)
+	end
 end
 
 slot6.AddCreateTimer = function(slot0, slot1, slot2)
@@ -524,9 +533,6 @@ slot6.SetBuffStack = function(slot0)
 end
 
 slot6.RemoveBuff = function(slot0)
-end
-
-slot6.TriggerBuff = function(slot0)
 end
 
 slot6.CloakExpose = function(slot0)

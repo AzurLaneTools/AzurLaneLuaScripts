@@ -87,9 +87,8 @@ slot2.SetTemplateInfo = function(slot0)
 		slot2 = slot1.name
 	end
 
-	changeToScrollText(slot0._HPBarTf:Find("BossName"), slot2)
-
-	slot0._HPBarTf:Find("BossLv"):GetComponent(typeof(Text)).text = "Lv." .. slot0._unitData:GetLevel()
+	slot0._HPBarTf:Find("BossNameBG/BossName"):GetComponent(typeof(Text)).text = slot2
+	slot0._HPBarTf:Find("BossNameBG/BossLv"):GetComponent(typeof(Text)).text = "Lv." .. slot0._unitData:GetLevel()
 
 	setImageSprite(slot0._HPBarTf:Find("BossIcon/typeIcon/icon"), GetSpriteFromAtlas("shiptype", shipType2Battleprint(pg.enemy_data_by_type[slot1.type].type)), true)
 	setImageSprite(findTF(slot0._HPBarTf, "BossIcon/icon"), uv0.Battle.BattleResourceManager.GetInstance():GetCharacterSquareIcon(slot0._bossIcon))
@@ -210,8 +209,8 @@ slot2.UpdateHpBar = function(slot0)
 	slot0._bossBarInfoList[slot2].progressImage.fillAmount = slot3
 
 	if slot0._activeVernier then
-		slot0._vernier.anchorMin = Vector2(currentRate, 0.5)
-		slot0._vernier.anchorMax = Vector2(currentRate, 0.5)
+		slot0._vernier.anchorMin = Vector2(slot3, 0.5)
+		slot0._vernier.anchorMax = Vector2(slot3, 0.5)
 	end
 
 	slot0:SetHPBarCountText(slot4)

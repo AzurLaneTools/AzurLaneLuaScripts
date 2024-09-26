@@ -52,13 +52,17 @@ slot0.register = function(slot0)
 	end)
 end
 
+slot0.GetGetSlotCount = function(slot0)
+	return slot0.activity:GetSlotCount()
+end
+
 slot0.OnSelShips = function(slot0, slot1, slot2)
 	slot0:addSubLayers(Context.New({
 		viewComponent = DockyardScene,
 		mediator = DockyardMediator,
 		data = {
 			callbackQuit = true,
-			selectedMax = slot0.activity:GetSlotCount(),
+			selectedMax = slot0:GetGetSlotCount(),
 			quitTeam = slot2 ~= nil,
 			ignoredIds = pg.ShipFlagMgr.GetInstance():FilterShips({
 				isActivityNpc = true

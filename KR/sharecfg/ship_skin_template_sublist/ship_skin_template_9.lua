@@ -1,120 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_9 = {
-	[301861] = {
-		name = "방과후의 은은한 멜로디",
-		id = 301861,
-		desc = "후... 앗? 지휘관?! 몰래 리코더 연습하는 걸 들켰나... 윽, 다른 사람에게는 알리지 말아줘...",
-		illustrator2 = -1,
-		ship_group = 30186,
-		group_index = 1,
-		prefab = "fengyun_3",
-		painting = "fengyun_3",
-		hand_id = 6,
-		bgm = "",
-		shop_type_id = 4,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "103",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70561,
-		voice_actor = 279,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.402,
-					1.008,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.431,
-					1.023,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.46,
-					1.022,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.512,
-							2.459,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[301862] = {
 		name = "두근두근 기다리는 카자구모",
 		id = 301862,
@@ -1175,6 +1061,232 @@ pg.base.ship_skin_template_9 = {
 		l2d_voice_calibrate = "",
 		tag = {
 			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.089,
+					1.656,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.987,
+					1.305,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.915,
+					1.719,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.546,
+							2.491,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301910] = {
+		name = "스즈나미",
+		id = 301910,
+		desc = "유구모급 구축함-스즈나미",
+		illustrator2 = -1,
+		ship_group = 30191,
+		group_index = 0,
+		prefab = "liangbo",
+		painting = "liangbo",
+		hand_id = 6,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 427,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.089,
+					1.656,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.987,
+					1.305,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.915,
+					1.719,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.546,
+							2.491,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301911] = {
+		name = "눈 요정의 파티 코디",
+		id = 301911,
+		desc = "지휘관, 미안해. 이런 시간에 스즈나미를 만나러 와달라고 해서…… 드레스를 잘 입었는지 좀 봐줄 수 있어…? 스즈나미, 이런 거에는 자신이 없어서…",
+		illustrator2 = -1,
+		ship_group = 30191,
+		group_index = 1,
+		prefab = "liangbo_2",
+		painting = "liangbo_2",
+		hand_id = 6,
+		bgm = "",
+		shop_type_id = 26,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "181",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71049,
+		voice_actor = 427,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
 		},
 		live2d_offset = {
 			0,
@@ -7184,6 +7296,523 @@ pg.base.ship_skin_template_9 = {
 			}
 		}
 	},
+	[302250] = {
+		name = "와타라세",
+		id = 302250,
+		desc = "C44형 경순양함-와타라세",
+		illustrator2 = -1,
+		ship_group = 30225,
+		group_index = 0,
+		prefab = "dulianglai",
+		painting = "dulianglai",
+		hand_id = 2,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 426,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.13,
+					0.7,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.13,
+					0.7,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.164,
+					0.102,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.13,
+					0.7,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.51,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[302251] = {
+		name = "12시의 요술 마차",
+		id = 302251,
+		desc = "지휘관님! 아… 지금은 「전하」라고 부르는 편이 좋으려나요? 그래도 지금은 둘만 있으니까… 자, 지휘관님. 손 이리 주세요―― 후후, 잘 앉아 계세요.",
+		illustrator2 = -1,
+		ship_group = 30225,
+		group_index = 1,
+		prefab = "dulianglai_2",
+		painting = "dulianglai_2",
+		hand_id = 2,
+		bgm = "",
+		shop_type_id = 7,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_drag_rate = "",
+		bg = "182",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71045,
+		voice_actor = 426,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {
+			1,
+			4
+		},
+		live2d_offset = {
+			0,
+			10,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.13,
+					0.7,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.13,
+					0.7,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.164,
+					0.102,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.13,
+					0.7,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.51,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		l2d_para_range = {
+			ParamBodyAngleX = {
+				-0.1,
+				0.1
+			},
+			ParamBodyAngleY = {
+				-0.1,
+				0.1
+			},
+			ParamAngleX = {
+				-30,
+				30
+			},
+			ParamAngleY = {
+				-30,
+				30
+			}
+		},
+		ship_l2d_id = {
+			30225101,
+			30225102,
+			30225103,
+			30225104,
+			30225105,
+			30225106,
+			30225107,
+			30225108,
+			30225109,
+			30225110,
+			30225111,
+			30225112,
+			30225113,
+			30225114,
+			30225115,
+			30225116,
+			30225117,
+			30225118,
+			30225119,
+			30225120,
+			30225121
+		}
+	},
+	[302260] = {
+		name = "아야세",
+		id = 302260,
+		desc = "카와치급 경순양함-아야세",
+		illustrator2 = -1,
+		ship_group = 30226,
+		group_index = 0,
+		prefab = "linglai",
+		painting = "linglai",
+		hand_id = 2,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 308,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.13,
+					0.7,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.13,
+					0.7,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.164,
+					0.102,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.13,
+					0.7,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.51,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[302261] = {
+		name = "흰토끼의 환복 시간",
+		id = 302261,
+		desc = "지, 지휘관님…?! 으아?! 버, 벌써 약속 시간이 다 되었나요……? 으아아아… 오, 옷을 아직… 저, 음… 자, 잠깐만 기다려주세요…!",
+		illustrator2 = -1,
+		ship_group = 30226,
+		group_index = 1,
+		prefab = "linglai_2",
+		painting = "linglai_2",
+		hand_id = 2,
+		bgm = "",
+		shop_type_id = 20,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "590",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71048,
+		voice_actor = 308,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.13,
+					0.7,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.13,
+					0.7,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.164,
+					0.102,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.13,
+					0.7,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.51,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				-276,
+				-112,
+				0
+			},
+			{
+				0.9
+			}
+		}
+	},
 	[303010] = {
 		name = "후루타카",
 		id = 303010,
@@ -12821,432 +13450,6 @@ pg.base.ship_skin_template_9 = {
 						{
 							-0.43,
 							2.3,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[304030] = {
-		name = "하루나 ",
-		id = 304030,
-		desc = "콘고급 고속전함 3번함 - 하루나 ",
-		illustrator2 = -1,
-		ship_group = 30403,
-		group_index = 0,
-		prefab = "zhenming",
-		painting = "zhenming",
-		hand_id = 2,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 127,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.009,
-					1.346,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.191,
-					0.055,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.055,
-					1.373,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.615,
-							2.316,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[304031] = {
-		name = "수업 전 쉬는 시간 ",
-		id = 304031,
-		desc = "가끔은 학교생활이란 걸 즐겨도 괜찮을 것 같은데… 응? 지휘관도 듣고 싶다고? 좋아, 여기 한 쪽만 꽂아도 괜찮다면. ",
-		illustrator2 = -1,
-		ship_group = 30403,
-		group_index = 1,
-		prefab = "Zhenming_2",
-		painting = "Zhenming_2",
-		hand_id = 2,
-		bgm = "",
-		shop_type_id = 4,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "103",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70068,
-		voice_actor = 127,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.629,
-					1.045,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.555,
-					1.073,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							2.48,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[304032] = {
-		name = "새빨간 Innocence",
-		id = 304032,
-		desc = "후... 대충 이렇게 해야겠어. 콘고 언니의 보는 눈은 역시 꽤 믿을만 하지? ...저기, 지휘관, 나 좀 부축해 줄 수 있어? ... 이, 이렇게 입고 걷는 건 아직 습관이 덜 돼서!",
-		illustrator2 = -1,
-		ship_group = 30403,
-		group_index = 2,
-		prefab = "Zhenming_3",
-		painting = "Zhenming_3",
-		hand_id = 2,
-		bgm = "",
-		shop_type_id = 7,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "135",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "1102",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70426,
-		voice_actor = 127,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.389,
-					1.151,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.433,
-					1.126,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.312,
-							2.416,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[304033] = {
-		name = "우아한 연꽃",
-		id = 304033,
-		desc = "\"지휘관님, 자매들의 도움 하에 준비한 옷차림인데, 마음에 드나요?\" ...... 아니야, 아니야. 히에이 언니 같은 우아함을 모방하는 건 나한테는 너무 무리야... 저기, 지, 지휘관이 보기에, 내 옷차림... 어때...?",
-		illustrator2 = -1,
-		ship_group = 30403,
-		group_index = 3,
-		prefab = "Zhenming_4",
-		painting = "Zhenming_4",
-		hand_id = 2,
-		bgm = "",
-		shop_type_id = 2,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "143",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70473,
-		voice_actor = 127,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.129,
-					1.004,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.035,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.121,
-					1.005,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.476,
-							2.589,
 							0
 						}
 					}

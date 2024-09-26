@@ -103,14 +103,14 @@ slot7.OpeningEffect = function(slot0, slot1, slot2)
 		slot0._skillView:CustomButton(slot0._dataProxy:GetDungeonData().skill_hide or {})
 	end
 
-	slot0._ui._go:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
+	LeanTween.delayedCall(uv0.COMBAT_DELAY_ACTIVE, System.Action(function ()
 		uv0._uiMGR:SetActive(true)
 		uv0:EnableComponent(true)
 
 		if uv1 then
 			uv1()
 		end
-	end)
+	end))
 	SetActive(slot0._ui._go, true)
 	slot0._skillView:ButtonInitialAnima()
 end
@@ -124,8 +124,9 @@ slot7.InitJoystick = function(slot0)
 	slot0._joystick = slot0._ui:findTF("Stick")
 	slot1 = uv0.JOY_STICK_DEFAULT_PREFERENCE
 	slot2 = slot0._joystick
+	slot3 = Screen.dpi / CameraMgr.instance.finalWidth * 5
 
-	if Screen.dpi / CameraMgr.instance.finalWidth * 5 <= 0 then
+	if PLATFORM == PLATFORM_WINDOWSEDITOR or slot3 <= 0 then
 		slot3 = 1
 	end
 

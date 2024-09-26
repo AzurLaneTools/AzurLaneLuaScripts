@@ -10,6 +10,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.type = slot1.tag_type
 	slot0.icon = slot1.icon
 	slot0.track = slot1.track
+	slot0.priority = slot1.priority
 
 	if #string.split(slot0.title, "&") > 1 then
 		slot0.title = slot2[1]
@@ -19,8 +20,7 @@ slot0.Ctor = function(slot0, slot1)
 		slot0.pageTitle = slot2[1]
 	end
 
-	slot0.link = string.match(slot0.titleImage, "<config.*/>") and string.match(slot3, "link%s*=%s*([^%s]+)") or nil
-	slot0.paramType = slot3 and tonumber(string.match(slot3, "type%s*=%s*(%d+)")) or nil
+	slot0.paramType = string.match(slot0.titleImage, "<config.*/>") and tonumber(string.match(slot3, "type%s*=%s*(%d+)")) or nil
 
 	if slot0.paramType then
 		if slot0.paramType == 1 then

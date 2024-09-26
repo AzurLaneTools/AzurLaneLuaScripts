@@ -18328,5 +18328,330 @@ pg.ship_skin_expression_ex = {
 				"3"
 			}
 		}
+	},
+	tiancheng_cv = {
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mail = "",
+		painting = "tiancheng_cv",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"1"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"5"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"2|6|4|1"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"5"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"6"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"1"
+			}
+		}
+	},
+	dulianglai = {
+		feeling3 = "",
+		main_1 = "",
+		expedition = "",
+		win_mvp = "",
+		painting = "dulianglai",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"2"
+			}
+		},
+		home = {
+			{
+				1100,
+				"2"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				""
+			}
+		},
+		detail = {
+			{
+				1100,
+				"2"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"|2|2|2"
+			}
+		},
+		touch = {
+			{
+				1100,
+				""
+			}
+		},
+		mission = {
+			{
+				1100,
+				""
+			}
+		},
+		mail = {
+			{
+				1100,
+				""
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"2"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"2"
+			}
+		}
+	},
+	linglai = {
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		expedition = "",
+		win_mvp = "",
+		painting = "linglai",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"1"
+			}
+		},
+		home = {
+			{
+				1100,
+				"10"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"10"
+			}
+		},
+		upgrade = {
+			{
+				1100,
+				"8"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"10|2|1"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"10"
+			}
+		},
+		mail = {
+			{
+				1100,
+				"1"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"10"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"1"
+			}
+		}
+	},
+	liangbo = {
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		expedition = "",
+		win_mvp = "",
+		mail = "",
+		painting = "liangbo",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"3"
+			}
+		},
+		home = {
+			{
+				1100,
+				"3"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"8"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"3"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"8|3"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"8"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"8"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"6"
+			}
+		}
+	},
+	tiancheng = {
+		touch = "",
+		feeling3 = "",
+		main_1 = "",
+		mission = "",
+		expedition = "",
+		win_mvp = "",
+		home = "",
+		mail = "",
+		painting = "tiancheng",
+		feeling1 = "",
+		main_2 = "",
+		lose = "",
+		main_3 = "",
+		upgrade = "",
+		feeling4 = "",
+		skill = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"2"
+			}
+		},
+		main_ex = {
+			{
+				1100,
+				"1|2"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"3"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"2"
+			}
+		}
 	}
 }

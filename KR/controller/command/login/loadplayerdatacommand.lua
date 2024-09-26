@@ -55,6 +55,11 @@ slot0.execute = function(slot0, slot1)
 			{}
 		},
 		{
+			CompensateProxy,
+			true,
+			{}
+		},
+		{
 			NavalAcademyProxy,
 			true,
 			{}
