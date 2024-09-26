@@ -18,8 +18,6 @@ slot0.register = function(slot0)
 	}
 
 	slot0:on(28000, function (slot0)
-		warning("28000")
-
 		uv0.stamina = getDorm3dGameset("daily_vigor_max")[1] - slot0.daily_vigor_max
 
 		for slot4, slot5 in ipairs(slot0.gifts) do
@@ -69,8 +67,6 @@ end
 slot0.InitGiftDaily = function(slot0)
 	for slot4, slot5 in pairs(pg.dorm3d_gift.all) do
 		if #pg.dorm3d_gift[slot5].shop_id > 0 and pg.shop_template[slot6.shop_id[1]].group ~= 0 then
-			warning("init", slot6.id, slot7, getProxy(ShopsProxy):GetGroupPayCount(slot7))
-
 			slot0.shopCount.dailyGift[slot6.id] = getProxy(ShopsProxy):GetGroupPayCount(slot7)
 		end
 	end
@@ -151,8 +147,6 @@ slot0.isGiveGiftDone = function(slot0, slot1)
 end
 
 slot0.GetGiftShopCount = function(slot0, slot1)
-	warning("wcnmb", slot1, slot0.shopCount.dailyGift[slot1])
-
 	return slot0.shopCount.dailyGift[slot1] or slot0.shopCount.permanentGift[slot1] or 0
 end
 

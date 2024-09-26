@@ -179,6 +179,9 @@ slot0.didEnter = function(slot0)
 			slot1 = function(slot0)
 				if slot0 ~= -1 then
 					uv0(true)
+
+					uv1.recordState = false
+
 					LeanTween.moveX(uv1.stopRecBtn, uv1.stopRecBtn.rect.width, 0.15)
 				end
 			end

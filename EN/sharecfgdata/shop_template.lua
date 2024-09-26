@@ -67995,31 +67995,6 @@ _G.pg.base.shop_template[270110] = {
 	resource_type = 14,
 	id = 270110,
 	genre = "",
-	discount_time = {
-		{
-			{
-				2018,
-				5,
-				24
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2024,
-				10,
-				1
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
-	},
+	discount_time = "always",
 	limit_args = {}
 }

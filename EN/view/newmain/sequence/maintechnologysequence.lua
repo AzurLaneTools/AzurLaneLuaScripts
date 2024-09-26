@@ -28,7 +28,6 @@ slot0.Execute = function(slot0, slot1)
 			weight = LayerWeightConst.SECOND_LAYER,
 			onYes = function ()
 				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SHIPBLUEPRINT)
-				uv0()
 			end,
 			onNo = function ()
 				uv0.DontNotifyBluePrintTaskAgain = true

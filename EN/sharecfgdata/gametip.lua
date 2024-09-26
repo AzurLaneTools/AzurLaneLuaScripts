@@ -36098,6 +36098,31 @@ _G.pg.base.gametip.AR_plane_summon_success = {
 }
 
 
-_G.pg.base.gametip.dorm3d_day_night_switching = {
-	tip = "Already in time period: $1"
+_G.pg.base.gametip.dorm3d_day_night_switching1 = {
+	tip = "Already in time period: Day"
+}
+
+
+_G.pg.base.gametip.dorm3d_day_night_switching2 = {
+	tip = "Already in time period: Night"
+}
+
+
+_G.pg.base.gametip.dorm3d_download_complete = {
+	tip = "Assets downloaded"
+}
+
+
+_G.pg.base.gametip.dorm3d_resource_downloading = {
+	tip = "Downloading assets"
+}
+
+
+_G.pg.base.gametip.dorm3d_resource_delete = {
+	tip = "Assets deleted"
+}
+
+
+_G.pg.base.gametip.dorm3d_favor_maximize = {
+	tip = "Intimacy reached max level. Continue?"
 }

@@ -27406,9 +27406,34 @@ cs.gametip = {
 		105,
 		true
 	},
-	dorm3d_day_night_switching = {
+	dorm3d_day_night_switching1 = {
 		1036422,
-		116,
+		118,
+		true
+	},
+	dorm3d_day_night_switching2 = {
+		1036540,
+		120,
+		true
+	},
+	dorm3d_download_complete = {
+		1036660,
+		105,
+		true
+	},
+	dorm3d_resource_downloading = {
+		1036765,
+		109,
+		true
+	},
+	dorm3d_resource_delete = {
+		1036874,
+		100,
+		true
+	},
+	dorm3d_favor_maximize = {
+		1036974,
+		122,
 		true
 	}
 }
