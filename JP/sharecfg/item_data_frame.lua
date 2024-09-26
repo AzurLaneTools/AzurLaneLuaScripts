@@ -621,6 +621,24 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>誰も己の物語から逃れることができない。例え自由のライダーでもーー</color>「荒野休日開拓記」に参加した指揮官に贈る",
 		scene = {}
 	},
+	[1001] = {
+		name = "スイートランデブー",
+		gain_by = "",
+		time_second = 0,
+		id = 1001,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>甘くて甘い、思い出の味わい。</color>\n「交流宿舎」でシリアスの親愛度報酬で入手可能",
+		scene = {}
+	},
+	[1002] = {
+		name = "のんびりアフタヌーンティー",
+		gain_by = "",
+		time_second = 0,
+		id = 1002,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>どんな時でも、温かい紅茶が静かにあなたを待っている。 </color>\n「交流宿舎」でシリアスの親愛度報酬で入手可能",
+		scene = {}
+	},
 	[10001] = {
 		name = "限界挑戦・ふたご座",
 		gain_by = "",
@@ -799,6 +817,8 @@ pg.item_data_frame = {
 		605,
 		606,
 		607,
+		1001,
+		1002,
 		10001,
 		10002,
 		10003,

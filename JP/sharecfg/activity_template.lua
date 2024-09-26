@@ -497,7 +497,7 @@ pg.activity_template = {
 	[4877] = {
 		mark = 20230525,
 		page_info = "",
-		time = "always",
+		time = "stop",
 		type = 14,
 		login_pop = 0,
 		config_id = 1,
@@ -14372,7 +14372,8 @@ pg.activity_template = {
 			500,
 			501,
 			502,
-			503
+			503,
+			504
 		},
 		time = {
 			"timer",
@@ -14686,7 +14687,7 @@ pg.activity_template = {
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 48,
+		is_show = 46,
 		title_res_tag = "huanxingcanghongzhiyan",
 		id = 5562,
 		config_data = {
@@ -14868,7 +14869,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 5566,
-		is_show = 46,
+		is_show = 45,
 		config_client = "",
 		title_res_tag = "huanxingcanghongzhiyan_pt",
 		id = 5566,
@@ -14949,7 +14950,7 @@ pg.activity_template = {
 		type = 70,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 45,
+		is_show = 44,
 		title_res_tag = "zhaodaizhuang",
 		id = 5568,
 		config_data = {},
@@ -14995,7 +14996,7 @@ pg.activity_template = {
 		type = 3,
 		login_pop = 0,
 		config_id = 62,
-		is_show = 43,
+		is_show = 42,
 		config_client = "",
 		title_res_tag = "japan_seventh_login",
 		id = 5569,
@@ -15037,7 +15038,7 @@ pg.activity_template = {
 		type = 56,
 		login_pop = 0,
 		config_id = 1,
-		is_show = 44,
+		is_show = 43,
 		config_client = "",
 		title_res_tag = "huiliu",
 		id = 5570,
@@ -15686,7 +15687,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 49,
+		is_show = 47,
 		title_res_tag = "TianlangxingEmoji",
 		id = 5581,
 		config_data = {
@@ -15803,6 +15804,77 @@ pg.activity_template = {
 					59
 				}
 			}
+		}
+	},
+	[5583] = {
+		mark = 20240926,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 48,
+		config_client = "",
+		title_res_tag = "Javelin_dressSkin",
+		id = 5583,
+		config_data = {
+			{
+				20618,
+				20619
+			},
+			{
+				20620,
+				20621
+			},
+			{
+				20622,
+				20623
+			},
+			{
+				20624,
+				20625
+			},
+			{
+				20626,
+				20627
+			},
+			{
+				20628,
+				20629
+			},
+			{
+				20630,
+				20631
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "JavelinDressSkinPage",
+			ui_name = "JavelinDressSkinPage"
 		}
 	},
 	[7011] = {
@@ -16377,6 +16449,161 @@ pg.activity_template = {
 		page_info = {
 			class_name = "CrusingDisplayActPage",
 			ui_name = "CrusingDisplayActPage18"
+		}
+	},
+	[7019] = {
+		mark = 20240926,
+		type = 54,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 14,
+		config_client = "",
+		title_res_tag = "CrusingDisplayAct",
+		id = 7019,
+		config_data = {
+			170,
+			171,
+			172,
+			173,
+			174,
+			175,
+			176,
+			177,
+			178
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					11,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CrusingDisplayActPage",
+			ui_name = "CrusingDisplayActPage19"
+		}
+	},
+	[7104] = {
+		mark = 20240926,
+		page_info = "",
+		time = "always",
+		type = 119,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		title_res_tag = "",
+		id = 7104,
+		config_data = {
+			12011,
+			12012,
+			12013,
+			12014,
+			12015,
+			12016,
+			12017,
+			12018,
+			12019,
+			12020,
+			12021,
+			12022
+		},
+		config_client = {
+			"commonbg/meta_shop_bg",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			painting = {
+				"zaoshen_meta_pt",
+				"hailunna_meta_pt",
+				"mengfeisi_meta_pt"
+			}
+		}
+	},
+	[7501] = {
+		mark = 20240926,
+		type = 89,
+		login_pop = 99,
+		config_id = 0,
+		is_show = 49,
+		config_client = "",
+		title_res_tag = "dorm3D_Sign-in1",
+		id = 7501,
+		config_data = {
+			{
+				20611
+			},
+			{
+				20612
+			},
+			{
+				20613
+			},
+			{
+				20614
+			},
+			{
+				20615
+			},
+			{
+				20616
+			},
+			{
+				20617
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2034,
+					12,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DormSignPage",
+			ui_name = "DormSignPage"
 		}
 	},
 	[8050] = {
@@ -20712,7 +20939,7 @@ pg.activity_template = {
 	[10130] = {
 		mark = 20180914,
 		page_info = "",
-		time = "always",
+		time = "stop",
 		type = 44,
 		login_pop = 0,
 		config_id = 4,
@@ -21116,6 +21343,7 @@ pg.activity_template = {
 			5548,
 			5551,
 			5581,
+			5583,
 			6000,
 			6001,
 			6002,
@@ -21546,7 +21774,8 @@ pg.activity_template = {
 			5260
 		},
 		[89] = {
-			5261
+			5261,
+			7501
 		},
 		[22] = {
 			5264
@@ -21595,7 +21824,11 @@ pg.activity_template = {
 			7015,
 			7016,
 			7017,
-			7018
+			7018,
+			7019
+		},
+		[119] = {
+			7104
 		},
 		[19] = {
 			1069,
@@ -22098,6 +22331,7 @@ pg.activity_template = {
 		5579,
 		5581,
 		5582,
+		5583,
 		7011,
 		7012,
 		7013,
@@ -22106,6 +22340,9 @@ pg.activity_template = {
 		7016,
 		7017,
 		7018,
+		7019,
+		7104,
+		7501,
 		8050,
 		8051,
 		8052,

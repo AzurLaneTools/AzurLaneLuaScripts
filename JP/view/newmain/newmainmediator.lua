@@ -173,6 +173,7 @@ slot0.listNotificationInterests = function(slot0)
 		TechnologyConst.UPDATE_REDPOINT_ON_TOP,
 		MiniGameProxy.ON_HUB_DATA_UPDATE,
 		uv0.REFRESH_VIEW,
+		GAME.CHANGE_LIVINGAREA_COVER_DONE,
 		CompensateProxy.UPDATE_ATTACHMENT_COUNT,
 		CompensateProxy.All_Compensate_Remove
 	}
@@ -221,6 +222,8 @@ slot0.handleNotification = function(slot0, slot1)
 			},
 			onRemoved = slot3.callback
 		}))
+	elseif slot2 == GAME.CHANGE_LIVINGAREA_COVER_DONE then
+		slot0.viewComponent:emit(NewMainScene.UPDATE_COVER)
 	end
 
 	slot0.viewComponent:emit(slot2, slot3)

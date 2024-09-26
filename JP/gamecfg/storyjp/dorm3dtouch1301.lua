@@ -8,10 +8,42 @@ return {
 	hideAuto = true,
 	scripts = {
 		{
-			say = "如果是您希望看到的话……",
+			nameColor = "#FFFFFF",
+			actorName = "シリアス",
+			say = "こうして誇らしきご主人様になでなでされていますと、なんだか不思議と安心できますね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			dispatcher = {
+				name = STORY_EVENT.TEST,
+				data = {
+					op_list = {
+						{
+							param = "Play",
+							name = "shui_hudong_xiong",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							param = "Play",
+							name = "Face_haixiu",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							skip = false,
+							time = 2,
+							type = "wait"
+						}
+					}
+				},
+				callbackData = {
+					hideUI = false,
+					name = STORY_EVENT.TEST_DONE
+				}
 			}
 		}
 	}

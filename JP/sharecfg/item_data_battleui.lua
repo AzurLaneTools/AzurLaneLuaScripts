@@ -24,6 +24,18 @@ pg.item_data_battleui = {
 		icon = "101",
 		scene = {}
 	},
+	[102] = {
+		unlock = "クルーズパス19期報酬",
+		name = "サイバー",
+		key = "SkinNormal_20240912",
+		display_icon = "ui_102",
+		is_unlock = 1,
+		rare = 3,
+		desc = "サイバー風のUI。アニメーションやライティングなどの演出が随所にあり、SF好きな指揮官に没入体験を提供する",
+		id = 102,
+		icon = "102",
+		scene = {}
+	},
 	[103] = {
 		unlock = "ショップ購入",
 		name = "レインボー",
@@ -39,6 +51,7 @@ pg.item_data_battleui = {
 	all = {
 		0,
 		101,
+		102,
 		103
 	}
 }

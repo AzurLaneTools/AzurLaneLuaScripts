@@ -92,6 +92,7 @@ pg.pay_data_display = setmetatable({
 		1015,
 		1016,
 		1017,
+		1018,
 		2001,
 		2002,
 		2003,
@@ -9078,7 +9079,7 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "",
 		limit_type = 2,
-		type_order = 5,
+		type_order = 4,
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
 		id_str = "com.bilibili.blhx.battlepass19",
@@ -9132,6 +9133,82 @@ pg.base.pay_data_display = {
 		},
 		sub_display = {
 			7018,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1018] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
+		type = 0,
+		name = "クルーズパス(24秋)",
+		first_pay_double = 0,
+		name_display = "クルーズパス(24秋)",
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		subject = "クルーズパス(24秋)",
+		money = 1200,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 4,
+		picture = "battlepass_1",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.battlepass20",
+		extra_service = 4,
+		id = 1018,
+		airijp_id = "com.yostarjp.azurlane.seasonpass19",
+		extra_service_item = {
+			{
+				1,
+				4019,
+				1500
+			},
+			{
+				8,
+				65028,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					10,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					11,
+					30
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				4019,
+				1500
+			}
+		},
+		sub_display = {
+			7019,
 			1500
 		},
 		ignorePlatform = {},

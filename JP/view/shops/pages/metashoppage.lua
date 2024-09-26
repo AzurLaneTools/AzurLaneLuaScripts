@@ -1,4 +1,4 @@
-slot0 = class("MetaShopPage", import(".ActivityShopPage"))
+slot0 = class("MetaShopPage", import(".ActivitySelectableShopPage"))
 
 slot0.getUIName = function(slot0)
 	return "MetaShop"
@@ -14,6 +14,13 @@ end
 
 slot0.UpdateTip = function(slot0)
 	slot0.time.text = i18n("meta_shop_tip")
+end
+
+slot0.SetPurchaseConfirmCb = function(slot0, slot1)
+	slot0.purchaseWindow:ExecuteAction("SetConfirmCb", function (slot0, slot1, slot2)
+		uv0:emit(NewShopsMediator.ON_META_SHOP, uv0.shop.activityId, 1, slot0, slot2, slot1)
+	end)
+	slot0.purchaseWindow:ExecuteAction("Hide")
 end
 
 slot0.OnUpdatePlayer = function(slot0)
@@ -38,7 +45,12 @@ slot0.OnUpdateItems = function(slot0)
 end
 
 slot0.OnPurchase = function(slot0, slot1, slot2)
-	slot0:emit(NewShopsMediator.ON_META_SHOP, slot0.shop.activityId, 1, slot1.id, slot2)
+	slot0:emit(NewShopsMediator.ON_META_SHOP, slot0.shop.activityId, 1, slot1.id, slot2, {
+		{
+			key = slot1:getConfig("commodity_id"),
+			value = slot2
+		}
+	})
 end
 
 slot0.GetPaintingName = function(slot0)

@@ -1,54 +1,20 @@
 return {
-	hideRecord = true,
+	fadeOut = 1.5,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DDAILYCONVERSATION16",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DDAILYCONVERSATION16",
 	scripts = {
 		{
-			say = "主人，您手里拿着的是……相机？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "嗯？您说要为天狼星拍照？可是……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			options = {
-				{
-					content = "天狼星是不喜欢拍照吗？",
-					flag = 1
-				}
-			}
-		},
-		{
-			say = "天狼星觉得主人应该去拍一些更有价值的内容……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			options = {
-				{
-					content = "但你就是这里最有价值的存在",
-					flag = 1
-				}
-			}
-		},
-		{
-			say = "不是的，最有价值的存在，是您。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "您就是天狼星眼中最耀眼的那道光芒，我骄傲的主人。",
+			actorName = "シリアス",
+			side = 2,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFFFFF",
+			say = "そういえば、ここに来てから前より良い方向に進んだことがいくつかあります",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,27 +24,67 @@ return {
 				data = {
 					op_list = {
 						{
+							param = "Play",
+							name = "biaoda",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
 							skip = false,
-							name = "Bow",
-							type = "action"
+							time = 1,
+							type = "wait"
 						}
 					}
 				},
 				callbackData = {
-					hideUI = true,
+					hideUI = false,
 					name = STORY_EVENT.TEST_DONE
 				}
 			}
 		},
 		{
-			say = "如果可以的话，请您将手中的相机借给天狼星使用，天狼星想记录下主人的身姿。",
+			actorName = "シリアス",
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "シリアスにこの機会を与えてくださり、感謝しております。誇らしきご主人さま。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "然后……永远珍藏。",
+			actor = 0,
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			say = "――ん？どういうこと？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "シリアス",
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "例えば…ご主人様とこのように長くいられて、ご主人様のご要望にすぐ応えられて…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "シリアス",
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "そういう意味ではシリアス、良い方向へと進んでいると思います！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

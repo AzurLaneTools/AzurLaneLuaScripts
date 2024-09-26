@@ -257,6 +257,11 @@ pg.task_meta_data_template = setmetatable({
 		100333,
 		100334,
 		100335,
+		100341,
+		100342,
+		100343,
+		100344,
+		100345,
 		200001,
 		200002,
 		200003,
@@ -352,7 +357,11 @@ pg.task_meta_data_template = setmetatable({
 		200241,
 		200242,
 		200243,
-		200244
+		200244,
+		200251,
+		200252,
+		200253,
+		200254
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2397,6 +2406,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "比叡(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
+	[100341] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970604",
+		id = 100341,
+		target_num = 1,
+		desc = "鳳翔(META)を編成した艦隊で1回戦闘を勝利する"
+	},
+	[100342] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970604",
+		id = 100342,
+		target_num = 1,
+		desc = "鳳翔(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+	},
+	[100343] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970604",
+		id = 100343,
+		target_num = 1,
+		desc = "鳳翔(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+	},
+	[100344] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970604",
+		id = 100344,
+		target_num = 1,
+		desc = "鳳翔(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+	},
+	[100345] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970604",
+		id = 100345,
+		target_num = 1,
+		desc = "鳳翔(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3164,5 +3213,37 @@ pg.base.task_meta_data_template = {
 		id = 200244,
 		target_num = 1,
 		desc = "セイレーン作戦で比叡(META)を含めた艦隊でLv100+の敵を撃破"
+	},
+	[200251] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970604",
+		id = 200251,
+		target_num = 1,
+		desc = "セイレーン作戦で鳳翔(META)を含めた艦隊で1回勝利する"
+	},
+	[200252] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970604",
+		id = 200252,
+		target_num = 1,
+		desc = "セイレーン作戦で鳳翔(META)を含めた艦隊でLv70+の敵を撃破"
+	},
+	[200253] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970604",
+		id = 200253,
+		target_num = 1,
+		desc = "セイレーン作戦で鳳翔(META)を含めた艦隊でLv90+の敵を撃破"
+	},
+	[200254] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970604",
+		id = 200254,
+		target_num = 1,
+		desc = "セイレーン作戦で鳳翔(META)を含めた艦隊でLv100+の敵を撃破"
 	}
 }

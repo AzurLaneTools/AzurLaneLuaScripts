@@ -3725,6 +3725,12 @@ pg.gameset = {
 		description = "",
 		key_value = 8
 	},
+	weekly_fixed_task = {
+		key_value = 0,
+		description = {
+			7311
+		}
+	},
 	new_login_extra_voice = {
 		key_value = 0,
 		description = {
@@ -3787,5 +3793,13 @@ pg.gameset = {
 	new_auto_unlock_combat_ui = {
 		description = "101|103",
 		key_value = 0
+	},
+	cuise_shop_type2_limit_num = {
+		description = "",
+		key_value = 4
+	},
+	battlepass_level = {
+		description = "",
+		key_value = 50
 	}
 }

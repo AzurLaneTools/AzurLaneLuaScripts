@@ -104,7 +104,8 @@ slot0.Ctor = function(slot0)
 			"frame_npc",
 			"frame_prop",
 			"frame_prop_meta",
-			"frame_skin"
+			"frame_skin",
+			"frame_dorm"
 		},
 		energy = {
 			"express_1",
@@ -317,28 +318,6 @@ slot0.GetUI = function(slot0, slot1, slot2, slot3)
 		else
 			slot1()
 		end
-	end, table.contains(uv1, slot1) or table.contains(uv2, slot1))
-end
-
-slot0.BuildUIPlural = function(slot0, slot1, slot2)
-	if slot0.pools_plural["ui/" .. slot1 .. slot1] then
-		return
-	end
-
-	slot5 = table.contains(uv0, slot1) and 3 or 1
-
-	slot0:LoadAsset(slot3, slot1, true, typeof(Object), function (slot0)
-		if slot0 == nil then
-			Debugger.LogError("can not find asset: " .. uv0 .. " : " .. uv1)
-
-			return
-		end
-
-		if not uv2.pools_plural[uv3] then
-			uv2.pools_plural[uv3] = uv4.New(slot0, uv5)
-		end
-
-		existCall(uv6)
 	end, table.contains(uv1, slot1) or table.contains(uv2, slot1))
 end
 

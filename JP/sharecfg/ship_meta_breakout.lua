@@ -126,6 +126,10 @@ pg.ship_meta_breakout = setmetatable({
 		9706032,
 		9706033,
 		9706034,
+		9706041,
+		9706042,
+		9706043,
+		9706044,
 		9707011,
 		9707012,
 		9707013,
@@ -2165,6 +2169,75 @@ pg.base.ship_meta_breakout = {
 		item2_num = 0,
 		id = 9706034,
 		item1 = 21026,
+		level = 0,
+		weapon_ids = {}
+	},
+	[9706041] = {
+		breakout_view = "【湮滅の核・鳳翔】習得/戦闘機数+1/艦載機補正+3%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 500,
+		breakout_id = 9706042,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9706041,
+		item1 = 21039,
+		level = 10,
+		weapon_ids = {
+			60181,
+			54011
+		}
+	},
+	[9706042] = {
+		breakout_view = "攻撃隊上限+1/攻撃機数+1/艦載機補正+5%",
+		item2 = 21001,
+		pre_id = 9706041,
+		repair = 0,
+		gold = 1500,
+		breakout_id = 9706043,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9706042,
+		item1 = 21039,
+		level = 30,
+		weapon_ids = {
+			60182,
+			54011,
+			60182,
+			54011
+		}
+	},
+	[9706043] = {
+		breakout_view = "【湮滅の核・鳳翔】強化/艦載機数+1/主砲砲座+1/艦載機補正+7%",
+		item2 = 21001,
+		pre_id = 9706042,
+		repair = 0,
+		gold = 2500,
+		breakout_id = 9706044,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9706043,
+		item1 = 21039,
+		level = 70,
+		weapon_ids = {
+			60183,
+			54012,
+			60183,
+			54012
+		}
+	},
+	[9706044] = {
+		breakout_view = "なし",
+		item2 = 21001,
+		pre_id = 9706043,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9706044,
+		item1 = 21039,
 		level = 0,
 		weapon_ids = {}
 	},

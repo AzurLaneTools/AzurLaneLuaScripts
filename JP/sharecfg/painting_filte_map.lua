@@ -1265,6 +1265,16 @@ pg.painting_filte_map = {
 			"painting/bailong_3"
 		}
 	},
+	bailong_4 = {
+		key = "bailong_4",
+		res_list = {
+			"painting/bailong_4_tex",
+			"painting/bailong_4_rw_tex",
+			"painting/bailong_4_n_tex",
+			"painting/bailong_4_n",
+			"painting/bailong_4"
+		}
+	},
 	bailu = {
 		key = "bailu",
 		res_list = {
@@ -2001,6 +2011,19 @@ pg.painting_filte_map = {
 			"painting/bisimai_3_n_tex",
 			"painting/bisimai_3_n",
 			"painting/bisimai_3"
+		}
+	},
+	bisimai_h = {
+		key = "bisimai_h",
+		res_list = {
+			"painting/bisimai_h_tex",
+			"painting/bisimai_h_rw_tex",
+			"painting/bisimai_h_n_tex",
+			"painting/bisimai_h_n",
+			"painting/bisimai_h_bj3_tex",
+			"painting/bisimai_h_bj2_tex",
+			"painting/bisimai_h_bj1_tex",
+			"painting/bisimai_h"
 		}
 	},
 	bisimaiz = {
@@ -4204,6 +4227,16 @@ pg.painting_filte_map = {
 			"painting/fengxiang_2"
 		}
 	},
+	fengxiang_alter = {
+		key = "fengxiang_alter",
+		res_list = {
+			"painting/fengxiang_alter_tex",
+			"painting/fengxiang_alter_rw_tex",
+			"painting/fengxiang_alter_n_tex",
+			"painting/fengxiang_alter_n",
+			"painting/fengxiang_alter"
+		}
+	},
 	fengyun = {
 		key = "fengyun",
 		res_list = {
@@ -4418,6 +4451,16 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/fusang_g_tex",
 			"painting/fusang_g"
+		}
+	},
+	fusang_h = {
+		key = "fusang_h",
+		res_list = {
+			"painting/fusang_h_tex",
+			"painting/fusang_h_rw_tex",
+			"painting/fusang_h_n_tex",
+			"painting/fusang_h_n",
+			"painting/fusang_h"
 		}
 	},
 	fushun = {
@@ -14682,6 +14725,16 @@ pg.painting_filte_map = {
 			"painting/xianghe_3"
 		}
 	},
+	xianghe_h = {
+		key = "xianghe_h",
+		res_list = {
+			"painting/xianghe_h_tex",
+			"painting/xianghe_h_rw_tex",
+			"painting/xianghe_h_n_tex",
+			"painting/xianghe_h_n",
+			"painting/xianghe_h"
+		}
+	},
 	xianghe_memory = {
 		key = "xianghe_memory",
 		res_list = {
@@ -15552,6 +15605,16 @@ pg.painting_filte_map = {
 			"painting/xufulun_2_n_tex",
 			"painting/xufulun_2_n",
 			"painting/xufulun_2"
+		}
+	},
+	xufulun_3 = {
+		key = "xufulun_3",
+		res_list = {
+			"painting/xufulun_3_tex",
+			"painting/xufulun_3_rw_tex",
+			"painting/xufulun_3_n_tex",
+			"painting/xufulun_3_n",
+			"painting/xufulun_3"
 		}
 	},
 	xukufu = {

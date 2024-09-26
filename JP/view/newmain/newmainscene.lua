@@ -2,6 +2,7 @@ slot0 = class("NewMainScene", import("..base.BaseUI"))
 slot0.THEME_CLASSIC = 1
 slot0.THEME_MELLOW = 2
 slot0.OPEN_LIVEAREA = "NewMainScene:OPEN_LIVEAREA"
+slot0.UPDATE_COVER = "NewMainScene:UPDATE_COVER"
 slot0.FOLD = "NewMainScene:FOLD"
 slot0.CHAT_STATE_CHANGE = "NewMainScene:CHAT_STATE_CHANGE"
 slot0.ON_CHANGE_SKIN = "NewMainScene:ON_CHANGE_SKIN"

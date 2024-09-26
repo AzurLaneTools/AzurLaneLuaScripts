@@ -1067,5 +1067,8 @@ pg.activity_const = {
 	},
 	DREAMLAND_JP_ID = {
 		act_id = 5560
+	},
+	DORM_SIGN_ID = {
+		act_id = 7501
 	}
 }

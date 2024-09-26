@@ -20,7 +20,7 @@ slot0.ShaderMgr.Init = function(slot0, slot1)
 			slot0()
 		end,
 		function (slot0)
-			ResourceMgr.Inst:LoadShaderAndCached("builtinpipeline/shaders", slot0, false, false)
+			ResourceMgr.Inst:LoadShaderAndCached("custom_builtin", slot0, false, false)
 		end
 	}, function ()
 		originalPrint("所有shader加载完成")

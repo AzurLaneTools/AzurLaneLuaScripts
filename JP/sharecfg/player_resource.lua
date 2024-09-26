@@ -1805,6 +1805,11 @@ pg.player_resource = {
 		name = "Battlepass_18",
 		itemid = 59599
 	},
+	[4019] = {
+		id = 4019,
+		name = "Battlepass_19",
+		itemid = 65028
+	},
 	[4186] = {
 		id = 4186,
 		name = "skin_rerun_pt1",
@@ -2934,6 +2939,9 @@ pg.player_resource = {
 		Battlepass_18 = {
 			4018
 		},
+		Battlepass_19 = {
+			4019
+		},
 		skin_rerun_pt1 = {
 			4186
 		},
@@ -3324,6 +3332,7 @@ pg.player_resource = {
 		4016,
 		4017,
 		4018,
+		4019,
 		4186,
 		4276,
 		4599,

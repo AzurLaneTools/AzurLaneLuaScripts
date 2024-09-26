@@ -67,27 +67,49 @@ slot1.prepareLayer = function(slot0, slot1, slot2, slot3, slot4)
 		end
 	end
 
-	slot7 = nil
+	slot7 = {
+		{
+			depth = 1,
+			count = #slot5,
+			list = {}
+		}
+	}
 
-	(function ()
-		if #uv0 > 0 then
-			for slot4, slot5 in ipairs(table.remove(uv0, 1).children) do
-				table.insert(uv0, slot5)
-			end
+	while #slot5 > 0 do
+		slot9 = underscore.detect(slot7, function (slot0)
+			return slot0.count > 0
+		end).depth
+		slot7[slot9].count = slot7[slot9].count - 1
 
-			slot3 = uv1:retrieveMediator(slot0.parent.mediator.__cname):getViewComponent()
+		table.insert(slot7[slot9].list, function (slot0)
+			slot3 = uv1:retrieveMediator(uv0.parent.mediator.__cname):getViewComponent()
 
-			uv2:prepare(uv1, slot0, function (slot0)
+			uv2:prepare(uv1, uv0, function (slot0)
 				slot0.viewComponent:attach(uv0)
 				table.insert(uv1, slot0)
 				uv2()
 			end)
+		end)
 
-			return
+		for slot14, slot15 in ipairs(table.remove(slot5, 1).children) do
+			slot7[slot9 + 1] = slot7[slot9 + 1] or {
+				count = 0,
+				depth = slot9 + 1,
+				list = {}
+			}
+			slot7[slot9 + 1].count = slot7[slot9 + 1].count + 1
+
+			table.insert(slot5, slot15)
 		end
+	end
 
-		uv5(uv3)
-	end)()
+	seriesAsync(underscore.map(slot7, function (slot0)
+		return function (slot0)
+			parallelAsync(uv0.list, slot0)
+		end
+	end), function ()
+		uv0(uv1)
+	end)
 end
 
 slot1.enter = function(slot0, slot1, slot2)

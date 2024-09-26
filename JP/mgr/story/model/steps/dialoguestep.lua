@@ -127,6 +127,10 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.action = slot1.action or {}
 end
 
+slot0.SetDefaultSide = function(slot0)
+	slot0.side = defaultValue(slot0.side, uv0.SIDE_LEFT)
+end
+
 slot0.GetBgName = function(slot0)
 	if slot0.dynamicBgType and slot0.dynamicBgType == uv0.ACTOR_TYPE_TB and getProxy(EducateProxy) and not pg.NewStoryMgr.GetInstance():IsReView() then
 		slot1, slot2, slot3 = getProxy(EducateProxy):GetStoryInfo()

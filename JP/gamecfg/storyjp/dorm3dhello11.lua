@@ -8,10 +8,40 @@ return {
 	hideAuto = true,
 	scripts = {
 		{
-			say = "我骄傲的主人，您来得刚好。听说港区里发生了大事，请您务必告诉天狼星您活跃在前线的英姿，那一定是值得众人传颂的壮举！",
+			nameColor = "#FFFFFF",
+			actorName = "シリアス",
+			say = "誇らしきご主人様、本日はご主人様の忠実なるメイドのシリアスとどのように過ごされますか？シリアス、ご主人様のあらゆるご要望にお応えする準備ができております…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			dispatcher = {
+				name = STORY_EVENT.TEST,
+				data = {
+					op_list = {
+						{
+							skip = true,
+							name = "Bow",
+							type = "action"
+						},
+						{
+							param = "Play",
+							name = "Face_weixiao",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							skip = false,
+							time = 1,
+							type = "wait"
+						}
+					}
+				},
+				callbackData = {
+					hideUI = false,
+					name = STORY_EVENT.TEST_DONE
+				}
 			}
 		}
 	}

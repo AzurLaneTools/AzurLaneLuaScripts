@@ -38,6 +38,14 @@ slot0.Ctor = function(slot0, slot1)
 end
 
 slot0.update = function(slot0, slot1, slot2, slot3, slot4)
+	if slot1:Selectable() then
+		slot0:updateSelectable(slot1, slot2, slot3, slot4)
+	else
+		slot0:updateSingle(slot1, slot2, slot3, slot4)
+	end
+end
+
+slot0.updateSingle = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.goodsVO = slot1
 
 	setActive(slot0.mask, not slot5 or slot0.goodsVO:CheckCntLimit() and not slot0.goodsVO:CheckArgLimit())
@@ -58,12 +66,12 @@ slot0.update = function(slot0, slot1, slot2, slot3, slot4)
 			onButton(slot0, slot0.mask, function ()
 				pg.TipsMgr.GetInstance():ShowTips(i18n("eventshop_unlock_hint", uv0))
 			end, SFX_PANEL)
-		elseif slot8 == 1 or slot8 == 2 then
+		elseif slot8 == 1 or slot8 == 2 or slot8 == ShopArgs.LIMIT_ARGS_UNIQUE_SHIP then
 			setText(slot0.unexchangeTag, slot9)
 
 			slot10 = ""
 
-			if slot8 == 1 then
+			if slot8 == 1 or slot8 == ShopArgs.LIMIT_ARGS_UNIQUE_SHIP then
 				slot10 = "LIMIT"
 			end
 
@@ -124,6 +132,58 @@ slot0.update = function(slot0, slot1, slot2, slot3, slot4)
 	slot10 = uv0.Color[slot2] or uv0.DefaultColor
 	slot0.limitCountTF.color = slot3 or Color.New(unpack(slot10))
 	slot0.limitCountLabelTF.color = slot3 or Color.New(unpack(slot10))
+	slot4 = slot4 or Color.New(0, 0, 0, 1)
+
+	if GetComponent(slot0.limitCountTF, typeof(Outline)) then
+		setOutlineColor(slot0.limitCountTF, slot4)
+	end
+
+	if GetComponent(slot0.limitCountLabelTF, typeof(Outline)) then
+		setOutlineColor(slot0.limitCountLabelTF, slot4)
+	end
+end
+
+slot0.updateSelectable = function(slot0, slot1, slot2, slot3, slot4)
+	slot0.goodsVO = slot1
+
+	updateDrop(slot0.itemTF, Drop.New({
+		count = 1,
+		type = DROP_TYPE_ITEM,
+		id = slot1:getConfig("commodity_id_list_show")
+	}))
+	setActive(slot0.mask, false)
+	setActive(slot0.selloutTag, fasle)
+
+	if slot0.limitPassTag then
+		setActive(slot0.limitPassTag, false)
+	end
+
+	removeOnButton(slot0.mask)
+	setActive(slot0.limitTimeSellTF, false)
+	GetSpriteFromAtlasAsync(Drop.New({
+		type = slot1:getConfig("resource_category"),
+		id = slot1:getConfig("resource_type")
+	}):getIcon(), "", function (slot0)
+		uv0.resIconTF.sprite = slot0
+	end)
+
+	slot0.countTF.text = slot1:getConfig("resource_num")
+
+	if string.match(slot5:getName() or "??", "(%d+)") then
+		setText(slot0.nameTxt, shortenString(slot6, 5))
+	else
+		setText(slot0.nameTxt, shortenString(slot6, 6))
+	end
+
+	if slot1:getConfig("num_limit") == 0 then
+		slot0.limitCountTF.text = i18n("common_no_limit")
+	else
+		slot0.limitCountTF.text = math.max(slot1:GetPurchasableCnt(), 0) .. "/" .. slot7
+	end
+
+	slot8 = uv0.Color[slot2] or uv0.DefaultColor
+	slot0.limitCountTF.color = slot3 or Color.New(unpack(slot8))
+	slot0.limitCountLabelTF.color = slot3 or Color.New(unpack(slot8))
 	slot4 = slot4 or Color.New(0, 0, 0, 1)
 
 	if GetComponent(slot0.limitCountTF, typeof(Outline)) then

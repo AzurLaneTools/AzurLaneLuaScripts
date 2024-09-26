@@ -49,6 +49,11 @@ slot0.OnInit = function(slot0)
 		container = slot0.containerTF,
 		iconSP = getImageSprite(slot0.iconTF:Find("MANGA"))
 	})
+	slot0.dormBtn = SettingsDormBtn.New({
+		tpl = slot0.tpl,
+		container = slot0.containerTF,
+		iconSP = getImageSprite(slot0.iconTF:Find("DORM"))
+	})
 	slot0.repairBtn = SettingsResRepairBtn.New({
 		tpl = slot0.tpl,
 		container = slot0.containerTF,
@@ -83,6 +88,10 @@ slot0.Dispose = function(slot0)
 		slot0.mangaBtn:Dispose()
 
 		slot0.mangaBtn = nil
+
+		slot0.dormBtn:Dispose()
+
+		slot0.dormBtn = nil
 
 		if slot0.mainGroupBtn then
 			slot0.mainGroupBtn:Dispose()

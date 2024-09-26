@@ -3,6 +3,7 @@ slot0.PAGE_OTHER = 1
 slot0.PAGE_OPTION = 2
 slot0.PAGE_BATTLE = 3
 slot0.PAGE_RES = 4
+slot0.PAGE_3D = 5
 
 slot0.getUIName = function(slot0)
 	return "NewSettingsUI"
@@ -40,6 +41,14 @@ slot0.OnRandomFlagShipModeUpdate = function(slot0)
 	slot0:emit(SettingsRandomFlagShipAndSkinPanel.EVT_UPDTAE)
 end
 
+slot0.OnSelectGraphicSettingLevel = function(slot0)
+	slot0:emit(SettingsOtherGraphicsPanle.EVT_UPDTAE)
+end
+
+slot0.OnSelectCustomGraphicSetting = function(slot0)
+	slot0:emit(SettingsGraphicsPanle.EVT_UPDTAE)
+end
+
 slot0.GetPage = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.pages) do
 		if isa(slot6, slot1) then
@@ -55,13 +64,15 @@ slot0.init = function(slot0)
 		SettingsOtherPage.New(slot1, slot0.event, slot0.contextData),
 		SettingsOptionPage.New(slot1, slot0.event, slot0.contextData),
 		SettingsBattlePage.New(slot1, slot0.event, slot0.contextData),
-		SettingsResPage.New(slot1, slot0.event, slot0.contextData)
+		SettingsResPage.New(slot1, slot0.event, slot0.contextData),
+		Settings3DPage.New(slot1, slot0.event, slot0.contextData)
 	}
 	slot0.toggles = {
 		slot0:findTF("blur_panel/adapt/left_length/other"),
 		slot0:findTF("blur_panel/adapt/left_length/options"),
 		slot0:findTF("blur_panel/adapt/left_length/battle_ui"),
-		slot0:findTF("blur_panel/adapt/left_length/resources")
+		slot0:findTF("blur_panel/adapt/left_length/resources"),
+		slot0:findTF("blur_panel/adapt/left_length/threeD")
 	}
 	slot0.otherTip = slot0.toggles[1]:Find("tip")
 	slot0.logoutBtn = slot0:findTF("blur_panel/adapt/left_length/logout")
@@ -167,6 +178,8 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
+	Dorm3dRoomTemplateScene.SettingQuality()
+
 	for slot4, slot5 in pairs(slot0.pages) do
 		slot5:Destroy()
 	end

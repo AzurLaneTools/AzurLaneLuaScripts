@@ -10828,6 +10828,37 @@ _G.pg.base.item_data_statistics[15021] = {
 }
 
 
+_G.pg.base.item_data_statistics[15022] = {
+	open_directly = 0,
+	name = "ビーチエリア使用許可書",
+	type = 100,
+	display = "指揮官の許可書さえあれば、すぐにでも着工するにゃ～",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/15022",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 15022,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[16001] = {
 	open_directly = 0,
 	name = "攻撃教科書T1",
@@ -14875,6 +14906,37 @@ _G.pg.base.item_data_statistics[21038] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21038,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[21039] = {
+	open_directly = 0,
+	name = "結晶：鳳翔(META)",
+	type = 4,
+	display = "鳳翔(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21039",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21039,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
@@ -25975,6 +26037,115 @@ _G.pg.base.item_data_statistics[30422] = {
 }
 
 
+_G.pg.base.item_data_statistics[30423] = {
+	open_directly = 1,
+	name = "ランダム装備外装",
+	type = 11,
+	display = "クルーズ報酬の装備外装をランダムに１つ入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30423",
+	id = 30423,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2079,
+			1
+		},
+		{
+			9,
+			2080,
+			1
+		},
+		{
+			9,
+			2081,
+			1
+		},
+		{
+			9,
+			2082,
+			1
+		},
+		{
+			9,
+			2083,
+			1
+		},
+		{
+			9,
+			2084,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[30424] = {
+	open_directly = 1,
+	name = "フォアランナーUAV",
+	type = 11,
+	display = "フォアランナーUAV（攻撃）、フォアランナーUAV（戦闘）、フォアランナーUAV（爆撃）を1個ずつ入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/96808",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30424",
+	id = 30424,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2082,
+			1
+		},
+		{
+			9,
+			2083,
+			1
+		},
+		{
+			9,
+			2084,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[30501] = {
 	open_directly = 0,
 	name = "選択装備外装箱（晩夏）",
@@ -35474,6 +35645,219 @@ _G.pg.base.item_data_statistics[30545] = {
 		{
 			9,
 			4058,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_data_statistics[30546] = {
+	open_directly = 0,
+	name = "選択装備外装箱（ヴァンパイア）",
+	type = 13,
+	display = "使用すると、装備外装（赤き月の夜へようこそ）から任意の装備外装を1個選択して入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxhongyuezixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30546,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			540,
+			1
+		},
+		{
+			9,
+			541,
+			1
+		},
+		{
+			9,
+			542,
+			1
+		},
+		{
+			9,
+			543,
+			1
+		},
+		{
+			9,
+			544,
+			1
+		},
+		{
+			9,
+			545,
+			1
+		},
+		{
+			9,
+			546,
+			1
+		},
+		{
+			9,
+			547,
+			1
+		},
+		{
+			9,
+			548,
+			1
+		},
+		{
+			9,
+			549,
+			1
+		},
+		{
+			9,
+			550,
+			1
+		},
+		{
+			9,
+			551,
+			1
+		},
+		{
+			9,
+			552,
+			1
+		},
+		{
+			9,
+			553,
+			1
+		},
+		{
+			9,
+			554,
+			1
+		},
+		{
+			9,
+			555,
+			1
+		},
+		{
+			9,
+			556,
+			1
+		},
+		{
+			9,
+			557,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			540,
+			1
+		},
+		{
+			9,
+			541,
+			1
+		},
+		{
+			9,
+			542,
+			1
+		},
+		{
+			9,
+			543,
+			1
+		},
+		{
+			9,
+			544,
+			1
+		},
+		{
+			9,
+			545,
+			1
+		},
+		{
+			9,
+			546,
+			1
+		},
+		{
+			9,
+			547,
+			1
+		},
+		{
+			9,
+			548,
+			1
+		},
+		{
+			9,
+			549,
+			1
+		},
+		{
+			9,
+			550,
+			1
+		},
+		{
+			9,
+			551,
+			1
+		},
+		{
+			9,
+			552,
+			1
+		},
+		{
+			9,
+			553,
+			1
+		},
+		{
+			9,
+			554,
+			1
+		},
+		{
+			9,
+			555,
+			1
+		},
+		{
+			9,
+			556,
+			1
+		},
+		{
+			9,
+			557,
 			1
 		}
 	}

@@ -41934,6 +41934,47 @@ _G.pg.base.task_data_template[7310] = {
 }
 
 
+_G.pg.base.task_data_template[7311] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 7301,
+	type = 13,
+	is_head = 1,
+	count_inherit = 0,
+	name = "宿舍礼品任务",
+	desc = "宿舎で艦船と会話もしくはタッチを3回行う",
+	sub_type = 500,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 80,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 7311,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			1021002,
+			1
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[10003] = {
 	target_id_2 = "",
 	guild_coin_award = 0,
@@ -114305,6 +114346,871 @@ _G.pg.base.task_data_template[20610] = {
 			432,
 			3
 		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20611] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904001,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『3D宿舍』第一期-签到活动1",
+	desc = "「交流宿舎」を開く",
+	sub_type = 502,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20611,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15022,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20612] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904002,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『3D宿舍』第一期-签到活动2",
+	desc = "「交流宿舎」を開く",
+	sub_type = 502,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20612,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			150
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20613] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904003,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『3D宿舍』第一期-签到活动3",
+	desc = "「交流宿舎」を開く",
+	sub_type = 502,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20613,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			1021001,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20614] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904004,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『3D宿舍』第一期-签到活动4",
+	desc = "「交流宿舎」を開く",
+	sub_type = 502,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20614,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20615] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904005,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『3D宿舍』第一期-签到活动5",
+	desc = "「交流宿舎」を開く",
+	sub_type = 502,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20615,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			1021001,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20616] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904006,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『3D宿舍』第一期-签到活动6",
+	desc = "「交流宿舎」を開く",
+	sub_type = 502,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20616,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30025,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20617] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904007,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『3D宿舍』第一期-签到活动7",
+	desc = "「交流宿舎」を開く",
+	sub_type = 502,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20617,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			27,
+			1021002,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20618] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904008,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送标枪皮肤活动1",
+	desc = "艦隊を出撃させ、10回S評価で勝利せよ！",
+	sub_type = 24,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20618,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20619] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904009,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送标枪皮肤活动2",
+	desc = "ゲームにログインせよ！",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20619,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20620] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904010,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送标枪皮肤活动3",
+	desc = "「軍事委託」を2回遂行する",
+	sub_type = 80,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20620,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20621] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904011,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送标枪皮肤活动4",
+	desc = "演習を2回行う",
+	sub_type = 27,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20621,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20622] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904012,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送标枪皮肤活动5",
+	desc = "「デイリーチャレンジ」を三回行う ",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20622,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20623] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904013,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送标枪皮肤活动6",
+	desc = "艦を2隻「退役」して、艦隊を再編せよ！",
+	sub_type = 31,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20623,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20624] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904014,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送标枪皮肤活动7",
+	desc = "戦術教室で戦術訓練を2回行う",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20624,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20625] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904015,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送标枪皮肤活动8",
+	desc = "艦を5回強化する",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20625,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20626] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904016,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送标枪皮肤活动9",
+	desc = "任意の敵艦を20隻撃破する",
+	sub_type = 11,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20626,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20627] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904017,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送标枪皮肤活动10",
+	desc = "寮舎で食糧を5回補充する",
+	sub_type = 61,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20627,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20628] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904018,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送标枪皮肤活动11",
+	desc = "装備箱を1個開ける",
+	sub_type = 50,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20628,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20629] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904019,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送标枪皮肤活动12",
+	desc = "艦を2隻「建造」せよ！",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20629,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20630] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904020,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送标枪皮肤活动13",
+	desc = "戦術教室で戦術訓練を2回遂行せよ！",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20630,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20631] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904021,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送标枪皮肤活动14",
+	desc = "艦隊を出撃させ、敵中枢艦隊を3回撃破せよ！",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20631,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			7,
+			231210,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
 	}
 }
 

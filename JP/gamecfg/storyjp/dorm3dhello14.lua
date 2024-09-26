@@ -8,10 +8,40 @@ return {
 	hideAuto = true,
 	scripts = {
 		{
-			say = "我骄傲的主人，天狼星终于能和大家再相见了，主人一定也为天狼星感到开心吧？真希望这样的日子能够再多一些。",
+			nameColor = "#FFFFFF",
+			actorName = "シリアス",
+			say = "会いに来てくださることが、シリアスにとって最大の幸せです。最愛のご主人様もしよろしければ…シリアスがあなたを抱きしめることをお許しくださいませ…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
+			},
+			dispatcher = {
+				name = STORY_EVENT.TEST,
+				data = {
+					op_list = {
+						{
+							skip = true,
+							name = "Bow",
+							type = "action"
+						},
+						{
+							param = "Play",
+							name = "Face_weixiao",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							skip = false,
+							time = 1,
+							type = "wait"
+						}
+					}
+				},
+				callbackData = {
+					hideUI = false,
+					name = STORY_EVENT.TEST_DONE
+				}
 			}
 		}
 	}

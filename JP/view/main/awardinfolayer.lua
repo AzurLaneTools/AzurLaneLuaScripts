@@ -21,7 +21,7 @@ slot0.init = function(slot0)
 	})
 
 	slot0.awards = _.select(slot0.contextData.items or {}, function (slot0)
-		return slot0.type ~= DROP_TYPE_ICON_FRAME and slot0.type ~= DROP_TYPE_CHAT_FRAME
+		return slot0.type ~= DROP_TYPE_ICON_FRAME and slot0.type ~= DROP_TYPE_CHAT_FRAME and slot0.type ~= DROP_TYPE_LIVINGAREA_COVER
 	end)
 	slot0._itemsWindow = slot0._tf:Find("items")
 	slot0.spriteMask = slot0._itemsWindow:Find("SpriteMask")

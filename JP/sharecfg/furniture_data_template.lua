@@ -222,6 +222,7 @@ pg.furniture_data_template = setmetatable({
 			100062,
 			100063,
 			100064,
+			100065,
 			200001,
 			200002,
 			200003,
@@ -5424,6 +5425,7 @@ pg.furniture_data_template = setmetatable({
 			100062,
 			100063,
 			100064,
+			100065,
 			31101,
 			54104,
 			54105
@@ -6512,7 +6514,8 @@ pg.furniture_data_template = setmetatable({
 			100058,
 			100059,
 			100061,
-			100062
+			100062,
+			100065
 		},
 		[2] = {
 			120,
@@ -9483,6 +9486,7 @@ pg.furniture_data_template = setmetatable({
 		100062,
 		100063,
 		100064,
+		100065,
 		200001,
 		200002,
 		200003,
@@ -24540,6 +24544,57 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100065] = {
+		can_rotate = 0,
+		describe = "中に潜む力が今にも現れるわ！気をつけて！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "赤き狐面（家具）",
+		advice = 0,
+		id = 100065,
+		icon = "linghumianjuicon",
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"linghumianju",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
 		},
 		interAction_group = {}
 	},
