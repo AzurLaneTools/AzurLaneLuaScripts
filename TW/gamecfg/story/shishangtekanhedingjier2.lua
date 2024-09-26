@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港區時尚特刊：合訂集[1]\n\n<size=45>紺海搖曳</size>",
+					"港區時尚特刊：夏日泳裝\n\n<size=45>紺海搖曳</size>",
 					1
 				}
 			}

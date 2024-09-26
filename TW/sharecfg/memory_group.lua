@@ -3545,7 +3545,7 @@ pg.base.memory_group = {
 		}
 	},
 	[258] = {
-		title = "港區時尚特刊：合訂集[2]",
+		title = "港區時尚特刊：慶典禮服",
 		subtype = 3,
 		link_event = 5009,
 		type = 2,
@@ -3581,7 +3581,7 @@ pg.base.memory_group = {
 		}
 	},
 	[260] = {
-		title = "港區時尚特刊：合訂集[1]",
+		title = "港區時尚特刊：夏日泳裝",
 		subtype = 3,
 		link_event = 5015,
 		type = 2,

@@ -8854,6 +8854,47 @@ pg.activity_template = {
 			}
 		}
 	},
+	[5016] = {
+		mark = 20240926,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5016,
+		config_data = {
+			19297
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					9,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[5017] = {
 		mark = 20240403,
 		type = 18,
@@ -51738,6 +51779,7 @@ pg.activity_template = {
 			4972,
 			5003,
 			5008,
+			5016,
 			5048,
 			5052,
 			5054,
@@ -53523,6 +53565,7 @@ pg.activity_template = {
 		5013,
 		5014,
 		5015,
+		5016,
 		5017,
 		5018,
 		5019,
