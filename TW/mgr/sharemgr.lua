@@ -83,19 +83,6 @@ slot1.Init = function(slot0)
 end
 
 slot1.Share = function(slot0, slot1, slot2, slot3)
-	if PLATFORM_CODE == PLATFORM_CHT and not CheckPermissionGranted(ANDROID_WRITE_EXTERNAL_PERMISSION) then
-		uv0.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n1("指揮官，碧藍航線需要存儲權限才能分享是否打開？"),
-			onYes = function ()
-				ApplyPermission({
-					ANDROID_WRITE_EXTERNAL_PERMISSION
-				})
-			end
-		})
-
-		return
-	end
-
 	slot4 = LuaHelper.GetCHPackageType()
 
 	if not IsUnityEditor and PLATFORM_CODE == PLATFORM_CH and slot4 ~= PACKAGE_TYPE_BILI then
@@ -174,9 +161,11 @@ slot1.Share = function(slot0, slot1, slot2, slot3)
 	slot15 = ScreenShooter.New(Screen.width, Screen.height, TextureFormat.ARGB32)
 
 	if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and uv0.SdkMgr.GetInstance():GetIsPlatform() then
-		slot0:SaveImageWithBytes(Tex2DExtension.EncodeToJPG(slot0:TakeTexture(slot1, slot15, slot13)))
-
-		return true
+		uv0.SdkMgr.GetInstance():GameShare(slot5.description, slot0:TakeTexture(slot1, slot15, slot13))
+		uv0.UIMgr.GetInstance():LoadingOn()
+		onDelayTick(function ()
+			uv0.UIMgr.GetInstance():LoadingOff()
+		end, 2)
 	elseif PLATFORM_CODE == PLATFORM_CHT then
 		slot0:TakePhoto(slot1, slot15, slot13)
 		uv0.SdkMgr.GetInstance():ShareImg(slot0.screenshot, function ()
@@ -195,26 +184,26 @@ slot1.Share = function(slot0, slot1, slot2, slot3)
 	end
 
 	SetParent(slot11, slot0.tr, false)
+	_.each(slot0.cacheComps, function (slot0)
+		slot0:SetActive(true)
+	end)
 
-	if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and uv0.SdkMgr.GetInstance():GetIsPlatform() then
-		slot17 = UnityEngine.Texture2D.New(Screen.width, Screen.height, TextureFormat.ARGB32, false)
+	slot0.cacheComps = {}
 
-		Tex2DExtension.LoadImage(slot17, System.IO.File.ReadAllBytes(slot0.screenshotPath))
-		uv0.SdkMgr.GetInstance():GameShare(slot5.description, slot17)
-		uv0.UIMgr.GetInstance():LoadingOn()
-		onDelayTick(function ()
-			uv0.UIMgr.GetInstance():LoadingOff()
-		end, 2)
-	elseif PLATFORM_CODE == PLATFORM_CHT then
-		uv0.SdkMgr.GetInstance():ShareImg(slot0.screenshotPath, function ()
-		end)
-	elseif PLATFORM_CODE == PLATFORM_CH and slot4 == PACKAGE_TYPE_BILI then
-		uv0.SdkMgr.GetInstance():GameShare(slot5.description, slot0.screenshotPath)
-	else
-		slot0:ShowOwnUI(slot1, slot2, slot3, noBlur)
+	_.each(slot0.cacheShowComps, function (slot0)
+		slot0:SetActive(false)
+	end)
 
-		return true
-	end
+	slot0.cacheShowComps = {}
+
+	_.each(slot0.cacheMoveComps, function (slot0)
+		setAnchoredPosition(slot0[1], {
+			x = slot0[2],
+			y = slot0[3]
+		})
+	end)
+
+	slot0.cacheMoveComps = {}
 end
 
 slot1.TakeTexture = function(slot0, slot1, slot2, slot3)
@@ -274,24 +263,4 @@ slot1.Show = function(slot0, slot1, slot2)
 			uv2()
 		end)
 	end
-end
-
-slot1.Dispose = function(slot0)
-	slot0.go:SetActive(false)
-
-	if slot0.panel and not slot0.noBlur then
-		uv0.UIMgr.GetInstance():UnblurPanel(slot0.panel, slot0.tr)
-	end
-
-	PoolMgr.GetInstance():ReturnUI("ShareUI", slot0.go)
-	uv0.DelegateInfo.Dispose(slot0)
-
-	slot0.go = nil
-	slot0.tr = nil
-	slot0.panel = nil
-end
-
-slot1.SaveImageWithBytes = function(slot0, slot1)
-	BackYardThemeTempalteUtil.CheckSaveDirectory()
-	System.IO.File.WriteAllBytes(slot0.screenshotPath, slot1)
 end

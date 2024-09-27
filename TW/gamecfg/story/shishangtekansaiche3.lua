@@ -39,7 +39,7 @@ return {
 			actor = 403034,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——以及一瓶藏在她身后的，正要开封的香槟。",
+			say = "——以及一瓶藏在她身後的，正要開封的香檳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
