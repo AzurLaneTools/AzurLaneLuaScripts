@@ -9,7 +9,7 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "シリアス",
 			say = "主人，您的黑眼圈好像又加重了。要处理的工作很多所以很辛苦吧。",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +41,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "如果天狼星能帮上您的忙就好了……",
+			actorName = "シリアス",
+			say = "如果シリアス能帮上您的忙就好了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "シリアス",
 			say = "对了，就用一杯果蔬汁让主人您恢复精神吧，也能够补充营养。",
 			typewriter = {
 				speed = 0.05,
@@ -92,7 +92,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "シリアス",
 			say = "虽然您这么说了……",
 			typewriter = {
 				speed = 0.05,
@@ -124,8 +124,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "但是为了您的健康着想的话，天狼星还是为您……",
+			actorName = "シリアス",
+			say = "但是为了您的健康着想的话，シリアス还是为您……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,8 +139,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "那、那么，就请用天狼星的身体来……!",
+			actorName = "シリアス",
+			say = "那、那么，就请用シリアス的身体来……!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "シリアス",
 			say = "主人？您为什么突然后退了呢……",
 			typewriter = {
 				speed = 0.05,

@@ -21,7 +21,7 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "chuang_FF_2_beibu_1",
+							name = "chuang_FF_2_pigu_1",
 							time = 0,
 							type = "action",
 							skip = true

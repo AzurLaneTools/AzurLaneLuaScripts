@@ -566,7 +566,11 @@ slot0.TryDownloadResource = function(slot0, slot1, slot2)
 			fileList = table.mergeArray(slot4, slot5),
 			finishFunc = function (slot0)
 				if slot0 then
-					pg.TipsMgr.GetInstance():ShowTips("宿舎アセットのダウンロードはまだ完了していません!")
+					pg.TipsMgr.GetInstance():ShowTips("宿舎アセットのダウンロードが完了しました!")
+				end
+
+				if uv0.exited then
+					return
 				end
 
 				if uv0.roomDic[uv1.configId] then

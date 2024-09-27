@@ -28,7 +28,7 @@ return {
 								}
 							},
 							touchs = {
-								{
+								[2] = {
 									{
 										pos = {
 											0,

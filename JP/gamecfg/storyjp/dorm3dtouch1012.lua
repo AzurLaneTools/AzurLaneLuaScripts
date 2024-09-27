@@ -9,8 +9,8 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "如果主人渴望的就是如此亲密的距离，天狼星还可以……",
+			actorName = "シリアス",
+			say = "如果主人渴望的就是如此亲密的距离，シリアス还可以……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

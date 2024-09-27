@@ -36152,6 +36152,31 @@ _G.pg.base.gametip.AR_plane_summon_success = {
 }
 
 
-_G.pg.base.gametip.dorm3d_day_night_switching = {
-	tip = "すでに$1になっています"
+_G.pg.base.gametip.dorm3d_day_night_switching1 = {
+	tip = "すでに昼になっています"
+}
+
+
+_G.pg.base.gametip.dorm3d_day_night_switching2 = {
+	tip = "すでに夜になっています"
+}
+
+
+_G.pg.base.gametip.dorm3d_download_complete = {
+	tip = "アセットダウンロード完了しました"
+}
+
+
+_G.pg.base.gametip.dorm3d_resource_downloading = {
+	tip = "アセットダウンロード中です"
+}
+
+
+_G.pg.base.gametip.dorm3d_resource_delete = {
+	tip = "アセットを削除しました"
+}
+
+
+_G.pg.base.gametip.dorm3d_favor_maximize = {
+	tip = "親愛度がmaxになっています。操作を続けますか？"
 }

@@ -9,7 +9,7 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "シリアス",
 			say = "ふふふ。シリアス、しっかり感覚を覚えておきます！",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 						},
 						{
 							param = "Play",
-							name = "Face_jingya",
+							name = "Face_weixiao",
 							time = 0,
 							type = "action",
 							skip = true

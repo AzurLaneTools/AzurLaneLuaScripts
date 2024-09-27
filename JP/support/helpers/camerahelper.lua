@@ -3,11 +3,11 @@ slot0 = CameraHelper
 slot1 = YSTool.YSPermissionTool.Inst
 
 slot0.IsAndroid = function()
-	return getProxy(UserProxy):GetCacheGatewayInServerLogined() == PLATFORM_ANDROID
+	return PLATFORM == PLATFORM_ANDROID
 end
 
 slot0.IsIOS = function()
-	return getProxy(UserProxy):GetCacheGatewayInServerLogined() == PLATFORM_IPHONEPLAYER
+	return PLATFORM == PLATFORM_IPHONEPLAYER
 end
 
 slot0.RequestCamera = function(slot0, slot1)

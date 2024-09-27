@@ -9,8 +9,8 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "主人是想了解，天狼星是从什么时候开始对您怀抱这样的情愫的？",
+			actorName = "シリアス",
+			say = "主人是想了解，シリアス是从什么时候开始对您怀抱这样的情愫的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "シリアス",
 			say = "从知道，并亲眼见到您这位传闻中的指挥官开始……",
 			typewriter = {
 				speed = 0.05,
@@ -57,8 +57,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "天狼星就已经怀抱着这样的心情了。",
+			actorName = "シリアス",
+			say = "シリアス就已经怀抱着这样的心情了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "シリアス",
 			say = "您会觉得这样太突然了吗？",
 			typewriter = {
 				speed = 0.05,
@@ -98,7 +98,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "シリアス",
 			say = "只是现在与您的关系已经发展到……再提到突然的话，也不太合适呢。",
 			typewriter = {
 				speed = 0.05,
@@ -107,8 +107,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "嗯？您是说天狼星变得更主动，会表达自己的情绪了吗？",
+			actorName = "シリアス",
+			say = "嗯？您是说シリアス变得更主动，会表达自己的情绪了吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "シリアス",
 			say = "这些转变都是因为您的存在，我骄傲的主人。",
 			typewriter = {
 				speed = 0.05,
@@ -155,7 +155,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "シリアス",
 			say = "啊，对了，还有一个方面的转变……之后……呵呵。",
 			typewriter = {
 				speed = 0.05,

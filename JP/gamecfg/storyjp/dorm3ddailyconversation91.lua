@@ -9,7 +9,7 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "シリアス",
 			say = "……主人？",
 			typewriter = {
 				speed = 0.05,
@@ -18,8 +18,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "就算天狼星的料理水平再怎么不尽如人意，也绝对不会用微波炉泡茶的！",
+			actorName = "シリアス",
+			say = "就算シリアス的料理水平再怎么不尽如人意，也绝对不会用微波炉泡茶的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "シリアス",
 			say = "当然！要泡茶的话，一定要用水壶把水烧开。",
 			typewriter = {
 				speed = 0.05,
@@ -88,7 +88,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "シリアス",
 			say = "绝对不可以接一杯水然后放进微波炉加热哦！",
 			typewriter = {
 				speed = 0.05,
@@ -97,7 +97,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "シリアス",
 			say = "您该不会……想这么试试吧？",
 			typewriter = {
 				speed = 0.05,
@@ -116,7 +116,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "シリアス",
 			say = "呼……那就好。",
 			typewriter = {
 				speed = 0.05,
@@ -155,8 +155,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "开个玩笑而已，不过没想到天狼星的反应意外地有趣……",
+			actorName = "シリアス",
+			say = "开个玩笑而已，不过没想到シリアス的反应意外地有趣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,9 +164,9 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "シリアス",
 			optionFlag = 2,
-			say = "其它任何事都可以，唯独在这件事上，请恕天狼星无法妥协。",
+			say = "其它任何事都可以，唯独在这件事上，请恕シリアス无法妥协。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,15 +203,15 @@ return {
 			},
 			options = {
 				{
-					content = "天狼星的反应好有趣",
+					content = "シリアス的反应好有趣",
 					flag = 1
 				}
 			}
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "欸？原来您是在和天狼星开玩笑啊……",
+			actorName = "シリアス",
+			say = "欸？原来您是在和シリアス开玩笑啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "シリアス",
 			say = "差点就要做好毁掉厨房也不能让您这样做的觉悟了……",
 			typewriter = {
 				speed = 0.05,

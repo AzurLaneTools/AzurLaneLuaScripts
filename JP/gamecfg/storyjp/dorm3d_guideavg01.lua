@@ -492,7 +492,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "天狼星很荣幸能成为宿舍的第一位入住体验人。",
+			say = "シリアス很荣幸能成为宿舍的第一位入住体验人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -546,7 +546,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "天狼星一定不负所托，我骄傲的主人！",
+			say = "シリアス一定不负所托，我骄傲的主人！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -614,7 +614,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "嗯？怎么只有你一个人过来，天狼星呢？",
+			say = "嗯？怎么只有你一个人过来，シリアス呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1

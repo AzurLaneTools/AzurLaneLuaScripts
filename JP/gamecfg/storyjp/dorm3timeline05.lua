@@ -22,7 +22,7 @@ return {
 							options = {
 								{
 									{
-										content = "シリアスを踊りに誘う"
+										content = "邀请天狼星共舞"
 									}
 								}
 							},

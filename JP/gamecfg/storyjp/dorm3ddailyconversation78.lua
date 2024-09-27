@@ -8,25 +8,25 @@ return {
 	hideAuto = true,
 	scripts = {
 		{
-			say = "（虽然最近天气渐渐热起来了，但总觉得天狼星这里格外热啊……）",
+			say = "（虽然最近天气渐渐热起来了，但总觉得シリアス这里格外热啊……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "天狼星怕热吗？",
+					content = "シリアス怕热吗？",
 					flag = 1
 				},
 				{
-					content = "天狼星不觉得热吗？",
+					content = "シリアス不觉得热吗？",
 					flag = 2
 				}
 			}
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "シリアス",
 			say = "欸？是主人您比较怕热吗？",
 			typewriter = {
 				speed = 0.05,
@@ -58,8 +58,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "抱歉！是天狼星的疏忽……还请您原谅我的冒失。",
+			actorName = "シリアス",
+			say = "抱歉！是シリアス的疏忽……还请您原谅我的冒失。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,8 +90,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "不过，天狼星之前从其他人那里听来了一个降温的技巧。",
+			actorName = "シリアス",
+			say = "不过，シリアス之前从其他人那里听来了一个降温的技巧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "シリアス",
 			say = "就是——如果觉得热的话，就立刻去洗热水澡。",
 			typewriter = {
 				speed = 0.05,
@@ -137,7 +137,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "シリアス",
 			say = "洗完的瞬间就会觉得十分凉爽哦！",
 			typewriter = {
 				speed = 0.05,
@@ -146,8 +146,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "那么，就由天狼星来伺候主人沐浴吧。",
+			actorName = "シリアス",
+			say = "那么，就由シリアス来伺候主人沐浴吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,8 +155,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "还请您不要乱动，天狼星要来为您脱下身上的制服了哦~",
+			actorName = "シリアス",
+			say = "还请您不要乱动，シリアス要来为您脱下身上的制服了哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -9,8 +9,8 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "欸？“如果天狼星有事在忙的话，也希望能听到天狼星的声音……？”",
+			actorName = "シリアス",
+			say = "欸？“如果シリアス有事在忙的话，也希望能听到シリアス的声音……？”",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,8 +41,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "也就是说，主人希望天狼星用这个录制一段语音回复？",
+			actorName = "シリアス",
+			say = "也就是说，主人希望シリアス用这个录制一段语音回复？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,8 +60,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "可是“主人想要寻找天狼星，而天狼星有事在忙……”的这种前提永远不存在哦。",
+			actorName = "シリアス",
+			say = "可是“主人想要寻找シリアス，而シリアス有事在忙……”的这种前提永远不存在哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,8 +92,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "如果您允许的话，天狼星可以二十四小时侍奉在您身边，不会让您有片刻感到寂寞。",
+			actorName = "シリアス",
+			say = "如果您允许的话，シリアス可以二十四小时侍奉在您身边，不会让您有片刻感到寂寞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,8 +101,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "而且……天狼星自己想这样做也很久了。",
+			actorName = "シリアス",
+			say = "而且……シリアス自己想这样做也很久了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,8 +146,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "您的反应……欸？！难道天狼星太激进了？好吧……",
+			actorName = "シリアス",
+			say = "您的反应……欸？！难道シリアス太激进了？好吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

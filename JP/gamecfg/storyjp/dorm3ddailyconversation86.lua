@@ -9,8 +9,8 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "嗯？主人想知道天狼星有没有考虑过换个发型？",
+			actorName = "シリアス",
+			say = "嗯？主人想知道シリアス有没有考虑过换个发型？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "シリアス",
 			say = "这倒是从来没有考虑过呢……",
 			typewriter = {
 				speed = 0.05,
@@ -50,7 +50,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "シリアス",
 			say = "短发很方便打理，也不会影响到战斗。",
 			typewriter = {
 				speed = 0.05,
@@ -59,7 +59,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "シリアス",
 			say = "真是实用主义的发言啊",
 			typewriter = {
 				speed = 0.05,
@@ -68,7 +68,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "シリアス",
 			say = "毕竟是女仆嘛。",
 			typewriter = {
 				speed = 0.05,
@@ -107,7 +107,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "シリアス",
 			say = "为了更好的侍奉主人，节约自身一切不必要的时间也是必修课哦。",
 			typewriter = {
 				speed = 0.05,
@@ -116,8 +116,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "而且，天狼星也希望侍奉在您身边的时间能够更长一些，我骄傲的主人……",
+			actorName = "シリアス",
+			say = "而且，シリアス也希望侍奉在您身边的时间能够更长一些，我骄傲的主人……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

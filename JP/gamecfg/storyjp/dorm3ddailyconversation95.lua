@@ -9,7 +9,7 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "シリアス",
 			say = "因为主人您总是加班处理工作文件，所以很少有机会能看到夕阳吧。",
 			typewriter = {
 				speed = 0.05,
@@ -47,8 +47,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "可惜……？是因为错失了景色的可惜吗？天狼星不太明白。",
+			actorName = "シリアス",
+			say = "可惜……？是因为错失了景色的可惜吗？シリアス不太明白。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "シリアス",
 			say = "欸？您说夕阳是白天与晚上的重要分界线，错过了就觉得一天过得很混沌？",
 			typewriter = {
 				speed = 0.05,
@@ -65,8 +65,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "那，天狼星可以之后去帮您处理工作，或者接您下班吗？",
+			actorName = "シリアス",
+			say = "那，シリアス可以之后去帮您处理工作，或者接您下班吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,8 +104,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "天狼星想让您看到夕阳，我的主人。",
+			actorName = "シリアス",
+			say = "シリアス想让您看到夕阳，我的主人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,8 +113,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "哪怕只是工作途中片刻的休息，天狼星也想实现您的愿望。",
+			actorName = "シリアス",
+			say = "哪怕只是工作途中片刻的休息，シリアス也想实现您的愿望。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,8 +122,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "天狼星，想为您做些什么……我骄傲的主人。",
+			actorName = "シリアス",
+			say = "シリアス，想为您做些什么……我骄傲的主人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

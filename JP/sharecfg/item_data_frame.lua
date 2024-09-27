@@ -627,7 +627,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 1001,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>甘くて甘い、思い出の味わい。</color>\n「交流宿舎」でシリアスの親愛度報酬で入手可能",
+		desc = "甘くて甘い、思い出の味わい。\n「交流宿舎」でシリアスの親愛度報酬で入手可能",
 		scene = {}
 	},
 	[1002] = {
@@ -636,7 +636,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 1002,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>どんな時でも、温かい紅茶が静かにあなたを待っている。 </color>\n「交流宿舎」でシリアスの親愛度報酬で入手可能",
+		desc = "どんな時でも、温かい紅茶が静かにあなたを待っている。\n「交流宿舎」でシリアスの親愛度報酬で入手可能",
 		scene = {}
 	},
 	[10001] = {

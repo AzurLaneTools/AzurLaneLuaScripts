@@ -9,16 +9,10 @@ return {
 	id = "DORM3DDAILYCONVERSATION17",
 	scripts = {
 		{
+			actor = 0,
 			side = 0,
 			hidePaintObj = true,
-			optionFlag = 1,
-			say = "（シリアスは何か考え込んでいるようだ。）",
-			options = {
-				{
-					content = "――シリアス、何か考え込んでいる？",
-					flag = 1
-				}
-			}
+			say = "――シリアス、何か考え込んでいる？"
 		},
 		{
 			actorName = "シリアス",
