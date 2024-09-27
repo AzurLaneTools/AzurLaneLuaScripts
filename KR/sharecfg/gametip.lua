@@ -25928,26 +25928,26 @@ cs.gametip = {
 	},
 	cruise_shop_lock_tip = {
 		1064776,
-		121,
+		130,
 		true
 	},
 	cruise_shop_limit_tip = {
-		1064897,
-		124,
-		true
-	},
-	cruise_limit_count = {
-		1065021,
+		1064906,
 		127,
 		true
 	},
+	cruise_limit_count = {
+		1065033,
+		138,
+		true
+	},
 	cruise_title_2408 = {
-		1065148,
+		1065171,
 		101,
 		true
 	},
 	cruise_shop_title = {
-		1065249,
+		1065272,
 		94,
 		true
 	}

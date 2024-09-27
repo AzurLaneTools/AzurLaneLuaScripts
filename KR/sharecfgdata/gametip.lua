@@ -34591,17 +34591,17 @@ _G.pg.base.gametip.cruise_shop_title_equip_skin = {
 
 
 _G.pg.base.gametip.cruise_shop_lock_tip = {
-	tip = "이번 월드 투어 레벨 50 도달"
+	tip = "진행 중인 월드 투어에서 Lv50 달성"
 }
 
 
 _G.pg.base.gametip.cruise_shop_limit_tip = {
-	tip = "이번 달 남은 구매 가능 횟수:"
+	tip = "이번 달의 잔여 구매 가능 횟수:"
 }
 
 
 _G.pg.base.gametip.cruise_limit_count = {
-	tip = "이번 달 구매 가능 횟수 상한 도달"
+	tip = "이번 달에는 더 이상 구매할 수 없습니다."
 }
 
 
