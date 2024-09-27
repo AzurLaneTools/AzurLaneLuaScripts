@@ -12,7 +12,7 @@ return {
 			actorName = "Sirius",
 			side = 2,
 			dir = 1,
-			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_wait_table1",
+			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_wait_bed1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			say = "What's the matter, my honourable Master?\nI can always make your bed for you when you're feeling tired.",

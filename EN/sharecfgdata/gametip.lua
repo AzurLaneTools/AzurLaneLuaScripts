@@ -36054,7 +36054,7 @@ _G.pg.base.gametip.dorm3d_gift_story_unlock = {
 
 
 _G.pg.base.gametip.dorm3d_furniture_replace_tip = {
-	tip = "Please place the corresponding furniture."
+	tip = "Place the right furniture"
 }
 
 

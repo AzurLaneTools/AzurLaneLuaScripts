@@ -7290,7 +7290,7 @@ pg.base.pay_data_display = {
 		id_str = "com.yostaren.azurlane.passport21",
 		extra_service = 4,
 		id = 1018,
-		airijp_id = "com.yostarjp.azurlane.seasonpass19",
+		airijp_id = "com.yostaren.azurlane.passport21",
 		extra_service_item = {
 			{
 				1,

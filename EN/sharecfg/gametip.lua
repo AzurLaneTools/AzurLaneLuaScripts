@@ -27363,76 +27363,76 @@ cs.gametip = {
 	},
 	dorm3d_furniture_replace_tip = {
 		1035312,
-		134,
+		117,
 		true
 	},
 	dorm3d_recall_locked = {
-		1035446,
+		1035429,
 		96,
 		true
 	},
 	dorm3d_gift_maximum = {
-		1035542,
+		1035525,
 		110,
 		true
 	},
 	dorm3d_need_construct_item = {
-		1035652,
+		1035635,
 		111,
 		true
 	},
 	AR_plane_check = {
-		1035763,
+		1035746,
 		108,
 		true
 	},
 	AR_plane_long_press_to_summon = {
-		1035871,
+		1035854,
 		148,
 		true
 	},
 	AR_plane_distance_near = {
-		1036019,
+		1036002,
 		157,
 		true
 	},
 	AR_plane_summon_fail_by_near = {
-		1036176,
+		1036159,
 		140,
 		true
 	},
 	AR_plane_summon_success = {
-		1036316,
+		1036299,
 		105,
 		true
 	},
 	dorm3d_day_night_switching1 = {
-		1036421,
+		1036404,
 		118,
 		true
 	},
 	dorm3d_day_night_switching2 = {
-		1036539,
+		1036522,
 		120,
 		true
 	},
 	dorm3d_download_complete = {
-		1036659,
+		1036642,
 		105,
 		true
 	},
 	dorm3d_resource_downloading = {
-		1036764,
+		1036747,
 		109,
 		true
 	},
 	dorm3d_resource_delete = {
-		1036873,
+		1036856,
 		100,
 		true
 	},
 	dorm3d_favor_maximize = {
-		1036973,
+		1036956,
 		122,
 		true
 	}
