@@ -35,13 +35,14 @@ slot0.execute = function(slot0, slot1)
 	})
 end
 
-slot0.BuildDataEnter = function(slot0, slot1)
+slot0.BuildDataEnter = function(slot0, slot1, slot2)
 	return {
 		trackType = uv0.TYPE_DORM_ENTER,
 		args = {
 			slot0,
-			slot1 or 0,
-			Count = 2
+			slot1,
+			slot2 or 0,
+			Count = 3
 		}
 	}
 end

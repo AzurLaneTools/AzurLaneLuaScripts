@@ -21,7 +21,7 @@ slot0.DynamicBinding = function(slot0)
 			return
 		end
 
-		table.IpairsCArray(TimelineHelper.GetTimelineTracks(uv0), function (slot0, slot1)
+		table.IpairsCArray(TimelineHelper.GetTimelineTracks(slot1), function (slot0, slot1)
 			if uv0[slot1.name] then
 				if GameObject.Find(uv0[slot1.name]) then
 					TimelineHelper.SetSceneBinding(uv1, slot1, slot2)

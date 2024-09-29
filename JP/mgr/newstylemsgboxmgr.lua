@@ -167,7 +167,7 @@ slot1.DisplaySetting = function(slot0, slot1, slot2)
 
 			updateDorm3dIcon(slot2:Find("Dorm3dIconTpl"), slot0.drop)
 			setText(slot2:Find("info/name"), slot1:getName())
-			setText(slot2:Find("info/desc"), slot1.desc)
+			setText(slot2:Find("info/desc"), cancelColorRich(slot1.desc))
 
 			slot3, slot4 = slot1:getOwnedCount()
 

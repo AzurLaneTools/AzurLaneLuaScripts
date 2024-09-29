@@ -36180,3 +36180,8 @@ _G.pg.base.gametip.dorm3d_resource_delete = {
 _G.pg.base.gametip.dorm3d_favor_maximize = {
 	tip = "親愛度がmaxになっています。操作を続けますか？"
 }
+
+
+_G.pg.base.gametip.dorm3d_purchase_weekly_limit = {
+	tip = "（今週購入回数$1/$2）"
+}
