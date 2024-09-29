@@ -35551,3 +35551,8 @@ _G.pg.base.gametip.dorm3d_resource_delete = {
 _G.pg.base.gametip.dorm3d_favor_maximize = {
 	tip = "契合度已满，是否继续赠礼？"
 }
+
+
+_G.pg.base.gametip.dorm3d_purchase_weekly_limit = {
+	tip = "（本周购买$1/$2）"
+}

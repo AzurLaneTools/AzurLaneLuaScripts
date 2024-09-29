@@ -1206,15 +1206,15 @@ slot1 = {
 			slot2.pendingDic = ApartmentProxy.PendingRandom(slot2.roomId, slot2.groupIds)
 		end
 
-		slot3 = pg.m02
+		slot4 = pg.m02
 
-		slot3:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataEnter(1))
+		slot4:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataEnter(slot0.context.data.roomId, 1))
 
-		slot3 = getProxy(ApartmentProxy)
+		slot4 = getProxy(ApartmentProxy)
 
-		slot3:RecordEnterTime()
+		slot4:RecordEnterTime()
 
-		slot3 = slot0.context.onRemoved
+		slot4 = slot0.context.onRemoved
 
 		slot0.context.onRemoved = function()
 			slot0 = 0
@@ -1223,8 +1223,8 @@ slot1 = {
 				slot0 = pg.TimeMgr.GetInstance():GetServerTime() - slot1
 			end
 
-			pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataEnter(2, slot0))
-			existCall(uv0)
+			pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataEnter(uv0, 2, slot0))
+			existCall(uv1)
 		end
 
 		slot1()

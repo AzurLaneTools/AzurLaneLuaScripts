@@ -166,6 +166,22 @@ slot0.UpdateGift = function(slot0, slot1, slot2, slot3)
 		})
 
 		setActive(slot4:Find("info/lack/tip"), slot6 and not slot9 and Dorm3dGift.GetViewedFlag(slot2) == 0)
+
+		slot17 = nil
+
+		_.each(slot10:getConfig("shop_id"), function (slot0)
+			if pg.shop_template[slot0].group_type == 2 then
+				uv0 = math.max(slot1.group_limit, uv0)
+			end
+		end)
+
+		if 0 > 0 then
+			slot17 = {
+				getProxy(ApartmentProxy):GetGiftShopCount(slot10:GetConfigID()),
+				slot18
+			}
+		end
+
 		onButton(slot0, slot4:Find("info/lack"), function ()
 			Dorm3dGift.SetViewedFlag(uv0)
 			setActive(uv1:Find("info/lack/tip"), false)
@@ -175,10 +191,11 @@ slot0.UpdateGift = function(slot0, slot1, slot2, slot3)
 					off = uv4,
 					cost = "x" .. uv5.count,
 					old = uv6,
-					name = uv7:getConfig("name")
+					name = uv7:getConfig("name"),
+					weekLimit = uv8
 				},
 				tip = i18n("dorm3d_shop_gift_tip"),
-				drop = uv8,
+				drop = uv9,
 				onYes = function ()
 					uv0:emit(GAME.SHOPPING, {
 						silentTip = true,

@@ -9,16 +9,10 @@ return {
 	id = "DORM3DDAILYCONVERSATION17",
 	scripts = {
 		{
+			actor = 0,
 			side = 0,
 			hidePaintObj = true,
-			optionFlag = 1,
-			say = "!!!!!选项放第一句 say是什么呢？!!!!!!",
-			options = {
-				{
-					content = "天狼星现在在想什么？",
-					flag = 1
-				}
-			}
+			say = "天狼星现在在想什么？"
 		},
 		{
 			actorName = "天狼星",

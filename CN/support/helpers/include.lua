@@ -7,6 +7,7 @@ require("Support/Helpers/Calculation")
 require("Support/Helpers/AndroidSupport")
 require("Support/Helpers/CameraHelper")
 require("Support/Helpers/MediaSaver")
+require("Support/Helpers/TimelineSupport")
 
 ReflectionHelp = require("Support/Helpers/ReflectionHelp")
 Heap = require("Support/Helpers/Heap")

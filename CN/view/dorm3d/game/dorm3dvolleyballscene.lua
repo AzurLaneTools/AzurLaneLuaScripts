@@ -296,29 +296,7 @@ slot0.PlayTimeline = function(slot0, slot1, slot2)
 			uv1.playingDirector.time = math.clamp(uv0.time, 0, uv1.playingDirector.duration)
 		end
 
-		uv1.bindingConfig = uv1.bindingConfig or _.reduce(pg.dorm3d_timeline_dynamic_binding, {}, function (slot0, slot1)
-			if slot1.track_name then
-				slot0[slot1.track_name] = slot1.object_name
-			end
-
-			return slot0
-		end)
-
-		eachChild(uv1.playingDirector, function (slot0)
-			if not slot0:GetComponent(typeof(UnityEngine.Playables.PlayableDirector)) then
-				return
-			end
-
-			table.IpairsCArray(TimelineHelper.GetTimelineTracks(slot1), function (slot0, slot1)
-				if uv0.bindingConfig[slot1.name] then
-					if GameObject.Find(uv0.bindingConfig[slot1.name]) then
-						TimelineHelper.SetSceneBinding(uv1, slot1, slot2)
-					else
-						warning(string.format("轨道%s需要绑定的物体%s不存在", slot1.name, uv0.bindingConfig[slot1.name]))
-					end
-				end
-			end)
-		end)
+		TimelineSupport.InitTimeline(uv1.playingDirector)
 
 		slot1 = {}
 

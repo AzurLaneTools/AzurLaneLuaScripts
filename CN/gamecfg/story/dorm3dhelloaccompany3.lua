@@ -12,7 +12,7 @@ return {
 			actorName = "天狼星",
 			side = 2,
 			dir = 1,
-			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_wait_table1",
+			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_wait_bed1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			say = "怎么了，主人？\n天狼星正在整理床铺哦……以便您随时想休息一会。",
