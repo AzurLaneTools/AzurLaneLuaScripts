@@ -25959,15 +25959,15 @@ pg.activity_template = {
 		title_res_tag = "CrusingDisplayAct",
 		id = 7019,
 		config_data = {
-			170,
-			171,
-			172,
-			173,
-			174,
-			175,
-			176,
-			177,
-			178
+			180,
+			181,
+			182,
+			183,
+			184,
+			185,
+			186,
+			187,
+			188
 		},
 		time = {
 			"timer",

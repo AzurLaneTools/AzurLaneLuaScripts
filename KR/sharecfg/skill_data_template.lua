@@ -97581,7 +97581,7 @@ pg.base.skill_data_template = {
 	},
 	[150390] = {
 		desc_get = "",
-		name = "高速无人机支援",
+		name = "빠르고 믿음직스러운 드론 운송",
 		type = 3,
 		max_level = 10,
 		desc = "法戈超额占用",
