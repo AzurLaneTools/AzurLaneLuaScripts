@@ -93,15 +93,20 @@ slot0.UpdateSkinItem = function(slot0, slot1, slot2)
 	slot3 = slot0.skinGoods[slot1 + 1]
 	slot4 = slot3:getDropInfo()
 
-	setText(slot2:Find("skin_name"), slot3:GetName())
+	if string.match(slot3:GetName() or "??", "(%d+)") then
+		setText(slot2:Find("skin_name"), shortenString(slot5, 5))
+	else
+		setText(slot2:Find("skin_name"), shortenString(slot5, 6))
+	end
+
 	setText(slot2:Find("name"), pg.ship_data_statistics[tonumber(slot4:getConfig("ship_group") .. "1")].name)
 	setText(slot2:Find("buy/Text"), slot3:GetPrice())
 
-	slot7 = slot2:Find("icon_mask/painting")
+	slot8 = slot2:Find("icon_mask/painting")
 
 	if slot0.idx2Painting[slot1] ~= slot4:getConfig("painting") then
-		retPaintingPrefab(slot7, slot8, "pifu")
-		setPaintingPrefabAsync(slot7, slot8, "pifu", function ()
+		retPaintingPrefab(slot8, slot9, "pifu")
+		setPaintingPrefabAsync(slot8, slot9, "pifu", function ()
 			setLocalPosition(uv0, {
 				x = 0,
 				y = 40
@@ -137,7 +142,13 @@ slot0.UpdateEquipSkinItem = function(slot0, slot1, slot2)
 	slot3 = slot0.equipSkinGoods[slot1 + 1]
 
 	updateDrop(slot2:Find("IconTpl"), slot3:getDropInfo())
-	setText(slot2:Find("name"), slot3:GetName())
+
+	if string.match(slot3:GetName() or "??", "(%d+)") then
+		setText(slot2:Find("name"), shortenString(slot5, 5))
+	else
+		setText(slot2:Find("name"), shortenString(slot5, 6))
+	end
+
 	setText(slot2:Find("buy/Text"), slot3:GetPrice())
 	setText(slot2:Find("Text"), i18n("common_already owned") .. string.format("%s/%s", slot3:GetOwnedCnt(), slot3:getLimitCount()))
 	setActive(slot2:Find("mask"), not slot3:canPurchase())

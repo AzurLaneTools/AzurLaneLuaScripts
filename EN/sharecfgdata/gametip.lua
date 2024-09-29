@@ -36126,3 +36126,8 @@ _G.pg.base.gametip.dorm3d_resource_delete = {
 _G.pg.base.gametip.dorm3d_favor_maximize = {
 	tip = "Intimacy reached max level. Continue?"
 }
+
+
+_G.pg.base.gametip.dorm3d_purchase_weekly_limit = {
+	tip = "(Weekly purchase: $1/$2)"
+}

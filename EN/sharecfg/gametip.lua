@@ -27435,5 +27435,10 @@ cs.gametip = {
 		1036956,
 		122,
 		true
+	},
+	dorm3d_purchase_weekly_limit = {
+		1037078,
+		116,
+		true
 	}
 }

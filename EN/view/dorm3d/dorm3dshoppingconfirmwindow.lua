@@ -58,6 +58,15 @@ slot0.didEnter = function(slot0)
 
 	slot1 = nil
 
+	switch(slot0.contextData.drop.__cname, {
+		Dorm3dGift = function ()
+			if uv0.contextData.content.weekLimit then
+				uv1 = uv1 .. i18n("dorm3d_purchase_weekly_limit", slot0[1], slot0[2])
+			end
+		end,
+		Dorm3dFurniture = function ()
+		end
+	})
 	setText(slot0._tf:Find("Window/Content"), (slot0.contextData.content.cost ~= 0 or i18n("dorm3d_purchase_confirm_free", slot0.contextData.content.icon, slot0.contextData.content.cost, slot0.contextData.content.name)) and (slot0.contextData.content.off <= 0 or i18n("dorm3d_purchase_confirm_discount", slot0.contextData.content.icon, slot0.contextData.content.cost, slot0.contextData.content.old, slot0.contextData.content.name)) and i18n("dorm3d_purchase_confirm_original", slot0.contextData.content.icon, slot0.contextData.content.cost, slot0.contextData.content.name))
 	setText(slot0._tf:Find("Window/Confirm/Text"), i18n("msgbox_text_confirm"))
 	setText(slot0._tf:Find("Window/Cancel/Text"), i18n("msgbox_text_cancel"))

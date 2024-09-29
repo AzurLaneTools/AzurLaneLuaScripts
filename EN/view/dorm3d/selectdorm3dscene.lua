@@ -569,6 +569,10 @@ slot0.TryDownloadResource = function(slot0, slot1, slot2)
 					pg.TipsMgr.GetInstance():ShowTips("dorm resource download complete !")
 				end
 
+				if uv0.exited then
+					return
+				end
+
 				if uv0.roomDic[uv1.configId] then
 					uv0:UpdateIconState(uv1.configId)
 				end

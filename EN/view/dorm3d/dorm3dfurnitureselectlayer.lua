@@ -552,7 +552,7 @@ slot0.UpdateViewFurnitureItem = function(slot0, slot1)
 		end
 	end)
 
-	slot9 = slot3.template:GetShopID()
+	slot9 = slot3.count == 0 and slot3.template:GetShopID() or nil
 
 	setActive(slot4:Find("GO"), slot9)
 

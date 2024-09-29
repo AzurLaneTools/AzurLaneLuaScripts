@@ -11,6 +11,7 @@ slot1.C_SE = "C_SE"
 slot1.C_BATTLE_SE = "C_BATTLE_SE"
 slot1.C_GALLERY_MUSIC = "C_GALLERY_MUSIC"
 slot1.C_BATTLE_CV_EXTRA = "C_BATTLE_CV_EXTRA"
+slot1.C_TIMELINE = "C_TIMELINE"
 slot1.NEXT_VER = 40
 
 slot1.Init = function(slot0, slot1)
@@ -62,6 +63,11 @@ slot1.InitCri = function(slot0, slot1)
 		uv1.criInst:CreateChannel(uv0.C_VOICE, CriWareMgr.CRI_CHANNEL_TYPE.MULTI_NOT_REPEAT)
 
 		CriWareMgr.C_VOICE = uv0.C_VOICE
+
+		uv1.criInst:RemoveChannel("C_TIMELINE")
+		Object.Destroy(GameObject.Find("CRIWARE/C_TIMELINE"))
+		uv1.criInst:CreateChannel(uv0.C_TIMELINE, CriWareMgr.CRI_CHANNEL_TYPE.WITHOUT_LIMIT)
+
 		slot0 = uv1.criInst:GetChannelData(uv0.C_VOICE)
 
 		uv1.criInst:CreateChannel(uv0.C_GALLERY_MUSIC, CriWareMgr.CRI_CHANNEL_TYPE.SINGLE)
@@ -294,7 +300,7 @@ slot1.LoadCueSheet = function(slot0, slot1, slot2)
 	slot3.cueSheetName = slot1
 
 	slot0.criInst:LoadCueSheet(slot3, function (slot0)
-		uv0(slot0)
+		existCall(uv0, slot0)
 	end, true)
 end
 
@@ -403,4 +409,20 @@ end
 
 slot1.getAtomSource = function(slot0, slot1)
 	return GetComponent(GameObject.Find("CRIWARE/" .. slot1), "CriAtomSource")
+end
+
+slot1.GetCueInfo = function(slot0, slot1, slot2, slot3, slot4)
+	slot0:LoadCueSheet(slot1, function (slot0)
+		if not slot0 then
+			warning("加载CueSheet失败")
+
+			return
+		end
+
+		uv3(uv0.criInst:GetCueInfo(uv1, uv2))
+
+		if not uv4 then
+			uv0:UnloadCueSheet(uv1)
+		end
+	end)
 end

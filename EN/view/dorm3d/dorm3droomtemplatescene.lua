@@ -2593,35 +2593,7 @@ slot0.PlayTimeline = function(slot0, slot1, slot2)
 
 		uv1:HideCharacter()
 		setActive(uv1.mainCameraTF, false)
-
-		uv1.bindingConfig = uv1.bindingConfig or _.reduce(pg.dorm3d_timeline_dynamic_binding, {}, function (slot0, slot1)
-			if slot1.track_name then
-				slot0[slot1.track_name] = slot1.object_name
-			end
-
-			return slot0
-		end)
-
-		eachChild(slot2, function (slot0)
-			if not slot0:GetComponent(typeof(UnityEngine.Playables.PlayableDirector)) then
-				return
-			end
-
-			table.IpairsCArray(TimelineHelper.GetTimelineTracks(slot1), function (slot0, slot1)
-				if uv0.bindingConfig[slot1.name] then
-					if GameObject.Find(uv0.bindingConfig[slot1.name]) then
-						TimelineHelper.SetSceneBinding(uv1, slot1, slot2)
-					else
-						warning(string.format("轨道%s需要绑定的物体%s不存在", slot1.name, uv0.bindingConfig[slot1.name]))
-					end
-				end
-			end)
-		end)
-
-		if GameObject.Find("[subtitle]") then
-			slot8:GetComponent(typeof(Canvas)).worldCamera = pg.UIMgr.GetInstance().overlayCameraComp
-		end
-
+		TimelineSupport.InitTimeline(slot2)
 		slot2:Play()
 		slot2:Evaluate()
 	end)
