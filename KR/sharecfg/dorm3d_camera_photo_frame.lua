@@ -1,12 +1,12 @@
 pg = pg or {}
 pg.dorm3d_camera_photo_frame = {
 	[1001] = {
-		name = "默认",
+		name = "디폴트",
 		rarity = 2,
 		farme_path = "photo_frame_default",
 		frameTfName = "DefaultFrame",
-		desc = "获得后可以在相机功能中解锁默认相框",
-		unlock_text = "契合度1级解锁",
+		desc = "획득하면 카메라 기능에서 「디폴트」 프레임 적용 가능",
+		unlock_text = "친밀도 Lv1 달성 시 오픈",
 		id = 1001,
 		icon = "Props/drom3d_camera1002",
 		farme_small_path = "photo_frame_default_small",
@@ -21,12 +21,12 @@ pg.dorm3d_camera_photo_frame = {
 		}
 	},
 	[1002] = {
-		name = "视频",
+		name = "영상",
 		rarity = 2,
 		farme_path = "photo_frame_vcr",
 		frameTfName = "VcrFrame",
-		desc = "获得后可以在相机功能中解锁视频相框",
-		unlock_text = "契合度1级解锁",
+		desc = "획득하면 카메라 기능에서 「영상 스타일」 프레임 적용 가능",
+		unlock_text = "친밀도 Lv1 달성 시 오픈",
 		id = 1002,
 		icon = "Props/drom3d_camera1002",
 		farme_small_path = "photo_frame_vcr_small",
@@ -41,12 +41,12 @@ pg.dorm3d_camera_photo_frame = {
 		}
 	},
 	[1003] = {
-		name = "票根",
+		name = "티켓",
 		rarity = 2,
 		farme_path = "photo_frame_counterfoil",
 		frameTfName = "CounterfoilFrame",
-		desc = "获得后可以在相机功能中解锁票根相框",
-		unlock_text = "契合度5级解锁",
+		desc = "획득하면 카메라 기능에서 「티켓 스타일」 프레임 적용 가능",
+		unlock_text = "친밀도 Lv5 달성 시 오픈",
 		id = 1003,
 		icon = "Props/drom3d_camera1002",
 		farme_small_path = "photo_frame_counterfoil_small",
@@ -61,12 +61,12 @@ pg.dorm3d_camera_photo_frame = {
 		}
 	},
 	[1004] = {
-		name = "拍立得",
+		name = "브로마이드",
 		rarity = 3,
 		farme_path = "photo_frame_polaroid",
 		frameTfName = "InstantFrame",
-		desc = "获得后可以在相机功能中解锁拍立得相框",
-		unlock_text = "契合度7级解锁",
+		desc = "획득하면 카메라 기능에서 「브로마이드」 프레임 적용 가능",
+		unlock_text = "친밀도 Lv7 달성 시 오픈",
 		id = 1004,
 		icon = "Props/drom3d_camera1002",
 		farme_small_path = "photo_frame_polaroid_small",
@@ -81,12 +81,12 @@ pg.dorm3d_camera_photo_frame = {
 		}
 	},
 	[1005] = {
-		name = "卡片",
+		name = "카드",
 		rarity = 3,
 		farme_path = "photo_frame_card",
 		frameTfName = "CardInstantFrame",
-		desc = "获得后可以在相机功能中解锁卡片相框",
-		unlock_text = "契合度12级解锁",
+		desc = "획득하면 카메라 기능에서 「카드」 프레임 적용 가능",
+		unlock_text = "친밀도 Lv12 달성 시 오픈",
 		id = 1005,
 		icon = "Props/drom3d_camera1002",
 		farme_small_path = "photo_frame_card_small",

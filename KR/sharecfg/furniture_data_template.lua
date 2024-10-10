@@ -23642,7 +23642,7 @@ pg.base.furniture_data_template = {
 	},
 	[100055] = {
 		can_rotate = 0,
-		describe = "변신술이 기록된 두루마리. 사용하면 모습을 숨길 수 있다...쥬쥬!",
+		describe = "변신술이 기록된 두루마리. 사용하면 모습을 숨길 수 있다…쥬쥬!",
 		gain_by = "",
 		type = 7,
 		dir = 0,

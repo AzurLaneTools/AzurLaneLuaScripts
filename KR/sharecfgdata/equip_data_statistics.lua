@@ -19161,14 +19161,14 @@ _G.pg.base.equip_data_statistics[3710] = {
 
 
 _G.pg.base.equip_data_statistics[3720] = {
-	name = "12파운드 캐논",
+	name = "12파운드 롱 캐논",
 	speciality = "추적",
 	type = 1,
 	tech = 3,
 	value_2 = 35,
 	icon = "3680",
 	attribute_2 = "cannon",
-	descrip = "中型火炮，可发射多种类型弹丸，令敌人闻风丧胆。",
+	descrip = "중형 화포. 다양한 탄환을 발사할 수 있어, 적에게는 두려움의 대상이다.",
 	rarity = 5,
 	damage = "6 x 3",
 	nationality = 96,
@@ -19372,7 +19372,7 @@ _G.pg.base.equip_data_statistics[3733] = {
 
 
 _G.pg.base.equip_data_statistics[3740] = {
-	name = "원형 솔리드탄",
+	name = "구형 포환",
 	tech = 0,
 	type = 10,
 	speciality = "없음",
@@ -19383,7 +19383,7 @@ _G.pg.base.equip_data_statistics[3740] = {
 	attribute_2 = "reload",
 	rarity = 4,
 	nationality = 96,
-	descrip = "用它们承载力量和勇气，轰碎敌人吧！",
+	descrip = "힘과 용기를 다해 적을 무찌르자!",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "cannon",
@@ -19518,7 +19518,7 @@ _G.pg.base.equip_data_statistics[3751] = {
 
 
 _G.pg.base.equip_data_statistics[3760] = {
-	name = "용총줄 부품",
+	name = "돛줄 부품",
 	tech = 0,
 	type = 10,
 	speciality = "없음",
@@ -19529,7 +19529,7 @@ _G.pg.base.equip_data_statistics[3760] = {
 	attribute_2 = "dodge",
 	rarity = 4,
 	nationality = 96,
-	descrip = "扬帆起航，让我们征服大海！",
+	descrip = "돛을 펼쳐라! 온 바다를 손에 넣으러 가자!",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "durability",

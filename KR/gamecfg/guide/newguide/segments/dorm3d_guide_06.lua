@@ -5,7 +5,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "点击此处，可选择一起前往沙滩的角色",
+				text = "여기를 클릭하면 모래사장 구역에 캐릭터를 배치할 수 있습니다",
 				mode = 4,
 				char = "char",
 				posY = -300,
@@ -22,7 +22,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "目前尚未解锁该角色的邀约，请点击角色",
+				text = "캐릭터 배치는 아직 개방되지 않으므로 우선 아이콘을 클릭하세요",
 				mode = 4,
 				char = "char",
 				posY = -40,
@@ -45,7 +45,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "点击此处，即可解锁该角色的邀约",
+				text = "여기를 클릭하면 캐릭터를 모래사장에 배치할 수 있게 됩니다!",
 				mode = 4,
 				char = "char",
 				posY = -435,
@@ -62,7 +62,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "现在，请点击天狼星，与她共同前往沙滩吧！",
+				text = "시리우스를 클릭해서 함께 모래사장으로 갑시다!",
 				mode = 4,
 				char = "char",
 				posY = -100,

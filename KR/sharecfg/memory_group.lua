@@ -4896,7 +4896,7 @@ pg.base.memory_group = {
 		}
 	},
 	[304] = {
-		title = "宿舍焕新计划！",
+		title = "숙소 신관 계획이다냥!",
 		subtype = 3,
 		link_event = 0,
 		type = 2,

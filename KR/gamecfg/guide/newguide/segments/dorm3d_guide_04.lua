@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击此处可进行区域切换选择",
+				text = "여기를 클릭하면 구역을 변경할 수 있습니다",
 				mode = 4,
 				char = "char",
 				posY = -439,
@@ -21,7 +21,7 @@ return {
 			alpha = 0.4,
 			delay = 0.5,
 			style = {
-				text = "选择餐厅，即可将天狼星呼唤至该区域",
+				text = "「레스토랑」을 클릭하면, 시리우스를 불러 올 수 있습니다",
 				mode = 4,
 				char = "char",
 				posY = -285,

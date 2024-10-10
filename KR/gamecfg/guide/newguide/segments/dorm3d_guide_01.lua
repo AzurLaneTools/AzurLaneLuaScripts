@@ -10,7 +10,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击生活区",
+				text = "「모항」클릭하기",
 				mode = 4,
 				char = "char",
 				posY = -383,
@@ -32,7 +32,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击宿舍计划",
+				text = "숙소 계획 클릭하기",
 				mode = 4,
 				char = "char",
 				posY = -326,
@@ -49,7 +49,7 @@ return {
 			delay = 1.5,
 			alpha = 0.4,
 			style = {
-				text = "点击宿舍",
+				text = "숙소 클릭하기",
 				mode = 4,
 				char = "char",
 				posY = -136,
@@ -66,7 +66,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "下载所需资源后即可进入对应角色宿舍",
+				text = "필요한 리소스를 다운로드 후 해당 캐릭터 숙소에 입장할 수 있습니다",
 				mode = 4,
 				char = "char",
 				posY = -135,

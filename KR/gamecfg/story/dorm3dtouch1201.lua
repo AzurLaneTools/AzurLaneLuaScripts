@@ -10,7 +10,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = "시리우스",
-			say = "欸嘿嘿，天狼星会好好记住这个感觉的！",
+			say = "후후후. 시리우스, 제대로 감각을 기억해 두겠습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

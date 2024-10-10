@@ -2412,7 +2412,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970604",
 		id = 100341,
 		target_num = 1,
-		desc = "使用{namecode:237}获得1次胜利"
+		desc = "호쇼·META를 편성한 함대로 전투에서 1회 승리"
 	},
 	[100342] = {
 		target_id = "30",
@@ -2420,7 +2420,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970604",
 		id = 100342,
 		target_num = 1,
-		desc = "使用{namecode:237}击破等级＞30的敌方1次"
+		desc = "호쇼·META를 편성한 함대로 전투에서 Lv30 이상의 적 함대 격파"
 	},
 	[100343] = {
 		target_id = "55",
@@ -2428,7 +2428,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970604",
 		id = 100343,
 		target_num = 1,
-		desc = "使用{namecode:237}击破等级＞55的敌方1次"
+		desc = "호쇼·META를 편성한 함대로 전투에서 Lv55 이상의 적 함대 격파"
 	},
 	[100344] = {
 		target_id = "80",
@@ -2436,7 +2436,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970604",
 		id = 100344,
 		target_num = 1,
-		desc = "使用{namecode:237}击破等级＞80的敌方1次"
+		desc = "호쇼·META를 편성한 함대로 전투에서 Lv80 이상의 적 함대 격파"
 	},
 	[100345] = {
 		target_id = "100",
@@ -2444,7 +2444,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970604",
 		id = 100345,
 		target_num = 1,
-		desc = "使用{namecode:237}击破等级＞100的敌方1次"
+		desc = "호쇼·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
 	},
 	[200001] = {
 		target_id = "0",
@@ -3220,7 +3220,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970604",
 		id = 200251,
 		target_num = 1,
-		desc = "大型作战内使用{namecode:237}获得1次胜利"
+		desc = "대형작전에서 호쇼·META를 포함한 함대로 1회 승리"
 	},
 	[200252] = {
 		target_id = "70",
@@ -3228,7 +3228,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970604",
 		id = 200252,
 		target_num = 1,
-		desc = "大型作战内使用{namecode:237}击破等级＞70的敌方1次"
+		desc = "대형작전에서 호쇼·META를 포함한 함대로 Lv70 이상의 적 격파"
 	},
 	[200253] = {
 		target_id = "90",
@@ -3236,7 +3236,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970604",
 		id = 200253,
 		target_num = 1,
-		desc = "大型作战内使用{namecode:237}击破等级＞90的敌方1次"
+		desc = "대형작전에서 호쇼·META를 포함한 함대로 Lv90 이상의 적 격파"
 	},
 	[200254] = {
 		target_id = "100",
@@ -3244,6 +3244,6 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970604",
 		id = 200254,
 		target_num = 1,
-		desc = "大型作战内使用{namecode:237}击破等级＞100的敌方1次"
+		desc = "대형작전에서 호쇼·META를 포함한 함대로 Lv100 이상의 적 격파"
 	}
 }

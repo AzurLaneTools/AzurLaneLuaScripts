@@ -23,7 +23,7 @@ return {
 							options = {
 								{
 									{
-										content = "让我看看有没有烫伤"
+										content = "화상을 입었는지 확인해 보겠습니다"
 									}
 								}
 							},

@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "点击天狼星，打开互动面板",
+				text = "시리우스 클릭하여 선택지가 표시됩니다",
 				mode = 4,
 				char = "char",
 				posY = -269,
@@ -43,7 +43,7 @@ return {
 			delay = 1.5,
 			alpha = 0.4,
 			style = {
-				text = "在互动面板中选择进行对话、触摸等操作",
+				text = "대화 패널에서 대화, 터치 등의 동작을 선택합니다",
 				mode = 4,
 				char = "char",
 				posY = -207,
@@ -62,7 +62,7 @@ return {
 			alpha = 0.4,
 			delay = 0.5,
 			style = {
-				text = "接下来，请点击对话按钮与天狼星聊聊天吧！",
+				text = "다음으로, 대화 버튼을 클릭하여 시리우스와 이야기를 나누세요!",
 				mode = 4,
 				char = "char",
 				posY = 107,

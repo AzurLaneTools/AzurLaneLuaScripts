@@ -6,7 +6,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "点击此处，打开契合度面板",
+				text = "여기를 클릭하시면 친밀도를 확인하실 수 있습니다",
 				mode = 4,
 				char = "char",
 				posY = 350,
@@ -24,7 +24,7 @@ return {
 			delay = 0.8,
 			alpha = 0.4,
 			style = {
-				text = "点击此处，打开昼夜切换界面",
+				text = "여기를 클릭해서 시간 변경 화면을 열어요!",
 				mode = 4,
 				char = "char",
 				posY = -450,
@@ -52,7 +52,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点选后即可切换时间。在夜间，宿舍的物品摆设也会略有不同哦~",
+				text = "클릭 후 바로 시간을 바꿀 수 있습니다. 야간에는 숙소 소품 세팅도 조금씩 다릅니다~",
 				mode = 4,
 				char = "char",
 				posY = -400,

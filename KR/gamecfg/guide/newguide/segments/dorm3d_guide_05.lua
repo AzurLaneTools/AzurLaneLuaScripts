@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "请再次点击天狼星，打开互动面板",
+				text = "다시 한번 시리우스를 클릭 해봐요!",
 				mode = 4,
 				char = "char",
 				posY = -98,
@@ -43,7 +43,7 @@ return {
 			alpha = 0.4,
 			delay = 0.5,
 			style = {
-				text = "点击赠礼按钮，进入赠礼界面",
+				text = "「선물」을 클릭하면, 숙소 캐릭터에게 선물을 줄 수 있어요!",
 				mode = 4,
 				char = "char",
 				posY = -203,
@@ -60,7 +60,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "可在礼物列表中选择需要赠送的礼物",
+				text = "선물은 여기서 선택할 수 있어요",
 				mode = 4,
 				char = "char",
 				posY = -36,
@@ -79,7 +79,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "通过赠送礼物，即可增加与天狼星的契合度哦！",
+				text = "선물을 보내면 함선의 「친밀도」가 상승해요",
 				mode = 4,
 				char = "char",
 				posY = 252,

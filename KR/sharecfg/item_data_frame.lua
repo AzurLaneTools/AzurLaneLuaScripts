@@ -461,11 +461,11 @@ pg.item_data_frame = {
 	},
 	[332] = {
 		name = "소생의 불꽃",
-		gain_by = "唤醒苍红之炎",
+		gain_by = "깨워라 창홍의 바람",
 		time_second = 0,
 		id = 332,
 		time_limit_type = 0,
-		desc = "앞으로 진행되는 이벤트에서 획득할 수 있습니다.",
+		desc = "<color=#ffffff>「여우가 울면, 봉황이 춤추며 불꽃을 받아 다시 태어나리라. 생은 바뀌어도 마음은 변하지 않으리니. 」</color>「깨워라 창홍의 바람」이벤트 참가 보상",
 		scene = {}
 	},
 	[401] = {
@@ -586,21 +586,21 @@ pg.item_data_frame = {
 		scene = {}
 	},
 	[1001] = {
-		name = "甜蜜邀约",
+		name = "스위트 랑데부",
 		gain_by = "",
 		time_second = 0,
 		id = 1001,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>每一口都充满甜蜜的回忆。</color>\n通过提升「宿舍计划」中天狼星的契合度等级获取",
+		desc = "<color=#ffffff>달콤한 추억의 맛.</color>\n「교류 숙소」에서 시리우스의 친밀도 보상으로 획득 가능",
 		scene = {}
 	},
 	[1002] = {
-		name = "悠然下午茶",
+		name = "여유로운 애프터눈 티",
 		gain_by = "",
 		time_second = 0,
 		id = 1002,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>不论何时，总有一杯冒着热气的红茶在静静等候。</color>\n通过提升「宿舍计划」中天狼星的契合度等级获取",
+		desc = "<color=#ffffff>언제든 따뜻한 홍차가 고요히 당신을 기다리고 있다. </color>\n「교류 숙소」에서 시리우스의 친밀도 보상으로 획득 가능",
 		scene = {}
 	},
 	[10001] = {

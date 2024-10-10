@@ -75375,7 +75375,7 @@ _G.pg.base.ship_data_template[307144] = {
 
 _G.pg.base.ship_data_template[307151] = {
 	oil_at_start = 1,
-	max_level = 70,
+	max_level = 100,
 	equip_id_3 = 0,
 	oil_at_end = 15,
 	energy = 150,
@@ -75425,7 +75425,7 @@ _G.pg.base.ship_data_template[307151] = {
 
 _G.pg.base.ship_data_template[307152] = {
 	oil_at_start = 1,
-	max_level = 80,
+	max_level = 100,
 	equip_id_3 = 0,
 	oil_at_end = 15,
 	energy = 150,
@@ -75476,7 +75476,7 @@ _G.pg.base.ship_data_template[307152] = {
 
 _G.pg.base.ship_data_template[307153] = {
 	oil_at_start = 1,
-	max_level = 90,
+	max_level = 100,
 	equip_id_3 = 0,
 	oil_at_end = 15,
 	energy = 150,

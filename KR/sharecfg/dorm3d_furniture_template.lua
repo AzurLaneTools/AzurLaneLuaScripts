@@ -111,12 +111,12 @@ pg.dorm3d_furniture_template = {
 		shop_id = {}
 	},
 	{
-		name = "邮轮模型",
+		name = "크루저 모형",
 		unlock_tips = "",
 		type = 3,
 		touch_id = "",
 		room_id = 1,
-		desc = "邮轮之旅结束后，天狼星亲自购买并手动拼装的邮轮模型。或许寄托着少女某些小小的心思。 ",
+		desc = "크루즈 여행이 끝난 뒤 시리우스가 직접 사서 조립한 모델.거기에는 그녀 나름대로의 생각이 있을 수도 있습니다.",
 		is_exclusive = 0,
 		acesses = "",
 		model = "Pay_Siriushostel/pre_db_sh_decoration01",
@@ -130,10 +130,10 @@ pg.dorm3d_furniture_template = {
 		shop_id = {}
 	},
 	[121] = {
-		name = "甜蜜心事",
+		name = "스위트 시크릿",
 		type = 4,
 		room_id = 1,
-		desc = "床身各处点缀着可爱的蝴蝶结装饰。红白色调的枕头和被子，营造出甜蜜浪漫的氛围。",
+		desc = "곳곳에 귀여운 리본 장식이 장식되어 있으며, 레드과 화이트의 베개와 이불이 달콤하고 로맨틱한 분위기를 자아내고 있습니다",
 		is_exclusive = 1,
 		acesses = "",
 		model = "Pay_Siriushostel/pre_db_sh_bed01",

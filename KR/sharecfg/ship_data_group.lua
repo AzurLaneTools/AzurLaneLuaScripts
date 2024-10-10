@@ -33872,7 +33872,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트：월드 투어",
+				"META 연구실·월드 투어",
 				{
 					"METACHARACTER",
 					{

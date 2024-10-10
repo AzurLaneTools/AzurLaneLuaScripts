@@ -1935,7 +1935,18 @@ temp = function()
 			}
 		},
 		["쇼"] = {
-			this = true
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		},
 		["노"] = {
 			["카"] = {

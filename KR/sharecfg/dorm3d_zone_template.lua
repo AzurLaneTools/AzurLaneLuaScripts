@@ -2,7 +2,7 @@ pg = pg or {}
 pg.dorm3d_zone_template = {
 	[1000] = {
 		is_global = 1,
-		name = "全局区域",
+		name = "목록",
 		type_prioritys = "",
 		touch_id = "",
 		id = 1000,
@@ -12,7 +12,7 @@ pg.dorm3d_zone_template = {
 	},
 	[1001] = {
 		is_global = 0,
-		name = "卧室",
+		name = "침실",
 		id = 1001,
 		room_id = 1,
 		watch_camera = "Bed",
@@ -40,7 +40,7 @@ pg.dorm3d_zone_template = {
 	},
 	[1002] = {
 		is_global = 0,
-		name = "餐厅",
+		name = "식당",
 		type_prioritys = "",
 		id = 1002,
 		room_id = 1,
@@ -63,7 +63,7 @@ pg.dorm3d_zone_template = {
 	},
 	[1003] = {
 		is_global = 0,
-		name = "客厅",
+		name = "거실",
 		type_prioritys = "",
 		id = 1003,
 		room_id = 1,
@@ -86,7 +86,7 @@ pg.dorm3d_zone_template = {
 	},
 	[4001] = {
 		is_global = 0,
-		name = "入口",
+		name = "현관",
 		type_prioritys = "",
 		id = 4001,
 		room_id = 4,
@@ -109,7 +109,7 @@ pg.dorm3d_zone_template = {
 	},
 	[4002] = {
 		is_global = 0,
-		name = "沙滩椅",
+		name = "비치의자",
 		type_prioritys = "",
 		id = 4002,
 		room_id = 4,

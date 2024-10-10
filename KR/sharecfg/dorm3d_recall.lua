@@ -2,12 +2,12 @@ pg = pg or {}
 pg.dorm3d_recall = {
 	{
 		story_id = 10010,
-		name = "欢迎光临 ",
+		name = "숙소에 오신 것을 환영합니다",
 		type = 1,
 		id = 1,
 		image = "recall_01",
-		unlock_text = "契合度1级后解锁",
-		desc = "初次来到天狼星的宿舍，她所准备的是……",
+		unlock_text = "친밀도 Lv1 달성 시 오픈",
+		desc = "처음으로 시리우스의 방을 찾았을 때……",
 		unlock = {
 			1,
 			20220,
@@ -16,12 +16,12 @@ pg.dorm3d_recall = {
 	},
 	{
 		story_id = 10020,
-		name = "片刻温存",
+		name = "휴식 시간",
 		type = 1,
 		id = 2,
 		image = "recall_02",
-		unlock_text = "契合度4级后解锁",
-		desc = "在蒸腾的水汽之中，她所倾诉的是…… ",
+		unlock_text = "친밀도 Lv4 달성 시 오픈",
+		desc = "수증기 속에서 시리우스가 꺼낸 말은…",
 		unlock = {
 			1,
 			20220,
@@ -30,12 +30,12 @@ pg.dorm3d_recall = {
 	},
 	{
 		story_id = 10030,
-		name = "贴心准备",
+		name = "빈틈없는 준비",
 		type = 1,
 		id = 3,
 		image = "recall_03",
-		unlock_text = "契合度7级后解锁",
-		desc = "在她偶尔犯迷糊时，能为她准备的是……",
+		unlock_text = "친밀도 Lv7 달성 시 오픈",
+		desc = "실수를 저지른 시리우스……",
 		unlock = {
 			1,
 			20220,
@@ -44,12 +44,12 @@ pg.dorm3d_recall = {
 	},
 	{
 		story_id = 10040,
-		name = "温柔关怀",
+		name = "자상한 보살핌",
 		type = 1,
 		id = 4,
 		image = "recall_04",
-		unlock_text = "契合度10级后解锁",
-		desc = "接受检查的天狼星，她所感受到的是……",
+		unlock_text = "친밀도 Lv10 달성 시 오픈",
+		desc = "검사를 받고 시리우스가 느낀 것은……",
 		unlock = {
 			1,
 			20220,
@@ -58,12 +58,12 @@ pg.dorm3d_recall = {
 	},
 	{
 		story_id = 10050,
-		name = "共舞一曲",
+		name = "함께 춤추자",
 		type = 1,
 		id = 5,
 		image = "recall_05",
-		unlock_text = "契合度13级后解锁",
-		desc = "被邀请共舞的天狼星，她所希冀的是......",
+		unlock_text = "친밀도 Lv13 달성 시 오픈",
+		desc = "춤 요청을 받은 시리우스의 반응은……",
 		unlock = {
 			1,
 			20220,
@@ -72,12 +72,12 @@ pg.dorm3d_recall = {
 	},
 	{
 		story_id = 10060,
-		name = "清扫的诀窍",
+		name = "청소의 비결",
 		type = 1,
 		id = 6,
 		image = "gift_01",
-		unlock_text = "赠送清扫工具箱后解锁",
-		desc = "就由天狼星来演示皇家女仆的清扫秘诀吧。",
+		unlock_text = "「청소 도구함」선물 시 오픈",
+		desc = "시리우스가 로열 메이드의 청소 솜씨를 보여드리지요.",
 		unlock = {
 			3,
 			2022001

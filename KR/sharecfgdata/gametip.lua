@@ -1149,7 +1149,7 @@ _G.pg.base.gametip.word_furniture = {
 
 
 _G.pg.base.gametip.word_decorate = {
-	tip = "장식"
+	tip = "잡화"
 }
 
 
@@ -1399,7 +1399,7 @@ _G.pg.base.gametip.word_sell_out = {
 
 
 _G.pg.base.gametip.word_sell_lock = {
-	tip = "미개방"
+	tip = "미오픈 "
 }
 
 
@@ -3486,7 +3486,7 @@ _G.pg.base.gametip.coloring_erase_warning = {
 
 
 _G.pg.base.gametip.coloring_lock = {
-	tip = "미개방"
+	tip = "미오픈"
 }
 
 
@@ -9346,7 +9346,7 @@ _G.pg.base.gametip.ship_remould_need_star = {
 
 
 _G.pg.base.gametip.ship_remould_finished = {
-	tip = "개조완료"
+	tip = "개조 완료"
 }
 
 
@@ -10748,7 +10748,7 @@ _G.pg.base.gametip.word_status_inEvent = {
 
 
 _G.pg.base.gametip.word_status_inEventFinished = {
-	tip = "<size=23>완료</size>"
+	tip = "<size=24>완료</size>"
 }
 
 
@@ -18447,7 +18447,7 @@ _G.pg.base.gametip.tec_target_catchup_finish_3 = {
 
 
 _G.pg.base.gametip.tec_target_catchup_dr_finish_tip = {
-	tip = "완료됨"
+	tip = "재료 확보"
 }
 
 
@@ -19212,7 +19212,7 @@ _G.pg.base.gametip.guild_get_report_failed = {
 
 
 _G.pg.base.gametip.guild_report_get_all = {
-	tip = "모두 수령"
+	tip = "일괄 수령"
 }
 
 
@@ -22224,7 +22224,7 @@ _G.pg.base.gametip.activity_permanent_tips4 = {
 
 
 _G.pg.base.gametip.activity_permanent_finished = {
-	tip = "완성함"
+	tip = "완료"
 }
 
 
@@ -23741,7 +23741,7 @@ _G.pg.base.gametip.noacceleration_tips = {
 
 
 _G.pg.base.gametip.word_shipskin = {
-	tip = "특수"
+	tip = "SP"
 }
 
 
@@ -25529,7 +25529,7 @@ _G.pg.base.gametip.cruise_task_help_2408 = {
 
 
 _G.pg.base.gametip.battlepass_main_tip_2410 = {
-	tip = "2024/10/8-2024/12/7 이벤트 기간 중에 월드 투어 임무 완성하여 <icon name=pt w=0.5 h=0.5/>누적하면 <color=#854747>「호쇼·META」</color> 등 보상 획득 가능! "
+	tip = "2024/10/8 ~ 2024/12/7 이벤트 기간 중에 월드 투어 <icon name=pt w=0.5 h=0.5/>획득 합계 보상으로 <color=#854747>「호쇼·META」</color> 등 획득 가능"
 }
 
 
@@ -25538,26 +25538,26 @@ _G.pg.base.gametip.battlepass_main_help_2410 = {
 		{
 			info = [[
 ■ 이벤트 진행 기간
- 2024.10.8 0:00 ~ 2024.12.7 23:59
+ 2024.10.8(화) 0:00 ~ 2024.12.7(토) 23:59
 
 ■ 개요
-"월드 투어"란, 이벤트 진행 중에 임무를 클리어하고 "투어 PT"를 모아, 획득한 투어 PT 합계에 따라 보상을 얻을 수 있는 이벤트입니다. 
-또한, 기본 투어 보상에는 추가적으로 "특허 투어 보상"이 존재하며, 상점 아이템 "특허 투어 패스"를 구매하면 특허 투어 보상을 획득할 수 있습니다. 
-기본 투어 보상으로는 함선 "호쇼·META", 특허 투어 보상으로는 "쉬프랑"의 한정 스킨인 "화려함의 극치"를 획득할 수 있습니다. 
+「월드 투어」란, 이벤트 진행 중에 임무를 클리어하고 「투어 PT」를 모아, 획득한 투어 PT 합계에 따라 보상을 얻을 수 있는 이벤트입니다. 
+또한, 기본 투어 보상에는 추가적으로 「특허 투어 보상」이 존재하며, 상점 아이템 「특허 투어 패스」를 구매하면 특허 투어 보상을 획득할 수 있습니다. 
+기본 투어 보상으로는 함선 「호쇼·META」, 특허 투어 보상으로는 전함 「쉬프랑」의 한정 스킨인 「화려함의 극치」를 획득할 수 있습니다. 
 
 ■플레이 방법
-・"월드 투어" 이벤트 시작과 동시에 임무 두 종류가 오픈됩니다. 
+・「월드 투어」 이벤트 시작과 동시에 임무 두 종류가 오픈됩니다. 
 　①주간 오픈 임무
-　이벤트 시작 시와 이벤트 기간 중 7일이 경과할 때마다 오픈되는 임무. 총 8그룹
+　이벤트 시작 시와 이벤트 기간 중 매주 월요일 0시에 오픈되는 임무. 총 8그룹
 　②전체 기간 임무
 　처음부터 모두 오픈되는 임무. 총 1그룹
-・상기 "월드 투어"는 모두 자동적으로 수령이 완료되고, "월드 투어" 화면으로 이동 시에 이미 완료 조건을 충족한 임무는 클리어로 처리되며, "투어 PT"를 자동으로 획득할 수 있습니다. 
-　또한, "특허 투어 패스"를 구매하면, 15단계 분량의 보상(투어 PT 1,500)을 획득할 수 있습니다. 
-・"투어 PT"의 합계에 따라 투어 보상을 얻을 수 있습니다. 투어 보상은 두 가지가 있습니다. 
+・상기 「월드 투어」는 모두 자동적으로 수령이 완료되고, 「월드 투어」 화면으로 이동 시에 이미 완료 조건을 충족한 임무는 클리어로 처리되며, 「투어 PT」를 자동으로 획득할 수 있습니다. 
+　또한, 「특허 투어 패스」를 구매하면, 15단계 분량의 보상(투어 PT 1,500)을 획득할 수 있습니다. 
+・「투어 PT」의 합계에 따라 투어 보상을 얻을 수 있습니다. 투어 보상은 두 가지가 있습니다. 
 　①기본 투어 보상
-　"투어 PT"의 획득 수에 따라 얻을 수 있는 보상. 총 100단계가 있습니다.
+　「투어 PT」의 획득 수에 따라 얻을 수 있는 보상. 총 100단계가 있습니다.
 　②특허 투어 보상
-　"특허 투어 패스"를 구매하면 오픈되는 추가 보상. 기본 투어 보상과 동일하게 총 100단계가 있으며, 기본 투어 보상과 같은 단계의 특허 투어 보상을 획득할 수 있습니다. 
+　「특허 투어 패스」를 구매하면 오픈되는 추가 보상. 기본 투어 보상과 동일하게 총 100단계가 있으며, 기본 투어 보상과 같은 단계의 특허 투어 보상을 획득할 수 있습니다. 
 ・이벤트가 종료되면 획득한 투어 PT는 초기화됩니다. 
 
 ■ Tips
@@ -25565,12 +25565,12 @@ _G.pg.base.gametip.battlepass_main_help_2410 = {
 　월드 투어에는 총 100단계가 있으며, 단숨에 마지막 단계까지 클리어할 수 없도록 만들어져 있습니다. 평소대로 퀘스트를 클리어하면서 임무를 처리하거나, 원하는 보상을 정해 신속하게 클리어하는 등, 자신의 플레이 스타일에 따라 즐기는 것을 추천합니다. 
 
 ・특허 투어 패스
-　상점에서 "특허 투어 패스"를 구매하면, 특별한 아이템과 함께 "투어 PT"를 1,500PT 획득할 수 있습니다. 또한, 추가 한정 스킨은 "특허 투어 패스" 구매로 오픈되는 "특허 투어 보상"으로만 획득할 수 있습니다. 이 점 주의하시기 바랍니다. 
+　상점에서 「특허 투어 패스」를 구매하면, 특별한 아이템과 함께 「투어 PT」를 1,500PT 획득할 수 있습니다. 또한, 추가 한정 스킨은 「특허 투어 패스」 구매로 오픈되는 「특허 투어 보상」으로만 획득할 수 있습니다. 이 점 주의하시기 바랍니다. 
 
-・임무 스킵(추천하지 않습니다)
-　"월드 투어"의 "임무 목록" 화면에서 각 임무 우측의 화살표 버튼을 탭하면, 임무를 자동으로 스킵(클리어 처리)하고, 투어 PT를 획득할 수 있는 "월드 투어 티켓"을 구입하거나 사용할 수 있습니다. 
-　다이아가 소모되므로, 추천하지 않습니다.
-　"월드 투어 티켓"은 이벤트가 종료된 후에도 계속 소지할 수 있습니다. ]]
+・임무 스킵(권장하지 않습니다)
+　「월드 투어」의 「임무 목록」 화면에서 각 임무 우측의 화살표 버튼을 탭하면, 임무를 자동으로 스킵(클리어 처리)하고, 투어 PT를 획득할 수 있는 「월드 투어 티켓」을 구입하거나 사용할 수 있습니다. 
+　다이아가 소모되므로, 권장하지 않습니다. 
+　「월드 투어 티켓」은 이벤트가 종료된 후에도 계속 소지할 수 있습니다. ]]
 		}
 	}
 }
@@ -25581,17 +25581,17 @@ _G.pg.base.gametip.cruise_task_help_2410 = {
 		{
 			info = [[
 ■ 월드 투어에 대해
-・"월드 투어" 이벤트 시작과 동시에 임무 두 종류가 오픈됩니다. 
+・「월드 투어」 이벤트 시작과 동시에 임무 두 종류가 오픈됩니다. 
 　①주간 오픈 임무
-　이벤트 시작 시와 이벤트 기간 중 7일이 경과할 때마다 오픈되는 임무. 총 8그룹
+　이벤트 시작 시와 이벤트 기간 중 매주 월요일 0시에 오픈되는 임무. 총 8그룹
 　②전체 기간 임무
 　처음부터 모두 오픈되는 임무. 총 1그룹
 
-・"월드 투어"는 모두 자동적으로 수령이 완료되고, "월드 투어" 화면으로 이동 시에 이미 완료 조건을 충족한 임무는 클리어로 처리되며, "투어 PT"를 자동으로 획득할 수 있습니다. 
+・「월드 투어」는 모두 자동적으로 수령이 완료되고, 「월드 투어」 화면으로 이동 시에 이미 완료 조건을 충족한 임무는 클리어로 처리되며, 「투어 PT」를 자동으로 획득할 수 있습니다. 
 
-・"월드 투어"의 "임무 목록" 화면에서 각 임무 우측의 화살표 버튼을 탭하면, 임무를 자동으로 스킵(클리어 처리)하고, 투어 PT를 획득할 수 있는 "월드 투어 티켓"을 구입하거나 사용할 수 있습니다. 
-　다이아가 소모되므로, 추천하지 않습니다……
-　"월드 투어 티켓"은 이벤트가 종료된 후에도 계속 소지할 수 있습니다. ]]
+・「월드 투어」의 「임무 목록」 화면에서 각 임무 우측의 화살표 버튼을 탭하면, 임무를 자동으로 스킵(클리어 처리)하고, 투어 PT를 획득할 수 있는 「월드 투어 티켓」을 구입하거나 사용할 수 있습니다. 
+　다이아가 소모되므로, 권장하지 않습니다……
+　「월드 투어 티켓」은 이벤트가 종료된 후에도 계속 소지할 수 있습니다. ]]
 		}
 	}
 }
@@ -25698,7 +25698,7 @@ _G.pg.base.gametip.backyard_food_shop_tip = {
 
 
 _G.pg.base.gametip.dorm_2f_lock = {
-	tip = "미개방"
+	tip = "미오픈"
 }
 
 
@@ -32706,32 +32706,32 @@ _G.pg.base.gametip.senrankagura_backhill_help = {
 
 
 _G.pg.base.gametip.dorm3d_furnitrue_type_wallpaper = {
-	tip = "墙纸"
+	tip = "벽지"
 }
 
 
 _G.pg.base.gametip.dorm3d_furnitrue_type_floor = {
-	tip = "地板"
+	tip = "바닥"
 }
 
 
 _G.pg.base.gametip.dorm3d_furnitrue_type_decoration = {
-	tip = "装饰"
+	tip = "장식"
 }
 
 
 _G.pg.base.gametip.dorm3d_furnitrue_type_bed = {
-	tip = "床"
+	tip = "침대"
 }
 
 
 _G.pg.base.gametip.dorm3d_furnitrue_type_couch = {
-	tip = "沙发"
+	tip = "소파"
 }
 
 
 _G.pg.base.gametip.dorm3d_furnitrue_type_table = {
-	tip = "桌子"
+	tip = "테이블"
 }
 
 
@@ -33734,92 +33734,92 @@ _G.pg.base.gametip.idol3rd_practice = {
 
 
 _G.pg.base.gametip.dorm3d_furniture_window_acesses = {
-	tip = "获取途径"
+	tip = "획득 방법"
 }
 
 
 _G.pg.base.gametip.dorm3d_furniture_count = {
-	tip = "数量：$1"
+	tip = "수량: $1"
 }
 
 
 _G.pg.base.gametip.dorm3d_furniture_used = {
-	tip = "<color=#00a3ef>[已摆放]</color>"
+	tip = "<color=#92fc63>[배치 완료]</color>"
 }
 
 
 _G.pg.base.gametip.dorm3d_furniture_unfit = {
-	tip = "不可使用"
+	tip = "적용 불가"
 }
 
 
 _G.pg.base.gametip.dorm3d_waiting = {
-	tip = "等待入住"
+	tip = "준비 중"
 }
 
 
 _G.pg.base.gametip.dorm3d_daily_favor = {
-	tip = "今日互动契合度"
+	tip = "오늘의 보너스 친밀도"
 }
 
 
 _G.pg.base.gametip.dorm3d_favor_level = {
-	tip = "当前契合度等级："
+	tip = "친밀도LV:"
 }
 
 
 _G.pg.base.gametip.dorm3d_time_choose = {
-	tip = "选择时间"
+	tip = "시간 선택"
 }
 
 
 _G.pg.base.gametip.dorm3d_now_time = {
-	tip = "当前时间"
+	tip = "현재 시간"
 }
 
 
 _G.pg.base.gametip.dorm3d_is_auto_time = {
-	tip = "随时间自动切换昼夜装扮"
+	tip = "주야간 배치 자동 변경"
 }
 
 
 _G.pg.base.gametip.dorm3d_clothing_choose = {
-	tip = "选择换装"
+	tip = "의상 선택"
 }
 
 
 _G.pg.base.gametip.dorm3d_now_clothing = {
-	tip = "当前"
+	tip = "현재"
 }
 
 
 _G.pg.base.gametip.dorm3d_talk = {
-	tip = "对话"
+	tip = "대화"
 }
 
 
 _G.pg.base.gametip.dorm3d_touch = {
-	tip = "触摸"
+	tip = "터치"
 }
 
 
 _G.pg.base.gametip.dorm3d_gift = {
-	tip = "赠礼"
+	tip = "선물"
 }
 
 
 _G.pg.base.gametip.dorm3d_gift_owner_num = {
-	tip = "数量："
+	tip = "수량:"
 }
 
 
 _G.pg.base.gametip.dorm3d_unlock_tips = {
-	tip = "契合度达到$1级解锁"
+	tip = "친밀도 $1 달성 시 오픈"
 }
 
 
 _G.pg.base.gametip.dorm3d_daily_favor_tips = {
-	tip = "今日互动契合度:"
+	tip = "오늘의 보너스 친밀도"
 }
 
 
@@ -34433,92 +34433,92 @@ _G.pg.base.gametip.award_max_warning_minigame = {
 
 
 _G.pg.base.gametip.dorm3d_photo_len = {
-	tip = "镜头"
+	tip = "카메라"
 }
 
 
 _G.pg.base.gametip.dorm3d_photo_depthoffield = {
-	tip = "镜头虚化"
+	tip = "아웃포커싱"
 }
 
 
 _G.pg.base.gametip.dorm3d_photo_focusdistance = {
-	tip = "虚化距离"
+	tip = "아웃포커싱 거리"
 }
 
 
 _G.pg.base.gametip.dorm3d_photo_focusstrength = {
-	tip = "虚化强度"
+	tip = "아웃포커싱 강도"
 }
 
 
 _G.pg.base.gametip.dorm3d_photo_paramaters = {
-	tip = "参数"
+	tip = "설정"
 }
 
 
 _G.pg.base.gametip.dorm3d_photo_postexposure = {
-	tip = "曝光度"
+	tip = "노출"
 }
 
 
 _G.pg.base.gametip.dorm3d_photo_saturation = {
-	tip = "饱和度"
+	tip = "채도"
 }
 
 
 _G.pg.base.gametip.dorm3d_photo_contrast = {
-	tip = "对比度"
+	tip = "콘트라스트"
 }
 
 
 _G.pg.base.gametip.dorm3d_photo_Others = {
-	tip = "其它"
+	tip = "기타"
 }
 
 
 _G.pg.base.gametip.dorm3d_photo_hidecharacter = {
-	tip = "隐藏角色"
+	tip = "캐릭터 비표시"
 }
 
 
 _G.pg.base.gametip.dorm3d_photo_facecamera = {
-	tip = "面向镜头"
+	tip = "카메라 시선"
 }
 
 
 _G.pg.base.gametip.dorm3d_photo_lighting = {
-	tip = "灯光"
+	tip = "라이팅"
 }
 
 
 _G.pg.base.gametip.dorm3d_photo_filter = {
-	tip = "滤镜"
+	tip = "필터"
 }
 
 
 _G.pg.base.gametip.dorm3d_photo_alpha = {
-	tip = "透明度"
+	tip = "투명도"
 }
 
 
 _G.pg.base.gametip.dorm3d_photo_strength = {
-	tip = "强度"
+	tip = "심도"
 }
 
 
 _G.pg.base.gametip.dorm3d_photo_regular_anim = {
-	tip = "基础"
+	tip = "기본"
 }
 
 
 _G.pg.base.gametip.dorm3d_photo_special_anim = {
-	tip = "特殊"
+	tip = "SP"
 }
 
 
 _G.pg.base.gametip.dorm3d_photo_animspeed = {
-	tip = "动作$1x"
+	tip = "모션 $1x"
 }
 
 
@@ -34528,72 +34528,72 @@ _G.pg.base.gametip.dorm3d_photo_furniture_lock = {
 
 
 _G.pg.base.gametip.dorm3d_shop_gift = {
-	tip = "是否花费$1 <color=#169fff>$2</color> 购买<color=#169fff>$3</color>"
+	tip = " <color=#169fff>$2</color>(을)를 $1 소비하여 <color=#169fff>$3</color>(을)를 구매하시겠습니까?"
 }
 
 
 _G.pg.base.gametip.dorm3d_shop_gift_tip = {
-	tip = "<color=#7c7e81>赠送后可解锁角色<color=#169fff>专属剧情</color></color>"
+	tip = "<color=#7c7e81>구매하면 <color=#169fff>특별 스토리</color>를 오픈할 수 있습니다.</color>"
 }
 
 
 _G.pg.base.gametip.word_unlock = {
-	tip = "已解锁"
+	tip = "오픈 완료"
 }
 
 
 _G.pg.base.gametip.word_lock = {
-	tip = "未解锁"
+	tip = "미오픈"
 }
 
 
 _G.pg.base.gametip.dorm3d_collect_favor_plus = {
-	tip = "奖励：契合度+"
+	tip = "보너스: 친밀도+"
 }
 
 
 _G.pg.base.gametip.dorm3d_collect_nothing = {
-	tip = "- 暂未获取该物品 -"
+	tip = "- 아직 획득하지 못했습니다 -"
 }
 
 
 _G.pg.base.gametip.dorm3d_collect_locked = {
-	tip = "契合度$1级解锁"
+	tip = "친밀도 Lv$1 달성 시 오픈"
 }
 
 
 _G.pg.base.gametip.dorm3d_collect_not_found = {
-	tip = "前往$1获取"
+	tip = "$1에서 획득 가능"
 }
 
 
 _G.pg.base.gametip.dorm3d_sirius_table = {
-	tip = "餐厅"
+	tip = "식당"
 }
 
 
 _G.pg.base.gametip.dorm3d_sirius_chair = {
-	tip = "客厅"
+	tip = "거실"
 }
 
 
 _G.pg.base.gametip.dorm3d_sirius_bed = {
-	tip = "卧室"
+	tip = "침실"
 }
 
 
 _G.pg.base.gametip.dorm3d_sirius_bath = {
-	tip = "换衣间"
+	tip = "탈의실"
 }
 
 
 _G.pg.base.gametip.dorm3d_collection_beach = {
-	tip = "沙滩"
+	tip = "해변"
 }
 
 
 _G.pg.base.gametip.dorm3d_reload_unlock = {
-	tip = "- 待解锁 -"
+	tip = "- 미오픈 -"
 }
 
 
@@ -34603,112 +34603,112 @@ _G.pg.base.gametip.dorm3d_reload_unlock_name = {
 
 
 _G.pg.base.gametip.dorm3d_reload_favor = {
-	tip = "契合度剧情"
+	tip = "친밀도 스토리"
 }
 
 
 _G.pg.base.gametip.dorm3d_reload_gift = {
-	tip = "专属礼物剧情"
+	tip = "전용 선물 스토리"
 }
 
 
 _G.pg.base.gametip.dorm3d_collect_unlock = {
-	tip = "- 待解锁 -"
+	tip = "- 미오픈 -"
 }
 
 
 _G.pg.base.gametip.dorm3d_pledge_favor = {
-	tip = "和角色进行誓约，增加100点契合度"
+	tip = "서약 시 친밀도 100 상승"
 }
 
 
 _G.pg.base.gametip.dorm3d_own_favor = {
-	tip = "拥有该角色，增加100点契合度"
+	tip = "소지 시 친밀도 100 상승"
 }
 
 
 _G.pg.base.gametip.dorm3d_role_choose = {
-	tip = "选择宿舍"
+	tip = "방 선택"
 }
 
 
 _G.pg.base.gametip.dorm3d_beach_buy = {
-	tip = "是否消耗<color=#39bfff>$1</color> 解锁 <color=#169fff>沙滩</color>"
+	tip = "<color=#39bfff>$1</color>을 소비하여 <color=#169fff>해변</color>을 오픈하시겠습니까?"
 }
 
 
 _G.pg.base.gametip.dorm3d_beach_role = {
-	tip = "解锁后可以与<color=#39bfff>$1</color>进行互动"
+	tip = "오픈하면 <color=#39bfff>$1</color>(을)를 배치할 수 있습니다"
 }
 
 
 _G.pg.base.gametip.dorm3d_beach_download = {
-	tip = "需要下载$1M的资源"
+	tip = "필요 리소스 다운로드: $1M"
 }
 
 
 _G.pg.base.gametip.dorm3d_role_check_in = {
-	tip = "是否让<color=#39bfff>$1</color>入住该房间"
+	tip = "<color=#39bfff>$1</color>의 방을 오픈하시겠습니까?"
 }
 
 
 _G.pg.base.gametip.dorm3d_data_choose = {
-	tip = "约会选择"
+	tip = "데이트 선택"
 }
 
 
 _G.pg.base.gametip.dorm3d_role_manage = {
-	tip = "宿舍管理"
+	tip = "숙소 관리"
 }
 
 
 _G.pg.base.gametip.dorm3d_role_manage_role = {
-	tip = "角色"
+	tip = "캐릭터"
 }
 
 
 _G.pg.base.gametip.dorm3d_role_manage_public_area = {
-	tip = "公共区域"
+	tip = "공공 구역"
 }
 
 
 _G.pg.base.gametip.dorm3d_data_go = {
-	tip = "请选择一起前往<color=#39bfff>$1</color>的角色"
+	tip = "<color=#39bfff>$1</color> 배치 캐릭터 선택"
 }
 
 
 _G.pg.base.gametip.dorm3d_role_assets_delete = {
-	tip = "是否确认删除<color=#39bfff>$1</color>的全部资源"
+	tip = "<color=#39bfff>$1</color>의 방 리소스를 일시적으로 삭제하시겠습니까?"
 }
 
 
 _G.pg.base.gametip.dorm3d_role_assets_download = {
-	tip = "是否让<color=#39bfff>$1</color>入住该房间\n<color=#848484>需要下载$2的资源</color>"
+	tip = "<color=#39bfff>$1</color>의 방을 오픈하시겠습니까? \n리소스 다운로드: $2"
 }
 
 
 _G.pg.base.gametip.volleyball_end_tip = {
-	tip = "和天狼星度过了美好的下午"
+	tip = "시리우스와 즐거운 오후를 보냈다"
 }
 
 
 _G.pg.base.gametip.volleyball_end_award = {
-	tip = "精力-1，天狼星契合度+40"
+	tip = "행동력 -1, 시리우스의 친밀도 +40"
 }
 
 
 _G.pg.base.gametip.sure_exit_volleyball = {
-	tip = "是否确认退出沙滩排球"
+	tip = "미니 게임을 종료하시겠습니까?"
 }
 
 
 _G.pg.base.gametip.dorm3d_photo_active_zone = {
-	tip = "$1区域专属"
+	tip = "$1 구역 전용"
 }
 
 
 _G.pg.base.gametip.apartment_level_unenough = {
-	tip = "等级$1解锁"
+	tip = "친밀도 Lv$1 달성 시 오픈"
 }
 
 
@@ -34770,62 +34770,62 @@ _G.pg.base.gametip.help_dorm3d_info = {
 
 
 _G.pg.base.gametip.dorm3d_shop_gift_already_given = {
-	tip = "该礼物已赠送"
+	tip = "이미 전달한 선물입니다"
 }
 
 
 _G.pg.base.gametip.dorm3d_shop_gift_not_owned = {
-	tip = "当前未拥有该礼物 "
+	tip = "현재 소지하고 있지 않은 선물입니다"
 }
 
 
 _G.pg.base.gametip.dorm3d_select_tip = {
-	tip = "公共房间邀请"
+	tip = "공공 구역 배치"
 }
 
 
 _G.pg.base.gametip.dorm3d_volleyball_title = {
-	tip = "沙滩"
+	tip = "해변"
 }
 
 
 _G.pg.base.gametip.dorm3d_minigame_again = {
-	tip = "再来一局"
+	tip = "한 번 더"
 }
 
 
 _G.pg.base.gametip.dorm3d_minigame_close = {
-	tip = "关闭"
+	tip = "돌아가기"
 }
 
 
 _G.pg.base.gametip.dorm3d_data_Invite_lack = {
-	tip = "邀请角色数量不足"
+	tip = "배치 캐릭터가 부족합니다"
 }
 
 
 _G.pg.base.gametip.dorm3d_item_num = {
-	tip = "已拥有："
+	tip = "획득 완료:"
 }
 
 
 _G.pg.base.gametip.dorm3d_collect_not_owned = {
-	tip = "暂未收集到该物品"
+	tip = "아직 획득하지 못했습니다"
 }
 
 
 _G.pg.base.gametip.dorm3d_furniture_sure_save = {
-	tip = "是否确认保存家具"
+	tip = "가구 배치를 저장하시겠습니까?"
 }
 
 
 _G.pg.base.gametip.dorm3d_furniture_save_success = {
-	tip = "家具保存成功"
+	tip = "가구 배치를 저장했습니다"
 }
 
 
 _G.pg.base.gametip.dorm3d_removable = {
-	tip = "(拖动屏幕左侧移动，靠近角色吧）"
+	tip = "(화면 좌측으로 드래그로 이동하여 캐릭터에게 가까이 가세요)"
 }
 
 
@@ -35058,117 +35058,117 @@ _G.pg.base.gametip.attire_combatui_confirm = {
 
 
 _G.pg.base.gametip.grapihcs3d_setting_quality = {
-	tip = "画质品质"
+	tip = "그래픽 설정"
 }
 
 
 _G.pg.base.gametip.grapihcs3d_setting_quality_option_low = {
-	tip = "低画质"
+	tip = "저화질"
 }
 
 
 _G.pg.base.gametip.grapihcs3d_setting_quality_option_medium = {
-	tip = "中画质"
+	tip = "중간 화질"
 }
 
 
 _G.pg.base.gametip.grapihcs3d_setting_quality_option_high = {
-	tip = "高画质"
+	tip = "고화질"
 }
 
 
 _G.pg.base.gametip.grapihcs3d_setting_quality_option_custom = {
-	tip = "自定义"
+	tip = "커스텀"
 }
 
 
 _G.pg.base.gametip.grapihcs3d_setting_universal = {
-	tip = "通用3D设置"
+	tip = "범용 3D 설정"
 }
 
 
 _G.pg.base.gametip.grapihcs3d_setting_gpgpu_warning = {
-	tip = "开启该选项，有可能导致部分机型闪退"
+	tip = "ON으로 설정하면 일부 기종에서는 강제 종료될 수 있습니다"
 }
 
 
 _G.pg.base.gametip.dorm3d_shop_tag1 = {
-	tip = "解锁专属互动动作"
+	tip = "전용 터치 오픈"
 }
 
 
 _G.pg.base.gametip.dorm3d_shop_tag2 = {
-	tip = "解锁特殊拍照姿势"
+	tip = "촬영 모션 오픈"
 }
 
 
 _G.pg.base.gametip.dorm3d_shop_tag3 = {
-	tip = "解锁心动模式新互动"
+	tip = "두근두근 모드 모션 오픈"
 }
 
 
 _G.pg.base.gametip.dorm3d_shop_tag4 = {
-	tip = "解锁专属剧情"
+	tip = "특수 스토리 오픈"
 }
 
 
 _G.pg.base.gametip.dorm3d_shop_tag5 = {
-	tip = "解锁额外对话内容"
+	tip = "대화 내용 오픈"
 }
 
 
 _G.pg.base.gametip.dorm3d_shop_tag6 = {
-	tip = "解锁互动游戏"
+	tip = "미니 게임 오픈"
 }
 
 
 _G.pg.base.gametip.dorm3d_system_switch = {
-	tip = "宿舍维护中……"
+	tip = "숙소 준비 중……"
 }
 
 
 _G.pg.base.gametip.dorm3d_beach_switch = {
-	tip = "沙滩维护中……"
+	tip = "해변 준비 중……"
 }
 
 
 _G.pg.base.gametip.dorm3d_AR_switch = {
-	tip = "AR维护中……"
+	tip = "AR 기능 점검 중…"
 }
 
 
 _G.pg.base.gametip.dorm3d_invite_confirm_original = {
-	tip = "是否消耗$1<color=#39bfff>$2</color>解锁<color=#39bfff>$3</color>的$4邀约"
+	tip = "$1 <color=#39bfff>$2</color>을 소비하여 <color=#39bfff>$3</color>의 $4 배치를 오픈하시겠습니까?"
 }
 
 
 _G.pg.base.gametip.dorm3d_invite_confirm_discount = {
-	tip = "是否消耗$1<color=#39bfff>$2</color>(原价$3)解锁<color=#39bfff>$4</color>的$5邀约"
+	tip = "$1 <color=#39bfff>$2</color>(할인 전 가격 $3)을 소비하여 <color=#39bfff>$4</color>의 $5 배치를 오픈하시겠습니까?"
 }
 
 
 _G.pg.base.gametip.dorm3d_invite_confirm_free = {
-	tip = "$1<color=#fc4670><size=34>免费</size></color>(原价$2)解锁<color=#39bfff>$3</color>的$4邀约"
+	tip = "$1 <color=#fc4670><size=34>무료</size></color>(할인 전 가격 $2)로 <color=#39bfff>$3</color>의 $4 배치를 오픈하시겠습니까?"
 }
 
 
 _G.pg.base.gametip.dorm3d_purchase_confirm_original = {
-	tip = "是否消耗$1<color=#39bfff>$2</color>购买<color=#39bfff>$3</color>"
+	tip = "$1 <color=#39bfff>$2</color>을 소비하여 <color=#39bfff>$3</color>을(를) 구매하시겠습니까?"
 }
 
 
 _G.pg.base.gametip.dorm3d_purchase_confirm_discount = {
-	tip = "是否消耗$1<color=#39bfff>$2</color>(原价$3)购买<color=#39bfff>$4</color>"
+	tip = "$1 <color=#39bfff>$2</color>(할인 전 가격 $3)을 소비하여 <color=#39bfff>$4</color>(을)를 구매하시겠습니까?"
 }
 
 
 _G.pg.base.gametip.dorm3d_purchase_confirm_free = {
-	tip = "$1<color=#fc4670><size=34>免费</size></color>(原价$2)购买<color=#39bfff>$3</color>"
+	tip = "$1 <color=#fc4670><size=34>무료</size></color>(할인 전 가격 $2)로 <color=#39bfff>$3</color>(을)를 구매하시겠습니까?"
 }
 
 
 _G.pg.base.gametip.dorm3d_purchase_confirm_tip = {
-	tip = "专属"
+	tip = "전용"
 }
 
 
@@ -35183,32 +35183,32 @@ _G.pg.base.gametip.cruise_title_2410 = {
 
 
 _G.pg.base.gametip.battlepass_main_time_title = {
-	tip = "이번 남은 시간 :"
+	tip = "이번 남은 시간:"
 }
 
 
 _G.pg.base.gametip.cruise_shop_no_open = {
-	tip = "10월 8일 0시 이후 개방"
+	tip = "10/8 0시 오픈 예정"
 }
 
 
 _G.pg.base.gametip.cruise_btn_pay = {
-	tip = "특허 투어 보상 해제"
+	tip = "추가 보상 해제"
 }
 
 
 _G.pg.base.gametip.cruise_btn_all = {
-	tip = "전부 수령"
+	tip = "일괄 수령"
 }
 
 
 _G.pg.base.gametip.task_go = {
-	tip = "이동"
+	tip = "확인"
 }
 
 
 _G.pg.base.gametip.task_got = {
-	tip = "완성함"
+	tip = "완료"
 }
 
 
@@ -35223,17 +35223,17 @@ _G.pg.base.gametip.cruise_shop_title_equip_skin = {
 
 
 _G.pg.base.gametip.cruise_shop_lock_tip = {
-	tip = "이번 월드 투어 레벨 50 도달"
+	tip = "진행 중인 월드 투어에서 Lv50 달성"
 }
 
 
 _G.pg.base.gametip.cruise_shop_limit_tip = {
-	tip = "이번 달 남은 구매 가능 횟수:"
+	tip = "이번 달의 잔여 구매 가능 횟수:"
 }
 
 
 _G.pg.base.gametip.cruise_limit_count = {
-	tip = "이번 달 구매 가능 횟수 상한 도달"
+	tip = "이번 달에는 더 이상 구매할 수 없습니다."
 }
 
 
@@ -35243,57 +35243,57 @@ _G.pg.base.gametip.cruise_title_2408 = {
 
 
 _G.pg.base.gametip.cruise_shop_title = {
-	tip = "이전 상점"
+	tip = "복각 상점"
 }
 
 
 _G.pg.base.gametip.dorm3d_favor_level_story = {
-	tip = "契合度剧情"
+	tip = "특별 스토리"
 }
 
 
 _G.pg.base.gametip.dorm3d_already_gifted = {
-	tip = "已赠送"
+	tip = "선물 완료"
 }
 
 
 _G.pg.base.gametip.dorm3d_story_unlock_tip = {
-	tip = "已解锁剧情"
+	tip = "오픈 완료 스토리"
 }
 
 
 _G.pg.base.gametip.dorm3d_skin_locked = {
-	tip = "未解锁换装"
+	tip = "미오픈 의상"
 }
 
 
 _G.pg.base.gametip.dorm3d_photo_no_role = {
-	tip = "未邀约角色"
+	tip = "캐릭터 미오픈"
 }
 
 
 _G.pg.base.gametip.dorm3d_furniture_locked = {
-	tip = "未解锁该家具"
+	tip = "가구 미오픈"
 }
 
 
 _G.pg.base.gametip.dorm3d_accompany_locked = {
-	tip = "未开放"
+	tip = "미오픈"
 }
 
 
 _G.pg.base.gametip.dorm3d_role_locked = {
-	tip = "请先解锁角色房间"
+	tip = "캐릭터를 오픈해야 합니다"
 }
 
 
 _G.pg.base.gametip.dorm3d_volleyball_button = {
-	tip = "沙滩排球"
+	tip = "비치발리볼"
 }
 
 
 _G.pg.base.gametip.dorm3d_minigame_button1 = {
-	tip = "游戏"
+	tip = "미니 게임"
 }
 
 
@@ -35303,90 +35303,90 @@ _G.pg.base.gametip.dorm3d_collection_title_en = {
 
 
 _G.pg.base.gametip.dorm3d_collection_cost_tip = {
-	tip = "相伴5分钟，<icon name=stamina/>精力-1，天狼星契合度<color=#fc4670>+40</color>"
+	tip = "5분 동안 함께 하면 <icon name=stamina/>행동력 -1, 친밀도 <color=#fc4670>+40</color>"
 }
 
 
 _G.pg.base.gametip.dorm3d_gift_story_unlock = {
-	tip = "已解锁专属剧情"
+	tip = "특별 스토리 오픈 완료"
 }
 
 
 _G.pg.base.gametip.dorm3d_furniture_replace_tip = {
-	tip = "请更换对应家具"
+	tip = "해당 가구를 배치하세요"
 }
 
 
 _G.pg.base.gametip.dorm3d_recall_locked = {
-	tip = "待解锁？？？？？？"
+	tip = "미오픈??????"
 }
 
 
 _G.pg.base.gametip.dorm3d_gift_maximum = {
-	tip = "已达到最大数量限制"
+	tip = "최대 수량에 달했습니다"
 }
 
 
 _G.pg.base.gametip.dorm3d_need_construct_item = {
-	tip = "缺少建设券"
+	tip = "오픈 티켓이 부족합니다"
 }
 
 
 _G.pg.base.gametip.AR_plane_check = {
-	tip = "请检测一个平面"
+	tip = "평면을 검출하세요"
 }
 
 
 _G.pg.base.gametip.AR_plane_long_press_to_summon = {
-	tip = "长按平面呼出角色"
+	tip = "평면을 길게 눌러 캐릭터를 호출하세요"
 }
 
 
 _G.pg.base.gametip.AR_plane_distance_near = {
-	tip = "距离过近角色将会隐藏"
+	tip = "너무 가까우면 캐릭터가 표시되지 않습니다"
 }
 
 
 _G.pg.base.gametip.AR_plane_summon_fail_by_near = {
-	tip = "距离过近呼出角色失败"
+	tip = "거리가 너무 가까워서 캐릭터를 호출하지 못했습니다"
 }
 
 
 _G.pg.base.gametip.AR_plane_summon_success = {
-	tip = "呼出角色成功"
+	tip = "캐릭터 호출에 성공했습니다"
 }
 
 
 _G.pg.base.gametip.dorm3d_day_night_switching1 = {
-	tip = "当前已经为白天"
+	tip = "이미 낮입니다"
 }
 
 
 _G.pg.base.gametip.dorm3d_day_night_switching2 = {
-	tip = "当前已经为夜晚"
+	tip = "이미 밤입니다"
 }
 
 
 _G.pg.base.gametip.dorm3d_download_complete = {
-	tip = "资源下载成功"
+	tip = "리소스 다운로드를 완료했습니다"
 }
 
 
 _G.pg.base.gametip.dorm3d_resource_downloading = {
-	tip = "资源正在下载中"
+	tip = "리소스 다운로드 중입니다"
 }
 
 
 _G.pg.base.gametip.dorm3d_resource_delete = {
-	tip = "资源删除成功"
+	tip = "리소스를 삭제했습니다"
 }
 
 
 _G.pg.base.gametip.dorm3d_favor_maximize = {
-	tip = "契合度已满，是否继续赠礼？"
+	tip = "이미 친밀도가 최대치에 달했습니다. 계속하시겠습니까?"
 }
 
 
 _G.pg.base.gametip.dorm3d_purchase_weekly_limit = {
-	tip = "（本周购买$1/$2）"
+	tip = "（이번 주 구매 횟수 $1/$2）"
 }

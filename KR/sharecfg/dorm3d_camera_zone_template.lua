@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.dorm3d_camera_zone_template = {
 	[1001] = {
-		name = "卧室",
+		name = "침실",
 		record_time = 60,
 		room_id = 1,
 		move_range_horizonal = "",
@@ -61,7 +61,7 @@ pg.dorm3d_camera_zone_template = {
 		}
 	},
 	[1002] = {
-		name = "餐厅",
+		name = "식당",
 		record_time = 60,
 		room_id = 1,
 		move_range_horizonal = "",
@@ -117,7 +117,7 @@ pg.dorm3d_camera_zone_template = {
 		}
 	},
 	[1003] = {
-		name = "客厅",
+		name = "거실",
 		record_time = 60,
 		room_id = 1,
 		move_range_horizonal = "",
@@ -173,7 +173,7 @@ pg.dorm3d_camera_zone_template = {
 		}
 	},
 	[4001] = {
-		name = "沙滩椅",
+		name = "비치의자",
 		record_time = 60,
 		room_id = 4,
 		move_range_horizonal = "",

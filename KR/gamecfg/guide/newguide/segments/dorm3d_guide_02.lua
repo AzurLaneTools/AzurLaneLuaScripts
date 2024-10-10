@@ -5,7 +5,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "点击进入角色宿舍",
+				text = "클릭하여 캐릭터 숙소 진입",
 				mode = 4,
 				char = "char",
 				posY = -137,

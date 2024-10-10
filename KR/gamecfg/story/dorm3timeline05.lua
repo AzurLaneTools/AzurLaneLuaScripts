@@ -22,7 +22,7 @@ return {
 							options = {
 								{
 									{
-										content = "邀请天狼星共舞"
+										content = "시리우스를 춤추러 초대합니다"
 									}
 								}
 							},

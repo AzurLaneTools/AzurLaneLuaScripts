@@ -1498,7 +1498,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9704051] = {
-		breakout_view = "习得技能【逐光之焰·{namecode:71}】/主炮底座+1/主炮效率提高5%",
+		breakout_view = "[염추의 재·히에이] 스킬 습득 / 주포 포좌 +1 / 주포 보정 +5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -1533,7 +1533,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9704053] = {
-		breakout_view = "【逐光之焰·{namecode:71}】升级/主炮底座+1/主炮效率提高15%",
+		breakout_view = "[염추의 재·히에이] 스킬 강화 / 주포 포좌 +1 / 주포 보정 +15%",
 		item2 = 21001,
 		pre_id = 9704052,
 		repair = 0,
@@ -2173,7 +2173,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9706041] = {
-		breakout_view = "习得技能【湮烬之核·{namecode:89}】/所有战斗机+1/舰载机效率提高3%",
+		breakout_view = "[인멸의 핵·호쇼] 습득 / 함재기 수 +1 / 함재기 보정 +3%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -2190,7 +2190,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9706042] = {
-		breakout_view = "机库容量+1/所有鱼雷机+1/舰载机效率提高5%",
+		breakout_view = "격납고 용량 +1 / 뇌격기 수 +1 / 함재기 보정 +5%",
 		item2 = 21001,
 		pre_id = 9706041,
 		repair = 0,
@@ -2209,7 +2209,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9706043] = {
-		breakout_view = "【湮烬之核·{namecode:89}】升级/所有舰载机+1/主炮底座+1/舰载机效率提高7%",
+		breakout_view = "[인멸의 핵·호쇼] 강화 / 함재기 수 +1 / 주포 포좌 +1 / 함재기 보정 +7%",
 		item2 = 21001,
 		pre_id = 9706042,
 		repair = 0,
