@@ -155968,7 +155968,7 @@ When this ship fires her Main Guns: $1 chance to fire a frontal barrage (DMG and
 		type = 1,
 		max_level = 10,
 		desc = [[
-Increases this ship's FP by $3. Every 20s: $1 chance to fire a $2 powerful barrage. 10s after the battle starts, and every 20s after that: fires a $2 arcing barrage; the activation chance for the powerful barrage increases by 30.0% and its power is increased if any of the targets hit by the arcing barrage meets one of the following conditions: 
+Increases this ship's FP by $3. Every 20s: $1 chance to fire a $2 powerful barrage. 10s after the battle starts, and every 20s after that: fires a $2 arcing barrage; the activation chance for the next powerful barrage increases by 30.0% and its power is increased if any of the targets hit by the arcing barrage meets one of the following conditions: 
 1) The target hit is a BB or a BC;
 2) The target hit is sunk within 3s;
 The DMG of both these barrages is based on the skill's level.]],
