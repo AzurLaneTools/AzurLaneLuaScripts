@@ -34643,7 +34643,7 @@ _G.pg.base.gametip.dorm3d_beach_role = {
 
 
 _G.pg.base.gametip.dorm3d_beach_download = {
-	tip = "필요 리소스 다운로드: $1M"
+	tip = "필요 리소스 다운로드: $1"
 }
 
 

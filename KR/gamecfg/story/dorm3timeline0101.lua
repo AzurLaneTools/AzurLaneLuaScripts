@@ -25,15 +25,15 @@ return {
 							options = {
 								[4] = {
 									{
-										content = "先好好休息一下吧"
+										content = "그럼 우선 거기에 걸어...."
 									}
 								},
 								[5] = {
 									{
-										content = "不是那个意思……"
+										content = "아니..."
 									},
 									{
-										content = "你误会了……"
+										content = "그런 의미에서..."
 									}
 								}
 							},
