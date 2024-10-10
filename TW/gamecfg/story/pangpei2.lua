@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"全都交给我就好了！\n\n<size=45>二　在此处签字！</size>",
+					"全都交給我就好了！\n\n<size=45>二 在此處簽名！</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			bgm = "story-richang-3",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "庞培坐在办公桌前，双手抱胸，似乎是在思考什么问题。",
+			say = "龐培坐在辦公桌前，雙手抱胸，似乎在思考什麼問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不对啊……",
+			say = "不對啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽说是把这间办公室交给我了，但是这看起来怎么想都像是……",
+			say = "雖說是把這間辦公室交給我了，但這看起來怎麼想都像是……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "让我来看家的吧？！",
+			say = "讓我來看家的吧？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不对不对不对，不能有这种想法，指挥官可是信任我才拜托我的。",
+			say = "不對不對不對，不能有這種想法，指揮官可是信任我才拜託我的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总，总之先来看看要处理的文件吧。",
+			say = "總，總之先來看看要處理的文件吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "面前的文件有两叠，一叠堆成了小山，而这座“小山”的侧面还能看到密密麻麻的贴条注释。",
+			say = "前方的文件有兩疊，一疊堆成了小山，而這座「小山」的側面還能看到密密麻麻的貼條註解。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "另一叠则要轻薄很多，不过文件的封面被贴上了便利贴，上面写着“今日完成”的字样。",
+			say = "另一疊則要輕薄很多，不過文件的封面被貼上了便利貼，上面寫著「今日完成」的字樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就是这个了，让我看看这里面的内容……",
+			say = "就是這個了，讓我看看這裡面的內容…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这份文件应该怎么处理来着，我记得指挥官以前好像有说过……",
+			say = "這份文件該怎麼處理來著，我記得指揮官以前好像有說過……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -219,7 +219,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "又好像没说过……",
+			say = "又好像沒說過……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那这份就先放在一边，来看看下一份……",
+			say = "那這份就先放在一邊，來看看下一份……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -254,7 +254,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "《港区卫生检查确认表》？",
+			say = "《港區衛生檢查確認表》？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "“如对以上报告无异议可在此处签字。”",
+			say = "「如對以​​上報告無異議可在此處簽字。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只是签字的话，也太简单了，让我来把名字签上去——",
+			say = "只是簽字的話，也太簡單了，讓我來把名字簽上去——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "庞培正打算签字的手突然僵在半空中。",
+			say = "龐培正打算簽字的手突然僵在半空中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等下，这个时候我应该怎么签呢，是签我的名字吗，还是写“指挥官已阅”？",
+			say = "等下，這時候我該怎麼簽呢，是簽我的名字嗎，還是寫「指揮官已閱」？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是但是，如果是签我的名字这份文件还会生效吗，可是如果写上指挥官已阅似乎也不合适……",
+			say = "但是但是，如果是簽我的名字這份文件還會生效嗎，可是如果寫上指揮官已閱似乎也不合適……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这，这份文件也先放在一边好了……",
+			say = "這，這份文件也先放在一邊好了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,7 +382,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然后是下一份……",
+			say = "然後是下一份……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_story_task_2",
-			say = "一段时间后，在庞培的辛勤工作下。",
+			say = "一段時間後，在龐培的辛勤工作下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "贴着“今日完成”的那叠文件的厚度——好像一点也没有减少。",
+			say = "貼著「今日完成」的那疊文件的厚度——好像一點也沒有減少。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

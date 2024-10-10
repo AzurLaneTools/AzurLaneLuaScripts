@@ -10429,6 +10429,120 @@ pg.activity_template = {
 			}
 		}
 	},
+	[5078] = {
+		mark = 20241010,
+		type = 11,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 97,
+		title_res_tag = "collection_event_pt",
+		id = 5078,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CollectionEventPtPage",
+			ui_name = "CollectionEventPtPage"
+		},
+		config_client = {
+			shopActID = 5079
+		}
+	},
+	[5079] = {
+		mark = 20241010,
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 5079,
+		config_data = {
+			2317,
+			2318,
+			2319,
+			2320,
+			2321,
+			2322,
+			2323,
+			2324,
+			2325,
+			2326,
+			2327,
+			2328
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_commission",
+			{
+				0.925,
+				0.925,
+				0.925,
+				1
+			},
+			painting = "mengfeisi_pt",
+			pt_id = 379,
+			use_secretary = false,
+			event_shop = true,
+			outline = {
+				0,
+				0,
+				0,
+				0
+			}
+		}
+	},
 	[5080] = {
 		mark = 20231214,
 		page_info = "",
@@ -11341,6 +11455,48 @@ pg.activity_template = {
 				" ",
 				"<color=#d797ff>夕燒</color>：2.5%<color=#92FC63>(up!)</color>"
 			}
+		}
+	},
+	[5154] = {
+		mark = 20241010,
+		type = 57,
+		login_pop = 0,
+		config_id = 37,
+		is_show = 96,
+		config_client = "",
+		title_res_tag = "beachgamepage",
+		id = 5154,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "BeachGamePage",
+			ui_name = "BeachGamePage"
 		}
 	},
 	[5160] = {
@@ -14368,6 +14524,77 @@ pg.activity_template = {
 		id = 5363,
 		config_data = {
 			20191
+		}
+	},
+	[5415] = {
+		mark = 20241010,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 98,
+		config_client = "",
+		title_res_tag = "haitianskin",
+		id = 5415,
+		config_data = {
+			{
+				20320,
+				20321
+			},
+			{
+				20322,
+				20323
+			},
+			{
+				20324,
+				20325
+			},
+			{
+				20326,
+				20327
+			},
+			{
+				20328,
+				20329
+			},
+			{
+				20330,
+				20331
+			},
+			{
+				20332,
+				20333
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "HaitianSkinPage",
+			ui_name = "HaitianSkinPage"
 		}
 	},
 	[5548] = {
@@ -17716,8 +17943,8 @@ pg.activity_template = {
 			{
 				{
 					2024,
-					1,
-					26
+					10,
+					10
 				},
 				{
 					0,
@@ -17728,8 +17955,8 @@ pg.activity_template = {
 			{
 				{
 					2024,
-					2,
-					4
+					10,
+					19
 				},
 				{
 					23,
@@ -52058,6 +52285,7 @@ pg.activity_template = {
 			5023,
 			5324,
 			5360,
+			5415,
 			5548,
 			5581,
 			6000,
@@ -52144,6 +52372,7 @@ pg.activity_template = {
 			4979,
 			5049,
 			5075,
+			5079,
 			5097,
 			5173,
 			5238,
@@ -52206,6 +52435,7 @@ pg.activity_template = {
 			4869,
 			4961,
 			5047,
+			5154,
 			5193,
 			5202,
 			5310,
@@ -52991,6 +53221,7 @@ pg.activity_template = {
 		},
 		[11] = {
 			4729,
+			5078,
 			41357
 		},
 		[23] = {
@@ -53602,6 +53833,8 @@ pg.activity_template = {
 		5074,
 		5075,
 		5077,
+		5078,
+		5079,
 		5080,
 		5081,
 		5082,
@@ -53620,6 +53853,7 @@ pg.activity_template = {
 		5101,
 		5102,
 		5103,
+		5154,
 		5160,
 		5161,
 		5162,
@@ -53702,6 +53936,7 @@ pg.activity_template = {
 		5361,
 		5362,
 		5363,
+		5415,
 		5548,
 		5560,
 		5561,

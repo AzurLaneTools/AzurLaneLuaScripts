@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"全都交给我就好了！\n\n<size=45>六　多管齐下！</size>",
+					"全都交給我就好了！\n\n<size=45>六 多管齊下！</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			bgm = "story-richang-8",
-			say = "临近傍晚的时候，在众人的努力下，总算是将困意难消的帝国送回了住处。",
+			say = "臨近傍晚的時候，在眾人的努力下，總算是將睏意難消的帝國送回了住處。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "眼下，针对贴着“今日完成”标签的文件的大作战正在有序进行中。",
+			say = "眼下，針對貼著「今日完成」標籤的文件的大作戰正在有序進行中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "达·芬奇，仓库零件的数目还没有统计出来吗？",
+			say = "達文西，倉庫零件的數目還沒有統計出來嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我已经问过{namecode:98:明石}了，因为堆积的东西太多可能还需要一点时间。",
+			say = "我已經問過明石了，因為堆積的東西太多可能還需要一點時間。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -81,7 +81,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "学院走廊的灯坏了三天了，怎么还没有换上新的呢？",
+			say = "學院走廊的燈壞了三天了，怎麼還沒換新的呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			actor = 607010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我去打听了一下，据说是那天负责维修的{namecode:525:英格拉罕}突然接到了紧急任务……",
+			say = "我去打聽了一下，據說是那天負責維修的英格拉罕突然接到了緊急任務……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			actor = 607010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以导致维修的时机被错过了。",
+			say = "所以導致維修的時機被錯過了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -135,7 +135,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那能拜托达·芬奇你跑一趟吗？",
+			say = "那能拜託達文西妳跑一趟嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "小事一桩~",
+			say = "小事一樁~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -171,7 +171,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对了，还要给你一张物资领取的证明，这个我记得是放在……",
+			say = "對了，還要給妳一張物資領取的證明，這個我記得是放在……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,7 +188,7 @@ return {
 			actor = 607010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "已经帮你写好了哦。",
+			say = "已經幫妳寫好了哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -206,7 +206,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不愧是天鹰，太可靠了！",
+			say = "不愧是天鷹，太可靠了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那我就趁着天还没黑，先去一趟学院那边咯。",
+			say = "那我就趁著天還沒黑，先去一趟學院那邊了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么接下来要处理的事情是……",
+			say = "那麼接下來要處理的事情是……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			actor = 607010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对了庞培，我问过维内托大人了，她说签名的部分直接签秘书舰的名字或者“批准通过”都可以哦。",
+			say = "對了龐培，我問過維內托大人了，她說簽名的部分直接簽秘書艦的名字或「批准通過」都可以哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那当然是要签上伟大的庞培队长的名字！",
+			say = "那當然是要簽上偉大的龐培隊長的名字！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			actor = 607010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呃……“伟大的庞培队长”恐怕不行。",
+			say = "呃……「偉大的龐培隊長」恐怕不行。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳咳……那就，庞培·马格诺！",
+			say = "咳咳……那就，龐培·馬格諾！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			actor = 607010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵~笔给你，在这里签名就可以了哦。",
+			say = "呵呵~筆給妳，在這裡簽名就可以了哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -384,7 +384,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "签名完成~然后下一件事是……",
+			say = "簽名完成~然後下一件事是……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -399,7 +399,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_story_task",
-			say = "在众人的努力下，伟大的庞培队长终于成功规避了通宵办公的命运——么？",
+			say = "在眾人的努力下，偉大的龐培隊長終於成功避開了通宵辦公的命運——嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"全都交给我就好了！\n\n<size=45>四　为什么是图书馆？</size>",
+					"全都交給我就好了！\n\n<size=45>四 為什麼是圖書館？</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			bgm = "story-richang-4",
-			say = "一段时间后的指挥室——",
+			say = "一段時間後的指揮室—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "午后的阳光暖洋洋地洒下，庞培坐在办公桌前，困意涌了上来。",
+			say = "午後的陽光暖洋洋地灑下，龐培坐在辦公桌前，睏意湧了上來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果只是稍微休息一下的话……",
+			say = "如果只是稍微休息一下的話……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -64,7 +64,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……我是睡着了吗。",
+			say = "嗯……我是睡著了嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -99,7 +99,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还好还好，只睡了不到一个小时，不然就耽误工作了……",
+			say = "還好還好，只睡了不到一個小時，不然就耽誤工作了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呼呼……",
+			say = "呼呼…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "耳边传来浅浅的呼吸声，庞培循着声音传来的方向，将整个身体探出办公桌。",
+			say = "耳邊傳來淺淺的呼吸聲，龐培循著聲音傳來的方向，將整個身體探出辦公桌。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "终于在沙发上看到了一位熟睡的少女。",
+			say = "終於在沙發上看到了一位熟睡的少女。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……帝国？",
+			say = "……帝國？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,7 +168,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喂，喂，帝国，你醒醒。",
+			say = "喂，喂，帝國，妳醒醒。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你是什么时候跑来的。",
+			say = "你是什​​麼時候跑來的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			actor = 607020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我听别人说今天是你在担任秘书舰，就想着过来看看。",
+			say = "我聽別人說今天是妳在擔任秘書艦，就想說過來看看。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			actor = 607020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "刚才敲门没有人回应，我就推门进来了，然后……发现你在睡觉。",
+			say = "剛才敲門沒人回應，我就推門進來了，然後……發現妳在睡覺。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			actor = 607020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "之后……我也就在这里躺下睡了。",
+			say = "之後……我也就在這裡躺下睡覺了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来是这样……不对，那你来指挥室原本是打算做什么呢？",
+			say = "原來是這樣……不對，那妳來指揮室原本打算做什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			actor = 607020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦……我想起来了，是想让你通过在图书馆设立床位的申请。",
+			say = "喔……我想起來了，是想讓妳通過在圖書館設立床位的申請。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -309,7 +309,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在图书馆里设立床位……？",
+			say = "在圖書館裡設立床位……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			actor = 607020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……我在图书馆看书的时候会睡着，利托里奥姐也说过我好多次，万一着凉了怎么办之类的……",
+			say = "嗯……我在圖書館看書的時候會睡著，利托里奧姐也說過我好多次，萬一著涼了怎麼辦之類的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			actor = 607020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以，如果在图书馆设立一个床位，让我能盖着被子好好睡觉，就不会被利托里奥姐念叨了。",
+			say = "所以，如果在圖書館設立床位，讓我能蓋著棉被好好睡覺，就不會被利托里奧姊念了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			actor = 607020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不行么？",
+			say = "不行嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "倒也不是绝对一定不行……？总之你先回你的房间睡觉，我来帮你写个申请书留给指挥官……",
+			say = "倒也不是絕對一定不行……？總之妳先回妳的房間睡覺，我來幫妳寫申請書留給指揮官……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,7 +416,7 @@ return {
 			actor = 607020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……那就拜托你了，帝国要继续休息了。",
+			say = "呼……那就拜託妳了，帝國要繼續休息了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还是要在这里睡吗……",
+			say = "還是要在這裡睡嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			actor = 607020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这里，很舒服……",
+			say = "這裡，很舒服……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -469,7 +469,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唉，真拿你没办法，我去帮你拿条毯子过来好了。",
+			say = "唉，真拿妳沒辦法，我去幫妳拿毯子過來好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,7 +487,7 @@ return {
 			actor = 607020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "秘书舰，很称职。",
+			say = "秘書艦，很稱職。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -505,7 +505,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿嘿……",
+			say = "嘿嘿嘿…",
 			painting = {
 				alpha = 0.3,
 				time = 1

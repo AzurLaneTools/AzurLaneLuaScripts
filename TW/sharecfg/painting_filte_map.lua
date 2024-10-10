@@ -5030,9 +5030,6 @@ pg.painting_filte_map = {
 			"painting/haitian_rw_tex",
 			"painting/haitian_n_tex",
 			"painting/haitian_n",
-			"painting/haitian_5_tex",
-			"painting/haitian_5_rw_tex",
-			"painting/haitian_5",
 			"painting/haitian"
 		}
 	},
@@ -5064,6 +5061,14 @@ pg.painting_filte_map = {
 			"painting/haitian_4_n",
 			"painting/haitian_4_front_tex",
 			"painting/haitian_4"
+		}
+	},
+	haitian_5 = {
+		key = "haitian_5",
+		res_list = {
+			"painting/haitian_5_tex",
+			"painting/haitian_5_rw_tex",
+			"painting/haitian_5"
 		}
 	},
 	haitian_h = {

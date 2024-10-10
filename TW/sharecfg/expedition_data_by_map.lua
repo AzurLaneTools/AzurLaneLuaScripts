@@ -338,6 +338,10 @@ pg.expedition_data_by_map = setmetatable({
 		2100141,
 		2100150,
 		2100151,
+		2100160,
+		2100161,
+		2100170,
+		2100171,
 		2100180,
 		2100181,
 		2100190,
@@ -17369,6 +17373,202 @@ pg.base.expedition_data_by_map = {
 		default_bgm = "",
 		uifx = "",
 		bind_map = 2100141,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100160] = {
+		map = 2100160,
+		name = "神聖的悲喜劇·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "Battle-italy",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "SHENSHENGDEBEIXIJU1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1240001",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1240001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100170,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100161] = {
+		map = 2100161,
+		name = "神聖的悲喜劇·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "Battle-italy",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "SHENSHENGDEBEIXIJU13",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1240005",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1240005",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100171,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100170] = {
+		map = 2100170,
+		name = "神聖的悲喜劇·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "Battle-italy",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "SHENSHENGDEBEIXIJU1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1240003",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1240003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100160,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100171] = {
+		map = 2100171,
+		name = "神聖的悲喜劇·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "Battle-italy",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "SHENSHENGDEBEIXIJU13",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "map_1240006",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1240006",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100161,
 		clouds_pos = {
 			{
 				332,

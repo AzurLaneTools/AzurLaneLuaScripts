@@ -259,6 +259,7 @@ pg.memory_group = setmetatable({
 		589,
 		590,
 		591,
+		592,
 		594,
 		1000,
 		1001,
@@ -5561,6 +5562,23 @@ pg.base.memory_group = {
 			3055,
 			3056,
 			3057
+		}
+	},
+	[592] = {
+		title = "全都交給我就好了！",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 592,
+		icon = "title_chara_pangpei",
+		memories = {
+			3131,
+			3132,
+			3133,
+			3134,
+			3135,
+			3136,
+			3137
 		}
 	},
 	[594] = {
