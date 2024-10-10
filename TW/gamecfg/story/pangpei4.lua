@@ -203,7 +203,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你是什​​麼時候跑來的。",
+			say = "妳是什​​麼時候跑來的。",
 			painting = {
 				alpha = 0.3,
 				time = 1

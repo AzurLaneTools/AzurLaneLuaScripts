@@ -11947,17 +11947,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "{namecode:199}、{namecode:182}、{namecode:80}、{namecode:195} 等角色建造追加！"
+	tip = "波拉、扎拉、利托里奧、朱利奧·凱撒 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "{namecode:27}、{namecode:197} 建造追加！"
+	tip = "文琴佐·焦貝蒂 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "{namecode:199}、{namecode:182}、{namecode:194}、{namecode:196} 等角色建造追加！"
+	tip = "可畏 建造追加！"
 }
 
 
