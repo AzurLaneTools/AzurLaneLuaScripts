@@ -94,9 +94,9 @@ slot0.UpdateSkinItem = function(slot0, slot1, slot2)
 	slot4 = slot3:getDropInfo()
 
 	if string.match(slot3:GetName() or "??", "(%d+)") then
-		setText(slot2:Find("skin_name"), shortenString(slot5, 5))
+		setText(slot2:Find("skin_name"), shortenString(slot5, 7))
 	else
-		setText(slot2:Find("skin_name"), shortenString(slot5, 6))
+		setText(slot2:Find("skin_name"), shortenString(slot5, 8))
 	end
 
 	setText(slot2:Find("name"), pg.ship_data_statistics[tonumber(slot4:getConfig("ship_group") .. "1")].name)

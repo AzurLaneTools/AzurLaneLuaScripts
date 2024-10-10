@@ -79,6 +79,7 @@ slot0.RefreshEnemyTplIcons = function(slot0, slot1, slot2)
 end
 
 slot0.Clear = function(slot0)
+	LevelCellView.Clear(slot0)
 	slot0:ClearExtraEffects()
 end
 

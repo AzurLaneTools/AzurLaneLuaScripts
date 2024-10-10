@@ -113471,6 +113471,584 @@ _G.pg.base.task_data_template[20631] = {
 }
 
 
+_G.pg.base.task_data_template[20632] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904022,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送基辅皮肤活动1",
+	desc = "舰队出征，以S评价通关10次",
+	sub_type = 24,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20632,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20633] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904023,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送基辅皮肤活动2",
+	desc = "登录游戏",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20633,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20634] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904024,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送基辅皮肤活动3",
+	desc = "完成军事委托2次",
+	sub_type = 80,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20634,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20635] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904025,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送基辅皮肤活动4",
+	desc = "进行2次演习",
+	sub_type = 27,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20635,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20636] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904026,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送基辅皮肤活动5",
+	desc = "完成3次每日挑战",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20636,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20637] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904027,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送基辅皮肤活动6",
+	desc = "舰船退役2次",
+	sub_type = 31,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20637,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20638] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904028,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送基辅皮肤活动7",
+	desc = "进行战术训练2次",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20638,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20639] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904029,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送基辅皮肤活动8",
+	desc = "舰船强化5次",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20639,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20640] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904030,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送基辅皮肤活动9",
+	desc = "击沉任意敌人20艘",
+	sub_type = 11,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20640,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20641] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904031,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送基辅皮肤活动10",
+	desc = "后宅补充食物5次",
+	sub_type = 61,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20641,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20642] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904032,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送基辅皮肤活动11",
+	desc = "打开任意科技箱1个",
+	sub_type = 50,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20642,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20643] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904033,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送基辅皮肤活动12",
+	desc = "建造舰船2次",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20643,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20644] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904034,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送基辅皮肤活动13",
+	desc = "进行2次战术训练",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20644,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20645] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904035,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "送基辅皮肤活动14",
+	desc = "击败旗舰3次 ",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20645,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			7,
+			701102,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
 _G.pg.base.task_data_template[31017] = {
 	target_id_2 = "",
 	guild_coin_award = 0,
@@ -199140,5 +199718,345 @@ _G.pg.base.task_data_template[500047] = {
 			18013,
 			1
 		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500051] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500051,
+	type = 5,
+	is_head = 1,
+	count_inherit = 0,
+	name = "出门什么的好麻烦哦！",
+	desc = "提交3个《鱼雷天妇罗》",
+	sub_type = 1000,
+	task_fold = 0,
+	story_icon = "weida",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500052",
+	visibility = 1,
+	ryza_type = 0,
+	story_id = "WEIDAHAO1",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500051,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "50003",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	story_icon_shift = {
+		-35,
+		115
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+
+_G.pg.base.task_data_template[500052] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500052,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "幽灵船与沉睡的宝藏",
+	desc = "强化任意角色10次",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "weida",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500053",
+	visibility = 1,
+	ryza_type = 0,
+	story_id = "WEIDAHAO2",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500052,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	story_icon_shift = {
+		-35,
+		115
+	}
+}
+
+
+_G.pg.base.task_data_template[500053] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500053,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "辛苦的寻宝之旅",
+	desc = "维达号上阵出击(关卡)胜利20次",
+	sub_type = 18,
+	task_fold = 0,
+	story_icon = "weida",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500054",
+	visibility = 1,
+	ryza_type = 0,
+	story_id = "WEIDAHAO3",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500053,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "960005",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	story_icon_shift = {
+		-35,
+		115
+	}
+}
+
+
+_G.pg.base.task_data_template[500054] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500054,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "恐怖的暴风雨",
+	desc = "累计消耗石油500",
+	sub_type = 121,
+	task_fold = 0,
+	story_icon = "weida",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500055",
+	visibility = 1,
+	ryza_type = 0,
+	story_id = "WEIDAHAO4",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500054,
+	target_num = 500,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	story_icon_shift = {
+		-35,
+		115
+	}
+}
+
+
+_G.pg.base.task_data_template[500055] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500055,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "终点就在前方",
+	desc = "维达号好感度达到100",
+	sub_type = 1012,
+	task_fold = 0,
+	story_icon = "weida",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500056",
+	visibility = 1,
+	ryza_type = 0,
+	story_id = "WEIDAHAO5",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500055,
+	target_num = 10000,
+	fix_task = 0,
+	target_id = "960005",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16002,
+			1
+		}
+	},
+	story_icon_shift = {
+		-35,
+		115
+	}
+}
+
+
+_G.pg.base.task_data_template[500056] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500056,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "最珍贵的宝藏",
+	desc = "维达号突破至满星",
+	sub_type = 33,
+	task_fold = 0,
+	story_icon = "weida",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500057",
+	visibility = 1,
+	ryza_type = 0,
+	story_id = "WEIDAHAO6",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500056,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "960005",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			54050,
+			1
+		}
+	},
+	story_icon_shift = {
+		-35,
+		115
+	}
+}
+
+
+_G.pg.base.task_data_template[500057] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500057,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "是结束也是开始",
+	desc = "维达号等级达到100",
+	sub_type = 1013,
+	task_fold = 0,
+	story_icon = "weida",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "0",
+	visibility = 1,
+	ryza_type = 0,
+	story_id = "WEIDAHAO7",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500057,
+	target_num = 100,
+	fix_task = 0,
+	target_id = "960005",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			54050,
+			2
+		}
+	},
+	story_icon_shift = {
+		-35,
+		115
 	}
 }

@@ -138,7 +138,7 @@ pg.activity_template = {
 		}
 	},
 	[40] = {
-		mark = 20240418,
+		mark = 20241010,
 		page_info = "",
 		type = 0,
 		login_pop = 0,
@@ -153,8 +153,8 @@ pg.activity_template = {
 			{
 				{
 					2024,
-					4,
-					19
+					10,
+					11
 				},
 				{
 					0,
@@ -165,8 +165,8 @@ pg.activity_template = {
 			{
 				{
 					2024,
-					4,
-					28
+					10,
+					20
 				},
 				{
 					23,
@@ -15886,6 +15886,77 @@ pg.activity_template = {
 			ui_name = "JavelinDressSkinPage"
 		}
 	},
+	[5585] = {
+		mark = 20241010,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 49,
+		config_client = "",
+		title_res_tag = "jifu_skin",
+		id = 5585,
+		config_data = {
+			{
+				20632,
+				20633
+			},
+			{
+				20634,
+				20635
+			},
+			{
+				20636,
+				20637
+			},
+			{
+				20638,
+				20639
+			},
+			{
+				20640,
+				20641
+			},
+			{
+				20642,
+				20643
+			},
+			{
+				20644,
+				20645
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SaDingSkinPage",
+			ui_name = "SaDingSkinPage"
+		}
+	},
 	[7011] = {
 		mark = 20230525,
 		time = "stop",
@@ -16646,7 +16717,7 @@ pg.activity_template = {
 		type = 89,
 		login_pop = 99,
 		config_id = 0,
-		is_show = 49,
+		is_show = 48,
 		config_client = "",
 		title_res_tag = "dorm3D_Sign-in1",
 		id = 7501,
@@ -22366,6 +22437,7 @@ pg.activity_template = {
 			5551,
 			5581,
 			5583,
+			5585,
 			6000,
 			6001,
 			6002,
@@ -23364,6 +23436,7 @@ pg.activity_template = {
 		5579,
 		5581,
 		5583,
+		5585,
 		7011,
 		7012,
 		7013,

@@ -24,12 +24,33 @@ slot3.DoPrologue = function(slot0)
 	pg.UIMgr.GetInstance():Marching()
 	slot0._uiMediator:SeaSurfaceShift(1, 15, nil, function ()
 		uv0._uiMediator:OpeningEffect(function ()
-			uv0._dataProxy:SetupCalculateDamage(uv1.Battle.BattleFormulas.FriendInvincibleDamage)
-			uv0._dataProxy:SetupDamageKamikazeShip(uv1.Battle.BattleFormulas.CalcDamageLockS2M)
-			uv0._dataProxy:SetupDamageCrush(uv1.Battle.BattleFormulas.FriendInvincibleCrashDamage)
-			uv0._uiMediator:ShowTimer()
-			uv0._state:ChangeState(uv1.Battle.BattleState.BATTLE_STATE_FIGHT)
-			uv0._waveUpdater:Start()
+			slot1 = uv0.Battle.BattleFormulas.CreateContextCalculateDamage()
+
+			uv1._dataProxy:SetupCalculateDamage(function (slot0, slot1, ...)
+				if slot1:GetIFF() == uv0.Battle.BattleConfig.FRIENDLY_CODE then
+					return 1, {
+						isMiss = false,
+						isCri = false,
+						isDamagePrevent = false
+					}
+				elseif slot2 == uv0.Battle.BattleConfig.FOE_CODE then
+					return uv1(slot0, slot1, ...)
+				end
+			end)
+			uv1._dataProxy:SetupDamageKamikazeShip(uv0.Battle.BattleFormulas.CalcDamageLockS2M)
+			uv1._dataProxy:SetupDamageCrush(function (slot0, slot1)
+				slot2, slot3 = uv0.CalculateCrashDamage(slot0, slot1)
+				slot4 = 1
+
+				if slot1:GetIFF() == uv1.Battle.BattleConfig.FRIENDLY_CODE then
+					slot3 = 1
+				end
+
+				return slot4, slot3
+			end)
+			uv1._uiMediator:ShowTimer()
+			uv1._state:ChangeState(uv0.Battle.BattleState.BATTLE_STATE_FIGHT)
+			uv1._waveUpdater:Start()
 		end, SYSTEM_AIRFIGHT)
 		uv0._dataProxy:InitAllFleetUnitsWeaponCD()
 	end)
@@ -37,10 +58,6 @@ slot3.DoPrologue = function(slot0)
 
 	slot2 = slot0._state:GetSceneMediator()
 
-	slot2:InitPopScorePool()
-	slot2:EnablePopContainer(uv0.Battle.BattlePopNumManager.CONTAINER_HP, false)
-	slot2:EnablePopContainer(uv0.Battle.BattlePopNumManager.CONTAINER_SCORE, false)
-	slot2:EnablePopContainer(uv0.Battle.BattleHPBarManager.ROOT_NAME, false)
 	slot0._uiMediator:ShowAirFightScoreBar()
 end
 
