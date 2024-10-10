@@ -32,7 +32,7 @@ slot0.GetGetObjectives = function(slot0)
 		value = setColorStr(-slot2.lose, COLOR_BLUE)
 	})
 	table.insert(slot1, {
-		text = setColorStr(i18n("fighterplane_destroy_tip"), "#FFFFFFFF"),
+		text = setColorStr(i18n("fighterplane_score_tip"), "#FFFFFFFF"),
 		value = setColorStr(slot2.total, COLOR_YELLOW)
 	})
 

@@ -7,10 +7,7 @@ return {
 	stack = 1,
 	id = 8788,
 	icon = 8780,
-	last_effect = {
-		"plane_shadow",
-		"plane_yinzhang_single_xiaolong"
-	},
+	last_effect = "plane_shadow",
 	effect_list = {
 		{
 			type = "BattleBuffFixVelocity",

@@ -26,11 +26,9 @@ slot0.HideInvitePanel = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	slot1 = getProxy(ApartmentProxy)
-	slot0.room = slot1:getRoom(slot0.contextData.roomId)
+	slot0.room = getProxy(ApartmentProxy):getRoom(slot0.contextData.roomId)
 	slot1 = pg.dorm3d_accompany.get_id_list_by_ship_id[slot0.contextData.groupId]
-	slot2 = slot0.rtPanel
-	slot2 = slot2:Find("window/content")
+	slot2 = slot0.rtPanel:Find("window/content")
 
 	UIItemList.StaticAlign(slot2, slot2:GetChild(0), 3, function (slot0, slot1, slot2)
 		slot1 = slot1 + 1
@@ -62,9 +60,11 @@ slot0.didEnter = function(slot0)
 			end
 		end
 	end)
+	pg.BrightnessMgr.GetInstance():SetScreenNeverSleep(true)
 end
 
 slot0.willExit = function(slot0)
+	pg.BrightnessMgr.GetInstance():SetScreenNeverSleep(false)
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.rtPanel, slot0.rtLayer)
 end
 

@@ -3214,6 +3214,8 @@ pg.skill_data_display = setmetatable({
 		1011492,
 		1011493,
 		1011496,
+		1011003,
+		1011004,
 		1090020,
 		1090042,
 		1090043,
@@ -3252,7 +3254,9 @@ pg.skill_data_display = setmetatable({
 		1090285,
 		1090290,
 		1090291,
-		1090310
+		1090310,
+		1090320,
+		1090321
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -16105,6 +16109,14 @@ pg.base.skill_data_display = {
 		id = 1011496,
 		name = "Frontal Fire+"
 	},
+	[1011003] = {
+		id = 1011003,
+		name = "Courageous Shelling+"
+	},
+	[1011004] = {
+		id = 1011004,
+		name = "Courageous Shelling+"
+	},
 	[1090020] = {
 		id = 1090020,
 		name = "Full Firepower - Karlsruhe"
@@ -16260,5 +16272,13 @@ pg.base.skill_data_display = {
 	[1090310] = {
 		id = 1090310,
 		name = "Full Firepower - Exeter"
+	},
+	[1090320] = {
+		id = 1090320,
+		name = "Emergency Maneuvers – Bulldog"
+	},
+	[1090321] = {
+		id = 1090321,
+		name = "Emergency Maneuvers – Bulldog"
 	}
 }
