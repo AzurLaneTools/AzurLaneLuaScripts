@@ -38,7 +38,7 @@ slot0.GetUnlockText = function(slot0)
 end
 
 slot0.GetIcon = function(slot0)
-	return "livingareacover/" .. slot0:getConfig("icon")
+	return "livingareacover/" .. slot0:getConfig("icon_res")
 end
 
 slot0.GetBg = function(slot0, slot1)

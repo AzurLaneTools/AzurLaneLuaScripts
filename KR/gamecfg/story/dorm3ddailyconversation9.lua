@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION9",
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "这个房间里，天狼星最喜欢部分之一就是壁炉哦！",
+			say = "이 방에서 시리우스가 가장 좋아하는 곳 중 하나는 벽난로 앞입니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,12 +44,12 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "一想到天气再冷一些的时候，就能够和您依偎着坐在暖暖的壁炉旁，天狼星就……///",
+			say = "조금 더 추워지면, 주인님과 함께 따뜻한 벽난로 앞에 앉아서 시간을 보낼 수 있을 걸 생각하니… 시리우스는… ///",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -3712,6 +3712,12 @@ pg.gameset = {
 		description = "",
 		key_value = 8
 	},
+	weekly_fixed_task = {
+		key_value = 0,
+		description = {
+			7311
+		}
+	},
 	no_share_skin_tip = {
 		key_value = 0,
 		description = {

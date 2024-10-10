@@ -3,11 +3,11 @@ slot0 = CameraHelper
 slot1 = YSTool.YSPermissionTool.Inst
 
 slot0.IsAndroid = function()
-	return getProxy(UserProxy):GetCacheGatewayInServerLogined() == PLATFORM_ANDROID
+	return PLATFORM == PLATFORM_ANDROID
 end
 
 slot0.IsIOS = function()
-	return getProxy(UserProxy):GetCacheGatewayInServerLogined() == PLATFORM_IPHONEPLAYER
+	return PLATFORM == PLATFORM_IPHONEPLAYER
 end
 
 slot0.RequestCamera = function(slot0, slot1)
@@ -43,9 +43,19 @@ slot0.RequestCamera = function(slot0, slot1)
 			end
 		end)
 	elseif uv0.IsIOS() then
+		slot2 = "camera"
+
+		originalPrint("ios camera " .. tostring(uv1:IsPermissionGranted(slot2)) .. " " .. tostring(uv1:GetPermissionStatusCode(slot2)))
+
+		if uv1:IsPermissionGranted(slot2) then
+			slot0()
+
+			return
+		end
+
 		slot4 = uv1
 
-		slot4:RequestSingle("camera", function (slot0, slot1)
+		slot4:RequestSingle(slot2, function (slot0, slot1)
 			if slot1 then
 				if uv0 then
 					uv0()
@@ -91,9 +101,22 @@ slot0.Request3DDorm = function(slot0, slot1)
 			end
 		end)
 	elseif uv0.IsIOS() then
+		slot2 = "camera"
+
+		originalPrint("ios开始录像权限判断")
+		originalPrint("ios camera " .. tostring(uv1:IsPermissionGranted(slot2)) .. " " .. tostring(uv1:GetPermissionStatusCode(slot2)))
+
+		if uv1:IsPermissionGranted(slot2) then
+			slot0()
+
+			return
+		end
+
 		slot4 = uv1
 
-		slot4:RequestSingle("camera", function (slot0, slot1)
+		slot4:RequestSingle(slot2, function (slot0, slot1)
+			originalPrint("ios返回的isGranted" .. tostring(slot1))
+
 			if slot1 then
 				if uv0 then
 					uv0()

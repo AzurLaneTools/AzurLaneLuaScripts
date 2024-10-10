@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION26",
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "主人，今天想要和天狼星探讨什么呢？",
+			say = "주인님, 오늘은 시리우스와 어떤 대화를 나누고 싶으신가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "当然是关于“爱”的话题。",
+			say = "――「당연히, 사랑에 대해서지.」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,31 +59,31 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "——天狼星以为我会这么说吗？",
+			say = "――……라고 내가 말하길 기대하고 있었지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "原、原来主人已经看穿了天狼星的想法吗……真不愧是您，我敏锐的主人。",
+			say = "주, 주인님… 이미 시리우스의 생각을 꿰뚫고 계셨군요…! 역시 대단하십니다, 예리한 주인님!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "如果主人下次想探讨这个话题，天狼星……也是随时都可以的……",
+			say = "혹시 나중에라도 주인님이 그 화제로 대화를 나누고 싶으시면… 시리우스는 언제든 준비가 되어 있습니다…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION44",
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "之前利物浦有问过天狼星平时使用手机的频率不高，主人要找天狼星找不到怎么办。",
+			say = "시리우스가 워낙 휴대폰을 잘 사용하지 않으니까, 그러다 주인님의 연락을 못 받으면 주인님께서 불편해하실 거라고… 얼마 전에 리버풀이 그러더군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,24 +44,24 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "后来天狼星自己想了想，“主人想要寻找天狼星，而天狼星不在”的这种前提永远不存在呢。",
+			say = "그래서 고민해 봤는데…　「주인님께서 연락을 하셨는데, 시리우스가 안 받는 상황」은 절대 있을 수 없다는 결론에 다다랐습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "而且如果主人允许的话，天狼星可以二十四小时侍奉在您身边，不会让您有片刻感到寂寞。",
+			say = "주인님께서 허락만 하신다면 시리우스는 24시간 대기하며 늘 곁에서 주인님을 모시겠습니다! 한순간도 외롭게 해드리지 않겠어요…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -23571,7 +23571,8 @@ pg.activity_template = {
 			500,
 			501,
 			502,
-			503
+			503,
+			504
 		},
 		time = {
 			"timer",
@@ -23885,7 +23886,7 @@ pg.activity_template = {
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 48,
+		is_show = 46,
 		title_res_tag = "huanxingcanghongzhiyan",
 		id = 5562,
 		config_data = {
@@ -24067,7 +24068,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 5566,
-		is_show = 46,
+		is_show = 45,
 		config_client = "",
 		title_res_tag = "huanxingcanghongzhiyan_pt",
 		id = 5566,
@@ -24148,7 +24149,7 @@ pg.activity_template = {
 		type = 70,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 45,
+		is_show = 44,
 		title_res_tag = "zhaodaizhuang",
 		id = 5568,
 		config_data = {},
@@ -24194,7 +24195,7 @@ pg.activity_template = {
 		type = 3,
 		login_pop = 0,
 		config_id = 62,
-		is_show = 43,
+		is_show = 42,
 		config_client = "",
 		title_res_tag = "japan_seventh_login",
 		id = 5569,
@@ -24236,7 +24237,7 @@ pg.activity_template = {
 		type = 56,
 		login_pop = 0,
 		config_id = 1,
-		is_show = 44,
+		is_show = 43,
 		config_client = "",
 		title_res_tag = "huiliu",
 		id = 5570,
@@ -24674,7 +24675,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 49,
+		is_show = 47,
 		title_res_tag = "TianlangxingEmoji",
 		id = 5581,
 		config_data = {
@@ -24791,6 +24792,77 @@ pg.activity_template = {
 					59
 				}
 			}
+		}
+	},
+	[5583] = {
+		mark = 20240926,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 48,
+		config_client = "",
+		title_res_tag = "Javelin_dressSkin",
+		id = 5583,
+		config_data = {
+			{
+				20618,
+				20619
+			},
+			{
+				20620,
+				20621
+			},
+			{
+				20622,
+				20623
+			},
+			{
+				20624,
+				20625
+			},
+			{
+				20626,
+				20627
+			},
+			{
+				20628,
+				20629
+			},
+			{
+				20630,
+				20631
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					10,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "JavelinDressSkinPage",
+			ui_name = "JavelinDressSkinPage"
 		}
 	},
 	[7004] = {
@@ -26057,6 +26129,70 @@ pg.activity_template = {
 				"hailunna_meta_pt",
 				"mengfeisi_meta_pt"
 			}
+		}
+	},
+	[7501] = {
+		mark = 20240926,
+		type = 89,
+		login_pop = 99,
+		config_id = 0,
+		is_show = 49,
+		config_client = "",
+		title_res_tag = "dorm3D_Sign-in1",
+		id = 7501,
+		config_data = {
+			{
+				20611
+			},
+			{
+				20612
+			},
+			{
+				20613
+			},
+			{
+				20614
+			},
+			{
+				20615
+			},
+			{
+				20616
+			},
+			{
+				20617
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					10,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2034,
+					1,
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DormSignPage",
+			ui_name = "DormSignPage"
 		}
 	},
 	[8009] = {
@@ -33768,6 +33904,7 @@ pg.activity_template = {
 			5548,
 			5551,
 			5581,
+			5583,
 			6000,
 			6001,
 			6002,
@@ -34378,7 +34515,8 @@ pg.activity_template = {
 			5260
 		},
 		[89] = {
-			5261
+			5261,
+			7501
 		},
 		[22] = {
 			5264
@@ -35277,6 +35415,7 @@ pg.activity_template = {
 		5579,
 		5581,
 		5582,
+		5583,
 		7004,
 		7005,
 		7006,
@@ -35295,6 +35434,7 @@ pg.activity_template = {
 		7019,
 		7102,
 		7104,
+		7501,
 		8009,
 		8010,
 		8029,

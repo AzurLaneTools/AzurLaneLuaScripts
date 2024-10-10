@@ -9,7 +9,7 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "说起来，入住宿舍以后……有些事情朝着更好的方向发展了呢。",
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "感谢您让天狼星入住这里，我骄傲的主人。",
 			typewriter = {
 				speed = 0.05,
@@ -56,7 +56,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "比如能够像与主人像这样长时间的近距离接触……",
 			typewriter = {
 				speed = 0.05,
@@ -88,7 +88,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "而且无论主人要做什么，天狼星都能够在第一时间给予回应。",
 			typewriter = {
 				speed = 0.05,
@@ -97,7 +97,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "这些对于天狼星来说，就是朝着更好的方向发展了哦。",
 			typewriter = {
 				speed = 0.05,
@@ -106,7 +106,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "天狼星希望，这种幸福的时光能够长长久久的持续下去。",
 			typewriter = {
 				speed = 0.05,

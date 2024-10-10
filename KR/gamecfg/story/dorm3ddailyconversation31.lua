@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION31",
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "前几天港区下雨后出了彩虹，不过天狼星那时候在打扫房间，没看到彩虹呢……",
+			say = "얼마 전에 비 온 뒤에 무지개가 떴다던데, 시리우스는 그때 마침 방 청소를 하던 중이라 놓치고 말았습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,12 +44,12 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "听大家说，对着彩虹许愿也很灵验，这么一想就觉得有些可惜了……",
+			say = "동료들 말로는 무지개를 향해 소원을 빌면 이루어진다던데… 그 말을 들으니 조금 아쉽더군요…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,31 +60,31 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "说不定对着彩虹的照片许愿也能实现，要试试么？",
+			say = "――무지개 사진을 보면서 소원을 빌어도 똑같지 않을까? 한번 해볼래?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯！那天狼星希望能和主人……",
+			say = "네! 그럼 시리우스는… 주인님과…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "啊，剩下的说出来就实现不了了……还请主人原谅天狼星在这一点上对您保密哦。",
+			say = "아! 입 밖으로 내면 소원이 이뤄지지 않으니… 모쪼록 방금 건 못 들은 걸로 해 주세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

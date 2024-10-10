@@ -28,16 +28,7 @@ slot0.GetCoverId = function(slot0)
 end
 
 slot0.GetCurCover = function(slot0)
-	return slot0:GetCover(slot0:GetCoverId()) or {
-		id = 0,
-		GetBg = function (slot0)
-			if slot0 == LivingAreaCover.TYPE_DAY then
-				return "livingareaCover/0_bg_day"
-			else
-				return "livingareaCover/0_bg_night"
-			end
-		end
-	}
+	return slot0:GetCover(slot0:GetCoverId())
 end
 
 slot0.UpdateCoverId = function(slot0, slot1)

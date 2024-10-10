@@ -9,8 +9,8 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "天狼星会肩负起护卫主人的责任，不会让任何可疑人士靠近您！",
+			actorName = "시리우스",
+			say = "시리우스가 책임지고 자랑스러운 주인님을 지키겠습니다. 수상한 자들이 절대 접근하지 못하도록…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 						},
 						{
 							param = "Play",
-							name = "Face_renzhen",
+							name = "Face_gaoxing",
 							time = 0,
 							type = "action",
 							skip = true

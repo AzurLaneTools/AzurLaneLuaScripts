@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION8",
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "听说白鹰的同伴偶尔会用微波炉来烧开水泡茶呢……",
+			say = "이글 유니온 동료들이 가끔 전자레인지로 물을 끓여서 차를 우려낸다고 하더군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,24 +44,24 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "您也想尝试看看？不行不行！用微波炉来烧开水什么的……",
+			say = "주인님도 해보고 싶으시다고요? 안 됩니다! 전자레인지로 물을 끓이다니…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这样会影响茶叶的风味的！就算是主人，天狼星也绝对不会退让哦！",
+			say = "그래선 차의 풍미를 망치고 맙니다! 설령 주인님이라도… 그것만은 용납할 수 없습니다…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1366,38 +1366,12 @@ pg.login = {
 		bgm = ""
 	},
 	[57] = {
-		op_play = 1,
+		op_play = 0,
+		date = "stop",
 		id = 57,
 		login_static = "login",
 		login_cri = "",
-		bgm = "Login-JP7th",
-		date = {
-			"timer",
-			{
-				{
-					2024,
-					9,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					10,
-					3
-				},
-				{
-					11,
-					59,
-					59
-				}
-			}
-		},
+		bgm = "",
 		op_time = {
 			{
 				{
@@ -1486,38 +1460,12 @@ pg.login = {
 		}
 	},
 	[3002] = {
-		op_play = 1,
+		op_play = 0,
+		date = "stop",
 		id = 3002,
 		login_static = "login_20241003kr",
 		login_cri = "",
-		bgm = "Login-JP7th",
-		date = {
-			"timer",
-			{
-				{
-					2024,
-					10,
-					3
-				},
-				{
-					12,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					10,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
+		bgm = "",
 		op_time = {
 			{
 				{

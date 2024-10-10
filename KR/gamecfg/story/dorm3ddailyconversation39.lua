@@ -13,19 +13,19 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "天狼星想泡温泉吗？",
+			say = "――시리우스, 온천 가고 싶어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯？主人问这个……是您想去泡温泉吗？",
+			say = "네? 그렇게 물으신다는 건… 온천에 가시려는 건가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,24 +55,24 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那事不宜迟，我的骄傲的主人，您有这个想法的话……",
+			say = "그럼 서두르죠, 자랑스러운 주인님! 그렇다면…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "天狼星这就与您一同前往温泉……！",
+			say = "이 시리우스, 온천까지 함께하겠습니다…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

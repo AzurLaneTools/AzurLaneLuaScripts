@@ -12706,14 +12706,29 @@ pg.activity_ins_template = {
 	[491] = {
 		ship_group = 30604,
 		name = "Zuihō",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_491",
+		picture_persist = "http://blcdn.imtxwy.com/pic/20240829_KTliljI5u68CzFml_ruifeng.png",
+		is_active = 0,
 		sculpture = "ruifeng",
 		id = 491,
 		group_id = 491,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2024,
+				9,
+				12
+			},
+			{
+				12,
+				17,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			4803,
+			4808,
+			4812
+		}
 	},
 	[492] = {
 		ship_group = 20702,
@@ -12856,6 +12871,18 @@ pg.activity_ins_template = {
 		sculpture = "wuzang_3",
 		id = 503,
 		group_id = 503,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[504] = {
+		ship_group = 39905,
+		name = "Hakuryū",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "bailong_4",
+		id = 504,
+		group_id = 504,
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
@@ -13352,6 +13379,7 @@ pg.activity_ins_template = {
 		500,
 		501,
 		502,
-		503
+		503,
+		504
 	}
 }

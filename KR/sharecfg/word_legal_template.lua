@@ -525,6 +525,11 @@ temp = function()
 				["키"] = {
 					this = true
 				}
+			},
+			["나"] = {
+				["미"] = {
+					this = true
+				}
 			}
 		},
 		["루"] = {
@@ -1100,6 +1105,9 @@ temp = function()
 				["미"] = {
 					this = true
 				}
+			},
+			["세"] = {
+				this = true
 			}
 		},
 		["리"] = {
@@ -3471,6 +3479,13 @@ temp = function()
 					this = true
 				}
 			}
+		},
+		["타"] = {
+			["라"] = {
+				["세"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -4213,7 +4228,18 @@ temp = function()
 		},
 		["에"] = {
 			["이"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		},
 		["류"] = {
@@ -6365,22 +6391,16 @@ end
 temp()
 
 temp = function()
-	uv0["孟"] = {
-		["菲"] = {
-			["斯"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["海"] = {
-		["伦"] = {
-			["娜"] = {
-				this = true
+	uv0["蕸"] = {
+		["·"] = {
+			M = {
+				E = {
+					T = {
+						A = {
+							this = true
+						}
+					}
+				}
 			}
 		}
 	}
@@ -6482,24 +6502,6 @@ temp = function()
 				["하"] = {
 					["인"] = {
 						["드"] = {
-							this = true
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["蕸"] = {
-		["·"] = {
-			M = {
-				E = {
-					T = {
-						A = {
 							this = true
 						}
 					}

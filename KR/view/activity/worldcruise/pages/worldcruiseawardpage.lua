@@ -128,7 +128,8 @@ slot0.UpdateAwardInfo = function(slot0, slot1, slot2, slot3)
 	setActive(slot2:Find("base/frame_ui"), slot0:IsBattleUIFrame(slot5.type))
 	setActive(slot2:Find("base/lock"), not slot4)
 	setActive(slot2:Find("base/get"), slot4 and not slot0.awardDic[slot3.pt])
-	setActive(slot2:Find("base/got"), slot0.awardDic[slot3.pt])
+	setActive(slot2:Find("base/got"), slot0.awardDic[slot3.pt] and not slot0:IsSpecialMask(slot5.type))
+	setActive(slot2:Find("base/got_frame"), slot0.awardDic[slot3.pt] and slot0:IsSpecialMask(slot5.type))
 
 	slot6 = Drop.Create(slot3.award_pay)
 
@@ -142,7 +143,8 @@ slot0.UpdateAwardInfo = function(slot0, slot1, slot2, slot3)
 	setActive(slot2:Find("pay/no_pay_frame"), not slot0.isPay and slot0:IsSpecialMask(slot6.type))
 	setActive(slot2:Find("pay/lock"), not slot4 or not slot0.isPay)
 	setActive(slot2:Find("pay/get"), slot0.isPay and slot4 and not slot0.awardPayDic[slot3.pt])
-	setActive(slot2:Find("pay/got"), slot0.awardPayDic[slot3.pt])
+	setActive(slot2:Find("pay/got"), slot0.awardPayDic[slot3.pt] and not slot0:IsSpecialMask(slot6.type))
+	setActive(slot2:Find("pay/got_frame"), slot0.awardPayDic[slot3.pt] and slot0:IsSpecialMask(slot6.type))
 end
 
 slot0.UpdateNextAward = function(slot0, slot1)

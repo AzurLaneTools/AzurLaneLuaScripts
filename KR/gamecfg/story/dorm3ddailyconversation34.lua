@@ -9,35 +9,29 @@ return {
 	id = "DORM3DDAILYCONVERSATION34",
 	scripts = {
 		{
+			actor = 0,
 			side = 0,
 			hidePaintObj = true,
-			optionFlag = 1,
-			say = "!!!!!选项放第一句 say是什么呢？!!!!!!",
-			options = {
-				{
-					content = "要出去走走吗？",
-					flag = 1
-				}
-			}
+			say = "――잠깐 나갔다 올까?"
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我很乐意，我的主人。不过，您是觉得天狼星这里有些乏味……吗？",
+			say = "자랑스러운 주인님, 기꺼이 동행하겠습니다! 아… 혹시 저와 함께 있는 것이 조금 지루하신 건가요…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "单纯只是想和天狼星出门。",
+					content = "――아니, 같이 외출하고 싶은 것뿐이야",
 					flag = 1
 				},
 				{
-					content = "想要两个人一起去外面做些什么",
+					content = "――어딘가 놀러 나가고 싶어서 그런 것뿐이야",
 					flag = 2
 				}
 			},
@@ -66,12 +60,12 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "您的意思，难道是约、约会？！天狼星明白了，一定会好好侍奉主人，直到您彻底尽兴为止❤",
+			say = "그렇다면 주인님께서 원하시는 것은… 데, 데이트?! 알겠습니다. 주인님이 완전히 만족하실 때까지 곁에서 성심성의껏 모시겠습니다❤",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

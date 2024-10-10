@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION43",
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "主人，您的脸摸上去有点烫……要不要天狼星帮您降降温呢？",
+			say = "주인님, 얼굴이 좀 뜨거운 것 같은데… 시리우스가 열을 낮춰드려도 될까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,41 +48,41 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "你打算怎么做？",
+			say = "――어떻게…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "先解开您的衣服，然后天狼星会用毛巾包裹住冰块，为您擦拭身体。",
+			say = "우선 주인님의 옷을 벗긴 후, 얼음을 싼 수건으로 몸을 닦아 드릴 겁니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "会感冒的吧？",
+					content = "――감기 걸리는 거 아니야…?",
 					flag = 1
 				},
 				{
-					content = "是不是有点太刺激了？",
+					content = "――너무 자극적인 거 아니야…?",
 					flag = 2
 				}
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "完全不会哦！如果主人担心着凉的话，天狼星会用自己的体温给主人保暖的！",
+			say = "아뇨! 감기에 걸릴까봐 걱정되시면, 그때는 시리우스가 체온으로 주인님을 따뜻하게 해드리겠습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

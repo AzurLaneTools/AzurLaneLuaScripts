@@ -13,29 +13,29 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "（这段时间天狼星都没提过什么要求……还是问问她吧。）",
+			say = "(요즘은 시리우스가 아무런 요청도 하질 않네… 직접 물어볼까?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "要不要添置一些家具？",
+					content = "――가구를 새로 들여올까?",
 					flag = 1
 				},
 				{
-					content = "有没有想要的东西？",
+					content = "――뭐 필요한 거 없어?",
 					flag = 2
 				}
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "感谢您的关怀和慷慨，不过天狼星目前还不需要这些，我的主人。",
+			say = "자랑스러운 주인님, 배려해주셔서 대단히 감사합니다! 하지만 지금은 딱히 필요한 것이 없습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,12 +65,12 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "只要能够留在这里，并且还能够这样侍奉您，天狼星就满足了。",
+			say = "여기 머물면서 이렇게 주인님을 모실 수 있는 것… 시리우스에게는 그것만으로 충분합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

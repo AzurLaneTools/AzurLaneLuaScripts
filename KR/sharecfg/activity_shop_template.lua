@@ -29891,6 +29891,51 @@ pg.activity_shop_template = {
 		commodity_id_list_show = 0,
 		order = 0
 	},
+	[10089] = {
+		commodity_id_list = "",
+		resource_category = 2,
+		resource_num = 800,
+		num_limit = 1,
+		activity = 0,
+		num = 1,
+		commodity_id = 3720,
+		limit_args = "",
+		commodity_type = 3,
+		resource_type = 59900,
+		id = 10089,
+		commodity_id_list_show = 0,
+		order = 0
+	},
+	[10090] = {
+		commodity_id_list = "",
+		resource_category = 2,
+		resource_num = 500,
+		num_limit = 1,
+		activity = 0,
+		num = 1,
+		commodity_id = 3740,
+		limit_args = "",
+		commodity_type = 3,
+		resource_type = 59900,
+		id = 10090,
+		commodity_id_list_show = 0,
+		order = 0
+	},
+	[10091] = {
+		commodity_id_list = "",
+		resource_category = 2,
+		resource_num = 500,
+		num_limit = 1,
+		activity = 0,
+		num = 1,
+		commodity_id = 3760,
+		limit_args = "",
+		commodity_type = 3,
+		resource_type = 59900,
+		id = 10091,
+		commodity_id_list_show = 0,
+		order = 0
+	},
 	[10500] = {
 		commodity_id_list = "",
 		resource_category = 2,
@@ -31018,7 +31063,7 @@ pg.activity_shop_template = {
 					{
 						2024,
 						10,
-						8
+						1
 					},
 					{
 						0,
@@ -31053,7 +31098,7 @@ pg.activity_shop_template = {
 					{
 						2024,
 						10,
-						8
+						1
 					},
 					{
 						0,
@@ -31088,7 +31133,7 @@ pg.activity_shop_template = {
 					{
 						2024,
 						10,
-						8
+						1
 					},
 					{
 						0,
@@ -31124,7 +31169,7 @@ pg.activity_shop_template = {
 					{
 						2024,
 						10,
-						8
+						1
 					},
 					{
 						0,
@@ -31160,7 +31205,7 @@ pg.activity_shop_template = {
 					{
 						2024,
 						10,
-						8
+						1
 					},
 					{
 						0,
@@ -31196,7 +31241,7 @@ pg.activity_shop_template = {
 					{
 						2024,
 						10,
-						8
+						1
 					},
 					{
 						0,
@@ -31659,6 +31704,9 @@ pg.activity_shop_template = {
 			10086,
 			10087,
 			10088,
+			10089,
+			10090,
+			10091,
 			10500,
 			10501,
 			10502,
@@ -35267,6 +35315,9 @@ pg.activity_shop_template = {
 		10086,
 		10087,
 		10088,
+		10089,
+		10090,
+		10091,
 		10500,
 		10501,
 		10502,

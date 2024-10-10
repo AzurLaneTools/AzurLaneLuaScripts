@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION41",
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "主人，请您不要乱动。",
+			say = "자랑스러운 주인님, 그대로 가만히 계세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,36 +44,36 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "您的眼睛，果然很漂亮呢。",
+			say = "주인님의 눈동자… 정말 아름답군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "只是这样看着……就让人忍不住沉溺在您的目光之中了。",
+			say = "이렇게 바라보기만 해도… 눈동자, 그리고 눈빛에 푹 빠져들 것만 같습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那么，就请允许天狼星用这种方式来开启全新的一天吧，还请您闭上眼……",
+			say = "부디 눈을 감아주시길… 이런 식으로 하루의 시작을 열어드리는 걸… 허락해 주세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "感受到了一个轻柔的吻落在了面颊上。",
+			say = "뺨으로 부드러운 입술의 감촉이 전해졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

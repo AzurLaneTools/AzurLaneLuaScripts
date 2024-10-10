@@ -13,19 +13,19 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "天狼星有喜欢的音乐吗？",
+			say = "――시리우스는 좋아하는 음악 있어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯……过去似乎没有什么好好聆听音乐的机会……",
+			say = "아뇨…… 사실 옛날부터 좀처럼 느긋하게 즐길 기회가 별로 없어서…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,24 +55,24 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "所以在音乐这方面，也没有什么可以称得上“喜欢”或是“不喜欢”的内容。",
+			say = "그래서 특별히 좋아하거나 싫어하는 음악은 없습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "但是，此时此刻，想更进一步了解天狼星的您的声音，就是我最喜欢的“音乐”哦！",
+			say = "아니, 지금 이 순간… 시리우스에 대해 더 많이 알고 싶어하는 주인님의 목소리야말로 제가 가장 좋아하는 음악이지요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

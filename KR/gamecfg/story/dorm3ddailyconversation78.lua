@@ -26,7 +26,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "欸？是主人您比较怕热吗？",
 			typewriter = {
 				speed = 0.05,
@@ -58,7 +58,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "抱歉！是天狼星的疏忽……还请您原谅我的冒失。",
 			typewriter = {
 				speed = 0.05,
@@ -90,7 +90,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "不过，天狼星之前从其他人那里听来了一个降温的技巧。",
 			typewriter = {
 				speed = 0.05,
@@ -105,7 +105,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "就是——如果觉得热的话，就立刻去洗热水澡。",
 			typewriter = {
 				speed = 0.05,
@@ -137,7 +137,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "洗完的瞬间就会觉得十分凉爽哦！",
 			typewriter = {
 				speed = 0.05,
@@ -146,7 +146,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "那么，就由天狼星来伺候主人沐浴吧。",
 			typewriter = {
 				speed = 0.05,
@@ -155,7 +155,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "还请您不要乱动，天狼星要来为您脱下身上的制服了哦~",
 			typewriter = {
 				speed = 0.05,

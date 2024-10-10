@@ -2,15 +2,15 @@ return {
 	hideRecord = true,
 	dialogbox = 2,
 	mode = 2,
-	id = "DORM3DTOUCH1303",
+	id = "DORM3DTOUCH1304",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "这、这样就可以了吗？主人，您需要天狼星再换一种方式吗？~",
+			actorName = "시리우스",
+			say = "이, 이러면 되나요? 자랑스러운 주인님, 다른 포즈도 취해볼까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

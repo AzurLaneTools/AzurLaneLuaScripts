@@ -436,7 +436,9 @@ slot0.commonBind = function(slot0)
 		[BaseUI.ON_NEW_DROP] = function (slot0, slot1, slot2)
 			pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_DROP, setmetatable(slot2, {
 				__index = {
-					weight = LayerWeightConst.TOP_LAYER
+					blurParams = {
+						weight = LayerWeightConst.TOP_LAYER
+					}
 				}
 			}))
 		end
@@ -502,32 +504,6 @@ slot0.addSubLayers = function(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	slot0:sendNotification(GAME.LOAD_LAYERS, slot6)
-end
-
-slot0.switchLayersOnParent = function(slot0, slot1, slot2)
-	assert(isa(slot1, Context), "should be an instance of Context")
-
-	slot4 = slot0:GetContext().parent
-
-	if not slot1.data.isSubView then
-		while slot4.data.isSubView do
-			slot4 = slot4.parent
-		end
-	end
-
-	slot5 = {
-		parentContext = slot4,
-		context = slot1,
-		removeContexts = {
-			slot3
-		}
-	}
-
-	if slot2 then
-		slot5 = table.merge(slot5, slot2) or slot5
-	end
-
-	slot0:sendNotification(GAME.LOAD_LAYERS, slot5)
 end
 
 slot0.GetContext = function(slot0)

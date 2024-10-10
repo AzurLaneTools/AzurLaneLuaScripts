@@ -13,19 +13,19 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "每次天狼星都会在我准备敲门的时候开门，时机拿捏得很合适啊。",
+			say = "――시리우스는 늘 노크하려는 순간에 먼저 문을 열어주네. 정말 타이밍이 절묘해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "呵呵，那是因为主人的脚步声和气息对于天狼星而言，实在是太好辨别了。",
+			say = "후후, 시리우스는 발소리와 기척만으로도 주인님이 오셨다는 걸 알 수 있으니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,12 +55,12 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过，天狼星还是觉得这个应该算作是一种和主人您的心有灵犀呢~",
+			say = "…아뇨, 이건 어쩌면 주인님과 시리우스의 마음이 서로 통하기 때문일지도 모릅니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

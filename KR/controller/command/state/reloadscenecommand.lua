@@ -5,8 +5,8 @@ slot0.execute = function(slot0, slot1)
 
 	slot4:extendData(slot1:getBody())
 	slot0:sendNotification(GAME.LOAD_SCENE, {
-		isReload = true,
-		context = slot4
+		context = slot4,
+		prevContext = slot4
 	})
 end
 

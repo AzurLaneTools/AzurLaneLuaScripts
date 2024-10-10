@@ -9,7 +9,7 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "如果有一天主人要处理的工作不再那么多，您想去哪里放松一下呢？",
 			typewriter = {
 				speed = 0.05,
@@ -58,7 +58,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "主、主人！这样不算是真正回答了天狼星的问题。",
 			typewriter = {
 				speed = 0.05,
@@ -97,7 +97,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "天狼星是真的很想知道，您在有足够的时间以后想去哪里。",
 			typewriter = {
 				speed = 0.05,
@@ -106,7 +106,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "因为……天狼星想为那一天的到来做些准备（小声）。",
 			typewriter = {
 				speed = 0.05,
@@ -155,7 +155,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "主人，您……",
 			typewriter = {
 				speed = 0.05,
@@ -164,7 +164,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "天狼星明白了，等到那一天到来，就与您随便去哪里兜风吧。",
 			typewriter = {
 				speed = 0.05,
@@ -203,7 +203,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "只要能与您度过足够亲密的时光，天狼星就满足了。我骄傲的主人……",
 			typewriter = {
 				speed = 0.05,

@@ -12,9 +12,17 @@ slot1.Init = function(slot0, slot1)
 	existCall(slot1)
 end
 
-slot1.SetOwner = function(slot0, slot1)
-	assert(not slot0.mainOwner)
+slot1.Active = function(slot0, slot1)
+	assert(not slot0.functionDic)
 
+	slot0.functionDic = {}
+
+	if slot1 then
+		slot0:SetOwner(slot1)
+	end
+end
+
+slot1.SetOwner = function(slot0, slot1)
 	slot0.mainOwner = GetComponent(slot1, "GraphOwner")
 	slot0.mainBlackboard = GetComponent(slot1, "Blackboard")
 end
@@ -57,11 +65,12 @@ slot1.CallFunc = function(slot0, slot1, ...)
 end
 
 slot1.Clear = function(slot0)
+	slot0.functionDic = nil
 	slot0.mainOwner = nil
-	slot0.functionDic = {}
+	slot0.mainBlackboard = nil
 end
 
 LuaActionTaskCall = function(slot0, ...)
-	assert(uv0.NodeCanvasMgr.GetInstance() and slot1.mainOwner)
+	assert(uv0.NodeCanvasMgr.GetInstance() and slot1.functionDic)
 	slot1:CallFunc(slot0, ...)
 end

@@ -9,23 +9,23 @@ return {
 	id = "DORM3DDAILYCONVERSATION1",
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "主人，天狼星可以问你一个小问题吗？",
+			say = "자랑스러운 주인님, 뭐 하나 여쭈어도 될까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "当然可以",
+					content = "――물론이지.",
 					flag = 1
 				},
 				{
-					content = "想问什么？",
+					content = "――뭐가 궁금한데?",
 					flag = 2
 				}
 			},
@@ -54,24 +54,24 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "您最近有没有什么特别喜欢的食物？我想……多做些厨艺方面的特训。",
+			say = "요즘 특히 마음에 드는 음식 같은 건 없으신가요? 시리우스, 실은…… 요리 특훈을 하려고 생각 중이라……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "啊，不过这样一来好像就没有办法为您准备惊喜了。",
+			say = "아, 하지만 이렇게 대놓고 물어보면 자랑스러운 주인님을 깜짝 놀라게 해드리지 못하겠군요…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,12 +101,12 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "呜……还请您忘了这个问题吧，我的主人。",
+			say = "음… 방금 제 말은 잊어주시면 감사하겠습니다. 시리우스의 자랑스러운 주인님.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

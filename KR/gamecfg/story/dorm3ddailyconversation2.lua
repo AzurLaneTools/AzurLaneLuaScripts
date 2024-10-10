@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION2",
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "最近光是存放各种食材之类的，就已经占用了冰箱很多空间呢。",
+			say = "요즘은 식재료를 보관하느라 냉장고 공간이 꽤 부족한 느낌입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,19 +48,19 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我帮天狼星换个更大的冰箱吧？",
+			say = "――더 큰 냉장고로 바꿔줄까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "比起这个……天狼星其实更希望您能陪我进行厨艺特训……消耗掉这些食材……呜……",
+			say = "자랑스러운 주인님, 그것보다… 재료를 소비할 수 있도록 시리우스의 요리 특훈에 함께 해주셨으면… 음……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

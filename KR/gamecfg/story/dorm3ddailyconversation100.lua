@@ -9,7 +9,7 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "主人，您身为指挥官，因为工作方面的需要也游历过许多国家……",
 			typewriter = {
 				speed = 0.05,
@@ -48,7 +48,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "可以告诉天狼星，您眼中最美丽的风景在哪里吗？",
 			typewriter = {
 				speed = 0.05,
@@ -57,7 +57,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "天狼星会想办法让这里接近您记忆中的风景，这样您每次来也会觉得更惬意一些。",
 			typewriter = {
 				speed = 0.05,
@@ -75,7 +75,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "是与您相处的每天，每个时刻。",
 			typewriter = {
 				speed = 0.05,
@@ -114,7 +114,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "只要您出现在天狼星的视线范围内，那对天狼星而言就是最美丽的风景。",
 			typewriter = {
 				speed = 0.05,
@@ -132,7 +132,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "天狼星只是将心中的答案如实地传达给了您哦。",
 			typewriter = {
 				speed = 0.05,
@@ -171,7 +171,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "无论何时何地，只要您出现，您耀眼的光芒就会成为天狼星眼中最美丽也是最极致的风景。",
 			typewriter = {
 				speed = 0.05,
@@ -180,7 +180,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "请让我一直看着这样的风景和光芒……",
 			typewriter = {
 				speed = 0.05,
@@ -219,7 +219,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "也请让我永远永远，陪在您的身边——我骄傲的主人。",
 			typewriter = {
 				speed = 0.05,

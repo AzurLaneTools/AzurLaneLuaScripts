@@ -1645,9 +1645,9 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "blueocean-image"
 	},
-	Dorm3dScene = {
-		default_bgm = "story-room-sirius",
+	EatFoodLayer = {
+		default_bgm = "bar-soft",
 		special_bgm = "",
-		bgm = "story-room-sirius"
+		bgm = "bar-soft"
 	}
 }

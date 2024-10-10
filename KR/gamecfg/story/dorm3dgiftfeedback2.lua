@@ -8,14 +8,19 @@ return {
 	hideAuto = true,
 	scripts = {
 		{
-			say = "嗯……！有了这个工具箱，之后的清理工作也会变得更加得心应手吧。",
+			nameColor = "#FFFFFF",
+			actorName = "시리우스",
+			say = "네…! 이 공구함이 있으면 청소 효율도 굉장히 좋아지겠어요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "感谢您，我骄傲的主人，天狼星一定会用它将您的房间打扫得一尘不染。",
+			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_wait_table1",
+			actorName = "시리우스",
+			nameColor = "#FFFFFF",
+			say = "자랑스러운 주인님, 정말 감사합니다. 이걸로 방을 반짝반짝하게 만들어 드리겠습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -25,14 +30,24 @@ return {
 				data = {
 					op_list = {
 						{
-							skip = false,
-							name = "Bow",
+							skip = true,
+							name = "ganjin",
 							type = "action"
+						},
+						{
+							skip = true,
+							name = "Face_gaoxing",
+							type = "action"
+						},
+						{
+							skip = false,
+							time = 2,
+							type = "wait"
 						}
 					}
 				},
 				callbackData = {
-					hideUI = true,
+					hideUI = false,
 					name = STORY_EVENT.TEST_DONE
 				}
 			}

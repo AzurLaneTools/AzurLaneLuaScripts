@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION23",
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "主人，天狼星应该怎样料理“红豆”这种食物呢？无论怎么处理都是硬硬的……",
+			say = "주인님, 이 「팥」은 어떻게 조리하면 될까요? 딱딱하기만 한데…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,43 +48,43 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "嗯？怎么突然对这个食材产生兴趣了？",
+			say = "――응? 갑자기 팥은 왜?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "因、因为听说重樱有在一些特殊场合结束之后，用红豆饭庆祝的习俗。",
+			say = "시, 실은 사쿠라 엠파이어에서는 경사스러운 날에 팥으로 밥을 지어 이를 축하하는 풍습이 있다는 걸 들어서요…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "所以天狼星想学习如何做好红豆饭……",
+			say = "그래서 팥밥을 짓는 법을 익히고 싶어서…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "您说还早？欸……怎、怎么会……又是天狼星迫不及待了吗……",
+			say = "아직 이르다…고요? 아… 그럴 수가… 또 시리우스가 성급하게 군 모양이군요…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

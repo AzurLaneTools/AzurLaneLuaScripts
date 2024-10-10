@@ -9,8 +9,8 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "主人，您的手很温暖呢……",
+			actorName = "시리우스",
+			say = "자랑스러운 주인님의 손…따뜻하네요……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,12 +21,12 @@ return {
 					op_list = {
 						{
 							skip = true,
-							name = "zuo_hudong_jianbang",
+							name = "zuo_hudong_tou",
 							type = "action"
 						},
 						{
 							param = "Play",
-							name = "Face_weixiao",
+							name = "Face_haixiu",
 							time = 0,
 							type = "action",
 							skip = true

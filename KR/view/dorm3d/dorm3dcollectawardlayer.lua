@@ -38,25 +38,20 @@ end
 
 slot0.didEnter = function(slot0)
 	slot1 = pg.dorm3d_collection_template[slot0.contextData.itemId]
+
+	setText(slot0._tf:Find("panel/name/Text"), slot1.name)
+	setText(slot0._tf:Find("panel/desc/content/desc"), slot1.desc)
+
+	if slot1.award > 0 then
+		setText(slot0._tf:Find("panel/favor/Text"), i18n("dorm3d_collect_favor_plus") .. pg.dorm3d_favor_trigger[slot1.award].num)
+		setActive(slot0._tf:Find("panel/favor"), slot0.contextData.isNew)
+	else
+		setActive(slot0._tf:Find("panel/favor"), false)
+	end
+
 	slot3 = slot0._tf
 
-	setText(slot3:Find("panel/name/Text"), slot1.name)
-
-	slot3 = slot0._tf
-
-	setText(slot3:Find("panel/desc/content/desc"), slot1.desc)
-
-	slot4 = slot0._tf
-
-	setText(slot4:Find("panel/favor/Text"), i18n("dorm3d_collect_favor_plus") .. pg.dorm3d_favor_trigger[slot1.award].num)
-
-	slot4 = slot0._tf
-
-	setActive(slot4:Find("panel/favor"), slot0.contextData.isNew)
-
-	slot4 = slot0._tf
-
-	setImageSprite(slot4:Find("panel/icon"), slot0.iconSprite, true)
+	setImageSprite(slot3:Find("panel/icon"), slot0.iconSprite, true)
 	LeanTween.delayedCall(1.5, System.Action(function ()
 		uv0.isBlock = false
 	end))

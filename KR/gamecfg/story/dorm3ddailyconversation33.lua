@@ -12,19 +12,19 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "在和天狼星说话的时候，忍不住打了个哈欠。",
+			say = "시리우스와 잡담을 나누는 도중에 하품을 하고 말았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "主人，需要在这里小憩一下吗？您需要的话，随时告诉天狼星就好。",
+			say = "주인님, 많이 피곤하신 모양인데 여기서 잠깐 쉬시겠어요? 원하시면 언제든 말씀해 주세요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,36 +54,36 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "房间里有新换好的床品、松软的枕头……还有状态绝佳的天狼星本人……！",
+			say = "새로 교체한 침대 시트에 폭신한 베개… 그리고 만반의 준비를 끝낸 시리우스…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "当然……！您需要哄睡服务的话，天狼星也准备了小说、采耳工具，还有……",
+			say = "물론…! 잠이 안 오실 때를 대비한 책 낭독과 귀 청소 서비스도 준비되어 있습니다. 게다가…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "咦……？难道您其实不需要天狼星的哄睡服务吗？看、看来是天狼星又会错意了……",
+			say = "네…? 굳이 재워줄 필요는 없다…고요? 시, 시리우스가 또 성급하게 군 모양이군요…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

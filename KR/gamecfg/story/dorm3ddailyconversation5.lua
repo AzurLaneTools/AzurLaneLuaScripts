@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION5",
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "听说东煌有一道叫做“剁椒鱼头”的料理，而皇家也有吃鱼的传统……",
+			say = "이스트 글림에는 「타초어두(剁椒魚頭)」라는 요리가 있고, 마침 로열 네이비에도 생선 요리를 먹는 전통이 있어서……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,48 +44,48 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "天狼星就想将“剁椒”这种风味，融入仰望星空派。您觉得这个创意如何？",
+			say = "그 요리 특유의 매콤하고 톡 쏘는 풍미를 로열 네이비 음식에도 도입해 볼까 하는데, 어떨까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "难度会不会太高了？",
+					content = "――너무 어렵지 않을까?",
 					flag = 1
 				},
 				{
-					content = "这个创意很好！",
+					content = "――응, 좋은 아이디어이기는 해!",
 					flag = 2
 				}
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
-			say = "说的也是呢……不过天狼星会努力的！",
+			say = "그렇기는 하지만… 시리우스, 열심히 해보겠습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
-			say = "真、真的么！果然还是主人您最支持天狼星了！",
+			say = "저, 정말인가요? 역시 시리우스를 알아주는 사람은 주인님뿐입니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

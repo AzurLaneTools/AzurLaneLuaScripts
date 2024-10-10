@@ -9,7 +9,7 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = "시리우스",
 			say = "欸嘿嘿，天狼星会好好记住这个感觉的！",
 			typewriter = {
 				speed = 0.05,
@@ -26,7 +26,7 @@ return {
 						},
 						{
 							param = "Play",
-							name = "Face_jingya",
+							name = "Face_weixiao",
 							time = 0,
 							type = "action",
 							skip = true

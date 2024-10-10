@@ -133,7 +133,7 @@ return {
 			alpha = 0,
 			notifies = {
 				{
-					notify = "Dorm3dSceneMediator.ON_CLICK_FURNITURE_SLOT",
+					notify = "Dorm3dRoomMediator.ON_CLICK_FURNITURE_SLOT",
 					body = 100101
 				}
 			}

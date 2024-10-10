@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION47",
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "我骄傲的主人……",
+			say = "자랑스러운 주인님…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,43 +48,43 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "怎么了？",
+			say = "무슨 일이시죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "啊！抱歉，主人，天狼星只是看着你，一时情不自禁就……",
+			say = "아! 죄송합니다…! 주인님을 보고 있으니까 저도 모르게…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "明明天狼星已经一直一直侍奉在你身边了……还是想取得您的关注……",
+			say = "계속, 계속 곁에서 성실히 모셔야 하는데… 아직도 주인님의 관심을 바라다니……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "是不是有些太过贪心……太过幸福了呢……",
+			say = "욕심이 과하죠……? 어쩌면 너무 행복해서 그런 걸지도 모릅니다…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

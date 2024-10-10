@@ -103,7 +103,7 @@ slot0.updateTrophyList = function(slot0)
 					if not uv2:IsPlaying() then
 						uv0:emit(TrophyGalleryMediator.ON_TROPHY_CLAIM, slot1.id)
 					end
-				else
+				elseif not uv2:IsPlaying() then
 					uv0:openTrophyDetail(slot0, slot1)
 				end
 			end)

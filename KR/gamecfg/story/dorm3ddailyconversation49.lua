@@ -9,23 +9,23 @@ return {
 	id = "DORM3DDAILYCONVERSATION49",
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "如果有一天主人要处理的工作不再那么多，您想去哪里放松一下呢？",
+			say = "자랑스러운 주인님, 일이 좀 한가해지면 휴가로 떠나고 싶은 곳 있으신가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "在这里就挺好。",
+					content = "――여기가 제일 좋아",
 					flag = 1
 				},
 				{
-					content = "在你身边就好。",
+					content = "――시리우스 곁이 좋아",
 					flag = 2
 				}
 			},
@@ -54,24 +54,24 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "主人，天狼星应该说些什么呢……得到您这样的回答，我真的很开心……",
+			say = "주인님… 뭐라 말씀을 드려야…… 시리우스, 그런 대답을 해주셔서 너무 기쁩니다…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "无论那一天是否会到来，天狼星都会永远陪伴在您身边的。我骄傲的主人……",
+			say = "그날이 오든 안 오든, 시리우스는 언제든 늘 주인님 곁에 있을 거예요, 자랑스러운 주인님…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

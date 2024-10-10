@@ -40,4 +40,8 @@ slot0.GetZoneIcon = function(slot0)
 	return slot0:getConfig("icon")
 end
 
+slot0.GetStartPoint = function(slot0)
+	return slot0:getConfig("staypoint")
+end
+
 return slot0

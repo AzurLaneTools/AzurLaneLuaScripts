@@ -15,10 +15,11 @@ slot0.LoadHighLightArea = function(slot0, slot1)
 			return
 		end
 
-		slot0.sizeDelta = uv0.sizeDelta
-		slot1 = uv0.pivot - slot0.pivot
-		slot0.pivot = uv0.pivot
-		slot0.localPosition = uv0.position + Vector3(slot0.sizeDelta.x * slot1.x, slot0.sizeDelta.y * slot1.y, 0)
+		slot1 = slot0.pivot
+		slot0.localPosition = uv0.position + Vector3(slot1.x * uv0.size.x, slot1.y * uv0.size.y, 0)
+		slot0.anchorMin = Vector2(0.5, 0.5)
+		slot0.anchorMax = Vector2(0.5, 0.5)
+		slot0.sizeDelta = uv0.size + Vector2.one * uv0.length * 2
 	end)
 end
 

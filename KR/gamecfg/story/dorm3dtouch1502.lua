@@ -9,8 +9,8 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "像这样活动一下……嗯……",
+			actorName = "시리우스",
+			say = "이렇게… 몸을 움직여서… 으음…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,7 +21,7 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "chuang_FF_2_beibu_1",
+							name = "chuang_FF_2_pigu_1",
 							time = 0,
 							type = "action",
 							skip = true

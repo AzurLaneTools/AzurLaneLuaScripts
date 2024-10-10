@@ -9,19 +9,19 @@ return {
 	id = "DORM3DDAILYCONVERSATION7",
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "主人，天狼星最近在练习插花，希望之后您能给天狼星一些意见和建议。",
+			say = "주인님, 요즘 꽃꽂이 연습을 하고 있는데, 나중에 의견이나 조언을 좀 구해도 괜찮을까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "练习插花？",
+					content = "――꽃꽂이?",
 					flag = 1
 				}
 			},
@@ -50,24 +50,24 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "为主人提供舒适和赏心悦目的环境是女仆的职责，所以说插花是必修课也不为过……",
+			say = "쾌적하고 깨끗한 환경을 제공하는 것 또한 메이드의 책무지요. 그래서 꽃꽂이는 필수과목이라고 해도 과언이 아닙니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "虽然天狼星是个笨手笨脚的女仆……但是插花这方面应该能做好的！",
+			say = "서투르고 모자란 메이드지만… 꽃꽂이라면 분명 잘 해낼 수 있을 겁니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

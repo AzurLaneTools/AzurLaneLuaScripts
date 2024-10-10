@@ -16,65 +16,19 @@ return {
 				data = {
 					op_list = {
 						{
-							sceneRoot = "Tianlangxing_DB/DormitoryCorridor",
-							name = "Tianlangxing02_Zoulangdengdai",
+							sceneRoot = "Common/Bathroom",
+							name = "Qihe_yushimuyu",
 							time = 0,
 							type = "timeline",
-							scene = "map_dormitorycorridor_01",
+							scene = "map_bathroom_01",
 							skip = false,
-							options = {
-								{
-									{
-										content = "在看风景？"
-									},
-									{
-										content = "在发呆？"
-									}
-								},
-								{
-									{
-										content = "天狼星这样也很好"
-									},
-									{
-										content = "不用像平时那样，偶尔放松一下也好"
-									}
-								},
-								{
-									{
-										content = "另一方面？"
-									}
-								}
-							},
+							options = {},
 							touchs = {
 								{
 									{
 										pos = {
-											100,
-											-150
-										}
-									}
-								},
-								{
-									{
-										pos = {
-											80,
-											200
-										}
-									}
-								},
-								{
-									{
-										pos = {
-											400,
-											-50
-										}
-									}
-								},
-								{
-									{
-										pos = {
-											100,
-											200
+											-150,
+											0
 										}
 									}
 								}

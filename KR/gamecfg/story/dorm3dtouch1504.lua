@@ -9,8 +9,8 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "这里，沾到了什么吗……？",
+			actorName = "시리우스",
+			say = "거기… 뭐라도 묻었나요…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 						},
 						{
 							skip = false,
-							time = 3,
+							time = 2,
 							type = "wait"
 						}
 					}

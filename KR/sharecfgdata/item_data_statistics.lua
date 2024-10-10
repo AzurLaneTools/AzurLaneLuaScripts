@@ -11107,6 +11107,37 @@ _G.pg.base.item_data_statistics[15021] = {
 }
 
 
+_G.pg.base.item_data_statistics[15022] = {
+	open_directly = 0,
+	name = "沙滩建设券",
+	type = 100,
+	display = "用于扩建宿舍功能区域的建设开发券。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/15022",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 15022,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[16001] = {
 	open_directly = 0,
 	name = "공격 교본 T1",
@@ -15168,7 +15199,7 @@ _G.pg.base.item_data_statistics[21039] = {
 	open_directly = 0,
 	name = "결정: 호쇼·META",
 	type = 4,
-	display = "호쇼·META의 능력을 상승시키는 아이템. META 연구실의 한계돌파에서 사용 가능",
+	display = "{namecode:237}的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -26331,9 +26362,9 @@ _G.pg.base.item_data_statistics[30423] = {
 
 _G.pg.base.item_data_statistics[30424] = {
 	open_directly = 1,
-	name = "포러너 UAV",
+	name = "先锋无人机",
 	type = 11,
-	display = "포러너 UAV(뇌격), 포러너 UAV(전투), 포러너 UAV(폭격)를 1개씩 획득할 수 있습니다.",
+	display = "可以获得先锋无人机(鱼雷)、先锋无人机(战斗)、先锋无人机(轰炸)外观装备各一件",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -35720,16 +35751,16 @@ _G.pg.base.item_data_statistics[30545] = {
 
 _G.pg.base.item_data_statistics[30546] = {
 	open_directly = 0,
-	name = "선택 장비 스킨 상자 (블러드 문)",
+	name = "定向外观装备箱(红月)",
 	type = 13,
-	display = "사용하면 장비 스킨(블러드 문) 중 하나를 선택해서 획득할 수 있습니다.",
+	display = "使用后可从「红月之夜」主题外观装备中任意选择一种获得1个",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop_appointed",
 	display_effect = "",
 	link_id = 0,
 	is_world = 0,
-	icon = "Props/appearanceboxmenghuanleyuanzixuan",
+	icon = "Props/appearanceboxhongyuezixuan",
 	order = 0,
 	rarity = 4,
 	max_num = 0,

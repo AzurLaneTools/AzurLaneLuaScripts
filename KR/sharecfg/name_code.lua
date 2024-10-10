@@ -1646,10 +1646,10 @@ pg.name_code = {
 		nation = 0
 	},
 	[237] = {
-		name = "호쇼·META",
+		name = "凤翔·META",
 		type = 1,
 		id = 237,
-		code = "호쇼·META",
+		code = "凤·META",
 		nation = 0
 	},
 	[250] = {

@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION14",
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "主人，天狼星有个不情之请……能请您能陪天狼星一起练习化妆技术么？",
+			say = "자랑스러운 주인님, 주제 넘지만 부탁 하나 드려도 될까요? 메이크업 연습을 하고 싶은데, 함께 해 주실 수 있는지요…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,42 +44,42 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "尽管练习了很多次，我的化妆技术却一直没有精进呢。",
+			say = "여러 번 연습해 봤는데, 메이크업 기술이 좀처럼 늘지 않아 고민입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你无论什么时候都很好看。",
+					content = "――그래? 시리우스는 언제 봐도 예쁜데.",
 					flag = 1
 				}
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "可是……在您的面前，天狼星还是想要尽可能的……再美丽一些。",
+			say = "감사합니다… 그래도 주인님 앞에서는 더 예쁜 모습만 보여드리고 싶어서…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我们就从……涂口红开始，可以吗？",
+			say = "일단… 립스틱 바르는 것부터 시작해도 될까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

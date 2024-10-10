@@ -29,14 +29,12 @@ slot0.canPurchase = function(slot0)
 end
 
 slot0.isDisCount = function(slot0)
-	slot1 = uv0.InCommodityDiscountTime(slot0.id)
-
 	if slot0:IsItemDiscountType() then
 		return true
 	else
-		slot2 = slot0:getConfig("discount") ~= 0 and slot1
+		slot1 = slot0:getConfig("discount") ~= 0 and uv0.InCommodityDiscountTime(slot0.id)
 
-		return slot2
+		return slot1
 	end
 end
 
@@ -78,22 +76,19 @@ slot0.GetOwnedCnt = function(slot0)
 end
 
 slot0.GetPrice = function(slot0)
-	slot1 = 0
 	slot2 = slot0:getConfig("resource_num")
+	slot3 = 0
 
-	if slot0:isDisCount() and slot0:IsItemDiscountType() then
-		slot4 = SkinCouponActivity.StaticGetNewPrice(slot2)
-		slot1 = (slot2 - slot4) / slot2 * 100
-		slot2 = slot4
-	elseif slot3 then
-		slot2 = (100 - slot0:getConfig("discount")) / 100 * slot2
+	if slot0:isDisCount() then
+		if slot0:IsItemDiscountType() then
+			slot1 = SkinCouponActivity.StaticGetNewPrice(slot2)
+			slot3 = (slot1 - newPrice) / slot1 * 100
+		else
+			slot1 = slot2 * (100 - slot0:getConfig("discount")) / 100
+		end
 	end
 
-	return slot2, slot1
-end
-
-slot0.GetBasePrice = function(slot0)
-	return slot0:getConfig("resource_num")
+	return slot1, slot3, slot2
 end
 
 slot0.GetName = function(slot0)
@@ -102,6 +97,14 @@ end
 
 slot0.GetResType = function(slot0)
 	return slot0:getConfig("resource_type")
+end
+
+slot0.GetResIcon = function(slot0)
+	if slot0:GetResType() == 4 or slot1 == 14 then
+		return "diamond"
+	elseif slot1 == 1 then
+		return "gold"
+	end
 end
 
 slot0.IsItemDiscountType = function(slot0)

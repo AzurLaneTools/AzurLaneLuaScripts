@@ -9,23 +9,23 @@ return {
 	id = "DORM3DDAILYCONVERSATION18",
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "主人平时总是很辛苦呢，天狼星这为您准备一杯果蔬汁来补充营养吧……！",
+			say = "정말 늘 바쁘시군요. 그런 주인님을 위해 시리우스가 영양분이 가득한 야채 주스를 준비했습니다…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "不用麻烦了。",
+					content = "――이 정도는 아무렇지도 않아.",
 					flag = 1
 				},
 				{
-					content = "有你在身边就够了。",
+					content = "――시리우스가 옆에 있어 주는 것만으로도 충분해.",
 					flag = 2
 				}
 			},
@@ -54,24 +54,24 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "可是为了您的健康着想的话……",
+			say = "하지만… 주인님의 건강을 위해서는…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那、那么，就请用天狼星的身体来……！",
+			say = "그, 그럼…! 시리우스의 몸으로…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

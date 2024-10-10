@@ -13,19 +13,19 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "天狼星会觉得错过夕阳可惜么？",
+			say = "――시리우스는 석양을 못 보고 놓쳐서 아쉬웠던 경험 있어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "可惜……？是因为错失了景色的可惜吗？天狼星不太明白。",
+			say = "석양…이요? 경치를 감상하지 못한 것이 아쉽다는 말씀이신가요? 잘 모르겠네요…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,36 +55,36 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "欸？您说夕阳是白天与晚上的重要分界线，错过了就觉得一天过得很混沌？",
+			say = "네? 석양은 낮과 밤의 중요한 경계선이라, 놓치면 하루가 불확실하게 느껴진다…고요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那，天狼星之后会帮主人一起处理文书工作！努力让您早点下班……！",
+			say = "그럼 시리우스, 주인님께서 빨리 일을 마치실 수 있도록 앞으로는 매일 서류 작업을 도와드리겠습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "只要是主人的愿望，天狼星无论如何都会替您达成！",
+			say = "자랑스러운 주인님이 원하신다면, 시리우스가 무엇이든 이뤄드리겠습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

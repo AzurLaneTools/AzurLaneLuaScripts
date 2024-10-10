@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION6",
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "说起来，似乎存在这样的刻板印象呢……像“皇家的人都会喜欢茶会”之类的。",
+			say = "그러고 보니, 로열 네이비 사람은 다들 다과회를 좋아한다는 선입견이 있는 것 같더군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,31 +48,31 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "所以，天狼星喜欢茶会吗？",
+			say = "――시리우스는? 좋아해?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我吗……硬要说的话，可能会更喜欢负责茶会的警备工作之类的？",
+			say = "시리우스는…… 굳이 말하자면, 다과회의 경비를 담당하는 쪽이 좋습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "天狼星更想去成为守护这种平和、悠闲时光的人呢。",
+			say = "그 평화롭고 평온한 시간을 지키는 자가 되고 싶습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

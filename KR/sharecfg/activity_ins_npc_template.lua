@@ -79697,94 +79697,248 @@ pg.activity_ins_npc_template = {
 	},
 	[4803] = {
 		ship_group = 50107,
-		message_persist = "",
+		message_persist = "ins_discuss_491_1",
 		id = 4803,
-		time_persist = {},
-		npc_reply_persist = {}
+		time_persist = {
+			{
+				2024,
+				9,
+				26
+			},
+			{
+				12,
+				20,
+				17
+			}
+		},
+		npc_reply_persist = {
+			4804,
+			4805,
+			4806,
+			4807
+		}
 	},
 	[4804] = {
 		ship_group = 50208,
-		message_persist = "",
+		npc_reply_persist = "",
+		message_persist = "ins_reply_491_1_1",
 		id = 4804,
-		time_persist = {},
-		npc_reply_persist = {}
+		time_persist = {
+			{
+				2024,
+				9,
+				26
+			},
+			{
+				12,
+				22,
+				17
+			}
+		}
 	},
 	[4805] = {
 		ship_group = 19903,
-		message_persist = "",
+		npc_reply_persist = "",
+		message_persist = "ins_reply_491_1_2",
 		id = 4805,
-		time_persist = {},
-		npc_reply_persist = {}
+		time_persist = {
+			{
+				2024,
+				9,
+				26
+			},
+			{
+				12,
+				24,
+				17
+			}
+		}
 	},
 	[4806] = {
 		ship_group = 10133,
-		message_persist = "",
+		npc_reply_persist = "",
+		message_persist = "ins_reply_491_1_3",
 		id = 4806,
-		time_persist = {},
-		npc_reply_persist = {}
+		time_persist = {
+			{
+				2024,
+				9,
+				26
+			},
+			{
+				12,
+				28,
+				17
+			}
+		}
 	},
 	[4807] = {
 		ship_group = 30604,
-		message_persist = "",
+		npc_reply_persist = "",
+		message_persist = "ins_reply_491_1_4",
 		id = 4807,
-		time_persist = {},
-		npc_reply_persist = {}
+		time_persist = {
+			{
+				2024,
+				9,
+				26
+			},
+			{
+				12,
+				30,
+				17
+			}
+		}
 	},
 	[4808] = {
 		ship_group = 69902,
-		message_persist = "",
+		message_persist = "ins_discuss_491_2",
 		id = 4808,
-		time_persist = {},
-		npc_reply_persist = {}
+		time_persist = {
+			{
+				2024,
+				9,
+				26
+			},
+			{
+				12,
+				32,
+				17
+			}
+		},
+		npc_reply_persist = {
+			4809,
+			4810,
+			4811
+		}
 	},
 	[4809] = {
 		ship_group = 30604,
-		message_persist = "",
+		npc_reply_persist = "",
+		message_persist = "ins_reply_491_2_1",
 		id = 4809,
-		time_persist = {},
-		npc_reply_persist = {}
+		time_persist = {
+			{
+				2024,
+				9,
+				26
+			},
+			{
+				12,
+				34,
+				17
+			}
+		}
 	},
 	[4810] = {
 		ship_group = 69902,
-		message_persist = "",
+		npc_reply_persist = "",
+		message_persist = "ins_reply_491_2_2",
 		id = 4810,
-		time_persist = {},
-		npc_reply_persist = {}
+		time_persist = {
+			{
+				2024,
+				9,
+				26
+			},
+			{
+				12,
+				37,
+				17
+			}
+		}
 	},
 	[4811] = {
 		ship_group = 10706,
-		message_persist = "",
+		npc_reply_persist = "",
+		message_persist = "ins_reply_491_2_3",
 		id = 4811,
-		time_persist = {},
-		npc_reply_persist = {}
+		time_persist = {
+			{
+				2024,
+				9,
+				26
+			},
+			{
+				12,
+				39,
+				17
+			}
+		}
 	},
 	[4812] = {
 		ship_group = 30605,
-		message_persist = "",
+		message_persist = "ins_discuss_491_3",
 		id = 4812,
-		time_persist = {},
-		npc_reply_persist = {}
+		time_persist = {
+			{
+				2024,
+				9,
+				26
+			},
+			{
+				12,
+				43,
+				17
+			}
+		},
+		npc_reply_persist = {
+			4813
+		}
 	},
 	[4813] = {
 		ship_group = 30604,
-		message_persist = "",
+		npc_reply_persist = "",
+		message_persist = "ins_reply_491_3_1",
 		id = 4813,
-		time_persist = {},
-		npc_reply_persist = {}
+		time_persist = {
+			{
+				2024,
+				9,
+				26
+			},
+			{
+				12,
+				47,
+				17
+			}
+		}
 	},
 	[4815] = {
 		ship_group = 30604,
-		message_persist = "",
+		npc_reply_persist = "",
+		message_persist = "op_reply_491_1_1",
 		id = 4815,
-		time_persist = {},
-		npc_reply_persist = {}
+		time_persist = {
+			{
+				2024,
+				9,
+				26
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
 	},
 	[4817] = {
 		ship_group = 30604,
-		message_persist = "",
+		npc_reply_persist = "",
+		message_persist = "op_reply_491_1_2",
 		id = 4817,
-		time_persist = {},
-		npc_reply_persist = {}
+		time_persist = {
+			{
+				2024,
+				9,
+				26
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
 	},
 	[4819] = {
 		ship_group = 50107,
@@ -80777,6 +80931,118 @@ pg.activity_ins_npc_template = {
 		ship_group = 30510,
 		message_persist = "",
 		id = 4995,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4997] = {
+		ship_group = 30508,
+		message_persist = "",
+		id = 4997,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4998] = {
+		ship_group = 39905,
+		message_persist = "",
+		id = 4998,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[4999] = {
+		ship_group = 30508,
+		message_persist = "",
+		id = 4999,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[5000] = {
+		ship_group = 30311,
+		message_persist = "",
+		id = 5000,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[5001] = {
+		ship_group = 70206,
+		message_persist = "",
+		id = 5001,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[5002] = {
+		ship_group = 50106,
+		message_persist = "",
+		id = 5002,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[5003] = {
+		ship_group = 50105,
+		message_persist = "",
+		id = 5003,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[5004] = {
+		ship_group = 70206,
+		message_persist = "",
+		id = 5004,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[5005] = {
+		ship_group = 39905,
+		message_persist = "",
+		id = 5005,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[5006] = {
+		ship_group = 30111,
+		message_persist = "",
+		id = 5006,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[5007] = {
+		ship_group = 30112,
+		message_persist = "",
+		id = 5007,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[5008] = {
+		ship_group = 30105,
+		message_persist = "",
+		id = 5008,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[5009] = {
+		ship_group = 50102,
+		message_persist = "",
+		id = 5009,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[5010] = {
+		ship_group = 39905,
+		message_persist = "",
+		id = 5010,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[5012] = {
+		ship_group = 39905,
+		message_persist = "",
+		id = 5012,
+		time_persist = {},
+		npc_reply_persist = {}
+	},
+	[5014] = {
+		ship_group = 39905,
+		message_persist = "",
+		id = 5014,
 		time_persist = {},
 		npc_reply_persist = {}
 	},
@@ -85170,6 +85436,22 @@ pg.activity_ins_npc_template = {
 		4990,
 		4991,
 		4993,
-		4995
+		4995,
+		4997,
+		4998,
+		4999,
+		5000,
+		5001,
+		5002,
+		5003,
+		5004,
+		5005,
+		5006,
+		5007,
+		5008,
+		5009,
+		5010,
+		5012,
+		5014
 	}
 }

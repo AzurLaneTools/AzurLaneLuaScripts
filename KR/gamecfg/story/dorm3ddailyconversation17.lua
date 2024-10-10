@@ -9,24 +9,18 @@ return {
 	id = "DORM3DDAILYCONVERSATION17",
 	scripts = {
 		{
+			actor = 0,
 			side = 0,
 			hidePaintObj = true,
-			optionFlag = 1,
-			say = "!!!!!选项放第一句 say是什么呢？!!!!!!",
-			options = {
-				{
-					content = "天狼星现在在想什么？",
-					flag = 1
-				}
-			}
+			say = "――시리우스, 뭘 그렇게 골똘히 생각해?"
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯……在想云朵的形状。",
+			say = "음… 구름의 모양에 대해 생각하는 중입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,30 +50,30 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "因为听其他同伴说，在看云的时候所见到的云朵形状，就代表着人内心最期待的事物。",
+			say = "눈에 보이는 구름의 모양은 지금 마음속으로 가장 기대하는 것을 나타낸다고 동료가 그러더군요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "最期待的事物是 ？",
+					content = "――그래? 그럼 시리우스가 지금 가장 기대하는 건 뭐야?",
 					flag = 1
 				}
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "主人……您是在明知故问哦。",
+			say = "주인님… 다 알고 계시면서……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

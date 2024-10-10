@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION30",
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "在这里的体验怎么样……？",
+			say = "――여기 살아보니까 어때?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,24 +44,24 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "很好哦……因为和您的见面频率和独处时间都大大增加了，所以天狼星觉得很幸福。",
+			say = "정말 멋진 곳입니다. 특히 자랑스러운 주인님을 뵐 기회도, 단둘이 있는 시간도 많이 늘어나서… 너무 행복하게 생각합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过还是有一点不太方便呢。",
+			say = "다만, 불편한 점이 딱 하나 있습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,19 +72,19 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不太方便是指？",
+			say = "――불편한 점?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "就是……没办法像在指挥室一样，在晚上也侍奉主人呢……",
+			say = "그건…… 집무실에서처럼 밤에도 주인님을 모실 수 없다는 점…입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -203,27 +203,24 @@ return {
 			slot1 = slot1 .. "/"
 		end
 
-		warning(slot2)
-		warning(slot1)
+		originalPrint("fullCacheDirPath", tostring(slot1))
+		originalPrint("shortDirPath:", tostring(slot0))
+		originalPrint("fullDirPath", tostring(slot2))
 
 		slot3 = {}
 		slot4 = System.IO.Directory
 		slot5 = ReflectionHelp.RefGetField(typeof("System.IO.SearchOption"), "AllDirectories", nil)
 
-		warning(tostring(slot4.Exists(slot2)))
+		originalPrint("fullDirPath Exist:", tostring(slot4.Exists(slot2)))
 
 		if slot4.Exists(slot2) then
-			slot6 = slot4.GetFiles(slot2, "*", slot5)
-
-			warning(slot6.Length)
-
-			for slot10 = 0, slot6.Length - 1 do
-				slot12 = slot6[slot10]:gsub("\\", "/"):gsub("^" .. slot1, "")
-
-				warning(slot12)
-				table.insert(slot3, slot12)
+			for slot10 = 0, slot4.GetFiles(slot2, "*", slot5).Length - 1 do
+				table.insert(slot3, string.sub(slot6[slot10]:gsub("\\", "/"), #slot1 + 1))
 			end
 		end
+
+		originalPrint("filePathList first:", tostring(slot3[1]))
+		originalPrint("filePathList last:", tostring(slot3[#slot3]))
 
 		if #slot3 > 0 then
 			slot7 = System.Array.CreateInstance(typeof(System.String), slot6)

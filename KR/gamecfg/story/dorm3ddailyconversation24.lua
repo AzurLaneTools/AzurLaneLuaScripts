@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION24",
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "（盯——）",
+			say = "(뚫어져라…)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,41 +47,41 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "感受到了天狼星强烈的视线。",
+			say = "시리우스의 강한 시선이 느껴진다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "怎么了？",
+					content = "무슨 일이시죠?",
 					flag = 1
 				},
 				{
-					content = "我脸上有什么东西吗？",
+					content = "――내 얼굴에 뭐라도 묻었어?",
 					flag = 2
 				}
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "啊，没什么……",
+			say = "아, 아니요… 아무것도 아닙니다…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "虽然早就将主人您的身影牢牢记在脑海之中了，但偶尔还是会情不自禁盯着您看呢……///",
+			say = "자랑스러운 주인님의 모습은 이미 제 뇌리에 박혀있는데도, 가끔씩 이렇게 넋을 잃고 바라보게 되는군요…///",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

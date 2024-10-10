@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION20",
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "主人……天狼星想占用您一点时间，来复习与您的双人舞。",
+			say = "주인님… 잠깐 시간을 내어 같이 춤 연습을 하려고 하는데…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,24 +44,24 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "如果您觉得单纯跳舞有些乏味的话，还可以直接……",
+			say = "그냥 춤만 추는 것이 지루하시면, 직접 저와……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "欸？您现在只想和天狼星跳舞？呜……好、好吧……！",
+			say = "네? 춤만 춰도 괜찮다…고요? 음… 아, 알겠습니다…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

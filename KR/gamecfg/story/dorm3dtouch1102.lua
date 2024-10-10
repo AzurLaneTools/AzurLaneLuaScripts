@@ -9,8 +9,8 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "主人，是对天狼星的服饰感兴趣吗？",
+			actorName = "시리우스",
+			say = "자랑스러운 주인님… 시리우스의 모습이 마음에 드시나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,7 +21,7 @@ return {
 					op_list = {
 						{
 							skip = true,
-							name = "zhan_hudong_jianbang",
+							name = "swim01_tou",
 							type = "action"
 						},
 						{

@@ -5661,7 +5661,26 @@ pg.activity_ins_language = setmetatable({
 		"ins_op_503_1_1",
 		"op_reply_503_1_1",
 		"ins_op_503_1_2",
-		"op_reply_503_1_2"
+		"op_reply_503_1_2",
+		"ins_504",
+		"ins_discuss_504_1",
+		"ins_reply_504_1_1",
+		"ins_reply_504_1_2",
+		"ins_reply_504_1_3",
+		"ins_discuss_504_2",
+		"ins_reply_504_2_1",
+		"ins_reply_504_2_2",
+		"ins_reply_504_2_3",
+		"ins_reply_504_2_4",
+		"ins_discuss_504_3",
+		"ins_reply_504_3_1",
+		"ins_reply_504_3_2",
+		"ins_reply_504_3_3",
+		"ins_reply_504_3_4",
+		"ins_op_504_1_1",
+		"op_reply_504_1_1",
+		"ins_op_504_1_2",
+		"op_reply_504_1_2"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -22065,52 +22084,52 @@ pg.base.activity_ins_language = {
 		value = "응, 노력할게!"
 	},
 	ins_491 = {
-		value = ""
+		value = "햇살이 기분 좋은 날에는 그림 그리기! 쓱쓱(๑╹ ꇴ╹)!"
 	},
 	ins_discuss_491_1 = {
-		value = ""
+		value = "페이윈 님도 그림 그릴래! 하이티엔 스승님이 새 그리는 법을 알려줬어!"
 	},
 	ins_reply_491_1_1 = {
-		value = ""
+		value = "그거 새였어?! 하이티엔 언니… 힘들겠다……"
 	},
 	ins_reply_491_1_2 = {
-		value = ""
+		value = "앵커리지도 그림 그릴래! …같이!"
 	},
 	ins_reply_491_1_3 = {
-		value = ""
+		value = "캔버스를 들고 지금 밖으로 나왔어!"
 	},
 	ins_reply_491_1_4 = {
-		value = ""
+		value = "좋아♪ 해가 떨어지기 전에 다들 어서 이쪽으로 와!"
 	},
 	ins_discuss_491_2 = {
-		value = ""
+		value = "어머, 풍경이 근사하네. 어디야? 잠깐 감상하고 가야겠어."
 	},
 	ins_reply_491_2_1 = {
-		value = ""
+		value = "여기는…… 음… 햇살이 너무 강해서 어디가 어딘지 모르겠어…"
 	},
 	ins_reply_491_2_2 = {
-		value = ""
+		value = "안타깝네… 그러고 보니 나도 지금 어디 있는지 모르겠네……"
 	},
 	ins_reply_491_2_3 = {
-		value = ""
+		value = "둘 다 거기 그대로 있어. 지금 구하러 갈 테니."
 	},
 	ins_discuss_491_3 = {
-		value = ""
+		value = "그 당고, 직접 만든기가?! 즈이호는 요리 실력도 좋데이~"
 	},
 	ins_reply_491_3_1 = {
-		value = ""
+		value = "응♪ 조금 있다가 저녁 같이 먹자!"
 	},
 	ins_op_491_1_1 = {
-		value = ""
+		value = "새들이 귀엽네."
 	},
 	op_reply_491_1_1 = {
-		value = ""
+		value = "에헤헤~ 지휘관한테도 그려 줄게!"
 	},
 	ins_op_491_1_2 = {
-		value = ""
+		value = "지금 갈 테니까 가만히 있어."
 	},
 	op_reply_491_1_2 = {
-		value = ""
+		value = "응! 지휘관이 쓸 도구도 있으니까, 같이 그리자♪"
 	},
 	ins_492 = {
 		value = ""
@@ -22644,6 +22663,63 @@ pg.base.activity_ins_language = {
 		value = ""
 	},
 	op_reply_503_1_2 = {
+		value = ""
+	},
+	ins_504 = {
+		value = ""
+	},
+	ins_discuss_504_1 = {
+		value = ""
+	},
+	ins_reply_504_1_1 = {
+		value = ""
+	},
+	ins_reply_504_1_2 = {
+		value = ""
+	},
+	ins_reply_504_1_3 = {
+		value = ""
+	},
+	ins_discuss_504_2 = {
+		value = ""
+	},
+	ins_reply_504_2_1 = {
+		value = ""
+	},
+	ins_reply_504_2_2 = {
+		value = ""
+	},
+	ins_reply_504_2_3 = {
+		value = ""
+	},
+	ins_reply_504_2_4 = {
+		value = ""
+	},
+	ins_discuss_504_3 = {
+		value = ""
+	},
+	ins_reply_504_3_1 = {
+		value = ""
+	},
+	ins_reply_504_3_2 = {
+		value = ""
+	},
+	ins_reply_504_3_3 = {
+		value = ""
+	},
+	ins_reply_504_3_4 = {
+		value = ""
+	},
+	ins_op_504_1_1 = {
+		value = ""
+	},
+	op_reply_504_1_1 = {
+		value = ""
+	},
+	ins_op_504_1_2 = {
+		value = ""
+	},
+	op_reply_504_1_2 = {
 		value = ""
 	}
 }

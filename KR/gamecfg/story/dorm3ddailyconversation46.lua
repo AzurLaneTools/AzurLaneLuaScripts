@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION46",
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "主人，天狼星已经仔细打扫过地毯了，偶尔在地毯上坐下休息也是很舒服的哦。",
+			say = "주인님, 카펫을 깔끔하게 청소해 뒀습니다. 가끔은 카펫 위에 앉아서 편히 쉬는 것도 좋을 것 같아서요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,12 +44,12 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "当、当然，如果主人想在地毯上与天狼星……天狼星也没问题的！",
+			say = "무, 물론… 주인님께서 카펫 위에서 시리우스를 원하셔도…… 시리우스는 괜찮습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION21",
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "天狼星很喜欢今天的天气哦！",
+			say = "시리우스는 오늘 같은 날씨가 제일 좋아요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,24 +44,24 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "准确来说，是喜欢和主人一起度过的今天的天气……！",
+			say = "정확히 말하면, 주인님과 함께 보내는 오늘 같은 날씨가 제일 좋다고 해야겠죠…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不管是下雨还是天晴，只要是陪伴在主人身边，对天狼星而言都是喜欢的好天气呢。",
+			say = "비가 와도, 맑더라도 주인님 곁에 있을 수 있다면… 시리우스에게는 모두 좋은 날씨랍니다…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

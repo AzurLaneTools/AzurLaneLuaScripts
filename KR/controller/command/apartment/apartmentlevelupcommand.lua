@@ -4,9 +4,7 @@ slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 	slot4 = slot2.triggerId
 
-	warning("levelupcmd")
-
-	if getDorm3dGameset("favor_level")[1] <= getProxy(ApartmentProxy):getApartment(slot2.groupId).level or slot6.favor < slot6:getNextExp() then
+	if not getProxy(ApartmentProxy):getApartment(slot2.groupId):canLevelUp() then
 		return
 	end
 
@@ -16,8 +14,6 @@ slot0.execute = function(slot0, slot1)
 		ship_group = slot3
 	}, 28006, function (slot0)
 		if slot0.result == 0 then
-			warning("levelup")
-
 			slot1 = uv1
 			uv0 = slot1:getApartment(uv2)
 			slot1 = uv0
@@ -27,10 +23,6 @@ slot0.execute = function(slot0, slot1)
 			slot1 = uv1
 
 			slot1:updateApartment(uv0)
-
-			slot4 = uv0
-
-			warning(uv0.favor, uv0.level, slot4:getNextExp())
 
 			slot2 = uv3
 

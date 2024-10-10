@@ -295,13 +295,13 @@ slot2 = function(slot0, slot1, slot2, slot3)
 			clearAllEvent = true
 		})
 	elseif slot3.type == GuideStep.HIGH_TYPE_LINE then
-		slot4 = slot1:GetHighlightLength()
+		slot4 = slot2.rect
 		slot5 = slot0._tf:InverseTransformPoint(slot2.position)
 
 		slot0.uiLoader:LoadHighLightArea({
-			position = Vector3(slot5.x, slot5.y, 0) + Vector3((slot2.pivot.x - 0.5) * slot4, (slot2.pivot.y - 0.5) * slot4, 0),
-			sizeDelta = Vector2(slot2.sizeDelta.x + slot4, slot2.sizeDelta.y + slot4),
-			pivot = slot2.pivot,
+			position = Vector3(slot5.x, slot5.y, 0) + Vector3(slot4.x, slot4.y, 0),
+			size = Vector2(slot4.width, slot4.height),
+			length = slot1:GetHighlightLength(),
 			name = slot1:GetHighlightName()
 		})
 	end

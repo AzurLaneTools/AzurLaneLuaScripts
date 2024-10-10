@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION15",
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "主人看起来好像有点疲惫，没什么精神呢？一定是工作太累了吧……",
+			say = "자랑스러운 주인님, 왠지 피곤하고 기운이 없어 보입니다… 일이 많이 바쁘신 건가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,42 +44,42 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过，天狼星这里有一个能让主人快速恢复精神的技巧哦！",
+			say = "시리우스, 주인님의 기운을 빠르게 회복시켜 드릴 수 있는 방법을 알고 있습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "什么技巧？",
+					content = "――정말? 어떻게 하면 돼?",
 					flag = 1
 				}
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "就是——在感到疲惫的时候，立刻洗个热水澡！",
+			say = "그건…… 바로 목욕을 하는 겁니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "天狼星现在就来侍奉主人沐浴吧！……就从帮您脱掉衣服开始！",
+			say = "지금 바로 주인님의 목욕 준비를 하겠습니다! …우선은 옷부터 벗겨 드리지요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

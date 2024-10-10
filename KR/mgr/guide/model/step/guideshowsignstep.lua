@@ -80,6 +80,8 @@ slot0.GetSignResName = function(slot0, slot1)
 		slot2 = "wShowArea"
 	elseif slot1 == 7 then
 		slot2 = "wShowArea4Click"
+	elseif slot1 == 8 then
+		slot2 = "wShowArea4Click_borderless"
 	end
 
 	return slot2

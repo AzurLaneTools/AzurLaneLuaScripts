@@ -9,19 +9,19 @@ return {
 	id = "DORM3DDAILYCONVERSATION37",
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "哼哼♪~",
+			say = "후후후~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "遇到了好事吗？",
+					content = "――뭐 좋은 일이라도 있었어?",
 					flag = 1
 				}
 			},
@@ -50,24 +50,24 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "是的，因为和我骄傲的主人独处一室，实在是令天狼星心潮澎湃，接下来的时间，不如就……",
+			say = "네♪ 자랑스러운 주인님과 단둘이 있는 것만으로도 시리우스는 설레고 가슴이 뛴답니다. 그러니 부디 지금부터 시리우스와…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "欸？难道您还没有这方面的想法吗？",
+			say = "네? 아직 그럴 마음은 없으시다…고요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

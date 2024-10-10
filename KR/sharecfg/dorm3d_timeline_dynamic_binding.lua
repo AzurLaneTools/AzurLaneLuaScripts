@@ -10,8 +10,14 @@ pg.dorm3d_timeline_dynamic_binding = {
 		object_name = "pre_db_bathroom01_door",
 		track_name = "pre_db_bathroom01_doorTrack"
 	},
+	{
+		id = 3,
+		object_name = "pre_db_curtain03",
+		track_name = "pre_db_curtain03Track"
+	},
 	all = {
 		1,
-		2
+		2,
+		3
 	}
 }

@@ -9,8 +9,8 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "主人，再摸下去的话，头发就会变得乱糟糟了……",
+			actorName = "시리우스",
+			say = "자랑스러운 주인님, 계속 만지시면 머리가 엉망이 됩니다……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -21,7 +21,7 @@ return {
 					op_list = {
 						{
 							skip = true,
-							name = "zhan_hudong_tou",
+							name = "swim02_tou",
 							type = "action"
 						},
 						{

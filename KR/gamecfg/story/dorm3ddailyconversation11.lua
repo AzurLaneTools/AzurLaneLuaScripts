@@ -9,19 +9,19 @@ return {
 	id = "DORM3DDAILYCONVERSATION11",
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "主人看上去好像状态不错，是遇到了什么开心的事吗？",
+			say = "자랑스러운 주인님, 얼굴이 밝군요. 무슨 좋은 일이라도 있었나요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "因为来和天狼星见面了。",
+					content = "――시리우스를 만나서 그래.",
 					flag = 1
 				}
 			},
@@ -50,24 +50,24 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……！！",
+			say = "……!!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "和主人见面，也是天狼星一天中最开心的事。",
+			say = "주인님을 뵙는 건 시리우스에게 있어서도 하루 중 가장 기쁜 일입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

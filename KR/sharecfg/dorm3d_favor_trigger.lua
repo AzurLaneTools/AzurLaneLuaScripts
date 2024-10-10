@@ -57,7 +57,7 @@ pg.dorm3d_favor_trigger = {
 	[1007] = {
 		param = 0,
 		effect = "uifx_dorm3d_yinfu01",
-		num = 30,
+		num = 100,
 		type = 5,
 		id = 1007,
 		is_repeat = 0,
@@ -66,7 +66,7 @@ pg.dorm3d_favor_trigger = {
 	[1008] = {
 		param = 0,
 		effect = "uifx_dorm3d_yinfu01",
-		num = 80,
+		num = 100,
 		type = 6,
 		id = 1008,
 		is_repeat = 0,
@@ -75,7 +75,7 @@ pg.dorm3d_favor_trigger = {
 	[1009] = {
 		param = 0,
 		effect = "uifx_dorm3d_yinfu01",
-		num = 150,
+		num = 50,
 		type = 3,
 		id = 1009,
 		is_repeat = 1,
@@ -84,7 +84,7 @@ pg.dorm3d_favor_trigger = {
 	[1010] = {
 		param = 0,
 		effect = "uifx_dorm3d_yinfu01",
-		num = 200,
+		num = 150,
 		type = 3,
 		id = 1010,
 		is_repeat = 1,
@@ -120,11 +120,56 @@ pg.dorm3d_favor_trigger = {
 	[1014] = {
 		param = 0,
 		effect = "uifx_dorm3d_yinfu01",
-		num = 50,
+		num = 40,
 		type = 7,
 		id = 1014,
 		is_repeat = 1,
 		is_daily_max = 1
+	},
+	[1015] = {
+		param = 0,
+		effect = "uifx_dorm3d_yinfu01",
+		num = 40,
+		type = 1,
+		id = 1015,
+		is_repeat = 1,
+		is_daily_max = 1
+	},
+	[1016] = {
+		param = 0,
+		effect = "uifx_dorm3d_yinfu01",
+		num = 80,
+		type = 1,
+		id = 1016,
+		is_repeat = 1,
+		is_daily_max = 2
+	},
+	[1017] = {
+		param = 0,
+		effect = "uifx_dorm3d_yinfu01",
+		num = 120,
+		type = 1,
+		id = 1017,
+		is_repeat = 1,
+		is_daily_max = 3
+	},
+	[1018] = {
+		param = 0,
+		effect = "uifx_dorm3d_yinfu01",
+		num = 240,
+		type = 3,
+		id = 1018,
+		is_repeat = 1,
+		is_daily_max = 0
+	},
+	[1019] = {
+		param = 0,
+		effect = "uifx_dorm3d_yinfu01",
+		num = 300,
+		type = 3,
+		id = 1019,
+		is_repeat = 1,
+		is_daily_max = 0
 	},
 	all = {
 		1001,
@@ -140,6 +185,11 @@ pg.dorm3d_favor_trigger = {
 		1011,
 		1012,
 		1013,
-		1014
+		1014,
+		1015,
+		1016,
+		1017,
+		1018,
+		1019
 	}
 }

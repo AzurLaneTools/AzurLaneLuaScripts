@@ -13,19 +13,19 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "等天气再冷一点，起床工作的难度就会增加啊……",
+			say = "――기온이 더 내려가면, 일어나서 일을 하는 게 굉장히 귀찮아지겠지……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "啊，主人的这种情况，是会伴随气温下降出现的起床困难综合征啊。",
+			say = "아, 주인님의 그 상태는 아마 기온 저하에 따라 나타나는 「기상 곤란 증후군」이 분명할 겁니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,24 +55,24 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "等主人出现了这种症状，就让天狼星去您那里整夜侍奉吧！",
+			say = "만약 그 증상이 나타나면 밤새 곁에 붙어 있게 해주세요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这样……才方便更好地叫醒赖床的主人~",
+			say = "그렇게 하면… 늦게까지 주무시는 주인님을 깨워 드릴 수 있을 테니까요…♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -9,23 +9,23 @@ return {
 	id = "DORM3DDAILYCONVERSATION25",
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "主人，天狼星在想能不能和您拍一张合照呢？",
+			say = "주인님, 괜찮으시면 함께 사진을 찍어도 될까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "没问题！",
+					content = "――물론이지!",
 					flag = 1
 				},
 				{
-					content = "我也想和天狼星合照。",
+					content = "――나도 시리우스랑 사진을 찍고 싶었어.",
 					flag = 2
 				}
 			},
@@ -54,24 +54,24 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "感谢您！我温柔的主人。",
+			say = "감사합니다! 상냥하신 주인님…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = "시리우스",
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这样天狼星就可以时时刻刻看到自己依偎在主人身旁的幸福模样了，欸嘿嘿。",
+			say = "주인님 곁에서 행복해하는 시리우스의 모습… 이제는 언제든지 볼 수 있겠네요. 후후훗.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

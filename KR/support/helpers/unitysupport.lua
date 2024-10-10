@@ -902,3 +902,11 @@ end
 IsUsingWifi = function()
 	return Application.internetReachability == UnityEngine.NetworkReachability.ReachableViaLocalAreaNetwork
 end
+
+getSceneRootTFDic = function(slot0)
+	table.IpairsCArray(slot0.GetRootGameObjects(slot0), function (slot0, slot1)
+		uv0[slot1.name] = slot1.transform
+	end)
+
+	return {}
+end

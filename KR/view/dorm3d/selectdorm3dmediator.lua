@@ -1,32 +1,21 @@
 slot0 = class("SelectDorm3DMediator", import("view.base.ContextMediator"))
 slot0.ON_DORM = "SelectDorm3DMediator.ON_DORM"
 slot0.ON_UNLOCK_DORM_ROOM = "SelectDorm3DMediator.ON_UNLOCK_DORM_ROOM"
-slot0.OPEN_ROOM_UNLOCK_WINDOW = "SelectDorm3DMediator.OPEN_ROOM_UNLOCK_WINDOW"
 slot0.ON_SUBMIT_TASK = "SelectDorm3DMediator.ON_SUBMIT_TASK"
+slot0.OPEN_INVITE_LAYER = "SelectDorm3DMediator.OPEN_INVITE_LAYER"
+slot0.OPEN_ROOM_UNLOCK_WINDOW = "SelectDorm3DMediator.OPEN_ROOM_UNLOCK_WINDOW"
 
 slot0.register = function(slot0)
-	slot0:bind(uv0.ON_DORM, function (slot0, slot1, slot2)
-		if slot1 == 1 then
-			(function ()
-				pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataRoom(uv0.roomId, 7, table.concat(uv0.groupIds, ",")))
-			end)()
-			uv0:sendNotification(GAME.GO_SCENE, SCENE.DORM3D_VOLLEYBALL, slot2)
-		elseif slot1 == 2 then
-			slot3 = pg.SceneAnimMgr.GetInstance()
-
-			slot3:Dorm3DSceneChange(function (slot0)
-				uv0.resumeCallback = slot0
-
-				uv1:sendNotification(GAME.GO_SCENE, SCENE.DORM3D, uv0)
-			end)
-		else
-			assert(false)
-		end
+	slot0:bind(uv0.ON_DORM, function (slot0, slot1)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.DORM3D_ROOM, slot1)
 	end)
 	slot0:bind(uv0.ON_UNLOCK_DORM_ROOM, function (slot0, slot1)
 		uv0:sendNotification(GAME.APARTMENT_ROOM_UNLOCK, {
 			roomId = slot1
 		})
+	end)
+	slot0:bind(uv0.ON_SUBMIT_TASK, function (slot0, slot1)
+		uv0:sendNotification(GAME.SUBMIT_TASK, slot1)
 	end)
 	slot0:bind(uv0.OPEN_ROOM_UNLOCK_WINDOW, function (slot0, slot1)
 		uv0:addSubLayers(Context.New({
@@ -37,9 +26,22 @@ slot0.register = function(slot0)
 			}
 		}))
 	end)
-	slot0:bind(uv0.ON_SUBMIT_TASK, function (slot0, slot1)
-		uv0:sendNotification(GAME.SUBMIT_TASK, slot1)
+	slot0:bind(uv0.OPEN_INVITE_LAYER, function (slot0, slot1, slot2)
+		uv0:addSubLayers(Context.New({
+			viewComponent = Dorm3dInviteLayer,
+			mediator = Dorm3dInviteMediator,
+			data = {
+				roomId = slot1,
+				groupIds = slot2
+			}
+		}))
 	end)
+
+	if not slot0.contextData.hasEnterCheck then
+		slot0.contextData.hasEnterCheck = true
+
+		slot0:sendNotification(GAME.SELECT_DORM_ENTER)
+	end
 end
 
 slot0.initNotificationHandleDic = function(slot0)
@@ -79,6 +81,14 @@ slot0.initNotificationHandleDic = function(slot0)
 					slot0.viewComponent:UpdateWeekTask()
 				end
 			end
+		end,
+		[Dorm3dInviteMediator.ON_DORM] = function (slot0, slot1)
+			slot0:sendNotification(GAME.GO_SCENE, SCENE.DORM3D_ROOM, slot1:getBody())
+		end,
+		[ApartmentProxy.ZERO_HOUR_REFRESH] = function (slot0, slot1)
+			slot2 = slot1:getBody()
+
+			slot0.viewComponent:UpdateStamina()
 		end
 	}
 end

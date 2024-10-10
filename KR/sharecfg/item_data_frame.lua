@@ -585,6 +585,24 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>누구도 자신의 이야기에서 벗어날 수 없다. 설령 그것이 자유로운 방랑자라도――</color>「황야 휴일 개척기」 이벤트 참가 보상.",
 		scene = {}
 	},
+	[1001] = {
+		name = "甜蜜邀约",
+		gain_by = "",
+		time_second = 0,
+		id = 1001,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>每一口都充满甜蜜的回忆。</color>\n通过提升「宿舍计划」中天狼星的契合度等级获取",
+		scene = {}
+	},
+	[1002] = {
+		name = "悠然下午茶",
+		gain_by = "",
+		time_second = 0,
+		id = 1002,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>不论何时，总有一杯冒着热气的红茶在静静等候。</color>\n通过提升「宿舍计划」中天狼星的契合度等级获取",
+		scene = {}
+	},
 	[10001] = {
 		name = "한계 챌린지·쌍둥이 자리",
 		gain_by = "",
@@ -759,6 +777,8 @@ pg.item_data_frame = {
 		605,
 		606,
 		607,
+		1001,
+		1002,
 		10001,
 		10002,
 		10003,
