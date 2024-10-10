@@ -2063,7 +2063,7 @@ slot0.PopFavorTrigger = function(slot0, slot1)
 		slot7, slot8 = slot5:getFavor()
 		slot9 = slot7 + slot3
 
-		setText(slot0.rtFavorUpDaily:Find("bg/Text"), string.format("<size=48>+%d</size>", slot3))
+		setText(slot0.rtFavorUpDaily:Find("bg/Text"), string.format("<size=30>+%d</size>", slot3))
 		setSlider(slot0.rtFavorUpDaily:Find("bg/slider"), 0, slot8, slot7)
 		setAnchoredPosition(slot0.rtFavorUpDaily:Find("bg"), slot1.isGift and NewPos(-354, 223) or NewPos(-208, 105))
 

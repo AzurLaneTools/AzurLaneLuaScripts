@@ -12052,12 +12052,6 @@ _G.pg.base.gametip.help_level_ui = {
 		{
 			icon = {
 				path = "",
-				atlas = "helpbg/level_ui_help_1"
-			}
-		},
-		{
-			icon = {
-				path = "",
 				atlas = "helpbg/level_ui_help_2"
 			}
 		},
@@ -17676,7 +17670,7 @@ _G.pg.base.gametip.index_no_limit = {
 
 
 _G.pg.base.gametip.index_awakening = {
-	tip = "<size=36>認識覚醒可</size>"
+	tip = "<size=32>認識覚醒可</size>"
 }
 
 
@@ -23627,7 +23621,7 @@ _G.pg.base.gametip.formationScene_use_oil_limit_tip = {
 
 
 _G.pg.base.gametip.index_awakening2 = {
-	tip = "<size=36>認識覚醒可</size><size=30>＋</size>"
+	tip = "<size=32>認識覚醒可</size><size=30>＋</size>"
 }
 
 

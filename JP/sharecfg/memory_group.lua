@@ -310,6 +310,7 @@ pg.memory_group = setmetatable({
 		600,
 		601,
 		602,
+		603,
 		1000,
 		1001,
 		1002
@@ -6715,6 +6716,23 @@ pg.base.memory_group = {
 			3915,
 			3916,
 			3917
+		}
+	},
+	[603] = {
+		title = "お出かけ！お宝探し！",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 603,
+		icon = "title_chara_weidahao",
+		memories = {
+			3931,
+			3932,
+			3933,
+			3934,
+			3935,
+			3936,
+			3937
 		}
 	},
 	[1000] = {

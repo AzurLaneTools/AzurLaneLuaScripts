@@ -136,9 +136,9 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "story-flowerdust-soft",
+		default_bgm = "main",
 		special_bgm = "",
-		bgm = "story-flowerdust-soft"
+		bgm = "main"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
@@ -1649,5 +1649,10 @@ pg.voice_bgm = {
 		default_bgm = "bar-soft",
 		special_bgm = "",
 		bgm = "bar-soft"
+	},
+	SaDingSkinPage = {
+		default_bgm = "story-richang-11",
+		special_bgm = "",
+		bgm = "story-richang-11"
 	}
 }
