@@ -70,7 +70,7 @@ slot0.didEnter = function(slot0)
 		if slot1:needDownload() then
 			slot2, slot3 = slot1:getDownloadNeedSize()
 
-			setText(slot0._tf:Find("Window/Download"), i18n("dorm3d_beach_download", slot2))
+			setText(slot0._tf:Find("Window/Download"), i18n("dorm3d_beach_download", slot3))
 		else
 			setText(slot0._tf:Find("Window/Download"), "")
 		end
