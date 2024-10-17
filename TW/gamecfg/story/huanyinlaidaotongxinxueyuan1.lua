@@ -522,7 +522,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "「滴――訪客安克拉治認證失敗。警告！警告！非認證人員不得入內！」",
+			say = "「滴――訪客{playername}認證失敗。警告！警告！非認證人員不得入內！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

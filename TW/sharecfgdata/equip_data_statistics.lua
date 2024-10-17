@@ -107383,7 +107383,7 @@ _G.pg.base.equip_data_statistics[45153] = {
 
 
 _G.pg.base.equip_data_statistics[45160] = {
-	name = "四联装533mm磁性鱼雷改",
+	name = "四聯裝533mm磁性魚雷改",
 	speciality = "<[TRP]>",
 	type = 5,
 	tech = 0,

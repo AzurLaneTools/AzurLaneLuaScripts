@@ -11942,7 +11942,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "亞爾薇特、Z47等角色建造概率UP!"
+	tip = "亞爾薇特、Z47等角色建造機率UP!"
 }
 
 
