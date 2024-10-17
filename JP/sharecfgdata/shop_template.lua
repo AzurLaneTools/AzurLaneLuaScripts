@@ -7461,6 +7461,34 @@ _G.pg.base.shop_template[43048] = {
 }
 
 
+_G.pg.base.shop_template[43049] = {
+	group_type = 0,
+	resource_num = 8000,
+	time_second = 0,
+	type = 4,
+	type_order = 0,
+	desc = "8000戦果でU-1206を交換",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 4,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 3,
+	id = 43049,
+	genre = "arena_shop",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		408121
+	}
+}
+
+
 _G.pg.base.shop_template[50002] = {
 	group_type = 0,
 	resource_num = 50,
@@ -13032,6 +13060,238 @@ _G.pg.base.shop_template[60534] = {
 				2024,
 				10,
 				9
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[60535] = {
+	group_type = 0,
+	resource_num = 880,
+	time_second = 0,
+	type = 2,
+	type_order = 0,
+	desc = "880钻石购买限时建造补给(1017罗马轻量化复刻版本)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 60535,
+	genre = "gift_package",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40138
+	},
+	time = {
+		{
+			{
+				2024,
+				10,
+				17
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				10,
+				23
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[60536] = {
+	group_type = 0,
+	resource_num = 120,
+	time_second = 0,
+	type = 2,
+	type_order = 0,
+	desc = "120钻石购买限时攻略补给(1017罗马轻量化复刻版本)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 60536,
+	genre = "gift_package",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			5
+		}
+	},
+	effect_args = {
+		40117
+	},
+	time = {
+		{
+			{
+				2024,
+				10,
+				17
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				10,
+				23
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[60537] = {
+	group_type = 0,
+	resource_num = 500,
+	time_second = 0,
+	type = 2,
+	type_order = 0,
+	desc = "500钻石购买家具币礼包(1017罗马轻量化复刻版本)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 60537,
+	genre = "gift_package",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40106
+	},
+	time = {
+		{
+			{
+				2024,
+				10,
+				17
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				10,
+				23
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[60538] = {
+	group_type = 0,
+	resource_num = 300,
+	time_second = 0,
+	type = 2,
+	type_order = 0,
+	desc = "300钻石购买心智单元礼包(1017罗马轻量化复刻版本)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 60538,
+	genre = "gift_package",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40119
+	},
+	time = {
+		{
+			{
+				2024,
+				10,
+				17
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2024,
+				10,
+				23
 			},
 			{
 				23,
@@ -39196,7 +39456,7 @@ _G.pg.base.shop_template[70716] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 12,
+	order = 1,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -39212,8 +39472,8 @@ _G.pg.base.shop_template[70716] = {
 		{
 			{
 				2024,
-				9,
-				12
+				10,
+				17
 			},
 			{
 				0,
@@ -39225,7 +39485,7 @@ _G.pg.base.shop_template[70716] = {
 			{
 				2024,
 				10,
-				2
+				23
 			},
 			{
 				23,
@@ -39249,7 +39509,7 @@ _G.pg.base.shop_template[70717] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 12,
+	order = 1,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -39265,8 +39525,8 @@ _G.pg.base.shop_template[70717] = {
 		{
 			{
 				2024,
-				9,
-				12
+				10,
+				17
 			},
 			{
 				0,
@@ -39278,7 +39538,7 @@ _G.pg.base.shop_template[70717] = {
 			{
 				2024,
 				10,
-				2
+				23
 			},
 			{
 				23,
@@ -39302,7 +39562,7 @@ _G.pg.base.shop_template[70718] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 12,
+	order = 1,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -39318,8 +39578,8 @@ _G.pg.base.shop_template[70718] = {
 		{
 			{
 				2024,
-				9,
-				12
+				10,
+				17
 			},
 			{
 				0,
@@ -39331,7 +39591,7 @@ _G.pg.base.shop_template[70718] = {
 			{
 				2024,
 				10,
-				2
+				23
 			},
 			{
 				23,
@@ -39355,7 +39615,7 @@ _G.pg.base.shop_template[70719] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 12,
+	order = 1,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -39371,8 +39631,8 @@ _G.pg.base.shop_template[70719] = {
 		{
 			{
 				2024,
-				9,
-				12
+				10,
+				17
 			},
 			{
 				0,
@@ -39384,7 +39644,7 @@ _G.pg.base.shop_template[70719] = {
 			{
 				2024,
 				10,
-				2
+				23
 			},
 			{
 				23,
@@ -39408,7 +39668,7 @@ _G.pg.base.shop_template[70720] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 12,
+	order = 1,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -39424,8 +39684,8 @@ _G.pg.base.shop_template[70720] = {
 		{
 			{
 				2024,
-				9,
-				12
+				10,
+				17
 			},
 			{
 				0,
@@ -39437,7 +39697,7 @@ _G.pg.base.shop_template[70720] = {
 			{
 				2024,
 				10,
-				2
+				23
 			},
 			{
 				23,
@@ -39461,7 +39721,7 @@ _G.pg.base.shop_template[70721] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 12,
+	order = 1,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -39477,8 +39737,8 @@ _G.pg.base.shop_template[70721] = {
 		{
 			{
 				2024,
-				9,
-				12
+				10,
+				17
 			},
 			{
 				0,
@@ -39490,7 +39750,7 @@ _G.pg.base.shop_template[70721] = {
 			{
 				2024,
 				10,
-				2
+				23
 			},
 			{
 				23,
@@ -39514,7 +39774,7 @@ _G.pg.base.shop_template[70722] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 12,
+	order = 1,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -39530,8 +39790,8 @@ _G.pg.base.shop_template[70722] = {
 		{
 			{
 				2024,
-				9,
-				12
+				10,
+				17
 			},
 			{
 				0,
@@ -39543,7 +39803,7 @@ _G.pg.base.shop_template[70722] = {
 			{
 				2024,
 				10,
-				2
+				23
 			},
 			{
 				23,
@@ -39567,7 +39827,7 @@ _G.pg.base.shop_template[70723] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 12,
+	order = 1,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -39583,8 +39843,8 @@ _G.pg.base.shop_template[70723] = {
 		{
 			{
 				2024,
-				9,
-				12
+				10,
+				17
 			},
 			{
 				0,
@@ -39596,7 +39856,7 @@ _G.pg.base.shop_template[70723] = {
 			{
 				2024,
 				10,
-				2
+				23
 			},
 			{
 				23,
@@ -39620,7 +39880,7 @@ _G.pg.base.shop_template[70724] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 12,
+	order = 1,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -39636,8 +39896,8 @@ _G.pg.base.shop_template[70724] = {
 		{
 			{
 				2024,
-				9,
-				12
+				10,
+				17
 			},
 			{
 				0,
@@ -39649,7 +39909,7 @@ _G.pg.base.shop_template[70724] = {
 			{
 				2024,
 				10,
-				2
+				23
 			},
 			{
 				23,
@@ -61975,7 +62235,7 @@ _G.pg.base.shop_template[90153] = {
 	group = 0,
 	num = 1,
 	discount = 0,
-	resource_type = 272,
+	resource_type = 434,
 	id = 90153,
 	genre = "skin_shop_timelimit",
 	discount_time = {},
@@ -61986,9 +62246,9 @@ _G.pg.base.shop_template[90153] = {
 	time = {
 		{
 			{
-				2022,
-				7,
-				28
+				2024,
+				10,
+				17
 			},
 			{
 				0,
@@ -61998,9 +62258,9 @@ _G.pg.base.shop_template[90153] = {
 		},
 		{
 			{
-				2022,
-				8,
-				10
+				2024,
+				10,
+				23
 			},
 			{
 				23,
@@ -62028,7 +62288,7 @@ _G.pg.base.shop_template[90154] = {
 	group = 0,
 	num = 1,
 	discount = 0,
-	resource_type = 272,
+	resource_type = 434,
 	id = 90154,
 	genre = "skin_shop_timelimit",
 	discount_time = {},
@@ -62039,9 +62299,9 @@ _G.pg.base.shop_template[90154] = {
 	time = {
 		{
 			{
-				2022,
-				7,
-				28
+				2024,
+				10,
+				17
 			},
 			{
 				0,
@@ -62051,9 +62311,9 @@ _G.pg.base.shop_template[90154] = {
 		},
 		{
 			{
-				2022,
-				8,
-				10
+				2024,
+				10,
+				23
 			},
 			{
 				23,
@@ -62081,7 +62341,7 @@ _G.pg.base.shop_template[90155] = {
 	group = 0,
 	num = 1,
 	discount = 0,
-	resource_type = 272,
+	resource_type = 434,
 	id = 90155,
 	genre = "skin_shop_timelimit",
 	discount_time = {},
@@ -62092,9 +62352,9 @@ _G.pg.base.shop_template[90155] = {
 	time = {
 		{
 			{
-				2022,
-				7,
-				28
+				2024,
+				10,
+				17
 			},
 			{
 				0,
@@ -62104,9 +62364,9 @@ _G.pg.base.shop_template[90155] = {
 		},
 		{
 			{
-				2022,
-				8,
-				10
+				2024,
+				10,
+				23
 			},
 			{
 				23,

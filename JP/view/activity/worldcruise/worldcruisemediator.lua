@@ -2,48 +2,13 @@ slot0 = class("WorldCruiseMediator", import("view.base.ContextMediator"))
 slot0.EVENT_GET_AWARD = "WorldCruiseMediator.EVENT_GET_AWARD"
 slot0.EVENT_GET_AWARD_PAY = "WorldCruiseMediator.EVENT_GET_AWARD_PAY"
 slot0.EVENT_GET_AWARD_ALL = "WorldCruiseMediator.EVENT_GET_AWARD_ALL"
-slot0.EVENT_GO_CHARGE = "WorldCruiseMediator.EVENT_GO_CHARGE"
 slot0.EVENT_OPEN_BIRTHDAY = "WorldCruiseMediator.EVENT_OPEN_BIRTHDAY"
-slot0.quickTaskGoodId = 61017
 slot0.ON_TASK_GO = "WorldCruiseMediator.ON_TASK_GO"
 slot0.ON_TASK_SUBMIT = "WorldCruiseMediator.ON_TASK_SUBMIT"
 slot0.ON_TASK_QUICK_SUBMIT = "WorldCruiseMediator.ON_TASK_QUICK_SUBMIT"
-slot0.ON_BUY_QUICK_TASK_ITEM = "WorldCruiseMediator.ON_BUY_QUICK_TASK_ITEM"
 slot0.ON_CRUISE_SHOPPING = "WorldCruiseMediator.ON_CRUISE_SHOPPING"
-slot0.ON_ESKIN_PREVIEW = "NewShopsMediator:ON_ESKIN_PREVIEW"
 
 slot0.register = function(slot0)
-	slot0:bind(uv0.ON_ESKIN_PREVIEW, function (slot0, slot1)
-		slot2 = pg.equip_skin_template[slot1]
-		slot3 = Ship.New({
-			id = slot2.ship_config_id,
-			configId = slot2.ship_config_id,
-			skin_id = slot2.ship_skin_id
-		})
-		slot4 = {}
-
-		if slot2.ship_skin_id ~= 0 then
-			slot4 = {
-				equipSkinId = 0,
-				shipVO = slot3,
-				weaponIds = {},
-				weight = uv0.contextData.weight and uv0.contextData.weight + 1
-			}
-		else
-			slot5.weight = uv0.contextData.weight and uv0.contextData.weight + 1
-			slot4 = {
-				shipVO = slot3,
-				weaponIds = Clone(slot2.weapon_ids),
-				equipSkinId = slot1
-			}
-		end
-
-		uv0:addSubLayers(Context.New({
-			viewComponent = ShipPreviewLayer,
-			mediator = ShipPreviewMediator,
-			data = slot4
-		}))
-	end)
 	slot0:bind(uv0.EVENT_GET_AWARD, function (slot0, slot1)
 		uv0:sendNotification(GAME.CRUSING_CMD, {
 			cmd = 2,
@@ -64,15 +29,6 @@ slot0.register = function(slot0)
 			activity_id = uv0.viewComponent.activity.id
 		})
 	end)
-	slot0:bind(uv0.EVENT_GO_CHARGE, function (slot0, slot1)
-		uv0:addSubLayers(Context.New({
-			mediator = ChargeItemPanelMediator,
-			viewComponent = ChargeItemPanelLayer,
-			data = {
-				panelConfig = slot1
-			}
-		}))
-	end)
 	slot0:bind(uv0.EVENT_OPEN_BIRTHDAY, function (slot0, slot1)
 		uv0:addSubLayers(Context.New({
 			mediator = ChargeBirthdayMediator,
@@ -90,12 +46,6 @@ slot0.register = function(slot0)
 	end)
 	slot0:bind(uv0.ON_TASK_QUICK_SUBMIT, function (slot0, slot1)
 		uv0:sendNotification(GAME.QUICK_TASK, slot1.id)
-	end)
-	slot0:bind(uv0.ON_BUY_QUICK_TASK_ITEM, function (slot0, slot1)
-		uv0:sendNotification(GAME.SHOPPING, {
-			id = uv1.quickTaskGoodId,
-			count = slot1
-		})
 	end)
 	slot0:bind(uv0.ON_CRUISE_SHOPPING, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.SHOPPING, {

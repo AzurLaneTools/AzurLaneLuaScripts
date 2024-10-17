@@ -173,23 +173,7 @@ slot0.UpdateTaskGroup = function(slot0, slot1, slot2)
 	slot0:UpdateTaskDisplay(slot3, slot5)
 	setActive(slot3:Find("quick"), slot5:getConfig("quick_finish") > 0 and slot5:getTaskStatus() == 0)
 	onButton(slot0, slot3:Find("quick"), function ()
-		if getProxy(BagProxy):getItemCountById(Item.QUICK_TASK_PASS_TICKET_ID) < uv0:getConfig("quick_finish") then
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("battlepass_task_quickfinish2", slot1 - slot0),
-				onYes = function ()
-					shoppingBatch(61017, {
-						id = Item.QUICK_TASK_PASS_TICKET_ID
-					}, 20, "build_ship_quickly_buy_stone")
-				end
-			})
-		else
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("battlepass_task_quickfinish1", slot1, slot0),
-				onYes = function ()
-					uv0:emit(WorldCruiseMediator.ON_TASK_QUICK_SUBMIT, uv1)
-				end
-			})
-		end
+		uv0:OnQuickClick(uv1)
 	end, SFX_CONFIRM)
 	setActive(slot3:Find("toggle_mark"), #slot4 > 0)
 
@@ -216,7 +200,9 @@ slot0.UpdateTaskDisplay = function(slot0, slot1, slot2)
 	setText(slot1:Find("desc"), string.format("%s(%d/%d)", slot2:getConfig("desc"), slot3, slot4))
 	updateDrop(slot1:Find("outline/mask/IconTpl"), Drop.Create(slot2:getConfig("award_display")[1]))
 	onButton(slot0, slot1:Find("outline/mask/IconTpl"), function ()
-		uv0:emit(BaseUI.ON_DROP, uv1)
+		uv0:emit(BaseUI.ON_NEW_STYLE_DROP, {
+			drop = uv1
+		})
 	end, SFX_PANEL)
 
 	slot6 = slot0.finishAll and 2 or slot2:getTaskStatus()
@@ -233,24 +219,28 @@ slot0.UpdateTaskDisplay = function(slot0, slot1, slot2)
 	end, SFX_CONFIRM)
 	setActive(slot1:Find("quick"), slot2:getConfig("quick_finish") > 0 and slot2:getTaskStatus() == 0)
 	onButton(slot0, slot1:Find("quick"), function ()
-		if getProxy(BagProxy):getItemCountById(Item.QUICK_TASK_PASS_TICKET_ID) < uv0:getConfig("quick_finish") then
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("battlepass_task_quickfinish2", slot1 - slot0),
-				onYes = function ()
-					shoppingBatch(61017, {
-						id = Item.QUICK_TASK_PASS_TICKET_ID
-					}, 20, "build_ship_quickly_buy_stone")
-				end
-			})
-		else
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("battlepass_task_quickfinish1", slot1, slot0),
-				onYes = function ()
-					uv0:emit(WorldCruiseMediator.ON_TASK_QUICK_SUBMIT, uv1)
-				end
-			})
-		end
+		uv0:OnQuickClick(uv1)
 	end, SFX_CONFIRM)
+end
+
+slot0.OnQuickClick = function(slot0, slot1)
+	if getProxy(BagProxy):getItemCountById(Item.QUICK_TASK_PASS_TICKET_ID) < slot1:getConfig("quick_finish") then
+		pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_COMMON_MSGBOX, {
+			contentText = i18n("battlepass_task_quickfinish2", slot3 - slot2),
+			onConfirm = function ()
+				shoppingBatchNewStyle(Goods.CRUISE_QUICK_TASK_TICKET_ID, {
+					id = Item.QUICK_TASK_PASS_TICKET_ID
+				}, 20, "build_ship_quickly_buy_stone")
+			end
+		})
+	else
+		pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_COMMON_MSGBOX, {
+			contentText = i18n("battlepass_task_quickfinish1", slot3, slot2),
+			onConfirm = function ()
+				uv0:emit(WorldCruiseMediator.ON_TASK_QUICK_SUBMIT, uv1)
+			end
+		})
+	end
 end
 
 slot0.OnDestroy = function(slot0)

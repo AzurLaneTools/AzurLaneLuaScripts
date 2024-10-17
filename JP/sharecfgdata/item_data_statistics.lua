@@ -39051,6 +39051,58 @@ _G.pg.base.item_data_statistics[40049] = {
 }
 
 
+_G.pg.base.item_data_statistics[40050] = {
+	open_directly = 1,
+	name = "選べるUR着せ替え福袋③",
+	type = 17,
+	display = "大量のアイテムを入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/huteng_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4052",
+	id = 40050,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			59554,
+			1
+		},
+		{
+			2,
+			20001,
+			40
+		},
+		{
+			1,
+			1,
+			30000
+		},
+		{
+			2,
+			16502,
+			50
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[40100] = {
 	open_directly = 1,
 	name = "指輪パック",
@@ -92591,6 +92643,57 @@ _G.pg.base.item_data_statistics[59553] = {
 			301292,
 			301293,
 			301294
+		},
+		0,
+		59552
+	}
+}
+
+
+_G.pg.base.item_data_statistics[59554] = {
+	open_directly = 0,
+	name = "選べる着せ替えチケット（ウルリッヒ・フォン・フッテン）",
+	type = 26,
+	display = "倉庫で使用でき、着せ替えを1着選んで入手可能。\n（<color=#ff5c5c>指定された一部の着せ替えのみ入手可能。すでにすべての入手可能着せ替えを所持している場合、入手アイテムは自動で「着せ替えクーポン」に変換されます</color>）",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed_skinexchange",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/skin_exchange_huteng",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 59554,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			7,
+			405031,
+			1
+		},
+		{
+			7,
+			405032,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		0,
+		{},
+		{
+			405031,
+			405032
 		},
 		0,
 		59552

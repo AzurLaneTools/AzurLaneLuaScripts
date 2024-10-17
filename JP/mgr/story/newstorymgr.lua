@@ -219,12 +219,12 @@ end
 slot0.Init = function(slot0, slot1)
 	slot0.state = uv0
 
-	PoolMgr.GetInstance():GetUI("NewStoryUI", true, function (slot0)
+	LoadAndInstantiateAsync("ui", "NewStoryUI", function (slot0)
 		uv0.UIOverlay = GameObject.Find("Overlay/UIOverlay")
 
 		slot0.transform:SetParent(uv0.UIOverlay.transform, false)
 		uv0:_Init(slot0, uv1)
-	end)
+	end, true, true)
 end
 
 slot0._Init = function(slot0, slot1, slot2)

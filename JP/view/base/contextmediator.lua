@@ -431,6 +431,38 @@ slot0.commonBind = function(slot0)
 					}
 				}
 			}))
+		end,
+		[BaseUI.ON_NEW_STYLE_DROP] = function (slot0, slot1, slot2)
+			pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_COMMON_DROP, setmetatable(slot2, {
+				__index = {
+					blurParams = {
+						weight = LayerWeightConst.TOP_LAYER
+					}
+				}
+			}))
+		end,
+		[BaseUI.ON_NEW_STYLE_ITEMS] = function (slot0, slot1, slot2)
+			pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_COMMON_ITEMS, setmetatable(slot2, {
+				__index = {
+					btnList = {
+						{
+							type = pg.NewStyleMsgboxMgr.BUTTON_TYPE.confirm,
+							name = i18n("msgbox_text_confirm"),
+							sound = SFX_CONFIRM
+						}
+					},
+					blurParams = {
+						weight = LayerWeightConst.TOP_LAYER
+					},
+					items = slot2.itemList,
+					content = slot2.content,
+					itemFunc = function (slot0)
+						uv0.viewComponent:emit(BaseUI.ON_NEW_STYLE_DROP, {
+							drop = slot0
+						})
+					end
+				}
+			}))
 		end
 	}
 

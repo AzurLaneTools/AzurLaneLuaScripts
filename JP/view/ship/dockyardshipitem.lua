@@ -337,7 +337,7 @@ slot0.flushDetail = function(slot0)
 			slot12 = slot0.detailLayoutTr:GetChild(slot11 - 1)
 			slot13 = true
 			slot12:GetChild(0):GetComponent("Text").alignment = TextAnchor.MiddleLeft
-			slot12:GetChild(1):GetComponent("Text").alignment = TextAnchor.MiddleRight
+			slot12:GetChild(1):GetComponent("Text").alignment = TextAnchor.LowerRight
 			slot16 = slot4[slot0.detailType][slot11]
 
 			if slot0.detailType == uv0.DetailType1 then
@@ -519,6 +519,8 @@ slot0.updateIntimacyEnergy = function(slot0, slot1)
 	if slot1 and tobool(slot3) then
 		setImageSprite(slot2:Find("icon/img"), GetSpriteFromAtlas("energy", slot3:getEnergyPrint()), true)
 		setText(slot2:Find("Text"), slot3:getEnergy())
+		setActive(slot2:Find("Text"), false)
+		setActive(slot2:Find("Text"), true)
 	end
 end
 

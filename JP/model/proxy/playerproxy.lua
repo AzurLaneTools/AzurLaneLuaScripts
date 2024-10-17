@@ -29,7 +29,7 @@ slot0.register = function(slot0)
 			pg.TrackerMgr.GetInstance():Tracking(TRACKING_7D_RETENTION)
 		end
 
-		slot1:updateAttireFrame(AttireConst.TYPE_COMBAT_UI_STYLE, slot0.battle_ui or 0)
+		uv0.data:updateAttireFrame(AttireConst.TYPE_COMBAT_UI_STYLE, slot0.battle_ui or 0)
 	end)
 	slot0:on(11004, function (slot0)
 		if not uv0.data then

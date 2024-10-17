@@ -2000,6 +2000,11 @@ _G.pg.base.gametip.battle_battleMediator_existFight = {
 }
 
 
+_G.pg.base.gametip.battle_battleMediator_remainTime = {
+	tip = "残り時間"
+}
+
+
 _G.pg.base.gametip.battle_battleMediator_clear_warning = {
 	tip = "戦闘を中断すると、チャレンジ進捗がリセットされ、累計得点は一つ前のステージの得点まで計算されます。戦闘を中断しますか？"
 }
@@ -12733,22 +12738,22 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "期間限定建造を累計200回行うと「天城(空母)」を確定で入手可能！（最大4隻まで）"
+	tip = "「ローマ」「レオナルド・ダ・ヴィンチ」など出現率アップ！"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「ヴィットリオ・ヴェネト」常設追加！"
+	tip = "「ウルリッヒ・フォン・フッテン」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「ドゥーカ・デッリ・アブルッツィ」など常設追加！"
+	tip = "「マクデブルク」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「アクィラ」常設追加！"
+	tip = "「ウルリッヒ・フォン・フッテン」常設実装！"
 }
 
 
@@ -15141,7 +15146,7 @@ _G.pg.base.gametip.input_returner_code = {
 
 
 _G.pg.base.gametip.dress_up_success = {
-	tip = "チャット設定変更成功"
+	tip = "装飾設定変更成功"
 }
 
 
@@ -33173,7 +33178,7 @@ _G.pg.base.gametip.commander_lock_setting_title = {
 
 
 _G.pg.base.gametip.skin_exchange_confirm = {
-	tip = " <color=#92fc63>$1 *1</color> を消費して <color=#92fc63>$2</color>と交換しますか"
+	tip = "<color=#92fc63>$1*1</color>を消費して<color=#92fc63>$2</color>と交換しますか"
 }
 
 
@@ -36178,4 +36183,9 @@ _G.pg.base.gametip.dorm3d_favor_maximize = {
 
 _G.pg.base.gametip.dorm3d_purchase_weekly_limit = {
 	tip = "（今週購入回数$1/$2）"
+}
+
+
+_G.pg.base.gametip.world_file_tip = {
+	tip = "※画面スライドでページスクロール可能。画面タップで閉じる"
 }

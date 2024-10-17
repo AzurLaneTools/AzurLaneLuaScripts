@@ -125,6 +125,7 @@ pg.pay_data_display = setmetatable({
 		2032,
 		2033,
 		2034,
+		2035,
 		5001,
 		5002,
 		5003,
@@ -11574,6 +11575,105 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40049,
+				1
+			}
+		}
+	},
+	[2035] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		name = "選べるUR着せ替え福袋③",
+		first_pay_double = 0,
+		name_display = "選べるUR着せ替え福袋③",
+		descrip = "選べる着せ替えチケット、キューブ、経験値パックT2などを入手可能",
+		subject = "選べるUR着せ替え福袋③",
+		money = 2600,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 0,
+		sub_display = "",
+		picture = "huteng_package",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.libao120",
+		extra_service = 3,
+		id = 2035,
+		airijp_id = "com.yostarjp.azurlane.package120",
+		extra_service_item = {
+			{
+				2,
+				59554,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				1,
+				1,
+				30000
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					10,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59554,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40050,
 				1
 			}
 		}
