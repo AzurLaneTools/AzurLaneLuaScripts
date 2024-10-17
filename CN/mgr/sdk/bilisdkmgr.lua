@@ -20,7 +20,6 @@ GoLoginScene = function()
 	end
 
 	pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LOGIN)
-	gcAll()
 end
 
 SDKLogined = function(slot0, slot1, slot2, slot3)

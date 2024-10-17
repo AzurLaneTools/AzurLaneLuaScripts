@@ -188,11 +188,11 @@ end
 
 slot9.setBulletSkin = function(slot0, slot1, slot2)
 	if slot0._derivateSkinID then
-		if uv0.GetBulletTmpDataFromID(slot2).type == uv1.BulletType.BOMB then
+		if uv0.GetBulletTmpDataFromID(slot2).type == uv1.BulletType.BOMB and slot0._derivateBoom ~= "" then
 			slot1:SetModleID(slot0._derivateBoom, nil, slot0._derviateHitFX)
-		elseif slot3 == uv1.BulletType.TORPEDO then
+		elseif slot3 == uv1.BulletType.TORPEDO and slot0._derivateTorpedo ~= "" then
 			slot1:SetModleID(slot0._derivateTorpedo, nil, slot0._derviateHitFX)
-		else
+		elseif slot0._derivateBullet ~= "" then
 			slot1:SetModleID(slot0._derivateBullet, nil, slot0._derviateHitFX)
 		end
 

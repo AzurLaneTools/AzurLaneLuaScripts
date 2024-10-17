@@ -28,11 +28,9 @@ slot0.FontMgr.Init = function(slot0, slot1)
 		bankgthd = "bankgthd"
 	}) do
 		table.insert(slot2, function (slot0)
-			ResourceMgr.Inst:getAssetAsync("font/" .. uv0, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-				uv0.fonts[uv1] = slot0
-
-				uv2()
-			end), false, false)
+			ResourceMgr.Inst:loadAssetBundleAsync("font/" .. uv0, function (slot0)
+				uv0()
+			end)
 		end)
 	end
 

@@ -44,7 +44,6 @@ slot0.execute = function(slot0, slot1)
 
 		slot5.refreshChargeList = false
 
-		getProxy(ApartmentProxy):InitGiftDaily()
 		uv0:sendNotification(GAME.GET_CHARGE_LIST_DONE, {
 			chargedList = slot1,
 			firstChargeIds = slot2,

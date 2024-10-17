@@ -26805,7 +26805,7 @@ pg.base.furniture_data_template = {
 	},
 	[100066] = {
 		can_rotate = 0,
-		describe = "记录回放”启动！……什么？该功能还未实装？！",
+		describe = "记录回放，启动！……什么？该功能还未实装？！",
 		gain_by = "",
 		type = 11,
 		dir = 0,

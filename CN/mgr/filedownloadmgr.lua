@@ -6,7 +6,7 @@ slot2 = FileDownloadConst
 
 slot1.Init = function(slot0, slot1)
 	print("initializing filedownloadmgr manager...")
-	PoolMgr.GetInstance():GetUI("FileDownloadUI", true, function (slot0)
+	LoadAndInstantiateAsync("ui", "FileDownloadUI", function (slot0)
 		uv0._go = slot0
 
 		uv0._go:SetActive(false)
@@ -17,7 +17,7 @@ slot1.Init = function(slot0, slot1)
 		uv0:initUI()
 		uv0:initUITextTips()
 		uv2()
-	end)
+	end, true, true)
 end
 
 slot1.Main = function(slot0, slot1)

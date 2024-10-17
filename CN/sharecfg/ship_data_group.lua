@@ -22749,6 +22749,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -23172,6 +23183,17 @@ pg.base.ship_data_group = {
 				"限时活动：逆转彩虹之塔",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行重型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -23658,6 +23680,28 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"进行重型、特型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			},
+			{
+				"常驻UR兑换",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -23829,6 +23873,17 @@ pg.base.ship_data_group = {
 				"限时活动：逆转彩虹之塔",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行特型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -24522,6 +24577,16 @@ pg.base.ship_data_group = {
 				"限时活动：逆转彩虹之塔",
 				{
 					""
+				},
+				0
+			},
+			{
+				"军需商店兑换",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}

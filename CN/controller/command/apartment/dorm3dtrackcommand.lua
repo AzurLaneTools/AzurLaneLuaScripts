@@ -172,16 +172,17 @@ slot0.BuildCameraMsg = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	end), "_")
 end
 
-slot0.BuildDataCamera = function(slot0, slot1, slot2)
+slot0.BuildDataCamera = function(slot0, slot1, slot2, slot3)
 	return {
 		trackType = uv0.TYPE_DORM_CAMERA,
 		args = {
 			slot0,
 			slot1,
-			Count = 2
+			slot2,
+			Count = 3
 		},
 		strs = {
-			slot2,
+			slot3,
 			Count = 1
 		}
 	}

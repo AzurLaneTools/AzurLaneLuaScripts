@@ -40,7 +40,7 @@ slot0.OnInit = function(slot0)
 		uv0:GetAllAward()
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.btnPay, function ()
-		uv0:OpenBuyPanel()
+		uv0.contextData.windowForCharge:ExecuteAction("ShowBuyWindow")
 	end, SFX_CONFIRM)
 
 	slot1 = slot0.scrollCom.onValueChanged
@@ -75,7 +75,7 @@ slot0.Flush = function(slot0, slot1)
 	setActive(slot0.btnAll, #slot0.activity:GetCrusingUnreceiveAward() > 0)
 	setActive(slot0.btnPay, not slot0.isPay)
 
-	if not slot0.isPay and not pg.TimeMgr.GetInstance():inTime(pg.pay_data_display[slot0:GetPassID()].time) then
+	if not slot0.isPay and not pg.TimeMgr.GetInstance():inTime(pg.pay_data_display[WorldCruiseChargePage.GetPassID()].time) then
 		setActive(slot0.btnPay, false)
 	end
 
@@ -121,7 +121,9 @@ slot0.UpdateAwardInfo = function(slot0, slot1, slot2, slot3)
 	slot5 = Drop.Create(slot3.award)
 
 	onButton(slot0, slot2:Find("base"), function ()
-		uv0:emit(BaseUI.ON_DROP, uv1)
+		uv0:emit(BaseUI.ON_NEW_STYLE_DROP, {
+			drop = uv1
+		})
 	end, SFX_CONFIRM)
 	updateDrop(slot2:Find("base/mask/IconTpl"), slot5)
 	setActive(slot2:Find("base/frame_skin"), slot0:IsSkinFrame(slot5.type))
@@ -134,7 +136,9 @@ slot0.UpdateAwardInfo = function(slot0, slot1, slot2, slot3)
 	slot6 = Drop.Create(slot3.award_pay)
 
 	onButton(slot0, slot2:Find("pay"), function ()
-		uv0:emit(BaseUI.ON_DROP, uv1)
+		uv0:emit(BaseUI.ON_NEW_STYLE_DROP, {
+			drop = uv1
+		})
 	end, SFX_CONFIRM)
 	updateDrop(slot2:Find("pay/mask/IconTpl"), slot6)
 	setActive(slot2:Find("pay/frame_skin"), slot0:IsSkinFrame(slot6.type))
@@ -177,9 +181,9 @@ slot0.GetAllAward = function(slot0)
 
 		if slot0:CheckLimitMax(slot1) then
 			table.insert(slot2, function (slot0)
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("player_expResource_mail_fullBag"),
-					onYes = slot0
+				pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_COMMON_MSGBOX, {
+					contentText = i18n("player_expResource_mail_fullBag"),
+					onConfirm = slot0
 				})
 			end)
 		end
@@ -212,47 +216,6 @@ slot0.CheckLimitMax = function(slot0, slot1)
 	end
 
 	return false
-end
-
-slot0.OpenBuyPanel = function(slot0)
-	slot2 = Goods.Create({
-		shop_id = slot0:GetPassID()
-	}, Goods.TYPE_CHARGE)
-
-	slot0:emit(WorldCruiseMediator.EVENT_GO_CHARGE, {
-		isChargeType = true,
-		icon = "chargeicon/" .. slot2:getConfig("picture"),
-		name = slot2:getConfig("name_display"),
-		tipExtra = i18n("battlepass_pay_tip"),
-		extraItems = slot2:GetExtraServiceItem(),
-		price = slot2:getConfig("money"),
-		isLocalPrice = slot2:IsLocalPrice(),
-		tagType = slot2:getConfig("tag"),
-		isMonthCard = slot2:isMonthCard(),
-		tipBonus = nil,
-		bonusItem = nil,
-		extraDrop = slot2:GetExtraDrop(),
-		descExtra = slot2:getConfig("descrip_extra"),
-		onYes = function ()
-			if ChargeConst.isNeedSetBirth() then
-				uv0:emit(WorldCruiseMediator.EVENT_OPEN_BIRTHDAY)
-			else
-				pg.m02:sendNotification(GAME.CHARGE_OPERATION, {
-					shopId = uv1.id
-				})
-			end
-		end
-	})
-end
-
-slot0.GetPassID = function(slot0)
-	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING) and not slot2:isEnd() then
-		for slot6, slot7 in ipairs(pg.pay_data_display.all) do
-			if pg.pay_data_display[slot7].sub_display and type(slot8.sub_display) == "table" and slot8.sub_display[1] == slot2.id then
-				return slot7
-			end
-		end
-	end
 end
 
 slot0.OnDestroy = function(slot0)

@@ -114049,6 +114049,1368 @@ _G.pg.base.task_data_template[20645] = {
 }
 
 
+_G.pg.base.task_data_template[20650] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904040,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『罗马复刻』外观装备箱保底",
+	desc = "开启20个外观装备箱(舞蹈)",
+	sub_type = 52,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20650,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "30336",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30507,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20651] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904041,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『罗马复刻』-日常建造",
+	desc = "建造舰船3次。",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20651,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65031,
+			300
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20652] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904042,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『罗马复刻』-日常出击",
+	desc = "舰队出征，获得15次胜利。",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20652,
+	target_num = 15,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65031,
+			300
+		},
+		{
+			2,
+			65034,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20653] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904043,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『罗马复刻』-日常困难本",
+	desc = "通关1次任意困难关卡 ",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20653,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65031,
+			150
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20654] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904044,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『罗马复刻』-日常活动关卡",
+	desc = "通过1次任意活动关卡 ",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20654,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1660001,
+		1660002,
+		1660003,
+		1660004,
+		1660005,
+		1660006,
+		1660021,
+		1660022,
+		1660023,
+		1660024,
+		1660025,
+		1660026,
+		1660041,
+		1660051
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65031,
+			300
+		},
+		{
+			2,
+			54006,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5597
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20655] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904045,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『罗马复刻』通关A1/C1",
+	desc = "击败A1或C1旗舰1次",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20655,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1660001,
+		1660021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			65034,
+			1
+		},
+		{
+			2,
+			65031,
+			200
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5598
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20656] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904046,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『罗马复刻』通关A2/C2",
+	desc = "击败A2或C2旗舰1次",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20656,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1660002,
+		1660022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			65034,
+			1
+		},
+		{
+			2,
+			65031,
+			400
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5598
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20657] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904047,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『罗马复刻』通关A3/C3",
+	desc = "击败A3或C3旗舰1次",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20657,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1660003,
+		1660023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			65034,
+			1
+		},
+		{
+			2,
+			65031,
+			600
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5598
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20658] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904048,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『罗马复刻』通关B1/D1",
+	desc = "击败B1或D1旗舰1次",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20658,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1660004,
+		1660024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			65034,
+			1
+		},
+		{
+			2,
+			65031,
+			400
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5597
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20659] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904049,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『罗马复刻』通关B2/D2",
+	desc = "击败B2或D2旗舰1次",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20659,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1660005,
+		1660025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			65034,
+			1
+		},
+		{
+			2,
+			65031,
+			600
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5597
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20660] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904050,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『罗马复刻』通关B3/D3",
+	desc = "击败B3或D3旗舰1次",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20660,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1660006,
+		1660026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			65034,
+			1
+		},
+		{
+			2,
+			65031,
+			800
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5597
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20661] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904051,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『罗马复刻』通关SP",
+	desc = "通关SP",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20661,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1660041",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			65034,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1660025,
+			chapterId = 1660041
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20662] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904052,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『罗马复刻』通关D3",
+	desc = "通关D3<color=#92fc63>（勋章无法重复获得）</color>",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20662,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1660026",
+	open_need = {},
+	award_display = {
+		{
+			5,
+			232,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1660012,
+			chapterId = 1660026
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20663] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904053,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『罗马复刻』通关EX",
+	desc = "通关EX关卡",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20663,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1660051",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		},
+		{
+			2,
+			65034,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1660026,
+			chapterId = 1660051
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20664] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904054,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『罗马复刻』A1/C1的3星",
+	desc = "完成A1或C1的3星收集",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20665",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20664,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1660001,
+		1660021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5598
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20665] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904055,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『罗马复刻』A2/C2的3星",
+	desc = "完成A2或C2的3星收集",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20666",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20665,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1660002,
+		1660022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5598
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20666] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904056,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『罗马复刻』A3/C3的3星",
+	desc = "完成A3或C3的3星收集",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20667",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20666,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1660003,
+		1660023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5598
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20667] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904057,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『罗马复刻』B1/D1的3星",
+	desc = "完成B1或D1的3星收集",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20668",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20667,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1660004,
+		1660024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5597
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20668] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904058,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『罗马复刻』B2/D2的3星",
+	desc = "完成B2或D2的3星收集",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20669",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20668,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1660005,
+		1660025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5597
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20669] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904059,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『罗马复刻』B3/D3的3星",
+	desc = "完成B3或D3的3星收集",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20669,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1660006,
+		1660026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5597
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20671] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904095,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『罗马复刻』前哨站剧情活动任务1",
+	desc = "舰队出征，以S评价通关10次",
+	sub_type = 24,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20671,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20672] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904096,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『罗马复刻』前哨站剧情活动任务2",
+	desc = "进行2次演习",
+	sub_type = 27,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20672,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20673] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904097,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『罗马复刻』前哨站剧情活动任务3",
+	desc = "完成3次每日挑战",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20673,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20674] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904098,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『罗马复刻』前哨站剧情活动任务4",
+	desc = "进行战术训练2次",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20674,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20675] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904099,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『罗马复刻』前哨站剧情活动任务5",
+	desc = "建造舰船2次",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20675,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20676] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904100,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『罗马复刻』前哨站剧情活动任务6",
+	desc = "击沉任意敌人20艘",
+	sub_type = 11,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20676,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20677] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904101,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『罗马复刻』前哨站剧情活动任务7",
+	desc = "击败旗舰3次 ",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20677,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			3,
+			3600,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
 _G.pg.base.task_data_template[31017] = {
 	target_id_2 = "",
 	guild_coin_award = 0,

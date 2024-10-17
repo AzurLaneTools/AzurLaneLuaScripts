@@ -8,7 +8,7 @@ end
 
 slot0.Init = function(slot0, slot1)
 	print("initializing sceneanim manager...")
-	PoolMgr.GetInstance():GetUI("SceneAnimUI", true, function (slot0)
+	LoadAndInstantiateAsync("ui", "SceneAnimUI", function (slot0)
 		uv0._go = slot0
 
 		uv0._go:SetActive(false)
@@ -22,7 +22,7 @@ slot0.Init = function(slot0, slot1)
 		if uv1 then
 			uv1()
 		end
-	end)
+	end, true, true)
 end
 
 slot0.SixthAnniversaryJPCoverGoScene = function(slot0, slot1)

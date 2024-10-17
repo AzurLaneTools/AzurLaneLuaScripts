@@ -44,7 +44,7 @@ slot0.ToastInfo = {
 }
 
 slot0.Init = function(slot0, slot1)
-	PoolMgr.GetInstance():GetUI("ToastUI", true, function (slot0)
+	LoadAndInstantiateAsync("ui", "ToastUI", function (slot0)
 		uv0._go = slot0
 
 		uv0._go:SetActive(false)
@@ -81,7 +81,7 @@ slot0.Init = function(slot0, slot1)
 		if uv3 then
 			uv3()
 		end
-	end)
+	end, true, true)
 end
 
 slot0.ResetUIDandHistory = function(slot0)

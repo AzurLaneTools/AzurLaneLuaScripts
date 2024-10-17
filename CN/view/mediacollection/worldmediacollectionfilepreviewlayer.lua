@@ -14,6 +14,9 @@ slot0.init = function(slot0)
 	slot0:InitDocument()
 
 	slot0.tipTF = slot0._tf:Find("Tip")
+
+	setText(slot0.tipTF, i18n("world_file_tip"))
+
 	slot0.animBar = slot0._tf:Find("Bar")
 
 	setActive(slot0.animBar, false)

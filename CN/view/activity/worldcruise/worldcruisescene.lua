@@ -60,7 +60,7 @@ slot0.init = function(slot0)
 	setText(slot0.phaseTF:Find("progress"), i18n("cruise_phase_title"))
 
 	slot0.pages = {
-		[uv0.PAGE_AWARD] = WorldCruiseAwardPage.New(slot0._tf:Find("frame/award_container"), slot0.event),
+		[uv0.PAGE_AWARD] = WorldCruiseAwardPage.New(slot0._tf:Find("frame/award_container"), slot0.event, slot0.contextData),
 		[uv0.PAGE_TASK] = WorldCruiseTaskPage.New(slot0._tf:Find("frame/task_container"), slot0.event, slot0.contextData),
 		[uv0.PAGE_SHOP] = WorldCruiseShopPage.New(slot0._tf:Find("frame/shop_container"), slot0.event, slot0.contextData)
 	}
@@ -85,8 +85,7 @@ slot0.init = function(slot0)
 	setActive(slot2:Find("lock"), slot1)
 	setText(slot2:Find("lock/Text"), i18n("cruise_shop_no_open"))
 
-	slot0.chargeTipWindow = ChargeTipWindow.New(slot0._tf, slot0.event)
-	slot0.contextData.windowForESkin = EquipmentSkinInfoUIForShopWindow.New(slot0._tf, slot0.event)
+	slot0.contextData.windowForCharge = WorldCruiseChargePage.New(slot0._tf, slot0.event)
 end
 
 slot0.didEnter = function(slot0)
@@ -95,8 +94,7 @@ slot0.didEnter = function(slot0)
 		uv0:closeView()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.helpBtn, function ()
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			type = MSGBOX_TYPE_HELP,
+		pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_COMMON_HELP, {
 			helps = i18n("battlepass_main_help_" .. pg.battlepass_event_pt[uv0.activity.id].map_name)
 		})
 	end, SFX_PANEL)
@@ -104,7 +102,7 @@ slot0.didEnter = function(slot0)
 		pg.playerResUI:ClickGem()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.ticketResBtn, function ()
-		shoppingBatch(61017, {
+		shoppingBatchNewStyle(Goods.CRUISE_QUICK_TASK_TICKET_ID, {
 			id = Item.QUICK_TASK_PASS_TICKET_ID
 		}, 20, "build_ship_quickly_buy_stone")
 	end, SFX_PANEL)
@@ -142,7 +140,7 @@ slot0.UpdatePhase = function(slot0)
 end
 
 slot0.OnChargeSuccess = function(slot0, slot1)
-	slot0.chargeTipWindow:ExecuteAction("Show", slot1)
+	slot0.contextData.windowForCharge:ExecuteAction("ShowUnlockWindow", slot1)
 end
 
 slot0.UpdateAwardTip = function(slot0)
@@ -190,17 +188,21 @@ slot0.UpdateShopPage = function(slot0)
 	slot0:UpdateView()
 end
 
-slot0.willExit = function(slot0)
-	if slot0.chargeTipWindow then
-		slot0.chargeTipWindow:Destroy()
+slot0.onBackPressed = function(slot0)
+	if slot0.contextData.windowForCharge and slot0.contextData.windowForCharge:GetLoaded() and slot0.contextData.windowForCharge:isShowing() then
+		slot0.contextData.windowForCharge:Hide()
 
-		slot0.chargeTipWindow = nil
+		return
 	end
 
-	if slot0.contextData.windowForESkin then
-		slot0.contextData.windowForESkin:Destroy()
+	uv0.super.onBackPressed(slot0)
+end
 
-		slot0.contextData.windowForESkin = nil
+slot0.willExit = function(slot0)
+	if slot0.contextData.windowForCharge then
+		slot0.contextData.windowForCharge:Destroy()
+
+		slot0.contextData.windowForCharge = nil
 	end
 
 	for slot4, slot5 in pairs(slot0.pages) do
