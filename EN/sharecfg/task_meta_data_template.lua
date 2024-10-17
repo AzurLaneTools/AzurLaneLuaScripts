@@ -2332,7 +2332,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970506",
 		id = 100321,
 		target_num = 1,
-		desc = "Win 1 Operation Siren battle with Nagato META in your fleet."
+		desc = "Win 1 battle with Nagato META in your fleet."
 	},
 	[100322] = {
 		target_id = "30",
@@ -2364,7 +2364,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970506",
 		id = 100325,
 		target_num = 1,
-		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Nagato META in your fleet."
+		desc = "Defeat a Lv. 100+ fleet with Nagato META in your fleet."
 	},
 	[100331] = {
 		target_id = "0",

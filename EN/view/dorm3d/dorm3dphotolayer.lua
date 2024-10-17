@@ -264,7 +264,7 @@ slot0.didEnter = function(slot0)
 
 						uv2(true)
 						uv3.SetMute(false)
-						pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataCamera(uv0.room:GetConfigID(), 2, Dorm3dTrackCommand.BuildCameraMsg(uv0.room:GetCameraZones()[uv0.zoneIndex]:GetName(), Dorm3dCameraAnim.New({
+						pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataCamera(uv0.scene.apartment:GetConfigID(), 2, uv0.room:GetConfigID(), Dorm3dTrackCommand.BuildCameraMsg(uv0.room:GetCameraZones()[uv0.zoneIndex]:GetName(), Dorm3dCameraAnim.New({
 							configId = uv0.animID
 						}):GetStateName(), uv0.cameraSettings.depthOfField.focusDistance.value, uv0.cameraSettings.depthOfField.blurRadius.value, uv0.cameraSettings.postExposure.value, uv0.cameraSettings.contrast.value, uv0.cameraSettings.saturate.value)))
 					end
@@ -304,7 +304,7 @@ slot0.didEnter = function(slot0)
 				NotificationMgr.Inst:PlayShutterSound()
 			end
 
-			pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataCamera(uv0.room:GetConfigID(), 1, Dorm3dTrackCommand.BuildCameraMsg(uv0.room:GetCameraZones()[uv0.zoneIndex]:GetName(), Dorm3dCameraAnim.New({
+			pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataCamera(uv0.scene.apartment:GetConfigID(), 1, uv0.room:GetConfigID(), Dorm3dTrackCommand.BuildCameraMsg(uv0.room:GetCameraZones()[uv0.zoneIndex]:GetName(), Dorm3dCameraAnim.New({
 				configId = uv0.animID
 			}):GetStateName(), uv0.cameraSettings.depthOfField.focusDistance.value, uv0.cameraSettings.depthOfField.blurRadius.value, uv0.cameraSettings.postExposure.value, uv0.cameraSettings.contrast.value, uv0.cameraSettings.saturate.value)))
 		end)(Tex2DExtension.EncodeToJPG(slot4), slot4)

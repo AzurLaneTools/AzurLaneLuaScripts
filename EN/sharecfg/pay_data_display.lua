@@ -146,6 +146,7 @@ pg.pay_data_display = setmetatable({
 		2032,
 		2033,
 		2034,
+		2035,
 		139,
 		140,
 		141,
@@ -7821,7 +7822,7 @@ pg.base.pay_data_display = {
 		show_group = "",
 		limit_type = 2,
 		time = "always",
-		type_order = 5,
+		type_order = 7,
 		picture = "lv_70",
 		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.diamond164",
@@ -13017,7 +13018,7 @@ pg.base.pay_data_display = {
 		show_group = "",
 		limit_type = 4,
 		time = "always",
-		type_order = 4,
+		type_order = 6,
 		picture = "richang",
 		skin_inquire_relation = 0,
 		id_str = "com.yostaren.azurlane.dailybag1",
@@ -13719,6 +13720,105 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40049,
+				1
+			}
+		}
+	},
+	[2035] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		name = "Outfit Selection Pack (Ulrich von Hutten)",
+		first_pay_double = 0,
+		name_display = "Outfit Selection Pack (Ulrich von Hutten)",
+		descrip = "Contains an Outfit Selection Voucher, Wisdom Cubes, T2 EXP Data Packs, and more.",
+		subject = "Outfit Selection Pack (Ulrich von Hutten)",
+		money = 1799,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		sub_display = "",
+		picture = "huteng_package",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.pack14",
+		extra_service = 3,
+		id = 2035,
+		airijp_id = "com.yostaren.azurlane.pack14",
+		extra_service_item = {
+			{
+				2,
+				59554,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				1,
+				1,
+				30000
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					10,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					11,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59554,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40050,
 				1
 			}
 		}

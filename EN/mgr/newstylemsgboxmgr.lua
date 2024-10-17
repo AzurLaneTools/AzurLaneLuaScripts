@@ -4,16 +4,64 @@ pg.NewStyleMsgboxMgr = slot1
 slot1.TYPE_MSGBOX = 1
 slot1.TYPE_DROP = 2
 slot1.TYPE_DROP_CLIENT = 3
+slot1.TYPE_COMMON_MSGBOX = 4
+slot1.TYPE_COMMON_HELP = 5
+slot1.TYPE_COMMON_DROP = 6
+slot1.TYPE_COMMON_ITEMS = 7
+slot1.TYPE_SHIP_PREVIEW = 8
+slot1.TYPE_COMMON_SHOPPING = 9
 slot1.UI_NAME_DIC = {
 	[slot1.TYPE_MSGBOX] = "DormStyleMsgboxUI",
 	[slot1.TYPE_DROP] = "DormStyleDropMsgboxUI",
-	[slot1.TYPE_DROP_CLIENT] = "DormStyleDropMsgboxUI"
+	[slot1.TYPE_DROP_CLIENT] = "DormStyleDropMsgboxUI",
+	[slot1.TYPE_COMMON_MSGBOX] = "NewStyleMsgboxUI",
+	[slot1.TYPE_COMMON_HELP] = "NewStyleHelpMsgboxUI",
+	[slot1.TYPE_COMMON_DROP] = "NewStyleDropMsgboxUI",
+	[slot1.TYPE_COMMON_ITEMS] = "NewStyleItemsMsgboxUI",
+	[slot1.TYPE_SHIP_PREVIEW] = "ShipPreviewUI",
+	[slot1.TYPE_COMMON_SHOPPING] = "NewStyleShoppingMsgboxUI"
 }
 slot1.BUTTON_TYPE = {
-	confirm = "btn_confirm",
-	cancel = "btn_cancel",
 	blue = "btn_confirm",
-	gray = "btn_cancel"
+	shopping = "btn_shopping",
+	gray = "btn_cancel",
+	confirm = "btn_confirm",
+	cancel = "btn_cancel"
+}
+slot1.RES_LIST = {
+	diamond = {
+		"ui/commonui_atlas",
+		"res_diamond"
+	},
+	gold = {
+		"ui/commonui_atlas",
+		"res_gold"
+	},
+	res_oil = {
+		"ui/commonui_atlas",
+		"res_oil"
+	},
+	guildicon = {
+		"ui/share/msgbox_atlas",
+		"res_guildicon"
+	},
+	world_money = {
+		"ui/share/world_common_atlas",
+		"res_Whuobi"
+	},
+	port_money = {
+		"ui/share/world_common_atlas",
+		"res_Wzhaungbeibi"
+	},
+	world_boss = {
+		"props/100000",
+		""
+	}
+}
+slot1.COLOR_MAP = {
+	["#[Ff][Ff][Dd][Ee]38"] = "#ffa944",
+	["#92[Ff][Cc]63"] = "#238c40",
+	["#6[Dd][Dd]329"] = "#238c40"
 }
 
 slot1.Init = function(slot0, slot1)
@@ -21,14 +69,28 @@ slot1.Init = function(slot0, slot1)
 
 	slot0.showList = {}
 	slot0.rtDic = {}
+	slot0.richTextSprites = {}
+	slot2 = {}
 
-	existCall(slot1)
+	for slot6, slot7 in pairs(uv0.RES_LIST) do
+		table.insert(slot2, function (slot0)
+			LoadSpriteAtlasAsync(uv0[1], uv0[2], function (slot0)
+				uv0.richTextSprites[uv1] = slot0
+
+				uv2()
+			end)
+		end)
+	end
+
+	seriesAsync(slot2, function ()
+		existCall(uv0)
+	end)
 end
 
 slot1.Show = function(slot0, ...)
-	table.insert(slot0.showList, packEx(...))
+	table.insert(slot0.showList, 1, packEx(...))
 
-	if #slot0.showList == 1 then
+	if #slot0.showList > 0 then
 		slot0:DoShow(unpackEx(slot0.showList[1]))
 	end
 end
@@ -53,9 +115,14 @@ slot1.DoShow = function(slot0, slot1, slot2)
 	seriesAsync(slot3, function ()
 		uv0._tf = uv0.rtDic[uv1]
 
-		uv0:CommonSetting(uv2)
-		uv0:DisplaySetting(uv1, uv2)
-		uv3.UIMgr.GetInstance():BlurPanel(uv0._tf, false, uv2.blurParams or {
+		if uv1 == uv2.TYPE_SHIP_PREVIEW then
+			uv3.DelegateInfo.New(uv0)
+		else
+			uv0:CommonSetting(uv4)
+		end
+
+		uv0:DisplaySetting(uv1, uv4)
+		uv3.UIMgr.GetInstance():BlurPanel(uv0._tf, false, uv4.blurParams or {
 			weight = LayerWeightConst.SECOND_LAYER
 		})
 		setActive(uv0._tf, true)
@@ -142,11 +209,6 @@ slot1.CommonSetting = function(slot0, slot1)
 			uv1:Hide()
 		end, slot8.sound or SFX_CONFIRM)
 	end
-
-	onButton(slot0, slot0._tf:Find("window/top/btn_close"), function ()
-		existCall(uv0.hideCall)
-		uv0:Hide()
-	end, SFX_CANCEL)
 end
 
 slot1.Clear = function(slot0)
@@ -188,8 +250,208 @@ slot1.DisplaySetting = function(slot0, slot1, slot2)
 
 			setText(slot1:Find("info/name"), slot2.name)
 			setText(slot1:Find("info/desc"), slot2.desc)
+		end,
+		[uv0.TYPE_COMMON_MSGBOX] = function (slot0)
+			slot1 = uv0._tf:Find("window/middle/content")
+
+			uv0:InitRichText(slot1)
+			setTextInNewStyleBox(slot1, slot0.contentText)
+		end,
+		[uv0.TYPE_COMMON_HELP] = function (slot0)
+			setActive(uv0._tf:Find("window/bottom"), false)
+
+			slot1 = uv0._tf:Find("window/middle/content")
+			slot2 = UIItemList.New(slot1, slot1:Find("tpl"))
+
+			slot2:make(function (slot0, slot1, slot2)
+				slot1 = slot1 + 1
+
+				if slot0 == UIItemList.EventUpdate then
+					slot3 = uv0.helps[slot1]
+
+					setActive(slot2:Find("line"), slot3.line)
+					setTextInNewStyleBox(slot2:Find("Text"), HXSet.hxLan(slot3.info and SwitchSpecialChar(slot3.info, true) or ""))
+				end
+			end)
+			slot2:align(#slot0.helps)
+		end,
+		[uv0.TYPE_COMMON_DROP] = function (slot0)
+			slot1 = slot0.drop
+			slot2 = uv0._tf:Find("window/middle")
+
+			updateDrop(slot2:Find("left/IconTpl"), slot1)
+			setText(slot2:Find("info/name_container/name/Text"), slot1:getConfig("name"))
+
+			slot3 = slot2:Find("info/desc/Text")
+
+			uv0:InitRichText(slot3)
+			slot1:MsgboxIntroSet(slot0, slot3)
+			setTextInNewStyleBox(slot3, slot3:GetComponent(typeof(Text)).text)
+			UpdateOwnDisplay(slot2:Find("left/own"), slot1)
+			setText(slot2:Find("left/detail/Text"), i18n("technology_detail"))
+			RegisterNewStyleDetailButton(uv0, slot2:Find("left/detail"), slot1)
+
+			slot4 = slot1.type == DROP_TYPE_SHIP
+
+			setActive(slot2:Find("info/name_container/shiptype"), slot4)
+			setActive(slot2:Find("extra_info/ship"), slot4)
+
+			if slot4 then
+				GetImageSpriteFromAtlasAsync("shiptype", shipType2print(slot1:getConfig("type")), slot5)
+
+				slot7 = tobool(getProxy(CollectionProxy):getShipGroup(uv1.ship_data_template[slot1.id].group_type))
+
+				setActive(slot6:Find("unlock"), slot7)
+				setText(slot6:Find("unlock/Text"), i18n("tag_ship_unlocked"))
+				setActive(slot6:Find("lock"), not slot7)
+				setText(slot6:Find("lock/Text"), i18n("tag_ship_locked"))
+			end
+
+			slot7 = slot1.type == DROP_TYPE_EQUIPMENT_SKIN
+
+			setActive(slot2:Find("extra_info/equip_skin"), slot7)
+			setActive(slot2:Find("left/placeholder"), slot7)
+
+			if slot7 then
+				setTextInNewStyleBox(slot2:Find("info/desc/Text"), slot1:getConfig("desc"))
+				setScrollText(slot8:Find("tag/mask/Text"), i18n("word_fit") .. ":" .. table.concat(underscore.map(uv1.equip_skin_template[slot1.id].equip_type, function (slot0)
+					return EquipType.Type2Name2(slot0)
+				end), ","))
+				onButton(uv0, slot8:Find("play"), function ()
+					uv1:Show(uv2.NewStyleMsgboxMgr.TYPE_SHIP_PREVIEW, {
+						blurParams = {
+							weight = LayerWeightConst.TOP_LAYER
+						},
+						shipVO = Ship.New({
+							id = uv0.ship_config_id,
+							configId = uv0.ship_config_id,
+							skin_id = uv0.ship_skin_id
+						}),
+						weaponIds = uv0.ship_skin_id == 0 and Clone(uv0.weapon_ids) or {},
+						equipSkinId = uv0.ship_skin_id == 0 and uv3.id or 0
+					})
+				end, SFX_PANEL)
+			end
+		end,
+		[uv0.TYPE_COMMON_ITEMS] = function (slot0)
+			slot1 = uv0._tf:Find("window/middle")
+
+			setActive(slot1:Find("info/Text"), slot0.content)
+			setTextInNewStyleBox(slot1:Find("info/Text"), slot0.content or "")
+
+			slot3 = slot0.itemFunc
+			slot4 = slot1:Find("scrollview/content")
+
+			UIItemList.StaticAlign(slot4, slot4:Find("item"), #slot0.items, function (slot0, slot1, slot2)
+				slot1 = slot1 + 1
+
+				if slot0 == UIItemList.EventUpdate then
+					slot3 = uv0[slot1]
+
+					updateDrop(slot2:Find("IconTpl"), slot3, {
+						anonymous = slot3.anonymous,
+						hideName = slot3.hideName
+					})
+
+					slot4 = slot2:Find("IconTpl/name")
+
+					setText(slot4, shortenString(getText(slot4), 6))
+					setActive(slot2:Find("own"), uv1.showOwn)
+
+					if uv1.showOwn then
+						setText(slot2:Find("own/Text"), i18n("equip_skin_detail_count") .. slot3:getOwnedCount())
+					end
+
+					onButton(uv2, slot2, function ()
+						if uv0.anonymous then
+							return
+						elseif uv1 then
+							uv1(uv0)
+						end
+					end, SFX_UI_CLICK)
+				end
+			end)
+		end,
+		[uv0.TYPE_SHIP_PREVIEW] = function (slot0)
+			slot1 = uv0._tf:Find("left_panel")
+			slot2 = slot1:Find("sea"):GetComponent("RawImage")
+
+			setActive(slot2, false)
+
+			slot3 = GameObject.Find("BarrageCamera"):GetComponent("Camera")
+			slot3.enabled = true
+			slot3.targetTexture = slot2.texture
+			slot4 = uv0._tf:Find("resources/heal")
+			slot4.transform.localPosition = Vector3(-360, 50, 40)
+
+			setActive(slot4, false)
+			slot4:GetComponent("DftAniEvent"):SetEndEvent(function ()
+				setActive(uv0, false)
+				setText(uv0:Find("text"), "")
+			end)
+
+			slot6 = slot1:Find("bg/loading")
+			slot7 = nil
+
+			onButton(uv0, slot6, function ()
+				if not uv0 then
+					uv0 = WeaponPreviewer.New(uv1)
+
+					uv0:configUI(uv2)
+					uv0:setDisplayWeapon(uv3.weaponIds, uv3.equipSkinId, true)
+					uv0:load(40000, uv3.shipVO, uv3.weaponIds, function ()
+						setActive(uv0, false)
+					end)
+				end
+			end)
+			setActive(slot6, true)
+			onButton(uv0, uv0._tf, function ()
+				setActive(uv0, false)
+
+				if uv1 then
+					uv1:clear()
+
+					uv1 = nil
+				end
+
+				uv2:Hide()
+			end, SFX_PANEL)
+		end,
+		[uv0.TYPE_COMMON_SHOPPING] = function (slot0)
+			slot1 = uv0._tf:Find("window/middle")
+			slot2 = slot0.drop
+
+			updateDrop(slot1:Find("IconTpl"), slot2)
+			setText(slot1:Find("info/name/Text"), slot2:getConfig("name"))
+			setText(slot1:Find("IconTpl/own"), i18n("equip_skin_detail_count") .. slot2:getOwnedCount())
+			uv0:InitRichText(slot1:Find("info/desc/Text"))
+
+			slot4 = uv0._tf:Find("window/bottom/button_container/btn_shopping/price/Text")
+			slot5 = uv0._tf:Find("window/bottom/count")
+			slot6 = PageUtil.New(slot5:Find("reduce"), slot5:Find("increase"), slot5:Find("max"), slot5:Find("Text"))
+			slot7 = slot0.price
+			slot8 = slot0.numUpdate
+
+			slot6:setNumUpdate(function (slot0)
+				if uv0 ~= nil then
+					uv0(uv1, slot0)
+				end
+
+				setText(uv2, "x" .. slot0 * uv3)
+			end)
+			slot6:setAddNum(slot0.addNum or 1)
+			slot6:setMaxNum(slot0.maxNum or -1)
+			slot6:setDefaultNum(slot0.defaultNum or 1)
 		end
 	}, nil, slot2)
+end
+
+slot1.InitRichText = function(slot0, slot1)
+	slot2 = slot1:GetComponent("RichText")
+
+	for slot6, slot7 in pairs(slot0.richTextSprites) do
+		slot2:AddSprite(slot6, slot7)
+	end
 end
 
 slot1.emit = function(slot0, slot1, ...)

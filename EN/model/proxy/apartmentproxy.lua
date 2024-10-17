@@ -60,16 +60,21 @@ slot0.timeCall = function(slot0)
 			uv0.stamina = getDorm3dGameset("daily_vigor_max")[1]
 
 			uv0:sendNotification(uv1.ZERO_HOUR_REFRESH)
+			uv0:InitGiftDaily()
 		end
 	}
 end
 
 slot0.InitGiftDaily = function(slot0)
-	for slot4, slot5 in pairs(pg.dorm3d_gift.all) do
-		if #pg.dorm3d_gift[slot5].shop_id > 0 and pg.shop_template[slot6.shop_id[1]].group ~= 0 then
-			slot0.shopCount.dailyGift[slot6.id] = getProxy(ShopsProxy):GetGroupPayCount(slot7)
+	pg.m02:sendNotification(GAME.GET_CHARGE_LIST, {
+		callback = function ()
+			for slot3, slot4 in pairs(pg.dorm3d_gift.all) do
+				if #pg.dorm3d_gift[slot4].shop_id > 0 and pg.shop_template[slot5.shop_id[1]].group ~= 0 then
+					uv0.shopCount.dailyGift[slot5.id] = getProxy(ShopsProxy):GetGroupPayCount(slot6)
+				end
+			end
 		end
-	end
+	})
 end
 
 slot0.updateApartment = function(slot0, slot1)

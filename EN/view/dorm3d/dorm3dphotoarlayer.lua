@@ -315,7 +315,7 @@ slot0.didEnter = function(slot0)
 				NotificationMgr.Inst:PlayShutterSound()
 			end
 
-			pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataCamera(uv0.room:GetConfigID(), 3, Dorm3dCameraAnim.New({
+			pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataCamera(uv0.groupId, 3, uv0.room:GetConfigID(), Dorm3dCameraAnim.New({
 				configId = uv0.animID
 			}):GetStateName()))
 		end)(Tex2DExtension.EncodeToJPG(slot4), slot4)

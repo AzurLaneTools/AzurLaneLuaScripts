@@ -48,7 +48,7 @@ slot2 = require("Mgr.const.MsgboxBtnNameMap")
 
 slot1.Init = function(slot0, slot1)
 	print("initializing msgbox manager...")
-	PoolMgr.GetInstance():GetUI("MsgBox", true, function (slot0)
+	LoadAndInstantiateAsync("ui", "MsgBox", function (slot0)
 		uv0._go = slot0
 
 		uv0._go:SetActive(false)
@@ -140,7 +140,7 @@ slot1.Init = function(slot0, slot1)
 		uv0.timers = {}
 
 		uv2()
-	end)
+	end, true, true)
 end
 
 slot1.getMsgBoxOb = function(slot0)

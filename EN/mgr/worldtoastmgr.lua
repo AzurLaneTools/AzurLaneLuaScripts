@@ -13,7 +13,7 @@ slot0.Type2PictrueName = {
 }
 
 slot0.Init = function(slot0, slot1)
-	PoolMgr.GetInstance():GetUI("WorldTaskFloatUI", true, function (slot0)
+	LoadAndInstantiateAsync("ui", "WorldTaskFloatUI", function (slot0)
 		uv0._go = slot0
 
 		uv0._go:SetActive(false)
@@ -27,7 +27,7 @@ slot0.Init = function(slot0, slot1)
 		if uv1 then
 			uv1()
 		end
-	end)
+	end, true, true)
 end
 
 slot0.ShowToast = function(slot0, slot1, slot2)
@@ -80,6 +80,4 @@ slot0.Dispose = function(slot0)
 	LeanTween.cancel(slot0.twId)
 
 	slot0.displayList = nil
-
-	PoolMgr.GetInstance():ReturnUI("WorldTaskFloatUI", slot0._go)
 end

@@ -38780,6 +38780,58 @@ _G.pg.base.item_data_statistics[40049] = {
 }
 
 
+_G.pg.base.item_data_statistics[40050] = {
+	open_directly = 1,
+	name = "Outfit Selection Pack (Ulrich von Hutten)",
+	type = 17,
+	display = "Contains loads of valuable rewards.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/huteng_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4052",
+	id = 40050,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			59554,
+			1
+		},
+		{
+			2,
+			20001,
+			40
+		},
+		{
+			1,
+			1,
+			30000
+		},
+		{
+			2,
+			16502,
+			50
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[40100] = {
 	open_directly = 1,
 	name = "Promise Crate",
@@ -83912,6 +83964,57 @@ _G.pg.base.item_data_statistics[59553] = {
 			301292,
 			301293,
 			301294
+		},
+		0,
+		59552
+	}
+}
+
+
+_G.pg.base.item_data_statistics[59554] = {
+	open_directly = 0,
+	name = "Outfit Selection Voucher (Ulrich von Hutten)",
+	type = 26,
+	display = "Can be used from your Depot to select 1 skin of your choosing.\n(<color=#ff5c5c>You may only choose from the skins presented. If you already own all the skins, you will instead receive a Skin Voucher.</color>)",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed_skinexchange",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/skin_exchange_huteng",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 59554,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			7,
+			405031,
+			1
+		},
+		{
+			7,
+			405032,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		0,
+		{},
+		{
+			405031,
+			405032
 		},
 		0,
 		59552

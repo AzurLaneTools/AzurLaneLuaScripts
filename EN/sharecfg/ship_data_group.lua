@@ -23122,6 +23122,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -23545,6 +23556,17 @@ pg.base.ship_data_group = {
 				"Event: Tower of Transcendence",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Heavy Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -24049,6 +24071,28 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Heavy/Special Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			},
+			{
+				"UR Exchange",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -24220,6 +24264,17 @@ pg.base.ship_data_group = {
 				"Event: Tower of Transcendence",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Special Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -24921,6 +24976,16 @@ pg.base.ship_data_group = {
 				"Event: Tower of Transcendence",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Merit Shop",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
