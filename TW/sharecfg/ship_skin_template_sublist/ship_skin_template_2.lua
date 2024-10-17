@@ -12242,5 +12242,113 @@ pg.base.ship_skin_template_2 = {
 				}
 			}
 		}
+	},
+	[103132] = {
+		name = "極限運動X",
+		ship_group = 10313,
+		desc = "啊，指揮官，閃開閃開！ …真是的，小心點啊，要是剛剛撞上了可怎麼辦！",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 2,
+		prefab = "mingniabolisi_3",
+		painting = "mingniabolisi_3",
+		hand_id = 16,
+		bgm = "",
+		shop_type_id = 13,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "132",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 103132,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 70330,
+		voice_actor = 153,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.95,
+					1.074,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.966,
+					1.181,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.009,
+					-0.006,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.33,
+							0.14
+						}
+					}
+				}
+			}
+		}
 	}
 }

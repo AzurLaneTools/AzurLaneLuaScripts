@@ -11423,6 +11423,58 @@ pg.activity_ins_template = {
 			4446
 		}
 	},
+	[479] = {
+		ship_group = 40406,
+		name = "Hervör alvitr",
+		sculpture = "yaerweite_2",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 479,
+		group_id = 479,
+		order = 41,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[480] = {
+		ship_group = 40147,
+		name = "☆WildeKatze47☆",
+		sculpture = "z47",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 480,
+		group_id = 480,
+		order = 41,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[481] = {
+		ship_group = 40813,
+		name = "Unbeschwert31",
+		sculpture = "u31",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 481,
+		group_id = 481,
+		order = 41,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[482] = {
+		ship_group = 40143,
+		name = "Z·DEVIL·43",
+		sculpture = "z43",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 482,
+		group_id = 482,
+		order = 41,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -11847,6 +11899,10 @@ pg.activity_ins_template = {
 		462,
 		463,
 		464,
-		465
+		465,
+		479,
+		480,
+		481,
+		482
 	}
 }

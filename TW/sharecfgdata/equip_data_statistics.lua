@@ -53444,6 +53444,224 @@ _G.pg.base.equip_data_statistics[21613] = {
 }
 
 
+_G.pg.base.equip_data_statistics[21620] = {
+	name = "單裝113mm高平兩用砲Mark IV",
+	speciality = "<[LOCK]>",
+	type = 1,
+	attribute_3 = "antiaircraft",
+	tech = 0,
+	value_2 = 25,
+	icon = "21620",
+	attribute_2 = "cannon",
+	rarity = 5,
+	damage = "4 x 1",
+	nationality = 2,
+	descrip = "说明未填写",
+	ammo = 3,
+	value_3 = 20,
+	id = 21620,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		1
+	},
+	ammo_info = {
+		{
+			1,
+			1100
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1100
+		},
+		{
+			4,
+			1000
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		21620
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {
+		"HMS",
+		"DD",
+		"MG",
+		"CM"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[21621] = {
+	id = 21621,
+	base = 21620,
+	weapon_id = {
+		21621
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[21622] = {
+	damage = "5 x 1",
+	base = 21620,
+	id = 21622,
+	weapon_id = {
+		21622
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[21623] = {
+	damage = "6 x 1",
+	base = 21620,
+	id = 21623,
+	weapon_id = {
+		21623
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[21624] = {
+	damage = "7 x 1",
+	base = 21620,
+	id = 21624,
+	weapon_id = {
+		21624
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[21625] = {
+	damage = "8 x 1",
+	base = 21620,
+	id = 21625,
+	weapon_id = {
+		21625
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[21626] = {
+	damage = "9 x 1",
+	base = 21620,
+	id = 21626,
+	weapon_id = {
+		21626
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[21627] = {
+	damage = "10 x 1",
+	base = 21620,
+	id = 21627,
+	weapon_id = {
+		21627
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[21628] = {
+	damage = "11 x 1",
+	base = 21620,
+	id = 21628,
+	weapon_id = {
+		21628
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[21629] = {
+	damage = "12 x 1",
+	base = 21620,
+	id = 21629,
+	weapon_id = {
+		21629
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[21630] = {
+	damage = "13 x 1",
+	base = 21620,
+	id = 21630,
+	weapon_id = {
+		21630
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[21631] = {
+	anti_siren = 100,
+	damage = "13 x 1",
+	base = 21620,
+	id = 21631,
+	weapon_id = {
+		21631
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[21632] = {
+	anti_siren = 200,
+	damage = "13 x 1",
+	base = 21620,
+	id = 21632,
+	weapon_id = {
+		21632
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[21633] = {
+	anti_siren = 300,
+	damage = "13 x 1",
+	base = 21620,
+	id = 21633,
+	weapon_id = {
+		21633
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[22000] = {
 	name = "單裝152mm副炮",
 	speciality = "<[SCA]>",
@@ -107164,6 +107382,223 @@ _G.pg.base.equip_data_statistics[45153] = {
 }
 
 
+_G.pg.base.equip_data_statistics[45160] = {
+	name = "四联装533mm磁性鱼雷改",
+	speciality = "<[TRP]>",
+	type = 5,
+	tech = 0,
+	value_2 = 45,
+	icon = "45160",
+	attribute_2 = "torpedo",
+	descrip = "鐵血研發的四聯裝533mm磁性魚雷改良型，聲導性能及威力獲得了提升",
+	rarity = 5,
+	damage = "76 x 4",
+	nationality = 4,
+	ammo = 4,
+	value_3 = 0,
+	id = 45160,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			3,
+			1841
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			1841
+		},
+		{
+			4,
+			1403
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		45160
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		18,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"KMS",
+		"ST",
+		"TP",
+		"QUAD"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[45161] = {
+	damage = "83 x 4",
+	base = 45160,
+	id = 45161,
+	weapon_id = {
+		45161
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[45162] = {
+	damage = "92 x 4",
+	base = 45160,
+	id = 45162,
+	weapon_id = {
+		45162
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[45163] = {
+	damage = "99 x 4",
+	base = 45160,
+	id = 45163,
+	weapon_id = {
+		45163
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[45164] = {
+	damage = "108 x 4",
+	base = 45160,
+	id = 45164,
+	weapon_id = {
+		45164
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[45165] = {
+	damage = "116 x 4",
+	base = 45160,
+	id = 45165,
+	weapon_id = {
+		45165
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[45166] = {
+	damage = "124 x 4",
+	base = 45160,
+	id = 45166,
+	weapon_id = {
+		45166
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[45167] = {
+	damage = "132 x 4",
+	base = 45160,
+	id = 45167,
+	weapon_id = {
+		45167
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[45168] = {
+	damage = "140 x 4",
+	base = 45160,
+	id = 45168,
+	weapon_id = {
+		45168
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[45169] = {
+	damage = "148 x 4",
+	base = 45160,
+	id = 45169,
+	weapon_id = {
+		45169
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[45170] = {
+	damage = "157 x 4",
+	base = 45160,
+	id = 45170,
+	weapon_id = {
+		45170
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[45171] = {
+	anti_siren = 100,
+	damage = "157 x 4",
+	base = 45160,
+	id = 45171,
+	weapon_id = {
+		45171
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[45172] = {
+	anti_siren = 200,
+	damage = "157 x 4",
+	base = 45160,
+	id = 45172,
+	weapon_id = {
+		45172
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[45173] = {
+	anti_siren = 300,
+	damage = "157 x 4",
+	base = 45160,
+	id = 45173,
+	weapon_id = {
+		45173
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[45200] = {
 	name = "五聯裝533mm磁性魚雷",
 	speciality = "<[TRP]>",
@@ -125577,6 +126012,61 @@ _G.pg.base.equip_data_statistics[73512] = {
 }
 
 
+_G.pg.base.equip_data_statistics[73611] = {
+	name = "全弹发射-Type VIIA型I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能弹幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 73611,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		73611
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[73612] = {
+	name = "全弹发射-Type VIIA型II",
+	base = 73611,
+	id = 73612,
+	weapon_id = {
+		73612
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[74011] = {
 	name = "全彈發射-鞍山級I",
 	tech = 1,
@@ -133376,6 +133866,61 @@ _G.pg.base.equip_data_statistics[80282] = {
 }
 
 
+_G.pg.base.equip_data_statistics[80301] = {
+	name = "专属弹幕-Z47I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能弹幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 80301,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		61641
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80302] = {
+	name = "专属弹幕-Z47II",
+	base = 80301,
+	id = 80302,
+	weapon_id = {
+		61642
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[85000] = {
 	name = "B-13 雙聯裝130mm主炮B-2LM",
 	speciality = "<[LOCK]>",
@@ -133871,7 +134416,7 @@ _G.pg.base.equip_data_statistics[85120] = {
 	value_2 = 12,
 	icon = "85120",
 	attribute_2 = "cannon",
-	descrip = "北方联合为恰巴耶夫级巡洋舰设计的三联装152mm舰炮",
+	descrip = "北方聯合為恰巴耶夫級巡洋艦設計的三聯裝152mm艦炮",
 	rarity = 3,
 	damage = "7 x 6",
 	nationality = 7,
@@ -133998,7 +134543,7 @@ _G.pg.base.equip_data_statistics[85140] = {
 	value_2 = 25,
 	icon = "85120",
 	attribute_2 = "cannon",
-	descrip = "北方联合为恰巴耶夫级巡洋舰设计的三联装152mm舰炮",
+	descrip = "北方聯合為恰巴耶夫級巡洋艦設計的三聯裝152mm艦炮",
 	rarity = 4,
 	damage = "9 x 6",
 	nationality = 7,
@@ -134170,7 +134715,7 @@ _G.pg.base.equip_data_statistics[85160] = {
 	value_2 = 45,
 	icon = "85120",
 	attribute_2 = "cannon",
-	descrip = "北方联合为恰巴耶夫级巡洋舰设计的三联装152mm舰炮",
+	descrip = "北方聯合為恰巴耶夫級巡洋艦設計的三聯裝152mm艦炮",
 	rarity = 5,
 	damage = "10 x 6",
 	nationality = 7,
@@ -160723,6 +161268,19 @@ _G.pg.base.equip_data_statistics[3139728] = {
 	},
 	equip_parameters = {},
 	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[3165001] = {
+	anti_siren = 300,
+	name = "【2024幼儿园活动 剧情战】小斯佩主炮",
+	damage = "118 x 3",
+	base = 44500,
+	id = 3165001,
+	weapon_id = {
+		3165001
+	},
+	hidden_skill_id = {}
 }
 
 

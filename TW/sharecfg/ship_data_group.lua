@@ -1211,8 +1211,14 @@ pg.ship_data_group = setmetatable({
 		[40136] = {
 			388
 		},
+		[40143] = {
+			651
+		},
 		[40146] = {
 			267
+		},
+		[40147] = {
+			649
 		},
 		[40199] = {
 			590
@@ -1301,6 +1307,9 @@ pg.ship_data_group = setmetatable({
 		[40405] = {
 			566
 		},
+		[40406] = {
+			648
+		},
 		[40501] = {
 			250
 		},
@@ -1336,6 +1345,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[40702] = {
 			385
+		},
+		[40813] = {
+			650
 		},
 		[40810] = {
 			484
@@ -2394,7 +2406,9 @@ pg.ship_data_group = setmetatable({
 			488,
 			345,
 			388,
+			651,
 			267,
+			649,
 			590,
 			547,
 			548,
@@ -2424,6 +2438,7 @@ pg.ship_data_group = setmetatable({
 			543,
 			544,
 			566,
+			648,
 			250,
 			251,
 			529,
@@ -2436,6 +2451,7 @@ pg.ship_data_group = setmetatable({
 			252,
 			482,
 			385,
+			650,
 			484,
 			343,
 			387,
@@ -3065,7 +3081,9 @@ pg.ship_data_group = setmetatable({
 		488,
 		345,
 		388,
+		651,
 		267,
+		649,
 		590,
 		547,
 		548,
@@ -3095,6 +3113,7 @@ pg.ship_data_group = setmetatable({
 		543,
 		544,
 		566,
+		648,
 		250,
 		251,
 		529,
@@ -3107,6 +3126,7 @@ pg.ship_data_group = setmetatable({
 		252,
 		482,
 		385,
+		650,
 		484,
 		343,
 		387,
@@ -20953,6 +20973,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[651] = {
+		nationality = 4,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 40143,
+		index_id = 418,
+		code = 651,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"A",
+			"E",
+			"A",
+			"B",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：歡迎來到童心學院",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[267] = {
 		nationality = 4,
 		type = 1,
@@ -20990,6 +21042,38 @@ pg.base.ship_data_group = {
 					{
 						warp = "medal"
 					}
+				},
+				0
+			}
+		}
+	},
+	[649] = {
+		nationality = 4,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 40147,
+		index_id = 420,
+		code = 649,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"A",
+			"E",
+			"B",
+			"A",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：歡迎來到童心學院",
+				{
+					""
 				},
 				0
 			}
@@ -22123,6 +22207,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[648] = {
+		nationality = 4,
+		type = 4,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 40406,
+		index_id = 450,
+		code = 648,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：歡迎來到童心學院",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[250] = {
 		nationality = 4,
 		type = 5,
@@ -22568,6 +22684,38 @@ pg.base.ship_data_group = {
 			},
 			{
 				"限時活動：港區逃離大作戰",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[650] = {
+		nationality = 4,
+		type = 8,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 40813,
+		index_id = 463,
+		code = 650,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：歡迎來到童心學院",
 				{
 					""
 				},
@@ -23847,11 +23995,11 @@ pg.base.ship_data_group = {
 				0
 			},
 			{
-				"進行特型艦建造",
+				"進行輕型艦建造",
 				{
 					"GETBOAT",
 					{
-						projectName = "special",
+						projectName = "light",
 						page = 1
 					}
 				},

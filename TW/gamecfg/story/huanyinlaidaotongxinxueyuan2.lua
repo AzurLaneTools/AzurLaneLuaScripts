@@ -9,7 +9,7 @@ return {
 			bgm = "story-darkplan",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "童心学院·童趣艺体楼",
+			say = "童心學院·童趣藝術體育大樓",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "空荡的走廊中，只有风声作响，往复不停。墙上装饰用的音符松动，堪堪挂住，轻轻晃动。",
+			say = "空蕩的走廊中，只有風聲作響，往復不停。牆上裝飾用的音符鬆動，堪堪掛住，輕輕晃動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "嘎吱——",
+			say = "嘎吱――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actor = 401431,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜哇！怎、怎怎怎么回事！这个声音好奇怪！该不会是踩到陷阱了吧！指挥官，救、救我！",
+			say = "嗚哇！怎、怎怎怎麼回事！這個聲音好奇怪！該不會是踩到陷阱了吧！指揮官，救、救我！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			actor = 102210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只是踩到坏掉的地板而已啦！",
+			say = "只是踩到壞掉的地板而已！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			actor = 101266,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……地上，埃尔德里奇，有发现。",
+			say = "……地上，埃爾德里奇，有發現。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			actor = 408131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真的欸~指挥官你能看到吗？需要我把设备的角度调整一下吗~",
+			say = "真的欸~指揮官你看得到嗎？需要我把設備的角度調整一下嗎~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			actor = 408131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还是说，指挥官只想看着可爱的{namecode:536:U-31}呢~？",
+			say = "還是說，指揮官只想看可愛的U-31呢~？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			actor = 307130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你这家伙……快点给我进入正题啦！",
+			say = "妳這傢伙……快點給我進入正題啦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			actor = 408131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎呀，有人着急了呢~",
+			say = "哎呀，有人著急了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,10 +204,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "通讯模式",
+			factiontag = "通訊模式",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……{namecode:536:U-31}，你把镜头调整一下，让我看看地上的东西。",
+			say = "……U-31，妳把鏡頭調整一下，讓我看看地上的東西。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "从镜头中可以看到，地上散落着被人粗暴地撕下来的报纸标题大字——“保护”，“深夜”，“失踪”。",
+			say = "從鏡頭中可以看到，地上散落著被人粗暴地撕下來的報紙標題大字――「保護」，「深夜」，「失蹤」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			actor = 102210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "难道是那个传闻……出发前布里斯托尔告诉我的……“因未被妥善保护，神秘生灵于深夜失踪”！！",
+			say = "難道是那個傳聞……出發前布里斯托爾告訴我的……「因未被妥善保護，神秘生靈於深夜失蹤」！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			actor = 401431,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不不不，一定是失踪的命运堕天使，为保护光明，堕入无尽的黑……不对！无尽的深夜！",
+			say = "不不不，一定是失蹤的命運墮天使，為保護光明，墮入無盡的黑……不對！無盡的深夜！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			actor = 408131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们说的哪一种传闻都没听说过啦！",
+			say = "妳們說的哪一種傳聞都沒聽過！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			actor = 101266,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……嘘。音乐声，发现。",
+			say = "……噓。音樂聲，發現。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,7 +317,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "众人纷纷安静了下来，集中精神聆听，轻快又欢乐的曲调回荡在楼内，显得格外诡异。",
+			say = "眾人紛紛安靜了下來，集中精神聆聽，輕快又歡樂的曲調迴盪在樓內，顯得格外詭異。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，经过对比建筑结构图，声音来源的房间应该是这条走廊尽头的音乐教室。",
+			say = "指揮官，經過對比建築結構圖，聲音來源的房間應該是這條走廊盡頭的音樂教室。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,10 +346,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "通讯模式",
+			factiontag = "通訊模式",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看来解决艺体楼的异常的关键就在那里了。",
+			say = "看來解決藝術體育大樓的異常的關鍵就在那裡了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,22 +359,22 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "通讯模式",
+			factiontag = "通訊模式",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "闪耀星星小队，准备前去调查。注意安全。",
+			say = "閃耀星星小隊，準備去調查。注意安全。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "众人",
+			actorName = "眾人",
 			side = 2,
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "明白——",
+			say = "明白――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			bgm = "story-richang-11",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "童趣艺体楼·音乐教室",
+			say = "童趣藝術大樓·音樂教室",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
-			say = "砰——！",
+			say = "砰――！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
-			say = "随着闪耀星星小队破门而入，映入眼帘的是一幅奇妙的光景。",
+			say = "隨著閃耀星星小隊破門而入，映入眼簾的是一幅奇妙的光景。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			actor = 307140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸~？你们来啦~都来陪妾身玩吧，妾身现在可是精神得不得了哦！",
+			say = "欸~？妳們來啦~都來陪妾身玩吧，妾身現在可是精神得不得了哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			actor = 403120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好无聊……提不起劲啊……不想吃点心……也不想看书……",
+			say = "好無聊……提不起勁啊……不想吃點心……也不想看書……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -480,7 +480,7 @@ return {
 			actor = 102190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "发型也没什么好在意的吧，就这样散着就好了……",
+			say = "髮型也沒什麼好在意的吧，就這樣散著就好了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -498,7 +498,7 @@ return {
 			actor = 405060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "乐章……不想去演奏了……呼呼……没有音乐也好。",
+			say = "樂章……不想去演奏了……呼呼……沒有音樂也好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -513,7 +513,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
-			say = "伴随着音乐的旋律，教室中的学生们正慵懒地蹲坐在房间各处。",
+			say = "伴隨著音樂的旋律，能看到除了小信濃以外的學生們正慵懶地蹲坐在教室各處。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			actor = 102050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，音乐教室内……似乎存在某种干涉精神的污染源，教室中的学生已经受到影响了。",
+			say = "指揮官，音樂教室內……似乎存在某種干涉精神的污染源，教室中的學生已經受到影響了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -546,7 +546,7 @@ return {
 			actor = 408131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哪有什么奇怪的孩子……保护指挥官的安全什么的好麻烦哦，就在这里休息吧……",
+			say = "哪有什麼奇怪的孩子……保護指揮官的安全什麼的好麻煩哦，就在這裡休息吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -564,7 +564,7 @@ return {
 			actor = 102210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我不想当闪耀的星星了……帮上指挥官的忙也没什么用吧……",
+			say = "我不想當閃耀的星星了……幫上指揮官的忙也沒什麼用吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -579,7 +579,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
-			say = "埃尔德里奇什么都没说，只是默默放下了手中的探测棍，在角落里双手抱膝，坐到了地上。",
+			say = "埃爾德里奇什麼都沒說，只是默默放下了手中的探測棍，在角落裡雙手抱膝，坐到了地上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			actor = 401431,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……欸？指、指挥官！你看到了吗！大家都变得好奇怪！",
+			say = "……欸？指、指揮官！你看到了嗎！大家都變得好奇怪！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -621,7 +621,7 @@ return {
 			actor = 112010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "糟糕，污染源的强度超出预期，闪耀星星小队的成员已经受到影响了。",
+			say = "糟糕，污染源的強度超乎預期，閃耀星星小隊的成員已經受到影響了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -639,7 +639,7 @@ return {
 			actor = 112010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我建议立刻让幸存的小队成员撤离并派遣救援人员。",
+			say = "指揮官，我建議立刻讓未受到干擾的小隊成員撤離並派遣救援人員。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -658,7 +658,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "来不及了，直接摧毁教室内的干扰源是更快的手段。",
+			say = "來不及了，直接摧毀教室內的干擾源是更快的手段。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -672,10 +672,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "通讯模式",
+			factiontag = "通訊模式",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "干扰源……对了，{namecode:537:Z43}，你对于自己没受到影响有什么头绪么？",
+			say = "干擾源……對了，Z43，妳對於自己沒受到影響有什麼頭緒嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -689,7 +689,7 @@ return {
 			actor = 401431,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "难、难道是因为吾提前塞住了耳朵……？因为吾进来时担心有恶咒迎面袭击……",
+			say = "難、難道是因為吾提前摀住了耳朵……？因為吾進來時擔心有惡咒迎面攻擊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -705,7 +705,7 @@ return {
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（看来这些音乐声就是干涉精神的原因。）",
+			say = "（看來這些音樂聲就是干涉精神的原因。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -715,10 +715,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "通讯模式",
+			factiontag = "通訊模式",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:537:Z43}，你继续捂住耳朵，然后观察周围，能找到音乐出现的源头么？",
+			say = "Z43，妳繼續摀住耳朵，然後觀察周圍，能找到音樂出現的源頭？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -732,7 +732,7 @@ return {
 			actor = 401431,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "吾发现了几台音响！难道它们就是邪恶力量的源头？",
+			say = "吾發現了幾台音響！難道它們就是邪惡力量的源頭？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -750,7 +750,7 @@ return {
 			actor = 401431,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "需要吾将其破坏掉吗？！",
+			say = "需要吾將其破壞掉嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -764,10 +764,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "通讯模式",
+			factiontag = "通訊模式",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，只要想办法让音乐停下来，大家应该就能恢复正常了！",
+			say = "嗯，只要想辦法讓音樂停下來，大家應該就能恢復正常了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -781,7 +781,7 @@ return {
 			actor = 401431,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔唔唔……够不着啊……又不能在教室里开炮……",
+			say = "唔唔唔……搆不到啊……又不能在教室裡開炮……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -817,7 +817,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "听我说，或许不用破坏音响也能达成目的！",
+			say = "聽我說，或許不用破壞音響也能達成目的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -836,7 +836,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然现在的音乐旋律是造成精神影响的原因，那只要破坏这个旋律本身就好了！",
+			say = "既然現在的音樂旋律是造成精神影響的原因，只要破壞這個旋律本身就好了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -852,7 +852,7 @@ return {
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（破坏旋律……音乐教室内倒是有的是乐器。）",
+			say = "（破壞旋律……音樂教室內倒是有的是樂器。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -862,10 +862,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_599",
-			factiontag = "通讯模式",
+			factiontag = "通訊模式",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:537:Z43}你会演奏什么乐器么？",
+			say = "Z43妳會演奏什麼樂器嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -879,7 +879,7 @@ return {
 			actor = 401431,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那种事情吾不会啦——！哇啊啊啊，小{namecode:182:信浓}，你不要扑上来呀！万一摔倒了会很痛的！",
+			say = "那種事吾不會啦――！哇啊啊啊，信濃，妳不要撲上來呀！萬一摔倒了會很痛的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -907,7 +907,7 @@ return {
 			actor = 307140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "妾身听见了指挥官的声音~！妾身要和指挥官一起玩~！",
+			say = "妾身聽見了指揮官的聲音~！妾身要和指揮官一起玩~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -925,7 +925,7 @@ return {
 			actor = 401431,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等会儿，等会儿！小{namecode:182:信浓}，你先在这里坐一会儿，指挥官马上就到！",
+			say = "等一下，等一下！信濃，妳先在這裡坐一下，指揮官馬上就到！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -943,7 +943,7 @@ return {
 			actor = 401431,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总之只要能打乱现在这个音乐，就可以了！对吧！",
+			say = "總之只要能打亂現在這個音樂，就可以了！對吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -971,7 +971,7 @@ return {
 			actor = 401431,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这间教室里有音响和麦克风。汝放心吧，堕入深渊的大家，吾来拯救！",
+			say = "……這間教室裡有音響和麥克風。汝放心吧，墮入深淵的大家，吾來拯救！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -989,7 +989,7 @@ return {
 			actor = 401431,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳咳——！",
+			say = "咳咳――！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1004,7 +1004,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_599",
 			hidePaintObj = true,
-			say = "{namecode:537:Z43}清了清嗓子，举起了连接着音响的麦克风。",
+			say = "Z43清了清嗓子，舉起了連接音響的麥克風。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1018,7 +1018,7 @@ return {
 			actor = 401431,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "漆黑烈火之翼♪~签下契约之时♪~封印解除♪~啦啦啦♪~",
+			say = "漆黑烈火之翼♪~簽下契約之時♪~封印解除♪~啦啦啦♪~",
 			painting = {
 				alpha = 0.3,
 				time = 1

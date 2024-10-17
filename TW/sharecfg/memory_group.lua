@@ -167,6 +167,7 @@ pg.memory_group = setmetatable({
 		286,
 		288,
 		290,
+		292,
 		300,
 		301,
 		303,
@@ -3981,6 +3982,26 @@ pg.base.memory_group = {
 		icon = "title_event",
 		memories = {
 			3651
+		}
+	},
+	[292] = {
+		title = "歡迎來到童心學院",
+		subtype = 2,
+		link_event = 5402,
+		type = 2,
+		id = 292,
+		icon = "title_event",
+		memories = {
+			3681,
+			3682,
+			3683,
+			3684,
+			3685,
+			3686,
+			3687,
+			3688,
+			3689,
+			3690
 		}
 	},
 	[300] = {

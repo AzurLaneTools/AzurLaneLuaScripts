@@ -45,11 +45,21 @@ pg.constellation_challenge_month = {
 			10015
 		}
 	},
+	[11] = {
+		id = 11,
+		constellation_icon = "Scorpio",
+		stage = {
+			10016,
+			10017,
+			10018
+		}
+	},
 	all = {
 		6,
 		7,
 		8,
 		9,
-		10
+		10,
+		11
 	}
 }

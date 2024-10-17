@@ -9,7 +9,7 @@ return {
 			bgm = "story-richang-11",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "休息时间结束，探索救援行动再度开始。",
+			say = "休息時間結束，探索救援行動再度開始。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
-			say = "此刻，推测校园内的理性办公楼内仍有被困人员。",
+			say = "此刻，推測校園內的理性辦公大樓內仍有受困人員。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
-			say = "为了加快效率，众人再次一分为二。",
+			say = "為了加快效率，眾人再次一分為二。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
-			say = "闪耀星星小队从办公楼正门进入，而其他人则组成“酷酷骑士队”从后门进入。",
+			say = "閃耀星星小隊從辦公大樓正門進入，而其他人則組成「酷酷騎士隊」從後門進入。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_519",
-			say = "童心学院·理性办公楼",
+			say = "童心學院·理性辦公大樓",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
-			say = "或是因为天色暗淡，也或许是在先前的行动中耗尽了体力，这一路众人少有言语。",
+			say = "或是因為天色暗淡，也或許是在先前的行動中耗盡了體力，這一路眾人少有言語。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
-			say = "咔哒——咔哒——咔哒——",
+			say = "咔噠――咔噠――咔噠――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
-			say = "黑暗之中，传来了一串质感冰冷的脚步声。",
+			say = "黑暗之中，傳來了一串質感冰冷的腳步聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			actor = 401431,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这个声音是，嘶——",
+			say = "這個聲音是，嘶――",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			actor = 401431,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咿呀呀呀——！！！！暗黑镇魂曲！！！！",
+			say = "咿呀呀呀――！！！！暗黑鎮魂曲！！！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			actor = 401431,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我可是叛恶者啊！！你们不要过来啊！！！",
+			say = "我可是叛惡者啊！！你們不要過來啊！！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
-			say = "在脚步声即将转过拐角的瞬间，{namecode:537:Z43}决定率先出击。",
+			say = "在腳步聲即將轉過轉角的瞬間，Z43決定率先出擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_519",
 			hidePaintObj = true,
-			say = "伴随着{namecode:537:Z43}的尖叫，{namecode:536:U-31}也猛地回身——亚尔薇特和约克公爵出现在了画面内。",
+			say = "伴隨著Z43的尖叫，U-31也猛地回身――亞爾薇特和約克公爵出現在了畫面內。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			actor = 404061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们是听到声音后出来调查的，怎么是你们……？",
+			say = "我們是聽到聲音後出來調查的，怎麼是妳們……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			actor = 404061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "抱歉，吓到你们了。",
+			say = "抱歉，嚇到妳們了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			actor = 205074,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是余同亚尔薇特思虑不周，令汝等受惊了。",
+			say = "是余同亞爾薇特思慮不周，令汝等受驚了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			actor = 408131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没有哦~明显是{namecode:537:Z43}一惊一乍的反应更吓人吧！",
+			say = "沒有哦~明顯是Z43一驚一乍的反應更嚇人吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			actor = 404061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们怎么会来这里，外面的情况如何了？",
+			say = "妳們怎麼會來這裡，外面的情況如何了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,10 +345,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_519",
-			factiontag = "通讯模式",
+			factiontag = "通訊模式",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "关于这一点，还是由我来说明吧。",
+			say = "關於這一點，還是由我來說明。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			actor = 404061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来如此，发生了这么多事啊……",
+			say = "原來如此，發生了這麼多事啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,10 +393,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_519",
-			factiontag = "通讯模式",
+			factiontag = "通訊模式",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你们这边呢，办公楼的情况如何？",
+			say = "妳們這邊呢，辦公大樓的情況如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			actor = 404061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们这边也确实遇到了些情况……",
+			say = "我們這邊也確實遇到了些情況……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			actor = 404061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请跟我来办公室吧。等到了办公室，大家一看便知。",
+			say = "請跟我來辦公室吧。等到了辦公室，大家一看便知。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			bgm = "story-richang-6",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "理性办公楼·教师办公室",
+			say = "理性辦公大樓·辦公室",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			}
 		},
 		{
-			actorName = "理性思维·石膏喵",
+			actorName = "理性思維·石膏喵",
 			side = 2,
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
@@ -580,7 +580,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
-			say = "此刻，办公室中已经成为了石膏喵的天堂。",
+			say = "此刻，辦公室中已經成為了石膏喵的天堂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			actor = 408131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这……这是怎么回事？",
+			say = "這……這是怎麼回事？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			actor = 404061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如各位所见，办公室已经被这群突然出现的小家伙占领了。",
+			say = "如各位所見，辦公室已經被這群突然出現的小傢伙佔領了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -629,7 +629,7 @@ return {
 			actor = 404061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "它们虽然没有展现出敌意，不过也丝毫没有离开的打算。",
+			say = "它們雖然沒有展現出敵意，不過絲毫沒有離開的打算。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
-			say = "正如亚尔薇特所言，充斥着教师办公室的石膏喵只是高举手中的出题板，在地上成群结队奔跑着。",
+			say = "正如亞爾薇特所言，充斥著教師辦公室的石膏喵只是高舉手中的出題板，在地上成群結隊奔跑著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
-			say = "而在办公室的角落中，则堆积着更多的出题板。",
+			say = "而在辦公室的角落中，則堆積著更多的出題板。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,10 +665,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "通讯模式",
+			factiontag = "通訊模式",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那些角落中的出题板是……？",
+			say = "那些角落的出題板是……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,7 +682,7 @@ return {
 			actor = 404061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那些啊……这些石膏喵虽然没有展现出敌意，但是会一直递过来出题板。",
+			say = "那些啊……這些石膏喵雖然沒有展現出敵意，但是會一直遞過來出題板。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -700,7 +700,7 @@ return {
 			actor = 404061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "刚才想着也是闲着，就顺手做了些练习……",
+			say = "剛才想著也是閒著，就順手做了些練習……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -711,7 +711,7 @@ return {
 			}
 		},
 		{
-			actorName = "理性思维·石膏喵",
+			actorName = "理性思維·石膏喵",
 			side = 2,
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
@@ -940,7 +940,7 @@ return {
 			actor = 101266,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "出题板……递过来了。",
+			say = "出題板……遞過來了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -958,7 +958,7 @@ return {
 			actor = 102210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我知道了，这是要我们也来做题的意思呀！",
+			say = "我知道了，這是要我們也來做題目的意思呀！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -973,7 +973,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
-			say = "{namecode:527:小圣地亚哥}接过了石膏喵手中的题板，看了一眼上面的题，接着把出题板塞给了{namecode:537:Z43}。",
+			say = "小聖地亞哥接過了石膏喵手中的題板，看了一眼上面的題目，接著把出題板塞給了Z43。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -987,7 +987,7 @@ return {
 			actor = 102210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这种题目太简单啦！不需要闪耀星星小队的队长出手！",
+			say = "這種題目太簡單！不需要閃耀星星小隊的隊長出手！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1005,7 +1005,7 @@ return {
 			actor = 401431,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵……我、不是……吾的魔眼早已将冥冥中的答案全都告诉了吾……我就不参与了！",
+			say = "呵……我、不是……吾的魔眼早已將冥冥中的答案全都告訴了吾……我就不參與了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1023,7 +1023,7 @@ return {
 			actor = 401431,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "埃尔德里奇哟，此等重担就交付于汝手了。",
+			say = "埃爾德里奇喲，此等重擔就交付於汝手了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1041,7 +1041,7 @@ return {
 			actor = 307130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不想做的话我来做，指挥官大人可是在看着哟~",
+			say = "不想做的話我來做，指揮官大人可是在看著喲~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1059,7 +1059,7 @@ return {
 			actor = 101266,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……简单。",
+			say = "……簡單。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1077,7 +1077,7 @@ return {
 			actor = 101266,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……题目，完成。",
+			say = "……題目，完成。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1109,14 +1109,14 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
-			say = "埃尔德里奇以最快的速度完成了题目，石膏喵接过了她提交的题板，进行检查。",
+			say = "埃爾德里奇以最快的速度完成了題目，石膏喵接過了她提交的題目板，進行檢查。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "理性思维·石膏喵",
+			actorName = "理性思維·石膏喵",
 			side = 2,
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
@@ -1140,7 +1140,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
-			say = "石膏喵开心地高高蹦起，在空中分裂成了两只。",
+			say = "石膏喵開心地高高蹦起，在空中分裂成了兩隻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1154,7 +1154,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦——竟然分裂了？！",
+			say = "咦――竟然分裂了？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1172,7 +1172,7 @@ return {
 			actor = 307050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这些石膏喵的异常特性……是分裂么。",
+			say = "這些石膏喵的異常特性……是分裂嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1187,7 +1187,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
-			say = "随后，分裂出来的石膏喵拿来了更多的题板。",
+			say = "隨後，分裂出來的石膏喵拿來了更多的題板。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1201,7 +1201,7 @@ return {
 			actor = 401431,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "又、又来了？我要做不完了啦——！",
+			say = "又、又來了？我要做不完了――！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1219,7 +1219,7 @@ return {
 			actor = 408131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦？按照这样下去的话，岂不是会越做越多？",
+			say = "咦？照這樣下去的話，豈不是會越做越多？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1233,10 +1233,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "通讯模式",
+			factiontag = "通訊模式",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……看来顺着它们的行为来解题不是正确的思路。",
+			say = "嗯……看來順著它們的行為來解題不是正確的思路。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1251,7 +1251,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "或者……“给出正确的回答”这一行为是错误的？",
+			say = "或者……「給出正確的回答」這行為是錯誤的？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1269,7 +1269,7 @@ return {
 			actor = 404061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你的意思是故意填写错误的答案么？",
+			say = "妳的意思是故意填錯誤的答案嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1287,7 +1287,7 @@ return {
 			actor = 408131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这种事我喜欢，就交给我吧~",
+			say = "這種事我喜歡，就交給我吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1302,19 +1302,19 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
-			say = "{namecode:536:U-31}在出题板上画了一只小乌龟，然后递给了石膏喵。",
+			say = "U-31在出題板上畫了一隻小烏龜，然後遞給了石膏喵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "理性思维·石膏喵",
+			actorName = "理性思維·石膏喵",
 			side = 2,
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			nameColor = "#FF9B93",
-			say = "喵——！！！",
+			say = "喵――！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1421,7 +1421,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
-			say = "石膏喵愤怒地给了{namecode:536:U-31}一记头槌，落在地上后，由一只变成了两只。",
+			say = "石膏喵憤怒地給了U-31一記頭槌，落在地上後，由一隻變成了兩隻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1435,7 +1435,7 @@ return {
 			actor = 408131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜……好痛！",
+			say = "嗚……好痛！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1463,7 +1463,7 @@ return {
 			actor = 408131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是的！答对不行，答错也不行，那就干脆把它们丢在这里不管吧！",
+			say = "真是的！答對不行，答錯也不行，那就乾脆把它們丟在這裡不管吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1481,7 +1481,7 @@ return {
 			actor = 408131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "反正之前亚尔薇特她们把这些石膏喵丢在这里离开也没出什么问题嘛……",
+			say = "反正之前亞爾薇特她們把這些石膏喵丟在這裡離開也沒出什麼問題嘛……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1496,7 +1496,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
-			say = "{namecode:536:U-31}一边说着一边来到了门前。可是与来时不同，此刻的办公室门就像嵌在空间之中，纹丝不动。",
+			say = "U-31一邊說著一邊來到了門前。但與來時不同，此刻的辦公室門就像嵌在空間之中，紋絲不動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1510,7 +1510,7 @@ return {
 			actor = 408131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸……好奇怪啊，之前亚尔薇特不是能自由出入么？！",
+			say = "欸……好奇怪啊，之前亞爾薇特不是能自由出入麼？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1526,7 +1526,7 @@ return {
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……不出所料，看来只能先着手解决眼前的问题了。）",
+			say = "（……不出所料，看來只能先著手解決眼前的問題了。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1538,7 +1538,7 @@ return {
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（根据之前的经验，要停止石膏喵的分裂行为，一定与童心与开心有关。）",
+			say = "（根據先前的經驗，要停止石膏喵的分裂行為，一定與童心與開心有關。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1550,7 +1550,7 @@ return {
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（可是童心与开心，不等于要故意做错题，实际上做错题也确实没能解决问题。）",
+			say = "（可是童心與開心，不等於要故意做錯題，實際上做錯題也確實沒能解決問題。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1564,7 +1564,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼，真麻烦。它们要你们做题，你们就做题么？",
+			say = "哼，真麻煩。它們要妳們做題，妳們就做題目的嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1583,7 +1583,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这些麻烦的板子，一把火全烧了不就得了？",
+			say = "這些麻煩的板子，一把火全燒了不就得了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1599,7 +1599,7 @@ return {
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……我明白了，原来盲区在这里。",
+			say = "……我明白了，原來盲點在這裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1613,7 +1613,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？指挥官也同意么，那{namecode:291:小大凤}，准备点火。",
+			say = "嗯？指揮官也同意嗎，那小大鳳，準備點火。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1629,7 +1629,7 @@ return {
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等等……不是这个意思！",
+			say = "等等……不是這個意思！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1641,7 +1641,7 @@ return {
 			bgName = "star_level_bg_169",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这里的盲点在于，不是不应该答题，而是——不应该只答题。",
+			say = "這裡的盲點在於，不是不應該答題，而是――不應該只答題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1651,10 +1651,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "通讯模式",
+			factiontag = "通訊模式",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "学习，要讲究劳逸结合才是。",
+			say = "學習，要講究勞逸結合才是。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1669,7 +1669,7 @@ return {
 			actor = 199030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "劳逸……结合。",
+			say = "勞逸……結合。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1688,7 +1688,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵……原来如此。",
+			say = "呵呵……原來如此。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1707,7 +1707,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "多亏了某人，现在办公室内已经累计做了足够多的题，接下来只需要“逸”就可以了呢。",
+			say = "多虧了某人，現在辦公室內已經累計做了足夠多的題，接下來只需要「逸」就可以了呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1721,10 +1721,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_169",
-			factiontag = "通讯模式",
+			factiontag = "通訊模式",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯。接下来大家要做的事就是休息。放松、尽兴地去玩吧——",
+			say = "嗯。接下來大家要做的事就是休息。放鬆、盡興地去玩吧――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

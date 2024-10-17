@@ -11942,7 +11942,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累計建造200次可獲得海上傳奇艦船 {namecode:294}(最多4次)"
+	tip = "亞爾薇特、Z47等角色建造概率UP!"
 }
 
 
@@ -13979,7 +13979,7 @@ _G.pg.base.gametip.index_rare6 = {
 
 
 _G.pg.base.gametip.warning_mail_max_1 = {
-	tip = "郵件數接近上限(<color=#FF5C5C>$1</color>/1000)，請及時整理"
+	tip = "郵件數接近上限(<color=#FF5C5C>$1</color>/100)，請及時整理"
 }
 
 
@@ -32935,6 +32935,30 @@ _G.pg.base.gametip.settings_flagship_interaction = {
 
 _G.pg.base.gametip.settings_enter_standby_mode_time = {
 	tip = "進入待機模式所需時間"
+}
+
+
+_G.pg.base.gametip["202406_wenquan_unlock"] = {
+	tip = "是否消耗$1小星星獎勵券<icon name=59593 w=0.7 h=0.7/>擴展童心樂園"
+}
+
+
+_G.pg.base.gametip["202406_wenquan_unlock_tip2"] = {
+	tip = "資源不足，無法解鎖~"
+}
+
+
+_G.pg.base.gametip["202406_main_help"] = {
+	tip = {
+		{
+			info = [[
+活動規則：
+·<color=#92fc63>10.17-10.31維護</color>期間開啟限時活動「歡迎來到童心學院」
+·指揮官可以透過學院冒險-作戰模式累計「彩色塗鴉畫」，獲得角色<color=#92fc63>「{namecode:537}」</color>、裝備<color=#92fc63>「四聯裝533mm磁性魚雷改」</color>等獎勵
+·透過學院冒險-劇情模式可獲得限定紀念外觀
+·可於童心樂園中放入角色，加快心情回復，童心樂園擴建道具可於活動任務中獲取]]
+		}
+	}
 }
 
 

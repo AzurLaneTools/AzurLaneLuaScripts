@@ -139,6 +139,8 @@ pg.furniture_data_template = setmetatable({
 			273,
 			275,
 			278,
+			280,
+			281,
 			288,
 			100002,
 			100003,
@@ -4855,6 +4857,8 @@ pg.furniture_data_template = setmetatable({
 			263,
 			265,
 			269,
+			280,
+			281,
 			288,
 			100002,
 			100003,
@@ -5819,6 +5823,7 @@ pg.furniture_data_template = setmetatable({
 			273,
 			275,
 			278,
+			280,
 			288,
 			100002,
 			100004,
@@ -7590,6 +7595,7 @@ pg.furniture_data_template = setmetatable({
 			143,
 			215,
 			233,
+			281,
 			100003,
 			100008,
 			100021,
@@ -8480,6 +8486,8 @@ pg.furniture_data_template = setmetatable({
 		273,
 		275,
 		278,
+		280,
+		281,
 		288,
 		100002,
 		100003,
@@ -17621,6 +17629,207 @@ pg.base.furniture_data_template = {
 			{
 				"youlunxunzhang",
 				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[280] = {
+		can_rotate = 0,
+		describe = "五彩繽紛的溜滑梯，讓童心滑向遠方！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/youeryuanhuati",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "童心溜滑梯",
+		advice = 0,
+		icon = "youeryuanhuatiicon",
+		id = 280,
+		comfortable = 4,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[281] = {
+		can_rotate = 0,
+		describe = "高效快速的校車，讓童心不再遲到！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "youeryuanxiaocheicon",
+		count = 1,
+		name = "童心校車",
+		advice = 0,
+		id = 281,
+		tag = 6,
+		comfortable = 4,
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"youeryuanxiaocheB",
+				"normal",
+				nil,
+				1
+			},
+			{
+				"youeryuanxiaocheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit1",
+						nil,
+						"sit"
+					}
+				},
+				{
+					nil,
+					1,
+					{
+						{
+							"walk1",
+							"walk2",
+							"walk3"
+						},
+						"walk",
+						1
+					}
+				},
+				{
+					1
+				},
+				{
+					{
+						"sit1"
+					},
+					{
+						"sit2"
+					},
+					{
+						"sit3"
+					}
+				}
+			},
+			{
+				{
+					-40.1,
+					28.6
+				},
+				{
+					192,
+					172
+				},
+				"chuanmo/youeryuanxiaoche_mask1"
+			},
+			{
+				30.6,
+				-14.2
+			},
+			{
+				1,
+				1
+			}
+		},
+		spine_extra = {
+			{
+				{
+					{
+						-6.5,
+						34.9
+					},
+					{
+						96,
+						125
+					},
+					"chuanmo/youeryuanxiaoche_mask2"
+				},
+				{
+					5.1,
+					-37
+				},
+				{
+					1,
+					1
+				}
+			},
+			{
+				{
+					{
+						-6.5,
+						34.9
+					},
+					{
+						100,
+						132
+					},
+					"chuanmo/youeryuanxiaoche_mask2"
+				},
+				{
+					5.1,
+					-37
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		followBone = {
+			{
+				"char1",
+				1
+			},
+			{
+				"char2",
+				1
+			},
+			{
+				"char3",
+				1
 			}
 		},
 		interAction_group = {}

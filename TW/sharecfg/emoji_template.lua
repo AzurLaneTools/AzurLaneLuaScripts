@@ -416,6 +416,32 @@ pg.emoji_template = {
 			1
 		}
 	},
+	[35] = {
+		achieve = 1,
+		index = 75,
+		pic = "35",
+		desc = "<color=#92fc63>[抓到你了~]</color>",
+		item_name = "聊天表情：抓到你了~",
+		item_desc = "聊天表情：抓到你了，可以在表情選項的「預設」標籤中找到並發出此表情。",
+		id = 35,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	[36] = {
+		achieve = 1,
+		index = 76,
+		pic = "36",
+		desc = "<color=#92fc63>[好熱啊……]</color>",
+		item_name = "聊天表情：好熱啊……",
+		item_desc = "聊天表情：好熱啊…… 可以在表情選項的「預設」標籤中找到並發出此表情。",
+		id = 36,
+		icon = "",
+		type = {
+			1
+		}
+	},
 	[41] = {
 		achieve = 0,
 		index = 1001,
@@ -2191,6 +2217,8 @@ pg.emoji_template = {
 		30,
 		31,
 		32,
+		35,
+		36,
 		41,
 		42,
 		43,

@@ -10,7 +10,7 @@ return {
 			bgm = "story-richang-11",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "轰隆隆————",
+			say = "轟隆隆――――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "异常石膏喵所搭建的大型石膏喵积木雕塑在巨大指挥官积木雕塑的撞击下变得支离破碎。",
+			say = "異常石膏喵所搭建的大型石膏喵積木雕塑在巨大指揮官積木雕塑的撞擊下變得支離破碎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "教室的大门重新开启，石膏喵也再次变为了真正的雕塑。",
+			say = "教室的大門重新開啟，石膏喵也再次變成真正的雕塑了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 401431,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼，不愧是我们闪耀星星小队！",
+			say = "哼哼，不愧是我們閃耀星星小隊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,7 +130,7 @@ return {
 			actor = 408131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "童心教学楼救援任务，圆满成功~下一站我们去——",
+			say = "童心教學大樓救援任務，圓滿成功~下一站我們去――",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "轰隆隆————",
+			say = "轟隆隆――――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			actor = 403130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是……地震？",
+			say = "這是……地震？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			actor = 207130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜哇哇——发生了什么！皇家的淑女可不能……站不稳了！",
+			say = "嗚哇哇――發生了什麼事！皇家的淑女不能……站不穩了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "画面随着轰鸣声剧烈震动，仿佛正在经历大地震一般。",
+			say = "畫面隨著轟鳴聲劇烈震動，彷彿正在經歷大地震。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,19 +208,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "而在学院外的临时指挥中心处，则没有感受到丝毫震动。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_147",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "（这是……异常空间内部正在发生剧烈变化？）",
+			say = "而在學院外的臨時指揮中心處，則沒有感受到絲毫震動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,10 +218,22 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_147",
-			factiontag = "通讯模式",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所有人，快离开教室前往空地避难！",
+			say = "（這是……異常空間內部正在劇烈變化？）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_147",
+			factiontag = "通訊模式",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "所有人，快離開教室前往空地避難！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

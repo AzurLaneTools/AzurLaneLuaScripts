@@ -23122,6 +23122,131 @@ _G.pg.base.item_data_statistics[30357] = {
 }
 
 
+_G.pg.base.item_data_statistics[30358] = {
+	open_directly = 1,
+	name = "外觀裝備箱(童心)",
+	type = 11,
+	display = "可以獲得一件隨機的童心學院風格外觀裝備",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxtongxin",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30358",
+	id = 30358,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4001,
+			1
+		},
+		{
+			9,
+			4002,
+			1
+		},
+		{
+			9,
+			4003,
+			1
+		},
+		{
+			9,
+			4004,
+			1
+		},
+		{
+			9,
+			4005,
+			1
+		},
+		{
+			9,
+			4006,
+			1
+		},
+		{
+			9,
+			4007,
+			1
+		},
+		{
+			9,
+			4008,
+			1
+		},
+		{
+			9,
+			4009,
+			1
+		},
+		{
+			9,
+			4010,
+			1
+		},
+		{
+			9,
+			4011,
+			1
+		},
+		{
+			9,
+			4012,
+			1
+		},
+		{
+			9,
+			4013,
+			1
+		},
+		{
+			9,
+			4014,
+			1
+		},
+		{
+			9,
+			4015,
+			1
+		},
+		{
+			9,
+			4016,
+			1
+		},
+		{
+			9,
+			4017,
+			1
+		},
+		{
+			9,
+			4018,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[30360] = {
 	open_directly = 1,
 	name = "外觀裝備箱(夢幻樂園)",
@@ -32210,6 +32335,219 @@ _G.pg.base.item_data_statistics[30541] = {
 }
 
 
+_G.pg.base.item_data_statistics[30542] = {
+	open_directly = 0,
+	name = "定向外觀裝備箱(童心)",
+	type = 13,
+	display = "使用後可從「童心學院」主題外觀裝備中任意選擇一種獲得1個",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxtongxinzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30542,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4001,
+			1
+		},
+		{
+			9,
+			4002,
+			1
+		},
+		{
+			9,
+			4003,
+			1
+		},
+		{
+			9,
+			4004,
+			1
+		},
+		{
+			9,
+			4005,
+			1
+		},
+		{
+			9,
+			4006,
+			1
+		},
+		{
+			9,
+			4007,
+			1
+		},
+		{
+			9,
+			4008,
+			1
+		},
+		{
+			9,
+			4009,
+			1
+		},
+		{
+			9,
+			4010,
+			1
+		},
+		{
+			9,
+			4011,
+			1
+		},
+		{
+			9,
+			4012,
+			1
+		},
+		{
+			9,
+			4013,
+			1
+		},
+		{
+			9,
+			4014,
+			1
+		},
+		{
+			9,
+			4015,
+			1
+		},
+		{
+			9,
+			4016,
+			1
+		},
+		{
+			9,
+			4017,
+			1
+		},
+		{
+			9,
+			4018,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4001,
+			1
+		},
+		{
+			9,
+			4002,
+			1
+		},
+		{
+			9,
+			4003,
+			1
+		},
+		{
+			9,
+			4004,
+			1
+		},
+		{
+			9,
+			4005,
+			1
+		},
+		{
+			9,
+			4006,
+			1
+		},
+		{
+			9,
+			4007,
+			1
+		},
+		{
+			9,
+			4008,
+			1
+		},
+		{
+			9,
+			4009,
+			1
+		},
+		{
+			9,
+			4010,
+			1
+		},
+		{
+			9,
+			4011,
+			1
+		},
+		{
+			9,
+			4012,
+			1
+		},
+		{
+			9,
+			4013,
+			1
+		},
+		{
+			9,
+			4014,
+			1
+		},
+		{
+			9,
+			4015,
+			1
+		},
+		{
+			9,
+			4016,
+			1
+		},
+		{
+			9,
+			4017,
+			1
+		},
+		{
+			9,
+			4018,
+			1
+		}
+	}
+}
+
+
 _G.pg.base.item_data_statistics[30545] = {
 	open_directly = 0,
 	name = "定向外觀裝備箱(夢幻樂園)",
@@ -33071,7 +33409,7 @@ _G.pg.base.item_data_statistics[40004] = {
 
 _G.pg.base.item_data_statistics[40005] = {
 	open_directly = 1,
-	name = "10級禮包",
+	name = "10級禮包（舊）",
 	type = 17,
 	display = "購買禮包可獲得大量材料獎勵",
 	other_resource_cost = "[]",
@@ -33128,7 +33466,7 @@ _G.pg.base.item_data_statistics[40005] = {
 
 _G.pg.base.item_data_statistics[40006] = {
 	open_directly = 1,
-	name = "20級禮包",
+	name = "20級禮包（舊）",
 	type = 17,
 	display = "購買禮包可獲得大量材料獎勵",
 	other_resource_cost = "[]",
@@ -33185,7 +33523,7 @@ _G.pg.base.item_data_statistics[40006] = {
 
 _G.pg.base.item_data_statistics[40007] = {
 	open_directly = 1,
-	name = "30級禮包",
+	name = "30級禮包（舊）",
 	type = 17,
 	display = "購買禮包可獲得大量材料獎勵",
 	other_resource_cost = "[]",
@@ -33257,7 +33595,7 @@ _G.pg.base.item_data_statistics[40007] = {
 
 _G.pg.base.item_data_statistics[40008] = {
 	open_directly = 1,
-	name = "50級禮包",
+	name = "50級禮包（舊）",
 	type = 17,
 	display = "購買禮包可獲得大量材料獎勵",
 	other_resource_cost = "[]",
@@ -33329,7 +33667,7 @@ _G.pg.base.item_data_statistics[40008] = {
 
 _G.pg.base.item_data_statistics[40009] = {
 	open_directly = 1,
-	name = "日常補給禮包",
+	name = "日常綜合補給包",
 	type = 17,
 	display = "購買禮包可獲得2個隨機T3科技箱和若干材料",
 	other_resource_cost = "[]",
@@ -33385,7 +33723,7 @@ _G.pg.base.item_data_statistics[40009] = {
 
 _G.pg.base.item_data_statistics[40011] = {
 	open_directly = 1,
-	name = "70級禮包",
+	name = "70級禮包（舊）",
 	type = 17,
 	display = "購買禮包可獲得大量材料獎勵",
 	other_resource_cost = "[]",
@@ -34482,6 +34820,719 @@ _G.pg.base.item_data_statistics[40033] = {
 			2,
 			20001,
 			30
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[40034] = {
+	open_directly = 1,
+	name = "每月心智單元組合包",
+	type = 17,
+	display = "購買禮包可獲得心智單元II*50和心智單元*1000",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/zhouchang1",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4036",
+	id = 40034,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			15012,
+			50
+		},
+		{
+			2,
+			15008,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[40035] = {
+	open_directly = 1,
+	name = "10級禮包",
+	type = 17,
+	display = "購買禮包可獲得大量材料獎勵",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/newboxLv10",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40035,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			10
+		},
+		{
+			2,
+			15003,
+			5
+		},
+		{
+			2,
+			30111,
+			30
+		},
+		{
+			2,
+			16001,
+			5
+		},
+		{
+			2,
+			16011,
+			5
+		},
+		{
+			2,
+			16021,
+			5
+		},
+		{
+			2,
+			16501,
+			25
+		},
+		{
+			1,
+			2,
+			800
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4037,
+		0,
+		800
+	}
+}
+
+
+_G.pg.base.item_data_statistics[40036] = {
+	open_directly = 1,
+	name = "20級禮包",
+	type = 17,
+	display = "購買禮包可獲得大量材料獎勵",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usgae_drop_template",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/newboxLv20",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 40036,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			2,
+			30112,
+			30
+		},
+		{
+			2,
+			30111,
+			70
+		},
+		{
+			2,
+			16002,
+			5
+		},
+		{
+			2,
+			16012,
+			5
+		},
+		{
+			2,
+			16022,
+			5
+		},
+		{
+			2,
+			16501,
+			50
+		},
+		{
+			1,
+			2,
+			1600
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		4038,
+		0,
+		1600
+	}
+}
+
+
+_G.pg.base.item_data_statistics[40037] = {
+	open_directly = 1,
+	name = "30級禮包",
+	type = 17,
+	display = "購買禮包可獲得大量材料獎勵",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/newboxLv30",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4039",
+	id = 40037,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			30
+		},
+		{
+			2,
+			15003,
+			15
+		},
+		{
+			2,
+			42000,
+			30
+		},
+		{
+			2,
+			30112,
+			60
+		},
+		{
+			2,
+			16003,
+			2
+		},
+		{
+			2,
+			16013,
+			2
+		},
+		{
+			2,
+			16023,
+			2
+		},
+		{
+			2,
+			16501,
+			75
+		},
+		{
+			2,
+			30121,
+			2
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[40038] = {
+	open_directly = 1,
+	name = "40級禮包",
+	type = 17,
+	display = "購買禮包可獲得大量材料獎勵",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/newboxLv40",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4040",
+	id = 40038,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			40
+		},
+		{
+			2,
+			15003,
+			20
+		},
+		{
+			2,
+			20013,
+			5
+		},
+		{
+			2,
+			30113,
+			80
+		},
+		{
+			2,
+			30112,
+			90
+		},
+		{
+			2,
+			16003,
+			3
+		},
+		{
+			2,
+			16013,
+			3
+		},
+		{
+			2,
+			16023,
+			3
+		},
+		{
+			2,
+			16501,
+			100
+		},
+		{
+			2,
+			30121,
+			2
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[40039] = {
+	open_directly = 1,
+	name = "50級禮包",
+	type = 17,
+	display = "購買禮包可獲得大量材料獎勵",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/newboxLv50",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4041",
+	id = 40039,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			50
+		},
+		{
+			2,
+			15003,
+			25
+		},
+		{
+			2,
+			42017,
+			10
+		},
+		{
+			2,
+			30113,
+			120
+		},
+		{
+			2,
+			30112,
+			120
+		},
+		{
+			2,
+			16003,
+			4
+		},
+		{
+			2,
+			16013,
+			4
+		},
+		{
+			2,
+			16023,
+			4
+		},
+		{
+			2,
+			16501,
+			125
+		},
+		{
+			2,
+			30121,
+			2
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[40040] = {
+	open_directly = 1,
+	name = "60級禮包",
+	type = 17,
+	display = "購買禮包可獲得大量材料獎勵",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/newboxLv60",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4042",
+	id = 40040,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			60
+		},
+		{
+			2,
+			15003,
+			30
+		},
+		{
+			2,
+			15008,
+			1000
+		},
+		{
+			2,
+			30113,
+			160
+		},
+		{
+			2,
+			16003,
+			5
+		},
+		{
+			2,
+			16013,
+			5
+		},
+		{
+			2,
+			16023,
+			5
+		},
+		{
+			2,
+			16501,
+			150
+		},
+		{
+			2,
+			30121,
+			2
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[40041] = {
+	open_directly = 1,
+	name = "70級禮包",
+	type = 17,
+	display = "購買禮包可獲得大量材料獎勵",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/newboxLv70",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4043",
+	id = 40041,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			70
+		},
+		{
+			2,
+			15003,
+			35
+		},
+		{
+			2,
+			42017,
+			20
+		},
+		{
+			2,
+			30113,
+			200
+		},
+		{
+			2,
+			16004,
+			2
+		},
+		{
+			2,
+			16014,
+			2
+		},
+		{
+			2,
+			16024,
+			2
+		},
+		{
+			2,
+			16501,
+			175
+		},
+		{
+			2,
+			30121,
+			3
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[40042] = {
+	open_directly = 1,
+	name = "80級禮包",
+	type = 17,
+	display = "購買禮包可獲得大量材料獎勵",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/newboxLv80",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4044",
+	id = 40042,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			80
+		},
+		{
+			2,
+			15003,
+			40
+		},
+		{
+			2,
+			15008,
+			2000
+		},
+		{
+			2,
+			30113,
+			240
+		},
+		{
+			2,
+			16004,
+			3
+		},
+		{
+			2,
+			16014,
+			3
+		},
+		{
+			2,
+			16024,
+			3
+		},
+		{
+			2,
+			16501,
+			200
+		},
+		{
+			2,
+			30121,
+			3
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[40043] = {
+	open_directly = 1,
+	name = "日常補給禮包",
+	type = 17,
+	display = "購買禮包可獲得心智魔方*1和石油*1200",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/richang",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4045",
+	id = 40043,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			1,
+			2,
+			1200
+		},
+		{
+			2,
+			20001,
+			1
 		}
 	},
 	price = {},

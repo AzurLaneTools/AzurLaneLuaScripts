@@ -355,7 +355,7 @@ pg.activity_series_enemy_story = {
 	},
 	[31] = {
 		pos_x = "0.10703125",
-		name = "叛恶者之歌",
+		name = "叛惡者之歌",
 		type = 1,
 		pos_y = "0.157291667",
 		story = "HUANYINLAIDAOTONGXINXUEYUAN2",
@@ -372,7 +372,7 @@ pg.activity_series_enemy_story = {
 	},
 	[32] = {
 		pos_x = "0.34609375",
-		name = "组成乐队吧♪",
+		name = "組成樂團吧♪",
 		type = 3,
 		pos_y = "0.347916667",
 		story = "1819601",
@@ -389,7 +389,7 @@ pg.activity_series_enemy_story = {
 	},
 	[33] = {
 		pos_x = "0.50546875",
-		name = "巨大指挥官",
+		name = "巨大指揮官",
 		type = 3,
 		pos_y = "0.080208333",
 		story = "1819602",
@@ -423,7 +423,7 @@ pg.activity_series_enemy_story = {
 	},
 	[35] = {
 		pos_x = "0.6265625",
-		name = "拯救老师大作战",
+		name = "拯救老師大作戰",
 		type = 1,
 		pos_y = "0.15625",
 		story = "HUANYINLAIDAOTONGXINXUEYUAN6",
@@ -440,7 +440,7 @@ pg.activity_series_enemy_story = {
 	},
 	[36] = {
 		pos_x = "1.10703125",
-		name = "与童心重逢之时",
+		name = "與童心重逢之時",
 		type = 3,
 		pos_y = "1.157291667",
 		story = "1819604",
@@ -474,7 +474,7 @@ pg.activity_series_enemy_story = {
 	},
 	[38] = {
 		pos_x = "1.50546875",
-		name = "愿童心永驻",
+		name = "願童心永駐",
 		type = 1,
 		pos_y = "1.080208333",
 		story = "HUANYINLAIDAOTONGXINXUEYUAN9",

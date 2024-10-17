@@ -435,6 +435,93 @@ pg.expedition_constellation_challenge_template = {
 			}
 		}
 	},
+	[10016] = {
+		button_style = 7,
+		information_icon = "aierbin_constellation",
+		painting = "aierbin",
+		id = 10016,
+		dungeon_id = 5118,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"蠍毒之霧",
+				"天蠍座化身在戰鬥開始後18秒及之後每40秒生成毒霧，同時天蠍座化身迴避率提高20%，持續20秒；接觸毒霧的敵方單位會受到【蠍毒】效果，自身迴避率降低<color=#92fc63>40%</color>，自身造成的傷害提高<color=#92fc63>20%</color>；【蠍毒】效果在自身受到治療效果後消失"
+			},
+			{
+				"致命毒刺",
+				"【蠍毒之霧】觸發後3秒釋放一輪特殊彈幕，被特殊彈幕命中的敵方單位若處於【蠍毒】效果時，會額外受到自身最大耐久<color=#92fc63>10%</color>的傷害"
+			}
+		},
+		award_display = {
+			{
+				14,
+				206,
+				1
+			}
+		}
+	},
+	[10017] = {
+		button_style = 7,
+		information_icon = "aierbin_constellation",
+		painting = "aierbin",
+		id = 10017,
+		dungeon_id = 5117,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"蠍毒之霧",
+				"天蠍座化身在戰鬥開始後18秒及之後每40秒生成毒霧，同時天蠍座化身迴避率提高20%，持續20秒；接觸毒霧的敵方單位會受到【蠍毒】效果，自身迴避率降低<color=#92fc63>60%</color>，自身造成的傷害提高<color=#92fc63>40%</color>；【蠍毒】效果在自身受到治療效果後消失"
+			},
+			{
+				"致命毒刺",
+				"【蠍毒之霧】觸發後3秒釋放一輪特殊彈幕，被特殊彈幕命中的敵方單位若處於【蠍毒】效果時，會額外受到自身最大耐久<color=#92fc63>20%</color>的傷害"
+			}
+		},
+		award_display = {
+			{
+				15,
+				10006,
+				1
+			}
+		}
+	},
+	[10018] = {
+		button_style = 7,
+		information_icon = "aierbin_constellation",
+		painting = "aierbin",
+		id = 10018,
+		dungeon_id = 5116,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"蠍毒之霧",
+				"天蠍座化身在戰鬥開始後18秒及之後每40秒生成毒霧，同時天蠍座化身迴避率提高20%，持續20秒；接觸毒霧的敵方單位會受到【蠍毒】效果，自身迴避率降低<color=#92fc63>80%</color>，自身造成的傷害提高<color=#92fc63>60%</color>；【蠍毒】效果在自身受到治療效果後消失"
+			},
+			{
+				"致命毒刺",
+				"【蠍毒之霧】觸發後3秒釋放一輪特殊彈幕，被特殊彈幕命中的敵方單位若處於【蠍毒】效果時，會額外受到自身最大耐久<color=#92fc63>30%</color>的傷害"
+			}
+		},
+		award_display = {
+			{
+				14,
+				10006,
+				1
+			}
+		}
+	},
 	all = {
 		10001,
 		10002,
@@ -450,6 +537,9 @@ pg.expedition_constellation_challenge_template = {
 		10012,
 		10013,
 		10014,
-		10015
+		10015,
+		10016,
+		10017,
+		10018
 	}
 }

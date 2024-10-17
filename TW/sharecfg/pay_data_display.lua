@@ -21,6 +21,7 @@ pg.pay_data_display = setmetatable({
 		2022,
 		2023,
 		2024,
+		2025,
 		5001,
 		5002,
 		5003,
@@ -1568,6 +1569,65 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40033,
+				1
+			}
+		}
+	},
+	[2025] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		type = 0,
+		name = "日常補給禮包",
+		first_pay_double = 0,
+		name_display = "日常補給禮包",
+		descrip = "購買禮包可獲得心智魔方*1和石油*1200",
+		subject = "日常補給禮包",
+		money = 33,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 4,
+		time = "always",
+		type_order = 3,
+		picture = "richang",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.libao119",
+		extra_service = 3,
+		id = 2025,
+		airijp_id = "com.yostarjp.azurlane.package116",
+		extra_service_item = {
+			{
+				1,
+				2,
+				1200
+			},
+			{
+				2,
+				20001,
+				1
+			}
+		},
+		display = {
+			{
+				1,
+				2,
+				1200
+			},
+			{
+				2,
+				20001,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40043,
 				1
 			}
 		}

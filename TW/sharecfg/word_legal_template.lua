@@ -1983,6 +1983,13 @@ temp = function()
 		},
 		["德"] = {
 			this = true
+		},
+		["爾"] = {
+			["薇"] = {
+				["特"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -5098,6 +5105,12 @@ temp = function()
 		["4"] = {
 			["6"] = {
 				this = true
+			},
+			["7"] = {
+				this = true
+			},
+			["3"] = {
+				this = true
 			}
 		}
 	}
@@ -5373,6 +5386,11 @@ temp = function()
 				["6"] = {
 					this = true
 				}
+			}
+		},
+		["3"] = {
+			["1"] = {
+				this = true
 			}
 		}
 	}

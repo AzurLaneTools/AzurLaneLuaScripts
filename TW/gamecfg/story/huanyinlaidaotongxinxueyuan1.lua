@@ -12,7 +12,7 @@ return {
 			bgm = "story-richang-7",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "此时此刻，我正看着手机上收到的消息——",
+			say = "此時此刻，我正看著手機上收到的訊息――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "“指挥官，我们被困在学院了！”",
+			say = "「指揮官，我們被困在學校了！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "“居然发出去了——”",
+			say = "「居然發出去了――」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "是{namecode:494:Z47}的信息，与以往的轰炸式文字信息与各种表情包混发的形式不同，这次只有两条简短的文字信息。",
+			say = "是Z47的訊息，與以往的轟炸式文字訊息與各種表情包混發的形式不同，這次只有兩條簡短的文字訊息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（是恶作剧么？不对，{namecode:494:Z47}不像是会恶作剧的人……总之先确认一下情况吧。）",
+			say = "（是惡作劇嗎？不對，Z47不像是會惡作劇的人……總之先確認一下情況吧。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,9 +97,9 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "小企业",
+			actorName = "小企業",
 			hidePaintObj = true,
-			say = "指挥官，指挥官！",
+			say = "指揮官，指揮官！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,9 +115,9 @@ return {
 			bgName = "bg_story_task_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "{namecode:193}",
+			actorName = "小天城",
 			hidePaintObj = true,
-			say = "咳咳、指挥官……",
+			say = "咳咳、指揮官……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "正当我准备进一步确认状况时，两道小小的身影冲进了指挥室。",
+			say = "正當我準備進一步確認狀況時，兩道小小的身影衝進了指揮室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			actor = 107990,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:161:天城}，你还好么？抱歉……一路拉着你跑过来……",
+			say = "天城，妳還好嗎？抱歉……一路拉著妳跑過來……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			actor = 107990,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽说要时刻保持冷静……但是现在……唔……发生的事情让人根本冷静不下来！",
+			say = "雖說要時時保持冷靜……但是現在……唔……發生的事情讓人根本冷靜不下來！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			actor = 304070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我没事……只是因为不擅长运动而已……我们还是先把紧急情况告诉主上吧！",
+			say = "我沒事……只是因為不擅長運動而已……我們還是先把緊急狀況告訴主上吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,11 +192,11 @@ return {
 			},
 			options = {
 				{
-					content = "你们也有紧急情况？",
+					content = "妳們也有緊急狀況？",
 					flag = 1
 				},
 				{
-					content = "到底发生了什么事？",
+					content = "到底發生了什麼事？",
 					flag = 2
 				}
 			}
@@ -209,7 +209,7 @@ return {
 			actor = 304070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也……？指挥官已经收到求助了吗？",
+			say = "也……？指揮官已經收到求助了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "嗯，总之先和我说说到底发生了什么吧。",
+			say = "嗯，總之先跟我說說到底發生了什麼事吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 107990,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "学院突然发生了异变！还在里面上课的同伴们完全失联了……外面的人也进不去……",
+			say = "學校突然發生了異變！還在裡面上課的同伴完全失聯了……外面的人也進不去……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯……？失联……？）",
+			say = "（嗯……？失聯……？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "异变发生的时候，{namecode:494:Z47}也在里面么？",
+			say = "異變發生的時候，Z47也在裡面嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "我拿出手机试图与校园内的{namecode:494:Z47}取得联系，但聊天气泡前出现了回复失败的感叹号。",
+			say = "我拿出手機試圖與校園內的Z47取得聯繫，但聊天氣泡前出現了回復失敗的感嘆號。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（看来事态比预想中更加紧急……）",
+			say = "（看來事態比預想中更緊急……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			actor = 107990,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，看来我们只能亲自去调查一下了呢。",
+			say = "指揮官，看來我們只能親自去調查一下了呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			actor = 304070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只靠我们恐怕力有不逮，主上，我们再叫些同伴来帮忙吧。",
+			say = "只靠我們恐怕力有不逮，主上，我們再叫些同伴來幫忙吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯。{namecode:193:小天城}、小企业，你们跟我一起去。我在路上呼叫支援。",
+			say = "嗯。小天城、小企業，妳們跟我一起去。我在路上呼叫支援。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			dir = -1,
 			nameColor = "#A9F548FF",
 			hideOther = true,
-			actorName = "小企业&{namecode:193:小天城}",
+			actorName = "小企業&小天城",
 			say = "遵命！",
 			subActors = {
 				{
@@ -406,7 +406,7 @@ return {
 			bgm = "level",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "港区·校园入口",
+			say = "港區·校園入口",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "不远处众人正一脸严肃地站在校园入口处。",
+			say = "不遠處，眾人正一臉嚴肅地站在校園入口處。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			actor = 405020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我和姐姐在收到通讯后就第一时间赶到了这里，可是无法打开大门……",
+			say = "指揮官，我和姊姊在收到通訊後就第一時間就趕到了這裡，可是無法打開大門……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，不论是常规方法还是武力突破都试过了。",
+			say = "嗯，不論是常規方法還是武力突破都試過了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "整座学院似乎进入了某种特殊的空间中，就像镜面海域一样，必须要满足特定的条件才能进入。",
+			say = "整座學院似乎進入了某種特殊的空間中，就像鏡面海域一樣，必須滿足特定的條件才能進入。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -499,7 +499,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（镜面海域……在学院里？）",
+			say = "（鏡面海域……在學院裡？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,19 +510,19 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "在两人的说明中，我走到了学院大门前，靠近了安保系统的面部识别处。",
+			say = "在兩人的說明中，我走到了學校大門前，靠近了保全系統的臉部辨識處。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "安保系统",
+			actorName = "保全系統",
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“滴——访客{playername}认证失败。警告！警告！非认证人员不得入内！”",
+			say = "「滴――訪客安克拉治認證失敗。警告！警告！非認證人員不得入內！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "果然没那么容易啊……",
+			say = "果然沒那麼容易……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，我和{namecode:436:提尔比茨}的认证也失败了，没想到就连指挥官的权限也会失灵啊。",
+			say = "嗯，我和鐵必制的認證也失敗了，沒想到連指揮官的權限也會失靈啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -565,7 +565,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过，我们已经联系过{namecode:525:英格拉罕}和灵敏，她们应该很快就到了。",
+			say = "不過，我們已經聯絡過英格拉罕和靈敏，她們應該很快就會到了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -580,7 +580,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "说话间，{namecode:525:英格拉罕}和灵敏就赶到了，她们在简单了解情况过后便开始尝试攻破安保系统。",
+			say = "說話間，英格拉罕和靈敏就趕到了，她們在簡單了解情況過後便開始嘗試攻破保全系統。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +591,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_story_childschool",
-			say = "一段时间后——",
+			say = "一段時間後――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			actor = 101480,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不行……还是弄不开。",
+			say = "不行……還是弄不開。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -650,7 +650,7 @@ return {
 			actor = 701090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……因为我们面对的问题根本不是系统故障。",
+			say = "嗯……因為我們面對的問題根本不是系統故障。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -667,7 +667,7 @@ return {
 			actor = 701090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然是寻找进入加密空间的方法，找个密码学专家来也许更有效……",
+			say = "既然是尋找進入加密空間的方法，找個密碼學專家來也許更有效…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -685,7 +685,7 @@ return {
 			actor = 101480,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "或者找到设立这套安保系统的人，我记得是{namecode:37:夕张}吧……指挥官，你联系过她么？",
+			say = "或是找到設立這套保全系統的人……我記得是夕張吧……指揮官，你有聯絡過她嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -701,7 +701,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，在来的路上我联系过她，不过没有收到任何回复。",
+			say = "嗯，在來的路上我聯絡過她，不過沒有收到任何回復。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -715,7 +715,7 @@ return {
 			actor = 701090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说起来，{namecode:37:夕张}好像说今天要去学院里维护什么设备来着……难道她已经被困在里面了？！",
+			say = "說起來，夕張好像說今天要去學院裡維護什麼設備來著……難道她已經被困在裡面了？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -733,7 +733,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "制作者被困入其中，这样的话就有些麻烦了呢。",
+			say = "製作者被困入其中，這樣的話就有些麻煩了呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -749,7 +749,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（再怎么说，也不能对港区内部设施使用重火力，看来只能让TB解码试试了……）",
+			say = "（再怎麼說，也不能對港區內部設施使用重火力，看來只能讓TB解碼試試看了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,19 +760,19 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "就在我思考如何进行救援行动时——",
+			say = "就在我思考如何進行救援行動時――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "安保系统",
+			actorName = "保全系統",
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“滴——访客{namecode:536:U-31}认证成功，请通行。”",
+			say = "「滴――訪客U-31認證成功，請通行。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -783,7 +783,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "安保系统发出了一声柔和的通过提示，校园大门缓缓打开了。",
+			say = "保全系統發出了一聲柔和的通過提示，校園大門緩緩打開了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -797,7 +797,7 @@ return {
 			actor = 408131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "什么嘛~这不是往这一靠近，门就打开了吗~？",
+			say = "什麼嘛~這不是往這一靠近，門就打開了嗎~？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -812,7 +812,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "而通过认证的人员——不知何时出现的{namecode:536:U-31}。",
+			say = "而通過認證的人員――不知何時出現的U-31，湊到了我身邊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -826,7 +826,7 @@ return {
 			actor = 408131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿~指挥官，我来保护你啦。",
+			say = "嘻嘻~指揮官，我來保護你啦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -853,7 +853,7 @@ return {
 			actor = 408131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然不清楚发生了什么事，不过门已经打开了哦。",
+			say = "雖然不清楚發生了什麼事，不過門已經打開了哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -871,7 +871,7 @@ return {
 			actor = 101480,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "门居然就……这么打开了？",
+			say = "門居然就……這麼打開了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -889,7 +889,7 @@ return {
 			actor = 701090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "认证系统原来还有在正常工作么，我还以为铁定被锁死了！",
+			say = "認證系統原來還有在正常工作嗎，我還以為鐵定被鎖死了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -906,7 +906,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……异变后，门禁系统的开启条件同样发生了改变么，有趣。",
+			say = "……異變後，門禁系統的開啟條件同樣發生了改變嗎，有趣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -923,7 +923,7 @@ return {
 			actor = 405020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大家快看校园内的景象……",
+			say = "大家快看校園內的景象……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -938,7 +938,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "放眼望去，印有彩色图案的宣传标语映入眼帘。",
+			say = "放眼望去，印有彩色圖案的宣傳標語映入眼簾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -949,7 +949,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "——\"童真，童心，童趣的乐园。\"",
+			say = "――「童真，童心，童趣的樂園。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -962,7 +962,7 @@ return {
 			actor = 405020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "之前……校园里是没这个标语的，对吧？",
+			say = "之前……校園裡是沒這個標語的，對吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -980,7 +980,7 @@ return {
 			actor = 107990,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，没有哦！",
+			say = "嗯，沒有哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -996,7 +996,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "原来如此，或许是这样……",
+			say = "原來如此，或許是這樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1008,31 +1008,31 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "小企业，{namecode:193:小天城}，你们也靠近门禁系统试试看？",
+			say = "小企業，小天城，妳們也靠近門禁系統試試看？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "安保系统",
+			actorName = "保全系統",
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“滴——访客小企业认证成功，请通行。”",
+			say = "「滴――訪客小企業認證成功，請通行。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "安保系统",
+			actorName = "保全系統",
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“滴——访客{namecode:193:小天城}认证成功，请通行。”",
+			say = "「滴――訪客小天城認證成功，請通行。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1045,7 +1045,7 @@ return {
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来童真、童心和童趣就是通行条件啊！那让本调查员来试试吧~",
+			say = "原來童真、童心和童趣就是通行條件啊！那就讓本調查員來試試吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1056,12 +1056,12 @@ return {
 			}
 		},
 		{
-			actorName = "安保系统",
+			actorName = "保全系統",
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“滴——访客布里斯托尔认证失败。警告！警告！非认证人员不得入内！”",
+			say = "「滴――訪客布里斯托爾認證失敗。警告！警告！非認證人員不得入內！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1075,7 +1075,7 @@ return {
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸……开什么玩笑！",
+			say = "欸……開什麼玩笑！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1102,7 +1102,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼，看来作为调查员的你因为接触了太多黑暗秘密，已经失去童心咯~",
+			say = "哼哼，看來身為調查員的妳因為接觸了太多黑暗秘密，已經失去童心了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1119,7 +1119,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还是让本冒险之王抚顺来试试吧~！",
+			say = "還是讓本冒險之王撫順來試試吧~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1130,12 +1130,12 @@ return {
 			}
 		},
 		{
-			actorName = "安保系统",
+			actorName = "保全系統",
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“滴——访客王抚顺认证失败。警告！警告！非认证人员不得入内！”",
+			say = "「滴――訪客撫順認證失敗。警告！警告！非認證人員不得入內！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1148,7 +1148,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……啊？冒险之王抚顺，抚顺啊！你这个系统是故意的吧！",
+			say = "……啊？我可是冒險之王撫順，撫順啊！妳這個系統是故意的吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1175,7 +1175,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "气死我了……指挥官，我们直接把它炸了进去吧！",
+			say = "氣死我了……指揮官，我們直接把它炸了進去！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1203,7 +1203,7 @@ return {
 			actor = 501070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，别那么暴力嘛，让飞云大人来试试~!",
+			say = "嘿嘿，別那麼暴力嘛，讓飛雲大人來試試~!",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1214,12 +1214,12 @@ return {
 			}
 		},
 		{
-			actorName = "安保系统",
+			actorName = "保全系統",
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“滴——访客飞云认证失败。警告！警告！非认证人员不得入内！”",
+			say = "「滴――訪客飛雲認證失敗。警告！警告！非認證人員不得入內！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1233,7 +1233,7 @@ return {
 			actor = 501070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么会QAQ！",
+			say = "怎麼會QAQ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1251,7 +1251,7 @@ return {
 			actor = 199030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "安克雷奇……也要……！",
+			say = "安克拉治……也要……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1262,12 +1262,12 @@ return {
 			}
 		},
 		{
-			actorName = "安保系统",
+			actorName = "保全系統",
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“滴——访客安克雷奇认证失败。警告！警告！非认证人员不得入内！”",
+			say = "「滴――訪客安克拉治認證失敗。警告！警告！非認證人員不得入內！」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1281,7 +1281,7 @@ return {
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就连安克雷奇的认证也失败了……？奇怪，这个认证条件到底是怎么回事啊……",
+			say = "連安克拉治的認證也失敗了……？奇怪，這個認證條件到底是怎麼回事啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1299,7 +1299,7 @@ return {
 			actor = 304070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可是我和企业、还有{namecode:536:U-31}就能进去……",
+			say = "可是我和企業、還有U-31就能進去……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1317,7 +1317,7 @@ return {
 			actor = 101266,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "埃尔德里奇，试试。",
+			say = "埃爾德里奇，試試看。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1328,12 +1328,12 @@ return {
 			}
 		},
 		{
-			actorName = "安保系统",
+			actorName = "保全系統",
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“滴——访客埃尔德里奇认证成功，请通行。”",
+			say = "「滴――訪客埃爾德里奇認證成功，請通行。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1347,7 +1347,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来如此……穿校服，或者是小船，这就是进入门禁的条件？",
+			say = "原來如此……穿校服，或是小船，這就是通過認證的條件？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1363,7 +1363,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……看来如此。",
+			say = "嗯……看來確實如此。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1375,7 +1375,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（幸好，异变发生时有一些小船因为课外任务没有在学院内。）",
+			say = "（幸好，異變發生時有些小船因為課外任務沒有在學院內。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1387,7 +1387,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（既然是这样的话，关于接下来的调查营救行动——）",
+			say = "（既然是這樣的話，關於接下來的調查營救行動――）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1398,7 +1398,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_story_childschool",
-			say = "根据通过门禁的要求，很快小队就组建完毕了。",
+			say = "根據通過門禁認證的要求，很快就組成了救援小隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1429,7 +1429,7 @@ return {
 			actor = 401431,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "吾的魔眼已给予吾启示，一切都是暗黑镇魂曲的阴谋！深陷绝境之友，由吾来拯救！",
+			say = "吾的魔眼已給予吾啟示，一切都是暗黑鎮魂曲的陰謀！深陷絕境之友，由吾來拯救！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1447,7 +1447,7 @@ return {
 			actor = 307130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿……指挥官大人，{namecode:97:大凤}会好好完成这项任务的，请耐心等着我哦。",
+			say = "嘿嘿……指揮官大人，大鳳會好好完成這項任務的，請耐心等著我哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1475,7 +1475,7 @@ return {
 			actor = 408131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "放心吧指挥官，我会好好看住、咳……保护{namecode:291:小大凤}安全的。",
+			say = "放心吧指揮官，我會好好看住、咳……保護小大鳳安全的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1492,7 +1492,7 @@ return {
 			actor = 101266,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "小队……需要一个名字。",
+			say = "小隊……需要一個名字。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1510,7 +1510,7 @@ return {
 			actor = 401431,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "命名？那就叫清剿世界全部之恶小队吧！",
+			say = "命名？那就叫清剿世界全部之惡小隊吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1527,7 +1527,7 @@ return {
 			actor = 101266,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……意义不明。",
+			say = "……意義不明。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1545,7 +1545,7 @@ return {
 			actor = 102210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "闪耀星星小队怎么样！",
+			say = "閃耀星星小隊怎麼樣！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1562,7 +1562,7 @@ return {
 			actor = 101266,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……很可爱。",
+			say = "……很可愛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1580,7 +1580,7 @@ return {
 			actor = 408131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可爱是可爱啦……不能有更时尚一些的名字了吗？",
+			say = "可愛是可愛啦……不能有更時尚一點的名字了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1598,7 +1598,7 @@ return {
 			actor = 101490,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可恶！多么难得的不可思议事件啊！身为调查员的我居然被拒之门外！",
+			say = "可惡！多麼難得的不可思議事件啊！身為調查員的我居然被拒於門外！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1615,7 +1615,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "校服……校服……指挥官，我想要校服！",
+			say = "校服……校服……指揮官，我想要校服！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1633,7 +1633,7 @@ return {
 			actor = 501070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官~飞云大人也想要校服~！",
+			say = "指揮官~飛雲大人也想要校服~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1658,7 +1658,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_story_childschool",
-			say = "就这样，在一片吵闹声中，救援小队正在进行出发前的最后准备。",
+			say = "就這樣，在一片吵鬧聲中，救援小隊正在進行出發前的最後準備。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1689,7 +1689,7 @@ return {
 			actor = 107990,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我也可以加入救援小队的，让我一起去吧？",
+			say = "指揮官，我也可以加入救援小隊的，讓我一起去吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1707,7 +1707,7 @@ return {
 			actor = 304070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:161:天城}也可以……！",
+			say = "天城也可以……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1723,7 +1723,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "再怎么说，你们两个受到了惊吓，还是留在外面休息吧。",
+			say = "再怎麼說，妳們兩個受到了驚嚇，還是留在外面休息吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1753,7 +1753,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:536:U-31}，拿好这个摄影设备。我们会从外部全程关注你们的行动，并为你们提供支援。",
+			say = "U-31，拿好這個攝影器材。我們會從外部全程關注妳們的行動，並為妳們提供支援。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1767,7 +1767,7 @@ return {
 			actor = 408131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "知道啦！那么晚点见咯，指挥官~",
+			say = "知道啦！那麼晚點見囉，指揮官~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1785,7 +1785,7 @@ return {
 			actor = 401431,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "吾的魔眼已预见了凯旋的未来，等着吾吧！",
+			say = "吾的魔眼已預見了凱旋的未來，等著吾！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1803,7 +1803,7 @@ return {
 			actor = 102210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "闪耀星星小队一定会把大家都救出来的！",
+			say = "閃耀星星小隊一定會把大家都救出來的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1820,7 +1820,7 @@ return {
 			actor = 101266,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，拜拜。",
+			say = "指揮官，拜拜。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1831,12 +1831,12 @@ return {
 			}
 		},
 		{
-			actorName = "安保系统",
+			actorName = "保全系統",
 			side = 2,
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“滴——访客闪耀星星小队认证成功，请通行。”",
+			say = "「滴――訪客閃耀星星小隊認證成功，請通行。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1847,19 +1847,19 @@ return {
 			asideType = 1,
 			sequence = {
 				{
-					"「欢迎来到童心学院。」",
+					"「歡迎來到童心學院。」",
 					2
 				},
 				{
-					"「愿你在这里度过开心快乐的每一天。」",
+					"「願妳在這裡度過開心快樂的每一天。」",
 					4
 				},
 				{
-					"「愿你永远保持童真。」",
+					"「願妳永遠保持童真。」",
 					6
 				},
 				{
-					"「愿童心永驻。」",
+					"「願童心永駐。」",
 					8
 				}
 			}

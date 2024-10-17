@@ -9,7 +9,7 @@ return {
 			bgm = "story-richang-11",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "经过了105圈的比试，异常石膏喵全数败下阵来。",
+			say = "經過了105圈的比試，異常石膏喵全數敗下陣來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
-			say = "比试失败的石膏喵全数变成了石膏雕塑，跑道也停了下来。",
+			say = "比試失敗的石膏喵全數變成了石膏雕塑，跑道也停了下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			actor = 102200,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……呼……知道未来海上骑士的厉害了吧！",
+			say = "呼……呼……知道未來海上騎士的厲害了吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			actor = 204040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "堂堂正正的比试我可是不会输！",
+			say = "堂堂正正的比試我可是不會輸的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			actor = 102210,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好耶！果然我们是最厉害的~！",
+			say = "好耶！果然我們是最厲害的~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			actor = 408131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么接下来——",
+			say = "那麼接下來――",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,10 +119,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_story_childschool",
-			factiontag = "通讯模式",
+			factiontag = "通訊模式",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "大家跑完之后都很累了，在执行接下来的调查之前，先休息一下吧。",
+			say = "大家跑完之後都很累了，在執行接下來的調查之前，先休息一下吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，不愧是体贴的指挥官，我正想这么建议呢~",
+			say = "嘿嘿，不愧是體貼的指揮官，我正想這麼建議呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			bgm = "story-richang-7",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "操场之上，少女们开始了休息时光。",
+			say = "操場之上，少女們開始了休息時光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_705",
 			hidePaintObj = true,
-			say = "而后，很快休息时光转变成了游戏时光——",
+			say = "而後，很快休息時光轉變成了遊戲時光――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			bgName = "star_level_bg_705",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……虽说异变还没被彻底解决，不过——也不错吧。）",
+			say = "（……雖然異變還沒被徹底解決，不過――也不錯吧。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_705",
 			hidePaintObj = true,
-			say = "为了不打扰她们，我暂时将前线频道从临时指挥室公屏切换到了私人频道。",
+			say = "為了不打擾她們，我暫時將前線頻道從臨時指揮室公開頻道切換到了私人頻道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_705",
 			hidePaintObj = true,
-			say = "此刻的健康活力操场上，大家正热热闹闹地使用着操场上的各类设施游玩，只有{namecode:494:Z47}独自坐在跷跷板上玩手机。",
+			say = "此刻的健康活力操場上，大家正熱鬧地使用著操場上的各類設施遊玩，只有Z47獨自坐在蹺蹺板上玩手機。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,10 +218,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_705",
-			factiontag = "通讯模式",
+			factiontag = "通訊模式",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:494:Z47}你不和大家一起玩么？",
+			say = "Z47妳不跟大家一起玩嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			actor = 401471,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好吧，既然指挥官都这么说了……那就不玩手机了……",
+			say = "好吧，既然指揮官都這麼說了……那就不玩手機了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			actor = 401471,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是……指挥官又不在，我不知道和大家说什么……",
+			say = "但是……指揮官又不在，我不知道要跟大家說什麼…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,10 +267,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_705",
-			factiontag = "通讯模式",
+			factiontag = "通訊模式",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "虽然我人不在现场，但是还是可以通过这种方式陪着你呀？",
+			say = "雖然我人不在現場，但還是可以用這種方式可以陪妳呀？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,10 +280,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_705",
-			factiontag = "通讯模式",
+			factiontag = "通訊模式",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "今天多亏你发来的求救消息，我才能在第一时间组织救援赶来。",
+			say = "今天多虧妳發來的求救消息，我才能在第一時間組織救援趕來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			actor = 401471,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可是……指挥官都没有回我消息……虽然知道可能是因为异变的关系……",
+			say = "可是……指揮官都沒有回我消息……雖然知道可能是因為異變的關係……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			actor = 401471,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这样啊，我发的短信帮上忙了啊。",
+			say = "……不過，原來我發的簡訊幫上忙了啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			actor = 401471,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那我想要奖励。",
+			say = "嗯……那我想要獎勵。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,10 +346,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_705",
-			factiontag = "通讯模式",
+			factiontag = "通訊模式",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "什么奖励？陪你一起玩跷跷板？",
+			say = "什麼獎勵？陪妳玩蹺蹺板？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			actor = 401471,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "事件结束后，单独陪我出来玩……",
+			say = "事件結束後，單獨陪我出來玩……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,10 +376,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_705",
-			factiontag = "通讯模式",
+			factiontag = "通訊模式",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "一言为定。",
+			say = "一言為定。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			actor = 401471,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就这么说定了……不准反悔哦。",
+			say = "那就這麼說定了……不准反悔。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			bgm = "level",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "将视线从屏幕上收回，重新梳理了一遍当前的情况。",
+			say = "將視線從螢幕上收回，重新梳理了當前的情況。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（校园大门，教室门，健康活力操场跑道都是基础设施。）",
+			say = "（校園大門，教室門，健康活力操場跑道都是基礎建設。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（所有的破解规则，都与“童心”、“开心”有关，而且每个区域都会有异常石膏喵的出现……）",
+			say = "（所有的破解規則，都與「童心」、「開心」有關，而且每個區域都會有異常石膏喵的出現……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,19 +461,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
-			say = "几条线索结合后，我想起了不久前曾审批过的一份提案。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_603",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "（「校园陪伴系统」建设方案……提案人……{namecode:37:夕张}。）",
+			say = "幾條線索結合後，我想起了不久前曾經審核過的提案。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +473,7 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（而恰好，{namecode:37:夕张}也在校园失联人员名单之内。）",
+			say = "（「校園陪伴系統」建設方案……提案人……夕張。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +485,19 @@ return {
 			bgName = "star_level_bg_603",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（难道说，本次事件的真实原因，会和这个系统有关系么……）",
+			say = "（而恰好，夕張也在校園失聯人員名單之內。）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_603",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "（難道說，這次事件的真實原因，會跟這個系統有關係嗎……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
