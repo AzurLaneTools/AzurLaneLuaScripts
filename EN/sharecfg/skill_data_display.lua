@@ -16071,15 +16071,15 @@ pg.base.skill_data_display = {
 	},
 	[1012320] = {
 		id = 1012320,
-		name = "Gassing Breath +"
+		name = "Poisonous Sting+"
 	},
 	[1012322] = {
 		id = 1012322,
-		name = "Gassing Breath +"
+		name = "Poisonous Sting+"
 	},
 	[1012323] = {
 		id = 1012323,
-		name = "Gassing Breath +"
+		name = "Poisonous Sting+"
 	},
 	[1013551] = {
 		id = 1013551,
