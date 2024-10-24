@@ -337,7 +337,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "――粉々になりたくなければ、手を掴め！",
+			say = "――ぐちゃぐちゃになりたくなければ、手を掴め！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

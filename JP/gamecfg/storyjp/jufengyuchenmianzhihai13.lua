@@ -830,7 +830,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "――要する、自分とファンシーが「ウィルス」を除去できれば、海を元に戻せるのか？",
+			say = "――要するに、自分とファンシーが「ウィルス」を除去できれば、海を元に戻せるのか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

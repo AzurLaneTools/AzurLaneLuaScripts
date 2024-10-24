@@ -264,7 +264,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "「黄金」のテンペスタ",
+			factiontag = "「無敵」のテンペスタ",
 			dir = 1,
 			actor = 9600020,
 			nameColor = "#A9F548FF",

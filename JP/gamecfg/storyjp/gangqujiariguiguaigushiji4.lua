@@ -100,7 +100,7 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			actorName = "神秘的声音",
+			actorName = "謎の声",
 			hidePaintObj = true,
 			say = "こちら…へ……",
 			typewriter = {
@@ -164,7 +164,7 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			actorName = "神秘的声音",
+			actorName = "謎の声",
 			hidePaintObj = true,
 			say = "来て…くれたのね…",
 			typewriter = {
@@ -189,7 +189,7 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			actorName = "神秘的声音",
+			actorName = "謎の声",
 			hidePaintObj = true,
 			say = "ふぅ……",
 			typewriter = {

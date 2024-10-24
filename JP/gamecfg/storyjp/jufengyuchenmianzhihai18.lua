@@ -203,7 +203,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（「女神主機」を詰め込んでから、ガンズウェイの様子は明らかに変わったが…）",
+			say = "（「女神主機」を積み込んでから、ガンズウェイの様子は明らかに変わったが…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

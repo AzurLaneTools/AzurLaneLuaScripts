@@ -389,7 +389,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "「黄金」のテンペスタ",
+			factiontag = "「無敵」のテンペスタ",
 			dir = 1,
 			actor = 9600020,
 			nameColor = "#A9F548FF",
@@ -518,7 +518,7 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "「黄金」のテンペスタ",
+			factiontag = "「無敵」のテンペスタ",
 			dir = 1,
 			actor = 9600020,
 			nameColor = "#A9F548FF",
@@ -642,7 +642,7 @@ return {
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "ところで、あなたたちは2隻でこっちは5隻なんだが……",
+			say = "ところで、あなたたちは2隻でこっちは5隻でしょ～？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

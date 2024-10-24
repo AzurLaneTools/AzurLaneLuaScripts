@@ -90,7 +90,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_134",
-			say = "洞窟の最奥で、囚われている少女の姿が目に入っった。",
+			say = "洞窟の最奥で、囚われている少女の姿が目に入った。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

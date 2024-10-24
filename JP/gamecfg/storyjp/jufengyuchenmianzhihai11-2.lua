@@ -215,7 +215,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "「黄金」のテンペスタ",
+			factiontag = "「無敵」のテンペスタ",
 			dir = 1,
 			actor = 9600020,
 			nameColor = "#A9F548FF",
@@ -246,7 +246,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "「黄金」のテンペスタ",
+			factiontag = "「無敵」のテンペスタ",
 			dir = 1,
 			actor = 9600020,
 			nameColor = "#A9F548FF",
@@ -260,7 +260,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "「黄金」のテンペスタ",
+			factiontag = "「無敵」のテンペスタ",
 			dir = 1,
 			actor = 9600020,
 			nameColor = "#A9F548FF",
@@ -275,7 +275,7 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "「黄金」のテンペスタ",
+			factiontag = "「無敵」のテンペスタ",
 			dir = 1,
 			actor = 9600020,
 			nameColor = "#A9F548FF",
@@ -912,7 +912,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "この人こそがテンペスタ船団の創始者、そして副リーダーの$1指揮官よ！",
+			say = "この人こそがテンペスタ船団の創始者、そして副リーダーの{playername}指揮官よ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

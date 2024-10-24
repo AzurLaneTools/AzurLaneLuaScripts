@@ -567,11 +567,10 @@ return {
 		},
 		{
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv2_2",
 			factiontag = "深淵に蠢く者",
 			dir = 1,
-			actor = 9600080,
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ファンシーは霧の池の側に座り込み、足を水に浸らせ――そして触手をこちらに伸ばしてきた。",
 			typewriter = {
@@ -966,7 +965,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "「黄金」のテンペスタ",
+			factiontag = "「無敵」のテンペスタ",
 			dir = 1,
 			actor = 9600020,
 			nameColor = "#A9F548FF",
@@ -980,12 +979,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "「黄金」のテンペスタ",
+			factiontag = "「無敵」のテンペスタ",
 			dir = 1,
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "幸いさっきの嵐で敵の陣形が乱れている。この機を乗じれば――",
+			say = "幸いさっきの嵐で敵の陣形が乱れている。この機に乗じれば――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

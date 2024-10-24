@@ -160,7 +160,7 @@ return {
 			}
 		},
 		{
-			actorName = "野兽",
+			actorName = "野獣",
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
@@ -508,7 +508,7 @@ return {
 			}
 		},
 		{
-			actorName = "野兽",
+			actorName = "野獣",
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,

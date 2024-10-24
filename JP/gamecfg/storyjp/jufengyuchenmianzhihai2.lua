@@ -418,7 +418,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "とにかく！こっちに来たからにはわたしの異変調査に手伝って！",
+			say = "とにかく！こっちに来たからにはわたしの異変調査を手伝って！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

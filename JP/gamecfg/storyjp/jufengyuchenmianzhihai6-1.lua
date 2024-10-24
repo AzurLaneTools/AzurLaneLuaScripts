@@ -209,7 +209,7 @@ return {
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "とにかく合図を送ったわ。ウィダーちゃんの返事を待とう。",
+			say = "とにかく合図を送ったわ。ウィダーちゃんの返事を待ちましょ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "「黄金」のテンペスタ",
+			factiontag = "「無敵」のテンペスタ",
 			dir = 1,
 			actor = 9600020,
 			nameColor = "#A9F548FF",
@@ -506,7 +506,7 @@ return {
 			actor = 9600100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "アミティ、わたしたちもポーツについていくわよ！ってちょっと砲撃する時によく狙ってて！",
+			say = "アミティ、行くよ！砲撃で支援してよね！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

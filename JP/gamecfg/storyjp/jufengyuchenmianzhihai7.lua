@@ -94,7 +94,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "「黄金」のテンペスタ",
+			factiontag = "「無敵」のテンペスタ",
 			dir = 1,
 			actor = 9600020,
 			nameColor = "#A9F548FF",
@@ -382,7 +382,7 @@ return {
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "テンペスタの副リーダー、指揮官の$1だ！",
+			say = "テンペスタの副リーダー、指揮官の{playername}だ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
