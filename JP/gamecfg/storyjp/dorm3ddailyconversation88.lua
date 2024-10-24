@@ -1,16 +1,19 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DDAILYCONVERSATION88",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DDAILYCONVERSATION88",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "嗯？您想知道シリアス是不是已经忘记了怎么跳舞……？",
+			actorName = 20220,
+			say = "嗯？您想知道天狼星是不是已经忘记了怎么跳舞……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +44,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
+			actorName = 20220,
 			say = "当然没有忘记！",
 			typewriter = {
 				speed = 0.05,
@@ -50,8 +53,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "主人，シリアス可是一刻都没有疏于练习哦。",
+			actorName = 20220,
+			say = "{dorm3d}，天狼星可是一刻都没有疏于练习哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,8 +92,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "如果您还愿意让シリアス成为您的舞伴的话……",
+			actorName = 20220,
+			say = "如果您还愿意让天狼星成为您的舞伴的话……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,15 +104,15 @@ return {
 					flag = 1
 				},
 				{
-					content = "非シリアス莫属",
+					content = "非天狼星莫属",
 					flag = 2
 				}
 			}
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "太好了！那……シリアス想占用您一点时间，来复习与您的双人舞。",
+			actorName = 20220,
+			say = "太好了！那……天狼星想占用您一点时间，来复习与您的双人舞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +150,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
+			actorName = 20220,
 			say = "如果您觉得单纯跳舞有些乏味的话，还可以直接……",
 			typewriter = {
 				speed = 0.05,
@@ -156,8 +159,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "欸？您现在只想和シリアス跳舞？呜……好、好吧……！",
+			actorName = 20220,
+			say = "欸？您现在只想和天狼星跳舞？呜……好、好吧……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

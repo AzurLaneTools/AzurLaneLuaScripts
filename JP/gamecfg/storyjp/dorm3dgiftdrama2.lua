@@ -5,6 +5,9 @@ return {
 	id = "DORM3DDAILYCONVERSATION4",
 	hideSkip = true,
 	hideAuto = true,
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			say = "通风太好的房间总是不知不觉就会积攒灰尘呢，好，今天就来大扫除吧！",
@@ -14,7 +17,7 @@ return {
 			}
 		},
 		{
-			say = "シリアス会用绝对专业的清理工作，来让房间焕然一新的！",
+			say = "天狼星会用绝对专业的清理工作，来让房间焕然一新的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,13 +51,13 @@ return {
 			},
 			options = {
 				{
-					content = "シリアス很细心尽责呢。",
+					content = "天狼星很细心尽责呢。",
 					flag = 1
 				}
 			}
 		},
 		{
-			say = "啊……！多谢您的夸奖，我骄傲的主人。",
+			say = "啊……！多谢您的夸奖，我骄傲的{dorm3d}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,14 +108,14 @@ return {
 			}
 		},
 		{
-			say = "说了这么多，シリアス也要准备开始大扫除工作了……就从这个花瓶开始好了。",
+			say = "说了这么多，天狼星也要准备开始大扫除工作了……就从这个花瓶开始好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "就让シリアス为主人演示，一名合格的女仆应该如何清洁花瓶吧。",
+			say = "就让天狼星为{dorm3d}演示，一名合格的女仆应该如何清洁花瓶吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +143,7 @@ return {
 			}
 		},
 		{
-			say = "那么接下来，主人有没有什么想让シリアス打扫的地方呢？",
+			say = "那么接下来，{dorm3d}有没有什么想让天狼星打扫的地方呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,21 +157,21 @@ return {
 			}
 		},
 		{
-			say = "啊……！果然还是去清理主人的房间比较好！",
+			say = "啊……！果然还是去清理{dorm3d}的房间比较好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "主人的房间应该也有类似的瓶瓶罐罐吧，而且您平时应该也顾不上清理……",
+			say = "{dorm3d}的房间应该也有类似的瓶瓶罐罐吧，而且您平时应该也顾不上清理……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "那么……主人，请跟シリアス一起来。",
+			say = "那么……{dorm3d}，请跟天狼星一起来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +192,7 @@ return {
 			}
 		},
 		{
-			say = "没错，如果有主人在旁边的话，シリアス的速度会快很多……！",
+			say = "没错，如果有{dorm3d}在旁边的话，天狼星的速度会快很多……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

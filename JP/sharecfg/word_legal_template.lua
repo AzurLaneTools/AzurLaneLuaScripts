@@ -859,6 +859,13 @@ temp = function()
 				["ゴ"] = {
 					this = true
 				}
+			},
+			["ン"] = {
+				["シ"] = {
+					["ー"] = {
+						this = true
+					}
+				}
 			}
 		},
 		["ラ"] = {
@@ -3146,6 +3153,13 @@ temp = function()
 				}
 			}
 		},
+		["ミ"] = {
+			["テ"] = {
+				["ィ"] = {
+					this = true
+				}
+			}
+		},
 		["ウ"] = {
 			["グ"] = {
 				["ス"] = {
@@ -4201,6 +4215,31 @@ temp = function()
 			},
 			["ラ"] = {
 				this = true
+			},
+			["ツ"] = {
+				["マ"] = {
+					["ウ"] = {
+						["ス"] = {
+							["・"] = {
+								["ア"] = {
+									["ド"] = {
+										["ベ"] = {
+											["ン"] = {
+												["チ"] = {
+													["ャ"] = {
+														["ー"] = {
+															this = true
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
 			}
 		},
 		["ン"] = {
@@ -5123,6 +5162,15 @@ temp = function()
 						this = true
 					}
 				}
+			},
+			["ズ"] = {
+				["ウ"] = {
+					["ェ"] = {
+						["イ"] = {
+							this = true
+						}
+					}
+				}
 			}
 		},
 		["ス"] = {
@@ -5251,6 +5299,15 @@ temp = function()
 								}
 							}
 						}
+					}
+				}
+			}
+		},
+		["ル"] = {
+			["フ"] = {
+				["ィ"] = {
+					["ン"] = {
+						this = true
 					}
 				}
 			}
@@ -5436,6 +5493,9 @@ temp()
 temp = function()
 	uv0["綾"] = {
 		["波"] = {
+			this = true
+		},
+		["瀬"] = {
 			this = true
 		}
 	}
@@ -5746,7 +5806,20 @@ temp = function()
 			this = true
 		},
 		["門"] = {
-			this = true
+			this = true,
+			["("] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								[")"] = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
 		},
 		["春"] = {
 			this = true,
@@ -6085,6 +6158,9 @@ temp = function()
 	uv0["涼"] = {
 		["月"] = {
 			this = true
+		},
+		["波"] = {
+			this = true
 		}
 	}
 end
@@ -6231,6 +6307,18 @@ temp = function()
 	uv0["酒"] = {
 		["匂"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["渡"] = {
+		["良"] = {
+			["瀬"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -6419,6 +6507,19 @@ temp = function()
 				["ゃ"] = {
 					["ん"] = {
 						this = true
+					}
+				}
+			},
+			["("] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								[")"] = {
+									this = true
+								}
+							}
+						}
 					}
 				}
 			}
@@ -6684,6 +6785,32 @@ temp()
 temp = function()
 	uv0["鳳"] = {
 		["翔"] = {
+			this = true,
+			["("] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								[")"] = {
+									this = true
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["瑞"] = {
+		["鳳"] = {
+			this = true
+		},
+		["鶴"] = {
 			this = true
 		}
 	}
@@ -6785,16 +6912,6 @@ temp()
 
 temp = function()
 	uv0["翔"] = {
-		["鶴"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["瑞"] = {
 		["鶴"] = {
 			this = true
 		}

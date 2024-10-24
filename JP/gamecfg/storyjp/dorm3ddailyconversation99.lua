@@ -1,16 +1,19 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DDAILYCONVERSATION99",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DDAILYCONVERSATION99",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "如果有一天主人要处理的工作不再那么多，您想去哪里放松一下呢？",
+			actorName = 20220,
+			say = "如果有一天{dorm3d}要处理的工作不再那么多，您想去哪里放松一下呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,8 +61,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "主、主人！这样不算是真正回答了シリアス的问题。",
+			actorName = 20220,
+			say = "主、{dorm3d}！这样不算是真正回答了天狼星的问题。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,8 +100,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "シリアス是真的很想知道，您在有足够的时间以后想去哪里。",
+			actorName = 20220,
+			say = "天狼星是真的很想知道，您在有足够的时间以后想去哪里。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,8 +109,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "因为……シリアス想为那一天的到来做些准备（小声）。",
+			actorName = 20220,
+			say = "因为……天狼星想为那一天的到来做些准备（小声）。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,15 +151,15 @@ return {
 					flag = 1
 				},
 				{
-					content = "只想去有シリアス的地方",
+					content = "只想去有天狼星的地方",
 					flag = 2
 				}
 			}
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "主人，您……",
+			actorName = 20220,
+			say = "{dorm3d}，您……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,8 +167,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "シリアス明白了，等到那一天到来，就与您随便去哪里兜风吧。",
+			actorName = 20220,
+			say = "天狼星明白了，等到那一天到来，就与您随便去哪里兜风吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,8 +206,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "只要能与您度过足够亲密的时光，シリアス就满足了。我骄傲的主人……",
+			actorName = 20220,
+			say = "只要能与您度过足够亲密的时光，天狼星就满足了。我骄傲的{dorm3d}……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

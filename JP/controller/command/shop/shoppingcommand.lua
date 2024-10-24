@@ -98,38 +98,6 @@ slot0.execute = function(slot0, slot1)
 
 				return
 			end
-
-			if type(slot17) == "table" and (slot5.type == DROP_TYPE_DORM3D_FURNITURE or slot5.type == DROP_TYPE_DORM3D_GIFT) and (slot18[1] == "dailycount" or slot18[1] == "count") then
-				slot19 = 0
-
-				if slot5.type == DROP_TYPE_DORM3D_FURNITURE then
-					slot19 = getProxy(ApartmentProxy):GetFurnitureShopCount(slot5.effect_args[1])
-				elseif slot5.type == DROP_TYPE_DORM3D_GIFT then
-					slot19 = getProxy(ApartmentProxy):GetGiftShopCount(slot5.effect_args[1])
-				end
-
-				if slot18[3] <= slot19 then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
-
-					return
-				end
-			end
-		end
-	end
-
-	if slot5.group_limit > 0 and (slot5.type == DROP_TYPE_DORM3D_FURNITURE or slot5.type == DROP_TYPE_DORM3D_GIFT) then
-		slot13 = 0
-
-		if slot5.type == DROP_TYPE_DORM3D_FURNITURE then
-			slot13 = getProxy(ApartmentProxy):GetFurnitureShopCount(slot5.effect_args[1])
-		elseif slot5.type == DROP_TYPE_DORM3D_GIFT then
-			slot13 = getProxy(ApartmentProxy):GetGiftShopCount(slot5.effect_args[1])
-		end
-
-		if slot5.group_limit <= slot13 then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
-
-			return
 		end
 	end
 

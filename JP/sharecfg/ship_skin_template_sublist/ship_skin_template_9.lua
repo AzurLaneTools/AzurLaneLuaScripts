@@ -1,6 +1,120 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_9 = {
+	[301852] = {
+		name = "墨梅の筆墨硯紙",
+		id = 301852,
+		desc = "新春万福、指揮官。これはお祝いのために東煌の伝統衣装を元に、新調した服だが…僮（わらべ）に見えるか？",
+		illustrator2 = -1,
+		ship_group = 30185,
+		group_index = 2,
+		prefab = "zhuifeng_2",
+		painting = "zhuifeng_2",
+		hand_id = 14,
+		bgm = "",
+		shop_type_id = 3,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "152",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70662,
+		voice_actor = 271,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.287,
+					1.159,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.165,
+					1.142,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.176,
+					1.236,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.425,
+							2.535,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301860] = {
 		name = "風雲",
 		id = 301860,
@@ -11373,6 +11487,130 @@ pg.base.ship_skin_template_9 = {
 			}
 		}
 	},
+	[303125] = {
+		name = "月夜のお姉さん狼",
+		id = 303125,
+		desc = "「ワオーン」――ねえ指揮官、満月の夜だからこそ、お姉さんに食べられないように気をつけて♥…なんて冗談よ。例え本当にワーウルフになってもお姉さん、指揮官のことをちゃんと守ってあげるからね",
+		illustrator2 = -1,
+		ship_group = 30312,
+		group_index = 5,
+		prefab = "aidang_6",
+		painting = "aidang_6",
+		hand_id = 2,
+		bgm = "",
+		shop_type_id = 8,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "174",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = 338,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71069,
+		voice_actor = 9,
+		illustrator = 21,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.231,
+					0.802,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.305,
+					0.725,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.013,
+					0.007,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.861,
+					2.312,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.34,
+							2.48,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				33.33,
+				-430,
+				0
+			},
+			{
+				0.53
+			}
+		}
+	},
 	[303128] = {
 		name = "白き約束",
 		id = 303128,
@@ -13234,230 +13472,6 @@ pg.base.ship_skin_template_9 = {
 			},
 			{
 				0.3
-			}
-		}
-	},
-	[304020] = {
-		name = "比叡",
-		id = 304020,
-		desc = "金剛型高速戦艦二番艦・比叡",
-		illustrator2 = -1,
-		ship_group = 30402,
-		group_index = 0,
-		prefab = "birui",
-		painting = "birui",
-		hand_id = 2,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 76,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.087,
-					1.221,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.087,
-					1.221,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.154,
-					0.067,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.087,
-					1.221,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.202,
-							2.461,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[304021] = {
-		name = "月花の巡礼",
-		id = 304021,
-		desc = "もうこんな時間ですね……指揮官、一緒に夢心地の巡礼でもいかがかしら？",
-		illustrator2 = -1,
-		ship_group = 30402,
-		group_index = 1,
-		prefab = "birui_2",
-		painting = "birui_2",
-		hand_id = 2,
-		bgm = "",
-		shop_type_id = 20,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70091,
-		voice_actor = 76,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand2",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.36,
-					0.83,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.31,
-					0.85,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.11,
-					0.067,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.27,
-					0.79,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.43,
-							2.3,
-							0
-						}
-					}
-				}
 			}
 		}
 	}

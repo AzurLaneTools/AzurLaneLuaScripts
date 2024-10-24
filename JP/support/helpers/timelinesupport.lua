@@ -3,7 +3,6 @@ slot0 = TimelineSupport
 
 slot0.InitTimeline = function(slot0)
 	uv0.DynamicBinding(slot0)
-	uv0.InitSubtitle()
 	uv0.InitCriAtomTrack(slot0)
 end
 
@@ -33,10 +32,27 @@ slot0.DynamicBinding = function(slot0)
 	end)
 end
 
-slot0.InitSubtitle = function()
+slot0.InitSubtitle = function(slot0, slot1)
 	if GameObject.Find("[subtitle]") then
-		slot0:GetComponent(typeof(Canvas)).worldCamera = pg.UIMgr.GetInstance().overlayCameraComp
+		slot2:GetComponent(typeof(Canvas)).worldCamera = pg.UIMgr.GetInstance().overlayCameraComp
 	end
+
+	eachChild(slot0, function (slot0)
+		if not slot0:GetComponent(typeof(UnityEngine.Playables.PlayableDirector)) then
+			return
+		end
+
+		table.IpairsCArray(TimelineHelper.GetTimelineTracks(slot1), function (slot0, slot1)
+			if uv0.CheckTrackType(slot1, "Lens.Gameplay.Tools.SubtitleTrack") then
+				table.IpairsCArray(ReflectionHelp.RefCallMethod(typeof("Lens.Gameplay.Tools.SubtitleTrack"), "GetClips", slot1), function (slot0, slot1)
+					slot2 = ReflectionHelp.RefGetProperty(slot1:GetType(), "asset", slot1)
+					slot3 = ReflectionHelp.RefGetField(slot2:GetType(), "behaviour", slot2)
+
+					ReflectionHelp.RefSetField(slot3:GetType(), "subtitle", slot3, string.gsub(ReflectionHelp.RefGetField(slot3:GetType(), "subtitle", slot3), "{dorm3d}", uv0))
+				end)
+			end
+		end)
+	end)
 end
 
 slot0.CheckTrackType = function(slot0, slot1)

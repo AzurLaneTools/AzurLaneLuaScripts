@@ -1,6 +1,118 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_8 = {
+	[301211] = {
+		name = "雪の初春",
+		id = 301211,
+		desc = "みんなが一緒に遊んでいる…私、や、やっぱり……えっ、私も参加するの……あぅ…がが、がんばりますぅ……",
+		illustrator2 = -1,
+		ship_group = 30121,
+		group_index = 1,
+		prefab = "chuchun_2",
+		painting = "chuchun_2",
+		hand_id = 14,
+		bgm = "",
+		shop_type_id = 9999,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70139,
+		voice_actor = 52,
+		spine_offset = "",
+		illustrator = 27,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.9,
+					1.41,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.05,
+					1.32,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.08,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.12,
+					1.13,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.44,
+							2.25,
+							-0.99
+						}
+					}
+				}
+			}
+		}
+	},
 	[301212] = {
 		name = "灯の初春",
 		id = 301212,
@@ -12726,120 +12838,6 @@ pg.base.ship_skin_template_8 = {
 						{
 							-0.656,
 							2.818,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301852] = {
-		name = "墨梅の筆墨硯紙",
-		id = 301852,
-		desc = "新春万福、指揮官。これはお祝いのために東煌の伝統衣装を元に、新調した服だが…僮（わらべ）に見えるか？",
-		illustrator2 = -1,
-		ship_group = 30185,
-		group_index = 2,
-		prefab = "zhuifeng_2",
-		painting = "zhuifeng_2",
-		hand_id = 14,
-		bgm = "",
-		shop_type_id = 3,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "152",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70662,
-		voice_actor = 271,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.287,
-					1.159,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.165,
-					1.142,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.176,
-					1.236,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.425,
-							2.535,
 							0
 						}
 					}

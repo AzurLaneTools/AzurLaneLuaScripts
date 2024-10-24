@@ -11279,12 +11279,12 @@ _G.pg.base.gametip.activity_switch_award_pool_failed = {
 
 
 _G.pg.base.gametip.shop_street_activity_tip = {
-	tip = "※<size=28><color=#A1E400FF>$1</COLOR>では<color=#A1E400FF>装備外装箱</color>が100%出現します</size>"
+	tip = "※<color=#A1E400FF>$1</COLOR>では<color=#A1E400FF>装備外装箱</color>が100%出現します"
 }
 
 
 _G.pg.base.gametip.shop_street_Equipment_skin_box_help = {
-	tip = "<color=#A1E400FF>$1</COLOR> 販売期間：<color=#A1E400FF>$2</COLOR>"
+	tip = "<color=#A1E400FF>$1</COLOR>\n販売期間：<color=#A1E400FF>$2</COLOR>"
 }
 
 
@@ -16436,14 +16436,24 @@ _G.pg.base.gametip.music_main = {
 _G.pg.base.gametip.music_juus = {
 	tip = {
 		{
-			info = "■艦船通信とは"
-		},
-		{
 			info = [[
- 艦船通信とは、母港の艦船たちが利用しているSNSであり、艦船たちの投稿を読み、「いいね」を推したり、コメント（内容は固定ですが…）したりすることができます。
- 艦船による投稿は一定時間ごと自動で行われます。
+「艦チャット＆艦船通信」について：
 
- 艦船通信をチェックし、彼女たちの日常の垣間を楽しもう！]]
+  艦チャットと艦船通信とは母港の艦船たちが利用しているSNSであり、艦船たちの投稿を読み「いいね」を押したり、艦船とチャットする会話コンテンツを楽しめるシステムになります。
+ 画面左下のボタンで「艦チャット」「艦船通信」を切り替えることができます。
+
+  艦チャットについて
+ 1.艦チャットでは「個人チャンネル」「グループチャンネル」それぞれで艦船とのチャット（会話）を楽しむことができます
+ 2.未読メッセージが存在する場合、「艦チャット＆艦船通信」ボタンにアイコンが表示されます
+ 3.チャンネルは画面左のチャンネルバーをタップして切り替える事ができます
+ 4.チャット画面右上のハートアイコンをタップすると、チャンネルバーの表示優先順位を上げる事ができます。また、右上のボタンをタップすると話題切り替え、チャット背景の変更が可能です
+
+
+  艦船通信について
+ 1.艦船通信で艦船たちの投稿を読み、「いいね」を押したり、コメントしたりすることができます。
+ 2.艦船による投稿は一定時間毎に自動で行われます。
+ 3.「艦チャット＆艦船通信」ボタンにアイコンが表示されます
+]]
 		}
 	}
 }
@@ -32205,18 +32215,14 @@ _G.pg.base.gametip.shipyard_phase_1 = {
 		{
 			info = [[
 イベント概要：
-「テンペスタの秘密造船所」とは、任務イベント「テンペスタの秘密造船所」で造った船を操縦し、大海原で敵を倒したり、お宝を回収したりしつつ終点を目指し、スコアを稼ぐミニゲームになります。
-ミニゲームは<color=#92fc63>10月26日（木）～-11月9日（木）23:59</color>まで開催されます。
+ 「テンペスタの秘密造船所」とは、任務イベント「テンペスタの秘密造船所」で造った船を操縦し、大海原で敵を倒したり、お宝を回収したりしつつ終点を目指し、スコアを稼ぐミニゲームになります。
+ イベントは<color=#92fc63>10月24日（木）～-11月7日（木）23:59</color>まで開催されます。
 
-遊び方：
-・「テンペスタの秘密造船所」では様々な任務が出現します。すべての任務をクリアすると、ミニゲームで使用する船が完成します。
-・ミニゲームでは、ステージを選択し、更に装備したい兵装を選択すると、海戦ゲームをプレイすることができます。
-・ミニゲームは11月1日（水）まで毎日新しいステージが開放されます。
-・ステージをクリアすると、それぞれのステージで1度だけクリア報酬を入手できます。
-　  ステージ3 テンペスタ用設備「果物の補給」
-     ステージ5 テンペスタ用装備セット 
-     ステージ7 限定家具「始まりの冒険船」
-・ステージ7をクリアすると、任意のステージを選択してプレイすることができます]]
+  遊び方：
+ ・10月30日（水）まで、毎日限定任務が開放されます。開放されたすべての限定任務をクリアすると、ミニゲームで使用する船が完成します。
+ ・ミニゲームでは、ステージを選択し、更に装備したい兵装を選択すると、海戦ゲームをプレイすることができます。
+ ・ミニゲームのステージをクリアすると、それぞれのステージで1度だけクリア報酬を入手でき、さらに7つのステージを全部クリアすると、限定家具「始まりの冒険船」をGETできます。
+ ・ステージ7をクリアすると、任意のステージを選択してプレイすることができます]]
 		}
 	}
 }
@@ -32238,7 +32244,7 @@ _G.pg.base.gametip.shipyard_button_2 = {
 
 
 _G.pg.base.gametip.shipyard_introduce = {
-	tip = "<size=30>任務は10/25（水）まで毎日2個ずつ開放されます\n開放から七日間、毎日開放される任務をクリアし、\n限定兵装<color=#ff9892>「テンペスタ・フラッグ」 </color>をGET!</size>"
+	tip = "任務は10/30（水）まで毎日2個ずつ開放されます\n開放から7日間、毎日開放される任務をクリアすると、限定兵装<color=#ff9892>「テンペスタ・フラッグ」 </color>を入手可能！"
 }
 
 
@@ -36182,10 +36188,192 @@ _G.pg.base.gametip.dorm3d_favor_maximize = {
 
 
 _G.pg.base.gametip.dorm3d_purchase_weekly_limit = {
-	tip = "（今週購入回数$1/$2）"
+	tip = "\n（今週購入回数$1/$2）"
 }
 
 
 _G.pg.base.gametip.world_file_tip = {
 	tip = "※画面スライドでページスクロール可能。画面タップで閉じる"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_part1 = {
+	tip = "前編"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_part2 = {
+	tip = "後編"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_sp = {
+	tip = "SP"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_ex = {
+	tip = "EX"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_title = {
+	tip = "絞り込み"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_tip1 = {
+	tip = "全て"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_tip2 = {
+	tip = "返信済"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_tip3 = {
+	tip = "未返信"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_tip4 = {
+	tip = "個人"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_tip5 = {
+	tip = "グループ"
+}
+
+
+_G.pg.base.gametip.juuschat_label1 = {
+	tip = "使用中"
+}
+
+
+_G.pg.base.gametip.juuschat_label2 = {
+	tip = "確認中"
+}
+
+
+_G.pg.base.gametip.juuschat_chattip1 = {
+	tip = "[ボイスメッセージ]"
+}
+
+
+_G.pg.base.gametip.juuschat_chattip2 = {
+	tip = "[プレゼント]"
+}
+
+
+_G.pg.base.gametip.juuschat_chattip3 = {
+	tip = "[返信待ち]"
+}
+
+
+_G.pg.base.gametip.juuschat_reddot_title = {
+	tip = "艦チャット"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_subtitle1 = {
+	tip = "既読・未読"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_subtitle2 = {
+	tip = "個人・グループ"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_subtitle3 = {
+	tip = "陣営"
+}
+
+
+_G.pg.base.gametip.juuschat_redpacket_detail = {
+	tip = "受取内容"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_empty = {
+	tip = "当該チャットは存在しません"
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_title = {
+	tip = "呼び方変更"
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_cd = {
+	tip = "$1後呼び方を再度変更可能"
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_interval = {
+	tip = "呼び方は48時間に1度変更できます"
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_waring1 = {
+	tip = "NGワードが含まれています"
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_waring2 = {
+	tip = "呼び方テキストが長すぎです"
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_waring3 = {
+	tip = "呼び方テキストが短すぎです"
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_waring4 = {
+	tip = "現在呼び方を変更できません"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_gift_owned = {
+	tip = "これ以上は購入できません"
+}
+
+
+_G.pg.base.gametip.BoatAdGame_minigame_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/boatadgame_minigame_help"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.activity_1024_memory = {
+	tip = "「ハロウィンページ」が不足しています。限定任務をクリアして集めましょう！"
+}
+
+
+_G.pg.base.gametip.activity_1024_memory_get = {
+	tip = "- 受取済 -"
 }

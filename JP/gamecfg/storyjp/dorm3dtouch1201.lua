@@ -1,15 +1,18 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DTOUCH1201",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DTOUCH1201",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
+			actorName = 20220,
 			say = "ふふふ。シリアス、しっかり感覚を覚えておきます！",
 			typewriter = {
 				speed = 0.05,

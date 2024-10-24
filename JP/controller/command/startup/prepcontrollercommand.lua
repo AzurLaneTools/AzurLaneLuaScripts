@@ -313,6 +313,7 @@ slot0.execute = function(slot0, slot1)
 	slot0.facade:registerCommand(GAME.ACT_BOSS_EXCHANGE_TICKET, ActivityBossExchangeTicketCommand)
 	slot0.facade:registerCommand(GAME.ACT_INSTAGRAM_OP, InstagramActivityCommand)
 	slot0.facade:registerCommand(GAME.ACT_INSTAGRAM_FETCH, InstagramFetchCommand)
+	slot0.facade:registerCommand(GAME.ACT_INSTAGRAM_CHAT, InstagramChatCommand)
 	slot0.facade:registerCommand(GAME.ACT_BEAT_MONSTER_NIAN, ActivityBeatMonsterNianCommand)
 	slot0.facade:registerCommand(GAME.PUZZLE_PIECE_OP, ActivityPuzzlePicecOPCommand)
 	slot0.facade:registerCommand(GAME.ACTIVITY_BUILD_POOL_EXCHANGE, BuildPoolExchangeCommand)
@@ -504,6 +505,7 @@ slot0.execute = function(slot0, slot1)
 	slot0.facade:registerCommand(GAME.APARTMENT_COLLECTION_ITEM, ApartmentCollectionItemCommand)
 	slot0.facade:registerCommand(GAME.APARTMENT_TRACK, Dorm3dTrackCommand)
 	slot0.facade:registerCommand(GAME.SELECT_DORM_ENTER, SelectDorm3dEnterCommand)
+	slot0.facade:registerCommand(GAME.DORM_SET_CALL, DormSetCallCommand)
 end
 
 return slot0

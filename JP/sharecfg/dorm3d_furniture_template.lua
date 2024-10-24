@@ -159,6 +159,36 @@ pg.dorm3d_furniture_template = {
 			"banner_furniture121"
 		}
 	},
+	[122] = {
+		name = "午後の夢郷",
+		type = 5,
+		room_id = 1,
+		desc = "快適なリクライニングソファ。\n ふかふかで柔らかく、クッションと毛布付き。いつでも仮眠できるようなふんわりとした寝心地。",
+		is_exclusive = 1,
+		acesses = "",
+		model = "Pay_Siriushostel/pre_db_sh_chair02",
+		rarity = 4,
+		id = 122,
+		icon = "dorm3dIcon/3Ddrom_tianlangxing_PremiumFurniture2",
+		target_slots = {
+			100301
+		},
+		touch_id = {
+			{
+				20220,
+				10100202
+			}
+		},
+		shop_id = {
+			270103
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture122"
+		}
+	},
 	get_id_list_by_room_id = {
 		{
 			1,
@@ -167,7 +197,8 @@ pg.dorm3d_furniture_template = {
 			4,
 			5,
 			6,
-			121
+			121,
+			122
 		}
 	},
 	all = {
@@ -177,6 +208,7 @@ pg.dorm3d_furniture_template = {
 		4,
 		5,
 		6,
-		121
+		121,
+		122
 	}
 }

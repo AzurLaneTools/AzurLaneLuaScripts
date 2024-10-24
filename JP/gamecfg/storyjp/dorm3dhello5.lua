@@ -1,15 +1,19 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DHELLO5",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DHELLO5",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
+			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello5",
+			actorName = 20220,
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
 			say = "ふふっ、誇らしきご主人様がこの時間にいらっしゃることはわかっていましたので、ご奉仕の準備を万全にしておりました。ええと……なんと言いますか、これこそシリアスとご主人様の間の「以心伝心」かもしれませんね",
 			typewriter = {
 				speed = 0.05,

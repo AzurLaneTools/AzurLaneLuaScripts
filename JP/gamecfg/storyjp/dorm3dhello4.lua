@@ -1,15 +1,19 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DHELLO4",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DHELLO4",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
+			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello4",
+			actorName = 20220,
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
 			say = "ご機嫌麗しゅうございます、誇らしきご主人様。シリアスはここでずっとお待ちしておりました。いいえ……ご主人様にお仕えできれば、シリアスはどれだけ待とうと構いません",
 			typewriter = {
 				speed = 0.05,

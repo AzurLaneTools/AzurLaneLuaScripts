@@ -54,7 +54,7 @@ slot1.onAntiSubHateChain = function(slot0)
 	slot0._vigilantState:HateChain()
 end
 
-slot1.onFriendlyShipDying = function(slot0, slot1, slot2, slot3)
+slot1.onTeammateShipDying = function(slot0, slot1, slot2, slot3)
 	slot0._vigilantState:MineExplode()
 end
 

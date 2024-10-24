@@ -1,16 +1,19 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DHELLO15",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DHELLO16",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "我骄傲的主人，シリアス以这副模样迎接您，是否太过失礼了？不过如果是主人期待着让这样的シリアス献上侍奉的话……呵呵~啊，非常抱歉，主人，シリアス刚刚又有些自说自话了……",
+			actorName = 20220,
+			say = "我骄傲的{dorm3d}，天狼星以这副模样迎接您，是否太过失礼了？不过如果是{dorm3d}期待着让这样的天狼星献上侍奉的话……呵呵~啊，非常抱歉，{dorm3d}，天狼星刚刚又有些自说自话了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

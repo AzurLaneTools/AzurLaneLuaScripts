@@ -1,15 +1,19 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DHELLO15",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DHELLO15",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
+			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello15",
+			actorName = 20220,
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
 			say = "永遠の忠誠を誓ったご主人様、シリアス、今日だけは時が少しでも長く続いてくれればと…なぜなら…シリアス、全身全霊であなたにお仕え、愛しておりますから…",
 			typewriter = {
 				speed = 0.05,

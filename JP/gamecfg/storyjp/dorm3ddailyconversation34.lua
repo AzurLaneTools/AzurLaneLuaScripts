@@ -7,6 +7,9 @@ return {
 	hideRecord = true,
 	mode = 2,
 	id = "DORM3DDAILYCONVERSATION34",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			actor = 0,
@@ -15,7 +18,7 @@ return {
 			say = "――少し外に出かけない？"
 		},
 		{
-			actorName = "シリアス",
+			actorName = 20220,
 			side = 2,
 			dir = 1,
 			nameColor = "#FFFFFF",
@@ -60,7 +63,7 @@ return {
 			}
 		},
 		{
-			actorName = "シリアス",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,

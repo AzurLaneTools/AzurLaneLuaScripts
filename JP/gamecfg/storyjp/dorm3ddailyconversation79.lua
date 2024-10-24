@@ -1,15 +1,18 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DDAILYCONVERSATION79",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DDAILYCONVERSATION79",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
+			actorName = 20220,
 			say = "说起来，入住宿舍以后……有些事情朝着更好的方向发展了呢。",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +44,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "感谢您让シリアス入住这里，我骄傲的主人。",
+			actorName = 20220,
+			say = "感谢您让天狼星入住这里，我骄傲的{dorm3d}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,8 +59,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "比如能够像与主人像这样长时间的近距离接触……",
+			actorName = 20220,
+			say = "比如能够像与{dorm3d}像这样长时间的近距离接触……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,8 +91,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "而且无论主人要做什么，シリアス都能够在第一时间给予回应。",
+			actorName = 20220,
+			say = "而且无论{dorm3d}要做什么，天狼星都能够在第一时间给予回应。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,8 +100,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "这些对于シリアス来说，就是朝着更好的方向发展了哦。",
+			actorName = 20220,
+			say = "这些对于天狼星来说，就是朝着更好的方向发展了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,8 +109,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "シリアス希望，这种幸福的时光能够长长久久的持续下去。",
+			actorName = 20220,
+			say = "天狼星希望，这种幸福的时光能够长长久久的持续下去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,14 +7,17 @@ return {
 	hideRecord = true,
 	mode = 2,
 	id = "DORM3DDAILYCONVERSATION9",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
-			actorName = "シリアス",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "この部屋で、シリアスが最も好きな場所の一つは暖炉です！",
+			say = "这个房间里，天狼星最喜欢部分之一就是壁炉哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,12 +47,12 @@ return {
 			}
 		},
 		{
-			actorName = "シリアス",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "もう少し寒くなったら、ご主人様と寄り添って暖かい暖炉の前に座れると思うと、シリアスは…///",
+			say = "一想到天气再冷一些的时候，就能够和您依偎着坐在暖暖的壁炉旁，天狼星就……///",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

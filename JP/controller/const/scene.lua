@@ -108,6 +108,7 @@ SCENE = {
 	TECHNOLOGY_TREE_SCENE = "technology tree scene",
 	FEAST = "scene Feast",
 	NEWYEAR_BACKHILL_2023 = "NEWYEAR BACKHILL 2023",
+	GHOSTSKINPAGE = "GhostSkinPage",
 	EXERCISEFORMATION = "scene exerciseformation",
 	HOTSPRING_REDPACKET = "hotSpring redpacket",
 	BILLBOARD = "scene billboard",
@@ -782,6 +783,10 @@ slot0 = {
 	[SCENE.ZUMA_PT_SHOP] = function (slot0, slot1)
 		slot0.mediator = ZumaPTShopMediator
 		slot0.viewComponent = ZumaPTShopScene
+	end,
+	[SCENE.GHOSTSKINPAGE] = function (slot0, slot1)
+		slot0.mediator = GhostSkinMediator
+		slot0.viewComponent = GhostSkinPageLayer
 	end,
 	[SCENE.SECRET_SHIPYARD] = function (slot0, slot1)
 		slot0.mediator = SecretShipyardMediator

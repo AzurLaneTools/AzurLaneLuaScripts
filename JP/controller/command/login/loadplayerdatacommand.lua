@@ -199,6 +199,10 @@ slot0.execute = function(slot0, slot1)
 			true
 		},
 		{
+			InstagramChatProxy,
+			true
+		},
+		{
 			AppreciateProxy,
 			true
 		},
@@ -300,6 +304,9 @@ slot0.execute = function(slot0, slot1)
 			uv0:sendNotification(GAME.EDUCATE_REQUEST)
 		end
 
+		uv0:sendNotification(GAME.ACT_INSTAGRAM_CHAT, {
+			operation = ActivityConst.INSTAGRAM_CHAT_GET_DATA
+		})
 		pg.SdkMgr.GetInstance():BindCPU()
 		pg.SecondaryPWDMgr.GetInstance():FetchData()
 		MonthCardOutDateTipPanel.SetMonthCardEndDateLocal()

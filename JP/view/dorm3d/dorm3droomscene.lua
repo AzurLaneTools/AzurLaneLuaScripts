@@ -149,7 +149,10 @@ slot0.init = function(slot0)
 	onButton(slot0, slot0.btnZone, function ()
 		setActive(uv0.rtZoneList, not isActive(uv0.rtZoneList))
 	end, SFX_PANEL)
-	UIItemList.StaticAlign(slot0.rtZoneList, slot0.rtZoneList:GetChild(0), #slot0.zoneDatas, function (slot0, slot1, slot2)
+
+	slot4 = slot0.rtZoneList
+
+	UIItemList.StaticAlign(slot0.rtZoneList, slot4:GetChild(0), #slot0.zoneDatas, function (slot0, slot1, slot2)
 		if slot0 ~= UIItemList.EventUpdate then
 			return
 		end
@@ -184,8 +187,10 @@ slot0.init = function(slot0)
 		end, SFX_PANEL)
 	end)
 
-	slot2 = slot0.uiContianer:Find("walk")
-	slot3 = slot0.uiContianer:Find("ik")
+	slot2 = slot0.uiContianer
+	slot2 = slot2:Find("walk")
+	slot3 = slot0.uiContianer
+	slot3 = slot3:Find("ik")
 
 	onButton(slot0, slot3:Find("btn_back"), function ()
 		if isActive(uv0:Find("Panel")) then
@@ -297,7 +302,10 @@ slot0.init = function(slot0)
 	slot0.ikTipsRoot = slot3:Find("Tips")
 
 	setActive(slot0.ikTipsRoot, false)
-	GetOrAddComponent(slot0.ikTipsRoot:GetChild(0), typeof(RectTransform))
+
+	slot6 = slot0.ikTipsRoot
+
+	GetOrAddComponent(slot6:GetChild(0), typeof(RectTransform))
 
 	slot0.ikHand = slot3:Find("Handler")
 
@@ -305,14 +313,21 @@ slot0.init = function(slot0)
 	eachChild(slot0.ikHand, function (slot0)
 		setActive(slot0, false)
 	end)
-	onButton(slot0, slot0.uiContianer:Find("accompany"):Find("btn_back"), function ()
+
+	slot5 = slot0.uiContianer
+	slot5 = slot5:Find("accompany")
+
+	onButton(slot0, slot5:Find("btn_back"), function ()
 		uv0:ExitAccompanyMode()
 	end, "ui-dorm_back_v2")
 
 	slot0.unlockList = {}
-	slot0.rtFavorUp = slot0._tf:Find("Toast/favor_up")
+	slot6 = slot0._tf
+	slot0.rtFavorUp = slot6:Find("Toast/favor_up")
+	slot6 = slot0.rtFavorUp
+	slot6 = slot6:GetComponent("DftAniEvent")
 
-	slot0.rtFavorUp:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
+	slot6:SetEndEvent(function (slot0)
 		setActive(uv0.rtFavorUp, false)
 
 		if #uv0.unlockList > 0 then
@@ -322,12 +337,15 @@ slot0.init = function(slot0)
 	end)
 	setActive(slot0.rtFavorUp, false)
 
-	slot0.rtFavorUpDaily = slot0._tf:Find("Toast/favor_up_daily")
+	slot6 = slot0._tf
+	slot0.rtFavorUpDaily = slot6:Find("Toast/favor_up_daily")
 
 	setActive(slot0.rtFavorUpDaily, false)
 
-	slot0.rtStaminaPop = slot0._tf:Find("Toast/stamina")
-	slot6 = slot0.rtStaminaPop:GetComponent("DftAniEvent")
+	slot6 = slot0._tf
+	slot0.rtStaminaPop = slot6:Find("Toast/stamina")
+	slot6 = slot0.rtStaminaPop
+	slot6 = slot6:GetComponent("DftAniEvent")
 
 	slot6:SetTriggerEvent(function (slot0)
 		slot1, slot2 = getProxy(ApartmentProxy):getStamina()
@@ -339,10 +357,14 @@ slot0.init = function(slot0)
 	end)
 	setActive(slot0.rtStaminaPop, false)
 
-	slot0.rtLevelUpWindow = slot0._tf:Find("LevelUpWindow")
+	slot7 = slot0._tf
+	slot0.rtLevelUpWindow = slot7:Find("LevelUpWindow")
 
 	setActive(slot0.rtLevelUpWindow, false)
-	onButton(slot0, slot0.rtLevelUpWindow:Find("bg"), function ()
+
+	slot9 = slot0.rtLevelUpWindow
+
+	onButton(slot0, slot9:Find("bg"), function ()
 		if uv0.isLock then
 			return
 		end
@@ -359,7 +381,8 @@ slot0.init = function(slot0)
 		end))
 	end, SFX_PANEL)
 
-	slot7 = slot0.uiContianer:Find("watch")
+	slot7 = slot0.uiContianer
+	slot7 = slot7:Find("watch")
 
 	onButton(slot0, slot7:Find("btn_back"), function ()
 		uv0:ExitWatchMode()
@@ -372,25 +395,41 @@ slot0.init = function(slot0)
 	end, SFX_PANEL)
 
 	slot0.rtStaminaDisplay = slot7:Find("stamina")
-	slot0.rtRole = slot0.uiContianer:Find("watch/Role")
+	slot8 = slot0.uiContianer
+	slot0.rtRole = slot8:Find("watch/Role")
+	slot10 = slot0.rtRole
 
-	onButton(slot0, slot0.rtRole:Find("Talk"), function ()
+	onButton(slot0, slot10:Find("Talk"), function ()
 		if #uv0.apartment:getFurnitureTalking(uv0.room:GetConfigID(), uv0.ladyDict[uv0.apartment:GetConfigID()].ladyBaseZone) == 0 then
 			pg.TipsMgr.GetInstance():ShowTips("without topic")
 
 			return
 		end
 
-		uv0:DoTalk(slot1[math.random(#slot1)], function ()
+		slot2 = uv0
+
+		slot2:DoTalk(slot1[math.random(#slot1)], function ()
 			uv0:emit(Dorm3dRoomMediator.TRIGGER_FAVOR, uv0.apartment.configId, getDorm3dGameset("drom3d_favir_trigger_talk")[1])
 		end)
 	end, "ui-dorm_click_v2")
-	setText(slot0.rtRole:Find("Talk/bg/Text"), i18n("dorm3d_talk"))
-	onButton(slot0, slot0.rtRole:Find("Touch"), function ()
+
+	slot9 = slot0.rtRole
+
+	setText(slot9:Find("Talk/bg/Text"), i18n("dorm3d_talk"))
+
+	slot10 = slot0.rtRole
+
+	onButton(slot0, slot10:Find("Touch"), function ()
 		uv0:EnterTouchMode()
 	end, "ui-dorm_click_v2")
-	setText(slot0.rtRole:Find("Touch/bg/Text"), i18n("dorm3d_touch"))
-	onButton(slot0, slot0.rtRole:Find("Gift"), function ()
+
+	slot9 = slot0.rtRole
+
+	setText(slot9:Find("Touch/bg/Text"), i18n("dorm3d_touch"))
+
+	slot10 = slot0.rtRole
+
+	onButton(slot0, slot10:Find("Gift"), function ()
 		uv0:emit(uv0.SHOW_BLOCK)
 		uv0:ActiveStateCamera("gift", function ()
 			uv0:emit(uv0.HIDE_BLOCK)
@@ -400,8 +439,14 @@ slot0.init = function(slot0)
 			baseCamera = uv0.mainCameraTF
 		})
 	end, "ui-dorm_click_v2")
-	setText(slot0.rtRole:Find("Gift/bg/Text"), i18n("dorm3d_gift"))
-	onButton(slot0, slot0.rtRole:Find("MiniGame"), function ()
+
+	slot9 = slot0.rtRole
+
+	setText(slot9:Find("Gift/bg/Text"), i18n("dorm3d_gift"))
+
+	slot10 = slot0.rtRole
+
+	onButton(slot0, slot10:Find("MiniGame"), function ()
 		slot1 = uv0.apartment
 
 		table.insert({}, function (slot0)
@@ -441,37 +486,61 @@ slot0.init = function(slot0)
 			uv0:TempHideUI(false)
 		end)
 	end, "ui-dorm_click_v2")
-	setText(slot0.rtRole:Find("MiniGame/bg/Text"), i18n("dorm3d_minigame_button1"))
-	onButton(slot0, slot0.rtRole:Find("Volleyball"), function ()
+
+	slot9 = slot0.rtRole
+
+	setText(slot9:Find("MiniGame/bg/Text"), i18n("dorm3d_minigame_button1"))
+
+	slot10 = slot0.rtRole
+
+	onButton(slot0, slot10:Find("Volleyball"), function ()
 		uv0:emit(Dorm3dRoomMediator.ENTER_VOLLEYBALL)
 	end, "ui-dorm_click_v2")
-	setText(slot0.rtRole:Find("Volleyball/bg/Text"), i18n("dorm3d_volleyball_button"))
-	onButton(slot0, slot0.rtRole:Find("Performance"), function ()
-		uv0:PerformanceQueue("DormLvPerformance02", function ()
+
+	slot9 = slot0.rtRole
+
+	setText(slot9:Find("Volleyball/bg/Text"), i18n("dorm3d_volleyball_button"))
+
+	slot10 = slot0.rtRole
+
+	onButton(slot0, slot10:Find("Performance"), function ()
+		slot0 = uv0
+
+		slot0:PerformanceQueue("DormLvPerformance02", function ()
 			pg.TipsMgr.GetInstance():ShowTips("完了しました")
 		end)
 	end, "ui-dorm_click_v2")
 
-	slot0.rtFloatPage = slot0._tf:Find("FloatPage")
-	slot0.tplFloat = slot0.rtFloatPage:Find("tpl")
+	slot8 = slot0._tf
+	slot0.rtFloatPage = slot8:Find("FloatPage")
+	slot8 = slot0.rtFloatPage
+	slot0.tplFloat = slot8:Find("tpl")
 
 	setActive(slot0.tplFloat, false)
 	eachChild(cloneTplTo(slot0.tplFloat, slot0.rtFloatPage, "lady"), function (slot0)
 		setActive(slot0, slot0.name == "walk")
 	end)
 
-	slot0._joystick = slot0._tf:Find("Stick")
+	slot9 = slot0._tf
+	slot0._joystick = slot9:Find("Stick")
 
 	setActive(slot0._joystick, false)
-	slot0._joystick:GetComponent(typeof(SlideController)):SetStickFunc(function (slot0)
+
+	slot9 = slot0._joystick
+	slot9 = slot9:GetComponent(typeof(SlideController))
+
+	slot9:SetStickFunc(function (slot0)
 		uv0:emit(uv0.ON_STICK_MOVE, slot0)
 	end)
 
-	slot0.povLayer = slot0._tf:Find("POVControl")
+	slot10 = slot0._tf
+	slot0.povLayer = slot10:Find("POVControl")
 
 	setActive(slot0.povLayer, false)
 	(function ()
-		slot0 = uv0.povLayer:Find("Move"):GetComponent(typeof(SlideController))
+		slot0 = uv0.povLayer
+		slot0 = slot0:Find("Move")
+		slot0 = slot0:GetComponent(typeof(SlideController))
 
 		slot0:AddBeginDragFunc(function (slot0, slot1)
 			uv0:emit(uv0.ON_POV_STICK_MOVE_BEGIN, slot1)
@@ -482,7 +551,12 @@ slot0.init = function(slot0)
 		slot0:AddDragEndFunc(function (slot0, slot1)
 			uv0:emit(uv0.ON_POV_STICK_MOVE_END, slot1)
 		end)
-		uv0.povLayer:Find("View"):GetComponent(typeof(SlideController)):SetStickFunc(function (slot0)
+
+		slot1 = uv0.povLayer
+		slot1 = slot1:Find("View")
+		slot1 = slot1:GetComponent(typeof(SlideController))
+
+		slot1:SetStickFunc(function (slot0)
 			uv0:emit(uv0.ON_POV_STICK_VIEW, slot0)
 		end)
 	end)()
@@ -491,7 +565,8 @@ slot0.init = function(slot0)
 
 	(function ()
 		slot0 = nil
-		slot1 = uv0.ikControlLayer:GetComponent(typeof(SlideController))
+		slot1 = uv0.ikControlLayer
+		slot1 = slot1:GetComponent(typeof(SlideController))
 
 		slot1:AddBeginDragFunc(function (slot0, slot1)
 			slot2 = uv0.ladyDict[uv0.apartment:GetConfigID()]
@@ -530,8 +605,18 @@ slot0.init = function(slot0)
 		end)
 	end)()
 
-	slot0.rtExtraScreen = slot0._tf:Find("ExtraScreen")
-	slot0.rtTouchGamePanel = slot0.rtExtraScreen:Find("TouchGame")
+	slot12 = slot0._tf
+	slot0.rtExtraScreen = slot12:Find("ExtraScreen")
+	slot12 = slot0.rtExtraScreen
+	slot0.rtTouchGamePanel = slot12:Find("TouchGame")
+	slot12 = slot0.rtExtraScreen
+	slot0.rtTimelineScreen = slot12:Find("TimelineScreen")
+	slot14 = slot0.rtTimelineScreen
+
+	onButton(slot0, slot14:Find("btn_skip"), function ()
+		existCall(uv0.timelineFinishCall)
+	end, SFX_CANCEL)
+
 	slot0.uiStack = {}
 	slot0.uiStore = {}
 end
@@ -1265,11 +1350,25 @@ slot0.TouchModeAction = function(slot0, slot1, slot2, ...)
 				end)
 			end
 		end,
-		function (slot0, slot1)
+		function (slot0, slot1, slot2)
 			return function (slot0)
-				uv0.RevertAllIKLayer(uv1, uv2, function ()
-					uv0:DoTalk(uv1, uv2)
-				end)
+				seriesAsync({
+					function (slot0)
+						uv0.RevertAllIKLayer(uv1, uv2, slot0)
+					end,
+					function (slot0)
+						uv0:DoTalk(uv1, slot0)
+					end,
+					function (slot0)
+						if not uv0 or uv0 == 0 then
+							return slot0()
+						end
+
+						uv1:SwitchIKConfig(uv2, uv0)
+						uv1:SetIKState(true, slot0)
+					end,
+					slot0
+				})
 			end
 		end
 	}, function ()
@@ -1487,9 +1586,13 @@ slot0.DoTalk = function(slot0, slot1, slot2)
 
 	if slot6.performance_type == 0 then
 		table.insert(slot4, function (slot0)
+			slot1 = uv0
+
+			slot1:emit(uv0.HIDE_BLOCK)
+
 			slot1 = pg.NewStoryMgr.GetInstance()
 
-			slot1:ForceManualPlay(uv0.story, function ()
+			slot1:ForceManualPlay(uv1.story, function ()
 				onDelayTick(uv0, 0.001)
 			end, true)
 		end)
@@ -1498,14 +1601,14 @@ slot0.DoTalk = function(slot0, slot1, slot2)
 			uv0:emit(uv0.HIDE_BLOCK)
 			uv0:PerformanceQueue(uv1.story, slot0)
 		end)
-		table.insert(slot4, function (slot0)
-			uv0:emit(uv0.SHOW_BLOCK)
-			slot0()
-		end)
 	else
 		assert(false)
 	end
 
+	table.insert(slot4, function (slot0)
+		uv0:emit(uv0.SHOW_BLOCK)
+		slot0()
+	end)
 	table.insert(slot4, function (slot0)
 		if pg.NewStoryMgr.GetInstance():StoryName2StoryId(uv0.story) then
 			pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataStory(slot1, "1"))
@@ -1536,22 +1639,12 @@ slot0.DoTalk = function(slot0, slot1, slot2)
 end
 
 slot0.DoTalkTouchOption = function(slot0, slot1, slot2, slot3)
-	slot4 = slot0.rtExtraScreen:Find("TalkTouchOption")
+	slot4 = slot0.rtExtraScreen
+	slot4 = slot4:Find("TalkTouchOption")
+	slot5 = nil
+	slot6 = slot4:Find("content")
 
-	if isActive(pg.NewStoryMgr.GetInstance()._tf) then
-		setParent(slot4, slot5)
-	else
-		pg.UIMgr.GetInstance():OverlayPanel(slot4, {
-			weight = LayerWeightConst.SECOND_LAYER,
-			groupName = LayerWeightConst.GROUP_DORM3D
-		})
-	end
-
-	slot0.tempExtraPanel = slot4
-	slot6 = nil
-	slot7 = slot4:Find("content")
-
-	UIItemList.StaticAlign(slot7, slot7:Find("clickTpl"), #slot1.options, function (slot0, slot1, slot2)
+	UIItemList.StaticAlign(slot6, slot6:Find("clickTpl"), #slot1.options, function (slot0, slot1, slot2)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
@@ -1566,40 +1659,19 @@ slot0.DoTalkTouchOption = function(slot0, slot1, slot2, slot3)
 	end)
 	setActive(slot4, true)
 
-	slot6 = function(slot0)
+	slot5 = function(slot0)
 		setActive(uv0, false)
-
-		if isActive(uv1) then
-			setParent(uv0, uv2.rtExtraScreen)
-		else
-			pg.UIMgr.GetInstance():UnOverlayPanel(uv0, uv2.rtExtraScreen)
-		end
-
-		uv2.tempExtraPanel = nil
-
-		uv3(slot0)
+		uv1(slot0)
 	end
 end
 
 slot0.DoTimelineOption = function(slot0, slot1, slot2)
-	if not slot0.rtExtraScreen:Find("TimelineOption") then
-		return
-	end
+	slot3 = slot0.rtTimelineScreen
+	slot3 = slot3:Find("TimelineOption")
+	slot4 = nil
+	slot5 = slot3:Find("content")
 
-	if isActive(pg.NewStoryMgr.GetInstance()._tf) then
-		setParent(slot3, slot4)
-	else
-		pg.UIMgr.GetInstance():OverlayPanel(slot3, {
-			weight = LayerWeightConst.SECOND_LAYER,
-			groupName = LayerWeightConst.GROUP_DORM3D
-		})
-	end
-
-	slot0.tempExtraPanel = slot3
-	slot5 = nil
-	slot6 = slot3:Find("content")
-
-	UIItemList.StaticAlign(slot6, slot6:Find("clickTpl"), #slot1, function (slot0, slot1, slot2)
+	UIItemList.StaticAlign(slot5, slot5:Find("clickTpl"), #slot1, function (slot0, slot1, slot2)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
@@ -1611,40 +1683,19 @@ slot0.DoTimelineOption = function(slot0, slot1, slot2)
 	end)
 	setActive(slot3, true)
 
-	slot5 = function(slot0)
+	slot4 = function(slot0)
 		setActive(uv0, false)
-
-		if isActive(uv1) then
-			setParent(uv0, uv2.rtExtraScreen)
-		else
-			pg.UIMgr.GetInstance():UnOverlayPanel(uv0, uv2.rtExtraScreen)
-		end
-
-		uv2.tempExtraPanel = nil
-
-		uv3(slot0)
+		uv1(slot0)
 	end
 end
 
 slot0.DoTimelineTouch = function(slot0, slot1, slot2)
-	if not slot0.rtExtraScreen:Find("TimelineTouch") then
-		return
-	end
+	slot3 = slot0.rtTimelineScreen
+	slot3 = slot3:Find("TimelineTouch")
+	slot4 = nil
+	slot5 = slot3:Find("content")
 
-	if isActive(pg.NewStoryMgr.GetInstance()._tf) then
-		setParent(slot3, slot4)
-	else
-		pg.UIMgr.GetInstance():OverlayPanel(slot3, {
-			weight = LayerWeightConst.SECOND_LAYER,
-			groupName = LayerWeightConst.GROUP_DORM3D
-		})
-	end
-
-	slot0.tempExtraPanel = slot3
-	slot5 = nil
-	slot6 = slot3:Find("content")
-
-	UIItemList.StaticAlign(slot6, slot6:Find("clickTpl"), #slot1, function (slot0, slot1, slot2)
+	UIItemList.StaticAlign(slot5, slot5:Find("clickTpl"), #slot1, function (slot0, slot1, slot2)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
@@ -1662,18 +1713,9 @@ slot0.DoTimelineTouch = function(slot0, slot1, slot2)
 	end)
 	setActive(slot3, true)
 
-	slot5 = function(slot0)
+	slot4 = function(slot0)
 		setActive(uv0, false)
-
-		if isActive(uv1) then
-			setParent(uv0, uv2.rtExtraScreen)
-		else
-			pg.UIMgr.GetInstance():UnOverlayPanel(uv0, uv2.rtExtraScreen)
-		end
-
-		uv2.tempExtraPanel = nil
-
-		uv3(slot0)
+		uv1(slot0)
 	end
 end
 
@@ -2020,6 +2062,8 @@ slot0.UpdateFavorDisplay = function(slot0)
 
 		setText(slot0.rtFavorLevel:Find("Text"), string.format("<color=#ff6698>%d</color>/%d", slot3, slot4))
 	end
+
+	setActive(slot0.rtFavorLevel:Find("red"), Dorm3dLevelLayer.IsShowRed())
 end
 
 slot0.UpdateBtnState = function(slot0)
@@ -2624,18 +2668,6 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	if slot0.tempExtraPanel and isActive(slot0.tempExtraPanel) then
-		setActive(slot0.tempExtraPanel, false)
-
-		if isActive(pg.NewStoryMgr.GetInstance()._tf) then
-			setParent(slot1, slot0.rtExtraScreen)
-		else
-			pg.UIMgr.GetInstance():UnOverlayPanel(slot1, slot0.rtExtraScreen)
-		end
-
-		slot0.tempExtraPanel = nil
-	end
-
 	if slot0.downTimer then
 		slot0.downTimer:Stop()
 

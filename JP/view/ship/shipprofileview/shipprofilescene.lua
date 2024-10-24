@@ -617,7 +617,8 @@ slot0.OnCVBtnClick = function(slot0, slot1)
 					parallelAsync({
 						function (slot0)
 							uv0:RemoveLive2DTimer()
-							uv0.l2dChar:TriggerAction(uv1, slot0)
+
+							uv0.l2dActioning = uv0.l2dChar:TriggerAction(uv1, slot0)
 						end,
 						function (slot0)
 							uv0:PlayVoice(uv1, uv2)
@@ -633,9 +634,8 @@ slot0.OnCVBtnClick = function(slot0, slot1)
 
 							slot1:RemoveLive2DTimer()
 
-							slot1 = uv0.l2dChar
-
-							slot1:TriggerAction(uv1, slot0, nil, function (slot0)
+							slot2 = uv0.l2dChar
+							uv0.l2dActioning = slot2:TriggerAction(uv1, slot0, nil, function (slot0)
 								uv0:PlayVoice(uv1, uv2)
 								uv0:ShowDailogue(uv1, uv2, uv3)
 							end)

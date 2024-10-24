@@ -41946,7 +41946,6 @@ _G.pg.base.task_data_template[7311] = {
 	sub_type = 500,
 	task_fold = 0,
 	story_icon = "",
-	scene = "",
 	quick_finish = 0,
 	level = 80,
 	award_choice = "",
@@ -41971,6 +41970,9 @@ _G.pg.base.task_data_template[7311] = {
 			1021001,
 			4
 		}
+	},
+	scene = {
+		"DORM3DSELECT"
 	}
 }
 
@@ -117192,6 +117194,2547 @@ _G.pg.base.task_data_template[20677] = {
 	},
 	scene = {
 		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20678] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904102,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』登陆送皮肤体验券",
+	desc = "ゲームにログインせよ！",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20678,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			436,
+			3
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20679] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904103,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』外观装备箱保底",
+	desc = "装備外装箱（パイレーツ）を20個開ける",
+	sub_type = 52,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20679,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "30349",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30531,
+			1
+		}
+	},
+	scene = {
+		"SHOP",
+		{
+			warp = "shopstreet"
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20680] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904104,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』-日常建造",
+	desc = "3回建造する",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20680,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65035,
+			300
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20681] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904105,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』-日常出击",
+	desc = "艦隊を出撃させ、15回勝利せよ！",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20681,
+	target_num = 15,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65035,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20682] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904106,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』-日常困难本",
+	desc = "任意のハードステージを1回クリアせよ",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20682,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65035,
+			150
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20683] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904107,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』通关T1",
+	desc = "T1クリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20684",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20683,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1860001",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			65035,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5621
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20684] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904108,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『风帆二期』通关T2",
+	desc = "T2クリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20685",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20684,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1860002",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			65035,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5621
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20685] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904109,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『风帆二期』通关T3",
+	desc = "T3クリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20686",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20685,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1860003",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			65035,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5621
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20686] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904110,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『风帆二期』通关T4",
+	desc = "T4クリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20687",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20686,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1860004",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			65035,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5621
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20687] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904111,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『风帆二期』通关T5",
+	desc = "T5クリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20688",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20687,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1860005",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			65035,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5621
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20688] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904112,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『风帆二期』通关T6",
+	desc = "T6クリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20689",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20688,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1860006",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			65035,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5621
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20689] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904113,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『风帆二期』通关SP",
+	desc = "イベントステージSPをクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20689,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1860041",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1860003,
+			chapterId = 1860041
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20690] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904114,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』通关EX",
+	desc = "EXステージをクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20690,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1860051",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1860004,
+			chapterId = 1860051
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20691] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904115,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』T1的3星",
+	desc = "T1の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20692",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20691,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1860001",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5621
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20692] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904116,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『风帆二期』T2的3星",
+	desc = "T2の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20693",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20692,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1860002",
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5621
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20693] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904117,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『风帆二期』T3的3星",
+	desc = "T3の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20694",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20693,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1860003",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18003,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5621
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20694] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904118,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『风帆二期』T4的3星",
+	desc = "T4の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20695",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20694,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1860004",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5621
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20695] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904119,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『风帆二期』T5的3星",
+	desc = "T5の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20696",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20695,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1860005",
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5621
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20696] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904120,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『风帆二期』T6的3星",
+	desc = "T6の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20696,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1860006",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18013,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5621
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20697] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904121,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』通关任务10次",
+	desc = "『テンペスタと眠りし海』特別ステージ10回クリア",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20697,
+	target_num = 10,
+	fix_task = 0,
+	target_id = {
+		1860001,
+		1860002,
+		1860003,
+		1860004,
+		1860005,
+		1860006,
+		1860041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65035,
+			500
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20698] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904122,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』通关任务30次",
+	desc = "『テンペスタと眠りし海』特別ステージ30回クリア",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20698,
+	target_num = 30,
+	fix_task = 0,
+	target_id = {
+		1860001,
+		1860002,
+		1860003,
+		1860004,
+		1860005,
+		1860006,
+		1860041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65035,
+			1500
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20699] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904123,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』通关任务60次",
+	desc = "『テンペスタと眠りし海』特別ステージ60回クリア",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20699,
+	target_num = 60,
+	fix_task = 0,
+	target_id = {
+		1860001,
+		1860002,
+		1860003,
+		1860004,
+		1860005,
+		1860006,
+		1860041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65035,
+			3000
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20700] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904124,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』剧情模式通关",
+	desc = "ストーリーモードですべてのストーリーを読む",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20700,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		6396
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			5
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1860001,
+			displayMode = 2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20701] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904125,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』港区假日鬼怪故事集-任务-登录1",
+	desc = "月ログインスタンプを1回押す",
+	sub_type = 106,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20701,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65037,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20702] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904126,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』港区假日鬼怪故事集-任务-登录2",
+	desc = "月ログインスタンプを2回押す",
+	sub_type = 106,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20702,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65037,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20703] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904127,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』港区假日鬼怪故事集-任务-登录3",
+	desc = "月ログインスタンプを3回押す",
+	sub_type = 106,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20703,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65037,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20704] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904128,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』港区假日鬼怪故事集-任务-登录4",
+	desc = "月ログインスタンプを4回押す",
+	sub_type = 106,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20704,
+	target_num = 4,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65037,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20705] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904129,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』港区假日鬼怪故事集-任务-登录5",
+	desc = "月ログインスタンプを5回押す",
+	sub_type = 106,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20705,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65037,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20706] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904130,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』港区假日鬼怪故事集-任务-登录6",
+	desc = "月ログインスタンプを6回押す",
+	sub_type = 106,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20706,
+	target_num = 6,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65037,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20707] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904131,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』港区假日鬼怪故事集-任务-登录7",
+	desc = "月ログインスタンプを7回押す",
+	sub_type = 106,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20707,
+	target_num = 7,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65037,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20708] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904132,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』港区假日鬼怪故事集-任务-登录8",
+	desc = "月ログインスタンプを8回押す",
+	sub_type = 106,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20708,
+	target_num = 8,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65037,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20709] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904133,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』港区假日鬼怪故事集-任务-出击胜利1",
+	desc = "艦隊を出撃させ、15回勝利する",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20709,
+	target_num = 15,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65037,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20710] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904134,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』港区假日鬼怪故事集-任务-出击胜利2",
+	desc = "艦隊を出撃させ、30回勝利する",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20710,
+	target_num = 30,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65037,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20711] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904135,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』港区假日鬼怪故事集-任务-出击胜利3",
+	desc = "艦隊を出撃させ、45回勝利する",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20711,
+	target_num = 45,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65037,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20712] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904136,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』港区假日鬼怪故事集-任务-出击胜利4",
+	desc = "艦隊を出撃させ、60回勝利する",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20712,
+	target_num = 60,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65037,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20713] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904137,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』港区假日鬼怪故事集-任务-出击胜利5",
+	desc = "艦隊を出撃させ、75回勝利する",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20713,
+	target_num = 75,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65037,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20714] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904138,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』港区假日鬼怪故事集-任务-出击胜利6",
+	desc = "艦隊を出撃させ、90回勝利する",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20714,
+	target_num = 90,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65037,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20715] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904139,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』港区假日鬼怪故事集-任务-出击胜利7",
+	desc = "艦隊を出撃させ、105回勝利する",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20715,
+	target_num = 105,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65037,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20716] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904140,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』港区假日鬼怪故事集-任务-出击胜利8",
+	desc = "艦隊を出撃させ、120回勝利する",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20716,
+	target_num = 120,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65037,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20717] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904141,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』港区假日鬼怪故事集-任务-全故事阅读完成",
+	desc = "ストーリーモードですべてのストーリーを読む",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20717,
+	target_num = 8,
+	fix_task = 0,
+	target_id = {
+		6401,
+		6402,
+		6403,
+		6404,
+		6405,
+		6406,
+		6407,
+		6408
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30361,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20718] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904143,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『海盗版本』前哨战七日任务1",
+	desc = "艦隊を出撃させ、10回S評価で勝利せよ！",
+	sub_type = 24,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20718,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20719] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904144,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『海盗版本』前哨战七日任务2",
+	desc = "ゲームにログインせよ！",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20719,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20720] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904145,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『海盗版本』前哨战七日任务3",
+	desc = "演習を2回行う",
+	sub_type = 27,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20720,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20721] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904146,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『海盗版本』前哨战七日任务4",
+	desc = "「軍事委託」を2回遂行する",
+	sub_type = 80,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20721,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20722] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904147,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『海盗版本』前哨战七日任务5",
+	desc = "艦を2隻「退役」して、艦隊を再編せよ！",
+	sub_type = 31,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20722,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20723] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904148,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『海盗版本』前哨战七日任务6",
+	desc = "装備を2回強化する",
+	sub_type = 40,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20723,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20724] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904149,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『海盗版本』前哨战七日任务7",
+	desc = "艦を5回強化する",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20724,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20725] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904150,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『海盗版本』前哨战七日任务8",
+	desc = "戦術教室で戦術訓練を2回行う",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20725,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20726] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904151,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『海盗版本』前哨战七日任务9",
+	desc = "任意の敵艦を20隻撃破する",
+	sub_type = 11,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20726,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20727] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904152,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『海盗版本』前哨战七日任务10",
+	desc = "寮舎で食糧を5回補充する",
+	sub_type = 61,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20727,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20728] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904153,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『海盗版本』前哨战七日任务11",
+	desc = "艦を2隻「建造」せよ！",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20728,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20729] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904154,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『海盗版本』前哨战七日任务12",
+	desc = "装備箱を1個開ける",
+	sub_type = 50,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20729,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20730] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904155,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『海盗版本』前哨战七日任务13",
+	desc = "戦術教室で戦術訓練を2回遂行せよ！",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20730,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20731] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904156,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『海盗版本』前哨战七日任务14",
+	desc = "艦隊を出撃させ、敵中枢艦隊を3回撃破せよ！",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20731,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			3,
+			150020,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20732] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904200,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』外观装备箱保底",
+	desc = "装備外装箱（ハロウィンホラー）を20個開ける",
+	sub_type = 52,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20732,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "30361",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30547,
+			1
+		}
+	},
+	scene = {
+		"SHOP",
+		{
+			warp = "shopstreet"
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20733] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904201,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』通关T6",
+	desc = "T6クリア(すでに「どれいく」を所持している場合自動で資金に変換されます)",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20733,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1860006",
+	open_need = {},
+	award_display = {
+		{
+			25,
+			960011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5621
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20734] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904202,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『风帆二期』通关T6",
+	desc = "T6クリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20734,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1860006",
+	open_need = {},
+	award_display = {
+		{
+			5,
+			289,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5621
+		}
 	}
 }
 

@@ -2,7 +2,7 @@ slot0 = class("SecretShipyardScene", import("..base.BaseUI"))
 slot0.optionsPath = {
 	"main/top/btn_home"
 }
-slot0.ACT_ID = 5023
+slot0.ACT_ID = 5625
 slot0.GAME_ID = 59
 slot0.ANIMATIONS = {
 	"Phase_00",

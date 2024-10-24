@@ -1,15 +1,18 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DDAILYCONVERSATION81",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DDAILYCONVERSATION81",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
+			actorName = 20220,
 			say = "嗯……",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +50,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
+			actorName = 20220,
 			say = "在想云朵的形状。",
 			typewriter = {
 				speed = 0.05,
@@ -56,8 +59,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "シリアス在您来之前，在走廊上看云。",
+			actorName = 20220,
+			say = "天狼星在您来之前，在走廊上看云。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +68,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
+			actorName = 20220,
 			say = "因为听其他人说，在看云的时候所见到的云朵形状，就代表着人内心最期待的事物。",
 			typewriter = {
 				speed = 0.05,
@@ -73,15 +76,15 @@ return {
 			},
 			options = {
 				{
-					content = "那，シリアス看到了什么呢？",
+					content = "那，天狼星看到了什么呢？",
 					flag = 1
 				}
 			}
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "主人……您是在明知故问哦。",
+			actorName = 20220,
+			say = "{dorm3d}……您是在明知故问哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

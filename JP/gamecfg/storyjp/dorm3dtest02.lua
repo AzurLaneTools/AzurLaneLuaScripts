@@ -1,11 +1,14 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DTEST02",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DTEST02",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			say = "对话2",

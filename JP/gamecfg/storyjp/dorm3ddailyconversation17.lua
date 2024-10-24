@@ -7,6 +7,9 @@ return {
 	hideRecord = true,
 	mode = 2,
 	id = "DORM3DDAILYCONVERSATION17",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			actor = 0,
@@ -15,7 +18,7 @@ return {
 			say = "――シリアス、何か考え込んでいる？"
 		},
 		{
-			actorName = "シリアス",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
@@ -50,7 +53,7 @@ return {
 			}
 		},
 		{
-			actorName = "シリアス",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -68,7 +71,7 @@ return {
 			}
 		},
 		{
-			actorName = "シリアス",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,

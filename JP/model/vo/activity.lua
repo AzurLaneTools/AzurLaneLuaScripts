@@ -708,7 +708,8 @@ slot0.IsShowTipById = function(slot0)
 		[ActivityConst.NEWMEIXIV4_SKIRMISH_ID] = NewMeixiV4SkirmishPage.IsShowRed,
 		[ActivityConst.JIUJIU_YOYO_ID] = JiujiuYoyoPage.IsShowRed,
 		[ActivityConst.SENRANKAGURA_TRAIN_ACT_ID] = SenrankaguraTrainScene.IsShowRed,
-		[ActivityConst.DORM_SIGN_ID] = DormSignPage.IsShowRed
+		[ActivityConst.DORM_SIGN_ID] = DormSignPage.IsShowRed,
+		[ActivityConst.GOASTSTORYACTIVITY_ID] = GhostSkinPageLayer.IsShowRed
 	}
 	slot1 = uv0.ShowTipTableById[slot0.id]
 

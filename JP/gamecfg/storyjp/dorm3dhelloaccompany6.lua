@@ -7,12 +7,15 @@ return {
 	hideRecord = true,
 	mode = 2,
 	id = "DORM3DHELLOACCOMPANY6",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
-			actorName = "シリアス",
+			actorName = 20220,
 			side = 2,
 			dir = 1,
-			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_wait_table1",
+			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/dorm3d_sirus_wait_table1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			say = "誇らしきご主人様、こちらに一緒におかけになりませんか？お菓子と紅茶を用意しておりますよ",

@@ -1,15 +1,19 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DTOUCH1503",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DTOUCH1503",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
+			voice = "event:/dorm/Tianlangxing_dorm3d_tone/touch05",
+			actorName = 20220,
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
 			say = "んんー…ちょっとくすぐったいです",
 			typewriter = {
 				speed = 0.05,

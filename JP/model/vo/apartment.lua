@@ -6,6 +6,9 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.favor = slot1.favor_exp
 	slot0.daily = slot1.daily_favor
 	slot0.skinId = slot1.cur_skin
+	slot0.callName = slot1.name
+	slot0.setCallCd = slot1.name_cd
+	slot0.setCallTimeStamp = pg.TimeMgr.GetInstance():GetServerTime()
 	slot0.skinList = {}
 
 	table.insert(slot0.skinList, slot0:getConfig("skin_model"))
@@ -112,6 +115,18 @@ slot0.GetSkinModelID = function(slot0, slot1)
 	end
 
 	return slot2
+end
+
+slot0.GetCallName = function(slot0)
+	return slot0.callName and #slot0.callName > 0 and slot0.callName or pg.dorm3d_dorm_template[slot0.configId].default_appellation
+end
+
+slot0.GetSetCallCd = function(slot0)
+	if slot0.setCallCd <= pg.TimeMgr.GetInstance():GetServerTime() then
+		return 0
+	end
+
+	return slot0.setCallCd - pg.TimeMgr.GetInstance():GetServerTime()
 end
 
 slot0.getTalkingList = function(slot0, slot1)

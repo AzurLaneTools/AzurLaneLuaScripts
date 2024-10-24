@@ -5,9 +5,12 @@ return {
 	id = "DORM3DGIFTFEEDBACK5",
 	hideSkip = true,
 	hideAuto = true,
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
-			say = "好可爱的玩偶……咦？主人不在时就由它来陪伴シリアス……？",
+			say = "好可爱的玩偶……咦？{dorm3d}不在时就由它来陪伴天狼星……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,7 +33,7 @@ return {
 			}
 		},
 		{
-			say = "明白了，シリアス一定会把它当成主人一样好好爱护，二十四小时寸步不离。",
+			say = "明白了，天狼星一定会把它当成{dorm3d}一样好好爱护，二十四小时寸步不离。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

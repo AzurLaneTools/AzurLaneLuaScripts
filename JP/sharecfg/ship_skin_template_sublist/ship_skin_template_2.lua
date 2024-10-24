@@ -1,6 +1,134 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_2 = {
+	[102030] = {
+		name = "ブルックリン",
+		id = 102030,
+		desc = "ブルックリン級巡洋艦・ブルックリン（CL-40）",
+		illustrator2 = -1,
+		ship_group = 10203,
+		group_index = 0,
+		prefab = "bulukelin",
+		painting = "bulukelin",
+		hand_id = 3,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 64,
+		spine_offset = "",
+		illustrator = 7,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.789,
+					0.501,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.789,
+					0.501,
+					0
+				},
+				{
+					-0.238,
+					0.927,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.457,
+					1.102,
+					0
+				},
+				{
+					-0.834,
+					1.234,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							0.39,
+							0.41,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.61,
+							0.53,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[102040] = {
 		name = "フェニックス",
 		id = 102040,
@@ -12929,111 +13057,6 @@ pg.base.ship_skin_template_2 = {
 						{
 							-0.625,
 							2.427,
-							0.14
-						}
-					}
-				}
-			}
-		}
-	},
-	[103140] = {
-		name = "サンフランシスコ",
-		id = 103140,
-		desc = "ニューオリンズ級重巡洋艦・サンフランシスコ（CA-38）",
-		illustrator2 = -1,
-		ship_group = 10314,
-		group_index = 0,
-		prefab = "jiujinshan",
-		painting = "jiujinshan",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 275,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.266,
-					1.151,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.301,
-					1.144,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.03,
-					0.003,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.596,
-							2.323,
 							0.14
 						}
 					}

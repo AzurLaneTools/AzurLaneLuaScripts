@@ -1,11 +1,14 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DDAILYCONVERSATION89",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DDAILYCONVERSATION89",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
@@ -18,8 +21,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "并不会哦，我的主人。",
+			actorName = 20220,
+			say = "并不会哦，我的{dorm3d}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,8 +53,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "不过，シリアス之前提过，希望让主人把路上看到的花送给我。",
+			actorName = 20220,
+			say = "不过，天狼星之前提过，希望让{dorm3d}把路上看到的花送给我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,8 +62,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "要不要干脆借这个机会，尝试一下插花呢？这样主人也不会觉得房间布置单调了。",
+			actorName = 20220,
+			say = "要不要干脆借这个机会，尝试一下插花呢？这样{dorm3d}也不会觉得房间布置单调了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +93,7 @@ return {
 			},
 			options = {
 				{
-					content = "シリアス会插花？",
+					content = "天狼星会插花？",
 					flag = 1
 				},
 				{
@@ -101,7 +104,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
+			actorName = 20220,
 			optionFlag = 1,
 			say = "嗯……不算会，只是勉强了解一点点。",
 			typewriter = {
@@ -111,9 +114,9 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
+			actorName = 20220,
 			optionFlag = 2,
-			say = "为主人提供舒适和赏心悦目的居家环境，是女仆的分内之事。",
+			say = "为{dorm3d}提供舒适和赏心悦目的居家环境，是女仆的分内之事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,8 +124,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "虽然是シリアス提出的插花，但我其实并不擅长呢……",
+			actorName = 20220,
+			say = "虽然是天狼星提出的插花，但我其实并不擅长呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,8 +133,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "不过提出这种自己并不擅长的事，也是因为シリアス实在太想和主人一起做了……！",
+			actorName = 20220,
+			say = "不过提出这种自己并不擅长的事，也是因为天狼星实在太想和{dorm3d}一起做了……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,8 +165,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "果然……还请您惩罚シリアス这个厚脸皮的女仆吧，我的主人。",
+			actorName = 20220,
+			say = "果然……还请您惩罚天狼星这个厚脸皮的女仆吧，我的{dorm3d}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,8 +197,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "シリアス已经做好了接受惩罚的准备……！",
+			actorName = 20220,
+			say = "天狼星已经做好了接受惩罚的准备……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -125,7 +125,7 @@ slot0.GetInitializeMap = function(slot0)
 		slot2 = nil
 	end
 
-	return slot2 or slot0:selectMap(), tobool(slot2)
+	return slot2 or getProxy(ChapterProxy):GetLastNormalMap(), tobool(slot2)
 end
 
 slot0.init = function(slot0)
@@ -791,10 +791,6 @@ slot0.PreloadLevelMainUI = function(slot0, slot1, slot2)
 	end)
 end
 
-slot0.selectMap = function(slot0)
-	return slot0.contextData.mapIdx or (not Map.lastMap or not getProxy(ChapterProxy):getMapById(Map.lastMap) or not slot3:isUnlock() or Map.lastMap) and slot2:getLastUnlockMap().id
-end
-
 slot0.setShips = function(slot0, slot1)
 	slot0.shipVOs = slot1
 end
@@ -1063,11 +1059,16 @@ slot0.updateDifficultyBtns = function(slot0)
 end
 
 slot0.updateActivityBtns = function(slot0)
-	slot1, slot2 = slot0.contextData.map:isActivity()
-	slot3 = slot0.contextData.map:isRemaster()
-	slot6 = slot0.contextData.map:getConfig("type")
+	slot1 = slot0.contextData.map
+	slot2, slot3 = slot1:isActivity()
+	slot4 = slot1:isRemaster()
+	slot7 = slot1:getConfig("type")
 
-	if getProxy(ActivityProxy):GetEarliestActByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT) and not slot8:isEnd() and not slot1 and not slot0.contextData.map:isSkirmish() and not slot0.contextData.map:isEscort() then
+	if underscore(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT)):chain():select(function (slot0)
+		return not slot0:isEnd()
+	end):sort(function (slot0, slot1)
+		return slot0.id < slot1.id
+	end):value()[1] and not slot2 and not slot1:isSkirmish() and not slot1:isEscort() then
 		slot11 = setmetatable({}, MainActMapBtn)
 		slot11.image = slot0.activityBtn:Find("Image"):GetComponent(typeof(Image))
 		slot11.subImage = slot0.activityBtn:Find("sub_Image"):GetComponent(typeof(Image))
@@ -1086,10 +1087,12 @@ slot0.updateActivityBtns = function(slot0)
 	setActive(slot0.activityBtn, slot10)
 	slot0:updateRemasterInfo()
 
-	if slot1 and slot2 then
-		setActive(slot0.actExtraBtn, underscore.any(getProxy(ChapterProxy):getMapsByActivities(), function (slot0)
+	if slot2 and slot3 then
+		slot11 = nil
+
+		setActive(slot0.actExtraBtn, underscore.any((not slot1:isRemaster() or getProxy(ChapterProxy):getRemasterMaps(slot1.remasterId)) and getProxy(ChapterProxy):getMapsByActivities(), function (slot0)
 			return slot0:isActExtra()
-		end) and not slot3 and slot6 ~= Map.ACT_EXTRA)
+		end) and slot7 ~= Map.ACT_EXTRA)
 
 		if isActive(slot0.actExtraBtn) then
 			if underscore.all(underscore.filter(slot11, function (slot0)
@@ -1105,13 +1108,35 @@ slot0.updateActivityBtns = function(slot0)
 			setActive(slot0.actExtraBtn:Find("Tip"), getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip())
 		end
 
-		setActive(slot0.actEliteBtn, checkExist(slot0.contextData.map:getBindMap(), {
+		setActive(slot0.actEliteBtn, checkExist(slot1:getBindMap(), {
 			"isHardMap"
-		}) and slot6 ~= Map.ACTIVITY_HARD)
-		setActive(slot0.actNormalBtn, slot6 ~= Map.ACTIVITY_EASY)
-		setActive(slot0.actExtraRank, slot6 == Map.ACT_EXTRA)
-		setActive(slot0.actExchangeShopBtn, not ActivityConst.HIDE_PT_PANELS and not slot3 and slot2 and slot0:IsActShopActive())
-		setActive(slot0.ptTotal, not ActivityConst.HIDE_PT_PANELS and not slot3 and slot2 and slot0.ptActivity and not slot0.ptActivity:isEnd())
+		}) and slot7 ~= Map.ACTIVITY_HARD)
+		setActive(slot0.actNormalBtn, slot7 ~= Map.ACTIVITY_EASY)
+
+		slot14 = setActive
+		slot15 = slot0.actExtraRank
+
+		if slot7 == Map.ACT_EXTRA then
+			slot17 = getProxy(ActivityProxy)
+			slot16 = _.any(slot17:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_EXTRA_CHAPTER_RANK), function (slot0)
+				if not slot0 or slot0:isEnd() then
+					return
+				end
+
+				slot1 = slot0:getConfig("config_data")[1]
+				slot3 = uv0
+
+				return _.any(slot3:getChapters(), function (slot0)
+					return slot0:IsEXChapter() and slot0:getConfig("boss_expedition_id") == uv0
+				end)
+			end)
+		else
+			slot16 = false
+		end
+
+		slot14(slot15, slot16)
+		setActive(slot0.actExchangeShopBtn, not ActivityConst.HIDE_PT_PANELS and not slot4 and slot3 and slot0:IsActShopActive())
+		setActive(slot0.ptTotal, not ActivityConst.HIDE_PT_PANELS and not slot4 and slot3 and slot0.ptActivity and not slot0.ptActivity:isEnd())
 		slot0:updateActivityRes()
 	else
 		setActive(slot0.actExtraBtn, false)
@@ -1123,15 +1148,11 @@ slot0.updateActivityBtns = function(slot0)
 		setActive(slot0.ptTotal, false)
 	end
 
-	setActive(slot0.eventContainer, (not slot1 or not slot2) and not slot5)
-	setActive(slot0.remasterBtn, OPEN_REMASTER and (slot3 or not slot1 and not slot5 and not slot4))
-	setActive(slot0.ticketTxt.parent, slot3)
+	setActive(slot0.eventContainer, (not slot2 or not slot3) and not slot6)
+	setActive(slot0.remasterBtn, OPEN_REMASTER and (slot4 or not slot2 and not slot6 and not slot5))
+	setActive(slot0.ticketTxt.parent, slot4)
 	slot0:updateRemasterTicket()
 	slot0:updateCountDown()
-
-	if slot1 and slot6 ~= Map.ACT_EXTRA then
-		Map.lastMapForActivity = slot0.contextData.mapIdx
-	end
 end
 
 slot0.updateRemasterTicket = function(slot0)
@@ -1328,47 +1349,45 @@ slot0.registerActBtn = function(slot0)
 		return slot3[slot4]
 	end
 
-	slot3 = function()
-		if uv0:isfrozen() then
-			return
-		end
+	slot0:bind(LevelUIConst.SWITCH_ACT_MAP, function (slot0, slot1, slot2)
+		slot4, slot5 = uv1(uv0.contextData.map, slot1, slot2 or switch(slot1, {
+			[Map.ACTIVITY_EASY] = function ()
+				return uv0.contextData.map:getBindMapId()
+			end,
+			[Map.ACTIVITY_HARD] = function ()
+				return uv0.contextData.map:getBindMapId()
+			end,
+			[Map.ACT_EXTRA] = function ()
+				return PlayerPrefs.GetInt("ex_mapId", 0)
+			end
+		})):isUnlock()
 
-		slot2, slot3 = uv1(uv0.contextData.map, Map.ACTIVITY_HARD, uv0.contextData.map:getBindMapId()):isUnlock()
-
-		if slot2 then
-			uv0:setMap(slot1.id)
+		if slot4 then
+			uv0:setMap(slot3.id)
 		else
-			pg.TipsMgr.GetInstance():ShowTips(slot3)
+			pg.TipsMgr.GetInstance():ShowTips(slot5)
 		end
-	end
-
-	onButton(slot0, slot0.actEliteBtn, slot3, SFX_PANEL)
-	slot0:bind(LevelUIConst.SWITCH_CHALLENGE_MAP, slot3)
+	end)
 	onButton(slot0, slot0.actNormalBtn, function ()
 		if uv0:isfrozen() then
 			return
 		end
 
-		slot2, slot3 = uv1(uv0.contextData.map, Map.ACTIVITY_EASY, uv0.contextData.map:getBindMapId()):isUnlock()
-
-		if slot2 then
-			uv0:setMap(slot1.id)
-		else
-			pg.TipsMgr.GetInstance():ShowTips(slot3)
+		uv0:emit(LevelUIConst.SWITCH_ACT_MAP, Map.ACTIVITY_EASY)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.actEliteBtn, function ()
+		if uv0:isfrozen() then
+			return
 		end
+
+		uv0:emit(LevelUIConst.SWITCH_ACT_MAP, Map.ACTIVITY_HARD)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.actExtraBtn, function ()
 		if uv0:isfrozen() then
 			return
 		end
 
-		slot2, slot3 = uv1(uv0.contextData.map, Map.ACT_EXTRA, PlayerPrefs.HasKey("ex_mapId") and PlayerPrefs.GetInt("ex_mapId", 0) or 0):isUnlock()
-
-		if slot2 then
-			uv0:setMap(slot1.id)
-		else
-			pg.TipsMgr.GetInstance():ShowTips(slot3)
-		end
+		uv0:emit(LevelUIConst.SWITCH_ACT_MAP, Map.ACT_EXTRA)
 	end, SFX_PANEL)
 end
 
@@ -1460,6 +1479,7 @@ slot0.setMap = function(slot0, slot1)
 		PlayerPrefs.Save()
 	end
 
+	slot0:RecordLastMapOnExit()
 	slot0:updateMap(slot2)
 	slot0:tryPlayMapStory()
 end
@@ -1527,6 +1547,7 @@ slot0.updateMap = function(slot0, slot1)
 			uv0.mapBuilder:UpdateMapVO(uv1)
 			uv0.mapBuilder:UpdateView()
 			uv0.mapBuilder:UpdateMapItems()
+			uv0.mapBuilder:PlayEnterAnim()
 		end
 	})
 end
@@ -2094,6 +2115,7 @@ slot0.switchToMap = function(slot0, slot1)
 		uv0.float.localScale = slot0
 	end):setOnComplete(System.Action(function ()
 		uv0:unfrozen()
+		uv0.mapBuilder:PlayEnterAnim()
 		existCall(uv1)
 	end)):setEase(LeanTweenType.easeOutSine).uniqueId)
 
@@ -3348,12 +3370,12 @@ slot0.RecordLastMapOnExit = function(slot0)
 			return
 		end
 
-		if slot2 and slot2:NeedRecordMap() then
+		if slot2:NeedRecordMap() then
 			slot1:recordLastMap(ChapterProxy.LAST_MAP, slot2.id)
 		end
 
-		if Map.lastMapForActivity then
-			slot1:recordLastMap(ChapterProxy.LAST_MAP_FOR_ACTIVITY, Map.lastMapForActivity)
+		if slot2:isActivity() and not slot2:isActExtra() then
+			slot1:recordLastMap(ChapterProxy.LAST_MAP_FOR_ACTIVITY, slot2.id)
 		end
 	end
 end

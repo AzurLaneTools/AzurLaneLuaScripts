@@ -357,6 +357,16 @@ slot7.ShowAirFightScoreBar = function(slot0)
 	slot0._scoreBarView:SetActive(true)
 end
 
+slot7.ScaleUISpeed = function(slot0, slot1)
+	if slot0._ui:findTF("AutoBtn/on"):GetComponent(typeof(Animation)) then
+		slot2:get_Item("autobtn_toOn").speed = slot1
+	end
+
+	if slot0._ui:findTF("AutoBtn/off"):GetComponent(typeof(Animation)) then
+		slot3:get_Item("autobtn_toOff").speed = slot1
+	end
+end
+
 slot7.onStageInit = function(slot0, slot1)
 	slot0:InitJoystick()
 	slot0:InitScene()

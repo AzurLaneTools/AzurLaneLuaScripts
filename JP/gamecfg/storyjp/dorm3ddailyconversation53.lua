@@ -7,9 +7,12 @@ return {
 	hideRecord = true,
 	mode = 2,
 	id = "DORM3DDAILYCONVERSATION53",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
-			actorName = "シリアス",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
@@ -44,7 +47,7 @@ return {
 			}
 		},
 		{
-			actorName = "シリアス",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -60,14 +63,14 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "自分も手伝おう",
+			say = "我也来帮忙吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "シリアス",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -79,7 +82,7 @@ return {
 			}
 		},
 		{
-			actorName = "シリアス",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,

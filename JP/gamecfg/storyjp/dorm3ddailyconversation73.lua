@@ -1,15 +1,18 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DDAILYCONVERSATION73",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DDAILYCONVERSATION73",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
+			actorName = 20220,
 			say = "这间宿舍的感觉怎么样……？",
 			typewriter = {
 				speed = 0.05,
@@ -41,8 +44,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "很好哦……因为和您的见面频率和独处时间都大大增加了，所以シリアス觉得很幸福。",
+			actorName = 20220,
+			say = "很好哦……因为和您的见面频率和独处时间都大大增加了，所以天狼星觉得很幸福。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +53,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
+			actorName = 20220,
 			say = "不过还是有一点不太方便呢。",
 			typewriter = {
 				speed = 0.05,
@@ -88,8 +91,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "就是……夜间想要侍奉主人的话……（小声）",
+			actorName = 20220,
+			say = "就是……夜间想要侍奉{dorm3d}的话……（小声）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,8 +106,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
-			say = "……不，好像没什么不方便的，是シリアス没想明白。",
+			actorName = 20220,
+			say = "……不，好像没什么不方便的，是天狼星没想明白。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +138,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "シリアス",
+			actorName = 20220,
 			say = "……呵呵。",
 			typewriter = {
 				speed = 0.05,

@@ -41,7 +41,7 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onFriendlyShipDying"
+				"onTeammateShipDying"
 			},
 			arg_list = {
 				skill_id = 15903

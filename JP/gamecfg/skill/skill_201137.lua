@@ -2,7 +2,6 @@ return {
 	cd = 0,
 	name = "2024天城航母活动 剧情战 赤城meta 灵体召唤",
 	painting = 0,
-	action = true,
 	id = 201137,
 	effect_list = {
 		{

@@ -1,6 +1,111 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_3 = {
+	[103140] = {
+		name = "サンフランシスコ",
+		id = 103140,
+		desc = "ニューオリンズ級重巡洋艦・サンフランシスコ（CA-38）",
+		illustrator2 = -1,
+		ship_group = 10314,
+		group_index = 0,
+		prefab = "jiujinshan",
+		painting = "jiujinshan",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 275,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.266,
+					1.151,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.301,
+					1.144,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.03,
+					0.003,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.596,
+							2.323,
+							0.14
+						}
+					}
+				}
+			}
+		}
+	},
 	[103141] = {
 		name = "Funny Bunny！",
 		id = 103141,
@@ -1584,22 +1689,22 @@ pg.base.ship_skin_template_3 = {
 		bound_bone = {
 			cannon = {
 				{
-					1.202,
-					1.03,
+					0.9,
+					0.662,
 					0
 				}
 			},
 			vicegun = {
 				{
-					1.22,
-					1.132,
+					0.874,
+					0.639,
 					0
 				}
 			},
 			torpedo = {
 				{
-					-0.009,
-					-0.004,
+					0,
+					0,
 					0
 				}
 			}
@@ -1611,8 +1716,8 @@ pg.base.ship_skin_template_3 = {
 					{
 						"smoke",
 						{
-							-0.47,
-							2.213,
+							-0.367,
+							2.469,
 							0.14
 						}
 					}
@@ -1699,15 +1804,15 @@ pg.base.ship_skin_template_3 = {
 		bound_bone = {
 			cannon = {
 				{
-					0.76,
-					0.867,
+					0.716,
+					0.874,
 					0
 				}
 			},
 			vicegun = {
 				{
-					0.764,
-					0.846,
+					0.72,
+					0.875,
 					0
 				}
 			},
@@ -1726,8 +1831,8 @@ pg.base.ship_skin_template_3 = {
 					{
 						"smoke",
 						{
-							-0.859,
-							2.284,
+							-0.361,
+							2.431,
 							0.14
 						}
 					}
@@ -12701,104 +12806,6 @@ pg.base.ship_skin_template_3 = {
 			},
 			{
 				1.3
-			}
-		}
-	},
-	[107110] = {
-		name = "イントレピッド",
-		id = 107110,
-		desc = "エセックス級空母「イントレピッド」（CV-11)",
-		illustrator2 = -1,
-		ship_group = 10711,
-		group_index = 0,
-		prefab = "wuwei",
-		painting = "wuwei",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 225,
-		spine_offset = "",
-		illustrator = 8,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.483,
-					1.215,
-					0
-				}
-			},
-			plane = {
-				{
-					1.438,
-					1.204,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.41,
-							2.37,
-							0
-						}
-					}
-				}
 			}
 		}
 	}

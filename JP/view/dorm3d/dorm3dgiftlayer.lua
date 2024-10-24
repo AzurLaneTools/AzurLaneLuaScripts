@@ -185,17 +185,24 @@ slot0.UpdateGift = function(slot0, slot1, slot2, slot3)
 		onButton(slot0, slot4:Find("info/lack"), function ()
 			Dorm3dGift.SetViewedFlag(uv0)
 			setActive(uv1:Find("info/lack/tip"), false)
-			uv2:emit(Dorm3dGiftMediator.SHOW_SHOPPING_CONFIRM_WINDOW, {
+
+			if not uv2:CheckBuyLimit() then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_shop_gift_owned"))
+
+				return
+			end
+
+			uv3:emit(Dorm3dGiftMediator.SHOW_SHOPPING_CONFIRM_WINDOW, {
 				content = {
-					icon = "<icon name=" .. uv3:GetResIcon() .. " w=1.1 h=1.1/>",
-					off = uv4,
-					cost = "x" .. uv5.count,
-					old = uv6,
-					name = uv7:getConfig("name"),
-					weekLimit = uv8
+					icon = "<icon name=" .. uv4:GetResIcon() .. " w=1.1 h=1.1/>",
+					off = uv5,
+					cost = "x" .. uv6.count,
+					old = uv7,
+					name = uv8:getConfig("name"),
+					weekLimit = uv9
 				},
 				tip = i18n("dorm3d_shop_gift_tip"),
-				drop = uv9,
+				drop = uv2,
 				onYes = function ()
 					uv0:emit(GAME.SHOPPING, {
 						silentTip = true,
