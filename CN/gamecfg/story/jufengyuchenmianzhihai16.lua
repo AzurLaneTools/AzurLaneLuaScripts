@@ -817,7 +817,7 @@ return {
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "趁机卖女神教会一个大大的人情可是比好生意，我也选修。",
+			say = "趁机卖女神教会一个大大的人情可是笔好生意，我也选修。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

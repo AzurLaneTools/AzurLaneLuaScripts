@@ -567,11 +567,10 @@ return {
 		},
 		{
 			side = 2,
+			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv2_2",
 			factiontag = "深海魔物",
 			dir = 1,
-			actor = 9600080,
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "名为幻想号在少女在水边坐下，将腿部没入水中，伸出触手卷了过来。",
 			typewriter = {

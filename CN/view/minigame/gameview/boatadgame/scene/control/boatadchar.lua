@@ -1,5 +1,6 @@
 slot0 = class("BoatAdChar")
 slot1, slot2 = nil
+slot3 = 0.5
 
 slot0.Ctor = function(slot0, slot1, slot2)
 	uv0 = BoatAdGameVo
@@ -73,10 +74,13 @@ slot0.start = function(slot0)
 	slot0:updateCharMoveCount()
 	slot0:updateUI()
 	slot0:updateChange(false)
+
+	slot0.stepSound = 0
 end
 
 slot0.step = function(slot0, slot1)
 	slot2 = false
+	slot0.stepSound = slot0.stepSound - slot1
 
 	if slot0._battleHp > 0 then
 		slot3 = slot0._battleSubHp < slot0._battleHp and slot0._battleSubHp or slot0._battleHp
@@ -92,10 +96,16 @@ slot0.step = function(slot0, slot1)
 		slot2 = true
 
 		slot0:updateUI()
+
+		if slot0.stepSound <= 0 then
+			pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv0.SFX_SOUND_BATTLE)
+
+			slot0.stepSound = uv1
+		end
 	end
 
-	if slot0:getLife() and slot0._battleHp == 0 and math.abs(slot0:getNextPosition(slot0._directX, slot0._directY).x) <= uv0.player_width / 2 + 50 then
-		if math.abs(slot3.y) <= uv0.player_height / 2 + 50 then
+	if slot0:getLife() and slot0._battleHp == 0 and math.abs(slot0:getNextPosition(slot0._directX, slot0._directY).x) <= uv2.player_width / 2 + 50 then
+		if math.abs(slot3.y) <= uv2.player_height / 2 + 50 then
 			slot0._tf.anchoredPosition = slot3
 
 			slot0:updateCharMoveCount()

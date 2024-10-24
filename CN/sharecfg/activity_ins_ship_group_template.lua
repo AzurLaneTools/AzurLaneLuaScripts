@@ -3557,7 +3557,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Whydah",
 		background = "",
 		sculpture = "weida",
-		nationality = 0,
+		nationality = 10,
 		type = 1
 	},
 	[10103] = {

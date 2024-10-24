@@ -51,20 +51,29 @@ slot0.step = function(slot0, slot1)
 			end
 
 			if slot15:getHp() ~= 0 then
+				if slot15:getHp() < 0 or slot15:getConfig("hp_type") == uv1.hp_type_div then
+					pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv0.SFX_SOUND_SHIBAI)
+				elseif not slot22 then
+					pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv0.SFX_SOUND_GREAT)
+				end
+
 				slot2:changeHp(slot15:getHp(), slot15:getConfig("hp_type"))
 			end
 
 			slot2:setLine(slot15:getLine())
 
 			if slot22 then
+				pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv0.SFX_SOUND_PERFECT)
 				slot0._eventCall(BoatAdGameEvent.PLAY_AD)
 			end
 
 			if slot23 then
+				pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv0.SFX_SOUND_GREAT)
 				slot2:addGuard(slot23)
 			end
 
 			if slot24 then
+				pg.CriMgr.GetInstance():PlaySoundEffect_V3(uv0.SFX_SOUND_GREAT)
 				slot0._eventCall(BoatAdGameEvent.SPEED_DOWN, slot24)
 			end
 

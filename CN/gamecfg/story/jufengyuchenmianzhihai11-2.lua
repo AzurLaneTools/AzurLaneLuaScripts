@@ -80,7 +80,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv2_1",
 			hidePaintObj = true,
-			say = "战斗焦灼而激烈。船团诸舰，包括“伟大的皇家财富”号才内，都遭受了严重程度不一的损伤。",
+			say = "战斗焦灼而激烈。船团诸舰，包括“伟大的皇家财富”号在内，都遭受了严重程度不一的损伤。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

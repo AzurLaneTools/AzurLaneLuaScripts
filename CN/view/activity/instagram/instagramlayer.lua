@@ -41,6 +41,9 @@ slot0.init = function(slot0)
 	slot0.commentPanel = slot0:findTF("main/right_panel/last/bg2")
 	slot0.optionalPanel = slot0:findTF("main/right_panel/last/bg2/option")
 	slot0.scroll = slot0:findTF("main/right_panel/center/bottom/scroll")
+
+	setText(slot0:findTF("closeBtn/Text"), i18n("word_back"))
+
 	slot0.sprites = {}
 	slot0.timers = {}
 	slot0.toDownloadList = {}

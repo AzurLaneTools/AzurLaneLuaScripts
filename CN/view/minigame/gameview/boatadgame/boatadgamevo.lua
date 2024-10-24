@@ -10,10 +10,10 @@ slot0.frameRate = Application.targetFrameRate or 60
 slot0.ui_atlas = "ui/minigameui/boatadgameui_atlas"
 slot0.game_ui = "BoatAdGameUI"
 slot0.SFX_COUNT_DOWN = "event:/ui/ddldaoshu2"
-slot0.SFX_SOUND_FIRE = "event:/ui/kaipao"
-slot0.SFX_SOUND_BOOM = "event:/ui/baozha3"
-slot0.SFX_SOUND_SKILL = "event:/ui/chongneng"
-slot0.SFX_SOUND_ITEM = "event:/ui/mini_shine"
+slot0.SFX_SOUND_SHIBAI = "event:/ui/shibai"
+slot0.SFX_SOUND_GREAT = "event:/ui/mini_great"
+slot0.SFX_SOUND_PERFECT = "event:/ui/mini_perfect"
+slot0.SFX_SOUND_BATTLE = "event:/ui/minigame_hitwood"
 slot0.use_direct_round = nil
 slot0.enemyToEndRate = nil
 slot0.gameTime = 0
@@ -133,10 +133,6 @@ end
 
 slot0.GetGameTplTf = function(slot0)
 	return tf(instantiate(findTF(uv0.tpl, slot0)))
-end
-
-slot0.getUltimate = function(slot0, slot1)
-	return slot1.ultimate
 end
 
 slot0.GetRoundData = function()

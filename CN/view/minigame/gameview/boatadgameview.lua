@@ -17,7 +17,9 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.checkGet = function(slot0)
-	slot1 = slot0:GetMGHubData()
+	if slot0:GetMGHubData().ultimate and slot2 == 1 then
+		return
+	end
 
 	if uv0.GetGameTimes() == 0 then
 		if uv0.GetGameUseTimes() < uv0.GetGameMaxTimes() then

@@ -11,7 +11,9 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.battleItems = {}
 	slot0.dropItems = {}
 	slot0.lastText = findTF(slot0.menuUI, "last/text")
+	slot3 = GetComponent(findTF(slot0.menuUI, "desc"), typeof(Image))
 
+	slot3:SetNativeSize()
 	onButton(slot0._event, findTF(slot0.menuUI, "rightPanelBg/arrowUp"), function ()
 		if uv0.battleScrollRect.normalizedPosition.y + 1 / (uv0.totalTimes - 4) > 1 then
 			slot0 = 1

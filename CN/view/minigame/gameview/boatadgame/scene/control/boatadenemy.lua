@@ -61,7 +61,7 @@ slot0.start = function(slot0)
 	slot0._destroyFlag = false
 	slot0._stopFlag = false
 	slot0._battleFlag = false
-	slot0._ad.anchoredPosition.x = 0
+	slot0._ad.anchoredPosition = Vector2(0, 0)
 	slot0._battleSubHp = slot0:getConfig("boss") and uv1.battle_sub_hp_boss or uv1.battle_sub_hp
 
 	slot0:speedDown(false)
