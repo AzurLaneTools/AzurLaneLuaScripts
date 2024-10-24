@@ -335,8 +335,14 @@ slot0.initData = function(slot0)
 		slot1 = 60
 	end
 
+	slot0.stepCount = 1 / slot1
+	slot0.realTimeStartUp = Time.realtimeSinceStartup
 	slot0.timer = Timer.New(function ()
-		uv0:onTimer()
+		if uv0.stepCount < Time.realtimeSinceStartup - uv0.realTimeStartUp then
+			uv0.realTimeStartUp = Time.realtimeSinceStartup
+
+			uv0:onTimer()
+		end
 	end, 1 / slot1, -1)
 end
 

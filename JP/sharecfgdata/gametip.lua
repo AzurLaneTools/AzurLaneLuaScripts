@@ -36377,3 +36377,13 @@ _G.pg.base.gametip.activity_1024_memory = {
 _G.pg.base.gametip.activity_1024_memory_get = {
 	tip = "- 受取済 -"
 }
+
+
+_G.pg.base.gametip.juuschat_background_tip1 = {
+	tip = "未所持"
+}
+
+
+_G.pg.base.gametip.juuschat_background_tip2 = {
+	tip = "着せ替え未所持"
+}

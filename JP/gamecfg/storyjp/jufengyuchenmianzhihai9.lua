@@ -107,7 +107,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv1_1",
-			factiontag = "「掟約」のテンペスタ",
+			factiontag = "「幽霊」のテンペスタ",
 			dir = 1,
 			actor = 9600040,
 			nameColor = "#A9F548FF",
@@ -866,7 +866,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_501",
-			factiontag = "「掟約」のテンペスタ",
+			factiontag = "「幽霊」のテンペスタ",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
