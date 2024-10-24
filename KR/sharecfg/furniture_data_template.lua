@@ -24282,7 +24282,7 @@ pg.base.furniture_data_template = {
 	},
 	[100065] = {
 		can_rotate = 0,
-		describe = "小心！寄宿在里面的强大力量即将现身！",
+		describe = "안에 잠재된 힘이 금방이라도 드러날 것 같아! 조심해!",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -24301,7 +24301,7 @@ pg.base.furniture_data_template = {
 		canputon = 0,
 		themeId = 0,
 		count = 1,
-		name = "赤狐面具",
+		name = "붉은 여우 가면",
 		advice = 0,
 		id = 100065,
 		icon = "linghumianjuicon",
