@@ -5,6 +5,8 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
+	slot0.loader = AutoLoader.New()
+
 	slot0:InitUI()
 end
 
@@ -21,6 +23,8 @@ slot0.OnDestroy = function(slot0)
 
 		slot0.LTid = nil
 	end
+
+	slot0.loader:Clear()
 end
 
 slot0.Show = function(slot0)

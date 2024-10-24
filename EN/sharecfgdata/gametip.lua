@@ -16430,17 +16430,21 @@ Building interface.
 _G.pg.base.gametip.music_juus = {
 	tip = {
 		{
-			info = "\"Juustagram\" Information:"
-		},
-		{
-			info = "1. During the event, characters will periodically make social media posts."
-		},
-		{
 			info = [[
-2. When a new post is available to read, a notification will appear at the “Juustagram” screen.
-3. You may interact with these posts by Liking, Sharing, or Commenting.
-<color=#92fc63>Note:</color>After you have “Liked” a post, you may not cancel it.
-After leaving a comment on a post, you may receive a reply after a period of time.
+- FleetChat & Juustagram Overview -
+
+FleetChat and Juustagram are the port's social media apps where you can view posts, leave likes, and have chats with shipgirls.
+Press the button in the bottom left corner of the screen to swap between FleetChat and Juustagram.
+
+- FleetChat Details -
+· FleetChat is divided into private chats and group chats, letting you interact with one-on-one and group conversations with shipgirls, respectively.
+· An icon will appear on the FleetChat and Juustagram button when you have unread posts or messages.
+· You can switch between chats by pressing the icons on the left side of the screen.
+· You can prioritize a chat by pressing the heart icon on the top right of the screen. In addition, you can change the chat background or change topics by pressing the button in the top right.
+
+- Juustagram Details -
+· Use Juustagram to view posts from shipgirls, leave likes, and comment under their posts.
+· Shipgirls will make new posts every now and then automatically.
 ]]
 		}
 	}
@@ -32177,16 +32181,13 @@ _G.pg.base.gametip.shipyard_phase_1 = {
 			info = [[
 - Event Overview -
 In this minigame, you'll take control of the ship you built in Tempesta's Secret Shipyard, sink enemies on the high seas, collect booty, and reach the destination to rack up points.
-This minigame is available between <color=#92fc63>October 26th and November 8th.</color>
+This minigame is available between <color=#92fc63>October 24th and November 6th.</color>
 
 - Details -
 · There are missions for you to complete at Tempesta's Secret Shipyard. Once you have finished them all, you'll have a complete ship to steer in the minigame.
 · Pick a stage, choose the equipment you want to bring, then set sail.
-· A new minigame stage will unlock every day up to November 1st.
-· There are one-time rewards the first time you clear specific stages.
-- Stage 3: Fruit Rations, a Tempesta auxiliary gear
-- Stage 5: Tempesta weapons set
-- Stage 7: Pirate Ship, a piece of furniture
+· A new minigame stage will unlock every day up to October 30th.
+· There are one-time rewards the first time you clear specific stages, and when you clear all 7 stages, you'll receive the Pirate Ship, a piece of furniture.
 · After you finish stage 7, you can replay any stage you like.]]
 		}
 	}
@@ -32209,7 +32210,7 @@ _G.pg.base.gametip.shipyard_button_2 = {
 
 
 _G.pg.base.gametip.shipyard_introduce = {
-	tip = "2 new missions unlock every day until 10/25.\nComplete them all to earn the limited gear, <color=#ff9892>Tempesta Banner</color>!"
+	tip = "2 new event missions are unlocked every day until October 30th.\nComplete all the missions to receive the limited equipment <color=#ff9892>Tempesta Banner</color>!"
 }
 
 
@@ -36134,4 +36135,186 @@ _G.pg.base.gametip.dorm3d_purchase_weekly_limit = {
 
 _G.pg.base.gametip.world_file_tip = {
 	tip = "* Scroll the page by sliding the screen. Close the page by tapping the screen."
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_part1 = {
+	tip = "Part 1"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_part2 = {
+	tip = "Part 2"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_sp = {
+	tip = "SP"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_ex = {
+	tip = "EX"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_title = {
+	tip = "Filter"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_tip1 = {
+	tip = "All"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_tip2 = {
+	tip = "Answered"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_tip3 = {
+	tip = "Unanswered"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_tip4 = {
+	tip = "Private"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_tip5 = {
+	tip = "Group"
+}
+
+
+_G.pg.base.gametip.juuschat_label1 = {
+	tip = "In Use"
+}
+
+
+_G.pg.base.gametip.juuschat_label2 = {
+	tip = "Viewing"
+}
+
+
+_G.pg.base.gametip.juuschat_chattip1 = {
+	tip = "[Voice Messages]"
+}
+
+
+_G.pg.base.gametip.juuschat_chattip2 = {
+	tip = "[Presents]"
+}
+
+
+_G.pg.base.gametip.juuschat_chattip3 = {
+	tip = "[Unanswered]"
+}
+
+
+_G.pg.base.gametip.juuschat_reddot_title = {
+	tip = "FleetChat"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_subtitle1 = {
+	tip = "Read/Unread"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_subtitle2 = {
+	tip = "Private/Group"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_subtitle3 = {
+	tip = "Faction"
+}
+
+
+_G.pg.base.gametip.juuschat_redpacket_detail = {
+	tip = "Receipt Contents"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_empty = {
+	tip = "No chats found."
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_title = {
+	tip = "Change Nickname"
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_cd = {
+	tip = "You may change your nickname again after $1."
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_interval = {
+	tip = "You can change your nickname once every 48 hours."
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_waring1 = {
+	tip = "Your nickname contains a forbidden word."
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_waring2 = {
+	tip = "Your nickname is too long."
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_waring3 = {
+	tip = "Your nickname is too short."
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_waring4 = {
+	tip = "You cannot change your nickname currently."
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_gift_owned = {
+	tip = "You cannot purchase any more of this."
+}
+
+
+_G.pg.base.gametip.BoatAdGame_minigame_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/boatadgame_minigame_help"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.activity_1024_memory = {
+	tip = "Insufficient Halloween Pages. Complete the event missions to get some!"
+}
+
+
+_G.pg.base.gametip.activity_1024_memory_get = {
+	tip = "- Claimed -"
 }

@@ -384,14 +384,14 @@ slot0.onEventCallback = function(slot0, slot1, slot2, slot3)
 			slot6 = slot0.actionTrigger.focus or false
 			slot7 = slot0.actionTrigger.target or nil
 			slot10 = slot0.actionTrigger.target_focus == 1 and true or false
+			slot8 = slot0.actionTrigger.react or nil
 
 			if (slot0.actionTrigger.circle or nil) and slot7 and slot7 == slot0.parameterTargetValue then
 				slot7 = slot0.startValue
 			end
 
-			slot8 = slot0.actionTrigger.react or nil
-
 			slot0:triggerAction()
+			slot0:setTriggerActionFlag(false)
 			slot0:stopDrag()
 		end
 
@@ -960,7 +960,7 @@ slot0.isActionTriggerAble = function(slot0)
 	end
 
 	if not slot0.actionTrigger or slot0.actionTrigger == "" then
-		return
+		return false
 	end
 
 	if slot0.nextTriggerTime - Time.deltaTime >= 0 then
@@ -1005,11 +1005,11 @@ slot0.updateStateData = function(slot0, slot1)
 	end
 
 	if slot0.l2dIdleIndex and slot0.idleOn and #slot0.idleOn > 0 then
-		slot0.reactConditionFlag = table.contains(slot0.idleOn, slot0.l2dIdleIndex)
+		slot0.reactConditionFlag = not table.contains(slot0.idleOn, slot0.l2dIdleIndex)
 	end
 
 	if slot0.l2dIdleIndex and slot0.idleOff and #slot0.idleOff > 0 then
-		slot0.reactConditionFlag = not table.contains(slot0.idleOff, slot0.l2dIdleIndex)
+		slot0.reactConditionFlag = table.contains(slot0.idleOff, slot0.l2dIdleIndex)
 	end
 end
 

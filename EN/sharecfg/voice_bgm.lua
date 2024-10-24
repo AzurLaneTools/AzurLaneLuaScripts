@@ -136,9 +136,9 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "story-roma-outside",
+		default_bgm = "story-tempest-marching",
 		special_bgm = "",
-		bgm = "story-roma-outside"
+		bgm = "story-tempest-marching"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
@@ -1679,5 +1679,20 @@ pg.voice_bgm = {
 		default_bgm = "story-italy",
 		special_bgm = "",
 		bgm = "story-italy"
+	},
+	StormSeaMainPage = {
+		default_bgm = "theme-ganjisawai",
+		special_bgm = "",
+		bgm = "theme-ganjisawai"
+	},
+	StormSeaPtPage = {
+		default_bgm = "battle-nightmare-theme",
+		special_bgm = "",
+		bgm = "battle-nightmare-theme"
+	},
+	GhostSkinStoryActPage = {
+		default_bgm = "story-ghostnight-fascinsting",
+		special_bgm = "",
+		bgm = "story-ghostnight-fascinsting"
 	}
 }

@@ -1,6 +1,7 @@
 slot0 = class("DialogueStoryPlayer", import(".StoryPlayer"))
 slot1 = 159
 slot2 = 411
+slot3 = 250
 
 slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
@@ -38,6 +39,7 @@ slot0.OnStart = function(slot0, slot1)
 	slot0.tag4Dialog2 = slot0:findTF("content/tag", slot0.dialogueWin)
 	slot0.nameTxt = slot0:findTF("Text", slot0.nameTr):GetComponent(typeof(Text))
 	slot0.portraitTr = slot0:findTF("portrait", slot0.dialogueWin)
+	slot0.conentLineTr = slot0:findTF("line", slot0.dialogueWin)
 	slot2 = slot0.portraitTr
 	slot0.portraitImg = slot2:GetComponent(typeof(Image))
 	slot0.tags = {
@@ -68,13 +70,18 @@ slot0.OnReset = function(slot0, slot1, slot2, slot3)
 		slot0:ClearGlitchArtForPortrait()
 	end
 
-	slot0.conentTr.offsetMin = Vector2(slot4 and uv0 or uv1, slot0.conentTr.offsetMin.y)
-
+	slot0:UpdateContentPosition(slot1)
 	slot0:SetContentBgAlpha(slot1:GetContentBGAlpha())
 	slot3()
 end
 
-slot3 = function(slot0, slot1)
+slot0.UpdateContentPosition = function(slot0, slot1)
+	slot3 = slot1:IsMiniPortrait()
+	slot0.conentTr.offsetMin = Vector2(slot1:ExistPortrait() and (slot3 and uv0 or uv1) or uv2, slot0.conentTr.offsetMin.y)
+	slot0.conentLineTr.offsetMin = Vector2(slot3 and uv0 or uv2, slot0.conentLineTr.offsetMin.y)
+end
+
+slot4 = function(slot0, slot1)
 	if not slot1 then
 		return false
 	end
@@ -226,7 +233,7 @@ slot0.UpdatePortrait = function(slot0, slot1, slot2)
 	LoadSpriteAsync("StoryIcon/" .. slot1:GetPortrait(), function (slot0)
 		setImageSprite(uv0.portraitTr, slot0, true)
 		setActive(uv0.portraitTr, true)
-		uv0:AdjustPortraitPosition()
+		uv0:AdjustPortraitPosition(uv1)
 
 		if uv1:ShouldGlitchArtForPortrait() then
 			uv0:SetGlitchArtForPortrait()
@@ -238,10 +245,18 @@ slot0.UpdatePortrait = function(slot0, slot1, slot2)
 	end)
 end
 
-slot0.AdjustPortraitPosition = function(slot0)
-	setAnchoredPosition3D(slot0.portraitTr, {
-		x = slot0.portraitTr.sizeDelta.x < uv0 and uv0 or 539
-	})
+slot0.AdjustPortraitPosition = function(slot0, slot1)
+	if slot1:IsMiniPortrait() then
+		setAnchoredPosition3D(slot0.portraitTr, {
+			x = 211,
+			y = 133
+		})
+	else
+		setAnchoredPosition3D(slot0.portraitTr, {
+			y = 0,
+			x = slot0.portraitTr.sizeDelta.x < uv0 and uv0 or 539
+		})
+	end
 end
 
 slot0.SetGlitchArtForPortrait = function(slot0)
@@ -301,7 +316,7 @@ slot0.OnEnter = function(slot0, slot1, slot2, slot3)
 	}, slot3)
 end
 
-slot4 = function(slot0, slot1)
+slot5 = function(slot0, slot1)
 	slot2 = ResourceMgr.Inst
 
 	slot2:getAssetAsync("Story/" .. slot0, slot0, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
@@ -309,7 +324,7 @@ slot4 = function(slot0, slot1)
 	end), true, true)
 end
 
-slot5 = function(slot0, slot1)
+slot6 = function(slot0, slot1)
 	if not slot1 then
 		return false
 	end
@@ -618,7 +633,7 @@ slot0.UpdateLive2dPainting = function(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-slot6 = function(slot0, slot1, slot2)
+slot7 = function(slot0, slot1, slot2)
 	slot4 = nil
 
 	for slot8 = 1, slot0:GetComponentsInChildren(typeof(Canvas)).Length do
@@ -679,7 +694,7 @@ slot6 = function(slot0, slot1, slot2)
 	return slot10
 end
 
-slot7 = function(slot0, slot1, slot2)
+slot8 = function(slot0, slot1, slot2)
 	slot4 = slot0:GetComponentsInChildren(typeof("UnityEngine.ParticleSystemRenderer"))
 	slot5 = math.huge
 
@@ -800,8 +815,13 @@ slot0.UpdateMeshPainting = function(slot0, slot1, slot2, slot3, slot4, slot5)
 			slot8()
 		end
 
-		slot10 = slot1:GetPaintingDir()
-		slot2.localScale = Vector3(slot10, math.abs(slot10), 1)
+		slot11 = math.abs(slot1:GetPaintingDir())
+
+		if slot1:ShouldFlipPaintingY() then
+			slot11 = -slot11
+		end
+
+		slot2.localScale = Vector3(slot10, slot11, 1)
 		slot12 = findTF(slot2, "fitter"):GetChild(0)
 		slot12.name = slot6
 
@@ -826,7 +846,7 @@ slot0.UpdateMeshPainting = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot5()
 end
 
-slot8 = function(slot0)
+slot9 = function(slot0)
 	slot1 = slot0.name
 
 	if slot0.showNPainting and checkABExist("painting/" .. slot1 .. "_n") then
@@ -1110,7 +1130,7 @@ slot0.StartMovePrevPaintingToSide = function(slot0, slot1, slot2, slot3)
 	slot8.localPosition = Vector2(slot5.localPosition.x, slot8.localPosition.y, 0)
 end
 
-slot9 = function(slot0, slot1, slot2, slot3, slot4)
+slot10 = function(slot0, slot1, slot2, slot3, slot4)
 	for slot9 = 0, slot1:GetComponentsInChildren(typeof(Image)).Length - 1 do
 		if slot5[slot9].gameObject.name == "temp_mask" then
 			slot10.material = slot4 and slot0.maskMaterial or slot0.maskMaterialForWithLayer
@@ -1124,7 +1144,7 @@ slot9 = function(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
-slot10 = function(slot0, slot1, slot2, slot3, slot4)
+slot11 = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot1:GetComponentsInChildren(typeof(Image))
 	slot6 = {}
 
@@ -1262,7 +1282,7 @@ slot0.RecyclesSubPantings = function(slot0, slot1)
 	end)
 end
 
-slot11 = function(slot0)
+slot12 = function(slot0)
 	if slot0:Find("fitter").childCount == 0 then
 		return
 	end
@@ -1335,7 +1355,7 @@ slot0.ResetMeshPainting = function(slot0, slot1)
 	end
 end
 
-slot12 = function(slot0, slot1)
+slot13 = function(slot0, slot1)
 	slot3 = false
 
 	if slot0.live2dChars[slot1] and slot2._go then
@@ -1354,7 +1374,7 @@ slot12 = function(slot0, slot1)
 	end
 end
 
-slot13 = function(slot0, slot1)
+slot14 = function(slot0, slot1)
 	slot3 = false
 
 	if slot0.spinePainings[slot1] then

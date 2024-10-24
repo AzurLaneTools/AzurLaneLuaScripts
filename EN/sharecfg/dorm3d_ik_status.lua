@@ -1379,6 +1379,324 @@ pg.dorm3d_ik_status = {
 			1
 		}
 	},
+	[100210] = {
+		ik_camera = "Cam100210",
+		character_action = "PayGoToSofaLoop",
+		base = 100210,
+		camera_group = 10020,
+		skin_id = 202201,
+		character_position = "Pos100210",
+		id = 100210,
+		character_id = 20220,
+		ik_id = {
+			{
+				10021000,
+				0,
+				{
+					4,
+					0.3,
+					1037
+				}
+			},
+			{
+				10021001,
+				0,
+				{
+					4,
+					0.3,
+					1038,
+					100221
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.045,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.045,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 Pelvis)",
+				1,
+				0.09,
+				0.09
+			}
+		},
+		head_track = {
+			1
+		}
+	},
+	[100220] = {
+		ik_camera = "Cam100220",
+		character_action = "PayGoToSofaLoop",
+		base = 100220,
+		camera_group = 10020,
+		skin_id = 202201,
+		character_position = "Pos100220",
+		id = 100220,
+		character_id = 20220,
+		ik_id = {
+			{
+				10022000,
+				0,
+				{
+					4,
+					0.3,
+					1041,
+					100231
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.045,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.045,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 Pelvis)",
+				1,
+				0.09,
+				0.09
+			}
+		},
+		head_track = {
+			1
+		}
+	},
+	[100230] = {
+		ik_camera = "Cam100230",
+		character_action = "PayGoToSofaLoop",
+		base = 100230,
+		camera_group = 10020,
+		skin_id = 202201,
+		character_position = "Pos100230",
+		id = 100230,
+		character_id = 20220,
+		ik_id = {
+			{
+				10023000,
+				0,
+				{
+					4,
+					0.3,
+					1039
+				}
+			}
+		},
+		touch_data = {
+			{
+				1002101,
+				0,
+				{
+					4,
+					0.3,
+					1040
+				}
+			}
+		},
+		use_cloth = {
+			0,
+			1,
+			1,
+			1,
+			1,
+			0
+		},
+		cloth_colliders = {},
+		head_track = {
+			1
+		}
+	},
+	[100211] = {
+		ik_camera = "Cam100211",
+		character_action = "zuo_FF_2_hudong_jianbang_1_loop",
+		base = 100211,
+		camera_group = 10021,
+		skin_id = 202201,
+		character_position = "Pos100211",
+		id = 100211,
+		character_id = 20220,
+		ik_id = {
+			{
+				10021100,
+				0,
+				{
+					4,
+					0.3,
+					1042,
+					100210
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.045,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.045,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 Pelvis)",
+				1,
+				0.09,
+				0.09
+			}
+		},
+		head_track = {
+			1
+		}
+	},
+	[100221] = {
+		ik_camera = "Cam100221",
+		character_action = "zuo_FF_2_hudong_xiong_1_loop",
+		base = 100221,
+		camera_group = 10022,
+		skin_id = 202201,
+		character_position = "Pos100221",
+		id = 100221,
+		character_id = 20220,
+		ik_id = {
+			{
+				10022100,
+				0,
+				{
+					4,
+					0.3,
+					1043,
+					100210
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.045,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.045,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 Pelvis)",
+				1,
+				0.09,
+				0.09
+			}
+		},
+		head_track = {
+			1
+		}
+	},
+	[100231] = {
+		ik_camera = "Cam100231",
+		character_action = "zuo_FF_2_hudong_jiao_2_loop",
+		base = 100231,
+		camera_group = 10023,
+		skin_id = 202201,
+		character_position = "Pos100231",
+		id = 100231,
+		character_id = 20220,
+		ik_id = {
+			{
+				10023100,
+				0,
+				{
+					4,
+					0.3,
+					1044,
+					100220
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.045,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.045,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 Pelvis)",
+				1,
+				0.09,
+				0.09
+			}
+		},
+		head_track = {
+			1
+		}
+	},
 	[100310] = {
 		ik_camera = "Cam100310",
 		character_action = "Sit",
@@ -2583,6 +2901,348 @@ pg.dorm3d_ik_status = {
 			1
 		}
 	},
+	[110210] = {
+		ik_camera = "Cam100210",
+		character_action = "PayGoToSofaLoop",
+		base = 100210,
+		camera_group = 10020,
+		skin_id = 202202,
+		character_position = "Pos100210",
+		id = 110210,
+		character_id = 20220,
+		ik_id = {
+			{
+				11021000,
+				0,
+				{
+					4,
+					0.3,
+					1037
+				}
+			},
+			{
+				11021001,
+				0,
+				{
+					4,
+					0.3,
+					1038,
+					100221
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.045,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.045,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 Pelvis)",
+				1,
+				0.09,
+				0.09
+			}
+		},
+		head_track = {
+			1
+		}
+	},
+	[110220] = {
+		ik_camera = "Cam100220",
+		character_action = "PayGoToSofaLoop",
+		base = 100220,
+		camera_group = 10020,
+		skin_id = 202202,
+		character_position = "Pos100220",
+		id = 110220,
+		character_id = 20220,
+		ik_id = {
+			{
+				11022000,
+				0,
+				{
+					4,
+					0.3,
+					1041,
+					100231
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.045,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.045,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 Pelvis)",
+				1,
+				0.09,
+				0.09
+			}
+		},
+		head_track = {
+			1
+		}
+	},
+	[110230] = {
+		ik_camera = "Cam100230",
+		character_action = "PayGoToSofaLoop",
+		base = 100230,
+		camera_group = 10020,
+		skin_id = 202202,
+		character_position = "Pos100230",
+		id = 110230,
+		character_id = 20220,
+		ik_id = {
+			{
+				11023000,
+				0,
+				{
+					4,
+					0.3,
+					1039
+				}
+			}
+		},
+		touch_data = {
+			{
+				1002101,
+				0,
+				{
+					4,
+					0.3,
+					1040
+				}
+			}
+		},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.045,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.045,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 Pelvis)",
+				1,
+				0.09,
+				0.09
+			}
+		},
+		head_track = {
+			1
+		}
+	},
+	[110211] = {
+		ik_camera = "Cam100211",
+		character_action = "zuo_FF_2_hudong_jianbang_1_loop",
+		base = 100211,
+		camera_group = 10021,
+		skin_id = 202202,
+		character_position = "Pos100211",
+		id = 110211,
+		character_id = 20220,
+		ik_id = {
+			{
+				11021100,
+				0,
+				{
+					4,
+					0.3,
+					1042,
+					100210
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.045,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.045,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 Pelvis)",
+				1,
+				0.09,
+				0.09
+			}
+		},
+		head_track = {
+			1
+		}
+	},
+	[110221] = {
+		ik_camera = "Cam100221",
+		character_action = "zuo_FF_2_hudong_xiong_1_loop",
+		base = 100221,
+		camera_group = 10022,
+		skin_id = 202202,
+		character_position = "Pos100221",
+		id = 110221,
+		character_id = 20220,
+		ik_id = {
+			{
+				11022100,
+				0,
+				{
+					4,
+					0.3,
+					1043,
+					100210
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.045,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.045,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 Pelvis)",
+				1,
+				0.09,
+				0.09
+			}
+		},
+		head_track = {
+			1
+		}
+	},
+	[110231] = {
+		ik_camera = "Cam100231",
+		character_action = "zuo_FF_2_hudong_jiao_2_loop",
+		base = 100231,
+		camera_group = 10023,
+		skin_id = 202202,
+		character_position = "Pos100231",
+		id = 110231,
+		character_id = 20220,
+		ik_id = {
+			{
+				11023100,
+				0,
+				{
+					4,
+					0.3,
+					1044,
+					100220
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"Magica Capsule Collider (Bip001 L Thigh)",
+				1,
+				0.045,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 R Thigh)",
+				1,
+				0.045,
+				0.07
+			},
+			{
+				"Magica Capsule Collider (Bip001 Pelvis)",
+				1,
+				0.09,
+				0.09
+			}
+		},
+		head_track = {
+			1
+		}
+	},
 	[110310] = {
 		ik_camera = "Cam100310",
 		character_action = "Sit",
@@ -3130,6 +3790,26 @@ pg.dorm3d_ik_status = {
 			100120,
 			100130
 		},
+		[10020] = {
+			100210,
+			100220,
+			100230,
+			110210,
+			110220,
+			110230
+		},
+		[10021] = {
+			100211,
+			110211
+		},
+		[10022] = {
+			100221,
+			110221
+		},
+		[10023] = {
+			100231,
+			110231
+		},
 		[10030] = {
 			100310,
 			100320,
@@ -3265,6 +3945,30 @@ pg.dorm3d_ik_status = {
 			100130,
 			110130
 		},
+		[100210] = {
+			100210,
+			110210
+		},
+		[100220] = {
+			100220,
+			110220
+		},
+		[100230] = {
+			100230,
+			110230
+		},
+		[100211] = {
+			100211,
+			110211
+		},
+		[100221] = {
+			100221,
+			110221
+		},
+		[100231] = {
+			100231,
+			110231
+		},
 		[100310] = {
 			100310,
 			110310
@@ -3362,6 +4066,12 @@ pg.dorm3d_ik_status = {
 		100110,
 		100120,
 		100130,
+		100210,
+		100220,
+		100230,
+		100211,
+		100221,
+		100231,
 		100310,
 		100320,
 		100330,
@@ -3385,6 +4095,12 @@ pg.dorm3d_ik_status = {
 		110110,
 		110120,
 		110130,
+		110210,
+		110220,
+		110230,
+		110211,
+		110221,
+		110231,
 		110310,
 		110320,
 		110330,

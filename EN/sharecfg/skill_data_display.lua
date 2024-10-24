@@ -1739,6 +1739,20 @@ pg.skill_data_display = setmetatable({
 		150492,
 		150501,
 		150502,
+		150551,
+		150561,
+		150570,
+		150571,
+		150591,
+		150596,
+		150601,
+		150610,
+		150611,
+		150612,
+		150631,
+		150632,
+		150640,
+		150642,
 		18010,
 		18040,
 		18041,
@@ -2375,6 +2389,12 @@ pg.skill_data_display = setmetatable({
 		30332,
 		30341,
 		30342,
+		30351,
+		30352,
+		30361,
+		30362,
+		30371,
+		30372,
 		39000,
 		39001,
 		39002,
@@ -3134,6 +3154,7 @@ pg.skill_data_display = setmetatable({
 		201133,
 		201135,
 		201136,
+		201158,
 		1011540,
 		1011541,
 		1090010,
@@ -3216,6 +3237,11 @@ pg.skill_data_display = setmetatable({
 		1011496,
 		1011003,
 		1011004,
+		10150570,
+		10150571,
+		10150601,
+		10150640,
+		10150642,
 		1090020,
 		1090042,
 		1090043,
@@ -10209,6 +10235,62 @@ pg.base.skill_data_display = {
 		id = 150502,
 		name = "Three-Tranquilities Formation"
 	},
+	[150551] = {
+		id = 150551,
+		name = "狩猎行动"
+	},
+	[150561] = {
+		id = 150561,
+		name = "Abyssal Baptism"
+	},
+	[150570] = {
+		id = 150570,
+		name = "Phantom of the Deep"
+	},
+	[150571] = {
+		id = 150571,
+		name = "Phantom of the Deep"
+	},
+	[150591] = {
+		id = 150591,
+		name = "Guardian of Treasures"
+	},
+	[150596] = {
+		id = 150596,
+		name = "Guardian of Treasures"
+	},
+	[150601] = {
+		id = 150601,
+		name = "Dolphin's Echoes"
+	},
+	[150610] = {
+		id = 150610,
+		name = "Dolphin's Protection"
+	},
+	[150611] = {
+		id = 150611,
+		name = "Dolphin's Protection"
+	},
+	[150612] = {
+		id = 150612,
+		name = "Dolphin's Protection"
+	},
+	[150631] = {
+		id = 150631,
+		name = "Stormchaser"
+	},
+	[150632] = {
+		id = 150632,
+		name = "Stormchaser"
+	},
+	[150640] = {
+		id = 150640,
+		name = "\"Spiritual\" Healing"
+	},
+	[150642] = {
+		id = 150642,
+		name = "\"Spiritual\" Healing"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -12751,6 +12833,30 @@ pg.base.skill_data_display = {
 	},
 	[30342] = {
 		id = 30342,
+		name = "All Out Assault II"
+	},
+	[30351] = {
+		id = 30351,
+		name = "All Out Assault I"
+	},
+	[30352] = {
+		id = 30352,
+		name = "All Out Assault II"
+	},
+	[30361] = {
+		id = 30361,
+		name = "All Out Assault I"
+	},
+	[30362] = {
+		id = 30362,
+		name = "All Out Assault II"
+	},
+	[30371] = {
+		id = 30371,
+		name = "All Out Assault I"
+	},
+	[30372] = {
+		id = 30372,
 		name = "All Out Assault II"
 	},
 	[39000] = {
@@ -15789,6 +15895,10 @@ pg.base.skill_data_display = {
 		id = 201136,
 		name = "Flames of Resurrection"
 	},
+	[201158] = {
+		id = 201158,
+		name = "Fancy's Might"
+	},
 	[1011540] = {
 		id = 1011540,
 		name = "Final Shot+"
@@ -16116,6 +16226,26 @@ pg.base.skill_data_display = {
 	[1011004] = {
 		id = 1011004,
 		name = "Courageous Shelling+"
+	},
+	[10150570] = {
+		id = 10150570,
+		name = "Phantom of the Deep+"
+	},
+	[10150571] = {
+		id = 10150571,
+		name = "Phantom of the Deep+"
+	},
+	[10150601] = {
+		id = 10150601,
+		name = "Dolphin's Echoes+"
+	},
+	[10150640] = {
+		id = 10150640,
+		name = "\"Spiritual\" Healing+"
+	},
+	[10150642] = {
+		id = 10150642,
+		name = "\"Spiritual\" Healing+"
 	},
 	[1090020] = {
 		id = 1090020,

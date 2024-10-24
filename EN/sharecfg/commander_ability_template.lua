@@ -525,6 +525,100 @@ pg.commander_ability_template = {
 			}
 		}
 	},
+	[151] = {
+		cost = 0,
+		name = "Azure Sea Affinity - Rookie",
+		group_id = 15,
+		worth = 2,
+		desc = "Your whole fleet gains 3 FP, TRP, and AVI.",
+		next = 152,
+		id = 151,
+		icon = "zhanlie_paoji_1",
+		add = {
+			{
+				1,
+				{},
+				{},
+				2,
+				3
+			},
+			{
+				1,
+				{},
+				{},
+				3,
+				3
+			},
+			{
+				1,
+				{},
+				{},
+				5,
+				3
+			}
+		},
+		add_desc = {
+			{
+				"炮击",
+				3
+			},
+			{
+				"雷击",
+				3
+			},
+			{
+				"航空",
+				3
+			}
+		}
+	},
+	[152] = {
+		cost = 0,
+		name = "Azure Sea Affinity - Ace",
+		group_id = 15,
+		worth = 3,
+		desc = "Your whole fleet gains 6 FP, TRP, and AVI.",
+		next = 0,
+		id = 152,
+		icon = "zhanlie_paoji_2",
+		add = {
+			{
+				1,
+				{},
+				{},
+				2,
+				6
+			},
+			{
+				1,
+				{},
+				{},
+				3,
+				6
+			},
+			{
+				1,
+				{},
+				{},
+				5,
+				6
+			}
+		},
+		add_desc = {
+			{
+				"炮击",
+				6
+			},
+			{
+				"雷击",
+				6
+			},
+			{
+				"航空",
+				6
+			}
+		}
+	},
 	[201] = {
 		cost = 0,
 		name = "Torpedo Rookie - Submarines",
@@ -3020,6 +3114,81 @@ pg.commander_ability_template = {
 		add_desc = {
 			{
 				"Main Fleet: Accuracy",
+				3
+			}
+		}
+	},
+	[831] = {
+		cost = 0,
+		name = "Tempesta Lookout - Rookie",
+		group_id = 83,
+		worth = 1,
+		desc = "Your whole fleet gains 1 ACC.",
+		next = 832,
+		id = 831,
+		icon = "teshu_one_1",
+		add = {
+			{
+				1,
+				{},
+				{},
+				8,
+				1
+			}
+		},
+		add_desc = {
+			{
+				"命中",
+				1
+			}
+		}
+	},
+	[832] = {
+		cost = 0,
+		name = "Tempesta Lookout - Adept",
+		group_id = 83,
+		worth = 2,
+		desc = "Your whole fleet gains 2 ACC.",
+		next = 833,
+		id = 832,
+		icon = "teshu_one_2",
+		add = {
+			{
+				1,
+				{},
+				{},
+				8,
+				2
+			}
+		},
+		add_desc = {
+			{
+				"命中",
+				2
+			}
+		}
+	},
+	[833] = {
+		cost = 0,
+		name = "Tempesta's Eyes",
+		group_id = 83,
+		worth = 3,
+		desc = "Your whole fleet gains 3 ACC.",
+		next = 0,
+		id = 833,
+		icon = "teshu_one_3",
+		add = {
+			{
+				1,
+				{},
+				{},
+				8,
+				3
+			}
+		},
+		add_desc = {
+			{
+				"命中",
 				3
 			}
 		}
@@ -6017,6 +6186,56 @@ pg.commander_ability_template = {
 			}
 		}
 	},
+	[5161] = {
+		cost = 0,
+		name = "Ready for Battle",
+		group_id = 516,
+		worth = 1,
+		desc = "Your <color=#3dc6ff>BBs, BCs, and IXMs</color> gain 20 FP and your <color=#3dc6ff>CVs</color> gain 20 AVI.",
+		next = 0,
+		id = 5161,
+		icon = "special_one",
+		add = {
+			{
+				1,
+				{},
+				{
+					4,
+					5,
+					24
+				},
+				2,
+				20
+			},
+			{
+				1,
+				{},
+				{
+					7
+				},
+				5,
+				20
+			}
+		},
+		add_desc = {
+			{
+				"<战巡>炮击",
+				20
+			},
+			{
+				"<战列>炮击",
+				20
+			},
+			{
+				"<风帆M>炮击",
+				20
+			},
+			{
+				"<正航>航空",
+				20
+			}
+		}
+	},
 	all = {
 		101,
 		102,
@@ -6031,6 +6250,8 @@ pg.commander_ability_template = {
 		132,
 		141,
 		142,
+		151,
+		152,
 		201,
 		202,
 		203,
@@ -6106,6 +6327,9 @@ pg.commander_ability_template = {
 		821,
 		822,
 		823,
+		831,
+		832,
+		833,
 		901,
 		902,
 		903,
@@ -6168,6 +6392,7 @@ pg.commander_ability_template = {
 		5121,
 		5131,
 		5141,
-		5151
+		5151,
+		5161
 	}
 }

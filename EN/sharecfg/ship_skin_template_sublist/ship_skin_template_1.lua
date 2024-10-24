@@ -11677,6 +11677,113 @@ pg.base.ship_skin_template_1 = {
 			}
 		}
 	},
+	[101492] = {
+		name = "\"Head\" Investigator",
+		id = 101492,
+		desc = "Heheh! You're finally here, Commander! My current investigation is into this thing in my... Correction – into that thing that's chasing me! We gotta run, like, now!",
+		illustrator2 = -1,
+		ship_group = 10149,
+		group_index = 2,
+		prefab = "bulisituoer_3",
+		painting = "bulisituoer_3",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 8,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "174",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71068,
+		voice_actor = 302,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.833,
+					1.152,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.004,
+					0.851,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.067,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.477,
+							2.41,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[101500] = {
 		name = "Hammann II",
 		id = 101500,

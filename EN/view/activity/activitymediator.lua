@@ -203,7 +203,7 @@ slot0.register = function(slot0)
 			slot1 = getProxy(ChapterProxy):getActiveChapter() and slot4:getConfig("map")
 
 			if not slot4 then
-				slot1 = (not Map.lastMap or not slot3:getMapById(Map.lastMap) or not slot5:isUnlock() or Map.lastMap) and slot3:getLastUnlockMap().id
+				slot1 = slot3:GetLastNormalMap()
 			end
 
 			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {

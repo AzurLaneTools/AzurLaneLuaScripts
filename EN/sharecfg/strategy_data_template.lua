@@ -280,6 +280,10 @@ pg.strategy_data_template = setmetatable({
 		201094,
 		201097,
 		201100,
+		201149,
+		201152,
+		201155,
+		201157,
 		205001,
 		205002,
 		205003,
@@ -3439,6 +3443,50 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		buff_type = 0,
 		id = 201100,
 		icon = "200908",
+		arg = {}
+	},
+	[201149] = {
+		buff_id = 201149,
+		name = "海上风暴 ",
+		desc = "The fleet has entered the storm. All non-Tempesta ships have their SPD decreased by 3 and EVA decreased by 5.0%. Tempesta ships deal 10.0% more DMG.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201149,
+		icon = "200627",
+		arg = {}
+	},
+	[201152] = {
+		buff_id = 201152,
+		name = "Silent Sea",
+		desc = "The fleet has entered the Sleeping Sea. The HP recovery effects of all non-Tempesta ships are 10.0% less potent. Tempesta ships take 10.0% less DMG.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201152,
+		icon = "201152",
+		arg = {}
+	},
+	[201155] = {
+		buff_id = 201155,
+		name = "Mercy of the Goddess",
+		desc = "25s after the battle begins: your fleet gains supporting barrages and recovers HP gradually over 15s.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201155,
+		icon = "201155",
+		arg = {}
+	},
+	[201157] = {
+		buff_id = 201157,
+		name = "Fancy's Might",
+		desc = "Fancy is supporting your fleet. At regular intervals, her tentacles will attack a random enemy and inflict Armor Break.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201157,
+		icon = "201157",
 		arg = {}
 	},
 	[205001] = {

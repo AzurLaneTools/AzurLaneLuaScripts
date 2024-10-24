@@ -2,7 +2,7 @@ return {
 	hideRecord = true,
 	dialogbox = 2,
 	mode = 2,
-	id = "DORM3DHELLO15",
+	id = "DORM3DHELLO16",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,

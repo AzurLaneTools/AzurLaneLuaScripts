@@ -8,8 +8,9 @@ return {
 	hideAuto = true,
 	scripts = {
 		{
-			nameColor = "#FFFFFF",
+			voice = "event:/dorm/Tianlangxing_dorm3d_tone/touch08",
 			actorName = "Sirius",
+			nameColor = "#FFFFFF",
 			say = "Now just to move my body, like so... Mmgh.",
 			typewriter = {
 				speed = 0.05,

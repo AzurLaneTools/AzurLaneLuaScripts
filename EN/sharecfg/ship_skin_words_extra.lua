@@ -290,7 +290,12 @@ pg.ship_skin_words_extra = setmetatable({
 		302250,
 		302260,
 		301910,
-		304050
+		304050,
+		9600070,
+		9600080,
+		9600090,
+		9600100,
+		9600110
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -20374,6 +20379,351 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"Commander... is still waiting for news of our victory!"
+			}
+		}
+	},
+	[9600070] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 9600070,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Ah, I'm making some tea! Incidentally, are there any spices you dislike? I'll leave those out of the mixture."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Whydah told me about a thing called a \"smartphone\" which can create \"photographs\" of wondrous sights and things instantly. Could you bring one of those along the next time we leave the port?"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Hmph! You're getting it if you ruin my hair! Getting it, I say! ...Hahaha! I'm just joking!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Give me your hand, Commander... There, I wrote a protective spell on it. Now clench. I only wrote it with my finger, but the effect should be the same. Heehee. Wherever you go now, the wind will watch over you."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"It's too quiet here... Shall I sing for you? What song would you like to hear?|You can't just sit down all day. Give me your hand and let's dance! Dancing is at its most fun when excitement is in the air!|Give me thy blessings and grant me everlasting protection... Heehee, I'm done praying. Now it's time to make you a very special dish!|Commander, look here! *snap*! I did it! Taking photographs with these smartphones is so convenient. It lets me collect sweet pictures of you whenever I want. Heehee. I'll treasure these dearly."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Why I want to dance? Because I'm happy! Why am I happy? Because I got to see you! Heehee."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Mmhh... You're making me angry! Not really♪"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Have a gander at my newly-sorted display shelf! Everything on here is from our travels and memories together. I hope to expand my collection substantially and add many more shelves! Heehee."
+			}
+		}
+	},
+	[9600080] = {
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 9600080,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Welcome back. Since you've accepted the \"real me,\" I'm not going to \"protect\" you anymore. I will just be myself and strive to deepen our relationship."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Gurhhh... That was delicious. Your home cooking is excellent."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Heehee. I've heard that hugging someone from behind can relieve their stress. Is it working?"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Oh... This is an act of closeness. I finally figured that out a while back."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"This emotion known as \"love,\" superficially similar to hunger... why have I never felt it before? It's strange – incomprehensible, even... I'm becoming increasingly hooked on you.|Can you tell me what it is that lovers are supposed to do? In exchange, I'll gladly help you with anything.|Heehee. I heard a story of a monster who'd climb a tower with their lover and make enemies with the whole world just to be with them. I've started to really understand why someone would do that."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Oohh... Heehee. Suddenly I have the urge to bite you."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Aaahhhh... Feels strange. Was I drooling?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Heehee. When you're happy, I'm happy. Is this what \"love\" feels like? ...Hm? Before now? I've never had complicated feelings before, so I simply pretended to be happy. I get it now... When you're here, my \"real self\" can be truly happy. That's wonderful."
+			}
+		}
+	},
+	[9600090] = {
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		id = 9600090,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		login = {
+			{
+				1100,
+				"Oh, looks like you have lots of work today. Well, what's it going to be? Your only option is to ask me for help."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"I win! Now it's up to me to decide my reward. Gosh, what should I pick..."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"The hunt begins!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Oh, is this treat for me? Heehee, are you trying to get on my good side, hmm? You must REALLY want my good graces♡"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Hey, why don't you rest your eyes for a while? Heehee, I promise I won't prank you this time.|Your schedule sure is packed tight... Let's see if I can't pull some strings so I can have you all to myself today.|Let's leave together when your work is done. I'll even help you get it done sooner. Relax, I'll do it for free this time!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Oh nooo, you caught me! What are you going to do to me now? I can't wait to see."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"New missions have come in. I'll help so they'll get done faster."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"I'll let you do this as long as you want."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Have you decided where we're having late-night snacks tonight? I've got a few ideas, buuut... I'll let you decide this time and I'll pay! Sound good? Come on, choose a place so we can go!"
+			}
+		}
+	},
+	[9600100] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 9600100,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"There go Commander 'n' Portsmooouth♪ Set sail for great treasure forthwiiith♪ – h-hey, stop starin' at me while I sing! It's embarrassing! Cut it out!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Yo-ho, Commander! You're lookin' like all went well! ...Huh? My face is all red? I just had a lot to drink, that's all!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Sure, ya can wear my hat if ya want... Huh? Ya just wanted to pat my head?"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Hey, gotta ask you somethin'! That thing we did earlier... It's what lovers do, yeah? I mean, you really like me, and I really like you... C'mon, you know that already!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"What? Ya figured out how to handle my knockout move 'n' want me to use it on ya again? No! That's dangerous! Ugh... Fine, if that's what you're into...|(It's only hittin' me now that being 'round the Commander gets me all excited and hot... Dammit! I've gotta make a move!)|Said you were curious 'bout what's in the bottle before, didn'tcha? Well, it's my strongest booze! Want a taste? ...What? Don't dare to try it? Ugh... Do it! Just drink it! Drink it 'n' submit to meee!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Eep! Y-y'know, for a while now... I've been gettin' these feelings when you start touching me!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"C-Commander, we're still on the clock 'n' I might pounce you if... Wait, no! I didn't mean it like that!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Heehee... How ya likin' this high-ABV booze I saved for a special occasion? Feelin' hot? As you should! I made you drink a whole ton of it, so yeah... Heehee... Now all you can do is try to quench MY endless thirst...♥"
+			}
+		}
+	},
+	[9600110] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 9600110,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"*gurgle gurgle gurgle*... Oh, it's done? Commander, I've figured out how to use the coffee machine. Expect fresh coffee every morning from now on!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"You're back. Whew... While I can tell it's you from the sound, seeing you in person is more reassuring. Now let's see a warm hug!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Pat-pat... Heehee. I love it when you pat my head."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"You said you wanted this a while earlier, didn't you? I found it with my special ability, and now it's yours! If you wanna thank me, then a hug is in order! Heehee."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Are you not feeling good? Give me your hand. Whew... How's that? I shared some of my good feelings. Will you manage now?|Hm? You weren't searching for me? But I DID detect that you wanted... Whatever! Since I'm already here, I'm gonna sit next to you.|The deep sea is a fun place. There are blobfish, fangtooths, and more, and they're all so sweet. You should visit sometime! Or I could catch a few and give them to you."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Alrighty, show me your hand. Tadah! This tiny pearl is for you. Why a pearl, you ask? Well, take a guess!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Ahh... I wouldn't do this... with anyone but you... *blushes*"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"My memories of you are locked away safely in here – inside my heart! Heehee. And there's still lots of empty space for us to create more memories."
 			}
 		}
 	}

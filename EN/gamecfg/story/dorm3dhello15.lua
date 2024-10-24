@@ -8,8 +8,9 @@ return {
 	hideAuto = true,
 	scripts = {
 		{
-			nameColor = "#FFFFFF",
+			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello15",
 			actorName = "Sirius",
+			nameColor = "#FFFFFF",
 			say = "Master, to whom I've pledged my eternal fealty, I wish today would go on forever... because I want to serve you, and to love you with all my heart, for as long as I can.",
 			typewriter = {
 				speed = 0.05,

@@ -197,6 +197,8 @@ slot0.Skip = function(slot0, slot1)
 			mediator = _G[slot1.param.mediator],
 			viewComponent = _G[slot1.param.view]
 		}))
+	elseif slot1.type == GAMEUI_BANNER_15 then
+		slot0:emit(NewMainMediator.SKIP_INS)
 	end
 end
 

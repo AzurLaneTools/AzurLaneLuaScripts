@@ -350,7 +350,7 @@ slot3.onFriendlyAircraftDying = function(slot0, slot1, slot2, slot3)
 	end
 end
 
-slot3.onFriendlyShipDying = function(slot0, slot1, slot2)
+slot3.onTeammateShipDying = function(slot0, slot1, slot2)
 	slot0:onTrigger(slot1, slot2)
 end
 

@@ -159,7 +159,8 @@ pg.pay_data_display = setmetatable({
 		148,
 		149,
 		150,
-		151
+		151,
+		152
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -15301,6 +15302,120 @@ pg.base.pay_data_display = {
 			{
 				2,
 				81405,
+				1
+			}
+		}
+	},
+	[152] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		name = "Halloween Lucky Box 2024",
+		first_pay_double = 0,
+		name_display = "Halloween Lucky Box 2024",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "Halloween Lucky Box 2024",
+		money = 2999,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai90",
+		skin_inquire_relation = 86406,
+		id_str = "com.yostaren.azurlane.luckybag42",
+		extra_service = 3,
+		id = 152,
+		airijp_id = "com.yostaren.azurlane.luckybag42",
+		extra_service_item = {
+			{
+				2,
+				86406,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					10,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86406,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81406,
 				1
 			}
 		}

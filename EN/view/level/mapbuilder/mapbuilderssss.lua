@@ -30,7 +30,7 @@ slot0.OnInit = function(slot0)
 			return
 		end
 
-		uv0:emit(LevelUIConst.SWITCH_CHALLENGE_MAP)
+		uv0:emit(LevelUIConst.SWITCH_ACT_MAP, Map.ACTIVITY_HARD)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.missionBtn, function ()
 		if uv0:isfrozen() then
