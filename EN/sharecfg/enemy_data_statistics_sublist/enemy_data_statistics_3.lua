@@ -725,7 +725,7 @@ pg.enemy_data_statistics_3 = {
 	},
 	[50082] = {
 		cannon = 0,
-		name = "珍贵货物箱",
+		name = "Chest Full of Treasure",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

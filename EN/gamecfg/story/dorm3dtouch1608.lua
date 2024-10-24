@@ -14,7 +14,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_ik_tone4",
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "我淘气的{dorm3d}啊……",
+			say = "You're a needy one♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -79,6 +79,7 @@ slot0.init = function(slot0)
 	setText(slot0:findTF("panel/backgroundScroll/Viewport/Content/background/selected/Text", slot0.backgroundUI), i18n("juuschat_label1"))
 	setText(slot0:findTF("panel/detail/title", slot0.redPacketUI), i18n("juuschat_redpacket_detail"))
 	setText(slot0:findTF("main/noFilteredMessageBg/Text"), i18n("juuschat_filter_empty"))
+	setText(slot0:findTF("panel/backgroundScroll/Viewport/Content/background/lockFrame/Text", slot0.backgroundUI), i18n("juuschat_background_tip1"))
 
 	slot0.redPacketGot = slot0:findTF("panel/got", slot0.redPacketUI)
 
@@ -1015,7 +1016,8 @@ slot0.SetBackgroundPanel = function(slot0, slot1)
 				end
 
 				LoadImageSpriteAsync("herohrzicon/" .. slot3.painting, slot2:Find("skinMask/skin"), false)
-				setText(slot2:Find("skinMask/Panel/Text"), slot3.name)
+				setScrollText(slot2:Find("skinMask/Panel/mask/Text"), slot3.name)
+				SetActive(slot2:Find("lockFrame"), slot3.skin_type ~= ShipSkin.SKIN_TYPE_DEFAULT and not getProxy(ShipSkinProxy):hasSkin(slot3.id))
 				SetActive(slot2:Find("selectedFrame"), uv0.skinId == slot4)
 				SetActive(slot2:Find("selected"), uv0.skinId == slot4)
 
@@ -1024,17 +1026,21 @@ slot0.SetBackgroundPanel = function(slot0, slot1)
 				end
 
 				onButton(uv2, slot2, function ()
-					slot3 = "selectedFrame"
+					if not uv0 then
+						slot3 = "selectedFrame"
 
-					SetActive(uv0:Find(slot3), true)
+						SetActive(uv1:Find(slot3), true)
 
-					for slot3 = 1, #uv1.skins do
-						if slot3 ~= uv2 + 1 then
-							SetActive(uv3:findTF("selectedFrame", uv3:findTF("panel/backgroundScroll/Viewport/Content", uv3.backgroundUI):GetChild(slot3 - 1)), false)
+						for slot3 = 1, #uv2.skins do
+							if slot3 ~= uv3 + 1 then
+								SetActive(uv4:findTF("selectedFrame", uv4:findTF("panel/backgroundScroll/Viewport/Content", uv4.backgroundUI):GetChild(slot3 - 1)), false)
+							end
 						end
-					end
 
-					uv3.currentBgId = uv4
+						uv4.currentBgId = uv5
+					else
+						pg.TipsMgr.GetInstance():ShowTips(i18n("juuschat_background_tip2"))
+					end
 				end, SFX_PANEL)
 			end
 		end)

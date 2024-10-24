@@ -3487,7 +3487,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[960007] = {
 		shiptype = 24,
-		name = "冈依沙瓦号",
+		name = "Ganj-i-Sawai",
 		t_level = 2,
 		id = 960007,
 		t_level_1 = 1,
@@ -3498,7 +3498,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[960008] = {
 		shiptype = 23,
-		name = "幻想号",
+		name = "Fancy",
 		t_level = 1,
 		id = 960008,
 		t_level_1 = 1,
@@ -3509,7 +3509,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[960009] = {
 		shiptype = 22,
-		name = "和睦号",
+		name = "Amity",
 		t_level = 1,
 		id = 960009,
 		t_level_1 = 9,
@@ -3520,7 +3520,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[960010] = {
 		shiptype = 23,
-		name = "朴茨茅斯冒险号",
+		name = "Portsmouth Adventure",
 		t_level = 1,
 		id = 960010,
 		t_level_1 = 6,
@@ -3531,7 +3531,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[960011] = {
 		shiptype = 22,
-		name = "海豚号",
+		name = "Dolphin",
 		t_level = 1,
 		id = 960011,
 		t_level_1 = 10,

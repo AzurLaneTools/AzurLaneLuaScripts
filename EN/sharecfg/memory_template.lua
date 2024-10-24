@@ -38585,7 +38585,7 @@ pg.base.memory_template = {
 		condition = "Participate in the Sails and Spooks event.",
 		story = "GANGQUJIARIGUIGUAIGUSHIJI1",
 		id = 3981,
-		icon = "memory_gangqujiariguiguaigushiji ",
+		icon = "memory_gangqujiariguiguaigushiji",
 		is_open = 0
 	},
 	[3982] = {
@@ -38596,7 +38596,7 @@ pg.base.memory_template = {
 		condition = "Participate in the Sails and Spooks event.",
 		story = "GANGQUJIARIGUIGUAIGUSHIJI2",
 		id = 3982,
-		icon = "memory_gangqujiariguiguaigushiji ",
+		icon = "memory_gangqujiariguiguaigushiji",
 		is_open = 0
 	},
 	[3983] = {
@@ -38607,7 +38607,7 @@ pg.base.memory_template = {
 		condition = "Participate in the Sails and Spooks event.",
 		story = "GANGQUJIARIGUIGUAIGUSHIJI3",
 		id = 3983,
-		icon = "memory_gangqujiariguiguaigushiji ",
+		icon = "memory_gangqujiariguiguaigushiji",
 		is_open = 0
 	},
 	[3984] = {
@@ -38618,7 +38618,7 @@ pg.base.memory_template = {
 		condition = "Participate in the Sails and Spooks event.",
 		story = "GANGQUJIARIGUIGUAIGUSHIJI4",
 		id = 3984,
-		icon = "memory_gangqujiariguiguaigushiji ",
+		icon = "memory_gangqujiariguiguaigushiji",
 		is_open = 0
 	},
 	[3985] = {
@@ -38629,7 +38629,7 @@ pg.base.memory_template = {
 		condition = "Participate in the Sails and Spooks event.",
 		story = "GANGQUJIARIGUIGUAIGUSHIJI5",
 		id = 3985,
-		icon = "memory_gangqujiariguiguaigushiji ",
+		icon = "memory_gangqujiariguiguaigushiji",
 		is_open = 0
 	},
 	[3986] = {
@@ -38640,7 +38640,7 @@ pg.base.memory_template = {
 		condition = "Participate in the Sails and Spooks event.",
 		story = "GANGQUJIARIGUIGUAIGUSHIJI6",
 		id = 3986,
-		icon = "memory_gangqujiariguiguaigushiji ",
+		icon = "memory_gangqujiariguiguaigushiji",
 		is_open = 0
 	},
 	[3987] = {
@@ -38651,7 +38651,7 @@ pg.base.memory_template = {
 		condition = "Participate in the Sails and Spooks event.",
 		story = "GANGQUJIARIGUIGUAIGUSHIJI7",
 		id = 3987,
-		icon = "memory_gangqujiariguiguaigushiji ",
+		icon = "memory_gangqujiariguiguaigushiji",
 		is_open = 0
 	},
 	[3988] = {
@@ -38662,7 +38662,7 @@ pg.base.memory_template = {
 		condition = "Participate in the Sails and Spooks event.",
 		story = "GANGQUJIARIGUIGUAIGUSHIJI8",
 		id = 3988,
-		icon = "memory_gangqujiariguiguaigushiji ",
+		icon = "memory_gangqujiariguiguaigushiji",
 		is_open = 0
 	},
 	[10011] = {

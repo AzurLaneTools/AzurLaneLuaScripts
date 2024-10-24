@@ -4210,7 +4210,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[109] = {
 		ship_group = 109,
-		name = "飓风阵营专用频道",
+		name = "Tempesta Group Chat",
 		background = "109",
 		sculpture = "109",
 		nationality = 10,

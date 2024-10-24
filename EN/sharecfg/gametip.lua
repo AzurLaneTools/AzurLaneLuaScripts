@@ -27488,127 +27488,137 @@ cs.gametip = {
 	},
 	juuschat_filter_tip3 = {
 		1038536,
-		94,
+		93,
 		true
 	},
 	juuschat_filter_tip4 = {
-		1038630,
+		1038629,
 		91,
 		true
 	},
 	juuschat_filter_tip5 = {
-		1038721,
+		1038720,
 		89,
 		true
 	},
 	juuschat_label1 = {
-		1038810,
+		1038809,
 		85,
 		true
 	},
 	juuschat_label2 = {
-		1038895,
+		1038894,
 		86,
 		true
 	},
 	juuschat_chattip1 = {
-		1038981,
+		1038980,
 		97,
 		true
 	},
 	juuschat_chattip2 = {
-		1039078,
+		1039077,
 		91,
 		true
 	},
 	juuschat_chattip3 = {
-		1039169,
-		93,
+		1039168,
+		92,
 		true
 	},
 	juuschat_reddot_title = {
-		1039262,
+		1039260,
 		94,
 		true
 	},
 	juuschat_filter_subtitle1 = {
-		1039356,
+		1039354,
 		100,
 		true
 	},
 	juuschat_filter_subtitle2 = {
-		1039456,
+		1039454,
 		102,
 		true
 	},
 	juuschat_filter_subtitle3 = {
-		1039558,
+		1039556,
 		96,
 		true
 	},
 	juuschat_redpacket_detail = {
-		1039654,
+		1039652,
 		105,
 		true
 	},
 	juuschat_filter_empty = {
-		1039759,
+		1039757,
 		100,
 		true
 	},
 	dorm3d_appellation_title = {
-		1039859,
+		1039857,
 		103,
 		true
 	},
 	dorm3d_appellation_cd = {
-		1039962,
+		1039960,
 		130,
 		true
 	},
 	dorm3d_appellation_interval = {
-		1040092,
+		1040090,
 		141,
 		true
 	},
 	dorm3d_appellation_waring1 = {
-		1040233,
+		1040231,
 		131,
 		true
 	},
 	dorm3d_appellation_waring2 = {
-		1040364,
+		1040362,
 		116,
 		true
 	},
 	dorm3d_appellation_waring3 = {
-		1040480,
+		1040478,
 		117,
 		true
 	},
 	dorm3d_appellation_waring4 = {
-		1040597,
+		1040595,
 		133,
 		true
 	},
 	dorm3d_shop_gift_owned = {
-		1040730,
+		1040728,
 		123,
 		true
 	},
 	BoatAdGame_minigame_help = {
-		1040853,
+		1040851,
 		311,
 		true
 	},
 	activity_1024_memory = {
-		1041164,
+		1041162,
 		155,
 		true
 	},
 	activity_1024_memory_get = {
-		1041319,
+		1041317,
 		99,
+		true
+	},
+	juuschat_background_tip1 = {
+		1041416,
+		97,
+		true
+	},
+	juuschat_background_tip2 = {
+		1041513,
+		112,
 		true
 	}
 }

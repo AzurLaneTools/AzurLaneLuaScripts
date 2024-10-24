@@ -46,7 +46,7 @@ pg.activity_ins_chat_group = {
 		name = "Dinner Together",
 		id = 2,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			32,
@@ -75,7 +75,7 @@ pg.activity_ins_chat_group = {
 		name = "Watching the Sunrise",
 		id = 3,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			51,
@@ -151,7 +151,7 @@ pg.activity_ins_chat_group = {
 		name = "Unique Taste",
 		id = 5,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			107,
@@ -189,7 +189,7 @@ pg.activity_ins_chat_group = {
 		name = "Boredom",
 		id = 6,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			135,
@@ -277,7 +277,7 @@ pg.activity_ins_chat_group = {
 		name = "Evening Meal",
 		id = 8,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			203,
@@ -312,7 +312,7 @@ pg.activity_ins_chat_group = {
 		name = "Longing",
 		id = 9,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			228,
@@ -382,7 +382,7 @@ pg.activity_ins_chat_group = {
 		name = "Drunk Texting",
 		id = 11,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			278,
@@ -416,7 +416,7 @@ pg.activity_ins_chat_group = {
 		name = "Working Out",
 		id = 12,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			302,
@@ -499,7 +499,7 @@ pg.activity_ins_chat_group = {
 		name = "Lost",
 		id = 14,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			365,
@@ -531,7 +531,7 @@ pg.activity_ins_chat_group = {
 		name = "Sleepless Night",
 		id = 15,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			387,
@@ -640,7 +640,7 @@ pg.activity_ins_chat_group = {
 		name = "A Rainy Day",
 		id = 17,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "Raise the character's Affinity to 100.",
 		trigger_type = 2,
 		content = {
 			476,
@@ -697,7 +697,7 @@ pg.activity_ins_chat_group = {
 		name = "Awakening",
 		id = 18,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "Raise the character's Affinity to 150.",
 		trigger_type = 2,
 		content = {
 			523,

@@ -19709,7 +19709,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 	[289] = {
 		can_rotate = 0,
 		name = "Silent Whirlpool Containment Device",
-		gain_by = "飓风与沉眠之海",
+		gain_by = "Tempesta and the Sleeping Sea",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,

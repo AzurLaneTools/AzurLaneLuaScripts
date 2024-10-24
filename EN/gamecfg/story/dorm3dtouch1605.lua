@@ -14,7 +14,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone/touch21",
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "这样的姿势，会适合天狼星吗？",
+			say = "Do you think this pose suits me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

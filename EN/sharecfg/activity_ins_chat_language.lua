@@ -2395,7 +2395,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"Ah, you've grasped what \"like\" means.”。"
+				"Ah, you've grasped what \"like\" means."
 			},
 			{
 				2,
@@ -10046,7 +10046,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "You're all wrong, nya. It's my cheap and user-friendly products that bring us together, nya.",
+		param = "You're all wrong, nya. ",
 		ship_group = 31201,
 		option = "",
 		type = 1,
@@ -10054,10 +10054,10 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "233",
+		param = "It's my cheap and user-friendly products that bring us together, nya.",
 		ship_group = 31201,
 		option = "",
-		type = 4,
+		type = 1,
 		id = 1015,
 		flag = 0
 	},

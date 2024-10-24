@@ -29779,7 +29779,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Event: 飓风与沉眠之海",
+				"Event: Tempesta and the Sleeping Sea",
 				{
 					""
 				},
@@ -29811,7 +29811,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Event: 飓风与沉眠之海",
+				"Event: Tempesta and the Sleeping Sea",
 				{
 					""
 				},
@@ -29843,7 +29843,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Event: 飓风与沉眠之海",
+				"Event: Tempesta and the Sleeping Sea",
 				{
 					""
 				},
@@ -29875,7 +29875,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Event: 飓风与沉眠之海",
+				"Event: Tempesta and the Sleeping Sea",
 				{
 					""
 				},
@@ -29907,7 +29907,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Event: 飓风与沉眠之海",
+				"Event: Tempesta and the Sleeping Sea",
 				{
 					""
 				},

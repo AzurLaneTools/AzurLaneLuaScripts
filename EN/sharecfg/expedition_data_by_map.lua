@@ -20330,7 +20330,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1860001] = {
 		map = 1860001,
-		name = "飓风与沉眠之海 - PT.1|| ||CHAPTER EX||E.X.",
+		name = "Tempesta and the Sleeping Sea - PT.1|| ||CHAPTER EX||E.X.",
 		bgm = "story-tempest-marching",
 		type = 4,
 		anchor = "",
@@ -20412,7 +20412,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1860002] = {
 		map = 1860002,
-		name = "飓风与沉眠之海 - PT.2|| ||CHAPTER EX||E.X.",
+		name = "Tempesta and the Sleeping Sea - PT.2|| ||CHAPTER EX||E.X.",
 		bgm = "battle-nightmare-theme",
 		type = 4,
 		anchor = "",
@@ -20494,7 +20494,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1860003] = {
 		map = 1860003,
-		name = "飓风与沉眠之海·SP|| ||CHAPTER EX||E.X.",
+		name = "Tempesta and the Sleeping Sea - SP|| ||CHAPTER EX||E.X.",
 		bgm = "theme-tempest-up",
 		type = 8,
 		anchor = "",
@@ -20570,7 +20570,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1860004] = {
 		map = 1860004,
-		name = "飓风与沉眠之海·EX|| ||CHAPTER EX||E.X.",
+		name = "Tempesta and the Sleeping Sea - EX|| ||CHAPTER EX||E.X.",
 		bgm = "theme-ganjisawai",
 		type = 8,
 		anchor = "",

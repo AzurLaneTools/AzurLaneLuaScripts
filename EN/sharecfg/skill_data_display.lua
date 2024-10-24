@@ -10237,7 +10237,7 @@ pg.base.skill_data_display = {
 	},
 	[150551] = {
 		id = 150551,
-		name = "狩猎行动"
+		name = "A Void Dance"
 	},
 	[150561] = {
 		id = 150561,

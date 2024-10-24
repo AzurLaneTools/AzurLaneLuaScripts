@@ -559,15 +559,15 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"炮击",
+				"FP",
 				3
 			},
 			{
-				"雷击",
+				"TRP",
 				3
 			},
 			{
-				"航空",
+				"AVI",
 				3
 			}
 		}
@@ -606,15 +606,15 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"炮击",
+				"FP",
 				6
 			},
 			{
-				"雷击",
+				"TRP",
 				6
 			},
 			{
-				"航空",
+				"AVI",
 				6
 			}
 		}
@@ -3138,7 +3138,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"命中",
+				"ACC",
 				1
 			}
 		}
@@ -3163,7 +3163,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"命中",
+				"ACC",
 				2
 			}
 		}
@@ -3188,7 +3188,7 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"命中",
+				"ACC",
 				3
 			}
 		}
@@ -6219,19 +6219,19 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<战巡>炮击",
+				"BBs: FP",
 				20
 			},
 			{
-				"<战列>炮击",
+				"BCs: FP",
 				20
 			},
 			{
-				"<风帆M>炮击",
+				"IXMs: FP",
 				20
 			},
 			{
-				"<正航>航空",
+				"CVs: AVI",
 				20
 			}
 		}

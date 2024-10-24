@@ -3447,7 +3447,7 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 	},
 	[201149] = {
 		buff_id = 201149,
-		name = "海上风暴 ",
+		name = "Howling Storm",
 		desc = "The fleet has entered the storm. All non-Tempesta ships have their SPD decreased by 3 and EVA decreased by 5.0%. Tempesta ships deal 10.0% more DMG.",
 		type = 10,
 		iconSize = "",

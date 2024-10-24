@@ -1308,7 +1308,7 @@ pg.equip_skin_theme_template = {
 	},
 	[61] = {
 		id = 61,
-		name = "ハロウィンホラー",
+		name = "Halloween Horrors",
 		ids = {
 			4059,
 			4060,
