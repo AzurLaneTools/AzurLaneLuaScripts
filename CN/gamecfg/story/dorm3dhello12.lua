@@ -1,16 +1,20 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DHELLO12",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DHELLO12",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
+			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello12",
+			actorName = 20220,
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "每每见到主人的面容，就让天狼星心中涌出无限的喜悦。请让天狼星今后也继续追随您前进的步伐，努力、守护您吧，我骄傲的主人。",
+			say = "每每见到{dorm3d}的面容，就让天狼星心中涌出无限的喜悦。请让天狼星今后也继续追随您前进的步伐，努力、守护您吧，我骄傲的{dorm3d}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

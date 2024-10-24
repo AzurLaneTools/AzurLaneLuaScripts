@@ -7,14 +7,17 @@ return {
 	hideRecord = true,
 	mode = 2,
 	id = "DORM3DDAILYCONVERSATION15",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "主人看起来好像有点疲惫，没什么精神呢？一定是工作太累了吧……",
+			say = "{dorm3d}看起来好像有点疲惫，没什么精神呢？一定是工作太累了吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,12 +47,12 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过，天狼星这里有一个能让主人快速恢复精神的技巧哦！",
+			say = "不过，天狼星这里有一个能让{dorm3d}快速恢复精神的技巧哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +65,7 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -74,12 +77,12 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "天狼星现在就来侍奉主人沐浴吧！……就从帮您脱掉衣服开始！",
+			say = "天狼星现在就来侍奉{dorm3d}沐浴吧！……就从帮您脱掉衣服开始！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

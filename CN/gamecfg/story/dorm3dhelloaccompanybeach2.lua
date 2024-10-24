@@ -7,15 +7,18 @@ return {
 	hideRecord = true,
 	mode = 2,
 	id = "DORM3DHELLOACCOMPANYBEACH2",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			dir = 1,
-			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_wait_table1",
+			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/dorm3d_sirus_wait_table1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "嗯？天狼星在画什么吗……\n本来是想画主人的样子……太有点太难了，所以就画一个象征对主人爱意的心形哦。",
+			say = "嗯？天狼星在画什么吗……\n本来是想画{dorm3d}的样子……太有点太难了，所以就画一个象征对{dorm3d}爱意的心形哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

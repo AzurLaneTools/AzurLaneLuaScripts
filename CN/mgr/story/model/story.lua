@@ -35,9 +35,11 @@ end
 
 slot0.PLAYER = 2
 slot0.TB = 4
+slot0.DORM = 8
 slot0.PlaceholderMap = {
 	playername = slot0.PLAYER,
-	tb = slot0.TB
+	tb = slot0.TB,
+	dorm3d = slot0.DORM
 }
 
 slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5)
@@ -57,6 +59,7 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	for slot9, slot10 in slot6(slot7) do
 		slot11 = uv0.PlaceholderMap[slot10] or 0
 
+		warning(slot11)
 		assert(slot11 > 0, slot10)
 
 		slot0.placeholder = bit.bor(slot0.placeholder, slot11)

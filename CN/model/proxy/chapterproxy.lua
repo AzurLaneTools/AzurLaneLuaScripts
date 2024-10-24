@@ -708,6 +708,14 @@ slot0.getActiveChapter = function(slot0, slot1)
 	end
 end
 
+slot0.GetLastNormalMap = function(slot0)
+	if Map.lastMap and slot0:getMapById(Map.lastMap) and slot1:isUnlock() and slot1:getMapType() == Map.SCENARIO then
+		return Map.lastMap
+	end
+
+	return slot0:getLastUnlockMap().id
+end
+
 slot0.getLastMapForActivity = function(slot0)
 	slot1, slot2 = nil
 
@@ -720,8 +728,6 @@ slot0.getLastMapForActivity = function(slot0)
 	end
 
 	if Map.lastMapForActivity then
-		Map.lastMapForActivity = nil
-
 		slot0:recordLastMap(uv0.LAST_MAP_FOR_ACTIVITY, 0)
 	end
 
@@ -960,18 +966,10 @@ slot0.isClear = function(slot0, slot1)
 	return slot2:isClear()
 end
 
-slot0.getEscortShop = function(slot0)
-	return Clone(slot0.escortShop)
-end
-
-slot0.updateEscortShop = function(slot0, slot1)
-	slot0.escortShop = slot1
-end
-
 slot0.recordLastMap = function(slot0, slot1, slot2)
 	slot3 = false
 
-	if slot1 == uv0.LAST_MAP_FOR_ACTIVITY then
+	if slot1 == uv0.LAST_MAP_FOR_ACTIVITY and slot2 ~= Map.lastMapForActivity then
 		Map.lastMapForActivity = slot2
 		slot3 = true
 	elseif slot1 == uv0.LAST_MAP and slot2 ~= Map.lastMap then

@@ -1,15 +1,18 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DDAILYCONVERSATION76",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DDAILYCONVERSATION76",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = 20220,
 			say = "最近……天狼星也有在看除了食谱以外的书了。",
 			typewriter = {
 				speed = 0.05,
@@ -51,7 +54,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = 20220,
 			say = "是和恋爱话题有关的杂志和小说……",
 			typewriter = {
 				speed = 0.05,
@@ -83,8 +86,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "虽然作为女仆侍奉在主人身边就很幸福了，但天狼星最近变得越来越贪心了。",
+			actorName = 20220,
+			say = "虽然作为女仆侍奉在{dorm3d}身边就很幸福了，但天狼星最近变得越来越贪心了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +95,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
+			actorName = 20220,
 			say = "想要在这方面再好好钻研一下呢。",
 			typewriter = {
 				speed = 0.05,
@@ -101,8 +104,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "请您好好见证天狼星未来的蜕变吧，我的主人。",
+			actorName = 20220,
+			say = "请您好好见证天狼星未来的蜕变吧，我的{dorm3d}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1707,5 +1707,25 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "涩谷彩乃",
 		code = 427
+	},
+	{
+		actor_name = "德井青空",
+		code = 428
+	},
+	{
+		actor_name = "柚木燕",
+		code = 429
+	},
+	{
+		actor_name = "稻垣好",
+		code = 430
+	},
+	{
+		actor_name = "十二稜子",
+		code = 431
+	},
+	{
+		actor_name = "汐入明日香",
+		code = 432
 	}
 }

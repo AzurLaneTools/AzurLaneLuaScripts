@@ -46,6 +46,21 @@ slot0.GetShopID = function(slot0)
 	return slot1[#slot1]
 end
 
+slot0.CheckBuyLimit = function(slot0)
+	slot2 = pg.shop_template[slot0:GetShopID()]
+	slot3 = getProxy(ApartmentProxy):GetGiftShopCount(slot2.effect_args[1])
+
+	if slot2.limit_args and type(slot2.limit_args[1]) == "table" and (slot4[1] == "dailycount" or slot4[1] == "count") and slot4[3] <= slot3 then
+		return false
+	end
+
+	if slot2.group_limit > 0 and slot2.group_limit <= slot3 then
+		return false
+	end
+
+	return true
+end
+
 slot0.NeedViewTip = function(slot0)
 	return _.any(_.keys(uv0.bindConfigTable().get_id_list_by_ship_group_id), function (slot0)
 		if slot0 == 0 then

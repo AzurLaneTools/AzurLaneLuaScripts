@@ -1,16 +1,20 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DHELLO1",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DHELLO1",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
+			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello1",
+			actorName = 20220,
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "贵安，我骄傲的主人。今天的天狼星能为您做些什么呢？无论是什么要求，您都可以尽情向天狼星提出哦。",
+			say = "贵安，我骄傲的{dorm3d}。今天的天狼星能为您做些什么呢？无论是什么要求，您都可以尽情向天狼星提出哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -7,6 +7,9 @@ return {
 	hideRecord = true,
 	mode = 2,
 	id = "DORM3DDAILYCONVERSATION22",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			actor = 0,
@@ -20,7 +23,7 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
@@ -55,7 +58,7 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -67,24 +70,24 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那，天狼星之后会帮主人一起处理文书工作！努力让您早点下班……！",
+			say = "那，天狼星之后会帮{dorm3d}一起处理文书工作！努力让您早点下班……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "只要是主人的愿望，天狼星无论如何都会替您达成！",
+			say = "只要是{dorm3d}的愿望，天狼星无论如何都会替您达成！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

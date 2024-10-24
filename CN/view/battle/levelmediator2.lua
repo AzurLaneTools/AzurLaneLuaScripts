@@ -125,12 +125,8 @@ slot0.register = function(slot0)
 		uv0:sendNotification(GAME.CHAPTER_OP, slot1)
 	end)
 	slot0:bind(uv0.ON_SWITCH_NORMAL_MAP, function (slot0)
-		slot1 = getProxy(ChapterProxy)
-		slot2 = nil
-		slot3 = Map.lastMap and slot1:getMapById(Map.lastMap)
-
-		if (not slot3 or not slot3:isUnlock() or slot3:getMapType() ~= Map.SCENARIO or Map.lastMap) and slot1:getLastUnlockMap().id then
-			uv0.viewComponent:setMap(slot2)
+		if getProxy(ChapterProxy):GetLastNormalMap() then
+			uv0.viewComponent:setMap(slot1)
 		end
 	end)
 	slot0:bind(uv0.ON_RESUME_SUBSTATE, function (slot0, slot1)

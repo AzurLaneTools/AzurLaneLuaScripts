@@ -7,14 +7,17 @@ return {
 	hideRecord = true,
 	mode = 2,
 	id = "DORM3DDAILYCONVERSATION18",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "主人平时总是很辛苦呢，天狼星这为您准备一杯果蔬汁来补充营养吧……！",
+			say = "{dorm3d}平时总是很辛苦呢，天狼星这为您准备一杯果蔬汁来补充营养吧……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +57,7 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -66,7 +69,7 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,

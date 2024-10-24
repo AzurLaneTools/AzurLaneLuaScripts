@@ -7,14 +7,17 @@ return {
 	hideRecord = true,
 	mode = 2,
 	id = "DORM3DDAILYCONVERSATION49",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "如果有一天主人要处理的工作不再那么多，您想去哪里放松一下呢？",
+			say = "如果有一天{dorm3d}要处理的工作不再那么多，您想去哪里放松一下呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,24 +57,24 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "主人，天狼星应该说些什么呢……得到您这样的回答，我真的很开心……",
+			say = "{dorm3d}，天狼星应该说些什么呢……得到您这样的回答，我真的很开心……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "无论那一天是否会到来，天狼星都会永远陪伴在您身边的。我骄傲的主人……",
+			say = "无论那一天是否会到来，天狼星都会永远陪伴在您身边的。我骄傲的{dorm3d}……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

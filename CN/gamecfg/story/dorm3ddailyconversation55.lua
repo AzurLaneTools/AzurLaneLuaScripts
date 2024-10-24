@@ -7,14 +7,17 @@ return {
 	hideRecord = true,
 	mode = 2,
 	id = "DORM3DDAILYCONVERSATION55",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "主人，这么热的天气，要来一起吃点冰淇淋消暑吗？",
+			say = "{dorm3d}，这么热的天气，要来一起吃点冰淇淋消暑吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,19 +58,19 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那么……主人您是想让天狼星喂给您吃呢？",
+			say = "那么……{dorm3d}您是想让天狼星喂给您吃呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,

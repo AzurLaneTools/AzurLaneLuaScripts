@@ -248,9 +248,10 @@ slot0.InitSwitch = function()
 			return slot1
 		end,
 		[DROP_TYPE_COMMANDER_CAT] = function (slot0)
-			slot0.desc = ""
+			slot1 = pg.commander_data_template[slot0.id]
+			slot0.desc = slot1.desc
 
-			return pg.commander_data_template[slot0.id]
+			return slot1
 		end,
 		[DROP_TYPE_TRANS_ITEM] = function (slot0)
 			return pg.drop_data_restore[slot0.id]

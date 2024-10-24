@@ -86,19 +86,8 @@ slot0.updateCrusingEntrance = function(slot0)
 	end, SFX_PANEL)
 end
 
-slot0.NotifyIns = function(slot0, slot1, slot2)
-	slot3 = slot1:ExistMsg() and (not slot2 or slot2:isEnd())
-
-	setActive(slot0.activityInsBtn, slot3)
-
-	if slot3 then
-		slot5 = slot0.activityInsBtn
-
-		setActive(slot5:Find("tip"), slot1:ShouldShowTip())
-		onButton(slot0, slot0.activityInsBtn, function ()
-			uv0:emit(CommissionInfoMediator.ON_INS)
-		end, SFX_PANEL)
-	end
+slot0.NotifyIns = function(slot0)
+	setActive(slot0.activityInsBtn, false)
 end
 
 slot0.UpdateLinkPanel = function(slot0)

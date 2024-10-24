@@ -1633,6 +1633,94 @@ pg.commander_skill_effect_template = {
 			}
 		}
 	},
+	[9600411] = {
+		id = 9600411,
+		name = "攻夺与幻想",
+		effect_type = "battle_buff",
+		args = {
+			40490
+		},
+		condition = {}
+	},
+	[9600412] = {
+		id = 9600412,
+		name = "攻夺与幻想",
+		effect_type = "battle_buff",
+		args = {
+			40500
+		},
+		condition = {
+			{
+				"pos",
+				1
+			}
+		}
+	},
+	[9600413] = {
+		id = 9600413,
+		name = "攻夺与幻想",
+		effect_type = "battle_buff",
+		args = {
+			40510
+		},
+		condition = {}
+	},
+	[9600414] = {
+		id = 9600414,
+		name = "攻夺与幻想",
+		effect_type = "battle_buff",
+		args = {
+			40490
+		},
+		condition = {
+			{
+				"insubteam",
+				1
+			}
+		}
+	},
+	[9600511] = {
+		id = 9600511,
+		name = "戒律的订立者",
+		effect_type = "hunt_lv",
+		args = {
+			1
+		},
+		condition = {
+			{
+				"insubteam",
+				1
+			}
+		}
+	},
+	[9600512] = {
+		id = 9600512,
+		name = "戒律的订立者",
+		effect_type = "battle_buff",
+		args = {
+			40520
+		},
+		condition = {
+			{
+				"insubteam",
+				1
+			}
+		}
+	},
+	[9600513] = {
+		id = 9600513,
+		name = "戒律的订立者",
+		effect_type = "battle_buff",
+		args = {
+			40530
+		},
+		condition = {
+			{
+				"insubteam",
+				1
+			}
+		}
+	},
 	[9100111] = {
 		id = 9100111,
 		name = "31节的正义",
@@ -1913,6 +2001,20 @@ pg.commander_skill_effect_template = {
 			}
 		}
 	},
+	[99600511] = {
+		id = 99600511,
+		name = "戒律的订立者",
+		effect_type = "battle_buff",
+		args = {
+			40540
+		},
+		condition = {
+			{
+				"insubteam",
+				1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2018,6 +2120,13 @@ pg.commander_skill_effect_template = {
 		9600311,
 		9600312,
 		9600313,
+		9600411,
+		9600412,
+		9600413,
+		9600414,
+		9600511,
+		9600512,
+		9600513,
 		9100111,
 		9100112,
 		9100113,
@@ -2035,6 +2144,7 @@ pg.commander_skill_effect_template = {
 		9400212,
 		9410213,
 		99600212,
-		99600311
+		99600311,
+		99600511
 	}
 }

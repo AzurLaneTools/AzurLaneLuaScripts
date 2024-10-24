@@ -339,7 +339,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 433
+		key_value = 435
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1923,7 +1923,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 434
+		key_value = 436
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -3767,5 +3767,13 @@ pg.gameset = {
 	battlepass_level = {
 		description = "",
 		key_value = 50
+	},
+	juuschat_entering_time = {
+		description = "",
+		key_value = 2000
+	},
+	juuschat_dialogue_trigger_time = {
+		description = "",
+		key_value = 3000
 	}
 }

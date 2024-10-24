@@ -11777,6 +11777,113 @@ pg.base.ship_skin_template_1 = {
 			}
 		}
 	},
+	[101492] = {
+		name = "“头”号调查员",
+		id = 101492,
+		desc = "嗨~指挥官，你终于赶来啦，这次的调查对象是手里……不对，后面追着的东西，总而言之现在先快跑吧！",
+		illustrator2 = -1,
+		ship_group = 10149,
+		group_index = 2,
+		prefab = "bulisituoer_3",
+		painting = "bulisituoer_3",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 8,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "174",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 4,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71068,
+		voice_actor = 302,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.833,
+					1.152,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.004,
+					0.851,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.067,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.477,
+							2.41,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[101500] = {
 		name = "哈曼II",
 		id = 101500,

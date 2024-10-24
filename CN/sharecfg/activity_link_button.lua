@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_link_button = {
 	{
-		param = "5597",
+		param = "5621",
 		name = "event_all",
 		text_pic = "text_event_all",
 		type = 3,
@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5597
+			5621
 		}
 	},
 	{
@@ -219,6 +219,22 @@ pg.activity_link_button = {
 			view = "ChildishnessSchoolPtPage"
 		}
 	},
+	[105] = {
+		name = "event_boat_ad_game",
+		text_pic = "text_event_boat_ad_game",
+		type = 7,
+		pic = "event_boat_ad_game",
+		id = 105,
+		group_id = 10,
+		order = 1,
+		time = {
+			"default",
+			5629
+		},
+		param = {
+			68
+		}
+	},
 	get_id_list_by_name = {
 		event_all = {
 			1,
@@ -263,6 +279,9 @@ pg.activity_link_button = {
 		},
 		event_layer = {
 			104
+		},
+		event_boat_ad_game = {
+			105
 		}
 	},
 	all = {
@@ -281,6 +300,7 @@ pg.activity_link_button = {
 		101,
 		102,
 		103,
-		104
+		104,
+		105
 	}
 }

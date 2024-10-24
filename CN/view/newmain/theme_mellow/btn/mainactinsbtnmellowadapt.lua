@@ -5,7 +5,9 @@ slot0.GetContainer = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	setActive(slot0._tf:Find("tip"), getProxy(InstagramProxy):ShouldShowTip())
+	slot1 = getProxy(InstagramProxy):ShouldShowTip() or getProxy(InstagramChatProxy):ShouldShowTip()
+
+	setActive(slot0._tf:Find("tip"), slot1)
 
 	slot0.textTr = slot0._tf:Find("Text"):GetComponent(typeof(Text))
 	slot0.systemTimeUtil = slot0.systemTimeUtil or SystemTimeUtil.New()

@@ -1,5 +1,17 @@
 pg = pg or {}
 pg.dorm3d_ik_touch = {
+	[1002101] = {
+		body = "chest",
+		char_id = 20220,
+		action_emote = "",
+		id = 1002101,
+		vibrate = {
+			{
+				0,
+				0.3
+			}
+		}
+	},
 	[1003101] = {
 		body = "head",
 		char_id = 20220,
@@ -73,6 +85,7 @@ pg.dorm3d_ik_touch = {
 		}
 	},
 	all = {
+		1002101,
 		1003101,
 		1001301,
 		1001302,

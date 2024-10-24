@@ -7,15 +7,18 @@ return {
 	hideRecord = true,
 	mode = 2,
 	id = "DORM3DHELLOACCOMPANY4",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			dir = 1,
-			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_wait_bed2",
+			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/dorm3d_sirus_wait_bed2",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "呼……嗯？主人？\n要和天狼星一起做点什么吗？",
+			say = "呼……嗯？{dorm3d}？\n要和天狼星一起做点什么吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

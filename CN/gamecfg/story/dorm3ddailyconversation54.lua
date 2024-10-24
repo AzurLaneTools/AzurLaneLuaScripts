@@ -7,14 +7,17 @@ return {
 	hideRecord = true,
 	mode = 2,
 	id = "DORM3DDAILYCONVERSATION54",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "主人，您看，天狼星把我们一起在沙滩上找到的贝壳串成项链了",
+			say = "{dorm3d}，您看，天狼星把我们一起在沙滩上找到的贝壳串成项链了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +57,7 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
@@ -89,12 +92,12 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "毕竟是和主人一起找到的贝壳……只要看到它，就会想起今天呢~",
+			say = "毕竟是和{dorm3d}一起找到的贝壳……只要看到它，就会想起今天呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

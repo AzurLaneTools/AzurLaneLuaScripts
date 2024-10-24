@@ -11,7 +11,7 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onFriendlyShipDying"
+				"onTeammateShipDying"
 			},
 			arg_list = {
 				check_target = "TargetShipTypeFriendly",
@@ -25,7 +25,7 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onFriendlyShipDying"
+				"onTeammateShipDying"
 			},
 			arg_list = {
 				check_target = "TargetShipTypeFriendly",

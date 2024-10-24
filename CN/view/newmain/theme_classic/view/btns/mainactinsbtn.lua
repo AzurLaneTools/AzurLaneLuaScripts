@@ -5,7 +5,7 @@ slot0.GetContainer = function(slot0)
 end
 
 slot0.InShowTime = function(slot0)
-	return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_INSTAGRAM) and not slot1:isEnd()
+	return true
 end
 
 slot0.GetUIName = function(slot0)
@@ -18,7 +18,7 @@ end
 
 slot0.OnInit = function(slot0)
 	slot0.animator = slot0._tf:Find("icon"):GetComponent(typeof(Animator))
-	slot1 = getProxy(InstagramProxy):ShouldShowTip()
+	slot1 = getProxy(InstagramProxy):ShouldShowTip() or getProxy(InstagramChatProxy):ShouldShowTip()
 	slot0.animator.enabled = slot1
 
 	setActive(slot0._tf:Find("Tip"), slot1)

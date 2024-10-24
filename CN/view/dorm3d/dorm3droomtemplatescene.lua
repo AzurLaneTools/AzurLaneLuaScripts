@@ -2593,7 +2593,13 @@ slot0.PlayTimeline = function(slot0, slot1, slot2)
 
 		uv1:HideCharacter()
 		setActive(uv1.mainCameraTF, false)
+		eachChild(uv1.rtTimelineScreen, function (slot0)
+			setActive(slot0, false)
+		end)
+		setActive(uv1.rtTimelineScreen, true)
+		setActive(uv1.rtTimelineScreen:Find("btn_skip"), uv1.inReplayTalk)
 		TimelineSupport.InitTimeline(slot2)
+		TimelineSupport.InitSubtitle(slot2, uv1.apartment:GetCallName())
 		slot2:Play()
 		slot2:Evaluate()
 	end)
@@ -2611,6 +2617,8 @@ slot0.PlayTimeline = function(slot0, slot1, slot2)
 		uv0:ChangeArtScene(uv1, slot0)
 	end)
 	seriesAsync(slot3, function ()
+		setActive(uv0.rtTimelineScreen, false)
+
 		slot0 = uv0
 
 		slot0:RevertCharacter()

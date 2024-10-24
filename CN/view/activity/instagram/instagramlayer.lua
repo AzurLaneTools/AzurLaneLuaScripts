@@ -22,14 +22,12 @@ slot0.init = function(slot0)
 	slot1 = GameObject.Find("MainObject")
 	slot0.downloadmgr = BulletinBoardMgr.Inst
 	slot0.listTF = slot0:findTF("list")
-	slot0.listAnimationPlayer = slot0._tf:GetComponent(typeof(Animation))
-	slot0.listDftAniEvent = slot0._tf:GetComponent(typeof(DftAniEvent))
 	slot0.mainTF = slot0:findTF("main")
-	slot0.closeBtn = slot0:findTF("close_btn")
-	slot0.helpBtn = slot0:findTF("list/bg/help")
+	slot0.closeBtn = slot0:findTF("closeBtn")
 	slot0.noMsgTF = slot0:findTF("list/bg/no_msg")
+	slot0.scrollBarTF = slot0:findTF("list/bg/scroll_bar")
 	slot0.list = slot0:findTF("list/bg/scrollrect"):GetComponent("LScrollRect")
-	slot0.imageTF = slot0:findTF("main/left_panel/Image"):GetComponent(typeof(RawImage))
+	slot0.imageTF = slot0:findTF("main/left_panel/mask/Image"):GetComponent(typeof(RawImage))
 	slot0.likeBtn = slot0:findTF("main/left_panel/heart")
 	slot0.bubbleTF = slot0:findTF("main/left_panel/bubble")
 	slot0.planeTF = slot0:findTF("main/left_panel/plane")
@@ -48,6 +46,7 @@ slot0.init = function(slot0)
 	slot0.toDownloadList = {}
 
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
+		groupName = "Instagram",
 		weight = LayerWeightConst.SECOND_LAYER
 	})
 end
@@ -95,9 +94,7 @@ slot0.SetImageByUrl = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.didEnter = function(slot0)
-	slot0.animTF:GetComponent(typeof(UIEventTrigger)).didEnter:AddListener(function ()
-		uv0:SetUp()
-	end)
+	slot0:SetUp()
 
 	slot0.cards = {}
 
@@ -123,28 +120,14 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.SetUp = function(slot0)
+	setActive(slot0.listTF, true)
+	setActive(slot0.mainTF, false)
+	setActive(slot0.closeBtn, false)
 	onButton(slot0, slot0.closeBtn, function ()
-		uv0:OnClose()
+		if uv0.inDetail then
+			uv0:ExitDetail()
+		end
 	end, SFX_PANEL)
-	onButton(slot0, slot0.helpBtn, function ()
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.music_juus.tip
-		})
-	end, SFX_PANEL)
-	onButton(slot0, slot0._tf, function ()
-		uv0:OnClose()
-	end, SFX_PANEL)
-end
-
-slot0.OnClose = function(slot0)
-	if slot0.inDetail then
-		slot0:ExitDetail()
-	else
-		slot0:PlayExitAnimation(function ()
-			uv0:emit(uv1.ON_CLOSE)
-		end)
-	end
 end
 
 slot0.InitList = function(slot0)
@@ -165,6 +148,7 @@ slot0.InitList = function(slot0)
 	end)
 	slot0.list:SetTotalCount(#slot0.display)
 	setActive(slot0.noMsgTF, #slot0.display == 0)
+	setActive(slot0.scrollBarTF, not #slot0.display == 0)
 end
 
 slot0.UpdateInstagram = function(slot0, slot1, slot2)
@@ -182,9 +166,11 @@ slot0.EnterDetail = function(slot0, slot1)
 
 	slot0.inDetail = true
 
+	setActive(slot0.listTF, false)
+	setActive(slot0.mainTF, true)
+	setActive(slot0.closeBtn, true)
 	pg.SystemGuideMgr.GetInstance():Play(slot0)
 	slot0:RefreshInstagram()
-	slot0.listAnimationPlayer:Play("anim_snsLoad_list_out")
 	scrollTo(slot0.scroll, 0, 1)
 end
 
@@ -196,8 +182,10 @@ slot0.ExitDetail = function(slot0)
 	slot0.contextData.instagram = nil
 	slot0.inDetail = false
 
+	setActive(slot0.listTF, true)
+	setActive(slot0.mainTF, false)
+	setActive(slot0.closeBtn, false)
 	slot0:CloseCommentPanel()
-	slot0.listAnimationPlayer:Play("anim_snsLoad_list_in")
 end
 
 slot0.RefreshInstagram = function(slot0)
@@ -329,7 +317,8 @@ slot0.OpenCommentPanel = function(slot0)
 	setActive(slot0.optionalPanel, true)
 
 	slot2 = slot1:GetOptionComment()
-	slot0.commentPanel.sizeDelta = Vector2(642.6, (#slot2 + 1) * 150)
+	slot0.commentPanel:GetComponent(typeof(Image)).enabled = true
+	slot0.commentPanel.sizeDelta = Vector2(0, #slot2 * 142 + 60)
 	slot3 = UIItemList.New(slot0.optionalPanel, slot0.optionalPanel:Find("option1"))
 
 	slot3:make(function (slot0, slot1, slot2)
@@ -349,7 +338,8 @@ slot0.OpenCommentPanel = function(slot0)
 end
 
 slot0.CloseCommentPanel = function(slot0)
-	slot0.commentPanel.sizeDelta = Vector2(642.6, 150)
+	slot0.commentPanel:GetComponent(typeof(Image)).enabled = false
+	slot0.commentPanel.sizeDelta = Vector2(0, 0)
 
 	setActive(slot0.optionalPanel, false)
 end
@@ -361,7 +351,15 @@ slot0.onBackPressed = function(slot0)
 		return
 	end
 
-	uv0.super.onBackPressed(slot0)
+	slot0:emit(InstagramMediator.CLOSE_ALL)
+end
+
+slot0.CloseDetail = function(slot0)
+	if slot0.inDetail then
+		slot0:ExitDetail()
+
+		return
+	end
 end
 
 slot0.willExit = function(slot0)

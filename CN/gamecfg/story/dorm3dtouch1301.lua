@@ -1,16 +1,19 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DTOUCH1301",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DTOUCH1301",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "只要被主人这样触摸，就会有一种安定的感觉，很不可思议呢。",
+			actorName = 20220,
+			say = "只要被{dorm3d}这样触摸，就会有一种安定的感觉，很不可思议呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

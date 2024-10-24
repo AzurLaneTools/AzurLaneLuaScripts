@@ -42,6 +42,9 @@ slot2 = {
 	CS_28019_ROOM_ID_FIELD = slot0.FieldDescriptor(),
 	CS_28019_SHIP_GROUP_FIELD = slot0.FieldDescriptor(),
 	SC_28020_RESULT_FIELD = slot0.FieldDescriptor(),
+	CS_28021_SHIP_GROUP_FIELD = slot0.FieldDescriptor(),
+	CS_28021_NAME_FIELD = slot0.FieldDescriptor(),
+	SC_28022_RESULT_FIELD = slot0.FieldDescriptor(),
 	APARTMENT_GIVE_GIFT_GIFT_ID_FIELD = slot0.FieldDescriptor(),
 	APARTMENT_GIVE_GIFT_NUMBER_FIELD = slot0.FieldDescriptor(),
 	APARTMENT_GIFT_GIFT_ID_FIELD = slot0.FieldDescriptor(),
@@ -55,6 +58,8 @@ slot2 = {
 	APARTMENT_SHIP_DIALOGUES_FIELD = slot0.FieldDescriptor(),
 	APARTMENT_SHIP_SKINS_FIELD = slot0.FieldDescriptor(),
 	APARTMENT_SHIP_CUR_SKIN_FIELD = slot0.FieldDescriptor(),
+	APARTMENT_SHIP_NAME_FIELD = slot0.FieldDescriptor(),
+	APARTMENT_SHIP_NAME_CD_FIELD = slot0.FieldDescriptor(),
 	APARTMENT_ROOM_ID_FIELD = slot0.FieldDescriptor(),
 	APARTMENT_ROOM_FURNITURES_FIELD = slot0.FieldDescriptor(),
 	APARTMENT_ROOM_COLLECTIONS_FIELD = slot0.FieldDescriptor(),
@@ -88,6 +93,8 @@ CS_28017 = slot0.Descriptor()
 SC_28018 = slot0.Descriptor()
 CS_28019 = slot0.Descriptor()
 SC_28020 = slot0.Descriptor()
+CS_28021 = slot0.Descriptor()
+SC_28022 = slot0.Descriptor()
 APARTMENT_GIVE_GIFT = slot0.Descriptor()
 APARTMENT_GIFT = slot0.Descriptor()
 APARTMENT_SHIP = slot0.Descriptor()
@@ -655,6 +662,52 @@ SC_28020.fields = {
 }
 SC_28020.is_extendable = false
 SC_28020.extensions = {}
+slot2.CS_28021_SHIP_GROUP_FIELD.name = "ship_group"
+slot2.CS_28021_SHIP_GROUP_FIELD.full_name = "p28.cs_28021.ship_group"
+slot2.CS_28021_SHIP_GROUP_FIELD.number = 1
+slot2.CS_28021_SHIP_GROUP_FIELD.index = 0
+slot2.CS_28021_SHIP_GROUP_FIELD.label = 2
+slot2.CS_28021_SHIP_GROUP_FIELD.has_default_value = false
+slot2.CS_28021_SHIP_GROUP_FIELD.default_value = 0
+slot2.CS_28021_SHIP_GROUP_FIELD.type = 13
+slot2.CS_28021_SHIP_GROUP_FIELD.cpp_type = 3
+slot2.CS_28021_NAME_FIELD.name = "name"
+slot2.CS_28021_NAME_FIELD.full_name = "p28.cs_28021.name"
+slot2.CS_28021_NAME_FIELD.number = 2
+slot2.CS_28021_NAME_FIELD.index = 1
+slot2.CS_28021_NAME_FIELD.label = 2
+slot2.CS_28021_NAME_FIELD.has_default_value = false
+slot2.CS_28021_NAME_FIELD.default_value = ""
+slot2.CS_28021_NAME_FIELD.type = 9
+slot2.CS_28021_NAME_FIELD.cpp_type = 9
+CS_28021.name = "cs_28021"
+CS_28021.full_name = "p28.cs_28021"
+CS_28021.nested_types = {}
+CS_28021.enum_types = {}
+CS_28021.fields = {
+	slot2.CS_28021_SHIP_GROUP_FIELD,
+	slot2.CS_28021_NAME_FIELD
+}
+CS_28021.is_extendable = false
+CS_28021.extensions = {}
+slot2.SC_28022_RESULT_FIELD.name = "result"
+slot2.SC_28022_RESULT_FIELD.full_name = "p28.sc_28022.result"
+slot2.SC_28022_RESULT_FIELD.number = 1
+slot2.SC_28022_RESULT_FIELD.index = 0
+slot2.SC_28022_RESULT_FIELD.label = 2
+slot2.SC_28022_RESULT_FIELD.has_default_value = false
+slot2.SC_28022_RESULT_FIELD.default_value = 0
+slot2.SC_28022_RESULT_FIELD.type = 13
+slot2.SC_28022_RESULT_FIELD.cpp_type = 3
+SC_28022.name = "sc_28022"
+SC_28022.full_name = "p28.sc_28022"
+SC_28022.nested_types = {}
+SC_28022.enum_types = {}
+SC_28022.fields = {
+	slot2.SC_28022_RESULT_FIELD
+}
+SC_28022.is_extendable = false
+SC_28022.extensions = {}
 slot2.APARTMENT_GIVE_GIFT_GIFT_ID_FIELD.name = "gift_id"
 slot2.APARTMENT_GIVE_GIFT_GIFT_ID_FIELD.full_name = "p28.apartment_give_gift.gift_id"
 slot2.APARTMENT_GIVE_GIFT_GIFT_ID_FIELD.number = 1
@@ -793,6 +846,24 @@ slot2.APARTMENT_SHIP_CUR_SKIN_FIELD.has_default_value = false
 slot2.APARTMENT_SHIP_CUR_SKIN_FIELD.default_value = 0
 slot2.APARTMENT_SHIP_CUR_SKIN_FIELD.type = 13
 slot2.APARTMENT_SHIP_CUR_SKIN_FIELD.cpp_type = 3
+slot2.APARTMENT_SHIP_NAME_FIELD.name = "name"
+slot2.APARTMENT_SHIP_NAME_FIELD.full_name = "p28.apartment_ship.name"
+slot2.APARTMENT_SHIP_NAME_FIELD.number = 9
+slot2.APARTMENT_SHIP_NAME_FIELD.index = 8
+slot2.APARTMENT_SHIP_NAME_FIELD.label = 2
+slot2.APARTMENT_SHIP_NAME_FIELD.has_default_value = false
+slot2.APARTMENT_SHIP_NAME_FIELD.default_value = ""
+slot2.APARTMENT_SHIP_NAME_FIELD.type = 9
+slot2.APARTMENT_SHIP_NAME_FIELD.cpp_type = 9
+slot2.APARTMENT_SHIP_NAME_CD_FIELD.name = "name_cd"
+slot2.APARTMENT_SHIP_NAME_CD_FIELD.full_name = "p28.apartment_ship.name_cd"
+slot2.APARTMENT_SHIP_NAME_CD_FIELD.number = 10
+slot2.APARTMENT_SHIP_NAME_CD_FIELD.index = 9
+slot2.APARTMENT_SHIP_NAME_CD_FIELD.label = 2
+slot2.APARTMENT_SHIP_NAME_CD_FIELD.has_default_value = false
+slot2.APARTMENT_SHIP_NAME_CD_FIELD.default_value = 0
+slot2.APARTMENT_SHIP_NAME_CD_FIELD.type = 13
+slot2.APARTMENT_SHIP_NAME_CD_FIELD.cpp_type = 3
 APARTMENT_SHIP.name = "apartment_ship"
 APARTMENT_SHIP.full_name = "p28.apartment_ship"
 APARTMENT_SHIP.nested_types = {}
@@ -805,7 +876,9 @@ APARTMENT_SHIP.fields = {
 	slot2.APARTMENT_SHIP_DAILY_FAVOR_FIELD,
 	slot2.APARTMENT_SHIP_DIALOGUES_FIELD,
 	slot2.APARTMENT_SHIP_SKINS_FIELD,
-	slot2.APARTMENT_SHIP_CUR_SKIN_FIELD
+	slot2.APARTMENT_SHIP_CUR_SKIN_FIELD,
+	slot2.APARTMENT_SHIP_NAME_FIELD,
+	slot2.APARTMENT_SHIP_NAME_CD_FIELD
 }
 APARTMENT_SHIP.is_extendable = false
 APARTMENT_SHIP.extensions = {}
@@ -968,6 +1041,7 @@ cs_28013 = slot0.Message(CS_28013)
 cs_28015 = slot0.Message(CS_28015)
 cs_28017 = slot0.Message(CS_28017)
 cs_28019 = slot0.Message(CS_28019)
+cs_28021 = slot0.Message(CS_28021)
 cs_28090 = slot0.Message(CS_28090)
 sc_28000 = slot0.Message(SC_28000)
 sc_28002 = slot0.Message(SC_28002)
@@ -980,3 +1054,4 @@ sc_28014 = slot0.Message(SC_28014)
 sc_28016 = slot0.Message(SC_28016)
 sc_28018 = slot0.Message(SC_28018)
 sc_28020 = slot0.Message(SC_28020)
+sc_28022 = slot0.Message(SC_28022)

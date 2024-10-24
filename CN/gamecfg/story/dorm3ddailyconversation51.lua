@@ -7,14 +7,17 @@ return {
 	hideRecord = true,
 	mode = 2,
 	id = "DORM3DDAILYCONVERSATION51",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "主人，您的脸看上去有点红呢……是不是被太阳晒伤了？",
+			say = "{dorm3d}，您的脸看上去有点红呢……是不是被太阳晒伤了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +47,7 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -56,24 +59,24 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "请主人随天狼星移步至阳伞下吧~！天狼星来帮您涂防晒霜。",
+			say = "请{dorm3d}随天狼星移步至阳伞下吧~！天狼星来帮您涂防晒霜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "就请将您的身体尽管交给天狼星吧，我骄傲的主人~！",
+			say = "就请将您的身体尽管交给天狼星吧，我骄傲的{dorm3d}~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

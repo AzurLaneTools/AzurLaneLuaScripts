@@ -1,111 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_3 = {
-	[103140] = {
-		name = "{namecode:195}",
-		id = 103140,
-		desc = "新奥尔良级重巡洋舰——{namecode:195}，舷号CA-38",
-		illustrator2 = -1,
-		ship_group = 10314,
-		group_index = 0,
-		prefab = "jiujinshan",
-		painting = "jiujinshan",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 275,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.266,
-					1.151,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.301,
-					1.144,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.03,
-					0.003,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.596,
-							2.323,
-							0.14
-						}
-					}
-				}
-			}
-		}
-	},
 	[103141] = {
 		name = "Funny Bunny！",
 		id = 103141,
@@ -1684,22 +1579,22 @@ pg.base.ship_skin_template_3 = {
 		bound_bone = {
 			cannon = {
 				{
-					1.202,
-					1.03,
+					0.9,
+					0.662,
 					0
 				}
 			},
 			vicegun = {
 				{
-					1.22,
-					1.132,
+					0.874,
+					0.639,
 					0
 				}
 			},
 			torpedo = {
 				{
-					-0.009,
-					-0.004,
+					0,
+					0,
 					0
 				}
 			}
@@ -1711,8 +1606,8 @@ pg.base.ship_skin_template_3 = {
 					{
 						"smoke",
 						{
-							-0.47,
-							2.213,
+							-0.367,
+							2.469,
 							0.14
 						}
 					}
@@ -1799,15 +1694,15 @@ pg.base.ship_skin_template_3 = {
 		bound_bone = {
 			cannon = {
 				{
-					0.76,
-					0.867,
+					0.716,
+					0.874,
 					0
 				}
 			},
 			vicegun = {
 				{
-					0.764,
-					0.846,
+					0.72,
+					0.875,
 					0
 				}
 			},
@@ -1826,8 +1721,8 @@ pg.base.ship_skin_template_3 = {
 					{
 						"smoke",
 						{
-							-0.859,
-							2.284,
+							-0.361,
+							2.431,
 							0.14
 						}
 					}
@@ -12776,6 +12671,221 @@ pg.base.ship_skin_template_3 = {
 			},
 			{
 				0.45
+			}
+		}
+	},
+	[107096] = {
+		name = "赛道88之风",
+		id = 107096,
+		desc = "埃塞克斯，感谢巡场顺利结束！指挥官看到我的活跃了吗？欸嘿嘿，真是太感谢你为比赛提供的各种帮助了！",
+		illustrator2 = -1,
+		ship_group = 10709,
+		group_index = 6,
+		prefab = "aisaikesi_8",
+		painting = "aisaikesi_8",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 14,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 4,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70914,
+		voice_actor = 149,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.048,
+					1.32,
+					0
+				}
+			},
+			plane = {
+				{
+					1.368,
+					0.472,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.86,
+							1.98,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[107100] = {
+		name = "约克城II",
+		id = 107100,
+		desc = "埃塞克斯级航空母舰—约克城II，舷号CV-10",
+		illustrator2 = -1,
+		ship_group = 10710,
+		group_index = 0,
+		prefab = "yuekechengII",
+		painting = "yuekechengII",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 0,
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 42,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.3,
+					1.4,
+					0
+				}
+			},
+			plane = {
+				{
+					1.41,
+					1.11,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.31,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				-83,
+				-1643,
+				0
+			},
+			{
+				0.88
+			}
+		},
+		special_effects = {
+			"lihui_yuekechengII",
+			{
+				2418,
+				-99,
+				0
+			},
+			{
+				2
 			}
 		}
 	}

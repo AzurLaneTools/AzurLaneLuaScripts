@@ -1,11 +1,14 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DDAILYCONVERSATION3",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DDAILYCONVERSATION3",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			mode = 1,
@@ -18,7 +21,7 @@ return {
 			}
 		},
 		{
-			say = "主人，天狼星在此恭候您多时了。",
+			say = "{dorm3d}，天狼星在此恭候您多时了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,14 +146,14 @@ return {
 			}
 		},
 		{
-			say = "作为一名皇家女仆，天狼星份内的职责之一就是将主人要经过的地方清扫得一尘不染呢。",
+			say = "作为一名皇家女仆，天狼星份内的职责之一就是将{dorm3d}要经过的地方清扫得一尘不染呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "事实上，为了随时迎接主人的到来，天狼星已经做好了万全准备……！",
+			say = "事实上，为了随时迎接{dorm3d}的到来，天狼星已经做好了万全准备……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +167,7 @@ return {
 			}
 		},
 		{
-			say = "而且为了能给主人一个舒适的体验，天狼星特意请求女仆长进行了指导和协助。",
+			say = "而且为了能给{dorm3d}一个舒适的体验，天狼星特意请求女仆长进行了指导和协助。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +205,7 @@ return {
 			}
 		},
 		{
-			say = "无论提出什么要求，天狼星都能满足主人。",
+			say = "无论提出什么要求，天狼星都能满足{dorm3d}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +243,7 @@ return {
 			}
 		},
 		{
-			say = "啊！终于，这一天终于来了……我和主人一起……天狼星一直以来期待的……",
+			say = "啊！终于，这一天终于来了……我和{dorm3d}一起……天狼星一直以来期待的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,14 +281,14 @@ return {
 			}
 		},
 		{
-			say = "没想到会收到这种要求……但如果这是主人所希望的，天狼星当然会做到。",
+			say = "没想到会收到这种要求……但如果这是{dorm3d}所希望的，天狼星当然会做到。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "那么，就请和天狼星来沙发上休息吧，我骄傲的主人。",
+			say = "那么，就请和天狼星来沙发上休息吧，我骄傲的{dorm3d}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

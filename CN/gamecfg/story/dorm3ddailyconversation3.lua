@@ -7,14 +7,17 @@ return {
 	hideRecord = true,
 	mode = 2,
 	id = "DORM3DDAILYCONVERSATION3",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "主人喜欢吃泡芙吗？天狼星最近觉得做泡芙可能不容易出错。",
+			say = "{dorm3d}喜欢吃泡芙吗？天狼星最近觉得做泡芙可能不容易出错。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +58,7 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,

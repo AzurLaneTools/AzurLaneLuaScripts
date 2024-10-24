@@ -91,6 +91,7 @@ slot0.Ctor = function(slot0, slot1)
 
 	slot0.hideRecordIco = slot1.hideRecordIco
 	slot0.paingtingScale = slot1.actorScale
+	slot0.paingtingYFlip = slot1.actorYFlip
 	slot0.hidePainting = slot1.withoutPainting
 	slot0.hidePaintingWithName = slot1.hidePainting
 	slot0.actorShadow = slot1.actorShadow
@@ -107,6 +108,12 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.contentBGAlpha = slot1.dialogueBgAlpha or 1
 	slot0.canMarkNode = slot1.canMarkNode
 	slot0.portrait = slot1.portrait
+	slot0.miniPortrait = false
+
+	if slot0.portrait and (slot0.portrait == "zhihuiguan" or slot0.portrait == "tongxunqi") then
+		slot0.miniPortrait = true
+	end
+
 	slot0.glitchArtForPortrait = slot1.portraitNoise
 
 	if slot0.hidePainting or slot0.actor == nil then
@@ -159,6 +166,10 @@ slot0.GetPaintingRwIndex = function(slot0)
 	end
 
 	return slot0.paintRwIndex
+end
+
+slot0.IsMiniPortrait = function(slot0)
+	return slot0.miniPortrait
 end
 
 slot0.ExistPortrait = function(slot0)
@@ -270,6 +281,10 @@ slot0.GetPaintingDir = function(slot0)
 	return (slot0.dir or 1) * (slot0.paingtingScale or 1)
 end
 
+slot0.ShouldFlipPaintingY = function(slot0)
+	return slot0.paingtingYFlip ~= nil
+end
+
 slot0.GetTag = function(slot0)
 	if slot0.glitchArt == true then
 		return 2
@@ -333,6 +348,10 @@ slot0.GetContent = function(slot0)
 		slot1 = slot0:ReplaceTbName(slot1)
 	end
 
+	if slot0:ShouldReplaceDorm() then
+		slot1 = slot0:ReplaceDormName(slot1)
+	end
+
 	return (PLATFORM_CODE == PLATFORM_US or SwitchSpecialChar(HXSet.hxLan(slot1), true)) and HXSet.hxLan(slot1)
 end
 
@@ -355,6 +374,8 @@ end
 slot0.GetCustomActorName = function(slot0)
 	if type(slot0.actorName) == "number" and slot0.actorName == 0 and getProxy(PlayerProxy) then
 		return getProxy(PlayerProxy):getRawData().name
+	elseif type(slot0.actorName) == "number" then
+		return ShipGroup.getDefaultShipNameByGroupID(slot0.actorName)
 	elseif type(slot0.actorName) == "string" then
 		return slot0.actorName
 	else

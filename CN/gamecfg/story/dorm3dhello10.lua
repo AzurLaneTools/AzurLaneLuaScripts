@@ -1,16 +1,20 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DHELLO10",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DHELLO10",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
+			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello10",
+			actorName = 20220,
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "为了迎接主人的到来，天狼星今天努力为您准备了充满天狼星爱意的点心……！虽然卖相可能很差，但应该还是可以吃的……",
+			say = "为了迎接{dorm3d}的到来，天狼星今天努力为您准备了充满天狼星爱意的点心……！虽然卖相可能很差，但应该还是可以吃的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

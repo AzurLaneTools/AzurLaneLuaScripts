@@ -1,16 +1,19 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DTOUCH1404",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DTOUCH1404",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "天狼星",
-			say = "莫非主人是对这里情有独钟吗？",
+			actorName = 20220,
+			say = "莫非{dorm3d}是对这里情有独钟吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

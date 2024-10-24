@@ -15992,6 +15992,15 @@ _G.pg.base.gametip.music_main = {
 _G.pg.base.gametip.music_juus = {
 	tip = {
 		{
+			info = [[
+「啾信」说明：
+1.角色会通过私人或频道发起聊天
+2.当有新的「啾信」可以查看时，入口处会有提示
+3.在触发了同一个角色/频道的多条话题时，可以通过切换话题查看并进行不同的聊天选择
+4.可将不想错过的聊天窗口标注为特别关注，同时可将私人聊天背景更换为当前已拥有的该角色皮肤
+]]
+		},
+		{
 			info = "「JUUs」说明："
 		},
 		{
@@ -31683,10 +31692,10 @@ _G.pg.base.gametip.shipyard_phase_1 = {
 		{
 			info = [[
 活动简介：
-<color=#92fc63>10.25-11.9/24时</color>期间开启「皇家财富的秘密船厂」活动的第二阶段。
+<color=#92fc63>10.24-11.7维护</color>期间开启「皇家财富的秘密船厂」活动。
 活动期间完成「秘密船厂」建造阶段的所有任务，即可参加第二阶段活动。
-活动期间，11月1日为止每日解锁一关游戏关卡，并增加<color=#92fc63>1</color>次可获得奖励的游玩次数。
-拥有可获得奖励的游玩次数时，完成游戏关卡可获得<color=#92fc63>道具奖励。</color>
+活动期间，10月30日为止每日解锁一组活动任务。
+第二阶段活动中，完成游戏关卡可获得<color=#92fc63>道具奖励。</color>
 完成全部7个游戏关卡后，可获得<color=#92fc63>限定家具「启航的冒险船」x1</color>并可自由选择任意关卡通关]]
 		}
 	}
@@ -31709,7 +31718,7 @@ _G.pg.base.gametip.shipyard_button_2 = {
 
 
 _G.pg.base.gametip.shipyard_introduce = {
-	tip = "10月25日为止，每天零点解锁2个任务\n完成七日活动任务，可获得限定装备<color=#ff9892>「飓风旗」 </color>"
+	tip = "10月30日为止，每天零点解锁2个任务\n完成七日活动任务，可获得限定装备<color=#ff9892>「飓风旗」 </color>"
 }
 
 
@@ -35559,4 +35568,186 @@ _G.pg.base.gametip.dorm3d_purchase_weekly_limit = {
 
 _G.pg.base.gametip.world_file_tip = {
 	tip = "※上下滑动查看，点击空白处关闭"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_part1 = {
+	tip = "上篇"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_part2 = {
+	tip = "下篇"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_sp = {
+	tip = "SP"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_ex = {
+	tip = "EX"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_title = {
+	tip = "筛选"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_tip1 = {
+	tip = "全部"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_tip2 = {
+	tip = "已回复"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_tip3 = {
+	tip = "未回复"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_tip4 = {
+	tip = "私人聊天"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_tip5 = {
+	tip = "频道聊天"
+}
+
+
+_G.pg.base.gametip.juuschat_label1 = {
+	tip = "使用中"
+}
+
+
+_G.pg.base.gametip.juuschat_label2 = {
+	tip = "查看中"
+}
+
+
+_G.pg.base.gametip.juuschat_chattip1 = {
+	tip = "[语音消息]"
+}
+
+
+_G.pg.base.gametip.juuschat_chattip2 = {
+	tip = "[红包]"
+}
+
+
+_G.pg.base.gametip.juuschat_chattip3 = {
+	tip = "[等待回复]"
+}
+
+
+_G.pg.base.gametip.juuschat_reddot_title = {
+	tip = "啾信功能"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_subtitle1 = {
+	tip = "查看"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_subtitle2 = {
+	tip = "类型"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_subtitle3 = {
+	tip = "阵营"
+}
+
+
+_G.pg.base.gametip.juuschat_redpacket_detail = {
+	tip = "领取详情"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_empty = {
+	tip = "筛选结果为空"
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_title = {
+	tip = "你希望她称呼你为"
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_cd = {
+	tip = "$1后可以再次修改专属称呼"
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_interval = {
+	tip = "专属称呼每48小时可以修改一次"
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_waring1 = {
+	tip = "当前称呼存在屏蔽字"
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_waring2 = {
+	tip = "当前称呼过长"
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_waring3 = {
+	tip = "当前称呼过短"
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_waring4 = {
+	tip = "修改冷却中"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_gift_owned = {
+	tip = "购买次数已达上限"
+}
+
+
+_G.pg.base.gametip.BoatAdGame_minigame_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/boatadgame_minigame_help"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.activity_1024_memory = {
+	tip = "道具数量不足，完成活动任务可获取「鬼怪故事页」"
+}
+
+
+_G.pg.base.gametip.activity_1024_memory_get = {
+	tip = " - 已领取 -"
 }

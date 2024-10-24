@@ -7,9 +7,12 @@ return {
 	hideRecord = true,
 	mode = 2,
 	id = "DORM3DDAILYCONVERSATION24",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
@@ -64,7 +67,7 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -76,12 +79,12 @@ return {
 			}
 		},
 		{
-			actorName = "天狼星",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "虽然早就将主人您的身影牢牢记在脑海之中了，但偶尔还是会情不自禁盯着您看呢……///",
+			say = "虽然早就将{dorm3d}您的身影牢牢记在脑海之中了，但偶尔还是会情不自禁盯着您看呢……///",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
