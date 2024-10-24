@@ -319,7 +319,7 @@ return {
 			actor = 9600090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "风太大了，你们的旗舰好像比较稳，我可能去你们那里避雨么？",
+			say = "风太大了，你们的旗舰好像比较稳，我可以去你们那里避雨么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

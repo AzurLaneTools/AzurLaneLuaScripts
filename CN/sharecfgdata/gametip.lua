@@ -35751,3 +35751,13 @@ _G.pg.base.gametip.activity_1024_memory = {
 _G.pg.base.gametip.activity_1024_memory_get = {
 	tip = " - 已领取 -"
 }
+
+
+_G.pg.base.gametip.juuschat_background_tip1 = {
+	tip = "未拥有"
+}
+
+
+_G.pg.base.gametip.juuschat_background_tip2 = {
+	tip = "暂未拥有此换装"
+}

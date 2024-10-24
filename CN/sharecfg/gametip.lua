@@ -26600,5 +26600,15 @@ cs.gametip = {
 		959786,
 		102,
 		true
+	},
+	juuschat_background_tip1 = {
+		959888,
+		97,
+		true
+	},
+	juuschat_background_tip2 = {
+		959985,
+		109,
+		true
 	}
 }
