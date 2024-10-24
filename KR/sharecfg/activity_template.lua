@@ -24796,6 +24796,7 @@ pg.activity_template = {
 	},
 	[5583] = {
 		mark = 20240926,
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
@@ -24833,13 +24834,57 @@ pg.activity_template = {
 				20631
 			}
 		},
+		page_info = {
+			class_name = "JavelinDressSkinPage",
+			ui_name = "JavelinDressSkinPage"
+		}
+	},
+	[5585] = {
+		mark = 20241010,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 49,
+		config_client = "",
+		title_res_tag = "jifu_skin",
+		id = 5585,
+		config_data = {
+			{
+				20632,
+				20633
+			},
+			{
+				20634,
+				20635
+			},
+			{
+				20636,
+				20637
+			},
+			{
+				20638,
+				20639
+			},
+			{
+				20640,
+				20641
+			},
+			{
+				20642,
+				20643
+			},
+			{
+				20644,
+				20645
+			}
+		},
 		time = {
 			"timer",
 			{
 				{
 					2024,
 					10,
-					10
+					24
 				},
 				{
 					0,
@@ -24850,8 +24895,8 @@ pg.activity_template = {
 			{
 				{
 					2024,
-					10,
-					24
+					11,
+					7
 				},
 				{
 					23,
@@ -24861,8 +24906,8 @@ pg.activity_template = {
 			}
 		},
 		page_info = {
-			class_name = "JavelinDressSkinPage",
-			ui_name = "JavelinDressSkinPage"
+			class_name = "SaDingSkinPage",
+			ui_name = "SaDingSkinPage"
 		}
 	},
 	[7004] = {
@@ -26136,7 +26181,7 @@ pg.activity_template = {
 		type = 89,
 		login_pop = 99,
 		config_id = 0,
-		is_show = 49,
+		is_show = 48,
 		config_client = "",
 		title_res_tag = "dorm3D_Sign-in1",
 		id = 7501,
@@ -29598,7 +29643,7 @@ pg.activity_template = {
 		}
 	},
 	[20135] = {
-		mark = 20220818,
+		mark = 20241024,
 		page_info = "",
 		type = 0,
 		login_pop = 0,
@@ -29612,9 +29657,9 @@ pg.activity_template = {
 			"timer",
 			{
 				{
-					2021,
-					12,
-					17
+					2024,
+					10,
+					25
 				},
 				{
 					0,
@@ -29624,9 +29669,9 @@ pg.activity_template = {
 			},
 			{
 				{
-					2021,
-					12,
-					26
+					2024,
+					11,
+					3
 				},
 				{
 					23,
@@ -33905,6 +33950,7 @@ pg.activity_template = {
 			5551,
 			5581,
 			5583,
+			5585,
 			6000,
 			6001,
 			6002,
@@ -35416,6 +35462,7 @@ pg.activity_template = {
 		5581,
 		5582,
 		5583,
+		5585,
 		7004,
 		7005,
 		7006,

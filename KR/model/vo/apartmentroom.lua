@@ -95,7 +95,7 @@ slot0.getDownloadNeedSize = function(slot0)
 	slot1, slot2 = slot0:getDownloadNameList()
 	slot4, slot5 = DormGroupConst.CalcDormListSize(table.mergeArray(slot1, slot2))
 
-	return slot1, slot2
+	return slot4, slot5
 end
 
 slot0.getState = function(slot0)
