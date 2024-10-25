@@ -1082,7 +1082,7 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "「掟約」のテンペスタ",
+			factiontag = "「鹿角」のテンペスタ",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",

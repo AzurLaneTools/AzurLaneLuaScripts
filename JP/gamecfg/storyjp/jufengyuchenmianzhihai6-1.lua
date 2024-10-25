@@ -204,7 +204,7 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "「掟約」のテンペスタ",
+			factiontag = "「鹿角」のテンペスタ",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",

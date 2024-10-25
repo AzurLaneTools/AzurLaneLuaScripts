@@ -12,13 +12,14 @@ slot2 = {
 slot3 = 60
 slot4 = "ui/eatfoodgameui_atlas"
 slot5 = 67
-slot6 = 4
-slot7 = 3
-slot8 = {
+slot6 = nil
+slot7 = 4
+slot8 = 3
+slot9 = {
 	0,
 	630
 }
-slot9 = {
+slot10 = {
 	150,
 	120,
 	100,
@@ -35,7 +36,7 @@ slot9 = {
 	100,
 	70
 }
-slot10 = {
+slot11 = {
 	8,
 	10,
 	15,
@@ -55,7 +56,7 @@ slot10 = {
 	18,
 	20
 }
-slot11 = {
+slot12 = {
 	{
 		-50,
 		50
@@ -117,31 +118,31 @@ slot11 = {
 		90
 	}
 }
-slot12 = 400
-slot13 = 0
-slot14 = "event touch"
-slot15 = {
+slot13 = 400
+slot14 = 0
+slot15 = "event touch"
+slot16 = {
 	35,
 	100
 }
-slot16 = {
+slot17 = {
 	300,
 	10
 }
-slot17 = {
+slot18 = {
 	"add_1",
 	"add_2"
 }
-slot18 = {
+slot19 = {
 	1000
 }
-slot19 = {
+slot20 = {
 	-100
 }
-slot20 = {
+slot21 = {
 	"sub_1"
 }
-slot21 = {
+slot22 = {
 	{
 		126,
 		530,
@@ -158,22 +159,22 @@ slot21 = {
 		3
 	}
 }
-slot22 = {
+slot23 = {
 	300,
 	10,
 	-100
 }
-slot23 = {
+slot24 = {
 	"add_1",
 	"add_2",
 	"sub_1"
 }
-slot24 = 0.8
-slot25 = 0.05
-slot26 = 1.4
-slot27 = 100
+slot25 = 0.8
+slot26 = 0.05
+slot27 = 1.4
+slot28 = 100
 
-slot28 = function(slot0, slot1)
+slot29 = function(slot0, slot1)
 	slot2 = {
 		ctor = function (slot0)
 			slot0._tf = uv0
@@ -197,13 +198,13 @@ slot28 = function(slot0, slot1)
 		end,
 		step = function (slot0)
 			if slot0.nextSliderTime then
-				slot0.nextSliderTime = slot0.nextSliderTime - Time.deltaTime
+				slot0.nextSliderTime = slot0.nextSliderTime - uv0
 
 				if slot0.nextSliderTime <= 0 then
 					slot0:setSliderBarVisible(true)
 					slot0:startSliderBar()
 
-					slot0.nextSliderTime = slot0.nextSliderTime + uv0
+					slot0.nextSliderTime = slot0.nextSliderTime + uv1
 				end
 			end
 
@@ -211,7 +212,7 @@ slot28 = function(slot0, slot1)
 				slot0.sliderTouchPos.y = slot0.sliderTouchPos.y + slot0.speed
 				slot0.sliderTouch.anchoredPosition = slot0.sliderTouchPos
 
-				if uv1[2] < slot0.sliderTouchPos.y then
+				if uv2[2] < slot0.sliderTouchPos.y then
 					slot0:touch(false)
 				end
 			end
@@ -335,13 +336,13 @@ slot0.initData = function(slot0)
 		slot1 = 60
 	end
 
-	slot0.stepCount = 1 / slot1
+	slot0.stepCount = 1 / slot1 * 0.9
 	slot0.realTimeStartUp = Time.realtimeSinceStartup
 	slot0.timer = Timer.New(function ()
 		if uv0.stepCount < Time.realtimeSinceStartup - uv0.realTimeStartUp then
-			uv0.realTimeStartUp = Time.realtimeSinceStartup
-
 			uv0:onTimer()
+
+			uv0.realTimeStartUp = Time.realtimeSinceStartup
 		end
 	end, 1 / slot1, -1)
 end
@@ -477,8 +478,9 @@ slot0.onTimer = function(slot0)
 end
 
 slot0.gameStep = function(slot0)
-	slot0.gameTime = slot0.gameTime - Time.deltaTime
-	slot0.gameStepTime = slot0.gameStepTime + Time.deltaTime
+	uv0 = Time.realtimeSinceStartup - slot0.realTimeStartUp
+	slot0.gameTime = slot0.gameTime - uv0
+	slot0.gameStepTime = slot0.gameStepTime + uv0
 
 	if slot0.gameTime < 0 then
 		slot0.gameTime = 0
@@ -499,6 +501,8 @@ end
 
 slot0.timerStart = function(slot0)
 	if not slot0.timer.running then
+		slot0.realTimeStartUp = Time.realtimeSinceStartup
+
 		slot0.timer:Start()
 	end
 end

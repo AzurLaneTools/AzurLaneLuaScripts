@@ -1,5 +1,5 @@
 slot0 = class("BoatAdGamePopUI")
-slot1 = nil
+slot1, slot2 = nil
 
 slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._tf = slot1
@@ -67,8 +67,6 @@ slot0.initSettlementUI = function(slot0)
 	end, SFX_CANCEL)
 end
 
-slot2 = nil
-
 slot0.initAdWindow = function(slot0)
 	slot0.adUI = findTF(slot0._tf, "pop/AdUI")
 
@@ -79,6 +77,7 @@ slot0.initAdWindow = function(slot0)
 	slot0.btnStop = findTF(slot0.adUI, "ad/movie/btnStop")
 	slot0.btnRepeat = findTF(slot0.adUI, "ad/movie/btnRepeat")
 
+	setActive(slot0.btnRepeat, false)
 	onButton(slot0._event, findTF(slot0.adUI, "ad/bottom"), function ()
 		if uv0 and Time.realtimeSinceStartup - uv0 < 1 then
 			return
@@ -90,18 +89,12 @@ slot0.initAdWindow = function(slot0)
 			return
 		end
 
-		if uv1.playHandle then
-			uv1.playHandle()
-
-			uv1.playHandle = nil
-		end
-
 		setActive(uv1.adUI, false)
 		uv1:clearMovie()
 		uv1._event:emit(BoatAdGameEvent.CLOSE_AD_UI)
 	end, SFX_CANCEL)
 	onButton(slot0._event, findTF(slot0.adUI, "ad/bgClose"), function ()
-		if uv0 and Time.realtimeSinceStartup - uv0 < 1 then
+		if uv0 and Time.realtimeSinceStartup - uv0 < 2 then
 			return
 		end
 
@@ -111,29 +104,18 @@ slot0.initAdWindow = function(slot0)
 			return
 		end
 
-		if uv1.playHandle then
-			uv1.playHandle()
-
-			uv1.playHandle = nil
-		end
-
 		setActive(uv1.adUI, false)
 		uv1:clearMovie()
 		uv1._event:emit(BoatAdGameEvent.CLOSE_AD_UI)
 	end, SFX_CANCEL)
-	onButton(slot0._event, slot0.btnPlay, function ()
-	end)
-	onButton(slot0._event, slot0.btnStop, function ()
-	end)
 	onButton(slot0._event, slot0.btnRepeat, function ()
-		if uv0 and Time.realtimeSinceStartup - uv0 < 1 then
+		if uv0 and Time.realtimeSinceStartup - uv0 < 2 then
 			return
 		end
 
 		uv0 = Time.realtimeSinceStartup
 
 		if uv1.mvManaCpkUI and uv1.mvCompleteFlag then
-			print("重新播放")
 			uv1:loadMv()
 		end
 	end)
@@ -159,6 +141,7 @@ slot0.loadMv = function(slot0)
 	end
 
 	slot0.isLoading = true
+	slot0.mvCompleteFlag = false
 	slot2 = PoolMgr.GetInstance()
 
 	slot2:GetUI("BoatAdMvUI", true, function (slot0)
@@ -168,14 +151,9 @@ slot0.loadMv = function(slot0)
 
 		uv0.mvManaCpkUI:SetPlayEndHandler(System.Action(function ()
 			uv0:mvComplete()
-
-			if uv0.playHandle then
-				uv0.playHandle()
-
-				uv0.playHandle = nil
-			end
 		end))
-		uv0.mvManaCpkUI.player:SetVolume(PlayerPrefs.GetFloat("bgm_vol", DEFAULT_BGMVOLUME))
+		uv0.mvManaCpkUI:PlayCpk()
+		uv0.mvManaCpkUI.player:SetVolume(PlayerPrefs.GetFloat("bgm_vol", DEFAULT_BGMVOLUME) or 1)
 		setActive(uv0.btnPlay, false)
 		setActive(uv0.btnStop, true)
 		setActive(uv0.btnRepeat, false)
@@ -188,10 +166,6 @@ slot0.loadMv = function(slot0)
 			setParent(uv0.mvGo, uv0.mvContent)
 			setActive(uv0.mvGo, true)
 		end
-
-		uv0.mvCompleteFlag = false
-
-		uv0.mvManaCpkUI:PlayCpk()
 	end)
 end
 
@@ -201,10 +175,6 @@ slot0.mvComplete = function(slot0)
 	slot0.mvCompleteFlag = true
 
 	slot0:onPlayerEnd()
-
-	if slot0.mvIndex == slot0.nday then
-		-- Nothing
-	end
 end
 
 slot0.onPlayerEnd = function(slot0)
@@ -227,6 +197,9 @@ end
 
 slot0.oepnAd = function(slot0)
 	setActive(slot0.adUI, true)
+
+	uv0 = Time.realtimeSinceStartup
+
 	slot0:loadMv()
 end
 

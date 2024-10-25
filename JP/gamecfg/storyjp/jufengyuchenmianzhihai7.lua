@@ -106,14 +106,10 @@ return {
 			}
 		},
 		{
-			side = 2,
-			bgName = "star_level_bg_504",
-			factiontag = "「掟約」のテンペスタ",
-			dir = 1,
-			actor = 9600040,
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "ん？新人？ついに新人が入ったの？",
+			bgName = "star_level_bg_504",
+			factiontag = "「幽霊」のテンペスタ",
+			dir = 1,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +146,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "寻宝猎人",
+			factiontag = "トレジャー・ハンター",
 			dir = 1,
 			actor = 9600100,
 			nameColor = "#A9F548FF",
@@ -162,14 +158,10 @@ return {
 			}
 		},
 		{
-			side = 2,
-			bgName = "star_level_bg_504",
-			factiontag = "「掟約」のテンペスタ",
-			dir = 1,
-			actor = 9600040,
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "そうそう、私も名前を聞いたことがある！まさかウィダーみたいに小さい子だったとは…",
+			bgName = "star_level_bg_504",
+			factiontag = "「幽霊」のテンペスタ",
+			dir = 1,
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +213,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "「掟約」のテンペスタ",
+			factiontag = "「鹿角」のテンペスタ",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
@@ -279,7 +271,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "「掟約」のテンペスタ",
+			factiontag = "「鹿角」のテンペスタ",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",

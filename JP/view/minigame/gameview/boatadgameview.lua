@@ -38,17 +38,17 @@ slot0.initData = function(slot0)
 	uv0.Init(slot0:GetMGData().id, slot0:GetMGHubData().id)
 	uv0.SetGameTpl(findTF(slot0._tf, "tpl"))
 
-	if uv0.frameRate > 60 then
+	if Application.targetFrameRate > 60 then
 		slot1 = 60
 	end
 
-	slot0.stepCount = 1 / slot1
+	slot0.stepCount = 1 / slot1 * 0.9
 	slot0.realTimeStartUp = Time.realtimeSinceStartup
 	slot0.timer = Timer.New(function ()
 		if uv0.stepCount < Time.realtimeSinceStartup - uv0.realTimeStartUp then
-			uv0.realTimeStartUp = Time.realtimeSinceStartup
-
 			uv0:onTimer()
+
+			uv0.realTimeStartUp = Time.realtimeSinceStartup
 		end
 	end, 1 / slot1, -1)
 end
@@ -270,12 +270,16 @@ end
 
 slot0.timerStart = function(slot0)
 	if not slot0.timer.running then
+		slot0.realTimeStartUp = Time.realtimeSinceStartup
+
 		slot0.timer:Start()
 	end
 end
 
 slot0.timerResume = function(slot0)
 	if not slot0.timer.running then
+		slot0.realTimeStartUp = Time.realtimeSinceStartup
+
 		slot0.timer:Start()
 	end
 
@@ -291,10 +295,7 @@ slot0.timerStop = function(slot0)
 end
 
 slot0.stepRunTimeData = function(slot0)
-	if Time.deltaTime > 0.016 then
-		slot1 = 0.016
-	end
-
+	slot1 = Time.realtimeSinceStartup - slot0.realTimeStartUp
 	uv0.gameTime = uv0.gameTime - slot1
 	uv0.gameStepTime = uv0.gameStepTime + slot1
 	uv0.deltaTime = slot1
