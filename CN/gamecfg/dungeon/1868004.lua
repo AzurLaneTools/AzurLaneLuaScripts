@@ -436,11 +436,11 @@ return {
 				}
 			},
 			{
-				configId = 900461,
+				configId = 900462,
 				level = 100,
-				skinId = 9600010,
+				skinId = 9600040,
 				id = 2,
-				tmpID = 900461,
+				tmpID = 900462,
 				equipment = {
 					false,
 					false,
@@ -461,15 +461,11 @@ return {
 				},
 				skills = {
 					{
-						id = 16180,
+						id = 17160,
 						level = 10
 					},
 					{
-						id = 16190,
-						level = 10
-					},
-					{
-						id = 29962,
+						id = 30132,
 						level = 10
 					}
 				}
@@ -563,11 +559,11 @@ return {
 				}
 			},
 			{
-				configId = 900464,
+				configId = 900463,
 				level = 100,
-				skinId = 9600030,
+				skinId = 9600020,
 				id = 2,
-				tmpID = 900464,
+				tmpID = 900463,
 				equipment = {
 					false,
 					false,
@@ -588,15 +584,11 @@ return {
 				},
 				skills = {
 					{
-						id = 17240,
+						id = 17190,
 						level = 10
 					},
 					{
-						id = 17250,
-						level = 10
-					},
-					{
-						id = 30152,
+						id = 17200,
 						level = 10
 					},
 					{

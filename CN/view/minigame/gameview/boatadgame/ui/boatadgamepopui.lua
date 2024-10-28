@@ -79,7 +79,7 @@ slot0.initAdWindow = function(slot0)
 
 	setActive(slot0.btnRepeat, false)
 	onButton(slot0._event, findTF(slot0.adUI, "ad/bottom"), function ()
-		if uv0 and Time.realtimeSinceStartup - uv0 < 1 then
+		if uv0 and Time.realtimeSinceStartup - uv0 < 3 then
 			return
 		end
 
@@ -94,7 +94,7 @@ slot0.initAdWindow = function(slot0)
 		uv1._event:emit(BoatAdGameEvent.CLOSE_AD_UI)
 	end, SFX_CANCEL)
 	onButton(slot0._event, findTF(slot0.adUI, "ad/bgClose"), function ()
-		if uv0 and Time.realtimeSinceStartup - uv0 < 2 then
+		if uv0 and Time.realtimeSinceStartup - uv0 < 3 then
 			return
 		end
 
@@ -109,7 +109,7 @@ slot0.initAdWindow = function(slot0)
 		uv1._event:emit(BoatAdGameEvent.CLOSE_AD_UI)
 	end, SFX_CANCEL)
 	onButton(slot0._event, slot0.btnRepeat, function ()
-		if uv0 and Time.realtimeSinceStartup - uv0 < 2 then
+		if uv0 and Time.realtimeSinceStartup - uv0 < 3 then
 			return
 		end
 
@@ -142,20 +142,23 @@ slot0.loadMv = function(slot0)
 
 	slot0.isLoading = true
 	slot0.mvCompleteFlag = false
+
+	setActive(slot0.btnPlay, false)
+	setActive(slot0.btnStop, false)
+	setActive(slot0.btnRepeat, false)
+
 	slot2 = PoolMgr.GetInstance()
 
 	slot2:GetUI("BoatAdMvUI", true, function (slot0)
 		uv0.mvGo = slot0
 		uv0.mvName = uv1
 		uv0.mvManaCpkUI = GetComponent(findTF(uv0.mvGo, "video/cpk"), typeof(CriManaCpkUI))
-		slot1 = uv0.mvManaCpkUI
 
-		slot1:SetPlayEndHandler(System.Action(function ()
+		uv0.mvManaCpkUI:SetPlayEndHandler(System.Action(function ()
 			uv0:mvComplete()
 		end))
-		setActive(uv0.btnPlay, false)
-		setActive(uv0.btnStop, true)
-		setActive(uv0.btnRepeat, false)
+		uv0.mvManaCpkUI:PlayCpk()
+		uv0.mvManaCpkUI.player:SetVolume(PlayerPrefs.GetFloat("bgm_vol", DEFAULT_BGMVOLUME) or 1)
 
 		if uv0.isLoading == false then
 			uv0:clearMovie()
@@ -165,15 +168,10 @@ slot0.loadMv = function(slot0)
 			setParent(uv0.mvGo, uv0.mvContent)
 			setActive(uv0.mvGo, true)
 		end
-
-		uv0.mvManaCpkUI:PlayCpk()
-		uv0.mvManaCpkUI.player:SetVolume(PlayerPrefs.GetFloat("bgm_vol", DEFAULT_BGMVOLUME) or 1)
 	end)
 end
 
 slot0.mvComplete = function(slot0)
-	print("播放完成")
-
 	slot0.mvCompleteFlag = true
 
 	slot0:onPlayerEnd()
