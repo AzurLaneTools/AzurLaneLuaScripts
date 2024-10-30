@@ -13386,7 +13386,7 @@ _G.pg.base.item_data_statistics[18127] = {
 	open_directly = 0,
 	name = "T3 Ordnance Testing Report",
 	type = 2,
-	display = "A field performance report on a top secret piece of ordnance. Used in the<color=#92fc63>Gear Laboratory</color>.",
+	display = "A field performance report on a top secret piece of ordnance. Used in the <color=#92fc63>Gear Laboratory</color>.",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",

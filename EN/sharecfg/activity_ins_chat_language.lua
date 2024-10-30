@@ -2040,7 +2040,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	{
-		param = "You TASTED it?",
+		param = "Only a little.",
 		ship_group = 960008,
 		option = "",
 		type = 1,
@@ -4430,7 +4430,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	{
-		param = "That's okay, I'll just go you and you can show me how",
+		param = "That's okay, I'll just go see you and you can show me how",
 		ship_group = 960011,
 		option = "",
 		type = 1,
