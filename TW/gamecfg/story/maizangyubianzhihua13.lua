@@ -1025,7 +1025,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不過……提出這個想法的並非吾，而是$1閣下。",
+			say = "不過……提出這個想法的並非吾，而是{playername}閣下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
