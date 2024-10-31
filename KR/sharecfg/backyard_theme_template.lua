@@ -3400,7 +3400,7 @@ pg.backyard_theme_template = {
 	},
 	[91] = {
 		Cfg_1 = 5,
-		name = "쥬쥬 댄스 룸",
+		name = "쥬쥬 댄스실",
 		desc = "음악에 맞춰 춤추는 거다쥬쥬!",
 		deblocking = 1,
 		new = 0,
