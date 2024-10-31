@@ -119,6 +119,8 @@ slot0.Ctor = function(slot0)
 		"channel",
 		"painting/mat",
 		"ui/commonui_atlas",
+		"ui/share/msgbox_atlas",
+		"ui/share/world_common_atlas",
 		"skinicon",
 		"attricon"
 	}
@@ -293,9 +295,6 @@ slot7 = {
 	"ItemInfoUI",
 	"ShipDetailView",
 	"LevelFleetSelectView",
-	"ToastUI",
-	"MsgBox",
-	"TipPanel",
 	"Loading",
 	"WorldUI"
 }

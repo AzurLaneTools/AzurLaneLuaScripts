@@ -136,9 +136,9 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "main",
+		default_bgm = "story-roma-outside",
 		special_bgm = "",
-		bgm = "main"
+		bgm = "story-roma-outside"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
@@ -1654,5 +1654,30 @@ pg.voice_bgm = {
 		default_bgm = "story-richang-11",
 		special_bgm = "",
 		bgm = "story-richang-11"
+	},
+	YidaliV3FrameRePage = {
+		default_bgm = "story-italy",
+		special_bgm = "",
+		bgm = "story-italy"
+	},
+	Yidaliv3LoginRePage = {
+		default_bgm = "battle-boss-italy",
+		special_bgm = "",
+		bgm = "battle-boss-italy"
+	},
+	YidaliV3MainRePage = {
+		default_bgm = "story-roma-inside",
+		special_bgm = "",
+		bgm = "story-roma-inside"
+	},
+	YidaliV3PtRePage = {
+		default_bgm = "story-roma-outside",
+		special_bgm = "",
+		bgm = "story-roma-outside"
+	},
+	YidaliV3SkinRePage = {
+		default_bgm = "story-italy",
+		special_bgm = "",
+		bgm = "story-italy"
 	}
 }

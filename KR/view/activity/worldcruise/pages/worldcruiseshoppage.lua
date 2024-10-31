@@ -123,9 +123,9 @@ slot0.UpdateSkinItem = function(slot0, slot1, slot2)
 			return
 		end
 
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			content = i18n("charge_scene_buy_confirm", uv1:GetPrice(), uv1:GetName()),
-			onYes = function ()
+		pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_COMMON_MSGBOX, {
+			contentText = i18n("charge_scene_buy_confirm", uv1:GetPrice(), uv1:GetName()),
+			onConfirm = function ()
 				if getProxy(PlayerProxy):getData():getTotalGem() < uv0:GetPrice() then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
@@ -161,29 +161,36 @@ slot0.UpdateEquipSkinItem = function(slot0, slot1, slot2)
 			return
 		end
 
-		slot0 = uv1.contextData.windowForESkin
+		pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_COMMON_DROP, {
+			drop = uv3,
+			btnList = {
+				{
+					type = pg.NewStyleMsgboxMgr.BUTTON_TYPE.cancel,
+					name = i18n("msgbox_text_cancel"),
+					sound = SFX_CANCEL
+				},
+				{
+					type = pg.NewStyleMsgboxMgr.BUTTON_TYPE.confirm,
+					name = i18n("text_exchange"),
+					func = function ()
+						if uv0.remainCnt <= 0 then
+							pg.TipsMgr.GetInstance():ShowTips(i18n("cruise_limit_count"))
 
-		slot0:ExecuteAction("Open", uv2, function (slot0, slot1, slot2)
-			if uv0.remainCnt <= 0 then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("cruise_limit_count"))
+							return
+						end
 
-				return
-			end
+						if getProxy(PlayerProxy):getData():getTotalGem() < uv1:GetPrice() then
+							pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
-			if not uv1 then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("buy_countLimit"))
+							return
+						end
 
-				return
-			end
-
-			if getProxy(PlayerProxy):getData():getTotalGem() < slot0:GetPrice() * slot1 then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
-
-				return
-			end
-
-			uv0:emit(WorldCruiseMediator.ON_CRUISE_SHOPPING, slot0.id, slot1)
-		end)
+						uv0:emit(WorldCruiseMediator.ON_CRUISE_SHOPPING, uv1.id, 1)
+					end,
+					sound = SFX_CONFIRM
+				}
+			}
+		})
 	end, SFX_CONFIRM)
 end
 

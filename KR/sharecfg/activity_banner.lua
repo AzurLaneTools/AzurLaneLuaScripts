@@ -1,16 +1,51 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "5585",
-		type = 3,
+		type = 2,
 		id = 1,
 		pic = "temp1",
+		param = {
+			"scene skinshop",
+			{}
+		},
 		time = {
 			{
 				{
 					2024,
 					10,
-					24
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "5597",
+		type = 3,
+		id = 2,
+		pic = "temp2",
+		time = {
+			{
+				{
+					2024,
+					10,
+					31
 				},
 				{
 					0,
@@ -23,40 +58,6 @@ pg.activity_banner = {
 					2024,
 					11,
 					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 2,
-		pic = "temp2",
-		param = {
-			"scene dailylevel"
-		},
-		time = {
-			{
-				{
-					2024,
-					10,
-					25
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					11,
-					3
 				},
 				{
 					23,
@@ -69,12 +70,12 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 3,
-		pic = "temp5",
+		pic = "temp3",
 		param = {
-			"scene equip",
+			"scene get boat",
 			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
+				projectName = "new",
+				page = 1
 			}
 		},
 		time = {
@@ -82,7 +83,7 @@ pg.activity_banner = {
 				{
 					2024,
 					10,
-					24
+					31
 				},
 				{
 					0,
@@ -105,42 +106,92 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 4,
-		pic = "temp6",
+		pic = "temp4",
+		param = {
+			"scene court yard"
+		},
+		time = {
+			{
+				{
+					2024,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 5,
+		pic = "temp5",
 		param = {
 			"scene charge",
 			{
 				wrap = 2
 			}
-		}
-	},
-	{
-		time = "stop",
-		type = 2,
-		id = 5,
-		pic = "temp7",
-		param = {
-			"scene charge",
+		},
+		time = {
 			{
-				wrap = 2
+				{
+					2024,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
 	{
 		type = 2,
 		id = 6,
-		pic = "temp3",
+		pic = "temp6",
 		param = {
-			"dorm 3d select"
+			"scene shop",
+			{
+				warp = "shopstreet"
+			}
 		},
 		time = {
 			{
 				{
 					2024,
 					10,
-					10
+					31
 				},
 				{
 					0,
@@ -151,8 +202,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					10,
-					31
+					11,
+					6
 				},
 				{
 					23,
@@ -163,19 +214,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "5604",
+		type = 3,
 		id = 7,
-		pic = "temp4",
-		param = {
-			"crusing",
-			{}
-		},
+		pic = "temp7",
 		time = {
 			{
 				{
 					2024,
 					10,
-					8
+					31
 				},
 				{
 					0,
@@ -186,8 +234,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					10,
-					31
+					11,
+					7
 				},
 				{
 					23,
@@ -198,28 +246,106 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
-		type = 2,
+		param = "5593",
+		type = 3,
 		id = 8,
 		pic = "temp8",
-		param = {
-			"crusing",
-			{}
+		time = {
+			{
+				{
+					2024,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					11,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
-		param = "5583",
-		time = "stop",
-		type = 3,
+		type = 2,
 		id = 9,
-		pic = "temp9"
+		pic = "temp9",
+		param = {
+			"scene level",
+			{
+				open_remaster = true,
+				isEX = true
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					11,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[90] = {
 		param = "",
-		time = "stop",
 		type = 9,
 		id = 90,
-		pic = "temp99"
+		pic = "temp99",
+		time = {
+			{
+				{
+					2024,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[91] = {
 		param = "",
@@ -237,10 +363,35 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
-		time = "stop",
 		type = 12,
 		id = 99,
-		pic = "limit_skin"
+		pic = "limit_skin",
+		time = {
+			{
+				{
+					2024,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					11,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[100] = {
 		param = "桂花糕|用相传从月宫里摘下来的桂花制成的糕点，香甜可口！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
@@ -264,16 +415,16 @@ pg.activity_banner = {
 		pic = "summer"
 	},
 	get_id_list_by_type = {
-		[3] = {
-			1,
-			9
-		},
 		[2] = {
-			2,
+			1,
 			3,
 			4,
 			5,
 			6,
+			9
+		},
+		[3] = {
+			2,
 			7,
 			8
 		},

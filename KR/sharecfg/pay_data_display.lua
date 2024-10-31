@@ -120,7 +120,8 @@ pg.pay_data_display = setmetatable({
 		2031,
 		2032,
 		2033,
-		2034
+		2034,
+		2035
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -9204,7 +9205,7 @@ pg.base.pay_data_display = {
 		show_group = "",
 		limit_type = 2,
 		time = "always",
-		type_order = 5,
+		type_order = 7,
 		picture = "lv_70",
 		skin_inquire_relation = 0,
 		id_str = "alkrgift38",
@@ -10384,7 +10385,7 @@ pg.base.pay_data_display = {
 		show_group = "",
 		limit_type = 4,
 		time = "always",
-		type_order = 4,
+		type_order = 6,
 		picture = "richang",
 		skin_inquire_relation = 0,
 		id_str = "alkrgift82",
@@ -11086,6 +11087,105 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40049,
+				1
+			}
+		}
+	},
+	[2035] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
+		type = 0,
+		name = "UR 지원 패키지③",
+		first_pay_double = 0,
+		name_display = "UR 지원 패키지③",
+		descrip = "스킨 선택권, 큐브, 경험치 패키지 T2 등 획득 가능",
+		subject = "UR 지원 패키지③",
+		money = 27000,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 5,
+		sub_display = "",
+		picture = "huteng_package",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift107",
+		extra_service = 3,
+		id = 2035,
+		airijp_id = "com.yostarjp.azurlane.package120",
+		extra_service_item = {
+			{
+				2,
+				59554,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				1,
+				1,
+				30000
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					10,
+					31
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					11,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59554,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40050,
 				1
 			}
 		}

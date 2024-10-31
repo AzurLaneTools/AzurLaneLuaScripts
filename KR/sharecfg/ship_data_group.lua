@@ -22811,9 +22811,20 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 역행하는 무지개 탑",
+				"이벤트: 역행하는 무지개 탑",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -23225,9 +23236,20 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 역행하는 무지개 탑",
+				"이벤트: 역행하는 무지개 탑",
 				{
 					""
+				},
+				0
+			},
+			{
+				"대형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -23727,9 +23749,31 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 역행하는 무지개 탑",
+				"이벤트: 역행하는 무지개 탑",
 				{
 					""
+				},
+				0
+			},
+			{
+				"대형함 건조, 특형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
+			},
+			{
+				"상설 UR 함선 교환",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -23889,9 +23933,20 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 역행하는 무지개 탑",
+				"이벤트: 역행하는 무지개 탑",
 				{
 					""
+				},
+				0
+			},
+			{
+				"특형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -24558,9 +24613,19 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 역행하는 무지개 탑",
+				"이벤트: 역행하는 무지개 탑",
 				{
 					""
+				},
+				0
+			},
+			{
+				"특별 보급(랜덤 출현)",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}

@@ -1693,6 +1693,11 @@ _G.pg.base.gametip.battle_battleMediator_existFight = {
 }
 
 
+_G.pg.base.gametip.battle_battleMediator_remainTime = {
+	tip = "남은 시간"
+}
+
+
 _G.pg.base.gametip.battle_battleMediator_clear_warning = {
 	tip = "챌린지 모드에서 퇴장하시겠습니까？\n퇴장 후에<color=#92fc63>도전은 초기화되며</color>，\n포인트는 해당 스테이지 시작 전까지 통계되어 합산됩니다."
 }
@@ -12374,22 +12379,22 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "기간 한정 건조를 총 200회 실시하면, 아마기(항공모함) 100% 획득 가능! (최대 4척까지)"
+	tip = "「로마」, 「레오나르도 다 빈치」 등의 등장 확률 UP!"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「비토리오 베네토」 상시 건조 추가!"
+	tip = "「울리히 폰 후텐」 상시 건조 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「두카 델리 아브루치」 등 상시 건조 추가!"
+	tip = "「마그데부르크」 상시 건조 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「아퀼라」 상시 건조 추가!"
+	tip = "「울리히 폰 후텐」 상시 건조 추가!"
 }
 
 
@@ -35389,4 +35394,9 @@ _G.pg.base.gametip.dorm3d_favor_maximize = {
 
 _G.pg.base.gametip.dorm3d_purchase_weekly_limit = {
 	tip = "（이번 주 구매 횟수 $1/$2）"
+}
+
+
+_G.pg.base.gametip.world_file_tip = {
+	tip = "※화면을 슬라이드하여 페이지를 스크롤할 수 있습니다. 화면을 탭하면 닫힙니다."
 }

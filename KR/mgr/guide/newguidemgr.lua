@@ -41,7 +41,7 @@ slot0.Init = function(slot0, slot1)
 	slot0.sceneRecords = {}
 	slot0.state = uv0
 
-	PoolMgr.GetInstance():GetUI("NewGuideUI", true, function (slot0)
+	LoadAndInstantiateAsync("ui", "NewGuideUI", function (slot0)
 		uv0._go = slot0
 		uv0._tf = uv0._go.transform
 
@@ -61,7 +61,7 @@ slot0.Init = function(slot0, slot1)
 
 		uv2(uv0, uv0._tf)
 		uv3()
-	end)
+	end, true, true)
 end
 
 slot0.PlayNothing = function(slot0)

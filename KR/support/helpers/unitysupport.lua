@@ -64,6 +64,18 @@ setText = function(slot0, slot1)
 	slot0.GetComponent(slot0, typeof(Text)).text = tostring(slot1)
 end
 
+setTextInNewStyleBox = function(slot0, slot1)
+	if not slot1 then
+		return
+	end
+
+	for slot5, slot6 in pairs(pg.NewStyleMsgboxMgr.COLOR_MAP) do
+		slot1 = string.gsub(slot1, slot5, slot6)
+	end
+
+	slot0.GetComponent(slot0, typeof(Text)).text = tostring(slot1)
+end
+
 setScrollText = function(slot0, slot1)
 	if not slot1 then
 		return
