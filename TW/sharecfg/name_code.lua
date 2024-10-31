@@ -1596,6 +1596,20 @@ pg.name_code = {
 		code = "金剛(μ兵裝)",
 		nation = 0
 	},
+	[235] = {
+		name = "皋月",
+		type = 1,
+		id = 235,
+		code = "皋月",
+		nation = 0
+	},
+	[236] = {
+		name = "彌生",
+		type = 1,
+		id = 236,
+		code = "彌生",
+		nation = 0
+	},
 	[250] = {
 		name = "伊9",
 		type = 1,

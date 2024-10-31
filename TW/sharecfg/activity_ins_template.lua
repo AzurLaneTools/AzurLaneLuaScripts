@@ -11427,51 +11427,122 @@ pg.activity_ins_template = {
 		ship_group = 40406,
 		name = "Hervör alvitr",
 		sculpture = "yaerweite_2",
-		picture_persist = "",
-		is_active = 1,
-		message_persist = "",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_479.png",
+		is_active = 0,
+		message_persist = "ins_479",
 		id = 479,
 		group_id = 479,
 		order = 41,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2024,
+				10,
+				17
+			},
+			{
+				12,
+				30,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			4613,
+			4617,
+			4620
+		}
 	},
 	[480] = {
 		ship_group = 40147,
 		name = "☆WildeKatze47☆",
 		sculpture = "z47",
-		picture_persist = "",
-		is_active = 1,
-		message_persist = "",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_480.png",
+		is_active = 0,
+		message_persist = "ins_480",
 		id = 480,
 		group_id = 480,
 		order = 41,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2024,
+				10,
+				18
+			},
+			{
+				11,
+				27,
+				21
+			}
+		},
+		npc_discuss_persist = {
+			4629,
+			4632,
+			4635
+		}
 	},
 	[481] = {
 		ship_group = 40813,
 		name = "Unbeschwert31",
 		sculpture = "u31",
-		picture_persist = "",
-		is_active = 1,
-		message_persist = "",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_481.png",
+		is_active = 0,
+		message_persist = "ins_481",
 		id = 481,
 		group_id = 481,
 		order = 41,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2024,
+				10,
+				19
+			},
+			{
+				15,
+				16,
+				21
+			}
+		},
+		npc_discuss_persist = {
+			4644,
+			4647
+		}
 	},
 	[482] = {
 		ship_group = 40143,
 		name = "Z·DEVIL·43",
 		sculpture = "z43",
-		picture_persist = "",
-		is_active = 1,
-		message_persist = "",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_482.png",
+		is_active = 0,
+		message_persist = "ins_482",
 		id = 482,
 		group_id = 482,
 		order = 41,
+		time_persist = {
+			{
+				2024,
+				10,
+				20
+			},
+			{
+				13,
+				42,
+				21
+			}
+		},
+		npc_discuss_persist = {
+			4655,
+			4660
+		}
+	},
+	[491] = {
+		ship_group = 30604,
+		name = "Zuihō",
+		sculpture = "ruifeng",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 491,
+		group_id = 491,
+		order = 42,
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
@@ -11903,6 +11974,7 @@ pg.activity_ins_template = {
 		479,
 		480,
 		481,
-		482
+		482,
+		491
 	}
 }

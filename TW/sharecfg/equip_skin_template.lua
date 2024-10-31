@@ -31023,6 +31023,168 @@ pg.equip_skin_template = {
 			"wash"
 		}
 	},
+	[4020] = {
+		hit_sfx = "",
+		bullet_name = "",
+		type = 1,
+		preview_hit_distance = 0,
+		name = "朱紅狐面",
+		miss_sfx = "",
+		desc = "戴上狐面，墜入朱紅之夢。",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_rotate = false,
+		themeid = 47,
+		orbit_combat = "shebei_zhuhongjiamian",
+		mirror = 0,
+		rarity = 4,
+		orbit_ui = "shebei_zhuhongjiamianui",
+		orbit_ui_back = 0,
+		orbit_slg = "",
+		orbit_combat_anima_change = "",
+		icon = "100072",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		id = 4020,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				0.26,
+				2.26,
+				-2.93
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				2.43,
+				-7.26
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
+	[4039] = {
+		hit_sfx = "",
+		bullet_name = "",
+		type = 1,
+		preview_hit_distance = 0,
+		name = "蒼藍狐面",
+		miss_sfx = "",
+		desc = "戴上狐面，墜入蒼藍之夢。",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_rotate = false,
+		themeid = 47,
+		orbit_combat = "shebei_qinglanhumian",
+		mirror = 0,
+		rarity = 4,
+		orbit_ui = "shebei_qinglanhumianui",
+		orbit_ui_back = 0,
+		orbit_slg = "",
+		orbit_combat_anima_change = "",
+		icon = "100073",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		id = 4039,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				0.26,
+				2.26,
+				-2.93
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				2.43,
+				-7.26
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
+	[4040] = {
+		hit_sfx = "",
+		bullet_name = "",
+		type = 1,
+		preview_hit_distance = 0,
+		name = "蒼紅狐面",
+		miss_sfx = "",
+		desc = "戴上狐面，墜入蒼紅之夢。",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_rotate = false,
+		themeid = 47,
+		orbit_combat = "shebei_canghonghumian",
+		mirror = 0,
+		rarity = 4,
+		orbit_ui = "shebei_canghonghumianui",
+		orbit_ui_back = 0,
+		orbit_slg = "",
+		orbit_combat_anima_change = "",
+		icon = "100074",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		id = 4040,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				0.26,
+				2.26,
+				-2.93
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				2.43,
+				-7.26
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
 	[4041] = {
 		hit_sfx = "",
 		bullet_name = "zidan_hanbao",
@@ -37095,6 +37257,9 @@ pg.equip_skin_template = {
 		4017,
 		4018,
 		4019,
+		4020,
+		4039,
+		4040,
 		4041,
 		4042,
 		4043,

@@ -2096,8 +2096,8 @@ pg.effect_offset = {
 		container_index = 2,
 		top_cover_offset = false,
 		offset = {
-			1.5,
-			3,
+			0,
+			-2,
 			0
 		}
 	}

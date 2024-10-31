@@ -306,6 +306,8 @@ pg.expedition_data_by_map = setmetatable({
 		1800002,
 		1800003,
 		1800004,
+		1840001,
+		1840002,
 		2100000,
 		2100001,
 		2100010,
@@ -376,6 +378,7 @@ pg.expedition_data_by_map = setmetatable({
 		2200030,
 		2200040,
 		2200050,
+		2200060,
 		2200070,
 		2200080,
 		2200090,
@@ -15912,6 +15915,158 @@ pg.base.expedition_data_by_map = {
 			}
 		}
 	},
+	[1840001] = {
+		map = 1840001,
+		name = "埋葬於彼岸之花|| ||CHAPTER EX||EX",
+		bgm = "story-nailuo-theme",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1840001",
+		ani_controller = "",
+		default_background = "star_level_bg_190",
+		on_activity = 5541,
+		cloud_suffix = "",
+		story_inactive_color = "808183",
+		ui_type = 9,
+		bg = "Map_1840001",
+		destory_icon_suffix = "blue",
+		default_bgm = "story-richang-light",
+		uifx = "",
+		bind_map = 1840001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1840001
+			},
+			{
+				1840002
+			},
+			{
+				1840003
+			},
+			{
+				1840004
+			}
+		},
+		story_id = {
+			11,
+			12,
+			13,
+			14,
+			15,
+			16,
+			17,
+			18,
+			19,
+			20,
+			21,
+			22,
+			23
+		}
+	},
+	[1840002] = {
+		map = 1840002,
+		name = "埋葬於彼岸之花·TP|| ||CHAPTER EX||EX",
+		bgm = "story-nailuo-theme",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1840001",
+		ani_controller = "",
+		default_background = "star_level_bg_190",
+		on_activity = 5541,
+		cloud_suffix = "",
+		story_inactive_color = "808183",
+		ui_type = 9,
+		bg = "Map_1840001",
+		destory_icon_suffix = "blue",
+		default_bgm = "story-richang-light",
+		uifx = "",
+		bind_map = 1840002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1840001
+			},
+			{
+				1840002
+			},
+			{
+				1840003
+			},
+			{
+				1840004
+			}
+		},
+		story_id = {
+			11,
+			12,
+			13,
+			14,
+			15,
+			16,
+			17,
+			18,
+			19,
+			20,
+			21,
+			22,
+			23
+		}
+	},
 	[2100000] = {
 		map = 2100000,
 		name = "『紅染的參訪者』-前篇|| ||CHAPTER EX||E.X.",
@@ -19235,6 +19390,55 @@ pg.base.expedition_data_by_map = {
 		default_bgm = "",
 		uifx = "",
 		bind_map = 2200051,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2200060] = {
+		map = 2200060,
+		name = "最珍貴的寶物|| ||CHAPTER SP||SP",
+		bgm = "level02",
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "ZUIZHENGUIDEBAOWU1",
+		animtor = 0,
+		guide_id = "",
+		ani_name = "",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		cloud_suffix = "purple",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1250001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 0,
 		clouds_pos = {
 			{
 				332,

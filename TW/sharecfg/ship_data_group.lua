@@ -1085,6 +1085,9 @@ pg.ship_data_group = setmetatable({
 		[30603] = {
 			220
 		},
+		[30604] = {
+			221
+		},
 		[30605] = {
 			222
 		},
@@ -2364,6 +2367,7 @@ pg.ship_data_group = setmetatable({
 			218,
 			219,
 			220,
+			221,
 			222,
 			223,
 			426,
@@ -3039,6 +3043,7 @@ pg.ship_data_group = setmetatable({
 		218,
 		219,
 		220,
+		221,
 		222,
 		223,
 		426,
@@ -19256,6 +19261,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[221] = {
+		nationality = 3,
+		type = 6,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 30604,
+		index_id = 375,
+		code = 221,
+		share_group_id = {},
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"D",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：葬於彼岸之花",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[222] = {
 		nationality = 3,
 		type = 6,
@@ -23029,6 +23066,17 @@ pg.base.ship_data_group = {
 				"限時活動：最重要的寶物",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}

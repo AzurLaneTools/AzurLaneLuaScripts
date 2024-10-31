@@ -1388,7 +1388,16 @@ temp = function()
 			["德"] = {
 				["里"] = {
 					["奇"] = {
-						this = true
+						this = true,
+						["—"] = {
+							["幼"] = {
+								["兒"] = {
+									["園"] = {
+										this = true
+									}
+								}
+							}
+						}
 					}
 				}
 			},
@@ -1987,7 +1996,16 @@ temp = function()
 		["爾"] = {
 			["薇"] = {
 				["特"] = {
-					this = true
+					this = true,
+					["—"] = {
+						["幼"] = {
+							["兒"] = {
+								["園"] = {
+									this = true
+								}
+							}
+						}
+					}
 				}
 			}
 		}
@@ -2917,7 +2935,16 @@ temp = function()
 			},
 			["公"] = {
 				["爵"] = {
-					this = true
+					this = true,
+					["—"] = {
+						["幼"] = {
+							["稚"] = {
+								["園"] = {
+									this = true
+								}
+							}
+						}
+					}
 				}
 			}
 		}
@@ -5030,6 +5057,9 @@ temp = function()
 	uv0["瑞"] = {
 		["鶴"] = {
 			this = true
+		},
+		["鳳"] = {
+			this = true
 		}
 	}
 end
@@ -5107,10 +5137,28 @@ temp = function()
 				this = true
 			},
 			["7"] = {
-				this = true
+				this = true,
+				["—"] = {
+					["幼"] = {
+						["兒"] = {
+							["園"] = {
+								this = true
+							}
+						}
+					}
+				}
 			},
 			["3"] = {
-				this = true
+				this = true,
+				["—"] = {
+					["幼"] = {
+						["兒"] = {
+							["園"] = {
+								this = true
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -5379,6 +5427,9 @@ temp = function()
 			},
 			["3"] = {
 				["7"] = {
+					this = true
+				},
+				["1"] = {
 					this = true
 				}
 			},

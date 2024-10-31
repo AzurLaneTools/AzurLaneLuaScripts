@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"埋葬于彼岸之花\n\n<size=45>扎根于往昔的执念</size>",
+					"葬於彼岸之花\n\n<size=45>6.紮根於往昔的執念</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			bgm = "nagato-boss",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:88:瑞凤}，你们没事吧！",
+			say = "瑞鳳，妳們沒事吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大、大前辈……我们没事，您快救救{namecode:85:飞鹰}和{namecode:86:隼鹰}吧！",
+			say = "大、大前輩……我們沒事，您快救救飛鷹和隼鷹吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			actor = 9706010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "头好疼……好想砍点什么东西啊！",
+			say = "頭好痛……好想砍點東西！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "世界……在燃烧……啊哈哈哈，全部都烧起来吧！",
+			say = "世界……在燃燒……啊哈哈哈，全部都燒起來吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			actor = 305110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……你的意思是，“她们”，是我们的{namecode:85:飞鹰}和{namecode:86:隼鹰}？",
+			say = "……妳的意思是，「她們」，是我們的飛鷹和隼鷹？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			actor = 305110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "冷静下来告诉我，刚才到底发生了什么事？",
+			say = "冷靜下來告訴我，剛才到底發生了什麼事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜、呜呜……是、是这样……我，我们……",
+			say = "嗚、嗚嗚……是、是這樣……我，我們……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大前辈，我们收到{namecode:84:武藏}大人的命令后，就准备先前往外海与{namecode:208:葛城}汇合，然后一同去讨伐敌人。",
+			say = "大前輩，我們收到武藏大人的命令後，就準備先前往外海與葛城匯合，然後一同去討伐敵人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是就在我们离开海岸线后不久，{namecode:85:飞鹰}和{namecode:86:隼鹰}就变得不太对劲了",
+			say = "可是就在我們離開海岸線後不久，飛鷹和隼鷹就變得不太對勁了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "她们先说，有奇怪的声音在她们耳边说话，随后说看到了……很多奇怪的身影。",
+			say = "她們先說，有奇怪的聲音在她們耳邊說話，隨後說看到了……很多奇怪的身影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:88:瑞凤}正在检查她们情况的时候，她们就突然被黑气缠身，然后变成了如今的样子。",
+			say = "瑞鳳正在檢查她們情況的時候，她們突然就被黑氣纏身，然後變成了如今的樣子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我之前随铁血舰队出航执行任务的时候，有遇到过类似的事。",
+			say = "我之前隨鐵血艦隊出航執行任務的時候，有遇過類似的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "海水之中一定存在有产生META化侵蚀的污染源……",
+			say = "海水之中一定存在有產生META化侵蝕的污染源…妳",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大前辈，我们应该立刻让所有人从海中退回港口或者陆地！",
+			say = "大前輩，我們應該立刻所有人從海中退回港口或陸地！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……{namecode:96:瑞鹤}？",
+			say = "……瑞鶴？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大、大前辈……我是因为{namecode:75:陆奥}大人生病，{namecode:74:长门}大人命令我——",
+			say = "大、大前輩……我是因為陸奧大人生病，長門大人命令我——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好了，不用解释，我明白了。我会命令所有参战部队从海中撤回来的。",
+			say = "好了，不用解釋，我明白了。我會命令所有參戰部隊從海中撤回的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "多谢大前辈的信任！",
+			say = "多謝大前輩的信任！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "然后，大前辈，我还有一个发现！",
+			say = "然後，大前輩，我還有一個發現！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在海水中的污染程度，远不如当时我参与的那次任务中见到的强。",
+			say = "現在海水中的污染程度，遠不如當時我參與的那次任務中所見到的強。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因此，{namecode:85:飞鹰}和{namecode:86:隼鹰}的实际META化程度并没有看上去那么夸张！",
+			say = "因此，飛鷹和隼鷹的實際META化程度並沒有看起來那麼誇張！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -380,7 +380,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只要尽快将她们控制下来净化污染，她们一定能变回来的！",
+			say = "只要盡快將她們控制下來淨化污染，她們一定能變回來的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……太好了！可是将她们控制下来这件事……",
+			say = "……太好了！可是將她們控制下來這件事……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大前辈，我有办法！",
+			say = "大前輩，我有辦法！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			actor = 306040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "以前{namecode:79:山城}姐姐送给过我一套一次性拘束法阵，我找找……",
+			say = "以前山城姊姊送給我一套一次性拘束法陣，我找找…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			actor = 306040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……找到了！只要驱动这个法阵，应该就能暂时压制住她们了！然后我们趁机一拥而上——打晕她们！",
+			say = "嗯……找到了！只要驅動這個法陣，應該就能暫時壓制她們了！然後我們趁機一擁而上——打暈她們！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等，就算我们能成功控制住她们，那接下来要带她们去哪里进行净化治疗呢？",
+			say = "等等，就算我們能成功控制住她們，那接下來要帶她們去哪裡進行淨化治療呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,14 +477,14 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个……",
+			say = "這個……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "通訊器",
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
@@ -504,7 +504,7 @@ return {
 			actor = 305020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:82:三笠}前辈……外面发生的事，我都看到了……",
+			say = "三笠前輩…外面發生的事，我都看到了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			actor = 305020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我那里的防护结界十分稳固，也有实施净化仪式的条件。",
+			say = "我那裡的防護結界十分穩固，也有實施淨化儀式的條件。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			actor = 305020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "麻烦……把{namecode:85:飞鹰}和{namecode:86:隼鹰}带到我这里来吧。",
+			say = "麻煩……把飛鷹和隼鷹帶到我這裡來吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "明白了，感谢你出手相助。",
+			say = "明白了，感謝妳出手相助。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			actor = 305020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……应该的。",
+			say = "……應該的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			actor = 305110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么，接下来——我们上吧！",
+			say = "那麼，接下來——我們上吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			bgm = "musashi-2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:79:山城}的宅邸，一段时间后——",
+			say = "山城的宅邸，一段時間後——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -618,7 +618,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
-			say = "众人抵达{namecode:79:山城}宅后，{namecode:79:山城}立刻对{namecode:85:飞鹰}和{namecode:86:隼鹰}执行了净化仪式。",
+			say = "眾人抵達山城宅後，山城立刻對飛鷹和隼鷹執行了淨化儀式。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_192",
 			hidePaintObj = true,
-			say = "结果确如{namecode:96:瑞鹤}所说，二人的META化程度并不严重。没过多久，二人就恢复如常了。",
+			say = "結果確如瑞鶴所說，兩人的META化程度並不嚴重。沒多久，二人恢復如常了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,7 +642,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:85:飞鹰}，{namecode:86:隼鹰}，你们没事吧，现在还难受么？",
+			say = "飛鷹，隼鷹，妳們沒事吧，現在還難受嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "感觉……像做了一场噩梦一样。",
+			say = "感覺……像做了一場惡夢一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,7 +668,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "噩梦里展现着不属于你的记忆，充斥着不属于你的情感……",
+			say = "惡夢裡展現不屬於妳的記憶，充滿不屬於妳的情感……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -681,7 +681,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是每时每刻，这些不属于你的东西都想强行挤入你的脑海，拼命想和你融为一体……",
+			say = "可是每時每刻，這些不屬於妳的東西都想強行擠入你的腦海，拼命想和你融為一體……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,7 +694,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这种感觉真是糟糕透了。",
+			say = "這種感覺真是糟糕透了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -707,7 +707,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是啊……真是糟透了。如今完成了净化之后，我就像重获了新生一样。",
+			say = "是啊……真是糟透了。如今完成了淨化之後，我就像重獲了新生一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -720,7 +720,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这种不愉快的经历，希望你们永远也不要体验到……",
+			say = "這種不愉快的經歷，希望妳們永遠不要體驗到……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -734,7 +734,7 @@ return {
 			actor = 306040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜呜呜……你们没事就好！",
+			say = "嗚嗚嗚……妳們沒事就好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -752,7 +752,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是天上……好像比我们出发前更严重了呢。",
+			say = "但天上……好像比我們出發前更嚴重了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -765,7 +765,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "猩红的云朵、枯萎的大树……天空中仿佛有另一个世界倒扣在我们头顶一样。",
+			say = "猩紅的雲朵、枯萎的大樹……天空中彷彿有另一個世界倒扣在我們頭頂一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -778,7 +778,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大结界……肯定也被污染了。那个……应该是大结界被污染后所呈现出的异象……",
+			say = "大結界……肯定也被污染了。那個……應該是大結界被污染後所呈現的異象……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -791,7 +791,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对了，大前辈呢？",
+			say = "對了，大前輩呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -804,7 +804,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大前辈和{namecode:84:武藏}大人她们一起去开会了，到现在还没回来。",
+			say = "大前輩和武藏大人她們一起去開會了，到現在還沒回來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -817,7 +817,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样啊……好了，我休息得也差不多了。前来避难的人越来越多，我去帮忙吧！",
+			say = "這樣啊……好了，我休息的也差不多了。前來避難的人越來越多，我去幫忙吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -843,7 +843,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这种帮助他人的事情怎么能少得了吾呢，吾也去帮忙！",
+			say = "這種樂於助人的事怎麼可能少的了吾呢，吾也去幫忙！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -856,7 +856,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，那大家一起去帮{namecode:79:山城}姐姐的忙吧~",
+			say = "嘿嘿，那大家一起去幫山城姊姊的忙吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -869,7 +869,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "诸位，要去帮忙的话，不妨也带上我们吧？",
+			say = "諸位，要去幫忙的話，不妨也帶上我們吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -882,7 +882,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:89:凤翔}前辈，{namecode:39:神通}女士？！你们也来了啊！",
+			say = "鳳翔前輩，神通小姐？！妳們也來了啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -895,7 +895,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:84:武藏}大人已经将此处宣布为了集结点，所有作战力量在收到消息后都应该来此集结，我们焉能不来呢？",
+			say = "武藏大人已經將此處宣告為了集結點，所有作戰力量在收到消息後都應該來此集結，我們焉能不來呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -908,7 +908,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过在帮忙之前，我觉得诸位首先得对现在的局势有所了解，这样才不会越帮越忙啊。",
+			say = "不過在幫忙之前，我覺得各位首先得對現在的局勢有所了解，這樣才不會越幫越忙啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -921,7 +921,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:39:神通}女士，不瞒你说……我们确实对于现状一无所知……还请你指点一二。",
+			say = "神通女士，不瞞妳說……我們確實對於現狀一無所知……還請妳指點一二。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -934,7 +934,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们可知，天上的那个如同彼岸之景的世界，是什么？",
+			say = "妳們可知，天上的那個如同彼岸之景的世界，是什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -948,7 +948,7 @@ return {
 			actor = 306040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是遭受污染的大结界所展现出的异象？",
+			say = "是遭受污染的大結界所展現的異象？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -961,7 +961,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那棵大树，就是重樱大结界的核心。",
+			say = "那棵大樹，就是重櫻大結界的核心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -974,7 +974,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "虽然污染之息正在海中肆虐，但是此刻的大结界之中并未遭受污染。",
+			say = "雖然污染之息正在海中肆虐，但是此刻的大結界之中並未遭受污染。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -987,7 +987,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "它只是卸下了伪装，露出了本来的模样而已。",
+			say = "它只是卸下了偽裝，露出了原本的模樣而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1000,7 +1000,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……原本的样子？",
+			say = "……原本的樣子？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1013,7 +1013,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这个布置……还要从很多年前说起了。",
+			say = "這個佈置……還要從很多年前說起了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1026,7 +1026,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你们知道么，{namecode:91:赤城}，曾经是一艘战列巡洋舰。而她，还有一位姐姐——",
+			say = "妳們知道嗎 ，赤城，曾經是一艘戰列艦。而她，還有一位姊姊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1039,7 +1039,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "竟、竟然在过去还发生过这些事……我们完全不知道……",
+			say = "竟、竟然在過去還發生過這些事……我們完全不知道……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1069,7 +1069,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以您二位认为……现在所出现的一连串异状并不是因为有外部的未知敌人在对我们发动攻击……",
+			say = "所以您二位認為…現在所出現的一連串異狀並不是因為有外部的未知敵人在對我們發動攻擊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1082,7 +1082,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "而是因为……{namecode:91:赤城}前辈？！",
+			say = "而是因為……赤城前輩？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1095,7 +1095,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是的。不过……在将{namecode:161:天城}的灵魂埋入神木后不久，我们便在神木中发现了「息」的存在。",
+			say = "是的。不過……在將天城的靈魂埋入神木後不久，我們便在神木中發現了「息」的存在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1108,7 +1108,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "随着年份增加，其危害愈演愈烈……最终导致了大贤者不得不亲自出手的那一场战斗。",
+			say = "隨著年份增加，其危害愈演愈烈……最終導致了大賢者不得不親自出手的那場戰鬥。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1121,7 +1121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:88:瑞凤}，那场战斗，你应该亲眼所见过才是。",
+			say = "瑞鳳，那場戰鬥，妳應該親眼所見過才是。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1134,7 +1134,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……当时里面真的好恐怖……除了大贤者之外，没有任何人能抵抗「息」的力量……",
+			say = "嗯……當時裡面真的好恐怖……除了大賢者之外，沒有任何人能抵抗「息」的力量……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1147,7 +1147,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以我们认为——{namecode:161:天城}的灵魂也未能幸免。",
+			say = "所以我們認為——天城的靈魂也未能倖免。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1160,7 +1160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "纵使当年定下了万无一失的计划，终究是……人算不如天算。",
+			say = "縱使當年定下了萬無一失的計劃，終究是……人算不如天算。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1173,7 +1173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91:赤城}前辈明明知道这些……却还要执行这个危险的计划么？！",
+			say = "赤城前輩明明知道這些……卻還要執行這個危險的計畫嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1186,7 +1186,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "她已经在执行了。",
+			say = "她已經在執行了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1199,7 +1199,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "最先出现的无形之息，而后出现的那股导致人幻视幻听、甚至META化的侵蚀力，都是这个仪式的核心……{namecode:161:天城}的残魂已经被污染的证明。",
+			say = "最先出現的無形之息，而後出現的那股導致人幻視幻聽、甚至META化的侵蝕力，都是這個儀式的核心……天城的殘魂已經被污染的證明。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1212,7 +1212,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这些事她心里都清楚。",
+			say = "這些事她心裡都清楚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1225,7 +1225,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "她只是……执念过深罢了。",
+			say = "她只是……執念過深罷了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1238,7 +1238,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（{namecode:91:赤城}前辈……难道真的疯了？）",
+			say = "（赤城前輩……難道真的瘋了？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1251,7 +1251,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（为了复活一个不知道还是不是自己姐姐的灵魂……居然、居然不惜让整个重樱都陷入危险之中？！）",
+			say = "（為了復活一個不知道還是不是自己姊姊的靈魂……居然、居然不惜讓整個重櫻都陷入危險之中？！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1264,7 +1264,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（……等等，这么一说，原来当年她在圣域所做的那些事，也和今日的计划有关？！）",
+			say = "（……等等，這麼一說，原來當年她在聖域所做的那些事，也和今日的計劃有關？！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1277,7 +1277,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（这么多年来……她所做的一切事都是为了今日的计划？）",
+			say = "（這麼多年……她所做的一切事都是為了今日的計劃？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1290,7 +1290,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（……都是为了复活她的姐姐{namecode:161:天城}？！）",
+			say = "（……都是為了復活她的姊姊天城？！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1303,7 +1303,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（这样的人……怎么配成为领导重樱前进方向的人……！）",
+			say = "（這樣的人……怎麼配成為領導重櫻前進方向的人……！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1316,7 +1316,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（亏我以前有段时间……还真的拿她当成前辈对待过，真的怀疑过自己是不是太狭隘了……）",
+			say = "（虧我以前有一段時間……還真的拿她當成前輩對待，真的懷疑過自己是不是太狹隘了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1329,7 +1329,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（……这么多年来，她所做的一切，都只是为了复活自己的姐姐么？！）",
+			say = "（……這麼多年來，她所做的一切，都只是為了復活自己的姊姊嗎？！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1355,7 +1355,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（……可，如果去世的是{namecode:95:翔鹤}姐呢？）",
+			say = "（……但，如果去世的是翔鶴姐呢？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1368,7 +1368,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（{namecode:96:瑞鹤}，如果你坐在了{namecode:91:赤城}前辈的位置上，有了一个复活姐姐的可能性……你要怎么做？）",
+			say = "（瑞鶴，如果妳坐在了赤城前輩的位置上，有了一個復活姊姊的可能性……妳要怎麼做？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1394,7 +1394,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（但是不论如何……我绝对做不出让整个重樱陷入危险之中的事来。）",
+			say = "（但是無論如何……我絕對做不出讓整個重櫻陷入危險的事來。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1407,7 +1407,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（姐姐也不会乐意看到我这么做的……！）",
+			say = "（姊姊也不會樂意看到我這麼做的……！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1420,7 +1420,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（没错……相信{namecode:91:赤城}前辈的姐姐……{namecode:161:天城}大人肯定也会这么想的……！）",
+			say = "（沒錯……相信赤城前輩的姊姊……天城大人一定也會這麼想的……！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1433,7 +1433,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（必须……在前辈做出彻底无法挽回的事之前，阻止她！）",
+			say = "（必須……在前輩做出徹底無法挽回的事之前，阻止她！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1446,7 +1446,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看来，我们刚才说的话对于诸位来说信息量有些大呢。",
+			say = "看來，我們剛才說的話對於各位來說資訊量有些大呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1459,7 +1459,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那诸位先在此消化一下，我们先行一步了？",
+			say = "那諸位先在此消化一下，我們先行一步了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1472,7 +1472,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等一下{namecode:89:凤翔}前辈，你知道大前辈和{namecode:84:武藏}大人她们在哪里开会么？",
+			say = "等一下鳳翔前輩，妳知道大前輩和武藏大人她們在哪裡開會嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1485,7 +1485,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "倒是知道……怎么了？",
+			say = "倒是知道……怎麼了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1498,7 +1498,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊、{namecode:96:瑞鹤}姐姐——你又要去偷听啦~！",
+			say = "啊、瑞鶴姊姊——你又要去偷聽啦~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

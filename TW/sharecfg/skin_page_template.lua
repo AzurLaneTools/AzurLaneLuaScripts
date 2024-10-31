@@ -138,6 +138,12 @@ pg.skin_page_template = {
 		res = "qihuanmaoxian",
 		english_name = "RPG Adventure"
 	},
+	[26] = {
+		id = 26,
+		name = "夢幻樂園",
+		res = "menghuanleyuan",
+		english_name = "Dreamland Park "
+	},
 	[9997] = {
 		id = 9997,
 		name = "改造",
@@ -180,6 +186,7 @@ pg.skin_page_template = {
 		22,
 		23,
 		24,
+		26,
 		9997,
 		9998,
 		9999

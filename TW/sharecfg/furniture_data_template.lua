@@ -179,6 +179,7 @@ pg.furniture_data_template = setmetatable({
 			100037,
 			100038,
 			100039,
+			100040,
 			100055,
 			200001,
 			200002,
@@ -4897,6 +4898,7 @@ pg.furniture_data_template = setmetatable({
 			100037,
 			100038,
 			100039,
+			100040,
 			100055,
 			54104,
 			54105
@@ -5852,6 +5854,7 @@ pg.furniture_data_template = setmetatable({
 			100036,
 			100038,
 			100039,
+			100040,
 			100055
 		},
 		[2] = {
@@ -8526,6 +8529,7 @@ pg.furniture_data_template = setmetatable({
 		100037,
 		100038,
 		100039,
+		100040,
 		100055,
 		200001,
 		200002,
@@ -20579,6 +20583,57 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100040] = {
+		can_rotate = 1,
+		describe = "艷陽與沙灘！西瓜與冰淇淋！熱情的盛夏就在眼前！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "啾啾天氣盒(夏)",
+		advice = 0,
+		id = 100040,
+		icon = "summerboxicon",
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"summerbox",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					"houzhai_pugongying",
+					"action1"
+				}
+			}
 		},
 		interAction_group = {}
 	},

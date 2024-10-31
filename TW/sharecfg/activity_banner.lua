@@ -12,7 +12,7 @@ pg.activity_banner = {
 				{
 					2024,
 					10,
-					17
+					31
 				},
 				{
 					0,
@@ -23,8 +23,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					10,
-					30
+					11,
+					13
 				},
 				{
 					23,
@@ -35,25 +35,11 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "5543",
+		type = 3,
 		id = 2,
 		pic = "temp2",
-		param = {
-			"KINDERGARTEN"
-		},
 		time = {
-			{
-				{
-					2024,
-					10,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
 			{
 				{
 					2024,
@@ -61,6 +47,18 @@ pg.activity_banner = {
 					31
 				},
 				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					11,
+					14
+				},
+				{
 					23,
 					59,
 					59
@@ -69,7 +67,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5402",
+		param = "4499",
 		type = 3,
 		id = 3,
 		pic = "temp3",
@@ -78,7 +76,7 @@ pg.activity_banner = {
 				{
 					2024,
 					10,
-					17
+					31
 				},
 				{
 					0,
@@ -89,8 +87,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					10,
-					31
+					11,
+					14
 				},
 				{
 					23,
@@ -107,8 +105,7 @@ pg.activity_banner = {
 		param = {
 			"scene get boat",
 			{
-				projectName = "new",
-				page = 1
+				projectName = "special"
 			}
 		},
 		time = {
@@ -116,7 +113,7 @@ pg.activity_banner = {
 				{
 					2024,
 					10,
-					17
+					31
 				},
 				{
 					0,
@@ -127,8 +124,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					10,
-					31
+					11,
+					14
 				},
 				{
 					23,
@@ -153,7 +150,7 @@ pg.activity_banner = {
 				{
 					2024,
 					10,
-					17
+					31
 				},
 				{
 					0,
@@ -164,8 +161,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					10,
-					30
+					11,
+					13
 				},
 				{
 					23,
@@ -180,9 +177,10 @@ pg.activity_banner = {
 		id = 6,
 		pic = "temp7",
 		param = {
-			"scene shop",
+			"scene level",
 			{
-				warp = "shopstreet"
+				open_remaster = true,
+				isSP = false
 			}
 		},
 		time = {
@@ -190,7 +188,7 @@ pg.activity_banner = {
 				{
 					2024,
 					10,
-					17
+					31
 				},
 				{
 					0,
@@ -201,8 +199,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					10,
-					30
+					11,
+					14
 				},
 				{
 					23,
@@ -288,7 +286,7 @@ pg.activity_banner = {
 				{
 					2024,
 					10,
-					17
+					31
 				},
 				{
 					0,
@@ -299,8 +297,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					10,
-					30
+					11,
+					13
 				},
 				{
 					23,
@@ -693,7 +691,6 @@ pg.activity_banner = {
 	get_id_list_by_type = {
 		[2] = {
 			1,
-			2,
 			4,
 			5,
 			6,
@@ -722,6 +719,7 @@ pg.activity_banner = {
 			1023
 		},
 		[3] = {
+			2,
 			3,
 			7,
 			1003

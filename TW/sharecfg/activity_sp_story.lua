@@ -186,7 +186,7 @@ pg.activity_sp_story = {
 	{
 		story_type = 1,
 		pre_event = "",
-		name = "EPS-1 御狐移驾",
+		name = "EPS-1 御狐移駕",
 		change_prefab = "",
 		unlock_conditions = "",
 		change_background = "star_level_bg_531",
@@ -197,7 +197,7 @@ pg.activity_sp_story = {
 	},
 	{
 		story_type = 1,
-		name = "EPS-2 暗访八云山",
+		name = "EPS-2 暗訪八雲山",
 		change_prefab = "",
 		unlock_conditions = "完成EPS-1",
 		change_background = "star_level_bg_532",
@@ -216,7 +216,7 @@ pg.activity_sp_story = {
 	},
 	{
 		story_type = 1,
-		name = "EPS-3 重樱大结界",
+		name = "EPS-3 重櫻大結界",
 		change_prefab = "",
 		unlock_conditions = "完成EPS-2",
 		change_background = "bg_story_tiancheng6",
@@ -235,7 +235,7 @@ pg.activity_sp_story = {
 	},
 	{
 		story_type = 1,
-		name = "EPS-4 紧随噩梦而来之事",
+		name = "EPS-4 緊接著惡夢而來之事",
 		change_prefab = "",
 		unlock_conditions = "完成EPS-3",
 		change_background = "star_level_bg_508",
@@ -254,7 +254,7 @@ pg.activity_sp_story = {
 	},
 	{
 		story_type = 1,
-		name = "EPS-5 第七十签",
+		name = "EPS-5 第七十簽",
 		change_prefab = "",
 		unlock_conditions = "完成EPS-4",
 		change_background = "star_level_bg_504",
@@ -273,7 +273,7 @@ pg.activity_sp_story = {
 	},
 	{
 		story_type = 1,
-		name = "EPS-6 扎根于往昔的执念",
+		name = "EPS-6 紮根於往昔的執念",
 		change_prefab = "",
 		unlock_conditions = "完成EPS-5",
 		change_background = "star_level_bg_510",
@@ -292,7 +292,7 @@ pg.activity_sp_story = {
 	},
 	{
 		story_type = 1,
-		name = "EPS-7 战前准备",
+		name = "EPS-7 戰前準備",
 		change_prefab = "",
 		unlock_conditions = "完成EPS-6",
 		change_background = "bg_bianzhihua_1",
@@ -311,7 +311,7 @@ pg.activity_sp_story = {
 	},
 	{
 		story_type = 1,
-		name = "EPS-8 决战兵器之相",
+		name = "EPS-8 決戰兵器之相",
 		change_prefab = "",
 		unlock_conditions = "完成EPS-7",
 		change_background = "bg_bianzhihua_1",
@@ -330,7 +330,7 @@ pg.activity_sp_story = {
 	},
 	{
 		story_type = 1,
-		name = "EPS-9 退守云峦",
+		name = "EPS-9 退守雲巒",
 		change_prefab = "",
 		unlock_conditions = "完成EPS-8",
 		change_background = "bg_bianzhihua_1",
@@ -368,7 +368,7 @@ pg.activity_sp_story = {
 	},
 	{
 		story_type = 1,
-		name = "EPS-11 剑碎",
+		name = "EPS-11 劍碎",
 		change_prefab = "",
 		unlock_conditions = "完成EPS-10",
 		change_background = "bg_bianzhihua_1",
@@ -407,7 +407,7 @@ pg.activity_sp_story = {
 	},
 	{
 		story_type = 1,
-		name = "EPS-13 另一个计划",
+		name = "EPS-13 另一個計劃",
 		change_prefab = "Map_1840002",
 		unlock_conditions = "完成EPS-12",
 		change_background = "bg_bianzhihua_2",
