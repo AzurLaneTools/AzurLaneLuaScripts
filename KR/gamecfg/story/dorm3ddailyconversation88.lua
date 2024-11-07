@@ -9,7 +9,7 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "시리우스",
+			actorName = 20220,
 			say = "嗯？您想知道天狼星是不是已经忘记了怎么跳舞……？",
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "시리우스",
+			actorName = 20220,
 			say = "当然没有忘记！",
 			typewriter = {
 				speed = 0.05,
@@ -50,7 +50,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "시리우스",
+			actorName = 20220,
 			say = "主人，天狼星可是一刻都没有疏于练习哦。",
 			typewriter = {
 				speed = 0.05,
@@ -89,7 +89,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "시리우스",
+			actorName = 20220,
 			say = "如果您还愿意让天狼星成为您的舞伴的话……",
 			typewriter = {
 				speed = 0.05,
@@ -108,7 +108,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "시리우스",
+			actorName = 20220,
 			say = "太好了！那……天狼星想占用您一点时间，来复习与您的双人舞。",
 			typewriter = {
 				speed = 0.05,
@@ -147,7 +147,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "시리우스",
+			actorName = 20220,
 			say = "如果您觉得单纯跳舞有些乏味的话，还可以直接……",
 			typewriter = {
 				speed = 0.05,
@@ -156,7 +156,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "시리우스",
+			actorName = 20220,
 			say = "欸？您现在只想和天狼星跳舞？呜……好、好吧……！",
 			typewriter = {
 				speed = 0.05,

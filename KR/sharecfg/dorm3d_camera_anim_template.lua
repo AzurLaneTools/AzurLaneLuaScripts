@@ -183,7 +183,7 @@ pg.dorm3d_camera_anim_template = {
 	[1101] = {
 		anim_time = 0,
 		finish_anim = 1101,
-		pre_anim = 1001,
+		pre_anim = 0,
 		state = "Sit",
 		unlock = "",
 		ship_group = 20220,
@@ -243,7 +243,7 @@ pg.dorm3d_camera_anim_template = {
 	[1201] = {
 		anim_time = 0,
 		finish_anim = 1201,
-		pre_anim = 1001,
+		pre_anim = 0,
 		state = "SitH",
 		unlock = "",
 		ship_group = 20220,
@@ -333,7 +333,7 @@ pg.dorm3d_camera_anim_template = {
 	[1304] = {
 		anim_time = 0,
 		finish_anim = 1304,
-		pre_anim = 1001,
+		pre_anim = 0,
 		state = "PayGoToBed",
 		unlock = "",
 		ship_group = 20220,
@@ -358,7 +358,7 @@ pg.dorm3d_camera_anim_template = {
 		staypoint = "Pos100710",
 		room = 1,
 		id = 1305,
-		icon = "camera_action32"
+		icon = "camera_action33"
 	},
 	[1306] = {
 		anim_time = 10.333,
@@ -373,7 +373,7 @@ pg.dorm3d_camera_anim_template = {
 		staypoint = "Pos100710",
 		room = 1,
 		id = 1306,
-		icon = "camera_action32"
+		icon = "camera_action34"
 	},
 	[1307] = {
 		anim_time = 7.633,
@@ -388,7 +388,67 @@ pg.dorm3d_camera_anim_template = {
 		staypoint = "Pos100710",
 		room = 1,
 		id = 1307,
+		icon = "camera_action36"
+	},
+	[1308] = {
+		anim_time = 0,
+		finish_anim = 1308,
+		pre_anim = 0,
+		state = "PayGoToSofaLoop",
+		unlock = "",
+		ship_group = 20220,
+		furniture_id = 122,
+		desc = "옆으로 눕기",
+		zone = "1003",
+		staypoint = "Pos100210",
+		room = 1,
+		id = 1308,
 		icon = "camera_action32"
+	},
+	[1309] = {
+		anim_time = 11,
+		finish_anim = 1308,
+		pre_anim = 1308,
+		state = "zuo_FF_2_hudong_datui_1",
+		unlock = "",
+		ship_group = 20220,
+		furniture_id = 122,
+		desc = "흔들흔들",
+		zone = "1003",
+		staypoint = "Pos100210",
+		room = 1,
+		id = 1309,
+		icon = "camera_action34"
+	},
+	[1310] = {
+		anim_time = 9.667,
+		finish_anim = 1308,
+		pre_anim = 1308,
+		state = "zuo_FF_2_hudong_jiao_1",
+		unlock = "",
+		ship_group = 20220,
+		furniture_id = 122,
+		desc = "쓰다듬기",
+		zone = "1003",
+		staypoint = "Pos100210",
+		room = 1,
+		id = 1310,
+		icon = "camera_action36"
+	},
+	[1311] = {
+		anim_time = 10,
+		finish_anim = 1308,
+		pre_anim = 1308,
+		state = "zuo_FF_2_hudong_jianbang_1",
+		unlock = "",
+		ship_group = 20220,
+		furniture_id = 122,
+		desc = "스트레칭",
+		zone = "1003",
+		staypoint = "Pos100210",
+		room = 1,
+		id = 1311,
+		icon = "camera_action33"
 	},
 	[4001] = {
 		anim_time = 0,
@@ -506,6 +566,12 @@ pg.dorm3d_camera_anim_template = {
 			1305,
 			1306,
 			1307
+		},
+		[122] = {
+			1308,
+			1309,
+			1310,
+			1311
 		}
 	},
 	all = {
@@ -535,6 +601,10 @@ pg.dorm3d_camera_anim_template = {
 		1305,
 		1306,
 		1307,
+		1308,
+		1309,
+		1310,
+		1311,
 		4001,
 		4002,
 		4003,

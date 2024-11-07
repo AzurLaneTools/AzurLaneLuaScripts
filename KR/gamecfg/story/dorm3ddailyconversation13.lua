@@ -20,12 +20,12 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "후후, 시리우스는 발소리와 기척만으로도 주인님이 오셨다는 걸 알 수 있으니까요.",
+			say = "후후, 시리우스는 발소리와 기척만으로도 {dorm3d}이 오셨다는 걸 알 수 있으니까요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,12 +55,12 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "…아뇨, 이건 어쩌면 주인님과 시리우스의 마음이 서로 통하기 때문일지도 모릅니다.",
+			say = "…아뇨, 이건 어쩌면 {dorm3d}과 시리우스의 마음이 서로 통하기 때문일지도 모릅니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION7",
 	scripts = {
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "주인님, 요즘 꽃꽂이 연습을 하고 있는데, 나중에 의견이나 조언을 좀 구해도 괜찮을까요?",
+			say = "{dorm3d}, 요즘 꽃꽂이 연습을 하고 있는데, 나중에 의견이나 조언을 좀 구해도 괜찮을까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,

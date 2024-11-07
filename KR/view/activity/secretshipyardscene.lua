@@ -2,7 +2,7 @@ slot0 = class("SecretShipyardScene", import("..base.BaseUI"))
 slot0.optionsPath = {
 	"main/top/btn_home"
 }
-slot0.ACT_ID = 5023
+slot0.ACT_ID = 5625
 slot0.GAME_ID = 59
 slot0.ANIMATIONS = {
 	"Phase_00",
@@ -56,6 +56,10 @@ slot0.didEnter = function(slot0)
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.gameButton, function ()
+		if not uv0:checkTaskFinish() or not uv0:checkMinigame() then
+			return
+		end
+
 		uv0:emit(SecretShipyardMediator.GO_MINI_GAME, uv1.GAME_ID)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.gameButtonLock, function ()

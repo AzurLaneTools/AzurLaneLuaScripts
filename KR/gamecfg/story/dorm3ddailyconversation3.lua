@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION3",
 	scripts = {
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "주인님께서는 슈크림을 좋아하시나요? 슈크림이라면 좀처럼 실패하기 어려울 것 같아서요…!",
+			say = "{dorm3d}께서는 슈크림을 좋아하시나요? 슈크림이라면 좀처럼 실패하기 어려울 것 같아서요…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,

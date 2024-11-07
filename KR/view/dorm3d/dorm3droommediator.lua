@@ -24,6 +24,7 @@ slot0.GUIDE_CHECK_LEVEL_UP = "Dorm3dRoomMediator.GUIDE_CHECK_LEVEL_UP"
 slot0.Camera_Pinch_Value_Change = "Dorm3dRoomMediator.Camera_Pinch_Value_Change"
 slot0.ENTER_VOLLEYBALL = "Dorm3dRoomMediator.ENTER_VOLLEYBALL"
 slot0.ON_DROP_CLIENT = "Dorm3dRoomMediator.ON_DROP_CLIENT"
+slot0.UPDATE_FAVOR_DISPLAY = "Dorm3dRoomMediator.UPDATE_FAVOR_DISPLAY"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.TRIGGER_FAVOR, function (slot0, slot1, slot2)
@@ -210,9 +211,14 @@ slot0.initNotificationHandleDic = function(slot0)
 			end
 		end,
 		[uv0.OTHER_DO_TALK] = function (slot0, slot1)
-			slot2 = slot1:getBody()
+			slot0.viewComponent.inReplayTalk = true
+			slot3 = slot0.viewComponent
 
-			slot0.viewComponent:DoTalk(slot2.talkId, slot2.callback)
+			slot3:DoTalk(slot1:getBody().talkId, function ()
+				uv0.viewComponent.inReplayTalk = false
+
+				existCall(uv1.callback)
+			end)
 		end,
 		[uv0.OTHER_POP_UNLOCK] = function (slot0, slot1)
 			slot0.viewComponent:AddUnlockDisplay(slot1:getBody())
@@ -276,6 +282,9 @@ slot0.initNotificationHandleDic = function(slot0)
 		[ApartmentProxy.ZERO_HOUR_REFRESH] = function (slot0, slot1)
 			slot2 = slot1:getBody()
 
+			slot0.viewComponent:UpdateFavorDisplay()
+		end,
+		[uv0.UPDATE_FAVOR_DISPLAY] = function (slot0, slot1)
 			slot0.viewComponent:UpdateFavorDisplay()
 		end
 	}

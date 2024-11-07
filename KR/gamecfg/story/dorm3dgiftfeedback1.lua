@@ -8,7 +8,7 @@ return {
 	hideAuto = true,
 	scripts = {
 		{
-			say = "이 티 세트를 시리우스에게…? 정말 몸둘 바를 모르겠습니다… 인심 좋은 주인님…",
+			say = "이 티 세트를 시리우스에게…? 정말 몸둘 바를 모르겠습니다… 인심 좋은 {dorm3d}…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

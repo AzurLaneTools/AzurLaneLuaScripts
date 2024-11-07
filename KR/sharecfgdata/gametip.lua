@@ -15991,13 +15991,24 @@ _G.pg.base.gametip.music_main = {
 _G.pg.base.gametip.music_juus = {
 	tip = {
 		{
-			info = "「JUUs」 설명:"
-		},
-		{
-			info = "1. 이벤트 기간 내 일정 시간마다 모항 캐릭터들이 새로운 새해 모션을 배포합니다."
-		},
-		{
-			info = "2. 확인 할 수 있는 새로운 정보가 있을 때는 「JUUs」 입구에 알림이 생깁니다.\n3. 좋아요, 퍼가기, 댓글을 통해 참여할 수 있습니다.\n<color=#92fc63>주의 사항:</color>좋아요는 취소할 수 없으며, 댓글을 단 이후 시간이 지나면 회신을 받을 수 있습니다."
+			info = [[
+「쥬스 & 쥬스타그램」에 대해
+
+  쥬스과 쥬스타그램은 모항의 함선들이 이용하는 SNS를 말합니다. 이를 통해 함선들의 게시글을 읽고 「좋아요」를 보내거나, 함선들과 채팅으로 대화를 나눌 수 있습니다. 
+ 화면 좌측 하단 버튼을 이용하면 「쥬스」과 「쥬스타그램」을 서로 전환할 수 있습니다. 
+
+  쥬스에 대해
+ 1. 쥬스으로는 「개인 채팅」, 「그룹 채팅」으로 각각 함선들과 채팅(대화)을 즐길 수 있습니다.
+ 2. 확인하지 않은 메시지가 있는 경우에는 「쥬스 & 쥬스타그램」 버튼에 아이콘이 표시됩니다.
+ 3. 개인 채팅과 그룹 채팅은 화면 좌측의 채널 바를 탭하면 전환할 수 잇습니다.
+ 4. 채팅 화면 우측 상단의 하트 아이콘을 탭하면, 채널 바의 우선 표시 순위를 상단으로 올릴 수 있습니다. 또한 우측 하단 버튼을 탭하면, 대화를 전환하거나 채팅방의 배경을 바꿀 수 있습니다.
+
+
+  쥬스타그램에 대해
+ 1. 쥬스타그램에서는 함선들의 게시글을 읽고 「좋아요」를 누르거나, 댓글을 남길 수 있습니다. 
+ 2. 함선의 포스팅은 일정 시간마다 자동으로 실시됩니다. 
+ 3.「쥬스 & 쥬스타그램」 버튼에 아이콘이 표시됩니다.
+]]
 		}
 	}
 }
@@ -31425,18 +31436,14 @@ _G.pg.base.gametip.shipyard_phase_1 = {
 		{
 			info = [[
 이벤트 개요:
-'템페스타의 비밀 조선소'란, 임무 이벤트 '템페스타의 비밀 조선소'에서 만든 함선을 조종하여 넓은 바다에서 적을 무찌르거나 보물을 회수하면서, 종점에 도달해 점수를 얻는 미니 게임입니다. 
-미니 게임은 <color=#92fc63>11월 9일(목) ~ 11월 23일(목) 23:59</color> 까지 진행됩니다. 
+「템페스타의 비밀 조선소」란, 임무 이벤트 「템페스타의 비밀 조선소」에서 만든 함선을 조종하여 넓은 바다에서 적을 무찌르거나 보물을 회수하면서, 종점에 도달하여 점수를 얻는 미니 게임입니다. 
+ 이벤트는 <color=#92fc63>11월 7일(목) ~ 11월 21일(목) 23:59</color>까지 진행됩니다. 
 
-플레이 방법:
-・'템페스타의 비밀 조선소'에서는 다양한 임무가 등장합니다. 모든 임무를 클리어하면 미니 게임에서 사용할 배가 완성됩니다.
-・미니 게임에서는 스테이지를 선택하고 장착하고자 하는 장비를 선택하면, 해전 게임을 즐길 수 있습니다.
-・미니 게임은 11월 15일(수)까지 매일 새로운 스테이지가 오픈됩니다.
-・스테이지를 클리어하면, 각 스테이지에서 1회 한정으로 클리어 보상을 획득할 수 있습니다.
-스테이지 3 템페스타용 설비 '과일 보급품'
-스테이지 5 템페스타용 장비 세트 
-스테이지 7 한정 가구 '출항하는 모험선'
-・스테이지 7을 클리어하면 임의의 스테이지를 선택해 플레이할 수 있습니다.]]
+  플레이 방법:
+ ・11월 13일(수)까지 매일 한정 임무가 오픈됩니다. 오픈된 모든 한정 임무를 클리어하면, 미니 게임에서 아용할 배가 완성됩니다. 
+ ・미니 게임에서는 스테이지를 선택하고, 장착하고자 하는 장비를 선택하면, 해전 게임을 즐길 수 있습니다. 
+ ・미니 게임 스테이지를 클리어하면, 각 스테이지에서 1회 한정으로 클리어 보상을 획득할 수 있습니다. 또한 7개의 스테이지를 모두 클리어하면, 한정 가구 「출항하는 모험선」을 획득할 수 있습니다. 
+ ・스테이지 7을 클리어한 다음에는 임의의 스테이지를 선택하여 플레이할 수 있습니다.]]
 		}
 	}
 }
@@ -31458,7 +31465,7 @@ _G.pg.base.gametip.shipyard_button_2 = {
 
 
 _G.pg.base.gametip.shipyard_introduce = {
-	tip = "임무는 11/8(수)까지 매일 2개씩 오픈됩니다.\n오픈 후 7일 동안 매일 오픈되는 임무를 클리어하면, 한정 장비 <color=#ff9892>'템페스타 플래그'</color>를 획득할 수 있습니다!"
+	tip = "임무는 11/13(수)까지 매일 2개씩 오픈됩니다.\n오픈 후 7일 동안 매일 오픈되는 임무를 클리어하면, 한정 장비 <color=#ff9892>「템페스타 플래그」 </color>를 획득할 수 있습니다!"
 }
 
 
@@ -35399,4 +35406,196 @@ _G.pg.base.gametip.dorm3d_purchase_weekly_limit = {
 
 _G.pg.base.gametip.world_file_tip = {
 	tip = "※화면을 슬라이드하여 페이지를 스크롤할 수 있습니다. 화면을 탭하면 닫힙니다."
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_part1 = {
+	tip = "상편"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_part2 = {
+	tip = "하편"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_sp = {
+	tip = "SP"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_ex = {
+	tip = "EX"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_title = {
+	tip = "필터링"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_tip1 = {
+	tip = "모두"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_tip2 = {
+	tip = "회신 완료"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_tip3 = {
+	tip = "미회신"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_tip4 = {
+	tip = "개인"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_tip5 = {
+	tip = "그룹"
+}
+
+
+_G.pg.base.gametip.juuschat_label1 = {
+	tip = "사용 중"
+}
+
+
+_G.pg.base.gametip.juuschat_label2 = {
+	tip = "확인 중"
+}
+
+
+_G.pg.base.gametip.juuschat_chattip1 = {
+	tip = "[보이스 메시지]"
+}
+
+
+_G.pg.base.gametip.juuschat_chattip2 = {
+	tip = "[선물]"
+}
+
+
+_G.pg.base.gametip.juuschat_chattip3 = {
+	tip = "[회신 대기]"
+}
+
+
+_G.pg.base.gametip.juuschat_reddot_title = {
+	tip = "쥬스"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_subtitle1 = {
+	tip = "확인·미확인"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_subtitle2 = {
+	tip = "개인·그룹"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_subtitle3 = {
+	tip = "진영"
+}
+
+
+_G.pg.base.gametip.juuschat_redpacket_detail = {
+	tip = "수취 내용"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_empty = {
+	tip = "해당 채팅은 존재하지 않습니다."
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_title = {
+	tip = "호칭 변경"
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_cd = {
+	tip = "$1 후 호칭 재변경 가능"
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_interval = {
+	tip = "호칭은 48시간에 한 번만 변경할 수 있습니다."
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_waring1 = {
+	tip = "금지어가 포함되어 있습니다."
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_waring2 = {
+	tip = "호칭의 글자 수가 너무 깁니다."
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_waring3 = {
+	tip = "호칭의 글자 수가 너무 짧습니다."
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_waring4 = {
+	tip = "지금은 호칭을 변경할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_gift_owned = {
+	tip = "더 이상 구매할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.BoatAdGame_minigame_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/boatadgame_minigame_help"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.activity_1024_memory = {
+	tip = "「도깨비 스토리」가 부족합니다. 한정 임무를 클리어하여 모아보세요!"
+}
+
+
+_G.pg.base.gametip.activity_1024_memory_get = {
+	tip = "- 수령 완료 -"
+}
+
+
+_G.pg.base.gametip.juuschat_background_tip1 = {
+	tip = "미소지"
+}
+
+
+_G.pg.base.gametip.juuschat_background_tip2 = {
+	tip = "暂未拥有此换装"
 }

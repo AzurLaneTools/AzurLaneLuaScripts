@@ -2,6 +2,10 @@ slot0 = class("Dorm3dLevelLayer", import("view.base.BaseUI"))
 slot0.SERVER_TYPE = 1
 slot0.CLIENT_TYPE = 2
 slot0.STORY_TYPE = 3
+slot0.NAME_MIN_SIZE = 4
+slot0.NAME_SHORT_SIZE = 8
+slot0.NAME_LONG_SIZE = 14
+slot0.PLAYERPREFS_KEY = "Dorm3dLayer.playerprefs"
 
 slot0.getUIName = function(slot0)
 	return "Dorm3dLevelUI"
@@ -49,6 +53,64 @@ slot0.init = function(slot0)
 		setActive(uv0.rtSkinSelectWindow, false)
 		pg.UIMgr.GetInstance():UnOverlayPanel(uv0.rtSkinSelectWindow, uv0._tf)
 	end, SFX_CANCEL)
+
+	slot0.rtRenameWindow = slot0._tf:Find("RenameWindow")
+
+	onButton(slot0, slot0.rtLevelPanel:Find("bg/left/rot"), function ()
+		uv0:ShowRenameWindow()
+	end, SFX_PANEL)
+
+	slot0.callInput = slot0.rtRenameWindow:Find("panel/input/nickname")
+
+	onButton(slot0, slot0.rtRenameWindow:Find("panel/confirm"), function ()
+		if getInputText(uv0.callInput) == "" then
+			return
+		end
+
+		if not nameValidityCheck(slot0, uv1.NAME_MIN_SIZE, uv1.NAME_LONG_SIZE, {
+			"spece_illegal_tip",
+			"dorm3d_appellation_waring3",
+			"dorm3d_appellation_waring2",
+			"dorm3d_appellation_waring1"
+		}) then
+			setInputText(uv0.callInput, uv0.apartment:GetCallName())
+
+			return
+		end
+
+		if slot0 == uv0.apartment:GetCallName() then
+			return
+		end
+
+		if uv0.apartment:GetSetCallCd() > 0 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_appellation_waring4"))
+
+			return
+		end
+
+		if uv0.renameReset then
+			uv0:emit(Dorm3dLevelMediator.RENAME_RESET, uv0.apartment.configId)
+		else
+			uv0:emit(Dorm3dLevelMediator.RENAME, uv0.apartment.configId, slot0)
+		end
+	end, SFX_PANEL)
+	onButton(slot0, slot0.rtRenameWindow:Find("panel/cancel"), function ()
+		uv0:CloseRenameWindow()
+	end, SFX_CANCEL)
+	onButton(slot0, slot0.rtRenameWindow:Find("panel/reset"), function ()
+		setInputText(uv0.callInput, pg.dorm3d_dorm_template[uv0.apartment.configId].default_appellation)
+
+		uv0.renameReset = true
+	end)
+
+	slot0.nameShort = slot0.rtLevelPanel:Find("bg/left/rot/short")
+	slot0.nameLong = slot0.rtLevelPanel:Find("bg/left/rot/long")
+	slot0.blurPanel = slot0._tf:Find("blur")
+
+	slot0.callInput:GetComponent(typeof(InputField)).onValueChanged:AddListener(function ()
+		uv0.renameReset = false
+	end)
+	setActive(slot0.rtLevelPanel:Find("bg/left/rot"), not uv0.IsLockNamed())
 	slot0:InitItemList()
 end
 
@@ -182,6 +244,74 @@ slot0.didEnter = function(slot0)
 
 	setImageAlpha(slot0.rtLevelPanel:Find("bg/bottom/btn_skin/Image"), not slot4 and 0.2 or 1)
 	setActive(slot0.rtLevelPanel:Find("bg/bottom/btn_skin/lock"), not slot4)
+	setText(slot0.rtLevelPanel:Find("bg/left/rot/Text"), i18n("dorm3d_appellation_title"))
+	setText(slot0.rtRenameWindow:Find("panel/cancel/Text"), i18n("word_cancel"))
+	setText(slot0.rtRenameWindow:Find("panel/confirm/Text"), i18n("word_ok"))
+	slot0:UpdateName()
+	slot0:UpdateRed()
+end
+
+slot0.IsLockNamed = function()
+	return PLATFORM_CODE ~= PLATFORM_CH and DORM_LOCK_NAMED
+end
+
+slot0.IsShowRed = function()
+	if uv0.IsLockNamed() then
+		return false
+	end
+
+	return PlayerPrefs.GetInt(uv0.PLAYERPREFS_KEY, 0) == 0
+end
+
+slot0.UpdateRed = function(slot0)
+	setActive(slot0.rtLevelPanel:Find("bg/left/rot/red"), uv0.IsShowRed())
+	slot0:emit(Dorm3dLevelMediator.UPDATE_FAVOR_DISPLAY)
+end
+
+slot0.UpdateName = function(slot0)
+	slot2, slot3 = utf8_to_unicode(slot0.apartment:GetCallName())
+	slot4 = slot3 <= uv0.NAME_SHORT_SIZE
+
+	setActive(slot0.nameShort, slot4)
+	setActive(slot0.nameLong, not slot4)
+	setText(slot4 and slot0.nameShort:Find("Text") or slot0.nameLong:Find("Text"), slot1)
+end
+
+slot0.ShowRenameWindow = function(slot0)
+	setActive(slot0._tf:Find("bg"), false)
+	setActive(slot0._tf:Find("btn_back"), false)
+	setActive(slot0.rtLevelPanel, false)
+	setActive(slot0.rtRenameWindow, true)
+	setActive(slot0.blurPanel, true)
+	pg.UIMgr.GetInstance():OverlayPanelPB(slot0.blurPanel, {
+		pbList = {
+			slot0.blurPanel
+		},
+		groupName = LayerWeightConst.GROUP_DORM3D,
+		weight = slot0:getWeightFromData() + 1
+	})
+	pg.UIMgr.GetInstance():OverlayPanel(slot0.rtRenameWindow, {
+		groupName = LayerWeightConst.GROUP_DORM3D,
+		weight = slot0:getWeightFromData() + 1
+	})
+	setInputText(slot0.callInput, slot0.apartment:GetCallName())
+
+	slot2 = nil
+
+	setText(slot0.rtRenameWindow:Find("panel/time"), slot1 == 0 and i18n("dorm3d_appellation_interval") or i18n("dorm3d_appellation_cd", slot0.apartment:GetSetCallCd() > 3600 and math.floor(slot1 / 3600) .. i18n("word_hour") or slot1 > 60 and math.floor(slot1 / 60) .. i18n("word_minute") or slot1 .. i18n("word_second")))
+	PlayerPrefs.SetInt(uv0.PLAYERPREFS_KEY, 1)
+	slot0:UpdateRed()
+end
+
+slot0.CloseRenameWindow = function(slot0)
+	setActive(slot0._tf:Find("bg"), true)
+	setActive(slot0._tf:Find("btn_back"), true)
+	setActive(slot0.rtLevelPanel, true)
+	setActive(slot0.rtRenameWindow, false)
+	setActive(slot0.blurPanel, false)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
+	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.rtRenameWindow, slot0._tf)
+	slot0:UpdateName()
 end
 
 slot0.ShowTimeSelectWindow = function(slot0)
@@ -284,6 +414,8 @@ slot0.onBackPressed = function(slot0)
 		triggerButton(slot0.rtSkinSelectWindow:Find("bg"))
 	elseif isActive(slot0.rtTimeSelectWindow) then
 		triggerButton(slot0.rtTimeSelectWindow:Find("bg"))
+	elseif isActive(slot0.rtRenameWindow) then
+		triggerButton(slot0.rtRenameWindow:Find("panel/cancel"))
 	else
 		uv0.super.onBackPressed(slot0)
 	end

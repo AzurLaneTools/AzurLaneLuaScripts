@@ -9,7 +9,7 @@ return {
 	id = "DORM3DDAILYCONVERSATION30",
 	scripts = {
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
@@ -44,19 +44,19 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "정말 멋진 곳입니다. 특히 자랑스러운 주인님을 뵐 기회도, 단둘이 있는 시간도 많이 늘어나서… 너무 행복하게 생각합니다.",
+			say = "정말 멋진 곳입니다. 특히 자랑스러운 {dorm3d}을 뵐 기회도, 단둘이 있는 시간도 많이 늘어나서… 너무 행복하게 생각합니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -79,12 +79,12 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "그건…… 집무실에서처럼 밤에도 주인님을 모실 수 없다는 점…입니다.",
+			say = "그건…… 집무실에서처럼 밤에도 {dorm3d}을 모실 수 없다는 점…입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

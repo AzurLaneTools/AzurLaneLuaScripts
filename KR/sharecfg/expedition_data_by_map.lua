@@ -390,6 +390,10 @@ pg.expedition_data_by_map = setmetatable({
 		1850012,
 		1850025,
 		1850026,
+		1860001,
+		1860002,
+		1860003,
+		1860004,
 		2100000,
 		2100001,
 		2100010,
@@ -20872,6 +20876,322 @@ pg.base.expedition_data_by_map = {
 			65,
 			66,
 			67
+		}
+	},
+	[1860001] = {
+		map = 1860001,
+		name = "템페스타와 잠든 바다·상편||||CHAPTER EX||E.X.",
+		bgm = "story-tempest-marching",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1760002",
+		ani_controller = "",
+		default_background = "bg_underwater",
+		on_activity = 5621,
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1760002",
+		destory_icon_suffix = "blue",
+		default_bgm = "theme-SeaAndSun-soft",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1860001
+			},
+			{
+				1860002
+			},
+			{
+				1860003
+			}
+		},
+		story_id = {
+			68,
+			69,
+			70,
+			71,
+			72,
+			73,
+			74,
+			75,
+			76,
+			77,
+			78,
+			79,
+			80,
+			81,
+			82,
+			83,
+			84,
+			85,
+			86,
+			87,
+			88,
+			89
+		}
+	},
+	[1860002] = {
+		map = 1860002,
+		name = "템페스타와 잠든 바다·하편||||CHAPTER EX||E.X.",
+		bgm = "battle-nightmare-theme",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1860001",
+		ani_controller = "",
+		default_background = "bg_underwater",
+		on_activity = 5621,
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1860001",
+		destory_icon_suffix = "blue",
+		default_bgm = "theme-SeaAndSun-soft",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1860004
+			},
+			{
+				1860005
+			},
+			{
+				1860006
+			}
+		},
+		story_id = {
+			68,
+			69,
+			70,
+			71,
+			72,
+			73,
+			74,
+			75,
+			76,
+			77,
+			78,
+			79,
+			80,
+			81,
+			82,
+			83,
+			84,
+			85,
+			86,
+			87,
+			88,
+			89
+		}
+	},
+	[1860003] = {
+		map = 1860003,
+		name = "템페스타와 잠든 바다·SP||||CHAPTER EX||E.X.",
+		bgm = "theme-tempest-up",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1860002",
+		ani_controller = "",
+		default_background = "bg_underwater",
+		on_activity = 5621,
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1860002",
+		destory_icon_suffix = "blue",
+		default_bgm = "theme-SeaAndSun-soft",
+		uifx = "",
+		bind_map = 1860002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1860041
+			}
+		},
+		story_id = {
+			68,
+			69,
+			70,
+			71,
+			72,
+			73,
+			74,
+			75,
+			76,
+			77,
+			78,
+			79,
+			80,
+			81,
+			82,
+			83,
+			84,
+			85,
+			86,
+			87,
+			88,
+			89
+		}
+	},
+	[1860004] = {
+		map = 1860004,
+		name = "템페스타와 잠든 바다·EX||||CHAPTER EX||E.X.",
+		bgm = "theme-ganjisawai",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1860002",
+		ani_controller = "",
+		default_background = "bg_underwater",
+		on_activity = 5621,
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1860002",
+		destory_icon_suffix = "blue",
+		default_bgm = "theme-SeaAndSun-soft",
+		uifx = "",
+		bind_map = 1860002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1860051
+			}
+		},
+		story_id = {
+			68,
+			69,
+			70,
+			71,
+			72,
+			73,
+			74,
+			75,
+			76,
+			77,
+			78,
+			79,
+			80,
+			81,
+			82,
+			83,
+			84,
+			85,
+			86,
+			87,
+			88,
+			89
 		}
 	},
 	[2100000] = {

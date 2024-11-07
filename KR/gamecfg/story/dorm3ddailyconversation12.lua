@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION12",
 	scripts = {
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "자랑스러운 주인님! 시리우스, 요즘 메이드장님의 도움으로 요리에 조금 자신감이 생겼습니다…!",
+			say = "자랑스러운 {dorm3d}! 시리우스, 요즘 메이드장님의 도움으로 요리에 조금 자신감이 생겼습니다…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -56,12 +56,12 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "이 긴장감을 극복할 수 있도록 노력하겠습니다! 하루빨리 음식으로 주인님의 극찬을 받을 수 있도록 최선을 다하겠습니다!",
+			say = "이 긴장감을 극복할 수 있도록 노력하겠습니다! 하루빨리 음식으로 {dorm3d}의 극찬을 받을 수 있도록 최선을 다하겠습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

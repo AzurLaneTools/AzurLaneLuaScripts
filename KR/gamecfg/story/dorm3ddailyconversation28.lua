@@ -9,7 +9,7 @@ return {
 	id = "DORM3DDAILYCONVERSATION28",
 	scripts = {
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -68,12 +68,12 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "자랑스러운 주인님을 지키기 위해서라면 뭐든 박살낼 각오가 되어 있습니다.",
+			say = "자랑스러운 {dorm3d}을 지키기 위해서라면 뭐든 박살낼 각오가 되어 있습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

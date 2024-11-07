@@ -373,18 +373,6 @@ slot0.getActivitiesByTypes = function(slot0, slot1)
 	return slot2
 end
 
-slot0.GetEarliestActByType = function(slot0, slot1)
-	slot3 = _.select(slot0:getActivitiesByType(slot1), function (slot0)
-		return not slot0:isEnd()
-	end)
-
-	table.sort(slot3, function (slot0, slot1)
-		return slot0.id < slot1.id
-	end)
-
-	return slot3[1]
-end
-
 slot0.getMilitaryExerciseActivity = function(slot0)
 	slot1 = nil
 

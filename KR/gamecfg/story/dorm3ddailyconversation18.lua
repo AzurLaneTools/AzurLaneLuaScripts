@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION18",
 	scripts = {
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "정말 늘 바쁘시군요. 그런 주인님을 위해 시리우스가 영양분이 가득한 야채 주스를 준비했습니다…!",
+			say = "정말 늘 바쁘시군요. 그런 {dorm3d}을 위해 시리우스가 영양분이 가득한 야채 주스를 준비했습니다…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,19 +54,19 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "하지만… 주인님의 건강을 위해서는…",
+			say = "하지만… {dorm3d}의 건강을 위해서는…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,

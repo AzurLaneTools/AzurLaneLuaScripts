@@ -38,6 +38,13 @@ pg.commander_ability_group = {
 			142
 		}
 	},
+	[15] = {
+		id = 15,
+		ability_list = {
+			151,
+			152
+		}
+	},
 	[20] = {
 		id = 20,
 		ability_list = {
@@ -236,6 +243,14 @@ pg.commander_ability_group = {
 			821,
 			822,
 			823
+		}
+	},
+	[83] = {
+		id = 83,
+		ability_list = {
+			831,
+			832,
+			833
 		}
 	},
 	[90] = {
@@ -456,12 +471,19 @@ pg.commander_ability_group = {
 			5151
 		}
 	},
+	[516] = {
+		id = 516,
+		ability_list = {
+			5161
+		}
+	},
 	all = {
 		10,
 		11,
 		12,
 		13,
 		14,
+		15,
 		20,
 		21,
 		22,
@@ -487,6 +509,7 @@ pg.commander_ability_group = {
 		80,
 		81,
 		82,
+		83,
 		90,
 		91,
 		92,
@@ -517,6 +540,7 @@ pg.commander_ability_group = {
 		512,
 		513,
 		514,
-		515
+		515,
+		516
 	}
 }

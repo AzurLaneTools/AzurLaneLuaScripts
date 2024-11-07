@@ -967,7 +967,7 @@ pg.activity_const = {
 		act_id = 5048
 	},
 	BOAT_QIAN_SHAO_ZHAN = {
-		act_id = 5023
+		act_id = 5625
 	},
 	CASTLE_ACT_ID = {
 		act_id = 5055

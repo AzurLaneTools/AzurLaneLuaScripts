@@ -50,6 +50,8 @@ slot4.SetArgs = function(slot0, slot1, slot2)
 	if slot0._cloakExpose and slot0._cloakExpose > 0 then
 		slot1:CloakExpose(slot0._cloakExpose)
 	end
+
+	slot0._proxy = uv1.Battle.BattleDataProxy.GetInstance()
 end
 
 slot4.onStack = function(slot0, slot1, slot2)
@@ -57,11 +59,7 @@ end
 
 slot4.onUpdate = function(slot0, slot1, slot2, slot3)
 	if slot0._nextEffectTime <= slot3.timeStamp then
-		uv0.Battle.BattleDataProxy.GetInstance():DamageStatistics(nil, slot1:GetAttrByName("id"), -slot1:UpdateHP(-slot0:CalcNumber(slot1, slot2), {
-			isMiss = false,
-			isCri = false,
-			isHeal = false
-		}))
+		slot0._proxy:HandleDirectDamage(slot1, slot0:CalcNumber(slot1, slot2))
 
 		if slot1:IsAlive() then
 			slot0._nextEffectTime = slot0._nextEffectTime + slot0._time
@@ -70,11 +68,7 @@ slot4.onUpdate = function(slot0, slot1, slot2, slot3)
 end
 
 slot4.onRemove = function(slot0, slot1, slot2)
-	uv0.Battle.BattleDataProxy.GetInstance():DamageStatistics(nil, slot1:GetAttrByName("id"), -slot1:UpdateHP(-slot0:CalcNumber(slot1, slot2), {
-		isMiss = false,
-		isCri = false,
-		isHeal = false
-	}))
+	slot0._proxy:HandleDirectDamage(slot1, slot0:CalcNumber(slot1, slot2))
 end
 
 slot4.CalcNumber = function(slot0, slot1, slot2)

@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION40",
 	scripts = {
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "네? 주인님이 들고 계신 그 빗… 혹시 시리우스의 머리를 빗겨주시는 건가요…?",
+			say = "네? {dorm3d}이 들고 계신 그 빗… 혹시 시리우스의 머리를 빗겨주시는 건가요…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -56,7 +56,7 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -68,12 +68,12 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "아, 아무튼… 마음껏 머리를 빗겨주시기 바랍니다. 자랑스러운 주인님!",
+			say = "아, 아무튼… 마음껏 머리를 빗겨주시기 바랍니다. 자랑스러운 {dorm3d}!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

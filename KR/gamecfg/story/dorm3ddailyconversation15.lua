@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION15",
 	scripts = {
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "자랑스러운 주인님, 왠지 피곤하고 기운이 없어 보입니다… 일이 많이 바쁘신 건가요?",
+			say = "자랑스러운 {dorm3d}, 왠지 피곤하고 기운이 없어 보입니다… 일이 많이 바쁘신 건가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,12 +44,12 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "시리우스, 주인님의 기운을 빠르게 회복시켜 드릴 수 있는 방법을 알고 있습니다!",
+			say = "시리우스, {dorm3d}의 기운을 빠르게 회복시켜 드릴 수 있는 방법을 알고 있습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -74,12 +74,12 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "지금 바로 주인님의 목욕 준비를 하겠습니다! …우선은 옷부터 벗겨 드리지요!",
+			say = "지금 바로 {dorm3d}의 목욕 준비를 하겠습니다! …우선은 옷부터 벗겨 드리지요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

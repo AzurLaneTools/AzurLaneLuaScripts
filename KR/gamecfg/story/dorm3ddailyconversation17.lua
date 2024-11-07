@@ -15,7 +15,7 @@ return {
 			say = "――시리우스, 뭘 그렇게 골똘히 생각해?"
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -68,12 +68,12 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "주인님… 다 알고 계시면서……",
+			say = "{dorm3d}… 다 알고 계시면서……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

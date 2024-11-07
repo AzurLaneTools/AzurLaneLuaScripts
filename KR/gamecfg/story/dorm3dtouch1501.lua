@@ -9,7 +9,7 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "시리우스",
+			actorName = 20220,
 			say = "왠지… 이상한 느낌이에요.",
 			typewriter = {
 				speed = 0.05,

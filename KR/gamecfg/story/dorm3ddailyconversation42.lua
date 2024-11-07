@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION42",
 	scripts = {
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "이전에는 그저 메이드로서, 주인님을 곁에서 모시는 것만으로 만족했지만…",
+			say = "이전에는 그저 메이드로서, {dorm3d}을 곁에서 모시는 것만으로 만족했지만…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,24 +44,24 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "주인님과의 관계가 더 가까워지면서… 시리우스, 점점 욕심만 많아지네요…",
+			say = "{dorm3d}과의 관계가 더 가까워지면서… 시리우스, 점점 욕심만 많아지네요…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "시리우스를 바꿔 놓으셨군요, 자랑스러운 주인님.",
+			say = "시리우스를 바꿔 놓으셨군요, 자랑스러운 {dorm3d}.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,12 +79,12 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "시리우스도 잘 모르겠습니다… 다만 주인님 곁을 더 떠날 수 없게 되었다는 것만은 확실합니다, 자랑스러운 주인님.",
+			say = "시리우스도 잘 모르겠습니다… 다만 {dorm3d} 곁을 더 떠날 수 없게 되었다는 것만은 확실합니다, 자랑스러운 {dorm3d}.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

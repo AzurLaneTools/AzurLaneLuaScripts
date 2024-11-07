@@ -15,12 +15,12 @@ return {
 			say = "――잠깐 나갔다 올까?"
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "자랑스러운 주인님, 기꺼이 동행하겠습니다! 아… 혹시 저와 함께 있는 것이 조금 지루하신 건가요…?",
+			say = "자랑스러운 {dorm3d}, 기꺼이 동행하겠습니다! 아… 혹시 저와 함께 있는 것이 조금 지루하신 건가요…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,12 +60,12 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "그렇다면 주인님께서 원하시는 것은… 데, 데이트?! 알겠습니다. 주인님이 완전히 만족하실 때까지 곁에서 성심성의껏 모시겠습니다❤",
+			say = "그렇다면 {dorm3d}께서 원하시는 것은… 데, 데이트?! 알겠습니다. {dorm3d}이 완전히 만족하실 때까지 곁에서 성심성의껏 모시겠습니다❤",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

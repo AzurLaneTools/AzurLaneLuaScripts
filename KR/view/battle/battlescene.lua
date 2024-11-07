@@ -583,16 +583,21 @@ slot0.initPauseWindow = function(slot0)
 		end
 
 		if uv0.pauseWindow:GetComponent(typeof(Animation)) then
-			slot1:Play("msgbox_out")
+			if slot1:IsPlaying("msgbox_out") then
+				slot1:Stop("msgbox_out")
+				slot1:Play("msgbox_in")
+			else
+				slot1:Play("msgbox_out")
 
-			slot2 = uv0.pauseWindow
-			slot2 = slot2:GetComponent(typeof(DftAniEvent))
+				slot2 = uv0.pauseWindow
+				slot2 = slot2:GetComponent(typeof(DftAniEvent))
 
-			slot2:SetEndEvent(function (slot0)
-				setActive(uv0.pauseWindow, false)
-				pg.UIMgr.GetInstance():UnblurPanel(uv0.pauseWindow, uv0._tf)
-				uv1:Resume()
-			end)
+				slot2:SetEndEvent(function (slot0)
+					setActive(uv0.pauseWindow, false)
+					pg.UIMgr.GetInstance():UnblurPanel(uv0.pauseWindow, uv0._tf)
+					uv1:Resume()
+				end)
+			end
 		else
 			setActive(uv0.pauseWindow, false)
 			pg.UIMgr.GetInstance():UnblurPanel(uv0.pauseWindow, uv0._tf)

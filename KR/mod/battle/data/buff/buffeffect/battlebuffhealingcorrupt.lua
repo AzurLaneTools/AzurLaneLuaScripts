@@ -12,6 +12,7 @@ end
 slot1.SetArgs = function(slot0, slot1, slot2)
 	slot0._corruptRate = slot0._tempData.arg_list.corruptRate or 1
 	slot0._damageRate = slot3.damageRate or 1
+	slot0._proxy = uv0.Battle.BattleDataProxy.GetInstance()
 end
 
 slot1.onTakeHealing = function(slot0, slot1, slot2, slot3)
@@ -23,10 +24,5 @@ slot1.onTakeHealing = function(slot0, slot1, slot2, slot3)
 	slot5 = math.ceil(slot4 * slot0._corruptRate)
 	slot3.damage = slot4 - slot5
 
-	slot1:UpdateHP(math.ceil(slot5 * slot0._damageRate) * -1, {
-		isMiss = false,
-		isCri = false,
-		isShare = false,
-		isHeal = false
-	})
+	slot0._proxy:HandleDirectDamage(slot1, math.ceil(slot5 * slot0._damageRate))
 end

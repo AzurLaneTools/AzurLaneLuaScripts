@@ -20,12 +20,12 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "아, 주인님의 그 상태는 아마 기온 저하에 따라 나타나는 「기상 곤란 증후군」이 분명할 겁니다.",
+			say = "아, {dorm3d}의 그 상태는 아마 기온 저하에 따라 나타나는 「기상 곤란 증후군」이 분명할 겁니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -67,12 +67,12 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "그렇게 하면… 늦게까지 주무시는 주인님을 깨워 드릴 수 있을 테니까요…♪",
+			say = "그렇게 하면… 늦게까지 주무시는 {dorm3d}을 깨워 드릴 수 있을 테니까요…♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -9,7 +9,7 @@ return {
 	id = "DORM3DDAILYCONVERSATION9",
 	scripts = {
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
@@ -44,12 +44,12 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "조금 더 추워지면, 주인님과 함께 따뜻한 벽난로 앞에 앉아서 시간을 보낼 수 있을 걸 생각하니… 시리우스는… ///",
+			say = "조금 더 추워지면, {dorm3d}과 함께 따뜻한 벽난로 앞에 앉아서 시간을 보낼 수 있을 걸 생각하니… 시리우스는… ///",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

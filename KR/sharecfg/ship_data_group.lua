@@ -1796,6 +1796,21 @@ pg.ship_data_group = setmetatable({
 		[960006] = {
 			612
 		},
+		[960007] = {
+			664
+		},
+		[960008] = {
+			665
+		},
+		[960009] = {
+			666
+		},
+		[960010] = {
+			667
+		},
+		[960011] = {
+			668
+		},
 		[1010001] = {
 			10001
 		},
@@ -2813,7 +2828,12 @@ pg.ship_data_group = setmetatable({
 			610,
 			611,
 			614,
-			612
+			612,
+			664,
+			665,
+			666,
+			667,
+			668
 		},
 		{
 			10001,
@@ -3560,6 +3580,11 @@ pg.ship_data_group = setmetatable({
 		611,
 		614,
 		612,
+		664,
+		665,
+		666,
+		667,
+		668,
 		10001,
 		10002,
 		10003,
@@ -29273,6 +29298,166 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"한정 이벤트: 템페스타와 청춘의 샘",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[664] = {
+		nationality = 96,
+		type = 24,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 960007,
+		index_id = 598,
+		code = 664,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"E",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"이벤트: 템페스타와 잠든 바다",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[665] = {
+		nationality = 96,
+		type = 23,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 960008,
+		index_id = 599,
+		code = 665,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"E",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"이벤트: 템페스타와 잠든 바다",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[666] = {
+		nationality = 96,
+		type = 22,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 960009,
+		index_id = 600,
+		code = 666,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"E",
+			"E",
+			"C",
+			"E",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"이벤트: 템페스타와 잠든 바다",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[667] = {
+		nationality = 96,
+		type = 23,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 960010,
+		index_id = 601,
+		code = 667,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"E",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"이벤트: 템페스타와 잠든 바다",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[668] = {
+		nationality = 96,
+		type = 22,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 960011,
+		index_id = 602,
+		code = 668,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"E",
+			"E",
+			"C",
+			"E",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"이벤트: 템페스타와 잠든 바다",
 				{
 					""
 				},

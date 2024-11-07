@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION55",
 	scripts = {
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "주인님, 날씨가 많이 더우니 같이 아이스크림이라도 드시는 게 어떻습니까?",
+			say = "{dorm3d}, 날씨가 많이 더우니 같이 아이스크림이라도 드시는 게 어떻습니까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -67,7 +67,7 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,

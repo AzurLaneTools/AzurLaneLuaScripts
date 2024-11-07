@@ -9,7 +9,7 @@ return {
 	id = "DORM3DDAILYCONVERSATION24",
 	scripts = {
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
@@ -64,7 +64,7 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -76,12 +76,12 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "자랑스러운 주인님의 모습은 이미 제 뇌리에 박혀있는데도, 가끔씩 이렇게 넋을 잃고 바라보게 되는군요…///",
+			say = "자랑스러운 {dorm3d}의 모습은 이미 제 뇌리에 박혀있는데도, 가끔씩 이렇게 넋을 잃고 바라보게 되는군요…///",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

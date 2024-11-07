@@ -8430,6 +8430,37 @@ _G.pg.base.item_data_statistics[11055] = {
 }
 
 
+_G.pg.base.item_data_statistics[11056] = {
+	open_directly = 0,
+	name = "구식 데미캐넌 T3 설계도",
+	type = 9,
+	display = "구식 데미캐넌 T3 설계도",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/150100",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 11056,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[12000] = {
 	open_directly = 0,
 	name = "93식 산소어뢰 T3 설계도",
@@ -25134,6 +25165,131 @@ _G.pg.base.item_data_statistics[30360] = {
 }
 
 
+_G.pg.base.item_data_statistics[30361] = {
+	open_directly = 1,
+	name = "장비 스킨 상자 (공포광조)",
+	type = 11,
+	display = "무작위로 장비 스킨 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxguiguai",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30361",
+	id = 30361,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4059,
+			1
+		},
+		{
+			9,
+			4060,
+			1
+		},
+		{
+			9,
+			4061,
+			1
+		},
+		{
+			9,
+			4062,
+			1
+		},
+		{
+			9,
+			4063,
+			1
+		},
+		{
+			9,
+			4064,
+			1
+		},
+		{
+			9,
+			4065,
+			1
+		},
+		{
+			9,
+			4066,
+			1
+		},
+		{
+			9,
+			4067,
+			1
+		},
+		{
+			9,
+			4068,
+			1
+		},
+		{
+			9,
+			4069,
+			1
+		},
+		{
+			9,
+			4070,
+			1
+		},
+		{
+			9,
+			4071,
+			1
+		},
+		{
+			9,
+			4072,
+			1
+		},
+		{
+			9,
+			4073,
+			1
+		},
+		{
+			9,
+			4074,
+			1
+		},
+		{
+			9,
+			4075,
+			1
+		},
+		{
+			9,
+			4076,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "장비스킨 상자(월드 투어)",
@@ -35956,6 +36112,219 @@ _G.pg.base.item_data_statistics[30546] = {
 		{
 			9,
 			557,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_data_statistics[30547] = {
+	open_directly = 1,
+	name = "선택 장비 스킨 상자 (공포광조)",
+	type = 13,
+	display = "사용하면 장비 스킨(공포광조) 중 하나를 선택해서 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxguiguaizixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30547,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4059,
+			1
+		},
+		{
+			9,
+			4060,
+			1
+		},
+		{
+			9,
+			4061,
+			1
+		},
+		{
+			9,
+			4062,
+			1
+		},
+		{
+			9,
+			4063,
+			1
+		},
+		{
+			9,
+			4064,
+			1
+		},
+		{
+			9,
+			4065,
+			1
+		},
+		{
+			9,
+			4066,
+			1
+		},
+		{
+			9,
+			4067,
+			1
+		},
+		{
+			9,
+			4068,
+			1
+		},
+		{
+			9,
+			4069,
+			1
+		},
+		{
+			9,
+			4070,
+			1
+		},
+		{
+			9,
+			4071,
+			1
+		},
+		{
+			9,
+			4072,
+			1
+		},
+		{
+			9,
+			4073,
+			1
+		},
+		{
+			9,
+			4074,
+			1
+		},
+		{
+			9,
+			4075,
+			1
+		},
+		{
+			9,
+			4076,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4059,
+			1
+		},
+		{
+			9,
+			4060,
+			1
+		},
+		{
+			9,
+			4061,
+			1
+		},
+		{
+			9,
+			4062,
+			1
+		},
+		{
+			9,
+			4063,
+			1
+		},
+		{
+			9,
+			4064,
+			1
+		},
+		{
+			9,
+			4065,
+			1
+		},
+		{
+			9,
+			4066,
+			1
+		},
+		{
+			9,
+			4067,
+			1
+		},
+		{
+			9,
+			4068,
+			1
+		},
+		{
+			9,
+			4069,
+			1
+		},
+		{
+			9,
+			4070,
+			1
+		},
+		{
+			9,
+			4071,
+			1
+		},
+		{
+			9,
+			4072,
+			1
+		},
+		{
+			9,
+			4073,
+			1
+		},
+		{
+			9,
+			4074,
+			1
+		},
+		{
+			9,
+			4075,
+			1
+		},
+		{
+			9,
+			4076,
 			1
 		}
 	}

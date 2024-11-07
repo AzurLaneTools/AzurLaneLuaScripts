@@ -76,6 +76,7 @@ slot0.execute = function(slot0, slot1)
 
 					if uv1.type == ChapterConst.OpRetreat then
 						if not uv1.id then
+							slot7 = slot1:getMapById(slot2:getConfig("map")):getMapType()
 							uv1.win = uv0.chapter:CheckChapterWillWin()
 
 							if uv1.win then
@@ -83,10 +84,9 @@ slot0.execute = function(slot0, slot1)
 								slot1:addRemasterPassCount(uv0.chapter.id)
 							end
 
-							slot6 = pg.TimeMgr.GetInstance()
-							slot7 = slot1:getMapById(slot2:getConfig("map"))
+							slot8 = pg.TimeMgr.GetInstance()
 
-							if uv1.win and slot7:getMapType() == Map.ELITE and slot6:IsSameDay(slot2:getStartTime(), slot6:GetServerTime()) then
+							if uv1.win and slot7 == Map.ELITE and slot8:IsSameDay(slot2:getStartTime(), slot8:GetServerTime()) then
 								getProxy(DailyLevelProxy):EliteCountPlus()
 							end
 

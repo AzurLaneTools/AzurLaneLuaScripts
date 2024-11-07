@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION53",
 	scripts = {
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "주인님, 밤에는 해변에서 바비큐 파티를 여는 게 어떨까요?",
+			say = "{dorm3d}, 밤에는 해변에서 바비큐 파티를 여는 게 어떨까요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -67,19 +67,19 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "그러실 필요 없습니다. 부디 주인님은 편히 쉬고 계시길.",
+			say = "그러실 필요 없습니다. 부디 {dorm3d}은 편히 쉬고 계시길.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,

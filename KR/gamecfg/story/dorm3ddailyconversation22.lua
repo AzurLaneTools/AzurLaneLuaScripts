@@ -20,7 +20,7 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -67,24 +67,24 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "그럼 시리우스, 주인님께서 빨리 일을 마치실 수 있도록 앞으로는 매일 서류 작업을 도와드리겠습니다!",
+			say = "그럼 시리우스, {dorm3d}께서 빨리 일을 마치실 수 있도록 앞으로는 매일 서류 작업을 도와드리겠습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "자랑스러운 주인님이 원하신다면, 시리우스가 무엇이든 이뤄드리겠습니다!",
+			say = "자랑스러운 {dorm3d}이 원하신다면, 시리우스가 무엇이든 이뤄드리겠습니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

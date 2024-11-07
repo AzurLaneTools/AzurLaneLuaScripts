@@ -9,7 +9,7 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "시리우스",
+			actorName = 20220,
 			say = "天狼星最近在尝试将皇家的传统美食与东煌的特色风味融合，做一道特殊的融合料理。",
 			typewriter = {
 				speed = 0.05,
@@ -51,7 +51,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "시리우스",
+			actorName = 20220,
 			say = "是的。天狼星听说东煌有一道叫做“剁椒鱼头”的料理，而皇家也有吃鱼的传统……",
 			typewriter = {
 				speed = 0.05,
@@ -60,7 +60,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "시리우스",
+			actorName = 20220,
 			say = "天狼星就在尝试将“剁椒”这种风味，融入仰望星空派。",
 			typewriter = {
 				speed = 0.05,
@@ -82,7 +82,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "시리우스",
+			actorName = 20220,
 			say = "主人？您的脸色突然变得有些差劲……",
 			typewriter = {
 				speed = 0.05,
@@ -123,7 +123,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "시리우스",
+			actorName = 20220,
 			say = "唔，还停留在制作仰望星空派的部分。",
 			typewriter = {
 				speed = 0.05,
@@ -132,7 +132,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "시리우스",
+			actorName = 20220,
 			say = "每次烤出来的派，都不太尽如人意呢……",
 			typewriter = {
 				speed = 0.05,

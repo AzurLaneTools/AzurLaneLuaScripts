@@ -168,22 +168,16 @@ slot0.HandleDirectDamage = function(slot0, slot1, slot2, slot3, slot4)
 		slot5 = slot3:GetAttrByName("id")
 	end
 
-	slot7 = slot1:GetAttrByName("id")
-	slot8 = slot1:UpdateHP(slot2 * -1, {
+	slot0:DamageStatistics(slot5, slot1:GetAttrByName("id"), -slot1:UpdateHP(slot2 * -1, {
 		isMiss = false,
 		isCri = false,
 		isHeal = false,
 		damageReason = slot4,
 		srcID = slot5
-	})
-	slot9 = slot1:IsAlive()
+	}))
 
-	if slot3 then
-		slot0:DamageStatistics(slot5, slot7, -slot8)
-
-		if not slot9 then
-			slot0:KillCountStatistics(slot5, slot7)
-		end
+	if not slot1:IsAlive() and slot5 then
+		slot0:KillCountStatistics(slot5, slot7)
 	end
 
 	if not slot9 then
@@ -207,7 +201,7 @@ slot0.obituary = function(slot0, slot1, slot2, slot3)
 						killer = slot3
 					})
 				elseif not slot1:GetWorldDeathMark() then
-					slot8:TriggerBuff(uv0.BuffEffectType.ON_FRIENDLY_SHIP_DYING, {
+					slot8:TriggerBuff(uv0.BuffEffectType.ON_TEAMMATE_SHIP_DYING, {
 						unit = slot1,
 						killer = slot3
 					})

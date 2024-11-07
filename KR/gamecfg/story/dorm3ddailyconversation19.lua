@@ -9,7 +9,7 @@ return {
 	id = "DORM3DDAILYCONVERSATION19",
 	scripts = {
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -67,24 +67,24 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "주인님을 더 잘 모시기 위해 쓸데없는 시간을 줄이는 것도 메이드로서 필수 덕목입니다.",
+			say = "{dorm3d}을 더 잘 모시기 위해 쓸데없는 시간을 줄이는 것도 메이드로서 필수 덕목입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "되도록 오랫동안 곁에서 모시고 싶은 것이 제 솔직한 마음입니다. 시리우스의 자랑스러운 주인님…",
+			say = "되도록 오랫동안 곁에서 모시고 싶은 것이 제 솔직한 마음입니다. 시리우스의 자랑스러운 {dorm3d}…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

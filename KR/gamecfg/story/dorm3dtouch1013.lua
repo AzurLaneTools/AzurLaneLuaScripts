@@ -9,7 +9,7 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "시리우스",
+			actorName = 20220,
 			say = "主人，您能再靠近天狼星一些吗？",
 			typewriter = {
 				speed = 0.05,

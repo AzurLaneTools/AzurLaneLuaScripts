@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION54",
 	scripts = {
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "주인님, 여기… 같이 모은 조개껍질로 목걸이를 만들어 봤습니다.",
+			say = "{dorm3d}, 여기… 같이 모은 조개껍질로 목걸이를 만들어 봤습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
@@ -89,12 +89,12 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "주인님과 함께 열심히 모은 조개껍질이니… 보기만 해도 오늘 추억이 떠오를 것 같습니다.",
+			say = "{dorm3d}과 함께 열심히 모은 조개껍질이니… 보기만 해도 오늘 추억이 떠오를 것 같습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

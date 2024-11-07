@@ -5,9 +5,15 @@ slot0.ON_COMMENT = "InstagramMediator:ON_COMMENT"
 slot0.ON_REPLY_UPDATE = "InstagramMediator:ON_REPLY_UPDATE"
 slot0.ON_READED = "InstagramMediator:ON_READED"
 slot0.ON_COMMENT_LIST_UPDATE = "InstagramMediator:ON_COMMENT_LIST_UPDATE"
+slot0.ON_REFRESH_TIP = "InstagramMediator:ON_REFRESH_TIP"
+slot0.CLOSE_ALL = "InstagramMediator:CLOSE_ALL"
+slot0.CLOSE_DETAIL = "InstagramMediator:CLOSE_DETAIL"
+slot0.BACK_PRESSED = "InstagramMediator:BACK_PRESSED"
 
 slot0.register = function(slot0)
-	getProxy(InstagramProxy):InitLocalConfigs()
+	slot1 = getProxy(InstagramProxy)
+
+	slot1:InitLocalConfigs()
 	slot0:bind(uv0.ON_READED, function (slot0, slot1)
 		uv0:sendNotification(GAME.ACT_INSTAGRAM_OP, {
 			arg2 = 0,
@@ -54,12 +60,20 @@ slot0.register = function(slot0)
 			uv0.viewComponent:emit(uv1.ON_REPLY_UPDATE, slot1, slot2)
 		end
 	end)
-	slot0.viewComponent:SetProxy(getProxy(InstagramProxy))
+
+	slot1 = slot0.viewComponent
+
+	slot1:SetProxy(getProxy(InstagramProxy))
+	slot0:bind(uv0.CLOSE_ALL, function (slot0)
+		uv0:sendNotification(InstagramMainMediator.CLOSE_ALL)
+	end)
 end
 
 slot0.listNotificationInterests = function(slot0)
 	return {
-		GAME.ACT_INSTAGRAM_OP_DONE
+		GAME.ACT_INSTAGRAM_OP_DONE,
+		uv0.CLOSE_DETAIL,
+		uv0.BACK_PRESSED
 	}
 end
 
@@ -70,6 +84,7 @@ slot0.handleNotification = function(slot0, slot1)
 		uv0.viewComponent:SetProxy(getProxy(InstagramProxy))
 		uv0.viewComponent:UpdateInstagram(uv1.id)
 		uv0.viewComponent:UpdateSelectedInstagram(uv1.id)
+		uv0:sendNotification(InstagramMainMediator.CHANGE_JUUS_TIP)
 	end
 
 	if slot1:getName() == GAME.ACT_INSTAGRAM_OP_DONE then
@@ -90,6 +105,10 @@ slot0.handleNotification = function(slot0, slot1)
 		elseif slot3.cmd == ActivityConst.INSTAGRAM_OP_MARK_READ then
 			slot4()
 		end
+	elseif slot2 == uv0.CLOSE_DETAIL then
+		slot0.viewComponent:CloseDetail()
+	elseif slot2 == uv0.BACK_PRESSED then
+		slot0.viewComponent:onBackPressed()
 	end
 end
 

@@ -9,7 +9,7 @@ return {
 	id = "DORM3DDAILYCONVERSATION2",
 	scripts = {
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
@@ -55,12 +55,12 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "자랑스러운 주인님, 그것보다… 재료를 소비할 수 있도록 시리우스의 요리 특훈에 함께 해주셨으면… 음……",
+			say = "자랑스러운 {dorm3d}, 그것보다… 재료를 소비할 수 있도록 시리우스의 요리 특훈에 함께 해주셨으면… 음……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

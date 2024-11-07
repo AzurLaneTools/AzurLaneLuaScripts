@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION45",
 	scripts = {
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "언제부터 시리우스가 주인님을 마음에 품게 되었는지… 궁금하신가요?",
+			say = "언제부터 시리우스가 {dorm3d}을 마음에 품게 되었는지… 궁금하신가요?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,24 +44,24 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "사실 주인님을 처음 뵌 순간부터 시리우스는…",
+			say = "사실 {dorm3d}을 처음 뵌 순간부터 시리우스는…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "주인님은 어떠신가요? 주인님은 언제부터 시리우스를…",
+			say = "{dorm3d}은 어떠신가요? {dorm3d}은 언제부터 시리우스를…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,12 +78,12 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "설마 주인님께서 이 질문에 대답을 주시다니… 시리우스는 너무 기쁩니다. 자랑스러운 주인님…",
+			say = "설마 {dorm3d}께서 이 질문에 대답을 주시다니… 시리우스는 너무 기쁩니다. 자랑스러운 {dorm3d}…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

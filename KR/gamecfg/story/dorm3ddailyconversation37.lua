@@ -9,7 +9,7 @@ return {
 	id = "DORM3DDAILYCONVERSATION37",
 	scripts = {
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			dir = 1,
 			nameColor = "#FFFFFF",
@@ -50,19 +50,19 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "네♪ 자랑스러운 주인님과 단둘이 있는 것만으로도 시리우스는 설레고 가슴이 뛴답니다. 그러니 부디 지금부터 시리우스와…",
+			say = "네♪ 자랑스러운 {dorm3d}과 단둘이 있는 것만으로도 시리우스는 설레고 가슴이 뛴답니다. 그러니 부디 지금부터 시리우스와…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,

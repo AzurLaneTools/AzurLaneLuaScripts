@@ -9,12 +9,12 @@ return {
 	id = "DORM3DDAILYCONVERSATION51",
 	scripts = {
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "자랑스러운 주인님, 피부가 빨갛군요…… 설마 햇빛을 오래 쬐어서…?",
+			say = "자랑스러운 {dorm3d}, 피부가 빨갛군요…… 설마 햇빛을 오래 쬐어서…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -56,24 +56,24 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "주인님, 바로 시리우스가 파라솔까지 안내하겠습니다! 거기서 선크림을 발라드리지요.",
+			say = "{dorm3d}, 바로 시리우스가 파라솔까지 안내하겠습니다! 거기서 선크림을 발라드리지요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "잠시 동안 몸을 맡겨주시면 감사하겠습니다! 자랑스러운 주인님!",
+			say = "잠시 동안 몸을 맡겨주시면 감사하겠습니다! 자랑스러운 {dorm3d}!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

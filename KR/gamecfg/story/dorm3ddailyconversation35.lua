@@ -20,7 +20,7 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
@@ -55,7 +55,7 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -67,12 +67,12 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "아니, 지금 이 순간… 시리우스에 대해 더 많이 알고 싶어하는 주인님의 목소리야말로 제가 가장 좋아하는 음악이지요!",
+			say = "아니, 지금 이 순간… 시리우스에 대해 더 많이 알고 싶어하는 {dorm3d}의 목소리야말로 제가 가장 좋아하는 음악이지요!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

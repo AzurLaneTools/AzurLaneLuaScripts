@@ -9,7 +9,7 @@ return {
 	id = "DORM3DDAILYCONVERSATION29",
 	scripts = {
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -67,24 +67,24 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "정말인가요?! 시리우스, 자랑스러운 주인님과 좁은 공간에서 단둘이……",
+			say = "정말인가요?! 시리우스, 자랑스러운 {dorm3d}과 좁은 공간에서 단둘이……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "주인님께서 시리우스에게 노래하는 법을 알려주신다면…… 정말 더할 나위 없는 영광일 겁니다///",
+			say = "{dorm3d}께서 시리우스에게 노래하는 법을 알려주신다면…… 정말 더할 나위 없는 영광일 겁니다///",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

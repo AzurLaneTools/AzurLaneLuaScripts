@@ -9,7 +9,7 @@ return {
 	id = "DORM3DDAILYCONVERSATION5",
 	scripts = {
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
@@ -44,7 +44,7 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -66,7 +66,7 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -79,13 +79,13 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
-			say = "저, 정말인가요? 역시 시리우스를 알아주는 사람은 주인님뿐입니다!",
+			say = "저, 정말인가요? 역시 시리우스를 알아주는 사람은 {dorm3d}뿐입니다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

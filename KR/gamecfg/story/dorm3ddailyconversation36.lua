@@ -9,7 +9,7 @@ return {
 	id = "DORM3DDAILYCONVERSATION36",
 	scripts = {
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			dir = 1,
 			nameColor = "#FFFFFF",
@@ -54,7 +54,7 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -66,24 +66,24 @@ return {
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "메이드로서 주인님을 모시는 것만으로도 행복하지만… 좀 더 탐구하고 싶은 욕심이 들어서요.",
+			say = "메이드로서 {dorm3d}을 모시는 것만으로도 행복하지만… 좀 더 탐구하고 싶은 욕심이 들어서요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "시리우스",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "부디 시리우스의 성장하는 모습을 지켜봐주시기 바랍니다. 시리우스의 자랑스러운 주인님.",
+			say = "부디 시리우스의 성장하는 모습을 지켜봐주시기 바랍니다. 시리우스의 자랑스러운 {dorm3d}.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

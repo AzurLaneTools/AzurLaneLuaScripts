@@ -9,8 +9,8 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "시리우스",
-			say = "자랑스러운 주인님, 드디어 오셨군요. 주인님과 보내는 시간을 시리우스는 무척 기대하고 있었답니다.그럼, 우선 마사지로 피로를 풀어드리지요.",
+			actorName = 20220,
+			say = "자랑스러운 {dorm3d}, 드디어 오셨군요. {dorm3d}과 보내는 시간을 시리우스는 무척 기대하고 있었답니다.그럼, 우선 마사지로 피로를 풀어드리지요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

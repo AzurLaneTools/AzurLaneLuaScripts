@@ -1,113 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_3 = {
-	[103141] = {
-		name = "Funny Bunny！",
-		id = 103141,
-		desc = "후하~ 조명! 음악! 맛있는 음식! 전부 세팅 완료, 좋아! 헤헷, 바니 샌프란시스코의 파티에 온 걸 환영해! 맘껏 즐겨!",
-		illustrator2 = -1,
-		ship_group = 10314,
-		group_index = 1,
-		prefab = "jiujinshan_3",
-		painting = "jiujinshan_3",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 16,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "145",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "1102",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70546,
-		voice_actor = 275,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.062,
-					1.166,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.075,
-					1.103,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.001,
-					0.003,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.625,
-							2.35,
-							0.14
-						}
-					}
-				}
-			}
-		}
-	},
 	[103142] = {
 		name = "It's showtime!",
 		id = 103142,
@@ -1579,22 +1472,22 @@ pg.base.ship_skin_template_3 = {
 		bound_bone = {
 			cannon = {
 				{
-					1.202,
-					1.03,
+					0.9,
+					0.662,
 					0
 				}
 			},
 			vicegun = {
 				{
-					1.22,
-					1.132,
+					0.874,
+					0.639,
 					0
 				}
 			},
 			torpedo = {
 				{
-					-0.009,
-					-0.004,
+					0,
+					0,
 					0
 				}
 			}
@@ -1606,8 +1499,8 @@ pg.base.ship_skin_template_3 = {
 					{
 						"smoke",
 						{
-							-0.47,
-							2.213,
+							-0.367,
+							2.469,
 							0.14
 						}
 					}
@@ -1694,15 +1587,15 @@ pg.base.ship_skin_template_3 = {
 		bound_bone = {
 			cannon = {
 				{
-					0.76,
-					0.867,
+					0.716,
+					0.874,
 					0
 				}
 			},
 			vicegun = {
 				{
-					0.764,
-					0.846,
+					0.72,
+					0.875,
 					0
 				}
 			},
@@ -1721,8 +1614,8 @@ pg.base.ship_skin_template_3 = {
 					{
 						"smoke",
 						{
-							-0.859,
-							2.284,
+							-0.361,
+							2.431,
 							0.14
 						}
 					}
@@ -12772,6 +12665,204 @@ pg.base.ship_skin_template_3 = {
 				{
 					1.438,
 					1.204,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.37,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[107111] = {
+		name = "인트레피드의 일투",
+		id = 107111,
+		desc = "모항에서 야구 시합을 하려고 하는 것 같아. 이글 유니온의 동료들과 팀을 만들기 전에 실력을 키우기 위해 연습을 하고 싶어. 지휘관, 피칭 연습을 좀 도와줄 수 있어?",
+		illustrator2 = -1,
+		ship_group = 10711,
+		group_index = 1,
+		prefab = "wuwei_2",
+		painting = "wuwei_2",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 13,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "132",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70332,
+		voice_actor = 225,
+		spine_offset = "",
+		illustrator = 8,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.352,
+					1.153,
+					0
+				}
+			},
+			plane = {
+				{
+					1.337,
+					1.258,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.37,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[107120] = {
+		name = "호넷Ⅱ",
+		id = 107120,
+		desc = "에식스급 항공모함—호넷II, 현호 CV-12",
+		illustrator2 = -1,
+		ship_group = 10712,
+		group_index = 0,
+		prefab = "dahuangfengII",
+		painting = "dahuangfengII",
+		hand_id = 1,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 24,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.483,
+					1.215,
+					0
+				}
+			},
+			plane = {
+				{
+					1.438,
+					1.01,
 					0
 				}
 			}
