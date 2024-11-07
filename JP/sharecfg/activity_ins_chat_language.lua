@@ -1122,7 +1122,110 @@ pg.activity_ins_chat_language = setmetatable({
 		1118,
 		1119,
 		1120,
-		1121
+		1121,
+		1122,
+		1123,
+		1124,
+		1125,
+		1126,
+		1127,
+		1128,
+		1129,
+		1130,
+		1131,
+		1132,
+		1133,
+		1134,
+		1135,
+		1136,
+		1137,
+		1138,
+		1139,
+		1140,
+		1141,
+		1142,
+		1143,
+		1144,
+		1145,
+		1146,
+		1147,
+		1148,
+		1149,
+		1150,
+		1151,
+		1152,
+		1153,
+		1154,
+		1155,
+		1156,
+		1157,
+		1158,
+		1159,
+		1160,
+		1161,
+		1162,
+		1163,
+		1164,
+		1165,
+		1166,
+		1167,
+		1168,
+		1169,
+		1170,
+		1171,
+		1172,
+		1173,
+		1174,
+		1175,
+		1176,
+		1177,
+		1178,
+		1179,
+		1180,
+		1181,
+		1182,
+		1183,
+		1184,
+		1185,
+		1186,
+		1187,
+		1188,
+		1189,
+		1190,
+		1191,
+		1192,
+		1193,
+		1194,
+		1195,
+		1196,
+		1197,
+		1198,
+		1199,
+		1200,
+		1201,
+		1202,
+		1203,
+		1204,
+		1205,
+		1206,
+		1207,
+		1208,
+		1209,
+		1210,
+		1211,
+		1212,
+		1213,
+		1214,
+		1215,
+		1216,
+		1217,
+		1218,
+		1219,
+		1220,
+		1221,
+		1222,
+		1223,
+		1224
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -10926,5 +11029,975 @@ pg.base.activity_ins_chat_language = {
 		type = 1,
 		id = 1121,
 		flag = 0
+	},
+	{
+		param = "『お菓子作りの極意をお教えします！達人ダンケルクによる対面授業！コースは初心者から――』",
+		ship_group = 20509,
+		type = 1,
+		id = 1122,
+		flag = 0,
+		option = {
+			{
+				1,
+				"ん？"
+			},
+			{
+				2,
+				"……送信ミス？"
+			},
+			{
+				3,
+				"やっぱり明石の宣伝か…"
+			}
+		}
+	},
+	{
+		param = "ん？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1123,
+		flag = 1
+	},
+	{
+		param = "ダンケルクのお菓子作り教室？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1124,
+		flag = 1
+	},
+	{
+		param = "……送信ミス？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1125,
+		flag = 2
+	},
+	{
+		param = "それとも…この「ダンケルクのお菓子作り教室」を自分に薦めている…？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1126,
+		flag = 2
+	},
+	{
+		param = "明石の宣伝かな？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1127,
+		flag = 3
+	},
+	{
+		param = "？",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1128,
+		flag = 0
+	},
+	{
+		param = "ごめん……メモ帳代わりに使っている窓はあるけど…",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1129,
+		flag = 0
+	},
+	{
+		param = "指揮官のトークアイコンの近くにあったから、うっかり間違えちゃって……",
+		ship_group = 20509,
+		type = 1,
+		id = 1130,
+		flag = 0,
+		option = {
+			{
+				4,
+				"お菓子作りをもっと上達させたいのかな？"
+			},
+			{
+				5,
+				"なるほど、別に気にしてないよ"
+			},
+			{
+				6,
+				"やっぱり明石の宣伝か…"
+			}
+		}
+	},
+	{
+		param = "なるほど、お菓子作りをもっと上達させたいのかな？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1131,
+		flag = 4
+	},
+	{
+		param = "ええ、クッキーだけじゃなく…もっと特別で美味しいお菓子を作りたいわ",
+		ship_group = 20509,
+		type = 1,
+		id = 1132,
+		flag = 4,
+		option = {
+			{
+				7,
+				"楽しみにしているよ"
+			}
+		}
+	},
+	{
+		param = "楽しみにしているよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1133,
+		flag = 7
+	},
+	{
+		param = "期待を裏切らないように頑張るわ～",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1134,
+		flag = 7
+	},
+	{
+		param = "そうだ。練習で作ったお菓子を持って行ってもいいかしら",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1135,
+		flag = 7
+	},
+	{
+		param = "もちろん、指揮官が食べたいお菓子があったら、いつでも私に言って",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1136,
+		flag = 7
+	},
+	{
+		param = "そこを重点的に勉強するから",
+		ship_group = 20509,
+		type = 1,
+		id = 1137,
+		flag = 7,
+		option = {
+			{
+				8,
+				"おお！ありがたい！"
+			}
+		}
+	},
+	{
+		param = "おお！ありがたい！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1138,
+		flag = 8
+	},
+	{
+		param = "231",
+		ship_group = 20509,
+		option = "",
+		type = 4,
+		id = 1139,
+		flag = 8
+	},
+	{
+		param = "なるほど、別に気にしてないよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1140,
+		flag = 5
+	},
+	{
+		param = "むしろ見たら興味が沸いちゃって…",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1141,
+		flag = 5
+	},
+	{
+		param = "ん？指揮官も興味あるの？",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1142,
+		flag = 5
+	},
+	{
+		param = "この後資料を送るからちょっと待ってて",
+		ship_group = 20509,
+		type = 1,
+		id = 1143,
+		flag = 5,
+		option = {
+			{
+				9,
+				"うん、一緒にお菓子作りを勉強しよう！"
+			},
+			{
+				10,
+				"興味があるのは授業の「成果」かな"
+			}
+		}
+	},
+	{
+		param = "うん、一緒にお菓子作りを勉強しよう！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1144,
+		flag = 9
+	},
+	{
+		param = "約束よ♪",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1145,
+		flag = 9
+	},
+	{
+		param = "218",
+		ship_group = 20509,
+		option = "",
+		type = 4,
+		id = 1146,
+		flag = 9
+	},
+	{
+		param = "興味があるのは…あくまで「成果」かな",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1147,
+		flag = 10
+	},
+	{
+		param = "なるほど……",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1148,
+		flag = 10
+	},
+	{
+		param = "そうね、その時は指揮官に改めて作ってあげるわ",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1149,
+		flag = 10
+	},
+	{
+		param = "引き続き手続きをしてくるわね",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1150,
+		flag = 10
+	},
+	{
+		param = "明石の宣伝かな？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1151,
+		flag = 6
+	},
+	{
+		param = "明石じゃなくてハウよ！指揮官、ごめんなさい！気をつけるから…",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1152,
+		flag = 6
+	},
+	{
+		param = "107",
+		ship_group = 20509,
+		type = 4,
+		id = 1153,
+		flag = 6,
+		option = {
+			{
+				11,
+				"[沉思ing]"
+			}
+		}
+	},
+	{
+		param = "112",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 1154,
+		flag = 11
+	},
+	{
+		param = "104",
+		ship_group = 20509,
+		type = 4,
+		id = 1155,
+		flag = 11,
+		option = {
+			{
+				12,
+				"[awsl]"
+			}
+		}
+	},
+	{
+		param = "102",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 1156,
+		flag = 12
+	},
+	{
+		param = "………！",
+		ship_group = 20509,
+		type = 1,
+		id = 1157,
+		flag = 12,
+		option = {
+			{
+				13,
+				"ごめんごめん…"
+			}
+		}
+	},
+	{
+		param = "ごめん。ちょっとだけからかいたくなった。",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1158,
+		flag = 13
+	},
+	{
+		param = "……うん！引き続き手続きをしてくるわ！",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1159,
+		flag = 13
+	},
+	{
+		param = "指揮官、今時間ある？",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1160,
+		flag = 0
+	},
+	{
+		param = "明日の予定について相談したいことが……",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1161,
+		flag = 0
+	},
+	{
+		param = "どこか行きたいところはある？",
+		ship_group = 20509,
+		type = 1,
+		id = 1162,
+		flag = 0,
+		option = {
+			{
+				1,
+				"できれば外がいいな……"
+			},
+			{
+				2,
+				"できれば屋内がいいな……"
+			}
+		}
+	},
+	{
+		param = "外に出かけて、自然に触れられる場所に行きたいな",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1163,
+		flag = 1
+	},
+	{
+		param = "そうね。明日は天気もいいし、日光浴でもすればいい気分転換になるわ",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1164,
+		flag = 1
+	},
+	{
+		param = "あ、そういえば花畑の花が咲いたの",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1165,
+		flag = 1
+	},
+	{
+		param = "お菓子を作るから、一緒にピクニックに行かない？",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1166,
+		flag = 1
+	},
+	{
+		param = "あ……初デートに手作りお菓子を持っていくなんて大丈夫かしら…？",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1167,
+		flag = 1
+	},
+	{
+		param = "『デートの注意事項』にあるように……ちょっと「重たすぎる」感じにならない？",
+		ship_group = 20509,
+		type = 1,
+		id = 1168,
+		flag = 1,
+		option = {
+			{
+				3,
+				"大丈夫。いいと思う"
+			},
+			{
+				4,
+				"『デートの注意事項』？"
+			}
+		}
+	},
+	{
+		param = "大丈夫。いいと思う",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1169,
+		flag = 3
+	},
+	{
+		param = "そう？",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1170,
+		flag = 3
+	},
+	{
+		param = "じゃあ今からお菓子の準備するわ",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1171,
+		flag = 3
+	},
+	{
+		param = "まずはクッキーとマフィンを作ってみようかしら♪",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1172,
+		flag = 3
+	},
+	{
+		param = "『デートの注意事項』？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1173,
+		flag = 4
+	},
+	{
+		param = "うん……初デートで失敗したくないから、ウェールズに相談したの",
+		ship_group = 20509,
+		type = 1,
+		id = 1174,
+		flag = 4,
+		option = {
+			{
+				5,
+				"なるほど、自信がないなら…"
+			}
+		}
+	},
+	{
+		param = "マニュアルを突き詰めても実践が必要さ。自信がないなら、素直に思うがままにやればいい",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1175,
+		flag = 5
+	},
+	{
+		param = "思うがままに……わかったわ",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1176,
+		flag = 5
+	},
+	{
+		param = "今からお菓子の準備をしてくるね。クッキーとマフィンを作ってみようかしら♪",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1177,
+		flag = 5
+	},
+	{
+		param = "ゆっくり座れる屋内がいいな",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1178,
+		flag = 2
+	},
+	{
+		param = "よかった、考えてること一緒だわ",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1179,
+		flag = 2
+	},
+	{
+		param = "じゃあスイーツを食べにカフェに行かない？",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1180,
+		flag = 2
+	},
+	{
+		param = "『デートの注意事項』でもカフェがおすすめとあったわ♪",
+		ship_group = 20509,
+		type = 1,
+		id = 1181,
+		flag = 2,
+		option = {
+			{
+				6,
+				"よし、カフェに行こうか"
+			},
+			{
+				7,
+				"『デートの注意事項』？"
+			}
+		}
+	},
+	{
+		param = "よし、じゃあそれで決定だな",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1182,
+		flag = 6
+	},
+	{
+		param = "どこのお店にする？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1183,
+		flag = 6
+	},
+	{
+		param = "ふふ、実は最近いいお店を見つけたのよ",
+		ship_group = 20509,
+		type = 1,
+		id = 1184,
+		flag = 6,
+		option = {
+			{
+				8,
+				"じゃあハウに任せるよ"
+			}
+		}
+	},
+	{
+		param = "じゃあハウに任せるよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1185,
+		flag = 8
+	},
+	{
+		param = "ええ、あなたの好みに合うといいわ",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1186,
+		flag = 8
+	},
+	{
+		param = "『デートの注意事項』？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1187,
+		flag = 7
+	},
+	{
+		param = "うん……初デートで失敗したくないから、ウェールズに相談したの",
+		ship_group = 20509,
+		type = 1,
+		id = 1188,
+		flag = 7,
+		option = {
+			{
+				9,
+				"ウェールズも同じことを考えてるなら…"
+			}
+		}
+	},
+	{
+		param = "ウェールズも同じことを考えてるなら……明日会っちゃったりして？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1189,
+		flag = 9
+	},
+	{
+		param = "……あ、ウェールズの予定をこっそり確認しておいたほうが良さそうね…",
+		ship_group = 20509,
+		type = 1,
+		id = 1190,
+		flag = 9,
+		option = {
+			{
+				10,
+				"店の方は……"
+			}
+		}
+	},
+	{
+		param = "あ。ちなみにどこのお店に行くの？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1191,
+		flag = 10
+	},
+	{
+		param = "後で教えるから、先に行ってくるねっ",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1192,
+		flag = 10
+	},
+	{
+		param = "指揮官、服を洗ったわ！",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1193,
+		flag = 0
+	},
+	{
+		param = "昨日は服を貸してくれてありがとう！本当に大惨事だったわね……",
+		ship_group = 20509,
+		type = 1,
+		id = 1194,
+		flag = 0,
+		option = {
+			{
+				1,
+				"ハウの服は大丈夫だった？"
+			}
+		}
+	},
+	{
+		param = "確かに大惨事だったね…ハウの服は大丈夫だった？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1195,
+		flag = 1
+	},
+	{
+		param = "チョコクリームの跡は洗い落とせた？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1196,
+		flag = 1
+	},
+	{
+		param = "うーん……ベルが多分無理って言ってたわ",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1197,
+		flag = 1
+	},
+	{
+		param = "この服は気に入ってたのに、同じのを作るにしても時間がかかるし……",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1198,
+		flag = 1
+	},
+	{
+		param = "うぅ……",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1199,
+		flag = 1
+	},
+	{
+		param = "指揮官は執務室にいるの？服を持って行こうか？",
+		ship_group = 20509,
+		type = 1,
+		id = 1200,
+		flag = 1,
+		option = {
+			{
+				2,
+				"今度何かのついでで大丈夫だよ"
+			}
+		}
+	},
+	{
+		param = "今度何かのついでで大丈夫だよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1201,
+		flag = 2
+	},
+	{
+		param = "上着一枚だけのために、わざわざ届けに来なくてもいいからね",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1202,
+		flag = 2
+	},
+	{
+		param = "ううん、服だけじゃないわ……",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1203,
+		flag = 2
+	},
+	{
+		param = "昨日はチョコケーキが潰れちゃって、二人とも食べられなかったでしょう？",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1204,
+		flag = 2
+	},
+	{
+		param = "改めて作ったから、一緒に食べたくて…",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1205,
+		flag = 2
+	},
+	{
+		param = "指揮官は仕事で頭をいっぱい使うから、糖分の補給も大事よ",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1206,
+		flag = 2
+	},
+	{
+		param = "それに…指揮官ともっと一緒にいたいから…",
+		ship_group = 20509,
+		type = 1,
+		id = 1207,
+		flag = 2,
+		option = {
+			{
+				3,
+				"今日の仕事はここまでにするか"
+			},
+			{
+				4,
+				"それならこっちから会いに行こうか？"
+			}
+		}
+	},
+	{
+		param = "ちょうど仕事もほぼ片付けたし、今日はもう上がろうかな！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1208,
+		flag = 3
+	},
+	{
+		param = "え……指揮官、大丈夫なの？",
+		ship_group = 20509,
+		type = 1,
+		id = 1209,
+		flag = 3,
+		option = {
+			{
+				5,
+				"残りは明日に回すから"
+			}
+		}
+	},
+	{
+		param = "残りは明日に回すから",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1210,
+		flag = 5
+	},
+	{
+		param = "……それじゃ明日の仕事が大変になるんじゃ…",
+		ship_group = 20509,
+		type = 1,
+		id = 1211,
+		flag = 5,
+		option = {
+			{
+				6,
+				"大丈夫だ。だって…"
+			}
+		}
+	},
+	{
+		param = "大丈夫だ。明日の秘書艦担当はデュプレクスだ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1212,
+		flag = 6
+	},
+	{
+		param = "二人で挑めば、どんな激務でも一日もかからない",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1213,
+		flag = 6
+	},
+	{
+		param = "とにかくもう上がるけど、執務室に来る？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1214,
+		flag = 6
+	},
+	{
+		param = "ええ！今から向かうわ",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1215,
+		flag = 6
+	},
+	{
+		param = "もう少し待っててね",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1216,
+		flag = 6
+	},
+	{
+		param = "もうすぐ会えるから♪",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1217,
+		flag = 6
+	},
+	{
+		param = "それならこっちから会いに行こうか？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1218,
+		flag = 4
+	},
+	{
+		param = "え……でも指揮官はまだ仕事があるんじゃ…",
+		ship_group = 20509,
+		type = 1,
+		id = 1219,
+		flag = 4,
+		option = {
+			{
+				7,
+				"今日の分は終わらせたよ"
+			}
+		}
+	},
+	{
+		param = "今日の分は終わらせたよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1220,
+		flag = 7
+	},
+	{
+		param = "……そんなに早く…？",
+		ship_group = 20509,
+		type = 1,
+		id = 1221,
+		flag = 7,
+		option = {
+			{
+				8,
+				"明日残業すれば何とかなるさ"
+			}
+		}
+	},
+	{
+		param = "明日残業すれば何とかなるさ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1222,
+		flag = 8
+	},
+	{
+		param = "むしろハウのほうは大丈夫かな？今会いに行っても",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1223,
+		flag = 8
+	},
+	{
+		param = "平気よ♪クッキーを焼いて待ってるからね♪",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1224,
+		flag = 8
 	}
 }

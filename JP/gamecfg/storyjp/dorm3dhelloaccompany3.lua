@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/dorm3d_sirus_wait_bed1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "どうなさいました、誇らしきご主人様？シリアス、ご主人様がいつでもお休みいただけるよう、ベッドメイキングをしております",
+			say = "どうなさいました、誇らしき{dorm3d}？シリアス、{dorm3d}がいつでもお休みいただけるよう、ベッドメイキングをしております",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

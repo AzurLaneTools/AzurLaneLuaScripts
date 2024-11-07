@@ -17,7 +17,7 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "ご主人様、これをご覧ください。一緒に集めた貝殻でシリアスはネックレスを作りました",
+			say = "{dorm3d}、これをご覧ください。一緒に集めた貝殻でシリアスはネックレスを作りました",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "ご主人様と一緒に集めた貝殻ですから……目にするだけで今日のことを思い出せます",
+			say = "{dorm3d}と一緒に集めた貝殻ですから……目にするだけで今日のことを思い出せます",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

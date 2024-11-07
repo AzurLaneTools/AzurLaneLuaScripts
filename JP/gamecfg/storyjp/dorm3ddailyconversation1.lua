@@ -17,7 +17,7 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "誇らしきご主人さま、少しお伺いしてもよろしいでしょうか？",
+			say = "誇らしき{dorm3d}、少しお伺いしてもよろしいでしょうか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "あっ、でもこの聞き方では、誇らしきご主人さまにサプライズを用意できなくなってしまいますね…",
+			say = "あっ、でもこの聞き方では、誇らしき{dorm3d}にサプライズを用意できなくなってしまいますね…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "うぅ……今のは忘れていただけませんでしょうか、シリアスの誇らしきご主人さまっ",
+			say = "うぅ……今のは忘れていただけませんでしょうか、シリアスの誇らしき{dorm3d}っ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -75,7 +75,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "ううん、今この瞬間、シリウスのことをもっと知りたいというご主人様の声こそ、大好きな「音楽」です！",
+			say = "ううん、今この瞬間、シリウスのことをもっと知りたいという{dorm3d}の声こそ、大好きな「音楽」です！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

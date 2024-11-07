@@ -82,16 +82,17 @@ slot0.LoadCharacter = function(slot0, slot1, slot2)
 					slot1 = uv0.loader
 
 					slot1:LoadBundle(uv1, function (slot0)
-						table.IpairsCArray(slot0:GetAllAssetNames(), function (slot0, slot1)
-							slot2, slot3, slot4 = string.find(slot1, "material_hx[/\\](.*).mat")
+						for slot4, slot5 in ipairs(slot0:GetAllAssetNames()) do
+							slot6, slot7, slot8 = string.find(slot5, "material_hx[/\\](.*).mat")
 
-							if slot2 then
-								uv0.hxMatDict[slot4] = {
-									uv1,
-									slot1
+							if slot6 then
+								uv0.hxMatDict[slot8] = {
+									slot0,
+									slot5
 								}
 							end
-						end)
+						end
+
 						uv1()
 					end)
 				end)
@@ -196,7 +197,8 @@ slot0.HXCharacter = function(slot0, slot1)
 			end
 
 			uv1 = true
-			uv2[slot0] = uv0.hxMatDict[slot2][1]:LoadAssetSync(uv0.hxMatDict[slot2][2], typeof(Material), true, false)
+			slot3, slot4 = unpack(uv0.hxMatDict[slot2])
+			uv2[slot0] = slot3:LoadAssetSync(slot4, typeof(Material), true, false)
 
 			warning("Replace HX Material", uv0.hxMatDict[slot2][2])
 		end)

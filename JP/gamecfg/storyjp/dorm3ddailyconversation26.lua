@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "ご主人様、今日はシリアスと何を話し合いたいのですか？",
+			say = "{dorm3d}、今日はシリアスと何を話し合いたいのですか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "ご、ご主人様はもうシリアスの考えをお見通しだったのですね…！さすがです、鋭いご主人様！",
+			say = "ご、{dorm3d}はもうシリアスの考えをお見通しだったのですね…！さすがです、鋭い{dorm3d}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "もし次にご主人様がこの話題で話し合いたいと思われたら、シリアスは…いつでも準備ができています…",
+			say = "もし次に{dorm3d}がこの話題で話し合いたいと思われたら、シリアスは…いつでも準備ができています…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

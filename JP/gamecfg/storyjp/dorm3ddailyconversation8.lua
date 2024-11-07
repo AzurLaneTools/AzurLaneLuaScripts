@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "ご主人様もやってみたいのですか？いけません！電子レンジでお湯を沸かすなんて…",
+			say = "{dorm3d}もやってみたいのですか？いけません！電子レンジでお湯を沸かすなんて…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "お茶の風味に影響してしまいます！たとえご主人様でもシリアス、許しかねます…！",
+			say = "お茶の風味に影響してしまいます！たとえ{dorm3d}でもシリアス、許しかねます…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12748,12 +12748,12 @@ _G.pg.base.gametip.buildship_heavy_tip = {
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「マクデブルク」常設実装！"
+	tip = "「ジェーナス」「マンチェスター」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「ウルリッヒ・フォン・フッテン」常設実装！"
+	tip = "「アルビオン」常設実装！"
 }
 
 

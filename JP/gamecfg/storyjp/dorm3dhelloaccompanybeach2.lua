@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/dorm3d_sirus_wait_table1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "ん？シリアスが何を描いているか、ですか……ご主人様のお姿を描くつもりでしたが、ちょっと難しくて…代わりにご主人様への気持ちのハートを描くことにしました",
+			say = "ん？シリアスが何を描いているか、ですか……{dorm3d}のお姿を描くつもりでしたが、ちょっと難しくて…代わりに{dorm3d}への気持ちのハートを描くことにしました",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

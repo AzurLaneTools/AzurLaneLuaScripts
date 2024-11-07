@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "ご主人様、シリアスは「あずき」をどのように調理すればよいのでしょうか？どうも固いままで…",
+			say = "{dorm3d}、シリアスは「あずき」をどのように調理すればよいのでしょうか？どうも固いままで…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

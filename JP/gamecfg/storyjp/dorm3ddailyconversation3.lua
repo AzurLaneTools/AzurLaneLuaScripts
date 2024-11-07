@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "ご主人様はシュークリームがお好きですか？シリアスは最近、シュークリームなら失敗しにくいのではないかと思いました…！",
+			say = "{dorm3d}はシュークリームがお好きですか？シリアスは最近、シュークリームなら失敗しにくいのではないかと思いました…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

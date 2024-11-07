@@ -17,7 +17,7 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "ご主人様、よければ一緒に写真を撮らせていただけますでしょうか？",
+			say = "{dorm3d}、よければ一緒に写真を撮らせていただけますでしょうか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "ありがとうございます！優しいご主人様",
+			say = "ありがとうございます！優しい{dorm3d}",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "ご主人様に寄り添う、幸せなシリアス…これでいつでも見ることができますね。えへへ。",
+			say = "{dorm3d}に寄り添う、幸せなシリアス…これでいつでも見ることができますね。えへへ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

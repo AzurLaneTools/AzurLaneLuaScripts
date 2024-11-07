@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "もう少し寒くなったら、ご主人様と寄り添って暖かい暖炉の前に座れると思うと、シリアスは…///",
+			say = "もう少し寒くなったら、{dorm3d}と寄り添って暖かい暖炉の前に座れると思うと、シリアスは…///",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

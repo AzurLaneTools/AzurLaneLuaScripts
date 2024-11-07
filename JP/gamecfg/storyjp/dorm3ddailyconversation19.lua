@@ -75,7 +75,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "ご主人様により良く奉仕するために、無駄な時間を減らすのもメイドの必須科目ですよ",
+			say = "{dorm3d}により良く奉仕するために、無駄な時間を減らすのもメイドの必須科目ですよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "側でお仕えする時間をもっと長くしたく存じます。シリアスの誇らしきご主人様…",
+			say = "側でお仕えする時間をもっと長くしたく存じます。シリアスの誇らしき{dorm3d}…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

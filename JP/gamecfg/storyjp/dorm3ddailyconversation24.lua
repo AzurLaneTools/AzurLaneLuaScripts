@@ -84,7 +84,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "誇らしきご主人様のお姿は脳裏に焼き付いているはずなのに、時々つい見とれてしまうのです…///",
+			say = "誇らしき{dorm3d}のお姿は脳裏に焼き付いているはずなのに、時々つい見とれてしまうのです…///",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

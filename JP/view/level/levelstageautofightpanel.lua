@@ -56,7 +56,6 @@ slot0.OnInit = function(slot0)
 
 	setText(slot0.restTime:Find("Text"), slot2[1])
 	setText(slot0.restTime:Find("Text (2)"), slot2[2])
-	slot0.loader:LoadBundle("ui/levelstageview_atlas")
 end
 
 slot0.UpdateAutoFightMark = function(slot0)
@@ -84,7 +83,7 @@ slot0.UpdateContinuousOperation = function(slot0)
 		setActive(slot0.restTime, true)
 
 		if not slot0.isCO then
-			setImageSprite(slot0.btnOn, LoadSprite("ui/levelstageview_atlas", "continuous_operation_on"))
+			slot0.loader:GetSprite("ui/levelstageview_atlas", "continuous_operation_on", slot0.btnOn)
 
 			slot0.isCO = true
 		end
@@ -92,7 +91,7 @@ slot0.UpdateContinuousOperation = function(slot0)
 		setActive(slot0.restTime, false)
 
 		if slot0.isCO then
-			setImageSprite(slot0.btnOn, LoadSprite("ui/levelstageview_atlas", "auto_fight_on"))
+			slot0.loader:GetSprite("ui/levelstageview_atlas", "continuous_operation_on", slot0.btnOn)
 
 			slot0.isCO = false
 		end

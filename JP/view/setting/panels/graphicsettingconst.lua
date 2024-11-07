@@ -185,7 +185,7 @@ slot0.settings = {
 
 slot0.HandleCustomSetting = function()
 	slot0 = PlayerPrefs.GetInt("dorm3d_graphics_settings", 2)
-	slot2 = ResourceMgr.Inst:getAssetSync("three3dquaitysettings/defaultsettings", uv0.assetPath[slot0], nil, true, true)
+	slot2 = LoadAny("three3dquaitysettings/defaultsettings", uv0.assetPath[slot0])
 
 	if slot0 ~= 4 then
 		return slot2

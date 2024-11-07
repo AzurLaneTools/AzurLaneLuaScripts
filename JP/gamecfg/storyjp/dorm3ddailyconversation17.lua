@@ -76,7 +76,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "ご主人様…わかっていて聞くのですね",
+			say = "{dorm3d}…わかっていて聞くのですね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

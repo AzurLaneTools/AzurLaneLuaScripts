@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "ご主人様、お顔が少し熱いようですが…熱を下げるお手伝いをしてもよろしいでしょうか？",
+			say = "{dorm3d}、お顔が少し熱いようですが…熱を下げるお手伝いをしてもよろしいでしょうか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "まずはご主人様のお洋服を脱がし、それから氷を包んだタオルでお体を拭かせていただきます",
+			say = "まずは{dorm3d}のお洋服を脱がし、それから氷を包んだタオルでお体を拭かせていただきます",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "いいえ！もしご主人様が風邪をご心配でしたら、その時はシリアスの体温でご主人様を温めさせていただきます！",
+			say = "いいえ！もし{dorm3d}が風邪をご心配でしたら、その時はシリアスの体温で{dorm3d}を温めさせていただきます！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -14,7 +14,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello15",
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "永遠の忠誠を誓ったご主人様、シリアス、今日だけは時が少しでも長く続いてくれればと…なぜなら…シリアス、全身全霊であなたにお仕え、愛しておりますから…",
+			say = "永遠の忠誠を誓った{dorm3d}、シリアス、今日だけは時が少しでも長く続いてくれればと…なぜなら…シリアス、全身全霊であなたにお仕え、愛しておりますから…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

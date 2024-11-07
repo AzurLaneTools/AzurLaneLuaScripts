@@ -2,30 +2,57 @@ AssetBundleHelper = {}
 slot0 = AssetBundleHelper
 slot0.abMetatable = {
 	__index = {
-		LoadAssetSync = function (slot0, ...)
+		LoadAssetSync = function (slot0, slot1, ...)
+			slot1 = slot0:ChangeAssetName(slot1)
+
 			if EDITOR_TOOL then
-				return ResourceMgr.Inst:getAssetSync(slot0.path, ...)
+				return ResourceMgr.Inst:getAssetSync(slot0.path, slot1, ...)
 			else
-				return ResourceMgr.Inst:LoadAssetSync(slot0.ab, ...)
+				return ResourceMgr.Inst:LoadAssetSync(slot0.ab, slot1, ...)
 			end
 		end,
-		GetAllAssetNames = function (slot0, ...)
+		LoadAssetAsync = function (slot0, slot1, slot2, slot3, ...)
+			slot1 = slot0:ChangeAssetName(slot1)
+
 			if EDITOR_TOOL then
-				return ReflectionHelp.RefCallMethod(typeof(ResourceMgr), "GetAssetBundleAllAssetNames", ResourceMgr.Inst, {
+				return ResourceMgr.Inst:getAssetAsync(slot0.path, slot1, slot2, UnityEngine.Events.UnityAction_UnityEngine_Object(slot3), ...)
+			else
+				return ResourceMgr.Inst:LoadAssetAsync(slot0.ab, slot1, slot2, UnityEngine.Events.UnityAction_UnityEngine_Object(slot3), ...)
+			end
+		end,
+		GetAllAssetNames = function (slot0)
+			if EDITOR_TOOL then
+				return table.CArrayToArray(ReflectionHelp.RefCallMethod(typeof(ResourceMgr), "GetAssetBundleAllAssetNames", ResourceMgr.Inst, {
 					typeof("System.String")
 				}, {
 					slot0.path
-				})
+				}))
 			else
-				return slot0.ab:GetAllAssetNames(...)
+				return table.CArrayToArray(slot0.ab:GetAllAssetNames())
 			end
+		end,
+		ChangeAssetName = function (slot0, slot1)
+			if slot1 == nil or slot1 == "" or string.find(slot1, "/") then
+				return slot1 or ""
+			elseif not uv0.bundleDic[slot0.path] then
+				slot0:BuildAssetNameDic()
+			end
+
+			return uv0.bundleDic[slot0.path][string.lower(slot1)] or slot1
+		end,
+		BuildAssetNameDic = function (slot0)
+			if uv0.bundleDic[slot0.path] then
+				return
+			end
+
+			uv0.BuildAssetNameDic(slot0.path, slot0:GetAllAssetNames())
 		end
 	}
 }
 
 slot0.loadAssetBundleSync = function(slot0)
 	slot1 = setmetatable({
-		path = slot0
+		path = string.lower(slot0)
 	}, uv0.abMetatable)
 
 	if EDITOR_TOOL then
@@ -39,7 +66,7 @@ end
 
 slot0.loadAssetBundleAsync = function(slot0, slot1)
 	slot2 = setmetatable({
-		path = slot0
+		path = string.lower(slot0)
 	}, uv0.abMetatable)
 
 	if EDITOR_TOOL then
@@ -57,24 +84,50 @@ slot0.loadAssetBundleAsync = function(slot0, slot1)
 	end
 end
 
-slot0.loadAssetBundleTotallyAsync = function(slot0, slot1)
-	slot2 = setmetatable({
-		path = slot0
-	}, uv0.abMetatable)
+slot0.LoadAsset = function(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot6 = {}
 
-	if EDITOR_TOOL then
-		onNextTick(function ()
-			uv0(uv1)
+	if slot3 then
+		AssetBundleHelper.loadAssetBundleAsync(slot0, function (slot0)
+			slot0:LoadAssetAsync(uv0, uv1, uv2, uv3, false)
 		end)
 	else
-		slot3 = ResourceMgr.Inst
+		slot8 = AssetBundleHelper.loadAssetBundleSync(slot0):LoadAssetSync(slot1, slot2, slot5, false)
 
-		slot3:loadAssetBundleTotallyAsync(slot0, function (slot0)
-			uv0.ab = slot0
+		existCall(slot4, slot8)
 
-			uv1(uv0)
-		end)
+		return slot8
 	end
+end
+
+slot0.bundleDic = {}
+slot0.bundleCount = 0
+
+slot0.BuildAssetNameDic = function(slot0, slot1)
+	if uv0.bundleDic[slot0] then
+		return
+	end
+
+	slot2 = {}
+
+	for slot6, slot7 in ipairs(slot1) do
+		slot8 = string.lower(slot7)
+		slot2[slot8] = slot7
+		slot8 = GetFileName(slot8)
+		slot2[slot8] = slot7
+
+		if string.split(slot8, ".")[1] then
+			slot2[slot8] = slot7
+		end
+	end
+
+	if uv0.bundleCount > 500 then
+		uv0.bundleCount = 0
+		uv0.bundleDic = {}
+	end
+
+	uv0.bundleCount = uv0.bundleCount + 1
+	uv0.bundleDic[slot0] = slot2
 end
 
 return slot0

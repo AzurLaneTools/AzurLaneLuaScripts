@@ -14,7 +14,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone/touch22",
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "誇らしきご主人様…シリアスにどのようなご奉仕をしてほしいですか？",
+			say = "誇らしき{dorm3d}…シリアスにどのようなご奉仕をしてほしいですか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

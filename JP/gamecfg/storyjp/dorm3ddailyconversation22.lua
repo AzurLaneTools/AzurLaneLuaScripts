@@ -75,7 +75,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "ではシリアス、ご主人様が早くお仕事を終えられるよう、これから毎日書類仕事をお手伝いいたします！",
+			say = "ではシリアス、{dorm3d}が早くお仕事を終えられるよう、これから毎日書類仕事をお手伝いいたします！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "誇らしきご主人様の願いなら、シリアスはどんなことでも叶えてみせます！",
+			say = "誇らしき{dorm3d}の願いなら、シリアスはどんなことでも叶えてみせます！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

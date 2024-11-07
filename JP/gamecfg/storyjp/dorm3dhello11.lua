@@ -14,7 +14,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello11",
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "誇らしきご主人様、本日はご主人様の忠実なるメイドのシリアスとどのように過ごされますか？シリアス、ご主人様のあらゆるご要望にお応えする準備ができております…！",
+			say = "誇らしき{dorm3d}、本日は{dorm3d}の忠実なるメイドのシリアスとどのように過ごされますか？シリアス、{dorm3d}のあらゆるご要望にお応えする準備ができております…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

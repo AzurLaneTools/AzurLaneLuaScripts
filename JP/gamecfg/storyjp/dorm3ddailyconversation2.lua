@@ -63,7 +63,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "誇らしきご主人様、それより……食材を消費できるよう…シリアスの料理特訓に付き合っていただきたく…うぅ…",
+			say = "誇らしき{dorm3d}、それより……食材を消費できるよう…シリアスの料理特訓に付き合っていただきたく…うぅ…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

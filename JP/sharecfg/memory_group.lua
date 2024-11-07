@@ -314,6 +314,7 @@ pg.memory_group = setmetatable({
 		601,
 		602,
 		603,
+		604,
 		1000,
 		1001,
 		1002
@@ -6797,6 +6798,23 @@ pg.base.memory_group = {
 			3935,
 			3936,
 			3937
+		}
+	},
+	[604] = {
+		title = "二人だけのスイートクッキー",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 604,
+		icon = "title_chara_hao",
+		memories = {
+			3991,
+			3992,
+			3993,
+			3994,
+			3995,
+			3996,
+			3997
 		}
 	},
 	[1000] = {

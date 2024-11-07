@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "誇らしきご主人様、僭越ながら一つお願いがございます…メイクの練習をしたいので、付き合って頂けないでしょうか…？",
+			say = "誇らしき{dorm3d}、僭越ながら一つお願いがございます…メイクの練習をしたいので、付き合って頂けないでしょうか…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "ありがとうございます…でもご主人様の前ではシリアス、やっぱりもっと綺麗になりたくて……",
+			say = "ありがとうございます…でも{dorm3d}の前ではシリアス、やっぱりもっと綺麗になりたくて……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -14,7 +14,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone/touch16",
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "ふふ…誇らしきご主人様の好みは分かりやすいですね",
+			say = "ふふ…誇らしき{dorm3d}の好みは分かりやすいですね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

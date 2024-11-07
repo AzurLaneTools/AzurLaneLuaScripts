@@ -41829,10 +41829,11 @@ _G.pg.base.shop_template[70763] = {
 	desc = "购买皮肤:221027雅努斯万圣节",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 12,
+	order = 102,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -41843,32 +41844,6 @@ _G.pg.base.shop_template[70763] = {
 	limit_args = {},
 	effect_args = {
 		201351
-	},
-	time = {
-		{
-			{
-				2024,
-				9,
-				12
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2024,
-				10,
-				2
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -41882,10 +41857,11 @@ _G.pg.base.shop_template[70764] = {
 	desc = "购买皮肤:221027阿尔比恩万圣节",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 12,
+	order = 102,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -41896,32 +41872,6 @@ _G.pg.base.shop_template[70764] = {
 	limit_args = {},
 	effect_args = {
 		206071
-	},
-	time = {
-		{
-			{
-				2024,
-				9,
-				12
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2024,
-				10,
-				2
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -41935,10 +41885,11 @@ _G.pg.base.shop_template[70765] = {
 	desc = "购买皮肤:221027曼彻斯特万圣节",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 12,
+	order = 102,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -41949,32 +41900,6 @@ _G.pg.base.shop_template[70765] = {
 	limit_args = {},
 	effect_args = {
 		202091
-	},
-	time = {
-		{
-			{
-				2024,
-				9,
-				12
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2024,
-				10,
-				2
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -41988,10 +41913,11 @@ _G.pg.base.shop_template[70766] = {
 	desc = "购买皮肤:221027俄克拉荷马万圣节",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 12,
+	order = 102,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -42002,32 +41928,6 @@ _G.pg.base.shop_template[70766] = {
 	limit_args = {},
 	effect_args = {
 		105021
-	},
-	time = {
-		{
-			{
-				2024,
-				9,
-				12
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2024,
-				10,
-				2
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -42044,7 +41944,7 @@ _G.pg.base.shop_template[70767] = {
 	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 116,
+	order = 102,
 	time = "always",
 	group = 0,
 	num = 1,

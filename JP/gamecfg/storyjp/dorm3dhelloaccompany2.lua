@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/dorm3d_sirus_wait_table1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "ご主人様、淹れたばかりのお茶です。お召し上がりになりますか？ ",
+			say = "{dorm3d}、淹れたばかりのお茶です。お召し上がりになりますか？ ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

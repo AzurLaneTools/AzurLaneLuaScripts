@@ -28,7 +28,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "ふふ、シリアスにとってご主人様の足音と気配は分かりやすいからですよ",
+			say = "ふふ、シリアスにとって{dorm3d}の足音と気配は分かりやすいからですよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "…いえ、やっぱりこれはご主人様とシリアスの心が通じ合っているからかもしれません",
+			say = "…いえ、やっぱりこれは{dorm3d}とシリアスの心が通じ合っているからかもしれません",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

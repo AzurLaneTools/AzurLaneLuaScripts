@@ -17,7 +17,7 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "ご主人様、シリアスと一緒にサーフィンでもいかがですか？",
+			say = "{dorm3d}、シリアスと一緒にサーフィンでもいかがですか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "大丈夫です、誇らしきご主人様。シリアスもあまり得意ではありません。ですが一緒に楽しむことが大事かと…！",
+			say = "大丈夫です、誇らしき{dorm3d}。シリアスもあまり得意ではありません。ですが一緒に楽しむことが大事かと…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "こうすれば、よりご主人様と一緒に……",
+			say = "こうすれば、より{dorm3d}と一緒に……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

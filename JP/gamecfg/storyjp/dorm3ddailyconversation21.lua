@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "正確には、ご主人様と一緒に過ごす今日みたいな天気が大好きなのです…！",
+			say = "正確には、{dorm3d}と一緒に過ごす今日みたいな天気が大好きなのです…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "雨が降っていても晴れていても、ご主人様のお側にいられるなら、シリアスにとってはどちらも大好きな天気ですから…！",
+			say = "雨が降っていても晴れていても、{dorm3d}のお側にいられるなら、シリアスにとってはどちらも大好きな天気ですから…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

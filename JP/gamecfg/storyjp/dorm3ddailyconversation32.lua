@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "写真といえば、普段はご主人様がシリアスの写真を撮ることが多いですよね",
+			say = "写真といえば、普段は{dorm3d}がシリアスの写真を撮ることが多いですよね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "できれば、シリアスもご主人様の写真をたくさん撮りたいです",
+			say = "できれば、シリアスも{dorm3d}の写真をたくさん撮りたいです",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "そして、シリアスにとって最も大事な、最も尊いご主人様のお姿を収めて……",
+			say = "そして、シリアスにとって最も大事な、最も尊い{dorm3d}のお姿を収めて……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

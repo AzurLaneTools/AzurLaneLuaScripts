@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "ご主人様、カーペットを丁寧に掃除しました。たまにはカーペットの上に座ってお寛ぎになるのもよろしいかと",
+			say = "{dorm3d}、カーペットを丁寧に掃除しました。たまにはカーペットの上に座ってお寛ぎになるのもよろしいかと",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "も、もちろん、ご主人様がカーペットの上でシリアスをご所望になっても……シリアスは構いません！",
+			say = "も、もちろん、{dorm3d}がカーペットの上でシリアスをご所望になっても……シリアスは構いません！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

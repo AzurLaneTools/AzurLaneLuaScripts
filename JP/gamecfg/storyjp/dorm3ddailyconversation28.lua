@@ -76,7 +76,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "誇らしきご主人様をあらゆる方面からお守りできるよう、全部打ち砕くまでです！",
+			say = "誇らしき{dorm3d}をあらゆる方面からお守りできるよう、全部打ち砕くまでです！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

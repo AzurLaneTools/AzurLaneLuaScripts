@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "ご主人様、夜はビーチでバーベキューでもいかがですか？",
+			say = "{dorm3d}、夜はビーチでバーベキューでもいかがですか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "ご主人様はバーベキューにご興味があるようでしたので、シリアスが食材を用意させていただきました！",
+			say = "{dorm3d}はバーベキューにご興味があるようでしたので、シリアスが食材を用意させていただきました！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我也来帮忙吧！",
+			say = "自分も手伝おう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "それには及びません。ご主人様にはしっかり休んでいただきたく存じます",
+			say = "それには及びません。{dorm3d}にはしっかり休んでいただきたく存じます",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

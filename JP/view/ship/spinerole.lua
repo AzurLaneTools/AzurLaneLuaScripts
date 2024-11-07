@@ -78,7 +78,7 @@ slot0.AttachOrbit = function(slot0, slot1)
 		if slot9 ~= "" then
 			slot11 = ResourceMgr.Inst
 
-			slot11:getAssetAsync(ys.Battle.BattleResourceManager.GetOrbitPath(slot9), slot9, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+			slot11:getAssetAsync(ys.Battle.BattleResourceManager.GetOrbitPath(slot9), "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 				if uv0.state ~= uv1.STATE_DISPOSE then
 					slot1 = uv2 .. "_bound"
 					slot3 = uv3[slot1][2]

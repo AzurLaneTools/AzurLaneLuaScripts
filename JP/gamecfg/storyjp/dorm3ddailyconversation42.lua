@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "以前はただのメイドとして、ご主人さまの傍で仕えるだけで満足しておりましたが",
+			say = "以前はただのメイドとして、{dorm3d}の傍で仕えるだけで満足しておりましたが",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "ご主人様との関係がこんなに進んでいるのに…シリアス、ますます欲張りになっていって…",
+			say = "{dorm3d}との関係がこんなに進んでいるのに…シリアス、ますます欲張りになっていって…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "やはりシリアスを変えてくださったのですね。誇らしきご主人様。",
+			say = "やはりシリアスを変えてくださったのですね。誇らしき{dorm3d}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "シリアスにもわかりません…ただ、ますますご主人様から離れられなくなったということだけは分かります。誇らしきご主人様。",
+			say = "シリアスにもわかりません…ただ、ますます{dorm3d}から離れられなくなったということだけは分かります。誇らしき{dorm3d}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

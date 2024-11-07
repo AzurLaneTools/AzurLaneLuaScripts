@@ -58,7 +58,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "はい♪誇らしきご主人様と二人きりになっただけでシリアス、胸が高鳴ってしまっています。ですからこれからはシリアスと…",
+			say = "はい♪誇らしき{dorm3d}と二人きりになっただけでシリアス、胸が高鳴ってしまっています。ですからこれからはシリアスと…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

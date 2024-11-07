@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "いつからシリアスがご主人さまを想うようになったのかを知りたい…ですか？",
+			say = "いつからシリアスが{dorm3d}を想うようになったのかを知りたい…ですか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "実は、ご主人様にお会いした瞬間から、シリアスは…",
+			say = "実は、{dorm3d}にお会いした瞬間から、シリアスは…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "ご主人様は？ご主人様はいつからシリアスのことを…",
+			say = "{dorm3d}は？{dorm3d}はいつからシリアスのことを…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "まさかご主人様からこの質問の答えを聞けるなんて…シリアスはとても嬉しいです。誇らしきご主人様…",
+			say = "まさか{dorm3d}からこの質問の答えを聞けるなんて…シリアスはとても嬉しいです。誇らしき{dorm3d}…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

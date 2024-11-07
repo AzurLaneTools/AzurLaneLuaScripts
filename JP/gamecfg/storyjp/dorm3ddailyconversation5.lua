@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
-			say = "本、本当でしょうか！やはりご主人様は一番賛同してくださるのですね！",
+			say = "本、本当でしょうか！やはり{dorm3d}は一番賛同してくださるのですね！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

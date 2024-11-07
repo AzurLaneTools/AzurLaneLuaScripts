@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "誇らしきご主人様、顔が赤いですね……もしかして日焼けでしょうか…？",
+			say = "誇らしき{dorm3d}、顔が赤いですね……もしかして日焼けでしょうか…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "ご主人様、今シリアスがパラソルまで案内します！そして日焼け止めを塗らせてください",
+			say = "{dorm3d}、今シリアスがパラソルまで案内します！そして日焼け止めを塗らせてください",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "どうかお体をシリアスに預けてくださいませ！誇らしきご主人様！",
+			say = "どうかお体をシリアスに預けてくださいませ！誇らしき{dorm3d}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

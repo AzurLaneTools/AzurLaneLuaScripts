@@ -74,7 +74,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "メイドとしてご主人様にお仕えするだけでも幸せですけど…欲張りなシリアスはもっと研鑽を積みたく存じます",
+			say = "メイドとして{dorm3d}にお仕えするだけでも幸せですけど…欲張りなシリアスはもっと研鑽を積みたく存じます",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "どうかシリアスの今後の成長を見守ってくださいませ。シリアスの誇らしきご主人様",
+			say = "どうかシリアスの今後の成長を見守ってくださいませ。シリアスの誇らしき{dorm3d}",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

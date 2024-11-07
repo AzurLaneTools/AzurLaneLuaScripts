@@ -28,7 +28,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "あぁ、ご主人様のご様子はおそらく、気温の低下に伴って現れる「起床困難症候群」ですね",
+			say = "あぁ、{dorm3d}のご様子はおそらく、気温の低下に伴って現れる「起床困難症候群」ですね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "そうすれば…寝坊してしまったご主人様を起こせますから…♪",
+			say = "そうすれば…寝坊してしまった{dorm3d}を起こせますから…♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "誇らしきご主人様、なんだか疲れていて元気がないように見えます…お仕事が大変だったからでしょうか…",
+			say = "誇らしき{dorm3d}、なんだか疲れていて元気がないように見えます…お仕事が大変だったからでしょうか…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "シリアス、ご主人様の元気を素早く回復させる方法があるんです！",
+			say = "シリアス、{dorm3d}の元気を素早く回復させる方法があるんです！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "今すぐご主人様のお風呂の準備をいたします！…まずはお洋服を脱がさせていただきます！",
+			say = "今すぐ{dorm3d}のお風呂の準備をいたします！…まずはお洋服を脱がさせていただきます！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

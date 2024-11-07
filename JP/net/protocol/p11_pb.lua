@@ -274,7 +274,6 @@ slot2 = {
 	SC_11719_RESULT_FIELD = slot0.FieldDescriptor(),
 	CS_11720_CHAT_GROUP_ID_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_11721_RESULT_FIELD = slot0.FieldDescriptor(),
-	SC_11721_OP_TIME_FIELD = slot0.FieldDescriptor(),
 	CS_11722_CHAT_GROUP_ID_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_11723_RESULT_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_11723_OP_TIME_FIELD = slot0.FieldDescriptor(),
@@ -3988,22 +3987,12 @@ slot2.SC_11721_RESULT_FIELD.has_default_value = false
 slot2.SC_11721_RESULT_FIELD.default_value = 0
 slot2.SC_11721_RESULT_FIELD.type = 13
 slot2.SC_11721_RESULT_FIELD.cpp_type = 3
-slot2.SC_11721_OP_TIME_FIELD.name = "op_time"
-slot2.SC_11721_OP_TIME_FIELD.full_name = "p11.sc_11721.op_time"
-slot2.SC_11721_OP_TIME_FIELD.number = 2
-slot2.SC_11721_OP_TIME_FIELD.index = 1
-slot2.SC_11721_OP_TIME_FIELD.label = 2
-slot2.SC_11721_OP_TIME_FIELD.has_default_value = false
-slot2.SC_11721_OP_TIME_FIELD.default_value = 0
-slot2.SC_11721_OP_TIME_FIELD.type = 13
-slot2.SC_11721_OP_TIME_FIELD.cpp_type = 3
 SC_11721.name = "sc_11721"
 SC_11721.full_name = "p11.sc_11721"
 SC_11721.nested_types = {}
 SC_11721.enum_types = {}
 SC_11721.fields = {
-	slot2.SC_11721_RESULT_FIELD,
-	slot2.SC_11721_OP_TIME_FIELD
+	slot2.SC_11721_RESULT_FIELD
 }
 SC_11721.is_extendable = false
 SC_11721.extensions = {}

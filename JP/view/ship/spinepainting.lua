@@ -325,7 +325,7 @@ slot0.getSpineMaterial = function(slot0, slot1, slot2)
 		uv0._materialDic[uv1] = slot0
 
 		uv2(uv0._materialDic[uv1])
-	end, false)
+	end, true)
 end
 
 slot0.changeSpecialIdle = function(slot0, slot1)

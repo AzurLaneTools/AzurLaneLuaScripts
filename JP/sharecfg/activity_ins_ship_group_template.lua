@@ -597,7 +597,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Enterprise",
 		background = "",
 		sculpture = "qiye",
-		nationality = 1,
+		nationality = 0,
 		type = 1
 	},
 	[40146] = {
@@ -981,7 +981,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Howe_Cookies",
 		background = "",
 		sculpture = "hao",
-		nationality = 0,
+		nationality = 2,
 		type = 1
 	},
 	[20606] = {
@@ -3861,7 +3861,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Liverpool",
 		background = "",
 		sculpture = "liwupu",
-		nationality = 2,
+		nationality = 0,
 		type = 1
 	},
 	[20313] = {
@@ -3893,7 +3893,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Fleuret",
 		background = "",
 		sculpture = "huajian",
-		nationality = 9,
+		nationality = 0,
 		type = 1
 	},
 	[90106] = {
@@ -3933,7 +3933,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Hervör alvitr",
 		background = "",
 		sculpture = "yaerweite_2",
-		nationality = 4,
+		nationality = 0,
 		type = 1
 	},
 	[40147] = {

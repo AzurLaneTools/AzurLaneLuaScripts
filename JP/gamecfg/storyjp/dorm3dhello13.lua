@@ -14,7 +14,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello13",
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "誇らしきご主人様、お仕えしお側にいられることは、シリアスにとって最高の幸せでございます。ご主人様の一挙手一投足が、シリアスの心を惹きつけてくださっていますから…",
+			say = "誇らしき{dorm3d}、お仕えしお側にいられることは、シリアスにとって最高の幸せでございます。{dorm3d}の一挙手一投足が、シリアスの心を惹きつけてくださっていますから…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

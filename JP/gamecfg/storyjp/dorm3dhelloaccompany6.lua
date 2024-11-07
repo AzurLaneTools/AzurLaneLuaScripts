@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/dorm3d_sirus_wait_table1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "誇らしきご主人様、こちらに一緒におかけになりませんか？お菓子と紅茶を用意しておりますよ",
+			say = "誇らしき{dorm3d}、こちらに一緒におかけになりませんか？お菓子と紅茶を用意しておりますよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

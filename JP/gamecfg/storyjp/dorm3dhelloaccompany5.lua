@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/dorm3d_sirus_wait_chair1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "誇らしきご主人様はこのクッションをお使いになられているんですね…だってご主人様の香りが付いていますもの",
+			say = "誇らしき{dorm3d}はこのクッションをお使いになられているんですね…だって{dorm3d}の香りが付いていますもの",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

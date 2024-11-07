@@ -194715,3 +194715,322 @@ _G.pg.base.task_data_template[500057] = {
 		115
 	}
 }
+
+
+_G.pg.base.task_data_template[500061] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500061,
+	type = 5,
+	is_head = 1,
+	count_inherit = 0,
+	name = "二人だけのはじまり",
+	desc = "魚雷天ぷらを3個準備する（消費）",
+	sub_type = 1000,
+	task_fold = 0,
+	story_icon = "hao",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500062",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "HAO1",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500061,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "50003",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+
+_G.pg.base.task_data_template[500062] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500062,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "これで手を繋げるね",
+	desc = "任意の艦を10回強化する",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "hao",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500063",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "HAO2",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500062,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500063] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500063,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "エプロンを付けよう！",
+	desc = "ハウを含めた艦隊で出撃し、20回勝利する",
+	sub_type = 18,
+	task_fold = 0,
+	story_icon = "hao",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500064",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "HAO3",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500063,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "20509",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500064] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500064,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "ミスと笑顔",
+	desc = "燃料を500消費する",
+	sub_type = 121,
+	task_fold = 0,
+	story_icon = "hao",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500065",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "HAO4",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500064,
+	target_num = 500,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500065] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500065,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "休憩タイム",
+	desc = "ハウの親密度が100に到達",
+	sub_type = 1012,
+	task_fold = 0,
+	story_icon = "hao",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500066",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "HAO5",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500065,
+	target_num = 10000,
+	fix_task = 0,
+	target_id = "20509",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16002,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500066] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500066,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "想いはヤケド寸前",
+	desc = "ハウを3回限界突破する",
+	sub_type = 33,
+	task_fold = 0,
+	story_icon = "hao",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500067",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "HAO6",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500066,
+	target_num = 6,
+	fix_task = 0,
+	target_id = "20509",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18022,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500067] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500067,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "二人だけのスイートクッキー",
+	desc = "ハウのレベルが100に到達",
+	sub_type = 1013,
+	task_fold = 0,
+	story_icon = "hao",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "HAO7",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500067,
+	target_num = 100,
+	fix_task = 0,
+	target_id = "20509",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18023,
+			1
+		}
+	}
+}

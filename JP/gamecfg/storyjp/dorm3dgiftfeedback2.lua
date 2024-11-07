@@ -23,7 +23,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/dorm3d_sirus_wait_table1",
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "誇らしきご主人様、ありがとうございます。こちらを使って、お部屋をピッカピカにさせていただきますね",
+			say = "誇らしき{dorm3d}、ありがとうございます。こちらを使って、お部屋をピッカピカにさせていただきますね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

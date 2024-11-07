@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "はい？ご主人様が櫛を持っていらっしゃるのは、シリアスの髪をとかしてくださるおつもりですか…？",
+			say = "はい？{dorm3d}が櫛を持っていらっしゃるのは、シリアスの髪をとかしてくださるおつもりですか…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "と、とにかく、どうぞシリアスの髪をとかしてください、誇らしきご主人様！",
+			say = "と、とにかく、どうぞシリアスの髪をとかしてください、誇らしき{dorm3d}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
