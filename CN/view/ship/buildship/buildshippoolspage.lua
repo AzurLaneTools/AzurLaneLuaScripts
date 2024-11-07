@@ -368,7 +368,7 @@ slot0.SwitchPool = function(slot0, slot1)
 		setText(slot0.tipTime, slot4:STimeDescC(slot3:getStartTime(), "%Y.%m.%d") .. " - " .. slot4:STimeDescC(slot3.stopTime, "%m.%d %H:%M"))
 	end
 
-	slot0:findTF("gallery/bg/type"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/BuildShipUI_atlas", "sub_title_" .. slot1:GetMark())
+	slot0:findTF("gallery/bg/type"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/BuildShipUI_atlas", string.format("Assets/ArtResource/UI/BuildShipUI/new/sub_title_%s.png", slot1:GetMark()))
 	slot6 = slot1:getConfigTable()
 	slot7, slot8 = nil
 	slot7 = (not slot1:IsActivity() or slot2:getBuildActivityCfgByID(slot6.id)) and slot2:getNoneActBuildActivityCfgByID(slot6.id)

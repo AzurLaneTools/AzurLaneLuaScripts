@@ -23665,6 +23665,330 @@ _G.pg.base.spweapon_data_statistics[13390] = {
 }
 
 
+_G.pg.base.spweapon_data_statistics[13400] = {
+	attribute_1 = "cannon",
+	name = "海神三叉戟",
+	type = 2,
+	tech = 0,
+	value_1_random = 10,
+	rarity = 4,
+	effect_id_display = 901010,
+	value_2_random = 5,
+	effect_id = 901010,
+	attribute_2 = "dodge",
+	next = 13401,
+	upgrade_id = 101,
+	value_2 = 6,
+	icon = "13400",
+	value_1 = 13,
+	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装",
+	uncraftable = 0,
+	unique = 29901,
+	important = 2,
+	prev = 0,
+	id = 13400,
+	usability = {
+		2
+	},
+	skill_upgrade = {
+		{
+			0,
+			1019020
+		}
+	},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[13401] = {
+	upgrade_id = 102,
+	prev = 13400,
+	next = 13402,
+	base = 13400,
+	id = 13401,
+	value_2 = 6,
+	value_1 = 14,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[13402] = {
+	upgrade_id = 103,
+	prev = 13401,
+	next = 13403,
+	base = 13400,
+	id = 13402,
+	value_2 = 7,
+	value_1 = 15,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[13403] = {
+	upgrade_id = 104,
+	prev = 13402,
+	next = 13404,
+	base = 13400,
+	id = 13403,
+	value_2 = 8,
+	value_1 = 16,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[13404] = {
+	upgrade_id = 105,
+	prev = 13403,
+	next = 13405,
+	base = 13400,
+	id = 13404,
+	value_2 = 9,
+	value_1 = 17,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[13405] = {
+	upgrade_id = 106,
+	prev = 13404,
+	next = 13406,
+	base = 13400,
+	id = 13405,
+	value_2 = 10,
+	value_1 = 18,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[13406] = {
+	upgrade_id = 107,
+	prev = 13405,
+	next = 13407,
+	base = 13400,
+	id = 13406,
+	value_2 = 11,
+	value_1 = 19,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[13407] = {
+	upgrade_id = 108,
+	prev = 13406,
+	next = 13408,
+	base = 13400,
+	id = 13407,
+	value_2 = 12,
+	value_1 = 20,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[13408] = {
+	upgrade_id = 109,
+	prev = 13407,
+	next = 13409,
+	base = 13400,
+	id = 13408,
+	value_2 = 13,
+	value_1 = 21,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[13409] = {
+	upgrade_id = 110,
+	prev = 13408,
+	next = 13410,
+	base = 13400,
+	id = 13409,
+	value_2 = 14,
+	value_1 = 23,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[13410] = {
+	id = 13410,
+	upgrade_id = 111,
+	base = 13400,
+	next = 0,
+	prev = 13409,
+	value_2 = 15,
+	value_1 = 25,
+	level = 11,
+	skill_upgrade = {
+		{
+			19020,
+			1019020
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[13420] = {
+	attribute_1 = "torpedo",
+	name = "刹车请注意！",
+	type = 1,
+	tech = 0,
+	value_1_random = 10,
+	rarity = 4,
+	effect_id_display = 901010,
+	value_2_random = 5,
+	effect_id = 901010,
+	attribute_2 = "reload",
+	next = 13421,
+	upgrade_id = 101,
+	value_2 = 10,
+	icon = "13420",
+	value_1 = 11,
+	level = 1,
+	descrip = "由特殊兵装核心制造出来的专属特制兵装",
+	uncraftable = 0,
+	unique = 30113,
+	important = 2,
+	prev = 0,
+	id = 13420,
+	usability = {
+		1
+	},
+	skill_upgrade = {
+		{
+			0,
+			1090330
+		}
+	},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[13421] = {
+	upgrade_id = 102,
+	prev = 13420,
+	next = 13422,
+	base = 13420,
+	id = 13421,
+	value_2 = 11,
+	value_1 = 12,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[13422] = {
+	upgrade_id = 103,
+	prev = 13421,
+	next = 13423,
+	base = 13420,
+	id = 13422,
+	value_2 = 12,
+	value_1 = 13,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[13423] = {
+	upgrade_id = 104,
+	prev = 13422,
+	next = 13424,
+	base = 13420,
+	id = 13423,
+	value_2 = 13,
+	value_1 = 14,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[13424] = {
+	upgrade_id = 105,
+	prev = 13423,
+	next = 13425,
+	base = 13420,
+	id = 13424,
+	value_2 = 14,
+	value_1 = 15,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[13425] = {
+	upgrade_id = 106,
+	prev = 13424,
+	next = 13426,
+	base = 13420,
+	id = 13425,
+	value_2 = 15,
+	value_1 = 16,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[13426] = {
+	upgrade_id = 107,
+	prev = 13425,
+	next = 13427,
+	base = 13420,
+	id = 13426,
+	value_2 = 16,
+	value_1 = 17,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[13427] = {
+	upgrade_id = 108,
+	prev = 13426,
+	next = 13428,
+	base = 13420,
+	id = 13427,
+	value_2 = 17,
+	value_1 = 18,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[13428] = {
+	upgrade_id = 109,
+	prev = 13427,
+	next = 13429,
+	base = 13420,
+	id = 13428,
+	value_2 = 18,
+	value_1 = 19,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[13429] = {
+	upgrade_id = 110,
+	prev = 13428,
+	next = 13430,
+	base = 13420,
+	id = 13429,
+	value_2 = 19,
+	value_1 = 20,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[13430] = {
+	id = 13430,
+	upgrade_id = 111,
+	base = 13420,
+	next = 0,
+	prev = 13429,
+	value_2 = 20,
+	value_1 = 22,
+	level = 11,
+	skill_upgrade = {
+		{
+			1013,
+			1090330
+		}
+	}
+}
+
+
 _G.pg.base.spweapon_data_statistics[13560] = {
 	attribute_1 = "cannon",
 	name = "魔物之心",

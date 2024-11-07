@@ -443,16 +443,24 @@ slot0.commonBind = function(slot0)
 			}))
 		end,
 		[BaseUI.ON_NEW_STYLE_DROP] = function (slot0, slot1, slot2)
-			pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_COMMON_DROP, setmetatable(slot2, {
+			slot3 = pg.NewStyleMsgboxMgr.TYPE_COMMON_DROP
+			slot4 = setmetatable(slot2, {
 				__index = {
 					blurParams = {
 						weight = LayerWeightConst.TOP_LAYER
 					}
 				}
-			}))
+			})
+
+			if slot2.useDeepShow then
+				pg.NewStyleMsgboxMgr.GetInstance():DeepShow(slot3, slot4)
+			else
+				pg.NewStyleMsgboxMgr.GetInstance():Show(slot3, slot4)
+			end
 		end,
 		[BaseUI.ON_NEW_STYLE_ITEMS] = function (slot0, slot1, slot2)
-			pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_COMMON_ITEMS, setmetatable(slot2, {
+			slot3 = pg.NewStyleMsgboxMgr.TYPE_COMMON_ITEMS
+			slot4 = setmetatable(slot2, {
 				__index = {
 					btnList = {
 						{
@@ -468,11 +476,18 @@ slot0.commonBind = function(slot0)
 					content = slot2.content,
 					itemFunc = function (slot0)
 						uv0.viewComponent:emit(BaseUI.ON_NEW_STYLE_DROP, {
+							useDeepShow = true,
 							drop = slot0
 						})
 					end
 				}
-			}))
+			})
+
+			if slot2.useDeepShow then
+				pg.NewStyleMsgboxMgr.GetInstance():DeepShow(slot3, slot4)
+			else
+				pg.NewStyleMsgboxMgr.GetInstance():Show(slot3, slot4)
+			end
 		end
 	}
 

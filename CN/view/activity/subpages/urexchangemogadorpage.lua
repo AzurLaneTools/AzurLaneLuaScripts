@@ -80,7 +80,7 @@ slot0.OnFirstFlush = function(slot0)
 				}),
 				onYes = function ()
 					uv0:emit(ActivityMediator.ON_ACT_SHOPPING, uv0.shopId, 1, uv0.curGoods.id, 1)
-					TrackConst.TrackingUrExchangeFetch(uv0.curGoods.commodity_id, 2)
+					pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildUrRedeem(uv0.curGoods.commodity_id, 2))
 				end
 			})
 		else
@@ -214,7 +214,7 @@ slot0.UpdateTask = function(slot0, slot1, slot2)
 	if slot8 then
 		onButton(slot0, slot0:findTF("btn_go", slot2), function ()
 			uv0()
-			TrackConst.TrackingUrExchangeJump(uv1)
+			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildUrJump(uv1))
 		end)
 	end
 end

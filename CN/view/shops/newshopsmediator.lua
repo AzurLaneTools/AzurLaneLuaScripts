@@ -165,7 +165,7 @@ slot0.register = function(slot0)
 	end)
 	slot0:bind(uv0.UR_EXCHANGE_TRACKING, function (slot0, slot1)
 		if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_UR_EXCHANGE) and not slot2:isEnd() and getProxy(ShopsProxy):getActivityShopById(slot2:getConfig("config_client").shopId):GetCommodityById(slot2:getConfig("config_client").goodsId[1]):getConfig("commodity_id") == slot1 then
-			TrackConst.TrackingUrExchangeFetch(slot1, 1)
+			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildUrRedeem(slot1, 1))
 		end
 	end)
 	slot0.viewComponent:SetShops(slot0.contextData.shops)

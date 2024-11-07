@@ -3322,7 +3322,8 @@ pg.skill_data_display = setmetatable({
 		1090291,
 		1090310,
 		1090320,
-		1090321
+		1090321,
+		1090331
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -16610,5 +16611,9 @@ pg.base.skill_data_display = {
 	[1090321] = {
 		id = 1090321,
 		name = "紧急回避·大斗犬"
+	},
+	[1090331] = {
+		id = 1090331,
+		name = "雷击指挥·{namecode:15}"
 	}
 }

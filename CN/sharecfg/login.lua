@@ -1859,39 +1859,14 @@ pg.login = {
 		}
 	},
 	[59] = {
-		op_play = 1,
+		op_play = 0,
+		op_time = "",
 		id = 59,
 		login_static = "login",
 		login_cri = "",
 		bgm = "",
 		date = {
 			"timer",
-			{
-				{
-					2024,
-					10,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					11,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		op_time = {
 			{
 				{
 					2024,

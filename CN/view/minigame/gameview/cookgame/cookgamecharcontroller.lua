@@ -422,7 +422,7 @@ slot0.createCharData = function(slot0, slot1)
 
 				if slot18 then
 					table.insert(slot4, {
-						runtimeAnimator = ResourceMgr.Inst:getAssetSync(slot9, slot18, typeof(RuntimeAnimatorController), false, false),
+						runtimeAnimator = LoadAny(slot9, slot18, typeof(RuntimeAnimatorController)),
 						name = slot18
 					})
 				end
@@ -434,7 +434,7 @@ slot0.createCharData = function(slot0, slot1)
 				slot18 = slot8 .. "_L" .. slot13 .. "_" .. slot17
 
 				table.insert(slot4, {
-					runtimeAnimator = ResourceMgr.Inst:getAssetSync(slot9, slot18, typeof(RuntimeAnimatorController), false, false),
+					runtimeAnimator = LoadAny(slot9, slot18, typeof(RuntimeAnimatorController)),
 					name = slot18
 				})
 			end
@@ -444,7 +444,7 @@ slot0.createCharData = function(slot0, slot1)
 			slot14 = slot8 .. "_L" .. slot13
 
 			table.insert(slot4, {
-				runtimeAnimator = ResourceMgr.Inst:getAssetSync(slot9, slot14, typeof(RuntimeAnimatorController), false, false),
+				runtimeAnimator = LoadAny(slot9, slot14, typeof(RuntimeAnimatorController)),
 				name = slot14
 			})
 		end

@@ -203924,3 +203924,322 @@ _G.pg.base.task_data_template[500057] = {
 		115
 	}
 }
+
+
+_G.pg.base.task_data_template[500061] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500061,
+	type = 5,
+	is_head = 1,
+	count_inherit = 0,
+	name = "属于我们的开始",
+	desc = "提交3个《鱼雷天妇罗》",
+	sub_type = 1000,
+	task_fold = 0,
+	story_icon = "hao",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500062",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "HAO1",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500061,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "50003",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+
+_G.pg.base.task_data_template[500062] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500062,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "这样，就可以牵手了",
+	desc = "强化任意角色10次",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "hao",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500063",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "HAO2",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500062,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500063] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500063,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "穿上围裙吧！",
+	desc = "豪上阵出击(关卡)胜利20次",
+	sub_type = 18,
+	task_fold = 0,
+	story_icon = "hao",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500064",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "HAO3",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500063,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "20509",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500064] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500064,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "失误与笑容",
+	desc = "累计消耗石油500",
+	sub_type = 121,
+	task_fold = 0,
+	story_icon = "hao",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500065",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "HAO4",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500064,
+	target_num = 500,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500065] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500065,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "制作之余的休息时间",
+	desc = "豪好感度达到100",
+	sub_type = 1012,
+	task_fold = 0,
+	story_icon = "hao",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500066",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "HAO5",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500065,
+	target_num = 10000,
+	fix_task = 0,
+	target_id = "20509",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16002,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500066] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500066,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "滚烫的温度",
+	desc = "豪突破至满星",
+	sub_type = 33,
+	task_fold = 0,
+	story_icon = "hao",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500067",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "HAO6",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500066,
+	target_num = 6,
+	fix_task = 0,
+	target_id = "20509",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18022,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500067] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500067,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "属于彼此的甜蜜饼干",
+	desc = "豪等级达到100",
+	sub_type = 1013,
+	task_fold = 0,
+	story_icon = "hao",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "HAO7",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500067,
+	target_num = 100,
+	fix_task = 0,
+	target_id = "20509",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18023,
+			1
+		}
+	}
+}

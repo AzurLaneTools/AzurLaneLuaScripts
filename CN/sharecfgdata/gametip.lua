@@ -12377,12 +12377,12 @@ _G.pg.base.gametip.buildship_heavy_tip = {
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "{namecode:447} 建造追加！"
+	tip = "雅努斯、曼彻斯特 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "{namecode:463}、{namecode:468} 等角色建造追加！"
+	tip = "阿尔比恩 建造追加！"
 }
 
 

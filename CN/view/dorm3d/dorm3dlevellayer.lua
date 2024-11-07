@@ -110,7 +110,7 @@ slot0.init = function(slot0)
 	slot0.callInput:GetComponent(typeof(InputField)).onValueChanged:AddListener(function ()
 		uv0.renameReset = false
 	end)
-	setActive(slot0.rtLevelPanel:Find("bg/left/rot"), PLATFORM_CODE == PLATFORM_CH)
+	setActive(slot0.rtLevelPanel:Find("bg/left/rot"), not uv0.IsLockNamed())
 	slot0:InitItemList()
 end
 
@@ -251,7 +251,15 @@ slot0.didEnter = function(slot0)
 	slot0:UpdateRed()
 end
 
+slot0.IsLockNamed = function()
+	return PLATFORM_CODE ~= PLATFORM_CH and DORM_LOCK_NAMED
+end
+
 slot0.IsShowRed = function()
+	if uv0.IsLockNamed() then
+		return false
+	end
+
 	return PlayerPrefs.GetInt(uv0.PLAYERPREFS_KEY, 0) == 0
 end
 

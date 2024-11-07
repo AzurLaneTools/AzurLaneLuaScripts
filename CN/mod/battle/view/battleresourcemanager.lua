@@ -205,7 +205,7 @@ slot5.LoadSpineAsset = function(slot0, slot1, slot2)
 	slot3 = slot0.GetCharacterPath(slot1)
 
 	if not PoolMgr.GetInstance():IsSpineSkelCached(slot1) then
-		ResourceMgr.Inst:getAssetAsync(slot3, slot1 .. "_SkeletonData", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		ResourceMgr.Inst:getAssetAsync(slot3, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 			uv0(slot0)
 		end), true, true)
 	else
@@ -220,7 +220,7 @@ slot5.InstAirCharacter = function(slot0, slot1, slot2)
 		slot0:InitPool(slot3, slot0._resCacheList[slot3])
 		slot2(slot0:popPool(slot0._allPool[slot3]))
 	else
-		ResourceMgr.Inst:getAssetAsync(slot3, slot1, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		ResourceMgr.Inst:getAssetAsync(slot3, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 			if not uv0._poolRoot then
 				uv1.Destroy(slot0)
 
@@ -261,7 +261,7 @@ slot5.InstBullet = function(slot0, slot1, slot2)
 
 		return true
 	else
-		ResourceMgr.Inst:getAssetAsync(slot3, slot1, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		ResourceMgr.Inst:getAssetAsync(slot3, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 			if uv0._poolRoot then
 				uv1.Destroy(slot0)
 
@@ -290,7 +290,7 @@ slot5.InstFX = function(slot0, slot1, slot2)
 
 		slot4 = slot0:popPool(slot0._allPool[slot3], slot2)
 	else
-		ResourceMgr.Inst:getAssetAsync(slot3, slot1, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		ResourceMgr.Inst:getAssetAsync(slot3, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 			if not uv0._poolRoot then
 				uv1.Destroy(slot0)
 
@@ -321,7 +321,7 @@ slot5.InstOrbit = function(slot0, slot1)
 
 		slot3 = slot0:popPool(slot0._allPool[slot2])
 	else
-		ResourceMgr.Inst:getAssetAsync(slot2, slot1, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		ResourceMgr.Inst:getAssetAsync(slot2, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 			if not uv0._poolRoot then
 				uv1.Destroy(slot0)
 
@@ -512,7 +512,7 @@ slot5.StartPreload = function(slot0, slot1, slot2)
 				uv3()
 			end), true, true)
 		elseif string.find(slot9, "shiptype/") then
-			ResourceMgr.Inst:getAssetAsync("shiptype", string.split(slot9, "/")[2], typeof(Sprite), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+			GetSpriteFromAtlasAsync("shiptype", string.split(slot9, "/")[2], function (slot0)
 				if slot0 == nil then
 					originalPrint("资源预加载失败，检查以下目录：>>" .. uv0 .. "<<")
 				else
@@ -528,7 +528,7 @@ slot5.StartPreload = function(slot0, slot1, slot2)
 				end
 
 				uv3()
-			end), true, true)
+			end)
 		elseif string.find(slot9, "painting/") then
 			slot12 = false
 
@@ -597,7 +597,7 @@ slot5.StartPreload = function(slot0, slot1, slot2)
 				uv3()
 			end, true, true)
 		else
-			ResourceMgr.Inst:getAssetAsync(slot9, slot11, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+			ResourceMgr.Inst:getAssetAsync(slot9, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 				if slot0 == nil then
 					originalPrint("资源预加载失败，检查以下目录：>>" .. uv0 .. "<<")
 				else
