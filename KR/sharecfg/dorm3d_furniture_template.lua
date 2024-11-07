@@ -160,10 +160,10 @@ pg.dorm3d_furniture_template = {
 		}
 	},
 	[122] = {
-		name = "午后遐乡",
+		name = "오후의 몽향",
 		type = 5,
 		room_id = 1,
-		desc = "舒适的躺椅沙发。\n柔软舒适的沙发上摆放着靠枕和毯子，方便使用者随时入睡。",
+		desc = "쾌적한 리클라이닝 소파.\n 폭신하고도 부드러우며, 쿠션과 이불이 딸려있다. 언제든 잠깐 눈을 붙일 수 있는 보드라운 감촉,",
 		is_exclusive = 1,
 		acesses = "",
 		model = "Pay_Siriushostel/pre_db_sh_chair02",

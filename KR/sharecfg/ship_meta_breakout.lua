@@ -1899,7 +1899,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9705061] = {
-		breakout_view = "习得技能【湮烬之核·{namecode:230}】/主炮底座+1/主炮效率提高5%",
+		breakout_view = "스킬 [인멸의 핵·나가토] 습득 / 주포 포좌 +1 / 주포 보정 +5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -1934,7 +1934,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705063] = {
-		breakout_view = "【湮烬之核·{namecode:230}】升级/主炮底座+1/主炮效率提高15%",
+		breakout_view = "스킬 [인멸의 핵·나가토] 강화 / 주포 포좌 +1 / 주포 보정 +15%",
 		item2 = 21001,
 		pre_id = 9705062,
 		repair = 0,

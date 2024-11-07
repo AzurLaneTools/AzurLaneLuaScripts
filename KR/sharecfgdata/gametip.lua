@@ -35597,5 +35597,5 @@ _G.pg.base.gametip.juuschat_background_tip1 = {
 
 
 _G.pg.base.gametip.juuschat_background_tip2 = {
-	tip = "暂未拥有此换装"
+	tip = "스킨 미보유"
 }

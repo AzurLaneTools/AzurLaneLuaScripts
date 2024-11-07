@@ -26853,7 +26853,7 @@ cs.gametip = {
 	},
 	juuschat_background_tip2 = {
 		1087449,
-		109,
+		104,
 		true
 	}
 }
