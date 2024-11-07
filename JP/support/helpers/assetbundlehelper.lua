@@ -88,16 +88,41 @@ slot0.LoadAsset = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = {}
 
 	if slot3 then
-		AssetBundleHelper.loadAssetBundleAsync(slot0, function (slot0)
-			slot0:LoadAssetAsync(uv0, uv1, uv2, uv3, false)
+		slot8 = ResourceMgr.Inst
+
+		parallelAsync(underscore.map(table.CArrayToArray(slot8:GetAllDependencies(slot0)), function (slot0)
+			return function (slot0)
+				AssetBundleHelper.loadAssetBundleAsync(uv0, slot0)
+			end
+		end), function ()
+			AssetBundleHelper.loadAssetBundleAsync(uv0, function (slot0)
+				slot0:LoadAssetAsync(uv0, uv1, uv2, uv3, false)
+				onNextTick(function ()
+					for slot3, slot4 in ipairs(uv0) do
+						ResourceMgr.Inst:ClearBundleRef(slot4, false)
+					end
+				end)
+			end)
 		end)
-	else
-		slot8 = AssetBundleHelper.loadAssetBundleSync(slot0):LoadAssetSync(slot1, slot2, slot5, false)
 
-		existCall(slot4, slot8)
-
-		return slot8
+		return
 	end
+
+	for slot11, slot12 in ipairs(table.CArrayToArray(ResourceMgr.Inst:GetAllDependencies(slot0))) do
+		AssetBundleHelper.loadAssetBundleSync(slot12)
+	end
+
+	slot8 = AssetBundleHelper.loadAssetBundleSync(slot0)
+	slot9 = slot8:LoadAssetSync(slot1, slot2, slot5, false)
+
+	existCall(slot4, slot9)
+	onNextTick(function ()
+		for slot3, slot4 in ipairs(uv0) do
+			ResourceMgr.Inst:ClearBundleRef(slot4, false)
+		end
+	end)
+
+	return slot9
 end
 
 slot0.bundleDic = {}
