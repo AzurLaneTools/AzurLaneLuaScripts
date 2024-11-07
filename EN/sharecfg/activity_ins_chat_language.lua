@@ -10157,7 +10157,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "It's my cheap and user-friendly products that bring us together, nya.",
+		param = "233",
 		ship_group = 31201,
 		option = "",
 		type = 4,
