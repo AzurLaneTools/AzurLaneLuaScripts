@@ -12,16 +12,10 @@ return {
 	},
 	scripts = {
 		{
+			actor = 0,
 			side = 0,
 			hidePaintObj = true,
-			optionFlag = 1,
-			say = "!!!!!选项放第一句 say是什么呢？!!!!!!",
-			options = {
-				{
-					content = "Do you want to go outside?",
-					flag = 1
-				}
-			}
+			say = "Do you want to go outside?"
 		},
 		{
 			actorName = 20220,
