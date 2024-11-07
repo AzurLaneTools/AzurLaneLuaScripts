@@ -3,8 +3,9 @@ pg.GameTrackerMgr = singletonClass("GameTrackerMgr")
 slot0 = pg.GameTrackerMgr
 GameTrackerBuilder = import("Mgr.GameTracker.GameTrackerBuilder")
 slot1 = 300
-slot2 = "GameTrackerMgr"
-slot3 = "^"
+slot2 = 20
+slot3 = "GameTrackerMgr"
+slot4 = "^"
 
 slot0.Init = function(slot0, slot1)
 	slot0.readBuffer = {}
@@ -19,6 +20,10 @@ end
 slot0.Record = function(slot0, slot1)
 	table.insert(slot0.readBuffer, slot1)
 	slot0:Cache()
+
+	if uv0 <= #slot0.readBuffer then
+		slot0:Synchronization()
+	end
 end
 
 slot0.Synchronization = function(slot0)
