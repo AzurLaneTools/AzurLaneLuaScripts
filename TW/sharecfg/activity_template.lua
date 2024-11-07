@@ -12360,6 +12360,227 @@ pg.activity_template = {
 			miniGame = 64
 		}
 	},
+	[5210] = {
+		mark = 20241107,
+		type = 69,
+		login_pop = 0,
+		config_id = 25,
+		is_show = 51,
+		title_res_tag = "Georgia_catchup",
+		id = 5210,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					11,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ChkalovTecCatchupPage",
+			ui_name = "ChkalovTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42044
+		}
+	},
+	[5211] = {
+		mark = 20241107,
+		type = 87,
+		login_pop = 0,
+		config_id = 16,
+		is_show = 51,
+		config_client = "",
+		title_res_tag = "activity",
+		id = 5211,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					11,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MaoxiV4FramePage",
+			ui_name = "MaoxiV4FramePage"
+		}
+	},
+	[5212] = {
+		mark = 20241107,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 51,
+		title_res_tag = "xiangshanerxing",
+		id = 5212,
+		config_data = {
+			{
+				19787,
+				19788
+			},
+			{
+				19789,
+				19790
+			},
+			{
+				19791,
+				19792
+			},
+			{
+				19793,
+				19794
+			},
+			{
+				19795,
+				19796
+			},
+			{
+				19797,
+				19798
+			},
+			{
+				19799,
+				19800
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					11,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MaoxiV4TaskPage",
+			ui_name = "MaoxiV4TaskPage"
+		},
+		config_client = {
+			firstStory = "XIANGSHANERXING1",
+			story = {
+				{
+					"XIANGSHANERXING2"
+				},
+				{
+					"XIANGSHANERXING3"
+				},
+				{
+					"XIANGSHANERXING4"
+				},
+				{
+					"XIANGSHANERXING5"
+				},
+				{
+					"XIANGSHANERXING6"
+				},
+				{
+					"XIANGSHANERXING7"
+				},
+				{
+					"XIANGSHANERXING8"
+				}
+			}
+		}
+	},
+	[5213] = {
+		mark = 20241107,
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 28,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5213,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					11,
+					7
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[5233] = {
 		mark = 20240829,
 		time = "stop",
@@ -52966,6 +53187,7 @@ pg.activity_template = {
 			5017,
 			5022,
 			5023,
+			5212,
 			5324,
 			5360,
 			5415,
@@ -53683,6 +53905,7 @@ pg.activity_template = {
 			4793,
 			4950,
 			4975,
+			5210,
 			40400,
 			40489,
 			40557,
@@ -53710,6 +53933,7 @@ pg.activity_template = {
 			4973,
 			5064,
 			5162,
+			5211,
 			40724,
 			40783,
 			40831,
@@ -53737,6 +53961,7 @@ pg.activity_template = {
 			4976,
 			5063,
 			5161,
+			5213,
 			5249,
 			5316,
 			40178,
@@ -54576,6 +54801,10 @@ pg.activity_template = {
 		5195,
 		5201,
 		5202,
+		5210,
+		5211,
+		5212,
+		5213,
 		5233,
 		5234,
 		5235,

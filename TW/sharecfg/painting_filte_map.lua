@@ -11101,11 +11101,6 @@ pg.painting_filte_map = {
 		key = "ruihe",
 		res_list = {
 			"painting/ruihe_tex",
-			"painting/ruihe_4_tex",
-			"painting/ruihe_4_rw_tex",
-			"painting/ruihe_4_n_tex",
-			"painting/ruihe_4_n",
-			"painting/ruihe_4",
 			"painting/ruihe"
 		}
 	},
@@ -11125,6 +11120,16 @@ pg.painting_filte_map = {
 			"painting/ruihe_3_n_tex",
 			"painting/ruihe_3_n",
 			"painting/ruihe_3"
+		}
+	},
+	ruihe_4 = {
+		key = "ruihe_4",
+		res_list = {
+			"painting/ruihe_4_tex",
+			"painting/ruihe_4_rw_tex",
+			"painting/ruihe_4_n_tex",
+			"painting/ruihe_4_n",
+			"painting/ruihe_4"
 		}
 	},
 	ruihe_memory = {

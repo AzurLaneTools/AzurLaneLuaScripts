@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"提升棋力的妙手\n\n<size=45>一　茶与咖啡</size>",
+					"提升棋力的妙手\n\n<size=45>1.茶與咖啡</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			bgm = "story-richang-7",
-			say = "深夜的指挥室内。",
+			say = "深夜的指揮室內。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			actor = 502070,
 			actorName = "？？",
 			hidePaintObj = true,
-			say = "想、想不到您会在这么晚的时间约我到指挥室……",
+			say = "想、想不到您會在這麼晚的時間約我到指揮室……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -53,7 +53,7 @@ return {
 			actor = 502070,
 			actorName = "？？",
 			hidePaintObj = true,
-			say = "这种热闹非凡的夜晚……指挥官居然单独把我约到这被朦胧月色笼罩的静谧之处……！",
+			say = "這種熱鬧非凡的夜晚……指揮官居然單獨把我約到這被朦朧月色籠罩的靜謐之處……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			actor = 502070,
 			actorName = "？？",
 			hidePaintObj = true,
-			say = "请、请稍等片刻，我的心绪还躁动不安，恐怕没办法立刻回应您的期待……！",
+			say = "請、請稍等片刻，我的心緒還躁動不安，恐怕沒辦法立刻回應您的期待……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "我不是那个意思……",
+					content = "我不是那個意思……",
 					flag = 2
 				}
 			}
@@ -101,7 +101,7 @@ return {
 			actor = 502070,
 			actorName = "？？",
 			hidePaintObj = true,
-			say = "抱、抱歉，是我失态了！",
+			say = "抱、抱歉，是我失言了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "其实，这么晚还叫你来，是有件事想要请教你。",
+			say = "其實，這麼晚還叫妳來，有件事想請教妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			actor = 502070,
 			actorName = "？？",
 			hidePaintObj = true,
-			say = "原来如此……我会努力帮上忙的。",
+			say = "原來如此……我會努力幫忙的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "谢谢，那就拜托你了。",
+			say = "謝謝，那就拜託妳了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			bgm = "story-richang-2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "翌日中午，处理完其它工作后回到指挥室。",
+			say = "次日中午，處理完其它工作後回到指揮室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欢迎回来，指挥官，工作辛苦了。",
+			say = "歡迎回來，指揮官，工作辛苦了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵~你的脸上流露出了一丝倦意呢，要坐下来喝点东西休息一下吗？",
+			say = "呵呵~你的臉上流露出了一絲倦意呢，要坐下來喝點東西休息一下嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "放心，在你不在的这段时间，其它需要秘书舰处理的文书工作我已经处理好了。",
+			say = "放心，在你不在的這段時間，其它需要秘書艦處理的文書工作我已經處理好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "镇海边说着，边放下手中的咖啡杯和一本印刷精美的诗集。",
+			say = "鎮海邊說著，邊放下手中的咖啡杯和一本印刷精美的詩集。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "咖啡……？今天居然不是茶吗？而且居然在看书，而不是在下棋……？",
+			say = "咖啡……？今天居然不是茶嗎？而且居然在看書，而不是在下棋……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎呀，在指挥官的脑袋里，难道形成了我必须品茗下棋的刻板印象？",
+			say = "哎呀，在指揮官的腦袋裡，難道形成了我必須品茗下棋的刻板印象？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			},
 			options = {
 				{
-					content = "点头",
+					content = "點點頭",
 					flag = 1
 				},
 				{
@@ -313,7 +313,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "会有这样的想法并不奇怪，因为包括我在内的东煌的大家，都很喜欢喝茶。",
+			say = "會有這樣的想法並不奇怪，因為包括我在內的東煌的大家，都很喜歡喝茶。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过像这样偶尔一试咖啡……指挥官是不是立刻就感到新鲜，由此便对我产生了更多关注呢？",
+			say = "不過像這樣偶爾一試咖啡……指揮官是不是立刻就感到新鮮，由此便對我產生了更多關注呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -347,7 +347,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "原来是这样……",
+			say = "原來是這樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不要急于相信，也许我是想通过食物来了解其他同伴的想法……以便在战时更好地出谋划策呢？",
+			say = "不要急於相信，也許我是想透過食物來了解其他同伴的想法……以便在戰時更好地出謀劃策呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,7 +391,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以究竟哪番才是我的真实意图呢？指挥官有兴趣的话，不妨猜猜看。",
+			say = "所以究竟哪番才是我的真實意圖呢？指揮官有興趣的話，不妨猜猜看。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（居然又被镇海……不，不对，我今天可不该这么被动的！）",
+			say = "（居然又被鎮海……不，不對，我今天可不該這麼被動的！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（昨天可是挤占睡眠时间认真学习过了，拿出自信来！）",
+			say = "（昨天可是擠佔睡眠時間認真學習過了，拿出自信來！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "镇海，接下来你应该没有别的安排吧？我学了“几手”，想找你认真讨教一下。",
+			say = "鎮海，接下來妳應該沒有別的安排吧？我學了「幾手」，想找你認真討教。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？当然没有别的安排，不过……学了几手是指……？",
+			say = "嗯？當然沒有別的安排，不過……學了幾手是指……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,7 +461,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等下你就知道了。",
+			say = "等下妳就知道了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -414,6 +414,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「人生須臾，不可辜負。」</color>\n「須臾望月抄」活動獲取",
 		scene = {}
 	},
+	[329] = {
+		name = "雪域寒星",
+		gain_by = "雪境迷蹤",
+		time_second = 0,
+		id = 329,
+		time_limit_type = 0,
+		desc = "透過後續活動獲得",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂紀念：企業",
 		gain_by = "",
@@ -641,6 +650,7 @@ pg.item_data_frame = {
 		325,
 		326,
 		327,
+		329,
 		401,
 		402,
 		414,

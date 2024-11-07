@@ -1217,7 +1217,7 @@ pg.enemy_data_statistics_31 = {
 	},
 	[90849] = {
 		cannon = 0,
-		name = "埃爾薇菈",
+		name = "埃爾賓",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

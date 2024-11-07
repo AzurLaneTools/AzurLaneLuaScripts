@@ -159,6 +159,7 @@ pg.memory_group = setmetatable({
 		266,
 		267,
 		268,
+		277,
 		280,
 		281,
 		282,
@@ -263,6 +264,7 @@ pg.memory_group = setmetatable({
 		591,
 		592,
 		594,
+		595,
 		1000,
 		1001,
 		1002
@@ -3797,6 +3799,24 @@ pg.base.memory_group = {
 			3207
 		}
 	},
+	[277] = {
+		title = "向山而行",
+		subtype = 1,
+		link_event = 5212,
+		type = 2,
+		id = 277,
+		icon = "title_event",
+		memories = {
+			3361,
+			3362,
+			3363,
+			3364,
+			3365,
+			3366,
+			3367,
+			3368
+		}
+	},
 	[280] = {
 		title = "吟遊者之詩",
 		subtype = 2,
@@ -5641,6 +5661,23 @@ pg.base.memory_group = {
 			3295,
 			3296,
 			3297
+		}
+	},
+	[595] = {
+		title = "提升棋力的妙手",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 595,
+		icon = "title_chara_zhenhai",
+		memories = {
+			3351,
+			3352,
+			3353,
+			3354,
+			3355,
+			3356,
+			3357
 		}
 	},
 	[1000] = {

@@ -150416,6 +150416,132 @@ _G.pg.base.equip_data_statistics[91273] = {
 }
 
 
+_G.pg.base.equip_data_statistics[91280] = {
+	name = "十字胸針",
+	tech = 0,
+	type = 10,
+	speciality = "<[NA]>",
+	attribute_1 = "durability",
+	value_2 = 0,
+	icon = "51280",
+	value_1 = "140",
+	rarity = 4,
+	descrip = "一枚克里蒙梭主教隨身穿戴的十字胸針，見之如見人。",
+	nationality = 10,
+	ammo = 10,
+	value_3 = 0,
+	id = 91280,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60520
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"FFNF",
+		"DEV"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[91281] = {
+	id = 91281,
+	value_1 = "161",
+	base = 91280,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[91282] = {
+	id = 91282,
+	value_1 = "182",
+	base = 91280,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[91283] = {
+	id = 91283,
+	value_1 = "203",
+	base = 91280,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[91284] = {
+	id = 91284,
+	value_1 = "224",
+	base = 91280,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[91285] = {
+	id = 91285,
+	value_1 = "245",
+	base = 91280,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[91286] = {
+	id = 91286,
+	value_1 = "266",
+	base = 91280,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[91287] = {
+	id = 91287,
+	value_1 = "287",
+	base = 91280,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[91288] = {
+	id = 91288,
+	value_1 = "308",
+	base = 91280,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[91289] = {
+	id = 91289,
+	value_1 = "329",
+	base = 91280,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[91290] = {
+	id = 91290,
+	value_1 = "350",
+	base = 91280,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[91291] = {
+	anti_siren = 100,
+	base = 91280,
+	id = 91291,
+	value_1 = "371",
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[95000] = {
 	name = "三聯裝381mm主炮Model1934",
 	speciality = "<[VOL]>",

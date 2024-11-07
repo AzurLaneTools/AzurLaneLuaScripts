@@ -9,7 +9,7 @@ return {
 			bgm = "bsm-4",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "帕克菲克洋·铁血浮岛要塞群",
+			say = "太平洋·鐵血浮島要塞群",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "安塔迪卡……又是安塔迪卡么。",
+			say = "南極……又是南極嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 407030,
-			say = "是的。虽然观察者已经销声匿迹相当长一段时间了。",
+			say = "是的。雖然觀察者已經銷聲匿跡相當長一段時間了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,32 +70,7 @@ return {
 			bgName = "bg_guild_red_n",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过，通过近来一段时间，我们为试探其他海域的高阶塞壬进行的排除法作战。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
-			side = 2,
-			actor = 407030,
-			say = "我已基本可以确认，观察者的主机位于SA海域、中帕克菲克洋、陆间海以及安塔迪卡洋，四处海域之一。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 407030,
-			side = 2,
-			bgName = "bg_guild_red_n",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "考虑到观察者做事周密又狡猾，且从来不亲自参加战斗的性格，",
+			say = "不過，經過近來一段時間，我們為試探其他海域的高階塞壬進行的排除法作戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +83,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 407030,
-			say = "人迹罕至，又同时与多片大洋相互连通的安塔迪卡洋无疑是其中的最优选择。",
+			say = "我已基本可以確認，觀察者的主機位於SA海域、中太平洋、地中海以及南冰洋，四處海域之一。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +95,32 @@ return {
 			bgName = "bg_guild_red_n",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以我才认为，其主机位于安塔迪卡洋中的可能性最高。",
+			say = "考慮到觀察者做事周密又狡猾，且從來不親自參與戰鬥的性格，",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_guild_red_n",
+			hidePaintObj = true,
+			side = 2,
+			actor = 407030,
+			say = "人跡罕至，同時與多片大洋相互連通的南冰洋無疑是其中的最優選擇。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 407030,
+			side = 2,
+			bgName = "bg_guild_red_n",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "所以我才認為，其主機位於南冰洋的可能性最高。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 407030,
-			say = "……不知阁下说的“又”是指什么意思？",
+			say = "……不知閣下說的「又」是指什麼意思？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其实，我这里也收到了一个和安塔迪卡有关的情报。",
+			say = "其實，我這裡也收到了一個和南極有關的情報。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "前天收到审判庭发来的消息，她们的情报网络发现，北方联合和白鹰最近似乎都在围绕安塔迪卡做文章。",
+			say = "前天收到審判庭發來的消息，她們的情報網發現，北方聯合和白鷹最近似乎都在圍繞南極做文章。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_guild_red_n",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……难道她们也在找观察者的主机？",
+			say = "……她們也在找觀察者的主機？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "昨日，我联系了科考站，让其调查一下安塔迪卡让白鹰和北方联合都如此在意的原因。",
+			say = "昨日，我聯絡了科考站，讓其調查一下南極讓白鷹和北方聯合都如此在意的原因。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然后我收到了一份报告，科研团队在山脉中发现了一些异常的冰层融化区。",
+			say = "然後我收到了一份報告，科學研究團隊在山脈中發現了一些異常的冰層融化區。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "并从其中回收到了某种似乎可以与舰装形成共鸣的矿物样本。",
+			say = "並從其中回收了某種似乎可以與艦裝形成共鳴的礦物樣本。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "初步研究表明，共鸣现象发生时，舰装的作战效能有可见的提高。",
+			say = "初步研究表明，共鳴現象發生時，艦裝的作戰效能有可見的提升。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再之后，我就与科考站失去了联系。",
+			say = "再之後，我就與科考站失去了聯繫。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,7 +304,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 407030,
-			say = "和科考站失去了联系……？",
+			say = "和科考站失去了聯繫……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 407030,
-			say = "白鹰和北方联合在安塔迪卡的行动，应该确实与此发现有关。",
+			say = "白鷹和北方聯合在南極的行動，應該確實與此發現有關。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 407030,
-			say = "但是我们的科考站失联……恐怕不是它们所为。",
+			say = "但是我們的科考站失聯……恐怕不是它們所為。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我也是这么想的。在这个正在举行会谈的时间点，它们没理由也没动机做这种事。",
+			say = "我也是這麼想的。在這個正在舉行會談的時間點，它們沒理由也沒動機做這種事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这种抛出一个“变量”，引得各家之间心生嫌隙的操作……反而是让我想起来一个人。",
+			say = "這種拋出一個「變數」，引得各家之間心生嫌隙的操作……反而是讓我想起來一個人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 407030,
-			say = "观察者……原来如此，这件事确实有可能和观察者存在关联。",
+			say = "觀察者……原來如此，這件事確實有可能和觀察者有關聯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			bgName = "bg_guild_red_n",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过……如果观察者的主机真的位于安塔迪卡洋的话，白鹰与北方联合的舰队岂不是危险了？",
+			say = "不過……如果觀察者的主機真的位於南冰洋的話，白鷹與北方聯合的艦隊豈不是危險了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "或许。你立刻准备舰队，前往安塔迪卡查明科考站失联的原因。",
+			say = "或許。妳立刻準備艦隊，前往南極查明科考站失聯的原因。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -425,7 +425,7 @@ return {
 			actor = 405050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然后，根据事态发展——随机应变。",
+			say = "然後，根據事態發展——隨機應變。",
 			painting = {
 				alpha = 0.3,
 				time = 1

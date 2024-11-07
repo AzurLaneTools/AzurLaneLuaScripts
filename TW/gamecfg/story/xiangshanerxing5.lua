@@ -9,7 +9,7 @@ return {
 			bgm = "blueocean-image",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "翌日，碧蓝航线临时办公楼外",
+			say = "翌日，碧藍航線臨時辦公大樓外",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "望着天上的朝阳，不禁开始打起了哈欠。",
+			say = "望著天上的朝陽，不禁開始打起了哈欠。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,19 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
-			say = "昨夜的最后结果自然是——彻夜未眠。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_520",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "还好本日休会……",
+			say = "昨夜的最後結果自然是——徹夜未眠。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +60,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "什么做个好梦……亏她能说得出来。",
+			say = "還好本日休會……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +72,7 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……算了。接下来要做的事，已经谋划得差不多了。",
+			say = "什麼做個好夢……虧她能說得出來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +84,19 @@ return {
 			bgName = "star_level_bg_520",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "该付诸行动了。",
+			say = "……算了。接下來要做的事，已經規劃得差不多了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_520",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "該付諸行動了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,15 +110,15 @@ return {
 			bgmDelay = 2,
 			sequence = {
 				{
-					"鸢尾教国首都",
+					"鳶尾教國首都",
 					1
 				},
 				{
-					"审判庭总部大楼",
+					"審判庭總部大樓",
 					2
 				},
 				{
-					"某处",
+					"某處",
 					3
 				}
 			},
@@ -138,7 +138,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			bgm = "theme-vichy-church",
-			say = "这里是审判庭大楼地下的某处空间。",
+			say = "這裡是審判庭大樓地下的某處空間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "——一个不存在于任何设计图上的大厅。",
+			say = "——一個不存在於任何設計圖上的大廳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 905020,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "指挥官，欢迎你来到审判庭总部，不知今日前来所为何事？",
+			say = "指揮官，歡迎你來到審判庭總部，不知今日前來所為何事？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你应该已经猜到了吧？",
+			say = "妳應該已經猜到了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不然为什么要把接待的位置选在如此隐秘的地方？",
+			say = "不然為什麼要把接待的位置選在這麼隱密的地方？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			actor = 905020,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "哪里，选择这里只是出于安全考虑罢了。",
+			say = "哪裡，選擇這裡只是出於安全考量罷了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			actor = 905020,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "现在无数双眼睛都盯在你身上，要是您在我这里出现了任何闪失，我可没办法向各阵营交代啊。",
+			say = "現在無數雙眼睛都盯在你身上，如果您在我這裡出現了任何閃失，我可沒辦法向各陣營交代啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -239,7 +239,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "昨日的会议已经令人疲惫不堪了，今天我们还是直接一些吧。",
+			say = "昨日的會議已經令人疲憊不堪了，今天我們還是直接一點吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这里是鸢尾教国的首都，你们审判庭的大本营，我绝对相信你们的工作能力。",
+			say = "這裡是鳶尾教國的首都，妳們審判庭的大本營，我絕對相信妳們的工作能力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以我来的目的，你应该十分清楚才是。",
+			say = "所以我來的目的，妳應該十分清楚才是。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			actor = 905020,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "呵呵，那位孟菲斯小姐的工作能力确实出色，不过联想能力实在有些丰富了。",
+			say = "呵呵，那位曼非斯小姐的工作能力確實出色，不過聯想能力實在有些豐富了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			actor = 905020,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "我认为她在报告中所提到的猜测纯属无稽之谈哦。",
+			say = "我認為她在報告中所提到的猜測純屬無稽之談哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			actor = 905020,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "当日，孟菲斯小姐所认为的审判庭舰队的异常调动，只是我为了配合马可波罗而进行的演戏行动而已。",
+			say = "當日，曼非斯小姐所認為的審判庭艦隊的異常調動，只是我為了配合馬可波羅而進行的演戲行動而已。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			actor = 905020,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "并没有过多值得注意的地方。",
+			say = "並沒有過多值得注意的地方。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……克莱蒙梭，孟菲斯的那份报告只有我一个人看过，而且我也不打算让更多的人知道。",
+			say = "……克里蒙梭，曼非斯的那份報告只有我一個人看過，而且我也不打算讓更多的人知道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我并没有丝毫威胁你，或者审判庭的打算。",
+			say = "我並沒有絲毫威脅妳，或審判庭的打算。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我只是想以此为交换，请你帮我两个忙。",
+			say = "我只是想以此為交換，請妳幫我兩個忙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			actor = 905020,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "……那一日在博览会场，你对于教廷舰队做出了正确的处置。",
+			say = "……那一日在博覽會場，你對於教廷艦隊做出了正確的處置。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好吧，我愿意相信你……你可以去见她。",
+			say = "好吧，我願意相信你……你可以去見她。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -437,7 +437,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "第二个忙是什么？",
+			say = "第二個忙是什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "帮我向铁血和北方联合散布一个消息。",
+			say = "幫我向鐵血和北方聯合散播一個訊息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这是个“无源消息”，但又要有可信度，你明白我的意思。",
+			say = "這是個「無源消息」，但又要有可信度，妳明白我的意思。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦？听上去，你在谋划一件十分有趣的事呢。",
+			say = "哦？聽起來，你在策劃一件十分有趣的事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -496,7 +496,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，我答应你。审判庭的“业务能力”不会让你失望的。",
+			say = "呵呵，我答應你。審判庭的「業務能力」不會讓你失望的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说出你的计划吧，指挥官——",
+			say = "說出你的計畫吧，指揮官——",
 			painting = {
 				alpha = 0.3,
 				time = 1

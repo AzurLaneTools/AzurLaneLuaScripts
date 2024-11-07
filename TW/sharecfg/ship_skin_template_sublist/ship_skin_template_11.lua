@@ -3254,6 +3254,107 @@ pg.base.ship_skin_template_11 = {
 			}
 		}
 	},
+	[307063] = {
+		name = "急速飛馳Z",
+		ship_group = 30706,
+		desc = "{namecode:95}姐，現在車況如何？「一切數據正常，隨時可以出發。」很好，接下來的事就交給我吧，指揮官！我會讓你好好見識下賽車手{namecode:96}的實力喔！",
+		illustrator2 = -1,
+		bg_sp = "1102",
+		group_index = 3,
+		prefab = "ruihe_4",
+		painting = "ruihe_4",
+		hand_id = 2,
+		bgm = "",
+		shop_type_id = 14,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "132",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 307063,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 71030,
+		voice_actor = 46,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.1,
+					1.114,
+					0
+				}
+			},
+			plane = {
+				{
+					1.138,
+					1.144,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[307070] = {
 		name = "{namecode:97}",
 		ship_group = 30707,
@@ -11676,119 +11777,6 @@ pg.base.ship_skin_template_11 = {
 							-0.473,
 							2.372,
 							-0.38
-						}
-					}
-				}
-			}
-		}
-	},
-	[401239] = {
-		name = "Z23.改",
-		ship_group = 40123,
-		desc = "既然能力提升了，效率也要提升，公文也好，作戰計劃也好，儘管來吧！指揮官，做好心理準備，接下來會很忙哦~",
-		illustrator2 = -1,
-		bg_sp = "",
-		group_index = 9,
-		prefab = "z23_g",
-		painting = "z23_g",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 9997,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 2,
-		id = 401239,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 3,
-		spine_offset = "",
-		illustrator = 1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.96,
-					0.83,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.93,
-					0.83,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.18,
-					0.08,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.55,
-					1.16,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.37,
-							2.6,
-							-0.27
 						}
 					}
 				}

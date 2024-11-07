@@ -9,7 +9,7 @@ return {
 			bgm = "china-party",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "古朴的浑天仪、昂贵的天文望远镜、纸笔绘制的星空图、全息投影的星象。",
+			say = "古樸的渾天儀、昂貴的天文望遠鏡、紙筆繪製的星空圖、全像投影的星象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
-			say = "时空错乱之感在打开门的那一刻便扑面而来。",
+			say = "時空錯亂之感在開門的那一刻便撲面而來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
-			say = "仿佛步入了一个古典派的博物馆，但它的馆长偏偏又是个热爱现代风格的人。",
+			say = "彷彿步入了一個古典派的博物館，但它的館長偏偏又是個熱愛現代風格的人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这里的布置还真是一如既往的特别呢。",
+			say = "這裡的佈置還真是一如既往的特別呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "多谢夸奖，请用茶。今天想来问什么呢？",
+			say = "多謝誇獎，請用茶。今天想來問什麼呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "寰昌，你对于近来的事怎么看？",
+			say = "寰昌，妳對於近來的事怎麼看？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……明天天气晴朗，阳光明媚，无风。",
+			say = "嗯……明天天氣晴朗，陽光明媚，無風。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——适合出门散步和晒被子。",
+			say = "——適合出門散步和曬棉被。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，那还真是有用的情报。",
+			say = "呵呵，那還真是有用的情報。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你已经在天象台好多天没回过家了吧，明天我也帮你晒一下被子好了？",
+			say = "妳已經在天象台好多天沒回家了吧，明天我也幫妳曬一下被子好了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没事……反正之后一段时间也不打算回去。这次晒了，下次还要晒。",
+			say = "沒事……反正之後一段時間也不打算回去。這次曬了，下次還要曬。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不开玩笑了……这是整理好的半年来太阳活动情况表。",
+			say = "不開玩笑了……這是整理好的半年來太陽活動狀況表。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "给。",
+			say = "給。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
-			say = "寰昌从卦图之下，拿出了一本记录写满数据的笔记本。",
+			say = "寰昌從卦圖之下，拿出了一本記錄寫滿數據的筆記本。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……看来这半年来，太阳活动正在愈发剧烈。",
+			say = "嗯……看來這半年來，太陽活動正在愈發劇烈。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而大风暴开始变弱也是半年前开始的……你觉得这两件事会存在关系么？",
+			say = "而大風暴開始變弱也是半年前開始的……你覺得這兩件事會存在關係？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "尚无法肯定。不过，太阳活动的加剧，确实对我解析大风暴提供了帮助。",
+			say = "尚無法肯定。不過，太陽活動的加劇，確實對我解析大風暴提供了幫助。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很快，我们就可以突破风暴的桎梏了。",
+			say = "很快，我們就可以突破風暴的桎梏了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -350,7 +350,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总算可以利用上我们的海运路线了……",
+			say = "總算可以利用我們的海運路線了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是啊。镇海她们去一次博览会还真不容易呢。",
+			say = "是啊。鎮海她們去一次博覽會還真不容易呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "关于这一点，你怎么看待镇海此前的“擅自行动”？",
+			say = "關於這一點，妳怎麼看待鎮海先前的「擅自行動」？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "和你看法一样。",
+			say = "和妳看法一樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我还什么都没说哦。",
+			say = "我還什麼都沒說哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -454,7 +454,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "祸兮福之所倚，福兮祸之所伏。孰知其极？",
+			say = "禍兮福之所倚，福兮禍之所伏。孰知其極？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -471,7 +471,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不是么？",
+			say = "不是嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -503,7 +503,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_157",
 			hidePaintObj = true,
-			say = "逸仙站起身来，拿起笔记本，准备离开。",
+			say = "逸仙站起身來，拿起筆記本，準備離開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这就要走了么？",
+			say = "這就要走了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -533,7 +533,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，接下来还有一个会要处理，还有什么事么？",
+			say = "嗯，接下來還有一個會要處理，還有什麼事呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -550,7 +550,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我昨夜算了一卦，你可想听？",
+			say = "我昨夜算了一卦，妳可想聽？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -567,7 +567,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "卦象如何？",
+			say = "卦像如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -585,7 +585,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「青龙困雷火，朱雀坠九天」",
+			say = "「青龍困雷火，朱雀墜九天」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -602,7 +602,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……我了解了，等会议结束后我就去做些相应准备。",
+			say = "……我了解了，等會議結束後我就去做些相應準備。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,7 +620,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "麻烦了，就不送了哦——",
+			say = "麻煩了，就不送了哦——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -636,7 +636,7 @@ return {
 			bgm = "theme-clemenceau",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "同一时间，审判庭秘密据点——",
+			say = "同一時間，審判庭秘密據點—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -667,7 +667,7 @@ return {
 			actor = 603010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "克莱蒙梭主教，梦境有变化了。",
+			say = "克里蒙梭主教，夢境有改變了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -685,7 +685,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你梦到了什么？",
+			say = "妳夢到了什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -702,7 +702,7 @@ return {
 			actor = 603010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "“冰川之上，骨螺正在歌唱。”",
+			say = "「冰川之上，骨螺正在歌唱。」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -720,7 +720,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官的谨慎是对的，祂果然还没放弃……",
+			say = "指揮官的謹慎是對的，祂果然還沒放棄……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -738,7 +738,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "安塔迪卡确实有古怪之处，但愿去凑热闹的那几家能扛得住吧。",
+			say = "南極確實有古怪之處，但願去湊熱鬧的那幾家能扛得住吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -756,7 +756,7 @@ return {
 			actor = 603010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们该怎么办？",
+			say = "我們該怎麼辦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -774,7 +774,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "做好我们能做的事，然后——静待分晓吧。",
+			say = "做好我們能做的事，然後——靜待分曉吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1

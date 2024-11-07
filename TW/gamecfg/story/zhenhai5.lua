@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"提升棋力的妙手\n\n<size=45>五　“棋之四艺”其二</size>",
+					"提升棋力的妙手\n\n<size=45>5.「棋之四藝」其二</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			bgm = "story-richang-8",
-			say = "最后，被彻底淋湿的我在镇海的协助下擦干身体并换上新衣服后，我们一同回到了指挥室。",
+			say = "最後，被徹底淋濕的我在鎮海的協助下擦乾身體並換上新衣服後，我們一同回到了指揮室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +31,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谢谢你帮我擦干头发。",
+			say = "謝謝妳幫我擦乾頭髮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "小事而已。比起这个，经过一番“修行”之后，指挥官现在感觉怎么样？",
+			say = "小事而已。比起這個，經過一番「修行」之後，指揮官現在感覺怎麼樣？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……思绪确实变得敏捷清晰了不少。",
+			say = "嗯……思緒確實變得敏捷清晰了不少。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过为了帮我……让你的衣服都淋湿了一部分，不要紧么？",
+			say = "不過為了幫我……讓妳的衣服都淋濕了一部分，不要緊麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没关系，对舰船来说，淋湿一点可构不成任何影响哦~",
+			say = "沒關係，對船來說，淋濕一點可構不成任何影響呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过接下来就是第二课了，指挥官准备好了吗？",
+			say = "不過接下來就是第二課了，指揮官準備好了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -152,7 +152,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯~那我们继续，棋之四艺中的第二艺。",
+			say = "嗯~那我們繼續，棋之四藝種的第二藝。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "正所谓“棋虽小道，礼德亦尊”。",
+			say = "正所謂「棋雖小道，禮德亦尊」。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这次我会教给指挥官下棋时的礼仪，和一些基础的战术。",
+			say = "這次我會教指揮官下棋時的禮儀，和一些基礎的戰術。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -203,7 +203,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好的，镇海老师。",
+			say = "好的，鎮海老師。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "首先是拱手揖礼。",
+			say = "首先是拱手揖禮。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然现在已经不会如此正式，但对弈双方还是要鞠躬或点头致意以示尊敬呢。",
+			say = "雖然現在已經不會如此正式，但對弈雙方還是要鞠躬或點頭致意以示尊敬呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "顺便~这也预示着棋局即将开始，接下来就是属于对弈双方的私人时间。",
+			say = "順便~這也預示著棋局即將開始，接下來就是屬於對弈雙方的私人時間。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "在我行礼过后，镇海也向我鞠躬回礼。",
+			say = "在我行禮過後，鎮海也向我鞠躬回禮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "此时我才发觉，镇海上身被淋湿的一部分布料，此刻紧紧贴着肌肤，更显她玲珑有致。",
+			say = "此時我才發覺，鎮海上身被淋濕的一部分布料，此刻緊緊貼著肌膚，更顯她玲瓏有致。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "黑发与密如鸦羽的睫毛，此时微微濡湿。与平日里的清冷相比，别具风情。",
+			say = "黑髮與密如鴉羽的睫毛，此時微微濡濕。與平日的清冷相比，別具風情。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "这也让我的眼睛，比平时更加无处安放。",
+			say = "這也讓我的眼睛，比平常更無處安放。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（是不是提醒她换一下衣服比较好……？）",
+			say = "（是不是提醒她換衣服比較好……？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？指挥官？有什么问题吗？",
+			say = "嗯？指揮官？有什麼問題嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我这里还有你刚刚拿来备用的浴巾，拿来裹一裹比较好吧？万一着凉了……",
+			say = "我這裡還有妳剛拿來備用的浴巾，拿來裹一裹比較好吧？萬一涼了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官的关心我收下了，但只是这种程度的话，确实不会构成任何影响。",
+			say = "指揮官的關心我收下了，但只是這種程度的話，確實不會構成任何影響。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "来吧，继续我们的礼仪教学环节。接下来要教您的，叫做长者执猜。",
+			say = "來吧，繼續我們的禮儀教學環節。接下來要教您的，叫做長者執猜。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -424,7 +424,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也就是由年长者先抓子，然后由另一方猜出数目是单数还是双数。",
+			say = "也就是由年長者先抓子，然後由另一方猜出數目是單數還是雙數。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -442,7 +442,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "考虑到这次我是老师，那么就由我来先抓子。",
+			say = "考慮到這次我是老師，那就由我來先抓子。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -457,7 +457,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "镇海抓起一把白子，并握着它们把手放在了棋盘中央。",
+			say = "鎮海抓起一把白子，並握著它們把手放在了棋盤中央。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过……考虑到指挥官还在学习中。",
+			say = "不過……考慮到指揮官還在學習中。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -488,7 +488,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这次就降低一下难度……指挥官就用手来摸摸看，我的手里有多少棋子吧。",
+			say = "這次就降低一下難度……指揮官就用手來摸摸看，我的手裡有多少棋子吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1

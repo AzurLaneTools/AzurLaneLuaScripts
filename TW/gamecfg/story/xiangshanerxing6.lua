@@ -11,15 +11,15 @@ return {
 			bgmDelay = 2,
 			sequence = {
 				{
-					"鸢尾教国首都",
+					"鳶尾教國首都",
 					1
 				},
 				{
-					"北方联合大使馆",
+					"北方聯合大使館",
 					2
 				},
 				{
-					"三日后",
+					"三日後",
 					3
 				}
 			},
@@ -42,7 +42,7 @@ return {
 			actor = 900218,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "水星纪念同志，还有阿芙乐尔同志，开会辛苦了。",
+			say = "水星紀念同志，還有曙光同志，開會辛苦了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			actor = 900218,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样的结果并不意外，不必焦躁。",
+			say = "這樣的結果並不意外，不必焦躁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "会议进程……宛若泥潭呢。",
+			say = "會議進度……宛若泥潭呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			actor = 702010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "撒丁帝国还是太天真了，妄图依靠外交协议来拼合破碎的联盟。",
+			say = "薩丁帝國還是太天真了，妄圖就依靠外交協議來拼合破碎的聯盟。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			actor = 702010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "碧蓝航线之所以分裂，除了塞壬的挑唆之外……更重要的是原本就存在的理念分歧。",
+			say = "碧藍航線之所以分裂，除了塞壬的挑唆之外……更重要的是原本就存在的理念分歧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			actor = 702010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而这一问题时至今日依然没有解决。",
+			say = "而這問題時至今日依然沒有解決。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			actor = 702010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如此这般的两个群体，就算真的依靠脆弱的条约合二为一了。",
+			say = "如此這般的兩個群體，就算真的依靠脆弱的條約合而為一了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			actor = 702010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "结果也只是为第二次分裂做准备罢了。",
+			say = "結果也只是為第二次分裂做準備罷了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,7 +172,7 @@ return {
 			actor = 702010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……还不如破而后立，浴火新生。",
+			say = "……不如破而後立，浴火新生。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "咳……在审判庭的地盘，加密线路也不能保证100%的安全，阿芙乐尔同志……",
+			say = "咳…在審判庭的地盤，加密線路也無法保證100%的安全，曙光同志……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不、不过倒是没想到，鸢尾居然愿意陪撒丁一起胡闹，主动提供了场地和一半的费用！",
+			say = "不、不過倒是沒想到，鳶尾居然願意陪薩丁一起胡鬧，主動提供了場地和一半的費用！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			actor = 900218,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……倒也不能简单称之为“胡闹”。",
+			say = "嗯……倒也不能簡單稱之為「胡鬧」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			actor = 900218,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "鸢尾合并后，其在两大阵营中的归属可是十分棘手的问题。",
+			say = "鳶尾合併後，在兩大陣營中的歸屬可是十分棘手的問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "而问题，如果一直放着不解决，只会变得愈发严重。",
+			say = "而問題，如果一直放著不解決，只會變得越嚴重。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			actor = 900218,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "鸢尾选择在这场会议中承担重要角色，就是在做出正在试图解决这个问题的姿态。",
+			say = "鳶尾選擇在這場會議中承擔重要角色，就是在做出正在試圖解決這個問題的姿態。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			actor = 900218,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "至于这个会议的结果，反而是次要的了。",
+			say = "至於這個會議的結果，反而是次要的了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这么说来，只有撒丁帝国是真心相信这场会议能起到作用的参会方呢。",
+			say = "這麼說來，只有薩丁帝國是真心相信這場會議能發揮作用的與會方呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,7 +342,7 @@ return {
 			actor = 900218,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这个嘛……毕竟是撒丁帝国。",
+			say = "這個嘛……畢竟是薩丁帝國。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			actor = 900218,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过各大阵营都卖了她们这个面子，说明此前的博览会也算没有白开。",
+			say = "不過各大陣營都賣了她們這個面子，說明先前的博覽會也算沒有白開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "就是接下来还要麻烦你们再应付一阵子了。",
+			say = "就是接下來還要麻煩妳們再應付一陣子了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			actor = 900218,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "会议虽然沉闷，但也要有始有终才行。",
+			say = "會議雖然沉悶，但也要有始有終才行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			actor = 702010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "自然，鸢尾这边的事就放心交给我们吧。",
+			say = "自然，鳶尾這邊的事就放心交給我們吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -414,7 +414,7 @@ return {
 			actor = 900218,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "除此之外，还有一件事需要你们留意一下。",
+			say = "除此之外，還有一件事需要妳們留意一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "喀琅施塔得近日发现，在审判庭各级部门往来的消息中，“安塔迪卡”这个词的出现频率陡然增加。",
+			say = "喀琅施塔得近日發現，在審判庭各級部門往來的訊息中，「南極」這個詞的出現頻率陡然增加。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			actor = 900218,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "考虑到鸢尾在安塔迪卡并未拥有科研基地，所以我们猜测，或许是铁血在那里有所发现，并将消息告知了审判庭。",
+			say = "考慮到鳶尾在南極並未擁有科研基地，所以我們猜測，或許是鐵血在那裡有所發現，並將消息告知了審判庭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			actor = 900218,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我已经让我们在安塔迪卡驻扎的人员展开调查了，你们也帮我留意一下审判庭和铁血的动向。",
+			say = "我已經讓我們在南極駐紮的人員展開調查了，妳們也幫我留意一下審判庭和鐵血的動向。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			actor = 702010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "安塔迪卡方向么……明白，这件事也交给我们吧。",
+			say = "南極方向嗎……明白，這件事也交給我們吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1

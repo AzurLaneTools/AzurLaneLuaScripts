@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"提升棋力的妙手\n\n<size=45>四　“棋之四艺”其一</size>",
+					"提升棋力的妙手\n\n<size=45>4.「棋之四藝」其一</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
 			bgm = "story-richang-6",
-			say = "跟着镇海来到泳池。不过和平时不同的是，泳池的下方多了一处小小的人造瀑布。",
+			say = "跟著鎮海來到泳池。不過和平時不同的是，泳池的下方多了一處小小的人造瀑布。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +31,7 @@ return {
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我们要在这里下棋么……？",
+			say = "我們要在這裡下棋嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然不。指挥官应该也从港区的其他同伴那里，听说过“修行”的概念吧？",
+			say = "當然不是。指揮官應該也從港區的其他同伴那裡，聽過「修行」的概念吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -63,7 +63,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——在瀑布下，让湍急冰冷的水流拍打在自己的头脑和身体上。",
+			say = "——在瀑布下，讓湍急冰冷的水流拍打在自己的頭腦和身體上。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这个我知道……但是这和围棋有什么关系吗？",
+			say = "這個我知道……但是這跟圍棋有關係嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这就要说到我所归纳的“棋之四艺”之一——不可心怀怯意了。",
+			say = "這就要說到我所歸納的「棋之四藝」之一——不可心懷怯意了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官在和我对弈时候，并不能真正做到虚怀若谷般的冷静吧？",
+			say = "指揮官在跟我對弈的時候，並不能真正做到虛懷若谷般的冷靜吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "镇海凑到了我的耳畔。呼吸之间气息交错，能嗅到她身上散发的清冷幽香。",
+			say = "鎮海湊到了我的耳畔。呼吸之間氣息交錯，能嗅到她身上散發的清冷幽香。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "教人确实无法做到所谓的，虚怀若谷般的冷静。",
+			say = "教人確實無法做到所謂的，虛懷若谷般的冷靜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "仿佛是察觉到了我内心的躁动，镇海在我耳畔轻笑出声。",
+			say = "彷彿察覺到了我內心的躁動，鎮海在我耳畔輕笑出聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵……所以，扫除内心的躁动，遇事坐怀不乱就是我想让指挥官学习的第一课呢。",
+			say = "呵呵……所以，掃除內心的躁動，遇事坐懷不亂就是我想讓指揮官學習的第一課呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我明白了……具体要怎么做？",
+			say = "我明白了……具體要怎麼做？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "首先，就请让我帮您褪下衣物吧。",
+			say = "首先，就請讓我幫您褪下衣物吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "您不必紧张，只是帮您褪去外套而已。莫非……指挥官想到了别的什么……？",
+			say = "您不必緊張，只是幫您褪去外套而已。莫非……指揮官想到了別的什麼……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不，不不，没什么……那就麻烦你了。",
+			say = "不，不不，沒什麼……那就麻煩妳了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "在镇海的示意下，走进了人造瀑布的水流中。",
+			say = "在鎮海的示意下，走進了人造瀑布的水流。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "并非是预想中寒冷刺骨的水流……甚至感觉有点像在淋浴？",
+			say = "並非是預想中寒冷刺骨的水流……甚至感覺有點像在淋浴？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "毕竟不可能真的让指挥官在严苛的环境下修行呢……冻坏了身子就不好了。",
+			say = "畢竟不可能真的讓指揮官在嚴苛的環境下修行呢……凍壞了身子就不好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "您就在这温暖的水流中静下心来，好好冥想一番吧。",
+			say = "您就在這溫暖的水流中靜下心來，好好冥想一番吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "我依言闭上眼。",
+			say = "我依言閉上眼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgm = "bsm-2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "思绪在黑暗中下沉，宛如浸入了幽黑的大海之中。",
+			say = "思緒在黑暗中下沉，宛如浸入了幽黑的大海之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "接着，散发着红色光芒的钻石从我的思绪角落出现，一个，两个，三个……",
+			say = "接著，散發著紅色光芒的鑽石從我的思緒角落出現，一個，兩個，三個……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "然后是一只猫……一只一边唱歌一边追逐红尖尖的猫……",
+			say = "然後是一隻貓……一隻一邊唱歌一邊追逐紅尖尖的貓……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……是，是精神世界中形成的{namecode:98:明石}吗？）",
+			say = "（……是，是精神世界中形成的明石嗎？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_134",
 			hidePaintObj = true,
-			say = "我预感到了，马上会有更迷离的幻景出现在我的脑海中……",
+			say = "我預感到了，馬上會有更迷離的幻景出現在我的腦海中……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "镇海的手指轻轻拍打在我的鼻尖上，我的思绪也随之回到现实。",
+			say = "鎮海的手指輕輕拍打在我的鼻尖上，我的思緒也隨之回到現實。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "果然没法那么容易进入状态吧？",
+			say = "果然沒辦法那麼容易進入狀態吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -488,7 +488,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵~没关系。",
+			say = "呵呵~沒關係。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -506,7 +506,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "来，握住我的手，然后把你的注意力集中在我的手上，保持均匀呼吸。",
+			say = "來，握住我的手，然後把你的注意力集中在我的手上，保持均勻呼吸。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再试试看吧。",
+			say = "再試試看。",
 			painting = {
 				alpha = 0.3,
 				time = 1
