@@ -6,7 +6,7 @@ pg.dorm3d_dorm_template = {
 		bind_room = 1,
 		asset_name = "tianlangxing_db",
 		id = 20220,
-		default_appellation = "主人"
+		default_appellation = "ご主人様"
 	},
 	all = {
 		20220
