@@ -7,14 +7,17 @@ return {
 	hideRecord = true,
 	mode = 2,
 	id = "DORM3DDAILYCONVERSATION49",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
-			actorName = "Sirius",
+			actorName = 20220,
 			side = 2,
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "My honourable Master, is there anywhere you'd like to go on holiday when you're done with your work one day?",
+			say = "My honourable {dorm3d}, is there anywhere you'd like to go on holiday when you're done with your work one day?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,19 +57,19 @@ return {
 			}
 		},
 		{
-			actorName = "Sirius",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "I don't know what to say... I'm truly happy to hear those words from you, Master.",
+			say = "I don't know what to say... I'm truly happy to hear those words from you, {dorm3d}.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "Sirius",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,

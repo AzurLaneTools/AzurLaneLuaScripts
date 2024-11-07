@@ -1,15 +1,18 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DHELLO16",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DHELLO15",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "我骄傲的主人，Sirius以这副模样迎接您，是否太过失礼了？不过如果是主人期待着让这样的Sirius献上侍奉的话……呵呵~啊，非常抱歉，主人，Sirius刚刚又有些自说自话了……",
 			typewriter = {
 				speed = 0.05,

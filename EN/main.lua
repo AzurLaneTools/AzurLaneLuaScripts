@@ -47,6 +47,8 @@ if IsUnityEditor then
 
 		time:Start()
 		print("luaIdeDebugFunc")
+
+		ResourceMgr.Inst.enableAssetNameFinder = false
 	end
 end
 
@@ -86,6 +88,10 @@ end
 
 OnApplicationExit = function()
 	originalPrint("OnApplicationExit")
+
+	if pg.GameTrackerMgr then
+		pg.GameTrackerMgr.GetInstance():Synchronization()
+	end
 
 	if pg.FileDownloadMgr.GetInstance():IsRunning() then
 		return
@@ -313,6 +319,9 @@ seriesAsync({
 			end,
 			function (slot0)
 				pg.CameraRTMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.GameTrackerMgr.GetInstance():Init(slot0)
 			end
 		}, slot0)
 	end

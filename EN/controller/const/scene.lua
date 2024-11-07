@@ -1219,6 +1219,10 @@ slot1 = {
 
 		slot4:RecordEnterTime()
 
+		slot4 = getProxy(ApartmentProxy)
+
+		slot4:InitGiftDaily()
+
 		slot4 = slot0.context.onRemoved
 
 		slot0.context.onRemoved = function()
@@ -1240,10 +1244,6 @@ slot1 = {
 		else
 			slot1()
 		end
-	end,
-	Dorm3dGiftMediator = function (slot0, slot1)
-		getProxy(ApartmentProxy):InitGiftDaily()
-		slot1()
 	end
 }
 

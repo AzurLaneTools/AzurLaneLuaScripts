@@ -1,16 +1,19 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DTOUCH1303",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DTOUCH1303",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
-			say = "Do you like how this feels, my honourable Master?",
+			actorName = 20220,
+			say = "Do you like how this feels, my honourable {dorm3d}?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

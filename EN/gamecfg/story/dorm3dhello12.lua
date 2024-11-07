@@ -1,16 +1,19 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DHELLO12",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DHELLO12",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
-			say = "Every time I see your face, I'm filled with boundless joy. Please let me stay by your side and protect you for all of our days, my honourable Master.",
+			actorName = 20220,
+			say = "Every time I see your face, I'm filled with boundless joy. Please let me stay by your side and protect you for all of our days, my honourable {dorm3d}.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

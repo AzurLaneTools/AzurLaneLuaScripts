@@ -3242,6 +3242,7 @@ pg.skill_data_display = setmetatable({
 		10150601,
 		10150640,
 		10150642,
+		1019021,
 		1090020,
 		1090042,
 		1090043,
@@ -3282,7 +3283,8 @@ pg.skill_data_display = setmetatable({
 		1090291,
 		1090310,
 		1090320,
-		1090321
+		1090321,
+		1090331
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -16247,6 +16249,10 @@ pg.base.skill_data_display = {
 		id = 10150642,
 		name = "\"Spiritual\" Healing+"
 	},
+	[1019021] = {
+		id = 1019021,
+		name = "Goddess of the Sea+"
+	},
 	[1090020] = {
 		id = 1090020,
 		name = "Full Firepower - Karlsruhe"
@@ -16410,5 +16416,9 @@ pg.base.skill_data_display = {
 	[1090321] = {
 		id = 1090321,
 		name = "Emergency Maneuvers – Bulldog"
+	},
+	[1090331] = {
+		id = 1090331,
+		name = "Torpedo Command - Shiratsuyu"
 	}
 }

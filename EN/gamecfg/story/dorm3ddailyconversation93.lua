@@ -9,7 +9,7 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "欸？“如果Sirius有事在忙的话，也希望能听到Sirius的声音……？”",
 			typewriter = {
 				speed = 0.05,
@@ -41,7 +41,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "也就是说，主人希望Sirius用这个录制一段语音回复？",
 			typewriter = {
 				speed = 0.05,
@@ -60,7 +60,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "可是“主人想要寻找Sirius，而Sirius有事在忙……”的这种前提永远不存在哦。",
 			typewriter = {
 				speed = 0.05,
@@ -92,7 +92,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "如果您允许的话，Sirius可以二十四小时侍奉在您身边，不会让您有片刻感到寂寞。",
 			typewriter = {
 				speed = 0.05,
@@ -101,7 +101,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "而且……Sirius自己想这样做也很久了。",
 			typewriter = {
 				speed = 0.05,
@@ -146,7 +146,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "您的反应……欸？！难道Sirius太激进了？好吧……",
 			typewriter = {
 				speed = 0.05,

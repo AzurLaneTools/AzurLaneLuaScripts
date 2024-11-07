@@ -9,7 +9,7 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "每每想到Sirius现在与主人您的关系……都会觉得十分不可思议呢。",
 			typewriter = {
 				speed = 0.05,
@@ -48,7 +48,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "过去仅仅作为女仆侍奉在您左右，就足以让Sirius感到满足。",
 			typewriter = {
 				speed = 0.05,
@@ -57,7 +57,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "但Sirius现在变得贪心了许多……",
 			typewriter = {
 				speed = 0.05,
@@ -96,7 +96,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "蝴蝶只是轻轻扇动了它的翅膀，却在Sirius的心中掀起了风暴……",
 			typewriter = {
 				speed = 0.05,
@@ -105,7 +105,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "是您让Sirius改变了呢，我骄傲的主人。",
 			typewriter = {
 				speed = 0.05,

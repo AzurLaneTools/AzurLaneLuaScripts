@@ -923,6 +923,8 @@ slot0.preload = function(slot0, slot1)
 				uv0[slot4][slot8] = slot0:LoadAssetSync(slot4 .. "_" .. slot8, nil, true, false)
 			end
 		end
+
+		ResourceMgr.Inst:ClearBundleRef("ui/blackwhitegrid_atlas", false, false)
 	end)
 
 	slot0.bgSprite = nil

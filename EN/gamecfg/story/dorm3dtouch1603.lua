@@ -14,7 +14,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone/touch16",
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "Heehee. You are easy to please, my honourable Master.",
+			say = "Heehee. You are easy to please, my honourable {dorm3d}.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

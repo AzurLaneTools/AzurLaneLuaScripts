@@ -9,7 +9,7 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "最近……Sirius也有在看除了食谱以外的书了。",
 			typewriter = {
 				speed = 0.05,
@@ -51,7 +51,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "是和恋爱话题有关的杂志和小说……",
 			typewriter = {
 				speed = 0.05,
@@ -83,7 +83,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "虽然作为女仆侍奉在主人身边就很幸福了，但Sirius最近变得越来越贪心了。",
 			typewriter = {
 				speed = 0.05,
@@ -92,7 +92,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "想要在这方面再好好钻研一下呢。",
 			typewriter = {
 				speed = 0.05,
@@ -101,7 +101,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "请您好好见证Sirius未来的蜕变吧，我的主人。",
 			typewriter = {
 				speed = 0.05,

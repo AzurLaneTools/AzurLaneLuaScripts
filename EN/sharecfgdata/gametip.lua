@@ -12836,12 +12836,12 @@ _G.pg.base.gametip.buildship_heavy_tip = {
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Madgeburg added to standard build pool!"
+	tip = "Janus, Manchester added to standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "Ulrich von Hutten, Elbe added to standard build pool!"
+	tip = "Albion added to standard build pool!"
 }
 
 

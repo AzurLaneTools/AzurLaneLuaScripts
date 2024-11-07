@@ -1,16 +1,18 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DHELLO10",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DHELLO10",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
-			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello10",
-			actorName = "Sirius",
 			nameColor = "#FFFFFF",
+			actorName = 20220,
 			say = "I put all my love into baking sweets to welcome you with today! They may not look too enticing, but I'm sure they're edible...!",
 			typewriter = {
 				speed = 0.05,

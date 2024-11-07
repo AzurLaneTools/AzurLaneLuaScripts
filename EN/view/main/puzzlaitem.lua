@@ -27,7 +27,7 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4)
 	setParent(slot0.textTF, slot0.mask)
 
 	tf(slot0.textTF).pivot = Vector2(0, 1)
-	slot0.textTFText.font = pg.FontMgr.GetInstance().fonts.heiti
+	slot0.textTFText.font = ResourceMgr.Inst:getAssetAsync("font/zhunyuan", "", nil, true, false)
 	slot0.textTFText.fontSize = 18
 	slot0.textTFText.alignment = TextAnchor.MiddleCenter
 end

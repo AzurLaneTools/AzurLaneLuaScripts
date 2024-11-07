@@ -23,7 +23,7 @@ slot0.init = function(slot0)
 
 		table.insert(slot0._judgeDatas, {
 			data = Clone(slot5),
-			runtimeAnimator = ResourceMgr.Inst:getAssetSync(slot0._gameData.path, slot5.name, typeof(RuntimeAnimatorController), false, false)
+			runtimeAnimator = LoadAny(slot0._gameData.path, slot5.name, typeof(RuntimeAnimatorController))
 		})
 	end
 

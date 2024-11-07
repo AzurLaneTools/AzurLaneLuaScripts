@@ -122,7 +122,7 @@ slot0.GetCallName = function(slot0)
 end
 
 slot0.GetSetCallCd = function(slot0)
-	if slot0.setCallCd <= pg.TimeMgr.GetInstance():GetServerTime() then
+	if not slot0.setCallCd or slot0.setCallCd <= pg.TimeMgr.GetInstance():GetServerTime() then
 		return 0
 	end
 

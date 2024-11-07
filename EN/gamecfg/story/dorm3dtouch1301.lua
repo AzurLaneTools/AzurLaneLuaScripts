@@ -9,7 +9,7 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "I'm not quite sure why, but it puts me at ease when you touch me like this.",
 			typewriter = {
 				speed = 0.05,

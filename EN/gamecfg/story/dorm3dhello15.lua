@@ -1,17 +1,19 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DHELLO15",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DHELLO15",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
-			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello15",
-			actorName = "Sirius",
 			nameColor = "#FFFFFF",
-			say = "Master, to whom I've pledged my eternal fealty, I wish today would go on forever... because I want to serve you, and to love you with all my heart, for as long as I can.",
+			actorName = 20220,
+			say = "{dorm3d}, to whom I've pledged my eternal fealty, I wish today would go on forever... because I want to serve you, and to love you with all my heart, for as long as I can.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

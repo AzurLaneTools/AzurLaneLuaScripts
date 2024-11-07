@@ -1,17 +1,19 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DHELLO1",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DHELLO1",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
-			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello1",
-			actorName = "Sirius",
 			nameColor = "#FFFFFF",
-			say = "Greetings, my honourable Master. How may I help you today? Please share any requests you have.",
+			actorName = 20220,
+			say = "Greetings, my honourable {dorm3d}. How may I help you today? Please share any requests you have.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

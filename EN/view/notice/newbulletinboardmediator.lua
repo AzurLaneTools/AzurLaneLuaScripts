@@ -18,7 +18,7 @@ slot0.register = function(slot0)
 		uv0:sendNotification(GAME.GO_SCENE, slot1, ...)
 	end)
 	slot0:bind(uv0.TRACK_OPEN_URL, function (slot0, slot1)
-		TrackConst.Track(TrackConst.TRACK_NEW_BULLETIN_OPEN_URL, TrackConst.EVENT_NEW_BULLETIN_OPEN_URL, slot1)
+		pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildNotice(slot1))
 	end)
 end
 

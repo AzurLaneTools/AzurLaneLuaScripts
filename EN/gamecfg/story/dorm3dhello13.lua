@@ -1,16 +1,19 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DHELLO13",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DHELLO13",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
-			say = "Honourable Master, just serving you is the ultimate source of happiness for me. Because every little thing you do attracts me more and more...",
+			actorName = 20220,
+			say = "Honourable {dorm3d}, just serving you is the ultimate source of happiness for me. Because every little thing you do attracts me more and more...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

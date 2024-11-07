@@ -7,6 +7,9 @@ return {
 	hideRecord = true,
 	mode = 2,
 	id = "DORM3DDAILYCONVERSATION4",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			actor = 0,
@@ -30,12 +33,12 @@ return {
 			}
 		},
 		{
-			actorName = "Sirius",
+			actorName = 20220,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "I truly, truly appreciate your consideration, my honourable Master. However, I don't need anything at the moment.",
+			say = "I truly, truly appreciate your consideration, my honourable {dorm3d}. However, I don't need anything at the moment.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +68,7 @@ return {
 			}
 		},
 		{
-			actorName = "Sirius",
+			actorName = 20220,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,

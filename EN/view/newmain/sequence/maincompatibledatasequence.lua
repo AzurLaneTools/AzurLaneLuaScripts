@@ -7,6 +7,9 @@ slot0.Execute = function(slot0, slot1)
 		end,
 		function (slot0)
 			uv0:CheckSpecialDayForEducateChar(slot0)
+		end,
+		function (slot0)
+			uv0:FetchGameTrackingCache(slot0)
 		end
 	}, slot1)
 end
@@ -29,6 +32,11 @@ slot0.CheckSpecialDayForEducateChar = function(slot0, slot1)
 		end
 	end
 
+	slot1()
+end
+
+slot0.FetchGameTrackingCache = function(slot0, slot1)
+	pg.GameTrackerMgr.GetInstance():FetchCache()
 	slot1()
 end
 

@@ -142,7 +142,7 @@ end
 slot0.LoadVedioPlayer = function(slot0, slot1, slot2)
 	slot3 = ResourceMgr.Inst
 
-	slot3:getAssetAsync("Cryptolalia/" .. slot1, slot1, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+	slot3:getAssetAsync("Cryptolalia/" .. slot1, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 		slot1 = Object.Instantiate(slot0, uv0.root)
 		uv0.text = slot1.transform:Find("Text"):GetComponent(typeof(Text))
 		uv0.subtileBackUp = uv1(uv2)

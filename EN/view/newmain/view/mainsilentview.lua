@@ -110,7 +110,7 @@ end
 slot0.Tracking = function(slot0, slot1)
 	slot4 = slot0.changeSkinCount
 
-	TrackConst.TrackingExitSilentView(slot0.enterTime, pg.TimeMgr.GetInstance():GetServerTime(), slot1)
+	pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildExitSilentView(slot0.enterTime, pg.TimeMgr.GetInstance():GetServerTime(), slot1))
 end
 
 slot0.TrackingSwitchShip = function(slot0)
@@ -131,7 +131,7 @@ slot0.TrackingSwitchShip = function(slot0)
 
 	slot4 = pg.TimeMgr.GetInstance():GetServerTime()
 
-	TrackConst.TrackingSwitchPainting(slot3, slot4 - slot0.paintingTime)
+	pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildSwitchPainting(slot3, slot4 - slot0.paintingTime))
 
 	slot0.paintingTime = slot4
 end

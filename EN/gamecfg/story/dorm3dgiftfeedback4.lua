@@ -5,6 +5,9 @@ return {
 	id = "DORM3DGIFTFEEDBACK3",
 	hideSkip = true,
 	hideAuto = true,
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			say = "You bought this just for me because you were worried that I didn't have enough refrigerator space?",
@@ -30,7 +33,7 @@ return {
 			}
 		},
 		{
-			say = "A mere maid such as myself shouldn't have to trouble her master so... I will return this favour with delicious food, even if it kills me!",
+			say = "A mere maid such as myself shouldn't have to trouble her {dorm3d} so... I will return this favour with delicious food, even if it kills me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

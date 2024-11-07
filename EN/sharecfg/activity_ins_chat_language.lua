@@ -1122,7 +1122,110 @@ pg.activity_ins_chat_language = setmetatable({
 		1118,
 		1119,
 		1120,
-		1121
+		1121,
+		1122,
+		1123,
+		1124,
+		1125,
+		1126,
+		1127,
+		1128,
+		1129,
+		1130,
+		1131,
+		1132,
+		1133,
+		1134,
+		1135,
+		1136,
+		1137,
+		1138,
+		1139,
+		1140,
+		1141,
+		1142,
+		1143,
+		1144,
+		1145,
+		1146,
+		1147,
+		1148,
+		1149,
+		1150,
+		1151,
+		1152,
+		1153,
+		1154,
+		1155,
+		1156,
+		1157,
+		1158,
+		1159,
+		1160,
+		1161,
+		1162,
+		1163,
+		1164,
+		1165,
+		1166,
+		1167,
+		1168,
+		1169,
+		1170,
+		1171,
+		1172,
+		1173,
+		1174,
+		1175,
+		1176,
+		1177,
+		1178,
+		1179,
+		1180,
+		1181,
+		1182,
+		1183,
+		1184,
+		1185,
+		1186,
+		1187,
+		1188,
+		1189,
+		1190,
+		1191,
+		1192,
+		1193,
+		1194,
+		1195,
+		1196,
+		1197,
+		1198,
+		1199,
+		1200,
+		1201,
+		1202,
+		1203,
+		1204,
+		1205,
+		1206,
+		1207,
+		1208,
+		1209,
+		1210,
+		1211,
+		1212,
+		1213,
+		1214,
+		1215,
+		1216,
+		1217,
+		1218,
+		1219,
+		1220,
+		1221,
+		1222,
+		1223,
+		1224
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -10057,7 +10160,7 @@ pg.base.activity_ins_chat_language = {
 		param = "It's my cheap and user-friendly products that bring us together, nya.",
 		ship_group = 31201,
 		option = "",
-		type = 1,
+		type = 4,
 		id = 1015,
 		flag = 0
 	},
@@ -10936,5 +11039,965 @@ pg.base.activity_ins_chat_language = {
 		type = 1,
 		id = 1121,
 		flag = 0
+	},
+	{
+		param = "Learn how to make excellent desserts! This course, taught by the expert Dunkerque, will turn you from a beginner into...",
+		ship_group = 20509,
+		type = 1,
+		id = 1122,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Huh?"
+			},
+			{
+				2,
+				"Wrong chat?"
+			},
+			{
+				3,
+				"Take me off the mailing list."
+			}
+		}
+	},
+	{
+		param = "Huh?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1123,
+		flag = 1
+	},
+	{
+		param = "Dunkerque teaches dessert-making courses?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1124,
+		flag = 1
+	},
+	{
+		param = "Wrong chat?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1125,
+		flag = 2
+	},
+	{
+		param = "Or are you just promoting her course to me?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1126,
+		flag = 2
+	},
+	{
+		param = "Take me off the mailing list.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1127,
+		flag = 3
+	},
+	{
+		param = "What?",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1128,
+		flag = 0
+	},
+	{
+		param = "Oops, sorry. You see, there's a chat I use in place of a notepad...",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1129,
+		flag = 0
+	},
+	{
+		param = "The tab is very close to your chat icon, so I sent that to you by mistake.",
+		ship_group = 20509,
+		type = 1,
+		id = 1130,
+		flag = 0,
+		option = {
+			{
+				4,
+				"So you want to get better at making desserts?"
+			},
+			{
+				5,
+				"Oh, I see. No harm done."
+			},
+			{
+				6,
+				"Take me off the mailing list."
+			}
+		}
+	},
+	{
+		param = "That explains it. So you want to get better at making desserts?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1131,
+		flag = 4
+	},
+	{
+		param = "Yes. I want to broaden my horizons from just making cookies.",
+		ship_group = 20509,
+		type = 1,
+		id = 1132,
+		flag = 4,
+		option = {
+			{
+				7,
+				"I can't wait to taste whatever you make."
+			}
+		}
+	},
+	{
+		param = "I can't wait to taste whatever you make.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1133,
+		flag = 7
+	},
+	{
+		param = "Thanks. I promise you won't be disappointed.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1134,
+		flag = 7
+	},
+	{
+		param = "I'll let you know whenever there's a dessert for you to taste-test.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1135,
+		flag = 7
+	},
+	{
+		param = "Also, if there's a particular dessert you'd like to try, just let me know.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1136,
+		flag = 7
+	},
+	{
+		param = "I'll focus on making that one in particular.",
+		ship_group = 20509,
+		type = 1,
+		id = 1137,
+		flag = 7,
+		option = {
+			{
+				8,
+				"Sweet! You're the best."
+			}
+		}
+	},
+	{
+		param = "Sweet! You're the best.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1138,
+		flag = 8
+	},
+	{
+		param = "231",
+		ship_group = 20509,
+		option = "",
+		type = 4,
+		id = 1139,
+		flag = 8
+	},
+	{
+		param = "Oh, I see. No harm done.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1140,
+		flag = 5
+	},
+	{
+		param = "In fact, now I'm interested.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1141,
+		flag = 5
+	},
+	{
+		param = "You want to learn how to make desserts?",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1142,
+		flag = 5
+	},
+	{
+		param = "Alright, just give me a minute and I'll send you the details.",
+		ship_group = 20509,
+		type = 1,
+		id = 1143,
+		flag = 5,
+		option = {
+			{
+				9,
+				"Yeah, let's learn how to make desserts!"
+			},
+			{
+				10,
+				"No, I meant I'm interested in the desserts."
+			}
+		}
+	},
+	{
+		param = "Yeah, let's learn how to make desserts!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1144,
+		flag = 9
+	},
+	{
+		param = "You got it.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1145,
+		flag = 9
+	},
+	{
+		param = "218",
+		ship_group = 20509,
+		option = "",
+		type = 4,
+		id = 1146,
+		flag = 9
+	},
+	{
+		param = "No, I meant I'm interested in the desserts.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1147,
+		flag = 10
+	},
+	{
+		param = "Ahh, I understand.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1148,
+		flag = 10
+	},
+	{
+		param = "Well, I'll make a dessert for you once I've mastered the recipe.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1149,
+		flag = 10
+	},
+	{
+		param = "I'm going to sign up for the course now.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1150,
+		flag = 10
+	},
+	{
+		param = "It's a spambot impersonating Howe!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1151,
+		flag = 6
+	},
+	{
+		param = "I'm not a bot! Sorry about this, I'll pay closer attention in the future!",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1152,
+		flag = 6
+	},
+	{
+		param = "107",
+		ship_group = 20509,
+		option = "",
+		type = 4,
+		id = 1153,
+		flag = 6
+	},
+	{
+		param = "112",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 1154,
+		flag = 11
+	},
+	{
+		param = "104",
+		ship_group = 20509,
+		option = "",
+		type = 4,
+		id = 1155,
+		flag = 11
+	},
+	{
+		param = "102",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 1156,
+		flag = 12
+	},
+	{
+		param = "Huh?",
+		ship_group = 20509,
+		type = 1,
+		id = 1157,
+		flag = 12,
+		option = {
+			{
+				13,
+				"Sorry, sorry..."
+			}
+		}
+	},
+	{
+		param = "I got a bit carried away with my teasing.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1158,
+		flag = 13
+	},
+	{
+		param = "Alright then. Anyway, I'm going to sign up for the course now.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1159,
+		flag = 13
+	},
+	{
+		param = "Commander, do you have a minute?",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1160,
+		flag = 0
+	},
+	{
+		param = "I wanted to ask you about your plans for tomorrow.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1161,
+		flag = 0
+	},
+	{
+		param = "Is there any place you'd like to go?",
+		ship_group = 20509,
+		type = 1,
+		id = 1162,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Outside to be with nature."
+			},
+			{
+				2,
+				"Indoors where it's comfy."
+			}
+		}
+	},
+	{
+		param = "Preferably somewhere where I can be surrounded by nature.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1163,
+		flag = 1
+	},
+	{
+		param = "Yes, the weather's nice so we could go sunbathing or something.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1164,
+		flag = 1
+	},
+	{
+		param = "Speaking of the weather, I noticed the flowers in the garden have started blooming.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1165,
+		flag = 1
+	},
+	{
+		param = "Why don't I make some desserts and we go out on a picnic?",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1166,
+		flag = 1
+	},
+	{
+		param = "Um wait... Maybe I shouldn't bring handmade desserts on our first date.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1167,
+		flag = 1
+	},
+	{
+		param = "It would feel a bit too heavy-handed, wouldn't it? Based on the dating tips I got...",
+		ship_group = 20509,
+		type = 1,
+		id = 1168,
+		flag = 1,
+		option = {
+			{
+				3,
+				"No, I think that's fine."
+			},
+			{
+				4,
+				"Dating tips?"
+			}
+		}
+	},
+	{
+		param = "No, I think that's fine.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1169,
+		flag = 3
+	},
+	{
+		param = "Really?",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1170,
+		flag = 3
+	},
+	{
+		param = "Great, then I'll get to work on those desserts.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1171,
+		flag = 3
+	},
+	{
+		param = "I think I'll start with some cookies and muffins.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1172,
+		flag = 3
+	},
+	{
+		param = "What dating tips?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1173,
+		flag = 4
+	},
+	{
+		param = "I talked to Wales, and she gave me some pointers when I said I didn't want to mess up my first date.",
+		ship_group = 20509,
+		type = 1,
+		id = 1174,
+		flag = 4,
+		option = {
+			{
+				5,
+				"When in doubt, do what feels right."
+			}
+		}
+	},
+	{
+		param = "Theory is good, but experience is the best teacher. When in doubt, do what you feel is right.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1175,
+		flag = 5
+	},
+	{
+		param = "What I feel is right... I see.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1176,
+		flag = 5
+	},
+	{
+		param = "I'll get baking then. I think I'll start with some cookies and muffins.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1177,
+		flag = 5
+	},
+	{
+		param = "Preferably indoors. A place you can be comfy.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1178,
+		flag = 2
+	},
+	{
+		param = "Lovely, then our inclinations are aligned.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1179,
+		flag = 2
+	},
+	{
+		param = "What do you say we go to a dessert café?",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1180,
+		flag = 2
+	},
+	{
+		param = "That's another thing Wales tipped me about.",
+		ship_group = 20509,
+		type = 1,
+		id = 1181,
+		flag = 2,
+		option = {
+			{
+				6,
+				"Sounds good to me."
+			},
+			{
+				7,
+				"Dating tips?"
+			}
+		}
+	},
+	{
+		param = "A dessert café sounds good to me.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1182,
+		flag = 6
+	},
+	{
+		param = "Which one, though?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1183,
+		flag = 6
+	},
+	{
+		param = "I know a lovely place. Found it just a while ago.",
+		ship_group = 20509,
+		type = 1,
+		id = 1184,
+		flag = 6,
+		option = {
+			{
+				8,
+				"Alright, let's go to that one."
+			}
+		}
+	},
+	{
+		param = "Alright, let's go to that one.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1185,
+		flag = 8
+	},
+	{
+		param = "Perfect. I think you're going to like it.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1186,
+		flag = 8
+	},
+	{
+		param = "What dating tips?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1187,
+		flag = 7
+	},
+	{
+		param = "I talked to Wales, and she gave me some pointers when I said I didn't want to mess up my first date.",
+		ship_group = 20509,
+		type = 1,
+		id = 1188,
+		flag = 7,
+		option = {
+			{
+				9,
+				"So she had the same idea as us..."
+			}
+		}
+	},
+	{
+		param = "So she had the same idea as us... That means we might run into her tomorrow.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1189,
+		flag = 9
+	},
+	{
+		param = "Now that you mention it... maybe I should ask what she's doing tomorrow.",
+		ship_group = 20509,
+		type = 1,
+		id = 1190,
+		flag = 9,
+		option = {
+			{
+				10,
+				"Now, about that café..."
+			}
+		}
+	},
+	{
+		param = "Also, which café did you have in mind?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1191,
+		flag = 10
+	},
+	{
+		param = "I'll get back to you on that later!",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1192,
+		flag = 10
+	},
+	{
+		param = "I'm done drying your clothes, love!",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1193,
+		flag = 0
+	},
+	{
+		param = "Thanks for letting me borrow them yesterday. Gosh, what a mess that was...",
+		ship_group = 20509,
+		type = 1,
+		id = 1194,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Did you manage to clean yours?"
+			}
+		}
+	},
+	{
+		param = "Yeah, you could say that again... Did you manage to clean yours?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1195,
+		flag = 1
+	},
+	{
+		param = "Or are those chocolate cream stains too entrenched?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1196,
+		flag = 1
+	},
+	{
+		param = "Probably... Bel said it's unlikely the stains will ever go away.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1197,
+		flag = 1
+	},
+	{
+		param = "These were a favourite of mine, and making an identical set will take so long...",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1198,
+		flag = 1
+	},
+	{
+		param = "What a pain...",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1199,
+		flag = 1
+	},
+	{
+		param = "Are you in the office? Shall I bring your clothes to you?",
+		ship_group = 20509,
+		type = 1,
+		id = 1200,
+		flag = 1,
+		option = {
+			{
+				2,
+				"No need. You can give them to me later."
+			}
+		}
+	},
+	{
+		param = "No need. You can give them to me later.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1201,
+		flag = 2
+	},
+	{
+		param = "It's just a coat. You don't need to go out of your way for it.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1202,
+		flag = 2
+	},
+	{
+		param = "It's about more than just the coat.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1203,
+		flag = 2
+	},
+	{
+		param = "We didn't get to eat that chocolate cake after I dropped it, did we?",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1204,
+		flag = 2
+	},
+	{
+		param = "Well, I made another, and I was hoping you'd enjoy it with me.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1205,
+		flag = 2
+	},
+	{
+		param = "Your job is mentally taxing, and some sugar would give you the energy you need.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1206,
+		flag = 2
+	},
+	{
+		param = "Then there's also the fact I want to be with you more...",
+		ship_group = 20509,
+		type = 1,
+		id = 1207,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Alright, then I'll clock out right now."
+			},
+			{
+				4,
+				"Why don't I come to you instead?"
+			}
+		}
+	},
+	{
+		param = "I'm close to done with my work anyway, so I'll clock out early.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1208,
+		flag = 3
+	},
+	{
+		param = "Early? Don't you have a lot of work to do?",
+		ship_group = 20509,
+		type = 1,
+		id = 1209,
+		flag = 3,
+		option = {
+			{
+				5,
+				"Early? Don't you have a lot of work to do?"
+			}
+		}
+	},
+	{
+		param = "I'll finish the rest tomorrow.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1210,
+		flag = 5
+	},
+	{
+		param = "But then won't you have to work extra hard to make up for it?",
+		ship_group = 20509,
+		type = 1,
+		id = 1211,
+		flag = 5,
+		option = {
+			{
+				6,
+				"Dupleix will help out."
+			}
+		}
+	},
+	{
+		param = "It'll be fine. Dupleix is on secretary duty tomorrow.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1212,
+		flag = 6
+	},
+	{
+		param = "With her by my side, I could crunch any task in less than a day.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1213,
+		flag = 6
+	},
+	{
+		param = "Back on topic: what will it be? Are you coming to my office?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1214,
+		flag = 6
+	},
+	{
+		param = "Yes! I'll head there now, love.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1215,
+		flag = 6
+	},
+	{
+		param = "Just give me a minute.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1216,
+		flag = 6
+	},
+	{
+		param = "I'll be there before you know it♪",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1217,
+		flag = 6
+	},
+	{
+		param = "Why don't I come to you instead?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1218,
+		flag = 4
+	},
+	{
+		param = "Pardon? Don't you still have work to do?",
+		ship_group = 20509,
+		type = 1,
+		id = 1219,
+		flag = 4,
+		option = {
+			{
+				7,
+				"Pardon? Don't you still have work to do?"
+			}
+		}
+	},
+	{
+		param = "I've wrapped up for today.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1220,
+		flag = 7
+	},
+	{
+		param = "THIS early?",
+		ship_group = 20509,
+		type = 1,
+		id = 1221,
+		flag = 7,
+		option = {
+			{
+				8,
+				"I'll work double time tomorrow to make up for it."
+			}
+		}
+	},
+	{
+		param = "I'll work double time tomorrow to make up for it.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1222,
+		flag = 8
+	},
+	{
+		param = "Forget about me, what about you? Are you ready for me to come over?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1223,
+		flag = 8
+	},
+	{
+		param = "Perfectly ready! I'll just bake some cookies while I wait for you♪",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1224,
+		flag = 8
 	}
 }

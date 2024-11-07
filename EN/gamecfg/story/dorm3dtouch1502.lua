@@ -9,7 +9,7 @@ return {
 	scripts = {
 		{
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone/touch08",
-			actorName = "Sirius",
+			actorName = 20220,
 			nameColor = "#FFFFFF",
 			say = "Now just to move my body, like so... Mmgh.",
 			typewriter = {

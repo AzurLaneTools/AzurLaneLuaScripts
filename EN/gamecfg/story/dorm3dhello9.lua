@@ -1,17 +1,19 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DHELLO9",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DHELLO9",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
-			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello9",
-			actorName = "Sirius",
 			nameColor = "#FFFFFF",
-			say = "You're finally here, honourable Master. I always look forward to our time together. Shall I relieve your exhaustion with a massage first?",
+			actorName = 20220,
+			say = "You're finally here, honourable {dorm3d}. I always look forward to our time together. Shall I relieve your exhaustion with a massage first?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

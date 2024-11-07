@@ -87,17 +87,17 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5)
 		slot13 = slot10.animator
 
 		table.insert(slot0.amuletLAnimators, {
-			animator = ResourceMgr.Inst:getAssetSync(LaunchBallGameVo.ui_atlas, slot13 .. "L", typeof(RuntimeAnimatorController), false, false),
+			animator = LoadAny(LaunchBallGameVo.ui_atlas, slot13 .. "L", typeof(RuntimeAnimatorController)),
 			type = slot11,
 			name = slot12
 		})
 		table.insert(slot0.amuletSAnimators, {
-			animator = ResourceMgr.Inst:getAssetSync(LaunchBallGameVo.ui_atlas, slot13 .. "S", typeof(RuntimeAnimatorController), false, false),
+			animator = LoadAny(LaunchBallGameVo.ui_atlas, slot13 .. "S", typeof(RuntimeAnimatorController)),
 			type = slot11,
 			name = slot12
 		})
 		table.insert(slot0.amuletEFAnimators, {
-			animator = ResourceMgr.Inst:getAssetSync(LaunchBallGameVo.ui_atlas, slot13 .. "EF", typeof(RuntimeAnimatorController), false, false),
+			animator = LoadAny(LaunchBallGameVo.ui_atlas, slot13 .. "EF", typeof(RuntimeAnimatorController)),
 			type = slot11,
 			name = slot12
 		})

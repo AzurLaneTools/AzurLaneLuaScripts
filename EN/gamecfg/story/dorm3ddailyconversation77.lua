@@ -9,7 +9,7 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "哼哼♪~",
 			typewriter = {
 				speed = 0.05,
@@ -51,7 +51,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "是的，因为主人您来和Sirius见面了。",
 			typewriter = {
 				speed = 0.05,
@@ -83,7 +83,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "这是Sirius最为期待，也是最为开心的时刻。",
 			typewriter = {
 				speed = 0.05,
@@ -92,7 +92,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "和我骄傲的主人独处一室，实在是令Sirius心潮澎湃……",
 			typewriter = {
 				speed = 0.05,
@@ -101,7 +101,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "接下来的时间，不如就……",
 			typewriter = {
 				speed = 0.05,
@@ -143,7 +143,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "欸、欸？难道您还没有这方面的想法吗？",
 			typewriter = {
 				speed = 0.05,
@@ -175,7 +175,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "抱歉……我的主人，是Sirius太心急了。",
 			typewriter = {
 				speed = 0.05,

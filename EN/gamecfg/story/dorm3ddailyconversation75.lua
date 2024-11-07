@@ -9,7 +9,7 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "主人，您为什么一直在看着Sirius？",
 			typewriter = {
 				speed = 0.05,
@@ -51,7 +51,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "Sirius仔细回想了一下，过去似乎没有什么好好聆听音乐的机会……",
 			typewriter = {
 				speed = 0.05,
@@ -83,7 +83,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "所以在音乐这方面，也没有什么可以称得上“喜欢”或是“不喜欢”的内容。",
 			typewriter = {
 				speed = 0.05,
@@ -92,7 +92,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "Sirius感到很抱歉，我的主人……",
 			typewriter = {
 				speed = 0.05,
@@ -107,7 +107,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "因为主人想要更了解Sirius的喜好，但Sirius完全没有这方面的认知。所以……",
 			typewriter = {
 				speed = 0.05,
@@ -126,7 +126,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "其实……！",
 			typewriter = {
 				speed = 0.05,
@@ -158,7 +158,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "Sirius",
+			actorName = 20220,
 			say = "Sirius最喜欢的永远是您，我骄傲的主人啊。",
 			typewriter = {
 				speed = 0.05,

@@ -71,7 +71,7 @@ end
 slot0.LoadPuzzleRes = function(slot0, slot1, slot2)
 	slot3 = ResourceMgr.Inst
 
-	slot3:getAssetAsync("FeastPuzzle/" .. slot1, slot1, typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+	slot3:getAssetAsync("FeastPuzzle/" .. slot1, "", typeof(GameObject), UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 		if uv0.exited then
 			return
 		end

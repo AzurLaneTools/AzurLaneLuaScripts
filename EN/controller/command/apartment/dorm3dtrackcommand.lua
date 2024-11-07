@@ -24,7 +24,7 @@ slot0.execute = function(slot0, slot1)
 		return
 	end
 
-	pg.ConnectionMgr.GetInstance():Send(28090, {
+	pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildDorm3d({
 		track_typ = slot2.trackType,
 		int_args = slot2.args and _.map(_.range(slot2.args.Count), function (slot0)
 			return uv0.args[slot0] or 0
@@ -32,7 +32,7 @@ slot0.execute = function(slot0, slot1)
 		str_args = slot2.strs and _.map(_.range(slot2.strs.Count), function (slot0)
 			return uv0.strs[slot0] or ""
 		end) or {}
-	})
+	}))
 end
 
 slot0.BuildDataEnter = function(slot0, slot1, slot2)
