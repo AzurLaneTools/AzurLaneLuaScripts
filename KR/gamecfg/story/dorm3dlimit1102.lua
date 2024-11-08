@@ -9,6 +9,9 @@ return {
 	placeholder = {
 		"dorm3d"
 	},
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			say = "太、太近了……我的{dorm3d}。",

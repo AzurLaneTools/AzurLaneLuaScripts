@@ -973,7 +973,9 @@ slot0.InitCharacter = function(slot0, slot1)
 			uv0.effectHeart = slot0
 
 			setActive(slot0, false)
-			setParent(uv0.effectHeart, uv0.ladyHeadCenter)
+			onNextTick(function ()
+				setParent(uv0.effectHeart, uv0.ladyHeadCenter)
+			end)
 		end)
 	end)()
 
@@ -1551,7 +1553,9 @@ slot0.RefreshSlots = function(slot0, slot1)
 		uv1.loader:GetPrefabBYStopLoading("dorm3d/furniture/prefabs/" .. slot5, "", function (slot0)
 			uv0()
 			assert(slot0)
-			setParent(slot0, uv1)
+			onNextTick(function ()
+				setParent(uv0, uv1)
+			end)
 
 			if uv2 then
 				table.IpairsCArray(slot0:GetComponentsInChildren(typeof(Renderer), true), function (slot0, slot1)
@@ -2598,8 +2602,6 @@ slot0.PlayTimeline = function(slot0, slot1, slot2)
 		end)
 		setActive(uv1.rtTimelineScreen, true)
 		setActive(uv1.rtTimelineScreen:Find("btn_skip"), uv1.inReplayTalk)
-		TimelineSupport.InitTimeline(slot2)
-		TimelineSupport.InitSubtitle(slot2, uv1.apartment:GetCallName())
 		slot2:Play()
 		slot2:Evaluate()
 	end)
@@ -3125,7 +3127,15 @@ slot0.LoadTimelineScene = function(slot0, slot1, slot2, slot3)
 
 		slot2:LoadSceneAsync(string.lower("dorm3d/character/" .. slot1:getConfig("asset_name") .. "/timeline/" .. uv1 .. "/" .. uv1 .. "_scene"), uv1, LoadSceneMode.Additive, function (slot0, slot1)
 			uv0:HXCharacter(tf(GameObject.Find("[actor]").transform))
-			GameObject.Find("[sequence]").transform:GetComponent(typeof(UnityEngine.Playables.PlayableDirector)):Stop()
+
+			slot4 = GameObject.Find("[sequence]").transform:GetComponent(typeof(UnityEngine.Playables.PlayableDirector))
+
+			slot4:Stop()
+			TimelineSupport.InitTimeline(slot4)
+			TimelineSupport.InitSubtitle(slot4, uv0.apartment:GetCallName())
+
+			uv0.unloadDirector = slot4
+
 			uv1()
 		end)
 	end)
@@ -3152,11 +3162,17 @@ slot0.UnloadTimelineScene = function(slot0, slot1, slot2, slot3)
 	end
 
 	if tobool(slot2) == tobool(slot0.cacheSceneDic[slot1]) then
-		slot4 = getProxy(ApartmentProxy)
-		slot4 = slot4:getApartment(slot0.sceneGroupDic[slot1])
+		slot5 = getProxy(ApartmentProxy):getApartment(slot0.sceneGroupDic[slot1]):getConfig("asset_name")
+
+		if slot0.unloadDirector then
+			TimelineSupport.UnloadPlayable(slot0.unloadDirector)
+
+			slot0.unloadDirector = nil
+		end
+
 		slot6 = SceneOpMgr.Inst
 
-		slot6:UnloadSceneAsync(string.lower("dorm3d/character/scenes/" .. slot4:getConfig("asset_name") .. "/timeline/" .. slot1 .. "/" .. slot1 .. "_scene"), slot1, function ()
+		slot6:UnloadSceneAsync(string.lower("dorm3d/character/scenes/" .. slot5 .. "/timeline/" .. slot1 .. "/" .. slot1 .. "_scene"), slot1, function ()
 			uv0.cacheSceneDic[uv1] = nil
 			uv0.sceneGroupDic[uv1] = nil
 			uv0.lastSceneRootDict[uv1] = nil

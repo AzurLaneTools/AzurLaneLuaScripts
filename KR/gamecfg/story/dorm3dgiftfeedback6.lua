@@ -5,6 +5,9 @@ return {
 	id = "DORM3DGIFTFEEDBACK6",
 	hideSkip = true,
 	hideAuto = true,
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			say = "일로 쌓인 피로를 이걸로 풀었으면 좋겠다…고요? 자랑스러운 {dorm3d}을 모시면서 피로를 느낀 적은 단 한번도 없습니다.",

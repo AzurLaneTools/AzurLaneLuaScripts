@@ -1,11 +1,14 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DGIFTFEEDBACK1",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DGIFTFEEDBACK1",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			say = "이 티 세트를 시리우스에게…? 정말 몸둘 바를 모르겠습니다… 인심 좋은 {dorm3d}…",

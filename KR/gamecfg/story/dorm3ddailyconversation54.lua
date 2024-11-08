@@ -7,6 +7,9 @@ return {
 	hideRecord = true,
 	mode = 2,
 	id = "DORM3DDAILYCONVERSATION54",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			actorName = 20220,

@@ -5,6 +5,9 @@ return {
 	id = "DORM3DGIFTFEEDBACK5",
 	hideSkip = true,
 	hideAuto = true,
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			say = "귀여운 인형이군요… 네? {dorm3d}이 안 계실 때는 이 인형이 대신 시리우스 곁에 있어줄 거라고…요?",

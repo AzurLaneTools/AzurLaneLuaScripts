@@ -1,11 +1,14 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DGIFTFEEDBACK3",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DGIFTFEEDBACK3",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			say = "이 책은…… 시리우스의 각오가 아직 부족한 탓에 {dorm3d}께 심려를 끼쳐드리고 만 모양이군요!",

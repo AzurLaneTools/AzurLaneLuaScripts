@@ -5,6 +5,9 @@ return {
 	id = "DORM3DGIFTFEEDBACK3",
 	hideSkip = true,
 	hideAuto = true,
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			say = "냉장고 공간이 부족할까봐 일부러 시리우스를 위해 사오신 건가요…!",

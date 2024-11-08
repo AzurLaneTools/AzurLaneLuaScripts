@@ -9,6 +9,9 @@ return {
 	placeholder = {
 		"dorm3d"
 	},
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			mode = 1,

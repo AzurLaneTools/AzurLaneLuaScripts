@@ -1,11 +1,14 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DDAILYCONVERSATION78",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DDAILYCONVERSATION78",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
 			say = "（虽然最近天气渐渐热起来了，但总觉得天狼星这里格外热啊……）",
