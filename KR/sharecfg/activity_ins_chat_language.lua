@@ -10721,7 +10721,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	{
-		param = "지휘관님은 어떤 게 가장 좋으신가요?",
+		param = "하인 생각은 어때?",
 		ship_group = 20501,
 		option = "",
 		type = 1,
