@@ -1996,7 +1996,7 @@ _G.pg.base.gametip.battle_battleMediator_goOnFight = {
 
 
 _G.pg.base.gametip.battle_battleMediator_existFight = {
-	tip = "戦域離脱"
+	tip = "戦闘中止"
 }
 
 

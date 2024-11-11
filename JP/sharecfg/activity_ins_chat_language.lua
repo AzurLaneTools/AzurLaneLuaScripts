@@ -11332,7 +11332,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				11,
-				"[沉思ing]"
+				"[スタンプ]"
 			}
 		}
 	},
@@ -11353,7 +11353,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				12,
-				"[awsl]"
+				"[スタンプ]"
 			}
 		}
 	},
