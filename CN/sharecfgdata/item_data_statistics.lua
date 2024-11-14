@@ -105185,6 +105185,471 @@ _G.pg.base.item_data_statistics[81207] = {
 }
 
 
+_G.pg.base.item_data_statistics[81407] = {
+	open_directly = 1,
+	name = "{namecode:98}的促销大礼包",
+	type = 17,
+	display = "可获得980钻，自选促销礼物盒*1，和大量其他奖励",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/pack_2024_98",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998508",
+	id = 81407,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			59555,
+			1
+		},
+		{
+			1,
+			14,
+			980
+		},
+		{
+			2,
+			16501,
+			100
+		},
+		{
+			2,
+			59010,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[81408] = {
+	open_directly = 1,
+	name = "{namecode:98}的豪华促销大礼包",
+	type = 17,
+	display = "可获得1980钻，自选促销礼物盒*1，和大量其他奖励",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/pack_2024_198",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998509",
+	id = 81408,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			59556,
+			1
+		},
+		{
+			1,
+			14,
+			1980
+		},
+		{
+			2,
+			15008,
+			1000
+		},
+		{
+			2,
+			30114,
+			30
+		},
+		{
+			2,
+			59010,
+			2000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[81409] = {
+	open_directly = 1,
+	name = "{namecode:98}的豪华促销大礼包",
+	type = 17,
+	display = "可获得3280钻，豪华自选促销礼物盒*1，和大量其他奖励",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/pack_2024_328",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998510",
+	id = 81409,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			59557,
+			1
+		},
+		{
+			1,
+			14,
+			3280
+		},
+		{
+			2,
+			15012,
+			150
+		},
+		{
+			2,
+			15008,
+			2000
+		},
+		{
+			2,
+			16004,
+			2
+		},
+		{
+			2,
+			16014,
+			2
+		},
+		{
+			2,
+			16024,
+			2
+		},
+		{
+			2,
+			16032,
+			30
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[81410] = {
+	open_directly = 1,
+	name = "促销礼包I",
+	type = 17,
+	display = "购买礼包可获得60钻，高级定向蓝图·六期*2",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/pack_day1",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4990",
+	id = 81410,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			42056,
+			2
+		},
+		{
+			1,
+			14,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[81411] = {
+	open_directly = 1,
+	name = "促销礼包II",
+	type = 17,
+	display = "购买礼包可获得200钻",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/pack_day2",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4991",
+	id = 81411,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			1,
+			14,
+			200
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[81412] = {
+	open_directly = 1,
+	name = "促销礼包III",
+	type = 17,
+	display = "购买礼包可获得定向部件T4*5，心智单元*200",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/pack_day3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4992",
+	id = 81412,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			30114,
+			5
+		},
+		{
+			2,
+			15008,
+			200
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[81413] = {
+	open_directly = 1,
+	name = "促销礼包IV",
+	type = 17,
+	display = "购买礼包可获得60钻，试作型布里MKII*1",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/pack_day4",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4993",
+	id = 81413,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			4,
+			100011,
+			1
+		},
+		{
+			1,
+			14,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[81414] = {
+	open_directly = 1,
+	name = "促销礼包V",
+	type = 17,
+	display = "购买礼包可获得舰艇演习数据T2*60",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/pack_day5",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4994",
+	id = 81414,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			16502,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[81415] = {
+	open_directly = 1,
+	name = "促销礼包VI",
+	type = 17,
+	display = "购买礼包可获得心智魔方*10，快速完成工具*5",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/pack_day6",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4995",
+	id = 81415,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			20001,
+			10
+		},
+		{
+			2,
+			15003,
+			5
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[81416] = {
+	open_directly = 1,
+	name = "促销礼包VII",
+	type = 17,
+	display = "购买礼包可获得60钻，高级定向蓝图·七期*2",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/pack_day7",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4996",
+	id = 81416,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			42066,
+			2
+		},
+		{
+			1,
+			14,
+			60
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[99991] = {
 	open_directly = 1,
 	name = "作战档案补偿",

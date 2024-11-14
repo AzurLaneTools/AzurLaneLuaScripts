@@ -966,7 +966,7 @@ return {
 			bgName = "bg_xuejing_cg3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "波尔瓦塔",
+			actorName = "波尔塔瓦",
 			hidePaintObj = true,
 			say = "嗯？{namecode:530:同盟}同志，你是出现幻听症状了么？",
 			painting = {
@@ -1002,7 +1002,7 @@ return {
 			bgName = "bg_xuejing_cg3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "波尔瓦塔",
+			actorName = "波尔塔瓦",
 			hidePaintObj = true,
 			say = "……幻觉？！会不会是刚刚共鸣实验的影响还没有消失？",
 			painting = {

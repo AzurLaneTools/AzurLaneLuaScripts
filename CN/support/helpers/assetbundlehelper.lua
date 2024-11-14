@@ -1,170 +1,101 @@
 AssetBundleHelper = {}
 slot0 = AssetBundleHelper
-slot0.abMetatable = {
-	__index = {
-		LoadAssetSync = function (slot0, slot1, ...)
-			slot1 = slot0:ChangeAssetName(slot1)
 
-			if EDITOR_TOOL then
-				return ResourceMgr.Inst:getAssetSync(slot0.path, slot1, ...)
-			else
-				return ResourceMgr.Inst:LoadAssetSync(slot0.ab, slot1, ...)
-			end
-		end,
-		LoadAssetAsync = function (slot0, slot1, slot2, slot3, ...)
-			slot1 = slot0:ChangeAssetName(slot1)
-
-			if EDITOR_TOOL then
-				return ResourceMgr.Inst:getAssetAsync(slot0.path, slot1, slot2, UnityEngine.Events.UnityAction_UnityEngine_Object(slot3), ...)
-			else
-				return ResourceMgr.Inst:LoadAssetAsync(slot0.ab, slot1, slot2, UnityEngine.Events.UnityAction_UnityEngine_Object(slot3), ...)
-			end
-		end,
-		GetAllAssetNames = function (slot0)
-			if EDITOR_TOOL then
-				return table.CArrayToArray(ReflectionHelp.RefCallMethod(typeof(ResourceMgr), "GetAssetBundleAllAssetNames", ResourceMgr.Inst, {
-					typeof("System.String")
-				}, {
-					slot0.path
-				}))
-			else
-				return table.CArrayToArray(slot0.ab:GetAllAssetNames())
-			end
-		end,
-		ChangeAssetName = function (slot0, slot1)
-			if slot1 == nil or slot1 == "" or string.find(slot1, "/") then
-				return slot1 or ""
-			elseif not uv0.bundleDic[slot0.path] then
-				slot0:BuildAssetNameDic()
-			end
-
-			return uv0.bundleDic[slot0.path][string.lower(slot1)] or slot1
-		end,
-		BuildAssetNameDic = function (slot0)
-			if uv0.bundleDic[slot0.path] then
-				return
-			end
-
-			uv0.BuildAssetNameDic(slot0.path, slot0:GetAllAssetNames())
-		end
-	}
-}
-
-slot0.loadAssetBundleSync = function(slot0)
-	slot1 = setmetatable({
-		path = string.lower(slot0)
-	}, uv0.abMetatable)
-
+slot0.GetClass = function()
 	if EDITOR_TOOL then
-		return slot1
+		return pg.AssetBundleEditor
 	else
-		slot1.ab = ResourceMgr.Inst:loadAssetBundleSync(slot0)
-
-		return slot1
+		return pg.AssetBundle
 	end
 end
 
-slot0.loadAssetBundleAsync = function(slot0, slot1)
-	slot2 = setmetatable({
-		path = string.lower(slot0)
-	}, uv0.abMetatable)
+slot0.LoadAssetBundle = function(slot0, slot1, slot2, slot3)
+	slot4 = uv0.GetClass().New(string.lower(slot0))
 
-	if EDITOR_TOOL then
-		onNextTick(function ()
-			uv0(uv1)
-		end)
-	else
-		slot3 = ResourceMgr.Inst
+	slot4:Load(slot1, slot2, slot3)
 
-		slot3:loadAssetBundleAsync(slot0, function (slot0)
-			uv0.ab = slot0
+	return slot4
+end
 
-			uv1(uv0)
-		end)
+slot0.UnloadAssetBundle = function(slot0, slot1, slot2)
+	if not EDITOR_TOOL then
+		ResourceMgr.Inst:ClearBundleRef(slot0, defaultValue(slot1, false), defaultValue(slot2, false))
 	end
 end
 
-slot0.loadAssetBundle = function(slot0, slot1, slot2)
-	slot3 = setmetatable({
-		path = string.lower(slot0)
-	}, uv0.abMetatable)
-
-	if slot1 then
-		if EDITOR_TOOL then
-			onNextTick(function ()
-				uv0(uv1)
-			end)
+slot0.AutoUnloadAssetBundle = function(slot0, slot1)
+	onNextTick(function ()
+		if uv0 then
+			uv1:ClearDependenciesBundle()
 		else
-			slot4 = ResourceMgr.Inst
-
-			slot4:loadAssetBundleAsync(slot0, function (slot0)
-				uv0.ab = slot0
-
-				uv1(uv0)
-			end)
+			uv1:Dispose()
 		end
-	elseif EDITOR_TOOL then
-		return slot3
-	else
-		slot3.ab = ResourceMgr.Inst:loadAssetBundleSync(slot0)
-
-		existCall(slot2, slot3)
-
-		return slot3
-	end
+	end)
 end
 
 slot0.LoadAsset = function(slot0, slot1, slot2, slot3, slot4, slot5)
-	if EDITOR_TOOL then
-		if slot3 then
-			AssetBundleHelper.loadAssetBundleAsync(slot0, function (slot0)
-				slot0:LoadAssetAsync(uv0, uv1, uv2, uv3, false)
-			end)
-		else
-			slot7 = AssetBundleHelper.loadAssetBundleSync(slot0):LoadAssetSync(slot1, slot2, slot5, false)
-
-			existCall(slot4, slot7)
-
-			return slot7
-		end
+	if slot3 then
+		AssetBundleHelper.LoadAssetBundle(slot0, slot3, true, function (slot0)
+			slot0:LoadAssetAsync(uv0, uv1, function (slot0)
+				uv0(slot0)
+				uv1.AutoUnloadAssetBundle(uv2, uv3)
+			end, false, false)
+		end)
 	else
-		if slot3 then
-			slot7 = ResourceMgr.Inst
+		slot6 = AssetBundleHelper.LoadAssetBundle(slot0, slot3, true)
+		slot7 = slot6:LoadAssetSync(slot1, slot2, false, false)
 
-			parallelAsync(underscore.map(table.CArrayToArray(slot7:GetAllDependencies(slot0)), function (slot0)
+		existCall(slot4, slot7)
+		uv0.AutoUnloadAssetBundle(slot6, slot5)
+
+		return slot7
+	end
+end
+
+slot0.LoadManyAssets = function(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot6 = {}
+
+	if slot3 then
+		AssetBundleHelper.LoadAssetBundle(slot0, slot3, true, function (slot0)
+			parallelAsync(underscore.map(uv0, function (slot0)
 				return function (slot0)
-					AssetBundleHelper.loadAssetBundleAsync(uv0, slot0)
+					slot1 = uv0
+
+					slot1:LoadAssetAsync(uv1, uv2, function (slot0)
+						uv0[uv1] = slot0
+
+						uv2()
+					end, false, false)
 				end
 			end), function ()
-				AssetBundleHelper.loadAssetBundleAsync(uv0, function (slot0)
-					slot0:LoadAssetAsync(uv0, uv1, uv2, uv3, false)
-					onNextTick(function ()
-						for slot3, slot4 in ipairs(uv0) do
-							ResourceMgr.Inst:ClearBundleRef(slot4, false)
-						end
-					end)
-				end)
+				uv0(uv1)
+				uv2.AutoUnloadAssetBundle(uv3, uv4)
 			end)
-
-			return
-		end
-
-		for slot10, slot11 in ipairs(table.CArrayToArray(ResourceMgr.Inst:GetAllDependencies(slot0))) do
-			AssetBundleHelper.loadAssetBundleSync(slot11)
-		end
-
-		slot7 = AssetBundleHelper.loadAssetBundleSync(slot0)
-		slot8 = slot7:LoadAssetSync(slot1, slot2, slot5, false)
-
-		existCall(slot4, slot8)
-		onNextTick(function ()
-			for slot3, slot4 in ipairs(uv0) do
-				ResourceMgr.Inst:ClearBundleRef(slot4, false)
-			end
 		end)
+	else
+		slot7 = AssetBundleHelper.LoadAssetBundle(slot0, slot3, true)
 
-		return slot8
+		for slot11, slot12 in ipairs(slot1) do
+			slot6[slot12] = slot7:LoadAssetSync(slot12, slot2, false, false)
+		end
+
+		existCall(slot4, slot6)
+		uv0.AutoUnloadAssetBundle(slot7, slot5)
+
+		return slot6
 	end
+end
+
+slot1 = {}
+
+slot0.StoreAssetBundle = function(slot0, slot1, slot2, slot3)
+	uv0[slot0] = uv0[slot0] or {}
+
+	table.insert(uv0[slot0], uv1.LoadAssetBundle(slot0, slot1, slot2, slot3))
+end
+
+slot0.UnstoreAssetBundle = function(slot0, slot1)
+	table.remove(uv0[slot0]):Dispose(slot1)
 end
 
 slot0.bundleDic = {}

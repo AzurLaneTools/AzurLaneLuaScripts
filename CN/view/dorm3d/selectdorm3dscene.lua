@@ -4,6 +4,10 @@ slot0.getUIName = function(slot0)
 	return "SelectDorm3DUI"
 end
 
+slot0.forceGC = function(slot0)
+	return true
+end
+
 slot0.optionsPath = {
 	"Main/option"
 }
@@ -148,6 +152,7 @@ slot0.didEnter = function(slot0)
 	slot0:SetFloor(slot0.contextData.floorName)
 	slot0:UpdateStamina()
 	slot0:CheckGuide("DORM3D_GUIDE_02")
+	DormProxy.CheckDeviceRAMEnough()
 end
 
 slot0.UpdateStamina = function(slot0)

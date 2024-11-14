@@ -151948,6 +151948,42 @@ _G.pg.base.item_virtual_data_statistics[58997] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[58998] = {
+	drop_gold_max = 0,
+	name = "黑五道具掉落展示(2024)",
+	display = "获得促销换装折扣券X1、心智魔方X10",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/skin_300_pack",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 58998,
+	display_icon = {
+		{
+			2,
+			65045,
+			1
+		},
+		{
+			2,
+			20001,
+			10
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[59000] = {
 	drop_gold_max = 0,
 	name = "角色经验",
@@ -169369,6 +169405,81 @@ _G.pg.base.item_virtual_data_statistics[65037] = {
 	drop_oil_max = 0,
 	virtual_type = 101,
 	id = 65037,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65041] = {
+	drop_gold_max = 0,
+	name = "紫华之章",
+	display = "用于「紫绛槿岚」复刻活动兑换，活动结束后将会消失",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/rixiv3_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65041,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65042] = {
+	drop_gold_max = 0,
+	name = "训练点数",
+	display = "用于头像框活动兑换，活动结束后将会消失",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_s",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 99,
+	id = 65042,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65044] = {
+	drop_gold_max = 0,
+	name = "单次建造券",
+	display = "于「紫绛槿岚」活动限时复刻中获取，可以免费进行一次期间限定建造（活动结束后消失）",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5639,
+	icon = "Props/buildTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 22,
+	id = 65044,
 	display_icon = {},
 	price = {},
 	index = {},

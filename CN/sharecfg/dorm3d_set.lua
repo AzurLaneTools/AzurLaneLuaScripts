@@ -136,6 +136,11 @@ pg.dorm3d_set = {
 		key = "drom3d_appellation_time",
 		key_value_int = 48
 	},
+	drom3d_memory_limit = {
+		key_value_varchar = "",
+		key = "drom3d_memory_limit",
+		key_value_int = 6144
+	},
 	all = {
 		"favor_level",
 		"stage",
@@ -161,6 +166,7 @@ pg.dorm3d_set = {
 		"drom3d_favir_trigger_propose",
 		"drom3d_favir_trigger_game",
 		"drom3d_weekly_task",
-		"drom3d_appellation_time"
+		"drom3d_appellation_time",
+		"drom3d_memory_limit"
 	}
 }

@@ -6,81 +6,81 @@ slot0.execute = function(slot0, slot1)
 	slot4 = slot2.selectedList
 	slot5 = slot2.count or 1
 
-	if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_NEWSERVER_SHOP) or slot6:isEnd() then
+	if not getProxy(ActivityProxy):getActivityByType(slot2.actType or ActivityConst.ACTIVITY_TYPE_NEWSERVER_SHOP) or slot7:isEnd() then
 		return
 	end
 
-	if not getProxy(ShopsProxy):GetNewServerShop() then
+	if not getProxy(ShopsProxy):GetNewServerShop(slot6) then
 		return
 	end
 
-	assert(slot7:GetCommodityById(slot3):GetConsume().type == 1, "暂不支持资源以为的类型")
+	assert(slot8:GetCommodityById(slot3):GetConsume().type == 1, "暂不支持资源以为的类型")
 
-	if getProxy(PlayerProxy):getData():getResource(slot12.id) < slot12.count * (#slot4 ~= 1 and #slot4 or slot5) then
+	if getProxy(PlayerProxy):getData():getResource(slot13.id) < slot13.count * (#slot4 ~= 1 and #slot4 or slot5) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 		return
 	end
 
-	if not slot11:CanPurchaseMulTimes(slot8) then
+	if not slot12:CanPurchaseMulTimes(slot9) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("guild_shop_cnt_no_enough"))
 
 		return
 	end
 
-	slot15 = {}
+	slot16 = {}
 
-	for slot19, slot20 in ipairs(slot4) do
-		if not slot15[slot20] then
-			slot15[slot20] = {
-				itemid = slot20,
+	for slot20, slot21 in ipairs(slot4) do
+		if not slot16[slot21] then
+			slot16[slot21] = {
+				itemid = slot21,
 				count = slot5
 			}
 		else
-			slot15[slot20].count = slot15[slot20].count + 1
+			slot16[slot21].count = slot16[slot21].count + 1
 		end
 	end
 
-	slot16 = {}
+	slot17 = {}
 
-	for slot20, slot21 in pairs(slot15) do
-		table.insert(slot16, {
-			itemid = slot21.itemid,
-			count = slot21.count
+	for slot21, slot22 in pairs(slot16) do
+		table.insert(slot17, {
+			itemid = slot22.itemid,
+			count = slot22.count
 		})
 	end
 
-	slot18 = slot11:getConfig("goods")[1]
-	slot19 = slot11:getConfig("num")
+	slot19 = slot12:getConfig("goods")[1]
+	slot20 = slot12:getConfig("num")
 
-	if slot11:getConfig("type") == 1 then
-		if slot18 == 1 and slot10:GoldMax(slot19 * slot8) then
+	if slot12:getConfig("type") == 1 then
+		if slot19 == 1 and slot11:GoldMax(slot20 * slot9) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("gold_max_tip_title") .. i18n("resource_max_tip_shop"))
 
 			return
 		end
 
-		if slot18 == 2 and slot10:OilMax(slot19 * slot8) then
+		if slot19 == 2 and slot11:OilMax(slot20 * slot9) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("oil_max_tip_title") .. i18n("resource_max_tip_shop"))
 
 			return
 		end
 	end
 
-	slot20 = Item.getConfigData(slot18)
+	slot21 = Item.getConfigData(slot19)
 
-	if DROP_TYPE_ITEM == slot17 and slot20.type == Item.EXP_BOOK_TYPE and slot20.max_num < getProxy(BagProxy):getItemCountById(slot18) + slot19 * slot8 then
+	if DROP_TYPE_ITEM == slot18 and slot21.type == Item.EXP_BOOK_TYPE and slot21.max_num < getProxy(BagProxy):getItemCountById(slot19) + slot20 * slot9 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("expbook_max_tip_title") .. i18n("resource_max_tip_shop"))
 
 		return
 	end
 
-	slot21 = pg.ConnectionMgr.GetInstance()
+	slot22 = pg.ConnectionMgr.GetInstance()
 
-	slot21:Send(26043, {
-		act_id = slot6.id,
+	slot22:Send(26043, {
+		act_id = slot7.id,
 		goodsid = slot3,
-		selected = slot16
+		selected = slot17
 	}, 26044, function (slot0)
 		if slot0.result == 0 then
 			slot1 = PlayerConst.addTranDrop(slot0.drop_list)
@@ -96,10 +96,10 @@ slot0.execute = function(slot0, slot1)
 			slot2 = getProxy(PlayerProxy):getData()
 
 			slot2:consume({
-				[id2res(uv3:GetPtId())] = uv4 * uv1
+				[id2res(uv0:getConfig("resource_type"))] = uv3 * uv1
 			})
-			uv5:updatePlayer(slot2)
-			uv6:sendNotification(GAME.NEW_SERVER_SHOP_SHOPPING_DONE, {
+			uv4:updatePlayer(slot2)
+			uv5:sendNotification(GAME.NEW_SERVER_SHOP_SHOPPING_DONE, {
 				awards = slot1
 			})
 		else

@@ -882,7 +882,7 @@ slot0.HXCharacter = function(slot0, slot1)
 
 			uv1 = true
 			slot3, slot4 = unpack(uv0.hxMatDict[slot2])
-			uv2[slot0] = slot3:LoadAssetSync(slot4, typeof(Material), true, false)
+			uv2[slot0] = slot3:LoadAssetSync(slot4, typeof(Material), false, false)
 
 			warning("Replace HX Material", uv0.hxMatDict[slot2][2])
 		end)

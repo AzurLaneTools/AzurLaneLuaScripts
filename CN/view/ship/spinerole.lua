@@ -81,28 +81,33 @@ slot0.AttachOrbit = function(slot0, slot1)
 			slot11:getAssetAsync(ys.Battle.BattleResourceManager.GetOrbitPath(slot9), "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 				if uv0.state ~= uv1.STATE_DISPOSE then
 					slot1 = uv2 .. "_bound"
+					slot2 = uv3[slot1][1]
 					slot3 = uv3[slot1][2]
-					slot4 = Object.Instantiate(slot0)
+
+					for slot9 = 1, Object.Instantiate(slot0):GetComponentsInChildren(typeof(Spine.Unity.SkeletonGraphic)).Length do
+						slot5[slot9 - 1].raycastTarget = false
+					end
+
 					slot4.transform.localPosition = Vector2(slot3[1], slot3[2])
-					slot5 = SpineAnimUI.AddFollower(uv3[slot1][1], uv0.model.transform, slot4.transform)
+					slot6 = SpineAnimUI.AddFollower(slot2, uv0.model.transform, slot4.transform)
 					slot4.transform.localScale = Vector3.one
-					uv0._attachmentList[slot5] = uv3.orbit_hidden_action
-					slot6 = slot5:GetComponent("Spine.Unity.BoneFollowerGraphic")
+					uv0._attachmentList[slot6] = uv3.orbit_hidden_action
+					slot7 = slot6:GetComponent("Spine.Unity.BoneFollowerGraphic")
 
 					if uv3.orbit_rotate then
-						slot6.followBoneRotation = true
-						slot7 = slot4.transform.localEulerAngles
-						slot4.transform.localEulerAngles = Vector3(slot7.x, slot7.y, slot7.z - 90)
+						slot7.followBoneRotation = true
+						slot8 = slot4.transform.localEulerAngles
+						slot4.transform.localEulerAngles = Vector3(slot8.x, slot8.y, slot8.z - 90)
 					else
-						slot6.followBoneRotation = false
+						slot7.followBoneRotation = false
 					end
 
 					if uv3.orbit_ui_back == 1 then
-						slot5:SetParent(uv0.modelRoot.transform, false)
-						slot5:SetAsFirstSibling()
+						slot6:SetParent(uv0.modelRoot.transform, false)
+						slot6:SetAsFirstSibling()
 					else
-						slot5:SetParent(uv0.modelRoot.transform, false)
-						slot5:SetAsLastSibling()
+						slot6:SetParent(uv0.modelRoot.transform, false)
+						slot6:SetAsLastSibling()
 					end
 
 					SetActive(slot4, uv0._visible)

@@ -55,8 +55,10 @@ slot0.FlushInfo = function(slot0)
 	slot0.infoSkillList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
-			slot2:Find("color"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/WorldBossUI_atlas", "color_" .. slot3[2])
 
+			GetSpriteFromAtlasAsync("ui/WorldBossUI_atlas", "color_" .. slot3[2], function (slot0)
+				uv0:Find("color"):GetComponent(typeof(Image)).sprite = slot0
+			end)
 			setText(slot2:Find("color/Text"), slot3[1])
 		end
 	end)

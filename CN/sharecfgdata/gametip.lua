@@ -12367,7 +12367,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "罗马、莱昂纳多·达·芬奇等角色 建造概率UP！"
+	tip = "每累计建造200次可获得海上传奇舰船 {namecode:84}(最多4次)"
 }
 
 
@@ -20208,16 +20208,16 @@ _G.pg.base.gametip.hunter_npc = {
 _G.pg.base.gametip.fighterplane_help = {
 	tip = {
 		{
-			info = "活动时间：<color=#92fc63>11.12-12.10</color>"
+			info = "活动时间：<color=#92fc63>11.14-11.28 23:59:59</color>"
 		},
 		{
 			info = [[
 活动规则：
 活动期间每日可获得<color=#92fc63>2</color>次演习次数，演习次数最多可以叠
-加<color=#92fc63>12</color>次
+加<color=#92fc63>10</color>次
 1.在有演习次数的情况下选择战斗机完成演习关卡会消耗
 掉演习次数并增加关卡进度
-2.每架战斗机的关卡进度达到<color=#92fc63>3</color>时，都可以获得对应奖励
+2.每架战斗机的关卡进度达到<color=#92fc63>2</color>时，都可以获得对应奖励
 3.在没有演习次数的情况下完成演习关卡不会增加关卡进
 度
 4.因为其他原因中途退出演习关卡不会消耗演习次数，同
@@ -35760,4 +35760,86 @@ _G.pg.base.gametip.juuschat_background_tip1 = {
 
 _G.pg.base.gametip.juuschat_background_tip2 = {
 	tip = "暂未拥有此换装"
+}
+
+
+_G.pg.base.gametip.airforce_title_1 = {
+	tip = "航电系统"
+}
+
+
+_G.pg.base.gametip.airforce_title_2 = {
+	tip = "相控阵雷达"
+}
+
+
+_G.pg.base.gametip.airforce_title_3 = {
+	tip = "涡轮发动机"
+}
+
+
+_G.pg.base.gametip.airforce_title_4 = {
+	tip = "无附面层隔板进气道"
+}
+
+
+_G.pg.base.gametip.airforce_title_5 = {
+	tip = "吸波隐身涂层"
+}
+
+
+_G.pg.base.gametip.airforce_desc_1 = {
+	tip = "航电系统是现代作战飞机中最为关键的系统之一，它涵盖了探测系统、火力控制系统、飞行控制系统、推力控制系统、电子战系统、通信系统、导航系统、座舱显示系统、自检系统等。"
+}
+
+
+_G.pg.base.gametip.airforce_desc_2 = {
+	tip = "歼-20战斗机搭载的相控阵雷达系统代表了当今航空电子技术的顶尖水平，采用了氮化镓有源相控阵雷达技术，有探测距离远、散热性能优越、多功能性强等诸多优点。"
+}
+
+
+_G.pg.base.gametip.airforce_desc_3 = {
+	tip = "涡扇15“峨眉” 涡扇发动机，是为我国第五代战斗机研制的小涵道比推力矢量涡扇发动机"
+}
+
+
+_G.pg.base.gametip.airforce_desc_4 = {
+	tip = "无附面层隔板进气道，全称无附面层隔道超音速进气道，它采用一个固定的鼓包来模拟常规进气道中的一、二级可调斜板，并能够达到对气流的压缩，以及简化结构、隐形的目的。"
+}
+
+
+_G.pg.base.gametip.airforce_desc_5 = {
+	tip = "歼-20机身表面使用了一种低观测反射的涂料材质，表面采用了类似微型山峰的设计，能够反弹并散射掉雷达信号，使得敌方雷达难以发现并锁定目标。"
+}
+
+
+_G.pg.base.gametip.fighterplane_J20_tip = {
+	tip = "歼20由航空工业集团研制，是一款具备高隐身性、高态势感知、高机动性等能力的战斗机。 歼20于1997年正式立项，经过工程技术人员的奋发努力和国家的大力支持，首架技术工程验证机于2009年制造成功，并于2011年1月11日在成都实现首飞。歼20采用了单座、双发、全动双垂尾、DSI进气道、上反鸭翼带尖拱边条的鸭式气动布局。头部、机身呈菱形，垂直尾翼向外倾斜。"
+}
+
+
+_G.pg.base.gametip.drom3d_memory_limit_tip = {
+	tip = "当前机型内存小于推荐配置，可能存在闪退风险。"
+}
+
+
+_G.pg.base.gametip.blackfriday_main_tip = {
+	tip = {
+		{
+			info = [[
+活动规则：
+·<color=#92fc63>11.14-12.4 24 时</color>期间开启限时活动「明石的促销活动」
+·限时任务
+完成任务获得促销PT
+·活动商店
+使用促销PT、钻石、物资可以分别在PT商店、钻石商店、物资商店中购买
+·礼包商店
+截止11.20 0点为止，每日解锁一组免费礼包与付费礼包]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.blackfriday_shop_tip = {
+	tip = "$1日$2时解锁"
 }

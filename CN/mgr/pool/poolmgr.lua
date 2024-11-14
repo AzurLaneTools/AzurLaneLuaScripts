@@ -115,6 +115,7 @@ slot0.Ctor = function(slot0)
 		}
 	}
 	slot0.preloadAbs = {
+		"custom_builtin",
 		"shipstatus",
 		"channel",
 		"painting/mat",
@@ -142,28 +143,52 @@ slot0.Init = function(slot0, slot1)
 	end
 
 	for slot8, slot9 in pairs(slot0.preloadSprites) do
-		if #slot9 > 0 then
-			slot10 = typeof(Sprite)
+		AssetBundleHelper.LoadAssetBundle(slot8, true, true, function (slot0)
+			slot4 = slot0
 
-			AssetBundleHelper.loadAssetBundleAsync(slot8, function (slot0)
-				for slot4, slot5 in ipairs(uv0) do
-					uv2:AddPoolsPack(uv3, slot5, uv1, slot0:LoadAssetSync(slot5, uv1, false, false))
-				end
+			uv0:AddPoolsPack(uv1, slot4)
 
-				uv4()
-			end)
-		end
+			for slot4, slot5 in ipairs(uv2) do
+				uv0.pools_pack[uv1]:Get(slot5, typeof(Sprite))
+			end
+
+			uv3()
+		end)
 	end
 
 	for slot8, slot9 in ipairs(slot0.preloadAbs) do
-		AssetBundleHelper.loadAssetBundleAsync(slot9, function (slot0)
-			uv0()
+		AssetBundleHelper.LoadAssetBundle(slot9, true, false, function (slot0)
+			uv0:AddPoolsPack(uv1, slot0)
+			uv2()
 		end)
 	end
 end
 
 slot0.GetSpineChar = function(slot0, slot1, slot2, slot3)
-	slot6 = function()
+	slot4 = {}
+
+	if not slot0.pools_plural["char/" .. slot1] then
+		table.insert(slot4, function (slot0)
+			uv0:GetSpineSkel(uv1, uv2, function (slot0)
+				assert(slot0 ~= nil, "Spine角色不存在: " .. uv0)
+
+				if not uv1.pools_plural[uv2] then
+					slot0 = SpineAnimUI.AnimChar(uv0, slot0)
+
+					slot0:SetActive(false)
+					tf(slot0):SetParent(uv1.root, false)
+
+					slot1 = slot0:GetComponent("SkeletonGraphic")
+					slot1.material = slot1.skeletonDataAsset.atlasAssets[0].materials[0]
+					uv1.pools_plural[uv2] = uv3.New(slot0, 1)
+				end
+
+				uv4()
+			end)
+		end)
+	end
+
+	seriesAsync(slot4, function ()
 		slot0 = uv0.pools_plural[uv1]
 		slot0.index = uv0.pluralIndex
 		uv0.pluralIndex = uv0.pluralIndex + 1
@@ -171,32 +196,11 @@ slot0.GetSpineChar = function(slot0, slot1, slot2, slot3)
 
 		slot1:SetActive(true)
 		uv2(slot1)
-	end
-
-	if not slot0.pools_plural["char/" .. slot1 .. slot1] then
-		slot0:GetSpineSkel(slot1, slot2, function (slot0)
-			assert(slot0 ~= nil, "Spine角色不存在: " .. uv0)
-
-			if not uv1.pools_plural[uv2] then
-				slot0 = SpineAnimUI.AnimChar(uv0, slot0)
-
-				slot0:SetActive(false)
-				tf(slot0):SetParent(uv1.root, false)
-
-				slot1 = slot0:GetComponent("SkeletonGraphic")
-				slot1.material = slot1.skeletonDataAsset.atlasAssets[0].materials[0]
-				uv1.pools_plural[uv2] = uv3.New(slot0, 1)
-			end
-
-			uv4()
-		end)
-	else
-		slot6()
-	end
+	end)
 end
 
 slot0.ReturnSpineChar = function(slot0, slot1, slot2)
-	slot4 = "char/" .. slot1 .. slot1
+	slot4 = "char/" .. slot1
 
 	if IsNil(slot2) then
 		Debugger.LogError(debug.traceback("empty go: " .. slot1))
@@ -260,7 +264,7 @@ slot0.GetSpineSkel = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.IsSpineSkelCached = function(slot0, slot1)
-	return slot0.pools_plural["char/" .. slot1 .. slot1] ~= nil
+	return slot0.pools_plural["char/" .. slot1] ~= nil
 end
 
 slot6 = {
@@ -289,7 +293,7 @@ slot0.GetUI = function(slot0, slot1, slot2, slot3)
 		end
 
 		if table.indexof(uv1, uv2) then
-			uv4.pools_plural[uv3 .. uv2].prefab:GetComponent(typeof(UIArchiver)):Clear()
+			uv4.pools_plural[uv3].prefab:GetComponent(typeof(UIArchiver)):Clear()
 			slot0:GetComponent(typeof(UIArchiver)):Load(slot1)
 		else
 			slot1()
@@ -298,7 +302,7 @@ slot0.GetUI = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.ReturnUI = function(slot0, slot1, slot2)
-	slot4 = "ui/" .. slot1 .. slot1
+	slot4 = "ui/" .. slot1
 
 	if IsNil(slot2) then
 		Debugger.LogError(debug.traceback("empty go: " .. slot1))
@@ -318,25 +322,24 @@ slot0.ReturnUI = function(slot0, slot1, slot2)
 			slot0.pools_plural[slot4]:Enqueue(slot2, true)
 
 			if slot0.pools_plural[slot4]:AllReturned() and (not slot0.callbacks[slot4] or #slot0.callbacks[slot4] == 0) then
-				uv3:ClearBundleRef(slot3, true, true)
 				slot0.pools_plural[slot4]:Clear()
 
 				slot0.pools_plural[slot4] = nil
 			end
 		end
 	else
-		uv4.Destroy(slot2)
+		uv3.Destroy(slot2)
 	end
 end
 
 slot0.HasCacheUI = function(slot0, slot1)
-	return slot0.pools_plural["ui/" .. slot1 .. slot1] ~= nil
+	return slot0.pools_plural["ui/" .. slot1] ~= nil
 end
 
 slot0.PreloadUI = function(slot0, slot1, slot2)
 	slot3 = {}
 
-	if not slot0.pools_plural["ui/" .. slot1 .. slot1] then
+	if not slot0.pools_plural["ui/" .. slot1] then
 		table.insert(slot3, function (slot0)
 			uv0:GetUI(uv1, true, function (slot0)
 				uv0.pools_plural[uv1]:Enqueue(slot0)
@@ -358,8 +361,7 @@ end
 
 slot0.ClearAllTempCache = function(slot0)
 	for slot4, slot5 in pairs(slot0.ui_tempCache) do
-		if slot5 and slot0.pools_plural["ui/" .. slot4 .. slot4] then
-			uv0:ClearBundleRef(slot6, true, true)
+		if slot5 and slot0.pools_plural["ui/" .. slot4] then
 			slot0.pools_plural[slot7]:Clear()
 
 			slot0.pools_plural[slot7] = nil
@@ -370,7 +372,7 @@ end
 slot0.PreloadPainting = function(slot0, slot1, slot2)
 	slot3 = {}
 
-	if not slot0.pools_plural["painting/" .. slot1 .. slot1] then
+	if not slot0.pools_plural["painting/" .. slot1] then
 		table.insert(slot3, function (slot0)
 			uv0:GetPainting(uv1, true, function (slot0)
 				uv0.pools_plural[uv1]:Enqueue(slot0)
@@ -384,7 +386,7 @@ end
 
 slot0.GetPainting = function(slot0, slot1, slot2, slot3)
 	slot4 = "painting/" .. slot1
-	slot5 = slot4 .. slot1
+	slot5 = slot4
 
 	slot0:FromPlural(slot4, "", slot2, 1, function (slot0)
 		slot0:SetActive(true)
@@ -398,7 +400,7 @@ slot0.GetPainting = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.ReturnPainting = function(slot0, slot1, slot2)
-	slot4 = "painting/" .. slot1 .. slot1
+	slot4 = "painting/" .. slot1
 
 	if IsNil(slot2) then
 		Debugger.LogError(debug.traceback("empty go: " .. slot1))
@@ -456,7 +458,7 @@ end
 
 slot0.GetPaintingWithPrefix = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot4 .. slot1
-	slot6 = slot5 .. slot1
+	slot6 = slot5
 
 	slot0:FromPlural(slot5, "", slot2, 1, function (slot0)
 		slot0:SetActive(true)
@@ -470,7 +472,7 @@ slot0.GetPaintingWithPrefix = function(slot0, slot1, slot2, slot3, slot4)
 end
 
 slot0.ReturnPaintingWithPrefix = function(slot0, slot1, slot2, slot3)
-	slot5 = slot3 .. slot1 .. slot1
+	slot5 = slot3 .. slot1
 
 	if IsNil(slot2) then
 		Debugger.LogError(debug.traceback("empty go: " .. slot1))
@@ -497,12 +499,8 @@ slot0.GetSprite = function(slot0, slot1, slot2, slot3, slot4)
 end
 
 slot0.DecreasSprite = function(slot0, slot1, slot2)
-	slot4 = typeof(Sprite)
-
-	if slot0.pools_pack[slot1] and slot0.pools_pack[slot3].type == slot4 then
-		if slot0.pools_pack[slot3]:Remove(slot2) then
-			uv0:ClearBundleRef(slot3, false, false)
-		end
+	if slot0.pools_pack[slot1] then
+		slot0.pools_pack[slot3]:Remove(slot2)
 
 		if slot0.pools_pack[slot3]:GetAmount() <= 0 then
 			slot0.pools_pack[slot3]:Clear()
@@ -513,16 +511,10 @@ slot0.DecreasSprite = function(slot0, slot1, slot2)
 end
 
 slot0.DestroySprite = function(slot0, slot1)
-	slot3 = typeof(Sprite)
-
-	if slot0.pools_pack[slot1] and slot0.pools_pack[slot2].type == slot3 then
+	if slot0.pools_pack[slot1] then
 		slot0.pools_pack[slot2]:Clear()
 
 		slot0.pools_pack[slot2] = nil
-
-		for slot8 = 1, slot0.pools_pack[slot2]:GetAmount() do
-			uv0:ClearBundleRef(slot2, false, false)
-		end
 	end
 end
 
@@ -531,18 +523,10 @@ slot0.DestroyAllSprite = function(slot0)
 	slot2 = typeof(Sprite)
 
 	for slot6, slot7 in pairs(slot0.pools_pack) do
-		if slot7.type == slot2 and not slot0.preloadSprites[slot6] then
-			slot1[slot6] = slot7
-		end
-	end
+		if not slot0.preloadSprites[slot6] and not slot0.preloadAbs[slot6] then
+			slot0.pools_pack[slot6]:Clear()
 
-	for slot6, slot7 in pairs(slot1) do
-		slot0.pools_pack[slot6]:Clear()
-
-		slot0.pools_pack[slot6] = nil
-
-		for slot12 = 1, slot0.pools_pack[slot6]:GetAmount() do
-			uv0:ClearBundleRef(slot6, false, false)
+			slot0.pools_pack[slot6] = nil
 		end
 	end
 
@@ -550,27 +534,17 @@ slot0.DestroyAllSprite = function(slot0)
 end
 
 slot0.DisplayPoolPacks = function(slot0)
-	slot1 = ""
+	slot1 = nil
 
 	for slot5, slot6 in pairs(slot0.pools_pack) do
-		for slot10, slot11 in pairs(slot6.items) do
-			if #slot1 > 0 then
-				slot1 = slot1 .. "\n"
-			end
+		table.insert(slot1, slot5)
 
-			slot1 = slot1 .. " " .. table.concat(_.map({
-				slot5,
-				"assetName:",
-				slot10,
-				"type:",
-				slot6.type.FullName
-			}, function (slot0)
-				return tostring(slot0)
-			end), " ")
+		for slot10, slot11 in pairs(slot6.items) do
+			table.insert(slot1, string.format("assetName:%s type:%s", slot10, tostring(slot6.type.FullName)))
 		end
 	end
 
-	warning(slot1)
+	warning(table.concat(slot1, "\n"))
 end
 
 slot0.SpriteMemUsage = function(slot0)
@@ -579,26 +553,24 @@ slot0.SpriteMemUsage = function(slot0)
 	slot3 = typeof(Sprite)
 
 	for slot7, slot8 in pairs(slot0.pools_pack) do
-		if slot8.type == slot3 then
-			slot9 = {}
+		slot9 = {}
 
-			for slot13, slot14 in pairs(slot8.items) do
-				if not slot9[slot14.texture.name] then
-					slot17 = 4
+		for slot13, slot14 in pairs(slot8.items) do
+			if slot8.typeDic[slot13] == slot3 and not slot9[slot8.items[slot13].texture.name] then
+				slot17 = 4
 
-					if slot15.format == TextureFormat.RGB24 then
-						slot17 = 3
-					elseif slot18 == TextureFormat.ARGB4444 or slot18 == TextureFormat.RGBA4444 then
-						slot17 = 2
-					elseif slot18 == TextureFormat.DXT5 or slot18 == TextureFormat.ASTC_4x4 or slot18 == TextureFormat.ETC2_RGBA8 then
-						slot17 = 1
-					elseif slot18 == TextureFormat.PVRTC_RGB4 or slot18 == TextureFormat.PVRTC_RGBA4 or slot18 == TextureFormat.ETC_RGB4 or slot18 == TextureFormat.ETC2_RGB or slot18 == TextureFormat.ASTC_6x6 or slot18 == TextureFormat.DXT1 then
-						slot17 = 0.5
-					end
-
-					slot1 = slot1 + slot15.width * slot15.height * slot17 * slot2 / 8
-					slot9[slot16] = true
+				if slot15.format == TextureFormat.RGB24 then
+					slot17 = 3
+				elseif slot18 == TextureFormat.ARGB4444 or slot18 == TextureFormat.RGBA4444 then
+					slot17 = 2
+				elseif slot18 == TextureFormat.DXT5 or slot18 == TextureFormat.ASTC_4x4 or slot18 == TextureFormat.ETC2_RGBA8 then
+					slot17 = 1
+				elseif slot18 == TextureFormat.PVRTC_RGB4 or slot18 == TextureFormat.PVRTC_RGBA4 or slot18 == TextureFormat.ETC_RGB4 or slot18 == TextureFormat.ETC2_RGB or slot18 == TextureFormat.ASTC_6x6 or slot18 == TextureFormat.DXT1 then
+					slot17 = 0.5
 				end
+
+				slot1 = slot1 + slot15.width * slot15.height * slot17 * slot2 / 8
+				slot9[slot16] = true
 			end
 		end
 	end
@@ -614,7 +586,7 @@ slot10 = {
 }
 
 slot0.GetPrefab = function(slot0, slot1, slot2, slot3, slot4, slot5)
-	slot6 = slot1 .. slot2
+	slot6 = slot1
 
 	slot0:FromPlural(slot1, "", slot3, slot5 or uv0, function (slot0)
 		if string.find(uv0, "emoji/") == 1 and slot0:GetComponent(typeof(CriManaEffectUI)) then
@@ -628,7 +600,7 @@ slot0.GetPrefab = function(slot0, slot1, slot2, slot3, slot4, slot5)
 end
 
 slot0.ReturnPrefab = function(slot0, slot1, slot2, slot3, slot4)
-	slot5 = slot1 .. slot2
+	slot5 = slot1
 
 	if IsNil(slot3) then
 		Debugger.LogError(debug.traceback("empty go: " .. slot2))
@@ -650,12 +622,10 @@ slot0.ReturnPrefab = function(slot0, slot1, slot2, slot3, slot4)
 end
 
 slot0.DestroyPrefab = function(slot0, slot1, slot2)
-	if slot0.pools_plural[slot1 .. slot2] then
+	if slot0.pools_plural[slot1] then
 		slot0.pools_plural[slot3]:Clear()
 
 		slot0.pools_plural[slot3] = nil
-
-		uv0:ClearBundleRef(slot1, true, false)
 	end
 end
 
@@ -667,7 +637,6 @@ slot0.DestroyAllPrefab = function(slot0)
 			return string.find(uv0, slot0) == 1
 		end) then
 			slot6:Clear()
-			uv1:ClearBundleRef(slot5, true, false)
 			table.insert(slot1, slot5)
 		end
 	end
@@ -724,7 +693,7 @@ slot0.FromPlural = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 		uv2(slot0:Dequeue())
 	end
 
-	if not slot0.pools_plural[slot1 .. slot2] then
+	if not slot0.pools_plural[slot2 == "" and slot1 or slot1 .. "|" .. slot2] then
 		slot0:LoadAsset(slot1, slot2, typeof(Object), slot3, function (slot0)
 			if slot0 == nil then
 				Debugger.LogError("can not find asset: " .. uv0 .. " : " .. uv1)
@@ -744,26 +713,26 @@ slot0.FromPlural = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 end
 
 slot0.FromObjPack = function(slot0, slot1, slot2, slot3, slot4, slot5)
-	if not slot0.pools_pack[slot1] or not slot0.pools_pack[slot6]:Get(slot2) then
-		AssetBundleHelper.LoadAsset(slot1, slot2, slot3, slot4, function (slot0)
-			if slot0 == nil then
-				Debugger.LogError("can not find asset: " .. uv0 .. " : " .. uv1)
+	slot7 = {}
 
-				return
-			end
-
-			uv2:AddPoolsPack(uv3, uv1, uv4, slot0)
-			uv5(slot0)
-		end, false)
-	else
-		slot5(slot0.pools_pack[slot6]:Get(slot2))
+	if not slot0.pools_pack[slot1] then
+		table.insert(slot7, function (slot0)
+			AssetBundleHelper.LoadAssetBundle(uv0, uv1, true, function (slot0)
+				uv0:AddPoolsPack(uv1, slot0)
+				uv2()
+			end)
+		end)
 	end
+
+	seriesAsync(slot7, function ()
+		uv0(uv1.pools_pack[uv2]:Get(uv3, uv4))
+	end)
 end
 
 slot0.LoadAsset = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot7, slot8 = HXSet.autoHxShiftPath(slot1, slot2)
 
-	if slot0.callbacks[slot7 .. slot8] then
+	if slot0.callbacks[slot7 .. "|" .. slot8] then
 		if not slot4 then
 			errorMsg("Sync Loading after async operation")
 		end
@@ -789,13 +758,11 @@ slot0.LoadAsset = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	end
 end
 
-slot0.AddPoolsPack = function(slot0, slot1, slot2, slot3, slot4)
-	if not slot0.pools_pack[slot1] then
-		slot0.pools_pack[slot1] = uv0.New(slot3)
-	end
-
-	if not slot0.pools_pack[slot1]:Get(slot2) then
-		slot0.pools_pack[slot1]:Set(slot2, slot4)
+slot0.AddPoolsPack = function(slot0, slot1, slot2)
+	if slot0.pools_pack[slot1] then
+		slot2:Dispose()
+	else
+		slot0.pools_pack[slot1] = uv0.New(slot1, slot2)
 	end
 end
 

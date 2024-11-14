@@ -5,12 +5,14 @@ slot0.getUIName = function(slot0)
 end
 
 slot1 = {
+	"J-20",
 	"J-10",
 	"J-15",
 	"FC-1",
 	"FC-31"
 }
 slot2 = {
+	"fighterplane_J20_tip",
 	"fighterplane_J10_tip",
 	"fighterplane_J15_tip",
 	"fighterplane_FC1_tip",
@@ -36,9 +38,6 @@ slot0.init = function(slot0)
 	setImageAlpha(slot0.currentFighterImage, 0)
 
 	slot0.BattleTimes = slot0._tf:Find("BattleTimes")
-
-	setParent(tf(Instantiate(slot0._tf:GetComponent(typeof(ItemList)).prefabItem[0])), slot0._tf)
-
 	slot0.loader = AutoLoader.New()
 end
 
@@ -51,15 +50,17 @@ slot0.GetFighterData = function(slot0, slot1)
 end
 
 slot0.GetActivityProgress = function(slot0)
-	slot1 = 0
+	slot1 = slot0.activity:GetMaxProgress()
+	slot2 = slot0.activity:GetPerDayCount()
+	slot3 = 0
 
-	for slot6 = 1, slot0.activity:getConfig("config_client")[1] do
-		slot1 = slot1 + slot0:GetFighterData(slot6)
+	for slot8 = 1, slot0.activity:GetLevelCount() do
+		slot3 = slot3 + (slot0.activity:getKVPList(1, slot8) or 0)
 	end
 
-	slot3 = pg.TimeMgr.GetInstance()
+	slot5 = pg.TimeMgr.GetInstance()
 
-	return slot1, math.min((slot3:DiffDay(slot0.activity.data1, slot3:GetServerTime()) + 1) * 2, slot2 * 3)
+	return slot3, math.min((slot5:DiffDay(slot0.activity.data1, slot5:GetServerTime()) + 1) * slot2, slot1)
 end
 
 slot0.didEnter = function(slot0)
@@ -82,18 +83,15 @@ slot0.didEnter = function(slot0)
 	slot3 = slot0._tf
 
 	slot4 = function()
-		slot0 = uv0.contextData.index
-		slot1 = uv0
-
 		slot2 = function()
-			slot1 = uv0.activity:getConfig("config_client")[2]
-			slot2 = math.floor(#slot1 / uv0.activity:getConfig("config_client")[1])
-			slot3 = slot2 * (uv0.contextData.index - 1) + 1
+			slot1 = uv0.activity:getConfig("config_client").stages
+			slot2 = math.floor(#slot1 / uv0.activity:GetLevelCount())
+			slot3 = slot2 * (uv1 - 1) + 1
 
 			uv0:emit(AirForceOfDragonEmperyMediator.ON_BATTLE, slot1[math.random(slot3, math.min(slot3 + slot2 - 1, #slot1))])
 		end
 
-		if slot1:GetFighterData(uv0.contextData.index) >= 3 then
+		if uv0.activity:GetPerLevelProgress() <= uv0:GetFighterData(uv0.contextData.index) then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("fighterplane_complete_tip"),
 				onYes = slot2,
@@ -231,8 +229,9 @@ slot0.SwitchIndex = function(slot0, slot1)
 
 	slot5, slot6 = slot0:GetFighterData(slot1)
 	slot7 = slot0.currentFighterDesc:Find("Progress")
+	slot8 = slot0.activity:GetPerLevelProgress()
 
-	UIItemList.StaticAlign(slot7, slot7:GetChild(0), 3, function (slot0, slot1, slot2)
+	UIItemList.StaticAlign(slot7, slot7:GetChild(0), slot8, function (slot0, slot1, slot2)
 		if not slot0 == UIItemList.EventUpdate then
 			return
 		end
@@ -242,9 +241,9 @@ slot0.SwitchIndex = function(slot0, slot1)
 		slot2:GetChild(0).localScale = Vector3(0, 1, 1)
 	end)
 	LeanTween.cancel(go(slot7))
-	LeanTween.value(go(slot7), 0, 1, 0.6000000000000001):setOnUpdate(System.Action_float(function (slot0)
+	LeanTween.value(go(slot7), 0, 1, slot8 * 0.2):setOnUpdate(System.Action_float(function (slot0)
 		for slot4 = 0, 2 do
-			uv0:GetChild(slot4):GetChild(0).localScale = Vector3(math.clamp(3 * slot0 - slot4, 0, 1), 1, 1)
+			uv0:GetChild(slot4):GetChild(0).localScale = Vector3(math.clamp(uv1 * slot0 - slot4, 0, 1), 1, 1)
 		end
 	end))
 	slot0.loader:GetSprite("ui/AirForceOfDragonEmperyUI_atlas", uv0[slot1] .. "_Text", slot0.currentFighterDesc:Find("Name"), true)
@@ -259,7 +258,7 @@ slot0.UpdateFighter = function(slot0, slot1)
 
 	slot5 = slot0.currentFighterDesc
 	slot6 = slot0.activity
-	slot6 = slot6:getConfig("config_client")[3][slot1]
+	slot6 = slot6:getConfig("config_client").awards[slot1]
 
 	updateDrop(slot5:Find("Item"), {
 		type = slot6[1],
@@ -273,14 +272,16 @@ slot0.UpdateFighter = function(slot0, slot1)
 end
 
 slot0.CheckActivityUpdate = function(slot0)
-	for slot5 = 1, slot0.activity:getConfig("config_client")[1] do
-		slot6, slot7 = slot0:GetFighterData(slot5)
+	slot1 = slot0.activity:GetPerLevelProgress()
 
-		if slot6 >= 3 and not slot7 then
+	for slot6 = 1, slot0.activity:GetLevelCount() do
+		slot7, slot8 = slot0:GetFighterData(slot6)
+
+		if slot1 <= slot7 and not slot8 then
 			slot0:emit(AirForceOfDragonEmperyMediator.ON_ACTIVITY_OPREATION, {
 				cmd = 2,
 				activity_id = slot0.activity.id,
-				arg1 = slot5
+				arg1 = slot6
 			})
 
 			return

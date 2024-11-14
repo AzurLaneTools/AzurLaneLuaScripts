@@ -32,6 +32,7 @@ slot0.WorldCollection = "world_collection_task"
 slot0.NewServerShop = "new_server_shop"
 slot0.CruiseSkin = "cruise_skin"
 slot0.CruiseGearSkin = "cruise_gearskin"
+slot0.BlackFridayShop = "black_friday_shop"
 slot0.ShopStreet = 1
 slot0.MilitaryShop = 2
 slot0.ShopActivity = 3

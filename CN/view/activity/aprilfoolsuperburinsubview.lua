@@ -17,10 +17,9 @@ slot0.OnInit = function(slot0)
 
 	onButton(slot0, slot0.bulin, function ()
 		pg.m02:sendNotification(GAME.PUZZLE_PIECE_OP, {
-			cmd = 2,
-			isPickUp = true,
 			actId = uv1.id,
 			id = uv0.pieceId,
+			cmd = PuzzleActivity.CMD_ACTIVATE,
 			callback = function ()
 				seriesAsync({
 					function (slot0)

@@ -5,7 +5,7 @@ slot0.__call = function(slot0)
 		return
 	end
 
-	ResourceMgr.Inst:ClearBundleRef(slot0.path, true, true)
+	AssetBundleHelper.UnstoreAssetBundle(slot0.path, true)
 
 	return slot0
 end

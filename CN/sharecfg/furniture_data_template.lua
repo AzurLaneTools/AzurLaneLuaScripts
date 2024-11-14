@@ -30,6 +30,7 @@ pg.furniture_data_template = setmetatable({
 			26,
 			27,
 			28,
+			30,
 			101,
 			102,
 			103,
@@ -187,6 +188,7 @@ pg.furniture_data_template = setmetatable({
 			288,
 			289,
 			290,
+			291,
 			100001,
 			100002,
 			100003,
@@ -5645,6 +5647,7 @@ pg.furniture_data_template = setmetatable({
 			26,
 			27,
 			28,
+			30,
 			102,
 			103,
 			104,
@@ -5742,6 +5745,7 @@ pg.furniture_data_template = setmetatable({
 			285,
 			288,
 			290,
+			291,
 			100001,
 			100002,
 			100003,
@@ -6774,6 +6778,7 @@ pg.furniture_data_template = setmetatable({
 			26,
 			27,
 			28,
+			30,
 			101,
 			102,
 			103,
@@ -6972,6 +6977,7 @@ pg.furniture_data_template = setmetatable({
 			238,
 			240,
 			242,
+			291,
 			100060,
 			200001,
 			200002,
@@ -9903,6 +9909,7 @@ pg.furniture_data_template = setmetatable({
 		26,
 		27,
 		28,
+		30,
 		101,
 		102,
 		103,
@@ -10062,6 +10069,7 @@ pg.furniture_data_template = setmetatable({
 		288,
 		289,
 		290,
+		291,
 		100001,
 		100002,
 		100003,
@@ -14075,6 +14083,43 @@ pg.base.furniture_data_template = {
 		size = {
 			1,
 			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[30] = {
+		can_rotate = 0,
+		describe = "特殊家具：战斗机歼-20的模型",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/J-20",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "模型：歼-20",
+		advice = 0,
+		icon = "J-20icon",
+		id = 30,
+		comfortable = 3,
+		size = {
+			2,
+			2
 		},
 		offset = {},
 		canputonGrid = {},
@@ -22295,7 +22340,7 @@ pg.base.furniture_data_template = {
 	},
 	[290] = {
 		can_rotate = 1,
-		describe = "",
+		describe = "坚持传统，不断创新。将拉面的美味带入港区！",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -22314,7 +22359,7 @@ pg.base.furniture_data_template = {
 		canputon = 0,
 		icon = "yifengtanglamianwanicon",
 		count = 1,
-		name = "一风堂联动拉面碗",
+		name = "一风堂港区联名拉面",
 		advice = 0,
 		id = 290,
 		tag = 6,
@@ -22357,6 +22402,86 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[291] = {
+		can_rotate = 0,
+		describe = "嘿咻嘿咻~只要努力转动这个把手，就可以抽出大奖哦！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "choujiangtuicheicon",
+		count = 1,
+		name = "欢乐彩珠抽奖车",
+		advice = 0,
+		id = 291,
+		tag = 6,
+		comfortable = 4,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"choujiangtuiche",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance1",
+						nil,
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				},
+				{
+					{
+						"dance1",
+						"dance2",
+						"dance3"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},

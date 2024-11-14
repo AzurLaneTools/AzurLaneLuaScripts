@@ -561,6 +561,80 @@ _G.pg.base.equip_data_statistics[26] = {
 }
 
 
+_G.pg.base.equip_data_statistics[27] = {
+	name = "J-20 普攻导弹",
+	speciality = "<[NORM]>",
+	type = 1,
+	tech = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	descrip = "中飞关卡武器",
+	damage = "1 x 1",
+	nationality = 5,
+	ammo = 5,
+	value_3 = 0,
+	id = 27,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		1
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		27
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		20,
+		21
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[28] = {
+	name = "J-20 手动导弹",
+	speciality = "<[NORM]>",
+	type = 1,
+	tech = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	descrip = "中飞关卡武器",
+	damage = "1 x 1",
+	nationality = 5,
+	ammo = 5,
+	value_3 = 0,
+	id = 28,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		1
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		28
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		20,
+		21
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {}
+}
+
+
 _G.pg.base.equip_data_statistics[98] = {
 	name = "可打断测试武器",
 	tech = 1,
