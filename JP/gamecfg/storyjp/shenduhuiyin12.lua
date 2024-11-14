@@ -8,7 +8,7 @@ return {
 	scripts = {
 		{
 			side = 2,
-			bgName = "star_level_bg_1104 ",
+			bgName = "star_level_bg_1104",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "echo-loop",
@@ -33,7 +33,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_1104 ",
+			bgName = "star_level_bg_1104",
 			dir = 1,
 			say = "ついさっきまで潜航艦の暗い船室の「ベッド」に横たわっていたにも関わらず、今はまるで空を飛んでいるように体の実感がない。",
 			typewriter = {
@@ -47,7 +47,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_1104 ",
+			bgName = "star_level_bg_1104",
 			dir = 1,
 			say = "作戦の打ち上げでついヴォッカを樽で飲んでしまい、そのままヨロヨロと冬の氷原に繰り出したときの感触に近い。",
 			typewriter = {
@@ -61,7 +61,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_1104 ",
+			bgName = "star_level_bg_1104",
 			dir = 1,
 			say = "気づけば、目の前には無数の「情報」――重なる画面はモザイクに、重なる声はノイズと化して、濁流のように流れてくる。",
 			typewriter = {
@@ -89,7 +89,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_1104 ",
+			bgName = "star_level_bg_1104",
 			dir = 1,
 			say = "濁流に飲み込まれぬよう必死に意識を保ち続け、クロンシュタットの両足は再び「地面」に戻った。",
 			typewriter = {

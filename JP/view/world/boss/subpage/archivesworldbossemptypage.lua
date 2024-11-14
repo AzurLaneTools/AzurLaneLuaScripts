@@ -57,10 +57,10 @@ slot0.OnUpdate = function(slot0)
 	end
 
 	if slot2 then
-		slot3 = slot0.noItem:GetComponent(typeof(Image))
-		slot3.sprite = GetSpriteFromAtlas("ui/WorldBossUI_atlas", slot2)
-
-		slot3:SetNativeSize()
+		GetSpriteFromAtlasAsync("ui/WorldBossUI_atlas", slot2, function (slot0)
+			uv0.sprite = slot0
+		end)
+		slot0.noItem:GetComponent(typeof(Image)):SetNativeSize()
 	end
 
 	if WorldBossConst.GetAchieveState() == WorldBossConst.ACHIEVE_STATE_STARTING then

@@ -1,4 +1,8 @@
 slot0 = class("PuzzleActivity", import("model.vo.Activity"))
+slot0.CMD_COMPLETE = 1
+slot0.CMD_ACTIVATE = 2
+slot0.CMD_UNLCOK_TIP = 3
+slot0.CMD_EARN_EXTRA = 4
 
 slot0.GetPicturePuzzleIds = function(slot0)
 	slot1 = slot0.id

@@ -573,14 +573,13 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actorName = "？？？",
 			side = 2,
 			bgName = "star_level_bg_170",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			oldPhoto = true,
+			dir = 1,
 			actor = 900407,
-			actorName = "？？？",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "それもそうですが、チャーター機まで持ち出したアンジュのほうもとんでもないですね",
 			painting = {
@@ -729,10 +728,9 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_170",
-			nameColor = "#A9F548FF",
 			oldPhoto = true,
 			actor = 900407,
 			actorName = "？？？",
@@ -823,14 +821,13 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actorName = "？？",
 			side = 2,
 			bgName = "star_level_bg_170",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			oldPhoto = true,
+			dir = 1,
 			actor = 900332,
-			actorName = "？？",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ああああ……！",
 			painting = {
@@ -863,14 +860,13 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actorName = "？？",
 			side = 2,
 			bgName = "star_level_bg_170",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			oldPhoto = true,
+			dir = 1,
 			actor = 900332,
-			actorName = "？？",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "あ、あのね！ぱっと思いついただけだから本気にするなって言ったじゃない！",
 			painting = {
@@ -883,14 +879,13 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actorName = "？？",
 			side = 2,
 			bgName = "star_level_bg_170",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			oldPhoto = true,
+			dir = 1,
 			actor = 900332,
-			actorName = "？？",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "なんでそんなことをわざわざ覚えてるわけ？",
 			painting = {
@@ -903,14 +898,13 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actorName = "？？",
 			side = 2,
 			bgName = "star_level_bg_170",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			oldPhoto = true,
+			dir = 1,
 			actor = 900332,
-			actorName = "？？",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "はいはい。話題を逸してごめんなさい。改めまして本題の――ソビエツキー・ソユーズに戻りましょう",
 			painting = {
@@ -923,14 +917,13 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actorName = "？？",
 			side = 2,
 			bgName = "star_level_bg_170",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			oldPhoto = true,
+			dir = 1,
 			actor = 900332,
-			actorName = "？？",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "「名前」は存在しても、最終的に竣工しなかったフネについて――",
 			painting = {

@@ -12,7 +12,11 @@ slot0.register = function(slot0)
 	slot0:bind(uv0.ON_ACTIVITY_OPREATION, function (slot0, slot1)
 		uv0:sendNotification(GAME.ACTIVITY_OPERATION, slot1)
 	end)
-	slot0.viewComponent:SetActivityData(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_AIRFIGHT_BATTLE))
+
+	slot2 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_AIRFIGHT_BATTLE)
+
+	slot2:RecordTip()
+	slot0.viewComponent:SetActivityData(slot2)
 end
 
 slot0.listNotificationInterests = function(slot0)

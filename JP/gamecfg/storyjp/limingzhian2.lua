@@ -616,12 +616,11 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 702010,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			dir = 1,
-			actor = 702010,
 			nameColor = "#a9f548",
+			dir = 1,
 			say = "ここに長くいてはいけません。フネの設備…ううん、フネを保護しなければなりませんわ！",
 			typewriter = {
 				speed = 0.05,

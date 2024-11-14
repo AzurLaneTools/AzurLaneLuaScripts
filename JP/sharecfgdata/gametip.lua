@@ -12738,7 +12738,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「ローマ」「レオナルド・ダ・ヴィンチ」など出現率アップ！"
+	tip = "期間限定建造を累計200回行うと「武蔵」を確定で入手可能！（最大4隻まで）"
 }
 
 
@@ -36386,4 +36386,59 @@ _G.pg.base.gametip.juuschat_background_tip1 = {
 
 _G.pg.base.gametip.juuschat_background_tip2 = {
 	tip = "着せ替え未所持"
+}
+
+
+_G.pg.base.gametip.airforce_title_1 = {
+	tip = "航电系统"
+}
+
+
+_G.pg.base.gametip.airforce_title_2 = {
+	tip = "相控阵雷达"
+}
+
+
+_G.pg.base.gametip.airforce_title_3 = {
+	tip = "涡轮发动机"
+}
+
+
+_G.pg.base.gametip.airforce_title_4 = {
+	tip = "无附面层隔板进气道"
+}
+
+
+_G.pg.base.gametip.airforce_title_5 = {
+	tip = "吸波隐身涂层"
+}
+
+
+_G.pg.base.gametip.airforce_desc_1 = {
+	tip = "航电系统是现代作战飞机中最为关键的系统之一，它涵盖了探测系统、火力控制系统、飞行控制系统、推力控制系统、电子战系统、通信系统、导航系统、座舱显示系统、自检系统等。"
+}
+
+
+_G.pg.base.gametip.airforce_desc_2 = {
+	tip = "歼-20战斗机搭载的相控阵雷达系统代表了当今航空电子技术的顶尖水平，采用了氮化镓有源相控阵雷达技术，有探测距离远、散热性能优越、多功能性强等诸多优点。"
+}
+
+
+_G.pg.base.gametip.airforce_desc_3 = {
+	tip = "涡扇15“峨眉” 涡扇发动机，是为我国第五代战斗机研制的小涵道比推力矢量涡扇发动机"
+}
+
+
+_G.pg.base.gametip.airforce_desc_4 = {
+	tip = "无附面层隔板进气道，全称无附面层隔道超音速进气道，它采用一个固定的鼓包来模拟常规进气道中的一、二级可调斜板，并能够达到对气流的压缩，以及简化结构、隐形的目的。"
+}
+
+
+_G.pg.base.gametip.airforce_desc_5 = {
+	tip = "歼-20机身表面使用了一种低观测反射的涂料材质，表面采用了类似微型山峰的设计，能够反弹并散射掉雷达信号，使得敌方雷达难以发现并锁定目标。"
+}
+
+
+_G.pg.base.gametip.drom3d_memory_limit_tip = {
+	tip = "端末メモリは推奨スペックを下回っているため、ゲームがクラッシュする可能性があります"
 }

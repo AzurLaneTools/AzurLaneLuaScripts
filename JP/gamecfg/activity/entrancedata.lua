@@ -257,19 +257,12 @@ return {
 			SCENE.AIRFORCE_DRAGONEMPERY
 		},
 		isShow = function ()
+			return false
 			return getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_AIRFIGHT_BATTLE) and not slot0:isEnd()
 		end,
 		isTip = function ()
 			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_AIRFIGHT_BATTLE) and not slot0.isEnd(slot0) then
-				slot1 = 0
-
-				for slot6 = 1, slot0.getConfig(slot0, "config_client")[1] do
-					slot1 = slot1 + (slot0:getKVPList(1, slot6) or 0)
-				end
-
-				slot3 = pg.TimeMgr.GetInstance()
-
-				return slot1 < math.min((slot3:DiffDay(slot0.data1, slot3:GetServerTime()) + 1) * 2, slot2 * 3)
+				return slot0.readyToAchieve(slot0)
 			end
 		end
 	},

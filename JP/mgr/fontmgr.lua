@@ -27,7 +27,7 @@ slot0.FontMgr.Init = function(slot0, slot1)
 		bankgthd = "bankgthd"
 	}) do
 		table.insert(slot2, function (slot0)
-			AssetBundleHelper.loadAssetBundleAsync("font/" .. uv0, function (slot0)
+			AssetBundleHelper.StoreAssetBundle("font/" .. uv0, true, false, function (slot0)
 				uv0()
 			end)
 		end)

@@ -119739,6 +119739,1409 @@ _G.pg.base.task_data_template[20734] = {
 }
 
 
+_G.pg.base.task_data_template[20750] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904221,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『武藏复刻』-日常建造",
+	desc = "3回建造する",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20750,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65041,
+			300
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20751] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904222,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『武藏复刻』-日常出击",
+	desc = "艦隊を出撃させ、15回勝利せよ！",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20751,
+	target_num = 15,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65041,
+			300
+		},
+		{
+			2,
+			65044,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20752] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904223,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『武藏复刻』-日常困难本",
+	desc = "任意のハードステージを1回クリアせよ",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20752,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65041,
+			150
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20753] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904224,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『武藏复刻』-日常活动关卡",
+	desc = "任意のイベントステージを1回クリア",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20753,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1680001,
+		1680002,
+		1680003,
+		1680004,
+		1680005,
+		1680006,
+		1680021,
+		1680022,
+		1680023,
+		1680024,
+		1680025,
+		1680026,
+		1680041,
+		1680051
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65041,
+			300
+		},
+		{
+			2,
+			54006,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5642
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20754] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904225,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『武藏复刻』通关A1/C1",
+	desc = "A1かC1を1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20754,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1680001,
+		1680021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			65044,
+			1
+		},
+		{
+			2,
+			65041,
+			200
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5641
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20755] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904226,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『武藏复刻』通关A2/C2",
+	desc = "A2かC2を1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20755,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1680002,
+		1680022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			65044,
+			1
+		},
+		{
+			2,
+			65041,
+			400
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5641
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20756] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904227,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『武藏复刻』通关A3/C3",
+	desc = "A3かC3を1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20756,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1680003,
+		1680023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			65044,
+			2
+		},
+		{
+			2,
+			65041,
+			600
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5641
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20757] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904228,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『武藏复刻』通关B1/D1",
+	desc = "B1かD1を1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20757,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1680004,
+		1680024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			65044,
+			1
+		},
+		{
+			2,
+			65041,
+			400
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5642
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20758] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904229,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『武藏复刻』通关B2/D2",
+	desc = "B2かD2を1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20758,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1680005,
+		1680025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			65044,
+			1
+		},
+		{
+			2,
+			65041,
+			600
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5642
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20759] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904230,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『武藏复刻』通关B3/D3",
+	desc = "B3かD3を1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20759,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1680006,
+		1680026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			65044,
+			2
+		},
+		{
+			2,
+			65041,
+			800
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5642
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20760] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904231,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『武藏复刻』通关SP",
+	desc = "イベントステージSPをクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20760,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1680041",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			65044,
+			3
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1680025,
+			chapterId = 1680041
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20761] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904232,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『武藏复刻』通关D3",
+	desc = "D3クリア(2個目は取得できません)",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20761,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1680026",
+	open_need = {},
+	award_display = {
+		{
+			5,
+			234,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1680012,
+			chapterId = 1680026
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20762] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904233,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『武藏复刻』通关EX",
+	desc = "EXステージをクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20762,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1680051",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1680026,
+			chapterId = 1680051
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20763] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904234,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『武藏复刻』A1/C1的3星",
+	desc = "A1かC1の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20764",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20763,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1680001,
+		1680021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5641
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20764] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904235,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『武藏复刻』A2/C2的3星",
+	desc = "A2かC2の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20765",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20764,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1680002,
+		1680022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5641
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20765] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904236,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『武藏复刻』A3/C3的3星",
+	desc = "A3かC3の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20766",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20765,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1680003,
+		1680023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5641
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20766] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904237,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『武藏复刻』B1/D1的3星",
+	desc = "B1かD1の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20767",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20766,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1680004,
+		1680024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5642
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20767] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904238,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『武藏复刻』B2/D2的3星",
+	desc = "B2かD2の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20768",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20767,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1680005,
+		1680025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5642
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20768] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904239,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『武藏复刻』B3/D3的3星",
+	desc = "B3かD3の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20768,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1680006,
+		1680026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5642
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20769] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904240,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『武藏复刻』外观装备箱保底",
+	desc = "装備外装箱（学園祭）を20個開ける",
+	sub_type = 52,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20769,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "30338",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30510,
+			1
+		}
+	},
+	scene = {
+		"SHOP",
+		{
+			warp = "shopstreet"
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20770] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904241,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『武藏复刻』登录送皮肤体验券活动",
+	desc = "ゲームにログインせよ！",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20770,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			438,
+			3
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20771] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904273,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『武藏复刻』前哨站剧情活动任务1",
+	desc = "艦隊を出撃させ、10回S評価で勝利せよ！",
+	sub_type = 24,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20771,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20772] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904274,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『武藏复刻』前哨站剧情活动任务2",
+	desc = "演習を2回行う",
+	sub_type = 27,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20772,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20773] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904275,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『武藏复刻』前哨站剧情活动任务3",
+	desc = "「デイリーチャレンジ」を三回行う ",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20773,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20774] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904276,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『武藏复刻』前哨站剧情活动任务4",
+	desc = "戦術教室で戦術訓練を2回行う",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20774,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20775] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904277,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『武藏复刻』前哨站剧情活动任务5",
+	desc = "艦を2隻「建造」せよ！",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20775,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20776] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904278,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『武藏复刻』前哨站剧情活动任务6",
+	desc = "任意の敵艦を20隻撃破する",
+	sub_type = 11,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20776,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20777] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904279,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『武藏复刻』前哨站剧情活动任务7",
+	desc = "艦隊を出撃させ、敵中枢艦隊を3回撃破せよ！",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20777,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			3,
+			3620,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
 _G.pg.base.task_data_template[30201] = {
 	target_id_2 = "",
 	guild_coin_award = 0,

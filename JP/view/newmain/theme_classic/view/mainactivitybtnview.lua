@@ -29,7 +29,8 @@ slot0.InitBtns = function(slot0)
 		MainActBossSingleBtn.New(slot0.actBtnTpl, slot0.event),
 		MainActLayerBtn.New(slot0.actBtnTpl, slot0.event),
 		MainActDreamlandBtn.New(slot0.actBtnTpl, slot0.event),
-		MainActBoatAdBtn.New(slot0.actBtnTpl, slot0.event)
+		MainActBoatAdBtn.New(slot0.actBtnTpl, slot0.event),
+		MainActBlackFridaySalesBtn.New(slot0.actBtnTpl, slot0.event)
 	}
 	slot0.specailBtns = {
 		MainActInsBtn.New(slot0._tf, slot0.event),
