@@ -16915,25 +16915,25 @@ pg.activity_template = {
 		config_client = {
 			story = {
 				{
-					"SADINGDEYAOYUE1"
+					"JINGHAIJINGLEI1"
 				},
 				{
-					"SADINGDEYAOYUE2"
+					"JINGHAIJINGLEI2"
 				},
 				{
-					"SADINGDEYAOYUE3"
+					"JINGHAIJINGLEI3"
 				},
 				{
-					"SADINGDEYAOYUE4"
+					"JINGHAIJINGLEI4"
 				},
 				{
-					"SADINGDEYAOYUE5"
+					"JINGHAIJINGLEI5"
 				},
 				{
-					"SADINGDEYAOYUE6"
+					"JINGHAIJINGLEI6"
 				},
 				{
-					"SADINGDEYAOYUE7"
+					"JINGHAIJINGLEI7"
 				}
 			}
 		}

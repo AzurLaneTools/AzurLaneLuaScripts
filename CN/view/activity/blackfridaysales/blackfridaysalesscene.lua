@@ -180,6 +180,7 @@ slot0.updatePages = function(slot0)
 
 			slot0.blackFridaySalesGiftPage:Reset()
 			slot0.blackFridaySalesGiftPage:Load()
+			slot0.blackFridaySalesGiftPage:initData()
 		end
 
 		setActive(slot0:findTF("tip", slot0.toggles[uv0.GIFT_PAGE]), slot0.blackFridaySalesGiftPage:isTip())

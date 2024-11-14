@@ -258,15 +258,41 @@ slot0.updateGiftGoodsVOList = function(slot0, slot1)
 		end
 	end
 
+	slot3 = pg.TimeMgr.GetInstance()
+
+	table.sort(slot2, function (slot0, slot1)
+		slot4 = slot0:isChargeType() and 1 or 0
+		slot5 = slot1:isChargeType() and 1 or 0
+
+		if (uv0:inTime(slot0:getConfig("time")) and 1 or 0) == (uv0:inTime(slot1:getConfig("time")) and 1 or 0) then
+			if slot4 == slot5 then
+				return slot0.id < slot1.id
+			else
+				return slot4 < slot5
+			end
+		else
+			return slot3 < slot2
+		end
+	end)
+
 	slot0.giftGoodsVOList = slot2
 end
 
 slot0.isTip = function(slot0)
-	if not slot0.playerId then
-		slot0.playerId = getProxy(PlayerProxy):getData().id
+	slot1 = false
+	slot0.normalList = getProxy(ShopsProxy):GetNormalList()
+
+	for slot6, slot7 in ipairs(Clone(slot0.giftList[1])) do
+		if not slot7:isChargeType() then
+			slot7:updateBuyCount(ChargeConst.getBuyCount(slot0.chargedList, slot7.id))
+
+			if slot7:canPurchase() then
+				slot1 = true
+			end
+		end
 	end
 
-	return PlayerPrefs.GetInt("newserver_gift_first_" .. slot0.playerId) == 0
+	return slot1
 end
 
 slot0.OnDestroy = function(slot0)

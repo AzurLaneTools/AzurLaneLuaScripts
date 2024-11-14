@@ -37,6 +37,8 @@ slot0.initUI = function(slot0)
 	slot0.extendTpl = slot0:findTF("extend_tpl")
 	slot0.content = slot0:findTF("view/content")
 	slot0.taskGroupItemList = UIItemList.New(slot0.content, slot0:findTF("tpl", slot0.content))
+
+	setActive(slot0.getAllBtn, false)
 end
 
 slot0.addListener = function(slot0)
