@@ -420,7 +420,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 329,
 		time_limit_type = 0,
-		desc = "透過後續活動獲得",
+		desc = "<color=#ffffff>「跨越冰山，穿越雪原，定義自我，見證未來。」</color>\n「雪境迷蹤」活動獲取",
 		scene = {}
 	},
 	[401] = {
@@ -591,7 +591,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 10006,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>結晶之中閃爍著天蠍座的光芒，獻給勇於挑戰極限的指揮官！</color>\n透過參與「限界挑戰」取得 （24.11.01-24.11.30）",
+		desc = "<color=#ffffff>結晶之中閃爍著天秤座的光芒，獻給勇於挑戰極限的指揮官！</color>\n透過參與「限界挑戰」取得 （24.11.01-24.11.30）",
 		scene = {}
 	},
 	[1001] = {

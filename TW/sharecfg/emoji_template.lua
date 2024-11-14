@@ -416,7 +416,33 @@ pg.emoji_template = {
 			1
 		}
 	},
-	[35] = {
+	{
+		achieve = 1,
+		index = 73,
+		pic = "33",
+		desc = "<color=#92fc63>[驚了]</color>",
+		item_name = "聊天表情：驚了",
+		item_desc = "聊天表情：驚了，可以在表情選項的「預設」標籤中找到並發出此表情。",
+		id = 33,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	{
+		achieve = 1,
+		index = 74,
+		pic = "34",
+		desc = "<color=#92fc63>[快住手]</color>",
+		item_name = "聊天表情：快住手",
+		item_desc = "聊天表情：快住手，可以在表情選項的「預設」標籤中找到並發出此表情。",
+		id = 34,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	{
 		achieve = 1,
 		index = 75,
 		pic = "35",
@@ -429,7 +455,7 @@ pg.emoji_template = {
 			1
 		}
 	},
-	[36] = {
+	{
 		achieve = 1,
 		index = 76,
 		pic = "36",
@@ -2217,6 +2243,8 @@ pg.emoji_template = {
 		30,
 		31,
 		32,
+		33,
+		34,
 		35,
 		36,
 		41,

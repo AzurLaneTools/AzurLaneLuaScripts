@@ -9,7 +9,7 @@ return {
 			bgm = "theme-antarctica",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很快，水星纪念将一打饮品带到了众人等候的桌前。",
+			say = "很快，水星紀念將一打飲品帶到了眾人等候的桌前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			actor = 701110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谢谢~",
+			say = "謝謝~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呃……为什么是果汁？",
+			say = "呃……為什麼是果汁？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然啦，现在喝醉的话会很不妙吧？",
+			say = "當然啦，現在喝醉的話會很不妙吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			actor = 705080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，我们已经暴露了位置，正是需要提高警惕的时候。做得好，水星纪念。",
+			say = "沒錯，我們已經暴露了位置，正是需要提高警覺的時候。做得好，水星紀念。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿~那之前凶猛的问题，到底是怎么回事呢？就请{namecode:530:同盟}给大家讲一讲吧~",
+			say = "嘿嘿~那之前兇猛的問題，到底是怎麼回事？就請同盟跟大家講一下~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……关于这个问题，要分成几个阶段来进行描述。",
+			say = "嗯……關於這個問題，要分成幾個階段來進行描述。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "{namecode:529:苏维埃同盟}抿了一口杯中的果汁，思绪似乎飘向了远方。",
+			say = "蘇維埃聯盟抿了一口杯中的果汁，思緒似乎飄向了遠方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在很多年前，碧蓝航线还没有分裂的时候，各阵营曾经针对安塔迪卡的归属问题进行过一场讨论。",
+			say = "在很多年前，碧藍航線還沒有分裂的時候，各陣營曾經針對南極的歸屬問題進行過一場討論。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "经过旷日持久的会议，各阵营终于达成了一致，并一同缔结了《安塔迪卡条约》，并于次年生效。",
+			say = "經過曠日持久的會議，各陣營終於達成了一致，並一同締結了《南極條約》，並於次年生效。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在条约生效后，一切针对安塔迪卡领土的主权声明与要求随即被冻结。",
+			say = "在條約生效後，一切針對南極領土的主權聲明與要求隨即被凍結。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -208,7 +208,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "同时，条约规定，安塔迪卡战区不归属于任何一个司令部，而是由碧蓝航线指挥部直接负责。",
+			say = "同時，條約規定，南極戰區不歸屬於任何一個司令部，而是由碧藍航線指揮部直接負責。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "各阵营仅可以在得到指挥部的许可后，在安塔迪卡部署科学研究用的科考站，或者针对塞壬战争用的必要军事基地。",
+			say = "各陣營僅可在得到指揮部的許可後，在南極部署科學研究用的科考站，或是針對塞壬戰爭用的必要軍事基地。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "根据条约中的条款，安塔迪卡战区相比由各战区司令部管辖的八大战区拥有超然地位。",
+			say = "根據條約中的條款，南極戰區相比由各戰區司令部管轄的八大戰區擁有超然地位。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——当然，在赤色中轴分裂后，战区司令部在增减调整后已经变成七个了。",
+			say = "——當然，在赤色中軸分裂後，戰區司令部在增減調整後已經變成七個了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在这片区域内，碧蓝航线指挥部在任何情况下，都拥有高于各阵营政府与各战区司令部的指挥权。",
+			say = "在這區域內，碧藍航線指揮部在任何情況下，都擁有高於各陣營政府與各戰區司令部的指揮權。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -296,7 +296,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可以自由调动安塔迪卡战区内的一切军事力量，干涉战区内的一切军事行动。",
+			say = "可以自由調動南極戰區內的一切軍事力量，干涉戰區內的一切軍事行動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在任何情况下……不管是否是针对塞壬的战争？",
+			say = "在任何情況下……不管是否是針對塞壬的戰爭？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错。",
+			say = "沒錯。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -349,7 +349,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也就是说……指挥官同志如果来到安塔迪卡的话，拥有的权力就是无限的……？",
+			say = "也就是說……指揮官同志如果來到南極的話，擁有的權力就是無限的……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -367,7 +367,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说是无限权力也夸张了些，不过安塔迪卡战区确实和其它战区的情况有所不同。",
+			say = "說是無限權力也誇張了點，不過南極戰區確實和其他戰區的情況有所不同。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官要是来的话，也确实能在这里获得更大的自主权。",
+			say = "指揮官要是來的話，也確實能在這裡獲得更大的自主權。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但具体能做到哪一步，就不好说了。",
+			say = "但具體能做到哪一步，就不好說了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -420,7 +420,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "毕竟在安塔迪卡战区，别说大型战役，这里连一次大规模冲突都没发生过。",
+			say = "畢竟在南極戰區，別說大型戰役，這裡連一次大規模衝突都沒發生過。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以其本身更像是各阵营博弈之后形成的妥协产物吧。",
+			say = "所以其本身更像是各陣營博弈之後形成的妥協產物吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -455,7 +455,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当初在塞壬的进攻下，各国的近海防线都岌岌可危，一片荒芜的安塔迪卡大陆在战略上的重要程度本就为零。",
+			say = "當初在塞壬的進攻下，各國的近海防線都岌岌可危，一片荒蕪的南極大陸在戰略上的重要性本就為零。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再加上这一条规定，各阵营自然就顺理成章将安塔迪卡的问题束之高阁了。",
+			say = "再加上這條規定，各陣營自然就順理成章將南極的問題束之高閣了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……不过，这一切在碧蓝航线分裂后发生了改变。",
+			say = "……不過，這一切在碧藍航線分裂後改變了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -509,7 +509,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "由于安塔迪卡条约对于加入赤色中轴的阵营不再具有约束力，铁血率先打响了控制安塔迪卡大陆的第一枪。",
+			say = "由於南極條約對於加入赤色中軸的陣營不再具有約束力，鐵血率先打響了控制南極大陸的第一槍。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -526,7 +526,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其依靠当时在外界看来“突飞猛进”的科技实力，最先在这片大陆上修建了一处军事要塞。",
+			say = "其依靠當時在外界看來「突飛猛進」的科技實力，最早在這片大陸上建造了一處軍事要塞。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "鉴于这种情况，在指挥部的批准下，白鹰也紧随其后在安塔迪卡大陆修建了军事要塞并派遣了常驻舰队。",
+			say = "鑑於這種情況，在指揮部的批准下，白鷹也緊跟著在南極大陸建造了軍事要塞並派遣了常駐艦隊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -562,7 +562,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们、皇家与鸢尾其实也有过相似的计划……不过，在实际落地之前，我们与赤色中轴的全面战争爆发了。",
+			say = "我們、皇家與鳶尾其實也有過相似的計劃……不過，在實際落地之前，我們與赤色中軸的全面戰爭爆發了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -580,7 +580,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "紧接着，鸢尾战败分裂，从此彻底与安塔迪卡无缘。",
+			say = "緊接著，鳶尾戰敗分裂，從此徹底與南極無緣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -597,7 +597,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "皇家则收缩力量，放弃了在安塔迪卡维持军事要塞的想法，将舰队撤回了悉尼司令部。",
+			say = "皇家則收縮力量，放棄了在南極維持軍事要塞的想法，將艦隊撤回了雪梨司令部。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -615,7 +615,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们也放弃了将科考站升级成要塞的计划，将视线聚焦回了咫尺之遥的极地。",
+			say = "我們也放棄了將科考站升級成要塞的計劃，將視線聚焦回了咫尺之遙的極地。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -633,7 +633,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再之后，铁血和白鹰之间倒是真在安塔迪卡发生过几场零星战斗，但是也就仅此而已了。",
+			say = "再之後，鐵血和白鷹之間倒是真在南極發生過幾場零星戰鬥，但是也就僅此而已了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -651,7 +651,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "毕竟在这一时期，这片大陆上的事，实在是不那么重要。",
+			say = "畢竟在這一時期，這片大陸上的事，實在是不那麼重要。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -668,7 +668,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然后时间到了现在，安塔迪卡的问题也来到了第三个阶段。",
+			say = "然後時間到了現在，南極的問題也來到了第三階段。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -686,7 +686,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们都知道，碧蓝航线已经与赤色中轴达成了全面停火协议。",
+			say = "妳們都知道，碧藍航線已經與赤色中軸達成了全面停火協議。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -704,7 +704,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "双方代表正在鸢尾首都的会议室中对于「联盟合并」进行着协商。",
+			say = "雙方代表正在鳶尾首都的會議室中對於「聯盟合併」進行協商。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -721,7 +721,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在「联盟合并」的条款中有一条，就是赤色中轴的各阵营需要重新加入碧蓝航线分裂前曾签署并生效至今的所有条约与协定。",
+			say = "在「聯盟合併」的條款中有一條，就是赤色中軸中的各陣營需要重新加入碧藍航線分裂那些共同簽署且生效至今的一切條約與協定。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -739,7 +739,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其中自然也包含《安塔迪卡条约》。",
+			say = "其中自然也包含《南極條約》。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -757,7 +757,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "且不论这场「联盟合并」的最终结果如何，至少在各方还有意愿进行谈判的当下，安塔迪卡的格局是不会有任何变化的。",
+			say = "且不論這場「聯盟合併」的最終結果如何，至少在各方還有意願進行談判的當下，南極的格局是不會有任何變化的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -774,7 +774,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也就是，目前在安塔迪卡拥有科考站的只有白鹰、皇家、北方联合、铁血四家。",
+			say = "也就是，目前在南極擁有科考站的只有白鷹、皇家、北方聯合、鐵血四家。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -792,7 +792,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其中有军事要塞级别建设的，只有白鹰和铁血两家。",
+			say = "其中有軍事要塞等級建設的，只有白鷹和鐵血兩家。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -810,7 +810,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "顺带一提，我们的科考站是基于与铁血的合作协定，才得以如此迅速地建设完毕哦~",
+			say = "順帶一提，我們的科考站是基於與鐵血的合作協定，才得以如此迅速地建設完畢哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -828,7 +828,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……什么，竟然是通过与铁血的合作？！",
+			say = "……什麼，竟然是透過與鐵血的合作？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -856,7 +856,7 @@ return {
 			actor = 705080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这件事连我都不太清楚……",
+			say = "這件事連我都不太清楚……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -874,7 +874,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "水星纪念说的没错，我们的科考站确实是和铁血合作的产物。",
+			say = "水星紀念說的沒錯，我們的科考站確實是和鐵血合作的產物。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -891,7 +891,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这件事知道的人很少，不过也算不上什么机密。",
+			say = "這件事知道的人很少，不過也不算什麼機密。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -909,7 +909,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当时，我们和铁血都已经知晓了塞壬剧本的存在。",
+			say = "當時，我們和鐵血都已經知道了塞壬劇本的存在。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -927,7 +927,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:441:腓特烈}与我的志向相同，我们决定打破这一由塞壬构建的世界格局，一系列合作也是在那时候定下来的。",
+			say = "腓特烈與我的志向相同，我們決定打破這塞壬構造的世界格局，一系列合作也是在那時候定下來的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -945,7 +945,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其中就包括在安塔迪卡建设我们自己的科考站。",
+			say = "其中就包括在南極建造我們自己的科考站。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -963,7 +963,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "与塞壬的战争总会迎来尽头。",
+			say = "與塞壬的戰爭總會迎來盡頭。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -981,7 +981,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而这个世界对我们来说还有太多的未知。",
+			say = "而這個世界對我們來說還有太多的未知。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -999,7 +999,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "未来还有太多的可能性在等待着我们探索。",
+			say = "未來還有太多的可能性等著我們去探索。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1016,7 +1016,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果我们将文明与社会彻底打造为一台轰鸣的战车。",
+			say = "如果我們將文明與社會徹底打造為一輛轟鳴的戰車。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1034,7 +1034,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那在战争结束之后，这台战车又将开向何方呢？",
+			say = "那在戰爭結束之後，這台戰車又將開向何方？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1052,7 +1052,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这也是各阵营即便在战争期间，依旧维持着科考站运作的原因。",
+			say = "這也是各陣營即便在戰爭期間，仍維持著科考站運作的原因。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1070,7 +1070,7 @@ return {
 			actor = 705080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来如此……确实是一个很有智慧的选择。",
+			say = "原來如此……確實是個很有智慧的選擇。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1088,7 +1088,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我算是听明白了！",
+			say = "我算是聽明白了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1106,7 +1106,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也就是说因为安塔迪卡大陆没什么人，所以没有引来塞壬的袭击。",
+			say = "也就是說因為南極大陸沒什麼人，所以沒有引來塞壬的攻擊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1123,7 +1123,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而因为没有塞壬的袭击，所以也就越来越没人关注。",
+			say = "而因為沒有塞壬的襲擊，所以也越來越沒人注意。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1141,7 +1141,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等到终于有人想关注的时候，当时的条件又不允许。",
+			say = "等到終於有人想注意的時候，當時的條件又不允許。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1158,7 +1158,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等到条件终于允许了，局势又不允许了……",
+			say = "等到條件終於允許了，局勢又不允許了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1176,7 +1176,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，总结的很到位~",
+			say = "沒錯，總結的很到位~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1212,7 +1212,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过安塔迪卡大陆虽说没什么人，不过倒是有不少可爱的小动物哦~",
+			say = "不過南極大陸雖說沒什麼人，不過倒是有不少可愛的小動物哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1229,7 +1229,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在换我来当老师了~让我来考考你们，你们知道有什么可爱的小动物生活在南极么？",
+			say = "現在換我來當老師了~讓我來考考妳們，妳們知道有什麼可愛的小動物生活在南極嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1247,7 +1247,7 @@ return {
 			actor = 701110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这个我知道，有企鹅！",
+			say = "這個我知道，有企鵝！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1275,7 +1275,7 @@ return {
 			actor = 701110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "企鹅胖嘟嘟圆滚滚，实在是太可爱了~",
+			say = "企鵝嘟嘟圓滾滾，實在是太可愛了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1292,7 +1292,7 @@ return {
 			actor = 701110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一会儿我们上岸之后，能够见到企鹅么？",
+			say = "等一下我們上岸之後，能夠見到企鵝嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1310,7 +1310,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可以，我们的科考站距离一处企鹅栖息地并不远。",
+			say = "可以，我們的科考站距離一處企鵝棲息地並不遠。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1327,7 +1327,7 @@ return {
 			actor = 701110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "太好了~嘿嘿……嗯？凶猛，你在想什么呢？怎么笑得那么恐怖……",
+			say = "太好了~嘿嘿……嗯？兇猛，妳在想什麼呢？怎麼表情笑的那麼恐怖……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1345,7 +1345,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我在想……企鹅圆滚滚的、富含脂肪，用来做烧烤说不定会很好吃……",
+			say = "我在想……企鵝圓滾滾的、富含脂肪，用來做燒烤說不定會很好吃……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1363,7 +1363,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而且还会下蛋，用来做肉蛋卷似乎也不错……",
+			say = "而且還會下蛋，用來做肉蛋捲似乎也不錯……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1381,7 +1381,7 @@ return {
 			actor = 701110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……咦？企鹅明明那么可爱……太、太残忍了吧！",
+			say = "……咦？企鵝明明那麼可愛……太、太殘忍了吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1409,7 +1409,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么可爱……一定很好吃……嘿嘿。",
+			say = "那麼可愛……一定很好吃……嘿嘿。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1427,7 +1427,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "停——停止你危险的想法！",
+			say = "停——停止妳危險的想法！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1455,7 +1455,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很遗憾，《安塔迪卡条约》里有明确的规定，安塔迪卡大陆上的所有动物，不论是地上走的还是天上飞的都受到保护。",
+			say = "很遺憾，《南極條約》裡有明確的規定，南極大陸上的所有動物，不論是地上走的還是天上飛的都受到保護。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1473,7 +1473,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不能随便吃哦！绝对不可以哦！",
+			say = "不能隨便吃哦！絕對不行哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1491,7 +1491,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸——好可惜，还想来一场愉快的狩猎呢……",
+			say = "欸——好可惜，還想來一場愉快的狩獵呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1527,7 +1527,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，我们此行携带的补给非常充足，不但足够我们使用，还能为科考站提供一次补给。",
+			say = "呵呵，我們此行攜帶的補給非常充足，不但足夠我們使用，還能為科考站提供一次補給。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1545,7 +1545,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不会饿着你的，还是放过可爱的企鹅吧。",
+			say = "不會餓到妳的，還是放過可愛的企鵝吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1563,7 +1563,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也不是担心食物不够的问题啦……",
+			say = "也不是擔心食物不夠的問題……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1598,7 +1598,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你是感觉难得来到了万里之外的安塔迪卡，却没吃上什么特色食物有些失落对吧！",
+			say = "你是覺得難得來到了萬里之外的南極，卻沒吃到什麼特色食物有些失落對吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1615,7 +1615,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对对，就是这种感觉！",
+			say = "對對，就是這種感覺！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1633,7 +1633,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那这么说来，安塔迪卡还确实有些可以吃的……比如海里游的。",
+			say = "那這麼說來，南極確實有些可以吃的……像是海裡遊的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1650,7 +1650,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "从海里捕捞上来的鱼虾不受《安塔迪卡条约》保护，我们可以随便吃哦。",
+			say = "從海裡捕捉上來的魚蝦不受《南極條約》保護，我們可以隨便吃。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1668,7 +1668,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "比如磷虾，其实还蛮好吃的。",
+			say = "例如磷蝦，其實還蠻好吃的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1686,7 +1686,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "至于企鹅肉——其实企鹅肉去掉脂肪处理之后，和鸡肉口感差不多。",
+			say = "至於企鵝肉——其實企鵝肉去除脂肪處理之後，和雞肉口感差不多。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1703,7 +1703,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要不然我给你做一道宫廷秘制烤鸡，就当假装吃了怎么样？",
+			say = "不然我幫你做一道宮廷秘製烤雞，就當做假裝吃到了怎麼樣？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1721,7 +1721,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再来一份磷虾汤面，这道也是宴会菜单上的菜哦，美味保证。",
+			say = "再來一份磷蝦湯麵，這道也是宴會菜單上的菜哦，美味有保證。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1738,7 +1738,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然，菜单上的版本用的不是磷虾就是了~",
+			say = "當然，菜單上的版本用的不是磷蝦就是了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1756,7 +1756,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇……听上去就好吃。",
+			say = "哇……聽起來就好吃。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1783,7 +1783,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没想到水星纪念同志还会做这些啊！",
+			say = "沒想到水星紀念同志還會做這些！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1801,7 +1801,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "偶尔会动动手，还原一下记忆中的味道嘛~",
+			say = "偶爾會動動手，還原記憶中的味道嘛~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1812,7 +1812,7 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "通訊器",
 			side = 2,
 			bgName = "star_level_bg_544",
 			nameColor = "#A9F548FF",
@@ -1849,7 +1849,7 @@ return {
 			actor = 703010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这里是北方联合基地科考站「和平」站。",
+			say = "這裡是北方聯合基地科考站「和平」站。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1868,7 +1868,7 @@ return {
 			actor = 703010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「卡林卡」号，你们的身份核实已通过，欢迎来到安塔迪卡。",
+			say = "「卡林卡」號，妳們的身分驗證已通過，歡迎來到南極。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1886,7 +1886,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好久不见，塔林同志。",
+			say = "好久不見，塔林同志。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1904,7 +1904,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们带来了远方的问候，还有一批补给。",
+			say = "我們帶來了遠方的問候，還有一批補給。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1923,7 +1923,7 @@ return {
 			actor = 703010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来今天可以做一顿美味的晚餐为诸位接风了。",
+			say = "看來今天可以做一頓美味的晚餐為各位接風了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1942,7 +1942,7 @@ return {
 			actor = 703010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "确实是好久不见了，{namecode:530:同盟}同志，收到你要亲自来的消息的时候我真是相当震惊。",
+			say = "是好久不見了，聯盟同志，收到妳要親自來的時候我真是相當震驚。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1960,7 +1960,7 @@ return {
 			actor = 703010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总之，我把这片海域最新的情况发给你们了，航线已经规划完毕。",
+			say = "總之，我把這片海域最新的情況傳給妳們了，航線已經規劃完畢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1979,7 +1979,7 @@ return {
 			actor = 703010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请根据航线行驶，避开冰山，我们港口汇合。",
+			say = "請依照航線行駛，避開冰山，我們港口匯合。",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -28,7 +28,7 @@ return {
 			},
 			sequence = {
 				{
-					"鸢尾教国境内",
+					"審判庭秘密據點",
 					1
 				},
 				{
@@ -36,7 +36,7 @@ return {
 					2
 				},
 				{
-					"事件结束后的某一日",
+					"事件結束後的某一日",
 					3
 				}
 			}
@@ -85,7 +85,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我说过，战斗还远未结束哦~",
+			say = "我說過，戰鬥還遠遠沒有結束~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,7 +103,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "根据感应，人应该就被藏在这座建筑地下的迷宫里。",
+			say = "根據感應，人應該就被藏在這座建築地下的迷宮裡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……要找起来，恐怕要费一番功夫呢。",
+			say = "……要找起來，恐怕要費一番功夫。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -136,9 +136,9 @@ return {
 			bgName = "star_level_bg_506",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "克莱蒙梭",
+			actorName = "克里蒙梭",
 			hidePaintObj = true,
-			say = "这位美丽的女士，擅自闯入他人住宅，可是重罪哦。",
+			say = "這位美麗的女士，擅自闖入他人住宅，可是重罪哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -156,7 +156,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我记得你是——审判庭的克莱蒙梭主教？",
+			say = "我記得妳是——審判庭的克里蒙梭主教？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +174,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "看来你已经猜到我会来这里了呢。",
+			say = "看來妳已經猜到我會來這裡了呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "目的不难猜，但猜对方式就比较难了。",
+			say = "目的不難猜，但猜對方式就比較難了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你果然没那么容易被消灭掉。",
+			say = "妳果然沒那麼容易被消滅掉。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "事先做了充足的准备真是一个正确的决定。",
+			say = "事先做了充足的準備真是正確的決定。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "嗯？这股气息是……",
+			say = "嗯？這股氣息是……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			actor = 9703020,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "呵呵，意外么？不速之客小姐。",
+			say = "呵呵，意外嗎？不速之客小姐。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -282,7 +282,7 @@ return {
 			actor = 9702040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "既然这么想当客人，就在这里让我们好好招待一下吧~！",
+			say = "既然這麼想當客人，就在這裡讓我們好好招待一下吧~！",
 			painting = {
 				alpha = 0.3,
 				time = 1

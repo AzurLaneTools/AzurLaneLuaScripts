@@ -9,7 +9,7 @@ return {
 			asideType = 1,
 			sequence = {
 				{
-					"在一片遥远的大陆上，有一座梦之都会。",
+					"在一片遙遠的大陸上，有一座夢之都會。",
 					1
 				},
 				{
@@ -17,19 +17,19 @@ return {
 					2
 				},
 				{
-					"它高雅，它下流。它挥金如土，它惜财如命。",
+					"它高雅，它下流。它揮金如土，它惜財如命。",
 					3
 				},
 				{
-					"然而，无知又无畏的做梦家们，依旧蜂拥而来。",
+					"然而，無知又無畏的做夢家們，依舊蜂擁而來。",
 					4
 				},
 				{
-					"「天啾塔」下无新事。",
+					"「天啾塔」下無新事。",
 					5
 				},
 				{
-					"即便它的内部，已经沸腾如斯——",
+					"即便它的內部，已經沸騰如斯——",
 					6
 				}
 			}
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_130",
 			bgm = "story-antarctica-serious",
 			nameColor = "#A9F548FF",
-			say = "似乎听到有什么人在呼唤。",
+			say = "似乎聽到有什麼人在呼喚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			factiontag = "幻影",
 			nameColor = "#A9F548FF",
 			actor = 9702070,
-			actorName = "？？？？·？？？？",
+			actorName = "*——*",
 			say = "*——*",
 			typewriter = {
 				speed = 0.05,
@@ -105,8 +105,8 @@ return {
 			factiontag = "幻影",
 			nameColor = "#A9F548FF",
 			actor = 9702070,
-			actorName = "？？？？·？？？？",
-			say = "醒醒——",
+			actorName = "*——*",
+			say = "醒醒吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,8 +124,8 @@ return {
 			factiontag = "幻影",
 			nameColor = "#A9F548FF",
 			actor = 9702070,
-			actorName = "？？？？·？？？？",
-			say = "醒来了，骑士，我们还有活要干呢——",
+			actorName = "*——*",
+			say = "醒來了，騎士，我們還有事要做呢——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
-			say = "意识中的朦胧终于褪去，率先映入眼中的，是一名正带着好奇目光的少女。",
+			say = "意識中的朦朧終於褪去，率先映入眼中的，是一名正帶著好奇目光的少女。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
-			say = "以及已经褪色龟裂，不知历经了多少岁月的监室墙皮。",
+			say = "以及已經褪色龜裂，不知歷經了多少歲月的監牢牆壁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,9 +160,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "「指挥官」",
+			factiontag = "「指揮官」",
 			nameColor = "#A9F548FF",
-			say = "这是……被抓了？",
+			say = "這是……被抓了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
-			say = "我竭力在脑海中回忆着，但却没有任何与之有关的记忆浮现。",
+			say = "我竭力在腦海中回憶著，但卻沒有任何與之有關的記憶浮現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,15 +185,15 @@ return {
 			factiontag = "幻影",
 			nameColor = "#A9F548FF",
 			actor = 9702070,
-			actorName = "？？？？·？？？？",
-			say = "哈，你终于醒了，骑士。",
+			actorName = "*——*",
+			say = "哈，你終於醒了，騎士。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你是谁？",
+					content = "妳是誰？",
 					flag = 1
 				}
 			}
@@ -205,8 +205,8 @@ return {
 			factiontag = "幻影",
 			nameColor = "#A9F548FF",
 			actor = 9702070,
-			actorName = "？？？？·？？？？",
-			say = "呵呵，你果然什么都不记得了呢。",
+			actorName = "*——*",
+			say = "呵呵，你果然什麼都不記得了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,8 +218,8 @@ return {
 			bgName = "star_level_bg_130",
 			factiontag = "幻影",
 			side = 2,
-			actorName = "？？？？·？？？？",
-			say = "我是谁不重要。",
+			actorName = "*——*",
+			say = "我是誰不重要。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,8 +232,8 @@ return {
 			factiontag = "幻影",
 			nameColor = "#A9F548FF",
 			actor = 9702070,
-			actorName = "？？？？·？？？？",
-			say = "但知道你自己是谁，非常重要。",
+			actorName = "*——*",
+			say = "但知道你自己是誰，非常重要。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,8 +246,8 @@ return {
 			factiontag = "幻影",
 			nameColor = "#A9F548FF",
 			actor = 9702070,
-			actorName = "？？？？·？？？？",
-			say = "「指挥官」。",
+			actorName = "*——*",
+			say = "「指揮官」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,9 +257,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "「指挥官」",
+			factiontag = "「指揮官」",
 			nameColor = "#A9F548FF",
-			say = "你说什……",
+			say = "你說什……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,17 +281,17 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			soundeffect = "event:/ui/erming",
-			say = "下个瞬间，记忆如雪花般涌入脑海——",
+			say = "下個瞬間，記憶如雪花般湧入腦海——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "啾啾护卫",
+			actorName = "啾啾——",
 			side = 2,
 			bgName = "star_level_bg_508",
-			factiontag = "护卫啾",
+			factiontag = "護衛啾",
 			soundeffect = "event:/ui/kaiqiang",
 			nameColor = "#FF9B93",
 			say = "啾啾——",
@@ -329,10 +329,10 @@ return {
 			}
 		},
 		{
-			actorName = "啾啾护卫",
+			actorName = "啾啾——",
 			side = 2,
 			bgName = "star_level_bg_508",
-			factiontag = "护卫啾",
+			factiontag = "護衛啾",
 			soundeffect = "event:/ui/kaiqiang",
 			nameColor = "#FF9B93",
 			say = "啾啾啾！",
@@ -347,10 +347,10 @@ return {
 			}
 		},
 		{
-			actorName = "啾啾护卫",
+			actorName = "啾啾——",
 			side = 2,
 			bgName = "star_level_bg_508",
-			factiontag = "护卫啾",
+			factiontag = "護衛啾",
 			soundeffect = "event:/ui/kaiqiang",
 			nameColor = "#FF9B93",
 			say = "啾啾！——啾啾啾！！",
@@ -369,7 +369,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			soundeffect = "event:/ui/erming",
-			say = "灼热的气浪从不远处席卷而来，将沿途的一切都掀翻在地。",
+			say = "灼熱的氣浪從不遠處席捲而來，將沿途的一切掀翻在地。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			soundeffect = "event:/ui/erming",
-			say = "也包括那位平时只能仰望的大人物——",
+			say = "也包括那位平常只能仰望的大人物——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			factiontag = "“great”总裁",
+			factiontag = "「Great」總裁",
 			dir = 1,
 			actor = 205100,
 			nameColor = "#FF9B93",
@@ -458,11 +458,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_508",
-			factiontag = "“great”总裁",
+			factiontag = "「Great」總裁",
 			dir = 1,
 			actor = 205100,
 			nameColor = "#FF9B93",
-			say = "看到……没有……",
+			say = "看到……沒有……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -476,11 +476,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_508",
-			factiontag = "“great”总裁",
+			factiontag = "「Great」總裁",
 			dir = 1,
 			actor = 205100,
 			nameColor = "#FF9B93",
-			say = "这是……尊贵的我……的身份盘……",
+			say = "這是……尊貴的我……的身分盤……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -494,11 +494,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_508",
-			factiontag = "“great”总裁",
+			factiontag = "「Great」總裁",
 			dir = 1,
 			actor = 205100,
 			nameColor = "#FF9B93",
-			say = "只要……救我……荣华富贵…………",
+			say = "只要……救我……榮華富貴…………",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -512,7 +512,7 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_508",
-			factiontag = "“great”总裁",
+			factiontag = "「Great」總裁",
 			dir = 1,
 			actor = 205100,
 			nameColor = "#FF9B93",
@@ -547,7 +547,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
-			say = "“总裁”渐渐不动了，她一直拿在手中的东西，也掉落在了地上。",
+			say = "「總裁」漸漸不動了，她一直拿在手中的東西，也掉落在了地上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
 			side = 2,
-			say = "回想起来，依旧觉得不可思议。",
+			say = "回想起來，依舊覺得不可思議。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
-			say = "那时，就这么冷漠地注视着这位不可一世的大人物，在稀里糊涂中咽了气。",
+			say = "那時，就這麼冷漠地注視著這位不可一世的大人物，在稀里糊塗中咽了氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_508",
-			say = "相比起来，甚至姗姗来迟的、上城区治安者身上的电击棍，都更加要有冲击力。",
+			say = "相較起來，甚至姍姍來遲的、上城區治安者身上的電擊棍，都更加要有衝擊力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,16 +593,16 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "「指挥官」",
+			factiontag = "「指揮官」",
 			nameColor = "#A9F548FF",
-			say = "……敬这个麻木的世界。",
+			say = "……敬這個麻木的世界。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "摸索内衣里缝着的口袋",
+					content = "摸索內衣裡縫著的口袋",
 					flag = 1
 				}
 			}
@@ -629,9 +629,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "「指挥官」",
+			factiontag = "「指揮官」",
 			nameColor = "#A9F548FF",
-			say = "“Great”的身份盘……",
+			say = "「Great」的身份盤……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,8 +644,8 @@ return {
 			factiontag = "幻影",
 			nameColor = "#A9F548FF",
 			actor = 9702070,
-			actorName = "？？？？·？？？？",
-			say = "没错~就是这个。",
+			actorName = "*——*",
+			say = "沒錯~就是這個。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,8 +658,8 @@ return {
 			factiontag = "幻影",
 			nameColor = "#A9F548FF",
 			actor = 9702070,
-			actorName = "？？？？·？？？？",
-			say = "谁能带着它登上「天啾塔」，谁就能成为不夜城的新主人。",
+			actorName = "*——*",
+			say = "誰能帶著它登上「天啾塔」，誰就能成為不夜城的新主人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -672,8 +672,8 @@ return {
 			factiontag = "幻影",
 			nameColor = "#A9F548FF",
 			actor = 9702070,
-			actorName = "？？？？·？？？？",
-			say = "拯救一切于水火，还是成为新的君王，一念之间就能决断万千命运~",
+			actorName = "*——*",
+			say = "拯救一切於水火，還是成為新的君王，一念之間就能決斷千萬命運~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -686,8 +686,8 @@ return {
 			factiontag = "幻影",
 			nameColor = "#A9F548FF",
 			actor = 9702070,
-			actorName = "？？？？·？？？？",
-			say = "哼哼，实在是太有趣了不是么♪",
+			actorName = "*——*",
+			say = "哼哼，實在是太有趣了不是嗎♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -697,9 +697,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "「指挥官」",
+			factiontag = "「指揮官」",
 			nameColor = "#A9F548FF",
-			say = "我该怎么做？",
+			say = "我該怎麼做？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,8 +712,8 @@ return {
 			factiontag = "幻影",
 			nameColor = "#A9F548FF",
 			actor = 9702070,
-			actorName = "？？？？·？？？？",
-			say = "做你该做的事就好了~",
+			actorName = "*——*",
+			say = "做你該做的事就好了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,9 +723,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "「指挥官」",
+			factiontag = "「指揮官」",
 			nameColor = "#A9F548FF",
-			say = "……我怎么会知道该做什么？",
+			say = "……我怎麼會知道該做什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,8 +738,8 @@ return {
 			factiontag = "幻影",
 			nameColor = "#A9F548FF",
 			actor = 9702070,
-			actorName = "？？？？·？？？？",
-			say = "这不是我一个谜语人该考虑的事哟？",
+			actorName = "*——*",
+			say = "這不是我一個謎語人該考慮的事喲？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -752,8 +752,8 @@ return {
 			factiontag = "幻影",
 			nameColor = "#A9F548FF",
 			actor = 9702070,
-			actorName = "？？？？·？？？？",
-			say = "顺便一提，有人要来接你了。",
+			actorName = "*——*",
+			say = "順便一提，有人要來接你了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,8 +766,8 @@ return {
 			factiontag = "幻影",
 			nameColor = "#A9F548FF",
 			actor = 9702070,
-			actorName = "？？？？·？？？？",
-			say = "那么~就此别过了，我帅气的骑士大人——",
+			actorName = "*——*",
+			say = "那麼~就此別過了，我帥氣的騎士大人——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -777,9 +777,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "「指挥官」",
+			factiontag = "「指揮官」",
 			nameColor = "#A9F548FF",
-			say = "等等，至少告诉我你的名字！",
+			say = "等等，至少告訴我妳的名字！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -792,7 +792,7 @@ return {
 			factiontag = "幻影",
 			nameColor = "#A9F548FF",
 			actor = 9702070,
-			actorName = "？？？？·？？？？",
+			actorName = "*——*",
 			say = "哦？你好奇心真旺盛呀。",
 			typewriter = {
 				speed = 0.05,
@@ -806,8 +806,8 @@ return {
 			factiontag = "幻影",
 			nameColor = "#A9F548FF",
 			actor = 9702070,
-			actorName = "？？？？·？？？？",
-			say = "那么，听好了！本大人是天上地下帅气无敌的水星纪念。",
+			actorName = "*——*",
+			say = "那麼，聽好了！本大人是天上地下帥氣無敵的水星紀念。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -821,7 +821,7 @@ return {
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#A9F548FF",
-			say = "是你脑海中的骑士妄想哦——",
+			say = "是你腦海中的騎士妄想哦——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -836,7 +836,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

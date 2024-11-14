@@ -9,7 +9,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			bgm = "story-antarctica-serious",
 			nameColor = "#A9F548FF",
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,13 +74,13 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			factiontag = "治安者突击队长",
+			factiontag = "治安者突擊隊長",
 			dir = 1,
 			bgName = "star_level_bg_154",
 			actor = 718011,
 			nameColor = "#FF9B93",
 			live2d = "main1",
-			say = "瞄准那架直升机，不是瞄准牢房啊！",
+			say = "瞄準那架直升機，不是瞄準牢房啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,12 +116,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_154",
-			factiontag = "治安者突击队长",
+			factiontag = "治安者突擊隊長",
 			dir = 1,
 			actor = 718011,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "管理所里还有很多高价值的存在呢！小心一点！",
+			say = "管理所裡還有很多高價值的存在呢！小心一點！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,11 +134,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_154",
-			factiontag = "治安者突击队员",
+			factiontag = "治安者突擊隊員",
 			dir = 1,
 			actor = 701111,
 			nameColor = "#FF9B93",
-			say = "呜啊！对不起！！",
+			say = "嗚嗚嗚！對不起！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,11 +162,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_154",
-			factiontag = "治安者突击队员",
+			factiontag = "治安者突擊隊員",
 			dir = 1,
 			actor = 701111,
 			nameColor = "#FF9B93",
-			say = "现在立刻重新发射！……咦？！",
+			say = "現在立刻重新發射！……咦？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_154",
-			factiontag = "治安者突击队员",
+			factiontag = "治安者突擊隊員",
 			dir = 1,
 			actor = 701111,
 			nameColor = "#FF9B93",
@@ -197,7 +197,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
-			say = "此时，监室的铁窗已经不翼而飞了。取而代之的，是巨大的洞口，以及倒灌的寒风。",
+			say = "此時，監牢的鐵窗已經不翼而飛了。取而代之的，是巨大的洞口，以及倒灌的寒風。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
-			say = "这是一间位于高塔之上的监室，想要造访这里，非得要长着翅膀的伊卡洛斯才行。",
+			say = "這是一間位於高塔之上的監牢，想要造訪這裡，非得要長著翅膀的伊卡洛斯才行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
-			say = "然而，有着钢铁羽翼的“伊卡洛斯”，还真的降临了。",
+			say = "然而，有著鋼鐵羽翼的「伊卡洛斯」，還真的降臨了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
-			say = "直升机的引擎轰鸣着，少女在清冷月光的照耀下，宛如战斗天使般降临这间逼仄的监室。",
+			say = "直升機的引擎轟鳴著，少女在清冷月光的照耀下，宛如戰鬥天使般降臨這間逼仄的監牢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,8 +255,8 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			side = 2,
-			actorName = "？？",
-			say = "不愧是曾经在整个不夜城都大名鼎鼎的指挥官，在这样的热情欢迎中都能面不改色呢。",
+			actorName = "不愧是曾經在整個不夜城都大名鼎鼎的指揮官，在這樣的熱情歡迎中都能面不改色呢。",
+			say = "不愧是曾經在整個不夜城都大名鼎鼎的指揮官，在這樣的熱情歡迎中都能面不改色呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,8 +268,8 @@ return {
 			bgName = "star_level_bg_130",
 			expression = 2,
 			side = 2,
-			actorName = "？？",
-			say = "时间有限，就让我这个不请自来的人先做自我介绍吧。",
+			actorName = "不愧是曾經在整個不夜城都大名鼎鼎的指揮官，在這樣的熱情歡迎中都能面不改色呢。",
+			say = "時間有限，就讓我這個不請自來的人先做自我介紹。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,8 +281,8 @@ return {
 			bgName = "star_level_bg_130",
 			expression = 1,
 			side = 2,
-			actorName = "？？",
-			say = "我是「银翼抵抗军」的特工，阿尔汉格尔斯克。",
+			actorName = "不愧是曾經在整個不夜城都大名鼎鼎的指揮官，在這樣的熱情歡迎中都能面不改色呢。",
+			say = "我是「銀翼抵抗軍」的特工，阿爾漢格爾斯克。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,11 +292,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "银翼特工",
+			factiontag = "銀翼特工",
 			dir = 1,
 			actor = 705061,
 			nameColor = "#A9F548FF",
-			say = "我的任务是将作为“抵抗象征”的您从此地救出——不惜一切代价。",
+			say = "我的任務是將身為「抵抗象徵」的您從此地救出——不惜一切代價。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,11 +307,11 @@ return {
 			},
 			options = {
 				{
-					content = "……“抵抗象征”？",
+					content = "……「抵抗象徵」？",
 					flag = 1
 				},
 				{
-					content = "你们是不是误会了？",
+					content = "妳們是不是誤會了？",
 					flag = 2
 				}
 			}
@@ -319,12 +319,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "银翼特工",
+			factiontag = "銀翼特工",
 			dir = 1,
 			optionFlag = 1,
 			actor = 705061,
 			nameColor = "#A9F548FF",
-			say = "您可是身先士卒地袭击了那位大人车队的人哦。",
+			say = "您可是身先士卒地襲擊了那位大人車隊的人哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,12 +338,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "银翼特工",
+			factiontag = "銀翼特工",
 			dir = 1,
 			optionFlag = 1,
 			actor = 705061,
 			nameColor = "#A9F548FF",
-			say = "能让那个位于「天啾塔」顶端的大人物殒落，也只有身为「指挥官」的您才能做到了。",
+			say = "能讓那個位於「天啾塔」頂端的大人物殞落，也只有身為「指揮官」的您才能做到了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -357,12 +357,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "银翼特工",
+			factiontag = "銀翼特工",
 			dir = 1,
 			optionFlag = 2,
 			actor = 705061,
 			nameColor = "#A9F548FF",
-			say = "哼哼，绝对没有哦。",
+			say = "哼哼，絕對沒有哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,12 +376,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "银翼特工",
+			factiontag = "銀翼特工",
 			dir = 1,
 			optionFlag = 2,
 			actor = 705061,
 			nameColor = "#A9F548FF",
-			say = "袭击了那位大人车队的英勇之人，不正是身为「指挥官」的您么？",
+			say = "襲擊了那位大人車隊的英勇之人，不正是身為「指揮官」的您呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,11 +394,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "银翼特工",
+			factiontag = "銀翼特工",
 			dir = 1,
 			actor = 705061,
 			nameColor = "#A9F548FF",
-			say = "现在，整个不夜城的地下世界，都在传颂您的名字。",
+			say = "現在，整個不夜城的地下世界，都在傳頌您的名字。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,11 +412,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "银翼特工",
+			factiontag = "銀翼特工",
 			dir = 1,
 			actor = 705061,
 			nameColor = "#A9F548FF",
-			say = "您这样赫赫有名的人要是能加入我们的行列，胜利便指日可待了！",
+			say = "您這樣赫赫有名的人要是能加入我們的行列，勝利便指日可待了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,9 +430,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "「指挥官」",
+			factiontag = "「指揮官」",
 			nameColor = "#A9F548FF",
-			say = "（“抵抗”……）",
+			say = "（「抵抗」……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
-			say = "仿佛又听到那个“幻影”在耳边喋喋不休——",
+			say = "彷彿又聽到那個「幻影」在耳邊喋喋不休——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#A9F548FF",
-			say = "谁能带着它登上「天啾塔」，谁就能成为不夜城的新主人。",
+			say = "誰能帶著它登上「天啾塔」，誰就能成為不夜城的新主人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -480,7 +480,7 @@ return {
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#A9F548FF",
-			say = "拯救一切于水火，还是成为新的君王，一念之间就能决断万千命运~",
+			say = "拯救一切於水火，還是成為新的君王，一念之間就能決斷千萬命運~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -494,9 +494,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "「指挥官」",
+			factiontag = "「指揮官」",
 			nameColor = "#A9F548FF",
-			say = "“做我该做的事”……",
+			say = "「做我該做的事」……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,9 +512,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "「指挥官」",
+			factiontag = "「指揮官」",
 			nameColor = "#A9F548FF",
-			say = "……能送我去「天啾塔」么？",
+			say = "……能送我去「天啾塔」嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,11 +524,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "银翼特工",
+			factiontag = "銀翼特工",
 			dir = 1,
 			actor = 705061,
 			nameColor = "#A9F548FF",
-			say = "没问题，我们就立刻撤往安全地带……咦？",
+			say = "沒問題，我們就立刻撤往安全地帶……咦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -542,11 +542,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "银翼特工",
+			factiontag = "銀翼特工",
 			dir = 1,
 			actor = 705061,
 			nameColor = "#A9F548FF",
-			say = "天啾塔？那里可是这座城市守备最森严的地方！",
+			say = "天啾塔？那裡可是這座城市守備最森嚴的地方！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -560,11 +560,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "银翼特工",
+			factiontag = "銀翼特工",
 			dir = 1,
 			actor = 705061,
 			nameColor = "#A9F548FF",
-			say = "靠这架直升机是不可能接近那座塔的。",
+			say = "靠這架直升機是不可能接近那座塔的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,11 +578,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "银翼特工",
+			factiontag = "銀翼特工",
 			dir = 1,
 			actor = 705061,
 			nameColor = "#A9F548FF",
-			say = "您完全没必要再以身犯险，毕竟——",
+			say = "您完全沒必要再以身犯險，畢竟——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -593,7 +593,7 @@ return {
 			},
 			options = {
 				{
-					content = "有必须去的理由。",
+					content = "有必須去的理由。",
 					flag = 1
 				}
 			}
@@ -602,7 +602,7 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "银翼特工",
+			factiontag = "銀翼特工",
 			dir = 1,
 			actor = 705061,
 			nameColor = "#A9F548FF",
@@ -619,12 +619,12 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			factiontag = "管理所巡逻队员",
+			factiontag = "管理所巡邏隊員",
 			dir = 1,
 			bgName = "star_level_bg_154",
 			actor = 213043,
 			nameColor = "#FF9B93",
-			say = "这里是管理所巡逻队的通告！",
+			say = "這裡是管理所巡邏隊的通告！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -655,11 +655,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_154",
-			factiontag = "管理所巡逻队员",
+			factiontag = "管理所巡邏隊員",
 			dir = 1,
 			actor = 213043,
 			nameColor = "#FF9B93",
-			say = "入侵者，你们已经无路可逃！",
+			say = "入侵者，你們已經無路可逃！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -683,11 +683,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_154",
-			factiontag = "管理所巡逻队员",
+			factiontag = "管理所巡邏隊員",
 			dir = 1,
 			actor = 213043,
 			nameColor = "#FF9B93",
-			say = "这是最后一次警告！立刻停止抵抗！",
+			say = "這是最後一次警告！立刻停止抵抗！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -700,11 +700,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_154",
-			factiontag = "管理所巡逻队员",
+			factiontag = "管理所巡邏隊員",
 			dir = 1,
 			actor = 213043,
 			nameColor = "#FF9B93",
-			say = "若继续一意孤行，我们将无法保证你们的人身安全！",
+			say = "若繼續一意孤行，我們將無法保證你們的人身安全！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -727,12 +727,12 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			factiontag = "银翼特工",
+			factiontag = "銀翼特工",
 			dir = 1,
 			bgName = "star_level_bg_130",
 			actor = 705061,
 			nameColor = "#A9F548FF",
-			say = "啧，喀琅施塔得那家伙，居然这么快就调集援军了么……",
+			say = "嘖，喀琅施塔得那傢伙，居然這麼快就調集援軍了嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -762,11 +762,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "银翼特工",
+			factiontag = "銀翼特工",
 			dir = 1,
 			actor = 705061,
 			nameColor = "#A9F548FF",
-			say = "算了，既然如此，「银翼」也愿意为您的计划出一份力。",
+			say = "算了，既然如此，「銀翼」也願意為您的計畫出一份力。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -780,11 +780,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "银翼特工",
+			factiontag = "銀翼特工",
 			dir = 1,
 			actor = 705061,
 			nameColor = "#A9F548FF",
-			say = "……接下来，我会将敌人引开。",
+			say = "……接下來，我會將敵人引開。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -797,11 +797,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "银翼特工",
+			factiontag = "銀翼特工",
 			dir = 1,
 			actor = 705061,
 			nameColor = "#A9F548FF",
-			say = "至于剩下的，只能靠您自己了。",
+			say = "至於剩下的，只能靠自己了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -815,11 +815,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "银翼特工",
+			factiontag = "銀翼特工",
 			dir = 1,
 			actor = 705061,
 			nameColor = "#A9F548FF",
-			say = "祝您好运，指挥官。",
+			say = "祝您好運，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -833,7 +833,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_154",
-			say = "在同那位特工点头道别后，直升机便猛地拉升，飞向了管理所的城墙之外。",
+			say = "在與那位特務點頭道別後，直升機便猛地拉升，飛向了管理所的城牆之外。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -860,11 +860,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_154",
-			factiontag = "治安者突击队员",
+			factiontag = "治安者突擊隊員",
 			dir = 1,
 			actor = 701111,
 			nameColor = "#FF9B93",
-			say = "……太好了，闯入者飞走了！",
+			say = "……太好了，闖入者飛走了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -878,11 +878,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_154",
-			factiontag = "治安者突击队员",
+			factiontag = "治安者突擊隊員",
 			dir = 1,
 			actor = 701111,
 			nameColor = "#FF9B93",
-			say = "肯定是因为管理所巡逻队也赶到，所以害怕了！",
+			say = "肯定是因為管理所巡邏隊也趕到，所以害怕了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -896,12 +896,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_154",
-			factiontag = "治安者突击队长",
+			factiontag = "治安者突擊隊長",
 			dir = 1,
 			actor = 718011,
 			nameColor = "#FF9B93",
 			live2d = "main2",
-			say = "你清醒点！这不是闯入，是越狱！",
+			say = "妳清醒點！這不是闖入，是越獄！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -914,11 +914,11 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_154",
-			factiontag = "治安者突击队员",
+			factiontag = "治安者突擊隊員",
 			dir = 1,
 			actor = 701111,
 			nameColor = "#FF9B93",
-			say = "什、什么……！咦……？啊？！",
+			say = "什、什麼……！咦……？啊？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -941,12 +941,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_154",
-			factiontag = "治安者突击队长",
+			factiontag = "治安者突擊隊長",
 			dir = 1,
 			actor = 718011,
 			nameColor = "#FF9B93",
 			live2d = "main2",
-			say = "管理所呼叫所有正在执勤的单位，呼叫所有正在执勤的单位！",
+			say = "管理所呼叫所有正在執勤的單位，呼叫所有正在執勤的單位！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -960,12 +960,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_154",
-			factiontag = "治安者突击队长",
+			factiontag = "治安者突擊隊長",
 			dir = 1,
 			actor = 718011,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "有直升机携重要目标越狱，重复一遍，请留意任何未在都市管理系统中注册的直升机！",
+			say = "有直升機攜重要目標越獄，重複一遍，請留意任何未在都市管理系統中註冊的直升機！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -978,12 +978,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_154",
-			factiontag = "治安者突击队长",
+			factiontag = "治安者突擊隊長",
 			dir = 1,
 			actor = 718011,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "火力，你留守在这里！阿克贝隆比，确保所有水上交通线都处于封锁！",
+			say = "火力，妳留守在這裡！阿克貝隆比，確保所有水上交通線都處於封鎖！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -997,12 +997,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_154",
-			factiontag = "治安者突击队长",
+			factiontag = "治安者突擊隊長",
 			dir = 1,
 			actor = 718011,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "陆地的部分由我亲自负责，现在行动！",
+			say = "陸地的部分由我親自負責，現在行動！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1019,7 +1019,7 @@ return {
 			nameColor = "#FF9B93",
 			hideOther = true,
 			actor = 701111,
-			actorName = "火力&阿贝克隆比",
+			actorName = "是！ 收到！",
 			say = "是！\n收到！",
 			subActors = {
 				{
@@ -1045,7 +1045,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			side = 2,
-			say = "直升机的轰鸣声和冲锋车的警笛声都远去了。",
+			say = "直升機的轟鳴聲和衝鋒車的警笛聲都遠走了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1078,7 +1078,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
-			say = "看起来紧急出动的治安者们都被那位特工吸引走了……眼下唯一的问题是，牢门还紧锁着。",
+			say = "看起來緊急出動的治安者們都被那位特工吸引走了……眼下唯一的問題是，牢門還緊鎖著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1088,7 +1088,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
-			say = "从破洞跳下去也许是个办法，但从需要跳水的高度来看，显然只有死路一条。",
+			say = "從破洞跳下去也許是個辦法，但從需要跳水的高度來看，顯然只有死路一條。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1098,9 +1098,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "「指挥官」",
+			factiontag = "「指揮官」",
 			nameColor = "#A9F548FF",
-			say = "……这不是完全无计可施了么。",
+			say = "……這不是完全無計可施了嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1110,12 +1110,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_130",
-			actorName = "？？？",
+			actorName = "呵呵，難道不是船到橋頭自然直？",
 			live2dIdleIndex = 1,
 			actor = 101452,
 			nameColor = "#FF9B93",
 			live2d = true,
-			say = "呵呵，难道不是船到桥头自然直？",
+			say = "呵呵，難道不是船到橋頭自然直？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1125,7 +1125,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
-			say = "因为断电而陷入一片黑暗的走廊中，突然传出了意料之外的声音。",
+			say = "因為斷電而陷入一片黑暗的走廊中，突然傳出了意料之外的聲音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1135,7 +1135,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
-			say = "紧接着，一张治安者的面孔出现在了探视窗前。",
+			say = "緊接著，一張治安者的臉出現在了探視窗前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1145,9 +1145,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "「指挥官」",
+			factiontag = "「指揮官」",
 			nameColor = "#A9F548FF",
-			say = "……回马枪？！",
+			say = "……回馬槍？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1157,7 +1157,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
-			say = "不禁认真地开始思考起从破洞跳到海里的生还可能性来。",
+			say = "不禁認真地開始思考起從破洞跳到海裡的生還可能性。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1167,7 +1167,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
-			say = "好在下个瞬间，这个形迹可疑的“治安者”就用手里的牢门钥匙解除了误会。",
+			say = "還好下個瞬間，這個形跡可疑的「治安者」就用手裡的牢門鑰匙解除了誤會。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1179,9 +1179,9 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			actor = 101452,
-			actorName = "？？？",
+			actorName = "呵呵，難道不是船到橋頭自然直？",
 			live2d = "main2",
-			say = "芝麻开门~别紧张，我不是治安者哦。",
+			say = "芝麻開門~別緊張，我不是治安者哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1193,9 +1193,9 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			actor = 101452,
-			actorName = "怪盗「Mystic」",
+			actorName = "怪盜「Mystic」向你致敬，大名鼎鼎的指揮官。",
 			live2d = true,
-			say = "怪盗「Mystic」向你致敬，大名鼎鼎的指挥官。",
+			say = "怪盜「Mystic」向你致敬，大名鼎鼎的指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1207,16 +1207,16 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			actor = 101452,
-			actorName = "怪盗「Mystic」",
+			actorName = "怪盜「Mystic」向你致敬，大名鼎鼎的指揮官。",
 			live2d = "main3",
-			say = "哼哼，潜入这里也没那么难呢。",
+			say = "哼哼，潛入這裡也沒那麼難。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你也是「银翼」的成员？",
+					content = "妳也是「銀翼」的成員？",
 					flag = 1
 				}
 			}
@@ -1227,9 +1227,9 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			actor = 101452,
-			actorName = "怪盗「Mystic」",
+			actorName = "怪盜「Mystic」向你致敬，大名鼎鼎的指揮官。",
 			live2d = true,
-			say = "身为自由的怪盗，我可不为任何人的利益而战哦？",
+			say = "身為自由的怪盜，我可不為任何人的利益而戰哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1241,9 +1241,9 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			actor = 101452,
-			actorName = "怪盗「Mystic」",
+			actorName = "怪盜「Mystic」向你致敬，大名鼎鼎的指揮官。",
 			live2d = true,
-			say = "我只在乎我感兴趣的东西~比如说，像您这样的大人物。",
+			say = "我只在乎我感興趣的東西~比如說，像您這樣的大人物。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1253,9 +1253,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "「指挥官」",
+			factiontag = "「指揮官」",
 			nameColor = "#A9F548FF",
-			say = "……我是目标？",
+			say = "……我是目標？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1267,9 +1267,9 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			actor = 101452,
-			actorName = "怪盗「Mystic」",
+			actorName = "怪盜「Mystic」向你致敬，大名鼎鼎的指揮官。",
 			live2d = "main3",
-			say = "嘿嘿，没错，我对你很感兴趣呢。",
+			say = "嘿嘿，沒錯，我對你很有興趣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1281,9 +1281,9 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			actor = 101452,
-			actorName = "怪盗「Mystic」",
+			actorName = "怪盜「Mystic」向你致敬，大名鼎鼎的指揮官。",
 			live2d = true,
-			say = "再说，这里可是号称能关押住最胆大包天的人的管理所。",
+			say = "再說，這裡可是號稱能關押最膽大包天的人的管理所。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1295,9 +1295,9 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			actor = 101452,
-			actorName = "怪盗「Mystic」",
+			actorName = "怪盜「Mystic」向你致敬，大名鼎鼎的指揮官。",
 			live2d = true,
-			say = "身为一位最传奇的怪盗，从最传奇的地方，盗取最家喻户晓的传奇——这样的挑战，我怎么可能拒绝呢。",
+			say = "身為一位最傳奇的怪盜，從最傳奇的地方，盜取最家喻戶曉的傳奇——這樣的挑戰，我怎麼可能拒絕呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1309,9 +1309,9 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			actor = 101452,
-			actorName = "怪盗「Mystic」",
+			actorName = "怪盜「Mystic」向你致敬，大名鼎鼎的指揮官。",
 			live2d = "main1",
-			say = "毕竟怪盗，就是要在天罗地网中拿下目标才行，你说对不对？",
+			say = "畢竟怪盜，就是要在天羅地網拿下目標才行，你說對不對？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1321,7 +1321,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
-			say = "听到了堪称强词夺理的发言。",
+			say = "聽到了堪稱強詞奪理的發言。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1331,7 +1331,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
-			say = "但不知道为什么，古怪的熟悉感却从心中升了起来。",
+			say = "但不知道為什麼，古怪的熟悉感卻從心中升了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1341,7 +1341,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
-			say = "难道是听过这句话么……",
+			say = "難道是聽過這句話嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1353,9 +1353,9 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			actor = 101452,
-			actorName = "怪盗「Mystic」",
+			actorName = "怪盜「Mystic」向你致敬，大名鼎鼎的指揮官。",
 			live2d = true,
-			say = "嘿，别发呆了哦？",
+			say = "嘿，別發呆了哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1367,9 +1367,9 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			actor = 101452,
-			actorName = "怪盗「Mystic」",
+			actorName = "怪盜「Mystic」向你致敬，大名鼎鼎的指揮官。",
 			live2d = true,
-			say = "诱饵很快就会被识破的，得尽快脱身才行。",
+			say = "誘餌很快就會被看穿的，得趕快脫身才行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1379,9 +1379,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "「指挥官」",
+			factiontag = "「指揮官」",
 			nameColor = "#A9F548FF",
-			say = "抱歉，立刻出发吧。",
+			say = "抱歉，立刻出發吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1391,9 +1391,9 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_130",
-			factiontag = "「指挥官」",
+			factiontag = "「指揮官」",
 			nameColor = "#A9F548FF",
-			say = "请你带路了，怪盗女士。",
+			say = "請妳帶路吧，怪盜女士。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

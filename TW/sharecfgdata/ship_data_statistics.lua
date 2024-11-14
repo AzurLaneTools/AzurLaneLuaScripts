@@ -275866,6 +275866,1022 @@ _G.pg.base.ship_data_statistics[701104] = {
 }
 
 
+_G.pg.base.ship_data_statistics[701111] = {
+	nationality = 7,
+	oxy_max = 0,
+	type = 1,
+	name = "火力",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 701111,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "SN Ognevoy",
+	oxy_cost = 0,
+	skin_id = 701110,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		379,
+		28,
+		45,
+		34,
+		0,
+		76,
+		0,
+		67,
+		64,
+		43.8,
+		79,
+		51
+	},
+	attrs_growth = {
+		10792,
+		384,
+		624,
+		745,
+		0,
+		526,
+		0,
+		1037,
+		1190,
+		0,
+		0,
+		582
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		1.2,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Ognevoy-class",
+		"Northern Union-DD"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[701112] = {
+	nationality = 7,
+	oxy_max = 0,
+	type = 1,
+	name = "火力",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 701112,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "SN Ognevoy",
+	oxy_cost = 0,
+	skin_id = 701110,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		471,
+		35,
+		56,
+		42,
+		0,
+		76,
+		0,
+		67,
+		64,
+		43.8,
+		79,
+		64
+	},
+	attrs_growth = {
+		10792,
+		384,
+		624,
+		745,
+		0,
+		526,
+		0,
+		1037,
+		1190,
+		0,
+		0,
+		582
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.45,
+		1.2,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Ognevoy-class",
+		"Northern Union-DD"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[701113] = {
+	nationality = 7,
+	oxy_max = 0,
+	type = 1,
+	name = "火力",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 701113,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "SN Ognevoy",
+	oxy_cost = 0,
+	skin_id = 701110,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		656,
+		49,
+		78,
+		59,
+		0,
+		76,
+		0,
+		67,
+		64,
+		43.8,
+		79,
+		89
+	},
+	attrs_growth = {
+		10792,
+		384,
+		624,
+		745,
+		0,
+		526,
+		0,
+		1037,
+		1190,
+		0,
+		0,
+		582
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.55,
+		1.2,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Ognevoy-class",
+		"Northern Union-DD"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[701114] = {
+	nationality = 7,
+	oxy_max = 0,
+	type = 1,
+	name = "火力",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 701114,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "SN Ognevoy",
+	oxy_cost = 0,
+	skin_id = 701110,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		933,
+		69,
+		112,
+		84,
+		0,
+		76,
+		0,
+		67,
+		64,
+		43.8,
+		79,
+		127
+	},
+	attrs_growth = {
+		10792,
+		384,
+		624,
+		745,
+		0,
+		526,
+		0,
+		1037,
+		1190,
+		0,
+		0,
+		582
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.6,
+		1.25,
+		1.1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Ognevoy-class",
+		"Northern Union-DD"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[701121] = {
+	nationality = 7,
+	oxy_max = 0,
+	type = 1,
+	name = "兇猛",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 701121,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "SN Svirepy",
+	oxy_cost = 0,
+	skin_id = 701120,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		388,
+		25,
+		43,
+		32,
+		0,
+		73,
+		0,
+		67,
+		65,
+		48.36,
+		86,
+		50
+	},
+	attrs_growth = {
+		11056,
+		345,
+		602,
+		701,
+		0,
+		510,
+		0,
+		1032,
+		1208,
+		0,
+		0,
+		574
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		1.1,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Storozhevoy-class",
+		"Northern Union-DD"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[701122] = {
+	nationality = 7,
+	oxy_max = 0,
+	type = 1,
+	name = "兇猛",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 701122,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "SN Svirepy",
+	oxy_cost = 0,
+	skin_id = 701120,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		483,
+		31,
+		54,
+		40,
+		0,
+		73,
+		0,
+		67,
+		65,
+		48.36,
+		86,
+		62
+	},
+	attrs_growth = {
+		11056,
+		345,
+		602,
+		701,
+		0,
+		510,
+		0,
+		1032,
+		1208,
+		0,
+		0,
+		574
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.45,
+		1.1,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Storozhevoy-class",
+		"Northern Union-DD"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[701123] = {
+	nationality = 7,
+	oxy_max = 0,
+	type = 1,
+	name = "兇猛",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 701123,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "SN Svirepy",
+	oxy_cost = 0,
+	skin_id = 701120,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		672,
+		43,
+		75,
+		56,
+		0,
+		73,
+		0,
+		67,
+		65,
+		48.36,
+		86,
+		87
+	},
+	attrs_growth = {
+		11056,
+		345,
+		602,
+		701,
+		0,
+		510,
+		0,
+		1032,
+		1208,
+		0,
+		0,
+		574
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.55,
+		1.1,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Storozhevoy-class",
+		"Northern Union-DD"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[701124] = {
+	nationality = 7,
+	oxy_max = 0,
+	type = 1,
+	name = "兇猛",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 701124,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "SN Svirepy",
+	oxy_cost = 0,
+	skin_id = 701120,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		956,
+		62,
+		108,
+		79,
+		0,
+		73,
+		0,
+		67,
+		65,
+		48.36,
+		86,
+		125
+	},
+	attrs_growth = {
+		11056,
+		345,
+		602,
+		701,
+		0,
+		510,
+		0,
+		1032,
+		1208,
+		0,
+		0,
+		574
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.6,
+		1.15,
+		1.1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Storozhevoy-class",
+		"Northern Union-DD"
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[702011] = {
 	nationality = 7,
 	oxy_max = 0,
@@ -281127,6 +282143,518 @@ _G.pg.base.ship_data_statistics[705014] = {
 }
 
 
+_G.pg.base.ship_data_statistics[705021] = {
+	nationality = 7,
+	oxy_max = 0,
+	type = 5,
+	name = "蘇維埃聯盟",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	ammo = 0,
+	id = 705021,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "SN Sovetsky Soyuz",
+	oxy_cost = 0,
+	skin_id = 705020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1657,
+		87,
+		0,
+		47,
+		0,
+		60,
+		0,
+		20,
+		8,
+		28,
+		50,
+		0
+	},
+	attrs_growth = {
+		44825,
+		1053,
+		0,
+		1024,
+		0,
+		419,
+		0,
+		325,
+		217,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		2,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Sovetsky Soyuz-Class",
+		"Northern Union-BB",
+		"Sovetsky Soyuz"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[705022] = {
+	nationality = 7,
+	oxy_max = 0,
+	type = 5,
+	name = "蘇維埃聯盟",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	ammo = 0,
+	id = 705022,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "SN Sovetsky Soyuz",
+	oxy_cost = 0,
+	skin_id = 705020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		2061,
+		109,
+		0,
+		59,
+		0,
+		60,
+		0,
+		20,
+		8,
+		28,
+		50,
+		0
+	},
+	attrs_growth = {
+		44825,
+		1053,
+		0,
+		1024,
+		0,
+		419,
+		0,
+		325,
+		217,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		2,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Sovetsky Soyuz-Class",
+		"Northern Union-BB",
+		"Sovetsky Soyuz"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[705023] = {
+	nationality = 7,
+	oxy_max = 0,
+	type = 5,
+	name = "蘇維埃聯盟",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	ammo = 0,
+	id = 705023,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "SN Sovetsky Soyuz",
+	oxy_cost = 0,
+	skin_id = 705020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		2869,
+		152,
+		0,
+		82,
+		0,
+		60,
+		0,
+		20,
+		8,
+		28,
+		50,
+		0
+	},
+	attrs_growth = {
+		44825,
+		1053,
+		0,
+		1024,
+		0,
+		419,
+		0,
+		325,
+		217,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		2,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Sovetsky Soyuz-Class",
+		"Northern Union-BB",
+		"Sovetsky Soyuz"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[705024] = {
+	nationality = 7,
+	oxy_max = 0,
+	type = 5,
+	name = "蘇維埃聯盟",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	ammo = 0,
+	id = 705024,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "SN Sovetsky Soyuz",
+	oxy_cost = 0,
+	skin_id = 705020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		4082,
+		216,
+		0,
+		116,
+		0,
+		60,
+		0,
+		20,
+		8,
+		28,
+		50,
+		0
+	},
+	attrs_growth = {
+		44825,
+		1053,
+		0,
+		1024,
+		0,
+		419,
+		0,
+		325,
+		217,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.5,
+		2,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Sovetsky Soyuz-Class",
+		"Northern Union-BB",
+		"Sovetsky Soyuz"
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[705041] = {
 	nationality = 7,
 	oxy_max = 0,
@@ -283145,6 +284673,514 @@ _G.pg.base.ship_data_statistics[705074] = {
 	},
 	equipment_proficiency = {
 		1.3,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Gangut-Class",
+		"Northern Union-BB"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[705081] = {
+	nationality = 7,
+	oxy_max = 0,
+	type = 5,
+	name = "波爾塔瓦",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 705081,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "SN Poltava",
+	oxy_cost = 0,
+	skin_id = 705080,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1082,
+		62,
+		0,
+		32,
+		0,
+		55,
+		0,
+		20,
+		5,
+		24.1,
+		60,
+		0
+	},
+	attrs_growth = {
+		28637,
+		764,
+		0,
+		709,
+		0,
+		381,
+		0,
+		320,
+		205,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.8,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Gangut-Class",
+		"Northern Union-BB"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[705082] = {
+	nationality = 7,
+	oxy_max = 0,
+	type = 5,
+	name = "波爾塔瓦",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 705082,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "SN Poltava",
+	oxy_cost = 0,
+	skin_id = 705080,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1346,
+		77,
+		0,
+		40,
+		0,
+		55,
+		0,
+		20,
+		5,
+		24.1,
+		60,
+		0
+	},
+	attrs_growth = {
+		28637,
+		764,
+		0,
+		709,
+		0,
+		381,
+		0,
+		320,
+		205,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.85,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Gangut-Class",
+		"Northern Union-BB"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[705083] = {
+	nationality = 7,
+	oxy_max = 0,
+	type = 5,
+	name = "波爾塔瓦",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 705083,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "SN Poltava",
+	oxy_cost = 0,
+	skin_id = 705080,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1874,
+		108,
+		0,
+		56,
+		0,
+		55,
+		0,
+		20,
+		5,
+		24.1,
+		60,
+		0
+	},
+	attrs_growth = {
+		28637,
+		764,
+		0,
+		709,
+		0,
+		381,
+		0,
+		320,
+		205,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.95,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Gangut-Class",
+		"Northern Union-BB"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[705084] = {
+	nationality = 7,
+	oxy_max = 0,
+	type = 5,
+	name = "波爾塔瓦",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 705084,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "SN Poltava",
+	oxy_cost = 0,
+	skin_id = 705080,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		2666,
+		154,
+		0,
+		80,
+		0,
+		55,
+		0,
+		20,
+		5,
+		24.1,
+		60,
+		0
+	},
+	attrs_growth = {
+		28637,
+		764,
+		0,
+		709,
+		0,
+		381,
+		0,
+		320,
+		205,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
 		2,
 		1
 	},
@@ -359382,6 +361418,522 @@ _G.pg.base.ship_data_statistics[9702064] = {
 	},
 	tag_list = {
 		"KirovMETA"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9702071] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 2,
+	name = "水星紀念·META",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 9702071,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Pamiat' Merkuria.META",
+	oxy_cost = 0,
+	skin_id = 9702070,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		611,
+		26,
+		36,
+		40,
+		0,
+		53,
+		0,
+		38,
+		25,
+		23,
+		88,
+		14
+	},
+	attrs_growth = {
+		10274,
+		357,
+		495,
+		544,
+		0,
+		368,
+		0,
+		537,
+		419,
+		0,
+		0,
+		170
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		261
+	},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		1.3,
+		0.9,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"PamiatMerkuriaMETA"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9702072] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 2,
+	name = "水星紀念·META",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 9702072,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Pamiat' Merkuria.META",
+	oxy_cost = 0,
+	skin_id = 9702070,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		760,
+		32,
+		45,
+		50,
+		0,
+		53,
+		0,
+		38,
+		25,
+		23,
+		88,
+		17
+	},
+	attrs_growth = {
+		10274,
+		357,
+		495,
+		544,
+		0,
+		368,
+		0,
+		537,
+		419,
+		0,
+		0,
+		170
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		262
+	},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.3,
+		0.9,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"PamiatMerkuriaMETA"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9702073] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 2,
+	name = "水星紀念·META",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 9702073,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Pamiat' Merkuria.META",
+	oxy_cost = 0,
+	skin_id = 9702070,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1058,
+		45,
+		63,
+		69,
+		0,
+		53,
+		0,
+		38,
+		25,
+		23,
+		88,
+		24
+	},
+	attrs_growth = {
+		10274,
+		357,
+		495,
+		544,
+		0,
+		368,
+		0,
+		537,
+		419,
+		0,
+		0,
+		170
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		263
+	},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.3,
+		0.9,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"PamiatMerkuriaMETA"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9702074] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 2,
+	name = "水星紀念·META",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 9702074,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Pamiat' Merkuria.META",
+	oxy_cost = 0,
+	skin_id = 9702070,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1506,
+		64,
+		89,
+		99,
+		0,
+		53,
+		0,
+		38,
+		25,
+		23,
+		88,
+		34
+	},
+	attrs_growth = {
+		10274,
+		357,
+		495,
+		544,
+		0,
+		368,
+		0,
+		537,
+		419,
+		0,
+		0,
+		170
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		264
+	},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.3,
+		0.9,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"PamiatMerkuriaMETA"
 	}
 }
 

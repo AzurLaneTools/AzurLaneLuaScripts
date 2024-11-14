@@ -2154,6 +2154,9 @@ temp = function()
 			["手"] = {
 				this = true
 			}
+		},
+		["力"] = {
+			this = true
 		}
 	}
 end
@@ -2515,6 +2518,13 @@ temp = function()
 		},
 		["拉"] = {
 			this = true
+		},
+		["爾"] = {
+			["塔"] = {
+				["瓦"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -3718,6 +3728,11 @@ temp = function()
 							}
 						}
 					}
+				},
+				["聯"] = {
+					["盟"] = {
+						this = true
+					}
 				}
 			}
 		},
@@ -4354,6 +4369,17 @@ temp = function()
 					["."] = {
 						["改"] = {
 							this = true
+						}
+					},
+					["·"] = {
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
 						}
 					}
 				}
@@ -7103,6 +7129,16 @@ temp()
 temp = function()
 	uv0["尾"] = {
 		["張"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["兇"] = {
+		["猛"] = {
 			this = true
 		}
 	}

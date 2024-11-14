@@ -14287,6 +14287,37 @@ _G.pg.base.item_data_statistics[21029] = {
 }
 
 
+_G.pg.base.item_data_statistics[21030] = {
+	open_directly = 0,
+	name = "結晶：水星紀念·META",
+	type = 4,
+	display = "水星紀念·META的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21030",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21030,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[21032] = {
 	open_directly = 0,
 	name = "結晶：吸血鬼·META",
@@ -22612,6 +22643,131 @@ _G.pg.base.item_data_statistics[30350] = {
 		{
 			9,
 			1417,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[30353] = {
+	open_directly = 1,
+	name = "外觀裝備箱(罪惡都市)",
+	type = 11,
+	display = "可以獲得一件隨機的罪惡都市風格外觀裝備",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxzuiedushi",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30353",
+	id = 30353,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			910,
+			1
+		},
+		{
+			9,
+			911,
+			1
+		},
+		{
+			9,
+			912,
+			1
+		},
+		{
+			9,
+			913,
+			1
+		},
+		{
+			9,
+			914,
+			1
+		},
+		{
+			9,
+			915,
+			1
+		},
+		{
+			9,
+			916,
+			1
+		},
+		{
+			9,
+			917,
+			1
+		},
+		{
+			9,
+			918,
+			1
+		},
+		{
+			9,
+			919,
+			1
+		},
+		{
+			9,
+			920,
+			1
+		},
+		{
+			9,
+			921,
+			1
+		},
+		{
+			9,
+			922,
+			1
+		},
+		{
+			9,
+			923,
+			1
+		},
+		{
+			9,
+			924,
+			1
+		},
+		{
+			9,
+			925,
+			1
+		},
+		{
+			9,
+			926,
+			1
+		},
+		{
+			9,
+			927,
 			1
 		}
 	},
@@ -31477,6 +31633,219 @@ _G.pg.base.item_data_statistics[30536] = {
 		{
 			9,
 			457,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_data_statistics[30537] = {
+	open_directly = 0,
+	name = "定向外觀裝備箱(罪惡都市)",
+	type = 13,
+	display = "使用後可從「罪惡都市」主題外觀裝備中任意選擇一種獲得1個",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxzuiedushizixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30537,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			910,
+			1
+		},
+		{
+			9,
+			911,
+			1
+		},
+		{
+			9,
+			912,
+			1
+		},
+		{
+			9,
+			913,
+			1
+		},
+		{
+			9,
+			914,
+			1
+		},
+		{
+			9,
+			915,
+			1
+		},
+		{
+			9,
+			916,
+			1
+		},
+		{
+			9,
+			917,
+			1
+		},
+		{
+			9,
+			918,
+			1
+		},
+		{
+			9,
+			919,
+			1
+		},
+		{
+			9,
+			920,
+			1
+		},
+		{
+			9,
+			921,
+			1
+		},
+		{
+			9,
+			922,
+			1
+		},
+		{
+			9,
+			923,
+			1
+		},
+		{
+			9,
+			924,
+			1
+		},
+		{
+			9,
+			925,
+			1
+		},
+		{
+			9,
+			926,
+			1
+		},
+		{
+			9,
+			927,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			910,
+			1
+		},
+		{
+			9,
+			911,
+			1
+		},
+		{
+			9,
+			912,
+			1
+		},
+		{
+			9,
+			913,
+			1
+		},
+		{
+			9,
+			914,
+			1
+		},
+		{
+			9,
+			915,
+			1
+		},
+		{
+			9,
+			916,
+			1
+		},
+		{
+			9,
+			917,
+			1
+		},
+		{
+			9,
+			918,
+			1
+		},
+		{
+			9,
+			919,
+			1
+		},
+		{
+			9,
+			920,
+			1
+		},
+		{
+			9,
+			921,
+			1
+		},
+		{
+			9,
+			922,
+			1
+		},
+		{
+			9,
+			923,
+			1
+		},
+		{
+			9,
+			924,
+			1
+		},
+		{
+			9,
+			925,
+			1
+		},
+		{
+			9,
+			926,
+			1
+		},
+		{
+			9,
+			927,
 			1
 		}
 	}

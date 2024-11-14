@@ -26,31 +26,31 @@ return {
 			},
 			sequence = {
 				{
-					"「松露馅填榛鸡、羊鞍肉配嫩菜、串烤波西米亚山鸡」",
+					"「松露餡填榛雞、羊鞍肉配嫩菜、串烤波希米亞山雞」",
 					1.5
 				},
 				{
-					"「虾粒意面、清炖甲鱼汤、奶油黄瓜」",
+					"「蝦粒義大利麵、燉煮甲魚湯、奶油黃瓜」",
 					3
 				},
 				{
-					"「鹅肝酱蛋奶酥、草莓馅饼、潘趣酒」",
+					"「鵝肝醬蛋奶酥、草莓派、潘趣酒」",
 					4.5
 				},
 				{
-					"「这样就~差不多了呢。」",
+					"「這樣就~差不多了呢。」",
 					6
 				},
 				{
-					"「宴会即将开幕，主宾依次落座。」",
+					"「宴會即將開幕，主賓依序落座。」",
 					7.5
 				},
 				{
-					"「希望这场招待能令你满意。」",
+					"「希望這場招待能令妳滿意。」",
 					9
 				},
 				{
-					"「如果满意的话，就请留下来吧——」",
+					"「如果滿意的話，就請留下來吧——」",
 					10.5
 				}
 			}
@@ -103,15 +103,15 @@ return {
 			},
 			sequence = {
 				{
-					"鸢尾教国首都",
+					"鳶尾教國首都",
 					1
 				},
 				{
-					"碧蓝航线临时办公楼",
+					"碧藍航線臨時辦公大樓",
 					2
 				},
 				{
-					"一段时间之前",
+					"一段時間之前",
 					3
 				}
 			}
@@ -125,7 +125,7 @@ return {
 			actor = 102050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，刚刚收到消息，北方联合舰队已经平安抵达安塔迪卡科考站了。",
+			say = "指揮官，剛剛收到消息，北方聯合艦隊已經平安抵達南極科考站了。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -161,7 +161,7 @@ return {
 			actor = 102050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过再之后，克莱蒙梭女士就与她在安塔迪卡的情报源失去了联系。",
+			say = "不過再之後，克里蒙梭女士就與她在南極的情報源失去了聯繫。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……通讯故障？",
+			say = "……通訊故障？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			actor = 102050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "克莱蒙梭女士说，她在安塔迪卡的情报源不止一处，在同一时间全部失去联系肯定不是简单的“故障”。",
+			say = "克里蒙梭女士說，她在南極的情報源不止一處，在同一時間全部失去聯繫肯定不是簡單的「故障」。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			actor = 102050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "或许是遭到了刻意的干扰，让外界无法获取安塔迪卡的情报。",
+			say = "或許是遭到了刻意的干擾，讓外界無法取得南極的情報。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……了解了，我这边会想些办法。",
+			say = "……了解了，我這邊會想些辦法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 102050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明白，海伦娜通讯结束。",
+			say = "明白，海倫娜通訊結束。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "人为设置的干扰……在不动用白鹰力量的前提下，只能找她来解决了。",
+			say = "人為設定的干擾……在不動用白鷹力量的前提下，只能找她來解決了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "映入眼帘的是——璀璨的星河。",
+			say = "映入眼簾的是——璀璨的星河。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……和之前看到的风景一样。",
+			say = "……和之前看到的風景一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……原来这就是她所说的加密频道。",
+			say = "……原來這就是她所說的加密頻道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你开始行动了呢，指挥官。",
+			say = "你開始行動了呢，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "毕竟不能对安塔迪卡之中酝酿的阴谋放任不管。",
+			say = "畢竟不能對南極之中醞釀的陰謀放任不管。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过……事不遂人愿，计划在执行时遇到了问题。",
+			say = "不過……事不遂人願，計劃在執行時遇到了問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "将整个安塔迪卡大陆与外部隔绝的干扰是么？",
+			say = "將整個南極大陸與外部隔絕的干擾是嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -403,7 +403,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没错，这个是观察者阴谋的一部分么？",
+			say = "沒錯，這個是觀察者陰謀的一部分嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不是，干扰不是观察者设置的。",
+			say = "不是，干擾不是觀察者設定的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不过~我能处理。",
+			say = "不過~我能處理。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……不是观察者设置的？那是谁？",
+			say = "……不是觀察者設定的？那是誰？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你很快就会知道了。",
+			say = "你很快就會知道了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……你对安塔迪卡此次事件究竟了解多少？",
+			say = "……妳對南極這次事件究竟了解多少？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "很多，我知道真正的幕后黑手是谁，知道她都已经做了什么，也知道她接下来要做什么。",
+			say = "很多，我知道真正的幕後黑手是誰，知道她都已經做了什麼，也知道她接下來要做什麼。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -529,7 +529,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“这些都还不能告诉我？”",
+			say = "「這些都還不能告訴我？」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "没错，因为这是应该由你来解决的事。",
+			say = "沒錯，因為這是應該由你來解決的事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -559,7 +559,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……那这样的话，你能把列克星敦的治疗方案给我么？",
+			say = "……那這樣的話，妳能把列星頓的治療方案給我嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "有了这份方案，萨拉托加就无需进行这样激进的行动。",
+			say = "有了這份方案，薩拉托加就無需進行這樣激進的行動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "劝住了萨拉托加，这次阴谋也就可以更轻松地化解了。",
+			say = "勸住了薩拉托加，這次陰謀也就可以更輕鬆的化解了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……木头。",
+			say = "……木頭。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -614,7 +614,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我要生气了哦。",
+			say = "我要生氣了哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -644,7 +644,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "是你想救她，不是么？",
+			say = "是你想救她，不是嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -672,7 +672,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你说的对，这也是应该由我来解决的事。",
+			say = "妳說的對，這也是應該由我來解決的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -703,7 +703,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "安塔迪卡的战场监控已经部署完毕。",
+			say = "南極的戰場監控已經部署完畢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -721,7 +721,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你该回去了。",
+			say = "你該回去了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -738,7 +738,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……虽然海伦娜一如既往地守口如瓶，不过总算是解决了一件大事。",
+			say = "……雖然海倫娜一如既往的守口如瓶，不過總算是解決了一件大事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -767,7 +767,7 @@ return {
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“战场监控部署完毕”么……来看看成效吧。",
+			say = "「戰場監控部署完畢」嗎……來看看成效吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -779,7 +779,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "海伦娜，孟菲斯，现在我们应该可以直接监控安塔迪卡战区内各阵营的情况了。",
+			say = "海倫娜，曼非斯，現在我們應該可以直接監控南極戰區內各陣營的情況了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -808,7 +808,7 @@ return {
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你们收到情报更新了么？",
+			say = "妳們收到情報更新了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -822,7 +822,7 @@ return {
 			actor = 102050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "收、收到了，情报正在如潮水般涌来……",
+			say = "收、收到了，情報正在如潮水般湧來……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -841,7 +841,7 @@ return {
 			actor = 102050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不但地图正在进行实时更新，还附带了各阵营各舰队近两周的情报整合……",
+			say = "不但地圖正在進行即時更新，還附帶了各陣營各艦隊近兩週的情報整合……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -860,7 +860,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "各阵营的行动简直一览无余！",
+			say = "各陣營的行動簡直一覽無遺！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -879,7 +879,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "整个安塔迪卡战区对我们来说仿佛变得透明了一样！",
+			say = "整個南極戰區對我們來說彷彿變的透明了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -897,7 +897,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "您的解决方案，难道是去找……“她们”？",
+			say = "您的解決方案，難道是去找……「她們」？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -913,7 +913,7 @@ return {
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没错，本次行动她们将作为我们的后援。",
+			say = "沒錯，本次行動她們將作為我們的後援。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -925,7 +925,7 @@ return {
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "首先来汇报一下各阵营的情况吧。",
+			say = "首先來報告一下各陣營的情況吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -958,7 +958,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……北方联合舰队已经成功进入了“融雪区”，目前信号停在原地不动，或许是在进行调查。",
+			say = "嗯……北方聯合艦隊已經成功進入了「融雪區」，目前信號停在原地不動，或許是在進行調查。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -976,44 +976,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "白鹰方面，“冰天使”行动的舰队已经在萨拉托加的带领下向着“融雪区”进发。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_541",
-			paintingNoise = true,
-			dir = 1,
-			actor = 102160,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "最后还是晚了{namecode:529:苏维埃同盟}一步呢。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "star_level_bg_541",
-			dir = 1,
-			actor = 102160,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "自悉尼方面赶来的皇家安塔迪卡舰队和推测的一样，现在也已进了安塔迪卡洋。",
+			say = "白鷹方面，「冰天使」行動的艦隊已經在薩拉托加的帶領下向著「融雪區」進發。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1032,7 +995,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过从俾斯麦海离开的铁血舰队行踪有些奇怪，她们一直在安塔迪卡洋的外围徘徊，并未登陆，似乎正在观望。",
+			say = "最後還是晚了蘇維埃聯盟一步呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1050,7 +1013,44 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "另外……记录显示，铁血的安塔迪卡要塞在不久前曾发出过遇敌警告，或许铁血舰队的行动与此有关。",
+			say = "從雪梨方面趕來的皇家南極艦隊和推測的一樣，現在也已進了南冰洋。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_541",
+			paintingNoise = true,
+			dir = 1,
+			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "不過從俾斯麥海離開的鐵血艦隊行蹤有些奇怪，她們一直在南冰洋的外圍徘徊，並未登陸，似乎正在觀望。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "star_level_bg_541",
+			dir = 1,
+			actor = 102160,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "另外……紀錄顯示，鐵血的南極要塞在不久前曾發出遇敵警告，或許鐵血艦隊的行動與此有關。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1066,7 +1066,7 @@ return {
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "遇敌警告么……遇敌类型呢？",
+			say = "遇敵警告嗎……遇敵類型呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1081,7 +1081,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还不清楚，铁血方面自己可能也一头雾水。",
+			say = "還不清楚，鐵血方面自己可能也一頭霧水。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1097,7 +1097,7 @@ return {
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好，继续保持监控。在我们开始行动前，尽可能收集情报。",
+			say = "好，繼續保持監控。在我們開始行動之前，盡可能收集情報。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

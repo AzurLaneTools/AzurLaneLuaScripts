@@ -9,7 +9,7 @@ return {
 			bgm = "theme-antarctica",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在电梯打开的瞬间，众人便迫不及待地冲了出去。",
+			say = "在電梯打開的瞬間，眾人便迫不及待地衝了出去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_xuejing_4",
 			hidePaintObj = true,
-			say = "毕竟，冰下海洋的魅力没有谁能抵挡。",
+			say = "畢竟，冰下海洋的魅力沒有誰能抵擋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_xuejing_4",
 			hidePaintObj = true,
-			say = "透过玻璃向远方眺望，窗外是一望无际的水面，以及难以想象的新奇地貌。",
+			say = "透過玻璃向遠方眺望，窗外是一望無際的水面，以及難以想像的新奇地形。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_xuejing_4",
 			hidePaintObj = true,
-			say = "正如众人所期待的那般。",
+			say = "正如眾人所期待的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好奇怪的景色才对！……不论是水还是石头。",
+			say = "好奇怪的景色才對！……不論是水還是石頭。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -108,7 +108,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这山这水这石头……还有远方的雾气……这里怎么看都不像是地下啊！",
+			say = "這山這水這石頭……還有遠方的霧氣……這裡怎麼看都不像是地下啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "准确来说，是冰层之下才对。",
+			say = "準確來說，是冰層之下才對。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，这里才是安塔迪卡隐藏在冰层之下的真实。",
+			say = "沒錯，這裡才是南極隱藏在冰層之下的真實。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——一片大地，与一片海洋。",
+			say = "——一片大地，與一片海洋。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			actor = 701110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:530:同盟}同志，你知道雾气后面有什么吗？",
+			say = "聯盟同志，妳知道霧氣後面有什麼嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还有水面下面呢！这片大海的水有多深，下面有什么？",
+			say = "還有水面下面呢！這片大海的水有多深，下面有什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有没有史前生物，恐怖大鱼之类的？！",
+			say = "有沒有史前生物，恐怖大魚之類的？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因为基地一直处于休眠状态，针对周边环境的调查项目自然也没有启动过。",
+			say = "因為基地一直處於休眠狀態，針對週邊環境的調查計畫自然也沒有啟動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过……那个不速之客倒进行了不少勘测调查。",
+			say = "不過……那個不速之客倒進行了不少勘測調查。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果数据没有被完全清除的话，我们或许能有所收获。",
+			say = "如果資料沒有被完全清除的話，我們或許能有所收穫。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -313,7 +313,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们现在所处的位置就是「圆环区」，数据中心就在前方综合平台的独立大楼里，我们快些过去吧。",
+			say = "我們現在所處位置就是「圓環區」，資料中心就在前方綜合平台的獨立大樓裡，我們快些過去吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -331,7 +331,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼，在千米冰层下的海面驰骋究竟是什么感觉呢！",
+			say = "哼哼，在千米冰層下的海面馳騁究竟是什麼感覺呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我已经迫不及待了！",
+			say = "我已經迫不及待了！",
 			painting = {
 				alpha = 0.3,
 				time = 1

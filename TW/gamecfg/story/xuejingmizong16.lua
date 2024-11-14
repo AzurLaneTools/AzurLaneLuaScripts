@@ -28,11 +28,11 @@ return {
 			},
 			sequence = {
 				{
-					"安塔迪卡大陆",
+					"南極大陸",
 					1
 				},
 				{
-					"融雪区·「智者之环」入口",
+					"融雪區·「智者之環」入口",
 					2
 				},
 				{
@@ -50,7 +50,7 @@ return {
 			actor = 701110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……我们成功回到地面了。",
+			say = "呼……我們成功回到地面了。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -85,7 +85,7 @@ return {
 			actor = 701110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没想到从地下往上走的时候倒是有这种直达通道呢。",
+			say = "沒想到從地下往上走的時候倒是有這種直達通道呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -103,7 +103,7 @@ return {
 			actor = 705080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "毕竟是紧急逃生通道，如果再曲曲折折的话，就没法起到应有的作用了。",
+			say = "畢竟是緊急逃生通道，如果再曲曲折折的話，就沒辦法起到應有的作用了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那我们为什么不在一开始就使用紧急逃生通道下去呢！",
+			say = "那我們為什麼不在一開始就使用緊急逃生通道下去呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -149,7 +149,7 @@ return {
 			actor = 705080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……因为这条通道只能从内部启用，不然就无法保证安全了。",
+			say = "……因為這條頻道只能從內部啟用，不然就無法保證安全了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -166,7 +166,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来如此……那我们接下来该怎么做，立刻返回科考站么？",
+			say = "原來如此……那我們接下來該怎麼做，立刻返回科考站嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,9 +182,9 @@ return {
 			bgName = "star_level_bg_544",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			hidePaintObj = true,
-			say = "嗯，接下来——",
+			say = "嗯，接下來——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,11 +229,11 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_544",
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳……",
+			say = "咳…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（刚刚又是……幻觉？）",
+			say = "（剛剛又是……幻覺？）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			actor = 705080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:530:同盟}同志？！",
+			say = "聯盟同志？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没事，我没事……总之，现在情况紧急。",
+			say = "沒事，我沒事……總之，現在情況緊急。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们立刻返回科考站，即刻——",
+			say = "我們立刻返回科考站，即刻——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -342,9 +342,9 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_xuejing_cg8",
 			bgm = "theme-merkuriameta",
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			hidePaintObj = true,
-			say = "——撤离……",
+			say = "——撤離……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,9 +377,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "水星紀念",
 			hidePaintObj = true,
-			say = "来尝尝这道菜吧——松露馅填榛鸡。",
+			say = "來嚐嚐這道菜吧——松露餡填榛雞。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -390,13 +390,13 @@ return {
 			}
 		},
 		{
-			actorName = "水星纪念",
+			actorName = "水星紀念",
 			side = 2,
 			bgName = "bg_xuejing_cg8",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也算是我在历次宴会中很喜欢的一道菜哦。",
+			say = "也算是我在歷次宴會中很喜歡的一道菜哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,9 +412,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			hidePaintObj = true,
-			say = "（……松露馅填榛鸡？）",
+			say = "（……松露餡填榛雞？）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
-			say = "{namecode:529:苏维埃同盟}发现自己此刻，正坐在长桌的一端",
+			say = "蘇維埃聯盟發現自己此刻，正坐在長桌的一端",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
-			say = "面前是美味佳肴。香气迎面而来，混合着宫殿的烛光，令人目眩。",
+			say = "面前是美味佳餚。香氣迎面而來，混合著宮殿的燭光，令人目眩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,9 +452,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			hidePaintObj = true,
-			say = "（这里是一场在宫殿之中举行的……宴会？）",
+			say = "（這裡是一場在宮殿之中舉行的……宴會？）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,13 +465,13 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			side = 2,
 			bgName = "bg_xuejing_cg8",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（……我应该是在撤离的路上……为什么会在这里……）",
+			say = "（……我應該是在撤離的路上……為什麼會在這裡……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,9 +487,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			hidePaintObj = true,
-			say = "（嗯……撤离？从哪里撤离？）",
+			say = "（嗯……撤離？從哪裡撤離？）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,13 +500,13 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			side = 2,
 			bgName = "bg_xuejing_cg8",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（脑海中仿佛有雾气正在弥漫……）",
+			say = "（腦海中彷彿有霧氣正在瀰漫……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -522,9 +522,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			hidePaintObj = true,
-			say = "（不行……什么想不起来了……）",
+			say = "（不行……什麼都想不起來了……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -540,9 +540,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "水星紀念",
 			hidePaintObj = true,
-			say = "嗯？怎么你一直在看，这道菜不合胃口么？",
+			say = "嗯？怎麼妳一直在看，這道菜不合胃口？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -553,13 +553,13 @@ return {
 			}
 		},
 		{
-			actorName = "水星纪念",
+			actorName = "水星紀念",
 			side = 2,
 			bgName = "bg_xuejing_cg8",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样的话，试试这道清炖甲鱼汤如何？美味可口，鲜而不腻哦~",
+			say = "這樣的話，試試這道清燉甲魚湯如何？美味可口，鮮而不膩哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,9 +575,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			hidePaintObj = true,
-			say = "……这样么。那我就不客气了……",
+			say = "……這樣嗎。那我就不客氣了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -592,7 +592,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
-			say = "思考片刻后，{namecode:529:苏维埃同盟}决定顺应幻境的发展，看看接下来会发生什么。",
+			say = "思考片刻後，蘇維埃聯盟決定順應幻境的發展，看看接下來會發生什麼事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,20 +603,20 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
-			say = "因此，她拿起勺子，将一口汤送入了嘴中。",
+			say = "因此，她拿起勺子，將一口湯送入了嘴中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			side = 2,
 			bgName = "bg_xuejing_cg8",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（……汤，是有味道的。）",
+			say = "（……湯，是有味道的。）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -632,9 +632,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			hidePaintObj = true,
-			say = "（这里不是单纯的幻觉……亦或是……连感知也被迷惑了呢。）",
+			say = "（這裡不是單純的幻覺……亦或是……連感知也被迷惑了呢。）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -650,9 +650,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "水星紀念",
 			hidePaintObj = true,
-			say = "哼哼，看你的表情，对这份汤还算满意？",
+			say = "哼哼，看妳的表情，對這份湯還算滿意？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -663,13 +663,13 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			side = 2,
 			bgName = "bg_xuejing_cg8",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……确实是一份美味的汤。",
+			say = "……確實是一份美味的湯。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -685,9 +685,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			hidePaintObj = true,
-			say = "水星纪念，这里是哪里，这场宴会又是什么？",
+			say = "水星紀念，這裡是哪裡，這場宴會又是什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -703,9 +703,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "水星紀念",
 			hidePaintObj = true,
-			say = "这里是我的城堡哦~宴会的话，当然是欢迎你的宴会呀~",
+			say = "這裡是我的城堡哦~宴會的話，當然是歡迎妳的宴會呀~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -716,13 +716,13 @@ return {
 			}
 		},
 		{
-			actorName = "水星纪念",
+			actorName = "水星紀念",
 			side = 2,
 			bgName = "bg_xuejing_cg8",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么样，这里的环境还不错吧？",
+			say = "怎麼樣，這裡的環境還不錯吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -733,13 +733,13 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			side = 2,
 			bgName = "bg_xuejing_cg8",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯、我……还没见过这样的……宴会。",
+			say = "嗯、我……還沒看過這樣的……宴會。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -750,13 +750,13 @@ return {
 			}
 		},
 		{
-			actorName = "水星纪念",
+			actorName = "水星紀念",
 			side = 2,
 			bgName = "bg_xuejing_cg8",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，除了永不落幕的宴会之外，这座城堡还可以做到很多神奇的事哦。",
+			say = "嘿嘿，除了永不落幕的宴會之外，這座城堡還可以做到很多神奇的事哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -772,9 +772,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "水星紀念",
 			hidePaintObj = true,
-			say = "比如于花海漫步，于冰原狩猎、亦或是于海滨驰骋~",
+			say = "例如花海漫步，於冰原狩獵、亦或是海濱馳騁~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -785,13 +785,13 @@ return {
 			}
 		},
 		{
-			actorName = "水星纪念",
+			actorName = "水星紀念",
 			side = 2,
 			bgName = "bg_xuejing_cg8",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么样，想不想留在这里？",
+			say = "怎麼樣，想不想留在這裡？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -806,7 +806,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
-			say = "水星纪念的话仿佛催动着脑海中雾气的扩散。",
+			say = "水星紀念的話彷彿催動著腦海中霧氣的擴散。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -817,20 +817,20 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
-			say = "恍惚间，{namecode:529:苏维埃同盟}产生了一个念头，此处才是现实，而那遥远的冰原，只是一场幻梦。",
+			say = "恍惚間，蘇維埃聯盟產生了一個念頭，這裡才是現實，而那遙遠的冰原，只是一場幻夢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			side = 2,
 			bgName = "bg_xuejing_cg8",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……留在这里，也好。",
+			say = "……留在這裡，也好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -846,7 +846,7 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			hidePaintObj = true,
 			say = "但是……其他同伴呢？",
 			painting = {
@@ -864,9 +864,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "水星紀念",
 			hidePaintObj = true,
-			say = "如果你愿意的话，可以让她们一起来，一同生活在这座永恒的乐园之中哦。",
+			say = "如果妳願意的話，可以讓她們一起來，一同生活在這座永恆的樂園之中哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -877,13 +877,13 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			side = 2,
 			bgName = "bg_xuejing_cg8",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "永恒的乐园……",
+			say = "永恆的樂園……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -898,7 +898,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
-			say = "这个词如同天籁，如此令人安心，令人陶醉。",
+			say = "這個字如同天籟，如此令人安心，令人陶醉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -909,7 +909,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
-			say = "恍惚间，{namecode:529:苏维埃同盟}看到了一个世界。",
+			say = "恍惚間，蘇維埃聯盟看到了一個世界。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -920,7 +920,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
-			say = "一个鲜花美酒不断，不分阵营的人欢聚一堂的世界。",
+			say = "一個鮮花美酒不斷，不分陣營的人歡聚一堂的世界。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -932,9 +932,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			hidePaintObj = true,
-			say = "如此令人松懈，想要沉沦其中……",
+			say = "如此令人鬆懈，想要沉淪……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -945,7 +945,7 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			side = 2,
 			bgName = "bg_xuejing_cg8",
 			dir = 1,
@@ -967,7 +967,7 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "水星紀念",
 			hidePaintObj = true,
 			say = "……值得警惕？",
 			painting = {
@@ -985,9 +985,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			hidePaintObj = true,
-			say = "因为……这样的乐园，此刻并不存在于世间。",
+			say = "因為……這樣的樂園，此刻並不存在於世間。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1003,9 +1003,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			hidePaintObj = true,
-			say = "它的存在只会令人选择逃避，逃避现实，逃避危险……逃避自己为之奋斗的一切。",
+			say = "它的存在只會令人選擇逃避，逃避現實，逃避危險……逃避自己為之奮鬥的一切。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1016,7 +1016,7 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			side = 2,
 			bgName = "bg_xuejing_cg8",
 			dir = 1,
@@ -1037,7 +1037,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_xuejing_cg8",
 			hidePaintObj = true,
-			say = "雾气，在此刻产生了裂痕。",
+			say = "霧氣，在此刻產生了裂痕。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1071,9 +1071,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "水星紀念",
 			hidePaintObj = true,
-			say = "可是，你所为之奋斗的，不就是这样一个如乐园般的世界么？",
+			say = "可是，妳所為之奮鬥的，不就是這樣一個如樂園般的世界麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1089,9 +1089,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "水星紀念",
 			hidePaintObj = true,
-			say = "就算不是现实又有什么关系？选择逃避又有什么关系？",
+			say = "就算不是現實又有什麼關係？選擇逃避又有什麼關係？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1102,13 +1102,13 @@ return {
 			}
 		},
 		{
-			actorName = "水星纪念",
+			actorName = "水星紀念",
 			side = 2,
 			bgName = "bg_xuejing_cg8",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "至少你还有你所珍视的人可以在这里远离纷争与痛苦，快乐地活下去不是么？",
+			say = "至少妳還有妳所珍視的人可以在這裡遠離紛爭與痛苦，快樂地活下去不是嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1124,9 +1124,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			hidePaintObj = true,
-			say = "……你是想让我背叛自己的理想和使命，沉浸在虚假的快乐中荒废余生么。",
+			say = "……妳是想讓我背叛自己的理想和使命，沉浸在虛假的快樂中荒廢餘生。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1142,9 +1142,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "水星紀念",
 			hidePaintObj = true,
-			say = "何来背叛？我只是让你直接抵达了终点而已！",
+			say = "何來背叛？我只是讓妳直接抵達了終點而已！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1165,9 +1165,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "水星紀念",
 			hidePaintObj = true,
-			say = "你们的理想与使命，难道不是为了创造这样的世界么？",
+			say = "妳們的理想與使命，難道不是為了創造這樣的世界嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1183,9 +1183,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			hidePaintObj = true,
-			say = "……看来你什么都不懂啊。",
+			say = "……看來妳什麼都不懂啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1201,9 +1201,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "水星紀念",
 			hidePaintObj = true,
-			say = "……是，我是不懂，我从来就没懂过。",
+			say = "……是，我是不懂，我從來就沒懂過。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1229,9 +1229,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "水星紀念",
 			hidePaintObj = true,
-			say = "……你们一个个总是念叨着这些，然后自顾自的去牺牲……",
+			say = "理想和使命……妳們一個個總是念著這些，然後自顧自的去犧牲……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1247,9 +1247,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "水星紀念",
 			hidePaintObj = true,
-			say = "可是这样的牺牲又换来了些什么呢？",
+			say = "可是這樣的犧牲又換來了些什麼呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1265,9 +1265,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			hidePaintObj = true,
-			say = "纵使牺牲不会立刻改变什么，但是，总归还是让世界向着美好的未来靠近了一小步。",
+			say = "縱使犧牲不會立刻改變什麼，但是，總歸還是讓世界向著美好的未來靠近了一小步。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1283,9 +1283,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			hidePaintObj = true,
-			say = "况且，总要有人去牺牲，不是么？",
+			say = "況且，總要有人去犧牲，不是嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1301,9 +1301,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "水星紀念",
 			hidePaintObj = true,
-			say = "那也不需要一定是你们吧！",
+			say = "那也不需要一定是妳們吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1319,9 +1319,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "水星紀念",
 			hidePaintObj = true,
-			say = "……为什么，不管在什么时代你们总是这样。",
+			say = "……為什麼，不管在什麼時代妳們總是這樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1337,9 +1337,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "水星紀念",
 			hidePaintObj = true,
-			say = "……只为自己，让自己和自己所在意的人都能活下去到底有什么不好。",
+			say = "……因此只為自己，讓自己和自己所在意的人都能活下去到底有什麼不好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1355,9 +1355,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			hidePaintObj = true,
-			say = "……你不是我所认识的水星纪念，对么？",
+			say = "……妳不是我所認識的水星紀念，對嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1373,7 +1373,7 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "水星紀念",
 			hidePaintObj = true,
 			say = "…………",
 			painting = {
@@ -1391,9 +1391,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "水星紀念",
 			hidePaintObj = true,
-			say = "欸~果然还是瞒不住么。",
+			say = "欸~果然還是瞞不住嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1409,9 +1409,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "{namecode:529:苏维埃同盟}",
+			actorName = "蘇維埃聯盟",
 			hidePaintObj = true,
-			say = "……你究竟是谁？",
+			say = "……妳究竟是誰？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1427,9 +1427,9 @@ return {
 			bgName = "bg_xuejing_cg8",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "水星纪念",
+			actorName = "水星紀念",
 			hidePaintObj = true,
-			say = "呵呵，你不是已经猜到了么？",
+			say = "呵呵，妳不是已經猜到了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1447,7 +1447,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……关于我的真面目~",
+			say = "……關於我的真面目~",
 			painting = {
 				alpha = 0.3,
 				time = 1

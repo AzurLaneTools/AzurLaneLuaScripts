@@ -28,15 +28,15 @@ return {
 			},
 			sequence = {
 				{
-					"审判庭总部大楼",
+					"審判庭總部大樓",
 					1
 				},
 				{
-					"战役指挥中心",
+					"戰役指揮中心",
 					2
 				},
 				{
-					"一段时间后",
+					"一段時間後",
 					3
 				}
 			}
@@ -47,7 +47,7 @@ return {
 			bgm = "story-finalbattle-unity",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在海伦娜·META的再次协助下，水星纪念·META在安塔迪卡设下的干扰彻底沦为了摆设。",
+			say = "在海倫娜META的再次協助下，水星紀念META在南極設下的干擾徹底淪為了擺設。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -75,7 +75,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "稳定又安全的通讯频道被重新建立起来。",
+			say = "穩定又安全的通訊頻道重新建立。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "随着命令一条条发出，安塔迪卡洋中各支力量逐渐形成了一个整体——联合舰队再次出现了。",
+			say = "隨著命令一條條發出，南冰洋中各隻力量逐漸形成了一個整體——聯合艦隊再次出現了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "甚至萨拉托加还调来了一支隶属于帕克菲克洋战区的白鹰舰队。",
+			say = "甚至薩拉托加也調來了一隻隸屬於太平洋戰區的白鷹艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,19 +108,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "她们“恰好”在邻近海域执行任务。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "恰好啊……这算是她事先为自己准备的预备队么。",
+			say = "她們「恰好」在鄰近海域執行任務。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +120,19 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不愧是萨拉托加，连企业的羊毛都能薅到……",
+			say = "恰好啊……這算是她事先為自己準備的預備隊嗎。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "不愧是薩拉托加，連企業的羊毛都能薅到……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此刻，各大阵营的科考站撤离计划正在同步进行。",
+			say = "此刻，各大陣營的科考站撤離計畫正在同步進行。",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -176,7 +176,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "白鹰站和皇家站相对来说远离战场，目前人员已经全部在护送下乘船离开。",
+			say = "白鷹站和皇家站相對來說遠離戰場，目前人員已經全部在護送下乘船離開。",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -196,7 +196,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "铁血正在按照之前的计划前往北方联合的科考站，之后会集中进行撤离。",
+			say = "鐵血正依照先前的計畫前往北方聯合的科考站，之後會集中進行撤離。",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -217,7 +217,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "各科考站的配属舰队将全程护航，在撤离行动完成前不参加作战行动。",
+			say = "各科考站的配屬艦隊將全程護航，在撤離行動完成不參與作戰行動。",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -239,7 +239,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "根据各处发来的侦察报告，此刻的安塔迪卡并未出现如上次一般的，能够引导海洛芬特“降临”的“神之茧”。",
+			say = "根據各處發來的偵察報告，此刻的南極並未出現如上次一般的，能夠引導海洛芬特「降臨」的「神之繭」。",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -261,7 +261,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "迪洛伊军团虽然在尽全力散布白色物质，但其扩散缓慢，与上次不可同日而语。",
+			say = "迪洛伊軍團雖然在盡全力散佈白色物質，但擴散緩慢，與上次不可同日而語。",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -283,7 +283,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这些都印证了我最开始的判断。",
+			say = "這些都印證了我最開始的判斷。",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -305,7 +305,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "或许水星纪念·META并没有如马可波罗一般制定了完整的改造计划，只是在随心所欲地胡搅蛮缠而已……",
+			say = "或許水星紀念·META並沒有如馬可波羅一般制定了完整的改造計劃，只是在隨心所欲地胡攪蠻纏而已……",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -327,7 +327,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样的话，只需要将其消灭，应该就能直接结束这场危机。",
+			say = "這樣的話，只需要將其消滅，應該就能直接結束這場危機。",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -349,7 +349,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "或者至少也能保证，事情不会变得更加糟糕。",
+			say = "或者至少也能保證，事情不會變的更糟。",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -371,7 +371,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "幸运的是，水星纪念·META对于{namecode:529:苏维埃同盟}的舰队一直保持着极高的关注度。",
+			say = "幸運的是，水星紀念·META對於蘇維埃聯盟的艦隊一直保持著極高的關注。",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -394,7 +394,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因而完全放弃了对周围状况的感知。",
+			say = "因而完全放棄了對周遭狀況的感知。",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -417,7 +417,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样，就给了我们将其引入指定区域内进行歼灭的选项。",
+			say = "這樣，就給了我們將其引入指定區域內進行殲滅的選項。",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -441,7 +441,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此刻，{namecode:529:苏维埃同盟}一行人正在从“融雪区”向着预定作战区域撤离。",
+			say = "此刻，蘇維埃聯盟一行人正從「融雪區」向預定作戰區域撤離。",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -466,7 +466,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "白鹰将会提供空中支援以期让撤退行为更加顺利。",
+			say = "白鷹將會提供空中支援以期讓撤退行為更加順利。",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -491,7 +491,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果能激起水星纪念·META的胜负心，让她主动跳入陷阱就更好了。",
+			say = "如果能激起水星紀念·META的勝負心，讓她主動跳入陷阱就更好了。",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -517,7 +517,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "听{namecode:529:苏维埃同盟}说，她的情绪并不稳定。",
+			say = "聽蘇維埃聯盟說，她的情緒並不穩定。",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -543,7 +543,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "与此同时，由{namecode:462:布伦希尔德}带领的，包含{namecode:521:兴登堡}、{namecode:519:菲利克斯}两艘计划舰在内的铁血先遣舰队已经抵达了伏击区。",
+			say = "同時，由布倫希爾德帶領的，包含興登堡、菲利克斯兩艘計畫艦在內的鐵血先遣艦隊已經抵達了伏擊區。",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -570,7 +570,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "萨拉托加的舰队主力则正从此方向赶来。",
+			say = "薩拉托加的艦隊主力則正從此方向趕來。",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -597,7 +597,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其中包括战列舰华盛顿、北卡罗来纳、科罗拉多、马里兰、西弗吉尼亚，航空母舰萨拉托加、突击者、独立。",
+			say = "其中包括戰列艦華盛頓、北卡羅來納、科羅拉多、馬里蘭、西維吉尼亞，航空母艦薩拉托加、遊騎兵、獨立。",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -624,7 +624,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "以及数十艘巡洋舰与驱逐舰……",
+			say = "以及數十艘巡洋艦與驅逐艦……",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -651,7 +651,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "除此之外，怨仇带领的皇家安塔迪卡舰队、{namecode:453:海因里希亲王}带领的铁血的增援舰队……",
+			say = "除此之外，怨仇帶領的皇家南極艦隊、海因里希親王帶領的鐵血的增援艦隊……",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -677,7 +677,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "以及萨拉托加的预备舰队——由邦克山带领的帕克菲克洋舰队的一部分将会陆续从该方向赶来。",
+			say = "以及薩拉托加的預備艦隊——由碉堡山帶領的太平洋艦隊的一部分將會陸續從該方向趕來。",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -704,7 +704,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这里，就是决战的地方——",
+			say = "這裡，就是決戰的地方——",
 			canMarkNode = {
 				"storymap_nanjidalu",
 				{
@@ -732,7 +732,7 @@ return {
 			bgm = "theme-sovietunion",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "安塔迪卡大陆·冰原",
+			say = "南極大陸·冰原",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -763,7 +763,7 @@ return {
 			actor = 107039,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "能听到么，{namecode:529:苏维埃同盟}，现在你们情况如何？",
+			say = "聽得到嗎，蘇維埃聯盟，現在妳們情況如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -781,7 +781,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "受损在可控范围内，预计会准时抵达目标区域。",
+			say = "受損在可控範圍內，預計會準時抵達目標區域。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -799,7 +799,7 @@ return {
 			actor = 107039,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "空中支援已经在路上了，一定要坚持住哦！",
+			say = "空中支援已經在路上了，一定要撐住哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -817,7 +817,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "感谢你的支援，只是……常规的舰载机空袭对于迪洛伊所造成的杀伤恐怕十分有限。",
+			say = "謝謝妳的支援，只是……常規的艦載機空襲對於迪洛伊所造成的殺傷恐怕十分有限。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -835,7 +835,7 @@ return {
 			actor = 107039,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼~谁说赶来支援的只有舰载机啦？",
+			say = "哼哼~誰說趕來支援的只有艦載機啦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -853,7 +853,7 @@ return {
 			actor = 107039,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我这次专门准备了些好东西呢，敬请期待哦~！",
+			say = "我這次專門準備了些好東西呢，敬請期待哦~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -871,7 +871,7 @@ return {
 			actor = 404050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:530:同盟}女士，我也已带领舰队做好了接应准备，只等诸位到来了。",
+			say = "聯盟女士，我也帶領艦隊做好了接應準備，只等諸位到來了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -889,7 +889,7 @@ return {
 			actor = 403090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "增援舰队正在全速——赶来！",
+			say = "增援艦隊正全速——趕來！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -926,7 +926,7 @@ return {
 			actor = 107170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……帕克菲克洋战区所属，邦克山，正在带领舰队全速而来。",
+			say = "……太平洋戰區所屬，碉堡山，正在帶領艦隊全速而來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -944,7 +944,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "皇家安塔迪卡舰队也将在三小时内抵达作战海域，很荣幸能与诸位并肩作战。",
+			say = "皇家南極艦隊也將在三小時內抵達作戰海域，很榮幸能與諸位並肩作戰。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -962,7 +962,7 @@ return {
 			actor = 101480,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这里是{namecode:525:英格拉罕}，白鹰和皇家的撤离行动已经基本完成，我即将前往战场支援诸位的作战行动。",
+			say = "這裡是英格拉罕，白鷹和皇室的撤離行動基本上已經完成，我即將前往戰場支援諸位的作戰行動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -980,7 +980,7 @@ return {
 			actor = 703010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = false,
-			say = "北方联合和铁血的撤离仍在进行中，我会尽快完成。",
+			say = "北方聯合和鐵血的撤離仍在進行中，我會盡快完成。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -998,7 +998,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明白，诸位都辛苦了。",
+			say = "明白，諸位都辛苦了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1016,7 +1016,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "让我们各尽其职，决战之地见。",
+			say = "讓我們各盡其職，決戰之地見。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1033,7 +1033,7 @@ return {
 			actor = 705080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……真没想到，指挥官人坐在欧罗巴还能调动的起这么多力量啊。",
+			say = "……真沒想到，指揮官坐在歐洲還能調動的起這麼多力量啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1067,7 +1067,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，现状的展开也早已超出了我的设想……",
+			say = "沒錯，現狀的展開也早已超越了我的設想……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1085,7 +1085,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可，这才是我们看好的指挥官同志，不是么？",
+			say = "但，這才是我們看好的指揮官同志，不是嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1103,7 +1103,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……将水星纪念·META引导到指定区域予以歼灭的计划，就包在我们身上吧。",
+			say = "……將水星紀念·META引導到指定區域予以殲滅的計劃，就包在我們身上吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1

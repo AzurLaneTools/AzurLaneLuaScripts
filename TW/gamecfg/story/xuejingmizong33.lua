@@ -28,7 +28,7 @@ return {
 			},
 			sequence = {
 				{
-					"重樱本岛",
+					"重櫻本島",
 					1
 				},
 				{
@@ -36,7 +36,7 @@ return {
 					2
 				},
 				{
-					"事件结束后的某一日",
+					"事件結束後的某一日",
 					3
 				}
 			}
@@ -49,7 +49,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……这次真是出差了好久好久……",
+			say = "呼……這次真是出差了好久好久……",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -83,7 +83,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过我终于——回家了！",
+			say = "不過我終於——回家了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也不知道{namecode:74:长门}大人急召我回来是为了什么事……",
+			say = "也不知道長門大人急召我回來是為了什麼事……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -117,7 +117,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过正好，我这边也有好多好多发现要报告呢！",
+			say = "不過正好，我這邊也有很多發現要報告呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_unnamearea_0",
 			hidePaintObj = true,
-			say = "咚咚咚——（敲门声）",
+			say = "咚咚咚——（敲門聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "姐姐、{namecode:74:长门}大人、大前辈，我回来啦~",
+			say = "姊姊、長門大人、大前輩，我回來啦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -179,7 +179,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……欸，没人？",
+			say = "……欸，沒人？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……大前辈的宅邸是这里没错啊。",
+			say = "……大前輩的宅邸是這裡沒錯。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "临时有事都出门了么……？",
+			say = "臨時有事都出門了嗎……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,7 +224,7 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "通訊器",
 			side = 2,
 			bgName = "bg_unnamearea_0",
 			hidePaintObj = true,
@@ -242,7 +242,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……咦？通讯是通畅的，但是无人接听……?",
+			say = "……咦？通訊是通暢的，但是無人接聽……?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这、这究竟是怎么回事？",
+			say = "……這、這究竟是怎麼回事？",
 			painting = {
 				alpha = 0.3,
 				time = 1

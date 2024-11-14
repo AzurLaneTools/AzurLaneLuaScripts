@@ -11942,7 +11942,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "亞爾薇特、Z47等角色建造機率UP!"
+	tip = "每累計建造200次可獲得海上傳奇艦船 {namecode:529}(最多4次)"
 }
 
 
@@ -19217,11 +19217,11 @@ _G.pg.base.gametip.ur_exchange_help_tip = {
 需要收集「特裝原型」進行兌換
 
  ■ 「特裝原型」可通過以下途徑獲取：
-通過特裝原型周常任務，完成每日日常任務每周可以獲得「特裝原型」400個
+通過特裝原型周常任務，完成每日日常任務每周可以獲得「特裝原型」500個
 還可以通過出擊擊破主線、活動、作戰檔案、主線困難關卡的BOSS、完成科研項目或退役非改造海上傳奇稀有度角色獲得
 （退役通過改造提升為海上傳奇稀有度的角色無法獲得）
 
-每月的特裝原型獲取數量上限為4000
+每月的特裝原型獲取數量上限為5000
 每月1日0點刷新可獲取數量
 *部分活動獲取的特裝原型不計入每月上限，會進行註明
 ]]
@@ -27668,6 +27668,16 @@ _G.pg.base.gametip.loveletter_recover_text2 = {
 
 _G.pg.base.gametip.battle_text_common_1 = {
 	tip = "敵人正在準備某種強大的攻擊，請<color=#f1f102>集中火力將其打斷</color>！"
+}
+
+
+_G.pg.base.gametip.battle_text_common_2 = {
+	tip = "警告：偵測到<color=#ffc038>戰鬥資料異常</color>，我方<color=#f1f102>特定裝備與技能效果失效！</color>"
+}
+
+
+_G.pg.base.gametip.battle_text_common_3 = {
+	tip = "<color=#f1f102>敵方傷害大幅提高，同時會隨著時間流逝增加其所受的傷害。</color>"
 }
 
 

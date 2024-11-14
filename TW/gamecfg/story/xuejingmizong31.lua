@@ -28,15 +28,15 @@ return {
 			},
 			sequence = {
 				{
-					"银底洋",
+					"印度洋",
 					1
 				},
 				{
-					"某处",
+					"某處",
 					2
 				},
 				{
-					"事件结束后的某一日",
+					"事件結束後的某一日",
 					3
 				}
 			}
@@ -50,7 +50,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "啧……有点意思，没想到审判庭还隐藏着这种程度的力量。",
+			say = "嘖……有點意思，沒想到審判庭還隱藏著這種程度的力量。",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -85,7 +85,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "营救马可波罗的事，只能等后面再说了……",
+			say = "營救馬可波羅的事，只能等後面再說了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -102,7 +102,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "眼下——还是继续削弱这里的实验机关好了。",
+			say = "眼下——還是繼續削弱這裡的實驗機關好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "净化者的主机……应该就在这附近才对。",
+			say = "淨化者的主機……應該就在這附近才對。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "让我瞧瞧♪~让我看看♪~净化者的主机在~哪里呢♪~",
+			say = "讓我瞧瞧♪~讓我看看♪~淨化者的主機在~哪裡呢♪~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -154,7 +154,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#FF9B93",
 			actor = 307040,
-			actorName = "飞龙？",
+			actorName = "飛龍？",
 			hidePaintObj = true,
 			say = "…………",
 			typewriter = {
@@ -170,7 +170,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……这是什么？",
+			say = "……這是什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -206,7 +206,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "为什么在这里会有一个孤零零的棋子。",
+			say = "為什麼這裡會有一個孤零零的棋子。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "净化者就算再倾尽全力去支援安塔迪卡。",
+			say = "淨化者就算再傾盡全力去支援南極。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "留下来防御自己主机的也不至于就只有一个棋子吧……",
+			say = "留下來防禦自己主機的也不至於就只有一個棋子吧…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#FF9B93",
 			actor = 307040,
-			actorName = "飞龙？",
+			actorName = "飛龍？",
 			hidePaintObj = true,
 			say = "…………",
 			typewriter = {
@@ -289,7 +289,7 @@ return {
 			bgName = "star_level_bg_504",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "轟————————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "欸~轻松搞定——哇啊啊啊！",
+			say = "欸~輕鬆搞定——哇啊啊啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			bgName = "star_level_bg_504",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "轟————————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "敌、敌袭？！",
+			say = "敵、敵襲？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "而且还是这种威力……什么人？！",
+			say = "而且還是這種威力……什麼人？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			bgName = "star_level_bg_504",
 			dir = 1,
 			actor = 900314,
-			actorName = "苍龙·META",
+			actorName = "蒼龍·META",
 			hidePaintObj = true,
 			say = "……………………",
 			painting = {
@@ -465,7 +465,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "这……这又是什么东西？",
+			say = "這……這又是什麼東西？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "从哪儿冒出来的……？",
+			say = "從哪裡冒出來的……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,7 +501,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "情报里从来没提到过啊……？",
+			say = "情報裡從來沒提過啊……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,7 +519,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "…………实验场β，好可怕！",
+			say = "…………實驗場β，好可怕！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -546,7 +546,7 @@ return {
 			bgName = "star_level_bg_504",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰————————！",
+			say = "轟————————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

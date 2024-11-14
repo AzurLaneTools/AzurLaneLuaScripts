@@ -1538,6 +1538,12 @@ pg.ship_data_group = setmetatable({
 		[70110] = {
 			535
 		},
+		[70111] = {
+			626
+		},
+		[70112] = {
+			627
+		},
 		[70201] = {
 			262
 		},
@@ -1568,6 +1574,9 @@ pg.ship_data_group = setmetatable({
 		[70501] = {
 			437
 		},
+		[70502] = {
+			438
+		},
 		[70504] = {
 			440
 		},
@@ -1579,6 +1588,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[70507] = {
 			587
+		},
+		[70508] = {
+			628
 		},
 		[70701] = {
 			538
@@ -1996,6 +2008,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[970104] = {
 			30029
+		},
+		[970207] = {
+			30030
 		},
 		[970105] = {
 			30032
@@ -2518,6 +2533,8 @@ pg.ship_data_group = setmetatable({
 			433,
 			475,
 			535,
+			626,
+			627,
 			262,
 			434,
 			498,
@@ -2528,10 +2545,12 @@ pg.ship_data_group = setmetatable({
 			496,
 			586,
 			437,
+			438,
 			440,
 			441,
 			536,
 			587,
+			628,
 			538,
 			539,
 			348,
@@ -2677,6 +2696,7 @@ pg.ship_data_group = setmetatable({
 			30027,
 			30028,
 			30029,
+			30030,
 			30032,
 			30034
 		}
@@ -3194,6 +3214,8 @@ pg.ship_data_group = setmetatable({
 		433,
 		475,
 		535,
+		626,
+		627,
 		262,
 		434,
 		498,
@@ -3204,10 +3226,12 @@ pg.ship_data_group = setmetatable({
 		496,
 		586,
 		437,
+		438,
 		440,
 		441,
 		536,
 		587,
+		628,
 		538,
 		539,
 		348,
@@ -3347,6 +3371,7 @@ pg.ship_data_group = setmetatable({
 		30027,
 		30028,
 		30029,
+		30030,
 		30032,
 		30034
 	}
@@ -25108,6 +25133,70 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[626] = {
+		nationality = 7,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 70111,
+		index_id = 531,
+		code = 626,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：雪境迷蹤",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[627] = {
+		nationality = 7,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 70112,
+		index_id = 532,
+		code = 627,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"D",
+			"E",
+			"B",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：雪境迷蹤",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[262] = {
 		nationality = 7,
 		type = 2,
@@ -25455,6 +25544,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[438] = {
+		nationality = 7,
+		type = 5,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 70502,
+		index_id = 543,
+		code = 438,
+		share_group_id = {},
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"C",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：雪境迷蹤",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[440] = {
 		nationality = 7,
 		type = 5,
@@ -25576,6 +25697,38 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：極地風暴",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[628] = {
+		nationality = 7,
+		type = 5,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 70508,
+		index_id = 548,
+		code = 628,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：雪境迷蹤",
 				{
 					""
 				},
@@ -30453,6 +30606,38 @@ pg.base.ship_data_group = {
 					{
 						autoOpenShipConfigID = 9701041
 					}
+				},
+				0
+			}
+		}
+	},
+	[30030] = {
+		nationality = 97,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970207,
+		index_id = 30030,
+		code = 30030,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"D",
+			"E",
+			"C",
+			"C",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：雪境迷蹤",
+				{
+					""
 				},
 				0
 			}

@@ -40,7 +40,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "《安塔迪卡战役报告书》——怨仇。",
+			say = "《南極戰役報告書》——怨仇。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "刚才贝法专门跑一趟来给你送的就是这份报告书……？",
+			say = "剛才貝法專門跑一趟來送給妳的就是這份報告書……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "哟，还真是弄出来件有趣的事啊？",
+			say = "喲，還真是弄出來件有趣的事啊？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼，终于回过神来了。",
+			say = "哼哼，終於回過神來了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样才多少有点本王心中指挥官应该有的样子。",
+			say = "這樣才多少有點本王心中指揮官該有的樣子。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我已经嘱咐贝法，回去之后全力配合指挥官的任何行动了。",
+			say = "我已經囑咐貝法，回去之後全力配合指揮官的任何行動了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "然后呢？",
+			say = "然後呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……什么然后？",
+			say = "……什麼然後？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你这面露难色的模样算怎么回事……！",
+			say = "妳這面露難色的表情算怎麼回事……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "本王只是在想——你还要在我这里赖多久？",
+			say = "本王只是在想——妳還要在我這裡賴多久？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -232,7 +232,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "虽然最开始确实是我请你过来的……",
+			say = "雖然一開始確實是我請妳過來的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "但是你「D小姐」也见了，问题也问过了……",
+			say = "但是你「D小姐」也見了，問題也問過了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "唉……原本还以为那个小女仆是来接你回去的呢。",
+			say = "唉……原本還以為那個小女僕是來接妳回去的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼~来都来了，本王自然要待到满意为止。",
+			say = "哼~來都來了，本王自然要待到滿意為止。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们的下一次「狩猎」，带本王一起去如何？",
+			say = "妳們的下一次「狩獵」，帶本王一起去如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1

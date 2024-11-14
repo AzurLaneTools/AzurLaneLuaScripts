@@ -9,7 +9,7 @@ return {
 			bgm = "theme-shallowoftheworld",
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "百慕大海域·某处",
+			say = "百慕達海域·某處",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "——这样，就算是平安抵达了。",
+			say = "——這樣，就算是平安抵達了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "还真是费了一番功夫。",
+			say = "還真是費了一番功夫。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不知道仲裁机关到底在搞些什么，怎么在外围设了那么严密的防护……",
+			say = "不知道仲裁機關到底在搞些什麼，怎麼在外圍設了那麼嚴密的防護……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "看上去这个世界还没出问题……",
+			say = "看上去這個世界還沒出問題……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "难道“那家伙”已经被仲裁机关消灭了？",
+			say = "難道「那傢伙」已經被仲裁機關消滅了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "如果是这样的话倒是省事了。",
+			say = "如果是這樣的話倒是省事了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不过……尚未开始行动的可能性也存在。",
+			say = "不過……尚未開始行動的可能性也存在。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "还是先收集情报，观察一阵再说……",
+			say = "還是先收集情報，觀察一陣再說……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "嗯……？此处的是巨熊而不是双头鹰啊……",
+			say = "嗯……？此處的是巨熊而不是雙頭鷹啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……还是算了。",
+			say = "……還是算了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "对吧，伙伴们……",
+			say = "對吧，夥伴們……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……太阳已到了活跃期。",
+			say = "……太陽已到了活躍期。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……早点办完事早点离开吧。",
+			say = "……早點辦完事早點離開吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1

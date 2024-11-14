@@ -2703,17 +2703,17 @@ pg.name_code = {
 		nation = 0
 	},
 	[529] = {
-		name = "苏维埃同盟",
+		name = "蘇維埃聯盟",
 		type = 1,
 		id = 529,
-		code = "苏维埃萨尤斯",
+		code = "蘇維埃聯盟",
 		nation = 0
 	},
 	[530] = {
-		name = "同盟",
+		name = "聯盟",
 		type = 1,
 		id = 530,
-		code = "萨尤斯",
+		code = "聯盟",
 		nation = 0
 	},
 	[531] = {

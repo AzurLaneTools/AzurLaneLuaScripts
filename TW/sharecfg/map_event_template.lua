@@ -20593,6 +20593,75 @@ pg.map_event_template = {
 			}
 		}
 	},
+	[900] = {
+		grid_color = "",
+		memory = 0,
+		ship_prefab = "",
+		type = 3,
+		gametip = "",
+		c_type = 0,
+		round_gametip = "",
+		preinstall = 3,
+		animation = "",
+		id = 900,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"flag_random",
+				0,
+				{
+					{
+						75,
+						10
+					},
+					{
+						0,
+						30
+					}
+				}
+			}
+		}
+	},
+	[901] = {
+		grid_color = "",
+		memory = 0,
+		ship_prefab = "",
+		type = 3,
+		gametip = "",
+		c_type = 0,
+		round_gametip = "",
+		preinstall = 3,
+		animation = "",
+		id = 901,
+		icon = "",
+		address = {},
+		effect = {
+			{
+				"story",
+				902,
+				0
+			}
+		}
+	},
+	[902] = {
+		grid_color = "",
+		memory = 0,
+		ship_prefab = "",
+		type = 3,
+		gametip = "battle_text_tongmeng_1",
+		c_type = 0,
+		round_gametip = "",
+		preinstall = 3,
+		animation = "",
+		id = 902,
+		icon = "tongmeng_caidan",
+		address = {
+			9,
+			19
+		},
+		effect = {}
+	},
 	[903] = {
 		grid_color = "",
 		memory = 0,
@@ -21614,6 +21683,9 @@ pg.map_event_template = {
 		897,
 		898,
 		899,
+		900,
+		901,
+		902,
 		903,
 		904,
 		905,

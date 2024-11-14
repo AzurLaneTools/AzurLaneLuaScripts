@@ -2758,7 +2758,19 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 136,
 		nation = 7,
 		ships = {
-			70109
+			70109,
+			70112
+		}
+	},
+	[70106] = {
+		shiptype = 1,
+		name = "火力級",
+		t_level = 6,
+		id = 70106,
+		t_level_1 = 131,
+		nation = 7,
+		ships = {
+			70111
 		}
 	},
 	[70201] = {
@@ -2849,7 +2861,8 @@ pg.fleet_tech_ship_class = {
 		nation = 7,
 		ships = {
 			70501,
-			70507
+			70507,
+			70508
 		}
 	},
 	[70502] = {
@@ -2860,6 +2873,7 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 131,
 		nation = 7,
 		ships = {
+			70502,
 			70504,
 			70505
 		}
@@ -3389,6 +3403,17 @@ pg.fleet_tech_ship_class = {
 			970206
 		}
 	},
+	[970207] = {
+		shiptype = 2,
+		name = "水星纪念·META",
+		t_level = 4,
+		id = 970207,
+		t_level_1 = 3,
+		nation = 97,
+		ships = {
+			970207
+		}
+	},
 	[970301] = {
 		shiptype = 3,
 		name = "特倫托·META",
@@ -3836,6 +3861,7 @@ pg.fleet_tech_ship_class = {
 		70103,
 		70104,
 		70105,
+		70106,
 		70201,
 		70202,
 		70203,
@@ -3892,6 +3918,7 @@ pg.fleet_tech_ship_class = {
 		970204,
 		970205,
 		970206,
+		970207,
 		970301,
 		970302,
 		970303,

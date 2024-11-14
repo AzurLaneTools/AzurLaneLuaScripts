@@ -28,15 +28,15 @@ return {
 			},
 			sequence = {
 				{
-					"安塔迪卡洋·水下",
+					"南冰洋·水下",
 					1
 				},
 				{
-					"北方联合潜航舰「卡林卡」号",
+					"北方聯合潛航艦「卡林卡」號",
 					2
 				},
 				{
-					"数日后",
+					"數日後",
 					3
 				}
 			}
@@ -51,7 +51,7 @@ return {
 			actor = 705080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:530:同盟}同志，我们已经进入安塔迪卡洋了。",
+			say = "聯盟同志，我們已經進入南冰洋了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			actor = 705080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过我们对于安塔迪卡洋的水下环境数据基本没有什么了解。",
+			say = "不過我們對於南冰洋的水下環境數據基本上沒有什麼了解。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -106,7 +106,7 @@ return {
 			actor = 705080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "鉴于这里人迹罕至，接下来是不是可以考虑上浮了？",
+			say = "鑑於這裡人跡罕至，接下來是不是可以考慮上浮了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，不论如何隐秘行动，等我们抵达科考站之后多半还是要暴露。",
+			say = "嗯，不論如何隱密行動，等我們抵達科考站之後多半還是要曝光。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -142,7 +142,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们到的够早了，现阶段还是安全最重要，准备上浮吧。",
+			say = "我們到的夠早了，現階段還是安全最重要，準備上浮吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -161,7 +161,7 @@ return {
 			actor = 705080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "了解，开始准备上浮。",
+			say = "了解，開始準備上浮。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			actor = 701110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好耶，可以看风景了！",
+			say = "好耶，可以看風景了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼，只是雪山而已，我们境内不是多的是？",
+			say = "哼，只是雪山而已，我們境內不是多的是？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也没那么值得激动吧，像小孩子一样……",
+			say = "也沒那麼值得激動吧，像小孩子一樣……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			actor = 701110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这可是一整片大陆，被冰雪覆盖的一整片大陆哦~！",
+			say = "這可是一整片大陸，被冰雪覆蓋的一整片大陸哦~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好、好……好，我知道了，别摇我了！",
+			say = "好、好……好，我知道了，別搖我了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,7 +341,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这段时间一直待在水下，确实是闷死了……",
+			say = "這段時間一直待在水下，確實是悶死了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,7 +359,7 @@ return {
 			actor = 705080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，大家抓稳扶好，再坚持一下。",
+			say = "呵呵，大家抓穩扶好，再堅持一下。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,7 +378,7 @@ return {
 			actor = 705080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我开始加速上浮了~",
+			say = "我開始加速上浮了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			bgm = "theme-antarctica",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在指挥塔冲破水面的时刻，毫无瑕疵的纯白之色也进入了众人的视线。",
+			say = "在指揮塔衝破水面的時刻，毫無瑕疵的純白之色也進入了眾人的視線。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			actor = 701110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这就是安塔迪卡洋……还没接近大陆，就已经是这幅景象了……！",
+			say = "這就是南冰洋……還沒接近大陸，就已經是這景象了……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -460,7 +460,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……你正常一点啦！这和我们在极地看到的景色也差不多嘛！",
+			say = "……妳正常一點！這和我們在極地看到的景色也差不多！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -488,7 +488,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，这正是区别所在哦？",
+			say = "嘿嘿，這正是差別所在哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -505,7 +505,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "极地的大型的冰川在这里，也不过是稀松平常的景色。",
+			say = "極地大型的冰川在這裡，也不過是稀鬆平常的景色。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "越往极点的方向前进，景色就会越夸张。",
+			say = "越往極點的方向前進，景色就會越誇張。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -541,7 +541,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "直至看到那片大陆，那片被冰雪覆盖的生命禁区。",
+			say = "直至看到那片大陸，那片被冰雪覆蓋的生命禁區。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -558,7 +558,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你知道么，安塔迪卡的面积，要比罗西亚……比北方联合的一半还要多哦。",
+			say = "妳知道嗎，南極的面積，要比俄羅斯……北方聯合的一半還要多哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -576,7 +576,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一半还要多……那岂不是比整个白鹰还要大！",
+			say = "一半還要多……那豈不是比整個白鷹還要大！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -604,7 +604,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错~这么一整片大陆，几乎全部都覆盖在厚厚的冰雪下。",
+			say = "沒錯~這麼一整片大陸，幾乎全部都覆蓋在厚厚的冰雪下。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -621,7 +621,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大陆之上唯一的文明痕迹，只是各阵营的零星科考站而已。",
+			say = "大陸之上唯一的文明痕跡，只是各陣營的零星科考站而已。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -639,7 +639,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼，我们要踏上的就是这样一片人迹罕至，又充满未知的白色大陆哦~",
+			say = "哼哼，我們要踏上的就是這樣一片人跡罕至，又充滿未知的白色大陸哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -656,7 +656,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么样，有感觉冒险精神要燃烧起来了么？",
+			say = "怎麼樣，有感覺冒險精神要燃燒起來了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -673,7 +673,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "确实稍微……有些兴趣了。",
+			say = "確實稍微……有些興趣了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -691,7 +691,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等，不要强调“白色大陆”的部分……",
+			say = "等等，不要強調「白色大陸」的部分……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -708,7 +708,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……稍微勾起了些不好的回忆。",
+			say = "……稍微勾起了些不好的回憶。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -726,7 +726,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦对，你上次也被卷入「陆上神国」那件事里了呢。",
+			say = "喔對，妳上次也被捲入「陸上神國」那件事裡了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -744,7 +744,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还是一路从黑海基地打到了博览会的会场……啊哈哈，真是一场艰辛的马拉松呢。",
+			say = "還是一路從黑海基地打到了博覽會的會場……啊哈哈，真是一場艱辛的馬拉松。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -780,7 +780,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还好在战役期间你的舰装没出问题~",
+			say = "還好戰役期間妳的艦裝沒出問題~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -798,7 +798,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不幸中的万幸……虽然在战役结束之后它就整个报废了。",
+			say = "不幸中的萬幸……雖然在戰役結束之後它就整個報廢了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -816,7 +816,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "希望这次能找到彻底解决问题的办法。",
+			say = "希望這次能找到徹底解決問題的方法。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -834,7 +834,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，会的，我相信一定会的哦~",
+			say = "嗯，會的，我相信一定會的哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -849,7 +849,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_544",
-			say = "潜航舰在水面上高速行驶着。",
+			say = "潛航艦在水面上高速行駛著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -877,7 +877,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "——作为强调了防护与动力系统的型号，潜航舰并不会避开浮冰，而是会直接撞上去。",
+			say = "——作為強調了防護與動力系統的型號，潛航艦並不會避開浮冰，而是會直接撞上去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -888,7 +888,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "在一阵阵既不规律也不好听的撞击声中，凶猛与火力的情绪从一开始的兴奋，逐渐转变为了无聊。",
+			say = "在一陣陣既不規律不太好聽的撞擊聲中，兇猛與火力的情緒也從一開始的興奮，逐漸轉變為了無聊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -902,7 +902,7 @@ return {
 			actor = 701110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……一片空白的无聊世界，呆久了，反而恐怖呀……",
+			say = "……一片空白的無聊世界，待久了，反而恐怖呀……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -920,7 +920,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "先激动的也是你，先无聊的也是你……",
+			say = "先激動的也是妳，先無聊的也是妳……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -938,7 +938,7 @@ return {
 			actor = 701110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜呜……白茫茫……白茫茫……就像无尽的糖霜……",
+			say = "嗚嗚嗚……白茫茫……白茫茫……就像無盡的糖霜……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -966,7 +966,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这么形容倒是有点可爱起来了……可惜并不能缓解无聊……",
+			say = "這麼形容倒是有點可愛起來了……可惜並不能緩解無聊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -984,7 +984,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:530:同盟}同志，我有个问题想问可以么！",
+			say = "聯盟同志，我有個問題想問可以嗎！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1002,7 +1002,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你问吧，我也感觉有点枯燥了，需要让脑子活动一下。",
+			say = "妳問吧，我也覺得有點枯燥了，需要讓腦袋活動一下。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1019,7 +1019,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你知道为什么安塔迪卡这样一片大陆没有被各国瓜分掉么？",
+			say = "妳知道為什麼南極這樣一片大陸沒有被各國瓜分掉嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1037,7 +1037,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就算冷……西伯利亚也很冷，但依然有不少人生活在那里呀。",
+			say = "就算冷……西伯利亞也很冷，但依然有不少人能夠住在那裡呀。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1055,7 +1055,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯——确实是个好问题，也是个复杂的问题。",
+			say = "嗯——確實是個好問題，也是個複雜的問題。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1073,7 +1073,7 @@ return {
 			actor = 900354,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "首先先找个舒服的地方坐下，我们慢慢聊吧。",
+			say = "首先先找個舒服的地方坐下，我們慢慢聊吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1091,7 +1091,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦哦？{namecode:530:同盟}小课堂要开始了？那我去拿点喝的来哦~",
+			say = "哦哦？同盟小教室要開始了？那我去拿點喝的來哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1

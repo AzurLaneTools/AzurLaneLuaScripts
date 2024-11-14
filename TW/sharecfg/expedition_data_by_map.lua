@@ -302,6 +302,12 @@ pg.expedition_data_by_map = setmetatable({
 		1770002,
 		1770003,
 		1770004,
+		1790001,
+		1790002,
+		1790011,
+		1790012,
+		1790025,
+		1790026,
 		1800001,
 		1800002,
 		1800003,
@@ -15696,6 +15702,340 @@ pg.base.expedition_data_by_map = {
 		default_bgm = "",
 		uifx = "",
 		bind_map = 1770002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1790001] = {
+		map = 1790001,
+		name = "雪境迷蹤·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "story-antarctica-serious",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "XUEJINGMIZONG1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1790002",
+		default_background = "",
+		on_activity = 5221,
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1790002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 1790011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1790003,
+					"map_1790001",
+					"effect_1790001",
+					"bgm_theme-antarctica"
+				}
+			}
+		}
+	},
+	[1790002] = {
+		map = 1790002,
+		name = "雪境迷蹤·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "theme-antarctica",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "XUEJINGMIZONG15",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1790004",
+		default_background = "",
+		on_activity = 5221,
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1790004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 1790012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1790006,
+					"map_1790002",
+					"effect_1790002",
+					"bgm_story-antarctica-serious"
+				}
+			}
+		}
+	},
+	[1790011] = {
+		map = 1790011,
+		name = "雪境迷蹤·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "story-antarctica-serious",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "XUEJINGMIZONG1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1790002",
+		default_background = "",
+		on_activity = 5221,
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1790002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 1790001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1790023,
+					"map_1790001",
+					"effect_1790001",
+					"bgm_theme-antarctica"
+				}
+			}
+		}
+	},
+	[1790012] = {
+		map = 1790012,
+		name = "雪境迷蹤·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "theme-antarctica",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "XUEJINGMIZONG15",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1790004",
+		default_background = "",
+		on_activity = 5221,
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1790004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 1790002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1790026,
+					"map_1790002",
+					"effect_1790002",
+					"bgm_story-antarctica-serious"
+				}
+			}
+		}
+	},
+	[1790025] = {
+		map = 1790025,
+		name = "雪境迷蹤·SP|| ||CHAPTER EX||E.X.",
+		bgm = "theme-underheaven",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1790003",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 5221,
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1790003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 1790012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1790026] = {
+		map = 1790026,
+		name = "雪境迷蹤·EX|| ||CHAPTER EX||E.X.",
+		bgm = "story-commander-up",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1790005",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 5221,
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1790005",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 1790012,
 		clouds_pos = {
 			{
 				332,

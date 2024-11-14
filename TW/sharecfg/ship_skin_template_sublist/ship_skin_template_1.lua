@@ -10568,6 +10568,119 @@ pg.base.ship_skin_template_1 = {
 			use_event = true
 		}
 	},
+	[101452] = {
+		name = "雙面俠盜",
+		ship_group = 10145,
+		desc = "哼哼，白天是維持都會秩序的治安者，晚上是劫富濟貧的怪盜「Mystic」，簡稱怪盜M！此地的珍寶，就由我收下了！——想要靠這些陷阱抓到我，還早了一百年呢~♪",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 2,
+		prefab = "ailunsamuna_3",
+		painting = "ailunsamuna_3",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 12,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		l2d_drag_rate = "",
+		bg = "154",
+		spine_use_live2d = 1,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 101452,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 70984,
+		voice_actor = 266,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2,
+			6
+		},
+		live2d_offset = {
+			-30,
+			-80,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.38,
+					0.942,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.349,
+					0.929,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.18,
+							0
+						}
+					}
+				}
+			}
+		},
+		ship_l2d_id = {
+			10145201,
+			10145202,
+			10145203
+		}
+	},
 	[101460] = {
 		name = "史蒂芬·波特",
 		ship_group = 10146,
@@ -11879,135 +11992,6 @@ pg.base.ship_skin_template_1 = {
 						{
 							0.42,
 							0.51,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[102030] = {
-		name = "布魯克林",
-		ship_group = 10203,
-		desc = "布魯克林級輕巡洋艦—布魯克林，舷號CL-40",
-		illustrator2 = -1,
-		bg_sp = "",
-		group_index = 0,
-		prefab = "bulukelin",
-		painting = "bulukelin",
-		hand_id = 3,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 102030,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 64,
-		spine_offset = "",
-		illustrator = 7,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.789,
-					0.501,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.789,
-					0.501,
-					0
-				},
-				{
-					-0.238,
-					0.927,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.457,
-					1.102,
-					0
-				},
-				{
-					-0.834,
-					1.234,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.39,
-							0.41,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.61,
-							0.53,
 							0
 						}
 					}

@@ -28,15 +28,15 @@ return {
 			},
 			sequence = {
 				{
-					"安塔迪卡大陆",
+					"南極大陸",
 					1
 				},
 				{
-					"伏击海域",
+					"伏擊海域",
 					2
 				},
 				{
-					"半小时前",
+					"半小時前",
 					3
 				}
 			}
@@ -47,7 +47,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			bgm = "theme-sovietunion",
 			nameColor = "#A9F548FF",
-			say = "轰————————！",
+			say = "轟————————！",
 			flashout = {
 				dur = 0.5,
 				black = true,
@@ -116,7 +116,7 @@ return {
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
-			say = "咳……居然，还能动……",
+			say = "咳……居然，還能動……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
-			say = "没想到就连刚才的那一招，也不能伤你们分毫……",
+			say = "沒想到連剛才的那一招，也不能傷妳們分毫……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -160,7 +160,7 @@ return {
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
-			say = "不愧是挫败了祂一次计划的实验场，你们的力量和潜力……确实不容小觑……",
+			say = "不愧是挫敗了祂一次計畫的實驗場，妳們的力量和潛力……確實不容小覷……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -177,7 +177,7 @@ return {
 			dir = 1,
 			actor = 705020,
 			nameColor = "#A9F548FF",
-			say = "……你输了。",
+			say = "……你輸了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
-			say = "看来是这样呢……「重塑」的时间也结束了……",
+			say = "看來是這樣呢……「重塑」的時間也結束了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
-			say = "这场战斗是我输了。",
+			say = "這場戰鬥是我輸了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
-			say = "不过，我并不悲伤哦。能与你们完成这一趟旅途，我满足了。",
+			say = "不過，我並不悲傷哦。能與妳們完成這一趟旅途，我滿足了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			actor = 705020,
 			nameColor = "#A9F548FF",
-			say = "……这样的结局，你就满足了？",
+			say = "……這樣的結局，妳就滿足了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,7 +261,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			bgName = "bg_xuejing_3",
-			say = "其实，我一直在反复思考你一路上的所言所行。",
+			say = "其實，我一直在反復思考妳一路上的所言所行。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			dir = 1,
 			actor = 705020,
 			nameColor = "#A9F548FF",
-			say = "我想……你最初的图谋应该是想要说服我……或者控制我，来为你的计划服务吧。",
+			say = "我想……妳最初的圖謀應該是想要說服我……或是控制我，來為妳的計畫服務吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -295,7 +295,7 @@ return {
 			dir = 1,
 			actor = 705020,
 			nameColor = "#A9F548FF",
-			say = "而且从一进入安塔迪卡洋，你就干涉了我们的认知的行为来看，你是绝对有这个能力的。",
+			say = "而且從一進入南冰洋，妳就干涉了我們認知的行為來看，妳是絕對有這個能力的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			bgName = "bg_xuejing_3",
-			say = "可是随后……你用来说服我的观点软弱无力，认知干涉也被你主动解除了。",
+			say = "可是隨後……妳用來說服我的觀點軟弱無力，認知干涉也被妳主動解除了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			dir = 1,
 			actor = 705020,
 			nameColor = "#A9F548FF",
-			say = "在随后的战斗中，你更是主动为我提供了曙光计划的情报……",
+			say = "在隨後的戰鬥中，妳更是主動為我提供了曙光計畫的情報……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			dir = 1,
 			actor = 705020,
 			nameColor = "#A9F548FF",
-			say = "你的所言与所行存在矛盾。",
+			say = "妳的所言與所行有矛盾。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			bgName = "bg_xuejing_3",
-			say = "归根结底……你的真实目的究竟是什么？这场旅途究竟是为了什么？",
+			say = "歸根究底……妳的真實目的究竟是什麼？這場旅途究竟是為了什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,7 +378,7 @@ return {
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
-			say = "或许只是想来见见你们，或许只是想给自己的心一个交代……",
+			say = "或許只是想來見見妳們，或許只是想給自己的心一個交代……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,7 +395,7 @@ return {
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
-			say = "又或许只是想短暂触碰一下希望的温暖……谁知道呢~",
+			say = "又或許只是想短暫觸碰一下希望的溫暖……誰知道呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			nameColor = "#FFC960",
 			dir = 1,
 			bgName = "bg_xuejing_3",
-			say = "不过这场胜利，并不等于祂的失败。",
+			say = "不過這場勝利，並不等於祂的失敗。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,7 +428,7 @@ return {
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
-			say = "战斗还远未结束哦~",
+			say = "戰鬥還遠遠沒有結束~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			dir = 1,
 			actor = 705020,
 			nameColor = "#A9F548FF",
-			say = "……你这是什么意思？",
+			say = "……妳這是什麼意思？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
-			say = "“三个目的”还记得么?",
+			say = "「三個目的」還記得嗎?",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -478,7 +478,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			bgName = "bg_xuejing_3",
-			say = "你确实说过，这次你来的目的有三个……",
+			say = "妳確實說過，這次妳來的目的有三……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -494,7 +494,7 @@ return {
 			nameColor = "#FFC960",
 			dir = 1,
 			bgName = "bg_xuejing_3",
-			say = "加油战斗吧~如果不打起精神来，可是真的会死哦。",
+			say = "加油戰鬥吧~如果不打起精神來，可是真的會死哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,7 +511,7 @@ return {
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
-			say = "不过……",
+			say = "不過……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -527,7 +527,7 @@ return {
 			nameColor = "#FFC960",
 			dir = 1,
 			bgName = "bg_xuejing_3",
-			say = "如果最后你们能度过本次危机，成功活下来的话。",
+			say = "如果最後妳們能度過本次危機，成功活下來的話。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -544,7 +544,7 @@ return {
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
-			say = "你们将会遇到一位与我背负着同样悲惨的过去、同样被逝者的期许所包裹的人。",
+			say = "妳們將會遇見一位與我背負著同樣悲慘的過去、同樣被逝者的期許所包裹的人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -560,7 +560,7 @@ return {
 			nameColor = "#FFC960",
 			dir = 1,
 			bgName = "bg_xuejing_3",
-			say = "我与她有着根本上的分歧……硬要说，应该算是“死敌”吧。",
+			say = "我與她有著根本上的分歧……硬要說，應該算是「死敵」吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -577,7 +577,7 @@ return {
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
-			say = "不过我已经很清楚了……你能帮助她。",
+			say = "不過我已經很清楚了……妳能幫助她。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -594,7 +594,7 @@ return {
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
-			say = "所以……这件事就拜托你了。",
+			say = "所以……這件事就拜託妳了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,7 +611,7 @@ return {
 			dir = 1,
 			actor = 705020,
 			nameColor = "#A9F548FF",
-			say = "……给我一个帮你的理由。",
+			say = "……給我一個幫妳的理由。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -628,7 +628,7 @@ return {
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
-			say = "唔——我之前对你和你的同伴手下留情了，我给了你不少情报，她也是北方联合所属，她的战斗力很强，我很可爱。",
+			say = "唔——我之前對妳和妳的同伴手下留情了，我給了妳不少情報，她也是北方聯合所屬，她的戰鬥力很強，我很可愛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -645,7 +645,7 @@ return {
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
-			say = "呼呼，这可是超额了400%数量的理由哦？你看够了么~？",
+			say = "呼呼，這可是超額了400%數量的理由哦？妳看夠了嗎~？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -661,7 +661,7 @@ return {
 			nameColor = "#A9F548FF",
 			dir = 1,
 			bgName = "bg_xuejing_3",
-			say = "……好，这件事我可以答应你。",
+			say = "……好，這件事我可以答應你。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -678,7 +678,7 @@ return {
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
-			say = "那么，努力挣扎吧。",
+			say = "那麼，努力掙扎吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -695,7 +695,7 @@ return {
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
-			say = "为了你口中的未来，为了北方联合，也为了罗西亚。",
+			say = "為了妳口中的未來，為了北方聯合，也為了俄羅斯。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -711,7 +711,7 @@ return {
 			nameColor = "#FFC960",
 			dir = 1,
 			bgName = "bg_xuejing_3",
-			say = "我会在远方一直见证下去，然后——",
+			say = "我會在遠方一直見證下去，然後——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -728,7 +728,7 @@ return {
 			dir = 1,
 			actor = 9702070,
 			nameColor = "#FFC960",
-			say = "随时准备乘虚而入哦——",
+			say = "隨時準備乘虛而入哦——",
 			painting = {
 				alpha = 0.3,
 				time = 1
