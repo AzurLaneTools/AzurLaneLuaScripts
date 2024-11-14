@@ -19,6 +19,8 @@ slot0.update = function(slot0, slot1, slot2, slot3)
 
 		setText(slot0.unlockBlockLabel, i18n("blackfriday_shop_tip", slot4[1][1][3], slot4[1][2][1]))
 	end
+
+	setActive(slot0.focusTip, slot1:isFree() and slot0:inTime())
 end
 
 slot0.inTime = function(slot0)
