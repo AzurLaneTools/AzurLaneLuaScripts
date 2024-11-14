@@ -55,7 +55,7 @@ slot0.execute = function(slot0, slot1)
 					id = uv1,
 					count = uv2
 				})
-			elseif uv3 == ItemUsage.DROP or uv3 == ItemUsage.DROP_TEMPLATE or uv3 == ItemUsage.DROP_APPOINTED or uv3 == ItemUsage.INVITATION or uv3 == ItemUsage.SKIN_SELECT then
+			elseif uv3 == ItemUsage.DROP or uv3 == ItemUsage.DROP_TEMPLATE or uv3 == ItemUsage.DROP_APPOINTED or uv3 == ItemUsage.INVITATION or uv3 == ItemUsage.SKIN_SELECT or uv3 == ItemUsage.RANDOM_SKIN then
 				slot1 = PlayerConst.addTranDrop(slot0.drop_list)
 			elseif uv3 == ItemUsage.SKIN_SHOP_DISCOUNT then
 				slot1 = PlayerConst.addTranDrop(slot0.drop_list)

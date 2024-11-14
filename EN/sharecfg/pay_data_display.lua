@@ -57,6 +57,9 @@ pg.pay_data_display = setmetatable({
 		74,
 		75,
 		76,
+		77,
+		78,
+		79,
 		1000,
 		1001,
 		1002,
@@ -147,6 +150,13 @@ pg.pay_data_display = setmetatable({
 		2033,
 		2034,
 		2035,
+		5011,
+		5012,
+		5013,
+		5014,
+		5015,
+		5016,
+		5017,
 		139,
 		140,
 		141,
@@ -160,7 +170,9 @@ pg.pay_data_display = setmetatable({
 		149,
 		150,
 		151,
-		152
+		152,
+		153,
+		154
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -5898,6 +5910,328 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40929,
+				1
+			}
+		}
+	},
+	[77] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		name = "Choose-Your-Own Gift Pack I",
+		first_pay_double = 0,
+		name_display = "Choose-Your-Own Gift Pack I",
+		descrip = "Contains 980x Gems, 1x Choose-Your-Own Gift Pack I, and loads of other valuable rewards.",
+		subject = "Choose-Your-Own Gift Pack I",
+		money = 1499,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "pack_2024_98",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.bfchoosebag3",
+		extra_service = 3,
+		id = 77,
+		airijp_id = "com.yostaren.azurlane.bfchoosebag3",
+		extra_service_item = {
+			{
+				2,
+				59555,
+				1
+			},
+			{
+				1,
+				14,
+				980
+			},
+			{
+				2,
+				16501,
+				100
+			},
+			{
+				2,
+				59010,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					11,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59555,
+				1
+			},
+			{
+				1,
+				14,
+				980
+			},
+			{
+				2,
+				16501,
+				100
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81407,
+				1
+			}
+		}
+	},
+	[78] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		name = "Choose-Your-Own Gift Pack II",
+		first_pay_double = 0,
+		name_display = "Choose-Your-Own Gift Pack II",
+		descrip = "Contains 1980x Gems, 1x Choose-Your-Own Gift Pack II, and loads of other valuable rewards.",
+		subject = "Choose-Your-Own Gift Pack II",
+		money = 2999,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "pack_2024_198",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.bfchoosebag4",
+		extra_service = 3,
+		id = 78,
+		airijp_id = "com.yostaren.azurlane.bfchoosebag4",
+		extra_service_item = {
+			{
+				2,
+				59556,
+				1
+			},
+			{
+				1,
+				14,
+				1980
+			},
+			{
+				2,
+				15008,
+				1000
+			},
+			{
+				2,
+				30114,
+				30
+			},
+			{
+				2,
+				59010,
+				2000
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					11,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59556,
+				1
+			},
+			{
+				1,
+				14,
+				1980
+			},
+			{
+				2,
+				15008,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81408,
+				1
+			}
+		}
+	},
+	[79] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		name = "Choose-Your-Own Gift Pack III",
+		first_pay_double = 0,
+		name_display = "Choose-Your-Own Gift Pack III",
+		descrip = "Contains 3280x Gems, 1x Choose-Your-Own Gift Pack III, and loads of other valuable rewards.",
+		subject = "Choose-Your-Own Gift Pack III",
+		money = 4499,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "pack_2024_328",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.bfchoosebag5",
+		extra_service = 3,
+		id = 79,
+		airijp_id = "com.yostaren.azurlane.bfchoosebag5",
+		extra_service_item = {
+			{
+				2,
+				59557,
+				1
+			},
+			{
+				1,
+				14,
+				3280
+			},
+			{
+				2,
+				15012,
+				150
+			},
+			{
+				2,
+				15008,
+				2000
+			},
+			{
+				2,
+				16004,
+				2
+			},
+			{
+				2,
+				16014,
+				2
+			},
+			{
+				2,
+				16024,
+				2
+			},
+			{
+				2,
+				16032,
+				30
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					11,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59557,
+				1
+			},
+			{
+				1,
+				14,
+				3280
+			},
+			{
+				2,
+				15012,
+				150
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81409,
 				1
 			}
 		}
@@ -13824,6 +14158,574 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[5011] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		name = "Daily Paid Pack (Day 1)",
+		first_pay_double = 0,
+		name_display = "Daily Paid Pack (Day 1)",
+		descrip = "Contains 60x Gems, 2x Special General Blueprints - Series 6.",
+		subject = "Daily Paid Pack (Day 1)",
+		money = 99,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 0,
+		sub_display = "",
+		picture = "pack_day1",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.bfdailybag8",
+		extra_service = 3,
+		id = 5011,
+		airijp_id = "com.yostaren.azurlane.bfdailybag8",
+		extra_service_item = {
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					11,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81410,
+				1
+			}
+		}
+	},
+	[5012] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		name = "Daily Paid Pack (Day 2)",
+		first_pay_double = 0,
+		name_display = "Daily Paid Pack (Day 2)",
+		descrip = "Contains 200x Gems.",
+		subject = "Daily Paid Pack (Day 2)",
+		money = 99,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 0,
+		sub_display = "",
+		picture = "pack_day2",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.bfdailybag9",
+		extra_service = 3,
+		id = 5012,
+		airijp_id = "com.yostaren.azurlane.bfdailybag9",
+		extra_service_item = {
+			{
+				1,
+				14,
+				200
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					11,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				200
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81411,
+				1
+			}
+		}
+	},
+	[5013] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		name = "Daily Paid Pack (Day 3)",
+		first_pay_double = 0,
+		name_display = "Daily Paid Pack (Day 3)",
+		descrip = "Contains 200x Cognitive Chips, 5x Universal T4 Parts.",
+		subject = "Daily Paid Pack (Day 3)",
+		money = 99,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 0,
+		sub_display = "",
+		picture = "pack_day3",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.bfdailybag10",
+		extra_service = 3,
+		id = 5013,
+		airijp_id = "com.yostaren.azurlane.bfdailybag10",
+		extra_service_item = {
+			{
+				2,
+				30114,
+				5
+			},
+			{
+				2,
+				15008,
+				200
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					11,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				30114,
+				5
+			},
+			{
+				2,
+				15008,
+				200
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81412,
+				1
+			}
+		}
+	},
+	[5014] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		name = "Daily Paid Pack (Day 4)",
+		first_pay_double = 0,
+		name_display = "Daily Paid Pack (Day 4)",
+		descrip = "Contains 60x Gems, 1x Prototype Bulin MKII.",
+		subject = "Daily Paid Pack (Day 4)",
+		money = 99,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 0,
+		sub_display = "",
+		picture = "pack_day4",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.bfdailybag11",
+		extra_service = 3,
+		id = 5014,
+		airijp_id = "com.yostaren.azurlane.bfdailybag11",
+		extra_service_item = {
+			{
+				4,
+				100011,
+				1
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					11,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				4,
+				100011,
+				1
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81413,
+				1
+			}
+		}
+	},
+	[5015] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		name = "Daily Paid Pack (Day 5)",
+		first_pay_double = 0,
+		name_display = "Daily Paid Pack (Day 5)",
+		descrip = "Contains 60x T2 EXP Data Packs.",
+		subject = "Daily Paid Pack (Day 5)",
+		money = 99,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 0,
+		sub_display = "",
+		picture = "pack_day5",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.bfdailybag12",
+		extra_service = 3,
+		id = 5015,
+		airijp_id = "com.yostaren.azurlane.bfdailybag12",
+		extra_service_item = {
+			{
+				2,
+				16502,
+				60
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					11,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				16502,
+				60
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81414,
+				1
+			}
+		}
+	},
+	[5016] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		name = "Daily Paid Pack (Day 6)",
+		first_pay_double = 0,
+		name_display = "Daily Paid Pack (Day 6)",
+		descrip = "Contains 10x Wisdom Cubes, 5x Quick Finishers.",
+		subject = "Daily Paid Pack (Day 6)",
+		money = 99,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 0,
+		sub_display = "",
+		picture = "pack_day6",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.bfdailybag13",
+		extra_service = 3,
+		id = 5016,
+		airijp_id = "com.yostaren.azurlane.bfdailybag13",
+		extra_service_item = {
+			{
+				2,
+				20001,
+				10
+			},
+			{
+				2,
+				15003,
+				5
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					11,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				20001,
+				10
+			},
+			{
+				2,
+				15003,
+				5
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81415,
+				1
+			}
+		}
+	},
+	[5017] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		name = "Daily Paid Pack (Day 7)",
+		first_pay_double = 0,
+		name_display = "Daily Paid Pack (Day 7)",
+		descrip = "Contains 60x Gems, 2x Special General Blueprints - Series 7.",
+		subject = "Daily Paid Pack (Day 7)",
+		money = 99,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 0,
+		sub_display = "",
+		picture = "pack_day7",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.bfdailybag14",
+		extra_service = 3,
+		id = 5017,
+		airijp_id = "com.yostaren.azurlane.bfdailybag14",
+		extra_service_item = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					11,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81416,
+				1
+			}
+		}
+	},
 	[139] = {
 		extra_gem = 0,
 		limit_group = 0,
@@ -15416,6 +16318,219 @@ pg.base.pay_data_display = {
 			{
 				2,
 				81406,
+				1
+			}
+		}
+	},
+	[153] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		name = "Live2D Surprise Lucky Bag (2024)",
+		first_pay_double = 0,
+		name_display = "Live2D Surprise Lucky Bag (2024)",
+		descrip = "Contains a random unowned rerun L2D outfit and other supplies",
+		subject = "Black Friday Lucky Bag (2024)",
+		money = 999,
+		limit_arg = 2,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai_L2d_new",
+		skin_inquire_relation = 86407,
+		id_str = "com.yostaren.azurlane.luckybag44",
+		extra_service = 3,
+		id = 153,
+		airijp_id = "com.yostaren.azurlane.luckybag44",
+		extra_service_item = {
+			{
+				2,
+				86407,
+				1
+			},
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					11,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86407,
+				1
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81417,
+				1
+			}
+		}
+	},
+	[154] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		name = "Black Friday Lucky Bag (2024)",
+		first_pay_double = 0,
+		name_display = "Black Friday Lucky Bag (2024)",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "Black Friday Lucky Bag (2024)",
+		money = 2999,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai92",
+		skin_inquire_relation = 86408,
+		id_str = "com.yostaren.azurlane.luckybag43",
+		extra_service = 3,
+		id = 154,
+		airijp_id = "com.yostaren.azurlane.luckybag43",
+		extra_service_item = {
+			{
+				2,
+				86408,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
+			},
+			{
+				2,
+				15003,
+				12
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					11,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86408,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81418,
 				1
 			}
 		}

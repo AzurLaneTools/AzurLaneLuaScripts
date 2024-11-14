@@ -204,13 +204,13 @@ pg.ship_data_create_material = {
 			"<color=#3dc6ff>Rare</color>: 51%",
 			"Common: 28.8%",
 			" ",
-			"<color=#ff5e39>Amagi(CV)</color>: 1.2% (<color=#92fc63>up!</color>)",
+			"<color=#ff5e39>Musashi</color>: 1.2% (<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>Watarase</color>: 2.0% (<color=#92fc63>up!</color>)",
+			"<color=#ffde38>Sakawa</color>: 2.0% (<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>Hiei META</color>: 0.5%",
+			"<color=#ffde38>Wakatsuki</color>: 0.5%",
 			" ",
-			"<color=#d797ff>Suzunami</color>: 2.5% (<color=#92fc63>up!</color>)"
+			"<color=#d797ff>Haguro</color>: 2.5% (<color=#92fc63>up!</color>)"
 		}
 	},
 	{

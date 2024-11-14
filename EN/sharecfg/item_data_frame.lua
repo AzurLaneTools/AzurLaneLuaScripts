@@ -603,6 +603,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>No one can escape their own story. Not even a free-spirited rider.</color> Given to Commanders who participated in the Wild West Vacation Log event.",
 		scene = {}
 	},
+	[608] = {
+		name = "Black Friday Frenzy",
+		gain_by = "",
+		time_second = 0,
+		id = 608,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>\"Thank you for taking part in the Black Friday campaign, nya!\"</color> \nObtained from 2024 Black Friday Akashi's Fire Sale event.",
+		scene = {}
+	},
 	[1001] = {
 		name = "Sweet Rendezvous",
 		gain_by = "",
@@ -797,6 +806,7 @@ pg.item_data_frame = {
 		605,
 		606,
 		607,
+		608,
 		1001,
 		1002,
 		10001,

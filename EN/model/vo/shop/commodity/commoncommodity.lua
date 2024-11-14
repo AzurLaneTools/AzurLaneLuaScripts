@@ -81,8 +81,7 @@ slot0.GetPrice = function(slot0)
 
 	if slot0:isDisCount() then
 		if slot0:IsItemDiscountType() then
-			slot1 = SkinCouponActivity.StaticGetNewPrice(slot2)
-			slot3 = (slot1 - newPrice) / slot1 * 100
+			slot3 = (slot2 - SkinCouponActivity.StaticGetNewPrice(slot2)) / slot2 * 100
 		else
 			slot1 = slot2 * (100 - slot0:getConfig("discount")) / 100
 		end

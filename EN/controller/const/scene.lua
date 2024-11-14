@@ -171,6 +171,7 @@ SCENE = {
 	SSSS_MEDAL_COLLECTION = "SSSS_MEDAL_COLLECTION",
 	CREATE_PLAYER = "scene create player",
 	ZUMA_PT_SHOP = "ZUMA_PT_SHOP",
+	BLACK_FRIDAH_SALES = "BlackFridaySales",
 	GAME_HALL = "game hall",
 	WORLDINPICTURE = "world in picture",
 	SIXTH_ANNIVERSARY_JP_DARK = "SIXTH_ANNIVERSARY_JP_DARK",
@@ -905,6 +906,10 @@ slot0 = {
 	[SCENE.DREAMLAND_PREVIEW] = function (slot0, slot1)
 		slot0.mediator = FullPreviewMediatorTemplate
 		slot0.viewComponent = DreamlandFullPreviewScene
+	end,
+	[SCENE.BLACK_FRIDAH_SALES] = function (slot0, slot1)
+		slot0.mediator = BlackFridaySalesMediator
+		slot0.viewComponent = BlackFridaySalesScene
 	end
 }
 

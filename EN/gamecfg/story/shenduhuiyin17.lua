@@ -8,7 +8,7 @@ return {
 	scripts = {
 		{
 			side = 2,
-			bgName = "star_level_bg_1104 ",
+			bgName = "star_level_bg_1104",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "echo-loop",
@@ -33,7 +33,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_1104 ",
+			bgName = "star_level_bg_1104",
 			dir = 1,
 			say = "Moments ago she lay in an uncomfortable chair inside a dreary room. Now it was as though she'd left her own body and soared through the sky.",
 			typewriter = {
@@ -47,7 +47,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_1104 ",
+			bgName = "star_level_bg_1104",
 			dir = 1,
 			say = "The experience felt a lot like downing an entire barrel of vodka then getting carted through a desert of snow and ice.",
 			typewriter = {
@@ -61,7 +61,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_1104 ",
+			bgName = "star_level_bg_1104",
 			dir = 1,
 			say = "All of a sudden, she was blasted with countless packets of data. Images coalesced into a pixelated mess and overlapping voices became indiscernible from static noise.",
 			typewriter = {
@@ -89,7 +89,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_1104 ",
+			bgName = "star_level_bg_1104",
 			dir = 1,
 			say = "But throughout it all, she clung on to her consciousness, lest the storm engulf her. Soon she could feel her own two feet touch the ground.",
 			typewriter = {

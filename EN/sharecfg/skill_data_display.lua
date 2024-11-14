@@ -3242,6 +3242,8 @@ pg.skill_data_display = setmetatable({
 		10150601,
 		10150640,
 		10150642,
+		1010481,
+		1010491,
 		1019021,
 		1090020,
 		1090042,
@@ -16248,6 +16250,14 @@ pg.base.skill_data_display = {
 	[10150642] = {
 		id = 10150642,
 		name = "\"Spiritual\" Healing+"
+	},
+	[1010481] = {
+		id = 1010481,
+		name = "Sisterly Bond+"
+	},
+	[1010491] = {
+		id = 1010491,
+		name = "Sisterly Bond+"
 	},
 	[1019021] = {
 		id = 1019021,

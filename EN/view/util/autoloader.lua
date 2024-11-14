@@ -230,7 +230,7 @@ slot0.LoadLive2D = function(slot0, slot1, slot2, slot3)
 
 	slot3 = slot3 or slot0:GenerateUID4LoadingRequest()
 	slot5 = nil
-	slot5 = uv0.New(slot5 .. slot6, slot1, function (slot0)
+	slot5 = uv0.New(slot5 .. slot6, "", function (slot0)
 		uv0._loadingRequest[uv1] = nil
 
 		if uv2 then

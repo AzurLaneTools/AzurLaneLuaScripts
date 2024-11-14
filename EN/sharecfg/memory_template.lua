@@ -3219,6 +3219,7 @@ pg.memory_template = setmetatable({
 		3995,
 		3996,
 		3997,
+		4011,
 		10011,
 		10012,
 		10013,
@@ -25132,7 +25133,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2301] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "The Pagoda Above the Clouds",
@@ -25143,7 +25144,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2302] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "Opening Move",
@@ -25154,7 +25155,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2303] = {
-		mask = "bg_wuzang_bg1",
+		mask = "bg/bg_wuzang_bg1",
 		subtitle = "",
 		type = 1,
 		title = "Preemptive Strike",
@@ -25165,7 +25166,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2304] = {
-		mask = "bg_wuzang_bg2",
+		mask = "bg/bg_wuzang_bg2",
 		subtitle = "",
 		type = 1,
 		title = "Sword and Shield",
@@ -25176,7 +25177,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2305] = {
-		mask = "bg_wuzang_bg3",
+		mask = "bg/bg_wuzang_bg3",
 		subtitle = "",
 		type = 1,
 		title = "Guardian's Blessing",
@@ -25187,7 +25188,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2306] = {
-		mask = "bg_wuzang_bg4",
+		mask = "bg/bg_wuzang_bg4",
 		subtitle = "",
 		type = 1,
 		title = "Enjoy the Experience",
@@ -25198,7 +25199,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2307] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "Gambit",
@@ -25209,7 +25210,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2308] = {
-		mask = "bg_wuzang_bg5",
+		mask = "bg/bg_wuzang_bg5",
 		subtitle = "",
 		type = 1,
 		title = "Conviction or Delusion?",
@@ -25220,7 +25221,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2309] = {
-		mask = "bg_wuzang_bg5",
+		mask = "bg/bg_wuzang_bg5",
 		subtitle = "",
 		type = 1,
 		title = "Sea Fog",
@@ -25231,7 +25232,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2310] = {
-		mask = "bg_wuzang_bg6",
+		mask = "bg/bg_wuzang_bg6",
 		subtitle = "",
 		type = 1,
 		title = "The Great Veteran's Dignity",
@@ -25242,7 +25243,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2311] = {
-		mask = "bg_wuzang_bg7",
+		mask = "bg/bg_wuzang_bg7",
 		subtitle = "",
 		type = 1,
 		title = "The Guardian Fox's Orders",
@@ -25253,7 +25254,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2312] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "Piercing the Fog",
@@ -25264,7 +25265,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2313] = {
-		mask = "bg_wuzang_bg8",
+		mask = "bg/bg_wuzang_bg8",
 		subtitle = "",
 		type = 1,
 		title = "Heart of a Guardian",
@@ -25275,7 +25276,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2314] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "A New Path",
@@ -25286,7 +25287,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2315] = {
-		mask = "bg_wuzang_bg9",
+		mask = "bg/bg_wuzang_bg9",
 		subtitle = "",
 		type = 1,
 		title = "Crimson Descent",
@@ -25297,7 +25298,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2316] = {
-		mask = "bg_wuzang_bg9",
+		mask = "bg/bg_wuzang_bg9",
 		subtitle = "",
 		type = 1,
 		title = "Focused Fire",
@@ -25308,7 +25309,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2317] = {
-		mask = "bg_wuzang_bg10",
+		mask = "bg/bg_wuzang_bg10",
 		subtitle = "",
 		type = 1,
 		title = "Resolve",
@@ -25319,7 +25320,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2318] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "An Unacceptable \"Reality\"",
@@ -25330,7 +25331,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2319] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "The Will to Protect",
@@ -25341,7 +25342,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2320] = {
-		mask = "bg_wuzang_bg11",
+		mask = "bg/bg_wuzang_bg11",
 		subtitle = "",
 		type = 1,
 		title = "To Stop a Spear",
@@ -25352,7 +25353,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2321] = {
-		mask = "bg_wuzang_bg11",
+		mask = "bg/bg_wuzang_bg11",
 		subtitle = "",
 		type = 1,
 		title = "The Path to Victory",
@@ -25363,7 +25364,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2322] = {
-		mask = "bg_wuzang_bg11",
+		mask = "bg/bg_wuzang_bg11",
 		subtitle = "",
 		type = 1,
 		title = "A Compassionate Heart",
@@ -25374,7 +25375,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2323] = {
-		mask = "bg_wuzang_bg12",
+		mask = "bg/bg_wuzang_bg12",
 		subtitle = "",
 		type = 1,
 		title = "Tower",
@@ -25385,7 +25386,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2324] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "A Love for the Weak",
@@ -25396,7 +25397,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2325] = {
-		mask = "bg_wuzang_bg12",
+		mask = "bg/bg_wuzang_bg12",
 		subtitle = "",
 		type = 1,
 		title = "Retreat and Regroup",
@@ -25407,7 +25408,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2326] = {
-		mask = "bg_wuzang_bg12",
+		mask = "bg/bg_wuzang_bg12",
 		subtitle = "",
 		type = 1,
 		title = "The Final Stretch",
@@ -25418,7 +25419,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2327] = {
-		mask = "bg_wuzang_bg13",
+		mask = "bg/bg_wuzang_bg13",
 		subtitle = "",
 		type = 1,
 		title = "Betrayal",
@@ -25429,7 +25430,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2328] = {
-		mask = "bg_wuzang_bg13",
+		mask = "bg/bg_wuzang_bg13",
 		subtitle = "",
 		type = 1,
 		title = "Ripple Effect",
@@ -25440,7 +25441,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2329] = {
-		mask = "bg_wuzang_bg14",
+		mask = "bg/bg_wuzang_bg14",
 		subtitle = "",
 		type = 1,
 		title = "A Joint Effort",
@@ -25451,7 +25452,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2330] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "True Intentions",
@@ -25462,7 +25463,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2331] = {
-		mask = "bg_wuzang_bg14",
+		mask = "bg/bg_wuzang_bg14",
 		subtitle = "",
 		type = 1,
 		title = "Darkness Falls",
@@ -25473,7 +25474,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2332] = {
-		mask = "bg_wuzang_bg14",
+		mask = "bg/bg_wuzang_bg14",
 		subtitle = "",
 		type = 1,
 		title = "Last Turn, First Step",
@@ -25484,7 +25485,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2333] = {
-		mask = "bg_wuzang_bg15",
+		mask = "bg/bg_wuzang_bg15",
 		subtitle = "",
 		type = 1,
 		title = "Nine-Tailed Fox",
@@ -25495,7 +25496,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2334] = {
-		mask = "bg_wuzang_bg16",
+		mask = "bg/bg_wuzang_bg16",
 		subtitle = "",
 		type = 1,
 		title = "Lycoris Beneath the Weeping Moon",
@@ -25506,7 +25507,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2335] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "After the Storm Passes",
@@ -25517,7 +25518,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2336] = {
-		mask = "bg_fuxiangxian_0",
+		mask = "bg/bg_fuxiangxian_0",
 		subtitle = "",
 		type = 1,
 		title = "Floating Fortress",
@@ -25528,7 +25529,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2337] = {
-		mask = "bg_wuzang_bg16",
+		mask = "bg/bg_wuzang_bg16",
 		subtitle = "",
 		type = 1,
 		title = "An Anguished Cry",
@@ -25539,7 +25540,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2338] = {
-		mask = "bg_wuzang_bg17",
+		mask = "bg/bg_wuzang_bg17",
 		subtitle = "",
 		type = 1,
 		title = "Pictures at an Exhibition",
@@ -25550,7 +25551,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2339] = {
-		mask = "blackBg",
+		mask = "bg/bg_memory",
 		subtitle = "",
 		type = 1,
 		title = "Omnipresent Eye",
@@ -26078,7 +26079,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2411] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "Another Story",
@@ -26089,7 +26090,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2412] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "A New Adventure",
@@ -26100,7 +26101,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2413] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "Land of Beginnings",
@@ -26111,7 +26112,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2414] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "The Stone Monument",
@@ -26122,7 +26123,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2415] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "Materials and Synthesis",
@@ -26133,7 +26134,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2416] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "The Underworld Grove",
@@ -26144,7 +26145,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2417] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "Philuscha Vessels",
@@ -26155,7 +26156,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2418] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "The Philuscha and the Sirens",
@@ -26166,7 +26167,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2419] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "Fake Plants",
@@ -26177,7 +26178,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2420] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "The Castle of Strife",
@@ -26188,7 +26189,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2421] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "The Race to Investigate",
@@ -26199,7 +26200,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2422] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "Data 857",
@@ -26210,7 +26211,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2423] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "Investigative Speculation",
@@ -26221,7 +26222,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2424] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "Forceful Approach",
@@ -26232,7 +26233,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2425] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "Automated Defenses",
@@ -26243,7 +26244,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2426] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "Warriors and Battle Scars",
@@ -26254,7 +26255,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2427] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "The Desolate Capital",
@@ -26265,7 +26266,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2428] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "Masters of the Wrong Craft",
@@ -26276,7 +26277,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2429] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "Enter the Dungeon",
@@ -26287,7 +26288,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2430] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "Aerial Operation",
@@ -26298,7 +26299,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2431] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "Interlude",
@@ -26309,7 +26310,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2432] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "The Central Foundation",
@@ -26320,7 +26321,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2433] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "The Home Stretch",
@@ -26331,7 +26332,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2434] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "The Guardian of the Ruins",
@@ -26342,7 +26343,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2435] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "Onwards, to New Adventures",
@@ -26353,7 +26354,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2436] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "Treasure",
@@ -26518,7 +26519,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2461] = {
-		mask = "star_level_bg_106",
+		mask = "bg/star_level_bg_106",
 		subtitle = "",
 		type = 1,
 		title = "The Seafaring Speedster",
@@ -26529,7 +26530,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2462] = {
-		mask = "star_level_bg_106",
+		mask = "bg/star_level_bg_106",
 		subtitle = "",
 		type = 1,
 		title = "Aquatic Retreat",
@@ -26540,7 +26541,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2463] = {
-		mask = "star_level_bg_106",
+		mask = "bg/star_level_bg_106",
 		subtitle = "",
 		type = 1,
 		title = "Quiet, Solitude, and Fireworks",
@@ -26551,7 +26552,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2464] = {
-		mask = "star_level_bg_106",
+		mask = "bg/star_level_bg_106",
 		subtitle = "",
 		type = 1,
 		title = "The Bard and the Blue Sea",
@@ -26562,7 +26563,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2465] = {
-		mask = "star_level_bg_106",
+		mask = "bg/star_level_bg_106",
 		subtitle = "",
 		type = 1,
 		title = "Rabbit on Watch",
@@ -26573,7 +26574,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2466] = {
-		mask = "star_level_bg_106",
+		mask = "bg/star_level_bg_106",
 		subtitle = "",
 		type = 1,
 		title = "Water Gun Samurai",
@@ -26584,7 +26585,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2467] = {
-		mask = "star_level_bg_106",
+		mask = "bg/star_level_bg_106",
 		subtitle = "",
 		type = 1,
 		title = "Bright-Sky Mermaid",
@@ -26595,7 +26596,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2471] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "Imaginary City",
@@ -26606,7 +26607,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2472] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "Tomorrow's Friends",
@@ -26617,7 +26618,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2473] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "A Tour Through Yesterday",
@@ -26628,7 +26629,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2474] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "Fragments from the Future",
@@ -26639,7 +26640,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2475] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "Granate Greatness",
@@ -26650,7 +26651,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2476] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "Stars in the Streets",
@@ -26661,7 +26662,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2477] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "One Step at a Time",
@@ -26672,7 +26673,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2478] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "Change of Plans",
@@ -26683,7 +26684,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2479] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "Stacked Odds",
@@ -26694,7 +26695,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2480] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "Fusion Armaments",
@@ -26705,7 +26706,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2481] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "Seizing the Advantage",
@@ -26716,7 +26717,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2482] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "Hard-Fought Victory",
@@ -26727,7 +26728,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2483] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "Linked Lens",
@@ -26738,7 +26739,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2484] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "WFH 'n' Chill Mk. 1",
@@ -26749,7 +26750,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2485] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "Samos Island",
@@ -26760,7 +26761,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2486] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "Zero?",
@@ -26771,7 +26772,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2487] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "Antiochus",
@@ -26782,7 +26783,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2488] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "The Magister",
@@ -26793,7 +26794,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2489] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "The Devil XV",
@@ -26804,7 +26805,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2490] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "Testing Teamwork, Part 1",
@@ -26815,7 +26816,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2491] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "Testing Teamwork, Part 2",
@@ -26826,7 +26827,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2492] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "The Devil's Enforcers",
@@ -26837,7 +26838,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2493] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "Thank You",
@@ -26848,7 +26849,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2494] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "The Arbiter's Transgression",
@@ -26859,7 +26860,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2495] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "Dissolution",
@@ -26870,7 +26871,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2496] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "To Topple a Devil",
@@ -26881,7 +26882,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2497] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "Destruction of the Tower",
@@ -26892,7 +26893,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2498] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "Strings IV - Compiler",
@@ -26903,7 +26904,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2499] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "Truth in Fiction",
@@ -26914,7 +26915,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2500] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "Gathering Storm",
@@ -26925,7 +26926,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2501] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "The Invitation",
@@ -26936,7 +26937,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2502] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "After the Rain",
@@ -26947,7 +26948,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2503] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "Politics and Faith",
@@ -26958,7 +26959,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2504] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "Richard the Riddler!",
@@ -26969,7 +26970,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2505] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "\"Enterprise, I'm Back.\"",
@@ -38747,6 +38748,17 @@ pg.base.memory_template = {
 		story = "HAO7",
 		id = 3997,
 		icon = "memory_hao",
+		is_open = 0
+	},
+	[4011] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "A Brand New Sales Campaign!",
+		condition = "Unlock \"A Brand New Sales Campaign!\"",
+		story = "XINXINGCUXIAOLAIXI1",
+		id = 4011,
+		icon = "memory_xinxingcuxiaolaixi",
 		is_open = 0
 	},
 	[10011] = {

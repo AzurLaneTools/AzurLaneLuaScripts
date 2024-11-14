@@ -1490,6 +1490,21 @@ pg.player_resource = {
 		name = "skinTicket80",
 		itemid = 65036
 	},
+	[437] = {
+		id = 437,
+		name = "rixiv3_pt2",
+		itemid = 65041
+	},
+	[438] = {
+		id = 438,
+		name = "skinTicket81",
+		itemid = 65043
+	},
+	[439] = {
+		id = 439,
+		name = "blackfirday_pt2024",
+		itemid = 65046
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1858,6 +1873,11 @@ pg.player_resource = {
 	[5082] = {
 		id = 5082,
 		name = "skin_rerun_pt_2023",
+		itemid = 0
+	},
+	[5653] = {
+		id = 5653,
+		name = "skin_rerun_pt_2024",
 		itemid = 0
 	},
 	[100004] = {
@@ -2770,6 +2790,15 @@ pg.player_resource = {
 		skinTicket80 = {
 			436
 		},
+		rixiv3_pt2 = {
+			437
+		},
+		skinTicket81 = {
+			438
+		},
+		blackfirday_pt2024 = {
+			439
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -2991,6 +3020,9 @@ pg.player_resource = {
 		},
 		skin_rerun_pt_2023 = {
 			5082
+		},
+		skin_rerun_pt_2024 = {
+			5653
 		},
 		skin_rerun_pt = {
 			100004
@@ -3301,6 +3333,9 @@ pg.player_resource = {
 		434,
 		435,
 		436,
+		437,
+		438,
+		439,
 		950,
 		951,
 		952,
@@ -3375,6 +3410,7 @@ pg.player_resource = {
 		4699,
 		5081,
 		5082,
+		5653,
 		100004,
 		40275,
 		30853

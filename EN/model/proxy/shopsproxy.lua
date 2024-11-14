@@ -46,6 +46,8 @@ slot0.register = function(slot0)
 			table.insert(slot0.freeGiftIdList, slot6)
 		end
 	end
+
+	slot0.newServerShopList = {}
 end
 
 slot0.timeCall = function(slot0)
@@ -385,12 +387,12 @@ slot0.UpdateMetaShopGoods = function(slot0, slot1, slot2)
 	})
 end
 
-slot0.SetNewServerShop = function(slot0, slot1)
-	slot0.newServerShop = slot1
+slot0.SetNewServerShop = function(slot0, slot1, slot2)
+	slot0.newServerShopList[slot1] = slot2
 end
 
-slot0.GetNewServerShop = function(slot0)
-	return slot0.newServerShop
+slot0.GetNewServerShop = function(slot0, slot1)
+	return slot0.newServerShopList[slot1]
 end
 
 slot0.SetMedalShop = function(slot0, slot1)

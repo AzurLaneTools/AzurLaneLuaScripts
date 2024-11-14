@@ -145,7 +145,7 @@ slot3.InitSpeed = function(slot0, slot1)
 
 	if slot0:IsTracker() then
 		slot4 = slot0._accTable.tracker
-		slot0._trackAngle = slot4.angular
+		slot0._trackAngle = 360
 		slot0._trackDist = slot4.range
 
 		if slot4.angular then

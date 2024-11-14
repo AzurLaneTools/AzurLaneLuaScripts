@@ -205,6 +205,7 @@ pg.memory_group = setmetatable({
 		305,
 		306,
 		307,
+		308,
 		501,
 		502,
 		503,
@@ -4888,6 +4889,17 @@ pg.base.memory_group = {
 			3986,
 			3987,
 			3988
+		}
+	},
+	[308] = {
+		title = "A Brand New Sales Campaign!",
+		subtype = 3,
+		link_event = 5654,
+		type = 2,
+		id = 308,
+		icon = "title_event",
+		memories = {
+			4011
 		}
 	},
 	[501] = {
