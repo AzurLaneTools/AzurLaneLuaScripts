@@ -644,7 +644,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "列剋星敦現在的病情很穩定，相信我，我一定能及時找到治療方案的。",
+			say = "列星頓現在的病情很穩定，相信我，我一定能及時找到治療方案的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

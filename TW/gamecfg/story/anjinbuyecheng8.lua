@@ -54,7 +54,7 @@ return {
 			factiontag = "領航員-TB",
 			nameColor = "#A9F548FF",
 			actor = 900284,
-			actorName = "歡迎來到資料中心，「指揮官」。",
+			actorName = "領航員-TB",
 			say = "歡迎來到資料中心，「指揮官」。",
 			typewriter = {
 				speed = 0.05,
@@ -68,7 +68,7 @@ return {
 			factiontag = "領航員-TB",
 			nameColor = "#A9F548FF",
 			actor = 900284,
-			actorName = "歡迎來到資料中心，「指揮官」。",
+			actorName = "領航員-TB",
 			say = "您已取得管理員權限。",
 			typewriter = {
 				speed = 0.05,
@@ -82,7 +82,7 @@ return {
 			factiontag = "領航員-TB",
 			nameColor = "#A9F548FF",
 			actor = 900284,
-			actorName = "歡迎來到資料中心，「指揮官」。",
+			actorName = "領航員-TB",
 			say = "等待您的命令。",
 			typewriter = {
 				speed = 0.05,
@@ -137,7 +137,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = 900284,
-			actorName = "歡迎來到資料中心，「指揮官」。",
+			actorName = "領航員-TB",
 			say = "如您所願。",
 			typewriter = {
 				speed = 0.05,
@@ -201,7 +201,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = 900284,
-			actorName = "歡迎來到資料中心，「指揮官」。",
+			actorName = "領航員-TB",
 			say = "如您所願。",
 			typewriter = {
 				speed = 0.05,
@@ -269,7 +269,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 3,
 			actor = 900284,
-			actorName = "歡迎來到資料中心，「指揮官」。",
+			actorName = "領航員-TB",
 			say = "如您所願。",
 			typewriter = {
 				speed = 0.05,
@@ -341,7 +341,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 4,
 			actor = 900284,
-			actorName = "歡迎來到資料中心，「指揮官」。",
+			actorName = "領航員-TB",
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -356,7 +356,7 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 4,
 			actor = 900284,
-			actorName = "歡迎來到資料中心，「指揮官」。",
+			actorName = "領航員-TB",
 			say = "初始化隱藏模式。",
 			typewriter = {
 				speed = 0.05,

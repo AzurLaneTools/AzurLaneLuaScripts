@@ -255,7 +255,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			side = 2,
-			actorName = "不愧是曾經在整個不夜城都大名鼎鼎的指揮官，在這樣的熱情歡迎中都能面不改色呢。",
+			actorName = "？？",
 			say = "不愧是曾經在整個不夜城都大名鼎鼎的指揮官，在這樣的熱情歡迎中都能面不改色呢。",
 			typewriter = {
 				speed = 0.05,
@@ -268,7 +268,7 @@ return {
 			bgName = "star_level_bg_130",
 			expression = 2,
 			side = 2,
-			actorName = "不愧是曾經在整個不夜城都大名鼎鼎的指揮官，在這樣的熱情歡迎中都能面不改色呢。",
+			actorName = "？？",
 			say = "時間有限，就讓我這個不請自來的人先做自我介紹。",
 			typewriter = {
 				speed = 0.05,
@@ -281,7 +281,7 @@ return {
 			bgName = "star_level_bg_130",
 			expression = 1,
 			side = 2,
-			actorName = "不愧是曾經在整個不夜城都大名鼎鼎的指揮官，在這樣的熱情歡迎中都能面不改色呢。",
+			actorName = "？？",
 			say = "我是「銀翼抵抗軍」的特工，阿爾漢格爾斯克。",
 			typewriter = {
 				speed = 0.05,
@@ -1193,7 +1193,7 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			actor = 101452,
-			actorName = "怪盜「Mystic」向你致敬，大名鼎鼎的指揮官。",
+			actorName = "怪盜「Mystic」",
 			live2d = true,
 			say = "怪盜「Mystic」向你致敬，大名鼎鼎的指揮官。",
 			typewriter = {
@@ -1207,7 +1207,7 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			actor = 101452,
-			actorName = "怪盜「Mystic」向你致敬，大名鼎鼎的指揮官。",
+			actorName = "怪盜「Mystic」",
 			live2d = "main3",
 			say = "哼哼，潛入這裡也沒那麼難。",
 			typewriter = {
@@ -1227,7 +1227,7 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			actor = 101452,
-			actorName = "怪盜「Mystic」向你致敬，大名鼎鼎的指揮官。",
+			actorName = "怪盜「Mystic」",
 			live2d = true,
 			say = "身為自由的怪盜，我可不為任何人的利益而戰哦？",
 			typewriter = {
@@ -1241,7 +1241,7 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			actor = 101452,
-			actorName = "怪盜「Mystic」向你致敬，大名鼎鼎的指揮官。",
+			actorName = "怪盜「Mystic」",
 			live2d = true,
 			say = "我只在乎我感興趣的東西~比如說，像您這樣的大人物。",
 			typewriter = {
@@ -1267,7 +1267,7 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			actor = 101452,
-			actorName = "怪盜「Mystic」向你致敬，大名鼎鼎的指揮官。",
+			actorName = "怪盜「Mystic」",
 			live2d = "main3",
 			say = "嘿嘿，沒錯，我對你很有興趣。",
 			typewriter = {
@@ -1281,7 +1281,7 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			actor = 101452,
-			actorName = "怪盜「Mystic」向你致敬，大名鼎鼎的指揮官。",
+			actorName = "怪盜「Mystic」",
 			live2d = true,
 			say = "再說，這裡可是號稱能關押最膽大包天的人的管理所。",
 			typewriter = {
@@ -1295,7 +1295,7 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			actor = 101452,
-			actorName = "怪盜「Mystic」向你致敬，大名鼎鼎的指揮官。",
+			actorName = "怪盜「Mystic」",
 			live2d = true,
 			say = "身為一位最傳奇的怪盜，從最傳奇的地方，盜取最家喻戶曉的傳奇——這樣的挑戰，我怎麼可能拒絕呢。",
 			typewriter = {
@@ -1309,7 +1309,7 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			actor = 101452,
-			actorName = "怪盜「Mystic」向你致敬，大名鼎鼎的指揮官。",
+			actorName = "怪盜「Mystic」",
 			live2d = "main1",
 			say = "畢竟怪盜，就是要在天羅地網拿下目標才行，你說對不對？",
 			typewriter = {
@@ -1353,7 +1353,7 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			actor = 101452,
-			actorName = "怪盜「Mystic」向你致敬，大名鼎鼎的指揮官。",
+			actorName = "怪盜「Mystic」",
 			live2d = true,
 			say = "嘿，別發呆了哦？",
 			typewriter = {
@@ -1367,7 +1367,7 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			actor = 101452,
-			actorName = "怪盜「Mystic」向你致敬，大名鼎鼎的指揮官。",
+			actorName = "怪盜「Mystic」",
 			live2d = true,
 			say = "誘餌很快就會被看穿的，得趕快脫身才行。",
 			typewriter = {

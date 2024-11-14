@@ -51,7 +51,7 @@ return {
 			bgName = "star_level_bg_543",
 			live2d = true,
 			side = 2,
-			actorName = "嗯，我的逃脫魔術到這裡就是最後一步了~",
+			actorName = "怪盗「Mystic」",
 			say = "嗯，我的逃脫魔術到這裡就是最後一步了~",
 			typewriter = {
 				speed = 0.05,
@@ -64,7 +64,7 @@ return {
 			bgName = "star_level_bg_543",
 			live2d = true,
 			side = 2,
-			actorName = "嗯，我的逃脫魔術到這裡就是最後一步了~",
+			actorName = "怪盗「Mystic」",
 			say = "接下來只要找到一輛適合的車，我們就能逃出生天。",
 			typewriter = {
 				speed = 0.05,
@@ -77,7 +77,7 @@ return {
 			bgName = "star_level_bg_543",
 			live2d = true,
 			side = 2,
-			actorName = "嗯，我的逃脫魔術到這裡就是最後一步了~",
+			actorName = "怪盗「Mystic」",
 			say = "什麼嘛，結果也太順利了吧。",
 			typewriter = {
 				speed = 0.05,
@@ -90,7 +90,7 @@ return {
 			bgName = "star_level_bg_543",
 			live2d = true,
 			side = 2,
-			actorName = "嗯，我的逃脫魔術到這裡就是最後一步了~",
+			actorName = "怪盗「Mystic」",
 			say = "我本來還期待有更刺激的場面呢~",
 			typewriter = {
 				speed = 0.05,
@@ -115,7 +115,7 @@ return {
 			bgName = "star_level_bg_543",
 			live2d = true,
 			side = 2,
-			actorName = "嗯，我的逃脫魔術到這裡就是最後一步了~",
+			actorName = "怪盗「Mystic」",
 			say = "嘿嘿，我只是笑那治安者無謀罷了。",
 			typewriter = {
 				speed = 0.05,
@@ -128,7 +128,7 @@ return {
 			bgName = "star_level_bg_543",
 			live2d = true,
 			side = 2,
-			actorName = "嗯，我的逃脫魔術到這裡就是最後一步了~",
+			actorName = "怪盗「Mystic」",
 			say = "要是在這裡設了埋伏的話，我們可就沒那麼容易脫身咯。",
 			typewriter = {
 				speed = 0.05,
@@ -136,7 +136,7 @@ return {
 			}
 		},
 		{
-			actorName = "是嗎？",
+			actorName = "？？",
 			side = 2,
 			nameColor = "#FF9B93",
 			blackBg = true,
@@ -147,7 +147,7 @@ return {
 			}
 		},
 		{
-			actorName = "是嗎？",
+			actorName = "？？",
 			side = 2,
 			nameColor = "#FF9B93",
 			blackBg = true,
@@ -158,7 +158,7 @@ return {
 			}
 		},
 		{
-			actorName = "是嗎？",
+			actorName = "？？",
 			side = 2,
 			nameColor = "#FF9B93",
 			blackBg = true,
@@ -492,7 +492,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_543",
 			actor = 701121,
-			actorName = "啊哈哈哈~讓我們好好幹一架吧！！",
+			actorName = "藝術家",
 			hidePaintObj = true,
 			say = "啊哈哈哈~讓我們好好幹一架吧！！",
 			typewriter = {
@@ -564,7 +564,7 @@ return {
 			bgName = "star_level_bg_543",
 			nameColor = "#A9F548FF",
 			actor = 701121,
-			actorName = "啊哈哈哈~讓我們好好幹一架吧！！",
+			actorName = "藝術家",
 			hidePaintObj = true,
 			say = "收到~",
 			typewriter = {
@@ -578,7 +578,7 @@ return {
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "啊哈哈哈~讓我們好好幹一架吧！！",
+			actorName = "藝術家",
 			say = "叛逆的指揮官大人，請跟我來吧。",
 			typewriter = {
 				speed = 0.05,

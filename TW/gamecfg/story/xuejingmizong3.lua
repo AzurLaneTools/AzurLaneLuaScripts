@@ -110,7 +110,7 @@ return {
 			actor = 702020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿~那之前兇猛的問題，到底是怎麼回事？就請同盟跟大家講一下~",
+			say = "嘿嘿~那之前兇猛的問題，到底是怎麼回事？就請聯盟跟大家講一下~",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -840,7 +840,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9702071] = {
-		breakout_view = "获得【摇曳之火·水星纪念】/主炮效率提高5%",
+		breakout_view = "習得技能【搖曳之火·水星紀念】/主炮效率提高5%",
 		item2 = 21030,
 		pre_id = 0,
 		repair = 0,
@@ -873,7 +873,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9702073] = {
-		breakout_view = "【摇曳之火·水星纪念】升级/主炮效率提高15%",
+		breakout_view = "【搖曳之火·水星紀念】升級/主炮效率提高15%",
 		item2 = 21030,
 		pre_id = 9702072,
 		repair = 0,

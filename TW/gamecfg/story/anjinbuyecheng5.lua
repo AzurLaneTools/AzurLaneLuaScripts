@@ -87,7 +87,7 @@ return {
 			bgName = "star_level_bg_145",
 			expression = 3,
 			side = 2,
-			actorName = "……唔，是今天事情太多，注意力不集中了嗎？",
+			actorName = "藝術家",
 			say = "……唔，是今天事情太多，注意力不集中了嗎？",
 			typewriter = {
 				speed = 0.05,
@@ -100,7 +100,7 @@ return {
 			bgName = "star_level_bg_145",
 			expression = 1,
 			side = 2,
-			actorName = "……唔，是今天事情太多，注意力不集中了嗎？",
+			actorName = "藝術家",
 			say = "本想問你要不要試試看的，這下倒是省下來了。",
 			typewriter = {
 				speed = 0.05,
@@ -108,10 +108,10 @@ return {
 			}
 		},
 		{
-			side = 2,
 			nameColor = "#A9F548FF",
+			side = 2,
 			bgName = "star_level_bg_145",
-			say = "「藝術家」聳聳肩，倚在了娃娃機旁白畫滿了塗鴉的櫃子上。",
+			actorName = "藝術家",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "star_level_bg_145",
 			expression = 1,
 			side = 2,
-			actorName = "……唔，是今天事情太多，注意力不集中了嗎？",
+			actorName = "藝術家",
 			say = "在這座城市……那是什麼重要的東西呢？",
 			typewriter = {
 				speed = 0.05,
@@ -154,7 +154,7 @@ return {
 			bgName = "star_level_bg_145",
 			expression = 4,
 			side = 2,
-			actorName = "……唔，是今天事情太多，注意力不集中了嗎？",
+			actorName = "藝術家",
 			say = "……好吧，我的名字是兇猛。",
 			typewriter = {
 				speed = 0.05,
@@ -397,7 +397,7 @@ return {
 			}
 		},
 		{
-			actorName = "哎呀，被發現了~",
+			actorName = "？？？",
 			side = 2,
 			bgName = "star_level_bg_145",
 			nameColor = "#FEF15E",
@@ -461,7 +461,7 @@ return {
 			bgName = "star_level_bg_145",
 			expression = 5,
 			side = 2,
-			actorName = "晚上好，兩位。",
+			actorName = "？？？",
 			say = "晚上好，兩位。",
 			typewriter = {
 				speed = 0.05,
@@ -688,7 +688,7 @@ return {
 			bgName = "star_level_bg_145",
 			expression = 2,
 			side = 2,
-			actorName = "「女王」是不會犯錯的，偵探。",
+			actorName = "聯絡人",
 			say = "「女王」是不會犯錯的，偵探。",
 			typewriter = {
 				speed = 0.05,
@@ -711,7 +711,7 @@ return {
 			bgName = "star_level_bg_145",
 			expression = 4,
 			side = 2,
-			actorName = "「女王」是不會犯錯的，偵探。",
+			actorName = "聯絡人",
 			say = "請不要質疑女王的決定。",
 			typewriter = {
 				speed = 0.05,
@@ -777,7 +777,7 @@ return {
 			bgName = "star_level_bg_145",
 			expression = 1,
 			side = 2,
-			actorName = "「女王」是不會犯錯的，偵探。",
+			actorName = "聯絡人",
 			say = "兩位，請和我來——",
 			typewriter = {
 				speed = 0.05,

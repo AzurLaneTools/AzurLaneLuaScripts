@@ -271,7 +271,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_154",
 			nameColor = "#A9F548FF",
-			actorName = "……咳咳，試音，試音~",
+			actorName = "？？",
 			paintingNoise = true,
 			say = "……咳咳，試音，試音~",
 			typewriter = {
@@ -321,7 +321,7 @@ return {
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
 			actor = 701091,
-			actorName = "……咳咳，試音，試音~",
+			actorName = "？？",
 			say = "哼哼，看來我的干擾計畫很順利嘛。",
 			typewriter = {
 				speed = 0.05,
@@ -335,7 +335,7 @@ return {
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
 			actor = 701091,
-			actorName = "……咳咳，試音，試音~",
+			actorName = "？？",
 			say = "別白費力氣了，這裡的奈米蜂都已經被我控制了哦。",
 			typewriter = {
 				speed = 0.05,
@@ -349,7 +349,7 @@ return {
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
 			actor = 701091,
-			actorName = "……咳咳，試音，試音~",
+			actorName = "？？",
 			say = "妳們不論如何都不可能追上那個人了啦~",
 			typewriter = {
 				speed = 0.05,
@@ -381,7 +381,7 @@ return {
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
 			actor = 701091,
-			actorName = "……咳咳，試音，試音~",
+			actorName = "？？",
 			say = "哈哈，抱歉抱歉，都忘了自我介紹了。",
 			typewriter = {
 				speed = 0.05,
@@ -395,7 +395,7 @@ return {
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
 			actor = 701091,
-			actorName = "……咳咳，試音，試音~",
+			actorName = "？？",
 			say = "在下是所屬「銀翼」的天才的機械師——啊不對，現在是天才駭客，啊哈哈哈哈——",
 			typewriter = {
 				speed = 0.05,
@@ -407,7 +407,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_154",
 			nameColor = "#A9F548FF",
-			actorName = "……咳咳，試音，試音~",
+			actorName = "？？",
 			paintingNoise = true,
 			say = "在妳們的檔案中，似乎是用「靈敏」這個名字稱呼我的呢~",
 			typewriter = {

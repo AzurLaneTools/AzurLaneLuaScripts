@@ -1221,7 +1221,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90875] = {
 		cannon = 0,
-		name = "共赴级浮空护卫舰",
+		name = "共赴級浮空護衛艦",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1374,7 +1374,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90876] = {
 		cannon = 0,
-		name = "联盟级浮空护卫舰",
+		name = "聯盟級浮空護衛艦",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1534,7 +1534,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90877] = {
 		cannon = 0,
-		name = "誓言级浮空战舰",
+		name = "誓言級浮空戰艦",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1694,7 +1694,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90878] = {
 		cannon = 0,
-		name = "长空级浮空航母",
+		name = "長空級浮空航母",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1861,7 +1861,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90879] = {
 		cannon = 0,
-		name = "使命级浮空指挥舰",
+		name = "使命級浮空指揮艦",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2021,7 +2021,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90880] = {
 		cannon = 0,
-		name = "伊克西翁级维修中心",
+		name = "伊克西翁級維修中心",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2181,7 +2181,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90881] = {
 		cannon = 0,
-		name = "旗舰「卡拉布里亚之骄傲」",
+		name = "旗艦「卡拉布里亞之驕傲」",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2355,7 +2355,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90882] = {
 		cannon = 0,
-		name = "战争协议-堡垒",
+		name = "戰爭協議-堡壘",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2500,7 +2500,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90883] = {
 		cannon = 0,
-		name = "战争协议-堡垒",
+		name = "戰爭協議-堡壘",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2652,7 +2652,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90884] = {
 		cannon = 0,
-		name = "战争协议-堡垒",
+		name = "戰爭協議-堡壘",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2804,7 +2804,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90885] = {
 		cannon = 0,
-		name = "水星纪念",
+		name = "水星紀念",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -2961,7 +2961,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90886] = {
 		cannon = 0,
-		name = "水星纪念改",
+		name = "水星紀念改",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3118,7 +3118,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90887] = {
 		cannon = 0,
-		name = "水星纪念·META",
+		name = "水星紀念·META",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -3275,7 +3275,7 @@ pg.enemy_data_statistics_32 = {
 	},
 	[90888] = {
 		cannon = 0,
-		name = "罗德尼·META",
+		name = "羅德尼·META",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

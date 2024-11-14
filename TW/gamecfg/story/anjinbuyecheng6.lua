@@ -49,7 +49,7 @@ return {
 			nameColor = "#FEF15E",
 			bgName = "star_level_bg_161",
 			side = 2,
-			actorName = "請留步，兇猛女士。",
+			actorName = "聯絡人",
 			say = "請留步，兇猛女士。",
 			typewriter = {
 				speed = 0.05,
@@ -61,7 +61,7 @@ return {
 			nameColor = "#FEF15E",
 			bgName = "star_level_bg_161",
 			side = 2,
-			actorName = "請留步，兇猛女士。",
+			actorName = "聯絡人",
 			say = "只有「指揮官」能夠進入女王的宮殿。",
 			typewriter = {
 				speed = 0.05,
@@ -107,7 +107,7 @@ return {
 			nameColor = "#FEF15E",
 			bgName = "star_level_bg_161",
 			side = 2,
-			actorName = "請留步，兇猛女士。",
+			actorName = "聯絡人",
 			say = "女王的客人名單中只有「指揮官」。還請見諒。",
 			typewriter = {
 				speed = 0.05,
@@ -136,7 +136,7 @@ return {
 			nameColor = "#FEF15E",
 			bgName = "star_level_bg_161",
 			side = 2,
-			actorName = "請留步，兇猛女士。",
+			actorName = "聯絡人",
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -148,7 +148,7 @@ return {
 			nameColor = "#FEF15E",
 			bgName = "star_level_bg_161",
 			side = 2,
-			actorName = "請留步，兇猛女士。",
+			actorName = "聯絡人",
 			say = "我很抱歉。但女王的命令是絕對的。",
 			typewriter = {
 				speed = 0.05,
@@ -691,7 +691,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_146",
-			actorName = "指揮官，趴下——！",
+			actorName = "？？？？？",
 			nameColor = "#A9F548FF",
 			say = "指揮官，趴下——！",
 			typewriter = {

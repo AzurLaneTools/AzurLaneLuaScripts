@@ -328,7 +328,7 @@ return {
 			}
 		},
 		{
-			actorName = "……想法很好哦。",
+			actorName = "？？？？",
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#FF9B93",
@@ -339,7 +339,7 @@ return {
 			}
 		},
 		{
-			actorName = "……想法很好哦。",
+			actorName = "？？？？",
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#FF9B93",
@@ -350,7 +350,7 @@ return {
 			}
 		},
 		{
-			actorName = "……想法很好哦。",
+			actorName = "？？？？",
 			side = 2,
 			bgName = "bg_story_task",
 			nameColor = "#FF9B93",
