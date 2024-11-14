@@ -3377,6 +3377,7 @@ NewProbabilitySkinShopView = import("view.shops.skinShop.views.NewProbabilitySki
 NewSkinShopMainView = import("view.shops.skinShop.views.NewSkinShopMainView")
 NewSkinShopPurchaseView = import("view.shops.skinShop.views.NewSkinShopPurchaseView")
 ActivityShopPurchasePanel = import("view.shops.view.ActivityShopPurchasePanel")
+BlackFridayServerShopPurchasePanel = import("view.shops.view.BlackFridayServerShopPurchasePanel")
 GuildShopPurchasePanel = import("view.shops.view.GuildShopPurchasePanel")
 MedalShopPurchasePanel = import("view.shops.view.MedalShopPurchasePanel")
 MiniGameShopPurchasePanel = import("view.shops.view.MiniGameShopPurchasePanel")

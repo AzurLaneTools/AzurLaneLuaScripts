@@ -777,10 +777,10 @@ pg.activity_event_shop_discount = {
 	[5652] = {
 		max_count = 0,
 		item_id = 65045,
-		change_resource_type = 0,
+		change_resource_type = 14,
 		discount_price = 300,
 		id = 5652,
-		change_resource_num = 0,
+		change_resource_num = 300,
 		shop_list = {
 			70002,
 			70003,

@@ -22,14 +22,14 @@ slot0.OnLoaded = function(slot0)
 	slot0.resText = slot0:findTF("res_pt/Text")
 	slot0.pagefooterWid = slot0.pagefooters[1].rect.width
 	slot0.pagefooterStartPosX = slot0.pagefooters[1].anchoredPosition.x
-	slot0.purchasePage = NewServerShopPurchasePanel.New(slot0._tf, slot0.event, slot0.contextData)
+	slot0.purchasePage = BlackFridayServerShopPurchasePanel.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.multiWindow = NewServerShopMultiWindow.New(slot0._tf, slot0.event)
 	slot0.singleWindow = NewServerShopSingleWindow.New(slot0._tf, slot0.event)
 	slot0._tf.localPosition = Vector3(-6, -25)
 end
 
-slot0.UpdateRes = function(slot0, slot1)
-	slot0.resTxt.text = getProxy(PlayerProxy):getRawData():getResource(slot0.shop:GetResID(slot1))
+slot0.UpdateRes = function(slot0)
+	slot0.resTxt.text = getProxy(PlayerProxy):getRawData():getResource(slot0.shop:GetResID(slot0.openIndex or 1))
 
 	if not slot0.isInitResIcon then
 		slot0.isInitResIcon = true
@@ -115,7 +115,7 @@ slot0.Flush = function(slot0)
 	if slot0.shop then
 		slot0:Show()
 		slot0:UpdatePageFooters()
-		slot0:UpdateRes(slot0.openIndex)
+		slot0:UpdateRes()
 	else
 		slot0:FetchShop(function (slot0)
 			if not slot0 then
@@ -126,7 +126,7 @@ slot0.Flush = function(slot0)
 
 			uv0:Show()
 			uv0:UpdatePageFooters()
-			uv0:UpdateRes(uv0.openIndex)
+			uv0:UpdateRes()
 		end)
 	end
 end
@@ -176,6 +176,8 @@ slot0.OnSwitch = function(slot0, slot1, slot2)
 end
 
 slot0.SwitchTab = function(slot0, slot1)
+	slot0.openIndex = slot1
+
 	if slot0.resTF then
 		setActive(slot0.resTF, false)
 	end
@@ -183,7 +185,7 @@ slot0.SwitchTab = function(slot0, slot1)
 	slot0.resTF = slot0.ress[slot1]
 
 	setActive(slot0.resTF, true)
-	slot0:UpdateRes(slot1)
+	slot0:UpdateRes()
 
 	slot0.displays = slot0.shop:GetGoodsByTabs(slot1)
 
@@ -191,13 +193,11 @@ slot0.SwitchTab = function(slot0, slot1)
 		return slot0.id < slot1.id
 	end)
 	slot0.scrollrect:SetTotalCount(#slot0.displays)
-
-	slot0.openIndex = slot1
 end
 
 slot0.Refresh = function(slot0)
 	slot0:SwitchTab(slot0.openIndex)
-	slot0:UpdateRes(slot0.openIndex)
+	slot0:UpdateRes()
 end
 
 slot0.updateLocalRedDotData = function(slot0, slot1)

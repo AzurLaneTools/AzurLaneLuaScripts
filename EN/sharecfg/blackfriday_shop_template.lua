@@ -335,7 +335,7 @@ pg.blackfriday_shop_template = {
 		goods_type = 2,
 		id = 20,
 		resource_num = 2400,
-		goods_icon = "Props/16003",
+		goods_icon = "Props/54003",
 		goods = {
 			16003,
 			16013,
