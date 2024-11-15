@@ -276,7 +276,7 @@ Get the Business Buddy ECII today and experience the joy of being able to work a
 	},
 	[3205] = {
 		group_ID = 5,
-		name = "Terorrism and Arrest",
+		name = "Terrorism and Arrest",
 		subTitle = "",
 		pic = "3205",
 		id = 3205,

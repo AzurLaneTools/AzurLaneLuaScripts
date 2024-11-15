@@ -3878,11 +3878,11 @@ slot0.GetMiniGameHubData = function()
 end
 
 slot0.LoadSkeletonData = function(slot0, slot1)
-	PoolMgr.GetInstance():LoadAsset(uv0.ui_atlas, slot0, true, typeof(Object), function (slot0)
+	LoadAnyAsync(uv0.ui_atlas, slot0, typeof(Object), function (slot0)
 		if slot0 then
 			uv1(SpineAnimUI.AnimChar(uv0, slot0))
 		end
-	end, true)
+	end)
 end
 
 slot0.getBeachMap = function(slot0)
