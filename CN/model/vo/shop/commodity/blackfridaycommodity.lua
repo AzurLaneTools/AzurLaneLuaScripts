@@ -20,4 +20,12 @@ slot0.GetOffPercent = function(slot0)
 	return math.modf(slot0:getConfig("discount") / slot0:getConfig("resource_num") * 100)
 end
 
+slot0.GetConsume = function(slot0)
+	return Drop.New({
+		type = slot0:getConfig("resource_category"),
+		id = slot0:getConfig("resource_type"),
+		count = slot0:GetSalesPrice()
+	})
+end
+
 return slot0
