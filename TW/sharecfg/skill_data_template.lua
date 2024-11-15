@@ -111085,10 +111085,10 @@ pg.base.skill_data_template = {
 	},
 	[30201] = {
 		desc_get = "",
-		name = "专属弹幕-火力I",
+		name = "專屬彈幕-火力I",
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行15次攻击，触发专属弹幕-火力I",
+		desc = "主炮每進行15次攻擊，觸發專屬彈幕-火力I",
 		id = 30201,
 		system_transform = {},
 		world_death_mark = {
@@ -111099,10 +111099,10 @@ pg.base.skill_data_template = {
 	},
 	[30202] = {
 		desc_get = "",
-		name = "专属弹幕-火力II",
+		name = "專屬彈幕-火力II",
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行10次攻击，触发专属弹幕-火力II，并有50%概率发动，提高自身20%炮击，持续10s",
+		desc = "主炮每進行10次攻擊，觸發專屬彈幕-火力II，并有50%機率發動，提高自身20%炮擊，持續10s",
 		id = 30202,
 		system_transform = {},
 		world_death_mark = {

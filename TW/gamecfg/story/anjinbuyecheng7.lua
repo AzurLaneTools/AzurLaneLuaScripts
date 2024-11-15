@@ -598,7 +598,7 @@ return {
 			},
 			options = {
 				{
-					content = "原來襲擊是你策劃的……",
+					content = "原來襲擊是妳策劃的……",
 					flag = 1
 				}
 			}

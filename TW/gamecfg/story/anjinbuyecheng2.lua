@@ -1019,7 +1019,7 @@ return {
 			nameColor = "#FF9B93",
 			hideOther = true,
 			actor = 701111,
-			actorName = "是！ 收到！",
+			actorName = "火力＆阿貝克隆比",
 			say = "是！\n收到！",
 			subActors = {
 				{
@@ -1110,7 +1110,7 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_130",
-			actorName = "呵呵，難道不是船到橋頭自然直？",
+			actorName = "？？？",
 			live2dIdleIndex = 1,
 			actor = 101452,
 			nameColor = "#FF9B93",
@@ -1179,7 +1179,7 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			actor = 101452,
-			actorName = "呵呵，難道不是船到橋頭自然直？",
+			actorName = "？？？",
 			live2d = "main2",
 			say = "芝麻開門~別緊張，我不是治安者哦。",
 			typewriter = {
