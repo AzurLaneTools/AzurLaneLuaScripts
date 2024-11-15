@@ -7,11 +7,7 @@ this.GetCharMaterial = function(slot0)
 	slot1 = nil
 
 	if table.contains(uv0.SpineCharCustomInfo.char_material_default_alpha, slot0) then
-		PoolMgr:GetInstance():LoadAsset("spinematerials", "CharDefaultAlpha", false, typeof(Material), function (slot0)
-			uv0 = slot0
-		end, true)
-
-		slot1.name = "SkeletonGraphicDefault"
+		LoadAny("spinematerials", "CharDefaultAlpha", typeof(Material)).name = "SkeletonGraphicDefault"
 	end
 
 	return slot1

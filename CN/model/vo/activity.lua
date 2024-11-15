@@ -622,7 +622,7 @@ slot0.readyToAchieve = function(slot0)
 		[ActivityConst.ACTIVITY_TYPE_SURVEY] = function (slot0)
 			slot1, slot2 = getProxy(ActivityProxy):isSurveyOpen()
 
-			return slot1 and not SurveyPage.IsEverEnter(slot2)
+			return slot1 and not getProxy(ActivityProxy):isSurveyDone() and not SurveyPage.IsEverEnter(slot2)
 		end,
 		[ActivityConst.ACTIVITY_TYPE_ZUMA] = function (slot0)
 			return LaunchBallActivityMgr.GetInvitationAble(slot0.id)
