@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "――ここでの生活はどうかな？",
+			say = "ここでの生活ですか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
