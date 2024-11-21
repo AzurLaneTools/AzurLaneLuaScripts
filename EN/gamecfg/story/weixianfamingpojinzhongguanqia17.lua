@@ -774,11 +774,15 @@ return {
 			},
 			sequence = {
 				{
-					"\"The girls from another world thus embarked upon a journey to the Commander's port, laughing together all the while.\"",
-					2
+					"<size=39>\"The girls from another world thus embarked upon a journey to the Commander's port,\"</size>",
+					4
 				},
 				{
-					"\"This tale is far from over.\"",
+					"<size=39>\"laughing together all the while.\"</size>",
+					4
+				},
+				{
+					"<size=39>\"This tale is far from over.\"</size>",
 					4
 				}
 			}
