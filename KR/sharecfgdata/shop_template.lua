@@ -41149,7 +41149,8 @@ _G.pg.base.shop_template[70763] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 100,
+	order = 250,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -41160,32 +41161,6 @@ _G.pg.base.shop_template[70763] = {
 	limit_args = {},
 	effect_args = {
 		201351
-	},
-	time = {
-		{
-			{
-				2024,
-				3,
-				14
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2024,
-				4,
-				3
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -41202,7 +41177,8 @@ _G.pg.base.shop_template[70764] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 100,
+	order = 250,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -41213,32 +41189,6 @@ _G.pg.base.shop_template[70764] = {
 	limit_args = {},
 	effect_args = {
 		206071
-	},
-	time = {
-		{
-			{
-				2024,
-				3,
-				14
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2024,
-				4,
-				3
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -41255,7 +41205,8 @@ _G.pg.base.shop_template[70765] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 100,
+	order = 250,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -41266,32 +41217,6 @@ _G.pg.base.shop_template[70765] = {
 	limit_args = {},
 	effect_args = {
 		202091
-	},
-	time = {
-		{
-			{
-				2024,
-				3,
-				14
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2024,
-				4,
-				3
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -41308,7 +41233,8 @@ _G.pg.base.shop_template[70766] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 100,
+	order = 250,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -41319,32 +41245,6 @@ _G.pg.base.shop_template[70766] = {
 	limit_args = {},
 	effect_args = {
 		105021
-	},
-	time = {
-		{
-			{
-				2024,
-				3,
-				14
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2024,
-				4,
-				3
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -41358,10 +41258,10 @@ _G.pg.base.shop_template[70767] = {
 	desc = "购买皮肤:221027皇家财富号万圣节",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 0,
+	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 300,
+	order = 250,
 	time = "always",
 	group = 0,
 	num = 1,

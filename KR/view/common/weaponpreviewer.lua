@@ -165,7 +165,7 @@ slot0.attachOrbit = function(slot0)
 		slot0.orbitList = {}
 		slot3 = ResourceMgr.Inst
 
-		slot3:getAssetAsync(ys.Battle.BattleResourceManager.GetOrbitPath(slot1.orbit_combat), slot1.orbit_combat, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		slot3:getAssetAsync(ys.Battle.BattleResourceManager.GetOrbitPath(slot1.orbit_combat), "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 			if uv0.seaCharacter then
 				slot1 = Object.Instantiate(slot0)
 

@@ -18,13 +18,18 @@ slot0.preload = function(slot0, slot1)
 
 	seriesAsync({
 		function (slot0)
-			AssetBundleHelper.loadAssetBundleAsync("ui/LoginUI2_atlas", function (slot0)
-				table.insert(uv0.iconSpries, slot0:LoadAssetSync("statu_green", typeof(Sprite), true, false))
-				table.insert(uv0.iconSpries, slot0:LoadAssetSync("statu_gray", typeof(Sprite), true, false))
-				table.insert(uv0.iconSpries, slot0:LoadAssetSync("statu_red", typeof(Sprite), true, false))
-				table.insert(uv0.iconSpries, slot0:LoadAssetSync("statu_org", typeof(Sprite), true, false))
-				uv1()
-			end)
+			AssetBundleHelper.LoadManyAssets("ui/LoginUI2_atlas", {
+				"statu_green",
+				"statu_gray",
+				"statu_red",
+				"statu_org"
+			}, typeof(Sprite), true, function (slot0)
+				for slot4, slot5 in ipairs(uv0) do
+					table.insert(uv1.iconSpries, slot0[slot5])
+				end
+
+				uv2()
+			end, true)
 		end,
 		function (slot0)
 			uv0.isCriBg, uv0.bgPath, uv0.bgmName, uv0.isOpPlay, uv0.opVersion = getLoginConfig()

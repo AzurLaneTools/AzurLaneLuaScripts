@@ -1122,7 +1122,110 @@ pg.activity_ins_chat_language = setmetatable({
 		1118,
 		1119,
 		1120,
-		1121
+		1121,
+		1122,
+		1123,
+		1124,
+		1125,
+		1126,
+		1127,
+		1128,
+		1129,
+		1130,
+		1131,
+		1132,
+		1133,
+		1134,
+		1135,
+		1136,
+		1137,
+		1138,
+		1139,
+		1140,
+		1141,
+		1142,
+		1143,
+		1144,
+		1145,
+		1146,
+		1147,
+		1148,
+		1149,
+		1150,
+		1151,
+		1152,
+		1153,
+		1154,
+		1155,
+		1156,
+		1157,
+		1158,
+		1159,
+		1160,
+		1161,
+		1162,
+		1163,
+		1164,
+		1165,
+		1166,
+		1167,
+		1168,
+		1169,
+		1170,
+		1171,
+		1172,
+		1173,
+		1174,
+		1175,
+		1176,
+		1177,
+		1178,
+		1179,
+		1180,
+		1181,
+		1182,
+		1183,
+		1184,
+		1185,
+		1186,
+		1187,
+		1188,
+		1189,
+		1190,
+		1191,
+		1192,
+		1193,
+		1194,
+		1195,
+		1196,
+		1197,
+		1198,
+		1199,
+		1200,
+		1201,
+		1202,
+		1203,
+		1204,
+		1205,
+		1206,
+		1207,
+		1208,
+		1209,
+		1210,
+		1211,
+		1212,
+		1213,
+		1214,
+		1215,
+		1216,
+		1217,
+		1218,
+		1219,
+		1220,
+		1221,
+		1222,
+		1223,
+		1224
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -10936,5 +11039,975 @@ pg.base.activity_ins_chat_language = {
 		type = 1,
 		id = 1121,
 		flag = 0
+	},
+	{
+		param = "「과자 만들기 비법을 알려드립니다! 디저트 달인 됭케르크의 특별 수업! 코스는 초보자부터――」",
+		ship_group = 20509,
+		type = 1,
+		id = 1122,
+		flag = 0,
+		option = {
+			{
+				1,
+				"응?"
+			},
+			{
+				2,
+				"……잘못 보낸 거지?"
+			},
+			{
+				3,
+				"아카시의 광고인가?"
+			}
+		}
+	},
+	{
+		param = "응?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1123,
+		flag = 1
+	},
+	{
+		param = "됭케르크의 디저트 만들기 교실?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1124,
+		flag = 1
+	},
+	{
+		param = "……잘못 보낸 거지?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1125,
+		flag = 2
+	},
+	{
+		param = "아니면… 정말 「됭케르크의 디저트 만들기 교실」을 나한테 추천하려고…?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1126,
+		flag = 2
+	},
+	{
+		param = "아카시의 광고인가?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1127,
+		flag = 3
+	},
+	{
+		param = "?",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1128,
+		flag = 0
+	},
+	{
+		param = "미안…… 메모장 대신 쓰는 방이 있었는데…",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1129,
+		flag = 0
+	},
+	{
+		param = "지휘관의 토크 아이콘이 근처에 있어서 나도 모르게 이쪽에다 적었나봐……",
+		ship_group = 20509,
+		type = 1,
+		id = 1130,
+		flag = 0,
+		option = {
+			{
+				4,
+				"디저트 만드는 실력을 더 키우려고?"
+			},
+			{
+				5,
+				"그렇구나. 괜찮아."
+			},
+			{
+				6,
+				"역시 아카시의 광고였군…"
+			}
+		}
+	},
+	{
+		param = "그렇구나. 디저트 만드는 실력을 더 키우려는 거야?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1131,
+		flag = 4
+	},
+	{
+		param = "응, 쿠키 말고도… 더 특별하면서도 맛있는 디저트를 만들고 싶어서.",
+		ship_group = 20509,
+		type = 1,
+		id = 1132,
+		flag = 4,
+		option = {
+			{
+				7,
+				"기대하고 있을게."
+			}
+		}
+	},
+	{
+		param = "기대하고 있을게.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1133,
+		flag = 7
+	},
+	{
+		param = "기대를 저버리지 않게 열심히 할게~",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1134,
+		flag = 7
+	},
+	{
+		param = "아, 그렇지. 연습으로 만든 디저트 좀 가져다줄까?",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1135,
+		flag = 7
+	},
+	{
+		param = "그리고 먹고 싶은 디저트가 있으면 언제든 말해줘.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1136,
+		flag = 7
+	},
+	{
+		param = "그럼 그걸 중점적으로 배워올 테니까.",
+		ship_group = 20509,
+		type = 1,
+		id = 1137,
+		flag = 7,
+		option = {
+			{
+				8,
+				"와! 그러면 고맙지!"
+			}
+		}
+	},
+	{
+		param = "와! 그러면 고맙지!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1138,
+		flag = 8
+	},
+	{
+		param = "231",
+		ship_group = 20509,
+		option = "",
+		type = 4,
+		id = 1139,
+		flag = 8
+	},
+	{
+		param = "그렇구나. 괜찮아.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1140,
+		flag = 5
+	},
+	{
+		param = "오히려 보고 있으니까 나도 관심이 생기네…",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1141,
+		flag = 5
+	},
+	{
+		param = "응? 지휘관도 관심 있어?",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1142,
+		flag = 5
+	},
+	{
+		param = "바로 자료를 보내줄 테니까 잠깐만 기다려.",
+		ship_group = 20509,
+		type = 1,
+		id = 1143,
+		flag = 5,
+		option = {
+			{
+				9,
+				"응, 같이 디저트 만드는 법을 배우자!"
+			},
+			{
+				10,
+				"관심 있는 건 수업의 「성과」야."
+			}
+		}
+	},
+	{
+		param = "응, 같이 디저트 만드는 법을 배우자!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1144,
+		flag = 9
+	},
+	{
+		param = "그래, 약속이야♪",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1145,
+		flag = 9
+	},
+	{
+		param = "218",
+		ship_group = 20509,
+		option = "",
+		type = 4,
+		id = 1146,
+		flag = 9
+	},
+	{
+		param = "내가 관심 있는 건… 수업의 「성과」기는 해.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1147,
+		flag = 10
+	},
+	{
+		param = "그렇구나……",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1148,
+		flag = 10
+	},
+	{
+		param = "그래, 배운 다음에는 꼭 지휘관한테 만들어 줄게.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1149,
+		flag = 10
+	},
+	{
+		param = "그럼 슬슬 수강 신청하고 올게.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1150,
+		flag = 10
+	},
+	{
+		param = "역시 아카시의 광고였군…",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1151,
+		flag = 6
+	},
+	{
+		param = "아카시가 아니라 하우야! 지휘관, 미안해! 다음부터는 조심할게…",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1152,
+		flag = 6
+	},
+	{
+		param = "107",
+		ship_group = 20509,
+		type = 4,
+		id = 1153,
+		flag = 6,
+		option = {
+			{
+				11,
+				"[흐음…]"
+			}
+		}
+	},
+	{
+		param = "112",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 1154,
+		flag = 11
+	},
+	{
+		param = "104",
+		ship_group = 20509,
+		type = 4,
+		id = 1155,
+		flag = 11,
+		option = {
+			{
+				12,
+				"[정신 못 차리네]"
+			}
+		}
+	},
+	{
+		param = "102",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 1156,
+		flag = 12
+	},
+	{
+		param = "………!",
+		ship_group = 20509,
+		type = 1,
+		id = 1157,
+		flag = 12,
+		option = {
+			{
+				13,
+				"미안, 미안…"
+			}
+		}
+	},
+	{
+		param = "미안. 갑자기 놀리고 싶어져서.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1158,
+		flag = 13
+	},
+	{
+		param = "……응! 그럼 수강 신청하고 올게!",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1159,
+		flag = 13
+	},
+	{
+		param = "지휘관, 지금 시간 있어?",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1160,
+		flag = 0
+	},
+	{
+		param = "내일 계획에 관해서 물어볼 게 있는데……",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1161,
+		flag = 0
+	},
+	{
+		param = "어디 가고 싶은 곳 있어?",
+		ship_group = 20509,
+		type = 1,
+		id = 1162,
+		flag = 0,
+		option = {
+			{
+				1,
+				"가능하면 밖이 좋겠어."
+			},
+			{
+				2,
+				"가능하면 실내가 좋겠어."
+			}
+		}
+	},
+	{
+		param = "밖으로 나가서, 자연을 느낄 수 있는 곳이면 좋겠어.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1163,
+		flag = 1
+	},
+	{
+		param = "그러게, 내일은 날씨도 좋으니까 햇볕을 쬐면 기분 전환이 될 거야.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1164,
+		flag = 1
+	},
+	{
+		param = "아, 그러고 보니 꽃밭에 꽃이 폈더라.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1165,
+		flag = 1
+	},
+	{
+		param = "디저트를 만들 테니까, 같이 피크닉 하러 갈까?",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1166,
+		flag = 1
+	},
+	{
+		param = "아…… 첫 데이트에 직접 만든 디저트를 가지고 가는 건 좀 그런가…?",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1167,
+		flag = 1
+	},
+	{
+		param = "「데이트 주의 사항」에서는 분명…… 좀 과하다고 그랬는데……",
+		ship_group = 20509,
+		type = 1,
+		id = 1168,
+		flag = 1,
+		option = {
+			{
+				3,
+				"괜찮아. 나는 좋아."
+			},
+			{
+				4,
+				"「데이트 주의 사항」?"
+			}
+		}
+	},
+	{
+		param = "괜찮아. 나는 좋아.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1169,
+		flag = 3
+	},
+	{
+		param = "정말?",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1170,
+		flag = 3
+	},
+	{
+		param = "그럼, 지금 바로 준비할게.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1171,
+		flag = 3
+	},
+	{
+		param = "우선 쿠키랑 머핀부터 만들어야겠다♪",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1172,
+		flag = 3
+	},
+	{
+		param = "「데이트 주의 사항」?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1173,
+		flag = 4
+	},
+	{
+		param = "응…… 첫 데이트에서 실패하고 싶지는 않아서, 웨일즈한테 도움을 좀 받았어.",
+		ship_group = 20509,
+		type = 1,
+		id = 1174,
+		flag = 4,
+		option = {
+			{
+				5,
+				"그렇구나. 자신이 없으면…"
+			}
+		}
+	},
+	{
+		param = "매뉴얼보다는 실천이 중요해. 자신이 없으면 솔직하게 마음 가는 대로 움직이는 게 나을 거야.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1175,
+		flag = 5
+	},
+	{
+		param = "마음 가는 대로…… 알았어.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1176,
+		flag = 5
+	},
+	{
+		param = "지금부터 디저트를 준비할게. 쿠키랑 머핀을 만들어야지♪",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1177,
+		flag = 5
+	},
+	{
+		param = "천천히 앉아서 쉴 수 있는 실내가 좋아.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1178,
+		flag = 2
+	},
+	{
+		param = "다행이다. 나도 같은 생각을 하고 있었거든.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1179,
+		flag = 2
+	},
+	{
+		param = "그럼 디저트 먹으러 카페에 가는 건 어때?",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1180,
+		flag = 2
+	},
+	{
+		param = "「데이트 주의 사항」에서도 카페가 좋다고 하더라고.",
+		ship_group = 20509,
+		type = 1,
+		id = 1181,
+		flag = 2,
+		option = {
+			{
+				6,
+				"좋아, 그러면 거기로 하자."
+			},
+			{
+				7,
+				"「데이트 주의 사항」?"
+			}
+		}
+	},
+	{
+		param = "좋아, 그러면 거기로 하자.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1182,
+		flag = 6
+	},
+	{
+		param = "어느 카페가 좋아?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1183,
+		flag = 6
+	},
+	{
+		param = "후후, 사실 최근에 찾아둔 데가 있거든.",
+		ship_group = 20509,
+		type = 1,
+		id = 1184,
+		flag = 6,
+		option = {
+			{
+				8,
+				"그럼 하우한테 맡길게."
+			}
+		}
+	},
+	{
+		param = "그럼 하우한테 맡길게.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1185,
+		flag = 8
+	},
+	{
+		param = "그래, 지휘관도 마음에 들었으면 좋겠다.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1186,
+		flag = 8
+	},
+	{
+		param = "「데이트 주의 사항」?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1187,
+		flag = 7
+	},
+	{
+		param = "응…… 첫 데이트에서 실패하고 싶지는 않아서, 웨일즈한테 도움을 좀 받았어.",
+		ship_group = 20509,
+		type = 1,
+		id = 1188,
+		flag = 7,
+		option = {
+			{
+				9,
+				"그러면 웨일즈도 같은 생각을 하고 있을 텐데…"
+			}
+		}
+	},
+	{
+		param = "그러면 웨일즈도 같은 생각을 하고 있을 텐데…… 내일 만나는 거 아니야?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1189,
+		flag = 9
+	},
+	{
+		param = "……아, 웨일즈는 내일 뭐 하는지 살짝 물어보는 게 좋겠네.",
+		ship_group = 20509,
+		type = 1,
+		id = 1190,
+		flag = 9,
+		option = {
+			{
+				10,
+				"그러고 보니 카페 말인데……"
+			}
+		}
+	},
+	{
+		param = "아, 가려는 카페는 이름이 뭐야?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1191,
+		flag = 10
+	},
+	{
+		param = "나중에 돌아와서 알려줄게!",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1192,
+		flag = 10
+	},
+	{
+		param = "지휘관, 옷 빨았어!",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1193,
+		flag = 0
+	},
+	{
+		param = "어제는 옷 빌려줘서 고마워! 정말 그런 일이 일어날 줄은……",
+		ship_group = 20509,
+		type = 1,
+		id = 1194,
+		flag = 0,
+		option = {
+			{
+				1,
+				"하우 옷은 괜찮아?"
+			}
+		}
+	},
+	{
+		param = "확실히 깜짝 놀랐지… 하우 옷은 괜찮아?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1195,
+		flag = 1
+	},
+	{
+		param = "초콜릿 크림 자국은 지워졌어?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1196,
+		flag = 1
+	},
+	{
+		param = "으음…… 벨이 어려울 것 같다고 하더라.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1197,
+		flag = 1
+	},
+	{
+		param = "마음에 든 옷인데…… 똑같은 걸 만들려고 해도 시간이 오래 걸릴 거고……",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1198,
+		flag = 1
+	},
+	{
+		param = "흑……",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1199,
+		flag = 1
+	},
+	{
+		param = "지금 집무실이야? 옷 가져다줄까?",
+		ship_group = 20509,
+		type = 1,
+		id = 1200,
+		flag = 1,
+		option = {
+			{
+				2,
+				"다음에 가져다줘도 괜찮아."
+			}
+		}
+	},
+	{
+		param = "다음에 가져다줘도 괜찮아.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1201,
+		flag = 2
+	},
+	{
+		param = "겉옷 하나 때문에 굳이 여기까지 올 필요 없어.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1202,
+		flag = 2
+	},
+	{
+		param = "아니, 옷 때문만이 아니라……",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1203,
+		flag = 2
+	},
+	{
+		param = "어제 초콜릿케이크가 망가져서 결국은 둘 다 못 먹었잖아?",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1204,
+		flag = 2
+	},
+	{
+		param = "다시 만들었거든. 그래서 같이 먹고 싶어서…",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1205,
+		flag = 2
+	},
+	{
+		param = "지휘관은 일 때문에 머리를 많이 쓰니까, 당분을 보충하면 도움이 될 거야.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1206,
+		flag = 2
+	},
+	{
+		param = "게다가… 지휘관이랑 더 같이 있고 싶기도 하고…",
+		ship_group = 20509,
+		type = 1,
+		id = 1207,
+		flag = 2,
+		option = {
+			{
+				3,
+				"그럼 나도 슬슬 마무리해야겠다."
+			},
+			{
+				4,
+				"내가 그쪽으로 갈까?"
+			}
+		}
+	},
+	{
+		param = "그럼 나도 슬슬 마무리하고 일찍 퇴근해야지~",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1208,
+		flag = 3
+	},
+	{
+		param = "뭐…? 지휘관, 정말 괜찮아?",
+		ship_group = 20509,
+		type = 1,
+		id = 1209,
+		flag = 3,
+		option = {
+			{
+				5,
+				"나머지는 내일 와서 하면 돼."
+			}
+		}
+	},
+	{
+		param = "나머지는 내일 와서 하면 돼.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1210,
+		flag = 5
+	},
+	{
+		param = "……그러면 내일이 힘들어지잖아…",
+		ship_group = 20509,
+		type = 1,
+		id = 1211,
+		flag = 5,
+		option = {
+			{
+				6,
+				"괜찮아. 왜냐하면…"
+			}
+		}
+	},
+	{
+		param = "괜찮아. 내일 비서함은 듀플렉스가 맡아주기로 했거든.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1212,
+		flag = 6
+	},
+	{
+		param = "둘이 매달리면 어떤 격무라도 하루 내에는 어떻게든 끝나.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1213,
+		flag = 6
+	},
+	{
+		param = "아무튼 이제 퇴근할 건데, 집무실로 올 수 있어?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1214,
+		flag = 6
+	},
+	{
+		param = "응! 지금 바로 갈게.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1215,
+		flag = 6
+	},
+	{
+		param = "잠깐만 기다려.",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1216,
+		flag = 6
+	},
+	{
+		param = "조금만 기다리면 만날 수 있어♪",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1217,
+		flag = 6
+	},
+	{
+		param = "아니면 내가 그쪽으로 갈까?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1218,
+		flag = 4
+	},
+	{
+		param = "뭐…? 아직 일 안 끝난 거 아니야…?",
+		ship_group = 20509,
+		type = 1,
+		id = 1219,
+		flag = 4,
+		option = {
+			{
+				7,
+				"오늘 할 건 다 끝냈어."
+			}
+		}
+	},
+	{
+		param = "오늘 할 건 다 끝냈어.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1220,
+		flag = 7
+	},
+	{
+		param = "그렇게 빨리…?",
+		ship_group = 20509,
+		type = 1,
+		id = 1221,
+		flag = 7,
+		option = {
+			{
+				8,
+				"내일 야근하면 돼."
+			}
+		}
+	},
+	{
+		param = "내일 야근하면 돼.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1222,
+		flag = 8
+	},
+	{
+		param = "그것보다 하우는 괜찮아? 지금 만나러 가려고 하는데.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1223,
+		flag = 8
+	},
+	{
+		param = "괜찮아♪ 쿠키 구워서 기다리고 있을게♪",
+		ship_group = 20509,
+		option = "",
+		type = 1,
+		id = 1224,
+		flag = 8
 	}
 }

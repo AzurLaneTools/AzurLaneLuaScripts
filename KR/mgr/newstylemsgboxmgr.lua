@@ -88,10 +88,19 @@ slot1.Init = function(slot0, slot1)
 end
 
 slot1.Show = function(slot0, ...)
-	table.insert(slot0.showList, 1, packEx(...))
+	table.insert(slot0.showList, packEx(...))
 
-	if #slot0.showList > 0 then
+	if #slot0.showList == 1 then
 		slot0:DoShow(unpackEx(slot0.showList[1]))
+	end
+end
+
+slot1.DeepShow = function(slot0, ...)
+	if #slot0.showList == 0 then
+		slot0:Show(...)
+	else
+		table.insert(slot0.showList, 1, packEx(...))
+		slot0:Hide(true)
 	end
 end
 
@@ -129,7 +138,7 @@ slot1.DoShow = function(slot0, slot1, slot2)
 	end)
 end
 
-slot1.Hide = function(slot0)
+slot1.Hide = function(slot0, slot1)
 	if not slot0._tf then
 		return
 	end
@@ -140,7 +149,9 @@ slot1.Hide = function(slot0)
 
 	slot0._tf = nil
 
-	table.remove(slot0.showList, 1)
+	if not slot1 then
+		table.remove(slot0.showList, 1)
+	end
 
 	if #slot0.showList > 0 then
 		slot0:DoShow(unpackEx(slot0.showList[1]))
@@ -318,7 +329,7 @@ slot1.DisplaySetting = function(slot0, slot1, slot2)
 					return EquipType.Type2Name2(slot0)
 				end), ","))
 				onButton(uv0, slot8:Find("play"), function ()
-					uv1:Show(uv2.NewStyleMsgboxMgr.TYPE_SHIP_PREVIEW, {
+					uv1:DeepShow(uv2.NewStyleMsgboxMgr.TYPE_SHIP_PREVIEW, {
 						blurParams = {
 							weight = LayerWeightConst.TOP_LAYER
 						},

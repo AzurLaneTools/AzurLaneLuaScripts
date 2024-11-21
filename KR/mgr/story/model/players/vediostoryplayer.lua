@@ -25,7 +25,7 @@ end
 slot0.PlayVedio = function(slot0, slot1, slot2, slot3)
 	slot4 = ResourceMgr.Inst
 
-	slot4:getAssetAsync("Story/" .. slot2, slot2, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+	slot4:getAssetAsync("Story/" .. slot2, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 		if uv0.stop then
 			return
 		end

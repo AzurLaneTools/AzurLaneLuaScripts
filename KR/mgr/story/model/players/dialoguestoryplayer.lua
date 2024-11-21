@@ -319,7 +319,7 @@ end
 slot5 = function(slot0, slot1)
 	slot2 = ResourceMgr.Inst
 
-	slot2:getAssetAsync("Story/" .. slot0, slot0, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+	slot2:getAssetAsync("Story/" .. slot0, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 		uv0(slot0)
 	end), true, true)
 end

@@ -230,8 +230,6 @@ slot5 = function(slot0, slot1)
 
 		uv1.metaExpView = BattleResultMetaExpView.New(uv1._tf, uv1.event, uv1.contextData)
 
-		uv1.metaExpView:Reset()
-		uv1.metaExpView:Load()
 		uv1.metaExpView:setData(getProxy(MetaCharacterProxy):getLastMetaSkillExpInfoList(), function ()
 			if uv0 then
 				setActive(uv0, true)
@@ -239,6 +237,8 @@ slot5 = function(slot0, slot1)
 
 			uv1.metaExpView = nil
 		end)
+		uv1.metaExpView:Reset()
+		uv1.metaExpView:Load()
 		uv1.metaExpView:ActionInvoke("Show")
 		uv1.metaExpView:ActionInvoke("openPanel")
 	end, SFX_PANEL)

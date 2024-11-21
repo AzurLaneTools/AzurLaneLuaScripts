@@ -210,7 +210,7 @@ slot0.OnUpdate = function(slot0)
 
 	slot0.playerSettingPlaySet = {}
 	slot0.customSetting = PlayerPrefs.GetInt("dorm3d_graphics_settings", 1) == 4
-	slot0.qualitySettingAsset = ResourceMgr.Inst:getAssetSync("three3dquaitysettings/defaultsettings", uv0[PlayerPrefs.GetInt("dorm3d_graphics_settings", 2)], nil, true, true)
+	slot0.qualitySettingAsset = LoadAny("three3dquaitysettings/defaultsettings", uv0[PlayerPrefs.GetInt("dorm3d_graphics_settings", 2)])
 	slot0.qualitySettingAssetType = slot0.qualitySettingAsset:GetType()
 	slot0.list = slot0:GetList()
 

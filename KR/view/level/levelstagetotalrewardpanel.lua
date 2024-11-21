@@ -40,9 +40,9 @@ slot0.didEnter = function(slot0)
 		slot0.metaExpView = MetaExpView.New(slot0.window:Find("Layout"), slot0.event, slot0.contextData)
 		slot4 = slot0.metaExpView
 
+		slot4:setData(slot3)
 		slot4:Reset()
 		slot4:Load()
-		slot4:setData(slot3)
 		slot4:ActionInvoke("Show")
 	end
 end

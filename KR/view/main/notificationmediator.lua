@@ -78,7 +78,7 @@ slot0.register = function(slot0)
 					uv0:sendNotification(GAME.GUILD_SEND_MSG, slot10)
 				end
 
-				TrackConst.EmojiSend(slot10)
+				pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildEmoji(slot10))
 			end
 		end
 	end)

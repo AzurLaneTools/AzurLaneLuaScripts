@@ -378,7 +378,7 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4)
 
 	for slot8, slot9 in pairs(LaunchBallGameConst.enemy_data) do
 		table.insert(slot0.enemyDatas, {
-			animator = ResourceMgr.Inst:getAssetSync(LaunchBallGameVo.ui_atlas, slot9.name, typeof(RuntimeAnimatorController), false, false),
+			animator = LoadAny(LaunchBallGameVo.ui_atlas, slot9.name, typeof(RuntimeAnimatorController)),
 			data = slot9
 		})
 	end

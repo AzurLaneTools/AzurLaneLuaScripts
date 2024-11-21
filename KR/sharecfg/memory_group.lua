@@ -309,6 +309,7 @@ pg.memory_group = setmetatable({
 		601,
 		602,
 		603,
+		604,
 		1000,
 		1001,
 		1002
@@ -6685,7 +6686,7 @@ pg.base.memory_group = {
 		}
 	},
 	[603] = {
-		title = "보물을 찾아 떠나자!",
+		title = "외출! 보물 찾기!",
 		subtype = 0,
 		link_event = 0,
 		type = 3,
@@ -6699,6 +6700,23 @@ pg.base.memory_group = {
 			3935,
 			3936,
 			3937
+		}
+	},
+	[604] = {
+		title = "둘만의 달콤한 쿠키",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 604,
+		icon = "title_chara_hao",
+		memories = {
+			3991,
+			3992,
+			3993,
+			3994,
+			3995,
+			3996,
+			3997
 		}
 	},
 	[1000] = {

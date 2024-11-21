@@ -12389,12 +12389,12 @@ _G.pg.base.gametip.buildship_heavy_tip = {
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「마그데부르크」 상시 건조 추가!"
+	tip = "「재너스」, 「맨체스터」 상시 건조 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「울리히 폰 후텐」 상시 건조 추가!"
+	tip = "「알비온」 상시 건조 추가!"
 }
 
 

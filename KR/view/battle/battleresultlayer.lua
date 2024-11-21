@@ -1048,8 +1048,6 @@ slot0.initMetaBtn = function(slot0)
 		if not uv0.metaExpView then
 			uv0.metaExpView = BattleResultMetaExpView.New(uv0._blurConatiner, uv0.event, uv0.contextData)
 
-			uv0.metaExpView:Reset()
-			uv0.metaExpView:Load()
 			uv0.metaExpView:setData(uv1, function ()
 				if uv0.metaBtn then
 					setActive(uv0.metaBtn, true)
@@ -1057,6 +1055,8 @@ slot0.initMetaBtn = function(slot0)
 
 				uv0.metaExpView = nil
 			end)
+			uv0.metaExpView:Reset()
+			uv0.metaExpView:Load()
 			uv0.metaExpView:ActionInvoke("Show")
 			uv0.metaExpView:ActionInvoke("openPanel")
 		end

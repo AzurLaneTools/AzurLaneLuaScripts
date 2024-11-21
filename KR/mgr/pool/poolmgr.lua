@@ -143,39 +143,18 @@ slot0.Init = function(slot0, slot1)
 
 	for slot8, slot9 in pairs(slot0.preloadSprites) do
 		if #slot9 > 0 then
-			slot10 = typeof(Sprite)
-			slot11 = false
-
-			slot12 = function(slot0)
-			end
-
-			AssetBundleHelper.loadAssetBundleAsync(slot8, function (slot0)
+			AssetBundleHelper.LoadManyAssets(slot8, slot9, typeof(Sprite), true, function (slot0)
 				for slot4, slot5 in ipairs(uv0) do
-					slot6 = slot0:LoadAssetSync(slot5, uv1, uv2, false)
-					slot8 = slot5
-
-					if uv4.pools_pack[uv3] and uv4.pools_pack[slot7]:Get(slot8) then
-						uv5(uv4.pools_pack[slot7]:Get(slot8))
-					else
-						if not uv4.pools_pack[slot7] then
-							uv4.pools_pack[slot7] = uv6.New(uv1)
-						end
-
-						if not uv4.pools_pack[slot7]:Get(slot8) then
-							uv4.pools_pack[slot7]:Set(slot8, slot6)
-						end
-
-						uv5(slot6)
-					end
+					uv1:AddPoolsPack(uv2, slot5, uv3, slot0[slot5])
 				end
 
-				uv7()
-			end)
+				uv4()
+			end, false)
 		end
 	end
 
 	for slot8, slot9 in ipairs(slot0.preloadAbs) do
-		AssetBundleHelper.loadAssetBundleAsync(slot9, function (slot0)
+		AssetBundleHelper.StoreAssetBundle(slot9, true, false, function (slot0)
 			uv0()
 		end)
 	end
@@ -271,8 +250,9 @@ end
 
 slot0.GetSpineSkel = function(slot0, slot1, slot2, slot3)
 	slot4, slot5 = HXSet.autoHxShiftPath("char/" .. slot1, slot1)
+	slot5 = slot5 .. "_SkeletonData"
 
-	slot0:LoadAsset(slot4, slot5 .. "_SkeletonData", slot2, typeof(Object), function (slot0)
+	slot0:LoadAsset(slot4, "", typeof(Object), slot2, function (slot0)
 		uv0(slot0)
 	end, true)
 end
@@ -301,7 +281,7 @@ slot7 = {
 slot8 = {}
 
 slot0.GetUI = function(slot0, slot1, slot2, slot3)
-	slot0:FromPlural("ui/" .. slot1, slot1, slot2, table.contains(uv0, slot1) and 3 or 1, function (slot0)
+	slot0:FromPlural("ui/" .. slot1, "", slot2, table.contains(uv0, slot1) and 3 or 1, function (slot0)
 		slot1 = function()
 			uv0(uv1)
 		end
@@ -312,7 +292,7 @@ slot0.GetUI = function(slot0, slot1, slot2, slot3)
 		else
 			slot1()
 		end
-	end, table.contains(uv1, slot1) or table.contains(uv2, slot1))
+	end, true)
 end
 
 slot0.ReturnUI = function(slot0, slot1, slot2)
@@ -336,14 +316,14 @@ slot0.ReturnUI = function(slot0, slot1, slot2)
 			slot0.pools_plural[slot4]:Enqueue(slot2, true)
 
 			if slot0.pools_plural[slot4]:AllReturned() and (not slot0.callbacks[slot4] or #slot0.callbacks[slot4] == 0) then
-				uv3:ClearBundleRef(slot3, true, true)
+				AssetBundleHelper.UnloadAssetBundle(slot3, true, true)
 				slot0.pools_plural[slot4]:Clear()
 
 				slot0.pools_plural[slot4] = nil
 			end
 		end
 	else
-		uv4.Destroy(slot2)
+		uv3.Destroy(slot2)
 	end
 end
 
@@ -377,7 +357,7 @@ end
 slot0.ClearAllTempCache = function(slot0)
 	for slot4, slot5 in pairs(slot0.ui_tempCache) do
 		if slot5 and slot0.pools_plural["ui/" .. slot4 .. slot4] then
-			uv0:ClearBundleRef(slot6, true, true)
+			AssetBundleHelper.UnloadAssetBundle(slot6, true, true)
 			slot0.pools_plural[slot7]:Clear()
 
 			slot0.pools_plural[slot7] = nil
@@ -404,7 +384,7 @@ slot0.GetPainting = function(slot0, slot1, slot2, slot3)
 	slot4 = "painting/" .. slot1
 	slot5 = slot4 .. slot1
 
-	slot0:FromPlural(slot4, slot1, slot2, 1, function (slot0)
+	slot0:FromPlural(slot4, "", slot2, 1, function (slot0)
 		slot0:SetActive(true)
 
 		if ShipExpressionHelper.DefaultFaceless(uv0) then
@@ -467,7 +447,7 @@ slot0.ExcessPainting = function(slot0)
 		if slot0.paintingCount > 10 then
 			slot0.paintingCount = 0
 
-			uv0.Inst:ResUnloadAsync()
+			uv0:ResUnloadAsync()
 		end
 	end
 end
@@ -476,7 +456,7 @@ slot0.GetPaintingWithPrefix = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = slot4 .. slot1
 	slot6 = slot5 .. slot1
 
-	slot0:FromPlural(slot5, slot1, slot2, 1, function (slot0)
+	slot0:FromPlural(slot5, "", slot2, 1, function (slot0)
 		slot0:SetActive(true)
 
 		if ShipExpressionHelper.DefaultFaceless(uv0) then
@@ -509,7 +489,7 @@ slot0.ReturnPaintingWithPrefix = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.GetSprite = function(slot0, slot1, slot2, slot3, slot4)
-	slot0:FromObjPack(slot1, tostring(slot2), slot3, typeof(Sprite), function (slot0)
+	slot0:FromObjPack(slot1, tostring(slot2), typeof(Sprite), slot3, function (slot0)
 		uv0(slot0)
 	end)
 end
@@ -519,7 +499,7 @@ slot0.DecreasSprite = function(slot0, slot1, slot2)
 
 	if slot0.pools_pack[slot1] and slot0.pools_pack[slot3].type == slot4 then
 		if slot0.pools_pack[slot3]:Remove(slot2) then
-			uv0:ClearBundleRef(slot3, false, false)
+			AssetBundleHelper.UnloadAssetBundle(slot3, false, false)
 		end
 
 		if slot0.pools_pack[slot3]:GetAmount() <= 0 then
@@ -539,7 +519,7 @@ slot0.DestroySprite = function(slot0, slot1)
 		slot0.pools_pack[slot2] = nil
 
 		for slot8 = 1, slot0.pools_pack[slot2]:GetAmount() do
-			uv0:ClearBundleRef(slot2, false, false)
+			AssetBundleHelper.UnloadAssetBundle(slot2, false, false)
 		end
 	end
 end
@@ -560,7 +540,7 @@ slot0.DestroyAllSprite = function(slot0)
 		slot0.pools_pack[slot6] = nil
 
 		for slot12 = 1, slot0.pools_pack[slot6]:GetAmount() do
-			uv0:ClearBundleRef(slot6, false, false)
+			AssetBundleHelper.UnloadAssetBundle(slot6, false, false)
 		end
 	end
 
@@ -608,13 +588,13 @@ slot0.SpriteMemUsage = function(slot0)
 						slot17 = 3
 					elseif slot18 == TextureFormat.ARGB4444 or slot18 == TextureFormat.RGBA4444 then
 						slot17 = 2
-					elseif slot18 == TextureFormat.DXT5 or slot18 == TextureFormat.ETC2_RGBA8 then
+					elseif slot18 == TextureFormat.DXT5 or slot18 == TextureFormat.ASTC_4x4 or slot18 == TextureFormat.ETC2_RGBA8 then
 						slot17 = 1
-					elseif slot18 == TextureFormat.PVRTC_RGB4 or slot18 == TextureFormat.PVRTC_RGBA4 or slot18 == TextureFormat.ETC_RGB4 or slot18 == TextureFormat.ETC2_RGB or slot18 == TextureFormat.DXT1 then
+					elseif slot18 == TextureFormat.PVRTC_RGB4 or slot18 == TextureFormat.PVRTC_RGBA4 or slot18 == TextureFormat.ETC_RGB4 or slot18 == TextureFormat.ETC2_RGB or slot18 == TextureFormat.ASTC_6x6 or slot18 == TextureFormat.DXT1 then
 						slot17 = 0.5
 					end
 
-					slot1 = slot1 + slot15.width * slot15.height * slot17 * slot2
+					slot1 = slot1 + slot15.width * slot15.height * slot17 * slot2 / 8
 					slot9[slot16] = true
 				end
 			end
@@ -634,7 +614,7 @@ slot10 = {
 slot0.GetPrefab = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot6 = slot1 .. slot2
 
-	slot0:FromPlural(slot1, slot2, slot3, slot5 or uv0, function (slot0)
+	slot0:FromPlural(slot1, "", slot3, slot5 or uv0, function (slot0)
 		if string.find(uv0, "emoji/") == 1 and slot0:GetComponent(typeof(CriManaEffectUI)) then
 			slot1:Pause(false)
 		end
@@ -673,7 +653,7 @@ slot0.DestroyPrefab = function(slot0, slot1, slot2)
 
 		slot0.pools_plural[slot3] = nil
 
-		uv0:ClearBundleRef(slot1, true, false)
+		AssetBundleHelper.UnloadAssetBundle(slot1, true, false)
 	end
 end
 
@@ -685,7 +665,7 @@ slot0.DestroyAllPrefab = function(slot0)
 			return string.find(uv0, slot0) == 1
 		end) then
 			slot6:Clear()
-			uv1:ClearBundleRef(slot5, true, false)
+			AssetBundleHelper.UnloadAssetBundle(slot5, true, false)
 			table.insert(slot1, slot5)
 		end
 	end
@@ -743,7 +723,7 @@ slot0.FromPlural = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	end
 
 	if not slot0.pools_plural[slot1 .. slot2] then
-		slot0:LoadAsset(slot1, slot2, slot3, typeof(Object), function (slot0)
+		slot0:LoadAsset(slot1, slot2, typeof(Object), slot3, function (slot0)
 			if slot0 == nil then
 				Debugger.LogError("can not find asset: " .. uv0 .. " : " .. uv1)
 
@@ -763,22 +743,15 @@ end
 
 slot0.FromObjPack = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	if not slot0.pools_pack[slot1] or not slot0.pools_pack[slot6]:Get(slot2) then
-		slot0:LoadAsset(slot1, slot2, slot3, slot4, function (slot0)
+		AssetBundleHelper.LoadAsset(slot1, slot2, slot3, slot4, function (slot0)
 			if slot0 == nil then
 				Debugger.LogError("can not find asset: " .. uv0 .. " : " .. uv1)
 
 				return
 			end
 
-			if not uv2.pools_pack[uv3] then
-				uv2.pools_pack[uv3] = uv4.New(uv5)
-			end
-
-			if not uv2.pools_pack[uv3]:Get(uv1) then
-				uv2.pools_pack[uv3]:Set(uv1, slot0)
-			end
-
-			uv6(slot0)
+			uv2:AddPoolsPack(uv3, uv1, uv4, slot0)
+			uv5(slot0)
 		end, false)
 	else
 		slot5(slot0.pools_pack[slot6]:Get(slot2))
@@ -789,17 +762,17 @@ slot0.LoadAsset = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot7, slot8 = HXSet.autoHxShiftPath(slot1, slot2)
 
 	if slot0.callbacks[slot7 .. slot8] then
-		if not slot3 then
+		if not slot4 then
 			errorMsg("Sync Loading after async operation")
 		end
 
 		table.insert(slot0.callbacks[slot7], slot5)
-	elseif slot3 then
+	elseif slot4 then
 		slot0.callbacks[slot7] = {
 			slot5
 		}
 
-		uv0:getAssetAsync(slot1, slot2, slot4, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		uv0:getAssetAsync(slot1, slot2, slot3, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 			if uv0.callbacks[uv1] then
 				slot1 = uv0.callbacks[uv1]
 				uv0.callbacks[uv1] = nil
@@ -810,7 +783,17 @@ slot0.LoadAsset = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 			end
 		end), slot6, false)
 	else
-		slot5(uv0:getAssetSync(slot1, slot2, slot4, slot6, false))
+		slot5(uv0:getAssetSync(slot1, slot2, slot3, slot6, false))
+	end
+end
+
+slot0.AddPoolsPack = function(slot0, slot1, slot2, slot3, slot4)
+	if not slot0.pools_pack[slot1] then
+		slot0.pools_pack[slot1] = uv0.New(slot3)
+	end
+
+	if not slot0.pools_pack[slot1]:Get(slot2) then
+		slot0.pools_pack[slot1]:Set(slot2, slot4)
 	end
 end
 

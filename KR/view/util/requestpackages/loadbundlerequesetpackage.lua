@@ -14,11 +14,11 @@ slot0.__call = function(slot0)
 			slot1 = uv0.path
 
 			xpcall(function ()
-				AssetBundleHelper.loadAssetBundleAsync(uv0, function (slot0)
+				AssetBundleHelper.StoreAssetBundle(uv0, true, true, function (slot0)
 					pg.UIMgr.GetInstance():LoadingOff()
 
 					if uv0.stopped then
-						ResourceMgr.Inst:ClearBundleRef(uv1, false, false)
+						AssetBundleHelper.UnstoreAssetBundle(uv1)
 
 						return
 					end

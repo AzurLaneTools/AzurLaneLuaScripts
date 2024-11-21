@@ -483,6 +483,7 @@ MetaCharActiveEnergyCommand = import("controller.command.technology.metaCharacte
 MetaPTAwardGetCommand = import("controller.command.technology.metaCharacter.MetaPTAwardGetCommand")
 MetaPTDataRequestCommand = import("controller.command.technology.metaCharacter.MetaPTDataRequestCommand")
 MetaQuickTacticsCommand = import("controller.command.technology.metaCharacter.MetaQuickTacticsCommand")
+GameTrackingCommand = import("controller.command.track.GameTrackingCommand")
 NewTrackingCommand = import("controller.command.track.NewTrackingCommand")
 TrackCommand = import("controller.command.track.TrackCommand")
 FetchVoteInfoCommand = import("controller.command.vote.FetchVoteInfoCommand")

@@ -791,16 +791,17 @@ slot0.LoadCharacter = function(slot0, slot1, slot2)
 					slot1 = uv0.loader
 
 					slot1:LoadBundle(uv1, function (slot0)
-						table.IpairsCArray(slot0:GetAllAssetNames(), function (slot0, slot1)
-							slot2, slot3, slot4 = string.find(slot1, "material_hx[/\\](.*).mat")
+						for slot4, slot5 in ipairs(slot0:GetAllAssetNames()) do
+							slot6, slot7, slot8 = string.find(slot5, "material_hx[/\\](.*).mat")
 
-							if slot2 then
-								uv0.hxMatDict[slot4] = {
-									uv1,
-									slot1
+							if slot6 then
+								uv0.hxMatDict[slot8] = {
+									slot0,
+									slot5
 								}
 							end
-						end)
+						end
+
 						uv1()
 					end)
 				end)
@@ -880,7 +881,8 @@ slot0.HXCharacter = function(slot0, slot1)
 			end
 
 			uv1 = true
-			uv2[slot0] = uv0.hxMatDict[slot2][1]:LoadAssetSync(uv0.hxMatDict[slot2][2], typeof(Material), true, false)
+			slot3, slot4 = unpack(uv0.hxMatDict[slot2])
+			uv2[slot0] = slot3:LoadAssetSync(slot4, typeof(Material), true, false)
 
 			warning("Replace HX Material", uv0.hxMatDict[slot2][2])
 		end)
@@ -1274,7 +1276,9 @@ slot0.didEnter = function(slot0)
 	for slot7, slot8 in pairs(slot0.ladyDict) do
 		(function (slot0, slot1)
 			if slot0.tfPendintItem then
-				setParent(slot0.tfPendintItem, slot0.lady)
+				onNextTick(function ()
+					setParent(uv0.tfPendintItem, uv0.lady)
+				end)
 			end
 
 			slot0.ladyOwner = GetComponent(slot0.lady, "GraphOwner")
@@ -1550,6 +1554,10 @@ slot0.RefreshSlots = function(slot0, slot1)
 
 		slot7 = uv1.slotDict[slot3].trans
 
+		if uv1.loader:GetLoadingRP("slot_" .. slot3) then
+			uv1:emit(uv2.HIDE_BLOCK)
+		end
+
 		uv1.loader:GetPrefabBYStopLoading("dorm3d/furniture/prefabs/" .. slot5, "", function (slot0)
 			uv0()
 			assert(slot0)
@@ -1698,13 +1706,13 @@ slot0.WalkByRootMotionLoop = function(slot0, slot1, slot2)
 end
 
 slot0.ActiveCamera = function(slot0, slot1)
-	if isActive(slot1) then
-		slot0:OnCameraBlendFinished(slot1)
-	end
-
 	table.Foreach(slot0.cameras, function (slot0, slot1)
 		setActive(slot1, slot1 == uv0)
 	end)
+
+	if isActive(slot1) then
+		slot0:OnCameraBlendFinished(slot1)
+	end
 end
 
 slot0.ShowBlackScreen = function(slot0, slot1, slot2)
@@ -2504,8 +2512,14 @@ slot0.PlayTimeline = function(slot0, slot1, slot2)
 			GetOrAddComponent(slot1, "TimelineSpeed")
 		end
 
-		table.IpairsCArray(GameObject.Find("[actor]").transform:GetComponentsInChildren(typeof(Animator), true), function (slot0, slot1)
+		slot3 = GameObject.Find("[actor]").transform
+
+		table.IpairsCArray(slot3:GetComponentsInChildren(typeof(Animator), true), function (slot0, slot1)
 			GetOrAddComponent(slot1.transform, typeof(DftAniEvent))
+		end)
+		table.IpairsCArray(slot3:GetComponentsInChildren(typeof("MagicaCloth.BaseCloth"), true), function (slot0, slot1)
+			slot1.enabled = false
+			slot1.enabled = slot1.enabled
 		end)
 		slot2:Stop()
 
@@ -2778,7 +2792,9 @@ slot0.PlayExpression = function(slot0, slot1)
 	slot6:GetPrefab("dorm3D/effect/prefab/expression/" .. slot2, slot2, function (slot0)
 		uv0.instance = slot0
 
-		setParent(slot0, uv1.ladyHeadCenter)
+		onNextTick(function ()
+			setParent(uv0, uv1.ladyHeadCenter)
+		end)
 		setLocalPosition(slot0, Vector3(0, 0, -0.2))
 		setActive(slot0, false)
 		setActive(slot0, true)
