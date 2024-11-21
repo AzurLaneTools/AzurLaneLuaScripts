@@ -254,7 +254,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "待て…「デビルーク星」？「普通の人間」？",
+			say = "待って…「デビルーク星」？「普通の人間」？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

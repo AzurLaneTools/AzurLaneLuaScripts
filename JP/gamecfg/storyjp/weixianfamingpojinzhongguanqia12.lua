@@ -79,7 +79,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tolove_2",
 			hidePaintObj = true,
-			say = "女王の号令ので一行は速度を上げ、波を切り分けながら目標海域へと分け入った。",
+			say = "女王の号令で一行は速度を上げ、波を切り分けながら目標海域へと分け入った。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

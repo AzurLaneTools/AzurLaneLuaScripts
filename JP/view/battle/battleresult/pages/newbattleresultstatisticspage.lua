@@ -734,7 +734,7 @@ slot0.LoadCommanderTpls = function(slot0, slot1, slot2)
 				return
 			end
 
-			for slot5 = #shipTpls + 1, #ships do
+			for slot5 = #uv0.commaderTpls + 1, uv1 do
 				table.insert(uv0.commaderTpls, Object.Instantiate(slot1, uv0.commmanderContainer).transform)
 			end
 

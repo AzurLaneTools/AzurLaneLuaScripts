@@ -469,7 +469,7 @@ pg.emoji_template = {
 		}
 	},
 	{
-		achieve = 0,
+		achieve = 1,
 		index = 77,
 		pic = "37",
 		desc = "<color=#92fc63>[まだ寝ないの]</color>",
@@ -482,7 +482,7 @@ pg.emoji_template = {
 		}
 	},
 	{
-		achieve = 0,
+		achieve = 1,
 		index = 78,
 		pic = "38",
 		desc = "<color=#92fc63>[ねむねむ]</color>",
