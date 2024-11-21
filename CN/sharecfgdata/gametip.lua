@@ -6405,6 +6405,11 @@ _G.pg.base.gametip.word_shipNation_senran = {
 }
 
 
+_G.pg.base.gametip.word_shipNation_tolove = {
+	tip = "To LOVE-Ru"
+}
+
+
 _G.pg.base.gametip.word_reset = {
 	tip = "重置"
 }
@@ -12367,7 +12372,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累计建造200次可获得海上传奇舰船 {namecode:84}(最多4次)"
+	tip = "菈菈·撒塔琳·戴比路克、娜娜·阿丝达·戴比路克 等角色建造概率UP！"
 }
 
 
@@ -25801,6 +25806,78 @@ _G.pg.base.gametip.cruise_task_help_2410 = {
 }
 
 
+_G.pg.base.gametip.battlepass_main_tip_2412 = {
+	tip = "2024/12/1-2025/1/31期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「朱利奥·凯撒·META」</color>在内的丰富奖励"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2412 = {
+	tip = {
+		{
+			info = [[
+世界巡游(2024.12.1-2025.1.30)
+
+·<color=#92fc63>开放时间</color>
+ 2024.12.1 0点 ~ 2025.1.31 23:59:59
+
+·<color=#92fc63>巡游进度说明</color>
+（1）活动期间，指挥官通过完成巡游任务，可获取「巡游点数」。
+（2）巡游任务随时间开放解锁。
+（3）每获取100点「巡游点数」即可增加1巡游进度
+（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达100。
+
+·<color=#92fc63>奖励规则</color>
+巡游进度奖励分为两种：
+（1）基础巡游奖励：包含<color=#ff5c5c>「朱利奥·凯撒·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·七期</color>售卖(即11.30 22:59:59停止)，请指挥官注意购买时间。
+
+·<color=#92fc63>任务说明</color>
+巡游任务分为两种：
+（1）每周任务 
+ 巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务
+（2）S.P.任务
+ S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成大部分巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的完成券数量固定，与当前任务进度无关
+（4）「巡游任务快速完成券」不会随本期活动结束而消失
+
+·<color=#ff5c5c>特别提示</color>
+（1）在本期世界巡游活动结束后，所有巡游任务将会无法继续完成，所有巡游奖励将会无法继续领取，请各位指挥官务必注意活动结束时间，提前领取奖励。
+（2）巡游进度、[特许巡游凭证]仅对本期世界巡游活动生效]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2412 = {
+	tip = {
+		{
+			info = [[
+巡游任务说明
+
+·<color=#92fc63>开放时间</color>
+ 2024.12.1 0点 ~ 2025.1.31 23:59:59
+
+·<color=#92fc63>巡游任务分为两种</color>
+（1）每周任务
+ 巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务。
+（2）S.P.任务
+ S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成每周巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的「巡游任务快速完成券」数量和其提供的「巡游点数」相关，与当前任务进度无关
+（4）「巡游任务快速完成券」<color=#92fc63>不会随本期活动结束而消失</color>]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "全部重置"
 }
@@ -30255,7 +30332,7 @@ _G.pg.base.gametip.cryptolalia_delete_res_tip = {
 
 
 _G.pg.base.gametip.cryptolalia_delete_res_title = {
-	tip = "下载资源"
+	tip = "删除资源"
 }
 
 
@@ -35356,6 +35433,11 @@ _G.pg.base.gametip.cruise_title_2410 = {
 }
 
 
+_G.pg.base.gametip.cruise_title_2412 = {
+	tip = "世界巡游·二十期"
+}
+
+
 _G.pg.base.gametip.battlepass_main_time_title = {
 	tip = "本期剩余时间："
 }
@@ -35398,6 +35480,21 @@ _G.pg.base.gametip.cruise_shop_title_equip_skin = {
 
 _G.pg.base.gametip.cruise_shop_lock_tip = {
 	tip = "当期世界巡游等级达到50"
+}
+
+
+_G.pg.base.gametip.cruise_tip_skin = {
+	tip = "前往世界巡游"
+}
+
+
+_G.pg.base.gametip.cruise_tip_base = {
+	tip = "-基础巡游奖励-"
+}
+
+
+_G.pg.base.gametip.cruise_tip_upgrade = {
+	tip = "-特许巡游奖励-"
 }
 
 
@@ -35588,6 +35685,16 @@ _G.pg.base.gametip.levelscene_mapselect_sp = {
 
 _G.pg.base.gametip.levelscene_mapselect_ex = {
 	tip = "EX"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_normal = {
+	tip = "常规"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_advanced = {
+	tip = "进阶"
 }
 
 
@@ -35842,4 +35949,287 @@ _G.pg.base.gametip.blackfriday_main_tip = {
 
 _G.pg.base.gametip.blackfriday_shop_tip = {
 	tip = "$1日$2时解锁"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_1 = {
+	tip = "护盾up！"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_2 = {
+	tip = "得分up！"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_3 = {
+	tip = "时限 up！"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_4 = {
+	tip = "护盾超级upup！"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_5 = {
+	tip = "得分超级upup！"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_6 = {
+	tip = "时限超级upup！"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_7 = {
+	tip = "全能upup！"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_1 = {
+	tip = "游戏开始时携带1层护盾，每层护盾可抵挡一次爆炸。"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_2 = {
+	tip = "游戏结算时最终得分*1.2倍。"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_3 = {
+	tip = "游戏开始时计时延长10秒。"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_4 = {
+	tip = "游戏开始时携带1层护盾，局内每成功躲避5次额外获得1层护盾，最多累积2层护盾，每层护盾可抵挡一次爆炸。"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_5 = {
+	tip = "游戏结算时最终得分*1.2倍。在游戏中每经过5轮分数倍率额外增加+0.01。"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_6 = {
+	tip = "游戏开始时计时延长10秒。每次倒计时归零时有50%概率再延长10秒。"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_7 = {
+	tip = "游戏开始时携带1层护盾，游戏计时延长10秒，结算时最终得分*1.2倍。"
+}
+
+
+_G.pg.base.gametip.tolovegame_join_reward = {
+	tip = "参与奖励"
+}
+
+
+_G.pg.base.gametip.tolovegame_score = {
+	tip = "得分"
+}
+
+
+_G.pg.base.gametip.tolovegame_rank_tip = {
+	tip = "仅显示好友与大舰队成员 "
+}
+
+
+_G.pg.base.gametip.tolovegame_lock_1 = {
+	tip = "$1天$2小时后解锁 "
+}
+
+
+_G.pg.base.gametip.tolovegame_lock_2 = {
+	tip = "$1小时后解锁 "
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_switch_1 = {
+	tip = "启用修正 "
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_switch_2 = {
+	tip = "停止修正"
+}
+
+
+_G.pg.base.gametip.tolovegame_proceed = {
+	tip = "前往"
+}
+
+
+_G.pg.base.gametip.tolovegame_collect = {
+	tip = "领取"
+}
+
+
+_G.pg.base.gametip.tolovegame_collected = {
+	tip = "已领取"
+}
+
+
+_G.pg.base.gametip.tolovegame_tutorial = {
+	tip = {
+		{
+			info = "异世界的王女为指挥官专门制作的特训装置！\n"
+		},
+		{
+			info = "1. 游戏开始后，指挥官需要记下角色上方依次出现的方向箭头；"
+		},
+		{
+			info = "2. 箭头不久之后就会消失，爆炸即将开始！不过好在只要按照刚刚记下的顺序依次按下方向键即可躲避炸弹；"
+		},
+		{
+			info = "3. 躲避的轮次越高，可获得越高分数；"
+		},
+		{
+			info = "4. 充分利用「特训修正」中的强化效果，在有限的时间内取得高分吧！ "
+		}
+	}
+}
+
+
+_G.pg.base.gametip.tolovegame_awards = {
+	tip = "参与奖励"
+}
+
+
+_G.pg.base.gametip.tolovemainpage_skin_countdown = {
+	tip = "剩余$1小时"
+}
+
+
+_G.pg.base.gametip.tolovemainpage_build_countdown = {
+	tip = "即将结束"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_title = {
+	tip = "订单需求确认"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_ship_need = {
+	tip = "$1的需求"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_task_need = {
+	tip = "所需素材："
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_detail_collect = {
+	tip = "前往收集"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_detail_puzzle = {
+	tip = "拼接元器件"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_detail_connection = {
+	tip = "绘制电路"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_ship_unknown = {
+	tip = "???"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_lock_by_front = {
+	tip = "需要完成前置订单"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_lock_by_time = {
+	tip = "$1天$2小时后解锁"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_cheat = {
+	tip = "这个轻松，就交给我吧！"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_open_detail = {
+	tip = "查看订单"
+}
+
+
+_G.pg.base.gametip.tolove_main_help = {
+	tip = {
+		{
+			info = "活动简介："
+		},
+		{
+			info = "<color=#92fc63>11.21~12.05 维护前</color>开启限时活动「危险发明迫近中！」"
+		},
+		{
+			info = "<color=#7D7D7D>纪念章奖励领取、作战收获累计奖励领取、活动商店奖励兑换时间将延长至12.11 24时</color>\n"
+		},
+		{
+			info = "<color=#FCD400>出击</color>\n通过特别作战获取「能量石」，在「作战收获累计中！」和「补给商店」处兑换丰厚奖励。\n"
+		},
+		{
+			info = "<color=#FCD400>「帮帮我吧，菈菈小姐！」</color>\n活动期间通过作战获得「能量晶屑」，在「帮帮我吧，菈菈小姐！」玩法中开启港区角色的发明委托订单，完成元器件拼接和电路绘制后可领取「嘻嘻加班君」等限定设备。\n"
+		},
+		{
+			info = "<color=#FCD400>「滴滴特训君」</color>\n活动期间完成7日小游戏，可获得「王女的画作」等限定家具奖励；完成特训任务更可获得额外奖励。\n"
+		},
+		{
+			info = "<color=#FCD400>「纪念章」</color>\n活动期间限定活动任务可获得「数据芯片」，集齐「数据芯片」可在「纪念章」弹窗内兑换活动纪念家具「戴比路克风纪念章」。\n"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_finished = {
+	tip = "已完成"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_title_desc = {
+	tip = "订单需求确认"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_pop_next = {
+	tip = "下 一 步"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_pop_finish = {
+	tip = "完 成"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_pop_save = {
+	tip = "发明进度已记录"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_unlock = {
+	tip = "委托订单 "
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_lock = {
+	tip = "神秘订单"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_line_tip = {
+	tip = "绘制电路需要一笔连通所有元器件哦"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_puzzle_tip = {
+	tip = "所有元器件都需要放在点位上哦"
 }

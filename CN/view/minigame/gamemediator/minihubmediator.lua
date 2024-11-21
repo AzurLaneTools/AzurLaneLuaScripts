@@ -46,7 +46,9 @@ slot0.OnMiniGameFailure = function(slot0, slot1)
 end
 
 slot0.listNotificationInterests = function(slot0)
-	slot1 = {}
+	slot1 = {
+		GAME.SUBMIT_ACTIVITY_TASK_DONE
+	}
 
 	table.insertto(slot1, uv0.super.listNotificationInterests(slot0))
 
@@ -55,6 +57,16 @@ end
 
 slot0.handleNotification = function(slot0, slot1)
 	uv0.super.handleNotification(slot0, slot1)
+
+	slot3 = slot1:getBody()
+
+	if slot1:getName() == GAME.SUBMIT_ACTIVITY_TASK_DONE then
+		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
+
+		if slot0.viewComponent.ShowTask then
+			slot0.viewComponent:ShowTask()
+		end
+	end
 end
 
 return slot0

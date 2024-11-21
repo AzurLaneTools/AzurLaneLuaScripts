@@ -15358,6 +15358,37 @@ _G.pg.base.item_data_statistics[21039] = {
 }
 
 
+_G.pg.base.item_data_statistics[21040] = {
+	open_directly = 0,
+	name = "结晶：朱利奥·凯撒·META",
+	type = 4,
+	display = "朱利奥·凯撒·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21040",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21040,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "结晶化热强钢",
@@ -25447,6 +25478,131 @@ _G.pg.base.item_data_statistics[30361] = {
 }
 
 
+_G.pg.base.item_data_statistics[30362] = {
+	open_directly = 1,
+	name = "外观装备箱(ToLOVE-Ru)",
+	type = 11,
+	display = "可以获得一件随机的ToLOVE-Ru风格外观装备",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxtolove",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30362",
+	id = 30362,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			1450,
+			1
+		},
+		{
+			9,
+			1451,
+			1
+		},
+		{
+			9,
+			1452,
+			1
+		},
+		{
+			9,
+			1453,
+			1
+		},
+		{
+			9,
+			1454,
+			1
+		},
+		{
+			9,
+			1455,
+			1
+		},
+		{
+			9,
+			1456,
+			1
+		},
+		{
+			9,
+			1457,
+			1
+		},
+		{
+			9,
+			1458,
+			1
+		},
+		{
+			9,
+			1459,
+			1
+		},
+		{
+			9,
+			1460,
+			1
+		},
+		{
+			9,
+			1461,
+			1
+		},
+		{
+			9,
+			1462,
+			1
+		},
+		{
+			9,
+			1463,
+			1
+		},
+		{
+			9,
+			1464,
+			1
+		},
+		{
+			9,
+			1465,
+			1
+		},
+		{
+			9,
+			1466,
+			1
+		},
+		{
+			9,
+			1467,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "外观装备箱(世界巡游)",
@@ -26710,6 +26866,58 @@ _G.pg.base.item_data_statistics[30424] = {
 		{
 			9,
 			2084,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[30425] = {
+	open_directly = 1,
+	name = "外观装备箱(世界巡游)",
+	type = 11,
+	display = "可以随机获得一件本次世界巡游限定外观装备",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30425",
+	id = 30425,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2085,
+			1
+		},
+		{
+			9,
+			2086,
+			1
+		},
+		{
+			9,
+			2087,
+			1
+		},
+		{
+			9,
+			2088,
 			1
 		}
 	},
@@ -36645,6 +36853,432 @@ _G.pg.base.item_data_statistics[30547] = {
 		{
 			9,
 			4076,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_data_statistics[30548] = {
+	open_directly = 0,
+	name = "定向外观装备箱(ToLOVE-Ru)",
+	type = 13,
+	display = "使用后可从「ToLOVE-Ru」主题外观装备中任意选择一种获得1个",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxtolovezixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30548,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			1450,
+			1
+		},
+		{
+			9,
+			1451,
+			1
+		},
+		{
+			9,
+			1452,
+			1
+		},
+		{
+			9,
+			1453,
+			1
+		},
+		{
+			9,
+			1454,
+			1
+		},
+		{
+			9,
+			1455,
+			1
+		},
+		{
+			9,
+			1456,
+			1
+		},
+		{
+			9,
+			1457,
+			1
+		},
+		{
+			9,
+			1458,
+			1
+		},
+		{
+			9,
+			1459,
+			1
+		},
+		{
+			9,
+			1460,
+			1
+		},
+		{
+			9,
+			1461,
+			1
+		},
+		{
+			9,
+			1462,
+			1
+		},
+		{
+			9,
+			1463,
+			1
+		},
+		{
+			9,
+			1464,
+			1
+		},
+		{
+			9,
+			1465,
+			1
+		},
+		{
+			9,
+			1466,
+			1
+		},
+		{
+			9,
+			1467,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			1450,
+			1
+		},
+		{
+			9,
+			1451,
+			1
+		},
+		{
+			9,
+			1452,
+			1
+		},
+		{
+			9,
+			1453,
+			1
+		},
+		{
+			9,
+			1454,
+			1
+		},
+		{
+			9,
+			1455,
+			1
+		},
+		{
+			9,
+			1456,
+			1
+		},
+		{
+			9,
+			1457,
+			1
+		},
+		{
+			9,
+			1458,
+			1
+		},
+		{
+			9,
+			1459,
+			1
+		},
+		{
+			9,
+			1460,
+			1
+		},
+		{
+			9,
+			1461,
+			1
+		},
+		{
+			9,
+			1462,
+			1
+		},
+		{
+			9,
+			1463,
+			1
+		},
+		{
+			9,
+			1464,
+			1
+		},
+		{
+			9,
+			1465,
+			1
+		},
+		{
+			9,
+			1466,
+			1
+		},
+		{
+			9,
+			1467,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_data_statistics[30549] = {
+	open_directly = 0,
+	name = "定向外观装备箱(东煌时尚)",
+	type = 13,
+	display = "使用后可从「东煌时尚」主题外观装备中任意选择一种获得1个",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxdonghuangshishangzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30549,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			560,
+			1
+		},
+		{
+			9,
+			561,
+			1
+		},
+		{
+			9,
+			562,
+			1
+		},
+		{
+			9,
+			563,
+			1
+		},
+		{
+			9,
+			564,
+			1
+		},
+		{
+			9,
+			565,
+			1
+		},
+		{
+			9,
+			566,
+			1
+		},
+		{
+			9,
+			567,
+			1
+		},
+		{
+			9,
+			568,
+			1
+		},
+		{
+			9,
+			569,
+			1
+		},
+		{
+			9,
+			570,
+			1
+		},
+		{
+			9,
+			571,
+			1
+		},
+		{
+			9,
+			572,
+			1
+		},
+		{
+			9,
+			573,
+			1
+		},
+		{
+			9,
+			574,
+			1
+		},
+		{
+			9,
+			575,
+			1
+		},
+		{
+			9,
+			576,
+			1
+		},
+		{
+			9,
+			577,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			560,
+			1
+		},
+		{
+			9,
+			561,
+			1
+		},
+		{
+			9,
+			562,
+			1
+		},
+		{
+			9,
+			563,
+			1
+		},
+		{
+			9,
+			564,
+			1
+		},
+		{
+			9,
+			565,
+			1
+		},
+		{
+			9,
+			566,
+			1
+		},
+		{
+			9,
+			567,
+			1
+		},
+		{
+			9,
+			568,
+			1
+		},
+		{
+			9,
+			569,
+			1
+		},
+		{
+			9,
+			570,
+			1
+		},
+		{
+			9,
+			571,
+			1
+		},
+		{
+			9,
+			572,
+			1
+		},
+		{
+			9,
+			573,
+			1
+		},
+		{
+			9,
+			574,
+			1
+		},
+		{
+			9,
+			575,
+			1
+		},
+		{
+			9,
+			576,
+			1
+		},
+		{
+			9,
+			577,
 			1
 		}
 	}
@@ -105385,7 +106019,7 @@ _G.pg.base.item_data_statistics[81410] = {
 	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
-	usage_arg = "4990",
+	usage_arg = "9346",
 	id = 81410,
 	compose_number = 0,
 	target_id = 0,
@@ -105427,7 +106061,7 @@ _G.pg.base.item_data_statistics[81411] = {
 	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
-	usage_arg = "4991",
+	usage_arg = "9347",
 	id = 81411,
 	compose_number = 0,
 	target_id = 0,
@@ -105464,7 +106098,7 @@ _G.pg.base.item_data_statistics[81412] = {
 	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
-	usage_arg = "4992",
+	usage_arg = "9348",
 	id = 81412,
 	compose_number = 0,
 	target_id = 0,
@@ -105506,7 +106140,7 @@ _G.pg.base.item_data_statistics[81413] = {
 	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
-	usage_arg = "4993",
+	usage_arg = "9349",
 	id = 81413,
 	compose_number = 0,
 	target_id = 0,
@@ -105548,7 +106182,7 @@ _G.pg.base.item_data_statistics[81414] = {
 	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
-	usage_arg = "4994",
+	usage_arg = "9350",
 	id = 81414,
 	compose_number = 0,
 	target_id = 0,
@@ -105585,7 +106219,7 @@ _G.pg.base.item_data_statistics[81415] = {
 	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
-	usage_arg = "4995",
+	usage_arg = "9351",
 	id = 81415,
 	compose_number = 0,
 	target_id = 0,
@@ -105627,7 +106261,7 @@ _G.pg.base.item_data_statistics[81416] = {
 	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
-	usage_arg = "4996",
+	usage_arg = "9352",
 	id = 81416,
 	compose_number = 0,
 	target_id = 0,

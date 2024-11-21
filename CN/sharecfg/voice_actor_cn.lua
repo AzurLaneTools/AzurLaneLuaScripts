@@ -1727,5 +1727,13 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "汐入明日香",
 		code = 432
+	},
+	{
+		actor_name = "伊藤加奈惠",
+		code = 433
+	},
+	{
+		actor_name = "名冢佳织",
+		code = 434
 	}
 }

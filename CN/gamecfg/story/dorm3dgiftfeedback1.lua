@@ -11,6 +11,7 @@ return {
 	},
 	scripts = {
 		{
+			actorName = 20220,
 			say = "这是您送给我的茶具……？天狼星真是受宠若惊……我慷慨的{dorm3d}！",
 			typewriter = {
 				speed = 0.05,
@@ -21,39 +22,34 @@ return {
 				data = {
 					op_list = {
 						{
-							skip = false,
-							name = "surprise1",
+							skip = true,
+							name = "jidong",
 							type = "action"
+						},
+						{
+							skip = true,
+							name = "Face_gaoxing",
+							type = "action"
+						},
+						{
+							skip = false,
+							time = 2,
+							type = "wait"
 						}
 					}
 				},
 				callbackData = {
-					hideUI = true,
+					hideUI = false,
 					name = STORY_EVENT.TEST_DONE
 				}
 			}
 		},
 		{
+			actorName = 20220,
 			say = "天狼星一定会好好爱惜它，然后用它冲泡美味的红茶来招待{dorm3d}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
-			},
-			dispatcher = {
-				name = STORY_EVENT.TEST,
-				data = {
-					op_list = {
-						{
-							skip = false,
-							name = "Bow",
-							type = "action"
-						}
-					}
-				},
-				callbackData = {
-					hideUI = true,
-					name = STORY_EVENT.TEST_DONE
-				}
 			}
 		}
 	}

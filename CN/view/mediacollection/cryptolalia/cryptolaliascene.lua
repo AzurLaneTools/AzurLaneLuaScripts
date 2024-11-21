@@ -23,7 +23,7 @@ slot0.init = function(slot0)
 	slot0.timeLimit = slot0:findTF("Main/cd/timelimit")
 	slot0.timeTxt = slot0:findTF("Main/cd/timelimit/Text"):GetComponent(typeof(Text))
 	slot0.nameTxt = slot0:findTF("Main/name"):GetComponent(typeof(Text))
-	slot0.authorTxt = slot0:findTF("Main/name/author"):GetComponent(typeof(Text))
+	slot0.authorTxt = slot0:findTF("Main/author"):GetComponent(typeof(Text))
 	slot0.descTxt = slot0:findTF("Main/desc"):GetComponent(typeof(Text))
 	slot0.signatureImg = slot0:findTF("Main/desc/signature"):GetComponent(typeof(Image))
 	slot0.auditionTxt = slot0:findTF("Main/audition/mask/Text"):GetComponent("ScrollText")
@@ -133,7 +133,7 @@ slot0.OnItemSelected = function(slot0, slot1)
 		return
 	end
 
-	if not slot0.langType or not slot2:ExistLang(slot0.langType) then
+	if not slot0.langType or not slot2:ExistLang(slot0.langType) or slot0.selectedIndex ~= slot1 then
 		slot0.langType = slot2:GetDefaultLangType()
 	end
 
@@ -311,10 +311,12 @@ slot0.RegisterEvent = function(slot0)
 
 		if uv0.auditionFlag then
 			uv0:PlayAudition(slot0)
+			pg.BgmMgr.GetInstance():StopPlay()
 		else
 			uv0:ClearAuditionTimer()
 			uv0.soundPlayer:Stop()
 			uv0.auditionEffect:Play("anim_line_reset")
+			pg.BgmMgr.GetInstance():ContinuePlay()
 		end
 
 		uv0:UpdateAudition(uv0.auditionFlag)
@@ -443,13 +445,13 @@ slot0.PlayVedio = function(slot0, slot1)
 
 		slot3:StopPlay()
 
-		slot4 = CryptolaliaVedioPlayer.New(slot0._tf)
+		slot5 = CryptolaliaVedioPlayer.New(slot0._tf)
 
-		slot4:Play(slot2:GetCpkName(slot0.langType), function ()
+		slot5:Play(slot2:GetCpkName(slot0.langType), slot2:GetCaptionsColor(), function ()
 			pg.BgmMgr.GetInstance():ContinuePlay()
 		end)
 
-		slot0.player = slot4
+		slot0.player = slot5
 	end
 end
 

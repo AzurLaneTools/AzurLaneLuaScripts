@@ -262,6 +262,11 @@ pg.task_meta_data_template = setmetatable({
 		100343,
 		100344,
 		100345,
+		100351,
+		100352,
+		100353,
+		100354,
+		100355,
 		200001,
 		200002,
 		200003,
@@ -361,7 +366,11 @@ pg.task_meta_data_template = setmetatable({
 		200251,
 		200252,
 		200253,
-		200254
+		200254,
+		200261,
+		200262,
+		200263,
+		200264
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2446,6 +2455,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "使用{namecode:237}击破等级＞100的敌方1次"
 	},
+	[100351] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970507",
+		id = 100351,
+		target_num = 1,
+		desc = "使用朱利奥·凯撒·META获得1次胜利"
+	},
+	[100352] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970507",
+		id = 100352,
+		target_num = 1,
+		desc = "使用朱利奥·凯撒·META击破等级＞30的敌方1次"
+	},
+	[100353] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970507",
+		id = 100353,
+		target_num = 1,
+		desc = "使用朱利奥·凯撒·META击破等级＞55的敌方1次"
+	},
+	[100354] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970507",
+		id = 100354,
+		target_num = 1,
+		desc = "使用朱利奥·凯撒·META击破等级＞80的敌方1次"
+	},
+	[100355] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970507",
+		id = 100355,
+		target_num = 1,
+		desc = "使用朱利奥·凯撒·META击破等级＞100的敌方1次"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3245,5 +3294,37 @@ pg.base.task_meta_data_template = {
 		id = 200254,
 		target_num = 1,
 		desc = "大型作战内使用{namecode:237}击破等级＞100的敌方1次"
+	},
+	[200261] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970507",
+		id = 200261,
+		target_num = 1,
+		desc = "大型作战内使用朱利奥·凯撒·META获得1次胜利"
+	},
+	[200262] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970507",
+		id = 200262,
+		target_num = 1,
+		desc = "大型作战内使用朱利奥·凯撒·META击破等级＞70的敌方1次"
+	},
+	[200263] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970507",
+		id = 200263,
+		target_num = 1,
+		desc = "大型作战内使用朱利奥·凯撒·META击破等级＞90的敌方1次"
+	},
+	[200264] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970507",
+		id = 200264,
+		target_num = 1,
+		desc = "大型作战内使用朱利奥·凯撒·META击破等级＞100的敌方1次"
 	}
 }

@@ -111,7 +111,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 				slot2 = "ui/" .. slot1
 				slot3 = uv0._loader
 
-				slot3:LoadPrefab(slot2, slot1, function (slot0)
+				slot3:LoadPrefab(slot2, "", function (slot0)
 					uv0(uv1, slot0)
 					uv2()
 				end, slot2)

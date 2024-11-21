@@ -1,9 +1,7 @@
 slot0 = class("NewGuildResultGradePage", import("..NewBattleResultGradePage"))
 
 slot0.LoadBG = function(slot0, slot1)
-	slot3 = ResourceMgr.Inst
-
-	slot3:getAssetAsync("BattleResultItems/" .. "Victory", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+	LoadAnyAsync("BattleResultItems/" .. "Victory", "", nil, function (slot0)
 		if uv0.exited or IsNil(slot0) then
 			if uv1 then
 				uv1()
@@ -17,7 +15,7 @@ slot0.LoadBG = function(slot0, slot1)
 		if uv1 then
 			uv1()
 		end
-	end), false, false)
+	end)
 end
 
 slot0.LoadGrade = function(slot0, slot1)

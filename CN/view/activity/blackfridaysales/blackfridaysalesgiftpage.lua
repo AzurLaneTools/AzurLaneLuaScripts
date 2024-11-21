@@ -280,19 +280,26 @@ end
 
 slot0.isTip = function(slot0)
 	slot1 = false
-	slot0.normalList = getProxy(ShopsProxy):GetNormalList()
 
-	for slot6, slot7 in ipairs(Clone(slot0.giftList[1])) do
-		if not slot7:isChargeType() then
-			slot7:updateBuyCount(ChargeConst.getBuyCount(slot0.chargedList, slot7.id))
+	return (function (slot0)
+		slot1 = false
+
+		for slot6, slot7 in ipairs(Clone(uv0.giftList[slot0])) do
+			if slot7:isChargeType() then
+				count = ChargeConst.getBuyCount(uv0.chargedList, slot7.id)
+			else
+				count = ChargeConst.getBuyCount(uv0.normalList, slot7.id)
+			end
+
+			slot7:updateBuyCount(count)
 
 			if slot7:canPurchase() then
 				slot1 = true
 			end
 		end
-	end
 
-	return slot1
+		return slot1
+	end)(1) or slot2(2)
 end
 
 slot0.OnDestroy = function(slot0)

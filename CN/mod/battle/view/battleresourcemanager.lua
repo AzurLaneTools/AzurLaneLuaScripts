@@ -308,6 +308,10 @@ slot5.InstFX = function(slot0, slot1, slot2)
 		slot0._resCacheList[slot3] = slot4
 	end
 
+	if tf(slot4):Find("bullet") and slot6:GetComponent(typeof(SpineAnim)) then
+		slot6:GetComponent(typeof(SpineAnim)):SetAction("normal", 0, false)
+	end
+
 	return slot4
 end
 

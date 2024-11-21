@@ -5,7 +5,7 @@ slot1 = slot0.SceneMgr
 
 slot1.Ctor = function(slot0)
 	slot0._cacheUI = {}
-	slot0._gcLimit = 3
+	slot0._gcLimit = 7
 	slot0._gcCounter = 0
 end
 
@@ -252,21 +252,17 @@ slot1.remove = function(slot0, slot1, slot2, slot3)
 end
 
 slot1.gc = function(slot0, slot1)
-	slot2 = slot1:forceGC()
-
 	table.clear(slot1)
 
 	slot1.exited = true
 
-	if not GCThread.GetInstance().running then
+	if slot1:forceGC() or slot0._gcLimit <= slot0._gcCounter then
+		slot0._gcCounter = 0
+
+		gcAll(false)
+	else
 		slot0._gcCounter = slot0._gcCounter + 1
 
-		if slot0._gcLimit <= slot0._gcCounter or slot2 then
-			slot0._gcCounter = 0
-
-			gcAll(false)
-		else
-			GCThread.GetInstance():LuaGC(false)
-		end
+		GCThread.GetInstance():LuaGC(false)
 	end
 end

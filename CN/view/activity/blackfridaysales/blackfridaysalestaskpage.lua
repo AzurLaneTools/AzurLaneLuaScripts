@@ -172,17 +172,6 @@ slot0.onUpdateTask = function(slot0)
 end
 
 slot0.updataGetAllBtn = function(slot0)
-	slot0.finishVOList = {}
-
-	for slot4, slot5 in ipairs(slot0.taskVOGroup) do
-		for slot9, slot10 in ipairs(slot5) do
-			if slot10:getTaskStatus() == 1 then
-				table.insert(slot0.finishVOList, slot10)
-			end
-		end
-	end
-
-	setActive(slot0.getAllBtn, #slot0.finishVOList > 0)
 end
 
 slot0.isTip = function(slot0)

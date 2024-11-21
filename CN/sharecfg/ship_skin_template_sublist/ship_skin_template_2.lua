@@ -1,134 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_2 = {
-	[102030] = {
-		name = "布鲁克林",
-		id = 102030,
-		desc = "布鲁克林级轻巡洋舰—布鲁克林，舷号CL-40",
-		illustrator2 = -1,
-		ship_group = 10203,
-		group_index = 0,
-		prefab = "bulukelin",
-		painting = "bulukelin",
-		hand_id = 3,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 64,
-		spine_offset = "",
-		illustrator = 7,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.789,
-					0.501,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.789,
-					0.501,
-					0
-				},
-				{
-					-0.238,
-					0.927,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.457,
-					1.102,
-					0
-				},
-				{
-					-0.834,
-					1.234,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.39,
-							0.41,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.61,
-							0.53,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[102040] = {
 		name = "菲尼克斯",
 		id = 102040,
@@ -13151,6 +13023,220 @@ pg.base.ship_skin_template_2 = {
 						{
 							-0.596,
 							2.323,
+							0.14
+						}
+					}
+				}
+			}
+		}
+	},
+	[103141] = {
+		name = "Funny Bunny！",
+		id = 103141,
+		desc = "呼哈~灯光！音乐！美食！都很到位，不错！嘻嘻，欢迎来到兔女郎{namecode:195}的快乐派对！来享受快乐吧！",
+		illustrator2 = -1,
+		ship_group = 10314,
+		group_index = 1,
+		prefab = "jiujinshan_3",
+		painting = "jiujinshan_3",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 16,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "145",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 4,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70546,
+		voice_actor = 275,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.062,
+					1.166,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.075,
+					1.103,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.001,
+					0.003,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.625,
+							2.35,
+							0.14
+						}
+					}
+				}
+			}
+		}
+	},
+	[103142] = {
+		name = "It's showtime!",
+		id = 103142,
+		desc = "晚上好呀小布丁！欢迎来到{namecode:195}的表演秀！今晚在你彻底被我迷倒之前，我是不会放你走的哦♪",
+		illustrator2 = -1,
+		ship_group = 10314,
+		group_index = 2,
+		prefab = "jiujinshan_4",
+		painting = "jiujinshan_4",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 21,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "159",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 4,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70724,
+		voice_actor = 275,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.851,
+					0.805,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.837,
+					0.797,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.001,
+					-0.011,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.625,
+							1.854,
 							0.14
 						}
 					}

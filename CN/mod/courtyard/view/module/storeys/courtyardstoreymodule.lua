@@ -40,6 +40,8 @@ slot0.OnInit = function(slot0)
 	slot0.confirmBtn = slot0.selectedTF:Find("panel/animroot/ok")
 	slot0.dragBtn = CourtYardStoreyDragBtn.New(slot0.selectedTF:Find("panel/animroot"), slot0.rectTF)
 	slot0.effectContainer = slot0._tf:Find("effects")
+	slot0.floor = slot0.rectTF:Find("floor")
+	slot0.wall = slot0.rectTF:Find("wall")
 	slot1 = slot0.rootTF:Find("white"):GetComponent(typeof(Image)).material
 	slot2 = slot0.rootTF:Find("green"):GetComponent(typeof(Image)).material
 	slot3 = slot0.rootTF:Find("red"):GetComponent(typeof(Image)).material
@@ -647,8 +649,24 @@ slot0.Item2Module = function(slot0, slot1)
 end
 
 slot0.RefreshDepth = function(slot0)
-	for slot4, slot5 in ipairs(slot0.data:GetItems()) do
-		slot0:Item2Module(slot5):SetSiblingIndex(slot4 - 1)
+	eachChild(slot0.wall, function (slot0)
+		setParent(slot0, uv0.floor)
+	end)
+
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(slot0.data:GetItems()) do
+		slot7 = slot0:Item2Module(slot6)
+
+		if isa(slot6, CourtYardWallFurniture) then
+			table.insert(slot1, slot7)
+		end
+
+		slot7:SetSiblingIndex(slot5 - 1)
+	end
+
+	for slot5, slot6 in pairs(slot1) do
+		setParent(slot6._tf, slot0.wall)
 	end
 end
 

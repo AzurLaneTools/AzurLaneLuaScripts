@@ -189,6 +189,7 @@ pg.furniture_data_template = setmetatable({
 			289,
 			290,
 			291,
+			292,
 			100001,
 			100002,
 			100003,
@@ -256,6 +257,7 @@ pg.furniture_data_template = setmetatable({
 			100065,
 			100066,
 			100067,
+			100068,
 			200001,
 			200002,
 			200003,
@@ -3417,6 +3419,42 @@ pg.furniture_data_template = setmetatable({
 			315111,
 			315112,
 			315113
+		},
+		[116] = {
+			316001,
+			316002,
+			316101,
+			316102,
+			316103,
+			316104,
+			316105,
+			316106,
+			316107,
+			316108,
+			316109,
+			316110,
+			316111,
+			316112,
+			316113,
+			316114,
+			316115,
+			316116,
+			316117,
+			316118,
+			316119,
+			316120,
+			316121,
+			316122,
+			316123,
+			316301,
+			316302,
+			316303,
+			316304,
+			316305,
+			316306,
+			316307,
+			316308,
+			316309
 		}
 	},
 	get_id_list_by_tag = {
@@ -5422,7 +5460,29 @@ pg.furniture_data_template = setmetatable({
 			315109,
 			315110,
 			315111,
-			315112
+			315112,
+			316101,
+			316102,
+			316103,
+			316104,
+			316105,
+			316106,
+			316107,
+			316108,
+			316109,
+			316110,
+			316111,
+			316112,
+			316113,
+			316114,
+			316115,
+			316116,
+			316117,
+			316118,
+			316119,
+			316120,
+			316121,
+			316122
 		},
 		{
 			1108,
@@ -5813,6 +5873,7 @@ pg.furniture_data_template = setmetatable({
 			100065,
 			100066,
 			100067,
+			100068,
 			31101,
 			54101,
 			54102,
@@ -5876,7 +5937,8 @@ pg.furniture_data_template = setmetatable({
 			283,
 			284,
 			287,
-			289
+			289,
+			292
 		},
 		[7] = {
 			213,
@@ -6070,7 +6132,8 @@ pg.furniture_data_template = setmetatable({
 			312115,
 			313113,
 			314113,
-			315113
+			315113,
+			316123
 		},
 		[4] = {
 			1001,
@@ -6176,7 +6239,8 @@ pg.furniture_data_template = setmetatable({
 			312001,
 			313001,
 			314001,
-			315001
+			315001,
+			316001
 		},
 		[3] = {
 			1002,
@@ -6282,7 +6346,8 @@ pg.furniture_data_template = setmetatable({
 			312002,
 			313002,
 			314002,
-			315002
+			315002,
+			316002
 		},
 		[5] = {
 			1301,
@@ -6640,7 +6705,16 @@ pg.furniture_data_template = setmetatable({
 			313301,
 			313302,
 			313303,
-			314112
+			314112,
+			316301,
+			316302,
+			316303,
+			316304,
+			316305,
+			316306,
+			316307,
+			316308,
+			316309
 		}
 	},
 	get_id_list_by_type = {
@@ -6748,7 +6822,8 @@ pg.furniture_data_template = setmetatable({
 			312002,
 			313002,
 			314002,
-			315002
+			315002,
+			316002
 		},
 		[7] = {
 			1,
@@ -6908,6 +6983,7 @@ pg.furniture_data_template = setmetatable({
 			288,
 			289,
 			290,
+			292,
 			100001,
 			100002,
 			100004,
@@ -6958,7 +7034,8 @@ pg.furniture_data_template = setmetatable({
 			100061,
 			100062,
 			100065,
-			100067
+			100067,
+			100068
 		},
 		[2] = {
 			120,
@@ -8964,7 +9041,27 @@ pg.furniture_data_template = setmetatable({
 			315110,
 			315111,
 			315112,
-			315113
+			315113,
+			316101,
+			316102,
+			316103,
+			316104,
+			316105,
+			316106,
+			316108,
+			316109,
+			316110,
+			316111,
+			316113,
+			316114,
+			316115,
+			316116,
+			316117,
+			316118,
+			316119,
+			316120,
+			316122,
+			316123
 		},
 		[11] = {
 			131,
@@ -9013,7 +9110,9 @@ pg.furniture_data_template = setmetatable({
 			90117,
 			94119,
 			301105,
-			312115
+			312115,
+			316112,
+			316121
 		},
 		[14] = {
 			214,
@@ -9377,7 +9476,16 @@ pg.furniture_data_template = setmetatable({
 			313301,
 			313302,
 			313303,
-			314112
+			314112,
+			316301,
+			316302,
+			316303,
+			316304,
+			316305,
+			316306,
+			316307,
+			316308,
+			316309
 		},
 		[15] = {
 			251,
@@ -9499,7 +9607,8 @@ pg.furniture_data_template = setmetatable({
 			312001,
 			313001,
 			314001,
-			315001
+			315001,
+			316001
 		},
 		[5] = {
 			1101,
@@ -9648,7 +9757,8 @@ pg.furniture_data_template = setmetatable({
 			305119,
 			308104,
 			309105,
-			310101
+			310101,
+			316107
 		},
 		[3] = {
 			1108,
@@ -10070,6 +10180,7 @@ pg.furniture_data_template = setmetatable({
 		289,
 		290,
 		291,
+		292,
 		100001,
 		100002,
 		100003,
@@ -10137,6 +10248,7 @@ pg.furniture_data_template = setmetatable({
 		100065,
 		100066,
 		100067,
+		100068,
 		200001,
 		200002,
 		200003,
@@ -13087,7 +13199,41 @@ pg.furniture_data_template = setmetatable({
 		315110,
 		315111,
 		315112,
-		315113
+		315113,
+		316001,
+		316002,
+		316101,
+		316102,
+		316103,
+		316104,
+		316105,
+		316106,
+		316107,
+		316108,
+		316109,
+		316110,
+		316111,
+		316112,
+		316113,
+		316114,
+		316115,
+		316116,
+		316117,
+		316118,
+		316119,
+		316120,
+		316121,
+		316122,
+		316123,
+		316301,
+		316302,
+		316303,
+		316304,
+		316305,
+		316306,
+		316307,
+		316308,
+		316309
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -22485,6 +22631,53 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[292] = {
+		can_rotate = 0,
+		describe = "乘坐飞碟，开始一场新的冒险吧！ ",
+		gain_by = "危险发明迫近中！",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		effect = "",
+		is_get_time_note = 1,
+		picture = "",
+		is_3d_obj = 0,
+		tag = 8,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		icon = "tolovexunzhangicon",
+		count = 1,
+		name = "戴比路克风纪念章",
+		id = 292,
+		advice = 0,
+		comfortable = 0,
+		deblocking = 1,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"tolovexunzhang",
+				"normal"
+			}
+		},
+		interaction_bgm = {
+			0,
+			"story-richang-rosy-short"
+		},
+		interAction_group = {}
+	},
 	[100001] = {
 		can_rotate = 0,
 		describe = "本ID禁用",
@@ -27244,6 +27437,53 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[100068] = {
+		can_rotate = 0,
+		describe = "这件神秘的宝物似乎有两个主人，但都不是很好惹…！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "“头”号宝物",
+		advice = 0,
+		id = 100068,
+		icon = "touhaobaowuicon",
+		comfortable = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"touhaobaowu",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
 		},
 		interAction_group = {}
 	},
@@ -157041,6 +157281,1496 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[316001] = {
+		can_rotate = 0,
+		describe = "好像童话一样，充满王女气质呢！ ",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/dibantol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "王女风格地板 ",
+		advice = 0,
+		icon = "dibantolicon",
+		id = 316001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316002] = {
+		can_rotate = 0,
+		describe = "好像童话一样，充满王女气质呢！ ",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/qiangbitol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "王女风格壁纸 ",
+		advice = 0,
+		icon = "qiangbitolicon",
+		id = 316002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316101] = {
+		can_rotate = 0,
+		describe = "柔软又舒适的圆凳。 ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/aidengtol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 116,
+		count = 2,
+		name = "王女房间圆凳 ",
+		advice = 0,
+		id = 316101,
+		icon = "aidengtol",
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					13.8,
+					44.7
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316102] = {
+		can_rotate = 0,
+		describe = "听说闻了之后，性格会大大改变？嗯……还是小心点吧！ ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/baohuatol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "豹之花",
+		advice = 0,
+		icon = "baohuatolicon",
+		id = 316102,
+		comfortable = 2,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316103] = {
+		can_rotate = 0,
+		describe = "光是看着就会让心情很舒畅呢！ ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 116,
+		count = 1,
+		name = "虹之玫瑰 ",
+		advice = 0,
+		id = 316103,
+		icon = "caihongmeiguitolicon",
+		comfortable = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"caihongmeiguitol",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[316104] = {
+		can_rotate = 0,
+		describe = "明明只是个玩偶，却总感觉有奇怪的味道…… ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/chouyoutol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "臭臭臭鼬玩偶 ",
+		advice = 0,
+		icon = "chouyoutolicon",
+		id = 316104,
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316105] = {
+		can_rotate = 0,
+		describe = "会通向哪里呢，好期待！ ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 116,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "chuansongmentolicon",
+		count = 1,
+		name = "通向某处的传送门 ",
+		advice = 0,
+		id = 316105,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chuansongmentolB",
+				"normal"
+			},
+			{
+				"chuansongmentolT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[316106] = {
+		can_rotate = 0,
+		describe = "菈菈很喜欢的飞船的复制品，听说飞行速度很快呢。 ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/dailubiketol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "戴比路克飞船模型 ",
+		advice = 0,
+		icon = "dailubiketolicon",
+		id = 316106,
+		comfortable = 4,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316107] = {
+		can_rotate = 0,
+		describe = "好像童话一样，充满王女气质呢！ ",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/ditantol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "王女风格地毯 ",
+		advice = 0,
+		icon = "ditantolicon",
+		id = 316107,
+		comfortable = 3,
+		size = {
+			18,
+			18
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316108] = {
+		can_rotate = 0,
+		describe = "听说被刺伤的话身体会被麻痹，要小心哦。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/duhuatol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "黑毒之花 ",
+		advice = 0,
+		icon = "duhuatolicon",
+		id = 316108,
+		comfortable = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316109] = {
+		can_rotate = 0,
+		describe = "闻一下的话……不不不，好像有点危险，还是别闻了！ ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/fenhuatol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 5,
+		name = "激情之花 ",
+		advice = 0,
+		icon = "fenhuatolicon",
+		id = 316109,
+		comfortable = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316110] = {
+		can_rotate = 0,
+		describe = "这个……外形是狗狗吗？不对不对……毕竟是异星的动物……总之它现在是个沙发！ ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/goushafa1tol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 116,
+		count = 1,
+		name = "异星动物沙发 ",
+		advice = 0,
+		id = 316110,
+		icon = "goushafa1tolicon",
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					6.6,
+					45.1
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316111] = {
+		can_rotate = 0,
+		describe = "这个……外形是狗狗吗？不对不对……毕竟是异星的动物……总之它现在是个沙发！ ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/goushafa2tol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 116,
+		count = 1,
+		name = "异星动物沙发 ",
+		advice = 0,
+		id = 316111,
+		icon = "goushafa2tolicon",
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					6.6,
+					45.1
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316112] = {
+		can_rotate = 0,
+		describe = "听，听说会把衣服剪得破破烂烂，太危险了！ ",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 116,
+		count = 1,
+		name = "危险剪剪君 ",
+		advice = 0,
+		id = 316112,
+		icon = "jianjianjuntolicon",
+		comfortable = 4,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jianjianjuntol",
+				"normal",
+				{
+					"action",
+					true
+				},
+				1
+			}
+		},
+		interAction_group = {}
+	},
+	[316113] = {
+		can_rotate = 0,
+		describe = "感觉被打中的话……真的会很痛哦？ ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/jianonghuatol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "强击之花 ",
+		advice = 0,
+		icon = "jianonghuatolicon",
+		id = 316113,
+		comfortable = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316114] = {
+		can_rotate = 0,
+		describe = "似乎可以用它监控研究室的状况哦。 ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 116,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "kongzhitaitolicon",
+		count = 1,
+		name = "王女的控制台",
+		advice = 0,
+		id = 316114,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"kongzhitaitol",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[316115] = {
+		can_rotate = 0,
+		describe = "这个……应该已经失去了功能，只是单纯的沙发呢！ ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/lanrenshafatol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 116,
+		count = 1,
+		name = "变变沙发 ",
+		advice = 0,
+		id = 316115,
+		icon = "lanrenshafatolicon",
+		comfortable = 3,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					8.5,
+					58
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316116] = {
+		can_rotate = 0,
+		describe = "与小暗身世有关的神秘装置……这个只是装饰用的复制品呢。 ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 116,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "peiyangzhuangzhitolicon",
+		count = 1,
+		name = "培养仓模型 ",
+		advice = 0,
+		id = 316116,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"peiyangzhuangzhitol",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[316117] = {
+		can_rotate = 0,
+		describe = "很柔软和舒适，大家经常会在上面休息。 ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/shafatol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 116,
+		count = 1,
+		name = "王女们的沙发",
+		advice = 0,
+		id = 316117,
+		icon = "shafatolicon",
+		comfortable = 3,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					27.2,
+					11.2
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316118] = {
+		can_rotate = 0,
+		describe = "充满了某个人回忆的玩具柜。 ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/shuguitol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "回忆的玩具柜 ",
+		advice = 0,
+		icon = "shuguitolicon",
+		id = 316118,
+		comfortable = 2,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316119] = {
+		can_rotate = 0,
+		describe = "闻完之后感觉非常冷静……马上开始思考自己是不是做错了些什么。 ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/xianzhehuatol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "贤者花簇 ",
+		advice = 0,
+		icon = "xianzhehuatolicon",
+		id = 316119,
+		comfortable = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316120] = {
+		can_rotate = 0,
+		describe = "它可以洒出水的话……那还需要给它浇水吗？ ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 116,
+		count = 1,
+		name = "雨露之花 ",
+		advice = 0,
+		id = 316120,
+		icon = "yuhuatolicon",
+		comfortable = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yuhuatol",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[316121] = {
+		can_rotate = 0,
+		describe = "好像可以用来清理地面，但运行似乎不太稳定…… ",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 116,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "zhenkongjuntolicon",
+		count = 1,
+		name = "真空鮟鱇君",
+		advice = 0,
+		id = 316121,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhenkongjuntol",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[316122] = {
+		can_rotate = 0,
+		describe = "上面放着一些菈菈经常用到的物品。 ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/zhuozitol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "王女房间桌",
+		advice = 0,
+		icon = "zhuozitolicon",
+		id = 316122,
+		comfortable = 3,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316123] = {
+		can_rotate = 0,
+		describe = "似乎是小暗所拥有的飞船，不过是复制品哦。 ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 7,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 116,
+		count = 1,
+		name = "鲁娜迪克号模型 ",
+		advice = 0,
+		id = 316123,
+		icon = "lunadikehaotolicon",
+		comfortable = 4,
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lunadikehaotol",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[316301] = {
+		can_rotate = 0,
+		describe = "好像放着一些王女们的杂物？ ",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/bikan1tol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "王女房间壁龛1 ",
+		advice = 0,
+		icon = "bikan1tolicon",
+		id = 316301,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316302] = {
+		can_rotate = 0,
+		describe = "好像放着一些王女们的杂物？ ",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/bikan2tol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "王女房间壁龛2 ",
+		advice = 0,
+		icon = "bikan2tolicon",
+		id = 316302,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316303] = {
+		can_rotate = 0,
+		describe = "菈菈房间的装饰品，很有趣对吧？ ",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/huashutol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "王女房间装饰1 ",
+		advice = 0,
+		icon = "huashutolicon",
+		id = 316303,
+		comfortable = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316304] = {
+		can_rotate = 0,
+		describe = "开门之前，要记得敲门哦！ ",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/lalamentol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "王女房间门1 ",
+		advice = 0,
+		icon = "lalamentolicon",
+		id = 316304,
+		comfortable = 2,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316305] = {
+		can_rotate = 0,
+		describe = "开门之前，要记得敲门哦！ ",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/mentol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 2,
+		name = "王女房间门2 ",
+		advice = 0,
+		icon = "mentol",
+		id = 316305,
+		comfortable = 2,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316306] = {
+		can_rotate = 0,
+		describe = "菈菈房间的装饰品，很有趣对吧？ ",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/lanbantol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "王女房间装饰2 ",
+		advice = 0,
+		icon = "lanbantolicon",
+		id = 316306,
+		comfortable = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316307] = {
+		can_rotate = 0,
+		describe = "是菈菈画的吗……嗯…… ",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/tuyatol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 3,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "王女的画作 ",
+		advice = 0,
+		icon = "tuyatolicon",
+		id = 316307,
+		comfortable = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316308] = {
+		can_rotate = 0,
+		describe = "这个……也许是兔子吧？ ",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/wanoutol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "异星兔子墙饰 ",
+		advice = 0,
+		icon = "wanoutolicon",
+		id = 316308,
+		comfortable = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316309] = {
+		can_rotate = 0,
+		describe = "小暗颇为珍视的物品，不过应该是复制品呢。 ",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/xiaoanxinwutol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 3,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "小暗的信物 ",
+		advice = 0,
+		icon = "xiaoanxinwutolicon",
+		id = 316309,
+		comfortable = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	}

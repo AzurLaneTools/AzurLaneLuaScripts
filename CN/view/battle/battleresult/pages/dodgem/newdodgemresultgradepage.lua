@@ -1,9 +1,7 @@
 slot0 = class("NewDodgemResultGradePage", import("..NewBattleResultGradePage"))
 
 slot0.LoadBG = function(slot0, slot1)
-	slot3 = ResourceMgr.Inst
-
-	slot3:getAssetAsync("BattleResultItems/" .. "CommonBg", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+	LoadAnyAsync("BattleResultItems/" .. "CommonBg", "", nil, function (slot0)
 		if uv0.exited or IsNil(slot0) then
 			if uv1 then
 				uv1()
@@ -17,7 +15,7 @@ slot0.LoadBG = function(slot0, slot1)
 		if uv1 then
 			uv1()
 		end
-	end), false, false)
+	end)
 end
 
 slot0.RegisterEvent = function(slot0, slot1)
@@ -72,15 +70,13 @@ slot0.GetGetObjectives = function(slot0)
 end
 
 slot0.LoadPainitingContainer = function(slot0, slot1)
-	slot2 = ResourceMgr.Inst
-
-	slot2:getAssetAsync("BattleResultItems/Painting", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+	LoadAny("BattleResultItems/Painting", "", nil, function (slot0)
 		if uv0.exited then
 			return
 		end
 
 		uv0:UpdatePainting(Object.Instantiate(slot0, uv0.bgTr), uv1)
-	end), true, true)
+	end)
 end
 
 slot0.UpdatePainting = function(slot0, slot1, slot2)

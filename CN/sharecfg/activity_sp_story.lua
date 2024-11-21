@@ -1536,6 +1536,324 @@ pg.activity_sp_story = {
 			}
 		}
 	},
+	[90] = {
+		story_type = 1,
+		pre_event = "",
+		name = "EPS-1 旅程的开始",
+		change_prefab = "",
+		unlock_conditions = "",
+		change_background = "bg_tolove_1",
+		story = "WEIXIANFAMINGPOJINZHONGGUANQIA1",
+		change_bgm = "story-richang-refreshing",
+		id = 90,
+		lock = ""
+	},
+	[91] = {
+		story_type = 1,
+		name = "EP1-1 超级游戏制作机",
+		change_prefab = "",
+		unlock_conditions = "完成EP1-1",
+		change_background = "bg_tolove_1",
+		story = "WEIXIANFAMINGPOJINZHONGGUANQIA2",
+		change_bgm = "story-richang-refreshing",
+		id = 91,
+		pre_event = {
+			90
+		},
+		lock = {
+			{
+				4,
+				90
+			}
+		}
+	},
+	[92] = {
+		story_type = 1,
+		name = "EP1-2 舰装初体验？",
+		change_prefab = "",
+		unlock_conditions = "完成EP1-2",
+		change_background = "bg_tolove_1",
+		story = "WEIXIANFAMINGPOJINZHONGGUANQIA3",
+		change_bgm = "story-richang-refreshing",
+		id = 92,
+		pre_event = {
+			91
+		},
+		lock = {
+			{
+				4,
+				91
+			}
+		}
+	},
+	[93] = {
+		story_type = 2,
+		name = "EP1-3 皇家邂逅",
+		change_prefab = "",
+		unlock_conditions = "完成EP1-3",
+		change_background = "bg_tolove_1",
+		story = "1878001",
+		change_bgm = "story-richang-refreshing",
+		id = 93,
+		pre_event = {
+			92
+		},
+		lock = {
+			{
+				4,
+				92
+			}
+		}
+	},
+	[94] = {
+		story_type = 1,
+		name = "EP1-4 女王的邀请",
+		change_prefab = "",
+		unlock_conditions = "完成EP1-4",
+		change_background = "bg_tolove_1",
+		story = "WEIXIANFAMINGPOJINZHONGGUANQIA5",
+		change_bgm = "story-richang-refreshing",
+		id = 94,
+		pre_event = {
+			93
+		},
+		lock = {
+			{
+				4,
+				93
+			}
+		}
+	},
+	[95] = {
+		story_type = 1,
+		name = "EP2-1 再次来袭",
+		change_prefab = "",
+		unlock_conditions = "完成EP2-1",
+		change_background = "bg_tolove_1",
+		story = "WEIXIANFAMINGPOJINZHONGGUANQIA6",
+		change_bgm = "story-richang-refreshing",
+		id = 95,
+		pre_event = {
+			94
+		},
+		lock = {
+			{
+				4,
+				94
+			}
+		}
+	},
+	[96] = {
+		story_type = 2,
+		name = "EP2-2 复制体的挑战",
+		change_prefab = "",
+		unlock_conditions = "完成EP2-2",
+		change_background = "bg_tolove_1",
+		story = "1878002",
+		change_bgm = "story-richang-refreshing",
+		id = 96,
+		pre_event = {
+			95
+		},
+		lock = {
+			{
+				4,
+				95
+			}
+		}
+	},
+	[97] = {
+		story_type = 1,
+		name = "EP2-3 交流茶会",
+		change_prefab = "",
+		unlock_conditions = "完成EP2-3",
+		change_background = "bg_tolove_1",
+		story = "WEIXIANFAMINGPOJINZHONGGUANQIA8",
+		change_bgm = "story-richang-refreshing",
+		id = 97,
+		pre_event = {
+			96
+		},
+		lock = {
+			{
+				4,
+				96
+			}
+		}
+	},
+	[98] = {
+		story_type = 1,
+		name = "EPS-2 下一步的计划",
+		change_prefab = "",
+		unlock_conditions = "完成EPS-2",
+		change_background = "star_level_bg_115",
+		story = "WEIXIANFAMINGPOJINZHONGGUANQIA9",
+		change_bgm = "story-richang-refreshing",
+		id = 98,
+		pre_event = {
+			97
+		},
+		lock = {
+			{
+				4,
+				97
+			}
+		}
+	},
+	[99] = {
+		story_type = 1,
+		name = "EP3-1 第一信号点",
+		change_prefab = "",
+		unlock_conditions = "完成EP3-1",
+		change_background = "bg_tolove_2",
+		story = "WEIXIANFAMINGPOJINZHONGGUANQIA10",
+		change_bgm = "tl-battle-inst",
+		id = 99,
+		pre_event = {
+			98
+		},
+		lock = {
+			{
+				4,
+				98
+			}
+		}
+	},
+	[100] = {
+		story_type = 1,
+		name = "EP3-2 第二信号点",
+		change_prefab = "",
+		unlock_conditions = "完成EP3-2",
+		change_background = "bg_tolove_2",
+		story = "WEIXIANFAMINGPOJINZHONGGUANQIA11",
+		change_bgm = "tl-battle-inst",
+		id = 100,
+		pre_event = {
+			98
+		},
+		lock = {
+			{
+				4,
+				99
+			}
+		}
+	},
+	[101] = {
+		story_type = 1,
+		name = "EP3-3 第三信号点",
+		change_prefab = "",
+		unlock_conditions = "完成EP3-3",
+		change_background = "bg_tolove_2",
+		story = "WEIXIANFAMINGPOJINZHONGGUANQIA12",
+		change_bgm = "tl-battle-inst",
+		id = 101,
+		pre_event = {
+			98
+		},
+		lock = {
+			{
+				4,
+				100
+			}
+		}
+	},
+	[102] = {
+		story_type = 2,
+		name = "EP3-4 难度平衡",
+		change_prefab = "",
+		unlock_conditions = "完成EP3-4",
+		change_background = "bg_tolove_2",
+		story = "1878003",
+		change_bgm = "tl-battle-inst",
+		id = 102,
+		pre_event = {
+			99,
+			100,
+			101
+		},
+		lock = {
+			{
+				4,
+				101
+			}
+		}
+	},
+	[103] = {
+		story_type = 1,
+		name = "EP4-1 再次出海",
+		change_prefab = "",
+		unlock_conditions = "完成EP4-1",
+		change_background = "bg_tolove_2",
+		story = "WEIXIANFAMINGPOJINZHONGGUANQIA14",
+		change_bgm = "tl-battle-inst",
+		id = 103,
+		pre_event = {
+			102
+		},
+		lock = {
+			{
+				4,
+				102
+			}
+		}
+	},
+	[104] = {
+		story_type = 2,
+		name = "EP4-2 突破僵局",
+		change_prefab = "",
+		unlock_conditions = "完成EP4-2",
+		change_background = "bg_tolove_2",
+		story = "1878004",
+		change_bgm = "tl-battle-inst",
+		id = 104,
+		pre_event = {
+			103
+		},
+		lock = {
+			{
+				4,
+				103
+			}
+		}
+	},
+	[105] = {
+		story_type = 2,
+		name = "EP5-1 最终挑战",
+		change_prefab = "",
+		unlock_conditions = "完成EP5-1",
+		change_background = "bg_tolove_2",
+		story = "1878005",
+		change_bgm = "tl-battle-inst",
+		id = 105,
+		pre_event = {
+			104
+		},
+		lock = {
+			{
+				4,
+				104
+			}
+		}
+	},
+	[106] = {
+		story_type = 1,
+		name = "EPS-3 尚未结束的尾声",
+		change_prefab = "",
+		unlock_conditions = "完成EPS-3",
+		change_background = "bg_tolove_3",
+		story = "WEIXIANFAMINGPOJINZHONGGUANQIA17",
+		change_bgm = "tl-battle",
+		id = 106,
+		pre_event = {
+			105
+		},
+		lock = {
+			{
+				4,
+				105
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1618,6 +1936,23 @@ pg.activity_sp_story = {
 		86,
 		87,
 		88,
-		89
+		89,
+		90,
+		91,
+		92,
+		93,
+		94,
+		95,
+		96,
+		97,
+		98,
+		99,
+		100,
+		101,
+		102,
+		103,
+		104,
+		105,
+		106
 	}
 }

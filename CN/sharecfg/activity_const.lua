@@ -1082,5 +1082,17 @@ pg.activity_const = {
 	},
 	DORM_SIGN_ID = {
 		act_id = 7501
+	},
+	TOLOVE_MINIGAME_TASK_ID = {
+		act_id = 5680
+	},
+	TOLOVE_TROPHY_ID = {
+		act_id = 5689
+	},
+	TOLOVE_TASK_ID = {
+		act_id = 5682
+	},
+	TOLOVE_GAMEPLAY_ID = {
+		act_id = 5691
 	}
 }
