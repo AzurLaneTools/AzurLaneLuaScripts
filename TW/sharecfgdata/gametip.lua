@@ -1333,6 +1333,11 @@ _G.pg.base.gametip.battle_battleMediator_existFight = {
 }
 
 
+_G.pg.base.gametip.battle_battleMediator_remainTime = {
+	tip = "剩餘作戰時間"
+}
+
+
 _G.pg.base.gametip.battle_battleMediator_clear_warning = {
 	tip = "是否要退出挑戰模式？\n退出後將<color=#A9F548>重置挑戰</color>，\n積分結算統計至本關開始前"
 }
@@ -24559,7 +24564,7 @@ _G.pg.base.gametip.battlepass_main_help_2406 = {
 
 ·<color=#92fc63>獎勵規則</color>
 巡遊進度獎勵分為兩種：
-（1）基礎巡遊獎勵：包含<color=#ff5c5c>「福煦·META」< /color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高級定向藍圖·六期</color>等獎勵；
+（1）基礎巡遊獎勵：包含<color=#ff5c5c>「福煦·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高級定向藍圖·六期</color>等獎勵；
  當巡遊達到指定進度時，指揮官可以直接領取相應的基礎巡遊獎勵。
 （2）特許巡遊獎勵：包含<color=#ff5c5c>阿蒂利奧·雷戈洛換裝「雲端降落的天使</color>」、<color=#ff5c5c>鑽石</color>等獎勵；
  購買「特許巡遊憑證」，且巡遊達到指定進度時，可以領取特許巡遊獎勵。
@@ -32972,83 +32977,42 @@ _G.pg.base.gametip["202406_main_help"] = {
 }
 
 
-_G.pg.base.gametip.commander_exp_limit = {
-	tip = "此指揮喵已達最大等級，無法新增指揮喵"
-}
-
-
-_G.pg.base.gametip.dreamland_label_day = {
-	tip = "白天"
-}
-
-
-_G.pg.base.gametip.dreamland_label_dusk = {
-	tip = "傍晚"
-}
-
-
-_G.pg.base.gametip.dreamland_label_night = {
-	tip = "夜晚"
-}
-
-
-_G.pg.base.gametip.dreamland_label_area = {
-	tip = "區域"
-}
-
-
-_G.pg.base.gametip.dreamland_label_explore = {
-	tip = "探索"
-}
-
-
-_G.pg.base.gametip.dreamland_label_explore_award_tip = {
-	tip = "完成該區域探索獎勵"
-}
-
-
-_G.pg.base.gametip.dreamland_area_lock_tip = {
-	tip = "- 該區域尚未解鎖 請繼續閱讀劇情 -"
-}
-
-
-_G.pg.base.gametip.dreamland_spring_lock_tip = {
-	tip = "閱讀後續劇情解鎖"
-}
-
-
-_G.pg.base.gametip.dreamland_spring_tip = {
-	tip = "邀請角色入夢恢復心情 $1/h"
-}
-
-
-_G.pg.base.gametip.dream_land_tip = {
-	tip = {
-		{
-			info = [[
-活動規則：
-·<color=#92fc63>9.19-10.9</color>期間開啟限時活動「夢幻樂園的夢幻假日」
-·隨劇情解鎖夢幻樂園的各個區域，獲得<color=#92fc63>限定傢俱</color>、<color=#92fc63>外觀裝備箱</color>等獎勵
-·夢幻樂園各區域地圖上均有可互動的探索點。指揮官在享受夢幻假日的同時，可透過留意地圖上的<color=#92fc63>「星星」</color>指引及<color=#92fc63>樂園手冊</color>中的探索指引，進行夢幻樂園探索，獲得<color=#92fc63>限定傢俱</color>、<color=#92fc63>外觀裝備箱</color>等獎勵
-·部分探索僅在特殊時間內觸發，在完成「夢幻樂園的夢幻假期」全部劇情後，可以透過<color=#92fc63>時間轉換</color>調整夢幻樂園時間
-·邀請角色進入安眠夢境，加快心情回復。安眠夢境隨夢幻樂園區域解鎖擴充]]
-		}
-	}
-}
-
-
-_G.pg.base.gametip.touch_cake_minigame_help = {
+_G.pg.base.gametip.help_dorm3d_info = {
 	tip = {
 		{
 			icon = {
 				path = "",
-				atlas = "helpbg/touchcake_help1"
+				atlas = "helpbg/3ddorm_1"
 			}
 		},
 		{
 			icon = {
 				path = "",
-				atlas = "helpbg/touchcake_help2"
+				atlas = "helpbg/3ddorm_2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/3ddorm_3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/3ddorm_4"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/3ddorm_5"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/3ddorm_6"
 			}
 		},
 		disableScroll = true,
@@ -33070,103 +33034,6 @@ _G.pg.base.gametip.touch_cake_minigame_help = {
 }
 
 
-_G.pg.base.gametip.dreamland_main_desc = {
-	tip = "9.19~10.9，活動期間完成<color=#85E7FF>夢幻樂園探索</color>與<color=#85E7FF>啾啾蛋糕塔</color>獲得豐厚獎勵"
-}
-
-
-_G.pg.base.gametip.dreamland_main_tip = {
-	tip = {
-		{
-			info = [[
-活動規則：
-·<color=#92fc63>9.19-10.9</color>期間開啟限時活動「夢幻樂園的夢幻假日」
-·隨劇情解鎖夢幻樂園的各個區域，獲得<color=#92fc63>限定傢俱</color>、<color=#92fc63>外觀裝備箱</color>等獎勵
-·夢幻樂園各區域地圖上均有可互動的探索點。指揮官在享受夢幻假日的同時，可透過留意地圖上的<color=#92fc63>「星星」</color>指引及<color=#92fc63>樂園手冊</color>中的探索指引，進行夢幻樂園探索，獲得<color=#92fc63>限定傢俱</color>、<color=#92fc63>外觀裝備箱</color>等獎勵
-·部分探索僅在特殊時間內觸發，在完成「夢幻樂園的夢幻假期」全部劇情後，可以透過<color=#92fc63>時間轉換</color>調整夢幻樂園時間
-·邀請角色進入安眠夢境，加快心情回復。安眠夢境隨夢幻樂園區域解鎖擴充
-·9.25為止，每日可獲得一次「啾啾蛋糕塔」遊戲次數，參與遊戲可取得「夢幻蛋糕券」
-·累計7張「夢幻蛋糕券」可獲得限定道具<color=#92fc63>「慶典邀請函」</color>]]
-		}
-	}
-}
-
-
-_G.pg.base.gametip.no_share_skin_gametip = {
-	tip = "*該換裝為$1換裝，無法與$2共享使用"
-}
-
-
-_G.pg.base.gametip.no_share_skin_tianchenghangmu = {
-	tip = "{namecode:161}(航母)"
-}
-
-
-_G.pg.base.gametip.no_share_skin_tianchengzhanlie = {
-	tip = "{namecode:161}(戰列)"
-}
-
-
-_G.pg.base.gametip.no_share_skin_jiahezhanlie = {
-	tip = "{namecode:92}(戰列)"
-}
-
-
-_G.pg.base.gametip.no_share_skin_jiahehangmu = {
-	tip = "{namecode:92}(航母)"
-}
-
-
-_G.pg.base.gametip.ui_pack_tip1 = {
-	tip = "只能購買一個檔位，禮包會寄到信箱請注意查收"
-}
-
-
-_G.pg.base.gametip.ui_pack_tip2 = {
-	tip = "基礎版"
-}
-
-
-_G.pg.base.gametip.ui_pack_tip3 = {
-	tip = "豪華版"
-}
-
-
-_G.pg.base.gametip.battle_ui_unlock = {
-	tip = "裝扮解鎖"
-}
-
-
-_G.pg.base.gametip.compensate_ui_expiration_hour = {
-	tip = "$1時後過期"
-}
-
-
-_G.pg.base.gametip.compensate_ui_expiration_day = {
-	tip = "$1天後過期"
-}
-
-
-_G.pg.base.gametip.compensate_ui_title1 = {
-	tip = "補償"
-}
-
-
-_G.pg.base.gametip.compensate_ui_title2 = {
-	tip = "compensate"
-}
-
-
-_G.pg.base.gametip.compensate_ui_nothing1 = {
-	tip = "暫未收到任何補償"
-}
-
-
-_G.pg.base.gametip.compensate_ui_nothing2 = {
-	tip = "No compensation received yet"
-}
-
-
 _G.pg.base.gametip.attire_combatui_preview = {
 	tip = "前往預覽"
 }
@@ -33174,4 +33041,99 @@ _G.pg.base.gametip.attire_combatui_preview = {
 
 _G.pg.base.gametip.attire_combatui_confirm = {
 	tip = "裝扮"
+}
+
+
+_G.pg.base.gametip.dorm3d_system_switch = {
+	tip = "宿舍維護中……"
+}
+
+
+_G.pg.base.gametip.dorm3d_beach_switch = {
+	tip = "沙灘維護中……"
+}
+
+
+_G.pg.base.gametip.dorm3d_AR_switch = {
+	tip = "AR維護中……"
+}
+
+
+_G.pg.base.gametip.cruise_phase_title = {
+	tip = "階段"
+}
+
+
+_G.pg.base.gametip.cruise_title_2410 = {
+	tip = "世界巡遊·十九期"
+}
+
+
+_G.pg.base.gametip.cruise_title_2406 = {
+	tip = "世界巡遊·十七期"
+}
+
+
+_G.pg.base.gametip.battlepass_main_time_title = {
+	tip = "本期剩餘時間："
+}
+
+
+_G.pg.base.gametip.cruise_shop_no_open = {
+	tip = "12月1日0點後開放"
+}
+
+
+_G.pg.base.gametip.cruise_btn_pay = {
+	tip = "解鎖特許巡遊獎勵"
+}
+
+
+_G.pg.base.gametip.cruise_btn_all = {
+	tip = "全部領取"
+}
+
+
+_G.pg.base.gametip.task_go = {
+	tip = "前往"
+}
+
+
+_G.pg.base.gametip.task_got = {
+	tip = "已完成"
+}
+
+
+_G.pg.base.gametip.cruise_shop_title_skin = {
+	tip = "換裝"
+}
+
+
+_G.pg.base.gametip.cruise_shop_title_equip_skin = {
+	tip = "外觀"
+}
+
+
+_G.pg.base.gametip.cruise_shop_lock_tip = {
+	tip = "當期世界巡遊等級達50"
+}
+
+
+_G.pg.base.gametip.cruise_shop_limit_tip = {
+	tip = "本月剩餘可購買數量："
+}
+
+
+_G.pg.base.gametip.cruise_limit_count = {
+	tip = "已達本月可購買數量上限"
+}
+
+
+_G.pg.base.gametip.cruise_title_2408 = {
+	tip = "世界巡遊·十八期"
+}
+
+
+_G.pg.base.gametip.cruise_shop_title = {
+	tip = "往期商店"
 }

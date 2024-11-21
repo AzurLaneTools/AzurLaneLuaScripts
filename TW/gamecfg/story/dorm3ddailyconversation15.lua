@@ -1,47 +1,23 @@
 return {
-	hideRecord = true,
+	fadeOut = 1.5,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DDAILYCONVERSATION15",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DDAILYCONVERSATION15",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
-			say = "泡芙和可丽饼，您更喜欢哪一种呢？我的主人。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			options = {
-				{
-					content = "天狼星要下厨吗？",
-					flag = 1
-				}
-			}
-		},
-		{
-			say = "其实是在请教了女仆长以后，天狼星觉得用泡芙招待您应该不会出错……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "只需要把裱花嘴放进去，把内部的孔洞填满后不断注入奶油，直到溢出就可以了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			options = {
-				{
-					content = "可是泡芙的酥皮谁来做呢？",
-					flag = 1
-				}
-			}
-		},
-		{
-			say = "欸？酥皮……？",
+			actorName = 20220,
+			side = 2,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFFFFF",
+			say = "{dorm3d}看起来好像有点疲惫，没什么精神呢？一定是工作太累了吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,20 +27,62 @@ return {
 				data = {
 					op_list = {
 						{
+							param = "Play",
+							name = "shy",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
 							skip = false,
-							name = "surprise1",
-							type = "action"
+							time = 1,
+							type = "wait"
 						}
 					}
 				},
 				callbackData = {
-					hideUI = true,
+					hideUI = false,
 					name = STORY_EVENT.TEST_DONE
 				}
 			}
 		},
 		{
-			say = "（好吧，看来是完全没有理解女仆长的教导呢……）",
+			actorName = 20220,
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "不过，天狼星这里有一个能让{dorm3d}快速恢复精神的技巧哦！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			options = {
+				{
+					content = "什么技巧？",
+					flag = 1
+				}
+			}
+		},
+		{
+			actorName = 20220,
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "就是——在感到疲惫的时候，立刻洗个热水澡！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = 20220,
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "天狼星现在就来侍奉{dorm3d}沐浴吧！……就从帮您脱掉衣服开始！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

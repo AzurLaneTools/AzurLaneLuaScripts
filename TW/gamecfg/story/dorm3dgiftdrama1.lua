@@ -1,14 +1,17 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DDAILYCONVERSATION4",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DDAILYCONVERSATION4",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
-			say = "主人，您看上去好像很没有精神，是因为工作太辛苦了吗？",
+			say = "{dorm3d}，您看上去好像很没有精神，是因为工作太辛苦了吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,7 +39,7 @@ return {
 			}
 		},
 		{
-			say = "对了，今天就用主人送给天狼星的那套茶具吧。",
+			say = "对了，今天就用{dorm3d}送给天狼星的那套茶具吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +77,7 @@ return {
 			}
 		},
 		{
-			say = "请主人稍候片刻，天狼星马上去泡茶。",
+			say = "请{dorm3d}稍候片刻，天狼星马上去泡茶。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +122,7 @@ return {
 			}
 		},
 		{
-			say = "久等了，我的主人。",
+			say = "久等了，我的{dorm3d}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,14 +150,14 @@ return {
 			}
 		},
 		{
-			say = "不过也请主人小心那边的桌子，滴落的茶水可能会沾到您的衣服上。",
+			say = "不过也请{dorm3d}小心那边的桌子，滴落的茶水可能会沾到您的衣服上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "欸？好像已经沾到主人身上了？啊……！这是天狼星的失职！",
+			say = "欸？好像已经沾到{dorm3d}身上了？啊……！这是天狼星的失职！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,21 +209,21 @@ return {
 			}
 		},
 		{
-			say = "晚了一步……啊不，我是说，主人一定非常生气，打算狠狠惩戒天狼星吧。",
+			say = "晚了一步……啊不，我是说，{dorm3d}一定非常生气，打算狠狠惩戒天狼星吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "不知道主人会用哪种方式呢？",
+			say = "不知道{dorm3d}会用哪种方式呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			say = "难道要用力地训斥，让天狼星跪在地上大声请求主人的原谅？",
+			say = "难道要用力地训斥，让天狼星跪在地上大声请求{dorm3d}的原谅？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +247,7 @@ return {
 			}
 		},
 		{
-			say = "还是说要让天狼星一边下跪一边……不管怎么样，天狼星都已经做好了觉悟。主人！",
+			say = "还是说要让天狼星一边下跪一边……不管怎么样，天狼星都已经做好了觉悟。{dorm3d}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

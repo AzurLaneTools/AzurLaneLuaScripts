@@ -72,6 +72,10 @@ slot1.Add2Overlay = function(slot0, slot1, slot2, slot3)
 		slot0:ClearBlurData(slot0:DelList(slot2))
 		table.insert(slot0.storeUIs, slot3)
 		slot0:CreateRefreshHandler()
+
+		if slot3.force then
+			slot0:Refresh()
+		end
 	end
 end
 
@@ -329,30 +333,18 @@ end
 slot1.SortStoreUIs = function(slot0)
 	slot0:Log("-----------------------------------------")
 
-	slot1 = {}
-
-	for slot5, slot6 in ipairs(slot0.storeUIs) do
-		if not table.contains(slot1, slot6.weight) then
-			table.insert(slot1, slot6.weight)
+	slot4 = {
+		function (slot0)
+			return slot0.weight
 		end
+	}
+	slot5 = true
+
+	mergeSort(slot0.storeUIs, CompareFuncs(slot4, slot5))
+
+	for slot4, slot5 in ipairs(slot0.storeUIs) do
+		slot0:Log(slot5.ui.gameObject.name .. "   globalBlur:" .. tostring(slot5.globalBlur))
 	end
-
-	table.sort(slot1, function (slot0, slot1)
-		return slot0 < slot1
-	end)
-
-	slot2 = {}
-
-	for slot6, slot7 in ipairs(slot1) do
-		for slot11, slot12 in ipairs(slot0.storeUIs) do
-			if slot7 == slot12.weight then
-				table.insert(slot2, slot12)
-				slot0:Log(slot12.ui.gameObject.name .. "   globalBlur:" .. tostring(slot12.globalBlur))
-			end
-		end
-	end
-
-	slot0.storeUIs = slot2
 
 	slot0:Log("-----------------------------------------")
 end

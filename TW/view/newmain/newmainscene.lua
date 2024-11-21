@@ -2,6 +2,7 @@ slot0 = class("NewMainScene", import("..base.BaseUI"))
 slot0.THEME_CLASSIC = 1
 slot0.THEME_MELLOW = 2
 slot0.OPEN_LIVEAREA = "NewMainScene:OPEN_LIVEAREA"
+slot0.UPDATE_COVER = "NewMainScene:UPDATE_COVER"
 slot0.FOLD = "NewMainScene:FOLD"
 slot0.CHAT_STATE_CHANGE = "NewMainScene:CHAT_STATE_CHANGE"
 slot0.ON_CHANGE_SKIN = "NewMainScene:ON_CHANGE_SKIN"
@@ -122,14 +123,14 @@ slot0.didEnter = function(slot0)
 	slot0:bind(NewMainScene.OPEN_LIVEAREA, function (slot0)
 		uv0.liveAreaPage:ExecuteAction("Show")
 	end)
-	slot0:SetUp()
+	slot0:SetUp(false, true)
 end
 
-slot0.SetUp = function(slot0, slot1)
+slot0.SetUp = function(slot0, slot1, slot2)
 	slot0.mainCG.blocksRaycasts = false
 	slot0.isInit = false
 	slot0.resAnimFlag = false
-	slot2 = nil
+	slot3 = nil
 
 	seriesAsync({
 		function (slot0)
@@ -172,6 +173,10 @@ slot0.SetUp = function(slot0, slot1)
 		uv0:emit(uv1.ON_ENTER_DONE)
 
 		uv0.mainCG.blocksRaycasts = true
+
+		if uv2 then
+			gcAll()
+		end
 	end)
 end
 

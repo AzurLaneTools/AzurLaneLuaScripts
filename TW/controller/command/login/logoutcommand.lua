@@ -12,6 +12,7 @@ slot0.execute = function(slot0, slot1)
 	end
 
 	pg.TrackerMgr.GetInstance():Tracking(TRACKING_ROLE_LOGOUT)
+	pg.GameTrackerMgr.GetInstance():Synchronization()
 
 	if ys.Battle.BattleState.GetInstance():GetState() ~= ys.Battle.BattleState.BATTLE_STATE_IDLE then
 		warning("stop and clean battle.")

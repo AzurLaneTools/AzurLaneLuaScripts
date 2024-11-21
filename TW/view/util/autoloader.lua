@@ -48,7 +48,7 @@ slot0.GetPrefab = function(slot0, slot1, slot2, slot3, slot4)
 	end)
 
 	if uv2 then
-		print("AutoLoader Loading Path: " .. slot1 .. " Name: " .. slot2 .. " ;")
+		warning("AutoLoader Loading Path: " .. slot1 .. " Name: " .. slot2 .. " ;")
 	end
 
 	slot0._loadingRequest[slot4] = slot5
@@ -78,7 +78,7 @@ slot0.GetPrefabBYStopLoading = function(slot0, slot1, slot2, slot3, slot4)
 	end)
 
 	if uv3 then
-		print("AutoLoader Loading Path: " .. slot1 .. " Name: " .. slot2 .. " ;")
+		warning("AutoLoader Loading Path: " .. slot1 .. " Name: " .. slot2 .. " ;")
 	end
 
 	slot0._loadingRequest[slot4] = slot5
@@ -132,7 +132,7 @@ slot0.GetSpine = function(slot0, slot1, slot2, slot3)
 	end)
 
 	if uv2 then
-		print("AutoLoader Loading Spine: " .. slot1 .. " ;")
+		warning("AutoLoader Loading Spine: " .. slot1 .. " ;")
 	end
 
 	slot0._loadingRequest[slot3] = slot4
@@ -182,7 +182,7 @@ slot0.GetSpriteDirect = function(slot0, slot1, slot2, slot3, slot4)
 	end)
 
 	if uv1 then
-		print("AutoLoader Loading Atlas: " .. slot1 .. " Name: " .. slot2 .. " ;")
+		warning("AutoLoader Loading Atlas: " .. slot1 .. " Name: " .. slot2 .. " ;")
 	end
 
 	slot0._loadingRequest[slot4] = slot5
@@ -212,7 +212,7 @@ slot0.LoadPrefab = function(slot0, slot1, slot2, slot3, slot4)
 	end)
 
 	if uv1 then
-		print("AutoLoader Loading Once Path: " .. slot1 .. " Name: " .. slot2 .. " ;")
+		warning("AutoLoader Loading Once Path: " .. slot1 .. " Name: " .. slot2 .. " ;")
 	end
 
 	slot0._loadingRequest[slot4] = slot5
@@ -230,7 +230,7 @@ slot0.LoadLive2D = function(slot0, slot1, slot2, slot3)
 
 	slot3 = slot3 or slot0:GenerateUID4LoadingRequest()
 	slot5 = nil
-	slot5 = uv0.New(slot5 .. slot6, slot1, function (slot0)
+	slot5 = uv0.New(slot5 .. slot6, "", function (slot0)
 		uv0._loadingRequest[uv1] = nil
 
 		if uv2 then
@@ -239,7 +239,7 @@ slot0.LoadLive2D = function(slot0, slot1, slot2, slot3)
 	end)
 
 	if uv1 then
-		print("AutoLoader Loading Live2D Once Path: " .. slot4 .. " Name: " .. slot1 .. " ;")
+		warning("AutoLoader Loading Live2D Once Path: " .. slot4 .. " Name: " .. slot1 .. " ;")
 	end
 
 	slot0._loadingRequest[slot3] = slot5
@@ -266,7 +266,7 @@ slot0.LoadSprite = function(slot0, slot1, slot2, slot3, slot4)
 	end)
 
 	if uv1 then
-		print("AutoLoader Loading Once Path: " .. slot1 .. " Name: " .. slot2 .. " ;")
+		warning("AutoLoader Loading Once Path: " .. slot1 .. " Name: " .. slot2 .. " ;")
 	end
 
 	slot0._loadingRequest[slot6] = slot7
@@ -290,7 +290,7 @@ slot0.LoadReference = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	end)
 
 	if uv1 then
-		print("AutoLoader Loading Once Path: " .. slot1 .. " Name: " .. slot2 .. " ;")
+		warning("AutoLoader Loading Once Path: " .. slot1 .. " Name: " .. slot2 .. " ;")
 	end
 
 	slot0._loadingRequest[slot5] = slot6
@@ -315,7 +315,7 @@ slot0.LoadBundle = function(slot0, slot1, slot2)
 	end)
 
 	if uv2 then
-		print("AutoLoader Loading Bundle: " .. slot1 .. " ;")
+		warning("AutoLoader Loading Bundle: " .. slot1 .. " ;")
 	end
 
 	slot0._loadingRequest[slot3] = slot4
@@ -340,7 +340,7 @@ slot0.ClearRequest = function(slot0, slot1, slot2)
 		if uv1 then
 			slot3 = slot0._loadingRequest[slot1]
 
-			print("AutoLoader Unload loading Path: " .. slot3.path .. " Name: " .. slot3.name .. " ;")
+			warning("AutoLoader Unload loading Path: " .. slot3.path .. " Name: " .. slot3.name .. " ;")
 		end
 
 		slot0._loadingRequest[slot1]:Stop()
@@ -352,13 +352,15 @@ slot0.ClearRequest = function(slot0, slot1, slot2)
 		if slot0._returnRequest[slot1] then
 			if uv1 then
 				if isa(slot0._returnRequest[slot1], uv2) then
-					print("AutoLoader Unload Spine: " .. slot3.name .. " ;")
+					warning("AutoLoader Unload Spine: " .. slot3.name .. " ;")
 				elseif isa(slot3, uv3) then
-					print("AutoLoader Unload Atlas: " .. slot3.path .. " ;")
+					warning("AutoLoader Unload Atlas: " .. slot3.path .. " ;")
 				elseif isa(slot3, uv4) then
-					print("AutoLoader Unload Bundle: " .. slot3.path .. " ;")
+					warning("AutoLoader Unload Bundle: " .. slot3.path .. " ;")
 				elseif isa(slot3, uv5) then
-					print("AutoLoader Unload Path: " .. slot3.path .. " Name: " .. slot3.name .. " ;")
+					warning("AutoLoader Unload Path: " .. slot3.path .. " Name: " .. slot3.name .. " ;")
+				else
+					warning("Not Handle " .. slot3.__cname .. " " .. (slot3.name or "NIL"))
 				end
 			end
 

@@ -573,14 +573,13 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actorName = "？？？",
 			side = 2,
 			bgName = "star_level_bg_170",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			oldPhoto = true,
+			dir = 1,
 			actor = 900407,
-			actorName = "？？？",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "怎麼說呢，願意拿出私人飛機執行這個方案的你也很厲害…",
 			painting = {
@@ -729,10 +728,9 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_170",
-			nameColor = "#A9F548FF",
 			oldPhoto = true,
 			actor = 900407,
 			actorName = "？？？",
@@ -823,14 +821,13 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actorName = "？？",
 			side = 2,
 			bgName = "star_level_bg_170",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			oldPhoto = true,
+			dir = 1,
 			actor = 900332,
-			actorName = "？？",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "哇啊啊啊……！！！",
 			painting = {
@@ -863,14 +860,13 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actorName = "？？",
 			side = 2,
 			bgName = "star_level_bg_170",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			oldPhoto = true,
+			dir = 1,
 			actor = 900332,
-			actorName = "？？",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "當、當時都說了！只是些隨便亂想，不要當真！",
 			painting = {
@@ -883,14 +879,13 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actorName = "？？",
 			side = 2,
 			bgName = "star_level_bg_170",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			oldPhoto = true,
+			dir = 1,
 			actor = 900332,
-			actorName = "？？",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "你怎麼還背下來了……",
 			painting = {
@@ -903,14 +898,13 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actorName = "？？",
 			side = 2,
 			bgName = "star_level_bg_170",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			oldPhoto = true,
+			dir = 1,
 			actor = 900332,
-			actorName = "？？",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "好了好了，還是快把話題收回來，回到我們的首要問題——蘇維埃聯盟。",
 			painting = {
@@ -923,14 +917,13 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actorName = "？？",
 			side = 2,
 			bgName = "star_level_bg_170",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			oldPhoto = true,
+			dir = 1,
 			actor = 900332,
-			actorName = "？？",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "那艘在人們的記憶中留有姓名，卻從未真正完成的軍艦上吧——",
 			painting = {

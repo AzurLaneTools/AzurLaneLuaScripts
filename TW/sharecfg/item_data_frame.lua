@@ -540,6 +540,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>揚帆起航！ 豪華郵輪與心跳之旅！ </color>透過參與特別限定活動獲取",
 		scene = {}
 	},
+	[1001] = {
+		name = "開服紀念",
+		gain_by = "",
+		time_second = 0,
+		id = 1001,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>歡迎所有來到港區報到的新晉指揮官們！</color>\n「開幕慶典」活動獲得",
+		scene = {}
+	},
 	[10001] = {
 		name = "極限的挑戰者·雙子座",
 		gain_by = "",
@@ -592,15 +601,6 @@ pg.item_data_frame = {
 		id = 10006,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>結晶之中閃爍著天秤座的光芒，獻給勇於挑戰極限的指揮官！</color>\n透過參與「限界挑戰」取得 （24.11.01-24.11.30）",
-		scene = {}
-	},
-	[1001] = {
-		name = "開服紀念",
-		gain_by = "",
-		time_second = 0,
-		id = 1001,
-		time_limit_type = 0,
-		desc = "<color=#ffffff>歡迎所有來到港區報到的新晉指揮官們！</color>\n「開幕慶典」活動獲得",
 		scene = {}
 	},
 	all = {
@@ -664,12 +664,12 @@ pg.item_data_frame = {
 		604,
 		605,
 		606,
+		1001,
 		10001,
 		10002,
 		10003,
 		10004,
 		10005,
-		10006,
-		1001
+		10006
 	}
 }

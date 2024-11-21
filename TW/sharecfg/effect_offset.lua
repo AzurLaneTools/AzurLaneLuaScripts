@@ -2096,8 +2096,41 @@ pg.effect_offset = {
 		container_index = 2,
 		top_cover_offset = false,
 		offset = {
+			1.5,
+			3,
+			0
+		}
+	},
+	jinluhao_lingyu_enemy = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
 			0,
-			-2,
+			1.5,
+			0
+		}
+	},
+	huanxianghao_wudihudun = {
+		mirror = false,
+		y_scale = false,
+		container_index = 1,
+		top_cover_offset = false,
+		offset = {
+			0,
+			-1.25,
+			-1.8
+		}
+	},
+	gangyishawa_bodyguard = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			0,
+			-1.5,
 			0
 		}
 	}

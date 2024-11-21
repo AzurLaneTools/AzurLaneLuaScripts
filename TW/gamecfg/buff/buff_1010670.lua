@@ -24,7 +24,7 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
-				"onFriendlyShipDying",
+				"onTeammateShipDying",
 				"onStartGame"
 			},
 			arg_list = {

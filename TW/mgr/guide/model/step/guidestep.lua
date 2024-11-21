@@ -8,6 +8,8 @@ slot0.TYPE_SHOWSIGN = 5
 slot0.TYPE_STORY = 6
 slot0.DIALOGUE_BLUE = 1
 slot0.DIALOGUE_WHITE = 2
+slot0.DIALOGUE_WORLD = 3
+slot0.DIALOGUE_DORM = 4
 slot0.HIGH_TYPE_LINE = 1
 slot0.HIGH_TYPE_GAMEOBJECT = 2
 
@@ -16,13 +18,13 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.waitScene = slot1.waitScene
 	slot0.code = slot1.code
 	slot0.alpha = slot1.alpha
+	slot0.isWorld = defaultValue(slot1.isWorld, true)
 	slot0.styleData = slot0:GenStyleData(slot1.style)
 	slot0.highLightData = slot0:GenHighLightData(slot1.style)
 	slot0.baseUI = slot0:GenSearchData(slot1.baseui)
 	slot0.spriteUI = slot0:GenSpriteSearchData(slot1.spriteui)
 	slot0.sceneName = slot1.style and slot1.style.scene
 	slot0.otherTriggerTarget = slot1.style and slot1.style.trigger
-	slot0.isWorld = defaultValue(slot1.isWorld, true)
 end
 
 slot0.UpdateIsWorld = function(slot0, slot1)
@@ -107,19 +109,48 @@ slot0.GenStyleData = function(slot0, slot1)
 		return nil
 	end
 
+	slot2 = nil
+
+	if slot1.mode == uv0.DIALOGUE_DORM then
+		slot2 = nil
+		slot1.dir = 1
+	else
+		slot2 = {
+			name = uv1(slot0, slot1),
+			position = uv2(slot0, slot1),
+			scale = uv3(slot1)
+		}
+	end
+
 	return {
 		mode = slot1.mode,
 		text = HXSet.hxLan(slot1.text or ""),
-		counsellor = {
-			name = uv0(slot0, slot1),
-			position = uv1(slot0, slot1),
-			scale = uv2(slot1)
-		},
+		counsellor = slot2,
 		scale = slot1.dir == 1 and Vector3(1, 1, 1) or Vector3(-1, 1, 1),
 		position = Vector2(slot1.posX or 0, slot1.posY or 0),
 		handPosition = slot1.handPos and Vector3(slot1.handPos.x, slot1.handPos.y, 0) or Vector3(-267, -96, 0),
 		handAngle = slot1.handPos and Vector3(0, 0, slot1.handPos.w or 0) or Vector3(0, 0, 0)
 	}
+end
+
+slot0.GetHighlightName = function(slot0)
+	if slot0:GetDialogueType() == uv0.DIALOGUE_DORM then
+		return "wShowArea4"
+	elseif slot0.isWorld then
+		return "wShowArea"
+	else
+		return "wShowArea1"
+	end
+end
+
+slot0.GetHighlightLength = function(slot0)
+	if slot0:GetDialogueType() == uv0.DIALOGUE_DORM then
+		return 50
+	elseif slot0.isWorld then
+		return 15
+	else
+		return 55
+	end
 end
 
 slot0.GetStyleData = function(slot0)

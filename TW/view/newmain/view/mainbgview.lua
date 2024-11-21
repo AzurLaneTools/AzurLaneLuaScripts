@@ -204,6 +204,10 @@ end
 slot0.SetCommonBg = function(slot0, slot1)
 	setActive(slot0._tf, true)
 	setImageSprite(slot0._tf, LoadSprite("commonbg/" .. slot1, ""))
+
+	if slot0._tf:GetComponent(typeof(Image)).sprite then
+		Resources.UnloadAsset(slot3.texture)
+	end
 end
 
 slot0.ClearSpecailBg = function(slot0)

@@ -251,7 +251,12 @@ slot0.UpdateEntranceFilter = function(slot0, slot1)
 
 	slot0.contextData.entranceId = defaultValue(slot0.contextData.entranceId, 0)
 
-	slot0:ScrollAndSelectEntrance(defaultValue(slot0.entranceIndexDic[slot0.contextData.entranceId], 1))
+	if slot0.achEntranceList[defaultValue(slot0.entranceIndexDic[slot0.contextData.entranceId], 1)] then
+		slot0:ScrollAndSelectEntrance(slot2)
+	else
+		setActive(slot0.entrancePanel:Find("page_left"), false)
+		setActive(slot0.entrancePanel:Find("page_right"), false)
+	end
 end
 
 slot0.UpdateGetAllAwardBtn = function(slot0)
@@ -294,6 +299,10 @@ slot0.UpdateAchievement = function(slot0, slot1, slot2)
 end
 
 slot0.GetAwardIndex = function(slot0, slot1)
+	if #slot0.achEntranceList == 0 then
+		return nil
+	end
+
 	slot2 = slot0.entrancePos[#slot0.achEntranceList] - 1
 
 	if slot1 then

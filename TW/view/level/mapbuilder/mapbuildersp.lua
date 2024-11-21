@@ -304,6 +304,8 @@ slot0.UpdateMapItem = function(slot0, slot1, slot2)
 			slot9 = table.indexof(slot7.list, slot2.id) + 1
 		elseif slot2:IsSpChapter() or slot2:IsEXChapter() then
 			slot9 = 3
+		elseif slot0.contextData.map:isHardMap() then
+			slot9 = 3
 		end
 	end
 

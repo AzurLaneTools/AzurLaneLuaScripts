@@ -16,6 +16,8 @@ slot0.TYPE_NEW_SERVER = 15
 slot0.TYPE_MINI_GAME = 16
 slot0.TYPE_QUOTA = 17
 slot0.TYPE_WORLD_NSHOP = 18
+slot0.TYPE_CRUISE = 19
+slot0.TYPE_ACTIVITY_SELECTABLE = 20
 slot0.GEM = 0
 slot0.GIFT_BOX = 1
 slot0.MONTH_CARD = 2
@@ -25,6 +27,7 @@ slot0.EQUIP_BAG_SIZE_ITEM = 59100
 slot0.SHIP_BAG_SIZE_ITEM = 59101
 slot0.COMMANDER_BAG_SIZE_ITEM = 59114
 slot0.SPWEAPON_BAG_SIZE_ITEM = 59360
+slot0.CRUISE_QUICK_TASK_TICKET_ID = 61017
 slot0.SHOW_TYPE_TECH = "tech"
 slot0.SHOW_TYPE_BATTLE_UI = "uigift"
 slot0.CUR_PACKET_ID = 4006
@@ -66,6 +69,9 @@ slot1 = {
 	end,
 	[slot0.TYPE_WORLD_NSHOP] = function (slot0, slot1)
 		return WorldNShopCommodity.New(slot0, slot1)
+	end,
+	[slot0.TYPE_ACTIVITY_SELECTABLE] = function (slot0, slot1)
+		return ActivitySelectableCommodity.New(slot0, slot1)
 	end
 }
 

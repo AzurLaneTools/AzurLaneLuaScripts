@@ -145,11 +145,6 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "main"
 	},
-	AirForceOfDragonEmperyUI = {
-		default_bgm = "story-richang",
-		special_bgm = "",
-		bgm = "story-richang"
-	},
 	VolleyballGameView = {
 		default_bgm = "doa_minigame",
 		special_bgm = "",

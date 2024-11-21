@@ -165,6 +165,16 @@ slot0.getPainting = function(slot0, slot1)
 	return slot3.painting
 end
 
+slot0.getPaintingId = function(slot0, slot1)
+	slot2 = slot0.shipConfig.skin_id
+
+	if slot1 and slot0.trans then
+		slot2 = slot0.groupConfig.trans_skin
+	end
+
+	return slot2
+end
+
 slot0.getShipType = function(slot0, slot1)
 	slot2 = slot0.shipConfig.type
 

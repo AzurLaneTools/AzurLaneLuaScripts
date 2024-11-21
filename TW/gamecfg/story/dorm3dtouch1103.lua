@@ -1,14 +1,19 @@
 return {
-	hideRecord = true,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DTOUCH1103",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DTOUCH1103",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
-			say = "淑女的礼仪，天狼星也记得呢。",
+			nameColor = "#FFFFFF",
+			actorName = 20220,
+			say = "有、有点痒……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -18,14 +23,26 @@ return {
 				data = {
 					op_list = {
 						{
-							skip = false,
-							name = "surprise1",
+							skip = true,
+							name = "swim01_tui",
 							type = "action"
+						},
+						{
+							param = "Play",
+							name = "Face_haixiu",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							skip = false,
+							time = 2,
+							type = "wait"
 						}
 					}
 				},
 				callbackData = {
-					hideUI = true,
+					hideUI = false,
 					name = STORY_EVENT.TEST_DONE
 				}
 			}

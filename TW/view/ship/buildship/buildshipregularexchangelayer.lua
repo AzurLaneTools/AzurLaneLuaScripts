@@ -12,7 +12,7 @@ slot0.preload = function(slot0, slot1)
 
 	for slot6, slot7 in ipairs(slot0.ids) do
 		table.insert(slot2, function (slot0)
-			GetSpriteFromAtlasAsync("RegularExchangeIcon", tostring(uv0), function (slot0)
+			GetSpriteFromAtlasAsync("RegularExchangeIcon", string.format("Assets/ArtResource/Atlas/RegularExchangeIcon/%d.png", uv0), function (slot0)
 				uv0.iconSprites[uv1] = slot0
 
 				uv2()

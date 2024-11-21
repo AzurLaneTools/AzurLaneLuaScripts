@@ -496,6 +496,10 @@ slot0.initPauseWindow = function(slot0)
 	slot0.mainTFs = {}
 	slot0.vanTFs = {}
 
+	setText(slot0:findTF("label", slot0.LeftTimeContainer), i18n("battle_battleMediator_remainTime"))
+	setText(slot0:findTF("window/van/power/title", slot0.pauseWindow), i18n("word_vanguard_fleet"))
+	setText(slot0:findTF("window/main/power/title", slot0.pauseWindow), i18n("word_main_fleet"))
+
 	slot1 = function(slot0, slot1, slot2)
 		for slot6 = 1, 3 do
 			setActive(slot1:Find("ship_" .. slot6), slot2 and slot6 <= #slot2)
@@ -527,6 +531,9 @@ slot0.initPauseWindow = function(slot0)
 	slot4 = findTF(slot0.pauseWindow, "window/Chapter/Text")
 	slot0.continueBtn = slot0:findTF("window/button_container/continue", slot0.pauseWindow)
 	slot0.leaveBtn = slot0:findTF("window/button_container/leave", slot0.pauseWindow)
+
+	setText(slot0:findTF("pic", slot0.continueBtn), i18n("battle_battleMediator_goOnFight"))
+	setText(slot0:findTF("pic", slot0.leaveBtn), i18n("battle_battleMediator_existFight"))
 
 	if ys.Battle.BattleState.GetInstance():GetBattleType() == SYSTEM_SCENARIO then
 		slot6 = slot0._chapter:getConfigTable()
@@ -574,16 +581,21 @@ slot0.initPauseWindow = function(slot0)
 		end
 
 		if uv0.pauseWindow:GetComponent(typeof(Animation)) then
-			slot1:Play("msgbox_out")
+			if slot1:IsPlaying("msgbox_out") then
+				slot1:Stop("msgbox_out")
+				slot1:Play("msgbox_in")
+			else
+				slot1:Play("msgbox_out")
 
-			slot2 = uv0.pauseWindow
-			slot2 = slot2:GetComponent(typeof(DftAniEvent))
+				slot2 = uv0.pauseWindow
+				slot2 = slot2:GetComponent(typeof(DftAniEvent))
 
-			slot2:SetEndEvent(function (slot0)
-				setActive(uv0.pauseWindow, false)
-				pg.UIMgr.GetInstance():UnblurPanel(uv0.pauseWindow, uv0._tf)
-				uv1:Resume()
-			end)
+				slot2:SetEndEvent(function (slot0)
+					setActive(uv0.pauseWindow, false)
+					pg.UIMgr.GetInstance():UnblurPanel(uv0.pauseWindow, uv0._tf)
+					uv1:Resume()
+				end)
+			end
 		else
 			setActive(uv0.pauseWindow, false)
 			pg.UIMgr.GetInstance():UnblurPanel(uv0.pauseWindow, uv0._tf)
@@ -692,6 +704,7 @@ slot0.willExit = function(slot0)
 	slot0._skillFloatCMDPool:Dispose()
 	ys.Battle.BattleState.GetInstance():ExitBattle()
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.pauseWindow, slot0._tf)
+	ys.Battle.BattleCameraUtil.GetInstance().ActiveMainCemera(false)
 	pg.CameraFixMgr.GetInstance():disconnect(slot0.camEventId)
 end
 

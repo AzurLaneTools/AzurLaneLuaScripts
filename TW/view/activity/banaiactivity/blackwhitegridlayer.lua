@@ -913,17 +913,25 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.preload = function(slot0, slot1)
+	slot2 = {}
+
+	for slot6 = 0, 4 do
+		for slot10 = 0, 2 do
+			table.insert(slot2, slot6 .. "_" .. slot10)
+		end
+	end
+
 	uv0 = {}
 
-	AssetBundleHelper.loadAssetBundleAsync("ui/blackwhitegrid_atlas", function (slot0)
+	AssetBundleHelper.LoadManyAssets("ui/blackwhitegrid_atlas", slot2, nil, true, function (slot0)
 		for slot4 = 0, 4 do
 			uv0[slot4] = {}
 
 			for slot8 = 0, 2 do
-				uv0[slot4][slot8] = slot0:LoadAssetSync(slot4 .. "_" .. slot8, nil, true, false)
+				uv0[slot4][slot8] = slot0[slot4 .. "_" .. slot8]
 			end
 		end
-	end)
+	end, true)
 
 	slot0.bgSprite = nil
 

@@ -3181,8 +3181,8 @@ pg.base.ship_skin_template_19 = {
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
 		tag = {
-			2,
-			6
+			6,
+			2
 		},
 		live2d_offset = {
 			0,

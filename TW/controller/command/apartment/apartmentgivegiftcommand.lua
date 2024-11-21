@@ -27,15 +27,19 @@ slot0.execute = function(slot0, slot1)
 			uv0:changeGiftCount(uv1, -uv2)
 
 			slot1 = pg.dorm3d_gift[uv1].favor_trigger_id
-			uv3 = uv0:getApartment(uv4)
+			slot2, slot3 = uv0:triggerFavor(uv3, slot1)
 
-			uv0:updateApartment(uv3)
-			uv5:sendNotification(GAME.APARTMENT_TRIGGER_FAVOR_DONE, {
+			uv4:sendNotification(GAME.APARTMENT_TRIGGER_FAVOR_DONE, {
+				isGift = true,
 				triggerId = slot1,
-				delta = uv3:addFavor(slot1),
-				apartment = uv3
+				cost = slot3,
+				delta = slot2,
+				apartment = uv5
 			})
-			uv5:sendNotification(GAME.APARTMENT_GIVE_GIFT_DONE, uv1)
+			uv4:sendNotification(GAME.APARTMENT_GIVE_GIFT_DONE, {
+				groupId = uv3,
+				giftId = uv1
+			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
 		end

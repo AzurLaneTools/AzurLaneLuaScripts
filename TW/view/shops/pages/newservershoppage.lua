@@ -97,7 +97,7 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 end
 
 slot0.FetchShop = function(slot0, slot1)
-	if not getProxy(ShopsProxy):GetNewServerShop() then
+	if not getProxy(ShopsProxy):GetNewServerShop(ActivityConst.ACTIVITY_TYPE_NEWSERVER_SHOP) then
 		pg.m02:sendNotification(GAME.GET_NEW_SERVER_SHOP, {
 			callback = slot1
 		})

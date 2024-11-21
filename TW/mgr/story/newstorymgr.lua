@@ -219,12 +219,12 @@ end
 slot0.Init = function(slot0, slot1)
 	slot0.state = uv0
 
-	PoolMgr.GetInstance():GetUI("NewStoryUI", true, function (slot0)
+	LoadAndInstantiateAsync("ui", "NewStoryUI", function (slot0)
 		uv0.UIOverlay = GameObject.Find("Overlay/UIOverlay")
 
 		slot0.transform:SetParent(uv0.UIOverlay.transform, false)
 		uv0:_Init(slot0, uv1)
-	end)
+	end, true, true)
 end
 
 slot0._Init = function(slot0, slot1, slot2)
@@ -322,6 +322,10 @@ slot0.Stop = function(slot0)
 	if slot0.state ~= uv0 then
 		uv1("state is not 'running'")
 
+		return
+	end
+
+	if slot0.currPlayer and slot0.currPlayer:WaitForEvent() then
 		return
 	end
 
@@ -471,7 +475,7 @@ slot0.CheckResDownload = function(slot0, slot1, slot2)
 end
 
 slot15 = function(slot0, slot1)
-	ResourceMgr.Inst:getAssetAsync("ui/" .. slot0, slot0, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+	ResourceMgr.Inst:getAssetAsync("ui/" .. slot0, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 		uv0(slot0)
 	end), true, true)
 end
@@ -602,8 +606,10 @@ end
 slot0.ForEscPress = function(slot0)
 	if slot0.recordPanel:IsShowing() then
 		slot0.recordPanel:Hide()
-	else
-		slot0:TriggerSkipBtn()
+	elseif not slot0.currPlayer or not slot0.currPlayer:WaitForEvent() then
+		if not slot0.currPlayer or not slot0.storyScript or not slot0.storyScript.hideSkip then
+			slot0:TriggerSkipBtn()
+		end
 	end
 end
 
@@ -675,8 +681,8 @@ slot0.TrackingStart = function(slot0)
 		return
 	end
 
-	if not slot0:GetPlayedFlag(slot0:StoryName2StoryId(slot0.storyScript:GetName())) then
-		TrackConst.StoryStart(slot1)
+	if slot0:StoryName2StoryId(slot0.storyScript:GetName()) and not slot0:GetPlayedFlag(slot1) then
+		pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildStoryStart(slot1, 0))
 
 		slot0.trackFlag = true
 	end
@@ -687,7 +693,9 @@ slot0.TrackingSkip = function(slot0)
 		return
 	end
 
-	TrackConst.StorySkip(slot0:StoryName2StoryId(slot0.storyScript:GetName()), slot0.progress or 0)
+	if slot0:StoryName2StoryId(slot0.storyScript:GetName()) then
+		pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildStorySkip(slot1, slot0.progress or 0))
+	end
 end
 
 slot0.TrackingOption = function(slot0, slot1, slot2)
@@ -695,7 +703,9 @@ slot0.TrackingOption = function(slot0, slot1, slot2)
 		return
 	end
 
-	TrackConst.StoryOption(slot0:StoryName2StoryId(slot0.storyScript:GetName()), slot1 .. "_" .. (slot2 or 0))
+	if slot0:StoryName2StoryId(slot0.storyScript:GetName()) then
+		pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildStoryOption(slot3, slot1 .. "_" .. (slot2 or 0)))
+	end
 end
 
 slot0.ClearStoryEvent = function(slot0)
@@ -722,28 +732,6 @@ slot0.GetStoryEventArg = function(slot0, slot1)
 	end
 
 	return nil
-end
-
-slot0.TrackingStart = function(slot0)
-	slot0.trackFlag = false
-
-	if not slot0.storyScript then
-		return
-	end
-
-	if not slot0:GetPlayedFlag(slot0:StoryName2StoryId(slot0.storyScript:GetName())) then
-		TrackConst.StoryStart(slot1)
-
-		slot0.trackFlag = true
-	end
-end
-
-slot0.TrackingSkip = function(slot0)
-	if not slot0.trackFlag or not slot0.storyScript then
-		return
-	end
-
-	TrackConst.StorySkip(slot0:StoryName2StoryId(slot0.storyScript:GetName()))
 end
 
 slot0.UpdateAutoBtn = function(slot0)
@@ -902,8 +890,13 @@ slot0.Quit = function(slot0)
 	slot0.recordPanel:Dispose()
 	slot0.setSpeedPanel:Dispose()
 
+	if slot0.currPlayer and slot0.currPlayer:WaitForEvent() then
+		slot0:Clear()
+	end
+
 	slot0.state = uv0
 	slot0.storyScript = nil
+	slot0.currPlayer = nil
 	slot0.playQueue = {}
 	slot0.playedList = {}
 	slot0.scenes = {}

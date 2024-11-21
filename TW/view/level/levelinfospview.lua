@@ -50,6 +50,20 @@ slot0.set = function(slot0, slot1, slot2)
 	setActive(slot0.btnSwitchNormal, #slot4 > 1 and slot6 == 1)
 	setActive(slot0.btnSwitchHard, #slot4 > 1 and slot6 == 2)
 
+	if #slot4 > 1 then
+		slot8 = slot6 == 1 and slot0.btnSwitchNormal or slot0.btnSwitchHard
+
+		for slot12 = 1, 2 do
+			slot15 = getProxy(ChapterProxy):getChapterById(slot4[slot12], true):GetDailyBonusQuota()
+
+			setActive(slot8:Find("Bonus" .. slot12), slot15)
+
+			if slot15 then
+				slot0.loader:GetSprite("ui/levelmainscene_atlas", getProxy(ChapterProxy):getMapById(slot14:getConfig("map")):getConfig("type") == Map.ACTIVITY_HARD and "bonus_us_hard" or "bonus_us", slot13)
+			end
+		end
+	end
+
 	slot8 = slot6 == 1 and Color.NewHex("FFDE38") or Color.white
 
 	setTextColor(slot0:findTF("title_index", slot0.txTitle), slot8)

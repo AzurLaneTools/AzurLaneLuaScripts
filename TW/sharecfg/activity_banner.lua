@@ -209,21 +209,19 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		type = 0,
 		id = 7,
-		pic = "temp7",
+		pic = "temp8",
 		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
+			"scene Cryptolalia",
+			{}
 		},
 		time = {
 			{
 				{
 					2024,
 					11,
-					14
+					21
 				},
 				{
 					0,
@@ -691,13 +689,25 @@ pg.activity_banner = {
 			"scene vote entrance"
 		}
 	},
+	[1024] = {
+		time = "stop",
+		type = 2,
+		id = 1024,
+		pic = "",
+		param = {
+			"scene Cryptolalia",
+			{}
+		}
+	},
 	get_id_list_by_type = {
+		[0] = {
+			7
+		},
 		[2] = {
 			1,
 			3,
 			4,
 			6,
-			7,
 			8,
 			1000,
 			1001,
@@ -720,7 +730,8 @@ pg.activity_banner = {
 			1020,
 			1021,
 			1022,
-			1023
+			1023,
+			1024
 		},
 		[3] = {
 			2,
@@ -801,6 +812,7 @@ pg.activity_banner = {
 		1020,
 		1021,
 		1022,
-		1023
+		1023,
+		1024
 	}
 }

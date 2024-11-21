@@ -35,9 +35,11 @@ end
 
 slot0.PLAYER = 2
 slot0.TB = 4
+slot0.DORM = 8
 slot0.PlaceholderMap = {
 	playername = slot0.PLAYER,
-	tb = slot0.TB
+	tb = slot0.TB,
+	dorm3d = slot0.DORM
 }
 
 slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5)
@@ -57,6 +59,7 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	for slot9, slot10 in slot6(slot7) do
 		slot11 = uv0.PlaceholderMap[slot10] or 0
 
+		warning(slot11)
 		assert(slot11 > 0, slot10)
 
 		slot0.placeholder = bit.bor(slot0.placeholder, slot11)
@@ -80,7 +83,9 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot10 = slot1.scripts or {}
 
 	for slot12, slot13 in slot9(slot10) do
-		slot16 = uv0.GetStoryStepCls(slot13.mode or slot0.mode).New(slot13)
+		if uv0.GetStoryStepCls(slot13.mode or slot0.mode).New(slot13):IsDialogueMode() and slot0:IsDialogueStyle2() then
+			slot16:SetDefaultSide()
+		end
 
 		slot16:SetId(slot12)
 		slot16:SetPlaceholderType(slot0:GetPlaceholder())
@@ -217,6 +222,17 @@ end
 
 slot0.IsDialogueStyle2 = function(slot0)
 	return slot0:GetDialogueStyleName() == 2
+end
+
+slot0.GetAnimPrefix = function(slot0)
+	return switch(slot0:GetDialogueStyleName(), {
+		function ()
+			return "anim_storydialogue_optiontpl_"
+		end,
+		function ()
+			return "anim_newstory_dialogue2_"
+		end
+	})
 end
 
 slot0.GetTriggerDelayTime = function(slot0)

@@ -8,10 +8,6 @@ slot0.GetName = function(slot0)
 	return slot0:getConfig("name")
 end
 
-slot0.GetShipGroupId = function(slot0)
-	return slot0:getConfig("char_id")
-end
-
 slot0.IsGlobal = function(slot0)
 	return slot0:getConfig("is_global") == 1
 end

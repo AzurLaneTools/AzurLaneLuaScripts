@@ -147,9 +147,8 @@ end
 slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	uv0.super.OnUpdateItem(slot0, slot1, slot2)
 
-	if slot0.cards[slot2].uiStyle.id == (slot0.contextData.iconFrameId or slot0.displayVOs[1].id) then
+	if slot0.cards[slot2].uiStyle.id == slot0.playerVO:getAttireByType(AttireConst.TYPE_COMBAT_UI_STYLE) then
 		triggerButton(slot4._go)
-		slot4:UpdateSelected(true)
 	end
 end
 

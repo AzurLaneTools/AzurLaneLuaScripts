@@ -519,6 +519,8 @@ slot0.updateIntimacyEnergy = function(slot0, slot1)
 	if slot1 and tobool(slot3) then
 		setImageSprite(slot2:Find("icon/img"), GetSpriteFromAtlas("energy", slot3:getEnergyPrint()), true)
 		setText(slot2:Find("Text"), slot3:getEnergy())
+		setActive(slot2:Find("Text"), false)
+		setActive(slot2:Find("Text"), true)
 	end
 end
 

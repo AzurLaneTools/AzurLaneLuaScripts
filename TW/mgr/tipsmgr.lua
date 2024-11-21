@@ -13,7 +13,7 @@ slot1.Init = function(slot0, slot1)
 	slot0._count = 0
 	slot0._tipTable = {}
 
-	PoolMgr.GetInstance():GetUI("TipPanel", true, function (slot0)
+	LoadAndInstantiateAsync("ui", "TipPanel", function (slot0)
 		uv0._go = slot0
 
 		uv0._go:SetActive(false)
@@ -24,7 +24,7 @@ slot1.Init = function(slot0, slot1)
 		uv0._grid = uv0._go.transform:Find("Grid")
 
 		uv1()
-	end)
+	end, true)
 end
 
 slot1.ShowTips = function(slot0, slot1, slot2, slot3)

@@ -1302,8 +1302,8 @@ pg.base.pay_data_display = {
 			{
 				{
 					2024,
-					9,
-					5
+					1,
+					18
 				},
 				{
 					0,
@@ -1314,8 +1314,8 @@ pg.base.pay_data_display = {
 			{
 				{
 					2024,
-					10,
-					9
+					2,
+					21
 				},
 				{
 					23,
@@ -1386,8 +1386,8 @@ pg.base.pay_data_display = {
 			{
 				{
 					2024,
-					9,
-					5
+					1,
+					18
 				},
 				{
 					0,
@@ -1398,8 +1398,8 @@ pg.base.pay_data_display = {
 			{
 				{
 					2024,
-					10,
-					9
+					2,
+					21
 				},
 				{
 					23,
@@ -1460,8 +1460,8 @@ pg.base.pay_data_display = {
 			{
 				{
 					2024,
-					9,
-					5
+					1,
+					18
 				},
 				{
 					0,
@@ -1472,8 +1472,8 @@ pg.base.pay_data_display = {
 			{
 				{
 					2024,
-					10,
-					9
+					2,
+					21
 				},
 				{
 					23,
@@ -1534,8 +1534,8 @@ pg.base.pay_data_display = {
 			{
 				{
 					2024,
-					9,
-					5
+					1,
+					18
 				},
 				{
 					0,
@@ -1546,8 +1546,8 @@ pg.base.pay_data_display = {
 			{
 				{
 					2024,
-					10,
-					9
+					2,
+					21
 				},
 				{
 					23,
@@ -1590,7 +1590,7 @@ pg.base.pay_data_display = {
 		show_group = "",
 		limit_type = 4,
 		time = "always",
-		type_order = 3,
+		type_order = 6,
 		picture = "richang",
 		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.libao119",
@@ -1648,7 +1648,6 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "",
 		limit_type = 2,
-		time = "stop",
 		type_order = 0,
 		picture = "pack_day1",
 		skin_inquire_relation = 0,
@@ -1666,6 +1665,32 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				60
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					4,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -1707,7 +1732,6 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "",
 		limit_type = 2,
-		time = "stop",
 		type_order = 0,
 		picture = "pack_day2",
 		skin_inquire_relation = 0,
@@ -1720,6 +1744,32 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				200
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					4,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -1756,7 +1806,6 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "",
 		limit_type = 2,
-		time = "stop",
 		type_order = 0,
 		picture = "pack_day3",
 		skin_inquire_relation = 0,
@@ -1774,6 +1823,32 @@ pg.base.pay_data_display = {
 				2,
 				30114,
 				5
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					4,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -1815,7 +1890,6 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "",
 		limit_type = 2,
-		time = "stop",
 		type_order = 0,
 		picture = "pack_day4",
 		skin_inquire_relation = 0,
@@ -1833,6 +1907,32 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				60
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					4,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -1874,7 +1974,6 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "",
 		limit_type = 2,
-		time = "stop",
 		type_order = 0,
 		picture = "pack_day5",
 		skin_inquire_relation = 0,
@@ -1887,6 +1986,32 @@ pg.base.pay_data_display = {
 				2,
 				16502,
 				60
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					4,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -1923,7 +2048,6 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "",
 		limit_type = 2,
-		time = "stop",
 		type_order = 0,
 		picture = "pack_day6",
 		skin_inquire_relation = 0,
@@ -1941,6 +2065,32 @@ pg.base.pay_data_display = {
 				2,
 				15003,
 				5
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					4,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {
@@ -1982,7 +2132,6 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "",
 		limit_type = 2,
-		time = "stop",
 		type_order = 0,
 		picture = "pack_day7",
 		skin_inquire_relation = 0,
@@ -2000,6 +2149,32 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				60
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					4,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					4,
+					17
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {

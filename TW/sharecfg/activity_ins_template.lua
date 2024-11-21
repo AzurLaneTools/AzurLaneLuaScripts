@@ -11628,14 +11628,29 @@ pg.activity_ins_template = {
 		ship_group = 30604,
 		name = "Zuihō",
 		sculpture = "ruifeng",
-		picture_persist = "",
-		is_active = 1,
-		message_persist = "",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_491.png",
+		is_active = 0,
+		message_persist = "ins_491",
 		id = 491,
 		group_id = 491,
 		order = 42,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2024,
+				10,
+				31
+			},
+			{
+				12,
+				17,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			4803,
+			4808,
+			4812
+		}
 	},
 	all = {
 		1,

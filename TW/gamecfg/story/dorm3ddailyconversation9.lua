@@ -1,38 +1,23 @@
 return {
-	hideRecord = true,
+	fadeOut = 1.5,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DDAILYCONVERSATION9",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DDAILYCONVERSATION9",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
-			say = "喜欢的东西？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "当然是……我骄傲的主人。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			options = {
-				{
-					content = "对天狼星来说，人也划分在“东西”的范围吗？",
-					flag = 1
-				},
-				{
-					content = "原来我是“东西”吗？",
-					flag = 2
-				}
-			}
-		},
-		{
-			say = "非常抱歉……我的主人！是天狼星使用的措辞出现了问题……",
+			actorName = 20220,
+			side = 2,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFFFFF",
+			say = "这个房间里，天狼星最喜欢部分之一就是壁炉哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,34 +27,32 @@ return {
 				data = {
 					op_list = {
 						{
+							param = "Play",
+							name = "shy",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
 							skip = false,
-							name = "Bow",
-							type = "action"
+							time = 1,
+							type = "wait"
 						}
 					}
 				},
 				callbackData = {
-					hideUI = true,
+					hideUI = false,
 					name = STORY_EVENT.TEST_DONE
 				}
 			}
 		},
 		{
-			say = "为了不给您，也不给皇家女仆队蒙羞，请您惩罚我吧！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "就算从现在开始您要放置天狼星一整天，天狼星也不会有任何怨言……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "那、那么，要不要从现在开始惩罚天狼星呢？我骄傲的主人？",
+			actorName = 20220,
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "一想到天气再冷一些的时候，就能够和您依偎着坐在暖暖的壁炉旁，天狼星就……///",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

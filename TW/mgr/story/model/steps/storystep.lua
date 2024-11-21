@@ -71,6 +71,10 @@ slot0.ShouldReplaceTb = function(slot0)
 	return bit.band(slot0.placeholderType, Story.TB) > 0
 end
 
+slot0.ShouldReplaceDorm = function(slot0)
+	return bit.band(slot0.placeholderType, Story.DORM) > 0
+end
+
 slot0.ReplacePlayerName = function(slot0, slot1)
 	if not getProxy(PlayerProxy) or not getProxy(PlayerProxy):getRawData() then
 		return slot1
@@ -91,6 +95,14 @@ slot0.ReplaceTbName = function(slot0, slot1)
 	slot2, slot3 = getProxy(EducateProxy):GetStoryInfo()
 
 	return string.gsub(slot1, "{tb}", slot3)
+end
+
+slot0.ReplaceDormName = function(slot0, slot1)
+	if not slot0.actorName then
+		return slot1
+	end
+
+	return string.gsub(slot1, "{dorm3d}", getProxy(ApartmentProxy):getApartment(slot0.actorName) and slot2:GetCallName() or slot0.actorName)
 end
 
 slot0.ExistDispatcher = function(slot0)
@@ -464,6 +476,10 @@ slot0.GetOptions = function(slot0)
 
 		if uv0:ShouldReplaceTb() then
 			slot1 = uv0:ReplaceTbName(slot1)
+		end
+
+		if uv0:ShouldReplaceDorm() then
+			slot1 = uv0:ReplaceDormName(slot1)
 		end
 
 		return {

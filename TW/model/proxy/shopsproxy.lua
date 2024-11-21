@@ -15,6 +15,7 @@ slot0.ACTIVITY_SHOP_GOODS_UPDATED = "ShopsProxy:ACTIVITY_SHOP_GOODS_UPDATED"
 slot0.META_SHOP_GOODS_UPDATED = "ShopsProxy:META_SHOP_GOODS_UPDATED"
 slot0.MEDAL_SHOP_UPDATED = "ShopsProxy:MEDAL_SHOP_UPDATED"
 slot0.QUOTA_SHOP_UPDATED = "ShopsProxy:QUOTA_SHOP_UPDATED"
+slot0.CRUISE_SHOP_UPDATED = "ShopsProxy:CRUISE_SHOP_UPDATED"
 
 slot0.register = function(slot0)
 	slot0.shopStreet = nil
@@ -45,6 +46,8 @@ slot0.register = function(slot0)
 			table.insert(slot0.freeGiftIdList, slot6)
 		end
 	end
+
+	slot0.newServerShopList = {}
 end
 
 slot0.timeCall = function(slot0)
@@ -384,12 +387,12 @@ slot0.UpdateMetaShopGoods = function(slot0, slot1, slot2)
 	})
 end
 
-slot0.SetNewServerShop = function(slot0, slot1)
-	slot0.newServerShop = slot1
+slot0.SetNewServerShop = function(slot0, slot1, slot2)
+	slot0.newServerShopList[slot1] = slot2
 end
 
-slot0.GetNewServerShop = function(slot0)
-	return slot0.newServerShop
+slot0.GetNewServerShop = function(slot0, slot1)
+	return slot0.newServerShopList[slot1]
 end
 
 slot0.SetMedalShop = function(slot0, slot1)
@@ -421,6 +424,22 @@ slot0.updateQuotaShop = function(slot0, slot1, slot2)
 		shop = slot0.quotaShop,
 		reset = slot2
 	})
+end
+
+slot0.SetCruiseShop = function(slot0, slot1)
+	slot0.cruiseShop = slot1
+end
+
+slot0.UpdateCruiseShop = function(slot0)
+	slot0.cruiseShop = CruiseShop.New(slot0:GetNormalList(), slot0:GetNormalGroupList())
+
+	slot0:sendNotification(uv0.CRUISE_SHOP_UPDATED, {
+		shop = slot0.cruiseShop
+	})
+end
+
+slot0.GetCruiseShop = function(slot0)
+	return slot0.cruiseShop
 end
 
 slot0.remove = function(slot0)
@@ -479,6 +498,16 @@ slot0.GetGiftCommodity = function(slot0, slot1, slot2)
 	end
 
 	return slot3
+end
+
+slot0.GetGroupPayCount = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.normalGroupList) do
+		if slot6.shop_id == slot1 then
+			return slot0.normalGroupList[slot5].pay_count or 0
+		end
+	end
+
+	return 0
 end
 
 return slot0

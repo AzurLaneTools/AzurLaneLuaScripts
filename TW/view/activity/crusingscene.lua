@@ -489,7 +489,7 @@ slot0.openBuyPanel = function(slot0)
 		descExtra = slot2:getConfig("descrip_extra"),
 		onYes = function ()
 			if ChargeConst.isNeedSetBirth() then
-				uv0:emit(ChargeMediator.OPEN_CHARGE_BIRTHDAY)
+				uv0:emit(CrusingMediator.EVENT_OPEN_BIRTHDAY)
 			else
 				pg.m02:sendNotification(GAME.CHARGE_OPERATION, {
 					shopId = uv1.id

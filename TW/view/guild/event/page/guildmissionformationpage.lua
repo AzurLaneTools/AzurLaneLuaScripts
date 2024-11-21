@@ -5,6 +5,10 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.OnRefreshMission = function(slot0, slot1)
+	if not slot0.mission or slot0.mission.id ~= slot1.id then
+		return
+	end
+
 	slot0:Flush(slot1)
 end
 

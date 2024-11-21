@@ -134,7 +134,7 @@ slot0.CreateContextCalculateDamage = function(slot0)
 
 		slot30 = math.max(slot9.attackRating, 0)
 
-		if not (uv2.GetCurrent(slot1, "perfectDodge") == 1 and true or not uv4.IsHappen(math.max(slot7[5], math.min(slot4, slot8[1] + slot30 / (slot30 + slot18.dodgeRate + slot8[2]) + (slot9.luck - slot18.luck + slot21) * uv0.PERCENT1 + uv2.GetCurrent(slot1, "accuracyRateExtra") + uv2.GetCurrent(slot0, uv3[slot1:GetTemplate().type]) - uv2.GetCurrent(slot1, "dodgeRateExtra"))) * slot6)) then
+		if not (uv2.GetCurrent(slot1, "perfectDodge") == 1 and true or not uv4.IsHappen(math.max(slot7[5], math.min(slot4, slot8[1] + slot30 / (slot30 + slot18.dodgeRate + slot8[2]) + (slot9.luck - slot18.luck + slot21) * uv0.PERCENT1 + uv2.GetCurrent(slot0, "accuracyRateExtra") + uv2.GetCurrent(slot0, uv3[slot1:GetTemplate().type]) - uv2.GetCurrent(slot1, "dodgeRateExtra"))) * slot6)) then
 			slot31 = nil
 			slot25 = math.random(uv5.RANDOM_DAMAGE_MIN, uv5.RANDOM_DAMAGE_MAX) + slot26
 
@@ -499,29 +499,6 @@ end
 
 slot0.UnilateralCrush = function()
 	return 0, 100000
-end
-
-slot0.FriendInvincibleDamage = function(slot0, slot1, ...)
-	if slot1:GetIFF() == ys.Battle.BattleConfig.FRIENDLY_CODE then
-		return 1, {
-			isMiss = false,
-			isCri = false,
-			isDamagePrevent = false
-		}
-	elseif slot2 == ys.Battle.BattleConfig.FOE_CODE then
-		return uv0.CalculateDamage(slot0, slot1, ...)
-	end
-end
-
-slot0.FriendInvincibleCrashDamage = function(slot0, slot1)
-	slot2, slot3 = uv0.CalculateCrashDamage(slot0, slot1)
-	slot4 = 1
-
-	if slot1:GetIFF() == ys.Battle.BattleConfig.FRIENDLY_CODE then
-		slot3 = 1
-	end
-
-	return slot4, slot3
 end
 
 slot0.ChapterRepressReduce = function(slot0)

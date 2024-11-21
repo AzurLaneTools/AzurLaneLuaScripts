@@ -16465,6 +16465,45 @@ pg.activity_template = {
 			}
 		}
 	},
+	[7104] = {
+		mark = 20240926,
+		page_info = "",
+		time = "always",
+		type = 119,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		title_res_tag = "",
+		id = 7104,
+		config_data = {
+			12011,
+			12012,
+			12013,
+			12014,
+			12015,
+			12016,
+			12017,
+			12018,
+			12019,
+			12020,
+			12021,
+			12022
+		},
+		config_client = {
+			"commonbg/meta_shop_bg",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			painting = {
+				"zaoshen_meta_pt",
+				"hailunna_meta_pt",
+				"mengfeisi_meta_pt"
+			}
+		}
+	},
 	[8009] = {
 		mark = 20220414,
 		type = 3,
@@ -19301,8 +19340,8 @@ pg.activity_template = {
 			{
 				{
 					2024,
-					10,
-					10
+					1,
+					26
 				},
 				{
 					0,
@@ -19313,8 +19352,8 @@ pg.activity_template = {
 			{
 				{
 					2024,
-					10,
-					19
+					2,
+					4
 				},
 				{
 					23,
@@ -53053,6 +53092,7 @@ pg.activity_template = {
 		login_pop = 0,
 		config_id = 0,
 		is_show = 14,
+		config_client = "",
 		title_res_tag = "CrusingDisplayAct",
 		id = 45916,
 		config_data = {
@@ -53096,37 +53136,6 @@ pg.activity_template = {
 		page_info = {
 			class_name = "CrusingDisplayActPage",
 			ui_name = "CrusingDisplayActPage17"
-		},
-		config_client = {
-			spine_name = "chess_adiliao",
-			map_name = "map_202406",
-			tips = {
-				"battlepass_main_tip_2406",
-				"battlepass_main_help_2406",
-				"cruise_task_help_2406"
-			},
-			equip_skin = {
-				{
-					9,
-					2071,
-					1
-				},
-				{
-					9,
-					2072,
-					1
-				},
-				{
-					9,
-					2073,
-					1
-				},
-				{
-					9,
-					2074,
-					1
-				}
-			}
 		}
 	},
 	get_id_list_by_type = {
@@ -54763,6 +54772,9 @@ pg.activity_template = {
 			5571,
 			45016
 		},
+		[119] = {
+			7104
+		},
 		[19] = {
 			1069,
 			1070,
@@ -55375,6 +55387,7 @@ pg.activity_template = {
 		5571,
 		5579,
 		5581,
+		7104,
 		8009,
 		8010,
 		8019,

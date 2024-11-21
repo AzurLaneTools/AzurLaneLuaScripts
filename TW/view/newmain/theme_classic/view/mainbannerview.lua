@@ -39,7 +39,7 @@ slot0.UpdateItems = function(slot0, slot1)
 end
 
 slot0.Tracking = function(slot0, slot1)
-	TrackConst.TrackingTouchBanner(slot1)
+	pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildTouchBanner(slot1))
 end
 
 slot0.GetDirection = function(slot0)

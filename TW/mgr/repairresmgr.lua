@@ -7,7 +7,7 @@ slot0.TYPE_PAINTING = 8
 slot0.TYPE_CIPHER = 16
 
 slot0.Init = function(slot0, slot1)
-	PoolMgr.GetInstance():GetUI("RepairUI", true, function (slot0)
+	LoadAndInstantiateAsync("ui", "RepairUI", function (slot0)
 		uv0._go = slot0
 		uv0._tf = uv0._go.transform
 
@@ -29,7 +29,7 @@ slot0.Init = function(slot0, slot1)
 
 		setText(uv0._tf:Find("window/top/title"), i18n("msgbox_repair_title"))
 		uv1()
-	end)
+	end, true, true)
 end
 
 slot0.InitDefaultResBtn = function(slot0)

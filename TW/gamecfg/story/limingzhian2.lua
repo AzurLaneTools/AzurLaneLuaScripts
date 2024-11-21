@@ -616,12 +616,11 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 702010,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			dir = 1,
-			actor = 702010,
 			nameColor = "#a9f548",
+			dir = 1,
 			say = "快檢查一下船上的和設備，也許有紀錄下來什麼！",
 			typewriter = {
 				speed = 0.05,

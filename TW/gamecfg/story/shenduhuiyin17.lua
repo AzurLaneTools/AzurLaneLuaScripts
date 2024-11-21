@@ -8,7 +8,7 @@ return {
 	scripts = {
 		{
 			side = 2,
-			bgName = "star_level_bg_1104 ",
+			bgName = "star_level_bg_1104",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "echo-loop",
@@ -33,7 +33,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_1104 ",
+			bgName = "star_level_bg_1104",
 			dir = 1,
 			say = "明明躺倒在固定的座椅上，卻逐漸產生了一種飛行的體驗。",
 			typewriter = {
@@ -47,7 +47,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_1104 ",
+			bgName = "star_level_bg_1104",
 			dir = 1,
 			say = "就好像喝了一桶伏特加之後又去冰面上來了幾十圈大迴轉一樣。",
 			typewriter = {
@@ -61,7 +61,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_1104 ",
+			bgName = "star_level_bg_1104",
 			dir = 1,
 			say = "無數或熟悉或陌生的畫面在眼前高速移動著，奇怪的噪音如同烏雲一般擠壓著身邊的每一寸空氣。",
 			typewriter = {
@@ -89,7 +89,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_1104 ",
+			bgName = "star_level_bg_1104",
 			dir = 1,
 			say = "終於，一切逐漸停止，喀琅施塔得感覺自己的雙腳踏在了水面上。",
 			typewriter = {

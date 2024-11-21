@@ -23638,7 +23638,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2301] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "雲雨",
@@ -23649,7 +23649,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2302] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "開棋",
@@ -23660,7 +23660,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2303] = {
-		mask = "bg_wuzang_bg1",
+		mask = "bg/bg_wuzang_bg1",
 		subtitle = "",
 		type = 1,
 		title = "閃電行動",
@@ -23671,7 +23671,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2304] = {
-		mask = "bg_wuzang_bg2",
+		mask = "bg/bg_wuzang_bg2",
 		subtitle = "",
 		type = 1,
 		title = "攻守兼備",
@@ -23682,7 +23682,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2305] = {
-		mask = "bg_wuzang_bg3",
+		mask = "bg/bg_wuzang_bg3",
 		subtitle = "",
 		type = 1,
 		title = "神子的祝福",
@@ -23693,7 +23693,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2306] = {
-		mask = "bg_wuzang_bg4",
+		mask = "bg/bg_wuzang_bg4",
 		subtitle = "",
 		type = 1,
 		title = "享受樂趣",
@@ -23704,7 +23704,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2307] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "試探",
@@ -23715,7 +23715,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2308] = {
-		mask = "bg_wuzang_bg5",
+		mask = "bg/bg_wuzang_bg5",
 		subtitle = "",
 		type = 1,
 		title = "心想事成",
@@ -23726,7 +23726,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2309] = {
-		mask = "bg_wuzang_bg5",
+		mask = "bg/bg_wuzang_bg5",
 		subtitle = "",
 		type = 1,
 		title = "海霧彌散",
@@ -23737,7 +23737,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2310] = {
-		mask = "bg_wuzang_bg6",
+		mask = "bg/bg_wuzang_bg6",
 		subtitle = "",
 		type = 1,
 		title = "Z字旗之輝",
@@ -23748,7 +23748,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2311] = {
-		mask = "bg_wuzang_bg7",
+		mask = "bg/bg_wuzang_bg7",
 		subtitle = "",
 		type = 1,
 		title = "總旗艦之令",
@@ -23759,7 +23759,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2312] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "順風而行",
@@ -23770,7 +23770,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2313] = {
-		mask = "bg_wuzang_bg8",
+		mask = "bg/bg_wuzang_bg8",
 		subtitle = "",
 		type = 1,
 		title = "櫻之結界",
@@ -23781,7 +23781,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2314] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "變革之路",
@@ -23792,7 +23792,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2315] = {
-		mask = "bg_wuzang_bg9",
+		mask = "bg/bg_wuzang_bg9",
 		subtitle = "",
 		type = 1,
 		title = "赤紅之誓",
@@ -23803,7 +23803,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2316] = {
-		mask = "bg_wuzang_bg9",
+		mask = "bg/bg_wuzang_bg9",
 		subtitle = "",
 		type = 1,
 		title = "海域封鎖",
@@ -23814,7 +23814,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2317] = {
-		mask = "bg_wuzang_bg10",
+		mask = "bg/bg_wuzang_bg10",
 		subtitle = "",
 		type = 1,
 		title = "信念",
@@ -23825,7 +23825,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2318] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "「汝之力，在於何？」",
@@ -23836,7 +23836,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2319] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "百韻連歌",
@@ -23847,7 +23847,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2320] = {
-		mask = "bg_wuzang_bg11",
+		mask = "bg/bg_wuzang_bg11",
 		subtitle = "",
 		type = 1,
 		title = "止戈",
@@ -23858,7 +23858,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2321] = {
-		mask = "bg_wuzang_bg11",
+		mask = "bg/bg_wuzang_bg11",
 		subtitle = "",
 		type = 1,
 		title = "技術革新",
@@ -23869,7 +23869,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2322] = {
-		mask = "bg_wuzang_bg11",
+		mask = "bg/bg_wuzang_bg11",
 		subtitle = "",
 		type = 1,
 		title = "春意盎然",
@@ -23880,7 +23880,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2323] = {
-		mask = "bg_wuzang_bg12",
+		mask = "bg/bg_wuzang_bg12",
 		subtitle = "",
 		type = 1,
 		title = "如夢似幻",
@@ -23891,7 +23891,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2324] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "杜鵑不啼",
@@ -23902,7 +23902,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2325] = {
-		mask = "bg_wuzang_bg12",
+		mask = "bg/bg_wuzang_bg12",
 		subtitle = "",
 		type = 1,
 		title = "天晴浪高",
@@ -23913,7 +23913,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2326] = {
-		mask = "bg_wuzang_bg12",
+		mask = "bg/bg_wuzang_bg12",
 		subtitle = "",
 		type = 1,
 		title = "威壓",
@@ -23924,7 +23924,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2327] = {
-		mask = "bg_wuzang_bg13",
+		mask = "bg/bg_wuzang_bg13",
 		subtitle = "",
 		type = 1,
 		title = "見機行事",
@@ -23935,7 +23935,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2328] = {
-		mask = "bg_wuzang_bg13",
+		mask = "bg/bg_wuzang_bg13",
 		subtitle = "",
 		type = 1,
 		title = "神木之風",
@@ -23946,7 +23946,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2329] = {
-		mask = "bg_wuzang_bg14",
+		mask = "bg/bg_wuzang_bg14",
 		subtitle = "",
 		type = 1,
 		title = "聯合行動",
@@ -23957,7 +23957,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2330] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "公方之刃",
@@ -23968,7 +23968,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2331] = {
-		mask = "bg_wuzang_bg14",
+		mask = "bg/bg_wuzang_bg14",
 		subtitle = "",
 		type = 1,
 		title = "日蝕",
@@ -23979,7 +23979,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2332] = {
-		mask = "bg_wuzang_bg14",
+		mask = "bg/bg_wuzang_bg14",
 		subtitle = "",
 		type = 1,
 		title = "滴水穿石",
@@ -23990,7 +23990,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2333] = {
-		mask = "bg_wuzang_bg15",
+		mask = "bg/bg_wuzang_bg15",
 		subtitle = "",
 		type = 1,
 		title = "蒼藍之約",
@@ -24001,7 +24001,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2334] = {
-		mask = "bg_wuzang_bg16",
+		mask = "bg/bg_wuzang_bg16",
 		subtitle = "",
 		type = 1,
 		title = "月下彼岸花",
@@ -24012,7 +24012,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2335] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "空山新雨後",
@@ -24023,7 +24023,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2336] = {
-		mask = "bg_fuxiangxian_0",
+		mask = "bg/bg_fuxiangxian_0",
 		subtitle = "",
 		type = 1,
 		title = "第二階段",
@@ -24034,7 +24034,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2337] = {
-		mask = "bg_wuzang_bg16",
+		mask = "bg/bg_wuzang_bg16",
 		subtitle = "",
 		type = 1,
 		title = "紫炎的哀嘆",
@@ -24045,7 +24045,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2338] = {
-		mask = "bg_wuzang_bg17",
+		mask = "bg/bg_wuzang_bg17",
 		subtitle = "",
 		type = 1,
 		title = "第五塊拼圖",
@@ -24056,7 +24056,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2339] = {
-		mask = "blackBg",
+		mask = "bg/bg_memory",
 		subtitle = "",
 		type = 1,
 		title = "全知之眼",
@@ -24584,7 +24584,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2411] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "另一個故事",
@@ -24595,7 +24595,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2412] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "全新的冒險",
@@ -24606,7 +24606,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2413] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "起始之地",
@@ -24617,7 +24617,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2414] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "碑文",
@@ -24628,7 +24628,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2415] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "素材與調合",
@@ -24639,7 +24639,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2416] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "異界之森",
@@ -24650,7 +24650,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2417] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "菲爾弗薩級量產型",
@@ -24661,7 +24661,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2418] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "菲爾弗薩與塞壬",
@@ -24672,7 +24672,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2419] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "虛假的植物",
@@ -24683,7 +24683,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2420] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "爭鬥之城",
@@ -24694,7 +24694,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2421] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "調查與比賽",
@@ -24705,7 +24705,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2422] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "DATA-857",
@@ -24716,7 +24716,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2423] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "布里斯托爾假說",
@@ -24727,7 +24727,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2424] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "另闢蹊徑？",
@@ -24738,7 +24738,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2425] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "自動迎敵系統",
@@ -24749,7 +24749,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2426] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "戰士與傷痕",
@@ -24760,7 +24760,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2427] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "失落之都",
@@ -24771,7 +24771,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2428] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "適合塞壬的工作",
@@ -24782,7 +24782,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2429] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "立體迷宮",
@@ -24793,7 +24793,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2430] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "立體機動",
@@ -24804,7 +24804,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2431] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "間章",
@@ -24815,7 +24815,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2432] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "核心之所",
@@ -24826,7 +24826,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2433] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "冒險的尾聲",
@@ -24837,7 +24837,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2434] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "遺跡守護者",
@@ -24848,7 +24848,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2435] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "冒險的繼續",
@@ -24859,7 +24859,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2436] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "寶物",
@@ -25024,7 +25024,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2461] = {
-		mask = "star_level_bg_106",
+		mask = "bg/star_level_bg_106",
 		subtitle = "",
 		type = 1,
 		title = "馳騁的白浪騎士",
@@ -25035,7 +25035,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2462] = {
-		mask = "star_level_bg_106",
+		mask = "bg/star_level_bg_106",
 		subtitle = "",
 		type = 1,
 		title = "陽光下的競泳者",
@@ -25046,7 +25046,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2463] = {
-		mask = "star_level_bg_106",
+		mask = "bg/star_level_bg_106",
 		subtitle = "",
 		type = 1,
 		title = "靜謐煙火之夜",
@@ -25057,7 +25057,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2464] = {
-		mask = "star_level_bg_106",
+		mask = "bg/star_level_bg_106",
 		subtitle = "",
 		type = 1,
 		title = "碧海與吟遊詩人",
@@ -25068,7 +25068,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2465] = {
-		mask = "star_level_bg_106",
+		mask = "bg/star_level_bg_106",
 		subtitle = "",
 		type = 1,
 		title = "紅色救生兔？！",
@@ -25079,7 +25079,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2466] = {
-		mask = "star_level_bg_106",
+		mask = "bg/star_level_bg_106",
 		subtitle = "",
 		type = 1,
 		title = "蔚藍色的水槍武士",
@@ -25090,7 +25090,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2467] = {
-		mask = "star_level_bg_106",
+		mask = "bg/star_level_bg_106",
 		subtitle = "",
 		type = 1,
 		title = "白晝的美人魚",
@@ -25101,7 +25101,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2471] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "未知的都市",
@@ -25112,7 +25112,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2472] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "明日故人",
@@ -25123,7 +25123,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2473] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "故地重遊",
@@ -25134,7 +25134,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2474] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "碎片",
@@ -25145,7 +25145,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2475] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "葛萊娜泰",
@@ -25156,7 +25156,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2476] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "矚目之星",
@@ -25167,7 +25167,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2477] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "逐步進行",
@@ -25178,7 +25178,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2478] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "預定變更",
@@ -25189,7 +25189,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2479] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "老師與指揮官",
@@ -25200,7 +25200,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2480] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "II型艦裝",
@@ -25211,7 +25211,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2481] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "揚長避短",
@@ -25222,7 +25222,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2482] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "曼非斯的心思",
@@ -25233,7 +25233,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2483] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "紐帶",
@@ -25244,7 +25244,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2484] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "舒適旅行用1號",
@@ -25255,7 +25255,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2485] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "薩摩斯島",
@@ -25266,7 +25266,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2486] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "玲？",
@@ -25277,7 +25277,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2487] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "ANTI-X",
@@ -25288,7 +25288,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2488] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "在這裡能做到的事",
@@ -25299,7 +25299,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2489] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "迪貝路·XV",
@@ -25310,7 +25310,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2490] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "協作測試I",
@@ -25321,7 +25321,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2491] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "協作測試II",
@@ -25332,7 +25332,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2492] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "迪貝路的代行者",
@@ -25343,7 +25343,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2493] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "冰裂痕",
@@ -25354,7 +25354,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2494] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "侵蝕",
@@ -25365,7 +25365,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2495] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "溶解",
@@ -25376,7 +25376,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2496] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "對抗迪貝路的方法",
@@ -25387,7 +25387,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2497] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "往昔的代行者",
@@ -25398,7 +25398,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2498] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "弦IV-「建構者」",
@@ -25409,7 +25409,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2499] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "虛幻中的真實",
@@ -25420,7 +25420,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2500] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "熱帶氣旋",
@@ -25431,7 +25431,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2501] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "把握機會",
@@ -25442,7 +25442,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2502] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "網",
@@ -25453,7 +25453,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2503] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "政治與信仰",
@@ -25464,7 +25464,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2504] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "「這是友好情報哦~」",
@@ -25475,7 +25475,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2505] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "「我回來了，企業」",

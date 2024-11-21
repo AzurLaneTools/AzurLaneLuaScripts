@@ -2016,8 +2016,8 @@ pg.mini_game = {
 					2
 				},
 				{
-					2,
-					59355,
+					3,
+					150180,
 					1
 				},
 				{
@@ -2036,8 +2036,8 @@ pg.mini_game = {
 				{
 					{
 						2024,
-						6,
-						27
+						10,
+						24
 					},
 					{
 						0,
@@ -2048,8 +2048,8 @@ pg.mini_game = {
 				{
 					{
 						2024,
-						7,
-						11
+						11,
+						7
 					},
 					{
 						23,
@@ -2303,6 +2303,112 @@ pg.mini_game = {
 		config_csv = "",
 		id = 66,
 		hub_id = 57,
+		request_data = 1,
+		simple_config_data = {
+			drop_ids = {
+				{
+					2,
+					54050,
+					2
+				},
+				{
+					1,
+					1,
+					300
+				},
+				{
+					2,
+					54051,
+					1
+				},
+				{
+					1,
+					1,
+					300
+				},
+				{
+					2,
+					50004,
+					5
+				},
+				{
+					2,
+					20012,
+					2
+				},
+				{
+					2,
+					30347,
+					2
+				}
+			}
+		}
+	},
+	{
+		is_ranking = 0,
+		view_name = "EatFoodGameView",
+		game_room = 0,
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		name = "宿舍拍手小游戏(用于存分数",
+		config_csv = "",
+		id = 67,
+		hub_id = 45,
+		request_data = 0,
+		simple_config_data = {
+			drop_ids = {
+				{
+					2,
+					54050,
+					2
+				},
+				{
+					1,
+					1,
+					300
+				},
+				{
+					2,
+					54051,
+					1
+				},
+				{
+					1,
+					1,
+					300
+				},
+				{
+					2,
+					50004,
+					5
+				},
+				{
+					2,
+					20012,
+					2
+				},
+				{
+					2,
+					30347,
+					2
+				}
+			}
+		}
+	},
+	{
+		is_ranking = 1,
+		view_name = "BoatAdGameView",
+		game_room = 0,
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		name = "海盗广告小游戏",
+		config_csv = "",
+		id = 68,
+		hub_id = 58,
 		request_data = 1,
 		simple_config_data = {
 			drop_ids = {
@@ -2939,6 +3045,8 @@ pg.mini_game = {
 		64,
 		65,
 		66,
+		67,
+		68,
 		1001,
 		1002,
 		1003,

@@ -40,8 +40,8 @@ slot0.register = function(slot0)
 	end)
 	slot0:bind(uv0.SKIP_INS, function (slot0)
 		uv0:addSubLayers(Context.New({
-			viewComponent = InstagramLayer,
-			mediator = InstagramMediator
+			viewComponent = InstagramMainUI,
+			mediator = InstagramMainMediator
 		}))
 	end)
 	slot0:bind(uv0.SKIP_ESCORT, function (slot0)
@@ -175,7 +175,8 @@ slot0.listNotificationInterests = function(slot0)
 		uv0.REFRESH_VIEW,
 		GAME.CHANGE_LIVINGAREA_COVER_DONE,
 		CompensateProxy.UPDATE_ATTACHMENT_COUNT,
-		CompensateProxy.All_Compensate_Remove
+		CompensateProxy.All_Compensate_Remove,
+		GAME.ACT_INSTAGRAM_CHAT_DONE
 	}
 
 	for slot5, slot6 in pairs(pg.redDotHelper:GetNotifyType()) do
@@ -222,6 +223,14 @@ slot0.handleNotification = function(slot0, slot1)
 			},
 			onRemoved = slot3.callback
 		}))
+	elseif slot2 == GAME.CHANGE_LIVINGAREA_COVER_DONE then
+		slot0.viewComponent:emit(NewMainScene.UPDATE_COVER)
+	elseif slot2 == GAME.ACT_INSTAGRAM_CHAT_DONE and slot3.operation == ActivityConst.INSTAGRAM_CHAT_ACTIVATE_TOPIC then
+		slot4 = slot0.viewComponent:GetFlagShip()
+
+		if slot0.viewComponent.theme then
+			slot0.viewComponent.theme:Refresh(slot4)
+		end
 	end
 
 	slot0.viewComponent:emit(slot2, slot3)

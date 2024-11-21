@@ -10,6 +10,9 @@ slot0.ON_CLOSE = "BaseUI:ON_CLOSE"
 slot0.ON_DROP = "BaseUI.ON_DROP"
 slot0.ON_DROP_LIST = "BaseUI.ON_DROP_LIST"
 slot0.ON_DROP_LIST_OWN = "BaseUI.ON_DROP_LIST_OWN"
+slot0.ON_NEW_DROP = "BaseUI.ON_NEW_DROP"
+slot0.ON_NEW_STYLE_DROP = "BaseUI.ON_NEW_STYLE_DROP"
+slot0.ON_NEW_STYLE_ITEMS = "BaseUI.ON_NEW_STYLE_ITEMS"
 slot0.ON_ITEM = "BaseUI:ON_ITEM"
 slot0.ON_ITEM_EXTRA = "BaseUI.ON_ITEM_EXTRA"
 slot0.ON_SHIP = "BaseUI:ON_SHIP"
@@ -44,6 +47,14 @@ slot0.needCache = function(slot0)
 end
 
 slot0.forceGC = function(slot0)
+	return false
+end
+
+slot0.loadingQueue = function(slot0)
+	return false
+end
+
+slot0.lowerAdpter = function(slot0)
 	return false
 end
 
@@ -150,7 +161,7 @@ slot0.getWeightFromData = function(slot0)
 end
 
 slot0.isLayer = function(slot0)
-	return slot0.contextData ~= nil and slot0.contextData.isLayer and not slot0.contextData.isSubView
+	return slot0.contextData ~= nil and slot0.contextData.isLayer
 end
 
 slot0.addToLayerMgr = function(slot0)
@@ -268,9 +279,19 @@ slot0.enter = function(slot0)
 	slot0:inOutAnim(true, function ()
 		uv0:emit(uv1.DID_ENTER)
 
+		if uv0:lowerAdpter() then
+			setActive(pg.CameraFixMgr.GetInstance().adpterTr, false)
+		end
+
 		if not uv0._isCachedView then
 			uv0:didEnter()
 			uv0:ShowOrHideResUI(true)
+		end
+
+		if tobool(uv0:loadingQueue()) and uv0.contextData.resumeCallback then
+			uv0.contextData.resumeCallback = nil
+
+			uv0.contextData.resumeCallback()
 		end
 
 		slot0 = uv0
@@ -316,6 +337,11 @@ slot0.exit = function(slot0)
 		uv0:willExit()
 		uv0:ShowOrHideResUI(false)
 		uv0:detach()
+
+		if uv0:lowerAdpter() then
+			setActive(pg.CameraFixMgr.GetInstance().adpterTr, true)
+		end
+
 		pg.NewGuideMgr.GetInstance():OnSceneExit({
 			view = uv0.__cname
 		})

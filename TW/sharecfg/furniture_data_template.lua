@@ -17156,7 +17156,7 @@ pg.base.furniture_data_template = {
 		tag = 6,
 		spine_extra = "",
 		level = 1,
-		rarity = 4,
+		rarity = 0,
 		spine_action_replace = "",
 		belong = 1,
 		canputon = 0,
@@ -17166,7 +17166,7 @@ pg.base.furniture_data_template = {
 		advice = 0,
 		id = 258,
 		icon = "pingguohongchaicon",
-		comfortable = 2,
+		comfortable = 0,
 		size = {
 			3,
 			3

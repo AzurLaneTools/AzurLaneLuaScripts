@@ -1,7 +1,6 @@
 pg = pg or {}
 slot0 = pg
 slot0.FontMgr = singletonClass("FontMgr")
-slot1 = slot0.FontMgr
 
 slot0.FontMgr.Init = function(slot0, slot1)
 	print("initializing font manager...")
@@ -28,15 +27,11 @@ slot0.FontMgr.Init = function(slot0, slot1)
 		bankgthd = "bankgthd"
 	}) do
 		table.insert(slot2, function (slot0)
-			ResourceMgr.Inst:getAssetAsync("font/" .. uv0, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-				uv0.fonts[uv1] = slot0
-
-				uv2()
-			end), false, false)
+			AssetBundleHelper.StoreAssetBundle("font/" .. uv0, true, false, function (slot0)
+				uv0()
+			end)
 		end)
 	end
-
-	slot0.fonts = {}
 
 	parallelAsync(slot2, function (slot0)
 		uv0(slot0)

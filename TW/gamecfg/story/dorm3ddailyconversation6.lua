@@ -1,38 +1,23 @@
 return {
-	hideRecord = true,
+	fadeOut = 1.5,
 	dialogbox = 2,
-	mode = 2,
-	id = "DORM3DDAILYCONVERSATION6",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DDAILYCONVERSATION6",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
-			say = "主人，今天想要和天狼星探讨什么呢？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			},
-			options = {
-				{
-					content = "当然是关于“爱”的话题",
-					flag = 1
-				},
-				{
-					content = "——天狼星以为我会这么说吗？",
-					flag = 2
-				}
-			}
-		},
-		{
-			say = "……！！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			say = "原、原来主人已经看穿了天狼星的想法吗……真不愧是您，我敏锐的主人。",
+			actorName = 20220,
+			side = 2,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFFFFF",
+			say = "说起来，似乎存在这样的刻板印象呢……像“皇家的人都会喜欢茶会”之类的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,9 +28,15 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "shy",
+							name = "sikao2",
 							time = 0,
-							type = "action"
+							type = "action",
+							skip = true
+						},
+						{
+							skip = false,
+							time = 1,
+							type = "wait"
 						}
 					}
 				},
@@ -56,7 +47,35 @@ return {
 			}
 		},
 		{
-			say = "如果主人下次想探讨这个话题，天狼星……也是随时都可以的……",
+			actor = 0,
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			say = "所以，天狼星喜欢茶会吗？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = 20220,
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "我吗……硬要说的话，可能会更喜欢负责茶会的警备工作之类的？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = 20220,
+			side = 2,
+			nameColor = "#FFFFFF",
+			hidePaintObj = true,
+			dir = 1,
+			say = "天狼星更想去成为守护这种平和、悠闲时光的人呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

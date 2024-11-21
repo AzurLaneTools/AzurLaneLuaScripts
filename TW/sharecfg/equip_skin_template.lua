@@ -29891,7 +29891,7 @@ pg.equip_skin_template = {
 	},
 	[958] = {
 		hit_sfx = "",
-		bullet_name = "yulei_μjianpan",
+		bullet_name = "yulei_1jianpan",
 		orbit_ui_bound = "",
 		type = 1,
 		preview_hit_distance = 0,
@@ -30183,7 +30183,7 @@ pg.equip_skin_template = {
 		fire_fx_name = "",
 		hit_fx_name = "",
 		id = 965,
-		derivate_torpedo = "yulei_μjianpan",
+		derivate_torpedo = "yulei_1jianpan",
 		ship_skin_id = 0,
 		orbit_slg_bound = "",
 		equip_type = {

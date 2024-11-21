@@ -2,7 +2,7 @@ return {
 	name = "海之女神",
 	init_effect = "jinengchufared",
 	id = 19021,
-	time = 15,
+	time = 0,
 	picture = "",
 	desc = "提高装填属性",
 	stack = 1,

@@ -38,7 +38,7 @@ slot0.Play = function(slot0, slot1, slot2, slot3)
 	if checkABExist("educateanim/" .. (slot0:getCpkName(slot1.param[1]) or "")) then
 		slot7 = ResourceMgr.Inst
 
-		slot7:getAssetAsync("educateanim/" .. slot4, slot4, UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		slot7:getAssetAsync("educateanim/" .. slot4, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 			slot1 = Object.Instantiate(slot0, uv0.cpkParentTF)
 
 			setActive(uv0.bgTF, true)

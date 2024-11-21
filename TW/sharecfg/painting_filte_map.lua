@@ -321,6 +321,16 @@ pg.painting_filte_map = {
 		key = "aidang",
 		res_list = {
 			"painting/aidang_tex",
+			"painting/aidang_6_tex",
+			"painting/aidang_6_rw_tex",
+			"painting/aidang_6_rw_hx_tex",
+			"painting/aidang_6_n_tex",
+			"painting/aidang_6_n_hx_tex",
+			"painting/aidang_6_n_hx",
+			"painting/aidang_6_n",
+			"painting/aidang_6_hx_tex",
+			"painting/aidang_6_hx",
+			"painting/aidang_6",
 			"painting/aidang"
 		}
 	},
@@ -2285,6 +2295,11 @@ pg.painting_filte_map = {
 			"painting/bulisituoer_tex",
 			"painting/bulisituoer_n_tex",
 			"painting/bulisituoer_n",
+			"painting/bulisituoer_3_tex",
+			"painting/bulisituoer_3_rw_tex",
+			"painting/bulisituoer_3_n_tex",
+			"painting/bulisituoer_3_n",
+			"painting/bulisituoer_3",
 			"painting/bulisituoer"
 		}
 	},
@@ -5333,6 +5348,14 @@ pg.painting_filte_map = {
 	he = {
 		key = "he",
 		res_list = {
+			"painting/hemuhao_tex",
+			"painting/hemuhao_rw_tex",
+			"painting/hemuhao_2_tex",
+			"painting/hemuhao_2_rw_tex",
+			"painting/hemuhao_2_n_tex",
+			"painting/hemuhao_2_n",
+			"painting/hemuhao_2",
+			"painting/hemuhao",
 			"painting/he_wjz_tex",
 			"painting/he_wjz",
 			"painting/he_tex",
@@ -13645,6 +13668,12 @@ pg.painting_filte_map = {
 			"painting/weizhang_n_mid_tex",
 			"painting/weizhang_n",
 			"painting/weizhang_mid_tex",
+			"painting/weizhang_3_tex",
+			"painting/weizhang_3_shophx_tex",
+			"painting/weizhang_3_rw_tex",
+			"painting/weizhang_3_n_tex",
+			"painting/weizhang_3_n",
+			"painting/weizhang_3",
 			"painting/weizhang"
 		}
 	},

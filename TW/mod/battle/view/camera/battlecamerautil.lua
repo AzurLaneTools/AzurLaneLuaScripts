@@ -227,8 +227,12 @@ slot4.BulletTime = function(slot0, slot1, slot2, slot3)
 	}))
 	uv0.Battle.BattleState.GetInstance():ScaleTimer(slot2)
 
-	if slot0._uiMediator and slot0._uiMediator:GetAppearFX() ~= nil then
-		slot0._uiMediator:GetAppearFX():GetComponent(typeof(Animator)).speed = 1 / (slot2 or 1)
+	if slot0._uiMediator then
+		slot0._uiMediator:ScaleUISpeed(1 / (slot2 or 1))
+
+		if slot0._uiMediator:GetAppearFX() ~= nil then
+			slot0._uiMediator:GetAppearFX():GetComponent(typeof(Animator)).speed = slot6
+		end
 	end
 end
 

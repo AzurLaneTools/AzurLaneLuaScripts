@@ -351500,7 +351500,9 @@ _G.pg.base.ship_data_statistics[9600011] = {
 			}
 		}
 	},
-	tag_list = {}
+	tag_list = {
+		"RoyalFortune"
+	}
 }
 
 
@@ -351754,7 +351756,9 @@ _G.pg.base.ship_data_statistics[9600012] = {
 			}
 		}
 	},
-	tag_list = {}
+	tag_list = {
+		"RoyalFortune"
+	}
 }
 
 
@@ -352008,7 +352012,9 @@ _G.pg.base.ship_data_statistics[9600013] = {
 			}
 		}
 	},
-	tag_list = {}
+	tag_list = {
+		"RoyalFortune"
+	}
 }
 
 
@@ -352262,7 +352268,9 @@ _G.pg.base.ship_data_statistics[9600014] = {
 			}
 		}
 	},
-	tag_list = {}
+	tag_list = {
+		"RoyalFortune"
+	}
 }
 
 
@@ -409361,7 +409369,8 @@ _G.pg.base.ship_data_statistics[999021] = {
 		{}
 	},
 	tag_list = {
-		"Plan-Class"
+		"Plan-Class",
+		"PRE"
 	}
 }
 
@@ -409487,7 +409496,8 @@ _G.pg.base.ship_data_statistics[999022] = {
 		{}
 	},
 	tag_list = {
-		"Plan-Class"
+		"Plan-Class",
+		"PRE"
 	}
 }
 
@@ -409613,7 +409623,8 @@ _G.pg.base.ship_data_statistics[999023] = {
 		{}
 	},
 	tag_list = {
-		"Plan-Class"
+		"Plan-Class",
+		"PRE"
 	}
 }
 
@@ -409739,6 +409750,7 @@ _G.pg.base.ship_data_statistics[999024] = {
 		{}
 	},
 	tag_list = {
-		"Plan-Class"
+		"Plan-Class",
+		"PRE"
 	}
 }

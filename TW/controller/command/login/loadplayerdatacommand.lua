@@ -199,6 +199,10 @@ slot0.execute = function(slot0, slot1)
 			true
 		},
 		{
+			InstagramChatProxy,
+			true
+		},
+		{
 			AppreciateProxy,
 			true
 		},
@@ -240,6 +244,10 @@ slot0.execute = function(slot0, slot1)
 		},
 		{
 			ApartmentProxy,
+			true
+		},
+		{
+			LivingAreaCoverProxy,
 			true
 		}
 	})
@@ -296,6 +304,9 @@ slot0.execute = function(slot0, slot1)
 			uv0:sendNotification(GAME.EDUCATE_REQUEST)
 		end
 
+		uv0:sendNotification(GAME.ACT_INSTAGRAM_CHAT, {
+			operation = ActivityConst.INSTAGRAM_CHAT_GET_DATA
+		})
 		pg.SdkMgr.GetInstance():BindCPU()
 		pg.SecondaryPWDMgr.GetInstance():FetchData()
 		MonthCardOutDateTipPanel.SetMonthCardEndDateLocal()
@@ -306,6 +317,12 @@ slot0.execute = function(slot0, slot1)
 
 		if MainCheckShipNumSequence.New():Check(slot0.ship_count) then
 			uv0:sendNotification(GAME.LOAD_PLAYER_DATA_DONE)
+		end
+
+		if Dorm3dRoomTemplateScene.FirstDefaultSetting then
+			uv0:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataGraphics(Dorm3dRoomTemplateScene.FirstDefaultSetting))
+
+			Dorm3dRoomTemplateScene.FirstDefaultSetting = nil
 		end
 	end, nil, 60)
 end

@@ -199,4 +199,7 @@ end
 slot0.OnSubmitTaskDone = function(slot0)
 end
 
+slot0.PlayEnterAnim = function(slot0)
+end
+
 return slot0

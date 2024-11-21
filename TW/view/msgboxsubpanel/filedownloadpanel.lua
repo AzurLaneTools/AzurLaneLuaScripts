@@ -22,6 +22,7 @@ slot0.UpdateView = function(slot0, slot1)
 
 	rtf(slot0.viewParent._window).sizeDelta = Vector2.New(1000, 638)
 
+	setActive(slot0.toggleTF, not slot1.hideToggle)
 	slot0:PostRefresh(slot1)
 end
 

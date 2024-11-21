@@ -5500,8 +5500,8 @@ pg.activity_ins_npc_template = {
 		},
 		npc_reply_persist = {
 			302,
-			307,
-			274,
+			303,
+			304,
 			305,
 			306,
 			307
@@ -49912,8 +49912,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			2837,
-			2534
+			2833,
+			2834
 		}
 	},
 	[2833] = {
@@ -51834,8 +51834,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			2967,
-			2664,
+			2963,
+			2964,
 			2965,
 			2966
 		}
@@ -52740,8 +52740,8 @@ pg.activity_ins_npc_template = {
 			}
 		},
 		npc_reply_persist = {
-			3027,
-			2724,
+			3023,
+			3024,
 			3025
 		}
 	},
@@ -53500,7 +53500,6 @@ pg.activity_ins_npc_template = {
 	},
 	[3071] = {
 		ship_group = 30511,
-		npc_reply_persist = "",
 		message_persist = "ins_discuss_335_2",
 		id = 3071,
 		time_persist = {
@@ -53514,6 +53513,11 @@ pg.activity_ins_npc_template = {
 				43,
 				0
 			}
+		},
+		npc_reply_persist = {
+			3072,
+			3073,
+			3074
 		}
 	},
 	[3072] = {

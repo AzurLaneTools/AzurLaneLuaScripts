@@ -46,6 +46,7 @@ slot0.OPEN_CHARGE_BIRTHDAY = "ActivityMediator.OPEN_CHARGE_BIRTHDAY"
 slot0.STORE_DATE = "ActivityMediator.STORE_DATE"
 slot0.ON_ACT_SHOPPING = "ActivityMediator.ON_ACT_SHOPPING"
 slot0.GO_MONOPOLY2024 = "ActivityMediator:GO_MONOPOLY2024"
+slot0.ON_ACTIVITY_TASK_SUBMIT = "ActivityMediator.ON_ACTIVITY_TASK_SUBMIT"
 
 slot0.register = function(slot0)
 	slot0.UIAvalibleCallbacks = {}
@@ -203,7 +204,7 @@ slot0.register = function(slot0)
 			slot1 = getProxy(ChapterProxy):getActiveChapter() and slot4:getConfig("map")
 
 			if not slot4 then
-				slot1 = (not Map.lastMap or not slot3:getMapById(Map.lastMap) or not slot5:isUnlock() or Map.lastMap) and slot3:getLastUnlockMap().id
+				slot1 = slot3:GetLastNormalMap()
 			end
 
 			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
@@ -353,6 +354,14 @@ slot0.register = function(slot0)
 			arg2 = slot4
 		})
 	end)
+	slot0:bind(uv0.ON_ACTIVITY_TASK_SUBMIT, function (slot0, slot1)
+		uv0:sendNotification(GAME.SUBMIT_ACTIVITY_TASK, {
+			act_id = slot1.activityId,
+			task_ids = {
+				slot1.id
+			}
+		})
+	end)
 	slot0.viewComponent:setActivities(getProxy(ActivityProxy):getPanelActivities())
 
 	slot3 = getProxy(PlayerProxy):getRawData()
@@ -440,6 +449,15 @@ slot0.initNotificationHandleDic = function(slot0)
 
 			slot3:emit(BaseUI.ON_ACHIEVE, slot1:getBody(), function ()
 				uv0.viewComponent:updateTaskLayers()
+			end)
+		end,
+		[GAME.SUBMIT_ACTIVITY_TASK_DONE] = function (slot0, slot1)
+			slot3 = slot0.viewComponent
+
+			slot3:emit(BaseUI.ON_ACHIEVE, slot1:getBody().awards, function ()
+				uv0.viewComponent:checkAutoHideActivity()
+				uv0.viewComponent:updateTaskLayers()
+				existCall(uv1.callback)
 			end)
 		end,
 		[GAME.ACT_NEW_PT_DONE] = function (slot0, slot1)
@@ -534,7 +552,7 @@ slot0.initNotificationHandleDic = function(slot0)
 				end
 
 				uv0.viewComponent:updateTaskLayers()
-				uv1.callback()
+				existCall(uv1.callback)
 			end)
 		end
 	}

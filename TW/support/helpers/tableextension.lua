@@ -145,11 +145,21 @@ table.Ipairs = function(slot0, slot1)
 end
 
 table.IpairsCArray = function(slot0, slot1)
-	for slot5 = 0, slot0.Length - 1 do
-		v = slot0[slot5]
+	slot2 = nil
 
-		slot1(slot5, v)
+	for slot6 = 0, slot0.Length - 1 do
+		slot1(slot6, slot0[slot6])
 	end
+end
+
+table.CArrayToArray = function(slot0)
+	slot1 = {}
+
+	for slot5 = 0, slot0.Length - 1 do
+		table.insert(slot1, slot0[slot5])
+	end
+
+	return slot1
 end
 
 table.SerialIpairsAsync = function(slot0, slot1, slot2)
@@ -331,4 +341,53 @@ table.dichotomyInsert = function(slot0, slot1, slot2)
 	end
 
 	table.insert(slot0, slot4, slot1)
+end
+
+table.CastToString = function(slot0)
+	if slot0 == nil then
+		return "nil"
+	end
+
+	if type(slot0) == "string" then
+		return "'" .. tostring(slot0) .. "'"
+	end
+
+	if type(slot0) ~= "table" then
+		return tostring(slot0)
+	end
+
+	slot1 = "{"
+	slot2 = #slot0
+	slot3 = false
+
+	for slot7, slot8 in ipairs(slot0) do
+		if slot3 then
+			slot1 = slot1 .. ","
+		end
+
+		slot3 = true
+		slot1 = slot1 .. table.CastToString(slot8)
+	end
+
+	for slot7, slot8 in pairs(slot0) do
+		if type(slot7) == "number" then
+			if slot2 < slot7 then
+				if slot3 then
+					slot1 = slot1 .. ","
+				end
+
+				slot3 = true
+				slot1 = slot1 .. string.format("[%s]=%s", slot7, table.CastToString(slot8))
+			end
+		else
+			if slot3 then
+				slot1 = slot1 .. ","
+			end
+
+			slot3 = true
+			slot1 = slot1 .. string.format("%s=%s", slot7, table.CastToString(slot8))
+		end
+	end
+
+	return slot1 .. "}"
 end
