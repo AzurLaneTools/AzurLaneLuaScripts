@@ -262,6 +262,11 @@ pg.task_meta_data_template = setmetatable({
 		100343,
 		100344,
 		100345,
+		100351,
+		100352,
+		100353,
+		100354,
+		100355,
 		200001,
 		200002,
 		200003,
@@ -361,7 +366,11 @@ pg.task_meta_data_template = setmetatable({
 		200251,
 		200252,
 		200253,
-		200254
+		200254,
+		200261,
+		200262,
+		200263,
+		200264
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2446,6 +2455,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "Defeat a Lv. 100+ fleet with Houshou META in your fleet."
 	},
+	[100351] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970507",
+		id = 100351,
+		target_num = 1,
+		desc = "Win 1 battle with a fleet that includes Giulio Cesare META."
+	},
+	[100352] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970507",
+		id = 100352,
+		target_num = 1,
+		desc = "Defeat a level 30+ enemy fleet with a fleet that includes Giulio Cesare META."
+	},
+	[100353] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970507",
+		id = 100353,
+		target_num = 1,
+		desc = "Defeat a level 55+ enemy fleet with a fleet that includes Giulio Cesare META."
+	},
+	[100354] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970507",
+		id = 100354,
+		target_num = 1,
+		desc = "Defeat a level 80+ enemy fleet with a fleet that includes Giulio Cesare META."
+	},
+	[100355] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970507",
+		id = 100355,
+		target_num = 1,
+		desc = "Defeat a level 100+ enemy fleet with a fleet that includes Giulio Cesare META."
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3245,5 +3294,37 @@ pg.base.task_meta_data_template = {
 		id = 200254,
 		target_num = 1,
 		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Houshou META in your fleet."
+	},
+	[200261] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970507",
+		id = 200261,
+		target_num = 1,
+		desc = "In Operation Siren, win 1 battle with a fleet that includes Giulio Cesare META."
+	},
+	[200262] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970507",
+		id = 200262,
+		target_num = 1,
+		desc = "In Operation Siren, defeat a level 70+ enemy fleet with a fleet that includes Giulio Cesare META."
+	},
+	[200263] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970507",
+		id = 200263,
+		target_num = 1,
+		desc = "In Operation Siren, defeat a level 90+ enemy fleet with a fleet that includes Giulio Cesare META."
+	},
+	[200264] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970507",
+		id = 200264,
+		target_num = 1,
+		desc = "In Operation Siren, defeat a level 100+ enemy fleet with a fleet that includes Giulio Cesare META."
 	}
 }

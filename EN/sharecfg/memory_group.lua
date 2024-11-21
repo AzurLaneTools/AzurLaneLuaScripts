@@ -206,6 +206,9 @@ pg.memory_group = setmetatable({
 		306,
 		307,
 		308,
+		309,
+		310,
+		311,
 		501,
 		502,
 		503,
@@ -4900,6 +4903,67 @@ pg.base.memory_group = {
 		icon = "title_event",
 		memories = {
 			4011
+		}
+	},
+	[309] = {
+		title = "Dangerous Inventions Incoming!",
+		subtype = 2,
+		link_event = 5679,
+		type = 2,
+		id = 309,
+		icon = "title_event",
+		memories = {
+			4021,
+			4022,
+			4023,
+			4024,
+			4025,
+			4026,
+			4027,
+			4028,
+			4029,
+			4030,
+			4031,
+			4032,
+			4033,
+			4034,
+			4035,
+			4036,
+			4037
+		}
+	},
+	[310] = {
+		title = "Dangerous Inventions Incoming - Port Stories",
+		subtype = 2,
+		link_event = 5681,
+		type = 2,
+		id = 310,
+		icon = "title_event",
+		memories = {
+			4041,
+			4042,
+			4043,
+			4044,
+			4045,
+			4046
+		}
+	},
+	[311] = {
+		title = "Help Me, Miss Lala!",
+		subtype = 2,
+		link_event = 5691,
+		type = 2,
+		id = 311,
+		icon = "title_event",
+		memories = {
+			4051,
+			4052,
+			4053,
+			4054,
+			4055,
+			4056,
+			4057,
+			4058
 		}
 	},
 	[501] = {

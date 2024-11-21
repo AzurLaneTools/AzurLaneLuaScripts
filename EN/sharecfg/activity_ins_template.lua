@@ -13105,84 +13105,256 @@ pg.activity_ins_template = {
 	[505] = {
 		ship_group = 960007,
 		name = "Ganj-i-sawai",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_505",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/241024_gangyishawah1tsgJdtPpOCoQBY.png",
+		is_active = 0,
 		sculpture = "gangyishawa",
 		id = 505,
 		group_id = 505,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2024,
+				10,
+				24
+			},
+			{
+				12,
+				30,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5016,
+			5019,
+			5022
+		}
 	},
 	[506] = {
 		ship_group = 960008,
 		name = "Fancy",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_506",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/241024_huanxianghaomrlpOrCk33eGLERY.png",
+		is_active = 0,
 		sculpture = "huanxianghao",
 		id = 506,
 		group_id = 506,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2024,
+				10,
+				25
+			},
+			{
+				14,
+				16,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5030,
+			5035
+		}
 	},
 	[507] = {
 		ship_group = 960009,
 		name = "Amity",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_507",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/241024_hemuhao8BEu4LVwRbE7iWrT.png",
+		is_active = 0,
 		sculpture = "hemuhao",
 		id = 507,
 		group_id = 507,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2024,
+				10,
+				26
+			},
+			{
+				16,
+				30,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5044,
+			5048
+		}
 	},
 	[508] = {
 		ship_group = 960010,
 		name = "Portsmouth Adventure",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_508",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/241024_pucimaosiNBaBuM62zD5mVJPg.png",
+		is_active = 0,
 		sculpture = "pucimaosi",
 		id = 508,
 		group_id = 508,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2024,
+				10,
+				27
+			},
+			{
+				13,
+				19,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5057,
+			5062
+		}
 	},
 	[509] = {
 		ship_group = 960011,
 		name = "Dolphin",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_509",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/241024_hiatunhaoUSXzAZoV1R8M31Sf.png",
+		is_active = 0,
 		sculpture = "haitunhao",
 		id = 509,
 		group_id = 509,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2024,
+				10,
+				28
+			},
+			{
+				10,
+				53,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5071,
+			5077
+		}
 	},
 	[510] = {
 		ship_group = 30513,
 		name = "owari",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_510",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/241024_weizhangPVLlPeGMsoOIw3b7.png",
+		is_active = 0,
 		sculpture = "weizhang_3",
 		id = 510,
 		group_id = 510,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2024,
+				10,
+				29
+			},
+			{
+				16,
+				39,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5087,
+			5091
+		}
 	},
 	[511] = {
 		ship_group = 10149,
 		name = "Bristol",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_511",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/241024_bulisituoerbrEefICPatNlt7Gs.png",
+		is_active = 0,
 		sculpture = "bulisituoer_3",
 		id = 511,
 		group_id = 511,
+		time_persist = {
+			{
+				2024,
+				10,
+				30
+			},
+			{
+				17,
+				7,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5100,
+			5104,
+			5109
+		}
+	},
+	[512] = {
+		ship_group = 1110001,
+		name = "Lala Satalin Deviluke",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "lala_tolove",
+		id = 512,
+		group_id = 512,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[513] = {
+		ship_group = 1110002,
+		name = "Nana Asta Deviluke",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "nana_tolove",
+		id = 513,
+		group_id = 513,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[514] = {
+		ship_group = 1110003,
+		name = "Momo Belia Deviluke",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "mengmeng_tolove",
+		id = 514,
+		group_id = 514,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[515] = {
+		ship_group = 1110005,
+		name = "Sairenji Haruna",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "xiliansi_tolove",
+		id = 515,
+		group_id = 515,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[516] = {
+		ship_group = 1110004,
+		name = "Konjiki no Yami",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "jinseanying_tolove",
+		id = 516,
+		group_id = 516,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[517] = {
+		ship_group = 1110006,
+		name = "Kotegawa Yui",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "gushouchuan_tolove",
+		id = 517,
+		group_id = 517,
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
@@ -13688,6 +13860,12 @@ pg.activity_ins_template = {
 		508,
 		509,
 		510,
-		511
+		511,
+		512,
+		513,
+		514,
+		515,
+		516,
+		517
 	}
 }

@@ -26,9 +26,9 @@ end
 slot0.AutoUnloadAssetBundle = function(slot0, slot1)
 	onNextTick(function ()
 		if uv0 then
-			uv1:ClearDependenciesBundle()
-		else
 			uv1:Dispose()
+		else
+			uv1:ClearDependenciesBundle()
 		end
 	end)
 end

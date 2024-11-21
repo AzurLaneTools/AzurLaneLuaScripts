@@ -69,6 +69,13 @@ pg.activity_banner_notice = {
 			}
 		}
 	},
+	{
+		id = 10,
+		param = {
+			"scene Cryptolalia",
+			{}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -78,6 +85,7 @@ pg.activity_banner_notice = {
 		6,
 		7,
 		8,
-		9
+		9,
+		10
 	}
 }

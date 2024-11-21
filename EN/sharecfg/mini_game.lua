@@ -2449,6 +2449,80 @@ pg.mini_game = {
 			}
 		}
 	},
+	{
+		is_ranking = 1,
+		view_name = "ToLoveGameView",
+		game_room = 0,
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		name = "tolove联动小游戏",
+		config_csv = "",
+		id = 69,
+		hub_id = 59,
+		request_data = 0,
+		simple_config_data = {
+			story = {
+				{
+					"WEIXIANFAMINGPOJINZHONGRICHANG1"
+				},
+				{
+					"WEIXIANFAMINGPOJINZHONGRICHANG2"
+				},
+				{
+					"WEIXIANFAMINGPOJINZHONGRICHANG3"
+				},
+				{
+					"WEIXIANFAMINGPOJINZHONGRICHANG4"
+				},
+				{
+					"WEIXIANFAMINGPOJINZHONGRICHANG5"
+				},
+				{
+					"WEIXIANFAMINGPOJINZHONGRICHANG6"
+				},
+				{}
+			},
+			drop_ids = {
+				{
+					5,
+					316303,
+					1
+				},
+				{
+					2,
+					54049,
+					2
+				},
+				{
+					5,
+					316306,
+					1
+				},
+				{
+					1,
+					1,
+					500
+				},
+				{
+					2,
+					30362,
+					1
+				},
+				{
+					2,
+					54016,
+					10
+				},
+				{
+					5,
+					316307,
+					1
+				}
+			}
+		}
+	},
 	[1001] = {
 		is_ranking = 0,
 		view_name = "GameRoomFushun3View",
@@ -3046,6 +3120,7 @@ pg.mini_game = {
 		66,
 		67,
 		68,
+		69,
 		1001,
 		1002,
 		1003,

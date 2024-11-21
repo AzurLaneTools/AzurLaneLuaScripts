@@ -139,7 +139,7 @@ pg.dorm3d_set = {
 	drom3d_memory_limit = {
 		key_value_varchar = "",
 		key = "drom3d_memory_limit",
-		key_value_int = 6144
+		key_value_int = 5400
 	},
 	all = {
 		"favor_level",

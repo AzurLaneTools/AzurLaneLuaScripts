@@ -1,5 +1,6 @@
 slot0 = class("MedalCollectionTemplateMediator", import("view.base.ContextMediator"))
 slot0.MEMORYBOOK_UNLOCK = "MEMORYBOOK_UNLOCK"
+slot0.MEMORYBOOK_GO = "MEMORYBOOK_GO"
 
 slot0.register = function(slot0)
 	slot0:BindEvent()
@@ -9,6 +10,11 @@ end
 slot0.BindEvent = function(slot0)
 	slot0:bind(uv0.MEMORYBOOK_UNLOCK, function (slot0, ...)
 		uv0:sendNotification(GAME.MEMORYBOOK_UNLOCK, ...)
+	end)
+	slot0:bind(uv0.MEMORYBOOK_GO, function (slot0, slot1)
+		uv0:sendNotification(GAME.TASK_GO, {
+			taskVO = slot1
+		})
 	end)
 end
 

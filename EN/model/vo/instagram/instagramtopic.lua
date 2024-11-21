@@ -83,7 +83,7 @@ slot0.GetLatestCharacterWord = function(slot0)
 	slot2 = ""
 
 	for slot6 = #slot0.displayWordList, 1, -1 do
-		if slot0.displayWordList[slot6].ship_group ~= 0 then
+		if slot0.displayWordList[slot6].ship_group ~= 0 or slot0:IsCompleted() then
 			slot1 = slot0.displayWordList[slot6]
 
 			break

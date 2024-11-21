@@ -2719,6 +2719,37 @@ pg.skill_data_display = setmetatable({
 		110210,
 		110211,
 		110212,
+		111051,
+		111071,
+		111074,
+		111081,
+		111084,
+		111094,
+		111098,
+		111099,
+		111100,
+		111104,
+		111106,
+		111110,
+		111114,
+		111116,
+		111120,
+		111121,
+		111130,
+		111135,
+		111140,
+		111144,
+		111145,
+		111151,
+		111154,
+		111156,
+		111160,
+		111170,
+		111171,
+		111180,
+		111181,
+		111243,
+		111270,
 		200026,
 		200203,
 		600031,
@@ -2984,6 +3015,14 @@ pg.skill_data_display = setmetatable({
 		801402,
 		801410,
 		801411,
+		801460,
+		801470,
+		801471,
+		801472,
+		801481,
+		801482,
+		801485,
+		801487,
 		902201,
 		1010140,
 		1010143,
@@ -3155,6 +3194,8 @@ pg.skill_data_display = setmetatable({
 		201135,
 		201136,
 		201158,
+		201168,
+		201169,
 		1011540,
 		1011541,
 		1090010,
@@ -14159,6 +14200,130 @@ pg.base.skill_data_display = {
 		id = 110212,
 		name = "Soul of Tohno+"
 	},
+	[111051] = {
+		id = 111051,
+		name = "Overpowering Will"
+	},
+	[111071] = {
+		id = 111071,
+		name = "Alien Plant Friend"
+	},
+	[111074] = {
+		id = 111074,
+		name = "Alien Plant Friend"
+	},
+	[111081] = {
+		id = 111081,
+		name = "Alien Plant Friend+"
+	},
+	[111084] = {
+		id = 111084,
+		name = "Alien Plant Friend+"
+	},
+	[111094] = {
+		id = 111094,
+		name = "Plan Execution"
+	},
+	[111098] = {
+		id = 111098,
+		name = "Secret Schemes"
+	},
+	[111099] = {
+		id = 111099,
+		name = "Secret Schemes"
+	},
+	[111100] = {
+		id = 111100,
+		name = "Armament Swap"
+	},
+	[111104] = {
+		id = 111104,
+		name = "Swap - Fists"
+	},
+	[111106] = {
+		id = 111106,
+		name = "Swap - Sword"
+	},
+	[111110] = {
+		id = 111110,
+		name = "Armament Swap+"
+	},
+	[111114] = {
+		id = 111114,
+		name = "Swap - Fists+"
+	},
+	[111116] = {
+		id = 111116,
+		name = "Swap - Sword+"
+	},
+	[111120] = {
+		id = 111120,
+		name = "I Love Taiyaki!"
+	},
+	[111121] = {
+		id = 111121,
+		name = "I Love Taiyaki!"
+	},
+	[111130] = {
+		id = 111130,
+		name = "Love Concealed"
+	},
+	[111135] = {
+		id = 111135,
+		name = "Love Concealed"
+	},
+	[111140] = {
+		id = 111140,
+		name = "Love Concealed+"
+	},
+	[111144] = {
+		id = 111144,
+		name = "Love Concealed+"
+	},
+	[111145] = {
+		id = 111145,
+		name = "Love Concealed+"
+	},
+	[111151] = {
+		id = 111151,
+		name = "Be Still, My Heart!"
+	},
+	[111154] = {
+		id = 111154,
+		name = "Don't Touch Me!!"
+	},
+	[111156] = {
+		id = 111156,
+		name = "Don't Touch Me!!"
+	},
+	[111160] = {
+		id = 111160,
+		name = "Scandalous!"
+	},
+	[111170] = {
+		id = 111170,
+		name = "Scandalous!+"
+	},
+	[111171] = {
+		id = 111171,
+		name = "Scandalous!+"
+	},
+	[111180] = {
+		id = 111180,
+		name = "Overbearing Outside, Softie Inside"
+	},
+	[111181] = {
+		id = 111181,
+		name = "Overbearing Outside, Softie Inside"
+	},
+	[111243] = {
+		id = 111243,
+		name = "This Way, Girls!"
+	},
+	[111270] = {
+		id = 111270,
+		name = "Restore Discipline!"
+	},
 	[200026] = {
 		id = 200026,
 		name = "Paralyzing Advance "
@@ -15219,6 +15384,38 @@ pg.base.skill_data_display = {
 		id = 801411,
 		name = "Bravery Begets Boons"
 	},
+	[801460] = {
+		id = 801460,
+		name = "Veni, Vidi, Vici!"
+	},
+	[801470] = {
+		id = 801470,
+		name = "Conqueror of the Empire"
+	},
+	[801471] = {
+		id = 801471,
+		name = "Conqueror of the Empire"
+	},
+	[801472] = {
+		id = 801472,
+		name = "Conqueror of the Empire"
+	},
+	[801481] = {
+		id = 801481,
+		name = "Cinders of Hope - Giulio Cesare I"
+	},
+	[801482] = {
+		id = 801482,
+		name = "Cinders of Hope - Giulio Cesare II"
+	},
+	[801485] = {
+		id = 801485,
+		name = "Cinders of Hope - Giulio Cesare I"
+	},
+	[801487] = {
+		id = 801487,
+		name = "Cinders of Hope - Giulio Cesare II"
+	},
 	[902201] = {
 		id = 902201,
 		name = "Fantastic Loop"
@@ -15902,6 +16099,14 @@ pg.base.skill_data_display = {
 	[201158] = {
 		id = 201158,
 		name = "Fancy's Might"
+	},
+	[201168] = {
+		id = 201168,
+		name = "Light Up the Long Night"
+	},
+	[201169] = {
+		id = 201169,
+		name = "Combined Fleet, Set Sail!"
 	},
 	[1011540] = {
 		id = 1011540,

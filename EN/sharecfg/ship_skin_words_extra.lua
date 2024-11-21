@@ -295,7 +295,13 @@ pg.ship_skin_words_extra = setmetatable({
 		9600080,
 		9600090,
 		9600100,
-		9600110
+		9600110,
+		11100010,
+		11100020,
+		11100030,
+		11100040,
+		11100050,
+		11100060
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -20724,6 +20730,429 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"My memories of you are locked away safely in here – inside my heart! Heehee. And there's still lots of empty space for us to create more memories."
+			}
+		}
+	},
+	[11100010] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 11100010,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"I'm gonna help you with your work today~! What's wrong? Oh, I'm still working on my invention, so I can't use it today."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Great effort today, Commander! I wish I had an invention that could make you feel refreshed! I'll have to think about one!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"What? Something wrong~?"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"I wish you had a costume robot like Peke~ Did you know it has a little sister?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Commander, I found the perfect space for a lab in your office~ I can invent new things here every day!|Alright! Today, I'm gonna clean this place up~ Peke, change into an apron! Wait, not JUST an apron, okay?!|Whaaat?! Saratoga's a magical girl? Why doesn't she get her own show?! Commander, we need to turn her life into a TV drama~|We should go explore the port together sometime! I wanna see everything~"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Nnh... D-don't touch my tail, please..."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Nooo..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I'm so happy I met you, Commander! And it's great that you feel the same way about me~! Next, I think I'll invent a charm that yields good fortune."
+			}
+		}
+	},
+	[11100020] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		id = 11100020,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Welcome back! Let's do our best together today~ Ugh, it's still so embarrassing to talk like that... Let's just go back to acting normal, okay, Commander?"
+			}
+		},
+		home = {
+			{
+				1100,
+				"I know you're busy, so I bought you a snack. Let's eat together before you get back to work."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"D-don't treat me like a kid..."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Don't think you can do whatever you want at port just because we're closer now! You're still unreliable, so I need to keep a watchful eye on you."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Oh, Commander, you're back. Hmm? My pet's been following you? Th-that's just me making sure you don't pull anything weird. It's not a sign of me being interested in you!|Momo might seem like a good girl, but don't let her lure you into a false sense of security. I've had enough of getting dragged into her problems.|Aww, I wish I could eat sweets with the Commander... Huh?! You bought some for us? Hooraaay!|Commander! Belfast invited us to a tea party~ I hear Royal Navy tea parties are as fancy as can be... Heheh, I should invite Lala and Momo along, too!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Th-that tickles! Cut it out!"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"You STILL haven't finished your missions? Oh, fine. I'll just have to help you!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Y-you... beast!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"What do you mean when you say I'm \"blessed with natural mobility\"? Are you talking about my boobs?! Well, it doesn't sound like a compliment to me! But... If it was really meant that way, then maybe choose your words a little better next time."
+			}
+		}
+	},
+	[11100030] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 11100030,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Commander, let's keep working on our plan today! ...Oh, but you have so much work. Thank you for all you do."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back, Commander. I see you're even closer to everyone than before."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Heehee... You're too sweet, Commander."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Yes... In my time at this port, I've realized how special you are. You're not just kind – you have the charisma necessary to bring everyone together, as well."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"If I use this flower, the Commander should be more aggressive... Hmm... That sounds a little dangerous, so let's not.|Oh, my... You won't accept my suggestions so readily. You are earnest, yes, but it's okay to be spontaneous once in a while.|1, 2, 3, 4, 5, 6... What am I counting? I'm actually seeing which faction has the most girls who love you~|Taihou of the Sakura Empire, Mogador of the Iris Orthodoxy... Hmm, yes, those two should be very helpful. Nope, still not telling you my plan♪"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Eep! Are you using me to rehearse the plan...?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Mm... You're getting awfully bold, Commander..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"You need to be more ravenous, more carnivorous, to withstand the combined love of this port. Want me to teach you what to do?"
+			}
+		}
+	},
+	[11100040] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 11100040,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"May I help, Commander?"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back. Take a break – I have taiyaki for you."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Is there a new mission?"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"As I've spent time with you and the others, I've come to realize that maybe I'm worthy of being here."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Am I lonely? No, I don't think so. I have you and my other friends.|Never show me those gross, slimy fish again, please...|Princess Momo said one should be gentle with girls and I agree.|Albacore introduced herself as the Sunken Assassin, but she looked too cute to call her that. But Yuudachi called herself the Pork Bun Killer, so maybe I should call myself the Taiyaki Annihilator...?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"*staaare*..."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"I'll kill you!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Maybe it's best to simply enjoy my time with you and my friends while we still can."
+			}
+		}
+	},
+	[11100050] = {
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		id = 11100050,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Good to be working with you again, Commander. I'm your secretary ship today, so I summarized your schedule and such. Take a look, please."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"Yes...! We managed to protect everyone, Commander!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"I've gotten used to my rigging AND combat, so I think I'll be able to help next time we sortie!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"You're too nice, Commander."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"I still don't understand how rigging works, but I'm happy I can fight like Lala now. It makes me not want to part with it again~"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I can do any and all chores, so call me if you need housework done. I'm happy to help.|Milk is good for you and helps you get taller, so I drink it all the time. There's NO other reason! ...Have some, Commander.|That Dolphin girl really is like a dolphin. She's kind, gentle... and she also gave me a blobfish.|Commander, is it true that there's an aquarium here? Let's go there together. I bet I'll see all kinds of sea creatures that weren't in my world."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Ah! I was just meaning to ask you something. Do you know if there are stores that sell good black tea leaves around here?"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"I made a list of your missions. Does that help?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Geez, Commander. I'll still get mad, even when it's you..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I think I've accomplished a lot here. I wasn't able to hold my own in a fight before unlike Lala, and I had so little confidence in myself. But thanks to you, I could muster the courage to try. From now on, I'll keep doing my best so I can be the protector instead of the protected!"
+			}
+		}
+	},
+	[11100060] = {
+		touch = "",
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		id = 11100060,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Good morning, Commander. The port really is full of all kinds. I thought Lala was weird, but she doesn't hold a candle to some of the people here."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Commanding a whole port sounds difficult. You should make sure you're well-rested before you take on your next workload."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"H-hey, if you need something, you can say it."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"This kitty really likes you... I-I'm jealous. Can you teach me how to be liked by cats?|People listen when I warn them about breaches of discipline, but there's still too much to overlook. I have to keep it up!|As a disciplinarian, it's natural that I uphold order here. Help me out, Commander!"
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Another new mission? Darn... I'm happy to help, if you'd like."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"You finished all of those missions? I'm impressed."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Commander! People like you make me so... Ugh! Kneel down and apologize!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Thanks for agreeing to go to the port's cat café with me, Commander. Those soft, friendly kitties, especially the Meowfficers... They're too adorable!"
 			}
 		}
 	}

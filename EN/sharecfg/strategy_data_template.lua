@@ -284,6 +284,7 @@ pg.strategy_data_template = setmetatable({
 		201152,
 		201155,
 		201157,
+		201158,
 		205001,
 		205002,
 		205003,
@@ -3487,6 +3488,21 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		buff_type = 0,
 		id = 201157,
 		icon = "201157",
+		arg = {}
+	},
+	[201158] = {
+		buff_id = 0,
+		name = "Challenge Conditions",
+		desc = [[
+- Hard Mode Details -
+· Enemies deal significantly more DMG. Their shells ignore shields and penetrate through targets, but their DMG taken also increases the more time elapses.
+· Some enemy attacks take on a quiz format.
+· The skills "Operation Rainbow" and "Fiercer When Cornered" are rendered ineffective.]],
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201158,
+		icon = "200908",
 		arg = {}
 	},
 	[205001] = {

@@ -869,7 +869,7 @@ _G.pg.base.gametip.word_kiss = {
 
 
 _G.pg.base.gametip.word_take = {
-	tip = "Collect"
+	tip = "Accept"
 }
 
 
@@ -7106,6 +7106,11 @@ _G.pg.base.gametip.word_shipNation_senran = {
 }
 
 
+_G.pg.base.gametip.word_shipNation_tolove = {
+	tip = "To LOVE-Ru"
+}
+
+
 _G.pg.base.gametip.word_reset = {
 	tip = "Reset"
 }
@@ -9798,7 +9803,7 @@ _G.pg.base.gametip.ship_remould_need_star = {
 
 
 _G.pg.base.gametip.ship_remould_finished = {
-	tip = "Complete"
+	tip = "Completed"
 }
 
 
@@ -11193,7 +11198,7 @@ _G.pg.base.gametip.word_status_inEvent = {
 
 
 _G.pg.base.gametip.word_status_inEventFinished = {
-	tip = "Complete"
+	tip = "Completed"
 }
 
 
@@ -12826,7 +12831,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Get Musashi guaranteed with every 200 event builds (can be done up to 4 times)!"
+	tip = "Rate UP for Lala Satalin Deviluke, Golden Darkness, and more!"
 }
 
 
@@ -18881,7 +18886,7 @@ _G.pg.base.gametip.tec_target_catchup_finish_4 = {
 
 
 _G.pg.base.gametip.tec_target_catchup_dr_finish_tip = {
-	tip = "Complete"
+	tip = "Completed"
 }
 
 
@@ -21372,7 +21377,7 @@ _G.pg.base.gametip.meta_award_get = {
 
 
 _G.pg.base.gametip.meta_award_got = {
-	tip = "Collected"
+	tip = "Claimed"
 }
 
 
@@ -22721,7 +22726,7 @@ _G.pg.base.gametip.activity_permanent_tips4 = {
 
 
 _G.pg.base.gametip.activity_permanent_finished = {
-	tip = "Complete"
+	tip = "Completed"
 }
 
 
@@ -25913,6 +25918,69 @@ Any purchased Cruise Mission Vouchers will remain even after the campaign season
 }
 
 
+_G.pg.base.gametip.battlepass_main_tip_2412 = {
+	tip = "Complete Cruise Missions between 12/1/2024 00:00 – 1/31/2025 23:59 to receive <color=#854747>Giulio Cesare META</color> and other rewards!"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2412 = {
+	tip = {
+		{
+			info = [[
+Cruise Missions Seasonal Campaign
+12/1/2024 00:00 – 1/31/2025 23:59
+
+- Overview -
+"Cruise Missions" is a seasonal campaign where you can complete special missions, collect Progress Pts., and obtain great rewards for reaching certain Progress milestones.
+Additionally, you can unlock an additional set of "Fair Winds Cruise" rewards by purchasing the "Fair Winds Cruise Pass" item from Akashi's shop.
+Giulio Cesare META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfit for Weser, "Offtime Cafe."
+
+- How to Play -
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+· If you purchase a Fair Winds Cruise Pass, you will automatically receive 15 levels worth of progress (1500 Progress Pts).
+· You can receive rewards for reaching certain Progress milestones. There are two types of rewards:
+a) Cruise Rewards - Rewards that can be obtained based on the total number of accumulated Progress Pts. There are a total of 100 levels.
+b) Fair Winds Rewards - An additional set of rewards that will be unlocked when you purchase a Fair Winds Cruise Pass. As with the regular Cruise Rewards, there are a total of 100 levels, and they can be collected alongside Cruise Rewards at the same Progress level.
+· When the campaign season ends, your Progress Pts will be reset.
+
+- Tips - 
+· Play at your own pace
+Cruise Missions have a total of 100 Progress levels, and are not meant to be cleared in one session. We recommend that you complete them at your own pace.
+
+· Fair Winds Cruise Pass
+If you purchase a Fair Winds Cruise Pass from Akashi's shop, you will automatically earn 1500 Progress Pts and unlock access to valuable rewards. Furthermore, there is an exclusive outfit available only through the Fair Winds rewards, so please plan accordingly.
+
+· Skipping Missions (not recommended)
+You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2412 = {
+	tip = {
+		{
+			info = [[
+- Regarding Cruise Missions - 
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+
+· You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "Reset"
 }
@@ -26153,7 +26221,7 @@ _G.pg.base.gametip.level_remaster_tip2 = {
 
 
 _G.pg.base.gametip.level_remaster_tip3 = {
-	tip = "Collect"
+	tip = "Accept"
 }
 
 
@@ -27426,7 +27494,7 @@ _G.pg.base.gametip.word_japanese = {
 
 
 _G.pg.base.gametip.avatarframe_got = {
-	tip = "Owned"
+	tip = "Claimed"
 }
 
 
@@ -28134,7 +28202,7 @@ _G.pg.base.gametip.ryza_task_go = {
 
 
 _G.pg.base.gametip.ryza_task_get = {
-	tip = "Collect"
+	tip = "Accept"
 }
 
 
@@ -30709,7 +30777,7 @@ _G.pg.base.gametip.cryptolalia_delete_res_tip = {
 
 
 _G.pg.base.gametip.cryptolalia_delete_res_title = {
-	tip = "Download Assets"
+	tip = "Delete Assets"
 }
 
 
@@ -30949,7 +31017,7 @@ _G.pg.base.gametip.feast_task_pt_get = {
 
 
 _G.pg.base.gametip.feast_task_pt_got = {
-	tip = "Obtained"
+	tip = "Claimed"
 }
 
 
@@ -34021,7 +34089,7 @@ _G.pg.base.gametip.other_world_task_got = {
 
 
 _G.pg.base.gametip.other_world_task_get = {
-	tip = "Claim"
+	tip = "Accept"
 }
 
 
@@ -35923,6 +35991,11 @@ _G.pg.base.gametip.cruise_title_2410 = {
 }
 
 
+_G.pg.base.gametip.cruise_title_2412 = {
+	tip = "Seasonal Missions - Season 20"
+}
+
+
 _G.pg.base.gametip.battlepass_main_time_title = {
 	tip = "Time Remaining:"
 }
@@ -35949,7 +36022,7 @@ _G.pg.base.gametip.task_go = {
 
 
 _G.pg.base.gametip.task_got = {
-	tip = "Complete"
+	tip = "Completed"
 }
 
 
@@ -35965,6 +36038,21 @@ _G.pg.base.gametip.cruise_shop_title_equip_skin = {
 
 _G.pg.base.gametip.cruise_shop_lock_tip = {
 	tip = "Reach Seasonal Cruise Mission Lv. 50"
+}
+
+
+_G.pg.base.gametip.cruise_tip_skin = {
+	tip = "Seasonal Missions"
+}
+
+
+_G.pg.base.gametip.cruise_tip_base = {
+	tip = "- Base Rewards -"
+}
+
+
+_G.pg.base.gametip.cruise_tip_upgrade = {
+	tip = "- Bonus Rewards -"
 }
 
 
@@ -36155,6 +36243,16 @@ _G.pg.base.gametip.levelscene_mapselect_sp = {
 
 _G.pg.base.gametip.levelscene_mapselect_ex = {
 	tip = "EX"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_normal = {
+	tip = "Normal"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_advanced = {
+	tip = "Challenge"
 }
 
 
@@ -36354,4 +36452,287 @@ Every day until November 20th, a new Daily Free Pack and a new Daily Paid Pack a
 
 _G.pg.base.gametip.blackfriday_shop_tip = {
 	tip = "Unlocks on $1 at $2"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_1 = {
+	tip = "Shield Boost"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_2 = {
+	tip = "Score Boost"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_3 = {
+	tip = "Time Limit Boost"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_4 = {
+	tip = "Shield Mega Boost"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_5 = {
+	tip = "Score Mega Boost"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_6 = {
+	tip = "Time Limit Mega Boost"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_7 = {
+	tip = "Omniboost"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_1 = {
+	tip = "Grants 1 shield at the start of the minigame. Each shield can protect against 1 explosion."
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_2 = {
+	tip = "Increases your final score multiplier by 1.2."
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_3 = {
+	tip = "Extends the time limit by 10 seconds."
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_4 = {
+	tip = "Grants 1 shield at the start of the minigame. Every 5 successful dodges grants you an additional shield (up to 2 can be possessed at any time). Each shield can protect against 1 explosion."
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_5 = {
+	tip = "Increases your final score multiplier by 1.2. Every 5 successful dodges increases the score multiplier by an additional 0.01."
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_6 = {
+	tip = "Extends the time limit by 10 seconds. When time runs out, there is a 50% chance to extend the time limit by 10 seconds."
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_7 = {
+	tip = "Grants 1 shield at the start of the minigame, extends the time limit by 10 seconds, and increases your final score multiplier by 1.2."
+}
+
+
+_G.pg.base.gametip.tolovegame_join_reward = {
+	tip = "Rewards"
+}
+
+
+_G.pg.base.gametip.tolovegame_score = {
+	tip = "Score"
+}
+
+
+_G.pg.base.gametip.tolovegame_rank_tip = {
+	tip = "Show Only Friends and Guild Members"
+}
+
+
+_G.pg.base.gametip.tolovegame_lock_1 = {
+	tip = "Unlocks in $1 day(s) and $2 hour(s)"
+}
+
+
+_G.pg.base.gametip.tolovegame_lock_2 = {
+	tip = "Unlocks in $1 hour(s)"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_switch_1 = {
+	tip = "Powerup Active"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_switch_2 = {
+	tip = "Powerup Inactive"
+}
+
+
+_G.pg.base.gametip.tolovegame_proceed = {
+	tip = "Confirm"
+}
+
+
+_G.pg.base.gametip.tolovegame_collect = {
+	tip = "Accept"
+}
+
+
+_G.pg.base.gametip.tolovegame_collected = {
+	tip = "Claimed"
+}
+
+
+_G.pg.base.gametip.tolovegame_tutorial = {
+	tip = {
+		{
+			info = "A device for the Commander made by the princesses from another world!\n"
+		},
+		{
+			info = "1. When the game starts, arrows will appear in order above the characters' heads."
+		},
+		{
+			info = "2. When all arrows have been displayed, explosions will go off across the screen. Match the arrows using the controller on the bottom left to avoid the explosions."
+		},
+		{
+			info = "3. When you dodge every explosion, you gain additional score."
+		},
+		{
+			info = "4. Pick a powerup and try to get as high a score as possible within the time limit."
+		}
+	}
+}
+
+
+_G.pg.base.gametip.tolovegame_awards = {
+	tip = "Rewards"
+}
+
+
+_G.pg.base.gametip.tolovemainpage_skin_countdown = {
+	tip = "Time Remaining: $1"
+}
+
+
+_G.pg.base.gametip.tolovemainpage_build_countdown = {
+	tip = "Nearing End"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_title = {
+	tip = "Request Requirements"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_ship_need = {
+	tip = "Request From $1"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_task_need = {
+	tip = "Materials Needed:"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_detail_collect = {
+	tip = "Collect Materials"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_detail_puzzle = {
+	tip = "Assemble Parts"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_detail_connection = {
+	tip = "Circuit Blueprints"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_ship_unknown = {
+	tip = "???"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_lock_by_front = {
+	tip = "You need to complete the previous request."
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_lock_by_time = {
+	tip = "Unlocks in $1 day(s) and $2 hour(s)"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_cheat = {
+	tip = "Alright, I can handle this!"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_open_detail = {
+	tip = "Complete Request"
+}
+
+
+_G.pg.base.gametip.tolove_main_help = {
+	tip = {
+		{
+			info = "- Event Overview -"
+		},
+		{
+			info = "The collab event Dangerous Inventions Incoming! is available between <color=#92fc63>November 11th and December 4th</color>."
+		},
+		{
+			info = "<color=#7D7D7D>The commemorative event medal, cumulative rewards, and the event exchange are available until December 11th</color>.\n"
+		},
+		{
+			info = "<color=#FCD400>Event Stages</color>\nSet sail for the event stages and collect Energy Stones to exchange for rewards on the Stockpiling Battle Rewards! event banner and in the event exchange.\n"
+		},
+		{
+			info = "<color=#FCD400>Help Me, Miss Lala!</color>\nComplete event stages and chapter 3 and beyond campaign stages to receive Energy Fragments and unlock invention requests for shipgirls around the port. Play the minigame, complete inventions, and turn in requests to receive rewards, including the limited gear \"\"All Work, All Play Robot.\"\"\n"
+		},
+		{
+			info = "<color=#FCD400>Tick Tick Kaboom-kun</color>\nPlay this minigame daily to unlock the limited furniture \"\"Princess's Drawing.\"\" A new stage will be unlocked every day up to November 27th. In addition, complete tasks to receive rewards.\n"
+		},
+		{
+			info = "<color=#FCD400>Commemorative Medal</color>\nCollect Data Chips through playing and experiencing all the new event content. When you collect all 6 chips, they can be exchanged for a commemorative medal on the event banner.\n"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_finished = {
+	tip = "Completed"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_title_desc = {
+	tip = "Request Requirements"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_pop_next = {
+	tip = "Next"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_pop_finish = {
+	tip = "Complete"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_pop_save = {
+	tip = "Progress Recorded"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_unlock = {
+	tip = "Request"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_lock = {
+	tip = "Mystery Request"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_line_tip = {
+	tip = "Draw a line to connect all circuits"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_puzzle_tip = {
+	tip = "Assemble all the parts and put them on the circuits"
 }

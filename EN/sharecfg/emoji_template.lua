@@ -468,6 +468,32 @@ pg.emoji_template = {
 			1
 		}
 	},
+	{
+		achieve = 1,
+		index = 77,
+		pic = "37",
+		desc = "<color=#92fc63>[Go to Sleep]</color>",
+		item_name = "Sticker: Go to Sleep",
+		item_desc = "Sticker: Go to Sleep. This sticker can be found in the default tab of the chat stickers menu.",
+		id = 37,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	{
+		achieve = 1,
+		index = 78,
+		pic = "38",
+		desc = "<color=#92fc63>[Asleep]</color>",
+		item_name = "Sticker: Asleep",
+		item_desc = "Sticker: Asleep. This sticker can be found in the default tab of the chat stickers menu.",
+		id = 38,
+		icon = "",
+		type = {
+			1
+		}
+	},
 	[41] = {
 		achieve = 0,
 		index = 1001,
@@ -2234,6 +2260,8 @@ pg.emoji_template = {
 		34,
 		35,
 		36,
+		37,
+		38,
 		41,
 		42,
 		43,

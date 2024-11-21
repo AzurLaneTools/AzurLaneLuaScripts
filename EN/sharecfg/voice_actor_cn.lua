@@ -1679,5 +1679,13 @@ pg.voice_actor_CN = {
 	[432] = {
 		actor_name = "Asuka Shioiri",
 		code = 432
+	},
+	[433] = {
+		actor_name = "Kanae Ito",
+		code = 433
+	},
+	[434] = {
+		actor_name = "Kaori Nazuka",
+		code = 434
 	}
 }

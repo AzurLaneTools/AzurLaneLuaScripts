@@ -501,6 +501,24 @@ pg.activity_event_picturepuzzle = {
 		awards = {},
 		auto_finish_args = {}
 	},
+	[5689] = {
+		id = 5689,
+		cd = 0,
+		pickup_views = "",
+		chapter = 0,
+		pickup_picturepuzzle = {},
+		drop_picturepuzzle = {
+			65049,
+			65050,
+			65051,
+			65052,
+			65053,
+			65054
+		},
+		story = {},
+		awards = {},
+		auto_finish_args = {}
+	},
 	all = {
 		549,
 		758,
@@ -516,6 +534,7 @@ pg.activity_event_picturepuzzle = {
 		4935,
 		5093,
 		5267,
-		5309
+		5309,
+		5689
 	}
 }

@@ -1982,6 +1982,24 @@ pg.ship_data_group = setmetatable({
 		[1100007] = {
 			10107
 		},
+		[1110001] = {
+			10111
+		},
+		[1110002] = {
+			10112
+		},
+		[1110003] = {
+			10113
+		},
+		[1110004] = {
+			10114
+		},
+		[1110005] = {
+			10115
+		},
+		[1110006] = {
+			10116
+		},
 		[29901] = {
 			20001
 		},
@@ -2209,6 +2227,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[970604] = {
 			30039
+		},
+		[970507] = {
+			30040
 		}
 	},
 	get_id_list_by_handbook_type = {
@@ -2874,7 +2895,13 @@ pg.ship_data_group = setmetatable({
 			10104,
 			10105,
 			10106,
-			10107
+			10107,
+			10111,
+			10112,
+			10113,
+			10114,
+			10115,
+			10116
 		},
 		{
 			20001,
@@ -2954,7 +2981,8 @@ pg.ship_data_group = setmetatable({
 			30036,
 			30037,
 			30038,
-			30039
+			30039,
+			30040
 		}
 	},
 	all = {
@@ -3618,6 +3646,12 @@ pg.ship_data_group = setmetatable({
 		10105,
 		10106,
 		10107,
+		10111,
+		10112,
+		10113,
+		10114,
+		10115,
+		10116,
 		20001,
 		20002,
 		20003,
@@ -3693,7 +3727,8 @@ pg.ship_data_group = setmetatable({
 		30036,
 		30037,
 		30038,
-		30039
+		30039,
+		30040
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -31772,6 +31807,198 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[10111] = {
+		nationality = 111,
+		type = 3,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 1110001,
+		index_id = 10111,
+		code = 10111,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Dangerous Inventions Incoming!",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10112] = {
+		nationality = 111,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 1110002,
+		index_id = 10112,
+		code = 10112,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Dangerous Inventions Incoming!",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10113] = {
+		nationality = 111,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 1110003,
+		index_id = 10113,
+		code = 10113,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"A",
+			"E",
+			"B",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Dangerous Inventions Incoming!",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10114] = {
+		nationality = 111,
+		type = 5,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 1110004,
+		index_id = 10114,
+		code = 10114,
+		share_group_id = {},
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Dangerous Inventions Incoming!",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10115] = {
+		nationality = 111,
+		type = 4,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 1110005,
+		index_id = 10115,
+		code = 10115,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Dangerous Inventions Incoming!",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[10116] = {
+		nationality = 111,
+		type = 7,
+		trans_type = 0,
+		handbook_type = 1,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 1110006,
+		index_id = 10116,
+		code = 10116,
+		share_group_id = {},
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"C",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Dangerous Inventions Incoming!",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[20001] = {
 		nationality = 2,
 		type = 2,
@@ -34418,6 +34645,41 @@ pg.base.ship_data_group = {
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9706041
+					}
+				},
+				0
+			}
+		}
+	},
+	[30040] = {
+		nationality = 97,
+		type = 5,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970507,
+		index_id = 30040,
+		code = 30040,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: Cruise Missions",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9705071
 					}
 				},
 				0

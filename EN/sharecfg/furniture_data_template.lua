@@ -152,6 +152,7 @@ pg.furniture_data_template = setmetatable({
 			288,
 			289,
 			291,
+			292,
 			100002,
 			100003,
 			100004,
@@ -204,6 +205,7 @@ pg.furniture_data_template = setmetatable({
 			100054,
 			100055,
 			100056,
+			100058,
 			100064,
 			200001,
 			200002,
@@ -3228,6 +3230,42 @@ pg.furniture_data_template = setmetatable({
 			315111,
 			315112,
 			315113
+		},
+		[116] = {
+			316001,
+			316002,
+			316101,
+			316102,
+			316103,
+			316104,
+			316105,
+			316106,
+			316107,
+			316108,
+			316109,
+			316110,
+			316111,
+			316112,
+			316113,
+			316114,
+			316115,
+			316116,
+			316117,
+			316118,
+			316119,
+			316120,
+			316121,
+			316122,
+			316123,
+			316301,
+			316302,
+			316303,
+			316304,
+			316305,
+			316306,
+			316307,
+			316308,
+			316309
 		}
 	},
 	get_id_list_by_tag = {
@@ -5149,7 +5187,29 @@ pg.furniture_data_template = setmetatable({
 			315109,
 			315110,
 			315111,
-			315112
+			315112,
+			316101,
+			316102,
+			316103,
+			316104,
+			316105,
+			316106,
+			316107,
+			316108,
+			316109,
+			316110,
+			316111,
+			316112,
+			316113,
+			316114,
+			316115,
+			316116,
+			316117,
+			316118,
+			316119,
+			316120,
+			316121,
+			316122
 		},
 		{
 			1108,
@@ -5458,6 +5518,7 @@ pg.furniture_data_template = setmetatable({
 			100054,
 			100055,
 			100056,
+			100058,
 			100064,
 			31101,
 			54104,
@@ -5519,7 +5580,8 @@ pg.furniture_data_template = setmetatable({
 			283,
 			284,
 			287,
-			289
+			289,
+			292
 		},
 		[7] = {
 			211,
@@ -5715,7 +5777,8 @@ pg.furniture_data_template = setmetatable({
 			312115,
 			313113,
 			314113,
-			315113
+			315113,
+			316123
 		},
 		[4] = {
 			1001,
@@ -5818,7 +5881,8 @@ pg.furniture_data_template = setmetatable({
 			312001,
 			313001,
 			314001,
-			315001
+			315001,
+			316001
 		},
 		[3] = {
 			1002,
@@ -5922,7 +5986,8 @@ pg.furniture_data_template = setmetatable({
 			312002,
 			313002,
 			314002,
-			315002
+			315002,
+			316002
 		},
 		[5] = {
 			1301,
@@ -6266,7 +6331,16 @@ pg.furniture_data_template = setmetatable({
 			313301,
 			313302,
 			313303,
-			314112
+			314112,
+			316301,
+			316302,
+			316303,
+			316304,
+			316305,
+			316306,
+			316307,
+			316308,
+			316309
 		}
 	},
 	get_id_list_by_type = {
@@ -6372,7 +6446,8 @@ pg.furniture_data_template = setmetatable({
 			312002,
 			313002,
 			314002,
-			315002
+			315002,
+			316002
 		},
 		[7] = {
 			1,
@@ -6500,6 +6575,7 @@ pg.furniture_data_template = setmetatable({
 			287,
 			288,
 			289,
+			292,
 			100002,
 			100004,
 			100005,
@@ -6539,7 +6615,8 @@ pg.furniture_data_template = setmetatable({
 			100053,
 			100054,
 			100055,
-			100056
+			100056,
+			100058
 		},
 		[2] = {
 			120,
@@ -8465,7 +8542,27 @@ pg.furniture_data_template = setmetatable({
 			315110,
 			315111,
 			315112,
-			315113
+			315113,
+			316101,
+			316102,
+			316103,
+			316104,
+			316105,
+			316106,
+			316108,
+			316109,
+			316110,
+			316111,
+			316113,
+			316114,
+			316115,
+			316116,
+			316117,
+			316118,
+			316119,
+			316120,
+			316122,
+			316123
 		},
 		[11] = {
 			131,
@@ -8512,7 +8609,9 @@ pg.furniture_data_template = setmetatable({
 			90117,
 			94119,
 			301105,
-			312115
+			312115,
+			316112,
+			316121
 		},
 		[14] = {
 			214,
@@ -8638,7 +8737,8 @@ pg.furniture_data_template = setmetatable({
 			312001,
 			313001,
 			314001,
-			315001
+			315001,
+			316001
 		},
 		[5] = {
 			1101,
@@ -8784,7 +8884,8 @@ pg.furniture_data_template = setmetatable({
 			305119,
 			308104,
 			309105,
-			310101
+			310101,
+			316107
 		},
 		[3] = {
 			1108,
@@ -9285,7 +9386,16 @@ pg.furniture_data_template = setmetatable({
 			313301,
 			313302,
 			313303,
-			314112
+			314112,
+			316301,
+			316302,
+			316303,
+			316304,
+			316305,
+			316306,
+			316307,
+			316308,
+			316309
 		},
 		[8] = {
 			17121
@@ -9474,6 +9584,7 @@ pg.furniture_data_template = setmetatable({
 		288,
 		289,
 		291,
+		292,
 		100002,
 		100003,
 		100004,
@@ -9526,6 +9637,7 @@ pg.furniture_data_template = setmetatable({
 		100054,
 		100055,
 		100056,
+		100058,
 		100064,
 		200001,
 		200002,
@@ -12343,7 +12455,41 @@ pg.furniture_data_template = setmetatable({
 		315110,
 		315111,
 		315112,
-		315113
+		315113,
+		316001,
+		316002,
+		316101,
+		316102,
+		316103,
+		316104,
+		316105,
+		316106,
+		316107,
+		316108,
+		316109,
+		316110,
+		316111,
+		316112,
+		316113,
+		316114,
+		316115,
+		316116,
+		316117,
+		316118,
+		316119,
+		316120,
+		316121,
+		316122,
+		316123,
+		316301,
+		316302,
+		316303,
+		316304,
+		316305,
+		316306,
+		316307,
+		316308,
+		316309
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -19833,6 +19979,53 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		},
 		interAction_group = {}
 	},
+	[292] = {
+		can_rotate = 0,
+		name = "Deviluke Commemorative Medal",
+		gain_by = "Dangerous Inventions Incoming!",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		rarity = 5,
+		is_get_time_note = 1,
+		belong = 1,
+		is_3d_obj = 0,
+		tag = 8,
+		icon = "tolovexunzhangicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "Let's ride a spaceship to new adventures!",
+		id = 292,
+		advice = 0,
+		comfortable = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"tolovexunzhang",
+				"normal"
+			}
+		},
+		interaction_bgm = {
+			0,
+			"story-richang-rosy-short"
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		name = "Air Pump of Friendship",
 		gain_by = "",
@@ -23623,6 +23816,56 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[100058] = {
+		can_rotate = 0,
+		name = "Lost Letter",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "qingshutaiicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		describe = "Looks like someone dropped this letter. Why not open it and read what it says?",
+		advice = 0,
+		id = 100058,
+		deblocking = 1,
+		comfortable = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qingshutai",
+				"normal",
+				{
+					"action",
+					true,
+					nil,
+					nil,
+					"houzhai_aixin"
+				}
+			}
 		},
 		interAction_group = {}
 	},
@@ -147514,6 +147757,1496 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[316001] = {
+		can_rotate = 0,
+		name = "Princessy Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 4,
+		icon = "dibantolicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 116,
+		spine_action_replace = "",
+		picture = "tol/dibantol",
+		canputon = 0,
+		count = 1,
+		describe = "Live like a fairy-tale princess!",
+		advice = 0,
+		deblocking = 1,
+		id = 316001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316002] = {
+		can_rotate = 0,
+		name = "Princessy Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 3,
+		icon = "qiangbitolicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 116,
+		spine_action_replace = "",
+		picture = "tol/qiangbitol",
+		canputon = 0,
+		count = 1,
+		describe = "Live like a fairy-tale princess!",
+		advice = 0,
+		deblocking = 1,
+		id = 316002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316101] = {
+		can_rotate = 0,
+		name = "Princessy Stool",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "aidengtol",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "tol/aidengtol",
+		canputon = 0,
+		themeId = 116,
+		count = 2,
+		describe = "A soft, round, and comfy stool.",
+		advice = 0,
+		id = 316101,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					13.8,
+					44.7
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316102] = {
+		can_rotate = 0,
+		name = "Jikido Flower",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "baohuatolicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 116,
+		spine_action_replace = "",
+		picture = "tol/baohuatol",
+		canputon = 0,
+		count = 1,
+		describe = "Apparently, smelling it changes your personality. M-maybe put that thing away!",
+		advice = 0,
+		deblocking = 1,
+		id = 316102,
+		comfortable = 2,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316103] = {
+		can_rotate = 0,
+		name = "Rainbow Rose",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "caihongmeiguitolicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 116,
+		count = 1,
+		describe = "Just watching it is fun!",
+		advice = 0,
+		id = 316103,
+		deblocking = 1,
+		comfortable = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"caihongmeiguitol",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[316104] = {
+		can_rotate = 0,
+		name = "Stinky Skunky",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "chouyoutolicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 116,
+		spine_action_replace = "",
+		picture = "tol/chouyoutol",
+		canputon = 0,
+		count = 1,
+		describe = "It's just a plushie, but it smells weird...",
+		advice = 0,
+		deblocking = 1,
+		id = 316104,
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316105] = {
+		can_rotate = 0,
+		name = "Mysterious Gate",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		themeId = 116,
+		icon = "chuansongmentolicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "Where does it go? Nobody knows!",
+		advice = 0,
+		id = 316105,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chuansongmentolB",
+				"normal"
+			},
+			{
+				"chuansongmentolT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[316106] = {
+		can_rotate = 0,
+		name = "Model Deviluke Spaceship",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "dailubiketolicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 116,
+		spine_action_replace = "",
+		picture = "tol/dailubiketol",
+		canputon = 0,
+		count = 1,
+		describe = "A replica of Lala's favorite spaceship. It flies really fast.",
+		advice = 0,
+		deblocking = 1,
+		id = 316106,
+		comfortable = 4,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316107] = {
+		can_rotate = 0,
+		name = "Princessy Carpet",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "ditantolicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 116,
+		spine_action_replace = "",
+		picture = "tol/ditantol",
+		canputon = 0,
+		count = 1,
+		describe = "Live like a fairy-tale princess!",
+		advice = 0,
+		deblocking = 1,
+		id = 316107,
+		comfortable = 3,
+		size = {
+			18,
+			18
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316108] = {
+		can_rotate = 0,
+		name = "Poison Flower",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "duhuatolicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 116,
+		spine_action_replace = "",
+		picture = "tol/duhuatol",
+		canputon = 0,
+		count = 1,
+		describe = "This'll paralyze your whole body if it sticks you! Be careful.",
+		advice = 0,
+		deblocking = 1,
+		id = 316108,
+		comfortable = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316109] = {
+		can_rotate = 0,
+		name = "Adrena Flower",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "fenhuatolicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 116,
+		spine_action_replace = "",
+		picture = "tol/fenhuatol",
+		canputon = 0,
+		count = 5,
+		describe = "Hey, smell this... Actually, don't! I've got a bad feeling about it!",
+		advice = 0,
+		deblocking = 1,
+		id = 316109,
+		comfortable = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316110] = {
+		can_rotate = 0,
+		name = "Alien Sofa",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "goushafa1tolicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "tol/goushafa1tol",
+		canputon = 0,
+		themeId = 116,
+		count = 1,
+		describe = "Is this... a dog, or...? Whatever it looks like, I swear it's just a sofa!",
+		advice = 0,
+		id = 316110,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					6.6,
+					45.1
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316111] = {
+		can_rotate = 0,
+		name = "Alien Sofa",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "goushafa2tolicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "tol/goushafa2tol",
+		canputon = 0,
+		themeId = 116,
+		count = 1,
+		describe = "Is this... a dog, or...? Whatever it looks like, I swear it's just a sofa!",
+		advice = 0,
+		id = 316111,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					6.6,
+					45.1
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316112] = {
+		can_rotate = 0,
+		name = "Snippity Snappity Scissors",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "jianjianjuntolicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 116,
+		count = 1,
+		describe = "Th-those things can cut your clothes to shreds... Too dangerous!",
+		advice = 0,
+		id = 316112,
+		deblocking = 1,
+		comfortable = 4,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jianjianjuntol",
+				"normal",
+				{
+					"action",
+					true
+				},
+				1
+			}
+		},
+		interAction_group = {}
+	},
+	[316113] = {
+		can_rotate = 0,
+		name = "Cannon Flower",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "jianonghuatolicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 116,
+		spine_action_replace = "",
+		picture = "tol/jianonghuatol",
+		canputon = 0,
+		count = 1,
+		describe = "Don't get hit by those seeds!",
+		advice = 0,
+		deblocking = 1,
+		id = 316113,
+		comfortable = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316114] = {
+		can_rotate = 0,
+		name = "Princessy Control Console",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		themeId = 116,
+		icon = "kongzhitaitolicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "Use this to monitor the laboratory.",
+		advice = 0,
+		id = 316114,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"kongzhitaitol",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[316115] = {
+		can_rotate = 0,
+		name = "Peke Sofa",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "lanrenshafatolicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "tol/lanrenshafatol",
+		canputon = 0,
+		themeId = 116,
+		count = 1,
+		describe = "This is just a couch! No transformation function on this one!",
+		advice = 0,
+		id = 316115,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					8.5,
+					58
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316116] = {
+		can_rotate = 0,
+		name = "Life Pod",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		themeId = 116,
+		icon = "peiyangzhuangzhitolicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "An odd device that seems related to Yami's past... now available as a fun toy!",
+		advice = 0,
+		id = 316116,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"peiyangzhuangzhitol",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[316117] = {
+		can_rotate = 0,
+		name = "Princessy Sofa",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "shafatolicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "tol/shafatol",
+		canputon = 0,
+		themeId = 116,
+		count = 1,
+		describe = "Soft, fluffy, and beloved by all!",
+		advice = 0,
+		id = 316117,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					27.2,
+					11.2
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316118] = {
+		can_rotate = 0,
+		name = "Toy Shelf of Memories",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "shuguitolicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 116,
+		spine_action_replace = "",
+		picture = "tol/shuguitol",
+		canputon = 0,
+		count = 1,
+		describe = "A shelf full of childhood memories.",
+		advice = 0,
+		deblocking = 1,
+		id = 316118,
+		comfortable = 2,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316119] = {
+		can_rotate = 0,
+		name = "Philosopher's Flower",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "xianzhehuatolicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 116,
+		spine_action_replace = "",
+		picture = "tol/xianzhehuatol",
+		canputon = 0,
+		count = 1,
+		describe = "Sniff it, and you'll calm down... and also feel an odd tinge of guilt.",
+		advice = 0,
+		deblocking = 1,
+		id = 316119,
+		comfortable = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316120] = {
+		can_rotate = 0,
+		name = "Rain Flower",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "yuhuatolicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 116,
+		count = 1,
+		describe = "No need to water that one, I guess...",
+		advice = 0,
+		id = 316120,
+		deblocking = 1,
+		comfortable = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yuhuatol",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[316121] = {
+		can_rotate = 0,
+		name = "Anglerfish Vacuum",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		themeId = 116,
+		icon = "zhenkongjuntolicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "Does this really clean floors?",
+		advice = 0,
+		id = 316121,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhenkongjuntol",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[316122] = {
+		can_rotate = 0,
+		name = "Princessy Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "zhuozitolicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 116,
+		spine_action_replace = "",
+		picture = "tol/zhuozitol",
+		canputon = 0,
+		count = 1,
+		describe = "Lined with Lala's favorite things.",
+		advice = 0,
+		deblocking = 1,
+		id = 316122,
+		comfortable = 3,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316123] = {
+		can_rotate = 0,
+		name = "Lunatique Model",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 7,
+		icon = "lunadikehaotolicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 116,
+		count = 1,
+		describe = "A replica model of Yami's spaceship.",
+		advice = 0,
+		id = 316123,
+		deblocking = 1,
+		comfortable = 4,
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lunadikehaotol",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[316301] = {
+		can_rotate = 0,
+		name = "Princessy Niche 1",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "bikan1tolicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 116,
+		spine_action_replace = "",
+		picture = "tol/bikan1tol",
+		canputon = 0,
+		count = 1,
+		describe = "Has the princesses' odds and ends inside.",
+		advice = 0,
+		deblocking = 1,
+		id = 316301,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316302] = {
+		can_rotate = 0,
+		name = "Princessy Niche 2",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "bikan2tolicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 116,
+		spine_action_replace = "",
+		picture = "tol/bikan2tol",
+		canputon = 0,
+		count = 1,
+		describe = "Has the princesses' odds and ends inside.",
+		advice = 0,
+		deblocking = 1,
+		id = 316302,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316303] = {
+		can_rotate = 0,
+		name = "Princessy Wall Decoration 1",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "huashutolicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 116,
+		spine_action_replace = "",
+		picture = "tol/huashutol",
+		canputon = 0,
+		count = 1,
+		describe = "Straight from Lala's room. Not what you'd expect, right?",
+		advice = 0,
+		deblocking = 1,
+		id = 316303,
+		comfortable = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316304] = {
+		can_rotate = 0,
+		name = "Princessy Door 1",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "lalamentolicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 116,
+		spine_action_replace = "",
+		picture = "tol/lalamentol",
+		canputon = 0,
+		count = 1,
+		describe = "Knock first!",
+		advice = 0,
+		deblocking = 1,
+		id = 316304,
+		comfortable = 2,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316305] = {
+		can_rotate = 0,
+		name = "Princessy Door 2",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "mentol",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 116,
+		spine_action_replace = "",
+		picture = "tol/mentol",
+		canputon = 0,
+		count = 2,
+		describe = "Knock first!",
+		advice = 0,
+		deblocking = 1,
+		id = 316305,
+		comfortable = 2,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316306] = {
+		can_rotate = 0,
+		name = "Princessy Wall Decoration 2",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "lanbantolicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 116,
+		spine_action_replace = "",
+		picture = "tol/lanbantol",
+		canputon = 0,
+		count = 1,
+		describe = "Straight from Lala's room. Not what you'd expect, right?",
+		advice = 0,
+		deblocking = 1,
+		id = 316306,
+		comfortable = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316307] = {
+		can_rotate = 0,
+		name = "Princess's Drawing",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "tuyatolicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 116,
+		spine_action_replace = "",
+		picture = "tol/tuyatol",
+		canputon = 0,
+		count = 1,
+		describe = "Incomprehensible art by Lala herself.",
+		advice = 0,
+		deblocking = 1,
+		id = 316307,
+		comfortable = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316308] = {
+		can_rotate = 0,
+		name = "Alien Wall Decoration",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "wanoutolicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 116,
+		spine_action_replace = "",
+		picture = "tol/wanoutol",
+		canputon = 0,
+		count = 1,
+		describe = "I... think it's a bunny?",
+		advice = 0,
+		deblocking = 1,
+		id = 316308,
+		comfortable = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316309] = {
+		can_rotate = 0,
+		name = "Yami's Treasure",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "xiaoanxinwutolicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 116,
+		spine_action_replace = "",
+		picture = "tol/xiaoanxinwutol",
+		canputon = 0,
+		count = 1,
+		describe = "Probably another replica.",
+		advice = 0,
+		deblocking = 1,
+		id = 316309,
+		comfortable = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	}

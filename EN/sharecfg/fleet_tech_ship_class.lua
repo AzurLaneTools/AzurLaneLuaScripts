@@ -3848,6 +3848,17 @@ pg.fleet_tech_ship_class = {
 			970506
 		}
 	},
+	[970507] = {
+		shiptype = 5,
+		name = "Giulio Cesare META",
+		t_level = 3,
+		id = 970507,
+		t_level_1 = 12,
+		nation = 97,
+		ships = {
+			970507
+		}
+	},
 	[970601] = {
 		shiptype = 6,
 		name = "Hiyou META",
@@ -4292,6 +4303,7 @@ pg.fleet_tech_ship_class = {
 		970504,
 		970505,
 		970506,
+		970507,
 		970601,
 		970602,
 		970603,

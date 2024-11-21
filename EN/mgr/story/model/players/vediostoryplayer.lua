@@ -23,9 +23,7 @@ slot0.CheckAndPlay = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.PlayVedio = function(slot0, slot1, slot2, slot3)
-	slot4 = ResourceMgr.Inst
-
-	slot4:getAssetAsync("Story/" .. slot2, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+	LoadAnyAsync("Story/" .. slot2, "", nil, function (slot0)
 		if uv0.stop then
 			return
 		end
@@ -43,7 +41,7 @@ slot0.PlayVedio = function(slot0, slot1, slot2, slot3)
 		setActive(slot3, uv2:GetSkipFlag())
 
 		uv0._vedioGo = slot1
-	end), true, true)
+	end)
 end
 
 slot0.ClearVedio = function(slot0)

@@ -2427,6 +2427,25 @@ pg.dorm3d_dialogue_group = {
 			1
 		}
 	},
+	[1505] = {
+		reward = 0,
+		room_id = 1,
+		trigger_area = "",
+		type = 402,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DGIFTFEEDBACK1",
+		char_id = 20220,
+		extend_loading = 0,
+		id = 1505,
+		action_type = "lie",
+		unlock = {
+			1,
+			20220,
+			1
+		}
+	},
 	[10010] = {
 		reward = 0,
 		room_id = 1,
@@ -2699,6 +2718,44 @@ pg.dorm3d_dialogue_group = {
 		unlock = {
 			3,
 			2022001
+		}
+	},
+	[10070] = {
+		reward = 0,
+		room_id = 1,
+		trigger_area = "",
+		type = 700,
+		bgm = "",
+		performance_type = 1,
+		story = "DormPaidGiftPerformance2",
+		char_id = 20220,
+		extend_loading = 1,
+		id = 10070,
+		action_type = "stand",
+		trigger_config = {
+			1
+		},
+		unlock = {
+			3,
+			2022002
+		}
+	},
+	[10071] = {
+		reward = 0,
+		room_id = 1,
+		trigger_area = "",
+		type = 600,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DPAIDGIFTFEEDBACK2",
+		char_id = 20220,
+		extend_loading = 0,
+		id = 10071,
+		action_type = "stand",
+		unlock = {
+			3,
+			2022002
 		}
 	},
 	[10011000] = {
@@ -3171,6 +3228,7 @@ pg.dorm3d_dialogue_group = {
 			1502,
 			1503,
 			1504,
+			1505,
 			10010,
 			10011,
 			10012,
@@ -3185,6 +3243,8 @@ pg.dorm3d_dialogue_group = {
 			10051,
 			10060,
 			10061,
+			10070,
+			10071,
 			10011000,
 			10011001,
 			10012000,
@@ -3320,6 +3380,7 @@ pg.dorm3d_dialogue_group = {
 			1502,
 			1503,
 			1504,
+			1505,
 			10010,
 			10011,
 			10012,
@@ -3334,6 +3395,8 @@ pg.dorm3d_dialogue_group = {
 			10051,
 			10060,
 			10061,
+			10070,
+			10071,
 			10011000,
 			10011001,
 			10012000,
@@ -3496,6 +3559,7 @@ pg.dorm3d_dialogue_group = {
 		1502,
 		1503,
 		1504,
+		1505,
 		10010,
 		10011,
 		10012,
@@ -3510,6 +3574,8 @@ pg.dorm3d_dialogue_group = {
 		10051,
 		10060,
 		10061,
+		10070,
+		10071,
 		10011000,
 		10011001,
 		10012000,

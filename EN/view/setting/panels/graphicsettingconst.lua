@@ -46,6 +46,7 @@ slot0.settings = {
 	{
 		CsharpValue = "msaaSamples",
 		cfgId = 5,
+		special = true,
 		playerPrefsname = "msaaSamples",
 		EnumType = "MSAASamples",
 		Enum = {
@@ -206,6 +207,10 @@ slot0.HandleCustomSetting = function()
 			if slot7.childList ~= nil and slot9 == 1 then
 				print(123)
 			else
+				if slot7.special then
+					slot9 = 1
+				end
+
 				for slot13, slot14 in pairs(slot7.Enum) do
 					if slot14 == slot9 then
 						slot9 = slot13

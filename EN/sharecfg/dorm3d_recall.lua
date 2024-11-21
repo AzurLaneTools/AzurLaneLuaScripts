@@ -83,6 +83,19 @@ pg.dorm3d_recall = {
 			2022001
 		}
 	},
+	{
+		story_id = 10070,
+		name = "Unforeseen Mistake",
+		type = 1,
+		id = 7,
+		image = "gift_02",
+		unlock_text = "Unlocked by gifting the Royal Tea Set.",
+		desc = "Even the most outstanding Royal Maid makes mistakes sometimes.",
+		unlock = {
+			3,
+			2022002
+		}
+	},
 	get_id_list_by_story_id = {
 		[10010] = {
 			1
@@ -101,6 +114,9 @@ pg.dorm3d_recall = {
 		},
 		[10060] = {
 			6
+		},
+		[10070] = {
+			7
 		}
 	},
 	all = {
@@ -109,6 +125,7 @@ pg.dorm3d_recall = {
 		3,
 		4,
 		5,
-		6
+		6,
+		7
 	}
 }
