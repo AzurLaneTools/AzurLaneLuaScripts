@@ -725,7 +725,7 @@ pg.soundstory_template = {
 					21
 				},
 				{
-					12,
+					0,
 					0,
 					0
 				}
@@ -778,7 +778,7 @@ pg.soundstory_template = {
 					21
 				},
 				{
-					12,
+					0,
 					0,
 					0
 				}
