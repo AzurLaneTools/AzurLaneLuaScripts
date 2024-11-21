@@ -597,7 +597,7 @@ return {
 			actor = 11100010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "それよりもそっちが気になっちゃった！ダ・ヴィンチ！今直してるっその機械って何？",
+			say = "それよりもそっちが気になっちゃった！ダ・ヴィンチ！今直してるその機械って何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,7 +690,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "え？ララたちはあたしに手伝ってもらいたくて、きたんじゃないの？",
+			say = "え？ララたちはあたしに手伝ってもらいたくて来たんじゃないの？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -703,7 +703,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "うん！でももしかしたら、その機会にヒントがあるかもしれないし！",
+			say = "うん！でももしかしたら、その機械にヒントがあるかもしれないし！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -357,7 +357,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_tolove_1",
-			say = "次の瞬間、ビリビリとの機械音とともに、ゲームメーカーグレートからもくもくと白い煙が上がった",
+			say = "次の瞬間、ビリビリと発された機械音とともに、ゲームメーカーグレートからもくもくと白い煙が上がった",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

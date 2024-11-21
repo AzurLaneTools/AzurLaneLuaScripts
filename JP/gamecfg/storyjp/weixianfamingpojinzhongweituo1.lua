@@ -244,7 +244,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "ーーあれ？今「願い事がない」ってことにされなかった…？",
+			say = "――あれ？今「願い事がない」ってことにされなかった…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

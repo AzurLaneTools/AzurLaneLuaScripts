@@ -76,7 +76,7 @@ return {
 			actor = 11100010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大丈夫よ～私の「ぐつぐつ料理くん」は食材の中まで浸透して、分子レベルで調理してくれるんだから～",
+			say = "大丈夫だよ～。私の「ぐつぐつ料理くん」は食材の中まで浸透して、分子レベルで調理してくれるんだから～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

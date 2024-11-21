@@ -52,7 +52,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "安心なさい。あなたたちのことは私と母港の皆が全力で助けから！",
+			say = "安心なさい。あなたたちのことは私と母港の皆が全力で助けるから！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "ーー私があなた達の後ろ盾になっているように、母港は私の後ろ盾になっている…というところかしら？",
+			say = "私があなた達の後ろ盾になっているように、母港は私の後ろ盾になっている…というところかしら？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "――やっぱり悪いことにに使ってるじゃないか…",
+			say = "――やっぱり悪いことに使ってるじゃないか…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			actor = 11100010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "どうやら「売上アップマシン」が、お客さんの不満の声を拾って、自動で放送を流してるみたいね～",
+			say = "どうやら「売上アップマシン」が、お客さんの不満の声を拾って、自動で放送を流してるみたいだね～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "み、みんな！違うにゃ！全部誤解に決まっているにゃ～！",
+			say = "み、みんな！違うにゃ！全部誤解にゃ～！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

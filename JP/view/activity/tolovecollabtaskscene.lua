@@ -80,10 +80,11 @@ slot0.UpdateList = function(slot0, slot1)
 			slot3 = uv0[slot1 + 1]
 			slot4, slot5 = uv1:getTaskProgress(slot3)
 			slot6, slot7 = uv1:getTaskTarget(slot3)
+			slot4 = math.min(slot4, slot6)
 
-			setText(slot2:Find("frame/desc"), slot3:getConfig("desc") .. " (" .. slot5 .. "/" .. slot7 .. ")")
+			setText(slot2:Find("frame/desc"), slot3:getConfig("desc") .. " (" .. tostring(slot4) .. "/" .. slot7 .. ")")
 
-			slot2:Find("frame/slider"):GetComponent(typeof(Slider)).value = math.min(slot4, slot6) / slot6
+			slot2:Find("frame/slider"):GetComponent(typeof(Slider)).value = slot4 / slot6
 			slot9 = slot2:Find("frame/awards")
 
 			uv1:updateAwards(slot3:getConfig("award_display"), slot9, slot9:GetChild(0))

@@ -297,7 +297,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "そうだな。ロングアイランドのことだから、一度痛い目にあったほうが…",
+			say = "――そうだな。ロング・アイランドのことだから、一度痛い目にあったほうが…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……ん？ロングアイランド…？",
+			say = "――……ん？ロング・アイランド…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

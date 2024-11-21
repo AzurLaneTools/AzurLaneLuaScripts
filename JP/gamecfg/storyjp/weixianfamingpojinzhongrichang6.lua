@@ -227,7 +227,7 @@ return {
 			actor = 11100030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "タイミング良く風でドアが開いたので、気になってしまいまして。中は物置みたいな雰囲気でしたので、つい。",
+			say = "タイミング良く風でドアが開いたので、気になってしまいまして。中が物置みたいな雰囲気でしたので、つい。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "それは…聞き捨てにはなりませんね",
+			say = "それは…聞き捨てなりませんね",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -490,7 +490,7 @@ return {
 			actor = 307070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "まさかあなた、大鳳のコレクションで指揮官様のことを知って……駆け抜けする気？！",
+			say = "まさかあなた、大鳳のコレクションで指揮官様のことを知って……抜け駆けする気？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

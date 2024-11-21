@@ -72,15 +72,16 @@ slot0.setData = function(slot0, slot1, slot2)
 	slot0._itemData = Clone(slot1.item)
 	slot0._gridCount = 0
 	slot3 = findTF(slot0._tf, "ad/bg/lineTip/text")
+	slot4 = findTF(slot0._tf, "ad/bg/lineTip")
 
 	if slot0._state == uv0.game_state_connect then
 		setText(slot3, i18n("tolovegame_puzzle_line_tip"))
 
-		slot3.anchoredPosition = Vector2(84, 454)
+		slot4.anchoredPosition = Vector2(84, 454)
 	else
 		setText(slot3, i18n("tolovegame_puzzle_puzzle_tip"))
 
-		slot3.anchoredPosition = Vector2(156, 454)
+		slot4.anchoredPosition = Vector2(156, 454)
 	end
 
 	slot0._arrowIn.anchoredPosition = Vector2((slot0._arrowData[1][2] - 1) * slot0._boundData.x, -(slot0._arrowData[1][1] - 1) * slot0._boundData.y)
@@ -90,22 +91,22 @@ slot0.setData = function(slot0, slot1, slot2)
 
 	slot0:updateGrids()
 
-	slot4 = #slot0._itemData > #slot0._items and #slot0._itemData or #slot0._items
+	slot5 = #slot0._itemData > #slot0._items and #slot0._itemData or #slot0._items
 
-	for slot8 = 1, slot4 do
-		slot9 = nil
+	for slot9 = 1, slot5 do
+		slot10 = nil
 
-		if slot8 > #slot0._items then
+		if slot9 > #slot0._items then
 			table.insert(slot0._items, slot0:createItem())
 		else
-			slot9 = slot0._items[slot8]
+			slot10 = slot0._items[slot9]
 		end
 
-		if slot8 > #slot0._itemData then
-			slot9:setActive(false)
+		if slot9 > #slot0._itemData then
+			slot10:setActive(false)
 		else
-			slot9:setData(slot0._itemData[slot8])
-			slot9:setActive(true)
+			slot10:setData(slot0._itemData[slot9])
+			slot10:setActive(true)
 		end
 	end
 

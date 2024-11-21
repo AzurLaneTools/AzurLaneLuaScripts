@@ -435,7 +435,7 @@ return {
 			bgName = "bg_tolove_2",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "姉上、そんな言わなくたって、全力でやってやるぜ！",
+			say = "姉上、そんなこと言わなくたって、全力でやってやるぜ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

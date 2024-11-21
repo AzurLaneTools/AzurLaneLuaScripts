@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "ブレマートンさんだって、相手の動きを読んで、すごく旨く動いているわ。",
+			say = "ブレマートンさんだって、相手の動きを読んで、すごく上手く動いているわ。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			}
 		},
 		{
-			actorName = "受到惊吓的猫",
+			actorName = "猫",
 			side = 2,
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
@@ -627,7 +627,7 @@ return {
 			actor = 11100020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "春菜！大丈夫！",
+			say = "春菜！大丈夫！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -786,7 +786,7 @@ return {
 			}
 		},
 		{
-			actorName = "受到惊吓的猫",
+			actorName = "猫",
 			side = 2,
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
@@ -853,7 +853,7 @@ return {
 			}
 		},
 		{
-			actorName = "受到惊吓的猫",
+			actorName = "猫",
 			side = 2,
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,

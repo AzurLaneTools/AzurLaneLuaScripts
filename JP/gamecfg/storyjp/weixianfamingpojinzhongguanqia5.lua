@@ -293,7 +293,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "ふむ。違う世界だけでなく、違う星ね……流石に私もこういうのは始めてだわ",
+			say = "ふむ。違う世界だけでなく、違う星ね……流石に私もこういうのは初めてだわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

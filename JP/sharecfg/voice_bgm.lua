@@ -1775,12 +1775,12 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "story-richang-rosy-short"
 	},
-	ToLoveCollabBackHillUI = {
+	ToLoveCollabBackHillScene = {
 		default_bgm = "tl-battle",
 		special_bgm = "",
 		bgm = "tl-battle"
 	},
-	PuzzleConnectUI = {
+	PuzzleConnectLayer = {
 		default_bgm = "story-richang-refreshing",
 		special_bgm = "",
 		bgm = "story-richang-refreshing"

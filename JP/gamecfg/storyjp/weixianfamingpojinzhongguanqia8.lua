@@ -698,7 +698,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "遠慮しなくていいわよ。時間もまだあるし、あなた達の世界のことをもっと聞かせちょうだい！",
+			say = "遠慮しなくていいわよ。時間もまだあるし、あなた達の世界のことをもっと聞かせてちょうだい！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

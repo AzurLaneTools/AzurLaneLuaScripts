@@ -85,7 +85,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
-			say = "しかし、その並外れた身体能力と高性能な艤装を持ってしても、ララは徐々に劣勢へと追い込まれいった。",
+			say = "しかし、その並外れた身体能力と高性能な艤装を以てしても、ララは徐々に劣勢へと追い込まれいった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "量産型のくせに…まさか自己適応型の防御システムでも搭載してるっての！？",
+			say = "量産型のくせに…まさか自己適応型の防御システムでも搭載してるとでもいうの！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

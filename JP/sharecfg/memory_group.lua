@@ -5086,7 +5086,7 @@ pg.base.memory_group = {
 		}
 	},
 	[309] = {
-		title = "「危险发明迫近中！」-关卡篇",
+		title = "危険発明接近中！-ステージ編",
 		subtype = 2,
 		link_event = 5679,
 		type = 2,
@@ -5129,7 +5129,7 @@ pg.base.memory_group = {
 		}
 	},
 	[311] = {
-		title = "「危险发明迫近中！」-委托篇",
+		title = "危険発明接近中！-依頼編",
 		subtype = 2,
 		link_event = 5691,
 		type = 2,

@@ -375,7 +375,7 @@ return {
 			actor = 11100020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "でも、水着持ってないだよなー。",
+			say = "でも、水着を持ってきてないんだよなー。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -645,7 +645,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_164",
 			hidePaintObj = true,
-			say = "波立つ水面に陽光がさんさんと降り注ぐ。そしてプールには少女たちの楽しげな笑い声いつまでも響き渡った。",
+			say = "波立つ水面に陽光がさんさんと降り注ぐ。そしてプールには少女たちの楽しげな笑い声がいつまでも響き渡った。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

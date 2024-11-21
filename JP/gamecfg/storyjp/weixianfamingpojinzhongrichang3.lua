@@ -234,7 +234,7 @@ return {
 			actor = 11100060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "捕まえられる自信はないけど……できうる限り手伝うわ！",
+			say = "捕まえられる自信はないけど……できる限り手伝うわ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "そこへ颯爽と駆けつける我らがロイヤルメイドのリヴァプールが。あっという間に暴れるうなぎを押さえつけた。",
+			say = "そこへ颯爽と駆けつけたロイヤルメイドのリヴァプールが、あっという間に暴れるうなぎを押さえつけた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

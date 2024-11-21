@@ -426,6 +426,10 @@ slot0.BindEvent = function(slot0)
 		uv0.moveStickOrigin = nil
 		uv0.moveStickPosition = nil
 		uv0.moveStickDraging = nil
+
+		if isActive(uv0.cameras[uv1.CAMERA.PHOTO_FREE]) then
+			uv0:emit(Dorm3dPhotoMediator.CAMERA_STICK_MOVE, Vector2.zero)
+		end
 	end
 
 	slot0:bind(uv0.ON_POV_STICK_MOVE_END, function (slot0, slot1)
@@ -470,16 +474,10 @@ slot0.BindEvent = function(slot0)
 			slot4(uv0.compPovAim, "m_HorizontalAxis", slot2)
 			slot4(uv0.compPovAim, "m_VerticalAxis", slot3)
 		elseif isActive(uv0.cameras[uv2.CAMERA.PHOTO_FREE]) then
-			slot5 = uv0.cameras[uv2.CAMERA.PHOTO_FREE]
-			slot5 = slot5:Find("PhotoFree Camera")
-			slot5 = slot5:GetComponent(typeof(Cinemachine.CinemachineVirtualCamera))
-			slot5 = slot5:GetCinemachineComponent(Cinemachine.CinemachineCore.Stage.Aim)
+			slot5 = uv0.cameras[uv2.CAMERA.PHOTO_FREE]:Find("PhotoFree Camera"):GetComponent(typeof(Cinemachine.CinemachineVirtualCamera)):GetCinemachineComponent(Cinemachine.CinemachineCore.Stage.Aim)
 
 			slot4(slot5, "m_HorizontalAxis", slot2)
 			slot4(slot5, "m_VerticalAxis", slot3)
-			onNextTick(function ()
-				uv0:emit(Dorm3dPhotoMediator.CAMERA_LIFT_CHANGED, math.InverseLerp(uv0.restrictedHeightRange[1], uv0.restrictedHeightRange[2], uv0.cameras[uv1.CAMERA.PHOTO_FREE].position.y))
-			end)
 		end
 	end)
 	slot0:bind(uv0.PHOTO_CALL, function (slot0, slot1, ...)
@@ -1205,19 +1203,31 @@ slot0.didEnter = function(slot0)
 			return
 		end
 
-		slot1 = (uv0.moveStickPosition - uv0.moveStickOrigin):ClampMagnitude(200)
-		uv0.moveStickPosition = uv0.moveStickOrigin + slot1
-		slot3 = uv0.mainCameraTF:TransformDirection(Vector3.New(slot1.x, 0, slot1.y))
-		slot3.y = 0
+		slot1 = 200
+		slot2 = (uv0.moveStickPosition - uv0.moveStickOrigin):ClampMagnitude(slot1)
+		slot3 = slot2 / slot1
+		uv0.moveStickPosition = uv0.moveStickOrigin + slot2
+		slot5 = uv0.mainCameraTF:TransformDirection(Vector3.New(slot3.x, 0, slot3.y))
+		slot5.y = 0
 
-		slot3:Normalize():Mul(uv1)
+		slot5:Normalize():Mul(uv1)
 
 		if isActive(uv0.cameras[uv2.CAMERA.POV]) then
-			uv0.playerController:SimpleMove(slot3)
+			uv0.playerController:SimpleMove(slot5)
 
 			uv0.tweenFOV = true
 		elseif isActive(uv0.cameras[uv2.CAMERA.PHOTO_FREE]) then
-			uv0.cameras[uv2.CAMERA.PHOTO_FREE]:GetComponent(typeof(UnityEngine.CharacterController)):Move(slot3 * Time.deltaTime)
+			slot6 = uv0.cameras[uv2.CAMERA.PHOTO_FREE]
+			slot6 = slot6:GetComponent(typeof(UnityEngine.CharacterController))
+
+			slot6:Move(slot5 * Time.deltaTime)
+
+			slot7 = uv0
+
+			slot7:emit(Dorm3dPhotoMediator.CAMERA_STICK_MOVE, slot3:Normalize())
+			onNextTick(function ()
+				uv0:emit(Dorm3dPhotoMediator.CAMERA_LIFT_CHANGED, math.InverseLerp(uv0.restrictedHeightRange[1], uv0.restrictedHeightRange[2], uv0.cameras[uv1.CAMERA.PHOTO_FREE].position.y))
+			end)
 		end
 	end, 1, -1)
 	slot3 = slot0.moveStickTimer

@@ -216,7 +216,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "どうした？何かあったのか？",
+			say = "どうしたの？何かあった？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

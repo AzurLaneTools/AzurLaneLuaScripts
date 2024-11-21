@@ -23,15 +23,17 @@ return {
 							name = "FFliwu_cadiban",
 							time = 0,
 							type = "timeline",
-							options = {
-								[0] = {
-									{
-										content = "先好好休息一下吧"
-									}
-								}
-							},
+							options = {},
 							touchs = {
 								[0] = {
+									{
+										pos = {
+											50,
+											-30
+										}
+									}
+								},
+								{
 									{
 										pos = {
 											0,

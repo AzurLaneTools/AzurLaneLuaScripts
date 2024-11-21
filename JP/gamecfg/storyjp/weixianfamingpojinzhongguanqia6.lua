@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……陛下、どうやら状況が変わったようです  直接状况就可以？",
+			say = "……陛下、どうやら状況が変わったようです",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			actor = 202340,
-			actorName = "ベルファスト",
+			actorName = "みんな",
 			hidePaintObj = true,
 			say = "かしこまりました！",
 			typewriter = {
@@ -746,7 +746,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100010,
-			say = "だから、私たちに新しい仲間ができたんだから、敵の能力も上げないとバランスを取るように計算されちゃうんだ…",
+			say = "私たちに新しい仲間ができたから、敵の能力を上げてバランスを取るように計算されちゃうんだ…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

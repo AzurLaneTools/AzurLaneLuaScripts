@@ -142,6 +142,7 @@ slot0.didEnter = function(slot0)
 		uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SetPhotoCameraHeight", slot0)
 	end)
 	setActive(slot1, false)
+	setActive(slot0._tf:Find("Center/Stick"), false)
 
 	slot0.activeSetting = false
 
@@ -298,9 +299,9 @@ slot0.didEnter = function(slot0)
 		quickPlayAnimation(uv0._tf:Find("RightTop"), "anim_dorm3d_photo_FtoS")
 	end, SFX_PANEL)
 
-	slot4 = slot0._tf
+	slot5 = slot0._tf
 
-	onButton(slot0, slot4:Find("RightTop/Shot/Shot"), function ()
+	onButton(slot0, slot5:Find("RightTop/Shot/Shot"), function ()
 		slot0 = function(slot0)
 			setActive(uv0.centerPanel, slot0)
 			setActive(uv0._tf:Find("RightTop"), slot0)
@@ -361,6 +362,7 @@ slot0.didEnter = function(slot0)
 		uv0.freeMode = not uv0.freeMode
 
 		setActive(uv1, uv0.freeMode)
+		setActive(uv2, uv0.freeMode)
 		setActive(uv0.btnMove:Find("Selected"), uv0.freeMode)
 	end)
 	onButton(slot0, slot0.btnMenuSmall, function ()
@@ -380,7 +382,7 @@ slot0.didEnter = function(slot0)
 	end, SFX_PANEL)
 
 	slot0.activePanel = 1
-	slot3 = {
+	slot4 = {
 		{
 			btn = slot0.btnAction,
 			On = function ()
@@ -407,7 +409,7 @@ slot0.didEnter = function(slot0)
 		}
 	}
 
-	table.Ipairs(slot3, function (slot0, slot1)
+	table.Ipairs(slot4, function (slot0, slot1)
 		onToggle(uv0, slot1.btn, function (slot0)
 			if not slot0 then
 				return
@@ -442,7 +444,7 @@ slot0.didEnter = function(slot0)
 
 	slot0:InitData()
 	slot0:FirstEnterZone()
-	triggerToggle(slot3[slot0.activePanel].btn, true)
+	triggerToggle(slot4[slot0.activePanel].btn, true)
 	slot0:UpdateZoneList()
 end
 
@@ -1312,6 +1314,13 @@ end
 
 slot0.SetPhotoCameraSliderValue = function(slot0, slot1)
 	setSlider(slot0.normalPanel:Find("Zoom/Slider"), 0, 1, slot1)
+end
+
+slot0.SetPhotoStickDelta = function(slot0, slot1)
+	slot1 = slot1 * 0.5
+	slot2 = slot0._tf:Find("Center/Stick")
+
+	setAnchoredPosition(slot2:Find("Handler"), Vector2.New(slot2.rect.height * slot1.x, slot2.rect.width * slot1.y))
 end
 
 return slot0

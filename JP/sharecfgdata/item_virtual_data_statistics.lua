@@ -169109,8 +169109,8 @@ _G.pg.base.item_virtual_data_statistics[65054] = {
 
 _G.pg.base.item_virtual_data_statistics[65057] = {
 	drop_gold_max = 0,
-	name = "通行证二十期对应虚拟道具",
-	display = "不该被看到",
+	name = "進捗Pt",
+	display = "キャンペーン「シーズン任務」で累計獲得数報酬を入手するための任務Ptアイテム。キャンペーン終了後に削除されます",
 	type = 0,
 	is_world = 0,
 	shop_id = -1,
