@@ -245,9 +245,7 @@ end
 
 slot0.LoadCounsellor = function(slot0, slot1, slot2)
 	if not slot0.counsellors[slot1] then
-		slot3 = ResourceMgr.Inst
-
-		slot3:getAssetAsync("guideitem/" .. slot1, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		LoadAnyAsync("guideitem/" .. slot1, "", nil, function (slot0)
 			if IsNil(slot0) then
 				return
 			end
@@ -255,16 +253,14 @@ slot0.LoadCounsellor = function(slot0, slot1, slot2)
 			uv0.counsellors[uv1] = Object.Instantiate(slot0, uv0.charContainer).transform
 
 			uv2()
-		end), true, true)
+		end)
 	else
 		slot2()
 	end
 end
 
 slot0.LoadDialogueWindow = function(slot0, slot1, slot2)
-	slot3 = ResourceMgr.Inst
-
-	slot3:getAssetAsync("guideitem/window_" .. slot1, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+	LoadAnyAsync("guideitem/window_" .. slot1, "", nil, function (slot0)
 		if IsNil(slot0) then
 			return
 		end
@@ -274,7 +270,7 @@ slot0.LoadDialogueWindow = function(slot0, slot1, slot2)
 		if uv2 then
 			uv2()
 		end
-	end), true, true)
+	end)
 end
 
 slot0.ActiveDialogueWindow = function(slot0, slot1)

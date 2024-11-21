@@ -321,6 +321,24 @@ slot0.GetLastAward = function(slot0)
 	}
 end
 
+slot0.GetMaxAvailableTargetIndex = function(slot0)
+	slot1 = slot0.availableTargetIndex or 1
+
+	for slot4 = slot1, #slot0.targets do
+		if slot0.targets[slot4] <= slot0.count then
+			slot0.availableTargetIndex = slot4
+		else
+			break
+		end
+	end
+
+	return slot0.availableTargetIndex or 0
+end
+
+slot0.GetAllAvailableAwards = function(slot0)
+	return _.slice(slot0.dropList, math.min(slot0:GetLevel() + 1, slot0:GetMaxAvailableTargetIndex()), slot0:GetMaxAvailableTargetIndex() - slot0:GetLevel())
+end
+
 slot0.STATE_LOCK = 1
 slot0.STATE_CAN_GET = 2
 slot0.STATE_GOT = 3

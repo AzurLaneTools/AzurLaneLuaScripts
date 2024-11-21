@@ -732,6 +732,539 @@ pg.activity_limit_item_guide = {
 			}
 		}
 	},
+	[49] = {
+		is_new = 1,
+		activity = 5690,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 49,
+		drop_id = 150440,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"puzzle connect"
+				},
+				"「助けて！ララさん」で依頼1をクリア"
+			}
+		}
+	},
+	[50] = {
+		is_new = 1,
+		activity = 5690,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 50,
+		drop_id = 150460,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"puzzle connect"
+				},
+				"「助けて！ララさん」で依頼2をクリア"
+			}
+		}
+	},
+	[51] = {
+		is_new = 0,
+		activity = 5690,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 51,
+		drop_id = 150480,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"puzzle connect"
+				},
+				"「助けて！ララさん」で依頼3をクリア"
+			}
+		}
+	},
+	[52] = {
+		is_new = 0,
+		activity = 5690,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 52,
+		drop_id = 150500,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"puzzle connect"
+				},
+				"「助けて！ララさん」で依頼4をクリア"
+			}
+		}
+	},
+	[53] = {
+		is_new = 0,
+		activity = 5690,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 53,
+		drop_id = 150520,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"puzzle connect"
+				},
+				"「助けて！ララさん」で依頼5をクリア"
+			}
+		}
+	},
+	[54] = {
+		is_new = 0,
+		activity = 5690,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 54,
+		drop_id = 150540,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"puzzle connect"
+				},
+				"「助けて！ララさん」で依頼6をクリア"
+			}
+		}
+	},
+	[55] = {
+		is_new = 0,
+		activity = 5690,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 55,
+		drop_id = 150560,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"puzzle connect"
+				},
+				"「助けて！ララさん」で依頼7をクリア"
+			}
+		}
+	},
+	[56] = {
+		is_new = 0,
+		activity = 5690,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 56,
+		drop_id = 316103,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"限定任務をクリア"
+			}
+		}
+	},
+	[57] = {
+		is_new = 0,
+		activity = 5690,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 57,
+		drop_id = 316120,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"限定任務をクリア"
+			}
+		}
+	},
+	[58] = {
+		is_new = 0,
+		activity = 5690,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 58,
+		drop_id = 316106,
+		count_storage = 1,
+		link_params = {
+			{
+				2,
+				{
+					"scene level"
+				},
+				"コラボステージのストーリーをすべて解放"
+			}
+		}
+	},
+	[59] = {
+		is_new = 0,
+		activity = 5690,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 59,
+		drop_id = 316123,
+		count_storage = 1,
+		link_params = {
+			{
+				2,
+				{
+					"scene court yard",
+					{}
+				},
+				"家具ショップで購入"
+			}
+		}
+	},
+	[60] = {
+		is_new = 1,
+		activity = 5690,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 60,
+		drop_id = 316307,
+		count_storage = 0,
+		link_params = {
+			{
+				7,
+				{
+					69
+				},
+				"「ピポピポトレーニングくん」をクリア"
+			}
+		}
+	},
+	[61] = {
+		is_new = 0,
+		activity = 5690,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 61,
+		drop_id = 316309,
+		count_storage = 1,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"限定任務をクリア"
+			}
+		}
+	},
+	[62] = {
+		is_new = 1,
+		activity = 5690,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 62,
+		drop_id = 316303,
+		count_storage = 0,
+		link_params = {
+			{
+				7,
+				{
+					69
+				},
+				"「ピポピポトレーニングくん」をクリア"
+			}
+		}
+	},
+	[63] = {
+		is_new = 1,
+		activity = 5690,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 63,
+		drop_id = 316306,
+		count_storage = 0,
+		link_params = {
+			{
+				7,
+				{
+					69
+				},
+				"「ピポピポトレーニングくん」をクリア"
+			}
+		}
+	},
+	[64] = {
+		is_new = 0,
+		activity = 5690,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 64,
+		drop_id = 316308,
+		count_storage = 1,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"限定任務をクリア"
+			}
+		}
+	},
+	[65] = {
+		is_new = 0,
+		activity = 5690,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 65,
+		drop_id = 316110,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"限定任務をクリア"
+			}
+		}
+	},
+	[66] = {
+		is_new = 0,
+		activity = 5690,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 66,
+		drop_id = 316111,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"限定任務をクリア"
+			}
+		}
+	},
+	[67] = {
+		is_new = 0,
+		activity = 5690,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 67,
+		drop_id = 316119,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"限定任務をクリア"
+			}
+		}
+	},
+	[68] = {
+		is_new = 0,
+		activity = 5690,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 68,
+		drop_id = 316108,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"限定任務をクリア"
+			}
+		}
+	},
+	[69] = {
+		is_new = 0,
+		activity = 5690,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 69,
+		drop_id = 316102,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"限定任務をクリア"
+			}
+		}
+	},
+	[70] = {
+		is_new = 0,
+		activity = 5690,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 70,
+		drop_id = 316113,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"限定任務をクリア"
+			}
+		}
+	},
+	[71] = {
+		is_new = 1,
+		activity = 5690,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 71,
+		drop_id = 13660,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"「助けて！ララさん」関連任務をクリア"
+			}
+		}
+	},
+	[72] = {
+		is_new = 1,
+		activity = 5690,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 72,
+		drop_id = 13680,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"ToLoveGameView"
+				},
+				"「ピポピポトレーニングくん」関連任務をクリア"
+			}
+		}
+	},
+	[73] = {
+		is_new = 1,
+		activity = 5690,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 73,
+		drop_id = 13700,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"限定任務をクリア"
+			}
+		}
+	},
+	[74] = {
+		is_new = 1,
+		activity = 5690,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 74,
+		drop_id = 13720,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"限定任務をクリア"
+			}
+		}
+	},
+	[75] = {
+		is_new = 1,
+		activity = 5690,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 75,
+		drop_id = 13740,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"限定任務をクリア"
+			}
+		}
+	},
+	[76] = {
+		is_new = 1,
+		activity = 5690,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 76,
+		drop_id = 13760,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"限定任務をクリア"
+			}
+		}
+	},
 	get_id_list_by_activity = {
 		[4937] = {
 			1,
@@ -771,6 +1304,36 @@ pg.activity_limit_item_guide = {
 			46,
 			47,
 			48
+		},
+		[5690] = {
+			49,
+			50,
+			51,
+			52,
+			53,
+			54,
+			55,
+			56,
+			57,
+			58,
+			59,
+			60,
+			61,
+			62,
+			63,
+			64,
+			65,
+			66,
+			67,
+			68,
+			69,
+			70,
+			71,
+			72,
+			73,
+			74,
+			75,
+			76
 		}
 	},
 	all = {
@@ -810,6 +1373,34 @@ pg.activity_limit_item_guide = {
 		45,
 		46,
 		47,
-		48
+		48,
+		49,
+		50,
+		51,
+		52,
+		53,
+		54,
+		55,
+		56,
+		57,
+		58,
+		59,
+		60,
+		61,
+		62,
+		63,
+		64,
+		65,
+		66,
+		67,
+		68,
+		69,
+		70,
+		71,
+		72,
+		73,
+		74,
+		75,
+		76
 	}
 }

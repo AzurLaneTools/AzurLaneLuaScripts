@@ -104,6 +104,8 @@ slot0.ReturnModel = function(slot0)
 end
 
 slot0.LoadScene = function(slot0, slot1)
+	gcAll(true)
+
 	slot2 = SceneOpMgr.Inst
 
 	slot2:LoadSceneAsync("scenes/worldmap3d", "worldmap3d", LoadSceneMode.Additive, function (slot0, slot1)

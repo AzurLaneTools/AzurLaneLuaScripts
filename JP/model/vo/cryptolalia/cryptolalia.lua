@@ -48,12 +48,22 @@ slot0.IsEmpty = function(slot0)
 end
 
 slot0.GetDefaultLangType = function(slot0)
-	if not uv0.IsEmpty(slot0:GetJpCpkName()) then
-		return uv0.LANG_TYPE_JP
-	end
+	if PLATFORM_CODE == PLATFORM_CH or PLATFORM_CHT then
+		if not uv0.IsEmpty(slot0:GetCnCpkName()) then
+			return uv0.LANG_TYPE_CH
+		end
 
-	if not uv0.IsEmpty(slot0:GetCnCpkName()) then
-		return uv0.LANG_TYPE_CH
+		if not uv0.IsEmpty(slot0:GetJpCpkName()) then
+			return uv0.LANG_TYPE_JP
+		end
+	else
+		if not uv0.IsEmpty(slot0:GetJpCpkName()) then
+			return uv0.LANG_TYPE_JP
+		end
+
+		if not uv0.IsEmpty(slot0:GetCnCpkName()) then
+			return uv0.LANG_TYPE_CH
+		end
 	end
 end
 
@@ -282,6 +292,10 @@ slot0.GetResSize = function(slot0, slot1)
 	end
 
 	return slot0.sizes[slot1] or 0
+end
+
+slot0.GetCaptionsColor = function(slot0)
+	return slot0:getConfig("captions_color")
 end
 
 return slot0

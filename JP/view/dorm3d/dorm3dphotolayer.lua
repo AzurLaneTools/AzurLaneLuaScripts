@@ -44,6 +44,7 @@ slot0.init = function(slot0)
 	slot0.btnHideUI = slot0._tf:Find("Center/HideUI")
 	slot0.btnReset = slot0._tf:Find("Center/Reset")
 	slot0.btnFreeze = slot0._tf:Find("Center/Freeze")
+	slot0.btnMove = slot0._tf:Find("Center/Move")
 	slot0.btnZone = slot0._tf:Find("Center/Zone")
 	slot0.btnAr = slot0._tf:Find("Center/Ar")
 	slot0.ARchecker = GetComponent(slot0.btnAr.gameObject, "ARChecker")
@@ -68,6 +69,12 @@ slot0.init = function(slot0)
 
 	slot0.ysScreenShoter = slot0._tf:Find("Shoter"):GetComponent(typeof(YSTool.YSScreenShoter))
 	slot0.ysScreenRecorder = slot0._tf:Find("Shoter"):GetComponent(typeof(YSTool.YSScreenRecorder))
+	slot0.skinSelectPanel = slot0._tf:Find("SkinSelectPanel")
+
+	setActive(slot0.skinSelectPanel, false)
+
+	slot0.btnMenuSmall = slot0._tf:Find("Center/MenuSmall")
+	slot0.btnMenu = slot0._tf:Find("Center/Menu")
 
 	setActive(slot0.panelAction:Find("Layout/Regular/Index"), false)
 	setText(slot0.panelCamera:Find("Layout/DepthOfField/Title/Text"), i18n("dorm3d_photo_len"))
@@ -87,12 +94,16 @@ slot0.init = function(slot0)
 	setText(slot0.panelAction:Find("Layout/Title/Regular/Selected"), i18n("dorm3d_photo_regular_anim"))
 	setText(slot0.panelAction:Find("Layout/Title/Special/Name"), i18n("dorm3d_photo_special_anim"))
 	setText(slot0.panelAction:Find("Layout/Title/Special/Selected"), i18n("dorm3d_photo_special_anim"))
+	setText(slot0.skinSelectPanel:Find("BG/Scroll/Content/Unlock/Title/Text"), i18n("word_unlock"))
+	setText(slot0.skinSelectPanel:Find("BG/Scroll/Content/Lock/Title/Text"), i18n("word_lock"))
 
 	slot0.mainCamera = GameObject.Find("BackYardMainCamera"):GetComponent(typeof(Camera))
 	slot0.stopRecBtn = slot0:findTF("stopRec")
 	slot0.videoTipPanel = slot0:findTF("videoTipPanel")
 
 	setActive(slot0.videoTipPanel, false)
+
+	slot0.loader = AutoLoader.New()
 end
 
 slot0.SetSceneRoot = function(slot0, slot1)
@@ -123,6 +134,14 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0._tf:Find("Center/Normal/Back"), function ()
 		uv0:onBackPressed()
 	end, SFX_CANCEL)
+
+	slot1 = slot0.normalPanel:Find("Zoom/Slider")
+
+	setSlider(slot1, 0, 1, 0)
+	onSlider(slot0, slot1, function (slot0)
+		uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SetPhotoCameraHeight", slot0)
+	end)
+	setActive(slot1, false)
 
 	slot0.activeSetting = false
 
@@ -279,9 +298,9 @@ slot0.didEnter = function(slot0)
 		quickPlayAnimation(uv0._tf:Find("RightTop"), "anim_dorm3d_photo_FtoS")
 	end, SFX_PANEL)
 
-	slot3 = slot0._tf
+	slot4 = slot0._tf
 
-	onButton(slot0, slot3:Find("RightTop/Shot/Shot"), function ()
+	onButton(slot0, slot4:Find("RightTop/Shot/Shot"), function ()
 		slot0 = function(slot0)
 			setActive(uv0.centerPanel, slot0)
 			setActive(uv0._tf:Find("RightTop"), slot0)
@@ -336,9 +355,32 @@ slot0.didEnter = function(slot0)
 			uv0:emit(Dorm3dPhotoMediator.GO_AR, slot0)
 		end)
 	end)
+	onButton(slot0, slot0.btnMove, function ()
+		uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SwitchPhotoCamera")
+
+		uv0.freeMode = not uv0.freeMode
+
+		setActive(uv1, uv0.freeMode)
+		setActive(uv0.btnMove:Find("Selected"), uv0.freeMode)
+	end)
+	onButton(slot0, slot0.btnMenuSmall, function ()
+		setActive(uv0.btnMenuSmall, false)
+		setActive(uv0.btnMenu, true)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.btnMenu:Find("Collapse"), function ()
+		setActive(uv0.btnMenu, false)
+		setActive(uv0.btnMenuSmall, true)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.btnMenu, function ()
+		setActive(uv0.skinSelectPanel, true)
+		uv0:UpdateSkinList()
+	end, SFX_PANEL)
+	onButton(slot0, slot0.skinSelectPanel:Find("BG/Close"), function ()
+		setActive(uv0.skinSelectPanel, false)
+	end, SFX_PANEL)
 
 	slot0.activePanel = 1
-	slot2 = {
+	slot3 = {
 		{
 			btn = slot0.btnAction,
 			On = function ()
@@ -365,7 +407,7 @@ slot0.didEnter = function(slot0)
 		}
 	}
 
-	table.Ipairs(slot2, function (slot0, slot1)
+	table.Ipairs(slot3, function (slot0, slot1)
 		onToggle(uv0, slot1.btn, function (slot0)
 			if not slot0 then
 				return
@@ -400,7 +442,7 @@ slot0.didEnter = function(slot0)
 
 	slot0:InitData()
 	slot0:FirstEnterZone()
-	triggerToggle(slot2[slot0.activePanel].btn, true)
+	triggerToggle(slot3[slot0.activePanel].btn, true)
 	slot0:UpdateZoneList()
 end
 
@@ -606,8 +648,7 @@ slot0.UpdateActionPanel = function(slot0)
 				uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCharPoint", slot7)
 			end
 
-			uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SwitchPhotoCamera")
-			warning(slot0.startStamp)
+			uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SyncCurrentInterestTransform")
 
 			if slot0.index > #slot0.animPlayList then
 				uv4()
@@ -631,7 +672,21 @@ slot0.UpdateActionPanel = function(slot0)
 				end
 
 				uv2.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCharPoint", slot0)
-				uv2.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SwitchPhotoCamera")
+				uv2.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SyncCurrentInterestTransform")
+
+				if uv2.freeMode then
+					slot1 = uv2.scene.cameras[uv2.scene.CAMERA.PHOTO_FREE]
+					slot2 = slot1:GetComponent(typeof(UnityEngine.CharacterController))
+					slot3 = slot1.transform.forward
+					slot3.y = 0
+
+					slot3:Normalize()
+
+					slot4 = slot3 * -0.01
+
+					slot2:Move(slot4)
+					slot2:Move(-slot4)
+				end
 			end)
 		else
 			uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlaySingleAction", slot9:GetStateName())
@@ -675,7 +730,6 @@ slot0.UpdateActionPanel = function(slot0)
 		end)
 	end
 
-	slot0.settingSpecialFurnitureIndex = nil
 	slot12 = slot0.room:GetCameraZones()[slot0.zoneIndex]
 
 	slot13 = function(slot0, slot1)
@@ -1116,6 +1170,106 @@ slot0.UpdateLightingPanel = function(slot0)
 	setActive(slot0.panelLightning:Find("Layout/Filter/Slider"), false)
 end
 
+slot0.UpdateSkinList = function(slot0)
+	slot2 = slot0.scene.ladyDict[slot0.scene.apartment:GetConfigID()]
+	slot4 = slot2.skinId
+	slot5 = {}
+	slot6 = {}
+
+	_.each(slot2.skinIdList, function (slot0)
+		if ApartmentProxy.CheckUnlockConfig(pg.dorm3d_resource[slot0].unlock) then
+			table.insert(uv0, slot0)
+		else
+			table.insert(uv1, slot0)
+		end
+	end)
+
+	slot7 = function(slot0, slot1)
+		UIItemList.StaticAlign(slot0, slot0:GetChild(0), #(slot1 and uv0 or uv1), function (slot0, slot1, slot2)
+			if slot0 ~= UIItemList.EventUpdate then
+				return
+			end
+
+			setActive(slot2:Find("Selected"), uv0[slot1 + 1] == uv1)
+			setActive(slot2:Find("Lock"), not uv2)
+
+			if not uv2 then
+				setText(slot2:Find("Lock/Bar/Text"), pg.dorm3d_resource[slot3].unlock_text)
+			end
+
+			uv3.loader:GetSpriteQuiet(string.format("dorm3dselect/apartment_skin_%d", slot3), "", slot2:Find("Icon"))
+			onButton(uv3, slot2, function ()
+				if not uv0 then
+					slot0, slot1 = ApartmentProxy.CheckUnlockConfig(pg.dorm3d_resource[uv1].unlock)
+
+					pg.TipsMgr.GetInstance():ShowTips(slot1)
+
+					return
+				end
+
+				if uv1 == uv2 then
+					return
+				end
+
+				slot0 = uv1
+
+				seriesAsync({
+					function (slot0)
+						if uv0.settingHideCharacter then
+							uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCharacterBylayer")
+						end
+
+						uv0.scene.SwitchCharacterSkin(uv1, uv2, uv3, slot0)
+					end,
+					function (slot0)
+						if not uv0.animInfo then
+							return slot0()
+						end
+
+						for slot5 = #uv0.animInfo.animPlayList, 1, -1 do
+							if #slot1.animPlayList[slot5]:GetStartPoint() > 0 then
+								uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCharPoint", slot7)
+
+								break
+							end
+
+							if slot5 == 1 then
+								uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCharPoint", uv0.room:GetCameraZones()[uv0.zoneIndex]:GetWatchCameraName())
+							end
+						end
+
+						uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SyncCurrentInterestTransform")
+
+						slot2 = slot1.animPlayList[#slot1.animPlayList]
+
+						uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlaySingleAction", slot2:GetStateName())
+						uv0.scene.ladyDict[uv0.scene.apartment:GetConfigID()].ladyAnimator:Update(slot2:GetAnimTime())
+						uv0.timerAnim:Stop()
+
+						uv0.timerAnim = nil
+						uv0.animInfo = nil
+						uv0.animPlaying = nil
+
+						slot0()
+					end,
+					function ()
+						uv0:UpdateActionPanel()
+
+						if uv0.settingHideCharacter then
+							uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "HideCharacterBylayer")
+						end
+
+						uv0:UpdateSkinList()
+					end
+				})
+			end, SFX_PANEL)
+		end)
+	end
+
+	slot7(slot0.skinSelectPanel:Find("BG/Scroll/Content/Unlock/List"), true)
+	slot7(slot0.skinSelectPanel:Find("BG/Scroll/Content/Lock/List"), false)
+end
+
 slot0.SetMute = function(slot0)
 	if slot0 then
 		CriAtom.SetCategoryVolume("Category_CV", 0)
@@ -1129,6 +1283,8 @@ slot0.SetMute = function(slot0)
 end
 
 slot0.willExit = function(slot0)
+	slot0.loader:Clear()
+
 	if slot0.timerAnim then
 		slot0.timerAnim:Stop()
 
@@ -1154,8 +1310,8 @@ slot0.willExit = function(slot0)
 	slot0.scene:RevertCharacter(slot0.scene.apartment:GetConfigID())
 end
 
-slot0.SetCamaraPinchSliderValue = function(slot0, slot1)
-	setSlider(slot0.normalPanel:Find("Zoom/Slider"), 0, 1, 1 - (slot1 - 0.5) / 0.5)
+slot0.SetPhotoCameraSliderValue = function(slot0, slot1)
+	setSlider(slot0.normalPanel:Find("Zoom/Slider"), 0, 1, slot1)
 end
 
 return slot0

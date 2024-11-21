@@ -48,9 +48,9 @@ if IsUnityEditor then
 		time:Start()
 		print("luaIdeDebugFunc")
 	end
-
-	ResourceMgr.Inst.enableAssetNameFinder = false
 end
+
+ResourceMgr.Inst.enableAssetNameFinder = false
 
 if PLATFORM_CODE == PLATFORM_CHT and PLATFORM == 8 then
 	pg.SdkMgr.GetInstance():InitSDK()

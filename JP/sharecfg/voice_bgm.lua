@@ -76,9 +76,9 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "login",
+		default_bgm = "tl-theme-1",
 		special_bgm = "",
-		bgm = "login"
+		bgm = "tl-theme-1"
 	},
 	NewMainScene = {
 		default_bgm = "main",
@@ -136,14 +136,14 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "musashi-1",
+		default_bgm = "story-richang-refreshing-short",
 		special_bgm = "",
-		bgm = "musashi-1"
+		bgm = "story-richang-refreshing-short"
 	},
 	BuildShipScene = {
-		default_bgm = "main",
+		default_bgm = "story-richang-refreshing-short",
 		special_bgm = "",
-		bgm = "main"
+		bgm = "story-richang-refreshing-short"
 	},
 	VolleyballGameView = {
 		default_bgm = "doa_minigame",
@@ -1734,5 +1734,60 @@ pg.voice_bgm = {
 		default_bgm = "story-musicanniversary-gorgeous",
 		special_bgm = "",
 		bgm = "story-musicanniversary-gorgeous"
+	},
+	CryptolaliaScene = {
+		default_bgm = "story-richang-quiet",
+		special_bgm = "",
+		bgm = "story-richang-quiet"
+	},
+	WorldMediaCollectionEntranceScene = {
+		default_bgm = "main",
+		special_bgm = "",
+		bgm = "main"
+	},
+	WorldMediaCollectionMemoryLayer = {
+		default_bgm = "main",
+		special_bgm = "",
+		bgm = "main"
+	},
+	WorldMediaCollectionRecordLayer = {
+		default_bgm = "main",
+		special_bgm = "",
+		bgm = "main"
+	},
+	WorldMediaCollectionFileLayer = {
+		default_bgm = "main",
+		special_bgm = "",
+		bgm = "main"
+	},
+	ToLoveMainPage = {
+		default_bgm = "story-richang-rosy-short",
+		special_bgm = "",
+		bgm = "story-richang-rosy-short"
+	},
+	ToLovePtPage = {
+		default_bgm = "story-richang-rosy-short",
+		special_bgm = "",
+		bgm = "story-richang-rosy-short"
+	},
+	ToloveCollectPage = {
+		default_bgm = "story-richang-rosy-short",
+		special_bgm = "",
+		bgm = "story-richang-rosy-short"
+	},
+	ToLoveCollabBackHillUI = {
+		default_bgm = "tl-battle",
+		special_bgm = "",
+		bgm = "tl-battle"
+	},
+	PuzzleConnectUI = {
+		default_bgm = "story-richang-refreshing",
+		special_bgm = "",
+		bgm = "story-richang-refreshing"
+	},
+	PuzzleConnectPlayingUI = {
+		default_bgm = "story-richang-refreshing",
+		special_bgm = "",
+		bgm = "story-richang-refreshing"
 	}
 }

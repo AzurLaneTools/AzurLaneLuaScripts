@@ -10734,6 +10734,27 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70278] = {
+		id = 70278,
+		name = "2024tolove联动 我方召唤单位移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 5,
+				param = {
+					stopCount = 90,
+					Z2 = -15,
+					moveCount = 240,
+					Z1 = 15,
+					duration = -1,
+					X1 = -10,
+					X2 = 10
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

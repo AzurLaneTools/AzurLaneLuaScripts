@@ -7094,6 +7094,11 @@ _G.pg.base.gametip.word_shipNation_senran = {
 }
 
 
+_G.pg.base.gametip.word_shipNation_tolove = {
+	tip = "ToLOVEる"
+}
+
+
 _G.pg.base.gametip.word_reset = {
 	tip = "クリア"
 }
@@ -12738,7 +12743,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "期間限定建造を累計200回行うと「武蔵」を確定で入手可能！（最大4隻まで）"
+	tip = " 「ララ・サタリン・デビルーク」「金色の闇」など出現率UP！"
 }
 
 
@@ -26121,6 +26126,75 @@ _G.pg.base.gametip.cruise_task_help_2410 = {
 }
 
 
+_G.pg.base.gametip.battlepass_main_tip_2412 = {
+	tip = "2024/12/1-2025/1/31キャンペーン期間中、シーズン任務累計<icon name=pt w=0.5 h=0.5/>入手報酬で<color=#854747>「ジュリオ・チェザーレ(META)」</color>などを入手可能"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2412 = {
+	tip = {
+		{
+			info = [[
+■キャンペーン開催期間
+ 2024.12.1（日）0:00～2025.1.31（金）23:59
+
+■概要
+「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。
+また、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。
+通常報酬からは艦船「ジュリオ・チェザーレ(META)」、SP報酬からは軽空母「ヴェーザー」の限定着せ替え「オフタイム・カフェ」を入手できます。
+
+■遊び方
+・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。
+ ①週次開放任務
+ キャンペーン開始時とキャンペーン期間中毎週月曜日0時に開放される任務。全8グループ
+ ②全期間任務
+ 最初から全開放される任務。全1グループ
+・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。
+ さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。
+・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。
+ ①通常報酬
+ 「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります
+ ②SP報酬
+ 「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手できます。
+・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。
+
+■Tips
+・プレイスタイル
+ シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくり返しながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。
+
+・クルーズパス
+ ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。
+
+・任務のスキップ（オススメしません）
+ 「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。
+ ダイヤを消費しますので、オススメしません。
+ 「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2412 = {
+	tip = {
+		{
+			info = [[
+■シーズン任務について
+・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。
+ ①週次開放任務
+ キャンペーン開始時とキャンペーン期間中毎週月曜日0時に開放される任務。全8グループ
+ ②全期間任務
+ 最初から全開放される任務。全1グループ
+
+・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。
+
+・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。
+ ダイヤを消費しますので、オススメしません……
+ 「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "リセット"
 }
@@ -30747,7 +30821,7 @@ _G.pg.base.gametip.cryptolalia_delete_res_tip = {
 
 
 _G.pg.base.gametip.cryptolalia_delete_res_title = {
-	tip = "アセットDL"
+	tip = "アセット削除"
 }
 
 
@@ -35982,6 +36056,11 @@ _G.pg.base.gametip.cruise_title_2410 = {
 }
 
 
+_G.pg.base.gametip.cruise_title_2412 = {
+	tip = "シーズン任務・ⅩⅩ期"
+}
+
+
 _G.pg.base.gametip.battlepass_main_time_title = {
 	tip = "今期残り時間："
 }
@@ -36024,6 +36103,21 @@ _G.pg.base.gametip.cruise_shop_title_equip_skin = {
 
 _G.pg.base.gametip.cruise_shop_lock_tip = {
 	tip = "開催中シーズン任務Lv50達成"
+}
+
+
+_G.pg.base.gametip.cruise_tip_skin = {
+	tip = "シーズン任務へ"
+}
+
+
+_G.pg.base.gametip.cruise_tip_base = {
+	tip = "-基本報酬-"
+}
+
+
+_G.pg.base.gametip.cruise_tip_upgrade = {
+	tip = "-追加報酬-"
 }
 
 
@@ -36214,6 +36308,16 @@ _G.pg.base.gametip.levelscene_mapselect_sp = {
 
 _G.pg.base.gametip.levelscene_mapselect_ex = {
 	tip = "EX"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_normal = {
+	tip = "普通"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_advanced = {
+	tip = "挑戦"
 }
 
 
@@ -36441,4 +36545,287 @@ _G.pg.base.gametip.airforce_desc_5 = {
 
 _G.pg.base.gametip.drom3d_memory_limit_tip = {
 	tip = "端末メモリは推奨スペックを下回っているため、ゲームがクラッシュする可能性があります"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_1 = {
+	tip = "シールドUP！"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_2 = {
+	tip = "スコアUP！"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_3 = {
+	tip = "制限時間UP！"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_4 = {
+	tip = "シールド超UP！"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_5 = {
+	tip = "スコア超UP！"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_6 = {
+	tip = "制限時間超UP！"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_7 = {
+	tip = "オールUP！"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_1 = {
+	tip = "ゲーム開始時にシールドを1枚所持。シールド1枚につき爆発を1回防げる"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_2 = {
+	tip = "ゲーム終了時、最終スコアが1.2倍になる"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_3 = {
+	tip = "ゲーム開始時、制限時間が10秒延長される"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_4 = {
+	tip = "ゲーム開始時にシールドを1枚所持。5ラウンド回避するごとにシールドが1枚追加される（最大2枚まで）。シールド1枚につき爆発を1回防げる"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_5 = {
+	tip = "ゲーム終了時、最終スコアが1.2倍になる。また、5ラウンドごとにスコア倍率が0.01増加する"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_6 = {
+	tip = "ゲーム開始時、制限時間が10秒延長される。時間切れになる度、50%の確率でさらに10秒延長される"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_7 = {
+	tip = "ゲーム開始時にシールドを1枚所持し、制限時間が10秒延長される。ゲーム終了時、最終スコアが1.2倍になる"
+}
+
+
+_G.pg.base.gametip.tolovegame_join_reward = {
+	tip = "報酬"
+}
+
+
+_G.pg.base.gametip.tolovegame_score = {
+	tip = "スコア"
+}
+
+
+_G.pg.base.gametip.tolovegame_rank_tip = {
+	tip = "フレンドと大艦隊メンバーのみ表示"
+}
+
+
+_G.pg.base.gametip.tolovegame_lock_1 = {
+	tip = "$1日$2時間後に解放"
+}
+
+
+_G.pg.base.gametip.tolovegame_lock_2 = {
+	tip = "$1時間後に解放"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_switch_1 = {
+	tip = "バフ有効"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_switch_2 = {
+	tip = "バフ無効"
+}
+
+
+_G.pg.base.gametip.tolovegame_proceed = {
+	tip = "確認"
+}
+
+
+_G.pg.base.gametip.tolovegame_collect = {
+	tip = "受取"
+}
+
+
+_G.pg.base.gametip.tolovegame_collected = {
+	tip = "受取済"
+}
+
+
+_G.pg.base.gametip.tolovegame_tutorial = {
+	tip = {
+		{
+			info = "異世界のプリンセスが指揮官のために作った特訓装置！\n"
+		},
+		{
+			info = "1. ゲームが開始すると、キャラ上部に矢印が順次表示されます；"
+		},
+		{
+			info = "2. 矢印が全部表示されると、ステージ画面で爆発が発生！矢印通りに画面左下のコントローラを操作すると、爆発を回避できます；"
+		},
+		{
+			info = "3. 爆発を全部回避する度に、入手するスコアが増加します；"
+		},
+		{
+			info = "4. 「特訓バフ」を有効化し、制限時間内でハイスコアを狙いましょう！ "
+		}
+	}
+}
+
+
+_G.pg.base.gametip.tolovegame_awards = {
+	tip = "報酬"
+}
+
+
+_G.pg.base.gametip.tolovemainpage_skin_countdown = {
+	tip = "残り$1時間"
+}
+
+
+_G.pg.base.gametip.tolovemainpage_build_countdown = {
+	tip = "終了間近"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_title = {
+	tip = "依頼確認"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_ship_need = {
+	tip = "$1からの依頼"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_task_need = {
+	tip = "必要素材："
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_detail_collect = {
+	tip = "素材収集へ"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_detail_puzzle = {
+	tip = "パーツ組み立て"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_detail_connection = {
+	tip = "回路設計"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_ship_unknown = {
+	tip = "???"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_lock_by_front = {
+	tip = "前依頼達成で解放"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_lock_by_time = {
+	tip = "$1日$2時間後に解放"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_cheat = {
+	tip = "うん！この程度なら任せて～！"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_open_detail = {
+	tip = "依頼をこなす"
+}
+
+
+_G.pg.base.gametip.tolove_main_help = {
+	tip = {
+		{
+			info = "イベント紹介："
+		},
+		{
+			info = "<color=#92fc63>11月21日（木）~12月5日（木） メンテまで</color>コラボイベント「危険発明接近中！」開催"
+		},
+		{
+			info = "<color=#7D7D7D>記念章家具、累計Pt報酬受取、イベントショップ交換は12月11日（水）23:59まで</color>\n"
+		},
+		{
+			info = "イベントステージに<color=#FCD400>出撃</color>\nイベント海域に出撃し、Ptアイテム「エナジーストーン」を集め「作戦収穫 累計中！」や「ショップ」で報酬を交換可能！\n"
+		},
+		{
+			info = "<color=#FCD400>「助けて、ララさん！」</color>\nイベント海域・メイン海域3章以降のステージで「エネルギーの破片」を集めると、「助けて！ララさん」で母港の艦船たちの発明依頼を開放可能。ミニゲームで発明を完成し依頼を達成すると、「仕事が楽しくなるメカ」などの限定装備を入手可能。\n"
+		},
+		{
+			info = "ミニゲーム<color=#FCD400>「ピポピポトレーニングくん」</color>\n11/27（水）まで毎日開放されるミニゲームステージをクリアすると、家具「プリンセスの絵」などの限定家具をGET！さらに「特訓任務」をクリアすると報酬を入手可能。\n"
+		},
+		{
+			info = "<color=#FCD400>「記念章」</color>\nイベント期間中に開放される各種コンテンツを遊ぶと、6種類の「データチップ」を入手可能。「データチップ」をすべて集めると、「記念章」ページで家具「デビルーク風記念章」と交換可能！\n"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_finished = {
+	tip = "完了済"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_title_desc = {
+	tip = "依頼詳細"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_pop_next = {
+	tip = "次へ"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_pop_finish = {
+	tip = "完成"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_pop_save = {
+	tip = "進捗セーブしました"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_unlock = {
+	tip = "開放済依頼"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_lock = {
+	tip = "未開放依頼"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_line_tip = {
+	tip = "一筆描きですべてのパーツをつなげよう!"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_puzzle_tip = {
+	tip = "パーツはジョイントポイントに合わせて配置可能"
 }

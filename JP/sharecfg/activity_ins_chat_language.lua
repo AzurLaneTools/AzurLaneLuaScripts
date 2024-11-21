@@ -1225,7 +1225,184 @@ pg.activity_ins_chat_language = setmetatable({
 		1221,
 		1222,
 		1223,
-		1224
+		1224,
+		1225,
+		1226,
+		1227,
+		1228,
+		1229,
+		1230,
+		1231,
+		1232,
+		1233,
+		1234,
+		1235,
+		1236,
+		1237,
+		1238,
+		1239,
+		1240,
+		1241,
+		1242,
+		1243,
+		1244,
+		1245,
+		1246,
+		1247,
+		1248,
+		1249,
+		1250,
+		1251,
+		1252,
+		1253,
+		1254,
+		1255,
+		1257,
+		1258,
+		1259,
+		1260,
+		1261,
+		1262,
+		1263,
+		1264,
+		1265,
+		1266,
+		1267,
+		1268,
+		1269,
+		1270,
+		1271,
+		1272,
+		1273,
+		1274,
+		1275,
+		1276,
+		1277,
+		1278,
+		1279,
+		1280,
+		1281,
+		1282,
+		1283,
+		1284,
+		1285,
+		1286,
+		1287,
+		1288,
+		1289,
+		1290,
+		1291,
+		1292,
+		1293,
+		1294,
+		1295,
+		1296,
+		1297,
+		1298,
+		1299,
+		1300,
+		1301,
+		1302,
+		1303,
+		1304,
+		1305,
+		1306,
+		1307,
+		1308,
+		1309,
+		1310,
+		1311,
+		1312,
+		1313,
+		1314,
+		1315,
+		1316,
+		1317,
+		1318,
+		1319,
+		1320,
+		1321,
+		1322,
+		1323,
+		1324,
+		1325,
+		1326,
+		1327,
+		1328,
+		1329,
+		1330,
+		1331,
+		1332,
+		1333,
+		1334,
+		1335,
+		1336,
+		1337,
+		1338,
+		1339,
+		1340,
+		1341,
+		1342,
+		1343,
+		1344,
+		1345,
+		1346,
+		1347,
+		1348,
+		1349,
+		1350,
+		1351,
+		1352,
+		1353,
+		1354,
+		1355,
+		1356,
+		1357,
+		1358,
+		1359,
+		1360,
+		1361,
+		1362,
+		1363,
+		1364,
+		1365,
+		1366,
+		1367,
+		1368,
+		1369,
+		1370,
+		1371,
+		1372,
+		1373,
+		1374,
+		1375,
+		1376,
+		1377,
+		1378,
+		1379,
+		1380,
+		1381,
+		1382,
+		1383,
+		1384,
+		1385,
+		1386,
+		1387,
+		1388,
+		1389,
+		1390,
+		1391,
+		1392,
+		1393,
+		1394,
+		1395,
+		1396,
+		1397,
+		1398,
+		1399,
+		1400,
+		1401,
+		1402
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -11999,5 +12176,1642 @@ pg.base.activity_ins_chat_language = {
 		type = 1,
 		id = 1224,
 		flag = 8
+	},
+	{
+		param = "指揮官、クラシックのコンサートにでも行かないか？",
+		ship_group = 40503,
+		type = 1,
+		id = 1225,
+		flag = 0,
+		option = {
+			{
+				1,
+				"いいよ"
+			},
+			{
+				2,
+				"いつ行く？"
+			}
+		}
+	},
+	{
+		param = "いいよ。いつ行く？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1226,
+		flag = 1
+	},
+	{
+		param = "いいよ。いつ行く？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1227,
+		flag = 2
+	},
+	{
+		param = "今週末だ。お前のスケジュールが空いてる時間を選んでおいた",
+		ship_group = 40503,
+		type = 1,
+		id = 1228,
+		flag = 0,
+		option = {
+			{
+				3,
+				"さすがフッテンだな"
+			}
+		}
+	},
+	{
+		param = "さすがフッテンだな。細かいところまで気が回る",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1229,
+		flag = 3
+	},
+	{
+		param = "231",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 1230,
+		flag = 3
+	},
+	{
+		param = "まさかこんなにすんなり承諾するとはな",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1231,
+		flag = 3
+	},
+	{
+		param = "クラシックに興味がないかと要らぬ心配をした",
+		ship_group = 40503,
+		type = 1,
+		id = 1232,
+		flag = 3,
+		option = {
+			{
+				4,
+				"クラシックには結構興味があるんだ"
+			},
+			{
+				5,
+				"確かにそこまで興味がある方じゃないな"
+			}
+		}
+	},
+	{
+		param = "実は古典音楽に興味があってね。ウルリッヒもそこまでは知らなかったんじゃないか",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1233,
+		flag = 4
+	},
+	{
+		param = "じゃあ誘ってよかったってわけか",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1234,
+		flag = 4
+	},
+	{
+		param = "レコードのコレクションもある。今度聴きに来るか",
+		ship_group = 40503,
+		type = 1,
+		id = 1235,
+		flag = 4,
+		option = {
+			{
+				6,
+				"ああ。都合をつけるよ"
+			}
+		}
+	},
+	{
+		param = "ああ。都合をつけるよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1236,
+		flag = 6
+	},
+	{
+		param = "来週末でどうだ？その時もお前のスケジュールは空いてるはずだ",
+		ship_group = 40503,
+		type = 1,
+		id = 1237,
+		flag = 6,
+		option = {
+			{
+				7,
+				"今日の午後でもいいよ"
+			}
+		}
+	},
+	{
+		param = "今日の午後でもいいよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1238,
+		flag = 7
+	},
+	{
+		param = "今日の午後⋯⋯？スケジュールは埋まってるはずじゃ？",
+		ship_group = 40503,
+		type = 1,
+		id = 1239,
+		flag = 7,
+		option = {
+			{
+				8,
+				"確かにスケジュールは埋まってるが――"
+			}
+		}
+	},
+	{
+		param = "確かにスケジュールは埋まってるが――",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1240,
+		flag = 8
+	},
+	{
+		param = "指揮官はスケジュールを変更する権限があるんだ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1241,
+		flag = 8
+	},
+	{
+		param = "なるほど。随分と偉いやつだな",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1242,
+		flag = 8
+	},
+	{
+		param = "じゃあ午後2時に執務室まで迎えに行く。約束だ",
+		ship_group = 40503,
+		type = 1,
+		id = 1243,
+		flag = 8,
+		option = {
+			{
+				9,
+				"ああ、約束だ"
+			}
+		}
+	},
+	{
+		param = "ああ、約束だ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1244,
+		flag = 9
+	},
+	{
+		param = "確かにそこまで興味がある方じゃないな",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1245,
+		flag = 5
+	},
+	{
+		param = "でもコンサートとなると話は別だ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1246,
+		flag = 5
+	},
+	{
+		param = "どんな違いがあるんだ？",
+		ship_group = 40503,
+		type = 1,
+		id = 1247,
+		flag = 5,
+		option = {
+			{
+				10,
+				"音楽鑑賞は⋯⋯"
+			}
+		}
+	},
+	{
+		param = "そうだな。音楽は、大抵一人で聴くものだ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1248,
+		flag = 10
+	},
+	{
+		param = "でもコンサートなら、フッテンと一緒に鑑賞できる",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1249,
+		flag = 10
+	},
+	{
+		param = "なるほど、確かにその違いは大きい。コンサートに行く理由にもなる",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1250,
+		flag = 10
+	},
+	{
+		param = "が、これを機にクラシックも好きになってくれたらな",
+		ship_group = 40503,
+		type = 1,
+		id = 1251,
+		flag = 10,
+		option = {
+			{
+				11,
+				"ほほう"
+			}
+		}
+	},
+	{
+		param = "じゃあ、クラシックの音楽の魅力を理解できるようにしてくれ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1252,
+		flag = 11
+	},
+	{
+		param = "期待は裏切らないつもりだ",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1253,
+		flag = 11
+	},
+	{
+		param = "じゃあ今週の日曜、午後4時に執務室で会おう",
+		ship_group = 40503,
+		type = 1,
+		id = 1254,
+		flag = 11,
+		option = {
+			{
+				12,
+				"ああ、約束だ"
+			}
+		}
+	},
+	{
+		param = "ああ、約束だ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1255,
+		flag = 12
+	},
+	[1257] = {
+		param = "学園の運動場の怪事件を聞いたか？",
+		ship_group = 40503,
+		type = 1,
+		id = 1257,
+		flag = 0,
+		option = {
+			{
+				1,
+				"？？？？"
+			},
+			{
+				2,
+				"⋯⋯誰？"
+			}
+		}
+	},
+	[1258] = {
+		param = "？？？？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1258,
+		flag = 1
+	},
+	[1259] = {
+		param = "フッテンまで学園の不思議の調査を始めた…だと？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1259,
+		flag = 1
+	},
+	[1260] = {
+		param = "⋯⋯誰？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1260,
+		flag = 2
+	},
+	[1261] = {
+		param = "ブリストル、人の携帯を勝手に使ったらダメだよ？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1261,
+		flag = 2
+	},
+	[1262] = {
+		param = "別に他人に使われてなんかないが",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1262,
+		flag = 2
+	},
+	[1263] = {
+		param = "だが確かにブリストルと無関係ってわけじゃない",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1263,
+		flag = 2
+	},
+	[1264] = {
+		param = "お前は聞いてないのか",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1264,
+		flag = 0
+	},
+	[1265] = {
+		param = "ブリストルが今日、運動場の下で幽霊が出たって騒ぎ立てていてな。現場を封鎖しようと協力者を探して回ってるんだ",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1265,
+		flag = 0
+	},
+	[1266] = {
+		param = "鉄血の寮まで来てたぞ",
+		ship_group = 40503,
+		type = 1,
+		id = 1266,
+		flag = 0,
+		option = {
+			{
+				3,
+				"えぇ⋯⋯"
+			}
+		}
+	},
+	[1267] = {
+		param = "えぇ⋯⋯それで、鉄血寮で誰か行ったのか？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1267,
+		flag = 3
+	},
+	[1268] = {
+		param = "オイゲンだ",
+		ship_group = 40503,
+		type = 1,
+		id = 1268,
+		flag = 3,
+		option = {
+			{
+				4,
+				"⋯⋯"
+			}
+		}
+	},
+	[1269] = {
+		param = "⋯⋯",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1269,
+		flag = 4
+	},
+	[1270] = {
+		param = "どうした。お前も見に行きたいのか？",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1270,
+		flag = 4
+	},
+	[1271] = {
+		param = "気になるなら行くといい",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1271,
+		flag = 4
+	},
+	[1272] = {
+		param = "仕事のことなら手伝う。これでどうだ",
+		ship_group = 40503,
+		type = 1,
+		id = 1272,
+		flag = 4,
+		option = {
+			{
+				5,
+				"こっちの仕事より⋯"
+			}
+		}
+	},
+	[1273] = {
+		param = "仕事より...フッテンには現場の様子を見てきてほしいんだ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1273,
+		flag = 5
+	},
+	[1274] = {
+		param = "ん？何か危険があるのか？",
+		ship_group = 40503,
+		type = 1,
+		id = 1274,
+		flag = 5,
+		option = {
+			{
+				6,
+				"運動場が危ないんだ"
+			}
+		}
+	},
+	[1275] = {
+		param = "運動場が危ないんだ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1275,
+		flag = 6
+	},
+	[1276] = {
+		param = "何が言いたいかよく分からないんだが",
+		ship_group = 40503,
+		type = 1,
+		id = 1276,
+		flag = 6,
+		option = {
+			{
+				7,
+				"ほら、この前みたいに⋯"
+			}
+		}
+	},
+	[1277] = {
+		param = "ほら、この前みたいに、結局何の成果もなかったってことになったら⋯",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1277,
+		flag = 7
+	},
+	[1278] = {
+		param = "不思議なんて存在しない。これは良い結果じゃないのか",
+		ship_group = 40503,
+		type = 1,
+		id = 1278,
+		flag = 7,
+		option = {
+			{
+				8,
+				"いや、その逆だ"
+			}
+		}
+	},
+	[1279] = {
+		param = "「追加調査」ってオイゲンに唆されて、トラックを掘り返すことになるかもしれない⋯",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1279,
+		flag = 8
+	},
+	[1280] = {
+		param = "⋯⋯⋯⋯",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1280,
+		flag = 8
+	},
+	[1281] = {
+		param = "⋯⋯確かにオイゲンらしい提案だ",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1281,
+		flag = 8
+	},
+	[1282] = {
+		param = "じゃあ代わりに様子を見てやる",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1282,
+		flag = 8
+	},
+	[1283] = {
+		param = "そうだ。録画もしたほうがいいか？",
+		ship_group = 40503,
+		type = 1,
+		id = 1283,
+		flag = 8,
+		option = {
+			{
+				9,
+				"録画？"
+			}
+		}
+	},
+	[1284] = {
+		param = "録画？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1284,
+		flag = 9
+	},
+	[1285] = {
+		param = "ああ。もし本当に学園の不思議なんてあったら、お前にも見せてやれる",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1285,
+		flag = 9
+	},
+	[1286] = {
+		param = "なかったとしても――そうだな、証拠映像として使えるだろう",
+		ship_group = 40503,
+		type = 1,
+		id = 1286,
+		flag = 9,
+		option = {
+			{
+				10,
+				"ああ、任せた"
+			}
+		}
+	},
+	[1287] = {
+		param = "ああ、任せた",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1287,
+		flag = 10
+	},
+	[1288] = {
+		param = "311",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 1288,
+		flag = 10
+	},
+	[1289] = {
+		param = "任せとけ",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1289,
+		flag = 10
+	},
+	[1290] = {
+		param = "367",
+		ship_group = 40503,
+		option = "",
+		type = 4,
+		id = 1290,
+		flag = 10
+	},
+	[1291] = {
+		param = "注意喚起：長時間座ってないで、立って、水を飲んで、目を休ませろ",
+		ship_group = 40503,
+		type = 1,
+		id = 1291,
+		flag = 0,
+		option = {
+			{
+				1,
+				"了解。今立ち上がった"
+			},
+			{
+				2,
+				"ちょうど立ち上がって運動しようとしてたところだ"
+			}
+		}
+	},
+	[1292] = {
+		param = "了解。今立ち上がった",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1292,
+		flag = 1
+	},
+	[1293] = {
+		param = "それにしてもいいタイミングだな。危うく忘れるところだった",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1293,
+		flag = 1
+	},
+	[1294] = {
+		param = "⋯⋯",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1294,
+		flag = 1
+	},
+	[1295] = {
+		param = "戻ったら、執務室にアラームを何個か置いてやる",
+		ship_group = 40503,
+		type = 1,
+		id = 1295,
+		flag = 1,
+		option = {
+			{
+				3,
+				"ああ、頼む"
+			},
+			{
+				4,
+				"直接知らせてほしいな"
+			}
+		}
+	},
+	[1296] = {
+		param = "ああ、頼む",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1296,
+		flag = 3
+	},
+	[1297] = {
+		param = "直接知らせてほしい",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1297,
+		flag = 4
+	},
+	[1298] = {
+		param = "いいだろう",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1298,
+		flag = 4
+	},
+	[1299] = {
+		param = "とはいえ、良い習慣は身につけておけ",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1299,
+		flag = 1
+	},
+	[1300] = {
+		param = "仕事が忙しくても、体は大事にしろ",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1300,
+		flag = 1
+	},
+	[1301] = {
+		param = "もっと自分のことを考えろ",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1301,
+		flag = 1
+	},
+	[1302] = {
+		param = "もしくは⋯⋯違う言い方をすれば⋯⋯",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1302,
+		flag = 1
+	},
+	[1303] = {
+		param = "私を心配させるな",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1303,
+		flag = 1
+	},
+	[1304] = {
+		param = "⋯返事はいいから、目を瞑って休め",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1304,
+		flag = 1
+	},
+	[1305] = {
+		param = "戻ったら直接話そう",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1305,
+		flag = 1
+	},
+	[1306] = {
+		param = "ちょうど立ち上がって運動しようとしてたところだ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1306,
+		flag = 2
+	},
+	[1307] = {
+		param = "これからもちゃんと運動しろ",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1307,
+		flag = 2
+	},
+	[1308] = {
+		param = "それにしても、まだ仕事が終わってないのか。もう何日も休んでないだろ",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1308,
+		flag = 2
+	},
+	[1309] = {
+		param = "手伝わせてくれ",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1309,
+		flag = 2
+	},
+	[1310] = {
+		param = "⋯⋯もっと私を頼ってもいい",
+		ship_group = 40503,
+		type = 1,
+		id = 1310,
+		flag = 2,
+		option = {
+			{
+				5,
+				"もうすぐ終わるから心配しないで"
+			},
+			{
+				6,
+				"この苦しみから解放してくれ！"
+			}
+		}
+	},
+	[1311] = {
+		param = "もうすぐ終わるから心配しないで",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1311,
+		flag = 5
+	},
+	[1312] = {
+		param = "そうか",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1312,
+		flag = 5
+	},
+	[1313] = {
+		param = "だがもう執務室に向かってる",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1313,
+		flag = 5
+	},
+	[1314] = {
+		param = "出迎えってことにしてくれ",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1314,
+		flag = 5
+	},
+	[1315] = {
+		param = "この苦しみから解放してくれ！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1315,
+		flag = 6
+	},
+	[1316] = {
+		param = "最初から素直に言えばいいものを",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1316,
+		flag = 6
+	},
+	[1317] = {
+		param = "もう執務室に向かってる。もう少し持ちこたえろ",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1317,
+		flag = 6
+	},
+	[1318] = {
+		param = "返事するな。目を瞑って休め",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1318,
+		flag = 2
+	},
+	[1319] = {
+		param = "戻ったら直接話そう",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1319,
+		flag = 2
+	},
+	[1320] = {
+		param = "魔法の輝きを――",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1320,
+		flag = 0
+	},
+	[1321] = {
+		param = "358",
+		ship_group = 49906,
+		type = 4,
+		id = 1321,
+		flag = 0,
+		option = {
+			{
+				1,
+				"スタンプ「はわわ」"
+			},
+			{
+				2,
+				"スタンプ「止まらないです」"
+			}
+		}
+	},
+	[1322] = {
+		param = "322",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 1322,
+		flag = 1
+	},
+	[1323] = {
+		param = "304",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 1323,
+		flag = 2
+	},
+	[1324] = {
+		param = "ふふふ、魔法の力を感じた？私の使い魔",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1324,
+		flag = 0
+	},
+	[1325] = {
+		param = "234",
+		ship_group = 49906,
+		type = 4,
+		id = 1325,
+		flag = 0,
+		option = {
+			{
+				3,
+				"何かあった？"
+			}
+		}
+	},
+	[1326] = {
+		param = "何か嬉しいことでもあった？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1326,
+		flag = 3
+	},
+	[1327] = {
+		param = "いいえ…ただ、スタンプが不思議な「魔法」に思えただけよ",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1327,
+		flag = 3
+	},
+	[1328] = {
+		param = "私たちに嵌められた「枷」の存在さえ弱く感じるほど、今は離れているのに…",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1328,
+		flag = 3
+	},
+	[1329] = {
+		param = "たった一つのスタンプで、この瞬間の感情を伝えられる",
+		ship_group = 49906,
+		type = 1,
+		id = 1329,
+		flag = 3,
+		option = {
+			{
+				4,
+				"言われてみれば⋯⋯"
+			}
+		}
+	},
+	[1330] = {
+		param = "言われてみれば確かに⋯⋯",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1330,
+		flag = 4
+	},
+	[1331] = {
+		param = "まあ、スタンプだけじゃなく",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1331,
+		flag = 4
+	},
+	[1332] = {
+		param = "チャットだし、もう少し気楽になったほうがいいと思うよ？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1332,
+		flag = 4
+	},
+	[1333] = {
+		param = "あら？",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1333,
+		flag = 4
+	},
+	[1334] = {
+		param = "魔女のチャットの楽しみ方に文句でもあるのかしら？",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1334,
+		flag = 4
+	},
+	[1335] = {
+		param = "反抗的な子になろうとしても構わないけど、それなりの対処をさせてもらうわ",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1335,
+		flag = 4
+	},
+	[1336] = {
+		param = "ふふふ⋯⋯",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1336,
+		flag = 4
+	},
+	[1337] = {
+		param = "206",
+		ship_group = 49906,
+		type = 4,
+		id = 1337,
+		flag = 4,
+		option = {
+			{
+				5,
+				"……？"
+			},
+			{
+				6,
+				"スタンプ：ぎゅっと"
+			}
+		}
+	},
+	[1338] = {
+		param = "⋯⋯？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1338,
+		flag = 5
+	},
+	[1339] = {
+		param = "206",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 1339,
+		flag = 6
+	},
+	[1340] = {
+		param = "⋯⋯⋯⋯",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1340,
+		flag = 0
+	},
+	[1341] = {
+		param = "⋯⋯間違えたわ。これじゃない",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1341,
+		flag = 0
+	},
+	[1342] = {
+		param = "これよ",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1342,
+		flag = 0
+	},
+	[1343] = {
+		param = "4",
+		ship_group = 49906,
+		option = "",
+		type = 4,
+		id = 1343,
+		flag = 0
+	},
+	[1344] = {
+		param = "使い魔はどんな匂いが好みかしら？",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1344,
+		flag = 0
+	},
+	[1345] = {
+		param = "⋯⋯",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1345,
+		flag = 0
+	},
+	[1346] = {
+		param = "⋯⋯間違えたわ",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1346,
+		flag = 0
+	},
+	[1347] = {
+		param = "どんな香りが好きかしら？",
+		ship_group = 49906,
+		type = 1,
+		id = 1347,
+		flag = 0,
+		option = {
+			{
+				1,
+				"質問がちょっとアバウトすぎるな"
+			}
+		}
+	},
+	[1348] = {
+		param = "質問がちょっとアバウトすぎるな",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1348,
+		flag = 1
+	},
+	[1349] = {
+		param = "「どんな香り」って具体的には？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1349,
+		flag = 1
+	},
+	[1350] = {
+		param = "まだ私の心が読めないのね",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1350,
+		flag = 1
+	},
+	[1351] = {
+		param = "じゃあ教えてあげる",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1351,
+		flag = 1
+	},
+	[1352] = {
+		param = "私は魔法の雫の香りについて聞いているわ",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1352,
+		flag = 1
+	},
+	[1353] = {
+		param = "つまり香水よ",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1353,
+		flag = 1
+	},
+	[1354] = {
+		param = "でもあなたはあまり詳しくないでしょう？",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1354,
+		flag = 1
+	},
+	[1355] = {
+		param = "だから大まかな好きな香りさえ教えてくれれば結構よ",
+		ship_group = 49906,
+		type = 1,
+		id = 1355,
+		flag = 1,
+		option = {
+			{
+				2,
+				"食べ物の香りが好き"
+			},
+			{
+				3,
+				"パーセヴァルの香りが好き"
+			},
+			{
+				4,
+				"パーセヴァルが選ぶものなら何でも好き"
+			}
+		}
+	},
+	[1356] = {
+		param = "食べ物の香りが大好きだ！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1356,
+		flag = 2
+	},
+	[1357] = {
+		param = "私も好きよ",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1357,
+		flag = 2
+	},
+	[1358] = {
+		param = "でも食べ物の香りの香水⋯⋯ね",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1358,
+		flag = 2
+	},
+	[1359] = {
+		param = "試してみてもいいわ",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1359,
+		flag = 2
+	},
+	[1360] = {
+		param = "パーセヴァルの香りが好きかな",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1360,
+		flag = 3
+	},
+	[1361] = {
+		param = "ふふふ、まだ私の香りを覚えているのね",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1361,
+		flag = 3
+	},
+	[1362] = {
+		param = "私への愛が抑えきれなくなってきたってことかしら？",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1362,
+		flag = 3
+	},
+	[1363] = {
+		param = "18",
+		ship_group = 49906,
+		option = "",
+		type = 4,
+		id = 1363,
+		flag = 3
+	},
+	[1364] = {
+		param = "パーセヴァルが選ぶものなら何でも好きさ。任せるよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1364,
+		flag = 4
+	},
+	[1365] = {
+		param = "私に主導権を握らせるって意味かしら？",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1365,
+		flag = 4
+	},
+	[1366] = {
+		param = "ふふふ、悪くないわ",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1366,
+		flag = 4
+	},
+	[1367] = {
+		param = "じゃあ期待して待っていて",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1367,
+		flag = 4
+	},
+	[1368] = {
+		param = "ええ。今いいアイデアが浮かんだわ",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1368,
+		flag = 0
+	},
+	[1369] = {
+		param = "先に行くわね",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1369,
+		flag = 0
+	},
+	[1370] = {
+		param = "調合が終わったら、また連絡するわ",
+		ship_group = 49906,
+		type = 1,
+		id = 1370,
+		flag = 0,
+		option = {
+			{
+				5,
+				"（スタンプ：なのだ！）"
+			},
+			{
+				6,
+				"（スタンプ：期待）"
+			},
+			{
+				7,
+				"（スタンプ：愛情表現）"
+			}
+		}
+	},
+	[1371] = {
+		param = "239",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 1371,
+		flag = 5
+	},
+	[1372] = {
+		param = "234",
+		ship_group = 49906,
+		option = "",
+		type = 4,
+		id = 1372,
+		flag = 5
+	},
+	[1373] = {
+		param = "224",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 1373,
+		flag = 6
+	},
+	[1374] = {
+		param = "227",
+		ship_group = 49906,
+		option = "",
+		type = 4,
+		id = 1374,
+		flag = 6
+	},
+	[1375] = {
+		param = "213",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 1375,
+		flag = 7
+	},
+	[1376] = {
+		param = "225",
+		ship_group = 49906,
+		option = "",
+		type = 4,
+		id = 1376,
+		flag = 7
+	},
+	[1377] = {
+		param = "システム：[アウグスト・フォン・パーシヴァル]があなたをつついた",
+		ship_group = 1,
+		option = "",
+		type = 5,
+		id = 1377,
+		flag = 0
+	},
+	[1378] = {
+		param = "眠いわ",
+		ship_group = 49906,
+		type = 1,
+		id = 1378,
+		flag = 0,
+		option = {
+			{
+				1,
+				"昨夜眠れなかったの？"
+			},
+			{
+				2,
+				"[つつく]"
+			}
+		}
+	},
+	[1379] = {
+		param = "昨夜眠れなかったの？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1379,
+		flag = 1
+	},
+	[1380] = {
+		param = "ぐっすり眠れなかったわ",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1380,
+		flag = 1
+	},
+	[1381] = {
+		param = "それで、悪夢を見たわよ",
+		ship_group = 49906,
+		type = 1,
+		id = 1381,
+		flag = 1,
+		option = {
+			{
+				3,
+				"どんな悪夢だったの？"
+			}
+		}
+	},
+	[1382] = {
+		param = "システム：[アウグスト・フォン・パーシヴァル]をつついて魔女の夢に落ちた",
+		ship_group = 0,
+		option = "",
+		type = 5,
+		id = 1382,
+		flag = 2
+	},
+	[1383] = {
+		param = "二度寝してみる？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1383,
+		flag = 2
+	},
+	[1384] = {
+		param = "眠れないわ",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1384,
+		flag = 2
+	},
+	[1385] = {
+		param = "目を閉じると、昨夜の夢を思い出してしまう",
+		ship_group = 49906,
+		type = 1,
+		id = 1385,
+		flag = 2,
+		option = {
+			{
+				3,
+				"どんな悪夢だったの？"
+			}
+		}
+	},
+	[1386] = {
+		param = "どんな悪夢だったの？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1386,
+		flag = 3
+	},
+	[1387] = {
+		param = "魔女を怖がらせる怪物なんているの？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1387,
+		flag = 3
+	},
+	[1388] = {
+		param = "もちろんそんなのいないわ⋯⋯",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1388,
+		flag = 3
+	},
+	[1389] = {
+		param = "あなたよ",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1389,
+		flag = 3
+	},
+	[1390] = {
+		param = "夢の中で、あなたは何も言わずに去ってしまった",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1390,
+		flag = 3
+	},
+	[1391] = {
+		param = "私はすべての魔法を使っても、あなたを見つけることができなかった",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1391,
+		flag = 3
+	},
+	[1392] = {
+		param = "私たちの永遠の絆も消えてしまった",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1392,
+		flag = 3
+	},
+	[1393] = {
+		param = "全く嫌な夢ね",
+		ship_group = 49906,
+		type = 1,
+		id = 1393,
+		flag = 3,
+		option = {
+			{
+				4,
+				"大丈夫、ただの夢だから"
+			},
+			{
+				5,
+				"嫌な夢だな⋯"
+			}
+		}
+	},
+	[1394] = {
+		param = "大丈夫、ただの夢だから",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1394,
+		flag = 4
+	},
+	[1395] = {
+		param = "悪夢って現実とは真逆なんだ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1395,
+		flag = 4
+	},
+	[1396] = {
+		param = "パーセヴァルから離れたりしないから",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1396,
+		flag = 4
+	},
+	[1397] = {
+		param = "そうだな。本当に嫌な夢だ⋯",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1397,
+		flag = 5
+	},
+	[1398] = {
+		param = "でも大丈夫。自分はここにいる。パーセヴァルから離れたりしないから",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1398,
+		flag = 5
+	},
+	[1399] = {
+		param = "それじゃあ、私の使い魔、私の指揮官⋯⋯",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1399,
+		flag = 0
+	},
+	[1400] = {
+		param = "今は他のことは忘れて、私の元に戻ってきて",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1400,
+		flag = 0
+	},
+	[1401] = {
+		param = "あなたが側にいてくれれば、今度目を閉じたら⋯⋯",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1401,
+		flag = 0
+	},
+	[1402] = {
+		param = "きっと素敵な夢になるわ",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1402,
+		flag = 0
 	}
 }
