@@ -6119,7 +6119,7 @@ pg.activity_template = {
 	[4877] = {
 		mark = 20240523,
 		page_info = "",
-		time = "always",
+		time = "stop",
 		type = 14,
 		login_pop = 0,
 		config_id = 1,
@@ -16479,15 +16479,7 @@ pg.activity_template = {
 			12011,
 			12012,
 			12013,
-			12014,
-			12015,
-			12016,
-			12017,
-			12018,
-			12019,
-			12020,
-			12021,
-			12022
+			12014
 		},
 		config_client = {
 			"commonbg/meta_shop_bg",
