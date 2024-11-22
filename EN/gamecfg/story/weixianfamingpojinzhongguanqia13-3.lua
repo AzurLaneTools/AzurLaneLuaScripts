@@ -156,7 +156,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
-			say = "It happened in an instant. Haruna and Sairenji were surrounded by doppelgangers and spirited away in what seemed like no time.",
+			say = "It happened in an instant. Haruna and Yui were surrounded by doppelgangers and spirited away in what seemed like no time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

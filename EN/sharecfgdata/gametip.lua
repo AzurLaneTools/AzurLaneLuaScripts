@@ -35992,7 +35992,7 @@ _G.pg.base.gametip.cruise_title_2410 = {
 
 
 _G.pg.base.gametip.cruise_title_2412 = {
-	tip = "Seasonal Missions - Season 20"
+	tip = "Seasonal Missions – S20"
 }
 
 
