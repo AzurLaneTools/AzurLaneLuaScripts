@@ -2959,14 +2959,14 @@ pg.base.ship_skin_template_20 = {
 			cannon = {
 				{
 					-0.19,
-					0.6,
+					0.65,
 					0
 				}
 			},
 			vicegun = {
 				{
 					-0.2,
-					0.57,
+					0.65,
 					0
 				}
 			},

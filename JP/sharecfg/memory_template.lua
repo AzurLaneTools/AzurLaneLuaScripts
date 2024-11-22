@@ -3286,7 +3286,6 @@ pg.memory_template = setmetatable({
 		3995,
 		3996,
 		3997,
-		4011,
 		4021,
 		4022,
 		4023,
@@ -39607,17 +39606,6 @@ pg.base.memory_template = {
 		story = "HAO7",
 		id = 3997,
 		icon = "memory_hao",
-		is_open = 0
-	},
-	[4011] = {
-		mask = "bg/bg_memory",
-		subtitle = "",
-		type = 1,
-		title = "新キャンペーン、始動！",
-		condition = "解锁「新型促销来袭！」",
-		story = "XINXINGCUXIAOLAIXI1",
-		id = 4011,
-		icon = "memory_xinxingcuxiaolaixi",
 		is_open = 0
 	},
 	[4021] = {

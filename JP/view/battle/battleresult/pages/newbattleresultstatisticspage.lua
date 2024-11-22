@@ -459,7 +459,7 @@ slot0.LoadShipTpls = function(slot0, slot1, slot2, slot3)
 	if #slot1 < #slot2 then
 		table.insert(slot4, function (slot0)
 			LoadAnyAsync("BattleResultItems/Ship", "", nil, function (slot0)
-				if uv0.exited or IsNil(slot0) then
+				if uv0.exited then
 					uv1()
 
 					return
@@ -470,6 +470,8 @@ slot0.LoadShipTpls = function(slot0, slot1, slot2, slot3)
 		end)
 		table.insert(slot4, function (slot0, slot1)
 			if not slot1 then
+				slot0()
+
 				return
 			end
 
@@ -720,7 +722,7 @@ slot0.LoadCommanderTpls = function(slot0, slot1, slot2)
 	if slot1 > #slot0.commaderTpls then
 		table.insert(slot3, function (slot0)
 			LoadAnyAsync("BattleResultItems/Commander", "", nil, function (slot0)
-				if uv0.exited or IsNil(slot0) then
+				if uv0.exited then
 					uv1()
 
 					return
@@ -731,6 +733,8 @@ slot0.LoadCommanderTpls = function(slot0, slot1, slot2)
 		end)
 		table.insert(slot3, function (slot0, slot1)
 			if not slot1 then
+				slot0()
+
 				return
 			end
 
@@ -742,7 +746,7 @@ slot0.LoadCommanderTpls = function(slot0, slot1, slot2)
 		end)
 	end
 
-	parallelAsync(slot3, slot2)
+	seriesAsync(slot3, slot2)
 end
 
 slot0.onBackPressed = function(slot0)

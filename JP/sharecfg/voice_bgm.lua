@@ -136,14 +136,14 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "story-richang-light ",
+		default_bgm = "story-richang-light",
 		special_bgm = "",
-		bgm = "story-richang-light "
+		bgm = "story-richang-light"
 	},
 	BuildShipScene = {
-		default_bgm = "story-richang-light ",
+		default_bgm = "story-richang-light",
 		special_bgm = "",
-		bgm = "story-richang-light "
+		bgm = "story-richang-light"
 	},
 	VolleyballGameView = {
 		default_bgm = "doa_minigame",
