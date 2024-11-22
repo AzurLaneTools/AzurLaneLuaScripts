@@ -323,6 +323,8 @@ slot0.execute = function(slot0, slot1)
 			uv0:sendNotification(GAME.LOAD_PLAYER_DATA_DONE)
 		end
 
+		pg.GameTrackerMgr.GetInstance():FetchCache()
+
 		if Dorm3dRoomTemplateScene.FirstDefaultSetting then
 			uv0:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataGraphics(Dorm3dRoomTemplateScene.FirstDefaultSetting))
 
