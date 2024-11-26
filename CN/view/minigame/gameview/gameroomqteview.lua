@@ -608,7 +608,7 @@ slot0.loadXGM = function(slot0, slot1)
 	else
 		slot2 = slot0.autoLoader
 
-		slot2:LoadPrefab("ui/minigameui/qtegameuiasync_atlas", "xiongguimao", function (slot0)
+		slot2:LoadPrefab("ui/minigameui/qtegameuiasync_atlas", "xiongguimaoTpl", function (slot0)
 			uv0.xgm = tf(slot0)
 			uv0.xgmSpine = uv0.xgm:GetComponent("SpineAnimUI")
 			uv0.xgmSklGraphic = uv0.xgm:GetComponent("SkeletonGraphic")

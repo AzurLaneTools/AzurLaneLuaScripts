@@ -25471,7 +25471,7 @@ _G.pg.base.spweapon_data_statistics[13740] = {
 	skill_upgrade = {
 		{
 			0,
-			111130
+			111140
 		}
 	},
 	label = {}

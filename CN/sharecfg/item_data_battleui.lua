@@ -48,10 +48,23 @@ pg.item_data_battleui = {
 		icon = "103",
 		scene = {}
 	},
+	[104] = {
+		unlock = "世界巡游二十期获取",
+		name = "幻光律动 ",
+		key = "SkinNormal_20241107",
+		display_icon = "Ui_104",
+		is_unlock = 1,
+		rare = 3,
+		desc = "霓虹色彩与律动光束交相辉映，元素交织出流畅的节奏，为指挥作战带来独特的视觉体验。 ",
+		id = 104,
+		icon = "104",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
 		102,
-		103
+		103,
+		104
 	}
 }

@@ -22638,9 +22638,10 @@ pg.base.furniture_data_template = {
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
-		effect = "",
-		is_get_time_note = 1,
 		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
 		is_3d_obj = 0,
 		tag = 8,
 		spine_extra = "",
@@ -22650,13 +22651,12 @@ pg.base.furniture_data_template = {
 		belong = 1,
 		canputon = 0,
 		themeId = 0,
-		icon = "tolovexunzhangicon",
 		count = 1,
 		name = "戴比路克风纪念章",
-		id = 292,
 		advice = 0,
+		id = 292,
+		icon = "tolovexunzhangicon",
 		comfortable = 0,
-		deblocking = 1,
 		size = {
 			5,
 			5
@@ -22664,17 +22664,16 @@ pg.base.furniture_data_template = {
 		offset = {},
 		canputonGrid = {},
 		can_trigger = {
-			1
+			2,
+			{
+				"story-richang-rosy-short"
+			}
 		},
 		spine = {
 			{
 				"tolovexunzhang",
 				"normal"
 			}
-		},
-		interaction_bgm = {
-			0,
-			"story-richang-rosy-short"
 		},
 		interAction_group = {}
 	},
