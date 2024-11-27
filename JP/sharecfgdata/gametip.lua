@@ -36057,7 +36057,7 @@ _G.pg.base.gametip.cruise_title_2410 = {
 
 
 _G.pg.base.gametip.cruise_title_2412 = {
-	tip = "シーズン任務・ⅩⅩ期"
+	tip = "シーズン任務・20期"
 }
 
 

@@ -1028,7 +1028,7 @@ pg.battlepass_event_award = {
 		id = 40020,
 		drop_client = {
 			31,
-			102,
+			104,
 			1
 		}
 	}
