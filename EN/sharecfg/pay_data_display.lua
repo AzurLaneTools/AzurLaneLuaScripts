@@ -7745,8 +7745,8 @@ pg.base.pay_data_display = {
 		},
 		display = {
 			{
-				1,
-				4020,
+				8,
+				59599,
 				1500
 			}
 		},

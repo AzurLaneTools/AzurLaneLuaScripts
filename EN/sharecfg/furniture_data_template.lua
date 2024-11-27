@@ -19986,9 +19986,9 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
-		rarity = 5,
 		is_get_time_note = 1,
 		belong = 1,
+		rarity = 5,
 		is_3d_obj = 0,
 		tag = 8,
 		icon = "tolovexunzhangicon",
@@ -19999,11 +19999,11 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		picture = "",
 		canputon = 0,
 		themeId = 0,
-		deblocking = 1,
 		count = 1,
 		describe = "Let's ride a spaceship to new adventures!",
-		id = 292,
 		advice = 0,
+		id = 292,
+		deblocking = 1,
 		comfortable = 0,
 		size = {
 			5,
@@ -20012,17 +20012,16 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		offset = {},
 		canputonGrid = {},
 		can_trigger = {
-			1
+			2,
+			{
+				"story-richang-rosy-short"
+			}
 		},
 		spine = {
 			{
 				"tolovexunzhang",
 				"normal"
 			}
-		},
-		interaction_bgm = {
-			0,
-			"story-richang-rosy-short"
 		},
 		interAction_group = {}
 	},
