@@ -50,11 +50,27 @@ slot1.Load = function(slot0, slot1, slot2, slot3)
 end
 
 slot1.LoadAssetSync = function(slot0, slot1, ...)
-	return ResourceMgr.Inst:LoadAssetSync(slot0.ab, slot0:ChangeAssetName(slot1), ...)
+	slot1 = slot0:ChangeAssetName(slot1)
+
+	if not slot0.ab then
+		warning(string.format("without assetbundle:%s", slot0.path))
+
+		return nil
+	end
+
+	return ResourceMgr.Inst:LoadAssetSync(slot0.ab, slot1, ...)
 end
 
 slot1.LoadAssetAsync = function(slot0, slot1, slot2, slot3, ...)
-	return ResourceMgr.Inst:LoadAssetAsync(slot0.ab, slot0:ChangeAssetName(slot1), slot2, UnityEngine.Events.UnityAction_UnityEngine_Object(slot3), ...)
+	slot1 = slot0:ChangeAssetName(slot1)
+
+	if not slot0.ab then
+		warning(string.format("without assetbundle:%s", slot0.path))
+
+		return nil
+	end
+
+	return ResourceMgr.Inst:LoadAssetAsync(slot0.ab, slot1, slot2, UnityEngine.Events.UnityAction_UnityEngine_Object(slot3), ...)
 end
 
 slot1.GetAllAssetNames = function(slot0)

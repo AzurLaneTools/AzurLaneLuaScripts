@@ -180,7 +180,7 @@ return {
 				text = slot0[10]
 			},
 			ui = {
-				scale = 0.13,
+				scale = 1,
 				path = "/UICamera/Canvas/UIMain/BackYardFeedUI(Clone)/frame/food_50001/icon_bg/icon",
 				triggerType = {
 					3

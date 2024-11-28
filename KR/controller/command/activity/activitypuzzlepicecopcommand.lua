@@ -14,7 +14,7 @@ slot0.execute = function(slot0, slot1)
 		return
 	end
 
-	if slot4 == 1 then
+	if slot4 == PuzzleActivity.CMD_COMPLETE then
 		if #slot8.data2_list > #slot9.pickup_picturepuzzle + #slot9.drop_picturepuzzle then
 			return
 		end
@@ -24,20 +24,20 @@ slot0.execute = function(slot0, slot1)
 		end
 
 		slot0:sendNotification(GAME.ACTIVITY_OPERATION, {
-			cmd = 1,
-			activity_id = slot5
+			activity_id = slot5,
+			cmd = PuzzleActivity.CMD_COMPLETE
 		})
 
 		return
-	elseif slot4 == 2 then
-		if not slot2.isPickUp and not table.contains(slot8.data1_list, slot3) then
+	elseif slot4 == PuzzleActivity.CMD_ACTIVATE then
+		if not table.contains(slot8.data1_list, slot3) and not table.contains(slot9.pickup_picturepuzzle, slot3) then
 			return
 		end
 
 		if table.contains(slot8.data2_list, slot3) then
 			return
 		end
-	elseif slot4 == 3 then
+	elseif slot4 == PuzzleActivity.CMD_UNLCOK_TIP then
 		if table.contains(slot8.data3_list, slot3) then
 			return
 		end
@@ -47,7 +47,7 @@ slot0.execute = function(slot0, slot1)
 
 			return
 		end
-	elseif slot4 == 4 then
+	elseif slot4 == PuzzleActivity.CMD_EARN_EXTRA then
 		if slot8.data1 ~= 1 then
 			return
 		end
@@ -72,15 +72,15 @@ slot0.execute = function(slot0, slot1)
 		if slot0.result == 0 then
 			uv0 = getProxy(ActivityProxy):getActivityById(uv1)
 
-			if uv2 == 1 then
+			if uv2 == PuzzleActivity.CMD_COMPLETE then
 				uv0.data1 = 1
-			elseif uv2 == 2 then
+			elseif uv2 == PuzzleActivity.CMD_ACTIVATE then
 				table.insert(uv0.data2_list, uv3)
-			elseif uv2 == 3 then
+			elseif uv2 == PuzzleActivity.CMD_UNLCOK_TIP then
 				table.insert(uv0.data3_list, uv3)
 
 				uv0.data2 = pg.TimeMgr.GetInstance():GetServerTime() + uv4.cd
-			elseif uv2 == 4 then
+			elseif uv2 == PuzzleActivity.CMD_EARN_EXTRA then
 				uv0.data1 = 2
 			end
 

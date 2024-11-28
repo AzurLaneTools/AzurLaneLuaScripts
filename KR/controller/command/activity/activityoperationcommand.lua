@@ -224,9 +224,9 @@ slot0.updateActivityData = function(slot0, slot1, slot2, slot3, slot4)
 			end
 		end
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_PUZZLA then
-		if slot1.cmd == 1 then
+		if slot1.cmd == PuzzleActivity.CMD_COMPLETE then
 			slot3.data1 = 1
-		elseif slot1.cmd == 4 then
+		elseif slot1.cmd == PuzzleActivity.CMD_EARN_EXTRA then
 			slot3.data1 = 2
 		end
 

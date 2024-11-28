@@ -168206,6 +168206,106 @@ _G.pg.base.item_virtual_data_statistics[65037] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65041] = {
+	drop_gold_max = 0,
+	name = "자줏빛 바둑돌",
+	display = "「짙은 자줏빛의 안개」복각 이벤트 교환에 사용되며 이벤트 종료 후 사라집니다.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/rixiv3_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65041,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65042] = {
+	drop_gold_max = 0,
+	name = "훈련Pt ",
+	display = "아이콘 테두리 이벤트에서 교환 가능. 이벤트 종료 후 사라짐. ",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_s",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 99,
+	id = 65042,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65043] = {
+	drop_gold_max = 0,
+	name = "스킨 체험권",
+	display = "「한정 스킨 상점」에서 한정 스킨으로 교환가능합니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65043,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65044] = {
+	drop_gold_max = 0,
+	name = "1회 건조권",
+	display = "「짙은 자줏빛의 안개」 이벤트 한정 복각에서 획득. 한정 건조 무료 1회 진행 가능(이벤트 종료 후 사라짐)",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5639,
+	icon = "Props/buildTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 22,
+	id = 65044,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[69000] = {
 	drop_gold_max = 0,
 	name = "대미지 수치",

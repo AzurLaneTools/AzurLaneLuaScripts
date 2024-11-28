@@ -25743,7 +25743,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2301] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "운우",
@@ -25754,7 +25754,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2302] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "대국 시작",
@@ -25765,7 +25765,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2303] = {
-		mask = "bg_wuzang_bg1",
+		mask = "bg/bg_wuzang_bg1",
 		subtitle = "",
 		type = 1,
 		title = "번개 작전",
@@ -25776,7 +25776,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2304] = {
-		mask = "bg_wuzang_bg2",
+		mask = "bg/bg_wuzang_bg2",
 		subtitle = "",
 		type = 1,
 		title = "공수겸비",
@@ -25787,7 +25787,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2305] = {
-		mask = "bg_wuzang_bg3",
+		mask = "bg/bg_wuzang_bg3",
 		subtitle = "",
 		type = 1,
 		title = "무녀의 축복",
@@ -25798,7 +25798,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2306] = {
-		mask = "bg_wuzang_bg4",
+		mask = "bg/bg_wuzang_bg4",
 		subtitle = "",
 		type = 1,
 		title = "즐거움",
@@ -25809,7 +25809,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2307] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "탐색",
@@ -25820,7 +25820,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2308] = {
-		mask = "bg_wuzang_bg5",
+		mask = "bg/bg_wuzang_bg5",
 		subtitle = "",
 		type = 1,
 		title = "소원성취",
@@ -25831,7 +25831,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2309] = {
-		mask = "bg_wuzang_bg5",
+		mask = "bg/bg_wuzang_bg5",
 		subtitle = "",
 		type = 1,
 		title = "걷히는 해무",
@@ -25842,7 +25842,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2310] = {
-		mask = "bg_wuzang_bg6",
+		mask = "bg/bg_wuzang_bg6",
 		subtitle = "",
 		type = 1,
 		title = "Z깃발의 광채",
@@ -25853,7 +25853,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2311] = {
-		mask = "bg_wuzang_bg7",
+		mask = "bg/bg_wuzang_bg7",
 		subtitle = "",
 		type = 1,
 		title = "총기함의 명령",
@@ -25864,7 +25864,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2312] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "바람을 따라서",
@@ -25875,7 +25875,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2313] = {
-		mask = "bg_wuzang_bg8",
+		mask = "bg/bg_wuzang_bg8",
 		subtitle = "",
 		type = 1,
 		title = "벚꽃의 결계",
@@ -25886,7 +25886,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2314] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "변혁의 길",
@@ -25897,7 +25897,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2315] = {
-		mask = "bg_wuzang_bg9",
+		mask = "bg/bg_wuzang_bg9",
 		subtitle = "",
 		type = 1,
 		title = "진홍의 맹세",
@@ -25908,7 +25908,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2316] = {
-		mask = "bg_wuzang_bg9",
+		mask = "bg/bg_wuzang_bg9",
 		subtitle = "",
 		type = 1,
 		title = "해역 봉쇄",
@@ -25919,7 +25919,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2317] = {
-		mask = "bg_wuzang_bg10",
+		mask = "bg/bg_wuzang_bg10",
 		subtitle = "",
 		type = 1,
 		title = "신념",
@@ -25930,7 +25930,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2318] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "「그대의 힘은 어디에?」",
@@ -25941,7 +25941,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2319] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "백운 연가",
@@ -25952,7 +25952,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2320] = {
-		mask = "bg_wuzang_bg11",
+		mask = "bg/bg_wuzang_bg11",
 		subtitle = "",
 		type = 1,
 		title = "전투 중단",
@@ -25963,7 +25963,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2321] = {
-		mask = "bg_wuzang_bg11",
+		mask = "bg/bg_wuzang_bg11",
 		subtitle = "",
 		type = 1,
 		title = "기술 혁신",
@@ -25974,7 +25974,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2322] = {
-		mask = "bg_wuzang_bg11",
+		mask = "bg/bg_wuzang_bg11",
 		subtitle = "",
 		type = 1,
 		title = "완연한 봄기운",
@@ -25985,7 +25985,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2323] = {
-		mask = "bg_wuzang_bg12",
+		mask = "bg/bg_wuzang_bg12",
 		subtitle = "",
 		type = 1,
 		title = "꿈결 같은 환상",
@@ -25996,7 +25996,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2324] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "뻐꾸기는 노래하지 않는다",
@@ -26007,7 +26007,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2325] = {
-		mask = "bg_wuzang_bg12",
+		mask = "bg/bg_wuzang_bg12",
 		subtitle = "",
 		type = 1,
 		title = "하늘과 파도",
@@ -26018,7 +26018,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2326] = {
-		mask = "bg_wuzang_bg12",
+		mask = "bg/bg_wuzang_bg12",
 		subtitle = "",
 		type = 1,
 		title = "위압",
@@ -26029,7 +26029,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2327] = {
-		mask = "bg_wuzang_bg13",
+		mask = "bg/bg_wuzang_bg13",
 		subtitle = "",
 		type = 1,
 		title = "기회를 보고 행동하라",
@@ -26040,7 +26040,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2328] = {
-		mask = "bg_wuzang_bg13",
+		mask = "bg/bg_wuzang_bg13",
 		subtitle = "",
 		type = 1,
 		title = "신목의 바람",
@@ -26051,7 +26051,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2329] = {
-		mask = "bg_wuzang_bg14",
+		mask = "bg/bg_wuzang_bg14",
 		subtitle = "",
 		type = 1,
 		title = "연합 작전",
@@ -26062,7 +26062,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2330] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "공방의 칼날",
@@ -26073,7 +26073,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2331] = {
-		mask = "bg_wuzang_bg14",
+		mask = "bg/bg_wuzang_bg14",
 		subtitle = "",
 		type = 1,
 		title = "일식",
@@ -26084,7 +26084,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2332] = {
-		mask = "bg_wuzang_bg14",
+		mask = "bg/bg_wuzang_bg14",
 		subtitle = "",
 		type = 1,
 		title = "낙숫물이 댓돌을 뚫는다",
@@ -26095,7 +26095,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2333] = {
-		mask = "bg_wuzang_bg15",
+		mask = "bg/bg_wuzang_bg15",
 		subtitle = "",
 		type = 1,
 		title = "푸른 약속",
@@ -26106,7 +26106,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2334] = {
-		mask = "bg_wuzang_bg16",
+		mask = "bg/bg_wuzang_bg16",
 		subtitle = "",
 		type = 1,
 		title = "달 저편의 꽃",
@@ -26117,7 +26117,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2335] = {
-		mask = "bg_wuzang_bg0",
+		mask = "bg/bg_wuzang_bg0",
 		subtitle = "",
 		type = 1,
 		title = "인적 드문 고요한 산에 비가 내린 뒤",
@@ -26128,7 +26128,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2336] = {
-		mask = "bg_fuxiangxian_0",
+		mask = "bg/bg_fuxiangxian_0",
 		subtitle = "",
 		type = 1,
 		title = "두 번째 단계",
@@ -26139,7 +26139,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2337] = {
-		mask = "bg_wuzang_bg16",
+		mask = "bg/bg_wuzang_bg16",
 		subtitle = "",
 		type = 1,
 		title = "자염의 비탄",
@@ -26150,7 +26150,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2338] = {
-		mask = "bg_wuzang_bg17",
+		mask = "bg/bg_wuzang_bg17",
 		subtitle = "",
 		type = 1,
 		title = "다섯 번째 퍼즐",
@@ -26161,7 +26161,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2339] = {
-		mask = "blackBg",
+		mask = "bg/bg_memory",
 		subtitle = "",
 		type = 1,
 		title = "모든 걸 꿰뚫어 보는 눈",
@@ -26689,7 +26689,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2411] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "1. 또 다른 이야기",
@@ -26700,7 +26700,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2412] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "2. 새로운 모험",
@@ -26711,7 +26711,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2413] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "3. 시작의 땅",
@@ -26722,7 +26722,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2414] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "4. 비문",
@@ -26733,7 +26733,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2415] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "5. 재료와 조합",
@@ -26744,7 +26744,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2416] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "6. 이계 숲",
@@ -26755,7 +26755,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2417] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "7. 양산형 필후사급",
@@ -26766,7 +26766,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2418] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "8. 필후사와 세이렌",
@@ -26777,7 +26777,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2419] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "9. 가짜 식물",
@@ -26788,7 +26788,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2420] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "10. 투쟁의 성",
@@ -26799,7 +26799,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2421] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "11. 조사와 시합",
@@ -26810,7 +26810,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2422] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "12. DATA-857",
@@ -26821,7 +26821,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2423] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "13. 브리스톨의 가설",
@@ -26832,7 +26832,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2424] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "14. 강행돌파",
@@ -26843,7 +26843,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2425] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "15. 자동 요격 시스템",
@@ -26854,7 +26854,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2426] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "16. 전사와 흉터",
@@ -26865,7 +26865,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2427] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "17. 잃어버린 도시",
@@ -26876,7 +26876,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2428] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "18. 세이렌의 특기 분야",
@@ -26887,7 +26887,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2429] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "19. 던전 입장",
@@ -26898,7 +26898,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2430] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "20. 공중 작전",
@@ -26909,7 +26909,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2431] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "21. 막간",
@@ -26920,7 +26920,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2432] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "22. 핵심 구역",
@@ -26931,7 +26931,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2433] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "23. 모험의 마무리",
@@ -26942,7 +26942,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2434] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "24. 유적의 수호자",
@@ -26953,7 +26953,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2435] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "25. 새로운 모험을 향해",
@@ -26964,7 +26964,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2436] = {
-		mask = "bg_ryza_1",
+		mask = "bg/bg_ryza_1",
 		subtitle = "",
 		type = 1,
 		title = "26. 보물",
@@ -27129,7 +27129,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2461] = {
-		mask = "star_level_bg_106",
+		mask = "bg/star_level_bg_106",
 		subtitle = "",
 		type = 1,
 		title = "질주하는 하얀 파도의 기사",
@@ -27140,7 +27140,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2462] = {
-		mask = "star_level_bg_106",
+		mask = "bg/star_level_bg_106",
 		subtitle = "",
 		type = 1,
 		title = "햇살 아래 경쟁자",
@@ -27151,7 +27151,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2463] = {
-		mask = "star_level_bg_106",
+		mask = "bg/star_level_bg_106",
 		subtitle = "",
 		type = 1,
 		title = "고요한 불꽃놀이의 밤",
@@ -27162,7 +27162,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2464] = {
-		mask = "star_level_bg_106",
+		mask = "bg/star_level_bg_106",
 		subtitle = "",
 		type = 1,
 		title = "푸른 바다와 음유시인",
@@ -27173,7 +27173,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2465] = {
-		mask = "star_level_bg_106",
+		mask = "bg/star_level_bg_106",
 		subtitle = "",
 		type = 1,
 		title = "빨간 구명토끼?!",
@@ -27184,7 +27184,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2466] = {
-		mask = "star_level_bg_106",
+		mask = "bg/star_level_bg_106",
 		subtitle = "",
 		type = 1,
 		title = "검푸른 물총 무사",
@@ -27195,7 +27195,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2467] = {
-		mask = "star_level_bg_106",
+		mask = "bg/star_level_bg_106",
 		subtitle = "",
 		type = 1,
 		title = "밝은 하늘의 인어",
@@ -27206,7 +27206,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2471] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "미지의 도시",
@@ -27217,7 +27217,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2472] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "내일의 고인",
@@ -27228,7 +27228,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2473] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "재방문",
@@ -27239,7 +27239,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2474] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "조각",
@@ -27250,7 +27250,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2475] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "그라나테",
@@ -27261,7 +27261,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2476] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "스포트라이트",
@@ -27272,7 +27272,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2477] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "한 걸음 한 걸음",
@@ -27283,7 +27283,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2478] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "예정 변경",
@@ -27294,7 +27294,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2479] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "선생님과 지휘관",
@@ -27305,7 +27305,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2480] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "II형 의장",
@@ -27316,7 +27316,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2481] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "장점은 살리고, 단점은 피한다.",
@@ -27327,7 +27327,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2482] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "멤피스의 마음",
@@ -27338,7 +27338,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2483] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "유대",
@@ -27349,7 +27349,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2484] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "편안한 여행 1호",
@@ -27360,7 +27360,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2485] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "사모스 섬",
@@ -27371,7 +27371,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2486] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "제로？",
@@ -27382,7 +27382,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2487] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "ANTI-X",
@@ -27393,7 +27393,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2488] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "이곳에서 할 수 있는 일",
@@ -27404,7 +27404,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2489] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "데빌·XV",
@@ -27415,7 +27415,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2490] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "협동 테스트 I",
@@ -27426,7 +27426,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2491] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "협동 테스트 II",
@@ -27437,7 +27437,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2492] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "데빌의 대행자",
@@ -27448,7 +27448,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2493] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "얼음 균열",
@@ -27459,7 +27459,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2494] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "침식",
@@ -27470,7 +27470,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2495] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "용해",
@@ -27481,7 +27481,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2496] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "데빌에 대항하는 방법",
@@ -27492,7 +27492,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2497] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "왕년의 대행자",
@@ -27503,7 +27503,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2498] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "현 IV-「컴파일러」",
@@ -27514,7 +27514,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2499] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "환상 속 진실",
@@ -27525,7 +27525,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2500] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "열대성 회오리 바람",
@@ -27536,7 +27536,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2501] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "기회를 잡자",
@@ -27547,7 +27547,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2502] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "네트워크",
@@ -27558,7 +27558,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2503] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "정치와 신앙",
@@ -27569,7 +27569,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2504] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "「이건 친절한 정보랍니다~」",
@@ -27580,7 +27580,7 @@ pg.base.memory_template = {
 		is_open = 0
 	},
 	[2505] = {
-		mask = "bg_port_NY_future",
+		mask = "bg/bg_port_NY_future",
 		subtitle = "",
 		type = 1,
 		title = "「제가 돌아왔어요, 엔터프라이즈」",

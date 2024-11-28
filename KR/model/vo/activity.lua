@@ -29,7 +29,8 @@ slot0.GetType2Class = function()
 		[ActivityConst.ACTIVITY_TYPE_BOSSSINGLE] = BossSingleActivity,
 		[ActivityConst.ACTIVITY_TYPE_EVENT_SINGLE] = SingleEventActivity,
 		[ActivityConst.ACTIVITY_TYPE_LINER] = LinerActivity,
-		[ActivityConst.ACTIVITY_TYPE_TOWN] = TownActivity
+		[ActivityConst.ACTIVITY_TYPE_TOWN] = TownActivity,
+		[ActivityConst.ACTIVITY_TYPE_AIRFIGHT_BATTLE] = AirFightActivity
 	}
 
 	return uv0
@@ -519,6 +520,9 @@ slot0.readyToAchieve = function(slot0)
 
 			return false
 		end,
+		[ActivityConst.ACTIVITY_TYPE_AIRFIGHT_BATTLE] = function (slot0)
+			return AirFightActivity.readyToAchieve(slot0)
+		end,
 		[ActivityConst.ACTIVITY_TYPE_WORLDINPICTURE] = function (slot0)
 			return not WorldInPictureActiviyData.New(slot0):IsTravelAll() and slot1:GetTravelPoint() > 0 or slot1:GetDrawPoint() > 0 and slot1:AnyAreaCanDraw()
 		end,
@@ -618,7 +622,7 @@ slot0.readyToAchieve = function(slot0)
 		[ActivityConst.ACTIVITY_TYPE_SURVEY] = function (slot0)
 			slot1, slot2 = getProxy(ActivityProxy):isSurveyOpen()
 
-			return slot1 and not SurveyPage.IsEverEnter(slot2)
+			return slot1 and not getProxy(ActivityProxy):isSurveyDone() and not SurveyPage.IsEverEnter(slot2)
 		end,
 		[ActivityConst.ACTIVITY_TYPE_ZUMA] = function (slot0)
 			return LaunchBallActivityMgr.GetInvitationAble(slot0.id)

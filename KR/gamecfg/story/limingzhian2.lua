@@ -616,12 +616,11 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 702010,
 			side = 2,
 			bgName = "bg_tiexuejingmian",
-			dir = 1,
-			actor = 702010,
 			nameColor = "#a9f548",
+			dir = 1,
 			say = "어서 배의 설비를 검사해 봐요. 혹시 어떤 기록이 남아있을지도 모르잖아요!",
 			typewriter = {
 				speed = 0.05,

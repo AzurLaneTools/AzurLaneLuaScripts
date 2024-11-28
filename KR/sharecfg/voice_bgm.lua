@@ -136,19 +136,14 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "story-tempest-marching",
+		default_bgm = "musashi-1",
 		special_bgm = "",
-		bgm = "story-tempest-marching"
+		bgm = "musashi-1"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
 		special_bgm = "",
 		bgm = "main"
-	},
-	AirForceOfDragonEmperyUI = {
-		default_bgm = "story-richang",
-		special_bgm = "",
-		bgm = "story-richang"
 	},
 	VolleyballGameView = {
 		default_bgm = "doa_minigame",
@@ -1694,5 +1689,50 @@ pg.voice_bgm = {
 		default_bgm = "story-ghostnight-fascinsting",
 		special_bgm = "",
 		bgm = "story-ghostnight-fascinsting"
+	},
+	AirForceActivityPage = {
+		default_bgm = "theme-donghuang",
+		special_bgm = "",
+		bgm = "theme-donghuang"
+	},
+	AirForceOfDragonEmperyUI = {
+		default_bgm = "theme-donghuang",
+		special_bgm = "",
+		bgm = "theme-donghuang"
+	},
+	JapanV3REMainPage = {
+		default_bgm = "story-maystorm",
+		special_bgm = "",
+		bgm = "story-maystorm"
+	},
+	JapanV3PtPage = {
+		default_bgm = "story-mayrain",
+		special_bgm = "",
+		bgm = "story-mayrain"
+	},
+	JapanV3FrameRePage = {
+		default_bgm = "theme-misaka",
+		special_bgm = "",
+		bgm = "theme-misaka"
+	},
+	RuoyueLoginRePage = {
+		default_bgm = "musashi-1",
+		special_bgm = "",
+		bgm = "musashi-1"
+	},
+	JapanV3SkinPage = {
+		default_bgm = "story-richang-light",
+		special_bgm = "",
+		bgm = "story-richang-light"
+	},
+	BlackFridaySalesScene = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "story-musicanniversary-gorgeous"
+	},
+	BlackFridayWithManualSignPage_2024 = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "story-musicanniversary-gorgeous"
 	}
 }

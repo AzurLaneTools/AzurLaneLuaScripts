@@ -24497,7 +24497,7 @@ pg.base.furniture_data_template = {
 	},
 	[100067] = {
 		can_rotate = 0,
-		describe = "速度再快也不用担心掉下去了！",
+		describe = "아무리 스피드를 빠르게 해도 떨어지지 않아!",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -24516,7 +24516,7 @@ pg.base.furniture_data_template = {
 		canputon = 0,
 		icon = "paobujiicon",
 		count = 1,
-		name = "全自动防跌落跑步机",
+		name = "전자동 전도방지 RM",
 		advice = 0,
 		id = 100067,
 		tag = 6,

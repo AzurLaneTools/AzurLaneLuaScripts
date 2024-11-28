@@ -8,7 +8,7 @@ return {
 	scripts = {
 		{
 			side = 2,
-			bgName = "star_level_bg_1104 ",
+			bgName = "star_level_bg_1104",
 			dir = 1,
 			bgmDelay = 1,
 			bgm = "echo-loop",
@@ -33,7 +33,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_1104 ",
+			bgName = "star_level_bg_1104",
 			dir = 1,
 			say = "분명히 누운 자세로 의자에 고정되어 있지만, 점점 날고 있는 기분이 들었다.",
 			typewriter = {
@@ -47,7 +47,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_1104 ",
+			bgName = "star_level_bg_1104",
 			dir = 1,
 			say = "마치 보드카 한 통을 마시고 난 뒤 빙판 위로 가서 수십 바퀴의 회전을 하는 것 같았다.",
 			typewriter = {
@@ -61,7 +61,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_1104 ",
+			bgName = "star_level_bg_1104",
 			dir = 1,
 			say = "무수히 많거나 익숙하거나 낯선 그림이 눈앞에서 빠르게 움직이고, 이상한 소음이 먹구름처럼 주변의 공기를 짓누르는 것 같았다.",
 			typewriter = {
@@ -89,7 +89,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_1104 ",
+			bgName = "star_level_bg_1104",
 			dir = 1,
 			say = "드디어 모든 것이 멈췄고 크론시타트는 두 발이 물 위에 닿는 것이 느껴졌다.",
 			typewriter = {

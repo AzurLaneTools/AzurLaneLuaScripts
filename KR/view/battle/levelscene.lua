@@ -1127,7 +1127,11 @@ slot0.updateActivityBtns = function(slot0)
 				slot3 = uv0
 
 				return _.any(slot3:getChapters(), function (slot0)
-					return slot0:IsEXChapter() and slot0:getConfig("boss_expedition_id") == uv0
+					if not slot0:IsEXChapter() then
+						return false
+					end
+
+					return table.contains(slot0:getConfig("boss_expedition_id"), uv0)
 				end)
 			end)
 		else

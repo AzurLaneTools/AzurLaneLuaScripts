@@ -573,14 +573,13 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actorName = "???",
 			side = 2,
 			bgName = "star_level_bg_170",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			oldPhoto = true,
+			dir = 1,
 			actor = 900407,
-			actorName = "???",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그건 그렇지만, 전세기까지 들고나온 안제도 대단하네요.",
 			painting = {
@@ -729,10 +728,9 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_170",
-			nameColor = "#A9F548FF",
 			oldPhoto = true,
 			actor = 900407,
 			actorName = "???",
@@ -823,14 +821,13 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actorName = "??",
 			side = 2,
 			bgName = "star_level_bg_170",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			oldPhoto = true,
+			dir = 1,
 			actor = 900332,
-			actorName = "??",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "으아아아…!",
 			painting = {
@@ -863,14 +860,13 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actorName = "??",
 			side = 2,
 			bgName = "star_level_bg_170",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			oldPhoto = true,
+			dir = 1,
 			actor = 900332,
-			actorName = "??",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그… 그건! 순간적으로 생각난 것뿐이니까 진지하게 받아들이지 말라고 했잖아!",
 			painting = {
@@ -883,14 +879,13 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actorName = "??",
 			side = 2,
 			bgName = "star_level_bg_170",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			oldPhoto = true,
+			dir = 1,
 			actor = 900332,
-			actorName = "??",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "왜 그런 걸 기억하고 있는 거야?",
 			painting = {
@@ -903,14 +898,13 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actorName = "??",
 			side = 2,
 			bgName = "star_level_bg_170",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			oldPhoto = true,
+			dir = 1,
 			actor = 900332,
-			actorName = "??",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "네, 다른 이야기로 빠져서 죄송해요. 다시 본론인… 소비에츠키 소유즈 이야기로 돌아가죠.",
 			painting = {
@@ -923,14 +917,13 @@ return {
 			}
 		},
 		{
-			expression = 0,
+			actorName = "??",
 			side = 2,
 			bgName = "star_level_bg_170",
-			nameColor = "#A9F548FF",
-			dir = 1,
 			oldPhoto = true,
+			dir = 1,
 			actor = 900332,
-			actorName = "??",
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "'이름'은 존재하지만 최종적으로는 준공되지 않은 함선에 대해……",
 			painting = {

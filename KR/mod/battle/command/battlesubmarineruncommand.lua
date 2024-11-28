@@ -110,7 +110,7 @@ slot4.onWillDie = function(slot0, slot1)
 
 	if slot3 == uv0.Battle.BattleConst.UnitDeathReason.KILLED or slot3 == uv0.Battle.BattleConst.UnitDeathReason.DESTRUCT then
 		for slot8, slot9 in pairs(slot0._unitDataList) do
-			slot9:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_FRIENDLY_SHIP_DYING, {
+			slot9:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_TEAMMATE_SHIP_DYING, {
 				unit = slot9
 			})
 		end

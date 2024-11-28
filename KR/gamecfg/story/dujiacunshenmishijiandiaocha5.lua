@@ -59,7 +59,6 @@ return {
 			}
 		},
 		{
-			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_153",
 			factiontag = "오늘도 스릴을 찾아서",

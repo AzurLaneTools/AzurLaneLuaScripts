@@ -12379,7 +12379,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「로마」, 「레오나르도 다 빈치」 등의 등장 확률 UP!"
+	tip = "기간 한정 건조 누적 200회마다 「무사시」 획득 가능!(최대 4회)"
 }
 
 
@@ -35598,4 +35598,9 @@ _G.pg.base.gametip.juuschat_background_tip1 = {
 
 _G.pg.base.gametip.juuschat_background_tip2 = {
 	tip = "스킨 미보유"
+}
+
+
+_G.pg.base.gametip.drom3d_memory_limit_tip = {
+	tip = "현재 휴대폰 모델의 메모리가 권장 사양보다 작기 때문에 튕길 위험이 있습니다."
 }

@@ -1054,7 +1054,6 @@ return {
 			}
 		},
 		{
-			expression = 0,
 			side = 2,
 			bgName = "star_level_bg_505",
 			dir = 1,
