@@ -114,7 +114,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咳咳，別擔心，本王可不是妳們的敵人，不如說能遇到本王是你們的福氣。",
+			say = "咳咳，別擔心，本王可不是妳們的敵人，不如說能遇到本王是妳們的福氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

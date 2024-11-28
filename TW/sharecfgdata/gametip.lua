@@ -11952,7 +11952,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累計建造200次可獲得海上傳奇艦船 {namecode:529}(最多4次)"
+	tip = "菈菈·撒塔琳·戴比路克、娜娜·阿絲達·戴比路克、金色闇影等建造追加！"
 }
 
 
@@ -24651,7 +24651,7 @@ _G.pg.base.gametip.battlepass_main_help_2408 = {
 巡遊進度獎勵分為兩種：
 （1）基礎巡遊獎勵：包含<color=#ff5c5c>「霞·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高級定向藍圖·六期</color>等獎勵；
 當巡遊達到指定進度時，指揮官可以直接領取對應的基礎巡遊獎勵。
-（2）特許巡遊獎勵：包含<color=#ff5c5c>羅馬換裝「羅馬假期</color>」、<color=#ff5c5c>鑽石</color>等獎勵；
+（2）特許巡遊獎勵：包含<color=#ff5c5c>羅馬換裝「羅馬假期」</color>、<color=#ff5c5c>鑽石</color>等獎勵；
  購買「特許巡遊憑證」，且巡遊達到指定進度時，可以領取特許巡遊獎勵。
  註：購買「特許巡遊憑證」後，不會影響基礎巡遊獎勵的領取。
 

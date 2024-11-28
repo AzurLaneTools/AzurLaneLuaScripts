@@ -53846,8 +53846,8 @@ pg.activity_template = {
 			}
 		},
 		page_info = {
-			class_name = "CrusingDisplayActPage",
-			ui_name = "CrusingDisplayActPage18"
+			class_name = "CrusingDisplayActPage2",
+			ui_name = "CrusingDisplayActPage20"
 		}
 	},
 	get_id_list_by_type = {

@@ -219,7 +219,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 11100040,
-			say = "雖然不是鯛魚燒，但我不會旺季的。",
+			say = "雖然不是鯛魚燒，但我不會忘記的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

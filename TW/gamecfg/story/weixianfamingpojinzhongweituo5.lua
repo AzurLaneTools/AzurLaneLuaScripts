@@ -176,7 +176,7 @@ return {
 			actor = 903030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指揮官……鈍劍……你們也是來幫忙的對嗎？",
+			say = "指揮官……銳劍……你們也是來幫忙的對嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

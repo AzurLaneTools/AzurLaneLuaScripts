@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "姐姐，你已經弄了好久了，但還是不知道什麼時候才能弄完嗎。",
+			say = "姐姐，妳已經弄了好久了，但還是不知道什麼時候才能弄完嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			actor = 11100020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "都有點睏了…高津",
+			say = "都有點睏了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
