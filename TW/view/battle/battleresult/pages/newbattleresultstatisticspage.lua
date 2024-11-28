@@ -163,9 +163,7 @@ slot0.LoadBG = function(slot0, slot1)
 
 		slot1()
 	else
-		slot4 = ResourceMgr.Inst
-
-		slot4:getAssetAsync("BattleResultItems/" .. NewBattleResultUtil.Score2Bg(slot0.contextData.score), "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		LoadAnyAsync("BattleResultItems/" .. NewBattleResultUtil.Score2Bg(slot0.contextData.score), "", nil, function (slot0)
 			if uv0.exited or IsNil(slot0) then
 				if uv1 then
 					uv1()
@@ -183,7 +181,7 @@ slot0.LoadBG = function(slot0, slot1)
 			if uv1 then
 				uv1()
 			end
-		end), true, true)
+		end)
 	end
 end
 
@@ -246,15 +244,13 @@ end
 
 slot0.UpdateMetaBtn = function(slot0)
 	if getProxy(MetaCharacterProxy):getLastMetaSkillExpInfoList() and #slot1 > 0 then
-		slot3 = ResourceMgr.Inst
-
-		slot3:getAssetAsync("BattleResultItems/MetaBtn", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		LoadAnyAsync("BattleResultItems/MetaBtn", "", nil, function (slot0)
 			if uv0.exited or IsNil(slot0) then
 				return
 			end
 
 			uv1(uv0, Object.Instantiate(slot0, uv0._tf).transform)
-		end), true, true)
+		end)
 	end
 end
 
@@ -341,21 +337,17 @@ end
 
 slot7 = function(slot0, slot1)
 	if IsNil(slot1:Find("MVP")) then
-		slot3 = ResourceMgr.Inst
-
-		slot3:getAssetAsync("BattleResultItems/MVP", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		LoadAnyAsync("BattleResultItems/MVP", "", nil, function (slot0)
 			if uv0.exited or IsNil(slot0) then
 				return
 			end
 
 			Object.Instantiate(slot0, uv1).name = "MVP"
-		end), true, true)
+		end)
 	end
 
 	if IsNil(slot1:Find("MVPBG")) then
-		slot4 = ResourceMgr.Inst
-
-		slot4:getAssetAsync("BattleResultItems/MVPBG", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		LoadAnyAsync("BattleResultItems/MVPBG", "", nil, function (slot0)
 			if uv0.exited or IsNil(slot0) then
 				return
 			end
@@ -364,21 +356,19 @@ slot7 = function(slot0, slot1)
 			slot1.name = "MVPBG"
 
 			slot1.transform:SetAsFirstSibling()
-		end), true, true)
+		end)
 	end
 end
 
 slot8 = function(slot0, slot1)
 	if IsNil(slot1:Find("LevelUp")) then
-		slot3 = ResourceMgr.Inst
-
-		slot3:getAssetAsync("BattleResultItems/LevelUp", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		LoadAnyAsync("BattleResultItems/LevelUp", "", nil, function (slot0)
 			if uv0.exited or IsNil(slot0) then
 				return
 			end
 
 			Object.Instantiate(slot0, uv1).name = "LevelUp"
-		end), true, true)
+		end)
 	end
 end
 
@@ -466,23 +456,33 @@ end
 slot0.LoadShipTpls = function(slot0, slot1, slot2, slot3)
 	slot4 = {}
 
-	for slot8 = #slot1 + 1, #slot2 do
+	if #slot1 < #slot2 then
 		table.insert(slot4, function (slot0)
-			slot1 = uv0 == #uv1
-
-			ResourceMgr.Inst:getAssetAsync("BattleResultItems/Ship", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-				if uv0.exited or IsNil(slot0) then
+			LoadAnyAsync("BattleResultItems/Ship", "", nil, function (slot0)
+				if uv0.exited then
 					uv1()
 
 					return
 				end
 
-				slot1 = Object.Instantiate(slot0, uv0.shipContainer).transform
-				slot1:GetComponent(typeof(CanvasGroup)).alpha = 0
+				uv1(slot0)
+			end)
+		end)
+		table.insert(slot4, function (slot0, slot1)
+			if not slot1 then
+				slot0()
 
-				table.insert(uv2, slot1)
-				uv1()
-			end), slot1, slot1)
+				return
+			end
+
+			for slot5 = #uv0 + 1, #uv1 do
+				slot6 = Object.Instantiate(slot1, uv2.shipContainer).transform
+				slot6:GetComponent(typeof(CanvasGroup)).alpha = 0
+
+				table.insert(uv0, slot6)
+			end
+
+			slot0()
 		end)
 	end
 
@@ -565,7 +565,7 @@ end
 slot0.UpdateFailedPainting = function(slot0, slot1)
 	slot2 = slot0.contextData.oldMainShips
 
-	ResourceMgr.Inst:getAssetAsync("BattleResultItems/FailedPainting", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+	LoadAnyAsync("BattleResultItems/FailedPainting", "", nil, function (slot0)
 		if uv0.exited or IsNil(slot0) then
 			uv1()
 
@@ -574,7 +574,7 @@ slot0.UpdateFailedPainting = function(slot0, slot1)
 
 		Object.Instantiate(slot0, uv0.paintingTr).transform:SetAsFirstSibling()
 		uv1()
-	end), true, true)
+	end)
 	slot0:DisplayShipDialogue(slot2[math.random(#slot2)])
 end
 
@@ -719,24 +719,34 @@ end
 slot0.LoadCommanderTpls = function(slot0, slot1, slot2)
 	slot3 = {}
 
-	for slot7 = #slot0.commaderTpls + 1, slot1 do
+	if slot1 > #slot0.commaderTpls then
 		table.insert(slot3, function (slot0)
-			slot1 = uv0 == uv1
-
-			ResourceMgr.Inst:getAssetAsync("BattleResultItems/Commander", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
-				if uv0.exited or IsNil(slot0) then
+			LoadAnyAsync("BattleResultItems/Commander", "", nil, function (slot0)
+				if uv0.exited then
 					uv1()
 
 					return
 				end
 
-				table.insert(uv0.commaderTpls, Object.Instantiate(slot0, uv0.commmanderContainer).transform)
-				uv1()
-			end), slot1, slot1)
+				uv1(slot0)
+			end)
+		end)
+		table.insert(slot3, function (slot0, slot1)
+			if not slot1 then
+				slot0()
+
+				return
+			end
+
+			for slot5 = #uv0.commaderTpls + 1, uv1 do
+				table.insert(uv0.commaderTpls, Object.Instantiate(slot1, uv0.commmanderContainer).transform)
+			end
+
+			slot0()
 		end)
 	end
 
-	parallelAsync(slot3, slot2)
+	seriesAsync(slot3, slot2)
 end
 
 slot0.onBackPressed = function(slot0)

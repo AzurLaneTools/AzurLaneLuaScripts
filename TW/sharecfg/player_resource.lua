@@ -1505,6 +1505,26 @@ pg.player_resource = {
 		name = "blackfirday_pt2024",
 		itemid = 65046
 	},
+	[440] = {
+		id = 440,
+		name = "tolove_pt",
+		itemid = 65047
+	},
+	[441] = {
+		id = 441,
+		name = "tolove_jigsaw_pt",
+		itemid = 65048
+	},
+	[442] = {
+		id = 442,
+		name = "newserver_pt_241121",
+		itemid = 65055
+	},
+	[443] = {
+		id = 443,
+		name = "skinTicket82",
+		itemid = 65058
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1844,6 +1864,11 @@ pg.player_resource = {
 		id = 4019,
 		name = "Battlepass_19",
 		itemid = 65028
+	},
+	[4020] = {
+		id = 4020,
+		name = "Battlepass_20",
+		itemid = 65057
 	},
 	[4186] = {
 		id = 4186,
@@ -2889,6 +2914,18 @@ pg.player_resource = {
 		blackfirday_pt2024 = {
 			439
 		},
+		tolove_pt = {
+			440
+		},
+		tolove_jigsaw_pt = {
+			441
+		},
+		newserver_pt_241121 = {
+			442
+		},
+		skinTicket82 = {
+			443
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -3092,6 +3129,9 @@ pg.player_resource = {
 		},
 		Battlepass_19 = {
 			4019
+		},
+		Battlepass_20 = {
+			4020
 		},
 		skin_rerun_pt1 = {
 			4186
@@ -3480,6 +3520,10 @@ pg.player_resource = {
 		437,
 		438,
 		439,
+		440,
+		441,
+		442,
+		443,
 		950,
 		951,
 		952,
@@ -3548,6 +3592,7 @@ pg.player_resource = {
 		4017,
 		4018,
 		4019,
+		4020,
 		4186,
 		4276,
 		4599,

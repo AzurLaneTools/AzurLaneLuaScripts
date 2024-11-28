@@ -11652,6 +11652,84 @@ pg.activity_ins_template = {
 			4812
 		}
 	},
+	[512] = {
+		ship_group = 1110001,
+		name = "Lala Satalin Deviluke",
+		sculpture = "lala_tolove",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 512,
+		group_id = 512,
+		order = 0,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[513] = {
+		ship_group = 1110002,
+		name = "Nana Asta Deviluke",
+		sculpture = "nana_tolove",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 513,
+		group_id = 513,
+		order = 0,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[514] = {
+		ship_group = 1110003,
+		name = "Momo Belia Deviluke",
+		sculpture = "mengmeng_tolove",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 514,
+		group_id = 514,
+		order = 0,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[515] = {
+		ship_group = 1110005,
+		name = "Sairenji Haruna",
+		sculpture = "xiliansi_tolove",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 515,
+		group_id = 515,
+		order = 0,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[516] = {
+		ship_group = 1110004,
+		name = "Konjiki no Yami",
+		sculpture = "jinseanying_tolove",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 516,
+		group_id = 516,
+		order = 0,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[517] = {
+		ship_group = 1110006,
+		name = "Kotegawa Yui",
+		sculpture = "gushouchuan_tolove",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 517,
+		group_id = 517,
+		order = 0,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -12088,6 +12166,12 @@ pg.activity_ins_template = {
 		480,
 		481,
 		482,
-		491
+		491,
+		512,
+		513,
+		514,
+		515,
+		516,
+		517
 	}
 }

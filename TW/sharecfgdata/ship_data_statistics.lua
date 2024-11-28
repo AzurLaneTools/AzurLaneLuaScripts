@@ -347847,6 +347847,1402 @@ _G.pg.base.ship_data_statistics[900443] = {
 }
 
 
+_G.pg.base.ship_data_statistics[900445] = {
+	nationality = 9,
+	oxy_max = 0,
+	type = 3,
+	name = "杜布雷",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 900445,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MNF Dupleix",
+	oxy_cost = 0,
+	skin_id = 903030,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1709,
+		113,
+		113,
+		119,
+		0,
+		67,
+		0,
+		45,
+		9,
+		25.6,
+		60,
+		0
+	},
+	attrs_growth = {
+		17631,
+		629,
+		629,
+		1044,
+		0,
+		467,
+		0,
+		671,
+		381,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		324
+	},
+	default_equip_list = {
+		7313,
+		5653,
+		90633
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.65,
+		0.9,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[900469] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 2,
+	name = "贝尔法斯特",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 900469,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Belfast",
+	oxy_cost = 0,
+	skin_id = 202120,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1689,
+		82,
+		159,
+		136,
+		0,
+		67,
+		0,
+		55,
+		28,
+		32,
+		88,
+		87
+	},
+	attrs_growth = {
+		17283,
+		457,
+		834,
+		1183,
+		0,
+		467,
+		0,
+		810,
+		641,
+		0,
+		0,
+		418
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		214
+	},
+	default_equip_list = {
+		22273,
+		25053,
+		26253
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.5,
+		1.55,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Town-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[900470] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 5,
+	name = "伊莉莎白女王",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.5",
+	rarity = 4,
+	ammo = 0,
+	id = 900470,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Queen Elizabeth",
+	oxy_cost = 0,
+	skin_id = 205010,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		3080,
+		194,
+		0,
+		98,
+		0,
+		53,
+		0,
+		22,
+		6,
+		24,
+		25,
+		0
+	},
+	attrs_growth = {
+		33673,
+		923,
+		0,
+		865,
+		0,
+		372,
+		0,
+		360,
+		217,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		24053,
+		21633,
+		26673
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"QE-Class",
+		"QE",
+		"QE_1914"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[900471] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 5,
+	name = "前衛",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	ammo = 0,
+	id = 900471,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Vanguard",
+	oxy_cost = 0,
+	skin_id = 205130,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		3905,
+		201,
+		0,
+		203,
+		0,
+		65,
+		0,
+		25,
+		8,
+		30,
+		52,
+		0
+	},
+	attrs_growth = {
+		42234,
+		948,
+		0,
+		1675,
+		0,
+		450,
+		0,
+		412,
+		234,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		24353,
+		21633,
+		26673
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.45,
+		1.8,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Vanguard"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[900472] = {
+	nationality = 2,
+	oxy_max = 0,
+	type = 5,
+	name = "君主",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 900472,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "HMS Monarch",
+	oxy_cost = 0,
+	skin_id = 299020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1334,
+		83,
+		0,
+		43,
+		0,
+		62,
+		0,
+		21,
+		7,
+		28,
+		0,
+		0
+	},
+	attrs_growth = {
+		35547,
+		1638,
+		0,
+		937,
+		0,
+		430,
+		0,
+		348,
+		222,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		24353,
+		21633,
+		26673
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		2.1,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Plan-Class",
+		"KGV-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[900473] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 3,
+	name = "菈菈·撒塔琳·戴比路克",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 900473,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Lala Satalin Deviluke",
+	oxy_cost = 0,
+	skin_id = 11100010,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		2151,
+		130,
+		0,
+		114,
+		0,
+		69,
+		0,
+		52,
+		20,
+		28,
+		89,
+		0
+	},
+	attrs_growth = {
+		23446,
+		706,
+		0,
+		1000,
+		0,
+		471,
+		0,
+		765,
+		622,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		3227202,
+		3227203,
+		46433
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		0.6,
+		1.1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru",
+		"Deviluke",
+		"Lala"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[900474] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 1,
+	name = "娜娜·阿絲達·戴比路克",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 900474,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Nana Asta Deviluke",
+	oxy_cost = 0,
+	skin_id = 11100020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		836,
+		44,
+		254,
+		84,
+		0,
+		82,
+		0,
+		73,
+		72,
+		44.4,
+		68,
+		129
+	},
+	attrs_growth = {
+		9110,
+		244,
+		1219,
+		740,
+		0,
+		572,
+		0,
+		1135,
+		1160,
+		0,
+		0,
+		580
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		3227204,
+		3227205,
+		90633
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		0.8,
+		1.5,
+		0.75
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru",
+		"Deviluke",
+		"Nana"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[900475] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 2,
+	name = "茉茉·貝莉雅·戴比路克",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 900475,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Momo Belia Deviluke ",
+	oxy_cost = 0,
+	skin_id = 11100030,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1592,
+		84,
+		169,
+		173,
+		0,
+		71,
+		0,
+		57,
+		28,
+		32,
+		78,
+		89
+	},
+	attrs_growth = {
+		17345,
+		463,
+		874,
+		1463,
+		0,
+		488,
+		0,
+		824,
+		530,
+		0,
+		0,
+		421
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		3227206,
+		3227207,
+		90633
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.75,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru",
+		"Deviluke",
+		"Momo"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[900476] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 5,
+	name = "金色闇影",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 900476,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Konjiki no Yami",
+	oxy_cost = 0,
+	skin_id = 11100040,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	attrs_growth = {
+		1,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		3227208,
+		3227209,
+		46413
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[900477] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 4,
+	name = "西連寺春菜",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 900477,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Sairenji Haruna",
+	oxy_cost = 0,
+	skin_id = 11100050,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		2776,
+		167,
+		0,
+		104,
+		0,
+		60,
+		0,
+		24,
+		9,
+		31,
+		35,
+		0
+	},
+	attrs_growth = {
+		30493,
+		869,
+		0,
+		927,
+		0,
+		417,
+		0,
+		365,
+		257,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		3227210,
+		3227211,
+		26673
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		1,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.7,
+		1.5,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[900478] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 7,
+	name = "古手川唯",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 900478,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Kotegawa Yui",
+	oxy_cost = 0,
+	skin_id = 11100060,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	attrs_growth = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		3227212,
+		3227213,
+		3227214
+	},
+	depth_charge_list = {},
+	base_list = {
+		3,
+		2,
+		3
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		1.3,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru",
+		"Toloveyui"
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[900808] = {
 	nationality = 108,
 	oxy_max = 0,
@@ -358302,6 +359698,518 @@ _G.pg.base.ship_data_statistics[9701054] = {
 	tag_list = {
 		"Old V-Class",
 		"VampireMETA"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9701061] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 1,
+	name = "霞·META",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9701061,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Kasumi.META",
+	oxy_cost = 0,
+	skin_id = 9701060,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		428,
+		18,
+		115,
+		33,
+		0,
+		81,
+		0,
+		54,
+		75,
+		42,
+		70,
+		47
+	},
+	attrs_growth = {
+		6924,
+		227,
+		1380,
+		445,
+		0,
+		557,
+		0,
+		726,
+		1017,
+		0,
+		0,
+		632
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.75,
+		1.35,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Asashio-Class",
+		"KasumiMETA",
+		"KasumiHA"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9701062] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 1,
+	name = "霞·META",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9701062,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Kasumi.META",
+	oxy_cost = 0,
+	skin_id = 9701060,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		532,
+		23,
+		144,
+		41,
+		0,
+		81,
+		0,
+		54,
+		75,
+		42,
+		70,
+		59
+	},
+	attrs_growth = {
+		6924,
+		227,
+		1380,
+		445,
+		0,
+		557,
+		0,
+		726,
+		1017,
+		0,
+		0,
+		632
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.75,
+		1.4,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Asashio-Class",
+		"KasumiMETA",
+		"KasumiHA"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9701063] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 1,
+	name = "霞·META",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9701063,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Kasumi.META",
+	oxy_cost = 0,
+	skin_id = 9701060,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		741,
+		32,
+		201,
+		57,
+		0,
+		81,
+		0,
+		54,
+		75,
+		42,
+		70,
+		82
+	},
+	attrs_growth = {
+		6924,
+		227,
+		1380,
+		445,
+		0,
+		557,
+		0,
+		726,
+		1017,
+		0,
+		0,
+		632
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		0.75,
+		1.5,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Asashio-Class",
+		"KasumiMETA",
+		"KasumiHA"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9701064] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 1,
+	name = "霞·META",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9701064,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Kasumi.META",
+	oxy_cost = 0,
+	skin_id = 9701060,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1054,
+		45,
+		286,
+		81,
+		0,
+		81,
+		0,
+		54,
+		75,
+		42,
+		70,
+		117
+	},
+	attrs_growth = {
+		6924,
+		227,
+		1380,
+		445,
+		0,
+		557,
+		0,
+		726,
+		1017,
+		0,
+		0,
+		632
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		0.8,
+		1.55,
+		0.75
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Asashio-Class",
+		"KasumiMETA",
+		"KasumiHA"
 	}
 }
 
@@ -393443,6 +395351,3074 @@ _G.pg.base.ship_data_statistics[11000074] = {
 	tag_list = {
 		"Senran",
 		"yuuyaki"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11100011] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 3,
+	name = "菈菈·撒塔琳·戴比路克",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11100011,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Lala Satalin Deviluke",
+	oxy_cost = 0,
+	skin_id = 11100010,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		873,
+		48,
+		0,
+		46,
+		0,
+		69,
+		0,
+		52,
+		10,
+		28,
+		89,
+		0
+	},
+	attrs_growth = {
+		23446,
+		656,
+		0,
+		1000,
+		0,
+		471,
+		0,
+		765,
+		479,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		0.45,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru",
+		"Deviluke",
+		"Lala"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11100012] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 3,
+	name = "菈菈·撒塔琳·戴比路克",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11100012,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Lala Satalin Deviluke",
+	oxy_cost = 0,
+	skin_id = 11100010,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1086,
+		60,
+		0,
+		57,
+		0,
+		69,
+		0,
+		52,
+		10,
+		28,
+		89,
+		0
+	},
+	attrs_growth = {
+		23446,
+		656,
+		0,
+		1000,
+		0,
+		471,
+		0,
+		765,
+		479,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.17,
+		0.47,
+		1.02
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru",
+		"Deviluke",
+		"Lala"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11100013] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 3,
+	name = "菈菈·撒塔琳·戴比路克",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11100013,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Lala Satalin Deviluke",
+	oxy_cost = 0,
+	skin_id = 11100010,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1512,
+		84,
+		0,
+		80,
+		0,
+		69,
+		0,
+		52,
+		10,
+		28,
+		89,
+		0
+	},
+	attrs_growth = {
+		23446,
+		656,
+		0,
+		1000,
+		0,
+		471,
+		0,
+		765,
+		479,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		0.5,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru",
+		"Deviluke",
+		"Lala"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11100014] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 3,
+	name = "菈菈·撒塔琳·戴比路克",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11100014,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Lala Satalin Deviluke",
+	oxy_cost = 0,
+	skin_id = 11100010,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		2151,
+		119,
+		0,
+		114,
+		0,
+		69,
+		0,
+		52,
+		10,
+		28,
+		89,
+		0
+	},
+	attrs_growth = {
+		23446,
+		656,
+		0,
+		1000,
+		0,
+		471,
+		0,
+		765,
+		479,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		0.55,
+		1.1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru",
+		"Deviluke",
+		"Lala"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11100021] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 1,
+	name = "娜娜·阿絲達·戴比路克",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11100021,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Nana Asta Deviluke",
+	oxy_cost = 0,
+	skin_id = 11100020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		319,
+		18,
+		102,
+		34,
+		0,
+		82,
+		0,
+		73,
+		72,
+		44.4,
+		68,
+		52
+	},
+	attrs_growth = {
+		9085,
+		244,
+		1219,
+		740,
+		0,
+		572,
+		0,
+		1118,
+		1320,
+		0,
+		0,
+		580
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.2,
+		1.1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru",
+		"Deviluke",
+		"Nana"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11100022] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 1,
+	name = "娜娜·阿絲達·戴比路克",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11100022,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Nana Asta Deviluke",
+	oxy_cost = 0,
+	skin_id = 11100020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		397,
+		22,
+		127,
+		42,
+		0,
+		82,
+		0,
+		73,
+		72,
+		44.4,
+		68,
+		65
+	},
+	attrs_growth = {
+		9085,
+		244,
+		1219,
+		740,
+		0,
+		572,
+		0,
+		1118,
+		1320,
+		0,
+		0,
+		580
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.25,
+		1.1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru",
+		"Deviluke",
+		"Nana"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11100023] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 1,
+	name = "娜娜·阿絲達·戴比路克",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11100023,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Nana Asta Deviluke",
+	oxy_cost = 0,
+	skin_id = 11100020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		552,
+		31,
+		178,
+		59,
+		0,
+		82,
+		0,
+		73,
+		72,
+		44.4,
+		68,
+		90
+	},
+	attrs_growth = {
+		9085,
+		244,
+		1219,
+		740,
+		0,
+		572,
+		0,
+		1118,
+		1320,
+		0,
+		0,
+		580
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.35,
+		1.1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru",
+		"Deviluke",
+		"Nana"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11100024] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 1,
+	name = "娜娜·阿絲達·戴比路克",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11100024,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Nana Asta Deviluke",
+	oxy_cost = 0,
+	skin_id = 11100020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		786,
+		44,
+		254,
+		84,
+		0,
+		82,
+		0,
+		73,
+		72,
+		44.4,
+		68,
+		129
+	},
+	attrs_growth = {
+		9085,
+		244,
+		1219,
+		740,
+		0,
+		572,
+		0,
+		1118,
+		1320,
+		0,
+		0,
+		580
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.4,
+		1.15
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru",
+		"Deviluke",
+		"Nana"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11100031] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 2,
+	name = "茉茉·貝莉雅·戴比路克",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11100031,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Momo Belia Deviluke ",
+	oxy_cost = 0,
+	skin_id = 11100030,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		716,
+		32,
+		68,
+		70,
+		0,
+		71,
+		0,
+		57,
+		28,
+		32,
+		80,
+		36
+	},
+	attrs_growth = {
+		19236,
+		437,
+		874,
+		1463,
+		0,
+		488,
+		0,
+		824,
+		530,
+		0,
+		0,
+		421
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		221
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.3,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru",
+		"Deviluke",
+		"Momo"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11100032] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 2,
+	name = "茉茉·貝莉雅·戴比路克",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11100032,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Momo Belia Deviluke ",
+	oxy_cost = 0,
+	skin_id = 11100030,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		891,
+		40,
+		85,
+		87,
+		0,
+		71,
+		0,
+		57,
+		28,
+		32,
+		80,
+		45
+	},
+	attrs_growth = {
+		19236,
+		437,
+		874,
+		1463,
+		0,
+		488,
+		0,
+		824,
+		530,
+		0,
+		0,
+		421
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		222
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.35,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru",
+		"Deviluke",
+		"Momo"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11100033] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 2,
+	name = "茉茉·貝莉雅·戴比路克",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11100033,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Momo Belia Deviluke ",
+	oxy_cost = 0,
+	skin_id = 11100030,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1240,
+		56,
+		119,
+		122,
+		0,
+		71,
+		0,
+		57,
+		28,
+		32,
+		80,
+		63
+	},
+	attrs_growth = {
+		19236,
+		437,
+		874,
+		1463,
+		0,
+		488,
+		0,
+		824,
+		530,
+		0,
+		0,
+		421
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		223
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.35,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru",
+		"Deviluke",
+		"Momo"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11100034] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 2,
+	name = "茉茉·貝莉雅·戴比路克",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11100034,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Momo Belia Deviluke ",
+	oxy_cost = 0,
+	skin_id = 11100030,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1765,
+		79,
+		169,
+		173,
+		0,
+		71,
+		0,
+		57,
+		28,
+		32,
+		80,
+		89
+	},
+	attrs_growth = {
+		19236,
+		437,
+		874,
+		1463,
+		0,
+		488,
+		0,
+		824,
+		530,
+		0,
+		0,
+		421
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		224
+	},
+	default_equip_list = {
+		101,
+		106,
+		104
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.5,
+		1,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru",
+		"Deviluke",
+		"Momo"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11100041] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 5,
+	name = "金色闇影",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11100041,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Konjiki no Yami",
+	oxy_cost = 0,
+	skin_id = 11100040,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1353,
+		82,
+		0,
+		54,
+		0,
+		57,
+		0,
+		22,
+		6,
+		26,
+		75,
+		0
+	},
+	attrs_growth = {
+		36328,
+		1000,
+		0,
+		1160,
+		0,
+		395,
+		0,
+		328,
+		219,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11100042] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 5,
+	name = "金色闇影",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11100042,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Konjiki no Yami",
+	oxy_cost = 0,
+	skin_id = 11100040,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1683,
+		102,
+		0,
+		67,
+		0,
+		57,
+		0,
+		22,
+		6,
+		26,
+		75,
+		0
+	},
+	attrs_growth = {
+		36328,
+		1000,
+		0,
+		1160,
+		0,
+		395,
+		0,
+		328,
+		219,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11100043] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 5,
+	name = "金色闇影",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11100043,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Konjiki no Yami",
+	oxy_cost = 0,
+	skin_id = 11100040,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		2343,
+		143,
+		0,
+		94,
+		0,
+		57,
+		0,
+		22,
+		6,
+		26,
+		75,
+		0
+	},
+	attrs_growth = {
+		36328,
+		1000,
+		0,
+		1160,
+		0,
+		395,
+		0,
+		328,
+		219,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11100044] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 5,
+	name = "金色闇影",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 11100044,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Konjiki no Yami",
+	oxy_cost = 0,
+	skin_id = 11100040,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		3333,
+		203,
+		0,
+		134,
+		0,
+		57,
+		0,
+		22,
+		6,
+		26,
+		75,
+		0
+	},
+	attrs_growth = {
+		36328,
+		1000,
+		0,
+		1160,
+		0,
+		395,
+		0,
+		328,
+		219,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11100051] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 4,
+	name = "西連寺春菜",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 11100051,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Sairenji Haruna",
+	oxy_cost = 0,
+	skin_id = 11100050,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1088,
+		64,
+		0,
+		57,
+		0,
+		56,
+		0,
+		22,
+		8,
+		30,
+		79,
+		0
+	},
+	attrs_growth = {
+		29869,
+		838,
+		0,
+		1222,
+		0,
+		391,
+		0,
+		366,
+		217,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		1.5,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru",
+		"ToloveHaruna"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11100052] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 4,
+	name = "西連寺春菜",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 11100052,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Sairenji Haruna",
+	oxy_cost = 0,
+	skin_id = 11100050,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1353,
+		80,
+		0,
+		71,
+		0,
+		56,
+		0,
+		22,
+		8,
+		30,
+		79,
+		0
+	},
+	attrs_growth = {
+		29869,
+		838,
+		0,
+		1222,
+		0,
+		391,
+		0,
+		366,
+		217,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.5,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru",
+		"ToloveHaruna"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11100053] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 4,
+	name = "西連寺春菜",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 11100053,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Sairenji Haruna",
+	oxy_cost = 0,
+	skin_id = 11100050,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1884,
+		112,
+		0,
+		99,
+		0,
+		56,
+		0,
+		22,
+		8,
+		30,
+		79,
+		0
+	},
+	attrs_growth = {
+		29869,
+		838,
+		0,
+		1222,
+		0,
+		391,
+		0,
+		366,
+		217,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.5,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru",
+		"ToloveHaruna"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11100054] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 4,
+	name = "西連寺春菜",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 11100054,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Sairenji Haruna",
+	oxy_cost = 0,
+	skin_id = 11100050,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		2680,
+		159,
+		0,
+		141,
+		0,
+		56,
+		0,
+		22,
+		8,
+		30,
+		79,
+		0
+	},
+	attrs_growth = {
+		29869,
+		838,
+		0,
+		1222,
+		0,
+		391,
+		0,
+		366,
+		217,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.5,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru",
+		"ToloveHaruna"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11100061] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 7,
+	name = "古手川唯",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 11100061,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Kotegawa Yui",
+	oxy_cost = 0,
+	skin_id = 11100060,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1087,
+		0,
+		0,
+		60,
+		77,
+		43,
+		0,
+		37,
+		13,
+		31,
+		88,
+		0
+	},
+	attrs_growth = {
+		30950,
+		0,
+		0,
+		1261,
+		958,
+		295,
+		0,
+		522,
+		311,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		119,
+		118
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.1,
+		1.25
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru",
+		"Toloveyui"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11100062] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 7,
+	name = "古手川唯",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 11100062,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Kotegawa Yui",
+	oxy_cost = 0,
+	skin_id = 11100060,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1352,
+		0,
+		0,
+		75,
+		96,
+		43,
+		0,
+		37,
+		13,
+		31,
+		88,
+		0
+	},
+	attrs_growth = {
+		30950,
+		0,
+		0,
+		1261,
+		958,
+		295,
+		0,
+		522,
+		311,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		119,
+		118
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.1,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru",
+		"Toloveyui"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11100063] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 7,
+	name = "古手川唯",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 11100063,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Kotegawa Yui",
+	oxy_cost = 0,
+	skin_id = 11100060,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1882,
+		0,
+		0,
+		104,
+		134,
+		43,
+		0,
+		37,
+		13,
+		31,
+		88,
+		0
+	},
+	attrs_growth = {
+		30950,
+		0,
+		0,
+		1261,
+		958,
+		295,
+		0,
+		522,
+		311,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		119,
+		118
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.2,
+		1.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru",
+		"Toloveyui"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[11100064] = {
+	nationality = 111,
+	oxy_max = 0,
+	type = 7,
+	name = "古手川唯",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 11100064,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Kotegawa Yui",
+	oxy_cost = 0,
+	skin_id = 11100060,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		2677,
+		0,
+		0,
+		148,
+		192,
+		43,
+		0,
+		37,
+		13,
+		31,
+		88,
+		0
+	},
+	attrs_growth = {
+		30950,
+		0,
+		0,
+		1261,
+		958,
+		295,
+		0,
+		522,
+		311,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"cannon",
+		"torpedo",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		117,
+		119,
+		118
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		3,
+		3
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1.25,
+		1.35
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"To LOVE-Ru",
+		"Toloveyui"
 	}
 }
 

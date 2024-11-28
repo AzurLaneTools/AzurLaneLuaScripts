@@ -54,12 +54,22 @@ pg.constellation_challenge_month = {
 			10018
 		}
 	},
+	[12] = {
+		id = 12,
+		constellation_icon = "Sagittarius",
+		stage = {
+			10019,
+			10020,
+			10021
+		}
+	},
 	all = {
 		6,
 		7,
 		8,
 		9,
 		10,
-		11
+		11,
+		12
 	}
 }

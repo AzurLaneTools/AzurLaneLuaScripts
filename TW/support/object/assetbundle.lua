@@ -79,7 +79,7 @@ end
 
 slot1.ChangeAssetName = function(slot0, slot1)
 	if slot1 == nil or slot1 == "" or string.find(slot1, "/") then
-		return slot1 or ""
+		return string.lower(slot1 or "")
 	elseif not AssetBundleHelper.bundleDic[slot0.path] then
 		slot0:BuildAssetNameDic()
 	end

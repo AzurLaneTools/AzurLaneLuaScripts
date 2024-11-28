@@ -109,6 +109,7 @@ SCENE = {
 	FEAST = "scene Feast",
 	NEWYEAR_BACKHILL_2023 = "NEWYEAR BACKHILL 2023",
 	GHOSTSKINPAGE = "GhostSkinPage",
+	PUZZLE_CONNECT = "puzzle connect",
 	EXERCISEFORMATION = "scene exerciseformation",
 	HOTSPRING_REDPACKET = "hotSpring redpacket",
 	BILLBOARD = "scene billboard",
@@ -166,6 +167,7 @@ SCENE = {
 	NEW_SERVER_CARNIVAL = "new server carnival",
 	CARD_PAIRS = "card pairs",
 	DOA2_MEDAL_COLLECTION_SCENE = "scene doa2 medal collection",
+	TOLOVE_COLLAB_BACKHILL = "TOLOVE_COLLAB_BACKHILL",
 	BACK_CHARGE = "back charge",
 	CARD_TOWER_CHARACTER_SELECT = "CARD_TOWER_CHARACTER_SELECT",
 	SSSS_MEDAL_COLLECTION = "SSSS_MEDAL_COLLECTION",
@@ -646,10 +648,6 @@ slot0 = {
 		slot0.mediator = BackHillMediatorTemplate
 		slot0.viewComponent = SSSSLinkAcademyScene
 	end,
-	[SCENE.SSSS_ACADEMY] = function (slot0, slot1)
-		slot0.mediator = BackHillMediatorTemplate
-		slot0.viewComponent = SSSSLinkAcademyScene
-	end,
 	[SCENE.MONOPOLY_WORLD] = function (slot0, slot1)
 		slot0.mediator = MonopolyWorldMediator
 		slot0.viewComponent = MonopolyWorldScene
@@ -910,6 +908,14 @@ slot0 = {
 	[SCENE.BLACK_FRIDAH_SALES] = function (slot0, slot1)
 		slot0.mediator = BlackFridaySalesMediator
 		slot0.viewComponent = BlackFridaySalesScene
+	end,
+	[SCENE.PUZZLE_CONNECT] = function (slot0, slot1)
+		slot0.mediator = PuzzleConnectMediator
+		slot0.viewComponent = PuzzleConnectLayer
+	end,
+	[SCENE.TOLOVE_COLLAB_BACKHILL] = function (slot0, slot1)
+		slot0.mediator = ToLoveCollabBackHillMediator
+		slot0.viewComponent = ToLoveCollabBackHillScene
 	end
 }
 

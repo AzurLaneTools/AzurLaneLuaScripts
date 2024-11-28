@@ -571,6 +571,18 @@ slot0.UpdateMessageList = function(slot0, slot1, slot2, slot3, slot4, slot5)
 						1
 					})
 					uv9:SetEmoji(slot2:Find("playerReplyCard/emoji/emoticon"), uv15[tonumber(slot3.param)].pic)
+				elseif slot3.type == 5 then
+					uv9:SetPlayerMessageCardActive(slot5, {
+						2
+					})
+
+					slot7 = slot3.param
+
+					for slot11 in string.gmatch(slot3.param, "'%d+'") do
+						slot7 = string.gsub(slot7, slot11, "<color=#93e9ff>" .. uv2[tonumber(string.sub(slot11, 2, #slot11 - 1))].name .. "</color>")
+					end
+
+					setText(slot2:Find("playerReplyCard/systemTip/panel/Text"), slot7)
 				end
 
 				if uv3 and uv4 and _.contains(uv7, slot1 + 1) then
@@ -585,26 +597,66 @@ slot0.UpdateMessageList = function(slot0, slot1, slot2, slot3, slot4, slot5)
 							elseif uv1.type == 4 then
 								uv0:Find("playerReplyCard/emoji"):GetComponent(typeof(Animation)):Play("anim_newinstagram_emoji_in")
 								uv2:ChangeCharaTextFunc(uv3, string.gsub(uv4[tonumber(uv1.param)].desc, "#%w+>", "#28af6e>"))
+							elseif uv1.type == 5 then
+								uv0:Find("playerReplyCard/systemTip"):GetComponent(typeof(Animation)):Play("anim_newinstagram_tip_in")
+
+								slot0 = uv1.param
+
+								for slot4 in string.gmatch(uv1.param, "'%d+'") do
+									slot0 = string.gsub(slot0, slot4, "<color=#93e9ff>" .. uv5[tonumber(string.sub(slot4, 2, #slot4 - 1))].name .. "</color>")
+								end
+
+								uv2:ChangeCharaTextFunc(uv3, slot0)
+							end
+
+							if uv6 + 1 == #uv7 then
+								uv2:emit(InstagramChatMediator.SET_READED, {
+									uv8.topicId
+								})
 							end
 
 							Canvas.ForceUpdateCanvases()
-							LeanTween.value(go(uv2:findTF("messageScroll", uv2.rightPanel)), uv5.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(uv6)):setEase(LeanTweenType.easeInOutCubic)
+							LeanTween.value(go(uv2:findTF("messageScroll", uv2.rightPanel)), uv9.normalizedPosition.y, 0, 0.5):setOnUpdate(System.Action_float(uv10)):setEase(LeanTweenType.easeInOutCubic)
 						end, (#uv7 - table.indexof(uv7, slot1 + 1)) * uv8)
-					elseif slot3.type == 1 then
-						slot2:Find("playerReplyCard/msgBox"):GetComponent(typeof(Animation)):Play("anim_newinstagram_playerchat_common_in")
-						uv9:ChangeCharaTextFunc(uv12, slot3.param)
-					elseif slot3.type == 4 then
-						slot2:Find("playerReplyCard/emoji"):GetComponent(typeof(Animation)):Play("anim_newinstagram_emoji_in")
-						uv9:ChangeCharaTextFunc(uv12, string.gsub(uv15[tonumber(slot3.param)].desc, "#%w+>", "#28af6e>"))
+					else
+						if slot3.type == 1 then
+							slot2:Find("playerReplyCard/msgBox"):GetComponent(typeof(Animation)):Play("anim_newinstagram_playerchat_common_in")
+							uv9:ChangeCharaTextFunc(uv12, slot3.param)
+						elseif slot3.type == 4 then
+							slot2:Find("playerReplyCard/emoji"):GetComponent(typeof(Animation)):Play("anim_newinstagram_emoji_in")
+							uv9:ChangeCharaTextFunc(uv12, string.gsub(uv15[tonumber(slot3.param)].desc, "#%w+>", "#28af6e>"))
+						elseif slot3.type == 5 then
+							slot2:Find("playerReplyCard/systemTip"):GetComponent(typeof(Animation)):Play("anim_newinstagram_tip_in")
+
+							slot7 = slot3.param
+
+							for slot11 in string.gmatch(slot3.param, "'%d+'") do
+								slot7 = string.gsub(slot7, slot11, "<color=#93e9ff>" .. uv2[tonumber(string.sub(slot11, 2, #slot11 - 1))].name .. "</color>")
+							end
+
+							uv9:ChangeCharaTextFunc(uv12, slot7)
+						end
+
+						if slot1 + 1 == #uv0 then
+							uv9:emit(InstagramChatMediator.SET_READED, {
+								uv13.topicId
+							})
+						end
 					end
 				end
 			end
 
 			if not uv13:isWaiting() and slot1 + 1 == #uv0 then
 				if uv3 then
-					uv9:StartTimer(function ()
-						setActive(uv0:Find("end"), true)
-					end, slot6 + uv5)
+					if slot3.ship_group ~= 0 then
+						uv9:StartTimer(function ()
+							setActive(uv0:Find("end"), true)
+						end, slot6 + uv5)
+					else
+						uv9:StartTimer(function ()
+							setActive(uv0:Find("end"), true)
+						end, (#uv7 - table.indexof(uv7, slot1 + 1)) * uv8 + uv8)
+					end
 				else
 					setActive(slot2:Find("end"), true)
 				end
@@ -681,7 +733,7 @@ slot0.UpdateOptionPanel = function(slot0, slot1, slot2)
 		slot0:SetOptionPanelActive(true)
 		slot0.optionList:make(function (slot0, slot1, slot2)
 			if slot0 == UIItemList.EventUpdate then
-				setText(slot2:Find("Text"), uv0[slot1 + 1][2])
+				setText(slot2:Find("Text"), HXSet.hxLan(uv0[slot1 + 1][2]))
 				onButton(uv1, slot2, function ()
 					uv0:emit(InstagramChatMediator.REPLY, uv1.topicId, uv2[#uv2].id, uv3[1])
 				end, SFX_PANEL)

@@ -111,7 +111,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 				slot2 = "ui/" .. slot1
 				slot3 = uv0._loader
 
-				slot3:LoadPrefab(slot2, slot1, function (slot0)
+				slot3:LoadPrefab(slot2, "", function (slot0)
 					uv0(uv1, slot0)
 					uv2()
 				end, slot2)
@@ -316,16 +316,11 @@ slot0.getSpineMaterial = function(slot0, slot1, slot2)
 
 	if slot0._materialDic[slot1] then
 		slot2(slot0._materialDic[slot1])
+	else
+		slot0._materialDic[slot1] = LoadAny("spinematerials", slot1, typeof(Material))
+
+		slot2(slot0._materialDic[slot1])
 	end
-
-	slot3 = PoolMgr
-	slot3 = slot3:GetInstance()
-
-	slot3:LoadAsset("spinematerials", slot1, false, typeof(Material), function (slot0)
-		uv0._materialDic[uv1] = slot0
-
-		uv2(uv0._materialDic[uv1])
-	end, true)
 end
 
 slot0.changeSpecialIdle = function(slot0, slot1)

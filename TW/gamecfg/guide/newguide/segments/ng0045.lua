@@ -5,7 +5,7 @@ return {
 			alpha = 0.4,
 			delay = 0.5,
 			style = {
-				text = "点击可以切换该关卡的简单模式与困难模式",
+				text = "點擊可以切換該關卡的簡單模式與困難模式",
 				mode = 1,
 				char = "char",
 				posY = -98.3,

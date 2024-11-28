@@ -6379,6 +6379,11 @@ _G.pg.base.gametip.word_shipNation_senran = {
 }
 
 
+_G.pg.base.gametip.word_shipNation_tolove = {
+	tip = "To LOVE-Ru"
+}
+
+
 _G.pg.base.gametip.word_reset = {
 	tip = "重置"
 }
@@ -24622,6 +24627,86 @@ _G.pg.base.gametip.cruise_task_help_2406 = {
 }
 
 
+_G.pg.base.gametip.battlepass_main_tip_2408 = {
+	tip = "2024/12/1-2025/1/31期間，完成巡遊任務累計<icon name=pt w=0.5 h=0.5/>可取得<color=#854747>「霞·META」</color>在內的豐富獎勵"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2408 = {
+	tip = {
+		{
+			info = [[
+世界巡遊(2024.12.1-2025.1.31)
+
+·<color=#92fc63>開放時間</color>
+ 2024.12.1 0點 ~ 2025.1.31 23:59:59
+
+·<color=#92fc63>巡遊進度說明</color>
+（1）活動期間，指揮官透過完成巡遊任務，可取得「巡遊點數」。
+（2）巡遊任務隨時間開放解鎖。
+（3）每取得100點「巡遊點數」即可增加1巡遊進度
+（4）巡遊進度提升後可以獲得對應等級的獎勵，巡遊進度最高可達100。
+
+·<color=#92fc63>獎勵規則</color>
+巡遊進度獎勵分為兩種：
+（1）基礎巡遊獎勵：包含<color=#ff5c5c>「霞·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高級定向藍圖·六期</color>等獎勵；
+當巡遊達到指定進度時，指揮官可以直接領取對應的基礎巡遊獎勵。
+（2）特許巡遊獎勵：包含<color=#ff5c5c>羅馬換裝「羅馬假期</color>」、<color=#ff5c5c>鑽石</color>等獎勵；
+ 購買「特許巡遊憑證」，且巡遊達到指定進度時，可以領取特許巡遊獎勵。
+ 註：購買「特許巡遊憑證」後，不會影響基礎巡遊獎勵的領取。
+
+·<color=#92fc63>「特許巡遊憑證」說明</color>
+（1）「特許巡遊憑證」可於「商店」-「優惠禮包」中購買，購買後可立刻獲得<color=#ff5c5c>1500點</color>「巡遊點數」同時解鎖特許巡遊獎勵。
+（2）「特許巡遊憑證」將於<color=#ff5c5c>活動結束前一小時</color>停止販賣(即1.31 22:59:59停止)，請指揮官注意購買時間。
+
+·<color=#92fc63>任務說明</color>
+巡遊任務分為兩種：
+（1）每週任務 
+ 巡遊任務中共有8組每週任務。自活動開始後解鎖第一週任務，之後每週一的0點解鎖下一組每週任務
+（2）S.P.任務
+ S.P.任務為一組特殊任務，在活動開始後會直接處於全部解鎖狀態。
+（3）巡遊任務在解鎖後會自動接取，滿足任務完成條件時，會自動完成並取得對應獎勵。
+
+·<color=#92fc63>「巡遊任務快速完成券」說明</color>
+（1）「巡遊任務快速完成券」可以在巡遊任務介面使用，花費一定數量的「巡遊任務快速完成券」可以直接完成大部分巡遊任務
+（2）在「巡遊任務快速完成券」數量不足時，指揮官可花費鑽石進行補齊
+（3）每個巡遊任務需要消耗的完成券數量固定，與目前任務進度無關
+（4）「巡遊任務快速完成券」不會隨本期活動結束而消失
+
+·<color=#ff5c5c>特別提示</color>
+（1）在本期世界巡遊活動結束後，所有巡遊任務將會無法繼續完成，所有巡遊獎勵將會無法繼續領取，請各位指揮官務必注意活動結束時間，提前領取獎勵。
+（2）巡遊進度、[特許巡遊憑證]僅對本期世界巡遊活動生效]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2408 = {
+	tip = {
+		{
+			info = [[
+巡遊任務說明
+
+·<color=#92fc63>開放時間</color>
+ 2024.12.1 0點~ 2025.1.31 23:59:59
+
+·<color=#92fc63>巡遊任務分為兩種</color>
+（1）每週任務
+ 巡遊任務中共有8組每週任務。自活動開始後解鎖第一週任務，之後每週一的0點解鎖下一組每週任務。
+（2）S.P.任務
+ S.P.任務為一組特殊任務，在活動開始後會直接處於全部解鎖狀態。
+（3）巡遊任務在解鎖後會自動接取，滿足任務完成條件時，會自動完成並取得對應獎勵
+
+·<color=#92fc63>「巡遊任務快速完成券」說明</color >
+（1）「巡遊任務快速完成券」可以在巡遊任務介面使用，花費一定數量的「巡遊任務快速完成券」可以直接完成每週巡遊任務
+（2）在「巡遊任務快速完成券」數量不足時，指揮官可花費鑽石進行補齊
+（3）每個巡遊任務需要消耗的「巡遊任務快速完成券」數量和其提供的「巡遊點數」相關，與目前任務進度無關
+（4）「巡遊任務快速完成券」<color=#92fc63>不會隨本期活動結束而消失</color>]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "全部重置"
 }
@@ -33119,6 +33204,21 @@ _G.pg.base.gametip.cruise_shop_lock_tip = {
 }
 
 
+_G.pg.base.gametip.cruise_tip_skin = {
+	tip = "前往世界巡遊"
+}
+
+
+_G.pg.base.gametip.cruise_tip_base = {
+	tip = "-基礎巡遊獎勵-"
+}
+
+
+_G.pg.base.gametip.cruise_tip_upgrade = {
+	tip = "-特許巡遊獎勵-"
+}
+
+
 _G.pg.base.gametip.cruise_shop_limit_tip = {
 	tip = "本月剩餘可購買數量："
 }
@@ -33136,4 +33236,317 @@ _G.pg.base.gametip.cruise_title_2408 = {
 
 _G.pg.base.gametip.cruise_shop_title = {
 	tip = "往期商店"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_part1 = {
+	tip = "上篇"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_part2 = {
+	tip = "下篇"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_sp = {
+	tip = "SP"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_ex = {
+	tip = "EX"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_normal = {
+	tip = "常規"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_advanced = {
+	tip = "進階"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_1 = {
+	tip = "護盾up！"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_2 = {
+	tip = "得分up！"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_3 = {
+	tip = "時限up！"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_4 = {
+	tip = "護盾超級upup！"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_5 = {
+	tip = "得分超級upup！"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_6 = {
+	tip = "時限超級upup！"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_7 = {
+	tip = "全能upup！"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_1 = {
+	tip = "遊戲開始時攜帶1層護盾，每層護盾可抵擋一次爆炸。"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_2 = {
+	tip = "遊戲結算時最終得分*1.2倍。"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_3 = {
+	tip = "遊戲開始時計時延長10秒。"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_4 = {
+	tip = "遊戲開始時攜帶1層護盾，局內每成功躲避5次額外獲得1層護盾，最多累積2層護盾，每層護盾可抵擋一次爆炸。"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_5 = {
+	tip = "遊戲結算時最終得分*1.2倍。遊戲中每經過5輪分數倍率額外增加+0.01。"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_6 = {
+	tip = "遊戲開始時計時延長10秒。每次倒數歸零時有50%機率再延長10秒。"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_7 = {
+	tip = "遊戲開始時攜帶1層護盾，遊戲計時延長10秒，結算時最終得分*1.2倍。"
+}
+
+
+_G.pg.base.gametip.tolovegame_join_reward = {
+	tip = "參與獎勵"
+}
+
+
+_G.pg.base.gametip.tolovegame_score = {
+	tip = "得分"
+}
+
+
+_G.pg.base.gametip.tolovegame_rank_tip = {
+	tip = "僅顯示好友與大艦隊成員"
+}
+
+
+_G.pg.base.gametip.tolovegame_lock_1 = {
+	tip = "$1天$2小時後解鎖"
+}
+
+
+_G.pg.base.gametip.tolovegame_lock_2 = {
+	tip = "$1小時後解鎖"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_switch_1 = {
+	tip = "啟用修正"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_switch_2 = {
+	tip = "停止修正"
+}
+
+
+_G.pg.base.gametip.tolovegame_proceed = {
+	tip = "前往"
+}
+
+
+_G.pg.base.gametip.tolovegame_collect = {
+	tip = "領取"
+}
+
+
+_G.pg.base.gametip.tolovegame_collected = {
+	tip = "已領取"
+}
+
+
+_G.pg.base.gametip.tolovegame_tutorial = {
+	tip = {
+		{
+			info = "異世界的王女為指揮官專門製作的特訓裝置！\n"
+		},
+		{
+			info = "1. 遊戲開始後，指揮官需要記下角色上方依序出現的方向箭頭；"
+		},
+		{
+			info = "2. 箭頭不久之後就會消失，爆炸即將開始！不過好在只要按照剛剛記下的順序依序按下方向鍵即可躲避炸彈；"
+		},
+		{
+			info = "3. 閃避的輪次越高，可獲得越高分數；"
+		},
+		{
+			info = "4 . 充分利用「特訓修正」中的增強效果，在有限的時間內取得高分吧！"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.tolovegame_awards = {
+	tip = "參與獎勵"
+}
+
+
+_G.pg.base.gametip.tolovemainpage_skin_countdown = {
+	tip = "剩餘$1小時"
+}
+
+
+_G.pg.base.gametip.tolovemainpage_build_countdown = {
+	tip = "即將結束"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_title = {
+	tip = "訂單需求確認"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_ship_need = {
+	tip = "$1的需求"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_task_need = {
+	tip = "所需素材："
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_detail_collect = {
+	tip = "前往收集"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_detail_puzzle = {
+	tip = "拼接元件"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_detail_connection = {
+	tip = "繪製電路"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_ship_unknown = {
+	tip = "???"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_lock_by_front = {
+	tip = "需要完成前置訂單"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_lock_by_time = {
+	tip = "$1天$2小時後解鎖"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_cheat = {
+	tip = "這個輕鬆，就交給我吧！"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_open_detail = {
+	tip = "查看訂單"
+}
+
+
+_G.pg.base.gametip.tolove_main_help = {
+	tip = {
+		{
+			info = "活動簡介："
+		},
+		{
+			info = "<color=#92fc63>11.28~12.12 維護前</color>開啟限時活動「危險發明逼近中！」"
+		},
+		{
+			info = "<color= #7D7D7D>紀念章獎勵領取、作戰收穫累積獎勵領取、活動商店獎勵兌換時間將延長至12.18 24時</color>\n"
+		},
+		{
+			info = "<color=#FCD400>出擊</color>\n透過特別作戰獲取「能量石」，在「作戰收穫累計中！」和「補給商店」處兌換豐厚獎勵。\n"
+		},
+		{
+			info = "<color=#FCD400>「幫幫我吧，菈菈小姐！」</color>\n活動期間透過作戰獲得「能量晶屑」，在「幫幫我吧，菈菈小姐！」玩法中開啟港區角色的發明委託訂單，完成元件拼接與電路繪製後可領取「嘻嘻加班君」等限定設備。\n"
+		},
+		{
+			info = "<color=#FCD400>「滴滴特訓君」</color>\n活動期間完成7日小遊戲，可獲得「王女的畫作」等限定傢俱獎勵；完成特訓任務更可獲得額外獎勵。\n"
+		},
+		{
+			info = "<color=#FCD400>「紀念章」</color>\n活動期間限定活動任務可取得「資料晶片」，集齊「資料晶片」可在「紀念章」介面內兌換活動紀念傢俱「戴比路克風紀念章」。\n"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_finished = {
+	tip = "已完成"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_title_desc = {
+	tip = "訂單需求確認"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_pop_next = {
+	tip = "下 一 步"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_pop_finish = {
+	tip = "完 成"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_pop_save = {
+	tip = "發明進度已記錄"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_unlock = {
+	tip = "委託訂單"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_lock = {
+	tip = "神秘訂單"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_line_tip = {
+	tip = "繪製電路需要一筆連通所有元件哦"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_puzzle_tip = {
+	tip = "所有元件都需要放在點位上哦"
 }

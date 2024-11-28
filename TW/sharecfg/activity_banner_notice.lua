@@ -60,6 +60,22 @@ pg.activity_banner_notice = {
 			"dorm 3d select"
 		}
 	},
+	{
+		id = 9,
+		param = {
+			"scene skinshop",
+			{
+				warp = -3
+			}
+		}
+	},
+	{
+		id = 10,
+		param = {
+			"scene Cryptolalia",
+			{}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -68,6 +84,8 @@ pg.activity_banner_notice = {
 		5,
 		6,
 		7,
-		8
+		8,
+		9,
+		10
 	}
 }

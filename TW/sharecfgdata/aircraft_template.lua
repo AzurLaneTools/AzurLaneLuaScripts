@@ -83535,6 +83535,210 @@ _G.pg.base.aircraft_template[165290] = {
 }
 
 
+_G.pg.base.aircraft_template[166661] = {
+	name = "古手川唯技能飞机Lv1",
+	max_hp = 42,
+	accuracy = 23,
+	model_ID = "99shijianbao1",
+	ACC_growth = 0,
+	crash_DMG = 180,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "99shijianbao1",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1692,
+	speed = 48,
+	id = 166661,
+	scale = 1,
+	weapon_ID = {
+		166771,
+		166781
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[166662] = {
+	max_hp = 48,
+	name = "古手川唯技能飞机Lv2",
+	spawn_brownian = 1,
+	base = 166661,
+	id = 166662,
+	hp_growth = 1913,
+	weapon_ID = {
+		166772,
+		166782
+	}
+}
+
+
+_G.pg.base.aircraft_template[166663] = {
+	max_hp = 54,
+	name = "古手川唯技能飞机Lv3",
+	spawn_brownian = 1,
+	base = 166661,
+	id = 166663,
+	hp_growth = 2133,
+	weapon_ID = {
+		166773,
+		166783
+	}
+}
+
+
+_G.pg.base.aircraft_template[166664] = {
+	max_hp = 61,
+	name = "古手川唯技能飞机Lv4",
+	spawn_brownian = 1,
+	base = 166661,
+	id = 166664,
+	hp_growth = 2354,
+	weapon_ID = {
+		166774,
+		166784
+	}
+}
+
+
+_G.pg.base.aircraft_template[166665] = {
+	max_hp = 67,
+	name = "古手川唯技能飞机Lv5",
+	spawn_brownian = 1,
+	base = 166661,
+	id = 166665,
+	hp_growth = 2575,
+	weapon_ID = {
+		166775,
+		166785
+	}
+}
+
+
+_G.pg.base.aircraft_template[166666] = {
+	max_hp = 73,
+	name = "古手川唯技能飞机Lv6",
+	spawn_brownian = 1,
+	base = 166661,
+	id = 166666,
+	hp_growth = 2796,
+	weapon_ID = {
+		166776,
+		166786
+	}
+}
+
+
+_G.pg.base.aircraft_template[166667] = {
+	max_hp = 79,
+	name = "古手川唯技能飞机Lv7",
+	spawn_brownian = 1,
+	base = 166661,
+	id = 166667,
+	hp_growth = 3016,
+	weapon_ID = {
+		166777,
+		166787
+	}
+}
+
+
+_G.pg.base.aircraft_template[166668] = {
+	max_hp = 86,
+	name = "古手川唯技能飞机Lv8",
+	spawn_brownian = 1,
+	base = 166661,
+	id = 166668,
+	hp_growth = 3237,
+	weapon_ID = {
+		166778,
+		166788
+	}
+}
+
+
+_G.pg.base.aircraft_template[166669] = {
+	max_hp = 92,
+	name = "古手川唯技能飞机Lv9",
+	spawn_brownian = 1,
+	base = 166661,
+	id = 166669,
+	hp_growth = 3458,
+	weapon_ID = {
+		166779,
+		166789
+	}
+}
+
+
+_G.pg.base.aircraft_template[166670] = {
+	max_hp = 98,
+	name = "古手川唯技能飞机Lv10",
+	spawn_brownian = 1,
+	base = 166661,
+	id = 166670,
+	hp_growth = 3678,
+	weapon_ID = {
+		166780,
+		166790
+	}
+}
+
+
 _G.pg.base.aircraft_template[200101] = {
 	name = "【大舰队米德维BOSS】执棋者 轰炸机",
 	max_hp = 202,
@@ -261117,6 +261321,1062 @@ _G.pg.base.aircraft_template[3207537] = {
 			0
 		}
 	}
+}
+
+
+_G.pg.base.aircraft_template[3228065] = {
+	name = "【2024tolove联动】航母蛋船轰炸机 Lv1",
+	model_ID = "sairenfeiji_tolove",
+	base = 1001066,
+	id = 3228065,
+	icon = "sairenfeiji_tolove",
+	weapon_ID = {
+		3228180
+	}
+}
+
+
+_G.pg.base.aircraft_template[3228066] = {
+	name = "【2024tolove联动】航母蛋船轰炸机 Lv2",
+	model_ID = "sairenfeiji_tolove",
+	base = 1001067,
+	id = 3228066,
+	icon = "sairenfeiji_tolove",
+	weapon_ID = {
+		3228181
+	}
+}
+
+
+_G.pg.base.aircraft_template[3228067] = {
+	name = "【2024tolove联动】航母蛋船轰炸机 Lv3",
+	model_ID = "sairenfeiji_tolove",
+	base = 1001068,
+	id = 3228067,
+	icon = "sairenfeiji_tolove",
+	weapon_ID = {
+		3228182
+	}
+}
+
+
+_G.pg.base.aircraft_template[3228068] = {
+	name = "【2024tolove联动】航母蛋船轰炸机 Lv4",
+	model_ID = "sairenfeiji_tolove",
+	base = 1001069,
+	id = 3228068,
+	icon = "sairenfeiji_tolove",
+	weapon_ID = {
+		3228183
+	}
+}
+
+
+_G.pg.base.aircraft_template[3228069] = {
+	name = "【2024tolove联动】航母蛋船轰炸机 Lv5",
+	model_ID = "sairenfeiji_tolove",
+	base = 1001070,
+	id = 3228069,
+	icon = "sairenfeiji_tolove",
+	weapon_ID = {
+		3228184
+	}
+}
+
+
+_G.pg.base.aircraft_template[3228070] = {
+	name = "【2024tolove联动】航母蛋船战斗机 Lv1",
+	model_ID = "sairenfeiji_tolove",
+	base = 1001071,
+	id = 3228070,
+	icon = "sairenfeiji_tolove",
+	weapon_ID = {
+		3228175,
+		1001086
+	}
+}
+
+
+_G.pg.base.aircraft_template[3228071] = {
+	name = "【2024tolove联动】航母蛋船战斗机 Lv2",
+	model_ID = "sairenfeiji_tolove",
+	base = 1001072,
+	id = 3228071,
+	icon = "sairenfeiji_tolove",
+	weapon_ID = {
+		3228176,
+		1001087
+	}
+}
+
+
+_G.pg.base.aircraft_template[3228072] = {
+	name = "【2024tolove联动】航母蛋船战斗机 Lv3",
+	model_ID = "sairenfeiji_tolove",
+	base = 1001073,
+	id = 3228072,
+	icon = "sairenfeiji_tolove",
+	weapon_ID = {
+		3228177,
+		1001088
+	}
+}
+
+
+_G.pg.base.aircraft_template[3228073] = {
+	name = "【2024tolove联动】航母蛋船战斗机 Lv4",
+	model_ID = "sairenfeiji_tolove",
+	base = 1001074,
+	id = 3228073,
+	icon = "sairenfeiji_tolove",
+	weapon_ID = {
+		3228178,
+		1001089
+	}
+}
+
+
+_G.pg.base.aircraft_template[3228074] = {
+	name = "【2024tolove联动】航母蛋船战斗机 Lv5",
+	model_ID = "sairenfeiji_tolove",
+	base = 1001075,
+	id = 3228074,
+	icon = "sairenfeiji_tolove",
+	weapon_ID = {
+		3228179,
+		1001090
+	}
+}
+
+
+_G.pg.base.aircraft_template[3228165] = {
+	name = "【2024tolove联动】航母人形轰炸机 Lv1",
+	model_ID = "sairenfeiji_tolove",
+	base = 1004186,
+	id = 3228165,
+	icon = "sairenfeiji_tolove",
+	weapon_ID = {
+		3228180
+	}
+}
+
+
+_G.pg.base.aircraft_template[3228166] = {
+	name = "【2024tolove联动】航母人形轰炸机 Lv2",
+	model_ID = "sairenfeiji_tolove",
+	base = 1004187,
+	id = 3228166,
+	icon = "sairenfeiji_tolove",
+	weapon_ID = {
+		3228181
+	}
+}
+
+
+_G.pg.base.aircraft_template[3228167] = {
+	name = "【2024tolove联动】航母人形轰炸机 Lv3",
+	model_ID = "sairenfeiji_tolove",
+	base = 1004188,
+	id = 3228167,
+	icon = "sairenfeiji_tolove",
+	weapon_ID = {
+		3228182
+	}
+}
+
+
+_G.pg.base.aircraft_template[3228168] = {
+	name = "【2024tolove联动】航母人形轰炸机 Lv4",
+	model_ID = "sairenfeiji_tolove",
+	base = 1004189,
+	id = 3228168,
+	icon = "sairenfeiji_tolove",
+	weapon_ID = {
+		3228183
+	}
+}
+
+
+_G.pg.base.aircraft_template[3228169] = {
+	name = "【2024tolove联动】航母人形轰炸机 Lv5",
+	model_ID = "sairenfeiji_tolove",
+	base = 1004190,
+	id = 3228169,
+	icon = "sairenfeiji_tolove",
+	weapon_ID = {
+		3228184
+	}
+}
+
+
+_G.pg.base.aircraft_template[3228170] = {
+	name = "【2024tolove联动】航母人形鱼雷机 Lv1",
+	model_ID = "sairenfeiji_tolove",
+	base = 1004191,
+	id = 3228170,
+	icon = "sairenfeiji_tolove",
+	weapon_ID = {
+		3228185
+	}
+}
+
+
+_G.pg.base.aircraft_template[3228171] = {
+	name = "【2024tolove联动】航母人形鱼雷机 Lv2",
+	model_ID = "sairenfeiji_tolove",
+	base = 1004192,
+	id = 3228171,
+	icon = "sairenfeiji_tolove",
+	weapon_ID = {
+		3228186
+	}
+}
+
+
+_G.pg.base.aircraft_template[3228172] = {
+	name = "【2024tolove联动】航母人形鱼雷机 Lv3",
+	model_ID = "sairenfeiji_tolove",
+	base = 1004193,
+	id = 3228172,
+	icon = "sairenfeiji_tolove",
+	weapon_ID = {
+		3228187
+	}
+}
+
+
+_G.pg.base.aircraft_template[3228173] = {
+	name = "【2024tolove联动】航母人形鱼雷机 Lv4",
+	model_ID = "sairenfeiji_tolove",
+	base = 1004194,
+	id = 3228173,
+	icon = "sairenfeiji_tolove",
+	weapon_ID = {
+		3228188
+	}
+}
+
+
+_G.pg.base.aircraft_template[3228174] = {
+	name = "【2024tolove联动】航母人形鱼雷机 Lv5",
+	model_ID = "sairenfeiji_tolove",
+	base = 1004195,
+	id = 3228174,
+	icon = "sairenfeiji_tolove",
+	weapon_ID = {
+		3228189
+	}
+}
+
+
+_G.pg.base.aircraft_template[3228230] = {
+	name = "【2024tolove联动】精英航母人形特殊飞机 Lv1",
+	model_ID = "fuyoupao2",
+	base = 1003286,
+	id = 3228230,
+	icon = "fuyoupao2",
+	weapon_ID = {
+		3228235
+	}
+}
+
+
+_G.pg.base.aircraft_template[3228231] = {
+	name = "【2024tolove联动】精英航母人形特殊飞机 Lv2",
+	model_ID = "fuyoupao2",
+	base = 1003287,
+	id = 3228231,
+	icon = "fuyoupao2",
+	weapon_ID = {
+		3228236
+	}
+}
+
+
+_G.pg.base.aircraft_template[3228232] = {
+	name = "【2024tolove联动】精英航母人形特殊飞机 Lv3",
+	model_ID = "fuyoupao2",
+	base = 1003288,
+	id = 3228232,
+	icon = "fuyoupao2",
+	weapon_ID = {
+		3228237
+	}
+}
+
+
+_G.pg.base.aircraft_template[3228233] = {
+	name = "【2024tolove联动】精英航母人形特殊飞机 Lv4",
+	model_ID = "fuyoupao2",
+	base = 1003289,
+	id = 3228233,
+	icon = "fuyoupao2",
+	weapon_ID = {
+		3228238
+	}
+}
+
+
+_G.pg.base.aircraft_template[3228234] = {
+	name = "【2024tolove联动】精英航母人形特殊飞机 Lv5",
+	model_ID = "fuyoupao2",
+	base = 1003290,
+	id = 3228234,
+	icon = "fuyoupao2",
+	weapon_ID = {
+		3228239
+	}
+}
+
+
+_G.pg.base.aircraft_template[3221004] = {
+	name = "【2024tolove联动T2】BOSS 复制体航母 战斗机",
+	max_hp = 86,
+	accuracy = 23,
+	model_ID = "sairenfeiji_tolove",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_tolove",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 45,
+	id = 3221004,
+	scale = 0.75,
+	weapon_ID = {
+		3221006,
+		3221007
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3221005] = {
+	name = "【2024tolove联动T2】BOSS 复制体航母 轰炸机",
+	max_hp = 86,
+	accuracy = 23,
+	model_ID = "sairenfeiji_tolove",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_tolove",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 35,
+	id = 3221005,
+	scale = 0.75,
+	weapon_ID = {
+		3221008
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3224010] = {
+	name = "【2024tolove联动T5】BOSS 复制体菈菈 第三波 战斗机",
+	max_hp = 86,
+	accuracy = 23,
+	model_ID = "sairenfeiji_tolove",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_tolove",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 45,
+	id = 3224010,
+	scale = 0.75,
+	weapon_ID = {
+		3224011,
+		3224012
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3225010] = {
+	name = "【2024tolove联动SP】BOSS 复制体菈菈 第三波 战斗机",
+	max_hp = 86,
+	accuracy = 23,
+	model_ID = "sairenfeiji_tolove",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_tolove",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 45,
+	id = 3225010,
+	scale = 0.75,
+	weapon_ID = {
+		3225011,
+		3225012
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3226104] = {
+	name = "【2024tolove联动TTL2】BOSS 复制体航母 战斗机",
+	max_hp = 86,
+	accuracy = 23,
+	model_ID = "sairenfeiji_tolove",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_tolove",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 45,
+	id = 3226104,
+	scale = 0.75,
+	weapon_ID = {
+		3226106,
+		3226107
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3226105] = {
+	name = "【2024tolove联动TTL2】BOSS 复制体航母 轰炸机",
+	max_hp = 86,
+	accuracy = 23,
+	model_ID = "sairenfeiji_tolove",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_tolove",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 35,
+	id = 3226105,
+	scale = 0.75,
+	weapon_ID = {
+		3226108
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3226109] = {
+	name = "【2024tolove联动TTL2】BOSS 复制体航母 浮游炮",
+	max_hp = 400,
+	accuracy = 23,
+	model_ID = "feiji_tolove_feichuan",
+	ACC_growth = 0,
+	crash_DMG = 108,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_tolove_feichuan",
+	spawn_brownian = 1,
+	nationality = 3,
+	hp_growth = 2760,
+	speed = 60,
+	id = 3226109,
+	scale = 0.75,
+	funnel_behavior = {
+		stay = 2,
+		exist = 20
+	},
+	weapon_ID = {
+		3226110,
+		3226111
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3227012] = {
+	name = "【2024tolove联动EX 普通】BOSS 复制体菈菈 第三波 战斗机",
+	max_hp = 200,
+	accuracy = 23,
+	model_ID = "sairenfeiji_tolove",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_tolove",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 45,
+	id = 3227012,
+	scale = 0.75,
+	weapon_ID = {
+		3227013,
+		3227014
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3227112] = {
+	name = "【2024tolove联动EX 困难】BOSS 复制体菈菈 第四波 战斗机",
+	max_hp = 300,
+	accuracy = 23,
+	model_ID = "sairenfeiji_tolove",
+	ACC_growth = 0,
+	crash_DMG = 1,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_tolove",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 45,
+	id = 3227112,
+	scale = 0.75,
+	weapon_ID = {
+		3227113,
+		3227114
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3227212] = {
+	model_ID = "feiji_tolove_lunadike",
+	name = "【2024tolove联动 剧情战】唯 战斗机",
+	base = 47173,
+	id = 3227212,
+	icon = "feiji_tolove_lunadike"
+}
+
+
+_G.pg.base.aircraft_template[3227213] = {
+	model_ID = "feiji_tolove_feichuan",
+	name = "【2024tolove联动 剧情战】唯 轰炸机",
+	base = 49051,
+	id = 3227213,
+	icon = "feiji_tolove_feichuan"
+}
+
+
+_G.pg.base.aircraft_template[3227214] = {
+	model_ID = "feiji_tolove_feidie",
+	name = "【2024tolove联动 剧情战】唯 鱼雷机",
+	base = 38253,
+	id = 3227214,
+	icon = "feiji_tolove_feidie"
+}
+
+
+_G.pg.base.aircraft_template[3227215] = {
+	id = 3227215,
+	name = "【2024tolove联动 剧情战】支援弹幕 光辉战斗机1",
+	base = 27333
+}
+
+
+_G.pg.base.aircraft_template[3227216] = {
+	id = 3227216,
+	name = "【2024tolove联动 剧情战】支援弹幕 光辉战斗机2",
+	base = 27313
+}
+
+
+_G.pg.base.aircraft_template[3227217] = {
+	id = 3227217,
+	name = "【2024tolove联动 剧情战】支援弹幕 光辉鱼雷机",
+	base = 28433
 }
 
 

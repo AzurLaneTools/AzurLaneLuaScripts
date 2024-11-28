@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_link_button = {
 	{
-		param = "5521",
+		param = "5679",
 		name = "event_all",
 		text_pic = "text_event_all",
 		type = 3,
@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5221
+			5679
 		}
 	},
 	{
@@ -46,8 +46,7 @@ pg.activity_link_button = {
 		group_id = 2,
 		order = 1,
 		time = {
-			"default",
-			5221
+			"default"
 		}
 	},
 	[20] = {
@@ -60,7 +59,7 @@ pg.activity_link_button = {
 		group_id = 5,
 		order = 1,
 		param = {
-			"KINDERGARTEN"
+			"TOLOVE_COLLAB_BACKHILL"
 		}
 	},
 	[30] = {
@@ -217,6 +216,22 @@ pg.activity_link_button = {
 			view = "ChildishnessSchoolPtPage"
 		}
 	},
+	[107] = {
+		name = "event_tolove",
+		text_pic = "text_event_minigame",
+		type = 2,
+		pic = "event_minigame",
+		id = 107,
+		group_id = 12,
+		order = 1,
+		time = {
+			"default",
+			5686
+		},
+		param = {
+			"TOLOVE_COLLAB_BACKHILL"
+		}
+	},
 	get_id_list_by_name = {
 		event_all = {
 			1,
@@ -259,6 +274,9 @@ pg.activity_link_button = {
 		},
 		event_layer = {
 			104
+		},
+		event_tolove = {
+			107
 		}
 	},
 	all = {
@@ -277,6 +295,7 @@ pg.activity_link_button = {
 		100,
 		101,
 		102,
-		104
+		104,
+		107
 	}
 }

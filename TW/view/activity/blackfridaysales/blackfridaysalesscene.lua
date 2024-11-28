@@ -212,7 +212,7 @@ slot0.onUpdateTask = function(slot0)
 	end
 
 	if slot0.blackFridaySalesShopPage then
-		slot0.blackFridaySalesShopPage:UpdateRes(1)
+		slot0.blackFridaySalesShopPage:UpdateRes()
 	end
 
 	slot0:updatePages()

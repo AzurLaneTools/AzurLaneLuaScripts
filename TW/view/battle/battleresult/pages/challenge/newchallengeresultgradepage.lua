@@ -47,10 +47,7 @@ slot0.LoadChallengeRes = function(slot0, slot1)
 	slot3 = slot0.bgTr
 
 	setActive(slot3:Find("ResultEffect/Tips"), false)
-
-	slot2 = ResourceMgr.Inst
-
-	slot2:getAssetAsync("BattleResultItems/Challenge", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+	LoadAnyAsync("BattleResultItems/Challenge", "", nil, function (slot0)
 		if uv0.exited or IsNil(slot0) then
 			if uv1 then
 				uv1()
@@ -64,7 +61,7 @@ slot0.LoadChallengeRes = function(slot0, slot1)
 		if uv1 then
 			uv1()
 		end
-	end), true, true)
+	end)
 end
 
 slot0.UpdateChallengeInfo = function(slot0, slot1)

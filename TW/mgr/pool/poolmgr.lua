@@ -17,118 +17,23 @@ slot0.Ctor = function(slot0)
 	slot0.singleIndex = 0
 	slot0.paintingCount = 0
 	slot0.commanderPaintingCount = 0
-	slot0.preloadSprites = {
-		shiptype = {
-			"battle_hangmu",
-			"battle_qingxun",
-			"battle_quzhu",
-			"battle_weixiu",
-			"battle_zhanlie",
-			"battle_zhongxun",
-			"hangmu",
-			"hangxun",
-			"hangzhan",
-			"leixun",
-			"qingxun",
-			"quzhu",
-			"weixiu",
-			"xunyang",
-			"zhanlie",
-			"zhongxun"
-		},
-		shipframe = {
-			"1",
-			"2",
-			"3",
-			"4",
-			"4_0",
-			"4_1",
-			"5",
-			"5_0",
-			"5_1",
-			"prop",
-			"prop4_0",
-			"prop4_1",
-			"prop5_0"
-		},
-		shipframeb = {
-			"b1",
-			"b2",
-			"b3",
-			"b3_1",
-			"b4",
-			"b4_0",
-			"b4_1",
-			"b5",
-			"b5_0",
-			"b5_1",
-			"ba",
-			"bl",
-			"bprop",
-			"bprop4_0",
-			"bprop4_1",
-			"bprop5_0"
-		},
-		["shipyardicon/unknown"] = {
-			""
-		},
-		skillframe = {
-			"skill_red",
-			"skill_blue",
-			"skill_yellow"
-		},
-		weaponframes = {
-			"bg1",
-			"bg2",
-			"bg3",
-			"bg3_1",
-			"bg4",
-			"bg4_0",
-			"bg4_1",
-			"bg5",
-			"bg5_0",
-			"bg5_1",
-			"bg7",
-			"bg8",
-			"bg9",
-			"bg_skin",
-			"frame",
-			"frame3_1",
-			"frame4_0",
-			"frame4_1",
-			"frame5_0",
-			"frame8",
-			"frame9",
-			"frame_design",
-			"frame_design_owned",
-			"frame_npc",
-			"frame_prop",
-			"frame_prop_meta",
-			"frame_skin",
-			"frame_dorm"
-		},
-		energy = {
-			"express_1",
-			"express_2",
-			"express_3",
-			"express_4"
-		}
-	}
-	slot0.preloadAbs = {
-		"custom_builtin",
-		"shipstatus",
-		"channel",
-		"painting/mat",
-		"ui/commonui_atlas",
-		"ui/share/msgbox_atlas",
-		"ui/share/world_common_atlas",
-		"skinicon",
-		"attricon",
-		"artresource/effect/chuanwukuang/duang_6_mask",
-		"artresource/effect/communicationjamming/line5",
-		"artresource/effect/communicationjamming/line6",
-		"artresource/effect/wupinkuang/iconcolorfulmask",
-		"artresource/effect/wupinkuang/iconcolorfulwave01"
+	slot0.preloadDic = {
+		shiptype = {},
+		shipframe = {},
+		shipframeb = {},
+		["shipyardicon/unknown"] = {},
+		skillframe = {},
+		weaponframes = {},
+		energy = {},
+		custom_builtin = {},
+		shipstatus = {},
+		channel = {},
+		["painting/mat"] = {},
+		["ui/commonui_atlas"] = {},
+		["ui/share/msgbox_atlas"] = {},
+		["ui/share/world_common_atlas"] = {},
+		skinicon = {},
+		attricon = {}
 	}
 	slot0.ui_tempCache = {}
 end
@@ -136,37 +41,18 @@ end
 slot0.Init = function(slot0, slot1)
 	print("initializing pool manager...")
 
-	slot2 = 0
-	slot3 = table.getCount(slot0.preloadSprites) + #slot0.preloadAbs
+	slot2 = {}
 
-	slot4 = function()
-		uv0 = uv0 + 1
-
-		if uv0 == uv1 then
-			uv2()
-		end
-	end
-
-	for slot8, slot9 in pairs(slot0.preloadSprites) do
-		AssetBundleHelper.LoadAssetBundle(slot8, true, true, function (slot0)
-			slot4 = slot0
-
-			uv0:AddPoolsPack(uv1, slot4)
-
-			for slot4, slot5 in ipairs(uv2) do
-				uv0.pools_pack[uv1]:Get(slot5, typeof(Sprite))
-			end
-
-			uv3()
+	for slot6, slot7 in pairs(slot0.preloadDic) do
+		table.insert(slot2, function (slot0)
+			AssetBundleHelper.LoadAssetBundle(uv0, true, true, function (slot0)
+				uv0:AddPoolsPack(uv1, slot0)
+				uv2()
+			end)
 		end)
 	end
 
-	for slot8, slot9 in ipairs(slot0.preloadAbs) do
-		AssetBundleHelper.LoadAssetBundle(slot9, true, false, function (slot0)
-			uv0:AddPoolsPack(uv1, slot0)
-			uv2()
-		end)
-	end
+	seriesAsync(slot2, slot1)
 end
 
 slot0.GetSpineChar = function(slot0, slot1, slot2, slot3)
@@ -303,7 +189,7 @@ slot0.GetUI = function(slot0, slot1, slot2, slot3)
 		else
 			slot1()
 		end
-	end, true)
+	end)
 end
 
 slot0.ReturnUI = function(slot0, slot1, slot2)
@@ -401,7 +287,7 @@ slot0.GetPainting = function(slot0, slot1, slot2, slot3)
 		end
 
 		uv1(slot0)
-	end, true)
+	end)
 end
 
 slot0.ReturnPainting = function(slot0, slot1, slot2)
@@ -421,43 +307,43 @@ slot0.ReturnPainting = function(slot0, slot1, slot2)
 		slot0.pools_plural[slot4]:Enqueue(slot2)
 		slot0:ExcessPainting()
 	else
-		uv0.Destroy(slot2, true)
+		uv0.Destroy(slot2)
 	end
 end
 
-slot0.ExcessPainting = function(slot0)
-	slot1 = 0
-	slot2 = 4
-	slot3 = {}
+slot0.ExcessPainting = function(slot0, slot1)
+	slot2 = 0
+	slot3 = 4
+	slot4 = {}
 
-	for slot7, slot8 in pairs(slot0.pools_plural) do
-		if string.find(slot7, "painting/") and slot9 >= 1 then
-			table.insert(slot3, slot7)
+	for slot8, slot9 in pairs(slot0.pools_plural) do
+		if string.find(slot8, "painting/") and slot10 >= 1 then
+			table.insert(slot4, slot8)
 		end
 	end
 
-	if slot2 < #slot3 then
-		table.sort(slot3, function (slot0, slot1)
+	if slot3 < #slot4 then
+		table.sort(slot4, function (slot0, slot1)
 			return uv0.pools_plural[slot1].index < uv0.pools_plural[slot0].index
 		end)
 
-		for slot7 = slot2 + 1, #slot3 do
-			slot8 = slot3[slot7]
+		for slot8 = slot3 + 1, #slot4 do
+			slot9 = slot4[slot8]
 
-			slot0.pools_plural[slot8]:Clear(true)
+			slot0.pools_plural[slot9]:Clear(true)
 
-			slot0.pools_plural[slot8] = nil
+			slot0.pools_plural[slot9] = nil
 		end
-
-		uv0:unloadUnusedAssetBundles()
 
 		slot0.paintingCount = slot0.paintingCount + 1
+	end
 
-		if slot0.paintingCount > 10 then
-			slot0.paintingCount = 0
+	if slot1 then
+		slot0.paintingCount = 0
+	elseif slot0.paintingCount >= 10 then
+		slot0.paintingCount = 0
 
-			uv0:ResUnloadAsync()
-		end
+		gcAll(false)
 	end
 end
 
@@ -473,7 +359,7 @@ slot0.GetPaintingWithPrefix = function(slot0, slot1, slot2, slot3, slot4)
 		end
 
 		uv1(slot0)
-	end, true)
+	end)
 end
 
 slot0.ReturnPaintingWithPrefix = function(slot0, slot1, slot2, slot3)
@@ -493,7 +379,7 @@ slot0.ReturnPaintingWithPrefix = function(slot0, slot1, slot2, slot3)
 		slot0.pools_plural[slot5]:Enqueue(slot2)
 		slot0:ExcessPainting()
 	else
-		uv0.Destroy(slot2, true)
+		uv0.Destroy(slot2)
 	end
 end
 
@@ -508,31 +394,23 @@ slot0.DecreasSprite = function(slot0, slot1, slot2)
 		slot0.pools_pack[slot3]:Remove(slot2)
 
 		if slot0.pools_pack[slot3]:GetAmount() <= 0 then
-			slot0.pools_pack[slot3]:Clear()
-
-			slot0.pools_pack[slot3] = nil
+			slot0:RemovePoolsPack(slot3)
 		end
 	end
 end
 
 slot0.DestroySprite = function(slot0, slot1)
-	if slot0.pools_pack[slot1] then
-		slot0.pools_pack[slot2]:Clear()
-
-		slot0.pools_pack[slot2] = nil
-	end
+	slot0:RemovePoolsPack(slot1)
 end
 
 slot0.DestroyAllSprite = function(slot0)
-	slot1 = {}
-	slot2 = typeof(Sprite)
+	slot6 = "/"
+	slot7 = 24
+
+	print("cached sprite size: " .. math.ceil(slot0:SpriteMemUsage() * 10) / 10 .. slot6 .. slot7 .. "MB")
 
 	for slot6, slot7 in pairs(slot0.pools_pack) do
-		if not slot0.preloadSprites[slot6] and not slot0.preloadAbs[slot6] then
-			slot0.pools_pack[slot6]:Clear()
-
-			slot0.pools_pack[slot6] = nil
-		end
+		slot0:RemovePoolsPack(slot6)
 	end
 
 	uv0:unloadUnusedAssetBundles()
@@ -601,7 +479,7 @@ slot0.GetPrefab = function(slot0, slot1, slot2, slot3, slot4, slot5)
 		slot0:SetActive(true)
 		tf(slot0):SetParent(uv1.root, false)
 		uv2(slot0)
-	end, true)
+	end)
 end
 
 slot0.ReturnPrefab = function(slot0, slot1, slot2, slot3, slot4)
@@ -689,8 +567,8 @@ slot0.GetPluralStatus = function(slot0, slot1)
 	}, tostring), " ")
 end
 
-slot0.FromPlural = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
-	slot8 = function()
+slot0.FromPlural = function(slot0, slot1, slot2, slot3, slot4, slot5)
+	slot7 = function()
 		slot0 = uv0.pools_plural[uv1]
 		slot0.index = uv0.pluralIndex
 		uv0.pluralIndex = uv0.pluralIndex + 1
@@ -711,9 +589,9 @@ slot0.FromPlural = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 			end
 
 			uv6()
-		end, slot6)
+		end, true)
 	else
-		slot8()
+		slot7()
 	end
 end
 
@@ -771,6 +649,16 @@ slot0.AddPoolsPack = function(slot0, slot1, slot2)
 	end
 end
 
+slot0.RemovePoolsPack = function(slot0, slot1)
+	if not slot0.pools_pack[slot1] or slot0.preloadDic[slot1] then
+		return
+	end
+
+	slot0.pools_pack[slot1]:Clear()
+
+	slot0.pools_pack[slot1] = nil
+end
+
 slot0.PrintPools = function(slot0)
 	slot1 = ""
 
@@ -782,15 +670,17 @@ slot0.PrintPools = function(slot0)
 end
 
 slot0.PrintObjPack = function(slot0)
-	slot1 = ""
+	slot1 = {}
 
 	for slot5, slot6 in pairs(slot0.pools_pack) do
+		table.insert(slot1, slot5)
+
 		for slot10, slot11 in pairs(slot6.items) do
-			slot1 = slot1 .. "\n" .. slot5 .. " " .. slot10
+			table.insert(slot1, "    :" .. slot10)
 		end
 	end
 
-	warning(slot1)
+	warning(table.concat(slot1, "\n"))
 end
 
 return slot0

@@ -2133,5 +2133,38 @@ pg.effect_offset = {
 			-1.5,
 			0
 		}
+	},
+	mengmeng_plant = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = true,
+		offset = {
+			2,
+			0,
+			0
+		}
+	},
+	mengmeng_plant2 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = true,
+		offset = {
+			2,
+			0,
+			0
+		}
+	},
+	huihuijun_baiguang = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			0,
+			3,
+			0
+		}
 	}
 }

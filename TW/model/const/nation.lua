@@ -51,6 +51,7 @@ slot0.Nation2Print = function(slot0)
 			[102.0] = "bili",
 			[106.0] = "um",
 			[110.0] = "um",
+			[111.0] = "um",
 			[103.0] = "um",
 			[105.0] = "um"
 		}
@@ -84,6 +85,7 @@ slot0.Nation2Side = function(slot0)
 			[110.0] = "Jp",
 			[102.0] = "Cn",
 			[106.0] = "Jp",
+			[111.0] = "Jp",
 			[103.0] = "Jp",
 			[105.0] = "Jp"
 		}
@@ -117,6 +119,7 @@ slot0.Nation2BG = function(slot0)
 			[110.0] = "bg/bg_church",
 			[102.0] = "bg/bg_church",
 			[106.0] = "bg/bg_church",
+			[111.0] = "bg/bg_church",
 			[103.0] = "bg/bg_church",
 			[105.0] = "bg/bg_church"
 		}
@@ -151,7 +154,8 @@ slot0.Nation2Name = function(slot0)
 			[107] = i18n("word_shipNation_imas"),
 			[108] = i18n("word_shipNation_ssss"),
 			[109] = i18n("word_shipNation_ryza"),
-			[110] = i18n("word_shipNation_senran")
+			[110] = i18n("word_shipNation_senran"),
+			[111] = i18n("word_shipNation_tolove")
 		}
 	end
 
@@ -184,7 +188,8 @@ slot0.Nation2facionName = function(slot0)
 			[107] = i18n("guild_faction_unknown"),
 			[108] = i18n("guild_faction_unknown"),
 			[109] = i18n("guild_faction_unknown"),
-			[110] = i18n("guild_faction_unknown")
+			[110] = i18n("guild_faction_unknown"),
+			[111] = i18n("guild_faction_unknown")
 		}
 	end
 

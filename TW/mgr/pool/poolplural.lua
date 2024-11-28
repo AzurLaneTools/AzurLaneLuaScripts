@@ -51,15 +51,15 @@ slot1.AllReturned = function(slot0)
 	return slot0.balance == 0
 end
 
-slot1.ClearPrefab = function(slot0, slot1)
-	uv0.Destroy(slot0.prefab, slot1)
+slot1.ClearPrefab = function(slot0)
+	uv0.Destroy(slot0.prefab)
 
 	slot0.prefab = nil
 end
 
-slot1.ClearItems = function(slot0, slot1)
-	for slot5 = 1, #slot0.items do
-		uv0.Destroy(slot0.items[slot5], slot1)
+slot1.ClearItems = function(slot0)
+	for slot4 = 1, #slot0.items do
+		uv0.Destroy(slot0.items[slot4])
 	end
 
 	table.clear(slot0.items)
@@ -67,9 +67,9 @@ slot1.ClearItems = function(slot0, slot1)
 	slot0.balance = 0
 end
 
-slot1.Clear = function(slot0, slot1)
-	slot0:ClearPrefab(slot1)
-	slot0:ClearItems(slot1)
+slot1.Clear = function(slot0)
+	slot0:ClearPrefab()
+	slot0:ClearItems()
 end
 
 return slot1
