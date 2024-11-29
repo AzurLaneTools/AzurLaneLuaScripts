@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_story_task_2",
-			say = "幾天後，正在走廊上的我被大喊著不妙的鈍劍拉住，來到了指揮室。",
+			say = "幾天後，正在走廊上的我被大喊著不妙的銳劍拉住，來到了指揮室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
