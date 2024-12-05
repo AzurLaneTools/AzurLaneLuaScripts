@@ -7,7 +7,7 @@ return {
 			bgName = "bg_tolove_1",
 			side = 2,
 			dir = 1,
-			bgm = "tl-battle-inst",
+			bgm = "story-richang-refreshing",
 			actor = 11100020,
 			nameColor = "#A9F548FF",
 			say = "哇啊——！姐姐小心！",

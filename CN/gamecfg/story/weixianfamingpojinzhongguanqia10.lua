@@ -19,7 +19,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tolove_2",
-			bgm = "tl-battle-inst",
+			bgm = "story-richang-refreshing",
 			say = "由娜娜和古手川唯，以及利物浦、德文郡、努比亚人三名皇家女仆所组成的搜索队正在搜索着附近海域。",
 			typewriter = {
 				speed = 0.05,

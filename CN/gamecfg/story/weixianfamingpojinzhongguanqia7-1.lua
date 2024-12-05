@@ -7,7 +7,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_539",
-			bgm = "tl-battle-inst",
+			bgm = "story-richang-refreshing",
 			say = "战斗还在继续，港口周边的海域已被炮火和硝烟所笼罩。",
 			typewriter = {
 				speed = 0.05,

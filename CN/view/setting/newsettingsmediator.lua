@@ -25,7 +25,8 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.ON_GET_TRANSCODE,
 		GAME.ON_SOCIAL_LINKED,
 		GAME.ON_SOCIAL_UNLINKED,
-		GAME.CHANGE_RANDOM_SHIP_MODE_DONE
+		GAME.CHANGE_RANDOM_SHIP_MODE_DONE,
+		GAME.ON_APPLICATION_PAUSE
 	}
 end
 
@@ -52,6 +53,8 @@ slot0.handleNotification = function(slot0, slot1)
 		slot0.viewComponent:OnSelectGraphicSettingLevel()
 	elseif slot2 == uv0.SelectCustomGraphicSetting then
 		slot0.viewComponent:OnSelectCustomGraphicSetting()
+	elseif slot2 == GAME.ON_APPLICATION_PAUSE then
+		slot0.viewComponent:OnApplicationPause()
 	end
 end
 

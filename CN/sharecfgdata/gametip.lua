@@ -36233,3 +36233,28 @@ _G.pg.base.gametip.tolovegame_puzzle_line_tip = {
 _G.pg.base.gametip.tolovegame_puzzle_puzzle_tip = {
 	tip = "所有元器件都需要放在点位上哦"
 }
+
+
+_G.pg.base.gametip.maintenance_message_text = {
+	tip = "服务器将于$1后进行维护，届时将强制下线，请指挥官合理安排游戏规划。"
+}
+
+
+_G.pg.base.gametip.maintenance_message_stop_text = {
+	tip = "服务器正在关闭中"
+}
+
+
+_G.pg.base.gametip.task_get = {
+	tip = "领取"
+}
+
+
+_G.pg.base.gametip.notify_clock_tip = {
+	tip = "未开启闹钟权限，无法进行通知"
+}
+
+
+_G.pg.base.gametip.notify_clock_button = {
+	tip = "开启闹钟权限"
+}

@@ -5,15 +5,14 @@ pg.activity_banner = {
 		id = 1,
 		pic = "temp1",
 		param = {
-			"scene Cryptolalia",
-			{}
+			"scene dailylevel"
 		},
 		time = {
 			{
 				{
 					2024,
-					11,
-					21
+					12,
+					5
 				},
 				{
 					0,
@@ -24,8 +23,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					11,
-					27
+					12,
+					11
 				},
 				{
 					23,
@@ -40,15 +39,18 @@ pg.activity_banner = {
 		id = 2,
 		pic = "temp2",
 		param = {
-			"scene skinshop",
-			{}
+			"scene equip",
+			{
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
+			}
 		},
 		time = {
 			{
 				{
 					2024,
-					11,
-					21
+					12,
+					5
 				},
 				{
 					0,
@@ -60,7 +62,7 @@ pg.activity_banner = {
 				{
 					2024,
 					12,
-					4
+					12
 				},
 				{
 					23,
@@ -71,41 +73,17 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 3,
 		pic = "temp3",
 		param = {
 			"scene skinshop",
 			{}
-		},
-		time = {
-			{
-				{
-					2024,
-					11,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 4,
 		pic = "temp4",
@@ -115,100 +93,24 @@ pg.activity_banner = {
 				projectName = "new",
 				page = 1
 			}
-		},
-		time = {
-			{
-				{
-					2024,
-					11,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 5,
 		pic = "temp5",
 		param = {
 			"puzzle connect"
-		},
-		time = {
-			{
-				{
-					2024,
-					11,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 6,
 		pic = "temp6",
 		param = {
 			"TOLOVE_COLLAB_BACKHILL"
-		},
-		time = {
-			{
-				{
-					2024,
-					11,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
@@ -246,37 +148,12 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 8,
 		pic = "temp8",
 		param = {
 			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2024,
-					11,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
@@ -290,8 +167,8 @@ pg.activity_banner = {
 			{
 				{
 					2024,
-					11,
-					21
+					12,
+					1
 				},
 				{
 					0,
@@ -303,7 +180,7 @@ pg.activity_banner = {
 				{
 					2024,
 					12,
-					5
+					12
 				},
 				{
 					23,
@@ -315,35 +192,10 @@ pg.activity_banner = {
 	},
 	[90] = {
 		param = "",
+		time = "stop",
 		type = 9,
 		id = 90,
-		pic = "temp99",
-		time = {
-			{
-				{
-					2024,
-					11,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					4
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "temp99"
 	},
 	[91] = {
 		param = "",

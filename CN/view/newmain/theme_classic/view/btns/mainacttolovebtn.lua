@@ -15,7 +15,7 @@ slot0.GetActivityID = function(slot0)
 end
 
 slot0.OnClick = function(slot0)
-	if getProxy(ActivityProxy):getActivityById(slot0:GetActivityID()):isEnd() then
+	if getProxy(ActivityProxy):getActivityById(ActivityConst.TOLOVE_MINIGAME_TASK_ID) == nil or slot1:isEnd() then
 		pg.m02:sendNotification(GAME.LOAD_LAYERS, {
 			parentContext = getProxy(ContextProxy):getCurrentContext(),
 			context = Context.New({
@@ -30,7 +30,9 @@ slot0.OnClick = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	setActive(slot0.tipTr.gameObject, ToLoveCollabBackHillScene.IsShowMainTip())
+	if getProxy(ActivityProxy):getActivityById(ActivityConst.TOLOVE_MINIGAME_TASK_ID) ~= nil and not slot1:isEnd() then
+		setActive(slot0.tipTr.gameObject, ToLoveCollabBackHillScene.IsShowMainTip())
+	end
 end
 
 return slot0

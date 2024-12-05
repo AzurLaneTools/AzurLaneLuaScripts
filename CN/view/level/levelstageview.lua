@@ -1832,7 +1832,7 @@ end
 
 slot0.CheckFleetChange = function(slot0)
 	slot1 = slot0.contextData.chapterVO
-	slot2 = slot1.fleet
+	slot2 = slot1:GetActiveFleet()
 
 	if _.detect(slot1.fleets, function (slot0)
 		return not slot0:isValid()
@@ -1841,6 +1841,10 @@ slot0.CheckFleetChange = function(slot0)
 			type = ChapterConst.OpRetreat,
 			id = slot3.id
 		})
+
+		if slot3:getFleetType() == TeamType.Normal then
+			getProxy(ChapterProxy):StopAutoFight(ChapterConst.AUTOFIGHT_STOP_REASON.BATTLE_FAILED)
+		end
 	end
 
 	if not slot2:isValid() then

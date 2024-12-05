@@ -9,8 +9,8 @@ this.SFX_COUNT_DOWN = "event:/ui/ddldaoshu2"
 this.bgm_type_default = 1
 this.bgm_type_menu = 2
 this.bgm_type_game = 3
-this.menu_bgm = "tl-battle-inst"
-this.game_bgm = "tl-battle-inst"
+this.menu_bgm = "main"
+this.game_bgm = "main"
 this.buffList = {
 	{
 		"shield protection"

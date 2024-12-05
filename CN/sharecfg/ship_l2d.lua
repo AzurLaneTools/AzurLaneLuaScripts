@@ -26259,12 +26259,10 @@ pg.ship_l2d = {
 		parameter = "touch_drag8",
 		gyro_y = 0,
 		drag_direct = 0,
-		react_condition = "",
 		revert_action_index = 0,
 		draw_able_name = "TouchDrag8",
 		mode = 1,
 		react_pos_y = 0,
-		action_trigger = "",
 		revert = -1,
 		react_pos_x = 0,
 		shop_action = 0,
@@ -26289,6 +26287,11 @@ pg.ship_l2d = {
 		range = {
 			-1,
 			1
+		},
+		react_condition = {
+			idle_off = {
+				2
+			}
 		},
 		listener_data = {
 			type = 1,
@@ -26341,6 +26344,10 @@ pg.ship_l2d = {
 					}
 				}
 			}
+		},
+		action_trigger = {
+			change_focus = false,
+			type = 7
 		},
 		action_trigger_active = {
 			idle_enable = {

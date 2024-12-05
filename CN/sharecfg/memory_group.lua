@@ -319,6 +319,7 @@ pg.memory_group = setmetatable({
 		602,
 		603,
 		604,
+		605,
 		1000,
 		1001,
 		1002
@@ -6891,6 +6892,23 @@ pg.base.memory_group = {
 			3995,
 			3996,
 			3997
+		}
+	},
+	[605] = {
+		title = "夺回甜蜜美梦！",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 605,
+		icon = "title_chara_lvzuofu",
+		memories = {
+			4061,
+			4062,
+			4063,
+			4064,
+			4065,
+			4066,
+			4067
 		}
 	},
 	[1000] = {

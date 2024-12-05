@@ -7,7 +7,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
-			bgm = "tl-battle-inst",
+			bgm = "story-richang-refreshing",
 			say = "在敌人的重围下，撤退之路并非一帆风顺。",
 			typewriter = {
 				speed = 0.05,

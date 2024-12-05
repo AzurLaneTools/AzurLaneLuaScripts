@@ -7,7 +7,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tolove_1",
-			bgm = "tl-theme-1",
+			bgm = "story-richang-8",
 			say = "复制体菈菈被彻底消灭后，它被击碎的核心处生成了大量能量石。",
 			typewriter = {
 				speed = 0.05,
