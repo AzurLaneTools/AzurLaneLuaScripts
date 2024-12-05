@@ -1,4 +1,4 @@
-slot0 = class("SettingsOtherPanel", import(".SettingsNotificationPanel"))
+slot0 = class("SettingsOtherPanel", import(".SettingsBasePanel"))
 
 slot0.GetUIName = function(slot0)
 	return "SettingsOther"
@@ -13,7 +13,13 @@ slot0.GetTitleEn = function(slot0)
 end
 
 slot0.OnInit = function(slot0, ...)
-	uv0.super.OnInit(slot0, ...)
+	slot0.uilist = UIItemList.New(slot0._tf:Find("options"), slot0._tf:Find("options/notify_tpl"))
+
+	slot0.uilist:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			uv0:UpdateItem(slot1 + 1, slot2)
+		end
+	end)
 
 	slot2 = pg.BrightnessMgr.GetInstance():IsPermissionGranted()
 
@@ -21,6 +27,34 @@ slot0.OnInit = function(slot0, ...)
 		PlayerPrefs.SetInt("AUTOFIGHT_BATTERY_SAVEMODE", 0)
 		PlayerPrefs.Save()
 	end
+end
+
+slot0.OnUpdate = function(slot0)
+	slot0.list = slot0:GetList()
+
+	slot0.uilist:align(#slot0.list)
+end
+
+slot0.UpdateItem = function(slot0, slot1, slot2)
+	slot3 = slot0.list[slot1]
+
+	slot2:Find("mask/Text"):GetComponent("ScrollText"):SetText(slot3.title)
+	onButton(slot0, slot2:Find("mask/Text"), function ()
+		pg.m02:sendNotification(NewSettingsMediator.SHOW_DESC, uv0)
+	end, SFX_PANEL)
+	removeOnToggle(slot2:Find("on"))
+
+	if slot0:GetDefaultValue(slot3) then
+		triggerToggle(slot2:Find("on"), true)
+	else
+		triggerToggle(slot2:Find("off"), true)
+	end
+
+	onToggle(slot0, slot2:Find("on"), function (slot0)
+		uv0:OnItemSwitch(uv1, slot0)
+	end, SFX_UI_TAG, SFX_UI_CANCEL)
+	slot0:OnUpdateItem(slot3)
+	slot0:OnUpdateItemWithTr(slot3, slot2)
 end
 
 slot0.OnItemSwitch = function(slot0, slot1, slot2)

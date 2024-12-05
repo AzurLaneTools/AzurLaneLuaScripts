@@ -19,7 +19,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tolove_2",
-			bgm = "tl-battle-inst",
+			bgm = "story-richang-refreshing",
 			say = "ナナと唯、そしてリヴァプール、デヴォンシャー、ヌビアンの3人のロイヤルメイドで構成された探索隊が、周辺海域の捜索を行っている。",
 			typewriter = {
 				speed = 0.05,

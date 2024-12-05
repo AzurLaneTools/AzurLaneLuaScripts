@@ -7,7 +7,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tolove_1",
-			bgm = "tl-theme-1",
+			bgm = "story-richang-8",
 			say = "コピー体ララが完全に消滅すると、コアがあった部分からポロポロと大量のエナジーストーンが落ちてきた。",
 			typewriter = {
 				speed = 0.05,

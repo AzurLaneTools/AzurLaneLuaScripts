@@ -1402,7 +1402,97 @@ pg.activity_ins_chat_language = setmetatable({
 		1399,
 		1400,
 		1401,
-		1402
+		1402,
+		1403,
+		1404,
+		1405,
+		1406,
+		1407,
+		1408,
+		1409,
+		1410,
+		1411,
+		1412,
+		1413,
+		1414,
+		1415,
+		1416,
+		1417,
+		1418,
+		1419,
+		1420,
+		1421,
+		1422,
+		1423,
+		1424,
+		1425,
+		1426,
+		1427,
+		1428,
+		1429,
+		1430,
+		1431,
+		1432,
+		1433,
+		1434,
+		1435,
+		1436,
+		1437,
+		1438,
+		1439,
+		1440,
+		1441,
+		1442,
+		1443,
+		1444,
+		1445,
+		1446,
+		1447,
+		1448,
+		1449,
+		1450,
+		1451,
+		1452,
+		1453,
+		1454,
+		1455,
+		1456,
+		1457,
+		1458,
+		1459,
+		1460,
+		1461,
+		1462,
+		1463,
+		1464,
+		1465,
+		1466,
+		1467,
+		1468,
+		1469,
+		1470,
+		1471,
+		1472,
+		1473,
+		1474,
+		1475,
+		1476,
+		1477,
+		1478,
+		1479,
+		1480,
+		1481,
+		1482,
+		1483,
+		1484,
+		1485,
+		1486,
+		1487,
+		1488,
+		1489,
+		1490,
+		1491,
+		1492
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -13813,5 +13903,828 @@ pg.base.activity_ins_chat_language = {
 		type = 1,
 		id = 1402,
 		flag = 0
+	},
+	[1403] = {
+		param = "指揮官～",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1403,
+		flag = 0
+	},
+	[1404] = {
+		param = "秘書艦の勤務時間……もう過ぎてない？",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1404,
+		flag = 0
+	},
+	[1405] = {
+		param = "まぁ大した仕事もないしー",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1405,
+		flag = 0
+	},
+	[1406] = {
+		param = "もう少し……寝させてもらうよ……",
+		ship_group = 40404,
+		type = 1,
+		id = 1406,
+		flag = 0,
+		option = {
+			{
+				1,
+				"重要な仕事がある"
+			}
+		}
+	},
+	[1407] = {
+		param = "重要な仕事がある。物資リストを整理しないと",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1407,
+		flag = 1
+	},
+	[1408] = {
+		param = "……あぁ、それねー",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1408,
+		flag = 1
+	},
+	[1409] = {
+		param = "でも指揮官が既にやり始めてるみたいだし……",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1409,
+		flag = 1
+	},
+	[1410] = {
+		param = "私は手伝わなくていいんじゃない……？",
+		ship_group = 40404,
+		type = 1,
+		id = 1410,
+		flag = 1,
+		option = {
+			{
+				2,
+				"ダメだ"
+			}
+		}
+	},
+	[1411] = {
+		param = "ダメだ。秘書艦としての責任を果たしてもらうからな",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1411,
+		flag = 2
+	},
+	[1412] = {
+		param = "えぇ……なんでそんなマジメに…",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1412,
+		flag = 2
+	},
+	[1413] = {
+		param = "物資リストの数字を考えただけで……頭が痛くなってきた…",
+		ship_group = 40404,
+		type = 1,
+		id = 1413,
+		flag = 2,
+		option = {
+			{
+				3,
+				"もしかして……まだベッドの上なのか？"
+			}
+		}
+	},
+	[1414] = {
+		param = "まさかまだベッドの上なのか？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1414,
+		flag = 3
+	},
+	[1415] = {
+		param = "えぇ……バレちゃった？",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1415,
+		flag = 3
+	},
+	[1416] = {
+		param = "だってお布団の中は暖かいんだもん……",
+		ship_group = 40404,
+		type = 1,
+		id = 1416,
+		flag = 3,
+		option = {
+			{
+				4,
+				"早く来てくれー！"
+			}
+		}
+	},
+	[1417] = {
+		param = "早く来て！書類がもう山積みなんだ！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1417,
+		flag = 4
+	},
+	[1418] = {
+		param = "もう～、しょうがない指揮官だね……",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1418,
+		flag = 4
+	},
+	[1419] = {
+		param = "でもそこまで頼まれたら……",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1419,
+		flag = 4
+	},
+	[1420] = {
+		param = "はいはい～。今着替えてそっちに行くからねー！",
+		ship_group = 40404,
+		type = 1,
+		id = 1420,
+		flag = 4,
+		option = {
+			{
+				5,
+				"二度寝してはダメだからな"
+			}
+		}
+	},
+	[1421] = {
+		param = "二度寝してはダメだからな",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1421,
+		flag = 5
+	},
+	[1422] = {
+		param = "わかったわかった～",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1422,
+		flag = 5
+	},
+	[1423] = {
+		param = "ええと……30分待ってくれる？",
+		ship_group = 40404,
+		type = 1,
+		id = 1423,
+		flag = 5,
+		option = {
+			{
+				6,
+				"10分以内に執務室に来てくれ"
+			}
+		}
+	},
+	[1424] = {
+		param = "10分以内で",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1424,
+		flag = 6
+	},
+	[1425] = {
+		param = "えぇ...指揮官厳しいなぁ",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1425,
+		flag = 6
+	},
+	[1426] = {
+		param = "354",
+		ship_group = 40404,
+		option = "",
+		type = 4,
+		id = 1426,
+		flag = 6
+	},
+	[1427] = {
+		param = "えへへ……指揮官♪",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1427,
+		flag = 0
+	},
+	[1428] = {
+		param = "夕飯の後ちょっと散歩してたら、いい場所見つけちゃったぁ……",
+		ship_group = 40404,
+		type = 1,
+		id = 1428,
+		flag = 0,
+		option = {
+			{
+				1,
+				"当ててみようか"
+			},
+			{
+				2,
+				"こんな時間にまだ外をぶらついてるの…？"
+			}
+		}
+	},
+	[1429] = {
+		param = "当ててみようか……またサボりスポットか？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1429,
+		flag = 1
+	},
+	[1430] = {
+		param = "違うよ",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1430,
+		flag = 1
+	},
+	[1431] = {
+		param = "今回は……潮風がとっても気持ちいい場所なの",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1431,
+		flag = 1
+	},
+	[1432] = {
+		param = "こんな時間にまだ外をぶらついてるの…？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1432,
+		flag = 2
+	},
+	[1433] = {
+		param = "えぇ……指揮官怖いよー",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1433,
+		flag = 2
+	},
+	[1434] = {
+		param = "たまたま見つけただけなのに",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1434,
+		flag = 2
+	},
+	[1435] = {
+		param = "しかもここの景色、今すっごくいい感じなんだよ？",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1435,
+		flag = 2
+	},
+	[1436] = {
+		param = "あ、さっき流れ星が見えた",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1436,
+		flag = 0
+	},
+	[1437] = {
+		param = "48",
+		ship_group = 40404,
+		type = 4,
+		id = 1437,
+		flag = 0,
+		option = {
+			{
+				3,
+				"もう遅いから、早く帰って休もう"
+			}
+		}
+	},
+	[1438] = {
+		param = "もう遅いから、早く帰って休もう",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1438,
+		flag = 3
+	},
+	[1439] = {
+		param = "51",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 1439,
+		flag = 3
+	},
+	[1440] = {
+		param = "今夜の潮風がすっごく気持ちよくて眠れそうにないな～",
+		ship_group = 40404,
+		type = 1,
+		id = 1440,
+		flag = 3,
+		option = {
+			{
+				4,
+				"昼間寝すぎたからでしょ"
+			}
+		}
+	},
+	[1441] = {
+		param = "昼間寝すぎたからでしょ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1441,
+		flag = 4
+	},
+	[1442] = {
+		param = "じゃあ夜中うろうろするしかないんじゃない？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1442,
+		flag = 4
+	},
+	[1443] = {
+		param = "うわ～、指揮官酷くない？",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1443,
+		flag = 4
+	},
+	[1444] = {
+		param = "あ、そうだ",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1444,
+		flag = 4
+	},
+	[1445] = {
+		param = "今来たら、二つ目の流れ星が見れるかもよ？",
+		ship_group = 40404,
+		type = 1,
+		id = 1445,
+		flag = 4,
+		option = {
+			{
+				5,
+				"やめとこう"
+			}
+		}
+	},
+	[1446] = {
+		param = "この時間はやめとこう、もう遅いし",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1446,
+		flag = 5
+	},
+	[1447] = {
+		param = "明日も仕事があるから",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1447,
+		flag = 5
+	},
+	[1448] = {
+		param = "……また仕事か～",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1448,
+		flag = 5
+	},
+	[1449] = {
+		param = "じゃあ私一人で見るね～",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1449,
+		flag = 5
+	},
+	[1450] = {
+		param = "もし流れ星とか何かを逃しても……",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1450,
+		flag = 5
+	},
+	[1451] = {
+		param = "恨みっこなしだよ～",
+		ship_group = 40404,
+		type = 1,
+		id = 1451,
+		flag = 5,
+		option = {
+			{
+				6,
+				"……もう、仕方ないな"
+			},
+			{
+				7,
+				"先に帰って、明日また見に行こう"
+			}
+		}
+	},
+	[1452] = {
+		param = "仕方ないな",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1452,
+		flag = 6
+	},
+	[1453] = {
+		param = "すぐ出る。ついでに羽織るやつもなにか持って行こうか",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1453,
+		flag = 6
+	},
+	[1454] = {
+		param = "先に帰って、明日また見に行こう",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1454,
+		flag = 7
+	},
+	[1455] = {
+		param = "ええ……明日は流れ星が見れるかわかんないよ？",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1455,
+		flag = 7
+	},
+	[1456] = {
+		param = "それに今の夜風だって超気持ちいいし……",
+		ship_group = 40404,
+		type = 1,
+		id = 1456,
+		flag = 7,
+		option = {
+			{
+				8,
+				"……もう、仕方ないな"
+			}
+		}
+	},
+	[1457] = {
+		param = "……もう、仕方ないな",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1457,
+		flag = 8
+	},
+	[1458] = {
+		param = "ふふ～、指揮官なら来てくれるって知ってた",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1458,
+		flag = 0
+	},
+	[1459] = {
+		param = "いつもの場所で待ってるね～",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1459,
+		flag = 0
+	},
+	[1460] = {
+		param = "あらら～",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1460,
+		flag = 0
+	},
+	[1461] = {
+		param = "307",
+		ship_group = 40404,
+		type = 4,
+		id = 1461,
+		flag = 0,
+		option = {
+			{
+				1,
+				"どうしたの？"
+			}
+		}
+	},
+	[1462] = {
+		param = "どうしたの？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1462,
+		flag = 1
+	},
+	[1463] = {
+		param = "指揮官のタスクリスト……",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1463,
+		flag = 1
+	},
+	[1464] = {
+		param = "うっかり消しちゃったみたい～",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1464,
+		flag = 1
+	},
+	[1465] = {
+		param = "307",
+		ship_group = 40404,
+		type = 4,
+		id = 1465,
+		flag = 1,
+		option = {
+			{
+				2,
+				"またか……"
+			}
+		}
+	},
+	[1466] = {
+		param = "またか……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1466,
+		flag = 2
+	},
+	[1467] = {
+		param = "今度はどんな言い訳だ？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1467,
+		flag = 2
+	},
+	[1468] = {
+		param = "ふーん……わかりきってるでしょ？",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1468,
+		flag = 2
+	},
+	[1469] = {
+		param = "最近指揮官は忙しすぎるから",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1469,
+		flag = 2
+	},
+	[1470] = {
+		param = "つまんない仕事は全部消しちゃったよ",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1470,
+		flag = 2
+	},
+	[1471] = {
+		param = "どうせそんなの、明日やってもいいでしょ？",
+		ship_group = 40404,
+		type = 1,
+		id = 1471,
+		flag = 2,
+		option = {
+			{
+				3,
+				"それはダメだ……"
+			}
+		}
+	},
+	[1472] = {
+		param = "それはダメだ……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1472,
+		flag = 3
+	},
+	[1473] = {
+		param = "重要じゃないのはいいけど、今日中に片付けないといけない書類だってある",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1473,
+		flag = 3
+	},
+	[1474] = {
+		param = "すぐにスケジュールを立て直さないと……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1474,
+		flag = 3
+	},
+	[1475] = {
+		param = "ふふん～無駄の努力はよせよせ～",
+		ship_group = 40404,
+		type = 1,
+		id = 1475,
+		flag = 3,
+		option = {
+			{
+				4,
+				"どういうこと？"
+			}
+		}
+	},
+	[1476] = {
+		param = "どういうこと？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1476,
+		flag = 4
+	},
+	[1477] = {
+		param = "片付けないといけない書類なら、もうリュッツォウがなんとかしてあげたよ",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1477,
+		flag = 4
+	},
+	[1478] = {
+		param = "だから……今日は指揮官の予定はリュッツォウが決めちゃう",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1478,
+		flag = 4
+	},
+	[1479] = {
+		param = "ふふふ～無駄な足掻きをしないことだ～",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1479,
+		flag = 4
+	},
+	[1480] = {
+		param = "一緒にサボってくれなかったことへの補填、だからね……",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1480,
+		flag = 4
+	},
+	[1481] = {
+		param = "308",
+		ship_group = 40404,
+		type = 4,
+		id = 1481,
+		flag = 4,
+		option = {
+			{
+				5,
+				"はぁ……何を企んでるの？"
+			}
+		}
+	},
+	[1482] = {
+		param = "はぁ……何を企んでるの？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1482,
+		flag = 5
+	},
+	[1483] = {
+		param = "うーん……私ね……今商店街のカフェにいるの",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1483,
+		flag = 5
+	},
+	[1484] = {
+		param = "ここのティラミスとコーヒーがすっごく美味しくて……",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1484,
+		flag = 5
+	},
+	[1485] = {
+		param = "でも一人だと、なんか物足りないなぁ……",
+		ship_group = 40404,
+		type = 1,
+		id = 1485,
+		flag = 5,
+		option = {
+			{
+				6,
+				"まさか最初からこれを狙ってた…？"
+			}
+		}
+	},
+	[1486] = {
+		param = "まさか最初からこれを狙ってた…？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1486,
+		flag = 6
+	},
+	[1487] = {
+		param = "さあ……でも席は取ってあるよ……",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1487,
+		flag = 6
+	},
+	[1488] = {
+		param = "はあ……また眠くなってきた～。早く来ないと……",
+		ship_group = 40404,
+		type = 1,
+		id = 1488,
+		flag = 6,
+		option = {
+			{
+				7,
+				"すぐ行くよ"
+			}
+		}
+	},
+	[1489] = {
+		param = "すぐ行くよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1489,
+		flag = 7
+	},
+	[1490] = {
+		param = "ふふ～、そう言ってくれると思ってた",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1490,
+		flag = 7
+	},
+	[1491] = {
+		param = "じゃあ眠気と戦いながら待ってるね……",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1491,
+		flag = 7
+	},
+	[1492] = {
+		param = "今日のデザートは……指揮官のおごりだから♪",
+		ship_group = 40404,
+		option = "",
+		type = 1,
+		id = 1492,
+		flag = 7
 	}
 }

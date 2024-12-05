@@ -7,7 +7,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_539",
-			bgm = "tl-battle-inst",
+			bgm = "story-richang-refreshing",
 			say = "戦闘が続いていることにより、港の周辺はすでに砲火と硝煙に包まれていた。",
 			typewriter = {
 				speed = 0.05,

@@ -27555,5 +27555,30 @@ cs.gametip = {
 		1141384,
 		159,
 		true
+	},
+	maintenance_message_text = {
+		1141543,
+		211,
+		true
+	},
+	maintenance_message_stop_text = {
+		1141754,
+		114,
+		true
+	},
+	task_get = {
+		1141868,
+		78,
+		true
+	},
+	notify_clock_tip = {
+		1141946,
+		189,
+		true
+	},
+	notify_clock_button = {
+		1142135,
+		116,
+		true
 	}
 }

@@ -7,7 +7,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
-			bgm = "tl-theme-2",
+			bgm = "story-richang-7",
 			say = "一行はゲームメーカーグレートに表示された座標を元に、見知らぬ海域へと足を踏み入れた。",
 			typewriter = {
 				speed = 0.05,

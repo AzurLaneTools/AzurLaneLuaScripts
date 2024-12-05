@@ -45,6 +45,14 @@ end
 slot7.EnableJoystick = function(slot0, slot1)
 	slot0._stickController.enabled = slot1
 
+	if slot0._joystick:GetComponent(typeof(Animation)) then
+		slot2.enabled = slot1
+	end
+
+	if slot0._joystick:GetComponent(typeof(Animator)) then
+		slot3.enabled = slot1
+	end
+
 	setActive(slot0._joystick, slot1)
 end
 

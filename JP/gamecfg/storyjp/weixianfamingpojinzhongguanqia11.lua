@@ -23,7 +23,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tolove_2",
-			bgm = "tl-battle-inst",
+			bgm = "story-richang-refreshing",
 			say = "第二チェックポイントで、モモと春菜、そしてシリアス、ダイドー、シラのメイドたちで構成された探索隊も、敵の襲来に見舞われていた。",
 			typewriter = {
 				speed = 0.05,

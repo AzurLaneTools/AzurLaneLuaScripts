@@ -22,7 +22,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_tolove_2",
-			bgm = "tl-battle-inst",
+			bgm = "story-richang-refreshing",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ララと金色の闇、そしてクイーン・エリザベスとベルファストで構成された主力の探索隊は、第三チェックポイントに向かって進んでいた。",

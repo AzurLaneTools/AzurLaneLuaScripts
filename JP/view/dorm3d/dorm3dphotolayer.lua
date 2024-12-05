@@ -1293,6 +1293,12 @@ slot0.willExit = function(slot0)
 		slot0.timerAnim = nil
 	end
 
+	slot2 = slot0.scene.ladyDict[slot0.scene.apartment:GetConfigID()]
+
+	if slot2.skinId ~= slot2.skinIdList[1] then
+		slot0.scene.SwitchCharacterSkin(slot2, slot1, slot3[1])
+	end
+
 	if slot0.animSpeed ~= 1 then
 		slot0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SetCharacterAnimSpeed", 1)
 	end

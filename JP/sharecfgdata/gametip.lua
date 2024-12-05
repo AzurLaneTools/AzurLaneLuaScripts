@@ -36829,3 +36829,28 @@ _G.pg.base.gametip.tolovegame_puzzle_line_tip = {
 _G.pg.base.gametip.tolovegame_puzzle_puzzle_tip = {
 	tip = "パーツはジョイントポイントに合わせて配置可能"
 }
+
+
+_G.pg.base.gametip.maintenance_message_text = {
+	tip = "$1後にメンテナンスが開始します。メンテ中はゲームをプレイできません。ご注意ください"
+}
+
+
+_G.pg.base.gametip.maintenance_message_stop_text = {
+	tip = "サーバー停止中"
+}
+
+
+_G.pg.base.gametip.task_get = {
+	tip = "受取"
+}
+
+
+_G.pg.base.gametip.notify_clock_tip = {
+	tip = "該当権限が許可されていないため、お知らせ機能を有効にすることができません"
+}
+
+
+_G.pg.base.gametip.notify_clock_button = {
+	tip = "アラーム権限を許可する"
+}

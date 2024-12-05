@@ -76,9 +76,9 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "tl-theme-1",
+		default_bgm = "login",
 		special_bgm = "",
-		bgm = "tl-theme-1"
+		bgm = "login"
 	},
 	NewMainScene = {
 		default_bgm = "main",
@@ -141,9 +141,9 @@ pg.voice_bgm = {
 		bgm = "story-richang-light"
 	},
 	BuildShipScene = {
-		default_bgm = "story-richang-light",
+		default_bgm = "main",
 		special_bgm = "",
-		bgm = "story-richang-light"
+		bgm = "main"
 	},
 	VolleyballGameView = {
 		default_bgm = "doa_minigame",
@@ -1776,9 +1776,9 @@ pg.voice_bgm = {
 		bgm = "story-richang-rosy-short"
 	},
 	ToLoveCollabBackHillScene = {
-		default_bgm = "tl-battle",
+		default_bgm = "main",
 		special_bgm = "",
-		bgm = "tl-battle"
+		bgm = "main"
 	},
 	PuzzleConnectLayer = {
 		default_bgm = "story-richang-refreshing",

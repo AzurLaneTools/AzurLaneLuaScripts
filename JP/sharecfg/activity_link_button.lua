@@ -258,7 +258,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5679
+			5686
 		},
 		param = {
 			"TOLOVE_COLLAB_BACKHILL"

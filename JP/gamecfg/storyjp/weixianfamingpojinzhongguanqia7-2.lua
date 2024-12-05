@@ -7,7 +7,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_539",
 			soundeffect = "event:/battle/boom2",
-			bgm = "tl-battle-inst",
+			bgm = "story-richang-refreshing",
 			nameColor = "#A9F548FF",
 			say = "ーーーーーー！",
 			typewriter = {

@@ -3809,5 +3809,26 @@ pg.gameset = {
 	juuschat_dialogue_trigger_time = {
 		description = "",
 		key_value = 3000
+	},
+	maintenance_message = {
+		key_value = 0,
+		description = {
+			{
+				21600,
+				14400,
+				7200,
+				3600,
+				1800,
+				900,
+				600,
+				300,
+				240,
+				180,
+				120,
+				60,
+				30
+			},
+			10
+		}
 	}
 }

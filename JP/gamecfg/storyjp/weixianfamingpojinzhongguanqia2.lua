@@ -22,7 +22,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_106",
-			bgm = "tl-battle-inst",
+			bgm = "story-richang-refreshing",
 			hidePaintEquip = true,
 			nameColor = "#A9F548FF",
 			say = "爽やかな潮風が砂浜を優しく撫でる。",

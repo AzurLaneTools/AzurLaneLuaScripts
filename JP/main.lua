@@ -327,6 +327,9 @@ seriesAsync({
 			end,
 			function (slot0)
 				pg.GameTrackerMgr.GetInstance():Init(slot0)
+			end,
+			function (slot0)
+				pg.GMTMgr.GetInstance():Init(slot0)
 			end
 		}, slot0)
 	end
