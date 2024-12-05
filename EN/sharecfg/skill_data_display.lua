@@ -2748,8 +2748,6 @@ pg.skill_data_display = setmetatable({
 		111171,
 		111180,
 		111181,
-		111243,
-		111270,
 		200026,
 		200203,
 		600031,
@@ -3286,6 +3284,12 @@ pg.skill_data_display = setmetatable({
 		1010481,
 		1010491,
 		1019021,
+		1019090,
+		1019091,
+		1019092,
+		1019110,
+		1019111,
+		1019112,
 		1090020,
 		1090042,
 		1090043,
@@ -3327,7 +3331,22 @@ pg.skill_data_display = setmetatable({
 		1090310,
 		1090320,
 		1090321,
-		1090331
+		1090331,
+		1090341,
+		1090343,
+		1090344,
+		1090360,
+		1090363,
+		1090350,
+		1090351,
+		1090352,
+		1090353,
+		1090354,
+		1090355,
+		1090356,
+		1090358,
+		1090359,
+		1090364
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -14316,14 +14335,6 @@ pg.base.skill_data_display = {
 		id = 111181,
 		name = "Overbearing Outside, Softie Inside"
 	},
-	[111243] = {
-		id = 111243,
-		name = "This Way, Girls!"
-	},
-	[111270] = {
-		id = 111270,
-		name = "Restore Discipline!"
-	},
 	[200026] = {
 		id = 200026,
 		name = "Paralyzing Advance "
@@ -16468,6 +16479,30 @@ pg.base.skill_data_display = {
 		id = 1019021,
 		name = "Goddess of the Sea+"
 	},
+	[1019090] = {
+		id = 1019090,
+		name = "Expert Loader+"
+	},
+	[1019091] = {
+		id = 1019091,
+		name = "Expert Loader+"
+	},
+	[1019092] = {
+		id = 1019092,
+		name = "Expert Loader+"
+	},
+	[1019110] = {
+		id = 1019110,
+		name = "Augmented HE Ammo+"
+	},
+	[1019111] = {
+		id = 1019111,
+		name = "Augmented HE Ammo+"
+	},
+	[1019112] = {
+		id = 1019112,
+		name = "Augmented HE Ammo+"
+	},
 	[1090020] = {
 		id = 1090020,
 		name = "Full Firepower - Karlsruhe"
@@ -16635,5 +16670,65 @@ pg.base.skill_data_display = {
 	[1090331] = {
 		id = 1090331,
 		name = "Torpedo Command - Shiratsuyu"
+	},
+	[1090341] = {
+		id = 1090341,
+		name = "Quick Takeoff - Bogue"
+	},
+	[1090343] = {
+		id = 1090343,
+		name = "One More Ball!"
+	},
+	[1090344] = {
+		id = 1090344,
+		name = "Quick Takeoff - Bogue"
+	},
+	[1090360] = {
+		id = 1090360,
+		name = "Air Support - Houshou"
+	},
+	[1090363] = {
+		id = 1090363,
+		name = "Air Support - Houshou"
+	},
+	[1090350] = {
+		id = 1090350,
+		name = "Full Firepower - Yuubari"
+	},
+	[1090351] = {
+		id = 1090351,
+		name = "Portable Thunderbolt Generator"
+	},
+	[1090352] = {
+		id = 1090352,
+		name = "Sextuple Torpedo Mount"
+	},
+	[1090353] = {
+		id = 1090353,
+		name = "Smokescreen Generator"
+	},
+	[1090354] = {
+		id = 1090354,
+		name = "Depth Charge Layer"
+	},
+	[1090355] = {
+		id = 1090355,
+		name = "Prototype New Main Gun"
+	},
+	[1090356] = {
+		id = 1090356,
+		name = "Explosive Loading Mechanism"
+	},
+	[1090358] = {
+		id = 1090358,
+		name = "Anti-Air Augmenter"
+	},
+	[1090359] = {
+		id = 1090359,
+		name = "Main Drive Overloader"
+	},
+	[1090364] = {
+		id = 1090364,
+		name = "Shield Generator"
 	}
 }

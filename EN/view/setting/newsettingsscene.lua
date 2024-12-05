@@ -49,6 +49,10 @@ slot0.OnSelectCustomGraphicSetting = function(slot0)
 	slot0:emit(SettingsGraphicsPanle.EVT_UPDTAE)
 end
 
+slot0.OnApplicationPause = function(slot0)
+	slot0:emit(SettingsNotificationPanel.UPDATE_ALARM_PANEL)
+end
+
 slot0.GetPage = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.pages) do
 		if isa(slot6, slot1) then

@@ -1583,6 +1583,190 @@ Let's keep our fingers crossed.
 Best,
 John]]
 	},
+	[11601] = {
+		group_ID = 1,
+		name = "Breaking the Sound Barrier",
+		subTitle = "",
+		pic = "11601",
+		id = 11601,
+		is_classified = 0,
+		content = [[
+...The supersonic passenger plane has made its triumphant return!
+
+Just today, the Supernova, a supersonic passenger aircraft developed by the OXS Trade Alliance, completed its first voyage. Many of the passengers described their experience as "dream-like".
+
+According to Dr. Colette, the deputy chief engineer of the project, the Supernova uses the OXS Aviation Group's prized Echo-series engines, said to be able to reduce noise levels during supersonic flight to a level lower than normal aircraft and suppress aircraft vibrations to the point of being virtually unnoticeable.
+
+In response to market demands, many airlines have already expressed interest in adding this model to their fleet. Though aviation safety experts still express their concerns due to painful lessons from the last century's supersonic aircraft accidents, it seems that there is no force that can prevent the Supernova from becoming a global success.]]
+	},
+	[11602] = {
+		group_ID = 2,
+		name = "PMC Commercial",
+		subTitle = "",
+		pic = "11602",
+		id = 11602,
+		is_classified = 0,
+		content = [[
+(Rotwolf Industries Security Solutions Advertisement)
+
+- Does this look familiar to you?
+
+- As the new Cold War rapidly intensifies, chaos is breaking out all over the world!
+
+- And, it could happen too, right here in your neighborhood.
+
+- However, you can avert this problem by making the wisest decision of your life.
+
+- Choose Rotwolf Security Group!
+
+- Let us provide you and your loved ones with the highest level of security services!
+
+- The Red Wolves will protect your way of life!
+
+–––(Cheerful music)–––
+
+...And now, we're back with more breaking news.
+
+The chaotic situation unfolding in Africa continues to worsen. According to our local correspondent on the ground there...]]
+	},
+	[11603] = {
+		group_ID = 3,
+		name = "Next-Generation Rigging",
+		subTitle = "",
+		pic = "11603",
+		id = 11603,
+		is_classified = 0,
+		content = [[
+…The heated debate over next-generation KAN-SEN rigging continues to rage.
+
+The Croweheed Group announced in a press release that the official name for this novel type of armament will be "Type II Rigging." Compared to the previous type, "Type II Rigging" has achieved comprehensive smartification in the areas of electronic warfare, battlefield awareness, fleetwide data-linking, informatization, and decision-making efficiency.
+
+Military experts point out that should these advancements be realized, the already-powerful KAN-SEN would ride the wave of informatization to ever-greater heights of combat effectiveness.
+
+However, at the present moment, the feasibility of this technology is still hotly contested. According to the Croweheed Group's public documents, rigging modification and upgrade support for the members of the Federal Navy, including KAN-SEN Enterprise, remains one of the company's main business priorities...]]
+	},
+	[11604] = {
+		group_ID = 4,
+		name = "Merlin's Orb",
+		subTitle = "",
+		pic = "11604",
+		id = 11604,
+		is_classified = 0,
+		content = [[
+…An unexpected partnership has just been announced!
+
+According to a spokesperson at Lord Military Industries, negotiations have concluded regarding the joint development project between Lord Military Industries and the Wesker Group, and a formal announcement is slated to be made next month.
+
+In response to this news, the stock prices of both Lord Military Industries and the Wesker Group have skyrocketed. According to inside sources, the project is related to the Royal Navy's next-generation aircraft carrier plan, the first of such in half a century since the last Queen Elizabeth-class aircraft carrier. Many analysts point out that this suggests the Royal Navy is strengthening its own naval warfare capabilities as a critical strategic goal amid the trend of the Oceanic Federation's continued decline.
+
+Additionally, some sources have revealed that the Royal Navy itself holds high expectations for this project, and have already given it an internal codename: "Merlin's Orb."]]
+	},
+	[11605] = {
+		group_ID = 5,
+		name = "Lineup Renewal",
+		subTitle = "",
+		pic = "11605",
+		id = 11605,
+		is_classified = 0,
+		content = [[
+120mm smoothbore gun to end production.
+
+Rheinische Heavy Industries has just annouced that it plans to complete the renewal of its "New Era" lineup by the end of Q4 this year, meaning that all production lines for 120mm smoothbore guns, which have been in operation for nearly a century, will be shut down by the end of this year.
+
+According to the plans released by Rheinische Heavy Industries, all remaining 120mm smoothbore gun production lines will be shut down, sold, or converted into the more advanced 140mm smoothbore gun production lines.
+
+Additionally, based on materials provided by the company, the 140mm smoothbore gun will be adopted as the main armament of the Leopard IV tank and the Cube-powered Leopard V tank. Military experts point out that the Leopard V, which is about to enter production shortly, completely supersedes the older Leopard III model currently in service in terms of performance, and all Leopard III tanks equipped with 120mm smoothbore guns will also be retired over the next few years.]]
+	},
+	[11606] = {
+		group_ID = 6,
+		name = "Flight Accident",
+		subTitle = "",
+		pic = "11606",
+		id = 11606,
+		is_classified = 0,
+		content = [[
+…Zaou Heavy Industries' new fighter jet has encountered a problem. Footage from the scene has been leaked!
+
+In the footage, the test aircraft's engine suddenly cuts out right before landing. Fortunately, the pilot is able to deal with the problem appropriately at the last moment, and comes to a safe landing on the runway. Though the aircraft did eventually stray off the runway and flip over, the aircraft's main structure remained almost completely intact.
+
+The test pilot also survived the incident, and it has been confirmed that he escaped the cockpit on his own and was subsequently rushed to the hospital. At the time of writing, the test pilot's current whereabouts are still unknown.
+
+According to materials provided by Zaou Heavy Industries, the new aircraft is still in an experimental phase and uses an innovative Cube-powered system that differs from the existing hybrid systems found throughout the world. However, the occurrence of this accident has once again raised questions regarding the reliability of the Cube-powered fighter jet.
+
+Zaou Heavy Industries has refused to take questions concerning this matter.]]
+	},
+	[11607] = {
+		group_ID = 7,
+		name = "Reversal of Fortunes",
+		subTitle = "",
+		pic = "11607",
+		id = 11607,
+		is_classified = 0,
+		content = [[
+Prukk Technology's financial report attracts attention!
+
+Prukk Technology's performance in each quarter of this last fiscal year, as seen in the full-year financial report that was just released, is turning heads. According to IR information, the company's Q4 losses decreased by 70%, and its full-year loss profit and net loss decreased by 33.67%.
+
+Online commentators have pointed out that the company's improved performance tracks with the ongoing "retro" trend. Due to the continued troubles of Cube-powered technology and soaring gas prices, electric cars, which had once been abandoned by the public, are once again increasing in sales. Many people are mocking the "sturdy and conservative" Prukk as being the biggest winner of the era because it was "outdated enough."
+
+However, many investors remain cautious about this shift. The company's CEO has stated that he is "confident that the company will turn its financial results into a profit by Q3 of next year," but at the same time, there are also reports indicating no changes to the planned layoffs.]]
+	},
+	[11608] = {
+		group_ID = 8,
+		name = "Restructuring Plan",
+		subTitle = "",
+		pic = "11608",
+		id = 11608,
+		is_classified = 0,
+		content = [[
+...After the meeting today, the Northern Parliament made a major announcement that it would be reorganizing the Perun Design Bureau. This name should not be completely unfamiliar to our readers: the Perun Design Bureau was one of the Northern Parliament's largest fighter aircraft design bureaus over the last century, and the Orbital fighter, a craft still operated by the Northern Parliament today, is one of the bureau's crowning achievements.
+
+At the end of the last century, due to a shift in the Northern Parliament's changing national strategic policy, Perun was deemed to be underperforming, and was subjected to business restructuring. Some of its structures were merged into the Zimurya Design Bureau, while the remaining departments were closed down.
+
+However, the reorganization of the Perun Design Bureau is likely not a completely unexpected move by the Northern Parliament of today. With the ever-growing possibility of war on the horizon, the Northern Parliament is also under pressure to regain technological superiority in the fields of aeronautics and deep space...]]
+	},
+	[11609] = {
+		group_ID = 9,
+		name = "Excerpts from a Cutting-Edge Tech Forum",
+		subTitle = "",
+		pic = "11609",
+		id = 11609,
+		is_classified = 0,
+		content = [[
+......
+
+Thread: Leaked footage from the Northern Parliament's latest experimental weapon!
+
+No. 1 Anonymous (ID:LcFjifOpm) 11:00
+
+So damn cool! I analyzed it frame by frame, and it's definitely a floating battleship!
+
+No. 2 Anonymous (ID:JkfAHvlAf) 11:01
+
+Is that the one that Perun and Zimurya were rumored to be developing jointly?
+
+No. 3 Anonymous (ID:CkLaghlH) 11:02
+
+10 years in development, and all it can do is float a little over 10m? absolute garbage.
+
+No. 4 Anonymous (ID:JkfAHvlAf) 11:01
+
+Dude, it can FLOAT a little over 10 meters. We're not that far off from Cosmos Trek-tier spaceships now!
+
+No. 5 Anonymous (ID:CkLaghlH) 11:03
+
+lmao, keep dreaming
+
+No. 6 Anonymous (ID:JkfAHvlAf) 11:04
+
+[User's post has been blocked]
+
+No. 7 Anonymous (ID:LcFjifOpm) 11:05
+
+[User's post has been blocked]
+
+......]]
+	},
 	[13101] = {
 		group_ID = 1,
 		name = "Communication Log: Tsunami Warning",
@@ -2535,22 +2719,18 @@ A portion of the contents has been bleeped out to protect confidential military 
 		group_ID = 9,
 		name = "Bermuda Incident Resolution",
 		subTitle = "Confidentiality Level: V",
-		pic = "",
+		pic = "14601",
 		id = 14409,
 		is_classified = 0,
 		content = [[
 ————————Confidentiality Level: V————————
-Decisions regarding the "Bermuda Incident" are as follows:
-- We will continue to extend the previous set of emergency measures, further expand the search area in the Bermuda waters, and make every effort to rescue the injured.
-- Collaborate with DHS and other relevant agencies and block all information related to the incident.
-- Suspend and investigate General Garfield, whose position will temporarily be replaced by Lt. Gen. Dominic Fairfax.
-- Ensure the personal safety of Dr. Anzeel and her research team, but suspend all KAN-SEN research.
-- Per latest agreement, the Revolutionary Front will be allowed to participate in search and rescue operations in the Bermuda waters. No one shall disrupt any joint search and rescue operations with the Revolutionary Front
-
-Signed,
-
-Frank Neville
-National Secretary of Defense]]
+Decisions regarding the Incident in the Bermudas (hereafter referred to as the "Richard Incident"):
+- Continue to ramp up the previous series of emergency measures, further expand the search area in the Bermuda waters, and make every effort to rescue the injured.
+- Work with related departments to suppress all information related to this incident.
+- Suspend General Garfield and launch an investigation, with Vice-Admiral Fairfax temporarily taking over his duties.
+- Ensure the safety of Dr. Anzeel and her research team, but suspend all research on "KAN-SEN" by the team.
+- Per the latest agreement, allow the R.F. to participate in search-and-rescue operations in the Bermuda area. No department or unit is to impede the R.F.'s search-and-rescue efforts.
+Signed: George Frank (Department of Defense)]]
 	},
 	[14410] = {
 		group_ID = 10,
@@ -2577,6 +2757,33 @@ Signature (Investigation Committee): Victor Herbert
 Signature (Investigation Technical Appraisal Mission): Nicholas Lawyer
 Signature (Oceanic Federation Military Advisory Group): Eutopia Savoy
 Signature (Representative of the Eagle Union Nat'l Armed Forces): Shepherd Kingsley]]
+	},
+	[14411] = {
+		group_ID = 11,
+		name = "Resolution on the Bermuda Incident",
+		subTitle = "Confidentiality Level: V",
+		pic = "14412",
+		id = 14411,
+		is_classified = 0,
+		content = [[
+————————Confidentiality Level: V————————
+Source: Samos Investigation Committee Headquarters – L2 South Conference Room recording device
+—————
+…....
+Lieutenant Isaac:
+- So, what you're telling me is, we ended up in a war with some kind of "supernatural force" and suffered devastating losses... but Colonel Archer led the survivors in the fight and succeeded inrepelling this force.
+Lieutenant General Herbert:
+- That's enough. I've already said what I needed to say. If we think about this rationally, no matter how absurd something might seem, with enough solid evidence, we must accept the possibility that even the absurd might be true.
+- However, that doesn't explain Colonel Archer's subsequent display of abnormal behavior. We need more evidence to understand why he made that decision.
+- ...Hmm? Is there a problem?
+Lieutenant Isaac:
+- General, the salvage operation is proceeding smoothly. However, the postmortem continues to be difficult
+- Well, as you know, most of the cutting-edge experts in the field of Cube technology more or less have some level of personal acquaintance with Dr. Anzeel... and as for General Shepherd, the chairman of the investigation committee...
+Lieutenant General Herbert:
+- That stubborn old fossil. Nick, we need a real technical team.
+Lieutenant General Nicholas:
+- That's not something we can decide on the spot, but...
+- Lieutenant, I've heard that there's going to be a formal meeting later, so let's take care of that first. Adjourned.]]
 	},
 	[14601] = {
 		group_ID = 1,
@@ -2806,6 +3013,25 @@ Signature (Samos Medical Centre): Dermot Lambert
 Signature (Oceanic Federation Military Advisory Group): Eutopia Savoy
 Signature (Representative of the Eagle Union Nat'l Armed Forces): Shepherd Kingsley]]
 	},
+	[14609] = {
+		group_ID = 9,
+		name = "Personal Diary of Lieutenant General Nicholas ",
+		subTitle = "Confidentiality Level: V",
+		pic = "",
+		id = 14609,
+		is_classified = 0,
+		content = [[
+————————Confidentiality Level: V————————
+…
+I don't think this is a very sound idea.
+Though Herbert Sr. wasn't able to gather the experts he wanted, the rest of the proposal, namely forming a special investigation team, was approved by the committee.
+I don't know if he's happy with these results, but... Honestly, I don't think this new investigation team is up to snuff. First of all, there's the old daredevil Jonathan Travis, who's known more for his dramatic flair than his bona fides as a Cube tech expert. Then, there's Dermot Lambert, the psychologist who always looks like he's attending a funeral. Maybe he's the one who needs a psychologist.
+Then, there's... Well, whatever. For me, the only outstanding person there is the aircraft carrier officer, Savoy. The only reminder that half of the Oceanic Federation is supposed to come from the other side of the pond: Europa, the land of geniuses. Oh look, seems like Sardegna's produced a second Garibaldi. Meanwhile, we...
+We just lost John Archer, damnit.
+I know what Herbert Sr.'s thinking. He won't allow the investigation committee to pin any crimes on Archer's name. But, he's jumping the gun. Frankly, the difference in ability among the members of this investigation team is greater than the difference between the climate of Antarctica and the Sahara Desert.
+Oh wait, there's not much left of the Saharas by now.
+I guess we'll just have to see what happens.]]
+	},
 	all = {
 		1101,
 		1102,
@@ -2899,6 +3125,15 @@ Signature (Representative of the Eagle Union Nat'l Armed Forces): Shepherd Kings
 		11504,
 		11505,
 		11506,
+		11601,
+		11602,
+		11603,
+		11604,
+		11605,
+		11606,
+		11607,
+		11608,
+		11609,
 		13101,
 		13102,
 		13103,
@@ -2945,6 +3180,7 @@ Signature (Representative of the Eagle Union Nat'l Armed Forces): Shepherd Kings
 		14408,
 		14409,
 		14410,
+		14411,
 		14601,
 		14602,
 		14603,
@@ -2952,6 +3188,7 @@ Signature (Representative of the Eagle Union Nat'l Armed Forces): Shepherd Kings
 		14605,
 		14606,
 		14607,
-		14608
+		14608,
+		14609
 	}
 }

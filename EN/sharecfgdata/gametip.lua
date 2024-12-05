@@ -36736,3 +36736,28 @@ _G.pg.base.gametip.tolovegame_puzzle_line_tip = {
 _G.pg.base.gametip.tolovegame_puzzle_puzzle_tip = {
 	tip = "Assemble all the parts and put them on the circuits"
 }
+
+
+_G.pg.base.gametip.maintenance_message_text = {
+	tip = "The server will undergo maintenance in $1. You will be unable to play the game during the maintenance. Please plan accordingly, and thank you for your understanding."
+}
+
+
+_G.pg.base.gametip.maintenance_message_stop_text = {
+	tip = "Server down."
+}
+
+
+_G.pg.base.gametip.task_get = {
+	tip = "Collect"
+}
+
+
+_G.pg.base.gametip.notify_clock_tip = {
+	tip = "Alarm not enabled yet, please enable to allow notification"
+}
+
+
+_G.pg.base.gametip.notify_clock_button = {
+	tip = "Enable alarm"
+}

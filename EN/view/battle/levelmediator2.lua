@@ -873,8 +873,6 @@ slot0.handleNotification = function(slot0, slot1)
 					end
 
 					if uv0.id then
-						getProxy(ChapterProxy):StopAutoFight(ChapterConst.AUTOFIGHT_STOP_REASON.BATTLE_FAILED)
-
 						return
 					end
 

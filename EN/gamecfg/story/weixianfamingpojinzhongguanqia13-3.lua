@@ -7,7 +7,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
-			bgm = "tl-battle-inst",
+			bgm = "story-richang-refreshing",
 			say = "However, finding a way out of the encirclement proved difficult.",
 			typewriter = {
 				speed = 0.05,

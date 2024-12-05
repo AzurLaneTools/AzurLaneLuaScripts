@@ -227,6 +227,24 @@ pg.world_collection_file_group = {
 			11506
 		}
 	},
+	[1160] = {
+		id_2 = "116",
+		name = "Technological Competition",
+		name_abbreviate = "24",
+		type = 1,
+		id = 1160,
+		child = {
+			11601,
+			11602,
+			11603,
+			11604,
+			11605,
+			11606,
+			11607,
+			11608,
+			11609
+		}
+	},
 	[1310] = {
 		id_2 = "131",
 		name = "Breaking News I",
@@ -333,7 +351,8 @@ pg.world_collection_file_group = {
 			14407,
 			14408,
 			14409,
-			14410
+			14410,
+			14411
 		}
 	},
 	[1460] = {
@@ -350,7 +369,8 @@ pg.world_collection_file_group = {
 			14605,
 			14606,
 			14607,
-			14608
+			14608,
+			14609
 		}
 	},
 	all = {
@@ -369,6 +389,7 @@ pg.world_collection_file_group = {
 		1110,
 		1130,
 		1150,
+		1160,
 		1310,
 		1320,
 		1330,

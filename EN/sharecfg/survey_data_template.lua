@@ -68,10 +68,28 @@ pg.survey_data_template = {
 			}
 		}
 	},
+	[1005] = {
+		ios_url = "https://usersurvey.wjx.cn/vm/wFx2bAQ.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
+		uo_url = "https://usersurvey.wjx.cn/vm/twi78ax.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
+		main_url = "https://survey.yostar.net/vm/eUJtBi9.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6",
+		id = 1005,
+		name = "问卷第五期",
+		main_activity = "290167648",
+		ios_activity = "252629969",
+		uo_activity = "252629896",
+		bonus = {
+			{
+				2,
+				20001,
+				5
+			}
+		}
+	},
 	all = {
 		1001,
 		1002,
 		1004,
-		1003
+		1003,
+		1005
 	}
 }

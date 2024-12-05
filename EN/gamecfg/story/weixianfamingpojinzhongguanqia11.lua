@@ -23,7 +23,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tolove_2",
-			bgm = "tl-battle-inst",
+			bgm = "story-richang-refreshing",
 			say = "At the second checkpoint, a team consisting of Momo, Haruna, Sirius, Dido, and Scylla was likewise beset by hostiles.",
 			typewriter = {
 				speed = 0.05,

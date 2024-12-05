@@ -7,7 +7,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_539",
-			bgm = "tl-battle-inst",
+			bgm = "story-richang-refreshing",
 			say = "The continuing battle engulfed the nearby area in yet more cannonfire and smoke.",
 			typewriter = {
 				speed = 0.05,

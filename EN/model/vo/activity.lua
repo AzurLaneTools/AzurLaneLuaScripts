@@ -721,7 +721,21 @@ slot0.IsShowTipById = function(slot0)
 end
 
 slot0.isShow = function(slot0)
+	slot1 = slot0:getConfig("page_info")
+
 	if slot0:getConfig("is_show") <= 0 then
+		return false
+	elseif underscore.any({
+		slot1.ui_name,
+		slot1.ui_name2
+	}, function (slot0)
+		return not checkABExist(string.format("ui/%s", slot0))
+	end) then
+		warning(string.format("activity:%d without ui:%s", slot0.id, table.concat({
+			slot1.ui_name,
+			slot1.ui_name2
+		}, " or ")))
+
 		return false
 	end
 
@@ -729,24 +743,24 @@ slot0.isShow = function(slot0)
 		return slot0.data1 ~= 0
 	elseif slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_CLIENT_DISPLAY then
 		if slot0:getConfig("config_client").display_link then
-			return underscore.any(slot1, function (slot0)
+			return underscore.any(slot2, function (slot0)
 				return slot0[2] == 0 or pg.TimeMgr.GetInstance():inTime(pg.shop_template[slot0[2]].time)
 			end)
 		end
 	elseif slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_SURVEY then
-		slot1 = getProxy(ActivityProxy)
+		slot2 = getProxy(ActivityProxy)
 
-		return slot1:isSurveyOpen() and not slot1:isSurveyDone()
+		return slot2:isSurveyOpen() and not slot2:isSurveyDone()
 	elseif slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_UR_EXCHANGE then
 		if getProxy(ShopsProxy):getActivityShops() == nil then
 			return false
 		end
 
-		slot1 = slot0:getConfig("config_client")
-		slot2 = getProxy(PlayerProxy):getData():getResource(slot1.uPtId)
-		slot3 = #slot1.goodsId + 1
+		slot2 = slot0:getConfig("config_client")
+		slot3 = getProxy(PlayerProxy):getData():getResource(slot2.uPtId)
+		slot4 = #slot2.goodsId + 1
 
-		return slot3 > slot3 - _.reduce(slot1.goodsId, 0, function (slot0, slot1)
+		return slot4 > slot4 - _.reduce(slot2.goodsId, 0, function (slot0, slot1)
 			return slot0 + getProxy(ShopsProxy):getActivityShopById(uv0.shopId):GetCommodityById(slot1):GetPurchasableCnt()
 		end)
 	elseif slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_TASK_RYZA and table.contains({

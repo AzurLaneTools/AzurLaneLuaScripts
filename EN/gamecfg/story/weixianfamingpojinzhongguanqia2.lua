@@ -22,7 +22,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_106",
-			bgm = "tl-battle-inst",
+			bgm = "story-richang-refreshing",
 			hidePaintEquip = true,
 			nameColor = "#A9F548FF",
 			say = "The sea breeze continued to roll across the beach.",
