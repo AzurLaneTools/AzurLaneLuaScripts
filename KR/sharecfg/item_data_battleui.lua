@@ -48,10 +48,23 @@ pg.item_data_battleui = {
 		icon = "103",
 		scene = {}
 	},
+	[104] = {
+		unlock = "특허 투어 패스 20기 보상",
+		name = "네온",
+		key = "SkinNormal_20241107",
+		display_icon = "Ui_104",
+		is_unlock = 1,
+		rare = 3,
+		desc = "반짝이는 레온에 리드미컬한 빔 연출로 뛰어난 몰입감을 제공한다.",
+		id = 104,
+		icon = "104",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
 		102,
-		103
+		103,
+		104
 	}
 }

@@ -1225,7 +1225,184 @@ pg.activity_ins_chat_language = setmetatable({
 		1221,
 		1222,
 		1223,
-		1224
+		1224,
+		1225,
+		1226,
+		1227,
+		1228,
+		1229,
+		1230,
+		1231,
+		1232,
+		1233,
+		1234,
+		1235,
+		1236,
+		1237,
+		1238,
+		1239,
+		1240,
+		1241,
+		1242,
+		1243,
+		1244,
+		1245,
+		1246,
+		1247,
+		1248,
+		1249,
+		1250,
+		1251,
+		1252,
+		1253,
+		1254,
+		1255,
+		1257,
+		1258,
+		1259,
+		1260,
+		1261,
+		1262,
+		1263,
+		1264,
+		1265,
+		1266,
+		1267,
+		1268,
+		1269,
+		1270,
+		1271,
+		1272,
+		1273,
+		1274,
+		1275,
+		1276,
+		1277,
+		1278,
+		1279,
+		1280,
+		1281,
+		1282,
+		1283,
+		1284,
+		1285,
+		1286,
+		1287,
+		1288,
+		1289,
+		1290,
+		1291,
+		1292,
+		1293,
+		1294,
+		1295,
+		1296,
+		1297,
+		1298,
+		1299,
+		1300,
+		1301,
+		1302,
+		1303,
+		1304,
+		1305,
+		1306,
+		1307,
+		1308,
+		1309,
+		1310,
+		1311,
+		1312,
+		1313,
+		1314,
+		1315,
+		1316,
+		1317,
+		1318,
+		1319,
+		1320,
+		1321,
+		1322,
+		1323,
+		1324,
+		1325,
+		1326,
+		1327,
+		1328,
+		1329,
+		1330,
+		1331,
+		1332,
+		1333,
+		1334,
+		1335,
+		1336,
+		1337,
+		1338,
+		1339,
+		1340,
+		1341,
+		1342,
+		1343,
+		1344,
+		1345,
+		1346,
+		1347,
+		1348,
+		1349,
+		1350,
+		1351,
+		1352,
+		1353,
+		1354,
+		1355,
+		1356,
+		1357,
+		1358,
+		1359,
+		1360,
+		1361,
+		1362,
+		1363,
+		1364,
+		1365,
+		1366,
+		1367,
+		1368,
+		1369,
+		1370,
+		1371,
+		1372,
+		1373,
+		1374,
+		1375,
+		1376,
+		1377,
+		1378,
+		1379,
+		1380,
+		1381,
+		1382,
+		1383,
+		1384,
+		1385,
+		1386,
+		1387,
+		1388,
+		1389,
+		1390,
+		1391,
+		1392,
+		1393,
+		1394,
+		1395,
+		1396,
+		1397,
+		1398,
+		1399,
+		1400,
+		1401,
+		1402
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -12009,5 +12186,1642 @@ pg.base.activity_ins_chat_language = {
 		type = 1,
 		id = 1224,
 		flag = 8
+	},
+	{
+		param = "지휘관. 클래식 콘서트에 같이 갈까 하는데, 어떤가?",
+		ship_group = 40503,
+		type = 1,
+		id = 1225,
+		flag = 0,
+		option = {
+			{
+				1,
+				"좋아."
+			},
+			{
+				2,
+				"언제 갈까?"
+			}
+		}
+	},
+	{
+		param = "좋아, 언제 갈까?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1226,
+		flag = 1
+	},
+	{
+		param = "좋아, 언제 갈까?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1227,
+		flag = 2
+	},
+	{
+		param = "이번 주말이다. 네가 한가한 시간을 골라서 예매해 뒀지.",
+		ship_group = 40503,
+		type = 1,
+		id = 1228,
+		flag = 0,
+		option = {
+			{
+				3,
+				"역시 후텐이야."
+			}
+		}
+	},
+	{
+		param = "역시 후텐은 대단해. 그런 세세한 부분까지 신경을 써주다니.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1229,
+		flag = 3
+	},
+	{
+		param = "231",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 1230,
+		flag = 3
+	},
+	{
+		param = "설마 이렇게 바로 승낙할 줄은 몰랐군.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1231,
+		flag = 3
+	},
+	{
+		param = "클래식에 관심이 없는 줄 알았는데, 쓸데없는 걱정이었군.",
+		ship_group = 40503,
+		type = 1,
+		id = 1232,
+		flag = 3,
+		option = {
+			{
+				4,
+				"클래식에 꽤 관심이 있어"
+			},
+			{
+				5,
+				"확실히 그렇게 관심이 많지는 않지만…"
+			}
+		}
+	},
+	{
+		param = "사실 고전음악에 관심이 많거든. 거기까지는 몰랐던 모양이네.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1233,
+		flag = 4
+	},
+	{
+		param = "아무튼 초대하길 잘했군.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1234,
+		flag = 4
+	},
+	{
+		param = "레코드 컬렉션도 가지고 있으니, 다음에 괜찮으면 감상하러 와라.",
+		ship_group = 40503,
+		type = 1,
+		id = 1235,
+		flag = 4,
+		option = {
+			{
+				6,
+				"응, 한가할 때 갈게."
+			}
+		}
+	},
+	{
+		param = "응, 한가할 때 갈게.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1236,
+		flag = 6
+	},
+	{
+		param = "다음 주말은 어때? 그때도 한가한 걸로 아는데.",
+		ship_group = 40503,
+		type = 1,
+		id = 1237,
+		flag = 6,
+		option = {
+			{
+				7,
+				"오늘 오후도 괜찮아."
+			}
+		}
+	},
+	{
+		param = "오늘 오후도 괜찮아.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1238,
+		flag = 7
+	},
+	{
+		param = "오늘 오후……? 분명 다른 일정이 있을 텐데…?",
+		ship_group = 40503,
+		type = 1,
+		id = 1239,
+		flag = 7,
+		option = {
+			{
+				8,
+				"다른 일정이 있기는 하지만――"
+			}
+		}
+	},
+	{
+		param = "다른 일정이 있기는 하지만――",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1240,
+		flag = 8
+	},
+	{
+		param = "명색이 지휘관인데, 일정을 변경할 권한 정도는 있지.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1241,
+		flag = 8
+	},
+	{
+		param = "그렇군. 확실히 그런 위치이기는 하지.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1242,
+		flag = 8
+	},
+	{
+		param = "그럼 오후 2시에 집무실로 데리러 가마. 약속이다.",
+		ship_group = 40503,
+		type = 1,
+		id = 1243,
+		flag = 8,
+		option = {
+			{
+				9,
+				"그래, 약속이야."
+			}
+		}
+	},
+	{
+		param = "그래, 약속이야.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1244,
+		flag = 9
+	},
+	{
+		param = "확실히 그렇게 관심이 많지는 않지만…",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1245,
+		flag = 5
+	},
+	{
+		param = "콘서트라면 이야기가 다르지.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1246,
+		flag = 5
+	},
+	{
+		param = "무슨 차이가 있는 거지?",
+		ship_group = 40503,
+		type = 1,
+		id = 1247,
+		flag = 5,
+		option = {
+			{
+				10,
+				"음악 감상은……"
+			}
+		}
+	},
+	{
+		param = "흠… 그냥 음악 감상은 보통 혼자서만 하지만…",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1248,
+		flag = 10
+	},
+	{
+		param = "콘서트라면 후텐이랑 같이 즐길 수 있는 거잖아?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1249,
+		flag = 10
+	},
+	{
+		param = "그렇군. 확실히 큰 차이가 있군. 그걸 위해 다들 콘서트에 가기도 하니.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1250,
+		flag = 10
+	},
+	{
+		param = "그렇지만 이번 기회에 클래식도 좋아해 줬으면 하는군.",
+		ship_group = 40503,
+		type = 1,
+		id = 1251,
+		flag = 10,
+		option = {
+			{
+				11,
+				"흐음~"
+			}
+		}
+	},
+	{
+		param = "그럼, 클래식의 매력에 빠져들 수 있게 도와줘.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1252,
+		flag = 11
+	},
+	{
+		param = "기대를 저버리지는 않으마.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1253,
+		flag = 11
+	},
+	{
+		param = "그럼, 이번 주 일요일 오후 4시에 집무실에서 보자고.",
+		ship_group = 40503,
+		type = 1,
+		id = 1254,
+		flag = 11,
+		option = {
+			{
+				12,
+				"그래, 약속이야."
+			}
+		}
+	},
+	{
+		param = "그래, 약속이야.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1255,
+		flag = 12
+	},
+	[1257] = {
+		param = "학교 운동장에서 이상한 사건이 일어났다던데, 알고 있나?",
+		ship_group = 40503,
+		type = 1,
+		id = 1257,
+		flag = 0,
+		option = {
+			{
+				1,
+				"????"
+			},
+			{
+				2,
+				"……브리스톨이야?"
+			}
+		}
+	},
+	[1258] = {
+		param = "？？？？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1258,
+		flag = 1
+	},
+	[1259] = {
+		param = "후텐까지 학교의 수수께끼 조사에 나선 거야?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1259,
+		flag = 1
+	},
+	[1260] = {
+		param = "……혹시 브리스톨이야?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1260,
+		flag = 2
+	},
+	[1261] = {
+		param = "브리스톨, 다른 사람 핸드폰을 마음대로 만지면 어떻게 해.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1261,
+		flag = 2
+	},
+	[1262] = {
+		param = "흠… 브리스톨이 아니라 나 맞다.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1262,
+		flag = 2
+	},
+	[1263] = {
+		param = "하지만 브리스톨과 전혀 무관하다고는 못 하겠다만.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1263,
+		flag = 2
+	},
+	[1264] = {
+		param = "그나저나 전혀 몰랐던 모양이군.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1264,
+		flag = 0
+	},
+	[1265] = {
+		param = "브리스톨이 오늘 운동장 아래에서 유령이 나왔다며 소란을 피우더군. 지금은 현장을 봉쇄하려고 협력자를 찾아다니고 있고.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1265,
+		flag = 0
+	},
+	[1266] = {
+		param = "메탈 블러드 숙소까지 왔었지.",
+		ship_group = 40503,
+		type = 1,
+		id = 1266,
+		flag = 0,
+		option = {
+			{
+				3,
+				"그런 일이……"
+			}
+		}
+	},
+	[1267] = {
+		param = "그런 일이…… 숙소에서 협력자는 구했고?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1267,
+		flag = 3
+	},
+	[1268] = {
+		param = "{namecode:427}",
+		ship_group = 40503,
+		type = 1,
+		id = 1268,
+		flag = 3,
+		option = {
+			{
+				4,
+				"……"
+			}
+		}
+	},
+	[1269] = {
+		param = "……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1269,
+		flag = 4
+	},
+	[1270] = {
+		param = "왜 그러지? 보러 가고 싶은가?",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1270,
+		flag = 4
+	},
+	[1271] = {
+		param = "궁금하면 가 봐라.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1271,
+		flag = 4
+	},
+	[1272] = {
+		param = "업무는 내가 도와줄 테니, 걱정하지 말고.",
+		ship_group = 40503,
+		type = 1,
+		id = 1272,
+		flag = 4,
+		option = {
+			{
+				5,
+				"아니, 업무보다…"
+			}
+		}
+	},
+	[1273] = {
+		param = "아니, 업무보다… 후텐이 대신 가서 상황을 보고 와줬으면 좋겠어.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1273,
+		flag = 5
+	},
+	[1274] = {
+		param = "응? 위험한 꼴이라도 당할까봐 그러는 건가?",
+		ship_group = 40503,
+		type = 1,
+		id = 1274,
+		flag = 5,
+		option = {
+			{
+				6,
+				"내가 아니라 운동장이 위험해."
+			}
+		}
+	},
+	[1275] = {
+		param = "내가 아니라 운동장이 위험해.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1275,
+		flag = 6
+	},
+	[1276] = {
+		param = "무슨 말이 하고 싶은 건지 잘 모르겠다만…",
+		ship_group = 40503,
+		type = 1,
+		id = 1276,
+		flag = 6,
+		option = {
+			{
+				7,
+				"알잖아, 지난번처럼…"
+			}
+		}
+	},
+	[1277] = {
+		param = "알잖아, 지난번처럼 결국 아무것도 발견하지 못하고 끝나면…",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1277,
+		flag = 7
+	},
+	[1278] = {
+		param = "그렇게 끝나면 오히려 다행인 거 아닌가?",
+		ship_group = 40503,
+		type = 1,
+		id = 1278,
+		flag = 7,
+		option = {
+			{
+				8,
+				"아니, 그 반대야."
+			}
+		}
+	},
+	[1279] = {
+		param = "「추가 조사」를 진행해야 한다며 오이겐이 부추겨서, 트랙을 통째로 갈아엎을지도 몰라…",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1279,
+		flag = 8
+	},
+	[1280] = {
+		param = "………………",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1280,
+		flag = 8
+	},
+	[1281] = {
+		param = "확실히 오이겐이라면 그럴 것 같기는 하군.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1281,
+		flag = 8
+	},
+	[1282] = {
+		param = "그럼 내가 대신 상황을 보고 오마.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1282,
+		flag = 8
+	},
+	[1283] = {
+		param = "아, 녹화도 해두는 편이 좋겠지?",
+		ship_group = 40503,
+		type = 1,
+		id = 1283,
+		flag = 8,
+		option = {
+			{
+				9,
+				"녹화?"
+			}
+		}
+	},
+	[1284] = {
+		param = "녹화?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1284,
+		flag = 9
+	},
+	[1285] = {
+		param = "응, 그래. 만약 정말로 초현실적인 일이 일어나면, 네게도 보여줄 수 있을 테니.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1285,
+		flag = 9
+	},
+	[1286] = {
+		param = "없다고 해도… 증거 영상으로 활용할 수 있을 테고.",
+		ship_group = 40503,
+		type = 1,
+		id = 1286,
+		flag = 9,
+		option = {
+			{
+				10,
+				"응, 잘 부탁해."
+			}
+		}
+	},
+	[1287] = {
+		param = "응, 잘 부탁해.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1287,
+		flag = 10
+	},
+	[1288] = {
+		param = "311",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 1288,
+		flag = 10
+	},
+	[1289] = {
+		param = "안심하고 기다려라.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1289,
+		flag = 10
+	},
+	[1290] = {
+		param = "367",
+		ship_group = 40503,
+		option = "",
+		type = 4,
+		id = 1290,
+		flag = 10
+	},
+	[1291] = {
+		param = "혹시 몰라 일러두는데, 너무 오래 앉아만 있지 말고, 가끔은 서서 물도 마시고, 눈도 좀 붙이고 해라.",
+		ship_group = 40503,
+		type = 1,
+		id = 1291,
+		flag = 0,
+		option = {
+			{
+				1,
+				"응, 지금 일어섰어."
+			},
+			{
+				2,
+				"막 일어나서 운동하려던 참이야."
+			}
+		}
+	},
+	[1292] = {
+		param = "응, 지금 일어섰어.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1292,
+		flag = 1
+	},
+	[1293] = {
+		param = "그나저나 잘 말해줬어. 마침 까먹을 뻔했거든.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1293,
+		flag = 1
+	},
+	[1294] = {
+		param = "……",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1294,
+		flag = 1
+	},
+	[1295] = {
+		param = "돌아가면 집무실에 알람을 몇 개 맞춰둬야겠군.",
+		ship_group = 40503,
+		type = 1,
+		id = 1295,
+		flag = 1,
+		option = {
+			{
+				3,
+				"응, 부탁할게."
+			},
+			{
+				4,
+				"직접 알려줬으면 좋겠어."
+			}
+		}
+	},
+	[1296] = {
+		param = "응, 부탁할게.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1296,
+		flag = 3
+	},
+	[1297] = {
+		param = "직접 알려줬으면 좋겠어.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1297,
+		flag = 4
+	},
+	[1298] = {
+		param = "그래, 좋다.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1298,
+		flag = 4
+	},
+	[1299] = {
+		param = "그렇다고 너무 의존하지 말고, 좋은 습관은 몸에 익혀 둬.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1299,
+		flag = 1
+	},
+	[1300] = {
+		param = "아무리 바빠도 건강 관리는 소홀히 하면 안 돼.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1300,
+		flag = 1
+	},
+	[1301] = {
+		param = "너 스스로에 더 신경을 써 주라고.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1301,
+		flag = 1
+	},
+	[1302] = {
+		param = "흠…… 그리고……",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1302,
+		flag = 1
+	},
+	[1303] = {
+		param = "걱정하게 만들지 마라.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1303,
+		flag = 1
+	},
+	[1304] = {
+		param = "…대답할 필요는 없으니, 눈을 감고 쉬어라.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1304,
+		flag = 1
+	},
+	[1305] = {
+		param = "돌아가면 직접 이야기하마.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1305,
+		flag = 1
+	},
+	[1306] = {
+		param = "막 일어나서 운동하려던 참이야.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1306,
+		flag = 2
+	},
+	[1307] = {
+		param = "앞으로도 거르지 말고 운동해라.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1307,
+		flag = 2
+	},
+	[1308] = {
+		param = "그나저나 아직 업무 중인가? 며칠째 쉬지도 않고 일하는 것 같은데.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1308,
+		flag = 2
+	},
+	[1309] = {
+		param = "도와주마.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1309,
+		flag = 2
+	},
+	[1310] = {
+		param = "……날 좀 더 의지했으면 좋겠군.",
+		ship_group = 40503,
+		type = 1,
+		id = 1310,
+		flag = 2,
+		option = {
+			{
+				5,
+				"이제 곧 끝나니까 걱정하지 마."
+			},
+			{
+				6,
+				"날 고통에서 해방시켜 줘!"
+			}
+		}
+	},
+	[1311] = {
+		param = "이제 곧 끝나니까 걱정하지 마.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1311,
+		flag = 5
+	},
+	[1312] = {
+		param = "그렇군.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1312,
+		flag = 5
+	},
+	[1313] = {
+		param = "하지만 이미 집무실로 향하는 중이다.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1313,
+		flag = 5
+	},
+	[1314] = {
+		param = "뭐, 마중하러 나가는 셈 치면 되겠지.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1314,
+		flag = 5
+	},
+	[1315] = {
+		param = "날 고통에서 해방시켜 줘!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1315,
+		flag = 6
+	},
+	[1316] = {
+		param = "그래, 처음부터 그렇게 순순히 부탁하면 될 것을…",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1316,
+		flag = 6
+	},
+	[1317] = {
+		param = "이미 집무실로 향하는 중이니, 조금만 기다려라.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1317,
+		flag = 6
+	},
+	[1318] = {
+		param = "대답하지 말고, 눈 감고 쉬고 있어라.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1318,
+		flag = 2
+	},
+	[1319] = {
+		param = "돌아가면 직접 이야기하마.",
+		ship_group = 40503,
+		option = "",
+		type = 1,
+		id = 1319,
+		flag = 2
+	},
+	[1320] = {
+		param = "마법의 빛――",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1320,
+		flag = 0
+	},
+	[1321] = {
+		param = "358",
+		ship_group = 49906,
+		type = 4,
+		id = 1321,
+		flag = 0,
+		option = {
+			{
+				1,
+				"이모티콘 「허둥지둥」"
+			},
+			{
+				2,
+				"이모티콘 「멈출 수 없어」"
+			}
+		}
+	},
+	[1322] = {
+		param = "322",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 1322,
+		flag = 1
+	},
+	[1323] = {
+		param = "304",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 1323,
+		flag = 2
+	},
+	[1324] = {
+		param = "후후후, 마법의 힘을 느꼈어? 내 사역마.",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1324,
+		flag = 0
+	},
+	[1325] = {
+		param = "234",
+		ship_group = 49906,
+		type = 4,
+		id = 1325,
+		flag = 0,
+		option = {
+			{
+				3,
+				"무슨 일 있어?"
+			}
+		}
+	},
+	[1326] = {
+		param = "무슨 좋은 일이라도 있었어?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1326,
+		flag = 3
+	},
+	[1327] = {
+		param = "아니… 그냥, 이모티콘이 일종의 신기한 「마법」처럼 느껴져서.",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1327,
+		flag = 3
+	},
+	[1328] = {
+		param = "우리를 하나로 묶는 「족쇄」마저 약하게 느껴질 정도로, 지금은 이렇게 멀리 떨어져 있는데…",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1328,
+		flag = 3
+	},
+	[1329] = {
+		param = "이런 이모티콘 하나로 찰나의 감정을 전할 수 있다니…",
+		ship_group = 49906,
+		type = 1,
+		id = 1329,
+		flag = 3,
+		option = {
+			{
+				4,
+				"그러게……"
+			}
+		}
+	},
+	[1330] = {
+		param = "말을 듣고 보니 확실히 그런 것 같네……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1330,
+		flag = 4
+	},
+	[1331] = {
+		param = "뭐, 꼭 이모티콘이 아니라도...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1331,
+		flag = 4
+	},
+	[1332] = {
+		param = "언제든 채팅으로 대화할 수 있잖아? 그래도 나름 메신저 앱이니까.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1332,
+		flag = 4
+	},
+	[1333] = {
+		param = "어머?",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1333,
+		flag = 4
+	},
+	[1334] = {
+		param = "이 마녀가 채팅을 즐기는 방식에 불만이라도 있는 거야?",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1334,
+		flag = 4
+	},
+	[1335] = {
+		param = "반항적으로 구는 건 좋지만, 나도 내 나름대로 그에 상응하는 조치를 취해야겠어.",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1335,
+		flag = 4
+	},
+	[1336] = {
+		param = "후후후……",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1336,
+		flag = 4
+	},
+	[1337] = {
+		param = "206",
+		ship_group = 49906,
+		type = 4,
+		id = 1337,
+		flag = 4,
+		option = {
+			{
+				5,
+				"……?"
+			},
+			{
+				6,
+				"이모티콘 「포옹」"
+			}
+		}
+	},
+	[1338] = {
+		param = "……？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1338,
+		flag = 5
+	},
+	[1339] = {
+		param = "206",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 1339,
+		flag = 6
+	},
+	[1340] = {
+		param = "…………",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1340,
+		flag = 0
+	},
+	[1341] = {
+		param = "……잘못 보냈어. 이게 아닌데…",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1341,
+		flag = 0
+	},
+	[1342] = {
+		param = "이거야.",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1342,
+		flag = 0
+	},
+	[1343] = {
+		param = "4",
+		ship_group = 49906,
+		option = "",
+		type = 4,
+		id = 1343,
+		flag = 0
+	},
+	[1344] = {
+		param = "사역마는 어떤 냄새가 좋아?",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1344,
+		flag = 0
+	},
+	[1345] = {
+		param = "⋯⋯",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1345,
+		flag = 0
+	},
+	[1346] = {
+		param = "……다시 물어볼게.",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1346,
+		flag = 0
+	},
+	[1347] = {
+		param = "어떤 향기가 좋아?",
+		ship_group = 49906,
+		type = 1,
+		id = 1347,
+		flag = 0,
+		option = {
+			{
+				1,
+				"질문이 너무 애매모호한 거 같은데."
+			}
+		}
+	},
+	[1348] = {
+		param = "질문이 너무 애매모호한 거 같은데.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1348,
+		flag = 1
+	},
+	[1349] = {
+		param = "구체적으로 뭐가 궁금해서 그래?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1349,
+		flag = 1
+	},
+	[1350] = {
+		param = "아직도 내 마음을 모르네.",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1350,
+		flag = 1
+	},
+	[1351] = {
+		param = "그럼 알려줄게.",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1351,
+		flag = 1
+	},
+	[1352] = {
+		param = "내 마법의 물방울의 향기에 대해 물어보는 거야.",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1352,
+		flag = 1
+	},
+	[1353] = {
+		param = "그러니까… 향수 말이지.",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1353,
+		flag = 1
+	},
+	[1354] = {
+		param = "하지만 그런 거에는 크게 관심 없지?",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1354,
+		flag = 1
+	},
+	[1355] = {
+		param = "그러니까 대충 좋아하는 향만 알려주면 돼.",
+		ship_group = 49906,
+		type = 1,
+		id = 1355,
+		flag = 1,
+		option = {
+			{
+				2,
+				"음식 냄새가 좋아."
+			},
+			{
+				3,
+				"파르제팔의 향기가 좋아."
+			},
+			{
+				4,
+				"파르제팔이 고르는 거라면 뭐든 좋아."
+			}
+		}
+	},
+	[1356] = {
+		param = "음식 냄새가 제일 좋아!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1356,
+		flag = 2
+	},
+	[1357] = {
+		param = "나도 좋아해.",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1357,
+		flag = 2
+	},
+	[1358] = {
+		param = "하지만 음식 냄새가 나는 향수…라…",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1358,
+		flag = 2
+	},
+	[1359] = {
+		param = "이 기회에 한 번 도전해 봐야겠어.",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1359,
+		flag = 2
+	},
+	[1360] = {
+		param = "파르제팔의 향기를 좋아해.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1360,
+		flag = 3
+	},
+	[1361] = {
+		param = "후후후, 아직도 내 향기를 기억하는 모양이네.",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1361,
+		flag = 3
+	},
+	[1362] = {
+		param = "하긴, 나를 향한 사랑을 그렇게 쉽게 억누를 수는 없을 테지.",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1362,
+		flag = 3
+	},
+	[1363] = {
+		param = "18",
+		ship_group = 49906,
+		option = "",
+		type = 4,
+		id = 1363,
+		flag = 3
+	},
+	[1364] = {
+		param = "파르제팔이 고르는 거라면 뭐든 좋아. 믿고 맡길게.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1364,
+		flag = 4
+	},
+	[1365] = {
+		param = "내게 주도권을 넘기겠다고?",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1365,
+		flag = 4
+	},
+	[1366] = {
+		param = "후후후, 나쁘지 않지.",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1366,
+		flag = 4
+	},
+	[1367] = {
+		param = "그럼 기대하라고.",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1367,
+		flag = 4
+	},
+	[1368] = {
+		param = "아, 지금 막 좋은 아이디어가 떠올랐어.",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1368,
+		flag = 0
+	},
+	[1369] = {
+		param = "먼저 갈게.",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1369,
+		flag = 0
+	},
+	[1370] = {
+		param = "조합이 끝나면 다시 연락할게.",
+		ship_group = 49906,
+		type = 1,
+		id = 1370,
+		flag = 0,
+		option = {
+			{
+				5,
+				"(이모티콘: 최고다!)"
+			},
+			{
+				6,
+				"(이모티콘: 기대)"
+			},
+			{
+				7,
+				"(이모티콘: 애정 표현)"
+			}
+		}
+	},
+	[1371] = {
+		param = "239",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 1371,
+		flag = 5
+	},
+	[1372] = {
+		param = "234",
+		ship_group = 49906,
+		option = "",
+		type = 4,
+		id = 1372,
+		flag = 5
+	},
+	[1373] = {
+		param = "224",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 1373,
+		flag = 6
+	},
+	[1374] = {
+		param = "227",
+		ship_group = 49906,
+		option = "",
+		type = 4,
+		id = 1374,
+		flag = 6
+	},
+	[1375] = {
+		param = "213",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 1375,
+		flag = 7
+	},
+	[1376] = {
+		param = "225",
+		ship_group = 49906,
+		option = "",
+		type = 4,
+		id = 1376,
+		flag = 7
+	},
+	[1377] = {
+		param = "시스템: [아우구스트 폰 파르제팔]님이 당신을 콕 찔렀습니다.",
+		ship_group = 1,
+		option = "",
+		type = 5,
+		id = 1377,
+		flag = 0
+	},
+	[1378] = {
+		param = "졸려.",
+		ship_group = 49906,
+		type = 1,
+		id = 1378,
+		flag = 0,
+		option = {
+			{
+				1,
+				"어젯밤에 못 잤어?"
+			},
+			{
+				2,
+				"[찌르기]"
+			}
+		}
+	},
+	[1379] = {
+		param = "어젯밤에 못 잤어?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1379,
+		flag = 1
+	},
+	[1380] = {
+		param = "자긴 했는데, 푹 못 잤어.",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1380,
+		flag = 1
+	},
+	[1381] = {
+		param = "그러다 악몽까지 꿨지.",
+		ship_group = 49906,
+		type = 1,
+		id = 1381,
+		flag = 1,
+		option = {
+			{
+				3,
+				"무슨 꿈이었는데?"
+			}
+		}
+	},
+	[1382] = {
+		param = "시스템: [아우구스트 폰 파르제팔]을 찔러, 마녀의 꿈에 빠졌습니다.",
+		ship_group = 0,
+		option = "",
+		type = 5,
+		id = 1382,
+		flag = 2
+	},
+	[1383] = {
+		param = "다시 자보는 건?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1383,
+		flag = 2
+	},
+	[1384] = {
+		param = "잠이 안 와.",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1384,
+		flag = 2
+	},
+	[1385] = {
+		param = "눈을 감으면 자꾸 어젯밤 꿈이 떠올라.",
+		ship_group = 49906,
+		type = 1,
+		id = 1385,
+		flag = 2,
+		option = {
+			{
+				3,
+				"무슨 꿈이었는데?"
+			}
+		}
+	},
+	[1386] = {
+		param = "무슨 꿈이었는데?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1386,
+		flag = 3
+	},
+	[1387] = {
+		param = "무슨 괴물이라도 나온 거야? 마녀한테도 무서운 게 있다니…",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1387,
+		flag = 3
+	},
+	[1388] = {
+		param = "당연히 그런 건 없지……",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1388,
+		flag = 3
+	},
+	[1389] = {
+		param = "이건 다 네 탓이야.",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1389,
+		flag = 3
+	},
+	[1390] = {
+		param = "꿈속에서 아무 말도 없이 날 떠난 네 탓이라고.",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1390,
+		flag = 3
+	},
+	[1391] = {
+		param = "모든 마법을 총동원했지만, 결국은 널 찾을 수 없었어.",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1391,
+		flag = 3
+	},
+	[1392] = {
+		param = "영원할 줄만 알았던 우리의 인연도 거기서 끊기고 말았어…",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1392,
+		flag = 3
+	},
+	[1393] = {
+		param = "정말… 꺼림칙한 꿈이야.",
+		ship_group = 49906,
+		type = 1,
+		id = 1393,
+		flag = 3,
+		option = {
+			{
+				4,
+				"신경 쓰지 마. 그냥 꿈이잖아."
+			},
+			{
+				5,
+				"끔찍한 꿈이기는 하네…"
+			}
+		}
+	},
+	[1394] = {
+		param = "신경 쓰지 마. 그냥 꿈이잖아.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1394,
+		flag = 4
+	},
+	[1395] = {
+		param = "꿈은 현실과 정반대라고도 하잖아?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1395,
+		flag = 4
+	},
+	[1396] = {
+		param = "늘 파르제팔 곁에 있을 거야.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1396,
+		flag = 4
+	},
+	[1397] = {
+		param = "그러게, 확실히 끔찍한 꿈이기는 해.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1397,
+		flag = 5
+	},
+	[1398] = {
+		param = "그래도 걱정하지 마. 난 여기 있으니까. 늘 파르제팔 곁에 있을 거야.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1398,
+		flag = 5
+	},
+	[1399] = {
+		param = "그래? 그러면 나의 사역마… 나의 지휘관……",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1399,
+		flag = 0
+	},
+	[1400] = {
+		param = "다른 건 모두 제쳐두고 내 곁으로 돌아와.",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1400,
+		flag = 0
+	},
+	[1401] = {
+		param = "너만 내 곁에 있어 준다면, 다음에 눈을 감을 땐……",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1401,
+		flag = 0
+	},
+	[1402] = {
+		param = "분명 멋진 꿈을 꿀 수 있을 거야.",
+		ship_group = 49906,
+		option = "",
+		type = 1,
+		id = 1402,
+		flag = 0
 	}
 }

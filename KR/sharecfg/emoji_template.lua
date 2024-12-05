@@ -468,6 +468,32 @@ pg.emoji_template = {
 			1
 		}
 	},
+	{
+		achieve = 1,
+		index = 77,
+		pic = "37",
+		desc = "<color=#92fc63>[아직 안 자]</color>",
+		item_name = "이모티콘: 자지 않아",
+		item_desc = "이모티콘: 자지 않아 채팅의 「기본」에서 사용할 수 있습니다.",
+		id = 37,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	{
+		achieve = 1,
+		index = 78,
+		pic = "38",
+		desc = "<color=#92fc63>[졸려]</color>",
+		item_name = "이모티콘: 졸졸",
+		item_desc = "이모티콘: 졸졸 채팅의 「기본」에서 사용할 수 있습니다.",
+		id = 38,
+		icon = "",
+		type = {
+			1
+		}
+	},
 	[41] = {
 		achieve = 0,
 		index = 1001,
@@ -2299,6 +2325,8 @@ pg.emoji_template = {
 		34,
 		35,
 		36,
+		37,
+		38,
 		41,
 		42,
 		43,

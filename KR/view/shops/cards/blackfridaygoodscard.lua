@@ -4,13 +4,14 @@ slot0.Flush = function(slot0)
 	slot0.cntTxt.text = slot0.commodity:GetCanPurchaseCnt() .. "/" .. slot0.commodity:GetCanPurchaseMaxCnt()
 
 	setActive(slot0.sellOutMaskTF, not slot0.commodity:CanPurchase())
+	setActive(slot0.discountTF, slot0.commodity:GetDiscount() ~= 0 and slot0.commodity:CanPurchase())
 end
 
 slot0.Init = function(slot0)
 	uv0.super.Init(slot0)
 	setActive(slot0.discountTF, false)
 
-	if slot0.commodity:GetDiscount() ~= 0 then
+	if slot0.commodity:GetDiscount() ~= 0 and slot0.commodity:CanPurchase() then
 		setActive(slot0.discountTF, true)
 
 		slot0.consumeTxtTF.text = slot0.commodity:GetSalesPrice()

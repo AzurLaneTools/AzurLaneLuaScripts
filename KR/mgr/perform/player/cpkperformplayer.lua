@@ -36,9 +36,7 @@ slot0.Play = function(slot0, slot1, slot2, slot3)
 	slot5 = slot1.param[2] or 3
 
 	if checkABExist("educateanim/" .. (slot0:getCpkName(slot1.param[1]) or "")) then
-		slot7 = ResourceMgr.Inst
-
-		slot7:getAssetAsync("educateanim/" .. slot4, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+		LoadAnyAsync("educateanim/" .. slot4, "", nil, function (slot0)
 			slot1 = Object.Instantiate(slot0, uv0.cpkParentTF)
 
 			setActive(uv0.bgTF, true)
@@ -75,7 +73,7 @@ slot0.Play = function(slot0, slot1, slot2, slot3)
 			if not IsNil(slot2) then
 				Destroy(slot2)
 			end
-		end), true, true)
+		end)
 	elseif slot2 then
 		slot2()
 	end

@@ -40,15 +40,8 @@ slot0.GCFinal = function(slot0)
 
 	if slot0.needUnityGC then
 		slot0.needUnityGC = false
-		slot2 = PoolMgr.GetInstance():SpriteMemUsage()
-		slot3 = 24
 
-		originalPrint("cached sprite size: " .. math.ceil(slot2 * 10) / 10 .. "/" .. slot3 .. "MB")
-
-		if slot3 < slot2 then
-			slot1:DestroyAllSprite()
-		end
-
+		PoolMgr.GetInstance():DestroyAllSprite()
 		ResourceMgr.Inst:ResUnloadAsync()
 		LuaHelper.UnityGC()
 	end

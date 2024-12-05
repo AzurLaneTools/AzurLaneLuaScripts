@@ -1675,5 +1675,13 @@ pg.voice_actor_CN = {
 	[432] = {
 		actor_name = "시오이리 아스카",
 		code = 432
+	},
+	[433] = {
+		actor_name = "이토 카나에",
+		code = 433
+	},
+	[434] = {
+		actor_name = "나즈카 카오리",
+		code = 434
 	}
 }

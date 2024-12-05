@@ -6758,6 +6758,11 @@ _G.pg.base.gametip.word_shipNation_senran = {
 }
 
 
+_G.pg.base.gametip.word_shipNation_tolove = {
+	tip = "To LOVE-Ru"
+}
+
+
 _G.pg.base.gametip.word_reset = {
 	tip = "초기화"
 }
@@ -12379,7 +12384,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "기간 한정 건조 누적 200회마다 「무사시」 획득 가능!(최대 4회)"
+	tip = " 「라라 사타린 데빌룩」, 「금빛 어둠」 등의 등장 확률 UP!"
 }
 
 
@@ -20965,7 +20970,7 @@ _G.pg.base.gametip.meta_award_get = {
 
 
 _G.pg.base.gametip.meta_award_got = {
-	tip = "수령함"
+	tip = "수령 완료"
 }
 
 
@@ -25613,6 +25618,75 @@ _G.pg.base.gametip.cruise_task_help_2410 = {
 }
 
 
+_G.pg.base.gametip.battlepass_main_tip_2412 = {
+	tip = "2024/12/8 ~ 2025/2/7 이벤트 기간 중에 월드 투어 <icon name=pt w=0.5 h=0.5/>획득 합계 보상<color=#854747> 「줄리오 체사레·META」</color> 등 획득 가능"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2412 = {
+	tip = {
+		{
+			info = [[
+■ 이벤트 진행 기간
+ 2024.12.8 0:00 ~ 2025.2.7 23:59
+
+■ 개요
+「월드 투어」란, 이벤트 진행 중에 임무를 클리어하고 「투어 PT」를 모아, 획득한 투어 PT 합계에 따라 보상을 얻을 수 있는 이벤트입니다. 
+또한, 기본 투어 보상에는 추가적으로 「특허 투어 보상」이 존재하며, 상점 아이템 「특허 투어 패스」를 구매하면 특허 투어 보상을 획득할 수 있습니다. 
+기본 투어 보상으로는 「줄리오 체사레·META」, 특허 투어 보상으로는 경항공모함 「베저」의 한정 스킨인 「Offtime Cafe」를 획득할 수 있습니다. 
+
+■플레이 방법
+・「월드 투어」 이벤트 시작과 동시에 임무 두 종류가 오픈됩니다. 
+ ①주간 오픈 임무
+　이벤트 시작 시와 이벤트 기간 중 매주 월요일 0시에 오픈되는 임무. 총 8그룹
+ ②전체 기간 임무
+ 처음부터 모두 오픈되는 임무. 총 1그룹
+・상기 「월드 투어」는 모두 자동적으로 수령이 완료되고, 「월드 투어」 화면으로 이동 시에 이미 완료 조건을 충족한 임무는 클리어로 처리되며, 「투어 PT」를 자동으로 획득할 수 있습니다. 
+ 또한 「특허 투어 패스」를 구매하면, 15단계 분량의 보상(투어 PT 1,500)을 획득할 수 있습니다. 
+・「투어 PT」의 합계에 따라 투어 보상을 얻을 수 있습니다. 투어 보상은 두 가지가 있습니다. 
+ ①기본 투어 보상
+ 「투어 PT」의 획득 수에 따라 얻을 수 있는 보상. 총 100단계가 있습니다.
+ ②특허 투어 보상
+ 「특허 투어 패스」를 구매하면 오픈되는 추가 보상. 기본 투어 보상과 동일하게 총 100단계가 있으며, 기본 투어 보상과 같은 단계의 특허 투어 보상을 획득할 수 있습니다. 
+・이벤트가 종료되면 획득한 투어 PT는 초기화됩니다. 
+
+■Tips
+・플레이 스타일
+　월드 투어에는 총 100단계가 있으며, 단숨에 마지막 단계까지 클리어할 수 없도록 만들어져 있습니다. 평소대로 퀘스트를 클리어하면서 임무를 처리하거나, 원하는 보상을 정해 신속하게 클리어하는 등, 자신의 플레이 스타일에 따라 즐기는 것을 추천합니다. 
+
+・특허 투어 패스
+ 상점에서 「특허 투어 패스」를 구매하면, 특별한 아이템과 함께 「투어 PT」를 1,500PT 획득할 수 있습니다. 또한, 추가 한정 스킨은 「특허 투어 패스」 구매로 오픈되는 「특허 투어 보상」으로만 획득할 수 있습니다. 이 점 주의하시기 바랍니다. 
+
+・임무 스킵(권장하지 않습니다)
+ 「월드 투어」의 「임무 목록」 화면에서 각 임무 우측의 화살표 버튼을 탭하면, 임무를 자동으로 스킵(클리어 처리)하고, 투어 PT를 획득할 수 있는 「월드 투어 티켓」을 구입하거나 사용할 수 있습니다. 
+ 다이아가 소모되므로, 권장하지 않습니다. 
+ 「월드 투어 티켓」은 이벤트가 종료된 후에도 계속 소지할 수 있습니다.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2412 = {
+	tip = {
+		{
+			info = [[
+■ 월드 투어에 대해
+・「월드 투어」 이벤트 시작과 동시에 임무 두 종류가 오픈됩니다. 
+ ①주간 오픈 임무
+　이벤트 시작 시와 이벤트 기간 중 매주 월요일 0시에 오픈되는 임무. 총 8그룹
+ ②전체 기간 임무
+ 처음부터 모두 오픈되는 임무. 총 1그룹
+
+・「월드 투어」는 모두 자동적으로 수령이 완료되고, 「월드 투어」 화면으로 이동 시에 이미 완료 조건을 충족한 임무는 클리어로 처리되며, 「투어 PT」를 자동으로 획득할 수 있습니다. 
+
+・「월드 투어」의 「임무 목록」 화면에서 각 임무 우측의 화살표 버튼을 탭하면, 임무를 자동으로 스킵(클리어 처리)하고, 투어 PT를 획득할 수 있는 「월드 투어 티켓」을 구입하거나 사용할 수 있습니다. 
+ 다이아가 소모되므로, 권장하지 않습니다……
+ 「월드 투어 티켓」은 이벤트가 종료된 후에도 계속 소지할 수 있습니다.]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "초기화"
 }
@@ -26815,7 +26889,7 @@ _G.pg.base.gametip.word_japanese = {
 
 
 _G.pg.base.gametip.avatarframe_got = {
-	tip = "수령함"
+	tip = "수령 완료"
 }
 
 
@@ -30021,7 +30095,7 @@ _G.pg.base.gametip.cryptolalia_delete_res_tip = {
 
 
 _G.pg.base.gametip.cryptolalia_delete_res_title = {
-	tip = "리소스 다운로드"
+	tip = "리소스 삭제"
 }
 
 
@@ -35194,6 +35268,11 @@ _G.pg.base.gametip.cruise_title_2410 = {
 }
 
 
+_G.pg.base.gametip.cruise_title_2412 = {
+	tip = "월드 투어·XX기"
+}
+
+
 _G.pg.base.gametip.battlepass_main_time_title = {
 	tip = "이번 남은 시간:"
 }
@@ -35236,6 +35315,21 @@ _G.pg.base.gametip.cruise_shop_title_equip_skin = {
 
 _G.pg.base.gametip.cruise_shop_lock_tip = {
 	tip = "진행 중인 월드 투어에서 Lv50 달성"
+}
+
+
+_G.pg.base.gametip.cruise_tip_skin = {
+	tip = "월드 투어로"
+}
+
+
+_G.pg.base.gametip.cruise_tip_base = {
+	tip = "-기본 투어 보상-"
+}
+
+
+_G.pg.base.gametip.cruise_tip_upgrade = {
+	tip = "-특허 투어 보상-"
 }
 
 
@@ -35429,6 +35523,16 @@ _G.pg.base.gametip.levelscene_mapselect_ex = {
 }
 
 
+_G.pg.base.gametip.levelscene_mapselect_normal = {
+	tip = "보통"
+}
+
+
+_G.pg.base.gametip.levelscene_mapselect_advanced = {
+	tip = "도전"
+}
+
+
 _G.pg.base.gametip.juuschat_filter_title = {
 	tip = "필터링"
 }
@@ -35603,4 +35707,287 @@ _G.pg.base.gametip.juuschat_background_tip2 = {
 
 _G.pg.base.gametip.drom3d_memory_limit_tip = {
 	tip = "현재 휴대폰 모델의 메모리가 권장 사양보다 작기 때문에 튕길 위험이 있습니다."
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_1 = {
+	tip = "실드 UP!"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_2 = {
+	tip = "점수 UP!"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_3 = {
+	tip = "제한 시간 UP!"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_4 = {
+	tip = "실드 SUPER UP!"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_5 = {
+	tip = "점수 SUPER UP!"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_6 = {
+	tip = "제한 시간 SUPER UP!"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_name_7 = {
+	tip = "모두 UP!"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_1 = {
+	tip = "게임 시작 시에 실드를 1장 소지한다. 실드 1장당 폭발을 1회 막을 수 있다."
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_2 = {
+	tip = "게임 종료 시 최종 점수가 1.2배가 된다."
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_3 = {
+	tip = "게임 시작 시 제한 시간이 10초 연장된다."
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_4 = {
+	tip = "게임 시작 시에 실드를 1장 소지한다. 5라운드를 회피할 때마다 실드가 1장 추가된다(최대 2장). 실드 1장당 폭발을 1회 막을 수 있다."
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_5 = {
+	tip = "게임 종료 시 최종 점수가 1.2배가 된다. 또한 5라운드마다 점수 배율이 0.01 증가한다."
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_6 = {
+	tip = "게임 시작 시 제한 시간이 10초 연장된다. 시간이 다 될 때마다 50%의 확률로 10초가 더 연장된다."
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_desc_7 = {
+	tip = "게임 시작 시에 실드를 1장 소지하며, 제한 시간이 10초 연장된다. 게임 종료 시 최종 점수가 1.2배가 된다."
+}
+
+
+_G.pg.base.gametip.tolovegame_join_reward = {
+	tip = "보상"
+}
+
+
+_G.pg.base.gametip.tolovegame_score = {
+	tip = "점수"
+}
+
+
+_G.pg.base.gametip.tolovegame_rank_tip = {
+	tip = "친구와 대함대 멤버에게만 공개"
+}
+
+
+_G.pg.base.gametip.tolovegame_lock_1 = {
+	tip = "$1일 $2시간 후에 오픈"
+}
+
+
+_G.pg.base.gametip.tolovegame_lock_2 = {
+	tip = "$1시간 후에 오픈"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_switch_1 = {
+	tip = "버프 ON"
+}
+
+
+_G.pg.base.gametip.tolovegame_buff_switch_2 = {
+	tip = "버프 OFF"
+}
+
+
+_G.pg.base.gametip.tolovegame_proceed = {
+	tip = "확인"
+}
+
+
+_G.pg.base.gametip.tolovegame_collect = {
+	tip = "수령"
+}
+
+
+_G.pg.base.gametip.tolovegame_collected = {
+	tip = "수령 완료"
+}
+
+
+_G.pg.base.gametip.tolovegame_tutorial = {
+	tip = {
+		{
+			info = "다른 세상에서 온 공주가 지휘관을 위해 만든 특훈 장치! \n"
+		},
+		{
+			info = "1. 게임을 시작하면 캐릭터 상단에 화살표가 차례로 표시됩니다.；"
+		},
+		{
+			info = "2. 화살표가 모두 표시되면, 스테이지 화면에 폭발이 발생합니다! 화살표 방향에 따라 화면 좌측 하단의 컨트롤러를 조작하면, 폭발을 피할 수 있습니다.；"
+		},
+		{
+			info = "3. 폭발을 모두 피할 때마다 획득하는 점수가 증가합니다.；"
+		},
+		{
+			info = "4. 「특훈 버프」를 가동하여 제한된 시간 내에 최대 점수를 달성해보세요!"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.tolovegame_awards = {
+	tip = "보상"
+}
+
+
+_G.pg.base.gametip.tolovemainpage_skin_countdown = {
+	tip = "남은 시간 $1시간"
+}
+
+
+_G.pg.base.gametip.tolovemainpage_build_countdown = {
+	tip = "곧 종료됨"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_title = {
+	tip = "의뢰 확인"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_ship_need = {
+	tip = "$1에게 받은 의뢰"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_task_need = {
+	tip = "필요 재료:"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_detail_collect = {
+	tip = "재료를 수집하러"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_detail_puzzle = {
+	tip = "부품 조립"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_detail_connection = {
+	tip = "회로 설계"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_ship_unknown = {
+	tip = "???"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_lock_by_front = {
+	tip = "지난 의뢰 달성 시 오픈"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_lock_by_time = {
+	tip = "$1일 $2시간 후에 오픈"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_cheat = {
+	tip = "응! 그런 부탁이라면 나한테 맡겨!"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_open_detail = {
+	tip = "의뢰 처리"
+}
+
+
+_G.pg.base.gametip.tolove_main_help = {
+	tip = {
+		{
+			info = "이벤트 소개:"
+		},
+		{
+			info = "<color=#92fc63>12월 5일(목) ~ 12월 19일(목) 점검까지</color> 콜라보레이션 이벤트 「위험한 발명 접근 중! 」 진행"
+		},
+		{
+			info = "<color=#7D7D7D>기념장 가구, 합계 포인트 보상 수령, 이벤트 상점 교환은 12월 25일(수) 23:59까지</color>\n"
+		},
+		{
+			info = "이벤트 스테이지에 <color=#FCD400>출격</color>\n이벤트 해역에 출격하여 Pt 아이템 「에너지 스톤」을 모으면 「작전 수확 집계 중! 」, 「상점」에서 보상으로 교환 가능! \n"
+		},
+		{
+			info = "<color=#FCD400>「도와줘! 라라 씨 」</color>\n이벤트 해역 및 메인 해역 3장 이후 스테이지에서 「에너지 조각」을 모으면 「도와줘! 라라 씨」에서 모항 함선들의 발명 의뢰 오픈 가능. 미니 게임으로 발명을 완성하여 의뢰를 클리어하면 「일이 재밌어지는 기계」 등 한정 장비 획득 가능. \n"
+		},
+		{
+			info = "미니 게임 <color=#FCD400>「띠띠 특훈군」</color>\n12/11(수)까지 매일 오픈되는 미니 게임 스테이지를 클리어하면, 가구 「공주의 그림」 등 한정 가구 GET! 또한 「특훈 임무」를 클리어하면 보상 획득 가능. \n"
+		},
+		{
+			info = "<color=#FCD400>「기념장」</color>\n이벤트 기간 중에 오픈되는 각종 콘텐츠를 플레이하면 「데이터 칩」 6종 획득 가능. 「데이터 칩」을 모두 모으면, 「기념장」 페이지에서 가구 「데빌룩 스타일 기념장」으로 교환 가능! \n"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_finished = {
+	tip = "이미 완료함"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_title_desc = {
+	tip = "의뢰 상세 정보"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_pop_next = {
+	tip = "다음"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_pop_finish = {
+	tip = "완성"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_pop_save = {
+	tip = "진척도를 저장했습니다."
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_unlock = {
+	tip = "오픈 완료 의뢰"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_lock = {
+	tip = "미오픈 의뢰"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_line_tip = {
+	tip = "한붓그리기로 모든 부품을 연결하라!"
+}
+
+
+_G.pg.base.gametip.tolovegame_puzzle_puzzle_tip = {
+	tip = "부품은 이음점에 맞춰서 배치 가능"
 }

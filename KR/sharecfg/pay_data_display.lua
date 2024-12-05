@@ -89,6 +89,7 @@ pg.pay_data_display = setmetatable({
 		1016,
 		1017,
 		1018,
+		1019,
 		2001,
 		2002,
 		2003,
@@ -121,7 +122,8 @@ pg.pay_data_display = setmetatable({
 		2032,
 		2033,
 		2034,
-		2035
+		2035,
+		2036
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -8728,6 +8730,82 @@ pg.base.pay_data_display = {
 		limit_args = {},
 		drop_item = {}
 	},
+	[1019] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※ 월드 투어 클리어 시 추가 보상 획득 가능",
+		type = 0,
+		name = "특허 투어 패스(2024.12)",
+		first_pay_double = 0,
+		name_display = "특허 투어 패스",
+		descrip = "구매 시 월드 투어의 투어 PT 1,500 획득 및 SP 보상 오픈",
+		subject = "특허 투어 패스",
+		money = 12000,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 4,
+		picture = "battlepass_1",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift109",
+		extra_service = 4,
+		id = 1019,
+		airijp_id = "com.yostarjp.azurlane.seasonpass20",
+		extra_service_item = {
+			{
+				1,
+				4020,
+				1500
+			},
+			{
+				8,
+				65057,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					12,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					7
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7020,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
 	[2001] = {
 		extra_gem = 0,
 		limit_group = 1,
@@ -11186,6 +11264,115 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40050,
+				1
+			}
+		}
+	},
+	[2036] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
+		type = 0,
+		name = "스킬 교본 패키지",
+		first_pay_double = 0,
+		name_display = "스킬 교본 패키지",
+		descrip = "구매하면 교과서를 대량으로 획득 가능",
+		subject = "스킬 교본 패키지",
+		money = 4400,
+		limit_arg = 4,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 0,
+		picture = "boxSkill",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift108",
+		extra_service = 3,
+		id = 2036,
+		airijp_id = "com.yostarjp.azurlane.package121",
+		extra_service_item = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					12,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40023,
 				1
 			}
 		}

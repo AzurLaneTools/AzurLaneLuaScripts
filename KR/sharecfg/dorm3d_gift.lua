@@ -77,6 +77,26 @@ pg.dorm3d_gift = {
 			"banner_gift2022001"
 		}
 	},
+	[2022002] = {
+		display = "클래식하고 우아한 로열 네이비의 티세트. \n 느긋하면서도 상쾌한 느낌을 주는 「블루 & 화이트」의 조합으로 티타임을 우아하게 만들어 준다.",
+		name = "다구 세트",
+		reply_dialogue_id = 1505,
+		unlock_dialogue_id = 10070,
+		rarity = 4,
+		ship_group_id = 20220,
+		favor_trigger_id = 1004,
+		id = 2022002,
+		icon = "dorm3dicon/3Ddrom_tianlangxing_FancyGift1",
+		shop_id = {
+			260302
+		},
+		unlock_tips = {
+			4
+		},
+		unlock_banners = {
+			"banner_gift2022002"
+		}
+	},
 	get_id_list_by_ship_group_id = {
 		[0] = {
 			1021001,
@@ -84,13 +104,15 @@ pg.dorm3d_gift = {
 			1021003
 		},
 		[20220] = {
-			2022001
+			2022001,
+			2022002
 		}
 	},
 	all = {
 		1021001,
 		1021002,
 		1021003,
-		2022001
+		2022001,
+		2022002
 	}
 }

@@ -128,9 +128,7 @@ slot0.UpdateChapterName = function(slot0)
 end
 
 slot0.LoadEffects = function(slot0, slot1)
-	slot2 = ResourceMgr.Inst
-
-	slot2:getAssetAsync("BattleResultItems/ResultEffect", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+	LoadAnyAsync("BattleResultItems/ResultEffect", "", nil, function (slot0)
 		if uv0.exited or IsNil(slot0) then
 			if uv1 then
 				uv1()
@@ -150,7 +148,7 @@ slot0.LoadEffects = function(slot0, slot1)
 		if uv1 then
 			uv1()
 		end
-	end), true, true)
+	end)
 end
 
 slot0.PlayEnterAnimation = function(slot0, slot1)
@@ -191,9 +189,7 @@ slot0.LoadBGAndGrade = function(slot0, slot1)
 end
 
 slot0.LoadBG = function(slot0, slot1)
-	slot3 = ResourceMgr.Inst
-
-	slot3:getAssetAsync("BattleResultItems/" .. NewBattleResultUtil.Score2Bg(slot0.contextData.score), "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+	LoadAnyAsync("BattleResultItems/" .. NewBattleResultUtil.Score2Bg(slot0.contextData.score), "", nil, function (slot0)
 		if uv0.exited or IsNil(slot0) then
 			if uv1 then
 				uv1()
@@ -211,7 +207,7 @@ slot0.LoadBG = function(slot0, slot1)
 		if uv1 then
 			uv1()
 		end
-	end), false, false)
+	end)
 end
 
 slot0.LoadGrade = function(slot0, slot1)

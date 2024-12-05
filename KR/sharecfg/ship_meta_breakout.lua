@@ -114,6 +114,10 @@ pg.ship_meta_breakout = setmetatable({
 		9705062,
 		9705063,
 		9705064,
+		9705071,
+		9705072,
+		9705073,
+		9705074,
 		9706011,
 		9706012,
 		9706013,
@@ -1962,6 +1966,73 @@ pg.base.ship_meta_breakout = {
 		item2_num = 0,
 		id = 9705064,
 		item1 = 21037,
+		level = 0,
+		weapon_ids = {}
+	},
+	[9705071] = {
+		breakout_view = "[염추의 재·줄리오 체사레] 습득 / 주포 포좌 +1 / 주포 보정 +5%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 500,
+		breakout_id = 9705072,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9705071,
+		item1 = 21040,
+		level = 10,
+		weapon_ids = {
+			95480,
+			95480
+		}
+	},
+	[9705072] = {
+		breakout_view = "부포 포좌 +2 / 주포 보정 +10%",
+		item2 = 21001,
+		pre_id = 9705071,
+		repair = 0,
+		gold = 1500,
+		breakout_id = 9705073,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9705072,
+		item1 = 21040,
+		level = 30,
+		weapon_ids = {
+			101,
+			101,
+			101
+		}
+	},
+	[9705073] = {
+		breakout_view = "[염추의 재·줄리오 체사레] 강화 / 주포 포좌 +1 / 주포 보정 +15%",
+		item2 = 21001,
+		pre_id = 9705072,
+		repair = 0,
+		gold = 2500,
+		breakout_id = 9705074,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9705073,
+		item1 = 21040,
+		level = 70,
+		weapon_ids = {
+			95480,
+			95480,
+			95480
+		}
+	},
+	[9705074] = {
+		breakout_view = "없음",
+		item2 = 21001,
+		pre_id = 9705073,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9705074,
+		item1 = 21040,
 		level = 0,
 		weapon_ids = {}
 	},

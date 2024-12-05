@@ -525,6 +525,27 @@ slot0.updateActivityData = function(slot0, slot1, slot2, slot3, slot4)
 		end
 
 		getProxy(ActivityProxy):updateActivity(slot3)
+	elseif slot5 == ActivityConst.ACTIVITY_TYPE_PUZZLE_CONNECT then
+		slot8 = getProxy(ActivityProxy)
+		slot9 = slot3.data1_list
+		slot10 = slot3.data2_list
+		slot11 = slot3.data3_list
+
+		if slot1.cmd == 1 then
+			slot15 = slot6:getData()
+
+			slot15:consume({
+				[pg.player_resource[pg.activity_tolove_jigsaw[slot1.arg1].need[2]].name] = pg.activity_tolove_jigsaw[slot1.arg1].need[3]
+			})
+			slot6:updatePlayer(slot15)
+			table.insert(slot9, slot1.arg1)
+		elseif slot1.cmd == 2 then
+			table.insert(slot10, slot1.arg1)
+		elseif slot1.cmd == 3 then
+			table.insert(slot11, slot1.arg1)
+		end
+
+		slot8:updateActivity(slot3)
 	end
 
 	return slot3

@@ -153,6 +153,7 @@ pg.furniture_data_template = setmetatable({
 			287,
 			288,
 			289,
+			292,
 			100002,
 			100003,
 			100004,
@@ -3210,6 +3211,42 @@ pg.furniture_data_template = setmetatable({
 			315111,
 			315112,
 			315113
+		},
+		[116] = {
+			316001,
+			316002,
+			316101,
+			316102,
+			316103,
+			316104,
+			316105,
+			316106,
+			316107,
+			316108,
+			316109,
+			316110,
+			316111,
+			316112,
+			316113,
+			316114,
+			316115,
+			316116,
+			316117,
+			316118,
+			316119,
+			316120,
+			316121,
+			316122,
+			316123,
+			316301,
+			316302,
+			316303,
+			316304,
+			316305,
+			316306,
+			316307,
+			316308,
+			316309
 		}
 	},
 	get_id_list_by_tag = {
@@ -5120,7 +5157,29 @@ pg.furniture_data_template = setmetatable({
 			315109,
 			315110,
 			315111,
-			315112
+			315112,
+			316101,
+			316102,
+			316103,
+			316104,
+			316105,
+			316106,
+			316107,
+			316108,
+			316109,
+			316110,
+			316111,
+			316112,
+			316113,
+			316114,
+			316115,
+			316116,
+			316117,
+			316118,
+			316119,
+			316120,
+			316121,
+			316122
 		},
 		{
 			1108,
@@ -5497,7 +5556,8 @@ pg.furniture_data_template = setmetatable({
 			283,
 			284,
 			287,
-			289
+			289,
+			292
 		},
 		[7] = {
 			213,
@@ -5690,7 +5750,8 @@ pg.furniture_data_template = setmetatable({
 			312115,
 			313113,
 			314113,
-			315113
+			315113,
+			316123
 		},
 		[4] = {
 			1001,
@@ -5792,7 +5853,8 @@ pg.furniture_data_template = setmetatable({
 			312001,
 			313001,
 			314001,
-			315001
+			315001,
+			316001
 		},
 		[3] = {
 			1002,
@@ -5895,7 +5957,8 @@ pg.furniture_data_template = setmetatable({
 			312002,
 			313002,
 			314002,
-			315002
+			315002,
+			316002
 		},
 		[5] = {
 			1301,
@@ -6234,7 +6297,16 @@ pg.furniture_data_template = setmetatable({
 			313301,
 			313302,
 			313303,
-			314112
+			314112,
+			316301,
+			316302,
+			316303,
+			316304,
+			316305,
+			316306,
+			316307,
+			316308,
+			316309
 		}
 	},
 	get_id_list_by_type = {
@@ -6339,7 +6411,8 @@ pg.furniture_data_template = setmetatable({
 			312002,
 			313002,
 			314002,
-			315002
+			315002,
+			316002
 		},
 		[7] = {
 			1,
@@ -6471,6 +6544,7 @@ pg.furniture_data_template = setmetatable({
 			287,
 			288,
 			289,
+			292,
 			100002,
 			100004,
 			100005,
@@ -8433,7 +8507,27 @@ pg.furniture_data_template = setmetatable({
 			315110,
 			315111,
 			315112,
-			315113
+			315113,
+			316101,
+			316102,
+			316103,
+			316104,
+			316105,
+			316106,
+			316108,
+			316109,
+			316110,
+			316111,
+			316113,
+			316114,
+			316115,
+			316116,
+			316117,
+			316118,
+			316119,
+			316120,
+			316122,
+			316123
 		},
 		[11] = {
 			131,
@@ -8482,7 +8576,9 @@ pg.furniture_data_template = setmetatable({
 			90117,
 			94119,
 			301105,
-			312115
+			312115,
+			316112,
+			316121
 		},
 		[14] = {
 			214,
@@ -8607,7 +8703,8 @@ pg.furniture_data_template = setmetatable({
 			312001,
 			313001,
 			314001,
-			315001
+			315001,
+			316001
 		},
 		[5] = {
 			1101,
@@ -8750,7 +8847,8 @@ pg.furniture_data_template = setmetatable({
 			305119,
 			308104,
 			309105,
-			310101
+			310101,
+			316107
 		},
 		[3] = {
 			1108,
@@ -9239,7 +9337,16 @@ pg.furniture_data_template = setmetatable({
 			313301,
 			313302,
 			313303,
-			314112
+			314112,
+			316301,
+			316302,
+			316303,
+			316304,
+			316305,
+			316306,
+			316307,
+			316308,
+			316309
 		},
 		[8] = {
 			17121
@@ -9429,6 +9536,7 @@ pg.furniture_data_template = setmetatable({
 		287,
 		288,
 		289,
+		292,
 		100002,
 		100003,
 		100004,
@@ -12283,7 +12391,41 @@ pg.furniture_data_template = setmetatable({
 		315110,
 		315111,
 		315112,
-		315113
+		315113,
+		316001,
+		316002,
+		316101,
+		316102,
+		316103,
+		316104,
+		316105,
+		316106,
+		316107,
+		316108,
+		316109,
+		316110,
+		316111,
+		316112,
+		316113,
+		316114,
+		316115,
+		316116,
+		316117,
+		316118,
+		316119,
+		316120,
+		316121,
+		316122,
+		316123,
+		316301,
+		316302,
+		316303,
+		316304,
+		316305,
+		316306,
+		316307,
+		316308,
+		316309
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -19906,6 +20048,52 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[292] = {
+		can_rotate = 0,
+		describe = "우주선을 타고 새로운 모험을 떠나자!",
+		gain_by = "위험한 발명 접근 중!",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 8,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "데빌룩 스타일 기념장",
+		advice = 0,
+		id = 292,
+		icon = "tolovexunzhangicon",
+		comfortable = 0,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			2,
+			{
+				"story-richang-rosy-short"
+			}
+		},
+		spine = {
+			{
+				"tolovexunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		can_rotate = 0,
 		describe = "높이~ 더 높이 띄우자~ 에엣?! 너무 높아 너무 높이 갔어!! (QㅁQ);;;",
@@ -23983,7 +24171,7 @@ pg.base.furniture_data_template = {
 	},
 	[100058] = {
 		can_rotate = 0,
-		describe = "어느 소녀가 잃어버린 물건인지… 열어보시겠습니까?",
+		describe = "누군가 전해주지 못하고 잃어버린 모양이다. 열어볼까?",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -24002,7 +24190,7 @@ pg.base.furniture_data_template = {
 		canputon = 0,
 		themeId = 0,
 		count = 1,
-		name = "잃어버린' 편지",
+		name = "누군가 분실한 러브레터",
 		advice = 0,
 		id = 100058,
 		icon = "qingshutaiicon",
@@ -147284,6 +147472,1496 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[316001] = {
+		can_rotate = 0,
+		describe = "동화 속 공주 같은 느낌!",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/dibantol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "공주 스타일 바닥",
+		advice = 0,
+		icon = "dibantolicon",
+		id = 316001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316002] = {
+		can_rotate = 0,
+		describe = "동화 속 공주 같은 느낌!",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/qiangbitol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "공주 스타일 벽",
+		advice = 0,
+		icon = "qiangbitolicon",
+		id = 316002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316101] = {
+		can_rotate = 0,
+		describe = "폭신하고 편안한 둥근 의자",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/aidengtol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 116,
+		count = 2,
+		name = "공주 스툴",
+		advice = 0,
+		id = 316101,
+		icon = "aidengtol",
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					13.8,
+					44.7
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316102] = {
+		can_rotate = 0,
+		describe = "향기를 맡으면 다른 사람처럼 변한다던데? 조, 조심하자!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/baohuatol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "지키드 꽃",
+		advice = 0,
+		icon = "baohuatolicon",
+		id = 316102,
+		comfortable = 2,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316103] = {
+		can_rotate = 0,
+		describe = "보기만 해도 재밌어!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 116,
+		count = 1,
+		name = "무지개 장미",
+		advice = 0,
+		id = 316103,
+		icon = "caihongmeiguitolicon",
+		comfortable = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"caihongmeiguitol",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[316104] = {
+		can_rotate = 0,
+		describe = "인형인데 이상한 냄새가 나는 것 같아…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/chouyoutol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "킁킁 스컹크 군",
+		advice = 0,
+		icon = "chouyoutolicon",
+		id = 316104,
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316105] = {
+		can_rotate = 0,
+		describe = "이걸 타면 어디로 갈까? 기대된다!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 116,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "chuansongmentolicon",
+		count = 1,
+		name = "이상한 입구",
+		advice = 0,
+		id = 316105,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chuansongmentolB",
+				"normal"
+			},
+			{
+				"chuansongmentolT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[316106] = {
+		can_rotate = 0,
+		describe = "라라가 좋아하는 우주선의 복제품. 비행 속도가 빠르다고 한다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/dailubiketol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "데빌룩 우주선 모형",
+		advice = 0,
+		icon = "dailubiketolicon",
+		id = 316106,
+		comfortable = 4,
+		size = {
+			6,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316107] = {
+		can_rotate = 0,
+		describe = "동화 속 공주 같은 느낌!",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/ditantol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "공주 스타일 러그",
+		advice = 0,
+		icon = "ditantolicon",
+		id = 316107,
+		comfortable = 3,
+		size = {
+			18,
+			18
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316108] = {
+		can_rotate = 0,
+		describe = "찔리면 온 몸이 다 저린대! 조심해!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/duhuatol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "포이즌 플라워",
+		advice = 0,
+		icon = "duhuatolicon",
+		id = 316108,
+		comfortable = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316109] = {
+		can_rotate = 0,
+		describe = "무슨 냄새가 날까… 아니, 위험할 것 같으니 그만두자!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/fenhuatol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 5,
+		name = "아드레나 꽃",
+		advice = 0,
+		icon = "fenhuatolicon",
+		id = 316109,
+		comfortable = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316110] = {
+		can_rotate = 0,
+		describe = "이거… 개…인가? 아니, 어떻게 생겼든 소파는 소파야!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/goushafa1tol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 116,
+		count = 1,
+		name = "외계 생물 소파",
+		advice = 0,
+		id = 316110,
+		icon = "goushafa1tolicon",
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					6.6,
+					45.1
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316111] = {
+		can_rotate = 0,
+		describe = "이거… 개…인가? 아니, 어떻게 생겼든 소파는 소파야!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/goushafa2tol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 116,
+		count = 1,
+		name = "외계 생물 소파",
+		advice = 0,
+		id = 316111,
+		icon = "goushafa2tolicon",
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					6.6,
+					45.1
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316112] = {
+		can_rotate = 0,
+		describe = "오, 옷을 너덜너덜한 천 쪼가리로 만든다던데… 너무 위험하잖아!",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 116,
+		count = 1,
+		name = "철컹철컹 가위 군",
+		advice = 0,
+		id = 316112,
+		icon = "jianjianjuntolicon",
+		comfortable = 4,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jianjianjuntol",
+				"normal",
+				{
+					"action",
+					true
+				},
+				1
+			}
+		},
+		interAction_group = {}
+	},
+	[316113] = {
+		can_rotate = 0,
+		describe = "씨앗 포탄에 맞으면… 아플 것 같아!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/jianonghuatol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "히팅 플라워",
+		advice = 0,
+		icon = "jianonghuatolicon",
+		id = 316113,
+		comfortable = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316114] = {
+		can_rotate = 0,
+		describe = "이것만 있으면 실험실 모니터링도 문제 없지…!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 116,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "kongzhitaitolicon",
+		count = 1,
+		name = "공주 조작 패널",
+		advice = 0,
+		id = 316114,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			5,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"kongzhitaitol",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[316115] = {
+		can_rotate = 0,
+		describe = "이건…… 변화 기능이 없는 그냥 평범한 소파야!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/lanrenshafatol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 116,
+		count = 1,
+		name = "페케 소파",
+		advice = 0,
+		id = 316115,
+		icon = "lanrenshafatolicon",
+		comfortable = 3,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					8.5,
+					58
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316116] = {
+		can_rotate = 0,
+		describe = "어둠의 출생과 무슨 관계가 있는 것 같은 수수께끼의 장치……를 본뜬 장식용 소품이야!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 116,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "peiyangzhuangzhitolicon",
+		count = 1,
+		name = "배양 캡슐",
+		advice = 0,
+		id = 316116,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"peiyangzhuangzhitol",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[316117] = {
+		can_rotate = 0,
+		describe = "폭신하고 부드러워서 다들 즐겨 사용하는 소파.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/shafatol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 116,
+		count = 1,
+		name = "공주 소파",
+		advice = 0,
+		id = 316117,
+		icon = "shafatolicon",
+		comfortable = 3,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					27.2,
+					11.2
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316118] = {
+		can_rotate = 0,
+		describe = "누군가의 추억이 가득 담긴 장난감 선반",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/shuguitol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "추억의 장난감 선반",
+		advice = 0,
+		icon = "shuguitolicon",
+		id = 316118,
+		comfortable = 2,
+		size = {
+			3,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316119] = {
+		can_rotate = 0,
+		describe = "냄새를 맡으면 차분해지고… 무언가 잘못을 저지른 것 같은 기분이 드는 꽃.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/xianzhehuatol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "현자의 꽃",
+		advice = 0,
+		icon = "xianzhehuatolicon",
+		id = 316119,
+		comfortable = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316120] = {
+		can_rotate = 0,
+		describe = "물을 줄 필요는… 없겠지?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 116,
+		count = 1,
+		name = "레인 플라워",
+		advice = 0,
+		id = 316120,
+		icon = "yuhuatolicon",
+		comfortable = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yuhuatol",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[316121] = {
+		can_rotate = 0,
+		describe = "바닥 청소에 도움이 될 것 같기도 하고, 아닌 것 같기도 하고…",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 116,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "zhenkongjuntolicon",
+		count = 1,
+		name = "진공 아귀 군",
+		advice = 0,
+		id = 316121,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhenkongjuntol",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[316122] = {
+		can_rotate = 0,
+		describe = "라라의 애용품이 놓인 테이블",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/zhuozitol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "공주 테이블",
+		advice = 0,
+		icon = "zhuozitolicon",
+		id = 316122,
+		comfortable = 3,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316123] = {
+		can_rotate = 0,
+		describe = "어둠의 우주선을 본뜬 복제품",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 7,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 116,
+		count = 1,
+		name = "루나틱 호 모형",
+		advice = 0,
+		id = 316123,
+		icon = "lunadikehaotolicon",
+		comfortable = 4,
+		size = {
+			7,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lunadikehaotol",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[316301] = {
+		can_rotate = 0,
+		describe = "왕녀들의 소품이 놓여 있는 공간.",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/bikan1tol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "공주의 벽감 1",
+		advice = 0,
+		icon = "bikan1tolicon",
+		id = 316301,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316302] = {
+		can_rotate = 0,
+		describe = "왕녀들의 소품이 놓여 있는 공간.",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/bikan2tol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "공주의 벽감 2",
+		advice = 0,
+		icon = "bikan2tolicon",
+		id = 316302,
+		comfortable = 1,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316303] = {
+		can_rotate = 0,
+		describe = "라라 방에 있는 인테리어 소품. 색다른 느낌이지?",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/huashutol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "공주의 벽장식 1",
+		advice = 0,
+		icon = "huashutolicon",
+		id = 316303,
+		comfortable = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316304] = {
+		can_rotate = 0,
+		describe = "들어가기 전에 우선 노크부터!",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/lalamentol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "공주 도어 1",
+		advice = 0,
+		icon = "lalamentolicon",
+		id = 316304,
+		comfortable = 2,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316305] = {
+		can_rotate = 0,
+		describe = "들어가기 전에 우선 노크부터!",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/mentol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 2,
+		name = "공주 도어 2",
+		advice = 0,
+		icon = "mentol",
+		id = 316305,
+		comfortable = 2,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316306] = {
+		can_rotate = 0,
+		describe = "라라 방에 있는 인테리어 소품. 색다른 느낌이지?",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/lanbantol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "공주의 벽장식 2",
+		advice = 0,
+		icon = "lanbantolicon",
+		id = 316306,
+		comfortable = 0,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316307] = {
+		can_rotate = 0,
+		describe = "라라가 그린 이상한 그림",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/tuyatol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 3,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "공주의 그림",
+		advice = 0,
+		icon = "tuyatolicon",
+		id = 316307,
+		comfortable = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316308] = {
+		can_rotate = 0,
+		describe = "토끼…라고 해야 하나?",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/wanoutol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "외계 생물 벽장식",
+		advice = 0,
+		icon = "wanoutolicon",
+		id = 316308,
+		comfortable = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[316309] = {
+		can_rotate = 0,
+		describe = "이것도 모조품이겠지?",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "tol/xiaoanxinwutol",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 3,
+		themeId = 116,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "어둠의 소중한 것",
+		advice = 0,
+		icon = "xiaoanxinwutolicon",
+		id = 316309,
+		comfortable = 0,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	}

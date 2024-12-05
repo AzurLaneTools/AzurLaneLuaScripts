@@ -66,42 +66,46 @@ slot0.UpdateSwitchMapButtons = function(slot0)
 		end
 
 		slot3 = uv0[slot1 + 1]
+		slot4 = slot3:getMapType()
 
 		setActive(slot2:Find("Unselect"), slot3.id ~= uv1.id)
 		setActive(slot2:Find("Selected"), slot3.id == uv1.id)
-		setActive(slot2:Find("Tip"), false)
 
 		slot5 = nil
 
-		if slot3:getMapType() == Map.ACT_EXTRA then
+		if #(slot3:getConfig("map_name") or "") > 0 then
+			slot5 = i18n(slot6)
+		elseif slot4 == Map.ACT_EXTRA then
 			if slot3:getChapters()[1]:IsSpChapter() then
 				slot5 = i18n("levelscene_mapselect_sp")
-
-				setActive(slot2:Find("Tip"), slot3.id ~= uv1.id and getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip())
 			else
 				slot5 = i18n("levelscene_mapselect_ex")
 			end
 		else
-			slot7 = assert
-			slot8 = slot3.id % 10 == 1 or slot6 == 2
+			slot8 = assert
+			slot9 = slot3.id % 10 == 1 or slot7 == 2
 
-			slot7(slot8)
+			slot8(slot9)
 
-			slot5 = i18n("levelscene_mapselect_part" .. slot6)
+			slot5 = i18n("levelscene_mapselect_part" .. slot7)
+		end
+
+		if slot4 == Map.ACT_EXTRA and slot3:getChapters()[1]:IsSpChapter() then
+			setActive(slot2:Find("Tip"), slot3.id ~= uv1.id and getProxy(ChapterProxy):IsActivitySPChapterActive() and SettingsProxy.IsShowActivityMapSPTip())
 		end
 
 		setText(slot2:Find("Unselect/Text"), slot5)
 		setText(slot2:Find("Selected/Text"), slot5)
 
-		slot6, slot7 = slot3:isUnlock()
-		slot8 = getProxy(PlayerProxy):getRawData().id
-		slot9 = nil
+		slot7, slot8 = slot3:isUnlock()
+		slot9 = getProxy(PlayerProxy):getRawData().id
+		slot10 = nil
 
-		if slot6 then
-			slot9 = PlayerPrefs.GetInt("MapFirstUnlock" .. slot3.id .. "_" .. slot8, 0) == 0
+		if slot7 then
+			slot10 = PlayerPrefs.GetInt("MapFirstUnlock" .. slot3.id .. "_" .. slot9, 0) == 0
 		end
 
-		setActive(slot2:Find("Unselect/Lock"), not slot6 or slot9)
+		setActive(slot2:Find("Unselect/Lock"), not slot7 or slot10)
 		onButton(uv2, slot2, function ()
 			if uv0.id == uv1.id then
 				return

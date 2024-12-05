@@ -24,9 +24,7 @@ slot0.LoadHighLightArea = function(slot0, slot1)
 end
 
 slot0.LoadRes = function(slot0, slot1, slot2)
-	slot3 = ResourceMgr.Inst
-
-	slot3:getAssetAsync("guideitem/" .. slot1, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+	LoadAnyAsync("guideitem/" .. slot1, "", nil, function (slot0)
 		if IsNil(slot0) then
 			return
 		end
@@ -36,7 +34,7 @@ slot0.LoadRes = function(slot0, slot1, slot2)
 		if uv1 then
 			uv1(slot1)
 		end
-	end), true, true)
+	end)
 end
 
 slot0.Clear = function(slot0)
