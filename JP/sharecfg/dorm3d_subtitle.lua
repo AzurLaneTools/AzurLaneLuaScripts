@@ -38,11 +38,11 @@ pg.dorm3d_subtitle = {
 	},
 	[302] = {
 		id = 302,
-		subtitle = "$dorm3d…？"
+		subtitle = "$dorm3dもいたずらしたい時がありますよね"
 	},
 	[303] = {
 		id = 303,
-		subtitle = "$dorm3dもいたずらしたい時がありますよね"
+		subtitle = "$dorm3d…？"
 	},
 	[401] = {
 		id = 401,

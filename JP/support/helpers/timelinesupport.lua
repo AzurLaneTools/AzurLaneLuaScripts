@@ -51,16 +51,26 @@ slot0.InitSubtitle = function(slot0, slot1)
 
 	uv0.EachSubDirector(slot0, function (slot0, slot1)
 		if uv0.CheckTrackType(slot1, "Lens.Gameplay.Tools.SubtitleTrack") then
-			table.IpairsCArray(ReflectionHelp.RefCallMethod(typeof("Lens.Gameplay.Tools.SubtitleTrack"), "GetClips", slot1), function (slot0, slot1)
-				slot2 = ReflectionHelp.RefGetProperty(slot1:GetType(), "asset", slot1)
-				slot3 = ReflectionHelp.RefGetField(slot2:GetType(), "behaviour", slot2)
+			if EDITOR_TOOL then
+				Lens.Gameplay.Tools.SubtitleMixer.func = function(slot0)
+					if not tonumber(slot0) then
+						return slot0
+					end
 
-				if not tonumber(ReflectionHelp.RefGetField(slot3:GetType(), "subtitle", slot3)) then
-					return
+					return string.gsub(pg.dorm3d_subtitle[slot1].subtitle, "$dorm3d", uv0)
 				end
+			else
+				table.IpairsCArray(ReflectionHelp.RefCallMethod(typeof("Lens.Gameplay.Tools.SubtitleTrack"), "GetClips", slot1), function (slot0, slot1)
+					slot2 = ReflectionHelp.RefGetProperty(slot1:GetType(), "asset", slot1)
+					slot3 = ReflectionHelp.RefGetField(slot2:GetType(), "behaviour", slot2)
 
-				ReflectionHelp.RefSetField(slot3:GetType(), "subtitle", slot3, string.gsub(pg.dorm3d_subtitle[slot4].subtitle, "$dorm3d", uv0))
-			end)
+					if not tonumber(ReflectionHelp.RefGetField(slot3:GetType(), "subtitle", slot3)) then
+						return
+					end
+
+					ReflectionHelp.RefSetField(slot3:GetType(), "subtitle", slot3, string.gsub(pg.dorm3d_subtitle[slot4].subtitle, "$dorm3d", uv0))
+				end)
+			end
 		end
 	end)
 end

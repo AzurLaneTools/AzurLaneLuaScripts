@@ -7,6 +7,10 @@ slot0.TYPE_PAINTING = 8
 slot0.TYPE_CIPHER = 16
 
 slot0.Init = function(slot0, slot1)
+	slot0._gmtTimer = Timer.New(function ()
+		uv0:onTimer()
+	end, 1, -1)
+
 	if slot1 then
 		slot1()
 	end
@@ -30,8 +34,8 @@ slot0.initUI = function(slot0, slot1)
 	end
 end
 
-slot0.showGMT = function(slot0, slot1)
-	slot0._subTime = slot1 - pg.TimeMgr:GetInstance():GetServerTime()
+slot0.onTimer = function(slot0)
+	slot0._subTime = slot0._gmtTime - pg.TimeMgr:GetInstance():GetServerTime()
 
 	if slot0._go == nil then
 		slot0:initUI(function ()
@@ -40,13 +44,56 @@ slot0.showGMT = function(slot0, slot1)
 	else
 		slot0:showTip()
 	end
+
+	if slot0._subTime < 0 and slot0._gmtTimer.running then
+		slot0._gmtTimer:Stop()
+		slot0._go:SetActive(false)
+	end
+end
+
+slot0.showGMT = function(slot0, slot1)
+	slot2 = pg.gameset.maintenance_message.description
+	slot0._onceTime = Clone(slot2[1])
+	slot0._repeatTime = Clone(slot2[2])
+	slot0._gmtTime = slot1
+
+	if not slot0._gmtTimer.running then
+		slot0._gmtTimer:Start()
+	end
+
+	slot0.focusShowTip = true
+
+	slot0:onTimer()
 end
 
 slot0.showTip = function(slot0)
+	slot1 = false
+
+	if slot0.focusShowTip then
+		slot1 = true
+		slot0.focusShowTip = false
+	end
+
+	if slot0._subTime <= slot0._repeatTime then
+		slot1 = true
+	else
+		for slot5 = #slot0._onceTime, 1, -1 do
+			if slot0._subTime <= slot0._onceTime[slot5] then
+				table.remove(slot0._onceTime, slot5)
+
+				slot1 = true
+			end
+		end
+	end
+
+	if not slot1 then
+		return
+	end
+
 	slot0._go:SetActive(false)
 	slot0._go:SetActive(true)
 
-	if slot0._subTime >= 10 then
+	if slot0._repeatTime < slot0._subTime then
 		slot0._animator:SetTrigger("once")
 	elseif not slot0._triggerStop then
 		slot0._triggerStop = true
