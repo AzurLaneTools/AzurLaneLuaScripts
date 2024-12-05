@@ -32,6 +32,8 @@ end
 slot0.OnInit = function(slot0)
 	if getProxy(ActivityProxy):getActivityById(ActivityConst.TOLOVE_MINIGAME_TASK_ID) ~= nil and not slot1:isEnd() then
 		setActive(slot0.tipTr.gameObject, ToLoveCollabBackHillScene.IsShowMainTip())
+	else
+		setActive(slot0.tipTr.gameObject, false)
 	end
 end
 

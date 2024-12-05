@@ -1069,7 +1069,7 @@ slot0.SetBackgroundPanel = function(slot0, slot1)
 
 				LoadImageSpriteAsync("herohrzicon/" .. slot3.painting, slot2:Find("skinMask/skin"), false)
 				setScrollText(slot2:Find("skinMask/Panel/mask/Text"), slot3.name)
-				SetActive(slot2:Find("lockFrame"), slot3.skin_type ~= ShipSkin.SKIN_TYPE_DEFAULT and not getProxy(ShipSkinProxy):hasSkin(slot3.id))
+				SetActive(slot2:Find("lockFrame"), not (getProxy(ShipSkinProxy):hasSkin(slot3.id) or slot3.skin_type == ShipSkin.SKIN_TYPE_DEFAULT or slot3.skin_type == ShipSkin.SKIN_TYPE_PROPOSE or slot3.skin_type == ShipSkin.SKIN_TYPE_REMAKE))
 				SetActive(slot2:Find("selectedFrame"), uv0.skinId == slot4)
 				SetActive(slot2:Find("selected"), uv0.skinId == slot4)
 
@@ -1078,7 +1078,7 @@ slot0.SetBackgroundPanel = function(slot0, slot1)
 				end
 
 				onButton(uv2, slot2, function ()
-					if not uv0 then
+					if uv0 then
 						slot3 = "selectedFrame"
 
 						SetActive(uv1:Find(slot3), true)
