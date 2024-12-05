@@ -21511,7 +21511,6 @@ pg.activity_template = {
 	[5652] = {
 		mark = 20241114,
 		page_info = "",
-		time = "stop",
 		type = 68,
 		login_pop = 0,
 		config_id = 0,
@@ -21519,7 +21518,34 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 5652,
-		config_data = {}
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					11,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[5653] = {
 		mark = 20241114,
@@ -21903,7 +21929,7 @@ pg.activity_template = {
 				{
 					2024,
 					12,
-					25
+					4
 				},
 				{
 					23,
