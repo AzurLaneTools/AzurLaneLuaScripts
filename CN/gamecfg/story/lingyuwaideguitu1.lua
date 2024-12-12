@@ -360,7 +360,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "倒也什么，你就当讨个彩头好了？",
+			say = "倒也没什么，你就当讨个彩头好了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			oldPhoto = true,
-			say = "计划扔将按照原定方案推行。",
+			say = "计划仍将按照原定方案推行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
