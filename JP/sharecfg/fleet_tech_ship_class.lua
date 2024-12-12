@@ -3947,6 +3947,17 @@ pg.fleet_tech_ship_class = {
 			970704
 		}
 	},
+	[970705] = {
+		shiptype = 7,
+		name = "大鳳(META)",
+		t_level = 4,
+		id = 970705,
+		t_level_1 = 3,
+		nation = 97,
+		ships = {
+			970705
+		}
+	},
 	[970801] = {
 		shiptype = 8,
 		name = "U-556(META)",
@@ -4312,6 +4323,7 @@ pg.fleet_tech_ship_class = {
 		970702,
 		970703,
 		970704,
+		970705,
 		970801,
 		971201,
 		971301

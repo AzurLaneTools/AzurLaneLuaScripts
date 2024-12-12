@@ -1527,8 +1527,8 @@ pg.player_resource = {
 	},
 	[444] = {
 		id = 444,
-		name = "niudan_pt",
-		itemid = 86410
+		name = "blackfirday_pt20241212",
+		itemid = 65062
 	},
 	[950] = {
 		id = 950,
@@ -1765,6 +1765,11 @@ pg.player_resource = {
 		name = "synchronize_changmen",
 		itemid = 21916
 	},
+	[3018] = {
+		id = 3018,
+		name = "synchronize_dafeng",
+		itemid = 21917
+	},
 	[3106] = {
 		id = 3106,
 		name = "twhongran_pt",
@@ -1908,6 +1913,11 @@ pg.player_resource = {
 	[5653] = {
 		id = 5653,
 		name = "skin_rerun_pt_2024",
+		itemid = 0
+	},
+	[5704] = {
+		id = 5704,
+		name = "skin_rerun_pt_2024_cn",
 		itemid = 0
 	},
 	[100004] = {
@@ -2841,7 +2851,7 @@ pg.player_resource = {
 		skinTicket82 = {
 			443
 		},
-		niudan_pt = {
+		blackfirday_pt20241212 = {
 			444
 		},
 		yisegefuke_pt1 = {
@@ -2985,6 +2995,9 @@ pg.player_resource = {
 		synchronize_changmen = {
 			3017
 		},
+		synchronize_dafeng = {
+			3018
+		},
 		twhongran_pt = {
 			3106
 		},
@@ -3071,6 +3084,9 @@ pg.player_resource = {
 		},
 		skin_rerun_pt_2024 = {
 			5653
+		},
+		skin_rerun_pt_2024_cn = {
+			5704
 		},
 		skin_rerun_pt = {
 			100004
@@ -3436,6 +3452,7 @@ pg.player_resource = {
 		3015,
 		3016,
 		3017,
+		3018,
 		3106,
 		3137,
 		4001,
@@ -3465,6 +3482,7 @@ pg.player_resource = {
 		5081,
 		5082,
 		5653,
+		5704,
 		100004,
 		40275,
 		30853

@@ -14,6 +14,14 @@ slot0.OnLoaded = function(slot0)
 		slot0:findTF("pagefooter/gemShop"),
 		slot0:findTF("pagefooter/coinShop")
 	}
+
+	setText(slot0:findTF("pagefooter/coinShop/Text"), i18n("blackfriday_coinshop"))
+	setText(slot0:findTF("pagefooter/coinShop/mark"), i18n("blackfriday_coinshop"))
+	setText(slot0:findTF("pagefooter/gemShop/Text"), i18n("blackfriday_gemshop"))
+	setText(slot0:findTF("pagefooter/gemShop/mark"), i18n("blackfriday_gemshop"))
+	setText(slot0:findTF("pagefooter/ptShop/Text"), i18n("blackfriday_ptshop"))
+	setText(slot0:findTF("pagefooter/ptShop/mark"), i18n("blackfriday_ptshop"))
+
 	slot0.ress = {
 		slot0:findTF("res_pt/icon_pt"),
 		slot0:findTF("res_pt/icon_gem"),
@@ -187,7 +195,13 @@ slot0.SwitchTab = function(slot0, slot1)
 	setActive(slot0.resTF, true)
 	slot0:UpdateRes()
 
-	slot0.displays = slot0.shop:GetGoodsByTabs(slot1)
+	slot3 = slot0.shop:GetGoodsByTabs(slot1)
+
+	if slot0.shop:GetTabCount() <= 1 then
+		setActive(slot0:findTF("pagefooter"), false)
+	end
+
+	slot0.displays = slot3
 
 	table.sort(slot0.displays, function (slot0, slot1)
 		return slot0.id < slot1.id

@@ -477,6 +477,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「狐鳴けば鳳舞い、炎を浴びて生を授かる。命は変わろうと、想いは変わらず。」</color>「絳染む丹華の詠歌」に参加した指揮官に贈る",
 		scene = {}
 	},
+	[333] = {
+		name = "外なる星の光",
+		gain_by = "",
+		time_second = 0,
+		id = 333,
+		time_limit_type = 0,
+		desc = "今後開催のイベントにて入手可能",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂入り：エンタープライズ",
 		gain_by = "",
@@ -801,6 +810,7 @@ pg.item_data_frame = {
 		330,
 		331,
 		332,
+		333,
 		401,
 		402,
 		403,

@@ -332,7 +332,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "アルジェリー(META)",
 		boss_level_id = 151,
-		state = "stop",
+		state = "always",
 		item_id = 100000,
 		painting = "aerjiliya",
 		meta_id = 970302,
@@ -512,6 +512,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "長門(META)",
 		boss_level_id = 226,
+		state = "stop",
 		item_id = 100000,
 		painting = "changmen",
 		meta_id = 970506,
@@ -528,32 +529,6 @@ pg.world_joint_boss_template = {
 				"戦闘中、戦場に結界が出現し、<color=#92fc63>現在の戦場の「虧月」と「盈月」状態によって違う効果を発揮する</color>。\n「虧月」状態では、結界にいる味方艦船は耐久が減り続ける。\n「盈月」状態では、結界にいる味方艦船が敵から受けるダメージを軽減する。"
 			}
 		},
-		state = {
-			{
-				{
-					2024,
-					9,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		p_offset = {
 			-50,
 			680,
@@ -565,6 +540,64 @@ pg.world_joint_boss_template = {
 			620,
 			1,
 			1
+		}
+	},
+	{
+		name = "大鳳(META)",
+		boss_level_id = 241,
+		item_id = 100000,
+		painting = "dafeng",
+		meta_id = 970705,
+		id = 17,
+		description = {
+			{
+				"彼岸の境界",
+				2,
+				"大鳳(META)が<color=#92fc63>1度の戦闘で耐久上限の50％を失った</color>場合、戦場に特殊領域を展開する。\n領域内にいる大鳳(META)と大鳳(META)の召喚物が与えるダメージが20%アップするが、味方が受ける<color=#92fc63>回復効果がダメージ効果になる</color>。\n特殊領域が展開されている限り、味方艦船が戦闘不能になる度に、大鳳(META)が与えるダメージが上昇する。"
+			},
+			{
+				"百鬼ノ影",
+				1,
+				"戦闘中、大鳳(META)は一定の間隔で「幻形ノ影」を召喚し戦闘に参加させる、<color=#92fc63>「幻形ノ影」にダメージを与えた場合、大鳳(META)にも同等のダメージを与える</color>。\n「幻形ノ影」は一定時間後に戦場から消滅する。"
+			}
+		},
+		state = {
+			{
+				{
+					2024,
+					12,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			-168,
+			566,
+			0.9,
+			0.9
+		},
+		p_offset_other = {
+			485,
+			585,
+			0.9,
+			0.9
 		}
 	},
 	all = {
@@ -583,6 +616,7 @@ pg.world_joint_boss_template = {
 		13,
 		14,
 		15,
-		16
+		16,
+		17
 	}
 }

@@ -6359,6 +6359,11 @@ _G.pg.base.gametip.quota_shop_limit_error = {
 }
 
 
+_G.pg.base.gametip.item_assigned_type_limit_error = {
+	tip = "すでに所持数上限に達しているため交換できません"
+}
+
+
 _G.pg.base.gametip.event_start_success = {
 	tip = "委託開始"
 }
