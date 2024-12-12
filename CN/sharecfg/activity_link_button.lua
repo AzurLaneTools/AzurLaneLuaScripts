@@ -242,7 +242,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5650
+			5702
 		},
 		param = {
 			"BlackFridaySales"

@@ -5751,6 +5751,17 @@ temp = function()
 					}
 				}
 			}
+		},
+		["·"] = {
+			M = {
+				E = {
+					T = {
+						A = {
+							this = true
+						}
+					}
+				}
+			}
 		}
 	}
 end

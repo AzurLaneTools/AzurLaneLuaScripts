@@ -121,6 +121,9 @@ slot0.update = function(slot0, slot1)
 				if slot0 then
 					uv0.selectedIndex = uv1
 					uv0.selectedItem = uv2
+				elseif uv0.selectedIndex == uv1 then
+					uv0.selectedIndex = nil
+					uv0.selectedItem = nil
 				end
 			end, SFX_PANEL)
 			setScrollText(slot2:Find("name_bg/Text"), uv0.displayDrops[slot1]:getConfig("name"))

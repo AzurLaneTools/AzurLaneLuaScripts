@@ -14,6 +14,9 @@ slot2 = function(slot0)
 				setActive(slot0.empty, true)
 
 				return
+			else
+				setActive(slot0.info, true)
+				setActive(slot0.empty, false)
 			end
 
 			LoadImageSpriteAsync("combatuistyle/" .. slot1:getConfig("icon"), slot0.icon, true)

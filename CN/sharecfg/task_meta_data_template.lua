@@ -267,6 +267,11 @@ pg.task_meta_data_template = setmetatable({
 		100353,
 		100354,
 		100355,
+		100361,
+		100362,
+		100363,
+		100364,
+		100365,
 		200001,
 		200002,
 		200003,
@@ -370,7 +375,11 @@ pg.task_meta_data_template = setmetatable({
 		200261,
 		200262,
 		200263,
-		200264
+		200264,
+		200271,
+		200272,
+		200273,
+		200274
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -477,7 +486,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970702",
 		id = 106,
 		target_num = 1,
-		desc = "使用皇家方舟.META获得1次胜利"
+		desc = "使用皇家方舟·META获得1次胜利"
 	},
 	[107] = {
 		target_id = "30",
@@ -485,7 +494,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970702",
 		id = 107,
 		target_num = 1,
-		desc = "使用皇家方舟.META击破等级>30的敌方1次"
+		desc = "使用皇家方舟·META击破等级>30的敌方1次"
 	},
 	[108] = {
 		target_id = "55",
@@ -493,7 +502,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970702",
 		id = 108,
 		target_num = 1,
-		desc = "使用皇家方舟.META击破等级>55的敌方1次"
+		desc = "使用皇家方舟·META击破等级>55的敌方1次"
 	},
 	[109] = {
 		target_id = "80",
@@ -501,7 +510,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970702",
 		id = 109,
 		target_num = 1,
-		desc = "使用皇家方舟.META击破等级>80的敌方1次"
+		desc = "使用皇家方舟·META击破等级>80的敌方1次"
 	},
 	[110] = {
 		target_id = "100",
@@ -509,7 +518,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970702",
 		id = 110,
 		target_num = 1,
-		desc = "使用皇家方舟.META击破等级>100的敌方1次"
+		desc = "使用皇家方舟·META击破等级>100的敌方1次"
 	},
 	[111] = {
 		target_id = "0",
@@ -517,7 +526,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970201",
 		id = 111,
 		target_num = 1,
-		desc = "使用海伦娜.META获得1次胜利"
+		desc = "使用海伦娜·META获得1次胜利"
 	},
 	[112] = {
 		target_id = "30",
@@ -525,7 +534,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970201",
 		id = 112,
 		target_num = 1,
-		desc = "使用海伦娜.META击破等级>30的敌方1次"
+		desc = "使用海伦娜·META击破等级>30的敌方1次"
 	},
 	[113] = {
 		target_id = "55",
@@ -533,7 +542,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970201",
 		id = 113,
 		target_num = 1,
-		desc = "使用海伦娜.META击破等级>55的敌方1次"
+		desc = "使用海伦娜·META击破等级>55的敌方1次"
 	},
 	[114] = {
 		target_id = "80",
@@ -541,7 +550,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970201",
 		id = 114,
 		target_num = 1,
-		desc = "使用海伦娜.META击破等级>80的敌方1次"
+		desc = "使用海伦娜·META击破等级>80的敌方1次"
 	},
 	[115] = {
 		target_id = "100",
@@ -549,7 +558,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970201",
 		id = 115,
 		target_num = 1,
-		desc = "使用海伦娜.META击破等级>100的敌方1次"
+		desc = "使用海伦娜·META击破等级>100的敌方1次"
 	},
 	[116] = {
 		target_id = "0",
@@ -837,7 +846,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970202",
 		id = 151,
 		target_num = 1,
-		desc = "使用孟菲斯.META获得1次胜利"
+		desc = "使用孟菲斯·META获得1次胜利"
 	},
 	[152] = {
 		target_id = "30",
@@ -845,7 +854,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970202",
 		id = 152,
 		target_num = 1,
-		desc = "使用孟菲斯.META击破等级>30的敌方1次"
+		desc = "使用孟菲斯·META击破等级>30的敌方1次"
 	},
 	[153] = {
 		target_id = "55",
@@ -853,7 +862,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970202",
 		id = 153,
 		target_num = 1,
-		desc = "使用孟菲斯.META击破等级>55的敌方1次"
+		desc = "使用孟菲斯·META击破等级>55的敌方1次"
 	},
 	[154] = {
 		target_id = "80",
@@ -861,7 +870,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970202",
 		id = 154,
 		target_num = 1,
-		desc = "使用孟菲斯.META击破等级>80的敌方1次"
+		desc = "使用孟菲斯·META击破等级>80的敌方1次"
 	},
 	[155] = {
 		target_id = "100",
@@ -869,7 +878,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970202",
 		id = 155,
 		target_num = 1,
-		desc = "使用孟菲斯.META击破等级>100的敌方1次"
+		desc = "使用孟菲斯·META击破等级>100的敌方1次"
 	},
 	[156] = {
 		target_id = "0",
@@ -877,7 +886,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970403",
 		id = 156,
 		target_num = 1,
-		desc = "使用反击.META获得1次胜利"
+		desc = "使用反击·META获得1次胜利"
 	},
 	[157] = {
 		target_id = "30",
@@ -885,7 +894,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970403",
 		id = 157,
 		target_num = 1,
-		desc = "使用反击.META击破等级>30的敌方1次"
+		desc = "使用反击·META击破等级>30的敌方1次"
 	},
 	[158] = {
 		target_id = "55",
@@ -893,7 +902,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970403",
 		id = 158,
 		target_num = 1,
-		desc = "使用反击.META击破等级>55的敌方1次"
+		desc = "使用反击·META击破等级>55的敌方1次"
 	},
 	[159] = {
 		target_id = "80",
@@ -901,7 +910,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970403",
 		id = 159,
 		target_num = 1,
-		desc = "使用反击.META击破等级>80的敌方1次"
+		desc = "使用反击·META击破等级>80的敌方1次"
 	},
 	[160] = {
 		target_id = "100",
@@ -909,7 +918,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970403",
 		id = 160,
 		target_num = 1,
-		desc = "使用反击.META击破等级>100的敌方1次"
+		desc = "使用反击·META击破等级>100的敌方1次"
 	},
 	[161] = {
 		target_id = "0",
@@ -917,7 +926,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970301",
 		id = 161,
 		target_num = 1,
-		desc = "使用特伦托.META获得1次胜利"
+		desc = "使用特伦托·META获得1次胜利"
 	},
 	[162] = {
 		target_id = "30",
@@ -925,7 +934,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970301",
 		id = 162,
 		target_num = 1,
-		desc = "使用特伦托.META击破等级>30的敌方1次"
+		desc = "使用特伦托·META击破等级>30的敌方1次"
 	},
 	[163] = {
 		target_id = "55",
@@ -933,7 +942,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970301",
 		id = 163,
 		target_num = 1,
-		desc = "使用特伦托.META击破等级>55的敌方1次"
+		desc = "使用特伦托·META击破等级>55的敌方1次"
 	},
 	[164] = {
 		target_id = "80",
@@ -941,7 +950,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970301",
 		id = 164,
 		target_num = 1,
-		desc = "使用特伦托.META击破等级>80的敌方1次"
+		desc = "使用特伦托·META击破等级>80的敌方1次"
 	},
 	[165] = {
 		target_id = "100",
@@ -949,7 +958,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970301",
 		id = 165,
 		target_num = 1,
-		desc = "使用特伦托.META击破等级>100的敌方1次"
+		desc = "使用特伦托·META击破等级>100的敌方1次"
 	},
 	[166] = {
 		target_id = "0",
@@ -957,7 +966,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970404",
 		id = 166,
 		target_num = 1,
-		desc = "使用声望.META获得1次胜利"
+		desc = "使用声望·META获得1次胜利"
 	},
 	[167] = {
 		target_id = "30",
@@ -965,7 +974,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970404",
 		id = 167,
 		target_num = 1,
-		desc = "使用声望.META击破等级>30的敌方1次"
+		desc = "使用声望·META击破等级>30的敌方1次"
 	},
 	[168] = {
 		target_id = "55",
@@ -973,7 +982,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970404",
 		id = 168,
 		target_num = 1,
-		desc = "使用声望.META击破等级>55的敌方1次"
+		desc = "使用声望·META击破等级>55的敌方1次"
 	},
 	[169] = {
 		target_id = "80",
@@ -981,7 +990,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970404",
 		id = 169,
 		target_num = 1,
-		desc = "使用声望.META击破等级>80的敌方1次"
+		desc = "使用声望·META击破等级>80的敌方1次"
 	},
 	[170] = {
 		target_id = "100",
@@ -989,7 +998,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970404",
 		id = 170,
 		target_num = 1,
-		desc = "使用声望.META击破等级>100的敌方1次"
+		desc = "使用声望·META击破等级>100的敌方1次"
 	},
 	[200] = {
 		target_id = "0",
@@ -1029,7 +1038,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970702",
 		id = 204,
 		target_num = 1,
-		desc = "大型作战内使用皇家方舟.META获得1次胜利"
+		desc = "大型作战内使用皇家方舟·META获得1次胜利"
 	},
 	[205] = {
 		target_id = "70",
@@ -1037,7 +1046,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970702",
 		id = 205,
 		target_num = 1,
-		desc = "大型作战内使用皇家方舟.META击破等级>70的敌方1次"
+		desc = "大型作战内使用皇家方舟·META击破等级>70的敌方1次"
 	},
 	[206] = {
 		target_id = "90",
@@ -1045,7 +1054,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970702",
 		id = 206,
 		target_num = 1,
-		desc = "大型作战内使用皇家方舟.META击破等级>90的敌方1次"
+		desc = "大型作战内使用皇家方舟·META击破等级>90的敌方1次"
 	},
 	[207] = {
 		target_id = "100",
@@ -1053,7 +1062,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970702",
 		id = 207,
 		target_num = 1,
-		desc = "大型作战内使用皇家方舟.META击破等级>100的敌方1次"
+		desc = "大型作战内使用皇家方舟·META击破等级>100的敌方1次"
 	},
 	[208] = {
 		target_id = "0",
@@ -1061,7 +1070,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970201",
 		id = 208,
 		target_num = 1,
-		desc = "大型作战内使用海伦娜.META获得1次胜利"
+		desc = "大型作战内使用海伦娜·META获得1次胜利"
 	},
 	[209] = {
 		target_id = "70",
@@ -1069,7 +1078,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970201",
 		id = 209,
 		target_num = 1,
-		desc = "大型作战内使用海伦娜.META击破等级>70的敌方1次"
+		desc = "大型作战内使用海伦娜·META击破等级>70的敌方1次"
 	},
 	[210] = {
 		target_id = "90",
@@ -1077,7 +1086,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970201",
 		id = 210,
 		target_num = 1,
-		desc = "大型作战内使用海伦娜.META击破等级>90的敌方1次"
+		desc = "大型作战内使用海伦娜·META击破等级>90的敌方1次"
 	},
 	[211] = {
 		target_id = "100",
@@ -1085,7 +1094,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970201",
 		id = 211,
 		target_num = 1,
-		desc = "大型作战内使用海伦娜.META击破等级>100的敌方1次"
+		desc = "大型作战内使用海伦娜·META击破等级>100的敌方1次"
 	},
 	[212] = {
 		target_id = "0",
@@ -1317,7 +1326,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970202",
 		id = 240,
 		target_num = 1,
-		desc = "大型作战内使用孟菲斯.META获得1次胜利"
+		desc = "大型作战内使用孟菲斯·META获得1次胜利"
 	},
 	[241] = {
 		target_id = "70",
@@ -1325,7 +1334,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970202",
 		id = 241,
 		target_num = 1,
-		desc = "大型作战内使用孟菲斯.META击破等级>70的敌方1次"
+		desc = "大型作战内使用孟菲斯·META击破等级>70的敌方1次"
 	},
 	[242] = {
 		target_id = "90",
@@ -1333,7 +1342,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970202",
 		id = 242,
 		target_num = 1,
-		desc = "大型作战内使用孟菲斯.META击破等级>90的敌方1次"
+		desc = "大型作战内使用孟菲斯·META击破等级>90的敌方1次"
 	},
 	[243] = {
 		target_id = "100",
@@ -1341,7 +1350,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970202",
 		id = 243,
 		target_num = 1,
-		desc = "大型作战内使用孟菲斯.META击破等级>100的敌方1次"
+		desc = "大型作战内使用孟菲斯·META击破等级>100的敌方1次"
 	},
 	[244] = {
 		target_id = "0",
@@ -1349,7 +1358,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970403",
 		id = 244,
 		target_num = 1,
-		desc = "大型作战内使用反击.META获得1次胜利"
+		desc = "大型作战内使用反击·META获得1次胜利"
 	},
 	[245] = {
 		target_id = "70",
@@ -1357,7 +1366,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970403",
 		id = 245,
 		target_num = 1,
-		desc = "大型作战内使用反击.META击破等级>70的敌方1次"
+		desc = "大型作战内使用反击·META击破等级>70的敌方1次"
 	},
 	[246] = {
 		target_id = "90",
@@ -1365,7 +1374,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970403",
 		id = 246,
 		target_num = 1,
-		desc = "大型作战内使用反击.META击破等级>90的敌方1次"
+		desc = "大型作战内使用反击·META击破等级>90的敌方1次"
 	},
 	[247] = {
 		target_id = "100",
@@ -1373,7 +1382,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970403",
 		id = 247,
 		target_num = 1,
-		desc = "大型作战内使用反击.META击破等级>100的敌方1次"
+		desc = "大型作战内使用反击·META击破等级>100的敌方1次"
 	},
 	[248] = {
 		target_id = "0",
@@ -1381,7 +1390,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970301",
 		id = 248,
 		target_num = 1,
-		desc = "大型作战内使用特伦托.META获得1次胜利"
+		desc = "大型作战内使用特伦托·META获得1次胜利"
 	},
 	[249] = {
 		target_id = "70",
@@ -1389,7 +1398,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970301",
 		id = 249,
 		target_num = 1,
-		desc = "大型作战内使用特伦托.META击破等级>70的敌方1次"
+		desc = "大型作战内使用特伦托·META击破等级>70的敌方1次"
 	},
 	[250] = {
 		target_id = "90",
@@ -1397,7 +1406,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970301",
 		id = 250,
 		target_num = 1,
-		desc = "大型作战内使用特伦托.META击破等级>90的敌方1次"
+		desc = "大型作战内使用特伦托·META击破等级>90的敌方1次"
 	},
 	[251] = {
 		target_id = "100",
@@ -1405,7 +1414,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970301",
 		id = 251,
 		target_num = 1,
-		desc = "大型作战内使用特伦托.META击破等级>100的敌方1次"
+		desc = "大型作战内使用特伦托·META击破等级>100的敌方1次"
 	},
 	[252] = {
 		target_id = "0",
@@ -1413,7 +1422,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970404",
 		id = 252,
 		target_num = 1,
-		desc = "大型作战内使用声望.META获得1次胜利"
+		desc = "大型作战内使用声望·META获得1次胜利"
 	},
 	[253] = {
 		target_id = "70",
@@ -1421,7 +1430,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970404",
 		id = 253,
 		target_num = 1,
-		desc = "大型作战内使用声望.META击破等级>70的敌方1次"
+		desc = "大型作战内使用声望·META击破等级>70的敌方1次"
 	},
 	[254] = {
 		target_id = "90",
@@ -1429,7 +1438,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970404",
 		id = 254,
 		target_num = 1,
-		desc = "大型作战内使用声望.META击破等级>90的敌方1次"
+		desc = "大型作战内使用声望·META击破等级>90的敌方1次"
 	},
 	[255] = {
 		target_id = "100",
@@ -1437,7 +1446,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970404",
 		id = 255,
 		target_num = 1,
-		desc = "大型作战内使用声望.META击破等级>100的敌方1次"
+		desc = "大型作战内使用声望·META击破等级>100的敌方1次"
 	},
 	[301] = {
 		target_id = "0",
@@ -1461,7 +1470,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970101",
 		id = 100001,
 		target_num = 1,
-		desc = "使用猎人.META获得1次胜利"
+		desc = "使用猎人·META获得1次胜利"
 	},
 	[100002] = {
 		target_id = "30",
@@ -1469,7 +1478,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970101",
 		id = 100002,
 		target_num = 1,
-		desc = "使用猎人.META击破等级>30的敌方1次"
+		desc = "使用猎人·META击破等级>30的敌方1次"
 	},
 	[100003] = {
 		target_id = "55",
@@ -1477,7 +1486,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970101",
 		id = 100003,
 		target_num = 1,
-		desc = "使用猎人.META击破等级>55的敌方1次"
+		desc = "使用猎人·META击破等级>55的敌方1次"
 	},
 	[100004] = {
 		target_id = "80",
@@ -1485,7 +1494,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970101",
 		id = 100004,
 		target_num = 1,
-		desc = "使用猎人.META击破等级>80的敌方1次"
+		desc = "使用猎人·META击破等级>80的敌方1次"
 	},
 	[100005] = {
 		target_id = "100",
@@ -1493,7 +1502,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970101",
 		id = 100005,
 		target_num = 1,
-		desc = "使用猎人.META击破等级>100的敌方1次"
+		desc = "使用猎人·META击破等级>100的敌方1次"
 	},
 	[100021] = {
 		target_id = "0",
@@ -1501,7 +1510,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970102",
 		id = 100021,
 		target_num = 1,
-		desc = "使用命运女神.META获得1次胜利"
+		desc = "使用命运女神·META获得1次胜利"
 	},
 	[100022] = {
 		target_id = "30",
@@ -1509,7 +1518,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970102",
 		id = 100022,
 		target_num = 1,
-		desc = "使用命运女神.META击破等级>30的敌方1次"
+		desc = "使用命运女神·META击破等级>30的敌方1次"
 	},
 	[100023] = {
 		target_id = "55",
@@ -1517,7 +1526,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970102",
 		id = 100023,
 		target_num = 1,
-		desc = "使用命运女神.META击破等级>55的敌方1次"
+		desc = "使用命运女神·META击破等级>55的敌方1次"
 	},
 	[100024] = {
 		target_id = "80",
@@ -1525,7 +1534,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970102",
 		id = 100024,
 		target_num = 1,
-		desc = "使用命运女神.META击破等级>80的敌方1次"
+		desc = "使用命运女神·META击破等级>80的敌方1次"
 	},
 	[100025] = {
 		target_id = "100",
@@ -1533,7 +1542,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970102",
 		id = 100025,
 		target_num = 1,
-		desc = "使用命运女神.META击破等级>100的敌方1次"
+		desc = "使用命运女神·META击破等级>100的敌方1次"
 	},
 	[100031] = {
 		target_id = "0",
@@ -1541,7 +1550,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970503",
 		id = 100031,
 		target_num = 1,
-		desc = "使用亚利桑那.META获得1次胜利"
+		desc = "使用亚利桑那·META获得1次胜利"
 	},
 	[100032] = {
 		target_id = "30",
@@ -1549,7 +1558,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970503",
 		id = 100032,
 		target_num = 1,
-		desc = "使用亚利桑那.META击破等级>30的敌方1次"
+		desc = "使用亚利桑那·META击破等级>30的敌方1次"
 	},
 	[100033] = {
 		target_id = "55",
@@ -1557,7 +1566,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970503",
 		id = 100033,
 		target_num = 1,
-		desc = "使用亚利桑那.META击破等级>55的敌方1次"
+		desc = "使用亚利桑那·META击破等级>55的敌方1次"
 	},
 	[100034] = {
 		target_id = "80",
@@ -1565,7 +1574,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970503",
 		id = 100034,
 		target_num = 1,
-		desc = "使用亚利桑那.META击破等级>80的敌方1次"
+		desc = "使用亚利桑那·META击破等级>80的敌方1次"
 	},
 	[100035] = {
 		target_id = "100",
@@ -1573,7 +1582,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970503",
 		id = 100035,
 		target_num = 1,
-		desc = "使用亚利桑那.META击破等级>100的敌方1次"
+		desc = "使用亚利桑那·META击破等级>100的敌方1次"
 	},
 	[100041] = {
 		target_id = "0",
@@ -1581,7 +1590,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970203",
 		id = 100041,
 		target_num = 1,
-		desc = "使用谢菲尔德.META获得1次胜利"
+		desc = "使用谢菲尔德·META获得1次胜利"
 	},
 	[100042] = {
 		target_id = "30",
@@ -1589,7 +1598,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970203",
 		id = 100042,
 		target_num = 1,
-		desc = "使用谢菲尔德.META击破等级>30的敌方1次"
+		desc = "使用谢菲尔德·META击破等级>30的敌方1次"
 	},
 	[100043] = {
 		target_id = "55",
@@ -1597,7 +1606,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970203",
 		id = 100043,
 		target_num = 1,
-		desc = "使用谢菲尔德.META击破等级>55的敌方1次"
+		desc = "使用谢菲尔德·META击破等级>55的敌方1次"
 	},
 	[100044] = {
 		target_id = "80",
@@ -1605,7 +1614,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970203",
 		id = 100044,
 		target_num = 1,
-		desc = "使用谢菲尔德.META击破等级>80的敌方1次"
+		desc = "使用谢菲尔德·META击破等级>80的敌方1次"
 	},
 	[100045] = {
 		target_id = "100",
@@ -1613,7 +1622,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970203",
 		id = 100045,
 		target_num = 1,
-		desc = "使用谢菲尔德.META击破等级>100的敌方1次"
+		desc = "使用谢菲尔德·META击破等级>100的敌方1次"
 	},
 	[100051] = {
 		target_id = "0",
@@ -1621,7 +1630,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970504",
 		id = 100051,
 		target_num = 1,
-		desc = "使用伊丽莎白女王.META获得1次胜利"
+		desc = "使用伊丽莎白女王·META获得1次胜利"
 	},
 	[100052] = {
 		target_id = "30",
@@ -1629,7 +1638,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970504",
 		id = 100052,
 		target_num = 1,
-		desc = "使用伊丽莎白女王.META击破等级>30的敌方1次"
+		desc = "使用伊丽莎白女王·META击破等级>30的敌方1次"
 	},
 	[100053] = {
 		target_id = "55",
@@ -1637,7 +1646,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970504",
 		id = 100053,
 		target_num = 1,
-		desc = "使用伊丽莎白女王.META击破等级>55的敌方1次"
+		desc = "使用伊丽莎白女王·META击破等级>55的敌方1次"
 	},
 	[100054] = {
 		target_id = "80",
@@ -1645,7 +1654,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970504",
 		id = 100054,
 		target_num = 1,
-		desc = "使用伊丽莎白女王.META击破等级>80的敌方1次"
+		desc = "使用伊丽莎白女王·META击破等级>80的敌方1次"
 	},
 	[100055] = {
 		target_id = "100",
@@ -1653,7 +1662,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970504",
 		id = 100055,
 		target_num = 1,
-		desc = "使用伊丽莎白女王.META击破等级>100的敌方1次"
+		desc = "使用伊丽莎白女王·META击破等级>100的敌方1次"
 	},
 	[100061] = {
 		target_id = "0",
@@ -1661,7 +1670,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970204",
 		id = 100061,
 		target_num = 1,
-		desc = "使用拉·加利索尼埃.META获得1次胜利"
+		desc = "使用拉·加利索尼埃·META获得1次胜利"
 	},
 	[100062] = {
 		target_id = "30",
@@ -1669,7 +1678,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970204",
 		id = 100062,
 		target_num = 1,
-		desc = "使用拉·加利索尼埃.META击破等级>30的敌方1次"
+		desc = "使用拉·加利索尼埃·META击破等级>30的敌方1次"
 	},
 	[100063] = {
 		target_id = "55",
@@ -1677,7 +1686,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970204",
 		id = 100063,
 		target_num = 1,
-		desc = "使用拉·加利索尼埃.META击破等级>55的敌方1次"
+		desc = "使用拉·加利索尼埃·META击破等级>55的敌方1次"
 	},
 	[100064] = {
 		target_id = "80",
@@ -1685,7 +1694,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970204",
 		id = 100064,
 		target_num = 1,
-		desc = "使用拉·加利索尼埃.META击破等级>80的敌方1次"
+		desc = "使用拉·加利索尼埃·META击破等级>80的敌方1次"
 	},
 	[100065] = {
 		target_id = "100",
@@ -1693,7 +1702,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970204",
 		id = 100065,
 		target_num = 1,
-		desc = "使用拉·加利索尼埃.META击破等级>100的敌方1次"
+		desc = "使用拉·加利索尼埃·META击破等级>100的敌方1次"
 	},
 	[100071] = {
 		target_id = "0",
@@ -1701,7 +1710,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970801",
 		id = 100071,
 		target_num = 1,
-		desc = "使用U-556.META获得1次胜利"
+		desc = "使用U-556·META获得1次胜利"
 	},
 	[100072] = {
 		target_id = "30",
@@ -1709,7 +1718,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970801",
 		id = 100072,
 		target_num = 1,
-		desc = "使用U-556.META击破等级>30的敌方1次"
+		desc = "使用U-556·META击破等级>30的敌方1次"
 	},
 	[100073] = {
 		target_id = "55",
@@ -1717,7 +1726,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970801",
 		id = 100073,
 		target_num = 1,
-		desc = "使用U-556.META击破等级>55的敌方1次"
+		desc = "使用U-556·META击破等级>55的敌方1次"
 	},
 	[100074] = {
 		target_id = "80",
@@ -1725,7 +1734,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970801",
 		id = 100074,
 		target_num = 1,
-		desc = "使用U-556.META击破等级>80的敌方1次"
+		desc = "使用U-556·META击破等级>80的敌方1次"
 	},
 	[100075] = {
 		target_id = "100",
@@ -1733,7 +1742,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970801",
 		id = 100075,
 		target_num = 1,
-		desc = "使用U-556.META击破等级>100的敌方1次"
+		desc = "使用U-556·META击破等级>100的敌方1次"
 	},
 	[100081] = {
 		target_id = "0",
@@ -1741,7 +1750,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "971201",
 		id = 100081,
 		target_num = 1,
-		desc = "使用女灶神.META获得1次胜利"
+		desc = "使用女灶神·META获得1次胜利"
 	},
 	[100082] = {
 		target_id = "30",
@@ -1749,7 +1758,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "971201",
 		id = 100082,
 		target_num = 1,
-		desc = "使用女灶神.META击破等级>30的敌方1次"
+		desc = "使用女灶神·META击破等级>30的敌方1次"
 	},
 	[100083] = {
 		target_id = "55",
@@ -1757,7 +1766,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "971201",
 		id = 100083,
 		target_num = 1,
-		desc = "使用女灶神.META击破等级>55的敌方1次"
+		desc = "使用女灶神·META击破等级>55的敌方1次"
 	},
 	[100084] = {
 		target_id = "80",
@@ -1765,7 +1774,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "971201",
 		id = 100084,
 		target_num = 1,
-		desc = "使用女灶神.META击破等级>80的敌方1次"
+		desc = "使用女灶神·META击破等级>80的敌方1次"
 	},
 	[100085] = {
 		target_id = "100",
@@ -1773,7 +1782,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "971201",
 		id = 100085,
 		target_num = 1,
-		desc = "使用女灶神.META击破等级>100的敌方1次"
+		desc = "使用女灶神·META击破等级>100的敌方1次"
 	},
 	[100091] = {
 		target_id = "0",
@@ -2495,13 +2504,53 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "使用朱利奥·凯撒·META击破等级＞100的敌方1次"
 	},
+	[100361] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970705",
+		id = 100361,
+		target_num = 1,
+		desc = "使用{namecode:238}获得1次胜利"
+	},
+	[100362] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970705",
+		id = 100362,
+		target_num = 1,
+		desc = "使用{namecode:238}击破等级＞30的敌方1次"
+	},
+	[100363] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970705",
+		id = 100363,
+		target_num = 1,
+		desc = "使用{namecode:238}击破等级＞55的敌方1次"
+	},
+	[100364] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970705",
+		id = 100364,
+		target_num = 1,
+		desc = "使用{namecode:238}击破等级＞80的敌方1次"
+	},
+	[100365] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970705",
+		id = 100365,
+		target_num = 1,
+		desc = "使用{namecode:238}击破等级＞100的敌方1次"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
 		target_id_2 = "970101",
 		id = 200001,
 		target_num = 1,
-		desc = "大型作战内使用猎人.META获得1次胜利"
+		desc = "大型作战内使用猎人·META获得1次胜利"
 	},
 	[200002] = {
 		target_id = "70",
@@ -2509,7 +2558,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970101",
 		id = 200002,
 		target_num = 1,
-		desc = "大型作战内使用猎人.META击破等级>70的敌方1次"
+		desc = "大型作战内使用猎人·META击破等级>70的敌方1次"
 	},
 	[200003] = {
 		target_id = "90",
@@ -2517,7 +2566,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970101",
 		id = 200003,
 		target_num = 1,
-		desc = "大型作战内使用猎人.META击破等级>90的敌方1次"
+		desc = "大型作战内使用猎人·META击破等级>90的敌方1次"
 	},
 	[200004] = {
 		target_id = "100",
@@ -2525,7 +2574,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970101",
 		id = 200004,
 		target_num = 1,
-		desc = "大型作战内使用猎人.META击破等级>100的敌方1次"
+		desc = "大型作战内使用猎人·META击破等级>100的敌方1次"
 	},
 	[200021] = {
 		target_id = "0",
@@ -2533,7 +2582,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970102",
 		id = 200021,
 		target_num = 1,
-		desc = "大型作战内使用命运女神.META获得1次胜利"
+		desc = "大型作战内使用命运女神·META获得1次胜利"
 	},
 	[200022] = {
 		target_id = "70",
@@ -2541,7 +2590,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970102",
 		id = 200022,
 		target_num = 1,
-		desc = "大型作战内使用命运女神.META击破等级>70的敌方1次"
+		desc = "大型作战内使用命运女神·META击破等级>70的敌方1次"
 	},
 	[200023] = {
 		target_id = "90",
@@ -2549,7 +2598,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970102",
 		id = 200023,
 		target_num = 1,
-		desc = "大型作战内使用命运女神.META击破等级>90的敌方1次"
+		desc = "大型作战内使用命运女神·META击破等级>90的敌方1次"
 	},
 	[200024] = {
 		target_id = "100",
@@ -2557,7 +2606,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970102",
 		id = 200024,
 		target_num = 1,
-		desc = "大型作战内使用命运女神.META击破等级>100的敌方1次"
+		desc = "大型作战内使用命运女神·META击破等级>100的敌方1次"
 	},
 	[200031] = {
 		target_id = "0",
@@ -2565,7 +2614,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970503",
 		id = 200031,
 		target_num = 1,
-		desc = "大型作战内使用亚利桑那.META获得1次胜利"
+		desc = "大型作战内使用亚利桑那·META获得1次胜利"
 	},
 	[200032] = {
 		target_id = "70",
@@ -2573,7 +2622,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970503",
 		id = 200032,
 		target_num = 1,
-		desc = "大型作战内使用亚利桑那.META击破等级>70的敌方1次"
+		desc = "大型作战内使用亚利桑那·META击破等级>70的敌方1次"
 	},
 	[200033] = {
 		target_id = "90",
@@ -2581,7 +2630,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970503",
 		id = 200033,
 		target_num = 1,
-		desc = "大型作战内使用亚利桑那.META击破等级>90的敌方1次"
+		desc = "大型作战内使用亚利桑那·META击破等级>90的敌方1次"
 	},
 	[200034] = {
 		target_id = "100",
@@ -2589,7 +2638,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970503",
 		id = 200034,
 		target_num = 1,
-		desc = "大型作战内使用亚利桑那.META击破等级>100的敌方1次"
+		desc = "大型作战内使用亚利桑那·META击破等级>100的敌方1次"
 	},
 	[200041] = {
 		target_id = "0",
@@ -2597,7 +2646,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970203",
 		id = 200041,
 		target_num = 1,
-		desc = "大型作战内使用谢菲尔德.META获得1次胜利"
+		desc = "大型作战内使用谢菲尔德·META获得1次胜利"
 	},
 	[200042] = {
 		target_id = "70",
@@ -2605,7 +2654,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970203",
 		id = 200042,
 		target_num = 1,
-		desc = "大型作战内使用谢菲尔德.META击破等级>70的敌方1次"
+		desc = "大型作战内使用谢菲尔德·META击破等级>70的敌方1次"
 	},
 	[200043] = {
 		target_id = "90",
@@ -2613,7 +2662,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970203",
 		id = 200043,
 		target_num = 1,
-		desc = "大型作战内使用谢菲尔德.META击破等级>90的敌方1次"
+		desc = "大型作战内使用谢菲尔德·META击破等级>90的敌方1次"
 	},
 	[200044] = {
 		target_id = "100",
@@ -2621,7 +2670,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970203",
 		id = 200044,
 		target_num = 1,
-		desc = "大型作战内使用谢菲尔德.META击破等级>100的敌方1次"
+		desc = "大型作战内使用谢菲尔德·META击破等级>100的敌方1次"
 	},
 	[200051] = {
 		target_id = "0",
@@ -2629,7 +2678,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970504",
 		id = 200051,
 		target_num = 1,
-		desc = "大型作战内使用伊丽莎白女王.META获得1次胜利"
+		desc = "大型作战内使用伊丽莎白女王·META获得1次胜利"
 	},
 	[200052] = {
 		target_id = "70",
@@ -2637,7 +2686,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970504",
 		id = 200052,
 		target_num = 1,
-		desc = "大型作战内使用伊丽莎白女王.META击破等级>70的敌方1次"
+		desc = "大型作战内使用伊丽莎白女王·META击破等级>70的敌方1次"
 	},
 	[200053] = {
 		target_id = "90",
@@ -2645,7 +2694,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970504",
 		id = 200053,
 		target_num = 1,
-		desc = "大型作战内使用伊丽莎白女王.META击破等级>90的敌方1次"
+		desc = "大型作战内使用伊丽莎白女王·META击破等级>90的敌方1次"
 	},
 	[200054] = {
 		target_id = "100",
@@ -2653,7 +2702,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970504",
 		id = 200054,
 		target_num = 1,
-		desc = "大型作战内使用伊丽莎白女王.META击破等级>100的敌方1次"
+		desc = "大型作战内使用伊丽莎白女王·META击破等级>100的敌方1次"
 	},
 	[200061] = {
 		target_id = "0",
@@ -2661,7 +2710,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970204",
 		id = 200061,
 		target_num = 1,
-		desc = "大型作战内使用拉·加利索尼埃.META获得1次胜利"
+		desc = "大型作战内使用拉·加利索尼埃·META获得1次胜利"
 	},
 	[200062] = {
 		target_id = "70",
@@ -2669,7 +2718,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970204",
 		id = 200062,
 		target_num = 1,
-		desc = "大型作战内使用拉·加利索尼埃.META击破等级>70的敌方1次"
+		desc = "大型作战内使用拉·加利索尼埃·META击破等级>70的敌方1次"
 	},
 	[200063] = {
 		target_id = "90",
@@ -2677,7 +2726,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970204",
 		id = 200063,
 		target_num = 1,
-		desc = "大型作战内使用拉·加利索尼埃.META击破等级>90的敌方1次"
+		desc = "大型作战内使用拉·加利索尼埃·META击破等级>90的敌方1次"
 	},
 	[200064] = {
 		target_id = "100",
@@ -2685,7 +2734,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970204",
 		id = 200064,
 		target_num = 1,
-		desc = "大型作战内使用拉·加利索尼埃.META击破等级>100的敌方1次"
+		desc = "大型作战内使用拉·加利索尼埃·META击破等级>100的敌方1次"
 	},
 	[200071] = {
 		target_id = "0",
@@ -2693,7 +2742,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970801",
 		id = 200071,
 		target_num = 1,
-		desc = "大型作战内使用U-556.META获得1次胜利"
+		desc = "大型作战内使用U-556·META获得1次胜利"
 	},
 	[200072] = {
 		target_id = "70",
@@ -2701,7 +2750,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970801",
 		id = 200072,
 		target_num = 1,
-		desc = "大型作战内使用U-556.META击破等级>70的敌方1次"
+		desc = "大型作战内使用U-556·META击破等级>70的敌方1次"
 	},
 	[200073] = {
 		target_id = "90",
@@ -2709,7 +2758,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970801",
 		id = 200073,
 		target_num = 1,
-		desc = "大型作战内使用U-556.META击破等级>90的敌方1次"
+		desc = "大型作战内使用U-556·META击破等级>90的敌方1次"
 	},
 	[200074] = {
 		target_id = "100",
@@ -2717,7 +2766,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970801",
 		id = 200074,
 		target_num = 1,
-		desc = "大型作战内使用U-556.META击破等级>100的敌方1次"
+		desc = "大型作战内使用U-556·META击破等级>100的敌方1次"
 	},
 	[200081] = {
 		target_id = "0",
@@ -2725,7 +2774,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "971201",
 		id = 200081,
 		target_num = 1,
-		desc = "大型作战内使用女灶神.META获得1次胜利"
+		desc = "大型作战内使用女灶神·META获得1次胜利"
 	},
 	[200082] = {
 		target_id = "70",
@@ -2733,7 +2782,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "971201",
 		id = 200082,
 		target_num = 1,
-		desc = "大型作战内使用女灶神.META击破等级>70的敌方1次"
+		desc = "大型作战内使用女灶神·META击破等级>70的敌方1次"
 	},
 	[200083] = {
 		target_id = "90",
@@ -2741,7 +2790,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "971201",
 		id = 200083,
 		target_num = 1,
-		desc = "大型作战内使用女灶神.META击破等级>90的敌方1次"
+		desc = "大型作战内使用女灶神·META击破等级>90的敌方1次"
 	},
 	[200084] = {
 		target_id = "100",
@@ -2749,7 +2798,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "971201",
 		id = 200084,
 		target_num = 1,
-		desc = "大型作战内使用女灶神.META击破等级>100的敌方1次"
+		desc = "大型作战内使用女灶神·META击破等级>100的敌方1次"
 	},
 	[200091] = {
 		target_id = "0",
@@ -3326,5 +3375,37 @@ pg.base.task_meta_data_template = {
 		id = 200264,
 		target_num = 1,
 		desc = "大型作战内使用朱利奥·凯撒·META击破等级＞100的敌方1次"
+	},
+	[200271] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970705",
+		id = 200271,
+		target_num = 1,
+		desc = "大型作战内使用{namecode:238}获得1次胜利"
+	},
+	[200272] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970705",
+		id = 200272,
+		target_num = 1,
+		desc = "大型作战内使用{namecode:238}击破等级＞70的敌方1次"
+	},
+	[200273] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970705",
+		id = 200273,
+		target_num = 1,
+		desc = "大型作战内使用{namecode:238}击破等级＞90的敌方1次"
+	},
+	[200274] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970705",
+		id = 200274,
+		target_num = 1,
+		desc = "大型作战内使用{namecode:238}击破等级＞100的敌方1次"
 	}
 }

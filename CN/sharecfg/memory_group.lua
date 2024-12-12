@@ -214,9 +214,11 @@ pg.memory_group = setmetatable({
 		305,
 		306,
 		307,
+		308,
 		309,
 		310,
 		311,
+		312,
 		501,
 		502,
 		503,
@@ -5086,6 +5088,17 @@ pg.base.memory_group = {
 			3988
 		}
 	},
+	[308] = {
+		title = "新型促销来袭！",
+		subtype = 3,
+		link_event = 5654,
+		type = 2,
+		id = 308,
+		icon = "title_event",
+		memories = {
+			4011
+		}
+	},
 	[309] = {
 		title = "「危险发明迫近中！」-关卡篇",
 		subtype = 2,
@@ -5145,6 +5158,25 @@ pg.base.memory_group = {
 			4056,
 			4057,
 			4058
+		}
+	},
+	[312] = {
+		title = "领域外的归途",
+		subtype = 1,
+		link_event = 5699,
+		type = 2,
+		id = 312,
+		icon = "title_event",
+		memories = {
+			4071,
+			4072,
+			4073,
+			4074,
+			4075,
+			4076,
+			4077,
+			4078,
+			4079
 		}
 	},
 	[501] = {

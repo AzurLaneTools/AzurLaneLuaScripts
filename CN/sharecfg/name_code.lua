@@ -1652,6 +1652,13 @@ pg.name_code = {
 		code = "凤·META",
 		nation = 0
 	},
+	[238] = {
+		name = "大凤·META",
+		type = 1,
+		id = 238,
+		code = "鹩·META",
+		nation = 0
+	},
 	[250] = {
 		name = "伊9",
 		type = 1,

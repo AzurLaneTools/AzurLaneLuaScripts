@@ -332,7 +332,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "阿尔及利亚·META",
 		boss_level_id = 151,
-		state = "stop",
+		state = "always",
 		item_id = 100000,
 		painting = "aerjiliya",
 		meta_id = 970302,
@@ -512,6 +512,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "鲨·META",
 		boss_level_id = 226,
+		state = "stop",
 		item_id = 100000,
 		painting = "changmen",
 		meta_id = 970506,
@@ -528,32 +529,6 @@ pg.world_joint_boss_template = {
 				"战斗中会出现樱花结界，<color=#92fc63>结界的效果会跟随月亏月盈的状态发生变化</color>。\n月亏状态下，我方角色身处于樱花结界中时会持续损失耐久。\n月盈状态下，我方角色身处于樱花结界中时会减少受到的伤害。"
 			}
 		},
-		state = {
-			{
-				{
-					2024,
-					9,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		p_offset = {
 			-50,
 			680,
@@ -565,6 +540,64 @@ pg.world_joint_boss_template = {
 			620,
 			1,
 			1
+		}
+	},
+	{
+		name = "鹩·META",
+		boss_level_id = 241,
+		item_id = 100000,
+		painting = "dafeng",
+		meta_id = 970705,
+		id = 17,
+		description = {
+			{
+				"彼岸领域",
+				2,
+				"鹩·META<color=#92fc63>单场战斗内损失血量超过50%</color>时，会开启全屏领域。\n领域内鹩·META及其召唤物造成的伤害提高20%，我方单位受到的<color=#92fc63>所有回复效果反转为伤害</color>。\n领域持续期间，我方舰队每次损失单位，都会令鹩·META获得伤害强化。"
+			},
+			{
+				"百鬼之影",
+				1,
+				"战斗中鹩·META会周期性召唤出幻形之息协助作战，其<color=#92fc63>受到的伤害会同等传递至鹩·META自身</color>。\n幻形之息会在持续一段时间后自行消失。"
+			}
+		},
+		state = {
+			{
+				{
+					2024,
+					12,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			-168,
+			566,
+			0.9,
+			0.9
+		},
+		p_offset_other = {
+			485,
+			585,
+			0.9,
+			0.9
 		}
 	},
 	all = {
@@ -583,6 +616,7 @@ pg.world_joint_boss_template = {
 		13,
 		14,
 		15,
-		16
+		16,
+		17
 	}
 }

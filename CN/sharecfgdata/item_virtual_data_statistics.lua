@@ -169879,6 +169879,56 @@ _G.pg.base.item_virtual_data_statistics[65057] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65061] = {
+	drop_gold_max = 0,
+	name = "训练点数",
+	display = "用于头像框活动兑换，活动结束后将会消失",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_20241212",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65061,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65062] = {
+	drop_gold_max = 0,
+	name = "促销PT",
+	display = "用于「2024冬至 {namecode:98}的大促销」活动兑换，活动结束后将会消失",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/65062",
+	price = "",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65062,
+	display_icon = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[69000] = {
 	drop_gold_max = 0,
 	name = "伤害值",
@@ -176424,6 +176474,188 @@ _G.pg.base.item_virtual_data_statistics[86207] = {
 			1270
 		}
 	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86411] = {
+	drop_gold_max = 0,
+	name = "随机换装",
+	display = "不会被看到",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86411,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			307083,
+			840
+		},
+		{
+			303191,
+			840
+		},
+		{
+			805031,
+			830
+		},
+		{
+			499091,
+			840
+		},
+		{
+			901071,
+			830
+		},
+		{
+			102134,
+			830
+		},
+		{
+			118021,
+			830
+		},
+		{
+			137060,
+			830
+		},
+		{
+			102053,
+			830
+		},
+		{
+			301891,
+			830
+		},
+		{
+			319013,
+			830
+		},
+		{
+			199041,
+			840
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86412] = {
+	drop_gold_max = 0,
+	name = "随机换装",
+	display = [[
+从如下换装中随机获得1件未拥有的L2D换装(如果所有换装都已拥有，则会转化为获得1080钻石) 
+各换装概率均等，包含换装如下：
+阿尔萨斯换装 盛夏的圣迹；
+{namecode:182}换装 白沙幽梦；
+安克雷奇换装 海豚、海洋、游泳课；
+{namecode:294}换装 嬉水碧海；
+{namecode:182}换装 轰鸣的银轮；
+天狼星换装 至高乐园的白兔；
+柴郡换装 绚烂夜梦；
+{namecode:97}换装 海滨的白日美梦；
+圣路易斯换装 邮轮上的诱人午后；
+{namecode:161}换装 红鸢的闲暇片刻；
+莫加多尔换装 静谧一隅的燥热；
+{namecode:480}换装 港区的龙女仆；
+{namecode:18}换装 不思议国度的白兔；
+前卫换装 摇摆不定的伪装；
+{namecode:199}换装 盛夏的闲暇；
+海伦娜换装 耀眼的波纹；
+{namecode:516}换装 暗之龙，光之岸；
+{namecode:84}换装 堇色兔的狙击游戏；
+{namecode:161}换装 落于王座之花；
+光辉换装 二人的学习时间；
+{namecode:97}换装 放学后的甜蜜时光；
+斯特拉斯堡换装 赛场上的电子妖精；
+恶毒换装 懒懒的白兔；
+{namecode:455}换装 浴室中的小小意外；
+企业换装 Wind Catcher；
+{namecode:448}换装 黑白的夜之主；
+德文郡换装 红月下的恶魔；
+维托里奥·维内托换装 拉斯佩齐亚之花；
+{namecode:204}换装 丝竹喧阗；
+{namecode:440}换装 相会于盛夏之夜；
+光荣换装 凉夜香雪；
+{namecode:188}换装 花绽之乐章；
+{namecode:197}换装 羞怯的蓝宝石；
+企业换装 天际的潜水者；
+{namecode:18}换装 最速兔兔的邀请函(?)；
+卡律布狄斯换装 治愈的红闺；
+柴郡换装 冰雪公主；
+雅努斯换装 万圣喵喵惊悚夜；
+柴郡换装 音乐绚烂CaitSith；
+{namecode:427}换装 沉醉于夜；
+喀琅施塔得换装 突击行动开始！；
+{namecode:189}换装 八月恋夏；
+{namecode:463}换装 Mädchen Trümmer；
+金鹿号换装 古堡中的恐怖淑女；
+{namecode:439}换装 苍翠的安眠曲；
+{namecode:427}换装 Final Lap；
+{namecode:455}换装 闭店后的特别时光；
+戈里齐亚换装 办公室的“隔阂”；
+{namecode:529}换装 天幕危机；
+{namecode:461}换装 永夜的赤之贵族；
+可畏换装 值日时的春心萌动；
+波拉换装 水边的事故？；
+{namecode:295}换装 愿望为“爱”；
+巴尔的摩换装 迅疾的蓝星；
+霞飞换装 祝福的起步冲刺；
+{namecode:463}换装 一骑绝尘；
+北卡罗来纳换装 秘密的换装练习？；
+{namecode:91}换装 朝凰来仪；
+里诺换装 bunny·reno！；
+库尔斯克换装 雾中雪狼；
+{namecode:231}换装 不会消失的换装魔法；
+匹兹堡换装 斟酒女郎的赌局；
+{namecode:226}换装 团子的诱惑；
+伴尔维换装 清凉的甜蜜滋味；
+艾伦·萨姆纳换装 Charming Rabbit；
+罗马换装 午夜的白天鹅；
+基洛夫换装 疾速截击；
+伊丽莎白女王换装 Maid·My·Highness；
+布莱默顿换装 功夫少女！；
+布莱默顿换装 悠然放松时光；
+拉·加利索尼埃换装 黑猫与南瓜之夜；
+克莱蒙梭换装 金日煦风；
+威严换装 野兔和蒸汽房；
+拉·加利索尼埃换装 春晓醉梦；
+{namecode:175}换装 “不情愿”的圣夜祭；
+阿贝克隆比换装 坏坏兔的恶作剧！；
+威严换装 突袭！暗黑基地！；
+奇尔沙治换装 Allnight Charge；
+{namecode:521}换装 微醺胜负；
+关岛换装 魅力舞台；
+拉菲II换装 睡意满满忙碌DAY；]],
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86412,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 

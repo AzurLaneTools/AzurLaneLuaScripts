@@ -38,13 +38,14 @@ end
 
 slot0.GetSequence = function(slot0)
 	slot1 = {}
-	slot2 = ipairs
-	slot3 = slot0.sequence or {}
+	slot2 = slot0:ShouldReplacePlayer()
+	slot3 = ipairs
+	slot4 = slot0.sequence or {}
 
-	for slot5, slot6 in slot2(slot3) do
+	for slot6, slot7 in slot3(slot4) do
 		table.insert(slot1, {
-			slot6[1],
-			slot6[2]
+			slot2 and slot0:ReplacePlayerName(slot7[1]) or slot7[1],
+			slot7[2]
 		})
 	end
 

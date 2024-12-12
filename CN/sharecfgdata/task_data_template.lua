@@ -123443,6 +123443,2332 @@ _G.pg.base.task_data_template[20893] = {
 }
 
 
+_G.pg.base.task_data_template[20916] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904526,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『1212前哨站』七日任务1",
+	desc = "舰队出征，以S评价通关10次",
+	sub_type = 24,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20916,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20917] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904527,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『1212前哨站』七日任务2",
+	desc = "登录游戏",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20917,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20918] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904528,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『1212前哨站』七日任务3",
+	desc = "进行2次演习",
+	sub_type = 27,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20918,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20919] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904529,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『1212前哨站』七日任务4",
+	desc = "完成军事委托2次",
+	sub_type = 80,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20919,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20920] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904530,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『1212前哨站』七日任务5",
+	desc = "舰船退役2次",
+	sub_type = 31,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20920,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20921] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904531,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『1212前哨站』七日任务6",
+	desc = "完成3次每日挑战",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20921,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20922] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904532,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『1212前哨站』七日任务7",
+	desc = "舰船强化5次",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20922,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20923] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904533,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『1212前哨站』七日任务8",
+	desc = "进行战术训练2次",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20923,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20924] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904534,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『1212前哨站』七日任务9",
+	desc = "击沉任意敌人20艘",
+	sub_type = 11,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20924,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20925] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904535,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『1212前哨站』七日任务10",
+	desc = "后宅补充食物5次",
+	sub_type = 61,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20925,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20926] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904536,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『1212前哨站』七日任务11",
+	desc = "建造舰船2次",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20926,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20927] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904537,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『1212前哨站』七日任务12",
+	desc = "打开任意科技箱1个",
+	sub_type = 50,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20927,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20928] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904538,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『1212前哨站』七日任务13",
+	desc = "进行2次战术训练",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20928,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20929] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904539,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『1212前哨站』七日任务14",
+	desc = "击败旗舰3次 ",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20929,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			3,
+			150580,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20930] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904542,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212国服皮肤返场』每日任务",
+	desc = "【每日】舰队出征，消灭敌方旗舰3次。",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20930,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20931] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904542,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212国服皮肤返场』每日任务",
+	desc = "【每日】建造舰船1次。",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20931,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			300
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20932] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904542,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212国服皮肤返场』每日任务",
+	desc = "【每日】参与1次军事演习。",
+	sub_type = 27,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20932,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			300
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20933] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212国服皮肤返场』累计出击1",
+	desc = "【1/12】舰队出征，获得1次胜利。",
+	sub_type = 20,
+	task_fold = 20933,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20933,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20934] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』累计出击2",
+	desc = "【2/12】舰队出征，获得4次胜利。",
+	sub_type = 20,
+	task_fold = 20933,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20934,
+	target_num = 4,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20935] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』累计出击3",
+	desc = "【3/12】舰队出征，获得10次胜利。",
+	sub_type = 20,
+	task_fold = 20933,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20935,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20936] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』累计出击4",
+	desc = "【4/12】舰队出征，获得20次胜利。",
+	sub_type = 20,
+	task_fold = 20933,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20936,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20937] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』累计出击5",
+	desc = "【5/12】舰队出征，获得30次胜利。",
+	sub_type = 20,
+	task_fold = 20933,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20937,
+	target_num = 30,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20938] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』累计出击6",
+	desc = "【6/12】舰队出征，获得40次胜利。",
+	sub_type = 20,
+	task_fold = 20933,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20938,
+	target_num = 40,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20939] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』累计出击7",
+	desc = "【7/12】舰队出征，获得50次胜利。",
+	sub_type = 20,
+	task_fold = 20933,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20939,
+	target_num = 50,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20940] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』累计出击8",
+	desc = "【8/12】舰队出征，获得60次胜利。",
+	sub_type = 20,
+	task_fold = 20933,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20940,
+	target_num = 60,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20941] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』累计出击9",
+	desc = "【9/12】舰队出征，获得70次胜利。",
+	sub_type = 20,
+	task_fold = 20933,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20941,
+	target_num = 70,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20942] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』累计出击10",
+	desc = "【10/12】舰队出征，获得80次胜利。",
+	sub_type = 20,
+	task_fold = 20933,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20942,
+	target_num = 80,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20943] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904541,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』累计出击11",
+	desc = "【11/12】舰队出征，获得100次胜利。",
+	sub_type = 20,
+	task_fold = 20933,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20943,
+	target_num = 100,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20944] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904541,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』累计出击12",
+	desc = "【12/12】舰队出征，获得120次胜利。",
+	sub_type = 20,
+	task_fold = 20933,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20944,
+	target_num = 120,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20945] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』学习技能1",
+	desc = "【1/12】进行战术训练1次。",
+	sub_type = 71,
+	task_fold = 20945,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20945,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20946] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』学习技能2",
+	desc = "【2/12】进行战术训练4次。",
+	sub_type = 71,
+	task_fold = 20945,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20946,
+	target_num = 4,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20947] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』学习技能3",
+	desc = "【3/12】进行战术训练10次。",
+	sub_type = 71,
+	task_fold = 20945,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20947,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20948] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』学习技能4",
+	desc = "【4/12】进行战术训练20次。",
+	sub_type = 71,
+	task_fold = 20945,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20948,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20949] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』学习技能5",
+	desc = "【5/12】进行战术训练30次。",
+	sub_type = 71,
+	task_fold = 20945,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20949,
+	target_num = 30,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20950] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』学习技能6",
+	desc = "【6/12】进行战术训练40次。",
+	sub_type = 71,
+	task_fold = 20945,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20950,
+	target_num = 40,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20951] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』学习技能7",
+	desc = "【7/12】进行战术训练50次。",
+	sub_type = 71,
+	task_fold = 20945,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20951,
+	target_num = 50,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20952] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』学习技能8",
+	desc = "【8/12】进行战术训练60次。",
+	sub_type = 71,
+	task_fold = 20945,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20952,
+	target_num = 60,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20953] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』学习技能9",
+	desc = "【9/12】进行战术训练70次。",
+	sub_type = 71,
+	task_fold = 20945,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20953,
+	target_num = 70,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20954] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』学习技能10",
+	desc = "【10/12】进行战术训练80次。",
+	sub_type = 71,
+	task_fold = 20945,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20954,
+	target_num = 80,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20955] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904541,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』学习技能11",
+	desc = "【11/12】进行战术训练100次。",
+	sub_type = 71,
+	task_fold = 20945,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20955,
+	target_num = 100,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			500
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20956] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904541,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』学习技能12",
+	desc = "【12/12】进行战术训练120次。",
+	sub_type = 71,
+	task_fold = 20945,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20956,
+	target_num = 120,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			500
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20957] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』建造舰船1",
+	desc = "【1/12】建造舰船1次。",
+	sub_type = 30,
+	task_fold = 20957,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20957,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20958] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』建造舰船2",
+	desc = "【2/12】建造舰船3次。",
+	sub_type = 30,
+	task_fold = 20957,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20958,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20959] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』建造舰船3",
+	desc = "【3/12】建造舰船6次。",
+	sub_type = 30,
+	task_fold = 20957,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20959,
+	target_num = 6,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20960] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』建造舰船4",
+	desc = "【4/12】建造舰船10次。",
+	sub_type = 30,
+	task_fold = 20957,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20960,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20961] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』建造舰船5",
+	desc = "【5/12】建造舰船15次。",
+	sub_type = 30,
+	task_fold = 20957,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20961,
+	target_num = 15,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20962] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』建造舰船6",
+	desc = "【6/12】建造舰船20次。",
+	sub_type = 30,
+	task_fold = 20957,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20962,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20963] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』建造舰船7",
+	desc = "【7/12】建造舰船25次。",
+	sub_type = 30,
+	task_fold = 20957,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20963,
+	target_num = 25,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20964] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』建造舰船8",
+	desc = "【8/12】建造舰船30次。",
+	sub_type = 30,
+	task_fold = 20957,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20964,
+	target_num = 30,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20965] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』建造舰船9",
+	desc = "【9/12】建造舰船35次。",
+	sub_type = 30,
+	task_fold = 20957,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20965,
+	target_num = 35,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20966] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』建造舰船10",
+	desc = "【10/12】建造舰船40次。",
+	sub_type = 30,
+	task_fold = 20957,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20966,
+	target_num = 40,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20967] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904541,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』建造舰船11",
+	desc = "【11/12】建造舰船50次。",
+	sub_type = 30,
+	task_fold = 20957,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20967,
+	target_num = 50,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			500
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20968] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904541,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』建造舰船12",
+	desc = "【12/12】建造舰船70次。",
+	sub_type = 30,
+	task_fold = 20957,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20968,
+	target_num = 70,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			500
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20969] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904549,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "241212皮肤返场登陆奖励1",
+	desc = "登录游戏",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20969,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54016,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20970] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904550,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "241212皮肤返场登陆奖励2",
+	desc = "登录游戏",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20970,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54051,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20971] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904551,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "241212皮肤返场登陆奖励3",
+	desc = "登录游戏",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20971,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			3
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[31017] = {
 	target_id_2 = "",
 	guild_coin_award = 0,

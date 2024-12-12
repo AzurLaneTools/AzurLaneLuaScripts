@@ -477,6 +477,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「狐鸣凤影，烈火浴心。虽为新生，亦续前缘。」</color>\n「唤醒苍红之炎」活动获取",
 		scene = {}
 	},
+	[333] = {
+		name = "天外星光",
+		gain_by = "",
+		time_second = 0,
+		id = 333,
+		time_limit_type = 0,
+		desc = "通过后续活动获得",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂纪念：企业",
 		gain_by = "",
@@ -628,6 +637,15 @@ pg.item_data_frame = {
 		id = 607,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>没人能逃出自己的故事，自由的牛仔也不例外。</color>通过参与「荒野假日开拓记」活动获取",
+		scene = {}
+	},
+	[609] = {
+		name = "冬至促销纪念",
+		gain_by = "",
+		time_second = 0,
+		id = 609,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>「指挥官，感谢您参与促销活动，请收好赠品喵~！」</color>通过参与「2024冬至茗的大促销」活动获取",
 		scene = {}
 	},
 	[1001] = {
@@ -810,6 +828,7 @@ pg.item_data_frame = {
 		330,
 		331,
 		332,
+		333,
 		401,
 		402,
 		404,
@@ -827,6 +846,7 @@ pg.item_data_frame = {
 		605,
 		606,
 		607,
+		609,
 		1001,
 		1002,
 		10001,
