@@ -25856,273 +25856,278 @@ cs.gametip = {
 		110,
 		true
 	},
-	tolovegame_buff_name_1 = {
+	drom3d_memory_limit_tip = {
 		913248,
+		157,
+		true
+	},
+	tolovegame_buff_name_1 = {
+		913405,
 		97,
 		true
 	},
 	tolovegame_buff_name_2 = {
-		913345,
+		913502,
 		97,
 		true
 	},
 	tolovegame_buff_name_3 = {
-		913442,
+		913599,
 		97,
 		true
 	},
 	tolovegame_buff_name_4 = {
-		913539,
+		913696,
 		105,
 		true
 	},
 	tolovegame_buff_name_5 = {
-		913644,
+		913801,
 		105,
 		true
 	},
 	tolovegame_buff_name_6 = {
-		913749,
+		913906,
 		105,
 		true
 	},
 	tolovegame_buff_name_7 = {
-		913854,
+		914011,
 		99,
 		true
 	},
 	tolovegame_buff_desc_1 = {
-		913953,
+		914110,
 		157,
 		true
 	},
 	tolovegame_buff_desc_2 = {
-		914110,
+		914267,
 		123,
 		true
 	},
 	tolovegame_buff_desc_3 = {
-		914233,
+		914390,
 		121,
 		true
 	},
 	tolovegame_buff_desc_4 = {
-		914354,
+		914511,
 		233,
 		true
 	},
 	tolovegame_buff_desc_5 = {
-		914587,
+		914744,
 		178,
 		true
 	},
 	tolovegame_buff_desc_6 = {
-		914765,
+		914922,
 		172,
 		true
 	},
 	tolovegame_buff_desc_7 = {
-		914937,
+		915094,
 		178,
 		true
 	},
 	tolovegame_join_reward = {
-		915115,
+		915272,
 		98,
 		true
 	},
 	tolovegame_score = {
-		915213,
+		915370,
 		86,
 		true
 	},
 	tolovegame_rank_tip = {
-		915299,
+		915456,
 		116,
 		true
 	},
 	tolovegame_lock_1 = {
-		915415,
+		915572,
 		103,
 		true
 	},
 	tolovegame_lock_2 = {
-		915518,
+		915675,
 		98,
 		true
 	},
 	tolovegame_buff_switch_1 = {
-		915616,
+		915773,
 		100,
 		true
 	},
 	tolovegame_buff_switch_2 = {
-		915716,
+		915873,
 		100,
 		true
 	},
 	tolovegame_proceed = {
-		915816,
+		915973,
 		88,
 		true
 	},
 	tolovegame_collect = {
-		915904,
+		916061,
 		88,
 		true
 	},
 	tolovegame_collected = {
-		915992,
+		916149,
 		93,
 		true
 	},
 	tolovegame_tutorial = {
-		916085,
+		916242,
 		611,
 		true
 	},
 	tolovegame_awards = {
-		916696,
+		916853,
 		93,
 		true
 	},
 	tolovemainpage_skin_countdown = {
-		916789,
+		916946,
 		107,
 		true
 	},
 	tolovemainpage_build_countdown = {
-		916896,
+		917053,
 		106,
 		true
 	},
 	tolovegame_puzzle_title = {
-		917002,
+		917159,
 		105,
 		true
 	},
 	tolovegame_puzzle_ship_need = {
-		917107,
+		917264,
 		102,
 		true
 	},
 	tolovegame_puzzle_task_need = {
-		917209,
+		917366,
 		106,
 		true
 	},
 	tolovegame_puzzle_detail_collect = {
-		917315,
+		917472,
 		108,
 		true
 	},
 	tolovegame_puzzle_detail_puzzle = {
-		917423,
+		917580,
 		107,
 		true
 	},
 	tolovegame_puzzle_detail_connection = {
-		917530,
+		917687,
 		111,
 		true
 	},
 	tolovegame_puzzle_ship_unknown = {
-		917641,
+		917798,
 		97,
 		true
 	},
 	tolovegame_puzzle_lock_by_front = {
-		917738,
+		917895,
 		119,
 		true
 	},
 	tolovegame_puzzle_lock_by_time = {
-		917857,
+		918014,
 		116,
 		true
 	},
 	tolovegame_puzzle_cheat = {
-		917973,
+		918130,
 		120,
 		true
 	},
 	tolovegame_puzzle_open_detail = {
-		918093,
+		918250,
 		105,
 		true
 	},
 	tolove_main_help = {
-		918198,
+		918355,
 		1281,
 		true
 	},
 	tolovegame_puzzle_finished = {
-		919479,
+		919636,
 		99,
 		true
 	},
 	tolovegame_puzzle_title_desc = {
-		919578,
+		919735,
 		110,
 		true
 	},
 	tolovegame_puzzle_pop_next = {
-		919688,
+		919845,
 		101,
 		true
 	},
 	tolovegame_puzzle_pop_finish = {
-		919789,
+		919946,
 		99,
 		true
 	},
 	tolovegame_puzzle_pop_save = {
-		919888,
+		920045,
 		111,
 		true
 	},
 	tolovegame_puzzle_unlock = {
-		919999,
+		920156,
 		100,
 		true
 	},
 	tolovegame_puzzle_lock = {
-		920099,
+		920256,
 		98,
 		true
 	},
 	tolovegame_puzzle_line_tip = {
-		920197,
+		920354,
 		136,
 		true
 	},
 	tolovegame_puzzle_puzzle_tip = {
-		920333,
+		920490,
 		132,
 		true
 	},
 	maintenance_message_text = {
-		920465,
+		920622,
 		187,
 		true
 	},
 	maintenance_message_stop_text = {
-		920652,
+		920809,
 		117,
 		true
 	},
 	task_get = {
-		920769,
+		920926,
 		78,
 		true
 	},
 	notify_clock_tip = {
-		920847,
+		921004,
 		122,
 		true
 	},
 	notify_clock_button = {
-		920969,
+		921126,
 		101,
 		true
 	}

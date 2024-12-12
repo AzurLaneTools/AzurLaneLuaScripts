@@ -34034,6 +34034,11 @@ _G.pg.base.gametip.dorm3d_shop_gift_owned = {
 }
 
 
+_G.pg.base.gametip.drom3d_memory_limit_tip = {
+	tip = "目前設備記憶體小於建議配置，有閃退可能性存在。"
+}
+
+
 _G.pg.base.gametip.tolovegame_buff_name_1 = {
 	tip = "護盾up！"
 }
