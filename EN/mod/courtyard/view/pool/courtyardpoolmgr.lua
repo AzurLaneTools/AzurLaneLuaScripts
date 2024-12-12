@@ -45,7 +45,7 @@ slot0.GenPool = function(slot0, slot1)
 					return
 				end
 
-				uv0.pools[uv3] = CourtYardPool.New(uv4, slot0, unpack(uv1[uv2]))
+				uv0.pools[uv3] = CourtYardPool.New(uv4, Object.Instantiate(slot0), unpack(uv1[uv2]))
 
 				uv5()
 			end), true, true)
@@ -61,8 +61,8 @@ slot0.GenPool = function(slot0, slot1)
 					return
 				end
 
-				if slot0 then
-					uv0.pools[uv1] = CourtYardEffectPool.New(uv2, slot0, 0, 3)
+				if Object.Instantiate(slot0) then
+					uv0.pools[uv1] = CourtYardEffectPool.New(uv2, Object.Instantiate(slot0), 0, 3)
 				end
 
 				uv3()
