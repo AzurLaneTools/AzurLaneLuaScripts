@@ -44,7 +44,7 @@ slot0.GetSequence = function(slot0)
 
 	for slot6, slot7 in slot3(slot4) do
 		table.insert(slot1, {
-			slot2 and slot0:ReplacePlayerName(slot7[1]) or slot7[1],
+			HXSet.hxLan(slot2 and slot0:ReplacePlayerName(slot7[1]) or slot7[1]),
 			slot7[2]
 		})
 	end

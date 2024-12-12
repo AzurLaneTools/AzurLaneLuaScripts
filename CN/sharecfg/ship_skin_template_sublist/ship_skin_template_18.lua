@@ -11467,7 +11467,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[9703050] = {
-		name = "希佩尔海军上将·META",
+		name = "{namecode:425}·META",
 		id = 9703050,
 		desc = "希佩尔海军上将·META",
 		illustrator2 = -1,
