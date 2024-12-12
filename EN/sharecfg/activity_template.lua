@@ -22318,6 +22318,7 @@ pg.activity_template = {
 	},
 	[5685] = {
 		mark = 20241121,
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 5685,
@@ -22325,33 +22326,6 @@ pg.activity_template = {
 		title_res_tag = "zuozhanshouhuoleijizhong",
 		id = 5685,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					11,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "TolovePtPage",
 			ui_name = "TolovePtPage"
@@ -22370,6 +22344,7 @@ pg.activity_template = {
 	[5686] = {
 		mark = 20241121,
 		page_info = "",
+		time = "stop",
 		type = 14,
 		login_pop = 0,
 		config_id = 0,
@@ -22402,33 +22377,6 @@ pg.activity_template = {
 			2796,
 			2797,
 			2798
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					11,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			"commonbg/bg_pt_mengmeng",
@@ -22714,6 +22662,216 @@ pg.activity_template = {
 					2024,
 					12,
 					11
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5698] = {
+		mark = 20241212,
+		type = 69,
+		login_pop = 0,
+		config_id = 29,
+		is_show = 46,
+		title_res_tag = "Georgia_catchup",
+		id = 5698,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					12,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "NewPlymouthTecCatchupPage",
+			ui_name = "NewPlymouthTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42043
+		}
+	},
+	[5699] = {
+		mark = 20241212,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 48,
+		title_res_tag = "lingyuwaideguitu",
+		id = 5699,
+		config_data = {
+			{
+				20916,
+				20917
+			},
+			{
+				20918,
+				20919
+			},
+			{
+				20920,
+				20921
+			},
+			{
+				20922,
+				20923
+			},
+			{
+				20924,
+				20925
+			},
+			{
+				20926,
+				20927
+			},
+			{
+				20928,
+				20929
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					12,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DeXiV6TaskPage",
+			ui_name = "DeXiV6TaskPage"
+		},
+		config_client = {
+			story = {
+				"LINGYUWAIDEGUITU1",
+				"LINGYUWAIDEGUITU3",
+				"LINGYUWAIDEGUITU4",
+				"LINGYUWAIDEGUITU5",
+				"LINGYUWAIDEGUITU6",
+				"LINGYUWAIDEGUITU7",
+				"LINGYUWAIDEGUITU8"
+			},
+			specialstory = {
+				"LINGYUWAIDEGUITU2",
+				"LINGYUWAIDEGUITU9"
+			}
+		}
+	},
+	[5700] = {
+		mark = 20241212,
+		type = 87,
+		login_pop = 0,
+		config_id = 25,
+		is_show = 47,
+		config_client = "",
+		title_res_tag = "activity",
+		id = 5700,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					12,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DexiV6FramePage",
+			ui_name = "DexiV6FramePage"
+		}
+	},
+	[5701] = {
+		mark = 20241212,
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 34,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5701,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					12,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					18
 				},
 				{
 					23,
@@ -48382,6 +48540,7 @@ pg.activity_template = {
 			5604,
 			5625,
 			5656,
+			5699,
 			6000,
 			6001,
 			6002,
@@ -48756,7 +48915,8 @@ pg.activity_template = {
 			5513,
 			5552,
 			5593,
-			5638
+			5638,
+			5700
 		},
 		[58] = {
 			4908,
@@ -48777,6 +48937,7 @@ pg.activity_template = {
 			5553,
 			5592,
 			5637,
+			5701,
 			30201,
 			30289,
 			30336,
@@ -48955,6 +49116,7 @@ pg.activity_template = {
 			5318,
 			5511,
 			5550,
+			5698,
 			30457,
 			30705,
 			30810
@@ -49797,6 +49959,10 @@ pg.activity_template = {
 		5693,
 		5694,
 		5695,
+		5698,
+		5699,
+		5700,
+		5701,
 		7001,
 		7011,
 		7012,

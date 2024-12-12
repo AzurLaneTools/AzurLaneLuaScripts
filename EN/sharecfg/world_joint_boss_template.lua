@@ -332,7 +332,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "Algérie META",
 		boss_level_id = 151,
-		state = "stop",
+		state = "always",
 		item_id = 100000,
 		painting = "aerjiliya",
 		meta_id = 970302,
@@ -562,6 +562,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "Nagato META",
 		boss_level_id = 226,
+		state = "stop",
 		item_id = 100000,
 		painting = "changmen",
 		meta_id = 970506,
@@ -578,32 +579,6 @@ pg.world_joint_boss_template = {
 				"Creates a barrier around the battlefield which <color=#92fc63>has different effects depending on if the Waxing Moon or Waning Moon state is active</color>.\nIn the Waxing Moon state, all your ships inside the barrier take less DMG.\nIn the Waning Moon state, all your ships inside the barrier gradually lose HP."
 			}
 		},
-		state = {
-			{
-				{
-					2024,
-					9,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		p_offset = {
 			-50,
 			680,
@@ -615,6 +590,64 @@ pg.world_joint_boss_template = {
 			620,
 			1,
 			1
+		}
+	},
+	{
+		name = "Taihou META",
+		boss_level_id = 241,
+		item_id = 100000,
+		painting = "dafeng",
+		meta_id = 970705,
+		id = 17,
+		description = {
+			{
+				"Otherworldly Domain",
+				2,
+				"<color=#92fc63>Upon losing 50% of her max HP in a single battle</color>, Taihou META will deploy a special domain on the battlefield.\nWithin this domain, Taihou META and her summons deal 20.0% more DMG, and <color=#92fc63>all healing effects from your ships are converted into damage</color>.\nAs long as the domain remains activated, Taihou META deals increased DMG each time one of your ships sinks."
+			},
+			{
+				"Spiritshadow Procession",
+				1,
+				"During battle, Taihou META will summon Spiritshadows at regular intervals to assist her. <color=#92fc63>All damage dealt to Spiritshadows will also be dealt to Taihou META</color>.\nSpiritshadows will despawn after a period of time."
+			}
+		},
+		state = {
+			{
+				{
+					2024,
+					12,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			-168,
+			566,
+			0.9,
+			0.9
+		},
+		p_offset_other = {
+			485,
+			585,
+			0.9,
+			0.9
 		}
 	},
 	all = {
@@ -633,6 +666,7 @@ pg.world_joint_boss_template = {
 		13,
 		14,
 		15,
-		16
+		16,
+		17
 	}
 }

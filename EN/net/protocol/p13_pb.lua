@@ -4,9 +4,9 @@ slot1 = require("common_pb")
 module("p13_pb")
 
 slot2 = {
+	SC_13000_DAILY_REPAIR_COUNT_FIELD = slot0.FieldDescriptor(),
+	SC_13000_CURRENT_CHAPTER_FIELD = slot0.FieldDescriptor(),
 	SC_13001_CHAPTER_LIST_FIELD = slot0.FieldDescriptor(),
-	SC_13001_CURRENT_CHAPTER_FIELD = slot0.FieldDescriptor(),
-	SC_13001_DAILY_REPAIR_COUNT_FIELD = slot0.FieldDescriptor(),
 	SC_13001_REACT_CHAPTER_FIELD = slot0.FieldDescriptor(),
 	SC_13001_FLEET_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_13002_COLLECTION_LIST_FIELD = slot0.FieldDescriptor(),
@@ -187,6 +187,7 @@ slot2 = {
 	REMAPCOUNT_COUNT_FIELD = slot0.FieldDescriptor(),
 	REMAPCOUNT_FLAG_FIELD = slot0.FieldDescriptor()
 }
+SC_13000 = slot0.Descriptor()
 SC_13001 = slot0.Descriptor()
 SC_13002 = slot0.Descriptor()
 CS_13003 = slot0.Descriptor()
@@ -242,6 +243,35 @@ CS_13507 = slot0.Descriptor()
 SC_13508 = slot0.Descriptor()
 FLEETDUTYKEYVALUEPAIR = slot0.Descriptor()
 REMAPCOUNT = slot0.Descriptor()
+slot2.SC_13000_DAILY_REPAIR_COUNT_FIELD.name = "daily_repair_count"
+slot2.SC_13000_DAILY_REPAIR_COUNT_FIELD.full_name = "p13.sc_13000.daily_repair_count"
+slot2.SC_13000_DAILY_REPAIR_COUNT_FIELD.number = 1
+slot2.SC_13000_DAILY_REPAIR_COUNT_FIELD.index = 0
+slot2.SC_13000_DAILY_REPAIR_COUNT_FIELD.label = 2
+slot2.SC_13000_DAILY_REPAIR_COUNT_FIELD.has_default_value = false
+slot2.SC_13000_DAILY_REPAIR_COUNT_FIELD.default_value = 0
+slot2.SC_13000_DAILY_REPAIR_COUNT_FIELD.type = 13
+slot2.SC_13000_DAILY_REPAIR_COUNT_FIELD.cpp_type = 3
+slot2.SC_13000_CURRENT_CHAPTER_FIELD.name = "current_chapter"
+slot2.SC_13000_CURRENT_CHAPTER_FIELD.full_name = "p13.sc_13000.current_chapter"
+slot2.SC_13000_CURRENT_CHAPTER_FIELD.number = 2
+slot2.SC_13000_CURRENT_CHAPTER_FIELD.index = 1
+slot2.SC_13000_CURRENT_CHAPTER_FIELD.label = 1
+slot2.SC_13000_CURRENT_CHAPTER_FIELD.has_default_value = false
+slot2.SC_13000_CURRENT_CHAPTER_FIELD.default_value = nil
+slot2.SC_13000_CURRENT_CHAPTER_FIELD.message_type = CURRENTCHAPTERINFO
+slot2.SC_13000_CURRENT_CHAPTER_FIELD.type = 11
+slot2.SC_13000_CURRENT_CHAPTER_FIELD.cpp_type = 10
+SC_13000.name = "sc_13000"
+SC_13000.full_name = "p13.sc_13000"
+SC_13000.nested_types = {}
+SC_13000.enum_types = {}
+SC_13000.fields = {
+	slot2.SC_13000_DAILY_REPAIR_COUNT_FIELD,
+	slot2.SC_13000_CURRENT_CHAPTER_FIELD
+}
+SC_13000.is_extendable = false
+SC_13000.extensions = {}
 slot2.SC_13001_CHAPTER_LIST_FIELD.name = "chapter_list"
 slot2.SC_13001_CHAPTER_LIST_FIELD.full_name = "p13.sc_13001.chapter_list"
 slot2.SC_13001_CHAPTER_LIST_FIELD.number = 1
@@ -252,29 +282,10 @@ slot2.SC_13001_CHAPTER_LIST_FIELD.default_value = {}
 slot2.SC_13001_CHAPTER_LIST_FIELD.message_type = CHAPTERINFO
 slot2.SC_13001_CHAPTER_LIST_FIELD.type = 11
 slot2.SC_13001_CHAPTER_LIST_FIELD.cpp_type = 10
-slot2.SC_13001_CURRENT_CHAPTER_FIELD.name = "current_chapter"
-slot2.SC_13001_CURRENT_CHAPTER_FIELD.full_name = "p13.sc_13001.current_chapter"
-slot2.SC_13001_CURRENT_CHAPTER_FIELD.number = 2
-slot2.SC_13001_CURRENT_CHAPTER_FIELD.index = 1
-slot2.SC_13001_CURRENT_CHAPTER_FIELD.label = 1
-slot2.SC_13001_CURRENT_CHAPTER_FIELD.has_default_value = false
-slot2.SC_13001_CURRENT_CHAPTER_FIELD.default_value = nil
-slot2.SC_13001_CURRENT_CHAPTER_FIELD.message_type = CURRENTCHAPTERINFO
-slot2.SC_13001_CURRENT_CHAPTER_FIELD.type = 11
-slot2.SC_13001_CURRENT_CHAPTER_FIELD.cpp_type = 10
-slot2.SC_13001_DAILY_REPAIR_COUNT_FIELD.name = "daily_repair_count"
-slot2.SC_13001_DAILY_REPAIR_COUNT_FIELD.full_name = "p13.sc_13001.daily_repair_count"
-slot2.SC_13001_DAILY_REPAIR_COUNT_FIELD.number = 3
-slot2.SC_13001_DAILY_REPAIR_COUNT_FIELD.index = 2
-slot2.SC_13001_DAILY_REPAIR_COUNT_FIELD.label = 2
-slot2.SC_13001_DAILY_REPAIR_COUNT_FIELD.has_default_value = false
-slot2.SC_13001_DAILY_REPAIR_COUNT_FIELD.default_value = 0
-slot2.SC_13001_DAILY_REPAIR_COUNT_FIELD.type = 13
-slot2.SC_13001_DAILY_REPAIR_COUNT_FIELD.cpp_type = 3
 slot2.SC_13001_REACT_CHAPTER_FIELD.name = "react_chapter"
 slot2.SC_13001_REACT_CHAPTER_FIELD.full_name = "p13.sc_13001.react_chapter"
-slot2.SC_13001_REACT_CHAPTER_FIELD.number = 4
-slot2.SC_13001_REACT_CHAPTER_FIELD.index = 3
+slot2.SC_13001_REACT_CHAPTER_FIELD.number = 2
+slot2.SC_13001_REACT_CHAPTER_FIELD.index = 1
 slot2.SC_13001_REACT_CHAPTER_FIELD.label = 1
 slot2.SC_13001_REACT_CHAPTER_FIELD.has_default_value = false
 slot2.SC_13001_REACT_CHAPTER_FIELD.default_value = nil
@@ -283,8 +294,8 @@ slot2.SC_13001_REACT_CHAPTER_FIELD.type = 11
 slot2.SC_13001_REACT_CHAPTER_FIELD.cpp_type = 10
 slot2.SC_13001_FLEET_LIST_FIELD.name = "fleet_list"
 slot2.SC_13001_FLEET_LIST_FIELD.full_name = "p13.sc_13001.fleet_list"
-slot2.SC_13001_FLEET_LIST_FIELD.number = 5
-slot2.SC_13001_FLEET_LIST_FIELD.index = 4
+slot2.SC_13001_FLEET_LIST_FIELD.number = 3
+slot2.SC_13001_FLEET_LIST_FIELD.index = 2
 slot2.SC_13001_FLEET_LIST_FIELD.label = 3
 slot2.SC_13001_FLEET_LIST_FIELD.has_default_value = false
 slot2.SC_13001_FLEET_LIST_FIELD.default_value = {}
@@ -297,8 +308,6 @@ SC_13001.nested_types = {}
 SC_13001.enum_types = {}
 SC_13001.fields = {
 	slot2.SC_13001_CHAPTER_LIST_FIELD,
-	slot2.SC_13001_CURRENT_CHAPTER_FIELD,
-	slot2.SC_13001_DAILY_REPAIR_COUNT_FIELD,
 	slot2.SC_13001_REACT_CHAPTER_FIELD,
 	slot2.SC_13001_FLEET_LIST_FIELD
 }
@@ -2593,6 +2602,7 @@ groupinchapter = slot0.Message(GROUPINCHAPTER)
 pro_chapter_submarine = slot0.Message(PRO_CHAPTER_SUBMARINE)
 reactchapter_info = slot0.Message(REACTCHAPTER_INFO)
 remapcount = slot0.Message(REMAPCOUNT)
+sc_13000 = slot0.Message(SC_13000)
 sc_13001 = slot0.Message(SC_13001)
 sc_13002 = slot0.Message(SC_13002)
 sc_13004 = slot0.Message(SC_13004)

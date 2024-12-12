@@ -486,6 +486,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>\"The phoenix dances when the fox roars, bathing in flames and receiving new flesh. Though lives change, memories do not.\"</color> \nGiven to Commanders who participated in the Ode of Everblooming Crimson event.",
 		scene = {}
 	},
+	[333] = {
+		name = "Starlight From Beyond",
+		gain_by = "",
+		time_second = 0,
+		id = 333,
+		time_limit_type = 0,
+		desc = "Obtained from an upcoming event.",
+		scene = {}
+	},
 	[406] = {
 		name = "Hall of Fame: Laffey ",
 		gain_by = "",
@@ -793,6 +802,7 @@ pg.item_data_frame = {
 		330,
 		331,
 		332,
+		333,
 		406,
 		411,
 		412,

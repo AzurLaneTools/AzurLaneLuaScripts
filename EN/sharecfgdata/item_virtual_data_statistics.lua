@@ -167062,6 +167062,31 @@ _G.pg.base.item_virtual_data_statistics[65058] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65061] = {
+	drop_gold_max = 0,
+	name = "Training Pts",
+	display = "Used to exchange for a portrait frame. Removed after the event ends.",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_20241212",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65061,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[69000] = {
 	drop_gold_max = 0,
 	name = "Damage Rating ",

@@ -3194,6 +3194,10 @@ pg.skill_data_display = setmetatable({
 		201158,
 		201168,
 		201169,
+		201171,
+		201172,
+		201173,
+		201175,
 		1011540,
 		1011541,
 		1090010,
@@ -16118,6 +16122,22 @@ pg.base.skill_data_display = {
 	[201169] = {
 		id = 201169,
 		name = "Combined Fleet, Set Sail!"
+	},
+	[201171] = {
+		id = 201171,
+		name = "Spiritshadow Procession: Act I"
+	},
+	[201172] = {
+		id = 201172,
+		name = "Spiritshadow Procession: Act II"
+	},
+	[201173] = {
+		id = 201173,
+		name = "Spiritshadow Procession: Act III"
+	},
+	[201175] = {
+		id = 201175,
+		name = "Otherworldly Domain"
 	},
 	[1011540] = {
 		id = 1011540,

@@ -354,6 +354,7 @@ pg.skill_data_template = setmetatable({
 		60770,
 		60780,
 		60790,
+		60800,
 		7000,
 		9010,
 		9020,
@@ -2341,6 +2342,13 @@ pg.skill_data_template = setmetatable({
 		801482,
 		801485,
 		801487,
+		801490,
+		801500,
+		801510,
+		801521,
+		801522,
+		801525,
+		801527,
 		901010,
 		901020,
 		902010,
@@ -12722,6 +12730,20 @@ pg.base.skill_data_template = {
 		max_level = 0,
 		desc = "The wearer emits a special, charismatic aura during battle.",
 		id = 60790,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60800] = {
+		desc_get = "",
+		name = "Memphis' Blues",
+		type = 0,
+		max_level = 0,
+		desc = "When equipped by a particular character: 20s after the battle starts, deploys a barrier (lasts 20s) around a random ship in your Vanguard that can negate DMG equal to 2.0% max HP.",
+		id = 60800,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -86602,7 +86624,7 @@ Increases this ship's DMG dealt by 2.0% and increases the radar scan's activatio
 	},
 	[17360] = {
 		desc_get = "",
-		name = "关岛跨队占用",
+		name = "On-Air Broadcast Assistance",
 		type = 1,
 		max_level = 10,
 		desc = "跨队效果占用ID",
@@ -152752,6 +152774,280 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 		id = 801487,
 		system_transform = {
 			[51.0] = 801487
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801490] = {
+		desc_get = "",
+		name = "Spiritshadow Procession",
+		type = 1,
+		max_level = 10,
+		desc = "When this ship launches an airstrike: additionally launches a $1 special airstrike and summons a Spiritshadow to assist in battle (special airstrike DMG is based on the skill's level).",
+		id = 801490,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[801500] = {
+		desc_get = "",
+		name = "Scarlet Denouement",
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's AVI and RLD by $1. Whenever this ship finished loading an airstrike while having at least 40.0% HP: decreases this ship's HP by 130, then increases her AVI by $2 until the battle ends (can be stacked up to 3 times).",
+		id = 801500,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"1.0%",
+				"4.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.3%"
+				},
+				{
+					"1.3%",
+					"+0.3%"
+				},
+				{
+					"1.6%",
+					"+0.4%"
+				},
+				{
+					"2.0%",
+					"+0.3%"
+				},
+				{
+					"2.3%",
+					"+0.3%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.3%"
+				},
+				{
+					"3.3%",
+					"+0.3%"
+				},
+				{
+					"3.6%",
+					"+0.4%"
+				},
+				{
+					"4.0%"
+				}
+			}
+		}
+	},
+	[801510] = {
+		desc_get = "",
+		name = "Otherworldly Domain",
+		type = 1,
+		max_level = 10,
+		desc = "Every 10s: fires a $1 special barrage, inflicting a special Burn ailment on all enemies hit for 8s (barrage DMG is based on the skill's level and this ship's AVI stat); enemies affected by this special Burn ailment have 5.0% reduced FP.",
+		id = 801510,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[801521] = {
+		desc_get = "",
+		name = "Flickering Light - Taihou I",
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 3.0%.",
+		id = 801521,
+		system_transform = {
+			[51.0] = 801525
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801522] = {
+		desc_get = "",
+		name = "Flickering Light - Taihou II",
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 8.0%.",
+		id = 801522,
+		system_transform = {
+			[51.0] = 801527
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801525] = {
+		desc_get = "",
+		name = "Flickering Light - Taihou I",
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 3.0%.",
+		id = 801525,
+		system_transform = {
+			[51.0] = 801525
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801527] = {
+		desc_get = "",
+		name = "Flickering Light - Taihou II",
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 8.0%.",
+		id = 801527,
+		system_transform = {
+			[51.0] = 801527
 		},
 		world_death_mark = {
 			1

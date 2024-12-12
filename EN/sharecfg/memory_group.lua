@@ -209,6 +209,7 @@ pg.memory_group = setmetatable({
 		309,
 		310,
 		311,
+		312,
 		501,
 		502,
 		503,
@@ -4965,6 +4966,25 @@ pg.base.memory_group = {
 			4056,
 			4057,
 			4058
+		}
+	},
+	[312] = {
+		title = "Return From the Beyond",
+		subtype = 1,
+		link_event = 5699,
+		type = 2,
+		id = 312,
+		icon = "title_event",
+		memories = {
+			4071,
+			4072,
+			4073,
+			4074,
+			4075,
+			4076,
+			4077,
+			4078,
+			4079
 		}
 	},
 	[501] = {

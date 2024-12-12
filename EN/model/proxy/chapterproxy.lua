@@ -48,19 +48,20 @@ slot0.register = function(slot0)
 			end
 		end
 
-		if slot0.current_chapter and slot0.current_chapter.id > 0 then
-			slot3 = uv0:getChapterById(slot2, true)
-
-			slot3:update(slot0.current_chapter)
-			uv0:updateChapter(slot3)
-		end
-
-		uv0.repairTimes = slot0.daily_repair_count
-
 		if slot0.react_chapter then
 			uv0.remasterTickets = slot0.react_chapter.count
 			uv0.remasterDailyCount = slot0.react_chapter.daily_count
 			uv0.remasterTip = uv0.remasterDailyCount <= 0
+		end
+	end)
+	slot0:on(13000, function (slot0)
+		uv0.repairTimes = slot0.daily_repair_count
+
+		if slot0.current_chapter and slot0.current_chapter.id > 0 then
+			slot2 = uv0:getChapterById(slot1, true)
+
+			slot2:update(slot0.current_chapter)
+			uv0:updateChapter(slot2)
 		end
 
 		Map.lastMap = uv0:getLastMap(uv1.LAST_MAP)

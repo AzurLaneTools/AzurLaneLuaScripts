@@ -31,6 +31,12 @@ slot0.initUI = function(slot0)
 		slot0:findTF("pagefooter/dailyPacks"),
 		slot0:findTF("pagefooter/specialPacks")
 	}
+
+	setText(slot0:findTF("pagefooter/dailyPacks/Text"), i18n("blackfriday_dailypack"))
+	setText(slot0:findTF("pagefooter/dailyPacks/mark"), i18n("blackfriday_dailypack"))
+	setText(slot0:findTF("pagefooter/specialPacks/Text"), i18n("blackfriday_specialpack"))
+	setText(slot0:findTF("pagefooter/specialPacks/mark"), i18n("blackfriday_specialpack"))
+
 	slot0.pagefooterWid = slot0.pagefooters[1].rect.width
 	slot0.pagefooterStartPosX = slot0.pagefooters[1].anchoredPosition.x
 	slot0.giftItemList = UIItemList.New(slot0.content, slot0:findTF("gift_tpl"))

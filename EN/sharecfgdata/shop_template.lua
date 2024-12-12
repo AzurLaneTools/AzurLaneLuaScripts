@@ -38726,8 +38726,8 @@ _G.pg.base.shop_template[70728] = {
 		{
 			{
 				2024,
-				11,
-				14
+				12,
+				12
 			},
 			{
 				0,
@@ -38739,7 +38739,7 @@ _G.pg.base.shop_template[70728] = {
 			{
 				2024,
 				12,
-				4
+				18
 			},
 			{
 				23,
@@ -43841,8 +43841,8 @@ _G.pg.base.shop_template[70845] = {
 		{
 			{
 				2024,
-				11,
-				14
+				12,
+				12
 			},
 			{
 				0,
@@ -43854,7 +43854,7 @@ _G.pg.base.shop_template[70845] = {
 			{
 				2024,
 				12,
-				4
+				18
 			},
 			{
 				23,
@@ -47710,8 +47710,8 @@ _G.pg.base.shop_template[70937] = {
 		{
 			{
 				2024,
-				11,
-				14
+				12,
+				12
 			},
 			{
 				0,
@@ -47721,9 +47721,9 @@ _G.pg.base.shop_template[70937] = {
 		},
 		{
 			{
-				2024,
-				12,
-				4
+				2025,
+				1,
+				1
 			},
 			{
 				23,
@@ -47763,8 +47763,8 @@ _G.pg.base.shop_template[70938] = {
 		{
 			{
 				2024,
-				11,
-				14
+				12,
+				12
 			},
 			{
 				0,
@@ -47774,9 +47774,9 @@ _G.pg.base.shop_template[70938] = {
 		},
 		{
 			{
-				2024,
-				12,
-				4
+				2025,
+				1,
+				1
 			},
 			{
 				23,
@@ -51775,7 +51775,7 @@ _G.pg.base.shop_template[71026] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 2,
+	order = 6,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -51828,7 +51828,7 @@ _G.pg.base.shop_template[71027] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 2,
+	order = 6,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -51881,7 +51881,7 @@ _G.pg.base.shop_template[71028] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 2,
+	order = 6,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -51934,7 +51934,7 @@ _G.pg.base.shop_template[71029] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 3,
+	order = 6,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -51987,7 +51987,7 @@ _G.pg.base.shop_template[71030] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 1,
+	order = 6,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -52040,7 +52040,7 @@ _G.pg.base.shop_template[71031] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 2,
+	order = 6,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -52093,7 +52093,7 @@ _G.pg.base.shop_template[71032] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 3,
+	order = 6,
 	group = 0,
 	num = 1,
 	discount = 0,

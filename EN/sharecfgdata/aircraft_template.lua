@@ -84515,6 +84515,200 @@ _G.pg.base.aircraft_template[166900] = {
 }
 
 
+_G.pg.base.aircraft_template[166951] = {
+	name = "大凤META舰载机Lv1",
+	max_hp = 42,
+	accuracy = 23,
+	model_ID = "sairenfeiji_wuxing",
+	ACC_growth = 0,
+	crash_DMG = 188,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 2,
+	AP_growth = 2000,
+	icon = "sairenfeiji_wuxing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1605,
+	speed = 52,
+	id = 166951,
+	scale = 1,
+	weapon_ID = {
+		166961
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.26,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[166952] = {
+	max_hp = 48,
+	name = "大凤META舰载机Lv2",
+	spawn_brownian = 1,
+	base = 166951,
+	id = 166952,
+	hp_growth = 1846,
+	weapon_ID = {
+		166962
+	}
+}
+
+
+_G.pg.base.aircraft_template[166953] = {
+	max_hp = 54,
+	name = "大凤META舰载机Lv3",
+	spawn_brownian = 1,
+	base = 166951,
+	id = 166953,
+	hp_growth = 2087,
+	weapon_ID = {
+		166963
+	}
+}
+
+
+_G.pg.base.aircraft_template[166954] = {
+	max_hp = 61,
+	name = "大凤META舰载机Lv4",
+	spawn_brownian = 1,
+	base = 166951,
+	id = 166954,
+	hp_growth = 2327,
+	weapon_ID = {
+		166964
+	}
+}
+
+
+_G.pg.base.aircraft_template[166955] = {
+	max_hp = 67,
+	name = "大凤META舰载机Lv5",
+	spawn_brownian = 1,
+	base = 166951,
+	id = 166955,
+	hp_growth = 2568,
+	weapon_ID = {
+		166965
+	}
+}
+
+
+_G.pg.base.aircraft_template[166956] = {
+	max_hp = 73,
+	name = "大凤META舰载机Lv6",
+	spawn_brownian = 1,
+	base = 166951,
+	id = 166956,
+	hp_growth = 2809,
+	weapon_ID = {
+		166966
+	}
+}
+
+
+_G.pg.base.aircraft_template[166957] = {
+	max_hp = 79,
+	name = "大凤META舰载机Lv7",
+	spawn_brownian = 1,
+	base = 166951,
+	id = 166957,
+	hp_growth = 3050,
+	weapon_ID = {
+		166967
+	}
+}
+
+
+_G.pg.base.aircraft_template[166958] = {
+	max_hp = 86,
+	name = "大凤META舰载机Lv8",
+	spawn_brownian = 1,
+	base = 166951,
+	id = 166958,
+	hp_growth = 3290,
+	weapon_ID = {
+		166968
+	}
+}
+
+
+_G.pg.base.aircraft_template[166959] = {
+	max_hp = 92,
+	name = "大凤META舰载机Lv9",
+	spawn_brownian = 1,
+	base = 166951,
+	id = 166959,
+	hp_growth = 3531,
+	weapon_ID = {
+		166969
+	}
+}
+
+
+_G.pg.base.aircraft_template[166960] = {
+	max_hp = 98,
+	name = "大凤META舰载机Lv10",
+	spawn_brownian = 1,
+	base = 166951,
+	id = 166960,
+	hp_growth = 3772,
+	weapon_ID = {
+		166970
+	}
+}
+
+
 _G.pg.base.aircraft_template[200101] = {
 	name = "【大舰队米德维BOSS】执棋者 轰炸机",
 	max_hp = 202,
@@ -235001,9 +235195,1549 @@ _G.pg.base.aircraft_template[2967044] = {
 }
 
 
+_G.pg.base.aircraft_template[2979025] = {
+	name = "【大世界】大凤meta 第二波 本体-战斗机 Lv1",
+	max_hp = 46,
+	accuracy = 25,
+	model_ID = "sairenfeiji_wuxing",
+	ACC_growth = 0,
+	crash_DMG = 36,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_wuxing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 33,
+	id = 2979025,
+	scale = 0.75,
+	weapon_ID = {
+		2979030
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2979026] = {
+	name = "【大世界】大凤meta 第二波 本体-战斗机 Lv2",
+	max_hp = 56,
+	accuracy = 30,
+	model_ID = "sairenfeiji_wuxing",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_wuxing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 33,
+	id = 2979026,
+	scale = 0.75,
+	weapon_ID = {
+		2979031
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2979027] = {
+	name = "【大世界】大凤meta 第二波 本体-战斗机 Lv3",
+	max_hp = 66,
+	accuracy = 35,
+	model_ID = "sairenfeiji_wuxing",
+	ACC_growth = 0,
+	crash_DMG = 62,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_wuxing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 33,
+	id = 2979027,
+	scale = 0.75,
+	weapon_ID = {
+		2979032
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2979028] = {
+	name = "【大世界】大凤meta 第二波 本体-战斗机 Lv4",
+	max_hp = 76,
+	accuracy = 40,
+	model_ID = "sairenfeiji_wuxing",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_wuxing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 33,
+	id = 2979028,
+	scale = 0.75,
+	weapon_ID = {
+		2979033
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2979029] = {
+	name = "【大世界】大凤meta 第二波 本体-战斗机 Lv5",
+	max_hp = 86,
+	accuracy = 45,
+	model_ID = "sairenfeiji_wuxing",
+	ACC_growth = 0,
+	crash_DMG = 98,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_wuxing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 33,
+	id = 2979029,
+	scale = 0.75,
+	weapon_ID = {
+		2979034
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2979035] = {
+	name = "【大世界】大凤meta 第二波 本体-轰炸机 Lv1",
+	max_hp = 54,
+	accuracy = 25,
+	model_ID = "sairenfeiji_wuxing",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "sairenfeiji_wuxing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 30,
+	id = 2979035,
+	scale = 0.75,
+	weapon_ID = {
+		2979040
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2979036] = {
+	name = "【大世界】大凤meta 第二波 本体-轰炸机 Lv2",
+	max_hp = 64,
+	accuracy = 30,
+	model_ID = "sairenfeiji_wuxing",
+	ACC_growth = 0,
+	crash_DMG = 85,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "sairenfeiji_wuxing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 30,
+	id = 2979036,
+	scale = 0.75,
+	weapon_ID = {
+		2979041
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2979037] = {
+	name = "【大世界】大凤meta 第二波 本体-轰炸机 Lv3",
+	max_hp = 74,
+	accuracy = 35,
+	model_ID = "sairenfeiji_wuxing",
+	ACC_growth = 0,
+	crash_DMG = 110,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "sairenfeiji_wuxing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 30,
+	id = 2979037,
+	scale = 0.75,
+	weapon_ID = {
+		2979042
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2979038] = {
+	name = "【大世界】大凤meta 第二波 本体-轰炸机 Lv4",
+	max_hp = 84,
+	accuracy = 40,
+	model_ID = "sairenfeiji_wuxing",
+	ACC_growth = 0,
+	crash_DMG = 140,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "sairenfeiji_wuxing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 30,
+	id = 2979038,
+	scale = 0.75,
+	weapon_ID = {
+		2979043
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2979039] = {
+	name = "【大世界】大凤meta 第二波 本体-轰炸机 Lv5",
+	max_hp = 94,
+	accuracy = 45,
+	model_ID = "sairenfeiji_wuxing",
+	ACC_growth = 0,
+	crash_DMG = 175,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "sairenfeiji_wuxing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 30,
+	id = 2979039,
+	scale = 0.75,
+	weapon_ID = {
+		2979044
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2979065] = {
+	name = "【大世界】大凤meta 第三波 本体-鱼雷机 Lv1",
+	max_hp = 50,
+	accuracy = 23,
+	model_ID = "sairenfeiji_wuxing",
+	ACC_growth = 0,
+	crash_DMG = 52,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 2,
+	AP_growth = 2000,
+	icon = "sairenfeiji_wuxing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 30,
+	id = 2979065,
+	scale = 0.75,
+	weapon_ID = {
+		2979070
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2979066] = {
+	name = "【大世界】大凤meta 第三波 本体-鱼雷机 Lv2",
+	max_hp = 60,
+	accuracy = 23,
+	model_ID = "sairenfeiji_wuxing",
+	ACC_growth = 0,
+	crash_DMG = 70,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 2,
+	AP_growth = 2000,
+	icon = "sairenfeiji_wuxing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 30,
+	id = 2979066,
+	scale = 0.75,
+	weapon_ID = {
+		2979071
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2979067] = {
+	name = "【大世界】大凤meta 第三波 本体-鱼雷机 Lv3",
+	max_hp = 70,
+	accuracy = 23,
+	model_ID = "sairenfeiji_wuxing",
+	ACC_growth = 0,
+	crash_DMG = 90,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 2,
+	AP_growth = 2000,
+	icon = "sairenfeiji_wuxing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 30,
+	id = 2979067,
+	scale = 0.75,
+	weapon_ID = {
+		2979072
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2979068] = {
+	name = "【大世界】大凤meta 第三波 本体-鱼雷机 Lv4",
+	max_hp = 80,
+	accuracy = 23,
+	model_ID = "sairenfeiji_wuxing",
+	ACC_growth = 0,
+	crash_DMG = 112,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 2,
+	AP_growth = 2000,
+	icon = "sairenfeiji_wuxing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 30,
+	id = 2979068,
+	scale = 0.75,
+	weapon_ID = {
+		2979073
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2979069] = {
+	name = "【大世界】大凤meta 第三波 本体-鱼雷机 Lv5",
+	max_hp = 90,
+	accuracy = 23,
+	model_ID = "sairenfeiji_wuxing",
+	ACC_growth = 0,
+	crash_DMG = 136,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 2,
+	AP_growth = 2000,
+	icon = "sairenfeiji_wuxing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 30,
+	id = 2979069,
+	scale = 0.75,
+	weapon_ID = {
+		2979074
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2979080] = {
+	name = "【大世界】大凤meta 第四波 召唤物-高速冲底飞机 Lv1",
+	max_hp = 64,
+	accuracy = 25,
+	model_ID = "sairenfeiji_wuxing",
+	ACC_growth = 0,
+	crash_DMG = 36,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_wuxing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 60,
+	id = 2979080,
+	scale = 0.75,
+	weapon_ID = {
+		2979085
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2979081] = {
+	name = "【大世界】大凤meta 第四波 召唤物-高速冲底飞机 Lv2",
+	max_hp = 88,
+	accuracy = 30,
+	model_ID = "sairenfeiji_wuxing",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_wuxing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 60,
+	id = 2979081,
+	scale = 0.75,
+	weapon_ID = {
+		2979086
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2979082] = {
+	name = "【大世界】大凤meta 第四波 召唤物-高速冲底飞机 Lv3",
+	max_hp = 46,
+	accuracy = 35,
+	model_ID = "sairenfeiji_wuxing",
+	ACC_growth = 0,
+	crash_DMG = 62,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_wuxing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 60,
+	id = 2979082,
+	scale = 0.75,
+	weapon_ID = {
+		2979087
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2979083] = {
+	name = "【大世界】大凤meta 第四波 召唤物-高速冲底飞机 Lv4",
+	max_hp = 56,
+	accuracy = 40,
+	model_ID = "sairenfeiji_wuxing",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_wuxing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 60,
+	id = 2979083,
+	scale = 0.75,
+	weapon_ID = {
+		2979088
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2979084] = {
+	name = "【大世界】大凤meta 第四波 召唤物-高速冲底飞机 Lv5",
+	max_hp = 66,
+	accuracy = 45,
+	model_ID = "sairenfeiji_wuxing",
+	ACC_growth = 0,
+	crash_DMG = 98,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "sairenfeiji_wuxing",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 97,
+	hp_growth = 1960,
+	speed = 60,
+	id = 2979084,
+	scale = 0.75,
+	weapon_ID = {
+		2979089
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
 _G.pg.base.aircraft_template[3001301] = {
 	name = "【2022意大利活动A3】BOSS 塞壬执棋者II型 轰炸机",
-	max_hp = 140,
+	max_hp = 76,
 	accuracy = 23,
 	model_ID = "shenhaifeiji",
 	ACC_growth = 0,
@@ -235080,7 +236814,7 @@ _G.pg.base.aircraft_template[3001301] = {
 
 _G.pg.base.aircraft_template[3001302] = {
 	name = "【2022意大利活动A3】BOSS 塞壬执棋者II型 鱼雷机",
-	max_hp = 126,
+	max_hp = 86,
 	accuracy = 23,
 	model_ID = "shenhaifeiji",
 	ACC_growth = 0,
